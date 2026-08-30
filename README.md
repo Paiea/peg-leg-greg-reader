@@ -2,23 +2,23 @@
 
 Open `index.html` in any modern browser.
 
-This static reader publishes **Chapters 1–82** from `Peg_Leg_Greg_authoritative_ch82_final_name_map.docx`.
+This static reader publishes **Chapters 1–97** from the closed Book 1 authority plus the current Book 2 post-Editor authority.
 
 The manuscript remains the prose authority. This reader is a derived publishing build.
 
 ## Current source
 
-- Manuscript: `Peg_Leg_Greg_authoritative_ch82_final_name_map.docx`
-- SHA-256: `9b7ee31c56ac4ada233e18bcf3a843a9e2984c8d5857bdde8b96fb770b933799`
-- Published chapters: 1–82
-- Latest chapter: Chapter 82 — THE RECONCILER
+- Book 1 manuscript: `Peg_Leg_Greg_authoritative_ch82_final_name_map.docx` — Chapters 1–82, CLOSED
+- Book 2 manuscript: `Peg_Leg_Greg_Book2_Ch83-97_light_ship_edited.docx` — Chapters 83–97, ACTIVE
+- Book 1 SHA-256: `cbccfde5bf54ab7afd427505ef5f48d3a9c5f7f50552e69e9616b4294b7339d8`
+- Book 2 SHA-256: `01bc096b6a89edf76e3e2a8f1d21504fa965327d113908afa8c3818fd3fa3724`
+- Published chapters: 1–97
+- Latest chapter: Chapter 97 — THE VARIABLE
 
 ## Art
 
-Open `art.html` or click **ART** to browse approved visual material, including the current developmental world map and visual references.
-
-Only previously curated reader art ships here. Development contact sheets and unpromoted image-production batches are not published. Chapters 65–82 may therefore remain prose-only at this synchronization checkpoint.
+Open `art.html` or click **ART** to browse approved visual material. Only previously reader-promoted art ships in chapter pages. Development contact sheets and unpromoted production assets are not referenced by the reader.
 
 ## Responsive behavior
 
-Illustrations use intrinsic image height on narrow screens. Feature art is not placed in fixed-height or generic aspect-ratio containers.
+Illustrations retain the established intrinsic image behavior on narrow screens. The reader architecture was not redesigned for the Chapter 97 synchronization.

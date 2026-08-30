@@ -30,7 +30,7 @@
 | R4C2 | Vale paperwork scene | RE-PROMPT REQUIRED | Remove invented readable `VALE GUILD` signage; emphasize invoice/tally work |
 | R4C3 | Ch82 working table / active room | PROMOTE — HIGH PRIORITY | `svgPLG_Ch82_HR_Bounded-Work.png` |
 | R4C4 | Social meal / laughter | DEVELOPMENT ONLY | Redundant with stronger R4C1 |
-| R4C5 | Greg/Lysa social scene | RE-PROMPT REQUIRED | Needs clearer physical action and changed-body continuity |
+| R4C5 | Greg/Lyssa social scene | RE-PROMPT REQUIRED | Needs clearer physical action and changed-body continuity |
 
 ## Promotion priority
 

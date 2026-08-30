@@ -1,9 +1,9 @@
-# PEG-LEG GREG --- CHAPTER INDEX --- CH92
+# PEG-LEG GREG --- CHAPTER INDEX --- CH97
 
-**Current endpoint:** Chapter 92 --- THE SPECTATOR
+**Current endpoint:** Chapter 97 --- THE VARIABLE
 
 Chapters 1--64 use the published checkpoint's role-title sequence.
-Chapters 65--82 complete Book 1. Chapters 83--92 are the current Book 2 manuscript checkpoint.
+Chapters 65--82 close Book 1. Chapters 83--97 are the current Book 2 manuscript.
 
 1.  **THE BOY**
 2.  **THE BORROWER**
@@ -97,3 +97,8 @@ Chapters 65--82 complete Book 1. Chapters 83--92 are the current Book 2 manuscri
 90. **THE BUYER**
 91. **THE BEGINNER**
 92. **THE SPECTATOR**
+93. **THE HOLDER**
+94. **THE SUBJECT**
+95. **THE TASTER**
+96. **THE WITNESS**
+97. **THE VARIABLE**

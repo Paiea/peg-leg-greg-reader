@@ -34,16 +34,17 @@ Final name map:
 - Pellian / Pell → Arlo
 - Ressa Vale → Iona Vale
 - Pera → Iris
+- Lysa → Lyssa (same existing character; spelling correction)
 
 No additional Book 1 naming decisions are authorized.
 
 ## Book 2
 
-Active manuscript. Current authoritative Book 2 prose source: `state/manuscript/Peg_Leg_Greg_Book2_Ch83-92_light_ship_edited.docx`.
+Active manuscript. Current authoritative Book 2 prose source: `state/manuscript/Peg_Leg_Greg_Book2_Ch83-97_light_ship_edited.docx`.
 
-**REPOSITORY MANUSCRIPT VALIDATED THROUGH CH92 — THE SPECTATOR.**
+**REPOSITORY MANUSCRIPT VALIDATED THROUGH CH97 — THE VARIABLE.**
 
-Book 1 remains closed through Chapter 82. Chapters 83–92 are validated against the supplied authoritative Book 2 manuscript. `MANUSCRIPT_STATE.md`, `OPEN_THREADS.md`, `MANUSCRIPT_CHAPTER_INDEX.md`, and `EDITOR_STATE.md` are synchronized to that checkpoint. Story Control and Writers' Room remain developmental/context authorities under their existing classifications and do not supersede manuscript events.
+Book 1 remains closed through Chapter 82. Chapters 83–97 are validated against the supplied post-Editor Book 2 manuscript. `MANUSCRIPT_STATE.md`, `OPEN_THREADS.md`, `MANUSCRIPT_CHAPTER_INDEX.md`, and `EDITOR_STATE.md` are synchronized to that checkpoint. `STORY_CONTROL_STATE.md` and `WRITERS_ROOM_STATE.md` are preserved as developmental/context state and do not supersede manuscript events.
 
 Current broad direction remains **A LIFE → A WIDER LIFE**. Do not promote developmental possibilities to canon merely because the manuscript checkpoint advanced.
 

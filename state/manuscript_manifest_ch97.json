@@ -1,0 +1,25 @@
+{
+  "book1": {
+    "file": "Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+    "chapters": "1-82",
+    "status": "CLOSED",
+    "sha256": "cbccfde5bf54ab7afd427505ef5f48d3a9c5f7f50552e69e9616b4294b7339d8"
+  },
+  "book2": {
+    "file": "Peg_Leg_Greg_Book2_Ch83-97_light_ship_edited.docx",
+    "chapters": "83-97",
+    "status": "ACTIVE",
+    "sha256": "01bc096b6a89edf76e3e2a8f1d21504fa965327d113908afa8c3818fd3fa3724"
+  },
+  "endpoint": {
+    "chapter": 97,
+    "title": "THE VARIABLE"
+  },
+  "explicit_author_corrections": [
+    "Pel Marris -> Silas Marris",
+    "Pellian/Pell -> Arlo",
+    "Ressa Vale -> Iona Vale",
+    "Pera -> Iris",
+    "Lysa -> Lyssa"
+  ]
+}

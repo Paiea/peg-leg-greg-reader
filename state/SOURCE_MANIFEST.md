@@ -3,31 +3,33 @@
 ## Current authoritative manuscript sources
 
 - Book 1: `Peg_Leg_Greg_authoritative_ch82_final_name_map.docx` — Chapters 1–82, CLOSED.
-- Book 2: `Peg_Leg_Greg_Book2_Ch83-92_light_ship_edited.docx` — Chapters 83–92, ACTIVE.
-- Book 2 SHA-256: `bce05b4747b6867bce629bec816786e7cdc322a704debaffe6e2dd2a54d386c7`
-- Current story endpoint: Chapter 92 — **THE SPECTATOR**.
-- The manuscript sources are sovereign. Reader HTML is derived presentation.
+- Book 2: `Peg_Leg_Greg_Book2_Ch83-97_light_ship_edited.docx` — Chapters 83–97, ACTIVE.
+- Book 1 SHA-256: `cbccfde5bf54ab7afd427505ef5f48d3a9c5f7f50552e69e9616b4294b7339d8`
+- Book 2 SHA-256: `01bc096b6a89edf76e3e2a8f1d21504fa965327d113908afa8c3818fd3fa3724`
+- Current story endpoint: Chapter 97 — **THE VARIABLE**.
+- Explicit canonical identity spelling: **Lysa → Lyssa**; same existing character.
+- The manuscript sources plus explicit author decisions are sovereign. Reader HTML is derived presentation.
 
 ## Authority chain
 
-AUTHORITATIVE / BEST-CURRENT MANUSCRIPT → DERIVED ILLUSTRATED READER → PUBLISHED GITHUB PAGES COPY
+AUTHORITATIVE / BEST-CURRENT MANUSCRIPT + EXPLICIT AUTHOR DECISIONS → DERIVED ILLUSTRATED READER → PUBLISHED GITHUB PAGES COPY
 
-The manuscript is sovereign. The reader never owns prose. Illustrations do not create story canon.
+Illustrations do not create story canon. Story Control and Writers' Room state remain developmental/contextual under their classifications.
 
 ## Historical publishing checkpoints
 
-- `Peg_Leg_Greg_authoritative_v65_ch64_light_ship_edit.docx` — historical Chapter 64 baseline.
-- Earlier Chapter 44 / Chapter 29 sources are historical only and must not be treated as current publishing authority.
+- `state/manuscript/history/Peg_Leg_Greg_Book2_Ch83-92_light_ship_edited.docx` — historical Chapter 92 Book 2 checkpoint.
+- `state/manuscript/history/Peg_Leg_Greg_Book2_Ch83-97_light_ship_edited_pre_Lyssa_historical.docx` — exact incoming Chapter 97 Editor handoff manuscript before the explicit Lyssa spelling normalization.
+- `state/manuscript/history/Peg_Leg_Greg_authoritative_ch82_final_name_map_pre_Lyssa_historical.docx` — prior Book 1 authority before the explicit Lyssa spelling normalization.
+- Older Chapter 64 / Chapter 44 / Chapter 29 sources remain historical only where retained by repository history.
 
 ## State architecture
 
-Durable operating memory now uses compact Markdown state files under `state/`. `PROJECT_STATE.md` records repository-wide operating architecture; engine-owned state files retain their own authority and ownership. State files do not supersede the authoritative manuscript for story events or exact prose.
+Compact operating memory under `state/` is synchronized from the current handoff. `MANUSCRIPT_STATE.md`, `OPEN_THREADS.md`, `MANUSCRIPT_CHAPTER_INDEX.md`, `EDITOR_STATE.md`, `STORY_CONTROL_STATE.md`, and `WRITERS_ROOM_STATE.md` retain their distinct roles and do not replace manuscript authority.
 
-## Book 2 repository boundary
+## Current repository boundary
 
-- Book 1 authority remains `Peg_Leg_Greg_authoritative_ch82_final_name_map.docx`, Chapters 1–82, closed.
-- Book 2 authority: `Peg_Leg_Greg_Book2_Ch83-92_light_ship_edited.docx`.
-- Book 2 SHA-256: `bce05b4747b6867bce629bec816786e7cdc322a704debaffe6e2dd2a54d386c7`
-- Repository/reader validated through: Chapter 92 — **THE SPECTATOR**.
-- Chapters 83–92 were derived directly from the authoritative Book 2 DOCX; no prose reconstruction from state or conversation was used.
-- Current compact manuscript/editor state supplied with the Ch92 handoff is synchronized under `state/`.
+- Book 1 remains closed through Chapter 82 — **THE RECONCILER**.
+- Book 2 reader/manuscript is validated through Chapter 97 — **THE VARIABLE**.
+- Chapters 83–97 were derived directly from the current post-Editor Book 2 DOCX; no prose reconstruction from Markdown or conversation was used.
+- Existing reader artwork and visual-production files were preserved; only active textual metadata spelling Lysa → Lyssa was normalized.

@@ -9,3 +9,10 @@
 - Actual structure: 20 panels, 5×4.
 - State: DEVELOPMENT / CURATION ART. Nothing from the contact sheet is STANDALONE READY or READER PROMOTED.
 - Current standalone-generation priority: Ch79 Seated Padded Knife; Ch75 First Fourteen Steps; Ch77 Holl's Sorting Test; Ch79 Watching the Yard; Ch82 Bounded Work.
+
+
+## Lyssa — canonical visual identity
+
+- Canonical spelling: **Lyssa** (same existing character previously spelled Lysa).
+- Black woman; tall relative to Greg; thin/lithe build; natural Afro-textured hair.
+- Do not invent additional appearance details from this note.

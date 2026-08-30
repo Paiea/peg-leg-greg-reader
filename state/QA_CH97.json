@@ -1,0 +1,112 @@
+{
+  "chapter_html_count": 97,
+  "chapter_sequence_ok": true,
+  "endpoint_title": "THE VARIABLE",
+  "chapter_index_title_match": true,
+  "toc_count": 97,
+  "toc_sequence_ok": true,
+  "navigation_errors": [],
+  "book2_prose_match_by_chapter": {
+    "83": {
+      "title": "THE SUITOR",
+      "paragraphs": 382,
+      "match": true
+    },
+    "84": {
+      "title": "THE PASSENGER",
+      "paragraphs": 395,
+      "match": true
+    },
+    "85": {
+      "title": "THE ARBITER",
+      "paragraphs": 460,
+      "match": true
+    },
+    "86": {
+      "title": "THE PLAYER",
+      "paragraphs": 470,
+      "match": true
+    },
+    "87": {
+      "title": "THE BLUFFER",
+      "paragraphs": 541,
+      "match": true
+    },
+    "88": {
+      "title": "THE OCCUPANT",
+      "paragraphs": 528,
+      "match": true
+    },
+    "89": {
+      "title": "THE SUBSTITUTE",
+      "paragraphs": 634,
+      "match": true
+    },
+    "90": {
+      "title": "THE BUYER",
+      "paragraphs": 588,
+      "match": true
+    },
+    "91": {
+      "title": "THE BEGINNER",
+      "paragraphs": 570,
+      "match": true
+    },
+    "92": {
+      "title": "THE SPECTATOR",
+      "paragraphs": 475,
+      "match": true
+    },
+    "93": {
+      "title": "THE HOLDER",
+      "paragraphs": 481,
+      "match": true
+    },
+    "94": {
+      "title": "THE SUBJECT",
+      "paragraphs": 554,
+      "match": true
+    },
+    "95": {
+      "title": "THE TASTER",
+      "paragraphs": 484,
+      "match": true
+    },
+    "96": {
+      "title": "THE WITNESS",
+      "paragraphs": 488,
+      "match": true
+    },
+    "97": {
+      "title": "THE VARIABLE",
+      "paragraphs": 471,
+      "match": true
+    }
+  },
+  "all_book2_prose_match": true,
+  "image_refs_checked": 105,
+  "broken_local_refs": [],
+  "development_image_refs": [],
+  "images_missing_alt": [],
+  "visual_binary_changed": [],
+  "visual_binary_missing": [],
+  "name_counts_active": {
+    "Lysa": 5,
+    "Lyssa": 121,
+    "Pel Marris": 2,
+    "Pellian": 2,
+    "Ressa Vale": 2,
+    "Pera": 2,
+    "Silas Marris": 51,
+    "Arlo": 6,
+    "Iona Vale": 6,
+    "Iris": 88,
+    "book1_Lysa": 0,
+    "book1_Lyssa": 47,
+    "book2_Lysa": 0,
+    "book2_Lyssa": 62
+  },
+  "book1_sha256": "cbccfde5bf54ab7afd427505ef5f48d3a9c5f7f50552e69e9616b4294b7339d8",
+  "book2_sha256": "01bc096b6a89edf76e3e2a8f1d21504fa965327d113908afa8c3818fd3fa3724",
+  "github_repo_present": false
+}
