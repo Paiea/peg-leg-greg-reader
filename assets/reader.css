@@ -147,3 +147,43 @@ a { color:var(--link); }
   .chapter-art.feature-illustration img { width:calc(100vw - 12px); height:auto; }
   .chapter-art.feature-illustration.feature-portrait img { width:calc(100vw - 24px); height:auto; max-height:none; }
 }
+
+
+/* Mobile illustration box: intrinsic-height, role width comes from the figure */
+@media (max-width:600px) {
+  .chapter-art.scene-illustration,
+  .chapter-art.feature-illustration {
+    height:auto;
+    min-height:0;
+    max-height:none;
+    aspect-ratio:auto;
+    padding-top:0;
+    padding-bottom:0;
+  }
+
+  .chapter-art.scene-illustration > a,
+  .chapter-art.feature-illustration > a {
+    display:block;
+    width:100%;
+    max-width:100%;
+    height:auto;
+    min-height:0;
+    max-height:none;
+    aspect-ratio:auto;
+    margin:0;
+  }
+
+  .chapter-art.scene-illustration img,
+  .chapter-art.feature-illustration img,
+  .chapter-art.feature-illustration.feature-portrait img {
+    display:block;
+    width:100%;
+    max-width:100%;
+    height:auto;
+    min-height:0;
+    max-height:none;
+    aspect-ratio:auto;
+    object-fit:initial;
+    margin:0;
+  }
+}
