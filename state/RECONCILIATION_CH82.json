@@ -1,5 +1,5 @@
 {
-  "source": "Peg_Leg_Greg_authoritative_ch82_light_edit(1).docx",
+  "source": "Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
   "sha256": "9b7ee31c56ac4ada233e18bcf3a843a9e2984c8d5857bdde8b96fb770b933799",
   "chapters": 82,
   "baseline_comparison_1_64": {
@@ -683,7 +683,7 @@
         "after_old_index": 429,
         "mapped_index": 429,
         "map_mode": "exact-anchor",
-        "prev_text": "“Sometimes dark sealed sacks.”"
+        "prev_text": "\u201cSometimes dark sealed sacks.\u201d"
       }
     ],
     "20": [
@@ -711,7 +711,7 @@
         "after_old_index": 510,
         "mapped_index": 510,
         "map_mode": "exact-anchor",
-        "prev_text": "“Your ten feet.”"
+        "prev_text": "\u201cYour ten feet.\u201d"
       }
     ],
     "22": [
@@ -733,7 +733,7 @@
         "after_old_index": 45,
         "mapped_index": 45,
         "map_mode": "exact-anchor",
-        "prev_text": "“Captain Ressa. You take intake overflow.”"
+        "prev_text": "\u201cCaptain Ressa. You take intake overflow.\u201d"
       }
     ],
     "24": [
@@ -769,7 +769,7 @@
         "after_old_index": 252,
         "mapped_index": 252,
         "map_mode": "exact-anchor",
-        "prev_text": "“Dead creatures recovered.”"
+        "prev_text": "\u201cDead creatures recovered.\u201d"
       }
     ],
     "27": [
@@ -793,7 +793,7 @@
         "after_old_index": 75,
         "mapped_index": 75,
         "map_mode": "exact-anchor",
-        "prev_text": "A married couple, Harl and Tessa, who had left their pigs with Harl’s brother and were now arguing about whether that had been wise."
+        "prev_text": "A married couple, Harl and Tessa, who had left their pigs with Harl\u2019s brother and were now arguing about whether that had been wise."
       }
     ],
     "32": [
@@ -833,7 +833,7 @@
         "after_old_index": 62,
         "mapped_index": 62,
         "map_mode": "exact-anchor",
-        "prev_text": "“You were bitten in the boot.”"
+        "prev_text": "\u201cYou were bitten in the boot.\u201d"
       }
     ],
     "37": [

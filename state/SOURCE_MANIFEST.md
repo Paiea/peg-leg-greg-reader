@@ -2,8 +2,8 @@
 
 ## Current authoritative publishing manuscript
 
-- File: `Peg_Leg_Greg_authoritative_ch82_light_edit(1).docx`
-- SHA-256: `9b7ee31c56ac4ada233e18bcf3a843a9e2984c8d5857bdde8b96fb770b933799`
+- File: `Peg_Leg_Greg_authoritative_ch82_final_name_map.docx`
+- SHA-256: `32c0f6c1a4a6b2fe14310b2cf0d5526efedaedd0459e164e1fa412084afc8a89`
 - Chapters: 1–82
 - Approximate body words: 261,849
 - Latest chapter: Chapter 82 — THE RECONCILER
