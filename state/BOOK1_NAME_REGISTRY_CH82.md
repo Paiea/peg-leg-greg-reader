@@ -6,6 +6,17 @@
 
 **Book 2 guardrail:** no new character name becomes canon without checking exact match, spelling similarity, phonetic similarity, first syllable, ending/rhythm, visual confusability, text-to-speech confusability, and whether the similar names occupy similar narrative/social contexts.
 
+## FINAL APPROVED BOOK 1 RENAME MAP — APPLIED
+
+| Former name | Canonical name | Identity | Status |
+|---|---|---|---|
+| Pel Marris | **Silas Marris** | trading / freight entity | Applied across Book 1. Pell Arwick remains protected. |
+| Pellian / “Pell” | **Arlo** | incidental child, Ch30 | Applied across Book 1. Collision-dependent name joke removed surgically. |
+| Ressa Vale | **Iona Vale** | West River Yard rigging lead | Applied across Book 1. Captain Ressa remains unchanged. |
+| Pera | **Iris** | minor recurring spearwoman | Applied across Book 1. Pessa remains unchanged. |
+
+**Do not resurrect the former names for these identities in Book 2 or repository reconciliation.**
+
 ## CANONICAL / PROTECTED NAMES
 
 | Name | Role / identity | Importance | First appearance | Status / distinguishing note |
@@ -32,8 +43,8 @@
 | Nerin | healer / post-amputation recovery presence | recurring | Ch65 | Protect provisionally; late-book Mer-/Ner- collision cluster. |
 | Sera Dain | healer | recurring | Ch64 | Protect. Distinct from Rella in Ch42. |
 | Rella | Havi Cloth manager | minor | Ch42 | **Restored canonical rename in this pass.** Do not revert to Sera. |
-| Captain Ressa | North Gate / Guild intake captain | recurring | Ch23 | Protect provisionally. Exact-name collision with Iona Vale requires authorial decision. |
-| Iona Vale | West River Yard rigging lead | recurring | Ch62 | Exact-name collision with Captain Ressa. Do not merge identities without evidence. |
+| Captain Ressa | North Gate / Guild intake captain | recurring | Ch23 | Protected. Duplicate first-name issue resolved by Ressa Vale → Iona Vale. |
+| Iona Vale | West River Yard rigging lead | recurring | Ch62 | Canonical rename from Ressa Vale. Captain Ressa remains a separate character. |
 | Nessa | recurring social / work acquaintance introduced through Jorren | recurring | Ch35 | Protect provisionally; Nara/Nera/Nella/Nessa cluster. |
 | Nella | Verran Grain Stores worker / operational witness | minor recurring | Ch17 | Collision watch. |
 | Nera Voss | shop specialist | minor | Ch12 | Collision watch; low attachment relative to Nessa. |
@@ -56,23 +67,23 @@
 
 | Name | Role / identity | Importance | First appearance | Collision note |
 |---|---|---:|---:|---|
-| Silas Marris | trading / freight entity | recurring plot reference | Ch32 | **Severe:** Pel is effectively Pell in speech/TTS. Pell Arwick receives stronger protection. Consider rename. |
-| Pellor | boat / work character | minor | Ch24 | High similarity to Pell; manuscript even says “Not Pell.” Consider rename if Writers’ Room supplies replacement. |
-| Arlo | child, explicitly nicknamed Pell | incidental | Ch30 | **Severe:** exact spoken nickname Pell. Very low attachment; strong rename candidate. |
-| Pellin | incidental name referenced via sheep / mother | incidental | Ch23 | High similarity to Pell/Arlo/Pellor. Strong rename candidate if retained. |
+| Silas Marris | trading / freight entity | recurring plot reference | Ch32 | Canonical rename from Pel Marris; prior Pel/Pell spoken collision resolved. |
+| Pellor | boat / work character | minor | Ch24 | Accepted similarity with Pell Arwick. KEEP in Book 1; Book 2 guardrail only. |
+| Arlo | child | incidental | Ch30 | Canonical rename from Pellian/“Pell”; exact Pell collision resolved. |
+| Pellin | incidental name referenced via sheep / mother | incidental | Ch23 | Accepted similarity with Pell Arwick/Pellor. KEEP in Book 1; do not extend Pell-family sounds in Book 2. |
 | Sella | Guild clerk / future institutional figure | recurring minor | Ch2 | Similar to Selka. Earlier and more structurally recurring; stronger protection. |
-| Selka Merren | weaver / debtor-business arc | minor arc | Ch8 | One-letter / TTS similarity to Sella. Consider rename before changing Sella. |
-| Iris | spearwoman | minor recurring | Ch27 | One-letter / phonetic collision with Pessa. Pessa receives stronger protection. |
-| Lessa | yard worker | minor | Ch42 | Adds to -essa cluster. Low attachment; possible rename candidate. |
-| Tessa | Harl’s spouse in travel group | incidental | Ch30 | Adds to -essa cluster. Very low attachment; possible rename candidate. |
+| Selka Merren | weaver / debtor-business arc | minor arc | Ch8 | Accepted Sella/Selka similarity. KEEP; avoid adding another Sel-/Sell-/Silk-like recurring name. |
+| Iris | spearwoman | minor recurring | Ch27 | Canonical rename from Pera; Pera/Pessa collision resolved. |
+| Lessa | yard worker | minor | Ch42 | Accepted member of existing -essa cluster. KEEP in Book 1. |
+| Tessa | Harl’s spouse in travel group | incidental | Ch30 | Accepted member of existing -essa cluster. KEEP in Book 1. |
 | Dena Harrow | chandlery owner | incidental/minor | Ch9 | Dena/Dema/Dela cluster. Dema receives stronger protection. |
-| Dela Marr | later property/work contact | minor recurring | Ch72 | Dena/Dema/Dela cluster; also Marr surname. Subjective rename decision. |
+| Dela Marr | later property/work contact | minor recurring | Ch72 | Accepted Dena/Dema/Dela similarity. KEEP; Marr surname implications remain untouched. |
 | Senn | village / goat-handling woman | minor arc | Ch26 | Similar to Senna. |
 | Senna | poker player | incidental/minor | Ch4 | Similar to Senn; chapters well separated. Watch, not urgent. |
-| Mera | traveler with clothing sacks; also “Mera Freight” later as business wording | incidental | Ch30 | Very close to Merra/Mara; low attachment. |
+| Mera | traveler with clothing sacks; also “Mera Freight” later as business wording | incidental | Ch30 | Accepted similarity with Merra/Mara. KEEP in Book 1. |
 | Merra | records keeper / archivist | recurring late | Ch78 | Close to Mera/Mara/Merrin/Merrit/Merren. Protect provisionally due late recurring use. |
-| Merrit | road/tools operator | minor | Ch45 | Close to Merrin/Merren/Merra. Low-attachment rename candidate. |
-| Merrin | Vale clerk | incidental/minor | Ch82 | Correctly distinct from Berren, but now sits inside heavy Merr-/Mer- cluster. Do not revert to Berren. Consider later rename if approved. |
+| Merrit | road/tools operator | minor | Ch45 | Accepted Merr-/Mer- similarity. KEEP in Book 1; Book 2 guardrail only. |
+| Merrin | Vale clerk | incidental/minor | Ch82 | KEEP. Distinct from Berren. Do not revert to Berren; late Merr-/Mer- cluster is Book 2 guardrail only. |
 | Merren | Selka’s surname / business name | minor arc | Ch8 | Close to Merrin/Merrit; surname context reduces confusion somewhat. |
 | Maret | specialist / work character | minor recurring | Ch56 | Close to Mara/Merra/Marn. Watch. |
 | Marn | older hoist operator | minor recurring | Ch62 | Close to Mara/Maret/Marr. Watch. |
@@ -90,30 +101,28 @@
 | Perrin | Darrowmere intake civilian / later reference | minor | Ch23 | Keep; weak similarity to Merrin but pronunciation/context distinct enough. |
 | Holm | Darrowmere civilian | incidental | Ch23 | Keep. |
 | Jory | sixteen-year-old messenger / helper | minor arc | Ch27 | Keep. |
-| Eda | Iris-associated older woman | incidental | Ch27 | Keep. |
+| Eda | Pera-associated older woman | incidental | Ch27 | Keep. |
 | Sima | night watch | incidental | Ch17 | Keep. |
 
 ## COLLISION WATCH — PRIORITY
 
-### SEVERE / READER-CONFUSION LIKELY
+### RESOLVED IN FINAL BOOK 1 NAME PASS
 
-1. **Pell Arwick / Silas Marris** — effectively identical in speech and TTS. Protect Pell Arwick. Silas Marris is a strong authorial rename candidate.
-2. **Pell Arwick / Arloor / Pellin** — one established recurring anchor surrounded by several low-attachment variants. The low-attachment names should move before Pell.
-3. **Captain Ressa / Iona Vale** — exact first-name duplicate across two different competent professional women. Identity is not established as shared. Authorial decision required; do not silently merge.
-4. **Nara / Nera / Nella / Nessa** — same initial, similar vowels, rhythm, and several female supporting roles. Nessa is the strongest protection candidate; Nera/Nara are lower attachment.
-5. **Hessa / Pessa / Vessa / Ressa / Nessa / Lessa / Tessa** — cumulative -essa saturation. Not every member needs changing. Hessa receives strongest protection; Pessa/Vessa are recurring and should not be casually changed; Lessa/Tessa are easiest low-attachment pressure-release candidates.
-6. **Nerin / Merrin / Merren / Merrit / Merra** — late-book audio/visual cluster. Nerin and Merra have stronger recurring attachment than Merrin/Merrit. Merrin is already a correction away from Berren, so any further rename should be approved rather than improvised.
+1. **Pell Arwick / Pel Marris** — resolved by **Pel Marris → Silas Marris**.
+2. **Pell Arwick / Pellian (“Pell”)** — resolved by **Pellian / “Pell” → Arlo**.
+3. **Captain Ressa / Ressa Vale** — resolved by **Ressa Vale → Iona Vale**. Captain Ressa remains unchanged.
+4. **Pera / Pessa** — resolved by **Pera → Iris**. Pessa remains unchanged.
 
-### MODERATE / CONSIDER IF WRITERS’ ROOM WANTS A CLEANER CAST
+### WATCH ONLY — NO FURTHER BOOK 1 SURGERY APPROVED
 
-- **Sella / Selka** — one-letter and TTS similarity; protect Sella over Selka.
-- **Iris / Pessa** — one-letter and strong phonetic similarity; protect Pessa.
-- **Dena / Dema / Dela** — very similar three-name pattern; protect recurring Dema.
-- **Dorn / Dorrin** — close sound and both recur in practical work contexts. No safe unilateral rename chosen.
-- **Mara / Mera / Merra / Maret / Marn** — cumulative visual/phonetic family; Mera is lowest attachment.
-- **Sava / Sova** — one-letter pair; both low attachment and separated in chapter range.
-- **Senn / Senna** — very close, but well separated and context-distinct.
-- **Len / Leni** — close but low-impact and separated.
+- **Pell Arwick / Pellor / Pellin** — accepted existing similarity. Do not add new Pel-/Pell- names in Book 2.
+- **Hessa / Pessa / Vessa / Captain Ressa / Nessa / Lessa / Tessa** — accepted existing `-essa` saturation; Book 2 naming warning only.
+- **Nara / Nera / Nella / Nessa / Nerin** — accepted existing N-name similarity; avoid extending the pattern.
+- **Nerin / Merrin / Merren / Merrit / Merra / Mera / Maret / Marn** — accepted existing Mer-/Merr-/Mar- congestion; do not add another close form without a strong reason.
+- **Sella / Selka** — accepted. Avoid another Sel-/Sell-/Silk-like recurring name nearby.
+- **Dena / Dema / Dela** — accepted. Protect Dema; do not extend the pattern.
+- **Dorn / Dorrin** — accepted provisionally; avoid another Dor-/Dorr- practical-work name.
+- **Sava / Sova**, **Senn / Senna**, **Len / Leni** — accepted low-impact similarities.
 
 ## KNOWN / ACCEPTED DISTINCT NAMES
 
@@ -126,10 +135,10 @@
 - **Hessa Marr / Alden Marr / Dela Marr** share a surname; relationships are not to be invented editorially.
 - **Rusk / Dema Rusk / Marek Rusk** share a surname; relationship remains unresolved unless Story Control establishes it.
 
-## FUTURE RENAME IMPLEMENTATION RULE
+## FUTURE NAME IMPLEMENTATION RULE
 
-When Writers’ Room / Story Control approves replacements, perform a mechanical surgical pass only:
+The four approved Book 1 renames are complete. Do not perform further Book 1 name changes without a new explicit authorial map.
 
-`OLD CANONICAL NAME → NEW CANONICAL NAME`
+For Book 2, every new canonical name must receive a reader-confusion check against this registry: exact match, spelling similarity, phonetic/TTS similarity, first syllable, ending/rhythm, visual confusability, and overlap in narrative/social context.
 
-Update every Book 1 reference for that identity, then run a collision check again. Do not use the rename pass as permission to rewrite surrounding prose except where a sentence explicitly comments on the old collision and becomes nonsensical after the rename.
+If a future rename is approved, use a mechanical surgical pass only: `OLD CANONICAL NAME → NEW CANONICAL NAME`, update every identity-specific reference, then check for stale old-name occurrences. Do not use a rename pass as permission for prose polishing.
