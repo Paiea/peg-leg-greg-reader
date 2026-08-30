@@ -226,3 +226,102 @@ a { color:var(--link); }
 
 /* Preserve intentional manuscript line breaks inside paragraphs */
 .prose p { white-space: pre-line; }
+
+
+/* Illustrated-novel elevation pass: book rhythm, not gallery chrome */
+.chapter-title {
+  position:relative;
+  max-width:42rem;
+  padding-bottom:1.55rem;
+}
+.chapter-title::after {
+  content:"";
+  position:absolute;
+  left:50%;
+  bottom:0;
+  width:clamp(42px,8vw,76px);
+  height:1px;
+  background:var(--line);
+  transform:translateX(-50%);
+}
+.chapter-title .number { color:var(--muted); }
+.prose { max-width:46rem; margin:0 auto; }
+
+/* Three deliberate illustration weights. */
+.chapter-art {
+  line-height:0;
+  break-inside:avoid;
+}
+.chapter-art.sketch-beat {
+  margin-top:2.25rem;
+  margin-bottom:2.45rem;
+}
+.chapter-art.sketch-beat img {
+  width:min(520px, calc(100vw - 48px));
+  max-height:62vh;
+}
+.chapter-art.scene-illustration {
+  margin-top:3.7rem;
+  margin-bottom:3.9rem;
+}
+.chapter-art.scene-illustration img {
+  width:min(1020px, calc(100vw - 48px));
+  max-height:82vh;
+}
+.chapter-art.feature-illustration {
+  margin-top:5.2rem;
+  margin-bottom:5.5rem;
+}
+
+/* Homepage hierarchy: enter the novel first; gallery stays available but quiet. */
+.home-actions .tertiary-action {
+  min-height:48px;
+  padding:12px 8px;
+  color:var(--muted);
+  border:1px solid transparent;
+  font-weight:600;
+}
+.home-actions .tertiary-action:hover { color:var(--ink); }
+
+@media (max-width:600px) {
+  .chapter-title { padding-bottom:1.2rem; }
+  .chapter-art.sketch-beat,
+  .chapter-art.scene-illustration,
+  .chapter-art.feature-illustration {
+    height:auto;
+    min-height:0;
+    max-height:none;
+    aspect-ratio:auto;
+  }
+  .chapter-art.sketch-beat { margin-top:1.65rem; margin-bottom:1.8rem; }
+  .chapter-art.scene-illustration { margin-top:2.35rem; margin-bottom:2.55rem; }
+  .chapter-art.feature-illustration { margin-top:3.1rem; margin-bottom:3.35rem; }
+  .chapter-art.sketch-beat > a {
+    width:min(82vw,520px);
+    max-width:100%;
+    margin:0 auto;
+  }
+  .chapter-art.sketch-beat > img,
+  .chapter-art.sketch-beat > a > img {
+    width:min(82vw,520px);
+    max-width:100%;
+    margin:0 auto;
+  }
+  .chapter-art.scene-illustration > a,
+  .chapter-art.scene-illustration > img,
+  .chapter-art.scene-illustration > a > img,
+  .chapter-art.feature-illustration > a,
+  .chapter-art.feature-illustration > img,
+  .chapter-art.feature-illustration > a > img {
+    display:block;
+    width:100%;
+    max-width:100%;
+    height:auto;
+    min-height:0;
+    max-height:none;
+    aspect-ratio:auto;
+    margin:0;
+    object-fit:initial;
+  }
+  .home-actions .tertiary-action { grid-column:1/-1; min-height:38px; padding:8px; }
+}

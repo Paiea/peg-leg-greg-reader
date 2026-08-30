@@ -26,3 +26,7 @@ Commands such as `PROMOTE svgPLG_Ch48_HR_Stove-at-the-Turn.png` or `PROMOTE CH48
 ## Current example
 
 `svgPLG_Ch48_HR_Stove-at-the-Turn.png` is **STANDALONE READY** and **NOT READER PROMOTED**. Its intended anchor is the Chapter 48 Stove at the Turn maneuver passage.
+## Current coverage-mode authorization
+
+The user has explicitly authorized a coverage push. During this phase, existing **STANDALONE READY** assets already classified as reader-eligible may move to **READER PROMOTED** without an individual `PROMOTE` command when the recorded scene/anchor is supported, the image is readable, stylistically compatible, continuity-safe, and improves chapter coverage. Contact sheets remain DEVELOPMENT and may not be auto-cropped. RE-PROMPT, rejected, unresolved, or scene-mismatched assets remain outside the reader. Existing reader art is not replaced merely because another asset exists.
+

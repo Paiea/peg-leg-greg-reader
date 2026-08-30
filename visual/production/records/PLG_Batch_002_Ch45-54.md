@@ -62,7 +62,9 @@ No panel from this contact sheet is reader-facing merely because it is marked KE
 - Asset: `visual/production/standalone/svgPLG_Ch48_HR_Stove-at-the-Turn.png`
 - Source received: `ChatGPT Image Aug 29, 2026, 09_22_19 PM.png`
 - Status: **STANDALONE READY**
-- Reader status: **NOT READER PROMOTED**
+- Reader status: **READER PROMOTED — COVERAGE PUSH 2026-08-29**
+- Reader asset: `visual/chapter_art/048/svgPLG_Ch48_HR_Stove-at-the-Turn.png` (exact byte-for-byte copy of the standalone asset)
+- Placement anchor: immediately after `Passed turn. / No magic. / Excellent.` in Chapter 48.
 - Contact-sheet crop: **NO** — this is a separately generated standalone asset.
 - QA: strong vertical stairwell; one heavy stove; three men at different stair levels; awkward diagonal geometry; tight ceiling/landing; visible physical strain; movement and comedy read clearly; no text/UI/panel numbering; no visible magical-effect continuity problem.
 - Continuity caution: do not use incidental fine facial/clothing details from this standalone as new story canon. Manuscript and curated recurring-character references remain authoritative.
@@ -82,7 +84,7 @@ No panel from this contact sheet is reader-facing merely because it is marked KE
 - QA: long ladder creates a strong diagonal across a busy wet working street; loaded delivery wagon and wheel geometry remain legible; two men physically lower/rotate/carry the ladder rather than pose; surrounding workers and traffic keep the lane functioning independently; no text/UI/panel numbering; no visible magic continuity issue.
 - Continuity caution: manuscript and curated recurring-character references remain authoritative over incidental facial, clothing, wagon, architecture, and crowd details.
 - Intended story anchor: Chapter 48 ladder/delivery-cart maneuver passage.
-- Promotion note: the standalone asset exists and has passed basic visual QA. Explicit user promotion approval is still required before reader insertion.
+- Promotion status after coverage push: **HELD OUT — ANCHOR/SCENE MISMATCH**. The recorded Chapter 48 “ladder/delivery-cart maneuver” anchor is not present in the current Chapter 48 reader prose. Under the coverage-mode hard rejection rule, do not insert a clearly unsupported scene merely to increase density. Asset remains **STANDALONE READY / NOT READER PROMOTED** pending a valid story anchor or later replacement.
 
 ## Coverage Burst follow-up — Chapters 50–54
 A subsequent development contact sheet is recorded in `PLG_Batch_003_Ch50-54.md`. It supplied useful candidate concepts for Ch53 Bath, Ch53 Wooden Horse, and Ch54 Table Full of Other People, but no separate standalone assets accompanied that handoff. Those scenes therefore remain **not reader-complete** under the three-state pipeline. Ch50 The Click, Ch51 Lane Support, and Ch52 If He's Willing remain active re-prompt needs.

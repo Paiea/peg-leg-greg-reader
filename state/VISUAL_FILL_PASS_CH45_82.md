@@ -111,11 +111,11 @@ A new 15-panel production handoff has been recorded at `visual/production/record
 
 ## CH48 standalone received
 
-`svgPLG_Ch48_HR_Stove-at-the-Turn.png` is **STANDALONE READY** and remains outside the reader pending explicit user promotion approval. Intended anchor: Chapter 48 Stove at the Turn maneuver passage. It is the current highest-priority promotion candidate from Batch 001 / Chapters 45–54.
+`svgPLG_Ch48_HR_Stove-at-the-Turn.png` moved from **STANDALONE READY** to **READER PROMOTED** during the authorized coverage push. The exact standalone asset was copied byte-for-byte to `visual/chapter_art/048/svgPLG_Ch48_HR_Stove-at-the-Turn.png` and placed after the successful stair-turn maneuver beat: `Passed turn. / No magic. / Excellent.`
 
 ### CH48 Ladder Geometry production update
 
-`svgPLG_Ch48_HR_Ladder-Geometry.png` now exists as a separately generated **STANDALONE READY** asset (1536×1024). It is **NOT READER PROMOTED**. Recorded anchor: Chapter 48 ladder/delivery-cart maneuver passage. Do not crop the contact sheet or substitute another image; promotion requires explicit user approval.
+`svgPLG_Ch48_HR_Ladder-Geometry.png` remains **STANDALONE READY / NOT READER PROMOTED**. During the coverage push, the recorded “Chapter 48 ladder/delivery-cart maneuver” anchor could not be supported by the current Chapter 48 reader prose, so the image was deliberately held rather than forcing an incorrect scene into the reader.
 
 ## Coverage Burst — Chapters 55–59
 
@@ -127,3 +127,12 @@ No panel is reader-facing and no contact-sheet crop is permitted. Current standa
 3. Ch56 `svgPLG_Ch56_HR_East-Lamp-Works.png`
 
 Secondary candidates: Ch56 voluntary sparring, Ch57 seven-copper gloves, Ch59 boot-eyelet repair, Ch59 three apples. Existing reader art remains stable.
+## Coverage push — authorized reader promotion
+
+Coverage mode is active: broad illustration coverage is prioritized over feature-art perfection, while hard continuity/scene failures remain excluded. Existing contact sheets remain DEVELOPMENT and are never auto-cropped.
+
+- Promoted: Ch48 `svgPLG_Ch48_HR_Stove-at-the-Turn.png` at its recorded maneuver beat.
+- Held: Ch48 `svgPLG_Ch48_HR_Ladder-Geometry.png`; the recorded ladder/delivery-cart scene is not supported by the current Ch48 prose, so it remains standalone-ready rather than being forced into an unrelated passage.
+- No manuscript prose changed.
+- No existing reader art replaced.
+
