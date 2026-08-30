@@ -52,6 +52,22 @@ Current broad direction remains **A LIFE → A WIDER LIFE**. Do not promote deve
 
 Visual state remains separate from manuscript state. Development contact sheets remain DEVELOPMENT; standalone assets remain separate production objects; reader artwork is only reader-facing when explicitly promoted under the established production workflow. Preserve the coverage-first strategy. Do not auto-crop or auto-publish development art.
 
+2026-08-30 visual coverage harvest: 36 author-supplied DEVELOPMENT discovery panels were cleanly extracted as standalone assets and explicitly promoted into Chapters 83–97 under the coverage-first workflow. Source contact sheets remain DEVELOPMENT and are not reader-facing.
+
 ## Current synchronization rule
 
 Update existing compact state before adding new state. Preserve engine-owned substance. Consult the manuscript whenever exact prose, chronology, wording, or scene detail matters.
+
+## Pending canonical cleanup
+
+**PENDING CANONICAL CLEANUP:** Lysa → Lyssa
+
+**SCOPE:** Existing character only.
+
+**STATUS:** Queued for next manuscript synchronization.
+
+At the next authoritative manuscript synchronization, normalize the existing character's name from `Lysa` to `Lyssa` wherever appropriate. Preserve role, relationships, characterization, dialogue, and events. Do not create a new character, alter surrounding prose beyond the direct name replacement, touch unrelated names, or reopen other Book 1 editorial decisions.
+
+Approved visual identity for this existing character only: Black woman; tall relative to Greg; thin/lithe build; natural Afro-textured hair. Do not infer or add further appearance details from this instruction.
+
+Do not perform this queued cleanup as a standalone manuscript/reader edit.
