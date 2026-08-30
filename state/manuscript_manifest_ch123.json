@@ -1,0 +1,20 @@
+{
+  "checkpoint": "ch123",
+  "book1": {
+    "path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+    "sha256": "cbccfde5bf54ab7afd427505ef5f48d3a9c5f7f50552e69e9616b4294b7339d8",
+    "chapters": "1-82",
+    "status": "CLOSED"
+  },
+  "book2": {
+    "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+    "sha256": "d665a55d11cb4ed7fa73d5131ac77b9bf57b532c23c2ea376ba55ec7fd144d53",
+    "chapters": "83-123",
+    "status": "ACTIVE"
+  },
+  "endpoint": {
+    "chapter": 123,
+    "title": "THE ERRAND"
+  },
+  "integration_note": "Merged repository-authoritative edited Ch83-105 with incoming rolling Ch106-123 to avoid regressing approved earlier corrections."
+}

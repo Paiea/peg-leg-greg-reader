@@ -1,0 +1,50 @@
+{
+  "errors": [],
+  "book1_sha256": "cbccfde5bf54ab7afd427505ef5f48d3a9c5f7f50552e69e9616b4294b7339d8",
+  "book2_sha256": "d665a55d11cb4ed7fa73d5131ac77b9bf57b532c23c2ea376ba55ec7fd144d53",
+  "book2_chapters": 41,
+  "reader_chapters": 123,
+  "toc_entries": 123,
+  "visual_files": 232,
+  "image_refs": 149,
+  "render_pages": 537,
+  "changed_files": [
+    "README.md",
+    "chapters/105.html",
+    "index.html",
+    "state/ILLUSTRATED_EDITION_SOURCE.md",
+    "state/MANUSCRIPT_CHAPTER_INDEX.md",
+    "state/MANUSCRIPT_STATE.md",
+    "state/OPEN_THREADS.md",
+    "state/PROJECT_STATE.md",
+    "state/SOURCE_MANIFEST.md"
+  ],
+  "added_files": [
+    "chapters/106.html",
+    "chapters/107.html",
+    "chapters/108.html",
+    "chapters/109.html",
+    "chapters/110.html",
+    "chapters/111.html",
+    "chapters/112.html",
+    "chapters/113.html",
+    "chapters/114.html",
+    "chapters/115.html",
+    "chapters/116.html",
+    "chapters/117.html",
+    "chapters/118.html",
+    "chapters/119.html",
+    "chapters/120.html",
+    "chapters/121.html",
+    "chapters/122.html",
+    "chapters/123.html",
+    "state/QA_CH123.json",
+    "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+    "state/manuscript/history/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited_ch105_checkpoint.docx",
+    "state/manuscript_manifest_ch123.json"
+  ],
+  "removed_files": [
+    "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx"
+  ],
+  "git_available": false
+}
