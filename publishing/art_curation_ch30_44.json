@@ -1,0 +1,198 @@
+{
+  "30": {
+    "asset": "v45_c30_fourteen-west.png",
+    "source_master": "batch_001_4panel.png",
+    "panel": 1,
+    "grid": "2x2",
+    "size": [
+      762,
+      506
+    ],
+    "role": "scene-illustration",
+    "status": "KEEP",
+    "displayed": true
+  },
+  "31": {
+    "asset": "v45_c31_stoneworker-stress-reading.png",
+    "source_master": "batch_002_15panel.png",
+    "panel": 2,
+    "grid": "5x3",
+    "size": [
+      284,
+      324
+    ],
+    "role": "scene-illustration",
+    "status": "NEEDS REVIEW",
+    "displayed": false,
+    "reason": "Generated image depicts an exterior/dock-like stone-load inspection, while v45 Chapter 31 visual anchor is Rinna performing stone load-mapping inside Hessa\u2019s training room. Preserved as development art, not published."
+  },
+  "32": {
+    "asset": "v45_c32_sealed-grain-annex.png",
+    "source_master": "batch_001_4panel.png",
+    "panel": 2,
+    "grid": "2x2",
+    "size": [
+      762,
+      506
+    ],
+    "role": "scene-illustration",
+    "status": "KEEP",
+    "displayed": true
+  },
+  "33": {
+    "asset": "v45_c33_wet-bean-storehouse.png",
+    "source_master": "batch_003_15panel.png",
+    "panel": 4,
+    "grid": "3x5",
+    "size": [
+      477,
+      216
+    ],
+    "role": "scene-illustration",
+    "status": "KEEP",
+    "displayed": true
+  },
+  "34": {
+    "asset": "v45_c34_regulator-shelf-support.png",
+    "source_master": "batch_002_15panel.png",
+    "panel": 4,
+    "grid": "5x3",
+    "size": [
+      251,
+      324
+    ],
+    "role": "sketch-beat",
+    "status": "KEEP",
+    "displayed": true
+  },
+  "35": {
+    "asset": "v45_c35_evening-beer-shop.png",
+    "source_master": "batch_003_15panel.png",
+    "panel": 9,
+    "grid": "3x5",
+    "size": [
+      497,
+      189
+    ],
+    "role": "scene-illustration",
+    "status": "KEEP",
+    "displayed": true
+  },
+  "36": {
+    "asset": "v45_c36_rebuilt-boot.png",
+    "source_master": "batch_002_15panel.png",
+    "panel": 7,
+    "grid": "5x3",
+    "size": [
+      278,
+      296
+    ],
+    "role": "sketch-beat",
+    "status": "KEEP",
+    "displayed": true
+  },
+  "37": {
+    "asset": "v45_c37_four-copper-millrace.png",
+    "source_master": "batch_001_4panel.png",
+    "panel": 3,
+    "grid": "2x2",
+    "size": [
+      762,
+      506
+    ],
+    "role": "scene-illustration",
+    "status": "KEEP",
+    "displayed": true
+  },
+  "38": {
+    "asset": "v45_c38_hands.png",
+    "source_master": "batch_002_15panel.png",
+    "panel": 8,
+    "grid": "5x3",
+    "size": [
+      274,
+      296
+    ],
+    "role": "sketch-beat",
+    "status": "KEEP",
+    "displayed": true
+  },
+  "39": {
+    "asset": "v45_c39_three-way-spar.png",
+    "source_master": "batch_003_15panel.png",
+    "panel": 12,
+    "grid": "3x5",
+    "size": [
+      497,
+      160
+    ],
+    "role": "scene-illustration",
+    "status": "KEEP",
+    "displayed": true
+  },
+  "40": {
+    "asset": "v45_c40_pell-vessa-workshop.png",
+    "source_master": "batch_003_15panel.png",
+    "panel": 13,
+    "grid": "3x5",
+    "size": [
+      477,
+      169
+    ],
+    "role": "scene-illustration",
+    "status": "KEEP",
+    "displayed": true
+  },
+  "41": {
+    "asset": "v45_c41_dorrin-stone-sorted.png",
+    "source_master": "batch_003_15panel.png",
+    "panel": 14,
+    "grid": "3x5",
+    "size": [
+      549,
+      169
+    ],
+    "role": "scene-illustration",
+    "status": "KEEP",
+    "displayed": true
+  },
+  "42": {
+    "asset": "v45_c42_first-problem-freight-yard.png",
+    "source_master": "batch_001_4panel.png",
+    "panel": 4,
+    "grid": "2x2",
+    "size": [
+      762,
+      506
+    ],
+    "role": "scene-illustration",
+    "status": "KEEP",
+    "displayed": true
+  },
+  "43": {
+    "asset": "v45_c43_the-porter.png",
+    "source_master": "batch_002_15panel.png",
+    "panel": 13,
+    "grid": "5x3",
+    "size": [
+      283,
+      329
+    ],
+    "role": "scene-illustration",
+    "status": "KEEP",
+    "displayed": true
+  },
+  "44": {
+    "asset": "v45_c44_patient-magic-check.png",
+    "source_master": "batch_003_15panel.png",
+    "panel": 15,
+    "grid": "3x5",
+    "size": [
+      497,
+      169
+    ],
+    "role": "scene-illustration",
+    "status": "KEEP",
+    "displayed": true
+  }
+}

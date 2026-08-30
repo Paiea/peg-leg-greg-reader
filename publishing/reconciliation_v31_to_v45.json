@@ -1,0 +1,354 @@
+[
+  {
+    "chapter": 1,
+    "status": "UNCHANGED",
+    "old_title": "THE BOY",
+    "new_title": "THE BOY",
+    "word_count": 4106,
+    "paragraphs": 86
+  },
+  {
+    "chapter": 2,
+    "status": "UNCHANGED",
+    "old_title": "THE BORROWER",
+    "new_title": "THE BORROWER",
+    "word_count": 1962,
+    "paragraphs": 101
+  },
+  {
+    "chapter": 3,
+    "status": "UNCHANGED",
+    "old_title": "THE INVESTOR",
+    "new_title": "THE INVESTOR",
+    "word_count": 5231,
+    "paragraphs": 413
+  },
+  {
+    "chapter": 4,
+    "status": "UNCHANGED",
+    "old_title": "THE EXPERT",
+    "new_title": "THE EXPERT",
+    "word_count": 2729,
+    "paragraphs": 107
+  },
+  {
+    "chapter": 5,
+    "status": "UNCHANGED",
+    "old_title": "THE WARRIOR",
+    "new_title": "THE WARRIOR",
+    "word_count": 4081,
+    "paragraphs": 207
+  },
+  {
+    "chapter": 6,
+    "status": "UNCHANGED",
+    "old_title": "THE LABORER",
+    "new_title": "THE LABORER",
+    "word_count": 4079,
+    "paragraphs": 421
+  },
+  {
+    "chapter": 7,
+    "status": "UNCHANGED",
+    "old_title": "THE OWNER",
+    "new_title": "THE OWNER",
+    "word_count": 5043,
+    "paragraphs": 506
+  },
+  {
+    "chapter": 8,
+    "status": "UNCHANGED",
+    "old_title": "THE COLLECTOR",
+    "new_title": "THE COLLECTOR",
+    "word_count": 3986,
+    "paragraphs": 524
+  },
+  {
+    "chapter": 9,
+    "status": "UNCHANGED",
+    "old_title": "THE LENDER",
+    "new_title": "THE LENDER",
+    "word_count": 4862,
+    "paragraphs": 652
+  },
+  {
+    "chapter": 10,
+    "status": "UNCHANGED",
+    "old_title": "THE APPRAISER",
+    "new_title": "THE APPRAISER",
+    "word_count": 5647,
+    "paragraphs": 746
+  },
+  {
+    "chapter": 11,
+    "status": "UNCHANGED",
+    "old_title": "THE MAGE",
+    "new_title": "THE MAGE",
+    "word_count": 5032,
+    "paragraphs": 626
+  },
+  {
+    "chapter": 12,
+    "status": "TITLE CHANGED",
+    "old_title": "THE RESEARCHER",
+    "new_title": "THE BLACK PART",
+    "word_count": 5469,
+    "paragraphs": 719
+  },
+  {
+    "chapter": 13,
+    "status": "TITLE CHANGED",
+    "old_title": "THE STUDENT",
+    "new_title": "THE MEASURE",
+    "word_count": 4680,
+    "paragraphs": 767
+  },
+  {
+    "chapter": 14,
+    "status": "TITLE CHANGED",
+    "old_title": "THE ESCORT",
+    "new_title": "THE EASY JOB",
+    "word_count": 4521,
+    "paragraphs": 606
+  },
+  {
+    "chapter": 15,
+    "status": "TITLE CHANGED",
+    "old_title": "THE OBSERVER",
+    "new_title": "THE SONG",
+    "word_count": 2985,
+    "paragraphs": 508
+  },
+  {
+    "chapter": 16,
+    "status": "TITLE CHANGED",
+    "old_title": "THE TEACHER",
+    "new_title": "THE SECOND MOVE",
+    "word_count": 3485,
+    "paragraphs": 481
+  },
+  {
+    "chapter": 17,
+    "status": "TITLE CHANGED",
+    "old_title": "THE INVESTIGATOR",
+    "new_title": "THE THIRD SACK",
+    "word_count": 5097,
+    "paragraphs": 736
+  },
+  {
+    "chapter": 18,
+    "status": "TITLE CHANGED",
+    "old_title": "THE EXPERIMENTER",
+    "new_title": "THE WRONG QUESTION",
+    "word_count": 3030,
+    "paragraphs": 551
+  },
+  {
+    "chapter": 19,
+    "status": "UNCHANGED",
+    "old_title": "THE SEAL",
+    "new_title": "THE SEAL",
+    "word_count": 3093,
+    "paragraphs": 664
+  },
+  {
+    "chapter": 20,
+    "status": "TITLE CHANGED",
+    "old_title": "THE VOLUNTEER",
+    "new_title": "RAIN CHECK",
+    "word_count": 2951,
+    "paragraphs": 625
+  },
+  {
+    "chapter": 21,
+    "status": "TITLE CHANGED",
+    "old_title": "THE TENANT",
+    "new_title": "THE OFFICE",
+    "word_count": 2609,
+    "paragraphs": 544
+  },
+  {
+    "chapter": 22,
+    "status": "TITLE CHANGED",
+    "old_title": "THE TRAINEE",
+    "new_title": "CONTINUING EDUCATION",
+    "word_count": 3403,
+    "paragraphs": 744
+  },
+  {
+    "chapter": 23,
+    "status": "TITLE CHANGED",
+    "old_title": "THE AIDE",
+    "new_title": "WHAT THEY SAW",
+    "word_count": 2740,
+    "paragraphs": 649
+  },
+  {
+    "chapter": 24,
+    "status": "TITLE CHANGED",
+    "old_title": "THE PASSENGER",
+    "new_title": "THE BOAT",
+    "word_count": 2584,
+    "paragraphs": 608
+  },
+  {
+    "chapter": 25,
+    "status": "TITLE CHANGED",
+    "old_title": "THE DEFENDER",
+    "new_title": "THREE",
+    "word_count": 2991,
+    "paragraphs": 888
+  },
+  {
+    "chapter": 26,
+    "status": "UNCHANGED",
+    "old_title": "THE EASY ROAD",
+    "new_title": "THE EASY ROAD",
+    "word_count": 2645,
+    "paragraphs": 624
+  },
+  {
+    "chapter": 27,
+    "status": "TITLE CHANGED",
+    "old_title": "THE RESCUER",
+    "new_title": "DYER'S LANE",
+    "word_count": 2673,
+    "paragraphs": 789
+  },
+  {
+    "chapter": 28,
+    "status": "TITLE CHANGED",
+    "old_title": "THE GUEST",
+    "new_title": "ROOM AND BOARD",
+    "word_count": 2120,
+    "paragraphs": 528
+  },
+  {
+    "chapter": 29,
+    "status": "UNCHANGED",
+    "old_title": "WHAT CHANGED",
+    "new_title": "WHAT CHANGED",
+    "word_count": 2229,
+    "paragraphs": 604
+  },
+  {
+    "chapter": 30,
+    "status": "NEW CHAPTER",
+    "old_title": null,
+    "new_title": "FOURTEEN",
+    "word_count": 2084,
+    "paragraphs": 505
+  },
+  {
+    "chapter": 31,
+    "status": "NEW CHAPTER",
+    "old_title": null,
+    "new_title": "A GOOD WASTE",
+    "word_count": 2291,
+    "paragraphs": 573
+  },
+  {
+    "chapter": 32,
+    "status": "NEW CHAPTER",
+    "old_title": null,
+    "new_title": "THE OWNER",
+    "word_count": 3663,
+    "paragraphs": 781
+  },
+  {
+    "chapter": 33,
+    "status": "NEW CHAPTER",
+    "old_title": null,
+    "new_title": "NO URGENCY",
+    "word_count": 3475,
+    "paragraphs": 780
+  },
+  {
+    "chapter": 34,
+    "status": "NEW CHAPTER",
+    "old_title": null,
+    "new_title": "THE GOOD ONE",
+    "word_count": 2799,
+    "paragraphs": 750
+  },
+  {
+    "chapter": 35,
+    "status": "NEW CHAPTER",
+    "old_title": null,
+    "new_title": "ONE MORE",
+    "word_count": 3205,
+    "paragraphs": 886
+  },
+  {
+    "chapter": 36,
+    "status": "NEW CHAPTER",
+    "old_title": null,
+    "new_title": "THE OTHER FIGHT",
+    "word_count": 3418,
+    "paragraphs": 962
+  },
+  {
+    "chapter": 37,
+    "status": "NEW CHAPTER",
+    "old_title": null,
+    "new_title": "FOUR COPPER",
+    "word_count": 2973,
+    "paragraphs": 646
+  },
+  {
+    "chapter": 38,
+    "status": "NEW CHAPTER",
+    "old_title": null,
+    "new_title": "HANDS",
+    "word_count": 2292,
+    "paragraphs": 660
+  },
+  {
+    "chapter": 39,
+    "status": "NEW CHAPTER",
+    "old_title": null,
+    "new_title": "SAME ENOUGH",
+    "word_count": 3216,
+    "paragraphs": 866
+  },
+  {
+    "chapter": 40,
+    "status": "NEW CHAPTER",
+    "old_title": null,
+    "new_title": "GOOD ENOUGH TWICE",
+    "word_count": 2242,
+    "paragraphs": 670
+  },
+  {
+    "chapter": 41,
+    "status": "NEW CHAPTER",
+    "old_title": null,
+    "new_title": "SORTED",
+    "word_count": 2837,
+    "paragraphs": 717
+  },
+  {
+    "chapter": 42,
+    "status": "NEW CHAPTER",
+    "old_title": null,
+    "new_title": "THE FIRST PROBLEM",
+    "word_count": 2553,
+    "paragraphs": 703
+  },
+  {
+    "chapter": 43,
+    "status": "NEW CHAPTER",
+    "old_title": null,
+    "new_title": "THE PORTER",
+    "word_count": 2072,
+    "paragraphs": 578
+  },
+  {
+    "chapter": 44,
+    "status": "NEW CHAPTER",
+    "old_title": null,
+    "new_title": "THE PATIENT",
+    "word_count": 2271,
+    "paragraphs": 644
+  }
+]

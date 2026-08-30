@@ -2,7 +2,7 @@
 
 Open `index.html` in any modern browser. On Windows, `OPEN_READER.bat` opens it for you.
 
-The reader is static HTML/CSS with no backend, account, database, build step, or network requirement. All 29 currently extracted chapters are linked so navigation already works; Chapter One is the illustrated prototype. The prose is generated directly from the extracted Markdown chapter files without rewriting or deduplication.
+The reader is static HTML/CSS with no backend, account, database, CMS, or build service. It currently publishes Chapters 1–44 from `Peg_Leg_Greg_authoritative_v45_ch44_editorpass.docx`. The manuscript remains the prose authority; this reader is a derived publishing build.
 
 ## Art
-Open `art.html` or click **ART** from the home page or any chapter header to browse approved visual material. Clicking an image opens a large inspection view. Only deliberately approved visual-reference and chapter-art files should be surfaced there.
+Open `art.html` or click **ART** from the home page or any chapter header to browse approved visual material, including the current developmental world map and visual references. Chapter illustrations use mixed fidelity: sketch beats, scene illustrations, and occasional feature illustrations. Development contact sheets are preserved under `visual/development/contact_sheets/` but are not displayed as reader art.

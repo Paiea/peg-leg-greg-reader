@@ -188,3 +188,38 @@ a { color:var(--link); }
     margin:0;
   }
 }
+
+/* World-map gallery entry */
+.world-map-entry .art-image-button { width:100%; }
+.world-map-entry .art-image-button img { display:block; width:100%; height:auto; max-height:none; aspect-ratio:auto; object-fit:initial; }
+.map-development-note { max-width:760px; margin:8px 0 0; color:var(--muted); font-family:ui-sans-serif,system-ui,sans-serif; font-size:.72rem; line-height:1.5; }
+@media (max-width:700px) {
+  .world-map-entry .art-image-button,
+  .world-map-entry .art-image-button img { width:100%; height:auto; min-height:0; max-height:none; aspect-ratio:auto; }
+}
+
+/* Reconciled mobile illustration boxes: every role collapses to intrinsic image height */
+@media (max-width:600px) {
+  .chapter-art {
+    height:auto;
+    min-height:0;
+    max-height:none;
+    aspect-ratio:auto;
+    padding-top:0;
+    padding-bottom:0;
+    line-height:0;
+  }
+  .chapter-art > a,
+  .chapter-art > img,
+  .chapter-art > a > img {
+    display:block;
+    width:100%;
+    max-width:100%;
+    height:auto;
+    min-height:0;
+    max-height:none;
+    aspect-ratio:auto;
+    margin:0;
+    object-fit:initial;
+  }
+}

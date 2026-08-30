@@ -1,0 +1,424 @@
+{
+  "displayed": [
+    {
+      "chapter": 1,
+      "asset": "v28_c01_s01_the-mirror.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 1,
+      "asset": "v28_c01_s02_bronze-younger-carrow.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 1,
+      "asset": "v28_c01_s03_know-think-check.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 2,
+      "asset": "v28_c02_s01_carrow-street-memory.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 2,
+      "asset": "v28_c02_s02_pell-takes-interest.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 2,
+      "asset": "v28_c02_s03_eight-days-antonius.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 2,
+      "asset": "v28_c02_s04_sella-collision.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 3,
+      "asset": "v28_c03_s01_cart-too-much-shale.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 3,
+      "asset": "v28_c03_s02_sixth-disk.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 3,
+      "asset": "v28_c03_s03_pell-asks-where.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 4,
+      "asset": "v28_c04_s01_too-many-categories.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 4,
+      "asset": "v28_c04_s02_reading-the-table.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 4,
+      "asset": "v28_c04_s03_walking-home-with-silver.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 5,
+      "asset": "v28_c05_s03_the-sixth-sword.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 5,
+      "asset": "v28_c05_s01_back-in-the-yard.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 5,
+      "asset": "v28_c05_s02_jorren-makes-the-point.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 6,
+      "asset": "v28_c06_s02_twelfth-sack.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 6,
+      "asset": "v28_c06_s01_empire-of-flour.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 6,
+      "asset": "v28_c06_s03_inside-the-operation.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 8,
+      "asset": "v28_c08_s01_the-face.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 8,
+      "asset": "v28_c08_s03_three-lives-one-hand.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 8,
+      "asset": "v28_c08_s02_here.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 9,
+      "asset": "v28_c09_s01_debtors-coat.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 9,
+      "asset": "v28_c09_s02_walking-the-borrowers.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 9,
+      "asset": "v28_c09_s03_stay-close-to-operations.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 10,
+      "asset": "v28_c10_s02_to-whom.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 10,
+      "asset": "v28_c10_feature_dead-mans-hand.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 10,
+      "asset": "v28_c10_s03_home-not-cards.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 11,
+      "asset": "v28_c11_s01_dinner-plate-barrier.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 11,
+      "asset": "v28_c11_s03_checking-the-channel.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 11,
+      "asset": "v28_c11_s02_again-no.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 12,
+      "asset": "v28_c12_s01_antonius-spoon.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 12,
+      "asset": "v28_c12_s02_not-the-black-part.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 12,
+      "asset": "v28_c12_s03_hazard-becomes-process.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 12,
+      "asset": "v28_c12_s04_the-sealed-bin.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 13,
+      "asset": "v28_c13_s01_dont-touch-them.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 13,
+      "asset": "v28_c13_s02_the-ugly-fixture.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 14,
+      "asset": "v28_c14_s01_the-contract.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 14,
+      "asset": "v28_c14_s02_broken-on-the-road.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 14,
+      "asset": "v28_c14_s03_hold-that.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 15,
+      "asset": "v28_c15_s05_the-road-goes-boring.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 15,
+      "asset": "v28_c15_s04_lens-turnips.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 15,
+      "asset": "v28_c15_s06_the-scream.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 15,
+      "asset": "v28_c15_s07_alden-in-the-road.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 16,
+      "asset": "v28_c16_s08_two-swords.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 16,
+      "asset": "v28_c16_s09_the-bill.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 16,
+      "asset": "v28_c16_s10_ribs.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 17,
+      "asset": "v28_c17_s12_the-wait.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 17,
+      "asset": "v28_c17_s11_the-third-sack.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 17,
+      "asset": "v28_c17_s13_the-hook.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 18,
+      "asset": "v28_c18_s14_hessa-has-beans.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 18,
+      "asset": "v28_c18_s15_the-cup.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 19,
+      "asset": "v28_c19_s02_the-warder-arrives.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 19,
+      "asset": "v28_c19_s01_the-sealed-sacks.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 20,
+      "asset": "v28_c20_s01_the-muddy-guild-yard.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 20,
+      "asset": "v28_c20_s02_two-coppers.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 21,
+      "asset": "v28_c21_s01_octavias-court.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 21,
+      "asset": "v28_c21_s02_ten-feet.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 22,
+      "asset": "v28_c22_s01_continuing-education.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 23,
+      "asset": "v28_c23_s02_too-many-shoes.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 23,
+      "asset": "v28_c23_s01_north-gate-intake.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 24,
+      "asset": "v28_c24_feature_boat-on-the-road.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 24,
+      "asset": "v28_c24_s02_inside-the-boat.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 25,
+      "asset": "v28_c25_s01_creature-crosses-the-wall.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 25,
+      "asset": "v28_c25_s02_palm-sized-barrier.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 26,
+      "asset": "v28_c26_s01_the-dead-creature.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 27,
+      "asset": "v28_c27_feature_dyers-lane.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    },
+    {
+      "chapter": 28,
+      "asset": "v28_c28_s01_bread-on-the-sill.png",
+      "classification": "KEEP",
+      "reason": "Chapter body prose is unchanged from the prior illustrated source; scene anchor remains valid."
+    }
+  ],
+  "archived_not_displayed": [
+    {
+      "asset": "v28_c10_s01_dead-mans-hand.png",
+      "classification": "SUPERSEDED",
+      "reason": "Preserved archive asset not currently displayed in curated reader."
+    },
+    {
+      "asset": "v28_c24_s01_boat-on-the-wagon.png",
+      "classification": "SUPERSEDED",
+      "reason": "Preserved archive asset not currently displayed in curated reader."
+    }
+  ]
+}
