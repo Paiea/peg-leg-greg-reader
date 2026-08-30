@@ -1,8 +1,18 @@
 # PEG-LEG GREG — VISUAL COVERAGE HARVEST
 
-**Status:** 43 selected panels placed in reader.
+**Status:** 73 selected panels placed in reader.
 **Source:** three DEVELOPMENT discovery contact sheets supplied 2026-08-30.
 **Rule:** source contact sheets remain DEVELOPMENT; only clean standalone crops below are reader-facing.
+
+## APPROXIMATE COVERAGE BATCH — CHAPTERS 98–121
+
+- **Batch:** `CH98-121-001`
+- **Placed:** 30 reader illustrations across Chapters 98–121
+- **Mode:** production-first approximate coverage; only catastrophic identity, disability, anatomy, or scene-meaning failures block placement
+- **Contact sheet:** `visual/development/contact_sheets/Ch98-121_Batch-001.jpg` (first 25 images)
+- **Generation and placement record:** `publishing/image_batch_ch98_121_001.json`
+- **Repeatable tool:** `scripts/apply_image_batch.py`
+- **Style:** drawing-first graphite and selective ink, visible sketch construction, loose restrained pigment; no glossy, faceted, mosaic, or low-poly rendering
 
 | CHAPTER | SCENE | FILE | ROLE | SOURCE | PLACEMENT | STATUS |
 |---|---|---|---|---|---|---|

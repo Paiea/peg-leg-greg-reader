@@ -16,3 +16,10 @@
 - Canonical spelling: **Lyssa** (same existing character previously spelled Lysa).
 - Black woman; tall relative to Greg; thin/lithe build; natural Afro-textured hair.
 - Do not invent additional appearance details from this note.
+
+## Approximate reader fill — Chapters 98–121
+
+- `CH98-121-001`: 30 standalone illustrations placed in the Chapter 123 reader checkpoint.
+- First 25 collected at `visual/development/contact_sheets/Ch98-121_Batch-001.jpg`.
+- The batch manifest preserves source-generation IDs, filenames, chapter anchors, roles, alt text, style, and continuity floor.
+- Future 25-image batches should use `scripts/apply_image_batch.py` so copying, paragraph placement, contact-sheet assembly, and usage tracking happen from one record.
