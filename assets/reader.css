@@ -21,7 +21,7 @@ a { color:var(--link); }
 .prose p { margin:0 0 1.18em; }
 .prose p:first-of-type::first-letter { float:left; font-size:4.1em; line-height:.78; padding:.08em .09em 0 0; }
 .chapter-art { margin:3.4rem calc(50% - 50vw + 24px); }
-.chapter-art img { display:block; width:min(1120px, calc(100vw - 48px)); height:auto; max-height:78vh; object-fit:contain; margin:0 auto; }
+.chapter-art img { display:block; width:min(1120px, calc(100vw - 48px)); height:auto; max-height:none; object-fit:contain; margin:0 auto; }
 .chapter-art figcaption { max-width:760px; margin:12px auto 0; color:var(--muted); font-family:ui-sans-serif,system-ui,sans-serif; font-size:.74rem; line-height:1.5; text-align:center; }
 .chapter-nav { display:grid; grid-template-columns:1fr auto 1fr; gap:16px; align-items:center; border-top:1px solid var(--line); margin-top:70px; padding-top:24px; font-family:ui-sans-serif,system-ui,sans-serif; font-size:.82rem; }
 .chapter-nav a { text-decoration:none; }
@@ -133,11 +133,11 @@ a { color:var(--link); }
 
 
 /* Mixed-fidelity illustration roles */
-.chapter-art.sketch-beat img { width:min(560px, calc(100vw - 48px)); max-height:68vh; }
-.chapter-art.scene-illustration img { width:min(980px, calc(100vw - 48px)); max-height:82vh; }
+.chapter-art.sketch-beat img { width:min(560px, calc(100vw - 48px)); max-height:none; }
+.chapter-art.scene-illustration img { width:min(980px, calc(100vw - 48px)); max-height:none; }
 .chapter-art.feature-illustration { margin-left:calc(50% - 50vw + 12px); margin-right:calc(50% - 50vw + 12px); }
 .chapter-art.feature-illustration img { width:min(1500px, calc(100vw - 24px)); height:auto; max-height:none; }
-.chapter-art.feature-illustration.feature-portrait img { width:min(720px, calc(100vw - 48px)); height:auto; max-height:82vh; }
+.chapter-art.feature-illustration.feature-portrait img { width:min(720px, calc(100vw - 48px)); height:auto; max-height:none; }
 .chapter-art a { display:block; width:fit-content; max-width:100%; margin:0 auto; }
 @media (max-width:600px) {
   .chapter-art.sketch-beat img,
@@ -258,7 +258,7 @@ a { color:var(--link); }
 }
 .chapter-art.sketch-beat img {
   width:min(520px, calc(100vw - 48px));
-  max-height:62vh;
+  max-height:none;
 }
 .chapter-art.scene-illustration {
   margin-top:3.7rem;
@@ -266,7 +266,7 @@ a { color:var(--link); }
 }
 .chapter-art.scene-illustration img {
   width:min(1020px, calc(100vw - 48px));
-  max-height:82vh;
+  max-height:none;
 }
 .chapter-art.feature-illustration {
   margin-top:5.2rem;
@@ -358,7 +358,7 @@ a { color:var(--link); }
 }
 .chapter-art.sketch-beat img {
   width:min(480px, calc(100vw - 48px));
-  max-height:60vh;
+  max-height:none;
 }
 .chapter-art.scene-illustration {
   margin-top:4rem;
@@ -366,7 +366,7 @@ a { color:var(--link); }
 }
 .chapter-art.scene-illustration img {
   width:min(980px, calc(100vw - 48px));
-  max-height:82vh;
+  max-height:none;
 }
 .chapter-art.feature-illustration {
   margin-top:6.25rem;
@@ -416,4 +416,19 @@ a { color:var(--link); }
     margin-bottom:4.35rem;
   }
   .chapter-shell.story-threshold-major { padding-top:38px; }
+}
+
+
+/* Image integrity bug fix: chapter art always renders at intrinsic aspect ratio. */
+.chapter-art { overflow:visible; }
+.chapter-art > a { overflow:visible; }
+.chapter-art > img,
+.chapter-art > a > img {
+  display:block;
+  height:auto;
+  min-height:0;
+  max-height:none;
+  max-width:100%;
+  aspect-ratio:auto;
+  object-fit:contain;
 }
