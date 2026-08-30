@@ -22,3 +22,7 @@ Open `art.html` or click **ART** to browse approved visual material. Only previo
 ## Responsive behavior
 
 Illustrations retain the established intrinsic image behavior on narrow screens. The reader architecture was not redesigned for the Chapter 105 synchronization.
+
+## Harvest ship pass
+
+Added 7 additional harvested illustrations into the reader at approximate best-fit chapter anchors without changing prose or reader architecture.

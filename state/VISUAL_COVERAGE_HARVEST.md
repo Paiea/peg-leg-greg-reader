@@ -1,6 +1,6 @@
 # PEG-LEG GREG — VISUAL COVERAGE HARVEST
 
-**Status:** 36 selected panels placed in reader.
+**Status:** 43 selected panels placed in reader.
 **Source:** three DEVELOPMENT discovery contact sheets supplied 2026-08-30.
 **Rule:** source contact sheets remain DEVELOPMENT; only clean standalone crops below are reader-facing.
 
@@ -42,3 +42,11 @@
 | Ch97 | Second Mana Draw | `Ch97_Second-Mana-Draw.png` | Scene Illustration | Final Coverage C / R1C3 | Before: “She put the copper strip on the table.” | READY / PLACED |
 | Ch97 | Variable Notes | `Ch97_Variable-Notes.png` | Sketch Beat | Final Coverage B / R2C2 | Before: “Hessa wrote another line.” | READY / PLACED |
 | Ch97 | After the Variable | `Ch97_After-the-Variable.png` | Sketch Beat | Final Coverage A / R5C5 | Before: “I stood on the street and considered the Guild, home, food, Lyssa, Jor” | READY / PLACED |
+
+| Ch95 | Harbor Lighthouse Watch | `Ch95_Harbor-Lighthouse-Watch.png` | Sketch Beat | Harvest Batch 5 standalone | Before: “I sat on the low stone edge of a fountain across from the cart.” | READY / PLACED |
+| Ch99 | Scholar at the Worktable | `Ch99_Scholar-at-the-Worktable.png` | Scene Illustration | Harvest Batch 5 standalone | Before: “I went to Hessa.” | READY / PLACED |
+| Ch100 | Lyssa Table Convo | `Ch100_Lyssa-Table-Convo.png` | Scene Illustration | Crop from contact sheet `c35967f0-...` top-right | Before: “Halfway through the plate, Lyssa came in.” | READY / PLACED |
+| Ch101 | Rainy Alley Walk | `Ch101_Rainy-Alley-Walk.png` | Scene Illustration | Harvest Batch 5 standalone | Before: “Hessa was not there.” | READY / PLACED |
+| Ch102 | Training Duel | `Ch102_Training-Duel.png` | Scene Illustration | Crop from contact sheet `c35967f0-...` bottom-right | Before: “Pessa made me walk in a circle.” | READY / PLACED |
+| Ch104 | Valley Overlook Reflection | `Ch104_Valley-Overlook-Reflection.png` | Scene Illustration | Harvest Batch 5 standalone | Before: “My thumb did not tingle in the morning.” | READY / PLACED |
+| Ch105 | Campfire Companions | `Ch105_Campfire-Companions.png` | Scene Illustration | Harvest Batch 5 standalone | Before: “Hessa made me put my right hand on a towel.” | READY / PLACED |
