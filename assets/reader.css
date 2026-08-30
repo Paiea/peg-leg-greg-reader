@@ -432,3 +432,62 @@ a { color:var(--link); }
   aspect-ratio:auto;
   object-fit:contain;
 }
+
+/* Intrinsic-resolution chapter illustration sizing */
+/* Keep small raster art at its natural width; role caps only constrain larger art. */
+.chapter-art > a {
+  display:block;
+  width:fit-content;
+  max-width:100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.chapter-art > img,
+.chapter-art > a > img {
+  display:block;
+  width:auto;
+  height:auto;
+  max-width:min(100%, 980px);
+  max-height:none;
+  aspect-ratio:auto;
+  object-fit:contain;
+  margin-left:auto;
+  margin-right:auto;
+}
+.chapter-art.sketch-beat > img,
+.chapter-art.sketch-beat > a > img {
+  max-width:min(100%, 480px);
+}
+.chapter-art.scene-illustration > img,
+.chapter-art.scene-illustration > a > img {
+  max-width:min(100%, 980px);
+}
+.chapter-art.feature-illustration > img,
+.chapter-art.feature-illustration > a > img {
+  max-width:min(100%, 1500px);
+}
+.chapter-art.feature-illustration.feature-portrait > img,
+.chapter-art.feature-illustration.feature-portrait > a > img {
+  max-width:min(100%, 720px);
+}
+
+@media (max-width:600px) {
+  .chapter-art > a {
+    width:fit-content;
+    max-width:100%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .chapter-art > img,
+  .chapter-art > a > img {
+    width:auto;
+    height:auto;
+    max-width:100%;
+    min-height:0;
+    max-height:none;
+    aspect-ratio:auto;
+    object-fit:contain;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
