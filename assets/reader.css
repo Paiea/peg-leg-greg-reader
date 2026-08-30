@@ -325,3 +325,95 @@ a { color:var(--link); }
   }
   .home-actions .tertiary-action { grid-column:1/-1; min-height:38px; padding:8px; }
 }
+
+/* Illustrated-novel presentation pass: quieter page architecture and clearer reading rhythm. */
+.chapter-title {
+  margin:clamp(2.9rem,7vh,5.25rem) auto clamp(4.1rem,8.5vh,6.5rem);
+  padding-bottom:1.35rem;
+}
+.chapter-title .number {
+  font-size:.68rem;
+  letter-spacing:.245em;
+  line-height:1.25;
+}
+.chapter-title h1 {
+  max-width:12ch;
+  margin:.82rem auto 0;
+  font-size:clamp(2.55rem,6.2vw,4.45rem);
+  line-height:.96;
+  letter-spacing:-.032em;
+}
+.chapter-title::after {
+  width:clamp(46px,6vw,64px);
+  background:color-mix(in srgb,var(--line) 84%,var(--ink) 16%);
+}
+.prose {
+  max-width:43.5rem;
+}
+
+/* Illustration roles function as pacing: observation, pause, event. */
+.chapter-art.sketch-beat {
+  margin-top:2.15rem;
+  margin-bottom:2.35rem;
+}
+.chapter-art.sketch-beat img {
+  width:min(480px, calc(100vw - 48px));
+  max-height:60vh;
+}
+.chapter-art.scene-illustration {
+  margin-top:4rem;
+  margin-bottom:4.25rem;
+}
+.chapter-art.scene-illustration img {
+  width:min(980px, calc(100vw - 48px));
+  max-height:82vh;
+}
+.chapter-art.feature-illustration {
+  margin-top:6.25rem;
+  margin-bottom:6.6rem;
+}
+
+/* Manuscript-discovered thresholds. No labels: only a slightly longer pause. */
+.chapter-shell.story-threshold .chapter-title {
+  margin-top:clamp(5rem,10vh,7.5rem);
+  margin-bottom:clamp(4.8rem,9vh,7rem);
+}
+.chapter-shell.story-threshold .chapter-title::after {
+  width:clamp(72px,10vw,96px);
+}
+.chapter-shell.story-threshold-major {
+  padding-top:clamp(58px,8vh,92px);
+}
+.chapter-shell.story-threshold-major .chapter-title {
+  margin-top:clamp(5.5rem,11vh,8.5rem);
+  margin-bottom:clamp(5.4rem,10vh,7.8rem);
+}
+.chapter-shell.story-threshold-major .chapter-title::after {
+  width:clamp(92px,13vw,126px);
+  background:color-mix(in srgb,var(--line) 68%,var(--ink) 32%);
+}
+
+@media (max-width:600px) {
+  .chapter-shell { padding-left:20px; padding-right:20px; }
+  .chapter-title {
+    margin:2.6rem auto 3.7rem;
+    padding-bottom:1.05rem;
+  }
+  .chapter-title h1 {
+    font-size:clamp(2.4rem,13vw,3.55rem);
+  }
+  .chapter-art.sketch-beat { margin-top:1.7rem; margin-bottom:1.9rem; }
+  .chapter-art.scene-illustration { margin-top:2.7rem; margin-bottom:2.95rem; }
+  .chapter-art.feature-illustration { margin-top:3.7rem; margin-bottom:4rem; }
+  .chapter-art.sketch-beat > a,
+  .chapter-art.sketch-beat > img,
+  .chapter-art.sketch-beat > a > img {
+    width:min(78vw,480px);
+  }
+  .chapter-shell.story-threshold .chapter-title,
+  .chapter-shell.story-threshold-major .chapter-title {
+    margin-top:4rem;
+    margin-bottom:4.35rem;
+  }
+  .chapter-shell.story-threshold-major { padding-top:38px; }
+}
