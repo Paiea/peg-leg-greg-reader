@@ -1,10 +1,10 @@
 # PEG-LEG GREG — STORY CONTROL STATE
 
-> HANDOFF SNAPSHOT: normalized from the current Story Control durable reference available to this session. Its recorded endpoint predates active Book 2 prose. Where it conflicts with the current Ch83–97 manuscript, the manuscript controls.
+> HANDOFF SNAPSHOT: normalized from the current Story Control durable reference available to this session. Its recorded endpoint predates active Book 2 prose. Where it conflicts with the current Ch83–105 manuscript, the manuscript controls.
 
 ## RECORDED STORY-CONTROL ENDPOINT
 - Story Control reference remains anchored at **Chapter 82 — THE RECONCILER** / Book 1 closed.
-- Its statement that Chapter 83 did not yet exist is now stale relative to the authoritative Book 2 manuscript, which reaches Chapter 97.
+- Its statement that Chapter 83 did not yet exist is now stale relative to the authoritative Book 2 manuscript, which reaches Chapter 105.
 
 ## HARD DIRECTION STILL VALID
 - Current macro movement: **A LIFE → A WIDER LIFE**.

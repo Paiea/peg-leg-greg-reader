@@ -1,9 +1,8 @@
-# PEG-LEG GREG --- CHAPTER INDEX --- CH97
+# PEG-LEG GREG --- CHAPTER INDEX --- CH105
 
-**Current endpoint:** Chapter 97 --- THE VARIABLE
+**Current endpoint:** Chapter 105 --- THE CONTROL
 
-Chapters 1--64 use the published checkpoint's role-title sequence.
-Chapters 65--82 close Book 1. Chapters 83--97 are the current Book 2 manuscript.
+Chapters 1--82 are closed Book 1. Chapters 83--105 are the current Book 2 manuscript.
 
 1.  **THE BOY**
 2.  **THE BORROWER**
@@ -102,3 +101,11 @@ Chapters 65--82 close Book 1. Chapters 83--97 are the current Book 2 manuscript.
 95. **THE TASTER**
 96. **THE WITNESS**
 97. **THE VARIABLE**
+98. **THE DRESSER**
+99. **THE INSTRUMENT**
+100. **THE COOK**
+101. **THE WAITING MAN**
+102. **THE PIVOT**
+103. **THE SHAPER**
+104. **THE SECOND OPINION**
+105. **THE CONTROL**

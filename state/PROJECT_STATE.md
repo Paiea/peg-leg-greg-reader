@@ -21,53 +21,33 @@ Conflicts are reported, not silently reconciled.
 - 04 / Editor: `EDITOR_STATE.md`
 - Codex/repository integration: synchronize, validate, preserve supplied engine state; do not invent canon or rewrite engine decisions.
 
-Only state files actually supplied or grounded in current project authority should be created. Missing engine state is not manufactured.
-
 ## Book 1
 
 Closed at Chapter 82 — **THE RECONCILER**.
 
 Current Book 1 manuscript authority: `state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx`.
 
-Final name map:
+Approved canonical continuity:
 - Pel Marris → Silas Marris
 - Pellian / Pell → Arlo
 - Ressa Vale → Iona Vale
 - Pera → Iris
-- Lysa → Lyssa (same existing character; spelling correction)
+- Lysa → Lyssa, same existing character
 
 No additional Book 1 naming decisions are authorized.
 
 ## Book 2
 
-Active manuscript. Current authoritative Book 2 prose source: `state/manuscript/Peg_Leg_Greg_Book2_Ch83-97_light_ship_edited.docx`.
+Active manuscript. Current authoritative Book 2 prose source: `state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx`.
 
-**REPOSITORY MANUSCRIPT VALIDATED THROUGH CH97 — THE VARIABLE.**
+**REPOSITORY MANUSCRIPT VALIDATED THROUGH CH105 — THE CONTROL.**
 
-Book 1 remains closed through Chapter 82. Chapters 83–97 are validated against the supplied post-Editor Book 2 manuscript. `MANUSCRIPT_STATE.md`, `OPEN_THREADS.md`, `MANUSCRIPT_CHAPTER_INDEX.md`, and `EDITOR_STATE.md` are synchronized to that checkpoint. `STORY_CONTROL_STATE.md` and `WRITERS_ROOM_STATE.md` are preserved as developmental/context state and do not supersede manuscript events.
-
-Current broad direction remains **A LIFE → A WIDER LIFE**. Do not promote developmental possibilities to canon merely because the manuscript checkpoint advanced.
+Chapters 83–105 are synchronized from the supplied post-Editor manuscript. `MANUSCRIPT_STATE.md`, `OPEN_THREADS.md`, `MANUSCRIPT_CHAPTER_INDEX.md`, and `EDITOR_STATE.md` are synchronized to this checkpoint. `STORY_CONTROL_STATE.md` and `WRITERS_ROOM_STATE.md` remain developmental/context state and do not supersede manuscript events.
 
 ## Visual production
 
-Visual state remains separate from manuscript state. Development contact sheets remain DEVELOPMENT; standalone assets remain separate production objects; reader artwork is only reader-facing when explicitly promoted under the established production workflow. Preserve the coverage-first strategy. Do not auto-crop or auto-publish development art.
-
-2026-08-30 visual coverage harvest: 36 author-supplied DEVELOPMENT discovery panels were cleanly extracted as standalone assets and explicitly promoted into Chapters 83–97 under the coverage-first workflow. Source contact sheets remain DEVELOPMENT and are not reader-facing.
+Visual state remains separate from manuscript state. Existing reader artwork and visual-production material are preserved. Development contact sheets remain DEVELOPMENT unless explicitly promoted. The completed Ch83–97 visual coverage harvest remains intact.
 
 ## Current synchronization rule
 
 Update existing compact state before adding new state. Preserve engine-owned substance. Consult the manuscript whenever exact prose, chronology, wording, or scene detail matters.
-
-## Pending canonical cleanup
-
-**PENDING CANONICAL CLEANUP:** Lysa → Lyssa
-
-**SCOPE:** Existing character only.
-
-**STATUS:** Queued for next manuscript synchronization.
-
-At the next authoritative manuscript synchronization, normalize the existing character's name from `Lysa` to `Lyssa` wherever appropriate. Preserve role, relationships, characterization, dialogue, and events. Do not create a new character, alter surrounding prose beyond the direct name replacement, touch unrelated names, or reopen other Book 1 editorial decisions.
-
-Approved visual identity for this existing character only: Black woman; tall relative to Greg; thin/lithe build; natural Afro-textured hair. Do not infer or add further appearance details from this instruction.
-
-Do not perform this queued cleanup as a standalone manuscript/reader edit.
