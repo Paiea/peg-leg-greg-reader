@@ -1,0 +1,904 @@
+{
+  "source": "Peg_Leg_Greg_authoritative_ch82_light_edit(1).docx",
+  "sha256": "9b7ee31c56ac4ada233e18bcf3a843a9e2984c8d5857bdde8b96fb770b933799",
+  "chapters": 82,
+  "baseline_comparison_1_64": {
+    "1": {
+      "old_count": 84,
+      "new_count": 84,
+      "exact": true
+    },
+    "2": {
+      "old_count": 101,
+      "new_count": 101,
+      "exact": true
+    },
+    "3": {
+      "old_count": 413,
+      "new_count": 413,
+      "exact": true
+    },
+    "4": {
+      "old_count": 107,
+      "new_count": 107,
+      "exact": true
+    },
+    "5": {
+      "old_count": 207,
+      "new_count": 207,
+      "exact": true
+    },
+    "6": {
+      "old_count": 421,
+      "new_count": 421,
+      "exact": true
+    },
+    "7": {
+      "old_count": 506,
+      "new_count": 506,
+      "exact": true
+    },
+    "8": {
+      "old_count": 524,
+      "new_count": 524,
+      "exact": true
+    },
+    "9": {
+      "old_count": 652,
+      "new_count": 652,
+      "exact": true
+    },
+    "10": {
+      "old_count": 746,
+      "new_count": 746,
+      "exact": true
+    },
+    "11": {
+      "old_count": 626,
+      "new_count": 626,
+      "exact": true
+    },
+    "12": {
+      "old_count": 719,
+      "new_count": 719,
+      "exact": true
+    },
+    "13": {
+      "old_count": 767,
+      "new_count": 767,
+      "exact": true
+    },
+    "14": {
+      "old_count": 606,
+      "new_count": 606,
+      "exact": true
+    },
+    "15": {
+      "old_count": 508,
+      "new_count": 508,
+      "exact": true
+    },
+    "16": {
+      "old_count": 481,
+      "new_count": 481,
+      "exact": true
+    },
+    "17": {
+      "old_count": 736,
+      "new_count": 736,
+      "exact": true
+    },
+    "18": {
+      "old_count": 551,
+      "new_count": 551,
+      "exact": true
+    },
+    "19": {
+      "old_count": 664,
+      "new_count": 664,
+      "exact": true
+    },
+    "20": {
+      "old_count": 625,
+      "new_count": 625,
+      "exact": true
+    },
+    "21": {
+      "old_count": 544,
+      "new_count": 544,
+      "exact": true
+    },
+    "22": {
+      "old_count": 744,
+      "new_count": 744,
+      "exact": true
+    },
+    "23": {
+      "old_count": 649,
+      "new_count": 649,
+      "exact": true
+    },
+    "24": {
+      "old_count": 608,
+      "new_count": 608,
+      "exact": true
+    },
+    "25": {
+      "old_count": 888,
+      "new_count": 888,
+      "exact": true
+    },
+    "26": {
+      "old_count": 624,
+      "new_count": 624,
+      "exact": true
+    },
+    "27": {
+      "old_count": 789,
+      "new_count": 789,
+      "exact": true
+    },
+    "28": {
+      "old_count": 528,
+      "new_count": 528,
+      "exact": true
+    },
+    "29": {
+      "old_count": 604,
+      "new_count": 604,
+      "exact": true
+    },
+    "30": {
+      "old_count": 542,
+      "new_count": 542,
+      "exact": true
+    },
+    "31": {
+      "old_count": 604,
+      "new_count": 604,
+      "exact": true
+    },
+    "32": {
+      "old_count": 848,
+      "new_count": 848,
+      "exact": true
+    },
+    "33": {
+      "old_count": 830,
+      "new_count": 830,
+      "exact": true
+    },
+    "34": {
+      "old_count": 797,
+      "new_count": 797,
+      "exact": true
+    },
+    "35": {
+      "old_count": 929,
+      "new_count": 929,
+      "exact": true
+    },
+    "36": {
+      "old_count": 989,
+      "new_count": 989,
+      "exact": true
+    },
+    "37": {
+      "old_count": 721,
+      "new_count": 721,
+      "exact": true
+    },
+    "38": {
+      "old_count": 705,
+      "new_count": 705,
+      "exact": true
+    },
+    "39": {
+      "old_count": 927,
+      "new_count": 927,
+      "exact": true
+    },
+    "40": {
+      "old_count": 706,
+      "new_count": 706,
+      "exact": true
+    },
+    "41": {
+      "old_count": 791,
+      "new_count": 791,
+      "exact": true
+    },
+    "42": {
+      "old_count": 737,
+      "new_count": 737,
+      "exact": true
+    },
+    "43": {
+      "old_count": 621,
+      "new_count": 621,
+      "exact": true
+    },
+    "44": {
+      "old_count": 689,
+      "new_count": 689,
+      "exact": true
+    },
+    "45": {
+      "old_count": 797,
+      "new_count": 797,
+      "exact": true
+    },
+    "46": {
+      "old_count": 898,
+      "new_count": 898,
+      "exact": true
+    },
+    "47": {
+      "old_count": 709,
+      "new_count": 709,
+      "exact": true
+    },
+    "48": {
+      "old_count": 883,
+      "new_count": 883,
+      "exact": true
+    },
+    "49": {
+      "old_count": 624,
+      "new_count": 624,
+      "exact": true
+    },
+    "50": {
+      "old_count": 375,
+      "new_count": 375,
+      "exact": true
+    },
+    "51": {
+      "old_count": 411,
+      "new_count": 411,
+      "exact": true
+    },
+    "52": {
+      "old_count": 445,
+      "new_count": 445,
+      "exact": true
+    },
+    "53": {
+      "old_count": 936,
+      "new_count": 936,
+      "exact": true
+    },
+    "54": {
+      "old_count": 1011,
+      "new_count": 1011,
+      "exact": true
+    },
+    "55": {
+      "old_count": 864,
+      "new_count": 864,
+      "exact": true
+    },
+    "56": {
+      "old_count": 831,
+      "new_count": 831,
+      "exact": true
+    },
+    "57": {
+      "old_count": 872,
+      "new_count": 872,
+      "exact": true
+    },
+    "58": {
+      "old_count": 766,
+      "new_count": 766,
+      "exact": true
+    },
+    "59": {
+      "old_count": 612,
+      "new_count": 612,
+      "exact": true
+    },
+    "60": {
+      "old_count": 641,
+      "new_count": 641,
+      "exact": true
+    },
+    "61": {
+      "old_count": 696,
+      "new_count": 696,
+      "exact": true
+    },
+    "62": {
+      "old_count": 692,
+      "new_count": 692,
+      "exact": true
+    },
+    "63": {
+      "old_count": 866,
+      "new_count": 866,
+      "exact": true
+    },
+    "64": {
+      "old_count": 936,
+      "new_count": 936,
+      "exact": true
+    }
+  },
+  "changed_chapters_1_64": [],
+  "art_mapping": {
+    "1": [
+      {
+        "after_old_index": 12,
+        "mapped_index": 12,
+        "map_mode": "exact-anchor",
+        "prev_text": "Forty years is a long time to remember someone who owed you soap. I walked to the washbasin and looked into the little oval mirror hanging above it. The face staring back at me belonged to a boy I had not thought of as a boy when I owned it. Dark hair. Too much of it. No gray. No crease beside the mouth. No scar under the chin. My eyes looked enormous without the sagging skin around them. I touched my jaw. The boy copied me."
+      },
+      {
+        "after_old_index": 22,
+        "mapped_index": 22,
+        "map_mode": "exact-anchor",
+        "prev_text": "The Bronze token mattered more. It was real. Mine. Current. I turned it over. Scratched initials on the back. Mine. The room felt smaller. I stood and went to the window. Carrow. Younger. The street below was narrower than I remembered because the southern row of shops had not been rebuilt yet. The guild roof still had the old red tiles. A chimney stood where, decades later, a three-story apothecary would be. That was not enough. I needed a date. I opened the wardrobe. Two shirts. One coat. Training leathers. Sword belt. Warrior gear. I closed the wardrobe. Opened it again. Still warrior gear."
+      },
+      {
+        "after_old_index": 74,
+        "mapped_index": 74,
+        "map_mode": "exact-anchor",
+        "prev_text": "That I could answer. Infrastructure. Mana access. Certain dungeon materials people currently treated as waste. Specific institutions. Certain people. Support training itself, eventually. I began another list. Then another. The desk disappeared beneath paper. Some ideas were memory. Some were inference. Some were probably complete bullshit. I marked them differently: KNOW. THINK. CHECK."
+      }
+    ],
+    "2": [
+      {
+        "after_old_index": 7,
+        "mapped_index": 7,
+        "map_mode": "exact-anchor",
+        "prev_text": "She walked away faster. That was going to become a problem. Every person now came with questions. Who are you? Did I know you? Did you become somebody? Did you die? Did I help? Did I make it worse? Most faces gave me nothing. Forty years of life did not turn memory into a census. A guild runner named Daven caught my attention because I knew a Daven decades later. I asked for his family name. He asked why. His friend began laughing when I told him I might owe a Daven money. Three streets later I remembered the man I meant. Wrong Daven."
+      },
+      {
+        "after_old_index": 34,
+        "mapped_index": 34,
+        "map_mode": "exact-anchor",
+        "prev_text": "He put down his tool. There. Not proof. Evidence. A test would cost six silver. I had two copper. Now I went to Antonius Vale. I remembered the man he became much better than the man he was now. I even went to the wrong building first. Eventually a narrow man with a scar led me into a gambling room, and Antonius came out to meet me. I knew him immediately. Younger. Leaner. Black hair instead of silver at the temples. Cheap coat by his later standards. The eyes were the same."
+      },
+      {
+        "after_old_index": 82,
+        "mapped_index": 82,
+        "map_mode": "exact-anchor",
+        "prev_text": "I had changed roles without deciding to. That was the interesting part. Confident expert to nervous boy because nervous boy was safer, and the transition had happened before I consciously chose it. Voice slightly smaller. Shoulders less certain. Let Antonius feel older, sharper, more in control. Give him the version of Greg that made his next decision easiest. Useful. Also, perhaps, something I should examine later. Antonius pushed the coins toward me. \"Eight days, Greg.\" I picked them up."
+      },
+      {
+        "after_old_index": 99,
+        "mapped_index": 99,
+        "map_mode": "exact-anchor",
+        "prev_text": "\"Freak,\" Sella said, and walked around me."
+      }
+    ],
+    "3": [
+      {
+        "after_old_index": 14,
+        "mapped_index": 14,
+        "map_mode": "exact-anchor",
+        "prev_text": "I turned and looked at his workshop. He was right. Arwick Works was currently a room with ambitions. One bench. Two kilns, one of which looked old enough to remember monarchy. Shelves crowded with lamp regulators, cracked ceramic housings, brass fittings, wire, powdered reagents, and several objects I could not identify despite having lived through the next forty years. That pleased me. Not everything needed to become a memory."
+      },
+      {
+        "after_old_index": 84,
+        "mapped_index": 84,
+        "map_mode": "exact-anchor",
+        "prev_text": "The fifth sample had not worked either. The sixth had. Not dramatically. No glow. No miraculous transformation. Pell had run a cheap alchemical wash through a porous ceramic disk containing a small percentage of powdered shale. The liquid collected below was clearer than the control. Barely. But measurably. Pell ran it again. Same result. He stopped talking. That was when I knew we had something."
+      },
+      {
+        "after_old_index": 99,
+        "mapped_index": 99,
+        "map_mode": "exact-anchor",
+        "prev_text": "Pell Arwick. Lamp repairer. Small workshop. Good hands. Careful notes. Future surname, maybe. I still did not know whether he became rich, whether somebody inherited the name, or whether I was remembering the wrong Arwick entirely. What did I owe the man in front of me if my memory had pointed me toward work he had not found yet? Inconvenient question. I answered a different one."
+      }
+    ],
+    "4": [
+      {
+        "after_old_index": 2,
+        "mapped_index": 2,
+        "map_mode": "exact-anchor",
+        "prev_text": "That arrangement had seemed efficient. Now it seemed suspiciously like being spoiled. I moved one silver from the left stack to the right. Training. Another. Food. Another. Pell. Another. Debt. I stopped. That was already more categories than coins."
+      },
+      {
+        "after_old_index": 60,
+        "mapped_index": 60,
+        "map_mode": "exact-anchor",
+        "prev_text": "The patterns changed as people changed. Red-nose's tell shifted after drinking. Dock Coat got reckless when behind. Merchant Apprentice protected profit. Fake Silver could be pushed by disrespect. I used that once."
+      },
+      {
+        "after_old_index": 93,
+        "mapped_index": 93,
+        "map_mode": "exact-anchor",
+        "prev_text": "Outside, the night air felt colder. I walked home with the coins heavy in my pocket. A few silver. Nothing to old Greg. Training, food, and time to this one. Both calibrations were still in my head."
+      }
+    ],
+    "5": [
+      {
+        "after_old_index": 7,
+        "mapped_index": 7,
+        "map_mode": "exact-anchor",
+        "prev_text": "A little. It also convinced me to spend far more than I had intended because I could feel every defect in the cheaper blades. The third sword I tested pulled slightly forward. The fourth had a grip too narrow for my hand. The fifth was competent. I should have bought the fifth. The sixth was beautiful. Not jeweled. Not ceremonial. Nothing stupid. Just balanced."
+      },
+      {
+        "after_old_index": 24,
+        "mapped_index": 24,
+        "map_mode": "exact-anchor",
+        "prev_text": "More specifically, I wanted to be somebody who did things. The borrower waited. The investor watched Pell. The student breathed on command. The gambler sat and studied faces. The warrior moved. So I trained. For twenty minutes, I was a genius. My stance was cleaner than I remembered. My grip changed automatically. I stopped loading my shoulder before cuts."
+      },
+      {
+        "after_old_index": 41,
+        "mapped_index": 41,
+        "map_mode": "exact-anchor",
+        "prev_text": "Won another. Then lost badly because my foot dragged half a beat behind the decision. Jorren's practice sword hit my ribs. I went down. The sand was warm. I lay there staring upward. My mind had known exactly what to do. My body had simply declined. That was new. Old. I had just forgotten. Jorren offered a hand."
+      }
+    ],
+    "6": [
+      {
+        "after_old_index": 15,
+        "mapped_index": 15,
+        "map_mode": "exact-anchor",
+        "prev_text": "I carried the sack. This was creditor labor. Apparently Antonius's grand criminal enterprise began with flour. That was interesting for almost ten seconds. Then Rusk handed me another sack. By the sixth, I had developed a theory. Antonius was testing whether I would complain. I therefore did not complain. By the twelfth, I revised the theory. Antonius did not care whether I complained. He needed flour moved. That was worse. I had expected something criminal."
+      },
+      {
+        "after_old_index": 15,
+        "mapped_index": 15,
+        "map_mode": "exact-anchor",
+        "prev_text": "I carried the sack. This was creditor labor. Apparently Antonius's grand criminal enterprise began with flour. That was interesting for almost ten seconds. Then Rusk handed me another sack. By the sixth, I had developed a theory. Antonius was testing whether I would complain. I therefore did not complain. By the twelfth, I revised the theory. Antonius did not care whether I complained. He needed flour moved. That was worse. I had expected something criminal."
+      },
+      {
+        "after_old_index": 17,
+        "mapped_index": 17,
+        "map_mode": "exact-anchor",
+        "prev_text": "Instead I was loading flour beside a man named Toma who had a rash on his neck and hummed the same six notes repeatedly. Future Greg knew Antonius Vale as a lender whose influence eventually touched shipping, construction, mercenary companies, city officials, guild contracts, and enough private debt to make three governments nervous. Present Antonius owned two carts and too much flour. I put another sack on the cart."
+      }
+    ],
+    "8": [
+      {
+        "after_old_index": 484,
+        "mapped_index": 484,
+        "map_mode": "exact-anchor",
+        "prev_text": "\"You stopped avoiding carts.\" I looked behind us. A carter had apparently sworn at me. I had not heard him."
+      },
+      {
+        "after_old_index": 498,
+        "mapped_index": 498,
+        "map_mode": "exact-anchor",
+        "prev_text": "That stopped me. Rusk had just said almost the same thing. I looked down at my hands. Dust in the creases from the warehouse. Ink on one finger from Selka's agreement. A shallow sword blister reopening near my thumb. Three different lives on one hand."
+      },
+      {
+        "after_old_index": 499,
+        "mapped_index": 499,
+        "map_mode": "exact-anchor",
+        "prev_text": "\"Greg.\" I looked up. Hessa pointed to the mat."
+      }
+    ],
+    "9": [
+      {
+        "after_old_index": 11,
+        "mapped_index": 11,
+        "map_mode": "exact-anchor",
+        "prev_text": "The coat was brown, plain, and slightly too short in the sleeves. I looked at it. Then at him."
+      },
+      {
+        "after_old_index": 31,
+        "mapped_index": 31,
+        "map_mode": "exact-anchor",
+        "prev_text": "We left. No Rusk. That was the first unusual thing. The second was that Antonius carried his own ledger. Not the large warehouse ledger. A smaller one, bound in dark leather, worn at the corners. I noticed because of course I noticed. He noticed me noticing."
+      },
+      {
+        "after_old_index": 119,
+        "mapped_index": 119,
+        "map_mode": "exact-anchor",
+        "prev_text": "Another number. Then he asked what happened if the wood arrived late. The cooper said he lost two contracts. Antonius asked who. Names. One I knew faintly. Not important enough to chase. Then Antonius said, \"I'll cover the wood.\" I looked at him. The cooper did too."
+      }
+    ],
+    "10": [
+      {
+        "after_old_index": 22,
+        "mapped_index": 22,
+        "map_mode": "exact-anchor",
+        "prev_text": "\"To whom?\" Antonius looked at me. I smiled. He looked at Pell. Pell smiled. Antonius sighed. \"I preferred both of you separately.\""
+      },
+      {
+        "after_old_index": 81,
+        "mapped_index": 81,
+        "map_mode": "exact-anchor",
+        "prev_text": "Again. Pell began testing. Not dramatic testing. He did not chant. Nothing glowed. He touched the copper rod to different plates, marked responses in chalk, connected wire between two points, and muttered increasingly insulting things about whoever had built the gauntlet. I watched. Antonius watched me. After a while I looked at him."
+      },
+      {
+        "after_old_index": 746,
+        "mapped_index": 746,
+        "map_mode": "exact-anchor",
+        "prev_text": "Then turned around again. Home. Constraint. Home. I made it three streets before realizing I was laughing. Being responsible was exhausting."
+      }
+    ],
+    "11": [
+      {
+        "after_old_index": 1,
+        "mapped_index": 1,
+        "map_mode": "exact-anchor",
+        "prev_text": "The first Barrier I cast in my second life was approximately the size of a dinner plate. It lasted less than a second. It gave me a headache. Hessa stared at the empty air where it had been. I stared too. Then I laughed."
+      },
+      {
+        "after_old_index": 37,
+        "mapped_index": 37,
+        "map_mode": "exact-anchor",
+        "prev_text": "Hessa crouched and pressed two fingers against the inside of my wrist. Her eyes unfocused slightly as she felt for the weak mana response there. I had once known healers who could diagnose channel damage through a gauntlet in the middle of combat. Hessa needed skin contact, quiet, and time. That did not make her bad. That made her what almost everyone actually was."
+      },
+      {
+        "after_old_index": 39,
+        "mapped_index": 39,
+        "map_mode": "exact-anchor",
+        "prev_text": "\"Again,\" I said. Hessa did not release my wrist. \"No.\""
+      }
+    ],
+    "12": [
+      {
+        "after_old_index": 1,
+        "mapped_index": 1,
+        "map_mode": "exact-anchor",
+        "prev_text": "A spoon is an underrated investigative instrument. It is terrible at cutting. Mediocre at prying. Excellent at making the person who gave it to you feel safer than he should. I turned Antonius's spoon over in my hand."
+      },
+      {
+        "after_old_index": 39,
+        "mapped_index": 39,
+        "map_mode": "exact-anchor",
+        "prev_text": "That should have bothered me more than it did. I lifted the shard with the spoon and rolled it a fraction. The vein had not moved. Light. Probably. I angled it toward the window. Green. Black. A memory scratched at the back of my skull. Canvas walls. Blood. A brass mortar. Someone grinding. Not the black part. The voice was female. Older?"
+      },
+      {
+        "after_old_index": 407,
+        "mapped_index": 407,
+        "map_mode": "exact-anchor",
+        "prev_text": "\"Rigid container. Damp cloth. Scoop pieces individually. Don't pour.\" I looked at the spoon still sticking out of Antonius's coat pocket. He saw me look."
+      },
+      {
+        "after_old_index": 683,
+        "mapped_index": 683,
+        "map_mode": "exact-anchor",
+        "prev_text": "We kept walking. At the warehouse, Corven's sacks were being transferred into rigid bins under Nera's handling instructions. Slowly. No panic. No dust. A problem had become a process. I liked that. Antonius stopped beside the first sealed bin."
+      }
+    ],
+    "13": [
+      {
+        "after_old_index": 16,
+        "mapped_index": 16,
+        "map_mode": "exact-anchor",
+        "prev_text": "\"It did a thing.\" Antonius was spreading. This was becoming a public-health problem. I picked up the first regulator. Pell slapped my hand. I stared at him. He stared back."
+      },
+      {
+        "after_old_index": 26,
+        "mapped_index": 26,
+        "map_mode": "exact-anchor",
+        "prev_text": "Pell did not explain. He picked up the first regulator with wooden tongs and seated it into a crude testing frame. That was new. Not the regulator. The frame. Two uprights. A crosspiece. Copper contacts. A little ceramic cradle. A weighted arm hanging from a pin. Ugly. Functional. I leaned closer."
+      }
+    ],
+    "14": [
+      {
+        "after_old_index": 71,
+        "mapped_index": 71,
+        "map_mode": "exact-anchor",
+        "prev_text": "She pulled a sheet from beneath the counter. \"Mara Venn. Mill road. Two miles north. Wagon escort and collection. One damaged axle reported. Cargo is iron fittings and lamp oil. Client wants two Bronze bodies because the road has had thefts.\""
+      },
+      {
+        "after_old_index": 219,
+        "mapped_index": 219,
+        "map_mode": "exact-anchor",
+        "prev_text": "The woman spoke without looking up. \"Lara Holt.\""
+      },
+      {
+        "after_old_index": 230,
+        "mapped_index": 230,
+        "map_mode": "exact-anchor",
+        "prev_text": "I held the clamp. The axle had split lengthwise near the wheel seat. Lara had fitted a shaped iron strap around it and was drilling pilot holes for bolts."
+      }
+    ],
+    "15": [
+      {
+        "after_old_index": 21,
+        "mapped_index": 21,
+        "map_mode": "exact-anchor",
+        "prev_text": "The patrol remained boring for almost an hour. A farm cart passed. Then two women carrying baskets. Len pushed his vegetables north while loudly informing one wheel of his cart that it was a disgrace to woodworking."
+      },
+      {
+        "after_old_index": 21,
+        "mapped_index": 21,
+        "map_mode": "exact-anchor",
+        "prev_text": "The patrol remained boring for almost an hour. A farm cart passed. Then two women carrying baskets. Len pushed his vegetables north while loudly informing one wheel of his cart that it was a disgrace to woodworking."
+      },
+      {
+        "after_old_index": 25,
+        "mapped_index": 25,
+        "map_mode": "exact-anchor",
+        "prev_text": "Then someone screamed around the bend ahead."
+      },
+      {
+        "after_old_index": 189,
+        "mapped_index": 189,
+        "map_mode": "exact-anchor",
+        "prev_text": "We reorganized. Jorren walked beside the wagon. Alden and I followed with the prisoners connected by rope."
+      }
+    ],
+    "16": [
+      {
+        "after_old_index": 16,
+        "mapped_index": 16,
+        "map_mode": "exact-anchor",
+        "prev_text": "Jorren pointed one practice sword at my chest."
+      },
+      {
+        "after_old_index": 47,
+        "mapped_index": 47,
+        "map_mode": "exact-anchor",
+        "prev_text": "Alden was there before us."
+      },
+      {
+        "after_old_index": 101,
+        "mapped_index": 101,
+        "map_mode": "exact-anchor",
+        "prev_text": "Alden hit the sand hard. He rolled, came up on one knee, and laughed. Not embarrassed. Not angry. Interested. That changed my model. Small change. Important."
+      }
+    ],
+    "17": [
+      {
+        "after_old_index": 6,
+        "mapped_index": 6,
+        "map_mode": "exact-anchor",
+        "prev_text": "Do not pursue onto canal after dark without licensed water support."
+      },
+      {
+        "after_old_index": 51,
+        "mapped_index": 51,
+        "map_mode": "exact-anchor",
+        "prev_text": "We reached South Canal while the sun was still above the roofs."
+      },
+      {
+        "after_old_index": 257,
+        "mapped_index": 257,
+        "map_mode": "exact-anchor",
+        "prev_text": "A thin iron hook slid through the gap."
+      }
+    ],
+    "18": [
+      {
+        "after_old_index": 1,
+        "mapped_index": 1,
+        "map_mode": "exact-anchor",
+        "prev_text": "Hessa had beans."
+      },
+      {
+        "after_old_index": 69,
+        "mapped_index": 69,
+        "map_mode": "exact-anchor",
+        "prev_text": "\"That is smaller than the one you put in the cup.\""
+      }
+    ],
+    "19": [
+      {
+        "after_old_index": 64,
+        "mapped_index": 64,
+        "map_mode": "exact-anchor",
+        "prev_text": "Her left hand was stained purple from the first knuckle down."
+      },
+      {
+        "after_old_index": 429,
+        "mapped_index": 429,
+        "map_mode": "exact-anchor",
+        "prev_text": "“Sometimes dark sealed sacks.”"
+      }
+    ],
+    "20": [
+      {
+        "after_old_index": 446,
+        "mapped_index": 446,
+        "map_mode": "exact-anchor",
+        "prev_text": "The yard would be mud tomorrow even if the sky cleared."
+      },
+      {
+        "after_old_index": 598,
+        "mapped_index": 598,
+        "map_mode": "exact-anchor",
+        "prev_text": "I took two coppers from my purse and put them on the stone ledge between us, about a foot apart."
+      }
+    ],
+    "21": [
+      {
+        "after_old_index": 464,
+        "mapped_index": 464,
+        "map_mode": "exact-anchor",
+        "prev_text": "The driver met Octavia in the court."
+      },
+      {
+        "after_old_index": 510,
+        "mapped_index": 510,
+        "map_mode": "exact-anchor",
+        "prev_text": "“Your ten feet.”"
+      }
+    ],
+    "22": [
+      {
+        "after_old_index": 45,
+        "mapped_index": 45,
+        "map_mode": "exact-anchor",
+        "prev_text": "Hall Two smelled like wet wool, old wood, and twenty-seven adventurers who had all decided they were dry enough."
+      }
+    ],
+    "23": [
+      {
+        "after_old_index": 1,
+        "mapped_index": 1,
+        "map_mode": "exact-anchor",
+        "prev_text": "North Gate had too many shoes."
+      },
+      {
+        "after_old_index": 45,
+        "mapped_index": 45,
+        "map_mode": "exact-anchor",
+        "prev_text": "“Captain Ressa. You take intake overflow.”"
+      }
+    ],
+    "24": [
+      {
+        "after_old_index": 61,
+        "mapped_index": 61,
+        "map_mode": "exact-anchor",
+        "prev_text": "A woman under the wagon was swearing at an axle."
+      },
+      {
+        "after_old_index": 84,
+        "mapped_index": 84,
+        "map_mode": "exact-anchor",
+        "prev_text": "He was eating an onion."
+      }
+    ],
+    "25": [
+      {
+        "after_old_index": 1,
+        "mapped_index": 1,
+        "map_mode": "exact-anchor",
+        "prev_text": "The first creature came over the wall sideways."
+      },
+      {
+        "after_old_index": 55,
+        "mapped_index": 55,
+        "map_mode": "exact-anchor",
+        "prev_text": "A Barrier the size of my palm appeared beside its muzzle."
+      }
+    ],
+    "26": [
+      {
+        "after_old_index": 252,
+        "mapped_index": 252,
+        "map_mode": "exact-anchor",
+        "prev_text": "“Dead creatures recovered.”"
+      }
+    ],
+    "27": [
+      {
+        "after_old_index": 21,
+        "mapped_index": 21,
+        "map_mode": "exact-anchor",
+        "prev_text": "Someone had dropped half a loaf in the mud."
+      }
+    ],
+    "28": [
+      {
+        "after_old_index": 494,
+        "mapped_index": 494,
+        "map_mode": "exact-anchor",
+        "prev_text": "On the outer sill sat a small piece of bread."
+      }
+    ],
+    "30": [
+      {
+        "after_old_index": 75,
+        "mapped_index": 75,
+        "map_mode": "exact-anchor",
+        "prev_text": "A married couple, Harl and Tessa, who had left their pigs with Harl’s brother and were now arguing about whether that had been wise."
+      }
+    ],
+    "32": [
+      {
+        "after_old_index": 133,
+        "mapped_index": 133,
+        "map_mode": "exact-anchor",
+        "prev_text": "Cheap reactive aggregate treated to absorb, blur, or flatten small magical residues. Used later in ward shops, evidence handling, some artificer benches, cheap shielding boxes, counterfeit suppression, and several criminal applications that had made entire committees very tired."
+      }
+    ],
+    "33": [
+      {
+        "after_old_index": 167,
+        "mapped_index": 167,
+        "map_mode": "exact-anchor",
+        "prev_text": "I crouched beside the split sack."
+      }
+    ],
+    "34": [
+      {
+        "after_old_index": 2,
+        "mapped_index": 2,
+        "map_mode": "exact-anchor",
+        "prev_text": "He was using it to hold up a shelf."
+      }
+    ],
+    "35": [
+      {
+        "after_old_index": 105,
+        "mapped_index": 105,
+        "map_mode": "exact-anchor",
+        "prev_text": "A woman in blue work trousers arrived carrying a basket of laundry."
+      }
+    ],
+    "36": [
+      {
+        "after_old_index": 62,
+        "mapped_index": 62,
+        "map_mode": "exact-anchor",
+        "prev_text": "“You were bitten in the boot.”"
+      }
+    ],
+    "37": [
+      {
+        "after_old_index": 294,
+        "mapped_index": 294,
+        "map_mode": "exact-anchor",
+        "prev_text": "We kept working."
+      }
+    ],
+    "38": [
+      {
+        "after_old_index": 53,
+        "mapped_index": 53,
+        "map_mode": "exact-anchor",
+        "prev_text": "Then my hands."
+      }
+    ],
+    "39": [
+      {
+        "after_old_index": 154,
+        "mapped_index": 154,
+        "map_mode": "exact-anchor",
+        "prev_text": "I retreated."
+      }
+    ],
+    "40": [
+      {
+        "after_old_index": 13,
+        "mapped_index": 13,
+        "map_mode": "exact-anchor",
+        "prev_text": "Nineteen-year-old recovery remained offensive."
+      }
+    ],
+    "41": [
+      {
+        "after_old_index": 43,
+        "mapped_index": 43,
+        "map_mode": "exact-anchor",
+        "prev_text": "Normal use."
+      }
+    ],
+    "42": [
+      {
+        "after_old_index": 60,
+        "mapped_index": 60,
+        "map_mode": "exact-anchor",
+        "prev_text": "The freight yard occupied a broad packed-earth square inside the west wall where carts could be weighed, split, reloaded, inspected, delayed, taxed, cursed, and occasionally repaired."
+      }
+    ],
+    "43": [
+      {
+        "after_old_index": 125,
+        "mapped_index": 125,
+        "map_mode": "exact-anchor",
+        "prev_text": "I moved sacks."
+      }
+    ],
+    "44": [
+      {
+        "after_old_index": 190,
+        "mapped_index": 190,
+        "map_mode": "exact-anchor",
+        "prev_text": "I left."
+      }
+    ]
+  }
+}

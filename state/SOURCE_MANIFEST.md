@@ -2,11 +2,12 @@
 
 ## Current authoritative publishing manuscript
 
-- File: `Peg_Leg_Greg_authoritative_v65_ch64_light_ship_edit.docx`
-- SHA-256: `a90162f5f60a42f2a0dbb472d1cad25da31f1b32b0a25d3706e68db0292c7d63`
-- Chapters: 1–64
-- Approximate body words: 201,685
-- Status: authoritative for published story text and continuity through Chapter 64.
+- File: `Peg_Leg_Greg_authoritative_ch82_light_edit(1).docx`
+- SHA-256: `9b7ee31c56ac4ada233e18bcf3a843a9e2984c8d5857bdde8b96fb770b933799`
+- Chapters: 1–82
+- Approximate body words: 261,849
+- Latest chapter: Chapter 82 — THE RECONCILER
+- Status: CURRENT publishing prose authority.
 
 ## Authority chain
 
@@ -14,6 +15,7 @@ AUTHORITATIVE / BEST-CURRENT MANUSCRIPT → DERIVED ILLUSTRATED READER → PUBLI
 
 The manuscript is sovereign. The reader never owns prose. Illustrations do not create story canon.
 
-## Baseline publishing checkpoint
+## Historical publishing checkpoints
 
-This reader intentionally stops at Chapter 64. Later writing remains outside this publishing checkpoint until explicitly rebased.
+- `Peg_Leg_Greg_authoritative_v65_ch64_light_ship_edit.docx` — historical Chapter 64 baseline.
+- Earlier Chapter 44 / Chapter 29 sources are historical only and must not be treated as current publishing authority.

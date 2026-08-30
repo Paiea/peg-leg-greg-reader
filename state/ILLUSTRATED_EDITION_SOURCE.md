@@ -1,9 +1,13 @@
 # Illustrated Edition Source
 
-Current prose source: `Peg_Leg_Greg_authoritative_v65_ch64_light_ship_edit.docx`
+Current prose source: `Peg_Leg_Greg_authoritative_ch82_light_edit(1).docx`
 
-SHA-256: `a90162f5f60a42f2a0dbb472d1cad25da31f1b32b0a25d3706e68db0292c7d63`
+SHA-256: `9b7ee31c56ac4ada233e18bcf3a843a9e2984c8d5857bdde8b96fb770b933799`
 
-Published chapter range: **1–64**
+Published chapter range: **1–82**
 
-All published chapter prose, titles, order, and paragraph structure derive from this manuscript. Curated reader art remains where compatible. Development contact sheets are excluded from the public reader.
+Current endpoint: **Chapter 82 — THE RECONCILER**
+
+All published chapter prose, titles, order, and paragraph structure derive from this manuscript. Curated reader art from the established reader is preserved where compatible. Development contact sheets remain excluded from the public reader.
+
+Historical Chapter 64 source metadata remains archival only.
