@@ -1,8 +1,8 @@
-# PEG-LEG GREG --- CHAPTER INDEX --- CH105
+# PEG-LEG GREG --- CHAPTER INDEX --- CH113
 
-**Current endpoint:** Chapter 105 --- THE CONTROL
+**Current endpoint:** Chapter 113 --- THE READER
 
-Chapters 1--82 are closed Book 1. Chapters 83--105 are the current Book 2 manuscript.
+Chapters 1--82 are closed Book 1. Chapters 83--113 are the current Book 2 manuscript.
 
 1.  **THE BOY**
 2.  **THE BORROWER**
@@ -109,3 +109,11 @@ Chapters 1--82 are closed Book 1. Chapters 83--105 are the current Book 2 manusc
 103. **THE SHAPER**
 104. **THE SECOND OPINION**
 105. **THE CONTROL**
+106. **THE RUNNER**
+107. **THE TARGET**
+108. **THE LOSER**
+109. **THE STOPPER**
+110. **THE PARTNER**
+111. **THE BRAKE**
+112. **THE AUDIENCE**
+113. **THE READER**

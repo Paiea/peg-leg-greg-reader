@@ -1,111 +1,114 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Chapter 105 — **THE CONTROL**.
+- Chapter 113 — **THE READER**.
 - Book 1 Chapters 1–82 closed. Book 2 active.
 
 ## Canonical spelling / identity
 - Existing character spelling is canonically **LYSSA**. `Lysa` is obsolete spelling for the same character.
-- Lyssa visual identity established only as: Black woman; tall relative to Greg; thin/lithe build; natural Afro-textured hair.
+- Lyssa visual identity established only as: Black woman; tall relative to Greg; thin/lithe build; natural Afro-textured hair. Do not invent further precise appearance without manuscript support.
 
-## Greg now
+## Greg
 - Nineteen, Bronze, Carrow.
 - Permanent LEFT below-knee amputation, knee preserved; right leg intact; two crutches.
-- No prosthesis, peg, socket, magical replacement, or post-loss casting.
+- No prosthesis/peg/socket/magical replacement.
 - Residual limb baseline.
-- Phantom/body-map sensations remain active and are not established as magic.
 
-## Magic state
-- FIVE successful minimal supervised mana draws total through Ch105.
-- No spell cast, no Barrier completion, no external magical release.
-- First supervised deliberate mana-alteration attempt remains Ch103 only:
-  - target: smallest distinguishable localization into RIGHT thumb pad;
-  - requested localization failed;
-  - broader redistribution through right palm/wrist with slight wrist rotation/forearm engagement;
-  - Greg recognized something familiar as old Barrier setup;
-  - Hessa confirms deliberate alteration but does NOT establish automatic Barrier takeover.
-- Ch104 recurrent mild right-thumb tingling remained unexplained.
-- Ch105 morning: no tingling since Ch104 recurrence; no overnight/morning symptoms; right hand exam normal.
-- Hessa deliberately chooses DRAW-ONLY, not shaping, because the recurrent symptom adds an observation she does not want to complicate prematurely.
-- Ch105 test:
-  - seated;
-  - right hand resting palm-up on folded towel to encourage quiet/visible hand position;
-  - straight copper strip used;
-  - minimal draw successful;
-  - right hand remains quiet;
-  - no thumb tingling;
-  - no pressure/pain;
-  - no urge to rotate wrist;
-  - no unusual below-knee magical sensation; ordinary phantom foot only;
-  - no shaping.
-- After release, Hessa observes Greg without timing disclosed to him.
-- She then directly supervises a small amount of ORDINARY crutch use: stand, walk to door/back three times.
-- No thumb tingling during immediate post-draw crutch use.
-- This establishes only: one minimal draw plus brief ordinary supervised crutch use did NOT immediately reproduce thumb tingling today.
-- It does NOT establish whether the prior tingling was caused by shaping, crutch use, attention, delayed magical effect, or something else.
-- Hessa refuses a shaping attempt Ch105 because the second prior tingling episode was delayed during ordinary life; immediate non-recurrence does not answer delayed recurrence.
-- Tomorrow: NO MAGIC.
-- Next Hessa assessment: DAY AFTER TOMORROW relative to Ch105.
-- Possible shaping remains MAYBE, not promised.
-- Hessa raises an additional design issue: repeating the same unfamiliar localization instruction can itself train a new pattern and thereby change the question being tested.
-- Therefore future first-shaping assessment may repeat right-thumb target OR change target; exact design remains open.
-- Hessa immediately rejects using LEFT hand “not yet,” specifically because she does not need to add the missing-side question yet. Do not infer a left-side magical conclusion.
-- Greg asks whether Hessa thinks he can cast again. Hessa answers honestly: **I don't know.**
-- Hessa also notes evidence she values before allowing more:
-  - repeated successful draws;
-  - one deliberate alteration;
-  - Greg stopped when alteration moved somewhere unintended;
-  - Greg recognized a familiar pattern and stopped;
-  - Greg reported the hand symptom;
-  - Greg did not reproduce/test it himself.
-- Greg remains forbidden to independently draw, shape, cast, self-test, alter crutch grip to reproduce symptoms, rehearse Barrier magically, or deliberately reproduce the wrist movement as training.
-- By late afternoon Ch105, no thumb recurrence has occurred.
+## Magic through Ch113
+- EIGHT successful minimal supervised mana draws total through Ch111.
+- FOUR supervised deliberate shaping attempts total through Ch111.
+- No spell, Barrier completion, or external magical release.
+- Ch111 latest control result: Greg stopped deliberately feeding a small right-forearm alteration while maintaining the underlying draw; altered region diminished/softened; copper response diminished; small unrequested right-wrist twitch occurred; Hessa ordered release.
+- Hessa is reasonably confident Greg stopped feeding the alteration, but this is not clean mastery.
+- External-effect testing remains NOT cleared/planned.
+- Casting prognosis remains unknown.
+- LEFT shaping remains excluded.
+- Two prior mild right-thumb tingling episodes remain unexplained; no recurrence Ch105–113.
+- Ch112 and Ch113 contain NO MAGIC. Greg obeys restrictions.
+- Next Hessa assessment is TOMORROW relative to end Ch113.
 
-## Physical competence
-- Ch102 Pessa turning work remains unresolved.
-- No Pessa training Ch103, Ch104, or Ch105.
-- Ch105 Hessa has no medical objection to Greg asking Pessa if thumb remains quiet, but she asks first whether he actually wants to train.
-- Greg checks and decides he does NOT want to train.
-- He does not ask Pessa.
-- This is not injury, medical restriction, or Pessa refusal.
-- No adaptive system/technique.
+## Physical
+- Ch110 Pessa movement work remains active evidence; no Pessa training Ch111–113.
+- Ch112 fire/crowd/backstage movement produced ordinary hand/adrenaline load but no injury.
+- Ch113 return to theatre uses audience-side routes only; Greg remains on crutches and does not climb stage steps because they are unrailed.
+- Theatre staff route him around work lanes rather than treating him as fast/agile.
+- No new physical capability, fall, injury, thumb symptom, or residual-limb problem.
 
-## Ordinary life / choices
-- After Hessa, Greg chooses food first.
-- At Guild, Merrin offers suitable paid work: seated ground-floor receipt comparison, maybe an hour.
-- Greg recognizes it is exactly the kind of work he can currently do, but declines because he does not want it.
-- Merrin accepts without comment or disappointment.
-- Greg briefly starts toward Guild upstairs, catches himself using stairs as proof of an “unproductive” choice, and turns back.
-- Greg watches an unnamed boy free a paper boat from a rain gutter with a stick; no new name/canon significance.
-- At lodging, keeper repairs a loose pantry hinge; Greg offers help and keeper says no. Greg sits and watches without turning the moment into useful work.
-- Greg returns upstairs later using established slow stair method with rail/crutches/right leg/pause at landing; no new stair capability established.
-- Notebook entry records only narrow result: minimal supervised draw, no shaping, no immediate thumb tingling during draw/brief supervised crutch use, no recurrence by late afternoon.
-- Greg crosses out “This does not explain anything” and replaces it with “No conclusion yet.”
+## Lyssa / relationship
+- Ch112 date/fire/reunion/late food/kiss remains current relationship development.
+- Lyssa does not appear Ch113.
+- Relationship remains mutual attraction/ordinary intimacy, undefined and independent.
 
-## Current relationships / life
-- Lyssa remains mutual attraction/ordinary intimacy; relationship undefined and independent.
-- Jorren remains independent friend; new dark-handled food knife/sheath from Ch104 remains his possession.
-- Alden remains independent friend/competitor.
-- Upstairs room retained; repaired tavern chair remains.
-- Dark green shirt remains ordinary liked possession.
+## Theatre — Ch113 return
+- Theatre first contact from Ch112 is now followed by an organic practical return.
+- Greg returns ONLY because the folded play page on his room table is not his and appears to be theatre/Teren property.
+- Greg wears blue, not dark green; this is ordinary choice/vanity, not symbolic canon.
+- Theatre/company name remains UNESTABLISHED.
+- No new named recurring theatre character is introduced.
+- Fire aftermath is materially present:
+  - front doors open;
+  - soot/smoke residue being scraped;
+  - water being mopped;
+  - seats covered/moved;
+  - curtain partly down/darkened;
+  - scorched boards/panels under repair;
+  - wet/scorched fabric being carried;
+  - lamp fittings/hinges/scenery being sorted;
+  - schedule pressure exists because the theatre must perform again before all repair work is ideal.
+- Fire cause remains UNESTABLISHED. No investigation/sabotage thread begins.
+- Greg finds the same unnamed soot-shirted theatre worker from Ch112. She recognizes him without reverence.
+- Greg returns the folded page; she identifies it as Teren's and thanks him. His practical errand is fully complete.
+- Greg turns to leave.
+- He stops because he hears the same line from rehearsal and thinks it is somehow “wrong,” though he cannot identify why.
+- The same unnamed onstage woman who improvised around Greg's line during the fire sees him and asks him to say/read the line again.
+- Greg initially refuses, stating his errand is complete and he is not in the play.
+- She tells him to leave if he wants.
+- Greg stays voluntarily.
+- This is the first clear post-fire theatre threshold: no emergency, no obligation, no recruitment; Greg remains because he wants to understand what is happening.
 
-## Holl testing
-- Cross-bench tracking remains active under Holl.
-- Evidence does not establish Iris as obviously “too loose.”
-- Possible bench/fixture effect unresolved.
-- Ch96 payment unsettled if naturally relevant.
+## Greg's second theatre exposure / reading
+- Greg remains audience-side in a front-row seat because the stage has three unrailed steps and he declines to climb them.
+- The unnamed woman brings him a page and asks him to read only the marked line: **“No man who intends to return.”**
+- No audience is present.
+- Greg reads the line repeatedly while the woman rehearses different responses/timing around it.
+- Greg does NOT understand acting technique.
+- Raw observations only:
+  - the same words can feel different across repetitions;
+  - the woman distinguishes her pause from Greg taking/using it;
+  - she says Greg can “push” the end of a line even when Greg does not understand what that means;
+  - one more neutral/literal read is “closer” to what she needs now, but NOT necessarily closer to the fire performance;
+  - she says last night Greg sounded like he did not care whether the line was funny, which gave her “room” to make it funny;
+  - she explicitly states that making it funny is her job;
+  - reading from the page too long makes Greg “disappear”; looking up sooner changes the read, but no acting principle is established.
+- Greg recognizes that the target/context may change and deliberately refuses to turn it into a system.
+- Rehearsal stops abruptly when repair work needs the stage clear.
+- The unnamed woman casually asks “Tomorrow?” Greg says no. She accepts without pressure and walks away.
+- No recruitment, rehearsal schedule, acting lesson contract, payment, troupe membership, or talent proclamation occurs.
 
-## Other threads
-- Edrin owns sinkstone/kestrin investigation; Greg does not chase.
-- Arlo/Vessa `WE KNOW. DO NOT COME.` remains in force.
-- Antonius Vale remains commercial/debt relationship, no automatic work stream.
-- Theatre remains approved long-range, exact contact/timing open.
+## Theatre threshold now
+- Architecture status:
+  - INCIDENTAL CONTACT: achieved Ch112.
+  - RETURN FOR PRACTICAL REASON: achieved Ch113.
+  - VOLUNTARY STAY AFTER ERRAND: achieved Ch113 in a small way.
+  - PERMISSION/CONSTRAINT/PLAY: barely beginning as raw repeated line-reading, not yet a formal progression track.
+- Greg has now chosen to remain inside the theatre after he was completely free to leave.
+- He is bothered/fascinated that the same line worked differently across contexts and still does not understand why.
+- Greg does NOT write theatre observations in his notebook. The returned page is no longer in his possession.
+- End thought: the practical reason for returning was finished; he stayed anyway; **“That was worse. Probably.”**
+- Greg tells himself he is not going back, but desire/curiosity is now more active than after Ch112.
+
+## Other active ecology
+- Pessa movement thread active but separate.
+- Sevren selective courier possibility remains; possible north-road run next week not yet offered.
+- Holl cross-bench tracking unresolved; Ch96 payment unsettled if relevant.
+- Edrin owns sinkstone investigation.
+- Pell/Vessa `WE KNOW. DO NOT COME.` remains in force.
+- Antonius Vale remains commercial/debt relationship.
+- Octavia/Four Doors remains raw social-signaling experience only.
 
 ## Immediate continuity
-- End Ch105: Greg is upstairs in his room; thumb remains quiet through late afternoon.
-- Five successful supervised minimal draws total.
-- Still only ONE deliberate shaping/alteration attempt, Ch103.
-- Tomorrow is explicitly NO MAGIC.
-- Next Hessa assessment day after tomorrow; shaping MAYBE only.
-- No Pessa session occurred; Greg did not want one.
-- No injury or new named recurring characters.
+- End Ch113: Greg is upstairs after returning the theatre page and voluntarily staying for a brief rehearsal/read.
+- Theatre page has been returned; no theatre property remains with Greg.
+- No formal invitation or commitment exists.
+- Greg's next scheduled Hessa assessment is tomorrow.
+- No magic occurred Ch113.

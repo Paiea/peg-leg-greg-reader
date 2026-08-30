@@ -1,5 +1,25 @@
 from pathlib import Path
-from bs4 import BeautifulSoup
+from html.parser import HTMLParser
+
+
+class ImageCollector(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.figures = []
+        self.current_figure_classes = []
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == "figure":
+            self.current_figure_classes = attrs.get("class", "").split()
+        elif tag == "img":
+            self.figures.append((attrs.get("src"), list(self.current_figure_classes)))
+
+    def handle_endtag(self, tag):
+        if tag == "figure":
+            self.current_figure_classes = []
+
+
 ROOT = Path(__file__).resolve().parent
 expected = {
     "010": ("../visual/chapter_art/010/v28_c10_feature_dead-mans-hand.png", "scene-illustration"),
@@ -8,11 +28,11 @@ expected = {
 }
 for ch, (src, role) in expected.items():
     page = ROOT/"chapters"/f"{ch}.html"
-    soup = BeautifulSoup(page.read_text(encoding="utf-8"), "html.parser")
-    img = soup.find("img", src=src)
-    assert img is not None, f"{ch}: missing image reference {src}"
-    fig = img.find_parent("figure")
-    assert fig and role in fig.get("class", []), f"{ch}: {role} class missing"
+    parser = ImageCollector()
+    parser.feed(page.read_text(encoding="utf-8"))
+    match = next((classes for image_src, classes in parser.figures if image_src == src), None)
+    assert match is not None, f"{ch}: missing image reference {src}"
+    assert role in match, f"{ch}: {role} class missing"
     asset = (page.parent/src).resolve()
     assert asset.exists(), f"{ch}: missing asset {asset}"
 css=(ROOT/"assets"/"reader.css").read_text(encoding="utf-8")

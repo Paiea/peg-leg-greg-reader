@@ -1,0 +1,32 @@
+{
+  "chapter_files": 113,
+  "endpoint": "Chapter 113 — THE READER",
+  "authoritative_book2_sha256": "d5088352138be0b6d6b64422845b8620f377d3e19635cff7e20510ef28888769",
+  "authoritative_book1_sha256": "cbccfde5bf54ab7afd427505ef5f48d3a9c5f7f50552e69e9616b4294b7339d8",
+  "book2_title_mismatches": [],
+  "book2_prose_mismatches": [],
+  "book1_html_changed": [],
+  "toc_entries": 113,
+  "navigation_errors": [],
+  "image_refs": 144,
+  "broken_local_refs": [],
+  "development_art_refs": [],
+  "missing_alt": [],
+  "visual_files_current": 236,
+  "visual_files_changed_from_ch105": [],
+  "visual_files_missing_from_ch105": [],
+  "canonical_name_counts": {
+    "Silas Marris": 47,
+    "Pel Marris": 0,
+    "Arlo": 7,
+    "Pellian": 0,
+    "Iona Vale": 4,
+    "Ressa Vale": 0,
+    "Iris": 82,
+    "Pera": 0,
+    "Lyssa": 161,
+    "Lysa": 0
+  },
+  "missing_state_files": [],
+  "chapter_index_ch113": true
+}

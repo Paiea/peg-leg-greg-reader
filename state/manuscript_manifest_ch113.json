@@ -1,0 +1,18 @@
+{
+  "book1": {
+    "file": "Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+    "range": "1-82",
+    "status": "CLOSED",
+    "sha256": "cbccfde5bf54ab7afd427505ef5f48d3a9c5f7f50552e69e9616b4294b7339d8"
+  },
+  "book2": {
+    "file": "Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+    "range": "83-113",
+    "status": "ACTIVE",
+    "sha256": "d5088352138be0b6d6b64422845b8620f377d3e19635cff7e20510ef28888769"
+  },
+  "endpoint": {
+    "chapter": 113,
+    "title": "THE READER"
+  }
+}

@@ -1,19 +1,25 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Magic return / first shaping:** ACTIVE. Five minimal supervised draws now successful. Only one deliberate alteration attempt has occurred (Ch103), and requested thumb localization failed. Ch105 is draw-only and does not reproduce thumb tingling immediately. Hessa refuses shaping and inserts another no-magic day. Next assessment day after tomorrow; shaping MAYBE only.
-- **Right-thumb tingling:** ACTIVE OBSERVATION. Two mild episodes total through Ch104. None since Ch104 recurrence through late afternoon Ch105. Ch105 draw-only plus brief supervised ordinary crutch use does not immediately reproduce symptom. Cause remains unknown. Do not infer shaping vs crutch vs attention vs delayed effect.
-- **First-shaping test design:** ACTIVE. Repeating the same thumb instruction can itself train a new pattern and change the question. Hessa may repeat or change target later. LEFT hand explicitly “not yet” because Hessa does not want to add missing-side question. Do not collapse this into amputee magic theory.
-- **Greg's casting future:** OPEN. Greg explicitly asks whether Hessa thinks he can cast again. Hessa: “I don't know.” No prognosis established.
-- **Physical competence:** ACTIVE but separate. Ch102 turning findings unresolved. No training Ch103–105. Greg again has the option to ask Pessa Ch105 but decides he does not want to. No system/technique.
-- **Greg / ordinary preference:** ACTIVE DEVELOPMENT. Ch105 he declines suitable paid receipt-comparison work from Merrin because he does not want it. He also catches himself turning stairs into proof and stops. Do not make this a thesis that work/ambition is bad.
-- **Greg / Lyssa:** ACTIVE ORDINARY RELATIONSHIP. Mutual attraction/intimacy, undefined, independent. Canonical spelling LYSSA.
-- **Greg / Jorren:** ACTIVE FRIENDSHIP. Jorren's dark-handled food knife/sheath remains ordinary possession.
-- **Greg / Alden:** ACTIVE FRIEND/COMPETITOR. No new Ch105 development.
-- **Holl testing:** ACTIVE. Cross-bench/fixture question and expert recheck cost remain. Ch96 payment unsettled if relevant.
-- **Edrin / sinkstone-kestrin:** Edrin owns investigation. No Holl connection.
-- **Arlo Arwick / Vessa regulator:** `WE KNOW. DO NOT COME.` remains in force.
-- **Antonius Vale:** debt/commercial relationship, no automatic work. Eventual ally long-range.
-- **Road / Sevren:** enjoyment of road established; no immediate travel arc.
-- **Theatre / acting:** approved long-range; exact first contact/company/role/timing/pay open. Do not force.
-- **Social performance:** raw Ch87 signaling remains unformalized.
-- **Upstairs room / access:** retained; stairs materially costly/not unrestricted.
+- **Magic return / shaping:** ACTIVE. Eight successful supervised draws; four shaping attempts through Ch111. Ch112–113 contain no magic. Next Hessa assessment tomorrow after Ch113.
+- **Shaping control:** ACTIVE. Ch111 stop-feeding/diminish result is closer to instruction but not mastery. Hessa owns next test design.
+- **External-effect threshold:** ACTIVE FUTURE CRITERION only. Not cleared or scheduled.
+- **Old trained-pattern interference:** ACTIVE UNCERTAINTY. Ch103 familiar Barrier-like response has not repeated later.
+- **Right-thumb tingling:** quiet but unresolved. Two episodes through Ch104; none Ch105–113.
+- **Casting future:** OPEN. No prognosis.
+- **Physical competence / Pessa:** ACTIVE and separate. Ch110 resumed empirical movement; no Ch111–113 training.
+- **Greg / Lyssa:** ACTIVE ORDINARY ROMANCE. Ch112 theatre date/fire/reunion/late food/kiss. Relationship remains undefined. No Ch113 appearance.
+- **Theatre first contact:** ACTIVE. Ch112 accidental backstage performance during fire; Ch113 practical return to give back Teren's page.
+- **Theatre voluntary return/stay:** NEW ACTIVE THRESHOLD. Greg's practical errand ends, he turns to leave, then voluntarily stays because rehearsal of the same line bothers/fascinates him. No emergency or obligation keeps him there.
+- **Greg / performance response:** ACTIVE RAW EXPERIENCE. Repeated line-reading without audience reveals changing timing/context effects Greg cannot yet name. Do NOT formalize into acting/signaling system.
+- **Unnamed onstage woman:** ACTIVE THEATRE CONTACT but still unnamed. Same woman who improvised around Greg's line Ch112. She asks him to read in Ch113, gives minimal constraint, casually asks “Tomorrow?” and accepts his no. Do not canonize a name until needed/collision-checked.
+- **Unnamed soot-shirted theatre worker:** ACTIVE WORKPLACE CONTACT but unnamed. Recognizes Greg, accepts returned page, remains busy with repair/schedule work. No recruitment role established.
+- **Teren:** existing name/reference only. Returned page identified as Teren's. No appearance/role expansion yet.
+- **Theatre workplace ecology:** ACTIVE. Fire aftermath, repairs, rehearsal, schedule pressure, scenery/prop/lamp cleanup. Fire cause still not established. Do not create investigation/sabotage arc.
+- **Theatre return:** Greg says no to casual “Tomorrow?” but has now stayed once voluntarily. Next return must still be earned by desire, practical contact, or another organic pressure. No formal troupe membership.
+- **Sevren / courier / road:** selective future work possible; north-road cart run next week remains not offered/final.
+- **Holl testing:** cross-bench/fixture question unresolved; Ch96 payment unsettled if relevant.
+- **Octavia / Four Doors:** raw social-signaling experience only.
+- **Edrin / sinkstone-kestrin:** Edrin owns investigation.
+- **Pell/Vessa regulator:** `WE KNOW. DO NOT COME.` remains in force.
+- **Antonius Vale:** debt/commercial relationship, no automatic work.
+- **Upstairs room/access:** retained; no theatre page remains on table after Ch113.

@@ -9,7 +9,7 @@ Reader-facing name continuity. This is not a uniqueness database and not a manda
 Before a new recurring name becomes canon, check exact match, spelling similarity, phonetic/TTS similarity, first syllable, ending/rhythm, visual confusability, and whether similar names share narrative/social context. Prefer natural and distinct over clever. Do not overcorrect accepted Book 1 similarities.
 
 ## STRONGLY PROTECTED / RECURRING NAMES
-Greg / Gregory; Antonius Vale; Jorren; Arlo; Hessa Marr; Alden Marr; Rusk; Dema Rusk; Marek Rusk; Tavin; Berren; Pessa; Dorn; Sevren Orin; Octavia Orin; Vessa; Edrin Saye; Holl; Lyssa; Nerin; Sera Dain; Rella; Captain Ressa; Nessa; Nella; Nera Voss; Nara; Dorrin Stone; Tam; Cal; Mira; Mara Venn / Mara; Nemi Caul; Lio; Cass; Bram; Jalen; Mevi; Lerris Vane; Merrit; Merrin; Merren; Maret; Marn; Sava; Sova; Lara Holt; Len; Leni; Kellan; Harl Doven / Doven; Etta; Cenn; Brina; Ossin; Perrin; Holm; Jory; Iris.
+Greg / Gregory; Antonius Vale; Jorren; Pell Arwick; Hessa Marr; Alden Marr; Rusk; Dema Rusk; Marek Rusk; Tavin; Berren; Pessa; Dorn; Sevren Orin; Octavia Orin; Vessa; Edrin Saye; Holl; Lyssa; Nerin; Sera Dain; Rella; Captain Ressa; Nessa; Nella; Nera Voss; Nara; Dorrin Stone; Tam; Cal; Mira; Mara Venn / Mara; Nemi Caul; Lio; Cass; Bram; Jalen; Mevi; Lerris Vane; Merrit; Merrin; Merren; Maret; Marn; Sava; Sova; Lara Holt; Len; Leni; Kellan; Harl Doven / Doven; Etta; Cenn; Brina; Ossin; Perrin; Holm; Jory; Iris.
 
 ## FINAL BOOK 1 COLLISION RESOLUTIONS
 - **Pel Marris → Silas Marris**
@@ -24,7 +24,7 @@ Also preserve established corrections:
 - Chapter 82 Vale clerk is **Merrin**, distinct from Berren.
 
 ## ACCEPTED WATCH CLUSTERS — DO NOT SURGICALLY RENAME WITHOUT NEED
-- Pellor / Pellin remain an accepted similarity pair; retired `Pell` is now **Arlo**.
+- Pell Arwick / Pellor / Pellin
 - Hessa / Pessa / Vessa / Captain Ressa / Nessa / Lessa / Tessa
 - Nara / Nera / Nella / Nessa / Nerin
 - Dorn / Dorrin
