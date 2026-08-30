@@ -1,0 +1,18 @@
+{
+  "book1": {
+    "file": "Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+    "range": "1-82",
+    "status": "CLOSED",
+    "sha256": "cbccfde5bf54ab7afd427505ef5f48d3a9c5f7f50552e69e9616b4294b7339d8"
+  },
+  "book2": {
+    "file": "Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+    "range": "83-105",
+    "status": "ACTIVE",
+    "sha256": "3d8aa86624f4749960d27cf193742dbfce5eed1435b7bab4d05ca43578b18c98"
+  },
+  "endpoint": {
+    "chapter": 105,
+    "title": "THE CONTROL"
+  }
+}

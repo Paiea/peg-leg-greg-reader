@@ -1,0 +1,32 @@
+{
+  "chapter_files": 105,
+  "endpoint": "Chapter 105 — THE CONTROL",
+  "authoritative_book2_sha256": "3d8aa86624f4749960d27cf193742dbfce5eed1435b7bab4d05ca43578b18c98",
+  "authoritative_book1_sha256": "cbccfde5bf54ab7afd427505ef5f48d3a9c5f7f50552e69e9616b4294b7339d8",
+  "book2_title_mismatches": [],
+  "book2_prose_mismatches": [],
+  "book1_html_changed": [],
+  "toc_entries": 105,
+  "navigation_errors": [],
+  "image_refs": 141,
+  "broken_local_refs": [],
+  "development_art_refs": [],
+  "missing_alt": [],
+  "visual_files_current": 218,
+  "visual_files_changed_from_ch97": [],
+  "visual_files_missing_from_ch97": [],
+  "canonical_name_counts": {
+    "Silas Marris": 47,
+    "Pel Marris": 0,
+    "Arlo": 7,
+    "Pellian": 0,
+    "Iona Vale": 4,
+    "Ressa Vale": 0,
+    "Iris": 82,
+    "Pera": 0,
+    "Lyssa": 118,
+    "Lysa": 0
+  },
+  "missing_state_files": [],
+  "chapter_index_ch105": true
+}
