@@ -130,3 +130,20 @@ a { color:var(--link); }
   .home-hero-copy { padding-left:17px; padding-right:17px; }
   .home-chapters { margin-left:17px; margin-right:17px; }
 }
+
+
+/* Mixed-fidelity illustration roles */
+.chapter-art.sketch-beat img { width:min(560px, calc(100vw - 48px)); max-height:68vh; }
+.chapter-art.scene-illustration img { width:min(980px, calc(100vw - 48px)); max-height:82vh; }
+.chapter-art.feature-illustration { margin-left:calc(50% - 50vw + 12px); margin-right:calc(50% - 50vw + 12px); }
+.chapter-art.feature-illustration img { width:min(1500px, calc(100vw - 24px)); max-height:none; }
+.chapter-art.feature-illustration.feature-portrait img { width:min(900px, calc(100vw - 32px)); }
+.chapter-art a { display:block; width:fit-content; max-width:100%; margin:0 auto; }
+@media (max-width:600px) {
+  .chapter-art.sketch-beat img,
+  .chapter-art.scene-illustration img { width:calc(100vw - 32px); max-height:none; }
+  .chapter-art.feature-illustration,
+  .chapter-art.feature-illustration.feature-portrait { margin-left:calc(50% - 50vw + 6px); margin-right:calc(50% - 50vw + 6px); }
+  .chapter-art.feature-illustration img,
+  .chapter-art.feature-illustration.feature-portrait img { width:calc(100vw - 12px); }
+}
