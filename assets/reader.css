@@ -223,3 +223,6 @@ a { color:var(--link); }
     object-fit:initial;
   }
 }
+
+/* Preserve intentional manuscript line breaks inside paragraphs */
+.prose p { white-space: pre-line; }
