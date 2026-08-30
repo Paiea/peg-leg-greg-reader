@@ -171,6 +171,7 @@ a { color:var(--link); }
     max-height:none;
     aspect-ratio:auto;
     margin:0;
+    line-height:0;
   }
 
   .chapter-art.scene-illustration img,
