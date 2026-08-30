@@ -38,11 +38,11 @@ No additional Book 1 naming decisions are authorized.
 
 ## Book 2
 
-Active manuscript. Current authoritative Book 2 prose source: `state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx`.
+Active manuscript. Current authoritative Book 2 prose source: `state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx`.
 
-**REPOSITORY MANUSCRIPT VALIDATED THROUGH CH113 — THE READER.**
+**REPOSITORY MANUSCRIPT VALIDATED THROUGH CH123 — THE ERRAND.**
 
-Chapters 83–113 are synchronized from the supplied manuscript checkpoint. The three forward-working Manuscript Engine state files are current through Chapter 113. `EDITOR_STATE.md`, `STORY_CONTROL_STATE.md`, and `WRITERS_ROOM_STATE.md` retain their stated supporting coverage and do not supersede manuscript events.
+Chapters 83–123 are synchronized to the current rolling Book 2 authority. The prior edited Ch83–105 checkpoint is retained in manuscript history; Chapters 106–123 are routed from the supplied Ch123 rolling manuscript. `MANUSCRIPT_STATE.md`, `OPEN_THREADS.md`, and `MANUSCRIPT_CHAPTER_INDEX.md` are synchronized to Ch123. `EDITOR_STATE.md`, `STORY_CONTROL_STATE.md`, and `WRITERS_ROOM_STATE.md` remain their existing developmental/editorial context and do not supersede manuscript events.
 
 ## Visual production
 

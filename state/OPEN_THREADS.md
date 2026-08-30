@@ -1,25 +1,18 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Magic return / shaping:** ACTIVE. Eight successful supervised draws; four shaping attempts through Ch111. Ch112–113 contain no magic. Next Hessa assessment tomorrow after Ch113.
-- **Shaping control:** ACTIVE. Ch111 stop-feeding/diminish result is closer to instruction but not mastery. Hessa owns next test design.
-- **External-effect threshold:** ACTIVE FUTURE CRITERION only. Not cleared or scheduled.
-- **Old trained-pattern interference:** ACTIVE UNCERTAINTY. Ch103 familiar Barrier-like response has not repeated later.
-- **Right-thumb tingling:** quiet but unresolved. Two episodes through Ch104; none Ch105–113.
-- **Casting future:** OPEN. No prognosis.
-- **Physical competence / Pessa:** ACTIVE and separate. Ch110 resumed empirical movement; no Ch111–113 training.
-- **Greg / Lyssa:** ACTIVE ORDINARY ROMANCE. Ch112 theatre date/fire/reunion/late food/kiss. Relationship remains undefined. No Ch113 appearance.
-- **Theatre first contact:** ACTIVE. Ch112 accidental backstage performance during fire; Ch113 practical return to give back Teren's page.
-- **Theatre voluntary return/stay:** NEW ACTIVE THRESHOLD. Greg's practical errand ends, he turns to leave, then voluntarily stays because rehearsal of the same line bothers/fascinates him. No emergency or obligation keeps him there.
-- **Greg / performance response:** ACTIVE RAW EXPERIENCE. Repeated line-reading without audience reveals changing timing/context effects Greg cannot yet name. Do NOT formalize into acting/signaling system.
-- **Unnamed onstage woman:** ACTIVE THEATRE CONTACT but still unnamed. Same woman who improvised around Greg's line Ch112. She asks him to read in Ch113, gives minimal constraint, casually asks “Tomorrow?” and accepts his no. Do not canonize a name until needed/collision-checked.
-- **Unnamed soot-shirted theatre worker:** ACTIVE WORKPLACE CONTACT but unnamed. Recognizes Greg, accepts returned page, remains busy with repair/schedule work. No recruitment role established.
-- **Teren:** existing name/reference only. Returned page identified as Teren's. No appearance/role expansion yet.
-- **Theatre workplace ecology:** ACTIVE. Fire aftermath, repairs, rehearsal, schedule pressure, scenery/prop/lamp cleanup. Fire cause still not established. Do not create investigation/sabotage arc.
-- **Theatre return:** Greg says no to casual “Tomorrow?” but has now stayed once voluntarily. Next return must still be earned by desire, practical contact, or another organic pressure. No formal troupe membership.
-- **Sevren / courier / road:** selective future work possible; north-road cart run next week remains not offered/final.
-- **Holl testing:** cross-bench/fixture question unresolved; Ch96 payment unsettled if relevant.
-- **Octavia / Four Doors:** raw social-signaling experience only.
-- **Edrin / sinkstone-kestrin:** Edrin owns investigation.
-- **Pell/Vessa regulator:** `WE KNOW. DO NOT COME.` remains in force.
-- **Antonius Vale:** debt/commercial relationship, no automatic work.
-- **Upstairs room/access:** retained; no theatre page remains on table after Ch113.
+- **Magic return/shaping:** ACTIVE. Twelve draws, eight shaping attempts, one external attempt. No spell/Barrier/established external effect.
+- **First external attempt / thread:** ACTIVE AMBIGUITY. Two movements during REACH remain un-attributed because baseline/confounds.
+- **External-test interpretability:** ACTIVE. Greg resists private apparatus reconstruction Ch123.
+- **Hessa cadence:** Ch124 is second full no-magic living day; next assessment morning after.
+- **Motor urge/thumb:** historical watch, quiet through Ch123.
+- **Greg/Lyssa:** ADVANCED. Reciprocal liking explicitly verbalized Ch123; brief mouth kiss at parting. Relationship still undefined/independent.
+- **Lyssa independence:** maintained. Ch123 begins during her paid cloth delivery and ends because she has another work obligation.
+- **Theatre voluntary belonging:** ACTIVE, off-page Ch123. Greg confirms to Lyssa he still goes because he wants to.
+- **Theatre practical contribution / performance ignorance:** ACTIVE, no new rung Ch123.
+- **Physical competence/Pessa:** ACTIVE SEPARATE. Lyssa has heard name; no meeting; latest session Ch119.
+- **Work choice:** ACTIVE. No automatic stream.
+- **Sevren/road:** north-road possibility not offered/final.
+- **Holl:** cross-bench/fixture unresolved; payment unsettled if relevant.
+- **Edrin:** owns sinkstone.
+- **Pell/Vessa:** `WE KNOW. DO NOT COME.`
+- **Antonius:** debt/commercial, no automatic work.

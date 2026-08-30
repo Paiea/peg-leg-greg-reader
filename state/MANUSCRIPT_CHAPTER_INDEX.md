@@ -1,8 +1,9 @@
-# PEG-LEG GREG --- CHAPTER INDEX --- CH113
+# PEG-LEG GREG --- CHAPTER INDEX --- CH82
 
-**Current endpoint:** Chapter 113 --- THE READER
+**Current endpoint:** Chapter 82 --- THE RECONCILER
 
-Chapters 1--82 are closed Book 1. Chapters 83--113 are the current Book 2 manuscript.
+Chapters 1--64 use the published checkpoint's role-title sequence.
+Chapters 65--82 continue from the current forward manuscript.
 
 1.  **THE BOY**
 2.  **THE BORROWER**
@@ -117,3 +118,13 @@ Chapters 1--82 are closed Book 1. Chapters 83--113 are the current Book 2 manusc
 111. **THE BRAKE**
 112. **THE AUDIENCE**
 113. **THE READER**
+114. **THE REVERSER**
+115. **THE RETURNER**
+116. **THE PROMPTER**
+117. **THE REPEAT**
+118. **THE STAND-IN**
+119. **THE SECOND ROUTE**
+120. **THE REPEATER**
+121. **THE REGULAR**
+122. **THE REACHER**
+123. **THE ERRAND**
