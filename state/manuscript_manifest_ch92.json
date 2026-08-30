@@ -1,0 +1,17 @@
+{
+  "book1": {
+    "file": "Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+    "chapters": "1-82",
+    "status": "closed"
+  },
+  "book2": {
+    "file": "Peg_Leg_Greg_Book2_Ch83-92_light_ship_edited.docx",
+    "chapters": "83-92",
+    "status": "active",
+    "sha256": "bce05b4747b6867bce629bec816786e7cdc322a704debaffe6e2dd2a54d386c7"
+  },
+  "endpoint": {
+    "chapter": 92,
+    "title": "THE SPECTATOR"
+  }
+}

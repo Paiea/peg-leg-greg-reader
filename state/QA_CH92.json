@@ -1,0 +1,62 @@
+{
+  "chapter_html_count": 92,
+  "endpoint_title": "THE SPECTATOR",
+  "book2_paragraph_matches": {
+    "83": {
+      "title": "THE SUITOR",
+      "paragraphs": 382,
+      "match": true
+    },
+    "84": {
+      "title": "THE PASSENGER",
+      "paragraphs": 395,
+      "match": true
+    },
+    "85": {
+      "title": "THE ARBITER",
+      "paragraphs": 460,
+      "match": true
+    },
+    "86": {
+      "title": "THE PLAYER",
+      "paragraphs": 470,
+      "match": true
+    },
+    "87": {
+      "title": "THE BLUFFER",
+      "paragraphs": 541,
+      "match": true
+    },
+    "88": {
+      "title": "THE OCCUPANT",
+      "paragraphs": 528,
+      "match": true
+    },
+    "89": {
+      "title": "THE SUBSTITUTE",
+      "paragraphs": 634,
+      "match": true
+    },
+    "90": {
+      "title": "THE BUYER",
+      "paragraphs": 588,
+      "match": true
+    },
+    "91": {
+      "title": "THE BEGINNER",
+      "paragraphs": 570,
+      "match": true
+    },
+    "92": {
+      "title": "THE SPECTATOR",
+      "paragraphs": 475,
+      "match": true
+    }
+  },
+  "all_book2_prose_match": true,
+  "broken_local_refs": [],
+  "development_image_refs": [],
+  "image_refs_checked": 105,
+  "book2_docx_sha256": "bce05b4747b6867bce629bec816786e7cdc322a704debaffe6e2dd2a54d386c7",
+  "book1_docx_sha256": "32c0f6c1a4a6b2fe14310b2cf0d5526efedaedd0459e164e1fa412084afc8a89"
+}
