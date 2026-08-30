@@ -33,7 +33,7 @@ a { color:var(--link); }
   .chapter-shell { padding-top:24px; }
   .chapter-title { margin:4vh auto 6vh; }
   .prose { line-height:1.72; }
-  .chapter-art { margin-top:2.4rem; margin-bottom:2.4rem; }
+  .chapter-art { margin-top:1.35rem; margin-bottom:1.35rem; }
   .chapter-nav { grid-template-columns:1fr 1fr; }
   .chapter-nav .toclink { grid-column:1/-1; grid-row:2; text-align:center; margin-top:10px; }
 }
