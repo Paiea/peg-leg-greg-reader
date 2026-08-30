@@ -39,7 +39,7 @@ Fix high-confidence reader friction only: broken grammar/sentences, missing/dupl
 - The lodging keeper is established as a woman. Do not allow pronoun drift.
 
 ## DO NOT CHANGE
-- No broad Book 1 rewrite/polish.
+- No further broad Book 1 rewrite/polish without explicit author approval. The authorized Chapters 20–82 rhythm pass is complete.
 - Do not invent exchange rates, purse balances, or financial explanations.
 - Do not force theatre, travel, magic restoration, or other long-range possibilities into prose.
 - Do not make Greg's future memory encyclopedic.
@@ -81,3 +81,20 @@ Fix high-confidence reader friction only: broken grammar/sentences, missing/dupl
 
 ## CURRENT EDITORIAL PRIORITY
 For the next forward pass, protect the distinction between **test progression** and **story progression**. The next no-magic day and later Hessa assessment should not become a repetitive laboratory log merely because the variables are interesting. Keep Greg's ordinary life, desire, social contact, work choices, physical reality, and the independent lives of Hessa/Pessa/Lyssa/Jorren/Alden alive around the testing. If the manuscript gives a clean result, preserve its narrow scope rather than editorially enlarging it.
+
+## COMPLETED EARLY PROSE POLISH
+
+- Scope: Chapters 20–82.
+- Primary intervention: recomposed adjacent narrative micro-paragraphs into varied paragraph units.
+- Dialogue exchanges, scene breaks, note/list structures, illustration anchors, prose wording, sentence order, canon, and endpoint were preserved.
+- Chapters 1–19 were left alone because their paragraph construction already matched the target more closely.
+- Chapters 83–123 were left alone as the later-style reference range.
+
+## SOCIAL NAMES / RELATIONSHIP LANGUAGE
+
+- Preserve existing ownership: Rusk's **Debtor**; work-context **Hook Boy**, **Regulator Boy**, and **Thinking Boy**; theatre-context **Gregory / Fire Boy / Blue Shirt**.
+- **Just Greg** begins as Alden's Chapter 15 provocation and returns once as an affectionate Chapter 78 callback.
+- Hessa normally uses **Greg**; her rare **Gregory** remains a seriousness marker.
+- Public/professional speakers may use **Vale / Mr. Vale** while Greg uses **Antonius**. Do not invent **Tony**.
+- Lyssa first uses **Aileen** privately in Chapter 123 after substantial earned closeness. The name is hers, rare, and not licensed to the wider cast.
+- Pessa's clipped **Greg** and frequent omission of names are character voice. Do not manufacture a nickname for her relationship with him.

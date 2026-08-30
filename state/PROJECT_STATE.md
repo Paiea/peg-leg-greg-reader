@@ -36,6 +36,10 @@ Approved canonical continuity:
 
 No additional Book 1 naming decisions are authorized.
 
+Chapters 20–82 received an author-approved paragraph-rhythm polish. The pass preserved the exact non-whitespace prose character stream, canon, chapter structure, and Book 1 endpoint.
+
+The manuscript-wide social-names pass preserves established nickname ownership and chronology. Late/private **Aileen** belongs only to Lyssa at Chapter 123; it is not a general name for Greg.
+
 ## Book 2
 
 Active manuscript. Current authoritative Book 2 prose source: `state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx`.

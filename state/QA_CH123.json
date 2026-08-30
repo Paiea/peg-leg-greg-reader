@@ -1,13 +1,14 @@
 {
   "errors": [],
-  "book1_sha256": "cbccfde5bf54ab7afd427505ef5f48d3a9c5f7f50552e69e9616b4294b7339d8",
-  "book2_sha256": "d665a55d11cb4ed7fa73d5131ac77b9bf57b532c23c2ea376ba55ec7fd144d53",
+  "book1_sha256": "5041ec36c61cbad6f80bf43cbd22ea55c7a2f4daa54bab43dd1be70971d36113",
+  "book2_sha256": "35e36e3c591e007ffa1ea68d80a8310378816ecbe729f95fb2278e861bbceaa7",
   "book2_chapters": 41,
   "reader_chapters": 123,
   "toc_entries": 123,
-  "visual_files": 232,
-  "image_refs": 149,
+  "visual_files": 267,
+  "image_refs": 174,
   "render_pages": 537,
+  "book1_polish_render_pages": 1441,
   "changed_files": [
     "README.md",
     "chapters/105.html",
@@ -46,5 +47,19 @@
   "removed_files": [
     "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx"
   ],
-  "git_available": false
+  "git_available": true,
+  "prose_polish": {
+    "range": "20-82",
+    "reader_paragraphs_before": 50291,
+    "reader_paragraphs_after": 26291,
+    "prose_character_stream_changed": false,
+    "endpoint_changed": false
+  },
+  "social_names_pass": {
+    "manuscript_range": "1-123",
+    "address_beats_changed": 4,
+    "aileen_first_use": 123,
+    "canonical_renames": 0,
+    "endpoint_changed": false
+  }
 }

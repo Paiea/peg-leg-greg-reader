@@ -4,8 +4,8 @@
 
 - Book 1: `Peg_Leg_Greg_authoritative_ch82_final_name_map.docx` — Chapters 1–82, CLOSED.
 - Book 2: `Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx` — Chapters 83–123, ACTIVE.
-- Book 1 SHA-256: `cbccfde5bf54ab7afd427505ef5f48d3a9c5f7f50552e69e9616b4294b7339d8`
-- Book 2 SHA-256: `d665a55d11cb4ed7fa73d5131ac77b9bf57b532c23c2ea376ba55ec7fd144d53`
+- Book 1 SHA-256: `5041ec36c61cbad6f80bf43cbd22ea55c7a2f4daa54bab43dd1be70971d36113`
+- Book 2 SHA-256: `35e36e3c591e007ffa1ea68d80a8310378816ecbe729f95fb2278e861bbceaa7`
 - Current story endpoint: Chapter 123 — **THE ERRAND**.
 - Canonical existing-character spelling: **Lyssa**.
 - The manuscript sources plus explicit author decisions are sovereign. Reader HTML is derived presentation.
@@ -33,3 +33,4 @@ Historical files remain historical and do not supersede the current sources abov
 - Book 2 reader/manuscript is validated through Chapter 123 — **THE ERRAND**.
 - Chapters 83–123 derive from the current rolling Book 2 authority, with the repository-approved edited Ch83–105 checkpoint preserved in the merged current manuscript.
 - Existing reader artwork and visual-production files are preserved.
+- Chapters 20–82 received an author-approved prose-rhythm polish that recomposed paragraph boundaries without changing the prose character stream, canon, chapter order, or endpoint.
