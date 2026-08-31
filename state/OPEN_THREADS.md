@@ -1,6 +1,6 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Current endpoint:** Chapter 231 — **THE MAGISTRATE**.
+- **Current endpoint:** Chapter 232 — **THE COUNTERSIGN**.
 - **Permanent forward manuscript:** `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`. Chapters 156–219 still need exact-text synchronization into the permanent manuscript; Chapter 220+ writes directly here. Light Reader synchronization is a separate downstream concern.
 - **Engine method:** `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves durable 01 behavior and recovery instructions.
 - **Magic counts:** ACTIVE at 33 supervised minimal draws / 29 deliberate shaping attempts / 45 external-effect attempts.
@@ -15,7 +15,7 @@
 - **Attempt 45:** FAR/AWAY, no observed response, control unchanged.
 - **Current distance interpretation:** INTERMEDIATE has now produced clean observed response across more than one session under the current apparatus, but Attempt 44 shows it is not reliable. INTERMEDIATE still produces clean response more consistently than FAR. Earlier clean FAR responses remain real; FAR reliability remains unestablished. Ch230's reversed order does not establish an order effect. No range established. Not generalized.
 - **Magic restrictions:** unchanged. No independent draw, shaping, external testing, paper, coins, thread, larger objects, practice, Barrier broadening, theatrical magic, or loopholes.
-- **Ch230 Hessa replication:** reversed predeclared order yields one clean INTERMEDIATE response, one clean INTERMEDIATE non-response, and two clean FAR non-responses. Counts end 33 / 29 / 45; restrictions unchanged. Ch231 contains no magic attempt; counts remain 33 / 29 / 45.
+- **Ch230 Hessa replication:** reversed predeclared order yields one clean INTERMEDIATE response, one clean INTERMEDIATE non-response, and two clean FAR non-responses. Counts end 33 / 29 / 45; restrictions unchanged. Chapters 231–232 contain no magic attempt; counts remain 33 / 29 / 45.
 - **Ch230 household residue:** a narrow folded brown cloth with three pins appears at home; customer/garment/ownership/use remain unknown. Greg's bad cuff repair reaches three loose threads and he leaves it alone. Lyssa returns with turnips and no garment.
 - **Next magic question:** Hessa still has several possibilities after Ch230 and has chosen none; when Greg asks whether there are more or fewer, she says `Different`. Do not convert this into a test ladder.
 - **Ch231 theatre:** full **The Crooked Fence** rehearsal/performance day. Greg plays the fifteen-line, mostly seated **Magistrate**; Hara = Widow, Marek = Neighbor, Pell = Clerk. The Ch229 window trim is now part of the magistrate-room set.
@@ -44,7 +44,7 @@
 - **Evidence ceiling:** NO robbery, ambush, cart target, Bren employment, organization, gang, boss, or specific plan established.
 - **Mason's Cut:** Olin's boy saw brown-coat man walking toward Mason's Cut but did not see him enter. Direction only. No base/residence/territory claim.
 - **Bren:** probable name of close-haired heavy-coat spokesman with left glove. One-copper demand refused Ch218. `Next time won't be one.` No surname, boss, organization, or violence established.
-- **Threat restraint:** Chapters 224–231 contain no new warning, demand, appearance, violence, sabotage, or investigation. Ch228 Olin simply sends ordinary oil with no message or warning attached.
+- **Threat restraint:** Chapters 224–232 contain no new warning, demand, appearance, violence, sabotage, or investigation. Ch228 Olin simply sends ordinary oil with no message or warning attached.
 - **Quiet defensive residue:** cash handling less visible; cart-departure information not casually shared; no guards, escorts, traps, patrols, or spy network.
 - **Vale debt:** ACTIVE. Exact balance known in-world but unstated. One-copper payment made Ch218. Ch224 suitable invoice/tally work produces legitimate credit. Ch227 different suitable office work produces another legitimate credit. Chapters 228–231 have no Vale movement. Debt remains unresolved.
 - **Vale work route:** Ch227 establishes ordinary outgoing packet bundling as work that happens most days when needed. Greg has no guaranteed post, schedule, rate, or promotion.
@@ -52,7 +52,10 @@
 - **Greg / Lyssa:** Lyssa's work continues offscreen and independently. The Ch227 pale-coat customer/source remains unexplained. In Ch228 the pale coat is gone by morning; the dark skirt moves off-page by evening. A folded blue-gray cloth appears, but Lyssa establishes only that it is old cloth and new to Greg; Ch229 routes it to Marra without establishing customer, garment, ownership, or use.
 - **Lyssa fatigue:** Ch228 Lyssa comes home tired and rubs one wrist briefly. Ch229 she sleeps later than Greg and then works on the north side; no injury is established. Greg does not medicalize or manage her work.
 - **Onion seller recognition:** Ch228 the onion seller remembers Greg as the customer who previously stood too long deciding how many onions to buy. She does not establish his name or a broader reputation. Keep this as tiny Carrow social memory, not celebrity progression.
-- **Next engine rotation:** let the full Ch231 theatre/performance day breathe. Vale/money, ordinary Carrow/social/household life, or one genuinely grounded pressure fact are available; none is owed on a timer. Hessa still has no chosen next experiment.
+- **Ch232 Vale work:** Greg voluntarily checks for suitable work after returning the theatre coat. Bundles are not ready; he instead matches returned payment acknowledgments against account lines under clerk review. One office carry-forward error is caught; Greg also makes one ordinary near-name/two-sisters matching mistake that the clerk catches. Antonius records legitimate debt credit; exact credit/balance remain unstated. No guaranteed job/schedule/rate.
+- **Ch232 household:** brown cloth remains same fold/three pins; Lyssa independently works on a separate dark sleeve; Greg's cuff remains three loose threads.
+- **Ch232 pressure/magic:** no Hessa, magic attempt, Bren/observer evidence, warning, investigation, or escalation. Counts remain 33 / 29 / 45.
+- **Next engine rotation:** let the full Ch232 Vale office day breathe. Follow the next actual obligation or ordinary pressure; theatre is only `Tomorrow maybe`, Hessa still has no chosen experiment, and external pressure is not owed on a timer.
 - **Ch229 Marra route:** Greg carries the still-undefined blue-gray cloth to Marra after brief window-trim work. He knows the green-door route and work lane without directions; Marra still calls him `the road one`.
 - **Ch229 blue-gray cloth ceiling:** Jessa finds two short chalk marks near an edge and calls the cloth `Marked`. Its customer, garment, ownership, intended use, and the exact meaning of the marks remain unestablished.
 - **Ch229 Lyssa network:** Marra/Jessa/customer traffic continues without Greg. An unnamed customer asks for Lyssa and says tomorrow afternoon is fine; Jessa later finds Lyssa independently. Do not assign formal Marra/Jessa roles or merge the customer with earlier unnamed/referral customers.
