@@ -17,7 +17,7 @@ jobs:
         run: python state/.sync_ch230.py
       - name: Remove one-shot files
         run: rm state/.sync_ch230.py .github/workflows/sync-ch230-state-once.yml
-      - name: Verify and commit state
+      - name: Verify, commit, rebase, and push state
         run: |
           grep -Fq '# CHAPTER 230' state/manuscript/Peg_Leg_Greg_Running_Manuscript.md
           grep -Fq 'Current story endpoint: Chapter 230' state/MANUSCRIPT_STATE.md
@@ -28,4 +28,5 @@ jobs:
           git add state/MANUSCRIPT_STATE.md state/OPEN_THREADS.md state/MANUSCRIPT_CHAPTER_INDEX.md state/MANUSCRIPT_WORKFLOW.md state/PROJECT_STATE.md state/.sync_ch230.py .github/workflows/sync-ch230-state-once.yml
           git diff --cached --check
           git commit -m "Advance manuscript state through Chapter 230"
+          git pull --rebase origin main
           git push origin HEAD:main
