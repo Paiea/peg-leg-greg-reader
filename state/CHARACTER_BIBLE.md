@@ -21,6 +21,8 @@ Increasingly embedded in theatre as a worker and performer. Acting corrections s
 
 As basic routes/cues/props become more automatic, some useful mistakes can come from anticipation, over-helping, or optimizing the wrong system rather than simple forgetting. Do not turn this into a fixed acting flaw or progress meter.
 
+Repeated work can also reduce supervision around Greg without making him the best worker: he increasingly knows routes, object continuity, scene needs, and where not to block people. Belonging should often appear as fewer necessary instructions rather than praise.
+
 ## Lyssa
 
 - Canonical spelling: Lyssa. Same established character formerly spelled Lysa.
@@ -29,6 +31,7 @@ As basic routes/cues/props become more automatic, some useful mistakes can come 
 - Relationship with Greg includes ordinary domestic life, not merely plot debriefs.
 - Can distinguish what happened from what Greg thinks it means.
 - Often refuses Greg's attempt to inflate a narrow practical event into a grand lesson when she has her own work to do.
+- Her professional sewing/alteration work remains an independent life/economic engine. Do not route her into theatre wardrobe merely because she can sew; any overlap requires an earned customer/job/relationship connection.
 - Do not flatten her into Greg's sounding board, permanent caretaker, exposition receiver, or person who exists only when Greg comes home.
 
 ## Hessa
@@ -57,16 +60,17 @@ As basic routes/cues/props become more automatic, some useful mistakes can come 
 
 - Demonstrated practical authority over props, resets, storage, handoffs, and backstage continuity.
 - Corrects operational problems directly and repeatedly; she does not need Teren to authorize every prop or reset decision.
-- Chapter 225–226 prop behavior includes marking protected stage property, maintaining cup continuity, taking/resetting objects, and stopping Marek from treating working props as casual objects.
+- Chapter 222–226 behavior establishes object-route competence rather than generic backstage omniscience: she finds/restores misplaced working objects, gives Greg's parcel a chalk-marked home after it goes missing, coordinates property-table use, maintains scene-specific cup continuity, marks protected stage property, and stops Marek from treating working props as casual objects.
 - Her authority is behavioral and manuscript-established. Do not invent a formal modern title/reporting line unless later prose supports one.
-- Do not flatten her into a generic prop cop; her practical competence should also create trust, shorthand, irritation, favors, and relationships independent of Greg over time.
+- Do not flatten her into a generic prop cop. Her practical competence should also create trust, shorthand, irritation, favors, and relationships independent of Greg over time.
 
 ## Hara
 
 - Strong performer who can own major audience beats without Greg being the center.
 - Chapter 225 establishes live scene-partner recovery: when Greg presents her intended cup choice too early, she bridges inside the scene, restores her character's agency, and keeps the performance moving.
+- Chapter 222 also shows practical social memory around objects: she repositions a key because she knows Marek's sleeve path can disturb it.
 - Afterward her accountability is peer-level and dry rather than instructional or sentimental.
-- Do not promote Hara into Greg's acting mentor merely because she is excellent. Let her have stage relationships, work, irritation, and competence that do not revolve around teaching him.
+- Do not promote Hara into Greg's acting mentor or a props authority merely because she is excellent and observant. Let her have stage relationships, work, irritation, and competence that do not revolve around teaching him.
 
 ## Jori
 
@@ -78,8 +82,8 @@ As basic routes/cues/props become more automatic, some useful mistakes can come 
 ## Marek
 
 - Recurring comedy includes touching/using stage objects he should leave alone and occasional performance/backstage mistakes.
-- Nessa and other workers already have social memory around this behavior.
-- Do not flatten him into an idiot or permanent liability. He should retain independent competence, relationships, jokes, and the capacity to surprise Greg or the company when manuscript opportunities support it.
+- Nessa, Hara, and other workers already have social memory around this behavior. Chapter 222–225 shows it creating actual downstream work or preventative adjustment: umbrella hunting/drying, object repositioning, protected cup handling, reset/inspection.
+- Do not flatten him into an idiot or permanent liability. His object meddling should not exist only to generate Greg/Nessa punchlines; he should retain independent competence, relationships, jokes, and the capacity to surprise Greg or the company when manuscript opportunities support it.
 
 ## Bren
 
@@ -102,11 +106,11 @@ Track recurring actors/crew as people with their own strengths, mistakes, jobs, 
 
 Current manuscript supports **domain-shaped competence without a formalized org chart**: acting correction, props/reset, build/repair/geometry, and business procedure can belong to different people in practice.
 
-The ensemble also already demonstrates distributed recovery. Greg is not the only person whose error gets covered and not the only person capable of saving a working scene.
+The ensemble already demonstrates distributed recovery and **material social memory**: people remember who moves objects, whose sleeve catches things, what needs to be kept away from Marek, where a prop should return, and what work another person's mistake creates. Use that residue selectively rather than turning every object into setup.
 
 Recent recurring names worth preserving from the current edge include Teren, Nessa, Hara, Marek, Venn, Jori, and Rinna. Deepen only from manuscript evidence.
 
-Research-supported possibilities such as earned shorthand, distinct note-reception styles, informal go-to status, and social debt from covering/cleanup/repair remain possibilities until prose establishes them.
+Research-supported possibilities such as earned shorthand, distinct note-reception styles, informal go-to status, social debt from covering/cleanup/repair, and detailed costume-change choreography remain possibilities until prose establishes them.
 
 ## Maintenance
 
