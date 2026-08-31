@@ -1,7 +1,7 @@
 # PEG-LEG GREG - REPOSITORY / ASSET AUDIT
 
 Audit date: 2026-08-31  
-Audited authority: `main` at `3901cf6` before this branch  
+Audited authority: `main` at `a0f0ce5` after rebasing concurrent manuscript/editorial work  
 Generated evidence:
 
 - `publishing/repository_inventory.json`
@@ -23,7 +23,8 @@ are not aesthetic scores and do not authorize deletion.
 - Locked Book 2 source: `state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx`, Chapters 83-137
 - Exact continuation: `state/manuscript/Peg_Leg_Greg_Running_Manuscript_Ch138-155.md`, Chapters 138-155
 - Recovered exact block: `state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md`, Chapters 156-219
-- Permanent forward manuscript: `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`, Chapters 220-229 at audit time
+- Permanent forward manuscript: `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`, Chapters 220-231 at audit time
+- Writable 04 continuation: `state/editorial/Peg_Leg_Greg_Heavy_Edit_Continuation.md`, completed through Chapter 181 at audit time
 - Lane brains and handoffs: `MANUSCRIPT_*`, `WRITERS_ROOM_STATE.md`,
   `STORY_CONTROL_STATE.md`, `EDITOR_STATE.md`, `PROSE_PLAYBOOK.md`,
   bibles, plot/open-thread files, specialist audits, and
@@ -54,7 +55,7 @@ pass.
 
 ## Can GitHub replace routine ZIP handoffs?
 
-Yes, with one known external exception.
+Yes for routine continuation of every active lane.
 
 A fresh worker with repository access, `AGENTS.md`, and current `main` can
 reconstruct:
@@ -63,7 +64,7 @@ reconstruct:
 - 01 forward production;
 - 02 Writers' Room;
 - 03 Story Control;
-- 04 method and current editorial edge;
+- 04 method, edited Chapter 181, and the next editorial edge;
 - reader and Light Reader architecture;
 - visual production method and promoted assets;
 - character, setting, plot, research, and specialist continuity;
@@ -73,17 +74,18 @@ Git history preserves accepted code, state, and committed assets across prior
 reader generations. A full checkout ZIP adds no routine handoff value when it
 contains only a historical Git checkout.
 
-### Remaining authority gap
+### Remaining archival/editorial gap
 
-`Peg_Leg_Greg_Heavy_Edit.md` is a living external editorial manuscript. GitHub
-records the 04 method and edge but not the edited prose itself. Therefore 04
-cannot continue sentence-level editing from GitHub alone.
+`Peg_Leg_Greg_Heavy_Edit.md` remains the frozen external checkpoint containing
+completed heavy edits for Chapters 138-180. GitHub now contains the writable
+continuation beginning with completed Chapter 181, so 04 can continue from
+GitHub alone. GitHub does not yet contain the earlier edited 138-180 prose.
 
-Recommendation: migrate it later to a clearly labeled GitHub editorial working
-path in a separate, checksum-verified change. The path must be explicitly
-non-forward authority, for example:
-
-`editorial/Peg_Leg_Greg_Heavy_Edit.md`
+Recommendation: **B, controlled migration to the existing clear GitHub
+editorial path.** In a separate change, transfer only the completed edited
+Chapters 138-180 into the established 04 editorial stream or a clearly linked
+frozen editorial checkpoint. Do not copy the unedited later source chapters
+merely because they are present in the Library file.
 
 Keep the Library original until byte count, checksum, chapter headings, current
 edge, and editor workflow are verified. Do not merge it casually into the
@@ -102,7 +104,7 @@ inside DOCX files:
 | Book 2 manuscript DOCX files | 83-123, 83-137 | Ch83-137 file is locked authority |
 | Running Markdown predecessors | 138-152, 138-155 | Ch138-155 is exact active continuation |
 | Recovered exact Markdown | 156-219 | Active recovery authority |
-| Permanent running Markdown | 220-229 | Active forward authority |
+| Permanent running Markdown | 220-231 | Active forward authority |
 
 The ranges are continuous without reconstruction, but they are intentionally
 split across formats. Filename overlap does not prove prose equality. Do not
@@ -111,7 +113,7 @@ separately.
 
 ## Repository and image storage
 
-- Working-tree files inventoried: 729
+- Working-tree files inventoried: 730
 - Working-tree bytes excluding Git metadata and generated audit outputs:
   approximately 352.1 MB decimal, roughly 336 MiB
 - Git packed object storage: approximately 287 MiB
