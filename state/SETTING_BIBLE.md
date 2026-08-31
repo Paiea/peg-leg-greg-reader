@@ -30,22 +30,52 @@ Costume racks/hooks and ordinary costume activity exist backstage, but a formal 
 
 ## Lyssa garment-work / supply infrastructure
 
-Lyssa's sewing/alteration work is part of Carrow's ordinary commercial life, not merely household decoration.
+Lyssa's sewing/alteration work is part of Carrow's ordinary commercial and social life, not merely household decoration.
 
-Established recent facts:
+Recovered Chapters 156–219 establish substantially more infrastructure than recent compact state previously recorded:
+- Lyssa has a usual work geography before Greg directly enters it;
+- **Marra's green-door work room** becomes a recurring garment-work/social node;
+- **Jessa** recurs inside that work ecology;
+- customers, garments, bundles, messages, supplies, and payment/exchange move through the network without Greg;
+- Chapter 195 already has customers greet Lyssa by name and ask about unfinished work;
+- cloth-shop, dyer, thread-seller, and later Maren routes all exist at different levels of specificity;
+- Greg gradually learns Lyssa's routes through repeated use rather than exposition.
+
+Recent facts continue this:
 - Chapter 224 explicitly says Lyssa is maintaining three customers and a changing collection of cloth;
 - customers can come to the apartment, and Lyssa prepares domestic space for that work independently of Greg;
 - jobs can be delivered and paid while Greg is elsewhere;
 - several unrelated garments / sleeves can be active at once;
-- work surfaces visibly include pins, cloth, seams, lining, buttons, thread, chalk marks, opened garments, and folded/pinned pieces;
+- Chapter 217 establishes one explicit customer referral from a satisfied cuff customer to a new shoulder-seam customer;
 - Chapter 227 shows another unnamed customer being fitted in the apartment while Greg arrives after the fitting is already underway;
-- during that fitting Lyssa pins the pale coat near the hem and refuses one requested additional narrowing point because there is not enough cloth there.
+- during that fitting Lyssa refuses one requested additional narrowing point because there is not enough cloth there.
 
-Chapter 227 therefore establishes customer-present fitting as part of Lyssa's work world and one concrete material constraint. It does **not** establish a universal fitting sequence, a formal confirmation stage, a general refusal/pricing policy, or the customer's referral source.
+Do not infer a formal customer system, universal fitting sequence, rate card, queue model, or identity link among unnamed customers unless exact prose establishes it.
 
-### Maren — established supply node
+### Marra — established recurring work/social node
 
-Chapter 222 establishes **Maren as a shop**, identified by a spool sign.
+Marra is associated with the recurring **green door** from Chapter 175 onward.
+
+Established use:
+- Lyssa works with Marra on garment correction and material decisions;
+- Jessa and other workers/customers appear in the same active work room;
+- bundles, messages, materials, shelf memory, customer work, payment/exchange, and noncommercial residue such as soup/bowls move through the relationship;
+- Marra knows information about Greg through Lyssa before Greg directly enters the relationship;
+- Greg initially needs directions, then learns the route until it becomes automatic by Chapter 199.
+
+This makes Marra's one of the strongest already-earned social-use places in Lyssa's Carrow.
+
+Do not invent:
+- exact ownership / employment hierarchy;
+- formal partnership between Lyssa and Marra;
+- a garment guild structure;
+- exact staffing categories for everyone in the room.
+
+### Maren — separate established supply node
+
+**Maren is NOT Marra.**
+
+Chapter 222 establishes **Maren as a separate shop**, identified by a spool sign.
 
 Greg can use a cloth sample to request matching thread there. The seller asks `Matching?` and finds a spool close enough to work; Lyssa later approves it and says `Maren usually does.`
 
@@ -62,13 +92,23 @@ Do not invent:
 
 Future recurrence should deepen the place through social use or material constraint, not turn it into a supply encyclopedia.
 
+### Other established garment-work routes
+
+The recovered manuscript also supports ordinary use of:
+- a cloth shop that already knows Lyssa well enough to direct Greg toward Marra;
+- a dyer in the Chapter-178 blue-material route;
+- an unnamed thread seller two streets from Marra in Chapter 195;
+- Jessa's sister as part of Lyssa's work/social route.
+
+These uses are established. They do not automatically need names, recurring status, or invented personal relationships.
+
 ## Supplier / neighborhood network
 
 Olin and other actual businesses used by the theatre are becoming a small practical information network. Rinna has instructed suppliers to verify claims with her and avoid giving strangers useful information about purchases, payment, carts, cargo, or timing.
 
 This is ordinary commercial/social infrastructure, not a spy network.
 
-Lyssa's garment-supply route is a separate ordinary commercial network. Do not automatically merge her suppliers/customers into the theatre warning network.
+Lyssa's garment-work / garment-supply network is a separate ordinary social-commercial system. Do not automatically merge Marra, Maren, customers, dyers, thread sellers, or Lyssa's routes into the theatre warning network.
 
 ## Mason's Cut
 
@@ -79,6 +119,8 @@ Current evidence only supports that the brown-coat man was seen walking toward M
 Currency: copper / silver / gold. No conversion rate has been established. Do not invent one.
 
 Money should remain materially meaningful through wages, purchases, debt, supplies, repairs, food, transport, customer work, and trade without forcing every scene into accounting.
+
+Lyssa's work has manuscript evidence of cash/material/in-kind exchange, but no universal pricing, barter, tariff, deposit, or client-record system is established.
 
 ## Antonius Vale debt
 
