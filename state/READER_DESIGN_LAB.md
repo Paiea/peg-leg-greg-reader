@@ -1,0 +1,98 @@
+# PEG-LEG GREG — READER DESIGN LAB
+
+Durable workshop for reader/UI/graphics ideas worth preserving but not yet project law.
+
+## Established direction
+
+Preserve a single persistent mobile-friendly reader URL and the hierarchy:
+
+**authoritative manuscript -> illustrated reader build -> publishing output -> GitHub Pages**
+
+Hosting/presentation work must not create a competing prose branch.
+
+Prefer:
+
+CLEAN -> READABLE -> WARM -> BOOK-LIKE -> SLIGHTLY HANDMADE / STORYBOOK
+
+Avoid:
+
+FLASHY -> APP-LIKE -> ANIMATION-HEAVY -> DASHBOARD CHROME
+
+## Mixed-fidelity image rhythm
+
+Use illustrations as pacing weights rather than treating every image equally:
+- **sketch beat** — small observation/pause
+- **scene illustration** — substantial scene image
+- **feature illustration** — occasional larger visual event
+
+Do not force full bleed across mixed-resolution art.
+
+## Homepage / index ideas
+
+Useful experiments:
+- clearer book-first identity
+- easy start / continue reading
+- cleaner chapter scanning
+- gallery available but secondary to reading
+- lightweight Act grouping only where real story transitions support it
+- avoid making the index feel like an admin interface
+
+## Chapter-page ideas
+
+Useful experiments:
+- restrained chapter-title hierarchy
+- comfortable reading measure
+- intentional breathing room through CSS only, never prose rewriting
+- obvious but quiet previous / next / contents navigation
+- mobile nav with generous touch targets
+- image spacing based on role
+- quiet caption treatment
+- accessible focus states
+
+## CSS debt finding
+
+`assets/reader.css` has accumulated multiple historical presentation passes and repeated mobile/image overrides.
+
+Before adding another major visual layer:
+
+**CONSOLIDATE -> PRESERVE GOOD BEHAVIOR -> POLISH**
+
+Do not merely append another giant override block.
+
+## Graphics / illustration integration
+
+- Let art provide texture and personality instead of decorative UI clutter.
+- Keep small raster art near intrinsic size.
+- Let stronger feature art breathe when resolution supports it.
+- Use movement and camera variety so long scrolling does not feel visually repetitive.
+- Consider chapter-opening feature art selectively rather than universally.
+- Preserve whitespace around strong images rather than filling every gap.
+
+## Act / section grouping
+
+Possible, not mandatory. Use only when story structure genuinely supports it. Do not invent Acts merely to organize a long table of contents.
+
+## Future branch experiments
+
+- CSS consolidation
+- typography/measure adjustments
+- chapter-nav variations
+- index grouping
+- image-role sizing
+- subtle section/act treatment
+- improved gallery hierarchy
+- production-only coverage indicators
+
+## Avoid
+
+- universal full bleed
+- stretching low-resolution art
+- elaborate app framework for a static novel reader
+- animation for its own sake
+- UI redesign that competes with manuscript
+- deleting old art before replacement coverage exists
+- presentation edits that silently alter prose
+
+## Promotion rule
+
+When an experiment clearly works: implement/validate it on a branch, record the durable principle in the appropriate production/visual file, then prune obsolete speculation here.
