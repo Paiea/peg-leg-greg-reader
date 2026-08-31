@@ -43,9 +43,9 @@ Legacy `light.html?chapter=N` remains a compatibility router. If a requested cha
 
 ## CURRENT STATIC EDGE
 
-First current-first generation was verified through Chapter 230 — **THE REPLICATE** from live manuscript authority.
+Current-first generation is verified through Chapter 231 — **THE MAGISTRATE** from live manuscript authority.
 
-Do not treat 230 as a permanent endpoint. `current` must derive the newest chapter from current manuscript authority whenever it runs.
+Do not treat 231 as a permanent endpoint. `current` must derive the newest chapter from current manuscript authority whenever it runs.
 
 ## AUTOMATION
 
