@@ -1,4 +1,4 @@
-# PEG-LEG GREG — CHAPTER INDEX — CH228
+# PEG-LEG GREG — CHAPTER INDEX — CH229
 
 **Current endpoint:** Chapter 229 — THE ROAD ONE
 
