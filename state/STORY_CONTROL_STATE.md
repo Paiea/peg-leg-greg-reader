@@ -6,7 +6,7 @@ Read `STORY_NORTH_STAR.md` and `DEVELOPMENT_CYCLE.md` before substantial Story C
 
 ## ACTIVE MODE
 
-The old Chapter-82 Story Control snapshot is retired. 03 now operates against the **current manuscript era** and must re-read `MANUSCRIPT_STATE.md` / exact prose before making claims about the present edge.
+03 operates against the current manuscript era and must re-read `MANUSCRIPT_STATE.md` / exact recent prose before making claims about the present edge.
 
 Core loop:
 
@@ -14,22 +14,33 @@ Core loop:
 
 02 explores and researches. 03 decides what is useful, what remains uncertain, and what should graduate into durable story guidance.
 
+## CURRENT AUTHORITY SNAPSHOT
+
+Current manuscript authority remains through Chapter 226 — **THE REFERENCE**.
+
+The three current sourced theatre-practice waves are now integrated against exact manuscript evidence:
+1. rehearsal notes / recovery / shorthand
+2. small-company practical authority / multi-hatting
+3. prop routes / costume tracks / running repairs
+
+Research supports plausibility. It does not outrank what Chapters 222–226 already establish.
+
 ## PROJECT-SCALE DIRECTION
 
-The strongest emergent center is **belonging through accumulation**.
+The strongest emergent center remains **belonging through accumulation**.
 
-The long serial should increasingly prove that time has passed through:
+Protect:
 - social memory
 - changing relationships
 - offscreen lives
 - work shorthand
 - material conditions
 - earned competence
-- reputation
+- networked reputation
 - jokes / nicknames / mistakes that leave residue
-- routes and places becoming socially familiar
+- routes, objects, and places becoming socially familiar
 
-03 should protect this from plot machinery that resets or replaces ordinary life.
+Prefer more life per word over more machinery.
 
 ## THEATRE CONTROL
 
@@ -41,216 +52,192 @@ The long serial should increasingly prove that time has passed through:
 
 **AVOID:** obvious bluff training; every theatre correction becoming life philosophy; Greg owning every audience beat; research being dumped as lessons; theatre existing mainly for future utility.
 
-03 should favor recurring workplace/social behaviors that accumulate over time rather than one-off theatrical cleverness.
+## THREE-WAVE INTEGRATION — WHAT SURVIVED
 
-## FIRST MODERN INTEGRATION — CH225–226
+### ESTABLISHED — narrow correction and distributed recovery
 
-The first two sourced 02 research waves have now landed in `RESEARCH_LEDGER.md`:
-1. rehearsal notes / authority / recovery
-2. small-company practical authority / multi-hatting
+Chapter 225 already establishes a useful correction / recovery ecology:
+- Teren gives brief, local, playable correction rather than speeches.
+- Nessa owns immediate prop/reset/backstage correction in practice.
+- Hara can repair a live scene without erasing the original mistake.
+- Other performers and workers also cover mistakes, catch physical problems, and keep work moving.
 
-Their broad findings are useful analogues. Only manuscript-supported behavior graduates here as established story truth.
+The research confirms these are plausible patterns. It does not turn them into universal troupe rules.
 
-The manuscript already establishes a useful correction / recovery / work ecology:
-
-### ESTABLISHED — Teren gives narrow playable correction
-
-Ch225 gives two different corrections tied to two different failures:
-- after Greg resets the wrong cup because he reads the object as backstage inventory, Teren narrows the job to the play: `Read the play, not the object.`
-- after Greg presents Hara's intended choice too early during performance, Teren says: `Carry choices. Do not make them.`
-
-Both are brief, local, actionable, and explicitly **not** converted into speeches or general philosophy. Preserve that texture.
-
-### ESTABLISHED — Nessa owns immediate operational correction
-
-Nessa corrects prop identity, reset, storage, handoff, and backstage behavior in the moment. She does not need Teren to authorize every practical correction. Her authority is demonstrated through repeated use rather than a newly invented formal title.
-
-### ESTABLISHED — Hara can recover inside the scene without erasing the mistake
-
-When Greg angles the tray toward the red cup too early, Hara bridges by asking about the other cup, restores her character's agency, keeps the scene alive, and later gives Greg only the dry peer-level sting: `Helpful steward.` / `You should.`
-
-This is not mentorship. It is experienced scene-partner competence plus social memory.
-
-### ESTABLISHED — recovery belongs to the ensemble, not only Greg/Teren
-
-Ch225 also lets another experienced performer cover Marek's wrong-chair/letter mistake while a scene partner quietly moves the actual letter farther away. Jori catches Davin trying to move a still-needed cabinet. Nessa catches Marek reaching for protected props. The company already survives through distributed competence, correction, irritation, and recovery.
-
-### ESTABLISHED — practical authority is already domain-shaped
+### ESTABLISHED — practical authority is domain-shaped
 
 Current prose already shows different people owning different kinds of work in practice:
-- Teren handles acting / scene adjustment.
-- Nessa handles props, resets, storage, handoffs, and backstage practical continuity.
-- Jori handles physical build, repair, set movement, and usable geometry.
-- Rinna handles theatre business, payment, records, and current commercial-defense procedure.
+- Teren: acting / scene adjustment
+- Nessa: props, resets, storage, handoffs, backstage continuity
+- Jori: build, repair, set movement, usable geometry
+- Rinna: theatre business, payment, records, commercial procedure
 
 This is behavioral authority, not a formal Carrow org chart.
 
-### ESTABLISHED — performance and ordinary company labor can overlap
+### ESTABLISHED — performance and ordinary company labor overlap
 
-The current theatre already uses people across glamorous and unglamorous work. Greg performs and also sorts props/pages, holds boards, handles resets, and helps with loads; established performers also move scenery or absorb practical show labor around rehearsal/performance.
+The company already mixes performance with low-glamour work. Greg performs and also sorts, resets, carries, holds, watches routes, and covers an absent property runner. Other established performers also move objects, scenery, and practical show labor.
 
-This supports a small-company feel without establishing that everyone can do everything or that every actor has a formal crew assignment.
+Do not translate `multi-hatting` into everyone being equally capable at everything.
 
-## REHEARSAL-NOTE RESEARCH — 03 PRESSURE TEST
+### ESTABLISHED — objects already have homes, routes, and memory
 
-### RESEARCH-SUPPORTED POSSIBILITY — let survivable work continue, then note it
+Chapter 222 is stronger than a generic modern tracking import:
+- the property table is arranged in rough scene order;
+- Hara moves a key because she knows Marek's sleeve can sweep it;
+- the striped umbrella is misplaced into the belt area and has to be found;
+- Greg's parcel is missing, then Nessa gives it a chalk-marked home;
+- objects move out during performance and back into return baskets between pieces;
+- the usual property runner can be absent and another worker covers the immediate job.
 
-02's sources support a common practice of accumulating notes through a run and addressing them afterward, while allowing immediate intervention for problems that cannot safely/usefully continue.
+Chapter 225 extends this ecology:
+- the two repurposed cups have distinct scene identities;
+- Nessa checks and resets them across scenes;
+- Greg can know the physical object but still read the wrong system;
+- Marek treating a stage object as an ordinary cup creates inspection / reset work;
+- the cups end in a `STAGE ONLY` box.
 
-This fits Ch225 **without becoming a troupe law**:
-- Greg's live tray mistake is repaired by Hara and the scene continues; Teren corrects Greg after he exits.
-- Greg's rehearsal/reset cup mistake is corrected immediately because the practical reset itself is wrong and the next run depends on fixing it.
+**Classification:** recurring placement, pickup/return, reset, and scene-specific object continuity are ESTABLISHED. A formal marked-table system, checklist, roster, paperwork track, or modern stage-management procedure is NOT established.
 
-**Classification:** useful POSSIBILITY / rhythm principle, not ESTABLISHED universal procedure.
+### ESTABLISHED CORE / PRESSURE — objects can carry social memory
 
-**Pressure:** vary note timing by what the problem actually damages. Do not install a formula where Teren always waits until the end or always stops the room.
+The strongest integration result is not `better prop procedure`. It is **social memory made physical**.
 
-### POSSIBILITY — shorthand as evidence of accumulated work
+Current prose already shows people remembering material habits:
+- Hara anticipates Marek's sleeve;
+- Nessa expects Marek to touch things he should not;
+- Greg remembers where an umbrella went because he saw the previous handoff;
+- people increasingly know where Greg can move safely without discussing it every time.
 
-02's sources support compressed notes among long-running collaborators.
+**PRESSURE:** let recurring objects, routes, repairs, and prior mistakes occasionally preserve relationship history across chapters. Do not make every object setup.
 
-This is a strong fit for the serial's accumulation engine, but it is not yet a mandated trajectory. Greg can gradually understand less-explicit language because specific shared work has repeated. Different pairs can develop different shorthand.
+### ESTABLISHED CORE / PRESSURE — maintenance continues after the exciting part
 
-**Classification:** POSSIBILITY.
+The manuscript already includes ordinary repair / maintenance residue: repaired cart brace, repainted damaged cups, wet umbrella needing drying, inspected props, repaired crutch tip, and continued garment work at home.
 
-**Avoid:** turning note length into a skill bar, making every correction shorter over time, or using cryptic shorthand before the relationship has earned it on-page.
+**PRESSURE:** some future repairs, repainting, drying, refastening, cleaning, or replacement can already have happened before Greg arrives. Let him encounter the residue of other people's work instead of witnessing every fix.
 
-### ESTABLISHED CORE / BROADER POSSIBILITY — partners rescue the play, not the mistake
+**Boundary:** current prose does not establish a formal daily props-maintenance or wardrobe-maintenance regime.
 
-The research supports limited bridges, re-cues, and recovery when a partner flubs or anticipates.
+### PRESSURE — delayed consequences are better than instant lessons
 
-Ch225 already establishes the core behavior through Hara's bridge and other ensemble covers.
+A small object mistake can hurt someone other than the person who caused it, later than the original action. The missing umbrella and displaced parcel already point in this direction.
 
-**Classification:** the existence of ensemble recovery is ESTABLISHED. Broader recurring recovery habits among particular pairs remain POSSIBILITY until repeated prose establishes them.
+Use selectively:
+- misplaced object now, missing handoff later;
+- casual borrowing now, extra reset/repair work for somebody else;
+- damaged item repaired by a person Greg never saw;
+- somebody inherits another person's low-glamour work because the expected worker is absent.
 
-**Pressure:** successful recovery should not erase irritation, blame, extra work, embarrassment, or the later correction.
+This is useful because responsibility, irritation, favors, and blame can travel sideways through the ensemble.
 
-### POSSIBILITY — note reception can differentiate people
-
-Greg's current tendency to explain the mechanism of his error before resetting is manuscript-supported. The research suggests useful variation in how other actors receive correction: immediate retry, one precise question, private disagreement, joke-then-adjust, and so on.
-
-**Classification:** Greg's explanatory tendency is ESTABLISHED; specific contrasting note-reception styles for other characters remain POSSIBILITY.
-
-**Avoid:** assigning everyone a tidy note-receipt gimmick in advance.
-
-## PRACTICAL-AUTHORITY / MULTI-HATTING RESEARCH — 03 PRESSURE TEST
-
-### ESTABLISHED CORE — local competence already matters more than universal rank
-
-The second research wave supports distributed work domains, prop presets/checks, multi-hatting in some small/touring companies, and increased trust in people who can independently close a task.
-
-The useful part already matches manuscript behavior: Nessa, Jori, Teren, and Rinna are each the obvious person for different problems. Greg increasingly knows routes, object continuity, and low-level work without needing a ceremony around every improvement.
-
-**Classification:** domain-shaped competence is ESTABLISHED. The research vocabulary of `track ownership`, modern stage-management structures, and formal job boundaries is NOT canon unless prose independently establishes an equivalent.
+Do not turn every prop problem into a delayed-payoff machine.
 
 ### PRESSURE — reduced supervision can show belonging better than praise
 
-Repeated competence may gradually remove explanation: somebody stops checking a routine handoff, trusts a reset, assumes Greg knows where to stay out of the lane, or gives him only the missing piece of information.
+Repeated competence may remove explanation: somebody stops checking a familiar route, gives only the missing piece of information, assumes a reset is understood, or quietly adapts the physical space around Greg.
 
-**Classification:** PRESSURE / craft target supported by existing accumulation, not a guaranteed linear progression.
+This is already visible in Chapter 222 when Greg knows the handkerchief / routes without being reminded and when Jori moves obstacles without discussion.
 
-**Avoid:** making trust a visible skill ladder, having every chapter reward Greg with more authority, or treating less supervision as proof he is now best at the work.
+Use as accumulation, not a skill ladder.
 
-### ESTABLISHED CORE / POSSIBILITY — pre-show readiness and object continuity
+### POSSIBILITY — earned shorthand
 
-Ch225 already shows Nessa checking the property table, maintaining cup identity across scenes, resetting objects, and marking the cups `STAGE ONLY`. The research supports preset/check practices as a real analogue.
+Compressed notes, looks, gestures, or old phrases can develop after repeated shared work.
 
-**Classification:** prepared object continuity is ESTABLISHED in this company. A formal checklist, assigned preset roster, or exact modern procedure remains POSSIBILITY until prose establishes it.
+Keep this character-specific and earned. Do not make shorter notes a visible progress meter.
 
-### PRESSURE — helping can cross a domain and create extra work
+### POSSIBILITY — distinct note-reception styles
 
-This is already one of the manuscript's strongest mundane failure engines:
-- Greg gives the `better` cup when the play needs the cracked one.
-- Greg presents Hara's choice too early because he knows the intended answer.
-- Davin tries to move a cabinet that is still needed.
-- Marek repeatedly treats working props as casual objects.
+Greg's tendency to explain the mechanism of his mistake is manuscript-supported. Other performers may eventually reveal different habits around correction.
 
-The research reinforces the underlying behavior: sincere help can be wrong because another person owns the immediate problem or because the helper solves a different system.
+Do not assign fixed note-reception gimmicks in advance.
 
-**Classification:** PRESSURE worth distributing across the ensemble, not a Greg-only flaw.
+### POSSIBILITY — concrete favors become relationship history
 
-### POSSIBILITY — concrete favors can become social memory
+Covering a preset, carrying a load, repairing something, fetching food, cleaning up, drying an object, or taking another person's low-glamour responsibility can become remembered relationship history.
 
-Covering a preset, carrying a load, making a repair, fetching food, cleaning up, or absorbing someone else's low-glamour responsibility could become relationship history.
+The research does not establish a universal theatre favor economy. Any favor, resentment, lateness reputation, borrowing habit, or ritual must belong to these specific people.
 
-The sources do **not** establish a universal theatre favor economy.
+### POSSIBILITY — costume-change choreography
 
-**Classification:** POSSIBILITY only. Any debt, resentment, favor, ritual, lateness reputation, or borrowing culture must emerge from these particular people rather than be imported as authenticity.
+The research supports quick changes as planned physical sequences, but current prose has not earned a detailed Carrow costume-track system.
 
-## PRESSURE — preserve differentiated correction languages
+Keep available only when a real scene needs it. A costume-change problem should reveal timing, bodies, relationships, or work pressure rather than demonstrate research.
 
-Do not let all theatre learning collapse into Teren explaining acting to Greg.
+**Lyssa boundary:** Lyssa's independent garment work does not make her theatre wardrobe staff. Any future overlap requires an earned customer/job/relationship connection.
+
+## NON-GREG SOCIAL DENSITY — BEST EDGES
+
+Current strongest possibilities:
+- Nessa / Jori where object continuity and physical geometry overlap;
+- Nessa / Hara where stage readability and object continuity intersect;
+- Nessa / Marek where remembered object meddling creates actual work, not only jokes;
+- Hara / Pell / Marek carrying repertory recovery history with one another;
+- Rinna / Nessa / Jori coordinating readiness near curtain with very few words;
+- Teren / Nessa deferring differently depending on whether the live problem is performance or physical continuity.
+
+These are possibilities to explore, not retroactive canon about friendship, hierarchy, romance, or favor history.
+
+## PRESSURE — PRESERVE DIFFERENT RELATIONSHIP LANGUAGES
+
+Do not let theatre learning collapse into Teren explaining acting to Greg.
 
 Current useful differentiation:
 - **Teren:** narrow performance instruction / correction
 - **Nessa:** operational / prop / backstage correction
 - **Hara:** scene-partner recovery and dry peer accountability
 - **Jori:** physical-work / route / set practicality
-- **Lyssa:** domestic pattern recognition, often refusing Greg's attempt to inflate a narrow mistake into a grand lesson
+- **Lyssa:** domestic pattern recognition, independence, and refusal to turn Greg's every mistake into a grand lesson
 
-Future scenes can add variation, but the differences should remain species-level rather than everyone becoming interchangeable wise banter.
+Different people should own different kinds of usefulness, irritation, humor, and authority.
 
-## PRESSURE — Greg's errors should evolve with competence
+## PRESSURE — GREG'S ERRORS SHOULD EVOLVE WITH COMPETENCE
 
-As cues/routes/props become automatic, the interesting failure is less often simple forgetting and more often **anticipating, over-helping, optimizing the wrong system, or acting on knowledge the character should not yet reveal**.
+As basic cues/routes/props become automatic, some interesting failures can come from anticipation, over-helping, optimizing the wrong system, or acting on knowledge the character should not yet reveal.
 
-This is a pressure, not a mandated repeated beat. Do not turn `helped too early` into Greg's permanent acting gimmick.
+Do not turn `helped too early` into Greg's permanent acting gimmick.
 
-## POSSIBILITY — repertory familiarity can accumulate sideways
+## AVOID — THEATRE INTEGRATION FAILURES
 
-Existing performers may develop visible shorthand, recovery habits, irritation, trust, or timing with **each other**, not only with Greg. Ch225 already gives established performers major shared stage work and gives other actors recovery ownership. Future development should prefer those footholds over inventing a new mentor or specialist merely to demonstrate ensemble culture.
-
-## POSSIBILITY — backstage authority can show offscreen life
-
-Nessa/Jori and other established workers can have practical coordination, disagreement, favors, or shorthand around props, set movement, traffic, repair, and reset that Greg enters midway through rather than causes. Nessa/Teren can also defer differently depending on whether the live problem is acting or physical continuity. Do not formalize a modern org chart without manuscript support.
-
-## AVOID — theatre integration failures
-
-- repeating Teren's best narrow notes as universal doctrines
-- making Hara Greg's acting mentor because she is excellent
-- giving every recovery to Greg
-- making every mistake produce a clean lesson
-- inventing formal theatre titles/hierarchy because modern research uses them
-- turning research into explanatory dialogue
-- treating smooth recovery as proof the mistake did not matter socially
-- importing modern etiquette as Carrow law when only the underlying behavior is useful
-- turning `multi-hatting` into everyone being equally competent at every job
-- inventing a universal favor economy, food ritual, lateness culture, or cleanup ritual because those feel theatrically authentic
+- formal modern org charts, reporting lines, wardrobe plots, or paperwork imported as Carrow canon
+- universal marked-prop systems because one chalk square worked
+- everyone becoming equally competent because small companies multi-hat
+- Hara becoming Greg's mentor because she is excellent
+- Nessa becoming omniscient backstage authority
+- Marek becoming permanent idiot / liability
+- every missing object producing a lesson or plot beat
+- every repair happening on-page for Greg to observe
+- generic theatre favor / food / lateness / cleanup culture imported as authenticity
+- research vocabulary leaking into dialogue
+- Lyssa being recruited into theatre costume work because it is convenient
+- theatre becoming future-bluff curriculum
 
 ## CH226 CROSS-ENGINE CHECK
 
-Ch226 correctly keeps theatre, body fatigue, Hessa's evidence discipline, Lyssa's garment work, money/food, and ordinary city noise in the same life without merging their domains.
+Chapter 226 correctly keeps theatre, body fatigue, Hessa's evidence discipline, Lyssa's garment work, money/food, and ordinary city noise in the same life without merging their domains.
 
-Useful established residue:
-- theatre work can affect Greg's physical baseline for magic testing without theatre becoming magic training
-- Hessa's evidence discipline remains narrow and does not become theatrical illusion instruction
-- Lyssa understands control contamination because she lives with Greg, not because she becomes a magic analyst
-- ordinary work and bodily limits continue to matter even inside a high-interest magic chapter
+Established residue:
+- theatre work can affect Greg's physical baseline for magic testing without theatre becoming magic training;
+- Hessa's evidence discipline remains narrow and does not become theatrical illusion instruction;
+- Lyssa understands control contamination because she lives with Greg, not because she becomes a magic analyst;
+- ordinary work and bodily limits continue to matter inside a high-interest magic chapter.
 
-Preserve this kind of collision. Do not convert cross-domain echoes into destiny or curriculum.
+Preserve cross-domain collision without converting echoes into destiny or curriculum.
 
 ## SOCIAL-DENSITY CONTROL
 
 **PRESSURE:** Side characters need increasingly independent causality.
 
-Useful development should answer questions like:
-- who has obligations when Greg is absent?
-- who knows each other independently?
-- who has unofficial authority?
-- who carries old jokes or resentments?
-- who has customers, family, romance, debt, hobbies, habits, or side work?
-- how does Carrow know different versions of Greg?
+Look for:
+- obligations when Greg is absent;
+- people who know one another independently;
+- practical authority that exists before Greg arrives;
+- remembered favors / mistakes / repairs;
+- customers, family, romance, debt, hobbies, habits, arguments, and side work;
+- people who know different versions of Greg.
 
-**AVOID:** side characters becoming richly described but still only appearing to service Greg.
-
-Current high-value non-Greg edges:
-- established performers developing repertory shorthand/recovery history with one another
-- Nessa/Jori coordination where object continuity and physical geometry overlap
-- Nessa/Hara intersection between what an object does/readably communicates onstage and where it physically belongs
-- Rinna/Nessa/Jori terse readiness coordination near curtain
-- Nessa/Teren interdependence when a problem sits between acting and physical continuity
-
-These are **possibilities to explore**, not retroactive canon about friendship, hierarchy, romance, favor history, or offscreen events.
+**AVOID:** richly described side characters who still only appear to service Greg.
 
 ## GREG CONTROL
 
@@ -264,22 +251,15 @@ The world should sometimes know things Greg does not. Other people should make t
 
 Greg and Lyssa may materially improve their lives. Do not force permanent poverty for tone.
 
-**PRESSURE:** money must remain concrete and consequential even as circumstances change.
+**PRESSURE:** money remains concrete and consequential even as circumstances improve.
 
-**AVOID:** sitcom-reset poverty; abstract RPG-style wealth; invented conversions or balances unsupported by manuscript.
+**AVOID:** sitcom-reset poverty; abstract RPG wealth; invented conversions or balances.
 
 ## REPUTATION
 
 Prefer networked and inconsistent reputation over universal fame.
 
-Different people may know Greg through:
-- theatre
-- Guild / magic context
-- suppliers
-- neighbors
-- customers
-- debt / work
-- a story that is partially wrong
+Different people may know Greg through theatre, Guild / magic context, suppliers, neighbors, customers, debt/work, or a distorted story.
 
 **POSSIBILITY:** reputation travels ahead of Greg and creates opportunity, misunderstanding, pressure, or asymmetric attention.
 
@@ -287,7 +267,7 @@ Different people may know Greg through:
 
 ## LONG-RANGE THREAT / CONVERGENCE
 
-Preserve existing direction:
+Preserve directional possibility:
 
 **THEATRE → PERFORMANCE → MISDIRECTION → ILLUSION → MASKS → CONTROL OF PERCEPTION → eventual dangerous bluff**
 
@@ -298,45 +278,39 @@ Possible eventual convergence remains:
 
 Preferred payoff shape remains **truth under veil**: a small true thing + controlled presentation + real knowledge + uncertainty, buying hesitation or seconds rather than defeating a much stronger threat.
 
-Do not schedule this prematurely.
-
-Threat should collide with theatre, Lyssa, Hessa, money, work, routes, bodies, schedules, and relationships rather than replacing them.
+Do not schedule this prematurely. Threat should collide with ordinary life rather than replace it.
 
 ## RESEARCH INTEGRATION RULE
 
-Research from `RESEARCH_LEDGER.md` is evidence about real practice, **not story canon**.
+Research is evidence about real practice, not story canon.
 
-03 should ask:
-1. Does the finding solve a real specificity gap in the current story?
-2. Can it become behavior, work, social hierarchy, timing, object use, or plausible error?
-3. Does it reinforce an existing character or relationship?
-4. Does it create residue that can recur?
-5. Does it fit Carrow rather than copying modern practice wholesale?
-6. Is it useful enough to graduate into `CHARACTER_BIBLE.md`, `SETTING_BIBLE.md`, `PLOT_CONTROL.md`, or a future manuscript edge?
-
-If not, leave it as research / possibility.
+03 asks:
+1. Does this solve a real specificity gap?
+2. Does it deepen an existing person / relationship / job / place?
+3. Can it become behavior, timing, object use, error, or social residue rather than exposition?
+4. Does the manuscript already do a better version?
+5. Does it fit Carrow without importing modern machinery?
+6. Is it useful enough to graduate, or should it stay possibility / be discarded?
 
 ## NEXT RESEARCH EDGE → 02
 
-The first two theatre waves are integrated enough. Do not keep researching generic note culture or generic hierarchy unless a later manuscript problem creates a new gap.
+**Pivot away from generic theatre research.** Three theatre-practice waves are enough for now, and Chapter 222 already supplies an organic absence-coverage example through the missing property runner. Do not research repertory replacement merely to keep the theatre wheel spinning.
 
-Continue 02's current prop/costume edge, narrowed to the physical/social problems already alive in the manuscript:
+Next focused edge:
 
-**How do repeated prop and costume routes create reliable handoffs, visible mistakes, emergency repairs, and interpersonal trust or irritation in a working theatre?**
+**Lyssa's independent alteration / rework workflow and customer network.**
 
-Highest-value subquestions:
-- how are frequently used props preset, marked, checked, handed out, returned, and noticed when misplaced?
-- what happens when a prop is present but wrong for the current scene, damaged, casually borrowed, or returned to the wrong place?
-- how are quick costume fixes / emergency repairs handled without turning the scene into a craft lecture?
-- what kinds of missing-object failures are caught before curtain versus only when somebody reaches for the thing?
-- how does repeated responsibility compress communication between the people who use, reset, repair, and store the same object?
-- what physical handoff or repair problems would matter specifically for Greg's two-crutch movement without making every prop problem about disability?
+Research practical garment alteration work as an independent social/economic engine, especially:
+- how an alteration worker evaluates a garment, marks changes, fits/refits, sequences work, and handles customer changes after completion;
+- what kinds of rework legitimately cost more labor/material and how repeated customer indecision changes the working relationship;
+- how thread, buttons, lining, cloth, fittings, pickups/deliveries, and rush work create supplier/customer obligations;
+- what work can happen without the customer present versus what requires fitting / confirmation;
+- how repeat customers, difficult customers, referrals, and unfinished jobs can create a small independent social network around Lyssa;
+- what mistakes or constraints could cost Lyssa time/money without making her incompetent.
 
-Use current manuscript footholds first: the repurposed cups, `STAGE ONLY` marking, striped umbrella, prop-table work, costume labor already in the troupe, ordinary repairs, and people touching things they should not.
+Translate findings into behavior, objects, schedules, customer friction, and offscreen life. Do not turn Lyssa into an exposition vehicle, Greg-support worker, or theatre wardrobe convenience.
 
-Do **not** automatically route Lyssa into theatre costume labor because she sews professionally. Her independent garment work stays independent unless manuscript causality later brings the domains together.
-
-Translate findings into 3–5 recurring physical/social behaviors for existing people. Return them to 03 as POSSIBILITY, not canon.
+If this research reveals no useful gap, return to 03 rather than expanding into generic fashion history.
 
 ## 02 ↔ 03 HANDSHAKE
 
@@ -351,22 +325,20 @@ When 03 finds a knowledge gap, send a focused question back to 02 instead of inv
 
 ## CURRENT STORY-CONTROL EDGE
 
-The first current-era integration cycle is complete through Chapter 226 for:
-- sourced rehearsal-note / recovery research
-- sourced practical-authority / multi-hatting research
+The first current-era three-wave theatre integration is complete through Chapter 226.
 
 Current 03 posture:
 1. Re-read current manuscript state first because 01 is actively advancing.
-2. Read the next sourced 02 prop/costume handoff/tracking/repair research when it lands.
-3. Pressure-test object-route possibilities against actual Nessa/Jori/Teren/Rinna/Hara/Marek/Greg behavior before graduating anything.
-4. Prefer recurring objects, handoffs, repairs, missed presets, extra work, and non-Greg coordination over formal backstage systems.
-5. Keep social favors and shorthand character-specific rather than declaring generic theatre culture.
-6. Watch whether future chapters over-concentrate correction in Teren/Greg or let ensemble competence remain distributed.
-7. Keep magic breathing after Ch226 and do not use cross-domain echoes to force theatre/magic convergence early.
-8. Continue preferring convergence of existing pressures over a new antagonist/institution/system.
+2. Do not add another theatre research layer unless newer prose creates a specific gap.
+3. Preserve the four highest-value theatre residues: visible object homes/routes, delayed downstream consequences, offscreen maintenance residue, and belonging through reduced supervision.
+4. Let existing prop ecology recur naturally rather than announcing a system.
+5. Keep costume quick-change research parked until a scene actually needs it.
+6. Preserve Lyssa's independent work and send the next research cycle toward her alteration/customer world.
+7. Keep magic breathing after Chapter 226 unless newer manuscript authority changes the rhythm.
+8. Continue preferring convergence of existing pressures over new antagonists, institutions, or subsystems.
 
 Do not create a fixed multi-chapter outline unless the author explicitly requests one.
 
 ## RE-PROMPT [03]
 
-Continue Peg-Leg Greg Story Control from current GitHub authority. Read `AGENTS.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current `MANUSCRIPT_STATE.md` / exact recent prose, `state/WRITERS_ROOM_STATE.md`, `state/RESEARCH_LEDGER.md`, `state/PLOT_CONTROL.md`, `state/OPEN_THREADS.md`, and relevant character/setting files. Through Chapter 226, 03 has integrated two sourced theatre waves. Manuscript-supported facts include Teren's narrow playable correction, Nessa's practical prop/reset authority, Hara's in-scene recovery/peer accountability, distributed ensemble recovery, domain-shaped competence, overlapping performance/company labor, and prepared object continuity. Post-run note timing, earned shorthand, reduced-supervision patterns, specific favor histories, and formal task ownership remain pressures/possibilities rather than troupe law. Integrate the next actual 02 prop/costume handoff/tracking/repair research against newer manuscript authority. Favor recurring objects, physical routes, repairs, extra work, competence-based trust, and non-Greg relationships over formal hierarchy or new machinery. Preserve Lyssa's independent garment work unless story causality brings it into theatre. Update only useful durable brains, identify the next research edge, and continue the 02↔03 loop.
+Continue Peg-Leg Greg Story Control from current GitHub authority. Read `AGENTS.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current `MANUSCRIPT_STATE.md` / exact recent prose, `state/WRITERS_ROOM_STATE.md`, `state/RESEARCH_LEDGER.md`, `state/PLOT_CONTROL.md`, `state/OPEN_THREADS.md`, and relevant character/setting files. Through Chapter 226, three sourced theatre-practice waves are integrated. The manuscript already establishes object homes/routes, scene-order continuity, a chalk-marked parcel home, return baskets, an absent property runner being covered, scene-specific cups, `STAGE ONLY` storage, ordinary repair/maintenance, domain-shaped competence, and distributed recovery. Preserve those as lived workplace behavior, not a formal backstage system. Highest-value pressures are delayed downstream object consequences, offscreen maintenance residue, social memory carried by objects, and belonging shown through reduced supervision. Keep costume quick-change choreography as possibility only, preserve Lyssa's independent garment work, and integrate the next focused 02 research on Lyssa's alteration/rework/customer network against whatever manuscript authority is current then. Graduate only useful residue, identify the next edge, and continue the 02↔03 loop.
