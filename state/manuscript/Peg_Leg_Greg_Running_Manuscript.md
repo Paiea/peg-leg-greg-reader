@@ -9164,3 +9164,916 @@ Outside, someone upstairs dropped something heavy.
 Our hanging cup did not tremble this time.
 
 I did not check.
+# CHAPTER 229
+
+## THE ROAD ONE
+
+Jori had already taken the first strip of old trim down by the time I reached the theatre.
+
+I knew this because it was leaning against the wall beside the rear door, which meant I had arrived late enough for him to begin and early enough for him not to mention it.
+
+He looked at me once.
+
+"Boards."
+
+I went to the stack without asking which boards.
+
+That was the entire morning briefing.
+
+The rear windows had developed the irritating habit of being almost finished. One section had been repaired two days ago. Another had been measured. A third had been measured, argued with, measured again, and left alone overnight in case shame improved it.
+
+It had not.
+
+Jori stood on the low bench with a short pry bar in one hand. Davin was below him holding the removed strip and staring at a nail as if it had personally changed the plan.
+
+"It bent," Davin said.
+
+"Nails do that."
+
+"This one did it early."
+
+Jori looked down.
+
+"Then it has initiative."
+
+Davin considered that.
+
+I put my crutches against the wall where they would not become part of the carpentry and lowered myself onto the stool by the board stack.
+
+"Should we pay it?"
+
+"No," Jori said.
+
+Davin looked between us.
+
+"I wasn't going to."
+
+"Good."
+
+He was getting harder to fool.
+
+That was unfortunate.
+
+Jori handed down the next piece without looking. Davin took it. I took the chalk. Nobody explained where the marks went because I had done this before.
+
+The first board needed one end shaved.
+
+The second fit.
+
+The third did not fit because the wall had apparently decided that straight lines were a personal attack.
+
+Jori held it in place, sighted along the edge, then said, "Near end."
+
+I shifted the mark.
+
+"More."
+
+I shifted it again.
+
+"That's too much."
+
+"You said more."
+
+"I did not say become ambitious."
+
+I moved it back.
+
+Davin made a small sound that might have been a laugh and immediately became very interested in the bent nail.
+
+We worked.
+
+That was mostly it.
+
+No audience arrived. Nobody died incorrectly in an adjoining funeral room. No flowers escaped. Teren did not explain my emotional relationship to lumber. Nessa crossed the rear passage once carrying a folded length of dark cloth, saw the three of us at the window, and kept going.
+
+At one point Jori climbed down and took my chalk without asking.
+
+At another, I held the short board against the lower frame while he checked the corner.
+
+My right hand still felt used from yesterday, mostly across the palm. Not hurt. Just aware that I had spent part of the previous day balancing flowers while walking on crutches because apparently that was employment.
+
+I changed my grip.
+
+Jori noticed because Jori noticed where weight went.
+
+He said nothing.
+
+He took the far end of the board, which made the angle easier, and Davin slid the wedge underneath.
+
+The board sat.
+
+Jori pressed it once with his thumb.
+
+"Good."
+
+I looked at the window.
+
+"That's it?"
+
+"For that one."
+
+"How many windows does this building have?"
+
+Jori looked toward the front of the theatre.
+
+"Still windows."
+
+I had walked into that.
+
+By the time the morning light had climbed past the rear wall, two new strips were fitted and one old strip had been declared too warped to deserve another chance.
+
+Jori set it aside for something else.
+
+Nothing at the theatre was useless until Jori had failed to imagine a second job for it.
+
+I reached for my crutches.
+
+He was already looking at the next window.
+
+"Tomorrow?" I asked.
+
+"No."
+
+I waited.
+
+He looked at me.
+
+"Day after."
+
+That was apparently the complete calendar.
+
+"Specific."
+
+"You know when I get here."
+
+"I regret teaching you that sentence."
+
+"You didn't."
+
+Also true.
+
+Davin lifted the bent nail.
+
+"What do I do with this?"
+
+Jori pointed at a small tin.
+
+Davin dropped it in.
+
+The tin already contained several bent nails.
+
+I had never noticed it before.
+
+That bothered me more than it should have.
+
+There were entire systems in the theatre whose only purpose was to wait quietly until I finally looked at them.
+
+I left before one assigned me work.
+
+Outside, Carrow had become properly awake.
+
+Carts had taken the middle of the street. A fish seller was shouting prices at people who had not asked. Two children were carrying a basket between them and disagreeing about whether the left child or the right child was causing the basket to tilt.
+
+Both were correct.
+
+I bought nothing.
+
+This was partly discipline and partly because I had one onion left at home and did not want the onion woman to develop further opinions about me.
+
+I took the familiar streets back toward the apartment.
+
+I did not think about the turns.
+
+That took me most of the way there before I noticed I was not thinking about them.
+
+Then I thought about them and nearly took the wrong lane.
+
+Carrow punished observation.
+
+The room was empty when I got home.
+
+The blue-gray cloth from last night was no longer folded.
+
+It was spread across the table.
+
+Not all of it. A section hung over the edge. A smaller piece lay beside it with three pins in one corner. Lyssa's needle was gone from the scrap where she had left it. One potato remained.
+
+There was also a piece of paper under the potato.
+
+I looked at the potato.
+
+Then the paper.
+
+Then the potato again.
+
+This was not because I suspected magic.
+
+I had become a better person.
+
+It was because Lyssa had developed several methods of preventing paper from leaving the table and most of them involved whatever heavy object was nearest.
+
+I moved the potato.
+
+The note said:
+
+MARRA.
+
+That was all.
+
+I turned it over.
+
+Nothing.
+
+"Excellent," I told the empty room.
+
+I knew where Marra was.
+
+That was not the problem.
+
+The problem was that Lyssa had left me a destination without the part where destinations usually came with verbs.
+
+Take?
+
+Ask?
+
+Bring?
+
+Warn?
+
+Apologize?
+
+Steal?
+
+The last seemed unlikely, but I had worked at a theatre long enough to respect occupational drift.
+
+I looked around the room again.
+
+The blue-gray cloth occupied most of the table. Beside it sat a narrow wrapped bundle I had not noticed because it was the same gray-brown as the wall.
+
+I touched it.
+
+Cloth.
+
+Probably.
+
+There was a second scrap of paper tucked under the cord.
+
+MARRA.
+
+"Much better."
+
+I had a noun and a destination.
+
+Civilization.
+
+I ate the potato cold, because carrying a mysterious cloth bundle for Lyssa while hungry would have made me resent the cloth and that seemed unfair.
+
+Then I took the bundle.
+
+The route to Marra's green door had once required instructions.
+
+Now my body knew it before my head did.
+
+Across the wider street. Past the place that sold cheap cups. Left where the wall narrowed. Down the lane that always smelled faintly of boiled cabbage whether anyone appeared to be boiling cabbage or not.
+
+I did not count turns.
+
+I did not check landmarks.
+
+I arrived at the green door.
+
+That should have felt more impressive.
+
+Instead a woman carrying two folded garments came out as I reached it and said, "Move."
+
+I moved.
+
+Carrow maintained standards.
+
+Inside, the room was already working.
+
+Marra stood at the long table with a dark red garment turned partly inside out. Another woman I recognized but did not know was holding the sleeve. A customer near the wall was explaining something with both hands while nobody looked at her hands.
+
+Jessa was by the shelves.
+
+She saw me first.
+
+"Road one."
+
+I stopped.
+
+Marra looked up.
+
+Her eyes went from my face to the bundle.
+
+"From Lyssa?"
+
+"Apparently."
+
+"Apparently?"
+
+"She left your name twice."
+
+Marra held out a hand.
+
+I crossed the room and gave her the bundle.
+
+She did not open it.
+
+She handed it directly to Jessa.
+
+Jessa put it on the shelf behind her.
+
+I watched this happen.
+
+"Good," I said.
+
+Marra had already returned to the red garment.
+
+"Was there a message?"
+
+I thought of the two pieces of paper.
+
+"Marra."
+
+She looked at me again.
+
+"That was the message?"
+
+"It was very consistent."
+
+The woman holding the sleeve smiled.
+
+Jessa did not.
+
+Jessa had untied the bundle.
+
+She unfolded one corner, looked at something inside, then said, "No."
+
+Marra said, "I know."
+
+I looked from one to the other.
+
+Jessa folded it again.
+
+The customer near the wall said, "Can mine be done before sixth bell?"
+
+Marra said, "No."
+
+The customer opened her mouth.
+
+Marra said, "Still no."
+
+The customer closed it.
+
+I remained where I was because I had not yet discovered whether my delivery had failed.
+
+Jessa picked up the bundle again.
+
+"She kept the narrow piece?"
+
+Marra said, "She would."
+
+I looked at the bundle.
+
+"Was there supposed to be a narrow piece?"
+
+Neither of them answered me.
+
+That seemed unfair because I was the only person asking the question.
+
+Marra adjusted the red sleeve by half an inch and told the woman holding it, "There."
+
+The woman said, "Too high."
+
+"It drops when it turns."
+
+"It pulled yesterday."
+
+"Because you pinned it wrong yesterday."
+
+"I pinned what you marked."
+
+"You pinned what you thought I marked."
+
+They both looked at the seam.
+
+Jessa walked past them with Lyssa's bundle.
+
+"Where are you taking that?" I asked.
+
+She looked at me.
+
+"West."
+
+I waited.
+
+She kept walking.
+
+"After second bell?" I asked.
+
+That made her stop.
+
+Not dramatically.
+
+Just enough to look back.
+
+Marra looked up too.
+
+I remembered the phrase because I had once failed to deliver it in time and learned, later, that the world had continued without my permission.
+
+Jessa said, "Not this one."
+
+"Oh."
+
+She left through the back.
+
+Marra returned to the sleeve.
+
+The woman holding it said, "He knows things now."
+
+"Some," Marra said.
+
+I decided to accept this as praise because nobody had offered anything better.
+
+The customer by the wall was watching me.
+
+Not my leg.
+
+My face.
+
+"You're Lyssa's?"
+
+I considered the available answers.
+
+"Greg."
+
+"That's not what I asked."
+
+"No, but it's what I know."
+
+She laughed.
+
+Marra did not.
+
+"He's the road one."
+
+The customer nodded as though this explained something.
+
+It probably did, just not to me.
+
+"She did my cuffs," the customer said.
+
+I looked at her sleeves.
+
+They were not brown.
+
+They were not any cuffs I remembered.
+
+"Did she?"
+
+"Last cold season."
+
+"Then yes."
+
+That earned another laugh.
+
+I had no idea whether I had ever seen this woman before.
+
+She knew Lyssa.
+
+Marra knew her.
+
+The woman holding the red sleeve might know her.
+
+Jessa had just carried a bundle out the back.
+
+I had delivered one object into a machine that had been running before I arrived and would continue after I left.
+
+This was comforting.
+
+It was also mildly insulting.
+
+"Do I need to bring anything back?" I asked.
+
+Marra said, "No."
+
+I waited one beat.
+
+"Are you sure?"
+
+"Yes."
+
+"Any message?"
+
+Marra finally looked at me fully.
+
+"For Lyssa?"
+
+"That would be the traditional destination."
+
+"Tell her Jessa took it."
+
+"West?"
+
+"She'll know."
+
+I nodded.
+
+I did not ask what it meant.
+
+This was growth.
+
+Possibly.
+
+I turned toward the door.
+
+The customer said, "Road one."
+
+I looked back.
+
+She pointed at my left shoulder.
+
+"Thread."
+
+A loose thread had worked out near the seam of my shirt.
+
+I caught it between two fingers.
+
+"Professional repair."
+
+"That is not repaired."
+
+"I have been told this before."
+
+Marra said, "Don't pull it."
+
+My fingers stopped.
+
+She crossed the room, took a small pair of scissors from the table, clipped the thread, and went back to the red garment.
+
+The entire intervention took three seconds.
+
+"Thank you."
+
+"Don't make it worse before Lyssa sees it."
+
+"I have also been told that before."
+
+"Then you're expensive to teach."
+
+That one I took with me.
+
+Outside, I had no bundle.
+
+That changed the balance of walking more than it should have.
+
+I went to the market because we needed food and because returning home immediately would have made the entire trip feel like I had been sent across Carrow to move cloth from one competent woman to several other competent women.
+
+Which, in fairness, was exactly what had happened.
+
+I bought carrots.
+
+Only two.
+
+The seller did not know me.
+
+It was wonderful.
+
+I also bought a heel of cheese because it was cheap enough to make me suspicious and not cheap enough to stop me.
+
+The theatre copper from yesterday paid part of it.
+
+I did not think about Vale.
+
+Then I noticed I had not thought about Vale.
+
+Then I became annoyed because noticing counted.
+
+Debt was an extremely patient form of company.
+
+I walked home with the carrots and cheese in a cloth bag.
+
+No one followed me.
+
+No stranger asked where the theatre kept money.
+
+No one mentioned Bren.
+
+A cart blocked one lane and I went around it.
+
+A dog barked at my right crutch and then lost interest.
+
+The city did not owe me an event every time I crossed it.
+
+At home, the blue-gray cloth had moved again.
+
+Lyssa was there now.
+
+She sat at the table with one end of the cloth across her lap and the rest folded smaller than before. The three pins were gone. A chalk line ran near one edge.
+
+She looked at my bag.
+
+"Food?"
+
+"Carrots. Cheese."
+
+"Good."
+
+I put them down.
+
+"Marra."
+
+Lyssa's hands stopped.
+
+"Yes?"
+
+"Jessa took it."
+
+She nodded once and went back to the cloth.
+
+I waited.
+
+Nothing else happened.
+
+"West," I added.
+
+Another nod.
+
+"She said you'd know."
+
+"I do."
+
+I pulled out the other chair.
+
+"Excellent. Everyone had a very complete day."
+
+Lyssa looked at me.
+
+"You didn't?"
+
+"I had parts."
+
+That got the smallest smile.
+
+I sat.
+
+For a while she worked and I cut the bad edge off the cheese.
+
+The blue-gray cloth still did not explain itself.
+
+I decided not to ask.
+
+This lasted almost a full minute.
+
+"What is that becoming?"
+
+Lyssa looked down.
+
+"Smaller."
+
+I stared at her.
+
+"That is hostile."
+
+"True."
+
+"Customer?"
+
+She shook her head.
+
+I waited.
+
+She did not rescue me.
+
+"Yours?"
+
+"No."
+
+"Marra's?"
+
+"No."
+
+I stopped.
+
+The cloth had successfully defeated classification.
+
+Lyssa reached for the cheese.
+
+I moved the knife out of her way.
+
+She took a piece.
+
+"Jessa's sister."
+
+That was all.
+
+I looked at the cloth again.
+
+I knew Jessa had a sister somewhere on Lyssa's routes. I did not know whether this cloth belonged to her, was for her, came from her, or had simply become involved because she existed.
+
+I had learned enough not to choose.
+
+"Ah," I said.
+
+Lyssa chewed.
+
+"You don't know."
+
+"No."
+
+"Good."
+
+I pointed the knife at her.
+
+"Hostile household."
+
+"Useful."
+
+That word had become dangerous in this room.
+
+She ate another piece of cheese.
+
+I cut the carrots and put them in the pot with water and the last onion.
+
+Lyssa shifted the blue-gray cloth off the table without my asking.
+
+Not onto my chair.
+
+Into a folded stack on the floor beside her work basket.
+
+The whole table appeared.
+
+I had forgotten how large it was.
+
+We both looked at it.
+
+"Luxury," I said.
+
+Lyssa put both hands flat on the bare wood.
+
+"Rich."
+
+I laughed.
+
+We ate there when the carrots were soft enough and the cheese had become part of the broth because I had misjudged how much of it would survive being near heat.
+
+It was better that way.
+
+Lyssa told me Marra had been waiting for the bundle since morning.
+
+"Why didn't you take it?"
+
+"I was going somewhere else."
+
+"Why didn't she send someone?"
+
+"She did."
+
+I thought about Jessa leaving through the back.
+
+"Before me?"
+
+"Yes."
+
+"What did they need me for?"
+
+Lyssa looked at me over her bowl.
+
+"The bundle was here."
+
+That answer was so complete I had nowhere to put a joke.
+
+I ate.
+
+After a moment she added, "You know the way."
+
+There it was.
+
+Not promotion.
+
+Not membership.
+
+Not a ceremony in which Carrow presented me with a small medal for remembering a green door.
+
+The cloth had been here.
+
+Marra had needed it there.
+
+I knew the way.
+
+So I had carried it.
+
+I could live with that.
+
+Probably.
+
+Lyssa reached across and touched the clipped thread at my shoulder.
+
+"Who cut this?"
+
+"Marra."
+
+"Good."
+
+"She said not to make it worse before you saw it."
+
+"Also good."
+
+"I am surrounded by people with very low expectations."
+
+Lyssa pinched the seam between two fingers.
+
+"Accurate expectations."
+
+She got up, took her needle from the work basket, and fixed the loose spot while I was still wearing the shirt.
+
+Three stitches.
+
+Maybe four.
+
+I tried to look down.
+
+"Stop."
+
+I stopped.
+
+She tied the thread, clipped it, and sat again.
+
+"Done."
+
+"How much?"
+
+Lyssa looked at me.
+
+I smiled.
+
+She kicked my right foot under the table.
+
+Not hard.
+
+"Paid," she said.
+
+"Violence?"
+
+"Cheese."
+
+"Fair."
+
+Later, the blue-gray cloth went back into her basket.
+
+Not finished.
+
+Not explained.
+
+Just somewhere else.
+
+The table stayed clear.
+
+I put the bowls on it after washing them.
+
+Lyssa put nothing back.
+
+For one evening, our table was only a table.
+
+I leaned against the wall and looked at the room.
+
+Jori would not need me tomorrow.
+
+Marra might.
+
+Or Lyssa might.
+
+Or nobody would.
+
+Somewhere west, Jessa had taken a bundle whose purpose I still did not understand.
+
+The theatre had windows.
+
+Vale had debt.
+
+Hessa had questions she had not asked yet.
+
+Carrow had more routes than I knew and several I no longer had to think about.
+
+Lyssa sat beside me with her shoulder against mine.
+
+"What?" she asked.
+
+"Nothing."
+
+She waited.
+
+I looked at the empty table.
+
+"That's new."
+
+She followed my eyes.
+
+"No."
+
+"New to me."
+
+That made her laugh.
+
+I let her have it.
