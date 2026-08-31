@@ -119,6 +119,6 @@ GitHub provides durable continuity. The re-prompt gives the next writing session
 
 ## Current edge
 
-Chapter 233 — **THE SEAT**.
+Chapter 234 — **THE CONDITION**.
 
-See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 234 edge.
+See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 235 edge.

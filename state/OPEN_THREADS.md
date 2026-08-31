@@ -1,9 +1,9 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Current endpoint:** Chapter 233 — **THE SEAT**.
+- **Current endpoint:** Chapter 234 — **THE CONDITION**.
 - **Permanent forward manuscript:** `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`. Chapters 156–219 still need exact-text synchronization into the permanent manuscript; Chapter 220+ writes directly here. Light Reader synchronization is a separate downstream concern.
 - **Engine method:** `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves durable 01 behavior and recovery instructions.
-- **Magic counts:** ACTIVE at 33 supervised minimal draws / 29 deliberate shaping attempts / 45 external-effect attempts.
+- **Magic counts:** ACTIVE at 34 supervised minimal draws / 30 deliberate shaping attempts / 49 external-effect attempts.
 - **Latest comparison protocol:** Ch230 predeclares INTERMEDIATE → FAR → INTERMEDIATE → FAR, AWAY only, preserving the same target/control/glass/body setup and the same INTERMEDIATE/FAR marks as Ch226.
 - **Attempt 38:** FAR/AWAY, no observed response, control unchanged.
 - **Attempt 39:** INTERMEDIATE/AWAY, small observed target response, net AWAY, minor rotation, control unchanged.
@@ -13,11 +13,18 @@
 - **Attempt 43:** FAR/AWAY, no observed response, control unchanged.
 - **Attempt 44:** INTERMEDIATE/AWAY, no observed response, control unchanged.
 - **Attempt 45:** FAR/AWAY, no observed response, control unchanged.
-- **Current distance interpretation:** INTERMEDIATE has now produced clean observed response across more than one session under the current apparatus, but Attempt 44 shows it is not reliable. INTERMEDIATE still produces clean response more consistently than FAR. Earlier clean FAR responses remain real; FAR reliability remains unestablished. Ch230's reversed order does not establish an order effect. No range established. Not generalized.
+- **Attempt 46:** INTERMEDIATE/AWAY, no observed response, control unchanged.
+- **Attempt 47:** INTERMEDIATE/AWAY, small observed target response, net AWAY, minor rotation, control unchanged.
+- **Attempt 48:** INTERMEDIATE/AWAY, no observed response, control unchanged.
+- **Attempt 49:** INTERMEDIATE/AWAY, no observed response, control unchanged.
+- **Current distance interpretation:** INTERMEDIATE has now produced clean observed response across multiple sessions, including one clean response inside Ch234's fixed INTERMEDIATE-only block, but it remains unreliable and also produces clean non-responses. The accumulated current-apparatus record still supports an apparent distance-associated difference; Ch234 does not itself compare distances. Earlier clean FAR responses remain real and FAR reliability remains unestablished. No range established. Not generalized.
 - **Magic restrictions:** unchanged. No independent draw, shaping, external testing, paper, coins, thread, larger objects, practice, Barrier broadening, theatrical magic, or loopholes.
-- **Ch230 Hessa replication:** reversed predeclared order yields one clean INTERMEDIATE response, one clean INTERMEDIATE non-response, and two clean FAR non-responses. Counts end 33 / 29 / 45; restrictions unchanged. Chapters 231–233 contain no magic attempt; counts remain 33 / 29 / 45.
+- **Ch234 fixed INTERMEDIATE block:** predeclared INTERMEDIATE → INTERMEDIATE → INTERMEDIATE → INTERMEDIATE, AWAY only, same current apparatus, planned break after two. Results: 46 no response / 47 small response away with minor rotation / 48 no response / 49 no response; control unchanged on all four. Counts end **34 / 30 / 49**.
+- **Ch234 interpretation ceiling:** the block adds another clean INTERMEDIATE response and further clean non-responses. INTERMEDIATE response recurs but remains unreliable. The session does not establish a response rate, expectation effect, fatigue effect, FAR-interleaving effect, range, or generalization.
+- **Ch234 household residue:** brown cloth remains same fold/three pins; Greg's damaged shirt remains on the shelf with three loose threads; Lyssa returns with no bundle and asks only narrow result questions.
+- **Ch230 Hessa replication:** reversed predeclared order yields one clean INTERMEDIATE response, one clean INTERMEDIATE non-response, and two clean FAR non-responses. Counts ended 33 / 29 / 45; restrictions stayed unchanged. Chapters 231–233 then contain no magic attempt.
 - **Ch230 household residue:** a narrow folded brown cloth with three pins appears at home; customer/garment/ownership/use remain unknown. Greg's bad cuff repair reaches three loose threads and he leaves it alone. Lyssa returns with turnips and no garment.
-- **Next magic question:** Hessa still has several possibilities after Ch230 and has chosen none; when Greg asks whether there are more or fewer, she says `Different`. Do not convert this into a test ladder.
+- **Next magic question:** Hessa has no selected next experiment after Ch234. The fixed-condition block changes the record but does not authorize an immediate ladder; let magic breathe unless a genuinely bounded question later earns return.
 - **Ch231 theatre:** full **The Crooked Fence** rehearsal/performance day. Greg plays the fifteen-line, mostly seated **Magistrate**; Hara = Widow, Marek = Neighbor, Pell = Clerk. The Ch229 window trim is now part of the magistrate-room set.
 - **Ch231 acting correction:** Teren narrows Greg from chasing every answer to `The case comes to you` / `Let them bring the mess.` In performance Greg anticipates the seal-block cue and strikes early when Pell begins `Before judgment...`; Hara continues and Pell restarts. Post-show, Teren corrects Greg's `Hara fixed it` to `Hara continued.` Keep all of this theatre-specific, not a life maxim.
 - **Ch231 strongest beat:** Hara's Widow abandons her hard-fought land claim the instant Pell reveals the disputed strip includes the drainage ditch: `His.` / `I have spent an hour proving your ownership.` She owns the room; Greg's later line gets a smaller laugh.
@@ -44,7 +51,7 @@
 - **Evidence ceiling:** NO robbery, ambush, cart target, Bren employment, organization, gang, boss, or specific plan established.
 - **Mason's Cut:** Olin's boy saw brown-coat man walking toward Mason's Cut but did not see him enter. Direction only. No base/residence/territory claim.
 - **Bren:** probable name of close-haired heavy-coat spokesman with left glove. One-copper demand refused Ch218. `Next time won't be one.` No surname, boss, organization, or violence established.
-- **Threat restraint:** Chapters 224–233 contain no new warning, demand, appearance, violence, sabotage, or investigation. Ch228 Olin simply sends ordinary oil with no message or warning attached.
+- **Threat restraint:** Chapters 224–234 contain no new warning, demand, appearance, violence, sabotage, or investigation. Ch228 Olin simply sends ordinary oil with no message or warning attached.
 - **Quiet defensive residue:** cash handling less visible; cart-departure information not casually shared; no guards, escorts, traps, patrols, or spy network.
 - **Vale debt:** ACTIVE. Exact balance known in-world but unstated. One-copper payment made Ch218. Ch224 suitable invoice/tally work produces legitimate credit. Ch227 different suitable office work produces another legitimate credit. Chapters 228–231 have no Vale movement. Debt remains unresolved.
 - **Vale work route:** Ch227 establishes ordinary outgoing packet bundling as work that happens most days when needed. Greg has no guaranteed post, schedule, rate, or promotion.
@@ -60,7 +67,7 @@
 - **Ch233 company/social:** after work Rinna, Hara, Pell, Marek, Greg, and later Nessa eat at a nearby cookshop. Hara moves her coat to make Greg a place; everyone pays their own bowl; Hara's shoe-repair problem stays with the people actually discussing it rather than becoming Greg's task.
 - **Ch233 body/household:** ordinary used shoulders/mild right-leg fatigue only, no injury. Dark sleeve is gone; brown cloth remains same fold/three pins; cuff remains three loose threads. Lyssa is already eating when Greg returns.
 - **Ch233 pressure/magic/Vale:** no Hessa, magic attempt, Vale work/credit, Bren/observer fact, warning, investigation, or escalation. Magic remains 33 / 29 / 45.
-- **Next engine rotation:** let the Ch233 ordinary theatre/company day breathe. Hessa may return only if she has a bounded question; an external-pressure fact may arrive only if grounded; ordinary Carrow/household/social life remains equally valid. No engine is owed on a timer.
+- **Next engine rotation:** let the full Ch234 Hessa session breathe. Ordinary Carrow/household/social life, one grounded pressure fact, or an actual new work obligation are available; none is owed on a timer.
 - **Ch229 Marra route:** Greg carries the still-undefined blue-gray cloth to Marra after brief window-trim work. He knows the green-door route and work lane without directions; Marra still calls him `the road one`.
 - **Ch229 blue-gray cloth ceiling:** Jessa finds two short chalk marks near an edge and calls the cloth `Marked`. Its customer, garment, ownership, intended use, and the exact meaning of the marks remain unestablished.
 - **Ch229 Lyssa network:** Marra/Jessa/customer traffic continues without Greg. An unnamed customer asks for Lyssa and says tomorrow afternoon is fine; Jessa later finds Lyssa independently. Do not assign formal Marra/Jessa roles or merge the customer with earlier unnamed/referral customers.

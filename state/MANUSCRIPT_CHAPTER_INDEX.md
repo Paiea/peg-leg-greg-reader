@@ -1,6 +1,6 @@
-# PEG-LEG GREG — CHAPTER INDEX — CH233
+# PEG-LEG GREG — CHAPTER INDEX — CH234
 
-**Current endpoint:** Chapter 233 — THE SEAT
+**Current endpoint:** Chapter 234 — THE CONDITION
 
 1. **THE BOY**
 2. **THE BORROWER**
@@ -235,3 +235,4 @@
 231. **THE MAGISTRATE**
 232. **THE COUNTERSIGN**
 233. **THE SEAT**
+234. **THE CONDITION**
