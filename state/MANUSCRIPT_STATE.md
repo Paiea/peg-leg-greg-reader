@@ -1,7 +1,7 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current story endpoint: Chapter 223 — **THE MAINTENANCE MAN**.
+- Current story endpoint: Chapter 224 — **THE CHECKER**.
 - Book 1 Chapters 1–82 closed. Book 2 active.
 - Repository prose was previously validated continuously through Chapter 155 — **THE LEAK**.
 - Chapters 156–219 remain newer forward manuscript material pending exact-text synchronization into the permanent running manuscript. Do not reconstruct them from summaries or let stale overlapping files overwrite newer authority.
@@ -37,23 +37,24 @@
 - Distance dependence remains supported in the current apparatus.
 - NO RANGE ESTABLISHED. NOT GENERALIZED.
 - Restrictions unchanged: no independent draw, shaping, external testing, paper, coins, thread, larger objects, practice, Barrier broadening, theatrical magic, or loopholes.
-- Chapters 222–223 contain no Hessa session and no magic use. Counts remain 31 / 27 / 37.
+- Chapters 222–224 contain no Hessa session and no magic use. Counts remain 31 / 27 / 37.
 
 ## Greg / Lyssa
 - Canonical spelling: **Lyssa**. Same established character formerly spelled Lysa.
 - Established visual identity only: Black woman, tall relative to Greg, thin/lithe build, natural Afro-textured hair.
 - Lyssa has independent work, errands, moods, obligations, competence, and decisions.
 - Greg remains nineteen, Bronze, in Carrow, permanent LEFT BKA, knee preserved, right leg intact, two crutches.
-- Ch223 Lyssa continues customer work and uses the matching thread Greg bought in Ch222. Their home scene stays narrow and ordinary rather than becoming a full plot briefing.
+- Ch224 Lyssa continues customer sewing, uses the thread Greg bought, sends Greg for onions, and does not manage his debt or require a full plot debrief.
 
 ## Economy / debt
 - Currency: copper / silver / gold. No conversion rate established.
 - Antonius Vale debt is not forgiven or settled.
 - Hard original terms: 35% interest, 8 days, labor through Antonius on default. Original principal unknown.
-- Exact current balance exists in-world but is not stated in narration.
+- Exact current balance exists in-world and Greg knows it, but authoritative narration does not state the number.
 - Chapter 218 lowered debt by one copper through a cash payment.
 - Ordinary living expenses coexist with repayment.
-- Ch223 Greg pays to replace one worn left crutch tip and later earns normal one-copper theatre pay. No Vale appearance/payment.
+- Ch223 Greg paid for one worn left crutch tip and earned normal theatre pay.
+- Ch224 Greg completes suitable seated Vale office work and receives a legitimate debt credit. The credit is recorded in-world, but narration does not state the figure or reconstruct the total balance.
 - No Vale/Bren connection established.
 
 ## Bren / pressure arc
@@ -61,62 +62,55 @@
 - No surname, boss, organization, or larger structure established.
 - Ch218: direct ONE COPPER demand refused by Rinna; Bren says `Next time won't be one.`
 - Ch219: thin-faced brown-coat man with dark hair/quiet voice interferes with Olin's oil delivery.
-- Ch220: same-description man returns to Olin and asks whether Rinna bought oil anyway, paid cash, theatre still performs, and whether Rinna keeps money at the hall. Olin gives no useful information.
-- Olin's boy later sees him walking toward Mason's Cut but does NOT see him enter. Direction of travel only.
-- Rinna's supplier/service warning network is active and has now produced two concrete early-warning payoffs.
-- Ch221–222 contain no new pressure event.
-- Ch223: the cart repair man reports that an unknown visitor asked whether the theatre cart goes out after the late show and whether the same man drives it. He gives no theatre hours/routine information.
-- Ch223 visitor description: brown coat, dark hair, not old, narrow/thin face, quiet voice. Rinna records this only as **CONSISTENT WITH OLIN DESCRIPTION**, not proven same man.
-- New supported category: someone is interested in theatre movement/logistics in addition to prior money-handling questions.
+- Ch220: same-description man returns to Olin and asks money-handling questions; Olin gives no useful information. Olin's boy later sees him walking toward Mason's Cut but does NOT see him enter.
+- Ch223: cart repair man reports an unknown visitor asking whether theatre cart goes out after late show and whether the same man drives it. Description is only **CONSISTENT WITH OLIN DESCRIPTION**.
+- Supported category: someone is interested in theatre money handling and movement/logistics.
 - NOT established: robbery, ambush, cart target, Bren employment, organization, gang, boss, or specific plan.
-- Ch223 Rinna/Jori make proportional adjustments only: no casual disclosure of cart timing, cart/equipment stays overnight, cash handling remains less visible. No guards, escorts, traps, patrols, or investigation.
-- Bren remains off-page. Greg does not go to Mason's Cut.
-
-## Chapter 222 — THE PROPERTY MAN
-- Theatre-centered chapter with no new pressure event and no magic.
-- Greg works property table for **The Widow's Guest** and performs four-line Delivery Man in **The Honest Clerk**.
-- Accumulated competence: routes/cues/prop order increasingly ordinary; backstage disability adaptation by Jori/Davin is habitual and unceremonious.
-- Fresh failure: Greg forgets his own parcel while managing everyone else's props.
-- Acting correction: Greg reaches toward a receipt before Pell's Clerk has decided to accept the parcel; Teren makes him wait for the scene event.
-- Hara/Marek own strongest performance beat.
-- Rinna quietly changes cash-box handling.
-- Greg buys matching thread for Lyssa and earns normal one copper.
+- Ch224 deliberately does not advance the pressure arc. Rinna reports no new word. Bren remains off-page. No Mason's Cut investigation.
 
 ## Chapter 223 — THE MAINTENANCE MAN
-- Morning ordinary-life anchor: Greg's worn LEFT crutch tip has softened/compressed. He visits the familiar crutch repairer, who finds asymmetric wear and replaces one tip. Greg pays without turning the expense into a debt morality crisis.
-- Theatre cart has a cracked diagonal brace near an old bolt hole. Jori is already underneath it while Davin gives useless advice. The cart is not sabotaged and the damage is ordinary maintenance discovered that day.
-- Nessa temporarily puts Greg back on property-table work, then Teren gives him a four-line Neighbor role in **The Doctor's Supper**.
-- Acting correction: Greg moves early to clear Marek's known route. Teren narrows the issue: Greg knows the actor's route, but the Neighbor does not. Greg stays until the cross actually requires adjustment; Marek takes the wider line.
-- Near midday the cart repair man comes to Rinna because a visitor asked about the theatre cart.
-- Reported questions: `They take it out after the late show?` and whether the same fellow/man drives it; second wording is explicitly uncertain.
-- Repair man gives no theatre routine/hours. Description is consistent with Olin visitor but identity remains unproved.
-- Greg observes the coherent category change: `First where the money sits. Now how things move.` Rinna agrees with that supported pattern while refusing to infer a plan.
-- Rinna tells company not to give strangers cart-departure information and to send questions to her. Jori's ordinary cracked brace means the cart also stays put until morning.
-- Performance continues. Hara/Pell own strongest beat in **The Doctor's Supper** around Pell's supposedly grave symptoms and hunger.
-- Greg applies his rehearsal correction during performance without fanfare and gets modest laughs in his Neighbor scene.
-- Backstage competence continues: Greg hears cue while working, accepts Hara's physician bag handoff without explanation, and values the ordinary work more than the laugh.
-- Post-show: equipment waits inside until morning, cash box appears only after doors shut, no guards/escort/security theatre.
-- Greg earns one copper. New crutch tip works normally on wet stone.
-- Home: Lyssa asks narrowly about dangerous man, paper, and umbrella. Greg reports the cart questions with evidence ceiling intact. Lyssa notes again that the theatre heard before anything happened. Ending: they know more before paying for the lesson, but still do not know what happens next.
+- Greg replaces one worn LEFT crutch tip; no injury, new tip works normally.
+- Jori finds ordinary cracked cart brace near old bolt hole; no sabotage.
+- Greg performs Neighbor in **The Doctor's Supper** and applies the correction to stop anticipating another actor's route.
+- Cart repairer produces warning-network payoff #2: questions about late-show cart movement and same driver; description only consistent with earlier visitor.
+- Rinna makes proportional changes only: no casual cart-timing disclosure, equipment can stay overnight, cash handling remains less visible.
+- Hara/Pell own strongest performance beat.
+- Greg earns normal one copper. Lyssa remains independent.
 
-## Immediate next edge — Chapter 224
-Primary recommendation: **LET THE THREAT BREATHE AGAIN AND ROTATE TO A DIFFERENT LIVE ENGINE.**
+## Chapter 224 — THE CHECKER
+- Morning: Lyssa is working at the table and asks Greg to buy onions if he passes west market.
+- A bored Vale office runner brings a practical note: `ROOM WORK AVAILABLE. TODAY. AFTER FIRST BELL IF YOU WANT CREDIT.` A second hand adds `SIT DOWN WORK.` No ominous summons.
+- Greg chooses Vale work first and theatre afterward.
+- Vale office is already active with clerks, customers, runners, ledgers, food, and ongoing business independent of Greg.
+- Greg is assigned four stacks of invoice copies and delivery tallies to compare. He is told to mark discrepancies rather than correct them himself.
+- Greg's first flagged discrepancy is wrong: a tiny return/rejection mark explains the apparent mismatch. The experienced clerk corrects him.
+- Greg later catches a genuine copied-total error.
+- Greg also catches a second real record problem: a continuation sheet is clipped to the wrong account, creating an apparent quantity mismatch. The clerk identifies it as a filing error and fixes it.
+- Greg is useful but not a genius. Most pages simply agree, and much of the work is repetitive.
+- Antonius notices Greg's new crutch tip and explicitly treats maintenance commercially: a bad crutch is an expensive way to make Greg less useful. He does not object to the necessary spending.
+- Antonius records debt credit for the usable work. The exact credit figure and total balance are not narrated.
+- Antonius asks only whether Greg has the rest of Bren's name, an employer, or an organization. Greg has none. Antonius concludes Greg has nothing new for him. No investigation, rescue, recognition, or Vale/Bren connection follows.
+- Greg goes to theatre afterward. Jori has fitted a new cart brace; old wood/bad bolt hole remains the mundane explanation. Rinna reports no new threat word.
+- Greg has no performance role. He helps Nessa sort real cups into usable/discard and does ordinary theatre work. Two discarded cups are later repurposed as stage property.
+- Greg buys onions on the way home.
+- Home ending: Lyssa asks narrowly about Vale, theatre, Hessa, and Bren. Greg says credit was recorded, cart repaired, no new word, no Hessa, no Bren. Debt remains. Several ordinary things are simply in slightly better condition than yesterday.
 
-Strongest candidate: Vale / debt / suitable indoor work, because the last several chapters have heavily centered theatre, threat, and Hessa while Antonius has remained background.
+## Immediate next edge — Chapter 225
+Primary recommendation: **LET VALE WORK SETTLE AND ROTATE BACK TOWARD THEATRE / PEOPLE / PERFORMANCE BEFORE ANY NEW THREAT ESCALATION.**
 
-Potential Chapter 224 shape:
-- ordinary household morning / Lyssa independent work;
-- a narrow Vale office request or existing suitable-labor opportunity, not a rescue or Bren connection;
-- Greg performs bounded table/ledger/invoice/account work that fits his current physical restrictions;
-- debt credit/payment mechanics remain exact only where already established; do not invent the balance or currency conversion;
-- Antonius remains commercial and interested in repayment, not secretly benevolent;
-- if Greg mentions theatre pressure, Antonius should NOT solve it, investigate it, or reveal a connection. He already knows only the narrow earlier Bren facts and asked to be told if the other half of the name becomes relevant; no new name has appeared;
-- theatre may remain present at the beginning/end or through Greg's schedule, but does not need another threat event;
-- no Hessa session strongly preferred unless newer on-page authority schedules one;
-- magic remains 31 / 27 / 37;
-- Bren/brown-coat/logistics warning can sit unresolved for a chapter.
+Strong next direction:
+- give Greg a real theatre-centered day again, preferably with an actual performance role or stagecraft problem rather than another office/lab chapter;
+- let the repaired cart simply work and become boring;
+- preserve Ch224's Vale credit as real but do not immediately schedule another Vale shift or payment;
+- preserve no new Bren word for at least the opening portion of the chapter. A full no-threat chapter is acceptable and likely strong;
+- no Hessa session strongly preferred unless new on-page authority schedules one; magic remains 31 / 27 / 37;
+- continue accumulated company memory and Greg's growing comfort without declaring a milestone;
+- Lyssa remains independently occupied;
+- if pressure moves at all, it should be late and genuinely new, not another supplier repeating money/cart questions.
 
-Alternate if Vale does not produce the stronger prose: an ordinary theatre/city chapter is acceptable. Do not escalate threat merely because Ch223 produced a warning.
+Potential theatre engine: Greg gets a slightly meatier but still supporting role in a familiar or new comedy, while backstage the company has to repurpose one of the newly demoted real cups or another ordinary object. Let someone else own the best performance beat. Give Greg one fresh, specific mistake or limitation rather than another lesson about anticipation.
+
+Alternate engine if theatre does not produce the stronger chapter: ordinary city/friendship work. Do not return to threat merely because it is available.
 
 ## Chat / handoff behavior
 After each completed chapter:
