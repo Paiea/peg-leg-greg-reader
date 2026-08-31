@@ -5,49 +5,71 @@ Updated from repository authority on 2026-08-31.
 ## Current authority
 
 - Repository: `Paiea/peg-leg-greg-reader`
-- Current story endpoint: Chapter 219 — **THE PURCHASER**
+- Current story endpoint: Chapter 220 — **THE LANDLORD**
 - Book 1: Chapters 1–82 closed
 - Book 2: active
 - Permanent forward manuscript path: `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`
-- Important synchronization caveat: the permanent file is currently a placeholder while Chapters 156–219 are materialized into it. Use `state/MANUSCRIPT_STATE.md` for the current endpoint and explicit recent continuity until exact prose is present there.
+- Chapters 156–219 still need exact-text synchronization into the permanent running manuscript.
+- Chapter 220 is now materialized directly in the permanent running manuscript, and new forward chapters should continue there.
 
 ## Reader status
 
 - Public/static reader currently publishes Chapters 1–155.
-- The reader is a derived publishing build and is behind manuscript authority by 64 chapters.
-- Do not invent Chapters 156–219 reader pages from state summaries. Synchronize only from authoritative prose when materialized/available.
+- The reader is a derived publishing build and is behind current story authority.
+- Do not reconstruct Chapters 156–219 from summaries. Synchronize them only from authoritative prose.
 - Existing reader already contains mixed-fidelity art and intrinsic-resolution sizing logic.
 
 ## Current story pressure
 
-Theatre remains ordinary paid work while a commercial-pressure thread grows around it.
+Theatre remains ordinary paid work while commercial pressure grows around information and money handling.
 
-Chapter 218 established Bren directly demanding one copper from the theatre, Rinna refusing, and Bren warning that next time would not be one.
+Chapter 218: Bren demanded one copper from the theatre. Rinna refused. Bren warned that next time would not be one.
 
-Chapter 219 established indirect pressure on a real supplier. Olin canceled an oil delivery after an unknown thin-faced man in a brown coat warned that theatre money was spoken for. His description matches the prior Copper Kettle observer, but identity and organizational connection are not proven.
+Chapter 219: an unknown thin-faced brown-coat man warned Olin about theatre money and caused an oil delivery cancellation. Description matched the prior Copper Kettle observer, but identity and organizational connection remained unproved.
 
-The theatre's first proactive commercial defense is now active: suppliers should verify claims with Rinna and avoid giving strangers useful information about private jobs, payments, carts, or cargo.
+Chapter 220: the same-description man returned to Olin and asked whether Rinna bought the oil anyway, paid cash, was still doing shows, and whether she keeps money at the hall. Olin gave him no useful theatre information. The strongest new detail is specific interest in theatre money handling, not proof of a larger organization.
+
+Rinna's commercial warning network produced its first concrete success: the theatre heard about the man's questions before they caused new cost or damage. She extended the network to additional real businesses.
+
+Olin's boy later saw the man walking toward Mason's Cut. He did not see him enter it. This is direction of travel only. Greg did not chase him.
+
+## Magic state
+
+Counts remain 30 minimal draws / 26 shaping attempts / 34 external-effect attempts.
+
+Current controlled evidence:
+
+- intermediate away response has repeated
+- far response has been observed once
+- far remains unreliable
+- distance dependence is supported in the current apparatus
+- no range is established
+- findings are not generalized
+- restrictions remain unchanged
 
 ## Immediate next story edge
 
-Primary question from manuscript state: **What changes when the theatre starts talking to its neighbors?**
+Primary function for Chapter 221: **LET THE THREAT INFORMATION BREATHE WHILE ANOTHER LIVE ENGINE MOVES.**
 
-Preferred direction: the warning network lets the theatre hear about pressure before it becomes damage. Greg should not convert this into a chase or premature conspiracy proof. Preserve ordinary theatre work and evidence discipline.
+Strong recommendation from manuscript state: return to Hessa for a controlled evidence chapter asking whether the far response can repeat under the same apparatus.
+
+Threat should remain backgrounded: no Mason's Cut investigation, no new direct demand strongly preferred, no need for Bren to appear.
 
 ## Active production lanes
 
-- Manuscript lane: advancing beyond Chapter 219 from current authority
-- Project-brain lane: seeding durable cross-chat memory and fresh-worker routing
-- Reader lane: currently safe for presentation cleanup, but chapter synchronization must wait for authoritative prose
-- Visual lane: coverage-first; do not remap obsolete Chapter 156–160 art blindly
+- Manuscript lane: advancing beyond Chapter 220
+- Project-brain lane: durable cross-chat memory and fresh-worker routing
+- Reader lane: safe for presentation cleanup; chapter sync must follow exact manuscript authority
+- Visual lane: coverage-first; obsolete 156–160 mappings must not be blindly restored
 
 ## Best next infrastructure edges
 
-1. materialize authoritative Chapters 156–219 into the permanent running manuscript path
-2. synchronize reader 156–219 from that authority without overwriting newer UI/art
-3. validate reader endpoint and navigation
-4. recalculate per-chapter art coverage from actual reader HTML
-5. continue 5x5 coverage batches from real gaps
+1. synchronize exact authoritative Chapters 156–219 into the permanent running manuscript path
+2. consolidate duplicated reader CSS rules without changing behavior
+3. synchronize reader 156–220 from authoritative prose while preserving newer UI/art
+4. validate reader endpoint/navigation/index
+5. recalculate art coverage from actual reader HTML
+6. continue 5x5 coverage batches from real gaps
 
 ## Concurrency warning
 
