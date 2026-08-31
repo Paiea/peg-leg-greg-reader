@@ -6,19 +6,19 @@ This repository contains both the illustrated static reader and the durable proj
 
 ## Current authority
 
-- Current story endpoint: **Chapter 219 — THE PURCHASER**
+- Current story endpoint: **Chapter 220 — THE LANDLORD**
 - Book 1: Chapters 1–82, CLOSED
 - Book 2: ACTIVE
 - Current manuscript state: `state/MANUSCRIPT_STATE.md`
 - Permanent forward manuscript path: `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`
 
-Important: the permanent running-manuscript file is currently being populated with Chapters 156–219. Until that exact prose is materialized there, `state/MANUSCRIPT_STATE.md` is the current endpoint/continuity authority and the older materialized manuscript files remain authoritative for their exact prose ranges.
+Important: Chapters 156–219 still require exact-text synchronization into the permanent running-manuscript file. Chapter 220 is materialized directly there and new forward chapters should continue on that permanent path. `state/MANUSCRIPT_STATE.md` remains the compact current endpoint/continuity authority.
 
 ## Public reader
 
 The static illustrated reader currently publishes **Chapters 1–155**.
 
-The reader is a derived publishing build, not manuscript authority. Do not invent reader Chapters 156–219 from summaries. Synchronize them from authoritative prose when available.
+The reader is a derived publishing build, not manuscript authority. Do not invent reader Chapters 156–220 from summaries. Synchronize them from authoritative prose when available.
 
 Open `art.html` or click **ART** to browse approved visual material. Only reader-promoted art ships in chapter pages. Development contact sheets and unpromoted production assets are not reader authority.
 
