@@ -1,31 +1,30 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Current endpoint:** Chapter 224 — **THE CHECKER**.
+- **Current endpoint:** Chapter 225 — **THE STEWARD**.
 - **Permanent forward manuscript:** `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`. Chapters 156–219 still need exact-text synchronization; Chapter 220+ writes directly here.
 - **Engine method:** `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves durable 01 behavior and recovery instructions.
 - **Magic counts:** ACTIVE at 31 supervised minimal draws / 27 deliberate shaping attempts / 37 external-effect attempts.
 - **FAR evidence:** attempts 33 and 36 produced small rotational/net-away responses in separate sessions under current FAR/AWAY apparatus. FAR response repeated across sessions, reliability unestablished. INTERMEDIATE remains more reliable. No range established. Not generalized.
 - **Magic restrictions:** unchanged. No independent draw, shaping, external testing, paper, coins, thread, larger objects, practice, Barrier broadening, theatrical magic, or loopholes.
-- **Next magic question:** NOT scheduled on-page. Chapters 222–224 contain no magic session. Do not immediately range-map.
-- **Theatre:** routine paid work remains central. Ch224 Greg arrives after Vale work, has no performance role, and helps Nessa sort real cups into usable/discard; two discarded cups are repurposed as stage property.
-- **Latest acting correction:** from Ch223, Greg moves early because he knows Marek's route. Teren narrows the problem: Greg knows the actor's route; the Neighbor does not. No new acting correction Ch224.
-- **Backstage competence:** routes, prop handoffs, cues, and physical accommodations increasingly ordinary/social rather than declared milestones.
-- **Crutch maintenance:** Ch223 Greg replaced one worn LEFT crutch tip. Ch224 the new tip behaves normally and Antonius explicitly treats necessary equipment maintenance as commercially sensible because an injured debtor is less useful.
-- **Theatre cart maintenance:** Ch223 cracked diagonal brace near old bolt hole was ordinary wear. Ch224 Jori fits a new brace; old wood/bad bolt hole remains the mundane explanation. No sabotage established.
+- **Next magic question:** NOT scheduled on-page. Chapters 222–225 contain no magic session. After four breathing chapters, Hessa is now a strong next-engine candidate, but do not range-map.
+- **Theatre:** Ch225 Greg performs eleven-line Steward in `The Second Toast`; theatre remains routine paid work and social workplace.
+- **Latest acting/stagecraft correction:** Greg angles Hara's tray toward the cracked cup before her character chooses it. Teren narrows: `Carry choices. Do not make them.` This is about not deciding another character's action for them, not a grand doctrine.
+- **Repurposed cups:** two discarded household cups from Ch224 are now painted stage property. Blue-banded cup belongs Pell's Uncle in scenes one/three; cracked/red-marked cup belongs Hara in scene two. Nessa stores both `STAGE ONLY` after Ch225.
+- **Backstage competence:** routes, prop handoffs, cues, tray/crutch geometry, physical accommodations, and staying out of work lanes increasingly ordinary/social rather than declared milestones.
+- **Crutch maintenance:** one worn LEFT tip replaced Ch223; it remains normal through Ch225.
+- **Theatre cart maintenance:** ordinary cracked brace repaired Ch224. Ch225 cart performs normal flat/bench runs; repair holds. No sabotage established.
 - **Rinna / commercial defense:** ACTIVE. Actual suppliers/service people verify claims directly with Rinna and avoid giving strangers useful operational/payment information.
 - **Warning-network payoff #1:** Olin reports money-handling questions and gives no useful answers.
-- **Warning-network payoff #2:** Ch223 cart repair man reports questions about whether the theatre cart goes out after the late show and whether the same man drives it. He gives no theatre hours/routine.
-- **Brown-coat observer:** ACTIVE / UNIDENTIFIED. Ch223 visitor description: brown coat, dark hair, not old, narrow/thin face, quiet voice. Rinna records only `CONSISTENT WITH OLIN DESCRIPTION`. Same identity/employment remains unproved.
+- **Warning-network payoff #2:** Ch223 cart repair man reports questions about late-show cart movement/same driver and gives no theatre hours/routine.
+- **Brown-coat observer:** ACTIVE / UNIDENTIFIED. Description remains brown coat, dark hair, not old, narrow/thin face, quiet voice. Rinna classification remains `CONSISTENT WITH OLIN DESCRIPTION`; same identity/employment unproved.
 - **Pressure pattern supported:** someone has asked where theatre money sits and how/when theatre movement occurs. This supports interest in money handling + logistics, not a known plan.
 - **Evidence ceiling:** NO robbery, ambush, cart target, Bren employment, organization, gang, boss, or specific plan established.
 - **Mason's Cut:** Olin's boy saw brown-coat man walking toward Mason's Cut but did not see him enter. Direction only. No base/residence/territory claim.
 - **Bren:** probable name of close-haired heavy-coat spokesman with left glove. One-copper demand refused Ch218. `Next time won't be one.` No surname, boss, organization, or violence established.
-- **Threat restraint:** Ch224 contains no new warning, demand, appearance, violence, sabotage, or investigation. Rinna simply says there is no new word.
-- **Quiet defensive residue:** cash handling less visible; cart-departure information not casually shared; some equipment can wait until morning. No guards, escorts, traps, patrols, or spy network.
-- **Vale debt:** ACTIVE. Exact balance known in-world but unstated. One-copper payment made Ch218. Debt not forgiven. No fixed repayment plan.
-- **Vale suitable work:** Ch224 Greg completes seated invoice/tally checking. One apparent discrepancy is Greg misunderstanding a return mark; two real issues are confirmed: one copied total and one continuation sheet filed under wrong account. Antonius records debt credit without narration stating the figure or total balance.
-- **Antonius texture:** commercial, not benevolent. He supports necessary crutch maintenance because damage to Greg reduces repayment capacity. He asks whether Greg has Bren's remaining name/employer/organization; all answers remain no. No investigation or rescue follows.
-- **Vale / Bren:** NO CONNECTION ESTABLISHED.
-- **Greg / Lyssa:** ordinary intimacy continues. Ch224 Lyssa works independently, sends Greg for onions, and asks only narrow questions at home. She is not debt manager/security analyst/research partner.
-- **Next engine rotation:** strongest recommendation after Ch224 is theatre/people/performance or another ordinary-life engine. Let Vale credit settle and do not force new threat movement immediately.
+- **Threat restraint:** Chapters 224–225 contain no new warning, demand, appearance, violence, sabotage, or investigation. Rinna simply reports no new word.
+- **Quiet defensive residue:** cash handling less visible; cart-departure information not casually shared; no guards, escorts, traps, patrols, or spy network.
+- **Vale debt:** ACTIVE. Exact balance known in-world but unstated. One-copper payment made Ch218. Ch224 suitable office work produces legitimate credit; Ch225 no Vale movement.
+- **Antonius texture:** commercial, not benevolent. No Vale/Bren connection established.
+- **Greg / Lyssa:** ordinary intimacy continues. Ch225 blue-cloth job is delivered; brown cuff job changes twice; Lyssa moves on to another garment and remains independently employed.
+- **Next engine rotation:** Hessa/magic is strongest candidate after four chapters of breathing, using a same-apparatus controlled comparison rather than range expansion. Ordinary city/Lyssa is a valid alternate. Do not force Bren escalation.
 - **Long-range theatre direction:** THEATRE → PERFORMANCE → MISDIRECTION → ILLUSION → MASKS → CONTROL OF PERCEPTION → eventual dangerous bluff. Directional only; visible theatre remains FUN → PEOPLE → WORKPLACE → ACTING → STAGECRAFT → FAILURE → ANOTHER TURN.
