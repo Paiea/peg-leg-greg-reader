@@ -128,7 +128,7 @@ Permanent forward path:
 
 Do NOT create a new `Peg_Leg_Greg_Running_Manuscript_ChXXX-YYY.md` file for each chapter or shipping pass. Update the permanent running manuscript in place.
 
-Current recorded story endpoint is Chapter 225 — **THE STEWARD**. Always verify `MANUSCRIPT_STATE.md` / running manuscript before using this number if newer work exists.
+Current recorded story endpoint is Chapter 226 — **THE REFERENCE**. Always verify `MANUSCRIPT_STATE.md` / running manuscript before using this number if newer work exists.
 
 Repository exact-text availability is now:
 - illustrated/static prose through Chapter 155 — **THE LEAK**
