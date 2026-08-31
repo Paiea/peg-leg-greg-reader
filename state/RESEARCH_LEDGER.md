@@ -134,16 +134,57 @@ POSSIBILITY / RESEARCH SUPPORT. Chapter 225 itself establishes Greg's premature 
 
 ---
 
+## THEATRE — SMALL-COMPANY PRACTICAL AUTHORITY AND MULTI-HATTING
+
+**Question:**
+In a small or ensemble theatre, how can practical authority emerge around assigned work, repeated competence, pre-show responsibility, and people covering more than one kind of job without turning the company into a formal organizational chart?
+
+**Source / authority:**
+- Royal Shakespeare Company, `Stage management`
+  https://www.rsc.org.uk/about-us/how-we-make-theatre/stage-management
+- Theatrecrafts, `Glossary of Terms — Stage Management`
+  https://theatrecrafts.com/pages/home/topics/stage-management/glossary/
+- Fantasy Theatre Factory 2026–2027 touring-season casting notice, reproduced by BroadwayWorld
+  https://www.broadwayworld.com/non-equity-audition/FTF-20262027-TOURING-SEASON-AUDITIONS-Sandrell-Rivers-Theater-2026-50624
+- `The Business of Theatre: Pathways to a Career in Theatre`, Technician / Backstage / Production Crew; includes interview material from former Theatre New Brunswick Production Manager Nikki Vigneault
+  https://pressbooks.pub/businessoftheatre/chapter/technician-backstage-production-crew/
+
+**Supported finding:**
+- Theatre authority is often divided by work domain rather than concentrated in one all-purpose leader. The RSC describes stage management as a communication hub while separating company-management, stage-management, deputy, and assistant responsibilities; its ASM role specifically attends to props and costumes during rehearsal.
+- Prop responsibility commonly includes preset and verification. Theatrecrafts describes an ASM as setting props and completing a pre-show checklist so props and furniture are correctly placed before the show.
+- Multi-hatting is a real professional model in some small/touring companies. Fantasy Theatre Factory explicitly requires touring actors to perform while also loading/unloading, setting and striking scenery/props/costumes/sound, and running assigned backstage responsibilities.
+- In small organizations, reliable independent execution can materially increase trust and usefulness. Nikki Vigneault describes workers who can be given a task and only escalate questions as especially valuable where departments may consist of one person.
+- These sources support assigned responsibility, reliability, practical competence, and overlapping labor. They do **not** establish universal theatre customs around food-sharing, favor-debt, lateness, teasing, borrowing, or cleanup rituals. Those remain troupe-specific story possibilities unless separately researched.
+
+**Confidence / limits:**
+Strong for the existence of distributed work domains, prop presets/checks, professional multi-hatting, and the value of independent competence. The examples come from modern institutions and touring/small-company practice with very different scales. They are useful behavioral analogues, not a template for Carrow job titles or bureaucracy. Informal social status must be inferred cautiously from repeated responsibility rather than claimed as a universal hierarchy.
+
+**Story translation:**
+- Let practical authority be local and legible: the person who reliably owns a track gets asked first about that track, even if someone else is the better actor or has greater general status. Prestige and practical authority do not need to match.
+- Repeated competence can compress supervision. A worker who has repeatedly reset the same table, checked the same entrance, or handled the same repair can eventually be trusted to close that loop without being congratulated. This is useful long-serial evidence of belonging.
+- Multi-hatting should create asymmetrical competence, not `everyone does everything`. Existing troupe members can perform and still have low-glamour assigned show labor; other people should remain clearly better at their own tracks.
+- Preset/check routines can make absence visible without exposition. The interesting beat is often not the checklist itself but who notices a missing prop, who already checked it, who is unexpectedly absent, or who must absorb that person's work.
+- Practical-domain crossings create grounded friction. Someone can sincerely `help` and still make more work for the person who owns the track. Greg's existing habit of acting on his own object-logic makes this especially fertile, but the behavior should happen among other troupe members too.
+- Social debt can grow from concrete acts such as covering a preset, carrying a load, making a repair, fetching food, or cleaning up, but the sources above do not establish a universal favor economy. Treat any such memory as character/company-specific accumulation rather than generic theatre culture.
+
+**Canon status:**
+POSSIBILITY / RESEARCH SUPPORT. Current manuscript already establishes differentiated practical competence among Teren, Nessa, Jori, Rinna, Hara, Marek, Pell, Greg, and others; exact informal authority, task ownership, and favor history should be established only through prose or explicit author decision.
+
+---
+
 ## ACTIVE RESEARCH EDGE
 
-The first acting/rehearsal-note wave is now researched enough for Story Control to pressure-test against current manuscript evidence.
+The first two theatre research waves are developed enough for Story Control to pressure-test together:
+1. rehearsal notes / recovery / earned shorthand
+2. practical authority / multi-hatting / track ownership
 
-Next focused 02 edge:
+Next focused 02 research edge:
 
-**small theatre-company informal authority and social structure**, specifically:
-- how repeated ensemble work creates unofficial experts or trusted go-to people without formal titles
-- how favors, covering absences, pre-show checks, lateness, borrowed objects, food, repairs, and cleanup create social debt/memory
-- how practical authority differs from artistic authority
-- how people solve problems when the nominal authority is busy or absent
+**backstage prop and costume handoff, tracking, preset, and repair practice**, especially:
+- how props are preset, marked, checked, handed out, returned, and accounted for across a performance
+- what workers do when an expected prop is missing, damaged, moved, or returned to the wrong place
+- how costume changes, repairs, emergency fixes, and post-show maintenance are divided
+- what kinds of errors are caught before curtain versus only after an actor needs the object
+- how repeated object routes create shorthand and trust
 
-Translate findings into existing troupe relationships before inventing new positions or characters. Keep modern organizational charts from becoming Carrow bureaucracy by default.
+Current manuscript already contains useful footholds: repurposed cups, marked stage-only objects, the striped umbrella, prop-table work, costume labor, ordinary repairs, and people touching things they should not. Research should sharpen those existing behaviors rather than invent a new backstage subsystem.
