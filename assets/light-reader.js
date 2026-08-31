@@ -71,26 +71,32 @@
     tocNode.appendChild(a);
   };
 
+  const addGapNotice = (published, forward) => {
+    if (!published.length || !forward.length) return;
+    const publishedEnd = published[published.length - 1].number;
+    const forwardStart = forward[0].number;
+    if (forwardStart <= publishedEnd + 1) return;
+    const gap = document.createElement('div');
+    gap.className = 'light-reader-gap';
+    gap.textContent = `Exact prose for Chapters ${publishedEnd + 1}–${forwardStart - 1} is recovered outside the repository but is not yet synchronized into GitHub. Light Reader will not reconstruct or silently skip those chapters.`;
+    tocNode.appendChild(gap);
+  };
+
   const renderToc = (available) => {
     tocNode.innerHTML = '';
-    const published = available.filter((chapter) => chapter.source === 'published');
-    const forward = available.filter((chapter) => chapter.source === 'manuscript');
-
-    if (published.length) {
-      addTocLabel('Illustrated-edition prose · text only');
-      published.forEach(addTocChapter);
-    }
-
-    if (published.length && forward.length && forward[0].number > published[published.length - 1].number + 1) {
-      const gap = document.createElement('div');
-      gap.className = 'light-reader-gap';
-      gap.textContent = `Chapters ${published[published.length - 1].number + 1}–${forward[0].number - 1} are not yet available as exact prose in the permanent GitHub manuscript. Light Reader will not silently jump this gap.`;
-      tocNode.appendChild(gap);
-    }
+    const published = available.filter((chapter) => chapter.source === 'published').sort((a, b) => a.number - b.number);
+    const forward = available.filter((chapter) => chapter.source === 'manuscript').sort((a, b) => a.number - b.number);
 
     if (forward.length) {
-      addTocLabel('Latest exact manuscript chapters');
-      forward.forEach(addTocChapter);
+      addTocLabel('CURRENT MANUSCRIPT · NEWEST FIRST');
+      [...forward].reverse().forEach(addTocChapter);
+    }
+
+    addGapNotice(published, forward);
+
+    if (published.length) {
+      addTocLabel('ILLUSTRATED-EDITION PROSE · TEXT ONLY');
+      published.forEach(addTocChapter);
     }
   };
 
@@ -148,6 +154,17 @@
     }
   };
 
+  const renderCurrentShortcut = (forward) => {
+    if (!switchNode || !forward.length) return;
+    const latest = forward[forward.length - 1];
+    switchNode.innerHTML = '';
+    switchNode.hidden = false;
+    const a = document.createElement('a');
+    a.href = lightHref(latest.number);
+    a.textContent = `Read current manuscript: Chapter ${latest.number} — ${latest.title} →`;
+    switchNode.appendChild(a);
+  };
+
   const showChapter = async (available, chapter) => {
     tocNode.hidden = true;
     proseNode.hidden = false;
@@ -158,7 +175,7 @@
     jumpInput.value = chapter.number;
     setNav(available, chapter.number);
     renderModeSwitch(chapter);
-    setStatus(chapter.source === 'published' ? 'Text-only rendering from the exact published chapter. Illustrations are intentionally omitted.' : 'Text-only rendering directly from the permanent GitHub manuscript.');
+    setStatus(chapter.source === 'published' ? 'Text-only rendering from the exact published chapter. Illustrations are intentionally omitted.' : 'Text-only rendering directly from the current permanent GitHub manuscript.');
     if (chapter.source === 'published') await renderPublished(chapter);
     else renderManuscript(chapter);
   };
@@ -170,7 +187,7 @@
     if (switchNode) switchNode.hidden = true;
     numberNode.textContent = 'LIGHT READER';
     titleNode.textContent = 'CHAPTER NOT YET MATERIALIZED';
-    setStatus(`Chapter ${number} is not currently available as exact prose in the light reader. The table of contents below shows every chapter that can be rendered without reconstruction.`);
+    setStatus(`Chapter ${number} is not currently materialized as exact prose in GitHub. The table below shows the current manuscript chapters first, followed by the illustrated-edition text chapters.`);
     renderToc(available);
   };
 
@@ -185,16 +202,19 @@
     fetch(manuscriptPath, { cache: 'no-store' }).then((r) => { if (!r.ok) throw new Error('Could not load permanent manuscript.'); return r.text(); })
   ]).then(async ([indexHtml, manuscript]) => {
     const published = parsePublishedIndex(indexHtml);
-    const forward = parseManuscript(manuscript).filter((chapter) => !published.some((p) => p.number === chapter.number));
+    const forward = parseManuscript(manuscript).filter((chapter) => !published.some((p) => p.number === chapter.number)).sort((a, b) => a.number - b.number);
     const available = [...published, ...forward].sort((a, b) => a.number - b.number);
+    const latest = forward[forward.length - 1] || published[published.length - 1] || null;
+
     if (!requested) {
-      numberNode.textContent = 'LIGHT READER';
-      titleNode.textContent = 'TABLE OF CONTENTS';
-      if (switchNode) switchNode.hidden = true;
+      numberNode.textContent = latest ? `CURRENT THROUGH CHAPTER ${latest.number}` : 'LIGHT READER';
+      titleNode.textContent = 'LIGHT TABLE OF CONTENTS';
+      renderCurrentShortcut(forward);
       renderToc(available);
-      setStatus(`${available.length} exact-text chapters currently available. Light mode loads no chapter illustrations.`);
+      setStatus(latest ? `${available.length} exact-text chapters are materialized in GitHub. Current manuscript endpoint: Chapter ${latest.number} — ${latest.title}.` : `${available.length} exact-text chapters currently available.`);
       return;
     }
+
     const chapter = available.find((c) => c.number === requested);
     if (!chapter) return showMissing(available, requested);
     await showChapter(available, chapter);
