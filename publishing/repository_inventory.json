@@ -2562,8 +2562,8 @@
       "category": "ACTIVE_AUTHORITY",
       "path": "state/CHATGPT_LIBRARY_CLEANUP_HANDOFF.md",
       "referenced_by": [],
-      "sha256": "3ffaead6b72ddb694b36aead802b5068c87e7ab10d71b53aa1940ab7de8425ef",
-      "size_bytes": 2428
+      "sha256": "b3e6fb9317c46e86fc5e910e31e0d05e49a3882aea1624f23fb391d48a34b9ea",
+      "size_bytes": 2530
     },
     {
       "category": "ACTIVE_AUTHORITY",
@@ -2576,15 +2576,15 @@
       "category": "ACTIVE_AUTHORITY",
       "path": "state/EDITOR_STATE.md",
       "referenced_by": [],
-      "sha256": "d3a0d0ff41180bbdc8cba8cd6cc0e2b67c506ba4930214452cb09dc82809dcbe",
-      "size_bytes": 13577
+      "sha256": "4d9ee6894fa6cf615fda50a30026ac55b7394df5e2d10da9e3b80612f7403f86",
+      "size_bytes": 14902
     },
     {
       "category": "ACTIVE_AUTHORITY",
       "path": "state/EXTERNAL_HANDOFF_CLEANUP_AUDIT.md",
       "referenced_by": [],
-      "sha256": "f52c3b723644991e8e74f53480e57f119d8ae453d048f828a018ad5652565bd9",
-      "size_bytes": 3645
+      "sha256": "a008b9394932f155da946dbbbe62515008f770586a61a66379415fd813fc4e76",
+      "size_bytes": 3738
     },
     {
       "category": "ACTIVE_AUTHORITY",
@@ -2632,8 +2632,8 @@
       "category": "ACTIVE_AUTHORITY",
       "path": "state/MANUSCRIPT_CHAPTER_INDEX.md",
       "referenced_by": [],
-      "sha256": "f08c20165d6a56c3bc3d0a59d7432122fe1bfcf4bbe26a4946024ec21e2256b8",
-      "size_bytes": 4892
+      "sha256": "611319b564003e4c924beef6e3c3f682d2250b191cab5c73f8235c467a9fc1b7",
+      "size_bytes": 4941
     },
     {
       "category": "ACTIVE_AUTHORITY",
@@ -2646,22 +2646,22 @@
       "category": "ACTIVE_AUTHORITY",
       "path": "state/MANUSCRIPT_STATE.md",
       "referenced_by": [],
-      "sha256": "fdbf4b4b440087d05e3174165d77abd77929d1fbc8d0fa813d0ea75049767197",
-      "size_bytes": 27260
+      "sha256": "056b0196c285974da6592f1d3f39d1179240afd32eadaee4b5b7ed7e935210b1",
+      "size_bytes": 33924
     },
     {
       "category": "ACTIVE_AUTHORITY",
       "path": "state/MANUSCRIPT_WORKFLOW.md",
       "referenced_by": [],
-      "sha256": "acc816865da8af9ffbed25ff9389e5f3f173308b97489f399c7a19cc627ae410",
-      "size_bytes": 5877
+      "sha256": "544f112314b6bf3c1906bb179ec0d268b9f2bcb53152cae02870a0e3e85f3c24",
+      "size_bytes": 5879
     },
     {
       "category": "ACTIVE_AUTHORITY",
       "path": "state/OPEN_THREADS.md",
       "referenced_by": [],
-      "sha256": "206d7130c008085db3863555273e91ae5f033e41e791db7dc2c9cab25ef55819",
-      "size_bytes": 9937
+      "sha256": "9747a546b8bdc4f3d2fce039c154f63e7059b5eb7ef958fd1221c0c6b38b8d00",
+      "size_bytes": 12173
     },
     {
       "category": "ACTIVE_AUTHORITY",
@@ -2674,8 +2674,8 @@
       "category": "ACTIVE_AUTHORITY",
       "path": "state/PROJECT_STATE.md",
       "referenced_by": [],
-      "sha256": "a3202f526af44520b04e4e59a9af4c7cedce87ba8c2a052bb678b86a288b0e6a",
-      "size_bytes": 11959
+      "sha256": "99140d6e52a98363e210022e104f7b527b107c94b73e48ed6cbf556eecedba8a",
+      "size_bytes": 11961
     },
     {
       "category": "ACTIVE_AUTHORITY",
@@ -2758,8 +2758,8 @@
       "category": "ACTIVE_AUTHORITY",
       "path": "state/REPOSITORY_ASSET_AUDIT.md",
       "referenced_by": [],
-      "sha256": "9496ad4cae49498fb4358c602a9fb32e6a3f82bc59a40b73dad0fd13548cb06a",
-      "size_bytes": 9706
+      "sha256": "3fed93d69d52b7e23196128314bb02062e8b6aa056522cee4f6b41dabbcbe6ef",
+      "size_bytes": 10203
     },
     {
       "category": "ACTIVE_AUTHORITY",
@@ -2825,6 +2825,13 @@
       "size_bytes": 7066
     },
     {
+      "category": "ACTIVE_AUTHORITY",
+      "path": "state/editorial/Peg_Leg_Greg_Heavy_Edit_Continuation.md",
+      "referenced_by": [],
+      "sha256": "2fddbcaa7422b3d1a54943e86e3b2673ee1358e40bf0c857607a8d7c24b894c1",
+      "size_bytes": 16874
+    },
+    {
       "category": "HISTORICAL_KEEP",
       "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
       "referenced_by": [],
@@ -2877,8 +2884,8 @@
       "category": "ACTIVE_AUTHORITY",
       "path": "state/manuscript/Peg_Leg_Greg_Running_Manuscript.md",
       "referenced_by": [],
-      "sha256": "f71748bf66e64d8e3ce0fb7cee548f471db2a4be61bc7c5e787ff00bab0597b0",
-      "size_bytes": 187957
+      "sha256": "8468be95f9ff4e967516903597ffcec1642e61c8e189c6c3e8e642b8c84147ea",
+      "size_bytes": 227392
     },
     {
       "category": "HISTORICAL_KEEP",
@@ -7259,14 +7266,16 @@
         226,
         227,
         228,
-        229
+        229,
+        230,
+        231
       ],
       "duplicate_headings": [],
       "missing_within_range": [],
       "path": "state/manuscript/Peg_Leg_Greg_Running_Manuscript.md",
-      "range": "220-229",
-      "sha256": "f71748bf66e64d8e3ce0fb7cee548f471db2a4be61bc7c5e787ff00bab0597b0",
-      "size_bytes": 187957
+      "range": "220-231",
+      "sha256": "8468be95f9ff4e967516903597ffcec1642e61c8e189c6c3e8e642b8c84147ea",
+      "size_bytes": 227392
     },
     {
       "chapters": [
@@ -7612,9 +7621,9 @@
     }
   ],
   "schema_version": 1,
-  "total_bytes": 352102411,
+  "total_bytes": 352169690,
   "totals_by_category_bytes": {
-    "ACTIVE_AUTHORITY": 1318807,
+    "ACTIVE_AUTHORITY": 1386086,
     "ACTIVE_SUPPORT": 204245479,
     "GENERATED": 3459369,
     "HISTORICAL_KEEP": 134637010,
