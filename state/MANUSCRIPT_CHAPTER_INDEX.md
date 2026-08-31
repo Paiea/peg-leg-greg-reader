@@ -1,6 +1,6 @@
-# PEG-LEG GREG — CHAPTER INDEX — CH226
+# PEG-LEG GREG — CHAPTER INDEX — CH227
 
-**Current endpoint:** Chapter 226 — THE REFERENCE
+**Current endpoint:** Chapter 227 — THE BUNDLER
 
 1. **THE BOY**
 2. **THE BORROWER**
@@ -228,3 +228,4 @@
 224. **THE CHECKER**
 225. **THE STEWARD**
 226. **THE REFERENCE**
+227. **THE BUNDLER**
