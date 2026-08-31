@@ -1,121 +1,103 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Chapter 155 — **THE LEAK**.
+- Current story endpoint: Chapter 219 — **THE PURCHASER**.
 - Book 1 Chapters 1–82 closed. Book 2 active.
-- Chapters 138–152 retain the current edited authority. Chapters 153–155 are integrated from the newer forward manuscript with a light paragraph-rhythm recomposition. Detailed compact canon harvest remains intentionally pending.
+- Repository prose was previously validated through Chapter 155 — **THE LEAK**.
+- Chapters 156–219 are newer forward manuscript material and must be synchronized into the permanent running manuscript without allowing stale overlapping files to overwrite newer repository prose.
 
-## Greg / body
-- Greg is nineteen, Bronze, Carrow; permanent LEFT BKA, knee preserved; right leg intact; two crutches.
-- Ch137 morning baseline reassuring: throat normal, hands/right calf normal, residual limb quiet, ordinary phantom heel, no thumb/finger/wrist symptom, unusual left response, cold, weakness, or pain.
-- Greg reports an ordinary brief phantom-foot cramp overnight when Hessa broadens recent-condition questions; not new or concerning.
-- Post-assessment body check remains reassuring.
+## Permanent forward manuscript path
+- Canonical forward path going forward: `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`.
+- Do not create a new range-stamped running manuscript for every push.
+- Existing `...Ch138-152.md` / `...Ch138-155.md` files are historical predecessors, not the forward naming convention.
+- Conflict rule: newest GitHub-authoritative prose wins on overlap.
 
-## Magic through Ch137
-- NINETEEN successful supervised minimal mana draws.
-- FIFTEEN supervised deliberate shaping attempts.
-- THREE supervised external-effect attempts.
-- No spell, no Barrier completion, NO ESTABLISHED EXTERNAL MAGICAL EFFECT.
-- Suspended-thread apparatus remains shelved.
-- Directional control remains provisionally supported under narrow conditions only.
-- Ch137 performs NO directional instruction and NO external-effect test.
+## Production rules
+- One chapter at a time.
+- Target 2,500–4,000 words and clear 2,500 unless explicitly changed.
+- Light/heavy prose work may restructure sentences and paragraphs but must preserve canon, characterization, plot, scene intent, and outcomes unless repairing an obvious contradiction.
+- NO EM DASHES in manuscript prose.
+- Greg POV. Greg is intelligent but not a generic mastermind or action hero; competence grows through work, repetition, observation, mistakes, and practical problem solving.
+- Theatre remains work, people, acting, stagecraft, failure, recovery, and another turn. Do not make every theatre scene covert future-capability training.
+- Long-range direction remains theatre → performance → misdirection → illusion → masks → control of perception → eventual dangerous bluff. Directional, not a checklist.
+- Hessa handles mana safety, evidence, supervision, repeatability, and external-effect testing. She is not Greg's theatrical illusion teacher.
 
-## Ch137 neutral-shape characterization
-- Hessa deliberately spends one bounded safe attempt characterizing localized shape BEFORE any directional instruction.
-- Same broad neutral outer-right-forearm region and folded white towel support.
-- No charcoal target.
-- No thread.
-- Copper remains present but is not part of the question.
-- One bounded sequence:
-  - minimal draw #19;
-  - neutral localized shape #15;
-  - fixed edge-by-edge verbal checkpoints;
-  - longer neutral hold;
-  - RETURN;
-  - release.
-- Hessa defines four table-relative edges:
-  - wrist side;
-  - elbow side;
-  - upper side away from table edge;
-  - lower side toward table edge.
-- Greg reports the neutral shape as roughly two fingers across, slightly longer along the arm, uneven/oval, and NOT symmetric.
-- Initial reported edge ordering:
-  - wrist side most distinct;
-  - lower and elbow intermediate/less certain;
-  - upper side least distinct/softest.
-- Across repeated checkpoints:
-  - gross size remains stable;
-  - center remains stable;
-  - wrist side remains the most consistently distinct edge;
-  - elbow/lower ordering is less certain;
-  - upper edge later sharpens somewhat WITHOUT any directional instruction.
-- No spontaneous extension or drift is confidently reported.
-- No broadening, force sensation, motor recruitment, thumb/finger/wrist symptom, unusual left response, or external effect.
+## Current magic continuity
+- 30 successful supervised minimal draws.
+- 26 supervised deliberate shaping attempts.
+- 34 supervised external-effect attempts.
+- Far response observed once, not established.
+- No established range.
+- Existing restrictions remain in force.
 
-## RETURN geometry
-- During RETURN:
-  - upper edge softens quickly;
-  - lower follows;
-  - wrist-side distinction persists longest by Greg's moderate-confidence report;
-  - elbow side fades with center.
-- RETURN and release remain clean.
-- This does NOT establish a directional effect.
+## Greg / Lyssa
+- Canonical spelling is **Lyssa**. Same established character formerly spelled Lysa.
+- Established visual identity only: Black woman, tall relative to Greg, thin/lithe build, natural Afro-textured hair. Do not invent unsupported precise appearance details.
+- Lyssa has independent work, errands, moods, and obligations rather than functioning only as Greg's sounding board.
+- Greg remains nineteen, Bronze, in Carrow, with permanent LEFT BKA, knee preserved, right leg intact, and two crutches.
 
-## Structured self-report drawing
-- After release, Hessa has Greg use ordinary charcoal with the right hand to draw the remembered shape.
-- Drawing is POST-RELEASE and therefore memory-based.
-- Greg flattens/strengthens wrist-side outline, marks upper edge softer then later clearer, and labels:
-  - `WRIST STRONGEST`
-  - `UPPER SOFT, LATER CLEARER`
-  - `LOWER MODERATE`
-  - `ELBOW MODERATE`
-  - `CENTER STABLE`
-- Hessa labels the drawing:
-  `POST-RELEASE STRUCTURED SELF-REPORT FROM MEMORY. NOT INDEPENDENT OBSERVATION.`
-- This is first preserved visual map of Greg's internal localized shaping report.
-- It is useful documentation but NOT independent confirmation.
+## Economy / debt
+- Currency is copper / silver / gold. No conversion rate has been established. Do not invent one.
+- Antonius Vale debt is not forgiven or settled.
+- Hard original terms: 35% interest, 8 days, labor through Antonius on default. Original principal is unknown.
+- Exact current balance exists in-world but is not stated in authoritative narration.
+- Chapter 218: Greg made a one-copper cash payment; debt is therefore one copper lower than immediately before that payment.
+- Suitable Vale labor may earn debt credit when Antonius has suitable work. No fixed repayment plan.
+- No Vale/Bren connection is established.
 
-## Experimental interpretation
-- Hessa refuses to treat Ch137 as a directional test.
-- New reliable conclusion:
-  - Greg's neutral localized shape was reported as asymmetric before any direction was requested.
-  - wrist-side boundary was most consistently distinct during this one assessment.
-  - upper edge changed over time without instruction.
-  - neutral geometry may itself vary and must be characterized before directional observations can be interpreted cleanly.
-- This potentially weakens simple readings of prior wristward/elbowward reports because older assessments did not use equally detailed pre-direction edge mapping.
-- It does NOT erase prior directional evidence.
-- Live confounds/variables now include:
-  - natural/anatomical forearm asymmetry;
-  - arm position;
-  - towel/support pressure;
-  - muscle/nerve distribution;
-  - expectation;
-  - self-report drift;
-  - day-to-day variation;
-  - actual magical geometry.
-- Hessa intentionally keeps the same support/position for now rather than changing multiple variables at once.
-- She records contextual conditions only after Greg raises them, including sleep/water/ordinary overnight phantom cramp; this becomes a comic argument about how many variables are worth controlling.
+## Bren / pressure arc
+- Bren is the probable name of the close-haired, heavy-coat spokesman first encountered directly in the current pressure arc.
+- Left glove; he tends to hold that hand closer.
+- No surname, boss, organization, or larger structure established.
+- Chapter 218: Bren directly demanded **ONE COPPER** from the theatre. Rinna refused. Bren said: **“Next time won't be one.”**
+- He knows the Copper Kettle incident happened.
+- Chapter 219: a thin-faced man in a brown coat with dark hair and a quiet voice warned Olin about the theatre's money and caused cancellation of an oil delivery.
+- Olin's description matches the prior Copper Kettle observer description, but this man is NOT factually established as Bren's employee, lookout, companion, or organization member.
+- No violence, fire, kidnapping, or repeated cart-pin sabotage has occurred.
 
-## Potential next magic question
-- Hessa has NOT committed the next test.
-- Reasonable live options:
-  - repeat neutral-shape mapping under same setup;
-  - add detailed neutral pre-report before a wristward or elbowward direction test;
-  - return temporarily to simple localization/RETURN.
-- Greg suggests changing arm position/support; Hessa refuses for now because that would change too many conditions.
-- A future structured self-report drawing may be repeated for comparison.
-- Ch138 = one full no-magic living day.
-- Ch139 = next Hessa assessment.
+## Chapter 219 — THE PURCHASER
+- Vale receipt survives the night; Greg stores it with Lyssa's sewing things.
+- No Hessa experiment or magic work. Counts remain 30 / 26 / 34.
+- Lyssa leaves independently for customer work.
+- Rinna's two tins of lamp oil plus wicks are not delivered because Olin canceled after an unknown man warned that theatre money was “spoken for” and there was “trouble over it.”
+- Olin says the man told him other people had a claim on theatre money. When Olin said the theatre pays cash, the man replied: **“Cash can disappear before it reaches a counter.”**
+- Rinna buys the original order plus one extra small tin as buffer. Greg briefly fronts the extra tin and is reimbursed immediately.
+- Rinna tells Olin not to disclose theatre purchases, payment, or timing to strangers and to send word if the man returns.
+- The theatre begins its first proactive commercial defense: actual suppliers verify claims with Rinna and avoid giving strangers useful information about private jobs, payment, carts, or what they carry.
+- Performance remains ordinary paid theatre work: KING + LETTER BOX. Greg has a small Messenger role. Strongest performance beat belongs Marek/Hara and an audience member with a squeaky bench, not Greg.
+- Greg carries narrow warning notes to actual businesses the theatre uses. Venn says Olin's description “sounds like him” regarding the Copper Kettle observer.
+- Rinna records only what evidence supports: `KETTLE / OLIN DESCRIPTION MATCHES.` and `SUPPLIERS CHECK WITH US.`
+- When Greg wants “probably,” Rinna refuses because **“the paper survives us being stupid.”**
+- Greg earns the normal one copper. No additional Vale payment. Debt remains one copper lower than pre-Ch218.
+- Lyssa forces evidentiary discipline at home: Bren did not personally tell Olin not to sell; the unknown man did not name Bren; matching the Kettle observer remains a description match, not identity proof.
+- Chapter ends with the theatre still opening, performing, paying people, buying oil, and telling neighbors how to reach it. The pressure arc is costly but has not stopped ordinary work.
 
-## Talking Sword
-- No actual sword rehearsal occurs on-page in Ch137.
-- Hessa has heard enough theatre gossip through the herb seller to joke about the sword, but she does not use theatre metaphors in magic work.
-- Greg heads west toward theatre after assessment because he wants another run.
-- Talking Sword latest substantive scene remains Ch136.
-- Greg's remembered older normal remains effortful to manufacture, not automatic.
+## Immediate next edge — Chapter 220
+Primary question: **What changes when the theatre starts talking to its neighbors?**
 
-## Immediate continuity
-- Chapters 153–155 continue the travelling theatre run through earned show money, a northern booking, and a rain-damaged hall.
-- Chapter 155 ends during preparations at the leaking hall; the actual performance there has not yet occurred.
-- The company has conditional performance income, reduced wet-stage capacity, roof repair, and lodging costs in active view.
-- Neutral baseline geometry is now a major active interpretability question.
+Preferred answer: they hear about pressure before it becomes damage.
+
+Strongest information engine:
+- Olin sends word because the thin-faced brown-coat man returns.
+- Olin follows Rinna's instruction and gives him no useful theatre information.
+- The man asks whether Rinna bought the oil anyway / whether she paid cash / whether the theatre is performing.
+- A strong new question is whether Rinna keeps the money at the hall. This would indicate interest in theatre money handling without proving a larger organization.
+- Olin sends his boy to the theatre as promised. This is the first concrete payoff from the commercial warning network.
+- Optional directional fact: while on another delivery, the boy sees the man head toward Mason's Cut. Treat this only as direction of travel, not a base, residence, territory, or Bren headquarters.
+- Greg does NOT chase him. Record wording, preserve the business day, keep theatre operating.
+- Bren does not physically appear. No new direct demand. No violence.
+- Theatre still performs. Give Greg one ordinary competent moment and one correction/limitation; strongest performance moment may belong someone else.
+- No new Vale appearance or payment. Necessary household spending can coexist with debt repayment.
+- No magic experiment. Counts remain 30 / 26 / 34. Optional Hessa scheduling note at the end is acceptable.
+- Lyssa remains independently occupied and can recognize the practical improvement: they heard about the man before he cost them something this time.
+
+## Chat / handoff behavior
+After each completed chapter:
+1. update the permanent manuscript file;
+2. update this state in place;
+3. update chapter index / open threads only when useful;
+4. update the reader only as needed while preserving newer UI/artwork;
+5. return a compact production note in chat;
+6. end with a full copyable next-edge re-prompt in ONE code block.
+
+The re-prompt remains intentional even though GitHub is now the durable savestate.
