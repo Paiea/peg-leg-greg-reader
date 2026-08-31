@@ -1,6 +1,6 @@
-# PEG-LEG GREG — CHAPTER INDEX — CH231
+# PEG-LEG GREG — CHAPTER INDEX — CH233
 
-**Current endpoint:** Chapter 231 — THE MAGISTRATE
+**Current endpoint:** Chapter 233 — THE SEAT
 
 1. **THE BOY**
 2. **THE BORROWER**
@@ -234,3 +234,4 @@
 230. **THE REPLICATE**
 231. **THE MAGISTRATE**
 232. **THE COUNTERSIGN**
+233. **THE SEAT**

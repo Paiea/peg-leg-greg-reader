@@ -13632,3 +13632,959 @@ That was all right.
 The onion stayed exactly where I put it.
 
 So did I.
+
+------------------------------------------------------------------------
+
+# CHAPTER 233
+
+## THE SEAT
+
+The dark sleeve was gone in the morning.
+
+The brown cloth was not.
+
+Same fold.
+
+Same three pins.
+
+At this point it had become the most stable object in the apartment, which was offensive because my left crutch had required repair and the cloth had apparently achieved immortality through refusing to explain itself.
+
+Lyssa was already out.
+
+No note.
+
+No customer.
+
+No Hessa.
+
+No message from Vale.
+
+My cuff still had three loose threads.
+
+The world was preserving several things I had not asked it to preserve.
+
+I ate one of yesterday's onions with bread because buying three had consequences.
+
+This was not a good breakfast.
+
+It was a principled breakfast.
+
+By the time I finished, I had decided that Rinna's "Tomorrow maybe" still did not count as a call.
+
+It did, however, count as a reason to walk past the theatre before I invented a worse use for the morning.
+
+That distinction felt sound.
+
+Carrow was dry after yesterday's damp, with enough sun on the upper walls to make the lower streets look colder by comparison. A man swept dust out of his doorway and into his neighbor's. The neighbor watched from a chair.
+
+Neither spoke.
+
+Long war.
+
+I respected the discipline.
+
+The theatre side door was open when I reached it.
+
+Nobody greeted me.
+
+Davin told me I was in the road before I had both crutches inside.
+
+Better.
+
+I stepped inside and nearly walked into a painted shelf.
+
+Not a real shelf.
+
+Yesterday it had been a real stage shelf in the merchant's office.
+
+Today it was on its side in the passage with one leg removed.
+
+Davin sat beside it with a wooden peg between his teeth.
+
+He took the peg out.
+
+"You're in the road."
+
+"I just arrived."
+
+"Still."
+
+I moved.
+
+Jori came through carrying the missing leg.
+
+He looked at me, then at the shelf, then at Davin.
+
+"Other side."
+
+Davin pointed at me.
+
+"Road."
+
+Jori pointed the other direction.
+
+I moved again.
+
+No one explained what they were doing.
+
+The shelf leg went back on.
+
+Davin pushed.
+
+Jori watched the joint.
+
+The shelf did not wobble.
+
+"Good," Jori said.
+
+Davin looked at me.
+
+"You witnessed excellence."
+
+"I witnessed furniture."
+
+"History will decide."
+
+Rinna found me before history did.
+
+She had a short list in one hand and a piece of chalk in the other.
+
+"You came."
+
+"Maybe survived."
+
+She looked at the list.
+
+"Can you work?"
+
+"Probably."
+
+"Strong answer."
+
+She pointed toward the stage.
+
+"Strike the office. Keep the blue window. Desk goes rear. Shelf to store. Two benches out. Then Nessa has a table."
+
+"One table?"
+
+"Ask Nessa."
+
+"I was afraid of that."
+
+Rinna handed me the chalk.
+
+I looked at it.
+
+"What is this for?"
+
+"Jori."
+
+Jori, behind me, said, "Mine."
+
+I gave it to him.
+
+Important contribution completed.
+
+The merchant's office was already half gone.
+
+The desk had been turned sideways near the rear passage. The witness rail from the Magistrate had vanished yesterday. The blue-trimmed window remained because apparently painted architecture had better employment security than actors.
+
+Hara was rolling a painted wall section with Pell.
+
+Marek held one end of a long canvas and was contributing mostly opinions.
+
+"Lower."
+
+Pell said, "You lower."
+
+"I am lower."
+
+"You are talking."
+
+"Voice comes from here."
+
+He pointed at his chest.
+
+Hara said, "Then lower that."
+
+I took the loose end before the argument acquired furniture.
+
+Marek looked at me.
+
+"Interference."
+
+"Labor."
+
+"Less interesting."
+
+We rolled the canvas.
+
+Marek actually kept tension correctly once we started, which meant the roll stayed straight.
+
+Hara tied it.
+
+"Store two."
+
+I knew where store two was.
+
+No one gave directions.
+
+That was useful because carrying one end of a rolled canvas while using crutches required enough attention without a lecture.
+
+Marek took the other end.
+
+We moved through the rear passage.
+
+"Door," I said.
+
+He turned his end slightly before we reached it.
+
+The roll cleared.
+
+No flowers.
+
+No lilies.
+
+No education.
+
+Just a door.
+
+We put it on the correct rack.
+
+Marek checked the label before letting go.
+
+I noticed.
+
+I did not tell him.
+
+That seemed kinder.
+
+Back onstage, Nessa had found her table.
+
+Actually three tables.
+
+One was narrow and scarred.
+
+One was square with a repaired corner.
+
+One was a low thing that looked designed to hurt shins.
+
+She stood in front of them.
+
+"Not that one."
+
+I had not spoken.
+
+"Which one?"
+
+She pointed at the low table.
+
+"Why?"
+
+"Because Marek already hit it."
+
+From behind the curtain, Marek said, "Once."
+
+Nessa raised her voice.
+
+"Twice."
+
+"One event."
+
+I looked at the table.
+
+"Strong evidence."
+
+"Take the square one."
+
+Pell laughed.
+
+Marek did not.
+
+The square table needed two people because it was awkward rather than heavy.
+
+I took the near side.
+
+Pell took the far.
+
+My crutches became the problem.
+
+I could carry the table or use both crutches properly, not both at once.
+
+Pell looked at the distance.
+
+"Slide?"
+
+The floor was clear.
+
+"Slide."
+
+We lifted enough to get the repaired corner over a seam, then pushed the table on its feet toward stage left.
+
+Jori watched once, decided the floor would survive, and returned to the shelf.
+
+No speech.
+
+No special method.
+
+Just not doing the stupid version.
+
+The table reached its mark.
+
+Nessa moved it four inches.
+
+Of course she did.
+
+"What is it for?"
+
+"Tonight."
+
+"Play?"
+
+"Cards."
+
+I looked at her.
+
+She was already walking away.
+
+Apparently theatre furniture had private lives too.
+
+My first mistake arrived disguised as familiarity.
+
+Two black benches sat near the wing.
+
+One had been in the funeral room. The other had appeared sometime after I stopped paying attention to bench genealogy.
+
+Rinna pointed.
+
+"That one rear."
+
+I took the nearer bench.
+
+It was lighter than I expected, which should have been information.
+
+I got it halfway to the rear passage before Nessa came around the curtain.
+
+"Why?"
+
+I stopped.
+
+"Rinna."
+
+Nessa looked past me.
+
+Rinna was pointing at the other bench now.
+
+Of course.
+
+I looked down at mine.
+
+"What is this one?"
+
+"Cards."
+
+"Tonight."
+
+"Yes."
+
+"So I have stolen the future."
+
+"You moved a bench."
+
+"Less dramatic."
+
+"Put it back."
+
+I did.
+
+The correct bench had a shallow split under one end and a chalk X on the back rail that I had not seen because I had chosen by position instead of identification.
+
+Jori helped me rotate it through the passage.
+
+"X," he said.
+
+"I know now."
+
+"Good."
+
+That was the entire correction.
+
+I put the wrong bench back exactly where it had been and the correct one in the rear.
+
+Nothing collapsed.
+
+Nobody applauded.
+
+This was probably how most competence improved.
+
+The morning became that kind of work.
+
+Not dramatic.
+
+Not difficult enough to become a story inside the story.
+
+Benches out.
+
+Desk rear.
+
+A box of rolled maps moved from under the stair because somebody needed the stair.
+
+Two cracked practice swords returned to a rack.
+
+A painted jug went to Nessa's table, then off Nessa's table after she discovered it leaked.
+
+Davin repaired one bench foot while Jori worked on the shelf.
+
+Pell carried three folded costumes upstairs.
+
+Hara disappeared for twenty minutes and returned with nails.
+
+Nobody asked where she got them.
+
+Rinna crossed the room often enough that I stopped assuming each crossing involved me.
+
+Once she pointed at a bench.
+
+I moved it.
+
+Once she pointed at Marek.
+
+I did not.
+
+That seemed outside my authority.
+
+By midday the stage no longer looked like a merchant's office.
+
+It did not look like anything.
+
+Which was apparently the first step toward looking like something else.
+
+I sat on the edge of the house aisle and drank water.
+
+My shoulders felt used.
+
+Right hand normal.
+
+Right leg a little tired from repeated short stands and starts.
+
+Residual limb comfortable.
+
+Nothing interesting.
+
+Good.
+
+Hara sat two seats away and began eating bread without asking whether I wanted conversation.
+
+Also good.
+
+Pell came down the aisle carrying a cup.
+
+"Done?"
+
+Hara said, "No."
+
+He looked at me.
+
+"Done?"
+
+"I do not know."
+
+Nessa, from the stage, said, "No."
+
+Pell sat.
+
+"Democracy."
+
+We ate anyway.
+
+Marek arrived with no food.
+
+This was suspicious.
+
+Hara looked at him.
+
+"No."
+
+"I haven't asked."
+
+"No."
+
+"I was going to sit."
+
+"Then sit."
+
+He sat one row behind us.
+
+Thirty seconds later Pell lost half his bread.
+
+"How?"
+
+Marek was chewing.
+
+Pell stared at him.
+
+"You were behind me."
+
+"Angles."
+
+I looked toward the stage.
+
+Jori and Davin were still working.
+
+Davin had the shelf upright now.
+
+Jori pushed the top once.
+
+It held.
+
+Davin opened both hands.
+
+"Furniture."
+
+Jori said, "Shelf."
+
+"Recognition is difficult for you."
+
+Nessa passed them carrying the leaking jug.
+
+Davin pointed.
+
+"Not furniture."
+
+"Excellent," she said.
+
+He looked pleased anyway.
+
+Rinna finally called a stop in the middle of the afternoon.
+
+Not a formal stop.
+
+She looked at the stage, looked at the list, crossed off one thing, and said, "Enough."
+
+Everyone seemed to understand this better than I did.
+
+I stood.
+
+"What now?"
+
+Hara looked at me.
+
+"Food."
+
+"I just ate."
+
+"That was hours ago."
+
+It had not been hours.
+
+It had been enough hours for Hara.
+
+Pell was already collecting his coat.
+
+Marek had vanished.
+
+"Nessa?" I asked.
+
+Hara said, "If she comes."
+
+That was apparently the plan.
+
+There was no plan.
+
+I considered going home.
+
+Not because I needed to.
+
+Because going home after work was what the day usually did.
+
+Rinna came down the aisle with the list folded into her pocket.
+
+"You coming?"
+
+"Where?"
+
+"Food."
+
+Everyone had apparently joined the same conspiracy independently.
+
+"Is this a company requirement?"
+
+"No."
+
+"Paid?"
+
+"No."
+
+"Then your recruitment method is poor."
+
+Rinna walked past me.
+
+"Come or don't."
+
+Strong institution.
+
+I went.
+
+The cookshop was two streets over and half below street level, with six long benches, three narrow tables, and a kitchen window that produced bowls faster than I understood.
+
+I had passed it before.
+
+I had never gone in.
+
+Hara entered first.
+
+Pell behind her.
+
+Rinna behind Pell.
+
+I came through the door and found Marek already seated.
+
+Of course.
+
+"How?"
+
+He lifted a bowl.
+
+"Commitment."
+
+The room smelled like onions, broth, pepper, and something fried in fat.
+
+I approved immediately.
+
+There was one open place on the end bench.
+
+Not one open seat.
+
+One place.
+
+A bowl space.
+
+A person space.
+
+Hara had her coat folded on the bench beside her.
+
+When I reached the table, she moved it to the floor without looking at me.
+
+That was the entire invitation.
+
+I sat.
+
+My crutches fit against the wall behind the bench if I angled them together.
+
+Pell shifted his feet before I asked.
+
+Marek stole nothing during the first minute.
+
+Excellent establishment.
+
+We bought our own bowls.
+
+I did not ask the price aloud.
+
+I paid it.
+
+The debt remained real.
+
+So did soup.
+
+Both could survive.
+
+Rinna chose something with beans.
+
+Hara had stew.
+
+Pell had the same thing as me.
+
+Marek had apparently chosen whatever produced the largest bowl.
+
+Conversation began without a subject.
+
+That was new for me.
+
+At theatre, people talked because a thing needed doing.
+
+At home, Lyssa and I had the entire infrastructure of living together.
+
+At the cookshop, nobody needed anything from me except the space my elbow occupied.
+
+Hara complained that the bread was smaller than last time.
+
+Pell said the bowl was larger.
+
+Hara said that was how they distracted fools.
+
+Marek measured his bread against his thumb.
+
+Rinna ignored all of them.
+
+I ate.
+
+A man at the next table laughed too loudly at something that was not ours.
+
+Nobody looked.
+
+Nessa arrived after we had started.
+
+She had paint on one wrist.
+
+Hara kicked the bench opposite.
+
+"Here."
+
+Nessa sat.
+
+No greeting.
+
+She took one piece of Marek's bread.
+
+He stared at her.
+
+"You said not to touch things."
+
+"This is bread."
+
+"It was mine."
+
+"Was."
+
+Pell almost lost soup through his nose.
+
+Marek looked at me.
+
+"Magistrate."
+
+"No jurisdiction."
+
+"Corruption."
+
+"Established."
+
+The joke survived exactly as long as it needed to.
+
+Then Hara asked Nessa whether the painted jug was dead.
+
+"Cracked under the handle."
+
+"Repair?"
+
+"No."
+
+Marek said, "Stage only."
+
+Nessa looked at him.
+
+He stopped smiling.
+
+"Too soon?"
+
+"Wrong object."
+
+"Important distinction."
+
+She ate the bread.
+
+The conversation moved again.
+
+For several minutes the conversation belonged entirely to shoes.
+
+Hara's left sole had started separating near the toe. She lifted the foot under the table and showed Nessa.
+
+Nessa said, "Not tonight."
+
+"I know."
+
+Pell named a cobbler near the west steps.
+
+Hara said, "Too slow."
+
+Rinna named another near the dye lane.
+
+Pell said, "Too expensive."
+
+Marek said, "I can fix shoes."
+
+Every face at the table turned toward him.
+
+He looked offended.
+
+"I can."
+
+Nessa said, "With what?"
+
+"Leather."
+
+"Whose?"
+
+That slowed him.
+
+Hara lowered her foot.
+
+"I'll go to the west steps."
+
+Pell said, "You just said slow."
+
+"I also enjoy owning shoes."
+
+Decision made.
+
+Nobody asked me.
+
+I knew neither cobbler well enough to have an opinion, which was pleasant. A whole problem existed at the table without becoming mine.
+
+A server came by and collected two empty bowls. She left ours because Marek was still using bread to chase the last of his broth around the bottom.
+
+Rinna watched him for three seconds.
+
+"You're going to wear through it."
+
+"The bowl?"
+
+"The bread."
+
+"Then I have eaten completely."
+
+Hara said, "That is not what completely means."
+
+Marek held up the wet bread.
+
+"Evidence."
+
+I kept eating.
+
+Someone mentioned a performer from another company who had apparently forgotten an entire entrance last week.
+
+Nobody agreed on why.
+
+Hara said drink.
+
+Pell said panic.
+
+Marek said artistic rebellion.
+
+Rinna said, "He was outside."
+
+That ended the theory.
+
+I asked, "Why?"
+
+Rinna ate one bean.
+
+"Wrong door."
+
+There were many ways to fail professionally.
+
+Comforting.
+
+I made one joke about hanging signs on the doors.
+
+Nobody heard it because a tray hit the kitchen floor.
+
+This was good for my character.
+
+By the time bowls were empty, the light outside had changed.
+
+Not dark yet.
+
+Late enough that the street had begun collecting people headed home, elsewhere, or nowhere they intended to admit.
+
+Hara left first.
+
+Pell went with her for half a block, then turned north.
+
+Nessa walked back toward the theatre because apparently paint had not finished with her.
+
+Rinna disappeared into another street after saying, "Tomorrow no."
+
+Clear.
+
+Beautiful.
+
+Marek stood beside me outside the cookshop.
+
+"What now?"
+
+"Home."
+
+He nodded.
+
+"Same."
+
+We walked together for one street.
+
+Then he turned without explanation.
+
+I kept going.
+
+At home, Lyssa was already eating.
+
+Not waiting.
+
+Good.
+
+The dark sleeve was still gone.
+
+The brown cloth remained.
+
+Three pins.
+
+Same fold.
+
+She looked at me.
+
+"You ate."
+
+"Yes."
+
+"Where?"
+
+"With theatre."
+
+She nodded and tore bread.
+
+"Good?"
+
+"Soup."
+
+"That bad?"
+
+"Very good soup."
+
+She pushed the onion bowl toward me.
+
+There were two left.
+
+I had not escaped consequences.
+
+I took one.
+
+"Vale?"
+
+"Not today."
+
+"Magic?"
+
+"No."
+
+"Theatre?"
+
+"Furniture."
+
+She looked at my face.
+
+"And soup."
+
+"Mostly soup."
+
+That satisfied her.
+
+I ate the onion with bread because life was cruel but organized.
+
+My cuff still had three loose threads.
+
+I did not touch them.
+
+The brown cloth did not move.
+
+I took another bite of onion.
+
+It remained a poor reward for good behavior.

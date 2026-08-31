@@ -119,6 +119,6 @@ GitHub provides durable continuity. The re-prompt gives the next writing session
 
 ## Current edge
 
-Chapter 232 — **THE COUNTERSIGN**.
+Chapter 233 — **THE SEAT**.
 
-See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 233 edge.
+See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 234 edge.
