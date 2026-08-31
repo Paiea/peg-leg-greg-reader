@@ -2,27 +2,24 @@
 
 Durable integration memory for 03. Manuscript canon outranks this file.
 
-Read `STORY_NORTH_STAR.md`, `DEVELOPMENT_CYCLE.md`, current manuscript authority, and `LONG_SERIAL_RESIDUE_MAP.md` before substantial Story Control work.
+Read `STORY_NORTH_STAR.md`, `DEVELOPMENT_CYCLE.md`, current manuscript authority, `LONG_SERIAL_RESIDUE_MAP.md`, `WRITERS_ROOM_STATE.md`, `RESEARCH_LEDGER.md`, `PLOT_CONTROL.md`, `OPEN_THREADS.md`, and relevant bibles before substantial Story Control work.
 
 ## ACTIVE MODE
 
-03 operates against the current manuscript era.
+03 operates against current manuscript authority.
 
 Core loop:
 
 **INTEGRATE → PRESSURE-TEST → CLASSIFY → UPDATE DURABLE BRAINS → IDENTIFY NEW EDGE → RE-PROMPT → continue**
 
-02 explores / researches. 03 decides what is useful, what remains uncertain, and what should graduate.
-
-## CURRENT AUTHORITY SNAPSHOT
-
-Current manuscript authority remains through Chapter 226 — **THE REFERENCE**.
+Current manuscript authority remains through Chapter 226 — **THE REFERENCE** unless newer GitHub authority says otherwise.
 
 Current integrated development waves:
 1. theatre rehearsal notes / recovery / shorthand
 2. small-company practical authority / multi-hatting
 3. theatre prop routes / costume tracks / running repairs
 4. Lyssa alteration / rework workflow / customer-network research
+5. long-serial residue pressure test
 
 Research supports plausibility. It does not outrank manuscript evidence.
 
@@ -30,191 +27,251 @@ Research supports plausibility. It does not outrank manuscript evidence.
 
 The strongest emergent center remains **belonging through accumulation**.
 
-Protect:
-- social memory
-- changing relationships
-- offscreen lives
-- work shorthand
-- material conditions
-- earned competence
-- networked reputation
-- jokes / mistakes / customers / objects that leave residue
-- routes and places becoming socially familiar
-
 Prefer more life per word over more machinery.
 
-Use the residue-map sequence:
+Use the residue sequence:
 
 **EVENT → MEMORY → CHANGED BEHAVIOR / OBJECT / RELATIONSHIP → OCCASIONAL RETURN**
 
 Prefer changed callbacks over callback parade.
+
+## CURRENT 03 FILTER — FOUR SURVIVORS
+
+The recent development work proposed several overlapping principles. After pressure-testing against Chapters 222–226 and current durable state, only four deserve to survive as recurring pressures.
+
+They are **not** a 50–100 chapter checklist.
+
+### 1. INDEPENDENT CAUSALITY
+
+**Classification: ESTABLISHED CORE / PRESSURE**
+
+The world already moves when Greg is absent.
+
+Recent manuscript evidence includes:
+- Chapter 222 opens with Lyssa already gone to her own work before Greg finishes tying his boot;
+- theatre work is routinely already underway when Greg arrives;
+- the Vale office is already working when Greg enters in Chapter 224;
+- Rinna leaves, speaks to suppliers/service contacts, and returns with results rather than taking Greg through every contact;
+- Hessa sets her own schedule, stopping rules, and next-question timing rather than matching Greg's curiosity on demand.
+
+**Pressure:** let jobs, customers, errands, repairs, arguments, decisions, and obligations sometimes begin or finish outside Greg's view.
+
+**Cheap-in-prose:** one altered object, one already-made decision, one absence, one piece of context Greg missed, or one problem already solved.
+
+**Bad version:** every scene starts mid-argument; every side character gets a subplot; offscreen events are manufactured merely to prove the world is alive.
+
+**Strong lanes:** Lyssa's work/customer world; Hessa's professional life; Jori/Davin work momentum; Rinna's business network.
+
+### 2. CONSEQUENCES TRAVEL SIDEWAYS
+
+**Classification: ESTABLISHED CORE / PRESSURE**
+
+A practical problem can be fixed while labor, irritation, favor, embarrassment, cost, or memory lands on somebody else or later.
+
+Recent evidence includes:
+- Chapter 222's absent property runner is covered by another worker;
+- Hara moves a key because she already knows Marek's sleeve can disturb it;
+- misplaced / wet / casually handled objects create search, drying, inspection, reset, or preventative work;
+- Marek's relationship to protected props is already remembered by other people;
+- Chapter 225's stage cups require scene-specific reset / inspection after casual handling;
+- Lyssa's brown-cuff customer changes the work twice and Lyssa separately charges for the changes.
+
+**Pressure:** responsibility and cost may land on a different person or later moment than the original action.
+
+**Cheap-in-prose:** somebody already repaired it; somebody inherits a reset; a pickup moves; a person remembers who usually causes this problem; a favor is returned without retelling its origin.
+
+**Bad version:** every mistake becomes delayed-payoff machinery, moral lesson, or blame scene.
+
+**Strong relationship lanes:** Nessa/Marek; Jori/Davin; Hara/Pell/Marek; Nessa/Jori.
+
+### 3. BELONGING COMPRESSES WORK
+
+**Classification: ESTABLISHED CORE / PRESSURE; earned shorthand remains POSSIBILITY**
+
+Repeated competence should often remove explanation rather than produce praise.
+
+Current manuscript already supports domain-shaped practical authority:
+- Teren: acting / scene adjustment;
+- Nessa: props / reset / storage / handoff continuity;
+- Jori: build / repair / usable geometry;
+- Rinna: business / payment / records / commercial procedure.
+
+Greg also increasingly knows routes, handoffs, cues, crutch geometry, and work lanes without milestone speeches.
+
+**Pressure:** people increasingly ask the right person, trust a familiar loop, give only the missing piece of information, or quietly adapt around established competence.
+
+**Cheap-in-prose:** no explanation; one word instead of four lines; somebody assumes the reset is understood; one worker defers to another person's specific competence.
+
+**Bad version:** skill levels, formal org charts, cryptic shorthand everywhere, every chapter granting Greg more authority, or reduced supervision proving he is now best at the work.
+
+Pair-specific shorthand may emerge later, but do not develop shorthand as a project for its own sake.
+
+### 4. REPEAT SOCIAL NODES RETURN CHANGED
+
+**Classification: PRESSURE; specific relationships remain POSSIBILITY until established**
+
+Carrow should become denser through social reuse before unnecessary proliferation.
+
+Current high-value nodes include:
+- Maren / garment-supply route;
+- Olin / oil shop / delivery boy;
+- Vale office / experienced workers;
+- theatre suppliers and repair contacts;
+- Lyssa's customer relationships;
+- repeat theatre audience / commercial contacts where prose earns them.
+
+Existing examples already mutate rather than merely repeat:
+- Olin's boy knows Greg as `oil man`, a partial identity Greg did not choose;
+- Maren is a shop Lyssa already knows better than Greg;
+- the Vale office has routines and experienced people Greg enters rather than owns;
+- supplier relationships now change how strangers asking about theatre business are handled.
+
+**Pressure:** when a person/place/object/joke returns, prefer one changed layer: recognition, changed terms, remembered preference, referral, irritation, repaired condition, changed owner, or altered reputation.
+
+**Cheap-in-prose:** `She sent me.` / `Same thread?` / remembered shortage / relabeled object / somebody knowing Lyssa but barely knowing Greg.
+
+**Bad version:** cameo parade, every old object returning, everybody knowing Greg, refusing genuinely needed new people/places, or explaining the entire previous encounter.
+
+## WHAT WAS KILLED / PARKED
+
+### KILL — `Greg increasingly enters situations already in progress` as a separate mechanic
+It survives only as one expression of independent causality. Do not force a repeated entrance pattern.
+
+### KILL — `other people solve problems before Greg arrives` as a separate mechanic
+Also part of independent causality. Some problems should still remain for Greg.
+
+### PARK — earned shorthand as a standalone development project
+Useful only after repeated shared work.
+
+### PARK — detailed costume quick-change systems
+Research-supported but currently unnecessary. Use only when an actual scene creates the need.
+
+### KILL — relationship spreadsheets / mandatory non-Greg subplots
+The relationship lanes below are observation channels, not obligations.
+
+### KILL — callback quantity as proof of accumulation
+A return that has not changed is often weaker than no return.
+
+## NON-GREG RELATIONSHIP PRIORITIES
+
+Do not develop all of these at once.
+
+### Strongest already-existing lane: Jori / Davin
+Repair / hauling / credit / blame texture already has momentum independent of Greg. Let some decisions and jokes be complete before Greg notices them.
+
+### Strongest material-memory lane: Nessa / Marek
+Marek's object behavior already changes what Nessa/Hara/others do. Preserve variation: funny sometimes, real extra work sometimes, competent Marek at other times.
+
+### Strongest performance-side lane: Hara / Pell / Marek
+The manuscript supports experienced performers recovering around one another. Let shared history appear through performance behavior rather than mentorship exposition.
+
+### Useful domain-intersection lane: Nessa / Jori
+Object continuity and physical geometry can create authentic deference/disagreement without formal hierarchy.
+
+### Keep as possibilities, not priorities yet
+- Nessa / Pell
+- Nessa / Hara
+- Rinna / Teren
+
+Current prose does not require manufacturing deeper history for these merely because the pairing is plausible.
 
 ## THEATRE — GRADUATED CONTROL
 
 Generic theatre research is parked unless newer prose creates a specific gap.
 
 ### ESTABLISHED
-
-- Theatre is paid work, social life, rehearsal, performance, props/costumes, correction, mistakes, audience response, and company labor.
-- Teren gives narrow playable acting correction rather than life philosophy.
-- Nessa has demonstrated practical authority over prop/reset/storage/handoff continuity.
-- Hara and other experienced performers can recover live work without erasing the mistake.
-- Recovery and competence are distributed across the ensemble.
-- Practical authority is domain-shaped rather than one universal hierarchy: Teren acting/scene adjustment; Nessa props/reset/backstage continuity; Jori build/repair/usable geometry; Rinna business/payment/records/commercial procedure.
-- Performance and low-glamour company labor overlap without making everyone equally competent.
-- Chapters 222–225 establish lived object homes/routes: scene-order property table, return baskets, chalk-marked parcel home, displaced umbrella, scene-specific cups, `STAGE ONLY` storage, ordinary inspection/drying/repair, and people covering practical work when another worker is absent.
+- theatre is paid work, social life, rehearsal, performance, props/costumes, correction, mistakes, audience response, and company labor;
+- Teren gives narrow playable acting correction rather than life philosophy;
+- Nessa has demonstrated prop/reset/storage/handoff authority;
+- Hara and other experienced performers can recover live work without erasing the mistake;
+- practical authority is domain-shaped rather than one universal hierarchy;
+- performance and low-glamour labor overlap without making everyone equally competent;
+- Chapters 222–225 establish lived object homes/routes, return baskets, a chalk-marked parcel home, displaced umbrella, scene-specific cups, `STAGE ONLY` storage, ordinary inspection/drying/repair, and people covering practical work when another worker is absent.
 
 ### PRESSURE
-
-- Let objects occasionally carry social memory: who moved it, who needs it next, who already repaired it, who pays the cost when a loop breaks.
-- Delayed downstream consequences are often stronger than instant lessons.
-- Some repairs / maintenance should already have happened when Greg arrives.
-- Belonging can appear as reduced supervision: fewer instructions, assumed routes, quiet physical accommodation, compressed handoffs.
-- Greg's theatre mistakes can evolve with competence toward anticipation / over-helping / optimizing the wrong system, but this is not a mandatory gimmick.
+- let objects occasionally carry social memory;
+- delayed downstream consequences can be stronger than instant lessons;
+- some repairs / maintenance can already have happened when Greg arrives;
+- belonging can appear as reduced supervision;
+- Greg's theatre errors may evolve with competence toward anticipation / over-helping / optimizing the wrong system, but this is not a mandatory gimmick.
 
 ### POSSIBILITY
-
-- earned pair-specific shorthand
-- distinct note-reception styles
-- specific favor / resentment history from covering practical work
-- detailed costume quick-change choreography only when a real scene needs it
+- earned pair-specific shorthand;
+- distinct note-reception styles;
+- specific favor / resentment history from covering practical work;
+- detailed costume quick-change choreography only when a real scene needs it.
 
 ### AVOID
+- formal modern org charts / paperwork / wardrobe plots imported into Carrow;
+- universal marked-prop systems because one chalk square worked;
+- everyone becoming equally competent because small companies multi-hat;
+- Hara becoming Greg's mentor because she is excellent;
+- Nessa becoming omniscient backstage authority;
+- Marek becoming permanent idiot / liability;
+- every object becoming setup;
+- every repair happening on-page for Greg to observe;
+- generic theatre favor / lateness / cleanup culture imported as authenticity;
+- Lyssa recruited into theatre wardrobe by convenience;
+- theatre exposed as future-bluff curriculum.
 
-- formal modern org charts / paperwork / wardrobe plots imported into Carrow
-- universal marked-prop systems because one chalk square worked
-- everyone becoming equally competent because small companies multi-hat
-- Hara becoming Greg's mentor because she is excellent
-- Nessa becoming omniscient backstage authority
-- Marek becoming permanent idiot / liability
-- every object becoming setup
-- every repair happening on-page for Greg to observe
-- generic theatre favor / lateness / cleanup culture imported as authenticity
-- Lyssa recruited into theatre wardrobe by convenience
-- theatre exposed as future-bluff curriculum
-
-## LYSSA WORK WORLD — FIRST 03 INTEGRATION
+## LYSSA WORK WORLD — 03 INTEGRATION
 
 The first sourced alteration/rework wave is useful, but current prose already contains a stronger foundation than a generic sewing-business import.
 
-### ESTABLISHED — Lyssa already has an independent customer workload
+### ESTABLISHED — independent customer workload
+Recent exact evidence supports:
+- Chapter 224 explicitly says Lyssa maintains **three customers** and changing cloth/work while Greg handles his own Vale work;
+- her table repeatedly contains unrelated garments in different states;
+- Chapter 225 establishes a customer expected at the apartment before midday and Lyssa prepares the space independently of Greg;
+- jobs are delivered off-page and paid;
+- by Chapter 226 the brown-cuff job is delivered and paid, the green garment continues, and two sleeves from different garments later occupy the table.
 
-Current manuscript does not merely imply that Lyssa sometimes sews.
+Lyssa's customer work is ESTABLISHED as independent economic / scheduling life, not decorative domestic scenery.
 
-Exact recent evidence:
-- Chapter 224 explicitly says she maintains **three customers** and a changing collection of cloth while Greg handles his own Vale work.
-- Her table is repeatedly occupied by unrelated garments / cloth in different states.
-- Chapter 225 establishes a customer expected at the apartment before midday; Lyssa clears a chair and prepares the space independently of Greg.
-- Jobs are delivered off-page and paid; Greg does not need to witness the transaction for the work to count.
-- By Chapter 226, the brown-cuff job has been delivered and paid, the green garment continues, and two sleeves from different garments later occupy the table.
+### ESTABLISHED — paid customer-requested rework
+The brown-cuff customer changes the cuff twice. Chapter 226 establishes Lyssa charged for both changes, delivered the job, got paid, heard that the first cuff had been prettier, and moved on.
 
-**Classification:** Lyssa's customer work is ESTABLISHED as an independent economic / scheduling life, not decorative domestic scenery.
+Paid customer-requested rework is established at this behavioral level.
 
-### ESTABLISHED — customer-requested rework can be separately paid labor
+**Boundary:** no universal pricing rule, rate card, or Carrow alteration tariff is established.
 
-Chapter 225 establishes the brown-cuff customer changing the cuff after Lyssa has finished it. The customer changes it again. Chapter 226 establishes that Lyssa charged for both changes, delivered the job, was paid, heard that the first cuff had been prettier, and moved on.
+### ESTABLISHED — Maren is a garment-supply route
+Chapter 222 establishes `BUY THREAD IF YOU PASS MAREN'S`, a spool-sign shop, matching a cloth scrap to thread, Lyssa approving the match, and `Maren usually does.`
 
-The external research strongly supports the plausibility of charging for additional requested work, but the story does not need the research to make this canon. The prose already did it.
+Maren as a familiar useful garment/thread supply route is established.
 
-**Classification:** paid customer-requested rework is ESTABLISHED at this specific behavioral level.
-
-**Boundary:** there is no universal Lyssa pricing rule, rate card, or Carrow alteration tariff established.
-
-### ESTABLISHED — Maren is an existing garment-supply route
-
-Chapter 222 provides exact physical evidence:
-- Lyssa leaves `BUY THREAD IF YOU PASS MAREN'S` with a blue cloth sample / pins available to Greg.
-- Greg discovers Maren is a **shop**, identified by a spool sign.
-- He presents the cloth scrap; the seller understands the need as matching and finds a spool close enough to work.
-- Lyssa approves the thread and says `Maren usually does.`
-
-**Classification:** Maren as a garment/thread supply shop and a familiar useful supply route for Lyssa is ESTABLISHED.
-
-**Do not overclaim:**
-- `Maren` is established as the shop name/reference in this scene, not necessarily the personal name of the seller;
-- exact ownership, staff, inventory, prices, credit, favors, or personal recognition of Lyssa are not established;
-- Maren is not an infinite-supply solution.
+**Do not overclaim:** `Maren` is established as the shop reference, not necessarily the seller's personal name. Ownership, staff, inventory, prices, credit, favors, or personal recognition of Lyssa remain unestablished.
 
 ### ESTABLISHED CORE / POSSIBILITY — visible work states
+Pins, seams, lining, thread, buttons, chalk marks, folded/pinned cloth, and multiple garments are already ordinary visual texture.
 
-Current prose already uses physical garment states as ordinary texture:
-- pins through cloth
-- seams being checked
-- lining / thread / buttons on the table
-- a garment opened across the table
-- chalk marks
-- folded / pinned cloth
-- several unrelated garments or sleeves occupying the workspace
+Research adds a possible future meaning: some such states can mean `waiting for fit/customer confirmation before irreversible work`.
 
-**Classification:** visible physical work-in-progress states are ESTABLISHED.
-
-02's research adds a useful possible meaning: some pinned / chalked / basted / opened states can represent `waiting for fit or customer confirmation before irreversible work`.
-
-That **meaning is not retroactively established** by the current scenes.
-
-Use it only when future prose actually needs a customer decision / fitting stop.
+That meaning is **not** retroactively established. Use only when future prose needs it.
 
 ### PRESSURE — work should have consequences beyond visual background
-
 Lyssa's work already changes domestic space, errands, customer timing, deliveries, and what she is doing when Greg comes home.
 
-Future use can let work alter:
-- when she is home / away;
-- whether the table is available;
-- what errand matters;
-- which job is advanced or left waiting;
-- whether she accepts, narrows, delays, or refuses another request;
-- what material needs to be bought or matched.
-
-Keep consequences ordinary and specific. Do not make every garment a subplot.
+Future use may alter when she is home/away, which errand matters, what is left waiting, or whether she accepts/narrows/delays/refuses another request.
 
 ### PRESSURE / NOT RETROACTIVE CANON — paid rework can affect the queue
+Research supports the labor consequence, but current prose does **not** state that the brown cuff delayed the green garment.
 
-Research supports the obvious labor consequence: requested rework consumes time that could have gone elsewhere.
-
-This is a strong craft pressure for future scenes **when the prose establishes the causal link**.
-
-Do not retroactively claim the brown cuff delayed the green garment. Current text shows both jobs; it does not state that causal relationship.
-
-Useful future shape:
+Future causal shape may be:
 
 **CUSTOMER CHOICE → EXTRA WORK / MATERIAL → CHANGED SCHEDULE OR QUEUE → SOCIAL MEMORY**
 
-Use selectively, not as business-simulation bookkeeping.
+Use only when prose establishes the link.
 
-### POSSIBILITY — repeat / referral customers deepen Lyssa's own Carrow network
+### POSSIBILITY — repeat / referral customers deepen Lyssa's own network
+Research supports repeat / word-of-mouth business. Current prose establishes multiple customers but not a referral chain, named repeat-customer history, formal customer ledger, customers knowing one another, or a specific reputation network.
 
-Research supports repeat and word-of-mouth business. The North Star strongly favors people who know Lyssa before they know Greg.
+This remains a high-value possibility because people can know Lyssa before they know Greg.
 
-Current prose establishes multiple customers, but it does **not yet establish**:
-- a referral chain;
-- named repeat customers returning because of prior fitting history;
-- a formal customer ledger;
-- customers knowing one another;
-- a specific reputation network around Lyssa's work.
+### POSSIBILITY — alteration constraints make competence visible through limits
+Construction, seam allowance, lining, cloth behavior, and previous alteration can create real limits. Future Lyssa may recognize a request as risky, impossible, slower, or worth refusing.
 
-**Classification:** repeat / referral network is a high-value POSSIBILITY, not established canon.
-
-If used, favor a few recurring people / relationships over a customer roster.
-
-Good low-cost forms may include:
-- someone returning with another garment;
-- a new customer mentioning who sent them;
-- Lyssa remembering a prior preference without exposition;
-- somebody knowing Lyssa's work while knowing Greg only incidentally;
-- a customer relative handling pickup / drop-off.
-
-Do not stage these as a tidy progression ladder.
-
-### POSSIBILITY — alteration constraints can make competence visible through refusal / limits
-
-Research supports construction, seam allowance, lining, cloth behavior, and prior alteration as real limits.
-
-Future Lyssa may recognize that a request is risky, impossible, more expensive, or worth postponing.
-
-This remains POSSIBILITY until the manuscript establishes a specific constraint.
-
-Do not manufacture mistakes merely to prove she is human. Competence can include saying no.
+Do not manufacture mistakes merely to prove she is human.
 
 ## LYSSA ANTI-FLATTENING
 
@@ -224,89 +281,53 @@ Protect:
 - customers can be annoying without becoming villains;
 - Lyssa can charge, refuse, delay, narrow, substitute, or move on without a moral lesson;
 - repeat customers should remember Lyssa, not appear mainly to discuss Greg;
-- Maren and other supply nodes should accumulate through social use, not lore exposition;
-- theatre overlap still requires earned causality.
+- Maren / supply nodes should accumulate through social use, not lore exposition;
+- theatre overlap requires earned causality.
 
-Avoid:
-- sewing lectures
-- modern appointment / deposit / contract systems imported as Carrow law
-- rate cards / invented exact pricing rules
-- queue spreadsheets in prose
-- formal client records unless manuscript later establishes them
-- every garment symbolizing the plot
-- the brown-cuff customer becoming a recurring caricature merely because the beat was funny
-- assuming Maren's seller personally knows Lyssa without prose support
+Avoid sewing lectures, modern contracts/appointment systems, rate cards, queue spreadsheets, formal client records unless later established, every garment symbolizing plot, or inventing personal familiarity at Maren beyond evidence.
 
-## GREG / LYSSA RELATIONSHIP CONTROL
+## HESSA INDEPENDENCE — NO NEW SYSTEM NEEDED
 
-Greg and Lyssa should remain a different relationship species from theatre or Hessa.
+Hessa does not need a separate research lane.
 
-Established useful texture:
-- intimacy and domestic space coexist with independent work;
-- Lyssa can understand what Greg means without adopting his professional domain;
-- she often refuses his attempt to inflate a narrow event into a grand lesson because she has her own work;
-- Greg can notice patterns in her work without owning the system.
+Preserve one pressure only:
 
-High-value future Greg positions around Lyssa's work:
-- arriving after a customer / delivery / decision already happened;
-- being sent on an errand with less context than Lyssa thinks he needs;
-- recognizing a repeat social node later than she does;
-- misreading a work-in-progress state without being given a lecture;
-- discovering that someone in Carrow knows Lyssa's work better than they know him.
+**Greg is one professional question / obligation inside Hessa's life, not the center of it.**
 
-## CH226 CROSS-ENGINE CHECK
+Her scheduling, stopping, uncertainty, and choice of next question already provide enough evidence. Do not invent colleagues, bureaucracy, or offscreen drama merely to prove independence.
 
-Chapter 226 correctly keeps theatre, body fatigue, Hessa's evidence discipline, Lyssa's garment work, money/food, and ordinary city noise in the same life without merging their domains.
+## 01 INHERITANCE
 
-Established residue:
-- theatre work can affect Greg's physical baseline for magic testing without theatre becoming magic training;
-- Hessa's evidence discipline remains narrow and does not become theatrical illusion instruction;
-- Lyssa understands control contamination because she lives with Greg, not because she becomes a magic analyst;
-- ordinary work and bodily limits continue to matter inside a high-interest magic chapter.
+Do **not** add another mandatory boot file or chapter checklist.
 
-Preserve cross-domain collision without converting echoes into destiny or curriculum.
+When relevant, 01 may inherit three lightweight habits already consistent with `STORY_NORTH_STAR.md`:
+1. the world may have moved before Greg arrives;
+2. a practical consequence may land on somebody other than the person who caused it;
+3. a recurring person/place/object may remember prior use and return changed.
 
-## SOCIAL-DENSITY CONTROL
+Reduced supervision / shorthand should emerge naturally from work scenes, not be serviced on schedule.
+
+## 04 HEAVY-EDIT WATCH
+
+`PROSE_PLAYBOOK.md` already contains the correct longitudinal method. No duplicate editor doctrine is needed.
+
+During heavy edit, watch for:
+- side-character work/life already moving before Greg enters;
+- earlier object / customer / supplier appearances that can support a later changed return with one small line/action;
+- repeated competence that lets unnecessary explanation be trimmed;
+- earlier mistakes whose later social residue is already established and can be made slightly more legible without changing plot/canon.
+
+**Avoid:** retrofitting friendships, callbacks, nicknames, supplier familiarity, referrals, or shorthand merely because later development would look cleaner that way.
+
+## SOCIAL / GREG / MONEY / REPUTATION CONTROL
 
 **PRESSURE:** side characters need increasingly independent causality.
 
-Look for:
-- obligations when Greg is absent;
-- people who know one another independently;
-- practical authority that exists before Greg arrives;
-- remembered favors / mistakes / repairs;
-- customers, suppliers, family, romance, debt, hobbies, habits, arguments, and side work;
-- people who know different versions of Greg and Lyssa.
+Greg may be petty, jealous, insecure, avoidant, stubborn, unfair, overconfident, or wrong when those behaviors grow naturally from established circumstances. Do not schedule flaws.
 
-**AVOID:** richly described side characters who still only appear to service Greg.
+Greg and Lyssa may materially improve their lives. Money remains concrete and consequential rather than abstract RPG wealth.
 
-## GREG CONTROL
-
-Greg may be petty, jealous, insecure, avoidant, stubborn, unfair, overconfident, or wrong when those behaviors grow naturally from established character and circumstances.
-
-**AVOID:** scheduled flaws, melodramatic dysfunction, mastermind correction, or rapid moral optimization.
-
-The world should sometimes know things Greg does not. Other people should make the best joke, solve the practical problem, or correctly interpret a situation he misses.
-
-## MONEY / MATERIAL CHANGE
-
-Greg and Lyssa may materially improve their lives. Do not force permanent poverty for tone.
-
-**PRESSURE:** money remains concrete and consequential even as circumstances improve. Lyssa's paid work is part of the household material world without becoming an abstract income stat.
-
-**AVOID:** sitcom-reset poverty; abstract RPG wealth; invented currency conversions / balances / rate structures.
-
-## REPUTATION
-
-Prefer networked and inconsistent reputation over universal fame.
-
-Different people may know Greg through theatre, Guild / magic context, suppliers, neighbors, customers, debt/work, or a distorted story.
-
-Lyssa can also accumulate a **separate** reputation through work, customers, referrals, and suppliers if prose earns it.
-
-**POSSIBILITY:** reputation travels ahead of either character and creates opportunity, misunderstanding, pressure, or social familiarity.
-
-**AVOID:** clean celebrity progression.
+Prefer networked and inconsistent reputation over universal fame. Lyssa may also develop a separate work reputation if prose earns it.
 
 ## LONG-RANGE THREAT / CONVERGENCE
 
@@ -315,82 +336,65 @@ Preserve directional possibility:
 **THEATRE → PERFORMANCE → MISDIRECTION → ILLUSION → MASKS → CONTROL OF PERCEPTION → eventual dangerous bluff**
 
 Possible eventual convergence remains:
-- OLD GREG: real old-life knowledge / systems understanding
-- SECOND-LIFE GREG: evidence discipline / world limits / institutions / magic understanding
-- THEATRE GREG: timing / silence / posture / attention / eyelines / staging / partial information / improvisation / recovery / practical effects
+- OLD GREG: old-life knowledge / systems understanding;
+- SECOND-LIFE GREG: evidence discipline / world limits / institutions / magic understanding;
+- THEATRE GREG: timing / silence / posture / attention / eyelines / staging / partial information / improvisation / recovery / practical effects.
 
 Preferred payoff shape remains **truth under veil**: a small true thing + controlled presentation + real knowledge + uncertainty, buying hesitation or seconds rather than overpowering a stronger threat.
 
 Do not schedule this prematurely. Threat should collide with ordinary life rather than replace it.
 
-## RESEARCH INTEGRATION RULE
-
-Research is evidence about real practice, not story canon.
-
-03 asks:
-1. Does this solve a real specificity gap?
-2. Does it deepen an existing person / relationship / job / place?
-3. Can it become behavior, timing, object use, error, cost, or social residue rather than exposition?
-4. Does the manuscript already do a better version?
-5. Who pays the cost when the loop breaks?
-6. What memory or changed behavior could survive fifty chapters?
-7. Does it fit Carrow without importing modern machinery?
-8. Is it useful enough to graduate, or should it stay possibility / be discarded?
-
 ## NEXT EDGE → 02
 
 **PAUSE NEW EXTERNAL RESEARCH FOR ONE CYCLE.**
 
-The Lyssa wave produced useful support, but it also exposed an authority risk: the repository contains recovered exact Chapters 156–219, and current compact state does not yet provide a trustworthy longitudinal map of Lyssa's already-established customer / supplier / delivery / referral history across that span.
+The Lyssa wave exposed an authority risk: exact Chapters 156–219 are recovered in GitHub, while compact state does not yet provide a trustworthy longitudinal map of Lyssa's already-established work relationships across that span.
 
-Before researching another domain, 02 should perform a **manuscript-first Lyssa work-network audit** across authoritative exact prose from Chapters 156–226.
+Before developing a new Lyssa network, 02 must perform a **manuscript-first Lyssa work-network audit across authoritative exact prose from Chapters 156–226**.
+
+Use:
+- `state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md` for 156–219;
+- `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md` for 220–226;
+- newer GitHub authority if 01 advances before the audit begins.
 
 Focused question:
 
-**What customer, supplier, fitting, delivery, payment, errand, referral, work-space, and repeat-preference relationships are actually already established for Lyssa, and which are only current possibilities?**
+**What customer, supplier, fitting, delivery, payment, errand, referral, work-space, repeat-preference, and work-schedule relationships are actually already established for Lyssa, and which are only current possibilities?**
 
 Return a compact evidence map, not a transcript:
 - recurring named people / places, if any;
-- one-off customers that should stay one-off unless later prose changes that;
+- one-off customers that should remain one-off unless later prose changes that;
 - established supply routes such as Maren;
 - customer visits / pickups / deliveries / payments;
-- any actual referral language or repeat-customer recognition;
-- any established work refusals / repricing / delays / material constraints;
-- changed callbacks that already exist.
+- actual referral language or repeat-customer recognition, if any;
+- established refusals / repricing / delays / material constraints;
+- changed callbacks already present;
+- any places where Greg discovers Lyssa's work world after it has already moved.
 
-Classify each as ESTABLISHED / UNCERTAIN / POSSIBILITY. Do not invent names or retroactively connect unrelated garments.
+Classify each as **ESTABLISHED / UNCERTAIN / POSSIBILITY**.
 
-Only after that audit should 02 propose another external research question. If the manuscript already provides enough specificity, research may remain paused.
+Do not invent names, retroactively connect unrelated garments, or assume an unnamed customer recurs without textual evidence.
 
-## 02 ↔ 03 HANDSHAKE
-
-When 02 develops a possibility, 03 may classify it:
-- **ESTABLISHED**
-- **PRESSURE**
-- **POSSIBILITY**
-- **AVOID**
-- **RESEARCH EDGE**
-
-When 03 finds a knowledge gap, send a focused question back to 02 rather than inventing expertise.
+Only after this audit should 02 propose the smallest useful Lyssa-side social infrastructure. If the manuscript already provides enough specificity, external research may remain paused.
 
 ## CURRENT STORY-CONTROL EDGE
 
-Current 03 integration is complete through Chapter 226 for the first Lyssa alteration/rework research wave.
+This 03 pressure-test is complete through Chapter 226.
 
 Current posture:
-1. Re-read current manuscript state first because 01 may advance.
-2. Keep generic theatre research parked.
-3. Preserve theatre's graduated object/social residue without turning it into a system.
-4. Treat Lyssa's three-customer workload, customer visits, paid rework, delivery/payment, multiple simultaneous garments, and Maren supply route as established.
-5. Keep queue consequences, confirmation-state semantics, repeat/referral networks, customer-preference memory, and alteration constraints as pressures/possibilities until prose establishes them.
-6. Do not retroactively claim the brown cuff delayed another job.
-7. Do not personify Maren's shop or invent supplier familiarity beyond what Chapter 222 supports.
-8. Send 02 to manuscript archaeology before another external research wave.
-9. Keep magic breathing after Chapter 226 unless newer manuscript authority changes the rhythm.
-10. Continue preferring convergence of existing pressures over new antagonists, institutions, or subsystems.
+1. preserve the four survivor behaviors;
+2. do not turn them into a chapter checklist;
+3. keep generic theatre research parked;
+4. preserve Lyssa's established customer workload, paid rework, delivery/payment, multiple garments, and Maren route;
+5. keep queue causality, confirmation-state semantics, referral chains, repeat-preference memory, and alteration constraints as pressure/possibility until prose establishes them;
+6. do not retroactively claim the brown cuff delayed another job;
+7. do not personify Maren's shop or invent supplier familiarity beyond evidence;
+8. send 02 to manuscript archaeology before developing a new customer network;
+9. keep magic breathing after Chapter 226 unless newer manuscript authority changes the rhythm;
+10. continue preferring convergence over new antagonists, institutions, or subsystems.
 
 Do not create a fixed multi-chapter outline unless explicitly requested.
 
 ## RE-PROMPT [03]
 
-Continue Peg-Leg Greg Story Control from current GitHub authority. Read `AGENTS.md`, `state/PROJECT_STATE.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, `state/LONG_SERIAL_RESIDUE_MAP.md`, current manuscript/state, `state/STORY_CONTROL_STATE.md`, `state/WRITERS_ROOM_STATE.md`, `state/RESEARCH_LEDGER.md`, `state/PLOT_CONTROL.md`, `state/OPEN_THREADS.md`, and relevant bibles. Through Chapter 226, the first Lyssa alteration/rework research wave is integrated. Established recent evidence includes Lyssa maintaining three customers by Ch224, customer visits at the apartment, off-page delivery/payment, paid customer-requested cuff rework, multiple simultaneous garments, and the Maren thread-supply route from Ch222. Do not retroactively claim queue causality, referral chains, customer-preference memory, fitting-confirmation semantics, or formal pricing systems. The next 02 edge is manuscript-first: audit authoritative exact Chapters 156–226 for Lyssa's existing customer / supplier / delivery / payment / referral / repeat-preference history before opening another external research wave. When that handoff lands, pressure-test the actual longitudinal evidence, graduate only durable residue, identify the next true specificity gap, update only relevant brains, and continue the 02↔03 loop.
+Continue Peg-Leg Greg Story Control from current GitHub authority. Read `AGENTS.md`, `state/PROJECT_STATE.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, `state/LONG_SERIAL_RESIDUE_MAP.md`, current manuscript/state, `state/STORY_CONTROL_STATE.md`, `state/WRITERS_ROOM_STATE.md`, `state/RESEARCH_LEDGER.md`, `state/PLOT_CONTROL.md`, `state/OPEN_THREADS.md`, and relevant bibles. Through Chapter 226, the long-serial filter preserves four pressures: independent causality, sideways consequences/social residue, belonging through reduced supervision/domain-shaped trust, and repeat social nodes returning changed. Generic theatre research is parked. The first Lyssa alteration/rework wave is integrated: current prose establishes an independent multi-customer workload, paid customer-requested rework, off-page delivery/payment, multiple simultaneous garments, and the Maren supply route; queue causality, fitting-confirmation semantics, referral chains, repeat-preference memory, and alteration constraints remain pressure/possibility until prose establishes them. The next 02 edge is manuscript-first: audit authoritative exact Chapters 156–226 for Lyssa's actual customer / supplier / delivery / payment / referral / repeat-preference / schedule history before developing new social infrastructure. When that handoff lands, pressure-test the longitudinal evidence, graduate only durable residue, identify the next true specificity gap, and continue the 02↔03 loop.
