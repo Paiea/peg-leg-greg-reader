@@ -7,9 +7,10 @@ Before substantial work:
 1. inspect current `main`
 2. read `state/PROJECT_STATE.md`
 3. identify your lane
-4. read the relevant lane state/playbook files
-5. inspect exact manuscript/reader/source authority needed for the task
-6. preserve newer GitHub-authoritative work
+4. read `state/STORY_NORTH_STAR.md` for narrative/development work
+5. read the relevant lane state/playbook files
+6. inspect exact manuscript/reader/source authority needed for the task
+7. preserve newer GitHub-authoritative work
 
 Do not rely on a stale chat prompt for current story position.
 
@@ -17,26 +18,51 @@ Do not rely on a stale chat prompt for current story position.
 
 - manuscript prose outranks summaries
 - `state/PROJECT_STATE.md` defines repository authority/synchronization rules
+- `state/STORY_NORTH_STAR.md` defines durable artistic direction but is not plot canon
 - lane state files route work but do not outrank exact manuscript evidence
+- external research informs development but is not canon
 - exploratory chat is not canon
 - WIP branches are durable but not accepted `main`
 
+## Shared development architecture
+
+For narrative development, read `state/DEVELOPMENT_CYCLE.md`.
+
+Primary loop:
+
+**02 Writers' Room: EXPLORE → RESEARCH → SYNTHESIZE**
+
+**03 Story Control: INTEGRATE → PRESSURE-TEST → CLASSIFY**
+
+Then repeat while 01 continues forward manuscript production.
+
+Reusable external research belongs in `state/RESEARCH_LEDGER.md`, with sources, limits, story translation, and canon status kept separate.
+
 ## Lanes
 
-### Manuscript
-Read `state/MANUSCRIPT_ENGINE_PLAYBOOK.md`, `state/MANUSCRIPT_WORKFLOW.md`, `state/MANUSCRIPT_STATE.md`, `state/OPEN_THREADS.md`, the current manuscript edge, and `state/PROSE_PLAYBOOK.md` when present. Consult character/setting/plot bibles only when useful. Preserve throughput.
+### Manuscript / 01
+Read `state/MANUSCRIPT_ENGINE_PLAYBOOK.md`, `state/MANUSCRIPT_WORKFLOW.md`, `state/MANUSCRIPT_STATE.md`, `state/OPEN_THREADS.md`, the current manuscript edge, and `state/PROSE_PLAYBOOK.md` when present. Use `state/STORY_NORTH_STAR.md` as durable artistic direction. Consult character/setting/plot/development files only when useful. Preserve throughput.
 
-### Prose / editorial
-Read actual prose plus `state/PROSE_PLAYBOOK.md`. Improve writing without silently changing plot, canon, characterization, scene intent, or outcomes.
+### Writers' Room / 02
+Read current manuscript/state plus `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, `state/WRITERS_ROOM_STATE.md`, and relevant specialist brains. Explore alternatives, research real practice when useful, translate research into behavior/social/work possibilities, update durable residue, and hand developed possibilities to 03. Do not canonize exploration.
+
+### Story Control / 03
+Read current manuscript/state plus `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, `state/STORY_CONTROL_STATE.md`, `state/WRITERS_ROOM_STATE.md`, `state/PLOT_CONTROL.md`, `state/OPEN_THREADS.md`, and relevant research/bibles. Pressure-test possibilities against canon/rhythm/long-range direction, classify them, graduate only useful durable residue, and send focused research edges back to 02.
+
+### Prose / editorial / 04
+Read actual prose plus `state/PROSE_PLAYBOOK.md` and `state/STORY_NORTH_STAR.md`. Improve writing and longitudinal social texture without silently changing plot, canon, characterization, scene intent, or outcomes.
 
 ### Character
-Read actual manuscript evidence plus `state/CHARACTER_BIBLE.md`. Update durable character knowledge, not transcripts.
+Read actual manuscript evidence plus `state/CHARACTER_BIBLE.md` and `state/STORY_NORTH_STAR.md`. Update durable character knowledge, relationships, offscreen causality, and anti-flattening constraints, not transcripts.
 
 ### Setting / world
-Read actual manuscript evidence plus `state/SETTING_BIBLE.md`. Deepen lived world only where story/use creates need.
+Read actual manuscript evidence plus `state/SETTING_BIBLE.md`, `state/STORY_NORTH_STAR.md`, and relevant research. Deepen lived world through people, work, routes, objects, institutions, commerce, and repeated use rather than lore dumping.
+
+### Research
+Read `state/DEVELOPMENT_CYCLE.md` and `state/RESEARCH_LEDGER.md`. Research focused questions that materially improve story specificity. Prefer strong sources; distinguish supported practice from story translation; never silently convert research into canon.
 
 ### Plot / Story Control
-Read current manuscript/state plus `state/PLOT_CONTROL.md` and `state/OPEN_THREADS.md`. Distinguish ESTABLISHED / PRESSURE / POSSIBILITY / AVOID.
+Read current manuscript/state plus `state/PLOT_CONTROL.md` and `state/OPEN_THREADS.md`. Distinguish ESTABLISHED / PRESSURE / POSSIBILITY / AVOID / RESEARCH EDGE. Prefer convergence between existing threads over new machinery.
 
 ### Visual production
 Read `state/VISUAL_BIBLE.md` and `state/IMAGE_PRODUCTION.md`, then actual manuscript scenes and reader coverage. Coverage first; integrate only accepted art.
@@ -70,3 +96,9 @@ At the end of substantial work:
 - leave one copyable re-prompt that points the next worker back to GitHub
 
 The long-term goal is that fresh workers reconstruct their role primarily from repository state rather than giant handoff prompts.
+
+Minimal fresh-chat starters are intentionally valid:
+
+- `Continue Peg-Leg Greg from current GitHub authority.`
+- `Continue Peg-Leg Greg Writers' Room from current GitHub authority.`
+- `Continue Peg-Leg Greg Story Control from current GitHub authority.`
