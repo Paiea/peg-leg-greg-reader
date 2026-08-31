@@ -13632,3 +13632,607 @@ That was all right.
 The onion stayed exactly where I put it.
 
 So did I.
+
+------------------------------------------------------------------------
+
+# CHAPTER 232
+
+## THE MATCHER
+
+The black coat was still hanging over the chair when I woke. That made it the most official object in the room. The narrow brown cloth remained folded near the wall.
+
+Three pins. Same fold. My cuff still had three loose threads. Apparently everyone had agreed not to make progress before breakfast. Lyssa was already gone. No note this time.
+
+The bread was where bread lived when neither of us had moved it for work, and half an onion sat beside it with the patient expression of something I had repeatedly failed to finish.
+
+I ate bread. I did not eat the onion. Some conflicts survived. The magistrate coat belonged to the theatre, which meant I had a morning destination even if nobody had called me for work.
+
+I folded it over my left forearm, disliked what that did to the crutch, refolded it over my right, disliked that differently, then finally draped it across my shoulders without putting my arms through the sleeves.
+
+Judicial dignity. Also transport. Outside, Carrow had the wet smell of a night that had almost rained and then changed its mind. Delivery carts were already moving. A woman carried two buckets toward the wash court. Somebody farther down the street was arguing about a chicken that appeared to have escaped both ownership and geography.
+
+I took the theatre route without thinking about it. That continued to happen. The side door was open. Inside, yesterday's magistrate room had become a merchant's office. Not entirely.
+
+The blue-trimmed wall was still there. The same window trim I had helped Jori hold two days earlier framed a window that had been a magistrate's window yesterday and apparently belonged to commerce now.
+
+The desk had moved six feet. The witness rail was gone. A narrow shelf stood where Hara had dropped the fence. Davin was painting the shelf brown. Jori stood behind him looking at one end.
+
+"Too much," Jori said.
+
+Davin looked at the brush.
+
+"I have barely started."
+
+"The end."
+
+Davin leaned sideways. The shelf extended half an inch past the flat.
+
+"Merchant owns more wall."
+
+"No."
+
+"Powerful merchant."
+
+Jori held out his hand. Davin gave him the shelf. Neither of them noticed me until I passed. That was fine. Nessa was at the property table with three belts, a basket, and one wooden duck.
+
+I put the black coat down. She looked at it.
+
+"Wrong side."
+
+I moved it six inches to the other side of the table.
+
+"Thank you."
+
+"You wore it home."
+
+"I was told to return it."
+
+"You did."
+
+"Strong system."
+
+She picked up the coat, checked the hem, then put it on a hook without inspecting whether I had committed crimes in it. The wooden duck stared at me. I pointed.
+
+"No."
+
+"I didn't ask."
+
+"You were going to."
+
+"I was going to ask why."
+
+"Don't."
+
+This was excellent advice. From the stage, Marek called, "It is a shipping concern." Nessa said, "It is a duck."
+
+"Those are not exclusive."
+
+I left before the merchant office developed livestock law. Rinna was at the front table counting something small into stacks. She looked up.
+
+"Working?"
+
+"Not here."
+
+"Good."
+
+That was efficient. I nodded toward the stage.
+
+"Merchant?"
+
+"Second piece."
+
+"Do I know it?"
+
+"No."
+
+"Better."
+
+She went back to the stacks. I went to Vale's office. That route was familiar too, although I still noticed Antonius's door sooner than I noticed the building around it.
+
+The front room was busy. Not crowded. Busy. There was a difference. A runner stood by the wall with a loop of cord around one wrist. The dark-scarf woman had two account books open and was telling the broken-crate man from my last workday that his receipt proved the iron strap had been listed.
+
+He held the receipt like a weapon.
+
+"I told you it was missing."
+
+"You told me after you returned the crate."
+
+"It was missing before."
+
+"Then the receipt does not prove that."
+
+He looked at the paper. The paper had betrayed him. I liked continuity. The ink-fingered clerk saw me from the side table.
+
+"Work?"
+
+"If you have it."
+
+He looked at my hands.
+
+"Coat?"
+
+"Returned."
+
+He did not care. Good. He pointed at a chair.
+
+"Sit."
+
+The table in front of it held three stacks of folded slips, one shallow tray, and several account copies tied in loose groups. I sat.
+
+"What am I ruining today?"
+
+"Returns."
+
+I looked at the slips.
+
+"Returned money?"
+
+"Returned notices."
+
+"Less exciting."
+
+"Better for you."
+
+He untied one group of account copies.
+
+"Runners bring these back after delivery."
+
+He held up a narrow folded slip. The outside carried a house mark, a name, and a short line of writing.
+
+"Match the return to the account copy. Name, mark, street. Then separate by what the runner recorded."
+
+He pointed at three places on the table.
+
+"Delivered. Nobody. Refused."
+
+"Nobody?"
+
+"No answer."
+
+"Not nobody exists."
+
+"No answer at the address."
+
+"That is less dramatic."
+
+He gave me the slip.
+
+"Do not improve the language."
+
+I looked at the mark.
+
+"Wrong address?"
+
+"Side pile."
+
+He pointed near the tray.
+
+"Moved?"
+
+"Side pile."
+
+"Dead?"
+
+"Side pile."
+
+"Hostile."
+
+"Anything you cannot match or classify, side pile."
+
+"So the side pile is ignorance."
+
+"Yes."
+
+"Comfortable."
+
+He pushed the first group toward me.
+
+"Match first. Do not decide what happens next."
+
+That sounded like a rule designed specifically for my personality. I began. The first return belonged to a cooper on East Lane. Name matched. House mark matched. Street matched. Runner notation was a short straight stroke.
+
+"Delivered?"
+
+"Yes."
+
+I put it in the delivered pile. Second was a widow on South Steps. Same process. Two small crossed strokes.
+
+"Nobody?"
+
+"Yes."
+
+Third had a hooked line. I looked at the clerk.
+
+"Refused."
+
+"Yes."
+
+"Why does refusal look like a fishing accident?"
+
+"Because runners make marks they can make while standing."
+
+Practical. The next return carried a small triangle near the fold. I recognized it immediately.
+
+"Upper door."
+
+The clerk looked over.
+
+"That is route."
+
+"Yes."
+
+"Does route matter now?"
+
+I looked at the name. Leret & Sons. South Steps. The same account that had made me older last time. I felt vindicated for almost one second. Then I understood his question.
+
+"No."
+
+"Match the account."
+
+I found the Leret copy in the group. The triangle had gotten the notice to the correct runner. Now it was just evidence of how it had traveled. I matched the name and street.
+
+Delivered.
+
+"Useful triangle," I said.
+
+The clerk did not answer. A voice from the wall said, "Still arguing with it?" I looked up. The hill runner. He had a new bundle under one arm.
+
+"You survived."
+
+"Barely."
+
+"You received correct papers."
+
+"I also got older."
+
+"You said that last time."
+
+"Still true."
+
+He handed the clerk a tied group of returns. The clerk untied them and added them to my table. The runner looked at me.
+
+"Do not make me late today."
+
+"I am not touching outgoing paper."
+
+He considered.
+
+"Good."
+
+Then he left. Office relationships were developing beautifully. I matched six more without difficulty. Delivered. Nobody. Delivered. Refused. Nobody. Delivered. The repetition was almost soothing. That was dangerous. The next slip carried two crossed marks.
+
+Nobody. I put it in the nobody pile. The clerk reached past me, took it out, and placed it with refused. I looked at the mark.
+
+"Crossed."
+
+"Hook through cross."
+
+There was, in fact, a tiny curved stroke through one side.
+
+"That is not a hook."
+
+"It is."
+
+"That is an insult to hooks."
+
+"Refused."
+
+I looked at the slip.
+
+"What is the difference in practice?"
+
+"Not yours."
+
+"Strong answer."
+
+"Nobody means no one answered. Refused means someone did."
+
+"And then?"
+
+"Account clerk decides what follows."
+
+"Not me."
+
+"Correct."
+
+I moved the slip. The system had once again contained a distinction that remained invisible until it inconvenienced me. I checked the next marks more carefully. The dark-scarf woman and crate man continued their argument.
+
+He had apparently brought a second paper. This also failed to prove what he wanted.
+
+"Then what would prove it?" he demanded.
+
+"A note from the receiving man when the crate arrived."
+
+"He cannot write."
+
+"Then somebody else who was there."
+
+"He was alone."
+
+She looked at him. He looked at her. The office briefly reached a philosophical limit. I kept matching. Around midmorning, a girl I remembered from my first bundle day came in eating a pear.
+
+Not an apple. Growth. She put four returns on the clerk's desk. He pointed at me.
+
+"Table."
+
+She brought them over.
+
+"You're back."
+
+"Apparently."
+
+She looked at the three piles.
+
+"Returns."
+
+"I have been trusted with outcomes."
+
+"Bad idea."
+
+"Thank you."
+
+She bit the pear. One of her slips had a dark smear near the bottom. I turned it.
+
+"That your mark?"
+
+She looked.
+
+"No."
+
+"Whose?"
+
+"Door."
+
+I looked at her. She pointed at the smear.
+
+"Wet paint."
+
+Of course. The notice had apparently touched a freshly painted door while she waited. I put it with the rest. Carrow continued to be made of surfaces.
+
+The first truly difficult match came before lunch. Two account copies carried the same family name. Merren. One was for Merren Glass on River Street. One was for D. Merren, two streets north.
+
+The return said MERRIN in a runner's hurried hand and carried the river mark. Easy. Merren Glass. I put them together. Then I noticed the street written on the return.
+
+Not River Street. North Lamp. I stopped. House mark looked river. Name looked close. Street did not. Side pile. The clerk came over when he saw me stop working.
+
+"What?"
+
+I showed him.
+
+"River mark. Merren. Wrong street."
+
+He looked at the slip. Then at the two account copies.
+
+"Not either."
+
+"Excellent."
+
+He took the return to the front table and opened a different book. I waited.
+
+"Merin Rope," he said.
+
+"That is a third one."
+
+"Yes."
+
+"How many Merrens are there?"
+
+"Different spelling."
+
+"Not at runner speed."
+
+He ignored that. The return had been grouped with the wrong account copies before it reached me. Someone had tied similar names together.
+
+The clerk moved the slip to a different stack.
+
+"Good side pile."
+
+"I am excellent at ignorance."
+
+"Useful when accurate."
+
+I disliked how much I liked that. Lunch arrived by smell before time. A fried-dough seller had stopped across the street. The office changed shape around hunger.
+
+Runners appeared in the doorway, delivered returns, vanished with new bundles, then reappeared holding food. The dark-scarf woman closed one account book but not the other. The crate man left with both receipts and no victory.
+
+I bought one piece of fried dough with onions pressed into it. The debt did not vanish. Neither did lunch. I ate on the step. The hill runner came back and sat two places down from me.
+
+"You made anyone late?"
+
+"Only dead people."
+
+He looked at me.
+
+"I put them in the side pile."
+
+"Good."
+
+He ate something wrapped in paper. After a while he said, "Triangles?"
+
+"Route only."
+
+He nodded once. This was apparently our relationship now. I could live with worse. Back inside, my right leg had stiffened slightly from sitting. I stood before it became an argument.
+
+The side table had acquired another chair, so I used the crutches and carried matched slips one small stack at a time to the clerk instead of trying to carry everything together.
+
+No one discussed it. The office had learned my geometry enough that a runner moved his foot before my right crutch reached the space. I noticed only because he did not look up.
+
+That was the good kind. The afternoon returns were messier. A folded notice had torn where a seal had caught. Another had been delivered to a shop whose sign had changed but whose owner had not.
+
+One came back with REFUSED written in full because the runner had apparently lost patience with symbols. I appreciated him. One return said MOVED. Side pile. The account copy said the same street.
+
+I started to place it aside, then saw a smaller line beneath the runner's note. STALL ONLY NOW. I looked at the clerk.
+
+"Is that moved?"
+
+He read it.
+
+"Account update."
+
+"Difference?"
+
+"Shop closed. They still trade at the market stall."
+
+"So the person did not move."
+
+"Business did."
+
+"Part of it."
+
+"Yes."
+
+He took the slip.
+
+"Side pile was right."
+
+"Excellent."
+
+"Do not celebrate."
+
+"I am preserving uncertainty."
+
+He gave the slip to the dark-scarf woman. She found the account and added a note. The whole event took less than a minute. Carrow changed addresses while we were looking at it.
+
+That seemed rude. Antonius appeared late in the afternoon. He crossed the room, stopped when he saw me, and looked at the clerk. The clerk said, "He asked." Antonius looked at me.
+
+"For work?"
+
+"Yes."
+
+"Why?"
+
+I considered several dramatic answers.
+
+"Debt."
+
+He waited.
+
+"And there was no theatre call."
+
+That was more accurate.
+
+"Better," he said.
+
+Warm man. He looked at the piles.
+
+"Useful?"
+
+The clerk said, "Mostly."
+
+"Hostile modifier."
+
+Antonius ignored me. The clerk gave the report.
+
+"Matched returns through four groups. One refusal mark misread and corrected. One route mark overread and corrected. One wrongly grouped Merren return held instead of forced to a match. One market-stall address update held for account."
+
+Antonius looked at me.
+
+"Merren?"
+
+"Merin Rope. Different spelling. Similar handwriting. Wrong bundle."
+
+"You caught it?"
+
+"I failed to understand it."
+
+"That is often how."
+
+I looked at him.
+
+"That sounded almost wise."
+
+"No."
+
+Good. He checked the work ledger. The exact balance existed there. I knew it. He knew it. It remained nobody else's entertainment. Antonius wrote the credit.
+
+"Recorded."
+
+"Thank you."
+
+He looked at me. That was apparently too polite to trust.
+
+"What?"
+
+"Nothing."
+
+"Should I insult the ledger?"
+
+"No."
+
+"Then we have improved."
+
+He closed it. I nodded toward the return piles.
+
+"Most days?"
+
+"Something is always coming back."
+
+"That sounds philosophical."
+
+"It is paper."
+
+Better.
+
+"Can I come again?"
+
+"If they have work."
+
+The clerk said, "If he does not argue with marks."
+
+"I need standards."
+
+"You need speed."
+
+Antonius had already moved on. Work had existed today. I had done some. The debt had moved. That was enough. I left before someone found another category.
+
+The theatre was louder when I passed it on the way home. I did not go in. The black coat was already returned. My work there was over for the day.
+
+That felt almost disciplined. At home, the brown cloth was still folded near the wall. Three pins. Same fold. My cuff still had three loose threads. Lyssa was there before me, sitting on the floor with her back against the bed and eating the last of yesterday's sharp spread on bread.
+
+No garment in her hands. No customer. No explanation. I put my crutches against the wall. She looked at me.
+
+"Vale?"
+
+"Yes."
+
+"Work?"
+
+"Paper came back."
+
+She waited. I realized that was not a useful answer.
+
+"Runner returns. I matched them to accounts."
+
+"Good."
+
+"One bad name match became three different accounts."
+
+"That sounds like your problem."
+
+"It became the side pile's problem."
+
+She held out the bread. I took a piece.
+
+"What did you do?" I asked.
+
+"Worked."
+
+I nodded. Reasonable. She looked at the chair.
+
+"No coat."
+
+"Returned."
+
+"Good."
+
+"Apparently I am no longer a magistrate."
+
+"Were you before?"
+
+I looked at her. She took another bite. There was no legal remedy. I sat beside her on the floor. The brown cloth remained where it had been all day.
+
+I did not ask why. Outside, someone called up to a second-floor window and got told they had the wrong building. They apologized. Then called to the next one. This time a woman answered.
+
+The caller shouted something about laundry. Lyssa reached past me for the last of the sharp spread. I moved my elbow before she had to ask.
+
+I ate the bread.
