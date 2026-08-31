@@ -45,7 +45,7 @@ The long serial should increasingly prove that time has passed through:
 
 ## FIRST MODERN INTEGRATION — CH225–226
 
-Current research intake status matters: `WRITERS_ROOM_STATE.md` and `RESEARCH_LEDGER.md` currently contain the acting/rehearsal-note **research queue**, but no sourced rehearsal-note findings have yet landed on `main`. Do not pretend the queue itself is research and do not graduate external practice that has not actually been recorded.
+The first sourced 02 rehearsal-note research wave has now landed in `RESEARCH_LEDGER.md`. Its broad findings are useful analogues, but only manuscript-supported behavior graduates here as established story truth.
 
 The manuscript already establishes a useful correction / recovery ecology:
 
@@ -69,9 +69,61 @@ This is not mentorship. It is experienced scene-partner competence plus social m
 
 ### ESTABLISHED — recovery belongs to the ensemble, not only Greg/Teren
 
-Ch225 also lets Pell cover Marek's wrong-chair/letter mistake while another actor quietly moves the actual letter farther away. Jori catches Davin trying to move a still-needed cabinet. Nessa catches Marek reaching for protected props. The company already survives through distributed competence, correction, irritation, and recovery.
+Ch225 also lets another experienced performer cover Marek's wrong-chair/letter mistake while a scene partner quietly moves the actual letter farther away. Jori catches Davin trying to move a still-needed cabinet. Nessa catches Marek reaching for protected props. The company already survives through distributed competence, correction, irritation, and recovery.
 
-### PRESSURE — preserve differentiated correction languages
+## REHEARSAL-NOTE RESEARCH — 03 PRESSURE TEST
+
+### RESEARCH-SUPPORTED POSSIBILITY — let survivable work continue, then note it
+
+02's sources support a common practice of accumulating notes through a run and addressing them afterward, while allowing immediate intervention for problems that cannot safely/usefully continue.
+
+This fits Ch225 **without becoming a troupe law**:
+- Greg's live tray mistake is repaired by Hara and the scene continues; Teren corrects Greg after he exits.
+- Greg's rehearsal/reset cup mistake is corrected immediately because the practical reset itself is wrong and the next run depends on fixing it.
+
+**Classification:** useful POSSIBILITY / rhythm principle, not ESTABLISHED universal procedure.
+
+**Pressure:** vary note timing by what the problem actually damages. Do not install a formula where Teren always waits until the end or always stops the room.
+
+### ESTABLISHED AT THE BEHAVIORAL LEVEL — authority is already domain-shaped
+
+The research warns against one omnipotent theatre authority and supports bounded practical/artistic roles. The exact modern hierarchy does **not** transfer automatically, but current prose already shows domain-shaped competence:
+- Teren handles acting / scene adjustment.
+- Nessa handles props, resets, storage, handoffs, and backstage practical continuity.
+- Jori handles physical build, repair, set movement, and usable geometry.
+- Rinna handles theatre business, payment, records, and current commercial-defense procedure.
+
+**Classification:** ESTABLISHED as observed behavior; formal titles, reporting lines, and a modern org chart remain UNESTABLISHED.
+
+### POSSIBILITY — shorthand as evidence of accumulated work
+
+02's sources support compressed notes among long-running collaborators.
+
+This is a strong fit for the serial's accumulation engine, but it is not yet a mandated trajectory. Greg can gradually understand less-explicit language because specific shared work has repeated. Different pairs can develop different shorthand.
+
+**Classification:** POSSIBILITY.
+
+**Avoid:** turning note length into a skill bar, making every correction shorter over time, or using cryptic shorthand before the relationship has earned it on-page.
+
+### ESTABLISHED CORE / BROADER POSSIBILITY — partners rescue the play, not the mistake
+
+The research supports limited bridges, re-cues, and recovery when a partner flubs or anticipates.
+
+Ch225 already establishes the core behavior through Hara's bridge and other ensemble covers.
+
+**Classification:** the existence of ensemble recovery is ESTABLISHED. Broader recurring recovery habits among particular pairs remain POSSIBILITY until repeated prose establishes them.
+
+**Pressure:** successful recovery should not erase irritation, blame, extra work, embarrassment, or the later correction.
+
+### POSSIBILITY — note reception can differentiate people
+
+Greg's current tendency to explain the mechanism of his error before resetting is manuscript-supported. The research suggests useful variation in how other actors receive correction: immediate retry, one precise question, private disagreement, joke-then-adjust, and so on.
+
+**Classification:** Greg's explanatory tendency is ESTABLISHED; specific contrasting note-reception styles for other characters remain POSSIBILITY.
+
+**Avoid:** assigning everyone a tidy note-receipt gimmick in advance.
+
+## PRESSURE — preserve differentiated correction languages
 
 Do not let all theatre learning collapse into Teren explaining acting to Greg.
 
@@ -84,21 +136,21 @@ Current useful differentiation:
 
 Future scenes can add variation, but the differences should remain species-level rather than everyone becoming interchangeable wise banter.
 
-### PRESSURE — Greg's errors should evolve with competence
+## PRESSURE — Greg's errors should evolve with competence
 
 As cues/routes/props become automatic, the interesting failure is less often simple forgetting and more often **anticipating, over-helping, optimizing the wrong system, or acting on knowledge the character should not yet reveal**.
 
 This is a pressure, not a mandated repeated beat. Do not turn `helped too early` into Greg's permanent acting gimmick.
 
-### POSSIBILITY — repertory familiarity can accumulate sideways
+## POSSIBILITY — repertory familiarity can accumulate sideways
 
-Existing performers such as Hara, Pell, Marek, and other established troupe members may develop visible shorthand, recovery habits, irritation, trust, or timing with **each other**, not only with Greg. Ch225 already gives Hara and Pell major shared stage work and gives other actors recovery ownership. Future development should prefer those existing footholds over inventing a new mentor or specialist merely to demonstrate ensemble culture.
+Existing performers may develop visible shorthand, recovery habits, irritation, trust, or timing with **each other**, not only with Greg. Ch225 already gives established performers major shared stage work and gives other actors recovery ownership. Future development should prefer those footholds over inventing a new mentor or specialist merely to demonstrate ensemble culture.
 
-### POSSIBILITY — backstage authority can show offscreen life
+## POSSIBILITY — backstage authority can show offscreen life
 
 Nessa/Jori and other established workers can have practical coordination, disagreement, favors, or shorthand around props, set movement, traffic, repair, and reset that Greg enters midway through rather than causes. Do not formalize a modern org chart without manuscript support.
 
-### AVOID
+## AVOID — theatre integration failures
 
 - repeating Teren's best narrow notes as universal doctrines
 - making Hara Greg's acting mentor because she is excellent
@@ -107,6 +159,7 @@ Nessa/Jori and other established workers can have practical coordination, disagr
 - inventing formal theatre titles/hierarchy because modern research uses them
 - turning rehearsal-note research into explanatory dialogue
 - treating smooth recovery as proof the mistake did not matter socially
+- importing modern etiquette as Carrow law when only the underlying behavior is useful
 
 ## CH226 CROSS-ENGINE CHECK
 
@@ -137,6 +190,7 @@ Useful development should answer questions like:
 Current high-value non-Greg edges:
 - established performers developing repertory shorthand/recovery history with one another
 - Nessa/Jori operational coordination around objects, traffic, repair, reset, and stage needs
+- Nessa/Teren interdependence when a problem sits between acting and physical continuity
 
 These are **possibilities to explore**, not retroactive canon about friendship, hierarchy, romance, or offscreen events.
 
@@ -206,22 +260,22 @@ If not, leave it as research / possibility.
 
 ## NEXT RESEARCH EDGE → 02
 
-The current manuscript has already solved the generic question `what do useful rehearsal notes look like?` well enough to avoid researching it as a broad topic first.
+The rehearsal-note wave is integrated enough. Do **not** keep researching generic note culture unless a later manuscript problem creates a new gap.
 
-Research this narrower edge instead:
+Continue 02's proposed informal-authority edge, but narrow it to behavior and residue rather than hierarchy diagrams:
 
-**When an experienced actor must cover a scene partner's small mistake in live performance or rehearsal, what recovery behaviors preserve the scene without erasing the mistake, and how do directors / scene partners decide whether correction happens immediately, after the beat, or after the run?**
+**In a small recurring theatre ensemble, what mundane repeated work creates competence-based informal authority and social debt without requiring formal titles?**
 
-Useful subquestions:
-- what kinds of mistakes do experienced partners silently absorb versus force a stop?
-- how do actors restore a partner's intended choice / information / timing without calling attention to the repair?
-- what peer-to-peer shorthand or irritation tends to remain after a successful cover?
-- what makes a note narrow/playable rather than abstract?
-- when does repeated covering become a trust/problem issue rather than admirable competence?
+Highest-value subquestions:
+- how do covering absences, pre-show checks, cleanup, food, borrowing, repairs, lateness, and returning misplaced objects create remembered favors or irritation?
+- who becomes the person others ask for a specific practical problem, and what repeated behavior earns that status?
+- what happens when artistic, prop, repair, and business needs overlap and the nominally senior person is not the best person for the immediate problem?
+- how do people defer to another person's competence without turning that person into a universal boss?
+- what kinds of mundane obligations pull Nessa, Jori, Hara, Marek, Rinna, Teren, and other established people into relationships Greg only partly sees?
 
-Translate findings into **variation for existing Hara/Pell/Marek/Teren/Nessa dynamics**, not a new mentor, formal modern hierarchy, or theatre lecture.
+Translate findings into 3–5 **recurring behaviors** for existing troupe members. Do not invent ranks, bureaucracy, or a new specialist unless manuscript need later proves one is necessary.
 
-Secondary later research edge, only after the first: how small theatre companies divide informal practical authority among directing, props, set/repair, and experienced performers when responsibilities overlap.
+After that, return the strongest possibilities to 03 for classification against whatever manuscript edge is current then.
 
 ## 02 ↔ 03 HANDSHAKE
 
@@ -243,13 +297,13 @@ Examples:
 
 ## CURRENT STORY-CONTROL EDGE
 
-The first current-era integration pass is complete through Chapter 226.
+The first current-era integration pass is complete through Chapter 226, including the first sourced rehearsal-note wave.
 
 Next 03 cycle:
 1. Re-read current manuscript state first because 01 is actively advancing.
-2. Read the next actual sourced 02 research entry when it lands; do not integrate a research queue as though it were findings.
-3. Pressure-test actor-recovery/note-timing findings against the established Ch225 ecology above.
-4. Graduate only behavior that creates variation, social memory, or non-Greg relationship depth.
+2. Read the next sourced 02 informal-authority/social-structure research when it lands.
+3. Pressure-test proposed behaviors against existing Nessa/Jori/Teren/Rinna/Hara/Marek evidence before graduating anything.
+4. Prefer recurring favors, irritation, cleanup, repair, covering, and shorthand over a formal company hierarchy.
 5. Watch whether future chapters over-concentrate correction in Teren/Greg or let ensemble competence remain distributed.
 6. Keep magic breathing after Ch226 and do not use cross-domain echoes to force theatre/magic convergence early.
 7. Continue preferring convergence of existing pressures over a new antagonist/institution/system.
@@ -258,4 +312,4 @@ Do not create a fixed multi-chapter outline unless the author explicitly request
 
 ## RE-PROMPT [03]
 
-Continue Peg-Leg Greg Story Control from current GitHub authority. Read `AGENTS.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current `MANUSCRIPT_STATE.md` / exact recent prose, `state/WRITERS_ROOM_STATE.md`, `state/RESEARCH_LEDGER.md`, `state/PLOT_CONTROL.md`, `state/OPEN_THREADS.md`, and relevant character/setting files. The first current-era 03 pass through Chapter 226 has established differentiated theatre correction/recovery languages: Teren narrow playable notes, Nessa operational authority, Hara in-scene recovery/peer accountability, and distributed ensemble recovery. Do not turn those into doctrine or mandatory beats. Integrate only actual new 02 research findings, especially the focused actor-recovery/note-timing edge, and use them to deepen existing non-Greg relationships and social memory rather than inventing machinery. Reclassify against newer manuscript authority, update only useful durable brains, identify the next research edge, and continue the 02↔03 loop.
+Continue Peg-Leg Greg Story Control from current GitHub authority. Read `AGENTS.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current `MANUSCRIPT_STATE.md` / exact recent prose, `state/WRITERS_ROOM_STATE.md`, `state/RESEARCH_LEDGER.md`, `state/PLOT_CONTROL.md`, `state/OPEN_THREADS.md`, and relevant character/setting files. Through Chapter 226, 03 has integrated the first sourced rehearsal-note wave: Teren's narrow playable corrections, Nessa's practical prop/reset authority, Hara's in-scene recovery/peer accountability, distributed ensemble recovery, and domain-shaped competence are manuscript-supported; post-run note timing, earned shorthand, and individual note-reception styles remain possibilities rather than troupe law. Integrate the next actual 02 informal-authority research against newer manuscript authority. Favor recurring mundane work, favors, irritation, competence-based trust, and non-Greg relationships over formal hierarchy or new machinery. Update only useful durable brains, identify the next research edge, and continue the 02↔03 loop.
