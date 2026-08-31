@@ -213,19 +213,70 @@ POSSIBILITY / RESEARCH SUPPORT. Current prose already establishes chalk-marked p
 
 ---
 
+## LYSSA — ALTERATION / REWORK WORKFLOW AND CUSTOMER NETWORK
+
+**Question:**
+What practical alteration workflow, fitting logic, rework costs, material dependencies, and customer/referral patterns can deepen Lyssa's garment work as an independent social/economic engine without importing modern bureaucracy or routing her into theatre wardrobe?
+
+**Source / authority:**
+- Association of Sewing and Design Professionals, `Choosing a Sewing and Design Professional / Working With a Sewing and Design Professional`
+  https://sewingprofessionals.com/process
+  checked 2026-08-31
+- Threads, `How to Alter Home-Sewn Garments`
+  https://www.threadsmagazine.com/2013/12/20/how-to-alter-home-sewn-garments
+- Fashion Institute of Technology, Center for Continuing & Professional Studies, `SXW440 Intro to Tailoring and Alterations`
+  https://continuinged.fitnyc.edu/search/publicCourseSearchDetails.do?courseId=3727512&method=load
+  checked 2026-08-31
+- Association of Sewing and Design Professionals blog, Sarah Veblen / alteration-fitting discussion and President's Message, September 2013
+  https://www.sewingprofessionals.com/Blog?emulatemode=2&pg=15%2C15
+- Association of Sewing and Design Professionals member profiles / New Member Intros, including professional alterationists describing home-based work and word-of-mouth referrals
+  https://sewingprofessionals.com/New-Member-Intros
+  checked 2026-08-31
+
+**Supported finding:**
+- Alteration work begins with evaluating the garment, desired fit, and construction rather than treating the requested change as an isolated stitch. ASDP notes that pricing depends on the work needed and how the garment was originally constructed; specialty alterations may require more than one fitting.
+- A fitting is part of the work, not merely customer pickup. ASDP emphasizes consistent fitting conditions and early, specific customer feedback because fit decisions depend on how the garment is actually worn.
+- Customer changes after work begins can legitimately create additional charges because they create additional labor. ASDP states this directly for changed design elements or changed fitting conditions.
+- Time and construction complexity matter more than the garment's original purchase price. An apparently small change can require substantial dismantling/rebuilding because of lining, seam structure, trim, or other construction.
+- Alteration sequence matters. Threads recommends evaluating what can actually be altered, working from upper changes downward because one alteration can change later fit, marking proposed changes with pins/chalk, and checking the altered fit before completing dependent work. Available seam allowance and fabric behavior can limit reversibility; removed stitching may leave visible evidence in some materials.
+- Ordinary alteration work depends on a small ecosystem of tools and notions. FIT's current tailoring/alterations course lists measuring/marking tools plus thread, buttons, hooks/eyes, snaps, zippers, tapes, and related materials. This supports material matching and notion availability as practical constraints, though exact modern supplies are not automatically Carrow canon.
+- Repeat business can grow from trusted fitting skill, not only from advertising. Sarah Veblen describes repeat clients returning with new garments because they trust her fitting work; ASDP member profiles include alterationists whose home businesses grow through friends, neighbors, and word-of-mouth referrals.
+
+**Confidence / limits:**
+High confidence in the broad professional principles: assess construction before committing, fit/mark before irreversible work, sequence changes because they interact, charge for additional requested rework, and expect repeat/referral business around trusted skill. ASDP is a professional association and FIT is an educational institution; Threads provides expert craft instruction. The word-of-mouth examples are practitioner anecdotes rather than universal statistics. Modern written agreements, deposits, appointment systems, dry-cleaning expectations, synthetic notions, machines, zippers, and exact pricing structures are not Carrow history and should not be imported by default.
+
+**Story translation:**
+- **Physical confirmation states can carry unresolved decisions.** Pins, chalk, basting, folded allowances, an opened seam, or an unfinished cuff can mean `do not finish this until the customer confirms`. This gives Lyssa's table visible states without exposition and lets Greg encounter work he does not fully understand.
+- **The brown-cuff customer in Chapters 225–226 is already plausible rework, not evidence Lyssa failed.** The customer changed the cuff twice; Lyssa charged for both changes; the customer later preferred the first cuff. That can remain an ordinary difficult preference loop rather than becoming a morality lesson or incompetent-customer caricature.
+- **Customer changes can affect the queue, not just one garment.** Extra rework consumes time that could have gone to the green garment or another sleeve. The downstream consequence can be a later pickup, an altered errand, a different evening workload, or Lyssa declining/rationing another request. Do not turn her queue into spreadsheet narration.
+- **Fit can create legitimate stopping points.** Some work can proceed while the customer is absent; some choices are safer to leave pinned/basted/open until the customer returns. A missed or delayed fitting can stall one garment while Lyssa advances another, naturally explaining why several unrelated sleeves/garments occupy the table at once.
+- **Material matching creates ordinary routes and dependencies.** Thread, buttons, lining, trim, fastenings, and cloth may need matching or substitution. Maren is already a strong existing social node. A familiar seller recognizing Lyssa's usual thread/button needs, warning that a match is unavailable, or suggesting a substitute can deepen Carrow without inventing another supplier unless necessary.
+- **Repeat customers can carry fit/preference memory.** Someone may return because Lyssa already knows how they like sleeves, how much ease they tolerate, or what they disliked last time. This should be shown through compressed interaction, not a formal client record unless the manuscript establishes one.
+- **Referrals are a high-value offscreen-life engine.** A new customer can arrive because an existing customer, relative, neighbor, or supplier sent them. That lets people know Lyssa before Greg and lets reputation move through a network that is hers.
+- **Skill does not remove risk.** A garment may have too little allowance, fragile cloth, old stitch marks, awkward lining, mismatched buttons, or an earlier alteration that limits what can safely be changed. Lyssa can recognize and price/refuse/limit the problem without being incompetent.
+- **Do not conscript Lyssa into theatre wardrobe.** Her alteration/customer network is valuable because it belongs to her. Any theatre overlap still requires an earned customer/job/relationship connection.
+
+**Canon status:**
+POSSIBILITY / RESEARCH SUPPORT. Current manuscript establishes Lyssa's independent customer work, multiple simultaneous garments, Maren/thread familiarity, the brown-cuff customer's repeated paid changes, finished-job delivery/payment, buttons, and continued green/other garment work. Exact fitting methods, supplier relationships, customer identities, referral chains, pricing rules, and queue effects remain developmental until established in prose or explicitly approved.
+
+---
+
 ## ACTIVE RESEARCH EDGE
 
-The three-theatre-practice wave is complete enough for 03 integration:
-1. rehearsal notes / recovery / earned shorthand
-2. practical authority / multi-hatting / track ownership
-3. prop routes / costume tracks / maintenance / delayed object failures
+The first Lyssa alteration/rework research wave is complete enough for 03 integration.
 
 **02 HANDOFF READY.**
 
-Do not proliferate another theatre research topic merely because the queue exists. 03 should now pressure-test which recurring behaviors actually deepen current manuscript relationships and which would over-instrument the theatre.
+Do not expand into generic fashion history, modern tailoring-business systems, or theatre wardrobe. Pressure-test the research against current manuscript evidence first.
 
-Strong unresolved developmental question for 03:
+Strongest candidate recurring behaviors for 03 to classify:
+1. **confirmation states before irreversible work** — pin / chalk / baste / leave open until fit or preference is confirmed;
+2. **paid rework has queue consequences** — customer changes cost labor and can shift another job, errand, pickup, or evening without making Lyssa helpless;
+3. **material matching creates repeat supplier routes** — thread / buttons / lining / trim can make Maren or another already-earned supply relationship socially useful;
+4. **repeat / referral customers create Lyssa's own network** — people can know, trust, irritate, or recommend Lyssa independently of Greg.
 
-**Which 2–4 behaviors create the most social residue with the least visible machinery, especially among Nessa, Hara, Pell, Marek, Jori, Rinna, and Teren when Greg is not the center of the exchange?**
+Best unresolved question for 03:
 
-Possible future research should be driven by 03's returned edge. If 03 identifies no narrower gap, a later useful candidate is repertory scheduling / absence coverage / role replacement, because absence is a natural way to reveal invisible work and independent obligations. Do not research it yet just to keep the wheel spinning.
+**Which two or three of these behaviors add the most independent Lyssa life per word without turning the household chapters into sewing procedure?**
+
+Future research should wait for 03's returned edge. If 03 finds the manuscript already has enough alteration specificity, deliberately pause research rather than creating another queue.
