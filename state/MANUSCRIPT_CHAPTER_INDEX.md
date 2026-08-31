@@ -1,6 +1,6 @@
-# PEG-LEG GREG — CHAPTER INDEX — CH224
+# PEG-LEG GREG — CHAPTER INDEX — CH225
 
-**Current endpoint:** Chapter 224 — THE CHECKER
+**Current endpoint:** Chapter 225 — THE STEWARD
 
 1. **THE BOY**
 2. **THE BORROWER**
@@ -226,3 +226,4 @@
 222. **THE PROPERTY MAN**
 223. **THE MAINTENANCE MAN**
 224. **THE CHECKER**
+225. **THE STEWARD**
