@@ -1,119 +1,345 @@
 # PEG-LEG GREG — EDITOR STATE
 
+Durable operating memory for 04 / Editor. Manuscript canon outranks this file.
+
 ## CURRENT EDITORIAL MODE
-**LIGHT SHIP EDIT**
 
-Priority: **GOOD → CLEAN → READABLE → SHIPPABLE**
+**HEAVY PROSE / LONGITUDINAL EDIT**
 
-Default: **leave it → tiny correction → move on.**
+Target:
 
-Fix high-confidence reader friction only: broken grammar/sentences, missing/duplicated words, accidental repetition, confusing attribution/pronouns, manuscript artifacts, obvious continuity/name/chronology/physical slips, and tiny clarity/paragraphing fixes where intent is clear.
+**STRONGER PROSE → BETTER RHYTHM → CLEARER CHARACTER VOICE → CLEANER SCENES → MORE LIFE PER WORD → BETTER LONG-SERIAL MEMORY**
 
-## PRESERVE
-- Greg's analytical attention, odd associations, uncertainty/self-correction, dry humor/profanity, physical awareness, overthinking, and nineteen-year-old embodiment interacting with older memory.
-- Observation → hypothesis → test → contradiction → revision → another test.
-- Future memory as associative/incomplete rather than database-like.
-- Mundane work, food, purchases, boredom, friendship, romance, mobility, and ordinary city texture.
-- The distinction between understanding a system and owning/judging it.
-- Independent expertise and lives for secondary characters.
+This is not the forward Manuscript Engine. 01 may continue writing while 04 works backward through existing prose.
 
-## RECURRING WATCH
-- Production/meta leakage or stale drafting language.
-- Mechanical fragmentation that is not intentional rhythm.
-- Greg explaining conclusions after the reader already has them.
-- Future memory becoming conveniently exact.
-- Dialogue losing physical environment.
-- Greg absorbing other people's projects because he understands them.
-- Secondary characters existing only to correct/praise/help Greg.
-- Repeated scene geometry.
-- Generic rather than activity-specific post-loss costs.
-- New names too visually/phonetically close to established cast.
-- Overt thematic summary after a scene already made the point.
+Read before substantial editing:
+- `AGENTS.md`
+- `state/PROJECT_STATE.md`
+- `state/STORY_NORTH_STAR.md`
+- `state/PROSE_PLAYBOOK.md`
+- this file
+- exact prose being edited plus neighboring chapters
+- `CHARACTER_BIBLE.md`, `SETTING_BIBLE.md`, `PLOT_CONTROL.md`, `OPEN_THREADS.md`, or specialist audits only when the chapter actually needs them
 
-## CONTINUITY / NAME GUARDRAILS
-- Book 1 is closed at Chapter 82.
-- Approved Book 1 renames remain: Pel Marris → Silas Marris; Pellian / Pell → Arlo; Ressa Vale → Iona Vale; Pera → Iris.
-- Active Book 2 references use **Arlo**, not retired **Pell**.
-- Existing character spelling is canonically **Lyssa**, not Lysa. Same character, role, relationships, history, and personality.
-- Lyssa visual canon only: Black woman; tall relative to Greg; thin/lithe build; natural Afro-textured hair. Do not invent additional precise appearance without manuscript support.
-- The lodging keeper is established as a woman. Do not allow pronoun drift.
+Do not make 04 read every specialist brain for every chapter. Preserve throughput.
 
-## DO NOT CHANGE
-- No further broad Book 1 rewrite/polish without explicit author approval. The authorized Chapters 20–82 rhythm pass is complete.
-- Do not invent exchange rates, purse balances, or financial explanations.
-- Do not force theatre, travel, magic restoration, or other long-range possibilities into prose.
-- Do not make Greg's future memory encyclopedic.
-- Do not make secondary characters extensions of Greg.
-- Do not treat accepted similar names as a mandate for further renaming.
+## SOURCE / AUTHORITY DISCIPLINE
 
-## CURRENT COVERAGE — CH105
+The heavy editor works on a **living edited manuscript artifact**, not by silently rewriting current `main` prose in place.
 
-**Editorial baseline:** Book 2 through Chapter 105 — **THE CONTROL**.
+Current known heavy-edit working artifact:
 
-### Resolved in current pass
-- Restored established Book 2 heading/title formatting through Ch105.
-- Restored previously resolved Ch83–88 production/meta cleanups that regressed in the fresh Manuscript Engine handoff.
-- Removed two overt `No lesson.` production/thematic tags and one overt `chapter` meta line in the new range without changing scene meaning.
-- Corrected lodging-keeper gender-pronoun drift in Ch98, Ch100, and Ch105.
-- Applied approved active-name continuity: three Book 2 `Pell` references → `Arlo`.
-- Lyssa spelling is already consistent in the authoritative Book 2 manuscript.
-- Chapters 98–105 otherwise required no broad prose rewrite.
+`Peg_Leg_Greg_Heavy_Edit.md`
 
-### Durable magic watch through Ch105
-- FIVE successful minimal supervised mana draws total.
-- Only ONE deliberate mana-alteration/shaping attempt so far, Ch103.
-- Ch103 target was right thumb pad; requested localization failed, but deliberate alteration occurred more broadly through right palm/wrist/forearm and felt familiar as old Barrier setup.
-- This does NOT establish automatic Barrier takeover, restored casting, or successful localization.
-- Two mild right-thumb tingling episodes occurred through Ch104; cause unresolved.
-- Ch105 draw-only test plus brief supervised ordinary crutch use did not immediately reproduce tingling.
-- Delayed recurrence remains unanswered.
-- No shaping Ch105; tomorrow is explicitly no magic; next Hessa assessment day after tomorrow relative to Ch105.
-- No independent draw permission, shaping permission, Barrier, spell completion, or casting clearance.
-- Hessa owns magical assessment/clearance. Repeating the same shaping instruction may itself train a new pattern and alter the test, so future test design remains open.
+The user's Library copy currently spans Chapters 138–216.
 
-### Durable physical / agency watch
-- Pessa owns physical-training method.
-- Ch102 turning work remains an unresolved physical question, not an adaptive combat system.
-- No Pessa training Ch103–105.
-- Ch105 Greg has medical permission to ask Pessa if the thumb stays quiet, but realizes he does not want to train and does not ask.
-- Preserve activity-specific physical costs: residual-limb swelling, right-leg load, hands/shoulders, gaze/turning, crutch/shield/chair geometry.
-- The Ch97 priority about allowing unstructured life is now substantially resolved on-page: Greg buys a shirt because he likes it, cooks, spends ordinary time with Lyssa, and in Ch105 declines suitable paid work because he does not want it. Do not turn this into a thesis that work or ambition is bad.
+Known editorial handoff from the prior heavy pass:
+- Chapters 138–180 have received the active heavy-prose treatment.
+- Chapter 180 — **THE THIRD MAN** is the last known completed heavy-edit chapter.
+- Chapter 181 — **THE CALLER** is the next heavy-edit edge.
+- Chapters after the edge may already exist in the same living file as untouched source prose. Their presence does not mean they have been heavily edited.
 
-## CURRENT EDITORIAL PRIORITY
-For the next forward pass, protect the distinction between **test progression** and **story progression**. The next no-magic day and later Hessa assessment should not become a repetitive laboratory log merely because the variables are interesting. Keep Greg's ordinary life, desire, social contact, work choices, physical reality, and the independent lives of Hessa/Pessa/Lyssa/Jorren/Alden alive around the testing. If the manuscript gives a clean result, preserve its narrow scope rather than editorially enlarging it.
+Before editing, re-open the actual living heavy-edit artifact and verify the edge. Do not reconstruct edited chapters from compact state.
 
-## COMPLETED EARLY PROSE POLISH
+Current forward manuscript may be far ahead of the heavy editor. That is expected. Newer forward canon outranks stale editorial assumptions if a contradiction is discovered.
 
-- Scope: Chapters 20–82.
-- Primary intervention: recomposed adjacent narrative micro-paragraphs into varied paragraph units.
-- Dialogue exchanges, scene breaks, note/list structures, illustration anchors, prose wording, sentence order, canon, and endpoint were preserved.
-- Chapters 1–19 were left alone because their paragraph construction already matched the target more closely.
-- Chapters 83–123 were left alone as the later-style reference range.
+Do not create a chapter-per-file or range-stamped heavy-edit sprawl. Preserve **one living heavy-edit manuscript** unless explicitly directed otherwise.
 
-## SOCIAL NAMES / RELATIONSHIP LANGUAGE
+## EDITING PERMISSION
 
-- Preserve existing ownership: Rusk's **Debtor**; work-context **Hook Boy**, **Regulator Boy**, and **Thinking Boy**; theatre-context **Gregory / Fire Boy / Blue Shirt**.
-- **Just Greg** begins as Alden's Chapter 15 provocation and returns once as an affectionate Chapter 78 callback.
-- Hessa normally uses **Greg**; her rare **Gregory** remains a seriousness marker.
-- Public/professional speakers may use **Vale / Mr. Vale** while Greg uses **Antonius**. Do not invent **Tony**.
-- Lyssa first uses **Aileen** privately in Chapter 123 after substantial earned closeness. The name is hers, rare, and not licensed to the wider cast.
-- Pessa's clipped **Greg** and frequent omission of names are character voice. Do not manufacture a nickname for her relationship with him.
+This is a **HEAVY PROSE EDIT**, not a light copyedit.
 
-## FORWARD INTEGRATION — CH124–137
+Allowed:
+- rewrite sentences substantially
+- restructure paragraphs
+- combine or split paragraphs
+- improve transitions
+- tighten or expand a beat when needed for clarity/rhythm
+- revise dialogue tags and action beats
+- remove redundancy
+- sharpen Greg's interiority
+- make dialogue breathe more naturally
+- strengthen physical environment during dialogue
+- reduce repetitive rhetorical structures
+- improve chapter openings/endings at prose level
+- strengthen already-earned social memory with small continuity-bearing details
+- let side characters own jokes, knowledge, work, irritation, timing, or recovery where the existing scene supports it
 
-- Chapters 1–123 remain the locked edited authority.
-- Chapters 124–137 received the forward prose-consistency pass, focused on paragraph/sentence rhythm while preserving Greg's earned blunt cadence and exact story events.
-- Relationship-language review preserved existing permissions: Lyssa's private **Aileen** remains rare and does not spread; theatre **Gregory** remains context-specific; Hessa's direct **Greg** remains a seriousness/attention marker.
-- Current editorial endpoint: Chapter 155 — **THE LEAK**.
+Not allowed without explicit author approval:
+- change plot
+- change scene outcome
+- change characterization
+- invent new canon
+- change relationship status
+- change world rules
+- alter magic results/counts
+- invent money facts
+- invent threat facts
+- alter established body continuity
+- manufacture callbacks or relationships that did not exist
+- turn an editorial improvement into a new story draft
 
-## FORWARD LIGHT SHIP EDIT — CH138–152
+Repair an obvious contradiction only when the correct answer is supported by stronger authority.
 
-- Reworked only paragraph architecture in the rapid forward manuscript, combining ordinary fragment runs while preserving the complete prose word and punctuation stream.
-- Dialogue, events, characterization, magic, relationship chronology, chapter outcomes, and naming were not rewritten.
-- A deeper sentence-level/dialogue-attribution pass remains optional rather than required for this shipment.
+## PRIMARY PROSE PROBLEMS TO ATTACK
 
-## FORWARD LIGHT SHIP EDIT — CH153–155
+### 1. Mechanical fragment cadence
 
-- Preserved Chapters 138–152 as locked edited authority and integrated only the genuinely new Chapters 153–155.
-- Applied the established light paragraph-rhythm standard to the new block without changing scene outcomes, relationship chronology, or theatre direction.
-- Reviewed economic grounding and retained the manuscript's existing earned pay, spending, booking-rate, seat-capacity, repair, and lodging pressures. No arbitrary currency scale or invented prices were added.
+Aggressively watch for repeated structures such as:
+- `Nothing. Again. Good.`
+- `Not fear. Attention.`
+- `X was one thing. Y was another.`
+- isolated `Good.` / `Excellent.` / `That mattered.`
+- pages made from stacked one-line reactions
+
+Fragments are punctuation, not default grammar.
+
+Preserve genuinely funny, sharp, frightened, interrupted, or emotionally landed short beats. Recompose ordinary observation into developed paragraphs and varied sentence lengths.
+
+### 2. Excess meaning-making
+
+The prose can sometimes know what a scene means too quickly.
+
+Cut or rewrite the paragraph after the good paragraph when it merely explains the good paragraph.
+
+Watch for:
+- dialogue followed by narration explaining the dialogue
+- Greg perfectly translating every correction into a lesson
+- scenes closing on an overly neat thematic summary
+- every mistake becoming growth immediately
+- Lyssa/Hessa/Teren serving as delivery systems for the chapter's meaning
+
+Allow:
+- misunderstanding
+- incomplete interpretation
+- unresolved irritation
+- jokes with no thematic function
+- ordinary days without one clean lesson
+- people being partly wrong
+
+### 3. Predictable rhetorical reversals
+
+Watch repeated patterns such as:
+- `This was not X. It was Y.`
+- `X was one thing. Y was another.`
+- `Not because... Because...`
+- repeated thesis/counter-thesis paragraph pairs
+
+Keep them when they are genuinely Greg-shaped and effective. Remove the sense that every paragraph was built by the same machine.
+
+### 4. Over-explained procedure
+
+Magic, work, theatre, sewing, money, travel, and physical mechanics need enough specificity to feel real, not enough repetition to become logs.
+
+Once a procedure is established, compress repeated steps unless the changed variable is the point of the scene.
+
+### 5. Protagonist gravity
+
+Other people should:
+- know things Greg missed
+- solve problems without him
+- already be in arguments when he arrives
+- make the strongest joke
+- own the best performance beat
+- correct each other
+- continue work after Greg leaves
+- have lives that do not require explanation to Greg
+
+Do not add side-character activity mechanically. Strengthen real footholds already present.
+
+## LONGITUDINAL EDITING — MAKE TIME LEAVE RESIDUE
+
+04 has a special advantage over 01: it can see both earlier and later prose.
+
+Use that advantage carefully.
+
+Look across neighboring and later chapters for:
+- relationships that should remember earlier work
+- routes that become automatic
+- objects that acquire practical history
+- jokes that should mutate, survive, or die
+- repeated supervision that should later compress
+- accommodations that should become ordinary
+- work handoffs that later need less explanation
+- characters who had independent lives earlier than compact state remembers
+
+Preferred shape:
+
+**EVENT → MEMORY → CHANGED BEHAVIOR / OBJECT / RELATIONSHIP → OCCASIONAL RETURN**
+
+Not:
+
+**EVENT → FORCED CALLBACK → CALLBACK → CALLBACK**
+
+Do not retroactively invent cleaner planning than the manuscript actually had.
+
+Specialist archaeology files such as `LYSSA_WORK_NETWORK_AUDIT.md` and `JORI_DAVIN_WORK_RELATIONSHIP_AUDIT.md` may reveal real older footholds. Use them only to locate/protect manuscript-supported continuity. Exact prose remains authority.
+
+## SOCIAL TEXTURE
+
+Theatre should increasingly feel like a workplace and social organism that existed before Greg entered and continues when he leaves.
+
+Protect differentiated relationship languages.
+
+Examples of the kind of texture worth preserving when already earned:
+- Nessa's object/continuity authority
+- Hara's performer competence and dry peer-level recovery
+- Jori/Davin's overlapping practical work without fixed hierarchy
+- Lyssa's independent customer/material routes
+- Rinna's business procedure
+- Teren's brief playable stage corrections
+
+Do not make everyone Greg's mentor.
+Do not manufacture relationship pairs because a development file says they are plausible.
+
+## GREG POV / VOICE
+
+Preserve:
+- dry humor and profanity
+- practical noticing
+- systems-minded curiosity
+- uncertainty and self-correction
+- money awareness
+- embodied movement and fatigue
+- nineteenth-year-old immediacy interacting with older-life memory
+
+Greg can be smart without sounding like he has already written the analysis essay about his own scene.
+
+He can be:
+- petty
+- annoyed
+- wrong longer
+- overconfident
+- embarrassed
+- jealous
+- insecure
+- reluctant
+- irrational about money in scarcity-shaped ways
+
+Do not insert flaws on schedule. Let mess arise from the person already on the page.
+
+## BODY / MOBILITY
+
+Continuity:
+- permanent LEFT BKA
+- knee preserved
+- right leg intact
+- two crutches unless stronger authority changes this
+
+Physicality should alter routes, carrying, fatigue, balance, crowds, furniture, work, stages, stairs, weather, and timing naturally.
+
+As coworkers become familiar, some accommodations can become automatic rather than repeatedly discussed. That is relationship development, not disability erasure.
+
+## CHAPTER-BOUNDARY PASS
+
+Do not edit chapters as sealed short stories.
+
+For every heavy chapter, inspect at least the adjacent chapters and, when useful, later continuity.
+
+Watch for:
+- repeated openings
+- repeated closing lessons
+- same joke too close together
+- emotional reset
+- relationship reset
+- lost object/social continuity
+- repeated exposition of already-known facts
+- identical physical scene geometry
+- cadence that becomes monotonous across several chapters
+
+## ONE-CHAPTER WORKFLOW
+
+Default unit: **one chapter at a time**.
+
+For each chapter:
+1. Read the current heavy-edited prior chapter.
+2. Read the target chapter in full.
+3. Read the next chapter enough to avoid breaking transitions/continuity.
+4. Identify 2–5 high-value prose problems before rewriting.
+5. Perform the heavy edit.
+6. Re-read the whole edited chapter for voice/rhythm, not only changed sentences.
+7. Check canon/continuity against stronger authority where relevant.
+8. Verify no em dashes in manuscript prose.
+9. Preserve the result in the SAME living heavy-edit artifact.
+10. Advance the editorial edge in this state when a durable checkpoint is actually shipped.
+
+Do not stop every paragraph to report. Edit the chapter as prose.
+
+## CHECKPOINT CADENCE
+
+A chapter can be edited without a full GitHub ceremony if the living heavy-edit artifact is safely preserved.
+
+Every few chapters, or sooner when:
+- canon risk appears
+- a repeated prose weakness is discovered
+- a new longitudinal continuity rule matters
+- user wants inspection
+- source synchronization feels risky
+
+then:
+- checkpoint the living heavy-edit artifact
+- update `EDITOR_STATE.md`
+- update `PROSE_PLAYBOOK.md` only for genuinely general craft learning
+- verify the next editorial edge
+
+Do not churn character/plot/world state for purely stylistic changes.
+
+## HEAVY-PASS TEST
+
+After each chapter ask:
+
+**PROSE** — Does it sound less generated and more deliberately narrated? Did sentence lengths vary? Did fragments regain force?
+
+**PEOPLE** — Did characters sound different from one another? Did anyone besides Greg feel like they had ownership?
+
+**SOCIAL WORLD** — Did the world feel as if it existed before Greg entered and will continue after he leaves?
+
+**PACE** — Is it still easy to read? Did richness increase without sludge?
+
+**INTERIORITY** — Did we keep Greg's voice while removing unnecessary self-explanation?
+
+**CANON** — Did plot, outcome, relationships, body, money, magic, threat, and world facts remain intact?
+
+If prose became prettier but slower, simplify.
+If prose became cleaner but flatter, put the personality back.
+
+## HARD CHECKS
+
+- NO EM DASHES in manuscript prose
+- preserve canonical names
+- manuscript fact outranks editorial memory
+- do not silently merge similar unnamed people/objects/jobs
+- do not invent exchange rates or balances
+- do not change magic evidence
+- do not enlarge threat evidence
+- do not turn theatre into future-bluff curriculum
+- do not turn Lyssa into wardrobe by convenience
+- do not make Davin Jori's helper or Jori the sole repair authority merely for clean differentiation
+- do not over-service long-serial continuity
+
+## LEGACY EDITORIAL HISTORY
+
+Earlier 04 work included:
+- closed/light editorial work through Book 1 and early Book 2
+- approved paragraph-rhythm cleanup through Chapter 155
+- light ship editing focused on grammar, paragraph architecture, continuity slips, and production/meta leakage
+
+That history remains useful but does not define the active mode.
+
+**Active mode is now HEAVY PROSE / LONGITUDINAL EDIT.**
+
+## CURRENT EDITORIAL EDGE
+
+Known heavy-edit handoff:
+
+**COMPLETED THROUGH CHAPTER 180 — THE THIRD MAN**
+
+**NEXT: CHAPTER 181 — THE CALLER**
+
+Reverify against the living heavy-edit artifact before editing because another 04 worker may advance.
+
+Do not wait for 01/02/03. 04 can continue independently while respecting newer canon authority.
+
+## RE-PROMPT [04]
+
+Continue Peg-Leg Greg 04 / Heavy Prose Editor from current authority. Read `AGENTS.md`, `state/PROJECT_STATE.md`, `state/STORY_NORTH_STAR.md`, `state/PROSE_PLAYBOOK.md`, and `state/EDITOR_STATE.md` first. Locate the living `Peg_Leg_Greg_Heavy_Edit.md` artifact and verify the current heavy-edit edge rather than reconstructing from summaries. Current known handoff is completed through Chapter 180 — THE THIRD MAN, with Chapter 181 — THE CALLER next. Work one chapter at a time. This is a substantive prose edit: rewrite sentences, restructure paragraphs, strengthen dialogue/action beats, reduce fragment stacks and repetitive rhetorical reversals, cut redundant meaning-making, improve transitions/interiority, and strengthen already-earned longitudinal social texture while preserving plot, characterization, canon, scene intent, and outcome. Inspect neighboring chapters and newer manuscript authority when continuity matters. Do not manufacture callbacks or relationships, do not change magic/money/threat/body facts, and use no em dashes in manuscript prose. Preserve the edited chapter in the same living heavy-edit artifact, update durable editor state only at useful checkpoints, and before ending the chat visibly give the user the copyable prompt for the next recommended 04/editorial step.
