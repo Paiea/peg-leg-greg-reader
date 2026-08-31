@@ -68,13 +68,46 @@ Investigate / explore:
 
 Do not give everyone a gimmick or nickname. Let roles and labels emerge from repeated behavior.
 
+## REHEARSAL-NOTE RESEARCH — DURABLE SYNTHESIS
+
+The first modern research wave is complete enough for 03 to pressure-test. Reusable sourcing lives in `RESEARCH_LEDGER.md`.
+
+Strongest research-supported developmental behaviors:
+
+1. **Run first, note after when the scene can survive.**
+   Full runs often accumulate notes and address them afterward rather than stopping every minor acting error. This fits current prose, where Teren already distinguishes physical problems worth stopping from tiny performance corrections. Use sparingly; safety, broken traffic, or work that cannot continue can still justify an immediate stop.
+
+2. **Authority is domain-specific.**
+   A useful Carrow translation is not one omnipotent theatre boss. Teren can own acting/story adjustments, Nessa props/reset/traffic, Jori physical build/safety/geometry, and Rinna house/business procedure where manuscript evidence supports it. Social friction can come from someone crossing a boundary, not from inventing bureaucracy.
+
+3. **Shorthand should be earned.**
+   Long-running collaborators can compress notes into a word, look, gesture, or old phrase. Greg should receive more explicit correction while new, then gradually understand less language because shared work has accumulated. Compression itself can become evidence of belonging without anyone announcing it.
+
+4. **Partners rescue the play, not the mistake.**
+   Hara's Chapter 225 bridge after Greg presents her choice too early is exactly the useful pattern: keep the live scene moving, then let the correction, irritation, joke, or memory survive afterward. Let Hara/Pell/Marek and others rescue one another too so competence is ensemble-wide rather than Greg-centered.
+
+5. **How people receive notes can differentiate them.**
+   Greg currently tends to explain why he made the mistake before resetting. Other actors may absorb and retry, ask one precise clarification, privately disagree, or joke and still adjust. Do not assign fixed note-receipt gimmicks without manuscript evidence. Let repeated behavior reveal the difference.
+
+## RELATIONSHIP / SOCIAL-MEMORY OPPORTUNITIES
+
+Use the research to deepen existing relationships rather than creating a theatre lesson system.
+
+High-value possibilities:
+- **Teren / Greg:** the length of Teren's corrections can shorten as Greg earns shared shorthand. This should read as accumulated working trust, not praise or skill-level UI.
+- **Nessa / Hara / Marek:** prop and backstage authority can reveal independent history. Hara may know why an object needs to be placed a certain way; Nessa may accept the practical correction because it belongs to the object/traffic domain; Marek's touching-things habit can remain funny while occasionally producing real extra work for people other than Greg.
+- **Hara / Pell / Marek:** show experienced actors covering one another's missed cue, drift, or awkward moment. Greg does not need to be present or understand the history immediately.
+- **Nessa / Teren:** useful professional interdependence can appear when a problem sits between acting and physical continuity. One can defer to the other's domain without either becoming subordinate in every context.
+
+Keep these as POSSIBILITIES until prose establishes them.
+
 ## RESEARCH MODE
 
 Use `RESEARCH_LEDGER.md` for reusable external knowledge.
 
-Highest-value first research wave:
-1. acting / rehearsal-note practice in real ensemble or repertory settings
-2. small theatre-company informal hierarchy / social structure
+Current research sequence:
+1. acting / rehearsal-note practice — first wave researched; ready for 03 integration
+2. small theatre-company informal hierarchy / social structure — CURRENT 02 EDGE
 3. backstage prop and costume handoff / tracking / repair practice
 
 Research should answer focused questions, then translate the answer into **behavior, mistakes, authority, timing, objects, or social friction**.
@@ -92,7 +125,7 @@ Priority people to deepen without converting them into Greg satellites:
 - Marek
 - Rinna
 - Teren
-- broader troupe members where current prose gives footholds
+- Hara / Pell and broader troupe members where current prose gives footholds
 
 Look especially for relationships Greg is not part of.
 
@@ -139,17 +172,19 @@ Do not mention Bren or any threat merely to keep it warm.
 
 ## CURRENT DEVELOPMENT EDGE
 
-Start by researching and developing **how real actors in an ensemble receive and use rehearsal notes**, especially:
-- notes given after a run versus during work
-- narrow playable notes versus abstract thematic notes
-- how experienced actors recover after mistakes
-- how scene partners compensate without making the mistake disappear
-- how note culture reveals hierarchy / trust / irritation
+Research **small theatre-company informal authority and social structure**, not formal org charts for their own sake.
 
-Then translate only the strongest findings into 3–5 possible recurring theatre behaviors for the existing troupe.
+Focused questions:
+- In a small/repertory ensemble, who becomes the unofficial go-to person for practical problems and why?
+- How do repeated favors, covering absences, food, cleanup, borrowing, lateness, repairs, and pre-show checks create social debt or status?
+- Which kinds of authority come from competence/trust rather than title?
+- What happens when the nominal person in charge is busy, absent, or not the best person for the immediate problem?
+- How can this produce relationships among Nessa, Hara, Pell, Marek, Jori, Rinna, Teren, and others that do not require Greg?
 
-After that, ask which existing relationships those behaviors could deepen rather than inventing new characters immediately.
+Translate only the strongest findings into 3–5 recurring workplace/social behaviors. Prefer existing troupe members and current jobs over inventing new ranks.
+
+After that, hand the rehearsal-note synthesis plus informal-authority possibilities to 03 for pressure-testing against exact manuscript evidence.
 
 ## RE-PROMPT [02]
 
-Continue Peg-Leg Greg Writers' Room from current GitHub authority. Read `AGENTS.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current manuscript/state, `state/WRITERS_ROOM_STATE.md`, and `state/RESEARCH_LEDGER.md`. Research the active acting/rehearsal-note edge using credible sources, record only durable findings in the research ledger, then develop how those practices could deepen the existing theatre ensemble, social memory, offscreen life, and relationship-specific behavior. Keep research separate from canon. Update Writers' Room state with durable residue and identify the next edge rather than treating the update as the end of the work.
+Continue Peg-Leg Greg Writers' Room from current GitHub authority. Read `AGENTS.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current manuscript/state, `state/WRITERS_ROOM_STATE.md`, and `state/RESEARCH_LEDGER.md`. The first rehearsal-note research wave is complete. Continue the active edge by researching small theatre-company informal authority/social structure using credible sources: unofficial go-to people, practical vs artistic authority, covering absences, favors, lateness, food, cleanup, borrowing, repairs, and pre-show responsibility. Translate the strongest findings into a few recurring behaviors for existing troupe members and non-Greg relationships. Keep research separate from canon. Update durable residue, identify the next edge, and hand developed possibilities to 03 rather than forcing a fixed outline.
