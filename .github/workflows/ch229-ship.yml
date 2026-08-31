@@ -1,0 +1,35 @@
+name: Ship Chapter 229
+on:
+  push:
+    branches:
+      - manuscript/ch229-ship2
+permissions:
+  contents: write
+jobs:
+  ship:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: manuscript/ch229-ship2
+          fetch-depth: 0
+      - name: Append and verify
+        run: |
+          cat .tmp/ch229.txt >> state/manuscript/Peg_Leg_Greg_Running_Manuscript.md
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          text = Path('state/manuscript/Peg_Leg_Greg_Running_Manuscript.md').read_text()
+          assert text.count('# CHAPTER 229') == 1
+          ch = text.split('# CHAPTER 229', 1)[1]
+          words = re.findall(r"\b[\w’'-]+\b", ch)
+          assert len(words) >= 2500, len(words)
+          assert '—' not in ch
+          print(f'Chapter 229 words: {len(words)}')
+          PY
+          rm .tmp/ch229.txt .github/workflows/ch229-ship.yml
+          git config user.name 'Peg-Leg Greg Manuscript Engine'
+          git config user.email 'actions@users.noreply.github.com'
+          git add -A
+          git commit -m 'Append Chapter 229 THE ROAD ONE'
+          git push origin HEAD:manuscript/ch229-ship2
