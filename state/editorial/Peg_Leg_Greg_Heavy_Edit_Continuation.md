@@ -829,3 +829,1129 @@ Now Hessa wanted new fins tomorrow.
 My shoulder hurt. Blue thread covered half the table again.
 
 Lyssa began unlooping the remaining bundles from her arm.
+
+---
+
+# CHAPTER 182
+
+## THE SUBJECT
+
+Davin had the curtain wheel on the floor when I reached East Market Hall.
+
+It looked smaller between his knees than it had above my head, which seemed unfair. Most things lost authority once somebody took them apart.
+
+Davin sat on an overturned bucket, working a narrow metal pin out of the wheel's center. The curtain cord hung uselessly from its bracket. Beside him, a man I did not know stood on a ladder scraping old wax from the metal above.
+
+"Today is tomorrow," I said.
+
+Davin looked at me.
+
+"Yes."
+
+"Good."
+
+He went back to the pin.
+
+That concluded our conversation.
+
+Jori was back too. I discovered this because a thin man with a crooked nose was standing beside the low box I had used yesterday, cue page folded in half in one hand.
+
+"Are you Jori?"
+
+"Yes."
+
+"I did your job."
+
+"I heard."
+
+"I was adequate."
+
+He glanced up at the curtain cord hanging loose from the ceiling.
+
+"Apparently."
+
+Then he walked away.
+
+I had expected his return to bother me. Yesterday I had been Caller. Today the actual caller had come back and reclaimed the job without discussion, ceremony, or gratitude for my service.
+
+Mostly I felt relieved.
+
+Rinna intercepted me before I could steal one of the baker's rolls.
+
+"Third Man tonight."
+
+"My goat?"
+
+"Your goat."
+
+"Tovin said it wrong."
+
+"He says most things wrong."
+
+"Why did you let him have it?"
+
+"You were busy."
+
+That was apparently the entire theory of casting.
+
+I took a roll. Rinna watched me do it and did not object.
+
+That worried me more than being caught.
+
+"Guild after midday," I said.
+
+"I know."
+
+"How?"
+
+"You told Teren."
+
+"I did?"
+
+"You tell people things."
+
+I thought of the note under our door.
+
+DO NOT BRING PELL.
+
+"I should work on that."
+
+"Yes."
+
+Rinna pointed toward a stack of chairs.
+
+I moved chairs until noon.
+
+Lyssa did not appear. Neither did Pell, which made keeping him away from Hessa considerably easier.
+
+After midday I went to the Guild.
+
+Hessa was not there.
+
+Her room stood open, but a gray-coated man had occupied the table with three wooden boxes. He was comparing the seals on each box against a page and seemed perfectly content to behave as if the room belonged to him. I recognized none of the marks and, in a rare moment of personal growth, did not investigate.
+
+I sat outside.
+
+A woman carrying a tray of small prepared glass beads came down the corridor, saw the boxes through Hessa's door, swore quietly, and kept walking. Farther down, two Guild workers were arguing about whether something belonged in south storage or had merely been found there.
+
+"If it was logged east, it stays east until someone changes the page."
+
+"The crate is south."
+
+"Then the crate is wrong."
+
+I liked him.
+
+Hessa arrived carrying six pale paper fins in one hand and looking irritated about something that had nothing to do with me.
+
+"You're here."
+
+"You told me to be."
+
+"Good."
+
+She looked into her room.
+
+The gray-coated man looked up. "Five minutes."
+
+"You said that ten minutes ago."
+
+"I wasn't here ten minutes ago."
+
+He considered this.
+
+"Five minutes."
+
+Hessa sat beside me.
+
+I looked at the fins. "New fins."
+
+"Yes."
+
+"Did you make them?"
+
+"No."
+
+"Who did?"
+
+"Someone who folds paper better than you."
+
+"That could be anyone."
+
+"Yes."
+
+For the next five minutes she watched Guild workers pass and I practiced not asking about the boxes. At six minutes, Hessa stood.
+
+The gray-coated man emerged with two boxes and left the third on her table.
+
+Hessa stopped him.
+
+"No."
+
+He looked at the box.
+
+"I need the table."
+
+He took it.
+
+Apparently her workday had rules too.
+
+Inside, she pointed at the chair. "Sit. Do not touch anything."
+
+"I know."
+
+"You touched the glass last time."
+
+"After."
+
+"You touched it."
+
+I sat.
+
+The old wooden frame was gone. The glass shield remained, along with the small washers and the wedges Hessa used to bully the table into behaving. In place of the frame she brought out a flat board with two shallow grooves cut parallel across its surface. Three small ink marks ran beside each groove.
+
+"New?"
+
+"Mostly."
+
+"Mostly?"
+
+"The board is old."
+
+"From what?"
+
+"Not relevant."
+
+That meant I would never know.
+
+She laid the six fins in a row. Each was a small folded piece of the same pale paper, with a flat foot and an upright face. Their folds were sharper than mine had been.
+
+Hessa lifted the first.
+
+"Look."
+
+"I am."
+
+"The base."
+
+I looked. "Flat."
+
+She set it down and handed me the second.
+
+"Flat."
+
+By the sixth I understood the assignment and resented it.
+
+"Flat."
+
+"Good."
+
+"Was that a test?"
+
+"No."
+
+"Good."
+
+She took a narrow piece of wood and pressed it along each fold in turn.
+
+"Same edge," she said. "Same paper. Same fold."
+
+"Same person?"
+
+"Yes."
+
+"Who?"
+
+"No."
+
+She placed two fins into the grooves and slid the glass shield over them. Then she checked the table with the same small wedges as before. One leg earned a thin sliver of wood.
+
+"Nothing yet," she said.
+
+"I know."
+
+She tapped the table. Neither fin moved. She walked around it. Nothing. She opened the glass, switched the fins between grooves, closed it, and tapped again.
+
+Still nothing.
+
+"You're making this very boring."
+
+"That is the intention."
+
+"I know."
+
+"Do you?"
+
+I looked at the matched paper, the matched folds, the two grooves, the little ink marks.
+
+Unfortunately, yes.
+
+"Why did you write not to bring Pell?"
+
+"Who?"
+
+I stared at her.
+
+The corner of Hessa's mouth moved.
+
+Barely.
+
+"You remembered."
+
+"Unfortunately."
+
+"Why?"
+
+"Because you described a man under a stage speaking through leather."
+
+"That is Pell."
+
+"I gathered."
+
+"He would have liked this."
+
+"No."
+
+"He likes garbage."
+
+"No."
+
+"Fair."
+
+Hessa sat opposite me.
+
+"Hands."
+
+I put them on the table.
+
+She checked my fingers, palm, wrist, and forearm, then went through the familiar questions. Pain. Numbness. Tingling. Heat. Anything unusual since the last session.
+
+No to all of them.
+
+"Draw."
+
+I did.
+
+Mana came with the familiarity that had become dangerous to mistake for ease. I kept the draw minimal and held it where she had taught me to hold it.
+
+"Stop."
+
+I stopped.
+
+"Again."
+
+"Again?"
+
+"Baseline."
+
+The second draw was smaller and cleaner. The familiar unevenness along the wrist edge remained, neither stronger nor gone. Hessa touched two fingers lightly to the inside of my wrist, watched, then told me to stop.
+
+She wrote.
+
+"Two?" I asked.
+
+"Two."
+
+"So twenty-four."
+
+"Yes."
+
+I had been keeping count.
+
+Apparently so had she.
+
+"Shape."
+
+"No paper?"
+
+"Not yet."
+
+I shaped the draw without trying to send anything anywhere. The old wrist-edge asymmetry appeared almost immediately. I tried to correct it and corrected too hard.
+
+"No," Hessa said.
+
+"I know."
+
+"Then stop."
+
+I stopped.
+
+She let me settle before giving the instruction again.
+
+The second shaping held better. I stopped fighting the wrist edge, kept the alteration small, and held it through three breaths.
+
+"Stop."
+
+I stopped.
+
+Hessa wrote again.
+
+"Twenty."
+
+"Yes."
+
+I flexed my hand.
+
+"So now paper."
+
+"Now paper."
+
+From a small cloth bag she poured six wooden counters into her palm. Three had black dots. Three were blank.
+
+"What are those?"
+
+"Not magic."
+
+"I assumed."
+
+"You shouldn't."
+
+She hid two counters in her closed hands.
+
+"Choose."
+
+"Why?"
+
+"Choose."
+
+"Left."
+
+She opened her left hand. Black dot.
+
+The counter went beside the left groove.
+
+"Target?"
+
+"Yes."
+
+"You could have just said left."
+
+"Then you would know I chose left."
+
+"I know now."
+
+"Yes."
+
+I hated this.
+
+She closed the glass.
+
+"One attempt. Then we inspect."
+
+I settled while voices moved through the corridor outside and somebody dragged something heavy across stone.
+
+The target fin waited on the left.
+
+I drew. Shaped. Tried not to stare at the edge of the paper.
+
+That lasted almost no time at all.
+
+I wanted it to move. I wanted it badly enough that I caught myself trying to convert wanting into evidence before anything had happened.
+
+I let that go and shaped toward the space in front of the fin.
+
+The familiar wrist-edge tendency pulled sideways. I corrected, went too far, backed off, made it smaller.
+
+The fin moved.
+
+I stopped breathing.
+
+It had crossed the first ink mark.
+
+The right fin had not moved.
+
+"It moved."
+
+"Stop."
+
+I stopped.
+
+Hessa did not look at me. She looked at my hands, the glass, the target, the control. She walked around the table, opened the shield, checked the target's base, the control's base, the groove, the ink mark, and the wedge under the table.
+
+Then she switched the fins.
+
+The fin that had moved went into the right groove. Its partner went left.
+
+Hessa hid the counters again.
+
+"Choose."
+
+"Right."
+
+Blank.
+
+She placed it beside the right groove.
+
+"Target?"
+
+"Right."
+
+"Again."
+
+"That's the same fin that moved."
+
+"Yes."
+
+"So if it moves again, we know the fin is easier."
+
+"No."
+
+I looked at her.
+
+"Because that is not the only explanation."
+
+"Right."
+
+I hated her.
+
+The second attempt felt worse almost as soon as I shaped. Not painful. Crowded. The alteration would not sit where I wanted it, and when I tried to force it narrower Hessa cut in.
+
+"Don't chase."
+
+I loosened it.
+
+Nothing moved.
+
+I held.
+
+Still nothing.
+
+"Stop."
+
+I stopped.
+
+Hessa wrote.
+
+"That doesn't help."
+
+"It does."
+
+"How?"
+
+"It didn't move."
+
+"That's not helpful."
+
+"It is information."
+
+"I know."
+
+"Do you?"
+
+"No."
+
+She let me rest.
+
+I rubbed my palm. The cloth I had wrapped around the crutch grip yesterday had left a faint line across the skin.
+
+Hessa noticed.
+
+"What's that?"
+
+"Curtain."
+
+She looked at me.
+
+"That answer is not useful."
+
+"I pulled a curtain."
+
+"Better."
+
+"I called a ghost."
+
+"No."
+
+"Fine."
+
+She waited until I stopped smiling.
+
+Then she replaced both fins with two unused ones, checked their bases, lowered the glass, and brought out the counters.
+
+"Choose."
+
+"Left."
+
+Blank.
+
+Target right.
+
+I did not like not choosing the target, which was probably why she was doing it.
+
+On the third external attempt, the shape came cleaner. Not easy. Cleaner.
+
+The wrist edge appeared. This time I let it exist instead of wasting effort pretending it did not. I worked around it and shaped toward the right fin.
+
+Nothing.
+
+I kept the alteration small.
+
+Nothing.
+
+Then the fin gave a tiny jump.
+
+Its upright face twisted a fraction sideways toward the groove wall.
+
+The left control remained still.
+
+"Stop," Hessa said.
+
+I stopped.
+
+She inspected everything again.
+
+"That wasn't forward."
+
+"No."
+
+"Does it count?"
+
+"As movement."
+
+"Caused by me?"
+
+"Wait."
+
+So I waited while she removed the right fin, stood it on the table, tapped the board, replaced it, and switched the pair.
+
+"Again?"
+
+"No."
+
+"What?"
+
+"Rest."
+
+"I can do another."
+
+"I know."
+
+"Then why rest?"
+
+"Because your hand is shaking."
+
+I looked.
+
+It was. Barely, but enough that I could see it once she pointed it out.
+
+I put my hand in my lap.
+
+Hessa wrote. I leaned, trying to read the page upside down.
+
+She covered it with her hand.
+
+"Hostile."
+
+"Rest."
+
+The room refused to become dramatic while I waited. Someone outside laughed. A cart rattled over stone. Hessa got water, then spent part of my rest reading another sheet as if my attempt to alter the nature of reality had not cleared her afternoon.
+
+I drank.
+
+"How many external attempts is that?"
+
+"Three today."
+
+"So eight."
+
+"Yes."
+
+"And two movements."
+
+"Today."
+
+"Three total."
+
+"Observed movements during external attempts, yes."
+
+"That sounds good."
+
+"It sounds like three movements."
+
+"You're impossible."
+
+"Good."
+
+After several minutes she chose a new pair of fins.
+
+The counters disappeared into her hands before I could complain.
+
+"Choose."
+
+"Right."
+
+Black.
+
+Target right.
+
+"Last."
+
+"Only?"
+
+"Last."
+
+I settled again. My right shoulder hurt from yesterday's curtain work. My palm hurt too.
+
+My wrist did not.
+
+That mattered more.
+
+I drew, then shaped. Kept it small. Kept my shoulder down. Kept the paper from becoming anything except paper in my head.
+
+I did not imagine an audience. I did not imagine Pell or his ghost tube or the satisfaction of telling anyone that Hessa had finally run out of ways to say maybe.
+
+I tried to make one stupid piece of paper move a stupidly small distance while one woman watched and refused to be impressed.
+
+The right fin moved forward.
+
+Enough to cross the first ink mark.
+
+The control did not visibly move.
+
+I released the shape immediately.
+
+"Stop."
+
+"I stopped."
+
+"Hands away."
+
+I pulled them back.
+
+Hessa checked the glass, table, fin, control, groove, base, wedges. She switched the fins and checked again.
+
+Then she sat and wrote for long enough that I started to resent literacy.
+
+"Well?"
+
+"No."
+
+"No what?"
+
+"Do not make me answer while I am writing."
+
+I waited.
+
+When she finished, she turned the page toward me.
+
+Four lines.
+
+Left target, forward movement.
+
+Right target, none.
+
+Right target, lateral movement.
+
+Right target, forward movement.
+
+Below them:
+
+THREE DIFFERENT FINS MOVED ACROSS TWO POSITIONS.
+
+I read that twice.
+
+"Three?"
+
+"The first, the third, the fourth."
+
+"The second was the same fin as the first."
+
+"Yes. It did not move."
+
+"So three different fins moved."
+
+"Yes."
+
+"While I was shaping."
+
+"Yes."
+
+"Targets."
+
+"Yes."
+
+"Controls didn't."
+
+"No visible control movement."
+
+I looked at her.
+
+"Did I move paper?"
+
+Hessa leaned back. I could see the answer getting assembled into something technically accurate and emotionally useless.
+
+"Under this setup, during supervised deliberate shaping toward a designated paper target, we have now observed small movement of multiple target fins without visible movement of the paired controls."
+
+I waited.
+
+"That is a terrible sentence."
+
+"It is an accurate sentence."
+
+"Did I do it?"
+
+"We have removed the easiest explanation from last time."
+
+"That isn't what I asked."
+
+"I know."
+
+"Hessa."
+
+She looked at the page, then the fins, then me.
+
+"Yes."
+
+Nothing happened.
+
+No flash. No pressure. No revelation.
+
+I sat there anyway.
+
+"Yes?"
+
+"Within the limits I just stated."
+
+"I moved paper."
+
+"You produced a repeatable external response under this apparatus."
+
+"Paper."
+
+"Do not make me regret this."
+
+I smiled.
+
+Hessa pointed at me.
+
+"No."
+
+"I'm not doing anything."
+
+"You are expanding the claim in your head."
+
+"I am not."
+
+"You are."
+
+I was.
+
+I stopped.
+
+Mostly.
+
+"What does it mean?"
+
+"That we have a result."
+
+"What can I do?"
+
+"This."
+
+She pointed at the paper.
+
+"That's pathetic."
+
+"Yes."
+
+I laughed.
+
+She almost did. I saw it.
+
+"Can we try something heavier?"
+
+"No."
+
+"Farther?"
+
+"No."
+
+"Different direction?"
+
+"Not today."
+
+"Tomorrow?"
+
+"No."
+
+"Why?"
+
+"Because you have done two minimal draws, two deliberate shaping baselines, and four external attempts."
+
+I counted it again, because apparently I had forgotten arithmetic while celebrating.
+
+"Twenty-four draws. Twenty shaping. Nine external."
+
+"Yes."
+
+"Nine?"
+
+"Four today."
+
+Right.
+
+Hessa folded the page.
+
+"You are done."
+
+"But now we know."
+
+"Now we know one thing."
+
+"One good thing."
+
+"One small thing."
+
+"Same."
+
+"No."
+
+I looked at the fins.
+
+"What next?"
+
+"Direction."
+
+"Forward?"
+
+"Whether forward is yours or the apparatus."
+
+That shaved a little off the smile.
+
+"How?"
+
+"Different orientation. Different target direction. Same fins. Not today."
+
+"Because my hand was shaking."
+
+"Among other things."
+
+She gathered the counters.
+
+"What other things?"
+
+"You have somewhere to be."
+
+I looked toward the window. The light had shifted.
+
+"Shit."
+
+"Yes."
+
+"Rinna."
+
+"Probably."
+
+I grabbed my crutches.
+
+"Greg."
+
+I stopped.
+
+"Restrictions remain."
+
+"I know."
+
+"Say them."
+
+"No independent draw. No shaping. No testing. No trying paper at home. No trying anything else because paper worked."
+
+"Good."
+
+"It worked."
+
+"Leave."
+
+I left.
+
+Halfway down the corridor, I turned around and went back.
+
+Hessa looked up.
+
+"What?"
+
+"Can I tell Lyssa I moved paper?"
+
+She stared at me.
+
+"Leave."
+
+I took that as yes.
+
+By the time I reached East Market Hall, Davin had the curtain wheel back in its bracket and Jori was calling as though neither fact required my attention.
+
+Nobody cared that I had returned from the Guild with the first external magical result Hessa was willing to call mine.
+
+Rinna pointed at the coat rack.
+
+"Third Man."
+
+I put on the coat.
+
+Sellen was already waiting.
+
+"You're late."
+
+"I moved paper."
+
+"Good."
+
+"With magic."
+
+"Better."
+
+"Hessa says under a controlled setup during supervised deliberate shaping toward a designated paper target, we observed small movement of multiple target fins without visible movement of paired controls."
+
+Sellen stared at me.
+
+"Did you move paper?"
+
+"Yes."
+
+"Why didn't you say that?"
+
+I hated everyone.
+
+The Petition began.
+
+Veya put down the petition. The reed sounded. Jori pointed me in.
+
+I entered and said, "My neighbor's goat has eaten all my patience and half my fence."
+
+Sellen came in exactly where he was supposed to.
+
+The audience laughed.
+
+Not huge. Enough.
+
+I did not add anything.
+
+Afterward, Rinna paid me one copper.
+
+"Pell says congratulations."
+
+"Where is Pell?"
+
+"Under the stage."
+
+"Of course."
+
+At home, Lyssa had turned the blue thread into smaller bundles. The table was covered in them.
+
+She looked up when I came in.
+
+"Paper?"
+
+"Yes."
+
+"Moved?"
+
+"Yes."
+
+"On purpose?"
+
+"Yes."
+
+"More than once?"
+
+I set my crutches against the wall.
+
+"Yes."
+
+Lyssa sat back.
+
+"Oh."
+
+That was better than cheering.
+
+I sat across from her.
+
+"Hessa said yes."
+
+"Actually yes?"
+
+"With a terrible sentence around it."
+
+"That sounds like Hessa."
+
+"I have a result."
+
+"What can you do?"
+
+"Move very small pieces of paper a very small amount under a glass cover while Hessa watches."
+
+Lyssa considered this.
+
+"Useful."
+
+"You're mocking me."
+
+"A little."
+
+"I did magic."
+
+"You've been doing magic."
+
+"I did magic outside me."
+
+Her hands stopped in the thread.
+
+"Ah."
+
+"Yes."
+
+She looked at my hand.
+
+"Does it hurt?"
+
+"No."
+
+"Good."
+
+Then she went back to sorting.
+
+"What happens next?"
+
+"Different direction."
+
+"Why?"
+
+"To see if I moved it or the table likes forward."
+
+Lyssa nodded as if that were reasonable.
+
+It was.
+
+I put the copper from the show on the table.
+
+One copper. One result. Six bundles of blue thread that Lyssa had apparently spent the day turning into twelve.
+
+Tomorrow the hall had another show.
+
+Hessa did not want me tomorrow.
+
+That felt rude now.
+
+I wanted to move something else.
+
+The cup. The thread. The copper. Anything.
+
+I didn't.
+
+Instead I sat on my hands for a moment.
+
+Lyssa noticed.
+
+"Good."
+
+"Don't."
+
+She smiled.
+
+The paper had moved.
+
+This time, maybe had become yes.
+
+A very small yes.
+
+Enough.
