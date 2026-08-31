@@ -7,11 +7,11 @@
 
 ## Authority
 
-For story content: authoritative manuscript → explicit author decisions → established Story Control decisions → current state files → Writers' Room exploration.
+For story content: newest authoritative manuscript prose → explicit author decisions → established Story Control decisions → current state files → Writers' Room exploration.
 
-For editorial execution: authoritative manuscript → explicit author decisions → established craft updates → Editor state → exploratory discussion.
+For editorial execution: newest authoritative manuscript prose → explicit author decisions → established craft updates → Editor state → exploratory discussion.
 
-Conflicts are reported, not silently reconciled.
+When overlapping files conflict, the newer GitHub-authoritative version outranks stale incoming copies. Do not silently replace newer repository work with older local material.
 
 ## Engine ownership
 
@@ -36,22 +36,40 @@ Approved canonical continuity:
 
 No additional Book 1 naming decisions are authorized.
 
-Chapters 20–82 received an author-approved paragraph-rhythm polish. The pass preserved the exact non-whitespace prose character stream, canon, chapter structure, and Book 1 endpoint.
-
 The manuscript-wide social-names pass preserves established nickname ownership and chronology. Late/private **Aileen** belongs only to Lyssa at Chapter 123; it is not a general name for Greg.
 
 ## Book 2
 
-Active manuscript. Current authoritative Book 2 prose sources: `state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx` and the forward running source `state/manuscript/Peg_Leg_Greg_Running_Manuscript_Ch138-155.md`.
+Active manuscript.
 
-**REPOSITORY MANUSCRIPT VALIDATED THROUGH CH155 — THE LEAK.**
+Locked earlier source remains `state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx`.
 
-Chapters 83–123 remain the locked edited authority. Chapters 124–137 are integrated forward from the Ch137 handoff and carry the established prose-rhythm and relationship-language standard. Chapters 138–152 retain their edited paragraph-rhythm authority. Chapters 153–155 were integrated forward with the same light rhythm standard; their existing show-pay, spending, booking, capacity, repair, and lodging pressures were preserved rather than overwritten with invented prices. Older overlapping handoff prose was not allowed to overwrite the locked range. `STORY_CONTROL_STATE.md` and `WRITERS_ROOM_STATE.md` remain developmental context and do not supersede manuscript events.
+The forward manuscript is transitioning from range-stamped filenames to one permanent path:
+
+`state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`
+
+Do NOT create a new `Peg_Leg_Greg_Running_Manuscript_ChXXX-YYY.md` file for each chapter or shipping pass. Update the permanent running manuscript in place.
+
+Current story endpoint is Chapter 219 — **THE PURCHASER**. Repository prose previously validated through Chapter 155 — **THE LEAK**; Chapters 156–219 are the current forward material to be synchronized into the permanent running manuscript without overwriting newer overlapping repository prose.
+
+## Forward production workflow
+
+For every new chapter:
+1. Read the current permanent running manuscript and current state first.
+2. Write one chapter at a time.
+3. Preserve canon, character, plot, and scene intent.
+4. Run the prose/continuity pass.
+5. Verify roughly 2,500–4,000 words and clear 2,500 unless the author explicitly changes the target.
+6. Verify no em dashes in manuscript prose.
+7. Update the SAME permanent running manuscript file in place.
+8. Update the SAME compact state files in place. Do not create chapter-numbered state clones.
+9. Update reader surfaces only as needed, preserving newer UI/artwork work.
+10. In chat, give a compact production note and then a full copyable next-edge re-prompt in ONE code block. The re-prompt ritual remains part of the workflow even though GitHub is the durable savestate.
 
 ## Visual production
 
-Visual state remains separate from manuscript state. Existing reader artwork and visual-production material are preserved. Development contact sheets remain DEVELOPMENT unless explicitly promoted. The completed Ch83–97 visual coverage harvest remains intact.
+Visual state remains separate from manuscript state. Existing reader artwork and visual-production material are preserved. Development contact sheets remain DEVELOPMENT unless explicitly promoted.
 
 ## Current synchronization rule
 
-Update existing compact state before adding new state. Preserve engine-owned substance. Consult the manuscript whenever exact prose, chronology, wording, or scene detail matters.
+Update existing compact state before adding new state. Preserve engine-owned substance. Consult the manuscript whenever exact prose, chronology, wording, or scene detail matters. Prefer one living file over range-stamped successor files. Historical files may remain temporarily for provenance/cleanup, but they are not the forward naming convention.
