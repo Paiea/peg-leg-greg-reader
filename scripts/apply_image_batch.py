@@ -28,10 +28,11 @@ def paragraph_bounds(document: str, anchor: str) -> tuple[int, int]:
     raise ValueError(f"paragraph anchor not found: {anchor}")
 
 
-def figure(item: dict) -> str:
+def figure(item: dict, *, width: int, height: int) -> str:
     return (
         f'<figure class="chapter-art {item["role"]}">'
-        f'<img src="../{item["target"]}" alt="{html.escape(item["alt"], quote=True)}" loading="lazy"/>'
+        f'<img src="../{item["target"]}" alt="{html.escape(item["alt"], quote=True)}" '
+        f'width="{width}" height="{height}" loading="lazy" decoding="async"/>'
         "</figure>"
     )
 
@@ -83,7 +84,13 @@ def main() -> None:
             except ValueError as error:
                 failures.append(f'Ch{item["chapter"]}: {error}')
                 continue
-            document = document[:start] + figure(item) + document[start:]
+            with Image.open(target) as opened:
+                width, height = opened.size
+            document = (
+                document[:start]
+                + figure(item, width=width, height=height)
+                + document[start:]
+            )
             chapter.write_text(document, encoding="utf-8")
     if failures:
         raise SystemExit("\n".join(failures))
