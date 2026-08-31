@@ -7956,3 +7956,1211 @@ She returned to sewing.
 "Useful."
 
 That one belonged to her.
+
+------------------------------------------------------------------------
+
+# CHAPTER 228
+
+## THE FLOWER BEARER
+
+Lyssa had changed the table again.
+
+The dark skirt was still there, but no longer folded. It had been turned right side out and hung over the back of my chair with three chalk marks near the hem. The pale coat from last night was gone.
+
+Lyssa was gone too.
+
+This time she had not left a note.
+
+I stood in the middle of the room with one crutch under each arm and felt mildly offended by the lack of instructions.
+
+Then I found bread wrapped in cloth beside the basin.
+
+Apparently I had been judged capable of inference.
+
+Dangerous.
+
+I ate.
+
+My right leg felt normal after yesterday's office sitting. Right shoulder normal. Hands normal. Residual limb comfortable. The left crutch tip remained exactly as boring as a good repair should be.
+
+No Guild note.
+
+No Vale boy.
+
+No customer occupying my chair.
+
+The theatre did not want me until afternoon.
+
+For nearly an hour, nobody wanted me anywhere.
+
+I had forgotten this was possible.
+
+I used some of it to wash properly, repair a loose thread at the cuff of my shirt badly enough that Lyssa would eventually notice, and buy two onions because there was only half of one left in the room.
+
+The onion seller recognized me.
+
+Not my name.
+
+Worse.
+
+"You bought too many last time."
+
+I looked at the basket.
+
+"I bought onions."
+
+"You stood there for five minutes."
+
+"I was selecting."
+
+"You were afraid."
+
+"I had incomplete instructions."
+
+She laughed and put two into my hand.
+
+I paid.
+
+That was apparently another version of me Carrow had preserved.
+
+By early afternoon the theatre's front doors were open, but the house was empty.
+
+No audience yet.
+
+Work first.
+
+Rinna sat at the front table with a narrow stack of tickets and a ledger turned away from the door. She was arguing with Davin about whether a man who had promised to bring two lamp chimneys had actually promised today.
+
+"He said after midday," Davin said.
+
+"It is after midday."
+
+"Not all of it."
+
+Rinna looked at him.
+
+Davin looked at me.
+
+"Help."
+
+"No."
+
+"Everyone is a coward."
+
+Rinna pointed toward backstage without looking at me.
+
+"Nessa."
+
+That was my welcome.
+
+I went.
+
+The right wing was half blocked by a painted wall turned on its edge. I knew the other route now, through the rear passage and around Jori's workbench. Somebody had already moved the low stool that usually lived beside the passage wall.
+
+Nobody mentioned it.
+
+Nessa was at the property table with a black cloth, three wooden candlesticks, a cracked picture frame, and a shallow basket full of flowers.
+
+I stopped.
+
+"Mine?"
+
+"Some."
+
+"How many flowers does a man with flowers receive?"
+
+"Enough to make the name make sense."
+
+The flowers were not real.
+
+Most were cloth wrapped around wire or thin reed stems, faded red and yellow blossoms with leaves cut from painted fabric. A few were newer and too bright. One white flower had been repaired so many times the stem was more thread than reed.
+
+I lifted the basket.
+
+"Heavy."
+
+"It is a basket."
+
+"I am providing information."
+
+"Marek borrowed the long spray."
+
+"Of course he did."
+
+"Put it back when he gives it to you."
+
+"Why will he give it to me?"
+
+Nessa looked over my shoulder.
+
+I turned.
+
+Marek was coming down the rear passage carrying the long spray of flowers horizontally in both hands.
+
+He stopped in front of me.
+
+"Your property."
+
+"My flowers."
+
+"Temporarily."
+
+"That sounds like property."
+
+He gave me the spray.
+
+Three long stems were tied together around a strip of wood. At the top, cloth lilies leaned in three directions. One had lost most of its white paint.
+
+"Why did you have them?"
+
+"Door."
+
+I waited.
+
+Marek pointed toward the stage.
+
+"The funeral door is narrower with the side table in place. Flowers catch if you carry them upright."
+
+I looked at the spray.
+
+Then at him.
+
+"You tested this?"
+
+"I got hit in the face by a lily."
+
+"Testing."
+
+"Exactly."
+
+Nessa said, "Sideways through the door, upright after."
+
+I looked at Marek again.
+
+"I dislike when you are useful before I am."
+
+"It happens constantly."
+
+It did not.
+
+I let him have it.
+
+The Wrong Funeral had acquired enough scenery to explain the title and not enough to become a religion.
+
+One black-draped bench stood near the back wall. A narrow table held two candlesticks and a closed book. A painted door flat divided the stage so one entrance looked like a side room in a hired mourning hall.
+
+The premise took Teren four sentences.
+
+Two funeral parties had been given adjoining rooms.
+
+A movable name board had been hung on the wrong door.
+
+Everyone entering the first half of the play therefore believed they were mourning the correct dead person.
+
+Nobody wanted to admit confusion because everyone had already behaved solemnly in front of strangers.
+
+That was it.
+
+I liked the play immediately.
+
+Hara played a widow who knew exactly which brother she had come to bury and gradually realized nobody else did.
+
+Pell played the mourning-house keeper whose mistake had created the problem.
+
+Marek played a nephew who had spent enough money on his black coat to believe grief should respect it.
+
+My man with flowers had been paid to deliver a large spray to the other room.
+
+I entered.
+
+Asked for a signature.
+
+Was repeatedly told nobody signed for funeral flowers.
+
+Insisted I had been told to get a name.
+
+Eventually read the name attached to the spray.
+
+The wrong name.
+
+Six lines.
+
+Useful disaster.
+
+Teren stood in the aisle while we ran my entrance.
+
+Nessa gave me the long spray.
+
+"Sideways through the door."
+
+"I know."
+
+"Marek learned through his face."
+
+"I know."
+
+Marek, already onstage, called, "Theatre education."
+
+I turned the spray sideways.
+
+It cleared.
+
+Then I brought it upright and crossed toward the table.
+
+Hara was standing near the black bench with both hands folded.
+
+Pell hovered beside the door looking professionally mournful.
+
+Marek occupied a chair as if he had personally purchased sadness.
+
+I stopped in front of Pell.
+
+"Flowers for the family."
+
+He said, "Set them with the others."
+
+"I need a name."
+
+"Everyone here has one."
+
+Teren lifted a hand.
+
+We stopped.
+
+I looked at him.
+
+"What?"
+
+"You are at a funeral."
+
+"Correct."
+
+"You look like you're at your own."
+
+I frowned.
+
+"I was being respectful."
+
+"You're working."
+
+That was annoying.
+
+"I can work respectfully."
+
+"You are carrying flowers to strangers. You want the name and the next delivery."
+
+He pointed toward the door.
+
+"Again. Less funeral."
+
+I looked at Hara.
+
+She said, "Please survive my brother."
+
+"Thank you."
+
+We reset.
+
+The second time I entered faster.
+
+Not hurried.
+
+Just not burdened by every dead person in Carrow.
+
+"Flowers for the family."
+
+Pell gestured.
+
+"Set them with the others."
+
+"I need a name."
+
+"Everyone here has one."
+
+I looked at him.
+
+"One for the flowers."
+
+Marek said, "Put mine."
+
+Hara turned her head.
+
+"Are you dead?"
+
+"No."
+
+"Then wait."
+
+Teren said, "Good. Keep going."
+
+The scene continued.
+
+My fourth line was a complaint about having two more deliveries before supper.
+
+My fifth asked whether anyone could read the card.
+
+My sixth read the card myself when everyone refused.
+
+Then the room discovered the flowers belonged to a different dead man.
+
+Simple.
+
+The first real problem happened because I put the long spray down where my body wanted it rather than where the scene wanted it.
+
+After reading the card, I was supposed to set the flowers beside the black bench and leave.
+
+I approached from the right.
+
+The easiest place for me to put them was the near end of the bench. I could keep the left crutch planted, lean the spray down, and leave without turning across myself.
+
+So I did.
+
+Nessa stopped me from the wing.
+
+"No."
+
+I looked at the flowers.
+
+"They are beside the bench."
+
+"They are in Hara's exit."
+
+Hara was already standing behind me.
+
+I looked down.
+
+The spray extended across the narrow lane she used to leave around the end of the bench.
+
+"Ah."
+
+"Other end," Nessa said.
+
+"That is worse for me."
+
+Jori, from behind the door flat, said, "Move the bench."
+
+Teren looked at him.
+
+Jori pointed.
+
+"Two inches left. Gives him the near corner without closing Hara."
+
+Nessa looked at the bench, then the door, then Hara's route.
+
+Hara walked it once.
+
+"Works."
+
+Teren said, "Do it."
+
+Jori and Davin moved the bench two inches.
+
+Nobody discussed whether the change was for me.
+
+Nobody congratulated the theatre on accessibility.
+
+The scene simply had better geometry now.
+
+I tried again.
+
+This time the flowers went down cleanly.
+
+Hara's exit remained open.
+
+Nessa said, "Good."
+
+Then, to Davin, "Do not move that bench."
+
+Davin looked offended.
+
+"I have done nothing."
+
+"Excellent beginning."
+
+We ran the whole first section.
+
+My six lines took less time than the conversations about them.
+
+That felt right.
+
+Hara owned the rehearsal without trying.
+
+The name board on the door had the wrong dead man's name painted on one side and the correct one on the other. Pell's character was supposed to realize halfway through the scene that it had been reversed.
+
+During the run, he turned it.
+
+Nothing changed.
+
+Both sides showed the same name.
+
+Teren stared at the board.
+
+Pell stared at the board.
+
+Nessa closed her eyes.
+
+Davin said, "I painted it."
+
+Jori said, "We know."
+
+The room broke.
+
+Not the imaginary mourners.
+
+Us.
+
+Even Hara laughed.
+
+Davin picked up the board and examined both sides.
+
+"I copied it."
+
+"From what?" Nessa asked.
+
+"The other side."
+
+That made it worse.
+
+Teren rubbed his face.
+
+"We perform in four hours."
+
+"I can repaint it."
+
+Jori took the board from him.
+
+"You can scrape it first."
+
+"I can paint over it."
+
+"You can make wet paint."
+
+Davin considered this.
+
+Jori carried the board toward the rear.
+
+"Scrape. Chalk first. Paint after the early piece."
+
+There it was.
+
+Practical authority moving sideways.
+
+Davin followed him, still defending the concept of paint.
+
+The rehearsal continued without the board.
+
+Pell mimed turning it.
+
+Hara looked at the blank hook on the door and said, "Remarkable improvement."
+
+Teren pointed at her.
+
+"Keep nothing from this disaster."
+
+She smiled.
+
+By the time we stopped, the side of my right palm had started to feel worked from balancing the long flower spray against the crutch grip.
+
+Not pain.
+
+I changed how I carried the basket during reset, letting Nessa take the long spray while I moved the smaller bunches.
+
+She did not ask why.
+
+She was busy telling Marek that no, he could not wear the black veil as a scarf.
+
+"I improve it."
+
+"You are not in mourning for yourself."
+
+"Yet."
+
+Hara said, "Give us time."
+
+Strong company.
+
+Food appeared as people produced it.
+
+Bread from Rinna.
+
+Cheese from Pell.
+
+Two apples from somewhere that Marek refused to explain.
+
+I bought soup from the woman down the street and sat near the rear door where the air moved.
+
+The repaired cart rolled into the yard while I ate.
+
+Jori had sent it for a narrow platform and two folded stools.
+
+It returned with exactly those things.
+
+No wheel problem.
+
+No brace problem.
+
+No watcher.
+
+Just a cart carrying theatre furniture.
+
+I finished my soup.
+
+Rinna crossed the yard.
+
+I looked up.
+
+She saw the question before I asked.
+
+This time she did not say no.
+
+She said, "Olin sent oil."
+
+I waited.
+
+"That is usually what Olin does."
+
+"Yes."
+
+"Anything with it?"
+
+"No."
+
+That was the entire update.
+
+The supplier had supplied us.
+
+Nothing had happened.
+
+I nodded.
+
+Rinna kept walking.
+
+Apparently quiet could also contain deliveries.
+
+The early piece went on before The Wrong Funeral.
+
+I was not in it.
+
+That gave me work.
+
+Nessa had me on the right property table for the first half because Davin was still scraping the name board and Jori had decided his scraping technique was an attack on wood.
+
+I knew the table well enough that she gave me only three instructions.
+
+"Letter after the chair. Blue shawl comes back here. Do not let Marek take the cane."
+
+"Which cane?"
+
+She pointed.
+
+I knew the one.
+
+That was all.
+
+During the performance, Hara came off holding the blue shawl before the actor onstage had finished his line.
+
+She stopped herself at the wing.
+
+Waited.
+
+The line ended.
+
+She handed me the shawl.
+
+"Nearly."
+
+"Almost counts backstage."
+
+She looked at me.
+
+"Whose terrible rule is that?"
+
+"Nessa."
+
+"Of course."
+
+She went around for her next entrance.
+
+I put the shawl where it lived.
+
+No ceremony.
+
+The name board returned halfway through the early piece.
+
+One side had fresh dark paint.
+
+The other had chalk.
+
+Jori handed it to Nessa.
+
+"Paint is dry enough to hang. Nobody touch the back."
+
+Marek was standing beside her.
+
+Nessa said, "Marek."
+
+"I have done nothing."
+
+"Continue."
+
+The Wrong Funeral setup began as soon as the first audience cleared.
+
+Black bench.
+
+Narrow table.
+
+Candles.
+
+Book.
+
+Door flat.
+
+Name board.
+
+Flowers.
+
+The long spray had been repaired where one cloth lily had started to loosen from its wire. Nessa had wrapped thread around the base and left the old white paint alone.
+
+Readable enough.
+
+The second audience arrived in damp coats and louder voices than the first.
+
+Someone in the front row was already laughing before the play began because his companion had apparently said something better than us.
+
+Unfair.
+
+The opening scene belonged to Hara and Pell.
+
+Hara's widow entered the mourning room first, looked at the name board, and stopped.
+
+Pell asked whether something was wrong.
+
+She said, "Only the spelling."
+
+Pell looked at the board.
+
+"The spelling is correct."
+
+"Then the dead man is wrong."
+
+The audience laughed immediately.
+
+Good start.
+
+The next several minutes built the confusion.
+
+Marek arrived.
+
+Then another actor.
+
+Then a woman who insisted she had never met anyone in the room but had been told there would be food after the service.
+
+Hara kept trying to identify which person had actually known her brother.
+
+Nobody had.
+
+Pell's mourning-house keeper became increasingly committed to pretending this was normal.
+
+Then my cue came.
+
+Nessa gave me the long spray.
+
+"Sideways."
+
+"I know."
+
+Marek, already onstage, heard her through the flat.
+
+His mouth moved.
+
+I knew exactly what he was thinking.
+
+I went before he could say it.
+
+The flowers cleared the door.
+
+Upright.
+
+Cross.
+
+"Flowers for the family."
+
+Pell turned toward me with the expression of a man who had already received too many families.
+
+"Set them with the others."
+
+"I need a name."
+
+"Everyone here has one."
+
+Small laugh.
+
+I held the spray.
+
+"One for the flowers."
+
+Marek raised a hand.
+
+"Use mine."
+
+Hara turned.
+
+"Are you dead?"
+
+"No."
+
+"Then wait."
+
+Bigger laugh.
+
+Marek looked almost offended by the instruction.
+
+I delivered my next line.
+
+"Two more before supper. One of you must belong to somebody."
+
+The audience laughed again.
+
+Not huge.
+
+Enough.
+
+Pell waved at Hara.
+
+"Widow."
+
+Hara said, "Sister."
+
+Pell waved at Marek.
+
+"Nephew."
+
+Marek said, "Unfortunately."
+
+Hara looked at him.
+
+"Mutual."
+
+Better laugh.
+
+Mine was over.
+
+Good.
+
+I asked whether anyone could read the card.
+
+Nobody volunteered.
+
+So I read it.
+
+The dead man's name did not match the board.
+
+The room went still for one beat.
+
+Then Hara looked at Pell.
+
+Not angry.
+
+Tired.
+
+"You have misplaced my funeral."
+
+The audience broke.
+
+That was hers.
+
+Completely.
+
+Pell opened his mouth.
+
+Closed it.
+
+Looked at the name board.
+
+Turned it.
+
+The correct name appeared.
+
+A second laugh rose before he spoke.
+
+Then one of the flowers fell off my spray.
+
+A white cloth lily.
+
+It dropped between my crutches and Hara's shoe.
+
+I saw it.
+
+She saw it.
+
+The audience probably saw it.
+
+For half a second, my body wanted to stop and pick it up.
+
+Bad geometry.
+
+Worse timing.
+
+The scene was moving.
+
+I set the spray beside the bench where we had rehearsed.
+
+The bench had stayed in its two-inch position.
+
+Good.
+
+I left the flower on the floor.
+
+Then I exited.
+
+Backstage, Nessa had already seen it.
+
+"Leave it."
+
+"I did."
+
+"I know."
+
+That was the entire review.
+
+Onstage, Pell had begun explaining the name board.
+
+Hara did not accept the explanation.
+
+Marek tried to leave.
+
+She stopped him.
+
+Then, during the argument, Hara looked down.
+
+She saw the fallen lily.
+
+She bent, picked it up, and held it between two fingers.
+
+Nobody had written this.
+
+I knew because I had six lines and had read everyone else's scene often enough to know when the world went off-book.
+
+Pell stopped talking.
+
+Hara looked at the flower.
+
+Then at the long spray beside the bench.
+
+Then at the corrected name board.
+
+"At least one thing arrived for him."
+
+The audience hit hard.
+
+Not because the line was brilliant by itself.
+
+Because the whole room had spent ten minutes failing to put the right people, name, flowers, and funeral together.
+
+Pell bowed his head as if accepting a judgment.
+
+Marek quietly sat back down.
+
+The scene continued.
+
+Hara kept the lily.
+
+She did not throw it away.
+
+She placed it on the closed book near the end of the scene and never mentioned it again.
+
+Backstage, Nessa exhaled.
+
+"Useful."
+
+I looked at her.
+
+"That word is spreading."
+
+She had no idea what I meant.
+
+Better.
+
+The rest of the play worked.
+
+Not perfectly.
+
+One candle fell over during the second section and was caught by Pell before it rolled off the table.
+
+Davin nearly brought the wrong chair on and caught himself when Jori said his name.
+
+Marek forgot one line, stared at Hara, and she gave him the first two words without making it look like help.
+
+He recovered.
+
+Nobody died except the people the play had arranged in advance.
+
+My second entrance was only to collect the empty flower basket.
+
+No lines.
+
+I had not known I had a second entrance until Nessa pointed at the basket during rehearsal.
+
+Apparently role counts and work counts were different systems.
+
+I went.
+
+The path was clear.
+
+I took the basket.
+
+I left.
+
+The audience did not applaud.
+
+Excellent basket work.
+
+At curtain, Hara received the strongest response.
+
+Marek got a good one too.
+
+Pell bowed like a man who had personally survived administrative death.
+
+I stood where I had been told and did not trip over flowers.
+
+Then the company became labor again.
+
+The long spray went to the property table.
+
+The loose lily came back in Hara's hand.
+
+She gave it to Nessa.
+
+"Greg shed."
+
+"I was carrying it."
+
+"Then it shed you."
+
+Marek looked over.
+
+"Theatre education."
+
+I pointed at him.
+
+"Your face taught us the door."
+
+"At last, respect."
+
+Nessa repaired the lily while we cleared.
+
+Davin carried the name board through the rear passage with the wet side facing away from everything.
+
+He had learned.
+
+Jori watched anyway.
+
+Rinna paid me the normal copper for the day's work.
+
+I put it away.
+
+No debt arithmetic.
+
+No office arithmetic.
+
+A coin earned in a theatre.
+
+I stayed long enough to help return the black bench to the wall.
+
+Jori took one end.
+
+I took the other from a seated position first, then shifted onto my crutches while he took more of the weight.
+
+We had done enough awkward objects together that neither of us explained the sequence.
+
+At the rear door he said, "Tomorrow morning?"
+
+"What?"
+
+"Window trim."
+
+"Again?"
+
+"Still windows."
+
+Apparently civilization had failed to resolve them.
+
+"What time?"
+
+"Morning."
+
+"Specific."
+
+"You know when I get here."
+
+Annoyingly, I did.
+
+That was the invitation.
+
+Or assignment.
+
+At this point the distinction was mostly whether Rinna paid me.
+
+Outside, Carrow had gone dark enough for lamps.
+
+I bought a small paper twist of roasted beans from a street seller because the theatre copper existed and because hunger did not become immoral when Antonius Vale owned part of my future.
+
+I ate half while walking home.
+
+The left crutch tip gripped.
+
+My right hand felt worked from flowers, baskets, props, and crutches.
+
+Not hurt.
+
+Worked.
+
+The room was empty when I arrived.
+
+The dark skirt was gone.
+
+My chair was mine again.
+
+The table held a folded blue-gray piece of cloth I had not seen before, a small bowl with two boiled potatoes, and one of Lyssa's needles stuck through a scrap to keep it from disappearing.
+
+No note.
+
+I ate a potato.
+
+Then the second.
+
+I had nearly finished the beans when Lyssa came in carrying nothing.
+
+That was still unusual enough to notice.
+
+She shut the door with her heel.
+
+"You're home."
+
+"Observant."
+
+She looked at the empty bowl.
+
+"You ate."
+
+"I was unsupervised."
+
+"Risky."
+
+She took off her outer layer and sat where the dark skirt had been that morning.
+
+I looked at the blue-gray cloth.
+
+"New?"
+
+"Old."
+
+I waited.
+
+"New to me."
+
+"Yes."
+
+"Customer?"
+
+She looked at me.
+
+"Cloth."
+
+I nodded.
+
+Important distinction.
+
+She rubbed one wrist with the opposite hand.
+
+"Tired?"
+
+"Yes."
+
+I did not turn that into a diagnosis.
+
+Growth everywhere.
+
+I moved the beans toward her.
+
+She took some.
+
+For a while we ate without reporting our professions.
+
+Then she said, "Flowers?"
+
+I looked at her.
+
+"You remembered."
+
+"You complained about six lines."
+
+"I did not complain."
+
+"You counted them."
+
+Fair.
+
+"The flowers survived."
+
+"Good."
+
+"One escaped."
+
+She ate another bean.
+
+"Bad flower."
+
+"Hara recovered it."
+
+"Good Hara."
+
+That was approximately the entire performance review.
+
+I told her about the name board only because Davin painting the same name on both sides deserved civilian consequences.
+
+Lyssa laughed before I reached the end.
+
+"How?"
+
+"He copied the other side."
+
+"Why?"
+
+"I don't know."
+
+"Did he?"
+
+"No."
+
+"Good."
+
+I smiled.
+
+She leaned her shoulder against mine.
+
+The room was quiet.
+
+No Hessa note.
+
+No Vale packet.
+
+No stranger at the door.
+
+Tomorrow morning Jori expected me for window trim because apparently that had become enough of a sentence.
+
+Lyssa had moved an entire skirt through the room while I was gone and come home with no bundle at all.
+
+The theatre had misplaced a funeral and repaired a flower.
+
+I had six lines.
+
+Hara had the line everyone would remember.
+
+That seemed fair.
+
+Outside, someone upstairs dropped something heavy.
+
+Our hanging cup did not tremble this time.
+
+I did not check.
