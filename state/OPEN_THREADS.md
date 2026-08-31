@@ -1,25 +1,26 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Current endpoint:** Chapter 220 — **THE LANDLORD**.
+- **Current endpoint:** Chapter 221 — **THE PARTICIPANT**.
 - **Permanent forward manuscript:** `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`. Chapters 156–219 still need exact-text synchronization; Chapter 220+ writes directly here.
-- **Magic counts:** ACTIVE at 30 supervised minimal draws / 26 deliberate shaping attempts / 34 external-effect attempts.
+- **Engine method:** `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` now preserves durable 01 behavior and recovery instructions.
+- **Magic counts:** ACTIVE at 31 supervised minimal draws / 27 deliberate shaping attempts / 37 external-effect attempts.
 - **External response:** repeatable microscopic paper-fin response established only in Hessa's controlled apparatus. Not generalized.
 - **Directional preference:** AWAY remains more reliable than TOWARD under current controlled evidence.
-- **Distance dependence:** supported in current apparatus. Intermediate response repeated. FAR produced one small rotational/net-away response on attempt 33, but FAR response remains unestablished. No range established.
-- **Next magic question:** not formally scheduled on-page. Strong live candidate is whether FAR response can repeat under the same apparatus, FAR position, AWAY ONLY, with no other variable change.
+- **Distance dependence:** supported in current apparatus. Intermediate remains more reliable than FAR.
+- **FAR evidence:** attempt 33 previously produced small rotational/net-away response. Ch221 attempt 36 produced another small rotational/net-away response under the same FAR/AWAY apparatus, in a separate session. Attempts 35 and 37 produced no observed response. FAR response has therefore been observed across more than one session, but FAR reliability remains unestablished. No range established.
+- **Latest magic session:** one preliminary shaping setup was aborted before counting because Greg lifted/braced his shoulder. Clean shaping then counted as attempt 27. Temporary ordinary forearm warmth returned to baseline before attempt 37. No injury/new symptom.
 - **Magic restrictions:** unchanged. No independent draw, shaping, external testing, paper, coins, thread, larger objects, practice, Barrier broadening, theatrical magic, or loopholes.
-- **Body / fatigue:** remains part of experimental interpretation and can stop Hessa sessions before data quality degrades.
-- **Theatre:** now routine paid work. Greg performs real roles, makes ordinary mistakes, receives narrow corrections, and is paid. Do not convert theatre into covert training every chapter.
-- **Latest theatre role:** Landlord in `The Cousin`, nine lines. Greg's fresh error was listening to his own line logic instead of the scene; Marek bridged and Greg corrected without a clever rescue.
-- **Rinna / commercial defense:** ACTIVE. Suppliers and service people the theatre actually uses are being told to verify claims directly with Rinna and avoid giving strangers useful operational/payment information.
+- **Next magic question:** NOT scheduled on-page. Do not immediately range-map or escalate apparatus simply because FAR repeated.
+- **Theatre:** routine paid work remains central. Ch221 Greg holds painted wall/canvas for Jori, carries pages, watches rehearsal, and has no evening role. Theatre continues without needing every chapter to advance acting skill.
+- **Rinna / commercial defense:** ACTIVE. Suppliers/service people the theatre actually uses verify claims directly with Rinna and avoid giving strangers useful operational/payment information.
 - **Brown-coat observer:** ACTIVE / UNIDENTIFIED. Thin face, brown coat, dark hair, quiet/not-loud voice. Description matches Copper Kettle observer and Olin visitor, but no identity/employment link to Bren is proven.
-- **Brown-coat questions at Ch220:** whether Rinna bought oil anyway, paid cash, theatre still performs, and whether Rinna keeps money at the hall. These support interest in theatre money handling, not organization identity.
-- **Mason's Cut:** Olin's boy later saw brown-coat man walking toward Mason's Cut but did not see him enter. Direction of travel only. No base/residence/territory claim.
+- **Brown-coat questions through Ch220:** whether Rinna bought oil anyway, paid cash, theatre still performs, and whether Rinna keeps money at the hall. These support interest in theatre money handling, not organization identity.
+- **Mason's Cut:** Olin's boy saw brown-coat man walking toward Mason's Cut but did not see him enter. Direction of travel only. No base/residence/territory claim.
 - **Bren:** probable name of close-haired heavy-coat spokesman with left glove. One-copper demand refused Ch218. `Next time won't be one.` No surname, boss, organization, or violence established.
-- **Threat restraint:** Greg did NOT chase the brown-coat man in Ch220. Strong preference is to let this information breathe rather than immediately investigate Mason's Cut.
+- **Threat restraint:** Ch221 contains no new threat event. Greg does not investigate Mason's Cut. Rinna receives no new warning. This is deliberate breathing room, not resolution.
+- **Potential next pressure edge:** if the warning network speaks again, prefer genuinely new information such as questions about theatre carts, payment timing, post-show movement, or who carries money. A witness report remains evidence of questions, not proof of robbery/organization/Bren employment.
 - **Vale debt:** ACTIVE. Exact balance known to Greg in-world but unstated to reader. One-copper cash payment made Ch218. Debt not forgiven. No fixed repayment plan. Suitable Vale labor can still earn credit when Antonius has work.
-- **Living expenses:** ACTIVE normalization. Ch220 Greg buys bread and soap and does not treat necessary spending as repayment failure.
+- **Living expenses:** ordinary spending and repayment coexist. Do not turn every copper into debt morality.
 - **Vale / Bren:** NO CONNECTION ESTABLISHED. Keep separate.
-- **Greg / Lyssa:** ordinary intimacy continues. Lyssa remains independently employed/occupied and does not become Greg's analyst or financial manager.
-- **Lyssa Ch220 observation:** the practical improvement is that the theatre heard about the brown-coat man's questions before he cost them something this time.
+- **Greg / Lyssa:** ordinary intimacy continues. Lyssa remains independently employed/occupied and does not become Greg's analyst or research partner.
 - **Long-range theatre direction:** THEATRE → PERFORMANCE → MISDIRECTION → ILLUSION → MASKS → CONTROL OF PERCEPTION → eventual dangerous bluff. Directional only; visible theatre remains FUN → PEOPLE → WORKPLACE → ACTING → STAGECRAFT → FAILURE → ANOTHER TURN.
