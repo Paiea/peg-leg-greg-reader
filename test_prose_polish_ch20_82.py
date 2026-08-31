@@ -47,7 +47,11 @@ class ProsePolishTest(unittest.TestCase):
             self.assertGreater(parser.paragraphs, 0, page)
             total_paragraphs += parser.paragraphs
         self.assertLess(total_paragraphs, 42000)
-        self.assertEqual(len(list((ROOT / "chapters").glob("[0-9][0-9][0-9].html"))), 155)
+        chapter_files = list((ROOT / "chapters").glob("[0-9][0-9][0-9].html"))
+        illustrated = [path for path in chapter_files if 1 <= int(path.stem) <= 155]
+        previews = [path for path in chapter_files if int(path.stem) >= 220]
+        self.assertEqual(len(illustrated), 155)
+        self.assertEqual([path.stem for path in sorted(previews)], ["220", "221"])
 
 
 if __name__ == "__main__":
