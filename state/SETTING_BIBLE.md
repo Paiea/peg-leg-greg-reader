@@ -28,11 +28,43 @@ These are established physical/workplace behaviors. Do not inflate them into uni
 
 Costume racks/hooks and ordinary costume activity exist backstage, but a formal quick-change / wardrobe-track system is not established. Lyssa's independent garment work remains separate from theatre wardrobe unless story causality later connects them.
 
+## Lyssa garment-work / supply infrastructure
+
+Lyssa's sewing/alteration work is part of Carrow's ordinary commercial life, not merely household decoration.
+
+Established recent facts:
+- Chapter 224 explicitly says Lyssa is maintaining three customers and a changing collection of cloth;
+- customers can come to the apartment, and Lyssa prepares domestic space for that work independently of Greg;
+- jobs can be delivered and paid while Greg is elsewhere;
+- several unrelated garments / sleeves can be active at once;
+- work surfaces visibly include pins, cloth, seams, lining, buttons, thread, chalk marks, opened garments, and folded/pinned pieces.
+
+### Maren — established supply node
+
+Chapter 222 establishes **Maren as a shop**, identified by a spool sign.
+
+Greg can use a cloth sample to request matching thread there. The seller asks `Matching?` and finds a spool close enough to work; Lyssa later approves it and says `Maren usually does.`
+
+This establishes Maren as a familiar useful garment/thread supply route for Lyssa.
+
+Do not invent:
+- whether `Maren` is also a person's name;
+- ownership / staffing details;
+- exact location beyond manuscript route evidence;
+- full inventory;
+- prices / credit / favors;
+- personal recognition of Lyssa by a specific seller;
+- infinite availability of matching material.
+
+Future recurrence should deepen the place through social use or material constraint, not turn it into a supply encyclopedia.
+
 ## Supplier / neighborhood network
 
 Olin and other actual businesses used by the theatre are becoming a small practical information network. Rinna has instructed suppliers to verify claims with her and avoid giving strangers useful information about purchases, payment, carts, cargo, or timing.
 
 This is ordinary commercial/social infrastructure, not a spy network.
+
+Lyssa's garment-supply route is a separate ordinary commercial network. Do not automatically merge her suppliers/customers into the theatre warning network.
 
 ## Mason's Cut
 
@@ -42,7 +74,7 @@ Current evidence only supports that the brown-coat man was seen walking toward M
 
 Currency: copper / silver / gold. No conversion rate has been established. Do not invent one.
 
-Money should remain materially meaningful through wages, purchases, debt, supplies, repairs, food, transport, and trade without forcing every scene into accounting.
+Money should remain materially meaningful through wages, purchases, debt, supplies, repairs, food, transport, customer work, and trade without forcing every scene into accounting.
 
 ## Antonius Vale debt
 
@@ -56,7 +88,7 @@ Record exact institution names, procedures, permissions, social status, and phys
 
 ## Ordinary material culture
 
-Prefer concrete recurring materials and constraints from scenes: lamp oil, wicks, repairs, carts, chairs, clothing, paper/receipts, food, tools, stage materials, weather, roads, and bodily labor. Magic should coexist with ordinary material systems rather than erase them.
+Prefer concrete recurring materials and constraints from scenes: lamp oil, wicks, repairs, carts, chairs, clothing, paper/receipts, food, tools, stage materials, thread, buttons, lining, cloth, weather, roads, and bodily labor. Magic should coexist with ordinary material systems rather than erase them.
 
 ## Place-writing rule
 
