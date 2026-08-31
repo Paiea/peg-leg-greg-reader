@@ -6,32 +6,32 @@ Read `STORY_NORTH_STAR.md` and `DEVELOPMENT_CYCLE.md` before substantial Writers
 
 ## ACTIVE MODE
 
-02 is no longer a pre-theatre planning room. Theatre, Lyssa, Hessa, money, external pressure, and Carrow life are active manuscript realities.
-
-The job now is to make the long serial **denser, more human, more specific, and more connected over time** without forcing a rigid outline.
+02 develops the current manuscript era. Theatre, Lyssa, Hessa, money, external pressure, and Carrow life are active realities.
 
 Core loop:
 
 **EXPLORE → RESEARCH → SYNTHESIZE → UPDATE STATE → IDENTIFY NEW EDGE → RE-PROMPT → continue**
 
-Chat is messy exploration. This file stores only durable residue and the live trailhead.
+The goal is a serial that becomes **denser, more human, more specific, and more connected over time** without becoming bloated or rigid.
 
-## NORTH-STAR DEVELOPMENT QUESTION
+## NORTH STAR — MAKE TIME LEAVE RESIDUE
 
-How do we make **time leave more residue**?
+Every return to a person, place, job, object, or relationship can ask:
 
-Look for development that increases:
+**What is different because the previous fifty chapters actually happened?**
+
+Prefer residue through:
 - social memory
-- relationship-specific behavior
-- offscreen life
-- informal roles and authority
-- repeated customers / neighbors / audiences
-- accumulated work competence
-- long-lived jokes / reputations / misunderstandings
-- material changes that stick
-- world activity that does not wait for Greg
+- relationship-specific shorthand
+- offscreen obligations
+- informal roles / authority
+- repeated customers, suppliers, neighbors, audiences
+- accumulated competence and changed mistakes
+- objects acquiring history
+- reputations mutating across networks
+- material changes that do not reset
 
-Prefer more **life per word**, not more exposition.
+Prefer **changed callbacks** over callback parades. A recurring joke/object should acquire a new state, consequence, owner, irritation, or meaning rather than merely being mentioned again.
 
 ## CURRENT THEATRE FRAME
 
@@ -41,150 +41,164 @@ Visible trajectory remains:
 
 **FUN → PEOPLE → WORKPLACE → ACTING → STAGECRAFT → FAILURE → ANOTHER TURN**
 
-Long-range theatre utility remains directional only:
+Long-range utility remains directional only:
 
 **PERFORMANCE → MISDIRECTION → ILLUSION → MASKS → CONTROL OF PERCEPTION → eventual dangerous bluff**
 
-Do not turn current theatre chapters into future-bluff curriculum.
+Do not turn current theatre into future-bluff curriculum. Experienced performers/workers remain substantially better than Greg in their domains.
 
-Experienced performers and workers should remain substantially better than Greg in their domains for a long time.
+## REHEARSAL / RECOVERY RESEARCH — SOURCED SYNTHESIS
 
-## THEATRE DEVELOPMENT PRIORITY
+Sourcing now lives in `RESEARCH_LEDGER.md`.
 
-The next useful theatre work is not inventing another big plot event. It is deepening the company as a **social organism and real workplace**.
+Durable developmental takeaways:
 
-Investigate / explore:
-- who actually gets asked for what
-- who has unofficial authority
-- who covers for whom
-- who owes favors
-- who is habitually late / early / overprepared / careless
-- who notices prop or costume problems first
-- who socializes outside rehearsal
-- who knows Lyssa independently
-- who has relationships, customers, family, debts, habits, or arguments Greg only partially sees
-- how rehearsal notes are actually given, received, resisted, misunderstood, and incorporated
-- how backstage traffic / props / costume repair create social shorthand
+1. **Some survivable acting errors can run before notes arrive.** Note timing is part of directing craft. Safety, broken traffic, or a failure that prevents continuing can still justify an immediate stop.
+2. **Authority can be domain-specific.** Current manuscript already supports different practical correction languages rather than one omniscient boss.
+3. **Ensemble learning is sideways.** Greg can learn by watching another actor receive a note; not every useful lesson should be addressed to him.
+4. **Partners rescue the play, not the mistake.** A bridge can protect the performance while irritation, teasing, correction, or trust consequences survive afterward.
+5. **Shorthand should be earned.** Explicit early notes may compress into a word, look, gesture, placement, or shared reference after repeated work.
+6. **Anticipation can itself create failure.** Greg's `help too early` pattern is plausible but should evolve rather than become his permanent gimmick.
 
-Do not give everyone a gimmick or nickname. Let roles and labels emerge from repeated behavior.
+## 50–100 CHAPTER RESIDUE MAP — NON-OUTLINE
 
-## REHEARSAL-NOTE RESEARCH — DURABLE SYNTHESIS
+This is a field of opportunities, not scheduled beats.
 
-The first modern research wave is complete enough for 03 to pressure-test. Reusable sourcing lives in `RESEARCH_LEDGER.md`.
+### Lyssa
+Already has customer work, changing garments, customer rework, food/payment consequences, and familiarity with places such as Maren that Greg learns about secondhand.
 
-Strongest research-supported developmental behaviors:
+Develop by letting customer/shop relationships recur **through consequences**: a familiar preference, referral, late fitting, changed price, borrowed item, customer relative, favor, food, or a job Lyssa accepted before Greg knew about it. Her work should create a social map that is partly inaccessible to Greg.
 
-1. **Run first, note after when the scene can survive.**
-   Full runs often accumulate notes and address them afterward rather than stopping every minor acting error. This fits current prose, where Teren already distinguishes physical problems worth stopping from tiny performance corrections. Use sparingly; safety, broken traffic, or work that cannot continue can still justify an immediate stop.
+Do not route all of Lyssa's independent life into theatre.
 
-2. **Authority is domain-specific.**
-   A useful Carrow translation is not one omnipotent theatre boss. Teren can own acting/story adjustments, Nessa props/reset/traffic, Jori physical build/safety/geometry, and Rinna house/business procedure where manuscript evidence supports it. Social friction can come from someone crossing a boundary, not from inventing bureaucracy.
+### Hessa
+Her strongest independence is professional causality: apparatus, scheduling, other questions, stopping rules, and the fact that Greg is not the only thing in her working life.
 
-3. **Shorthand should be earned.**
-   Long-running collaborators can compress notes into a word, look, gesture, or old phrase. Greg should receive more explicit correction while new, then gradually understand less language because shared work has accumulated. Compression itself can become evidence of belonging without anyone announcing it.
+Let her sometimes arrive from something else, delay Greg because another obligation exists, have several plausible research questions rather than one chapter ladder, or change plans because the record changed. Avoid inventing colleagues merely to prove independence.
 
-4. **Partners rescue the play, not the mistake.**
-   Hara's Chapter 225 bridge after Greg presents her choice too early is exactly the useful pattern: keep the live scene moving, then let the correction, irritation, joke, or memory survive afterward. Let Hara/Pell/Marek and others rescue one another too so competence is ensemble-wide rather than Greg-centered.
+### Nessa
+High-value social anchor because object/traffic/costume continuity already gives her practical authority.
 
-5. **How people receive notes can differentiate them.**
-   Greg currently tends to explain why he made the mistake before resetting. Other actors may absorb and retry, ask one precise clarification, privately disagree, or joke and still adjust. Do not assign fixed note-receipt gimmicks without manuscript evidence. Let repeated behavior reveal the difference.
+Existing relationships to deepen sideways:
+- Nessa ↔ Marek: touching / protecting / misplacing props and costumes can create repeated work history.
+- Nessa ↔ Pell: repair/tinkering can create collaboration, disagreement, borrowed tools/material, or differing standards of `good enough`.
+- Nessa ↔ Hara: costume durability / fit / performance needs can create practical negotiation independent of Greg.
+- Nessa ↔ Jori/Davin: object needs can collide with stage geometry / repair / hauling.
 
-## RELATIONSHIP / SOCIAL-MEMORY OPPORTUNITIES
+Do not make her formal title more important than demonstrated competence.
 
-Use the research to deepen existing relationships rather than creating a theatre lesson system.
+### Marek
+Useful because he can be funny, competent, vain, careless, generous, or irritating in directions that do not point at Greg.
 
-High-value possibilities:
-- **Teren / Greg:** the length of Teren's corrections can shorten as Greg earns shared shorthand. This should read as accumulated working trust, not praise or skill-level UI.
-- **Nessa / Hara / Marek:** prop and backstage authority can reveal independent history. Hara may know why an object needs to be placed a certain way; Nessa may accept the practical correction because it belongs to the object/traffic domain; Marek's touching-things habit can remain funny while occasionally producing real extra work for people other than Greg.
-- **Hara / Pell / Marek:** show experienced actors covering one another's missed cue, drift, or awkward moment. Greg does not need to be present or understand the history immediately.
-- **Nessa / Teren:** useful professional interdependence can appear when a problem sits between acting and physical continuity. One can defer to the other's domain without either becoming subordinate in every context.
+Preserve his touching-things / theatrical-chaos history only if it keeps changing. Sometimes the joke should cost **someone else** work. Sometimes Marek should be the person who successfully covers another actor. Do not reduce him to comic prop sabotage.
 
-Keep these as POSSIBILITIES until prose establishes them.
+### Hara
+One of the strongest current non-Greg multipliers. She owns audience beats, can recover scenes, has practical costume opinions, and manuscript footholds already imply places/people she goes to outside theatre.
 
-## RESEARCH MODE
+Let her be unavailable, arrive with context Greg missed, have existing plans, or possess stage-partner history with Pell/Marek/Nessa that Greg observes from the outside. Do not convert excellence into mentorship duty.
 
-Use `RESEARCH_LEDGER.md` for reusable external knowledge.
+### Rinna
+Her social map already extends through money, suppliers, warnings, handbills, venues, and practical business relationships.
 
-Current research sequence:
-1. acting / rehearsal-note practice — first wave researched; ready for 03 integration
-2. small theatre-company informal hierarchy / social structure — CURRENT 02 EDGE
-3. backstage prop and costume handoff / tracking / repair practice
+Deepen Rinna ↔ Teren as overlapping but distinct operational/artistic authority, and Rinna ↔ suppliers/merchants as repeated commercial trust. Olin, his boy, the cart-repair relationship, and other already established contacts can make Carrow feel socially connected without more lore.
 
-Research should answer focused questions, then translate the answer into **behavior, mistakes, authority, timing, objects, or social friction**.
+### Teren
+Do not make him a wisdom dispenser. His most useful growth is relational compression: different actors require different kinds/timing of note.
 
-Research is POSSIBILITY, not canon.
+High-value residue is seeing Teren give Hara, Marek, Pell, or another established performer a note that Greg witnesses but is not meant for him. His relationship with Rinna can show negotiation around schedule, audience, money, route, and what the company can realistically do.
 
-## CHARACTER DEVELOPMENT PRIORITY
+### Pell
+Already accumulates object/repair/food/furniture texture and works well as a connector among Nessa, Marek, Hara, and technical labor.
 
-The manuscript's biggest available multiplier is social depth.
+Use shared work, borrowing, repairs, meals, and covering as social memory. Avoid turning tinkering into a gimmick or universal skill.
 
-Priority people to deepen without converting them into Greg satellites:
-- Lyssa
-- Hessa
-- Nessa
-- Marek
-- Rinna
-- Teren
-- Hara / Pell and broader troupe members where current prose gives footholds
+### Jori / Davin
+Strongest existing non-Greg workplace pair.
 
-Look especially for relationships Greg is not part of.
+They already share repair, hauling, cart/set work, cue/geometry concerns, and a low-key credit/denial dynamic. Let decisions happen before Greg arrives. Let them disagree about method, blame, ownership, speed, or whether something is actually fixed. They can solve problems Greg never even learns were problems.
 
-Ask:
-- What did this person do yesterday that Greg never saw?
-- Who would they talk to if Greg did not exist?
-- What are they good at that has nothing to do with helping him?
-- What are they wrong about?
-- Who irritates them?
-- Who trusts them?
-- What obligation can pull them out of a Greg scene?
-- What has changed in their life over the last fifty chapters?
+## HIGH-VALUE NON-GREG RELATIONSHIP PAIRS
+
+Develop only where current prose provides footholds:
+- **Jori ↔ Davin** — repair / hauling / credit / blame / competence
+- **Nessa ↔ Marek** — prop/costume custody / recurring irritation
+- **Nessa ↔ Pell** — repair / object continuity / standards
+- **Nessa ↔ Hara** — costume/performance negotiation
+- **Hara ↔ Marek / Pell** — scene-partner recovery, stage timing, teasing, shared show history
+- **Rinna ↔ Teren** — business reality versus artistic/operational needs
+
+The point is not to write friendship biographies. It is to make Greg enter relationships that already have momentum.
+
+## EXISTING RESIDUE WORTH PROTECTING
+
+Current / recent material already offers useful seeds:
+- `STAGE ONLY` cups that used to be household objects
+- striped umbrella disappearance/reappearance
+- Marek touching protected props
+- Jori/Davin repair-credit friction
+- Olin's boy knowing Greg as `oil man`
+- Maren as a place Lyssa already knows better than Greg
+- supplier warning relationships
+- Vale-office correction culture / experienced clerks
+- Lyssa customer revisions and customer-family food/payment consequences
+- theatre mistakes that are successfully covered but still remembered
+
+Do not force all of these back. Preserve the principle: **objects, jokes, mistakes, and labels can survive long enough to change.**
+
+## CARROW — SOCIAL DENSITY OVER LORE DENSITY
+
+Best existing nodes for recurrence:
+- Maren / garment-supply route
+- Olin / oil shop / delivery boy
+- cart repair contact
+- Vale office and experienced workers
+- Lyssa's customer/referral network
+- theatre repeat audience / nearby merchants / suppliers
+
+A return visit should rarely need new exposition. Let recognition, changed terms, a remembered purchase, a prior mistake, or someone knowing one character before another do the worldbuilding.
 
 ## GREG DEVELOPMENT WATCH
 
-Allow Greg to be messier without manufacturing dysfunction.
+Allow Greg to become messier naturally:
+- scarcity can make him irrational or over-attentive about small money
+- he can hold a wrong interpretation longer
+- competence can make him anticipate too much or optimize the wrong system
+- he can resent uncertainty without immediately learning the correct lesson
+- he can discover jokes, plans, solutions, or relationships formed while he was elsewhere
+- other people can know the city/theatre/Lyssa better than he does
 
-Possible natural mess:
-- scarcity-driven money irrationality
-- jealousy
-- insecurity
-- stubborn interpretations
-- overconfidence after limited success
-- avoidance
-- annoyance
-- unfairness
-- being wrong for longer than one beat
+Do not schedule jealousy, insecurity, pettiness, or failure. Use them only when circumstances earn them.
 
-Do not make Greg the smartest or funniest person in every room.
+## ANTI-BLOAT RESIDUE RULES
 
-## LONG-SERIAL ADVANTAGE
-
-Long unresolved threads are allowed.
+Residue should usually cost only a line, action, object state, or altered interaction.
 
 Prefer:
-- micro-payoffs while macro questions remain open
-- social callbacks after long gaps
-- people returning after long absence
-- reputation mutating across networks
-- material improvements that do not reset
-- ordinary life continuing during threat
+- `You still owe me the pin.`
+- someone automatically moving an object because they know another person's route
+- a shopkeeper remembering what Lyssa usually buys
+- a note shortened because the longer version happened twenty chapters earlier
+- two people already halfway through an argument when Greg arrives
 
-Do not mention Bren or any threat merely to keep it warm.
+Avoid paragraphs explaining relationship history that the characters themselves would not need explained.
+
+## RESEARCH MODE
+
+Use `RESEARCH_LEDGER.md` for reusable external knowledge. Research fact remains separate from canon.
+
+Completed enough for 03 integration:
+- acting / rehearsal notes / scene-partner recovery / note timing
 
 ## CURRENT DEVELOPMENT EDGE
 
-Research **small theatre-company informal authority and social structure**, not formal org charts for their own sake.
+Next focused 02 research:
 
-Focused questions:
-- In a small/repertory ensemble, who becomes the unofficial go-to person for practical problems and why?
-- How do repeated favors, covering absences, food, cleanup, borrowing, lateness, repairs, and pre-show checks create social debt or status?
-- Which kinds of authority come from competence/trust rather than title?
-- What happens when the nominal person in charge is busy, absent, or not the best person for the immediate problem?
-- How can this produce relationships among Nessa, Hara, Pell, Marek, Jori, Rinna, Teren, and others that do not require Greg?
+**SMALL-THEATRE PRACTICAL AUTHORITY + OBJECT CUSTODY**
 
-Translate only the strongest findings into 3–5 recurring workplace/social behaviors. Prefer existing troupe members and current jobs over inventing new ranks.
+Ask how props/costumes are preset, handed off, checked, reset, repaired, and tracked; how repeated responsibility creates unofficial experts; and how favors, lateness, borrowed objects, food, cleanup, repairs, and covering absences accumulate into social debt/status.
 
-After that, hand the rehearsal-note synthesis plus informal-authority possibilities to 03 for pressure-testing against exact manuscript evidence.
+Translate only the strongest findings into 3–5 recurring behaviors for existing Nessa / Pell / Jori / Hara / Marek / Rinna / Teren relationships. Do not import a modern org chart.
 
 ## RE-PROMPT [02]
 
-Continue Peg-Leg Greg Writers' Room from current GitHub authority. Read `AGENTS.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current manuscript/state, `state/WRITERS_ROOM_STATE.md`, and `state/RESEARCH_LEDGER.md`. The first rehearsal-note research wave is complete. Continue the active edge by researching small theatre-company informal authority/social structure using credible sources: unofficial go-to people, practical vs artistic authority, covering absences, favors, lateness, food, cleanup, borrowing, repairs, and pre-show responsibility. Translate the strongest findings into a few recurring behaviors for existing troupe members and non-Greg relationships. Keep research separate from canon. Update durable residue, identify the next edge, and hand developed possibilities to 03 rather than forcing a fixed outline.
+Continue Peg-Leg Greg Writers' Room from current GitHub authority. Read `AGENTS.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current manuscript/state, `state/WRITERS_ROOM_STATE.md`, and `state/RESEARCH_LEDGER.md`. The acting/recovery research wave is now sourced and the long-serial residue map is active. Continue by researching small-theatre practical authority plus prop/costume custody: preset, handoff, reset, repair, tracking, overlapping responsibility, covering absences, favors, lateness, borrowed objects, food, cleanup, and who becomes the trusted go-to person. Translate only strong findings into recurring behavior for existing troupe relationships. Keep research separate from canon, update durable residue, identify the next edge, and hand developed possibilities to 03 rather than forcing an outline.
