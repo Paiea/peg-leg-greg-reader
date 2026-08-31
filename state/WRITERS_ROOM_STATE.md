@@ -89,26 +89,54 @@ Strongest research-supported developmental behaviors:
 5. **How people receive notes can differentiate them.**
    Greg currently tends to explain why he made the mistake before resetting. Other actors may absorb and retry, ask one precise clarification, privately disagree, or joke and still adjust. Do not assign fixed note-receipt gimmicks without manuscript evidence. Let repeated behavior reveal the difference.
 
+## INFORMAL-AUTHORITY RESEARCH — DURABLE SYNTHESIS
+
+The second research wave strengthens the theatre as workplace without requiring a formal Carrow org chart.
+
+Strongest research-supported developmental behaviors:
+
+1. **Own a track, not the whole theatre.**
+   Real theatre work is often split across practical domains. The useful story translation is local authority: the person who reliably owns a prop route, stage geometry problem, house procedure, costume repair, or acting adjustment gets asked about that problem first. Prestige and practical authority can diverge.
+
+2. **Competence reduces supervision.**
+   In small organizations, a worker who can take a task, close the loop, and only escalate when necessary becomes disproportionately useful. Longitudinally, Greg or another troupe member needing fewer instructions can show accumulated trust more cleanly than praise would.
+
+3. **Multi-hatting is normal enough to use, but should remain specific.**
+   Some professional touring companies explicitly use actors as both performers and crew. This supports existing Peg-Leg Greg texture where performers also carry, reset, fetch, strike, or cover assigned backstage work. It does **not** mean everyone should become equally capable at everything.
+
+4. **Pre-show readiness creates invisible authority.**
+   Props and furniture may be preset and checked before performance. In story terms, the useful beat is usually not the checklist but the human consequence: who notices what is missing, who already fixed it, whose absence forces someone else to cover, and who knows an object's route without discussion.
+
+5. **Helping can violate a domain.**
+   A person can sincerely solve the wrong problem and create extra work for the person who owns the track. Greg already does versions of this with props and acting choices. Let other troupe members also overstep, defer, correct, or clean up after each other so the workplace does not orbit Greg.
+
+Research does **not** establish a universal theatre favor economy, food ritual, lateness culture, or borrowing culture. Those should emerge from these specific people if useful, not be imported as generic theatre authenticity.
+
 ## RELATIONSHIP / SOCIAL-MEMORY OPPORTUNITIES
 
-Use the research to deepen existing relationships rather than creating a theatre lesson system.
+Use both research waves to deepen existing relationships rather than creating a theatre lesson system.
 
 High-value possibilities:
 - **Teren / Greg:** the length of Teren's corrections can shorten as Greg earns shared shorthand. This should read as accumulated working trust, not praise or skill-level UI.
-- **Nessa / Hara / Marek:** prop and backstage authority can reveal independent history. Hara may know why an object needs to be placed a certain way; Nessa may accept the practical correction because it belongs to the object/traffic domain; Marek's touching-things habit can remain funny while occasionally producing real extra work for people other than Greg.
-- **Hara / Pell / Marek:** show experienced actors covering one another's missed cue, drift, or awkward moment. Greg does not need to be present or understand the history immediately.
-- **Nessa / Teren:** useful professional interdependence can appear when a problem sits between acting and physical continuity. One can defer to the other's domain without either becoming subordinate in every context.
+- **Nessa / Jori:** object placement, repairs, and backstage traffic sit near both domains. They can disagree briefly, then defer depending on whether the immediate issue is object continuity or physical stage safety.
+- **Nessa / Hara:** Hara may know how an object or gesture reads to an audience while Nessa owns where the object lives and whether it survives the show. Their competence can intersect without either existing to teach Greg.
+- **Nessa / Marek:** Marek's established touching-things habit can occasionally create real reset or repair labor, not only a punchline. Nessa can make him undo/fix what he disturbed or remember an older offense long after Greg has forgotten it.
+- **Hara / Pell / Marek:** experienced actors can bridge one another's missed cue, drift, or awkward moment. Greg does not need to be present or understand their shorthand immediately.
+- **Rinna / Nessa / Jori:** front-of-house readiness and backstage readiness converge at curtain. A few terse pre-show exchanges can imply a great deal of repeated coordination without exposition.
+- **Teren / Nessa:** useful professional interdependence can appear when a problem sits between acting and physical continuity. One can defer to the other's domain without either becoming subordinate in every context.
 
-Keep these as POSSIBILITIES until prose establishes them.
+Concrete favor/social-memory possibilities may include covering a preset, carrying a load, making a repair, fetching food, cleaning up, or taking somebody's low-glamour show responsibility once. Do not quantify favors or force callbacks. Let remembered work become relationship history naturally.
+
+Keep all of these as POSSIBILITIES until prose establishes them.
 
 ## RESEARCH MODE
 
 Use `RESEARCH_LEDGER.md` for reusable external knowledge.
 
 Current research sequence:
-1. acting / rehearsal-note practice — first wave researched; ready for 03 integration
-2. small theatre-company informal hierarchy / social structure — CURRENT 02 EDGE
-3. backstage prop and costume handoff / tracking / repair practice
+1. acting / rehearsal-note practice — researched; ready for 03 integration
+2. small theatre-company informal hierarchy / social structure — researched; ready for 03 integration
+3. backstage prop and costume handoff / tracking / repair practice — CURRENT 02 EDGE
 
 Research should answer focused questions, then translate the answer into **behavior, mistakes, authority, timing, objects, or social friction**.
 
@@ -172,19 +200,21 @@ Do not mention Bren or any threat merely to keep it warm.
 
 ## CURRENT DEVELOPMENT EDGE
 
-Research **small theatre-company informal authority and social structure**, not formal org charts for their own sake.
+Research **backstage prop and costume handoff, tracking, preset, and repair practice** against the actual objects and problems already present in the manuscript.
 
 Focused questions:
-- In a small/repertory ensemble, who becomes the unofficial go-to person for practical problems and why?
-- How do repeated favors, covering absences, food, cleanup, borrowing, lateness, repairs, and pre-show checks create social debt or status?
-- Which kinds of authority come from competence/trust rather than title?
-- What happens when the nominal person in charge is busy, absent, or not the best person for the immediate problem?
-- How can this produce relationships among Nessa, Hara, Pell, Marek, Jori, Rinna, Teren, and others that do not require Greg?
+- How are props commonly preset, marked, checked, handed out, returned, and accounted for during a live show?
+- What happens backstage when an expected prop is missing, damaged, moved, or returned to the wrong place?
+- How do costume handoffs, quick changes, emergency repairs, and post-show maintenance divide responsibility?
+- Which errors are likely to be caught before curtain, and which only become visible when an actor reaches for the thing?
+- How does a repeated object route become shorthand or trust between workers?
 
-Translate only the strongest findings into 3–5 recurring workplace/social behaviors. Prefer existing troupe members and current jobs over inventing new ranks.
+Use current manuscript footholds first: the repurposed cups, `STAGE ONLY` marking, striped umbrella, prop-table work, costume labor, ordinary repairs, and Marek touching things he should not.
 
-After that, hand the rehearsal-note synthesis plus informal-authority possibilities to 03 for pressure-testing against exact manuscript evidence.
+Translate the strongest findings into 3–5 recurring physical/social behaviors. Favor mistakes, object routes, repair consequences, and non-Greg coordination over explanation.
+
+The first two research waves are ready to hand to 03 now. 02 may continue the prop/costume wave in parallel; 03 does not need to wait for it before pressure-testing the existing rehearsal-note and informal-authority possibilities.
 
 ## RE-PROMPT [02]
 
-Continue Peg-Leg Greg Writers' Room from current GitHub authority. Read `AGENTS.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current manuscript/state, `state/WRITERS_ROOM_STATE.md`, and `state/RESEARCH_LEDGER.md`. The first rehearsal-note research wave is complete. Continue the active edge by researching small theatre-company informal authority/social structure using credible sources: unofficial go-to people, practical vs artistic authority, covering absences, favors, lateness, food, cleanup, borrowing, repairs, and pre-show responsibility. Translate the strongest findings into a few recurring behaviors for existing troupe members and non-Greg relationships. Keep research separate from canon. Update durable residue, identify the next edge, and hand developed possibilities to 03 rather than forcing a fixed outline.
+Continue Peg-Leg Greg Writers' Room from current GitHub authority. Read `AGENTS.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current manuscript/state, `state/WRITERS_ROOM_STATE.md`, and `state/RESEARCH_LEDGER.md`. Rehearsal-note culture and small-company practical authority/multi-hatting have now been researched and synthesized for 03. Continue the active 02 edge by researching backstage prop and costume handoff, tracking, preset, quick-repair, and post-show maintenance practice using credible sources. Translate the strongest findings into a few recurring physical/social behaviors grounded in existing manuscript objects and troupe relationships, especially the cups, `STAGE ONLY` marking, striped umbrella, prop-table work, costume labor, ordinary repairs, and established people touching things they should not. Keep research separate from canon, update durable residue, identify the next edge, and hand useful possibilities to 03 rather than forcing a fixed outline.
