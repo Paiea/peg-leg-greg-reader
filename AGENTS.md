@@ -94,6 +94,12 @@ At the end of substantial work:
 - update only relevant durable state
 - record a compact next executable edge
 - leave one copyable re-prompt that points the next worker back to GitHub
+- store the durable lane re-prompt / trailhead in the relevant state or playbook when that lane uses one
+- **also show a copyable next prompt visibly in the user-facing response before ending**
+
+A GitHub-only re-prompt is not a complete human handoff. Do not make the user ask what to do next after a substantial run unless they explicitly asked for no next-step prompt.
+
+The visible prompt should target the worker/lane you actually recommend running next. That may differ from the durable same-lane restart prompt stored in GitHub.
 
 The long-term goal is that fresh workers reconstruct their role primarily from repository state rather than giant handoff prompts.
 
