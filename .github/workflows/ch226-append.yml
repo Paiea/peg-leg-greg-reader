@@ -6,6 +6,7 @@ on:
       - manuscript/ch226-reference
     paths:
       - state/manuscript/.chapter226_append.tmp
+      - state/manuscript/.chapter226_trigger
 
 permissions:
   contents: write
