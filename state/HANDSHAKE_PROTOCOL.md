@@ -10,6 +10,19 @@ Goal: make workers disposable while continuity survives in GitHub.
 
 Avoid a fourth category of important finished work trapped only in a chat or mystery local file.
 
+## GitHub-first transfer rule
+
+Do not package or request the full repository as a ZIP for an ordinary
+chat-to-chat or agent-to-agent handoff when current authority is already in
+GitHub. A later worker should reconstruct its lane from current `main`,
+`AGENTS.md`, relevant durable state, exact source authority, and any named
+branch or PR.
+
+External transfer remains legitimate for a targeted artifact that GitHub
+intentionally does not hold: active editorial work, unique binary/source art,
+an exact missing recovery block, or a deliberate offline archive. Transfer only
+that artifact, not another copy of the entire project.
+
 ## GitHub as re-prompt
 
 GitHub cannot by itself force a random future chat to wake up and continue. But it can make the human prompt extremely small.
