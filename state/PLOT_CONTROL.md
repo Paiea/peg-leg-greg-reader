@@ -12,13 +12,13 @@ Use evidence labels:
 
 ## Theatre engine
 
-**ESTABLISHED:** Greg is embedded in paid theatre work and continues learning through rehearsal, performance, stage geometry, corrections, mistakes, audience response, and ordinary company labor.
+**ESTABLISHED:** Greg is embedded in paid theatre work and continues learning through rehearsal, performance, stage geometry, corrections, mistakes, audience response, ordinary company labor, and increasingly familiar object/routes.
 
-**PRESSURE:** competence is growing but remains uneven. Theatre must continue to be intrinsically worthwhile rather than merely instrumental.
+**PRESSURE:** competence is growing but remains uneven. Theatre must continue to be intrinsically worthwhile rather than merely instrumental. Let social memory and reduced supervision accumulate without turning work into a skill ladder.
 
 **POSSIBILITY:** long-range theatre skills later become useful for misdirection/perception under pressure.
 
-**AVOID:** obvious bluff-training arc; Greg dominating every performance; theatre becoming only plot utility.
+**AVOID:** obvious bluff-training arc; Greg dominating every performance; theatre becoming only plot utility; formal backstage machinery imported because research supports an analogue.
 
 ## Magic / evidence engine
 
@@ -40,17 +40,23 @@ Use evidence labels:
 
 ## Greg / Lyssa engine
 
-**ESTABLISHED:** relationship coexists with independent work and ordinary domestic life. Lyssa can challenge Greg's interpretation of evidence.
+**ESTABLISHED:** relationship coexists with independent work and ordinary domestic life. Lyssa can challenge Greg's interpretation of evidence without becoming Hessa or a plot service.
 
-**PRESSURE:** maintain intimacy and accumulated change without turning Lyssa into a plot service.
+**ESTABLISHED — Lyssa work:** by Chapter 224 Lyssa is explicitly maintaining three customers. Current prose also establishes customer visits at the apartment, jobs delivered/paid off-page, several unrelated garments active at once, paid customer-requested cuff rework, and Maren as an existing garment/thread supply route.
+
+**PRESSURE:** Lyssa's work should continue to make independent demands on time, space, errands, materials, customer interactions, and household rhythm. Greg does not need to witness or understand every decision.
+
+**POSSIBILITY:** a small repeat/referral/customer-recognition network can gradually give Lyssa her own Carrow reputation and social routes. Favor a few recurring people / changed callbacks over a named customer system.
+
+**AVOID:** Greg becoming her business manager; retroactively claiming queue causality not stated in prose; formal pricing/client systems; routing her into theatre wardrobe by convenience; merging her supply/customer network into the theatre pressure network without story causality.
 
 ## Money / Vale engine
 
-**ESTABLISHED:** debt remains unresolved; ordinary living expenses and theatre earnings coexist with repayment pressure.
+**ESTABLISHED:** debt remains unresolved; ordinary living expenses, theatre earnings, Lyssa's paid work, and repayment pressure coexist.
 
-**PRESSURE:** money should constrain choices without swallowing every chapter.
+**PRESSURE:** money should constrain choices without swallowing every chapter. Paid work can improve material conditions and still consume time/material.
 
-**AVOID:** invented exact balance/conversion; invented Vale/Bren link.
+**AVOID:** invented exact balance/conversion; invented Vale/Bren link; abstract household income stats.
 
 ## Long-range directional thread
 
@@ -76,5 +82,7 @@ When a development worker explores possibilities:
 2. actually develop at least one rather than only listing options
 3. distinguish established fact from possibility
 4. ask what changes for a person, relationship, job, or ordinary routine
-5. prefer convergence between existing threads over disconnected machinery
-6. leave durable residue here or in `OPEN_THREADS.md`, not a transcript
+5. ask who pays the material/social cost when a loop breaks
+6. prefer changed callbacks over callback parade
+7. prefer convergence between existing threads over disconnected machinery
+8. leave durable residue here or in `OPEN_THREADS.md`, not a transcript
