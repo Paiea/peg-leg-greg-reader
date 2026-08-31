@@ -4458,3 +4458,951 @@ Nothing in the room was solved enough to become a different life.
 Several things were simply in slightly better condition than yesterday.
 
 I could live with that.
+
+------------------------------------------------------------------------
+
+# CHAPTER 225
+
+## THE STEWARD
+
+The blue cloth was gone.
+
+I noticed because breakfast had room.
+
+Not much room. Lyssa had replaced the blue piece with a brown coat sleeve, a strip of pale lining, two spools of thread, and a small paper packet that contained buttons. But I could see enough of the table to remember that wood existed underneath her profession.
+
+“Delivered?” I asked.
+
+“The blue one?”
+
+“Yes.”
+
+“Yesterday.”
+
+I looked at the empty place where it had lived for three days.
+
+“I was becoming attached.”
+
+“You complained about it every morning.”
+
+“That was the attachment.”
+
+Lyssa bit off a length of thread and held the brown sleeve up against the light. One side hung lower than the other.
+
+“Customer changed the cuff.”
+
+“After you finished it?”
+
+“After I finished it.”
+
+“Can you charge for emotional damage?”
+
+“I can charge for changing the cuff.”
+
+“Less satisfying.”
+
+She smiled and went back to work.
+
+I ate bread with yesterday’s onions cooked down into something that had improved by spending the night in a pan. The new left crutch tip remained so normal that I did not think about it until I was already standing, which seemed like the repairer’s final insult. My right hand felt fine. Shoulder fine. Residual limb fine. No Hessa note. No Guild message. No Vale boy at the door.
+
+One day without institutional stationery.
+
+Promising.
+
+Lyssa had a customer coming before midday. I knew because she had already cleared one chair and put the less respectable cloth under the table.
+
+“You hide bad work from customers?” I asked.
+
+“I hide your shirt from customers.”
+
+I looked down.
+
+“My shirt is respectable.”
+
+“It has paint on the cuff.”
+
+“Theatre.”
+
+“That does not improve it.”
+
+“Depends on the customer.”
+
+She pointed toward the door with her needle.
+
+I left before I became billable.
+
+The theatre cart passed me two streets later.
+
+That was almost disappointing.
+
+Jori drove. Davin sat beside him with one foot braced against the front board and a rolled painted flat tied behind them. The new diagonal brace beneath the bed was visible only because I knew where to look. It held. The wheel turned. Nothing cracked. Nobody watched from an alley.
+
+The cart went past like a cart.
+
+Jori saw me and raised two fingers.
+
+Davin shouted, “It works because I helped.”
+
+Jori shouted back, “You held a nail.”
+
+“Essential.”
+
+They continued toward the theatre.
+
+I followed at crutch speed.
+
+By the time I arrived, the flat had been unloaded and Davin had upgraded himself from essential nail holder to assistant carpenter without anyone else agreeing. Jori was carrying the flat inside with Pell at the other end.
+
+I moved out of their route automatically.
+
+Rinna was at the front table. Ledger visible only from her side. No cash box.
+
+“Anything?” I asked.
+
+“No.”
+
+That was enough.
+
+Nessa appeared from the rear passage holding two cups.
+
+I recognized them.
+
+Yesterday they had been real cups too damaged to remain real cups. Today both had been painted cream. One had a dark blue band around the rim. The other had a red line painted over the crack, making the flaw more visible rather than less.
+
+I looked at her.
+
+“You made them worse.”
+
+“I made them readable.”
+
+“From where?”
+
+“The audience.”
+
+I took the red-marked cup.
+
+The painted crack ran from the rim halfway down the side.
+
+“This one looks broken.”
+
+“It is broken.”
+
+“Then excellent fidelity.”
+
+She took it back.
+
+“The red cup belongs to Hara in the second scene. The blue cup belongs to Pell in the first and third.”
+
+“Why?”
+
+“Because the play says so.”
+
+That was the kind of explanation theatre considered complete.
+
+She handed me three pages.
+
+At the top:
+
+THE SECOND TOAST.
+
+Under the cast list:
+
+STEWARD: GREG.
+
+I checked the lines.
+
+Eleven.
+
+Three entrances.
+
+I looked at Nessa.
+
+“Promotion?”
+
+“No.”
+
+“Eleven lines.”
+
+“Try not to become difficult.”
+
+“Too late.”
+
+The Second Toast concerned a family dinner where everyone believed a different guest had been invited for a different reason. Pell played the uncle who thought he was there to approve a marriage. Hara played the woman who thought she was there to collect a debt from the uncle. Marek played the supposed groom, who believed the dinner was a business meeting. A fourth actor played the actual daughter, who had invited none of them and spent most of the play trying to discover why they were in her house.
+
+My Steward knew the household was confused but not why.
+
+This was apparently enough employment for eleven lines.
+
+The cups mattered because Pell’s Uncle refused to drink from anything marked or cracked. Hara’s character intentionally took the cracked cup in the second scene after deciding that offending him might be useful. In the third scene, the blue-banded cup returned to Pell, who had spent half the play insisting it was the only respectable cup in the house.
+
+I understood.
+
+Two cups.
+
+Three scenes.
+
+Same objects.
+
+No magic.
+
+Dangerous complexity.
+
+Teren called us to stage.
+
+The first run was mostly routes.
+
+A dining table had been set downstage center, angled enough that nobody had to turn their back fully to the audience. Four chairs surrounded it. Jori had moved one chair slightly wider on the right side before I arrived, leaving a clean path for my crutches between the table and a short cabinet.
+
+Nobody explained the adjustment.
+
+I used it.
+
+My first entrance carried the blue cup on a tray with a bottle and two empty wooden goblets. I knew where the tray lived, where the cabinet ended, where Marek would cross, and where I could set the crutches for the half-second I needed both hands without creating a trap for whoever came off through the wing.
+
+I did all of that.
+
+Then I gave Pell the wrong cup.
+
+Not during performance.
+
+We were not that blessed.
+
+During rehearsal.
+
+I came offstage after the first entrance, set the tray down, reached for the next cup when Nessa asked me to reset, and handed her the blue-banded one without thinking.
+
+She looked at it.
+
+Then at me.
+
+“Where is red?”
+
+I looked at the table.
+
+The red-marked cup sat exactly where it belonged.
+
+“I know where red is.”
+
+“You just gave me blue.”
+
+“Yes.”
+
+“For scene two.”
+
+“Yes.”
+
+“Why?”
+
+I considered.
+
+“Because blue is cleaner.”
+
+Nessa stared.
+
+That was the problem.
+
+Not cleanliness exactly. My brain had sorted the objects as backstage objects. Blue band meant intact. Red line meant damaged. If someone asked for a cup, intact cup won.
+
+The play had a different system.
+
+Red meant Hara’s scene.
+
+Blue meant Pell’s.
+
+Nessa held the blue cup up between two fingers.
+
+“Do not improve the play.”
+
+“I was improving the cup.”
+
+“Worse.”
+
+Teren heard enough to look over.
+
+“What happened?”
+
+Nessa said, “He gave me the wrong cup because he likes it better.”
+
+“That is not what happened.”
+
+She waited.
+
+“I gave her the wrong cup because it was less broken.”
+
+Teren nodded once.
+
+“That is what she said.”
+
+“This is becoming hostile.”
+
+He took the red cup from the table and handed it to me.
+
+“What matters?”
+
+“The scene.”
+
+“More specific.”
+
+“Hara gets red in two. Pell gets blue in one and three.”
+
+“Good.”
+
+He took both cups and placed them side by side on the property table.
+
+Then he turned the red one so the painted crack faced me.
+
+“Read the play, not the object.”
+
+I looked at him.
+
+“That sounds suspiciously like a lesson.”
+
+“It is an instruction. Again.”
+
+We ran it again.
+
+Blue to Pell.
+
+Red ready for Hara.
+
+Blue back for the third scene.
+
+Simple.
+
+Then Marek stole the blue cup.
+
+Not in the play.
+
+He walked past the property table, picked it up, and drank water from it.
+
+Nessa made a sound I had only heard previously when a costume sleeve tore ten minutes before curtain.
+
+Marek froze.
+
+“What?”
+
+“That is painted.”
+
+He looked at the cup.
+
+“It is dry.”
+
+“It is property.”
+
+“It was a cup yesterday.”
+
+“Yesterday you were not a groom.”
+
+Marek considered that.
+
+“Temporary identities everywhere.”
+
+Nessa took the cup away and inspected the paint.
+
+No damage.
+
+She put it back.
+
+I moved both cups farther from Marek.
+
+He looked wounded.
+
+“Steward.”
+
+“Guest.”
+
+“Hospitality.”
+
+“Denied.”
+
+Hara passed behind us and said, “Correct.”
+
+By midday we had run the first and second scenes twice.
+
+My lines were ordinary.
+
+“Your cup, sir.”
+
+“The kitchen sent what remained.”
+
+“No, madam, that is not the same bottle.”
+
+“I was told to serve it.”
+
+“I was not told why.”
+
+The last one got a laugh from the company because it described my entire employment.
+
+Teren did not tell us to keep the laugh.
+
+He told Marek to stop leaning on the table because the table moved every time he did.
+
+We worked.
+
+This was different from the early days when every cue occupied my whole head. I could listen to Pell and check the tray at the same time. I knew when I had enough time to return a bottle backstage and when I did not. I heard Nessa tell Davin that a napkin had disappeared while I was waiting for an entrance, and when I came off I found it under the cabinet because I had seen Pell kick something white there during the run.
+
+Nessa took it from me.
+
+“Useful.”
+
+“I know.”
+
+“Dangerous answer.”
+
+She left.
+
+I was getting comfortable enough to be annoying more efficiently.
+
+Midday food arrived in pieces.
+
+No one had organized it. Hara had bread. Pell had cheese. Jori had something wrapped in paper that smelled of onions. Marek claimed not to be hungry until he saw Davin eating.
+
+Rinna had a heel of bread and half an apple behind the front table.
+
+I bought a small bowl from the soup woman two doors down and brought it back to the side aisle.
+
+Rinna looked at me over the ledger.
+
+“Anything?” I asked.
+
+She knew which anything.
+
+“No.”
+
+Then she pointed at my soup.
+
+“Keep that away from the pages.”
+
+Vale office had trained the city.
+
+I ate on the stage edge.
+
+Jori and Davin took the repaired cart out again after midday to collect two benches from a hall on Narrow Street. Nobody announced the departure time. Nobody escorted them. Nobody turned it into a test.
+
+The cart left.
+
+Later it returned with benches.
+
+Repair successful.
+
+The world remained offensive in its refusal to become dramatic on command.
+
+The house started filling before dusk.
+
+The Second Toast was paired with The Window Tax, a short piece in which Hara played a widow arguing with an official about whether a bricked-over window still counted as a window for tax purposes. I had no role in that one.
+
+Good.
+
+It let me work the property table and watch.
+
+Hara owned the room within three minutes.
+
+The official, played by Pell, insisted that the opening had once been a window and therefore remained taxable.
+
+Hara walked to the painted wall, placed both hands against the clearly bricked rectangle, and said, “Then collect the sunlight.”
+
+The audience laughed.
+
+Pell said the law concerned openings, not sunlight.
+
+Hara turned back.
+
+“It is closed.”
+
+“It was open.”
+
+“So was my husband’s mouth. Shall I pay for that too?”
+
+The room broke.
+
+Pell had to wait.
+
+Hara did not.
+
+She stood there with the exact patience of a woman who had been prepared to argue all day and had finally found an audience willing to enjoy it.
+
+Nothing I did later came close.
+
+Good.
+
+The curtain came down on The Window Tax, and the company changed worlds.
+
+The dining table came forward.
+
+Cabinet right.
+
+Four chairs.
+
+Tray.
+
+Bottle.
+
+Blue cup.
+
+Red cup.
+
+Nessa checked the property table.
+
+Then checked me.
+
+“Which?”
+
+“Blue one first.”
+
+“Then?”
+
+“Red to Hara.”
+
+“Then?”
+
+“Blue back to Pell.”
+
+“Why?”
+
+“The play.”
+
+She nodded.
+
+I had passed advanced cup theory.
+
+The first scene went cleanly.
+
+I entered with the tray.
+
+My right crutch stopped where it should. Left crutch angled enough that the tray cleared my hip. I set both against the cabinet for the brief moment both hands were occupied, lifted the blue cup, and gave it to Pell.
+
+“Your cup, sir.”
+
+Pell inspected the blue band.
+
+“This one is acceptable.”
+
+Marek, already seated, said, “It is a cup.”
+
+Pell looked at him.
+
+“That attitude explains your coat.”
+
+A laugh.
+
+Marek looked down at his coat as though betrayed.
+
+The scene moved.
+
+I retrieved the tray and left.
+
+Backstage, Nessa took the blue cup, wiped the rim with a cloth, and returned it to its mark.
+
+Red next.
+
+I knew that.
+
+I also knew Hara would enter from the opposite side in twenty seconds and that one of the table chairs had drifted half a foot during the first scene.
+
+Jori was already moving it back.
+
+I stayed out of his way.
+
+Nessa put the red cup on my tray.
+
+Correct.
+
+My cue came.
+
+I entered.
+
+Hara’s character had just announced that she had come to discuss an unpaid obligation. Pell’s Uncle believed she meant the marriage settlement.
+
+She did not.
+
+I crossed with the tray.
+
+Then I made the mistake that mattered.
+
+Not the cup.
+
+The cup was right.
+
+I knew the scene too well.
+
+Hara had not yet chosen the cracked cup.
+
+Her character was supposed to inspect the tray, hear Pell make one more remark about respectable households, and then deliberately choose the damaged one.
+
+I angled the tray toward her with the red cup already presented forward.
+
+Tiny movement.
+
+Probably invisible to half the room.
+
+Not invisible to Hara.
+
+She looked at the tray.
+
+Then at me.
+
+For one second I knew exactly what I had done.
+
+I had made her decision for her.
+
+Hara recovered without changing expression. Instead of taking the cup immediately, she reached past the red one and touched the blue-banded empty space on the tray.
+
+“There was another.”
+
+I said the next written line.
+
+“The gentleman has it.”
+
+She looked at Pell.
+
+“Of course he does.”
+
+The audience laughed.
+
+Then she took the red cup.
+
+The scene continued.
+
+Backstage, Teren was waiting.
+
+Not angrily.
+
+Worse.
+
+Professionally.
+
+“You offered it.”
+
+“I know.”
+
+“Hara chooses it.”
+
+“I know.”
+
+“You knew before she did.”
+
+“Yes.”
+
+He pointed at the tray.
+
+“Carry choices. Do not make them.”
+
+That was all.
+
+No philosophy.
+
+No speech about acting.
+
+Nessa took the tray from me because the next entrance belonged to someone else.
+
+Hara came off thirty seconds later.
+
+She passed me.
+
+“Helpful steward.”
+
+“I regret my service.”
+
+“You should.”
+
+Then she was gone to change a shawl.
+
+The third scene was still mine.
+
+Blue cup back to Pell.
+
+This time I stopped knowing things on purpose.
+
+That was harder than it sounded.
+
+Backstage I checked the mark.
+
+Blue.
+
+I picked it up when Nessa nodded.
+
+Onstage Pell was already complaining that nobody had explained why Hara’s character knew the exact amount of his supposed marriage settlement.
+
+Marek was trying to leave.
+
+The daughter blocked him.
+
+My cue came.
+
+I entered with the blue cup on the tray.
+
+I did not angle it at Pell.
+
+I brought the tray where the Steward would bring it.
+
+Pell noticed the cup himself.
+
+“Finally.”
+
+I said, “You left it.”
+
+“I did not.”
+
+“It was beside your chair.”
+
+Marek said, “Then it was his.”
+
+Pell looked at him.
+
+“That is not how ownership works.”
+
+From somewhere backstage, I heard Nessa make a tiny sound that might have been laughter.
+
+I kept my face.
+
+Pell took the cup.
+
+The blue band faced the audience.
+
+Correct cup.
+
+Correct moment.
+
+Then Hara entered behind him carrying the red cup and said, “You appear attached to yours.”
+
+Pell said, “It is intact.”
+
+Hara looked down at the painted crack in hers.
+
+“Unlike your accounts.”
+
+That was the line the play had been building toward.
+
+The audience broke hard enough that Pell had to wait.
+
+Hara did not smile.
+
+She drank from the fake cup anyway.
+
+No water, obviously.
+
+The crack was real.
+
+Theatre could survive only so much commitment.
+
+My remaining lines passed cleanly.
+
+I left.
+
+No applause specifically for me.
+
+No disaster.
+
+A working scene.
+
+Backstage, Nessa took the tray.
+
+“Better.”
+
+“I did almost nothing.”
+
+“Yes.”
+
+There was apparently progress inside that insult.
+
+The rest of the performance continued without requiring me to become central.
+
+Marek forgot which chair he had hidden a letter under and found it under the wrong one. Pell covered by accusing him of searching other people’s furniture. The daughter actor got a strong laugh by quietly moving the actual letter farther away while both men argued.
+
+Davin nearly carried the wrong cabinet off between scenes until Jori caught the other end and asked where exactly he planned to take the dining room.
+
+“Storage.”
+
+“We still need it.”
+
+“Later?”
+
+“Now.”
+
+Davin returned it.
+
+Theatre survived.
+
+After curtain, the audience became coats, wet shoes, voices, and people trying to leave through the same door at once.
+
+The company became labor.
+
+I returned the blue cup and red cup to the property table.
+
+Nessa put both into a box marked STAGE ONLY.
+
+Yesterday they had been household cups.
+
+Today they had a profession.
+
+Marek reached toward the box.
+
+Nessa slapped his hand without looking.
+
+“Remarkable reflex,” I said.
+
+“Practice.”
+
+Rinna paid me the normal copper.
+
+I put it away.
+
+No Vale calculation.
+
+No Hessa calculation.
+
+Money.
+
+Jori and Davin loaded the two borrowed benches back onto the repaired cart. I helped with the rope by sitting on the cart edge and holding one end while Jori tied the other. Davin claimed the knot was his design.
+
+Jori said, “It is a square knot.”
+
+“Exactly.”
+
+The new brace held.
+
+The cart rolled out.
+
+No one watched it leave except us.
+
+That was enough.
+
+I stayed another twenty minutes because Nessa wanted the property chest reorganized after Marek had returned three objects to the wrong compartments and one object to no compartment at all.
+
+The striped umbrella was missing.
+
+Of course.
+
+We found it hanging from the rear door.
+
+No one remembered putting it there.
+
+I suspected the building.
+
+At home, Lyssa was not there yet.
+
+The brown sleeve was gone from the table.
+
+In its place sat a folded green garment I had never seen before and a note:
+
+DO NOT EAT THE LAST CHEESE.
+
+Specific.
+
+Growth.
+
+I washed, changed my shirt because apparently theatre paint had become a social problem, and ate bread without the cheese.
+
+Lyssa returned after dark carrying a packet of buttons and no finished work.
+
+“Customer changed the cuff again?” I asked.
+
+She stopped.
+
+“How do you know?”
+
+“I have developed a gift.”
+
+“She changed the cuff again.”
+
+“Charge for emotional damage.”
+
+“I charged for changing the cuff.”
+
+“Still less satisfying.”
+
+She put the buttons down.
+
+I showed her the copper from theatre only because it was already in my hand when I emptied my pocket.
+
+She did not ask whether it was going to Vale.
+
+I put it with the rest.
+
+She looked at my shirt.
+
+“You changed.”
+
+“I was told I looked unprofessional.”
+
+“By who?”
+
+“You.”
+
+“Accurate.”
+
+I sat while she opened the green garment.
+
+She did not ask about Bren.
+
+I did not tell her there was nothing to tell.
+
+After a while she said, “Role?”
+
+“Steward.”
+
+“Important?”
+
+“Eleven lines.”
+
+“That many?”
+
+“Do not sound surprised.”
+
+“What did you carry?”
+
+“Cups.”
+
+She nodded.
+
+“That sounds right.”
+
+“One cup was cracked.”
+
+“Did you break it?”
+
+“It was broken before I arrived. For once.”
+
+I told her about the painted crack, the blue band, Hara choosing the wrong-looking cup on purpose, and how I had angled the tray toward her before she chose.
+
+Lyssa threaded a needle.
+
+“You helped too early.”
+
+“Yes.”
+
+“You do that.”
+
+I looked at her.
+
+“With theatre.”
+
+She looked back.
+
+“With many things.”
+
+“That sounds like a larger lesson.”
+
+“I am sewing.”
+
+Good boundary.
+
+I let it die.
+
+The table filled again while she worked.
+
+Outside, a cart went down the street, wheels rattling over wet stone.
+
+Maybe ours.
+
+Probably not.
+
+It did not matter.
+
+Today the repaired theatre cart had carried benches. Two discarded cups had become stage property. Hara had destroyed Pell with a cracked cup and a line about accounts. I had remembered eleven lines, three entrances, two cups, one tray, and almost managed not to decide anything for anyone else.
+
+Tomorrow the cups would still be in the stage box.
+
+Unless Marek touched them.
+
+Some problems deserved preparation.
