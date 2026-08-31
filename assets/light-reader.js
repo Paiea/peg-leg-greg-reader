@@ -5,6 +5,7 @@
   const tocNode = document.querySelector('[data-light-toc]');
   const statusNode = document.querySelector('[data-light-status]');
   const bottomNode = document.querySelector('[data-light-bottom]');
+  const switchNode = document.querySelector('[data-light-switch]');
   const jumpForm = document.querySelector('[data-light-jump]');
   const jumpInput = document.querySelector('#light-chapter');
   const manuscriptPath = 'state/manuscript/Peg_Leg_Greg_Running_Manuscript.md';
@@ -50,32 +51,53 @@
     return found;
   };
 
+  const addTocLabel = (text) => {
+    const label = document.createElement('div');
+    label.className = 'light-toc-label';
+    label.textContent = text;
+    tocNode.appendChild(label);
+  };
+
+  const addTocChapter = (chapter) => {
+    const a = document.createElement('a');
+    a.href = lightHref(chapter.number);
+    const num = document.createElement('span');
+    num.className = 'num';
+    num.textContent = String(chapter.number).padStart(2, '0');
+    const title = document.createElement('span');
+    title.className = 'title';
+    title.textContent = chapter.title;
+    a.append(num, title);
+    tocNode.appendChild(a);
+  };
+
   const renderToc = (available) => {
     tocNode.innerHTML = '';
-    for (const chapter of available) {
-      const a = document.createElement('a');
-      a.href = lightHref(chapter.number);
-      const num = document.createElement('span');
-      num.className = 'num';
-      num.textContent = String(chapter.number).padStart(2, '0');
-      const title = document.createElement('span');
-      title.className = 'title';
-      title.textContent = chapter.title;
-      a.append(num, title);
-      tocNode.appendChild(a);
+    const published = available.filter((chapter) => chapter.source === 'published');
+    const forward = available.filter((chapter) => chapter.source === 'manuscript');
+
+    if (published.length) {
+      addTocLabel('Illustrated-edition prose · text only');
+      published.forEach(addTocChapter);
     }
-    if (available.some((c) => c.number <= 155) && available.some((c) => c.number >= 220)) {
+
+    if (published.length && forward.length && forward[0].number > published[published.length - 1].number + 1) {
       const gap = document.createElement('div');
       gap.className = 'light-reader-gap';
-      gap.textContent = 'Chapters 156–219 are not yet available in the permanent GitHub manuscript. They will appear here after exact-text synchronization; summaries are never used as substitute prose.';
-      tocNode.insertBefore(gap, [...tocNode.children].find((el) => Number.parseInt(el.querySelector?.('.num')?.textContent || '0', 10) >= 220) || null);
+      gap.textContent = `Chapters ${published[published.length - 1].number + 1}–${forward[0].number - 1} are not yet available as exact prose in the permanent GitHub manuscript. Light Reader will not silently jump this gap.`;
+      tocNode.appendChild(gap);
+    }
+
+    if (forward.length) {
+      addTocLabel('Latest exact manuscript chapters');
+      forward.forEach(addTocChapter);
     }
   };
 
   const setNav = (available, current) => {
-    const index = available.findIndex((c) => c.number === current);
-    const prev = index > 0 ? available[index - 1] : null;
-    const next = index >= 0 && index < available.length - 1 ? available[index + 1] : null;
+    const byNumber = new Map(available.map((chapter) => [chapter.number, chapter]));
+    const prev = byNumber.get(current - 1) || null;
+    const next = byNumber.get(current + 1) || null;
     for (const node of document.querySelectorAll('[data-light-prev],[data-light-prev-bottom]')) {
       node.hidden = !prev;
       if (prev) node.href = lightHref(prev.number);
@@ -109,6 +131,23 @@
     }
   };
 
+  const renderModeSwitch = (chapter) => {
+    if (!switchNode) return;
+    switchNode.innerHTML = '';
+    switchNode.hidden = false;
+    if (chapter.source === 'published') {
+      const a = document.createElement('a');
+      a.href = `chapters/${String(chapter.number).padStart(3, '0')}.html`;
+      a.textContent = 'View this chapter in the illustrated reader →';
+      switchNode.appendChild(a);
+    } else {
+      const a = document.createElement('a');
+      a.href = 'latest.html';
+      a.textContent = 'View latest manuscript index →';
+      switchNode.appendChild(a);
+    }
+  };
+
   const showChapter = async (available, chapter) => {
     tocNode.hidden = true;
     proseNode.hidden = false;
@@ -118,6 +157,7 @@
     document.title = `Chapter ${chapter.number}: ${chapter.title} — Peg-Leg Greg Light Reader`;
     jumpInput.value = chapter.number;
     setNav(available, chapter.number);
+    renderModeSwitch(chapter);
     setStatus(chapter.source === 'published' ? 'Text-only rendering from the exact published chapter. Illustrations are intentionally omitted.' : 'Text-only rendering directly from the permanent GitHub manuscript.');
     if (chapter.source === 'published') await renderPublished(chapter);
     else renderManuscript(chapter);
@@ -127,9 +167,10 @@
     tocNode.hidden = false;
     proseNode.hidden = true;
     bottomNode.hidden = true;
+    if (switchNode) switchNode.hidden = true;
     numberNode.textContent = 'LIGHT READER';
     titleNode.textContent = 'CHAPTER NOT YET MATERIALIZED';
-    setStatus(`Chapter ${number} is not currently available as exact prose in the light reader. The contents below show every chapter that can be rendered without reconstruction.`);
+    setStatus(`Chapter ${number} is not currently available as exact prose in the light reader. The table of contents below shows every chapter that can be rendered without reconstruction.`);
     renderToc(available);
   };
 
@@ -147,6 +188,9 @@
     const forward = parseManuscript(manuscript).filter((chapter) => !published.some((p) => p.number === chapter.number));
     const available = [...published, ...forward].sort((a, b) => a.number - b.number);
     if (!requested) {
+      numberNode.textContent = 'LIGHT READER';
+      titleNode.textContent = 'TABLE OF CONTENTS';
+      if (switchNode) switchNode.hidden = true;
       renderToc(available);
       setStatus(`${available.length} exact-text chapters currently available. Light mode loads no chapter illustrations.`);
       return;
