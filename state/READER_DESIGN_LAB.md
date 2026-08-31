@@ -20,13 +20,13 @@ The Light Reader does not replace the illustrated edition. It removes art/layout
 Current source behavior:
 - exact published Chapters 1–155 are rendered text-only from their existing chapter pages, with figures removed in the browser
 - Chapters 220+ are discovered/rendered directly from `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`
-- exact Chapters 156–219 have been recovered outside GitHub, but are not yet fully synchronized into the repository; never reconstruct them from summaries
+- exact Chapters 156–219 are preserved in `state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md` and wired into the Light Reader
 - as new chapters are appended to the permanent running manuscript, the Light Reader should discover them without requiring one new static HTML page per chapter
 
 Current Light UX rule:
 - show the CURRENT manuscript group first, newest chapter first, so the live endpoint cannot be mistaken for Chapter 155
 - show a direct `Read current manuscript` shortcut near the top
-- show the 156–219 synchronization gap explicitly
+- label Chapters 156–219 as recovered exact prose rather than a synchronization gap
 - keep illustrated-edition text chapters below the current-manuscript group
 - cache-bust reader JavaScript when behavior changes materially so GitHub Pages/browser caching does not leave users on an older reader implementation
 
@@ -95,7 +95,7 @@ Possible, not mandatory. Use only when story structure genuinely supports it. Do
 
 ## Future branch experiments
 
-- recover/synchronize exact Chapters 156–219 so Light becomes continuous
+- decide later whether recovered Chapters 156–219 should be consolidated into a different permanent manuscript path; do not rewrite or reconstruct them
 - CSS consolidation
 - typography/measure adjustments
 - chapter-nav variations
