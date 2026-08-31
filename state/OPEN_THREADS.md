@@ -1,26 +1,28 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Current endpoint:** Chapter 221 — **THE PARTICIPANT**.
+- **Current endpoint:** Chapter 222 — **THE PROPERTY MAN**.
 - **Permanent forward manuscript:** `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`. Chapters 156–219 still need exact-text synchronization; Chapter 220+ writes directly here.
-- **Engine method:** `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` now preserves durable 01 behavior and recovery instructions.
+- **Engine method:** `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves durable 01 behavior and recovery instructions.
 - **Magic counts:** ACTIVE at 31 supervised minimal draws / 27 deliberate shaping attempts / 37 external-effect attempts.
-- **External response:** repeatable microscopic paper-fin response established only in Hessa's controlled apparatus. Not generalized.
-- **Directional preference:** AWAY remains more reliable than TOWARD under current controlled evidence.
-- **Distance dependence:** supported in current apparatus. Intermediate remains more reliable than FAR.
-- **FAR evidence:** attempt 33 previously produced small rotational/net-away response. Ch221 attempt 36 produced another small rotational/net-away response under the same FAR/AWAY apparatus, in a separate session. Attempts 35 and 37 produced no observed response. FAR response has therefore been observed across more than one session, but FAR reliability remains unestablished. No range established.
-- **Latest magic session:** one preliminary shaping setup was aborted before counting because Greg lifted/braced his shoulder. Clean shaping then counted as attempt 27. Temporary ordinary forearm warmth returned to baseline before attempt 37. No injury/new symptom.
+- **FAR evidence:** attempt 33 and Ch221 attempt 36 each produced a small rotational/net-away response in separate sessions under the current FAR/AWAY apparatus. FAR response has repeated across sessions, but FAR reliability remains unestablished. INTERMEDIATE remains more reliable. No range established. Not generalized.
 - **Magic restrictions:** unchanged. No independent draw, shaping, external testing, paper, coins, thread, larger objects, practice, Barrier broadening, theatrical magic, or loopholes.
-- **Next magic question:** NOT scheduled on-page. Do not immediately range-map or escalate apparatus simply because FAR repeated.
-- **Theatre:** routine paid work remains central. Ch221 Greg holds painted wall/canvas for Jori, carries pages, watches rehearsal, and has no evening role. Theatre continues without needing every chapter to advance acting skill.
-- **Rinna / commercial defense:** ACTIVE. Suppliers/service people the theatre actually uses verify claims directly with Rinna and avoid giving strangers useful operational/payment information.
-- **Brown-coat observer:** ACTIVE / UNIDENTIFIED. Thin face, brown coat, dark hair, quiet/not-loud voice. Description matches Copper Kettle observer and Olin visitor, but no identity/employment link to Bren is proven.
-- **Brown-coat questions through Ch220:** whether Rinna bought oil anyway, paid cash, theatre still performs, and whether Rinna keeps money at the hall. These support interest in theatre money handling, not organization identity.
-- **Mason's Cut:** Olin's boy saw brown-coat man walking toward Mason's Cut but did not see him enter. Direction of travel only. No base/residence/territory claim.
+- **Next magic question:** NOT scheduled on-page. Ch222 contains no magic session. Do not immediately range-map.
+- **Theatre:** routine paid work is central. Ch222 Greg works the property table for `The Widow's Guest` and performs a four-line Delivery Man in `The Honest Clerk`.
+- **Greg theatre progression:** backstage routes/cues/prop order increasingly ordinary. He remembers scene-dependent props without daily instruction and hears his cue while working. Do not convert this into a declared milestone.
+- **Latest acting correction:** Greg reaches for the receipt before Pell's Clerk has decided to accept the parcel. Teren narrows the issue: Greg knows the receipt is coming; the delivery man does not yet. Greg resets and waits for the scene event.
+- **Property-table/social memory:** missing striped umbrella, Marek's hat theft/borrowing, red-bordered handkerchief, old silver-painted key, and ordinary recurring prop chaos now accumulate as group history rather than isolated scenes.
+- **Backstage disability adaptation:** Jori and Davin now move stools/obstructions from Greg's lane without discussion. Keep this ordinary and social, not inspirational.
+- **Rinna / commercial defense:** ACTIVE. Actual suppliers/service people verify claims directly with Rinna and avoid giving strangers useful operational/payment information.
+- **Brown-coat observer:** ACTIVE / UNIDENTIFIED. Thin face, brown coat, dark hair, quiet/not-loud voice. Description matches Copper Kettle observer/Olin visitor, but identity/employment link to Bren remains unproved.
+- **Brown-coat questions through Ch220:** oil purchase, cash payment, whether theatre still performs, whether Rinna keeps money at hall. These support interest in theatre money handling, not organization identity.
+- **Mason's Cut:** Olin's boy saw brown-coat man walking toward Mason's Cut but did not see him enter. Direction only. No base/residence/territory claim.
 - **Bren:** probable name of close-haired heavy-coat spokesman with left glove. One-copper demand refused Ch218. `Next time won't be one.` No surname, boss, organization, or violence established.
-- **Threat restraint:** Ch221 contains no new threat event. Greg does not investigate Mason's Cut. Rinna receives no new warning. This is deliberate breathing room, not resolution.
-- **Potential next pressure edge:** if the warning network speaks again, prefer genuinely new information such as questions about theatre carts, payment timing, post-show movement, or who carries money. A witness report remains evidence of questions, not proof of robbery/organization/Bren employment.
-- **Vale debt:** ACTIVE. Exact balance known to Greg in-world but unstated to reader. One-copper cash payment made Ch218. Debt not forgiven. No fixed repayment plan. Suitable Vale labor can still earn credit when Antonius has work.
-- **Living expenses:** ordinary spending and repayment coexist. Do not turn every copper into debt morality.
-- **Vale / Bren:** NO CONNECTION ESTABLISHED. Keep separate.
-- **Greg / Lyssa:** ordinary intimacy continues. Lyssa remains independently employed/occupied and does not become Greg's analyst or research partner.
+- **Threat breathing room:** Ch221 and Ch222 contain no new warning/demand/appearance/violence. This is not resolution.
+- **Quiet defensive residue:** Ch222 Rinna's table sits farther from the open door and she brings the cash box out only when doors are nearly shut, counts it, then closes it again. No guards or fortress behavior.
+- **Next pressure edge:** now that magic and theatre each had a turn, a second warning-network payoff can naturally move the threat. Strong candidate: cart repair man reports questions about cart/post-show movement, who takes things away, or related logistics. Preserve exact wording and witness uncertainty.
+- **Evidence ceiling for next warning:** questions about movement/logistics may support interest in theatre movement. They do NOT prove robbery, ambush, Bren employment, organization, or a specific plan.
+- **Vale debt:** ACTIVE. Exact balance known in-world but unstated. One-copper payment made Ch218. Debt not forgiven. No fixed repayment plan. Ch222 no Vale appearance/payment.
+- **Living expenses:** ordinary spending and repayment coexist. Ch222 Greg buys matching thread for Lyssa after earning theatre pay.
+- **Vale / Bren:** NO CONNECTION ESTABLISHED.
+- **Greg / Lyssa:** ordinary intimacy continues. Ch222 Lyssa works independently, gives Greg a thread errand, completes/delivers customer work, and does not require a full plot debrief at home.
 - **Long-range theatre direction:** THEATRE → PERFORMANCE → MISDIRECTION → ILLUSION → MASKS → CONTROL OF PERCEPTION → eventual dangerous bluff. Directional only; visible theatre remains FUN → PEOPLE → WORKPLACE → ACTING → STAGECRAFT → FAILURE → ANOTHER TURN.
