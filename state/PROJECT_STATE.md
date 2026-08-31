@@ -18,12 +18,9 @@ When overlapping files conflict, the newer GitHub-authoritative version outranks
 Root `AGENTS.md` is the entry point for a fresh repository-aware worker.
 
 Normal pattern:
-
-**CHAT = disposable thinking**
-
-**BRANCH = durable WIP / broad or risky work**
-
-**MAIN = accepted authority / small atomic completed work**
+- CHAT: exploration / temporary working context
+- GITHUB BRANCH: durable work in progress for broad/risky changes
+- GITHUB MAIN: accepted current authority
 
 `state/HANDSHAKE_PROTOCOL.md` defines how one disposable worker leaves a trailhead for the next.
 
@@ -34,6 +31,8 @@ Normal pattern:
 - 03 / Story Control: `STORY_CONTROL_STATE.md`
 - 04 / Editor: `EDITOR_STATE.md`
 - Codex/repository integration: synchronize, validate, preserve supplied engine state; do not invent canon or rewrite engine decisions.
+
+`MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves HOW 01 should think/work. It is durable method, not a canon summary. Current facts belong in manuscript state/open threads and exact prose belongs in the manuscript.
 
 ## Durable specialist brains
 
@@ -48,7 +47,7 @@ These files store reusable method/knowledge without outranking manuscript prose:
 - `READER_DESIGN_LAB.md` — UI/graphics ideas and experiments not yet project law
 - `HANDSHAKE_PROTOCOL.md` — cross-chat continuation convention
 
-The Manuscript Engine should not read every specialist file every chapter. Preserve throughput: read core manuscript files first and consult specialist brains when the chapter/task needs them.
+The Manuscript Engine should not read every specialist file every chapter. Preserve throughput: read core manuscript files first and consult specialist brains only when the chapter/task needs them.
 
 ## Book 1
 
@@ -79,14 +78,14 @@ Permanent forward path:
 
 Do NOT create a new `Peg_Leg_Greg_Running_Manuscript_ChXXX-YYY.md` file for each chapter or shipping pass. Update the permanent running manuscript in place.
 
-**Do not hard-code the live chapter endpoint in this overview.** Read `state/MANUSCRIPT_STATE.md` and the permanent running manuscript for the current edge. The Manuscript Engine may advance faster than infrastructure branches.
+Current story endpoint is Chapter 221 — **THE PARTICIPANT**.
 
-Repository prose was previously validated continuously through Chapter 155 — **THE LEAK**. Chapters 156–219 remain newer forward material pending exact-text synchronization into the permanent file and must not be reconstructed from summaries. Chapter 220 and later forward chapters are materialized directly in the permanent running manuscript.
+Repository prose was previously validated continuously through Chapter 155 — **THE LEAK**. Chapters 156–219 remain newer forward material pending exact-text synchronization into the permanent file and must not be reconstructed from summaries. Chapters 220 and later are materialized directly in the permanent running manuscript.
 
 ## Forward production workflow
 
 For every new chapter:
-1. Read the current permanent running manuscript and current state first.
+1. Read current GitHub authority first, including the engine playbook.
 2. Write one chapter at a time.
 3. Preserve canon, character, plot, and scene intent.
 4. Run the prose/continuity pass.
@@ -94,8 +93,10 @@ For every new chapter:
 6. Verify no em dashes in manuscript prose.
 7. Update the SAME permanent running manuscript file in place.
 8. Update the SAME compact state files in place. Do not create chapter-numbered state clones.
-9. Update reader surfaces only as needed, preserving newer UI/artwork work.
+9. Update reader surfaces only as needed, preserving newer UI/artwork work and known synchronization gaps.
 10. In chat, give a compact production note and then a full copyable next-edge re-prompt in ONE code block. The re-prompt ritual remains part of the workflow even though GitHub is the durable savestate.
+
+Normal one-chapter forward production may update `main` directly when explicitly requested. Broad prose passes, reader rebuilds, mass illustration work, manuscript consolidation, broad renames, and structural cleanup should normally use a branch first.
 
 ## Visual production
 
