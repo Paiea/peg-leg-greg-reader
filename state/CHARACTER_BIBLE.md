@@ -27,21 +27,43 @@ Repeated work can also reduce supervision around Greg without making him the bes
 
 - Canonical spelling: Lyssa. Same established character formerly spelled Lysa.
 - Black woman; tall relative to Greg; thin/lithe build; natural Afro-textured hair.
-- Has independent work, errands, moods, obligations, competence, and desires.
+- Has independent work, errands, moods, obligations, competence, relationships, and desires.
 - Relationship with Greg includes ordinary domestic life, not merely plot debriefs.
 - Can distinguish what happened from what Greg thinks it means.
 - Often refuses Greg's attempt to inflate a narrow practical event into a grand lesson when she has her own work to do.
-- Her professional sewing/alteration work is an independent economic/social engine, not background scenery. Chapter 224 explicitly says she is maintaining **three customers** and a changing collection of cloth while Greg handles his own work.
+- Her professional sewing/alteration work is an independent economic/social engine, not background scenery.
+- Recovered Chapters 156–219 establish a recurring work ecology around **Marra**, **Jessa**, customers, material routes, messages, deliveries, and payment/exchange well before the recent three-customer material.
+- By Chapter 195 customers at Marra's greet Lyssa by name and ask about unfinished work. Her professional recognition therefore predates Chapter 224.
+- Greg gradually learns Lyssa's Marra route until Chapter 199 says he knows it without thinking; Lyssa's work geography is part of his accumulated Carrow belonging without becoming his domain.
+- Chapter 217 explicitly establishes **one customer referral**: a satisfied cuff customer recommends another customer, whose new work is a shoulder seam. This proves referral can occur in Lyssa's work world, but does not establish a generalized referral system or the identity of every later customer.
+- Chapter 224 explicitly says she is maintaining three customers and a changing collection of cloth while Greg handles his own work.
 - Current work life includes customer visits at the apartment, jobs completed/delivered while Greg is elsewhere, payment, several unrelated garments moving through the table, and ordinary material errands.
 - Chapter 225–226 establishes paid customer-requested rework at the narrow behavioral level: the brown-cuff customer changes the cuff after completion, changes it again, Lyssa charges for both changes, delivers the job, gets paid, hears that the first cuff was prettier, and moves on.
-- Chapter 222 establishes Maren as a useful garment/thread supply route for her. Greg can bring a cloth sample for matching; Lyssa later says `Maren usually does.` Do not inflate this into an invented personal supplier relationship or assume the seller knows Lyssa unless prose establishes it.
-- Chapter 227 establishes another unnamed customer being fitted in the apartment while Greg arrives after the work is already underway. Lyssa pins the pale coat near the hem and immediately refuses one requested additional narrowing point because there is not enough cloth there. This establishes customer-present fitting and one concrete material constraint/refusal, not a universal fitting doctrine or refusal/pricing policy.
-- The Chapter 227 customer's source remains unknown. Greg asks how the woman came to Lyssa; Lyssa only says she needed a coat changed. Do not invent a referral chain.
-- Current prose visibly uses pins, seams, lining, buttons, chalk marks, folded/pinned cloth, opened garments, and multiple sleeves as work-in-progress texture. Do not retroactively assign a specific fitting/confirmation meaning to every state.
+- Chapter 222 establishes **Maren** as a useful garment/thread supply shop route. Maren is separate from Marra. Greg can bring a cloth sample for matching; Lyssa later says `Maren usually does.` Do not invent a personal seller relationship unless prose establishes it.
+- Chapter 227 establishes another unnamed customer being fitted in the apartment while Greg arrives after the work is already underway. Lyssa pins the pale coat near the hem and refuses one requested additional narrowing point because there is not enough cloth there. This establishes customer-present fitting and one concrete material constraint/refusal, not a universal fitting doctrine or refusal/pricing policy.
+- The Chapter-227 customer's source remains unknown. Do not retroactively make her the Chapter-217 referral or invent another referral chain.
+- Current prose deliberately keeps many customer identities separate/uncertain. Similar sleeves, cuffs, colors, or shoulder work do not prove the same customer; Chapter 211 and Chapter 219 explicitly resist those merges.
 - Greg may notice patterns in her work but should not become her business manager, alteration analyst, or automatic courier.
-- Repeat/referral customers, remembered fit preferences, specific queue consequences, formal generalized fitting stages, and broader repricing/refusal rules remain possibilities until prose establishes them.
+- Broader referral networks, remembered customer fit preferences, specific queue consequences, formal generalized fitting stages, and universal pricing rules remain possibilities until prose establishes them.
 - Do not route her into theatre wardrobe merely because she can sew; any overlap requires an earned customer/job/relationship connection.
 - Do not flatten her into Greg's sounding board, permanent caretaker, exposition receiver, or person who exists only when Greg comes home.
+
+## Marra
+
+- Recurring green-door garment-work person/work hub established from the recovered middle, first directly encountered by Greg in Chapter 175.
+- Lyssa and Marra repeatedly coordinate garment correction, cloth/material, bundles, messages, customer work, and material/economic exchange.
+- Marra knows information about Greg through Lyssa before Greg directly enters the relationship; she recognizes him as `the road one` in Chapter 175.
+- Marra's work room has independent customer/work memory: garments, material judgments, misplaced supplies, borrowing, prices, workers/customers, and tasks continue without Greg.
+- Formal occupational/business category is deliberately not established. Do not force Marra into a modern title, partnership, employer, or hierarchy merely to tidy the network.
+- **Continuity:** Marra is NOT Maren. Marra is the recurring green-door work node; Maren is the separate later spool-sign supply shop.
+
+## Jessa
+
+- Recurring participant in the Marra/Lyssa garment-work ecology from the recovered middle.
+- Works directly with garments, has a sister on Lyssa's route, participates in material/favor circulation, and carries work messages/shorthand that Greg may not understand.
+- Chapter 188 strongly establishes independent causality: Greg fails to deliver Marra/Jessa's time-sensitive message, and Jessa later finds Lyssa herself.
+- Appears working at Marra's again in Chapter 199 and participates in customer/garment continuity there.
+- Exact formal role is not established. Do not force `employee`, `partner`, `customer`, `apprentice`, or family category unless later prose does so.
 
 ## Hessa
 
