@@ -59,8 +59,9 @@ high-quality source value.
 
 - `Peg_Leg_Greg_Heavy_Edit.md`
 
-It is active unique editorial work. Forward manuscript authority does not
-replace it.
+It is the protected frozen checkpoint for completed heavy edits in Chapters
+138-180. The GitHub continuation begins at Chapter 181 and does not replace that
+earlier edited prose.
 
 ## Unknown
 
