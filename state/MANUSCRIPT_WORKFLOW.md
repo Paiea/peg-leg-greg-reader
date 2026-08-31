@@ -119,6 +119,6 @@ GitHub provides durable continuity. The re-prompt gives the next writing session
 
 ## Current edge
 
-Chapter 227 — **THE BUNDLER**.
+Chapter 228 — **THE FLOWER BEARER**.
 
-See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 228 edge.
+See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 229 edge.
