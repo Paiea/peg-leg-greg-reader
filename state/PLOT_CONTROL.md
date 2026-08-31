@@ -42,13 +42,17 @@ Use evidence labels:
 
 **ESTABLISHED:** relationship coexists with independent work and ordinary domestic life. Lyssa can challenge Greg's interpretation of evidence without becoming Hessa or a plot service.
 
-**ESTABLISHED — Lyssa work:** by Chapter 224 Lyssa is explicitly maintaining three customers. Current prose also establishes customer visits at the apartment, jobs delivered/paid off-page, several unrelated garments active at once, paid customer-requested cuff rework, and Maren as an existing garment/thread supply route.
+**ESTABLISHED — Lyssa work ecology:** recovered Chapters 156–219 show an existing independent garment-work network well before the recent three-customer material. Marra and Jessa recur across many chapters; materials/messages/payment move through the network without Greg; Greg gradually learns Marra's route; Chapter 195 already has customers greet Lyssa by name and ask about unfinished work.
 
-**PRESSURE:** Lyssa's work should continue to make independent demands on time, space, errands, materials, customer interactions, and household rhythm. Greg does not need to witness or understand every decision.
+**ESTABLISHED — referral:** Chapter 217 contains one explicit customer referral: a satisfied cuff customer recommends another customer, whose new work is a shoulder seam. This establishes that referral can occur, but not a broad referral ladder or the identity of every later customer.
 
-**POSSIBILITY:** a small repeat/referral/customer-recognition network can gradually give Lyssa her own Carrow reputation and social routes. Favor a few recurring people / changed callbacks over a named customer system.
+**ESTABLISHED — recent work:** by Chapter 224 Lyssa is explicitly maintaining three customers. Current prose also establishes customer visits at the apartment, jobs delivered/paid off-page, several unrelated garments active at once, paid customer-requested cuff rework, Maren as a separate thread-supply shop route, and Chapter 227's customer-present fitting / insufficient-cloth refusal.
 
-**AVOID:** Greg becoming her business manager; retroactively claiming queue causality not stated in prose; formal pricing/client systems; routing her into theatre wardrobe by convenience; merging her supply/customer network into the theatre pressure network without story causality.
+**PRESSURE:** Lyssa's work should continue to make independent demands on time, space, errands, materials, customer interactions, and household rhythm. Existing nodes such as Marra, Jessa, established customers, and supply routes may recur selectively when current story use makes them relevant. Greg does not need to witness or understand every decision.
+
+**POSSIBILITY:** a broader repeat/referral/customer-preference network may grow from the already-established ecology, but should emerge through specific prose rather than a planned customer system.
+
+**AVOID:** Greg becoming her business manager; inventing formal roles for Marra/Jessa; conflating Marra with Maren; merging unnamed customers by cloth/cuff/shoulder similarity; retroactively claiming queue causality not stated in prose; formal pricing/client systems; routing Lyssa into theatre wardrobe by convenience; merging her supply/customer network into the theatre pressure network without story causality.
 
 ## Money / Vale engine
 
