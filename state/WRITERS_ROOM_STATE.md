@@ -12,451 +12,356 @@ Core loop:
 
 **EXPLORE → RESEARCH only where a real specificity gap exists → SYNTHESIZE → UPDATE STATE → IDENTIFY NEW EDGE → RE-PROMPT → continue**
 
-Current manuscript authority is through Chapter 228 — **THE FLOWER BEARER** at this checkpoint. Re-read current GitHub authority first because 01 may advance.
+Current manuscript authority at this checkpoint is through Chapter 228 — **THE FLOWER BEARER**. Re-read GitHub first because 01 may advance.
 
 ## CURRENT 03 FILTER
 
-03 has pressure-tested the recent theatre / residue / Lyssa work and preserved four durable pressures:
+03 currently preserves four project-scale pressures:
 
-1. **Independent causality** — people, jobs, decisions, customers, repairs, and obligations can move while Greg is elsewhere.
-2. **Consequences travel sideways** — a practical fix can happen while labor, irritation, favor, embarrassment, cost, or memory lands on somebody else.
-3. **Belonging compresses work** — repeated competence can reduce supervision and explanation; domain-shaped trust matters more than praise. Earned shorthand remains a possibility, not a progress meter.
-4. **Repeat social nodes return changed** — recurring people, places, objects, jokes, and reputations should usually acquire another layer rather than merely callback.
+1. **Independent causality** — people, jobs, repairs, customers, and obligations can move while Greg is elsewhere.
+2. **Consequences travel sideways** — practical fixes can leave labor, irritation, favor, cost, embarrassment, or memory with somebody else.
+3. **Belonging compresses work** — repeated competence can reduce supervision / explanation; domain-shaped trust matters more than praise.
+4. **Repeat social nodes return changed** — prior use should alter recognition, terms, irritation, condition, ownership, route knowledge, trust, or reputation rather than create callback parade.
 
 Do not turn these into a chapter checklist.
 
-## THEATRE STATUS
+## PARKED DEVELOPMENT
 
+### Theatre research
 The three sourced theatre-practice waves are integrated and parked:
 - rehearsal notes / recovery;
 - practical authority / multi-hatting;
 - prop / costume routes / maintenance.
 
-Do not reopen generic theatre research unless newer prose creates a specific knowledge gap.
+Do not reopen generic theatre research unless a current scene exposes a specific factual gap.
 
-Current theatre residues worth protecting remain:
-- distributed recovery;
-- domain-shaped competence;
-- object homes / routes / scene-specific continuity;
-- delayed downstream consequences;
-- maintenance that can happen off-page;
-- reduced supervision as belonging.
+### Lyssa work world
+The manuscript-first Lyssa archaeology and 03 selective-continuity pass are integrated.
 
-Avoid formal backstage bureaucracy, universal checklists, Hara mentorship-by-excellence, Nessa omniscience, Marek-as-permanent-liability, and theatre-as-future-bluff curriculum.
+Durable posture:
+- Marra + green-door work room and Jessa are established secondary social infrastructure, not callback obligations;
+- customer recognition and one Chapter-217 referral establish narrow local professional recognition;
+- Maren is a lighter separate supply node;
+- most anonymous customers / material chains remain passive history;
+- **Marra ≠ Maren**;
+- Lyssa's network remains structurally independent from theatre / threat / Vale / Hessa unless present-story causality earns an intersection;
+- no new Lyssa research is needed;
+- 01 does not need an immediate Lyssa callback.
 
-## LYSSA MANUSCRIPT-FIRST WORK-NETWORK AUDIT — CH156–228
+Detailed evidence remains in `LYSSA_WORK_NETWORK_AUDIT.md` and should not be duplicated here.
 
-02 audited authoritative exact recovered Chapters 156–219 plus current running prose through Chapter 228.
+## JORI / DAVIN MANUSCRIPT ARCHAEOLOGY — COMPLETE THROUGH CH228
 
-**No new external research was used.** `RESEARCH_LEDGER.md` remains unchanged.
+02 audited exact recovered Chapters 156–219 plus current running Chapters 220–228.
 
-The central correction is substantial:
+Detailed evidence map:
 
-**Lyssa's independent work network does not need to be invented. The manuscript already built one.**
+`state/JORI_DAVIN_WORK_RELATIONSHIP_AUDIT.md`
 
-Compact state had under-recorded recurring people, routes, customer recognition, work shorthand, payment/exchange, and one explicit customer referral already present before Chapters 220–228.
+**No external research was used. `RESEARCH_LEDGER.md` remains unchanged.**
 
-The development job is now to preserve and selectively deepen what already exists without turning it into a client database or mandatory subplot.
+## BOTTOM LINE
 
-## ESTABLISHED — MARRA / JESSA / LYSSA WORK ECOLOGY
+**Jori / Davin is a real recurring work relationship, but not an established friendship, rivalry, formal technical partnership, or fixed department.**
 
-### Marra is a recurring work node
+Best current description:
 
-During Greg's road absence, Lyssa's letter already says Marra has admitted the gray cloth is wrong and they are replacing it. Greg therefore receives evidence of the relationship before he physically enters it.
+**OVERLAPPING THEATRE LABOR + DIFFERENT DEFAULT DOMAINS + REPEATED HANDOFF / CORRECTION + SHARED OBJECT HISTORY**
 
-Chapter 175 then makes the relationship concrete:
-- a cloth shop knows Lyssa and can point Greg toward Marra's;
-- Marra's is identified by the recurring **green door**;
-- Lyssa is already there helping Marra correct a promised dress;
-- Lyssa argues from garment behavior: cutting at the wrong place will pull when the wearer lifts her arm;
-- Jessa is present working on / unpicking the green dress;
-- Marra recognizes Greg as `the road one`, proving Lyssa's relationship with Marra already contains information Greg was not present to create;
-- after the dress becomes acceptable, Marra pays Lyssa with a folded piece of pale cloth and what Greg sees as roughly two copper.
+Story Control's earlier `repair / hauling / credit / blame / practical geometry` shorthand is directionally useful but needs narrowing.
 
-**Classification: ESTABLISHED recurring work relationship / workplace.**
+The pair is stronger operationally than the previous possibility label implies and weaker personally than `duo` language would imply.
 
-Do not invent a formal job title, partnership, ownership structure, or employment contract. Repeated collaboration, familiarity, payment/material exchange, and work coordination are enough.
+## ESTABLISHED — DAVIN HAS A LARGE PRE-JORI DOMAIN
 
-### Jessa is a recurring participant
+Davin is already a major practical worker in Chapters 156–180 before Greg meets Jori.
 
-Jessa repeatedly exists inside the same garment-work ecology:
-- she works directly with garments at Marra's;
-- Lyssa carries and later returns Jessa's shoes after Jessa goes home barefoot;
-- Lyssa's route includes Jessa's sister's;
-- Chapter 184 gives compressed work language: `the narrow one, not the wide one`; Jessa understands the message while Greg does not know the referent;
-- Chapter 188 has Marra and Jessa both carrying `west after second bell` as a message for Lyssa;
-- when Greg fails to deliver the timing message in time, Jessa finds Lyssa independently;
-- later chapters still place Jessa at Marra's doing garment work and participating in the room's material memory.
+Repeated Davin territory includes:
+- wagon / road judgment;
+- wheels / axles / ropes / loads;
+- route / bridge / ground decisions;
+- mechanical repair;
+- protecting / moving awkward objects;
+- telling others when something cannot safely / usefully move yet.
 
-**Classification: ESTABLISHED recurring relationship / work-network participant.**
+Chapter 163 is especially clear: Davin chooses wagon wheel placement on bad ground and Teren does not argue with him about roads.
 
-**Boundary:** Jessa's exact formal role remains UNCERTAIN. Do not force `customer`, `employee`, `partner`, or another modern category unless future prose does so.
+**Development correction:** do not rewrite Davin as Jori's helper merely because later theatre work overlaps.
 
-## ESTABLISHED — THE NETWORK MOVES WITHOUT GREG
+## ESTABLISHED — JORI ENTERS THROUGH A DIFFERENT DOMAIN
 
-Recovered prose repeatedly shows material, messages, favors, work, and payment moving sideways through people:
+Jori's first meaningful Greg-facing role is Chapter 181's absent caller: Greg temporarily covers Jori's cue / curtain work.
 
-- Chapter 178: Lyssa's route includes Marra's, Jessa's sister's, and the dyer; the work involves six lengths of blue. She returns with Jessa's shoes and calls cheese `Payment` for carrying the blue after the shoe complication.
-- Chapter 183: most of the blue thread has gone with people who needed blue thread; Lyssa identifies some as Marra's, one as Jessa's, and declines to inventory everyone else for Greg.
-- Chapter 184: Lyssa sends a gray-cloth parcel to Marra with `left side is marked`; Marra already understands the marking. The same errand carries Jessa's `narrow, not wide` message.
-- Chapter 188: a household bowl returns to Marra and a time-sensitive message comes back toward Lyssa. Greg fails as courier; the network routes around him anyway.
-- Chapter 195: bundles arrive at Marra's, some stay, different bundles return, and work keeps moving between people while Greg mostly carries what he is told.
-- Chapter 199: Greg retrieves the household bowl from Marra because Lyssa had brought Marra soup the day before. Their relationship is not purely a cash transaction.
+Jori's established territory grows through:
+- calling / cues / curtain operation;
+- lamps / wicks / oil;
+- set / scenery movement;
+- stage / backstage usable geometry;
+- hauling / transport;
+- current build / repair work;
+- quiet route / object adjustments that make physical work possible.
 
-**Classification: ESTABLISHED independent causality + sideways consequence / exchange.**
+**Development correction:** Jori is broader than `repair man` and should not be flattened into one.
 
-Greg may occasionally carry something, but he is not the network's infrastructure.
+## EARLY COMPLEMENTARITY — CH182–205
 
-## ESTABLISHED — GREG LEARNS LYSSA'S ROUTES
+The early relationship is mostly a work pipeline, not a social pair.
 
-This is already a changed callback rather than a future idea.
+Strong examples:
+- Ch182–183: Davin repairs the worn curtain wheel; Jori later uses the repaired system while calling / running the curtain.
+- Ch194: Davin repairs a floorboard while Jori holds the lamp low.
+- Ch199: they move a narrow painted wall piece together.
+- Ch202–203: their preparation / travel-show work divides by domain rather than making them interchangeable.
+- Ch204–205: Davin repairs a bent lamp-tin cap; Jori later uses the tin normally; Davin watches once and stops caring.
 
-Early:
-- Greg has to search for Lyssa;
-- another cloth shop gives him explicit directions to Marra's green door and warns him against Sen's red door.
+Strong recurring shape:
 
-Later:
-- Greg can identify Marra's and the green-door / red-door distinction without help;
-- by Chapter 199: `I knew the route to Marra's without thinking about it now.`
+**REPAIR / PREPARE → OPERATE / USE / CHECK → OBJECT BECOMES BORING AGAIN.**
 
-**Classification: ESTABLISHED accumulated city / relationship knowledge.**
+This is good long-serial maintenance residue.
 
-This is an excellent long-serial residue model: **UNKNOWN PLACE → EXPLICIT DIRECTIONS → FAMILIAR ROUTE → AUTOMATIC ROUTE.**
+## CH210–214 CART PIN — STRONGEST RECOVERED PAIR HISTORY
 
-No milestone speech is needed.
+This sequence graduates the relationship from generic overlap into real pair-specific work history.
 
-## ESTABLISHED — CUSTOMER RECOGNITION AND UNFINISHED-JOB MEMORY PRE-DATE CH224
+Ch210:
+- Jori physically supports / manipulates the cart and reports prior checks;
+- Davin diagnoses missing-versus-broken evidence;
+- their task friction is visible: Jori wants to put the cart down while Davin keeps inspecting;
+- Davin fabricates the replacement pin and refines the fit;
+- Jori rolls the cart at Davin's direction while Davin watches the wheel;
+- Jori checks the other pin;
+- Jori chalk-marks the replacement state for later movement detection.
 
-Chapter 195 is stronger than previous compact state recorded:
-- Marra's room is busy with multiple women and garments;
-- Lyssa repairs a torn inner panel beside Marra;
-- one customer enters and greets Lyssa by name;
-- another customer arrives and asks whether Lyssa has finished `the narrow one`;
-- Lyssa answers `Tomorrow.`
+Ch211–214:
+- Jori keeps checking the chalk line;
+- Davin's absence is noticeable because nobody is allowed to `improve` the pin;
+- the original pin later returns;
+- Davin recognizes fabrication / wear evidence he knows;
+- Jori recognizes an axle nick from before he cleaned it;
+- their different memory combines to support identification of the returned original pin.
 
-This establishes direct customer recognition and continuing work expectations well before Chapter 224's explicit `three customers` line.
+Strong shape:
 
-**Classification: ESTABLISHED customer recognition / unfinished-job memory.**
+**SHARED OBJECT → DIFFERENT KNOWLEDGE → COMBINED CONTINUITY.**
 
-**Boundary:** these customers are unnamed. Do not invent identities or claim a formal repeat-customer roster.
+**Classification: ESTABLISHED pair-specific multi-chapter history.**
 
-### `The narrow one` continuity
+## CH215–219 — FUNCTIONAL PAIR, NOT PERSONAL DUO
 
-The phrase persists across nearby chapters:
-- customer asks about `the narrow one`;
-- Lyssa later has `the narrow thing` to finish;
-- a later visible narrow strip is identified as binding for a sleeve edge.
+Copper Kettle / travel preparation adds ordinary pair use:
+- Rinna consults both about what needs to travel;
+- both support the no-cart solution for the reduced setup;
+- they put together the prop basket;
+- they share carrying the costume box on longer stretches.
 
-**ESTABLISHED:** `narrow` work persists as real work shorthand / a continuing work item.
+Under Bren / supplier pressure both hold practical responsibility, but their proximity does not create a private security role.
 
-**UNCERTAIN:** exact customer ownership of every later narrow/binding piece is not stated clearly enough to merge them all into one customer/job. Preserve explicit links only.
+**Classification: ESTABLISHED functional logistics overlap.**
 
-## ESTABLISHED — ONE CUSTOMER REFERRAL IS ALREADY CANON
+## CH220–228 — CURRENT PROSE MAKES THE PAIR MORE LEGIBLE
 
-This is a correction to the earlier concurrent audit and to Story Control's pre-audit assumption.
+Current prose reinforces the pair without making every theatre day about them.
 
-Chapter 215 establishes a cuff customer disputing whether two repaired cuffs are the same length. Lyssa later says she measured them in front of the customer and they were the same.
+Important current evidence:
+- Davin is pulled from property-table work because he has to help Jori with a wall brace.
+- Ch223–225 cart-brace sequence: Jori is under the cart / handling the cracked brace problem while Davin assists, argues method, and claims contribution; the cart is left out of service until the work is actually usable.
+- Once repaired, Jori drives while Davin rides beside him and the cart resumes ordinary scenery / bench work.
+- Davin claims the repair works because he helped; Jori narrows the contribution to `You held a nail`; Davin calls that essential.
+- Jori catches Davin trying to remove a cabinet while the scene still needs it.
+- Davin claims ownership of a basic knot; Jori identifies it as a square knot.
+- Ch228 name-board mistake: Davin paints the same name on both sides; Jori rejects an immediate wet-paint solution and gives a scrape → chalk → later-paint sequence; Davin later handles the corrected wet side properly while Jori still watches.
+- Ch228 bench geometry: Jori identifies the two-inch shift that preserves Greg's route and Hara's exit; Jori and Davin move the bench together.
 
-Chapter 217 then states explicitly:
+## ESTABLISHED — DIFFERENT DEFAULT DOMAINS
 
-**`Her cuff customer had become satisfied enough to recommend another customer`**
+### Jori tendencies
+Not exclusive titles:
+- cue / caller work;
+- curtain operation;
+- lamp / wick / oil operation;
+- set movement / stage geometry;
+- route / placement decisions;
+- current cart driving / transport;
+- some build / brace / carpentry work.
 
-The new work is identified as a **shoulder seam**.
+### Davin tendencies
+Not exclusive titles:
+- older wagon / road authority;
+- mechanical diagnosis;
+- small functional repair / fabrication;
+- floorboard / bench / hinge / lamp hardware / chest / cart-pin type work;
+- declaring an object not ready / not usable;
+- testing a repair before calling it finished.
 
-Therefore:
+### Overlap
+- scenery / furniture movement;
+- hauling / loading;
+- cart work;
+- physical setup;
+- repair / maintenance;
+- object handling.
 
-**Classification: ESTABLISHED NARROWLY — customer recommendation / referral can occur inside Lyssa's work network.**
+Their overlap supports collaboration without establishing identical competence.
 
-What is **not** established:
-- a broad referral system;
-- a referral-driven business model;
-- a named chain of customers;
-- that every new customer came by recommendation;
-- that Chapter 227's pale-coat customer came through this route.
+## ESTABLISHED — OPERATIONAL TRUST, PERSONAL TRUST UNCERTAIN
 
-Chapter 227 deliberately leaves that customer's source unknown. Preserve that uncertainty.
+Evidence supports:
+- following one another's domain-shaped directions;
+- paired hauling / transport;
+- relying on each other's object memory;
+- work proceeding with little explanation;
+- correction moving both directions depending on the problem.
 
-**Continuity boundary:** do not merge the Chapter 215–217 cuff customer with the later Chapter 225–226 brown-cuff customer. Similar work is not identity evidence.
+The manuscript does **not** establish:
+- personal confidences;
+- emotional intimacy;
+- special off-hours loyalty;
+- friendship as a named or demonstrated private bond.
 
-## ESTABLISHED — CUSTOMER CHANGES, SECOND FITTING, AND PAID MULTI-JOB WORK
+Recommended wording: **operational trust / work familiarity**.
 
-The recovered later span already contains several forms of customer friction and continuation:
+## ESTABLISHED — TASK-LEVEL IRRITATION / DRY FRICTION
 
-- Chapter 184: Lyssa says three people changed what they wanted after cloth had already been cut.
-- Chapter 215: a customer disputes cuff length; Lyssa measures the cuffs in front of her and resolves the disagreement without the cuffs changing.
-- Chapter 217: a customer's daughter changes a dress after Lyssa measured it.
-- Chapter 217's explicit referral produces a shoulder-seam job.
-- Chapter 218 says **the shoulder-seam problem has turned into a second fitting**, establishing continuing work across that sequence.
-- Chapter 218 later has Lyssa return pleased because she was **paid for two alterations and a rush repair**; food from a customer's mother accompanies the workday.
-- Chapter 219 continues shoulder-related customer work with a pale sleeve being taken back before the woman can decide her shoulder changed overnight.
+Supported by:
+- cart-pin testing;
+- leverage / brace argument;
+- repair-credit claims;
+- object movement correction;
+- scrape / paint disagreement.
 
-**Classification: ESTABLISHED customer changes / repeat fitting / paid multi-job work at the narrow behavioral level.**
+This is work friction, not established rivalry.
 
-Do not infer a universal fitting workflow, rate structure, or identity link beyond what the prose states.
+## ESTABLISHED NARROWLY — RECENT COMIC LANGUAGE
 
-## ESTABLISHED — MARRA'S IS A LIVING WORK ROOM WITH MEMORY
+Current prose supports a small recent pattern:
 
-Chapter 195 provides especially dense evidence:
-- Jessa is pinning a green dress on a woman while Marra cuts dark fabric;
-- another woman works with a half-finished sleeve;
-- Lyssa and Marra make a shared material judgment (`Too warm`) while Greg cannot read the distinction;
-- Jessa looks for black thread and complains about a missing box;
-- Lyssa knows which shelf the box had been on last time;
-- Marra knows who moved it;
-- another worker knows who borrowed it.
+**DAVIN CLAIMS / IMPROVISES / DEFENDS → JORI ANSWERS WITH CONCRETE MATERIAL FACT.**
 
-Later, a customer arrives with a green overdress and partly detached sleeve:
-- the customer knows Jessa;
-- Jessa knows the dress;
-- Marra can call a price from the back without coming out;
-- Greg becomes irrelevant to the exchange.
+This grows from actual work and can be funny.
 
-**Classification: ESTABLISHED offscreen/shared work memory.**
+Do not retrofit it into their entire history or make every shared scene use the bit.
 
-Do not turn this into a formal shop hierarchy or garment guild because the organic room already works better than a taxonomy.
+## ESTABLISHED — THEIR WORK CONTINUES WITHOUT GREG
 
-## ESTABLISHED — SUPPLY / SERVICE ROUTES ARE PLURAL
+The pair / overlapping work ecology repeatedly exists before Greg arrives or continues while he is assigned elsewhere:
+- repair already underway;
+- wall / scenery movement;
+- cart diagnosis / repair;
+- transport runs;
+- board repair;
+- object testing / checking.
 
-The manuscript supports several ordinary material routes:
-- an existing cloth shop knows Lyssa well enough to point Greg toward Marra;
-- a dyer participates in the six-length blue-work route;
-- an unnamed thread seller two streets from Marra supplies wrapped spools;
-- Chapter 224 mentions a button seller in Greg's domestic summary, but the exact supplier identity / continuity is not established;
-- Chapter 222 later establishes **Maren** as a separate spool-sign garment/thread shop where a cloth sample can be matched to thread; Lyssa later says `Maren usually does.`
+Greg often sees results rather than causes them.
 
-**Classification: ESTABLISHED existence/use of these routes.**
+## STRONGEST MULTI-CHAPTER OBJECT HISTORY
 
-### Continuity trap: Marra ≠ Maren
+### 1. Cart / pin / later brace
+Strongest chain.
 
-**Marra and Maren are separate manuscript nodes. Do not merge them because their names are similar.**
+**ordinary cart → missing pin → Davin replacement → Jori testing / chalk → returned original identified through combined knowledge → ordinary use → later unrelated brace failure → Jori/Davin repair / testing / hauling → ordinary cart again**
 
-Marra is the recurring green-door garment-work relationship from the recovered span.
+This is excellent long-serial residue because the cart accumulates history without becoming sacred.
 
-Maren is the later spool-sign supply shop / matching-thread route.
+### 2. Curtain wheel
+Greg covers Jori's job → worn wheel visible → Davin repairs → Jori operates it normally.
 
-No rename or identity equivalence is established.
+### 3. Lamp-tin cap
+Travel damage → Davin repair → Jori operational use → concern ends.
 
-For the unnamed cloth shop, dyer, thread seller, and button seller, deeper personal familiarity remains unestablished unless future prose earns it.
+## FALSE PROJECTIONS — DO NOT GRADUATE
 
-## ESTABLISHED — LYSSA'S SCHEDULE AND WORKSPACE ARE INDEPENDENT
+**AVOID:**
+- official technical duo;
+- Jori as Davin's boss;
+- Davin as Jori's helper;
+- best friends;
+- rivals;
+- permanent comedy duo;
+- constant `mutual blame` as defining history;
+- every repair belonging to them together;
+- identical technical competence;
+- formal scenic-shop hierarchy / job titles invented to explain organic behavior.
 
-Across Chapters 156–228 Lyssa repeatedly:
-- is already gone before Greg wakes;
-- works west / south / near Marra while Greg has different obligations;
-- returns late from work;
-- moves among Marra's, Jessa's sister's, the dyer, suppliers, customers, and the apartment;
-- leaves notes or food rather than synchronizing her day with Greg;
-- completes deliveries / payments / garment decisions while Greg is elsewhere;
-- has garments appear, disappear, or change state between Greg's observations.
+Current state slightly **overclaims credit/blame** as a long central feature. Recent credit / method banter is real, but the older stronger pattern is complementary work and object handoff.
 
-Later chapters reinforce, rather than create, this pattern:
-- Chapter 224 explicitly says she maintains three customers;
-- Chapter 225 has a customer due at the apartment and Lyssa clears space before Greg leaves;
-- Chapter 226 has the brown-cuff work already delivered and paid while other work continues;
-- Chapter 227 opens with earlier work already moved off the table and Lyssa gone with a note not to wait for supper;
-- Greg returns in Chapter 227 to find an unnamed **new** pale-coat customer already being fitted;
-- Chapter 228 opens with the pale coat gone, the dark skirt changed into a chalk-marked state, and Lyssa gone without a note; later the skirt is gone and a blue-gray cloth Greg has not seen has appeared.
+## PASSIVE HISTORY — DO NOT SERVICE
 
-**Classification: ESTABLISHED independent schedule / offscreen life / plural workspace.**
+Useful residue that can remain invisible:
+- Davin's old road / wagon authority;
+- Jori's caller origin;
+- repaired curtain wheel;
+- repaired lamp cap;
+- Copper Kettle load decisions;
+- repeated minor two-person hauling;
+- cart chalk after that pressure no longer requires attention;
+- every instance of one carrying the other end of an object.
 
-This is not a new craft pressure. The manuscript is already doing it well.
+The relationship gets stronger if future prose assumes most of this instead of reciting it.
 
-## ESTABLISHED — FITTING AND MATERIAL LIMITS
+## HIGHEST LIFE-PER-WORD BEHAVIORS ALREADY EARNED
 
-The recovered span already includes fitting / verification behavior, and Chapter 227 gives the cleanest material constraint:
-- Lyssa pins the pale coat near the hem while the customer is wearing it;
-- the customer asks for additional narrowing;
-- Lyssa immediately refuses that requested location because there is **`Not enough cloth.`**
+### 1. DOMAIN-SHAPED CORRECTION WITHOUT FIXED HIERARCHY
+Either can direct the other when the problem is inside a stronger domain.
 
-**Classification: ESTABLISHED customer-present fitting and one concrete material-limit refusal.**
+Cheap version: one name / one material correction / work continues.
 
-This is enough to show competence through limits.
+### 2. REPAIR / OPERATION HANDOFF
+One person's repair becomes another person's boring operating knowledge.
 
-Do not generalize it into a formal fitting-stage doctrine or universal refusal/pricing rule.
+Cheap version: the object is already back in use; no repair recap.
 
-## ESTABLISHED — PAYMENT / EXCHANGE IS MATERIAL BUT NOT STANDARDIZED
+### 3. DRY CREDIT / METHOD FRICTION ONLY WHEN WORK EARNS IT
+Recent prose supports small banter around contribution / method / material fact.
 
-Exact prose supports multiple forms of economic/social exchange:
-- Chapter 175: Marra pays Lyssa in pale cloth plus what Greg sees as roughly two copper after correction work;
-- Chapter 178: cheese is called `Payment` for carrying blue after Jessa's shoe complication;
-- Chapter 218: Lyssa is paid for two alterations and a rush repair; a customer's mother also sends food;
-- Chapters 225–226: brown-cuff customer-requested changes are separately charged, then the job is delivered and paid;
-- other customer/fitting scenes do not always narrate price or payment.
+Do not turn it into a sitcom routine.
 
-**Classification: ESTABLISHED material/economic exchange and charging for additional requested work.**
+## 02 RECOMMENDATION — DURABLE SECONDARY-PAIR STATUS
 
-**POSSIBILITY only:** universal rates, tariffs, formal barter rules, deposits, appointment systems, client records, or one standardized payment model.
+**YES, narrowly.**
 
-## ESTABLISHED — MOST CUSTOMER IDENTITIES REMAIN UNNAMED
+Proposed statement for 03:
 
-The manuscript has multiple customers without requiring a database:
-- pre-224 customers at Marra's who know Lyssa;
-- cuff / shoulder / dress problems in the recovered span;
-- Chapter 224's explicit three-customer workload;
-- Chapter 225–226 brown-cuff customer;
-- Chapter 227's explicitly new pale-coat customer.
+**Jori and Davin are an established recurring theatre work pair in overlapping physical-production / transport / repair problems. They have operational trust, different default domains, shared object history, and narrow dry task friction. They are not established as friends, rivals, formal partners, or a fixed department.**
 
-**Classification: ESTABLISHED multiple-customer world; identity connections remain limited.**
+This is stronger than mere possibility and weaker than a personal relationship arc.
 
-Do not decide that similar sleeves, colors, cuffs, shoulders, or unnamed women are the same customer unless exact prose says so.
+## EXTERNAL RESEARCH DECISION
 
-## UNCERTAIN — LEAVE THESE ORGANIC
+**NO EXTERNAL RESEARCH RECOMMENDED.**
 
-### Formal roles inside Marra / Jessa / Lyssa ecology
+The audit answered the actual question from manuscript evidence.
 
-Repeated collaboration, fitting/pinning, customer traffic, material exchange, payment, and message routing are established.
+Do not research modern scenic-shop departments, carpentry hierarchy, wagon maintenance, or backstage crew structure just to formalize what already works.
 
-The exact formal occupational taxonomy is not.
-
-Do not force `owner`, `employee`, `partner`, `apprentice`, or similar labels without evidence.
-
-### Blue / narrow material chains
-
-The manuscript deliberately lets blue cloth/thread and narrow work recur across multiple chapters. Some links are explicit; others are suggestive.
-
-Preserve explicit continuity, but do not collapse every blue or narrow object into one customer/job.
-
-### Unnamed recurring-looking people
-
-The yellow-cloth / green-cloth woman and other lightly described women may recur, but their role or garment ownership is not always explicit.
-
-Do not invent a customer identity because the visual cue repeats.
-
-### Chapter 227 pale-coat source
-
-Referral as a phenomenon is established by Chapter 217.
-
-**The Chapter 227 pale-coat customer's source is still UNKNOWN.** Greg asks; Lyssa does not provide a referral source.
-
-Do not retroactively assign one.
-
-## POSSIBILITY / PRESSURE — WHAT IS NOT YET CANON
-
-### Broader referral network
-
-One explicit referral exists. A broad referral chain, recurring named referral network, or dominant word-of-mouth business system does not.
-
-Future prose may deepen this if useful, but no development lane needs to manufacture it.
-
-### Remembered customer fit preferences
-
-Work-specific memory is strong, but the audit did not find a clean generalized beat like `you always want this sleeve this way` that would establish a broad preference-memory pattern.
-
-Keep as POSSIBILITY until prose earns it.
-
-### Queue causality
-
-Multiple jobs coexist and customer changes consume labor, but exact prose still does not establish that the Chapter 225 brown-cuff rework delayed the green garment or that one specific job displaced another.
-
-Future causal shape may be:
-
-**CUSTOMER CHOICE → EXTRA WORK / MATERIAL → CHANGED SCHEDULE / QUEUE → SOCIAL MEMORY**
-
-but do not retrofit that chain.
-
-### Deeper Maren familiarity
-
-Maren is established as a useful matching-thread shop route. Personal recognition, credit, favors, inventory history, or a specific seller relationship remain possibility unless future prose establishes them.
-
-## AUDIT CORRECTIONS TO PREVIOUS COMPACT STATE
-
-The manuscript-first pass corrects four under-recorded areas:
-
-1. **Marra / Jessa are major existing work-world nodes**, not future possibilities.
-2. **Customer recognition / unfinished-job shorthand already exists by Chapter 195.**
-3. **One explicit referral is already canon by Chapter 217.** A satisfied cuff customer recommends another customer for shoulder-seam work.
-4. **Concrete alteration limits are canon by Chapter 227.** Lyssa refuses one requested narrowing because there is not enough cloth.
-
-Previous restraint remains correct in narrower form:
-- no broad referral system is established;
-- Chapter 227's customer source remains unknown;
-- no formal pricing/client system is established;
-- no queue causality should be retrofitted;
-- customer identities should not be merged by inference;
-- Lyssa should not be recruited into theatre wardrobe by convenience.
-
-## STRONGEST LONG-SERIAL RESIDUE ALREADY ON PAGE
-
-### Greg learns Marra's route
-
-**UNKNOWN PLACE → EXPLICIT DIRECTIONS → FAMILIAR ROUTE → AUTOMATIC ROUTE**
-
-By Chapter 199 the route is ordinary to him.
-
-### Work shorthand exists before Greg understands it
-
-`left side is marked` / `narrow, not wide` / `the narrow one` carry enough information for people inside the work relationship while remaining incomplete to Greg.
-
-This is already earned shorthand. Do not explain it merely to prove it exists.
-
-### The network routes around Greg
-
-Greg fails to deliver Marra/Jessa's timing message. Jessa finds Lyssa herself.
-
-Strong existing pattern:
-
-**SIDE CHARACTER NETWORK → GREG MISSES / FAILS → NETWORK STILL FUNCTIONS.**
-
-### Lyssa's work relationships contain noncommercial residue
-
-Soup bowls, Jessa's shoes, material carrying, food, messages, shelf memory, and mixed forms of payment keep the ecology social rather than transactional.
-
-Do not formalize this into a universal favor economy.
-
-### Greg can be incidental inside Lyssa's world
-
-At Marra's, customers and workers greet each other, know garments, remember shelves, quote prices, and continue work while Greg holds cloth or becomes irrelevant.
-
-This is one of the manuscript's strongest existing anti-protagonist-gravity models.
-
-### Referral can happen without becoming a system
-
-Chapter 217 proves a satisfied customer can recommend another customer. That is enough. No referral ledger, reputation speech, or named chain is required.
-
-### Chapter 228 shows restraint
-
-The pale coat disappears, the dark skirt changes state and later leaves, a different blue-gray cloth appears, and Lyssa's day remains mostly offscreen.
-
-No Marra/Jessa/referral callback is forced merely because development is thinking about them.
-
-That restraint should continue.
-
-## RESEARCH DECISION
-
-**NO NEW EXTERNAL RESEARCH RECOMMENDED.**
-
-The manuscript already supplies enough specificity to correct the developmental model.
-
-The next uncertainty is story classification, not factual knowledge.
-
-Do not research generic tailoring history, referral marketing, garment-shop hierarchy, old-city textile commerce, or fitting systems unless 03 identifies a later scene-specific factual gap.
+Reopen research only if an actual future scene creates a specific technical gap whose answer would materially change behavior / constraint / consequence.
 
 ## HANDOFF TO 03 — READY
 
-03 should pressure-test this longitudinal evidence map against current manuscript authority before any new Lyssa-network development.
+Pressure-test these narrow proposed graduations:
 
-Highest-value classification questions:
+1. **ESTABLISHED pair status:** recurring physical-production / transport / repair work pair with overlapping competence.
+2. **ESTABLISHED differentiation:** Davin's older wagon / mechanical / repair authority versus Jori's caller / lamps / set movement / geometry / current build-operational competence.
+3. **ESTABLISHED operational trust:** correction / direction can run either way by domain; no fixed hierarchy required.
+4. **ESTABLISHED shared object history:** especially cart pin / returned pin / later cart-brace chain.
+5. **ESTABLISHED NARROWLY:** recent dry credit / method friction.
+6. **AVOID:** friendship, rivalry, formal partnership, boss/helper hierarchy, permanent comedy-duo coding, or every-repair ownership.
+7. **PASSIVE HISTORY:** most old repairs / hauling should never become callback obligations.
 
-1. Should **Marra / Jessa / Lyssa's recurring work ecology** graduate into `CHARACTER_BIBLE.md` and/or `SETTING_BIBLE.md` as established social infrastructure without assigning formal roles?
-2. Should **customer recognition / unfinished-job shorthand** graduate into durable established guidance?
-3. Graduate the **Chapter 217 referral phenomenon narrowly**: one satisfied customer recommends another. Preserve the boundary that a broad referral system and Chapter 227's source are unestablished.
-4. Preserve the already-established **customer-change / second-fitting / paid multi-job** residue from Chapters 215–219 without merging unnamed customer identities.
-5. Preserve Chapter 227's **`Not enough cloth`** refusal as established competence-through-limits.
-6. Decide what, if anything, 01 should inherit lightly without making Marra/Jessa/customer callbacks mandatory.
-7. Decide whether any true specificity gap remains. External research may stay paused.
+03 should decide whether to graduate this compactly into `CHARACTER_BIBLE.md` / theatre ensemble guidance and whether `LONG_SERIAL_RESIDUE_MAP.md` should stop labeling Jori ↔ Davin as only a possibility.
 
-Do not create a Lyssa subplot plan. The strongest result is that her independent life already exists and can recur selectively.
+Do not hand 01 a Jori/Davin checklist.
 
 ## CURRENT DEVELOPMENT EDGE
 
 **HAND TO 03.**
 
-Pause new research and new Lyssa-network invention until Story Control integrates this manuscript-first audit.
+The manuscript-first Jori / Davin audit is complete through Chapter 228. External research remains paused.
 
-The strongest question is now:
+Next question:
 
-**Which parts of this already-established work ecology are durable enough to record as canon-supporting infrastructure, and which should remain ordinary prose texture that never needs future servicing?**
+**Does the exact evidence justify durable secondary-pair status, and if so what is the narrowest version worth preserving without turning them into a scripted duo?**
 
 ## RE-PROMPT [02]
 
-Continue Peg-Leg Greg Writers' Room from current GitHub authority. Read `AGENTS.md`, `state/PROJECT_STATE.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current manuscript/state, `state/WRITERS_ROOM_STATE.md`, `state/STORY_CONTROL_STATE.md`, `state/RESEARCH_LEDGER.md`, and `state/LONG_SERIAL_RESIDUE_MAP.md`. A manuscript-first Lyssa work-network audit is complete through Chapter 228 using exact recovered Chapters 156–219 plus current forward prose. The audit found that compact state had under-recorded existing canon: Marra and Jessa are recurring work-network people; Lyssa and Marra already exchange labor/material/payment; messages and garments route among Lyssa/Marra/Jessa without Greg; Greg learns Marra's route until it becomes automatic; Chapter 195 already has customers greet Lyssa by name and ask about unfinished `narrow` work; Chapter 217 explicitly establishes one satisfied cuff customer recommending another customer for shoulder-seam work; Chapters 217–219 continue customer-change / second-fitting / paid multi-job residue; several material/service routes exist; Chapter 222 establishes Maren as a separate spool-sign matching-thread shop; Chapter 227 establishes a new customer fitting and a concrete `Not enough cloth` limit while leaving that customer's source unknown; Chapter 228 continues offscreen garment movement without forcing a callback. Broader referral systems, formal customer-preference systems, queue causality, formal business roles, and customer-identity merges remain unestablished. No new external research is recommended. First check whether 03 has integrated this audit. If not, preserve the handoff rather than opening new research. If 03 has returned a focused edge, follow only that edge. Keep Lyssa's work independent, preserve Marra/Maren as separate nodes, prefer changed callbacks over callback parade, and update durable residue only.
+Continue Peg-Leg Greg Writers' Room from current GitHub authority. Read `AGENTS.md`, `state/PROJECT_STATE.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current manuscript/state, `state/WRITERS_ROOM_STATE.md`, newest `state/STORY_CONTROL_STATE.md`, `state/JORI_DAVIN_WORK_RELATIONSHIP_AUDIT.md`, `state/LONG_SERIAL_RESIDUE_MAP.md`, `state/RESEARCH_LEDGER.md`, and relevant bibles. The manuscript-first Jori/Davin audit is complete through Chapter 228. 02 finds a real recurring work pair, not a friendship/rivalry/formal department: Davin has older independent road/wagon/mechanical authority; Jori enters through calling/cues/curtain and grows through lamps/set movement/geometry/current build work; their domains overlap in physical production/transport/repair. Strongest pair history is the Ch210–214 cart-pin chain, followed by Ch223–225 cart-brace work and Ch228 name-board correction. Operational trust and movable domain authority are established; recent dry credit/method friction is established narrowly; formal hierarchy, personal friendship, rivalry, permanent comedy-duo coding, and every-repair ownership are not. No external research is recommended. First check whether 03 has pressure-tested the audit. If not, preserve the handoff. If 03 has returned a focused edge, follow only that edge. Leave a durable same-lane re-prompt and visibly give the user the next lane prompt before ending.
