@@ -3604,3 +3604,857 @@ None of that told me what happened next.
 For once, we knew a little more before paying for the lesson.
 
 That would have to be enough.
+
+------------------------------------------------------------------------
+
+# CHAPTER 224
+
+## THE CHECKER
+
+Lyssa had taken the table again.
+
+Not permanently. She did not own the table, despite growing evidence to the contrary. But when I woke, half of it was covered by blue cloth, the other half by a darker piece she had not shown me before, and the narrow remaining strip held my breakfast with the confidence of a refugee camp.
+
+I sat sideways.
+
+"You know there are other surfaces," I said.
+
+"There are other breakfasts."
+
+I looked at the bread.
+
+"Threatening."
+
+She had three pins between her lips and did not answer.
+
+The new left crutch tip felt normal enough that I had forgotten about it until I stood. It gripped the floor cleanly, neither too soft nor too eager to catch. The repairer's work had succeeded so thoroughly that I resented having spent money on something I could no longer complain about.
+
+That was probably the point.
+
+Lyssa took the pins from her mouth.
+
+"Are you at theatre all day?"
+
+"I don't know yet."
+
+"Useful."
+
+"I try."
+
+She folded the blue cloth over itself and checked the seam. "If you pass the west market, get onions."
+
+"Color?"
+
+She stared at me.
+
+"I learned from the thread."
+
+"Onion-colored."
+
+"Excellent. I know exactly what to do."
+
+A knock came before she could improve the instructions.
+
+It was not ominous.
+
+I knew this because the boy outside looked bored.
+
+He wore a plain brown vest over a shirt that had once been white and held a folded slip between two fingers as though it had personally inconvenienced him.
+
+"Greg?"
+
+"Unfortunately."
+
+"Vale office."
+
+Lyssa looked up.
+
+The boy handed me the slip.
+
+ROOM WORK AVAILABLE. TODAY. AFTER FIRST BELL IF YOU WANT CREDIT.
+
+Below that, in a different hand:
+
+SIT DOWN WORK.
+
+No signature.
+
+I turned it over.
+
+Nothing.
+
+Hessa's school continued to spread.
+
+"Do I answer?" I asked.
+
+The boy shrugged. "They said come or don't."
+
+"Very warm institution."
+
+He had already turned away.
+
+Lyssa said, "You were wondering."
+
+"About onions?"
+
+"Vale."
+
+I looked at the slip again.
+
+She knew because I had mentioned, once, several days ago, that Antonius had not had suitable work waiting every time I checked. That was all. She did not maintain my debt schedule. She maintained three customers, a changing collection of cloth, and apparently control of the table.
+
+"I can do both," I said. "Vale first. Theatre after."
+
+"If they still need you after Vale."
+
+"Theatre always needs someone to hold something nobody else wants to hold."
+
+"Then your future is secure."
+
+I ate the bread.
+
+By the time I left, Lyssa was tying the darker cloth into a bundle and muttering about a cuff.
+
+Outside, Carrow had turned gray. Not rain exactly. The sky simply looked undecided, and every stone in the street seemed prepared to become slippery if given encouragement.
+
+The repaired crutch tip behaved.
+
+I stopped thinking about it before I reached the next corner.
+
+The Vale office was already working when I arrived.
+
+That should not have surprised me. Money rarely waited for people to become emotionally prepared.
+
+Two men stood near the front counter arguing about a delivery date. A woman in a dark scarf sat at the side table with three open account books and a piece of bread balanced on the edge of one page. Somebody in the rear room was moving boxes. A clerk I recognized from earlier visits had ink on two fingers and a strip of paper stuck to his sleeve.
+
+He looked at my note.
+
+"You're here."
+
+"Strong start."
+
+"Sit."
+
+He pointed me toward a table against the wall.
+
+Four stacks waited there.
+
+I looked at him.
+
+"Are these all mine?"
+
+"Only if you're slow."
+
+I sat.
+
+He put a ruled ledger beside the stacks.
+
+"Copies came back from the south accounts. Antonius wants the invoice totals checked against the delivery tallies before we enter them. Mark anything that doesn't agree. Don't correct it yourself."
+
+"Because I am untrustworthy?"
+
+"Because then I have to find what you changed."
+
+"Less flattering."
+
+"More useful."
+
+He showed me the system.
+
+Each invoice had a name, date, goods, and total. Each delivery tally had the same account name and the quantities actually received. Some had short marks in the margin that changed how a line should be read. Returns. Damaged goods. Partial delivery. Deferred item.
+
+The first ten were boring.
+
+This was reassuring.
+
+The eleventh was also boring.
+
+The twelfth almost became exciting because the invoice showed seven lengths of timber and the tally showed six.
+
+I marked it.
+
+The clerk came past twenty minutes later, saw the mark, and glanced at the papers.
+
+"Return mark."
+
+"What?"
+
+He tapped a tiny hooked line beside the sixth entry.
+
+"One rejected at delivery. Invoice stays seven until credit note attaches."
+
+I stared at the hook.
+
+"It looks like someone dropped a hair."
+
+"It means rejected."
+
+"Of course it does."
+
+"You've seen it before."
+
+"Apparently not successfully."
+
+He pushed the papers back.
+
+"Don't remove the mark."
+
+"I wasn't planning to destroy the evidence of my education."
+
+He had already moved on.
+
+I looked at the hook again.
+
+That was one discrepancy solved by me being wrong.
+
+The next stack went faster because now the tiny hooks had acquired meaning.
+
+The work was not difficult in the dramatic sense. Nobody swung a sword. Nobody demanded that I move paper through glass with my mind. Nobody wore a fake mustache, as far as I knew.
+
+It was difficult because the lines were small and repetitive and every fourth page tried to persuade my eyes that I had already checked it.
+
+I developed a method.
+
+Invoice.
+
+Name.
+
+Date.
+
+Quantities.
+
+Tally.
+
+Marks.
+
+Total.
+
+Then back once.
+
+Not because I had become a financial professional.
+
+Because skipping around made me lose my place.
+
+The woman with the bread finished eating it and replaced the account book without brushing away the crumbs. The clerk removed one crumb with a wet fingertip while continuing a conversation about warehouse storage. A runner came in, left a packet, collected another, and went out again. Twice, Antonius crossed the rear doorway without acknowledging me.
+
+The office existed very comfortably without my participation.
+
+I preferred that.
+
+Near the bottom of the second stack, I found a total that was actually wrong.
+
+At least I thought it was.
+
+The invoice listed four crates at one figure each and two smaller bundles beneath them. The written total did not match the lines.
+
+I added it again.
+
+Same result.
+
+Then I checked the delivery tally.
+
+Same quantities.
+
+No return mark.
+
+No damage mark.
+
+No note.
+
+I marked the page.
+
+This time I did not summon the clerk with my face.
+
+I kept working.
+
+He came eventually.
+
+"Two marks?"
+
+"One was ignorance. This one might be arithmetic."
+
+He looked.
+
+His finger moved down the lines once.
+
+Then again.
+
+He reached for the small scrap pad tucked inside the ledger and added the figures himself.
+
+"Copied wrong."
+
+"Mine?"
+
+"Invoice copy."
+
+He put a short circle around the total.
+
+I felt a small, stupid satisfaction.
+
+The clerk ruined it.
+
+"Don't become proud. You missed the first one."
+
+"I was hoping we had agreed never to discuss that again."
+
+"We did not."
+
+He took the invoice and laid it on a separate pile.
+
+"What happens?"
+
+"Original gets checked. If original is right, copy is corrected. If original is wrong, account gets corrected."
+
+"And if both are wrong?"
+
+"Then someone had a bad morning."
+
+Commercial systems were more honest than magic.
+
+Antonius appeared at my table before midday.
+
+He did not announce himself. He simply stopped beside the chair and looked at the remaining stacks.
+
+"How many?"
+
+I told him.
+
+"Errors?"
+
+"One copy total. One false alarm."
+
+The clerk, from three tables away, said, "Return mark."
+
+Antonius looked at me.
+
+"I know what it means now."
+
+"Expensive knowledge?"
+
+"Only to my dignity."
+
+"Then cheap."
+
+He picked up the incorrect copy.
+
+"Anything else?"
+
+"No."
+
+His eyes moved to my crutches.
+
+"New tip."
+
+I looked down.
+
+"Yes."
+
+"You replaced one?"
+
+"Yes."
+
+"Good."
+
+I waited.
+
+He did not praise fiscal responsibility.
+
+Of course not.
+
+He said, "A bad crutch is an expensive way to make yourself less useful."
+
+There he was.
+
+"I paid for it."
+
+"I assumed the repairer had not become charitable."
+
+"I thought you might object to the spending."
+
+Antonius looked genuinely puzzled.
+
+"Why?"
+
+"The debt."
+
+"Are you planning to repay it while concussed?"
+
+"I wasn't planning to fall."
+
+"Then maintain the equipment that keeps you from doing it."
+
+Not kindness.
+
+Arithmetic with bones in it.
+
+He put the invoice back down.
+
+"Finish the stack."
+
+"Credit?"
+
+"If the work is usable."
+
+"Encouraging."
+
+"Accuracy first. Encouragement is not billable."
+
+He turned away.
+
+I watched him stop at the front counter, listen to half of the delivery argument, ask one question, and make both men begin again from the date.
+
+He was good at being Antonius.
+
+I returned to the pages.
+
+The third stack contained nothing wrong.
+
+This annoyed me.
+
+I had become accustomed to the possibility that careful observation would eventually reward me with a discovery. Instead I checked page after page and proved only that the pages agreed.
+
+That was still work.
+
+The fourth stack gave me another mark.
+
+A delivery tally showed twelve sacks received. The invoice showed ten.
+
+I checked the account name.
+
+Correct.
+
+Date.
+
+Correct.
+
+No hook.
+
+No note.
+
+I marked it.
+
+The clerk came over.
+
+He frowned.
+
+"That one should have an attached continuation."
+
+"Should?"
+
+He checked beneath the invoice, then under the next page.
+
+Nothing.
+
+He went to the rear room and returned with a second bundle.
+
+Five minutes later he found the continuation sheet clipped to the wrong account.
+
+The extra two sacks belonged on it.
+
+"Still an error?" I asked.
+
+"Filing error."
+
+"Do I get partial credit for discovering paper in the wrong place?"
+
+"You get the credit you're already getting for doing the job."
+
+Cruel profession.
+
+He moved the continuation sheet to the correct packet and made a notation.
+
+I looked at the false discrepancy.
+
+Not false, exactly.
+
+The numbers had disagreed because part of the record was somewhere it should not have been.
+
+That mattered enough to fix.
+
+Not enough to become a conspiracy.
+
+I was learning restraint against my will.
+
+At midday the woman in the dark scarf left. Another clerk took her chair without asking whether it was available. Someone brought in a pot of soup and four bowls. I expected to be excluded from this arrangement because debt labor had its dignity.
+
+The ink-fingered clerk put a bowl beside my ledger.
+
+"Don't spill."
+
+"Warm hospitality."
+
+"Don't spill."
+
+The soup had beans and something green in it.
+
+I ate while checking the last six invoices because apparently this office had solved the problem of lunch by refusing to stop working.
+
+Antonius came through once with his own bowl, saw mine balanced too close to the ledger, and moved it three inches farther away without breaking stride.
+
+No one explained the symbolism.
+
+There was none.
+
+I finished the final stack shortly after.
+
+The clerk reviewed my marks.
+
+One copied total.
+
+One misplaced continuation.
+
+One return mark that had embarrassed me.
+
+Everything else agreed.
+
+He carried the marked items to Antonius's room.
+
+I stayed at the table because nobody had told me to leave and because the chair was comfortable.
+
+A few minutes later Antonius called, "Greg."
+
+I went in.
+
+His room had not improved.
+
+Desk. Ledgers. Chair. Shelves. Papers that looked expensive because they were organized.
+
+He had the two actual discrepancies open in front of him.
+
+"Both confirmed," he said.
+
+I sat when he pointed.
+
+"The copy total was wrong. The continuation was filed wrong."
+
+"I feel dangerously competent."
+
+"You found two errors in several stacks of ordinary work."
+
+"Let me have this."
+
+"No."
+
+He wrote something in his ledger.
+
+I watched the pen.
+
+"Credit recorded," he said.
+
+No number.
+
+I did not ask for the total balance.
+
+I knew what I owed because the office knew what I owed, and the number did not need to be narrated to make the debt exist.
+
+"How much credit?"
+
+Antonius looked at me.
+
+"For the work."
+
+He pointed to the line recording the work credit.
+
+I absorbed the figure, then looked at the ledger without trying to calculate my entire life out loud.
+
+The debt moved.
+
+It remained a debt.
+
+That was enough.
+
+Antonius closed the book.
+
+"Theatre today?"
+
+"After this."
+
+"Paid?"
+
+"Usually."
+
+"Then continue."
+
+I leaned back slightly.
+
+"That's your advice?"
+
+"It's not advice. Income is useful."
+
+"Very philosophical."
+
+"Do you have the rest of Bren's name?"
+
+There it was.
+
+Not concern.
+
+A condition remembered.
+
+"No."
+
+"Employer?"
+
+"No."
+
+"Organization?"
+
+"No."
+
+"Then you have nothing new for me."
+
+I considered the cart questions.
+
+Money at the hall.
+
+Late show.
+
+Same driver.
+
+It was new to me.
+
+Not the kind of new Antonius had asked for.
+
+"Correct," I said.
+
+He nodded once.
+
+The conversation ended.
+
+No investigation.
+
+No offer.
+
+No secret recognition.
+
+I took my crutches and left.
+
+Outside, the sky had finally committed to rain.
+
+Not much. Enough to darken the stone and make carts smell like wet wood.
+
+My left crutch tip gripped.
+
+I crossed toward the theatre.
+
+The cart was back on its wheels when I arrived.
+
+Jori stood beside it shaving the edge of a new brace with a knife.
+
+"Fixed?"
+
+"Mostly."
+
+"Sabotage?"
+
+He looked at me.
+
+I smiled.
+
+"Checking."
+
+"Old wood. Bad bolt hole. New brace."
+
+"Excellent."
+
+"Stop saying that."
+
+Davin was tightening something beneath the bed.
+
+I pointed.
+
+"Is he helping?"
+
+"No."
+
+"I am absolutely helping," Davin said.
+
+Rinna was inside at the front table.
+
+"Anything?" I asked.
+
+"No."
+
+That was enough.
+
+She glanced at the damp shoulders of my coat.
+
+"Vale?"
+
+"Paper."
+
+"Paid?"
+
+"Credit."
+
+She nodded as if those were ordinary facts, which they were.
+
+"Can you stay through second piece?"
+
+"Yes."
+
+"Then Nessa has a box with your name on it."
+
+I looked toward backstage.
+
+"Literal name?"
+
+"No."
+
+"Safer."
+
+Nessa's box contained cups.
+
+Not theatrical cups.
+
+Real ones.
+
+Apparently somebody had decided the rear shelf needed to be cleared, and I spent the next half hour sorting chipped cups from usable cups while Marek rehearsed ten feet away with a hat that Nessa had already told him not to crease.
+
+The theatre had not needed me to solve the cart questions.
+
+It needed me to determine whether a cup with a crack halfway down one side was still a cup.
+
+I held it up.
+
+Nessa said, "No."
+
+"Technically."
+
+"No."
+
+I put it in the discard box.
+
+Teren did not give me a role that afternoon. I helped with the cup shelf, moved pages, held a door while Jori carried the repaired brace inside to show Rinna the old split, then sat through part of rehearsal because I had nowhere better to be before the early show.
+
+Nobody asked about Vale.
+
+Nobody asked whether my debt had become morally meaningful.
+
+The old brace ended up beside Jori's workbench.
+
+I looked at the split near the bolt hole once.
+
+Old wood.
+
+Bad hole.
+
+That was all.
+
+By the time I left, the early audience was arriving and Nessa had decided two of the discarded cups could be painted and become stage property.
+
+"Then they weren't dead," I said.
+
+"They were dead as cups."
+
+"Reincarnation."
+
+"Go home."
+
+I went home by the west market.
+
+I remembered the onions.
+
+This was an extraordinary day.
+
+The onion seller asked how many.
+
+Lyssa's note had not covered this.
+
+I bought enough to avoid looking foolish without committing us to an onion-based future.
+
+At home, Lyssa had reclaimed the table.
+
+She had also reclaimed the thread, the blue cloth, and most of the lamp.
+
+I put the onions beside her elbow.
+
+She looked at them.
+
+"Good."
+
+"I selected them personally."
+
+"How?"
+
+"By color."
+
+She smiled.
+
+I hung my coat and sat.
+
+For a while she sewed and I rubbed a small ink stain from the side of my finger.
+
+"Vale?" she asked eventually.
+
+"Useful work."
+
+"Did you do it?"
+
+"Some of it."
+
+"That was the question."
+
+"Then yes."
+
+She waited.
+
+I knew what she was actually asking only because we had lived together long enough for silence to acquire departments.
+
+"Credit recorded."
+
+She nodded.
+
+"Still owe him?"
+
+"Very much."
+
+"Good system."
+
+"Terrible system."
+
+"Working system."
+
+I could not argue with that without becoming theatrical.
+
+She cut the thread.
+
+"Anything at theatre?"
+
+"Cart repaired. No new word."
+
+"Paper?"
+
+"No Hessa."
+
+"Bren?"
+
+"No."
+
+She returned to the seam.
+
+That was the entire threat report.
+
+I looked at the onions.
+
+At the cloth.
+
+At the ink stain that had not completely left my finger.
+
+The office had found two mistakes today. One number copied wrong. One continuation filed under the wrong account. Both had been corrected because somebody checked.
+
+My debt had moved by whatever credit Antonius had entered.
+
+It had not vanished.
+
+The theatre's cart had a new brace.
+
+My crutch had a new tip.
+
+Lyssa had matching thread.
+
+Nothing in the room was solved enough to become a different life.
+
+Several things were simply in slightly better condition than yesterday.
+
+I could live with that.
