@@ -31,14 +31,14 @@ jobs:
           assert '# CHAPTER 233' not in stale_tail and '## Chapter 233' not in stale_tail, 'new Chapter 233 exists after stale duplicate; refusing truncation'
           assert '# CHAPTER 232' not in stale_tail, 'unexpected additional modern chapter header in stale tail'
 
-          counter = canonical + prefix.split(canonical, 1)[1]
-          words = len(re.findall(r"\b[\w’'-]+\b", counter))
+          body = prefix.split(canonical, 1)[1]
+          words = len(re.findall(r"\b[\w’'-]+\b", body))
           assert 2500 <= words <= 4000, words
-          assert '—' not in counter, 'em dash in canonical COUNTERSIGN prose'
+          assert '—' not in body, 'em dash in canonical COUNTERSIGN prose body'
 
           p.write_text(prefix.rstrip() + '\n')
-          print('canonical_words', words)
-          print('canonical_em_dashes', counter.count('—'))
+          print('canonical_body_words', words)
+          print('canonical_body_em_dashes', body.count('—'))
           print('removed_stale_matcher', True)
           PY
       - name: Verify authority regression test turns green
@@ -54,13 +54,14 @@ jobs:
           m = Path('state/manuscript/Peg_Leg_Greg_Running_Manuscript.md').read_text()
           s = Path('state/MANUSCRIPT_STATE.md').read_text()
           i = Path('state/MANUSCRIPT_CHAPTER_INDEX.md').read_text()
-          assert m.count('## Chapter 232 — THE COUNTERSIGN') == 1
+          canonical = '## Chapter 232 — THE COUNTERSIGN'
+          assert m.count(canonical) == 1
           assert '# CHAPTER 232\n\n## THE MATCHER' not in m
           assert '# CHAPTER 233' not in m and '## Chapter 233' not in m
-          counter = '## Chapter 232 — THE COUNTERSIGN' + m.split('## Chapter 232 — THE COUNTERSIGN', 1)[1]
-          words = len(re.findall(r"\b[\w’'-]+\b", counter))
+          body = m.split(canonical, 1)[1]
+          words = len(re.findall(r"\b[\w’'-]+\b", body))
           assert 2500 <= words <= 4000, words
-          assert counter.count('—') == 0
+          assert body.count('—') == 0
           assert 'Current story endpoint: Chapter 232 — **THE COUNTERSIGN**.' in s
           assert 'Immediate next edge — Chapter 233' in s
           assert '33 successful supervised minimal draws' in s
@@ -68,8 +69,8 @@ jobs:
           assert '45 supervised external-effect attempts' in s
           assert '232. **THE COUNTERSIGN**' in i
           assert '232. **THE MATCHER**' not in i
-          print('verified_counter_words', words)
-          print('verified_counter_em_dashes', counter.count('—'))
+          print('verified_counter_body_words', words)
+          print('verified_counter_body_em_dashes', body.count('—'))
           print('verified_endpoint', 'Chapter 232 — THE COUNTERSIGN')
           PY
           git config user.name "github-actions[bot]"
