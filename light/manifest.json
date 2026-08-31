@@ -1,0 +1,71 @@
+{
+  "latest": 230,
+  "chapters": [
+    {
+      "number": 220,
+      "title": "THE LANDLORD",
+      "source": "manuscript",
+      "path": "220.html"
+    },
+    {
+      "number": 221,
+      "title": "THE PARTICIPANT",
+      "source": "manuscript",
+      "path": "221.html"
+    },
+    {
+      "number": 222,
+      "title": "THE PROPERTY MAN",
+      "source": "manuscript",
+      "path": "222.html"
+    },
+    {
+      "number": 223,
+      "title": "THE MAINTENANCE MAN",
+      "source": "manuscript",
+      "path": "223.html"
+    },
+    {
+      "number": 224,
+      "title": "THE CHECKER",
+      "source": "manuscript",
+      "path": "224.html"
+    },
+    {
+      "number": 225,
+      "title": "THE STEWARD",
+      "source": "manuscript",
+      "path": "225.html"
+    },
+    {
+      "number": 226,
+      "title": "THE REFERENCE",
+      "source": "manuscript",
+      "path": "226.html"
+    },
+    {
+      "number": 227,
+      "title": "THE BUNDLER",
+      "source": "manuscript",
+      "path": "227.html"
+    },
+    {
+      "number": 228,
+      "title": "THE FLOWER BEARER",
+      "source": "manuscript",
+      "path": "228.html"
+    },
+    {
+      "number": 229,
+      "title": "THE ROAD ONE",
+      "source": "manuscript",
+      "path": "229.html"
+    },
+    {
+      "number": 230,
+      "title": "THE REPLICATE",
+      "source": "manuscript",
+      "path": "230.html"
+    }
+  ]
+}

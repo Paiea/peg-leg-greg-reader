@@ -3,28 +3,39 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta name="description" content="Peg-Leg Greg light reader: fast, text-first chapters without illustrations."/>
+<meta name="description" content="Peg-Leg Greg Light edition: fast, text-first chapters without illustrations."/>
 <title>Light Reader — Peg-Leg Greg</title>
 <link href="assets/reader.css" rel="stylesheet"/>
+<link href="assets/light.css" rel="stylesheet"/>
 <style>
-.light-reader-note{max-width:46rem;margin:1rem auto;padding:0 1rem;color:var(--muted,#6b6258);font-size:.95rem}.light-reader-controls{max-width:46rem;margin:1rem auto 2rem;padding:0 1rem;display:flex;gap:.6rem;flex-wrap:wrap;align-items:center}.light-reader-controls a,.light-reader-controls button{font:inherit}.light-reader-jump{display:flex;gap:.35rem;align-items:center}.light-reader-jump input{width:5.5rem;padding:.45rem}.light-reader-gap{max-width:46rem;margin:1.5rem auto;padding:1rem;border:1px solid currentColor;border-radius:.5rem}.light-reader-status{max-width:46rem;margin:0 auto;padding:0 1rem;color:var(--muted,#6b6258)}.light-toc-label{grid-column:1/-1;margin:1.4rem 0 .2rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.78rem;opacity:.72}.light-reader-switch{max-width:46rem;margin:1.2rem auto;padding:0 1rem}
+.light-reader-note,.light-reader-controls,.light-reader-status,.light-reader-switch,.light-reader-gap{max-width:46rem;margin:1rem auto;padding:0 1rem}.light-reader-controls{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center;margin-bottom:2rem}.light-reader-jump{display:flex;gap:.35rem;align-items:center}.light-reader-jump input{width:5.5rem;padding:.45rem}.light-toc-label{grid-column:1/-1;margin:1.4rem 0 .2rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.78rem;opacity:.72}
 </style>
 </head>
-<body>
-<header class="site-head"><a href="index.html">PEG-LEG GREG</a><nav aria-label="Reader navigation" class="site-nav"><a href="index.html">ILLUSTRATED</a><a href="light.html">LIGHT TOC</a><a href="latest.html">LATEST</a><a href="art.html">ART</a></nav></header>
+<body class="light-edition">
+<header class="site-head light-site-head"><a class="site-brand" href="index.html">PEG-LEG GREG</a><nav aria-label="Site navigation" class="site-nav"><a href="index.html">HOME</a><a href="index.html#chapters">ILLUSTRATED</a><a aria-current="page" href="light/index.html">LIGHT</a><a href="latest.html">LATEST</a><a href="art.html">ART</a></nav></header>
 <main class="chapter-shell">
 <header class="chapter-title"><div class="number" data-light-number>LIGHT READER</div><h1 data-light-title>TABLE OF CONTENTS</h1></header>
-<p class="light-reader-note">Text-first edition with no chapter illustrations. Exact prose is now continuous through the recovered Chapters 156–219 and into the current permanent manuscript, while the illustrated edition remains available through Chapter 155.</p>
-<div class="light-reader-controls" aria-label="Light reader navigation">
-<a data-light-prev href="#">← Previous</a><a href="light.html">Light TOC</a><a data-light-next href="#">Next →</a>
-<form class="light-reader-jump" data-light-jump><label for="light-chapter">Chapter</label><input id="light-chapter" name="chapter" inputmode="numeric" pattern="[0-9]*"/><button type="submit">Go</button></form>
-</div>
-<p class="light-reader-status" data-light-status>Loading available chapters…</p>
+<p class="light-reader-note">Text-first reading with no chapter illustrations. <a href="light/index.html">Browse the Light chapter list.</a></p>
+<div class="light-reader-controls" aria-label="Light reader navigation"><a data-light-prev href="#">← Previous</a><a href="light/index.html">Light TOC</a><a data-light-next href="#">Next →</a><form class="light-reader-jump" data-light-jump><label for="light-chapter">Chapter</label><input id="light-chapter" name="chapter" inputmode="numeric" pattern="[0-9]*"/><button type="submit">Go</button></form></div>
+<p class="light-reader-status" data-light-status>Loading chapter…</p>
 <section class="toc" data-light-toc aria-label="Light reader table of contents"></section>
 <article class="prose" data-light-prose hidden></article>
 <div class="light-reader-switch" data-light-switch hidden></div>
-<div class="light-reader-controls" data-light-bottom hidden><a data-light-prev-bottom href="#">← Previous</a><a href="light.html">Light TOC</a><a data-light-next-bottom href="#">Next →</a></div>
+<div class="light-reader-controls" data-light-bottom hidden><a data-light-prev-bottom href="#">← Previous</a><a href="light/index.html">Light TOC</a><a data-light-next-bottom href="#">Next →</a></div>
 </main>
-<script src="assets/light-reader.js?v=20260831-gap-filled"></script>
+<script>
+(() => {
+  const params = new URLSearchParams(location.search);
+  const requested = Number.parseInt(params.get('chapter') || '', 10);
+  fetch('light/manifest.json', {cache:'no-store'}).then(r => r.ok ? r.json() : null).catch(() => null).then(manifest => {
+    if (!requested) { location.replace('light/index.html'); return; }
+    const found = manifest?.chapters?.find(chapter => Number(chapter.number) === requested);
+    if (found?.path) { location.replace(`light/${found.path}`); return; }
+    const script = document.createElement('script');
+    script.src = 'assets/light-reader.js?v=20260831-static-compat';
+    document.body.appendChild(script);
+  });
+})();
+</script>
 </body>
 </html>
