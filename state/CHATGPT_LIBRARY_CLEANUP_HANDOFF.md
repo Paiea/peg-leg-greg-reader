@@ -16,7 +16,8 @@ Read first:
 
 ## Protect
 
-- `Peg_Leg_Greg_Heavy_Edit.md`
+- `Peg_Leg_Greg_Heavy_Edit.md` until edited Chapters 138-180 are migrated and
+  checksum/chapter/edge verification explicitly passes
 - any unique manuscript/recovery/editorial file not verified in GitHub
 - any unique high-quality source asset intentionally absent from GitHub
 - deliberate user archives
