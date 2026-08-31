@@ -1,9 +1,9 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Chapter 152 — **THE SECOND SHOW**.
+- Chapter 155 — **THE LEAK**.
 - Book 1 Chapters 1–82 closed. Book 2 active.
-- Chapters 138–152 are integrated from the forward running manuscript with a light paragraph-rhythm recomposition. Detailed compact canon harvest remains intentionally pending.
+- Chapters 138–152 retain the current edited authority. Chapters 153–155 are integrated from the newer forward manuscript with a light paragraph-rhythm recomposition. Detailed compact canon harvest remains intentionally pending.
 
 ## Greg / body
 - Greg is nineteen, Bronze, Carrow; permanent LEFT BKA, knee preserved; right leg intact; two crutches.
@@ -115,6 +115,7 @@
 - Greg's remembered older normal remains effortful to manufacture, not automatic.
 
 ## Immediate continuity
-- Ch138 = full no-magic day.
-- Ch139 = Hessa assessment.
+- Chapters 153–155 continue the travelling theatre run through earned show money, a northern booking, and a rain-damaged hall.
+- Chapter 155 ends during preparations at the leaking hall; the actual performance there has not yet occurred.
+- The company has conditional performance income, reduced wet-stage capacity, roof repair, and lodging costs in active view.
 - Neutral baseline geometry is now a major active interpretability question.

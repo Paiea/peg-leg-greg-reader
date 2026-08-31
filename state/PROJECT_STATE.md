@@ -42,11 +42,11 @@ The manuscript-wide social-names pass preserves established nickname ownership a
 
 ## Book 2
 
-Active manuscript. Current authoritative Book 2 prose sources: `state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx` and the forward running source `state/manuscript/Peg_Leg_Greg_Running_Manuscript_Ch138-152.md`.
+Active manuscript. Current authoritative Book 2 prose sources: `state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx` and the forward running source `state/manuscript/Peg_Leg_Greg_Running_Manuscript_Ch138-155.md`.
 
-**REPOSITORY MANUSCRIPT VALIDATED THROUGH CH152 — THE SECOND SHOW.**
+**REPOSITORY MANUSCRIPT VALIDATED THROUGH CH155 — THE LEAK.**
 
-Chapters 83–123 remain the locked edited authority. Chapters 124–137 are integrated forward from the Ch137 handoff and carry the established prose-rhythm and relationship-language standard. Chapters 138–152 received a light paragraph-rhythm recomposition while preserving the complete prose word and punctuation stream. Older overlapping handoff prose was not allowed to overwrite the locked range. `STORY_CONTROL_STATE.md` and `WRITERS_ROOM_STATE.md` remain developmental context and do not supersede manuscript events.
+Chapters 83–123 remain the locked edited authority. Chapters 124–137 are integrated forward from the Ch137 handoff and carry the established prose-rhythm and relationship-language standard. Chapters 138–152 retain their edited paragraph-rhythm authority. Chapters 153–155 were integrated forward with the same light rhythm standard; their existing show-pay, spending, booking, capacity, repair, and lodging pressures were preserved rather than overwritten with invented prices. Older overlapping handoff prose was not allowed to overwrite the locked range. `STORY_CONTROL_STATE.md` and `WRITERS_ROOM_STATE.md` remain developmental context and do not supersede manuscript events.
 
 ## Visual production
 

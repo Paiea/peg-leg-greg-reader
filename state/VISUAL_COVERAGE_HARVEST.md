@@ -1,15 +1,16 @@
 # PEG-LEG GREG — VISUAL COVERAGE HARVEST
 
-**Status:** 324 illustrations referenced across the Chapter 1–152 reader; zero chapters without art.
+**Status:** 348 illustrations referenced across the Chapter 1–155 reader; zero chapters without art.
 **Source:** three DEVELOPMENT discovery contact sheets supplied 2026-08-30.
 **Rule:** source contact sheets remain DEVELOPMENT; only clean standalone crops below are reader-facing.
 
-## FAST STORYBOOK COVERAGE — BATCHES 003–004
+## FAST STORYBOOK COVERAGE — BATCHES 003–006
 
 - 75 rapid coverage panels added across Chapters 7–119, including the final 13 previously zero-art chapters.
 - 25 rapid forward panels added across new Chapters 138–147.
 - 25 additional panels added across Chapters 120–130 and new Chapters 148–152.
-- Current distribution: 20 chapters with one image, 97 with two, 30 with three, and 5 with four.
+- 24 additional panels added across thin older chapters and new Chapters 153–155; one Ch154 panel was rejected for disability-continuity ambiguity.
+- Current distribution: 5 chapters with one image, 113 with two, 31 with three, and 6 with four.
 - Source sheets and deterministic crop/placement records are preserved under `visual/development/contact_sheets/` and `publishing/image_batch_*fast_coverage*.json`.
 - Curation floor for these batches: reject only catastrophic identity, skin-tone, anatomy, disability, or scene-meaning failures; upgrade selectively later.
 

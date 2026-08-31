@@ -104,10 +104,16 @@ For the next forward pass, protect the distinction between **test progression** 
 - Chapters 1–123 remain the locked edited authority.
 - Chapters 124–137 received the forward prose-consistency pass, focused on paragraph/sentence rhythm while preserving Greg's earned blunt cadence and exact story events.
 - Relationship-language review preserved existing permissions: Lyssa's private **Aileen** remains rare and does not spread; theatre **Gregory** remains context-specific; Hessa's direct **Greg** remains a seriousness/attention marker.
-- Current editorial endpoint: Chapter 152 — **THE SECOND SHOW**.
+- Current editorial endpoint: Chapter 155 — **THE LEAK**.
 
 ## FORWARD LIGHT SHIP EDIT — CH138–152
 
 - Reworked only paragraph architecture in the rapid forward manuscript, combining ordinary fragment runs while preserving the complete prose word and punctuation stream.
 - Dialogue, events, characterization, magic, relationship chronology, chapter outcomes, and naming were not rewritten.
 - A deeper sentence-level/dialogue-attribution pass remains optional rather than required for this shipment.
+
+## FORWARD LIGHT SHIP EDIT — CH153–155
+
+- Preserved Chapters 138–152 as locked edited authority and integrated only the genuinely new Chapters 153–155.
+- Applied the established light paragraph-rhythm standard to the new block without changing scene outcomes, relationship chronology, or theatre direction.
+- Reviewed economic grounding and retained the manuscript's existing earned pay, spending, booking-rate, seat-capacity, repair, and lodging pressures. No arbitrary currency scale or invented prices were added.

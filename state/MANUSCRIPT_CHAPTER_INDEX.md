@@ -157,3 +157,6 @@ Chapters 65--82 continue from the current forward manuscript.
 150. **THE WORK**
 151. **THE SHOW**
 152. **THE SECOND SHOW**
+153. **THE MONEY**
+154. **THE VISITOR**
+155. **THE LEAK**
