@@ -190,18 +190,32 @@ After a substantial 02 response:
 1. update `WRITERS_ROOM_STATE.md` with durable residue only
 2. update `RESEARCH_LEDGER.md` if research produced reusable findings
 3. identify the strongest unresolved developmental edge
-4. end with `## RE-PROMPT [02]` containing a compact executable continuation prompt
+4. end the durable 02 state with `## RE-PROMPT [02]` containing a compact executable same-lane continuation prompt
 5. when ready for integration, explicitly hand the developed possibility to 03
+6. **before ending the chat, visibly paste a copyable prompt for the lane/work you actually recommend the user run next**
 
 After a substantial 03 response:
 1. update `STORY_CONTROL_STATE.md` with durable residue only
 2. update the relevant bible/control files if something graduates
 3. identify what remains uncertain
 4. identify the next research / exploration edge
-5. end with `## RE-PROMPT [03]` containing a compact executable continuation prompt
+5. end the durable 03 state with `## RE-PROMPT [03]` containing a compact executable same-lane continuation prompt
 6. hand new research questions back to 02 when useful
+7. **before ending the chat, visibly paste a copyable prompt for the lane/work you actually recommend the user run next**
 
 The re-prompt is a trailhead, not a transcript.
+
+### Visible re-prompt rule
+
+A substantial development run is not fully handed off if the only re-prompt lives in GitHub.
+
+Unless the user explicitly asks for no next-step prompt:
+- preserve the durable same-lane `## RE-PROMPT [...]` in GitHub;
+- also show the user a clean copyable next prompt in the final response;
+- target the visible prompt at the **actual recommended next lane**, even when that differs from the same-lane restart prompt stored in GitHub;
+- do not end with only a summary/status report and make the user ask `what next?`.
+
+Example: after 02 finishes a research/archaeology wave and recommends Story Control integration, GitHub still keeps `## RE-PROMPT [02]` for restarting 02, while the visible handoff prompt should target 03.
 
 ## Fresh-chat commands
 
