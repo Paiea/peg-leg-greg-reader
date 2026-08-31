@@ -41,6 +41,6 @@ The re-prompt is intentionally retained. GitHub provides durable continuity; the
 
 ## Current edge
 
-Chapter 222 — **THE PROPERTY MAN**.
+Chapter 223 — **THE MAINTENANCE MAN**.
 
-See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 223 edge.
+See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 224 edge.
