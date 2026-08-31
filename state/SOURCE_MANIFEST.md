@@ -3,10 +3,10 @@
 ## Current authoritative manuscript sources
 
 - Book 1: `Peg_Leg_Greg_authoritative_ch82_final_name_map.docx` — Chapters 1–82, CLOSED.
-- Book 2: `Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx` — Chapters 83–123, ACTIVE.
+- Book 2: `Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx` — Chapters 83–137, ACTIVE.
 - Book 1 SHA-256: `5041ec36c61cbad6f80bf43cbd22ea55c7a2f4daa54bab43dd1be70971d36113`
-- Book 2 SHA-256: `35e36e3c591e007ffa1ea68d80a8310378816ecbe729f95fb2278e861bbceaa7`
-- Current story endpoint: Chapter 123 — **THE ERRAND**.
+- Book 2 SHA-256: `1cc2f67ff37ec7169ce012877f3001ef7feeefbb25b52f3b754942bcb6d705bb`
+- Current story endpoint: Chapter 137 — **THE SHAPE**.
 - Canonical existing-character spelling: **Lyssa**.
 - The manuscript sources plus explicit author decisions are sovereign. Reader HTML is derived presentation.
 
@@ -30,7 +30,7 @@ Historical files remain historical and do not supersede the current sources abov
 ## Current repository boundary
 
 - Book 1 remains closed through Chapter 82 — **THE RECONCILER**.
-- Book 2 reader/manuscript is validated through Chapter 123 — **THE ERRAND**.
-- Chapters 83–123 derive from the current rolling Book 2 authority, with the repository-approved edited Ch83–105 checkpoint preserved in the merged current manuscript.
+- Book 2 reader/manuscript is validated through Chapter 137 — **THE SHAPE**.
+- Chapters 83–123 remain the repository-authoritative edited range. Chapters 124–137 derive from the newer handoff and were integrated forward without importing its stale overlap.
 - Existing reader artwork and visual-production files are preserved.
 - Chapters 20–82 received an author-approved prose-rhythm polish that recomposed paragraph boundaries without changing the prose character stream, canon, chapter order, or endpoint.

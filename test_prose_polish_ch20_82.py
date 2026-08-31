@@ -47,7 +47,7 @@ class ProsePolishTest(unittest.TestCase):
             self.assertGreater(parser.paragraphs, 0, page)
             total_paragraphs += parser.paragraphs
         self.assertLess(total_paragraphs, 42000)
-        self.assertEqual(len(list((ROOT / "chapters").glob("[0-9][0-9][0-9].html"))), 123)
+        self.assertEqual(len(list((ROOT / "chapters").glob("[0-9][0-9][0-9].html"))), 137)
 
 
 if __name__ == "__main__":

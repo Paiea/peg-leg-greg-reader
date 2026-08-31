@@ -27,13 +27,10 @@ for chapter in range(106, 114):
 
     previous = f"{chapter - 1:03}.html"
     assert previous in parser.links, f"Chapter {chapter} missing previous navigation"
-    if chapter < 113:
-        following = f"{chapter + 1:03}.html"
-        assert following in parser.links, f"Chapter {chapter} missing next navigation"
-    else:
-        assert "114.html" not in parser.links, "Chapter 113 must be the published endpoint"
+    following = f"{chapter + 1:03}.html"
+    assert following in parser.links, f"Chapter {chapter} missing next navigation"
 
 chapter_105 = (ROOT / "chapters" / "105.html").read_text(encoding="utf-8")
 assert 'href="106.html"' in chapter_105, "Chapter 105 must link forward to Chapter 106"
 
-print("Chapter 113 synchronization checks pass")
+print("Chapter 113 historical synchronization checks pass")

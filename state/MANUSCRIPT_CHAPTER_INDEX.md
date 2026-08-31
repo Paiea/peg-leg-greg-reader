@@ -1,6 +1,6 @@
-# PEG-LEG GREG --- CHAPTER INDEX --- CH82
+# PEG-LEG GREG — CHAPTER INDEX — CH137
 
-**Current endpoint:** Chapter 82 --- THE RECONCILER
+**Current endpoint:** Chapter 137 — THE SHAPE
 
 Chapters 1--64 use the published checkpoint's role-title sequence.
 Chapters 65--82 continue from the current forward manuscript.
@@ -128,3 +128,17 @@ Chapters 65--82 continue from the current forward manuscript.
 121. **THE REGULAR**
 122. **THE REACHER**
 123. **THE ERRAND**
+124. **THE HORSE**
+125. **THE TEST CASE**
+126. **THE OLD ROAD**
+127. **THE REPEAT**
+128. **THE MESSENGER**
+129. **THE LIMIT**
+130. **THE EXTRA**
+131. **THE DIRECTION**
+132. **THE HOUR**
+133. **THE OTHER WAY**
+134. **THE VOICE**
+135. **THE REPEAT**
+136. **THE OLD VOICE**
+137. **THE SHAPE**

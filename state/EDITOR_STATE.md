@@ -98,3 +98,10 @@ For the next forward pass, protect the distinction between **test progression** 
 - Public/professional speakers may use **Vale / Mr. Vale** while Greg uses **Antonius**. Do not invent **Tony**.
 - Lyssa first uses **Aileen** privately in Chapter 123 after substantial earned closeness. The name is hers, rare, and not licensed to the wider cast.
 - Pessa's clipped **Greg** and frequent omission of names are character voice. Do not manufacture a nickname for her relationship with him.
+
+## FORWARD INTEGRATION — CH124–137
+
+- Chapters 1–123 remain the locked edited authority.
+- Chapters 124–137 received the forward prose-consistency pass, focused on paragraph/sentence rhythm while preserving Greg's earned blunt cadence and exact story events.
+- Relationship-language review preserved existing permissions: Lyssa's private **Aileen** remains rare and does not spread; theatre **Gregory** remains context-specific; Hessa's direct **Greg** remains a seriousness/attention marker.
+- Current editorial endpoint: Chapter 137 — **THE SHAPE**.

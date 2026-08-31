@@ -42,11 +42,11 @@ The manuscript-wide social-names pass preserves established nickname ownership a
 
 ## Book 2
 
-Active manuscript. Current authoritative Book 2 prose source: `state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx`.
+Active manuscript. Current authoritative Book 2 prose source: `state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx`.
 
-**REPOSITORY MANUSCRIPT VALIDATED THROUGH CH123 — THE ERRAND.**
+**REPOSITORY MANUSCRIPT VALIDATED THROUGH CH137 — THE SHAPE.**
 
-Chapters 83–123 are synchronized to the current rolling Book 2 authority. The prior edited Ch83–105 checkpoint is retained in manuscript history; Chapters 106–123 are routed from the supplied Ch123 rolling manuscript. `MANUSCRIPT_STATE.md`, `OPEN_THREADS.md`, and `MANUSCRIPT_CHAPTER_INDEX.md` are synchronized to Ch123. `EDITOR_STATE.md`, `STORY_CONTROL_STATE.md`, and `WRITERS_ROOM_STATE.md` remain their existing developmental/editorial context and do not supersede manuscript events.
+Chapters 83–123 remain the locked edited authority. Chapters 124–137 are integrated forward from the Ch137 handoff and carry the established prose-rhythm and relationship-language standard. Older overlapping handoff prose was not allowed to overwrite the locked range. `MANUSCRIPT_STATE.md`, `OPEN_THREADS.md`, and `MANUSCRIPT_CHAPTER_INDEX.md` are synchronized to Ch137. `STORY_CONTROL_STATE.md` and `WRITERS_ROOM_STATE.md` remain developmental context and do not supersede manuscript events.
 
 ## Visual production
 

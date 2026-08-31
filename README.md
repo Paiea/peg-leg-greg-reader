@@ -2,18 +2,18 @@
 
 Open `index.html` in any modern browser.
 
-This static reader publishes **Chapters 1–123** from the closed Book 1 authority plus the current Book 2 rolling authority.
+This static reader publishes **Chapters 1–137** from the closed Book 1 authority plus the current Book 2 rolling authority.
 
 The manuscript remains the prose authority. This reader is a derived publishing build.
 
 ## Current source
 
 - Book 1 manuscript: `Peg_Leg_Greg_authoritative_ch82_final_name_map.docx` — Chapters 1–82, CLOSED
-- Book 2 manuscript: `Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx` — Chapters 83–123, ACTIVE
+- Book 2 manuscript: `Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx` — Chapters 83–137, ACTIVE
 - Book 1 SHA-256: `5041ec36c61cbad6f80bf43cbd22ea55c7a2f4daa54bab43dd1be70971d36113`
-- Book 2 SHA-256: `35e36e3c591e007ffa1ea68d80a8310378816ecbe729f95fb2278e861bbceaa7`
-- Published chapters: 1–123
-- Latest chapter: Chapter 123 — THE ERRAND
+- Book 2 SHA-256: `1cc2f67ff37ec7169ce012877f3001ef7feeefbb25b52f3b754942bcb6d705bb`
+- Published chapters: 1–137
+- Latest chapter: Chapter 137 — THE SHAPE
 
 ## Art
 
@@ -21,7 +21,7 @@ Open `art.html` or click **ART** to browse approved visual material. Only previo
 
 ## Responsive behavior
 
-Illustrations retain the established intrinsic image behavior on narrow screens. The reader architecture was not redesigned for the Chapter 123 synchronization.
+Illustrations retain the established intrinsic image behavior on narrow screens. The reader architecture was not redesigned for the Chapter 137 synchronization.
 
 ## Harvest ship pass
 

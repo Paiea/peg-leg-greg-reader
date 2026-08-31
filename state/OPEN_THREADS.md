@@ -1,18 +1,30 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Magic return/shaping:** ACTIVE. Twelve draws, eight shaping attempts, one external attempt. No spell/Barrier/established external effect.
-- **First external attempt / thread:** ACTIVE AMBIGUITY. Two movements during REACH remain un-attributed because baseline/confounds.
-- **External-test interpretability:** ACTIVE. Greg resists private apparatus reconstruction Ch123.
-- **Hessa cadence:** Ch124 is second full no-magic living day; next assessment morning after.
-- **Motor urge/thumb:** historical watch, quiet through Ch123.
-- **Greg/Lyssa:** ADVANCED. Reciprocal liking explicitly verbalized Ch123; brief mouth kiss at parting. Relationship still undefined/independent.
-- **Lyssa independence:** maintained. Ch123 begins during her paid cloth delivery and ends because she has another work obligation.
-- **Theatre voluntary belonging:** ACTIVE, off-page Ch123. Greg confirms to Lyssa he still goes because he wants to.
-- **Theatre practical contribution / performance ignorance:** ACTIVE, no new rung Ch123.
-- **Physical competence/Pessa:** ACTIVE SEPARATE. Lyssa has heard name; no meeting; latest session Ch119.
-- **Work choice:** ACTIVE. No automatic stream.
-- **Sevren/road:** north-road possibility not offered/final.
-- **Holl:** cross-bench/fixture unresolved; payment unsettled if relevant.
+- **Magic return/shaping:** ACTIVE. 19 supervised draws; 15 shaping attempts.
+- **External magical effect:** UNESTABLISHED. 3 external attempts; suspended-thread apparatus shelved.
+- **Directional control:** PROVISIONALLY SUPPORTED under narrow conditions only, but interpretation is now complicated by Ch137 neutral-shape asymmetry.
+- **Neutral-shape baseline geometry:** ACTIVE / IMPORTANT. Ch137 neutral shape is reported asymmetric with wrist-side edge most distinct and upper edge changing without directional instruction.
+- **Detailed pre-direction mapping:** active method question. Prior directional tests lacked equally structured edge-by-edge pre-mapping.
+- **Structured self-report drawing:** NEW METHOD / ACTIVE. Useful record, explicitly NOT independent confirmation.
+- **Anatomy / support pressure / arm position / expectation / day variation / self-report noise:** active confounds.
+- **Internal control / RETURN:** remains increasingly reliable.
+- **Hessa cadence:** Ch138 no magic; Ch139 next assessment.
+- **Independent magic / casting / Barrier:** not cleared.
+- **Motor urge/thumb:** quiet through Ch137.
+- **Talking Sword acting arc:** ACTIVE / SUSTAINED, latest substantive work Ch136.
+- **Old normal reconstruction:** ACTIVE. Remembered older presence requires effortful breath/cadence/attention/mental-state reconstruction and is not automatic.
+- **Listening vs preparation:** ACTIVE sword craft problem.
+- **Sword consistency / scene specificity / repeatability:** unresolved.
+- **Actor/prop relationship:** active.
+- **Theatre acting participation:** increasingly routine but still no formal role/casting/pay/membership.
+- **Theatre voluntary belonging:** advancing; Greg heads west after Ch137 because he wants another run.
+- **Greg/Lyssa:** advancing ordinary intimacy, latest Ch132.
+- **Lyssa independent work:** active background.
+- **Sevren / north-road run:** uncommitted, latest Ch126.
+- **Guild work choice:** active, latest Ch126.
+- **Jorren:** independent friend, latest Ch125.
+- **Pessa / physical competence:** active separate, latest Ch119.
+- **Holl:** cross-bench/fixture unresolved.
 - **Edrin:** owns sinkstone.
-- **Pell/Vessa:** `WE KNOW. DO NOT COME.`
-- **Antonius:** debt/commercial, no automatic work.
+- **Arlo/Vessa:** `WE KNOW. DO NOT COME.`
+- **Antonius:** debt/commercial relationship; no automatic work.

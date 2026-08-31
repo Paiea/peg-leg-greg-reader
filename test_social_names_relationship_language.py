@@ -7,7 +7,7 @@ from docx import Document
 
 ROOT = Path(__file__).resolve().parent
 BOOK1 = ROOT / "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx"
-BOOK2 = ROOT / "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx"
+BOOK2 = ROOT / "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx"
 
 
 def manuscript_text(path):
@@ -36,7 +36,7 @@ class SocialNamesPassTest(unittest.TestCase):
         combined = manuscript_text(BOOK1) + "\n" + manuscript_text(BOOK2)
         self.assertIsNone(re.search(r"\bLysa\b", combined))
         self.assertIsNone(re.search(r"\bAntonious\b", combined))
-        self.assertEqual(len(list((ROOT / "chapters").glob("*.html"))), 123)
+        self.assertEqual(len(list((ROOT / "chapters").glob("*.html"))), 137)
 
 
 if __name__ == "__main__":
