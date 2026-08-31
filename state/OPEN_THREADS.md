@@ -1,28 +1,29 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Current endpoint:** Chapter 222 — **THE PROPERTY MAN**.
+- **Current endpoint:** Chapter 223 — **THE MAINTENANCE MAN**.
 - **Permanent forward manuscript:** `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`. Chapters 156–219 still need exact-text synchronization; Chapter 220+ writes directly here.
 - **Engine method:** `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves durable 01 behavior and recovery instructions.
 - **Magic counts:** ACTIVE at 31 supervised minimal draws / 27 deliberate shaping attempts / 37 external-effect attempts.
-- **FAR evidence:** attempt 33 and Ch221 attempt 36 each produced a small rotational/net-away response in separate sessions under the current FAR/AWAY apparatus. FAR response has repeated across sessions, but FAR reliability remains unestablished. INTERMEDIATE remains more reliable. No range established. Not generalized.
+- **FAR evidence:** attempts 33 and 36 produced small rotational/net-away responses in separate sessions under current FAR/AWAY apparatus. FAR response repeated across sessions, reliability unestablished. INTERMEDIATE remains more reliable. No range established. Not generalized.
 - **Magic restrictions:** unchanged. No independent draw, shaping, external testing, paper, coins, thread, larger objects, practice, Barrier broadening, theatrical magic, or loopholes.
-- **Next magic question:** NOT scheduled on-page. Ch222 contains no magic session. Do not immediately range-map.
-- **Theatre:** routine paid work is central. Ch222 Greg works the property table for `The Widow's Guest` and performs a four-line Delivery Man in `The Honest Clerk`.
-- **Greg theatre progression:** backstage routes/cues/prop order increasingly ordinary. He remembers scene-dependent props without daily instruction and hears his cue while working. Do not convert this into a declared milestone.
-- **Latest acting correction:** Greg reaches for the receipt before Pell's Clerk has decided to accept the parcel. Teren narrows the issue: Greg knows the receipt is coming; the delivery man does not yet. Greg resets and waits for the scene event.
-- **Property-table/social memory:** missing striped umbrella, Marek's hat theft/borrowing, red-bordered handkerchief, old silver-painted key, and ordinary recurring prop chaos now accumulate as group history rather than isolated scenes.
-- **Backstage disability adaptation:** Jori and Davin now move stools/obstructions from Greg's lane without discussion. Keep this ordinary and social, not inspirational.
+- **Next magic question:** NOT scheduled on-page. Chapters 222–223 contain no magic session. Do not immediately range-map.
+- **Theatre:** routine paid work remains central. Ch223 Greg handles property-table work and performs a four-line Neighbor in `The Doctor's Supper`.
+- **Latest acting correction:** Greg moves early because he knows Marek's route. Teren narrows the problem: Greg knows the actor's route; the Neighbor does not. Greg stays until the scene actually requires movement.
+- **Backstage competence:** routes, prop handoffs, cues, and physical accommodations are increasingly ordinary and social rather than declared milestones.
+- **Crutch maintenance:** Ch223 Greg replaces one worn LEFT crutch tip after a repairer notes asymmetric wear. No injury. New tip works normally. Ordinary maintenance costs can coexist with debt repayment.
+- **Theatre cart maintenance:** Ch223 Jori discovers a cracked diagonal brace near an old bolt hole. Ordinary wear/maintenance only; no sabotage established. Repair expected after a replacement piece is cut.
 - **Rinna / commercial defense:** ACTIVE. Actual suppliers/service people verify claims directly with Rinna and avoid giving strangers useful operational/payment information.
-- **Brown-coat observer:** ACTIVE / UNIDENTIFIED. Thin face, brown coat, dark hair, quiet/not-loud voice. Description matches Copper Kettle observer/Olin visitor, but identity/employment link to Bren remains unproved.
-- **Brown-coat questions through Ch220:** oil purchase, cash payment, whether theatre still performs, whether Rinna keeps money at hall. These support interest in theatre money handling, not organization identity.
+- **Warning-network payoff #1:** Olin reports money-handling questions and gives no useful answers.
+- **Warning-network payoff #2:** Ch223 cart repair man reports questions about whether the theatre cart goes out after the late show and whether the same man drives it. He gives no theatre hours/routine.
+- **Brown-coat observer:** ACTIVE / UNIDENTIFIED. Ch223 visitor description: brown coat, dark hair, not old, narrow/thin face, quiet voice. Rinna records only `CONSISTENT WITH OLIN DESCRIPTION`. Same identity/employment remains unproved.
+- **Pressure pattern now supported:** someone has asked where theatre money sits and how/when theatre movement occurs. This supports interest in money handling + logistics, not a known plan.
+- **Evidence ceiling:** NO robbery, ambush, cart target, Bren employment, organization, gang, boss, or specific plan established.
 - **Mason's Cut:** Olin's boy saw brown-coat man walking toward Mason's Cut but did not see him enter. Direction only. No base/residence/territory claim.
 - **Bren:** probable name of close-haired heavy-coat spokesman with left glove. One-copper demand refused Ch218. `Next time won't be one.` No surname, boss, organization, or violence established.
-- **Threat breathing room:** Ch221 and Ch222 contain no new warning/demand/appearance/violence. This is not resolution.
-- **Quiet defensive residue:** Ch222 Rinna's table sits farther from the open door and she brings the cash box out only when doors are nearly shut, counts it, then closes it again. No guards or fortress behavior.
-- **Next pressure edge:** now that magic and theatre each had a turn, a second warning-network payoff can naturally move the threat. Strong candidate: cart repair man reports questions about cart/post-show movement, who takes things away, or related logistics. Preserve exact wording and witness uncertainty.
-- **Evidence ceiling for next warning:** questions about movement/logistics may support interest in theatre movement. They do NOT prove robbery, ambush, Bren employment, organization, or a specific plan.
-- **Vale debt:** ACTIVE. Exact balance known in-world but unstated. One-copper payment made Ch218. Debt not forgiven. No fixed repayment plan. Ch222 no Vale appearance/payment.
-- **Living expenses:** ordinary spending and repayment coexist. Ch222 Greg buys matching thread for Lyssa after earning theatre pay.
+- **Threat restraint:** Bren remains off-page Ch219–223 after his Ch218 demand. Ch223 moves pressure through questions only; no new direct demand, violence, sabotage, or investigation.
+- **Quiet defensive residue:** cash handling less visible; cart-departure information not casually shared; some equipment can wait until morning. No guards, escorts, traps, patrols, or spy network.
+- **Vale debt:** ACTIVE. Exact balance known in-world but unstated. One-copper payment made Ch218. Debt not forgiven. No fixed repayment plan. Ch223 no Vale appearance/payment.
 - **Vale / Bren:** NO CONNECTION ESTABLISHED.
-- **Greg / Lyssa:** ordinary intimacy continues. Ch222 Lyssa works independently, gives Greg a thread errand, completes/delivers customer work, and does not require a full plot debrief at home.
+- **Next engine rotation:** after Ch223 threat movement, strongest recommendation is to let pressure breathe and rotate to Vale/debt/suitable indoor work or another non-threat ordinary-life engine. Do not force another warning in Ch224.
+- **Greg / Lyssa:** ordinary intimacy continues. Lyssa remains independently employed/occupied and does not become security analyst, research partner, or financial manager.
 - **Long-range theatre direction:** THEATRE → PERFORMANCE → MISDIRECTION → ILLUSION → MASKS → CONTROL OF PERCEPTION → eventual dangerous bluff. Directional only; visible theatre remains FUN → PEOPLE → WORKPLACE → ACTING → STAGECRAFT → FAILURE → ANOTHER TURN.
