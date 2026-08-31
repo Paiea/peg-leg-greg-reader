@@ -9,6 +9,7 @@
   const jumpForm = document.querySelector('[data-light-jump]');
   const jumpInput = document.querySelector('#light-chapter');
   const manuscriptPath = 'state/manuscript/Peg_Leg_Greg_Running_Manuscript.md';
+  const recoveredPath = 'state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md';
 
   const params = new URLSearchParams(location.search);
   const requested = Number.parseInt(params.get('chapter') || '', 10);
@@ -29,7 +30,7 @@
     return chapters;
   };
 
-  const parseManuscript = (markdown) => {
+  const parseManuscript = (markdown, source = 'manuscript') => {
     const text = markdown.replace(/\r\n?/g, '\n');
     const heading = /^# CHAPTER (\d+)\s*$/gm;
     const found = [];
@@ -46,7 +47,7 @@
       if (!titleMatch) continue;
       const title = titleMatch[1].trim();
       const body = chunk.slice(titleMatch.index + titleMatch[0].length).trim();
-      found.push({ number, title, body, source: 'manuscript' });
+      found.push({ number, title, body, source });
     }
     return found;
   };
@@ -71,20 +72,10 @@
     tocNode.appendChild(a);
   };
 
-  const addGapNotice = (published, forward) => {
-    if (!published.length || !forward.length) return;
-    const publishedEnd = published[published.length - 1].number;
-    const forwardStart = forward[0].number;
-    if (forwardStart <= publishedEnd + 1) return;
-    const gap = document.createElement('div');
-    gap.className = 'light-reader-gap';
-    gap.textContent = `Exact prose for Chapters ${publishedEnd + 1}–${forwardStart - 1} has been recovered outside the repository but is not yet synchronized into GitHub. Light Reader will not reconstruct or silently skip those chapters.`;
-    tocNode.appendChild(gap);
-  };
-
   const renderToc = (available) => {
     tocNode.innerHTML = '';
     const published = available.filter((chapter) => chapter.source === 'published').sort((a, b) => a.number - b.number);
+    const recovered = available.filter((chapter) => chapter.source === 'recovered').sort((a, b) => a.number - b.number);
     const forward = available.filter((chapter) => chapter.source === 'manuscript').sort((a, b) => a.number - b.number);
 
     if (forward.length) {
@@ -92,7 +83,10 @@
       [...forward].reverse().forEach(addTocChapter);
     }
 
-    addGapNotice(published, forward);
+    if (recovered.length) {
+      addTocLabel('RECOVERED EXACT PROSE · CHAPTERS 156–219');
+      recovered.forEach(addTocChapter);
+    }
 
     if (published.length) {
       addTocLabel('ILLUSTRATED-EDITION PROSE · TEXT ONLY');
@@ -149,7 +143,7 @@
     } else {
       const a = document.createElement('a');
       a.href = 'latest.html';
-      a.textContent = 'View latest manuscript index →';
+      a.textContent = chapter.source === 'recovered' ? 'View latest manuscript index →' : 'View latest manuscript index →';
       switchNode.appendChild(a);
     }
   };
@@ -175,9 +169,16 @@
     jumpInput.value = chapter.number;
     setNav(available, chapter.number);
     renderModeSwitch(chapter);
-    setStatus(chapter.source === 'published' ? 'Text-only rendering from the exact published chapter. Illustrations are intentionally omitted.' : 'Text-only rendering directly from the current permanent GitHub manuscript.');
-    if (chapter.source === 'published') await renderPublished(chapter);
-    else renderManuscript(chapter);
+    if (chapter.source === 'published') {
+      setStatus('Text-only rendering from the exact published chapter. Illustrations are intentionally omitted.');
+      await renderPublished(chapter);
+    } else if (chapter.source === 'recovered') {
+      setStatus('Text-only rendering from the recovered exact manuscript prose now synchronized into GitHub.');
+      renderManuscript(chapter);
+    } else {
+      setStatus('Text-only rendering directly from the current permanent GitHub manuscript.');
+      renderManuscript(chapter);
+    }
   };
 
   const showMissing = (available, number) => {
@@ -187,7 +188,7 @@
     if (switchNode) switchNode.hidden = true;
     numberNode.textContent = 'LIGHT READER';
     titleNode.textContent = 'CHAPTER NOT YET MATERIALIZED';
-    setStatus(`Chapter ${number} is not currently materialized as exact prose in GitHub. The table below shows the current manuscript chapters first, followed by the illustrated-edition text chapters.`);
+    setStatus(`Chapter ${number} is not currently materialized as exact prose in GitHub. The table below shows all currently available exact-text chapters.`);
     renderToc(available);
   };
 
@@ -199,12 +200,16 @@
 
   Promise.all([
     fetch('index.html', { cache: 'no-store' }).then((r) => { if (!r.ok) throw new Error('Could not load published chapter index.'); return r.text(); }),
+    fetch(recoveredPath, { cache: 'no-store' }).then((r) => { if (!r.ok) throw new Error('Could not load recovered Chapters 156–219.'); return r.text(); }),
     fetch(manuscriptPath, { cache: 'no-store' }).then((r) => { if (!r.ok) throw new Error('Could not load permanent manuscript.'); return r.text(); })
-  ]).then(async ([indexHtml, manuscript]) => {
+  ]).then(async ([indexHtml, recoveredMarkdown, manuscript]) => {
     const published = parsePublishedIndex(indexHtml);
-    const forward = parseManuscript(manuscript).filter((chapter) => !published.some((p) => p.number === chapter.number)).sort((a, b) => a.number - b.number);
-    const available = [...published, ...forward].sort((a, b) => a.number - b.number);
-    const latest = forward[forward.length - 1] || published[published.length - 1] || null;
+    const publishedNumbers = new Set(published.map((chapter) => chapter.number));
+    const recovered = parseManuscript(recoveredMarkdown, 'recovered').filter((chapter) => !publishedNumbers.has(chapter.number)).sort((a, b) => a.number - b.number);
+    const occupiedNumbers = new Set([...published, ...recovered].map((chapter) => chapter.number));
+    const forward = parseManuscript(manuscript, 'manuscript').filter((chapter) => !occupiedNumbers.has(chapter.number)).sort((a, b) => a.number - b.number);
+    const available = [...published, ...recovered, ...forward].sort((a, b) => a.number - b.number);
+    const latest = forward[forward.length - 1] || recovered[recovered.length - 1] || published[published.length - 1] || null;
 
     if (!requested) {
       numberNode.textContent = latest ? `CURRENT THROUGH CHAPTER ${latest.number}` : 'LIGHT READER';
