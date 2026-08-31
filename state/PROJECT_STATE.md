@@ -61,43 +61,32 @@ Core principles include:
 
 Preferred cycle:
 
-**02: EXPLORE → RESEARCH → SYNTHESIZE → UPDATE WRITERS' ROOM STATE → HANDOFF**
+**02: EXPLORE → RESEARCH WHEN A REAL GAP EXISTS → SYNTHESIZE → UPDATE WRITERS' ROOM STATE → HANDOFF**
 
 **03: INTEGRATE → PRESSURE-TEST → CLASSIFY → UPDATE DURABLE BRAINS → RETURN NEW EDGE**
 
 Then repeat as useful while 01 continues writing.
 
-02 may research real acting, stagecraft, backstage practice, garment work, disability/mobility, experimental method, commerce/logistics, travel, institutions, and other focused questions when real knowledge can replace generic invented texture.
+Reusable research belongs in `RESEARCH_LEDGER.md` and must separate supported practice, confidence / limits, story translation, and canon status. Research does not become canon automatically.
 
-Reusable research belongs in `RESEARCH_LEDGER.md` and must separate:
-- supported source/practice
-- confidence / limits
-- story translation
-- canon status
-
-Research does not become canon automatically.
-
-03 decides what should remain POSSIBILITY, what creates PRESSURE, what is AVOID, what is already ESTABLISHED, and what needs another RESEARCH EDGE.
-
-01 should consume compact graduated residue, not every exploratory note. Preserve manuscript throughput.
+`LONG_SERIAL_RESIDUE_MAP.md` is the specialist possibility map for making time leave residue. It is not mandatory 01 boot material and does not outrank prose.
 
 ## Durable specialist brains
 
-These files store reusable method/knowledge without outranking manuscript prose:
-
-- `STORY_NORTH_STAR.md` — durable artistic direction / what the serial is trying to become
-- `DEVELOPMENT_CYCLE.md` — 02↔03 exploration/research/integration workflow
-- `RESEARCH_LEDGER.md` — sourced external knowledge and story translations; not canon by default
-- `PROSE_PLAYBOOK.md` — craft guidance for drafting/editing
-- `CHARACTER_BIBLE.md` — durable character knowledge and anti-flattening constraints
+- `STORY_NORTH_STAR.md` — durable artistic direction
+- `DEVELOPMENT_CYCLE.md` — 02↔03 workflow
+- `LONG_SERIAL_RESIDUE_MAP.md` — longitudinal social/residue possibility map
+- `RESEARCH_LEDGER.md` — sourced external knowledge; not canon by default
+- `PROSE_PLAYBOOK.md` — craft guidance
+- `CHARACTER_BIBLE.md` — durable character knowledge / anti-flattening
 - `SETTING_BIBLE.md` — lived setting/world continuity
 - `PLOT_CONTROL.md` — active engines, pressures, possibilities, avoidances
-- `VISUAL_BIBLE.md` — illustration language, movement, continuity, KEEP/RETRY
-- `IMAGE_PRODUCTION.md` — coverage-first 5x5 batch workflow
-- `READER_DESIGN_LAB.md` — UI/graphics ideas and experiments not yet project law
+- `VISUAL_BIBLE.md` — illustration language / continuity
+- `IMAGE_PRODUCTION.md` — image workflow
+- `READER_DESIGN_LAB.md` — UI/graphics development ideas
 - `HANDSHAKE_PROTOCOL.md` — cross-chat continuation convention
 
-The Manuscript Engine should not read every specialist file every chapter. Preserve throughput: read core manuscript files first and consult specialist brains only when the chapter/task needs them. `STORY_NORTH_STAR.md` is compact enough to use as shared orientation, especially in fresh chats and at batch boundaries.
+The Manuscript Engine should not read every specialist file every chapter. Preserve throughput: read core manuscript files first and consult specialist brains only when the chapter/task needs them.
 
 ## Book 1
 
@@ -126,16 +115,16 @@ Permanent forward path:
 
 `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`
 
-Do NOT create a new `Peg_Leg_Greg_Running_Manuscript_ChXXX-YYY.md` file for each chapter or shipping pass. Update the permanent running manuscript in place.
+Do NOT create a new range-stamped running manuscript for each forward chapter/pass.
 
 Current recorded story endpoint is Chapter 226 — **THE REFERENCE**. Always verify `MANUSCRIPT_STATE.md` / running manuscript before using this number if newer work exists.
 
-Repository exact-text availability is now:
+Repository exact-text availability:
 - illustrated/static prose through Chapter 155 — **THE LEAK**
 - recovered exact Chapters 156–219 in `state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md`
 - Chapter 220+ forward prose in `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`
 
-The Light Reader may use the recovered 156–219 file directly to provide continuous text navigation. The recovered block has not yet been consolidated into the permanent running manuscript; do not reconstruct or rewrite it from summaries.
+The recovered 156–219 block has not yet been consolidated into the permanent running manuscript. Do not reconstruct or rewrite it from summaries.
 
 ## Forward production workflow
 
@@ -144,13 +133,13 @@ For every new chapter:
 2. Write one chapter at a time.
 3. Preserve canon, character, plot, and scene intent.
 4. Run the light prose/continuity pass.
-5. Verify roughly 2,500–4,000 words and clear 2,500 unless the author explicitly changes the target.
+5. Verify roughly 2,500–4,000 words and clear 2,500 unless explicitly changed.
 6. Verify no em dashes in manuscript prose.
 7. Update the SAME permanent running manuscript file in place.
-8. Update the SAME compact state files in place. Do not create chapter-numbered state clones.
+8. Update the SAME compact state files in place.
 9. Ship/checkpoint in small batches when following the current batch workflow.
 10. Update reader surfaces only as needed, preserving newer UI/artwork work and exact-text authority.
-11. In chat, give a compact production note and then a full copyable next-edge re-prompt in ONE code block when the active workflow calls for it.
+11. In chat, give the active workflow's compact production note / handoff.
 
 Normal forward production may update `main` directly when explicitly requested. Broad prose passes, reader rebuilds, mass illustration work, manuscript consolidation, broad renames, and structural cleanup should normally use a branch first.
 
@@ -158,27 +147,32 @@ Normal forward production may update `main` directly when explicitly requested. 
 
 Visual state remains separate from manuscript state. Existing reader artwork and visual-production material are preserved. Development contact sheets remain DEVELOPMENT unless explicitly promoted.
 
-Use `VISUAL_BIBLE.md` + `IMAGE_PRODUCTION.md` for future coverage work. Reader/UI experimentation belongs in `READER_DESIGN_LAB.md` until validated principles graduate into production guidance.
+Use `VISUAL_BIBLE.md` + `IMAGE_PRODUCTION.md` for future coverage work. Reader/UI experimentation belongs in `READER_DESIGN_LAB.md` until validated principles graduate.
 
 ## Current synchronization rule
 
-Update existing compact state before adding new state. Preserve engine-owned substance. Consult the manuscript whenever exact prose, chronology, wording, or scene detail matters. Prefer one living file over range-stamped successor files. Historical files may remain temporarily for provenance/cleanup, but they are not the forward naming convention.
+Update existing compact state before adding new state. Preserve engine-owned substance. Consult manuscript whenever exact prose, chronology, wording, or scene detail matters. Prefer one living file over range-stamped successors.
 
 ## NEXT_TASK — development
 
-The first current-era theatre research cycle is complete and integrated through Chapter 226:
-1. rehearsal notes / recovery / shorthand
-2. small-company practical authority / multi-hatting
-3. prop routes / costume tracks / running repairs
+The first current-era theatre research cycle is integrated and parked. The first Lyssa alteration/rework external research wave is also integrated through Chapter 226.
 
-03 has graduated only manuscript-supported residue. Current high-value theatre guidance is compact: preserve lived object homes/routes, delayed downstream consequences, offscreen maintenance residue, domain-shaped competence, distributed recovery, and belonging shown through reduced supervision. Do not build a formal backstage system or keep researching theatre generically.
+Current graduated Lyssa residue:
+- Chapter 224 explicitly establishes three active customers;
+- customer visits can occur at the apartment;
+- jobs can be delivered / paid while Greg is elsewhere;
+- the brown-cuff customer creates separately paid requested rework;
+- multiple unrelated garments can be active at once;
+- Chapter 222 establishes Maren as a garment/thread supply shop and useful matching route.
 
-Next 02↔03 wave:
-1. 02 reads the newest `STORY_CONTROL_STATE.md` and researches the focused returned edge: **Lyssa's independent alteration / rework workflow and customer network**.
-2. 02 translates the strongest findings into behavior, objects, schedules, customer/supplier friction, and offscreen social life without routing Lyssa into theatre wardrobe by convenience.
-3. 03 pressure-tests those possibilities against current manuscript evidence and graduates only useful residue.
-4. 03 identifies the next focused edge or deliberately pauses research if the manuscript already supplies enough specificity.
-5. 01 continues forward production without waiting for the loop.
+Current non-canon pressures / possibilities include queue consequences, fitting-confirmation semantics, repeat/referral customers, remembered customer preferences, and alteration constraints. Do not promote them without prose.
+
+Next 02↔03 cycle is **manuscript-first, not new external research**:
+1. 02 audits authoritative exact Chapters 156–226 for Lyssa's existing customer / supplier / delivery / payment / referral / repeat-preference / work-space history.
+2. 02 returns a compact evidence map distinguishing ESTABLISHED / UNCERTAIN / POSSIBILITY; no invented names or retroactive garment connections.
+3. 03 pressure-tests that longitudinal evidence and graduates only useful residue.
+4. Only then decide whether a new external research question is actually needed. Deliberate research pause is valid.
+5. 01 continues forward production without waiting.
 
 Always re-read current manuscript authority first because 01 may advance while development work continues.
 
