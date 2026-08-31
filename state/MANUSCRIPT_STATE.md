@@ -1,7 +1,7 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current story endpoint: Chapter 230 — **THE REPLICATE**.
+- Current story endpoint: Chapter 231 — **THE MAGISTRATE**.
 - Book 1 Chapters 1–82 closed. Book 2 active.
 - Repository prose was previously validated continuously through Chapter 155 — **THE LEAK**.
 - Chapters 156–219 remain newer forward manuscript material pending exact-text synchronization into the permanent running manuscript. Do not reconstruct them from summaries or let stale overlapping files overwrite newer authority.
@@ -47,6 +47,7 @@
 - NO RANGE ESTABLISHED. NOT GENERALIZED.
 - Restrictions unchanged: no independent draw, shaping, external testing, paper, coins, thread, larger objects, practice, Barrier broadening, theatrical magic, or loopholes.
 - Hessa ends Ch230 with no chosen next experiment. She still has several questions; asked whether there are more or fewer, she says `Different`.
+- Chapter 231 contains no magic attempt or Hessa appearance. Counts remain 33 / 29 / 45 and all restrictions remain unchanged.
 
 ## Greg / Lyssa
 - Canonical spelling: **Lyssa**. Same established character formerly spelled Lysa.
@@ -63,6 +64,7 @@
 - Ch229 the blue-gray cloth is established only as cloth Lyssa asks Greg to carry to Marra; Jessa finds two short chalk marks near its edge and calls it `Marked`, but customer, garment, use, and ownership remain unknown. Lyssa later works on the north side and Jessa finds her independently.
 - Ch230 Lyssa is off-page through the experiment day, later returns with turnips and no garment, and asks only narrow questions about the paper result and whether the rules changed. A narrow folded brown cloth with three pins appears at home; customer, garment, ownership, and use are unestablished.
 - Greg's poor shirt-cuff repair worsens from two loose threads to three; he deliberately does not repair it again. No clothing subplot is required.
+- Ch231 the narrow folded brown cloth remains in the same fold with the same three pins at morning and evening; customer, garment, ownership, and use remain unestablished. Greg's cuff remains at three loose threads and is not repaired.
 - Lyssa understands the control logic quickly from Ch226 but remains independent of Hessa's domain.
 
 ## Economy / debt
@@ -80,6 +82,7 @@
 - Ch228 contains no Vale appearance or debt credit. Rinna pays Greg the normal one copper for theatre work; he later spends ordinary money on roasted beans without turning it into debt arithmetic.
 - Ch229 contains no Vale appearance or debt credit. Greg buys ordinary bread and cheese while the debt remains active and unstated.
 - Ch230 contains no Vale appearance, debt payment, or debt credit. Greg buys one ordinary meat pie and otherwise leaves the debt active and unstated.
+- Ch231 contains no Vale appearance, debt payment, or debt credit. Greg receives the normal one copper for theatre work; debt remains active and unstated.
 - No Vale/Bren connection established.
 
 ## Bren / pressure arc
@@ -91,7 +94,7 @@
 - Ch223: cart repair man reports an unknown visitor asking whether theatre cart goes out after late show and whether the same man drives it. Description is only **CONSISTENT WITH OLIN DESCRIPTION**.
 - Supported category: someone is interested in theatre money handling and movement/logistics.
 - NOT established: robbery, ambush, cart target, Bren employment, organization, gang, boss, or specific plan.
-- Chapters 224–230 do not advance the pressure arc. In Ch228 Olin simply sends the theatre's oil with no message, question, warning, or stranger attached. Bren remains off-page. No Mason's Cut investigation and no Vale-paper clue.
+- Chapters 224–231 do not advance the pressure arc. In Ch228 Olin simply sends the theatre's oil with no message, question, warning, or stranger attached. Bren remains off-page. No Mason's Cut investigation and no Vale-paper clue.
 
 ## Chapter 224 — THE CHECKER
 - Lyssa continues customer sewing and sends Greg for onions.
@@ -210,24 +213,38 @@
 - Greg's bad shirt-cuff repair reaches three loose threads; he leaves it alone.
 - Final beat stays domestic and comic: Greg oversalts the turnip, Lyssa moves the bowl away, and nobody records the result.
 
-## Immediate next edge — Chapter 231
-Primary recommendation: **LET THE CH230 MAGIC SESSION BREATHE. CHOOSE THE NEXT ENGINE FROM ACTUAL DAILY PRESSURE, NOT A ROTATION QUOTA.**
+## Chapter 231 — THE MAGISTRATE
+- Full theatre-centered day after Ch230 magic. No Hessa appearance or magic attempt, no Vale appearance or debt credit, and no Bren/pressure movement.
+- The window trim Greg helped Jori with in Ch229 is now mounted on the magistrate-room set. Its old cream/green/blue paint history remains visible from backstage, including the small cream transfer mark Greg made; none matters to the audience.
+- Greg is cast as the **Magistrate** in **The Crooked Fence**, with Hara as Widow, Marek as Neighbor, and Pell as Clerk. Greg has fifteen lines, begins already seated behind the desk, and stands only once late in the piece.
+- Nessa chooses a shorter black stage coat that stays clear of Greg's crutches. The magistrate's wooden seal block belongs on a leather square, with two planned strikes; hitting the desk is specifically prohibited because prior actors damage it.
+- Jori shifts the witness rail a few inches so Greg's standing route works cleanly. After the first rail develops a real wobble, Jori and Davin replace it rather than keeping a physical problem merely because the play is about a crooked fence.
+- Rehearsal correction: Greg initially leans/chases every answer. Teren narrows him to `The case comes to you` and `Let them bring the mess.` Greg becomes funnier by doing less and letting Pell/Hara/Marek carry the dispute.
+- Live mistake: Pell begins a sentence with `Before judgment...`; Greg anticipates the later cue and strikes the block early, cutting Pell off before the older survey is read. Hara continues in character, Pell restarts the sentence, and the scene survives without turning Greg's error into a triumph.
+- Teren later corrects Greg's framing: when Greg says `Hara fixed it`, Teren answers `Hara continued.` Preserve the distinction.
+- Hara owns the strongest audience beat. After fighting all play for two feet of disputed land, her Widow learns the strip carries responsibility for the drainage ditch and instantly says `His`, then claims she has spent the hour proving Marek's ownership. Greg's later drainage line gets a smaller laugh.
+- Company life remains active around the play: Marek steals Davin's apple, Rinna steals Hara's better bread, Nessa controls props, Jori/Davin argue practical geometry, and the set begins changing for another use before Greg leaves.
+- Greg receives the normal one copper for theatre work. His body remains ordinary: shoulders/right hand fine, one standing cross substantially easier than the Ch228 flower work, no injury or new limitation.
+- Home remains deliberately unresolved. The narrow brown cloth still has the same three pins and fold; Greg's cuff still has three loose threads. Lyssa hears the short version of the show, takes the better piece of bread, and no garment or magic issue is advanced.
+
+## Immediate next edge — Chapter 232
+Primary recommendation: **LET THE FULL CH231 THEATRE / PERFORMANCE DAY BREATHE. MOVE ONLY THE ENGINE THAT HAS REAL DAILY PRESSURE.**
 
 Reasons:
-- Ch230 answers only a narrow replication/order question and explicitly leaves Hessa with different unresolved questions; another immediate experiment would begin to feel like a test ladder;
-- Lyssa's work ecology remains independent and mostly off-page in Ch230. The new narrow brown cloth is intentionally undefined and does not require servicing;
-- theatre has had only compact labor since the full Ch228 performance, so ordinary theatre work, rehearsal, or a role is available without needing another major performance chapter;
-- Vale has now rested through Chapters 228–230. Suitable work may recur if the day gives Greg a reason to seek it, but no employment schedule exists;
-- external pressure remains quiet through Chapter 230. One grounded new fact may move it, but seven quiet chapters do not create an escalation quota;
-- ordinary Carrow, money, friendship/company life, household rhythm, and bodily work remain valid engines in their own right.
+- Ch231 is a complete rehearsal/performance/workplace chapter immediately after the dense Ch230 magic session; another full performance would overconcentrate theatre even though the company remains available as ordinary background life;
+- Hessa has no chosen next experiment after Ch230, and Ch231 correctly leaves 33 / 29 / 45 untouched. Do not reopen magic on a timer;
+- Vale has rested since Ch227. Suitable office work can recur if Greg has a concrete work/money reason, but there is still no guaranteed schedule, post, or rate;
+- external pressure remains quiet through Ch231. A grounded new fact may arrive through an established commercial contact, but the quiet stretch is not an escalation quota and Greg should not investigate merely because time passed;
+- Lyssa's narrow brown cloth remains deliberately undefined and unchanged through Ch231. It can continue to exist without being explained, while her work/life remains independent off-page;
+- ordinary Carrow, food, money, errands, friendships, body costs, and household rhythm remain full story engines rather than filler.
 
-Strong Chapter 231 possibilities:
-- ordinary theatre/company work that advances belonging or repertory life without making Ch230's magic useful;
-- a Vale or money day if Greg has a concrete reason to seek suitable work;
-- one grounded external-pressure fact through an existing commercial contact, only if exact current authority earns it;
-- another ordinary city/work/social day that lets both magic and Lyssa's returned work node breathe.
+Strong Chapter 232 possibilities:
+- a Vale/money/work day if Greg has an actual reason to seek suitable labor;
+- an ordinary city/social/household day that lets both theatre and magic breathe while Lyssa continues independently;
+- one grounded external-pressure fact only if it naturally reaches an existing business/theatre relationship, with no invented plan or investigation;
+- theatre may appear briefly as workplace texture or an obligation, but avoid another full rehearsal/performance unless the current day genuinely demands it.
 
-Preserve 33 / 29 / 45 as entering magic counts. Do not answer the order question more strongly than Ch230 supports. Do not resolve the brown cloth or cuff merely because they exist.
+Preserve magic counts 33 / 29 / 45 and all restrictions. Preserve the brown-cloth and cuff uncertainty unless new prose genuinely needs movement. Do not turn Ch231's acting correction into a universal life lesson.
 
 ## Chat / handoff behavior
 After each completed chapter:

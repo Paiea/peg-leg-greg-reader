@@ -119,6 +119,6 @@ GitHub provides durable continuity. The re-prompt gives the next writing session
 
 ## Current edge
 
-Chapter 230 — **THE REPLICATE**.
+Chapter 231 — **THE MAGISTRATE**.
 
-See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 231 edge.
+See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 232 edge.
