@@ -25,25 +25,30 @@ Do not make 04 read every specialist brain for every chapter. Preserve throughpu
 
 ## SOURCE / AUTHORITY DISCIPLINE
 
-The heavy editor works on a **living edited manuscript artifact**, not by silently rewriting current `main` prose in place.
+The heavy editor works on a **living edited manuscript artifact**, not by silently rewriting current forward manuscript prose in place.
 
-Current known heavy-edit working artifact:
+Current durable 04 architecture:
 
-`Peg_Leg_Greg_Heavy_Edit.md`
+1. **Frozen historical heavy-edit checkpoint:** ChatGPT Library artifact `Peg_Leg_Greg_Heavy_Edit.md`.
+   - spans Chapters 138–216
+   - Chapters 138–180 received the active heavy-prose treatment there
+   - Chapter 180 — **THE THIRD MAN** is the final completed heavy-edit chapter in that frozen Library checkpoint
+   - Chapters 181–216 present in the Library file are source prose only unless separately completed in the GitHub continuation
+   - Library access is read-only from ordinary 04 workspaces, so do not pretend later edits were saved back into it
 
-The user's Library copy currently spans Chapters 138–216.
+2. **Writable durable heavy-edit continuation:** `state/editorial/Peg_Leg_Greg_Heavy_Edit_Continuation.md`.
+   - begins with Chapter 181 — **THE CALLER**
+   - is the single living writable 04 editorial stream from Chapter 181 forward
+   - Chapter 181 is durably heavy-edited there
+   - future heavy-edited chapters must be added to this same file rather than creating chapter-per-file or range-stamped successors
 
-Known editorial handoff from the prior heavy pass:
-- Chapters 138–180 have received the active heavy-prose treatment.
-- Chapter 180 — **THE THIRD MAN** is the last known completed heavy-edit chapter.
-- Chapter 181 — **THE CALLER** is the next heavy-edit edge.
-- Chapters after the edge may already exist in the same living file as untouched source prose. Their presence does not mean they have been heavily edited.
+3. **Forward manuscript authority remains separate.** Current/newer manuscript canon outranks stale editorial assumptions. Do not silently rewrite the forward Manuscript Engine's running manuscript as an editorial side effect.
 
-Before editing, re-open the actual living heavy-edit artifact and verify the edge. Do not reconstruct edited chapters from compact state.
+For each new 04 chapter, read the prior completed heavy-edited chapter from the current heavy-edit authority, read the target and next source chapters from the frozen Library artifact and/or newer GitHub exact-text authority as appropriate, perform the heavy edit, save it into the same GitHub continuation, verify persistence, then advance this state.
 
-Current forward manuscript may be far ahead of the heavy editor. That is expected. Newer forward canon outranks stale editorial assumptions if a contradiction is discovered.
+The Library checkpoint remains protected historical work. Do not delete it merely because the GitHub continuation now exists. A future one-time consolidation of Chapters 138–180 into GitHub is allowed only when a clean source transfer is available and explicitly chosen; do not make that a prerequisite for ongoing editing.
 
-Do not create a chapter-per-file or range-stamped heavy-edit sprawl. Preserve **one living heavy-edit manuscript** unless explicitly directed otherwise.
+Do not create a chapter-per-file or range-stamped heavy-edit sprawl.
 
 ## EDITING PERMISSION
 
@@ -252,22 +257,22 @@ Watch for:
 Default unit: **one chapter at a time**.
 
 For each chapter:
-1. Read the current heavy-edited prior chapter.
-2. Read the target chapter in full.
+1. Read the current heavy-edited prior chapter from the current heavy-edit authority.
+2. Read the target chapter in full from exact source prose.
 3. Read the next chapter enough to avoid breaking transitions/continuity.
 4. Identify 2–5 high-value prose problems before rewriting.
 5. Perform the heavy edit.
 6. Re-read the whole edited chapter for voice/rhythm, not only changed sentences.
 7. Check canon/continuity against stronger authority where relevant.
 8. Verify no em dashes in manuscript prose.
-9. Preserve the result in the SAME living heavy-edit artifact.
-10. Advance the editorial edge in this state when a durable checkpoint is actually shipped.
+9. Save the result into `state/editorial/Peg_Leg_Greg_Heavy_Edit_Continuation.md` and re-open it to verify persistence.
+10. Advance the editorial edge in this state only after the durable write is confirmed.
 
 Do not stop every paragraph to report. Edit the chapter as prose.
 
 ## CHECKPOINT CADENCE
 
-A chapter can be edited without a full GitHub ceremony if the living heavy-edit artifact is safely preserved.
+GitHub is now the durable writable 04 checkpoint from Chapter 181 forward. Prefer small atomic chapter commits rather than external ZIPs or successor files.
 
 Every few chapters, or sooner when:
 - canon risk appears
@@ -277,7 +282,7 @@ Every few chapters, or sooner when:
 - source synchronization feels risky
 
 then:
-- checkpoint the living heavy-edit artifact
+- verify the living GitHub continuation
 - update `EDITOR_STATE.md`
 - update `PROSE_PLAYBOOK.md` only for genuinely general craft learning
 - verify the next editorial edge
@@ -330,16 +335,16 @@ That history remains useful but does not define the active mode.
 
 ## CURRENT EDITORIAL EDGE
 
-Known heavy-edit handoff:
+**COMPLETED THROUGH CHAPTER 181 — THE CALLER**
 
-**COMPLETED THROUGH CHAPTER 180 — THE THIRD MAN**
+**NEXT: CHAPTER 182 — THE SUBJECT**
 
-**NEXT: CHAPTER 181 — THE CALLER**
+Durable prior chapter authority for the next run: `state/editorial/Peg_Leg_Greg_Heavy_Edit_Continuation.md`.
 
-Reverify against the living heavy-edit artifact before editing because another 04 worker may advance.
+Chapter 182 remains unedited. Read its exact source prose and Chapter 183 transition before editing.
 
 Do not wait for 01/02/03. 04 can continue independently while respecting newer canon authority.
 
 ## RE-PROMPT [04]
 
-Continue Peg-Leg Greg 04 / Heavy Prose Editor from current authority. Read `AGENTS.md`, `state/PROJECT_STATE.md`, `state/STORY_NORTH_STAR.md`, `state/PROSE_PLAYBOOK.md`, and `state/EDITOR_STATE.md` first. Locate the living `Peg_Leg_Greg_Heavy_Edit.md` artifact and verify the current heavy-edit edge rather than reconstructing from summaries. Current known handoff is completed through Chapter 180 — THE THIRD MAN, with Chapter 181 — THE CALLER next. Work one chapter at a time. This is a substantive prose edit: rewrite sentences, restructure paragraphs, strengthen dialogue/action beats, reduce fragment stacks and repetitive rhetorical reversals, cut redundant meaning-making, improve transitions/interiority, and strengthen already-earned longitudinal social texture while preserving plot, characterization, canon, scene intent, and outcome. Inspect neighboring chapters and newer manuscript authority when continuity matters. Do not manufacture callbacks or relationships, do not change magic/money/threat/body facts, and use no em dashes in manuscript prose. Preserve the edited chapter in the same living heavy-edit artifact, update durable editor state only at useful checkpoints, and before ending the chat visibly give the user the copyable prompt for the next recommended 04/editorial step.
+Continue Peg-Leg Greg 04 / Heavy Prose Editor from current GitHub authority. Read `AGENTS.md`, `state/PROJECT_STATE.md`, `state/STORY_NORTH_STAR.md`, `state/PROSE_PLAYBOOK.md`, and `state/EDITOR_STATE.md` first. The frozen Library artifact `Peg_Leg_Greg_Heavy_Edit.md` is protected historical heavy-edit authority through Chapter 180 and source prose for later chapters; do not try to overwrite it or create successor downloads. The writable durable 04 stream is `state/editorial/Peg_Leg_Greg_Heavy_Edit_Continuation.md`, currently completed through Chapter 181 — THE CALLER. Next is Chapter 182 — THE SUBJECT. Read edited Chapter 181 from the GitHub continuation, read Chapter 182 in full from exact source prose, inspect Chapter 183's opening/transition, then perform one substantive heavy-prose edit. Rewrite sentences and paragraph architecture, strengthen dialogue/action beats and interiority, reduce fragment stacks/repetitive rhetorical reversals/redundant meaning-making, and strengthen already-earned social/workplace texture while preserving plot, characterization, canon, scene intent, money, magic, threat, body continuity, chronology, and outcomes. Use no em dashes in manuscript prose. Save Chapter 182 into the SAME GitHub continuation, re-open and verify persistence, then advance `EDITOR_STATE.md` to Chapter 183 only after the write is confirmed. Do not edit Chapter 183 in the same run.
