@@ -39,7 +39,7 @@ Current durable 04 architecture:
 2. **Writable durable heavy-edit continuation:** `state/editorial/Peg_Leg_Greg_Heavy_Edit_Continuation.md`.
    - begins with Chapter 181 — **THE CALLER**
    - is the single living writable 04 editorial stream from Chapter 181 forward
-   - Chapter 181 is durably heavy-edited there
+   - Chapters 181–182 are durably heavy-edited there
    - future heavy-edited chapters must be added to this same file rather than creating chapter-per-file or range-stamped successors
 
 3. **Forward manuscript authority remains separate.** Current/newer manuscript canon outranks stale editorial assumptions. Do not silently rewrite the forward Manuscript Engine's running manuscript as an editorial side effect.
@@ -335,16 +335,16 @@ That history remains useful but does not define the active mode.
 
 ## CURRENT EDITORIAL EDGE
 
-**COMPLETED THROUGH CHAPTER 181 — THE CALLER**
+**COMPLETED THROUGH CHAPTER 182 — THE SUBJECT**
 
-**NEXT: CHAPTER 182 — THE SUBJECT**
+**NEXT: CHAPTER 183 — THE WORKER**
 
 Durable prior chapter authority for the next run: `state/editorial/Peg_Leg_Greg_Heavy_Edit_Continuation.md`.
 
-Chapter 182 remains unedited. Read its exact source prose and Chapter 183 transition before editing.
+Chapter 183 remains unedited. Read its exact source prose and Chapter 184 transition before editing.
 
 Do not wait for 01/02/03. 04 can continue independently while respecting newer canon authority.
 
 ## RE-PROMPT [04]
 
-Continue Peg-Leg Greg 04 / Heavy Prose Editor from current GitHub authority. Read `AGENTS.md`, `state/PROJECT_STATE.md`, `state/STORY_NORTH_STAR.md`, `state/PROSE_PLAYBOOK.md`, and `state/EDITOR_STATE.md` first. The frozen Library artifact `Peg_Leg_Greg_Heavy_Edit.md` is protected historical heavy-edit authority through Chapter 180 and source prose for later chapters; do not try to overwrite it or create successor downloads. The writable durable 04 stream is `state/editorial/Peg_Leg_Greg_Heavy_Edit_Continuation.md`, currently completed through Chapter 181 — THE CALLER. Next is Chapter 182 — THE SUBJECT. Read edited Chapter 181 from the GitHub continuation, read Chapter 182 in full from exact source prose, inspect Chapter 183's opening/transition, then perform one substantive heavy-prose edit. Rewrite sentences and paragraph architecture, strengthen dialogue/action beats and interiority, reduce fragment stacks/repetitive rhetorical reversals/redundant meaning-making, and strengthen already-earned social/workplace texture while preserving plot, characterization, canon, scene intent, money, magic, threat, body continuity, chronology, and outcomes. Use no em dashes in manuscript prose. Save Chapter 182 into the SAME GitHub continuation, re-open and verify persistence, then advance `EDITOR_STATE.md` to Chapter 183 only after the write is confirmed. Do not edit Chapter 183 in the same run.
+Continue Peg-Leg Greg 04 / Heavy Prose Editor from current GitHub authority. Read `AGENTS.md`, `state/PROJECT_STATE.md`, `state/STORY_NORTH_STAR.md`, `state/PROSE_PLAYBOOK.md`, and `state/EDITOR_STATE.md` first. The frozen Library artifact `Peg_Leg_Greg_Heavy_Edit.md` is protected historical heavy-edit authority through Chapter 180 and remains exact source prose for later chapters where useful; do not try to overwrite it or create successor downloads. The writable durable 04 stream is `state/editorial/Peg_Leg_Greg_Heavy_Edit_Continuation.md`, currently completed through Chapter 182 — THE SUBJECT. Next is Chapter 183 — THE WORKER. Read edited Chapter 182 from the GitHub continuation, read Chapter 183 in full from exact manuscript authority, inspect Chapter 184's opening/transition, then perform one substantive heavy-prose edit. Rewrite sentences and paragraph architecture, strengthen dialogue/action beats and interiority, reduce fragment stacks/repetitive rhetorical reversals/redundant meaning-making, and strengthen already-earned social/workplace texture while preserving plot, characterization, canon, scene intent, money, magic, threat, body continuity, chronology, and outcomes. Chapter 182 establishes Greg's first narrow repeatable external magical response under Hessa's controlled paper-fin apparatus; preserve the exact 24/20/9 counts and do not broaden that result beyond its established limits. Use no em dashes in manuscript prose. Save Chapter 183 into the SAME GitHub continuation, re-open and verify persistence, then advance `EDITOR_STATE.md` to Chapter 184 only after the write is confirmed. Do not edit Chapter 184 in the same run.
