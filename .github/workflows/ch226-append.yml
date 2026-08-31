@@ -1,0 +1,39 @@
+name: ch226-append
+
+on:
+  push:
+    branches:
+      - manuscript/ch226-reference
+    paths:
+      - state/manuscript/.chapter226_append.tmp
+
+permissions:
+  contents: write
+
+jobs:
+  append:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: manuscript/ch226-reference
+      - name: Append Chapter 226 once
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          manuscript = Path('state/manuscript/Peg_Leg_Greg_Running_Manuscript.md')
+          payload = Path('state/manuscript/.chapter226_append.tmp')
+          text = manuscript.read_text(encoding='utf-8')
+          chapter = payload.read_text(encoding='utf-8')
+          if '# CHAPTER 226' in text:
+              raise SystemExit('Chapter 226 already present; refusing duplicate append')
+          if not text.endswith('\n'):
+              text += '\n'
+          manuscript.write_text(text + '\n' + chapter.rstrip() + '\n', encoding='utf-8')
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/manuscript/Peg_Leg_Greg_Running_Manuscript.md
+          git commit -m "Append Chapter 226 to running manuscript"
+          git push origin HEAD:manuscript/ch226-reference
