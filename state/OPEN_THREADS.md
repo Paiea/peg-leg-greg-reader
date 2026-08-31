@@ -1,18 +1,23 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Current endpoint:** Chapter 225 — **THE STEWARD**.
-- **Permanent forward manuscript:** `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`. Chapters 156–219 still need exact-text synchronization; Chapter 220+ writes directly here.
+- **Current endpoint:** Chapter 226 — **THE REFERENCE**.
+- **Permanent forward manuscript:** `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`. Chapters 156–219 still need exact-text synchronization into the permanent manuscript; Chapter 220+ writes directly here. Light Reader synchronization is a separate downstream concern.
 - **Engine method:** `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves durable 01 behavior and recovery instructions.
-- **Magic counts:** ACTIVE at 31 supervised minimal draws / 27 deliberate shaping attempts / 37 external-effect attempts.
-- **FAR evidence:** attempts 33 and 36 produced small rotational/net-away responses in separate sessions under current FAR/AWAY apparatus. FAR response repeated across sessions, reliability unestablished. INTERMEDIATE remains more reliable. No range established. Not generalized.
+- **Magic counts:** ACTIVE at 32 supervised minimal draws / 28 deliberate shaping attempts / 41 external-effect attempts.
+- **Latest comparison protocol:** Ch226 predeclares FAR → INTERMEDIATE → FAR → INTERMEDIATE, AWAY only, same target/control/glass/body setup.
+- **Attempt 38:** FAR/AWAY, no observed response, control unchanged.
+- **Attempt 39:** INTERMEDIATE/AWAY, small observed target response, net AWAY, minor rotation, control unchanged.
+- **Attempt 40:** FAR/AWAY, target and control both move; contaminated for target-specific interpretation; cause not established; no clean FAR response counted.
+- **Attempt 41:** INTERMEDIATE/AWAY, small observed target response, net AWAY, no obvious rotation, control unchanged.
+- **Current distance interpretation:** the apparent INTERMEDIATE/FAR difference remains supported under the current apparatus. INTERMEDIATE continues to produce observed response more consistently than FAR. Earlier clean FAR responses across separate sessions remain real, but FAR reliability is unestablished. Attempt 40 does not strengthen FAR-response evidence. No range established. Not generalized.
 - **Magic restrictions:** unchanged. No independent draw, shaping, external testing, paper, coins, thread, larger objects, practice, Barrier broadening, theatrical magic, or loopholes.
-- **Next magic question:** NOT scheduled on-page. Chapters 222–225 contain no magic session. After four breathing chapters, Hessa is now a strong next-engine candidate, but do not range-map.
-- **Theatre:** Ch225 Greg performs eleven-line Steward in `The Second Toast`; theatre remains routine paid work and social workplace.
-- **Latest acting/stagecraft correction:** Greg angles Hara's tray toward the cracked cup before her character chooses it. Teren narrows: `Carry choices. Do not make them.` This is about not deciding another character's action for them, not a grand doctrine.
-- **Repurposed cups:** two discarded household cups from Ch224 are now painted stage property. Blue-banded cup belongs Pell's Uncle in scenes one/three; cracked/red-marked cup belongs Hara in scene two. Nessa stores both `STAGE ONLY` after Ch225.
+- **Next magic question:** Hessa says she has several possible questions but has not chosen one because the record changed. Do not immediately convert this into a test ladder. Let magic breathe.
+- **Theatre:** Ch226 uses light ordinary morning work only: Greg holds window trim, sorts cord/pages, has no role, and leaves at midday for Guild. Ch225 remains the last major performance chapter.
+- **Latest acting/stagecraft correction:** from Ch225, Teren's `Carry choices. Do not make them.` remains a narrow stage direction, not a grand doctrine.
+- **Repurposed cups:** two discarded household cups from Ch224 remain painted stage property in the `STAGE ONLY` box. Marek still reaches for things he should not; Nessa still stops him.
 - **Backstage competence:** routes, prop handoffs, cues, tray/crutch geometry, physical accommodations, and staying out of work lanes increasingly ordinary/social rather than declared milestones.
-- **Crutch maintenance:** one worn LEFT tip replaced Ch223; it remains normal through Ch225.
-- **Theatre cart maintenance:** ordinary cracked brace repaired Ch224. Ch225 cart performs normal flat/bench runs; repair holds. No sabotage established.
+- **Crutch maintenance:** one worn LEFT tip replaced Ch223; it remains normal through Ch226.
+- **Theatre cart maintenance:** ordinary cracked brace repaired Ch224. Ch225–226 cart works normally. No sabotage established.
 - **Rinna / commercial defense:** ACTIVE. Actual suppliers/service people verify claims directly with Rinna and avoid giving strangers useful operational/payment information.
 - **Warning-network payoff #1:** Olin reports money-handling questions and gives no useful answers.
 - **Warning-network payoff #2:** Ch223 cart repair man reports questions about late-show cart movement/same driver and gives no theatre hours/routine.
@@ -21,10 +26,10 @@
 - **Evidence ceiling:** NO robbery, ambush, cart target, Bren employment, organization, gang, boss, or specific plan established.
 - **Mason's Cut:** Olin's boy saw brown-coat man walking toward Mason's Cut but did not see him enter. Direction only. No base/residence/territory claim.
 - **Bren:** probable name of close-haired heavy-coat spokesman with left glove. One-copper demand refused Ch218. `Next time won't be one.` No surname, boss, organization, or violence established.
-- **Threat restraint:** Chapters 224–225 contain no new warning, demand, appearance, violence, sabotage, or investigation. Rinna simply reports no new word.
+- **Threat restraint:** Chapters 224–226 contain no new warning, demand, appearance, violence, sabotage, or investigation. Ch226 Rinna silently indicates no new word.
 - **Quiet defensive residue:** cash handling less visible; cart-departure information not casually shared; no guards, escorts, traps, patrols, or spy network.
-- **Vale debt:** ACTIVE. Exact balance known in-world but unstated. One-copper payment made Ch218. Ch224 suitable office work produces legitimate credit; Ch225 no Vale movement.
+- **Vale debt:** ACTIVE. Exact balance known in-world but unstated. One-copper payment made Ch218. Ch224 suitable office work produces legitimate credit; Ch225–226 no Vale movement.
 - **Antonius texture:** commercial, not benevolent. No Vale/Bren connection established.
-- **Greg / Lyssa:** ordinary intimacy continues. Ch225 blue-cloth job is delivered; brown cuff job changes twice; Lyssa moves on to another garment and remains independently employed.
-- **Next engine rotation:** Hessa/magic is strongest candidate after four chapters of breathing, using a same-apparatus controlled comparison rather than range expansion. Ordinary city/Lyssa is a valid alternate. Do not force Bren escalation.
+- **Greg / Lyssa:** ordinary intimacy continues. Brown cuff job is delivered and paid in Ch226. Lyssa has moved onward to green/multiple garment work and remains independently employed. She understands the control contamination logic without becoming a magic specialist.
+- **Next engine rotation:** let Hessa/magic breathe. Strongest next lane is ordinary Carrow work/money/household, with Vale or another existing paid obligation allowed to become active. External pressure may move only if one grounded new fact arrives; do not force Bren escalation.
 - **Long-range theatre direction:** THEATRE → PERFORMANCE → MISDIRECTION → ILLUSION → MASKS → CONTROL OF PERCEPTION → eventual dangerous bluff. Directional only; visible theatre remains FUN → PEOPLE → WORKPLACE → ACTING → STAGECRAFT → FAILURE → ANOTHER TURN.
