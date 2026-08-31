@@ -166,13 +166,20 @@ Update existing compact state before adding new state. Preserve engine-owned sub
 
 ## NEXT_TASK — development
 
-Restart the 02↔03 cycle from the current manuscript era.
+The first current-era theatre research cycle is complete and integrated through Chapter 226:
+1. rehearsal notes / recovery / shorthand
+2. small-company practical authority / multi-hatting
+3. prop routes / costume tracks / running repairs
 
-First wave:
-1. 02 researches acting / rehearsal-note practice using credible sources and records reusable findings in `RESEARCH_LEDGER.md`
-2. 02 translates the strongest findings into recurring behaviors for the existing troupe, with emphasis on social memory / informal authority / offscreen life
-3. 03 pressure-tests those possibilities against current manuscript evidence and graduates only useful residue
-4. 03 identifies the next focused research edge back to 02
-5. repeat without making 01 wait
+03 has graduated only manuscript-supported residue. Current high-value theatre guidance is compact: preserve lived object homes/routes, delayed downstream consequences, offscreen maintenance residue, domain-shaped competence, distributed recovery, and belonging shown through reduced supervision. Do not build a formal backstage system or keep researching theatre generically.
+
+Next 02↔03 wave:
+1. 02 reads the newest `STORY_CONTROL_STATE.md` and researches the focused returned edge: **Lyssa's independent alteration / rework workflow and customer network**.
+2. 02 translates the strongest findings into behavior, objects, schedules, customer/supplier friction, and offscreen social life without routing Lyssa into theatre wardrobe by convenience.
+3. 03 pressure-tests those possibilities against current manuscript evidence and graduates only useful residue.
+4. 03 identifies the next focused edge or deliberately pauses research if the manuscript already supplies enough specificity.
+5. 01 continues forward production without waiting for the loop.
+
+Always re-read current manuscript authority first because 01 may advance while development work continues.
 
 Use the live `RE-PROMPT [02]` and `RE-PROMPT [03]` trailheads in their state files.
