@@ -25,6 +25,14 @@ then repeat as useful while 01 continues writing.
 
 Do not wait for the manuscript to stop before developing the world. Do not require 01 to absorb every exploratory idea.
 
+## Long-serial residue specialist brain
+
+`LONG_SERIAL_RESIDUE_MAP.md` stores the project-level developmental map for **making time leave residue** across characters, non-Greg relationships, repeat Carrow social nodes, recurring objects/jokes/mistakes, and lightweight accumulated shorthand.
+
+Use it when 02 / 03 / 04 are doing longitudinal social or character development. It is a possibility map, not canon and not a chapter outline.
+
+Do **not** add it to 01's mandatory every-chapter boot sequence. 01 should inherit only the compact guidance that becomes relevant to the current story edge.
+
 ## 02 / Writers' Room job
 
 Start from current GitHub authority, especially:
@@ -32,6 +40,7 @@ Start from current GitHub authority, especially:
 - `MANUSCRIPT_STATE.md`
 - current manuscript edge when exact scene evidence matters
 - `WRITERS_ROOM_STATE.md`
+- `LONG_SERIAL_RESIDUE_MAP.md` when developing social accumulation / offscreen life / recurring relationships
 - relevant specialist brains
 
 Then identify a small number of high-value developmental edges.
@@ -95,6 +104,8 @@ Ask:
 5. What physical object / route / timing problem does it create?
 6. What can Greg misunderstand at first?
 7. What becomes ordinary after repetition?
+8. Who pays the cost when the loop breaks?
+9. What memory or changed behavior could survive fifty chapters later?
 
 The goal is lived specificity, not a lecture.
 
@@ -105,6 +116,7 @@ Start from current GitHub authority, especially:
 - current manuscript/state
 - `WRITERS_ROOM_STATE.md`
 - `RESEARCH_LEDGER.md` when relevant
+- `LONG_SERIAL_RESIDUE_MAP.md` when pressure-testing longitudinal social development
 - `PLOT_CONTROL.md`
 - `CHARACTER_BIBLE.md`
 - `SETTING_BIBLE.md`
@@ -146,6 +158,8 @@ Look for:
 - work routines that continue without him
 - changing material circumstances
 
+Prefer **changed callbacks** over a callback parade: if an old object, joke, mistake, customer, place, or relationship returns, ask what prior history has changed about the return.
+
 Do not require every side character to have an arc. Give enough independent causality that they stop feeling summoned by the protagonist.
 
 ## Plot development rule
@@ -168,6 +182,7 @@ Recommended interaction:
 - At batch boundaries, 01 reads the current durable next-edge material relevant to the coming chapters.
 - 01 does not need to reread every research note or exploratory branch.
 - If 03 establishes a materially important new direction, place the compact durable residue in the specialist brain 01 already knows to consult.
+- Longitudinal social development should reach 01 as a few relevant habits or pressures, not as a requirement to service every item in `LONG_SERIAL_RESIDUE_MAP.md`.
 
 ## Handoff discipline
 
