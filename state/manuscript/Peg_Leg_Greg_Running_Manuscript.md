@@ -6832,3 +6832,1127 @@ That was not true.
 It was a control.
 
 Which was worse.
+
+------------------------------------------------------------------------
+
+# CHAPTER 227
+
+## THE BUNDLER
+
+Lyssa was gone when I woke.
+
+This had stopped being surprising before it stopped being annoying.
+
+Her side of the bed was cool. The table was not empty, because the table had apparently signed a permanent agreement with cloth. One of yesterday's sleeves remained folded near the wall. The other was gone. The green garment was gone too.
+
+In their place sat a dark skirt turned partly inside out, three pins, a chalk stub, and a note under the bread.
+
+DON'T WAIT FOR ME FOR SUPPER.
+
+Below that:
+
+EAT THE BREAD.
+
+I looked at the second line.
+
+Hessa's influence had become unacceptable.
+
+There was no Guild note on the door, under the cup, beside the basin, or hidden anywhere else an evidence-minded woman might reasonably put one. Good. My right forearm felt normal. Shoulder a little used when I reached overhead, then normal once I stopped reaching overhead like an idiot. Right leg fine. Residual limb comfortable. Phantom foot present only after I thought about it.
+
+No magic today.
+
+Excellent.
+
+I ate the bread.
+
+Outside, Carrow was already doing business badly and loudly.
+
+A fish seller had moved half her baskets into the street. A cart driver objected. She objected to his objection. Two boys carried a long plank between them and nearly removed an old man's hat with it. Nobody involved seemed surprised.
+
+I had no theatre call that morning.
+
+That did not mean the theatre had no work. It meant nobody had told me to come do it.
+
+Important distinction.
+
+I considered going anyway.
+
+Then I considered Antonius Vale.
+
+The debt remained where debts tended to remain when they had not been paid off, which was everywhere in the back of my mind and nowhere useful in the street in front of me.
+
+Vale had given me usable seated work three days ago. He had not promised more. I had not been summoned.
+
+Still, suitable work did not become less suitable because nobody sent a bored boy with a note.
+
+I turned toward his office.
+
+This was either initiative or volunteering for paperwork.
+
+The difference was probably whether I got credit.
+
+The Vale office had three runners in the front room when I arrived and no available floor.
+
+Not literally.
+
+Mostly.
+
+One boy stood near the counter with a bundle under each arm. Another had a leather satchel open on a chair and was arguing with the ink-fingered clerk about whether he could fit one more packet inside. A girl I had seen once before leaned against the wall eating an apple while she waited for somebody in the rear room to finish writing.
+
+The clerk saw me and pointed toward the same side table I had used last time.
+
+My chair was already there.
+
+Not my chair.
+
+A chair.
+
+I noticed anyway.
+
+"Work?" I asked.
+
+He looked at the runners, then at me.
+
+"Can you tie?"
+
+"Emotionally?"
+
+"Paper."
+
+"Usually."
+
+He pointed toward six loose stacks on the end of the front counter.
+
+"Sit."
+
+That was how employment happened in offices.
+
+I moved to the side table. Before I reached it, the apple girl hooked a low stool with one foot and dragged it out of my path without pausing her chewing.
+
+I knew her well enough to recognize her.
+
+I did not know her well enough to thank her without making it strange.
+
+So I sat.
+
+The clerk brought the first two stacks.
+
+"Outgoing claims and account notices. These go with the afternoon runners. Match the house mark, street mark, and name. Tie each route separately. Anything marked hold stays here."
+
+"House mark."
+
+He showed me.
+
+Each folded paper had a small ink sign in the upper corner. Not a seal. More like a quick symbol made by whoever prepared the packet. A square for the west accounts. Two short lines for the river road. A hooked mark for the south market. A black dot for collections that came to the office.
+
+The street name was written beneath the recipient.
+
+The house mark told the office which run usually carried it.
+
+"Usually?" I asked.
+
+"Usually."
+
+I disliked the word in a commercial system.
+
+He pointed to a packet with a line drawn through the corner mark.
+
+"Hold."
+
+"That means do not send."
+
+"Yes."
+
+"It looks like somebody changed their mind halfway through drawing the mark."
+
+"They did. That is why it means hold."
+
+Reasonable.
+
+Annoying.
+
+He put three lengths of cord beside me.
+
+"Make the west bundles first. Runner leaves before midday."
+
+"How many bundles?"
+
+"You tell me."
+
+"Terrible answer."
+
+"If you put two streets together because the marks look alike, I untie them."
+
+"Threatening."
+
+"Expensive."
+
+He left.
+
+I opened the first stack.
+
+The work was not the same as checking invoices.
+
+That became clear almost immediately.
+
+Numbers barely mattered. Sequence did.
+
+Name.
+
+Street.
+
+House mark.
+
+Hold mark.
+
+Then put the paper where the runner who actually walked that route would find it.
+
+The first several were easy.
+
+West account. Clay Street. No hold.
+
+West account. Clay Street. No hold.
+
+West account. Potter's Row. No hold.
+
+Different pile.
+
+West account. Clay Street. Hold.
+
+I nearly put it with the other Clay Street papers before the slash caught my eye.
+
+I set it aside.
+
+Good.
+
+Then I found another hold.
+
+Then a packet with no house mark at all.
+
+I stared at it.
+
+The recipient was a cooper on West Market.
+
+Probably west.
+
+That word again.
+
+I raised the paper.
+
+The clerk was speaking to one of the runners.
+
+I waited.
+
+This was growth.
+
+Or fear.
+
+He came over when he finished.
+
+"No mark."
+
+He looked.
+
+"New account."
+
+"West Market."
+
+"Yes."
+
+"So west?"
+
+"No."
+
+I looked at him.
+
+He tapped the recipient's name.
+
+"Collects."
+
+"From here."
+
+"Usually."
+
+"Then black dot."
+
+"When the account clerk confirms it."
+
+"So I hold it."
+
+"Yes."
+
+"Because I do not improve the paper."
+
+He looked at me for half a second.
+
+"Correct."
+
+Apparently Nessa and Vale's clerk would enjoy each other.
+
+I put the unmarked packet with the holds.
+
+The west runner left with three bundles tied badly enough that the clerk retied one while talking to somebody else.
+
+I watched him do it.
+
+"My knot held."
+
+"It was going to become a necklace around six claims."
+
+"Still holding."
+
+He tightened the cord and handed the bundle to the runner.
+
+"Loop under twice."
+
+"I did."
+
+"Not the same twice."
+
+There were many ways to be wrong with string.
+
+I corrected the next one.
+
+By the fourth bundle, the clerk stopped checking the knot and checked only the papers.
+
+That was more satisfying than praise.
+
+The office moved around me.
+
+A man came in with a broken crate lid and wanted to know whether he would be charged for the missing iron strap. The woman in the dark scarf from my previous workday appeared carrying two account books and immediately told him that if the strap had been missing when he received the crate, he should have brought the receipt showing it.
+
+He had not.
+
+They began an argument they had clearly had before.
+
+The apple girl finished her apple, collected a bundle, and left.
+
+A new runner took her place against the wall.
+
+Antonius crossed the front room twice.
+
+The first time he did not look at me.
+
+The second time he stopped beside the table.
+
+"Who gave you work?"
+
+I pointed at the clerk.
+
+Antonius looked at him.
+
+The clerk said, "He can sit."
+
+Antonius looked back at me.
+
+"Can you tie?"
+
+"Apparently under supervision."
+
+"Useful."
+
+He moved on.
+
+Warm man.
+
+I reached the south stacks near midday.
+
+That was where I made the mistake.
+
+The hooked mark meant south market.
+
+I knew that now.
+
+Two packets carried the same mark and the same street.
+
+I put them together.
+
+A third had the same mark but a different street.
+
+Separate.
+
+A fourth said South Steps but had the black dot.
+
+Collection.
+
+Hold here.
+
+Good.
+
+Then I found a packet for Leret & Sons, South Steps, hooked mark.
+
+South route.
+
+Easy.
+
+I put it with the south bundle.
+
+The clerk came past, picked up the bundle, and pulled that packet out.
+
+"Not that one."
+
+I looked at the corner.
+
+"Hook."
+
+"Yes."
+
+"South Steps."
+
+"Yes."
+
+"Then I have reached the limit of my education."
+
+He turned the paper over and showed me a small inked triangle near the fold.
+
+"What is that?"
+
+"Upper door."
+
+"That is not an explanation."
+
+"They take deliveries through the upper lane. South runner does not climb it."
+
+I looked toward the front door as if the geography might appear.
+
+"Then why is the house mark south?"
+
+"Account belongs to the south book."
+
+"That is a different system."
+
+"Yes."
+
+"Hostile."
+
+"Route mark is here."
+
+He tapped the triangle.
+
+I stared at it.
+
+"You said house mark, street mark, and name."
+
+"I said match them."
+
+"You omitted secret triangle."
+
+"You didn't have one in the west stack."
+
+This was not a defense.
+
+He saw my face.
+
+"Now you do."
+
+He put Leret & Sons into a separate pile.
+
+"Upper lane goes with the hill runner."
+
+"Different street."
+
+"Same delivery route."
+
+I looked at all the little marks again.
+
+The system had not become inconsistent.
+
+It had become older than my explanation of it.
+
+Worse.
+
+I untied the south bundle and checked every packet again for triangles.
+
+Two more.
+
+One belonged on Upper Mason Lane.
+
+That at least sounded like a hill.
+
+The other went to a woman on South Steps.
+
+Same street as Leret & Sons.
+
+Different route from the other South Steps papers.
+
+I looked at the clerk.
+
+"Do people enjoy this?"
+
+"No."
+
+"Good."
+
+He left me to repair my work.
+
+My right leg had started to stiffen from sitting by then.
+
+Not pain.
+
+Just enough that I found myself shifting in the chair and leaning harder through my right hip.
+
+I stopped.
+
+The previous day had been Hessa's room, then crutches, then home. Today had been walking, then sitting.
+
+Bodies also had systems older than my explanation of them.
+
+I put the papers down, took my crutches, and stood.
+
+Nobody asked why.
+
+The dark-scarf woman was still arguing about the iron strap.
+
+She moved one account book half an inch so I could pass behind her chair.
+
+Again, no discussion.
+
+I walked the length of the side wall, stood near the rear doorway long enough for the right knee to loosen, then returned.
+
+The clerk had taken my chair.
+
+I stopped.
+
+He looked up.
+
+"I needed the table."
+
+"You are sitting at my table."
+
+"It was empty."
+
+"I have discovered office betrayal."
+
+He stood, moved the chair back to the side, and continued reading while standing.
+
+No apology.
+
+No accommodation speech.
+
+Just a chair returning to where I used it.
+
+Better.
+
+I finished the south bundles.
+
+This time I checked marks on both sides before I tied anything.
+
+The first south runner took two.
+
+The hill runner took one.
+
+Three holds stayed.
+
+One unmarked new account stayed.
+
+Then I found something actually wrong.
+
+Not exciting wrong.
+
+Better.
+
+A folded notice for a pottery shop on River Street had the two-line river mark in the corner.
+
+Correct.
+
+The name matched.
+
+Street matched.
+
+No hold.
+
+I put it into the river pile.
+
+Then I found a second packet for the same shop.
+
+Same day.
+
+Same name.
+
+Same street.
+
+Black dot.
+
+Collection.
+
+I stared at both.
+
+One said PAYMENT NOTICE on the inside edge.
+
+The other said CLAIM RESPONSE.
+
+I was not supposed to read the contents.
+
+The headings were visible without opening them.
+
+I put both on the table side by side.
+
+The clerk came over.
+
+"What?"
+
+"Same account. Same day. Same address. Different route instructions."
+
+He picked them up.
+
+"Possible."
+
+"Why?"
+
+"One may be collected. One may go."
+
+"That seems stupid."
+
+"Many systems survive stupidity."
+
+He checked the small writing along the fold, then frowned.
+
+That improved my mood.
+
+He opened a ledger at the front table, found the account, then called toward the rear.
+
+"Sel."
+
+A woman answered from somewhere I could not see.
+
+"Did Fen Pottery change collection?"
+
+"No."
+
+"Did anyone mark the response for collection?"
+
+A pause.
+
+"No."
+
+The clerk held up the black-dot packet.
+
+"Someone did."
+
+The woman came out wiping ink from one hand.
+
+She took the packet, looked at it, then looked annoyed in a completely professional way.
+
+"That is yesterday's dot."
+
+I leaned forward.
+
+"How does a dot become yesterday's?"
+
+She unfolded the outer paper.
+
+A narrow scrap had been reused beneath it while the mark was made. The ink had transferred faintly through the fold onto the wrong packet.
+
+Not magic.
+
+Not conspiracy.
+
+Not a criminal organization hiding in office supplies.
+
+Ink.
+
+The woman rubbed the mark with her thumb.
+
+It smeared slightly.
+
+"Bad stack," she said.
+
+The clerk looked at me.
+
+"Good hold."
+
+"I did not hold it. I became suspicious of dots."
+
+"Useful."
+
+The woman took the packet back to the rear room.
+
+The clerk moved the second Fen Pottery notice into the river bundle.
+
+"What would have happened?"
+
+"Probably collected late when they came next."
+
+"No catastrophe."
+
+"No."
+
+"Financial ruin?"
+
+"No."
+
+"Secret war?"
+
+"No."
+
+"Excellent."
+
+He tied the river bundle himself and handed it to a runner.
+
+I watched the runner leave.
+
+The mistake I had found was not a number.
+
+It was a piece of paper that would have waited on the wrong table because yesterday's ink had touched it.
+
+Very nearly invisible.
+
+Still worth fixing.
+
+That was enough.
+
+Lunch happened late.
+
+No communal soup this time.
+
+I bought a hot potato from a woman outside and ate it on the office step because the side table had become temporarily occupied by three account books, two rulers, and the clerk's elbow.
+
+The potato burned my thumb.
+
+This was the most dangerous event of the day.
+
+I switched hands.
+
+Across the street, a cooper rolled two hoops toward his shop with his foot. A child followed him carrying one badly. A woman in a red scarf came out of Vale's office, looked at a folded notice, swore, turned around, and went back inside.
+
+Commerce.
+
+I liked it better from the step.
+
+When I returned, Antonius was at the side table.
+
+He had the work ledger open.
+
+The clerk stood beside him.
+
+I stopped.
+
+"Am I being dismissed?"
+
+"No," Antonius said.
+
+"Promising."
+
+He pointed at the chair.
+
+I sat.
+
+The clerk gave the report without ceremony.
+
+"West went. South went. Hill went. River went. Four holds. One new unmarked collection account held for confirmation. One route error corrected before dispatch. One transferred ink mark caught before the packet stayed here."
+
+Antonius looked at me.
+
+"Route error?"
+
+"Upper door triangle."
+
+"You missed it."
+
+"I know it now."
+
+"Do you?"
+
+"I have strong feelings about triangles."
+
+He ignored that.
+
+"Transferred mark?"
+
+The clerk explained.
+
+Antonius took the packet Sel had apparently kept as evidence of office incompetence and looked at the faint black dot.
+
+"Why did you stop it?"
+
+I considered claiming genius.
+
+Then I remembered the triangle.
+
+"Two packets for the same account had different instructions. I did not know if that was allowed."
+
+"It can be."
+
+"Clerk said that."
+
+Antonius looked at the clerk.
+
+The clerk said, "Then I checked."
+
+Antonius put the paper down.
+
+"Good."
+
+I waited to see who that belonged to.
+
+He did not clarify.
+
+Fine.
+
+He wrote in the work ledger.
+
+"Credit recorded."
+
+Again, the number existed.
+
+Again, the debt moved.
+
+Again, it remained a debt.
+
+I knew the figure. Antonius knew the figure. The universe did not require me to announce it to the furniture.
+
+"More work?" I asked.
+
+"Today?"
+
+"Eventually."
+
+Antonius closed the ledger.
+
+"These bundles happen most days."
+
+I looked toward the front room.
+
+"That sounds like a threat."
+
+"It means work exists."
+
+"Suitable work?"
+
+"If someone needs it done and you do not make the runners late."
+
+The clerk said, "He made one late by arguing about triangles."
+
+"I did not make anyone late."
+
+The hill runner, from the wall, said, "You made me later."
+
+I looked at him.
+
+He had apparently been there long enough to develop opinions.
+
+"You got the correct papers."
+
+"I also got older."
+
+Antonius had already returned to his own ledger.
+
+Nobody rescued me.
+
+Excellent.
+
+I took the credit and left before office culture became worse.
+
+The theatre was on my way home if I took the longer route.
+
+It was becoming increasingly difficult to define "on my way" around a place I kept choosing to visit.
+
+I took the longer route.
+
+The front doors were open but the house was quiet.
+
+Not empty.
+
+Quiet.
+
+Nessa sat on the stage edge with a pile of cloth strips in her lap, trimming loose threads from something I did not recognize. Jori was behind the second flat with only one boot visible. Teren stood in the aisle speaking to Pell in a voice too low for me to hear.
+
+Marek was nowhere visible.
+
+This was suspicious.
+
+Rinna was at the front table.
+
+She looked at me.
+
+"No."
+
+I had not asked.
+
+"Excellent," I said.
+
+"Vale?"
+
+"Paper."
+
+"Again?"
+
+"Different paper."
+
+"Paid?"
+
+"Credit."
+
+She nodded.
+
+Then she pointed toward the rear passage.
+
+"Can you take those pages to Nessa?"
+
+A stack waited on a chair three feet from me.
+
+I looked at the open house.
+
+"Do I work here today?"
+
+"You are standing here."
+
+Dangerous policy.
+
+I tucked one crutch under my arm long enough to lift the pages, then changed my mind after the first two slipped sideways.
+
+Rinna took half.
+
+"No speech," I said.
+
+"I wasn't going to give one."
+
+We carried them together because apparently civilization occasionally solved a load by dividing it.
+
+Nessa accepted the pages.
+
+"Tomorrow afternoon," she said.
+
+"What?"
+
+"You're in the street scene."
+
+"Which street scene?"
+
+She looked at Teren.
+
+He called, "The Wrong Funeral."
+
+I stared at him.
+
+"That title is hostile."
+
+"You have six lines."
+
+"Role?"
+
+"Man with flowers."
+
+I looked at Nessa.
+
+"Do I get flowers?"
+
+"If Marek has not stolen them."
+
+From behind the flat, Marek said, "Borrowed."
+
+There he was.
+
+Nessa closed her eyes.
+
+I left before the theatre recruited me into locating botanical property.
+
+By the time I reached home, dusk had put the windows into mirrors.
+
+Lyssa was there.
+
+She had already eaten.
+
+The note had been accurate.
+
+The dark skirt from morning was still on the table, but now it was folded. The remaining sleeve from yesterday was gone. A pale coat I had never seen before hung over the chair I usually used, and Lyssa was kneeling beside a customer I did not know, pinning the coat near the hem.
+
+I stopped inside the door.
+
+Lyssa looked up.
+
+"Use the other chair."
+
+No introduction.
+
+No explanation.
+
+I used the other chair.
+
+The customer glanced at my crutches, then back at Lyssa.
+
+"That much?"
+
+Lyssa adjusted one pin.
+
+"If you want it to hang straight."
+
+"I do."
+
+"Then yes."
+
+The woman looked down at the coat.
+
+"Can you make it narrower too?"
+
+"Not there."
+
+"Why?"
+
+"Not enough cloth."
+
+The answer was immediate.
+
+The customer opened her mouth, looked at Lyssa's face, then closed it.
+
+"Fine."
+
+Lyssa moved to the other side of the hem.
+
+I sat quietly.
+
+This was not my workplace.
+
+The customer left ten minutes later wearing her own coat and carrying the pale one wrapped over her arm.
+
+Lyssa closed the door behind her.
+
+"New?" I asked.
+
+"Yes."
+
+"How many customers do you have now?"
+
+She looked at me.
+
+I reconsidered.
+
+"Bad question."
+
+"Very."
+
+"Did you eat?"
+
+"Yes."
+
+"Good."
+
+She pointed at the bread.
+
+"You?"
+
+"Potato."
+
+"That is not supper."
+
+"It was hot."
+
+"Still not supper."
+
+Apparently Hessa's coalition retained power even in absence.
+
+I cut bread.
+
+Lyssa reclaimed my usual chair and pulled the dark skirt back toward her.
+
+I told her about the Vale work because it was easier than explaining why I had voluntarily gone to an office.
+
+Bundles.
+
+Marks.
+
+Holds.
+
+Secret triangle.
+
+"Not secret," she said.
+
+"You were not there."
+
+"Neither were you until today."
+
+Cruel.
+
+I told her about the transferred ink dot.
+
+She listened while checking the skirt seam.
+
+"Did you get credit?"
+
+"Yes."
+
+"Still owe him?"
+
+"Yes."
+
+"Then you successfully remained in debt."
+
+"I worked very hard at it."
+
+She smiled.
+
+I ate.
+
+After a while I nodded toward the door.
+
+"New customer?"
+
+"Yes."
+
+"How?"
+
+Lyssa threaded the needle.
+
+"She needed a coat changed."
+
+I waited.
+
+That was apparently the available answer.
+
+"Do you know her?"
+
+"Now."
+
+Fair.
+
+She began stitching.
+
+The theatre expected me tomorrow afternoon with six lines and possibly flowers.
+
+Vale had bundles most days if somebody needed them done and if I did not make the runners old.
+
+Lyssa had a customer I had never seen and a coat I had never known existed until it occupied my chair.
+
+Nobody had asked Hessa what came next.
+
+Nobody had seen Bren.
+
+Nobody had solved anything large.
+
+I looked at the corner of the table where Lyssa had left the chalk.
+
+Then at the small length of cord still in my coat pocket from Vale's office.
+
+I had accidentally brought it home.
+
+I took it out and set it beside my bread.
+
+Lyssa looked over.
+
+"What is that?"
+
+"Professional equipment."
+
+"String?"
+
+"Do not diminish my office."
+
+She took it.
+
+Before I could object, she wrapped it around the folded dark skirt and tied it in one clean motion.
+
+Loop under twice.
+
+Same twice.
+
+Better knot than mine.
+
+I stared at it.
+
+She returned to sewing.
+
+"Hostile household," I said.
+
+"Useful."
+
+That one belonged to her.
