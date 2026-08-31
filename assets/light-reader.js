@@ -1,0 +1,160 @@
+(() => {
+  const titleNode = document.querySelector('[data-light-title]');
+  const numberNode = document.querySelector('[data-light-number]');
+  const proseNode = document.querySelector('[data-light-prose]');
+  const tocNode = document.querySelector('[data-light-toc]');
+  const statusNode = document.querySelector('[data-light-status]');
+  const bottomNode = document.querySelector('[data-light-bottom]');
+  const jumpForm = document.querySelector('[data-light-jump]');
+  const jumpInput = document.querySelector('#light-chapter');
+  const manuscriptPath = 'state/manuscript/Peg_Leg_Greg_Running_Manuscript.md';
+
+  const params = new URLSearchParams(location.search);
+  const requested = Number.parseInt(params.get('chapter') || '', 10);
+
+  const setStatus = (text) => { if (statusNode) statusNode.textContent = text; };
+  const lightHref = (chapter) => `light.html?chapter=${chapter}`;
+
+  const parsePublishedIndex = (html) => {
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    const chapters = [];
+    doc.querySelectorAll('#chapters a[href*="chapters/"]').forEach((a) => {
+      const match = /chapters\/(\d+)\.html/.exec(a.getAttribute('href') || '');
+      if (!match) return;
+      const number = Number.parseInt(match[1], 10);
+      const title = (a.querySelector('.title')?.textContent || '').trim();
+      if (number && title) chapters.push({ number, title, source: 'published' });
+    });
+    return chapters;
+  };
+
+  const parseManuscript = (markdown) => {
+    const text = markdown.replace(/\r\n?/g, '\n');
+    const heading = /^# CHAPTER (\d+)\s*$/gm;
+    const found = [];
+    let match;
+    while ((match = heading.exec(text))) {
+      const number = Number.parseInt(match[1], 10);
+      const start = match.index + match[0].length;
+      const next = /^# CHAPTER \d+\s*$/gm;
+      next.lastIndex = start;
+      const nextMatch = next.exec(text);
+      const end = nextMatch ? nextMatch.index : text.length;
+      const chunk = text.slice(start, end).replace(/^-{20,}\s*$/gm, '').trim();
+      const titleMatch = /^##\s+(.+)\s*$/m.exec(chunk);
+      if (!titleMatch) continue;
+      const title = titleMatch[1].trim();
+      const body = chunk.slice(titleMatch.index + titleMatch[0].length).trim();
+      found.push({ number, title, body, source: 'manuscript' });
+    }
+    return found;
+  };
+
+  const renderToc = (available) => {
+    tocNode.innerHTML = '';
+    for (const chapter of available) {
+      const a = document.createElement('a');
+      a.href = lightHref(chapter.number);
+      const num = document.createElement('span');
+      num.className = 'num';
+      num.textContent = String(chapter.number).padStart(2, '0');
+      const title = document.createElement('span');
+      title.className = 'title';
+      title.textContent = chapter.title;
+      a.append(num, title);
+      tocNode.appendChild(a);
+    }
+    if (available.some((c) => c.number <= 155) && available.some((c) => c.number >= 220)) {
+      const gap = document.createElement('div');
+      gap.className = 'light-reader-gap';
+      gap.textContent = 'Chapters 156–219 are not yet available in the permanent GitHub manuscript. They will appear here after exact-text synchronization; summaries are never used as substitute prose.';
+      tocNode.insertBefore(gap, [...tocNode.children].find((el) => Number.parseInt(el.querySelector?.('.num')?.textContent || '0', 10) >= 220) || null);
+    }
+  };
+
+  const setNav = (available, current) => {
+    const index = available.findIndex((c) => c.number === current);
+    const prev = index > 0 ? available[index - 1] : null;
+    const next = index >= 0 && index < available.length - 1 ? available[index + 1] : null;
+    for (const node of document.querySelectorAll('[data-light-prev],[data-light-prev-bottom]')) {
+      node.hidden = !prev;
+      if (prev) node.href = lightHref(prev.number);
+    }
+    for (const node of document.querySelectorAll('[data-light-next],[data-light-next-bottom]')) {
+      node.hidden = !next;
+      if (next) node.href = lightHref(next.number);
+    }
+  };
+
+  const renderPublished = async (chapter) => {
+    const path = `chapters/${String(chapter.number).padStart(3, '0')}.html`;
+    const response = await fetch(path, { cache: 'no-store' });
+    if (!response.ok) throw new Error(`Could not load Chapter ${chapter.number}.`);
+    const html = await response.text();
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    const source = doc.querySelector('.prose');
+    if (!source) throw new Error(`Chapter ${chapter.number} prose could not be read.`);
+    source.querySelectorAll('figure,script').forEach((node) => node.remove());
+    proseNode.innerHTML = source.innerHTML;
+  };
+
+  const renderManuscript = (chapter) => {
+    proseNode.innerHTML = '';
+    const blocks = chapter.body.split(/\n\s*\n+/).map((block) => block.trim()).filter(Boolean);
+    for (const block of blocks) {
+      if (/^-{20,}$/.test(block)) continue;
+      const p = document.createElement('p');
+      p.textContent = block;
+      proseNode.appendChild(p);
+    }
+  };
+
+  const showChapter = async (available, chapter) => {
+    tocNode.hidden = true;
+    proseNode.hidden = false;
+    bottomNode.hidden = false;
+    numberNode.textContent = `CHAPTER ${chapter.number} · LIGHT`;
+    titleNode.textContent = chapter.title;
+    document.title = `Chapter ${chapter.number}: ${chapter.title} — Peg-Leg Greg Light Reader`;
+    jumpInput.value = chapter.number;
+    setNav(available, chapter.number);
+    setStatus(chapter.source === 'published' ? 'Text-only rendering from the exact published chapter. Illustrations are intentionally omitted.' : 'Text-only rendering directly from the permanent GitHub manuscript.');
+    if (chapter.source === 'published') await renderPublished(chapter);
+    else renderManuscript(chapter);
+  };
+
+  const showMissing = (available, number) => {
+    tocNode.hidden = false;
+    proseNode.hidden = true;
+    bottomNode.hidden = true;
+    numberNode.textContent = 'LIGHT READER';
+    titleNode.textContent = 'CHAPTER NOT YET MATERIALIZED';
+    setStatus(`Chapter ${number} is not currently available as exact prose in the light reader. The contents below show every chapter that can be rendered without reconstruction.`);
+    renderToc(available);
+  };
+
+  jumpForm?.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const number = Number.parseInt(jumpInput.value, 10);
+    if (number > 0) location.href = lightHref(number);
+  });
+
+  Promise.all([
+    fetch('index.html', { cache: 'no-store' }).then((r) => { if (!r.ok) throw new Error('Could not load published chapter index.'); return r.text(); }),
+    fetch(manuscriptPath, { cache: 'no-store' }).then((r) => { if (!r.ok) throw new Error('Could not load permanent manuscript.'); return r.text(); })
+  ]).then(async ([indexHtml, manuscript]) => {
+    const published = parsePublishedIndex(indexHtml);
+    const forward = parseManuscript(manuscript).filter((chapter) => !published.some((p) => p.number === chapter.number));
+    const available = [...published, ...forward].sort((a, b) => a.number - b.number);
+    if (!requested) {
+      renderToc(available);
+      setStatus(`${available.length} exact-text chapters currently available. Light mode loads no chapter illustrations.`);
+      return;
+    }
+    const chapter = available.find((c) => c.number === requested);
+    if (!chapter) return showMissing(available, requested);
+    await showChapter(available, chapter);
+  }).catch((error) => {
+    setStatus(error.message || 'Could not initialize the light reader.');
+  });
+})();

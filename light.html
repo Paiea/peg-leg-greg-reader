@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta name="description" content="Peg-Leg Greg light reader: fast, text-first chapters without illustrations."/>
+<title>Light Reader — Peg-Leg Greg</title>
+<link href="assets/reader.css" rel="stylesheet"/>
+<style>
+.light-reader-note{max-width:46rem;margin:1rem auto;padding:0 1rem;color:var(--muted,#6b6258);font-size:.95rem}.light-reader-controls{max-width:46rem;margin:1rem auto 2rem;padding:0 1rem;display:flex;gap:.6rem;flex-wrap:wrap;align-items:center}.light-reader-controls a,.light-reader-controls button{font:inherit}.light-reader-jump{display:flex;gap:.35rem;align-items:center}.light-reader-jump input{width:5.5rem;padding:.45rem}.light-reader-gap{max-width:46rem;margin:2rem auto;padding:1rem;border:1px solid currentColor;border-radius:.5rem}.light-reader-status{max-width:46rem;margin:0 auto;padding:0 1rem;color:var(--muted,#6b6258)}
+</style>
+</head>
+<body>
+<header class="site-head"><a href="index.html">PEG-LEG GREG</a><nav aria-label="Reader navigation" class="site-nav"><a href="index.html">ILLUSTRATED</a><a href="latest.html">LATEST</a><a href="art.html">ART</a></nav></header>
+<main class="chapter-shell">
+<header class="chapter-title"><div class="number" data-light-number>LIGHT READER</div><h1 data-light-title>PEG-LEG GREG</h1></header>
+<p class="light-reader-note">Text-first edition. No chapter illustrations are loaded. Chapters 1–155 use the exact prose already published in the illustrated reader; newer materialized chapters use the permanent GitHub manuscript.</p>
+<div class="light-reader-controls" aria-label="Light reader navigation">
+<a data-light-prev href="#">← Previous</a><a href="light.html">Contents</a><a data-light-next href="#">Next →</a>
+<form class="light-reader-jump" data-light-jump><label for="light-chapter">Chapter</label><input id="light-chapter" name="chapter" inputmode="numeric" pattern="[0-9]*"/><button type="submit">Go</button></form>
+</div>
+<p class="light-reader-status" data-light-status>Loading available chapters…</p>
+<section class="toc" data-light-toc aria-label="Light reader chapters"></section>
+<article class="prose" data-light-prose hidden></article>
+<div class="light-reader-controls" data-light-bottom hidden><a data-light-prev-bottom href="#">← Previous</a><a href="light.html">Contents</a><a data-light-next-bottom href="#">Next →</a></div>
+</main>
+<script src="assets/light-reader.js"></script>
+</body>
+</html>
