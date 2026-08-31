@@ -44,13 +44,15 @@ Active manuscript.
 
 Locked earlier source remains `state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx`.
 
-The forward manuscript is transitioning from range-stamped filenames to one permanent path:
+Permanent forward path:
 
 `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`
 
 Do NOT create a new `Peg_Leg_Greg_Running_Manuscript_ChXXX-YYY.md` file for each chapter or shipping pass. Update the permanent running manuscript in place.
 
-Current story endpoint is Chapter 219 — **THE PURCHASER**. Repository prose previously validated through Chapter 155 — **THE LEAK**; Chapters 156–219 are the current forward material to be synchronized into the permanent running manuscript without overwriting newer overlapping repository prose.
+Current story endpoint is Chapter 220 — **THE LANDLORD**.
+
+Repository prose was previously validated continuously through Chapter 155 — **THE LEAK**. Chapters 156–219 remain newer forward material pending exact-text synchronization into the permanent file and must not be reconstructed from summaries. Chapter 220 and all later forward chapters are materialized directly in the permanent running manuscript.
 
 ## Forward production workflow
 
