@@ -1,7 +1,7 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current story endpoint: Chapter 227 — **THE BUNDLER**.
+- Current story endpoint: Chapter 228 — **THE FLOWER BEARER**.
 - Book 1 Chapters 1–82 closed. Book 2 active.
 - Repository prose was previously validated continuously through Chapter 155 — **THE LEAK**.
 - Chapters 156–219 remain newer forward manuscript material pending exact-text synchronization into the permanent running manuscript. Do not reconstruct them from summaries or let stale overlapping files overwrite newer authority.
@@ -43,7 +43,7 @@
 - NO RANGE ESTABLISHED. NOT GENERALIZED.
 - Restrictions unchanged: no independent draw, shaping, external testing, paper, coins, thread, larger objects, practice, Barrier broadening, theatrical magic, or loopholes.
 - Hessa ends Ch226 with no chosen next experiment. She says she has several possible questions because the record changed, but reveals none.
-- Ch227 contains no magic attempt, no Hessa appearance, and no change to counts, interpretation, or restrictions.
+- Chapters 227–228 contain no magic attempt, no Hessa appearance, and no change to counts, interpretation, or restrictions.
 
 ## Greg / Lyssa
 - Canonical spelling: **Lyssa**. Same established character formerly spelled Lysa.
@@ -54,7 +54,9 @@
 - Ch226 the brown cuff job is delivered and paid. The customer says the first cuff was prettier; Lyssa has charged for both changes and moves on. Green work continues, and by evening two different sleeves from different garments are on the table.
 - Ch227 Lyssa's work advances substantially off Greg's page: by morning one sleeve and the green garment are gone, a dark skirt is active, and Lyssa tells Greg not to wait for supper. By dusk she has already eaten and is fitting an unnamed new customer in their apartment while Greg arrives.
 - The Ch227 customer asks for the pale coat to be narrowed in an additional place. Lyssa immediately refuses that specific change because there is not enough cloth there. This establishes one concrete alteration constraint, not a universal pricing or fitting rule.
-- The new customer's source/referral route is NOT established. Greg asks how she came to Lyssa; Lyssa only says the woman needed a coat changed. Do not retroactively invent a referral chain.
+- The Ch227 new customer's source/referral route remains NOT established. Do not retroactively invent a referral chain.
+- Ch228 the pale coat is already gone by morning. The dark skirt remains in active work in the morning and is gone by Greg's return that night. A folded blue-gray cloth is then on the table, but Lyssa only establishes that it is old cloth and new to Greg; customer/job status is unknown.
+- Ch228 Lyssa returns tired and briefly rubs one wrist. No injury or medical issue is established. She and Greg share roasted beans and sit together before exchanging only a small amount of work talk.
 - Lyssa understands the control logic quickly from Ch226 but remains independent of Hessa's domain.
 
 ## Economy / debt
@@ -65,10 +67,11 @@
 - Chapter 218 lowered debt by one copper through a cash payment.
 - Ordinary living expenses coexist with repayment.
 - Ch224 Greg completes suitable seated Vale office work and receives legitimate debt credit; exact credit figure and total balance remain unstated.
-- Ch225 no Vale appearance, payment, or new credit. Greg earns normal one-copper theatre pay and treats it simply as money.
+- Ch225 Greg earns normal one-copper theatre pay and treats it simply as money.
 - Ch226 no Vale appearance, payment, or new debt credit.
-- Ch227 Greg voluntarily checks whether suitable Vale work exists and is assigned outgoing packet bundling/routing work. He receives legitimate debt credit after completing usable work; exact credit and total debt remain unstated.
-- Vale office work is now established as potentially recurring when ordinary bundles need doing, but Greg has no guaranteed post, schedule, rate, or promotion.
+- Ch227 Greg voluntarily checks whether suitable Vale work exists and completes outgoing packet bundling/routing work for legitimate debt credit; exact credit and total debt remain unstated.
+- Vale office work is potentially recurring when ordinary bundles need doing, but Greg has no guaranteed post, schedule, rate, or promotion.
+- Ch228 contains no Vale appearance or debt credit. Rinna pays Greg the normal one copper for theatre work; he later spends ordinary money on roasted beans without turning it into debt arithmetic.
 - No Vale/Bren connection established.
 
 ## Bren / pressure arc
@@ -80,7 +83,7 @@
 - Ch223: cart repair man reports an unknown visitor asking whether theatre cart goes out after late show and whether the same man drives it. Description is only **CONSISTENT WITH OLIN DESCRIPTION**.
 - Supported category: someone is interested in theatre money handling and movement/logistics.
 - NOT established: robbery, ambush, cart target, Bren employment, organization, gang, boss, or specific plan.
-- Chapters 224–227 deliberately do not advance the pressure arc. Ch227 Rinna says `No` before Greg asks. Bren remains off-page. No Mason's Cut investigation and no Vale-paper clue.
+- Chapters 224–228 do not advance the pressure arc. In Ch228 Olin simply sends the theatre's oil with no message, question, warning, or stranger attached. Bren remains off-page. No Mason's Cut investigation and no Vale-paper clue.
 
 ## Chapter 224 — THE CHECKER
 - Lyssa continues customer sewing and sends Greg for onions.
@@ -147,29 +150,44 @@
 - Greg arrives home while Lyssa is fitting an unnamed new customer in a pale coat. Lyssa refuses one requested narrowing point because there is not enough cloth there. Customer leaves with the coat. No referral chain or source is established.
 - Greg accidentally brings home a short piece of Vale cord. Lyssa uses it to tie the folded dark skirt with a cleaner version of the same knot Greg learned at work. Greg calls the household hostile; Lyssa answers `Useful.` The final beat belongs to her rather than converting the day into Greg's lesson.
 
-## Immediate next edge — Chapter 228
-Primary recommendation: **ROTATE TO THEATRE AS ORDINARY WORK, USING THE CONCRETE NEXT-DAY OBLIGATION ALREADY CREATED IN CH227. KEEP VALE AND MAGIC FROM BECOMING BACK-TO-BACK PROCEDURAL LOOPS.**
+## Chapter 228 — THE FLOWER BEARER
+- Full theatre-centered day. No Hessa appearance or magic attempt, no Vale appearance or debt credit, no Bren appearance, and no new threat evidence.
+- Morning household work has already moved: the pale coat is gone, the dark skirt remains active, and Lyssa is out without leaving a note. Greg buys two onions and is recognized by the onion seller as the customer who previously stood too long deciding how many to buy; she still does not establish his name or any larger reputation.
+- Greg reports for his six-line `Man with flowers` role in **The Wrong Funeral**. The compact premise is two funeral parties assigned adjoining rooms with a movable name board hung on the wrong door; nobody wants to admit the confusion after already behaving solemnly among strangers.
+- Marek's earlier `borrowing` of the long flower spray produces useful information: the funeral doorway catches the flowers if carried upright once the side table is in place. He learned this by getting hit in the face by a cloth lily. Nessa compresses the route to `Sideways through the door, upright after.` Marek is funny but also genuinely useful.
+- Teren gives Greg a fresh narrow acting correction. Greg initially plays the delivery man too solemnly; Teren says `You're working` and `Again. Less funeral.` Greg's character wants a name, a completed delivery, and the next job, not ownership of the room's grief.
+- Greg initially places the long spray at the easiest point for his body but blocks Hara's exit. Jori solves the shared geometry by moving the black bench two inches left, which preserves Greg's practical placement and Hara's exit. Hara tests the route, Teren approves, and no accommodation speech occurs.
+- Davin accidentally paints the same dead man's name on both sides of the reversible name board because he copied the other side. Jori directs a practical scrape/chalk/paint repair rather than wet-painting over the mistake. By performance the board works; later Davin carries it with the wet side safely away from other objects while Jori still watches.
+- Greg's right palm becomes ordinarily worked from the long spray/crutch grip. He redistributes the load during reset and later finishes the day with a worked, not injured, right hand. No pain, weakness, tingling, or new body problem is established.
+- Before **The Wrong Funeral**, Greg works the right property table for an earlier piece with compressed Nessa shorthand and no new role. This reinforces reduced supervision and ordinary backstage competence.
+- Performance: Greg's six-line flower-delivery scene works cleanly. Hara's widow gets a strong laugh with `You have misplaced my funeral.` A white cloth lily then falls from Greg's spray. Greg does not stop the moving scene to retrieve it. Hara later picks it up and improvises `At least one thing arrived for him.` The audience hits hard; the strongest recovery/performance beat belongs to Hara.
+- Other distributed recovery remains visible: Pell catches a falling candle, Jori stops Davin from bringing the wrong chair, Hara quietly feeds Marek the first two words after he loses a line, and Marek recovers.
+- Nessa repairs the loose lily during cleanup. Greg and Marek retain a tiny `Theatre education` joke from the doorway/lily problem without turning it into a doctrine.
+- The repaired theatre cart makes an ordinary furniture run and returns normally. No watcher, damage, or sabotage appears.
+- Rinna's entire pressure-adjacent update is that Olin sent the oil, with nothing else attached. This is ordinary supply continuity, not a new warning or clue.
+- Rinna pays Greg the normal one copper for theatre work. No debt arithmetic follows.
+- Jori expects Greg the next morning for continued window-trim work. The exchange is compressed: `Tomorrow morning?` / `Window trim.` / `You know when I get here.` Greg does know when Jori arrives.
+- At home the dark skirt is gone. A folded blue-gray cloth is present, but Lyssa establishes only that it is old cloth and new to Greg; its customer/job status remains unknown. Lyssa returns tired with no bundle, shares Greg's roasted beans, asks briefly about the flowers, and laughs at Davin's name-board mistake. Greg does not turn her fatigue into a medical issue or make her his theatre analyst.
+- Final beat: someone upstairs drops something heavy; the household hanging cup does not tremble, and Greg does not check. No magic claim follows.
+
+## Immediate next edge — Chapter 229
+Primary recommendation: **LET THE FULL THEATRE DAY BREATHE. USE THE ALREADY-EARNED WINDOW-TRIM SHORTHAND AS A SMALL ANCHOR IF USEFUL, THEN ROTATE TOWARD ORDINARY HOUSEHOLD / CITY / PEOPLE OR ANOTHER ENGINE THAT ACTUALLY HAS PRESSURE.**
 
 Reasons:
-- Ch227 delivered a full commercial/Vale workday and legitimate debt movement; repeating bundle/account procedure immediately risks flattening ordinary work into a job ladder;
-- Ch226 was the last Hessa chapter and Ch227 gave magic one full chapter of breathing room, but Hessa ended undecided and there is no need to force her return yet;
-- Ch227 already gives Greg a specific next-day theatre obligation: six lines as `Man with flowers` in **The Wrong Funeral**;
-- theatre has not had a full performance since Ch225, and Ch227 only touched it briefly;
-- the pressure arc has now remained quiet through Chapters 224–227, so a small grounded commercial update may arrive if it naturally intersects the theatre day, but no escalation is required merely because four chapters have passed.
+- Ch228 is a full rehearsal/performance/workplace chapter, so another major performance immediately risks overconcentrating theatre;
+- Ch227 was a full Vale day, so Vale procedural work should also rest unless a small natural consequence arrives;
+- Hessa has now been off-page for two full chapters after Ch226. She may return if a narrow next question has actually been chosen, but the manuscript does not require her return on a timer and her several possible questions remain unrevealed;
+- external pressure has remained quiet through Chapters 224–228. It may move with one grounded commercial fact if that naturally reaches Rinna or the existing network, but five quiet chapters still do not create an escalation quota;
+- Lyssa's work continues to turn over off-page and can support an ordinary social/household chapter without freezing the blue-gray cloth into a customer job or inventing the Ch227 customer's source.
 
-Strong Chapter 228 direction:
-- center the theatre as a lived workplace/social organism rather than a skills lesson;
-- use **The Wrong Funeral** and the flower problem only as much as they generate real rehearsal/performance/workplace life;
-- Greg's six-line role should remain modest. Do not turn it into another major acting breakthrough or repeat Ch225's `helping too early` lesson;
-- let another actor/worker own the strongest performance beat or practical solution if one emerges;
-- allow accumulated shorthand: Greg knows routes/where to put crutches/what Nessa means with fewer words; Nessa, Jori, Rinna, Teren, Marek, Hara, Pell, Davin may have their own ongoing work and interactions;
-- Marek's `borrowed` flowers can be a small object-route problem if useful, but do not build a callback parade or make him a permanent idiot;
-- Vale should rest unless a tiny consequence naturally follows. Do not repeat bundle work or narrate the debt again in detail;
-- Hessa may remain off-page. No new magic attempts preferred unless newer GitHub authority changes the rhythm;
-- Lyssa's work continues independently. The unnamed pale-coat customer may remain one-off. Do not invent a referral source or customer network explanation merely because the customer was new;
-- if external pressure moves, one grounded fact delivered through Rinna's existing network is enough. No Bren appearance required, no Mason's Cut chase, no robbery/ambush declaration, no Vale connection.
+Strong Chapter 229 possibilities:
+- begin with the already-earned morning window-trim work with Jori, but keep it ordinary and compact rather than creating another theatre lesson;
+- then let Greg move through Carrow, household obligations, food, money, an errand, a friend/worker relationship, or a small social consequence that exists because people now know him in different partial ways;
+- Hessa can return if current GitHub authority or the chapter's natural day gives her a chosen bounded question. If so, preserve evidence discipline and do not turn `several` into a power ladder;
+- if external pressure moves, one concrete supplier/business fact is enough. No Bren confrontation, Mason's Cut chase, robbery declaration, organization reveal, or Vale connection;
+- Vale remains available for future suitable work but should not become Greg's automatic daily job.
 
-Possible clean shape: morning household with Lyssa's work already in motion → theatre arrival/rehearsal for **The Wrong Funeral** → ordinary prop/flower route or another company problem → six-line role/performance or preparation → distributed recovery/competence and social residue → small after-work material/relationship beat. End on life continuing, not a cliffhanger.
+Do not mechanically use every possibility. Prefer the chapter that creates the most life per word and leaves the current city/relationship/work engines feeling accumulated rather than rotated by checklist.
 
 ## Chat / handoff behavior
 After each completed chapter:
