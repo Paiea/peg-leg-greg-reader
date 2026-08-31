@@ -1,0 +1,44 @@
+name: One-shot append Chapter 230
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/append-ch230-once.yml
+permissions:
+  contents: write
+jobs:
+  append:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Append verified chapter
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          manuscript = Path('state/manuscript/Peg_Leg_Greg_Running_Manuscript.md')
+          payload = Path('state/manuscript/.ch230_append.tmp')
+          text = manuscript.read_text()
+          chapter = payload.read_text()
+          assert '# CHAPTER 229' in text, 'Chapter 229 missing'
+          assert '# CHAPTER 230' not in text, 'Chapter 230 already exists'
+          assert chapter.count('—') == 0, 'em dash in Chapter 230'
+          words = len(re.findall(r"\b[\w’'-]+\b", chapter))
+          assert 2500 <= words <= 4000, words
+          manuscript.write_text(text.rstrip() + '\n\n' + chapter.lstrip())
+          print('chapter_words', words)
+          print('em_dashes', chapter.count('—'))
+          PY
+      - name: Remove one-shot files
+        run: rm state/manuscript/.ch230_append.tmp .github/workflows/append-ch230-once.yml
+      - name: Commit append
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/manuscript/Peg_Leg_Greg_Running_Manuscript.md state/manuscript/.ch230_append.tmp .github/workflows/append-ch230-once.yml
+          git diff --cached --check
+          git commit -m "Append Chapter 230: THE REPLICATE"
+          git push origin HEAD:main
