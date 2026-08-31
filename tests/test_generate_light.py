@@ -106,6 +106,31 @@ class GenerateLightTests(unittest.TestCase):
         self.assertNotEqual(drift.returncode, 0)
         self.assertIn('prose mismatch', drift.stderr.lower())
 
+    def test_current_removes_static_page_when_source_is_withdrawn(self):
+        root = self.with_repo()
+        first = run('current', cwd=root)
+        self.assertEqual(first.returncode, 0, first.stderr)
+        self.assertTrue((root / 'light/221.html').exists())
+        running = (root / 'state/manuscript/Peg_Leg_Greg_Running_Manuscript.md')
+        running.write_text(RUNNING.split('# CHAPTER 221', 1)[0].rstrip() + '\n', encoding='utf-8')
+        second = run('current', cwd=root)
+        self.assertEqual(second.returncode, 0, second.stderr)
+        self.assertFalse((root / 'light/221.html').exists())
+        manifest = json.loads((root / 'light/manifest.json').read_text(encoding='utf-8'))
+        latest = (root / 'latest.html').read_text(encoding='utf-8')
+        self.assertEqual(manifest['latest'], 220)
+        self.assertEqual([c['number'] for c in manifest['chapters']], [220])
+        self.assertIn('light/220.html', latest)
+
+    def test_verifier_rejects_orphan_numeric_light_page(self):
+        root = self.with_repo()
+        generated = run('current', cwd=root)
+        self.assertEqual(generated.returncode, 0, generated.stderr)
+        (root / 'light/999.html').write_text('<!doctype html><p>stale</p>', encoding='utf-8')
+        check = run_verify('current', cwd=root)
+        self.assertNotEqual(check.returncode, 0)
+        self.assertIn('orphan', check.stderr.lower())
+
     def test_compat_reader_does_not_download_project_brain_or_expose_internal_jargon(self):
         script = (ROOT / 'assets/light-reader.js').read_text(encoding='utf-8').lower()
         self.assertNotIn('peg_leg_greg_running_manuscript.md', script)
