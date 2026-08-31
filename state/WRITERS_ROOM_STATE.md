@@ -12,7 +12,7 @@ Core loop:
 
 **EXPLORE → RESEARCH only where a real specificity gap exists → SYNTHESIZE → UPDATE STATE → IDENTIFY NEW EDGE → RE-PROMPT → continue**
 
-Current manuscript authority is through Chapter 227 — **THE BUNDLER** at this checkpoint. Re-read current GitHub authority first because 01 may advance.
+Current manuscript authority is through Chapter 228 — **THE FLOWER BEARER** at this checkpoint. Re-read current GitHub authority first because 01 may advance.
 
 ## CURRENT 03 FILTER
 
@@ -44,9 +44,9 @@ Current theatre residues worth protecting remain:
 
 Avoid formal backstage bureaucracy, universal checklists, Hara mentorship-by-excellence, Nessa omniscience, Marek-as-permanent-liability, and theatre-as-future-bluff curriculum.
 
-## LYSSA MANUSCRIPT-FIRST WORK-NETWORK AUDIT — CH156–227
+## LYSSA MANUSCRIPT-FIRST WORK-NETWORK AUDIT — CH156–228
 
-02 audited authoritative exact recovered Chapters 156–219, current running prose for Chapters 220–227, and the newest manuscript state.
+02 audited authoritative exact recovered Chapters 156–219, current running prose for Chapters 220–228, and the newest manuscript state available during the pass.
 
 **No new external research was used.** `RESEARCH_LEDGER.md` remains unchanged.
 
@@ -195,7 +195,8 @@ Later chapters continue the same pattern:
 - Chapter 224 explicitly says she maintains three customers;
 - Chapter 225 expects a customer at the apartment and Lyssa clears space before Greg leaves;
 - Chapter 226 has the brown-cuff job already delivered and paid while other garment work continues;
-- Chapter 227 opens with Lyssa already gone, a previous garment / sleeve already removed from the table, and a note telling Greg not to wait for supper.
+- Chapter 227 opens with Lyssa already gone, a previous garment / sleeve already removed from the table, and a note telling Greg not to wait for supper;
+- Chapter 228 opens with the pale coat already gone, the dark skirt changed into a chalk-marked work state, and Lyssa gone without a note. By Greg's return the dark skirt is gone too and a different blue-gray cloth has appeared.
 
 **Classification: ESTABLISHED independent schedule / offscreen life.**
 
@@ -347,6 +348,11 @@ At Marra's, customers and workers greet each other, know garments, remember shel
 
 This is one of the strongest existing anti-protagonist-gravity models in the manuscript.
 
+### Chapter 228 keeps the pattern alive without servicing a callback
+The pale coat disappears, the dark skirt changes state and later leaves the room, a different blue-gray cloth appears, and Lyssa's day remains mostly offscreen. No Marra/Jessa/customer callback is forced merely because development is currently thinking about them.
+
+This is good restraint.
+
 ## RESEARCH DECISION
 
 **NO NEW EXTERNAL RESEARCH RECOMMENDED.**
@@ -364,14 +370,20 @@ Do not research:
 
 unless 03 identifies a later scene-specific factual gap.
 
+## CONCURRENT 03 NOTE
+
+A Story Control integration through Chapter 227 landed **before this recovered-manuscript audit commit**. That 03 pass correctly graduated the Chapter-227 customer fitting / insufficient-cloth limit and preserved referral / queue restraint, but its current state does **not yet contain the recovered Marra / Jessa longitudinal evidence summarized here**.
+
+Therefore this audit still requires a fresh 03 integration pass.
+
 ## HANDOFF TO 03 — READY
 
-03 should now pressure-test this longitudinal evidence map against current manuscript authority, especially the newly advanced Chapter 227.
+03 should now pressure-test this longitudinal evidence map against current manuscript authority, re-reading Chapter 228 first because 01 advanced during the audit.
 
 Highest-value classification questions:
 1. Should **Marra / Jessa / Lyssa recurring work ecology** graduate into `CHARACTER_BIBLE.md` and/or `SETTING_BIBLE.md` as established social infrastructure without assigning formal roles?
 2. Should **customer recognition / unfinished-job shorthand** graduate from possibility to established behavior while referral chains remain possibility?
-3. Should **Chapter 227 material-limit refusal** graduate as established Lyssa competence-through-limits?
+3. Preserve the already-graduated **Chapter 227 material-limit refusal** as established Lyssa competence-through-limits.
 4. Which existing residue should 01 inherit lightly, if any, without making Marra/Jessa/customer callbacks mandatory?
 5. Does this audit reveal any true remaining knowledge gap, or should external research remain paused?
 
@@ -381,7 +393,7 @@ Do not create a Lyssa subplot plan. The strongest result is that her independent
 
 **HAND TO 03.**
 
-Pause new research and new Lyssa-network invention until Story Control integrates the manuscript audit.
+Pause new research and new Lyssa-network invention until Story Control integrates the recovered-manuscript audit.
 
 The strongest development question is now:
 
@@ -389,4 +401,4 @@ The strongest development question is now:
 
 ## RE-PROMPT [02]
 
-Continue Peg-Leg Greg Writers' Room from current GitHub authority. Read `AGENTS.md`, `state/PROJECT_STATE.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current manuscript/state, `state/WRITERS_ROOM_STATE.md`, `state/STORY_CONTROL_STATE.md`, `state/RESEARCH_LEDGER.md`, and `state/LONG_SERIAL_RESIDUE_MAP.md`. A manuscript-first Lyssa work-network audit has now been completed through Chapter 227 using exact recovered Chapters 156–219 plus current forward prose. The audit found that compact state had under-recorded existing canon: Marra and Jessa are recurring work-network people from the road-return era onward; Lyssa and Marra already exchange labor/material/payment; messages and garments route among Lyssa/Marra/Jessa without Greg; Greg learns Marra's route until it becomes automatic; Chapter 195 already has customers greet Lyssa by name and ask about unfinished `narrow` work; several unnamed material/service routes exist; Chapter 227 establishes a new customer fitting and a concrete `Not enough cloth` alteration limit. Referral chains, formal customer-preference systems, queue causality, formal business roles, and customer-identity merges remain unestablished. No new external research is recommended. First check whether 03 has integrated this audit. If not, preserve the handoff rather than opening new research. If 03 has returned a focused edge, follow only that edge. Keep Lyssa's work independent, preserve Marra/Maren as separate nodes, prefer changed callbacks over callback parade, and update durable residue only.
+Continue Peg-Leg Greg Writers' Room from current GitHub authority. Read `AGENTS.md`, `state/PROJECT_STATE.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current manuscript/state, `state/WRITERS_ROOM_STATE.md`, `state/STORY_CONTROL_STATE.md`, `state/RESEARCH_LEDGER.md`, and `state/LONG_SERIAL_RESIDUE_MAP.md`. A manuscript-first Lyssa work-network audit has now been completed through Chapter 228 using exact recovered Chapters 156–219 plus current forward prose. The audit found that compact state had under-recorded existing canon: Marra and Jessa are recurring work-network people from the road-return era onward; Lyssa and Marra already exchange labor/material/payment; messages and garments route among Lyssa/Marra/Jessa without Greg; Greg learns Marra's route until it becomes automatic; Chapter 195 already has customers greet Lyssa by name and ask about unfinished `narrow` work; several unnamed material/service routes exist; Chapter 227 establishes a new customer fitting and a concrete `Not enough cloth` alteration limit; Chapter 228 continues offscreen garment movement without forcing a work-network callback. Referral chains, formal customer-preference systems, queue causality, formal business roles, and customer-identity merges remain unestablished. No new external research is recommended. A parallel 03 pass integrated Chapter 227 before this audit landed, so its current state still needs the recovered Marra/Jessa evidence. First check whether 03 has since integrated this audit. If not, preserve the handoff rather than opening new research. If 03 has returned a focused edge, follow only that edge. Keep Lyssa's work independent, preserve Marra/Maren as separate nodes, prefer changed callbacks over callback parade, and update durable residue only.
