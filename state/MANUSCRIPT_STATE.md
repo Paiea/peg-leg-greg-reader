@@ -259,24 +259,6 @@ Strong Chapter 233 possibilities:
 - one grounded pressure fact only if it reaches Greg naturally through an established person or business.
 
 Preserve magic counts 33 / 29 / 45 and all restrictions. Preserve the debt as active with exact balance known in-world but unstated. Do not turn acknowledgment matching into a general detective skill or Ch232's office rules into universal bookkeeping.
-Primary recommendation: **LET THE FULL CH231 THEATRE / PERFORMANCE DAY BREATHE. MOVE ONLY THE ENGINE THAT HAS REAL DAILY PRESSURE.**
-
-Reasons:
-- Ch231 is a complete rehearsal/performance/workplace chapter immediately after the dense Ch230 magic session; another full performance would overconcentrate theatre even though the company remains available as ordinary background life;
-- Hessa has no chosen next experiment after Ch230, and Ch231 correctly leaves 33 / 29 / 45 untouched. Do not reopen magic on a timer;
-- Vale has rested since Ch227. Suitable office work can recur if Greg has a concrete work/money reason, but there is still no guaranteed schedule, post, or rate;
-- external pressure remains quiet through Ch231. A grounded new fact may arrive through an established commercial contact, but the quiet stretch is not an escalation quota and Greg should not investigate merely because time passed;
-- Lyssa's narrow brown cloth remains deliberately undefined and unchanged through Ch231. It can continue to exist without being explained, while her work/life remains independent off-page;
-- ordinary Carrow, food, money, errands, friendships, body costs, and household rhythm remain full story engines rather than filler.
-
-Strong Chapter 232 possibilities:
-- a Vale/money/work day if Greg has an actual reason to seek suitable labor;
-- an ordinary city/social/household day that lets both theatre and magic breathe while Lyssa continues independently;
-- one grounded external-pressure fact only if it naturally reaches an existing business/theatre relationship, with no invented plan or investigation;
-- theatre may appear briefly as workplace texture or an obligation, but avoid another full rehearsal/performance unless the current day genuinely demands it.
-
-Preserve magic counts 33 / 29 / 45 and all restrictions. Preserve the brown-cloth and cuff uncertainty unless new prose genuinely needs movement. Do not turn Ch231's acting correction into a universal life lesson.
-
 ## Chat / handoff behavior
 After each completed chapter:
 1. update permanent manuscript;
