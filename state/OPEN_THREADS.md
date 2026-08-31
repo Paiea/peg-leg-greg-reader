@@ -1,9 +1,9 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Current endpoint:** Chapter 228 — **THE FLOWER BEARER**.
+- **Current endpoint:** Chapter 229 — **THE ROAD ONE**.
 - **Permanent forward manuscript:** `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`. Chapters 156–219 still need exact-text synchronization into the permanent manuscript; Chapter 220+ writes directly here. Light Reader synchronization is a separate downstream concern.
 - **Engine method:** `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves durable 01 behavior and recovery instructions.
-- **Magic counts:** ACTIVE at 32 supervised minimal draws / 28 deliberate shaping attempts / 41 external-effect attempts. Chapters 227–228 contain no magic attempt.
+- **Magic counts:** ACTIVE at 32 supervised minimal draws / 28 deliberate shaping attempts / 41 external-effect attempts. Chapters 227–229 contain no magic attempt.
 - **Latest comparison protocol:** Ch226 predeclares FAR → INTERMEDIATE → FAR → INTERMEDIATE, AWAY only, same target/control/glass/body setup.
 - **Attempt 38:** FAR/AWAY, no observed response, control unchanged.
 - **Attempt 39:** INTERMEDIATE/AWAY, small observed target response, net AWAY, minor rotation, control unchanged.
@@ -11,7 +11,7 @@
 - **Attempt 41:** INTERMEDIATE/AWAY, small observed target response, net AWAY, no obvious rotation, control unchanged.
 - **Current distance interpretation:** the apparent INTERMEDIATE/FAR difference remains supported under the current apparatus. INTERMEDIATE continues to produce observed response more consistently than FAR. Earlier clean FAR responses across separate sessions remain real, but FAR reliability is unestablished. Attempt 40 does not strengthen FAR-response evidence. No range established. Not generalized.
 - **Magic restrictions:** unchanged. No independent draw, shaping, external testing, paper, coins, thread, larger objects, practice, Barrier broadening, theatrical magic, or loopholes.
-- **Next magic question:** Hessa says she has several possible questions but has not chosen one because the record changed. Chapters 227–228 let this remain unresolved. Do not convert it into a test ladder.
+- **Next magic question:** Hessa says she has several possible questions but has not chosen one because the record changed. Chapters 227–229 let this remain unresolved. Do not convert it into a test ladder.
 - **Theatre:** Ch228 is a full **The Wrong Funeral** rehearsal/performance/workplace chapter. Greg performs six lines as `Man with flowers` and a later unlined basket pickup. Hara owns the strongest live recovery and audience beat.
 - **Latest acting correction:** Teren corrects Greg for playing a working flower deliverer as though he personally owns the funeral's grief: `You're working.` / `Again. Less funeral.` Keep this narrow and playable, not a life philosophy.
 - **Flower route / Marek:** Marek's earlier `borrowing` discovers that the long spray catches the funeral doorway upright. He learns it by taking a cloth lily to the face; Nessa compresses the route to `Sideways through the door, upright after.` Marek is genuinely useful here rather than permanent comic liability.
@@ -20,10 +20,10 @@
 - **Loose lily / Hara recovery:** a white cloth lily falls from Greg's spray during performance. Greg leaves it rather than stopping the scene. Hara later picks it up and improvises `At least one thing arrived for him.` Nessa repairs the lily after the show.
 - **Backstage competence:** Ch228 reinforces reduced supervision: Greg knows alternate routes, Nessa gives compressed property-table instructions, Jori/Greg move awkward objects with little explanation, and workers adjust lanes/geometry as ordinary work.
 - **Repurposed cups:** two discarded household cups from Ch224 remain painted stage property in the `STAGE ONLY` box. No Ch228 movement; do not force a callback.
-- **Crutch maintenance:** one worn LEFT tip replaced Ch223; it remains normal through Ch228.
-- **Body:** Ch228 the side of Greg's right palm/right hand becomes ordinarily worked from long flowers, props, baskets, crutches, and carrying. He redistributes load during reset. No pain, weakness, tingling, residual-limb issue, or injury.
+- **Crutch maintenance:** one worn LEFT tip replaced Ch223; it remains normal through Ch229.
+- **Body:** Ch228 the side of Greg's right palm/right hand becomes ordinarily worked from long flowers, props, baskets, crutches, and carrying. He redistributes load during reset. Ch229 it is normal again. No pain, weakness, tingling, residual-limb issue, or injury.
 - **Theatre cart maintenance:** ordinary cracked brace repaired Ch224. Ch228 cart performs an ordinary furniture run and returns normally. No sabotage or watcher established.
-- **Next theatre shorthand:** Jori expects Greg the next morning for continued window trim: `Tomorrow morning?` / `Window trim.` / `You know when I get here.` Greg does know. This is a concrete obligation but does not require another full theatre chapter.
+- **Next theatre shorthand:** Jori expects Greg the next morning for continued window trim: `Tomorrow morning?` / `Window trim.` / `You know when I get here.` Greg does know. Ch229 pays this off as compact ordinary work; Jori ends with only `Tomorrow maybe`, not a firm next obligation.
 - **Rinna / commercial defense:** ACTIVE. Actual suppliers/service people verify claims directly with Rinna and avoid giving strangers useful operational/payment information.
 - **Warning-network payoff #1:** Olin reports money-handling questions and gives no useful answers.
 - **Warning-network payoff #2:** Ch223 cart repair man reports questions about late-show cart movement/same driver and gives no theatre hours/routine.
@@ -32,13 +32,19 @@
 - **Evidence ceiling:** NO robbery, ambush, cart target, Bren employment, organization, gang, boss, or specific plan established.
 - **Mason's Cut:** Olin's boy saw brown-coat man walking toward Mason's Cut but did not see him enter. Direction only. No base/residence/territory claim.
 - **Bren:** probable name of close-haired heavy-coat spokesman with left glove. One-copper demand refused Ch218. `Next time won't be one.` No surname, boss, organization, or violence established.
-- **Threat restraint:** Chapters 224–228 contain no new warning, demand, appearance, violence, sabotage, or investigation. Ch228 Olin simply sends ordinary oil with no message or warning attached.
+- **Threat restraint:** Chapters 224–229 contain no new warning, demand, appearance, violence, sabotage, or investigation. Ch228 Olin simply sends ordinary oil with no message or warning attached.
 - **Quiet defensive residue:** cash handling less visible; cart-departure information not casually shared; no guards, escorts, traps, patrols, or spy network.
-- **Vale debt:** ACTIVE. Exact balance known in-world but unstated. One-copper payment made Ch218. Ch224 suitable invoice/tally work produces legitimate credit. Ch227 different suitable office work produces another legitimate credit. Ch228 has no Vale movement. Debt remains unresolved.
+- **Vale debt:** ACTIVE. Exact balance known in-world but unstated. One-copper payment made Ch218. Ch224 suitable invoice/tally work produces legitimate credit. Ch227 different suitable office work produces another legitimate credit. Chapters 228–229 have no Vale movement. Debt remains unresolved.
 - **Vale work route:** Ch227 establishes ordinary outgoing packet bundling as work that happens most days when needed. Greg has no guaranteed post, schedule, rate, or promotion.
 - **Vale / Bren firewall:** no Vale/Bren connection established.
-- **Greg / Lyssa:** Lyssa's work continues offscreen and independently. The Ch227 pale-coat customer/source remains unexplained. In Ch228 the pale coat is gone by morning; the dark skirt moves off-page by evening. A folded blue-gray cloth appears, but Lyssa establishes only that it is old cloth and new to Greg; its customer/job status is unknown.
-- **Lyssa fatigue:** Ch228 Lyssa comes home tired and rubs one wrist briefly. No injury is established. Greg does not medicalize or manage her work.
+- **Greg / Lyssa:** Lyssa's work continues offscreen and independently. The Ch227 pale-coat customer/source remains unexplained. In Ch228 the pale coat is gone by morning; the dark skirt moves off-page by evening. A folded blue-gray cloth appears, but Lyssa establishes only that it is old cloth and new to Greg; Ch229 routes it to Marra without establishing customer, garment, ownership, or use.
+- **Lyssa fatigue:** Ch228 Lyssa comes home tired and rubs one wrist briefly. Ch229 she sleeps later than Greg and then works on the north side; no injury is established. Greg does not medicalize or manage her work.
 - **Onion seller recognition:** Ch228 the onion seller remembers Greg as the customer who previously stood too long deciding how many onions to buy. She does not establish his name or a broader reputation. Keep this as tiny Carrow social memory, not celebrity progression.
-- **Next engine rotation:** let the full Ch228 theatre day breathe. The already-earned window-trim morning can be a small anchor, then household/city/people are strong. Hessa may return after two breathing chapters if she has a genuinely bounded next question, but not on a timer. External pressure may move with one grounded fact, but five quiet chapters do not create an escalation quota. Vale procedural work should rest.
+- **Next engine rotation:** let the Ch229 Lyssa/Marra/Jessa work-network chapter breathe. Hessa may return after three breathing chapters if she has a genuinely bounded next question, but not on a timer. External pressure may move with one grounded fact, but six quiet chapters do not create an escalation quota. Vale and another full performance remain available without becoming automatic.
+- **Ch229 Marra route:** Greg carries the still-undefined blue-gray cloth to Marra after brief window-trim work. He knows the green-door route and work lane without directions; Marra still calls him `the road one`.
+- **Ch229 blue-gray cloth ceiling:** Jessa finds two short chalk marks near an edge and calls the cloth `Marked`. Its customer, garment, ownership, intended use, and the exact meaning of the marks remain unestablished.
+- **Ch229 Lyssa network:** Marra/Jessa/customer traffic continues without Greg. An unnamed customer asks for Lyssa and says tomorrow afternoon is fine; Jessa later finds Lyssa independently. Do not assign formal Marra/Jessa roles or merge the customer with earlier unnamed/referral customers.
+- **Ch229 shorthand:** `West?` / `Already.` is work-specific Marra/Jessa shorthand whose referent is not established. Preserve opacity rather than inventing the route/job behind it.
+- **Ch229 theatre:** only compact Jori window-trim work; no role or performance. Greg uses compressed side-door/workbench routine and ordinary load management. Nessa says the Ch228 flowers are repaired.
+- **Ch229 household:** Lyssa's prior tiredness remains ordinary, not injury. Greg's Ch228 worked palm is normal. The chapter ends with the table used only for shared supper, with no active cloth/customer on it.
 - **Long-range theatre direction:** THEATRE → PERFORMANCE → MISDIRECTION → ILLUSION → MASKS → CONTROL OF PERCEPTION → eventual dangerous bluff. Directional only; visible theatre remains FUN → PEOPLE → WORKPLACE → ACTING → STAGECRAFT → FAILURE → ANOTHER TURN.

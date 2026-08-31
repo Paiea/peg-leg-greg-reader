@@ -1,6 +1,6 @@
 # PEG-LEG GREG — CHAPTER INDEX — CH228
 
-**Current endpoint:** Chapter 228 — THE FLOWER BEARER
+**Current endpoint:** Chapter 229 — THE ROAD ONE
 
 1. **THE BOY**
 2. **THE BORROWER**
@@ -230,3 +230,4 @@
 226. **THE REFERENCE**
 227. **THE BUNDLER**
 228. **THE FLOWER BEARER**
+229. **THE ROAD ONE**
