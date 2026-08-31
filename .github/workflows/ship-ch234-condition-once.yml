@@ -1,0 +1,46 @@
+name: One-shot ship Chapter 234
+on:
+  push:
+    branches: [manuscript/ch234-condition]
+    paths:
+      - state/.ship_ch234_condition.py
+permissions:
+  contents: write
+jobs:
+  ship:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Append chapter and sync state
+        run: python state/.ship_ch234_condition.py
+      - name: Remove one-shot files
+        run: rm state/.ship_ch234_condition.py .github/workflows/ship-ch234-condition-once.yml
+      - name: Verify and commit
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          m = Path('state/manuscript/Peg_Leg_Greg_Running_Manuscript.md').read_text()
+          assert m.count('# CHAPTER 234') == 1
+          ch = m[m.index('# CHAPTER 234'):]
+          assert '## THE CONDITION' in ch
+          assert ch.count('—') == 0
+          words = len(re.findall(r"\b[\w’'-]+\b", ch))
+          assert 2500 <= words <= 4000, words
+          assert 'Current story endpoint: Chapter 234' in Path('state/MANUSCRIPT_STATE.md').read_text()
+          assert '49 supervised external-effect attempts' in Path('state/MANUSCRIPT_STATE.md').read_text()
+          assert '234. **THE CONDITION**' in Path('state/MANUSCRIPT_CHAPTER_INDEX.md').read_text()
+          assert 'Chapter 234 — **THE CONDITION**.' in Path('state/MANUSCRIPT_WORKFLOW.md').read_text()
+          assert 'Current recorded story endpoint is Chapter 234 — **THE CONDITION**.' in Path('state/PROJECT_STATE.md').read_text()
+          print('chapter_words', words)
+          print('em_dashes', ch.count('—'))
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/manuscript/Peg_Leg_Greg_Running_Manuscript.md state/MANUSCRIPT_STATE.md state/OPEN_THREADS.md state/MANUSCRIPT_CHAPTER_INDEX.md state/MANUSCRIPT_WORKFLOW.md state/PROJECT_STATE.md state/.ship_ch234_condition.py .github/workflows/ship-ch234-condition-once.yml
+          git diff --cached --check
+          git commit -m "Ship Chapter 234: THE CONDITION"
+          git push origin HEAD:manuscript/ch234-condition
