@@ -35,9 +35,11 @@ Repeated work can also reduce supervision around Greg without making him the bes
 - Current work life includes customer visits at the apartment, jobs completed/delivered while Greg is elsewhere, payment, several unrelated garments moving through the table, and ordinary material errands.
 - Chapter 225–226 establishes paid customer-requested rework at the narrow behavioral level: the brown-cuff customer changes the cuff after completion, changes it again, Lyssa charges for both changes, delivers the job, gets paid, hears that the first cuff was prettier, and moves on.
 - Chapter 222 establishes Maren as a useful garment/thread supply route for her. Greg can bring a cloth sample for matching; Lyssa later says `Maren usually does.` Do not inflate this into an invented personal supplier relationship or assume the seller knows Lyssa unless prose establishes it.
+- Chapter 227 establishes another unnamed customer being fitted in the apartment while Greg arrives after the work is already underway. Lyssa pins the pale coat near the hem and immediately refuses one requested additional narrowing point because there is not enough cloth there. This establishes customer-present fitting and one concrete material constraint/refusal, not a universal fitting doctrine or refusal/pricing policy.
+- The Chapter 227 customer's source remains unknown. Greg asks how the woman came to Lyssa; Lyssa only says she needed a coat changed. Do not invent a referral chain.
 - Current prose visibly uses pins, seams, lining, buttons, chalk marks, folded/pinned cloth, opened garments, and multiple sleeves as work-in-progress texture. Do not retroactively assign a specific fitting/confirmation meaning to every state.
 - Greg may notice patterns in her work but should not become her business manager, alteration analyst, or automatic courier.
-- Repeat/referral customers, remembered fit preferences, specific queue consequences, refusal/repricing limits, and formal fitting stages remain possibilities until prose establishes them.
+- Repeat/referral customers, remembered fit preferences, specific queue consequences, formal generalized fitting stages, and broader repricing/refusal rules remain possibilities until prose establishes them.
 - Do not route her into theatre wardrobe merely because she can sew; any overlap requires an earned customer/job/relationship connection.
 - Do not flatten her into Greg's sounding board, permanent caretaker, exposition receiver, or person who exists only when Greg comes home.
 
