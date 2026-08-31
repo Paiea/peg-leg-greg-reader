@@ -119,6 +119,6 @@ GitHub provides durable continuity. The re-prompt gives the next writing session
 
 ## Current edge
 
-Chapter 223 — **THE MAINTENANCE MAN**.
+Chapter 224 — **THE CHECKER**.
 
-See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 224 edge.
+See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 225 edge.
