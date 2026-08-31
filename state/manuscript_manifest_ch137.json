@@ -1,0 +1,8 @@
+{
+  "checkpoint": "ch137",
+  "authority_rule": "Chapters 1-123 locked; handoff overlap rejected; only Chapters 124-137 integrated forward.",
+  "book1": {"path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx", "sha256": "5041ec36c61cbad6f80bf43cbd22ea55c7a2f4daa54bab43dd1be70971d36113", "chapters": "1-82", "status": "closed"},
+  "book2": {"path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx", "sha256": "1cc2f67ff37ec7169ce012877f3001ef7feeefbb25b52f3b754942bcb6d705bb", "chapters": "83-137", "status": "active"},
+  "endpoint": {"chapter": 137, "title": "THE SHAPE"},
+  "reader": {"chapters": "1-137"}
+}

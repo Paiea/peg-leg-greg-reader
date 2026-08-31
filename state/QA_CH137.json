@@ -1,0 +1,20 @@
+{
+  "checkpoint": "ch137",
+  "status": "pass",
+  "locked_range": "1-123",
+  "integrated_range": "124-137",
+  "reader_chapters": 137,
+  "toc_entries": 137,
+  "endpoint": "Chapter 137 — THE SHAPE",
+  "checks": {
+    "locked_book2_prefix_matches_ch123_authority": true,
+    "chapter_order_complete": true,
+    "reader_navigation_complete": true,
+    "canonical_lyssa_spelling": true,
+    "art_references_resolve": true,
+    "unit_tests": "pass",
+    "docx_render": "734 pages rendered; Chapter 124 seam and Chapter 137 endpoint visually inspected",
+    "external_magic_effect_established": false
+  },
+  "book2_sha256": "1cc2f67ff37ec7169ce012877f3001ef7feeefbb25b52f3b754942bcb6d705bb"
+}
