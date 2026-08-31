@@ -12,7 +12,7 @@ Core loop:
 
 **INTEGRATE → PRESSURE-TEST → CLASSIFY → UPDATE DURABLE BRAINS → IDENTIFY NEW EDGE → RE-PROMPT → continue**
 
-Current manuscript authority at this checkpoint: Chapter 228 — **THE FLOWER BEARER**. Re-read current GitHub authority first because 01 may advance.
+Current manuscript authority at this checkpoint: Chapter 229 — **THE ROAD ONE**. Re-read current GitHub authority first because 01 may advance.
 
 Integrated development waves:
 1. theatre rehearsal notes / recovery / shorthand
@@ -20,9 +20,10 @@ Integrated development waves:
 3. theatre prop routes / costume tracks / running repairs
 4. Lyssa alteration / rework workflow / customer-network research
 5. long-serial residue pressure test
-6. Lyssa recovered-manuscript work-network archaeology through Chapter 228
+6. Lyssa recovered-manuscript work-network archaeology
 7. Lyssa selective-continuity pressure test
-8. Jori / Davin manuscript-first workplace-relationship archaeology through Chapter 228
+8. Jori / Davin manuscript-first workplace-relationship archaeology
+9. Nessa / Marek manuscript-first workplace-relationship archaeology
 
 Research supports plausibility. It does not outrank exact prose.
 
@@ -34,13 +35,11 @@ These remain the highest-value recurring pressures. They are not a chapter check
 
 People, work, customers, repairs, decisions, and obligations can move while Greg is elsewhere.
 
-Strong established examples now include Lyssa's work network functioning around Greg and Jori/Davin repairs, hauling, testing, and setup already being underway when Greg arrives.
-
-Use cheaply: one absence, altered object state, already-made decision, or piece of context Greg missed.
+Strong examples include Lyssa/Marra/Jessa work continuing without Greg, Jori/Davin repairs already underway when Greg arrives, and theatre object/costume history existing before Greg becomes temporary custodian.
 
 ### 2. CONSEQUENCES TRAVEL SIDEWAYS — ESTABLISHED CORE / PRESSURE
 
-A mistake or choice can be corrected while labor, irritation, cost, favor, embarrassment, or memory lands on somebody else or later.
+A mistake or choice can be corrected while labor, irritation, cost, favor, embarrassment, information, or memory lands on somebody else or later.
 
 Use selectively. Do not turn every mistake into delayed-payoff machinery.
 
@@ -48,13 +47,15 @@ Use selectively. Do not turn every mistake into delayed-payoff machinery.
 
 Repeated competence should often remove explanation rather than produce praise.
 
-Domain-shaped trust matters more than status. Earned shorthand exists in specific relationships but must not become a progress meter or universal behavior.
+Chapter 229 is an especially clean non-theatre proof: Greg no longer needs directions to Marra's, automatically stays out of the work lane, and receives no congratulatory speech for knowing how to exist in the room.
 
-### 4. REPEAT SOCIAL NODES RETURN CHANGED — PRESSURE
+Domain-shaped trust matters more than status. Shorthand can exist where shared work earned it, but must not become a progress meter.
+
+### 4. REPEAT SOCIAL NODES RETURN CHANGED — ESTABLISHED PRESSURE
 
 Prefer social reuse before unnecessary proliferation.
 
-A return is strongest when prior use changes recognition, terms, irritation, condition, ownership, route knowledge, trust, monitoring, or reputation.
+Chapter 229 validates the policy directly: Marra/Jessa return after a long absence with old history still active but no reintroduction scene. Greg's route knowledge, physical placement, Marra's `the road one`, Jessa's mark-reading, and a customer's Lyssa-specific expectation all carry prior chapters forward in changed form.
 
 Avoid cameo parade and forced callbacks.
 
@@ -64,218 +65,222 @@ Generic theatre research remains parked unless newer prose creates a specific fa
 
 ### ESTABLISHED
 - Teren gives narrow playable acting correction rather than life philosophy.
-- Nessa has demonstrated prop/reset/storage/handoff authority.
-- **Jori and Davin both have real practical repair / build / set competence. Their authority overlaps and is problem-shaped rather than a fixed supervisor/helper hierarchy.**
-- Jori is especially legible in usable stage geometry, operation, verification, set movement, and repair judgment.
-- Davin is especially legible in mechanical repair, fabrication, hauling, material handling, setup, and ordinary checking, while still overlapping Jori in several of those lanes.
+- Nessa has demonstrated prop/reset/storage/handoff/costume-continuity authority.
+- Jori and Davin both have real practical repair/build/set competence; their authority overlaps and is problem-shaped rather than supervisor/helper.
+- Jori is especially legible in usable geometry, operation, verification, set movement, and repair judgment.
+- Davin is especially legible in mechanical repair, fabrication, hauling, material handling, setup, and ordinary checking, with overlap.
 - Rinna owns business/payment/records/commercial procedure in practice.
-- Experienced performers can recover live work without erasing the original mistake.
-- Performance and low-glamour labor overlap without making everyone equally competent.
-- Chapters 222–228 establish lived object homes/routes, return/reset continuity, scene-specific object use, repair, practical coverage, and material social memory.
-
-### PRESSURE
-- objects may occasionally carry social memory;
-- delayed downstream consequences can beat instant lessons;
-- some maintenance can already have happened before Greg arrives;
-- belonging may appear as reduced supervision;
-- non-Greg theatre relationships can accumulate independently.
-
-### POSSIBILITY
-- more pair-specific shorthand where exact prose earns it;
-- distinct note-reception styles;
-- specific favor/resentment history from concrete work;
-- detailed costume-change choreography only when a real scene needs it.
+- experienced performers can recover live work without erasing the original mistake.
+- performance and low-glamour labor overlap without making everyone equally competent.
+- objects can accumulate specific social memory and consequences without becoming a formal tracking system.
 
 ### AVOID
-Formal modern backstage machinery, universal checklists, equal competence from multi-hatting, Hara-as-mentor, Nessa omniscience, **Jori as universal technical boss, Davin as comic helper/permanent screwup**, Marek as permanent idiot/liability, Lyssa recruited into theatre wardrobe by convenience, or theatre exposed as future-bluff training.
+Formal modern backstage machinery, universal checklists, equal competence from multi-hatting, Hara-as-mentor, Nessa omniscience, Jori as universal technical boss, Davin as comic helper/permanent screwup, Marek as permanent idiot/liability, Lyssa recruited into theatre wardrobe by convenience, or theatre exposed as future-bluff training.
 
 ## LYSSA WORK WORLD — SELECTIVE CONTINUITY POLICY
 
-The manuscript archaeology establishes a real independent work world. Forward prose should **keep the history available and service only what a present scene naturally touches.**
+The manuscript establishes a real independent work ecology. Forward prose should **keep the history available and service only what a present scene naturally touches.**
 
-### ESTABLISHED durable infrastructure
+### Durable infrastructure
 - **Marra + green-door work room:** recurring garment-work/social node with customer traffic, work memory, exchange, messages, and a route Greg gradually learns.
 - **Jessa:** recurring work-network person with shorthand, material/favor history, her own route/family connection, and demonstrated ability to route around Greg.
-- **customer recognition / recommendation phenomenon:** customers know Lyssa directly by Chapter 195; one explicit Chapter-217 satisfied-customer referral occurs; broader referral business remains possibility.
+- **customer recognition/recommendation:** customers know Lyssa directly by Chapter 195; one explicit Chapter-217 satisfied-customer referral occurs; broader referral business remains possibility.
 - **Maren:** lighter separate spool-sign supply route, useful for material matching but not yet a socially dense relationship.
+
+### Chapter 229 — selective continuity validated
+
+Chapter 229 is a model changed return rather than a new Lyssa-work development beat:
+- Lyssa sends Greg to Marra without explanatory directions;
+- Greg walks the route automatically, including Sen's red door / Marra's green door distinction, while thinking about something else;
+- he now recognizes the work lane and stays out of it without instruction;
+- Jessa passes him without slowing because he is no longer blocking the route;
+- Marra still recognizes him as **`the road one`**, preserving old relational history without resetting it;
+- Greg delivers marked cloth he does not understand; Jessa finds the chalk marks immediately and treats them as sufficient information;
+- Jessa and Marra use compressed `West?` / `Already.` work language that remains opaque to Greg;
+- a customer enters asking for **Lyssa**, not Greg, and Marra already knows the relevant timing: `She knows.`
+
+This is exactly the desired shape:
+
+**OLD SOCIAL NODE → LESS EXPLANATION → MORE ASSUMED HISTORY → GREG MORE COMPETENT BUT STILL PARTIALLY OUTSIDE THE DOMAIN**
+
+### Anti-systemization warning from Chapter 229
+
+At home Greg tries to describe Lyssa's relationships as a `network`.
+
+Lyssa rejects the abstraction: Jessa knows where she goes; Marra knew the cloth was coming because Lyssa told her.
+
+**Story Control may use `network` or `work ecology` analytically. The manuscript does not need characters to conceptualize ordinary relationships as a system.**
+
+Do not make the prose explain the developmental model back to the reader.
 
 ### Passive history / uncertainty
 - most unnamed customers and garment chains should remain unnamed rather than become serviced threads;
-- Greg can know routes and work shorthand without owning Lyssa's domain;
-- jobs can appear, change state, disappear, be delivered, and be paid while Greg is elsewhere;
 - Chapter 227's pale-coat customer's source remains unknown;
 - **Marra ≠ Maren**;
 - formal Marra/Jessa/Lyssa roles remain unestablished;
 - queue causality, broad referral systems, generalized remembered fit preferences, and formal business machinery remain possibility or avoid.
 
-### Network separation
-Keep Lyssa's work network structurally separate from theatre, Bren/brown-coat pressure, Vale, and Hessa/magic unless present-story causality earns an intersection.
+Keep Lyssa's work ecology structurally separate from theatre, Bren/brown-coat pressure, Vale, and Hessa/magic unless present-story causality earns an intersection.
 
-Do not force Marra/Jessa/customer callbacks merely because the project remembers them. Chapter 228 is a good restraint model: Lyssa's work moves without servicing a callback.
+## JORI / DAVIN — ESTABLISHED SECONDARY WORKPLACE RELATIONSHIP
 
-## JORI / DAVIN — LONGITUDINAL 03 INTEGRATION THROUGH CH228
-
-### CORE DECISION
-
-**Jori / Davin is an ESTABLISHED secondary workplace relationship, not a subplot.**
-
-The durable relationship language is:
+Core language:
 
 **shared low-glamour work + overlapping competence + problem-shaped authority + technical disagreement / credit humor + specific residue after mistakes**
 
-Do not clean this into friendship, rivalry, foreman/helper hierarchy, or a technical-department chart.
+Key durable evidence:
+- Ch182 Davin repairs the curtain wheel; Jori later operates/tests the repaired curtain.
+- Ch210 Davin owns missing-pin diagnosis/fabrication and directs Jori through a rolling test; Jori adds chalk verification and later checking.
+- Ch214 returned original pin carries shared repair/object memory.
+- Ch223–225 make dry technical disagreement / credit humor more legible without making Davin useless.
+- Ch228 gives mistake → correction → changed wet-board handling → narrow retained monitoring.
 
-### ESTABLISHED — RELATIONSHIP PREDATES THE CURRENT CART-BRACE CLUSTER
+Do not clean this into friendship, rivalry, formal hierarchy, or permanent distrust. No Jori/Davin subplot plan is needed.
 
-Recovered exact prose already contains substantial pair-history before Chapters 223–228.
+## NESSA / MAREK — LONGITUDINAL 03 INTEGRATION THROUGH CH228
 
-- Chapter 182: Davin takes apart and repairs the worn curtain wheel; later Jori is back calling and operating/testing the repaired curtain. The old scrape/hitch is gone. This is a clean **repair → operation/use** handoff.
-- Recovered middle chapters repeatedly place them in ordinary hauling/setup work together, including traveling load decisions and shared carrying.
+### CORE DECISION
 
-The recent cart/paint material therefore develops an existing work relationship rather than inventing it.
+**Nessa / Marek is an ESTABLISHED secondary workplace relationship, narrower and more object-centered than Jori/Davin.**
 
-### ESTABLISHED — MISSING CART PIN SHOWS PROBLEM-SHAPED AUTHORITY
+The durable language is:
 
-Chapter 210 is the clearest argument against a fixed hierarchy.
+**specific object/costume history changes custody and correction + Marek's object engagement can create either work or useful information + Nessa responds to the actual material consequence**
 
-- Greg arrives after the wheel/pin problem is already underway.
-- Jori physically holds the axle while Davin diagnoses the missing pin.
-- Davin distinguishes pulled/missing hardware from broken hardware using physical evidence.
-- Davin fabricates the replacement pin and adds a second wedge because he dislikes the first fit.
-- Davin tells Jori `Again`; Jori rolls the cart back for another test.
-- after the repair passes, Jori adds a chalk witness mark across pin and axle and continues later verification.
+Do not flatten this into **prop cop vs idiot**.
 
-**Classification: ESTABLISHED collaborative repair / test / verification.**
+### ESTABLISHED — RELATIONSHIP PREDATES CH222
 
-Here Davin owns diagnosis/fabrication and directs the test while Jori operates and adds verification. Elsewhere Jori can own the practical correction. Authority changes with the problem.
+Recovered road-era prose already shows direct practical familiarity:
+- Nessa pins Marek's collar during working preparation;
+- Marek jokes about `Royal instinct`;
+- Nessa resets his chin and says `Royal stillness`;
+- **he becomes still.**
 
-### ESTABLISHED — SHARED OBJECT / REPAIR MEMORY
+This establishes that Marek can joke and still respond immediately to Nessa's concrete domain-shaped correction. He is not simply incapable of listening.
 
-When the original missing pin returns in Chapter 214:
-- both men recognize what they are looking at;
-- Davin examines the physical mark;
-- Jori identifies the nick and connects it to the old axle edge;
-- the object carries real work history and evidentiary meaning.
+### ESTABLISHED — SPECIFIC HABITS CREATE ANTICIPATORY CUSTODY
 
-**Classification: ESTABLISHED material social memory.**
+Chapter 222 makes accumulated object history explicit:
+- Nessa knows Marek used the striped umbrella the day before;
+- once it is found, she tells Greg **`Do not give it to Marek.`**
+- Marek reaches for it anyway;
+- later it returns wet because he dips one edge into a stage bucket;
+- Nessa sees the consequence, says only `Marek`, and routes the umbrella into drying work.
 
-This is a strong changed-callback model. The pin does not need repeated future servicing.
+Hara independently moves a key because she knows Marek's sleeve path can sweep it; the prediction proves correct.
 
-### ESTABLISHED — DAVIN IS A COMPETENT PRACTICAL WORKER
+**Classification: ESTABLISHED material social memory around specific Marek habits.**
 
-Recovered and current prose gives Davin real technical labor independent of Jori, including curtain-wheel repair, cart-pin diagnosis/fabrication, hinge/bracket/brace work, hauling, setup, material handling, and ordinary repair/checking tasks.
+Nessa may anticipate a known object problem. She is not omniscient.
 
-**Do not flatten him into `Jori's helper`, credit thief, or permanent screwup.**
+### ESTABLISHED — MAREK CAN CREATE DOWNSTREAM WORK
 
-The current credit joke works because Davin is genuinely useful.
+Current prose gives actual consequences, not only teasing:
+- wet umbrella requires drying;
+- protected stage property requires active custody;
+- Marek touches the forbidden hat and Nessa physically blocks/slaps the hand away;
+- later the property chest requires reorganization after Marek returns objects to wrong compartments, and the umbrella must be found again;
+- Ch225 Marek drinks from the painted stage cup; Nessa's reaction stops him, identifies the material problem, and she inspects/reclaims the object.
 
-### ESTABLISHED — JORI'S DISTINCTIVE EMPHASIS IS NON-EXCLUSIVE
+This supports **consequences travel sideways** without requiring every Marek object beat to become trouble.
 
-Jori retains substantial build/repair competence, but his especially legible recurring lane is **usable geometry / operation / verification / set movement / practical repair judgment**.
+### ESTABLISHED — CORRECTION IS COMPRESSED AND PRACTICAL
 
-Examples include curtain calling/operation, repeated cart checks, chalk verification, set/bench/flat movement, and quiet geometry changes that keep scenes workable for Greg and other performers.
+Useful pair-specific forms include:
+- `Royal stillness`;
+- `Marek` when Nessa sees the wet umbrella;
+- immediate protection of a working prop;
+- `That is painted` when he drinks from the stage cup.
 
-**Do not read `Jori owns build/repair` as exclusivity.**
+The correction language addresses the object/work problem, not Marek's soul.
 
-### ESTABLISHED — CH223–225 MAKE THE PAIR'S SOCIAL LANGUAGE MORE VISIBLE
+### ESTABLISHED — CH228 PREVENTS THE RELATIONSHIP FROM FLATTENING
 
-The current cart-brace work contains real technical disagreement plus dry familiarity:
-- Jori is already under the cart while Davin stands above with a mallet offering leverage advice;
-- they disagree about the practical issue without turning it into serious conflict;
-- after the repair Davin claims it works because he helped; Jori reduces his contribution to holding a nail; Davin calls that `Essential`;
-- related current beats continue the credit/correction humor around cabinets, knots, and practical work.
+Marek has `borrowed` the long funeral flower spray.
 
-**Classification: ESTABLISHED current pair-specific humor / correction texture.**
+His contact with it produces useful information:
+- the spray catches the doorway upright once the side table is in place;
+- he learns this by taking a cloth lily to the face;
+- he reports the problem;
+- Nessa translates the result into usable route shorthand: **`Sideways through the door, upright after.`**
+- she later gives Greg the same instruction and preserves its source: **`Marek learned through his face.`**
 
-Do not make every future Davin/Jori scene the same joke.
+**Classification: ESTABLISHED Marek can generate useful object-route knowledge, and Nessa can absorb useful information without turning the moment into praise or punishment.**
 
-### ESTABLISHED — CH228 LEAVES PAIR-SPECIFIC RESIDUE
+The stronger relationship shape is:
 
-Chapter 228 gives the strongest current long-serial shape.
+**MAREK ENGAGES OBJECT → RESULT MAY BE TROUBLE OR INFORMATION → NESSA READS MATERIAL CONSEQUENCE → WORK ADAPTS**
 
-Bench geometry:
-- Jori proposes the two-inch bench move that preserves Greg's usable flower placement and Hara's exit;
-- Jori and Davin move it together;
-- the scene works without an accommodation speech.
+not:
 
-Name board:
-- Davin paints the same dead man's name on both sides;
-- Davin says `I painted it`; Jori says `We know`;
-- Davin proposes painting over it; Jori rejects the wet-paint consequence and narrows the recovery to scrape → chalk → paint;
-- Davin remains on the corrective work rather than being removed from it;
-- later Davin carries the repaired board with the wet side protected;
-- narration explicitly says **`He had learned.`**
-- **Jori watches anyway.**
+**MAREK TOUCHES THING → NESSA PUNISHES HIM.**
 
-**Classification: ESTABLISHED mistake → correction → changed behavior → narrow retained monitoring.**
+### ESTABLISHED — INDEPENDENT MOMENTUM
 
-Do not generalize this into permanent distrust or `Davin always paints things wrong`.
+Greg often witnesses or temporarily carries the prop, but he does not create this relationship. Nessa's instructions assume preexisting knowledge of Marek's habits; Marek responds directly to her costume/object correction; other workers also adapt around his established material behavior.
 
-### ESTABLISHED — INDEPENDENT MOMENTUM WITHOUT GREG
+Greg should not become referee between them.
 
-Across the recovered and current prose, the pair's repairs, hauling, setup, and disagreements often begin or continue before Greg arrives or while he is assigned elsewhere.
+### UNCERTAIN / DO NOT PROMOTE
+- friendship, dislike, rivalry, romance;
+- formal hierarchy/reporting line;
+- Nessa as Marek's keeper/babysitter;
+- general personal distrust;
+- malicious sabotage;
+- psychological explanation for Marek touching/borrowing things;
+- a rule that every Marek object interaction creates trouble.
 
-Greg can observe, help, or joke. He does not create or arbitrate the relationship.
+### POSSIBILITY — only when a present scene earns it
+- Nessa trusts Marek with a specific object he has repeatedly handled correctly;
+- Marek catches a route/readability problem before she does;
+- a one-word correction returns because exact history makes it legible;
+- Marek voluntarily returns/repairs/resets something before she notices;
+- an old mistake has become an unspoken company precaution;
+- Nessa predicts Marek wrong, preventing omniscience;
+- Greg arrives after their object issue has already been solved.
 
-## JORI / DAVIN — CLASSIFICATION CEILINGS
+No item is a progress ladder or servicing obligation.
 
-### UNCERTAIN
-- private friendship;
-- rivalry or resentment;
-- formal hierarchy / job titles;
-- stable supervisor/helper relationship;
-- durable favor-debt system;
-- a philosophical split in repair method;
-- permanent distrust after Chapter 228.
+## CHARACTER ANTI-FLATTENING — 03 RESULT
 
-### POSSIBILITY
-Use only if a present scene earns it:
-- a repeated disagreement compresses into a word/look because exact shared history supports it;
-- one silently anticipates a physical step the other normally needs;
-- Jori eventually stops checking something Davin has repeatedly handled correctly;
-- Davin catches a geometry/use problem before Jori does;
-- an old repair returns in a changed condition and both recognize what changed;
-- Greg arrives after they have already solved a problem and never learns the full argument.
+### Nessa
+Preserve practical prop/reset/costume authority, but do not reduce her to `prop cop`, Marek monitor, or backstage omniscience. Her judgment should remain material and scene-specific; she can incorporate another person's useful information.
 
-No item is a servicing obligation.
+### Marek
+Preserve recurring object meddling and downstream consequences, but also preserve strong performance competence, live recovery, responsiveness to concrete correction, and Chapter-228 evidence that his object engagement can uncover useful route information.
+
+The joke works because he is a person, not a liability generator.
 
 ## 01 INHERITANCE — MINIMUM ACTIVE GUIDANCE
 
 Do not add another mandatory boot file or checklist.
 
 When relevant:
-1. other people's work may already be underway before Greg arrives;
-2. Jori and Davin are both competent practical workers with overlapping, problem-shaped authority;
-3. the Chapter-228 wet-board handling is available social memory but does not require a callback;
-4. Lyssa's established network likewise remains available rather than mandatory;
-5. changed callbacks beat proof-of-memory cameos.
+1. other people's work and relationships may already be underway before Greg arrives;
+2. Jori/Davin have overlapping problem-shaped practical authority;
+3. Nessa/Marek have specific object/costume history, but no scene is required to service it;
+4. Marek's object engagement can cause trouble **or** reveal useful information;
+5. Chapter 229 demonstrates the best changed-callback shape: return to an old social node with less explanation and more assumed history;
+6. do not make characters explain the development system to each other.
 
-Otherwise, let 01 keep writing the current story.
+Otherwise, let 01 keep writing.
 
 ## RESEARCH DECISION
 
 **KEEP GENERIC EXTERNAL RESEARCH PAUSED.**
 
-The Jori/Davin question is resolved by manuscript evidence, not modern scenic-shop taxonomy.
+The current social questions are being resolved by manuscript evidence. Do not reopen prop-management, scenic-shop, sewing/customer, or generic theatre research merely to label relationships.
 
-Do not research formal technical-theatre hierarchy merely to label them. If a future scene requires a specific repair whose physical mechanics materially matter, research that narrow repair then.
-
-## NON-GREG RELATIONSHIP WATCH
-
-Current strongest manuscript-first observation lanes:
-- **Nessa / Marek** — material social memory around protected objects, consequences, recovery, and Marek's occasional real usefulness;
-- **Hara / Pell / Marek** — performance recovery / repertory history;
-- **Nessa / Jori** — object continuity versus physical geometry/repair.
-
-Jori/Davin has graduated from watch to established secondary workplace relationship. Do not keep mining it merely because more examples exist.
+Research only when a future scene exposes a concrete factual gap that materially changes behavior or consequence.
 
 ## HESSA / MONEY / THREAT CONTROL
 
-Hessa needs no new research system. Greg is one professional question inside her life, not its center. Chapters 227–228 let magic breathe after Chapter 226.
+Hessa needs no new research system. Greg is one professional question inside her life, not its center.
 
 Money remains concrete and consequential without turning into RPG accounting. Vale work may recur when suitable work exists; Greg has no guaranteed post, rate, schedule, or promotion.
 
-External pressure remains evidence-bounded: someone has probed theatre money handling and movement/logistics, but no robbery plan, gang, boss, Bren relationship, Vale connection, or organization is established. Chapters 224–228 deliberately do not advance that pressure.
+External pressure remains evidence-bounded. Do not infer robbery plan, gang, boss, Bren relationship, Vale connection, or organization beyond manuscript evidence.
 
 ## LONG-RANGE THREAT / CONVERGENCE
 
@@ -294,46 +299,40 @@ Do not schedule this prematurely. Threat should collide with ordinary life rathe
 
 ## NEXT EDGE → 02
 
-**KEEP EXTERNAL RESEARCH PAUSED. CONTINUE MANUSCRIPT-FIRST SOCIAL ARCHAEOLOGY.**
+**HOLD / OBSERVE. DO NOT OPEN ANOTHER GENERIC RELATIONSHIP ARCHAEOLOGY QUEUE YET.**
 
-Next focused edge:
+The last three development cycles have successfully recovered Lyssa's work ecology, Jori/Davin, and Nessa/Marek. Chapter 229 then demonstrated that the manuscript can naturally use this durable history without a development lane forcing the callback.
 
-### NESSA / MAREK — EXISTING NON-GREG WORKPLACE RELATIONSHIP ARCHAEOLOGY
+That is the point to stop mining for a moment.
 
-Audit authoritative exact manuscript evidence for Nessa and Marek through current authority, using recovered Chapters 156–219 plus running prose from 220 onward.
+02 should wait for newer 01 prose and ask:
 
-Focused question:
+**What actually changed on-page that now needs development, rather than which existing pair can be audited next?**
 
-**What object-custody / reset / repair / performance-recovery / irritation / trust history already exists between Nessa and Marek independently of Greg, and what is only a current joke or developmental projection?**
+Reopen 02 when one of these occurs:
+- newer prose naturally returns an established social node and exposes a real continuity/development question;
+- a character relationship changes enough that compact state no longer describes it;
+- a scene-specific factual gap materially blocks story specificity;
+- a current engine begins thinning and needs focused exploration;
+- 03 identifies a concrete research edge.
 
-Look especially for:
-- Nessa anticipating Marek's object habits before he acts;
-- actual work or repair created by Marek rather than generic teasing;
-- times Marek responds to, ignores, or understands Nessa's practical limits;
-- moments Marek is genuinely useful, protects a performance, or knows an object route before Greg;
-- shorthand or changed behavior earned by repeated history;
-- callbacks where an object returns in a changed state;
-- whether Nessa/Marek already has enough independent momentum to graduate beyond `possibility` without flattening Nessa into prop cop or Marek into liability.
-
-Classify **ESTABLISHED / UNCERTAIN / POSSIBILITY**.
-
-Do not research generic prop-management culture again. Do not invent friendship, rivalry, romance, hierarchy, or a permanent discipline dynamic. If the manuscript history is thin, say so and pivot rather than forcing the pair.
+Do **not** automatically move to Hara/Pell/Marek archaeology just because that pair remains interesting. Manuscript-first development should follow actual pressure, not consume the cast systematically.
 
 ## CURRENT STORY-CONTROL EDGE
 
-03 is integrated through Chapter 228 at this checkpoint.
+03 is integrated through Chapter 229 at this checkpoint.
 
 Current posture:
-1. Lyssa selective-continuity policy remains active; her established network is infrastructure, not a callback obligation.
-2. **Jori/Davin is now established secondary workplace relationship.**
-3. Davin's practical competence is canon-supporting durable residue; Jori's repair competence is non-exclusive.
-4. Their authority is problem-shaped, not supervisor/helper.
-5. Chapter 228 leaves narrow pair-specific social memory without establishing permanent distrust.
-6. No Jori/Davin subplot or additional research is needed.
-7. External research remains paused unless a scene exposes a concrete factual gap.
-8. Send 02 to manuscript-first Nessa/Marek archaeology.
-9. Let 01 continue forward without waiting.
+1. Lyssa selective continuity is validated by Chapter 229; Marra/Jessa return changed without reintroduction or system explanation.
+2. `Network` remains useful analytical language, not required character/world terminology.
+3. Jori/Davin is established secondary workplace relationship with overlapping problem-shaped authority.
+4. Nessa/Marek is established secondary workplace relationship centered on specific object/costume history and material consequence.
+5. Nessa must not become Marek's keeper/prop cop; Marek must not become a permanent liability.
+6. Chapter 228's flower route proves Marek's object engagement can generate useful information.
+7. Generic external research remains paused.
+8. No new social-archaeology queue is active. **Hold / observe newer prose.**
+9. Let 01 continue without waiting.
 
 ## RE-PROMPT [03]
 
-Continue Peg-Leg Greg Story Control from current GitHub authority. Read `AGENTS.md`, `state/PROJECT_STATE.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current manuscript/state, `state/STORY_CONTROL_STATE.md`, `state/WRITERS_ROOM_STATE.md`, `state/RESEARCH_LEDGER.md`, `state/LONG_SERIAL_RESIDUE_MAP.md`, `state/PLOT_CONTROL.md`, `state/OPEN_THREADS.md`, `state/LYSSA_WORK_NETWORK_AUDIT.md`, and relevant bibles. Story Control has integrated the manuscript-first Jori/Davin audit through Chapter 228. Jori/Davin is an established secondary workplace relationship built from shared low-glamour work, overlapping practical competence, problem-shaped authority, technical disagreement/credit humor, and specific changed residue after mistakes. Davin has real repair/haul/set competence and must not be flattened into Jori's helper or permanent screwup; Jori retains repair competence but is especially legible in usable geometry/operation/verification, and his repair authority is non-exclusive. Ch228's wet-board handling establishes narrow changed behavior plus retained monitoring, not permanent distrust. Friendship, rivalry, formal hierarchy, supervisor/helper status, favor debt, and repair philosophy remain unestablished. Generic external research remains paused. First check whether 02 has completed the manuscript-first Nessa/Marek relationship audit. If it has, pressure-test that evidence against current manuscript authority and graduate only durable residue. If not, preserve current classifications, re-read any newer prose, and do not reopen generic theatre or sewing research without a specific gap.
+Continue Peg-Leg Greg Story Control from current GitHub authority. Read `AGENTS.md`, `state/PROJECT_STATE.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current manuscript/state and exact recent prose, `state/STORY_CONTROL_STATE.md`, `state/WRITERS_ROOM_STATE.md`, `state/RESEARCH_LEDGER.md`, `state/LONG_SERIAL_RESIDUE_MAP.md`, `state/PLOT_CONTROL.md`, `state/OPEN_THREADS.md`, `state/LYSSA_WORK_NETWORK_AUDIT.md`, and relevant bibles. Story Control is integrated through Chapter 229. The recent manuscript-first cycles have established Lyssa's selective-continuity work ecology, Jori/Davin as an overlapping-competence secondary workplace relationship, and Nessa/Marek as a narrower object/costume-history relationship where Marek's object engagement can create either downstream work or useful information and Nessa responds to material consequence. Chapter 229 validates the changed-callback policy: Greg reaches Marra's automatically, stays out of the work lane without instruction, Marra still calls him `the road one`, Jessa understands marks/shorthand he does not, and a customer asks for Lyssa independently; Lyssa later resists Greg systematizing these ordinary relationships as a `network`. Generic external research is paused. Do not automatically open another pair archaeology queue. First inspect newer manuscript authority and identify what actually changed on-page. If no new development pressure exists, preserve HOLD / OBSERVE and let 01 continue.
