@@ -155,39 +155,53 @@ Update existing compact state before adding new state. Preserve engine-owned sub
 
 ## NEXT_TASK — development
 
-The first current-era theatre research cycle is integrated and parked. The first Lyssa alteration/rework external research wave is integrated, and the subsequent manuscript-first Lyssa work-network archaeology has now been integrated through Chapter 228.
+The current theatre research waves are integrated and generic external theatre research is parked. Lyssa alteration/rework research is integrated and generic sewing/customer research is parked.
 
-Durable Lyssa-side findings now include:
-- **Marra** as a recurring green-door garment-work/social node from the recovered middle;
-- **Jessa** as a recurring participant in that same ecology, with formal role deliberately left undefined;
-- material, messages, favors, garments, and payment moving through the network without Greg;
-- Greg learning Marra's route from explicit directions until Chapter 199 says he knows it without thinking;
-- Chapter 195 customer recognition and unfinished-job shorthand around Lyssa before Chapter 224;
-- Chapter 217 establishing **one explicit referral event** from a satisfied cuff customer to a new shoulder-seam customer;
-- Chapter 224 explicitly establishing three active customers;
-- customer visits/fittings at the apartment, off-page delivery/payment, several unrelated garments active at once, and separately charged requested rework;
-- Chapter 222 establishing **Maren** as a separate garment/thread supply shop and useful matching route;
-- Chapter 227 establishing customer-present fitting with one concrete insufficient-cloth refusal/constraint;
-- Chapter 228 preserving restraint by letting garments change state / leave the room without forcing a Marra/Jessa/customer callback.
+Recent manuscript-first social archaeology has now established and integrated three useful areas:
 
-Continuity ceilings:
-- **Marra ≠ Maren**;
-- formal roles inside the Marra/Jessa/Lyssa ecology remain unestablished;
-- most customer identities remain unnamed and should not be merged by color/cuff/shoulder similarity;
-- the Chapter-217 referral does not establish a broad referral system;
-- Chapter 227's pale-coat customer's source remains unknown;
-- remembered customer-fit preferences, explicit queue causality, generalized confirmation-stage semantics, formal pricing/client systems, and broader referral chains remain possibilities unless prose establishes them;
-- Lyssa does not become theatre wardrobe by convenience.
+1. **Lyssa selective continuity**
+   - Marra + green-door work room and Jessa are durable secondary social infrastructure, not callback obligations.
+   - one Chapter-217 referral is established narrowly; broader referral business is not.
+   - Maren remains a separate lighter supply node: **Marra ≠ Maren**.
+   - most unnamed customer/material chains remain passive history.
+   - Chapter 229 validates the policy directly: Greg reaches Marra's automatically, stays out of the work lane without instruction, Marra still calls him `the road one`, Jessa understands marks/shorthand he does not, and a customer asks for Lyssa independently.
+   - Story Control may analytically call this a network/work ecology, but Chapter 229 usefully has Lyssa resist Greg turning ordinary relationships into a formal `network` abstraction. Do not make prose explain the development system.
 
-No new Lyssa external research is recommended. `RESEARCH_LEDGER.md` remains support, not authority, and the development pause on generic sewing/theatre research remains valid.
+2. **Jori / Davin**
+   - established secondary workplace relationship.
+   - shared low-glamour work, overlapping practical competence, problem-shaped authority, technical disagreement/credit humor, and specific changed residue after mistakes.
+   - Davin has real repair/haul/set competence and is not Jori's helper/permanent screwup.
+   - Jori retains repair competence but is especially legible in usable geometry/operation/verification; his repair authority is non-exclusive.
+   - friendship, rivalry, hierarchy, supervisor/helper status, permanent distrust, favor debt, and repair philosophy remain unestablished.
 
-Next 02↔03 cycle is another **manuscript-first social-density pass**:
-1. 02 audits exact manuscript evidence for the existing **Jori / Davin** relationship through current authority.
-2. Focus on repair / hauling / build / credit / blame / practical geometry that occurs independently of Greg, including Chapter 228's name-board repair and geometry work.
-3. Classify **ESTABLISHED / UNCERTAIN / POSSIBILITY** without inventing friendship, rivalry, hierarchy, partnership, job titles, or scenic-shop structure.
-4. If the manuscript supports real pair-history, 03 pressure-tests and graduates only durable residue; if not, pivot rather than forcing it.
-5. Keep external research paused unless this audit exposes a genuinely scene-specific factual gap.
-6. 01 continues forward production without waiting.
+3. **Nessa / Marek**
+   - established secondary workplace relationship, narrower and more object/costume-centered than Jori/Davin.
+   - specific object/costume history changes custody/correction; Marek's object engagement can create downstream work **or useful information**; Nessa responds to the material consequence.
+   - Chapter 222 umbrella/property-table history and Chapter 225 painted-cup handling establish real downstream object work and compressed correction.
+   - Chapter 228 prevents flattening: Marek's borrowed flower spray reveals a real doorway-route problem and Nessa converts that discovery into `Sideways through the door, upright after`.
+   - do not flatten Nessa into Marek's keeper/prop cop or Marek into permanent liability/idiot.
+   - friendship, rivalry, romance, hierarchy, general distrust, permanent discipline, and motive remain unestablished.
+
+### Current development posture
+
+**HOLD / OBSERVE.**
+
+Do not automatically open another relationship archaeology queue merely because Hara/Pell/Marek, Nessa/Jori, or another pairing remains interesting.
+
+The last several cycles recovered enough hidden social infrastructure to materially improve the project brain, and Chapter 229 immediately demonstrated that 01 can use it naturally without a development lane forcing the callback.
+
+The next 02/03 cycle should begin from **new manuscript pressure**, not from a desire to consume the cast systematically.
+
+Reopen focused development when:
+- newer prose naturally returns an established node and exposes a real continuity/development question;
+- a relationship changes enough that current compact state becomes inaccurate;
+- an engine starts thinning and needs exploration;
+- a scene-specific factual gap materially blocks specificity;
+- 03 identifies a concrete research edge.
+
+Generic external research remains paused unless a real scene-specific gap appears.
+
+01 continues forward production without waiting.
 
 Always re-read current manuscript authority first because 01 may advance while development work continues.
 
