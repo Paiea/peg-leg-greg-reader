@@ -1,0 +1,1617 @@
+{
+  "broken_references": [],
+  "chapters": {
+    "001": {
+      "assets": [
+        "visual/chapter_art/001/v28_c01_s01_the-mirror.png",
+        "visual/chapter_art/001/v28_c01_s02_bronze-younger-carrow.png",
+        "visual/chapter_art/001/v28_c01_s03_know-think-check.png"
+      ],
+      "chapter": 1,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "002": {
+      "assets": [
+        "visual/chapter_art/002/v28_c02_s01_carrow-street-memory.png",
+        "visual/chapter_art/002/v28_c02_s02_pell-takes-interest.png",
+        "visual/chapter_art/002/v28_c02_s03_eight-days-antonius.png",
+        "visual/chapter_art/002/v28_c02_s04_sella-collision.png"
+      ],
+      "chapter": 2,
+      "image_count": 4,
+      "referenced_images": 4
+    },
+    "003": {
+      "assets": [
+        "visual/chapter_art/003/v28_c03_s01_cart-too-much-shale.png",
+        "visual/chapter_art/003/v28_c03_s02_sixth-disk.png",
+        "visual/chapter_art/003/v28_c03_s03_pell-asks-where.png"
+      ],
+      "chapter": 3,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "004": {
+      "assets": [
+        "visual/chapter_art/004/v28_c04_s01_too-many-categories.png",
+        "visual/chapter_art/004/v28_c04_s02_reading-the-table.png",
+        "visual/chapter_art/004/v28_c04_s03_walking-home-with-silver.png"
+      ],
+      "chapter": 4,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "005": {
+      "assets": [
+        "visual/chapter_art/005/v28_c05_s03_the-sixth-sword.png",
+        "visual/chapter_art/005/v28_c05_s01_back-in-the-yard.png",
+        "visual/chapter_art/005/v28_c05_s02_jorren-makes-the-point.png"
+      ],
+      "chapter": 5,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "006": {
+      "assets": [
+        "visual/chapter_art/006/v28_c06_s02_twelfth-sack.png",
+        "visual/chapter_art/006/v28_c06_s01_empire-of-flour.png",
+        "visual/chapter_art/006/v28_c06_s03_inside-the-operation.png"
+      ],
+      "chapter": 6,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "007": {
+      "assets": [
+        "visual/chapter_art/007/Ch007_Storeroom-Crates.jpg",
+        "visual/chapter_art/007/Ch007_Fast-Coverage-003-C01.jpg"
+      ],
+      "chapter": 7,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "008": {
+      "assets": [
+        "visual/chapter_art/008/v28_c08_s01_the-face.png",
+        "visual/chapter_art/008/v28_c08_s03_three-lives-one-hand.png",
+        "visual/chapter_art/008/v28_c08_s02_here.png"
+      ],
+      "chapter": 8,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "009": {
+      "assets": [
+        "visual/chapter_art/009/v28_c09_s01_debtors-coat.png",
+        "visual/chapter_art/009/v28_c09_s02_walking-the-borrowers.png",
+        "visual/chapter_art/009/v28_c09_s03_stay-close-to-operations.png"
+      ],
+      "chapter": 9,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "010": {
+      "assets": [
+        "visual/chapter_art/010/v28_c10_s02_to-whom.png",
+        "visual/chapter_art/010/v28_c10_feature_dead-mans-hand.png",
+        "visual/chapter_art/010/v28_c10_s03_home-not-cards.png"
+      ],
+      "chapter": 10,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "011": {
+      "assets": [
+        "visual/chapter_art/011/v28_c11_s01_dinner-plate-barrier.png",
+        "visual/chapter_art/011/v28_c11_s03_checking-the-channel.png",
+        "visual/chapter_art/011/v28_c11_s02_again-no.png"
+      ],
+      "chapter": 11,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "012": {
+      "assets": [
+        "visual/chapter_art/012/v28_c12_s01_antonius-spoon.png",
+        "visual/chapter_art/012/v28_c12_s02_not-the-black-part.png",
+        "visual/chapter_art/012/v28_c12_s03_hazard-becomes-process.png",
+        "visual/chapter_art/012/v28_c12_s04_the-sealed-bin.png"
+      ],
+      "chapter": 12,
+      "image_count": 4,
+      "referenced_images": 4
+    },
+    "013": {
+      "assets": [
+        "visual/chapter_art/013/v28_c13_s01_dont-touch-them.png",
+        "visual/chapter_art/013/v28_c13_s02_the-ugly-fixture.png"
+      ],
+      "chapter": 13,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "014": {
+      "assets": [
+        "visual/chapter_art/014/v28_c14_s01_the-contract.png",
+        "visual/chapter_art/014/v28_c14_s02_broken-on-the-road.png",
+        "visual/chapter_art/014/v28_c14_s03_hold-that.png"
+      ],
+      "chapter": 14,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "015": {
+      "assets": [
+        "visual/chapter_art/015/v28_c15_s05_the-road-goes-boring.png",
+        "visual/chapter_art/015/v28_c15_s04_lens-turnips.png",
+        "visual/chapter_art/015/v28_c15_s06_the-scream.png",
+        "visual/chapter_art/015/v28_c15_s07_alden-in-the-road.png"
+      ],
+      "chapter": 15,
+      "image_count": 4,
+      "referenced_images": 4
+    },
+    "016": {
+      "assets": [
+        "visual/chapter_art/016/v28_c16_s08_two-swords.png",
+        "visual/chapter_art/016/v28_c16_s09_the-bill.png",
+        "visual/chapter_art/016/v28_c16_s10_ribs.png"
+      ],
+      "chapter": 16,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "017": {
+      "assets": [
+        "visual/chapter_art/017/v28_c17_s12_the-wait.png",
+        "visual/chapter_art/017/v28_c17_s11_the-third-sack.png",
+        "visual/chapter_art/017/v28_c17_s13_the-hook.png"
+      ],
+      "chapter": 17,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "018": {
+      "assets": [
+        "visual/chapter_art/018/v28_c18_s14_hessa-has-beans.png",
+        "visual/chapter_art/018/v28_c18_s15_the-cup.png"
+      ],
+      "chapter": 18,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "019": {
+      "assets": [
+        "visual/chapter_art/019/v28_c19_s02_the-warder-arrives.png",
+        "visual/chapter_art/019/v28_c19_s01_the-sealed-sacks.png"
+      ],
+      "chapter": 19,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "020": {
+      "assets": [
+        "visual/chapter_art/020/v28_c20_s01_the-muddy-guild-yard.png",
+        "visual/chapter_art/020/v28_c20_s02_two-coppers.png"
+      ],
+      "chapter": 20,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "021": {
+      "assets": [
+        "visual/chapter_art/021/v28_c21_s01_octavias-court.png",
+        "visual/chapter_art/021/v28_c21_s02_ten-feet.png"
+      ],
+      "chapter": 21,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "022": {
+      "assets": [
+        "visual/chapter_art/022/v28_c22_s01_continuing-education.png",
+        "visual/chapter_art/022/Ch022_Fast-Coverage-003-A14.jpg"
+      ],
+      "chapter": 22,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "023": {
+      "assets": [
+        "visual/chapter_art/023/v28_c23_s02_too-many-shoes.png",
+        "visual/chapter_art/023/v28_c23_s01_north-gate-intake.png"
+      ],
+      "chapter": 23,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "024": {
+      "assets": [
+        "visual/chapter_art/024/v28_c24_feature_boat-on-the-road.png",
+        "visual/chapter_art/024/v28_c24_s02_inside-the-boat.png"
+      ],
+      "chapter": 24,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "025": {
+      "assets": [
+        "visual/chapter_art/025/v28_c25_s01_creature-crosses-the-wall.png",
+        "visual/chapter_art/025/v28_c25_s02_palm-sized-barrier.png"
+      ],
+      "chapter": 25,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "026": {
+      "assets": [
+        "visual/chapter_art/026/v28_c26_s01_the-dead-creature.png",
+        "visual/chapter_art/026/Ch026_Fast-Coverage-003-A15.jpg"
+      ],
+      "chapter": 26,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "027": {
+      "assets": [
+        "visual/chapter_art/027/v28_c27_feature_dyers-lane.png",
+        "visual/chapter_art/027/Ch027_Fast-Coverage-003-A16.jpg"
+      ],
+      "chapter": 27,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "028": {
+      "assets": [
+        "visual/chapter_art/028/Ch028_Fast-Coverage-003-A17.jpg",
+        "visual/chapter_art/028/v28_c28_s01_bread-on-the-sill.png"
+      ],
+      "chapter": 28,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "029": {
+      "assets": [
+        "visual/chapter_art/029/Ch029_Creature-Under-Canvas.jpg",
+        "visual/chapter_art/029/Ch029_Fast-Coverage-003-C02.jpg"
+      ],
+      "chapter": 29,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "030": {
+      "assets": [
+        "visual/chapter_art/030/v45_c30_fourteen-west.png",
+        "visual/chapter_art/030/Ch030_Fast-Coverage-003-A18.jpg"
+      ],
+      "chapter": 30,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "031": {
+      "assets": [
+        "visual/chapter_art/031/Ch031_Stoneworker-Demonstration.jpg",
+        "visual/chapter_art/031/Ch031_Fast-Coverage-003-C03.jpg"
+      ],
+      "chapter": 31,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "032": {
+      "assets": [
+        "visual/chapter_art/032/v45_c32_sealed-grain-annex.png",
+        "visual/chapter_art/032/Ch032_Fast-Coverage-003-A19.jpg"
+      ],
+      "chapter": 32,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "033": {
+      "assets": [
+        "visual/chapter_art/033/v45_c33_wet-bean-storehouse.png",
+        "visual/chapter_art/033/Ch033_Fast-Coverage-003-A20.jpg"
+      ],
+      "chapter": 33,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "034": {
+      "assets": [
+        "visual/chapter_art/034/v45_c34_regulator-shelf-support.png",
+        "visual/chapter_art/034/Ch034_Fast-Coverage-003-A21.jpg"
+      ],
+      "chapter": 34,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "035": {
+      "assets": [
+        "visual/chapter_art/035/v45_c35_evening-beer-shop.png",
+        "visual/chapter_art/035/Ch035_Fast-Coverage-003-A22.jpg"
+      ],
+      "chapter": 35,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "036": {
+      "assets": [
+        "visual/chapter_art/036/v45_c36_rebuilt-boot.png",
+        "visual/chapter_art/036/Ch036_Fast-Coverage-003-A23.jpg"
+      ],
+      "chapter": 36,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "037": {
+      "assets": [
+        "visual/chapter_art/037/v45_c37_four-copper-millrace.png",
+        "visual/chapter_art/037/Ch037_Fast-Coverage-003-A24.jpg"
+      ],
+      "chapter": 37,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "038": {
+      "assets": [
+        "visual/chapter_art/038/v45_c38_hands.png",
+        "visual/chapter_art/038/Ch038_Fast-Coverage-003-A25.jpg"
+      ],
+      "chapter": 38,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "039": {
+      "assets": [
+        "visual/chapter_art/039/v45_c39_three-way-spar.png",
+        "visual/chapter_art/039/Ch039_Fast-Coverage-003-B01.jpg"
+      ],
+      "chapter": 39,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "040": {
+      "assets": [
+        "visual/chapter_art/040/v45_c40_pell-vessa-workshop.png",
+        "visual/chapter_art/040/Ch040_Fast-Coverage-003-B02.jpg"
+      ],
+      "chapter": 40,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "041": {
+      "assets": [
+        "visual/chapter_art/041/v45_c41_dorrin-stone-sorted.png",
+        "visual/chapter_art/041/Ch041_Fast-Coverage-003-B03.jpg"
+      ],
+      "chapter": 41,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "042": {
+      "assets": [
+        "visual/chapter_art/042/v45_c42_first-problem-freight-yard.png",
+        "visual/chapter_art/042/Ch042_Fast-Coverage-003-B04.jpg"
+      ],
+      "chapter": 42,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "043": {
+      "assets": [
+        "visual/chapter_art/043/v45_c43_the-porter.png",
+        "visual/chapter_art/043/Ch043_Fast-Coverage-003-B05.jpg"
+      ],
+      "chapter": 43,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "044": {
+      "assets": [
+        "visual/chapter_art/044/v45_c44_patient-magic-check.png",
+        "visual/chapter_art/044/Ch044_Fast-Coverage-003-B06.jpg"
+      ],
+      "chapter": 44,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "045": {
+      "assets": [
+        "visual/chapter_art/045/svgPLG_Ch45_Turnip.png",
+        "visual/chapter_art/045/Ch045_Fast-Coverage-003-B07.jpg"
+      ],
+      "chapter": 45,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "046": {
+      "assets": [
+        "visual/chapter_art/046/svgPLG_Ch46_Move-the-Cobblers-Table.png",
+        "visual/chapter_art/046/Ch046_Fast-Coverage-003-B08.jpg"
+      ],
+      "chapter": 46,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "047": {
+      "assets": [
+        "visual/chapter_art/047/svgPLG_Ch47_Marker-at-the-Ford.png",
+        "visual/chapter_art/047/Ch047_Fast-Coverage-003-B09.jpg"
+      ],
+      "chapter": 47,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "048": {
+      "assets": [
+        "visual/chapter_art/048/svgPLG_Ch48_HR_Stove-at-the-Turn.png",
+        "visual/chapter_art/048/Ch048_Fast-Coverage-003-B10.jpg"
+      ],
+      "chapter": 48,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "049": {
+      "assets": [
+        "visual/chapter_art/049/svgPLG_Ch49_Vessas-Vibration-Frame.png",
+        "visual/chapter_art/049/Ch049_Fast-Coverage-003-B11.jpg"
+      ],
+      "chapter": 49,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "050": {
+      "assets": [
+        "visual/chapter_art/050/svgPLG_Ch50_The-Small-Click.png",
+        "visual/chapter_art/050/Ch050_Fast-Coverage-003-B12.jpg"
+      ],
+      "chapter": 50,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "051": {
+      "assets": [
+        "visual/chapter_art/051/Ch051_Drain-Crossing-Hold.jpg",
+        "visual/chapter_art/051/Ch051_Fast-Coverage-003-C04.jpg"
+      ],
+      "chapter": 51,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "052": {
+      "assets": [
+        "visual/chapter_art/052/svgPLG_Ch52_Report-Work.png",
+        "visual/chapter_art/052/Ch052_Fast-Coverage-003-B13.jpg"
+      ],
+      "chapter": 52,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "053": {
+      "assets": [
+        "visual/chapter_art/053/svgPLG_Ch53_The-Bath.png",
+        "visual/chapter_art/053/Ch053_Fast-Coverage-003-B14.jpg"
+      ],
+      "chapter": 53,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "054": {
+      "assets": [
+        "visual/chapter_art/054/svgPLG_Ch54_Horse-Watches-Back.png",
+        "visual/chapter_art/054/Ch054_Fast-Coverage-003-B15.jpg"
+      ],
+      "chapter": 54,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "055": {
+      "assets": [
+        "visual/chapter_art/055/Ch055_Padded-Sparring-Fall.jpg",
+        "visual/chapter_art/055/Ch055_Fast-Coverage-003-C05.jpg"
+      ],
+      "chapter": 55,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "056": {
+      "assets": [
+        "visual/chapter_art/056/svgPLG_Ch56_East-Lamp-Works.png",
+        "visual/chapter_art/056/Ch056_Fast-Coverage-003-B16.jpg"
+      ],
+      "chapter": 56,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "057": {
+      "assets": [
+        "visual/chapter_art/057/svgPLG_Ch57_North-Freight-Arch.png",
+        "visual/chapter_art/057/Ch057_Fast-Coverage-003-B17.jpg"
+      ],
+      "chapter": 57,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "058": {
+      "assets": [
+        "visual/chapter_art/058/Ch058_Walking-Barrier.jpg",
+        "visual/chapter_art/058/Ch058_Fast-Coverage-003-C06.jpg"
+      ],
+      "chapter": 58,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "059": {
+      "assets": [
+        "visual/chapter_art/059/Ch059_Fast-Coverage-003-B18.jpg",
+        "visual/chapter_art/059/svgPLG_Ch59_Another-Week.png"
+      ],
+      "chapter": 59,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "060": {
+      "assets": [
+        "visual/chapter_art/060/Ch060_Rain-Cut-Culvert.jpg",
+        "visual/chapter_art/060/Ch060_Fast-Coverage-003-C07.jpg"
+      ],
+      "chapter": 60,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "061": {
+      "assets": [
+        "visual/chapter_art/061/Ch061_Farm-Cart-Inspection.jpg",
+        "visual/chapter_art/061/Ch061_Fast-Coverage-003-C08.jpg"
+      ],
+      "chapter": 61,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "062": {
+      "assets": [
+        "visual/chapter_art/062/Ch062_River-Yard-Dry-Run.jpg",
+        "visual/chapter_art/062/Ch062_Fast-Coverage-003-C09.jpg"
+      ],
+      "chapter": 62,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "063": {
+      "assets": [
+        "visual/chapter_art/063/Ch063_Fast-Coverage-003-A01.jpg",
+        "visual/chapter_art/063/Ch063_Fast-Coverage-006-01.jpg"
+      ],
+      "chapter": 63,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "064": {
+      "assets": [
+        "visual/chapter_art/064/Ch064_Fast-Coverage-003-A02.jpg",
+        "visual/chapter_art/064/Ch064_Fast-Coverage-006-01.jpg"
+      ],
+      "chapter": 64,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "065": {
+      "assets": [
+        "visual/chapter_art/065/svgPLG_Ch65_Ward-Morning.png",
+        "visual/chapter_art/065/Ch065_Fast-Coverage-003-B19.jpg"
+      ],
+      "chapter": 65,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "066": {
+      "assets": [
+        "visual/chapter_art/066/Ch066_Fast-Coverage-003-A03.jpg",
+        "visual/chapter_art/066/Ch066_Fast-Coverage-006-01.jpg"
+      ],
+      "chapter": 66,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "067": {
+      "assets": [
+        "visual/chapter_art/067/Ch067_Fast-Coverage-003-A04.jpg",
+        "visual/chapter_art/067/Ch067_Fast-Coverage-006-01.jpg"
+      ],
+      "chapter": 67,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "068": {
+      "assets": [
+        "visual/chapter_art/068/svgPLG_Ch68_First-Crutch-Work.png",
+        "visual/chapter_art/068/Ch068_Fast-Coverage-003-B20.jpg"
+      ],
+      "chapter": 68,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "069": {
+      "assets": [
+        "visual/chapter_art/069/Ch069_Fast-Coverage-003-A05.jpg",
+        "visual/chapter_art/069/Ch069_Fast-Coverage-006-01.jpg"
+      ],
+      "chapter": 69,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "070": {
+      "assets": [
+        "visual/chapter_art/070/Ch070_Fast-Coverage-003-A06.jpg",
+        "visual/chapter_art/070/Ch070_Fast-Coverage-006-01.jpg"
+      ],
+      "chapter": 70,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "071": {
+      "assets": [
+        "visual/chapter_art/071/Ch071_Fast-Coverage-003-A07.jpg",
+        "visual/chapter_art/071/Ch071_Fast-Coverage-006-01.jpg"
+      ],
+      "chapter": 71,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "072": {
+      "assets": [
+        "visual/chapter_art/072/Ch072_Fast-Coverage-003-A08.jpg",
+        "visual/chapter_art/072/Ch072_Fast-Coverage-006-01.jpg"
+      ],
+      "chapter": 72,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "073": {
+      "assets": [
+        "visual/chapter_art/073/Ch073_Fast-Coverage-003-A09.jpg",
+        "visual/chapter_art/073/Ch073_Fast-Coverage-006-01.jpg"
+      ],
+      "chapter": 73,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "074": {
+      "assets": [
+        "visual/chapter_art/074/Ch074_Fast-Coverage-003-A10.jpg",
+        "visual/chapter_art/074/Ch074_Fast-Coverage-006-01.jpg"
+      ],
+      "chapter": 74,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "075": {
+      "assets": [
+        "visual/chapter_art/075/svgPLG_Ch75_First-Fourteen-Steps.png",
+        "visual/chapter_art/075/Ch075_Fast-Coverage-003-B21.jpg"
+      ],
+      "chapter": 75,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "076": {
+      "assets": [
+        "visual/chapter_art/076/Ch076_Fast-Coverage-003-A11.jpg",
+        "visual/chapter_art/076/Ch076_Fast-Coverage-006-01.jpg"
+      ],
+      "chapter": 76,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "077": {
+      "assets": [
+        "visual/chapter_art/077/svgPLG_Ch77_Holls-Sorting-Test.png",
+        "visual/chapter_art/077/Ch077_Fast-Coverage-003-B22.jpg"
+      ],
+      "chapter": 77,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "078": {
+      "assets": [
+        "visual/chapter_art/078/Ch078_Fast-Coverage-003-A12.jpg",
+        "visual/chapter_art/078/Ch078_Fast-Coverage-006-01.jpg"
+      ],
+      "chapter": 78,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "079": {
+      "assets": [
+        "visual/chapter_art/079/svgPLG_Ch79_Watching-the-Yard.png",
+        "visual/chapter_art/079/Ch079_Fast-Coverage-003-B23.jpg"
+      ],
+      "chapter": 79,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "080": {
+      "assets": [
+        "visual/chapter_art/080/svgPLG_Ch80_Green-Door-Laughter.png",
+        "visual/chapter_art/080/Ch080_Fast-Coverage-003-B24.jpg"
+      ],
+      "chapter": 80,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "081": {
+      "assets": [
+        "visual/chapter_art/081/Ch081_Fast-Coverage-003-A13.jpg",
+        "visual/chapter_art/081/Ch081_Fast-Coverage-006-01.jpg"
+      ],
+      "chapter": 81,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "082": {
+      "assets": [
+        "visual/chapter_art/082/svgPLG_Ch82_Bounded-Invoice-Work.png",
+        "visual/chapter_art/082/Ch082_Fast-Coverage-003-B25.jpg"
+      ],
+      "chapter": 82,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "083": {
+      "assets": [
+        "visual/chapter_art/083/Ch83_Mirror-Before-the-Date.png",
+        "visual/chapter_art/083/Ch83_Night-Market-on-Crutches.png",
+        "visual/chapter_art/083/Ch83_Night-Market-with-Lyssa.png",
+        "visual/chapter_art/083/Ch83_Date-Kiss.png"
+      ],
+      "chapter": 83,
+      "image_count": 4,
+      "referenced_images": 4
+    },
+    "084": {
+      "assets": [
+        "visual/chapter_art/084/Ch84_North-Road-Wagon.png",
+        "visual/chapter_art/084/Ch84_Roadside-Rest-with-Horse.png",
+        "visual/chapter_art/084/Ch84_Road-Beyond-Carrow.png"
+      ],
+      "chapter": 84,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "085": {
+      "assets": [
+        "visual/chapter_art/085/Ch85_Holls-Working-Sheets.png",
+        "visual/chapter_art/085/Ch85_Arbiter-Calculations.png",
+        "visual/chapter_art/085/Ch85_Testing-Pieces-and-Marks.png"
+      ],
+      "chapter": 85,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "086": {
+      "assets": [
+        "visual/chapter_art/086/Ch86_Walking-with-Nowhere-to-Be.png",
+        "visual/chapter_art/086/Ch86_Guild-Side-Court.png"
+      ],
+      "chapter": 86,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "087": {
+      "assets": [
+        "visual/chapter_art/087/Ch87_Four-Doors-Table.png",
+        "visual/chapter_art/087/Ch087_Fast-Coverage-003-C10.jpg"
+      ],
+      "chapter": 87,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "088": {
+      "assets": [
+        "visual/chapter_art/088/Ch88_Fourteen-Stairs.png",
+        "visual/chapter_art/088/Ch88_Room-Still-Mine.png",
+        "visual/chapter_art/088/Ch88_Lyssa-in-Gregs-Room.png",
+        "visual/chapter_art/088/Ch88_Fried-Dough-Upstairs.png"
+      ],
+      "chapter": 88,
+      "image_count": 4,
+      "referenced_images": 4
+    },
+    "089": {
+      "assets": [
+        "visual/chapter_art/089/Ch89_Substitute-at-the-Guild-Desk.png",
+        "visual/chapter_art/089/Ch89_Guild-Ledger.png"
+      ],
+      "chapter": 89,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "090": {
+      "assets": [
+        "visual/chapter_art/090/Ch90_Furniture-Shop-Bargain.png",
+        "visual/chapter_art/090/Ch90_Chair-Delivery-Stairs.png",
+        "visual/chapter_art/090/Ch90_Chair-by-the-Window.png"
+      ],
+      "chapter": 90,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "091": {
+      "assets": [
+        "visual/chapter_art/091/Ch91_Hessas-Test-Table.png",
+        "visual/chapter_art/091/Ch91_Notes-After-Channel-Test.png"
+      ],
+      "chapter": 91,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "092": {
+      "assets": [
+        "visual/chapter_art/092/Ch92_Pessa-and-the-Question.png",
+        "visual/chapter_art/092/Ch092_Fast-Coverage-003-C11.jpg"
+      ],
+      "chapter": 92,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "093": {
+      "assets": [
+        "visual/chapter_art/093/Ch93_Shield-Balance-Test.png",
+        "visual/chapter_art/093/Ch093_Fast-Coverage-003-C12.jpg"
+      ],
+      "chapter": 93,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "094": {
+      "assets": [
+        "visual/chapter_art/094/Ch94_Copper-Strip-Assessment.png",
+        "visual/chapter_art/094/Ch94_Subject-at-the-Table.png"
+      ],
+      "chapter": 94,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "095": {
+      "assets": [
+        "visual/chapter_art/095/Ch95_Sitting-by-the-Water.png",
+        "visual/chapter_art/095/Ch95_Harbor-Lighthouse-Watch.png",
+        "visual/chapter_art/095/Ch95_Pepper-Stall-with-Jorren.png"
+      ],
+      "chapter": 95,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "096": {
+      "assets": [
+        "visual/chapter_art/096/Ch96_Holls-Testing-Room.png",
+        "visual/chapter_art/096/Ch96_Watching-the-Testers.png",
+        "visual/chapter_art/096/Ch96_Sample-Pieces.png"
+      ],
+      "chapter": 96,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "097": {
+      "assets": [
+        "visual/chapter_art/097/Ch97_Second-Mana-Draw.png",
+        "visual/chapter_art/097/Ch97_Variable-Notes.png",
+        "visual/chapter_art/097/Ch97_After-the-Variable.png"
+      ],
+      "chapter": 97,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "098": {
+      "assets": [
+        "visual/chapter_art/098/Ch98_Green-Shirt-Fitting.png",
+        "visual/chapter_art/098/Ch098_Fast-Coverage-003-C13.jpg"
+      ],
+      "chapter": 98,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "099": {
+      "assets": [
+        "visual/chapter_art/099/Ch99_Scholar-at-the-Worktable.png",
+        "visual/chapter_art/099/Ch099_Fast-Coverage-003-C14.jpg"
+      ],
+      "chapter": 99,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "100": {
+      "assets": [
+        "visual/chapter_art/100/Ch100_Adaptive-Onion-Cooking.png",
+        "visual/chapter_art/100/Ch100_Lyssa-Table-Convo.png",
+        "visual/chapter_art/100/Ch100_Lyssa-Arm-and-Crutch.png"
+      ],
+      "chapter": 100,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "101": {
+      "assets": [
+        "visual/chapter_art/101/Ch101_Rainy-Alley-Walk.png",
+        "visual/chapter_art/101/Ch101_Hessa-Eats-Bread.png"
+      ],
+      "chapter": 101,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "102": {
+      "assets": [
+        "visual/chapter_art/102/Ch102_Training-Duel.png",
+        "visual/chapter_art/102/Ch102_Dirt-Circle.png"
+      ],
+      "chapter": 102,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "103": {
+      "assets": [
+        "visual/chapter_art/103/Ch103_Two-Copper-Strips.png",
+        "visual/chapter_art/103/Ch103_Fast-Coverage-003-C15.jpg"
+      ],
+      "chapter": 103,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "104": {
+      "assets": [
+        "visual/chapter_art/104/Ch104_Valley-Overlook-Reflection.png",
+        "visual/chapter_art/104/Ch104_Jorren-Knife-Shop.png"
+      ],
+      "chapter": 104,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "105": {
+      "assets": [
+        "visual/chapter_art/105/Ch105_Campfire-Companions.png",
+        "visual/chapter_art/105/Ch105_Towel-to-Crutch.png"
+      ],
+      "chapter": 105,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "106": {
+      "assets": [
+        "visual/chapter_art/106/Ch106_Wet-Courier-Route.png",
+        "visual/chapter_art/106/Ch106_Fish-Flatbread-Sevren.png"
+      ],
+      "chapter": 106,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "107": {
+      "assets": [
+        "visual/chapter_art/107/Ch107_Charcoal-Dot-Target.png",
+        "visual/chapter_art/107/Ch107_Fast-Coverage-003-C16.jpg"
+      ],
+      "chapter": 107,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "108": {
+      "assets": [
+        "visual/chapter_art/108/Ch108_Four-Doors-Loss.png",
+        "visual/chapter_art/108/Ch108_Fast-Coverage-003-C17.jpg"
+      ],
+      "chapter": 108,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "109": {
+      "assets": [
+        "visual/chapter_art/109/Ch109_Stop-Forearm-Test.png",
+        "visual/chapter_art/109/Ch109_Fast-Coverage-003-C18.jpg"
+      ],
+      "chapter": 109,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "110": {
+      "assets": [
+        "visual/chapter_art/110/Ch110_Blocked-Stakes-Route.png",
+        "visual/chapter_art/110/Ch110_Fast-Coverage-003-C19.jpg"
+      ],
+      "chapter": 110,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "111": {
+      "assets": [
+        "visual/chapter_art/111/Ch111_Fast-Coverage-003-C20.jpg",
+        "visual/chapter_art/111/Ch111_Wrist-Twitch-Check.png"
+      ],
+      "chapter": 111,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "112": {
+      "assets": [
+        "visual/chapter_art/112/Ch112_Painted-Tree-Backstage.png",
+        "visual/chapter_art/112/Ch112_Dragged-Chair-Fire.png"
+      ],
+      "chapter": 112,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "113": {
+      "assets": [
+        "visual/chapter_art/113/Ch113_Front-Row-Reading.png",
+        "visual/chapter_art/113/Ch113_Fast-Coverage-003-C21.jpg"
+      ],
+      "chapter": 113,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "114": {
+      "assets": [
+        "visual/chapter_art/114/Ch114_Hessa-Moves-Crutch.png",
+        "visual/chapter_art/114/Ch114_Fast-Coverage-003-C22.jpg"
+      ],
+      "chapter": 114,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "115": {
+      "assets": [
+        "visual/chapter_art/115/Ch115_Scenery-Loading-Ramp.png",
+        "visual/chapter_art/115/Ch115_Fast-Coverage-003-C23.jpg"
+      ],
+      "chapter": 115,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "116": {
+      "assets": [
+        "visual/chapter_art/116/Ch116_Lyssa-Cheek-Kiss.png",
+        "visual/chapter_art/116/Ch116_Prompter-Chair.png"
+      ],
+      "chapter": 116,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "117": {
+      "assets": [
+        "visual/chapter_art/117/Ch117_Wrong-Edge-Sharpens.png",
+        "visual/chapter_art/117/Ch117_Fast-Coverage-003-C24.jpg"
+      ],
+      "chapter": 117,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "118": {
+      "assets": [
+        "visual/chapter_art/118/Ch118_Stand-In-Rehearsal.png",
+        "visual/chapter_art/118/Ch118_Repaired-Doorway-Shift.png"
+      ],
+      "chapter": 118,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "119": {
+      "assets": [
+        "visual/chapter_art/119/Ch119_Crutch-Slip.png",
+        "visual/chapter_art/119/Ch119_Fast-Coverage-003-C25.jpg"
+      ],
+      "chapter": 119,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "120": {
+      "assets": [
+        "visual/chapter_art/120/Ch120_Repeated-Shaping-Test.png",
+        "visual/chapter_art/120/Ch120_Fast-Coverage-005-01.jpg"
+      ],
+      "chapter": 120,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "121": {
+      "assets": [
+        "visual/chapter_art/121/Ch121_Chair-Sightline.png",
+        "visual/chapter_art/121/Ch121_Prop-Letter-Mixup.png",
+        "visual/chapter_art/121/Ch121_Cup-Finally-Drops.png"
+      ],
+      "chapter": 121,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "122": {
+      "assets": [
+        "visual/chapter_art/122/Ch122_Single-Thread-Apparatus.jpg",
+        "visual/chapter_art/122/Ch122_Fast-Coverage-005-01.jpg"
+      ],
+      "chapter": 122,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "123": {
+      "assets": [
+        "visual/chapter_art/123/Ch123_Pear-Market-Crossing.jpg",
+        "visual/chapter_art/123/Ch123_Fast-Coverage-005-01.jpg"
+      ],
+      "chapter": 123,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "124": {
+      "assets": [
+        "visual/chapter_art/124/Ch124_Theatre-Horse-Illusion.jpg",
+        "visual/chapter_art/124/Ch124_Fast-Coverage-005-01.jpg"
+      ],
+      "chapter": 124,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "125": {
+      "assets": [
+        "visual/chapter_art/125/Ch125_Two-Thread-Test.jpg",
+        "visual/chapter_art/125/Ch125_Fast-Coverage-005-01.jpg"
+      ],
+      "chapter": 125,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "126": {
+      "assets": [
+        "visual/chapter_art/126/Ch126_Courier-Cart-Wheel.jpg",
+        "visual/chapter_art/126/Ch126_Fast-Coverage-005-01.jpg"
+      ],
+      "chapter": 126,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "127": {
+      "assets": [
+        "visual/chapter_art/127/Ch127_Sleeved-Threads-and-Door.jpg",
+        "visual/chapter_art/127/Ch127_Fast-Coverage-005-01.jpg"
+      ],
+      "chapter": 127,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "128": {
+      "assets": [
+        "visual/chapter_art/128/Ch128_Blue-Door-Crossing.jpg",
+        "visual/chapter_art/128/Ch128_Fast-Coverage-005-01.jpg"
+      ],
+      "chapter": 128,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "129": {
+      "assets": [
+        "visual/chapter_art/129/Ch129_Direction-Without-Thread.jpg",
+        "visual/chapter_art/129/Ch129_Fast-Coverage-005-01.jpg"
+      ],
+      "chapter": 129,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "130": {
+      "assets": [
+        "visual/chapter_art/130/Ch130_Supper-Table-Rehearsal.jpg",
+        "visual/chapter_art/130/Ch130_Fast-Coverage-005-01.jpg"
+      ],
+      "chapter": 130,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "131": {
+      "assets": [
+        "visual/chapter_art/131/Ch131_Wristward-Assessment.jpg",
+        "visual/chapter_art/131/Ch131_Fast-Coverage-006-01.jpg"
+      ],
+      "chapter": 131,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "132": {
+      "assets": [
+        "visual/chapter_art/132/Ch132_Handcart-at-the-Curb.jpg",
+        "visual/chapter_art/132/Ch132_Fast-Coverage-006-01.jpg"
+      ],
+      "chapter": 132,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "133": {
+      "assets": [
+        "visual/chapter_art/133/Ch133_Legendary-Sword-Argument.jpg"
+      ],
+      "chapter": 133,
+      "image_count": 1,
+      "referenced_images": 1
+    },
+    "134": {
+      "assets": [
+        "visual/chapter_art/134/Ch134_Red-Stone-Sword-Voice.jpg"
+      ],
+      "chapter": 134,
+      "image_count": 1,
+      "referenced_images": 1
+    },
+    "135": {
+      "assets": [
+        "visual/chapter_art/135/Ch135_King-at-the-Stone-Door.jpg"
+      ],
+      "chapter": 135,
+      "image_count": 1,
+      "referenced_images": 1
+    },
+    "136": {
+      "assets": [
+        "visual/chapter_art/136/Ch136_Servant-Actor-Reaction.jpg"
+      ],
+      "chapter": 136,
+      "image_count": 1,
+      "referenced_images": 1
+    },
+    "137": {
+      "assets": [
+        "visual/chapter_art/137/Ch137_Uneven-Oval-Map.jpg"
+      ],
+      "chapter": 137,
+      "image_count": 1,
+      "referenced_images": 1
+    },
+    "138": {
+      "assets": [
+        "visual/chapter_art/138/Ch138_Forward-Coverage-004-01.jpg",
+        "visual/chapter_art/138/Ch138_Forward-Coverage-004-02.jpg",
+        "visual/chapter_art/138/Ch138_Forward-Coverage-004-03.jpg"
+      ],
+      "chapter": 138,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "139": {
+      "assets": [
+        "visual/chapter_art/139/Ch139_Forward-Coverage-004-01.jpg",
+        "visual/chapter_art/139/Ch139_Forward-Coverage-004-02.jpg"
+      ],
+      "chapter": 139,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "140": {
+      "assets": [
+        "visual/chapter_art/140/Ch140_Forward-Coverage-004-01.jpg",
+        "visual/chapter_art/140/Ch140_Forward-Coverage-004-02.jpg",
+        "visual/chapter_art/140/Ch140_Forward-Coverage-004-03.jpg"
+      ],
+      "chapter": 140,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "141": {
+      "assets": [
+        "visual/chapter_art/141/Ch141_Forward-Coverage-004-01.jpg",
+        "visual/chapter_art/141/Ch141_Forward-Coverage-004-02.jpg"
+      ],
+      "chapter": 141,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "142": {
+      "assets": [
+        "visual/chapter_art/142/Ch142_Forward-Coverage-004-01.jpg",
+        "visual/chapter_art/142/Ch142_Forward-Coverage-004-02.jpg",
+        "visual/chapter_art/142/Ch142_Forward-Coverage-004-03.jpg"
+      ],
+      "chapter": 142,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "143": {
+      "assets": [
+        "visual/chapter_art/143/Ch143_Forward-Coverage-004-01.jpg",
+        "visual/chapter_art/143/Ch143_Forward-Coverage-004-02.jpg"
+      ],
+      "chapter": 143,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "144": {
+      "assets": [
+        "visual/chapter_art/144/Ch144_Forward-Coverage-004-01.jpg",
+        "visual/chapter_art/144/Ch144_Forward-Coverage-004-02.jpg"
+      ],
+      "chapter": 144,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "145": {
+      "assets": [
+        "visual/chapter_art/145/Ch145_Forward-Coverage-004-01.jpg",
+        "visual/chapter_art/145/Ch145_Forward-Coverage-004-02.jpg",
+        "visual/chapter_art/145/Ch145_Forward-Coverage-004-03.jpg"
+      ],
+      "chapter": 145,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "146": {
+      "assets": [
+        "visual/chapter_art/146/Ch146_Forward-Coverage-004-01.jpg",
+        "visual/chapter_art/146/Ch146_Forward-Coverage-004-02.jpg",
+        "visual/chapter_art/146/Ch146_Forward-Coverage-004-03.jpg"
+      ],
+      "chapter": 146,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "147": {
+      "assets": [
+        "visual/chapter_art/147/Ch147_Forward-Coverage-004-01.jpg",
+        "visual/chapter_art/147/Ch147_Forward-Coverage-004-02.jpg"
+      ],
+      "chapter": 147,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "148": {
+      "assets": [
+        "visual/chapter_art/148/Ch148_Fast-Coverage-005-01.jpg",
+        "visual/chapter_art/148/Ch148_Fast-Coverage-005-02.jpg",
+        "visual/chapter_art/148/Ch148_Fast-Coverage-005-03.jpg"
+      ],
+      "chapter": 148,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "149": {
+      "assets": [
+        "visual/chapter_art/149/Ch149_Fast-Coverage-005-01.jpg",
+        "visual/chapter_art/149/Ch149_Fast-Coverage-005-02.jpg",
+        "visual/chapter_art/149/Ch149_Fast-Coverage-005-03.jpg"
+      ],
+      "chapter": 149,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "150": {
+      "assets": [
+        "visual/chapter_art/150/Ch150_Fast-Coverage-005-01.jpg",
+        "visual/chapter_art/150/Ch150_Fast-Coverage-005-02.jpg",
+        "visual/chapter_art/150/Ch150_Fast-Coverage-005-03.jpg"
+      ],
+      "chapter": 150,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "151": {
+      "assets": [
+        "visual/chapter_art/151/Ch151_Fast-Coverage-005-01.jpg",
+        "visual/chapter_art/151/Ch151_Fast-Coverage-005-02.jpg",
+        "visual/chapter_art/151/Ch151_Fast-Coverage-005-03.jpg"
+      ],
+      "chapter": 151,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "152": {
+      "assets": [
+        "visual/chapter_art/152/Ch152_Fast-Coverage-005-01.jpg",
+        "visual/chapter_art/152/Ch152_Fast-Coverage-005-02.jpg",
+        "visual/chapter_art/152/Ch152_Fast-Coverage-005-03.jpg"
+      ],
+      "chapter": 152,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "153": {
+      "assets": [
+        "visual/chapter_art/153/Ch153_Fast-Coverage-006-01.jpg",
+        "visual/chapter_art/153/Ch153_Fast-Coverage-006-02.jpg",
+        "visual/chapter_art/153/Ch153_Fast-Coverage-006-03.jpg"
+      ],
+      "chapter": 153,
+      "image_count": 3,
+      "referenced_images": 3
+    },
+    "154": {
+      "assets": [
+        "visual/chapter_art/154/Ch154_Fast-Coverage-006-02.jpg",
+        "visual/chapter_art/154/Ch154_Fast-Coverage-006-03.jpg"
+      ],
+      "chapter": 154,
+      "image_count": 2,
+      "referenced_images": 2
+    },
+    "155": {
+      "assets": [
+        "visual/chapter_art/155/Ch155_Fast-Coverage-006-01.jpg",
+        "visual/chapter_art/155/Ch155_Fast-Coverage-006-02.jpg",
+        "visual/chapter_art/155/Ch155_Fast-Coverage-006-03.jpg",
+        "visual/chapter_art/155/Ch155_Fast-Coverage-006-04.jpg"
+      ],
+      "chapter": 155,
+      "image_count": 4,
+      "referenced_images": 4
+    },
+    "220": {
+      "assets": [],
+      "chapter": 220,
+      "image_count": 0,
+      "referenced_images": 0
+    },
+    "221": {
+      "assets": [],
+      "chapter": 221,
+      "image_count": 0,
+      "referenced_images": 0
+    }
+  },
+  "schema_version": 1,
+  "summary": {
+    "maximum_images": 4,
+    "multiple_images": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "no_art": [
+      220,
+      221
+    ],
+    "one_image": [
+      133,
+      134,
+      135,
+      136,
+      137
+    ]
+  }
+}
