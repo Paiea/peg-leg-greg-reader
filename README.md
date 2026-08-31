@@ -2,18 +2,23 @@
 
 Open `index.html` in any modern browser.
 
-This static reader publishes **Chapters 1–155** from the closed Book 1 authority plus the current Book 2 rolling authority.
+This repository holds the illustrated static reader for Chapters 1–155 and the
+continuous text-first Light Reader through the current manuscript endpoint.
 
 The manuscript remains the prose authority. This reader is a derived publishing build.
 
 ## Current source
 
 - Book 1 manuscript: `Peg_Leg_Greg_authoritative_ch82_final_name_map.docx` — Chapters 1–82, CLOSED
-- Book 2 manuscript: `Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx` plus `Peg_Leg_Greg_Running_Manuscript_Ch138-155.md` — Chapters 83–155, ACTIVE
+- Book 2 locked source: `state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx`
+- Exact continuation: `state/manuscript/Peg_Leg_Greg_Running_Manuscript_Ch138-155.md`
+- Recovered exact prose: `state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md`
+- Permanent forward manuscript: `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md` for Chapter 220 onward
 - Book 1 SHA-256: `5041ec36c61cbad6f80bf43cbd22ea55c7a2f4daa54bab43dd1be70971d36113`
 - Book 2 SHA-256: `1cc2f67ff37ec7169ce012877f3001ef7feeefbb25b52f3b754942bcb6d705bb`
 - Published chapters: 1–155
-- Latest chapter: Chapter 155 — THE LEAK
+- Illustrated endpoint: Chapter 155 — THE LEAK
+- Current endpoint: read `state/MANUSCRIPT_STATE.md`; do not hard-code it from this README
 
 ## Art
 

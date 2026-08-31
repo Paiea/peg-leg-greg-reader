@@ -36,7 +36,11 @@ class SocialNamesPassTest(unittest.TestCase):
         combined = manuscript_text(BOOK1) + "\n" + manuscript_text(BOOK2)
         self.assertIsNone(re.search(r"\bLysa\b", combined))
         self.assertIsNone(re.search(r"\bAntonious\b", combined))
-        self.assertEqual(len(list((ROOT / "chapters").glob("*.html"))), 155)
+        chapter_files = list((ROOT / "chapters").glob("[0-9][0-9][0-9].html"))
+        illustrated = [path for path in chapter_files if 1 <= int(path.stem) <= 155]
+        previews = [path for path in chapter_files if int(path.stem) >= 220]
+        self.assertEqual(len(illustrated), 155)
+        self.assertEqual([path.stem for path in sorted(previews)], ["220", "221"])
 
 
 if __name__ == "__main__":

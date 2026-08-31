@@ -85,6 +85,21 @@ Use:
 
 Avoid finished work existing only in chat or a mystery local file.
 
+### GitHub-first handoff
+
+When current project authority is already in GitHub, do not create or request a
+full repository ZIP merely to move work between chats or agents.
+
+Normal handoff:
+
+**READ CURRENT GITHUB -> WORK ON BRANCH -> VALIDATE -> PR / MERGE -> UPDATE
+DURABLE STATE -> LEAVE COMPACT RE-PROMPT**
+
+Use a small targeted attachment only when required work is intentionally absent
+from GitHub, such as the living heavy-edit manuscript, a genuinely unique source
+asset, an exact recovery block, or a user-requested offline archive. Full-project
+ZIPs are exceptional recovery artifacts, not routine checkpoints.
+
 ## Handoff
 
 Follow `state/HANDSHAKE_PROTOCOL.md` when present.
