@@ -31,7 +31,14 @@ Repeated work can also reduce supervision around Greg without making him the bes
 - Relationship with Greg includes ordinary domestic life, not merely plot debriefs.
 - Can distinguish what happened from what Greg thinks it means.
 - Often refuses Greg's attempt to inflate a narrow practical event into a grand lesson when she has her own work to do.
-- Her professional sewing/alteration work remains an independent life/economic engine. Do not route her into theatre wardrobe merely because she can sew; any overlap requires an earned customer/job/relationship connection.
+- Her professional sewing/alteration work is an independent economic/social engine, not background scenery. Chapter 224 explicitly says she is maintaining **three customers** and a changing collection of cloth while Greg handles his own work.
+- Current work life includes customer visits at the apartment, jobs completed/delivered while Greg is elsewhere, payment, several unrelated garments moving through the table, and ordinary material errands.
+- Chapter 225–226 establishes paid customer-requested rework at the narrow behavioral level: the brown-cuff customer changes the cuff after completion, changes it again, Lyssa charges for both changes, delivers the job, gets paid, hears that the first cuff was prettier, and moves on.
+- Chapter 222 establishes Maren as a useful garment/thread supply route for her. Greg can bring a cloth sample for matching; Lyssa later says `Maren usually does.` Do not inflate this into an invented personal supplier relationship or assume the seller knows Lyssa unless prose establishes it.
+- Current prose visibly uses pins, seams, lining, buttons, chalk marks, folded/pinned cloth, opened garments, and multiple sleeves as work-in-progress texture. Do not retroactively assign a specific fitting/confirmation meaning to every state.
+- Greg may notice patterns in her work but should not become her business manager, alteration analyst, or automatic courier.
+- Repeat/referral customers, remembered fit preferences, specific queue consequences, refusal/repricing limits, and formal fitting stages remain possibilities until prose establishes them.
+- Do not route her into theatre wardrobe merely because she can sew; any overlap requires an earned customer/job/relationship connection.
 - Do not flatten her into Greg's sounding board, permanent caretaker, exposition receiver, or person who exists only when Greg comes home.
 
 ## Hessa
