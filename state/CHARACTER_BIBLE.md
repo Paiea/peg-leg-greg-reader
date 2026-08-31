@@ -89,11 +89,13 @@ Repeated work can also reduce supervision around Greg without making him the bes
 
 ## Nessa
 
-- Demonstrated practical authority over props, resets, storage, handoffs, and backstage continuity.
+- Demonstrated practical authority over props, resets, storage, handoffs, costume continuity, and backstage object routes.
 - Corrects operational problems directly and repeatedly; she does not need Teren to authorize every prop or reset decision.
-- Chapter 222–226 behavior establishes object-route competence rather than generic backstage omniscience: she finds/restores misplaced working objects, gives Greg's parcel a chalk-marked home after it goes missing, coordinates property-table use, maintains scene-specific cup continuity, marks protected stage property, and stops Marek from treating working props as casual objects.
+- Her practical relationship with Marek predates the recent property-table chapters. Recovered road-era prose shows her pinning his collar, answering his `Royal instinct` joke with `Royal stillness`, and Marek immediately becoming still. Concrete work correction can land without turning into a fight.
+- Chapter 222–225 establishes accumulated material memory around Marek's object habits: specific props are kept from him, the striped umbrella returns wet and requires drying, protected stage property gets active custody, and the painted cup is stopped/inspected after he uses it for water.
+- Chapter 228 is important anti-flattening evidence: Marek's borrowed flower spray reveals a real doorway-route problem, and Nessa incorporates his useful discovery into `Sideways through the door, upright after`, later preserving the information for Greg.
 - Her authority is behavioral and manuscript-established. Do not invent a formal modern title/reporting line unless later prose supports one.
-- Do not flatten her into a generic prop cop. Her practical competence should also create trust, shorthand, irritation, favors, and relationships independent of Greg over time.
+- Do not flatten Nessa into a generic prop cop, Marek babysitter, or omniscient predictor. She should respond to actual material/scene consequences, can be wrong or surprised, and can use useful information produced by somebody who also irritates her.
 
 ## Hara
 
@@ -122,9 +124,12 @@ Repeated work can also reduce supervision around Greg without making him the bes
 
 ## Marek
 
-- Recurring comedy includes touching/using stage objects he should leave alone and occasional performance/backstage mistakes.
-- Nessa, Hara, and other workers already have social memory around this behavior. Chapter 222–225 shows it creating actual downstream work or preventative adjustment: umbrella hunting/drying, object repositioning, protected cup handling, reset/inspection.
-- Do not flatten him into an idiot or permanent liability. His object meddling should not exist only to generate Greg/Nessa punchlines; he should retain independent competence, relationships, jokes, and the capacity to surprise Greg or the company when manuscript opportunities support it.
+- Strong recurring performer with humor, improvisational/recovery competence, and a repeated history of touching, borrowing, or using working stage objects in ways other workers remember.
+- Nessa, Hara, and other workers have material social memory around this behavior. Chapter 222–225 shows it creating actual downstream work or preventative adjustment: umbrella hunting/drying, object repositioning, protected property handling, reset/reorganization, and painted-cup inspection.
+- He is not simply disobedient. Recovered prose shows him responding immediately when Nessa gives a concrete costume correction (`Royal stillness`), and current performance work shows he can adjust routes and recover inside scenes.
+- Chapter 228 explicitly prevents `permanent liability` flattening: borrowing the long flower spray causes him to discover a real doorway-route problem; he reports it, and Nessa turns the discovery into working shorthand for the company.
+- Preserve the two-sided object pattern: Marek's engagement with an object can create **trouble or useful information**. Do not make every touch a mistake, every mistake a Nessa punishment beat, or his object behavior his entire personality.
+- Do not flatten him into an idiot, saboteur, permanent liability, or Nessa's ward. He should retain independent competence, relationships, jokes, and the capacity to surprise the company usefully.
 
 ## Bren
 
@@ -147,9 +152,9 @@ Track recurring actors/crew as people with their own strengths, mistakes, jobs, 
 
 Current manuscript supports **domain-shaped competence without a formalized org chart**: acting correction, props/reset, overlapping build/repair/geometry, and business procedure can belong to different people in practice.
 
-The ensemble already demonstrates distributed recovery and **material social memory**: people remember who moves objects, whose sleeve catches things, what needs to be kept away from Marek, where a prop should return, what repair another person's mistake creates, and when a practical correction changes later behavior. Use that residue selectively rather than turning every object into setup.
+The ensemble already demonstrates distributed recovery and **material social memory**: people remember who moves objects, whose sleeve catches things, what needs to be kept away from Marek, where a prop should return, what repair another person's mistake creates, when a practical correction changes later behavior, and when an irritating habit produces genuinely useful information. Use that residue selectively rather than turning every object into setup.
 
-Recent recurring names worth preserving from the current edge include Teren, Nessa, Hara, Marek, Venn, Jori, **Davin**, and Rinna. Deepen only from manuscript evidence.
+Recent recurring names worth preserving from the current edge include Teren, Nessa, Hara, Marek, Venn, Jori, Davin, and Rinna. Deepen only from manuscript evidence.
 
 Research-supported possibilities such as earned shorthand, distinct note-reception styles, informal go-to status, social debt from covering/cleanup/repair, and detailed costume-change choreography remain possibilities until prose establishes them.
 
