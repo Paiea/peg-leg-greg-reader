@@ -19,6 +19,8 @@ Practical noticing. Systems-minded curiosity. Dry or situational humor without e
 
 Increasingly embedded in theatre as a worker and performer. Acting corrections should continue to feel earned and specific rather than like a sudden skill unlock.
 
+As basic routes/cues/props become more automatic, some useful mistakes can come from anticipation, over-helping, or optimizing the wrong system rather than simple forgetting. Do not turn this into a fixed acting flaw or progress meter.
+
 ## Lyssa
 
 - Canonical spelling: Lyssa. Same established character formerly spelled Lysa.
@@ -26,6 +28,7 @@ Increasingly embedded in theatre as a worker and performer. Acting corrections s
 - Has independent work, errands, moods, obligations, competence, and desires.
 - Relationship with Greg includes ordinary domestic life, not merely plot debriefs.
 - Can distinguish what happened from what Greg thinks it means.
+- Often refuses Greg's attempt to inflate a narrow practical event into a grand lesson when she has her own work to do.
 - Do not flatten her into Greg's sounding board, permanent caretaker, exposition receiver, or person who exists only when Greg comes home.
 
 ## Hessa
@@ -41,6 +44,42 @@ Increasingly embedded in theatre as a worker and performer. Acting corrections s
 - Practical commercial defense and recordkeeping matter.
 - Records supported wording rather than inflated conclusions.
 - Supplier/neighborhood warning network is a meaningful development.
+- Current prose also gives her domain-shaped business authority: payment, records, supplier verification, and practical theatre procedure do not need to be routed through Teren.
+
+## Teren
+
+- Recurring theatre authority for acting / scene adjustment in current prose.
+- Chapter 225 shows a useful correction language: brief, local, playable instructions tied to the exact failure rather than speeches about acting or life.
+- He can correct Greg without becoming Greg's mentor in every domain.
+- Do not make Teren the sole source of theatre knowledge, every note a memorable aphorism, or his narrow stage instructions universal philosophy.
+
+## Nessa
+
+- Demonstrated practical authority over props, resets, storage, handoffs, and backstage continuity.
+- Corrects operational problems directly and repeatedly; she does not need Teren to authorize every prop or reset decision.
+- Chapter 225–226 prop behavior includes marking protected stage property, maintaining cup continuity, taking/resetting objects, and stopping Marek from treating working props as casual objects.
+- Her authority is behavioral and manuscript-established. Do not invent a formal modern title/reporting line unless later prose supports one.
+- Do not flatten her into a generic prop cop; her practical competence should also create trust, shorthand, irritation, favors, and relationships independent of Greg over time.
+
+## Hara
+
+- Strong performer who can own major audience beats without Greg being the center.
+- Chapter 225 establishes live scene-partner recovery: when Greg presents her intended cup choice too early, she bridges inside the scene, restores her character's agency, and keeps the performance moving.
+- Afterward her accountability is peer-level and dry rather than instructional or sentimental.
+- Do not promote Hara into Greg's acting mentor merely because she is excellent. Let her have stage relationships, work, irritation, and competence that do not revolve around teaching him.
+
+## Jori
+
+- Practical theatre competence centers on build/repair/set movement/usable physical geometry in current prose.
+- Recent examples include ordinary cart repair, moving/handling flats and benches, catching a still-needed cabinet move, and quietly adjusting stage geometry so Greg has a usable crutch route.
+- Practical accommodations can become ordinary workplace behavior without speeches about them.
+- Do not turn Jori into a universal engineer or safety oracle; keep competence specific and social.
+
+## Marek
+
+- Recurring comedy includes touching/using stage objects he should leave alone and occasional performance/backstage mistakes.
+- Nessa and other workers already have social memory around this behavior.
+- Do not flatten him into an idiot or permanent liability. He should retain independent competence, relationships, jokes, and the capacity to surprise Greg or the company when manuscript opportunities support it.
 
 ## Bren
 
@@ -61,7 +100,13 @@ Increasingly embedded in theatre as a worker and performer. Acting corrections s
 
 Track recurring actors/crew as people with their own strengths, mistakes, jobs, and comic/dramatic ownership. Greg does not need the strongest performance beat.
 
-Recent recurring names worth preserving from the current edge include Teren, Nessa, Hara, Marek, Venn, and Rinna. Deepen only from manuscript evidence.
+Current manuscript supports **domain-shaped competence without a formalized org chart**: acting correction, props/reset, build/repair/geometry, and business procedure can belong to different people in practice.
+
+The ensemble also already demonstrates distributed recovery. Greg is not the only person whose error gets covered and not the only person capable of saving a working scene.
+
+Recent recurring names worth preserving from the current edge include Teren, Nessa, Hara, Marek, Venn, Jori, and Rinna. Deepen only from manuscript evidence.
+
+Research-supported possibilities such as earned shorthand, distinct note-reception styles, informal go-to status, and social debt from covering/cleanup/repair remain possibilities until prose establishes them.
 
 ## Maintenance
 
