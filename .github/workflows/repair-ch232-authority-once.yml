@@ -1,0 +1,82 @@
+name: One-shot repair Chapter 232 authority
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/repair-ch232-authority-once.yml
+permissions:
+  contents: write
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Remove stale trailing Chapter 232 duplicate
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          p = Path('state/manuscript/Peg_Leg_Greg_Running_Manuscript.md')
+          text = p.read_text()
+          canonical = '## Chapter 232 — THE COUNTERSIGN'
+          stale_sep = '\n\n------------------------------------------------------------------------\n\n# CHAPTER 232\n\n## THE MATCHER'
+
+          assert text.count(canonical) == 1, 'canonical COUNTERSIGN missing/duplicated'
+          assert text.count(stale_sep) == 1, 'expected stale MATCHER separator missing/duplicated'
+          prefix, stale_tail = text.split(stale_sep, 1)
+          assert '# CHAPTER 233' not in stale_tail and '## Chapter 233' not in stale_tail, 'new Chapter 233 exists after stale duplicate; refusing truncation'
+          assert '# CHAPTER 232' not in stale_tail, 'unexpected additional modern chapter header in stale tail'
+
+          counter = canonical + prefix.split(canonical, 1)[1]
+          words = len(re.findall(r"\b[\w’'-]+\b", counter))
+          assert 2500 <= words <= 4000, words
+          assert '—' not in counter, 'em dash in canonical COUNTERSIGN prose'
+
+          p.write_text(prefix.rstrip() + '\n')
+          print('canonical_words', words)
+          print('canonical_em_dashes', counter.count('—'))
+          print('removed_stale_matcher', True)
+          PY
+      - name: Verify authority regression test turns green
+        run: python state/.test_ch232_authority.py
+      - name: Remove one-shot test and workflows
+        run: rm -f state/.test_ch232_authority.py .github/workflows/check-ch232-authority-once.yml .github/workflows/repair-ch232-authority-once.yml
+      - name: Final verification and push
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          m = Path('state/manuscript/Peg_Leg_Greg_Running_Manuscript.md').read_text()
+          s = Path('state/MANUSCRIPT_STATE.md').read_text()
+          i = Path('state/MANUSCRIPT_CHAPTER_INDEX.md').read_text()
+          assert m.count('## Chapter 232 — THE COUNTERSIGN') == 1
+          assert '# CHAPTER 232\n\n## THE MATCHER' not in m
+          assert '# CHAPTER 233' not in m and '## Chapter 233' not in m
+          counter = '## Chapter 232 — THE COUNTERSIGN' + m.split('## Chapter 232 — THE COUNTERSIGN', 1)[1]
+          words = len(re.findall(r"\b[\w’'-]+\b", counter))
+          assert 2500 <= words <= 4000, words
+          assert counter.count('—') == 0
+          assert 'Current story endpoint: Chapter 232 — **THE COUNTERSIGN**.' in s
+          assert 'Immediate next edge — Chapter 233' in s
+          assert '33 successful supervised minimal draws' in s
+          assert '29 supervised deliberate shaping attempts' in s
+          assert '45 supervised external-effect attempts' in s
+          assert '232. **THE COUNTERSIGN**' in i
+          assert '232. **THE MATCHER**' not in i
+          print('verified_counter_words', words)
+          print('verified_counter_em_dashes', counter.count('—'))
+          print('verified_endpoint', 'Chapter 232 — THE COUNTERSIGN')
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --check
+          git commit -m "Remove accidental duplicate Chapter 232"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
