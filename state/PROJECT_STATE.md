@@ -79,9 +79,9 @@ Permanent forward path:
 
 Do NOT create a new `Peg_Leg_Greg_Running_Manuscript_ChXXX-YYY.md` file for each chapter or shipping pass. Update the permanent running manuscript in place.
 
-Current story endpoint is Chapter 220 — **THE LANDLORD**.
+**Do not hard-code the live chapter endpoint in this overview.** Read `state/MANUSCRIPT_STATE.md` and the permanent running manuscript for the current edge. The Manuscript Engine may advance faster than infrastructure branches.
 
-Repository prose was previously validated continuously through Chapter 155 — **THE LEAK**. Chapters 156–219 remain newer forward material pending exact-text synchronization into the permanent file and must not be reconstructed from summaries. Chapter 220 and all later forward chapters are materialized directly in the permanent running manuscript.
+Repository prose was previously validated continuously through Chapter 155 — **THE LEAK**. Chapters 156–219 remain newer forward material pending exact-text synchronization into the permanent file and must not be reconstructed from summaries. Chapter 220 and later forward chapters are materialized directly in the permanent running manuscript.
 
 ## Forward production workflow
 
