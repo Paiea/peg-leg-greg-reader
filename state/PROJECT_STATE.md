@@ -78,7 +78,7 @@ Permanent forward path:
 
 Do NOT create a new `Peg_Leg_Greg_Running_Manuscript_ChXXX-YYY.md` file for each chapter or shipping pass. Update the permanent running manuscript in place.
 
-Current story endpoint is Chapter 222 — **THE PROPERTY MAN**.
+Current story endpoint is Chapter 223 — **THE MAINTENANCE MAN**.
 
 Repository prose was previously validated continuously through Chapter 155 — **THE LEAK**. Chapters 156–219 remain newer forward material pending exact-text synchronization into the permanent file and must not be reconstructed from summaries. Chapters 220 and later are materialized directly in the permanent running manuscript.
 
