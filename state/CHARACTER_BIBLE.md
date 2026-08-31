@@ -105,10 +105,20 @@ Repeated work can also reduce supervision around Greg without making him the bes
 
 ## Jori
 
-- Practical theatre competence centers on build/repair/set movement/usable physical geometry in current prose.
-- Recent examples include ordinary cart repair, moving/handling flats and benches, catching a still-needed cabinet move, and quietly adjusting stage geometry so Greg has a usable crutch route.
+- Practical theatre competence includes build/repair but is **not exclusive**; current prose especially makes him legible through usable stage geometry, operation, verification, set movement, and practical repair judgment.
+- He repeatedly moves/handles flats and benches, operates/calls around working scenery, checks repaired cart hardware, uses chalk witness marks for verification, and quietly adjusts stage geometry so Greg and other performers have usable routes.
+- His authority overlaps Davin's and changes with the problem. Chapter 210 has Davin own the missing-pin diagnosis/fabrication and direct a cart test while Jori operates the cart and adds later verification; Chapter 228 has Jori narrow the recovery after Davin's name-board painting mistake.
 - Practical accommodations can become ordinary workplace behavior without speeches about them.
-- Do not turn Jori into a universal engineer or safety oracle; keep competence specific and social.
+- Do not turn Jori into a universal engineer, safety oracle, formal technical boss, or Davin's permanent supervisor; keep competence specific and social.
+
+## Davin
+
+- Recurring practical theatre worker with established repair, fabrication, hauling, setup, material-handling, and ordinary checking competence.
+- Recovered prose establishes him repairing the curtain wheel, diagnosing the missing cart pin as pulled rather than broken, fabricating its replacement and wedge, directing Jori through a rolling test, and participating in later recognition of the returned original pin.
+- He and Jori repeatedly share hauling/setup/travel work, but the manuscript does not establish a formal supervisor/helper relationship. Authority is problem-shaped.
+- Current prose adds dry pair-specific credit/correction humor around cart repair, knots, cabinets, and practical labor. That humor works because Davin is genuinely useful; it is not his entire personality.
+- Chapter 228 gives him a real mistake with the reversible name board, then preserves competence/accountability: he remains on the repair, follows the narrowed scrape/chalk/paint solution, later carries the repaired board with the wet side protected, and the narration says he learned. Jori still watches, which establishes narrow social memory rather than permanent distrust.
+- Do not flatten Davin into Jori's helper, permanent screwup, credit thief, comic liability, or universal handyman. Do not invent friendship, rivalry, hierarchy, or a fixed repair philosophy with Jori unless later prose establishes it.
 
 ## Marek
 
@@ -135,11 +145,11 @@ Repeated work can also reduce supervision around Greg without making him the bes
 
 Track recurring actors/crew as people with their own strengths, mistakes, jobs, and comic/dramatic ownership. Greg does not need the strongest performance beat.
 
-Current manuscript supports **domain-shaped competence without a formalized org chart**: acting correction, props/reset, build/repair/geometry, and business procedure can belong to different people in practice.
+Current manuscript supports **domain-shaped competence without a formalized org chart**: acting correction, props/reset, overlapping build/repair/geometry, and business procedure can belong to different people in practice.
 
-The ensemble already demonstrates distributed recovery and **material social memory**: people remember who moves objects, whose sleeve catches things, what needs to be kept away from Marek, where a prop should return, and what work another person's mistake creates. Use that residue selectively rather than turning every object into setup.
+The ensemble already demonstrates distributed recovery and **material social memory**: people remember who moves objects, whose sleeve catches things, what needs to be kept away from Marek, where a prop should return, what repair another person's mistake creates, and when a practical correction changes later behavior. Use that residue selectively rather than turning every object into setup.
 
-Recent recurring names worth preserving from the current edge include Teren, Nessa, Hara, Marek, Venn, Jori, and Rinna. Deepen only from manuscript evidence.
+Recent recurring names worth preserving from the current edge include Teren, Nessa, Hara, Marek, Venn, Jori, **Davin**, and Rinna. Deepen only from manuscript evidence.
 
 Research-supported possibilities such as earned shorthand, distinct note-reception styles, informal go-to status, social debt from covering/cleanup/repair, and detailed costume-change choreography remain possibilities until prose establishes them.
 
