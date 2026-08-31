@@ -36,7 +36,7 @@ class SocialNamesPassTest(unittest.TestCase):
         combined = manuscript_text(BOOK1) + "\n" + manuscript_text(BOOK2)
         self.assertIsNone(re.search(r"\bLysa\b", combined))
         self.assertIsNone(re.search(r"\bAntonious\b", combined))
-        self.assertEqual(len(list((ROOT / "chapters").glob("*.html"))), 137)
+        self.assertEqual(len(list((ROOT / "chapters").glob("*.html"))), 152)
 
 
 if __name__ == "__main__":

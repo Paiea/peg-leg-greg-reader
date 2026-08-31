@@ -1,8 +1,9 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Chapter 137 — **THE SHAPE**.
+- Chapter 152 — **THE SECOND SHOW**.
 - Book 1 Chapters 1–82 closed. Book 2 active.
+- Chapters 138–152 are integrated from the forward running manuscript with a light paragraph-rhythm recomposition. Detailed compact canon harvest remains intentionally pending.
 
 ## Greg / body
 - Greg is nineteen, Bronze, Carrow; permanent LEFT BKA, knee preserved; right leg intact; two crutches.

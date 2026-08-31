@@ -16,7 +16,7 @@ class LinkCollector(HTMLParser):
                 self.links.append(href)
 
 
-for chapter in range(106, 138):
+for chapter in range(106, 153):
     page = ROOT / "chapters" / f"{chapter:03}.html"
     assert page.exists(), f"missing Chapter {chapter} reader page"
     html = page.read_text(encoding="utf-8")
@@ -25,12 +25,12 @@ for chapter in range(106, 138):
     parser = LinkCollector()
     parser.feed(html)
     assert f"{chapter - 1:03}.html" in parser.links, f"Chapter {chapter} missing previous navigation"
-    if chapter < 137:
+    if chapter < 152:
         assert f"{chapter + 1:03}.html" in parser.links, f"Chapter {chapter} missing next navigation"
     else:
-        assert "138.html" not in parser.links, "Chapter 137 must be the published endpoint"
+        assert "153.html" not in parser.links, "Chapter 152 must be the published endpoint"
 
 chapter_105 = (ROOT / "chapters" / "105.html").read_text(encoding="utf-8")
 assert 'href="106.html"' in chapter_105, "Chapter 105 must link forward to Chapter 106"
 
-print("Chapter 137 synchronization checks pass")
+print("Chapter 152 synchronization checks pass")

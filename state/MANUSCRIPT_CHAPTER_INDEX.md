@@ -1,6 +1,6 @@
-# PEG-LEG GREG — CHAPTER INDEX — CH137
+# PEG-LEG GREG — CHAPTER INDEX — CH152
 
-**Current endpoint:** Chapter 137 — THE SHAPE
+**Current endpoint:** Chapter 152 — THE SECOND SHOW
 
 Chapters 1--64 use the published checkpoint's role-title sequence.
 Chapters 65--82 continue from the current forward manuscript.
@@ -142,3 +142,18 @@ Chapters 65--82 continue from the current forward manuscript.
 135. **THE REPEAT**
 136. **THE OLD VOICE**
 137. **THE SHAPE**
+138. **THE SHOPKEEPER**
+139. **THE BASELINE**
+140. **THE TRAVELER**
+141. **THE PACKER**
+142. **THE PASSENGER**
+143. **THE STOP**
+144. **THE STABLE**
+145. **THE ARRIVAL**
+146. **THE HAND**
+147. **THE REHEARSAL**
+148. **THE ROOF**
+149. **THE AUDIENCE**
+150. **THE WORK**
+151. **THE SHOW**
+152. **THE SECOND SHOW**
