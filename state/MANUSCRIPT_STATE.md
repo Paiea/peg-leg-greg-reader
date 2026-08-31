@@ -1,16 +1,16 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current story endpoint: Chapter 220 — **THE LANDLORD**.
+- Current story endpoint: Chapter 221 — **THE PARTICIPANT**.
 - Book 1 Chapters 1–82 closed. Book 2 active.
 - Repository prose was previously validated continuously through Chapter 155 — **THE LEAK**.
 - Chapters 156–219 remain newer forward manuscript material pending exact-text synchronization into the permanent running manuscript. Do not reconstruct them from summaries or let stale overlapping files overwrite newer authority.
-- Chapter 220 is now materialized directly in the permanent running manuscript and all new forward chapters should continue there.
+- Chapters 220+ are materialized directly in the permanent running manuscript.
 
 ## Permanent forward manuscript path
 - Canonical forward path: `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`.
 - Do not create a new range-stamped running manuscript for every push.
-- Existing `...Ch138-152.md` / `...Ch138-155.md` files are historical predecessors, not the forward naming convention.
+- Existing range-stamped files are historical predecessors, not the forward naming convention.
 - Conflict rule: newest GitHub-authoritative prose wins on overlap.
 
 ## Production rules
@@ -22,28 +22,30 @@
 - Theatre remains work, people, acting, stagecraft, failure, recovery, and another turn. Do not make every theatre scene covert future-capability training.
 - Long-range direction remains theatre → performance → misdirection → illusion → masks → control of perception → eventual dangerous bluff. Directional, not a checklist.
 - Hessa handles mana safety, evidence, supervision, repeatability, and external-effect testing. She is not Greg's theatrical illusion teacher.
+- See `MANUSCRIPT_ENGINE_PLAYBOOK.md` for durable 01 working method.
 
 ## Current magic continuity
-- 30 successful supervised minimal draws.
-- 26 supervised deliberate shaping attempts.
-- 34 supervised external-effect attempts.
-- Latest controlled distance session used INTERMEDIATE / FAR, AWAY ONLY.
-- Attempt 31 intermediate: away response observed, control unchanged.
-- Attempt 32 far: no observed response, control unchanged.
-- Attempt 33 far: small rotational response with net displacement away observed, control unchanged.
-- Attempt 34 intermediate: away response observed, control unchanged.
-- Intermediate response repeated.
-- Far response observed once, not established.
-- Intermediate remains more reliable than far under current conditions.
+- 31 successful supervised minimal draws.
+- 27 supervised deliberate shaping attempts.
+- 37 supervised external-effect attempts.
+- Latest session used the SAME controlled apparatus, FAR position, AWAY ONLY.
+- Attempt 35 FAR: no observed response; control unchanged.
+- Attempt 36 FAR: small rotational response with net displacement AWAY; control unchanged.
+- Attempt 37 FAR: no observed response; control unchanged.
+- A FAR response has now been observed in more than one session under the current apparatus.
+- FAR reliability remains unestablished.
+- INTERMEDIATE remains more reliable than FAR on current evidence.
 - Distance dependence remains supported in the current apparatus.
-- No range established. Not generalized.
-- Restrictions unchanged: no independent draw, shaping, external testing, paper, coins, thread, larger objects, practice, or loopholes.
+- NO RANGE ESTABLISHED. NOT GENERALIZED.
+- Restrictions unchanged: no independent draw, shaping, external testing, paper, coins, thread, larger objects, practice, Barrier broadening, theatrical magic, or loopholes.
+- Body remains part of apparatus. Ch221 produced only temporary ordinary forearm warmth/work that returned to baseline before attempt 37. No injury or new symptom.
 
 ## Greg / Lyssa
 - Canonical spelling is **Lyssa**. Same established character formerly spelled Lysa.
 - Established visual identity only: Black woman, tall relative to Greg, thin/lithe build, natural Afro-textured hair. Do not invent unsupported precise appearance details.
 - Lyssa has independent work, errands, moods, and obligations rather than functioning only as Greg's sounding board.
 - Greg remains nineteen, Bronze, in Carrow, with permanent LEFT BKA, knee preserved, right leg intact, and two crutches.
+- Ch221 Lyssa is independently working throughout the day. At home she cares first whether Greg was hurt and whether Hessa changed the rules, not about becoming his research partner.
 
 ## Economy / debt
 - Currency is copper / silver / gold. No conversion rate has been established. Do not invent one.
@@ -51,7 +53,7 @@
 - Hard original terms: 35% interest, 8 days, labor through Antonius on default. Original principal is unknown.
 - Exact current balance exists in-world but is not stated in authoritative narration.
 - Chapter 218: Greg made a one-copper cash payment; debt is therefore one copper lower than immediately before that payment.
-- Chapter 220: Greg buys ordinary bread and soap and accepts that necessary living expenses coexist with repayment. He earns the normal one copper from theatre and does not immediately earmark it for Vale.
+- Ch220 normalized ordinary living expenses alongside repayment. Ch221 does not add a Vale payment or Vale appearance.
 - Suitable Vale labor may earn debt credit when Antonius has suitable work. No fixed repayment plan.
 - No Vale/Bren connection is established.
 
@@ -60,78 +62,60 @@
 - No surname, boss, organization, or larger structure established.
 - Chapter 218: Bren demanded ONE COPPER from the theatre. Rinna refused. Bren said: **“Next time won't be one.”**
 - Chapter 219: thin-faced brown-coat man with dark hair and quiet voice warned Olin about theatre money and caused cancellation of an oil delivery. Description matches the prior Copper Kettle observer, but identity/employment remain unproved.
-- Chapter 220: the same-description man returns to Olin. Olin follows Rinna's instruction and gives him no useful theatre information.
-- Reported questions, preserved narrowly:
-  - `SHE BOUGHT IT ANYWAY?`
-  - `SHE PAID CASH FOR IT?`
-  - `STILL DOING SHOWS?`
-  - `DOES THE WOMAN KEEP THE MONEY AT THE HALL?`
-- The money-at-hall question is the strongest new detail. It supports interest in theatre money handling, not identity or organization.
-- Olin's boy later sees the man walking toward Mason's Cut. He does NOT see him enter Mason's Cut. This is direction of travel only.
-- Greg does not chase him.
-- Rinna extends the commercial warning network to the lamp-glass repairer and cart repair man. The network produces its first concrete success: warning arrives before new damage/cost.
-- No new direct demand, violence, fire, kidnapping, or sabotage occurs in Chapter 220.
+- Chapter 220: same-description man returns to Olin and asks whether Rinna bought oil anyway, paid cash, theatre still performs, and whether Rinna keeps money at the hall. Olin gives no useful information.
+- Olin's boy later sees him walking toward Mason's Cut but does NOT see him enter. Direction of travel only.
+- Rinna's commercial warning network produces its first concrete success: theatre hears the questions before new damage/cost.
+- Chapter 221 deliberately lets this information breathe. No Bren appearance, brown-coat appearance, new demand, sabotage, violence, Mason's Cut investigation, or new warning arrives.
+- Greg checks with Rinna twice; answer is simply no new word.
 
-## Chapter 220 — THE LANDLORD
-- Morning: Greg buys bread and soap, deliberately allowing ordinary living expenses alongside debt.
-- No Hessa note, experiment, or magic. Counts remain 30 / 26 / 34.
-- Olin's boy arrives at theatre because the brown-coat man returned to Olin.
-- Rinna records exact questions rather than conclusions. The boy corrects her wording once, reinforcing evidentiary discipline.
-- Boy reports later seeing the man walking toward Mason's Cut but not entering it.
-- Greg explicitly does not follow him.
-- Rinna continues ordinary business defense rather than investigation or militarization.
-- Greg is assigned Landlord in **The Cousin**, nine lines.
-- Rehearsal correction: Greg initially waits for the one-word `Rent` line to be funny instead of simply wanting rent; Teren corrects him.
-- Physical correction: Greg clips a chair with a crutch; Nessa identifies his route as wrong and moves the chair.
-- Performance: Hara owns the strongest comedy beat by silently judging Marek's fake mustache, then using the audience when it lifts.
-- Greg performs competently but makes a fresh line error, saying the cousin may pay when the cousin's absence is the scene problem. Marek bridges it; Greg corrects without trying to turn the mistake into a clever rescue.
-- Teren's narrow note: Greg was listening to himself rather than the scene.
-- Greg earns normal one copper.
-- At home Lyssa has been independently working. Greg reports the narrow threat facts.
-- Lyssa identifies the practical change: **“You heard about him before he cost you something this time.”**
-- End state: the unknown man sought information and Olin gave him none; the theatre received his questions instead.
+## Chapter 221 — THE PARTICIPANT
+- Morning: Hessa note appears under the cup: `AFTER MIDDAY. SAME ROOM. EAT FIRST.` plus `NO PRACTICE.`
+- Lyssa leaves independently with customer work.
+- Greg works at theatre first. No threat message has arrived.
+- Theatre work is deliberately mundane: Greg sits at the stage edge and holds a painted wall/canvas while Jori replaces leather ties. Greg is effectively a clamp with opinions.
+- Rinna gives Greg cheese before his Hessa appointment because Hessa required food.
+- Hessa preserved the same room/apparatus and checks chair/body geometry, right hand/wrist/forearm/shoulder, residual limb, phantom state, sleep, food, and water.
+- Experimental question is narrow: can FAR response repeat under the same controlled conditions, AWAY ONLY?
+- One attempted shaping setup is aborted before counting because Greg unconsciously lifts/braces his shoulder. Hessa refuses to count a bad record. The subsequent clean shaping sequence becomes attempt 27.
+- Attempt 35 FAR: no response.
+- Attempt 36 FAR: small rotational response with net displacement away; control unchanged. Similar category to attempt 33 but not identical movement.
+- Attempt 37 FAR: no response. Session stops as planned regardless of result.
+- Hessa's narrow conclusion: FAR response observed across more than one session under current apparatus; FAR reliability not established; intermediate remains more reliable on current evidence; no range established; not generalized.
+- End counts: 31 / 27 / 37.
+- Restrictions unchanged.
+- Greg returns to theatre. Rinna has no new threat word. Greg has no role that evening and stays through part of rehearsal anyway, then leaves as lamps are lit.
+- At home Lyssa asks whether he was hurt and whether rules changed. Both answers are no.
+- Ending keeps result narrow: two far responses exist on different days under glass and supervision. `More than once` is enough for tonight.
 
-## Immediate next edge — Chapter 221
-Primary function: **LET THE THREAT INFORMATION BREATHE WHILE ANOTHER LIVE ENGINE MOVES.**
+## Immediate next edge — Chapter 222
+Primary function: **RETURN TO ORDINARY THEATRE / CITY LIFE AFTER THE MAGIC RESULT, THEN LET THE PRESSURE ARC MOVE ONLY IF IT HAS A CONCRETE NEW FORM.**
 
-Strong recommendation: return to Hessa for a controlled evidence chapter rather than immediately chasing Mason's Cut or escalating Bren.
+Do not immediately range-map magic. Hessa has not scheduled the next question on-page and restrictions remain unchanged.
 
-Natural experimental question after the prior distance session:
-**CAN THE FAR RESPONSE REPEAT UNDER THE SAME CONTROLLED APPARATUS?**
+Strong next-chapter options, in priority order:
+1. Theatre/work day first. Give Greg real paid work or a real performance function and let Ch221's magic result remain true but practically useless.
+2. The commercial warning network may produce a SECOND useful warning if it adds genuinely new information rather than repeating Olin. A strong source would be the cart repair man or another business Rinna actually uses.
+3. If threat moves, prefer a new category of question/pressure about theatre movement, payment timing, or carts rather than another oil conversation. Preserve evidence discipline.
+4. Bren may remain off-page again if ordinary theatre produces the stronger chapter. Do not escalate merely because one chapter has passed.
 
-Preferred setup:
-- Hessa note arrives in the morning and schedules a bounded session.
-- Same apparatus if possible.
-- Same chair/body posture, target/control construction, glass shield, and FAR position.
-- Requested direction remains AWAY ONLY.
-- Do not add toward, larger objects, strength, theatrical use, or range hunting.
-- Start counts remain 30 / 26 / 34.
-- If one new minimal draw + one shaping sequence supports three external attempts, end counts would be 31 / 27 / 37. Track actual prose exactly.
-- A useful restrained result would be one clean far response plus failures/no-responses: far response repeated across sessions, but reliability still weak and no range established. Do not force this if the scene produces a better evidence pattern.
-- Hessa's language remains narrow. A second far observation does not become general telekinesis or useful range.
-- Body/fatigue remains part of the apparatus and can stop the session.
+Potential useful pressure progression if chosen:
+- someone asks a real theatre service business about when the theatre's cart moves, who takes money away after shows, or whether Rinna uses the same route;
+- the business refuses useful answers and sends word;
+- this would suggest interest in movement/logistics, not prove robbery, Bren employment, or an organization;
+- Greg/Rinna record exact wording and make one mundane operational adjustment rather than launching an investigation.
 
-Threat handling in Ch221:
-- NO Mason's Cut investigation.
-- NO Bren appearance strongly preferred.
-- NO new demand strongly preferred.
-- Rinna's network may exist in the background with no new message.
-- Greg may tell Rinna he has Hessa/Guild time and theatre schedules around it like ordinary work.
-- The fact that the brown-coat man asked where money is kept remains live but does not need another escalation immediately.
+Theatre should remain the visible center. Greg may perform a fresh role, work front/backstage, or be paid for ordinary theatre labor. Give someone else room to be better than him.
 
-Theatre / life:
-- Keep some ordinary theatre or Carrow life around the Hessa session so magic does not swallow Greg's life.
-- Greg can work a bounded morning/afternoon theatre function depending schedule, but no need for another major acting breakthrough.
-- Lyssa remains independently occupied.
-- Debt remains active but no Vale scene/payment required.
+Lyssa remains independent. Vale/debt can stay background unless an organic suitable-work or payment beat appears. No invented exchange rate or exact purse.
 
 ## Chat / handoff behavior
 After each completed chapter:
 1. update the permanent manuscript file;
 2. update this state in place;
-3. update chapter index / open threads only when useful;
-4. update the reader only as needed while preserving newer UI/artwork;
-5. return a compact production note in chat;
-6. end with a full copyable next-edge re-prompt in ONE code block.
+3. update chapter index / open threads when useful;
+4. update workflow/project endpoint;
+5. preserve newer reader UI/artwork and do not create out-of-order reader pages across the 156–219 sync gap;
+6. return a compact production note in chat;
+7. end with a full copyable next-edge re-prompt in ONE code block.
 
 The re-prompt remains intentional even though GitHub is the durable savestate.
