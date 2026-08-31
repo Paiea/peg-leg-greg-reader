@@ -223,6 +223,10 @@ def main() -> int:
         raise SystemExit(f'no chapters available for {args.range}')
 
     LIGHT_DIR.mkdir(parents=True, exist_ok=True)
+    for path in LIGHT_DIR.glob('[0-9][0-9][0-9].html'):
+        if path.stem.isdigit() and int(path.stem) not in all_chapters:
+            path.unlink()
+
     previous = load_manifest()
     generated = {
         int(item['number'])
