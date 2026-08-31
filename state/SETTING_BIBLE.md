@@ -37,7 +37,11 @@ Established recent facts:
 - customers can come to the apartment, and Lyssa prepares domestic space for that work independently of Greg;
 - jobs can be delivered and paid while Greg is elsewhere;
 - several unrelated garments / sleeves can be active at once;
-- work surfaces visibly include pins, cloth, seams, lining, buttons, thread, chalk marks, opened garments, and folded/pinned pieces.
+- work surfaces visibly include pins, cloth, seams, lining, buttons, thread, chalk marks, opened garments, and folded/pinned pieces;
+- Chapter 227 shows another unnamed customer being fitted in the apartment while Greg arrives after the fitting is already underway;
+- during that fitting Lyssa pins the pale coat near the hem and refuses one requested additional narrowing point because there is not enough cloth there.
+
+Chapter 227 therefore establishes customer-present fitting as part of Lyssa's work world and one concrete material constraint. It does **not** establish a universal fitting sequence, a formal confirmation stage, a general refusal/pricing policy, or the customer's referral source.
 
 ### Maren — established supply node
 
