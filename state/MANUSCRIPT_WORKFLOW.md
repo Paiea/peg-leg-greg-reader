@@ -119,6 +119,6 @@ GitHub provides durable continuity. The re-prompt gives the next writing session
 
 ## Current edge
 
-Chapter 226 — **THE REFERENCE**.
+Chapter 227 — **THE BUNDLER**.
 
-See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 227 edge.
+See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 228 edge.
