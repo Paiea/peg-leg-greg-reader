@@ -12,6 +12,22 @@ A real workplace and performance space, not an abstract backdrop. Track durable 
 
 Current commercial pressure has made the theatre's relationship with neighboring businesses story-relevant.
 
+### Backstage object continuity — established behavior
+
+Recent manuscript establishes a practical prop ecology without a formalized modern system:
+- a backstage property table is used to stage show objects, including rough scene-order arrangement;
+- frequently used objects have expected places / routes and are handed out, returned, reset, or moved between pieces;
+- Chapter 222 uses return baskets between pieces and Nessa chalk-marks a specific home for Greg's parcel after it goes missing;
+- hooks / storage locations matter enough that putting the striped umbrella with belts makes it effectively lost;
+- people remember object-specific hazards and habits, such as Hara moving a key away from Marek's sleeve path;
+- an absent usual property runner can be covered by another worker rather than stopping the company;
+- Chapter 225 gives the repurposed cups scene-specific identities and later `STAGE ONLY` storage;
+- ordinary props can require inspection, drying, repainting, repair, or other maintenance during their working life.
+
+These are established physical/workplace behaviors. Do not inflate them into universal chalk outlines, formal checklists, paperwork plots, fixed rosters, or modern stage-management bureaucracy unless later prose independently establishes an equivalent.
+
+Costume racks/hooks and ordinary costume activity exist backstage, but a formal quick-change / wardrobe-track system is not established. Lyssa's independent garment work remains separate from theatre wardrobe unless story causality later connects them.
+
 ## Supplier / neighborhood network
 
 Olin and other actual businesses used by the theatre are becoming a small practical information network. Rinna has instructed suppliers to verify claims with her and avoid giving strangers useful information about purchases, payment, carts, cargo, or timing.
