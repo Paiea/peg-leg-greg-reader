@@ -45,6 +45,15 @@ def verify(spec: str) -> int:
         fail('duplicate chapter number in Light manifest')
     generated = set(numbers)
 
+    numeric_pages = {
+        int(path.stem)
+        for path in Path('light').glob('[0-9][0-9][0-9].html')
+        if path.stem.isdigit()
+    }
+    orphans = sorted(numeric_pages - generated)
+    if orphans:
+        fail(f'orphan generated Light pages: {orphans[:12]}')
+
     missing = [n for n in wanted if n not in generated]
     if missing:
         fail(f'missing generated Light chapters: {missing[:12]}')
