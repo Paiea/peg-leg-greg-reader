@@ -46,346 +46,404 @@ Avoid formal backstage bureaucracy, universal checklists, Hara mentorship-by-exc
 
 ## LYSSA MANUSCRIPT-FIRST WORK-NETWORK AUDIT — CH156–228
 
-02 audited authoritative exact recovered Chapters 156–219, current running prose for Chapters 220–228, and the newest manuscript state available during the pass.
+02 audited authoritative exact recovered Chapters 156–219 plus current running prose through Chapter 228.
 
 **No new external research was used.** `RESEARCH_LEDGER.md` remains unchanged.
 
-The major result is that compact state had substantially **under-recorded** Lyssa's existing work world. A recurring social/work ecology is already on-page dozens of chapters before Chapter 224.
+The central correction is substantial:
 
-The useful correction is not `invent a Lyssa network`.
+**Lyssa's independent work network does not need to be invented. The manuscript already built one.**
 
-It is:
+Compact state had under-recorded recurring people, routes, customer recognition, work shorthand, payment/exchange, and one explicit customer referral already present before Chapters 220–228.
 
-**PRESERVE AND DEEPEN THE NETWORK THE MANUSCRIPT ALREADY BUILT.**
+The development job is now to preserve and selectively deepen what already exists without turning it into a client database or mandatory subplot.
 
-### ESTABLISHED — Marra is a recurring Lyssa work node before Greg returns to ordinary Carrow life
+## ESTABLISHED — MARRA / JESSA / LYSSA WORK ECOLOGY
 
-During Greg's road absence, a Lyssa letter already says Marra had finally admitted the gray cloth was wrong and that they were replacing it. Greg therefore hears evidence of this work relationship before he physically enters it.
+### Marra is a recurring work node
 
-Chapter 175 makes the relationship concrete:
-- an existing cloth shop knows Lyssa and tells Greg she went to Marra's;
+During Greg's road absence, Lyssa's letter already says Marra has admitted the gray cloth is wrong and they are replacing it. Greg therefore receives evidence of the relationship before he physically enters it.
+
+Chapter 175 then makes the relationship concrete:
+- a cloth shop knows Lyssa and can point Greg toward Marra's;
 - Marra's is identified by the recurring **green door**;
 - Lyssa is already there helping Marra correct a promised dress;
-- Lyssa argues from garment behavior rather than appearance alone: cutting at the wrong place will pull when the wearer lifts her arm;
-- Jessa is already present working on / unpicking the green dress;
-- Marra recognizes Greg as `the road one`, showing that Lyssa's relationship with Marra already contains information Greg was not present to create;
-- Marra pays Lyssa with a folded piece of pale cloth and what appears to Greg to be two copper.
+- Lyssa argues from garment behavior: cutting at the wrong place will pull when the wearer lifts her arm;
+- Jessa is present working on / unpicking the green dress;
+- Marra recognizes Greg as `the road one`, proving Lyssa's relationship with Marra already contains information Greg was not present to create;
+- after the dress becomes acceptable, Marra pays Lyssa with a folded piece of pale cloth and what Greg sees as roughly two copper.
 
-**Classification: ESTABLISHED recurring work relationship / work place.**
+**Classification: ESTABLISHED recurring work relationship / workplace.**
 
-Do not invent a formal job title, partnership, ownership structure, or employment contract for Marra or Lyssa. The manuscript establishes repeated work, coordination, payment/material exchange, and familiarity; it does not need a modern label.
+Do not invent a formal job title, partnership, ownership structure, or employment contract. Repeated collaboration, familiarity, payment/material exchange, and work coordination are enough.
 
-### ESTABLISHED — Jessa is a recurring participant in Lyssa / Marra's work ecology
+### Jessa is a recurring participant
 
-Across Chapters 175 onward, Jessa repeatedly appears inside the same garment-work network:
+Jessa repeatedly exists inside the same garment-work ecology:
 - she works directly with garments at Marra's;
-- Lyssa carries / later returns Jessa's shoes after Jessa goes home barefoot;
-- Lyssa travels from Marra's to Jessa's sister's and later sends / receives work messages through Jessa;
-- Chapter 184 gives compressed work language: Lyssa tells Greg to tell Jessa `the narrow one, not the wide one`; Jessa understands without Greg understanding the referent;
-- Chapter 188 shows Marra and Jessa both carrying `west after second bell` as a message for Lyssa; Greg fails to deliver it in time, but Jessa later finds Lyssa independently;
-- Chapter 199 has Jessa already at Marra's front table working when Greg arrives.
+- Lyssa carries and later returns Jessa's shoes after Jessa goes home barefoot;
+- Lyssa's route includes Jessa's sister's;
+- Chapter 184 gives compressed work language: `the narrow one, not the wide one`; Jessa understands the message while Greg does not know the referent;
+- Chapter 188 has Marra and Jessa both carrying `west after second bell` as a message for Lyssa;
+- when Greg fails to deliver the timing message in time, Jessa finds Lyssa independently;
+- later chapters still place Jessa at Marra's doing garment work and participating in the room's material memory.
 
 **Classification: ESTABLISHED recurring relationship / work-network participant.**
 
-**Boundary:** Jessa's exact formal role is not established. Do not force her into `customer`, `employee`, `partner`, or another tidy category unless later prose does so.
+**Boundary:** Jessa's exact formal role remains UNCERTAIN. Do not force `customer`, `employee`, `partner`, or another modern category unless future prose does so.
 
-### ESTABLISHED — Lyssa's work network moves material, messages, favors, and payment without Greg
+## ESTABLISHED — THE NETWORK MOVES WITHOUT GREG
 
-The recovered manuscript repeatedly shows work moving sideways through people:
-- Chapter 178: Lyssa's route includes Marra's, Jessa's sister's, and the dyer; the work involves six lengths of blue. She comes home with Jessa's shoes and receives cheese as payment for carrying the blue after Jessa leaves barefoot.
-- Chapter 183: most of the blue thread has gone `with people who needed blue thread`; Lyssa identifies some as Marra's, one as Jessa's, and refuses to inventory everyone else for Greg.
-- Chapter 184: Lyssa sends a gray-cloth parcel tied with blue thread to Marra with the instruction that the left side is marked; Marra already understands the marking. The same errand carries Jessa's compressed `narrow, not wide` message.
-- Chapter 188: a bowl returns to Marra and Marra/Jessa send a time-sensitive message to Lyssa; when Greg fails, the work network routes around him.
-- Chapter 195: bundles arrive at Marra's, some stay, different bundles return with Greg, and a later bundle contains two finished dark sleeves belonging to Lyssa.
+Recovered prose repeatedly shows material, messages, favors, work, and payment moving sideways through people:
+
+- Chapter 178: Lyssa's route includes Marra's, Jessa's sister's, and the dyer; the work involves six lengths of blue. She returns with Jessa's shoes and calls cheese `Payment` for carrying the blue after the shoe complication.
+- Chapter 183: most of the blue thread has gone with people who needed blue thread; Lyssa identifies some as Marra's, one as Jessa's, and declines to inventory everyone else for Greg.
+- Chapter 184: Lyssa sends a gray-cloth parcel to Marra with `left side is marked`; Marra already understands the marking. The same errand carries Jessa's `narrow, not wide` message.
+- Chapter 188: a household bowl returns to Marra and a time-sensitive message comes back toward Lyssa. Greg fails as courier; the network routes around him anyway.
+- Chapter 195: bundles arrive at Marra's, some stay, different bundles return, and work keeps moving between people while Greg mostly carries what he is told.
 - Chapter 199: Greg retrieves the household bowl from Marra because Lyssa had brought Marra soup the day before. Their relationship is not purely a cash transaction.
 
 **Classification: ESTABLISHED independent causality + sideways consequence / exchange.**
 
-Greg can be an incidental courier, but the network does not depend on him. One of the strongest existing examples is precisely that the message still reaches Lyssa after Greg fails to deliver it on time.
+Greg may occasionally carry something, but he is not the network's infrastructure.
 
-### ESTABLISHED — Greg's knowledge of Lyssa's route accumulates
+## ESTABLISHED — GREG LEARNS LYSSA'S ROUTES
 
-This is already a changed callback, not a future idea.
+This is already a changed callback rather than a future idea.
 
 Early:
-- Greg has to search the north side for Lyssa;
-- a cloth shop tells him Marra's is two lanes away, green door, not Sen's red door.
+- Greg has to search for Lyssa;
+- another cloth shop gives him explicit directions to Marra's green door and warns him against Sen's red door.
 
 Later:
-- Chapter 184 Greg can state that he knows Marra's and identify the green door / Sen's distinction;
+- Greg can identify Marra's and the green-door / red-door distinction without help;
 - by Chapter 199: `I knew the route to Marra's without thinking about it now.`
 
 **Classification: ESTABLISHED accumulated city / relationship knowledge.**
 
-This is a strong model for long-serial residue: the route becomes ordinary without a milestone speech.
+This is an excellent long-serial residue model: **UNKNOWN PLACE → EXPLICIT DIRECTIONS → FAMILIAR ROUTE → AUTOMATIC ROUTE.**
 
-### ESTABLISHED — customer recognition around Lyssa exists before Chapter 224
+No milestone speech is needed.
 
-Chapter 195 is stronger than the previous compact state captured:
-- Marra's work room is already busy with multiple women and garments;
+## ESTABLISHED — CUSTOMER RECOGNITION AND UNFINISHED-JOB MEMORY PRE-DATE CH224
+
+Chapter 195 is stronger than previous compact state recorded:
+- Marra's room is busy with multiple women and garments;
 - Lyssa repairs a torn inner panel beside Marra;
-- **one customer comes in and greets Lyssa by name; then another customer arrives;**
-- the second asks whether Lyssa has finished `the narrow one`;
+- one customer enters and greets Lyssa by name;
+- another customer arrives and asks whether Lyssa has finished `the narrow one`;
 - Lyssa answers `Tomorrow.`
 
-This establishes that Lyssa is already directly known by customers and carries unfinished customer work / expectations inside this broader work ecology.
+This establishes direct customer recognition and continuing work expectations well before Chapter 224's explicit `three customers` line.
 
-**Classification: ESTABLISHED customer recognition and continuing job memory.**
+**Classification: ESTABLISHED customer recognition / unfinished-job memory.**
 
-**Boundary:** the customers are unnamed. Do not invent identities or claim a formal repeat-customer roster.
+**Boundary:** these customers are unnamed. Do not invent identities or claim a formal repeat-customer roster.
 
-### ESTABLISHED / UNCERTAIN — `the narrow one` persists as work shorthand, but customer ownership is not explicit
+### `The narrow one` continuity
 
-The phrase persists:
-- Chapter 195 customer asks about `the narrow one`;
-- Chapter 196 Lyssa has `the narrow thing` to finish;
-- Chapter 197 Greg asks `The narrow thing?` and Lyssa answers `Part of it`, identifying the visible strip as binding for a sleeve edge.
+The phrase persists across nearby chapters:
+- customer asks about `the narrow one`;
+- Lyssa later has `the narrow thing` to finish;
+- a later visible narrow strip is identified as binding for a sleeve edge.
 
-**ESTABLISHED:** the `narrow thing` is a real continuing work item and later has concrete sleeve-binding form.
+**ESTABLISHED:** `narrow` work persists as real work shorthand / a continuing work item.
 
-**UNCERTAIN:** the text does not explicitly state that the Chapter-195 customer who asks about `the narrow one` owns the exact binding Greg sees later. The continuity is suggestive but should not be promoted into customer identity without 03 checking the exact sequence.
+**UNCERTAIN:** exact customer ownership of every later narrow/binding piece is not stated clearly enough to merge them all into one customer/job. Preserve explicit links only.
 
-### ESTABLISHED — Marra's is a living work room with its own memory independent of Greg
+## ESTABLISHED — ONE CUSTOMER REFERRAL IS ALREADY CANON
+
+This is a correction to the earlier concurrent audit and to Story Control's pre-audit assumption.
+
+Chapter 215 establishes a cuff customer disputing whether two repaired cuffs are the same length. Lyssa later says she measured them in front of the customer and they were the same.
+
+Chapter 217 then states explicitly:
+
+**`Her cuff customer had become satisfied enough to recommend another customer`**
+
+The new work is identified as a **shoulder seam**.
+
+Therefore:
+
+**Classification: ESTABLISHED NARROWLY — customer recommendation / referral can occur inside Lyssa's work network.**
+
+What is **not** established:
+- a broad referral system;
+- a referral-driven business model;
+- a named chain of customers;
+- that every new customer came by recommendation;
+- that Chapter 227's pale-coat customer came through this route.
+
+Chapter 227 deliberately leaves that customer's source unknown. Preserve that uncertainty.
+
+**Continuity boundary:** do not merge the Chapter 215–217 cuff customer with the later Chapter 225–226 brown-cuff customer. Similar work is not identity evidence.
+
+## ESTABLISHED — CUSTOMER CHANGES, SECOND FITTING, AND PAID MULTI-JOB WORK
+
+The recovered later span already contains several forms of customer friction and continuation:
+
+- Chapter 184: Lyssa says three people changed what they wanted after cloth had already been cut.
+- Chapter 215: a customer disputes cuff length; Lyssa measures the cuffs in front of her and resolves the disagreement without the cuffs changing.
+- Chapter 217: a customer's daughter changes a dress after Lyssa measured it.
+- Chapter 217's explicit referral produces a shoulder-seam job.
+- Chapter 218 says **the shoulder-seam problem has turned into a second fitting**, establishing continuing work across that sequence.
+- Chapter 218 later has Lyssa return pleased because she was **paid for two alterations and a rush repair**; food from a customer's mother accompanies the workday.
+- Chapter 219 continues shoulder-related customer work with a pale sleeve being taken back before the woman can decide her shoulder changed overnight.
+
+**Classification: ESTABLISHED customer changes / repeat fitting / paid multi-job work at the narrow behavioral level.**
+
+Do not infer a universal fitting workflow, rate structure, or identity link beyond what the prose states.
+
+## ESTABLISHED — MARRA'S IS A LIVING WORK ROOM WITH MEMORY
 
 Chapter 195 provides especially dense evidence:
 - Jessa is pinning a green dress on a woman while Marra cuts dark fabric;
-- another woman is working with a half-finished sleeve;
+- another woman works with a half-finished sleeve;
 - Lyssa and Marra make a shared material judgment (`Too warm`) while Greg cannot read the distinction;
-- Jessa retrieves black thread and complains about a missing box;
+- Jessa looks for black thread and complains about a missing box;
 - Lyssa knows which shelf the box had been on last time;
 - Marra knows who moved it;
 - another worker knows who borrowed it.
 
-Chapter 199 continues this:
-- a customer enters with a green overdress and partly detached sleeve;
-- the woman knows Jessa;
+Later, a customer arrives with a green overdress and partly detached sleeve:
+- the customer knows Jessa;
 - Jessa knows the dress;
-- Marra calls a price from the back without coming out;
+- Marra can call a price from the back without coming out;
 - Greg becomes irrelevant to the exchange.
 
 **Classification: ESTABLISHED offscreen/shared work memory.**
 
-Do not turn this into a formal garment guild / shop hierarchy unless manuscript need earns one.
+Do not turn this into a formal shop hierarchy or garment guild because the organic room already works better than a taxonomy.
 
-### ESTABLISHED — additional supply / service routes exist, but most remain unnamed or lightly used
+## ESTABLISHED — SUPPLY / SERVICE ROUTES ARE PLURAL
 
-Recovered prose supports several ordinary material routes:
-- a cloth shop already knows Lyssa in Chapter 175 and can point Greg toward Marra;
-- Chapter 178 includes a dyer as part of Lyssa's six-length blue-work route;
-- Chapter 195 includes an unnamed thread seller two streets from Marra where Lyssa buys two small wrapped spools;
-- Chapter 222 later establishes **Maren** as a separate spool-sign garment/thread shop that can match a cloth sample and that Lyssa says `usually does` the job.
+The manuscript supports several ordinary material routes:
+- an existing cloth shop knows Lyssa well enough to point Greg toward Marra;
+- a dyer participates in the six-length blue-work route;
+- an unnamed thread seller two streets from Marra supplies wrapped spools;
+- Chapter 224 mentions a button seller in Greg's domestic summary, but the exact supplier identity / continuity is not established;
+- Chapter 222 later establishes **Maren** as a separate spool-sign garment/thread shop where a cloth sample can be matched to thread; Lyssa later says `Maren usually does.`
 
 **Classification: ESTABLISHED existence/use of these routes.**
 
-**Continuity trap:** **Marra and Maren are separate manuscript nodes. Do not merge them because their names are similar.**
+### Continuity trap: Marra ≠ Maren
 
-**Boundary:** the unnamed cloth shop, dyer, and thread seller do not automatically become recurring named supplier relationships. Their use is established; deeper personal familiarity is not.
+**Marra and Maren are separate manuscript nodes. Do not merge them because their names are similar.**
 
-### ESTABLISHED — Lyssa's work schedule repeatedly diverges from Greg's
+Marra is the recurring green-door garment-work relationship from the recovered span.
 
-Across the recovered span Lyssa:
-- is often gone before Greg wakes;
-- works west / south / near Marra while Greg goes elsewhere;
+Maren is the later spool-sign supply shop / matching-thread route.
+
+No rename or identity equivalence is established.
+
+For the unnamed cloth shop, dyer, thread seller, and button seller, deeper personal familiarity remains unestablished unless future prose earns it.
+
+## ESTABLISHED — LYSSA'S SCHEDULE AND WORKSPACE ARE INDEPENDENT
+
+Across Chapters 156–228 Lyssa repeatedly:
+- is already gone before Greg wakes;
+- works west / south / near Marra while Greg has different obligations;
 - returns late from work;
-- moves through Marra's, Jessa's sister's, the dyer, and other work stops;
-- sometimes leaves household notes or food rather than synchronizing her day with Greg;
-- has work / garment decisions already completed when Greg encounters the result.
+- moves among Marra's, Jessa's sister's, the dyer, suppliers, customers, and the apartment;
+- leaves notes or food rather than synchronizing her day with Greg;
+- completes deliveries / payments / garment decisions while Greg is elsewhere;
+- has garments appear, disappear, or change state between Greg's observations.
 
-Later chapters continue the same pattern:
+Later chapters reinforce, rather than create, this pattern:
 - Chapter 224 explicitly says she maintains three customers;
-- Chapter 225 expects a customer at the apartment and Lyssa clears space before Greg leaves;
-- Chapter 226 has the brown-cuff job already delivered and paid while other garment work continues;
-- Chapter 227 opens with Lyssa already gone, a previous garment / sleeve already removed from the table, and a note telling Greg not to wait for supper;
-- Chapter 228 opens with the pale coat already gone, the dark skirt changed into a chalk-marked work state, and Lyssa gone without a note. By Greg's return the dark skirt is gone too and a different blue-gray cloth has appeared.
+- Chapter 225 has a customer due at the apartment and Lyssa clears space before Greg leaves;
+- Chapter 226 has the brown-cuff work already delivered and paid while other work continues;
+- Chapter 227 opens with earlier work already moved off the table and Lyssa gone with a note not to wait for supper;
+- Greg returns in Chapter 227 to find an unnamed **new** pale-coat customer already being fitted;
+- Chapter 228 opens with the pale coat gone, the dark skirt changed into a chalk-marked state, and Lyssa gone without a note; later the skirt is gone and a blue-gray cloth Greg has not seen has appeared.
 
-**Classification: ESTABLISHED independent schedule / offscreen life.**
+**Classification: ESTABLISHED independent schedule / offscreen life / plural workspace.**
 
-This is not a new craft pressure. The manuscript is already doing it.
+This is not a new craft pressure. The manuscript is already doing it well.
 
-### ESTABLISHED — multiple forms of payment / exchange occur without a formal pricing system
+## ESTABLISHED — FITTING AND MATERIAL LIMITS
 
-Exact prose supports:
-- Chapter 175 Marra pays Lyssa in pale cloth plus what Greg sees as roughly two copper after the dress correction work;
-- Chapter 178 Lyssa calls cheese `Payment` for carrying the blue after Jessa's shoe complication;
-- Chapter 225–226 brown-cuff customer-requested changes are separately charged; final job is delivered and paid;
-- Chapter 227's pale-coat interaction continues professional customer work, though no price is narrated.
+The recovered span already includes fitting / verification behavior, and Chapter 227 gives the cleanest material constraint:
+- Lyssa pins the pale coat near the hem while the customer is wearing it;
+- the customer asks for additional narrowing;
+- Lyssa immediately refuses that requested location because there is **`Not enough cloth.`**
 
-**Classification: ESTABLISHED that Lyssa's work has material/economic exchange and that additional requested work can be charged.**
+**Classification: ESTABLISHED customer-present fitting and one concrete material-limit refusal.**
 
-**POSSIBILITY only:** universal rates, tariffs, formal barter rules, appointment systems, client records, deposits, or a single standardized payment model.
+This is enough to show competence through limits.
 
-### ESTABLISHED — work-space is plural, not only the household table
+Do not generalize it into a formal fitting-stage doctrine or universal refusal/pricing rule.
 
-Lyssa's work occurs through several already-established spaces:
-- household table / apartment;
-- Marra's green-door work room;
-- errands / delivery routes between people;
-- dyer / thread / cloth supply stops;
-- customers can also come to the apartment.
+## ESTABLISHED — PAYMENT / EXCHANGE IS MATERIAL BUT NOT STANDARDIZED
 
-Chapter 227 gives the clearest household fitting:
-- Greg returns to find a **new unnamed customer** wearing a pale coat while Lyssa pins the hem;
-- the customer asks for more narrowing;
-- Lyssa refuses the requested amount with the concrete constraint `Not enough cloth.`
+Exact prose supports multiple forms of economic/social exchange:
+- Chapter 175: Marra pays Lyssa in pale cloth plus what Greg sees as roughly two copper after correction work;
+- Chapter 178: cheese is called `Payment` for carrying blue after Jessa's shoe complication;
+- Chapter 218: Lyssa is paid for two alterations and a rush repair; a customer's mother also sends food;
+- Chapters 225–226: brown-cuff customer-requested changes are separately charged, then the job is delivered and paid;
+- other customer/fitting scenes do not always narrate price or payment.
 
-**Classification: ESTABLISHED fitting/customer interaction and an alteration limit caused by available material.**
+**Classification: ESTABLISHED material/economic exchange and charging for additional requested work.**
 
-This graduates one thing that had previously remained research-supported POSSIBILITY: Lyssa can visibly express competence through a concrete material limit / refusal.
+**POSSIBILITY only:** universal rates, tariffs, formal barter rules, deposits, appointment systems, client records, or one standardized payment model.
 
-Do not generalize `not enough cloth` into a standard fitting rule.
+## ESTABLISHED — MOST CUSTOMER IDENTITIES REMAIN UNNAMED
 
-### ESTABLISHED — customer work remains mostly unnamed and should not be forcibly connected
-
-Useful anonymous / lightly identified work includes:
-- Chapter 180 skirt that is not for Lyssa, Marra, or Jessa;
-- customers who greet Lyssa / ask about `the narrow one` at Marra's;
+The manuscript has multiple customers without requiring a database:
+- pre-224 customers at Marra's who know Lyssa;
+- cuff / shoulder / dress problems in the recovered span;
 - Chapter 224's explicit three-customer workload;
 - Chapter 225–226 brown-cuff customer;
-- Chapter 227's explicitly **new** pale-coat customer.
+- Chapter 227's explicitly new pale-coat customer.
 
-**Classification: ESTABLISHED multiple customers; customer identity connections remain limited.**
+**Classification: ESTABLISHED multiple-customer world; identity connections remain limited.**
 
-Do not decide that similar sleeves, colors, cuffs, or unnamed women are the same customer unless exact prose says so.
+Do not decide that similar sleeves, colors, cuffs, shoulders, or unnamed women are the same customer unless exact prose says so.
 
-### UNCERTAIN — formal roles inside the Marra / Jessa / Lyssa ecology
+## UNCERTAIN — LEAVE THESE ORGANIC
 
-The manuscript clearly establishes repeated collaboration, garment handling, fitting/pinning, messages, material exchange, customer traffic, and payment.
+### Formal roles inside Marra / Jessa / Lyssa ecology
 
-It does **not** cleanly establish a formal occupational taxonomy for:
-- Marra;
-- Jessa;
-- Lyssa's exact standing relative to Marra;
-- whether every woman working in Marra's room is worker, customer, family, apprentice, or some mixture.
+Repeated collaboration, fitting/pinning, customer traffic, material exchange, payment, and message routing are established.
 
-**Classification: UNCERTAIN / deliberately leave organic.**
+The exact formal occupational taxonomy is not.
 
-Do not solve this merely because modern business language offers neat labels.
+Do not force `owner`, `employee`, `partner`, `apprentice`, or similar labels without evidence.
 
-### UNCERTAIN — some repeated blue / narrow material may belong to the same job, but do not fuse chains without explicit text
+### Blue / narrow material chains
 
-The manuscript deliberately lets work objects move through chapters:
-- six lengths of blue;
-- blue thread divided among people;
-- `narrow, not wide` messages;
-- `the narrow one`;
-- later sleeve-edge binding.
+The manuscript deliberately lets blue cloth/thread and narrow work recur across multiple chapters. Some links are explicit; others are suggestive.
 
-Some continuity is explicit; some is only suggestive.
+Preserve explicit continuity, but do not collapse every blue or narrow object into one customer/job.
 
-**Classification:** preserve exact explicit links, but do not collapse every blue or narrow object into one customer/job.
+### Unnamed recurring-looking people
 
-This is a continuity strength only if uncertainty remains honest.
+The yellow-cloth / green-cloth woman and other lightly described women may recur, but their role or garment ownership is not always explicit.
 
-### POSSIBILITY — referral chains are still not established
+Do not invent a customer identity because the visual cue repeats.
 
-02 specifically searched the audited exact span for referral-style language and found **no clear manuscript evidence** that Lyssa's customers arrive because another customer / supplier explicitly sent or recommended them.
+### Chapter 227 pale-coat source
 
-Chapter 227 intentionally preserves this gap: Greg asks how the new pale-coat customer came to Lyssa, and Lyssa only says she needed a coat changed. The source path remains unknown.
+Referral as a phenomenon is established by Chapter 217.
 
-**Classification: POSSIBILITY, not canon.**
+**The Chapter 227 pale-coat customer's source is still UNKNOWN.** Greg asks; Lyssa does not provide a referral source.
 
-This remains usable later, but there is no need to force it. The existing Marra / Jessa / customer ecology already gives Lyssa substantial independent social density.
+Do not retroactively assign one.
 
-### POSSIBILITY — formal remembered fit preferences are not yet established strongly enough to generalize
+## POSSIBILITY / PRESSURE — WHAT IS NOT YET CANON
 
-There is work-specific memory (`narrow`, markings, shelf locations, known dresses, material judgments), but 02 did not find a clean recurring customer beat equivalent to `you always like your sleeve this way` that would establish a general preference-memory pattern.
+### Broader referral network
 
-Keep customer-specific preference memory as POSSIBILITY until exact prose earns it.
+One explicit referral exists. A broad referral chain, recurring named referral network, or dominant word-of-mouth business system does not.
 
-### POSSIBILITY / PRESSURE — queue consequences remain future-only unless a causal link is stated
+Future prose may deepen this if useful, but no development lane needs to manufacture it.
 
-The manuscript shows multiple simultaneous jobs and work changing over time, but it still does not establish that the brown-cuff rework delayed the green garment or that one specific job caused another to slip.
+### Remembered customer fit preferences
 
-Future prose may establish:
+Work-specific memory is strong, but the audit did not find a clean generalized beat like `you always want this sleeve this way` that would establish a broad preference-memory pattern.
+
+Keep as POSSIBILITY until prose earns it.
+
+### Queue causality
+
+Multiple jobs coexist and customer changes consume labor, but exact prose still does not establish that the Chapter 225 brown-cuff rework delayed the green garment or that one specific job displaced another.
+
+Future causal shape may be:
 
 **CUSTOMER CHOICE → EXTRA WORK / MATERIAL → CHANGED SCHEDULE / QUEUE → SOCIAL MEMORY**
 
-but 02 should not retroactively manufacture that chain.
+but do not retrofit that chain.
+
+### Deeper Maren familiarity
+
+Maren is established as a useful matching-thread shop route. Personal recognition, credit, favors, inventory history, or a specific seller relationship remain possibility unless future prose establishes them.
 
 ## AUDIT CORRECTIONS TO PREVIOUS COMPACT STATE
 
-Previous compact state was too conservative in three places:
+The manuscript-first pass corrects four under-recorded areas:
 
-1. **Repeat/customer recognition was under-recorded.** Chapter 195 already has customers greeting Lyssa by name and asking about unfinished work.
-2. **Marra / Jessa were missing as major existing social-work nodes.** They are recurring and materially important well before Chapter 224.
-3. **Alteration constraints have now graduated.** Chapter 227 explicitly establishes Lyssa refusing a requested narrowing because there is not enough cloth.
+1. **Marra / Jessa are major existing work-world nodes**, not future possibilities.
+2. **Customer recognition / unfinished-job shorthand already exists by Chapter 195.**
+3. **One explicit referral is already canon by Chapter 217.** A satisfied cuff customer recommends another customer for shoulder-seam work.
+4. **Concrete alteration limits are canon by Chapter 227.** Lyssa refuses one requested narrowing because there is not enough cloth.
 
-Previous compact state remains correct in these restraints:
-- referral chains are not established;
-- formal pricing/client systems are not established;
-- queue causality is not established;
+Previous restraint remains correct in narrower form:
+- no broad referral system is established;
+- Chapter 227's customer source remains unknown;
+- no formal pricing/client system is established;
+- no queue causality should be retrofitted;
 - customer identities should not be merged by inference;
 - Lyssa should not be recruited into theatre wardrobe by convenience.
 
 ## STRONGEST LONG-SERIAL RESIDUE ALREADY ON PAGE
 
-The audit found several examples that should be protected rather than reinvented:
-
 ### Greg learns Marra's route
+
 **UNKNOWN PLACE → EXPLICIT DIRECTIONS → FAMILIAR ROUTE → AUTOMATIC ROUTE**
 
-By Chapter 199 Greg no longer needs to consciously navigate it.
+By Chapter 199 the route is ordinary to him.
 
 ### Work shorthand exists before Greg understands it
-`left side is marked` / `narrow, not wide` / `the narrow one` carry enough information for the people inside the work relationship while remaining incomplete to Greg.
 
-This is already earned shorthand. Do not needlessly explain it later.
+`left side is marked` / `narrow, not wide` / `the narrow one` carry enough information for people inside the work relationship while remaining incomplete to Greg.
+
+This is already earned shorthand. Do not explain it merely to prove it exists.
 
 ### The network routes around Greg
+
 Greg fails to deliver Marra/Jessa's timing message. Jessa finds Lyssa herself.
 
-That is a strong existing example of:
+Strong existing pattern:
 
-**SIDE CHARACTER NETWORK → GREG FAILS / MISSES → NETWORK STILL FUNCTIONS.**
+**SIDE CHARACTER NETWORK → GREG MISSES / FAILS → NETWORK STILL FUNCTIONS.**
 
 ### Lyssa's work relationships contain noncommercial residue
-Soup bowl at Marra's, Jessa's shoes, material carrying, messages, shared shelf memory, and payment in different forms make the work ecology feel social rather than like a client database.
 
-Do not formalize this into a generic favor economy.
+Soup bowls, Jessa's shoes, material carrying, food, messages, shelf memory, and mixed forms of payment keep the ecology social rather than transactional.
+
+Do not formalize this into a universal favor economy.
 
 ### Greg can be incidental inside Lyssa's world
+
 At Marra's, customers and workers greet each other, know garments, remember shelves, quote prices, and continue work while Greg holds cloth or becomes irrelevant.
 
-This is one of the strongest existing anti-protagonist-gravity models in the manuscript.
+This is one of the manuscript's strongest existing anti-protagonist-gravity models.
 
-### Chapter 228 keeps the pattern alive without servicing a callback
-The pale coat disappears, the dark skirt changes state and later leaves the room, a different blue-gray cloth appears, and Lyssa's day remains mostly offscreen. No Marra/Jessa/customer callback is forced merely because development is currently thinking about them.
+### Referral can happen without becoming a system
 
-This is good restraint.
+Chapter 217 proves a satisfied customer can recommend another customer. That is enough. No referral ledger, reputation speech, or named chain is required.
+
+### Chapter 228 shows restraint
+
+The pale coat disappears, the dark skirt changes state and later leaves, a different blue-gray cloth appears, and Lyssa's day remains mostly offscreen.
+
+No Marra/Jessa/referral callback is forced merely because development is thinking about them.
+
+That restraint should continue.
 
 ## RESEARCH DECISION
 
 **NO NEW EXTERNAL RESEARCH RECOMMENDED.**
 
-The manuscript already supplies enough specificity to correct the current developmental model.
+The manuscript already supplies enough specificity to correct the developmental model.
 
 The next uncertainty is story classification, not factual knowledge.
 
-Do not research:
-- generic tailoring history;
-- referral marketing;
-- garment-shop hierarchy;
-- old-city textile commerce;
-- fitting systems;
-
-unless 03 identifies a later scene-specific factual gap.
-
-## CONCURRENT 03 NOTE
-
-A Story Control integration through Chapter 227 landed **before this recovered-manuscript audit commit**. That 03 pass correctly graduated the Chapter-227 customer fitting / insufficient-cloth limit and preserved referral / queue restraint, but its current state does **not yet contain the recovered Marra / Jessa longitudinal evidence summarized here**.
-
-Therefore this audit still requires a fresh 03 integration pass.
+Do not research generic tailoring history, referral marketing, garment-shop hierarchy, old-city textile commerce, or fitting systems unless 03 identifies a later scene-specific factual gap.
 
 ## HANDOFF TO 03 — READY
 
-03 should now pressure-test this longitudinal evidence map against current manuscript authority, re-reading Chapter 228 first because 01 advanced during the audit.
+03 should pressure-test this longitudinal evidence map against current manuscript authority before any new Lyssa-network development.
 
 Highest-value classification questions:
-1. Should **Marra / Jessa / Lyssa recurring work ecology** graduate into `CHARACTER_BIBLE.md` and/or `SETTING_BIBLE.md` as established social infrastructure without assigning formal roles?
-2. Should **customer recognition / unfinished-job shorthand** graduate from possibility to established behavior while referral chains remain possibility?
-3. Preserve the already-graduated **Chapter 227 material-limit refusal** as established Lyssa competence-through-limits.
-4. Which existing residue should 01 inherit lightly, if any, without making Marra/Jessa/customer callbacks mandatory?
-5. Does this audit reveal any true remaining knowledge gap, or should external research remain paused?
+
+1. Should **Marra / Jessa / Lyssa's recurring work ecology** graduate into `CHARACTER_BIBLE.md` and/or `SETTING_BIBLE.md` as established social infrastructure without assigning formal roles?
+2. Should **customer recognition / unfinished-job shorthand** graduate into durable established guidance?
+3. Graduate the **Chapter 217 referral phenomenon narrowly**: one satisfied customer recommends another. Preserve the boundary that a broad referral system and Chapter 227's source are unestablished.
+4. Preserve the already-established **customer-change / second-fitting / paid multi-job** residue from Chapters 215–219 without merging unnamed customer identities.
+5. Preserve Chapter 227's **`Not enough cloth`** refusal as established competence-through-limits.
+6. Decide what, if anything, 01 should inherit lightly without making Marra/Jessa/customer callbacks mandatory.
+7. Decide whether any true specificity gap remains. External research may stay paused.
 
 Do not create a Lyssa subplot plan. The strongest result is that her independent life already exists and can recur selectively.
 
@@ -393,12 +451,12 @@ Do not create a Lyssa subplot plan. The strongest result is that her independent
 
 **HAND TO 03.**
 
-Pause new research and new Lyssa-network invention until Story Control integrates the recovered-manuscript audit.
+Pause new research and new Lyssa-network invention until Story Control integrates this manuscript-first audit.
 
-The strongest development question is now:
+The strongest question is now:
 
-**Which parts of this already-established work ecology are durable enough to record as canon-supporting infrastructure, and which should remain ordinary prose texture that does not need future servicing?**
+**Which parts of this already-established work ecology are durable enough to record as canon-supporting infrastructure, and which should remain ordinary prose texture that never needs future servicing?**
 
 ## RE-PROMPT [02]
 
-Continue Peg-Leg Greg Writers' Room from current GitHub authority. Read `AGENTS.md`, `state/PROJECT_STATE.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current manuscript/state, `state/WRITERS_ROOM_STATE.md`, `state/STORY_CONTROL_STATE.md`, `state/RESEARCH_LEDGER.md`, and `state/LONG_SERIAL_RESIDUE_MAP.md`. A manuscript-first Lyssa work-network audit has now been completed through Chapter 228 using exact recovered Chapters 156–219 plus current forward prose. The audit found that compact state had under-recorded existing canon: Marra and Jessa are recurring work-network people from the road-return era onward; Lyssa and Marra already exchange labor/material/payment; messages and garments route among Lyssa/Marra/Jessa without Greg; Greg learns Marra's route until it becomes automatic; Chapter 195 already has customers greet Lyssa by name and ask about unfinished `narrow` work; several unnamed material/service routes exist; Chapter 227 establishes a new customer fitting and a concrete `Not enough cloth` alteration limit; Chapter 228 continues offscreen garment movement without forcing a work-network callback. Referral chains, formal customer-preference systems, queue causality, formal business roles, and customer-identity merges remain unestablished. No new external research is recommended. A parallel 03 pass integrated Chapter 227 before this audit landed, so its current state still needs the recovered Marra/Jessa evidence. First check whether 03 has since integrated this audit. If not, preserve the handoff rather than opening new research. If 03 has returned a focused edge, follow only that edge. Keep Lyssa's work independent, preserve Marra/Maren as separate nodes, prefer changed callbacks over callback parade, and update durable residue only.
+Continue Peg-Leg Greg Writers' Room from current GitHub authority. Read `AGENTS.md`, `state/PROJECT_STATE.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current manuscript/state, `state/WRITERS_ROOM_STATE.md`, `state/STORY_CONTROL_STATE.md`, `state/RESEARCH_LEDGER.md`, and `state/LONG_SERIAL_RESIDUE_MAP.md`. A manuscript-first Lyssa work-network audit is complete through Chapter 228 using exact recovered Chapters 156–219 plus current forward prose. The audit found that compact state had under-recorded existing canon: Marra and Jessa are recurring work-network people; Lyssa and Marra already exchange labor/material/payment; messages and garments route among Lyssa/Marra/Jessa without Greg; Greg learns Marra's route until it becomes automatic; Chapter 195 already has customers greet Lyssa by name and ask about unfinished `narrow` work; Chapter 217 explicitly establishes one satisfied cuff customer recommending another customer for shoulder-seam work; Chapters 217–219 continue customer-change / second-fitting / paid multi-job residue; several material/service routes exist; Chapter 222 establishes Maren as a separate spool-sign matching-thread shop; Chapter 227 establishes a new customer fitting and a concrete `Not enough cloth` limit while leaving that customer's source unknown; Chapter 228 continues offscreen garment movement without forcing a callback. Broader referral systems, formal customer-preference systems, queue causality, formal business roles, and customer-identity merges remain unestablished. No new external research is recommended. First check whether 03 has integrated this audit. If not, preserve the handoff rather than opening new research. If 03 has returned a focused edge, follow only that edge. Keep Lyssa's work independent, preserve Marra/Maren as separate nodes, prefer changed callbacks over callback parade, and update durable residue only.
