@@ -5,6 +5,7 @@ This file is a compact routing note for any chat, Codex session, or repository p
 ## Permanent files
 
 - Forward manuscript: `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`
+- Manuscript engine method: `state/MANUSCRIPT_ENGINE_PLAYBOOK.md`
 - Manuscript state: `state/MANUSCRIPT_STATE.md`
 - Project authority / sync rules: `state/PROJECT_STATE.md`
 - Chapter index: `state/MANUSCRIPT_CHAPTER_INDEX.md`
@@ -23,7 +24,7 @@ Do not create a new range-stamped running manuscript or chapter-numbered state f
 
 ## Chapter production loop
 
-1. Read permanent manuscript + state.
+1. Read project state, engine playbook, workflow, manuscript state, open threads, index, and permanent manuscript edge.
 2. Write ONE new chapter.
 3. Prose/continuity pass.
 4. Confirm target length, normally 2,500–4,000 words and above 2,500.
@@ -31,14 +32,15 @@ Do not create a new range-stamped running manuscript or chapter-numbered state f
 6. Append/update the SAME permanent manuscript file.
 7. Update SAME manuscript state in place.
 8. Update index/open threads when useful.
-9. Sync reader surfaces if requested/appropriate.
-10. In chat, give a compact production note.
-11. Then give the FULL next-edge re-prompt in ONE copyable code block.
+9. Update project/workflow endpoint.
+10. Sync reader surfaces only when appropriate; do not create out-of-order reader pages across a known synchronization gap.
+11. In chat, give a compact production note.
+12. Then give the FULL next-edge re-prompt in ONE copyable code block.
 
 The re-prompt is intentionally retained. GitHub provides durable continuity; the re-prompt gives the next writing session an explicit trailhead.
 
 ## Current edge
 
-Chapter 220 — **THE LANDLORD**.
+Chapter 221 — **THE PARTICIPANT**.
 
-See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 221 edge.
+See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 222 edge.
