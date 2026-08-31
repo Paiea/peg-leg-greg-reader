@@ -19,6 +19,7 @@ Do not create a new range-stamped running manuscript or chapter-numbered state f
 3. Incoming material may extend the current endpoint, but must not clobber newer edits already present in the repository.
 4. Preserve reader UI, artwork, and unrelated repository work unless the task explicitly changes them.
 5. Historical range-stamped files may remain as provenance until a deliberate cleanup pass.
+6. Chapters 156–219 still require exact-text synchronization into the permanent file; do not reconstruct missing prose from summaries. Chapter 220 and later are written directly to the permanent file.
 
 ## Chapter production loop
 
@@ -38,6 +39,6 @@ The re-prompt is intentionally retained. GitHub provides durable continuity; the
 
 ## Current edge
 
-Chapter 219 — **THE PURCHASER**.
+Chapter 220 — **THE LANDLORD**.
 
-See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 220 edge.
+See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 221 edge.
