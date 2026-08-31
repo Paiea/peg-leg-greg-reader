@@ -155,20 +155,22 @@ Update existing compact state before adding new state. Preserve engine-owned sub
 
 ## NEXT_TASK — development
 
-The first current-era theatre research cycle is integrated and parked. The first Lyssa alteration/rework external research wave is also integrated through Chapter 226.
+The first current-era theatre research cycle is integrated and parked. The first Lyssa alteration/rework external research wave is integrated through Chapter 227.
 
 Current graduated Lyssa residue:
 - Chapter 224 explicitly establishes three active customers;
-- customer visits can occur at the apartment;
+- customer visits and fittings can occur at the apartment;
 - jobs can be delivered / paid while Greg is elsewhere;
 - the brown-cuff customer creates separately paid requested rework;
-- multiple unrelated garments can be active at once;
-- Chapter 222 establishes Maren as a garment/thread supply shop and useful matching route.
+- multiple unrelated garments can be active at once and can move off Greg's page;
+- Chapter 222 establishes Maren as a garment/thread supply shop and useful matching route;
+- Chapter 227 establishes customer-present fitting with pins and one concrete refusal/constraint: Lyssa will not narrow the pale coat at a requested point because there is not enough cloth there;
+- the Chapter 227 customer's source/referral route remains unknown and must not be invented.
 
-Current non-canon pressures / possibilities include queue consequences, fitting-confirmation semantics, repeat/referral customers, remembered customer preferences, and alteration constraints. Do not promote them without prose.
+Current non-canon pressures / possibilities include downstream queue causality, generalized confirmation-stage semantics, repeat/referral chains, remembered customer preferences, and broader alteration/refusal/pricing rules. Do not promote them without prose.
 
 Next 02↔03 cycle is **manuscript-first, not new external research**:
-1. 02 audits authoritative exact Chapters 156–226 for Lyssa's existing customer / supplier / delivery / payment / referral / repeat-preference / work-space history.
+1. 02 audits authoritative exact Chapters 156–227 for Lyssa's existing customer / supplier / fitting / delivery / payment / referral / repeat-preference / refusal-constraint / work-space history.
 2. 02 returns a compact evidence map distinguishing ESTABLISHED / UNCERTAIN / POSSIBILITY; no invented names or retroactive garment connections.
 3. 03 pressure-tests that longitudinal evidence and graduates only useful residue.
 4. Only then decide whether a new external research question is actually needed. Deliberate research pause is valid.
