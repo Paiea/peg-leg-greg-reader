@@ -27,9 +27,22 @@ For substantial work:
 2. update only relevant durable state
 3. verify current branch/main and changed files
 4. record unresolved risk or next executable edge
-5. provide one compact copyable re-prompt in chat
+5. store the lane's durable re-prompt / trailhead where that lane uses one
+6. provide one compact copyable next prompt visibly in chat
 
 For broad/risky unfinished work, commit to a named branch so another worker can inspect it.
+
+### Visible re-prompt requirement
+
+A GitHub-only re-prompt is not enough for the human handoff.
+
+Unless the user explicitly asks for no next-step prompt, every substantial project run should end with a visible copyable prompt for the work/lane the worker actually recommends next.
+
+If the recommended next lane differs from the current lane:
+- keep the current lane's durable restart prompt in GitHub;
+- show the cross-lane prompt to the user in chat.
+
+The user should not need to ask `what next?` after a substantial run.
 
 ## NEXT_TASK convention
 
