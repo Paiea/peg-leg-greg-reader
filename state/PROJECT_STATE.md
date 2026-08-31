@@ -117,7 +117,7 @@ Permanent forward path:
 
 Do NOT create a new range-stamped running manuscript for each forward chapter/pass.
 
-Current recorded story endpoint is Chapter 228 — **THE FLOWER BEARER**. Always verify `MANUSCRIPT_STATE.md` / running manuscript before using this number if newer work exists.
+Current recorded story endpoint is Chapter 229 — **THE ROAD ONE**. Always verify `MANUSCRIPT_STATE.md` / running manuscript before using this number if newer work exists.
 
 Repository exact-text availability:
 - illustrated/static prose through Chapter 155 — **THE LEAK**

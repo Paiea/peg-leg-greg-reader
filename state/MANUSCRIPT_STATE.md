@@ -1,7 +1,7 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current story endpoint: Chapter 228 — **THE FLOWER BEARER**.
+- Current story endpoint: Chapter 229 — **THE ROAD ONE**.
 - Book 1 Chapters 1–82 closed. Book 2 active.
 - Repository prose was previously validated continuously through Chapter 155 — **THE LEAK**.
 - Chapters 156–219 remain newer forward manuscript material pending exact-text synchronization into the permanent running manuscript. Do not reconstruct them from summaries or let stale overlapping files overwrite newer authority.
@@ -43,7 +43,7 @@
 - NO RANGE ESTABLISHED. NOT GENERALIZED.
 - Restrictions unchanged: no independent draw, shaping, external testing, paper, coins, thread, larger objects, practice, Barrier broadening, theatrical magic, or loopholes.
 - Hessa ends Ch226 with no chosen next experiment. She says she has several possible questions because the record changed, but reveals none.
-- Chapters 227–228 contain no magic attempt, no Hessa appearance, and no change to counts, interpretation, or restrictions.
+- Chapters 227–229 contain no magic attempt, no Hessa appearance, and no change to counts, interpretation, or restrictions.
 
 ## Greg / Lyssa
 - Canonical spelling: **Lyssa**. Same established character formerly spelled Lysa.
@@ -57,6 +57,7 @@
 - The Ch227 new customer's source/referral route remains NOT established. Do not retroactively invent a referral chain.
 - Ch228 the pale coat is already gone by morning. The dark skirt remains in active work in the morning and is gone by Greg's return that night. A folded blue-gray cloth is then on the table, but Lyssa only establishes that it is old cloth and new to Greg; customer/job status is unknown.
 - Ch228 Lyssa returns tired and briefly rubs one wrist. No injury or medical issue is established. She and Greg share roasted beans and sit together before exchanging only a small amount of work talk.
+- Ch229 the blue-gray cloth is established only as cloth Lyssa asks Greg to carry to Marra; Jessa finds two short chalk marks near its edge and calls it `Marked`, but customer, garment, use, and ownership remain unknown. Lyssa later works on the north side and Jessa finds her independently.
 - Lyssa understands the control logic quickly from Ch226 but remains independent of Hessa's domain.
 
 ## Economy / debt
@@ -72,6 +73,7 @@
 - Ch227 Greg voluntarily checks whether suitable Vale work exists and completes outgoing packet bundling/routing work for legitimate debt credit; exact credit and total debt remain unstated.
 - Vale office work is potentially recurring when ordinary bundles need doing, but Greg has no guaranteed post, schedule, rate, or promotion.
 - Ch228 contains no Vale appearance or debt credit. Rinna pays Greg the normal one copper for theatre work; he later spends ordinary money on roasted beans without turning it into debt arithmetic.
+- Ch229 contains no Vale appearance or debt credit. Greg buys ordinary bread and cheese while the debt remains active and unstated.
 - No Vale/Bren connection established.
 
 ## Bren / pressure arc
@@ -83,7 +85,7 @@
 - Ch223: cart repair man reports an unknown visitor asking whether theatre cart goes out after late show and whether the same man drives it. Description is only **CONSISTENT WITH OLIN DESCRIPTION**.
 - Supported category: someone is interested in theatre money handling and movement/logistics.
 - NOT established: robbery, ambush, cart target, Bren employment, organization, gang, boss, or specific plan.
-- Chapters 224–228 do not advance the pressure arc. In Ch228 Olin simply sends the theatre's oil with no message, question, warning, or stranger attached. Bren remains off-page. No Mason's Cut investigation and no Vale-paper clue.
+- Chapters 224–229 do not advance the pressure arc. In Ch228 Olin simply sends the theatre's oil with no message, question, warning, or stranger attached. Bren remains off-page. No Mason's Cut investigation and no Vale-paper clue.
 
 ## Chapter 224 — THE CHECKER
 - Lyssa continues customer sewing and sends Greg for onions.
@@ -170,24 +172,37 @@
 - At home the dark skirt is gone. A folded blue-gray cloth is present, but Lyssa establishes only that it is old cloth and new to Greg; its customer/job status remains unknown. Lyssa returns tired with no bundle, shares Greg's roasted beans, asks briefly about the flowers, and laughs at Davin's name-board mistake. Greg does not turn her fatigue into a medical issue or make her his theatre analyst.
 - Final beat: someone upstairs drops something heavy; the household hanging cup does not tremble, and Greg does not check. No magic claim follows.
 
-## Immediate next edge — Chapter 229
-Primary recommendation: **LET THE FULL THEATRE DAY BREATHE. USE THE ALREADY-EARNED WINDOW-TRIM SHORTHAND AS A SMALL ANCHOR IF USEFUL, THEN ROTATE TOWARD ORDINARY HOUSEHOLD / CITY / PEOPLE OR ANOTHER ENGINE THAT ACTUALLY HAS PRESSURE.**
+## Chapter 229 — THE ROAD ONE
+- Chapter 229 rotates away from the full Ch228 performance. No Hessa, magic attempt, Vale appearance, debt credit, Bren appearance, warning, or new threat evidence.
+- Greg wakes before Lyssa, whose Ch228 tiredness resolves into ordinary extra sleep rather than injury. His previously worked right palm is normal; left crutch tip remains normal.
+- Lyssa asks Greg to carry the still-undefined blue-gray cloth to **Marra** after his already-earned morning window-trim obligation. She gives no explanatory note because Marra already knows it is coming.
+- Theatre stays compact: Greg enters through the familiar side door, works window trim with Jori under compressed instruction, manages load/leverage without drama, and leaves with no role or performance. Nessa confirms the funeral flowers are repaired.
+- Greg reaches Marra's green door without needing directions and automatically stays out of the established work lane. Marra still calls him `the road one`.
+- Marra and Jessa remain established work-network people with no formal roles assigned. Jessa checks two small chalk marks on the blue-gray cloth and says only `Marked`; the marks' exact meaning, customer, garment, and intended use remain unestablished.
+- An unnamed customer asks Marra for Lyssa, is told Lyssa is on the north side, and says tomorrow afternoon is fine. Marra says Lyssa already knows. Do not merge this customer with any earlier unnamed customer or referral.
+- Jessa and Marra use opaque shorthand (`West?` / `Already.`) whose referent is not established. Jessa later finds Lyssa independently and confirms the cloth reached Marra, reinforcing that the work network routes information without Greg.
+- Greg buys ordinary bread and cheese. Debt remains active without turning the purchase into Vale arithmetic.
+- Greg's poor shirt-cuff repair from Ch228 has worsened to two loose threads. Lyssa notices and calls it `Temporary damage` but does not fix it; no clothing subplot is required.
+- Home ends unusually free of active cloth/customer use. Greg and Lyssa eat supper across the whole table. Final line: `For once, that was its only job.`
+
+## Immediate next edge — Chapter 230
+Primary recommendation: **LET THE LYSSA/MARRA/JESSA WORK-NETWORK CHAPTER BREATHE. REASSESS WHICH OTHER ENGINE NOW HAS A REAL QUESTION OR COST.**
 
 Reasons:
-- Ch228 is a full rehearsal/performance/workplace chapter, so another major performance immediately risks overconcentrating theatre;
-- Ch227 was a full Vale day, so Vale procedural work should also rest unless a small natural consequence arrives;
-- Hessa has now been off-page for two full chapters after Ch226. She may return if a narrow next question has actually been chosen, but the manuscript does not require her return on a timer and her several possible questions remain unrevealed;
-- external pressure has remained quiet through Chapters 224–228. It may move with one grounded commercial fact if that naturally reaches Rinna or the existing network, but five quiet chapters still do not create an escalation quota;
-- Lyssa's work continues to turn over off-page and can support an ordinary social/household chapter without freezing the blue-gray cloth into a customer job or inventing the Ch227 customer's source.
+- Ch229 deliberately foregrounds Lyssa's pre-existing work ecology after Ch228's full theatre day; another immediate Marra/Jessa/customer chapter would risk servicing continuity instead of living it;
+- Hessa has now been off-page for three full chapters after Ch226. A return is reasonable if she has chosen one genuinely bounded next question, but no magic turn is owed and no power ladder should be invented;
+- external pressure has remained quiet through Chapters 224–229. It may move through one grounded commercial fact if current authority supplies one, but six quiet chapters still do not create an escalation quota;
+- Vale has rested through Chapters 228–229 after the full Ch227 commercial day. Suitable work remains available sometimes, not automatic employment;
+- theatre in Ch229 is only brief ordinary window-trim labor, so theatre remains available without needing another performance immediately;
+- the blue-gray cloth now belongs to the Marra/Lyssa work route but its customer, garment, use, and ownership are still unknown. Preserve that uncertainty unless prose genuinely needs an answer.
 
-Strong Chapter 229 possibilities:
-- begin with the already-earned morning window-trim work with Jori, but keep it ordinary and compact rather than creating another theatre lesson;
-- then let Greg move through Carrow, household obligations, food, money, an errand, a friend/worker relationship, or a small social consequence that exists because people now know him in different partial ways;
-- Hessa can return if current GitHub authority or the chapter's natural day gives her a chosen bounded question. If so, preserve evidence discipline and do not turn `several` into a power ladder;
-- if external pressure moves, one concrete supplier/business fact is enough. No Bren confrontation, Mason's Cut chase, robbery declaration, organization reveal, or Vale connection;
-- Vale remains available for future suitable work but should not become Greg's automatic daily job.
+Strong Chapter 230 possibilities:
+- Hessa returns with one bounded follow-up question that changes as few variables as practical and preserves 32 / 28 / 41 as the entering counts;
+- one small external-pressure fact reaches Rinna through an existing commercial contact while ordinary work continues around it;
+- Greg moves through another city/friend/money/work relationship not foregrounded in Ch228–229, allowing Lyssa's work world to continue off-page again;
+- ordinary theatre or Vale work may appear briefly if naturally required, but neither should become a default daily rotation.
 
-Do not mechanically use every possibility. Prefer the chapter that creates the most life per word and leaves the current city/relationship/work engines feeling accumulated rather than rotated by checklist.
+Do not mechanically use every possibility. Choose the engine that creates the most life per word from the actual current day.
 
 ## Chat / handoff behavior
 After each completed chapter:
