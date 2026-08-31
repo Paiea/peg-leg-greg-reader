@@ -2787,3 +2787,820 @@ We sat there without solving anything.
 Tomorrow the umbrella would probably disappear again.
 
 That seemed like enough trouble to prepare for.
+
+------------------------------------------------------------------------
+
+# CHAPTER 223
+
+## THE MAINTENANCE MAN
+
+The left crutch tip had become worse overnight.
+
+Not dramatically. It had not split, fallen off, or transformed into a weapon against me. It simply compressed farther than the right one when I put weight through it, which made the crutch feel a little soft on stone and a little too friendly with smooth floorboards.
+
+I noticed because I had become the sort of person who noticed crutch tips before breakfast.
+
+There were worse developments.
+
+Lyssa was at the table with the blue cloth from yesterday spread in front of her. The thread I had bought sat beside it, already threaded through a needle. She had used perhaps four inches of it.
+
+I looked at the spool.
+
+"Excellent purchase."
+
+She did not look up. "Maren chose it."
+
+"I transported it."
+
+"Heroic."
+
+I put the left crutch beside the table and pressed the tip with my thumb.
+
+Lyssa glanced over. "That the one you said felt soft?"
+
+"Yes."
+
+"Replace it."
+
+"I was going to assess it."
+
+"Replace it after assessing it."
+
+"Very controlling."
+
+She bit the thread, tied it, and finally looked at me. "You fall on that floor at the theatre and somebody will make a speech."
+
+That was convincing.
+
+I ate bread and cheese while she finished the seam. She had another customer after midday, which I learned because she wrapped the blue piece, wrapped two other pieces I had not seen before, then realized one of them still had a pin in it and unwrapped the entire bundle again.
+
+I watched this with the respect due to another profession's disasters.
+
+"Do you have work tonight?" she asked.
+
+"Probably."
+
+"Role?"
+
+"Unknown."
+
+"Umbrella?"
+
+"Threat level unresolved."
+
+She smiled without looking up.
+
+I left before she did.
+
+The crutch repairer was not far out of my way. I had used the shop before for grips and ferrules, and the man behind the counter remembered me well enough to point at the left crutch before I finished explaining.
+
+"That one's wearing faster."
+
+"That is what I came to tell you."
+
+"Good. Saves time."
+
+He turned the crutch in his hands, pressed the rubber, checked the edge, then compared it to the right one. He did not ask how I had injured my leg, whether I had always used crutches, or whether I had considered a more inspirational relationship with adversity.
+
+He said, "You load the left harder when you turn."
+
+I frowned. "Do I?"
+
+"Look."
+
+He set both crutches upright. The left tip had worn slightly more along one side.
+
+"Could be streets. Could be you. Could be both."
+
+That was a much less satisfying explanation than discovering a conspiracy in my walking.
+
+"Can you replace just one?"
+
+"I can replace seventeen if you pay me."
+
+"One seems sufficient."
+
+He fitted a new tip, trimmed the edge, made me test it on the shop floor, then adjusted it once because the first fit caught slightly when I rolled the crutch forward.
+
+I paid him.
+
+The copper left my hand without producing a moral crisis.
+
+Very mature.
+
+Outside, the new tip felt almost annoyingly firm.
+
+I reached the theatre to find Jori underneath the cart.
+
+Not near it.
+
+Under it.
+
+His boots stuck out beside one wheel while Davin stood over him holding a mallet and offering advice with the confidence of a man not trapped beneath timber.
+
+"The axle doesn't care what you think," Jori said.
+
+Davin looked at me. "Tell him leverage matters."
+
+"Leverage matters."
+
+"Thank you."
+
+Jori's voice came from under the cart. "Not to the cracked brace."
+
+I stopped beside them.
+
+The theatre cart sat in the narrow side yard with one rear wheel blocked. A short diagonal brace beneath the bed had split near an old bolt hole. It was not the axle. The cart was not collapsing. It was also clearly not going anywhere useful until somebody replaced the brace.
+
+"Did this happen today?" I asked.
+
+"Found it today," Davin said.
+
+"Different statement."
+
+Jori slid out far enough to look at me.
+
+"Don't encourage him."
+
+"I was encouraging evidence."
+
+"Go inside."
+
+I went inside.
+
+Nessa immediately handed me a wooden tray with six fake pastries on it.
+
+Apparently I remained employed.
+
+"Property table?" I asked.
+
+"Half hour. Then Teren wants you."
+
+"Role?"
+
+"Neighbor."
+
+I stared at her.
+
+"Again?"
+
+"Different neighbor."
+
+"I have already represented the concept."
+
+"You'll survive."
+
+The property table had kept yesterday's chalk square for the parcel. Someone had written UMBRELLA beside another empty space.
+
+I looked at Nessa.
+
+She looked away.
+
+"Where is it?"
+
+"With Marek."
+
+"Why?"
+
+"He is using it."
+
+"In a play?"
+
+She considered.
+
+"No."
+
+I closed my eyes.
+
+This was theatre continuity.
+
+The morning piece was The Doctor's Supper, which involved a physician, a patient pretending not to be ill, two relatives, a servant, and enough food props to make Nessa hate everyone. My four-line Neighbor appeared only to return a borrowed pot and accidentally reveal that the supposedly bedridden patient had been seen dancing the previous night.
+
+I had no emotional relationship with the pot.
+
+This helped.
+
+Teren ran the scene once. I entered at the right cue, put the pot on the table, and waited through Hara's line.
+
+Then I made a different mistake.
+
+Marek, playing the patient's brother, crossed behind me before my second line. I saw him coming and shifted early to give him space.
+
+Teren stopped us.
+
+"Greg."
+
+"I was in his way."
+
+"You weren't yet."
+
+I looked at Marek.
+
+He had stopped two steps behind me.
+
+Teren pointed to the mark near my foot.
+
+"Stay until he makes you move."
+
+"He's going behind me."
+
+"Then let him go behind you."
+
+"I have crutches."
+
+"I know."
+
+Marek said, "We have met."
+
+Teren ignored him.
+
+"If you move before he reaches you, the audience sees you making room for an actor. The neighbor doesn't know his route."
+
+That was irritatingly similar to yesterday's receipt without being the same problem.
+
+I was becoming talented at knowing too much.
+
+We reset.
+
+This time Marek crossed. I stayed. He adjusted behind me, took the wider line, and my next line landed where it was supposed to.
+
+Teren nodded.
+
+That was the correction.
+
+Work continued.
+
+Near midday, a man came through the front door and asked for Rinna.
+
+He was broad through the shoulders, gray at the temples, and had black grease worked permanently into the lines of his hands. I recognized him after a moment as the cart repair man Rinna had spoken to two days earlier, though I had only seen him once from across the yard.
+
+Rinna came from the rear passage carrying a folded costume.
+
+"You came."
+
+"Had reason."
+
+That changed the room without making it stop.
+
+Nessa was still sorting pastries. Teren was still arguing with Pell about a line. Somebody behind the stage dropped something wooden.
+
+Rinna set the costume down.
+
+"What happened?"
+
+The repair man glanced toward the open front door.
+
+Rinna stepped farther inside.
+
+He followed.
+
+I did not move closer.
+
+I was already close enough.
+
+"A man came by yesterday," he said. "Asked after your cart."
+
+Rinna's face did not change much.
+
+"Which cart?"
+
+"He described this one. Small theatre cart. Painted side scraped near the rear."
+
+Davin looked toward the side yard.
+
+The description was accurate.
+
+Rinna asked, "What did he ask?"
+
+The repair man rubbed his thumb across one knuckle.
+
+"First if I still worked on it."
+
+"What did you say?"
+
+"Told him I work on carts."
+
+"Then?"
+
+"He asked when you usually bring it in. I said when it breaks."
+
+Davin smiled.
+
+Rinna did not.
+
+"What else?"
+
+The man thought.
+
+"He asked if it usually goes out after the late show."
+
+There it was.
+
+Rinna said, "Exact?"
+
+"Near enough. 'They take it out after the late show?'"
+
+"Anything else?"
+
+"Asked if the same fellow drives it."
+
+Rinna waited.
+
+The repair man added, "Might've said 'same man.' I don't remember fellow."
+
+"Good."
+
+He looked at her.
+
+"Good?"
+
+"Good that you don't remember."
+
+That confused him for half a second.
+
+I understood.
+
+Rinna took a scrap of paper from beneath the ledger.
+
+"Did you answer either question?"
+
+"No. Told him I fix wheels. Don't keep theatre hours."
+
+"Anything about money?"
+
+"No."
+
+"Anything about a box?"
+
+"No."
+
+"Did he ask who owns the cart?"
+
+"No."
+
+"Did he ask about me?"
+
+"Not by name."
+
+"Greg?"
+
+The repair man glanced at me.
+
+"No."
+
+Rinna nodded.
+
+"Describe him."
+
+This was the part where bad certainty became tempting.
+
+The repair man looked toward the ceiling as if the man might still be written there.
+
+"Brown coat. Dark hair."
+
+"Age?"
+
+"Not old."
+
+"Face?"
+
+He touched his own cheek.
+
+"Thin, maybe. Narrow."
+
+"Voice?"
+
+"Quiet enough."
+
+My stomach tightened.
+
+Not proof.
+
+Still.
+
+Rinna wrote:
+
+MAN ASKED CART REPAIRER:
+THEY TAKE IT OUT AFTER THE LATE SHOW?
+SAME MAN DRIVES IT? [WORDING UNCERTAIN]
+
+REPAIRER GAVE NO THEATRE HOURS / ROUTINE.
+
+DESCRIPTION:
+BROWN COAT.
+DARK HAIR.
+NOT OLD.
+NARROW/THIN FACE.
+QUIET VOICE.
+
+CONSISTENT WITH OLIN DESCRIPTION.
+
+She stopped there.
+
+I read it upside down.
+
+"Consistent."
+
+"Yes."
+
+"Not same man."
+
+"Correct."
+
+The repair man looked between us.
+
+"You already had someone asking?"
+
+Rinna folded the paper once.
+
+"Questions at another business."
+
+"Same sort?"
+
+"Different questions."
+
+He nodded slowly.
+
+"Anything you want me to do?"
+
+"If somebody asks again, don't answer theatre routines. Send word."
+
+"That's what I did."
+
+"Then keep doing it."
+
+He seemed almost disappointed that there was no second part involving heroics.
+
+Good.
+
+He left.
+
+Davin waited until the door shut.
+
+"Late show."
+
+Rinna looked at him.
+
+He pointed toward the yard.
+
+"They're asking when the cart leaves."
+
+"Someone is."
+
+"The brown-coat man."
+
+"Description is consistent."
+
+Davin exhaled through his nose.
+
+I said, "First where the money sits. Now how things move."
+
+Rinna looked at me.
+
+"Yes."
+
+That was the first time she agreed without trimming the sentence.
+
+I felt worse, not better.
+
+"It fits."
+
+"It fits a concern," she said. "It does not tell us what he plans."
+
+"If he plans anything."
+
+"Correct."
+
+Marek had come close enough to hear the last part. He was still holding the striped umbrella.
+
+I looked at it.
+
+He looked at me.
+
+"Not now," I said.
+
+He slowly lowered the umbrella.
+
+Progress everywhere.
+
+Rinna called Jori in from the yard.
+
+He arrived wiping grease from one forearm.
+
+She gave him the narrow version.
+
+Someone asked when the cart went out after the late show and whether the same man drove it.
+
+Description was consistent with the Olin visitor.
+
+No useful answers given.
+
+No plan established.
+
+Jori listened, then said, "Cart isn't going anywhere tonight."
+
+Davin pointed toward the yard.
+
+"Brace."
+
+"Yes."
+
+Rinna looked at him.
+
+"How long?"
+
+"Tomorrow if I get the piece cut."
+
+"Then leave it."
+
+That was one decision.
+
+She looked at Davin.
+
+"After shows, nobody tells strangers when anything leaves. If someone asks, send them to me."
+
+"Already doing that."
+
+"Good."
+
+Then she took the cash box, which had not been visible anyway, and moved it from beneath the rear shelf to somewhere I did not see.
+
+I watched her go.
+
+Nessa put a fake pastry into my hand.
+
+"Table."
+
+Apparently the threat had used its allotted time.
+
+The afternoon performance still needed six pastries, one pot, two letters, a physician's bag, a shawl, a wooden spoon, and a striped umbrella that was not supposed to be in the play.
+
+I returned it to the property chest.
+
+Marek saw.
+
+"You wound me."
+
+"I am learning maintenance."
+
+"Of joy?"
+
+"Of inventory."
+
+The house filled.
+
+The Doctor's Supper was not one of the company's better plays. It had one excellent scene and several scenes required to reach it.
+
+Hara played the physician.
+
+Pell played the patient who insisted he was dying until any actual treatment was proposed.
+
+Marek played the brother.
+
+My Neighbor had four lines and a pot.
+
+The strongest moment came in the second scene when Hara asked Pell to describe his symptoms.
+
+He said, "Weakness. Chills. Sudden heat. Dizziness."
+
+Hara put two fingers to his wrist.
+
+"Anything else?"
+
+Pell looked toward the supper table.
+
+"Hunger."
+
+Hara released his wrist.
+
+"Tragic."
+
+The audience laughed.
+
+Pell said, "Is it serious?"
+
+Hara looked at the pastries.
+
+"Possibly fatal if dinner is delayed."
+
+The room broke.
+
+My entrance came later.
+
+I heard the cue while helping Nessa untangle a shawl pin.
+
+I picked up the pot and went.
+
+Marek crossed behind me.
+
+This time I did not move early.
+
+He adjusted.
+
+My crutch stayed inside the mark.
+
+Nobody noticed.
+
+That was the point.
+
+I put down the pot.
+
+"Your brother left this at my house."
+
+Marek said, "Impossible."
+
+"I watched him carry it in."
+
+Pell, from the bed, said, "I was ill."
+
+"You were dancing."
+
+A modest laugh.
+
+"Fever."
+
+"You climbed a table."
+
+"Delirium."
+
+I looked at Hara.
+
+"Then his delirium owes me a new pot."
+
+Bigger laugh than rehearsal.
+
+Not enormous.
+
+Enough.
+
+I left.
+
+Backstage, Nessa handed me the physician's bag because Hara was coming off the other side and would need it in twelve seconds.
+
+I took it without asking why.
+
+Hara appeared.
+
+I gave it to her.
+
+She went back onstage.
+
+No discussion.
+
+I liked that more than the laugh.
+
+After the show, the cart remained in the yard.
+
+Usually something would have gone with it. A folded wall, a chest, spare benches, whatever the next day's arrangement required.
+
+Tonight Jori stacked two pieces just inside the rear door instead.
+
+"Morning," he said.
+
+Nobody argued.
+
+Rinna waited until the front doors were shut before bringing the cash box out. Davin counted with her. When Pell asked whether the cart needed loading, she said, "No. Tomorrow."
+
+That was all.
+
+No guard.
+
+No escort.
+
+No one stood at the door pretending not to stand at the door.
+
+The theatre had simply stopped making tonight look exactly like every other night.
+
+Rinna paid me one copper.
+
+I put it away.
+
+Then I remembered the crutch tip.
+
+Not because it failed.
+
+Because it did not.
+
+I had spent money that morning so the problem would remain boring.
+
+Possibly the finest use of money available.
+
+On the walk home, the new tip gripped wet stone cleanly when I turned.
+
+I noticed once.
+
+Then stopped noticing.
+
+Lyssa was home before me, sitting at the table with the blue cloth spread across her lap and the matching thread running through it in small dark stitches.
+
+"You used it."
+
+She looked at the spool.
+
+"That is what thread is for."
+
+"I thought it might be ceremonial."
+
+She held out her hand.
+
+I gave her my coat.
+
+This was not what she had meant, but she took it anyway and put it over the back of the chair.
+
+"Crutch?" she asked.
+
+"New tip."
+
+"Good."
+
+"Very expensive emotional journey."
+
+"Did you fall?"
+
+"No."
+
+"Then boring."
+
+"Exactly."
+
+She went back to the seam.
+
+I washed, found something to eat, and sat across from her.
+
+For a while neither of us spoke.
+
+Then she said, "Dangerous man?"
+
+"No appearance."
+
+"Paper?"
+
+"No paper."
+
+"Umbrella?"
+
+"Contained."
+
+She nodded.
+
+I considered leaving it there.
+
+Almost did.
+
+"Someone asked about the theatre cart."
+
+Her needle stopped for only a moment.
+
+"Who?"
+
+"Cart repair man doesn't know. Description sounds like the other one. Brown coat, dark hair, narrow face. Quiet. Could be same. Not proven."
+
+"What did he ask?"
+
+"When it goes out after the late show. Whether the same man drives."
+
+Lyssa resumed stitching.
+
+"Did the repair man tell him?"
+
+"No."
+
+"Then your people heard again before it became anything."
+
+"Yes."
+
+That was true.
+
+I looked at her thread moving through the cloth.
+
+"They asked where the money sits. Now they're asking how things move."
+
+She tied off one stitch.
+
+"You know what they're asking."
+
+"Not why."
+
+"Right."
+
+I hated how familiar that word had become.
+
+She did not tell me to investigate.
+
+She did not tell me not to.
+
+She shifted the cloth, checked the seam against the edge, and held out one hand without looking.
+
+I put my hand in it.
+
+The theatre cart sat in the yard with a cracked brace.
+
+The cash box was somewhere Rinna had not shown me.
+
+A man who might be the same man had asked when things left.
+
+None of that told me what happened next.
+
+For once, we knew a little more before paying for the lesson.
+
+That would have to be enough.
