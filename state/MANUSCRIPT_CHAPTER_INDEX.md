@@ -1,6 +1,6 @@
-# PEG-LEG GREG — CHAPTER INDEX — CH229
+# PEG-LEG GREG — CHAPTER INDEX — CH230
 
-**Current endpoint:** Chapter 229 — THE ROAD ONE
+**Current endpoint:** Chapter 230 — THE REPLICATE
 
 1. **THE BOY**
 2. **THE BORROWER**
@@ -231,3 +231,4 @@
 227. **THE BUNDLER**
 228. **THE FLOWER BEARER**
 229. **THE ROAD ONE**
+230. **THE REPLICATE**
