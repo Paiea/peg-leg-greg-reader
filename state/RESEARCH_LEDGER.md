@@ -172,19 +172,60 @@ POSSIBILITY / RESEARCH SUPPORT. Current manuscript already establishes different
 
 ---
 
+## THEATRE — PROP ROUTES, COSTUME TRACKS, AND RUNNING REPAIRS
+
+**Question:**
+How are props and costumes tracked through live performance, what makes missing or misplaced objects legible before they cause a failure, and how do repeated handoffs, quick changes, repairs, and maintenance create practical trust?
+
+**Source / authority:**
+- Royal Shakespeare Company, `Making Props`
+  https://www.rsc.org.uk/about-us/how-we-make-theatre/props
+- Royal Shakespeare Company, `Making Costumes`
+  https://www.rsc.org.uk/about-us/how-we-make-theatre/costume
+- Theatrecrafts, `Glossary of Terms — Props`
+  https://theatrecrafts.com/pages/home/topics/props/glossary/
+- Theatrecrafts, `Glossary of Costume Terms`
+  https://theatrecrafts.com/pages/home/topics/costume/glossary/
+
+**Supported finding:**
+- A prop's running life depends on route and placement, not only construction. The RSC describes props being handed from makers/supervisors to a running team responsible for placing them wherever the relevant actor will pick them up, including wings, dressing rooms, backstage areas, or other locations.
+- Marked prop tables are a simple error-detection system. Theatrecrafts describes offstage props tables where objects are prepared and returned after use, often with a marked outline/grid so a missing item is immediately visible and preshow checks are fast.
+- Props require maintenance during the run. The RSC describes daily maintenance plus repair and replacement as needed after the running team takes over.
+- Costume work also continues after opening. The RSC describes daily Running Wardrobe maintenance, a constant stream of repairs, and routine cleaning of washable layers/items after performances.
+- Costume tracking can be actor-by-actor and scene-by-scene. Theatrecrafts defines a wardrobe plot as an inventory breaking each costume down into individual items for each actor and scene.
+- Very fast costume changes are planned as physical sequences near the stage and may involve a dresser. Theatrecrafts describes nearby quick-change areas, layering strategies, and garment construction choices intended to make the change possible. Exact modern fasteners are not automatically transferable to Carrow.
+
+**Confidence / limits:**
+High confidence in the broad running principles: props have repeatable pickup/return locations, missing-item visibility matters, maintenance continues throughout a run, costumes have detailed tracks, and quick changes are planned physical work. The specific staffing, paperwork, fasteners, laundry systems, and scale belong to modern theatre and should not be imported literally into Carrow.
+
+**Story translation:**
+- Chapter 222's chalk square for Greg's parcel is already a strong Carrow-scale version of a marked props table. Repeated chalk marks, shelf positions, hooks, baskets, or cloth wraps can make an object's `home` visible without modern paperwork or explanation.
+- An object's route can become social memory: who hands it to whom, which wing it returns through, who resets it, and who notices it never came back. Breaking the route creates downstream work even if the original mistake looked trivial.
+- Marek touching or using a stage object can have specific consequences beyond a joke: the item may need rewiping, repainting, replacing, drying, rechecking, or hunting because the next scene assumes it is already home.
+- Nessa's practical authority can grow from knowing object routes and failures rather than generic backstage omniscience. Other people should own other tracks and sometimes know something she does not.
+- Daily repair is a useful offscreen-life engine. A cracked handle, loosened seam, sweat-marked collar, missing fastening, paint rub, or damp prop can already have been noticed and repaired before Greg arrives. He can encounter the residue of work rather than watching every fix happen.
+- Costume changes can become choreography without becoming spectacle: garments staged in sequence, a helper knowing which side to stand on, a fastening prepared before entrance, one actor arriving late and compressing the whole change, or a repair altering the normal sequence.
+- Keep Lyssa's independent garment work independent by default. Her sewing competence does not automatically make her theatre wardrobe staff. If theatre costume work and Lyssa ever intersect, it should happen through an earned customer/job/relationship connection rather than because the story needs a convenient seamstress.
+- The useful failure mode is often delayed. The person who misplaced an object may not suffer the consequence; the actor or worker two scenes later does. This naturally creates favors, irritation, blame uncertainty, shorthand, and memory among people who are not Greg.
+
+**Canon status:**
+POSSIBILITY / RESEARCH SUPPORT. Current prose already establishes chalk-marked prop placement, repeat-use objects, repurposed cups, `STAGE ONLY` marking, misplaced objects, repair labor, and differentiated backstage competence. Specific tracking systems, costume tracks, and recurring handoff relationships remain developmental until established.
+
+---
+
 ## ACTIVE RESEARCH EDGE
 
-The first two theatre research waves are developed enough for Story Control to pressure-test together:
+The three-theatre-practice wave is complete enough for 03 integration:
 1. rehearsal notes / recovery / earned shorthand
 2. practical authority / multi-hatting / track ownership
+3. prop routes / costume tracks / maintenance / delayed object failures
 
-Next focused 02 research edge:
+**02 HANDOFF READY.**
 
-**backstage prop and costume handoff, tracking, preset, and repair practice**, especially:
-- how props are preset, marked, checked, handed out, returned, and accounted for across a performance
-- what workers do when an expected prop is missing, damaged, moved, or returned to the wrong place
-- how costume changes, repairs, emergency fixes, and post-show maintenance are divided
-- what kinds of errors are caught before curtain versus only after an actor needs the object
-- how repeated object routes create shorthand and trust
+Do not proliferate another theatre research topic merely because the queue exists. 03 should now pressure-test which recurring behaviors actually deepen current manuscript relationships and which would over-instrument the theatre.
 
-Current manuscript already contains useful footholds: repurposed cups, marked stage-only objects, the striped umbrella, prop-table work, costume labor, ordinary repairs, and people touching things they should not. Research should sharpen those existing behaviors rather than invent a new backstage subsystem.
+Strong unresolved developmental question for 03:
+
+**Which 2–4 behaviors create the most social residue with the least visible machinery, especially among Nessa, Hara, Pell, Marek, Jori, Rinna, and Teren when Greg is not the center of the exchange?**
+
+Possible future research should be driven by 03's returned edge. If 03 identifies no narrower gap, a later useful candidate is repertory scheduling / absence coverage / role replacement, because absence is a natural way to reveal invisible work and independent obligations. Do not research it yet just to keep the wheel spinning.
