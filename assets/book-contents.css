@@ -11,12 +11,13 @@
 
 @media (max-width: 700px) {
   .reader-book-layout--illustrated {
-    grid-template-columns: minmax(0, 1fr);
+    grid-template-columns: minmax(240px, 42vw) minmax(0, 1fr);
     grid-template-areas:
-      "heading"
-      "plate"
-      "acts";
-    gap: 1rem;
+      "plate heading"
+      "plate acts";
+    column-gap: clamp(1rem, 4vw, 1.5rem);
+    row-gap: .75rem;
+    align-items: start;
   }
 
   .reader-book-layout--illustrated .reader-book-heading {
@@ -24,9 +25,9 @@
   }
 
   .reader-book-layout--illustrated .reader-book-plate {
-    width: min(210px, 72vw);
-    max-width: 210px;
-    margin: .15rem auto .8rem;
-    justify-self: center;
+    width: min(42vw, 280px);
+    max-width: 280px;
+    margin: 0;
+    justify-self: start;
   }
 }
