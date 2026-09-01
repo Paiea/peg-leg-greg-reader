@@ -1,0 +1,62 @@
+name: One-shot ship Chapter 237
+
+on:
+  push:
+    branches:
+      - manuscript/ch237-bearer
+    paths:
+      - .github/workflows/ship-ch237-bearer-once.yml
+
+permissions:
+  contents: write
+
+jobs:
+  ship:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Append chapter and sync state
+        run: python state/.ship_ch237_bearer.py
+      - name: Remove one-shot files
+        run: rm state/.ship_ch237_bearer.py .github/workflows/ship-ch237-bearer-once.yml
+      - name: Verify and commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          m = Path('state/manuscript/Peg_Leg_Greg_Running_Manuscript.md').read_text()
+          assert m.count('# CHAPTER 237') == 1
+          ch = m[m.index('# CHAPTER 237'):]
+          assert '## THE BEARER' in ch
+          assert ch.count('—') == 0
+          words = len(re.findall(r"\b[\w’'-]+\b", ch))
+          assert 2500 <= words <= 4000, words
+          assert ch.rstrip().endswith('I kept the pages where I could see them.')
+          assert 'Current story endpoint: Chapter 237 — **THE BEARER**.' in Path('state/MANUSCRIPT_STATE.md').read_text()
+          assert '34 successful supervised minimal draws.' in Path('state/MANUSCRIPT_STATE.md').read_text()
+          assert '30 supervised deliberate shaping attempts.' in Path('state/MANUSCRIPT_STATE.md').read_text()
+          assert '49 supervised external-effect attempts.' in Path('state/MANUSCRIPT_STATE.md').read_text()
+          idx = Path('state/MANUSCRIPT_CHAPTER_INDEX.md').read_text()
+          assert '# PEG-LEG GREG — CHAPTER INDEX — CH237' in idx
+          assert '**Current endpoint:** Chapter 237 — THE BEARER' in idx
+          assert '237. **THE BEARER**' in idx
+          wf = Path('state/MANUSCRIPT_WORKFLOW.md').read_text()
+          assert 'Chapter 237 — **THE BEARER**.' in wf
+          assert 'Chapter 238 edge' in wf
+          assert 'Current recorded story endpoint is Chapter 237 — **THE BEARER**.' in Path('state/PROJECT_STATE.md').read_text()
+          assert '**Current endpoint:** Chapter 237 — **THE BEARER**.' in Path('state/OPEN_THREADS.md').read_text()
+          assert 'Do they take deliveries through the front or the back?' in Path('state/OPEN_THREADS.md').read_text()
+          assert 'Again tomorrow if it stays paired.' in Path('state/OPEN_THREADS.md').read_text()
+          print('chapter_words', words)
+          print('em_dashes', ch.count('—'))
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/manuscript/Peg_Leg_Greg_Running_Manuscript.md state/MANUSCRIPT_STATE.md state/OPEN_THREADS.md state/MANUSCRIPT_CHAPTER_INDEX.md state/MANUSCRIPT_WORKFLOW.md state/PROJECT_STATE.md state/.ship_ch237_bearer.py .github/workflows/ship-ch237-bearer-once.yml
+          git diff --cached --check
+          git commit -m "Ship Chapter 237: THE BEARER"
+          git push origin HEAD:manuscript/ch237-bearer
