@@ -119,6 +119,6 @@ GitHub provides durable continuity. The re-prompt gives the next writing session
 
 ## Current edge
 
-Chapter 240 — **THE SAMPLE**.
+Chapter 241 — **THE SCRAPER**.
 
-See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 241 edge.
+See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 242 edge.

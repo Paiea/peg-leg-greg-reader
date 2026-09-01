@@ -1,7 +1,7 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current story endpoint: Chapter 240 — **THE SAMPLE**.
+- Current story endpoint: Chapter 241 — **THE SCRAPER**.
 - Book 1 Chapters 1–82 closed. Book 2 active.
 - Repository prose was previously validated continuously through Chapter 155 — **THE LEAK**.
 - Chapters 156–219 remain newer forward manuscript material pending exact-text synchronization into the permanent running manuscript. Do not reconstruct them from summaries or let stale overlapping files overwrite newer authority.
@@ -388,28 +388,40 @@
 - No theatre call/work/pay, Vale appearance/work/credit, or Bren/brown-coat fact occurs. Debt remains active/unstated; Ch236 remains latest pressure evidence.
 - Home continuity stays bounded: brown cloth remains same fold/three pins; damaged shirt remains three loose threads; beans and the earlier paper-wrapped item remain absent/unexplained. Body cost is ordinary sitting/walk/forearm warmth only, with no injury or new limitation.
 
-## Immediate next edge — Chapter 241
-Primary recommendation: **LET CH240'S FULL HESSA SESSION BREATHE. FOLLOW THE NEXT ACTUAL CLAIM OUTSIDE MAGIC RATHER THAN TURNING THE NEW FAR RESPONSE INTO AN IMMEDIATE LADDER.**
+## Chapter 241 — THE SCRAPER
+- Chapter 241 lets the full Ch240 Hessa session breathe. No Hessa appearance, magic attempt, Vale work/credit, Bren/brown-coat fact, warning, investigation, or pressure escalation occurs. Magic remains **35 / 31 / 53** with all restrictions unchanged.
+- A familiar theatre boy brings a new ordinary labor call from Rinna: come before midday if Greg is free and wear clothes he does not care about. This is a fresh scenery-maintenance task, not continuation of **The Missing Key** or a performance call.
+- Greg joins Jori and Davin in the rear yard stripping loose paint from two old wall flats so they can be reused as kitchen walls. Venn also works the job, wiping cleaned sections and later carrying cloths for Rinna.
+- The flats visibly carry accumulated theatre history in paint layers: blue over cream, green and dark red beneath, plus old gold stars. No old play/title/cast history is established from those layers. Jori treats only structural usefulness as relevant.
+- Greg learns the narrow scraping rule: remove only already-lifting paint outside Jori's preservation marks. Once the motion becomes automatic, Greg follows a satisfying peel two inches across the chalk boundary and removes sound paint that was meant to stay. Jori redraws the boundary; Davin later repaints the small patch blue. The mistake costs a little paint and work, not a lesson speech or crisis.
+- Davin remains independently competent: when Nessa identifies a loose canvas corner on the reverse of one flat, he stops scraping and completes the stitch/repair before returning to paint work. Jori/Davin authority remains overlapping and problem-shaped.
+- Greg's disability/body stays material and ordinary. He works lower sections seated, stands only for a bounded upper section, changes position when his right leg/shoulder tire, and carries only a rag bucket through the passage rather than an awkward wall. End-of-day cost is a warm right palm, used shoulders, mild ordinary right-leg fatigue, comfortable residual limb, and no injury/new limitation.
+- The repaired back latch closes normally during ordinary work and is explicitly not treated as a security response. No one discusses the brown-coat access question.
+- Rinna pays Greg the normal one copper for theatre labor. No next rehearsal/performance is firm: `Tomorrow?` / `Not for you yet.`
+- Home stays bounded. Lyssa is already there working on a separate dark cloth whose identity/job/customer remain unknown. Brown cloth remains same fold/three pins; damaged shirt remains three loose threads. Greg's better shirt acquires a small blue paint streak. Beans and the earlier paper-wrapped item remain absent/unexplained.
+
+## Immediate next edge — Chapter 242
+Primary recommendation: **LET CH241'S ORDINARY THEATRE LABOR BREATHE. FOLLOW THE NEXT ACTUAL CLAIM RATHER THAN TURNING THE SCRAPED WALLS INTO A PERFORMANCE OBLIGATION OR THE CH240 FAR RESPONSE INTO A MAGIC LADDER.**
 
 Reasons:
-- Ch239 was an offstage Hara/Greg Carrow day; Ch240 is a full bounded magic-evidence session. The next chapter does not owe either relationship another beat.
-- Ch240 materially grows the record but does not change permissions: fixed FAR produces one clean response and three clean non-responses; FAR remains unreliable; the apparent distance-associated difference remains supported by the accumulated current-apparatus record; no range or response rate is established.
-- Hessa has **no selected next experiment**. Do not create another session merely because attempt 52 moved.
-- Greg has no standing theatre obligation. **The Missing Key** remains done for now and Venn's coverage remains ordinary.
-- Vale last moved in Ch238. Debt remains active and legitimately smaller, but Greg still has no guaranteed post, schedule, promotion, or rate.
-- External pressure last moved in Ch236. Chapters 237–240 add no new clue or escalation. One grounded fact may arrive naturally later; there is no quota.
-- Lyssa's beans and earlier paper-wrapped item remain absent/unexplained. Brown cloth remains same fold/three pins and Greg's shirt remains three loose threads. None requires service next chapter.
+- Ch238 was a full Vale sealing/debt-credit day; Ch239 was an offstage Hara/Greg Carrow day; Ch240 was a full Hessa FAR-only session; Ch241 returns to theatre only as low-glamour scenery labor, not rehearsal/performance.
+- Greg has no standing theatre role entering Ch242. Rinna explicitly says `Not for you yet` when he asks about tomorrow. The kitchen-wall reuse may continue offscreen without requiring Greg.
+- Magic remains **35 / 31 / 53**. Attempt 52 remains one clean FAR/AWAY response inside a four-attempt FAR-only block; no range, rate, equivalence, generalization, or new permission is established. Hessa still has no selected next experiment.
+- Vale debt remains active/unstated and smaller after Ch238, but Greg still has no guaranteed post, schedule, promotion, or rate.
+- External pressure still last moved in Ch236. Ch237–241 add no clue or defensive escalation. The repaired back latch remains ordinary maintenance.
+- Lyssa's beans and earlier paper-wrapped item remain absent/unexplained. Brown cloth remains same fold/three pins. Greg's damaged shirt remains three loose threads. A separate dark cloth is active at home in Ch241 but its customer/job/identity are unestablished. Do not merge materials.
 
-Strong Chapter 241 possibilities:
-- a genuinely new theatre or Vale call/task if one actually arrives;
-- ordinary Carrow, money/material need, or an established social relationship with its own momentum;
-- Lyssa/household/work only if a real new obligation surfaces without bookkeeping the unresolved objects;
+Strong Chapter 242 possibilities:
+- ordinary Carrow, money/material need, or an established social route with its own momentum;
+- Lyssa/household/work only if a real obligation naturally surfaces, without servicing the brown cloth, beans, or absent wrapped item;
+- Vale only if suitable ordinary work genuinely exists;
+- theatre only if a genuinely new call/task appears, not because the kitchen walls exist;
 - one grounded pressure fact through an established natural carrier only if it genuinely arrives;
-- NOT Hessa unless a genuinely new bounded question is independently selected after the Ch240 record is considered.
+- NOT Hessa unless she independently selects a genuinely new bounded question after considering the Ch240 record.
 
 Ask: **WHAT ACTUALLY HAS A REASON TO HAPPEN TODAY?** Favor **LIFE PER WORD**.
 
-Preserve magic counts **35 / 31 / 53** and all restrictions. Preserve attempt 52 as one clean FAR/AWAY response under the fixed FAR-only block, not a power-up. Preserve active unstated Vale debt and Ch238 credit. Preserve Ch236's delivery/access evidence ceiling and no Vale/Bren connection. Preserve ordinary back-latch interpretation, Greg's body continuity, Hara's narrow shoe-adjustment facts, brown-cloth identity limits, three-thread shirt continuity, bean-purpose limits, absent wrapped-item identity ceiling, Lyssa customer/garment boundaries, and **Marra ≠ Maren**.
+Preserve magic counts **35 / 31 / 53** and all restrictions. Preserve attempt 52 as a clean FAR/AWAY response under the fixed FAR-only block without power-up. Preserve active unstated Vale debt and Ch238 credit. Preserve Ch236's delivery/access evidence ceiling and no Vale/Bren connection. Preserve ordinary back-latch interpretation, Greg's body continuity, Hara's narrow shoe-adjustment facts, brown-cloth identity limits, three-thread shirt continuity, bean-purpose limits, absent wrapped-item identity ceiling, the new dark-cloth identity ceiling, Lyssa customer/garment boundaries, and **Marra ≠ Maren**.
 
 ## Chat / handoff behavior
 After each completed chapter:

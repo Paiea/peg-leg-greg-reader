@@ -1,6 +1,6 @@
-# PEG-LEG GREG — CHAPTER INDEX — CH240
+# PEG-LEG GREG — CHAPTER INDEX — CH241
 
-**Current endpoint:** Chapter 240 — THE SAMPLE
+**Current endpoint:** Chapter 241 — THE SCRAPER
 
 1. **THE BOY**
 2. **THE BORROWER**
@@ -242,3 +242,4 @@
 238. **THE SEALER**
 239. **THE WAITER**
 240. **THE SAMPLE**
+241. **THE SCRAPER**

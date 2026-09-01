@@ -1,6 +1,6 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Current endpoint:** Chapter 240 — **THE SAMPLE**.
+- **Current endpoint:** Chapter 241 — **THE SCRAPER**.
 - **Permanent forward manuscript:** `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`. Chapters 156–219 still need exact-text synchronization into the permanent manuscript; Chapter 220+ writes directly here. Light Reader synchronization is a separate downstream concern.
 - **Engine method:** `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves durable 01 behavior and recovery instructions.
 - **Magic counts:** ACTIVE at 35 supervised minimal draws / 31 deliberate shaping attempts / 53 external-effect attempts.
@@ -107,3 +107,9 @@
 - **Ch229 theatre:** only compact Jori window-trim work; no role or performance. Greg uses compressed side-door/workbench routine and ordinary load management. Nessa says the Ch228 flowers are repaired.
 - **Ch229 household:** Lyssa's prior tiredness remains ordinary, not injury. Greg's Ch228 worked palm is normal. The chapter ends with the table used only for shared supper, with no active cloth/customer on it.
 - **Long-range theatre direction:** THEATRE → PERFORMANCE → MISDIRECTION → ILLUSION → MASKS → CONTROL OF PERCEPTION → eventual dangerous bluff. Directional only; visible theatre remains FUN → PEOPLE → WORKPLACE → ACTING → STAGECRAFT → FAILURE → ANOTHER TURN.
+
+- **Ch241 theatre labor:** Rinna calls Greg for ordinary scenery maintenance, not rehearsal/performance. Greg strips loose paint from reusable wall flats with Jori/Davin; Venn also works the job.
+- **Ch241 Greg mistake:** once scraping becomes automatic, Greg follows a peel two inches across Jori's chalk preservation boundary and removes sound paint. Jori redraws the line; Davin repaints the small patch. Small material cost only.
+- **Ch241 Jori/Davin/Venn:** Jori owns scraping boundaries/usable surface judgment; Davin remains independently competent and stitches a loose canvas corner when Nessa identifies it; Venn participates as an ordinary worker rather than only Greg's Ch238 substitute.
+- **Ch241 body/pay:** warm right palm, used shoulders, mild ordinary right-leg fatigue only; residual limb comfortable, no injury/new limitation. Rinna pays normal one copper. No firm next theatre obligation.
+- **Ch241 continuity:** magic unchanged 35 / 31 / 53 with all restrictions; no Vale work/credit; no pressure fact/escalation; repaired back latch remains ordinary maintenance. Brown cloth same fold/three pins; damaged shirt three loose threads; beans/wrapped item absent; separate dark cloth at home remains unidentified.
