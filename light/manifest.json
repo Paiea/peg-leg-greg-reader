@@ -1,0 +1,461 @@
+{
+  "latest": 231,
+  "chapters": [
+    {
+      "number": 156,
+      "title": "THE ADVOCATE",
+      "source": "recovered",
+      "path": "156.html"
+    },
+    {
+      "number": 157,
+      "title": "THE TABLE",
+      "source": "recovered",
+      "path": "157.html"
+    },
+    {
+      "number": 158,
+      "title": "THE RETURNER",
+      "source": "recovered",
+      "path": "158.html"
+    },
+    {
+      "number": 159,
+      "title": "THE PRIVATE PLAYER",
+      "source": "recovered",
+      "path": "159.html"
+    },
+    {
+      "number": 160,
+      "title": "THE SWORD",
+      "source": "recovered",
+      "path": "160.html"
+    },
+    {
+      "number": 161,
+      "title": "THE PLAYER",
+      "source": "recovered",
+      "path": "161.html"
+    },
+    {
+      "number": 162,
+      "title": "THE STREET PLAYER",
+      "source": "recovered",
+      "path": "162.html"
+    },
+    {
+      "number": 163,
+      "title": "THE MILL PLAYER",
+      "source": "recovered",
+      "path": "163.html"
+    },
+    {
+      "number": 164,
+      "title": "THE PROSPECTOR",
+      "source": "recovered",
+      "path": "164.html"
+    },
+    {
+      "number": 165,
+      "title": "THE DRAW",
+      "source": "recovered",
+      "path": "165.html"
+    },
+    {
+      "number": 166,
+      "title": "THE ROADHAND",
+      "source": "recovered",
+      "path": "166.html"
+    },
+    {
+      "number": 167,
+      "title": "THE APPLICANT",
+      "source": "recovered",
+      "path": "167.html"
+    },
+    {
+      "number": 168,
+      "title": "THE PITCHMAN",
+      "source": "recovered",
+      "path": "168.html"
+    },
+    {
+      "number": 169,
+      "title": "THE STANDBY",
+      "source": "recovered",
+      "path": "169.html"
+    },
+    {
+      "number": 170,
+      "title": "THE CHASER",
+      "source": "recovered",
+      "path": "170.html"
+    },
+    {
+      "number": 171,
+      "title": "THE SUPPER PLAYER",
+      "source": "recovered",
+      "path": "171.html"
+    },
+    {
+      "number": 172,
+      "title": "THE CUSTOMER",
+      "source": "recovered",
+      "path": "172.html"
+    },
+    {
+      "number": 173,
+      "title": "THE LAMPLIGHTER",
+      "source": "recovered",
+      "path": "173.html"
+    },
+    {
+      "number": 174,
+      "title": "THE RETURNER",
+      "source": "recovered",
+      "path": "174.html"
+    },
+    {
+      "number": 175,
+      "title": "THE GIFT-GIVER",
+      "source": "recovered",
+      "path": "175.html"
+    },
+    {
+      "number": 176,
+      "title": "THE QUESTIONER",
+      "source": "recovered",
+      "path": "176.html"
+    },
+    {
+      "number": 177,
+      "title": "THE STAGEHAND",
+      "source": "recovered",
+      "path": "177.html"
+    },
+    {
+      "number": 178,
+      "title": "THE ENSEMBLE PLAYER",
+      "source": "recovered",
+      "path": "178.html"
+    },
+    {
+      "number": 179,
+      "title": "THE TESTER",
+      "source": "recovered",
+      "path": "179.html"
+    },
+    {
+      "number": 180,
+      "title": "THE THIRD MAN",
+      "source": "recovered",
+      "path": "180.html"
+    },
+    {
+      "number": 181,
+      "title": "THE CALLER",
+      "source": "recovered",
+      "path": "181.html"
+    },
+    {
+      "number": 182,
+      "title": "THE SUBJECT",
+      "source": "recovered",
+      "path": "182.html"
+    },
+    {
+      "number": 183,
+      "title": "THE WORKER",
+      "source": "recovered",
+      "path": "183.html"
+    },
+    {
+      "number": 184,
+      "title": "THE RUNNER",
+      "source": "recovered",
+      "path": "184.html"
+    },
+    {
+      "number": 185,
+      "title": "THE REGULAR",
+      "source": "recovered",
+      "path": "185.html"
+    },
+    {
+      "number": 186,
+      "title": "THE TESTER",
+      "source": "recovered",
+      "path": "186.html"
+    },
+    {
+      "number": 187,
+      "title": "THE SUBSTITUTE",
+      "source": "recovered",
+      "path": "187.html"
+    },
+    {
+      "number": 188,
+      "title": "THE HOUSEMAN",
+      "source": "recovered",
+      "path": "188.html"
+    },
+    {
+      "number": 189,
+      "title": "THE SHADOW",
+      "source": "recovered",
+      "path": "189.html"
+    },
+    {
+      "number": 190,
+      "title": "THE MEASURE",
+      "source": "recovered",
+      "path": "190.html"
+    },
+    {
+      "number": 191,
+      "title": "THE WITNESS",
+      "source": "recovered",
+      "path": "191.html"
+    },
+    {
+      "number": 192,
+      "title": "THE SELLER",
+      "source": "recovered",
+      "path": "192.html"
+    },
+    {
+      "number": 193,
+      "title": "THE DINER",
+      "source": "recovered",
+      "path": "193.html"
+    },
+    {
+      "number": 194,
+      "title": "THE HAND",
+      "source": "recovered",
+      "path": "194.html"
+    },
+    {
+      "number": 195,
+      "title": "THE CARRIER",
+      "source": "recovered",
+      "path": "195.html"
+    },
+    {
+      "number": 196,
+      "title": "THE SITTER",
+      "source": "recovered",
+      "path": "196.html"
+    },
+    {
+      "number": 197,
+      "title": "THE PETITIONER",
+      "source": "recovered",
+      "path": "197.html"
+    },
+    {
+      "number": 198,
+      "title": "THE GUARD",
+      "source": "recovered",
+      "path": "198.html"
+    },
+    {
+      "number": 199,
+      "title": "THE ATTENDANT",
+      "source": "recovered",
+      "path": "199.html"
+    },
+    {
+      "number": 200,
+      "title": "THE RESPONDER",
+      "source": "recovered",
+      "path": "200.html"
+    },
+    {
+      "number": 201,
+      "title": "THE CLERK",
+      "source": "recovered",
+      "path": "201.html"
+    },
+    {
+      "number": 202,
+      "title": "THE NEIGHBOR",
+      "source": "recovered",
+      "path": "202.html"
+    },
+    {
+      "number": 203,
+      "title": "THE WORKHAND",
+      "source": "recovered",
+      "path": "203.html"
+    },
+    {
+      "number": 204,
+      "title": "THE KEEPER",
+      "source": "recovered",
+      "path": "204.html"
+    },
+    {
+      "number": 205,
+      "title": "THE PORTER",
+      "source": "recovered",
+      "path": "205.html"
+    },
+    {
+      "number": 206,
+      "title": "THE SETTER",
+      "source": "recovered",
+      "path": "206.html"
+    },
+    {
+      "number": 207,
+      "title": "THE SERVANT",
+      "source": "recovered",
+      "path": "207.html"
+    },
+    {
+      "number": 208,
+      "title": "THE DOORMAN",
+      "source": "recovered",
+      "path": "208.html"
+    },
+    {
+      "number": 209,
+      "title": "THE MESSENGER",
+      "source": "recovered",
+      "path": "209.html"
+    },
+    {
+      "number": 210,
+      "title": "THE TENANT",
+      "source": "recovered",
+      "path": "210.html"
+    },
+    {
+      "number": 211,
+      "title": "THE NEPHEW",
+      "source": "recovered",
+      "path": "211.html"
+    },
+    {
+      "number": 212,
+      "title": "THE USHER",
+      "source": "recovered",
+      "path": "212.html"
+    },
+    {
+      "number": 213,
+      "title": "THE COUNTER",
+      "source": "recovered",
+      "path": "213.html"
+    },
+    {
+      "number": 214,
+      "title": "THE BROTHER",
+      "source": "recovered",
+      "path": "214.html"
+    },
+    {
+      "number": 215,
+      "title": "THE BAILIFF",
+      "source": "recovered",
+      "path": "215.html"
+    },
+    {
+      "number": 216,
+      "title": "THE RELATIVE",
+      "source": "recovered",
+      "path": "216.html"
+    },
+    {
+      "number": 217,
+      "title": "THE DEBTOR",
+      "source": "recovered",
+      "path": "217.html"
+    },
+    {
+      "number": 218,
+      "title": "THE PAYER",
+      "source": "recovered",
+      "path": "218.html"
+    },
+    {
+      "number": 219,
+      "title": "THE PURCHASER",
+      "source": "recovered",
+      "path": "219.html"
+    },
+    {
+      "number": 220,
+      "title": "THE LANDLORD",
+      "source": "manuscript",
+      "path": "220.html"
+    },
+    {
+      "number": 221,
+      "title": "THE PARTICIPANT",
+      "source": "manuscript",
+      "path": "221.html"
+    },
+    {
+      "number": 222,
+      "title": "THE PROPERTY MAN",
+      "source": "manuscript",
+      "path": "222.html"
+    },
+    {
+      "number": 223,
+      "title": "THE MAINTENANCE MAN",
+      "source": "manuscript",
+      "path": "223.html"
+    },
+    {
+      "number": 224,
+      "title": "THE CHECKER",
+      "source": "manuscript",
+      "path": "224.html"
+    },
+    {
+      "number": 225,
+      "title": "THE STEWARD",
+      "source": "manuscript",
+      "path": "225.html"
+    },
+    {
+      "number": 226,
+      "title": "THE REFERENCE",
+      "source": "manuscript",
+      "path": "226.html"
+    },
+    {
+      "number": 227,
+      "title": "THE BUNDLER",
+      "source": "manuscript",
+      "path": "227.html"
+    },
+    {
+      "number": 228,
+      "title": "THE FLOWER BEARER",
+      "source": "manuscript",
+      "path": "228.html"
+    },
+    {
+      "number": 229,
+      "title": "THE ROAD ONE",
+      "source": "manuscript",
+      "path": "229.html"
+    },
+    {
+      "number": 230,
+      "title": "THE REPLICATE",
+      "source": "manuscript",
+      "path": "230.html"
+    },
+    {
+      "number": 231,
+      "title": "THE MAGISTRATE",
+      "source": "manuscript",
+      "path": "231.html"
+    }
+  ]
+}
