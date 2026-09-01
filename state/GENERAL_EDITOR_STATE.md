@@ -97,6 +97,7 @@ A full dry-run render of the synchronized canonical DOCX produced 1,293 pages su
 Final validation after the idempotence repair:
 
 - canonical Book 1 Chapters 1–5 rerun: already synchronized; DOCX hash unchanged
+- idempotence regression: proven red before the fix and green after the fix
 - edited-prose em-dash check: clean
 - repository tests: 21 passed
 - Light 156–219: 64 chapters generated and verified
