@@ -1,6 +1,6 @@
-# PEG-LEG GREG — CHAPTER INDEX — CH239
+# PEG-LEG GREG — CHAPTER INDEX — CH240
 
-**Current endpoint:** Chapter 239 — THE WAITER
+**Current endpoint:** Chapter 240 — THE SAMPLE
 
 1. **THE BOY**
 2. **THE BORROWER**
@@ -241,3 +241,4 @@
 237. **THE BEARER**
 238. **THE SEALER**
 239. **THE WAITER**
+240. **THE SAMPLE**
