@@ -109,7 +109,7 @@ def _render_act(
         f'<span class="reader-act-title">{escape(act.title)}</span>'
         f'</summary>'
         f'<p class="reader-act-deck">{escape(act.deck)}</p>'
-        f'<div class="reader-act-grid'>{"".join(links)}</div>'
+        f'<div class="reader-act-grid">{"".join(links)}</div>'
         f'</details>'
     )
 
