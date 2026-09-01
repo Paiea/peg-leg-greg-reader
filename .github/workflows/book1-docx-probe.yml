@@ -1,0 +1,44 @@
+name: Probe Book 1 DOCX
+on:
+  push:
+    branches:
+      - reader/validate-general-polish-ch001-005-r2
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install python-docx beautifulsoup4
+      - name: Inspect canonical Book 1 structure
+        run: |
+          python - <<'PY'
+          import re
+          from docx import Document
+          from bs4 import BeautifulSoup
+          p='state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx'
+          doc=Document(p)
+          print('PARAGRAPHS', len(doc.paragraphs))
+          markers=[]
+          for i, para in enumerate(doc.paragraphs):
+              t=para.text.strip()
+              if re.fullmatch(r'CHAPTER\s+\d+', t, re.I):
+                  markers.append((i,t,para.style.name))
+          print('MARKERS', len(markers))
+          print('FIRST_MARKERS', markers[:12])
+          for ch in range(1,7):
+              m=next((x for x in markers if x[1].upper()==f'CHAPTER {ch}'),None)
+              if not m: continue
+              start=m[0]
+              end=next((x[0] for x in markers if x[0]>start), min(start+20,len(doc.paragraphs)))
+              print(f'=== CH{ch} {start}:{end} ===')
+              for j in range(start,min(end,start+12)):
+                  q=doc.paragraphs[j]
+                  print(j, repr(q.style.name), repr(q.text[:160]), 'runs=', len(q.runs))
+              html=f'chapters/{ch:03d}.html'
+              soup=BeautifulSoup(open(html,encoding='utf-8').read(),'html.parser')
+              ps=[x.get_text() for x in soup.select('article.prose > p')]
+              print('HTML_P',len(ps),'DOCX_BODY_P',max(0,end-start-2))
+          PY
