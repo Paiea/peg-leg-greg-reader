@@ -20206,3 +20206,1049 @@ She took the larger piece.
 Of course.
 
 I ate mine before the office could send anyone to seal it.
+
+------------------------------------------------------------------------
+
+# CHAPTER 239
+
+## THE MINDER
+
+Lyssa put a spool beside my bread.
+
+This was not how breakfast usually improved.
+
+I looked at the spool.
+
+Dark thread. Almost black in the morning light. Less than half left.
+
+I looked at Lyssa.
+
+She was standing at the table with one sleeve pulled over her hand and a needle between her lips.
+
+"Mine?"
+
+She took the needle out.
+
+"No."
+
+"Good."
+
+"Maren."
+
+I looked at the spool again.
+
+"Also not mine."
+
+"Take it back."
+
+That was a sentence with a shape I understood.
+
+"Why?"
+
+"It frays."
+
+I touched the loose end.
+
+Lyssa slapped my fingers away.
+
+"Don't."
+
+"I was examining."
+
+"You were pulling."
+
+"Related disciplines."
+
+She put a short piece of thread beside the spool. The end had opened into several fine hairs.
+
+I leaned closer.
+
+"That does look bad."
+
+"Yes."
+
+"Wrong thread?"
+
+"Bad thread."
+
+"Difference?"
+
+She looked at me.
+
+I ate bread.
+
+"Never mind."
+
+The narrow brown cloth remained near the wall.
+
+Three pins.
+
+Same fold.
+
+My damaged shirt remained on the shelf with three loose threads, apparently offended that professional thread elsewhere in the city could fail while it continued failing for free.
+
+The beans were still not in evidence.
+
+The little paper-wrapped object from two nights ago remained gone.
+
+Nothing confessed.
+
+Lyssa wrapped the spool in a scrap of paper and tied it once.
+
+"Tell her it frays."
+
+"Anything else?"
+
+"No."
+
+"Color?"
+
+"No."
+
+"Weight?"
+
+"No."
+
+"Customer?"
+
+"No."
+
+"Should I bring a witness?"
+
+She stared at me.
+
+"Tell her it frays."
+
+"Excellent. I have the entire brief."
+
+Lyssa returned the needle to her mouth and bent over the sleeve.
+
+I finished breakfast.
+
+There was no note from Hessa.
+
+No boy from Rinna.
+
+No reason to go to Vale the morning after I had already spent a full day sealing packets there.
+
+The debt remained.
+
+So did the theatre.
+
+Neither one needed me today just because it existed.
+
+I put the wrapped spool into my coat.
+
+"North?" I asked.
+
+Lyssa nodded without looking up.
+
+"Home tonight?"
+
+Another nod.
+
+"Food?"
+
+She pointed at the pot.
+
+There were beans in it.
+
+Whether they were the north-going beans or older stock was not information I possessed.
+
+I decided not to ask.
+
+Growth had become exhausting.
+
+Outside, Carrow was wet without raining.
+
+The street stones still held last night's water in the seams. Roof edges dripped occasionally, either from weather or malicious architecture. A woman on the lower landing had placed a bucket under one drip and was losing badly.
+
+My body felt ordinary after yesterday's seated office work.
+
+Right leg a little stiff when I first started down the stairs.
+
+Shoulders normal.
+
+Right hand normal except for a faint dry spot near one fingernail where wax had survived washing.
+
+Residual limb comfortable.
+
+Left crutch tip boring.
+
+Good.
+
+Maren's spool sign was farther than I remembered and closer than I complained about.
+
+The shop stood on a street that always seemed narrower when two carts decided they deserved it at the same time. Today one cart had sacks piled almost as high as the driver's head. The other had nothing but three wooden boxes and a man who believed volume could alter geometry.
+
+It could not.
+
+I waited under an awning until both carts completed their argument.
+
+Then I crossed.
+
+The spool sign still hung above the door.
+
+Inside, the woman who had matched Lyssa's thread the last time was behind the counter with four open boxes and an expression that suggested all four had personally disappointed her.
+
+She looked at me.
+
+Then at the crutches.
+
+Then at my coat.
+
+"Matching?"
+
+I smiled.
+
+"I have developed other errands."
+
+She waited.
+
+I took out the paper-wrapped spool and set it on the counter.
+
+"Return."
+
+That got more attention than I expected.
+
+She untied the paper, lifted the spool, and rolled the loose end between two fingers.
+
+"It frays," I said.
+
+She pulled three inches free.
+
+The thread opened along one twist.
+
+Her face did not change much.
+
+Enough.
+
+"Yes."
+
+"I was hoping for a longer investigation."
+
+She ignored me.
+
+One of the open boxes already held six spools with bits of paper tied around them.
+
+Same dark wrapping.
+
+Not all the same color.
+
+She put Lyssa's spool with those.
+
+"Bad lot?" I asked.
+
+"Some."
+
+"All from the same delivery?"
+
+She looked at me.
+
+"Do you sew?"
+
+"No."
+
+"Then no."
+
+Fair.
+
+She reached under the counter and brought out another spool close in color to the first.
+
+Not identical.
+
+I could see that much now.
+
+Probably because I had spent too much of my second life looking at cloth while trying not to become responsible for it.
+
+She unwound a little thread, pulled it hard between both hands, rubbed it across the edge of one fingernail, then pulled again.
+
+Nothing opened.
+
+She wrapped it.
+
+"Lyssa."
+
+"That is where I am taking it."
+
+"No charge."
+
+I paused.
+
+"She paid for the first one."
+
+"Yes."
+
+"So this is replacement."
+
+The woman looked at me as though I had just discovered commerce.
+
+"Yes."
+
+"Good."
+
+I picked up the new spool.
+
+She put one finger on the paper.
+
+"Wait."
+
+I let go.
+
+Apparently the errand had developed a second act.
+
+A delivery man appeared in the doorway carrying a narrow wooden case against his chest.
+
+He was not one of the theatre people.
+
+Not one of Vale's runners.
+
+Not anyone I knew.
+
+Excellent.
+
+"Maren?" he asked.
+
+The woman behind the counter pointed to the floor beside the far shelf.
+
+He carried the case there.
+
+Then another man appeared behind him with a second case.
+
+Then a boy with a bundle of wrapped rods.
+
+The shop became smaller very quickly.
+
+The woman moved around the counter.
+
+"You."
+
+I looked behind me.
+
+Still nobody.
+
+"Me."
+
+"Sit."
+
+There was a low stool against the wall near the front window.
+
+"I have excellent references for sitting."
+
+She pointed.
+
+I sat.
+
+She lifted the tray of returned spools from the counter and set it on a shelf behind my shoulder.
+
+"Don't let anyone take those."
+
+I looked at the tray.
+
+Then at her.
+
+"Security."
+
+"No."
+
+"Minder."
+
+"Sit."
+
+She went to the back with the first delivery man.
+
+I considered the promotion.
+
+I had become furniture with authority over defective thread.
+
+Carrow continued.
+
+The second delivery man waited by the cases.
+
+The boy with the rods leaned one shoulder against the doorframe and started picking something from beneath one fingernail.
+
+Nobody spoke.
+
+Then a customer came in.
+
+Of course.
+
+An older woman carrying a folded strip of yellow cloth stepped around the delivery men and stopped at the counter.
+
+No seller.
+
+She looked at me.
+
+I looked at her.
+
+She looked at the crutches.
+
+Then at the counter again.
+
+"No."
+
+She blinked.
+
+"I did not ask."
+
+"You were going to."
+
+That sounded familiar enough to be dangerous.
+
+She held up the yellow cloth.
+
+"Thread."
+
+I pointed toward the back.
+
+"Person who knows thread is there."
+
+"You don't?"
+
+"I know this tray is bad."
+
+I pointed behind me.
+
+She looked at the tray.
+
+"All of it?"
+
+"Some."
+
+"Which?"
+
+"I have been specifically discouraged from developing opinions."
+
+The second delivery man laughed once.
+
+The woman did not.
+
+She waited.
+
+Good system.
+
+A moment later the seller returned, carrying one of the wooden cases now open.
+
+She looked at the older woman.
+
+"Yellow?"
+
+The woman held up the cloth.
+
+The seller found thread in less time than it had taken me to explain that I did not know thread.
+
+No measuring ceremony.
+
+No lecture.
+
+She held two spools against the cloth.
+
+The older woman chose the duller one.
+
+Paid.
+
+Left.
+
+I watched her go.
+
+"That one did not look as close," I said.
+
+The seller looked at me.
+
+I remembered the rule.
+
+"I don't sew."
+
+"Good."
+
+She went back to the case.
+
+Another customer entered.
+
+A boy younger than the delivery boy, carrying one boot.
+
+Just one.
+
+He put it on the counter.
+
+The seller was still in the back.
+
+The boy looked at me.
+
+I looked at the boot.
+
+"No."
+
+He frowned.
+
+"I need cord."
+
+"Possible."
+
+"Where?"
+
+"Unknown."
+
+He looked around the shop.
+
+There were at least twelve places cord could reasonably have existed.
+
+He chose one.
+
+I said, "I would not."
+
+"Why?"
+
+"Because I am guarding defective thread and have been given no authority over cord."
+
+The second delivery man laughed again.
+
+The boy stared at me.
+
+"You work here?"
+
+"No."
+
+"Then why are you behind the counter?"
+
+"I am not."
+
+I was, technically, beside it.
+
+This mattered to me.
+
+The seller returned.
+
+"Cord?" she asked.
+
+The boy nodded.
+
+"Boot?"
+
+He put it up.
+
+She found a short waxed cord from a drawer I had not noticed.
+
+The boy paid two small coins.
+
+Not enough information to invent a price structure.
+
+Good.
+
+He left.
+
+The seller looked at the second delivery man.
+
+"Open."
+
+He opened the other case.
+
+Spools.
+
+Many.
+
+She checked the first layer, then lifted a thin board and checked the second.
+
+One spool had crushed along one side.
+
+She put it on the counter.
+
+The delivery man said something I did not catch.
+
+She pointed at the crushed spool.
+
+He shrugged.
+
+She did not.
+
+Their argument remained quiet enough that I had to actively decide not to listen.
+
+I was getting excellent at not becoming part of other people's work.
+
+The boy with the rods finally came forward.
+
+The bundle was not rods.
+
+It was narrow paper-wrapped lengths of something flexible.
+
+The seller cut the wrapping at one end, checked two, and rejected one without explanation.
+
+The boy said, "All came together."
+
+"That one bent."
+
+"They bend."
+
+"Not there."
+
+He looked.
+
+I looked too.
+
+I could not see the difference.
+
+Excellent.
+
+Somebody else had a domain.
+
+The boy took the rejected piece back.
+
+The seller wrote something on a scrap and handed it to him.
+
+He left.
+
+The two delivery men moved the cases farther into the shop.
+
+For several minutes nobody entered.
+
+I sat beside the bad-thread tray.
+
+The seller worked.
+
+She did not need me.
+
+Half the room made no sense to me.
+
+That was becoming normal.
+
+Then a woman rushed in carrying a child under one arm and a ripped cloth bag under the other.
+
+The child was old enough to object to being carried and young enough to lose.
+
+He did both.
+
+The woman put the bag on the counter.
+
+"Can you hold this until after midday?"
+
+The seller looked at the rip.
+
+"Bag or boy?"
+
+The woman laughed hard enough to surprise herself.
+
+"Bag."
+
+"Yes."
+
+She put the bag under the counter.
+
+No name written.
+
+No ticket.
+
+No system that I could see.
+
+The woman left with the child still under one arm.
+
+I waited until the door closed.
+
+"How do you know whose bag?"
+
+The seller looked at me.
+
+"Her bag."
+
+"Excellent recordkeeping."
+
+"She comes back."
+
+"What if she doesn't?"
+
+"Then I have a bad bag."
+
+I liked her.
+
+This felt dangerous.
+
+Another ten minutes passed before the deliveries were finally accepted, rejected, moved, counted, or insulted enough to satisfy everyone.
+
+The two men left.
+
+The shop expanded around their absence.
+
+The seller came back to the front.
+
+She looked at me.
+
+Then at the tray behind my shoulder.
+
+"Anyone take them?"
+
+"No."
+
+"Anyone try?"
+
+"No."
+
+"Then good."
+
+I stood.
+
+"Minder."
+
+"No."
+
+"I sat near a tray for almost half an hour."
+
+"Yes."
+
+"I prevented every theft."
+
+"There were no thefts."
+
+"Perfect record."
+
+She slid Lyssa's replacement spool toward me.
+
+Then another small twist of thread, loose and tied around a bit of paper.
+
+"Take that too."
+
+I stopped.
+
+"What is it?"
+
+"Same weight. Different twist."
+
+"Did Lyssa ask?"
+
+"No."
+
+Danger.
+
+"Why am I taking it?"
+
+"Because she may want it."
+
+"May."
+
+The seller had already gone back to closing one of the boxes.
+
+I looked at the loose sample.
+
+This was how trouble entered apartments.
+
+"Paid?"
+
+"Sample."
+
+"Free?"
+
+She looked at me.
+
+"Sample."
+
+Carrow continued refusing to define things in the terms I wanted.
+
+I put both into my coat.
+
+At the door I stopped.
+
+"Does Maren usually make customers guard bad thread?"
+
+The woman looked up.
+
+"You were sitting."
+
+"That is not an answer."
+
+"Leave."
+
+I left.
+
+The street had cleared enough to walk without negotiating with carts.
+
+I was halfway home before I realized I was smiling.
+
+Probably because I had survived retail.
+
+At the small market near our building, I bought two onions.
+
+The onion seller looked at me.
+
+Then at the onions in my hand.
+
+"Two?"
+
+"Two."
+
+"No standing here deciding?"
+
+"I have changed."
+
+She snorted.
+
+"Pay."
+
+I paid.
+
+That was enough social development for vegetables.
+
+The stairs were still damp.
+
+I took them slowly.
+
+The right leg had warmed out of its morning stiffness. Shoulders carried the ordinary dull work of crutches and distance. Right hand fine. Residual limb comfortable.
+
+The replacement spool weighed almost nothing.
+
+The onions weighed more.
+
+This seemed unjust considering which one had required more conversation.
+
+At home, Lyssa was still gone.
+
+I put the replacement spool exactly where her original had been that morning.
+
+The sample went beside it.
+
+Then I moved the sample farther away.
+
+Then I moved it back.
+
+I had no idea whether proximity implied instruction in sewing.
+
+I settled on leaving both pieces of paper visible and not touching anything else.
+
+The brown cloth remained near the wall.
+
+Three pins.
+
+Same fold.
+
+The damaged shirt remained on the shelf.
+
+Three loose threads.
+
+I could have fixed one of those things.
+
+Possibly.
+
+I did not.
+
+Instead I cut one onion and put it into the pot with the beans.
+
+The beans already in the pot.
+
+I refused to classify their history.
+
+The afternoon passed without anyone summoning me.
+
+No theatre boy.
+
+No Vale runner.
+
+No Hessa note.
+
+No brown coat.
+
+No useful mystery.
+
+I washed the breakfast bowl.
+
+I sharpened the small kitchen knife badly, then corrected the angle enough that it stopped scraping more metal than edge.
+
+I sat by the window for a while.
+
+Below, two men carried a table through the street upright until the legs caught on an awning rope. They put it down, argued, turned it sideways, and continued.
+
+Nobody learned a larger lesson.
+
+Good.
+
+Lyssa came home before dark.
+
+She had a cloth bundle under one arm.
+
+I noticed.
+
+Then did not ask.
+
+She saw the spool.
+
+Stopped.
+
+Picked it up.
+
+Pulled a length.
+
+Tested it between her fingers.
+
+"Better."
+
+I took the victory.
+
+"Maren replaced it."
+
+Lyssa nodded.
+
+"She saw the bad lot before I finished saying it frayed."
+
+"Good."
+
+"Apparently I am not the first victim."
+
+"No."
+
+She saw the sample.
+
+"What's this?"
+
+"Same weight. Different twist."
+
+Her fingers stopped.
+
+"She sent it."
+
+"Why?"
+
+"She said you may want it."
+
+Lyssa picked up the sample and rubbed it between finger and thumb.
+
+Then pulled it once.
+
+"Maybe."
+
+I hated the word immediately.
+
+"For what?"
+
+She looked at me.
+
+I raised both hands as far as crutches allowed while seated.
+
+"Not asking."
+
+"Good."
+
+She put the sample with her things.
+
+The brown cloth remained untouched.
+
+The bundle she had carried in stayed tied.
+
+Nothing merged.
+
+I pointed at the replacement spool.
+
+"I guarded the bad thread."
+
+Lyssa looked at me.
+
+"From what?"
+
+"The public."
+
+"Why?"
+
+"The woman at Maren made me."
+
+Another pause.
+
+Then:
+
+"She made you sit."
+
+"Near the bad thread."
+
+"Yes."
+
+"With instructions."
+
+"Sit."
+
+Lyssa nodded.
+
+"Strong management."
+
+"You are both terrible."
+
+She untied her bundle.
+
+I looked away before cloth could become my problem.
+
+"Did you eat?"
+
+"Not yet."
+
+"Beans."
+
+She looked into the pot.
+
+"Onion?"
+
+"Two."
+
+"Two?"
+
+"Bought two. Used one."
+
+She looked at me with exaggerated seriousness.
+
+"Fast."
+
+"The seller noticed."
+
+"Of course she did."
+
+"I am developing a reputation."
+
+"For buying onions?"
+
+"For decisiveness."
+
+Lyssa served herself.
+
+I sat across from her.
+
+The replacement spool had already disappeared into her work things.
+
+The sample remained on the table.
+
+Small.
+
+Unresolved.
+
+Useful, maybe.
+
+That was allowed.
+
+After several bites Lyssa said, "She likes you."
+
+I stopped.
+
+"Evidence?"
+
+"She sent a sample."
+
+"Commercial behavior."
+
+"She made you sit."
+
+"That is not affection."
+
+"Maybe."
+
+I pointed at her with the spoon.
+
+"Do not use that word against me."
+
+She ate.
+
+I waited.
+
+She did not improve the claim.
+
+Good.
+
+Outside, someone dragged something heavy across the landing.
+
+Inside, the lamp burned.
+
+The sample thread sat beside Lyssa's hand.
+
+I had spent half an hour protecting bad thread from people who did not want it.
+
+I still counted it.

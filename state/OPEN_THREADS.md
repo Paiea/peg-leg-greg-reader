@@ -1,6 +1,6 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Current endpoint:** Chapter 238 — **THE SEALER**.
+- **Current endpoint:** Chapter 239 — **THE MINDER**.
 - **Permanent forward manuscript:** `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`. Chapters 156–219 still need exact-text synchronization into the permanent manuscript; Chapter 220+ writes directly here. Light Reader synchronization is a separate downstream concern.
 - **Engine method:** `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves durable 01 behavior and recovery instructions.
 - **Magic counts:** ACTIVE at 34 supervised minimal draws / 30 deliberate shaping attempts / 49 external-effect attempts.
@@ -93,3 +93,8 @@
 - **Ch229 theatre:** only compact Jori window-trim work; no role or performance. Greg uses compressed side-door/workbench routine and ordinary load management. Nessa says the Ch228 flowers are repaired.
 - **Ch229 household:** Lyssa's prior tiredness remains ordinary, not injury. Greg's Ch228 worked palm is normal. The chapter ends with the table used only for shared supper, with no active cloth/customer on it.
 - **Long-range theatre direction:** THEATRE → PERFORMANCE → MISDIRECTION → ILLUSION → MASKS → CONTROL OF PERCEPTION → eventual dangerous bluff. Directional only; visible theatre remains FUN → PEOPLE → WORKPLACE → ACTING → STAGECRAFT → FAILURE → ANOTHER TURN.
+
+- **Ch239 Maren/Minder:** Lyssa sends Greg to Maren with one fraying dark spool. The same unnamed seller who matched thread in Ch222 recognizes the problem as part of an existing bad lot and replaces it because the original was already paid for; no general return policy, price system, seller name, or formal relationship is established.
+- **Ch239 Maren independent life:** while handling deliveries, the seller has Greg sit near a tray of defective returned spools and keep anyone from taking them. Customers/deliveries continue around him; Greg does not become a shop worker or thread expert. The seller sends a same-weight/different-twist sample because Lyssa may want it; Lyssa says `Maybe`. Exact use/customer/garment relationship remains unknown.
+- **Ch239 engine restraint:** no theatre, Vale, Hessa/magic, Bren/brown-coat fact, investigation, or security change. Magic stays **34 / 30 / 49**; debt stays active/unstated; Ch236 remains latest pressure evidence.
+- **Ch239 household/body:** brown cloth remains same fold/three pins; shirt remains three loose threads; Ch237 wrapped item remains gone; prior bean-bag history/purpose remains unestablished. Ordinary right-leg warm-up/crutch load only; no injury.

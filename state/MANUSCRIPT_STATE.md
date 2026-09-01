@@ -1,7 +1,7 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current story endpoint: Chapter 238 — **THE SEALER**.
+- Current story endpoint: Chapter 239 — **THE MINDER**.
 - Book 1 Chapters 1–82 closed. Book 2 active.
 - Repository prose was previously validated continuously through Chapter 155 — **THE LEAK**.
 - Chapters 156–219 remain newer forward manuscript material pending exact-text synchronization into the permanent running manuscript. Do not reconstruct them from summaries or let stale overlapping files overwrite newer authority.
@@ -349,26 +349,41 @@
 - Body cost remains ordinary: seated Vale stiffness, warm thumb/forefinger from string/wax, normal shoulders, normal right hand for crutch use, comfortable residual limb, normal repaired left crutch tip, no injury or new limitation.
 - Home: Lyssa is already there. Beans remain off-page/unexplained. The paper-wrapped item remains gone/unexplained. Brown cloth stays same fold/three pins; damaged shirt stays three loose threads. Greg tells Lyssa Vale credited him and theatre replaced him; she treats both as ordinary facts rather than a crisis.
 
-## Immediate next edge — Chapter 239
-Primary recommendation: **LET CH238'S VALE/THEATRE TRADEOFF BREATHE. FOLLOW THE NEXT ACTUAL CLAIM OUTSIDE THE TWO SYSTEMS GREG JUST CHOSE BETWEEN UNLESS A NEW OBLIGATION GENUINELY ARRIVES.**
+## Chapter 239 — THE MINDER
+- Chapter 239 lets Ch238's Vale/theatre tradeoff breathe. No theatre call/work/pay, Vale work/credit, Hessa appearance/magic attempt, or new Bren/brown-coat fact occurs. Magic remains **34 / 30 / 49** with all restrictions unchanged; debt remains active and unstated.
+- Lyssa gives Greg one narrow ordinary errand: return a dark spool to **Maren** because the thread frays. This spool/errand is separate from the unresolved brown cloth and no customer, garment, referral, Marra, Jessa, or prior-material identity is established.
+- The same unnamed woman at Maren who matched thread for Greg in Ch222 recognizes the errand shape with `Matching?`, immediately identifies the returned spool as part of a bad lot already accumulating at the shop, and replaces it without charge because the original was already paid for. No generalized return policy, price structure, credit arrangement, or personal seller name is established.
+- While the seller handles incoming goods, she tells Greg to sit near a tray of defective returned spools and not let anyone take them. Greg jokingly treats this as `Minder`; it is not employment, a formal role, pay, promotion, or shop authority.
+- Maren develops as an independent repeat social/commercial node: deliveries arrive, some goods are rejected for damage, multiple customers come with their own needs, and the seller continues ordinary work without Greg understanding or managing it. Greg is useful mainly by not pretending to know thread/cord and by doing the one narrow thing asked.
+- The seller sends Greg home with the legitimate replacement spool plus a small free sample described only as the same weight with a different twist because Lyssa **may** want it. Lyssa later says `Maybe.` The sample's exact use/customer/garment relationship remains unestablished; do not turn it into a mystery or merge it with the brown cloth.
+- The onion seller from Ch228 briefly recognizes Greg's old habit of standing too long over quantity; he buys two onions without repeating the old delay. Keep this as a tiny changed social callback, not a reputation arc.
+- Home continuity remains bounded: the narrow brown cloth is still same fold/three pins; Greg's damaged shirt remains three loose threads; the Ch237 paper-wrapped item remains gone; the history/purpose of the previously traveling bean bag remains unestablished. Greg cooks/eats beans already present in the household without identifying them as that specific bag.
+- Body remains ordinary: brief morning right-leg stiffness warms out; shoulders/right hand carry normal crutch-and-distance use; residual limb comfortable; repaired left crutch tip normal; no injury or new limitation.
+
+## Immediate next edge — Chapter 240
+Primary recommendation: **LET CH239'S SMALL MAREN/ERRAND SOCIAL CHAPTER STAND ON ITS OWN. FOLLOW THE NEXT ACTUAL CLAIM RATHER THAN SERVICING THE SAMPLE, THEATRE, OR VALE BY INERTIA.**
 
 Reasons:
-- Ch236 moved theatre work plus one grounded pressure fact; Ch237 gave a full theatre rehearsal/performance; Ch238 then moved Vale/debt and resolved the conditional **Missing Key** return by showing the theatre can replace Greg when he chooses other work.
-- **The Missing Key** is done for now. Teren says tomorrow is a different pairing. Greg has no standing theatre obligation entering Ch239.
-- Vale just received a full workday and legitimate debt credit. Greg still has no guaranteed post, schedule, promotion, or fixed rate. Do not immediately return to another office task merely because the debt remains active.
-- Magic has now breathed through Chapters 235–238 after Ch234. Hessa still has no selected next experiment on-page. A return is increasingly available only if she has actually selected one genuinely bounded question.
-- External pressure last moved in Ch236 with the lamp-glass delivery/access question. Chapters 237–238 add no new clue or defensive escalation. One grounded fact may arrive naturally later, but there is no quota.
-- Lyssa's beans remain unexplained/off-page; the small paper-wrapped item from Ch237 is now gone without explanation; the brown cloth and three-thread shirt remain deliberately unresolved. None should be turned into a manufactured mystery or bookkeeping reveal.
-- Ch238 establishes a useful material truth without announcing it: Greg can choose one obligation and lose another opportunity, while both systems continue without punishing or centering him.
+- Ch237 was a full theatre rehearsal/performance day.
+- Ch238 gave Vale a full sealing-work day and made Greg miss a real theatre opportunity that Venn covered.
+- Ch239 deliberately moved away from both systems into one narrow Lyssa-adjacent Carrow errand and deepened Maren through ordinary independent shop life.
+- Magic has now breathed through Chapters 235–239 after the full Ch234 session. Hessa still has no selected next experiment on-page; a return is increasingly available only if she has actually chosen one genuinely bounded question.
+- External pressure last moved in Ch236 with the lamp-glass delivery/access question. Ch237–239 add no clue, warning, security response, investigation, or escalation. There is still no clue quota.
+- Vale debt remains active and legitimately smaller after Ch238, but Greg has no guaranteed work schedule and Ch239 intentionally gives Vale no movement.
+- Theatre has no standing obligation after The Missing Key ended for now. Do not create a call merely to keep Greg attached to the hall.
+- The Maren sample is ordinary useful residue, not a setup that must be explained next chapter.
+- Brown cloth, three-thread shirt, bean-bag purpose/history, and vanished paper-wrapped item remain unresolved within their existing ceilings.
 
-Strong Chapter 239 possibilities:
-- an existing non-theatre social/friend route or ordinary Carrow person/material problem;
-- Lyssa/household/work only if a real obligation naturally surfaces, preserving her independent camera and work boundaries;
-- Hessa only if she has finally selected one bounded next question under the established apparatus/restrictions;
+Strong Chapter 240 possibilities:
+- Hessa only if she has selected one genuinely bounded next question under the established apparatus/restrictions;
+- an existing friend/social route or ordinary Carrow problem with independent momentum;
 - one grounded pressure fact through an established contact only if it naturally arrives;
-- theatre or Vale only if a genuinely new call/task appears rather than inertia.
+- Lyssa/household/work only if a new actual obligation surfaces, without servicing the Maren sample or brown cloth by quota;
+- theatre or Vale only if a genuinely new call/task exists.
 
-Preserve magic counts **34 / 30 / 49** and all restrictions. Preserve active unstated Vale debt and the new Ch238 credit without inventing a balance. Preserve Ch236's delivery/access wording and evidence ceiling. Preserve that **The Missing Key** ran without Greg, Venn covered Messenger, and the piece is done for now. Preserve brown-cloth identity limits, three-thread shirt continuity, bean-purpose limits, the now-absent wrapped-item identity ceiling, Lyssa customer/garment boundaries, and **Marra ≠ Maren**.
+Ask: **WHAT ACTUALLY HAS A REASON TO HAPPEN TODAY?**
+
+Favor **LIFE PER WORD**. Preserve magic **34 / 30 / 49** unless a real supervised session occurs. Preserve active unstated Vale debt, the Ch236 threat evidence ceiling, ordinary back-latch interpretation, Greg's body continuity, brown-cloth identity ceiling, three-thread shirt, bean-purpose/history ceiling, vanished wrapped-item ceiling, Maren seller anonymity/formal-role limits, Lyssa customer/garment boundaries, and **Marra ≠ Maren**.
 
 ## Chat / handoff behavior
 After each completed chapter:

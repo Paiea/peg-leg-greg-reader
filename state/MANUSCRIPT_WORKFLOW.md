@@ -119,6 +119,6 @@ GitHub provides durable continuity. The re-prompt gives the next writing session
 
 ## Current edge
 
-Chapter 238 — **THE SEALER**.
+Chapter 239 — **THE MINDER**.
 
-See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 239 edge.
+See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 240 edge.
