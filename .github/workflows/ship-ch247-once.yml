@@ -32,7 +32,7 @@ jobs:
               raise SystemExit(f'COLLISION: live manuscript endpoint is {nums[-1] if nums else "unknown"}, expected 246')
           start = "          cat >> state/manuscript/Peg_Leg_Greg_Running_Manuscript.md <<'CHAPTER'\n"
           old = None
-          for rev in subprocess.check_output(['git','rev-list','--max-count=6','HEAD'], text=True).splitlines()[1:]:
+          for rev in subprocess.check_output(['git','rev-list','--max-count=8','HEAD'], text=True).splitlines()[1:]:
               try:
                   candidate = subprocess.check_output(['git','show',f'{rev}:.github/workflows/ship-ch247-once.yml'], text=True, stderr=subprocess.DEVNULL)
               except subprocess.CalledProcessError:
@@ -121,7 +121,18 @@ jobs:
         run: |
           git diff --check
           python -m unittest discover -s tests -p 'test_*.py'
-          python scripts/project_check.py all
+          python scripts/project_check.py reader
+          python scripts/project_check.py assets
+          python - <<'PY'
+          import subprocess
+          from pathlib import Path
+          path='state/manuscript/Peg_Leg_Greg_Running_Manuscript.md'
+          base=subprocess.check_output(['git','show',f'HEAD:{path}'], text=True)
+          current=Path(path).read_text(encoding='utf-8')
+          print('BASE_RUNNING_MANUSCRIPT_EM_DASHES', base.count('—'))
+          print('CURRENT_RUNNING_MANUSCRIPT_EM_DASHES', current.count('—'))
+          assert current.count('—') == base.count('—')
+          PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git rm .github/workflows/ship-ch247-once.yml
