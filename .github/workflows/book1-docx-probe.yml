@@ -18,3 +18,4 @@ jobs:
       - run: pip install python-docx
       - name: Run Book 1 promotion tests
         run: python -m unittest tests.test_promote_book1_polish -v
+      # TDD green run after implementation.
