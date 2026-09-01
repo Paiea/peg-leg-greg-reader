@@ -17,3 +17,4 @@ jobs:
           python-version: '3.12'
       - run: pip install python-docx
       - run: python -m unittest tests.test_promote_book1_polish.PromoteBook1PolishTests.test_already_synchronized_chapter_does_not_touch_docx -v
+      # Green run after idempotence fix.
