@@ -1,0 +1,77 @@
+/* BOOK / ACT CONTENTS — intentionally small, print-like, and component-scoped. */
+.reader-book {
+  margin: 0 0 clamp(3.5rem, 8vw, 5.5rem);
+}
+
+.reader-book + .reader-book {
+  padding-top: clamp(1.75rem, 4vw, 3rem);
+  border-top: 1px solid var(--line);
+}
+
+.reader-book-layout--illustrated {
+  display: grid;
+  grid-template-columns: minmax(240px, 320px) minmax(0, 1fr);
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: start;
+}
+
+.reader-book-plate {
+  width: 100%;
+  max-width: 340px;
+  margin: 0;
+}
+
+.reader-book-plate img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border: 1px solid color-mix(in srgb, var(--line) 86%, transparent);
+  border-radius: 6px;
+  box-shadow: 0 8px 22px rgba(28, 22, 16, .09);
+}
+
+.reader-book-heading {
+  margin: 0 0 1.15rem;
+}
+
+.reader-book-title {
+  margin: 0;
+  color: var(--muted);
+  font: 750 .72rem/1.35 ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: .19em;
+  text-transform: uppercase;
+}
+
+.reader-book-range {
+  margin: .3rem 0 0;
+  color: var(--muted);
+  font-size: .88rem;
+  line-height: 1.4;
+}
+
+.reader-book-acts .reader-act:first-child {
+  border-top-color: color-mix(in srgb, var(--line) 70%, transparent);
+}
+
+.light-ranges .reader-book {
+  margin-bottom: clamp(2.75rem, 7vw, 4.5rem);
+}
+
+@media (max-width: 700px) {
+  .reader-book-layout--illustrated {
+    display: block;
+  }
+
+  .reader-book-plate {
+    width: min(82%, 320px);
+    max-width: 320px;
+    margin: 0 0 1.75rem;
+  }
+
+  .reader-book-heading {
+    margin-bottom: .95rem;
+  }
+}
