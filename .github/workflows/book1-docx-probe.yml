@@ -10,29 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: editor/general-polish-ch001-005-20260831
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install python-docx beautifulsoup4
-      - name: Inspect canonical Book 1 structure
-        run: |
-          python - <<'PY'
-          import re
-          from docx import Document
-          p='state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx'
-          doc=Document(p)
-          print('PARAGRAPHS', len(doc.paragraphs))
-          for i, para in enumerate(doc.paragraphs[:120]):
-              t=para.text.strip().replace('\n',' / ')
-              if t:
-                  print(i, repr(para.style.name), repr(t[:220]), 'runs=',len(para.runs))
-          print('--- MATCHES chapter/boy/borrower/investor ---')
-          terms=('chapter','the boy','the borrower','the investor','the expert','the warrior')
-          found=0
-          for i, para in enumerate(doc.paragraphs):
-              t=para.text.strip()
-              if any(term in t.lower() for term in terms):
-                  print(i, repr(para.style.name), repr(t[:260]), 'runs=',len(para.runs))
-                  found+=1
-                  if found>=80: break
-          PY
+      - run: pip install python-docx
+      - name: Run Book 1 promotion tests
+        run: python -m unittest tests.test_promote_book1_polish -v
