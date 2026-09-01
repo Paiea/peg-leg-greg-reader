@@ -75,7 +75,7 @@ jobs:
           print('VERIFIED_ENDPOINTS=1')
           PY
 
-      - name: Stage and inspect exact diff
+      - name: Stage and inspect cleanup commit
         shell: bash
         run: |
           set -euo pipefail
@@ -85,6 +85,8 @@ jobs:
           git diff --cached --name-only | sort
           actual="$(git diff --cached --name-only | sort)"
           expected="$(printf '%s\n' \
+            .github/scripts/ship_ch239_minder.py \
+            .github/workflows/ship-ch239-minder.yml \
             state/MANUSCRIPT_CHAPTER_INDEX.md \
             state/MANUSCRIPT_STATE.md \
             state/MANUSCRIPT_WORKFLOW.md \
@@ -92,13 +94,25 @@ jobs:
             state/PROJECT_STATE.md \
             state/manuscript/Peg_Leg_Greg_Running_Manuscript.md | sort)"
           test "$actual" = "$expected"
-          echo VERIFIED_DIFF_PATHS=6
+          echo VERIFIED_STAGED_PATHS=8
 
-      - name: Commit and push Chapter 239
+      - name: Commit, verify net diff, and push Chapter 239
         shell: bash
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Ship Chapter 239: THE MINDER"
+          printf '%s\n' '--- net paths from original main base ---'
+          git diff --name-only 128208fb38a125f96cf90c2b18030f992ef01894..HEAD | sort
+          actual="$(git diff --name-only 128208fb38a125f96cf90c2b18030f992ef01894..HEAD | sort)"
+          expected="$(printf '%s\n' \
+            state/MANUSCRIPT_CHAPTER_INDEX.md \
+            state/MANUSCRIPT_STATE.md \
+            state/MANUSCRIPT_WORKFLOW.md \
+            state/OPEN_THREADS.md \
+            state/PROJECT_STATE.md \
+            state/manuscript/Peg_Leg_Greg_Running_Manuscript.md | sort)"
+          test "$actual" = "$expected"
+          echo VERIFIED_NET_DIFF_PATHS=6
           git push origin HEAD:manuscript/ch239-minder
