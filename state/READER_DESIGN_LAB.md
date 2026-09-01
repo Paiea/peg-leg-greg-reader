@@ -25,10 +25,9 @@ Current source behavior:
 - as the permanent running manuscript advances, Current Light generation follows exact prose authority
 
 Current Light UX rule:
-- show the CURRENT manuscript group first so the live endpoint cannot be mistaken for the illustrated edge
-- show Chapters 156–219 immediately below Current
-- place the shared story Acts for Chapters 1–155 below those current/recovered groups
 - keep a direct newest/current reading shortcut near the top
+- use the same Book -> Act -> Chapter hierarchy as Illustrated
+- Light remains intentionally image-free at Book and chapter level
 - preserve compatibility routing for ranges that have not yet been statically backfilled
 
 Prefer:
@@ -39,24 +38,65 @@ Avoid:
 
 FLASHY -> APP-LIKE -> ANIMATION-HEAVY -> DASHBOARD CHROME
 
-## Shared story Acts
+## Shared Book / Act hierarchy
 
-The Illustrated and Light contents surfaces share one content-based Act map for Chapters 1–155. These are story transitions, not equal numeric buckets:
+The Illustrated and Light contents surfaces share one content-based Book/Act map. These are story transitions, not equal numeric buckets.
+
+### BOOK I — Chapters 1–82
 
 1. **ACT I — THE SECOND LIFE** — Chapters 1–20
 2. **ACT II — MAKING A PLACE** — Chapters 21–63
 3. **ACT III — THE NEW BASELINE** — Chapters 64–82
-4. **ACT IV — A LIFE IN CARROW** — Chapters 83–137
-5. **ACT V — THE COMPANY ROAD** — Chapters 138–155
 
-The Act definition belongs in shared reader tooling so Illustrated and Light cannot silently drift into different boundaries or labels.
+### BOOK II — Chapters 83–180
+
+1. **ACT I — A LIFE IN CARROW** — Chapters 83–99
+2. **ACT II — THE STAGE DOOR** — Chapters 100–137
+3. **ACT III — THE COMPANY ROAD** — Chapters 138–180
+
+### BOOK III — Chapters 181–current
+
+1. **ACT I — THE WORKING COMPANY** — Chapters 181–219
+2. **ACT II — THE PRICE OF ATTENTION** — Chapters 220–current
+
+Chapter 181 is the Book III boundary. Chapter 220 remains an internal Act boundary, not a Book boundary; its repository manuscript-file transition is a production detail and must not define story architecture.
+
+The definition belongs in shared reader tooling so Illustrated and Light cannot silently drift into different boundaries or labels. `current` must resolve from actual chapter authority rather than a manually baked endpoint.
 
 Presentation rule:
-- use quiet expandable book-like sections, not dashboard cards
-- Illustrated may open Act I initially while later Acts remain collapsed
-- Light keeps Current and recovered prose above the Acts
+- hierarchy is **BOOK -> ACT -> CHAPTERS**
+- Book label stays small and quiet
+- Act title is the prominent navigational unit
+- chapter range stays quiet
+- Acts remain expandable
+- Illustrated may open the first Act initially while later Acts remain collapsed
 - desktop chapter lists may use two columns; mobile should collapse to one
 - do not invent later Acts merely to organize chapter counts; future Act boundaries must be justified by story movement
+
+## Book plates
+
+Illustrated gets one small high-resolution portrait plate per Book. Light gets none.
+
+The plate is an **illustrated bookplate / miniature frontispiece**, not a hero banner, fake cover, dashboard card, or cinematic site header.
+
+Source/display rule:
+- preferred source shape: 3:4 or 4:5 portrait
+- current implementation target: **1536 × 2048** source, displayed far smaller
+- desktop visible width should normally land around 260–340px and never exceed a restrained cap
+- mobile should stack naturally at roughly 70–85% of available content width with a sensible maximum
+- explicit image dimensions/aspect ratio prevent layout jump
+- Book II and later Books may lazy-load below the fold
+- never generate title text into the image; HTML owns all Book/Act labels
+- never force weak/small sources to enlarge merely because a viewport is wide
+
+Visual job:
+- **Book I = finding a life**: arrival, survival, work, roads, bodily change, uncertainty, and a new baseline. Greg should be relatively small inside Carrow rather than posed heroically. Do not reduce the image to a crutch or disability portrait.
+- **Book II = expanding a life**: Carrow becomes socially legible; theatre opens, company travel begins, performance and practical work accumulate, and Greg's world becomes wider. Use road, theatre, company, carts, props, travel, and people rather than a generic portrait.
+- **Book III = living with what accumulated**: company work is now routine, Lyssa has an independent work ecology, Vale debt persists, suppliers and customers recur, magic has an evidence history, and outside attention begins pulling on the life Greg built. The image should feel dense, inhabited, interconnected, and pressured without turning into action key art.
+
+Use the project visual language: **SKETCH + INK + PAINT**, environmental storytelling, believable work, slightly handmade texture, restrained detail. No baked-in typography.
+
+Act-level art remains deliberately deferred. Tiny 32–56px vignettes may be explored later, but typography alone is currently preferred over flooding the contents page with separate Act illustrations.
 
 ## Mixed-fidelity image rhythm
 
@@ -85,7 +125,8 @@ The goal is intentional page rhythm, not pixelated wall-sized images.
 - make Illustrated / Light reading modes legible without turning the homepage into an app dashboard
 - preserve clear book-first identity
 - easy start / continue reading
-- use the shared story Acts for cleaner chapter scanning
+- use the shared Book/Act hierarchy for cleaner chapter scanning
+- Illustrated contents should continue through the actual current manuscript endpoint; chapters beyond the current illustrated-page edge may route to Light rather than disappearing
 - gallery remains available but secondary to reading
 - avoid making the index feel like an admin interface
 
@@ -111,7 +152,7 @@ Before adding another major visual layer:
 
 Do not merely append another giant override block.
 
-Shared Act styling and desktop image caps should remain a deterministic managed presentation block rather than becoming another uncontrolled chain of overrides.
+Shared Act styling and desktop image caps should remain deterministic managed presentation. Small self-contained components may use a focused stylesheet when that is safer than replacing the entire historical reader stylesheet for a narrow feature.
 
 ## Graphics / illustration integration
 
@@ -130,6 +171,7 @@ Shared Act styling and desktop image caps should remain a deterministic managed 
 - chapter-nav variations
 - improved gallery hierarchy
 - production-only coverage indicators
+- tiny Act vignettes only if they materially improve recognition without adding clutter
 
 ## Avoid
 
@@ -140,6 +182,7 @@ Shared Act styling and desktop image caps should remain a deterministic managed 
 - UI redesign that competes with manuscript
 - deleting old art before replacement coverage exists
 - presentation edits that silently alter prose
+- giant Book banners, fake 3D covers, progress meters, status badges, statistics, glowing UI, streaming-service framing, or image backgrounds behind chapter links
 
 ## Promotion rule
 

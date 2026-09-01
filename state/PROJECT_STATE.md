@@ -107,9 +107,24 @@ The manuscript-wide social-names pass preserves established nickname ownership a
 
 ## Book 2
 
-Active manuscript.
+Closed at Chapter 180 — **THE THIRD MAN**.
+
+Book 2 spans Chapters 83–180 and contains:
+- **ACT I — A LIFE IN CARROW** — Chapters 83–99
+- **ACT II — THE STAGE DOOR** — Chapters 100–137
+- **ACT III — THE COMPANY ROAD** — Chapters 138–180
 
 Locked earlier source remains `state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx`.
+
+## Book 3
+
+Active from Chapter 181 — **THE CALLER**.
+
+Current Book 3 structure:
+- **ACT I — THE WORKING COMPANY** — Chapters 181–219
+- **ACT II — THE PRICE OF ATTENTION** — Chapters 220–current
+
+Chapter 220 is an Act boundary inside Book 3. The repository manuscript-file transition at Chapter 220 is a production detail, not a Book boundary.
 
 Permanent forward path:
 

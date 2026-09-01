@@ -9,22 +9,23 @@ on:
       - 'state/manuscript/Peg_Leg_Greg_Running_Manuscript.md'
       - 'state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md'
       - 'state/LIGHT_EDITION_STATE.md'
+      - 'state/PROJECT_STATE.md'
       - 'state/READER_DESIGN_LAB.md'
       - 'chapters/*.html'
       - 'index.html'
       - 'scripts/generate_light.py'
       - 'scripts/reader_sections.py'
+      - 'scripts/update_home_contents.py'
       - 'scripts/verify_light.py'
       - 'scripts/update_reader_navigation.py'
       - 'scripts/update_reader_presentation.py'
-      - 'tests/test_generate_light.py'
-      - 'tests/test_update_reader_navigation.py'
-      - 'tests/test_light_progress_links.py'
-      - 'tests/test_reader_acts.py'
+      - 'tests/test_*.py'
       - 'assets/reader.css'
       - 'assets/light.css'
+      - 'assets/book-contents.css'
       - 'assets/light-progress.js'
       - 'assets/light-reader.js'
+      - 'visual/book_plates/**'
       - 'light.html'
       - '.github/workflows/light-edition.yml'
   workflow_dispatch:
@@ -55,7 +56,9 @@ jobs:
       - name: Generate current Light range
         run: python scripts/generate_light.py current
       - name: Update illustrated contents and cross-mode navigation
-        run: python scripts/update_reader_navigation.py index.html
+        run: |
+          python scripts/update_reader_navigation.py index.html
+          python scripts/update_home_contents.py
       - name: Verify Light publishing derivatives
         run: |
           python scripts/verify_light.py 156-219
@@ -72,13 +75,26 @@ jobs:
           grep -q 'href="220.html"' light/219.html
           grep -q 'href="219.html"' light/220.html
           grep -q 'href="light/index.html">Read Light</a>' index.html
+          grep -q 'BOOK I' index.html
+          grep -q 'BOOK II' index.html
+          grep -q 'BOOK III' index.html
           grep -q 'THE SECOND LIFE' index.html
+          grep -q 'THE STAGE DOOR' index.html
           grep -q 'THE COMPANY ROAD' index.html
-          grep -q 'THE SECOND LIFE' light/index.html
-          grep -q 'THE COMPANY ROAD' light/index.html
+          grep -q 'THE WORKING COMPANY' index.html
+          grep -q 'THE PRICE OF ATTENTION' index.html
+          grep -q 'assets/book-contents.css' index.html
+          grep -q 'BOOK I' light/index.html
+          grep -q 'BOOK II' light/index.html
+          grep -q 'BOOK III' light/index.html
+          grep -q 'THE STAGE DOOR' light/index.html
+          grep -q 'THE WORKING COMPANY' light/index.html
+          grep -q 'THE PRICE OF ATTENTION' light/index.html
+          grep -q '../assets/book-contents.css' light/index.html
           grep -q 'READER ACT CONTENTS + DESKTOP ART CAPS' assets/reader.css
           git diff --check
       - name: Commit generated reader presentation derivatives
+        if: github.ref == 'refs/heads/main'
         run: |
           if git diff --quiet -- light latest.html index.html assets/reader.css; then
             echo 'Reader presentation already current.'
