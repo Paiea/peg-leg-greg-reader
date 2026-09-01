@@ -17,6 +17,8 @@ on:
       - 'tests/test_generate_light.py'
       - 'tests/test_update_reader_navigation.py'
       - 'tests/test_light_progress_links.py'
+      - 'tests/test_reader_acts.py'
+      - 'assets/reader.css'
       - 'assets/light.css'
       - 'assets/light-progress.js'
       - 'assets/light-reader.js'
