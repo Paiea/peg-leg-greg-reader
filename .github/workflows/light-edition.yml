@@ -12,11 +12,15 @@ on:
       - 'chapters/*.html'
       - 'index.html'
       - 'scripts/generate_light.py'
+      - 'scripts/reader_sections.py'
       - 'scripts/verify_light.py'
       - 'scripts/update_reader_navigation.py'
+      - 'scripts/update_reader_presentation.py'
       - 'tests/test_generate_light.py'
       - 'tests/test_update_reader_navigation.py'
       - 'tests/test_light_progress_links.py'
+      - 'tests/test_reader_acts.py'
+      - 'assets/reader.css'
       - 'assets/light.css'
       - 'assets/light-progress.js'
       - 'assets/light-reader.js'
@@ -41,13 +45,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Prepare reader presentation CSS
+        run: python scripts/update_reader_presentation.py assets/reader.css
       - name: Test reader tooling
         run: python -m unittest discover -s tests -p 'test_*.py'
       - name: Generate recovered Light range
         run: python scripts/generate_light.py 156-219
       - name: Generate current Light range
         run: python scripts/generate_light.py current
-      - name: Surface Light on the homepage
+      - name: Update illustrated contents and cross-mode navigation
         run: python scripts/update_reader_navigation.py index.html
       - name: Verify Light publishing derivatives
         run: |
@@ -65,15 +71,20 @@ jobs:
           grep -q 'href="220.html"' light/219.html
           grep -q 'href="219.html"' light/220.html
           grep -q 'href="light/index.html">Read Light</a>' index.html
+          grep -q 'THE SECOND LIFE' index.html
+          grep -q 'THE COMPANY ROAD' index.html
+          grep -q 'THE SECOND LIFE' light/index.html
+          grep -q 'THE COMPANY ROAD' light/index.html
+          grep -q 'READER ACT CONTENTS + DESKTOP ART CAPS' assets/reader.css
           git diff --check
-      - name: Commit generated publishing derivatives
+      - name: Commit generated reader presentation derivatives
         run: |
-          if git diff --quiet -- light latest.html index.html; then
-            echo 'Light edition already current.'
+          if git diff --quiet -- light latest.html index.html assets/reader.css; then
+            echo 'Reader presentation already current.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add light latest.html index.html
-          git commit -m 'Refresh Light edition'
+          git add light latest.html index.html assets/reader.css
+          git commit -m 'Refresh reader presentation'
           git push
