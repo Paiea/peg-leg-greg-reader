@@ -15,6 +15,9 @@ class ReaderSectionsTests(unittest.TestCase):
         self.assertEqual((book_two.start, book_two.end), (83, 180))
         self.assertEqual((book_three.start, book_three.end), (181, None))
         self.assertEqual(book_three.slug, 'book-iii')
+        self.assertEqual(book_one.card_slot, 'warrior')
+        self.assertEqual(book_two.card_slot, 'stagehand')
+        self.assertEqual(book_three.card_slot, 'magistrate')
         self.assertEqual(
             [(act.start, act.end, act.title) for act in book_two.acts],
             [
@@ -42,15 +45,21 @@ class ReaderSectionsTests(unittest.TestCase):
         self.assertIn('Chapters 181–242', rendered)
         self.assertIn('ACT II · Chapters 220–242', rendered)
         self.assertIn('THE PRICE OF ATTENTION', rendered)
+        self.assertNotIn('reader-book-card-art', rendered)
         self.assertNotIn('<img', rendered)
 
-    def test_illustrated_renderer_has_three_book_plates_and_lazy_lower_plates(self):
+    def test_illustrated_renderer_has_three_clickable_role_cards(self):
         links = {n: f'<a href="chapters/{n:03d}.html">Chapter {n}</a>' for n in range(1, 243)}
         rendered = render_book_sections(links, illustrated=True, open_first_act=True)
         self.assertEqual(rendered.count('class="reader-book-plate"'), 3)
-        self.assertEqual(rendered.count('<img '), 3)
-        self.assertIn('width="1536" height="2048"', rendered)
-        self.assertEqual(rendered.count('loading="lazy"'), 2)
+        self.assertEqual(rendered.count('role="img"'), 3)
+        self.assertIn('reader-book-card-art--warrior', rendered)
+        self.assertIn('reader-book-card-art--stagehand', rendered)
+        self.assertIn('reader-book-card-art--magistrate', rendered)
+        self.assertIn('href="chapters/005.html"', rendered)
+        self.assertIn('href="light/177.html"', rendered)
+        self.assertIn('href="light/231.html"', rendered)
+        self.assertNotIn('<img ', rendered)
         self.assertEqual(rendered.count('<details class="reader-act" open>'), 1)
 
 
