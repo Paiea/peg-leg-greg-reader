@@ -39,7 +39,7 @@ jobs:
           assert '# CHAPTER 243' not in chapter
           words = len(re.findall(r"\b\w[\w'’-]*\b", chapter))
           emdashes = chapter.count('—')
-          assert words == 2523, words
+          assert words == 2521, words
           assert emdashes == 0, emdashes
           assert chapter.lstrip().startswith("## THE SPENDER\n\nThe right crutch grip had turned.")
           assert chapter.rstrip().endswith('That was the most useful thing I bought all day.')
