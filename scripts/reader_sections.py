@@ -102,6 +102,7 @@ def _render_act(
     if not links:
         return ''
     open_attr = ' open' if open_act else ''
+    links_html = ''.join(links)
     return (
         f'<details class="reader-act"{open_attr}>'
         f'<summary class="reader-act-summary">'
@@ -109,7 +110,7 @@ def _render_act(
         f'<span class="reader-act-title">{escape(act.title)}</span>'
         f'</summary>'
         f'<p class="reader-act-deck">{escape(act.deck)}</p>'
-        f'<div class="reader-act-grid">{"".join(links)}</div>'
+        f'<div class="reader-act-grid">{links_html}</div>'
         f'</details>'
     )
 
@@ -161,6 +162,7 @@ def render_book_sections(
                 f'</figure>'
             )
 
+        acts_html = ''.join(acts)
         rendered.append(
             f'<section class="reader-book" aria-labelledby="{book.slug}-heading">'
             f'<div class="reader-book-layout{layout_class}">'
@@ -170,7 +172,7 @@ def render_book_sections(
             f'<h3 class="reader-book-title" id="{book.slug}-heading">{escape(book.numeral)}</h3>'
             f'<p class="reader-book-range">{escape(book.range_label(latest))}</p>'
             f'</header>'
-            f'<div class="reader-book-acts'>{"".join(acts)}</div>'
+            f'<div class="reader-book-acts">{acts_html}</div>'
             f'</div>'
             f'</div>'
             f'</section>'
