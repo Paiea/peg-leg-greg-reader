@@ -10,7 +10,7 @@ Preserve a single persistent mobile-friendly project URL and the hierarchy:
 
 Hosting/presentation work must not create a competing prose branch.
 
-Two reader surfaces are now intentional:
+Two reader surfaces are intentional:
 
 - **LIGHT = CURRENT** — fast text-first reading, no chapter illustrations, driven from exact GitHub prose sources.
 - **ILLUSTRATED = BEAUTIFUL** — book-like illustrated edition that may lag while exact prose is synchronized and art coverage catches up.
@@ -18,17 +18,18 @@ Two reader surfaces are now intentional:
 The Light Reader does not replace the illustrated edition. It removes art/layout production from the critical path for making exact manuscript prose readable online.
 
 Current source behavior:
-- exact published Chapters 1–155 are rendered text-only from their existing chapter pages, with figures removed in the browser
-- Chapters 220+ are discovered/rendered directly from `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`
-- exact Chapters 156–219 are preserved in `state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md` and wired into the Light Reader
-- as new chapters are appended to the permanent running manuscript, the Light Reader should discover them without requiring one new static HTML page per chapter
+- exact published Chapters 1–155 are available from their existing illustrated chapter pages and can be rendered as Light derivatives with figures removed
+- exact Chapters 156–219 live in `state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md`
+- Chapters 220+ are driven from `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`
+- generated Light chapter pages are publishing derivatives, not prose authority
+- as the permanent running manuscript advances, Current Light generation follows exact prose authority
 
 Current Light UX rule:
-- show the CURRENT manuscript group first, newest chapter first, so the live endpoint cannot be mistaken for Chapter 155
-- show a direct `Read current manuscript` shortcut near the top
-- label Chapters 156–219 as recovered exact prose rather than a synchronization gap
-- keep illustrated-edition text chapters below the current-manuscript group
-- cache-bust reader JavaScript when behavior changes materially so GitHub Pages/browser caching does not leave users on an older reader implementation
+- show the CURRENT manuscript group first so the live endpoint cannot be mistaken for the illustrated edge
+- show Chapters 156–219 immediately below Current
+- place the shared story Acts for Chapters 1–155 below those current/recovered groups
+- keep a direct newest/current reading shortcut near the top
+- preserve compatibility routing for ranges that have not yet been statically backfilled
 
 Prefer:
 
@@ -37,6 +38,25 @@ CLEAN -> READABLE -> WARM -> BOOK-LIKE -> SLIGHTLY HANDMADE / STORYBOOK
 Avoid:
 
 FLASHY -> APP-LIKE -> ANIMATION-HEAVY -> DASHBOARD CHROME
+
+## Shared story Acts
+
+The Illustrated and Light contents surfaces share one content-based Act map for Chapters 1–155. These are story transitions, not equal numeric buckets:
+
+1. **ACT I — THE SECOND LIFE** — Chapters 1–20
+2. **ACT II — MAKING A PLACE** — Chapters 21–63
+3. **ACT III — THE NEW BASELINE** — Chapters 64–82
+4. **ACT IV — A LIFE IN CARROW** — Chapters 83–137
+5. **ACT V — THE COMPANY ROAD** — Chapters 138–155
+
+The Act definition belongs in shared reader tooling so Illustrated and Light cannot silently drift into different boundaries or labels.
+
+Presentation rule:
+- use quiet expandable book-like sections, not dashboard cards
+- Illustrated may open Act I initially while later Acts remain collapsed
+- Light keeps Current and recovered prose above the Acts
+- desktop chapter lists may use two columns; mobile should collapse to one
+- do not invent later Acts merely to organize chapter counts; future Act boundaries must be justified by story movement
 
 ## Mixed-fidelity image rhythm
 
@@ -47,15 +67,26 @@ Use illustrations as pacing weights rather than treating every image equally:
 
 Do not force full bleed across mixed-resolution art.
 
-## Homepage / index ideas
+### Desktop intrinsic-size rule
 
-Useful experiments:
+Desktop presentation must not enlarge weak/small raster art merely because the viewport is wide.
+
+- default/scene art should remain near intrinsic width and use a moderate maximum
+- sketch beats stay smaller
+- feature illustrations may breathe larger only when the source can support it
+- portrait features remain narrower
+- use `width:auto` plus role-based `max-width` caps on desktop rather than forcing every image to the cap width
+- preserve the existing responsive phone behavior; small screens already constrain art naturally
+
+The goal is intentional page rhythm, not pixelated wall-sized images.
+
+## Homepage / index direction
+
 - make Illustrated / Light reading modes legible without turning the homepage into an app dashboard
-- clearer book-first identity
+- preserve clear book-first identity
 - easy start / continue reading
-- cleaner chapter scanning
-- gallery available but secondary to reading
-- lightweight Act grouping only where real story transitions support it
+- use the shared story Acts for cleaner chapter scanning
+- gallery remains available but secondary to reading
 - avoid making the index feel like an admin interface
 
 ## Chapter-page ideas
@@ -80,6 +111,8 @@ Before adding another major visual layer:
 
 Do not merely append another giant override block.
 
+Shared Act styling and desktop image caps should remain a deterministic managed presentation block rather than becoming another uncontrolled chain of overrides.
+
 ## Graphics / illustration integration
 
 - Let art provide texture and personality instead of decorative UI clutter.
@@ -89,19 +122,12 @@ Do not merely append another giant override block.
 - Consider chapter-opening feature art selectively rather than universally.
 - Preserve whitespace around strong images rather than filling every gap.
 
-## Act / section grouping
-
-Possible, not mandatory. Use only when story structure genuinely supports it. Do not invent Acts merely to organize a long table of contents.
-
 ## Future branch experiments
 
 - decide later whether recovered Chapters 156–219 should be consolidated into a different permanent manuscript path; do not rewrite or reconstruct them
-- CSS consolidation
+- broader CSS consolidation
 - typography/measure adjustments
 - chapter-nav variations
-- index grouping
-- image-role sizing
-- subtle section/act treatment
 - improved gallery hierarchy
 - production-only coverage indicators
 
