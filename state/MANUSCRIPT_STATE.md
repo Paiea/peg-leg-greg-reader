@@ -1,7 +1,7 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current story endpoint: Chapter 239 — **THE WAITER**.
+- Current story endpoint: Chapter 240 — **THE SAMPLE**.
 - Book 1 Chapters 1–82 closed. Book 2 active.
 - Repository prose was previously validated continuously through Chapter 155 — **THE LEAK**.
 - Chapters 156–219 remain newer forward manuscript material pending exact-text synchronization into the permanent running manuscript. Do not reconstruct them from summaries or let stale overlapping files overwrite newer authority.
@@ -25,9 +25,9 @@
 - See `MANUSCRIPT_ENGINE_PLAYBOOK.md` for durable 01 working method.
 
 ## Current magic continuity
-- 34 successful supervised minimal draws.
-- 30 supervised deliberate shaping attempts.
-- 49 supervised external-effect attempts.
+- 35 successful supervised minimal draws.
+- 31 supervised deliberate shaping attempts.
+- 53 supervised external-effect attempts.
 - Attempt 38 FAR/AWAY: no observed response; control unchanged.
 - Attempt 39 INTERMEDIATE/AWAY: small observed target response, net AWAY, minor rotation; control unchanged.
 - Attempt 40 FAR/AWAY: target movement observed and control movement observed; contaminated for target-specific interpretation; cause not established; no target-specific response counted.
@@ -43,11 +43,18 @@
 - Attempt 47 INTERMEDIATE/AWAY: small observed target response, net AWAY, minor rotation; control unchanged.
 - Attempt 48 INTERMEDIATE/AWAY: no observed response; control unchanged.
 - Attempt 49 INTERMEDIATE/AWAY: no observed response; control unchanged.
+- Ch240 mirrors the fixed-condition structure at FAR: same room, chair/body geometry, board, glass shield, paper-fin target/control, FAR mark, AWAY-only direction, and a predeclared FAR → FAR → FAR → FAR block with a planned break after two. INTERMEDIATE is not tested.
+- Attempt 50 FAR/AWAY: no observed response; control unchanged.
+- Attempt 51 FAR/AWAY: no observed response; control unchanged.
+- Attempt 52 FAR/AWAY: small observed target response, net AWAY, no obvious rotation; control unchanged.
+- Attempt 53 FAR/AWAY: no observed response; control unchanged.
+- All four Ch240 external attempts are clean for apparatus/control interpretation. The fixed FAR block adds one clean FAR response and three clean FAR non-responses; FAR response recurs but remains unreliable.
+- Ch234's fixed INTERMEDIATE block and Ch240's fixed FAR block each contain one observed response in four attempts. That small-block symmetry does NOT establish equal response rates, equivalence, or erase the longer record. No response rate is established.
 - All four Ch234 external attempts are clean for apparatus/control interpretation: no control movement or apparatus disturbance is observed.
 - The Ch234 block adds another clean observed INTERMEDIATE response under the current apparatus while also producing three clean INTERMEDIATE non-responses. INTERMEDIATE response therefore remains established as recurring across sessions but remains unreliable.
 - Ch234 shows that an observed INTERMEDIATE response can occur in a session where FAR is not interleaved between attempts. It does NOT establish that FAR interleaving causes or does not cause response, and it does not test the distance comparison itself.
 - Hessa records Greg's changing expectation before Attempts 47–49, but no causal claim about expectation is supported.
-- The accumulated current-apparatus record still supports an apparent response difference associated with distance. Ch234 does not itself compare distances. FAR reliability remains unestablished.
+- The accumulated current-apparatus record still supports an apparent response difference associated with distance. Ch240 adds a clean FAR response under a FAR-only fixed-condition block but does not establish equal conditions, a response rate, or a range. FAR reliability remains unestablished.
 - NO RANGE ESTABLISHED. NOT GENERALIZED.
 - Restrictions unchanged: no independent draw, shaping, external testing, paper, coins, thread, larger objects, practice, Barrier broadening, theatrical magic, or loopholes.
 - Hessa ends Ch234 with no chosen next experiment. Her possible next questions remain unresolved.
@@ -56,6 +63,7 @@
 - Chapter 237 contains no Hessa appearance or magic attempt. Counts remain 34 / 30 / 49 and all restrictions remain unchanged.
 - Chapter 238 contains no Hessa appearance or magic attempt. Counts remain 34 / 30 / 49 and all restrictions remain unchanged.
 - Chapter 239 contains no Hessa appearance or magic attempt. Counts remain 34 / 30 / 49 and all restrictions remain unchanged.
+- Chapter 240 is a supervised Hessa session. Final counts are 35 / 31 / 53. Restrictions remain completely unchanged, and Hessa has no selected next experiment when Greg leaves.
 
 ## Greg / Lyssa
 - Canonical spelling: **Lyssa**. Same established character formerly spelled Lysa.
@@ -364,26 +372,44 @@
 - Body cost is ordinary from the longer walk: used shoulders, warm right palm, ordinarily tired right leg, comfortable residual limb, normal repaired left crutch tip, no injury or new limitation.
 - Home stays small. Lyssa checks the ordinary categories `Theatre?`, `Vale?`, `Magic?`; all are no. Greg's day reduces to `Hara's shoe`, and supper is bread, cheese, and apple. No open thread is explained merely because the chapter is quiet.
 
-## Immediate next edge — Chapter 240
-Primary recommendation: **LET CH239'S OFFSTAGE HARA/GREG DAY BREATHE. FOLLOW THE NEXT ACTUAL CLAIM RATHER THAN TURNING A NEW SOCIAL BEAT INTO A ROUTINE.**
+## Chapter 240 — THE SAMPLE
+- Chapter 240 returns to Hessa after five full breathing chapters with one genuinely bounded next question selected from the existing record: when FAR is held fixed instead of alternated with INTERMEDIATE, does a clean FAR response still occur under the current apparatus?
+- Same room, chair/body geometry, board, glass shield, paper-fin target/control, FAR mark, and AWAY-only direction are preserved. INTERMEDIATE is not tested. No range mapping, new distance, new direction, larger object, theatrical connection, or permission expansion occurs.
+- One supervised minimal draw succeeds cleanly, bringing the count to **35**. One supervised deliberate shaping attempt succeeds cleanly, bringing the count to **31**.
+- Predeclared external block is FAR → FAR → FAR → FAR with a planned break after the first two attempts.
+- Attempt 50 FAR/AWAY: no observed response; control unchanged.
+- Attempt 51 FAR/AWAY: no observed response; control unchanged.
+- Attempt 52 FAR/AWAY: clean small target response with net AWAY displacement and no obvious rotation; control unchanged.
+- Attempt 53 FAR/AWAY: no observed response; control unchanged.
+- All four attempts are clean for apparatus/control interpretation. The block therefore adds one clean FAR response and three clean FAR non-responses. FAR response now clearly recurs under a FAR-only fixed-condition block, but FAR remains unreliable.
+- Ch234's fixed INTERMEDIATE block and Ch240's fixed FAR block each happen to contain one response in four attempts. This does **not** establish equal response rates, equivalence, or erase the longer accumulated record. The accumulated current-apparatus record still supports an apparent distance-associated difference; no rate is established.
+- Final counts: **35 supervised minimal draws / 31 supervised deliberate shaping attempts / 53 supervised external-effect attempts**. NO RANGE. NOT GENERALIZED. All restrictions remain unchanged.
+- Hessa still has no selected next experiment when Greg leaves. She explicitly has other life/work between sessions; Greg's elapsed chapter count does not control her schedule.
+- No theatre call/work/pay, Vale appearance/work/credit, or Bren/brown-coat fact occurs. Debt remains active/unstated; Ch236 remains latest pressure evidence.
+- Home continuity stays bounded: brown cloth remains same fold/three pins; damaged shirt remains three loose threads; beans and the earlier paper-wrapped item remain absent/unexplained. Body cost is ordinary sitting/walk/forearm warmth only, with no injury or new limitation.
+
+## Immediate next edge — Chapter 241
+Primary recommendation: **LET CH240'S FULL HESSA SESSION BREATHE. FOLLOW THE NEXT ACTUAL CLAIM OUTSIDE MAGIC RATHER THAN TURNING THE NEW FAR RESPONSE INTO AN IMMEDIATE LADDER.**
 
 Reasons:
-- Ch239 deliberately moved outside theatre, Vale, magic, and pressure while deepening an existing coworker relationship through ordinary Carrow time.
-- Hara's shoe problem has received a narrow material adjustment and does not require another chapter. The repair held at the sole; the heel adjustment reduced the immediate rubbing during the walk. Do not promote this into an injury arc or permanent shoe subplot.
-- Greg has no standing theatre obligation. **The Missing Key** remains done for now and Venn's one-day coverage remains ordinary.
-- Vale last moved in Ch238 and debt remains active, but Greg still has no guaranteed post, schedule, promotion, or rate.
-- Magic has now breathed through Chapters 235–239 after Ch234. Hessa remains increasingly available only if she has actually selected one genuinely bounded next question. Do not invent an experiment from elapsed chapter count alone.
-- External pressure last moved in Ch236. Chapters 237–239 add no clue or escalation. One grounded fact may arrive naturally later; there is no quota.
-- Lyssa's beans and the earlier paper-wrapped item remain absent/unexplained. Brown cloth remains same fold/three pins and Greg's shirt remains three loose threads. Do not convert any of them into mysteries by state-maintenance pressure.
+- Ch239 was an offstage Hara/Greg Carrow day; Ch240 is a full bounded magic-evidence session. The next chapter does not owe either relationship another beat.
+- Ch240 materially grows the record but does not change permissions: fixed FAR produces one clean response and three clean non-responses; FAR remains unreliable; the apparent distance-associated difference remains supported by the accumulated current-apparatus record; no range or response rate is established.
+- Hessa has **no selected next experiment**. Do not create another session merely because attempt 52 moved.
+- Greg has no standing theatre obligation. **The Missing Key** remains done for now and Venn's coverage remains ordinary.
+- Vale last moved in Ch238. Debt remains active and legitimately smaller, but Greg still has no guaranteed post, schedule, promotion, or rate.
+- External pressure last moved in Ch236. Chapters 237–240 add no new clue or escalation. One grounded fact may arrive naturally later; there is no quota.
+- Lyssa's beans and earlier paper-wrapped item remain absent/unexplained. Brown cloth remains same fold/three pins and Greg's shirt remains three loose threads. None requires service next chapter.
 
-Strong Chapter 240 possibilities:
-- Hessa, if she has now selected one bounded next question under the established apparatus and restrictions;
+Strong Chapter 241 possibilities:
 - a genuinely new theatre or Vale call/task if one actually arrives;
-- Lyssa/household/work if a real obligation surfaces without bookkeeping the beans, wrapped item, or brown cloth;
-- ordinary Carrow or another established relationship if it produces more life per word;
-- one grounded pressure fact through an established natural carrier only if it genuinely arrives.
+- ordinary Carrow, money/material need, or an established social relationship with its own momentum;
+- Lyssa/household/work only if a real new obligation surfaces without bookkeeping the unresolved objects;
+- one grounded pressure fact through an established natural carrier only if it genuinely arrives;
+- NOT Hessa unless a genuinely new bounded question is independently selected after the Ch240 record is considered.
 
-Preserve magic counts **34 / 30 / 49** and all restrictions unless Ch240 genuinely changes them. Preserve active unstated Vale debt and Ch238 credit. Preserve that **The Missing Key** is done for now and Venn's coverage created no rivalry or hierarchy. Preserve Ch236's delivery/access evidence ceiling and no Vale/Bren connection. Preserve Greg's body continuity, Hara's narrow shoe-adjustment facts, brown-cloth identity limits, three-thread shirt continuity, bean-purpose limits, absent wrapped-item identity ceiling, Lyssa customer/garment boundaries, and **Marra ≠ Maren**.
+Ask: **WHAT ACTUALLY HAS A REASON TO HAPPEN TODAY?** Favor **LIFE PER WORD**.
+
+Preserve magic counts **35 / 31 / 53** and all restrictions. Preserve attempt 52 as one clean FAR/AWAY response under the fixed FAR-only block, not a power-up. Preserve active unstated Vale debt and Ch238 credit. Preserve Ch236's delivery/access evidence ceiling and no Vale/Bren connection. Preserve ordinary back-latch interpretation, Greg's body continuity, Hara's narrow shoe-adjustment facts, brown-cloth identity limits, three-thread shirt continuity, bean-purpose limits, absent wrapped-item identity ceiling, Lyssa customer/garment boundaries, and **Marra ≠ Maren**.
 
 ## Chat / handoff behavior
 After each completed chapter:
