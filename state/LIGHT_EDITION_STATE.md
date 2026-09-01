@@ -143,3 +143,5 @@ Current content must never wait for old-range completion.
 ## RE-PROMPT [READER]
 
 Continue the Peg-Leg Greg Light edition from fresh current GitHub authority. Read `AGENTS.md`, current `state/MANUSCRIPT_STATE.md`, `state/LIGHT_EDITION_STATE.md`, `scripts/generate_light.py`, `scripts/verify_light.py`, `.github/workflows/light-edition.yml`, and the current Light reader files. Re-verify the permanent running manuscript directly before trusting the compact endpoint, then regenerate `current` from whatever exact prose exists. Preserve the established static Light architecture and verified continuous 156→current exact reading path. Next bounded pass: generate and verify static Light Chapters 100–155 from the exact published `chapters/NNN.html` prose, stripping chapter illustrations but not rewriting text. Pressure-test the 155→156 seam, mode-switch links for chapters that now have both editions, and the compatibility reader after its remaining responsibility shrinks to Chapters 1–99. Do not edit prose or art. Keep `latest.html` derived from the actual exact endpoint. Before ending, visibly provide the next copyable reader prompt.
+
+<!-- validation-only trigger -->
