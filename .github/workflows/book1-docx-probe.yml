@@ -4,7 +4,7 @@ on:
     branches:
       - reader/validate-general-polish-ch001-005-r2
 permissions:
-  contents: read
+  contents: write
 jobs:
   probe:
     runs-on: ubuntu-latest
@@ -16,69 +16,25 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install validation dependencies
-        run: pip install python-docx pillow
-      - name: Test source promotion
+      - run: pip install python-docx
+      - name: Remove repeated full-manuscript paragraph scans
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('scripts/promote_book1_polish.py')
+          s=p.read_text(encoding='utf-8')
+          old='''def _chapter_bodies(doc: Document) -> dict[int, list[str]]:\n    headings = _heading_map(doc)\n    ordered = sorted(headings.items(), key=lambda item: item[1])\n    bodies: dict[int, list[str]] = {}\n    for pos, (chapter, start) in enumerate(ordered):\n        end = ordered[pos + 1][1] if pos + 1 < len(ordered) else len(doc.paragraphs)\n        bodies[chapter] = [p.text for p in doc.paragraphs[start + 1 : end]]\n    return bodies\n'''
+          new='''def _chapter_bodies(doc: Document) -> dict[int, list[str]]:\n    headings = _heading_map(doc)\n    ordered = sorted(headings.items(), key=lambda item: item[1])\n    paragraphs = doc.paragraphs\n    bodies: dict[int, list[str]] = {}\n    for pos, (chapter, start) in enumerate(ordered):\n        end = ordered[pos + 1][1] if pos + 1 < len(ordered) else len(paragraphs)\n        bodies[chapter] = [p.text for p in paragraphs[start + 1 : end]]\n    return bodies\n'''
+          assert s.count(old) == 1
+          p.write_text(s.replace(old,new),encoding='utf-8')
+          PY
+      - name: Test optimized promotion tool
         run: python -m unittest tests.test_promote_book1_polish -v
-      - name: Dry-run canonical promotion
+      - name: Commit optimization
         run: |
-          cp state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx /tmp/book1-before.docx
-          python scripts/promote_book1_polish.py 1-5
-          test "$(git diff --name-only)" = "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx"
-      - name: Extract Chapters 6-10 for editorial review
-        run: |
-          mkdir -p review
-          python - <<'PY'
-          from pathlib import Path
-          from scripts.promote_book1_polish import extract_html_prose
-          for ch in range(6, 11):
-              paras=extract_html_prose(Path(f'chapters/{ch:03d}.html'))
-              out=Path(f'review/ch{ch:03d}.txt')
-              out.write_text('\n'.join(f'{i:04d}\t{p}' for i,p in enumerate(paras,1))+'\n',encoding='utf-8')
-              print(ch, len(paras))
-          PY
-      - name: Install document renderer
-        run: |
-          if ! command -v libreoffice >/dev/null; then
-            sudo apt-get update -qq
-            sudo apt-get install -y -qq libreoffice-writer poppler-utils
-          fi
-      - name: Render canonical Book 1 and build contact sheets
-        run: |
-          mkdir -p render/pages render/contact
-          libreoffice --headless --convert-to pdf --outdir render state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx
-          pdf="render/Peg_Leg_Greg_authoritative_ch82_final_name_map.pdf"
-          pdfinfo "$pdf" | grep '^Pages:'
-          pdftoppm -png -r 36 "$pdf" render/pages/page >/dev/null 2>&1
-          pdftotext -layout "$pdf" render/book1.txt
-          python - <<'PY'
-          from pathlib import Path
-          from PIL import Image, ImageDraw
-          pages=sorted(Path('render/pages').glob('page-*.png'))
-          print('RENDERED_PAGES',len(pages))
-          for start in range(0,len(pages),16):
-              group=pages[start:start+16]
-              sheet=Image.new('RGB',(1200,1600),'white')
-              d=ImageDraw.Draw(sheet)
-              for k,p in enumerate(group):
-                  im=Image.open(p).convert('RGB')
-                  im.thumbnail((285,370))
-                  x=(k%4)*300+(300-im.width)//2
-                  y=(k//4)*400+22
-                  sheet.paste(im,(x,y))
-                  d.text(((k%4)*300+8,(k//4)*400+4),f'Page {start+k+1}',fill='black')
-              sheet.save(Path('render/contact')/f'contact_{start+1:04d}_{start+len(group):04d}.jpg',quality=82)
-          text=Path('render/book1.txt').read_text(errors='ignore').split('\f')
-          for i,page in enumerate(text,1):
-              if 'CHAPTER SIX' in page and 'THE LABORER' in page:
-                  print('CHAPTER_SIX_START_PAGE',i)
-                  break
-          PY
-      - uses: actions/upload-artifact@v4
-        with:
-          name: book1-polish-dry-run
-          path: |
-            state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx
-            review/
-            render/contact/
-            render/book1.txt
+          test "$(git diff --name-only)" = "scripts/promote_book1_polish.py"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add scripts/promote_book1_polish.py
+          git commit -m 'Speed up Book 1 source verification'
+          git push
