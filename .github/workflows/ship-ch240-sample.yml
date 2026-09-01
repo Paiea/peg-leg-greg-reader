@@ -17,6 +17,24 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Scope current-magic selector
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('.github/scripts/ship_ch240_sample.py')
+          text = p.read_text(encoding='utf-8')
+          old = "s = replace_once(s, '- Attempt 49 INTERMEDIATE/AWAY: no observed response; control unchanged.', magic_insert, 'magic attempt insertion')"
+          new = """magic_anchor = '- Attempt 49 INTERMEDIATE/AWAY: no observed response; control unchanged.\\n- All four Ch234 external attempts are clean for apparatus/control interpretation: no control movement or apparatus disturbance is observed.'
+          magic_replacement = magic_insert + '\\n- All four Ch234 external attempts are clean for apparatus/control interpretation: no control movement or apparatus disturbance is observed.'
+          s = replace_once(s, magic_anchor, magic_replacement, 'magic attempt insertion')"""
+          if text.count(old) != 1:
+              raise SystemExit(f'Expected one source selector, found {text.count(old)}')
+          p.write_text(text.replace(old, new, 1), encoding='utf-8')
+          print('PATCHED_MAGIC_SELECTOR=1')
+          PY
+
       - name: Apply chapter and state updates
         run: python .github/scripts/ship_ch240_sample.py
 
