@@ -103,15 +103,15 @@ def href_for(number: int, generated: set[int], *, from_chapter: bool) -> str:
 
 
 def chapter_nav(chapter: Chapter, all_numbers: list[int], generated: set[int]) -> tuple[str, str]:
-    idx = all_numbers.index(chapter.number)
+    available = set(all_numbers)
     prev_html = '<span class="is-disabled">← Previous</span>'
     next_html = '<span class="is-disabled">Next →</span>'
-    if idx > 0:
-        n = all_numbers[idx - 1]
-        prev_html = f'<a rel="prev" href="{href_for(n, generated, from_chapter=True)}">← Chapter {n}</a>'
-    if idx + 1 < len(all_numbers):
-        n = all_numbers[idx + 1]
-        next_html = f'<a rel="next" href="{href_for(n, generated, from_chapter=True)}">Chapter {n} →</a>'
+    previous_number = chapter.number - 1
+    next_number = chapter.number + 1
+    if previous_number in available:
+        prev_html = f'<a rel="prev" href="{href_for(previous_number, generated, from_chapter=True)}">← Chapter {previous_number}</a>'
+    if next_number in available:
+        next_html = f'<a rel="next" href="{href_for(next_number, generated, from_chapter=True)}">Chapter {next_number} →</a>'
     return prev_html, next_html
 
 
