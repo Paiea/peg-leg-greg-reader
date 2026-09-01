@@ -1,4 +1,4 @@
-name: Refresh Light edition
+name: Refresh reader editions
 
 on:
   push:
@@ -13,11 +13,13 @@ on:
       - 'chapters/*.html'
       - 'index.html'
       - 'scripts/generate_light.py'
+      - 'scripts/generate_illustrated.py'
       - 'scripts/reader_sections.py'
       - 'scripts/verify_light.py'
       - 'scripts/update_reader_navigation.py'
       - 'scripts/update_reader_presentation.py'
       - 'tests/test_generate_light.py'
+      - 'tests/test_generate_illustrated.py'
       - 'tests/test_update_reader_navigation.py'
       - 'tests/test_light_progress_links.py'
       - 'tests/test_reader_acts.py'
@@ -25,6 +27,7 @@ on:
       - 'assets/light.css'
       - 'assets/light-progress.js'
       - 'assets/light-reader.js'
+      - 'visual/homepage/Book*_Plate.jpg'
       - 'light.html'
       - '.github/workflows/light-edition.yml'
   workflow_dispatch:
@@ -33,11 +36,11 @@ permissions:
   contents: write
 
 concurrency:
-  group: light-edition-${{ github.ref }}
+  group: reader-editions-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
-  build-light:
+  build-reader:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -50,16 +53,24 @@ jobs:
         run: python scripts/update_reader_presentation.py assets/reader.css
       - name: Test reader tooling
         run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Generate Illustrated Chapters 156–235
+        run: python scripts/generate_illustrated.py 156-235
       - name: Generate recovered Light range
         run: python scripts/generate_light.py 156-219
       - name: Generate current Light range
         run: python scripts/generate_light.py current
       - name: Update illustrated contents and cross-mode navigation
         run: python scripts/update_reader_navigation.py index.html
-      - name: Verify Light publishing derivatives
+      - name: Verify reader publishing derivatives
         run: |
           python scripts/verify_light.py 156-219
           python scripts/verify_light.py current
+          test -f chapters/156.html
+          test -f chapters/219.html
+          test -f chapters/220.html
+          test -f chapters/235.html
+          test ! -f chapters/236.html
+          test ! -f chapters/237.html
           test -f light/156.html
           test -f light/219.html
           test -f light/220.html
@@ -69,23 +80,37 @@ jobs:
           ! grep -R '<img' light/*.html
           ! grep -R 'Peg_Leg_Greg_Running_Manuscript.md' light/*.html
           ! grep -R 'Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md' light/*.html
+          ! grep -R 'Peg_Leg_Greg_Running_Manuscript.md' chapters/{156..235}.html
+          ! grep -R 'Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md' chapters/{156..235}.html
+          grep -q 'rel="next" href="156.html"' chapters/155.html
+          grep -q 'rel="prev" href="155.html"' chapters/156.html
+          grep -q 'rel="next" href="220.html"' chapters/219.html
+          grep -q 'rel="prev" href="219.html"' chapters/220.html
+          ! grep -q 'rel="next"' chapters/235.html
+          grep -q 'href="../light/156.html"' chapters/156.html
           grep -q 'href="220.html"' light/219.html
           grep -q 'href="219.html"' light/220.html
           grep -q 'href="light/index.html">Read Light</a>' index.html
-          grep -q 'THE SECOND LIFE' index.html
-          grep -q 'THE COMPANY ROAD' index.html
-          grep -q 'THE SECOND LIFE' light/index.html
-          grep -q 'THE COMPANY ROAD' light/index.html
+          grep -q 'BOOK I' index.html
+          grep -q 'BOOK II' index.html
+          grep -q 'THE STAGE DOOR' index.html
+          grep -q 'THE PRICE OF ATTENTION' index.html
+          grep -q 'Book01_Plate.jpg' index.html
+          grep -q 'Book02_Plate.jpg' index.html
+          grep -q 'BOOK I' light/index.html
+          grep -q 'BOOK II' light/index.html
+          ! grep -q 'Book01_Plate.jpg' light/index.html
+          ! grep -q 'Book02_Plate.jpg' light/index.html
           grep -q 'READER ACT CONTENTS + DESKTOP ART CAPS' assets/reader.css
           git diff --check
-      - name: Commit generated reader presentation derivatives
+      - name: Commit generated reader derivatives
         run: |
-          if git diff --quiet -- light latest.html index.html assets/reader.css; then
-            echo 'Reader presentation already current.'
+          if git diff --quiet -- chapters light latest.html index.html assets/reader.css; then
+            echo 'Reader editions already current.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add light latest.html index.html assets/reader.css
-          git commit -m 'Refresh reader presentation'
+          git add chapters/155.html chapters/{156..235}.html light latest.html index.html assets/reader.css
+          git commit -m 'Refresh reader editions'
           git push
