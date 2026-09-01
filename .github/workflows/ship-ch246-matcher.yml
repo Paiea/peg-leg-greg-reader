@@ -87,7 +87,7 @@ jobs:
           assert 'Current recorded story endpoint is Chapter 246 — **THE MATCHER**.' in project
 
           assert '**Chapter 246:** the same Maren counter woman remembers Greg narrowly as `Blue last time`' in audit
-          assert '**Maren is NOT Marra.**' in audit
+          assert '**Continuity trap: MARRA ≠ MAREN.**' in audit
 
           print(f'VERIFIED_CH246_WORDS={words}')
           print(f'VERIFIED_CH246_EMDASHES={emdashes}')
