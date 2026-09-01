@@ -37,8 +37,9 @@ class PromoteBook1PolishTests(unittest.TestCase):
                 encoding="utf-8",
             )
 
-            promote_chapters(docx, chapters, [1])
+            changed = promote_chapters(docx, chapters, [1])
 
+            self.assertTrue(changed)
             reopened = Document(docx)
             text = [p.text for p in reopened.paragraphs]
             self.assertEqual(
@@ -83,12 +84,13 @@ class PromoteBook1PolishTests(unittest.TestCase):
                 encoding="utf-8",
             )
 
-            promote_chapters(docx, chapters, [1])
+            self.assertTrue(promote_chapters(docx, chapters, [1]))
             before = docx.stat().st_mtime_ns
             time.sleep(0.02)
-            promote_chapters(docx, chapters, [1])
+            changed = promote_chapters(docx, chapters, [1])
             after = docx.stat().st_mtime_ns
 
+            self.assertFalse(changed)
             self.assertEqual(before, after)
 
 
