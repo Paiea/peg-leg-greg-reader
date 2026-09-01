@@ -1,0 +1,39 @@
+name: One-shot fix Chapter 235 handoff
+
+on:
+  push:
+    branches:
+      - manuscript/ch235-ordinary-day
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Fix next-edge pointer
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('state/MANUSCRIPT_WORKFLOW.md')
+          s = p.read_text()
+          old = 'See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 235 edge.'
+          new = 'See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 236 edge.'
+          assert s.count(old) == 1
+          p.write_text(s.replace(old, new, 1))
+          PY
+          rm .github/workflows/fix-ch235-handoff-once.yml
+          grep -F 'Chapter 235 — **THE TAGALONG**.' state/MANUSCRIPT_WORKFLOW.md
+          grep -F 'Chapter 236 edge.' state/MANUSCRIPT_WORKFLOW.md
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/MANUSCRIPT_WORKFLOW.md .github/workflows/fix-ch235-handoff-once.yml
+          git diff --cached --check
+          git commit -m "Fix Chapter 235 next-edge pointer"
+          git push origin HEAD:manuscript/ch235-ordinary-day
