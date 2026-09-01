@@ -123,3 +123,9 @@ Minimal fresh-chat starters are intentionally valid:
 - `Continue Peg-Leg Greg from current GitHub authority.`
 - `Continue Peg-Leg Greg Writers' Room from current GitHub authority.`
 - `Continue Peg-Leg Greg Story Control from current GitHub authority.`
+- `Continue Peg-Leg Greg as 04 — Heavy Prose Editor from current GitHub authority.`
+- `Continue Peg-Leg Greg as 05 — Visual Production / Image Lab from current GitHub authority.`
+- `Continue Peg-Leg Greg as 06 — Manuscript Polish / General Editor from current GitHub authority.`
+- `Continue Peg-Leg Greg Reader / UI from current GitHub authority.`
+
+Do not paste a giant lane prompt into every replacement chat unless a genuinely new requirement is not yet represented in GitHub. When a lane's operating rules are durable in repo state, the short starter is preferred.
