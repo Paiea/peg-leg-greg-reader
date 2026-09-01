@@ -69,10 +69,6 @@
     align-items: start;
   }
 
-  .reader-book-layout--illustrated .reader-book-copy {
-    display: contents;
-  }
-
   .reader-book-layout--illustrated .reader-book-heading {
     grid-area: heading;
     align-self: center;

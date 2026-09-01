@@ -3,11 +3,32 @@
 /* Role cards are illustrated artifacts: large enough to read, but still secondary to the novel. */
 .reader-book-layout--illustrated {
   grid-template-columns: minmax(380px, 420px) minmax(0, 1fr);
+  grid-template-areas:
+    "plate heading"
+    "plate acts";
 }
 
-.reader-book-plate {
+.reader-book-layout--illustrated .reader-book-heading {
+  grid-area: heading;
+}
+
+.reader-book-layout--illustrated .reader-book-plate {
+  grid-area: plate;
   width: 100%;
   max-width: 420px;
+}
+
+.reader-book-layout--illustrated .reader-book-acts {
+  grid-area: acts;
+}
+
+.toc a.reader-book-card-link {
+  display: block;
+  grid-template-columns: none;
+  gap: 0;
+  min-height: 0;
+  padding: 0;
+  border-bottom: 0;
 }
 
 .reader-book-card-image {

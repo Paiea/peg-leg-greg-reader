@@ -29,7 +29,6 @@ class ReaderBook:
     card_src: str
     card_alt: str
     card_href: str
-    card_link_label: str
 
     def effective_end(self, latest: int) -> int:
         return latest if self.end is None else min(self.end, latest)
@@ -52,7 +51,6 @@ BOOKS = (
         'assets/book-role-cards/book-i-warrior-005.webp',
         'The Warrior, Chapter 05: young Greg working a sword at the bench, with the chapter quote and peg-leg medallion.',
         'chapters/005.html',
-        'Open Chapter 5, The Warrior',
     ),
     ReaderBook(
         'BOOK II',
@@ -67,7 +65,6 @@ BOOKS = (
         'assets/book-role-cards/book-ii-stagehand-177.webp',
         'The Stagehand, Chapter 177: young bearded Greg working backstage, framed above the waist with no lower-body or mobility detail visible.',
         'light/177.html',
-        'Open Chapter 177, The Stagehand',
     ),
     ReaderBook(
         'BOOK III',
@@ -81,7 +78,6 @@ BOOKS = (
         'assets/book-role-cards/book-iii-magistrate-231.webp',
         'The Magistrate, Chapter 231: young bearded Greg inhabiting the theatrical magistrate role at a petitions desk.',
         'light/231.html',
-        'Open Chapter 231, The Magistrate',
     ),
 )
 
@@ -154,8 +150,7 @@ def render_book_sections(
         if illustrated:
             plate = (
                 f'<figure class="reader-book-plate">'
-                f'<a class="reader-book-card-link" href="{escape(book.card_href)}" '
-                f'aria-label="{escape(book.card_link_label)}">'
+                f'<a class="reader-book-card-link" href="{escape(book.card_href)}">'
                 f'<img class="reader-book-card-image" src="{escape(book.card_src)}" '
                 f'alt="{escape(book.card_alt)}" width="720" height="960" '
                 f'loading="lazy" decoding="async">'
@@ -167,14 +162,12 @@ def render_book_sections(
         rendered.append(
             f'<section class="reader-book" aria-labelledby="{book.slug}-heading">'
             f'<div class="reader-book-layout{layout_class}">'
-            f'{plate}'
-            f'<div class="reader-book-copy">'
             f'<header class="reader-book-heading">'
             f'<h3 class="reader-book-title" id="{book.slug}-heading">{escape(book.numeral)}</h3>'
             f'<p class="reader-book-range">{escape(book.range_label(latest))}</p>'
             f'</header>'
+            f'{plate}'
             f'<div class="reader-book-acts">{acts_html}</div>'
-            f'</div>'
             f'</div>'
             f'</section>'
         )

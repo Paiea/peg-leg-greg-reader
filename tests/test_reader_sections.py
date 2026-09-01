@@ -95,6 +95,9 @@ class ReaderSectionsTests(unittest.TestCase):
         self.assertIn('href="chapters/005.html"', rendered)
         self.assertIn('href="light/177.html"', rendered)
         self.assertIn('href="light/231.html"', rendered)
+        self.assertLess(rendered.index('id="book-i-heading"'), rendered.index('class="reader-book-plate"'))
+        self.assertLess(rendered.index('class="reader-book-plate"'), rendered.index('class="reader-book-acts"'))
+        self.assertNotIn('aria-label="Open Chapter', rendered)
         self.assertNotIn('reader-book-card-art--', rendered)
         self.assertEqual(rendered.count('<details class="reader-act" open>'), 1)
 
