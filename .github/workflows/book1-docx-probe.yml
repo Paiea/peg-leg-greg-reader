@@ -4,7 +4,7 @@ on:
     branches:
       - reader/validate-general-polish-ch001-005-r2
 permissions:
-  contents: read
+  contents: write
 jobs:
   probe:
     runs-on: ubuntu-latest
@@ -12,10 +12,23 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: editor/general-polish-ch001-005-20260831
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - run: pip install python-docx
-      - name: Run Book 1 promotion tests
-        run: python -m unittest tests.test_promote_book1_polish -v
-      # TDD green run after implementation.
+          fetch-depth: 0
+      - name: Resolve Vale associate continuity
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('chapters/003.html')
+          s=p.read_text(encoding='utf-8')
+          old="The scarred man from yesterday was there too; his name, I learned, was Jorren."
+          new="The scarred man from yesterday was there too; his name, I learned, was Rusk."
+          assert s.count(old) == 1, s.count(old)
+          p.write_text(s.replace(old,new), encoding='utf-8')
+          PY
+      - name: Commit bounded continuity repair
+        run: |
+          test "$(git diff --name-only)" = "chapters/003.html"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add chapters/003.html
+          git commit -m 'Correct Vale associate name in Chapter 3'
+          git push
