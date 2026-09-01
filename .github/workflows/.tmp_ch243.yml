@@ -1,0 +1,29 @@
+name: Temporary Chapter 243 ship
+on:
+  push:
+    branches:
+      - manuscript/ch243-minder
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Apply chapter and state updates
+        run: python scripts/.tmp_ch243_apply.py
+      - name: Remove temporary shipping files
+        run: rm scripts/.tmp_ch243_apply.py scripts/.tmp_ch243.txt .github/workflows/.tmp_ch243.yml
+      - name: Verify staged diff hygiene
+        run: |
+          git add -A
+          git diff --cached --check
+          test "$(git diff --cached --name-only b0fd44f471d2dbab4d89b8b7fe03c19e6f2300f2 | sort | tr '\n' ' ')" = "state/MANUSCRIPT_CHAPTER_INDEX.md state/MANUSCRIPT_STATE.md state/MANUSCRIPT_WORKFLOW.md state/OPEN_THREADS.md state/PROJECT_STATE.md state/manuscript/Peg_Leg_Greg_Running_Manuscript.md "
+      - name: Commit shipped chapter
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Ship Chapter 243: THE MINDER"
+          git push origin HEAD:manuscript/ch243-minder
