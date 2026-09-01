@@ -157,7 +157,7 @@ def _make_paragraph(text: str, template_element):
     return p
 
 
-def promote_chapters(docx_path: Path, chapters_dir: Path, chapters: list[int]) -> None:
+def promote_chapters(docx_path: Path, chapters_dir: Path, chapters: list[int]) -> bool:
     docx_path = Path(docx_path)
     chapters_dir = Path(chapters_dir)
     requested = sorted(set(chapters))
@@ -178,6 +178,9 @@ def promote_chapters(docx_path: Path, chapters_dir: Path, chapters: list[int]) -
     for chapter in requested:
         if chapter not in before:
             raise ValueError(f"chapter {chapter} not found in canonical DOCX")
+
+    if all(before[chapter] == replacements[chapter] for chapter in requested):
+        return False
 
     for chapter in sorted(requested, reverse=True):
         headings = _heading_map(doc)
@@ -212,6 +215,7 @@ def promote_chapters(docx_path: Path, chapters_dir: Path, chapters: list[int]) -
             if chapter not in requested and after.get(chapter) != paragraphs:
                 raise ValueError(f"untargeted chapter {chapter} changed")
         tmp_path.replace(docx_path)
+        return True
     finally:
         if tmp_path.exists():
             tmp_path.unlink()
@@ -237,8 +241,11 @@ def main() -> int:
     parser.add_argument("--chapters-dir", type=Path, default=Path("chapters"))
     args = parser.parse_args()
     chapters = _parse_range(args.range)
-    promote_chapters(args.docx, args.chapters_dir, chapters)
-    print(f"promoted Book 1 chapters {chapters[0]}-{chapters[-1]} into {args.docx}")
+    changed = promote_chapters(args.docx, args.chapters_dir, chapters)
+    if changed:
+        print(f"promoted Book 1 chapters {chapters[0]}-{chapters[-1]} into {args.docx}")
+    else:
+        print(f"Book 1 chapters {chapters[0]}-{chapters[-1]} already synchronized in {args.docx}")
     return 0
 
 
