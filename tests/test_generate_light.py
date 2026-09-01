@@ -56,6 +56,21 @@ class GenerateLightTests(unittest.TestCase):
         self.assertEqual([c['number'] for c in manifest['chapters']], [220, 221])
         self.assertIn('light/221.html', latest)
 
+    def test_current_does_not_skip_missing_numeric_chapter_in_navigation(self):
+        root = self.with_repo()
+        gapped = '''# PEG-LEG GREG — RUNNING MANUSCRIPT\n\n# CHAPTER 220\n\n## THE FIRST\n\nFirst.\n\n# CHAPTER 222\n\n## THE THIRD\n\nThird.\n'''
+        (root / 'state/manuscript/Peg_Leg_Greg_Running_Manuscript.md').write_text(gapped, encoding='utf-8')
+        result = run('current', cwd=root)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        p220 = (root / 'light/220.html').read_text(encoding='utf-8')
+        p222 = (root / 'light/222.html').read_text(encoding='utf-8')
+        manifest = json.loads((root / 'light/manifest.json').read_text(encoding='utf-8'))
+        latest = (root / 'latest.html').read_text(encoding='utf-8')
+        self.assertNotIn('href="222.html"', p220)
+        self.assertNotIn('href="220.html"', p222)
+        self.assertEqual(manifest['latest'], 222)
+        self.assertIn('light/222.html', latest)
+
     def test_reader_facing_copy_does_not_expose_internal_source_language(self):
         root = self.with_repo()
         result = run('current', cwd=root)
