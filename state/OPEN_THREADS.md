@@ -1,6 +1,6 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Current endpoint:** Chapter 236 — **THE DISTRIBUTOR**.
+- **Current endpoint:** Chapter 237 — **THE BEARER**.
 - **Permanent forward manuscript:** `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`. Chapters 156–219 still need exact-text synchronization into the permanent manuscript; Chapter 220+ writes directly here. Light Reader synchronization is a separate downstream concern.
 - **Engine method:** `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves durable 01 behavior and recovery instructions.
 - **Magic counts:** ACTIVE at 34 supervised minimal draws / 30 deliberate shaping attempts / 49 external-effect attempts.
@@ -75,7 +75,13 @@
 - **Ch236 theatre/work:** a new Rinna call produces a five-stop handbill route, one ordinary overcount corrected by a tea-room girl, later door-frame work with Jori/Davin, and normal one-copper pay.
 - **Ch236 next obligation:** Greg has **The Missing Key** Messenger pages, eight lines, three entrances, and Nessa's short dark-green coat. Tomorrow morning rehearsal is firm; performance remains conditional on Teren keeping the piece paired.
 - **Ch236 household/body/magic/Vale:** ordinary route/work fatigue only, no injury. Beans disappear off-page with purpose unresolved; brown cloth stays same fold/three pins; damaged shirt stays three loose threads. No Hessa/magic or Vale work/credit. Magic remains 34 / 30 / 49.
-- **Next engine rotation:** Chapter 237 has a concrete theatre obligation already earned by prose. Let the Ch236 pressure fact remain recorded rather than stacking another clue on a timer.
+- **Ch237 The Missing Key:** Greg rehearses/performs Messenger (eight lines, three entrances) with Hara as Mistress, Marek as younger brother, and Pell as Clerk. Nessa uses the short dark-green coat and three differently folded notes; Jori gives Greg a clean route behind Pell. Back latch repair is ordinary maintenance and now closes cleanly.
+- **Ch237 mistake/correction:** Greg's rehearsal tendency is to linger after delivering a message so he can watch the reaction. In performance he lingers for his second-entrance laugh and accidentally says the later `No key` line too early. Hara continues; Pell later bridges the true third entrance by taking the note. Greg does not rescue himself with a brilliant improv. Teren's note remains narrow: if the laugh is Greg's, leave with it.
+- **Ch237 strongest beat:** Hara owns the larger laugh after the final message says the key is under the already-broken blue vase and she asks Marek's character `Which piece?`
+- **Ch237 next theatre status:** `Again tomorrow if it stays paired.` Conditional only. Greg remains Messenger unless Teren changes it; no guaranteed performance.
+- **Ch237 pressure/magic/Vale:** no new threat fact or investigation, no Hessa/magic, no Vale work/credit. Magic remains 34 / 30 / 49; debt remains active and unstated. Greg receives normal one-copper theatre pay.
+- **Ch237 household:** Lyssa already home; beans remain unexplained/off-page. Brown cloth remains same fold/three pins and shirt remains three loose threads. A separate small paper-wrapped item near Lyssa's elbow is unidentified and not automatically a plot thread.
+- **Next engine rotation:** let the full Ch237 theatre day breathe. Follow the next actual obligation; conditional theatre, Vale, friendship/social life, Lyssa/household, ordinary Carrow, or a later bounded Hessa return are available only if the next day earns them.
 - **Ch229 Marra route:** Greg carries the still-undefined blue-gray cloth to Marra after brief window-trim work. He knows the green-door route and work lane without directions; Marra still calls him `the road one`.
 - **Ch229 blue-gray cloth ceiling:** Jessa finds two short chalk marks near an edge and calls the cloth `Marked`. Its customer, garment, ownership, intended use, and the exact meaning of the marks remain unestablished.
 - **Ch229 Lyssa network:** Marra/Jessa/customer traffic continues without Greg. An unnamed customer asks for Lyssa and says tomorrow afternoon is fine; Jessa later finds Lyssa independently. Do not assign formal Marra/Jessa roles or merge the customer with earlier unnamed/referral customers.

@@ -119,6 +119,6 @@ GitHub provides durable continuity. The re-prompt gives the next writing session
 
 ## Current edge
 
-Chapter 236 — **THE DISTRIBUTOR**.
+Chapter 237 — **THE BEARER**.
 
-See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 237 edge.
+See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 238 edge.
