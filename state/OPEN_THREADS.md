@@ -1,6 +1,6 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Current endpoint:** Chapter 237 — **THE BEARER**.
+- **Current endpoint:** Chapter 238 — **THE SEALER**.
 - **Permanent forward manuscript:** `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`. Chapters 156–219 still need exact-text synchronization into the permanent manuscript; Chapter 220+ writes directly here. Light Reader synchronization is a separate downstream concern.
 - **Engine method:** `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves durable 01 behavior and recovery instructions.
 - **Magic counts:** ACTIVE at 34 supervised minimal draws / 30 deliberate shaping attempts / 49 external-effect attempts.
@@ -81,7 +81,11 @@
 - **Ch237 next theatre status:** `Again tomorrow if it stays paired.` Conditional only. Greg remains Messenger unless Teren changes it; no guaranteed performance.
 - **Ch237 pressure/magic/Vale:** no new threat fact or investigation, no Hessa/magic, no Vale work/credit. Magic remains 34 / 30 / 49; debt remains active and unstated. Greg receives normal one-copper theatre pay.
 - **Ch237 household:** Lyssa already home; beans remain unexplained/off-page. Brown cloth remains same fold/three pins and shirt remains three loose threads. A separate small paper-wrapped item near Lyssa's elbow is unidentified and not automatically a plot thread.
-- **Next engine rotation:** let the full Ch237 theatre day breathe. Follow the next actual obligation; conditional theatre, Vale, friendship/social life, Lyssa/household, ordinary Carrow, or a later bounded Hessa return are available only if the next day earns them.
+- **Ch238 Vale/sealing work:** Greg checks Vale rather than waiting on a conditional theatre maybe. The ink-fingered clerk gives him outgoing-account sealing work with a narrow check/fold/tie/wait-for-ink-stroke/wax/stamp routine. Greg makes ordinary wax/authorization mistakes, catches one wrong-wrapper house-mark mismatch, and receives legitimate debt credit after completing the work; exact credit/balance remain unstated.
+- **Ch238 theatre tradeoff:** Rinna's boy later confirms **The Missing Key** is paired and calls Greg for rehearsal/show. Greg stays at Vale because the packets must leave that day. The theatre uses Venn as Messenger and performs without Greg. Teren says tomorrow is a different pairing and the piece is done for now; Greg has no standing theatre obligation and receives no theatre pay.
+- **Ch238 pressure/magic:** no new threat fact, supplier report, investigation, security response, Hessa appearance, or magic attempt. Ch236's delivery/access question remains newest pressure evidence. Magic remains 34 / 30 / 49 with restrictions unchanged.
+- **Ch238 household/body:** ordinary seated stiffness/string-wax finger warmth only, no injury. Brown cloth remains same fold/three pins; damaged shirt remains three loose threads; beans remain off-page; Ch237's small paper-wrapped item is gone without explanation.
+- **Next engine rotation:** let Ch238's Vale/theatre tradeoff breathe. Prefer a fresh social/Carrow/Lyssa claim, or Hessa only if a bounded question is actually selected; theatre, Vale, or pressure return only through a genuinely new obligation/fact.
 - **Ch229 Marra route:** Greg carries the still-undefined blue-gray cloth to Marra after brief window-trim work. He knows the green-door route and work lane without directions; Marra still calls him `the road one`.
 - **Ch229 blue-gray cloth ceiling:** Jessa finds two short chalk marks near an edge and calls the cloth `Marked`. Its customer, garment, ownership, intended use, and the exact meaning of the marks remain unestablished.
 - **Ch229 Lyssa network:** Marra/Jessa/customer traffic continues without Greg. An unnamed customer asks for Lyssa and says tomorrow afternoon is fine; Jessa later finds Lyssa independently. Do not assign formal Marra/Jessa roles or merge the customer with earlier unnamed/referral customers.

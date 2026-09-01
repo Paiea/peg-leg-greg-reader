@@ -1,6 +1,6 @@
-# PEG-LEG GREG — CHAPTER INDEX — CH237
+# PEG-LEG GREG — CHAPTER INDEX — CH238
 
-**Current endpoint:** Chapter 237 — THE BEARER
+**Current endpoint:** Chapter 238 — THE SEALER
 
 1. **THE BOY**
 2. **THE BORROWER**
@@ -239,3 +239,4 @@
 235. **THE TAGALONG**
 236. **THE DISTRIBUTOR**
 237. **THE BEARER**
+238. **THE SEALER**
