@@ -1,5 +1,5 @@
 {
-  "latest": 247,
+  "latest": 248,
   "chapters": [
     {
       "number": 156,
@@ -552,6 +552,12 @@
       "title": "THE PATRON",
       "source": "manuscript",
       "path": "247.html"
+    },
+    {
+      "number": 248,
+      "title": "THE CONSTANT",
+      "source": "manuscript",
+      "path": "248.html"
     }
   ]
 }

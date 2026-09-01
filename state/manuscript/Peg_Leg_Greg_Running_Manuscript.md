@@ -29609,3 +29609,1118 @@ Mira's head was probably cold.
 That was enough change for one day.
 
 ------------------------------------------------------------------------
+
+# CHAPTER 248
+
+## THE CONSTANT
+
+Hessa's note was under the cup when I woke.
+
+That was rude for two reasons.
+
+First, the cup had become enough of a place for notes that I checked it before checking whether Lyssa was home.
+
+Second, the note said:
+
+AFTER MIDDAY.
+EAT.
+SAME BOARD.
+SWITCH THE FINS.
+
+I read it twice.
+
+Lyssa was not home.
+
+That answered one question and created no useful information about the note.
+
+The reddish-brown sample still sat beside the darker substitute spool near her side of the table. The long-standing brown cloth remained by the wall in the same fold with the same three pins. My damaged shirt remained on the shelf with three loose threads.
+
+Nothing had improved overnight except my ability to see my own forehead.
+
+I touched the front of my hair out of habit and found nothing in my eyes.
+
+Still strange.
+
+I put the note beside the bread.
+
+Switch the fins.
+
+Not distance.
+
+Not direction.
+
+Not a new target.
+
+Not a larger target.
+
+The fins.
+
+I knew better than to solve Hessa's experiment before arriving.
+
+I did it anyway.
+
+The current apparatus used two small paper fins behind the glass. One was the target. One was the control. They had occupied their same marks long enough that I thought of them as target and control rather than as two physical pieces of paper.
+
+If Hessa meant what she had written, the positions would stay.
+
+The papers would trade places.
+
+That was annoyingly good.
+
+I ate bread.
+
+Then I ate more bread because the note had said eat and because arriving hungry would let Hessa use my own stupidity as a variable.
+
+The room stayed quiet around me.
+
+No theatre boy arrived.
+
+No Vale runner knocked.
+
+No customer came looking for Lyssa.
+
+No one asked me to buy thread.
+
+I had enough morning to become interested in Hessa's note and not enough authority to do anything about it.
+
+Dangerous combination.
+
+I washed the cup.
+
+Swept.
+
+Missed the same corner I had missed yesterday.
+
+Considered correcting this only because I knew I had missed it.
+
+Left it because floors did not become experiments merely because I was bored.
+
+By late morning the exposed sides of my head had stopped feeling like new architecture. Wind still found my ears immediately when I stepped outside.
+
+I disliked this on principle.
+
+Carrow was bright and busy without being warm. A cart with three stacked baskets occupied the first crossing. A woman behind it had one hand on a child's shoulder and the other around a bundle of greens. She waited without trying to become part of the cart problem.
+
+So did I.
+
+The driver got the wheel straight.
+
+We crossed.
+
+Nobody learned anything.
+
+Good city.
+
+I took the familiar route toward Hessa's room slowly enough that I would not arrive early and spend twenty minutes looking at paper I was forbidden to touch.
+
+This plan failed because I still arrived early.
+
+Hessa's door was open.
+
+She was already inside.
+
+The board stood where it always stood.
+
+The glass shield stood where it always stood.
+
+The chair sat on the same floor lines.
+
+INTERMEDIATE and FAR remained marked.
+
+The two fins were not where they always stood.
+
+I stopped at the door.
+
+The target mark at INTERMEDIATE held the paper that had previously been the control.
+
+The control mark held the paper that had previously been the target.
+
+Same two physical fins.
+
+Different jobs.
+
+Hessa looked up from her notes.
+
+"You ate?"
+
+"Twice."
+
+"Good."
+
+I went inside.
+
+"You switched them."
+
+"Yes."
+
+"Before I arrived."
+
+"Yes."
+
+"So I cannot admire the procedure."
+
+"You can admire the result."
+
+"They look identical."
+
+"Then admire quietly."
+
+I put my crutches in their usual place.
+
+My right leg felt normal. Residual limb comfortable. Shoulders fine. Left tip normal. Left grip normal. Right grip normal. The small tack remained where it belonged and nowhere near my hand.
+
+I sat.
+
+Hessa did not start.
+
+She looked at me.
+
+I looked at the swapped fins.
+
+"What is the question?" she asked.
+
+There it was.
+
+I considered giving her the clever answer.
+
+Did the paper remember being the target?
+
+I decided I enjoyed remaining indoors.
+
+"Whether the responses belong to the original target fin."
+
+"Belong?"
+
+"Whether that specific physical piece has something about it that makes it respond."
+
+"Better."
+
+I pointed toward the board.
+
+"Former control is now target. Same target position."
+
+"Yes."
+
+"Former target is now control. Same control position."
+
+"Yes."
+
+"Intermediate only?"
+
+"Yes."
+
+"Away only."
+
+"Yes."
+
+"Same glass. Same chair. Same body position."
+
+"Yes."
+
+"Four?"
+
+"Four. Break after two."
+
+I nodded.
+
+Then frowned.
+
+"Why intermediate?"
+
+Hessa waited.
+
+I answered myself before she could.
+
+"Because it has more observed responses in the accumulated record. Better chance of learning something about the fin swap without also changing distance."
+
+"Yes."
+
+"Not because intermediate is reliable."
+
+"No."
+
+"Not because far stopped mattering."
+
+"No."
+
+"Not because one out of four was prettier."
+
+Hessa stared at me.
+
+I smiled.
+
+"Still healing."
+
+She checked the board.
+
+Not the idea of the board.
+
+The board.
+
+She measured the target position against the existing INTERMEDIATE mark. Checked the control mark. Checked the glass. Checked both paper fins. One had a tiny pencil nick near the base that I had seen often enough to recognize it as the old control. The other had the faintest crease near one lower corner and had been the old target.
+
+The nick was now at the target position.
+
+The crease was now at control.
+
+I liked that more than I should have.
+
+Hessa noticed.
+
+"What?"
+
+"Nothing."
+
+"Your face says otherwise."
+
+Apparently the haircut had removed protective cover.
+
+"It makes the question visible."
+
+"Good."
+
+"You are abusing that word."
+
+She went back to the record.
+
+"Minimal first."
+
+Thirty-five successful supervised minimal draws already existed.
+
+That number did not make the next one automatic.
+
+I put my right forearm where Hessa indicated and settled into the familiar geometry. Shoulder down. Hand easy. Right foot planted. Left knee comfortable. Nothing dramatic in the body because the body had become good at sitting in this exact place without turning that familiarity into permission.
+
+Hessa gave the start.
+
+I drew.
+
+Clean.
+
+Small.
+
+No pain.
+
+No strange movement.
+
+No reason to stop.
+
+Hessa marked it.
+
+Thirty-six supervised minimal draws.
+
+Then shaping.
+
+Same narrow allowed form.
+
+No expansion.
+
+No experiment hidden inside the experiment.
+
+I held it steadily enough that the first thing I noticed was boredom.
+
+That was probably progress.
+
+The second thing I noticed was my shoulder wanting to creep upward near the end.
+
+I lowered it before it changed the attempt.
+
+Hessa saw.
+
+She said nothing until I finished.
+
+Then she marked the completion.
+
+Thirty-two supervised deliberate shaping attempts.
+
+"External," she said.
+
+I looked through the glass.
+
+The old control fin sat where the target had always sat.
+
+INTERMEDIATE.
+
+AWAY.
+
+Attempt fifty-four.
+
+It was strange how quickly a piece of paper could acquire biography.
+
+I knew the old control had stayed still through every clean response I could remember. That was what it had been there to do.
+
+Now Hessa had moved it several inches and called it target.
+
+The paper had not agreed to anything.
+
+I settled.
+
+Hessa checked my hand.
+
+"Ready?"
+
+"Yes."
+
+Start.
+
+I worked.
+
+For a moment nothing happened.
+
+Then the fin moved.
+
+Small.
+
+Away.
+
+No obvious rotation.
+
+I stopped.
+
+Hessa was already looking at the other fin.
+
+The original target, now sitting at the control mark, had not moved.
+
+She checked the target position.
+
+Then the control.
+
+Then the glass.
+
+Then me.
+
+"Small observed response," she said.
+
+"Net away."
+
+"No obvious rotation."
+
+"Control unchanged."
+
+She marked all of it.
+
+I looked at the old control fin.
+
+It had moved.
+
+Not much.
+
+Enough.
+
+"Well," I said.
+
+"No."
+
+"I have not said the thing yet."
+
+"You have several things."
+
+"Former control moved."
+
+"Yes."
+
+"While acting as target."
+
+"Yes."
+
+"Original target stayed still while acting as control."
+
+"On this attempt."
+
+"Yes."
+
+I smiled.
+
+Hessa pointed at me with the pencil.
+
+"One attempt."
+
+"I know."
+
+"Then look less satisfied."
+
+"I am not satisfied. I am interested."
+
+"Look less interested."
+
+Unreasonable profession.
+
+Attempt fifty-five.
+
+Same swapped fin arrangement.
+
+Same INTERMEDIATE mark.
+
+Same AWAY direction.
+
+Same chair.
+
+Same glass.
+
+Same body geometry as closely as Hessa and a nineteen-year-old human body could manage.
+
+This time I expected movement.
+
+That was not ideal.
+
+I told Hessa.
+
+"I expect it now."
+
+She wrote one short note.
+
+"Good."
+
+"You enjoy documentation because it lets you insult me permanently."
+
+"Ready?"
+
+I checked my hand.
+
+Loose.
+
+Shoulder down.
+
+Breath normal.
+
+"Yes."
+
+Start.
+
+Nothing moved.
+
+I worked through the permitted attempt.
+
+Still nothing.
+
+Target still.
+
+Control still.
+
+Hessa waited the usual interval and checked both.
+
+"No observed response."
+
+"Control unchanged."
+
+She marked it.
+
+One response.
+
+One non-response.
+
+The former control fin had immediately become less cooperative the moment I started developing feelings about it.
+
+Hessa closed the page.
+
+"Break."
+
+I stood with my crutches.
+
+My right leg had stiffened slightly from sitting. Ordinary. My forearm carried the usual mild warmth from the work. No pain. No weakness. No tingling. Residual limb comfortable.
+
+I walked the short circuit inside the room.
+
+Hessa inspected the fins.
+
+Not casually.
+
+She came around the glass, checked the old control fin at the target mark, then the old target at the control mark.
+
+"What are you looking for?"
+
+"Damage."
+
+"From the movement?"
+
+"From anything."
+
+She lifted neither paper.
+
+Looked at edges.
+
+Base.
+
+Marks.
+
+Then returned to her side.
+
+"Anything?"
+
+"Nothing obvious."
+
+I sat after the stiffness eased.
+
+"So the first response says the old control can respond when it occupies the target position."
+
+"Under this setup."
+
+"Which means the original target paper is not uniquely magical."
+
+Hessa looked at me.
+
+I corrected myself.
+
+"It argues against the observed effect being unique to that original target fin."
+
+"Better."
+
+"Not proves paper identity never matters."
+
+"Correct."
+
+"Not proves any paper works."
+
+"Correct."
+
+"Not proves position causes it."
+
+"Correct."
+
+"Not proves I am targeting a position."
+
+"Correct."
+
+"Not proves the word target has physical authority over paper."
+
+Hessa paused.
+
+"What does that mean?"
+
+"Nothing defensible."
+
+"Then don't say it."
+
+Fair.
+
+I drank from the water she finally pushed toward me.
+
+Progress in several fields.
+
+"Why not swap them back for the last two?" I asked.
+
+"Because then I change the condition halfway through the block."
+
+"Could compare."
+
+"Poorly."
+
+"Next session?"
+
+"No experiment has been selected after this one."
+
+There she was.
+
+"You prepared that answer."
+
+"I know you."
+
+I drank again.
+
+Attempt fifty-six came after the planned break.
+
+Same swapped arrangement.
+
+Former control remained target.
+
+Original target remained control.
+
+I settled into the chair again.
+
+My body felt ordinary. Right leg better after walking. Forearm warm but normal. Shoulder fine. Hand fine.
+
+Hessa rechecked the paper positions and glass.
+
+"Ready?"
+
+"Yes."
+
+Start.
+
+I worked.
+
+Nothing.
+
+Target still.
+
+Control still.
+
+I caught myself waiting for the final instant to produce something dramatic.
+
+It did not.
+
+Hessa checked.
+
+"No observed response."
+
+"Control unchanged."
+
+She marked it.
+
+Attempt fifty-seven.
+
+Last of the block.
+
+I looked at the former control fin.
+
+It had moved once in three attempts so far.
+
+That number meant almost nothing and still managed to sit loudly in my head.
+
+I said, "I expect nothing now."
+
+Hessa wrote it.
+
+"You could simply stop asking."
+
+"Then how would future scholars know I was annoying?"
+
+"The record is sufficient."
+
+I smiled.
+
+Then settled.
+
+Loose hand.
+
+Shoulder down.
+
+No extra effort because the last attempt had failed.
+
+No withholding effort because I expected another failure.
+
+Or as close to that impossible middle as I could make myself.
+
+Hessa gave the start.
+
+I worked.
+
+The former control fin moved.
+
+Small again.
+
+Away.
+
+No obvious rotation.
+
+The original target at control stayed still.
+
+I stopped.
+
+Hessa checked everything before speaking.
+
+Target position.
+
+Control position.
+
+Glass.
+
+Paper edges.
+
+My hand.
+
+Then the page.
+
+"Small observed response."
+
+"Net away."
+
+"No obvious rotation."
+
+"Control unchanged."
+
+She marked attempt fifty-seven.
+
+I leaned back.
+
+Four attempts with the physical fins swapped.
+
+Two observed target responses.
+
+Two non-responses.
+
+Control unchanged on all four.
+
+The old control paper had moved twice while occupying the target position.
+
+The old target paper had stayed still all four times while occupying control.
+
+It was the cleanest rude answer I had received in weeks.
+
+"Two out of four," I said.
+
+Hessa looked at me.
+
+"In this block."
+
+"Not a rate."
+
+"Correct."
+
+"Not more reliable than intermediate before."
+
+"Correct."
+
+"Even though it is two and the last fixed intermediate block was one."
+
+"Correct."
+
+"Because blocks are not replacement histories."
+
+"Correct."
+
+"You could vary the word."
+
+"No."
+
+I looked at the two papers.
+
+The visible thing had changed more than the claim had.
+
+The fin I had watched as control across session after session had moved twice when Hessa put it in the target place.
+
+That mattered.
+
+It simply mattered less extravagantly than my brain wanted.
+
+"What can we say?" I asked.
+
+Hessa pulled the previous sheets closer.
+
+"Under the current apparatus, with the former control fin occupying the target position at INTERMEDIATE and the former target fin occupying control, the new target produced two clean observed AWAY responses in four attempts. The control remained unchanged on all four."
+
+"That is what happened."
+
+"Yes."
+
+"Interpretation."
+
+She looked at the old target paper now sitting still at control.
+
+"The accumulated target responses are not explained by the original target fin being the only physical fin capable of responding."
+
+I nodded slowly.
+
+That was larger than one response and smaller than magic choosing a position.
+
+Useful size.
+
+"Does physical identity not matter?"
+
+"Not established."
+
+"Does target position matter?"
+
+"Not isolated."
+
+"Does whichever fin I am trying to affect become the target?"
+
+"Not established."
+
+"Would the same thing happen at FAR?"
+
+"Not tested."
+
+"Would a new paper fin do it?"
+
+"Not tested."
+
+"Can I practice with scraps at home?"
+
+Hessa stared at me.
+
+"I wanted completeness."
+
+"No."
+
+"Restrictions unchanged."
+
+"Completely."
+
+"No independent draw."
+
+"No."
+
+"No shaping."
+
+"No."
+
+"No external testing."
+
+"No."
+
+"No paper."
+
+"No."
+
+"Coins?"
+
+"No."
+
+"Thread?"
+
+"No."
+
+I smiled slightly because recent life had made that one funny to me and nobody else.
+
+Hessa did not ask.
+
+Good relationship.
+
+"No larger objects," I continued.
+
+"No."
+
+"No Barrier broadening."
+
+"No."
+
+"No theatrical magic."
+
+"No."
+
+"No loopholes."
+
+"Especially no loopholes."
+
+There it was.
+
+I flexed my right hand.
+
+Warm from work.
+
+Normal strength.
+
+No pain.
+
+No tingling.
+
+No reason for the chapter to become medical.
+
+Hessa wrote for a while.
+
+The two swapped fins stayed exactly where they had ended.
+
+I expected her to move them back.
+
+She did not.
+
+"You're leaving them?"
+
+"For now."
+
+"Why?"
+
+"I want to inspect them before I change anything."
+
+"For damage."
+
+"And read the record."
+
+"Then swap back?"
+
+She looked at me.
+
+I raised both hands as much as sitting allowed.
+
+"Not selected."
+
+"Correct."
+
+I collected my crutches.
+
+Thirty-six supervised minimal draws.
+
+Thirty-two supervised deliberate shaping attempts.
+
+Fifty-seven supervised external-effect attempts.
+
+The restrictions had not moved at all.
+
+The physical paper had.
+
+Outside, afternoon had turned colder without earning rain.
+
+I bought a small hot potato from a street brazier because I had eaten bread hours ago and because evidence did not feed people.
+
+The seller split it, rubbed salt into the middle, and handed it over in a scrap of thick paper.
+
+I ate standing beside the brazier until both hands were needed again.
+
+Then I continued home.
+
+The city had no interest in my swapped fins.
+
+Two men were unloading crockery from a cart and arguing about which crate was heavier after both had already lifted theirs. A girl carried three empty buckets downhill at enough speed to make the return trip seem like somebody else's problem. A man with a dog stopped in the middle of the lane because the dog had found a smell worthy of civic delay.
+
+I waited.
+
+The dog finished first.
+
+At home, Lyssa was back.
+
+She sat at the table with the reddish-brown sample and darker spool near one elbow.
+
+Still together.
+
+Still no garment I could identify.
+
+The brown cloth remained folded near the wall.
+
+Three pins.
+
+The damaged shirt remained on the shelf.
+
+Three threads.
+
+Lyssa looked up.
+
+Her eyes went to my hair first.
+
+Not because it had changed again.
+
+Because it had not.
+
+Then she looked at my face.
+
+"Hessa?"
+
+"Yes."
+
+"Paper?"
+
+"Yes."
+
+She waited.
+
+I sat across from her.
+
+"She switched them."
+
+Lyssa looked at the sample in her hand.
+
+Then back at me.
+
+"The papers."
+
+"Yes."
+
+"Target and other one."
+
+"Control."
+
+"Other one."
+
+Fair.
+
+"Same distance?" she asked.
+
+"Intermediate. All four."
+
+"Same direction?"
+
+"Away."
+
+"Moved?"
+
+"The old control did. Twice."
+
+That made her pause.
+
+"Old target?"
+
+"Control now. Stayed still."
+
+She nodded once.
+
+Then picked up the darker spool.
+
+I waited for analysis.
+
+None came.
+
+"That's all?" I asked.
+
+"You said it moved."
+
+"Twice."
+
+"Yes."
+
+"And the old target stayed still."
+
+"Yes."
+
+"That interests you less than it interests me."
+
+Lyssa held the thread against the sample near the window.
+
+"It is your paper."
+
+"Hessa would object to ownership."
+
+"Hessa's paper."
+
+"Better."
+
+She set both down again.
+
+I looked at the sample.
+
+Still close.
+
+Still not my question.
+
+"Rules changed?" she asked.
+
+"No."
+
+"Then good."
+
+I narrowed my eyes.
+
+"You all coordinate this word."
+
+"Who?"
+
+"Everyone."
+
+"No."
+
+She stood and went to the shelf.
+
+I expected food.
+
+There was almost none.
+
+Lyssa looked at the shelf.
+
+Then at me.
+
+"Did you eat the last bread?"
+
+I considered lying.
+
+Not because theatre had taught me anything useful.
+
+Because I had eaten the last bread.
+
+"Possibly."
+
+"Greg."
+
+"There was a note."
+
+"Bread."
+
+"It said eat."
+
+"All of it?"
+
+"It lacked quantities."
+
+Lyssa swore.
+
+Tomorrow had acquired groceries.
+
+------------------------------------------------------------------------

@@ -1,13 +1,18 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Current endpoint:** Chapter 247 — **THE PATRON**.
+- **Current endpoint:** Chapter 248 — **THE CONSTANT**.
 - **Permanent forward manuscript:** `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`. Chapters 156–219 still need exact-text synchronization into the permanent manuscript; Chapter 220+ writes directly here. Light Reader synchronization is a separate downstream concern.
 - **Engine method:** `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves durable 01 behavior and recovery instructions.
+- **Ch248 Hessa fin-swap session:** same room/board/glass/chair/body geometry, fixed INTERMEDIATE target/control marks, AWAY only; the two existing physical paper fins trade jobs. Former control becomes target; former target becomes control. One clean minimal draw + one clean shaping attempt; final counts **36 / 32 / 57**.
+- **Ch248 external results:** 54 former-control-now-target small clean AWAY response/no obvious rotation/control unchanged; 55 no response/control unchanged; planned break; 56 no response/control unchanged; 57 former-control-now-target small clean AWAY response/no obvious rotation/control unchanged.
+- **Ch248 interpretation ceiling:** argues against the original target fin being the only physical fin capable of response. Does NOT establish physical-fin irrelevance generally, target-position/designation causality, response rate, reliability, paper generalization, FAR behavior, range, or generalized control.
+- **Ch248 magic restraint:** restrictions unchanged. Hessa leaves the fins swapped temporarily for inspection/record review and has NO selected next experiment. Do not infer a swap-back/FAR/new-paper/new-direction follow-up.
+- **Ch248 non-magic restraint / household:** no theatre, Vale, Maren, barber/Mira, or pressure event. Debt active/unstated; Ch236 latest pressure evidence. Brown cloth same fold/three pins; damaged shirt three loose threads; Ch246 sample/darker spool paired/unexplained; delivery-crate contents unknown; Ch247 haircut continuity unchanged.
 - **Ch247 ordinary-life residue:** Greg gets an ordinary paid haircut at an unnamed Lower Steps barber shop after Lyssa notes his hair is in his eyes. Front is now clear of his eyes, ears are clear, hair no longer touches his collar, and sides/back are shorter than before. Barber name remains unknown; Mira is only another customer. Do not immediately turn the shop into a standing social route.
 - **Ch247 threat ceiling:** a short man in a heavy coat waits for an ordinary haircut after Greg arrives. This is NOT pressure evidence and has no established connection to Bren, the brown-coat observer, theatre, Vale, or any threat actor. Ch236 remains the latest grounded pressure fact.
 - **Ch247 subsystem restraint:** no theatre, Vale, Hessa, Maren, or pressure event. Magic stays 35 / 31 / 53; debt remains active/unstated; Ch236 remains latest pressure evidence.
 - **Ch247 household continuity:** brown cloth remains same fold/three pins; damaged shirt remains three loose threads; Ch246 sample and darker substitute spool remain paired and unexplained; delivery-crate contents remain unknown.
-- **Magic counts:** ACTIVE at 35 supervised minimal draws / 31 deliberate shaping attempts / 53 external-effect attempts.
+- **Magic counts:** ACTIVE at 36 supervised minimal draws / 32 deliberate shaping attempts / 57 external-effect attempts.
 - **Latest comparison protocol:** Ch230 predeclares INTERMEDIATE → FAR → INTERMEDIATE → FAR, AWAY only, preserving the same target/control/glass/body setup and the same INTERMEDIATE/FAR marks as Ch226.
 - **Attempt 38:** FAR/AWAY, no observed response, control unchanged.
 - **Attempt 39:** INTERMEDIATE/AWAY, small observed target response, net AWAY, minor rotation, control unchanged.
@@ -25,6 +30,10 @@
 - **Attempt 51:** FAR/AWAY, no observed response, control unchanged.
 - **Attempt 52:** FAR/AWAY, small observed target response, net AWAY, no obvious rotation, control unchanged.
 - **Attempt 53:** FAR/AWAY, no observed response, control unchanged.
+- **Attempt 54:** INTERMEDIATE/AWAY with physical fins swapped; former-control-now-target gives a small observed response, net AWAY, no obvious rotation; original-target-now-control unchanged.
+- **Attempt 55:** INTERMEDIATE/AWAY with fins still swapped, no observed response; control unchanged.
+- **Attempt 56:** INTERMEDIATE/AWAY with fins still swapped, no observed response; control unchanged.
+- **Attempt 57:** INTERMEDIATE/AWAY with fins still swapped; former-control-now-target gives a small observed response, net AWAY, no obvious rotation; control unchanged.
 - **Current distance interpretation:** INTERMEDIATE and FAR have both produced clean observed responses under the current apparatus and both also produce clean non-responses. Ch240 adds one clean FAR response inside a fixed FAR-only block. Ch234's fixed INTERMEDIATE block and Ch240's fixed FAR block each happen to show one response in four attempts, but this does not establish equal response rates or equivalence and does not erase the longer accumulated record. The accumulated record still supports an apparent distance-associated difference; FAR remains unreliable. No response rate. No range established. Not generalized.
 - **Magic restrictions:** unchanged. No independent draw, shaping, external testing, paper, coins, thread, larger objects, practice, Barrier broadening, theatrical magic, or loopholes.
 - **Ch234 fixed INTERMEDIATE block:** predeclared INTERMEDIATE → INTERMEDIATE → INTERMEDIATE → INTERMEDIATE, AWAY only, same current apparatus, planned break after two. Results: 46 no response / 47 small response away with minor rotation / 48 no response / 49 no response; control unchanged on all four. Counts end **34 / 30 / 49**.
@@ -34,7 +43,7 @@
 - **Ch230 household residue:** a narrow folded brown cloth with three pins appears at home; customer/garment/ownership/use remain unknown. Greg's bad cuff repair reaches three loose threads and he leaves it alone. Lyssa returns with turnips and no garment.
 - **Ch240 fixed FAR block:** predeclared FAR → FAR → FAR → FAR, AWAY only, same current apparatus, planned break after two. Results: 50 no response / 51 no response / 52 small clean response away with no obvious rotation / 53 no response; control unchanged on all four. Counts end **35 / 31 / 53**.
 - **Ch240 interpretation ceiling:** FAR response recurs in a fixed FAR-only block but remains unreliable. The matching one-in-four outcomes of the Ch234 and Ch240 fixed blocks are not response rates and do not establish equivalence. Apparent distance-associated difference remains supported by the accumulated record. No range. Not generalized.
-- **Next magic question:** Hessa has no selected next experiment after Ch240. Attempt 52 does not authorize a ladder, new distance, new direction, new object, or independent practice.
+- **Next magic question:** Hessa has no selected next experiment after Ch248. She leaves the two existing fins in their swapped jobs only for inspection/record review. Attempts 54/57 do not authorize a swap-back block, FAR replication, new paper, new direction, ladder, range test, or independent practice.
 - **Ch231 theatre:** full **The Crooked Fence** rehearsal/performance day. Greg plays the fifteen-line, mostly seated **Magistrate**; Hara = Widow, Marek = Neighbor, Pell = Clerk. The Ch229 window trim is now part of the magistrate-room set.
 - **Ch231 acting correction:** Teren narrows Greg from chasing every answer to `The case comes to you` / `Let them bring the mess.` In performance Greg anticipates the seal-block cue and strikes early when Pell begins `Before judgment...`; Hara continues and Pell restarts. Post-show, Teren corrects Greg's `Hara fixed it` to `Hara continued.` Keep all of this theatre-specific, not a life maxim.
 - **Ch231 strongest beat:** Hara's Widow abandons her hard-fought land claim the instant Pell reveals the disputed strip includes the drainage ditch: `His.` / `I have spent an hour proving your ownership.` She owns the room; Greg's later line gets a smaller laugh.
