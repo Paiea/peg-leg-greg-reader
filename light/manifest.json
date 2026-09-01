@@ -1,5 +1,5 @@
 {
-  "latest": 236,
+  "latest": 237,
   "chapters": [
     {
       "number": 156,
@@ -486,6 +486,12 @@
       "title": "THE DISTRIBUTOR",
       "source": "manuscript",
       "path": "236.html"
+    },
+    {
+      "number": 237,
+      "title": "THE BEARER",
+      "source": "manuscript",
+      "path": "237.html"
     }
   ]
 }
