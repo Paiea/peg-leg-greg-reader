@@ -71,6 +71,24 @@ class GenerateLightTests(unittest.TestCase):
         self.assertEqual(manifest['latest'], 222)
         self.assertIn('light/222.html', latest)
 
+    def test_current_accepts_combined_exact_chapter_heading(self):
+        root = self.with_repo()
+        combined = '''# PEG-LEG GREG — RUNNING MANUSCRIPT\n\n# CHAPTER 231\n\n## THE MAGISTRATE\n\nBefore.\n\n## Chapter 232 — THE COUNTERSIGN\n\nExact countersign prose.\n\n# CHAPTER 233\n\n## THE SEAT\n\nAfter.\n'''
+        (root / 'state/manuscript/Peg_Leg_Greg_Running_Manuscript.md').write_text(combined, encoding='utf-8')
+        result = run('current', cwd=root)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        manifest = json.loads((root / 'light/manifest.json').read_text(encoding='utf-8'))
+        p231 = (root / 'light/231.html').read_text(encoding='utf-8')
+        p232 = (root / 'light/232.html').read_text(encoding='utf-8')
+        p233 = (root / 'light/233.html').read_text(encoding='utf-8')
+        self.assertEqual([c['number'] for c in manifest['chapters']], [231, 232, 233])
+        self.assertIn('THE COUNTERSIGN', p232)
+        self.assertIn('Exact countersign prose.', p232)
+        self.assertIn('href="232.html"', p231)
+        self.assertIn('href="231.html"', p232)
+        self.assertIn('href="233.html"', p232)
+        self.assertIn('href="232.html"', p233)
+
     def test_reader_facing_copy_does_not_expose_internal_source_language(self):
         root = self.with_repo()
         result = run('current', cwd=root)
