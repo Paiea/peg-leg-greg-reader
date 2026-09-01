@@ -1,5 +1,5 @@
 {
-  "latest": 234,
+  "latest": 235,
   "chapters": [
     {
       "number": 156,
@@ -474,6 +474,12 @@
       "title": "THE CONDITION",
       "source": "manuscript",
       "path": "234.html"
+    },
+    {
+      "number": 235,
+      "title": "THE TAGALONG",
+      "source": "manuscript",
+      "path": "235.html"
     }
   ]
 }
