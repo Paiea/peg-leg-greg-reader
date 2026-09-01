@@ -1,0 +1,131 @@
+name: Ship Chapter 244 Uncle
+
+on:
+  push:
+    branches:
+      - manuscript/ch244-uncle
+
+permissions:
+  contents: write
+
+jobs:
+  ship:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Apply Chapter 244 and state updates
+        run: python .github/scripts/ship_ch244_uncle.py
+
+      - name: Remove temporary shipping machinery
+        run: |
+          rm .github/scripts/ship_ch244_uncle.py
+          rm .github/workflows/ship-ch244-uncle.yml
+
+      - name: Verify Chapter 244 and durable state
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          manuscript = Path('state/manuscript/Peg_Leg_Greg_Running_Manuscript.md').read_text(encoding='utf-8')
+          assert manuscript.count('# CHAPTER 244') == 1
+          chapter = manuscript.split('# CHAPTER 244', 1)[1]
+          assert '# CHAPTER 245' not in chapter
+          words = len(re.findall(r"\b\w[\w'’-]*\b", chapter))
+          emdashes = chapter.count('—')
+          assert words == 2721, words
+          assert 2500 <= words <= 4000
+          assert emdashes == 0, emdashes
+          assert chapter.lstrip().startswith("## THE UNCLE\n\nThe theatre wanted me before I wanted breakfast.")
+          assert chapter.rstrip().endswith("I ate the cheese before it became evidence.")
+
+          state = Path('state/MANUSCRIPT_STATE.md').read_text(encoding='utf-8')
+          opn = Path('state/OPEN_THREADS.md').read_text(encoding='utf-8')
+          index = Path('state/MANUSCRIPT_CHAPTER_INDEX.md').read_text(encoding='utf-8')
+          flow = Path('state/MANUSCRIPT_WORKFLOW.md').read_text(encoding='utf-8')
+          project = Path('state/PROJECT_STATE.md').read_text(encoding='utf-8')
+
+          assert 'Current story endpoint: Chapter 244 — **THE UNCLE**.' in state
+          assert '35 successful supervised minimal draws.' in state
+          assert '31 supervised deliberate shaping attempts.' in state
+          assert '53 supervised external-effect attempts.' in state
+          assert 'Attempt 52 FAR/AWAY: small observed target response, net AWAY, no obvious rotation; control unchanged.' in state
+          assert 'NO RANGE ESTABLISHED. NOT GENERALIZED.' in state
+          assert 'Restrictions unchanged: no independent draw, shaping, external testing, paper, coins, thread, larger objects, practice, Barrier broadening, theatrical magic, or loopholes.' in state
+          assert 'Chapters 241–244 contain no Hessa appearance or magic attempt. Counts remain 35 / 31 / 53' in state
+          assert '## Chapter 244 — THE UNCLE' in state
+          assert '**The Guest Pot**' in state
+          assert '`Not paired yet`' in state
+          assert '## Immediate next edge — Chapter 245' in state
+          assert 'No Vale/Bren connection established.' in state
+          assert 'Ch236 remains the newest grounded pressure fact' in state
+
+          assert '**Current endpoint:** Chapter 244 — **THE UNCLE**.' in opn
+          assert '**Ch244 The Guest Pot:**' in opn
+          assert '**Ch244 next theatre status:**' in opn
+          assert 'Magic remains 35 / 31 / 53' in opn
+
+          assert '# PEG-LEG GREG — CHAPTER INDEX — CH244' in index
+          assert '**Current endpoint:** Chapter 244 — THE UNCLE' in index
+          assert index.rstrip().endswith('244. **THE UNCLE**')
+
+          assert 'Chapter 244 — **THE UNCLE**.' in flow
+          assert 'Chapter 245 edge.' in flow
+
+          assert '## Book 2\n\nClosed at Chapter 180 — **THE THIRD MAN**.' in project
+          assert '## Book 3\n\nActive from Chapter 181 — **THE CALLER**.' in project
+          assert 'Current recorded story endpoint is Chapter 244 — **THE UNCLE**.' in project
+
+          print(f'VERIFIED_CH244_WORDS={words}')
+          print(f'VERIFIED_CH244_EMDASHES={emdashes}')
+          print('VERIFIED_MAGIC_COUNTS=35/31/53')
+          print('VERIFIED_GUEST_POT_CONDITIONAL=1')
+          print('VERIFIED_BOOK3_HIERARCHY=1')
+          print('VERIFIED_ENDPOINTS=1')
+          PY
+
+      - name: Stage and inspect cleanup commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -A
+          git diff --cached --check
+          actual="$(git diff --cached --name-only | sort)"
+          expected="$(printf '%s\n' \
+            .github/scripts/ship_ch244_uncle.py \
+            .github/workflows/ship-ch244-uncle.yml \
+            state/MANUSCRIPT_CHAPTER_INDEX.md \
+            state/MANUSCRIPT_STATE.md \
+            state/MANUSCRIPT_WORKFLOW.md \
+            state/OPEN_THREADS.md \
+            state/PROJECT_STATE.md \
+            state/manuscript/Peg_Leg_Greg_Running_Manuscript.md | sort)"
+          printf '%s\n' "$actual"
+          test "$actual" = "$expected"
+          echo VERIFIED_STAGED_PATHS=8
+
+      - name: Commit verify net diff and push Chapter 244
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Ship Chapter 244: THE UNCLE"
+          actual="$(git diff --name-only cc288f192b01af9cda604b3763225a314f6f1e60..HEAD | sort)"
+          expected="$(printf '%s\n' \
+            state/MANUSCRIPT_CHAPTER_INDEX.md \
+            state/MANUSCRIPT_STATE.md \
+            state/MANUSCRIPT_WORKFLOW.md \
+            state/OPEN_THREADS.md \
+            state/PROJECT_STATE.md \
+            state/manuscript/Peg_Leg_Greg_Running_Manuscript.md | sort)"
+          printf '%s\n' "$actual"
+          test "$actual" = "$expected"
+          echo VERIFIED_NET_DIFF_PATHS=6
+          git push origin HEAD:manuscript/ch244-uncle
