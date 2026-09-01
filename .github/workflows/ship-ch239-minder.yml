@@ -1,0 +1,104 @@
+name: Ship Chapter 239 Minder
+
+on:
+  push:
+    branches:
+      - manuscript/ch239-minder
+
+permissions:
+  contents: write
+
+jobs:
+  ship:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Apply chapter and state updates
+        run: python .github/scripts/ship_ch239_minder.py
+
+      - name: Remove temporary shipping machinery
+        run: |
+          rm .github/scripts/ship_ch239_minder.py
+          rm .github/workflows/ship-ch239-minder.yml
+
+      - name: Verify Chapter 239 and durable state
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          manuscript = Path('state/manuscript/Peg_Leg_Greg_Running_Manuscript.md').read_text(encoding='utf-8')
+          assert manuscript.count('# CHAPTER 239') == 1
+          chapter = manuscript.split('# CHAPTER 239', 1)[1]
+          assert '# CHAPTER 240' not in chapter
+          words = len(re.findall(r"\b\w[\w'’-]*\b", chapter))
+          emdashes = chapter.count('—')
+          assert 2500 <= words <= 4000, words
+          assert emdashes == 0, emdashes
+          assert 'Sella' not in chapter
+          assert chapter.lstrip().startswith('## THE MINDER\n\nLyssa put a spool beside my bread.')
+          assert chapter.rstrip().endswith('I still counted it.')
+
+          state = Path('state/MANUSCRIPT_STATE.md').read_text(encoding='utf-8')
+          opn = Path('state/OPEN_THREADS.md').read_text(encoding='utf-8')
+          index = Path('state/MANUSCRIPT_CHAPTER_INDEX.md').read_text(encoding='utf-8')
+          workflow = Path('state/MANUSCRIPT_WORKFLOW.md').read_text(encoding='utf-8')
+          project = Path('state/PROJECT_STATE.md').read_text(encoding='utf-8')
+
+          assert 'Current story endpoint: Chapter 239 — **THE MINDER**.' in state
+          assert '**Current endpoint:** Chapter 239 — **THE MINDER**.' in opn
+          assert '# PEG-LEG GREG — CHAPTER INDEX — CH239' in index
+          assert '**Current endpoint:** Chapter 239 — THE MINDER' in index
+          assert index.rstrip().endswith('239. **THE MINDER**')
+          assert 'Chapter 239 — **THE MINDER**.' in workflow
+          assert 'Chapter 240 edge.' in workflow
+          assert 'Current recorded story endpoint is Chapter 239 — **THE MINDER**.' in project
+
+          for text in (state, opn):
+              assert '34 / 30 / 49' in text or ('34 successful supervised minimal draws' in text and '30 supervised deliberate shaping attempts' in text and '49 supervised external-effect attempts' in text)
+
+          assert 'No Vale/Bren connection established.' in state
+          assert 'same fold/three pins' in state
+          assert 'three loose threads' in state
+          assert 'Maren seller anonymity' in state
+          assert 'Marra ≠ Maren' in state or 'Marra' in state
+
+          print(f'VERIFIED_CH239_WORDS={words}')
+          print(f'VERIFIED_CH239_EMDASHES={emdashes}')
+          print('VERIFIED_SELLA_ABSENT=1')
+          print('VERIFIED_ENDPOINTS=1')
+          PY
+
+      - name: Stage and inspect exact diff
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -A
+          git diff --cached --check
+          printf '%s\n' '--- staged paths ---'
+          git diff --cached --name-only | sort
+          actual="$(git diff --cached --name-only | sort)"
+          expected="$(printf '%s\n' \
+            state/MANUSCRIPT_CHAPTER_INDEX.md \
+            state/MANUSCRIPT_STATE.md \
+            state/MANUSCRIPT_WORKFLOW.md \
+            state/OPEN_THREADS.md \
+            state/PROJECT_STATE.md \
+            state/manuscript/Peg_Leg_Greg_Running_Manuscript.md | sort)"
+          test "$actual" = "$expected"
+          echo VERIFIED_DIFF_PATHS=6
+
+      - name: Commit and push Chapter 239
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Ship Chapter 239: THE MINDER"
+          git push origin HEAD:manuscript/ch239-minder
