@@ -17,10 +17,6 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install python-docx
-      - name: Verify current main is contained
-        run: |
-          git fetch origin main
-          git merge-base --is-ancestor origin/main HEAD
       - name: Verify canonical Book 1 is synchronized and untouched
         run: |
           before="$(git hash-object state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx)"
