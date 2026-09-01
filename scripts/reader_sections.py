@@ -163,7 +163,7 @@ def render_book_sections(
 
         rendered.append(
             f'<section class="reader-book" aria-labelledby="{book.slug}-heading">'
-            f'<div class="reader-book-layout{layout_class}>'
+            f'<div class="reader-book-layout{layout_class}">'
             f'{plate}'
             f'<div class="reader-book-copy">'
             f'<header class="reader-book-heading">'
