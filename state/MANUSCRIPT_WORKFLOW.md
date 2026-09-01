@@ -119,6 +119,6 @@ GitHub provides durable continuity. The re-prompt gives the next writing session
 
 ## Current edge
 
-Chapter 247 — **THE PATRON**.
+Chapter 248 — **THE CONSTANT**.
 
-See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 248 edge.
+See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 249 edge.

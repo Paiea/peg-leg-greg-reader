@@ -1,11 +1,20 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current story endpoint: Chapter 247 — **THE PATRON**.
+- Current story endpoint: Chapter 248 — **THE CONSTANT**.
 - Book 1 Chapters 1–82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Repository prose was previously validated continuously through Chapter 155 — **THE LEAK**.
 - Chapters 156–219 remain newer forward manuscript material pending exact-text synchronization into the permanent running manuscript. Do not reconstruct them from summaries or let stale overlapping files overwrite newer authority.
 - Chapters 220+ are materialized directly in the permanent running manuscript.
+
+## Chapter 248 durable residue
+- Ch248 is a full supervised Hessa evidence session. Hessa swaps the two existing physical paper fins while preserving the target/control marks, room, board, glass shield, chair/body geometry, INTERMEDIATE distance, and AWAY-only direction. The former control fin becomes target; the former target fin becomes control. No new paper/object class is introduced.
+- One clean supervised minimal draw and one clean supervised deliberate shaping attempt bring counts to **36 / 32 / 57** after four new external attempts.
+- Attempt 54 INTERMEDIATE/AWAY: former-control-now-target gives a small clean observed response, net AWAY, no obvious rotation; original-target-now-control unchanged. Attempt 55: no observed response; control unchanged. Planned break. Attempt 56: no observed response; control unchanged. Attempt 57: former-control-now-target gives a small clean observed response, net AWAY, no obvious rotation; control unchanged.
+- Narrow interpretation: the accumulated current-apparatus target responses are not explained by the original target fin being the only physical fin capable of responding. This does NOT establish that physical fin identity is irrelevant generally, that target position or designation causes response, a response rate, reliability, paper-class generalization, FAR behavior, range, or generalized control.
+- Restrictions remain completely unchanged: no independent draw, shaping, external testing, paper, coins, thread, larger objects, practice, Barrier broadening, theatrical magic, or loopholes. Hessa leaves the fins swapped temporarily for inspection/record review and selects NO next experiment before Greg leaves.
+- No theatre, Vale, Maren, barber/Mira, or pressure event occurs. Debt remains active/unstated; Ch236 remains latest grounded pressure evidence; no Vale/Bren connection. Greg body/equipment remain ordinary with only normal session warmth/sitting stiffness and no injury or new limitation.
+- Household ceilings remain unchanged: long-standing brown cloth same fold/three pins; damaged shirt three loose threads; Ch246 sample/darker substitute spool remain together and unexplained; Ch246 delivery-crate contents remain unknown. Ch247 haircut continuity remains intact.
 
 ## Chapter 247 durable residue
 - Ch247 is a full ordinary Carrow personal-maintenance day centered on an unnamed Lower Steps barber shop. No theatre, Vale, Hessa, Maren, or pressure fact appears.
@@ -34,9 +43,9 @@
 - See `MANUSCRIPT_ENGINE_PLAYBOOK.md` for durable 01 working method.
 
 ## Current magic continuity
-- 35 successful supervised minimal draws.
-- 31 supervised deliberate shaping attempts.
-- 53 supervised external-effect attempts.
+- 36 successful supervised minimal draws.
+- 32 supervised deliberate shaping attempts.
+- 57 supervised external-effect attempts.
 - Attempt 38 FAR/AWAY: no observed response; control unchanged.
 - Attempt 39 INTERMEDIATE/AWAY: small observed target response, net AWAY, minor rotation; control unchanged.
 - Attempt 40 FAR/AWAY: target movement observed and control movement observed; contaminated for target-specific interpretation; cause not established; no target-specific response counted.
@@ -73,7 +82,9 @@
 - Chapter 238 contains no Hessa appearance or magic attempt. Counts remain 34 / 30 / 49 and all restrictions remain unchanged.
 - Chapter 239 contains no Hessa appearance or magic attempt. Counts remain 34 / 30 / 49 and all restrictions remain unchanged.
 - Chapter 240 is a supervised Hessa session. Final counts are 35 / 31 / 53. Restrictions remain completely unchanged, and Hessa has no selected next experiment when Greg leaves.
-- Chapters 241–245 contain no Hessa appearance or magic attempt. Counts remain 35 / 31 / 53, all restrictions remain unchanged, and Hessa still has no selected next experiment.
+- Chapters 241–247 contain no Hessa appearance or magic attempt. Counts remain 35 / 31 / 53, all restrictions remain unchanged, and Hessa still has no selected next experiment.
+
+- Chapter 248 is a supervised Hessa session using the existing two paper fins with their physical identities swapped between the fixed target/control marks at INTERMEDIATE/AWAY. Final counts are **36 / 32 / 57**. Two of four external attempts show small clean AWAY target responses (54 and 57); two show no response (55 and 56); control stays unchanged throughout. Restrictions remain unchanged and Hessa selects no next experiment before Greg leaves.
 
 ## Greg / Lyssa
 - Canonical spelling: **Lyssa**. Same established character formerly spelled Lysa.
@@ -471,15 +482,15 @@
 - Greg pays ordinary money for one spool. Body/equipment remain ordinary: repaired LEFT tip / LEFT grip normal, retensioned RIGHT grip functionally invisible, no injury or new limitation.
 - At home Lyssa calls the substitute `Close` and does not identify the customer/garment or begin a procedural sewing scene. Brown cloth remains same fold/three pins; damaged shirt remains three loose threads; better shirt retains the blue streak; Ch241 dark cloth, older beans, and older wrapped item remain absent/unexplained.
 
-## Immediate next edge — Chapter 247
-Primary recommendation: **LET CH246'S SMALL MAREN SUPPLY-ROUTE DAY BREATHE. FOLLOW THE NEXT ACTUAL CLAIM RATHER THAN TURNING NARROW SHOP RECOGNITION, THE NEW SAMPLE, THE DELIVERY CRATE, OR ANY RECENT MAYBE INTO AN AUTOMATIC NEXT STEP.**
+## Immediate next edge — Chapter 249
+Primary recommendation: **LET CH248'S USEFUL HESSA FIN-SWAP RESULT BREATHE. FOLLOW THE NEXT ACTUAL CLAIM RATHER THAN IMMEDIATELY EXTENDING THE MAGIC TEST.**
 
-- Maren's now carries one narrow Greg-specific memory: `Blue last time`. No friendship, standing errand role, seller name, or personal seller/Lyssa relationship is established.
-- The Ch246 sample remains low-information. Customer, garment, ownership, exact use, and delivery-crate contents remain unestablished. Do not merge the sample with the long-standing brown cloth, Ch241 dark cloth, or older blue-gray material.
-- **The Guest Pot** remains `Not paired yet`; Uncle / same-piece return remain only `Maybe`.
-- Vale debt remains active/unstated. Ch245's credit creates no tomorrow, schedule, rate, promotion, or standing front-room role.
-- Magic remains **35 / 31 / 53**. Attempt 52 remains one clean FAR/AWAY response; no rate, range, equivalence, generalization, or new permission. Hessa still has no selected next experiment.
-- External pressure still last moved in Ch236; no Vale/Bren connection exists.
+- Magic now stands at **36 / 32 / 57**. The former control fin, placed at the fixed INTERMEDIATE target mark, produced clean small AWAY responses on Attempts 54 and 57; the former target stayed unchanged at control on all four.
+- Narrow claim only: this argues against the original target fin being uniquely capable of response. It does NOT establish target-position causality, target-designation causality, fin identity irrelevance generally, a response rate, reliability, paper generalization, FAR behavior, range, or generalized control.
+- Hessa leaves the fins swapped temporarily only to inspect them/read the record. She selects NO next experiment. Do not automatically swap back, repeat at FAR, introduce new paper, change direction, or add attempts in Chapter 249.
+- Restrictions remain completely unchanged.
+- No theatre, Vale, Maren, barber/Mira, or pressure movement occurs in Ch248. Ch236 remains latest pressure evidence. Debt remains active/unstated.
+- Household unknowns remain unknown: brown cloth same fold/three pins; damaged shirt three loose threads; Ch246 sample/darker spool still paired/unexplained; delivery-crate contents unknown. Ch247 haircut continuity remains.
 
 Ask: **WHAT ACTUALLY HAS A REASON TO HAPPEN TODAY?** Favor **LIFE PER WORD**.
 

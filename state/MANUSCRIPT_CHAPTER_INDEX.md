@@ -1,6 +1,6 @@
-# PEG-LEG GREG — CHAPTER INDEX — CH247
+# PEG-LEG GREG — CHAPTER INDEX — CH248
 
-**Current endpoint:** Chapter 247 — THE PATRON
+**Current endpoint:** Chapter 248 — THE CONSTANT
 
 1. **THE BOY**
 2. **THE BORROWER**
@@ -249,3 +249,4 @@
 245. **THE NAME-TAKER**
 246. **THE MATCHER**
 247. **THE PATRON**
+248. **THE CONSTANT**
