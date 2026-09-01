@@ -17,6 +17,23 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Correct staged Chapter 245 wording and count
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('.github/scripts/ship_ch245_name_taker.py')
+          text = p.read_text(encoding='utf-8')
+          assert 'assert words == 2660, words' in text
+          text = text.replace('assert words == 2660, words', 'assert words == 2662, words', 1)
+          old = '\\n"Wrong Vale."\\n'
+          new = '\\n"Wrong office."\\n'
+          assert old in text
+          text = text.replace(old, new, 1)
+          p.write_text(text, encoding='utf-8')
+          PY
+
       - name: Apply Chapter 245 and state updates
         run: python .github/scripts/ship_ch245_name_taker.py
 
@@ -39,11 +56,13 @@ jobs:
           assert '# CHAPTER 246' not in chapter
           words = len(re.findall(r"\b\w[\w'’-]*\b", chapter))
           emdashes = chapter.count('—')
-          assert words == 2660, words
+          assert words == 2662, words
           assert 2500 <= words <= 4000
           assert emdashes == 0, emdashes
           assert chapter.lstrip().startswith("## THE NAME-TAKER\n\nI met Vale's runner halfway down the stairs.")
           assert chapter.rstrip().endswith("That was where they belonged.")
+          assert '"Wrong office."' in chapter
+          assert '"Wrong Vale."' not in chapter
 
           state = Path('state/MANUSCRIPT_STATE.md').read_text(encoding='utf-8')
           opn = Path('state/OPEN_THREADS.md').read_text(encoding='utf-8')
