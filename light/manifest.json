@@ -1,5 +1,5 @@
 {
-  "latest": 244,
+  "latest": 245,
   "chapters": [
     {
       "number": 156,
@@ -534,6 +534,12 @@
       "title": "THE UNCLE",
       "source": "manuscript",
       "path": "244.html"
+    },
+    {
+      "number": 245,
+      "title": "THE NAME-TAKER",
+      "source": "manuscript",
+      "path": "245.html"
     }
   ]
 }
