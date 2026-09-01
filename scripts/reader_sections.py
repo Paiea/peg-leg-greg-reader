@@ -28,8 +28,10 @@ class ReaderBook:
     acts: tuple[ReaderAct, ...]
     image_src: str
     image_alt: str
-    image_width: int = 1536
-    image_height: int = 2048
+    image_href: str
+    image_link_label: str
+    image_width: int = 768
+    image_height: int = 1536
 
     def effective_end(self, latest: int) -> int:
         return latest if self.end is None else min(self.end, latest)
@@ -49,8 +51,10 @@ BOOKS = (
             ReaderAct('ACT II', 'MAKING A PLACE', 21, 63, 'Carrow becomes work, people, obligations, and a place to stand.'),
             ReaderAct('ACT III', 'THE NEW BASELINE', 64, 82, 'The terms of Greg’s second life change.'),
         ),
-        'visual/book_plates/book-i-finding-a-life.png',
-        'Greg enters the working streets of Carrow and begins building a life among old buildings, practical work, roads, and ordinary city movement.',
+        'visual/book_plates/book-i-role-card-warrior-005.webp',
+        'A dark illustrated role card for Chapter 5, The Warrior, showing young Greg with a sword, the chapter number 05, and a short line from the chapter.',
+        'chapters/005.html',
+        'Open Chapter 5, The Warrior',
     ),
     ReaderBook(
         'BOOK II',
@@ -62,8 +66,10 @@ BOOKS = (
             ReaderAct('ACT II', 'THE STAGE DOOR', 100, 137, 'The theatre becomes another working doorway into Carrow.'),
             ReaderAct('ACT III', 'THE COMPANY ROAD', 138, 180, 'The company takes its work beyond the familiar rooms of Carrow.'),
         ),
-        'visual/book_plates/book-ii-expanding-a-life.png',
-        'Greg moves through a widening world of theatre work, company travel, carts, props, roads, performances, and people who increasingly know him.',
+        'visual/book_plates/book-ii-role-card-stagehand-177.webp',
+        'A dark illustrated role card for Chapter 177, The Stagehand, showing a young bearded Greg working backstage from the waist up, with no lower-body or mobility detail visible.',
+        'light/177.html',
+        'Open Chapter 177, The Stagehand',
     ),
     ReaderBook(
         'BOOK III',
@@ -74,8 +80,10 @@ BOOKS = (
             ReaderAct('ACT I', 'THE WORKING COMPANY', 181, 219, 'Company work becomes routine, social, and increasingly interconnected.'),
             ReaderAct('ACT II', 'THE PRICE OF ATTENTION', 220, None, 'Ordinary work draws new attention, obligations, and pressure.'),
         ),
-        'visual/book_plates/book-iii-life-under-pressure.png',
-        'Greg moves through a dense lived-in Carrow shaped by theatre work, household routines, suppliers, customers, debts, errands, and growing outside attention.',
+        'visual/book_plates/book-iii-role-card-magistrate-231.webp',
+        'A dark illustrated role card for Chapter 231, The Magistrate, showing young bearded Greg inhabiting the magistrate role in a theatrical setting.',
+        'light/231.html',
+        'Open Chapter 231, The Magistrate',
     ),
 )
 
@@ -148,8 +156,11 @@ def render_book_sections(
             loading = ' loading="lazy"' if book.numeral != 'BOOK I' else ''
             plate = (
                 f'<figure class="reader-book-plate">'
+                f'<a class="reader-book-card-link" href="{escape(book.image_href)}" '
+                f'aria-label="{escape(book.image_link_label)}">'
                 f'<img src="{escape(book.image_src)}" alt="{escape(book.image_alt)}" '
                 f'width="{book.image_width}" height="{book.image_height}"{loading}/>'
+                f'</a>'
                 f'</figure>'
             )
 
