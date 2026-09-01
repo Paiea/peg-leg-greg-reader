@@ -1,8 +1,8 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current story endpoint: Chapter 244 — **THE UNCLE**.
-- Book 1 Chapters 1–82 closed. Book 2 active.
+- Current story endpoint: Chapter 245 — **THE NAME-TAKER**.
+- Book 1 Chapters 1–82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Repository prose was previously validated continuously through Chapter 155 — **THE LEAK**.
 - Chapters 156–219 remain newer forward manuscript material pending exact-text synchronization into the permanent running manuscript. Do not reconstruct them from summaries or let stale overlapping files overwrite newer authority.
 - Chapters 220+ are materialized directly in the permanent running manuscript.
@@ -64,7 +64,7 @@
 - Chapter 238 contains no Hessa appearance or magic attempt. Counts remain 34 / 30 / 49 and all restrictions remain unchanged.
 - Chapter 239 contains no Hessa appearance or magic attempt. Counts remain 34 / 30 / 49 and all restrictions remain unchanged.
 - Chapter 240 is a supervised Hessa session. Final counts are 35 / 31 / 53. Restrictions remain completely unchanged, and Hessa has no selected next experiment when Greg leaves.
-- Chapters 241–244 contain no Hessa appearance or magic attempt. Counts remain 35 / 31 / 53, all restrictions remain unchanged, and Hessa still has no selected next experiment.
+- Chapters 241–245 contain no Hessa appearance or magic attempt. Counts remain 35 / 31 / 53, all restrictions remain unchanged, and Hessa still has no selected next experiment.
 
 ## Greg / Lyssa
 - Canonical spelling: **Lyssa**. Same established character formerly spelled Lysa.
@@ -121,6 +121,7 @@
 - Ch240–241 contain no Vale work, payment, or debt credit. In Ch242 Greg pays an ordinary crutch-grip repair cost, then voluntarily checks Vale for suitable work. The clerk has no suitable work for Greg that day, so Greg receives no credit. `Tomorrow, maybe` sealing is conditional only. Debt remains active and unstated.
 - Ch243 contains no Vale appearance, work, payment, or debt credit. Greg buys ordinary onions and a flat cake while the debt remains active and unstated. Ch242's `Tomorrow, maybe` does not become a Chapter 243 task.
 - Ch244 contains no Vale appearance, work, payment, or debt credit. Rinna pays Greg the normal one copper for theatre work; he later buys ordinary cheese. Debt remains active and unstated, with no guaranteed Vale post, schedule, rate, or promotion.
+- Ch245 a Vale runner summons Greg for fresh suitable front-room work because the office is backed up. Greg records names, paper/no-paper status, and arrival order only; Antonius later records legitimate debt credit. Exact credit/current balance remain unstated. No guaranteed post, schedule, rate, promotion, cash payment, or future-work promise is created.
 - No Vale/Bren connection established.
 
 ## Bren / pressure arc
@@ -136,7 +137,7 @@
 - Ch237 does not advance the pressure arc. No new warning, visitor, supplier report, investigation, guard, trap, or access change follows. The theatre's previously sticking back latch is repaired because it sticks, not because the unknown man asked about delivery access.
 - Ch238 does not advance the pressure arc. No new warning, visitor, supplier report, investigation, access change, security response, Bren fact, Mason's Cut movement, or Vale connection appears.
 - Ch239 does not advance the pressure arc. No new warning, visitor, supplier report, investigation, access change, security response, Bren fact, Mason's Cut movement, or Vale connection appears.
-- Chapters 240–244 do not advance the pressure arc. Ch236 remains the newest grounded pressure fact; no new warning, supplier report, investigation, security response, Bren fact, Mason's Cut movement, or Vale connection appears.
+- Chapters 240–245 do not advance the pressure arc. Ch236 remains the newest grounded pressure fact; no new warning, supplier report, investigation, security response, Bren fact, Mason's Cut movement, or Vale connection appears.
 
 ## Chapter 224 — THE CHECKER
 - Lyssa continues customer sewing and sends Greg for onions.
@@ -441,30 +442,40 @@
 - Body cost is ordinary only: normal right palm, used but fine shoulders, mildly tired right leg from standing between scenes, comfortable residual limb, normal repaired left tip, and both grips normal. No injury or new limitation.
 - Home remains bounded. Lyssa is already there with no customer or new dark cloth. Brown cloth remains same fold/three pins; damaged shirt remains three loose threads; better shirt retains the blue streak; onions remain ordinary household food. Beans and the older wrapped item remain absent/unexplained.
 
-## Immediate next edge — Chapter 245
-Primary recommendation: **LET CH244'S FULL THEATRE REHEARSAL/PERFORMANCE DAY BREATHE. FOLLOW THE NEXT ACTUAL CLAIM RATHER THAN MAKING RINNA'S `MAYBE`, THE EMPTY DISH CORRECTION, OR CH240'S FAR RESPONSE INTO AN AUTOMATIC NEXT STEP.**
+## Chapter 245 — THE NAME-TAKER
+- A Vale runner genuinely summons Greg for fresh same-day work because the front room is backed up. This is a new present circumstance, not a resurrection of Ch242's expired `Tomorrow, maybe`.
+- Antonius gives Greg one narrow front-room task while one clerk is elsewhere: record each waiting person's name, whether they brought a paper, and arrival order. Greg handles no money, sets no amount, interprets no account, and has no authority to resolve disputes.
+- The recurring ink-fingered clerk owns the working boundary. Greg initially tries to list a courier who is only dropping a route packet and is corrected. His meaningful overstep comes later when a visitor asks him to inspect a disputed account number; Greg turns the page enough to read it and the clerk stops him with `List.` The visitor's account remains the clerk's job.
+- The front room has independent ordinary traffic: people arrive with and without papers, one woman manages a child who wants the ink, a gray-haired regular refuses to over-explain herself, and an angry visitor eventually proves to be in the wrong office. Greg does not solve these people's financial problems.
+- Arrival order is practical rather than sovereign: Antonius calls forward one man he specifically sent for even though two people arrived earlier. Greg's unnecessary notation is rejected by the clerk. Keep this as one office correction, not a general life doctrine.
+- Antonius records legitimate debt credit for the completed work. Exact credit and current balance remain unstated; the balance is smaller but still active. Greg receives no cash, promotion, standing front-desk role, fixed rate, schedule, or future-work promise.
+- No theatre call/work/pay, Hessa appearance/magic attempt, Bren/brown-coat fact, warning, investigation, or pressure escalation occurs. **The Guest Pot** / Uncle remain conditional only. Magic remains **35 / 31 / 53** with all restrictions unchanged; Ch236 remains the newest pressure fact and no Vale/Bren connection exists.
+- Body cost is ordinary only: brief right-leg stiffness from sitting, a more-used writing hand than crutch hand, comfortable residual limb, and normal repaired LEFT tip / LEFT grip / retensioned RIGHT grip. No injury or new limitation.
+- Home stays bounded. Lyssa is already there with no customer or new dark cloth. Brown cloth remains same fold/three pins; damaged shirt remains three loose threads; better shirt retains the blue streak; onions remain ordinary food; Ch241 dark cloth, beans, and the older wrapped item remain absent/unexplained.
+
+## Immediate next edge — Chapter 246
+Primary recommendation: **LET CH245'S FRESH VALE FRONT-ROOM WORKDAY BREATHE. FOLLOW THE NEXT ACTUAL CLAIM RATHER THAN TURNING THE NAME LIST INTO A STANDING JOB, RESURRECTING THE GUEST POT MAYBE, OR MAKING ATTEMPT 52 INTO A MAGIC LADDER.**
 
 Reasons:
-- Ch240 was a full bounded Hessa FAR-only session; Ch241 was ordinary theatre scenery labor; Ch242 was crutch maintenance plus a Vale check that produced no suitable work; Ch243 was ordinary Carrow market/social life; Ch244 is now a full new-play rehearsal/performance day.
-- **The Guest Pot** may recur, but Rinna explicitly says it is `Not paired yet`; Uncle and the same piece are both only `Maybe`. Greg has no standing Ch245 theatre obligation.
-- Greg's Ch244 mistake is narrow acting craft: he visually telegraphs the empty serving dish because he knows the script before the Uncle does. Do not convert that into a universal rule about deception, threat response, magic, or the long-range bluff. It can remain one theatre correction until later accumulation genuinely earns more.
+- Ch240 was a full bounded Hessa FAR-only session; Ch241 was ordinary theatre scenery labor; Ch242 was crutch maintenance plus a Vale check with no suitable work; Ch243 was ordinary Carrow market/social life; Ch244 was a full new-play theatre day; Ch245 is now a real Vale debt-work day.
+- Ch245 makes the distinction from Ch242 concrete: sometimes suitable work does exist, but only because a fresh circumstance creates it. Antonius gives no tomorrow, schedule, promotion, rate, or standing front-room post.
+- Greg's Ch245 authority ceiling is narrow. He can record names / paper status / order, but he does not interpret accounts, resolve disputes, collect money, or control Antonius's call order. Do not promote one day's intake work into office status.
+- **The Guest Pot** remains `Not paired yet`; Uncle / same-piece return remain only `Maybe`. No standing theatre obligation exists.
 - Magic remains **35 / 31 / 53**. Attempt 52 remains one clean FAR/AWAY response inside the fixed FAR-only block; no range, rate, equivalence, generalization, or new permission is established. Hessa still has no selected next experiment.
-- Vale debt remains active/unstated. Ch242's `Tomorrow, maybe` already expired without creating work in Ch243 and remains nonbinding. Ch244 contains no Vale movement.
-- External pressure still last moved in Ch236. Ch237–244 add no new clue or defensive escalation. The repaired theatre back latch remains ordinary maintenance and no Vale/Bren connection exists.
-- Ch243's onion-seller social memory is now established but does not create employment, a recurring stall job, or a need for another market chapter.
+- External pressure still last moved in Ch236. Ch237–245 add no new clue or defensive escalation. The repaired theatre back latch remains ordinary maintenance and no Vale/Bren connection exists.
 - Household objects remain bounded rather than queued for explanation: brown cloth same fold/three pins; damaged shirt three loose threads; better shirt blue streak; Ch241 dark cloth absent/unexplained; beans and the older wrapped item absent/unexplained.
 
-Strong Chapter 245 possibilities:
-- ordinary Carrow or an established social route with its own momentum;
-- Lyssa/household/work only if a real obligation surfaces without servicing tracked objects by checklist;
-- Vale only if suitable ordinary work actually exists through a fresh circumstance, not because of the stale Ch242 maybe;
+Strong Chapter 246 possibilities:
+- ordinary Carrow or an established social route with its own momentum, especially one not foregrounded in the last few chapters;
+- Lyssa/household/work only if a genuine new obligation surfaces without servicing tracked objects by checklist;
+- theatre only if a genuinely fresh call makes the conditional pairing real;
 - one grounded pressure fact through an established natural carrier only if it genuinely arrives;
 - Hessa only if she independently selects a genuinely new bounded question after considering the Ch240 record;
-- theatre only if the conditional pairing becomes an actual fresh call. Do not assume **The Guest Pot** repeats.
+- Vale only if another fresh suitable task actually exists, not because Ch245 happened once.
 
 Ask: **WHAT ACTUALLY HAS A REASON TO HAPPEN TODAY?** Favor **LIFE PER WORD**.
 
-Preserve magic counts **35 / 31 / 53** and all restrictions. Preserve Attempt 52 as one clean FAR/AWAY response without power-up. Preserve active unstated Vale debt, Ch238 credit, Ch242's no-work/no-credit result, and the fact that its `Tomorrow, maybe` did not create later work. Preserve Ch236's delivery/access evidence ceiling and no Vale/Bren connection. Preserve ordinary back-latch interpretation, Greg's body continuity, successful right-grip repair and normal left tip/grip, Ch243 onion-seller social memory without employment, Ch244's narrow empty-dish acting correction without doctrine, conditional-only **Guest Pot** status, brown-cloth identity limits, three-thread damaged-shirt continuity, blue-streak better-shirt residue, bean-purpose limits, absent older wrapped-item identity ceiling, absent Ch241 dark-cloth identity ceiling, Lyssa customer/garment boundaries, and **Marra ≠ Maren**.
+Preserve magic counts **35 / 31 / 53** and all restrictions. Preserve Attempt 52 as one clean FAR/AWAY response without power-up. Preserve active unstated Vale debt, Ch245's legitimate credit, and Greg's lack of a guaranteed Vale job. Preserve Ch236's delivery/access evidence ceiling and no Vale/Bren connection. Preserve ordinary back-latch interpretation, Greg's body continuity, successful right-grip repair and normal left tip/grip, Ch243 onion-seller social memory without employment, Ch244's narrow empty-dish acting correction without doctrine, conditional-only **Guest Pot** status, Ch245's narrow name/paper/order authority ceiling, brown-cloth identity limits, three-thread damaged-shirt continuity, blue-streak better-shirt residue, bean-purpose limits, absent older wrapped-item identity ceiling, absent Ch241 dark-cloth identity ceiling, Lyssa customer/garment boundaries, and **Marra ≠ Maren**.
 
 ## Chat / handoff behavior
 After each completed chapter:

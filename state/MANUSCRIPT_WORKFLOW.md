@@ -119,6 +119,6 @@ GitHub provides durable continuity. The re-prompt gives the next writing session
 
 ## Current edge
 
-Chapter 244 — **THE UNCLE**.
+Chapter 245 — **THE NAME-TAKER**.
 
-See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 245 edge.
+See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 246 edge.

@@ -1,6 +1,6 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Current endpoint:** Chapter 244 — **THE UNCLE**.
+- **Current endpoint:** Chapter 245 — **THE NAME-TAKER**.
 - **Permanent forward manuscript:** `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`. Chapters 156–219 still need exact-text synchronization into the permanent manuscript; Chapter 220+ writes directly here. Light Reader synchronization is a separate downstream concern.
 - **Engine method:** `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves durable 01 behavior and recovery instructions.
 - **Magic counts:** ACTIVE at 35 supervised minimal draws / 31 deliberate shaping attempts / 53 external-effect attempts.
@@ -100,7 +100,7 @@
 - **Ch240 Hessa / fixed FAR:** after five breathing chapters Hessa selects one bounded mirror question and runs a fixed FAR-only four-attempt block under the unchanged apparatus. Attempt 52 is one clean small FAR/AWAY response; 50, 51, and 53 are clean non-responses. Final counts **35 / 31 / 53**; all restrictions unchanged.
 - **Ch240 body/household:** ordinary right-leg sitting stiffness and mild forearm/walk warmth only, no injury. Brown cloth remains same fold/three pins; shirt remains three loose threads; beans and old wrapped item remain absent/unexplained.
 - **Ch240 engine restraint:** no theatre, Vale, debt credit, or pressure movement. Hessa has no selected next experiment at end.
-- **Next engine rotation:** let Ch244's full theatre rehearsal/performance day breathe. Do not convert Rinna's conditional `Maybe`, the empty-dish acting correction, Vale's expired Ch242 maybe, or Attempt 52 into an automatic next step; follow the next actual claim.
+- **Next engine rotation:** let Ch245's fresh Vale front-room workday breathe. Do not convert the name list into a standing job, resurrect the conditional Guest Pot, or turn Attempt 52 into an automatic next step; follow the next actual claim.
 - **Ch229 Marra route:** Greg carries the still-undefined blue-gray cloth to Marra after brief window-trim work. He knows the green-door route and work lane without directions; Marra still calls him `the road one`.
 - **Ch229 blue-gray cloth ceiling:** Jessa finds two short chalk marks near an edge and calls the cloth `Marked`. Its customer, garment, ownership, intended use, and the exact meaning of the marks remain unestablished.
 - **Ch229 Lyssa network:** Marra/Jessa/customer traffic continues without Greg. An unnamed customer asks for Lyssa and says tomorrow afternoon is fine; Jessa later finds Lyssa independently. Do not assign formal Marra/Jessa roles or merge the customer with earlier unnamed/referral customers.
@@ -124,3 +124,7 @@
 - **Ch244 geometry/body/pay:** Jori shifts/marks Greg's chair for clean crutch geometry; no accommodation speech. Body cost is ordinary only and both grips / repaired LEFT tip remain normal. Rinna pays the normal one copper.
 - **Ch244 next theatre status:** **The Guest Pot** is `Not paired yet`; Uncle and same-piece return are both only `Maybe`. No standing Ch245 theatre obligation.
 - **Ch244 restraint/household:** no Hessa/magic, Vale work/credit, or new pressure fact. Magic remains 35 / 31 / 53; Ch236 remains newest pressure evidence. Brown cloth stays same fold/three pins; damaged shirt remains three loose threads; better shirt keeps the blue streak; Ch241 dark cloth / beans / older wrapped item remain absent or unexplained.
+- **Ch245 Vale front-room work:** a Vale runner genuinely summons Greg because the front room is backed up. Antonius gives him one narrow same-day intake task: record names, paper/no-paper status, and arrival order. Greg handles no money, sets no amounts, resolves no accounts, and gains no standing office role.
+- **Ch245 authority correction:** Greg starts to inspect one visitor's disputed paper after she asks him to look; the ink-fingered clerk stops him with `List.` Antonius later calls a sent-for man ahead of arrival order, and the clerk rejects Greg's unnecessary notation. These are narrow office corrections, not general doctrine.
+- **Ch245 debt/body:** Antonius records legitimate debt credit; exact credit/balance remain unstated and debt stays active. Greg has only ordinary sitting stiffness / used writing hand, with normal repaired LEFT tip, LEFT grip, and retensioned RIGHT grip.
+- **Ch245 restraint/household:** no theatre, Hessa/magic, or new pressure fact. **The Guest Pot** remains conditional only; magic remains 35 / 31 / 53; Ch236 remains newest pressure evidence. Brown cloth stays same fold/three pins; damaged shirt stays three loose threads; better shirt keeps the blue streak; Ch241 dark cloth / beans / older wrapped item remain absent or unexplained.

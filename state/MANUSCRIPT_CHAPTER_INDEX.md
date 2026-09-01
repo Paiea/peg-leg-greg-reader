@@ -1,6 +1,6 @@
-# PEG-LEG GREG — CHAPTER INDEX — CH244
+# PEG-LEG GREG — CHAPTER INDEX — CH245
 
-**Current endpoint:** Chapter 244 — THE UNCLE
+**Current endpoint:** Chapter 245 — THE NAME-TAKER
 
 1. **THE BOY**
 2. **THE BORROWER**
@@ -246,3 +246,4 @@
 242. **THE SPENDER**
 243. **THE MINDER**
 244. **THE UNCLE**
+245. **THE NAME-TAKER**
