@@ -1,4 +1,4 @@
-name: Probe Book 1 DOCX
+name: Promote Book 1 Chapters 1-5
 on:
   push:
     branches:
@@ -6,7 +6,7 @@ on:
 permissions:
   contents: write
 jobs:
-  probe:
+  promote:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -17,24 +17,19 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install python-docx
-      - name: Remove repeated full-manuscript paragraph scans
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          p=Path('scripts/promote_book1_polish.py')
-          s=p.read_text(encoding='utf-8')
-          old='''def _chapter_bodies(doc: Document) -> dict[int, list[str]]:\n    headings = _heading_map(doc)\n    ordered = sorted(headings.items(), key=lambda item: item[1])\n    bodies: dict[int, list[str]] = {}\n    for pos, (chapter, start) in enumerate(ordered):\n        end = ordered[pos + 1][1] if pos + 1 < len(ordered) else len(doc.paragraphs)\n        bodies[chapter] = [p.text for p in doc.paragraphs[start + 1 : end]]\n    return bodies\n'''
-          new='''def _chapter_bodies(doc: Document) -> dict[int, list[str]]:\n    headings = _heading_map(doc)\n    ordered = sorted(headings.items(), key=lambda item: item[1])\n    paragraphs = doc.paragraphs\n    bodies: dict[int, list[str]] = {}\n    for pos, (chapter, start) in enumerate(ordered):\n        end = ordered[pos + 1][1] if pos + 1 < len(ordered) else len(paragraphs)\n        bodies[chapter] = [p.text for p in paragraphs[start + 1 : end]]\n    return bodies\n'''
-          assert s.count(old) == 1
-          p.write_text(s.replace(old,new),encoding='utf-8')
-          PY
-      - name: Test optimized promotion tool
+      - name: Test source promotion
         run: python -m unittest tests.test_promote_book1_polish -v
-      - name: Commit optimization
+      - name: Promote Chapters 1-5 into canonical Book 1
+        run: python scripts/promote_book1_polish.py 1-5
+      - name: Verify bounded canonical change
         run: |
-          test "$(git diff --name-only)" = "scripts/promote_book1_polish.py"
+          test "$(git diff --name-only)" = "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx"
+          git diff --check
+          python -m unittest discover -s tests -p 'test_*.py'
+      - name: Commit canonical source
+        run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add scripts/promote_book1_polish.py
-          git commit -m 'Speed up Book 1 source verification'
+          git add state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx
+          git commit -m 'Promote Book 1 polish Chapters 1-5'
           git push
