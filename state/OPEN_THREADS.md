@@ -1,6 +1,6 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Current endpoint:** Chapter 243 — **THE MINDER**.
+- **Current endpoint:** Chapter 244 — **THE UNCLE**.
 - **Permanent forward manuscript:** `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`. Chapters 156–219 still need exact-text synchronization into the permanent manuscript; Chapter 220+ writes directly here. Light Reader synchronization is a separate downstream concern.
 - **Engine method:** `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves durable 01 behavior and recovery instructions.
 - **Magic counts:** ACTIVE at 35 supervised minimal draws / 31 deliberate shaping attempts / 53 external-effect attempts.
@@ -100,7 +100,7 @@
 - **Ch240 Hessa / fixed FAR:** after five breathing chapters Hessa selects one bounded mirror question and runs a fixed FAR-only four-attempt block under the unchanged apparatus. Attempt 52 is one clean small FAR/AWAY response; 50, 51, and 53 are clean non-responses. Final counts **35 / 31 / 53**; all restrictions unchanged.
 - **Ch240 body/household:** ordinary right-leg sitting stiffness and mild forearm/walk warmth only, no injury. Brown cloth remains same fold/three pins; shirt remains three loose threads; beans and old wrapped item remain absent/unexplained.
 - **Ch240 engine restraint:** no theatre, Vale, debt credit, or pressure movement. Hessa has no selected next experiment at end.
-- **Next engine rotation:** let Ch243's market-social day breathe. Do not convert the onion stall into a job, resurrect Ch242's expired `Tomorrow, maybe`, or turn Attempt 52 into an automatic next step; follow the next actual claim.
+- **Next engine rotation:** let Ch244's full theatre rehearsal/performance day breathe. Do not convert Rinna's conditional `Maybe`, the empty-dish acting correction, Vale's expired Ch242 maybe, or Attempt 52 into an automatic next step; follow the next actual claim.
 - **Ch229 Marra route:** Greg carries the still-undefined blue-gray cloth to Marra after brief window-trim work. He knows the green-door route and work lane without directions; Marra still calls him `the road one`.
 - **Ch229 blue-gray cloth ceiling:** Jessa finds two short chalk marks near an edge and calls the cloth `Marked`. Its customer, garment, ownership, intended use, and the exact meaning of the marks remain unestablished.
 - **Ch229 Lyssa network:** Marra/Jessa/customer traffic continues without Greg. An unnamed customer asks for Lyssa and says tomorrow afternoon is fine; Jessa later finds Lyssa independently. Do not assign formal Marra/Jessa roles or merge the customer with earlier unnamed/referral customers.
@@ -118,3 +118,9 @@
 - **Ch242 Vale / money:** Greg pays the ordinary repair cost, voluntarily checks Vale, and is told there is no suitable work for him that day. He receives no debt credit. The clerk's `Tomorrow, maybe. Not today.` about sealing is conditional only, not a schedule or promise. Greg still buys ordinary stew; debt remains active and unstated.
 - **Ch242 engine restraint:** no theatre call/work/pay, Hessa/magic attempt, Bren/brown-coat fact, warning, investigation, or escalation. Magic remains 35 / 31 / 53 with all restrictions; Ch236 remains newest pressure evidence and no Vale/Bren connection exists.
 - **Ch242 household:** brown cloth stays same fold/three pins; damaged shirt remains three loose threads; better shirt retains its small Ch241 blue paint streak; separate Ch241 dark cloth is absent with identity/job/customer unknown; beans and older paper-wrapped item remain absent/unexplained. Lyssa's fried dough is clearly ordinary food wrapped in clean cloth, not the older unidentified item.
+- **Ch244 The Guest Pot:** a fresh Rinna call produces a full rehearsal/performance day. Greg plays the eleven-line, one-entrance/one-exit, mostly seated **Uncle**; Hara is the host, Marek her younger brother, and Venn the household cook. The promised supper does not exist and the covered serving dish is empty.
+- **Ch244 acting correction:** Greg knows the dish is empty from the pages and visually checks it before the Uncle has reason to suspect anything. Teren keeps the correction theatre-specific: the Uncle came expecting supper. In performance Greg repeats one smaller early glance, letting part of the audience get ahead of Venn's reveal. Greg does not improvise a rescue; the company continues.
+- **Ch244 strongest beat / company:** Hara owns the strongest final laugh with `With what money?` after Marek's character offers to fetch food. Venn remains independently competent and says only that he has been at the theatre `Before you`; no new hierarchy or rivalry is established.
+- **Ch244 geometry/body/pay:** Jori shifts/marks Greg's chair for clean crutch geometry; no accommodation speech. Body cost is ordinary only and both grips / repaired LEFT tip remain normal. Rinna pays the normal one copper.
+- **Ch244 next theatre status:** **The Guest Pot** is `Not paired yet`; Uncle and same-piece return are both only `Maybe`. No standing Ch245 theatre obligation.
+- **Ch244 restraint/household:** no Hessa/magic, Vale work/credit, or new pressure fact. Magic remains 35 / 31 / 53; Ch236 remains newest pressure evidence. Brown cloth stays same fold/three pins; damaged shirt remains three loose threads; better shirt keeps the blue streak; Ch241 dark cloth / beans / older wrapped item remain absent or unexplained.

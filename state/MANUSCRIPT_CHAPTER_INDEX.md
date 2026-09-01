@@ -1,6 +1,6 @@
-# PEG-LEG GREG — CHAPTER INDEX — CH243
+# PEG-LEG GREG — CHAPTER INDEX — CH244
 
-**Current endpoint:** Chapter 243 — THE MINDER
+**Current endpoint:** Chapter 244 — THE UNCLE
 
 1. **THE BOY**
 2. **THE BORROWER**
@@ -245,3 +245,4 @@
 241. **THE SCRAPER**
 242. **THE SPENDER**
 243. **THE MINDER**
+244. **THE UNCLE**
