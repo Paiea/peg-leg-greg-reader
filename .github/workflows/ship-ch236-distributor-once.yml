@@ -1,0 +1,57 @@
+name: One-shot ship Chapter 236
+
+on:
+  push:
+    branches:
+      - manuscript/ch236-distributor
+    paths:
+      - .github/workflows/ship-ch236-distributor-once.yml
+
+permissions:
+  contents: write
+
+jobs:
+  ship:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Append chapter and sync state
+        run: python state/.ship_ch236_distributor.py
+      - name: Remove one-shot files
+        run: rm state/.ship_ch236_distributor.py state/.ch236_distributor_payload.md .github/workflows/ship-ch236-distributor-once.yml
+      - name: Verify and commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          m = Path('state/manuscript/Peg_Leg_Greg_Running_Manuscript.md').read_text()
+          assert m.count('# CHAPTER 236') == 1
+          ch = m[m.index('# CHAPTER 236'):]
+          assert '## THE DISTRIBUTOR' in ch
+          assert ch.count('—') == 0
+          words = len(re.findall(r"\b[\w’'-]+\b", ch))
+          assert 2500 <= words <= 4000, words
+          assert ch.rstrip().endswith('The beans stayed wherever tomorrow had put them.')
+          assert 'Current story endpoint: Chapter 236 — **THE DISTRIBUTOR**.' in Path('state/MANUSCRIPT_STATE.md').read_text()
+          assert '34 successful supervised minimal draws.' in Path('state/MANUSCRIPT_STATE.md').read_text()
+          assert '30 supervised deliberate shaping attempts.' in Path('state/MANUSCRIPT_STATE.md').read_text()
+          assert '49 supervised external-effect attempts.' in Path('state/MANUSCRIPT_STATE.md').read_text()
+          assert '236. **THE DISTRIBUTOR**' in Path('state/MANUSCRIPT_CHAPTER_INDEX.md').read_text()
+          assert 'Chapter 236 — **THE DISTRIBUTOR**.' in Path('state/MANUSCRIPT_WORKFLOW.md').read_text()
+          assert 'Chapter 237 edge' in Path('state/MANUSCRIPT_WORKFLOW.md').read_text()
+          assert 'Current recorded story endpoint is Chapter 236 — **THE DISTRIBUTOR**.' in Path('state/PROJECT_STATE.md').read_text()
+          assert '**Current endpoint:** Chapter 236 — **THE DISTRIBUTOR**.' in Path('state/OPEN_THREADS.md').read_text()
+          assert 'Do they take deliveries through the front or the back?' in Path('state/OPEN_THREADS.md').read_text()
+          print('chapter_words', words)
+          print('em_dashes', ch.count('—'))
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/manuscript/Peg_Leg_Greg_Running_Manuscript.md state/MANUSCRIPT_STATE.md state/OPEN_THREADS.md state/MANUSCRIPT_CHAPTER_INDEX.md state/MANUSCRIPT_WORKFLOW.md state/PROJECT_STATE.md state/.ship_ch236_distributor.py state/.ch236_distributor_payload.md .github/workflows/ship-ch236-distributor-once.yml
+          git diff --cached --check
+          git commit -m "Ship Chapter 236: THE DISTRIBUTOR"
+          git push origin HEAD:manuscript/ch236-distributor
