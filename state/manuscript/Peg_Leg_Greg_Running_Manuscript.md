@@ -27404,7 +27404,7 @@ We ate onions with bread and the last of the greens from yesterday.
 
 By then the names had already begun to leave my head.
 
-I remembered the woman with the child because the child had wanted my ink. I remembered the gray-haired woman because she had accused me of helping. I remembered the man at the wrong Vale because he had worked hard for the wrong room.
+I remembered the woman with the child because the child had wanted my ink. I remembered the gray-haired woman because she had accused me of helping. I remembered the man at the wrong office because he had worked hard for the wrong room.
 
 The rest stayed on two sheets in Antonius's office.
 
