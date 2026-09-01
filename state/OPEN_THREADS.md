@@ -1,6 +1,6 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Current endpoint:** Chapter 238 — **THE SEALER**.
+- **Current endpoint:** Chapter 239 — **THE WAITER**.
 - **Permanent forward manuscript:** `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`. Chapters 156–219 still need exact-text synchronization into the permanent manuscript; Chapter 220+ writes directly here. Light Reader synchronization is a separate downstream concern.
 - **Engine method:** `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves durable 01 behavior and recovery instructions.
 - **Magic counts:** ACTIVE at 34 supervised minimal draws / 30 deliberate shaping attempts / 49 external-effect attempts.
@@ -85,7 +85,12 @@
 - **Ch238 theatre tradeoff:** Rinna's boy later confirms **The Missing Key** is paired and calls Greg for rehearsal/show. Greg stays at Vale because the packets must leave that day. The theatre uses Venn as Messenger and performs without Greg. Teren says tomorrow is a different pairing and the piece is done for now; Greg has no standing theatre obligation and receives no theatre pay.
 - **Ch238 pressure/magic:** no new threat fact, supplier report, investigation, security response, Hessa appearance, or magic attempt. Ch236's delivery/access question remains newest pressure evidence. Magic remains 34 / 30 / 49 with restrictions unchanged.
 - **Ch238 household/body:** ordinary seated stiffness/string-wax finger warmth only, no injury. Brown cloth remains same fold/three pins; damaged shirt remains three loose threads; beans remain off-page; Ch237's small paper-wrapped item is gone without explanation.
-- **Next engine rotation:** let Ch238's Vale/theatre tradeoff breathe. Prefer a fresh social/Carrow/Lyssa claim, or Hessa only if a bounded question is actually selected; theatre, Vale, or pressure return only through a genuinely new obligation/fact.
+- **Ch239 offstage Hara/Greg:** Greg encounters Hara at the west-steps cobbler while on an ordinary bread/salt errand and waits with her while the same repaired left shoe is adjusted. Their time together is social/Carrow life, not theatre work or a lesson about Ch238.
+- **Ch239 Hara shoe:** the Ch233 left-sole repair has held, but the new stitching has pulled the heel side tighter and caused rubbing. The cobbler adjusts it with dark leather; Hara's longer test walk is less painful and the heel does not bite again during the observed route. No injury or permanent footwear arc established.
+- **Ch239 Hara social residue:** a vegetable seller knows Hara's usual quantity, and a cookshop diner recognizes her as the Widow from **The Crooked Fence**. This is Hara's partial social visibility, not Greg celebrity or a universal theatre reputation.
+- **Ch239 engine restraint:** no theatre call/work/pay, Vale appearance/work/credit, Hessa/magic attempt, or new threat fact. Magic remains 34 / 30 / 49; debt remains active and unstated; Ch236 remains newest pressure fact.
+- **Ch239 household/body:** Greg buys bread and salt; Lyssa goes north independently and later returns with an apple and cloth-wrapped cheese. Beans and the old paper-wrapped item remain absent/unexplained. Brown cloth stays same fold/three pins; damaged shirt stays three loose threads. Greg has ordinary longer-walk fatigue only and no injury.
+- **Next engine rotation:** let Ch239's offstage Hara/Greg day breathe. Hessa is increasingly available only if she has actually selected one bounded next question; theatre, Vale, Lyssa work, pressure, or another social route should return only through a real new claim rather than rotation inertia.
 - **Ch229 Marra route:** Greg carries the still-undefined blue-gray cloth to Marra after brief window-trim work. He knows the green-door route and work lane without directions; Marra still calls him `the road one`.
 - **Ch229 blue-gray cloth ceiling:** Jessa finds two short chalk marks near an edge and calls the cloth `Marked`. Its customer, garment, ownership, intended use, and the exact meaning of the marks remain unestablished.
 - **Ch229 Lyssa network:** Marra/Jessa/customer traffic continues without Greg. An unnamed customer asks for Lyssa and says tomorrow afternoon is fine; Jessa later finds Lyssa independently. Do not assign formal Marra/Jessa roles or merge the customer with earlier unnamed/referral customers.

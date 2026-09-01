@@ -1,6 +1,6 @@
-# PEG-LEG GREG — CHAPTER INDEX — CH238
+# PEG-LEG GREG — CHAPTER INDEX — CH239
 
-**Current endpoint:** Chapter 238 — THE SEALER
+**Current endpoint:** Chapter 239 — THE WAITER
 
 1. **THE BOY**
 2. **THE BORROWER**
@@ -240,3 +240,4 @@
 236. **THE DISTRIBUTOR**
 237. **THE BEARER**
 238. **THE SEALER**
+239. **THE WAITER**
