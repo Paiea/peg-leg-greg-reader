@@ -43,8 +43,9 @@ class NavigationPatchTests(unittest.TestCase):
             ):
                 self.assertIn(label, text)
             self.assertEqual(text.count('class="reader-act"'), 5)
+            toc = text.split('<section aria-labelledby="chapters-heading" class="toc toc-acts" id="chapters">', 1)[1].split('</section>', 1)[0]
             for number in ('001', '020', '021', '063', '064', '082', '083', '137', '138', '155'):
-                self.assertEqual(text.count(f'href="chapters/{number}.html"'), 1)
+                self.assertEqual(toc.count(f'href="chapters/{number}.html"'), 1)
             self.assertLess(text.index('THE SECOND LIFE'), text.index('MAKING A PLACE'))
             self.assertLess(text.index('MAKING A PLACE'), text.index('THE NEW BASELINE'))
             self.assertLess(text.index('THE NEW BASELINE'), text.index('A LIFE IN CARROW'))
@@ -56,7 +57,7 @@ class NavigationPatchTests(unittest.TestCase):
         self.assertIn('.chapter-art img {\n    width:auto;', css)
         self.assertIn('max-width:min(820px, calc(100vw - 48px));', css)
         self.assertIn('.chapter-art.sketch-beat img {\n    max-width:min(560px, calc(100vw - 48px));', css)
-        self.assertIn('.chapter-art.feature-illustration img {\n    max-width:min(1180px, calc(100vw - 48px));', css)
+        self.assertIn('.chapter-art.feature-illustration img {\n    width:auto;\n    max-width:min(1180px, calc(100vw - 48px));', css)
         self.assertIn('@media (max-width:600px)', css)
         self.assertIn('width:calc(100vw - 32px);', css)
 
