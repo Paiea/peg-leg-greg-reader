@@ -138,6 +138,7 @@ Current content must never wait for old-range completion.
 - When adding a static range, re-render existing generated neighbors so previous/next links switch cleanly from compatibility URLs to direct static URLs.
 - If compact state and exact prose disagree, publish only what exact prose authority supports and record the discrepancy rather than inventing missing text.
 - Accept supported exact source heading forms in the publisher; do not rewrite manuscript prose merely to satisfy generated-output tooling.
+- When current `main` advances in another lane, reconcile by preserving the newer main tree and overlaying only Light-specific changes; rerun the complete Light workflow on the reconciled tree before opening or merging a PR.
 
 ## RE-PROMPT [READER]
 
