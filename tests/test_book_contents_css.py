@@ -17,7 +17,12 @@ class BookContentsCssTests(unittest.TestCase):
         self.assertIn('.reader-book-card-image', css)
         self.assertNotIn('grid-template-columns: minmax(240px, 42vw) minmax(0, 1fr)', css)
         self.assertNotIn('width: min(42vw, 280px)', css)
+        self.assertNotIn('reader-book-card-art', css + base_css)
+        self.assertNotIn('data:image/webp;base64,', css + base_css)
+        self.assertNotIn('background-size: 300% 100%', css + base_css)
         self.assertNotIn('animation:', css + base_css)
+        self.assertNotIn('transition:', css)
+        self.assertNotIn('transform:', css)
 
 
 if __name__ == '__main__':

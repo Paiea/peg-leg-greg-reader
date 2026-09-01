@@ -136,6 +136,7 @@ The manuscript establishes use of:
 - a dyer in the Chapter-178 blue-work route;
 - an unnamed thread seller two streets from Marra in Chapter 195;
 - **Maren**, a separate spool-sign thread/garment shop in Chapter 222 where Greg can present a cloth sample for matching thread and Lyssa later says `Maren usually does.`
+- **Chapter 246:** the same Maren counter woman remembers Greg narrowly as `Blue last time` when he returns with another sample. This graduates one small Greg/shop familiarity fact only. Her name remains unestablished; `Maren` is still not established as her personal name; no personal recognition of Lyssa by that seller is established; the shop remains a lighter supply node rather than a socially dense relationship.
 
 **Classification:** ESTABLISHED routes/use.
 

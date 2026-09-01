@@ -27409,3 +27409,2203 @@ I remembered the woman with the child because the child had wanted my ink. I rem
 The rest stayed on two sheets in Antonius's office.
 
 That was where they belonged.
+
+------------------------------------------------------------------------
+
+# CHAPTER 246
+
+## THE MATCHER
+
+Lyssa handed me a square of cloth before I had finished breakfast.
+
+This was not unusual enough to be alarming.
+
+It was unusual enough that I stopped chewing.
+
+The cloth was a dull reddish brown that looked different every time I turned it toward the window. Beside her hand sat a spool with perhaps six turns of thread left on it.
+
+“Maren,” she said.
+
+I looked at the cloth.
+
+Then at the spool.
+
+“Thread.”
+
+“Yes.”
+
+“Matching.”
+
+“Yes.”
+
+“One?”
+
+“One.”
+
+I waited.
+
+Lyssa was already tying her hair back.
+
+“That cannot be all the instructions.”
+
+She looked at me.
+
+“If exact, exact. If not, darker.”
+
+I pointed at her with the bread.
+
+“There. That was hidden information.”
+
+“It was next.”
+
+“Dangerous system.”
+
+She took the bread out of my hand, bit it, and gave it back.
+
+The cloth was not the brown cloth.
+
+That remained folded near the wall with the same three pins and the same determination to outlive us both.
+
+The new square was smaller than my palm and had one clean cut edge. I did not ask whose garment it came from. Lyssa did not offer.
+
+My damaged shirt still had three loose threads. I was wearing the better one, blue paint streak and all, because the damaged shirt had worked enough at Vale yesterday.
+
+The thin ink line on my middle finger had mostly washed away.
+
+Vale could survive that.
+
+“Anything else?” I asked.
+
+Lyssa picked up the nearly empty spool.
+
+“Bring this too.”
+
+“Evidence.”
+
+“Thread.”
+
+“I am learning.”
+
+She tucked the spool into the same scrap of cloth and folded the cloth over it once.
+
+“Do not lose the sample.”
+
+“I know how samples work.”
+
+“You lost a button in your own pocket.”
+
+“That was a storage problem.”
+
+“It was your pocket.”
+
+“Exactly.”
+
+She handed me the bundle.
+
+Then she left.
+
+No other message waited.
+
+I finished breakfast.
+
+The apartment remained quiet after Lyssa left. The onions had survived another night. The brown cloth did not move. My damaged shirt remained three threads away from whatever came after damaged.
+
+I had one actual obligation.
+
+Maren.
+
+That was enough.
+
+The route did not require thought anymore, though I had only used the shop once.
+
+West, then down past the lane where the baker kept stacking flour sacks too close to the door. Across the wider street with the iron drain cut through the center. One more turn.
+
+Spool sign.
+
+I knew it before I saw it.
+
+That pleased me just enough to become embarrassing, so I stopped being pleased.
+
+The woman behind the counter was serving someone else when I entered.
+
+Same woman as before.
+
+At least I thought so.
+
+She had the same narrow face, same heavy gray apron, and the same expression suggesting that thread did not become more interesting because customers were confused by it.
+
+The customer in front of her was an older man holding a broken leather lace.
+
+“Not thread,” the woman said.
+
+“I know.”
+
+“You brought it to thread.”
+
+“I brought it to you.”
+
+“Different.”
+
+He looked at me as if I might support him.
+
+I had learned from Vale.
+
+I did not.
+
+The woman reached under the counter and brought out a short length of dark cord.
+
+The man pulled it between both hands.
+
+“Too thick.”
+
+She put it back.
+
+A thinner one appeared.
+
+He pulled that too.
+
+“Too long.”
+
+The woman stared at him.
+
+He stared at the cord.
+
+Then he said, “I can cut it.”
+
+“Growth.”
+
+I liked her more immediately.
+
+The man paid and left.
+
+She looked at me.
+
+Then at the small folded cloth in my hand.
+
+“Blue last time.”
+
+There it was.
+
+Narrow memory.
+
+Not my name.
+
+Not Lyssa’s name.
+
+Not a story about the theatre, magic, debt, crutches, or onions.
+
+Blue last time.
+
+“Yes.”
+
+She held out her hand.
+
+“Not blue.”
+
+“Also growth.”
+
+She did not reward that.
+
+I gave her the cloth and the nearly empty spool.
+
+She unfolded the sample on the counter and set the old thread across it.
+
+The thread looked brown.
+
+The cloth looked red.
+
+Then she moved both closer to the window and the cloth looked brown while the thread looked red.
+
+I frowned.
+
+“This material is dishonest.”
+
+“It is cloth.”
+
+“That does not improve its behavior.”
+
+She took the spool and turned it once between her fingers.
+
+“Old?”
+
+“I assume.”
+
+“From her?”
+
+“Partner.”
+
+She looked at me.
+
+“Same.”
+
+“Same partner, yes.”
+
+That was the entire relationship explanation.
+
+Healthy shop.
+
+She turned to the shelves behind her.
+
+Maren’s had more thread than I remembered.
+
+Or I had understood less of what I was seeing the first time.
+
+Spools stood in shallow rows, some full, some narrow enough that the wood showed through the thread. The darker colors occupied one section, pale colors another, and several small boxes sat beneath them with labels I could not read from where I stood.
+
+The woman pulled one spool.
+
+Held it beside the sample.
+
+Put it back.
+
+Pulled another.
+
+Held it beside the sample.
+
+Put that back too.
+
+I watched.
+
+“Matching?”
+
+“No.”
+
+“You said that last time before you found one.”
+
+“I said matching.”
+
+“You found one.”
+
+She looked at me.
+
+“Close.”
+
+“Lyssa said it was good.”
+
+“Close was good.”
+
+Important distinction.
+
+She pulled a third spool.
+
+This one looked perfect to me.
+
+“That one.”
+
+“No.”
+
+I looked at it.
+
+Then at her.
+
+“Strong confidence.”
+
+She carried the spool and sample to the open doorway.
+
+Daylight changed them.
+
+The thread went brighter.
+
+The cloth did not.
+
+“Oh.”
+
+She came back.
+
+“No.”
+
+“Fine.”
+
+I had been in the shop less than five minutes and had already been corrected by light.
+
+Carrow remained efficient.
+
+The woman checked two more spools.
+
+Then shook her head.
+
+“No exact.”
+
+I remembered the instruction.
+
+“If not, darker.”
+
+She looked at me.
+
+“Darker than cloth or darker than old thread?”
+
+I stopped.
+
+That was an unfair question.
+
+“Those are different?”
+
+She placed the old thread across the cloth again.
+
+“Yes.”
+
+The old thread was a little redder than the cloth.
+
+I could see it now because she had told me.
+
+Dangerous.
+
+I repeated Lyssa’s words exactly.
+
+“If exact, exact. If not, darker.”
+
+The woman considered that.
+
+“Darker cloth.”
+
+“You know?”
+
+“No.”
+
+“Excellent.”
+
+She put two spools on the counter.
+
+One was slightly darker and slightly redder.
+
+The other was darker without much red at all.
+
+I looked between them.
+
+The woman waited.
+
+I looked at her.
+
+She kept waiting.
+
+“This feels like a trap.”
+
+“Choice.”
+
+“Worse.”
+
+The door opened behind me.
+
+A young woman came in carrying two empty spools and a small paper packet.
+
+The woman behind the counter looked past me.
+
+“Back?”
+
+“One.”
+
+The customer set one empty spool down.
+
+The other she kept.
+
+“Wrong?”
+
+“Too yellow.”
+
+The shop woman took the paper packet, opened it, and removed a short piece of pale cloth.
+
+She held it beside the empty spool.
+
+“Outside?”
+
+“Inside looked wrong.”
+
+“Outside?”
+
+“Fine.”
+
+The shop woman pointed toward the doorway.
+
+The customer sighed, went outside, and held the cloth up.
+
+I watched because I was already waiting and because color had become temporarily hostile.
+
+She came back.
+
+“Still fine.”
+
+“Then room.”
+
+The shop woman reached for a different spool from the pale shelf.
+
+The customer compared it.
+
+“Better.”
+
+She paid the difference in silence that apparently contained a complete previous transaction.
+
+No name.
+
+No explanation.
+
+No Greg.
+
+She left.
+
+Before I could reclaim the full attention of my own problem, another customer came in.
+
+He wore a faded blue scarf and carried no sample at all.
+
+“Three black.”
+
+The woman behind the counter reached behind her without looking and set down two full spools.
+
+The man looked at them.
+
+“Three.”
+
+“Two.”
+
+“Tomorrow?”
+
+“Morning.”
+
+He considered this with the seriousness of a failed treaty.
+
+“Need three tonight.”
+
+She looked at the two spools.
+
+“They remain two.”
+
+He bought them anyway.
+
+No argument about whether she should create a third from principle.
+
+No explanation of who needed the thread or what would happen because the shelf was short.
+
+He knew the shop. She knew what he usually meant by black. The stock still refused to care.
+
+The man left with two.
+
+I looked at the empty place on the shelf.
+
+“That happens?”
+
+The woman looked at me.
+
+“Selling thread?”
+
+“Not having it.”
+
+“Sometimes.”
+
+This was devastating information for the fantasy version of shops in which every object waited patiently for the protagonist.
+
+I looked back at my two imperfect options.
+
+Maren’s had stock.
+
+It did not have infinite stock.
+
+Good to know.
+
+The shop woman looked at me.
+
+“Still choosing?”
+
+“I was studying your methods.”
+
+“No.”
+
+“Hostile profession.”
+
+She pushed the two dark spools closer.
+
+I tried the doorway because apparently I had learned one thing.
+
+Outside, the first spool looked too red.
+
+The second looked almost black beside the cloth until I angled it away from the direct light. Then it settled into a deeper version of the same brown.
+
+Not exact.
+
+Darker.
+
+I went back inside.
+
+“This one.”
+
+The woman did not immediately take my money.
+
+That concerned me.
+
+“What?”
+
+“How used?”
+
+I stared at her.
+
+“Thread.”
+
+She waited.
+
+“I understand why everyone dislikes me now.”
+
+“Visible?”
+
+“I don’t know.”
+
+“Seam?”
+
+“I don’t know.”
+
+“Buttons?”
+
+“I don’t know.”
+
+“Edge?”
+
+“I don’t know.”
+
+She pushed the sample back toward me.
+
+“Then darker may be wrong.”
+
+I did not touch it.
+
+“Lyssa said darker.”
+
+“Then darker.”
+
+“Why did we do that?”
+
+“To see if you knew more.”
+
+“I did not.”
+
+“Good.”
+
+I laughed despite myself.
+
+She did not.
+
+Professional.
+
+I reached for my money.
+
+She named the price.
+
+Ordinary.
+
+Not cheap enough to disappear.
+
+Not expensive enough to become a chapter about poverty.
+
+I paid.
+
+She wrapped the spool in the cloth sample, then stopped before handing it back.
+
+“One?”
+
+“One.”
+
+“She said one?”
+
+“Yes.”
+
+“Good.”
+
+I took the bundle.
+
+A delivery arrived before I reached the door.
+
+Not for me.
+
+A boy came in carrying a shallow wooden crate against his hip. Several paper-wrapped bundles filled it, each narrow enough to be thread or cord. He set the crate on the counter.
+
+The shop woman looked at me.
+
+I looked at the crate.
+
+She said, “You bought.”
+
+“Yes.”
+
+“You can leave.”
+
+“I know.”
+
+I remained for three seconds because I wanted to know whether the crate contained the exact color I had just failed to buy.
+
+The woman looked at me.
+
+I left.
+
+This was growth.
+
+Outside, I made it half a street.
+
+Then curiosity won.
+
+Not enough to go back.
+
+Enough to annoy me.
+
+What if the exact color had been in the crate?
+
+What if I had bought the darker substitute thirty seconds before the correct thread arrived?
+
+What if Lyssa had known this would happen and sent me anyway as a relationship experiment?
+
+The last theory had no evidence and too much personality.
+
+I kept walking.
+
+Nothing else had acquired a claim merely because I was outside.
+
+So I did something reckless.
+
+I sat down.
+
+There was a low stone ledge outside a closed upper-floor warehouse with enough clear space beside it for both crutches. I sat with the spool bundle in my lap and watched Carrow continue without requiring me to join.
+
+A fish seller rolled a barrel past with one hand and swore at the slope.
+
+Two boys carried a chair in opposite opinions.
+
+A woman stopped in the middle of the street to retie a basket cord, forcing everyone else to discover edges.
+
+The city was very good at producing work for people who were not me.
+
+My right leg felt fine.
+
+Both shoulders fine.
+
+Right grip invisible.
+
+Left tip normal.
+
+The stool at Vale yesterday had left no lasting stiffness.
+
+I sat until sitting became boring.
+
+Then I went home.
+
+Lyssa was not there.
+
+Of course she was not.
+
+The brown cloth remained folded.
+
+Three pins.
+
+The damaged shirt remained where I had left it.
+
+Three threads.
+
+I put the Maren bundle on the table.
+
+Then I looked at it.
+
+The cloth sample was folded around the spool.
+
+The new thread was inside.
+
+Everything correct.
+
+Probably.
+
+I considered opening it again.
+
+I did not.
+
+This was also growth.
+
+I found bread and ate enough not to become Hessa’s theoretical concern if she somehow materialized later.
+
+She did not.
+
+By midday, the room felt too quiet.
+
+I washed the cup.
+
+Swept badly.
+
+Moved the onions from one side of the table to the other because that was technically household management.
+
+Moved them back because the first side was better.
+
+I sat again.
+
+This time I did not move the onions.
+
+The sample kept bothering me from inside the fold.
+
+Not because I wanted to open it.
+
+Because I wanted to know whether I had finally learned its color.
+
+I took the bundle to the window without unwrapping it, then remembered that this was useless.
+
+I opened one corner enough to expose the cloth.
+
+Brown.
+
+I stepped back from the window.
+
+Red.
+
+I stepped forward again.
+
+Brown.
+
+Excellent.
+
+The shop woman had not been making my life difficult. The cloth had volunteered.
+
+I folded it closed again and put it back where I had found it.
+
+Whatever Lyssa was doing with the material, I had completed the part that required my eyes to be wrong in two locations.
+
+Lyssa came home before dusk carrying a narrow paper-wrapped loaf under one arm and nothing that looked like customer work.
+
+She saw the bundle on the table.
+
+“Maren?”
+
+“Yes.”
+
+She put the loaf down and opened the cloth.
+
+The new spool rolled once before she caught it.
+
+She held the thread against the sample.
+
+Then she carried both to the window.
+
+I watched.
+
+She turned the cloth once.
+
+“Close.”
+
+“Not exact.”
+
+“No.”
+
+“She did not have exact.”
+
+Lyssa looked at me.
+
+“She?”
+
+“The woman.”
+
+“Good.”
+
+“She asked whether the thread would be visible.”
+
+Lyssa looked at the sample again.
+
+“Not much.”
+
+“I did not know that.”
+
+“No.”
+
+“She asked seam, buttons, edge.”
+
+Lyssa looked at me now.
+
+“And?”
+
+“I achieved a perfect score.”
+
+A pause.
+
+“Zero.”
+
+“Yes.”
+
+She smiled.
+
+I pointed at the thread.
+
+“You said darker.”
+
+“I did.”
+
+“There were two darker.”
+
+“Which?”
+
+I pointed.
+
+“That one.”
+
+She held it beside the sample again.
+
+“Why?”
+
+“One was redder. This one stayed darker outside.”
+
+Lyssa looked at me for a moment.
+
+I felt the dangerous rise of pride.
+
+Then she said, “Good.”
+
+There it was.
+
+I narrowed my eyes.
+
+“Shop woman also said good.”
+
+“For what?”
+
+“Leaving.”
+
+Lyssa laughed.
+
+I told her about the delivery crate arriving immediately after I paid.
+
+She looked at me.
+
+“You stayed?”
+
+“Three seconds.”
+
+“Why?”
+
+“What if exact was in the box?”
+
+“Was it?”
+
+“I was expelled before science.”
+
+She put the spool beside the sample.
+
+“If exact was there, Maren can sell it to someone.”
+
+I stared.
+
+“That is offensively reasonable.”
+
+Lyssa unwrapped the loaf.
+
+We ate bread with a little cheese and one onion because the household had developed a powerful relationship with onions.
+
+Afterward Lyssa picked up the sample and new spool again.
+
+She did not start sewing.
+
+She only set them together near her side of the table.
+
+The brown cloth remained folded near the wall.
+
+I did not ask what the sample belonged to.
+
+I looked at the spool.
+
+“Do you think the exact one was in the crate?”
+
+Lyssa ate the last piece of cheese.
+
+“No.”
+
+“You cannot know that.”
+
+“No.”
+
+“Then why say no?”
+
+“Because you already bought this.”
+
+I considered the logic.
+
+“Very efficient.”
+
+“Yes.”
+
+The new thread sat beside the sample.
+
+Close, not exact.
+
+Darker, as instructed.
+
+Maren’s had remembered me as blue last time.
+
+I left the spool alone.
+
+# CHAPTER 247
+
+## THE PATRON
+
+Lyssa looked at my hair and said, "No."
+
+I had not asked anything.
+
+That made it worse.
+
+I was eating bread. She was standing beside the table with the reddish-brown sample in one hand and yesterday's darker spool beside it. The long-standing brown cloth remained near the wall in the same fold with the same three pins. My damaged shirt remained on the shelf with three loose threads, where it had acquired the dignity of an unresolved civic problem.
+
+"What?" I asked.
+
+She set the sample down.
+
+"Your hair."
+
+I touched it.
+
+Hair.
+
+"Still attached."
+
+"It is in your eyes."
+
+"It has been in my eyes."
+
+"Yes."
+
+I pushed it back.
+
+It fell forward again.
+
+Lyssa watched this happen.
+
+I considered defending myself more carefully.
+
+"You liked it before."
+
+"I liked your face before too."
+
+"Strong argument for keeping both."
+
+She smiled, but only a little.
+
+Then she picked up the spool and the sample and moved them to her side of the table.
+
+That was all the instruction I received.
+
+No thread errand.
+
+No customer explanation.
+
+No reason to touch the folded brown cloth.
+
+No note under the cup. No knock from Vale. No theatre boy. No Hessa paper pinned to anything.
+
+Nobody had claimed the day.
+
+Apparently my hair had.
+
+I finished breakfast.
+
+My right leg felt fine when I stood. Shoulders fine. Left crutch tip normal. Left grip normal. The small tack beneath the right grip remained flush enough that I had to turn the crutch over to see it.
+
+I did not.
+
+Growth.
+
+Lyssa was already dressing to leave.
+
+"Where do people cut hair?" I asked.
+
+She stopped with one arm in her outer layer.
+
+I waited.
+
+She looked at me.
+
+"Do not make this difficult."
+
+"I know where people cut hair."
+
+"Good."
+
+"I was asking where you think I should go."
+
+"That is different."
+
+"Yes."
+
+She pulled the rest of the layer on and tied it.
+
+"Lower Steps. Past the blue shutters. Small red pole."
+
+"Pole?"
+
+"You will see it."
+
+"Name?"
+
+"I don't know."
+
+"You are sending me to an unnamed pole."
+
+"I am leaving you in your own city."
+
+Then she kissed my cheek and left.
+
+Cruel but fair.
+
+The route to Lower Steps was not one I needed to think through anymore. I had crossed it for work, food, theatre, messages, and several reasons that had seemed more important while they were happening.
+
+The blue shutters were closed.
+
+The red pole was not.
+
+It stood beside a narrow shopfront with red and white cloth wrapped around it in a spiral that made the purpose no clearer.
+
+The open door did.
+
+A man sat in a chair with a cloth tied around his neck while another man worked a razor along his jaw. Hair covered the floor around a second chair. A boy with a broom was sweeping it into a pile and losing half of it every time the door moved.
+
+I stopped outside.
+
+The barber looked at me in the mirror.
+
+Not the customer.
+
+The barber.
+
+He had broad shoulders, gray beginning at both temples, and forearms that looked too strong for scissors.
+
+"Hair?" he asked.
+
+I considered the possibility he was testing me.
+
+"Yes."
+
+"Wait."
+
+Excellent.
+
+I went inside.
+
+The shop was narrower than it had looked from the street. Two chairs faced a long spotted mirror. Shelves beneath it held combs, folded cloths, a stone for razors, several small bottles, and one chipped bowl with a crack that had been repaired by wire.
+
+A bench ran along the opposite wall.
+
+Three people occupied it.
+
+An older woman with close-cropped gray hair.
+
+A young man holding a cap in both hands.
+
+A broad man with a red scarf and no apparent need for a haircut.
+
+I looked at them.
+
+They looked at me.
+
+The boy with the broom said, "Crutches there."
+
+He pointed to the wall beside the bench.
+
+I put them where he indicated, then sat at the open end of the bench.
+
+The broad man moved one knee aside without comment.
+
+Good shop.
+
+The barber scraped the razor clean, stretched the seated man's cheek with one thumb, and made another pass.
+
+Nobody was speaking.
+
+That seemed suspicious.
+
+Then the man in the chair said, through half his mouth, "Too short."
+
+The barber did not stop.
+
+"Your beard?"
+
+"My hair."
+
+The barber looked at the man's hair in the mirror.
+
+It was not short.
+
+"Not touching it."
+
+"Last time."
+
+"Last time you said shorter."
+
+"Not that short."
+
+"You pointed."
+
+"I pointed here."
+
+The man lifted a hand.
+
+The barber caught his wrist before it reached the razor.
+
+"Do not point while I shave you."
+
+The man lowered his hand.
+
+The older woman on the bench said, "He pointed at his ear."
+
+"I pointed above my ear."
+
+"You pointed at your ear."
+
+"You weren't there."
+
+"I was."
+
+He looked at her through the mirror.
+
+She smiled.
+
+The barber continued shaving.
+
+Independent witness.
+
+Useful institution.
+
+The boy swept around my boots and crutch tips with the resigned care of somebody who had spent his life navigating feet.
+
+The door opened.
+
+A woman leaned in.
+
+"Still four?"
+
+The barber looked at the bench.
+
+"Three."
+
+I counted.
+
+Older woman.
+
+Young man.
+
+Me.
+
+The broad man in the red scarf looked at her.
+
+"Not me."
+
+The woman said, "Then three."
+
+The barber nodded.
+
+She left.
+
+I looked at the broad man.
+
+He noticed.
+
+"Waiting for my son."
+
+The young man beside him said, "I am his son."
+
+I looked at the young man.
+
+He looked old enough to vote on wars and young enough to resent being identified as anyone's son.
+
+"Ah."
+
+The broad man said, "He is next."
+
+The older woman said, "I am next."
+
+The young man looked at her.
+
+"You came after us."
+
+"I came before you sat."
+
+"You were outside."
+
+"I was getting my coin."
+
+The barber said, "Mira."
+
+The older woman stopped.
+
+He said, "Boy first. Then you."
+
+She frowned.
+
+"Why?"
+
+"You told me after him when you left."
+
+She considered.
+
+Then nodded.
+
+"Fine."
+
+The entire dispute died.
+
+No ledger.
+
+No arrival sheet.
+
+No dots.
+
+No Antonius.
+
+A person remembered.
+
+I resisted the urge to find this structurally satisfying.
+
+The man in the chair finished first.
+
+The barber wiped the last of the soap from his jaw, untied the cloth, and brushed loose hair from his shoulders.
+
+The customer stood, rubbed his chin, looked at himself from three angles, and said, "Hair next time."
+
+"Not as short."
+
+"Not as short."
+
+"Above your ear."
+
+"Not my ear."
+
+The older woman laughed.
+
+He paid and left.
+
+The barber cleaned the razor.
+
+The young man stood.
+
+His father remained on the bench.
+
+"Same?" the barber asked.
+
+The young man took off his cap.
+
+His hair had grown long around the sides and almost nowhere on top.
+
+"Less."
+
+The barber looked at him.
+
+"Less what?"
+
+"Short."
+
+"Longer?"
+
+"Yes."
+
+"Than last time."
+
+"Yes."
+
+The barber looked at the father.
+
+The father said, "Don't ask me."
+
+"I wasn't."
+
+"You looked."
+
+"That is not asking."
+
+The young man sat.
+
+The barber wrapped the cloth around him.
+
+I watched.
+
+There was something reassuring about a profession where the main danger was cutting away exactly what someone had requested and discovering they had meant something else.
+
+Then the barber asked, "Sides?"
+
+The young man said, "Same."
+
+The barber said, "Last time or now?"
+
+The young man closed his eyes.
+
+His father began laughing.
+
+I liked the place.
+
+The door opened again.
+
+A delivery girl came in carrying a small wooden box against her hip.
+
+"Three bottles."
+
+The barber pointed with the comb.
+
+"Back shelf."
+
+She went behind the chairs as though she had done it a hundred times, put the box down, took three dark glass bottles from it, and lined them beside two empty ones.
+
+The boy with the broom stopped sweeping long enough to collect the empties.
+
+"Two back?" the girl asked.
+
+"Two."
+
+"Third?"
+
+"Broke."
+
+She looked at the wired bowl.
+
+"Again?"
+
+"Different."
+
+"Better."
+
+She took the empties.
+
+No one explained what the bottles contained.
+
+No one asked me to care.
+
+She left.
+
+The barber cut the young man's hair.
+
+Not quickly.
+
+Not slowly.
+
+With the speed of someone who knew which movements needed care and which did not.
+
+The scissors made small clean sounds near his ear.
+
+Hair fell to the cloth.
+
+The father watched until the young man caught him in the mirror.
+
+"What?"
+
+"Nothing."
+
+"Then stop."
+
+"Watching my money leave."
+
+"I am paying."
+
+"Then watching your money leave."
+
+"Go outside."
+
+The father did not.
+
+The barber turned the chair slightly.
+
+The boy swept.
+
+The older woman picked at a loose thread on her sleeve.
+
+I looked toward the mirror.
+
+My own hair was worse than I had thought.
+
+Lyssa had been right.
+
+This was unfortunate.
+
+It fell forward over my forehead and bent toward one eye. The back had begun touching my collar. Around the ears it had reached the stage where every direction was technically possible and none looked deliberate.
+
+I pushed it back.
+
+It fell forward.
+
+The older woman caught me doing it.
+
+"First time?"
+
+"In this shop."
+
+"Hair?"
+
+I looked at her.
+
+She smiled.
+
+I had walked into that.
+
+"Yes."
+
+"Tell him what you want before he starts."
+
+"Strong policy."
+
+"People don't."
+
+The barber said, "Mira."
+
+"What?"
+
+"You're next."
+
+"I know."
+
+"Then let him suffer later."
+
+She folded her hands.
+
+The young man finished.
+
+The barber held a small mirror behind him.
+
+The young man looked forward, then at the side, then leaned closer.
+
+"Good."
+
+His father said, "Too long."
+
+The young man put his cap on.
+
+The barber said, "Pay me."
+
+The young man did.
+
+His father stood with him.
+
+"Mine next week."
+
+"Beard?"
+
+"Hair."
+
+"Short?"
+
+The father thought.
+
+The entire shop waited.
+
+"Ask me next week."
+
+"Excellent."
+
+They left.
+
+Mira took the chair before the door had fully shut.
+
+The barber did not use scissors.
+
+He used clippers, hand-driven, with two handles that clicked as he moved them over the sides of her head.
+
+I had seen the tool before.
+
+I had not seen anyone enjoy it as much as Mira.
+
+"Short," she said.
+
+"I know."
+
+"Shorter."
+
+"You said that last time."
+
+"And?"
+
+"You complained."
+
+"I had two cold days."
+
+"You still paid."
+
+"I pay for many mistakes."
+
+The barber ran the clippers again.
+
+Gray hair fell in small soft clumps.
+
+She looked at me in the mirror.
+
+"Do not listen to him. He is afraid of excellence."
+
+The barber said, "You complained your head was cold."
+
+"Weather's warmer."
+
+"That is a different request."
+
+"Yes."
+
+He shortened it.
+
+No argument.
+
+No universal rule.
+
+Today was warmer.
+
+Today she wanted less hair.
+
+The logic could survive being local.
+
+The boy with the broom opened the door and shook the hair pile into the street.
+
+A gust immediately pushed some of it back inside.
+
+He stared at the floor.
+
+Then at the sky.
+
+Then at the barber.
+
+The barber said, "Again."
+
+The boy sighed and swept it again.
+
+This time he carried the pile farther.
+
+I respected adaptation.
+
+Mira finished.
+
+She rubbed both hands over her head.
+
+"Good."
+
+The barber held up the mirror.
+
+She did not look.
+
+"I have felt my head before."
+
+She paid.
+
+On the way out, she stopped beside me.
+
+"Don't say short."
+
+"What do I say?"
+
+"What you mean."
+
+Then she left.
+
+Unhelpful woman.
+
+The barber cleaned the chair.
+
+The shop had emptied enough that I could hear the tiny click of cooling metal from somewhere near the razor bowl.
+
+He looked at me.
+
+"Your turn."
+
+I stood.
+
+The boy brought my crutches over before I reached for them.
+
+I used both to cross the narrow floor, then stopped beside the chair.
+
+The barber looked at the crutches.
+
+Then at the chair.
+
+"Can you sit from there?"
+
+"Yes."
+
+He moved one small stool away from the right side.
+
+That was all.
+
+No discussion.
+
+I turned, backed up until the chair touched my legs, set both crutches against the mirror wall, and sat.
+
+The chair was higher than ours at home and lower than the chairs in Vale's office.
+
+My right foot found the floor.
+
+My left knee rested comfortably.
+
+Nothing interesting happened.
+
+The barber wrapped a cloth around my neck.
+
+"What do you want?"
+
+Mira's warning returned.
+
+I had prepared for this.
+
+"Out of my eyes."
+
+He waited.
+
+"And?"
+
+I had not prepared further.
+
+"Still attached."
+
+He looked at me in the mirror.
+
+"I can do that."
+
+"Good."
+
+"Ears?"
+
+"What about them?"
+
+"Covered or clear?"
+
+I touched one.
+
+"Clear."
+
+"Collar?"
+
+"Not touching."
+
+He combed the front down.
+
+It fell farther into my eyes than I liked.
+
+"How much off front?"
+
+I held two fingers up.
+
+He moved my hand.
+
+"Show me on your face."
+
+I pointed near the middle of my forehead.
+
+"Here?"
+
+"Maybe."
+
+"Maybe is not a length."
+
+I looked at my reflection.
+
+This was worse than matching thread.
+
+At least Lyssa had given me instructions then.
+
+"Above the eyes. Not halfway to my skull."
+
+The barber's mouth moved slightly.
+
+Possibly humor.
+
+"Useful."
+
+He began.
+
+The first cut felt enormous.
+
+It was not.
+
+A lock of hair dropped onto the cloth below my chin.
+
+I stared at it.
+
+The barber kept going.
+
+"Too late," he said.
+
+"I said nothing."
+
+"You looked."
+
+"Observant profession."
+
+"Mirrors."
+
+He cut the other side.
+
+The hair stopped touching my eyelashes.
+
+That was already better.
+
+He worked around my right ear first.
+
+The scissors came close enough that every old human instinct objected.
+
+I stayed still.
+
+The boy returned and began sweeping again.
+
+A new customer entered behind us.
+
+I saw him in the mirror.
+
+Short man. Heavy coat. Wet shoulders though it had not rained.
+
+He sat.
+
+The barber said, "Beard?"
+
+The man said, "Hair."
+
+"Wait."
+
+"Yes."
+
+That was the entire contract.
+
+The barber moved behind me.
+
+"Head straight."
+
+"It is."
+
+"No."
+
+He touched two fingers lightly beneath my chin and corrected me.
+
+Apparently I had tilted away from the scissors without noticing.
+
+"Now."
+
+I kept it there.
+
+The sound changed near the back of my head.
+
+Shorter cuts.
+
+Comb.
+
+Scissors.
+
+Comb.
+
+A small brush across my neck.
+
+Hair worked its way under the cloth anyway and found the exact line where skin became shirt.
+
+I understood civilization's failure.
+
+"Does everyone itch?"
+
+"Yes."
+
+"Good."
+
+The barber looked at me in the mirror.
+
+"Why good?"
+
+"I thought it might be personal."
+
+He continued.
+
+The man waiting behind me laughed once.
+
+I looked at him in the mirror.
+
+He looked away.
+
+Audience acquired.
+
+The barber finished one side, then stepped back.
+
+"Front enough?"
+
+I looked.
+
+My hair no longer entered my eyes.
+
+It also made my face look narrower.
+
+Or more visible.
+
+Probably just more visible.
+
+"Yes."
+
+"Sides?"
+
+I turned my head slightly.
+
+He stopped me with one hand.
+
+"Use mirror."
+
+Right.
+
+I looked.
+
+"Could be shorter."
+
+"Could."
+
+I waited.
+
+He waited.
+
+Apparently I had to decide.
+
+"Not Mira short."
+
+The waiting man laughed again.
+
+The barber said, "Useful."
+
+He shortened the sides a little more.
+
+That was where I learned that ears had opinions about wind.
+
+The shop door opened.
+
+Air moved across the side of my head.
+
+Cold.
+
+Not painful.
+
+Just newly available.
+
+"Mira was right," I said.
+
+"About?"
+
+"Cold."
+
+The barber kept working.
+
+"She'll complain tomorrow."
+
+"Will you change it?"
+
+"No."
+
+"Why?"
+
+"Can't put it back."
+
+A practical limit.
+
+I respected it.
+
+He trimmed the last uneven edge near my collar, brushed the loose hair from my neck, and untied the cloth.
+
+Half the loose hair immediately became my problem.
+
+I stood carefully.
+
+The boy offered the crutches.
+
+I took them.
+
+The barber held up the small mirror behind me.
+
+I looked at the back.
+
+Shorter than I expected.
+
+Not bad.
+
+Just undeniably cut.
+
+"Good?" he asked.
+
+I turned my head.
+
+The side stayed out of my eyes because sides generally did.
+
+"Good."
+
+He named the price.
+
+Ordinary enough that I paid it without imagining Antonius Vale's face.
+
+Money left.
+
+Hair left.
+
+Transaction complete.
+
+The waiting man took my chair.
+
+The barber said, "Same as last time?"
+
+The man said, "No."
+
+"Good start."
+
+I stepped out before learning how that disaster ended.
+
+Lower Steps had become brighter while I was inside.
+
+Not because of weather.
+
+Because I could see.
+
+Hair no longer sat at the edge of my vision.
+
+I had not realized how often I had been pushing it aside until there was nothing to push.
+
+I raised one hand anyway.
+
+Stopped halfway.
+
+Put it back on the grip.
+
+That habit would probably survive longer than the problem.
+
+Carrow had not needed me during the haircut.
+
+It had not needed me afterward either.
+
+A woman crossed the street carrying two stacked baskets taller than her head. A cooper rolled a barrel into a doorway. A boy ran past with a loaf under one arm and somebody else's anger behind him.
+
+I bought bread.
+
+The baker gave me the loaf.
+
+He looked at my head.
+
+"Lost a fight?"
+
+I stared at him.
+
+He smiled.
+
+"Hair."
+
+"Ah."
+
+I looked at the loaf.
+
+"Strong customer care."
+
+"You still bought."
+
+He was right.
+
+I left.
+
+I took the long way home because the day had remained unclaimed and because Lower Steps was easier going up by the wider street than by the narrow stairs.
+
+That was not a revelation.
+
+I had known it.
+
+Knowing a city sometimes looked like choosing the boring slope without thinking about why.
+
+At one corner, a handcart loaded with empty baskets lost two off the top.
+
+One landed in the road.
+
+A driver swore.
+
+The cart owner swore back.
+
+Before I had decided whether I needed to move, a woman from the nearest doorway stepped out, kicked the basket upright, and shoved it against the wall with one foot.
+
+The driver kept moving.
+
+The cart owner collected the other basket.
+
+The woman went back inside.
+
+Nobody thanked Greg.
+
+Excellent.
+
+I reached home before Lyssa.
+
+The room looked almost exactly as I had left it.
+
+Brown cloth near the wall.
+
+Same fold.
+
+Same three pins.
+
+Damaged shirt on the shelf.
+
+Three loose threads.
+
+The reddish-brown sample and darker replacement spool remained together near Lyssa's side of the table.
+
+No new bundle.
+
+No explanation.
+
+I put the bread down.
+
+Then I caught my reflection faintly in the dark window.
+
+I stopped.
+
+My first thought was that the barber had taken too much.
+
+My second was that I looked nineteen.
+
+That was stupid.
+
+I had looked nineteen before.
+
+I simply had more forehead now.
+
+I sat.
+
+Nothing claimed me.
+
+I ate a piece of bread.
+
+I swept the floor better than yesterday because the barber's boy had created professional pressure.
+
+I still missed one corner.
+
+I left it.
+
+By late afternoon, the back of my neck had stopped feeling exposed.
+
+The sides had not.
+
+Every small draft found them.
+
+Mira had known.
+
+That annoyed me because she had warned me before I had enough information to appreciate it.
+
+Lyssa came home while I was cutting the loaf.
+
+She opened the door, stepped inside, and stopped.
+
+Not dramatically.
+
+Enough.
+
+I looked at her.
+
+She looked at me.
+
+"What?"
+
+"You have ears."
+
+I closed my eyes.
+
+"The barber asked about them."
+
+"Did you know you had them?"
+
+"Not professionally."
+
+She put a small packet on the table.
+
+Not cloth.
+
+Food, judging by the smell.
+
+I did not ask what route had produced it.
+
+She came closer.
+
+Her fingers touched the short hair above my ear, then the back.
+
+"Short."
+
+"Mira warned me."
+
+"Who is Mira?"
+
+"A woman with strong views about temperature."
+
+Lyssa waited.
+
+I considered explaining the entire shop.
+
+Instead I said, "She was right."
+
+Lyssa smiled.
+
+"Do you like it?"
+
+I pushed at the front out of habit.
+
+My hand found nothing that needed moving.
+
+"I can see."
+
+"You could see before."
+
+"Less administratively."
+
+"That does not mean anything."
+
+"It means I paid."
+
+She laughed.
+
+Then she looked toward the bread.
+
+"Good."
+
+"Hair or bread?"
+
+"Bread."
+
+Cruel.
+
+We ate what she had brought with the loaf. Something fried with onions and pepper folded into thin bread.
+
+No theatre.
+
+No Vale.
+
+No Hessa.
+
+No Maren.
+
+No customer arriving for Lyssa while I sat there.
+
+The sample stayed beside the darker spool.
+
+The old brown cloth stayed folded.
+
+My shirt stayed damaged.
+
+Nobody fixed anything because the room had noticed my haircut.
+
+Halfway through supper, Lyssa reached across and ran her fingers once over the short side of my head.
+
+I looked at her.
+
+"Better?"
+
+"Different."
+
+"That is barber language."
+
+"Good barber."
+
+"I don't know his name."
+
+"Then good unnamed barber."
+
+I nodded.
+
+That was fair.
+
+Outside, the city settled into evening by degrees.
+
+Doors shut.
+
+Carts thinned.
+
+Someone downstairs dragged a chair hard enough to make it everybody's business for three seconds.
+
+I did not have pages to learn.
+
+I did not have a debt figure to recalculate.
+
+I did not have a paper target to think about.
+
+I did not know what the reddish-brown sample belonged to.
+
+My hair was shorter.
+
+The barber's shop was still on Lower Steps.
+
+Mira's head was probably cold.
+
+That was enough change for one day.
+
+------------------------------------------------------------------------

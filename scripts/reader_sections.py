@@ -157,7 +157,7 @@ def render_book_sections(
                 f'<a class="reader-book-card-link" href="{escape(book.card_href)}" '
                 f'aria-label="{escape(book.card_link_label)}">'
                 f'<img class="reader-book-card-image" src="{escape(book.card_src)}" '
-                f'alt="{escape(book.card_alt)}" width="600" height="800" '
+                f'alt="{escape(book.card_alt)}" width="720" height="960" '
                 f'loading="lazy" decoding="async">'
                 f'</a>'
                 f'</figure>'

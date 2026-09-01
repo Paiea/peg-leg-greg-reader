@@ -23,6 +23,7 @@ on:
       - 'assets/reader.css'
       - 'assets/light.css'
       - 'assets/book-contents.css'
+      - 'assets/book-role-cards/**'
       - 'assets/light-progress.js'
       - 'assets/light-reader.js'
       - 'visual/book_plates/**'

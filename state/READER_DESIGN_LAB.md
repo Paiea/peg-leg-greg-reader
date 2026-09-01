@@ -75,9 +75,9 @@ Presentation rule:
 
 ## Book role cards
 
-Illustrated gets one small representative **chapter role card** per Book. Light gets none.
+Illustrated gets one representative **chapter role card** per Book. Light gets none.
 
-This replaces the earlier fake-cover / generic-frontispiece direction. The card is a small illustrated artifact from inside the novel, not a product mockup and not a literal cover for the Book.
+This replaces the earlier fake-cover / generic-frontispiece direction. The card is an illustrated artifact from inside the novel, not a product mockup and not a literal cover for the Book.
 
 Current representatives:
 - **Book I -> Chapter 05 — THE WARRIOR**
@@ -100,14 +100,14 @@ Body/canon rule:
 - when a representative changes later, verify the chapter's actual body/grooming state before art promotion
 
 Presentation rule:
-- desktop: card sits quietly to the left of the Book's Act contents, roughly **150–200px wide**
-- mobile: card sits as a small object to the right of the Book label/range, roughly **88–112px wide**, with Acts returning to full width underneath
-- cards remain approximately **1:2 portrait** and should not become banners
+- desktop: card sits to the left of the Book's Act contents, roughly **380–420px wide**
+- mobile: presentation stacks **Book heading -> centered card -> Acts**, with the card at roughly **min(85vw, 340px)**
+- cards preserve the approved **3:4 portrait** proportions and should not become banners
 - restrained border/radius/shadow only; no giant glossy container
 - each card is clickable and opens its representative chapter
-- the card should be visually substantial enough to feel like an object but small enough that Act titles still dominate navigation
+- the card should be visually substantial enough to enjoy while the Book/Act hierarchy remains clear beside or below it
 
-Current implementation uses one compressed three-card sprite embedded in the focused Book-contents stylesheet and crops the Warrior / Stagehand / Magistrate panels independently. This is intentionally a shipping optimization, not an art-authority rule. Higher-resolution individual assets may replace the sprite later without changing the card concept, representative mapping, or layout.
+Current implementation uses three individual high-resolution WebP assets, one per representative. Illustrated renders them as normal image elements. Light remains image-free. Do not recombine them into an embedded sprite.
 
 Use the project visual language: dark divination-card framing with **SKETCH + INK + PAINT** color illustration, weathered physical texture, restrained ornament, and a recognizable small peg-leg emblem. The influence may nod toward old game divination cards without cloning a specific commercial card frame.
 
@@ -187,7 +187,6 @@ Shared Act styling and desktop image caps should remain deterministic managed pr
 - improved gallery hierarchy
 - production-only coverage indicators
 - tiny Act vignettes only if they materially improve recognition without adding clutter
-- replace the current embedded role-card sprite with individual higher-resolution assets if visual inspection proves the tiny implementation needs more source detail
 
 ## Avoid
 
