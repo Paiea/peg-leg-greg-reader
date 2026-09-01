@@ -1,3 +1,11 @@
+## GitHub-first image workflow
+
+- Durable storage/curation policy: `visual/IMAGE_WORKFLOW.md`.
+- Normal loop: **temporary discovery → contact sheet → curate → promote winners → verify → clean temporary bulk**.
+- A ~25-image discovery batch may be one 5×5 sheet or temporary standalone candidates. Keep useful contact sheets/manifests; do not commit large rejected standalone piles by default.
+- Accepted reader art belongs in GitHub. The old storage problem was repeated full-repository ZIP handoffs, not the existence of useful images in the repository.
+- Routine worker handoff is GitHub-first. Full-project ZIPs are exceptional recovery artifacts.
+- Small manual promotion steps are valid: selected image files can be moved into the requested repository paths and pushed with GitHub Desktop when that is simpler than automation.
 
 ## Ch65–73 coverage intake
 - `visual/production/development/svgPLG_Batch_004_Ch65-73.png` — **DEVELOPMENT / CURATION ART**, 20-panel 5×4 sheet despite generated 15-panel naming. Significant backward drift into Ch55–64 vocabulary. Nothing reader-promoted. R4C4/R4C5 are strongest post-loss discoveries pending manuscript match and deliberate standalone generation. Next coverage target: Ch74–82.
