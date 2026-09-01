@@ -8,6 +8,8 @@ import re
 from dataclasses import dataclass
 from pathlib import Path
 
+from reader_sections import render_act_details
+
 RUNNING = Path('state/manuscript/Peg_Leg_Greg_Running_Manuscript.md')
 RECOVERED = Path('state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md')
 CHAPTERS_DIR = Path('chapters')
@@ -160,20 +162,11 @@ def range_groups(all_chapters: dict[int, Chapter]) -> list[tuple[str, list[int]]
     numbers = sorted(all_chapters)
     current = [n for n in numbers if n >= 220]
     recovered = [n for n in numbers if 156 <= n <= 219]
-    upper_published = [n for n in numbers if 100 <= n <= 155]
-    mid_published = [n for n in numbers if 83 <= n <= 99]
-    early = [n for n in numbers if n <= 82]
     groups = []
     if current:
         groups.append(('Current', current))
     if recovered:
         groups.append(('Chapters 156–219', recovered))
-    if upper_published:
-        groups.append(('Chapters 100–155', upper_published))
-    if mid_published:
-        groups.append(('Chapters 83–99', mid_published))
-    if early:
-        groups.append(('Chapters 1–82', early))
     return groups
 
 
@@ -188,13 +181,21 @@ def render_index(all_chapters: dict[int, Chapter], generated: set[int]) -> str:
             links.append(f'<a href="{href}"><span class="num">{n}</span><span class="title">{html.escape(c.title.title())}</span></a>')
         open_attr = ' open' if nums and max(nums) >= 220 else ''
         sections.append(f'<details class="light-range"{open_attr}><summary>{html.escape(label)} <span>{len(nums)} chapters</span></summary><div class="light-range-grid">{"".join(links)}</div></details>')
+
+    published_links: dict[int, str] = {}
+    for n in sorted(number for number in all_chapters if number <= 155):
+        c = all_chapters[n]
+        href = f'{n:03d}.html' if n in generated else f'../light.html?chapter={n}'
+        published_links[n] = f'<a href="{href}"><span class="num">{n}</span><span class="title">{html.escape(c.title.title())}</span></a>'
+    act_sections = render_act_details(published_links, open_first=False)
+
     latest_link = f'<a class="primary-action" href="{latest:03d}.html">Read newest · Chapter {latest}</a>' if latest in generated else (f'<a class="primary-action" href="../light.html?chapter={latest}">Read newest · Chapter {latest}</a>' if latest else '')
     return f'''<!doctype html>
 <html lang="en">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Peg-Leg Greg Light edition: fast, text-first chapters without illustrations."><title>Light Edition — Peg-Leg Greg</title><link rel="stylesheet" href="../assets/reader.css"><link rel="stylesheet" href="../assets/light.css"></head>
 <body class="light-edition light-toc-page">
 <header class="site-head light-site-head"><a class="site-brand" href="../index.html">PEG-LEG GREG</a><nav class="site-nav" aria-label="Site navigation"><a href="../index.html">HOME</a><a href="../index.html#chapters">ILLUSTRATED</a><a aria-current="page" href="index.html">LIGHT</a><a href="../latest.html">LATEST</a><a href="../art.html">ART</a></nav></header>
-<main class="light-page"><header class="light-hero"><p class="light-kicker">ONE BOOK · TWO READING MODES</p><h1>Light Edition</h1><p>Fast, text-first Peg-Leg Greg with no chapter illustrations. Built for quick loading and uninterrupted reading.</p><div class="light-actions">{latest_link}<a class="secondary-action" href="../index.html#chapters">Illustrated edition</a></div><p class="light-continue" data-light-continue hidden></p></header><section class="light-ranges" aria-label="Light chapter ranges">{"".join(sections)}</section></main>
+<main class="light-page"><header class="light-hero"><p class="light-kicker">ONE BOOK · TWO READING MODES</p><h1>Light Edition</h1><p>Fast, text-first Peg-Leg Greg with no chapter illustrations. Built for quick loading and uninterrupted reading.</p><div class="light-actions">{latest_link}<a class="secondary-action" href="../index.html#chapters">Illustrated edition</a></div><p class="light-continue" data-light-continue hidden></p></header><section class="light-ranges" aria-label="Light chapter sections">{"".join(sections)}{act_sections}</section></main>
 <script src="../assets/light-progress.js"></script>
 </body></html>'''
 
