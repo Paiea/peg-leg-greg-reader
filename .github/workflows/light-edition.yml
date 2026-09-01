@@ -16,6 +16,7 @@ on:
       - 'scripts/generate_light.py'
       - 'scripts/reader_sections.py'
       - 'scripts/update_home_contents.py'
+      - 'scripts/materialize_book_role_cards.py'
       - 'scripts/verify_light.py'
       - 'scripts/update_reader_navigation.py'
       - 'scripts/update_reader_presentation.py'
@@ -47,6 +48,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Materialize staged Book role cards
+        run: python scripts/materialize_book_role_cards.py
       - name: Prepare reader presentation CSS
         run: python scripts/update_reader_presentation.py assets/reader.css
       - name: Test reader tooling
@@ -69,6 +72,9 @@ jobs:
           test -f light/index.html
           test -f light/manifest.json
           test -f latest.html
+          test -f visual/book_plates/book-i-role-card-warrior-005.webp
+          test -f visual/book_plates/book-ii-role-card-stagehand-177.webp
+          test -f visual/book_plates/book-iii-role-card-magistrate-231.webp
           ! grep -R '<img' light/*.html
           ! grep -R 'Peg_Leg_Greg_Running_Manuscript.md' light/*.html
           ! grep -R 'Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md' light/*.html
@@ -83,6 +89,9 @@ jobs:
           grep -q 'THE COMPANY ROAD' index.html
           grep -q 'THE WORKING COMPANY' index.html
           grep -q 'THE PRICE OF ATTENTION' index.html
+          grep -q 'book-i-role-card-warrior-005.webp' index.html
+          grep -q 'book-ii-role-card-stagehand-177.webp' index.html
+          grep -q 'book-iii-role-card-magistrate-231.webp' index.html
           grep -q 'assets/book-contents.css' index.html
           grep -q 'BOOK I' light/index.html
           grep -q 'BOOK II' light/index.html
@@ -96,12 +105,12 @@ jobs:
       - name: Commit generated reader presentation derivatives
         if: github.ref == 'refs/heads/main'
         run: |
-          if git diff --quiet -- light latest.html index.html assets/reader.css; then
+          if git diff --quiet -- light latest.html index.html assets/reader.css visual/book_plates; then
             echo 'Reader presentation already current.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add light latest.html index.html assets/reader.css
+          git add light latest.html index.html assets/reader.css visual/book_plates
           git commit -m 'Refresh reader presentation'
           git push
