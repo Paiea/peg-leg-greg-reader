@@ -18,13 +18,13 @@ Preserve voice, scene order, scene outcomes, ordinary-life texture, relationship
 
 ## Current authority
 
-Fresh `main` authority for the completed first batch is commit `e890ad5027a95890480d30f600c4312589750824`, with the forward Manuscript Engine at Chapter 238 — THE SEALER.
+Fresh `main` authority for the completed first batch is commit `128208fb38a125f96cf90c2b18030f992ef01894`, with the forward Manuscript Engine at Chapter 238 — THE SEALER.
 
 Heavy Prose Editor authority remains complete through Chapter 183, with Chapter 184 next. This front-book moderate-polish lane does not overlap that completed heavy-edit range.
 
 ## Current polish edge
 
-POLISH COMPLETE AND SOURCE-SYNCHRONIZED ON BRANCH:
+POLISH COMPLETE AND SOURCE-SYNCHRONIZED:
 
 - Chapter 1 — THE BOY
 - Chapter 2 — THE BORROWER
@@ -36,9 +36,9 @@ Branch:
 
 `editor/general-polish-ch001-005-20260831`
 
-Draft PR:
+PR:
 
-`#34 — General polish: Chapters 1-5 (Book 1 source sync required)`
+`#34 — General polish: Chapters 1-5`
 
 Next sequential range:
 
@@ -73,7 +73,7 @@ Canonical Book 1 source remains:
 
 `chapters/001.html` through `chapters/082.html` remain publishing/reader derivatives.
 
-The source-authority gate is now resolved through an explicit repository-supported promotion path:
+The source-authority gate is resolved through an explicit repository-supported promotion path:
 
 - `scripts/promote_book1_polish.py`
 - `tests/test_promote_book1_polish.py`
@@ -88,9 +88,20 @@ The promotion tool:
 - verifies promoted chapter text matches the approved reader prose exactly
 - verifies every untargeted Book 1 chapter remains text-identical
 - preserves the canonical chapter-heading count
+- is idempotent: when the requested canonical chapter bodies already match approved reader prose, it exits without rewriting the DOCX package
 
-Chapters 1–5 have been promoted into the canonical Book 1 DOCX on the editorial branch and verified as the only source-file change produced by that promotion.
+Chapters 1–5 have been promoted into the canonical Book 1 DOCX and reverified as already synchronized.
 
 A full dry-run render of the synchronized canonical DOCX produced 1,293 pages successfully. Contact-sheet inspection covered the complete document and showed no visible truncation, runaway spacing, blank-page corruption, or damaged chapter headings.
+
+Final validation after the idempotence repair:
+
+- canonical Book 1 Chapters 1–5 rerun: already synchronized; DOCX hash unchanged
+- edited-prose em-dash check: clean
+- repository tests: 21 passed
+- Light 156–219: 64 chapters generated and verified
+- current Light 220–238: 19 chapters generated and verified
+- publishing/navigation checks: passed
+- generated reader presentation: current
 
 For future Book 1 batches, edit the bounded reader prose, verify it, then promote the accepted range into the canonical DOCX before merge. Do not merge HTML-only Book 1 polish.
