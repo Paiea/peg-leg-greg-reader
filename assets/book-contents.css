@@ -10,15 +10,25 @@
 
 .reader-book-layout--illustrated {
   display: grid;
-  grid-template-columns: minmax(240px, 320px) minmax(0, 1fr);
-  gap: clamp(2rem, 5vw, 4rem);
+  grid-template-columns: minmax(150px, 215px) minmax(0, 1fr);
+  gap: clamp(1.75rem, 4vw, 3.25rem);
   align-items: start;
 }
 
 .reader-book-plate {
   width: 100%;
-  max-width: 340px;
+  max-width: 215px;
   margin: 0;
+}
+
+.reader-book-card-link {
+  display: block;
+  border-radius: 9px;
+  outline-offset: 4px;
+}
+
+.reader-book-card-link:focus-visible {
+  outline: 2px solid currentColor;
 }
 
 .reader-book-plate img {
@@ -26,11 +36,19 @@
   width: 100%;
   max-width: 100%;
   height: auto;
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 1 / 2;
   object-fit: cover;
-  border: 1px solid color-mix(in srgb, var(--line) 86%, transparent);
-  border-radius: 6px;
-  box-shadow: 0 8px 22px rgba(28, 22, 16, .09);
+  border: 1px solid color-mix(in srgb, var(--line) 78%, transparent);
+  border-radius: 9px;
+  box-shadow: 0 9px 24px rgba(28, 22, 16, .12);
+  transition: transform 120ms ease, box-shadow 120ms ease;
+}
+
+@media (hover: hover) {
+  .reader-book-card-link:hover img {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(28, 22, 16, .16);
+  }
 }
 
 .reader-book-heading {
@@ -62,16 +80,43 @@
 
 @media (max-width: 700px) {
   .reader-book-layout--illustrated {
-    display: block;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(92px, 118px);
+    grid-template-areas:
+      "heading plate"
+      "acts acts";
+    gap: 1rem 1.15rem;
+    align-items: start;
   }
 
-  .reader-book-plate {
-    width: min(82%, 320px);
-    max-width: 320px;
-    margin: 0 0 1.75rem;
+  .reader-book-layout--illustrated .reader-book-copy {
+    display: contents;
+  }
+
+  .reader-book-layout--illustrated .reader-book-heading {
+    grid-area: heading;
+    align-self: center;
+    margin: 0;
+  }
+
+  .reader-book-layout--illustrated .reader-book-plate {
+    grid-area: plate;
+    width: 100%;
+    max-width: 118px;
+    margin: 0 0 .4rem auto;
+  }
+
+  .reader-book-layout--illustrated .reader-book-acts {
+    grid-area: acts;
   }
 
   .reader-book-heading {
     margin-bottom: .95rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reader-book-plate img {
+    transition: none;
   }
 }
