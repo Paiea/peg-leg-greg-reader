@@ -1,6 +1,6 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Current endpoint:** Chapter 245 — **THE NAME-TAKER**.
+- **Current endpoint:** Chapter 246 — **THE MATCHER**.
 - **Permanent forward manuscript:** `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`. Chapters 156–219 still need exact-text synchronization into the permanent manuscript; Chapter 220+ writes directly here. Light Reader synchronization is a separate downstream concern.
 - **Engine method:** `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves durable 01 behavior and recovery instructions.
 - **Magic counts:** ACTIVE at 35 supervised minimal draws / 31 deliberate shaping attempts / 53 external-effect attempts.
@@ -100,7 +100,7 @@
 - **Ch240 Hessa / fixed FAR:** after five breathing chapters Hessa selects one bounded mirror question and runs a fixed FAR-only four-attempt block under the unchanged apparatus. Attempt 52 is one clean small FAR/AWAY response; 50, 51, and 53 are clean non-responses. Final counts **35 / 31 / 53**; all restrictions unchanged.
 - **Ch240 body/household:** ordinary right-leg sitting stiffness and mild forearm/walk warmth only, no injury. Brown cloth remains same fold/three pins; shirt remains three loose threads; beans and old wrapped item remain absent/unexplained.
 - **Ch240 engine restraint:** no theatre, Vale, debt credit, or pressure movement. Hessa has no selected next experiment at end.
-- **Next engine rotation:** let Ch245's fresh Vale front-room workday breathe. Do not convert the name list into a standing job, resurrect the conditional Guest Pot, or turn Attempt 52 into an automatic next step; follow the next actual claim.
+- **Next engine rotation:** let Ch246's small Maren supply-route day breathe. Do not turn narrow shop recognition into a standing errand role, service the new sample / delivery crate by checklist, resurrect recent maybes, or turn Attempt 52 into an automatic next step; follow the next actual claim.
 - **Ch229 Marra route:** Greg carries the still-undefined blue-gray cloth to Marra after brief window-trim work. He knows the green-door route and work lane without directions; Marra still calls him `the road one`.
 - **Ch229 blue-gray cloth ceiling:** Jessa finds two short chalk marks near an edge and calls the cloth `Marked`. Its customer, garment, ownership, intended use, and the exact meaning of the marks remain unestablished.
 - **Ch229 Lyssa network:** Marra/Jessa/customer traffic continues without Greg. An unnamed customer asks for Lyssa and says tomorrow afternoon is fine; Jessa later finds Lyssa independently. Do not assign formal Marra/Jessa roles or merge the customer with earlier unnamed/referral customers.
@@ -128,3 +128,8 @@
 - **Ch245 authority correction:** Greg starts to inspect one visitor's disputed paper after she asks him to look; the ink-fingered clerk stops him with `List.` Antonius later calls a sent-for man ahead of arrival order, and the clerk rejects Greg's unnecessary notation. These are narrow office corrections, not general doctrine.
 - **Ch245 debt/body:** Antonius records legitimate debt credit; exact credit/balance remain unstated and debt stays active. Greg has only ordinary sitting stiffness / used writing hand, with normal repaired LEFT tip, LEFT grip, and retensioned RIGHT grip.
 - **Ch245 restraint/household:** no theatre, Hessa/magic, or new pressure fact. **The Guest Pot** remains conditional only; magic remains 35 / 31 / 53; Ch236 remains newest pressure evidence. Brown cloth stays same fold/three pins; damaged shirt stays three loose threads; better shirt keeps the blue streak; Ch241 dark cloth / beans / older wrapped item remain absent or unexplained.
+- **Ch246 Maren return:** Lyssa sends Greg with a small dull reddish-brown sample and nearly empty spool, instructing `If exact, exact. If not, darker.` Sample customer/garment/ownership/use remain unestablished and it is separate from the long-standing brown cloth / absent Ch241 dark cloth.
+- **Ch246 Maren social residue:** the same counter woman from Ch222 remembers Greg narrowly as `Blue last time`. Seller name remains unknown; `Maren` is not established as her personal name; no personal seller/Lyssa relationship is established.
+- **Ch246 stock / authority ceiling:** exact match unavailable; other customers demonstrate finite stock and independent shop history. Counter woman owns matching judgment. Greg follows Lyssa's narrow instruction and does not become a garment analyst or standing supply runner.
+- **Ch246 delivery ceiling:** a thread-delivery crate arrives immediately after Greg pays, but he leaves without learning its contents. Do not claim the exact shade was inside or turn the crate into a mystery.
+- **Ch246 restraint / household:** no Vale, theatre, Hessa/magic, or pressure movement. Magic remains 35 / 31 / 53; debt active/unstated; Ch236 newest pressure evidence. Brown cloth same fold/three pins; damaged shirt three loose threads; better shirt blue streak; Ch241 dark cloth / old beans / older wrapped item absent or unexplained. Lyssa calls the substitute thread `Close`.

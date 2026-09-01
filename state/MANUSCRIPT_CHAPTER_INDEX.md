@@ -1,6 +1,6 @@
-# PEG-LEG GREG — CHAPTER INDEX — CH245
+# PEG-LEG GREG — CHAPTER INDEX — CH246
 
-**Current endpoint:** Chapter 245 — THE NAME-TAKER
+**Current endpoint:** Chapter 246 — THE MATCHER
 
 1. **THE BOY**
 2. **THE BORROWER**
@@ -247,3 +247,4 @@
 243. **THE MINDER**
 244. **THE UNCLE**
 245. **THE NAME-TAKER**
+246. **THE MATCHER**

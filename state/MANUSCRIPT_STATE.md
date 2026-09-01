@@ -1,7 +1,7 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current story endpoint: Chapter 245 — **THE NAME-TAKER**.
+- Current story endpoint: Chapter 246 — **THE MATCHER**.
 - Book 1 Chapters 1–82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Repository prose was previously validated continuously through Chapter 155 — **THE LEAK**.
 - Chapters 156–219 remain newer forward manuscript material pending exact-text synchronization into the permanent running manuscript. Do not reconstruct them from summaries or let stale overlapping files overwrite newer authority.
@@ -453,29 +453,26 @@
 - Body cost is ordinary only: brief right-leg stiffness from sitting, a more-used writing hand than crutch hand, comfortable residual limb, and normal repaired LEFT tip / LEFT grip / retensioned RIGHT grip. No injury or new limitation.
 - Home stays bounded. Lyssa is already there with no customer or new dark cloth. Brown cloth remains same fold/three pins; damaged shirt remains three loose threads; better shirt retains the blue streak; onions remain ordinary food; Ch241 dark cloth, beans, and the older wrapped item remain absent/unexplained.
 
-## Immediate next edge — Chapter 246
-Primary recommendation: **LET CH245'S FRESH VALE FRONT-ROOM WORKDAY BREATHE. FOLLOW THE NEXT ACTUAL CLAIM RATHER THAN TURNING THE NAME LIST INTO A STANDING JOB, RESURRECTING THE GUEST POT MAYBE, OR MAKING ATTEMPT 52 INTO A MAGIC LADDER.**
+## Chapter 246 — THE MATCHER
+- Chapter 246 lets Ch245's Vale front-room day breathe. No Vale appearance/work/credit, theatre call/work/pay, Hessa appearance/magic attempt, or Bren/brown-coat movement occurs. Magic remains **35 / 31 / 53** with all restrictions unchanged; debt remains active/unstated; Ch236 remains the newest pressure fact.
+- Lyssa gives Greg one bounded Maren errand: a small dull reddish-brown cloth sample, the nearly empty old spool, and `If exact, exact. If not, darker.` Customer, garment, ownership, and exact use remain unestablished. The sample is separate from the long-standing brown cloth and absent Ch241 dark cloth.
+- The same counter woman from Ch222 remembers Greg narrowly as `Blue last time`. This establishes Greg-specific shop memory only. Her name remains unestablished; `Maren` is still not established as her personal name; no personal seller/Lyssa relationship is established.
+- Maren's has independent customers and finite stock. The exact match is unavailable. The counter woman owns matching judgment; Greg initially misreads one match in indoor light, then follows Lyssa's narrow darker-if-not-exact instruction and chooses between two near options after checking them outside. He does not become Lyssa's garment analyst or standing supply runner.
+- A thread-delivery crate arrives immediately after Greg pays. Greg leaves without learning its contents. It is NOT established that the exact shade was inside or that he missed a better purchase.
+- Greg pays ordinary money for one spool. Body/equipment remain ordinary: repaired LEFT tip / LEFT grip normal, retensioned RIGHT grip functionally invisible, no injury or new limitation.
+- At home Lyssa calls the substitute `Close` and does not identify the customer/garment or begin a procedural sewing scene. Brown cloth remains same fold/three pins; damaged shirt remains three loose threads; better shirt retains the blue streak; Ch241 dark cloth, older beans, and older wrapped item remain absent/unexplained.
 
-Reasons:
-- Ch240 was a full bounded Hessa FAR-only session; Ch241 was ordinary theatre scenery labor; Ch242 was crutch maintenance plus a Vale check with no suitable work; Ch243 was ordinary Carrow market/social life; Ch244 was a full new-play theatre day; Ch245 is now a real Vale debt-work day.
-- Ch245 makes the distinction from Ch242 concrete: sometimes suitable work does exist, but only because a fresh circumstance creates it. Antonius gives no tomorrow, schedule, promotion, rate, or standing front-room post.
-- Greg's Ch245 authority ceiling is narrow. He can record names / paper status / order, but he does not interpret accounts, resolve disputes, collect money, or control Antonius's call order. Do not promote one day's intake work into office status.
-- **The Guest Pot** remains `Not paired yet`; Uncle / same-piece return remain only `Maybe`. No standing theatre obligation exists.
-- Magic remains **35 / 31 / 53**. Attempt 52 remains one clean FAR/AWAY response inside the fixed FAR-only block; no range, rate, equivalence, generalization, or new permission is established. Hessa still has no selected next experiment.
-- External pressure still last moved in Ch236. Ch237–245 add no new clue or defensive escalation. The repaired theatre back latch remains ordinary maintenance and no Vale/Bren connection exists.
-- Household objects remain bounded rather than queued for explanation: brown cloth same fold/three pins; damaged shirt three loose threads; better shirt blue streak; Ch241 dark cloth absent/unexplained; beans and the older wrapped item absent/unexplained.
+## Immediate next edge — Chapter 247
+Primary recommendation: **LET CH246'S SMALL MAREN SUPPLY-ROUTE DAY BREATHE. FOLLOW THE NEXT ACTUAL CLAIM RATHER THAN TURNING NARROW SHOP RECOGNITION, THE NEW SAMPLE, THE DELIVERY CRATE, OR ANY RECENT MAYBE INTO AN AUTOMATIC NEXT STEP.**
 
-Strong Chapter 246 possibilities:
-- ordinary Carrow or an established social route with its own momentum, especially one not foregrounded in the last few chapters;
-- Lyssa/household/work only if a genuine new obligation surfaces without servicing tracked objects by checklist;
-- theatre only if a genuinely fresh call makes the conditional pairing real;
-- one grounded pressure fact through an established natural carrier only if it genuinely arrives;
-- Hessa only if she independently selects a genuinely new bounded question after considering the Ch240 record;
-- Vale only if another fresh suitable task actually exists, not because Ch245 happened once.
+- Maren's now carries one narrow Greg-specific memory: `Blue last time`. No friendship, standing errand role, seller name, or personal seller/Lyssa relationship is established.
+- The Ch246 sample remains low-information. Customer, garment, ownership, exact use, and delivery-crate contents remain unestablished. Do not merge the sample with the long-standing brown cloth, Ch241 dark cloth, or older blue-gray material.
+- **The Guest Pot** remains `Not paired yet`; Uncle / same-piece return remain only `Maybe`.
+- Vale debt remains active/unstated. Ch245's credit creates no tomorrow, schedule, rate, promotion, or standing front-room role.
+- Magic remains **35 / 31 / 53**. Attempt 52 remains one clean FAR/AWAY response; no rate, range, equivalence, generalization, or new permission. Hessa still has no selected next experiment.
+- External pressure still last moved in Ch236; no Vale/Bren connection exists.
 
 Ask: **WHAT ACTUALLY HAS A REASON TO HAPPEN TODAY?** Favor **LIFE PER WORD**.
-
-Preserve magic counts **35 / 31 / 53** and all restrictions. Preserve Attempt 52 as one clean FAR/AWAY response without power-up. Preserve active unstated Vale debt, Ch245's legitimate credit, and Greg's lack of a guaranteed Vale job. Preserve Ch236's delivery/access evidence ceiling and no Vale/Bren connection. Preserve ordinary back-latch interpretation, Greg's body continuity, successful right-grip repair and normal left tip/grip, Ch243 onion-seller social memory without employment, Ch244's narrow empty-dish acting correction without doctrine, conditional-only **Guest Pot** status, Ch245's narrow name/paper/order authority ceiling, brown-cloth identity limits, three-thread damaged-shirt continuity, blue-streak better-shirt residue, bean-purpose limits, absent older wrapped-item identity ceiling, absent Ch241 dark-cloth identity ceiling, Lyssa customer/garment boundaries, and **Marra ≠ Maren**.
 
 ## Chat / handoff behavior
 After each completed chapter:
