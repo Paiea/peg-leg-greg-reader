@@ -58,7 +58,7 @@ def verify(spec: str) -> int:
     if missing:
         fail(f'missing generated Light chapters: {missing[:12]}')
 
-    all_numbers = sorted(all_chapters)
+    available = set(all_chapters)
     for number in wanted:
         chapter = all_chapters[number]
         path = Path('light') / f'{number:03d}.html'
@@ -77,15 +77,18 @@ def verify(spec: str) -> int:
         if 'href="../index.html"' not in text or 'href="index.html"' not in text:
             fail(f'Chapter {number}: HOME or TOC link missing')
 
-        idx = all_numbers.index(number)
-        if idx > 0:
-            prev = all_numbers[idx - 1]
-            if f'href="{expected_href(prev, generated)}"' not in text:
+        previous_number = number - 1
+        next_number = number + 1
+        if previous_number in available:
+            if f'href="{expected_href(previous_number, generated)}"' not in text:
                 fail(f'Chapter {number}: previous link mismatch')
-        if idx + 1 < len(all_numbers):
-            nxt = all_numbers[idx + 1]
-            if f'href="{expected_href(nxt, generated)}"' not in text:
+        elif 'rel="prev"' in text:
+            fail(f'Chapter {number}: previous link skips missing chapter {previous_number}')
+        if next_number in available:
+            if f'href="{expected_href(next_number, generated)}"' not in text:
                 fail(f'Chapter {number}: next link mismatch')
+        elif 'rel="next"' in text:
+            fail(f'Chapter {number}: next link skips missing chapter {next_number}')
 
     latest = max(all_chapters) if all_chapters else None
     if manifest.get('latest') != latest:
