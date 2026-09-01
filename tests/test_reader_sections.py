@@ -43,15 +43,19 @@ class ReaderSectionsTests(unittest.TestCase):
         self.assertIn('ACT II · Chapters 220–242', rendered)
         self.assertIn('THE PRICE OF ATTENTION', rendered)
         self.assertNotIn('<img', rendered)
+        self.assertNotIn('reader-book-meta', rendered)
 
-    def test_illustrated_renderer_has_three_book_plates_and_lazy_lower_plates(self):
+    def test_illustrated_renderer_groups_heading_and_plate_in_left_meta_rail(self):
         links = {n: f'<a href="chapters/{n:03d}.html">Chapter {n}</a>' for n in range(1, 243)}
         rendered = render_book_sections(links, illustrated=True, open_first_act=True)
+        self.assertEqual(rendered.count('class="reader-book-meta"'), 3)
         self.assertEqual(rendered.count('class="reader-book-plate"'), 3)
         self.assertEqual(rendered.count('<img '), 3)
-        self.assertIn('width="1536" height="2048"', rendered)
         self.assertEqual(rendered.count('loading="lazy"'), 2)
         self.assertEqual(rendered.count('<details class="reader-act" open>'), 1)
+        first_book = rendered.split('</section>', 1)[0]
+        self.assertLess(first_book.index('reader-book-heading'), first_book.index('reader-book-plate'))
+        self.assertLess(first_book.index('reader-book-plate'), first_book.index('reader-book-acts'))
 
 
 if __name__ == '__main__':
