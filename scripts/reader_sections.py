@@ -26,12 +26,10 @@ class ReaderBook:
     start: int
     end: int | None
     acts: tuple[ReaderAct, ...]
-    image_src: str
-    image_alt: str
-    image_href: str
-    image_link_label: str
-    image_width: int = 768
-    image_height: int = 1536
+    card_slot: str
+    card_alt: str
+    card_href: str
+    card_link_label: str
 
     def effective_end(self, latest: int) -> int:
         return latest if self.end is None else min(self.end, latest)
@@ -51,8 +49,8 @@ BOOKS = (
             ReaderAct('ACT II', 'MAKING A PLACE', 21, 63, 'Carrow becomes work, people, obligations, and a place to stand.'),
             ReaderAct('ACT III', 'THE NEW BASELINE', 64, 82, 'The terms of Greg’s second life change.'),
         ),
-        'visual/book_plates/book-i-role-card-warrior-005.webp',
-        'A dark illustrated role card for Chapter 5, The Warrior, showing young Greg with a sword, the chapter number 05, and a short line from the chapter.',
+        'warrior',
+        'The Warrior, Chapter 05: a dark illustrated role card showing young Greg with a sword, with chapter text and a small peg-leg emblem.',
         'chapters/005.html',
         'Open Chapter 5, The Warrior',
     ),
@@ -66,8 +64,8 @@ BOOKS = (
             ReaderAct('ACT II', 'THE STAGE DOOR', 100, 137, 'The theatre becomes another working doorway into Carrow.'),
             ReaderAct('ACT III', 'THE COMPANY ROAD', 138, 180, 'The company takes its work beyond the familiar rooms of Carrow.'),
         ),
-        'visual/book_plates/book-ii-role-card-stagehand-177.webp',
-        'A dark illustrated role card for Chapter 177, The Stagehand, showing a young bearded Greg working backstage from the waist up, with no lower-body or mobility detail visible.',
+        'stagehand',
+        'The Stagehand, Chapter 177: a dark illustrated role card showing a young bearded Greg working backstage from the waist up, with no lower-body or mobility detail visible.',
         'light/177.html',
         'Open Chapter 177, The Stagehand',
     ),
@@ -80,8 +78,8 @@ BOOKS = (
             ReaderAct('ACT I', 'THE WORKING COMPANY', 181, 219, 'Company work becomes routine, social, and increasingly interconnected.'),
             ReaderAct('ACT II', 'THE PRICE OF ATTENTION', 220, None, 'Ordinary work draws new attention, obligations, and pressure.'),
         ),
-        'visual/book_plates/book-iii-role-card-magistrate-231.webp',
-        'A dark illustrated role card for Chapter 231, The Magistrate, showing young bearded Greg inhabiting the magistrate role in a theatrical setting.',
+        'magistrate',
+        'The Magistrate, Chapter 231: a dark illustrated role card showing young bearded Greg inhabiting the magistrate role in a theatrical setting.',
         'light/231.html',
         'Open Chapter 231, The Magistrate',
     ),
@@ -111,7 +109,7 @@ def _render_act(
         f'<span class="reader-act-title">{escape(act.title)}</span>'
         f'</summary>'
         f'<p class="reader-act-deck">{escape(act.deck)}</p>'
-        f'<div class="reader-act-grid">{"".join(links)}</div>'
+        f'<div class="reader-act-grid'>{"".join(links)}</div>'
         f'</details>'
     )
 
@@ -153,27 +151,26 @@ def render_book_sections(
         plate = ''
         layout_class = ' reader-book-layout--illustrated' if illustrated else ''
         if illustrated:
-            loading = ' loading="lazy"' if book.numeral != 'BOOK I' else ''
             plate = (
                 f'<figure class="reader-book-plate">'
-                f'<a class="reader-book-card-link" href="{escape(book.image_href)}" '
-                f'aria-label="{escape(book.image_link_label)}">'
-                f'<img src="{escape(book.image_src)}" alt="{escape(book.image_alt)}" '
-                f'width="{book.image_width}" height="{book.image_height}"{loading}/>'
+                f'<a class="reader-book-card-link" href="{escape(book.card_href)}" '
+                f'aria-label="{escape(book.card_link_label)}">'
+                f'<span class="reader-book-card-art reader-book-card-art--{escape(book.card_slot)}" '
+                f'role="img" aria-label="{escape(book.card_alt)}"></span>'
                 f'</a>'
                 f'</figure>'
             )
 
         rendered.append(
             f'<section class="reader-book" aria-labelledby="{book.slug}-heading">'
-            f'<div class="reader-book-layout{layout_class}">'
+            f'<div class="reader-book-layout{layout_class}>'
             f'{plate}'
             f'<div class="reader-book-copy">'
             f'<header class="reader-book-heading">'
             f'<h3 class="reader-book-title" id="{book.slug}-heading">{escape(book.numeral)}</h3>'
             f'<p class="reader-book-range">{escape(book.range_label(latest))}</p>'
             f'</header>'
-            f'<div class="reader-book-acts">{"".join(acts)}</div>'
+            f'<div class="reader-book-acts'>{"".join(acts)}</div>'
             f'</div>'
             f'</div>'
             f'</section>'
