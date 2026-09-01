@@ -30,10 +30,18 @@ jobs:
           nums = [int(x) for x in re.findall(r'^# CHAPTER (\d+)$', text, re.M)]
           if not nums or nums[-1] != 246:
               raise SystemExit(f'COLLISION: live manuscript endpoint is {nums[-1] if nums else "unknown"}, expected 246')
-          old = subprocess.check_output(['git','show','HEAD^:.github/workflows/ship-ch247-once.yml'], text=True)
           start = "          cat >> state/manuscript/Peg_Leg_Greg_Running_Manuscript.md <<'CHAPTER'\n"
-          if start not in old:
-              raise SystemExit('staged chapter source not found in parent workflow')
+          old = None
+          for rev in subprocess.check_output(['git','rev-list','--max-count=6','HEAD'], text=True).splitlines()[1:]:
+              try:
+                  candidate = subprocess.check_output(['git','show',f'{rev}:.github/workflows/ship-ch247-once.yml'], text=True, stderr=subprocess.DEVNULL)
+              except subprocess.CalledProcessError:
+                  continue
+              if start in candidate and '\nCHAPTER\n' in candidate:
+                  old = candidate
+                  break
+          if old is None:
+              raise SystemExit('staged chapter source not found in recent workflow history')
           chapter = old.split(start,1)[1].split('\nCHAPTER\n',1)[0]
           if not chapter.startswith('\n# CHAPTER 247\n\n## THE PATRON\n'):
               raise SystemExit('unexpected staged chapter header')
@@ -98,7 +106,7 @@ jobs:
 
           m=read('state/manuscript/Peg_Leg_Greg_Running_Manuscript.md')
           piece=m.split('# CHAPTER 247\n',1)[1]
-          prose=piece.split('------------------------------------------------------------------------',1)[0]
+          prose=piece.split('------------------------------------------------------------------------',1)[0].split('## THE PATRON\n',1)[1]
           words=re.findall(r"\b[\w’'-]+\b", prose)
           assert 2500 <= len(words) <= 4000, len(words)
           assert '—' not in prose
@@ -106,14 +114,14 @@ jobs:
           assert 'Chapter 247 — **THE PATRON**' in read('state/MANUSCRIPT_STATE.md')
           assert 'Chapter 248 edge.' in read('state/MANUSCRIPT_WORKFLOW.md')
           assert '247. **THE PATRON**' in read('state/MANUSCRIPT_CHAPTER_INDEX.md')
-          print('CH247_WORDS', len(words))
+          print('CH247_PROSE_WORDS', len(words))
           print('CH247_EM_DASHES', prose.count('—'))
           PY
       - name: Verify and ship
         run: |
           git diff --check
           python -m unittest discover -s tests -p 'test_*.py'
-          python scripts/project_check.py
+          python scripts/project_check.py all
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git rm .github/workflows/ship-ch247-once.yml
