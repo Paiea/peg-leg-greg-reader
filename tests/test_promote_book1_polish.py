@@ -1,4 +1,5 @@
 import tempfile
+import time
 import unittest
 from pathlib import Path
 
@@ -69,6 +70,26 @@ class PromoteBook1PolishTests(unittest.TestCase):
 
             with self.assertRaisesRegex(ValueError, "em dash"):
                 promote_chapters(docx, chapters, [1])
+
+    def test_already_synchronized_chapter_does_not_touch_docx(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            docx = root / "book1.docx"
+            chapters = root / "chapters"
+            chapters.mkdir()
+            self.make_docx(docx)
+            (chapters / "001.html").write_text(
+                '<article class="prose"><p>New one.</p><p>New two.</p></article>',
+                encoding="utf-8",
+            )
+
+            promote_chapters(docx, chapters, [1])
+            before = docx.stat().st_mtime_ns
+            time.sleep(0.02)
+            promote_chapters(docx, chapters, [1])
+            after = docx.stat().st_mtime_ns
+
+            self.assertEqual(before, after)
 
 
 if __name__ == "__main__":
