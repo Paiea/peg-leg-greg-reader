@@ -8,7 +8,7 @@ import re
 from dataclasses import dataclass
 from pathlib import Path
 
-from reader_sections import render_act_details
+from reader_sections import render_book_sections
 
 RUNNING = Path('state/manuscript/Peg_Leg_Greg_Running_Manuscript.md')
 RECOVERED = Path('state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md')
@@ -108,7 +108,7 @@ def load_manifest() -> dict:
         return {'latest': None, 'chapters': []}
 
 
-def href_for(number: int, generated: set[int], *, from_chapter: bool) -> str:
+def href_for(number: int, generated: set[int]) -> str:
     if number in generated:
         return f'{number:03d}.html'
     return f'../light.html?chapter={number}'
@@ -121,16 +121,17 @@ def chapter_nav(chapter: Chapter, all_numbers: list[int], generated: set[int]) -
     previous_number = chapter.number - 1
     next_number = chapter.number + 1
     if previous_number in available:
-        prev_html = f'<a rel="prev" href="{href_for(previous_number, generated, from_chapter=True)}">← Chapter {previous_number}</a>'
+        prev_html = f'<a rel="prev" href="{href_for(previous_number, generated)}">← Chapter {previous_number}</a>'
     if next_number in available:
-        next_html = f'<a rel="next" href="{href_for(next_number, generated, from_chapter=True)}">Chapter {next_number} →</a>'
+        next_html = f'<a rel="next" href="{href_for(next_number, generated)}">Chapter {next_number} →</a>'
     return prev_html, next_html
 
 
 def render_chapter(chapter: Chapter, all_numbers: list[int], generated: set[int]) -> str:
     prev_html, next_html = chapter_nav(chapter, all_numbers, generated)
     illustrated = ''
-    if chapter.number <= 155 and (CHAPTERS_DIR / f'{chapter.number:03d}.html').exists():
+    illustrated_path = CHAPTERS_DIR / f'{chapter.number:03d}.html'
+    if illustrated_path.exists():
         illustrated = f'<a class="mode-link" href="../chapters/{chapter.number:03d}.html">Illustrated version</a>'
     return f'''<!doctype html>
 <html lang="en">
@@ -158,44 +159,21 @@ def render_chapter(chapter: Chapter, all_numbers: list[int], generated: set[int]
 '''
 
 
-def range_groups(all_chapters: dict[int, Chapter]) -> list[tuple[str, list[int]]]:
-    numbers = sorted(all_chapters)
-    current = [n for n in numbers if n >= 220]
-    recovered = [n for n in numbers if 156 <= n <= 219]
-    groups = []
-    if current:
-        groups.append(('Current', current))
-    if recovered:
-        groups.append(('Chapters 156–219', recovered))
-    return groups
-
-
 def render_index(all_chapters: dict[int, Chapter], generated: set[int]) -> str:
     latest = max(all_chapters) if all_chapters else None
-    sections = []
-    for label, nums in range_groups(all_chapters):
-        links = []
-        for n in nums:
-            c = all_chapters[n]
-            href = f'{n:03d}.html' if n in generated else f'../light.html?chapter={n}'
-            links.append(f'<a href="{href}"><span class="num">{n}</span><span class="title">{html.escape(c.title.title())}</span></a>')
-        open_attr = ' open' if nums and max(nums) >= 220 else ''
-        sections.append(f'<details class="light-range"{open_attr}><summary>{html.escape(label)} <span>{len(nums)} chapters</span></summary><div class="light-range-grid">{"".join(links)}</div></details>')
-
-    published_links: dict[int, str] = {}
-    for n in sorted(number for number in all_chapters if number <= 155):
-        c = all_chapters[n]
+    chapter_links: dict[int, str] = {}
+    for n in sorted(all_chapters):
+        chapter = all_chapters[n]
         href = f'{n:03d}.html' if n in generated else f'../light.html?chapter={n}'
-        published_links[n] = f'<a href="{href}"><span class="num">{n}</span><span class="title">{html.escape(c.title.title())}</span></a>'
-    act_sections = render_act_details(published_links, open_first=False)
-
+        chapter_links[n] = f'<a href="{href}"><span class="num">{n}</span><span class="title">{html.escape(chapter.title.title())}</span></a>'
+    book_sections = render_book_sections(chapter_links, include_heroes=False, open_first_act=False)
     latest_link = f'<a class="primary-action" href="{latest:03d}.html">Read newest · Chapter {latest}</a>' if latest in generated else (f'<a class="primary-action" href="../light.html?chapter={latest}">Read newest · Chapter {latest}</a>' if latest else '')
     return f'''<!doctype html>
 <html lang="en">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Peg-Leg Greg Light edition: fast, text-first chapters without illustrations."><title>Light Edition — Peg-Leg Greg</title><link rel="stylesheet" href="../assets/reader.css"><link rel="stylesheet" href="../assets/light.css"></head>
 <body class="light-edition light-toc-page">
 <header class="site-head light-site-head"><a class="site-brand" href="../index.html">PEG-LEG GREG</a><nav class="site-nav" aria-label="Site navigation"><a href="../index.html">HOME</a><a href="../index.html#chapters">ILLUSTRATED</a><a aria-current="page" href="index.html">LIGHT</a><a href="../latest.html">LATEST</a><a href="../art.html">ART</a></nav></header>
-<main class="light-page"><header class="light-hero"><p class="light-kicker">ONE BOOK · TWO READING MODES</p><h1>Light Edition</h1><p>Fast, text-first Peg-Leg Greg with no chapter illustrations. Built for quick loading and uninterrupted reading.</p><div class="light-actions">{latest_link}<a class="secondary-action" href="../index.html#chapters">Illustrated edition</a></div><p class="light-continue" data-light-continue hidden></p></header><section class="light-ranges" aria-label="Light chapter sections">{"".join(sections)}{act_sections}</section></main>
+<main class="light-page"><header class="light-hero"><p class="light-kicker">ONE STORY · TWO READING MODES</p><h1>Light Edition</h1><p>Fast, text-first Peg-Leg Greg with no chapter illustrations. Built for quick loading and uninterrupted reading.</p><div class="light-actions">{latest_link}<a class="secondary-action" href="../index.html#chapters">Illustrated edition</a></div><p class="light-continue" data-light-continue hidden></p></header><section class="light-ranges" aria-label="Light chapter sections">{book_sections}</section></main>
 <script src="../assets/light-progress.js"></script>
 </body></html>'''
 
@@ -208,10 +186,10 @@ def render_latest(chapter: Chapter, generated: set[int]) -> str:
 def selected_numbers(spec: str, all_chapters: dict[int, Chapter]) -> list[int]:
     if spec == 'current':
         return sorted(n for n in all_chapters if n >= 220 and all_chapters[n].source == 'manuscript')
-    m = re.fullmatch(r'(\d+)-(\d+)', spec)
-    if not m:
+    match = re.fullmatch(r'(\d+)-(\d+)', spec)
+    if not match:
         raise SystemExit('range must be current or N-N')
-    start, end = map(int, m.groups())
+    start, end = map(int, match.groups())
     if start > end:
         start, end = end, start
     expected = list(range(start, end + 1))
@@ -260,7 +238,7 @@ def main() -> int:
     (LIGHT_DIR / 'index.html').write_text(render_index(all_chapters, generated), encoding='utf-8')
     if latest is not None:
         Path('latest.html').write_text(render_latest(all_chapters[latest], generated), encoding='utf-8')
-    print(f'generated {len(wanted)} Light chapters: {wanted[0]}-{wanted[-1]}')
+    print(f'generated {len(wanted)} Light chapters for {args.range}; latest source chapter: {latest}')
     return 0
 
 

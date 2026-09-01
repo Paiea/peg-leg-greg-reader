@@ -1,31 +1,31 @@
 # PEG-LEG GREG — LIGHT EDITION STATE
 
-Durable publishing memory for the text-first reader. Exact manuscript authority outranks this file and compact state.
+Durable publishing memory for the text-first reader. Exact manuscript authority outranks this file.
 
 ## PURPOSE
 
-The public reader is one book with two intentional modes:
+The public reader has two intentional modes:
 
-- **ILLUSTRATED** — existing art-forward static chapter pages.
+- **ILLUSTRATED** — normal book-like static chapter pages with accepted art when available.
 - **LIGHT** — fast text-first static publishing derivatives with no chapter illustrations.
 
-Light pages are disposable publishing output. They are never prose authority.
+Neither reader surface is manuscript authority.
 
 ## SOURCE AUTHORITY
 
-Generation must preserve these source rules:
+Generation preserves the established exact-source split:
 
-- Published illustrated range through Chapter 155: extract exact prose from `chapters/NNN.html` and omit illustrations.
+- Published Chapters 1–155: exact prose can be extracted from `chapters/NNN.html` for Light backfill, stripping only illustration/presentation markup.
 - Chapters 156–219: `state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md`.
 - Chapters 220+: `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`.
 
 Do not reconstruct missing prose from summaries or compact state.
 
-The current exact running manuscript contains one legacy alternate chapter-heading form at Chapter 232:
+The publisher supports Chapter 232's exact legacy combined heading form:
 
 `## Chapter 232 — THE COUNTERSIGN`
 
-The Light parser supports that exact combined heading form in addition to the normal `# CHAPTER N` plus `## TITLE` form. The manuscript was not rewritten to satisfy the publisher.
+The manuscript itself does not need to be rewritten to satisfy the reader generator.
 
 ## CURRENT ARCHITECTURE
 
@@ -33,113 +33,146 @@ Generator:
 
 `python scripts/generate_light.py <range>`
 
-Supported range forms:
+Supported forms:
 
-- `current` — all Chapter 220+ prose actually present in the permanent running manuscript.
-- `N-N` — bounded exact range such as `156-219` or `100-155`.
+- `current` — all Chapter 220+ prose actually present in the permanent running manuscript
+- `N-N` — strict bounded exact range, such as `156-219`
 
-Bounded generation is strict: if any requested chapter is absent from source authority, generation fails instead of silently publishing a partial range.
+Bounded generation fails if a requested source chapter is absent.
 
 Generated namespace:
 
-- `light/index.html` — range-organized Light TOC.
-- `light/NNN.html` — direct static Light chapter pages.
-- `light/manifest.json` — generated chapter metadata and exact current endpoint.
-- `latest.html` — regenerated from the newest exact chapter available to the generator.
+- `light/index.html` — Book -> Act Light contents
+- `light/NNN.html` — static Light chapters
+- `light/manifest.json` — generated metadata and exact current endpoint
+- `latest.html` — newest exact Light-publishable chapter
 
-The generator also prunes numeric Light chapter derivatives whose exact source chapter no longer exists. Withdrawn or corrected forward material must not remain publicly reachable as stale generated HTML.
+Light numeric derivatives whose source chapter disappears are pruned rather than left publicly stale.
 
-`python scripts/verify_light.py <range>` verifies generated title, prose body, navigation, Light-only presentation constraints, manifest coverage, latest routing, and absence of orphan numeric Light pages against source authority.
+`python scripts/verify_light.py <range>` checks title, prose, navigation, manifest coverage, latest routing, absence of images, and source alignment.
 
-Previous/Next navigation is numerically gap-aware. A missing exact chapter may not be silently skipped in sequential navigation; once the missing exact chapter appears, regeneration restores the normal chain automatically.
+Previous/Next navigation is numerically gap-aware and may not silently jump over a missing exact chapter.
 
-Legacy `light.html?chapter=N` remains a compatibility router. If a requested chapter has a static Light page it redirects there. During remaining backfill, compatibility rendering is limited to old published chapter HTML and no longer downloads the recovered or running manuscript into the browser.
+Legacy `light.html?chapter=N` remains the compatibility path for old ranges that have not yet been statically backfilled.
 
-## CURRENT STATIC COVERAGE
+## CURRENT VERIFIED COVERAGE
 
-Verified checkpoint at this handoff:
+At the current reader checkpoint:
 
-- Chapters 156–219 — static and verified from recovered exact authority.
-- Chapters 220–234 — static and verified from the permanent running manuscript.
-- Continuous static Light coverage: Chapters 156–234.
-- Current exact Light-publishable endpoint: Chapter 234 — **THE CONDITION**.
-- No exact-source chapter gap remains in the 156–234 static range at this checkpoint.
+- static Light Chapters 156–219 come from recovered exact authority
+- static Light Chapter 220+ follows the permanent running manuscript automatically
+- after reconciliation with fresh `main`, the verified Light endpoint is Chapter **238 — THE TAG**
+- continuous static Light coverage is **156–238** at this checkpoint
+- always re-read current manuscript authority because the forward engine may advance again
 
-Chapter 232 previously appeared absent to the Light build because its exact prose used the combined heading `## Chapter 232 — THE COUNTERSIGN`. That was a parser-compatibility defect, not missing prose. The reader tooling now recognizes the exact source form without altering manuscript authority.
+The Illustrated normal reader is independently static through Chapter **235 — THE TAGALONG**.
 
-Re-check exact running prose on every future reader run. `generate_light.py current` should publish new exact forward chapters automatically.
+That difference is intentional. Current prose does not wait for Illustrated expansion.
+
+## BOOK -> ACT CONTENTS
+
+Light and Illustrated share the same logical Book/Act structure.
+
+### BOOK I — Chapters 1–82
+
+1. **ACT I — THE SECOND LIFE** — 1–20
+2. **ACT II — MAKING A PLACE** — 21–63
+3. **ACT III — THE NEW BASELINE** — 64–82
+
+### BOOK II — Chapter 83 onward
+
+1. **ACT I — A LIFE IN CARROW** — 83–111
+2. **ACT II — THE STAGE DOOR** — 112–137
+3. **ACT III — THE COMPANY ROAD** — 138–180
+4. **ACT IV — THE WORKING COMPANY** — 181–217
+5. **ACT V — THE PRICE OF ATTENTION** — 218–current
+
+These are content/state boundaries, not equal numeric buckets.
+
+Light renders the same logical hierarchy but intentionally omits the Illustrated reader's Book hero images.
+
+The active Book II and Act V range labels expand automatically as exact forward prose appears.
+
+Do not create a new Act merely because the chapter count grows. New boundaries require actual story progression.
+
+## ILLUSTRATED CROSS-MODE STATE
+
+The normal Illustrated reader now has an approved generated expansion architecture for Chapters 156–235:
+
+- 156–219 from recovered exact authority
+- 220–235 from the running manuscript
+- static normal-reader pages may exist before art is available
+- each generated Illustrated chapter links to its corresponding static Light chapter
+- Chapter 155 connects directly to 156
+- 219 <-> 220 is a normal direct source seam
+- Chapter 235 intentionally has no Illustrated Next link until the bounded Illustrated range is explicitly advanced
+- newer Light chapters such as 236+ remain readable without forcing Illustrated production to move in lockstep
+
+Promoted figures on generated Illustrated pages are preserved across regeneration by exact paragraph anchors. If an edit invalidates an anchor, generation fails for deliberate art repositioning rather than silently losing the figure.
 
 ## AUTOMATION
 
-`.github/workflows/light-edition.yml` now:
+`.github/workflows/light-edition.yml` is now the shared reader-editions workflow.
 
-1. runs the full reader tooling tests;
-2. generates Chapters 156–219;
-3. regenerates the current exact 220+ range;
-4. prunes stale numeric Light derivatives no longer backed by exact source;
-5. keeps the homepage Light entry point present;
-6. verifies both recovered and current generated prose against authority;
-7. verifies the 219 → 220 source seam as ordinary reader navigation;
-8. rejects orphan generated chapter pages;
-9. keeps `latest.html` current;
-10. commits changed publishing derivatives.
+It:
 
-Future forward-manuscript commits should therefore be cheap to publish in Light mode without waiting for illustrations or old-range backfill.
+1. materializes managed reader presentation CSS;
+2. runs the full reader tooling test suite;
+3. generates bounded Illustrated Chapters 156–235;
+4. generates recovered Light Chapters 156–219;
+5. regenerates current Light Chapter 220+ from exact running authority;
+6. updates Book/Act contents and cross-mode navigation;
+7. verifies source integrity and the 155 -> 156 and 219 <-> 220 seams;
+8. verifies Illustrated does not silently spill into Chapters 236+;
+9. verifies Light contains no chapter images or manuscript-path leakage;
+10. keeps `latest.html` tied to actual exact current prose;
+11. commits generated reader derivatives when needed.
+
+When `main` advances concurrently, preserve the newer main tree, overlay only reader source/tool changes, and rerun this full workflow before review or merge.
 
 ## PRESENTATION RULES
 
-Light should read like an intentional novel edition, not an internal manuscript utility.
+Light should feel like a deliberate novel edition, not a manuscript/debug utility.
 
 - no chapter images
-- no GitHub/manuscript-authority jargon in ordinary reader-facing copy
+- no GitHub/manuscript-authority jargon in reader-facing copy
 - clear HOME / ILLUSTRATED / LIGHT / LATEST / ART navigation
 - previous / chapters / next on chapter pages
 - comfortable text measure and mobile margins
-- range-oriented TOC rather than one undifferentiated chapter wall
-- preserve direct links
-- preserve illustrated reader rather than replacing it
+- Book -> Act contents hierarchy
+- direct chapter links where static pages exist
+- preserve the Illustrated edition rather than replacing it
+- no Book hero plates in Light
 
-Current TOC priority remains:
+## REMAINING OLD-RANGE STATIC BACKFILL
 
-1. CURRENT — open and easiest to reach.
-2. Chapters 156–219 — static but collapsed by default.
-3. Chapters 100–155 — compatibility until the next backfill.
-4. Chapters 83–99.
-5. Chapters 1–82.
+Completed static Light coverage:
 
-Do not invent fake Acts or Books merely to organize the reader.
+1. current Chapter 220+ architecture
+2. recovered Chapters 156–219
 
-## BACKFILL ORDER
+Next useful bounded backfill remains:
 
-Completed:
+3. Chapters 100–155 from exact Illustrated chapter prose
 
-1. CURRENT / Chapter 220+ — static current-first architecture established and automated against exact running prose.
-2. Chapters 156–219 — static recovered-exact backfill completed and verified.
+Then, if still worthwhile:
 
-Next:
-
-3. Chapters 100–155 — generate from exact illustrated chapter prose, stripping only illustrations/presentation markup.
-
-Later if still useful:
-
-4. Chapters 83–99.
-5. Chapters 1–82.
+4. Chapters 83–99
+5. Chapters 1–82
 
 Current content must never wait for old-range completion.
 
 ## SAFETY
 
-- Do not edit manuscript prose from the Light lane.
-- Do not make generated Light HTML a competing manuscript.
-- Do not regenerate or destructively alter illustrations as part of Light backfill.
-- Do not delete the compatibility router until static coverage is proven sufficient.
-- Run tests before generation.
+- Do not edit manuscript prose from the reader lane.
+- Do not make generated HTML a competing manuscript.
+- Do not regenerate or destructively alter illustrations as a Light side effect.
+- Do not delete the compatibility router until static old-range coverage is sufficient.
 - Keep generated chapter number/title/prose aligned to exact source authority.
-- When adding a static range, re-render existing generated neighbors so previous/next links switch cleanly from compatibility URLs to direct static URLs.
-- If compact state and exact prose disagree, publish only what exact prose authority supports and record the discrepancy rather than inventing missing text.
-- Accept supported exact source heading forms in the publisher; do not rewrite manuscript prose merely to satisfy generated-output tooling.
-- When current `main` advances in another lane, reconcile by preserving the newer main tree and overlaying only Light-specific changes; rerun the complete Light workflow on the reconciled tree before opening or merging a PR.
+- Re-render generated neighbors when adding a static range so navigation seams become direct.
+- Exact prose outranks this compact endpoint note.
+- Do not extend the bounded Illustrated range merely because Light/current advanced.
 
 ## RE-PROMPT [READER]
 
-Continue the Peg-Leg Greg Light edition from fresh current GitHub authority. Read `AGENTS.md`, current `state/MANUSCRIPT_STATE.md`, `state/LIGHT_EDITION_STATE.md`, `scripts/generate_light.py`, `scripts/verify_light.py`, `.github/workflows/light-edition.yml`, and the current Light reader files. Re-verify the permanent running manuscript directly before trusting the compact endpoint, then regenerate `current` from whatever exact prose exists. Preserve the established static Light architecture and verified continuous 156→current exact reading path. Next bounded pass: generate and verify static Light Chapters 100–155 from the exact published `chapters/NNN.html` prose, stripping chapter illustrations but not rewriting text. Pressure-test the 155→156 seam, mode-switch links for chapters that now have both editions, and the compatibility reader after its remaining responsibility shrinks to Chapters 1–99. Do not edit prose or art. Keep `latest.html` derived from the actual exact endpoint. Before ending, visibly provide the next copyable reader prompt.
+Continue Peg-Leg Greg reader publishing from fresh current GitHub authority. Read `AGENTS.md`, `state/MANUSCRIPT_STATE.md`, `state/LIGHT_EDITION_STATE.md`, `state/READER_DESIGN_LAB.md`, current reader scripts/workflow, and exact prose authority. Preserve the shared Book -> Act contents hierarchy and the intentional split between Light=current and Illustrated=bounded/art-forward. Re-run current Light from the actual running manuscript before trusting a compact endpoint. The approved generated Illustrated range is 156–235 unless explicitly advanced. For the next Light backfill, generate and verify Chapters 100–155 from exact published Illustrated prose, stripping images without rewriting text; pressure-test the 155 -> 156 seam and compatibility responsibility afterward. Do not edit prose or art as a reader side effect.
