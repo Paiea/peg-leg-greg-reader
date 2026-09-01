@@ -1,5 +1,5 @@
 {
-  "latest": 238,
+  "latest": 239,
   "chapters": [
     {
       "number": 156,
@@ -498,6 +498,12 @@
       "title": "THE SEALER",
       "source": "manuscript",
       "path": "238.html"
+    },
+    {
+      "number": 239,
+      "title": "THE WAITER",
+      "source": "manuscript",
+      "path": "239.html"
     }
   ]
 }
