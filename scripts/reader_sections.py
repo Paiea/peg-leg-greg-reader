@@ -26,10 +26,9 @@ class ReaderBook:
     start: int
     end: int | None
     acts: tuple[ReaderAct, ...]
-    card_slot: str
+    card_src: str
     card_alt: str
     card_href: str
-    card_link_label: str
 
     def effective_end(self, latest: int) -> int:
         return latest if self.end is None else min(self.end, latest)
@@ -49,10 +48,9 @@ BOOKS = (
             ReaderAct('ACT II', 'MAKING A PLACE', 21, 63, 'Carrow becomes work, people, obligations, and a place to stand.'),
             ReaderAct('ACT III', 'THE NEW BASELINE', 64, 82, 'The terms of Greg’s second life change.'),
         ),
-        'warrior',
-        'The Warrior, Chapter 05: a dark illustrated role card showing young Greg with a sword, with chapter text and a small peg-leg emblem.',
+        'assets/book-role-cards/book-i-warrior-005.webp',
+        'The Warrior, Chapter 05: young Greg working a sword at the bench, with the chapter quote and peg-leg medallion.',
         'chapters/005.html',
-        'Open Chapter 5, The Warrior',
     ),
     ReaderBook(
         'BOOK II',
@@ -64,10 +62,9 @@ BOOKS = (
             ReaderAct('ACT II', 'THE STAGE DOOR', 100, 137, 'The theatre becomes another working doorway into Carrow.'),
             ReaderAct('ACT III', 'THE COMPANY ROAD', 138, 180, 'The company takes its work beyond the familiar rooms of Carrow.'),
         ),
-        'stagehand',
-        'The Stagehand, Chapter 177: a dark illustrated role card showing a young bearded Greg working backstage from the waist up, with no lower-body or mobility detail visible.',
+        'assets/book-role-cards/book-ii-stagehand-177.webp',
+        'The Stagehand, Chapter 177: young bearded Greg working backstage, framed above the waist with no lower-body or mobility detail visible.',
         'light/177.html',
-        'Open Chapter 177, The Stagehand',
     ),
     ReaderBook(
         'BOOK III',
@@ -78,10 +75,9 @@ BOOKS = (
             ReaderAct('ACT I', 'THE WORKING COMPANY', 181, 219, 'Company work becomes routine, social, and increasingly interconnected.'),
             ReaderAct('ACT II', 'THE PRICE OF ATTENTION', 220, None, 'Ordinary work draws new attention, obligations, and pressure.'),
         ),
-        'magistrate',
-        'The Magistrate, Chapter 231: a dark illustrated role card showing young bearded Greg inhabiting the magistrate role in a theatrical setting.',
+        'assets/book-role-cards/book-iii-magistrate-231.webp',
+        'The Magistrate, Chapter 231: young bearded Greg inhabiting the theatrical magistrate role at a petitions desk.',
         'light/231.html',
-        'Open Chapter 231, The Magistrate',
     ),
 )
 
@@ -154,10 +150,10 @@ def render_book_sections(
         if illustrated:
             plate = (
                 f'<figure class="reader-book-plate">'
-                f'<a class="reader-book-card-link" href="{escape(book.card_href)}" '
-                f'aria-label="{escape(book.card_link_label)}">'
-                f'<span class="reader-book-card-art reader-book-card-art--{escape(book.card_slot)}" '
-                f'role="img" aria-label="{escape(book.card_alt)}"></span>'
+                f'<a class="reader-book-card-link" href="{escape(book.card_href)}">'
+                f'<img class="reader-book-card-image" src="{escape(book.card_src)}" '
+                f'alt="{escape(book.card_alt)}" width="720" height="960" '
+                f'loading="lazy" decoding="async">'
                 f'</a>'
                 f'</figure>'
             )
@@ -166,14 +162,12 @@ def render_book_sections(
         rendered.append(
             f'<section class="reader-book" aria-labelledby="{book.slug}-heading">'
             f'<div class="reader-book-layout{layout_class}">'
-            f'{plate}'
-            f'<div class="reader-book-copy">'
             f'<header class="reader-book-heading">'
             f'<h3 class="reader-book-title" id="{book.slug}-heading">{escape(book.numeral)}</h3>'
             f'<p class="reader-book-range">{escape(book.range_label(latest))}</p>'
             f'</header>'
+            f'{plate}'
             f'<div class="reader-book-acts">{acts_html}</div>'
-            f'</div>'
             f'</div>'
             f'</section>'
         )

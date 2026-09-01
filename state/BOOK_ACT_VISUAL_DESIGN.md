@@ -1,6 +1,6 @@
 # PEG-LEG GREG — BOOK & ACT VISUAL DESIGN
 
-Approved reader presentation direction for the Illustrated table of contents.
+Historical design exploration only. The approved production direction is the **Book role cards** section of `state/READER_DESIGN_LAB.md`, including the three-Book hierarchy, individual high-resolution role-card assets, 380–420px desktop card-left layout, and mobile heading → centered card → Acts stack. Where this file differs, `state/READER_DESIGN_LAB.md` is authoritative.
 
 ## Goal
 

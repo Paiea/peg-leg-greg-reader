@@ -1,33 +1,71 @@
 @import url("book-contents-base.css");
 
-/* Role cards should read as illustrated artifacts, not thumbnails. */
+/* Role cards are illustrated artifacts: large enough to read, but still secondary to the novel. */
 .reader-book-layout--illustrated {
-  grid-template-columns: minmax(240px, 280px) minmax(0, 1fr);
+  grid-template-columns: minmax(380px, 420px) minmax(0, 1fr);
+  grid-template-areas:
+    "plate heading"
+    "plate acts";
 }
 
-.reader-book-plate {
-  max-width: 280px;
+.reader-book-layout--illustrated .reader-book-heading {
+  grid-area: heading;
+}
+
+.reader-book-layout--illustrated .reader-book-plate {
+  grid-area: plate;
+  width: 100%;
+  max-width: 420px;
+}
+
+.reader-book-layout--illustrated .reader-book-acts {
+  grid-area: acts;
+}
+
+.toc a.reader-book-card-link {
+  display: block;
+  grid-template-columns: none;
+  gap: 0;
+  min-height: 0;
+  padding: 0;
+  border-bottom: 0;
+}
+
+.reader-book-card-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid color-mix(in srgb, var(--line) 78%, transparent);
+  border-radius: 9px;
+  box-shadow: 0 9px 24px rgba(28, 22, 16, .12);
 }
 
 @media (max-width: 700px) {
   .reader-book-layout--illustrated {
-    grid-template-columns: minmax(240px, 42vw) minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr);
     grid-template-areas:
-      "plate heading"
-      "plate acts";
-    column-gap: clamp(1rem, 4vw, 1.5rem);
-    row-gap: .75rem;
+      "heading"
+      "plate"
+      "acts";
+    gap: 1rem;
     align-items: start;
   }
 
   .reader-book-layout--illustrated .reader-book-heading {
+    grid-area: heading;
     justify-self: stretch;
+    margin: 0;
   }
 
   .reader-book-layout--illustrated .reader-book-plate {
-    width: min(42vw, 280px);
-    max-width: 280px;
-    margin: 0;
-    justify-self: start;
+    grid-area: plate;
+    width: min(85vw, 340px);
+    max-width: 340px;
+    margin: .15rem auto .8rem;
+    justify-self: center;
+  }
+
+  .reader-book-layout--illustrated .reader-book-acts {
+    grid-area: acts;
   }
 }
