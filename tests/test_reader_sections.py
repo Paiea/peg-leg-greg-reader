@@ -56,7 +56,7 @@ class ReaderSectionsTests(unittest.TestCase):
         self.assertIn('src="assets/book-role-cards/book-i-warrior-005.webp"', rendered)
         self.assertIn('src="assets/book-role-cards/book-ii-stagehand-177.webp"', rendered)
         self.assertIn('src="assets/book-role-cards/book-iii-magistrate-231.webp"', rendered)
-        self.assertIn('width="1086" height="1448"', rendered)
+        self.assertIn('width="600" height="800"', rendered)
         self.assertIn('href="chapters/005.html"', rendered)
         self.assertIn('href="light/177.html"', rendered)
         self.assertIn('href="light/231.html"', rendered)
