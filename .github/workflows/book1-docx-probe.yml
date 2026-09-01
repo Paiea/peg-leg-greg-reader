@@ -1,12 +1,12 @@
-name: Promote Book 1 Chapters 1-5
+name: Validate Chapter 1-5 General Polish
 on:
   push:
     branches:
       - reader/validate-general-polish-ch001-005-r2
 permissions:
-  contents: write
+  contents: read
 jobs:
-  promote:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -17,19 +17,51 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install python-docx
-      - name: Test source promotion
-        run: python -m unittest tests.test_promote_book1_polish -v
-      - name: Promote Chapters 1-5 into canonical Book 1
-        run: python scripts/promote_book1_polish.py 1-5
-      - name: Verify bounded canonical change
+      - name: Verify branch is rebased on current main
         run: |
-          test "$(git diff --name-only)" = "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx"
+          git fetch origin main
+          test "$(git rev-parse HEAD^)" = "$(git rev-parse origin/main)"
+      - name: Verify canonical Book 1 is synchronized
+        run: |
+          before="$(git hash-object state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx)"
+          python scripts/promote_book1_polish.py 1-5
+          after="$(git hash-object state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx)"
+          test "$before" = "$after"
+          git diff --quiet -- state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx
+      - name: Verify no em dashes in edited prose
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from scripts.promote_book1_polish import extract_html_prose
+          for ch in range(1,6):
+              prose='\n'.join(extract_html_prose(Path(f'chapters/{ch:03d}.html')))
+              assert '—' not in prose, f'em dash in chapter {ch}'
+          print('edited prose em-dash check: clean')
+          PY
+      - name: Run repository tests
+        run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Prepare reader presentation
+        run: python scripts/update_reader_presentation.py assets/reader.css
+      - name: Generate Light ranges
+        run: |
+          python scripts/generate_light.py 156-219
+          python scripts/generate_light.py current
+          python scripts/update_reader_navigation.py index.html
+      - name: Verify publishing derivatives
+        run: |
+          python scripts/verify_light.py 156-219
+          python scripts/verify_light.py current
           git diff --check
-          python -m unittest discover -s tests -p 'test_*.py'
-      - name: Commit canonical source
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx
-          git commit -m 'Promote Book 1 polish Chapters 1-5'
-          git push
+          test -f light/156.html
+          test -f light/219.html
+          test -f light/220.html
+          test -f light/index.html
+          test -f light/manifest.json
+          test -f latest.html
+          ! grep -R '<img' light/*.html
+          ! grep -R 'Peg_Leg_Greg_Running_Manuscript.md' light/*.html
+          ! grep -R 'Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md' light/*.html
+          grep -q 'href="220.html"' light/219.html
+          grep -q 'href="219.html"' light/220.html
+      - name: Verify generated presentation is current
+        run: git diff --quiet -- light latest.html index.html assets/reader.css
