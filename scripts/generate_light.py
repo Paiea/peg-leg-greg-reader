@@ -27,21 +27,31 @@ def parse_markdown_chapters(path: Path, source: str) -> dict[int, Chapter]:
     if not path.exists():
         return {}
     text = path.read_text(encoding='utf-8').replace('\r\n', '\n').replace('\r', '\n')
-    matches = list(re.finditer(r'^# CHAPTER (\d+)\s*$', text, re.MULTILINE))
+    boundary_re = re.compile(
+        r'^(?:# CHAPTER (?P<standard_num>\d+)[ \t]*|## Chapter (?P<combined_num>\d+)[ \t]*[—–-][ \t]*(?P<combined_title>[^\n]+?)[ \t]*)$',
+        re.MULTILINE,
+    )
+    matches = list(boundary_re.finditer(text))
     seen: set[int] = set()
     chapters: dict[int, Chapter] = {}
     for idx, match in enumerate(matches):
-        number = int(match.group(1))
+        raw_number = match.group('standard_num') or match.group('combined_num')
+        number = int(raw_number)
         if number in seen:
             raise SystemExit(f'duplicate chapter {number} in {path}')
         seen.add(number)
         end = matches[idx + 1].start() if idx + 1 < len(matches) else len(text)
         chunk = text[match.end():end].strip()
-        title_match = re.search(r'^##\s+(.+?)\s*$', chunk, re.MULTILINE)
-        if not title_match:
-            continue
-        title = title_match.group(1).strip()
-        body = chunk[title_match.end():].strip()
+        combined_title = match.group('combined_title')
+        if combined_title is not None:
+            title = combined_title.strip()
+            body = chunk
+        else:
+            title_match = re.search(r'^##\s+(.+?)\s*$', chunk, re.MULTILINE)
+            if not title_match:
+                continue
+            title = title_match.group(1).strip()
+            body = chunk[title_match.end():].strip()
         chapters[number] = Chapter(number, title, markdown_blocks_to_html(body), source)
     return chapters
 
