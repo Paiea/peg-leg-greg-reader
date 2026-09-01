@@ -1,5 +1,5 @@
 {
-  "latest": 231,
+  "latest": 234,
   "chapters": [
     {
       "number": 156,
@@ -456,6 +456,18 @@
       "title": "THE MAGISTRATE",
       "source": "manuscript",
       "path": "231.html"
+    },
+    {
+      "number": 233,
+      "title": "THE SEAT",
+      "source": "manuscript",
+      "path": "233.html"
+    },
+    {
+      "number": 234,
+      "title": "THE CONDITION",
+      "source": "manuscript",
+      "path": "234.html"
     }
   ]
 }
