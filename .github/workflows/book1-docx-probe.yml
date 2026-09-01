@@ -61,4 +61,4 @@ jobs:
           grep -q 'href="219.html"' light/220.html
       - name: Verify generated presentation is current
         run: git diff --quiet -- light latest.html index.html assets/reader.css
-      # Final state-file-only rerun after source gate record update.
+      # Rerun after final regression-test assertion cleanup.
