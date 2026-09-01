@@ -1955,3 +1955,1009 @@ This time, maybe had become yes.
 A very small yes.
 
 Enough.
+
+---
+
+# CHAPTER 183
+
+## THE WORKER
+
+I woke up staring at the corner of a piece of paper.
+
+It stuck out from beneath Lyssa's book, pale against the dark wood of the table. I stared long enough to notice the rough edge where it had been torn from something larger.
+
+The paper did not move.
+
+That was because I was not doing anything.
+
+I knew this.
+
+I kept staring.
+
+Lyssa came in carrying a cup, saw me, and stopped.
+
+"No."
+
+"I am not."
+
+"You are looking at it."
+
+"Looking is allowed."
+
+"Is it?"
+
+"Yes."
+
+"Did Hessa say?"
+
+I looked at her.
+
+She drank from the cup.
+
+"Hostile."
+
+"You moved paper yesterday."
+
+"Yes."
+
+"Go to work."
+
+She was already dressed. Most of the blue thread from last night had vanished. Three short lengths remained on the table, each tied around a small folded scrap of cloth.
+
+"Where is the thread?"
+
+"Mostly not here."
+
+"I can see that."
+
+"Good."
+
+"Where is it?"
+
+"With people who needed blue thread."
+
+That sounded deliberately incomplete.
+
+"Marra?"
+
+"Some."
+
+"Jessa?"
+
+"One."
+
+"Who are the others?"
+
+Lyssa picked up two of the folded scraps, kissed my forehead as she passed, and said, "People."
+
+Then she left.
+
+I sat there another minute.
+
+The paper corner remained under the book. The cup sat beside it. One copper from last night's show lay near my elbow.
+
+Yesterday I would have seen paper, cup, coin.
+
+Today all three looked like questions.
+
+The questions could wait.
+
+I put my hands on my knees, stood, got my crutches, and went to work.
+
+Pell was waiting beside the repaired latch at East Market Hall.
+
+That was suspicious by itself.
+
+"You did magic."
+
+For the first time, I could answer without correcting him.
+
+"Yes."
+
+His face brightened.
+
+"Do it."
+
+"No."
+
+The brightness vanished.
+
+"Bad magic."
+
+"Yes."
+
+"What can you move?"
+
+"Paper."
+
+He bent, picked up a torn corner of an old handbill, and offered it to me.
+
+"Move this."
+
+"No."
+
+"You just said paper."
+
+"Under glass."
+
+Pell inspected the handbill as if the lack of glass were a design flaw.
+
+"Put glass over it."
+
+"No."
+
+"Why?"
+
+"Hessa."
+
+"She isn't here."
+
+"That is the problem."
+
+He considered this for perhaps half a second.
+
+"Bad magic."
+
+"I already agreed."
+
+He dropped the handbill.
+
+"Feather?"
+
+"I don't know."
+
+"String?"
+
+"I don't know."
+
+"Fake petition?"
+
+"I don't know."
+
+"Things?"
+
+"No."
+
+"You can move paper but not things."
+
+"Paper is a thing."
+
+"Then you can move things."
+
+"No."
+
+Pell looked genuinely offended by my categories.
+
+I understood Hessa a little better.
+
+Nessa came through the hall carrying a painted wooden bracket.
+
+"Pell."
+
+"Yes?"
+
+"Tube."
+
+He left immediately.
+
+Apparently I ranked below tube.
+
+Rinna arrived a moment later with a small wooden box under one arm and a folded sheet in her hand.
+
+"Afternoon."
+
+"I know what time it is."
+
+"Show."
+
+"Oh."
+
+The baker's afternoon.
+
+I had forgotten.
+
+She handed me the sheet. It was not a cue page but a bill.
+
+THE LITTLE KING.
+
+THE MILLER'S SON.
+
+THE RED DOOR.
+
+Underneath, in smaller writing:
+
+SHORT SONG IF CHILDREN BEHAVE.
+
+"Do children behave?"
+
+"No."
+
+"Then why write it?"
+
+"Hope."
+
+Teren came out from behind the stage carrying a length of rope.
+
+"Greg."
+
+"Yes?"
+
+"Can you do the paper thing on cue?"
+
+"No."
+
+"Can you do it here?"
+
+"No."
+
+"Without the Guild woman?"
+
+"No."
+
+"Anything larger than paper?"
+
+"No."
+
+He nodded once.
+
+"Good."
+
+"Good?"
+
+"Then it isn't my problem."
+
+He handed me the rope.
+
+"Doorframe."
+
+That was how the first external magical effect I had ever established entered the theatre.
+
+I carried rope.
+
+The red doorframe had split at the lower joint. It was narrower than the painted doorway from The Widow's Room, red on the audience side and bare wood behind, with two feet that let it stand without a wall. One of those feet had cracked straight through an old peg hole.
+
+Nessa was on the floor with the broken foot in her lap.
+
+"Don't lift it."
+
+"I wasn't."
+
+"You were about to."
+
+"I was going to look."
+
+"Look lower."
+
+I sat.
+
+The crack was ugly but clean enough to follow.
+
+"Can Davin fix it?"
+
+"Yes."
+
+"Where is Davin?"
+
+"Not here."
+
+"Can you?"
+
+"Enough."
+
+She took the rope from me and pointed at the upright.
+
+"Hold that."
+
+For the next fifteen minutes, my contribution to theatre was keeping a fake red door vertical while Nessa bound a replacement block against its foot.
+
+My shoulder still hurt from yesterday's curtain work. The frame was not especially heavy, but holding it at one angle without shifting was worse than lifting something properly. I moved my hand twice.
+
+"Stop moving."
+
+"My arm hurts."
+
+"Then sit closer."
+
+I moved closer. That helped.
+
+A girl carrying a basket of costume belts stepped over my intact right leg without apology. Someone behind us asked where the blue cap had gone. Someone else answered from under the stage. Nessa tightened the rope and kept working.
+
+Nobody congratulated me for holding wood.
+
+This was reassuring.
+
+Sellen came past in a green coat and stopped.
+
+"I heard you can move objects with magic."
+
+"No."
+
+"Pell says."
+
+"Pell says I moved paper."
+
+"He said objects."
+
+"He's wrong."
+
+Sellen considered the doorframe in my hands.
+
+"Can you move that?"
+
+"No."
+
+"That's disappointing."
+
+"Thank you."
+
+He left.
+
+Nessa pulled the binding tighter.
+
+"You told Pell?"
+
+"He already knew."
+
+"How?"
+
+"Rinna."
+
+Nessa looked toward the front.
+
+"Rinna."
+
+"What?"
+
+"Nothing."
+
+The repair held when she finally let go. She stood and dusted her knees.
+
+"Now lift."
+
+I took one side. A man I did not know took the other, and together we carried the frame six paces to its mark.
+
+While we were setting it down, Jori tested the curtain. The repaired wheel turned without the old scrape or hitch. Cloth traveled across the opening, smooth enough that nobody looked up.
+
+Davin had fixed it.
+
+The curtain worked.
+
+That was all.
+
+The afternoon audience arrived louder than the evening people usually did. Children came in pairs and clusters around tired adults. Older siblings pushed younger ones toward benches. Market workers arrived still wearing aprons. The baker himself appeared with flour up both forearms and tried to tell Rinna where he wanted people seated.
+
+She ignored him.
+
+Rinna put me at the door.
+
+"Two copper full bill," I told a woman with three children. "One for children."
+
+The oldest child pointed at the painted sign.
+
+"Magic?"
+
+Someone had added a small star beside THE LITTLE KING.
+
+"I don't know why that's there."
+
+He looked at me.
+
+"Are you the magician?"
+
+"No."
+
+"Pell says you are."
+
+Of course he did.
+
+"I moved paper."
+
+The child waited.
+
+"With magic," I added.
+
+"Can you make something disappear?"
+
+"Yes."
+
+His whole face changed.
+
+I took the handbill from his hand, put it behind my back, and passed it to Rinna.
+
+The child stared at me.
+
+Rinna stared at me.
+
+"That's not magic," he said.
+
+"No."
+
+His mother laughed and bought four tickets.
+
+Rinna waited until they were inside.
+
+"That was terrible."
+
+"They bought tickets."
+
+"Do it again."
+
+"I hate this job."
+
+"No, you don't."
+
+Unfortunately, she had evidence.
+
+The afternoon problem turned out not to be children.
+
+It was a lamp.
+
+The Little King used a small prepared lamp with a pale blue glass cap. It was not the other blue-lamp piece I had worked around before. This one was supposed to brighten when the king opened a wooden box.
+
+On the first test it managed a weak gray flicker.
+
+On the second it did nothing.
+
+Pell appeared beside me as if the failure had summoned him.
+
+"Magic."
+
+"No."
+
+"Fix."
+
+"No."
+
+"Bad."
+
+"Find Nessa."
+
+Nessa was already crossing toward us. She took the lamp from the boy holding it, checked the worked line beneath the cap, then called Rinna over.
+
+Rinna touched the prepared strip with one finger.
+
+Nothing.
+
+"Spent."
+
+"Can it be charged?" I asked.
+
+"Yes."
+
+"Now?"
+
+"No."
+
+Pell looked at me.
+
+I pointed at Rinna.
+
+"See?"
+
+"Your magic is still bad."
+
+"My magic has nothing to do with this."
+
+Nessa removed the blue cap.
+
+"Plain lamp."
+
+Pell frowned. "But the king's box."
+
+"Plain lamp."
+
+"What about the flash?"
+
+"No flash."
+
+"What if Greg moves paper?"
+
+Nessa looked at him.
+
+Pell left.
+
+They ran The Little King with a plain lamp.
+
+The king opened the box. Nothing brightened.
+
+A little girl in the front row gasped anyway because the actor looked inside as though the box contained the most wonderful thing he had ever seen.
+
+I was carrying a stool behind the side cloth and almost stopped.
+
+Nessa tapped the stool.
+
+"Move."
+
+I moved.
+
+The Miller's Son was next, and Teren had given me one line.
+
+I was a clerk.
+
+That was enough to make me like him.
+
+The clerk entered with a folded page, informed the miller's son that the north wheel belonged to the widow until his father's debt was paid, handed over the paper, and left. No goat. No family history I had to understand. No spiritual burden. Debt, page, exit.
+
+Efficient man.
+
+Hara played the miller's son. Her hair was loose and someone had put her in an ill-fitted brown coat that made her look much younger. I knew exactly who she was and still read her as seventeen when she turned toward me.
+
+Annoying.
+
+I crossed, gave her the page, and said, "The north wheel belongs to the widow until your father's debt is paid."
+
+Hara stared at me.
+
+I waited.
+
+She was supposed to say, "My father is dead."
+
+She did not.
+
+A child coughed somewhere in the house.
+
+Hara looked down at the paper, then back at me.
+
+"My father is dead."
+
+Too late. I had already started turning.
+
+I stopped. My crutch squeaked against the floor, and a boy laughed.
+
+I looked back at Hara.
+
+"That does make collection difficult."
+
+The audience laughed.
+
+Hara's eyes changed.
+
+Not angry. Interested.
+
+"Will you tell the widow?"
+
+"No."
+
+Bigger laugh.
+
+I knew immediately that this was no longer the scene.
+
+Hara folded the page.
+
+"Then I'll tell her myself."
+
+There.
+
+The scene found its road again.
+
+I left.
+
+Teren was waiting backstage.
+
+"It worked," I said before he could speak.
+
+"For you."
+
+I closed my mouth.
+
+Apparently every version of this conversation eventually arrived at the same place.
+
+Hara found me after she came off.
+
+"You left."
+
+"You forgot your line."
+
+"I remembered it."
+
+"After I left."
+
+"You were supposed to wait."
+
+"I did wait."
+
+"You turned."
+
+"Because you didn't say anything."
+
+"That was my silence."
+
+"It was a long silence."
+
+"It was my silence."
+
+Teren passed between us and pointed once in each direction.
+
+"Both."
+
+Hara frowned. "Both what?"
+
+"Both wrong."
+
+Then he kept walking.
+
+Hara and I looked at each other.
+
+"Your father is dead," I said.
+
+"I know."
+
+We both started laughing.
+
+The Red Door used the repaired frame. A woman came home. Her brother was inside. The door was locked, although there was no door, no actual wall, and from backstage the entire house consisted of one red frame and a strip of painted cloth.
+
+From the audience side, it was apparently a home.
+
+The repair held.
+
+Halfway through, one child shouted, "Go around!"
+
+The actress stopped.
+
+Her brother stopped.
+
+The audience laughed.
+
+She looked at the painted wall. Then she looked at the child.
+
+"I've tried."
+
+The child accepted this without further objection.
+
+The play continued.
+
+The short song happened despite the children not behaving. Teren had apparently decided music might exhaust them.
+
+Afterward, the hall looked as if a meal had exploded. Cups under benches. A heel of bread behind the third row. One child's scarf tied around a chair leg. A wooden horse that belonged to nobody in the company.
+
+Rinna held the horse up.
+
+"Whose?"
+
+Three children shouted, "Mine."
+
+She put it on the ticket table.
+
+"Fight later."
+
+We cleaned.
+
+Pell found the old gray GREG stain beside the latch and drew another tiny piece of paper next to the first.
+
+This one had legs.
+
+"Why?"
+
+"It can move."
+
+"Paper does not have legs."
+
+"Yours does."
+
+"No."
+
+He added a hat.
+
+"Stop improving it."
+
+"Magician."
+
+"I'm not a magician."
+
+"You did magic."
+
+"Yes."
+
+"You moved a thing."
+
+"No."
+
+He put down the charcoal.
+
+"You moved paper."
+
+"Yes."
+
+"Paper is a thing."
+
+I looked at him.
+
+He smiled.
+
+I did not have Hessa's patience.
+
+Rinna paid me one copper for the afternoon.
+
+"One?"
+
+"One."
+
+"I was clerk and crew."
+
+"Yes."
+
+"I also did door."
+
+"You sold tickets."
+
+"I repaired scenery."
+
+"Nessa repaired scenery."
+
+"I held scenery."
+
+"One."
+
+I took the copper.
+
+"Fair."
+
+"Yes."
+
+"Paid tonight too?"
+
+"If you work tonight."
+
+"What am I?"
+
+"Third Man."
+
+"My goat."
+
+"Your goat."
+
+The afternoon audience left. The hall did not entirely empty.
+
+A few company people lay down backstage. Hara ate half an onion with bread. Jori sat on the low box with his cue page over his face. Sellen disappeared somewhere and nobody seemed concerned.
+
+I went outside.
+
+Carrow had continued without us.
+
+A fish seller poured meltwater from a shallow cooling tray into the gutter. A delivery boy took a corner too fast and lost three cabbages from his handcart. Two women argued over a bolt of yellow cloth. At the bakery, a prepared warming stone showed a dull orange line beneath a pan of rolls.
+
+Nobody knew I had moved paper.
+
+I liked that.
+
+I bought one roll.
+
+The baker did not ask me to move it.
+
+Also good.
+
+When I returned, Teren had changed the evening bill.
+
+The Petition was gone.
+
+So was Third Man.
+
+I stared at the board.
+
+"What happened to my goat?"
+
+"Tomorrow," Teren said.
+
+"You told me tonight."
+
+"I was wrong."
+
+"What am I doing?"
+
+"House."
+
+"Door?"
+
+"House."
+
+"What does that mean?"
+
+"Seats. Late people. Don't let anyone through the left passage during the second piece."
+
+"Why?"
+
+"Costume change."
+
+I had become less important in under three minutes.
+
+House work was worse than acting.
+
+People wanted aisle seats after buying center tickets. A man arrived during the first piece and whispered that he had paid yesterday, as though yesterday's payment ought to continue producing theatre indefinitely. A woman tried to take the left passage and informed me she had used it last week.
+
+"Not tonight."
+
+"Why?"
+
+"Costume change."
+
+"Whose?"
+
+"I don't know."
+
+That was enough information for both of us. She went around.
+
+During the second piece I stood against the back wall and watched Sellen play a physician while Veya played a woman pretending not to know him.
+
+I did not know why.
+
+It was good.
+
+Nobody needed me.
+
+Then a bench leg shifted.
+
+I caught the end before it tipped.
+
+The man sitting on it looked at me.
+
+"Thank you."
+
+"Don't move."
+
+He froze.
+
+I found a folded scrap of wood, shoved it under the short leg, and let go.
+
+The bench stayed.
+
+The scene continued.
+
+After the show, Rinna put another copper in my hand.
+
+"House."
+
+"Bench."
+
+"House."
+
+"I saved four people."
+
+"You stopped a bench wobbling."
+
+"It was going."
+
+"Two copper total today."
+
+That was true, which ruined my argument.
+
+Pell came past carrying the ghost tube.
+
+"Can you move coins?"
+
+"No."
+
+"Bad magic."
+
+"Go away."
+
+He did.
+
+Lyssa was not home when I got there.
+
+A note waited on the table.
+
+BACK LATE. EAT.
+
+Beneath it sat half a loaf and a small bowl of beans.
+
+I ate before touching any paper.
+
+Then I found a clean scrap.
+
+FORWARD?
+
+I wrote underneath it:
+
+MY FORWARD OR BOARD FORWARD?
+
+Ugly enough to be useful.
+
+I did not draw.
+
+I did not shape.
+
+I did not find glass.
+
+I folded the question and put it beneath Hessa's old note.
+
+Then I set the two copper from the day beside yesterday's coin.
+
+Three.
+
+The coins remained coins.
+
+The paper remained paper.
+
+Lyssa came in while I was washing the bowl. She carried no blue thread.
+
+"Where is it?"
+
+"Where is what?"
+
+"The thread."
+
+"Gone."
+
+"All of it?"
+
+"Most."
+
+"What happened?"
+
+"People took it."
+
+"Who?"
+
+She looked at me.
+
+"Still people."
+
+I dried the bowl.
+
+"I worked two shows."
+
+"Good."
+
+"I was a clerk."
+
+"Good."
+
+"I moved no paper."
+
+"Very good."
+
+"I held a door."
+
+"That sounds more useful."
+
+"It was."
+
+She took off her shoes and sat.
+
+"How was the magic?"
+
+"I told you. No paper."
+
+"I mean yesterday."
+
+"Oh."
+
+She smiled.
+
+"It is still good."
+
+"Good."
+
+"Everyone keeps asking what I can do."
+
+"What can you do?"
+
+"Move paper."
+
+"Then tell them."
+
+"I do."
+
+"And?"
+
+"They ask what else."
+
+"What else?"
+
+"Nothing."
+
+Lyssa nodded.
+
+There was no cruelty in it.
+
+Somehow that made it worse.
+
+I looked toward the folded question under Hessa's note.
+
+Tomorrow Hessa did not want me.
+
+Tomorrow the hall did.
+
+I had one small piece of real magic with no practical use, a repaired curtain I had not repaired, a red door that stood if nobody kicked it, two copper from a day of work, and a question about which direction paper preferred.
+
+That was enough to have waiting for me.
