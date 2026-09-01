@@ -1,0 +1,53 @@
+name: One-shot ship Chapter 235
+
+on:
+  push:
+    branches:
+      - manuscript/ch235-ordinary-day
+
+permissions:
+  contents: write
+
+jobs:
+  ship:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Append chapter and sync state
+        run: python state/.ship_ch235_tagalong.py
+      - name: Remove one-shot files
+        run: rm state/.ship_ch235_tagalong.py state/.ch235_tagalong_payload.md .github/workflows/ship-ch235-tagalong-once.yml
+      - name: Verify and commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          m = Path('state/manuscript/Peg_Leg_Greg_Running_Manuscript.md').read_text()
+          assert m.count('# CHAPTER 235') == 1
+          ch = m[m.index('# CHAPTER 235'):]
+          assert '## THE TAGALONG' in ch
+          assert ch.count('—') == 0
+          words = len(re.findall(r"\b[\w’'-]+\b", ch))
+          assert 2500 <= words <= 4000, words
+          assert ch.rstrip().endswith('I stayed anyway.')
+          assert 'Current story endpoint: Chapter 235 — **THE TAGALONG**.' in Path('state/MANUSCRIPT_STATE.md').read_text()
+          assert '34 successful supervised minimal draws.' in Path('state/MANUSCRIPT_STATE.md').read_text()
+          assert '30 supervised deliberate shaping attempts.' in Path('state/MANUSCRIPT_STATE.md').read_text()
+          assert '49 supervised external-effect attempts.' in Path('state/MANUSCRIPT_STATE.md').read_text()
+          assert '235. **THE TAGALONG**' in Path('state/MANUSCRIPT_CHAPTER_INDEX.md').read_text()
+          assert 'Chapter 235 — **THE TAGALONG**.' in Path('state/MANUSCRIPT_WORKFLOW.md').read_text()
+          assert 'Current recorded story endpoint is Chapter 235 — **THE TAGALONG**.' in Path('state/PROJECT_STATE.md').read_text()
+          assert '**Current endpoint:** Chapter 235 — **THE TAGALONG**.' in Path('state/OPEN_THREADS.md').read_text()
+          print('chapter_words', words)
+          print('em_dashes', ch.count('—'))
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/manuscript/Peg_Leg_Greg_Running_Manuscript.md state/MANUSCRIPT_STATE.md state/OPEN_THREADS.md state/MANUSCRIPT_CHAPTER_INDEX.md state/MANUSCRIPT_WORKFLOW.md state/PROJECT_STATE.md state/.ship_ch235_tagalong.py state/.ch235_tagalong_payload.md .github/workflows/ship-ch235-tagalong-once.yml
+          git diff --cached --check
+          git commit -m "Ship Chapter 235: THE TAGALONG"
+          git push origin HEAD:manuscript/ch235-ordinary-day
