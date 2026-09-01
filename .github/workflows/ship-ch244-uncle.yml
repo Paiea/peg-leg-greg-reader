@@ -18,7 +18,19 @@ jobs:
           fetch-depth: 0
 
       - name: Apply Chapter 244 and state updates
-        run: python .github/scripts/ship_ch244_uncle.py
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('.github/scripts/ship_ch244_uncle.py')
+          text = p.read_text(encoding='utf-8')
+          old = "- **Next engine rotation:** let Ch242's maintenance / no-work money day breathe. Do not convert the repaired grip, Vale's conditional `Tomorrow, maybe`, or Attempt 52 into an automatic next step; follow the next actual claim."
+          new = "- **Next engine rotation:** let Ch243's market-social day breathe. Do not convert the onion stall into a job, resurrect Ch242's expired `Tomorrow, maybe`, or turn Attempt 52 into an automatic next step; follow the next actual claim."
+          assert old in text
+          p.write_text(text.replace(old, new, 1), encoding='utf-8')
+          PY
+          python .github/scripts/ship_ch244_uncle.py
 
       - name: Remove temporary shipping machinery
         run: |
