@@ -1,8 +1,12 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Current endpoint:** Chapter 246 — **THE MATCHER**.
+- **Current endpoint:** Chapter 247 — **THE PATRON**.
 - **Permanent forward manuscript:** `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`. Chapters 156–219 still need exact-text synchronization into the permanent manuscript; Chapter 220+ writes directly here. Light Reader synchronization is a separate downstream concern.
 - **Engine method:** `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves durable 01 behavior and recovery instructions.
+- **Ch247 ordinary-life residue:** Greg gets an ordinary paid haircut at an unnamed Lower Steps barber shop after Lyssa notes his hair is in his eyes. Front is now clear of his eyes, ears are clear, hair no longer touches his collar, and sides/back are shorter than before. Barber name remains unknown; Mira is only another customer. Do not immediately turn the shop into a standing social route.
+- **Ch247 threat ceiling:** a short man in a heavy coat waits for an ordinary haircut after Greg arrives. This is NOT pressure evidence and has no established connection to Bren, the brown-coat observer, theatre, Vale, or any threat actor. Ch236 remains the latest grounded pressure fact.
+- **Ch247 subsystem restraint:** no theatre, Vale, Hessa, Maren, or pressure event. Magic stays 35 / 31 / 53; debt remains active/unstated; Ch236 remains latest pressure evidence.
+- **Ch247 household continuity:** brown cloth remains same fold/three pins; damaged shirt remains three loose threads; Ch246 sample and darker substitute spool remain paired and unexplained; delivery-crate contents remain unknown.
 - **Magic counts:** ACTIVE at 35 supervised minimal draws / 31 deliberate shaping attempts / 53 external-effect attempts.
 - **Latest comparison protocol:** Ch230 predeclares INTERMEDIATE → FAR → INTERMEDIATE → FAR, AWAY only, preserving the same target/control/glass/body setup and the same INTERMEDIATE/FAR marks as Ch226.
 - **Attempt 38:** FAR/AWAY, no observed response, control unchanged.

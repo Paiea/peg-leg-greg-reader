@@ -1,11 +1,20 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current story endpoint: Chapter 246 — **THE MATCHER**.
+- Current story endpoint: Chapter 247 — **THE PATRON**.
 - Book 1 Chapters 1–82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Repository prose was previously validated continuously through Chapter 155 — **THE LEAK**.
 - Chapters 156–219 remain newer forward manuscript material pending exact-text synchronization into the permanent running manuscript. Do not reconstruct them from summaries or let stale overlapping files overwrite newer authority.
 - Chapters 220+ are materialized directly in the permanent running manuscript.
+
+## Chapter 247 durable residue
+- Ch247 is a full ordinary Carrow personal-maintenance day centered on an unnamed Lower Steps barber shop. No theatre, Vale, Hessa, Maren, or pressure fact appears.
+- Greg pays ordinary money for a haircut and later bread. Vale debt remains active and unstated; no debt credit/payment occurs.
+- Greg hair continuity changes: front is cut above/out of his eyes, ears are clear, hair no longer touches the collar, sides/back are shorter than he expected but accepted. Barber name remains unknown. Mira is established only as another shop customer, not a Greg relationship.
+- The short heavy-coated man who waits after Greg enters is only an ordinary barber customer in this chapter. No Bren, brown-coat, theatre-pressure, or other threat connection is established.
+- Greg body/equipment remain ordinary: right leg/shoulders normal, LEFT tip normal, LEFT grip normal, RIGHT grip tack remains flush/normal. No injury or new limitation.
+- Magic remains 35 / 31 / 53 with all restrictions unchanged and no selected Hessa next experiment. Ch236 remains latest pressure evidence. No Vale/Bren connection.
+- Household object ceilings remain unchanged: long-standing brown cloth same fold/three pins; damaged shirt still three loose threads; Ch246 reddish-brown sample and darker close substitute spool remain together with customer/garment/use unknown; Ch246 delivery-crate contents remain unknown.
 
 ## Permanent forward manuscript path
 - Canonical forward path: `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`.

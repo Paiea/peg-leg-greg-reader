@@ -11,6 +11,8 @@ Durable character knowledge for writers/editors. Manuscript evidence outranks th
 - Ongoing pressures include money/debt, theatre work, relationships, magic evidence, and external attention.
 - Do not flatten him into action hero, omniscient strategist, constant comedian, effortless actor, or magic prodigy.
 
+- Current visual continuity after Ch247: Greg has a fresh ordinary haircut from an unnamed Lower Steps barber. Hair is cut above/out of his eyes, clear of his ears and collar, with shorter sides/back than before. No exact named style is established.
+
 ### Voice / behavior targets
 
 Practical noticing. Systems-minded curiosity. Dry or situational humor without every line becoming a bit. Willingness to think through a problem, but evidence can outrun or correct his first theory.
