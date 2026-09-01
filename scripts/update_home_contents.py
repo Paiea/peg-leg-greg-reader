@@ -104,9 +104,7 @@ def main() -> int:
     chapters = parse_chapter_index(chapter_index.read_text(encoding='utf-8'))
     generated_light = load_generated_light(light_manifest)
     original = index_path.read_text(encoding='utf-8')
-    from reader_sections import BOOKS
-    plates_available = all(Path(book.image_src).is_file() for book in BOOKS)
-    rendered = render_home_contents(chapters, generated_light, illustrated=plates_available)
+    rendered = render_home_contents(chapters, generated_light, illustrated=True)
     updated = ensure_stylesheet(patch_home_contents(original, rendered))
     if updated != original:
         index_path.write_text(updated, encoding='utf-8')

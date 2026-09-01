@@ -73,28 +73,43 @@ Presentation rule:
 - desktop chapter lists may use two columns; mobile should collapse to one
 - do not invent later Acts merely to organize chapter counts; future Act boundaries must be justified by story movement
 
-## Book plates
+## Book role cards
 
-Illustrated gets one small high-resolution portrait plate per Book. Light gets none.
+Illustrated gets one small representative **chapter role card** per Book. Light gets none.
 
-The plate is an **illustrated bookplate / miniature frontispiece**, not a hero banner, fake cover, dashboard card, or cinematic site header.
+This replaces the earlier fake-cover / generic-frontispiece direction. The card is a small illustrated artifact from inside the novel, not a product mockup and not a literal cover for the Book.
 
-Source/display rule:
-- preferred source shape: 3:4 or 4:5 portrait
-- current implementation target: **1536 × 2048** source, displayed far smaller
-- desktop visible width should normally land around 260–340px and never exceed a restrained cap
-- mobile should stack naturally at roughly 70–85% of available content width with a sensible maximum
-- explicit image dimensions/aspect ratio prevent layout jump
-- Book II and later Books may lazy-load below the fold
-- never generate title text into the image; HTML owns all Book/Act labels
-- never force weak/small sources to enlarge merely because a viewport is wide
+Current representatives:
+- **Book I -> Chapter 05 — THE WARRIOR**
+- **Book II -> Chapter 177 — THE STAGEHAND**
+- **Book III -> Chapter 231 — THE MAGISTRATE**
 
-Visual job:
-- **Book I = finding a life**: arrival, survival, work, roads, bodily change, uncertainty, and a new baseline. Greg should be relatively small inside Carrow rather than posed heroically. Do not reduce the image to a crutch or disability portrait.
-- **Book II = expanding a life**: Carrow becomes socially legible; theatre opens, company travel begins, performance and practical work accumulate, and Greg's world becomes wider. Use road, theatre, company, carts, props, travel, and people rather than a generic portrait.
-- **Book III = living with what accumulated**: company work is now routine, Lyssa has an independent work ecology, Vale debt persists, suppliers and customers recur, magic has an evidence history, and outside attention begins pulling on the life Greg built. The image should feel dense, inhabited, interconnected, and pressured without turning into action key art.
+Selection rule:
+- use an actual chapter role Greg inhabits, not merely an event or environment label
+- the representative should say something useful about the state of Greg's life during that Book
+- the card uses **ROLE -> ILLUSTRATION -> SHORT VERBATIM CHAPTER LINE -> CHAPTER NUMBER**
+- a small peg-leg emblem may echo the project identity, but it is decorative branding rather than a claim about Greg's body state in that chapter
+- the surrounding HTML owns **BOOK I / II / III** and the Book chapter range; the card does not pretend to be the Book itself
+- because the title, quote, and number belong to the card artifact, baked-in card typography is intentional here even though generated Book-cover titles are not
 
-Use the project visual language: **SKETCH + INK + PAINT**, environmental storytelling, believable work, slightly handmade texture, restrained detail. No baked-in typography.
+Body/canon rule:
+- Greg remains recognizably a young man across all three representatives; visual progression comes from wear, grooming, work, and context rather than aging him decades
+- early Greg may have beard shadow / scruff rather than a pristine clean shave
+- Chapter 177 Greg can carry a short unkempt beard
+- **The Stagehand card must keep the lower body and mobility aid out of frame** so the index does not accidentally spoil or contradict his body state
+- when a representative changes later, verify the chapter's actual body/grooming state before art promotion
+
+Presentation rule:
+- desktop: card sits quietly to the left of the Book's Act contents, roughly **150–200px wide**
+- mobile: card sits as a small object to the right of the Book label/range, roughly **88–112px wide**, with Acts returning to full width underneath
+- cards remain approximately **1:2 portrait** and should not become banners
+- restrained border/radius/shadow only; no giant glossy container
+- each card is clickable and opens its representative chapter
+- the card should be visually substantial enough to feel like an object but small enough that Act titles still dominate navigation
+
+Current implementation uses one compressed three-card sprite embedded in the focused Book-contents stylesheet and crops the Warrior / Stagehand / Magistrate panels independently. This is intentionally a shipping optimization, not an art-authority rule. Higher-resolution individual assets may replace the sprite later without changing the card concept, representative mapping, or layout.
+
+Use the project visual language: dark divination-card framing with **SKETCH + INK + PAINT** color illustration, weathered physical texture, restrained ornament, and a recognizable small peg-leg emblem. The influence may nod toward old game divination cards without cloning a specific commercial card frame.
 
 Act-level art remains deliberately deferred. Tiny 32–56px vignettes may be explored later, but typography alone is currently preferred over flooding the contents page with separate Act illustrations.
 
@@ -172,6 +187,7 @@ Shared Act styling and desktop image caps should remain deterministic managed pr
 - improved gallery hierarchy
 - production-only coverage indicators
 - tiny Act vignettes only if they materially improve recognition without adding clutter
+- replace the current embedded role-card sprite with individual higher-resolution assets if visual inspection proves the tiny implementation needs more source detail
 
 ## Avoid
 
