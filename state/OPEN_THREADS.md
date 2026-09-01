@@ -1,6 +1,6 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Current endpoint:** Chapter 241 — **THE SCRAPER**.
+- **Current endpoint:** Chapter 242 — **THE SPENDER**.
 - **Permanent forward manuscript:** `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`. Chapters 156–219 still need exact-text synchronization into the permanent manuscript; Chapter 220+ writes directly here. Light Reader synchronization is a separate downstream concern.
 - **Engine method:** `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves durable 01 behavior and recovery instructions.
 - **Magic counts:** ACTIVE at 35 supervised minimal draws / 31 deliberate shaping attempts / 53 external-effect attempts.
@@ -45,7 +45,7 @@
 - **Loose lily / Hara recovery:** a white cloth lily falls from Greg's spray during performance. Greg leaves it rather than stopping the scene. Hara later picks it up and improvises `At least one thing arrived for him.` Nessa repairs the lily after the show.
 - **Backstage competence:** Ch228 reinforces reduced supervision: Greg knows alternate routes, Nessa gives compressed property-table instructions, Jori/Greg move awkward objects with little explanation, and workers adjust lanes/geometry as ordinary work.
 - **Repurposed cups:** two discarded household cups from Ch224 remain painted stage property in the `STAGE ONLY` box. No Ch228 movement; do not force a callback.
-- **Crutch maintenance:** one worn LEFT tip replaced Ch223; it remains normal through Ch233.
+- **Crutch maintenance:** one worn LEFT tip was replaced Ch223 and remains normal through Ch242. In Ch242 the familiar crutch repairer retensions a shifted RIGHT grip wrap and adds one small flush tack beneath the overlap away from Greg's palm; the LEFT grip is checked, judged fine, and left alone. No pain, injury, weakness, or new limitation is established.
 - **Body:** Ch228 the side of Greg's right palm/right hand becomes ordinarily worked from long flowers, props, baskets, crutches, and carrying. He redistributes load during reset. Ch229 it is normal again. No pain, weakness, tingling, residual-limb issue, or injury.
 - **Theatre cart maintenance:** ordinary cracked brace repaired Ch224. Ch228 cart performs an ordinary furniture run and returns normally. No sabotage or watcher established.
 - **Next theatre shorthand:** Jori expects Greg the next morning for continued window trim: `Tomorrow morning?` / `Window trim.` / `You know when I get here.` Greg does know. Ch229 pays this off as compact ordinary work; Jori ends with only `Tomorrow maybe`, not a firm next obligation.
@@ -99,7 +99,7 @@
 - **Ch240 Hessa / fixed FAR:** after five breathing chapters Hessa selects one bounded mirror question and runs a fixed FAR-only four-attempt block under the unchanged apparatus. Attempt 52 is one clean small FAR/AWAY response; 50, 51, and 53 are clean non-responses. Final counts **35 / 31 / 53**; all restrictions unchanged.
 - **Ch240 body/household:** ordinary right-leg sitting stiffness and mild forearm/walk warmth only, no injury. Brown cloth remains same fold/three pins; shirt remains three loose threads; beans and old wrapped item remain absent/unexplained.
 - **Ch240 engine restraint:** no theatre, Vale, debt credit, or pressure movement. Hessa has no selected next experiment at end.
-- **Next engine rotation:** let the full Ch240 Hessa session breathe. Follow the next actual non-magic claim rather than converting attempt 52 into a power-up or immediate experiment ladder.
+- **Next engine rotation:** let Ch242's maintenance / no-work money day breathe. Do not convert the repaired grip, Vale's conditional `Tomorrow, maybe`, or Attempt 52 into an automatic next step; follow the next actual claim.
 - **Ch229 Marra route:** Greg carries the still-undefined blue-gray cloth to Marra after brief window-trim work. He knows the green-door route and work lane without directions; Marra still calls him `the road one`.
 - **Ch229 blue-gray cloth ceiling:** Jessa finds two short chalk marks near an edge and calls the cloth `Marked`. Its customer, garment, ownership, intended use, and the exact meaning of the marks remain unestablished.
 - **Ch229 Lyssa network:** Marra/Jessa/customer traffic continues without Greg. An unnamed customer asks for Lyssa and says tomorrow afternoon is fine; Jessa later finds Lyssa independently. Do not assign formal Marra/Jessa roles or merge the customer with earlier unnamed/referral customers.
@@ -113,3 +113,7 @@
 - **Ch241 Jori/Davin/Venn:** Jori owns scraping boundaries/usable surface judgment; Davin remains independently competent and stitches a loose canvas corner when Nessa identifies it; Venn participates as an ordinary worker rather than only Greg's Ch238 substitute.
 - **Ch241 body/pay:** warm right palm, used shoulders, mild ordinary right-leg fatigue only; residual limb comfortable, no injury/new limitation. Rinna pays normal one copper. No firm next theatre obligation.
 - **Ch241 continuity:** magic unchanged 35 / 31 / 53 with all restrictions; no Vale work/credit; no pressure fact/escalation; repaired back latch remains ordinary maintenance. Brown cloth same fold/three pins; damaged shirt three loose threads; beans/wrapped item absent; separate dark cloth at home remains unidentified.
+- **Ch242 crutch maintenance:** the RIGHT grip wrap has shifted around the handle but is not torn and causes no injury. The established Ch223 crutch repairer retensions only the existing wrap, adds a small flush underside tack away from Greg's palm, checks both turn directions, and leaves the LEFT grip alone because it is fine. The repaired LEFT tip remains normal.
+- **Ch242 Vale / money:** Greg pays the ordinary repair cost, voluntarily checks Vale, and is told there is no suitable work for him that day. He receives no debt credit. The clerk's `Tomorrow, maybe. Not today.` about sealing is conditional only, not a schedule or promise. Greg still buys ordinary stew; debt remains active and unstated.
+- **Ch242 engine restraint:** no theatre call/work/pay, Hessa/magic attempt, Bren/brown-coat fact, warning, investigation, or escalation. Magic remains 35 / 31 / 53 with all restrictions; Ch236 remains newest pressure evidence and no Vale/Bren connection exists.
+- **Ch242 household:** brown cloth stays same fold/three pins; damaged shirt remains three loose threads; better shirt retains its small Ch241 blue paint streak; separate Ch241 dark cloth is absent with identity/job/customer unknown; beans and older paper-wrapped item remain absent/unexplained. Lyssa's fried dough is clearly ordinary food wrapped in clean cloth, not the older unidentified item.
