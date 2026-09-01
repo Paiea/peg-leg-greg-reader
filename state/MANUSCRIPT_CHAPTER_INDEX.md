@@ -1,6 +1,6 @@
-# PEG-LEG GREG — CHAPTER INDEX — CH235
+# PEG-LEG GREG — CHAPTER INDEX — CH236
 
-**Current endpoint:** Chapter 235 — THE TAGALONG
+**Current endpoint:** Chapter 236 — THE PLACEHOLDER
 
 1. **THE BOY**
 2. **THE BORROWER**
@@ -237,3 +237,4 @@
 233. **THE SEAT**
 234. **THE CONDITION**
 235. **THE TAGALONG**
+236. **THE PLACEHOLDER**

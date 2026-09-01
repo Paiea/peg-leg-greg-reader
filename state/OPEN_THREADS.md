@@ -1,6 +1,6 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Current endpoint:** Chapter 235 — **THE TAGALONG**.
+- **Current endpoint:** Chapter 236 — **THE PLACEHOLDER**.
 - **Permanent forward manuscript:** `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`. Chapters 156–219 still need exact-text synchronization into the permanent manuscript; Chapter 220+ writes directly here. Light Reader synchronization is a separate downstream concern.
 - **Engine method:** `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves durable 01 behavior and recovery instructions.
 - **Magic counts:** ACTIVE at 34 supervised minimal draws / 30 deliberate shaping attempts / 49 external-effect attempts.
@@ -71,7 +71,11 @@
 - **Ch235 Olin:** household oil purchase is completely ordinary. Olin gives no warning, message, stranger report, or new pressure evidence.
 - **Ch235 body/household:** ordinary crowd/carry geometry only; no injury. Brown cloth remains same fold/three pins. Damaged shirt remains on the shelf with three loose threads. Lyssa returns after dark with the beans she carried north and no bundle; reason/customer/job remains unestablished.
 - **Ch235 magic/Vale/theatre/pressure:** no Hessa or magic attempt, no Vale work/credit, no theatre work/call, and no Bren/brown-coat movement. Magic remains 34 / 30 / 49.
-- **Next engine rotation:** Ch235 supplies a full ordinary Greg/Lyssa/Carrow day after the Ch234 Hessa session. Follow the next actual obligation or social pressure; theatre, Vale, threat, friendship, or continued ordinary life are all available only if the day earns them. Magic should not reopen on a timer.
+- **Ch236 theatre obligation:** Rinna sends a new paid reading call. Greg temporarily holds Second Tenant in **Two Keys** for reading/rough blocking only; he is not cast and receives no tomorrow commitment. Teren keeps the work provisional, and Jori gives Greg a temporary crutch-compatible mark rather than treating Greg's path as another actor's final route.
+- **Ch236 pressure fact:** cart repair man reports a brown-coat/dark-hair/thin-face/quiet-voice visitor asking, `Does the money go back with the cart after the late one?` Repairer gives no money/cart/driver/route information. This is one new reported question linking money + cart, not proof of identity, plan, cart target, robbery, ambush, Bren employment, organization, boss, Mason's Cut connection, or Vale connection.
+- **Ch236 body/household:** no injury or new limitation. Brown cloth remains same fold/three pins; damaged shirt remains three loose threads. Lyssa and the new beans are already gone in the morning; bean purpose remains unknown and Lyssa stays off-page.
+- **Ch236 magic/Vale:** no Hessa or magic attempt and no Vale work/credit. Magic remains 34 / 30 / 49. Greg earns the normal one copper for theatre work; debt remains active and unstated.
+- **Next engine rotation:** Ch236 moves theatre and external pressure together through an actual paid call plus one narrow supplier-network fact. Let both settle unless a new consequence genuinely arrives. Vale, friendship/social life, Lyssa/household work, ordinary Carrow, or a later bounded Hessa return remain available only when the next day earns them.
 - **Ch229 Marra route:** Greg carries the still-undefined blue-gray cloth to Marra after brief window-trim work. He knows the green-door route and work lane without directions; Marra still calls him `the road one`.
 - **Ch229 blue-gray cloth ceiling:** Jessa finds two short chalk marks near an edge and calls the cloth `Marked`. Its customer, garment, ownership, intended use, and the exact meaning of the marks remain unestablished.
 - **Ch229 Lyssa network:** Marra/Jessa/customer traffic continues without Greg. An unnamed customer asks for Lyssa and says tomorrow afternoon is fine; Jessa later finds Lyssa independently. Do not assign formal Marra/Jessa roles or merge the customer with earlier unnamed/referral customers.

@@ -16986,3 +16986,1045 @@ I stared at the empty space.
 She ate the bread.
 
 I stayed anyway.
+
+------------------------------------------------------------------------
+
+# CHAPTER 236
+
+## THE PLACEHOLDER
+
+Lyssa was gone when I woke.
+
+The beans were gone too.
+
+I noticed both before I noticed the paper under the door.
+
+The brown cloth had not moved. Same fold. Same three pins. My damaged shirt still occupied the shelf with three loose threads at one cuff, which was beginning to feel less like damage and more like a long-term arrangement.
+
+The note was from Rinna.
+
+AFTER MIDDAY.
+
+IF FREE.
+
+READING.
+
+PAID.
+
+I turned it over.
+
+Nothing.
+
+This was substantially better than Hessa's notes because it contained the word paid.
+
+I ate bread, washed, checked the left crutch tip out of habit, and left the shirt where it was. My neck had forgiven the chair. Right hand normal. Shoulders normal. Residual limb comfortable. No new complaint from any part of me that got a vote.
+
+The morning belonged to nobody.
+
+I liked it less once I knew the afternoon did.
+
+That was probably ungrateful.
+
+Carrow was warmer than the day before, enough that the wet seams between stones were drying instead of pretending to be permanent. A cart full of split wood blocked the lower lane. Two men were unloading it without urgency while a woman at the doorway told them exactly where every piece should go and rejected every place they chose.
+
+I bought a hot cake with something green folded into it and ate it near the wall.
+
+No pears.
+
+I did not even look.
+
+This was discipline.
+
+By the time I reached the theatre after midday, the side door was open and someone inside was already arguing about a key.
+
+I stopped in the doorway.
+
+Marek was at the long table with three pages in one hand and a wooden key in the other.
+
+"It's too large," he said.
+
+Nessa looked up from a box on the floor.
+
+"It's visible."
+
+"It is the size of a spoon."
+
+"It is a stage key."
+
+"It could open a horse."
+
+"Good. Then stop putting it in your mouth."
+
+Marek removed the key from near his face.
+
+"I was not."
+
+Hara saw me first.
+
+"You're late."
+
+I looked at the light coming through the high window.
+
+"No."
+
+"Then you're disappointing."
+
+"Better."
+
+Her right shoe no longer separated at the front.
+
+I pointed at it.
+
+"Fixed?"
+
+"Mostly."
+
+"Which cobbler?"
+
+"The one who fixed it."
+
+Useful.
+
+Pell sat beside her with pages spread in two neat stacks. Teren stood at the end of the table. Jori had chalk in one hand and was marking something on a rough floor sketch. Rinna was behind them counting coins into small paper folds and ignoring everyone successfully.
+
+She looked up.
+
+"You came."
+
+"You wrote paid."
+
+"I know my audience."
+
+"What am I reading?"
+
+Teren slid a set of pages toward the empty chair.
+
+"Second Tenant."
+
+"Am I Second Tenant?"
+
+"No."
+
+"Good start."
+
+"You're holding it."
+
+"For who?"
+
+"I don't know yet."
+
+I sat.
+
+The title on the first page was TWO KEYS.
+
+That was encouraging.
+
+The stage beyond us held almost nothing. One narrow table. Two chairs. A door frame without a door. A small bench. Jori had marked three positions in chalk and was adding a fourth.
+
+I looked at the page again.
+
+"New?"
+
+"Old enough that nobody remembers who last did it," Rinna said.
+
+"That sounds new."
+
+"It saves us money."
+
+"On what?"
+
+"Questions."
+
+Teren tapped the page.
+
+"Read."
+
+I read.
+
+The first scene concerned a rented room and two people who had both paid for it.
+
+This was not magic.
+
+The keys were real. The room was real. The problem was administrative.
+
+I understood it immediately.
+
+Hara read First Tenant. Marek read the Landlord. Pell read the Clerk. Teren read the few lines belonging to a porter and the directions between them.
+
+My Second Tenant entered on page two with a bag, an argument, and the strong belief that a window had been included.
+
+I gave him a voice.
+
+Not a large voice.
+
+A different one.
+
+Teren stopped me after the second line.
+
+"Why?"
+
+I looked at him.
+
+"Why what?"
+
+"That voice."
+
+"He's traveled."
+
+"So have you."
+
+"Not like him."
+
+"How?"
+
+I looked at the page.
+
+Nothing on it answered.
+
+"He has a bag."
+
+Hara lowered her pages.
+
+I said, "I hear it."
+
+"Stop hearing it," Teren said. "Read the line."
+
+Cruel profession.
+
+Again.
+
+Marek: "There is one room."
+
+Hara: "Then why did you take two payments?"
+
+Marek: "I took one payment twice."
+
+Pell looked at him.
+
+That was not in the direction.
+
+It was better than the direction.
+
+I said, "I was promised a window."
+
+Teren let us continue.
+
+The scene became increasingly stupid in a competent way. Hara had a key. I had a key. Both keys opened the same room. Marek's Landlord insisted this proved the room was unusually secure.
+
+Pell's Clerk kept discovering copies of receipts that did not improve anything.
+
+Halfway through, I started leaning into Second Tenant's irritation.
+
+Not much.
+
+Enough.
+
+Teren stopped me again.
+
+"You're helping."
+
+"With what?"
+
+"The argument."
+
+"I'm in the argument."
+
+"You're in a reading."
+
+I sat back.
+
+"Right."
+
+"Give me the line. I don't know what the scene is yet."
+
+That changed the next pass.
+
+Not because I became neutral. Neutral was fake too. I just stopped trying to make Second Tenant into the finished version of a person nobody had cast.
+
+Hara did the same thing without being told.
+
+Annoying.
+
+On page six, Marek's Landlord said, "There cannot be two tenants. There is one key."
+
+Hara held up the wooden stage key.
+
+"So this is a decorative spoon?"
+
+Marek looked at the object in his hand.
+
+Then at hers.
+
+He had taken the second key without noticing they were identical.
+
+Hara waited.
+
+Pell covered his mouth.
+
+Teren said nothing.
+
+Marek finally put his key on the table.
+
+"Apparently there are two spoons."
+
+That was not the line.
+
+Everyone laughed anyway.
+
+Nessa did not look up.
+
+"Neither goes in your mouth."
+
+Bigger laugh.
+
+Teren made a mark on his page.
+
+I had contributed nothing.
+
+Excellent.
+
+We finished the first reading.
+
+Rinna pushed one of the paper coin folds toward Hara without looking. Hara pushed it back.
+
+"Later."
+
+Rinna left it where Hara had pushed it.
+
+Teren said, "Stand it."
+
+I looked at the stage.
+
+"Still Second Tenant?"
+
+"Still temporary."
+
+"Good."
+
+Jori looked at the chalk sketch.
+
+"Use the near door."
+
+"Which near?"
+
+"The one that exists."
+
+"There is one door."
+
+"Then you're ready."
+
+I took my crutches and pages to the stage.
+
+This immediately created a problem.
+
+Pages required a hand.
+
+Crutches also maintained a strong interest in hands.
+
+I folded the pages once lengthwise.
+
+Teren saw me.
+
+"Don't."
+
+I unfolded them.
+
+"Why?"
+
+"Rinna wants them back."
+
+From behind the table Rinna said, "Correct."
+
+Nessa handed me a narrow board clip without looking.
+
+"Pages."
+
+I clipped them.
+
+"Thank you."
+
+"Return it."
+
+"Relationship conditional."
+
+"Very."
+
+We began.
+
+The first blocking pass was not acting.
+
+Teren made that clear by stopping Marek twice for acting.
+
+"Door."
+
+Marek went to the door.
+
+"Not offended. Door."
+
+Marek became less offended.
+
+Hara crossed to the table. Pell came in behind her. I waited offstage at the near side until Teren pointed.
+
+"Second Tenant."
+
+I entered.
+
+The route was clear until the second chair.
+
+Jori had put a chalk mark just beyond it.
+
+I aimed for the mark.
+
+My right crutch cleared the chair. The left did not.
+
+The tip caught the chair leg and nudged it an inch.
+
+I stopped.
+
+Jori said, "That's not yours."
+
+I looked at the chalk mark.
+
+"It says two."
+
+"It says T."
+
+"It looks like two."
+
+"It's Tenant."
+
+"I am Tenant."
+
+"Not that tenant."
+
+Teren closed his eyes.
+
+Hara said, "Promising."
+
+Jori came onto the stage.
+
+He pointed to the mark.
+
+"That's where whoever gets First Tenant turns."
+
+"Hara?"
+
+"For now."
+
+"Then where do I turn?"
+
+"You don't."
+
+I looked at the table.
+
+"That feels unlikely."
+
+Teren said, "You're giving the cue, not the path."
+
+I looked at him.
+
+He pointed to the door frame.
+
+"Stand where the entrance works for you. Say the line on the cue. We're not marking your route for somebody else's body."
+
+That was obvious once stated.
+
+Which was rude.
+
+Jori scraped a temporary short line with the side of his chalk where I could enter without clipping the chair.
+
+"This one is yours today."
+
+"Today."
+
+"Do not fall in love."
+
+Everyone had opinions about my emotional relationship with chalk.
+
+Again.
+
+The next pass worked.
+
+I entered on Pell's line, stopped on Jori's temporary mark, and gave Second Tenant's first sentence without trying to make my route match anyone else's future route.
+
+Teren watched the timing.
+
+That was what he wanted.
+
+We reached page four before Rinna said, "Hold."
+
+The cart repair man stood in the side doorway.
+
+I recognized him before he recognized me.
+
+He had the same thick fingers and permanently offended eyebrows he had brought to the cracked brace.
+
+He looked toward Rinna.
+
+"You said tell you."
+
+The room changed without becoming quiet.
+
+That was interesting.
+
+Hara lowered her pages.
+
+Jori stayed onstage with chalk in hand.
+
+Nessa closed the box she had been sorting.
+
+Marek put the wooden key on the table.
+
+Teren stepped out of the playing space and looked at Rinna.
+
+She said, "Come in."
+
+The repair man did.
+
+I stayed where I was.
+
+Nobody asked me to come closer.
+
+Good.
+
+Rinna took a blank scrap from beside the coin folds.
+
+"What happened?"
+
+"Man came back."
+
+"Which man?"
+
+"The one asking about your cart."
+
+"Describe him."
+
+He frowned as though description was an unfair tax.
+
+"Brown coat. Dark hair. Thin face."
+
+"Old?"
+
+"No."
+
+"Voice?"
+
+"Quiet."
+
+"Same man as before?"
+
+The repair man shrugged.
+
+"Looked same to me."
+
+Rinna wrote.
+
+She did not write SAME MAN.
+
+"What did he ask?"
+
+The repair man looked at the stage.
+
+"Exact?"
+
+"Best you can."
+
+He rubbed his thumb against one finger.
+
+"Asked if the money goes back with the cart after the late show."
+
+Nobody moved for a second.
+
+Then Marek shifted and the wooden key rolled off the table.
+
+It hit the floor.
+
+Nessa looked at him.
+
+He picked it up.
+
+Rinna said, "Again. Exact if you can."
+
+The repair man thought.
+
+"Does the money go back with the cart after the late one?"
+
+"One or show?"
+
+"Think he said one."
+
+Rinna wrote:
+
+BROWN-COAT DESCRIPTION CONSISTENT WITH PRIOR VISITOR.
+
+ASKED:
+
+DOES THE MONEY GO BACK WITH THE CART AFTER THE LATE ONE?
+
+She looked up.
+
+"What did you say?"
+
+"Told him I fix carts."
+
+"Anything else?"
+
+"Told him if he wanted a show he should buy a handbill."
+
+Davin, somewhere behind the stage, laughed once.
+
+The repair man frowned toward the sound.
+
+Rinna asked, "Did you tell him whether money goes on the cart?"
+
+"No."
+
+"Did you tell him when the cart leaves?"
+
+"No."
+
+"Who drives?"
+
+"No."
+
+"Where it goes?"
+
+"No."
+
+"Did he threaten you?"
+
+"No."
+
+"Say Bren?"
+
+"No."
+
+"Say who he worked for?"
+
+"No."
+
+"Ask about Greg?"
+
+The repair man looked at me.
+
+"Crutches?"
+
+I raised one hand from the grip.
+
+"Greg."
+
+"No."
+
+Good.
+
+Rinna finished the note.
+
+I looked at the sentence.
+
+Money.
+
+Cart.
+
+Late one.
+
+It was more specific than the earlier questions.
+
+My brain tried to build the rest.
+
+Maybe the cart mattered because money traveled.
+
+Maybe the late show mattered because streets emptied.
+
+Maybe the question meant someone had already watched the hall.
+
+Maybe.
+
+Maybe.
+
+Maybe.
+
+Rinna folded the scrap.
+
+I said, "That puts money and the cart in the same question."
+
+She looked at me.
+
+"Yes."
+
+"That's narrower."
+
+"Yes."
+
+"Not a plan."
+
+"No."
+
+"Not proof it's the same man."
+
+"No."
+
+The repair man said, "Looked same."
+
+Rinna nodded to him.
+
+"Consistent. Not proved."
+
+He considered that.
+
+"All right."
+
+He did not sound convinced that language deserved this much maintenance.
+
+Neither did I.
+
+Rinna said, "Thank you."
+
+He nodded.
+
+"Wheel holding?"
+
+Jori answered from the stage.
+
+"Yes."
+
+"Brace?"
+
+"Yes."
+
+"Then I'm leaving."
+
+He left.
+
+That was apparently the full professional relationship.
+
+For several seconds nobody said anything.
+
+I expected Rinna to announce a new rule.
+
+She did not.
+
+She put the folded scrap with the others.
+
+Then she looked at Teren.
+
+"Continue."
+
+Teren looked at me.
+
+"Second Tenant."
+
+Of course.
+
+I returned to Jori's temporary mark.
+
+The next line in the play was:
+
+"I was promised a window."
+
+I said it.
+
+Marek missed his answer.
+
+Not by much.
+
+Teren said, "Again."
+
+Marek looked at Rinna.
+
+Rinna was already counting coins again.
+
+"Again," Teren repeated.
+
+Marek found the line.
+
+We continued.
+
+That was the theatre's most disturbing skill.
+
+Not courage.
+
+Scheduling.
+
+By the second standing pass, I had stopped trying to solve the scene before Teren did.
+
+Hara had not.
+
+She stopped at the table on page five and said, "If I cross later, Pell can enter clean."
+
+Teren looked at Pell.
+
+Pell tried the entrance.
+
+Hara crossed later.
+
+It was better.
+
+Teren nodded.
+
+"Keep."
+
+I looked at her.
+
+She looked back.
+
+"What?"
+
+"Nothing."
+
+"Good."
+
+I had heard that too much recently.
+
+We ran the exchange again.
+
+This time Hara's later cross gave Pell enough room to reach the clerk's chair without turning sideways. It also left me a cleaner visual lane from the near door.
+
+Nobody mentioned that part because the change had not been made for me.
+
+It was simply better.
+
+On page seven the scene finally explained the second key.
+
+The Clerk had copied the number from the cellar key onto the room key receipt.
+
+The Landlord had then rented the room twice because he trusted the receipts more than the keys in his own hand.
+
+Marek stopped.
+
+"That's stupid."
+
+Pell looked at him.
+
+"You are the landlord."
+
+"I'm aware."
+
+Teren said, "Line."
+
+Marek read the line.
+
+Hara reached the next beat.
+
+"So who rented the cellar?"
+
+Pell's Clerk checked the page.
+
+"You."
+
+Hara looked at him.
+
+Then at the floor.
+
+Then back at him.
+
+"Does it have a window?"
+
+"No."
+
+She turned toward me.
+
+"You wanted one."
+
+I said, "I still do."
+
+"Trade."
+
+The room broke.
+
+Teren pointed at Hara.
+
+"Keep that shape."
+
+"That line is written."
+
+"The turn isn't."
+
+"Good."
+
+Marek looked offended that the laugh no longer belonged to his accidental spoons.
+
+Healthy.
+
+My next line got a smaller laugh because Second Tenant refused the cellar on the grounds that he had been promised air.
+
+That was enough.
+
+We took a break.
+
+Hara sat on the edge of the stage and flexed the repaired shoe.
+
+I pointed at it again.
+
+"Mostly?"
+
+"It doesn't open anymore."
+
+"Comfortable?"
+
+"No."
+
+"Good repair."
+
+"Shut up."
+
+Pell handed her water.
+
+Marek tried to balance the stage key across two fingers.
+
+Nessa took it from him.
+
+He watched it leave.
+
+"Hostile workplace."
+
+"You put it near your mouth."
+
+"Once."
+
+"Today."
+
+Davin came through with a folded flat under one arm and asked Jori whether the cart repair man had said anything about the brace.
+
+"Brace is fine."
+
+"Then why was he here?"
+
+Jori pointed toward Rinna.
+
+Davin looked.
+
+Rinna was sorting the folded warning note into her ledger box.
+
+He nodded once and kept moving.
+
+No meeting.
+
+No speech.
+
+No one armed the cart.
+
+No one asked me to guard anything.
+
+Teren called us back after water.
+
+We did one more reading seated and one more standing pass.
+
+By then Second Tenant had become less mine.
+
+That was useful.
+
+Not emotionally.
+
+Practically.
+
+I could hear where the line sat without trying to own the person who might eventually say it.
+
+The final standing pass ended with both tenants refusing the room, the Clerk accidentally inheriting it, and Marek's Landlord attempting to charge him for the cellar as well.
+
+Hara got the last laugh by silently handing Pell both keys.
+
+Teren closed his pages.
+
+"Enough."
+
+I looked at mine.
+
+"Am I still temporary?"
+
+"Yes."
+
+"Do I return these?"
+
+"Keep them."
+
+That sounded dangerous.
+
+"Why?"
+
+"I don't want Rinna copying another set if I need you again."
+
+Rinna said, "Correct."
+
+"Does that mean tomorrow?"
+
+"No."
+
+"Does it mean the part?"
+
+"No."
+
+"Does it mean anything?"
+
+Teren looked at me.
+
+"It means keep the pages dry."
+
+Clear.
+
+Rinna paid me the normal copper.
+
+I put it away.
+
+The debt existed.
+
+The copper also existed.
+
+Neither required a speech.
+
+Hara left first. Her repaired shoe made a slightly harder sound on the floor than the other one, but it stayed attached.
+
+Pell followed her with both of his page stacks even though one belonged to Marek.
+
+Marek noticed only after the door closed.
+
+"Where are mine?"
+
+"With Pell," Nessa said.
+
+"Why?"
+
+"You put the key on them."
+
+He looked at the empty table.
+
+"That does not explain anything."
+
+"It explains enough."
+
+I returned the board clip.
+
+Nessa took it.
+
+"Good."
+
+"Careful."
+
+She looked at me.
+
+I left before the word acquired responsibilities.
+
+Outside, the late light had gone gray. The street smelled like damp stone, fried onions, and horse shit in proportions Carrow considered balanced.
+
+Marek came out behind me.
+
+"So are you Second Tenant?"
+
+"No."
+
+"You have the pages."
+
+"Teren hates copying."
+
+Marek thought about that.
+
+"Fair."
+
+He turned south.
+
+I went east.
+
+The pages rode inside my coat, flat against my chest where the rain that had not yet started could not reach them.
+
+Two streets later, one corner began stabbing me through the shirt.
+
+I moved it and kept walking.
