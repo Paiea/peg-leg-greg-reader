@@ -1,6 +1,6 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Current endpoint:** Chapter 234 — **THE CONDITION**.
+- **Current endpoint:** Chapter 235 — **THE TAGALONG**.
 - **Permanent forward manuscript:** `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`. Chapters 156–219 still need exact-text synchronization into the permanent manuscript; Chapter 220+ writes directly here. Light Reader synchronization is a separate downstream concern.
 - **Engine method:** `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves durable 01 behavior and recovery instructions.
 - **Magic counts:** ACTIVE at 34 supervised minimal draws / 30 deliberate shaping attempts / 49 external-effect attempts.
@@ -51,7 +51,7 @@
 - **Evidence ceiling:** NO robbery, ambush, cart target, Bren employment, organization, gang, boss, or specific plan established.
 - **Mason's Cut:** Olin's boy saw brown-coat man walking toward Mason's Cut but did not see him enter. Direction only. No base/residence/territory claim.
 - **Bren:** probable name of close-haired heavy-coat spokesman with left glove. One-copper demand refused Ch218. `Next time won't be one.` No surname, boss, organization, or violence established.
-- **Threat restraint:** Chapters 224–234 contain no new warning, demand, appearance, violence, sabotage, or investigation. Ch228 Olin simply sends ordinary oil with no message or warning attached.
+- **Threat restraint:** Chapters 224–235 contain no new warning, demand, appearance, violence, sabotage, or investigation. Ch228 Olin simply sends ordinary oil with no message or warning attached.
 - **Quiet defensive residue:** cash handling less visible; cart-departure information not casually shared; no guards, escorts, traps, patrols, or spy network.
 - **Vale debt:** ACTIVE. Exact balance known in-world but unstated. One-copper payment made Ch218. Ch224 suitable invoice/tally work produces legitimate credit. Ch227 different suitable office work produces another legitimate credit. Chapters 228–231 have no Vale movement. Debt remains unresolved.
 - **Vale work route:** Ch227 establishes ordinary outgoing packet bundling as work that happens most days when needed. Greg has no guaranteed post, schedule, rate, or promotion.
@@ -67,7 +67,11 @@
 - **Ch233 company/social:** after work Rinna, Hara, Pell, Marek, Greg, and later Nessa eat at a nearby cookshop. Hara moves her coat to make Greg a place; everyone pays their own bowl; Hara's shoe-repair problem stays with the people actually discussing it rather than becoming Greg's task.
 - **Ch233 body/household:** ordinary used shoulders/mild right-leg fatigue only, no injury. Dark sleeve is gone; brown cloth remains same fold/three pins; cuff remains three loose threads. Lyssa is already eating when Greg returns.
 - **Ch233 pressure/magic/Vale:** no Hessa, magic attempt, Vale work/credit, Bren/observer fact, warning, investigation, or escalation. Magic remains 33 / 29 / 45.
-- **Next engine rotation:** let the full Ch234 Hessa session breathe. Ordinary Carrow/household/social life, one grounded pressure fact, or an actual new work obligation are available; none is owed on a timer.
+- **Ch235 ordinary Greg/Lyssa day:** Lyssa is home in the morning and invites Greg along to the west market because she is going. They buy household food/oil, share flat cakes, and separate when Lyssa heads north for her own work. No formal Lyssa-work role or customer identity is established.
+- **Ch235 Olin:** household oil purchase is completely ordinary. Olin gives no warning, message, stranger report, or new pressure evidence.
+- **Ch235 body/household:** ordinary crowd/carry geometry only; no injury. Brown cloth remains same fold/three pins. Damaged shirt remains on the shelf with three loose threads. Lyssa returns after dark with the beans she carried north and no bundle; reason/customer/job remains unestablished.
+- **Ch235 magic/Vale/theatre/pressure:** no Hessa or magic attempt, no Vale work/credit, no theatre work/call, and no Bren/brown-coat movement. Magic remains 34 / 30 / 49.
+- **Next engine rotation:** Ch235 supplies a full ordinary Greg/Lyssa/Carrow day after the Ch234 Hessa session. Follow the next actual obligation or social pressure; theatre, Vale, threat, friendship, or continued ordinary life are all available only if the day earns them. Magic should not reopen on a timer.
 - **Ch229 Marra route:** Greg carries the still-undefined blue-gray cloth to Marra after brief window-trim work. He knows the green-door route and work lane without directions; Marra still calls him `the road one`.
 - **Ch229 blue-gray cloth ceiling:** Jessa finds two short chalk marks near an edge and calls the cloth `Marked`. Its customer, garment, ownership, intended use, and the exact meaning of the marks remain unestablished.
 - **Ch229 Lyssa network:** Marra/Jessa/customer traffic continues without Greg. An unnamed customer asks for Lyssa and says tomorrow afternoon is fine; Jessa later finds Lyssa independently. Do not assign formal Marra/Jessa roles or merge the customer with earlier unnamed/referral customers.

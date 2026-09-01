@@ -15918,3 +15918,1071 @@ She looked back.
 "Good."
 
 For once, the most reliable thing in the room was not the paper.
+
+------------------------------------------------------------------------
+
+# CHAPTER 235
+
+## THE TAGALONG
+
+Lyssa was still home when I woke.
+
+That was the first surprise.
+
+The second was that she was not working.
+
+The brown cloth remained near the wall with its three pins and its refusal to become my business. My damaged shirt remained on the shelf with three loose threads and the good sense to stay there. The table held bread, a small knife, two empty bowls, and Lyssa's forearms.
+
+Nothing else.
+
+She was sitting with both elbows on the table exactly as she had been the night before.
+
+I looked at her.
+
+She looked at me.
+
+"You're still here."
+
+"Yes."
+
+"Is something wrong?"
+
+"No."
+
+I waited.
+
+She waited longer.
+
+"Good morning," I said.
+
+"Better."
+
+I got up.
+
+Right leg normal after sleep. Residual limb comfortable. Shoulders fine. Left crutch tip boring. The Guild had left me with nothing more serious than the memory of paper refusing to cooperate, which was where I preferred it.
+
+No note sat under the door.
+
+I did not check twice.
+
+Lyssa tore the loaf.
+
+"Working?"
+
+"Nobody has claimed me."
+
+"Theatre?"
+
+"No."
+
+"Vale?"
+
+"No."
+
+"Hessa?"
+
+I looked at the door.
+
+"No."
+
+Lyssa nodded.
+
+Then she said, "Come with me."
+
+I stopped halfway through reaching for bread.
+
+"Where?"
+
+"Market."
+
+"What kind?"
+
+"The kind with food."
+
+"There are several."
+
+"The west one."
+
+"Why?"
+
+She ate.
+
+I waited.
+
+Finally she said, "Because I am going."
+
+That was apparently the complete structure.
+
+I took bread.
+
+"Am I carrying something?"
+
+"Maybe."
+
+"Ah."
+
+"You don't have to come."
+
+That changed it.
+
+Not much.
+
+Enough.
+
+I looked around the room as though a competing obligation might rise from the basin.
+
+Nothing did.
+
+"I'll come."
+
+Lyssa nodded once and kept eating.
+
+I had apparently passed the interview.
+
+We left after breakfast.
+
+She locked the door. I took the stairs first because it was easier than trying to negotiate two crutches around her on the landing. By the bottom, she had the cloth bag over one shoulder and I had nothing except my coat and the strange feeling that I had joined an errand without being assigned a function.
+
+Outside, Carrow was bright and cold.
+
+Yesterday's dust had settled. The lower stones still held dark seams of damp where the sun had not reached. Someone across the street was beating a rug over a rail. A child below it was trying to catch the dust in a cup.
+
+Useful education.
+
+Lyssa started west.
+
+I fell beside her.
+
+Not quite beside.
+
+The street narrowed around a cart wheel, so she went ahead and I followed. Then it widened and we came even again.
+
+"What are we buying?"
+
+"Food."
+
+"You've said."
+
+"Oil."
+
+"That is not food."
+
+"Beans."
+
+"Better."
+
+"Bread."
+
+"We have bread."
+
+"Not enough."
+
+"Salt?"
+
+She looked at me.
+
+"Probably."
+
+"I used less."
+
+"Yes."
+
+"Successfully."
+
+"Yes."
+
+That was all I got.
+
+We crossed South Lane where two women were arguing about a basket of apples. Neither seemed to own the basket. Both seemed committed to the argument.
+
+Lyssa slowed near a fruit stall.
+
+I expected her to stop.
+
+She did not.
+
+A woman behind the stall called, "Lyssa."
+
+Lyssa lifted one hand.
+
+"Morning."
+
+The woman pointed at a stack of pears.
+
+"Better today."
+
+Lyssa changed direction immediately.
+
+I followed.
+
+Apparently we were buying pears.
+
+The woman picked one up and handed it to Lyssa.
+
+Lyssa turned it once, pressed near the stem, and put it back.
+
+"Still hard."
+
+"Less hard."
+
+"That is not ripe."
+
+"Tomorrow."
+
+"Then sell them tomorrow."
+
+The woman looked at me.
+
+"She always like this?"
+
+I considered the available loyalties.
+
+"About pears?"
+
+Lyssa looked at me.
+
+I said, "I have no evidence outside pears."
+
+The woman laughed.
+
+Lyssa did not.
+
+We did not buy pears.
+
+Ten steps later, Lyssa said, "Coward."
+
+"I protected the relationship."
+
+"Yours."
+
+"Exactly."
+
+She bumped her shoulder lightly against mine.
+
+I nearly planted the left crutch too far out because I was watching her instead of the street.
+
+"Violence," I said.
+
+"You survived."
+
+"Strong standard."
+
+She gave me a look.
+
+I regretted borrowing the breakfast woman's line before the thought had fully formed.
+
+Good.
+
+Some jokes deserved to die young.
+
+The west market sat in a broad square with three lanes feeding into it and enough people to make every route temporary. Stalls crowded the edges. Carts claimed the middle until someone louder needed the space. Smoke from two cooking braziers moved sideways under the awnings.
+
+I knew the square.
+
+I did not know it the way Lyssa did.
+
+She turned left before the bread sellers.
+
+I would have gone right.
+
+I followed.
+
+A narrow stall sold dried beans, grain, salt, and things in sacks that all looked like different shades of dust until someone named them.
+
+Lyssa greeted the man behind it with no name.
+
+He greeted her the same way.
+
+"What beans?"
+
+"Dark."
+
+"Old or new?"
+
+"Old."
+
+He scooped from a sack.
+
+I looked at Lyssa.
+
+She saw it.
+
+"What?"
+
+"Nothing."
+
+"Ask."
+
+"Why old?"
+
+The seller answered before she did.
+
+"Cheaper."
+
+Lyssa said, "And they cook."
+
+He held up a scoop.
+
+"Eventually."
+
+"See?"
+
+I looked at the beans.
+
+They looked exactly like a future argument with water.
+
+"How much eventually?"
+
+The seller poured them into Lyssa's bag.
+
+"Long enough."
+
+This city had a hostile relationship with units.
+
+Lyssa paid.
+
+I watched because money remained money.
+
+Not to inspect her.
+
+Not to calculate household income.
+
+Just because coins leaving a hand were real.
+
+The seller added a small handful after the measure.
+
+Lyssa noticed.
+
+She did not comment.
+
+Neither did he.
+
+I wondered whether that was habit, favor, measurement correction, or an attempt to remove the worst beans from his sack.
+
+I did not ask.
+
+Progress.
+
+We bought salt next.
+
+Lyssa let me choose the amount.
+
+This was a trap.
+
+I knew it was a trap.
+
+"Small."
+
+The seller waited.
+
+Lyssa waited.
+
+I held two fingers apart.
+
+He filled a paper twist.
+
+Lyssa looked at it.
+
+"Enough?"
+
+"Yes."
+
+"For how long?"
+
+"Until I improve."
+
+She took the salt from me.
+
+"Then more."
+
+The seller added another pinch.
+
+Betrayal from both sides.
+
+We moved on.
+
+A boy ran between us carrying a basket and almost clipped my right crutch. I stopped. Lyssa did not grab me. She had already stepped aside because she knew I would stop.
+
+The boy shouted an apology over his shoulder without slowing.
+
+"Excellent," I said.
+
+Lyssa said, "You were in his way."
+
+"He was in mine."
+
+"He was faster."
+
+"Law by velocity."
+
+"Useful law."
+
+I could not completely disagree.
+
+At the bread stall, Lyssa rejected two loaves and bought the third.
+
+I asked why.
+
+"The bottom."
+
+She turned it over.
+
+One was burned.
+
+The second had a pale soft patch where it had rested too close to another loaf.
+
+The third was ordinary bread.
+
+I had bought all three kinds before without knowing I was making choices.
+
+"Your standards are exhausting."
+
+"You eat them."
+
+"That is different."
+
+"No."
+
+She paid for one loaf.
+
+I bought another.
+
+Lyssa looked at me.
+
+"Why?"
+
+"Two people."
+
+"We had one."
+
+"Not enough, according to an authority."
+
+She considered that.
+
+Then nodded.
+
+My bread survived review.
+
+We carried one loaf each for half a street before I had to change the arrangement. A crutch, a loaf, and a crowd did not produce enough hands. I tucked mine under my coat arm.
+
+Lyssa watched me fight with it.
+
+"Bag."
+
+"I have it."
+
+"Bag."
+
+"I am proving something."
+
+"What?"
+
+I moved the loaf again because it was slipping.
+
+"Unknown."
+
+She held the bag open.
+
+I put the loaf in.
+
+"Thank you."
+
+"Useful."
+
+There were words she could weaponize across years.
+
+We bought lamp oil from Olin.
+
+That had not been my idea.
+
+Lyssa turned toward his shop and I nearly asked whether she knew him. Then I remembered that knowing where an oil merchant worked did not constitute a secret professional network.
+
+I was learning.
+
+Olin was behind the counter with a tin open in front of him and a rag in one hand. His boy was not there.
+
+He saw me.
+
+"Theatre."
+
+Better than oil man.
+
+"Home," I said.
+
+He looked at Lyssa.
+
+She put the small household tin on the counter.
+
+"Fill."
+
+Olin did.
+
+No warning.
+
+No folded message.
+
+No brown coat.
+
+No question about Rinna.
+
+He filled the tin, wiped the neck, checked the stopper, named the price, and took Lyssa's coin.
+
+Ordinary commerce had never seemed so aggressively respectable.
+
+I almost liked him for it.
+
+Olin looked at my crutches.
+
+"Tip holding?"
+
+I looked down.
+
+"Yes."
+
+He nodded.
+
+That was apparently the entire subject.
+
+Outside, Lyssa said, "You know him."
+
+"Theatre oil."
+
+"Of course."
+
+"I carried one tin once and suffered a reputation."
+
+"What reputation?"
+
+"Oil man."
+
+She laughed.
+
+I pointed at her.
+
+"Do not."
+
+"Oil man."
+
+"Relationship damaged."
+
+"Carry the oil."
+
+"No."
+
+She handed me the tin.
+
+I stared at it.
+
+She kept walking.
+
+This was how empires collapsed.
+
+The tin was small enough to carry by its loop in my right hand for short stretches, but that hand also belonged to the right crutch. I tried the loop over my wrist.
+
+Bad.
+
+It swung.
+
+I stopped.
+
+Lyssa turned around.
+
+I held up the tin.
+
+"Engineering failure."
+
+She came back, took it, and put it into the bag.
+
+No commentary.
+
+Worse.
+
+"Say it."
+
+"What?"
+
+"Whatever your face is doing."
+
+"My face is walking."
+
+"Your face is very talented."
+
+She started again.
+
+I followed.
+
+We left the market with beans, salt, two loaves, oil, and no pears.
+
+I had expected the trip to feel like labor by then.
+
+It did not.
+
+Not exactly.
+
+My shoulders were working because streets were streets. My right hand had the ordinary warmth of a morning on crutches. The bag stayed with Lyssa because pretending equality required identical loads was stupid and both of us knew it.
+
+I carried one loaf again once the crowd thinned.
+
+That was enough.
+
+Near the edge of the square, Lyssa stopped at a stall selling cooked onions, flat cakes, and small strips of browned meat.
+
+I looked at the onions.
+
+"No."
+
+She ordered two flat cakes.
+
+"Thank you."
+
+"One is mine."
+
+"Still."
+
+We ate standing near a wall because the nearest bench was occupied by a woman with three baskets and no visible intention of surrendering territory.
+
+Lyssa tore a piece from her cake and held it out.
+
+I took it.
+
+Mine had more onion.
+
+Hers had more meat.
+
+We traded another piece without discussing the economics.
+
+For several minutes we did not talk.
+
+People moved around us.
+
+A man in a green cap tried to carry six clay cups in two hands and lost one. It broke. He looked at the five surviving cups, then at the pieces, then kept walking.
+
+A dog sat under the meat stall with the concentration of a saint.
+
+Two girls shared a red scarf while their mother negotiated over carrots.
+
+Nobody needed anything from me.
+
+Lyssa finished first.
+
+She wiped her fingers on a cloth.
+
+"Afternoon," she said.
+
+"What about it?"
+
+"I have work."
+
+There it was.
+
+Not a problem.
+
+Not a betrayal.
+
+Just the edge of the morning.
+
+"Where?"
+
+"North."
+
+I nodded.
+
+"Home first?"
+
+"No."
+
+She shifted the bag on her shoulder and took out one loaf.
+
+She handed it to me.
+
+Then the salt.
+
+Then the oil tin.
+
+"Ah."
+
+"Home."
+
+"I have become transport."
+
+"You asked what you were carrying."
+
+"Hours ago."
+
+"Now you know."
+
+I looked at the collection.
+
+The oil tin could go in the cloth bag if I had the cloth bag.
+
+Lyssa handed me that too.
+
+"Are you leaving me with everything?"
+
+"Beans come with me."
+
+"Why?"
+
+"Because I bought them."
+
+This was not an explanation.
+
+It was enough.
+
+I arranged the bag across my shoulder so it rested against my left side and did not swing into the crutch. The oil tin sat low. Bread above it. Salt tucked near the top.
+
+Lyssa watched the arrangement.
+
+"Good?"
+
+"Probably."
+
+"Strong standard."
+
+I looked at her.
+
+She smiled.
+
+Fine.
+
+That one had lived.
+
+We started toward the split where north road left the square.
+
+At the corner, Lyssa stopped.
+
+I expected a work instruction.
+
+Instead she put one hand on the front of my coat and kissed me.
+
+Not long.
+
+Not one of the quick polite touches people gave in doorways either.
+
+Enough that I forgot the bag for a second and had to correct my balance when we separated.
+
+"You attack around crutches," I said.
+
+"You complain around everything."
+
+"Consistency."
+
+"Home."
+
+"North."
+
+She turned.
+
+I watched her go for three steps.
+
+Then she looked back.
+
+"What?"
+
+I had not said anything.
+
+"Nothing."
+
+"Good."
+
+Cruel woman.
+
+I went home.
+
+The bag arrangement worked until the stairs.
+
+Then it did not.
+
+The oil tin shifted. The bread compressed against my ribs. The salt tried to migrate into a corner that did not exist.
+
+I stopped on the first landing and reorganized.
+
+A woman from the floor below came down carrying a bucket.
+
+She waited.
+
+I moved the bag.
+
+She waited more.
+
+"Go," I said.
+
+"You sure?"
+
+"Yes."
+
+She passed.
+
+No speech about courage.
+
+No attempt to carry me.
+
+Just a bucket needing the stairs.
+
+I appreciated her immediately.
+
+At the apartment I put the oil by the lamp, salt near the cooking things, and bread on the table.
+
+The brown cloth remained near the wall.
+
+Three pins.
+
+Same fold.
+
+I did not speak to it.
+
+Growth.
+
+The damaged shirt stayed on the shelf.
+
+Three loose threads.
+
+Also growth.
+
+I had the room to myself.
+
+For the first time in several days, that did not feel like a gap waiting to be filled by a note.
+
+I washed the morning bowls.
+
+I checked the lamp wick because we had bought oil, not because I was conducting a study.
+
+It needed trimming.
+
+I trimmed it badly.
+
+The flame leaned.
+
+I adjusted it.
+
+Better.
+
+Not data.
+
+I sat.
+
+Then I did something dangerous.
+
+Nothing.
+
+No theatre.
+
+No Vale.
+
+No Hessa.
+
+No errands left that belonged to me.
+
+The debt remained.
+
+The theatre would exist tomorrow or not.
+
+Hessa had questions she had not chosen.
+
+Lyssa was somewhere north doing work that did not require my witness.
+
+I had bread.
+
+I ate some.
+
+At some point I slept.
+
+Not a planned nap.
+
+A chair, a warm room, and a full stomach negotiated without consulting me.
+
+When I woke, the light had moved across the floor.
+
+My neck hurt slightly from the angle.
+
+Good.
+
+Human.
+
+I stood, stretched, and went downstairs for water.
+
+The woman with the bucket was coming back up.
+
+Empty bucket now.
+
+She looked at me.
+
+"Still here?"
+
+I almost laughed.
+
+"Apparently."
+
+She kept going.
+
+That was the entire relationship.
+
+By late afternoon I had started the old beans.
+
+Not Lyssa's new beans.
+
+Those had gone north for reasons that remained outside my authority.
+
+The old ones softened slowly.
+
+I cut an onion.
+
+One left.
+
+Victory approached.
+
+I considered making the food before Lyssa returned.
+
+Then I remembered she had said work.
+
+No promise about supper.
+
+So I made enough for both of us and ate my portion when it was ready.
+
+This was a skill I had acquired very slowly.
+
+Not waiting was different from not caring.
+
+I left the rest covered.
+
+Lyssa returned after dark.
+
+No bundle.
+
+Again.
+
+She opened the door, looked at the table, then at me.
+
+"You ate."
+
+"Yes."
+
+"Good."
+
+She set the bean bag down.
+
+Still beans.
+
+Apparently the north had not consumed them.
+
+"What did the beans do?"
+
+"Waited."
+
+"For?"
+
+"Tomorrow."
+
+I nodded as if that explained an entire day.
+
+It probably did to her.
+
+She washed her hands.
+
+I uncovered the pot.
+
+"Old beans."
+
+She looked inside.
+
+"Soft?"
+
+"Eventually."
+
+She tasted one.
+
+"Soft."
+
+I took the victory.
+
+She sat and ate.
+
+I sat across from her even though I had already finished.
+
+No report waited in my mouth.
+
+No experiment.
+
+No show.
+
+No office problem.
+
+After several bites she said, "You slept."
+
+I stared at her.
+
+"How do you know?"
+
+"Face."
+
+"What is wrong with my face?"
+
+"Chair."
+
+That did not answer anything.
+
+"Did the chair tell you?"
+
+"You have the line."
+
+I touched my cheek.
+
+There was, in fact, a shallow mark where my sleeve seam must have pressed into it.
+
+Betrayed by upholstery.
+
+"I was resting."
+
+"You were sleeping."
+
+"Unsupervised."
+
+She looked at me.
+
+I regretted that immediately.
+
+"No magic joke," I said.
+
+"I didn't."
+
+"Good."
+
+She ate another bean.
+
+I looked at the brown cloth.
+
+Still there.
+
+I looked back at Lyssa.
+
+"Good morning."
+
+She frowned.
+
+"What?"
+
+"This morning. It was good."
+
+Her face changed very little.
+
+Enough.
+
+"Yes."
+
+Then she reached across the table and took the last piece of my bread from beside my hand.
+
+I stared at the empty space.
+
+"That was mine."
+
+"You ate."
+
+"Earlier."
+
+"You survived."
+
+"Relationship damaged again."
+
+She ate the bread.
+
+I stayed anyway.

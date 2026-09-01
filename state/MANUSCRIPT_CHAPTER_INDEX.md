@@ -1,6 +1,6 @@
-# PEG-LEG GREG — CHAPTER INDEX — CH234
+# PEG-LEG GREG — CHAPTER INDEX — CH235
 
-**Current endpoint:** Chapter 234 — THE CONDITION
+**Current endpoint:** Chapter 235 — THE TAGALONG
 
 1. **THE BOY**
 2. **THE BORROWER**
@@ -236,3 +236,4 @@
 232. **THE COUNTERSIGN**
 233. **THE SEAT**
 234. **THE CONDITION**
+235. **THE TAGALONG**

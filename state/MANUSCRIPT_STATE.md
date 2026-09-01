@@ -1,7 +1,7 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current story endpoint: Chapter 234 — **THE CONDITION**.
+- Current story endpoint: Chapter 235 — **THE TAGALONG**.
 - Book 1 Chapters 1–82 closed. Book 2 active.
 - Repository prose was previously validated continuously through Chapter 155 — **THE LEAK**.
 - Chapters 156–219 remain newer forward manuscript material pending exact-text synchronization into the permanent running manuscript. Do not reconstruct them from summaries or let stale overlapping files overwrite newer authority.
@@ -51,6 +51,7 @@
 - NO RANGE ESTABLISHED. NOT GENERALIZED.
 - Restrictions unchanged: no independent draw, shaping, external testing, paper, coins, thread, larger objects, practice, Barrier broadening, theatrical magic, or loopholes.
 - Hessa ends Ch234 with no chosen next experiment. Her possible next questions remain unresolved.
+- Chapter 235 contains no Hessa appearance or magic attempt. Counts remain 34 / 30 / 49 and all restrictions remain unchanged.
 
 ## Greg / Lyssa
 - Canonical spelling: **Lyssa**. Same established character formerly spelled Lysa.
@@ -71,6 +72,7 @@
 - Ch232 the same narrow brown cloth remains in the same fold with the same three pins. Lyssa is working on a separate dark sleeve by evening; no relationship between the sleeve and brown cloth is established. Greg's cuff remains at three loose threads.
 - Ch233 the dark sleeve is gone by morning while the narrow brown cloth remains in the same fold with the same three pins. Lyssa is already out and later already eating when Greg returns; no customer/job explanation is added. Greg's cuff remains at three loose threads and he still leaves it alone.
 - Ch234 the narrow brown cloth remains in the same fold with the same three pins. Greg's damaged shirt remains on the shelf with three loose threads and is not repaired. Lyssa is off-page through the experiment day, returns tired in an ordinary non-medical way with no bundle, and asks only the narrow result questions `Paper?`, `Out of four?`, and `Same distance?`; she does not become Hessa's analyst.
+- Ch235 Lyssa is still home in the morning and invites Greg along on ordinary west-market household errands. She later leaves directly for north-side work and returns after dark with the beans she carried north and no bundle; no customer, garment, or work purpose is established. The narrow brown cloth remains same fold/three pins and Greg's damaged shirt remains on the shelf with three loose threads.
 - Lyssa understands the control logic quickly from Ch226 but remains independent of Hessa's domain.
 
 ## Economy / debt
@@ -92,6 +94,7 @@
 - Ch232 Greg voluntarily seeks suitable Vale work after returning the theatre coat. He matches returned payment acknowledgments against account lines under clerk review and receives legitimate debt credit. Exact credit and current balance remain unstated in narration; Greg sees and knows the balance. No guaranteed job, schedule, or rate is created.
 - Ch233 contains no Vale appearance, office work, payment, or debt credit. Greg pays ordinary money for his own cookshop bowl while the debt remains active and unstated.
 - Ch234 contains no Vale appearance, office work, payment, or debt credit. Greg buys ordinary breakfast and cheese while the debt remains active and unstated.
+- Ch235 contains no Vale appearance, office work, payment, or debt credit. Greg and Lyssa make ordinary household/food purchases while the debt remains active and unstated.
 - No Vale/Bren connection established.
 
 ## Bren / pressure arc
@@ -103,7 +106,7 @@
 - Ch223: cart repair man reports an unknown visitor asking whether theatre cart goes out after late show and whether the same man drives it. Description is only **CONSISTENT WITH OLIN DESCRIPTION**.
 - Supported category: someone is interested in theatre money handling and movement/logistics.
 - NOT established: robbery, ambush, cart target, Bren employment, organization, gang, boss, or specific plan.
-- Chapters 224–234 do not advance the pressure arc. In Ch228 Olin simply sends the theatre's oil with no message, question, warning, or stranger attached. Bren remains off-page. No Mason's Cut investigation and no Vale-paper clue.
+- Chapters 224–235 do not advance the pressure arc. In Ch228 Olin simply sends the theatre's oil with no message, question, warning, or stranger attached. Bren remains off-page. No Mason's Cut investigation and no Vale-paper clue.
 
 ## Chapter 224 — THE CHECKER
 - Lyssa continues customer sewing and sends Greg for onions.
@@ -280,24 +283,36 @@
 - Hessa has no selected next experiment when Greg leaves.
 - Home remains ordinary: the brown cloth is still same fold/three pins; Greg's damaged shirt remains unrepaired; Lyssa returns tired in the ordinary way with no bundle, asks only narrow result questions, and they eat beans without turning the session into a relationship lesson.
 
-## Immediate next edge — Chapter 235
-Primary recommendation: **LET THE FULL CH234 MAGIC SESSION BREATHE. FOLLOW ORDINARY CARROW / HOUSEHOLD / SOCIAL LIFE OR AN ACTUAL NEW OBLIGATION BEFORE RETURNING TO ANOTHER EXPERIMENT.**
+## Chapter 235 — THE TAGALONG
+- Chapter 235 deliberately lets the full Ch234 magic session breathe. No Hessa appearance, magic attempt, theatre work, Vale work/debt credit, Bren/brown-coat fact, warning, investigation, or escalation occurs. Magic counts remain **34 / 30 / 49** and all restrictions remain unchanged.
+- Lyssa is still home when Greg wakes and is not actively sewing. She invites him along to the west market because she is going, not because he has an assigned job. The morning functions as ordinary couple time rather than plot debrief.
+- Greg and Lyssa buy ordinary household food/oil. Lyssa's existing market familiarity is visible in narrow form: a pear seller knows her, a bean seller uses compressed ordinary trade with her, but no formal customer/network status is invented.
+- At Olin's, the visit is completely ordinary. Lyssa buys household lamp oil; Olin gives no warning, message, threat update, or new information. The prior pressure arc remains quiet.
+- Greg's disability remains materially ordinary in crowd/carrying geometry: bread/oil/bag arrangements interact with two crutches; Lyssa carries the heavier/more awkward shared load without an accommodation speech. Greg has ordinary worked shoulders/right hand only and no injury or new limitation.
+- Lyssa leaves directly for north-side work after the market. She carries the newly bought beans with her for an unexplained workday reason; Greg does not turn that into a professional question. She returns after dark with the beans and no bundle. Customer, garment, and job details remain off-page.
+- Greg spends the afternoon genuinely unassigned, trims the household lamp wick, naps in a chair, cooks the older beans, and eats his portion without waiting for Lyssa. This reinforces that not waiting for supper can coexist with care rather than becoming relationship distance.
+- The narrow brown cloth remains same fold / same three pins and wholly unidentified. Greg's damaged shirt remains on the shelf with three loose threads and is not repaired.
+- Home ends with direct relationship texture rather than analysis: Greg tells Lyssa the shared morning was good; she agrees, steals his last piece of bread, and he stays anyway.
+
+## Immediate next edge — Chapter 236
+Primary recommendation: **FOLLOW THE NEXT ACTUAL OBLIGATION OR SOCIAL PRESSURE. DO NOT IMMEDIATELY TURN CH235'S ORDINARY COUPLE DAY INTO ANOTHER DOMESTIC CHAPTER BY ROTATION.**
 
 Reasons:
-- Ch234 materially advances the magic record with a full fixed-condition session, so another immediate Hessa chapter would turn the evidence engine into a procedural ladder;
-- theatre received ordinary strike/company life in Ch233, and Rinna explicitly gave `Tomorrow no` for Ch234. There is no current theatre obligation carrying into Ch235;
-- Vale last received a full workday and debt credit in Ch232. Suitable work may recur if ordinary work exists, but no schedule or post has been created;
-- external pressure remains quiet through Ch234. One grounded new fact may move it if it naturally reaches an established person or business, but elapsed chapters still do not create an escalation quota;
-- Lyssa's narrow brown cloth remains intentionally unidentified and Greg's three-thread cuff remains unrepaired. Neither needs resolution merely because it persists;
-- ordinary Carrow, household rhythm, food, errands, relationships, money, bodies, and partial social recognition remain valid primary engines.
+- Ch232 foregrounded Vale/debt work, Ch233 theatre/company life, Ch234 magic evidence, and Ch235 ordinary Greg/Lyssa/Carrow life. The recent sequence has touched all major engines without requiring any one to fire again on schedule.
+- Magic should breathe after Ch234. Hessa still has no selected next experiment, and Ch235 creates no reason to reopen testing.
+- Theatre has no standing obligation from Ch233–235. It may return only through a genuinely new call or ordinary need.
+- Vale work remains available only when suitable work exists. Greg has no schedule or post.
+- External pressure has remained quiet through Ch235. One grounded fact through an established commercial contact is available if it naturally arrives, but elapsed chapters still do not create an escalation quota.
+- Lyssa's brown cloth and Greg's three-thread damaged shirt remain intentionally unresolved. Do not clean them up merely because they persist.
+- Ch235 establishes a pleasant shared morning, not a new daily routine. Lyssa's north-side work remains independent and unexplained.
 
-Strong Chapter 235 possibilities:
-- a non-theatre Carrow / Greg-Lyssa / friendship day that gives people room outside systems;
-- one grounded pressure fact through an established commercial contact while ordinary life continues around it;
-- Vale work only if a concrete reason and suitable task exist;
-- theatre only if a genuinely new call arrives rather than carrying forward a stale maybe.
+Strong Chapter 236 possibilities:
+- a concrete new theatre or Vale obligation if one actually arrives;
+- one grounded pressure fact through Olin, Rinna, the cart repairer, lamp-glass supplier, or another established contact while ordinary work continues;
+- another existing social/friend route not recently foregrounded;
+- ordinary Carrow life if it has a real person/material problem rather than serving as filler.
 
-Preserve magic counts 34 / 30 / 49 and all restrictions. Do not turn the fixed-condition block into a rate claim, expectation effect, range map, or permission expansion. Do not resolve the brown cloth or cuff by bookkeeping convenience.
+Preserve magic counts **34 / 30 / 49** and all restrictions. Preserve active unstated Vale debt. Preserve the threat evidence ceiling. Preserve brown-cloth identity limits, three-thread shirt continuity, Lyssa customer/garment boundaries, and **Marra ≠ Maren**.
 
 ## Chat / handoff behavior
 After each completed chapter:
