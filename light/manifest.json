@@ -1,5 +1,5 @@
 {
-  "latest": 269,
+  "latest": 270,
   "chapters": [
     {
       "number": 156,
@@ -684,6 +684,12 @@
       "title": "THE COBBLER",
       "source": "checkpoint",
       "path": "269.html"
+    },
+    {
+      "number": 270,
+      "title": "THE WATCHMAN",
+      "source": "checkpoint",
+      "path": "270.html"
     }
   ]
 }
