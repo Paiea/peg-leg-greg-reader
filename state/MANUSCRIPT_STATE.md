@@ -1,12 +1,12 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 253 — **THE STEWARD**.
+- Current exact story endpoint: Chapter 254 — **THE USHER**.
 - Book 1 Chapters 1–82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent forward manuscript path remains `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`.
 - The permanent running manuscript is currently materialized through Chapter 248.
-- Exact Chapters 249–253 are durable on current GitHub as chapter checkpoint files under `state/manuscript/`.
-- These exact chapter files outrank older summaries for Chapters 249–253 and still need exact-text integration into the permanent running manuscript. Do not reconstruct or rewrite them during integration.
+- Exact Chapters 249–254 are durable on current GitHub as chapter checkpoint files under `state/manuscript/`.
+- These exact chapter files outrank older summaries for Chapters 249–254 and still need exact-text integration into the permanent running manuscript. Do not reconstruct or rewrite them during integration.
 - Chapters 156–219 also remain older exact-text synchronization debt. Do not reconstruct them from summaries.
 
 ## Production rules
@@ -27,26 +27,28 @@
 - NO RANGE ESTABLISHED. NOT GENERALIZED.
 - Restrictions unchanged: no independent draw, shaping, external testing, paper, coins, thread, larger objects, practice, Barrier broadening, theatrical magic, or loopholes.
 - Hessa has selected no next experiment after Ch248.
-- Chapters 249–253 contain no Hessa appearance or magic attempt.
+- Chapters 249–254 contain no Hessa appearance or magic attempt.
 
 ## Greg / body / equipment
 - Greg is nineteen, Bronze, in Carrow.
 - Permanent LEFT below-knee amputation, knee preserved; right leg intact; uses two crutches.
 - Worn LEFT tip replaced Ch223; RIGHT grip retensioned Ch242 with one small flush tack beneath overlap away from palm; LEFT grip fine.
 - Ch247 haircut remains current: front above/out of eyes, ears clear, no collar contact, sides/back shorter.
-- Ch252 wash work leaves only ordinary worked shoulders. Ch253 body baseline is ordinary after sleep: shoulders/right hand/right leg/residual limb fine; both grips and left tip normal. No injury or new limitation.
+- Ch254 body baseline remains ordinary: shoulders/right hand/right leg/residual limb normal; both grips and left tip normal. No injury or new limitation.
+- Front-of-house work Ch254 establishes ordinary route geometry only: center aisle stays clear; side lane becomes stage access after bell; Greg can stand against the left wall with both crutches planted close during late entry. Do not turn this into a special-access triumph or new equipment claim.
 
 ## Greg / Lyssa / household
 - Canonical spelling: **Lyssa**. Same established character formerly spelled Lysa.
 - Established visual identity: Black woman, tall relative to Greg, thin/lithe build, natural Afro-textured hair.
 - Lyssa has independent work, errands, moods, obligations, competence, and decisions. She is not Greg's analyst or project manager.
-- Long-standing narrow brown cloth remains same fold / same three pins through Ch253; customer, garment, ownership, use unestablished.
-- Greg's damaged shirt remains exactly three loose cuff threads through Ch253.
-- Greg's better shirt retains the old blue theatre-paint streak; Ch252 washing makes it paler, not gone; Greg wears it Ch253.
-- Ch246 reddish-brown sample + darker close substitute spool: Ch249 darker stitching appears inside one edge; both are absent by Ch251 evening and remain unresolved through Ch253.
+- Long-standing narrow brown cloth remains same fold / same three pins through Ch254; customer, garment, ownership, use unestablished.
+- Greg's damaged shirt remains exactly three loose cuff threads through Ch254.
+- Greg's better shirt retains the old blue theatre-paint streak; Ch252 washing makes it paler, not gone; Greg wears it Ch253–254.
+- Ch246 reddish-brown sample + darker close substitute spool: Ch249 darker stitching appears inside one edge; both are absent by Ch251 evening and remain unresolved through Ch254.
 - Ch252 Lyssa briefly rinses two pale narrow work-cloth pieces at the wash court. Purpose/customer/relationship remain unestablished.
-- Ch253 Lyssa has something pale folded near her work bag at supper, but Greg cannot establish whether it is the Ch252 rinse cloth and does not ask. Do not connect them automatically.
-- Ch252 household washing stands: sheets/towels/clothes washed and dried, bed remade. Wash court is now known two streets below west market but is not automatically a standing route.
+- Ch253 pale folded material near Lyssa's work bag cannot be identified by Greg; it is gone by Ch254 morning. Do not connect it automatically to the Ch252 rinse cloth or other work.
+- Ch252 household washing stands: sheets/towels/clothes washed and dried, bed remade. Wash court is known but not automatically a standing route.
+- Ch254 Greg independently buys bread and three onions after theatre. This is ordinary household competence, not a new market subplot.
 
 ## Recent durable residue
 
@@ -80,30 +82,40 @@
 - Durable change is ordinary: household laundry is done and another part of Carrow is navigable.
 
 ### Chapter 253 — THE STEWARD
-- Pell returns to the theatre after three days away, looking depleted. He says the fever broke yesterday morning.
-- Nessa refuses to let Pell work. Rinna verifies food/fever context; Pell's sister did not approve his walk to the theatre. Pell is eventually sent home, with Venn walking him partway. Later Pell's sister sends word that he reached home and is angry.
-- Crucially, the theatre has already changed the bill. **The Second Toast** is not being performed that day. Pell's return does not trigger another Uncle performance, and Greg is not preserving the emergency role.
-- Greg and Pell briefly compare the substitution. Greg admits he initially copied Pell until Teren stopped him. Greg describes the difference narrowly: his Uncle entered more certain; Pell's enters angrier / already disappointed. No hierarchy is established.
-- Greg spends most of the day on ordinary theatre work rather than a speaking role: rail repair support, object carrying, and a fast brown-stage-coat handoff between Venn's **The Borrowed Coat** and Hara's following piece.
-- The brown stage coat has patched elbow, broad collar, three brass-colored buttons with only two matching. It is ordinary costume property and has NO connection to the unidentified real-world brown-coat observer.
-- Venn performs **The Borrowed Coat**; Hara and Marek also act. Greg's job is coat/letter continuity and handoff, not performance.
-- Pell's cough while watching confirms he is not ready; Rinna sends him home. No medical escalation beyond ordinary post-fever depletion is established.
-- Jori/Davin glue a split rail foot; it is tested later but held for tomorrow rather than used immediately.
-- Teren temporarily has Greg read four Porter lines only because the regular actor is helping move a stair unit. The regular actor returns and resumes the role. No promotion/demotion/casting claim.
-- Rinna pays Greg normal theatre money, not the emergency Uncle share. Emergency better-pay days are over.
-- Rinna tells Greg to come at ordinary call tomorrow. No role is promised; likely ordinary work exists.
-- Uncle pages remain physically with Greg. Lyssa had moved them from table to shelf for supper; Greg puts them in his coat to return to the theatre at ordinary call. He does not study them.
-- Durable theatre residue: Greg now knows Uncle; Marek now knows Steward; this creates latent company flexibility without assigning either role permanently. The bill and company continue rather than resetting around Pell's absence/return.
+- Pell returns after three days away, says fever broke the previous morning, but looks depleted.
+- Nessa/Rinna refuse to let Pell work. After Pell coughs while watching, he is sent home; Venn walks him partway. Pell's sister later confirms he reached home and is angry.
+- The theatre has already changed the bill. **The Second Toast** is not performed and Greg does not preserve the emergency Uncle role.
+- Greg/Pell compare their Uncle choices narrowly and nonhierarchically: Greg admits initial imitation; Greg's Uncle enters more certain, Pell's angrier/already disappointed.
+- Greg mostly does ordinary theatre labor including rail-repair support and fast brown-stage-coat/letter continuity between pieces. The brown stage coat is ordinary costume property and has no connection to the real brown-coat observer.
+- Teren briefly uses Greg to read four Porter lines while the regular actor moves scenery; regular actor returns and resumes role.
+- Rinna pays normal theatre money and tells Greg to come at ordinary call next day.
+- Uncle pages remain in Greg's coat to return, not to study.
+
+### Chapter 254 — THE USHER
+- Greg attends the established ordinary theatre call and immediately returns the forty-three-line Uncle pages to Nessa. She puts them back on the theatre paper shelf without ceremony. Greg still knows the role, but the physical emergency pages are no longer his responsibility.
+- Rinna assigns Greg temporary front-of-house work because the usual house man, Kesh, is late and the first bill is selling heavier than the previous day.
+- Greg does NOT take money, explain prices, promise future shows, or receive a promotion. His task is narrow: seat people, preserve marked seats in the front two rows, keep center/side routes usable, and route ticket problems back to Rinna.
+- Greg learns ordinary house conventions through small mistakes: an ambiguous chalk seat number, open seating held by scarves, people meaning different things by `good seat`, and late-entry darkness.
+- A woman with a cane asks for the door-side end seat. Greg follows her stated preference rather than inventing a need. This remains ordinary customer accommodation, not a disability lesson.
+- Kesh arrives, resumes his normal place, and keeps Greg only through opening/late-entry work. Kesh is an established theatre worker Greg had seen many times but had mentally categorized as part of the building. Ch254 names him for the first time in current forward prose.
+- Greg experiences a familiar show from the house side and notices audience response physically spreading through the room. Hara's silence changes the audience before she speaks. This is observational theatre accumulation only, not a declared lesson, illusion breakthrough, or performance-power claim.
+- Greg helps one ordinary warm/overheated audience member return to a rear end seat after she steps out with a friend; no medical event develops.
+- After house work, Greg returns to ordinary backstage labor. Teren briefly asks him to read six lines for a missing reader; no costume or casting claim results. Teren says `Again tomorrow if I need it`, specifically referring to reading, not a call.
+- Pell does not appear and nobody turns his recovery into the day's subject.
+- Rinna pays Greg normal theatre money. Greg later buys bread and three onions. No Vale payment/credit occurs.
+- Chapter-end status: Greg has no ordinary call for tomorrow. Teren's possible need for a reader is not a promise or schedule. Kesh has not made Greg an usher. The house will function without Greg.
+- Durable theatre change: Greg now knows a little of the audience-side operating geometry and has experienced the audience as part of theatre work rather than only as sound beyond the curtain.
 
 ## Theatre
-- Theatre remains intrinsically valuable work: rehearsal, performance, stagecraft, failure, recovery, people, and another turn.
-- Greg's recent roles include Magistrate (Ch231), emergency Uncle (Ch250–251), plus ordinary property/stage labor.
-- Ch253 explicitly closes the emergency substitution as an emergency sequence without erasing its residue.
-- Do not treat Greg as permanent Uncle or Marek as permanent Steward. Do not make the learned roles meaningless either.
-- Pell is back in Carrow/theatre orbit but was sent home Ch253 and has not yet demonstrated full work readiness after fever.
-- Ordinary call is established for Greg the next day; no specific role promised.
-- The split rail repaired Ch253 is drying/held for tomorrow. Do not force it into importance.
-- Uncle pages are in Greg's coat to return, not for continued study.
+- Theatre remains intrinsically valuable work: rehearsal, performance, stagecraft, failure, recovery, people, audience, and another turn.
+- Greg's recent roles include Magistrate (Ch231), emergency Uncle (Ch250–251), plus ordinary property/stage labor and temporary house work Ch254.
+- Ch253 closes the immediate emergency substitution. Ch254 returns the Uncle pages to theatre storage without erasing learned-role flexibility.
+- Do not treat Greg as permanent Uncle, permanent usher, front-of-house staff, or promoted company utility worker. Do not make the learned work meaningless either.
+- Greg knows Uncle; Marek knows Steward. Latent flexibility persists without scheduled reuse.
+- Pell remains in theatre orbit but does not appear Ch254; exact next work/performance date remains unknown.
+- Kesh is the usual house/front-door worker named Ch254. Do not automatically make him a mentor or recurring plot engine.
+- House facts established Ch254: front two rows can have marked seats; later rows may be open; held open seats can be indicated by belongings; center aisle and stage-side lane must remain clear; late entry is handled with reduced light and between-scene crossing when needed.
+- These are ordinary operating facts, not a new procedural subplot.
 - Rinna's Ch251 wrapped parcel remains unexplained.
 
 ## Economy / Vale debt
@@ -113,7 +125,7 @@
 - Prior legitimate debt credits/payments remain valid.
 - Ch250–251 each give slightly better-than-ordinary theatre pay due to emergency coverage.
 - Ch252 has no income event.
-- Ch253 returns Greg to normal theatre pay. He buys an ordinary hot cake afterward. No debt payment/credit occurs.
+- Ch253–254 return Greg to normal theatre pay. Ch253 hot cake and Ch254 bread/onions are ordinary spending, not debt events.
 - No Vale/Bren connection established.
 
 ## Pressure / evidence ceiling
@@ -124,28 +136,29 @@
 - Mason's Cut remains direction-of-travel evidence only.
 - Bren remains probable name of close-haired heavy-coat spokesman with left glove; one-copper demand refused Ch218; `Next time won't be one.`
 - NO robbery, ambush, cart target, Bren employment, organization, gang, boss, violence plan, Vale connection, or confirmed identity link established.
-- Chapters 249–253 add no pressure evidence.
+- Chapters 249–254 add no pressure evidence.
 
 ## Protected uncertainties / do not auto-resolve
 - Weak needle-case mark: possibly familiar only; case not bought; no magic/value/identity established.
 - Rinna Ch251 wrapped parcel: not glass per her answer; otherwise unknown.
 - Lyssa reddish-brown sample / darker spool: current whereabouts/job/customer/use unresolved beyond Ch249 darker stitching inside one edge.
-- Lyssa Ch252 pale rinse cloth and Ch253 pale folded material: identity/relationship not established.
+- Lyssa Ch252 pale rinse cloth / Ch253 pale folded material: identity and relationship not established.
 - Long-standing brown cloth: same fold/three pins, unexplained.
 - Ch246 delivery-crate contents remain unknown unless newer exact prose establishes otherwise.
 - Hessa's next experiment remains unselected.
-- Pell's exact next work/performance date remains unknown after being sent home Ch253.
+- Pell's exact next work/performance date remains unknown after being sent home Ch253 and staying absent Ch254.
+- Kesh's life beyond ordinary house work remains unestablished.
 - No Vale/Bren connection.
 - Do not force magical ecology merely because it is a strong development direction.
 
-## Chapter 254 trailhead
+## Chapter 255 trailhead
 Follow the next actual claim from current authority.
 
-Chapter 253 has already closed the immediate Pell-return question enough for one day: he came back too soon, was sent home, and the theatre had moved on to a changed bill. Greg's ordinary call tomorrow is real, but no role is promised. The learned Uncle/Steward flexibility is durable residue, not a requirement to stage **The Second Toast** again.
+Chapter 254 has already allowed Greg's established ordinary call to become a real day of work. The Uncle pages are returned. Temporary house work is complete. Kesh has resumed his normal place. Greg has no call for tomorrow. Teren's `Again tomorrow if I need it` refers only to possible stand-in reading and is explicitly conditional.
 
-Do not automatically continue Pell recovery, the brown stage coat, the repaired rail, Uncle pages, wash court, weak needle case, Rinna's parcel, Lyssa cloth, magic, Vale, pressure, or magical ecology. Let what actually claims Greg's next day determine Chapter 254. Preserve ordinary social/work accumulation and uncertainty. Do not rotate open threads by checklist.
+Do not automatically continue usher/house work, Kesh, Pell recovery, Uncle/Steward flexibility, audience-response observation, the brown stage coat, repaired rail, wash court, weak needle case, Rinna's parcel, Lyssa cloth, magic, Vale, pressure, or magical ecology. Let the next actual claim come from current causality, household/work obligations, city life, social accumulation, or a genuinely active external demand. Preserve uncertainty and do not rotate open threads by checklist.
 
-Write ONE complete Chapter 254, target 2,500–4,000 words and clear 2,500, Greg POV, zero em dashes. Validate it, update durable exact prose/state, and leave the Chapter 255 trailhead from what actually happened.
+Write ONE complete Chapter 255, target 2,500–4,000 words and clear 2,500, Greg POV, zero em dashes. Validate it, update durable exact prose/state, and leave the Chapter 256 trailhead from what actually happened.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
