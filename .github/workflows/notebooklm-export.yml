@@ -1,0 +1,51 @@
+name: Build NotebookLM manuscript export
+
+on:
+  push:
+    branches:
+      - tooling/notebooklm-export
+      - main
+    paths:
+      - 'state/manuscript/**'
+      - 'scripts/build_notebooklm_export.py'
+      - '.github/workflows/notebooklm-export.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build manuscript-only sources
+        run: python scripts/build_notebooklm_export.py
+
+      - name: Validate output
+        run: |
+          test -s exports/notebooklm/PLG_BOOK_I_CH001-082.md
+          test -s exports/notebooklm/PLG_BOOK_II_CH083-180.md
+          ls exports/notebooklm/PLG_BOOK_III_CH181-*.md >/dev/null
+          grep -q 'CHAPTER 220' exports/notebooklm/PLG_BOOK_III_CH181-*.md
+
+      - name: Commit refreshed export
+        run: |
+          if git diff --quiet -- exports/notebooklm && [ -n "$(git ls-files --others --exclude-standard exports/notebooklm)" ]; then
+            :
+          elif git diff --quiet -- exports/notebooklm; then
+            echo 'NotebookLM export already current.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add exports/notebooklm
+          git commit -m 'Refresh NotebookLM manuscript export'
+          git push
