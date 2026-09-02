@@ -68,6 +68,18 @@ Every substantial stretch of chapters should leave changes in some combination o
 
 Do not use sitcom reset unless the story specifically demands one.
 
+## Structural boundaries follow story movement
+
+Act and Book boundaries should be recognized when the manuscript's **governing question changes**, not reserved for predetermined chapter counts or symmetrical structures.
+
+Book III may contain additional acts beyond **THE PRICE OF ATTENTION** if the actual prose has entered a distinct movement. Story Control should periodically inspect the recent **20–40 chapter run** for an earned act boundary rather than allowing an old act label to stretch indefinitely because no dramatic break was scheduled.
+
+Likewise, if Book III's central movement has completed and a genuinely new governing phase has begun, allow **Book IV** rather than indefinitely extending Book III. A new Act means the existing life has developed a new governing concern; a new Book should mark a more substantial change in the story's operating condition.
+
+Do **not** manufacture a dramatic event, climax, quest, danger spike, or arbitrary chapter milestone merely to justify a boundary. The boundary may become visible retrospectively through accumulated changes in Greg's work, wants, relationships, money, magic, social position, knowledge, or range of action.
+
+Structure should describe what the story became, not force the story to become the structure.
+
 ## Social density over lore density
 
 Carrow and later places should grow increasingly navigable through people, not only exposition.
