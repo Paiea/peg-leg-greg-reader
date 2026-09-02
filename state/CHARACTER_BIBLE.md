@@ -6,6 +6,7 @@ Durable character knowledge for writers/editors. Manuscript evidence outranks th
 
 - Nineteen in his second life; Bronze; lives in Carrow.
 - His first life lasted to roughly fifty-nine and eventually reached S-class power/adventuring experience. He therefore carries decades of adult exposure to magic, danger, travel, institutions, equipment, support systems, and a functioning fantasy society in addition to his second-life experience.
+- Permanent LEFT BKA, knee preserved; right leg intact; uses two crutches.
 - Intelligent and observant without being a generic mastermind.
 - Competence grows through repetition, work, mistakes, correction, and practical problem solving.
 - Ongoing pressures include money/debt, theatre work, relationships, magic evidence, and external attention.
