@@ -1,11 +1,11 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 257 — **THE PLAYER**.
+- Current exact story endpoint: Chapter 258 — **THE PORTER**.
 - Book 1 Chapters 1–82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent forward manuscript path: `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249–257 are durable on current GitHub as chapter checkpoint files under `state/manuscript/`; these exact files outrank summaries and still require exact-text integration into the permanent running manuscript. Do not reconstruct or rewrite them during integration.
+- Exact Chapters 249–258 are durable on current GitHub as chapter checkpoint files under `state/manuscript/`; these exact files outrank summaries and still require exact-text integration into the permanent running manuscript. Do not reconstruct or rewrite them during integration.
 - Chapters 156–219 also remain older exact-text synchronization debt. Do not reconstruct them from summaries.
 
 ## Production rules
@@ -16,24 +16,36 @@
 - Exact prose outranks summaries/state/development/chat residue.
 - Follow the next actual claim created by prose. Do not rotate live engines by checklist.
 
+## Author shoves / directional nudges
+These are strong direction, not chapter scheduling or retroactive canon. Use the smallest natural footprint and let current causality decide when they surface.
+- Preserve the novel's ordinary lived texture, social accumulation, disability/material reality, independent side-character lives, humor, work, and the sense that Greg is inhabiting a life rather than speedrunning power.
+- Gradually allow the long serial to move from **second-life reconstruction** toward **second-life consequence**: Greg has rebuilt enough that plans, relationships, competence, routes, work, and material gains can increasingly give him something real to lose. Tighten existing pressures without turning the book grimdark or replacing ordinary life.
+- Magical ecology / fieldcraft is a strong forward push. The world should increasingly remember that it is genuinely magical. When Greg encounters field knowledge he repeatedly knew in his old life, let him sometimes be simply, unfairly correct. Do not force a creature chapter or a monster-of-the-week lane.
+- Future knowledge should sometimes work cleanly. Do not make every advantage fail merely to preserve uncertainty.
+- The eventual title-defining leg-loss direction is a flexible long-range bridge, not a countdown or scheduled event. Do not choose the exact cause, place, creature, trap, spell, tactical sequence, or chapter early. When the manuscript naturally earns the physical and emotional conditions, Greg's hubris, overconfidence, miscalculation, incomplete information, or over-optimization should matter. Do not use a cheap random accident or retroactively force foreshadowing.
+- If/when that loss occurs, aftermath must be substantial. No instant adaptation, magical prosthetic fix, or immediate jump back to theatre. The later Peg-Leg Greg identity should emerge from who he becomes afterward.
+
 ## Greg / body / equipment
 - Greg is nineteen, Bronze, in Carrow.
 - Permanent LEFT BKA, knee preserved; right leg intact; uses two crutches.
 - LEFT tip replaced Ch223; RIGHT grip retensioned Ch242 with one small flush tack beneath overlap away from palm; LEFT grip fine.
 - Ch247 haircut remains current.
-- Ch256 rain travel caused no injury/equipment problem. Ch257 body/equipment baseline remains ordinary and dry.
-- Ch256 wet-weather residue remains narrow: Bell Lane drains better in hard rain; Lower Tanner floods near dye yard; north-side arcades provide ordinary shelter. Lamp-oil bottle retains seller-tied cord loop as mundane object continuity only.
+- Ch256 rain travel caused no injury/equipment problem. Ch257 baseline ordinary and dry.
+- Ch258 Greg tests several bad ways to move a small loaded wheelbarrow while keeping both crutches, recognizes the unsafe geometry, and stops before injury. Orren ultimately pushes Cala's little ash barrow while Greg navigates the known route. No body/equipment change.
+- Ch256 wet-weather residue remains narrow: Bell Lane drains better in hard rain; Lower Tanner floods near dye yard; north-side arcades provide ordinary shelter. Ch258 Orren, who gives adult evidence consistent with former cart work, adds that the south direction from Bell Lane is bad in hard rain because water comes down the steps. Lamp-oil bottle retains seller-tied cord loop as mundane object continuity only.
 
 ## Greg / Lyssa / household
 - Canonical spelling: **Lyssa**. Black woman, tall relative to Greg, thin/lithe build, natural Afro-textured hair.
 - Lyssa retains independent work, errands, moods, obligations, competence, relationships, and decisions. She is not Greg's analyst/project manager.
-- Long-standing narrow brown cloth remains same fold / same three pins through Ch257, unexplained.
-- Greg's damaged shirt remains exactly three loose cuff threads through Ch257.
-- Better shirt retains old pale blue theatre-paint streak; rain only darkened it while wet Ch256.
+- Long-standing narrow brown cloth remains same fold / same three pins through Ch258, unexplained.
+- Greg's damaged shirt remains exactly three loose cuff threads through Ch258.
+- Better shirt retains old pale blue theatre-paint streak.
 - Ch246 reddish-brown sample + darker close substitute spool remain unresolved.
 - Ch252 pale rinse cloth / Ch253 pale folded material remain unresolved.
 - Lyssa's Ch255 paper-wrapped packet remains unexplained and absent from Greg's view afterward.
-- Ch257 Lyssa works on an inside-out gray sleeve and separate dark cuff in the morning; by night the gray sleeve is gone and the dark cuff remains beside another unidentified cloth. Do not merge these objects with older unresolved material without exact evidence.
+- Ch257 inside-out gray sleeve is gone by that night. Dark cuff persists into Ch258; a small paper packet appears beside it after Greg returns from the crate delivery, and Lyssa later puts cuff + packet into her work bag. Do not merge the packet with Ch255 or other unresolved material without evidence.
+- Jessa's Ch258 message to Lyssa is exact: `west is tomorrow.` Lyssa understands it and asks `Tomorrow?`; exact customer/job/route meaning remains unstated. It is Lyssa's work information, not Greg's assignment.
+- One length of ordinary household cord is lost into the delivered crate when Jessa cuts it open. Small material consequence only.
 
 ## Recent durable residue
 
@@ -72,18 +84,22 @@
 - Greg returns Sera's bowl, buys lamp oil, then hard rain catches him away from home.
 - He waits under an arcade, learns Bell Lane is better than flooded Lower Tanner in hard rain, and gets home without fall/injury/rescue.
 - Mina manages an overhang leak with a bucket and declines help. No repair subplot established.
-- Durable change is narrow wet-weather route knowledge.
 
 ### Chapter 257 — THE PLAYER
-- An actual theatre message arrives after breakfast: `ORDINARY CALL. SECOND BELL. BLUE DOOR.` Greg returns because the theatre genuinely has work for him.
-- The company is preparing **The Glass Orchard**, an already-familiar piece. Greg plays his established nine-line gate clerk. His chair has moved stage right, requiring a small route/spacing adjustment around Hara's second pass.
-- Teren gives a local correction: Greg knows the line, so stop checking the chair. Jori has already checked it. Greg later sits without looking down. This is ordinary distributed workplace trust, not a new acting breakthrough.
-- Hara and Venn own the strongest performance material. Hara makes the weak inheritance/fruit speech work through scene-partner timing; Greg notices Venn's laugh timing is better than his own and keeps acting rather than turning it into theory.
-- Marek breaks/frays a boot lace, misunderstands Nessa's instruction, buys bright red laces, and is made to change them. Later he smoothly covers a missed handoff caused by another actor entering from the wrong side. Preserve both irritation and real competence.
-- A rumor that Greg `drowned` in Ch256 rain reaches Marek through Venn, whose sister buys bread near Greg's street. This is ordinary networked neighborhood/theatre information, not surveillance or a new Venn-family subplot.
-- Greg receives ordinary pay only. No emergency premium, usher pay, debt event, or promotion.
-- At end Rinna has no next-day call yet and says she knows where Greg lives if she needs him. Tomorrow remains unassigned.
-- Durable change is modest: after two no-call days, Greg returns to ordinary theatre because summoned, works a familiar piece, and the company resumes around him without treating absence as crisis or exclusion.
+- Actual ordinary theatre call arrives. Greg returns for **The Glass Orchard**, plays his familiar nine-line gate clerk, adjusts to a moved chair, receives ordinary pay, and leaves without a next-day assignment.
+- Hara/Venn own the strongest performance beat; Marek has both a red-lace mistake and a competent live recovery.
+
+### Chapter 258 — THE PORTER
+- No theatre call arrives. A small crate of buckles intended for Marra is misdelivered one street to Greg/Lyssa's court.
+- Lyssa does not need the crate herself and does not make Greg take it; Greg volunteers because he knows Marra's route and his morning is open.
+- The crate exposes an ordinary disability/material problem: Greg cannot safely carry it while using two crutches. Lyssa, Orren, Sera, and Greg test mundane options; Greg stops the wheelbarrow/forearm-loop idea when it changes his crutch timing and becomes unsafe.
+- Sera authorizes temporary use of absent Cala's small ash wheelbarrow on the neighborhood understanding that Cala will mind, but not enough to forbid it. Orren pushes; Greg supplies route knowledge. No formal system or new delivery job is created.
+- Marra/Jessa receive the buckles. Marra still calls Greg `Road one`; Greg automatically stays out of the work lane. Jessa and Marra already have their own buckle history (`Finally`) that Greg does not receive.
+- Orren introduces himself to Jessa only because they meet during the delivery. No new relationship/subplot is established.
+- On return, Orren gives adult evidence consistent with Tavi's earlier claim that he used to work carts: he knows Lower Tanner's flooding and says the south direction from Bell Lane is bad because water comes down steps. Do not automatically validate Tavi's other claims.
+- Jessa sends Lyssa the compressed message `west is tomorrow`; Lyssa understands it. Meaning remains unstated.
+- The household loses one ordinary length of cord when Jessa cuts the crate open. No pay/reward/debt event.
+- Durable change is modest but cumulative: Greg's neighborhood and Lyssa-work routes can now intersect through ordinary usefulness without making him the center or manager, and he demonstrates a meaningful choice to stop an unsafe optimization rather than force it.
 
 ## Theatre
 - Theatre remains intrinsically valuable work: rehearsal, performance, stagecraft, failure, recovery, people, audience, and another turn.
@@ -91,8 +107,8 @@
 - Greg is not permanent Uncle, usher, front-of-house staff, or promoted company utility worker.
 - Pell's exact next work/performance date remains unknown.
 - Kesh remains usual house/front-door worker from Ch254; do not auto-promote him.
-- Ch257 establishes **The Glass Orchard** as an already-familiar piece for Greg, with a nine-line gate clerk role, Hara and Venn in the inheritance scene, and a gate/chair route. Do not infer first performance or permanent bill placement.
-- Ch257 ordinary call does not create a standing daily call. Rinna explicitly has no next-day assignment yet.
+- **The Glass Orchard** remains an already-familiar piece for Greg, with a nine-line gate clerk role, Hara/Venn inheritance scene, and gate/chair route.
+- Ch257 ordinary call did not create a standing daily call. Ch258 contains no theatre call.
 - Rinna's Ch251 wrapped parcel remains unexplained.
 
 ## Magic continuity
@@ -101,14 +117,14 @@
 - Ch248 physical-fin swap at INTERMEDIATE/AWAY: attempts 54/57 small clean AWAY target responses; 55/56 no observed response; control unchanged.
 - Narrow claim only: original target fin is not the only physical fin observed to respond. NO RANGE ESTABLISHED. NOT GENERALIZED.
 - Restrictions unchanged; Hessa has selected no next experiment.
-- Chapters 249–257 contain no Hessa appearance or magic attempt.
+- Chapters 249–258 contain no Hessa appearance or magic attempt.
 
 ## Economy / Vale debt
 - Currency: copper / silver / gold. No conversion rate established.
 - Antonius Vale debt remains active/unresolved. Original hard terms: 35% interest, 8 days, labor through Antonius on default; original principal unknown.
 - Exact current balance exists in-world and Greg knows it but narration does not state it.
 - Prior legitimate debt credits/payments remain valid.
-- Ch257 gives Greg ordinary theatre pay; exact amount unstated. No debt payment or Vale contact.
+- Ch257 gives Greg ordinary theatre pay; exact amount unstated. Ch258 gives no pay/reward and no debt payment or Vale contact.
 - No Vale/Bren connection established.
 
 ## Pressure / evidence ceiling
@@ -118,8 +134,8 @@
 - Mason's Cut remains direction-of-travel evidence only.
 - Bren remains probable name of close-haired heavy-coat spokesman with left glove; one-copper demand refused Ch218; `Next time won't be one.`
 - NO robbery, ambush, cart target, Bren employment, organization, gang, boss, violence plan, Vale connection, or confirmed identity link established.
-- Chapters 249–257 add no pressure evidence.
-- Ch257 rumor transmission through ordinary bread/neighborhood routes is social information, not surveillance evidence.
+- Chapters 249–258 add no pressure evidence.
+- Ch258's misdelivered crate is ordinary logistics and must not be retroactively connected to pressure without evidence.
 
 ## Protected uncertainties / do not auto-resolve
 - Weak needle-case mark remains possibly familiar only.
@@ -127,25 +143,28 @@
 - Lyssa reddish-brown sample / darker spool unresolved.
 - Lyssa Ch252 pale rinse cloth / Ch253 pale folded material unresolved.
 - Lyssa Ch255 paper-wrapped packet unexplained.
-- Ch257 gray sleeve / dark cuff / later unidentified cloth are ordinary work objects with relationships/ownership unestablished.
+- Ch258 small paper packet beside dark cuff is not established as the Ch255 packet.
 - Long-standing brown cloth remains same fold/three pins, unexplained.
 - Ch246 delivery-crate contents remain unknown unless newer exact prose establishes otherwise.
 - Hessa's next experiment unselected.
 - Pell's exact next work/performance date unknown.
-- Tavi's claims about Sera's dead husband, Orren formerly working carts, Mina hating cats, Jessa singing badly remain child testimony only.
+- Tavi's claims about Sera's dead husband, Mina hating cats, and Jessa singing badly remain child testimony only. Orren's former cart work now has independent adult behavioral evidence in Ch258, but Greg does not directly ask/confirm employment history.
+- `west is tomorrow` remains Lyssa/Jessa work shorthand whose exact meaning is unstated.
 - No Vale/Bren connection.
 - Do not force magical ecology merely because it is a strong development direction.
 
-## Chapter 258 trailhead
+## Chapter 259 trailhead
 Follow the next actual claim from current authority.
 
-Chapter 257 has already answered the immediate `will theatre call again?` question in the narrowest useful way: yes, an ordinary call arrived, Greg returned, worked a familiar piece, received ordinary pay, and left without a standing next-day assignment. Let that stand. Do not immediately manufacture another theatre call merely to prove continuity, and do not turn Greg's comfort with conditional work into a neat lesson.
+Chapter 258 has already used the unassigned morning for an ordinary misdelivered-crate problem that intersects Greg's neighborhood familiarity, Lyssa's work geography, disability/material logistics, and Orren's practical knowledge. Let the crate, buckles, wheelbarrow, Cala's likely annoyance, lost household cord, and `west is tomorrow` remain residue unless current causality genuinely brings one back. Do not turn Greg into Marra's porter, Lyssa's courier, neighborhood delivery infrastructure, or a person who must solve every carrying problem himself.
 
-The Glass Orchard, gate-clerk route, chair move, Hara/Venn performance, Marek's laces/handoff, and the rain rumor are fresh residue, not automatic Chapter 258 subjects. Rinna has no established call for tomorrow. Lyssa's current garment objects remain hers and unidentified. Household, paid work, city/social life, theatre if genuinely summoned, or a real external demand may claim the next chapter.
+The author-level shoves above should influence the serial's pressure and horizon, not become a checklist. In particular, do not manufacture a leg-loss incident, creature encounter, pressure event, magic-item acquisition, future-knowledge payoff, or theatre summons merely because those are desired long-range directions. Let the world increasingly become consequential around the life Greg has actually built, and take a strong directional opening when current causality earns one.
 
-Do not automatically continue The Glass Orchard, Venn's sister, neighborhood rumor transmission, Sera/Orren/Tavi/Mina, wet-weather navigation, lamp-oil cord, Pell recovery, Uncle/Steward flexibility, usher work, wash court, weak needle case, Rinna's parcel, Lyssa materials, magic, Vale, pressure, or magical ecology merely because each is available.
+Tomorrow contains Lyssa's unexplained `west` obligation, not Greg's. Greg has no established theatre call, Hessa appointment, Vale meeting, or assigned work at Chapter 258's end. Household, paid work, city/social life, a genuine external demand, or a naturally arriving fantasy-world pressure may claim Chapter 259.
 
-Write ONE complete Chapter 258, target 2,500–4,000 words and clear 2,500, Greg POV, zero em dashes. Validate it, update durable exact prose/state, and leave the Chapter 259 trailhead from what actually happened.
+Do not automatically continue Marra/Jessa, Orren/Sera/Cala, crate logistics, The Glass Orchard, neighborhood rumor, wet-weather navigation, Pell, Uncle/Steward flexibility, usher work, wash court, weak needle case, Rinna parcel, Lyssa materials, magic, Vale, Bren/brown-coat pressure, magical ecology, magic-item acquisition, or eventual leg-loss architecture merely because each is available.
+
+Write ONE complete Chapter 259, target 2,500–4,000 words and clear 2,500, Greg POV, zero em dashes. Validate it, update durable exact prose/state, and leave the Chapter 260 trailhead from what actually happened.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
