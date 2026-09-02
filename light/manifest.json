@@ -1,5 +1,5 @@
 {
-  "latest": 291,
+  "latest": 292,
   "chapters": [
     {
       "number": 156,
@@ -816,6 +816,12 @@
       "title": "THE DOOR WEIGHT",
       "source": "checkpoint",
       "path": "291.html"
+    },
+    {
+      "number": 292,
+      "title": "THE SHADE LINE",
+      "source": "checkpoint",
+      "path": "292.html"
     }
   ]
 }
