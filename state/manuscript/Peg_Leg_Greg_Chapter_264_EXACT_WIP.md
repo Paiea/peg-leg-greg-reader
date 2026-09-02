@@ -304,7 +304,129 @@ The conversation moved around me more than through me.
 
 Lyssa asked whether Nerin still started the afternoon bake before the bell. Mara complained that Nerin started whenever Nerin felt like starting and then acted surprised when dough followed time instead of authority.
 
-Mara asked whether Jessa had answered about the small brass buttons. Lyssa said no, then corrected herself and said not yet.
+"He changes the start?" I asked.
+
+Mara looked at me.
+
+"She. Nerin is a she."
+
+I corrected the person in my head.
+
+"She changes the start?"
+
+"She changes everything. Morning bake runs late, afternoon starts early, then she asks why half the second trays are ready while the first trays are still cooling."
+
+Lyssa said, "Because she hates empty ovens."
+
+"She hates seeing anything sit."
+
+"Same problem."
+
+Mara nodded.
+
+This was apparently an old argument.
+
+"Why not wait?" I asked.
+
+Mara looked at me with the patient disappointment of a professional encountering management theory.
+
+"Because then the oven is empty."
+
+"For a little while."
+
+"Exactly."
+
+"And that's bad?"
+
+"To Nerin."
+
+Lyssa smiled into her stitching.
+
+Mara leaned forward and held out both hands. The backs of her fingers were dry and pale with flour that had settled into the lines even after washing. A small shiny mark crossed one wrist.
+
+"That one?" I asked.
+
+She looked at the mark.
+
+"Tray."
+
+"Hot?"
+
+"No. Decorative."
+
+I nodded.
+
+"Professional injury."
+
+"Professional stupidity."
+
+"Yours?"
+
+"Mine."
+
+That improved her further.
+
+Lyssa asked, "Still throwing the small loaves?"
+
+"Some."
+
+"Why?"
+
+"Can't sell them next morning as fresh. Staff takes what staff wants. Nerin sends some home if she remembers. After that, yes."
+
+I looked at Mara.
+
+"Bread gets thrown away?"
+
+"Bad bread gets thrown away. Old bread too, if nobody takes it."
+
+"Yesterday old?"
+
+"Yesterday fine. Tomorrow old."
+
+This was dangerously close to onion chronology.
+
+"Today bread. Tomorrow evidence."
+
+Mara stared at me.
+
+Lyssa stopped sewing.
+
+Then both of them laughed.
+
+I waited.
+
+"You don't know the onion," Lyssa said.
+
+"I know enough."
+
+Mara shook her head.
+
+"What onion?"
+
+"Long story."
+
+"It is not," Lyssa said.
+
+"It has character development."
+
+"It has one onion."
+
+"Four."
+
+Mara looked between us and decided not to ask.
+
+Correct.
+
+She rubbed flour from one knuckle with her thumb.
+
+"Nerin hates waste until waste takes space. Then she hates space more."
+
+"That sounds expensive," I said.
+
+"It sounds like Nerin."
+
+Lyssa asked whether Jessa had answered about the small brass buttons. Mara said no, then corrected herself and said not yet.
 
 They argued briefly about whether the north route was faster after midday.
 
@@ -556,11 +678,15 @@ Lyssa looked at it.
 
 "Why?"
 
-"Daro bought too much yesterday."
+"Baked too much yesterday."
 
-"What?"
+I looked at Mara.
 
-"Bread."
+She looked back.
+
+"Empty ovens," I said.
+
+"Exactly."
 
 Mara handed me the bundle.
 
