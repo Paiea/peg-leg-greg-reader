@@ -1,148 +1,87 @@
 # MANUSCRIPT OPEN THREADS
 
-- **Current endpoint:** Chapter 248 — **THE CONSTANT**.
-- **Permanent forward manuscript:** `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`. Chapters 156–219 still need exact-text synchronization into the permanent manuscript; Chapter 220+ writes directly here. Light Reader synchronization is a separate downstream concern.
-- **Engine method:** `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves durable 01 behavior and recovery instructions.
-- **Ch248 Hessa fin-swap session:** same room/board/glass/chair/body geometry, fixed INTERMEDIATE target/control marks, AWAY only; the two existing physical paper fins trade jobs. Former control becomes target; former target becomes control. One clean minimal draw + one clean shaping attempt; final counts **36 / 32 / 57**.
-- **Ch248 external results:** 54 former-control-now-target small clean AWAY response/no obvious rotation/control unchanged; 55 no response/control unchanged; planned break; 56 no response/control unchanged; 57 former-control-now-target small clean AWAY response/no obvious rotation/control unchanged.
-- **Ch248 interpretation ceiling:** argues against the original target fin being the only physical fin capable of response. Does NOT establish physical-fin irrelevance generally, target-position/designation causality, response rate, reliability, paper generalization, FAR behavior, range, or generalized control.
-- **Ch248 magic restraint:** restrictions unchanged. Hessa leaves the fins swapped temporarily for inspection/record review and has NO selected next experiment. Do not infer a swap-back/FAR/new-paper/new-direction follow-up.
-- **Ch248 non-magic restraint / household:** no theatre, Vale, Maren, barber/Mira, or pressure event. Debt active/unstated; Ch236 latest pressure evidence. Brown cloth same fold/three pins; damaged shirt three loose threads; Ch246 sample/darker spool paired/unexplained; delivery-crate contents unknown; Ch247 haircut continuity unchanged.
-- **Ch247 ordinary-life residue:** Greg gets an ordinary paid haircut at an unnamed Lower Steps barber shop after Lyssa notes his hair is in his eyes. Front is now clear of his eyes, ears are clear, hair no longer touches his collar, and sides/back are shorter than before. Barber name remains unknown; Mira is only another customer. Do not immediately turn the shop into a standing social route.
-- **Ch247 threat ceiling:** a short man in a heavy coat waits for an ordinary haircut after Greg arrives. This is NOT pressure evidence and has no established connection to Bren, the brown-coat observer, theatre, Vale, or any threat actor. Ch236 remains the latest grounded pressure fact.
-- **Ch247 subsystem restraint:** no theatre, Vale, Hessa, Maren, or pressure event. Magic stays 35 / 31 / 53; debt remains active/unstated; Ch236 remains latest pressure evidence.
-- **Ch247 household continuity:** brown cloth remains same fold/three pins; damaged shirt remains three loose threads; Ch246 sample and darker substitute spool remain paired and unexplained; delivery-crate contents remain unknown.
-- **Magic counts:** ACTIVE at 36 supervised minimal draws / 32 deliberate shaping attempts / 57 external-effect attempts.
-- **Latest comparison protocol:** Ch230 predeclares INTERMEDIATE → FAR → INTERMEDIATE → FAR, AWAY only, preserving the same target/control/glass/body setup and the same INTERMEDIATE/FAR marks as Ch226.
-- **Attempt 38:** FAR/AWAY, no observed response, control unchanged.
-- **Attempt 39:** INTERMEDIATE/AWAY, small observed target response, net AWAY, minor rotation, control unchanged.
-- **Attempt 40:** FAR/AWAY, target and control both move; contaminated for target-specific interpretation; cause not established; no clean FAR response counted.
-- **Attempt 41:** INTERMEDIATE/AWAY, small observed target response, net AWAY, no obvious rotation, control unchanged.
-- **Attempt 42:** INTERMEDIATE/AWAY, small observed target response, net AWAY, control unchanged.
-- **Attempt 43:** FAR/AWAY, no observed response, control unchanged.
-- **Attempt 44:** INTERMEDIATE/AWAY, no observed response, control unchanged.
-- **Attempt 45:** FAR/AWAY, no observed response, control unchanged.
-- **Attempt 46:** INTERMEDIATE/AWAY, no observed response, control unchanged.
-- **Attempt 47:** INTERMEDIATE/AWAY, small observed target response, net AWAY, minor rotation, control unchanged.
-- **Attempt 48:** INTERMEDIATE/AWAY, no observed response, control unchanged.
-- **Attempt 49:** INTERMEDIATE/AWAY, no observed response, control unchanged.
-- **Attempt 50:** FAR/AWAY, no observed response, control unchanged.
-- **Attempt 51:** FAR/AWAY, no observed response, control unchanged.
-- **Attempt 52:** FAR/AWAY, small observed target response, net AWAY, no obvious rotation, control unchanged.
-- **Attempt 53:** FAR/AWAY, no observed response, control unchanged.
-- **Attempt 54:** INTERMEDIATE/AWAY with physical fins swapped; former-control-now-target gives a small observed response, net AWAY, no obvious rotation; original-target-now-control unchanged.
-- **Attempt 55:** INTERMEDIATE/AWAY with fins still swapped, no observed response; control unchanged.
-- **Attempt 56:** INTERMEDIATE/AWAY with fins still swapped, no observed response; control unchanged.
-- **Attempt 57:** INTERMEDIATE/AWAY with fins still swapped; former-control-now-target gives a small observed response, net AWAY, no obvious rotation; control unchanged.
-- **Current distance interpretation:** INTERMEDIATE and FAR have both produced clean observed responses under the current apparatus and both also produce clean non-responses. Ch240 adds one clean FAR response inside a fixed FAR-only block. Ch234's fixed INTERMEDIATE block and Ch240's fixed FAR block each happen to show one response in four attempts, but this does not establish equal response rates or equivalence and does not erase the longer accumulated record. The accumulated record still supports an apparent distance-associated difference; FAR remains unreliable. No response rate. No range established. Not generalized.
-- **Magic restrictions:** unchanged. No independent draw, shaping, external testing, paper, coins, thread, larger objects, practice, Barrier broadening, theatrical magic, or loopholes.
-- **Ch234 fixed INTERMEDIATE block:** predeclared INTERMEDIATE → INTERMEDIATE → INTERMEDIATE → INTERMEDIATE, AWAY only, same current apparatus, planned break after two. Results: 46 no response / 47 small response away with minor rotation / 48 no response / 49 no response; control unchanged on all four. Counts end **34 / 30 / 49**.
-- **Ch234 interpretation ceiling:** the block adds another clean INTERMEDIATE response and further clean non-responses. INTERMEDIATE response recurs but remains unreliable. The session does not establish a response rate, expectation effect, fatigue effect, FAR-interleaving effect, range, or generalization.
-- **Ch234 household residue:** brown cloth remains same fold/three pins; Greg's damaged shirt remains on the shelf with three loose threads; Lyssa returns with no bundle and asks only narrow result questions.
-- **Ch230 Hessa replication:** reversed predeclared order yields one clean INTERMEDIATE response, one clean INTERMEDIATE non-response, and two clean FAR non-responses. Counts ended 33 / 29 / 45; restrictions stayed unchanged. Chapters 231–233 then contain no magic attempt.
-- **Ch230 household residue:** a narrow folded brown cloth with three pins appears at home; customer/garment/ownership/use remain unknown. Greg's bad cuff repair reaches three loose threads and he leaves it alone. Lyssa returns with turnips and no garment.
-- **Ch240 fixed FAR block:** predeclared FAR → FAR → FAR → FAR, AWAY only, same current apparatus, planned break after two. Results: 50 no response / 51 no response / 52 small clean response away with no obvious rotation / 53 no response; control unchanged on all four. Counts end **35 / 31 / 53**.
-- **Ch240 interpretation ceiling:** FAR response recurs in a fixed FAR-only block but remains unreliable. The matching one-in-four outcomes of the Ch234 and Ch240 fixed blocks are not response rates and do not establish equivalence. Apparent distance-associated difference remains supported by the accumulated record. No range. Not generalized.
-- **Next magic question:** Hessa has no selected next experiment after Ch248. She leaves the two existing fins in their swapped jobs only for inspection/record review. Attempts 54/57 do not authorize a swap-back block, FAR replication, new paper, new direction, ladder, range test, or independent practice.
-- **Ch231 theatre:** full **The Crooked Fence** rehearsal/performance day. Greg plays the fifteen-line, mostly seated **Magistrate**; Hara = Widow, Marek = Neighbor, Pell = Clerk. The Ch229 window trim is now part of the magistrate-room set.
-- **Ch231 acting correction:** Teren narrows Greg from chasing every answer to `The case comes to you` / `Let them bring the mess.` In performance Greg anticipates the seal-block cue and strikes early when Pell begins `Before judgment...`; Hara continues and Pell restarts. Post-show, Teren corrects Greg's `Hara fixed it` to `Hara continued.` Keep all of this theatre-specific, not a life maxim.
-- **Ch231 strongest beat:** Hara's Widow abandons her hard-fought land claim the instant Pell reveals the disputed strip includes the drainage ditch: `His.` / `I have spent an hour proving your ownership.` She owns the room; Greg's later line gets a smaller laugh.
-- **Ch231 stagecraft/body:** Nessa uses a shorter black stage coat and protects the desk with a leather strike square. Jori shifts the witness rail for clean route geometry; Jori/Davin later replace the first rail when it genuinely wobbles. Greg's one standing cross is ordinary; shoulders/right hand remain fine.
-- **Ch231 pay:** Rinna pays the normal one copper for theatre work. No Vale movement or debt arithmetic follows.
-- **Ch231 household:** narrow brown cloth remains same fold / same three pins; Greg's cuff remains three loose threads. Neither is resolved.
-- **Theatre:** Ch228 is a full **The Wrong Funeral** rehearsal/performance/workplace chapter. Greg performs six lines as `Man with flowers` and a later unlined basket pickup. Hara owns the strongest live recovery and audience beat.
-- **Latest acting correction:** Teren corrects Greg for playing a working flower deliverer as though he personally owns the funeral's grief: `You're working.` / `Again. Less funeral.` Keep this narrow and playable, not a life philosophy.
-- **Flower route / Marek:** Marek's earlier `borrowing` discovers that the long spray catches the funeral doorway upright. He learns it by taking a cloth lily to the face; Nessa compresses the route to `Sideways through the door, upright after.` Marek is genuinely useful here rather than permanent comic liability.
-- **Funeral geometry:** Greg's easiest flower placement blocks Hara's exit. Jori moves the black bench two inches so Greg can use the near corner while Hara keeps her route. No accommodation speech; the scene simply works better.
-- **Name board / Davin:** Davin paints the same dead man's name on both sides of the reversible board. Jori directs a scrape/chalk/paint repair. By performance it works; Davin later carries it correctly with the wet side protected while Jori still watches.
-- **Loose lily / Hara recovery:** a white cloth lily falls from Greg's spray during performance. Greg leaves it rather than stopping the scene. Hara later picks it up and improvises `At least one thing arrived for him.` Nessa repairs the lily after the show.
-- **Backstage competence:** Ch228 reinforces reduced supervision: Greg knows alternate routes, Nessa gives compressed property-table instructions, Jori/Greg move awkward objects with little explanation, and workers adjust lanes/geometry as ordinary work.
-- **Repurposed cups:** two discarded household cups from Ch224 remain painted stage property in the `STAGE ONLY` box. No Ch228 movement; do not force a callback.
-- **Crutch maintenance:** one worn LEFT tip was replaced Ch223 and remains normal through Ch243. In Ch242 the familiar crutch repairer retensions a shifted RIGHT grip wrap and adds one small flush tack beneath the overlap away from Greg's palm; the LEFT grip is checked, judged fine, and left alone. No pain, injury, weakness, or new limitation is established.
-- **Body:** Ch228 the side of Greg's right palm/right hand becomes ordinarily worked from long flowers, props, baskets, crutches, and carrying. He redistributes load during reset. Ch229 it is normal again. No pain, weakness, tingling, residual-limb issue, or injury.
-- **Theatre cart maintenance:** ordinary cracked brace repaired Ch224. Ch228 cart performs an ordinary furniture run and returns normally. No sabotage or watcher established.
-- **Next theatre shorthand:** Jori expects Greg the next morning for continued window trim: `Tomorrow morning?` / `Window trim.` / `You know when I get here.` Greg does know. Ch229 pays this off as compact ordinary work; Jori ends with only `Tomorrow maybe`, not a firm next obligation.
-- **Rinna / commercial defense:** ACTIVE. Actual suppliers/service people verify claims directly with Rinna and avoid giving strangers useful operational/payment information.
-- **Warning-network payoff #1:** Olin reports money-handling questions and gives no useful answers.
-- **Warning-network payoff #2:** Ch223 cart repair man reports questions about late-show cart movement/same driver and gives no theatre hours/routine.
-- **Brown-coat observer:** ACTIVE / UNIDENTIFIED. Description remains brown coat, dark hair, not old, narrow/thin face, quiet voice. Rinna classification remains `CONSISTENT WITH OLIN DESCRIPTION`; same identity/employment unproved.
-- **Pressure pattern supported:** someone has asked where theatre money sits and how/when theatre movement occurs. This supports interest in money handling + logistics, not a known plan.
-- **Evidence ceiling:** NO robbery, ambush, cart target, Bren employment, organization, gang, boss, or specific plan established.
-- **Mason's Cut:** Olin's boy saw brown-coat man walking toward Mason's Cut but did not see him enter. Direction only. No base/residence/territory claim.
-- **Bren:** probable name of close-haired heavy-coat spokesman with left glove. One-copper demand refused Ch218. `Next time won't be one.` No surname, boss, organization, or violence established.
-- **Threat restraint through Ch235:** Chapters 224–235 contain no new warning, demand, appearance, violence, sabotage, or investigation after the Ch223 report.
-- **Ch236 lamp-glass fact:** an unknown brown-coat, dark-haired, narrow-faced, quiet-voiced man asks whether the seller supplies the theatre, `Do they take deliveries through the front or the back?`, and who opens for deliveries. She gives no useful answer. Rinna records the description only as consistent with Olin's. This adds a delivery/access-procedure question, not a confirmed identity, entry plan, robbery plan, Bren employment, organization, or Vale connection.
-- **Quiet defensive residue:** cash handling less visible; cart-departure information not casually shared; no guards, escorts, traps, patrols, or spy network.
-- **Vale debt:** ACTIVE. Exact balance known in-world but unstated. One-copper payment made Ch218. Ch224 suitable invoice/tally work produces legitimate credit. Ch227 different suitable office work produces another legitimate credit. Chapters 228–231 have no Vale movement. Debt remains unresolved.
-- **Vale work route:** Ch227 establishes ordinary outgoing packet bundling as work that happens most days when needed. Greg has no guaranteed post, schedule, rate, or promotion.
-- **Vale / Bren firewall:** no Vale/Bren connection established.
-- **Greg / Lyssa:** Lyssa's work continues offscreen and independently. The Ch227 pale-coat customer/source remains unexplained. In Ch228 the pale coat is gone by morning; the dark skirt moves off-page by evening. A folded blue-gray cloth appears, but Lyssa establishes only that it is old cloth and new to Greg; Ch229 routes it to Marra without establishing customer, garment, ownership, or use.
-- **Lyssa fatigue:** Ch228 Lyssa comes home tired and rubs one wrist briefly. Ch229 she sleeps later than Greg and then works on the north side; no injury is established. Greg does not medicalize or manage her work.
-- **Onion seller recognition:** Ch228 the onion seller remembers Greg as the customer who previously stood too long deciding how many onions to buy. She does not establish his name or a broader reputation. Keep this as tiny Carrow social memory, not celebrity progression.
-- **Ch243 onion-stall residue:** the same seller now preempts Greg with `Three` based on his recent buying pattern, then briefly has him mind the stall during a split-sack delivery dispute. Greg over-literalizes `Sell? / No` and delays three regular transactions until she returns. Existing customers have arrangements Greg does not know; the seller handles pricing/credit/supplier loss. Greg later helps sort a few damaged onions under direction. This does NOT establish Greg as stall staff, seller, apprentice, pricing authority, or regular minder.
-- **Ch232 Vale work:** Greg voluntarily checks for suitable work after returning the theatre coat. Bundles are not ready; he instead matches returned payment acknowledgments against account lines under clerk review. One office carry-forward error is caught; Greg also makes one ordinary near-name/two-sisters matching mistake that the clerk catches. Antonius records legitimate debt credit; exact credit/balance remain unstated. No guaranteed job/schedule/rate.
-- **Ch232 household:** brown cloth remains same fold/three pins; Lyssa independently works on a separate dark sleeve; Greg's cuff remains three loose threads.
-- **Ch232 pressure/magic:** no Hessa, magic attempt, Bren/observer evidence, warning, investigation, or escalation. Counts remain 33 / 29 / 45.
-- **Ch233 theatre/work:** no rehearsal or performance. Greg helps strike/repurpose the merchant-office set; blue window remains, other furniture moves. He mistakenly moves the wrong black bench by position rather than the intended shallow split/chalk X and simply corrects it.
-- **Ch233 Marek/Nessa/Jori/Davin:** Marek carries rolled canvas competently and checks its storage label; Nessa's low-table warning is practical object memory. Jori/Davin repair/reset the shelf together with overlapping competence and dry credit humor.
-- **Ch233 company/social:** after work Rinna, Hara, Pell, Marek, Greg, and later Nessa eat at a nearby cookshop. Hara moves her coat to make Greg a place; everyone pays their own bowl; Hara's shoe-repair problem stays with the people actually discussing it rather than becoming Greg's task.
-- **Ch233 body/household:** ordinary used shoulders/mild right-leg fatigue only, no injury. Dark sleeve is gone; brown cloth remains same fold/three pins; cuff remains three loose threads. Lyssa is already eating when Greg returns.
-- **Ch233 pressure/magic/Vale:** no Hessa, magic attempt, Vale work/credit, Bren/observer fact, warning, investigation, or escalation. Magic remains 33 / 29 / 45.
-- **Ch235 ordinary Greg/Lyssa day:** Lyssa is home in the morning and invites Greg along to the west market because she is going. They buy household food/oil, share flat cakes, and separate when Lyssa heads north for her own work. No formal Lyssa-work role or customer identity is established.
-- **Ch235 Olin:** household oil purchase is completely ordinary. Olin gives no warning, message, stranger report, or new pressure evidence.
-- **Ch235 body/household:** ordinary crowd/carry geometry only; no injury. Brown cloth remains same fold/three pins. Damaged shirt remains on the shelf with three loose threads. Lyssa returns after dark with the beans she carried north and no bundle; reason/customer/job remains unestablished.
-- **Ch235 magic/Vale/theatre/pressure:** no Hessa or magic attempt, no Vale work/credit, no theatre work/call, and no Bren/brown-coat movement. Magic remains 34 / 30 / 49.
-- **Ch236 theatre/work:** a new Rinna call produces a five-stop handbill route, one ordinary overcount corrected by a tea-room girl, later door-frame work with Jori/Davin, and normal one-copper pay.
-- **Ch236 next obligation:** Greg has **The Missing Key** Messenger pages, eight lines, three entrances, and Nessa's short dark-green coat. Tomorrow morning rehearsal is firm; performance remains conditional on Teren keeping the piece paired.
-- **Ch236 household/body/magic/Vale:** ordinary route/work fatigue only, no injury. Beans disappear off-page with purpose unresolved; brown cloth stays same fold/three pins; damaged shirt stays three loose threads. No Hessa/magic or Vale work/credit. Magic remains 34 / 30 / 49.
-- **Ch237 The Missing Key:** Greg rehearses/performs Messenger (eight lines, three entrances) with Hara as Mistress, Marek as younger brother, and Pell as Clerk. Nessa uses the short dark-green coat and three differently folded notes; Jori gives Greg a clean route behind Pell. Back latch repair is ordinary maintenance and now closes cleanly.
-- **Ch237 mistake/correction:** Greg's rehearsal tendency is to linger after delivering a message so he can watch the reaction. In performance he lingers for his second-entrance laugh and accidentally says the later `No key` line too early. Hara continues; Pell later bridges the true third entrance by taking the note. Greg does not rescue himself with a brilliant improv. Teren's note remains narrow: if the laugh is Greg's, leave with it.
-- **Ch237 strongest beat:** Hara owns the larger laugh after the final message says the key is under the already-broken blue vase and she asks Marek's character `Which piece?`
-- **Ch237 next theatre status:** `Again tomorrow if it stays paired.` Conditional only. Greg remains Messenger unless Teren changes it; no guaranteed performance.
-- **Ch237 pressure/magic/Vale:** no new threat fact or investigation, no Hessa/magic, no Vale work/credit. Magic remains 34 / 30 / 49; debt remains active and unstated. Greg receives normal one-copper theatre pay.
-- **Ch237 household:** Lyssa already home; beans remain unexplained/off-page. Brown cloth remains same fold/three pins and shirt remains three loose threads. A separate small paper-wrapped item near Lyssa's elbow is unidentified and not automatically a plot thread.
-- **Ch238 Vale/sealing work:** Greg checks Vale rather than waiting on a conditional theatre maybe. The ink-fingered clerk gives him outgoing-account sealing work with a narrow check/fold/tie/wait-for-ink-stroke/wax/stamp routine. Greg makes ordinary wax/authorization mistakes, catches one wrong-wrapper house-mark mismatch, and receives legitimate debt credit after completing the work; exact credit/balance remain unstated.
-- **Ch238 theatre tradeoff:** Rinna's boy later confirms **The Missing Key** is paired and calls Greg for rehearsal/show. Greg stays at Vale because the packets must leave that day. The theatre uses Venn as Messenger and performs without Greg. Teren says tomorrow is a different pairing and the piece is done for now; Greg has no standing theatre obligation and receives no theatre pay.
-- **Ch238 pressure/magic:** no new threat fact, supplier report, investigation, security response, Hessa appearance, or magic attempt. Ch236's delivery/access question remains newest pressure evidence. Magic remains 34 / 30 / 49 with restrictions unchanged.
-- **Ch238 household/body:** ordinary seated stiffness/string-wax finger warmth only, no injury. Brown cloth remains same fold/three pins; damaged shirt remains three loose threads; beans remain off-page; Ch237's small paper-wrapped item is gone without explanation.
-- **Ch239 offstage Hara/Greg:** Greg encounters Hara at the west-steps cobbler while on an ordinary bread/salt errand and waits with her while the same repaired left shoe is adjusted. Their time together is social/Carrow life, not theatre work or a lesson about Ch238.
-- **Ch239 Hara shoe:** the Ch233 left-sole repair has held, but the new stitching has pulled the heel side tighter and caused rubbing. The cobbler adjusts it with dark leather; Hara's longer test walk is less painful and the heel does not bite again during the observed route. No injury or permanent footwear arc established.
-- **Ch239 Hara social residue:** a vegetable seller knows Hara's usual quantity, and a cookshop diner recognizes her as the Widow from **The Crooked Fence**. This is Hara's partial social visibility, not Greg celebrity or a universal theatre reputation.
-- **Ch239 engine restraint:** no theatre call/work/pay, Vale appearance/work/credit, Hessa/magic attempt, or new threat fact. Magic remains 34 / 30 / 49; debt remains active and unstated; Ch236 remains newest pressure fact.
-- **Ch239 household/body:** Greg buys bread and salt; Lyssa goes north independently and later returns with an apple and cloth-wrapped cheese. Beans and the old paper-wrapped item remain absent/unexplained. Brown cloth stays same fold/three pins; damaged shirt stays three loose threads. Greg has ordinary longer-walk fatigue only and no injury.
-- **Ch240 Hessa / fixed FAR:** after five breathing chapters Hessa selects one bounded mirror question and runs a fixed FAR-only four-attempt block under the unchanged apparatus. Attempt 52 is one clean small FAR/AWAY response; 50, 51, and 53 are clean non-responses. Final counts **35 / 31 / 53**; all restrictions unchanged.
-- **Ch240 body/household:** ordinary right-leg sitting stiffness and mild forearm/walk warmth only, no injury. Brown cloth remains same fold/three pins; shirt remains three loose threads; beans and old wrapped item remain absent/unexplained.
-- **Ch240 engine restraint:** no theatre, Vale, debt credit, or pressure movement. Hessa has no selected next experiment at end.
-- **Next engine rotation:** let Ch246's small Maren supply-route day breathe. Do not turn narrow shop recognition into a standing errand role, service the new sample / delivery crate by checklist, resurrect recent maybes, or turn Attempt 52 into an automatic next step; follow the next actual claim.
-- **Ch229 Marra route:** Greg carries the still-undefined blue-gray cloth to Marra after brief window-trim work. He knows the green-door route and work lane without directions; Marra still calls him `the road one`.
-- **Ch229 blue-gray cloth ceiling:** Jessa finds two short chalk marks near an edge and calls the cloth `Marked`. Its customer, garment, ownership, intended use, and the exact meaning of the marks remain unestablished.
-- **Ch229 Lyssa network:** Marra/Jessa/customer traffic continues without Greg. An unnamed customer asks for Lyssa and says tomorrow afternoon is fine; Jessa later finds Lyssa independently. Do not assign formal Marra/Jessa roles or merge the customer with earlier unnamed/referral customers.
-- **Ch229 shorthand:** `West?` / `Already.` is work-specific Marra/Jessa shorthand whose referent is not established. Preserve opacity rather than inventing the route/job behind it.
-- **Ch229 theatre:** only compact Jori window-trim work; no role or performance. Greg uses compressed side-door/workbench routine and ordinary load management. Nessa says the Ch228 flowers are repaired.
-- **Ch229 household:** Lyssa's prior tiredness remains ordinary, not injury. Greg's Ch228 worked palm is normal. The chapter ends with the table used only for shared supper, with no active cloth/customer on it.
-- **Long-range theatre direction:** THEATRE → PERFORMANCE → MISDIRECTION → ILLUSION → MASKS → CONTROL OF PERCEPTION → eventual dangerous bluff. Directional only; visible theatre remains FUN → PEOPLE → WORKPLACE → ACTING → STAGECRAFT → FAILURE → ANOTHER TURN.
+## Current edge
+- Current exact story endpoint: Chapter 252 — **THE WASHER**.
+- Exact Chapters 249–252 are durable in their `Peg_Leg_Greg_Chapter_###_EXACT_WIP.md` files and outrank older summaries for those chapters.
+- Permanent running manuscript is still materialized through Chapter 248 and requires exact-text integration of 249–252. Do not rewrite/reconstruct those chapters during synchronization.
+- See `MANUSCRIPT_STATE.md` for the executable Chapter 253 trailhead.
 
-- **Ch241 theatre labor:** Rinna calls Greg for ordinary scenery maintenance, not rehearsal/performance. Greg strips loose paint from reusable wall flats with Jori/Davin; Venn also works the job.
-- **Ch241 Greg mistake:** once scraping becomes automatic, Greg follows a peel two inches across Jori's chalk preservation boundary and removes sound paint. Jori redraws the line; Davin repaints the small patch. Small material cost only.
-- **Ch241 Jori/Davin/Venn:** Jori owns scraping boundaries/usable surface judgment; Davin remains independently competent and stitches a loose canvas corner when Nessa identifies it; Venn participates as an ordinary worker rather than only Greg's Ch238 substitute.
-- **Ch241 body/pay:** warm right palm, used shoulders, mild ordinary right-leg fatigue only; residual limb comfortable, no injury/new limitation. Rinna pays normal one copper. No firm next theatre obligation.
-- **Ch241 continuity:** magic unchanged 35 / 31 / 53 with all restrictions; no Vale work/credit; no pressure fact/escalation; repaired back latch remains ordinary maintenance. Brown cloth same fold/three pins; damaged shirt three loose threads; beans/wrapped item absent; separate dark cloth at home remains unidentified.
-- **Ch242 crutch maintenance:** the RIGHT grip wrap has shifted around the handle but is not torn and causes no injury. The established Ch223 crutch repairer retensions only the existing wrap, adds a small flush underside tack away from Greg's palm, checks both turn directions, and leaves the LEFT grip alone because it is fine. The repaired LEFT tip remains normal.
-- **Ch242 Vale / money:** Greg pays the ordinary repair cost, voluntarily checks Vale, and is told there is no suitable work for him that day. He receives no debt credit. The clerk's `Tomorrow, maybe. Not today.` about sealing is conditional only, not a schedule or promise. Greg still buys ordinary stew; debt remains active and unstated.
-- **Ch242 engine restraint:** no theatre call/work/pay, Hessa/magic attempt, Bren/brown-coat fact, warning, investigation, or escalation. Magic remains 35 / 31 / 53 with all restrictions; Ch236 remains newest pressure evidence and no Vale/Bren connection exists.
-- **Ch242 household:** brown cloth stays same fold/three pins; damaged shirt remains three loose threads; better shirt retains its small Ch241 blue paint streak; separate Ch241 dark cloth is absent with identity/job/customer unknown; beans and older paper-wrapped item remain absent/unexplained. Lyssa's fried dough is clearly ordinary food wrapped in clean cloth, not the older unidentified item.
-- **Ch244 The Guest Pot:** a fresh Rinna call produces a full rehearsal/performance day. Greg plays the eleven-line, one-entrance/one-exit, mostly seated **Uncle**; Hara is the host, Marek her younger brother, and Venn the household cook. The promised supper does not exist and the covered serving dish is empty.
-- **Ch244 acting correction:** Greg knows the dish is empty from the pages and visually checks it before the Uncle has reason to suspect anything. Teren keeps the correction theatre-specific: the Uncle came expecting supper. In performance Greg repeats one smaller early glance, letting part of the audience get ahead of Venn's reveal. Greg does not improvise a rescue; the company continues.
-- **Ch244 strongest beat / company:** Hara owns the strongest final laugh with `With what money?` after Marek's character offers to fetch food. Venn remains independently competent and says only that he has been at the theatre `Before you`; no new hierarchy or rivalry is established.
-- **Ch244 geometry/body/pay:** Jori shifts/marks Greg's chair for clean crutch geometry; no accommodation speech. Body cost is ordinary only and both grips / repaired LEFT tip remain normal. Rinna pays the normal one copper.
-- **Ch244 next theatre status:** **The Guest Pot** is `Not paired yet`; Uncle and same-piece return are both only `Maybe`. No standing Ch245 theatre obligation.
-- **Ch244 restraint/household:** no Hessa/magic, Vale work/credit, or new pressure fact. Magic remains 35 / 31 / 53; Ch236 remains newest pressure evidence. Brown cloth stays same fold/three pins; damaged shirt remains three loose threads; better shirt keeps the blue streak; Ch241 dark cloth / beans / older wrapped item remain absent or unexplained.
-- **Ch245 Vale front-room work:** a Vale runner genuinely summons Greg because the front room is backed up. Antonius gives him one narrow same-day intake task: record names, paper/no-paper status, and arrival order. Greg handles no money, sets no amounts, resolves no accounts, and gains no standing office role.
-- **Ch245 authority correction:** Greg starts to inspect one visitor's disputed paper after she asks him to look; the ink-fingered clerk stops him with `List.` Antonius later calls a sent-for man ahead of arrival order, and the clerk rejects Greg's unnecessary notation. These are narrow office corrections, not general doctrine.
-- **Ch245 debt/body:** Antonius records legitimate debt credit; exact credit/balance remain unstated and debt stays active. Greg has only ordinary sitting stiffness / used writing hand, with normal repaired LEFT tip, LEFT grip, and retensioned RIGHT grip.
-- **Ch245 restraint/household:** no theatre, Hessa/magic, or new pressure fact. **The Guest Pot** remains conditional only; magic remains 35 / 31 / 53; Ch236 remains newest pressure evidence. Brown cloth stays same fold/three pins; damaged shirt stays three loose threads; better shirt keeps the blue streak; Ch241 dark cloth / beans / older wrapped item remain absent or unexplained.
-- **Ch246 Maren return:** Lyssa sends Greg with a small dull reddish-brown sample and nearly empty spool, instructing `If exact, exact. If not, darker.` Sample customer/garment/ownership/use remain unestablished and it is separate from the long-standing brown cloth / absent Ch241 dark cloth.
-- **Ch246 Maren social residue:** the same counter woman from Ch222 remembers Greg narrowly as `Blue last time`. Seller name remains unknown; `Maren` is not established as her personal name; no personal seller/Lyssa relationship is established.
-- **Ch246 stock / authority ceiling:** exact match unavailable; other customers demonstrate finite stock and independent shop history. Counter woman owns matching judgment. Greg follows Lyssa's narrow instruction and does not become a garment analyst or standing supply runner.
-- **Ch246 delivery ceiling:** a thread-delivery crate arrives immediately after Greg pays, but he leaves without learning its contents. Do not claim the exact shade was inside or turn the crate into a mystery.
-- **Ch246 restraint / household:** no Vale, theatre, Hessa/magic, or pressure movement. Magic remains 35 / 31 / 53; debt active/unstated; Ch236 newest pressure evidence. Brown cloth same fold/three pins; damaged shirt three loose threads; better shirt blue streak; Ch241 dark cloth / old beans / older wrapped item absent or unexplained. Lyssa calls the substitute thread `Close`.
+## Magic
+- Counts remain **36 supervised minimal draws / 32 deliberate shaping attempts / 57 supervised external-effect attempts**.
+- Latest magic evidence remains Ch248 physical-fin swap at INTERMEDIATE/AWAY.
+- Attempts 54 and 57: small clean AWAY target responses with former-control-now-target; control unchanged.
+- Attempts 55 and 56: no observed response; control unchanged.
+- Evidence ceiling: the result argues against the original physical target fin being uniquely capable of response. It does not establish target-designation causality, physical-fin irrelevance generally, response rate, reliability, paper generalization, range, or generalized control.
+- Hessa has selected no next experiment.
+- Restrictions unchanged: no independent draw, shaping, external testing, paper, coins, thread, larger objects, practice, Barrier broadening, theatrical magic, or loopholes.
+- Chapters 249–252 contain no magic attempts.
+
+## Theatre / work
+- Ch250–251 form a two-day emergency substitution sequence in **The Second Toast** because Pell is sick with fever.
+- Greg emergency-covers Pell's forty-three-line Uncle; Marek covers Greg's Steward.
+- Greg learns the role well enough to perform without pages and develops a distinct, more-certain Uncle rather than merely copying Pell.
+- Hara bridges one lost-line moment Ch250; by Ch251 Greg gets through without needing that rescue but is still early twice.
+- Teren's correction remains theatre-specific: stop proving you know what comes next; listen/find the timing; do not make the Uncle cleverer than he is.
+- Pell is improving and may return tomorrow or the day after as of Ch251. This is not a permanent role transfer.
+- Greg gets two slightly better theatre-pay days. Not salary/promotion/debt resolution.
+- Ch252 has no theatre call. Uncle pages remain at home; Pell's exact return status is unknown.
+- Rinna's Ch251 small wrapped parcel is explicitly not glass when Greg asks. Everything else about it remains unknown.
+
+## Household / Lyssa
+- Lyssa remains independent and continues north-side work.
+- Long-standing narrow brown cloth remains same fold / same three pins through Ch252.
+- Greg's damaged shirt remains exactly three loose cuff threads. Ch252 washing does not repair/cut them.
+- Greg's better shirt's old blue theatre-paint streak survives Ch252 washing but becomes paler.
+- Ch249 uses darker substitute thread for a short stitched line inside one edge of the reddish-brown sample.
+- By Ch251 evening the reddish-brown sample and darker spool are both absent; they remain absent/unexplained Ch252.
+- Ch252 Lyssa briefly rinses two pale narrow work-cloth pieces at the wash court before continuing north. Customer/garment/ownership/purpose beyond `Rinsing` are unknown.
+- Do not connect the pale rinse cloth to the reddish-brown sample, darker spool, brown cloth, or another job without prose evidence.
+
+## Wash court
+- Ch252 establishes an ordinary public wash court two streets below the west market.
+- Practical local facts only: hot basin first, cold rinse, hooks can hold Greg's crutches, forked pole lowers high drying lines.
+- Greg completes household washing there and learns the physical routine through ordinary mistakes/corrections.
+- No named important contact or standing social obligation is created.
+- Do not automatically revisit the wash court in Ch253.
+
+## Weak needle case
+- Ch249 Greg sees a used needle case with a possibly familiar mark: three lines inside a circle.
+- Incomplete old-life associations suggest a warehouse/tool-rack context, but identity is uncertain.
+- He does not buy the case.
+- No magic, value, maker, danger, or future importance is established.
+- Ch250 mark intrudes briefly while he studies lines; Ch251–252 do not advance it.
+- Do not promote/revisit by default.
+
+## Economy / debt
+- Antonius Vale debt remains active/unresolved; exact current balance unstated in narration.
+- Original terms remain 35% interest, 8 days, labor through Antonius on default; original principal unknown.
+- Prior cash payment and legitimate work credits remain valid.
+- Ch249 ordinary groceries cost money.
+- Ch250–251 better pay is modest and temporary.
+- Ch252 has no Vale work/payment/credit.
+- No Vale/Bren connection established.
+
+## Pressure
+- Latest grounded pressure evidence remains Ch236.
+- Brown-coat observer remains unidentified.
+- Supported questions to suppliers/service people concern theatre money handling, cart/departure logistics, and delivery/front-back access.
+- Mason's Cut remains direction only.
+- Bren remains probable name of the close-haired heavy-coat spokesman with left glove; one-copper demand refused Ch218; `Next time won't be one.`
+- No robbery, ambush, cart target, organization, boss, Bren employment, violence plan, or Vale connection established.
+- Chapters 249–252 add no pressure evidence.
+
+## Greg / body / equipment
+- Greg: nineteen, Bronze, Carrow, permanent LEFT BKA with knee preserved; right leg intact; two crutches.
+- Current crutch repairs remain ordinary and functional.
+- Ch247 haircut current.
+- Ch252 produces ordinary worked shoulders only, no injury or new limitation.
+
+## Directional development, not scheduled canon
+- Magical ecology / fieldcraft is a strong forward direction in `PLOT_CONTROL.md`, not a requirement for the next chapter.
+- Do not launch a creature encounter merely to consume the direction.
+- Theatre → performance → misdirection → illusion → masks → control of perception remains long-range direction, not a training checklist.
+
+## Next
+- Follow the Chapter 253 trailhead in `MANUSCRIPT_STATE.md`.
+- Let Ch252 stand.
+- Do not rotate through wash court, Uncle pages, needle case, Rinna parcel, Lyssa sample/spool, magic, Vale, pressure, or magical ecology merely because each is live.
