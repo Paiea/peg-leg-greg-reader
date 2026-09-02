@@ -1,103 +1,94 @@
 # MANUSCRIPT OPEN THREADS
 
 ## Current edge
-- Current exact story endpoint: Chapter 297 — **THE HIGH LINE**.
-- Exact Chapters 249–297 are durable checkpoint files and outrank summaries.
+- Current exact story endpoint: Chapter 298 — **THE FAR MARK**.
+- Exact Chapters 249–298 are durable checkpoint files and outrank summaries.
 - Permanent running manuscript remains physically materialized through Chapter 248; exact-text integration debt remains.
-- See `MANUSCRIPT_STATE.md` for executable Chapter 298 trailhead.
+- See `MANUSCRIPT_STATE.md` for executable Chapter 299 trailhead.
 
 ## Direction
 - Preserve ordinary lived detail, social accumulation, disability/material reality, humor, work, and independent side-character causality.
 - Magical ecology/fieldcraft remains a strong push without creature-of-the-week, but not every chapter must service it.
-- Ch295–296 leisure/social participation now moves into background behavior.
-- Ch297 gives Greg ordinary city literacy through a shade-control high line and kessa seed sorting. He notices useful local differences without turning them into jobs, notes, ownership, or guaranteed follow-ups.
-- Greg remains broadly fantasy-literate. New information is local implementation, not basic fantasy discovery.
+- Ch295–297 social/observational changes now sit as background competence.
+- Ch298 advances Greg's personal magic because he requests the next supervised session himself rather than waiting for a summons.
+- Progress remains evidence-first: a current-day near control, middle comparison, and first far test. Success does not unlock distance and failure does not establish a limit.
 - Scope restraint remains behavioral. Money/capital gradual. Structural boundaries follow actual story movement.
 
-## Magic
-- Totals **36 supervised minimal draws / 32 deliberate shaping attempts / 69 supervised external-effect attempts**.
-- Far untested. Attempt 68 possible only. Outside-session restrictions unchanged. Hessa next experiment/appointment unselected.
-- No Greg mana use Ch281–297.
-- Ch297 does not establish whether high-line wind/shade control is magical, mechanical, or mixed. Kessa jumpers show no established magic.
+## Magic / Hessa / range protocol
+- Totals now **36 supervised minimal draws / 32 deliberate shaping attempts / 72 supervised external-effect attempts**.
+- No independent magic outside supervised sessions Ch281–298. Restrictions unchanged.
+- Greg approaches Hessa without appointment to request the next supervised session. Hessa schedules the following morning, rested/eat first/bring nothing.
+- Hessa confirms same pale paper square as prior range sessions; stored intentionally because prior observations on same object matter.
+- Conditional protocol: near, then middle if body/control allow, then far if body/control allow; three maximum.
+- Attempt 70 near: small clean net displacement away.
+- Attempt 71 middle: no observed response.
+- Attempt 72 far: **first far test**, no observed response.
+- Greg reports increased urge to compensate before far but does not increase effort, duration, reach, angle, or method and stops on cue.
+- Hessa checks paper/board/environment/body after attempts; no body issue.
+- Established-position aggregates: **near 2 clean / 4; middle 1 clean / 6 plus one prior possible edge lift (attempt 68); far 0 / 1**.
+- Far is no longer untested but is not a demonstrated limit. One no-response attempt does not establish that far cannot work.
+- No distance-response law, reliability curve, hard range limit, or dose relationship established.
+- Hessa next experiment, position, object, and appointment remain unselected.
+- Do not auto-create another Hessa chapter, weekly training cadence, second far test, range ladder, unrestricted permission, or different-object test.
 
 ## High line / Mara / Ovi / Tess
-- Ch297 Greg notices one paper tab on an overhead high line stays still while neighboring tabs flutter and line dips slightly.
-- Ovi dries sliced yellow roots on movable racks. Mara is associated with the opposite building/gallery.
-- High line controls rolled pale court shade cloth; described use: shade can deploy when sun turns, while higher wind keeps it up.
-- Visible system: dark cord, paper tabs on short threads, square roof-edge box with three face slots, shallow side vane, separate wall release loop.
-- Greg does not touch line or diagnose mechanism.
-- Mara uses long forked household pole to pull separate release once. It is stiff; she stops and refuses Ovi's `pull harder` approach.
-- Ovi moves drying racks into existing shade as immediate work solution.
-- Mara says `Tess comes noon`. Tess is not met. Exact occupation, relationship, rate, diagnosis, repair, and outcome unknown.
-- Greg receives no payment and no role beyond noticing the abnormal still tab.
-- Do not auto-return to inspect repair, meet Tess, create high-line work, or generalize system mechanics.
+- Ch297 facts stand. Ch298 does not return.
+- Tess remains only expected noon repair person, unseen. Repair outcome/mechanism/rate unknown.
+- Do not auto-return or make high-line work.
 
 ## Kessa / Pella / Rusk / silverbacks-flickers
-- Ch297 Pella and Rusk sort kessa seed in a triangular square.
-- Tiny silver-brown jumping arthropods emerge from baskets; one is directly observed attacking a small white grub in a broken seed.
-- Pella says they are not `kept`, only `let`; mostly present if grubs are present.
-- Rusk says too many are bad for `skins`; exact meaning/cause unknown.
-- Sorted basket is moved into sun and most jumpers leave toward shade/stone gaps. Pella calls it `clean enough`.
-- Pella says morning cool makes jumpers slow and easier to sort; no quantitative threshold established.
-- Pella calls them `silverbacks`; Rusk calls them `flickers`.
-- At home Cala says `flickers` and Lyssa says `silverbacks`, with rough east/south naming suggestion. Whether terms are exactly identical remains unresolved.
-- Lyssa has heard through Marra that similar jumpers sometimes eat flour-beetle eggs; hearsay only, no Marra activation.
-- Greg knows kessa broadly from first life but this sorting practice is locally new to him.
-- Greg deliberately does not write a field note, collect specimen, buy seed, or create ecology work.
-- Pella/Rusk are one-time social/market contacts only. Pella's `if you need kessa, morning` is practical advice, not appointment or supplier relationship.
-- Next morning Greg sees similar jumpers leave another seller's sunlit kessa tray and simply recognizes them.
-- Do not auto-resolve taxonomy, ecology, magic status, lifecycle, prey range, population threshold, or naming.
+- Ch297 facts stand. Ch298 only includes a passing recognized jumper and a joking mention to Hessa, with no test, specimen, purchase, or ecology work.
+- Exact taxonomy, naming boundary, lifecycle, prey range, `skins`, magical status, thresholds, and cool/sun behavior remain unresolved.
 
 ## Nemi / workshop-court music / road song
-- Ch296 facts stand. Ch297 no Nemi/music follow-up beyond Greg briefly hearing/remembering road tune.
+- Ch296 facts stand. Ch297–298 no substantive follow-up.
 - No music group, lesson, performance job, songwriting lane, theatre crossover, or hold-bead investigation.
 
 ## Bridges / Vela / Orra / Demin / Sot
-- Ch295 facts stand. Ch296–297 no return.
+- Ch295 facts stand. Ch296–298 no return.
 - Vela's `Tomorrow?` remains casual and non-binding.
 
 ## Household shopping / merchant memory
-- Ch294 facts stand. Ch295–297 no meaningful shopping follow-up.
+- Ch294 facts stand. Ch295–298 no meaningful shopping follow-up.
 - No formal household account/credit/discount/network.
 
 ## Greg carry bag / stay bead
 - Ch293 bag remains regular equipment, first stay-bead notch for walking.
-- Ch297 bag carries notes/charcoal but stays closed during ecology observation.
-- Exact original owner/use, maker, age, leather type, strap history, stay-bead maker/charge/mechanism/lifespan, safe load, repair cost, resale value unknown.
+- Greg leaves bag home for Ch298 test because Hessa says bring nothing.
+- Exact bag/stay-bead origins, maker, age, mechanism, charge, lifespan, safe load, repair/resale remain unknown.
 - No automatic repair, bead failure, courier lane, used-goods return, or bag business.
 
 ## Shade fish / east-wall trough / water list
-- Ch292 facts stand. Ch293–297 do not return.
-- Weak sun-turn bead remains only marked/managed as of last sighting; fish fine; no replacement schedule.
+- Ch292 facts stand. Ch293–298 do not return.
+- Weak sun-turn bead remains only marked/managed as of last sighting; fish fine; replacement schedule unknown.
 
 ## Door closer / Olan / Sella
-- Ch291 facts stand. Door repaired/functioning. Ch292–297 no recurrence.
+- Ch291 facts stand. Door repaired/functioning. Ch292–298 no recurrence.
 
 ## Rain shelf / rain thread
-- Ch290 facts stand. Household rain shelf works. Ch291–297 no reactivation.
+- Ch290 facts stand. Household rain shelf works. Ch291–298 no reactivation.
 
 ## Lyssa / garment work
 - Lyssa independent garment-work network remains active.
-- Ch290 dark-blue job facts stand. Ch291–297 do not advance them.
-- Ch297 Lyssa carries/folds cloth but Greg does not ask about or join the work.
-- Marra mention is only hearsay about flour-beetle eggs, not garment-work activation.
+- Ch290 dark-blue job facts stand. Ch291–298 do not advance them.
+- Ch298 Lyssa only responds to Greg's Guild session. No work/business integration.
 - Do not convert Greg into Lyssa's courier, manager, alteration analyst, supply optimizer, or partner.
 
 ## Miri / cooling cups
-- Ch288 facts stand. Ch289–297 no follow-up.
-- Miri one-copper comparison and possible Pellin follow-up bounded/unresolved. Pellin is not Pell absent evidence.
+- Ch288 facts stand. Ch289–298 no follow-up.
+- Miri one-copper comparison and possible Pellin follow-up remain bounded/unresolved. Pellin is not Pell absent evidence.
 
 ## Money / capital
 - Greg holds **three private client copper** upstairs.
-- Ch297 no income and no spending.
+- Ch298 no income and no spending.
 - No copper/bit conversion established.
 - Nara referral remains one unpaid word-of-mouth route, not formal network. Rell referral compensation unresolved/separate.
 
 ## Carrying light
-- Ch287 facts stand. Ch288–297 do not advance Sera or lantern house.
+- Ch287 facts stand. Ch288–298 do not advance Sera or lantern house.
 
 ## Ward crossing
-- Ch289 repair stands. Ch290 passes it in rain. Ch291–297 no advancement.
+- Ch289 repair stands. Ch290 passes it in rain. Ch291–298 no advancement.
 - Ch292 water worker/list remains separate from road crew/list.
 
 ## Dry seal / warm wall
@@ -106,12 +97,13 @@
 ## Magical ecology / chaffers
 - Ch284 chaffer hatch stands, mostly over.
 - Ch292 shade fish remain separate urban ecology.
-- Ch297 kessa jumpers add a separate local ecological practice, but no case/specimen/assignment is created.
-- Do not build creature-of-week or ecology-ledger structure from these observations.
+- Ch297 kessa jumpers remain separate local ecological practice.
+- Ch298 does not advance ecology.
+- Do not build creature-of-week or ecology-ledger structure.
 
 ## Theatre / Pavin
 - Ch276 one-house Masked Guest replacement and Ch282 paid Pavin catch-up rehearsal stand.
-- Ch283–297 no theatre contact. No promotion/standing role.
+- Ch283–298 no theatre contact. No promotion/standing role.
 
 ## Rell / Maren / return hardware
 - Ch281 bounded return-hardware identification stands. Hardware unactivated/unvalued.
@@ -122,32 +114,32 @@
 - Three clean household gray sheets remain.
 - Horse-page reverse remains full.
 - Three private client copper remain upstairs.
+- Greg uses existing narrow scrap after Ch298 controlled session; clean sheets untouched.
 - Rain shelf works. Front door closer repaired/functioning.
-- Ch297 no new household purchase/repair role.
-- Cala knows Tess by name; no obligation follows.
+- Cala's first response to test result is body safety; Lyssa is pleased far was finally tested.
 - Ch285 narrow wrapped packet remains absent/protected.
 
 ## Greg / body / equipment
 - Greg: nineteen, Bronze, Carrow, permanent LEFT BKA, knee preserved; right leg intact; two crutches.
-- Ch297 longer walk causes temporary palm pressure from grips; resolves with rest. No injury, residual-limb issue, crutch damage, shoe issue, or equipment change.
-- Greg safely handles fallen sock with crutch and returns it to retrieval basket.
+- Ch297 palm pressure resolved before Ch298. Hessa checks hands/palms/forearms normal.
+- Ch298 session causes no pain, tingling, weakness, numbness, residual-limb issue, shoulder issue, fall, crutch damage, shoe issue, or equipment change.
 
 ## Economy / debt
 - Currency copper/silver/gold; no conversion rate. Bits small-price unit; conversion unstated.
 - Vale debt active/unresolved; exact balance unstated.
 
 ## Pressure / protected uncertainty
-- Ch273 Green Coat remains separate/bounded. Older pressure evidence ceiling unchanged. Ch297 adds none.
+- Ch273 Green Coat remains separate/bounded. Older pressure evidence ceiling unchanged. Ch298 adds none.
 - Weak needle-case mark, Rinna parcel, Lyssa older materials/bundles, Ch246 crate contents, Pell exact return, Vale/Bren link unresolved.
 - Collar-facing broader purpose, six wraps, Ch281 flat package, Ch285 narrow wrapped packet unresolved.
-- Hessa next experiment, exact distances, far response, attempt 68 possible only.
-- Existing creature/ecology and magical-infrastructure uncertainties remain bounded, now including high-line details and kessa jumper taxonomy/behavior.
+- Magic protected uncertainty now includes exact range distances, no-response far 0/1 only, attempt 68 possible edge lift only, next protocol unselected, and no range law.
+- Existing creature/ecology and magical-infrastructure uncertainties remain bounded.
 
 ## Next
-- Follow Chapter 298 trailhead in `MANUSCRIPT_STATE.md`.
-- Let high line/Tess and Pella/Rusk/kessa jumpers stand. No automatic repair check, seed purchase, specimen, taxonomy resolution, ecology ledger, or city-maintenance profession.
-- Let Ch295–297 behavioral changes become background rather than another thesis chapter.
-- Three private client copper remain. No forced purchase.
-- Magic remains 36 / 32 / 69; far untested; Hessa unscheduled; restrictions unchanged.
-- Greg has no guaranteed client, Miri return, Pellin visit, Nara follow-up, Nemi/music follow-up, bridges invitation, high-line/Tess follow-up, Pella/Rusk/kessa follow-up, ecology assignment, ward-water contact, shade-fish task, bead replacement, bag follow-up, used-goods contact, soap/mint follow-up, rain-thread need, Sella/Olan follow-up, Sera follow-up, lantern-house visit, Maro follow-up, theatre call, referral agreement, Maren/Rell follow-up, Jori appraisal, Hessa appointment, far test, clasp hold, Hollen shift, Vale meeting, Guild consultation, animal assignment, Savin appointment, civic hearing, Green Coat encounter, or Lyssa-network obligation.
+- Follow Chapter 299 trailhead in `MANUSCRIPT_STATE.md`.
+- Let Ch298 far test stand. No automatic second far attempt, Hessa session, range-measurement chapter, different-object test, or success ladder.
+- Current magic: 36 / 32 / 72; near 2/4 clean; middle 1/6 clean + one possible edge lift; far 0/1. Restrictions unchanged.
+- Three private client copper remain. No forced purchase/reward.
+- Recent social, observational, ecology, and magic changes should coexist as background capacities instead of being re-proven.
+- Greg has no guaranteed client, Miri return, Pellin visit, Nara follow-up, Hessa appointment, second far test, Nemi/music follow-up, bridges invitation, high-line/Tess follow-up, Pella/Rusk/kessa follow-up, ecology assignment, ward-water contact, shade-fish task, bead replacement, bag follow-up, soap/mint follow-up, rain-thread need, Sella/Olan follow-up, Sera follow-up, lantern-house visit, Maro follow-up, theatre call, referral agreement, Maren/Rell follow-up, Jori appraisal, clasp hold, Hollen shift, Vale meeting, Guild consultation, animal assignment, Savin appointment, civic hearing, Green Coat encounter, or Lyssa-network obligation.
 - Follow the next actual claim rather than rotating available engines by checklist.
