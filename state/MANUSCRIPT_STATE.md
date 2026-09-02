@@ -1,11 +1,11 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 267 — **THE ERRAND**.
+- Current exact story endpoint: Chapter 268 — **THE CALLER**.
 - Book 1 Chapters 1–82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent forward manuscript path: `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249–267 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries and still requires exact-text integration into the permanent manuscript. Older Ch156–219 synchronization debt also remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249–268 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries and still requires exact-text integration into the permanent manuscript. Older Ch156–219 synchronization debt also remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time.
@@ -28,124 +28,124 @@ These are strong direction, not chapter scheduling or retroactive canon.
 - Greg is nineteen, Bronze, in Carrow.
 - Permanent LEFT BKA, knee preserved; right leg intact; uses two crutches.
 - LEFT tip replaced Ch223; RIGHT grip retensioned Ch242; LEFT grip fine. Ch247 haircut current.
-- Ch267 west-market walking leaves right leg worked but not painful, residual limb comfortable, ordinary hand pressure with no hot spots. No injury/equipment change.
-- Wet-weather route residue remains: Bell Lane better northward in hard rain; Lower Tanner floods near dye yard; south from Bell Lane bad because water comes down steps; north-side arcades shelter.
+- Ch268 caller work involves long standing with less walking; Greg shifts position enough to avoid pain. End: shoulders tired, hands fine, right leg stiff enough to stretch, residual limb comfortable. No injury/equipment change.
+- Wet-weather route residue remains narrow and unchanged.
 
 ## Greg / Lyssa / household
 - Canonical spelling **Lyssa**. Black woman, tall relative to Greg, thin/lithe, natural Afro-textured hair.
 - Lyssa retains independent work, errands, moods, obligations, competence, relationships, and decisions. She is not Greg's analyst/project manager.
-- Long-standing narrow brown cloth remains same fold / three pins through Ch267, unexplained.
-- Greg's cuff repair remains closed; better shirt retains pale blue theatre-paint streak.
+- Long-standing narrow brown cloth remains protected/unexplained.
 - Older Lyssa material uncertainties remain separate unless exact prose connects them.
-- Ch262 pale sleeve-shaped piece remains distinct current work. Ch267 it has changed again but remains unidentified; no garment/job/customer identity established.
-- Two ordinary replacement cord lengths remain on shelf.
-- Ch267 Greg buys two small dark loaves from Nerin at full price. One is cut/eaten from later; exact remainder beyond household having bread is not fixed.
-- Four and a half onions are present at Ch267 opening; no new onions bought.
-- Lyssa returns with a second bag containing thread, small pale buttons, and a third wrapped bundle that resolves narrowly as narrow white tape. Do not connect these supplies to older unresolved materials without prose evidence.
+- Current pale work remains unidentified through Ch268.
+- Ch267 six narrow wraps happen off-page by Ch268 evening without Greg's participation. Exact purpose/material/customer relationship remains unestablished.
+- Household still has bread. Lyssa leaves Greg rice and fried potato after his theatre day.
 
 ## Recent durable residue
 - Ch249–264 exact checkpoint prose remains authoritative. See exact files for details.
-- Ch265 **THE CONTROL**: new third paper fin at INTERMEDIATE/AWAY produces one small clean AWAY response in four attempts; restrictions unchanged; totals 36 draws / 32 shaping / 61 external-effect attempts. Weather beads appear as ordinary magical commerce.
-- Ch266 **THE RUNNER**: Edrin's conditional route activates once. Better east-road report earns `probably ditchrunners`; Greg gives bounded advice, is paid, and gets no standing assignment. Unnamed bronze-cup street musician provides ambient magic Greg does not know.
+- Ch265 **THE CONTROL**: third paper fin produces one small clean AWAY response in four; restrictions unchanged; totals 36 / 32 / 61.
+- Ch266 **THE RUNNER**: one paid Edrin report consultation, probable ditchrunners, no standing assignment; ambient bronze-cup street music.
+- Ch267 **THE ERRAND**: Greg directly meets Nerin, voluntarily carries one unpaid bread-count errand to Jessa, learns `six stayed six`; heat marks and glowwings add ambient magic.
 
-### Chapter 267 — THE ERRAND
-- Household needs bread. Greg chooses Nerin's bakery because prior Nerin loaves were good, not because he has a work assignment.
-- **Nerin is now directly met and named**: broad woman with flour on both forearms, direct manner, bakery boss previously established through Mara. Exact broader life/role/pay structure remains unestablished.
-- Greg buys two small dark loaves at full price. Nerin says dark keeps best and is cheapest among the three bread types shown. No discount/free bread.
-- Nerin offers Greg an optional unpaid paper errand to Jessa's west room before midday. She explicitly allows him to decline. Greg accepts because he is free, knows the route, and chooses to.
-- The paper is a bread count for Jessa, not a secret message. Mara is at Jessa's west room when Greg arrives. Marra is absent.
-- The earlier `Morning six. Not four` residue advances narrowly: Mara says Nerin needs **six narrow wraps tomorrow morning**; Lyssa had asked if the number changed. Greg carries home only `six stayed six`. Exact nature/use/material of the narrow wraps remains unestablished.
-- Greg does not become a formal courier. Jessa says he only needs to tell Lyssa if he sees her. No pay, schedule, or delivery role established.
-- Greg passes near Hollen's street and deliberately does not enter merely to manufacture work. No Hollen/Pem contact.
-- Ambient magical city texture: a bean seller uses three red glass heat marks/chips that brighten with the hot pot. Greg recognizes the general old-life type; exact local mechanism/name unestablished.
-- A flock of small gray **glowwings** flashes green from within feather edges in flight. Greg does not know them from old life. An unnamed turnip-carrying man names them after one soils his coat. Lyssa later says they sometimes glow blue and nest high. No deeper ecology established.
-- Greg enjoys that some magic is familiar and some is not. No Greg mana use, experiment, item purchase, or magical-system conclusion.
-- Lyssa's independent work remains intact. She understands `six stayed six` but does not explain the broader job. Greg deliberately does not ask what six means.
-- No theatre call, Hessa appointment, Edrin contact, Vale contact, pressure evidence, injury, or standing next-day obligation.
+### Chapter 268 — THE CALLER
+- Theatre worker **Lenn** is named. She sometimes works near costume/props logistics and carries a narrow wooden case. Exact job/title/life beyond this remains unestablished.
+- Lenn comes to Greg's court because Rinna wants him. Usual side-passage caller **Demi** is absent because of `mother`; exact circumstance unestablished and not Greg's business.
+- Rinna hires Greg for one day as temporary side-passage **caller** for two short houses: unfamiliar **The Miller's Moon** afternoon and familiar **The Glass Orchard** evening. Ordinary theatre pay, no emergency premium, no permanent role.
+- Caller function: operate Demi's existing passage system and lists, moving actors/musicians/supers/animal handler toward entrances on time; report missing people to Rinna. Greg does not invent the system.
+- Lenn's useful rule: if someone says they know better than the list, they might; ask why.
+- Greg makes ordinary errors: calls Hara too early; initially loses track of Venn because he assumes Venn is already waiting; Rinna says know where they are before `next`.
+- Marek identifies an outdated Miller's Moon note: his entrance changed from after the door to after the laugh. Greg verifies the reason and corrects the working note. No rivalry.
+- **Iven** is named, approximately twelve by Greg's impression, and handles four trained **bellthroats** for The Miller's Moon. Exact broader life/employer/training history unestablished.
+- Bellthroats are familiar to Greg from old life. Established narrowly: brown bodies, orange throats, narrow metallic-silver neck-feather fans; soft metallic bell-like throat notes; can ring when frightened, excited, hungry; frightened ringing in Greg's old knowledge is faster/sharper/repetitive. Iven says his trained birds release on stage and return.
+- During performance, three birds return first; fourth rings singly from stage and returns seconds later. Greg correctly does not treat this as frightened behavior. No escape, injury, capture, Guild event, or ecology expansion.
+- Iven insists the birds come back and later calls one `greedy`; Greg jokingly accepts this as taxonomy. Do not turn Iven into sidekick or bellthroats into immediate animal arc.
+- Greg adjusts his own caller position half a body-width toward wall and keeps left crutch closer to improve passage geometry. No formal accommodation scene.
+- Familiarity creates one bounded failure: during Glass Orchard rehearsal Greg anticipates Venn from the older staging in his head and calls him early; current list is right because staging changed. Greg resets to current evidence. This does not negate old-life knowledge generally.
+- Rinna's review is narrow: asks mistakes and whether house saw them; tells Greg `Then learn.` She says Demi may return tomorrow; if not, she may send for Greg. Explicitly no promise.
+- Greg returns Demi's lists with visible corrections rather than replacing/rebuilding the system.
+- Rinna pays exactly the ordinary amount named. No bonus/title/promotion.
+- Lyssa confirms the six narrow wraps `happened` without explaining them. Greg does not ask what they were.
+- No Hessa, Edrin, Vale, Hollen, pressure evidence, Greg mana use, or standing next-day obligation.
 
-## Magical ecology / fieldcraft
-- Ch259 slateback evidence remains exact and bounded.
+## Magical ecology / ordinary magical world
+- Ch259 slateback evidence remains bounded.
 - Ch262 mudjaw/reedcrest reports remain unconfirmed.
-- Ch266 ditchrunners remain probable from report only, not live-confirmed current animals. Salt-fish theft connection unconfirmed.
-- Ch267 glowwings are ordinary local magical fauna newly named in prose. Established only: small gray birds, feather edges can flash/glow green; Lyssa says sometimes blue and they nest high. Do not invent cause, powers, rarity, migration, value, danger, or old-life equivalence.
-- South-yard consultation remains a conditional paid route, not a creature-of-the-week engine.
+- Ch266 ditchrunners remain probable report-based only.
+- Ch267 glowwings remain narrow local ambient fauna.
+- Ch268 bellthroats are trained theatre animals and familiar old-life fauna to Greg. Do not generalize their ecology beyond exact established traits. Their stage use is ordinary theatre craft, not Greg's magic.
 
 ## South Guild yard / Edrin
 - Edrin exact title/authority remains unestablished.
-- Conditional route created Ch262 activates once Ch266 and works as promised.
-- No standing job, badge, schedule, handler identity, east-road assignment, or obligation. No Edrin contact Ch267.
+- Conditional route activated once Ch266. No contact Ch267–268. No standing job.
 
 ## Theatre / work
 - Theatre remains intrinsically valuable work.
-- Greg knows Uncle; Marek knows Steward. Greg is not permanent Uncle/usher/front-of-house/utility worker.
-- Pell exact next work/performance date unknown. Kesh usual house worker.
-- No theatre call Ch264–267. Rinna Ch251 parcel remains unexplained.
+- Greg knows Uncle; Marek knows Steward. He is not permanent Uncle/usher/front-of-house/utility/caller.
+- Pell exact next work/performance date unknown. Kesh remains usual house worker and briefly appears Ch268 from front-of-house to communicate a late-party crossing.
+- Lenn newly named only as theatre logistics worker seen around costume/props side.
+- Demi usual caller, absent Ch268 because of mother; exact circumstance unknown.
+- Ch268 one-day caller work broadens Greg's theatre competence without promotion. Rinna may send tomorrow only if Demi remains unavailable; no promise.
+- Rinna Ch251 parcel remains unexplained.
 
 ## Binding shop / Hollen / Pem
-- Ch260 first paid half-day. Ch263 second paid half-day; Hollen says `Maybe later week.`
-- No shop contact Ch264–267. Ch267 Greg passes nearby and does not invent a shift by walking in.
-- No standing employment/apprenticeship/guaranteed schedule.
+- Ch260 and Ch263 paid half-days only. No standing employment. No contact Ch264–268.
 
 ## Lyssa customer / social-work ecology
-- Mara distinct from Marra; Daro is her brother. Daro coat sequence closed Ch264.
-- Mara works at Nerin's bakery on at least an afternoon bake shift and is at Jessa's west room Ch267.
-- Nerin is now directly met as bakery boss. Exact role/pay/schedule beyond evidence unestablished.
-- Jessa's west room/frontage contains metal findings, cord ends, buttons, hooks, and trays. Do not overdefine ownership/business structure.
-- Ch267 establishes Nerin needs six `narrow wraps` tomorrow morning and Lyssa had asked whether the number changed. Six stayed six. Exact wrap purpose/material/customer relationship remains unestablished.
+- Mara distinct from Marra. Nerin directly met Ch267. Jessa west room remains narrow evidence only.
+- Six narrow wraps needed by Nerin morning Ch268 occur without Greg. Exact wrap nature/material/use and relationship to Lyssa's pale work remain unestablished.
 - Greg is not fitter, mediator, formal courier, accountant, manager, or archivist of Lyssa's network.
 
 ## Magic continuity
 - Totals remain **36 supervised minimal draws / 32 supervised deliberate shaping attempts / 61 supervised external-effect attempts**.
-- Ch248 and Ch265 paper-fin evidence remains narrow. NO RANGE ESTABLISHED. NOT GENERALIZED. Restrictions unchanged. Hessa selects no next experiment.
-- Ch267 contains ambient heat marks and glowwings only; no Greg mana use and no evidence change.
+- Ch248/265 paper-fin evidence remains narrow. NO RANGE ESTABLISHED. NOT GENERALIZED. Restrictions unchanged. Hessa selects no next experiment.
+- Ch268 has magical fauna only; no Greg mana use and no evidence change.
 
 ## Economy / Vale debt
 - Currency: copper / silver / gold. No conversion rate established.
 - Antonius Vale debt active/unresolved. Original hard terms remain 35% interest, 8 days, labor through Antonius on default; original principal unknown.
 - Exact current balance exists in-world and Greg knows it but narration does not state it. Prior legitimate credits/payments remain valid.
-- Ch267 Greg buys two dark loaves at full price. Nerin errand is unpaid and voluntary. No debt payment.
+- Ch268 Rinna pays ordinary theatre amount named at start; no bonus/emergency premium. No debt payment/contact.
 - No Vale/Bren connection.
 
 ## Pressure / evidence ceiling
 - Latest grounded human-pressure evidence remains Ch236.
-- Brown-coat observer unidentified. Supported pattern: questions about theatre money handling, cart/departure logistics, delivery/front-back access.
-- Mason's Cut remains direction only.
-- Bren remains probable name of close-haired heavy-coat spokesman with left glove; one-copper demand refused Ch218; `Next time won't be one.`
-- NO robbery, ambush, cart target, Bren employment, organization, gang, boss, violence plan, Vale connection, or confirmed identity link.
-- Chapters 249–267 add no human-pressure evidence.
+- Brown-coat observer unidentified; Mason's Cut direction only; Bren evidence ceiling unchanged.
+- Chapters 249–268 add no human-pressure evidence.
 
 ## Protected uncertainties / do not auto-resolve
 - Weak needle-case mark possibly familiar only.
 - Rinna Ch251 wrapped parcel unknown except `not glass`.
-- Lyssa older unidentified materials/packets remain unresolved. Current pale work remains unidentified.
-- Long-standing brown cloth remains same fold/three pins.
+- Lyssa older unidentified materials/packets and current pale work remain unresolved.
+- Long-standing brown cloth remains unexplained.
 - Ch246 delivery-crate contents unknown.
 - Hessa next magic experiment unselected. Pell exact return/work date unknown.
-- Ch262 mudjaw/reedcrest identities unconfirmed.
-- Ch266 ditchrunners remain probable from report, not live-confirmed. Salt-fish theft connection unconfirmed.
-- Edrin exact title, Tessa broader life, gray runner, bronze-cup musician/instrument remain unestablished beyond exact prose.
-- Glowwing deeper ecology/magic unestablished beyond Ch267 observations and Lyssa's two narrow facts.
-- Hollen/Pem exact lives beyond shop contact unestablished. Colm exact life beyond familiar scene painter unestablished.
-- Nerin broader life/business structure unestablished. Reni move cause unconfirmed.
-- `Six narrow wraps` purpose/material and relationship to Lyssa's pale work remain unestablished.
+- Ch262 mudjaw/reedcrest identities unconfirmed; Ch266 ditchrunners probable only.
+- Edrin exact title, Tessa broader life, gray runner, bronze-cup musician/instrument unestablished.
+- Glowwing deeper ecology unestablished.
+- Bellthroat broader ecology/value/training system unestablished beyond Ch268 evidence. Iven broader life unestablished.
+- Lenn exact theatre role beyond observed logistics work unestablished. Demi's mother's circumstance unestablished.
+- Hollen/Pem and Colm broader lives unestablished.
+- Nerin broader business/life unestablished. Reni move cause unconfirmed.
+- Six narrow wraps purpose/material and relationship to Lyssa's pale work remain unestablished even though the six were completed/delivered/handled somewhere off-page.
 - No Vale/Bren connection.
 
-## Chapter 268 trailhead
+## Chapter 269 trailhead
 Follow the next actual claim from current authority.
 
-Chapter 267 deliberately makes the next claim an ordinary bread errand that brushes Lyssa's independent work network without turning Greg into its manager. Nerin is now directly met, the old `morning six, not four` residue advances only to `six narrow wraps tomorrow morning`, and Greg carries one sentence home because he happens to live with Lyssa. Do not automatically send him back to Nerin/Jessa tomorrow, make him deliver the six wraps, identify Lyssa's pale work as those wraps, or promote the optional errand into a courier job.
+Chapter 268 returns Greg to theatre through a genuine temporary need and broadens his competence sideways rather than upward. Caller work matters because Greg can operate someone else's existing system, make visible-but-contained mistakes, accept current evidence over stale familiarity, and keep other workers arriving on time. Demi remains the usual caller. Rinna may send for Greg tomorrow only if Demi remains unavailable. Do not manufacture Demi's continued absence merely to preserve the role, and do not promote Greg into permanent caller/stage manager.
 
-Glowwings and red heat marks continue the ambient-fantasy push. Glowwings are allowed to remain birds that sometimes glow and shit on coats. Do not immediately create a glowwing ecology chapter, capture problem, magical clue, item economy, or old-life recognition. Likewise, do not turn heat marks into a purchase or system lecture.
+The bellthroats are a useful fantasy-world intersection with theatre and Greg's old field knowledge, but their one late return resolves safely inside the performance. Do not automatically create an escaped-bird chapter, Iven friendship arc, animal-training job, Guild crossover, or bellthroat ecology investigation. Greg was right about the bird not sounding frightened; let that clean competence stand.
 
-The author shoves remain horizon pressure. The fantasy world is becoming more casually visible while Greg's ordinary accumulation deepens: he knows a bakery boss, can choose an errand, knows routes, has conditional work contacts, contributes money/food, and can encounter magic he does not understand without the world stopping to explain itself. These are things that can eventually carry consequence, but Chapter 268 does not owe danger simply because accumulation exists.
+The six narrow wraps happened without Greg. Preserve that independence. Do not now explain them merely because the sequence closed operationally, and do not retroactively identify Lyssa's pale work as the wraps without exact prose evidence.
 
-At chapter end Greg has no established next-day theatre call, Hollen shift, Hessa appointment, Vale meeting, Guild consultation, animal assignment, or formal customer/courier obligation. Nerin needs six narrow wraps tomorrow morning, but that is Lyssa/Jessa/Nerin network business unless prose naturally creates a Greg claim. Household has bread again. Lyssa's current pale work remains unidentified.
+The author shoves remain horizon pressure. Greg's accumulated life now includes a wider theatre usefulness, but also more dependence on systems and people that exist without him. Consequence can eventually exploit that accumulation when causality earns it. Chapter 269 does not owe a punishment for Greg's growing competence.
 
-Let household, paid work, city/social life, theatre if genuinely summoned, pressure if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft if genuinely arriving, or another ordinary fantasy-world claim take Chapter 268.
+At chapter end Greg has no guaranteed theatre call, Hollen shift, Hessa appointment, Vale meeting, Guild consultation, animal assignment, or Lyssa-network obligation. Household is stable. His body is ordinarily tired, not injured.
 
-Do not automatically continue Nerin/Mara/Jessa/six wraps, glowwings, heat marks, ditchrunners/Tessa/Edrin, bronze-cup musician, Hessa/new paper, weather beads, Hollen/Pem, Second Toast/Marek, Colm, mudjaw/reedcrest/slateback, Daro/Neli, neighborhood cast, wash court, weak needle case, Rinna parcel, Lyssa's older materials, Vale, Bren/brown-coat pressure, magic-item acquisition, or eventual leg-loss architecture merely because each remains available.
+Let household, paid work, city/social life, theatre only if genuinely summoned, pressure if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft if genuinely arriving, or another ordinary fantasy-world claim take Chapter 269.
 
-Write ONE complete Chapter 268, target 2,500–4,000 words and clear 2,500, Greg POV, zero em dashes. Validate it, update durable exact prose/state, and leave the Chapter 269 trailhead from what actually happened.
+Do not automatically continue caller work/Demi/Lenn, Iven/bellthroats, Nerin/Mara/Jessa/six wraps, glowwings, heat marks, ditchrunners/Tessa/Edrin, bronze-cup musician, Hessa/new paper, weather beads, Hollen/Pem, Second Toast/Marek, Colm, mudjaw/reedcrest/slateback, Daro/Neli, neighborhood cast, wash court, weak needle case, Rinna parcel, Lyssa's older materials, Vale, Bren/brown-coat pressure, magic-item acquisition, or eventual leg-loss architecture merely because each remains available.
+
+Write ONE complete Chapter 269, target 2,500–4,000 words and clear 2,500, Greg POV, zero em dashes. Validate it, update durable exact prose/state, and leave the Chapter 270 trailhead from what actually happened.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
