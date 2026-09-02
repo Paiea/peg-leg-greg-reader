@@ -1,11 +1,11 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 275 — **THE SCRAPER**.
+- Current exact story endpoint: Chapter 276 — **THE MASK**.
 - Book 1 Chapters 1–82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent forward manuscript path: `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249–275 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries and still requires exact-text integration into the permanent manuscript. Older Ch156–219 synchronization debt also remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249–276 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries and still requires exact-text integration into the permanent manuscript. Older Ch156–219 synchronization debt also remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500–4,000 words and clear 2,500 unless explicitly changed.
@@ -45,15 +45,15 @@ Do not require Greg to acquire any particular unique item. Do not manufacture on
 - Greg is nineteen, Bronze, in Carrow. Permanent LEFT BKA, knee preserved; right leg intact; uses two crutches.
 - LEFT tip replaced Ch223; RIGHT grip retensioned Ch242; LEFT grip fine. Ch247 haircut current.
 - Ch269 Savin repairs Greg's only right shoe outer-heel separation with pitch mix and three flush nails. No gait correction. Cause of outer-heel wear unestablished.
-- Ch275 body ordinary. Lower-room stairs and low lamp holding tire shoulders mildly; right shoe holds, right leg fine, residual limb comfortable. No injury/equipment change.
+- Ch276 body ordinary. Mild shoulder tiredness from Ch275 remains ordinary and does not interfere. Mask narrows vision enough that Greg must turn his head before placing a crutch near scenery; Sivi provides practiced elbow guidance exiting blackout. Right shoe quiet/holding, right leg fine, residual limb comfortable. No injury/equipment change.
 
 ## Greg / Lyssa / household
 - Lyssa remains independent and is not Greg's analyst/project manager.
 - Long-standing brown cloth and older unidentified materials remain protected/unexplained.
 - Ch273 pale work identified narrowly as a collar facing for a coat with small pale buttons; customer/coat broader context unestablished. Six narrow wraps explicitly are not the collar facing and remain unexplained.
 - Ch269 small paper packet and Ch270 wrapped bundle remain unconnected/protected.
-- Ch274 narrow paper parcel remains unidentified. Ch275 Lyssa still has/moves that parcel among her work things; Greg does not ask.
-- Household potatoes were stored in the shared lower room near the affected cold shelf. Olan moves them upstairs damp but with no visible white/blue growth. Greg spreads them to dry; one soft spot is cut away. No illness or spoilage event established.
+- Ch274 narrow paper parcel remains unidentified. Ch276 it leaves with Lyssa in her work bag in the morning and is no longer on the table at night; contents/relationship remain unestablished.
+- Ch275 potatoes remain upstairs after whitewall event. No spoilage/illness development Ch276.
 
 ## Recent durable residue
 - Ch249–264 exact checkpoint prose remains authoritative. See exact files.
@@ -67,50 +67,63 @@ Do not require Greg to acquire any particular unique item. Do not manufacture on
 - Ch272 **THE QUEUE**: one-day building water outage, north-cistern feed stones, neighbor water logistics; service restored.
 - Ch273 **THE WITNESS**: separate ordinary cart/post dispute; Green Coat attempted two-copper witness shaping; legitimate Senn account; free local copperback observed; no older-pressure connection established.
 - Ch274 **THE READER**: one-off paid south-market scale-reading cover; Deni/Toma; magical seal plate; Lio expected back next day; no standing market job.
+- Ch275 **THE SCRAPER**: household whitewall/rimeweb event; Greg's old-life safety knowledge works cleanly; Mella owns local treatment/follow-up.
 
-### Chapter 275 — THE SCRAPER
-- Actual claim is household/building maintenance. Olan brings Greg and Lyssa's damp potato sack upstairs because the shared lower storage room's back cold shelf/wall has developed white threadlike growth with faint blue active edges.
-- Greg recognizes the growth as matching old-life **rimeweb** closely enough for one clean safety rule: **do not scrape it while the edge is blue/active**. In his old-life experience, disturbing active growth could throw very cold dust capable of rapidly freezing wet surfaces/skin and posing eye risk at close range.
-- Greg explicitly limits the identification to `rimeweb, or close enough` and does not claim full taxonomy/mechanism/local equivalence.
-- Local people call the growth **whitewall**. Maris knows the local name and initially arrives with a broom, but accepts Greg's warning and waits for the building keeper.
-- **Mella** is named as the building keeper. Greg has actually encountered her before without retaining her name: she previously repaired/insulted the rear latch/hinge. This is social residue, not a newly invented prior friendship.
-- Mella already knows whitewall and independently confirms the practical rule not to scrape blue growth. Greg's old-life knowledge works cleanly but does not replace local expertise.
-- Mella's local cleaning method after blue fades: weak wash containing ash, vinegar, and salt, wet scraping, waste bucket, shelf left away from wall. Greg's old-life camps used weak ash water after active blue died. Do not generalize either method beyond this scene.
-- Mella says whitewall can appear with a wet wall/cold night; possible causes here include water-line sweating after service returned or an older patch under mortar. She does not establish cause.
-- Building water line runs behind the affected wall. A thin moisture line remains after cleaning. Mella plans only to look again tomorrow and see whether the wall dries. No confirmed leak, feed-stone failure, structural damage, infestation, or municipal problem.
-- Greg does not use mana or experiment on the growth. He explicitly refuses that route because Hessa's restrictions remain in force.
-- During cleanup, Greg's useful role is low lamp holding from a crate while Mella scrapes, Olan scrapes the section she assigns, and Maris catches wet waste. Greg does not become the cleaner/expert in charge.
-- Mella tells everyone to keep the back shelf empty overnight. Potatoes stay upstairs. No guaranteed Greg task tomorrow; Mella owns the follow-up.
-- No pay, debt payment, Green Coat/Senn contact, theatre call, Hessa contact, Hollen shift, Edrin consultation, Vale contact, animal assignment, or injury.
+### Chapter 276 — THE MASK
+- Lenn arrives before breakfast with a genuine one-house theatre summons from Rinna. Ordinary performance pay, not emergency premium. Greg chooses to go after eating.
+- Ch275 whitewall follow-up remains tiny and local: on Greg's way out, Mella says the wall is `dull` and `drying`, no blue. She does not assign Greg cleaning/inspection work. No leak, feed-stone failure, or building escalation.
+- Rinna gives Greg a one-night replacement role: **Masked Guest** in **The Last Lantern**. Seven spoken lines, mostly seated banquet scene, one stand/cross, blackout exit. Original performer **Pavin** is simply absent; reason remains explicitly not Greg's problem.
+- The role is physically compatible without being framed as charity: Greg begins seated before curtain, uses both crutches for the one cross, and exits after blackout with experienced backstage guidance.
+- Marek and Hara help Greg rehearse. Venn corrects a stale page cue: Greg's second line follows the cup/moment rather than an old written `after she sits` instruction. Greg learns to listen to the scene instead of visibly hunting the cue.
+- **Sivi** named: small woman, probably around forty by Greg's impression, black jaw-length hair, dark apron with narrow pockets. She works `lamp side`; exact title/broader life unestablished. She owns practical authority over the mask and lamps during the performance.
+- Enchanted theatre mask: black lacquer, narrow eye openings, dark cloth lining, faint silver internal lines/threads, and roughly twelve tiny glassy scales near eyes/mouth. Exact construction, maker, age, power source, materials, and mechanism remain unestablished.
+- Sivi says the mask `changes expression under marked stage lamps`. Lamp one keeps it plain; lamp two pulls mouth down; lamp three opens eyes and lifts mouth into a deliberately `wrong` smile. Exact emotional label/mechanism is not established.
+- Sivi explicitly says she runs lamps and does not know how the old mask was made. It came from an `old prop shop` before her time. Do not promote her into artificer/mage unless future prose establishes it.
+- Handling rules established only in scene: do not touch inside with wet fingers; do not wipe glass scales; report sweat/fogging; mask should not compromise vision. These are practical prop rules, not a general magical-item doctrine.
+- Stage lamp three produces a faint blue-white floor line when shuttered open and triggers the mask's `wrong smile` at Greg's brass stage mark. Greg feels only a faint cool crawl through the lacquer, no pain/heat/mana sensation.
+- First masked rehearsal: Greg's narrowed view causes left crutch tip to strike Marek's chair lightly. Sivi tells him to turn/look with his head before moving the crutch. No injury/damage.
+- Greg initially overacts the mask change. Marek tells him `Stop helping the mask`; Hara says the face is already interesting and Greg need not announce that he noticed it through his body. On later run Greg lets the prop do its job and stays in the scene.
+- Performance succeeds without heroics. Audience gives a small collective shift when lamp three changes the face. Greg lands lines/cues, uses the cross safely, and exits in blackout with Sivi's practiced elbow guidance.
+- Marek says Pavin hates the mask because it `steals his face`; Marek reframes that it gives him another one. This is actor opinion/joke, not magical mechanism.
+- Greg explicitly enjoys the prop somewhat because it is a theatre object built/maintained/lit by other people, not because it increases his own power.
+- Rinna pays ordinary performance money and gives no promise tomorrow. Pavin is `probably` back next house. Greg remains replacement only.
+- The magical prop is used for one scene and then stays closed while ordinary lighting continues. Do not turn the mask/lamp into Hessa apparatus, acquisition target, or future-combat tool by default.
+- No Greg mana use, Hessa contact, Green Coat/Senn contact, Hollen shift, Edrin consultation, Vale contact, debt payment, animal assignment, pressure evidence, or injury.
 
 ## Magical ecology / ordinary magical world
 - Slateback bounded; mudjaw/reedcrest unconfirmed; ditchrunners probable report only; bellthroats trained theatre fauna.
 - Glowwings bounded ordinary magical birds, not weather predictors.
-- Free local copperback Ch273 stands; no Ch274–275 copperback follow-up.
-- Shade-lamp, household charm, feed-stone, and seal-plate mechanisms remain bounded/unexplained beyond observed use.
-- Ch275 adds whitewall/rimeweb as ordinary magical growth in a building context. Established only: white threadlike wall growth, faint blue active edges, local people know it, Mella avoids scraping while blue, and Greg's old-life analogue could throw freezing dust when disturbed. Exact category, lifecycle, source, magical mechanism, prevalence, and whether Carrow whitewall is biologically identical to old-life rimeweb remain unestablished.
+- Free local copperback Ch273 stands; no Ch274–276 copperback follow-up.
+- Ch275 whitewall/rimeweb remains ordinary magical growth with exact category/mechanism open; Ch276 only establishes that Mella reports it dull/drying with no blue.
+- Shade-lamp, household charm, feed-stone, seal-plate, and Ch276 stage-mask/lamp mechanisms remain bounded/unexplained beyond observed use.
+- Ch276 adds enchanted theatrical prop infrastructure without linking it to Greg's personal magic. Mask expression changes under marked stage lamps; exact mechanism remains unknown even to lamp worker Sivi.
 
 ## Magic continuity
 - Totals remain **36 supervised minimal draws / 32 supervised deliberate shaping attempts / 66 supervised external-effect attempts**.
-- No Greg mana use Ch272–275.
+- No Greg mana use Ch272–276.
 - Ch271 evidence ceiling unchanged: near 1/3, middle 0/2, far untested. No general range law/reliability/material generalization.
-- Existing outside-session restrictions remain fully in force. Hessa next experiment/appointment unselected.
+- Existing outside-session restrictions remain fully in force. Wearing/performing with a pre-existing enchanted theatre mask does NOT change Greg's permissions.
+- Hessa next experiment/appointment unselected.
 
 ## Theatre / work
 - Greg is not permanent caller/stage manager/Uncle/usher/front-of-house/utility worker.
-- Demi usual caller; no theatre call Ch269–275.
-- Ch274 scale-reader work remains one-off cover. No market work Ch275.
+- Ch276 returns him to acting for one house as Masked Guest replacement. No promotion, standing role, or next-day guarantee.
+- Pavin is the usual Masked Guest for this house/piece and is probably back next house. Absence reason unestablished.
+- Sivi owns lamp/mask handling in scene. Marek/Hara remain more experienced actors and correct Greg's tendency to overplay the effect.
+- Demi usual caller status remains unknown; Ch276 does not address Demi.
 - Rinna Ch251 parcel remains unexplained.
 
 ## Economy / Vale debt
 - Currency: copper / silver / gold. No conversion rate established.
 - Antonius Vale debt active/unresolved. Original terms remain 35% interest, 8 days, labor through Antonius on default; original principal unknown. Exact current balance exists in-world and Greg knows it but narration does not state it.
-- Ch275 has no income, debt payment, or Vale contact. No Vale/Bren connection.
+- Ch276 Greg earns ordinary one-house theatre pay. Exact amount not narrated in state; household share is split the same evening rather than delayed.
+- No debt payment/Vale contact. No Vale/Bren connection.
+- Money/capital forward nudge remains ACTIVE. Ch276 itself does not create a credible expensive acquisition desire. Do not force the mask into that role retroactively merely because it is magical.
 
 ## Pressure / evidence ceiling
 - Older grounded brown-coat/Mason's Cut/Bren evidence ceiling through Ch236 unchanged.
 - Ch273 Green Coat remains a separate ordinary civic-dispute pressure fact only.
-- Ch274–275 add no pressure evidence.
+- Ch274–276 add no pressure evidence.
 
 ## Protected uncertainties / do not auto-resolve
 - Weak needle-case mark; Rinna parcel; Lyssa older materials/Ch269 packet/Ch270 bundle/Ch274 narrow parcel; long-standing brown cloth; Ch246 crate contents.
@@ -120,29 +133,32 @@ Do not require Greg to acquire any particular unique item. Do not manufacture on
 - Copperback feeding/lifecycle/eradication/current Savin damage causation unproven.
 - Household charm/feed-stone/shade-lamp/seal-plate mechanisms unestablished. Old sun weight marks meaning/conversion unestablished.
 - Green Coat identity/motive/side/employer/recurrence and cart/post fault unresolved.
-- Whitewall exact cause, identity relative to old-life rimeweb, lifecycle, mechanism, and whether wall moisture is leak versus condensation/sweat remain unresolved.
-- Mella broader life/other-building work unestablished. Deni/Toma/Lio broader roles/lives and Pera west-table note contents unestablished.
+- Whitewall exact cause, identity relative to old-life rimeweb, lifecycle, mechanism, and whether prior wall moisture was leak versus condensation/sweat remain unresolved.
+- Mella broader life/other-building work unestablished.
+- Deni/Toma/Lio broader roles/lives and Pera west-table note contents unestablished.
+- Pavin absence reason/broader life unestablished.
+- Sivi exact title/broader life, mask construction/maker/age/value/power source, stage-lamp mechanism, and whether similar masks are common remain unestablished.
 
-## Chapter 276 trailhead
+## Chapter 277 trailhead
 Follow the next actual claim from current authority.
 
-Chapter 275 lets Greg's old-life field knowledge work cleanly in a mundane magical-world problem. He correctly recognizes the danger pattern and prevents active blue whitewall/rimeweb from being dry-scraped. Then Mella, the actual building keeper, owns the local treatment and follow-up. Preserve both halves. Do not retroactively make Greg wrong merely to create uncertainty, and do not promote him into magical-growth expert/building inspector because he remembered one useful rule.
+Chapter 276 gives the theatre one genuinely magical piece of stagecraft while keeping the ownership of expertise clear. Greg performs with an enchanted mask, but Sivi owns the lamps/handling and Marek/Hara own more of the acting craft. Greg's useful change is theatrical: he learns to stop helping a prop that is already doing the visible work. Do not turn this into secret combat training, Hessa research, personal magic evidence, or an automatic magical-item obsession.
 
-Mella will look at the wall tomorrow. That does not obligate Chapter 276 to show it. Do not automatically turn the remaining moisture line into a leak, feed-stone failure, infestation, building evacuation, or Guild case. The lower-room event may simply resolve off-page if nothing further claims Greg.
+Let the one-house replacement stand. Pavin is probably back next house and Rinna gave no tomorrow promise. Do not automatically continue The Last Lantern, Masked Guest, Sivi, lamp three, or mask mechanics.
 
-The chapter adds magical ecology without a creature hunt: whitewall is ordinary enough that Maris and Mella know it, while Greg knows a close old-life analogue. Keep exact biology/mechanism open.
+Whitewall follow-up is effectively quiet: Mella reports dull/drying/no blue. Do not manufacture a leak or second cleanup chapter from residue alone.
 
-Lyssa's narrow paper parcel remains unidentified. Do not use the quiet household chapter as permission to explain her work backlog. Scale work remains one-off. Ch273 civic dispute remains quiet. Copperback sighting remains quiet.
+The MONEY / CAPITAL forward nudge is active and important. Greg is now allowed to encounter something genuinely expensive enough to create desire for capital and change behavior, including but not limited to a rationally undervalued magical item with a serious drawback. Do not manufacture such an object merely because the nudge exists, and do not retroactively make Sivi's mask that object. But if a credible expensive object, capability, stake, trade, or opportunity naturally appears, let Greg want it and let the money engine widen beyond copper wages.
 
 Magic continuity remains 36 / 32 / 66, Ch271 near 1/3, middle 0/2, far untested, restrictions unchanged. Hessa has not summoned Greg again.
 
-At chapter end Greg is home, uninjured, repaired shoe holding, household stable, potatoes upstairs, lower back shelf temporarily empty, and has no guaranteed Hessa appointment, theatre call, Hollen shift, Vale meeting, Guild consultation, animal assignment, Savin appointment, Orin watch, scale job, civic hearing, Green Coat encounter, whitewall-cleaning duty, or Lyssa-network obligation.
+At chapter end Greg is home, uninjured, repaired shoe holding, household stable, whitewall dull/drying, and has no guaranteed Hessa appointment, theatre call, Hollen shift, Vale meeting, Guild consultation, animal assignment, Savin appointment, Orin watch, market-scale job, civic hearing, Green Coat encounter, whitewall duty, Masked Guest role, Sivi task, or Lyssa-network obligation.
 
-Let household, paid work, city/social life, theatre if genuinely summoned, pressure if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft if genuinely arriving, or another ordinary fantasy-world claim take Chapter 276.
+Let household, paid work, city/social life, theatre if genuinely summoned, pressure if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft if genuinely arriving, a credible money/capital opportunity if naturally appearing, or another ordinary fantasy-world claim take Chapter 277.
 
-Do not automatically rotate through whitewall/Mella/water line, scale checks/Deni/Toma/Lio/seal plate, Pera/Orin, Vela, Green Coat/Senn/cart dispute, copperbacks/Savin, collar facing/six wraps/Lyssa parcel, water/feed stones, Hessa/distance/square, caller/Demi/Lenn, Iven/bellthroats, Nerin/Mara/Jessa, glowwings, ditchrunners/Tessa/Edrin, bronze-cup musician, weather beads, Hollen/Pem, Second Toast/Marek, Colm, mudjaw/reedcrest/slateback, Daro/Neli, neighborhood cast, wash court, weak needle case, Rinna parcel, Lyssa's older materials, Vale, Bren/brown-coat pressure, magic-item acquisition, or eventual leg-loss architecture merely because each remains available.
+Do not automatically rotate through mask/Sivi/Pavin/Last Lantern, whitewall/Mella/water line, scale checks/Deni/Toma/Lio/seal plate, Pera/Orin, Vela, Green Coat/Senn/cart dispute, copperbacks/Savin, collar facing/six wraps/Lyssa parcel, water/feed stones, Hessa/distance/square, caller/Demi/Lenn, Iven/bellthroats, Nerin/Mara/Jessa, glowwings, ditchrunners/Tessa/Edrin, bronze-cup musician, weather beads, Hollen/Pem, Second Toast/Marek, Colm, mudjaw/reedcrest/slateback, Daro/Neli, neighborhood cast, wash court, weak needle case, Rinna parcel, Lyssa's older materials, Vale, Bren/brown-coat pressure, magic-item acquisition, or eventual leg-loss architecture merely because each remains available.
 
-Write ONE complete Chapter 276, target 2,500–4,000 words and clear 2,500, Greg POV, zero em dashes. Validate it, update durable exact prose/state, and leave the Chapter 277 trailhead from what actually happened.
+Write ONE complete Chapter 277, target 2,500–4,000 words and clear 2,500, Greg POV, zero em dashes. Validate it, update durable exact prose/state, and leave the Chapter 278 trailhead from what actually happened.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
