@@ -19,6 +19,28 @@
 - Magical ecology / fieldcraft remains a strong forward push. Future knowledge should sometimes work cleanly. Do not force creature-of-the-week structure.
 - Eventual title-defining leg loss remains flexible long-range architecture, not a countdown. Exact cause/place/creature/trap/spell/tactical sequence/chapter remain open. No cheap random accident or forced retroactive foreshadowing. Aftermath must be substantial, with no instant adaptation, magical prosthetic fix, or immediate theatre return.
 
+### MONEY / CAPITAL FORWARD NUDGE
+
+Greg’s economic life is ready to expand beyond subsistence, debt management, household contribution, and isolated paid shifts. Allow him to encounter reasons to want meaningful capital, not merely enough money for the next ordinary expense.
+
+Unique magical items are one strong but nonmandatory route. Some genuinely rare or powerful objects may remain extremely expensive by ordinary standards while being dramatically undervalued relative to their capabilities because their curses, defects, costs, dangers, or practical limitations make them undesirable to actual users.
+
+The world should not be stupid about these objects. Their low relative valuation should have a rational market cause. A cursed unique item can simultaneously be worth gold, remain beyond the means of most people, and still be hilariously cheap compared with what an equivalent usable capability would command.
+
+Greg’s future knowledge may let him recognize this mismatch. He does not automatically know how to remove an item’s weakness. More interestingly, he may remember later techniques, materials, tools, knowledge, or complementary capabilities that counter, manage, or change the significance of that weakness.
+
+This may create a powerful economic motive. Greg can want something he cannot presently afford.
+
+**Allow that desire to wake the money engine.**
+
+Greg may begin thinking beyond wages toward capital, leverage, trade, knowledge, production, investment, brokerage, or other ways of creating value. Do not hand him wealth because he remembers the future. His knowledge can reveal opportunities without automatically supplying capital, execution, trust, infrastructure, or buyers.
+
+Existing valuable possessions should remain economically real. Something worth gold is not necessarily liquid cash, and converting an asset into money may carry opportunity cost, emotional cost, risk, or strategic consequence.
+
+Do not require Greg to acquire any particular unique item. Do not manufacture one merely to satisfy this nudge. But when a credible object, capability, investment, or opportunity creates genuine desire for capital, do not automatically shrink the opportunity back to copper-scale life in the name of restraint.
+
+**Greg is now allowed to want something expensive enough that getting it changes his behavior.**
+
 ## Greg / body / equipment
 - Greg is nineteen, Bronze, in Carrow. Permanent LEFT BKA, knee preserved; right leg intact; uses two crutches.
 - LEFT tip replaced Ch223; RIGHT grip retensioned Ch242; LEFT grip fine. Ch247 haircut current.
