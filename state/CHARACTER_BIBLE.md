@@ -4,12 +4,24 @@ Durable character knowledge for writers/editors. Manuscript evidence outranks th
 
 ## Greg
 
-- Nineteen; Bronze; lives in Carrow.
-- Permanent LEFT BKA, knee preserved; right leg intact; uses two crutches.
+- Nineteen in his second life; Bronze; lives in Carrow.
+- His first life lasted to roughly fifty-nine and eventually reached S-class power/adventuring experience. He therefore carries decades of adult exposure to magic, danger, travel, institutions, equipment, support systems, and a functioning fantasy society in addition to his second-life experience.
 - Intelligent and observant without being a generic mastermind.
 - Competence grows through repetition, work, mistakes, correction, and practical problem solving.
 - Ongoing pressures include money/debt, theatre work, relationships, magic evidence, and external attention.
 - Do not flatten him into action hero, omniscient strategist, constant comedian, effortless actor, or magic prodigy.
+
+### Dual-life knowledge calibration
+
+Greg is not a tourist in fantasy. **Reader ignorance does not imply Greg ignorance.** For common magical phenomena, ordinary material culture, institutions, creatures, tools, infrastructure, and social practices, first assume Greg recognizes the broad category unless manuscript evidence or a real regional/specialist difference gives him reason not to.
+
+Exposure is not professional knowledge. Old Greg could spend decades benefiting from walls, plumbing, wards, carrying light, transport, healing systems, civic infrastructure, specialist equipment, or trade work without knowing how they were built, maintained, priced, routed, regulated, or repaired. S-class experience gives him substantial magical/adventuring literacy and systems intuition, not universal expertise in masonry, plumbing, ecology, manufacturing, medicine, civic administration, or every regional implementation.
+
+The useful variable is often **attention rather than familiarity**. Something may have been ordinary and nearly invisible to Old Greg because it was not his problem. His current life can make the same system newly interesting because he is poorer, walking everywhere, dependent on ordinary infrastructure, doing manual work, counting copper, living close to tradespeople, or simply has reason to watch maintenance happen. A strong default shape is: **familiar thing -> newly noticed mechanism / constraint / labor -> Greg's systems curiosity engages -> local specialist still knows the domain better.**
+
+Greg may rapidly understand implications once he actually looks, especially where old-life support/adventuring experience transfers, but transferable intuition is not local expertise and a plausible theory is not evidence. Preserve genuine unknowns for regional practices, specialist mechanisms, unfamiliar species/materials, changed second-life systems, and domains he never had reason to learn.
+
+Do not overcorrect by making Greg constantly announce that he already knows things. Most familiarity should remain invisible and natural. He should simply use, pass, name, or accept ordinary world features without exposition until something about them becomes relevant. When exposition is needed, prefer Greg knowing **what** a common thing is while becoming curious about **how this instance works, why it is behaving differently, who maintains it, what it costs, or what local practice differs**.
 
 - Current visual continuity after Ch247: Greg has a fresh ordinary haircut from an unnamed Lower Steps barber. Hair is cut above/out of his eyes, clear of his ears and collar, with shorter sides/back than before. No exact named style is established.
 
