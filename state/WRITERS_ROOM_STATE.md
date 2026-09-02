@@ -62,6 +62,27 @@ Recent manuscript-first archaeology has now been integrated by Story Control:
 - do not flatten Nessa into Marek's keeper/prop cop or Marek into idiot/permanent liability.
 - friendship, rivalry, romance, hierarchy, general distrust, permanent discipline, and motive remain unestablished.
 
+## LEGACY MANUSCRIPT QUARRY — AVAILABLE, NOT ACTIVE
+
+The author supplied several older pre-rebuild Peg-Leg Greg manuscript branches for comparison. They are **non-canon** and should never override current prose, state, names, chronology, or character development.
+
+Story Control recorded the highest-value reusable shapes in `PLOT_CONTROL.md` under **Legacy manuscript quarry — non-canon possibilities**.
+
+02 may draw from that quarry only when a current manuscript pressure makes one shape useful. Especially promising shapes include:
+- distorted / partially wrong Old Greg reputation;
+- someone knowing an old legend without recognizing young Greg;
+- meeting an old-life person before shared history exists;
+- Greg's own past stories mixing memory, legend, exaggeration, omission, and performance;
+- informal or undignified theatre work;
+- Greg's body/amputation interacting with performance in a non-inspirational way;
+- morally shadier Old Greg memories that complicate self-mythology.
+
+Do **not** create a legacy-draft mining queue. Do not import old repeat-reset relic machinery, giant syndicate architecture, progression-grind loops, or the old admiration-funnel pattern where every new group rapidly recognizes Greg as extraordinary.
+
+The useful principle is:
+
+**STEAL SHAPES, NOT OLD PLOT.**
+
 ## RESEARCH DECISION
 
 **NO ACTIVE EXTERNAL RESEARCH QUEUE.**
@@ -103,4 +124,4 @@ No handoff to 03 is currently waiting. Story Control has integrated the latest N
 
 ## RE-PROMPT [02]
 
-Continue Peg-Leg Greg Writers' Room from current GitHub authority. Read `AGENTS.md`, `state/PROJECT_STATE.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current manuscript/state and exact recent prose, `state/WRITERS_ROOM_STATE.md`, `state/STORY_CONTROL_STATE.md`, `state/RESEARCH_LEDGER.md`, and `state/LONG_SERIAL_RESIDUE_MAP.md`. The recent manuscript-first cycles are integrated: Lyssa selective continuity, Jori/Davin, and Nessa/Marek now have durable Story Control classifications. Chapter 229 validates the changed-callback policy at Marra's and also warns against making characters explain the analytical `network` model. Generic external research is paused. Current 02 posture is HOLD / OBSERVE rather than automatically opening another relationship archaeology queue. First inspect newer manuscript authority. If newer prose has created a real developmental tension, specific factual gap, changed relationship, thinning engine, or returned social node that needs work, develop only that edge. If not, preserve HOLD / OBSERVE and let 01 continue.
+Continue Peg-Leg Greg Writers' Room from current GitHub authority. Read `AGENTS.md`, `state/PROJECT_STATE.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current manuscript/state and exact recent prose, `state/WRITERS_ROOM_STATE.md`, `state/STORY_CONTROL_STATE.md`, `state/RESEARCH_LEDGER.md`, and `state/LONG_SERIAL_RESIDUE_MAP.md`. The recent manuscript-first cycles are integrated: Lyssa selective continuity, Jori/Davin, and Nessa/Marek now have durable Story Control classifications. Chapter 229 validates the changed-callback policy at Marra's and also warns against making characters explain the analytical `network` model. Legacy pre-rebuild manuscript archaeology is available only as a non-canon quarry; `PLOT_CONTROL.md` records reusable shapes and explicit avoidances. Do not open a legacy-draft mining queue. Generic external research is paused. Current 02 posture is HOLD / OBSERVE rather than automatically opening another relationship archaeology queue. First inspect newer manuscript authority. If newer prose has created a real developmental tension, specific factual gap, changed relationship, thinning engine, returned social node, or a natural opening for one legacy quarry shape, develop only that edge. If not, preserve HOLD / OBSERVE and let 01 continue.
