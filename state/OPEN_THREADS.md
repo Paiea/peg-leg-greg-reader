@@ -1,10 +1,10 @@
 # MANUSCRIPT OPEN THREADS
 
 ## Current edge
-- Current exact story endpoint: Chapter 276 — **THE MASK**.
-- Exact Chapters 249–276 are durable checkpoint files and outrank summaries.
-- Permanent running manuscript remains physically materialized through Chapter 248 and requires exact-text integration of 249–276. Older Ch156–219 synchronization debt also remains.
-- See `MANUSCRIPT_STATE.md` for executable Chapter 277 trailhead.
+- Current exact story endpoint: Chapter 277 — **THE APPRAISER**.
+- Exact Chapters 249–277 are durable checkpoint files and outrank summaries.
+- Permanent running manuscript remains physically materialized through Chapter 248 and requires exact-text integration of 249–277. Older Ch156–219 synchronization debt also remains.
+- See `MANUSCRIPT_STATE.md` for executable Chapter 278 trailhead.
 
 ## Direction
 - Preserve ordinary lived detail, social accumulation, disability/material reality, humor, work, and independent side-character causality.
@@ -12,98 +12,90 @@
 - Magical ecology/fieldcraft remains a strong push without creature-of-the-week.
 - Future knowledge should sometimes work cleanly while evidence remains bounded.
 - Eventual title-defining leg-loss architecture remains long-range and unscheduled.
-- MONEY / CAPITAL forward nudge is active: Greg is now allowed to want something genuinely expensive enough to change behavior when a credible object, capability, investment, trade, or opportunity naturally appears. Do not manufacture the opportunity merely to satisfy the nudge, and do not shrink a real capital-scale desire back to copper-scale life automatically.
+- MONEY / CAPITAL engine is now active in-character after Ch277. Greg wants enough capital to choose opportunities beyond ordinary wage-scale necessity. Develop through actual value creation, not instant wealth.
 
 ## Magic
 - Totals remain **36 supervised minimal draws / 32 deliberate shaping attempts / 66 supervised external-effect attempts**.
 - Ch271 evidence remains near 1/3, middle 0/2, far untested. No general range law, reliability claim, material generalization, or generalized telekinesis.
-- No Greg mana use Ch272–276. Outside-session restrictions unchanged. Hessa next experiment/appointment unselected.
-- Wearing/performing with a pre-existing enchanted theatre mask in Ch276 is not Greg magic evidence and does not change permissions.
+- No Greg mana use Ch272–277. Outside-session restrictions unchanged. Hessa next experiment/appointment unselected.
+- Researching or potentially buying a pre-existing magical object does not grant Greg permission to activate/test it.
+
+## Boundary clasp / Kes / Jori
+- Ch277 Greg notices a gold-priced defective magical object while on an ordinary lamp-oil errand with Lyssa.
+- **Kes** runs/owns enough of a west-market secondhand/estate-goods shop marked by a painted black key. Broader ownership/life unestablished.
+- Kes calls object `latch ring`; Jori appraisal calls it **old-pattern boundary clasp**.
+- Physical: palm-width flattened brass loop, black iron activation pin, six square inner notches, one visibly cracked inner seat, no matched collar, no maker mark.
+- Serious rational defects: missing collar, uncontrolled `biting` closure, cracked seat, old pattern, uncertain compatibility/repairability, unknown maker, uncertain post-repair holding ability. Appraiser refused second activation due handling risk.
+- Kes has curved thumb-base scar from prior accidental closure after paired contact at iron pin and inner brass. Greg never touches/activates clasp.
+- Greg recognizes close old-life analogue `compression clasp`: fitted versions reinforced prepared seams through boundary/spatial fold. This is analogue memory, NOT proof of this exact object's capabilities.
+- Greg remembers later ceramic isolation sleeves around trigger pins as possible accidental-contact mitigation. This would not fix crack, provide collar, prove compatibility, or stabilize fold. Applicability remains unproven.
+- Greg pays one copper to read Jori's appraisal in shop; no copy.
+- Appraisal supports incomplete old-pattern boundary clasp, observed closure activation/uncontrolled nearest-edge closure, crack, absent collar, unknown maker, and probable intended fitted-vessel/case closure. It certifies no pressure/heat/mana/scent/preservation/storage claims.
+- Appraisal does NOT label object cursed. `Bites` is Kes's practical customer language.
+- **Jori** named only as appraiser at **Blue Steps**, reportedly still there last month. Broader identity/title/life unestablished.
+- Kes says clasp has sat about seven months, started at higher price, current gold price is roughly about recovering his money/shelf space. No exact conversion to copper/silver exists.
+- Kes requires gold payment. No hold, deposit, option, reservation, promise, or ownership interest. Kes refuses to notify Greg if sold; Greg can come look, but Kes says not daily.
+- Greg explicitly wants the clasp but does not buy it.
+
+## Money / capital
+- Ch277 is first explicit capital-scale desire.
+- Greg recognizes nearly all existing income routes sell his presence/time: theatre, binding, Guild consultation, market cover, tiny watches.
+- He begins asking how knowledge could create value through trade, matching, shares, production, brokerage, etc., but has no business plan yet.
+- Durable self-notes: do not buy biting brass because excited; learn what it actually is; learn what money can do besides wait.
+- Do not collapse engine back to copper wage accumulation only. Also do not jump to startup/business empire/instant arbitrage success.
+- Existing possessions have value but Greg explicitly does not want to sell something important just to reach the clasp price.
+- Lyssa does not fund/manage the project. She warns `no` on buying now and tells him to ask consultation cost first.
+- Vale debt remains active/unresolved and is NOT convenient financing.
 
 ## Magical ecology / ordinary magic
-- Slateback bounded; mudjaw/reedcrest unconfirmed; ditchrunners probable report only; bellthroats trained theatre fauna.
-- Glowwings bounded ordinary magical birds, not weather predictors.
-- Ch273 free local copperback stands; no immediate follow-up.
-- Ch275 whitewall/rimeweb analogue stands as ordinary magical building growth; Ch276 Mella reports wall dull/drying/no blue. No leak/escalation established.
-- Shade-lamp, household charm, feed-stone, seal-plate mechanisms remain bounded/unexplained.
-- Ch276 enchanted theatre mask: black lacquer, dark lining, faint silver internal lines, small glassy scales near eyes/mouth. Sivi says it changes expression under marked stage lamps. Lamp three produces a deliberately wrong smile. Exact maker, construction, age, value, power source, and mechanism unestablished.
-- Stage lamp three opens a faint blue-white floor line at Greg's marked position and triggers the mask change. Greg feels only a faint cool crawl through lacquer, no pain or mana use.
-
-## Theatre / Ch276 Masked Guest
-- Lenn brings a genuine one-house theatre summons before breakfast. Ordinary performance pay, one house only.
-- Greg replaces absent **Pavin** as the **Masked Guest** in **The Last Lantern**. Seven lines, mostly seated banquet scene, one stand/cross, blackout exit. Pavin absence reason unestablished and Pavin is probably back next house.
-- **Sivi** named: lamp-side worker with practical authority over the enchanted mask/lamps. Exact title/broader life unestablished. She explicitly says she runs lamps and does not know how the old mask was made.
-- Mask handling in scene only: do not touch inside with wet fingers, do not wipe glass scales, report sweat/fogging. No general enchanted-item doctrine.
-- Narrowed mask vision causes Greg's left crutch tip to tap Marek's chair in rehearsal. Sivi corrects him to turn/look with his head before placing the crutch. No injury/damage.
-- Greg initially overacts the visible mask change. Marek says `Stop helping the mask`; Hara says the face is already doing the visible work. Greg later lets the prop work without announcing it through his body.
-- Performance succeeds normally. Audience gives a small collective shift at lamp-three change. No heroic rescue or power beat.
-- Rinna pays ordinary one-house performance money and gives no tomorrow promise. No standing Masked Guest role, no Sivi task, no magical-prop job.
-- Do not convert Ch276 into secret future-combat training, Hessa research, automatic illusion curriculum, or magical-item acquisition lane.
-
-## Whitewall / Mella / lower room
-- Ch275 whitewall event remains bounded. Ch276 Mella says wall is dull and drying, no blue. That is the entire follow-up.
-- No confirmed leak, feed-stone failure, structural damage, infestation, municipal case, or Greg cleaning duty.
-- Mella remains the local building expert. Broader life/other-building work unestablished.
-
-## Market scale cover / Deni / Toma
-- Ch274 one-off paid sick-cover reading job. Lio expected back next day; no standing market job.
-- Seal plate remains narrow paired-small-weight infrastructure. No Ch275–276 market follow-up.
-- Deni/Toma/Lio broader lives/roles and old sun marks remain unestablished.
-
-## Civic cart dispute / Green Coat / Senn
-- Ch273 Green Coat attempted two-copper witness shaping and brief sleeve contact. Greg refused and reported it to Senn.
-- Ch274–276 have no Green Coat/Senn/cart-dispute contact.
-- Do NOT connect Green Coat to Bren, brown coat, Vale, Mason's Cut, theatre, or an organization without new evidence.
-- Exact cart/post fault and Green Coat identity/side/employer/recurrence unresolved.
+- Existing bounded ecology remains unchanged.
+- Ch277 adds old magical boundary-clasp technology via ordinary appraisal/resale infrastructure.
+- Exact clasp mechanism, internal inclusions, maker, age, original owner, collar design, repairability, safe activation, actual seal strength, and broader capability remain unestablished.
 
 ## Theatre / broader work
-- Greg is not permanent caller/stage manager/Uncle/usher/front-of-house/utility worker.
-- Ch276 is one-house replacement acting only, not promotion.
-- Demi usual caller status remains unknown; Ch276 does not address Demi.
-- Rinna Ch251 parcel remains unresolved.
-- Hollen/Pem remain two paid half-days only; no standing employment/recent contact.
+- Ch276 one-house Masked Guest replacement stands. No theatre contact Ch277.
+- Greg is not permanent caller/stage manager/Uncle/Masked Guest/utility worker.
+- Hollen/Pem remain occasional half-day work only. Edrin route conditional only. No standing market-scale job.
 
 ## Household / Lyssa
 - Lyssa remains independent. Greg is not manager/archivist of her network.
 - Collar facing identified Ch273; six wraps explicitly separate and unresolved.
-- Ch274 narrow paper parcel leaves with Lyssa in Ch276 morning and is no longer on table at night. Contents/connection unestablished; Greg does not ask.
+- Ch274 narrow paper parcel remains unexplained; not surfaced Ch277.
 - Brown cloth, older materials, Ch269 packet, Ch270 bundle remain protected/unresolved.
-- Potatoes remain upstairs after Ch275; no spoilage/illness development Ch276.
 
-## Economy / debt
-- Vale debt active/unresolved; exact balance unstated. Original terms unchanged. No Vale/Bren connection.
-- Ch276 Greg receives ordinary theatre pay for one house and splits household share that evening. Exact pay amount not preserved in state.
-- No debt payment/Vale contact.
-- MONEY / CAPITAL forward nudge remains active. Ch276 enchanted mask is NOT retroactively established as a desired acquisition, bargain, unique artifact, or capital target.
-
-## Pressure
-- Older grounded brown-coat/Mason's Cut/Bren evidence ceiling through Ch236 unchanged.
-- Ch273 separate civic-dispute pressure fact remains bounded.
-- Ch274–276 add no pressure evidence.
+## Civic dispute / pressure
+- Ch273 Green Coat witness-shaping incident remains separate/bounded. No contact Ch274–277.
+- Older brown-coat/Mason's Cut/Bren evidence ceiling through Ch236 unchanged.
+- No Vale/Bren/Green Coat connections without new evidence.
 
 ## Greg / body / equipment
 - Greg: nineteen, Bronze, Carrow, permanent LEFT BKA with knee preserved; right leg intact; two crutches.
-- Ch276 mask narrows vision, requiring head turn before crutch placement near scenery; Sivi gives practiced elbow guidance just beyond blackout curtain. Body ordinary, repaired shoe holding, no injury/equipment change.
+- Ch277 body ordinary; repaired right shoe quiet/holding. No injury/equipment change.
+
+## Economy / debt
+- Currency copper/silver/gold; no conversion rate established.
+- Vale debt active/unresolved; exact balance unstated; original terms unchanged.
+- Ch277 one copper spent for appraisal reading plus ordinary food/lamp-oil spending. No debt payment/Vale contact.
 
 ## Protected uncertainty
-- Weak needle-case mark, Rinna parcel, Lyssa older materials/bundles/Ch274 parcel, Ch246 crate contents, Pell exact return, Vale/Bren link unresolved.
-- Collar-facing customer/coat broader purpose unresolved; six wraps explicitly separate and unresolved.
+- Weak needle-case mark, Rinna parcel, Lyssa older materials/bundles, Ch246 crate contents, Pell exact return, Vale/Bren link unresolved.
+- Collar-facing customer/coat broader purpose and six wraps unresolved.
 - Hessa next experiment unselected; exact distance measurements unknown; far untested.
-- Mudjaw/reedcrest unconfirmed; ditchrunners probable only.
-- Copperback lifecycle/flight/magic/eradication/direct feeding and Savin damage causation unestablished.
-- Household charm/feed-stone/shade-lamp/seal-plate mechanisms unestablished.
-- Whitewall exact cause/identity/mechanism/lifecycle and prior wall moisture source unresolved.
+- Mudjaw/reedcrest unconfirmed; ditchrunners probable only; copperback deeper biology unestablished.
+- Household charm/feed-stone/shade-lamp/seal-plate/stage-mask mechanisms unestablished.
+- Whitewall exact cause/identity/mechanism/lifecycle unresolved.
 - Green Coat identity/motive/side/employer/recurrence and cart/post fault unresolved.
-- Pavin absence reason/broader life unestablished.
-- Sivi exact title/broader life, mask construction/maker/age/value/power source, stage-lamp mechanism, and prevalence of similar masks unestablished.
+- Boundary clasp exact mechanism/internal inclusions/maker/age/original owner; old-life analogue match; ceramic sleeve applicability; crack severity/repairability; collar design/availability; actual capability; safe activation; future price/sale status all unresolved.
+- Jori broader identity/life, whether Jori will consult Greg, and consultation price unresolved.
+- Kes broader business/ownership unresolved.
 
 ## Next
-- Follow Chapter 277 trailhead in `MANUSCRIPT_STATE.md`.
-- Let Ch276 theatre/mask job stand as a one-house replacement. Pavin is probably back next house. Do not auto-return The Last Lantern, Masked Guest, Sivi, lamp three, or mask mechanics.
-- Greg's theatrical gain is narrow: stop helping a prop that is already doing visible work. Do not make it secret combat/illusion training.
-- Whitewall is dull/drying and remains Mella's problem, not Greg's next assignment.
-- MONEY / CAPITAL forward nudge is active. If a credible expensive object/opportunity naturally appears, allow real desire and capital-scale thinking. Do not manufacture an item, and do not retroactively turn Sivi's mask into that object.
-- Ch273 civic dispute and free copperback remain quiet. Scale work remains one-off. Lyssa's parcel remains protected.
+- Follow Chapter 278 trailhead in `MANUSCRIPT_STATE.md`.
+- Let capital desire breathe. Greg wants the clasp, but desire is not evidence and he has no claim on it.
+- Jori/Blue Steps is a natural research route, not a mandatory next chapter. If used, ask price first and preserve independent appraisal expertise.
+- Do not make ceramic sleeve a magic fix. It is only a possible handling mitigation from later old-life technology.
+- Develop value creation through actual relationships/opportunities rather than modern-business exposition.
+- Do not sell Greg's important possessions, make Lyssa fund him, use Vale as financing, or loosen Hessa restrictions to accelerate acquisition.
 - Magic remains 36 / 32 / 66 with Ch271 evidence ceilings and restrictions unchanged.
-- Greg has no guaranteed Hessa appointment, theatre call, Hollen shift, Vale meeting, Guild consultation, animal assignment, Savin appointment, Orin watch, market-scale job, civic hearing, Green Coat encounter, whitewall duty, Masked Guest role, Sivi task, or Lyssa-network obligation.
-- Do not automatically rotate through mask/Sivi/Pavin, whitewall/Mella, scale checks/Deni/Toma/Lio, Pera/Orin, Vela, Green Coat/Senn, copperbacks/Savin, collar facing/six wraps, water/feed stones, Hessa/distance, caller/Demi, bellthroats, Nerin/Mara/Jessa, glowwings, ditchrunners/Edrin, Hollen/Pem, Vale, older pressure, magic-item acquisition, or eventual leg-loss architecture merely because available.
+- Greg has no guaranteed Jori appointment, clasp hold, Hessa appointment, theatre call, Hollen shift, Vale meeting, Guild consultation, animal assignment, Savin appointment, Orin watch, market-scale job, civic hearing, Green Coat encounter, or Lyssa-network obligation.
+- Do not automatically rotate through Jori/Kes/clasp, theatre/mask, whitewall, scale work, Pera/Orin, Green Coat/Senn, copperbacks/Savin, Lyssa materials, Hessa, bellthroats, Nerin/Mara/Jessa, ditchrunners/Edrin, Hollen/Pem, Vale, older pressure, or eventual leg-loss architecture merely because available.
