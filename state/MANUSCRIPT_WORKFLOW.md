@@ -22,28 +22,42 @@ Do not create a new range-stamped running manuscript or chapter-numbered state f
 5. Historical range-stamped files may remain as provenance until a deliberate cleanup pass.
 6. Exact Chapters 156–219 have been recovered outside GitHub but still require exact-text synchronization into the repository; do not reconstruct them from summaries. Chapter 220 and later are written directly to the permanent file.
 
-## Production model: one chapter at a time, ship in small batches
+## Production model: one chapter, one durable transaction
 
-The WRITING UNIT is one chapter.
+The WRITING UNIT is one complete chapter.
 
-The DEFAULT SHIPPING UNIT is a small batch, usually 3–5 completed chapters unless the author asks for a different cadence or a chapter contains a reason to checkpoint immediately.
+For normal accepted forward production, the DEFAULT DURABLE SHIPPING UNIT is also one complete chapter.
 
-Do not draft five chapters as one undifferentiated block. Complete Chapter N, then Chapter N+1, preserving the ability to stop, inspect, or redirect between chapters.
+Do not let several finished chapters accumulate only in chat or other temporary working context. Chapter N is not complete merely because prose was drafted. It is complete when the exact prose, relevant living state, next trailhead, and accepted GitHub authority agree.
 
-A normal batch looks like:
+A normal chapter transaction looks like:
 
-1. Read current authority and batch trailhead.
-2. Write ONE complete chapter.
-3. Give it a LIGHT drafting pass only: clarity, repetition, attribution, paragraph rhythm, continuity, and obvious weak prose.
-4. Record compact temporary batch notes so the next chapter inherits what actually happened.
-5. Write the next chapter.
-6. Repeat until roughly 3–5 chapters are complete or a natural stopping point appears.
-7. Before shipping, inspect the batch as a sequence for continuity, repeated openings, accidental resets, title collisions, magic/money/threat facts, and obvious prose problems.
-8. Ship the completed batch to the SAME living manuscript and state files.
-9. Update durable state from the batch endpoint and important residue, not by writing a full state ceremony for every chapter.
-10. Verify the shipped endpoint and leave the next trailhead.
+1. Read current `main`, core manuscript state, and the exact recent prose edge.
+2. Read the current executable trailhead from `MANUSCRIPT_STATE.md`.
+3. Privately identify the light chapter contract and write ONE complete chapter.
+4. Give it a LIGHT drafting pass only: clarity, repetition, attribution, paragraph rhythm, continuity, and obvious weak prose.
+5. Validate chapter length, title, no-em-dash rule, numerical continuity, protected uncertainty, and any chapter-specific constraints.
+6. Append the exact accepted prose to the SAME permanent running manuscript.
+7. Update only the living state/index/open-thread files whose answers materially changed.
+8. Put the next executable chapter trailhead in `MANUSCRIPT_STATE.md`.
+9. Commit the complete chapter transaction to `main` when the author has authorized normal forward shipping.
+10. Re-read current `main` and verify the endpoint before reporting success or drafting the next chapter.
 
-This keeps GitHub durable without forcing the Manuscript Engine to interrupt its story flow after every chapter.
+This creates a hard durability boundary between chapters. A chat may continue immediately into Chapter N+1 after Chapter N is verified, but it does so from the new GitHub authority rather than relying on its own memory.
+
+### Deliberate batches
+
+A multi-chapter batch is an explicit exception, not the default. Use one only when the author asks for it or a specific workflow requires it. Even then, do not leave completed prose vulnerable to chat loss. Use a durable WIP branch/checkpoint between chapters when necessary, preserve chapter boundaries, and do not treat uncommitted chat text as authoritative.
+
+## Chat independence
+
+Previous chat history is optional context, never required authority.
+
+A fresh Manuscript Engine chat should be able to begin with:
+
+`Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
+
+It must reconstruct the current endpoint, exact edge, constraints, and next job from GitHub. If the same chat remains alive, the user may simply say `Continue` or `Next chapter` after a successful chapter transaction.
 
 ## Drafting is not the heavy prose edit
 
@@ -70,55 +84,68 @@ HEAVY EDIT = PROSE + SOCIAL TEXTURE + LONGITUDINAL POLISH.
 
 Separating these jobs protects both throughput and quality.
 
-## Batch checkpoint exceptions
+## Checkpoint exceptions
 
-Ship earlier than 3–5 chapters when:
+Normal forward chapters ship after each chapter. Use a branch or additional checkpoint discipline when:
 
-- canon changes materially;
-- exact numerical continuity changes and would be dangerous to lose;
-- a major arc turns;
-- the author explicitly wants to inspect a chapter;
-- the session may end before the batch finishes;
-- repository synchronization risk makes an earlier checkpoint safer.
+- work is broad or risky;
+- a manuscript synchronization/recovery operation is underway;
+- the author explicitly wants several chapters held for inspection as a unit;
+- accepted main must not move yet;
+- a chapter cannot be fully verified.
 
-It is also fine to let a batch run a little longer when the story is flowing and the state is stable. The 3–5 chapter cadence is a default, not a rigid quota.
+Exact numerical continuity, major arc turns, canon changes, or session-end risk are reasons to checkpoint sooner, never reasons to keep completed prose only in chat.
 
-## Verification before a batch ship
+## Verification before a chapter ship
 
 At minimum verify:
 
-- every intended chapter is present and sequential;
+- the intended chapter is present and sequential;
 - the final chapter/title endpoint is correct;
-- target chapter lengths meet the current writing target unless intentionally changed;
+- target chapter length meets the current writing target unless intentionally changed;
 - NO EM DASHES appear in newly drafted manuscript prose;
 - numerical/canon continuity reflects what actually happened;
 - state/index/open-thread changes do not contradict the prose;
+- the next executable trailhead is durable in `MANUSCRIPT_STATE.md`;
 - no stale source overwrote newer GitHub authority.
+
+After committing, verify the resulting `main` ref and endpoint again before claiming the chapter is shipped.
+
+## Recovery / mismatch rule
+
+If chat history, a prompt, or a user recollection says Chapter N was completed but current GitHub authority ends at N-1, STOP forward numbering.
+
+1. Search durable branches/checkpoints for exact Chapter N prose and state.
+2. If exact N exists durably, recover/integrate it before writing N+1.
+3. If exact N does not exist durably, report the synchronization gap.
+4. Never reconstruct missing exact prose from summaries, state residue, or chat memory and then pretend it was the lost chapter.
+
+Nothing happened durably until it crossed into GitHub.
 
 ## Reader synchronization
 
 The reader is downstream from manuscript authority.
 
-Reader updates do not need to interrupt every chapter. Prefer syncing the reader at batch checkpoints or when a reader-specific fix is already being shipped.
+Reader updates do not need to interrupt every chapter. Prefer syncing the reader at deliberate reader checkpoints or when a reader-specific fix is already being shipped.
 
 Do not let reader lag become manuscript loss: exact prose must be durable even when illustrated/static pages have not caught up.
 
 ## Re-prompt / trailhead behavior
 
-Within a multi-chapter batch, use compact working trailheads rather than a large formal handoff after every chapter.
+The detailed chapter-specific steering belongs in `MANUSCRIPT_STATE.md`.
 
-After the BATCH is shipped, provide:
+After a chapter is shipped, chat should provide a compact production receipt:
 
-1. compact production note;
-2. chapters completed;
-3. verified endpoint;
-4. important durable residue;
-5. one full copyable next-edge re-prompt.
+1. chapter number/title;
+2. verified word count and em-dash status;
+3. commit SHA / verified endpoint;
+4. one short note about what materially moved;
+5. confirmation that the next chapter trailhead is durable.
 
-GitHub provides durable continuity. The re-prompt gives the next writing session an explicit trailhead.
+A giant chapter-specific re-prompt is not required when the durable trailhead already contains the necessary steering. For human convenience, the generic restart prompt is enough:
+
+`Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
 
 ## Current edge
 
-Chapter 248 — **THE CONSTANT**.
-
-See `state/MANUSCRIPT_STATE.md` for current canon and the Chapter 249 edge.
+Do not trust a static chapter number in this workflow file. Read `state/MANUSCRIPT_STATE.md` and the permanent running manuscript on current `main` for the actual endpoint and next trailhead.

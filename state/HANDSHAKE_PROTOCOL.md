@@ -12,16 +12,9 @@ Avoid a fourth category of important finished work trapped only in a chat or mys
 
 ## GitHub-first transfer rule
 
-Do not package or request the full repository as a ZIP for an ordinary
-chat-to-chat or agent-to-agent handoff when current authority is already in
-GitHub. A later worker should reconstruct its lane from current `main`,
-`AGENTS.md`, relevant durable state, exact source authority, and any named
-branch or PR.
+Do not package or request the full repository as a ZIP for an ordinary chat-to-chat or agent-to-agent handoff when current authority is already in GitHub. A later worker should reconstruct its lane from current `main`, `AGENTS.md`, relevant durable state, exact source authority, and any named branch or PR.
 
-External transfer remains legitimate for a targeted artifact that GitHub
-intentionally does not hold: active editorial work, unique binary/source art,
-an exact missing recovery block, or a deliberate offline archive. Transfer only
-that artifact, not another copy of the entire project.
+External transfer remains legitimate for a targeted artifact that GitHub intentionally does not hold: active editorial work, unique binary/source art, an exact missing recovery block, or a deliberate offline archive. Transfer only that artifact, not another copy of the entire project.
 
 ## GitHub as re-prompt
 
@@ -29,7 +22,7 @@ GitHub cannot by itself force a random future chat to wake up and continue. But 
 
 Desired handshake:
 
-**WORKER A -> works/validates -> updates GitHub -> leaves NEXT_TASK -> WORKER B reads GitHub -> continues**
+**WORKER A → works/validates → updates GitHub → leaves NEXT_TASK/trailhead → WORKER B reads GitHub → continues**
 
 The re-prompt should point to repository instructions rather than restating the whole project.
 
@@ -41,21 +34,19 @@ For substantial work:
 3. verify current branch/main and changed files
 4. record unresolved risk or next executable edge
 5. store the lane's durable re-prompt / trailhead where that lane uses one
-6. provide one compact copyable next prompt visibly in chat
+6. provide one compact copyable restart prompt visibly in chat unless the user asked for no next-step prompt
 
 For broad/risky unfinished work, commit to a named branch so another worker can inspect it.
 
-### Visible re-prompt requirement
+## Manuscript / 01 special rule
 
-A GitHub-only re-prompt is not enough for the human handoff.
+Forward manuscript production is intentionally chat-independent.
 
-Unless the user explicitly asks for no next-step prompt, every substantial project run should end with a visible copyable prompt for the work/lane the worker actually recommends next.
+For normal accepted production, one complete chapter is one durable transaction. `MANUSCRIPT_STATE.md` carries the chapter-specific next trailhead. After Chapter N is validated, written to the permanent manuscript, state is updated, the transaction is committed, and current `main` is verified, the same chat may immediately continue to N+1. A fresh replacement chat must be able to do the same from GitHub without needing the old conversation.
 
-If the recommended next lane differs from the current lane:
-- keep the current lane's durable restart prompt in GitHub;
-- show the cross-lane prompt to the user in chat.
+If chat history says Chapter N happened but GitHub ends at N-1, do not write N+1. Search durable WIP for exact N and recover it if possible. Otherwise report the synchronization gap. Never rebuild missing exact prose from summaries.
 
-The user should not need to ask `what next?` after a substantial run.
+A giant chapter-specific prompt in chat is therefore optional when the durable trailhead is complete.
 
 ## NEXT_TASK convention
 
@@ -69,13 +60,17 @@ It should answer:
 
 Current state always outranks an old NEXT_TASK.
 
+For Manuscript / 01, `MANUSCRIPT_STATE.md` is the normal home for the next executable chapter trailhead.
+
 ## Minimal universal re-prompt
 
-> Continue Peg-Leg Greg from GitHub. Inspect current `main`, read `state/PROJECT_STATE.md` and the relevant lane playbook/state, then execute the current durable NEXT_TASK. Preserve newer authority. Work in GitHub, validate, update durable state, and leave the next handshake.
+> Continue Peg-Leg Greg from current GitHub authority. Inspect current `main`, read `state/PROJECT_STATE.md` and the relevant lane playbook/state, then execute the current durable NEXT_TASK. Preserve newer authority. Work in GitHub, validate, update durable state, and leave the next handshake.
 
 ## Manuscript re-prompt
 
-> Work as the Peg-Leg Greg Manuscript Engine. Inspect current `main`, follow `state/MANUSCRIPT_ENGINE_PLAYBOOK.md` and the manuscript startup sequence, write one chapter from current authority, validate/commit/update state, then leave the next handshake.
+> Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.
+
+That compact prompt is intentionally sufficient. The worker must discover the current endpoint, exact prose edge, constraints, and next trailhead from GitHub.
 
 ## Reader / UI re-prompt
 
@@ -93,6 +88,8 @@ The human should increasingly be able to say only:
 - `continue images`
 - `continue story control`
 - or simply `continue the highest-value Peg-Leg Greg work`
+
+Within an already-running Manuscript Engine chat, `Continue` or `Next chapter` is enough after the prior chapter has been durably committed and verified.
 
 The worker is responsible for discovering current state from GitHub.
 

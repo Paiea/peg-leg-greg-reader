@@ -45,6 +45,10 @@ Reusable external research belongs in `state/RESEARCH_LEDGER.md`, with sources, 
 ### Manuscript / 01
 Read `state/MANUSCRIPT_ENGINE_PLAYBOOK.md`, `state/MANUSCRIPT_WORKFLOW.md`, `state/MANUSCRIPT_STATE.md`, `state/OPEN_THREADS.md`, the current manuscript edge, and `state/PROSE_PLAYBOOK.md` when present. Use `state/STORY_NORTH_STAR.md` as durable artistic direction. Consult `state/STORY_ANTI_PATTERNS.md` when a chapter choice risks a known recurring failure mode. Consult character/setting/plot/development files only when useful. Preserve throughput.
 
+01 is intentionally chat-independent. Previous chat history may help but is never required authority. A fresh worker must reconstruct the current endpoint and next executable chapter from current GitHub state. For normal accepted forward production, treat one complete chapter as one durable transaction: draft, validate, update the permanent manuscript and relevant living state, store the next trailhead in `MANUSCRIPT_STATE.md`, commit, verify current `main`, then advance.
+
+If chat history or a prompt claims a chapter exists but GitHub ends earlier, stop forward numbering and recover exact durable prose first if it exists. Never fabricate a missing chapter from summaries or chat residue.
+
 ### Writers' Room / 02
 Read current manuscript/state plus `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, `state/WRITERS_ROOM_STATE.md`, and relevant specialist brains. Consult `state/STORY_ANTI_PATTERNS.md` when an exploration risks a known recurring failure mode. Explore alternatives, research real practice when useful, translate research into behavior/social/work possibilities, update durable residue, and hand developed possibilities to 03. Do not canonize exploration.
 
@@ -89,18 +93,13 @@ Avoid finished work existing only in chat or a mystery local file.
 
 ### GitHub-first handoff
 
-When current project authority is already in GitHub, do not create or request a
-full repository ZIP merely to move work between chats or agents.
+When current project authority is already in GitHub, do not create or request a full repository ZIP merely to move work between chats or agents.
 
 Normal handoff:
 
-**READ CURRENT GITHUB -> WORK ON BRANCH -> VALIDATE -> PR / MERGE -> UPDATE
-DURABLE STATE -> LEAVE COMPACT RE-PROMPT**
+**READ CURRENT GITHUB → WORK → VALIDATE → UPDATE DURABLE STATE → COMMIT / MERGE → VERIFY → LEAVE COMPACT TRAILHEAD**
 
-Use a small targeted attachment only when required work is intentionally absent
-from GitHub, such as the living heavy-edit manuscript, a genuinely unique source
-asset, an exact recovery block, or a user-requested offline archive. Full-project
-ZIPs are exceptional recovery artifacts, not routine checkpoints.
+Use a small targeted attachment only when required work is intentionally absent from GitHub, such as the living heavy-edit manuscript, a genuinely unique source asset, an exact recovery block, or a user-requested offline archive. Full-project ZIPs are exceptional recovery artifacts, not routine checkpoints.
 
 ## Handoff
 
@@ -110,19 +109,16 @@ At the end of substantial work:
 - validate what changed
 - update only relevant durable state
 - record a compact next executable edge
-- leave one copyable re-prompt that points the next worker back to GitHub
 - store the durable lane re-prompt / trailhead in the relevant state or playbook when that lane uses one
-- **also show a copyable next prompt visibly in the user-facing response before ending**
+- show a compact copyable restart prompt visibly in the user-facing response unless the user asked for no next-step prompt
 
-A GitHub-only re-prompt is not a complete human handoff. Do not make the user ask what to do next after a substantial run unless they explicitly asked for no next-step prompt.
-
-The visible prompt should target the worker/lane you actually recommend running next. That may differ from the durable same-lane restart prompt stored in GitHub.
+For Manuscript / 01 specifically, detailed chapter steering belongs in `MANUSCRIPT_STATE.md`. Do not duplicate a giant chapter-specific prompt in chat when the durable trailhead already contains the necessary information.
 
 The long-term goal is that fresh workers reconstruct their role primarily from repository state rather than giant handoff prompts.
 
 Minimal fresh-chat starters are intentionally valid:
 
-- `Continue Peg-Leg Greg from current GitHub authority.`
+- `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
 - `Continue Peg-Leg Greg Writers' Room from current GitHub authority.`
 - `Continue Peg-Leg Greg Story Control from current GitHub authority.`
 - `Continue Peg-Leg Greg as 04 — Heavy Prose Editor from current GitHub authority.`

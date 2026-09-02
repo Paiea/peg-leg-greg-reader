@@ -36,6 +36,8 @@ Normal pattern:
 
 `MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves HOW 01 should think/work. It is durable method, not a canon summary. Current facts belong in manuscript state/open threads and exact prose belongs in the manuscript.
 
+01 / Manuscript Engine is intentionally reconstructible from GitHub. Previous chat history is optional context, not operating authority. `MANUSCRIPT_STATE.md` is the normal durable bookmark and next-chapter trailhead.
+
 ## Shared artistic direction
 
 `STORY_NORTH_STAR.md` defines the current project-wide artistic target.
@@ -143,20 +145,27 @@ The recovered 156–219 block has not yet been consolidated into the permanent r
 
 ## Forward production workflow
 
-For every new chapter:
+For every normal new chapter:
 1. Read current GitHub authority first, including the engine playbook.
-2. Write one chapter at a time.
-3. Preserve canon, character, plot, and scene intent.
-4. Run the light prose/continuity pass.
-5. Verify roughly 2,500–4,000 words and clear 2,500 unless explicitly changed.
-6. Verify no em dashes in manuscript prose.
-7. Update the SAME permanent running manuscript file in place.
-8. Update the SAME compact state files in place.
-9. Ship/checkpoint in small batches when following the current batch workflow.
-10. Update reader surfaces only as needed, preserving newer UI/artwork work and exact-text authority.
-11. In chat, give the active workflow's compact production note / handoff.
+2. Read `MANUSCRIPT_STATE.md` and the exact recent manuscript edge; previous chat history is optional only.
+3. Write one chapter at a time.
+4. Preserve canon, character, plot, scene intent, protected uncertainty, and evidence ceilings.
+5. Run the light prose/continuity pass.
+6. Verify roughly 2,500–4,000 words and clear 2,500 unless explicitly changed.
+7. Verify no em dashes in manuscript prose.
+8. Update the SAME permanent running manuscript file in place.
+9. Update only the SAME living state/index/open-thread files whose answers materially changed.
+10. Store the next executable chapter trailhead in `MANUSCRIPT_STATE.md`.
+11. Commit the complete chapter transaction to accepted GitHub authority when normal forward shipping is authorized.
+12. Re-read current `main` and verify the endpoint before reporting success or advancing to the next chapter.
+13. Update reader surfaces only as needed, preserving newer UI/artwork work and exact-text authority.
+14. In chat, give a compact production receipt and generic restart prompt. Detailed chapter-specific steering belongs in durable state.
 
 Normal forward production may update `main` directly when explicitly requested. Broad prose passes, reader rebuilds, mass illustration work, manuscript consolidation, broad renames, and structural cleanup should normally use a branch first.
+
+A deliberate multi-chapter batch is an exception rather than the default. If one is requested, completed chapters must still be protected durably on a branch/checkpoint instead of existing only in chat.
+
+If a prompt or chat claims Chapter N exists but current GitHub authority ends at N-1, do not draft N+1. Search durable WIP for exact N; recover/integrate it if available, otherwise report the synchronization gap. Never reconstruct missing exact prose from summaries or chat residue.
 
 ## Visual production
 
@@ -220,4 +229,4 @@ Generic external research remains paused unless a real scene-specific gap appear
 
 Always re-read current manuscript authority first because 01 may advance while development work continues.
 
-Use the live durable `RE-PROMPT [02]` and `RE-PROMPT [03]` trailheads in their state files. Per `AGENTS.md` / `HANDSHAKE_PROTOCOL.md`, substantial chat handoffs must also show the user a visible copyable prompt for the lane actually recommended next.
+Use the live durable `RE-PROMPT [02]` and `RE-PROMPT [03]` trailheads in their state files. Per `AGENTS.md` / `HANDSHAKE_PROTOCOL.md`, substantial chat handoffs must also show the user a visible compact prompt for the lane actually recommended next.

@@ -20,6 +20,18 @@ Read additional engine state only when relevant. Some older state files may have
 
 Consult `state/STORY_ANTI_PATTERNS.md` when a chapter choice risks a known recurring failure mode. It is a guardrail, not mandatory boot reading and not canon.
 
+### Chat independence
+
+Previous chat history is optional context, never required authority.
+
+A long-running Manuscript Engine chat may continue chapter after chapter, but every chapter starts from the newest durable GitHub state produced by the previous transaction. The chat does not become the project brain merely because it has been alive for a long time.
+
+A completely fresh chat must be able to reconstruct the same next job from:
+
+`Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
+
+If the same chat remains alive after a successful chapter commit, `Continue` or `Next chapter` is sufficient because the worker must still re-check current GitHub authority before advancing.
+
 ## 2. Authority discipline
 
 Use this order for story decisions:
@@ -38,11 +50,24 @@ Do not reconstruct missing exact prose from summaries. A summary can preserve co
 
 Default production unit is ONE complete new chapter.
 
+For normal accepted forward production, one complete chapter is also the default durable shipping transaction.
+
 Do not respond to a chapter-writing prompt with only an outline, scene list, planning essay, or questions when the supplied direction is sufficient to write.
 
 The usual target is 2,500–4,000 words and clear of 2,500 unless the author changes it.
 
 The chapter should function as story, not as a container for every active thread.
+
+Chapter N is not complete merely because prose exists in chat. It is complete when:
+
+- exact prose is in the permanent running manuscript;
+- relevant living state agrees with what actually happened;
+- the next executable trailhead is durable in `MANUSCRIPT_STATE.md`;
+- validation passes;
+- accepted GitHub authority contains the transaction;
+- the resulting GitHub endpoint has been re-checked.
+
+Only then may normal forward production advance to Chapter N+1.
 
 ## 4. Story-engine rotation
 
@@ -304,13 +329,18 @@ At minimum verify:
 - title/index endpoint agree;
 - manuscript state endpoint agrees;
 - magic counts and other numerical continuity agree with what actually happened;
+- the next executable trailhead exists in `MANUSCRIPT_STATE.md`;
 - no stale file was used to overwrite newer GitHub authority.
+
+After the commit, re-read current `main` and verify the endpoint again. A local draft or successful write call is not enough by itself.
 
 If verification fails, report the actual state and repair before claiming completion.
 
 ## 17. GitHub write strategy
 
 For normal one-chapter forward production, small direct updates to `main` are acceptable when the author has explicitly asked to continue and ship.
+
+The default is a per-chapter transaction: write → validate → update permanent manuscript/state → commit → verify → only then advance.
 
 For broad or risky work, prefer a GitHub branch before changing authority. Examples:
 
@@ -320,6 +350,8 @@ For broad or risky work, prefer a GitHub branch before changing authority. Examp
 - manuscript consolidation / historical synchronization;
 - broad renames;
 - structural repository cleanup.
+
+A deliberate multi-chapter batch is an exception. If used, protect completed chapters on a durable branch/checkpoint between chapters rather than leaving them only in chat.
 
 The goal is to avoid meaningful finished work existing only inside chat or an untracked local file.
 
@@ -333,7 +365,7 @@ Do not make a new state file every chapter.
 
 Update living files in place.
 
-`MANUSCRIPT_STATE.md` answers: WHERE ARE WE NOW?
+`MANUSCRIPT_STATE.md` answers: WHERE ARE WE NOW, WHAT CHANGED, AND WHAT IS THE NEXT EXECUTABLE CHAPTER TRAILHEAD?
 
 `OPEN_THREADS.md` answers: WHAT IS STILL LIVE / UNRESOLVED?
 
@@ -341,7 +373,7 @@ Update living files in place.
 
 `MANUSCRIPT_ENGINE_PLAYBOOK.md` answers: HOW SHOULD 01 THINK AND WORK?
 
-After a shipped chapter batch or other meaningful manuscript wave, ask one integration question before touching state:
+After a shipped chapter or other meaningful manuscript wave, ask one integration question before touching state:
 
 **What durable state actually changed because this prose now exists?**
 
@@ -353,27 +385,42 @@ Historical files can remain until deliberate cleanup, but they should not become
 
 ## 19. Re-prompt ritual
 
-After a completed chapter and GitHub update, chat should contain:
+After a completed chapter and GitHub update, chat should contain a compact production receipt:
 
-1. a compact production note;
-2. the actual chapter title;
-3. verified word count and em-dash status;
-4. a brief note about what moved;
-5. one FULL copyable next-chapter re-prompt in a single code block.
+1. chapter number and actual title;
+2. verified word count and em-dash status;
+3. verified commit SHA / endpoint;
+4. a brief note about what materially moved;
+5. confirmation that the next executable trailhead is durable in `MANUSCRIPT_STATE.md`.
 
-The next re-prompt must be generated from what ACTUALLY happened in the new chapter, not merely copied from what the previous prompt predicted.
+The detailed next-chapter steering must be generated from what ACTUALLY happened in the new chapter and stored durably in `MANUSCRIPT_STATE.md`, not merely copied from what the previous prompt predicted.
+
+A giant chapter-specific re-prompt is optional when that durable trailhead is complete. For human convenience, show the compact generic restart prompt:
+
+`Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
 
 GitHub is durable memory.
-The re-prompt is the steering wheel.
+`MANUSCRIPT_STATE.md` is the bookmark and steering edge.
+Chat is disposable execution context.
 
-## 20. Failure mode
+## 20. Failure / recovery mode
 
 If exact source prose is unavailable, do not fake it.
 
 If GitHub cannot be written, do not claim it was updated.
 
-If a chapter cannot be verified, preserve the draft and report the gap.
+If a chapter cannot be verified, preserve the draft durably when possible and report the gap.
 
 If a state file is stale, update or quarantine its stale claim rather than letting it silently control newer work.
 
+If chat history, a prompt, or a user recollection claims Chapter N exists but current GitHub authority ends at N-1:
+
+1. do not draft N+1;
+2. search durable branches/checkpoints for exact Chapter N;
+3. if exact N exists durably, recover/integrate it first;
+4. if exact N does not exist durably, report the synchronization gap;
+5. never reconstruct the missing chapter from summary residue and pretend it is the lost exact prose.
+
 Prefer an explicit synchronization gap over invented continuity.
+
+Nothing counts as a completed forward chapter until it crossed the durable GitHub boundary.
