@@ -1,10 +1,10 @@
 # MANUSCRIPT OPEN THREADS
 
 ## Current edge
-- Current exact story endpoint: Chapter 280 — **THE REPEAT**.
-- Exact Chapters 249–280 are durable checkpoint files and outrank summaries.
-- Permanent running manuscript remains physically materialized through Chapter 248 and requires exact-text integration of 249–280. Older Ch156–219 synchronization debt also remains.
-- See `MANUSCRIPT_STATE.md` for executable Chapter 281 trailhead.
+- Current exact story endpoint: Chapter 281 — **THE SHARE**.
+- Exact Chapters 249–281 are durable checkpoint files and outrank summaries.
+- Permanent running manuscript remains physically materialized through Chapter 248 and requires exact-text integration of 249–281. Older Ch156–219 synchronization debt also remains.
+- See `MANUSCRIPT_STATE.md` for executable Chapter 282 trailhead.
 
 ## Direction
 - Preserve ordinary lived detail, social accumulation, disability/material reality, humor, work, and independent side-character causality.
@@ -12,86 +12,91 @@
 - Magical ecology/fieldcraft remains a strong push without creature-of-the-week.
 - Future knowledge should sometimes work cleanly while evidence remains bounded.
 - Eventual title-defining leg-loss architecture remains long-range and unscheduled.
-- MONEY / CAPITAL engine is active but need not advance every chapter.
+- MONEY / CAPITAL engine remains active and gradual. Ch281 complicates agreements/referrals rather than scaling income.
 
 ## Magic
-- Totals now **36 supervised minimal draws / 32 deliberate shaping attempts / 69 supervised external-effect attempts**.
-- Ch271: near 1 clean response / 3; middle 0 / 2; far untested.
-- Ch280: same square, same middle position, no glass; attempt 67 no response; 68 possible edge lift/no net displacement; 69 small clean net-away displacement.
-- New narrow evidence: near is **not the demonstrated limit** because one clean response has now been observed at middle.
-- Do NOT infer a range law, reliability law, middle difficulty, maximum range, material generalization, generalized telekinesis, or count attempt 68 as clean evidence.
-- Far remains untested.
-- Outside-session restrictions unchanged. Hessa next experiment/appointment unselected.
+- Totals **36 supervised minimal draws / 32 deliberate shaping attempts / 69 supervised external-effect attempts**.
+- Ch271 near 1/3, middle 0/2. Ch280 same-square middle: 1 clean/3 plus one possible edge lift. Far untested.
+- Near is not demonstrated limit. No range/reliability/middle-difficulty/maximum-range/material-generalization/generalized-telekinesis law.
+- No Greg mana use Ch281. Outside-session restrictions unchanged. Hessa next experiment/appointment unselected.
 
 ## Money / capital / client discipline
-- Ch277 wakes capital desire through Kes's gold-priced defective boundary clasp.
-- Ch278 Jori narrows clasp evidence and shows fees can price judgment/reputation/risk/matching, not only clock time.
-- Ch279 Greg earns two tiny scoped fees from Halei and develops `SCOPE BEFORE WORK` / `CLIENT FIRST` as personal discipline.
-- Ch280 does not materially advance commerce. Greg's private copper remains private and is not labeled clasp money.
-- No standing finder/broker/appraiser/consultant business exists.
+- Ch277 wakes capital desire; Ch278 adds Jori's fee/reputation/risk/matching logic; Ch279 provides two tiny scoped fees.
+- Ch281 Greg agrees to inspect Rell's odd chair hardware for **zero** before looking because he also wants the information. After recognizing it, he refuses to retroactively invent a fee.
+- New private rule: `PRICE BEFORE WORK, EVEN IF PRICE IS ZERO`.
+- Actual owner Maren later hires Greg separately for one copper to inspect five additional chairs under a fixed no-activation/no-dismantling scope.
+- Greg now has two private copper retained from bounded-answer work: one Halei coin, one Maren coin. Not clasp money and not consequential capital yet.
+- Rell reasonably notices she created a paid introduction and asks for a future share. Greg makes no agreement.
+- Referral compensation is now a live question: useful introductions may deserve value, but incentives can create noise/overclaiming and reputation risk. Do not instantly solve with a polished commission schedule.
+- Existing personal `SCOPE BEFORE WORK` / `CLIENT FIRST` rules remain imperfect and non-universal.
+
+## Rell / Maren / return hardware
+- **Rell** repairs furniture two lanes from Greg's building. Short/broad, dark blue scarf, close-cropped hair, sawdust on trousers, cloth-wrapped thumb. Broader life/business unestablished.
+- **Maren Tosk** runs Clay Arch rooming house. Taller than Rell, maybe fifty by Greg's impression, heavy gray braid, ordinary brown patched coat. Her coat is explicitly NOT older pressure evidence.
+- Six common-room chairs were scorched in a cooking/curtain fire; no one hurt. Four may be repairable, two parts candidates. Exact fire/building history unestablished.
+- Rell reports first removed black strip crawled about finger-width on her bench while she made tea. Greg does not directly observe movement and does not establish cause.
+- Greg recognizes close old-life class: low-strength return hardware for light furniture/fixtures that moved toward a paired registered resting position/anchor.
+- First strip observed: flat black metal, hand-span-ish, two holes, one damaged end, fine pale paired curves. No glow/heat/sound observed.
+- Five-chair inspection finds: one matching empty recess; one intact-looking strip with open-corner-square mark; another empty recess; one too burned to tell; one small open-corner plate on rear stretcher that may be related.
+- Greg recognizes open-corner-square mark family from old life as low-strength registered-resting-position hardware. Supports class identification only.
+- Possible chair-6 plate pairing remains theory. Greg explicitly refuses bringing pieces together because that would be activation testing.
+- Maren wants stationary chairs; Rell can remove unknown hardware separately as repair work if owner chooses.
+- Removed pieces remain Maren's property. Greg gives Jori/Blue Steps only as possible appraisal route, no promise/commission.
+- Exact maker, age, mechanism, pairing geometry, activation condition, stored force, safety, value, and future disposition remain unestablished.
+- Rell proposes future referral compensation; no deal exists.
 
 ## Halei / Trine braces / Noll
-- Halei's Ch279 work is complete unless she independently creates a new explicit claim.
-- Noll independently corroborated Greg's old-life Trine-brace mark memory: bar count = width, hook direction = side.
-- Some old glass haulers, instrument carts, and mountain loads still use old braces; newer rigs often use cross-bands.
-- Noll may inspect/buy sound parts after separate inspection; no inspection/sale exists yet.
-- Greg gave Halei Noll/Jori routes without commission. Do not auto-follow the box.
+- Halei Ch279 work remains complete unless independently reactivated.
+- Noll corroborated Trine-brace mark memory. No inspection/sale/follow-up in Ch280–281.
 
 ## Boundary clasp / Kes / Jori
-- Kes's defective old boundary clasp remains unowned; status unknown because Greg does not visit Kes Ch278–280.
-- No hold/deposit/option/financing. Do not manufacture sale pressure.
-- Rational defects and Jori evidence ceilings unchanged.
-- Ceramic isolation remains possible handling mitigation only, not repair.
-- Jori is not mentor/employer. No guaranteed appointment or finder work.
-
-## Sallo / copperback
-- Ch279 Sallo copperback/roughened waxed line remains bounded. No new copperback evidence Ch280.
-- Sallo already knows Pera; Greg refused damaged line even free due no use/buyer and contamination concern.
+- Kes clasp remains unowned/status unknown. No visit Ch278–281, no sale pressure, hold, financing, or option.
+- Jori remains independent appraiser, not mentor/employer. Ch281 name given to Maren only as possible appraisal route; no promise she accepts.
 
 ## Theatre / broader work
-- Ch276 one-house Masked Guest replacement stands. No theatre contact Ch277–280.
+- Ch276 one-house Masked Guest replacement stands. No theatre contact Ch277–281.
 - Greg remains no permanent caller/stage manager/Uncle/Masked Guest/utility worker.
-- Hollen/Pem occasional only; Edrin route conditional only.
-- No paid work Ch280.
+- Ch281 one-copper Maren inspection does not create standing finder/appraiser work.
 
 ## Household / Lyssa
 - Lyssa remains independent and does not manage/fund capital pursuit.
-- Ch280 pale thread dust again appears on one sleeve; she brings a loaf and is tired. Greg does not interrogate her work.
-- Older brown cloth/materials/bundles/parcel remain protected.
-- Cala/Tavi cabbage-note joke establishes no new obligation or magic fact.
+- Ch281 she brings home a new flat wrapped package, different shape from Ch274 narrow parcel, and does not explain/open it. Greg does not investigate.
+- Older brown cloth/materials/bundles remain protected.
+- Cala onion salvage and Tavi onion-boat chaos remain ordinary household/social texture.
 
 ## Civic dispute / pressure
-- Ch273 Green Coat witness-shaping incident remains separate/bounded. No contact Ch274–280.
-- Older brown-coat/Mason's Cut/Bren evidence ceiling through Ch236 unchanged.
-- No Vale/Bren/Green Coat connections without new evidence.
+- Ch273 Green Coat remains separate/bounded; no contact Ch274–281.
+- Older brown-coat/Mason's Cut/Bren evidence ceiling unchanged.
+- Maren's brown coat is explicitly ordinary and no connection exists.
 
 ## Greg / body / equipment
-- Greg: nineteen, Bronze, Carrow, permanent LEFT BKA with knee preserved; right leg intact; two crutches.
-- Ch280 body ordinary through supervised session; no pain/tingling/weakness. Repaired shoe holding. No injury/equipment change.
+- Greg: nineteen, Bronze, Carrow, permanent LEFT BKA, knee preserved; right leg intact; two crutches.
+- Ch281 body ordinary; repaired shoe, right grip, left tip all holding. No injury/equipment change.
 
 ## Economy / debt
-- Currency copper/silver/gold; no conversion rate established.
+- Currency copper/silver/gold; no conversion rate.
 - Vale debt active/unresolved; exact balance unstated; original terms unchanged.
-- No new income/debt payment/Vale contact Ch280.
+- Ch281 earns one copper from Maren, kept private. No Vale contact/debt payment.
 
 ## Protected uncertainty
 - Weak needle-case mark, Rinna parcel, Lyssa older materials/bundles, Ch246 crate contents, Pell exact return, Vale/Bren link unresolved.
-- Collar-facing customer/coat broader purpose and six wraps unresolved.
-- Hessa next experiment unselected; exact near/middle/far measurements unknown; far untested; Ch280 attempt 68 only possible.
-- Mudjaw/reedcrest unconfirmed; ditchrunners probable only; copperback deeper biology unestablished.
+- Collar-facing broader purpose, six wraps, Ch281 flat package unresolved.
+- Hessa next experiment, exact distances, far response, attempt 68 possible only.
+- Mudjaw/reedcrest, ditchrunners, copperback deeper biology unestablished.
 - Household charm/feed-stone/shade-lamp/seal-plate/stage-mask mechanisms unestablished.
 - Whitewall exact cause/identity/mechanism/lifecycle unresolved.
-- Green Coat identity/motive/side/employer/recurrence and cart/post fault unresolved.
-- Boundary clasp exact mechanism/internal inclusions/maker/age/original owner, analogue match, ceramic-sleeve applicability, crack severity/repairability, collar design/availability, actual capability, safe activation, future price/sale status unresolved.
-- Jori broader network/history and future work unresolved.
-- Halei aunt/Trine-box condition/value/future inspection/sale and Noll/Tessa broader lives unresolved.
+- Green Coat/cart dispute unresolved.
+- Boundary clasp uncertainties/Jori network unchanged.
+- Halei/Trine future condition/value/sale unresolved.
+- Return hardware exact maker/age/mechanism/pairing/safety/value and Maren/Rell future actions unresolved.
+- Referral compensation structure unresolved.
 
 ## Next
-- Follow Chapter 281 trailhead in `MANUSCRIPT_STATE.md`.
-- Let Ch280's middle response stand. Do not automatically schedule far, immediate middle repetition, or material/direction broadening.
-- Preserve evidence ceiling: near is not demonstrated limit; no range/reliability law; far untested; attempt 68 possible only.
-- Capital remains active without requiring a commerce chapter. Ch279's two-copper success stays tiny.
-- Kes/clasp status remains unknown. Halei work remains complete unless independently reactivated.
-- Magic remains 36 / 32 / 69 with outside restrictions unchanged.
-- Greg has no guaranteed Hessa appointment, far test, finder job, brokerage assignment, Halei follow-up, Noll sale, Jori appointment, clasp hold, theatre call, Hollen shift, Vale meeting, Guild consultation, animal assignment, Savin appointment, Orin watch, market-scale job, civic hearing, Green Coat encounter, or Lyssa-network obligation.
-- Do not automatically rotate through Hessa/middle/far, Halei/Trine/Noll/Jori, Kes/clasp, Sallo/copperbacks, theatre/mask, whitewall, scale work, Pera/Orin, Green Coat/Senn, Savin, Lyssa materials, bellthroats, Nerin/Mara/Jessa, ditchrunners/Edrin, Hollen/Pem, Vale, older pressure, or eventual leg-loss architecture merely because available.
+- Follow Chapter 282 trailhead in `MANUSCRIPT_STATE.md`.
+- Let Ch281's free look and one-copper paid follow-up remain small. Do not launch a client business.
+- Referral compensation is a live question but no deal exists. Do not automatically resolve it next chapter.
+- Return hardware is identified only as a close class/mark family. Do not activate it or make it valuable by fiat.
+- Magic remains 36 / 32 / 69; far untested; Hessa unscheduled.
+- Kes/clasp status remains unknown. Halei/Trine remains complete.
+- Greg has no guaranteed referral, client, Maren follow-up, Rell job, Jori appraisal, Hessa appointment, far test, clasp hold, theatre call, Hollen shift, Vale meeting, Guild consultation, animal assignment, Savin appointment, Orin watch, civic hearing, Green Coat encounter, or Lyssa-network obligation.
+- Do not automatically rotate through Rell/Maren/chairs/Jori, Hessa/middle/far, Halei/Trine/Noll, Kes/clasp, copperbacks, theatre/mask, whitewall, scale work, Pera/Orin, Green Coat/Senn, Savin, Lyssa materials, bellthroats, Nerin/Mara/Jessa, ditchrunners/Edrin, Hollen/Pem, Vale, older pressure, or eventual leg-loss architecture merely because available.
