@@ -62,6 +62,29 @@ Use evidence labels:
 
 **AVOID:** invented exact balance/conversion; invented Vale/Bren link; abstract household income stats.
 
+## Legacy manuscript quarry — non-canon possibilities
+
+Older pre-rebuild Peg-Leg Greg drafts supplied by the author contain recurring idea-shapes that may be worth reusing selectively. They are **not canon, not continuity evidence, not a planned arc, and not an active development queue.** Current manuscript authority always outranks them.
+
+Useful quarry shapes:
+
+- **POSSIBILITY — distorted old-life reputation:** Greg's earlier competence may have produced second-order harm or an old reputation whose popular explanation is partly wrong. The useful shape is not a specific old nickname; it is **real consequence → distorted social explanation → Greg no longer fully owns the story people tell about him**.
+- **POSSIBILITY — legend without recognition:** someone may know a story, rumor, title, or historical version of Old Greg without recognizing nineteen-year-old Greg. Let details be partial, wrong, embarrassing, or unfamiliar rather than creating a clean identity-reveal scene.
+- **POSSIBILITY — old-life person before shared history:** Greg may encounter someone he remembers from decades later before that person knows him, has become who he remembers, or has made the choices he associates with them. Preserve the emotional asymmetry and resist turning future knowledge into easy social leverage.
+- **POSSIBILITY — Greg as unreliable storyteller of his own past:** an old-life anecdote may blur exaggeration, accepted legend, faulty memory, deliberate performance, omission, and truth. This can converge naturally with current memory fallibility and theatre without requiring a mystery-box reveal.
+- **POSSIBILITY — informal / undignified theatre work:** the company may someday take a tavern, street, private, comic, object-role, or other low-prestige performance when present story life earns it. Theatre should remain fun and socially messy, not only increasingly prestigious.
+- **POSSIBILITY — body and performance:** a role may interact awkwardly, usefully, commercially, or emotionally with Greg's actual amputation/body. Avoid automatic inspiration or triumph; Greg and other people may have different reactions to being cast, watched, accommodated, or interpreted through his body.
+- **POSSIBILITY — morally shadier Old Greg residue:** future recollection may reveal that Old Greg sometimes used clever systems knowledge for scams, shortcuts, exploitation, vanity, or behavior Current Greg would now judge differently. Prefer complicated self-recognition over another secret-genius reveal.
+
+Legacy shapes specifically **not** to restore by default:
+
+- **AVOID — repeat-reset/relic treadmill:** do not make the current life disposable through an easy third-attempt/reset objective. The present book's accumulated relationships, work, body, and belonging must retain weight.
+- **AVOID — giant hidden syndicate escalation:** old underworld/syndicate material may inspire the general shape of useful work attracting outside attention, but do not import a secret hierarchy merely because a legacy draft had one.
+- **AVOID — progression grind as story engine:** do not restore repetitive dungeon/mana/resource grinding that displaces ordinary life, social density, evidence discipline, and material consequence.
+- **AVOID — admiration funnel:** do not reuse the old pattern where each new room rapidly discovers Greg is uniquely brilliant, charming, resilient, talented, or fascinating. Current ensemble/world strength depends on other people having work, competence, tastes, mistakes, and lives that do not center him.
+
+Use this quarry only when current prose naturally creates an opening. Do not service these ideas as callbacks or treat old draft material as prophecy.
+
 ## Long-range directional thread
 
 **POSSIBILITY:** THEATRE -> PERFORMANCE -> MISDIRECTION -> ILLUSION -> MASKS -> CONTROL OF PERCEPTION -> EVENTUAL DANGEROUS BLUFF.
