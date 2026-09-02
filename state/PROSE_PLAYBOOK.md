@@ -45,6 +45,8 @@ Read prose aloud mentally. If the rhythm becomes predictable, change the instrum
 
 Favor dialogue that sounds like people doing something to one another, not characters exchanging state summaries. Use action beats when they reveal timing, posture, work, avoidance, interruption, or relationship. Let people misunderstand, answer sideways, interrupt, revise, or leave something unsaid.
 
+Use invisible dialogue tags freely when speaker clarity benefits. Prefer simple **said** and **asked**. Do not avoid attribution merely to make dialogue look cleaner. Action beats should earn themselves by adding timing, behavior, physical information, or relationship texture, not merely substitute for **said**. In multi-speaker scenes, err slightly toward clarity. Do not tag every line when a two-person exchange is already effortless to follow, but never make the reader perform speaker bookkeeping for the sake of taglessness.
+
 Prefer specific immediate thought over generalized explanation. Do not repeatedly explain an emotion the scene already demonstrates.
 
 Let other people make the best joke, solve the practical problem, know context Greg missed, or continue talking after his contribution is finished. The world should not behave as though it knows Greg is the protagonist.
