@@ -8,6 +8,7 @@ on:
     paths:
       - 'state/manuscript/Peg_Leg_Greg_Running_Manuscript.md'
       - 'state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md'
+      - 'state/manuscript/Peg_Leg_Greg_Chapter_*_EXACT_WIP.md'
       - 'state/LIGHT_EDITION_STATE.md'
       - 'state/PROJECT_STATE.md'
       - 'state/READER_DESIGN_LAB.md'
