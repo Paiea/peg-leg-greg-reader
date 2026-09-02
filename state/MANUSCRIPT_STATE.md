@@ -1,10 +1,10 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 289 — **THE GOOD STEP**.
+- Current exact story endpoint: Chapter 290 — **THE RAIN SHELF**.
 - Book 1 Chapters 1–82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249–289 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249–290 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500–4,000 words and clear 2,500 unless explicitly changed.
@@ -12,106 +12,103 @@
 - Exact prose outranks summaries/state/development/chat residue.
 - Follow the next actual claim created by prose. Do not rotate live engines by checklist.
 - Structural boundaries follow story movement, not predetermined counts.
-- Reader ignorance is not Greg ignorance. Greg's first life reached roughly fifty-nine and S-class; ordinary fantasy-world familiarity should usually remain invisible. Curiosity should attach to local implementation, labor, constraints, failure, cost, or specialist practice when relevant. Broad literacy is not specialist expertise.
+- Reader ignorance is not Greg ignorance. Greg's first life reached roughly fifty-nine and S-class. Ordinary fantasy-world familiarity should usually remain invisible; curiosity attaches to local implementation, labor, constraints, failure, cost, or specialist practice.
 
 ## Direction
 - Preserve ordinary lived texture, social accumulation, disability/material reality, humor, work, and independent side-character lives.
 - Magical ecology / fieldcraft remains a strong forward push without creature-of-the-week structure.
-- Ch286–289 make fantasy denser through ordinary infrastructure, goods, maintenance, and labor rather than quest escalation.
-- Ch289 explicitly recalibrates Greg's perspective: he already knows broad classes such as civic bells, lift slots, bed grit, and tamp charms from decades of first-life exposure. His present disability, poverty, walking, and close contact with ordinary work make previously ignorable maintenance newly visible.
-- Useful default: familiar world feature -> newly relevant local mechanism/constraint/labor -> Greg's systems curiosity -> domain worker still knows local practice better.
+- Ch286–290 make fantasy denser through ordinary infrastructure, goods, maintenance, craft, and labor rather than quest escalation.
+- Ch290 applies the Ch289 familiarity calibration more quietly. Greg already knows rain shelves, water-follow treatments, gutters, carrying light, and thread matching as broad categories. He notices the local household installation, local material price, and Lyssa/Jessa craft judgment without demanding basic-world exposition.
+- A useful developing restraint is emerging alongside Greg's curiosity: information does not automatically require purchase, ownership, work, or a new project.
 - Eventual title-defining leg loss remains flexible long-range architecture, not a countdown.
 
 ## Money / capital
 - Greg holds **four private client copper** from Halei, Maren, Nara, and Miri.
-- Ch289 spends none and earns none. All four remain untouched at home.
-- Cala gives Greg ordinary household money for five small onions; that purchase is explicitly separate from client capital.
-- Nara-to-Miri word-of-mouth referral stands as one referral route, not a queue, business, standing rate, or formal network.
-- Miri/Pellin follow-up remains unguaranteed. Rell referral compensation remains unresolved and separate.
+- Ch290 spends none and earns none. All four remain untouched at home.
+- Lower-market rain-thread seller quotes a small bundle at `two bits`; Lyssa says a small bundle near Marra is `one bit`, but says only `maybe` when Greg asks whether it is the same kind. No copper/bit conversion is established.
+- Greg deliberately does not buy rain thread because the household shelf is functioning and no purchase was requested.
+- Nara-to-Miri word-of-mouth referral remains one route, not a queue/business/network. Miri/Pellin follow-up unguaranteed. Rell referral compensation unresolved.
 
 ## Greg / body / equipment
-- Greg is nineteen in his second life, Bronze, Carrow. Permanent LEFT BKA, knee preserved; right leg intact; two crutches.
+- Greg is nineteen in second life, Bronze, Carrow. Permanent LEFT BKA, knee preserved; right leg intact; two crutches.
 - Existing crutch repairs and Ch269 right-shoe repair remain sound.
-- Ch289 foregrounds how a half-inch paving lip matters differently to current Greg than to powerful two-legged Old Greg.
-- Greg performs one awkward controlled crouch to inspect a settled crossing stone, keeping left knee/stump clear and using right leg/crutch support. No fall, injury, residual-limb issue, or equipment change.
-- After ward repair he crosses the stone with right crutch, right foot, then left crutch and finds no meaningful catch/lip.
+- Ch290 wet streets make Greg choose right-foot placements carefully. No slip, fall, injury, residual-limb issue, or equipment change.
+- He walks part of Lyssa's Marra route, briefly carries Jessa's basket for one block, then continues independently.
 
 ## Household / Lyssa
 - Three clean household gray sheets remain unused.
-- Four private client copper remain on table untouched.
+- Four private client copper remain untouched.
 - Horse page remains full; scrap notes continue under salt jar.
-- Ch288 red thread is removed from salt-fish jar by Ch289 morning; no magical/protected significance.
-- Lyssa returns with an ordinary paper twist of sugared nuts and a gray-brown garment. The paper twist is immediately identified by use and is not a protected packet.
-- Lyssa's garment work remains independent. Greg recognizes broad coat/alteration/thread categories without interrogating her for exposition.
-- Ch285 narrow wrapped packet remains absent; no connection or question.
+- Existing moved kitchen shelf remains separate from the `rain shelf`, which is a narrow wooden board beneath upper-gallery edge that routes rain toward courtyard drain.
+- Rain shelf has shallow underside groove containing dark green/gray-green material Cala calls `rain thread`. It darkens while carrying water toward drain; threshold remains dry. Cala says installation predates her occupancy, sometimes needs replacement, and household diagnostic is essentially whether threshold gets wet. Greg does not touch it.
+- Lower-market seller recognizes household rain-shelf use and says old shelves may need treatment depending on shelf. Exact material identity, treatment, installation, mechanism, and `rain man` meaning remain unknown.
+- Lyssa independently takes gray-brown coat toward Marra and meets Jessa under arcade. Jessa brings separate dark-blue garment/bundle and ordinary pale-wood spool with dark-blue thread. This spool is explicitly not protected older spool/material.
+- Lyssa/Jessa judge supplied dark-blue thread too black for visible/outside use, though potentially acceptable inside. Changing natural/cloud light makes mismatch clearer. Lyssa chooses to go Marra then Maren herself; Greg is not sent.
+- Jessa hands Lyssa a basket when she goes south; Greg briefly carries it only while walking with Lyssa. Exact basket ownership/favor structure not established.
+- Lyssa later confirms Maren had a better thread match. Dark-blue bundle no longer with Lyssa at home; outcome beyond that is not established.
+- Ch285 narrow wrapped packet remains absent; no connection/question.
 
-## Chapter 289 — THE GOOD STEP
-- Greg walks without a required destination. He naturally recognizes an upper-square market-opening bell and later passes carrying-light route tiles without treating either as newly discovered fantasy.
-- A delivery handcart catches on a settled low-curb crossing stone. A woman using a cane also has to correct around the lip. She says it has been bad three days; another passerby says four.
-- Greg recognizes the crossing as intentionally lowered for wheels/carts/easier passage. His current material circumstances make the half-inch defect personally legible in a way Old Greg could simply step over.
-- A brown-aproned passerby points out a small chalk slash and says ward crew has marked it. `Marked` means seen, not necessarily scheduled.
-- Greg later returns while buying five onions with Cala's ordinary household money and sees a two-person ward crew repairing the crossing.
-- Workers remain unnamed. One wears yellow sash over gray shirt; the other uses short iron bar. Do not automatically recur them.
-- Crew uses existing curb lift slot, iron bar, wooden wedge, hooked scraper, and black bed grit with dull silver flecks.
-- Greg already recognizes bed-grit and tamp-charm categories from prior-world exposure. He does not need basic exposition from workers.
-- Yellow-sashed worker identifies this local mix as South-quarry material, silver-looking flecks as mica, with `some` binding dust, and explicitly says Carrow does not use the same mix everywhere.
-- Tamp charm is a flat paddle-like tool with dark stone in handle. Greg has seen heavier related camp-engineering tools before.
-- Worker gives three faint amber tamp pulses across repeated adjustments. Charm packs/settles bed material but does not determine final geometry.
-- First lowering sits too high; crew lifts/corrects. Second still catches paddle edge/cart concern; crew lifts/corrects again. Third sits flush enough that empty handbarrow rolls across without catching.
-- Yellow Sash's bounded formulation: `Magic packs. I set.`
-- Acceptance is practical: paddle edge check, worker weight, empty handbarrow roll. Worker calls result `Good step.`
-- Chalk mark is rubbed away after repair.
-- Same cane-using woman later tests repaired crossing and says `Good`, then continues. No injury/event escalation.
-- Greg records local observations: mark means seen not scheduled; South-quarry grit includes mica/some binding dust and is not universal; `CHARM PACKS. WORKER SETS.`
-- Core interior change: Greg was never a fantasy tourist. S-class and strength made many maintenance details ignorable/route-around-able. Current poverty, disability, walking, and small-scale work make ordinary magical labor/material systems newly visible.
+## Chapter 290 — THE RAIN SHELF
+- Fine morning rain activates ordinary household rain shelf under upper-gallery edge. Board gives small silver shimmer; water is guided along underside groove to stone channel/drain rather than kitchen threshold.
+- Greg recognizes broad class from first-life inns, barracks, field kitchens, caravan shelters, etc.; exact green-filled local installation is unfamiliar.
+- Cala calls green groove material `rain thread`, says it carries water, is not literal thread, installation is old, sometimes replaced, and wet threshold is practical failure sign. Current shelf works, so Greg leaves it alone.
+- Greg and Lyssa share part of route toward Marra because Lyssa is meeting Jessa. This is companionship, not Greg becoming courier/manager.
+- They pass repaired Ch289 crossing and carrying-light route naturally without reactivating those threads.
+- Jessa transfers dark-blue work to Lyssa and discusses side work at customer's left hip. Ordinary thread sample is too black for outside-visible use; natural light makes mismatch clearer.
+- Greg understands broad craft issue and does not insert himself. Lyssa explicitly does not want him to make Maren run.
+- Greg later sees rain thread sold at lower market, asks bounded local-use/treatment/price questions, learns small bundle quoted two bits, and does not buy.
+- Cala confirms household shelf is good and no purchase needed.
+- Lyssa later says small bundle near Marra is one bit, but sameness of material is unproved.
+- Greg records `RAIN THREAD SMALL BUNDLE: 2 BITS AT LOWER MARKET. OURS GOOD.` and `DO NOT BUY BECAUSE YOU LEARN PRICE.`
+- Core change: Greg can gather useful information and let it remain information rather than converting every price/material/system into inventory, work, or ownership.
 - No client, income, mana use, Miri/Pellin return, theatre contact, pressure evidence, Vale contact, debt payment, clasp action, return-hardware action, Hessa contact, or ecology assignment.
 
 ## Magic continuity
 - Totals remain **36 supervised minimal draws / 32 supervised deliberate shaping attempts / 69 supervised external-effect attempts**.
 - Ch271 near: 1 clean / 3. Ch271 middle: 0 clean / 2. Ch280 middle: 1 clean / 3 plus one possible edge-lift event. Far untested.
-- No Greg mana use Ch281–289. Outside-session restrictions unchanged. Hessa next experiment/appointment unselected.
-- Ch289 tamp charm is ordinary worker equipment Greg recognizes broadly; exact construction, charge/source, binding-dust interaction, municipal standards, and wider Carrow road practice remain unestablished.
+- No Greg mana use Ch281–290. Outside-session restrictions unchanged. Hessa next experiment/appointment unselected.
+- Rain-shelf/rain-thread exact mechanism, material identity, treatment, charge/source, replacement method, lifespan, and relation to mana remain unestablished.
 
 ## Other live continuity
-- Ch288 Miri/cooling-cup result stands; no Ch289 follow-up. Pellin remains only `Pellin kiln` in South Ovens and is not Pell absent evidence.
-- Ch287 carrying light stands; Ch289 passes route tiles naturally but does not advance Sera/lantern-house mechanism.
-- Ch286 dry seal remains resolved to ordinary household maintenance unless independently reactivated.
+- Ch289 ward crossing stands repaired; Ch290 passes it in rain and water runs cleanly toward gutter. No ward contact or new case.
+- Ch288 Miri/cooling-cup result stands; no Ch289–290 follow-up. Pellin remains only `Pellin kiln` in South Ovens and is not Pell absent evidence.
+- Ch287 carrying light stands; Ch290 passes it naturally without advancing Sera/lantern-house mechanism.
+- Ch286 dry seal remains ordinary resolved maintenance unless independently reactivated.
 - Ch284 chaffer hatch remains over/quiet.
 - Ch281 return hardware remains unactivated/unvalued. Rell/Maren/Jori unresolved.
-- Ch276/282 theatre facts stand. Ch283–289 no theatre contact.
+- Ch276/282 theatre facts stand. Ch283–290 no theatre contact.
 - Vale debt active/unresolved; exact balance unstated.
 - Boundary clasp unowned/status unknown.
-- Older pressure evidence ceiling unchanged. Ch289 adds none.
+- Older pressure evidence ceiling unchanged. Ch290 adds none.
 
 ## Protected uncertainties / do not auto-resolve
-- Existing weak needle-case, Rinna parcel, Lyssa materials/packets/bundles, Ch246 crate, Pell return, Vale/Bren, collar-facing, six wraps, Ch281 flat package, Ch285 narrow wrapped packet remain protected.
+- Existing weak needle-case, Rinna parcel, Lyssa older materials/packets/bundles, Ch246 crate, Pell return, Vale/Bren, collar-facing, six wraps, Ch281 flat package, Ch285 narrow wrapped packet remain protected.
 - Hessa next experiment; exact distances; far response; attempt 68 possible only.
-- Existing creature/ecology, dry-seal, carrying-light, and cooling-cup uncertainties remain bounded.
-- Ward road maintenance: worker names, exact department structure, schedule system, bed-grit recipes, binding-dust function, tamp-charm mechanism/charge, repair standards, and broader accessibility policy remain unestablished.
-- Do not turn unnamed ward workers into Greg contacts, employers, mentors, municipal clients, or a civic-reform thread merely because Greg watched one repair.
+- Existing creature/ecology, dry-seal, carrying-light, cooling-cup, and ward-road uncertainties remain bounded.
+- Rain shelf: exact rain-thread material, mechanism, mana relation, treatment, replacement procedure, who installed household system, what `rain man` means, and whether lower-market/near-Marra bundles are same product remain unknown.
+- Dark-blue garment: customer identity, exact alteration beyond left-side location, final thread, final work/outcome, payment, and basket relationship remain unestablished.
+- Do not turn Greg's brief basket carry into Lyssa courier role, Marra job, or garment-work integration.
 
-## Chapter 290 trailhead
+## Chapter 291 trailhead
 Follow the next actual claim from current authority.
 
-Chapter 289 is an important **familiarity calibration**. Greg does not discover that a fantasy city has magic. He already knows broad magical-world categories from decades of first-life experience and S-class life. What changes is attention: current Greg walks, counts copper, uses crutches, depends on ordinary surfaces, and watches workers whose labor Old Greg could afford to ignore. The new information is local implementation and material consequence, not the existence of tamp charms or magical infrastructure.
+Chapter 290 quietly demonstrates the revised Greg-familiarity rule rather than explaining it again. He knows broad fantasy categories and asks local questions only where a household or craft detail matters. Keep that mostly invisible going forward.
 
-Carry this calibration forward without turning it into repeated internal essays. Most future familiarity should be invisible. Greg can simply name/use/pass common fantasy features. When something matters, let him ask sharper local or specialist questions rather than `What is that?` tourist questions.
+The rain shelf works. Greg does not touch, repair, buy material for, or claim expertise over it. Do not automatically make Chapter 291 a rain-thread replacement, roof leak, rain-man encounter, seller comparison, or magical drainage investigation.
 
-Let the repaired crossing stand. Do not automatically create a ward job, municipal accessibility campaign, road-repair apprenticeship, recurring Yellow Sash, tamp-charm research case, or civic infrastructure sequence.
+Lyssa's work remains independently alive. Greg walks part of her route, witnesses Jessa/Lyssa reject a poor visible thread match, briefly carries a basket, and then leaves. Lyssa handles Marra/Maren herself and later confirms a better match existed. Do not convert this into Greg managing her supply route, formalizing prices, or investigating the dark-blue customer's job.
 
-Four private client copper remain untouched. Ch289 deliberately gives Greg an ordinary errand and no income. Do not force the next chapter to reward him for restraint or balance the ledger.
-
-Miri does not return in Ch289. Pellin remains unvisited. Do not auto-reactivate the cooling cups merely because that thread is one chapter old.
+Four private client copper remain untouched. Ch290 adds a useful restraint: Greg learns a price and deliberately does not buy because there is no present need. Do not force an immediate purchase/reward merely to cash out that lesson.
 
 Magic remains **36 / 32 / 69**. Far untested, attempt 68 possible only, Hessa unscheduled, outside-session restrictions unchanged.
 
-At chapter end Greg is home, uninjured, equipment holding, household stable, three clean sheets remain, four private client copper remain untouched, no new obligation exists, and Lyssa has her own garment work. Greg has no guaranteed client, Miri return, Pellin visit, Nara follow-up, ward contact, Sera follow-up, lantern-house visit, Maro follow-up, ecology assignment, theatre call, rehearsal job, referral agreement, Maren/Rell follow-up, Jori appraisal, Hessa appointment, far test, clasp hold, Hollen shift, Vale meeting, Guild consultation, animal assignment, Savin appointment, civic hearing, Green Coat encounter, or Lyssa-network obligation.
+At chapter end Greg is home, uninjured, equipment holding, household stable, three clean sheets remain, four private client copper remain untouched, rain shelf works, Lyssa has her own garment work, and no new obligation exists. Greg has no guaranteed client, Miri return, Pellin visit, Nara follow-up, ward contact, rain-thread need, Sera follow-up, lantern-house visit, Maro follow-up, ecology assignment, theatre call, rehearsal job, referral agreement, Maren/Rell follow-up, Jori appraisal, Hessa appointment, far test, clasp hold, Hollen shift, Vale meeting, Guild consultation, animal assignment, Savin appointment, civic hearing, Green Coat encounter, or Lyssa-network obligation.
 
-Let Chapter 290 follow the next actual claim from household, paid work only if genuinely activated, city/social life, theatre only if genuinely reactivated, pressure only if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft through another lived claim, magical infrastructure only if independently activated, a capital opportunity with actual demand/value, or another ordinary fantasy-world demand.
+Let Chapter 291 follow the next actual claim from household, paid work only if genuinely activated, city/social life, theatre only if genuinely reactivated, pressure only if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft through another lived claim, magical infrastructure only if independently activated, a capital opportunity with actual demand/value, or another ordinary fantasy-world demand.
 
-Do not automatically rotate through ward paving/tamp charms, Miri/Pellin/cooling cups, Nara/Daro, carrying light/Sera/lantern house, Maro/dry seal, chaffers, paper wholesale, Pavin/Teren, Rell/Maren/Jori, Hessa/middle/far, Halei/Trine, Kes/clasp, copperbacks, mask/Sivi, whitewall, scale work, Green Coat/Senn, Savin, Lyssa protected materials, bellthroats, ditchrunners/Edrin, Hollen/Pem, Vale, older pressure, or eventual leg-loss architecture merely because available.
+Do not automatically rotate through rain shelf/rain thread, Lyssa's dark-blue job, ward paving/tamp charms, Miri/Pellin/cooling cups, Nara/Daro, carrying light/Sera/lantern house, Maro/dry seal, chaffers, paper wholesale, Pavin/Teren, Rell/Maren/Jori, Hessa/middle/far, Halei/Trine, Kes/clasp, copperbacks, mask/Sivi, whitewall, scale work, Green Coat/Senn, Savin, Lyssa protected materials, bellthroats, ditchrunners/Edrin, Hollen/Pem, Vale, older pressure, or eventual leg-loss architecture merely because available.
 
-Write ONE complete Chapter 290, target 2,500–4,000 words and clear 2,500, Greg POV, zero em dashes. Validate it, update durable exact prose/state, and leave the Chapter 291 trailhead from what actually happened.
+Write ONE complete Chapter 291, target 2,500–4,000 words and clear 2,500, Greg POV, zero em dashes. Validate it, update durable exact prose/state, and leave the Chapter 292 trailhead from what actually happened.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
