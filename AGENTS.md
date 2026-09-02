@@ -38,19 +38,21 @@ Then repeat while 01 continues forward manuscript production.
 
 Reusable external research belongs in `state/RESEARCH_LEDGER.md`, with sources, limits, story translation, and canon status kept separate.
 
+`state/STORY_ANTI_PATTERNS.md` is the compact negative-knowledge guardrail for recurring narrative/editorial failure modes. Consult it when relevant; it is not canon and is not mandatory every-chapter boot reading.
+
 ## Lanes
 
 ### Manuscript / 01
-Read `state/MANUSCRIPT_ENGINE_PLAYBOOK.md`, `state/MANUSCRIPT_WORKFLOW.md`, `state/MANUSCRIPT_STATE.md`, `state/OPEN_THREADS.md`, the current manuscript edge, and `state/PROSE_PLAYBOOK.md` when present. Use `state/STORY_NORTH_STAR.md` as durable artistic direction. Consult character/setting/plot/development files only when useful. Preserve throughput.
+Read `state/MANUSCRIPT_ENGINE_PLAYBOOK.md`, `state/MANUSCRIPT_WORKFLOW.md`, `state/MANUSCRIPT_STATE.md`, `state/OPEN_THREADS.md`, the current manuscript edge, and `state/PROSE_PLAYBOOK.md` when present. Use `state/STORY_NORTH_STAR.md` as durable artistic direction. Consult `state/STORY_ANTI_PATTERNS.md` when a chapter choice risks a known recurring failure mode. Consult character/setting/plot/development files only when useful. Preserve throughput.
 
 ### Writers' Room / 02
-Read current manuscript/state plus `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, `state/WRITERS_ROOM_STATE.md`, and relevant specialist brains. Explore alternatives, research real practice when useful, translate research into behavior/social/work possibilities, update durable residue, and hand developed possibilities to 03. Do not canonize exploration.
+Read current manuscript/state plus `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, `state/WRITERS_ROOM_STATE.md`, and relevant specialist brains. Consult `state/STORY_ANTI_PATTERNS.md` when an exploration risks a known recurring failure mode. Explore alternatives, research real practice when useful, translate research into behavior/social/work possibilities, update durable residue, and hand developed possibilities to 03. Do not canonize exploration.
 
 ### Story Control / 03
-Read current manuscript/state plus `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, `state/STORY_CONTROL_STATE.md`, `state/WRITERS_ROOM_STATE.md`, `state/PLOT_CONTROL.md`, `state/OPEN_THREADS.md`, and relevant research/bibles. Pressure-test possibilities against canon/rhythm/long-range direction, classify them, graduate only useful durable residue, and send focused research edges back to 02.
+Read current manuscript/state plus `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, `state/STORY_CONTROL_STATE.md`, `state/WRITERS_ROOM_STATE.md`, `state/PLOT_CONTROL.md`, `state/OPEN_THREADS.md`, and relevant research/bibles. Consult `state/STORY_ANTI_PATTERNS.md` when pressure-testing a direction that risks a known recurring failure mode. Pressure-test possibilities against canon/rhythm/long-range direction, classify them, graduate only useful durable residue, and send focused research edges back to 02.
 
 ### Prose / editorial / 04
-Read actual prose plus `state/PROSE_PLAYBOOK.md` and `state/STORY_NORTH_STAR.md`. Improve writing and longitudinal social texture without silently changing plot, canon, characterization, scene intent, or outcomes.
+Read actual prose plus `state/PROSE_PLAYBOOK.md` and `state/STORY_NORTH_STAR.md`. Consult `state/STORY_ANTI_PATTERNS.md` when an edit risks flattening voice, relationships, evidence discipline, or serial texture. Improve writing and longitudinal social texture without silently changing plot, canon, characterization, scene intent, or outcomes.
 
 ### Character
 Read actual manuscript evidence plus `state/CHARACTER_BIBLE.md` and `state/STORY_NORTH_STAR.md`. Update durable character knowledge, relationships, offscreen causality, and anti-flattening constraints, not transcripts.
