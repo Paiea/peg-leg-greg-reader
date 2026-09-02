@@ -3,7 +3,6 @@ name: Build NotebookLM manuscript export
 on:
   push:
     branches:
-      - tooling/notebooklm-export-v2
       - main
     paths:
       - 'state/manuscript/**'
@@ -14,13 +13,18 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: notebooklm-export-main
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.ref }}
+          ref: main
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -42,4 +46,10 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add exports/notebooklm
           git commit -m 'Refresh NotebookLM manuscript export'
-          git push
+          git pull --rebase origin main
+          python scripts/build_notebooklm_export.py
+          git add exports/notebooklm
+          if ! git diff --cached --quiet; then
+            git commit --amend --no-edit
+          fi
+          git push origin HEAD:main
