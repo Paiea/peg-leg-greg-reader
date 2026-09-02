@@ -1,11 +1,11 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 272 — **THE QUEUE**.
+- Current exact story endpoint: Chapter 273 — **THE WITNESS**.
 - Book 1 Chapters 1–82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent forward manuscript path: `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249–272 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries and still requires exact-text integration into the permanent manuscript. Older Ch156–219 synchronization debt also remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249–273 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries and still requires exact-text integration into the permanent manuscript. Older Ch156–219 synchronization debt also remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500–4,000 words and clear 2,500 unless explicitly changed.
@@ -23,15 +23,14 @@
 - Greg is nineteen, Bronze, in Carrow. Permanent LEFT BKA, knee preserved; right leg intact; uses two crutches.
 - LEFT tip replaced Ch223; RIGHT grip retensioned Ch242; LEFT grip fine. Ch247 haircut current.
 - Ch269 Savin repairs Greg's only right shoe outer-heel separation with pitch mix and three flush nails. No gait correction. Cause of outer-heel wear unestablished.
-- Ch272 repaired shoe remains flat/holding. Right leg becomes mildly stiff after standing in the cistern queue, resolves with rest. Residual limb comfortable. No injury/equipment change.
+- Ch273 repaired shoe continues holding. Body ordinary, no injury/equipment change.
 
 ## Greg / Lyssa / household
 - Lyssa remains independent and is not Greg's analyst/project manager.
 - Long-standing brown cloth and older unidentified materials remain protected/unexplained.
-- Current pale work remains unidentified. Six narrow wraps happened off-page and remain unexplained.
-- Ch269 small paper packet remains unconnected to older uncertainties.
-- Ch270 wrapped bundle left with Lyssa Ch271 and remains unidentified.
-- Ch272 Lyssa independently gives the household water jar to Cala while Greg is away, and leaves Greg a note telling him not to make a second water run. Household coordination happens without Greg managing it.
+- Ch273 resolves the currently visible pale work narrowly: Lyssa identifies it, when Greg is explicitly invited to ask, as a **collar facing** for a coat. It has small pale buttons along one edge. Exact customer/coat/use beyond that remains unestablished.
+- Lyssa explicitly says the six narrow wraps are **not** this collar facing. Six-wrap purpose/material/customer remain unexplained.
+- Ch269 small paper packet and Ch270 wrapped bundle remain unconnected/protected.
 
 ## Recent durable residue
 - Ch249–264 exact checkpoint prose remains authoritative. See exact files.
@@ -42,96 +41,103 @@
 - Ch269 **THE COBBLER**: Savin repairs Greg's right shoe; copperback knowledge useful but bounded; shade lamps ambient.
 - Ch270 **THE WATCHMAN**: half-hour Orin preserve-cart watch; Nessa/Pera local copperback corroboration; Hessa summons Greg.
 - Ch271 **THE DISTANCE**: first observed external response without old glass apparatus; near 1/3, middle 0/2, far untested; totals 36 / 32 / 66; outside restrictions unchanged.
+- Ch272 **THE QUEUE**: one-day building water outage, north-cistern feed stones, neighbor water logistics; service restored, no unresolved emergency.
 
-### Chapter 272 — THE QUEUE
-- Household/building lane water service stops in the morning. Courtyard tap coughs and gives no water.
-- Greg goes to the **north cistern** with only a small pitcher he can safely carry by its loop without surrendering a crutch hand. He explicitly avoids unsafe large-jar carrying improvisation.
-- Public north cistern: stone canopy, three bronze water mouths, long trough/lower fill spouts, and four thumb-sized glass **feed stones** set into the arch.
-- At arrival three feed stones glow pale white and one is dark. Local people identify dark as no feed. A city water worker later says amber means unstable. Exact mechanism remains unknown.
-- Greg vaguely recognizes old-life fortress/caravan flow-ward principles but does NOT know this construction, economics, or exact measurement system.
-- West feeder is out. During Greg's wait another stone flashes amber and one running mouth weakens. Worker calls south branch unstable and reduces allocation to one vessel each. Later Olan reports south went dark too.
-- City worker is unnamed. Leather apron, hooked iron key, chalk behind ear. She helps fill Greg's pitcher when two-crutch geometry makes positioning awkward, without ceremony. Broader role/life unestablished.
-- **Vela** named: woman with narrow handcart carrying six covered lunch soup pots. Her kitchen is under a green awning two lanes past Greg's. She has three shop customers, two houses, and one old man who complains about bean changes. She knows Greg through theatre and Mara.
-- Vela offers to carry Greg's filled pitcher in her cart on her route. Greg accepts practical help. No debt/payment/standing arrangement.
-- **Olan** named: older rear-room man in Greg's building; owns a low two-wheeled cart used for household water runs. Broader life unestablished.
-- **Maris** named: woman Greg previously knew only as early rug-shaker; her large pot is for laundry. Broader life unestablished.
-- Cala, Olan, Maris, Lyssa, and others independently organize building water runs. Greg returns to find Lyssa's household jar already filled because Lyssa gave it to Cala.
-- Greg spends later runs in the courtyard watching filled vessels, identifying which belong to which rooms, and coordinating stronger carriers when needed. This is unpaid neighbor utility, not a new watchman job.
-- A child initially cannot distinguish two similar brown jars. Greg suggests tying different old rag scraps to vessels before later runs. Cala resists credit; Maris agrees. The simple labeling works. No invention claim/systemization beyond the day.
-- Tavi briefly carries a full jar upstairs for the child. No new Tavi subplot.
-- Water service returns near late afternoon. First flow is brown; Maris closes tap, waits, then they let it run briefly until clear/steady before refilling. Do not infer formal municipal safety doctrine beyond what residents do in scene.
-- Vela's soup is independently known to Lyssa as `good soup`, reinforcing city social overlap without obligating a new route.
-- No Greg mana use, Hessa note/session, theatre call, Hollen shift, Edrin consultation, Vale contact, pressure evidence, Savin revisit, copperback event, or paid work.
+### Chapter 273 — THE WITNESS
+- Greg goes to Nerin's bakery only to buy one small dark loaf. Full price, no errand/message/network obligation.
+- Outside the bakery an **unnamed thin man in a green coat** approaches Greg about a cart collision at Lower Reed during the prior day's water hauling.
+- Green Coat wants Greg to tell a clerk that a blue-sided water cart was overloaded when it left the north cistern. Greg does not remember seeing that cart and explicitly refuses to claim it.
+- Green Coat offers **two copper** `for your time`. Greg refuses. The amount reads as convenience-level attempted witness shaping, not automatically high-stakes bribery.
+- Green Coat briefly catches Greg's sleeve when Greg moves away, then releases immediately when Greg looks at his hand. No injury, threat statement, pursuit, weapon, or further contact in chapter.
+- Green Coat says driver claims the post was already cracked; Green Coat says it was not. Greg has no evidence either way.
+- Do **not** connect Green Coat to Bren, brown-coat observer, Vale, Mason's Cut, theatre pressure, or any organization. Greg explicitly refuses those connections because evidence does not support them.
+- **Senn** named: woman in dark blue tabard from the **lane assessor's office**. No weapon. She later comes to Greg's building with Olan while collecting accounts from people who may have seen the cart before impact.
+- Senn's narrow dispute description: a hired water cart hit a lane boundary post. Cart owner says post was already split low and gave when wheel clipped it. Property holder says cart was loaded beyond lane allowance and struck a sound post. Office inspects post, cart, and accounts before someone decides who pays.
+- `Lane allowance` is described only as weight and width rules for some narrow lanes. No broader municipal system established.
+- Greg immediately tells Senn about Green Coat's attempted two-copper witness shaping. He gives bounded description: thin, green coat, brown hair close around ears, maybe thirty or older, no beard, long nose, no visible mark. No name.
+- Greg's actual witness account is mostly negative: he was at north cistern, does not remember blue cart, did not inspect carts, saw no dangerously overloaded cart, saw no wheel failing/water spilling/argument, did not see collision, did not see post before collision.
+- Senn explicitly treats `mostly no` as useful. Greg is not in trouble and likely owes no further appearance unless account is disputed and assessor asks.
+- Senn advises: if Green Coat approaches again, don't argue/follow/take money; get a name if offered and tell Olan, Maris, Cala, or lane office. This is practical instruction, not evidence of larger danger.
+- Olan admits he gave Greg's name because Maris said Greg went to cistern first. Olan also cannot reliably identify the blue cart/overload. No conflict.
+- Later Greg takes an ordinary onion-buying route that passes Lower Reed. He sees the actual blue-sided cart, empty, with fresh wheel-rim scrape, and the damaged stone post. A fresh pale upper-edge break and darker lower line are visible, but Greg explicitly does not know whether lower line is old crack or dirt and does not infer fault.
+- Senn is present with another woman using measuring cord and a broad man beside the cart. Green Coat absent. Senn acknowledges Greg; he does not join investigation.
+- Greg sees a **live free copperback** in a gutter beside a damp scrap of cord. It matches Savin's general beetle appearance: copper-dark shell and two faint warm lines. It walks over the cord and disappears into stone crack without observed feeding. This confirms a local loose copperback exists, not that it caused Savin's damage or that it eats this cord.
+- Greg does not run to Savin or turn the sighting into a quest.
+- Chapter thematic connection stays bounded: Hessa's evidence discipline applies socially. Greg has not seen what Green Coat wants him to say, so he refuses to convert proximity/expectation into testimony.
+- No Greg mana use, Hessa contact, theatre call, Hollen shift, Edrin consultation, Vale contact, brown-coat/Bren evidence, paid work, debt payment, or injury.
 
 ## Magical ecology / ordinary magical world
 - Slateback bounded; mudjaw/reedcrest unconfirmed; ditchrunners probable report only; bellthroats trained theatre fauna.
 - Glowwings bounded ordinary magical birds, not weather predictors.
-- Copperback evidence unchanged Ch272.
-- Shade-lamp mechanism unknown.
-- Household paper charm from Ch271 remains ambient only.
-- Ch272 establishes ordinary municipal magical infrastructure narrowly through north-cistern **feed stones**: pale white associated by locals with feeding water, dark with no feed, amber explicitly called unstable by the worker. Exact mechanism, pressure/flow distinction, maker, maintenance, network design, cost, and whether stones themselves cause/control anything remain unestablished.
+- Ch273 provides first directly observed free/local copperback outside Savin's captured specimen. Greg sees one in a gutter. No feeding observed, no eradication result, no magic effect beyond faint warm back lines, no lifecycle/value/danger established.
+- Shade-lamp mechanism unknown. Household paper charm remains ambient only. Feed-stone mechanism/network remains unestablished.
 
 ## Magic continuity
 - Totals remain **36 supervised minimal draws / 32 supervised deliberate shaping attempts / 66 supervised external-effect attempts**.
-- No Greg mana use Ch272.
+- No Greg mana use Ch272–273.
 - Ch271 evidence ceiling unchanged: near 1/3, middle 0/2, far untested. No general range law/reliability/material generalization.
 - Existing outside-session restrictions remain fully in force. Hessa next experiment/appointment unselected.
 
 ## Theatre / work
 - Greg is not permanent caller/stage manager/Uncle/usher/front-of-house/utility worker.
-- Demi usual caller; no theatre call Ch269–272. Current Demi status remains unknown.
+- Demi usual caller; no theatre call Ch269–273. Current Demi status remains unknown.
 - Rinna Ch251 parcel remains unexplained.
 
 ## Binding shop / Hollen / Pem
-- Ch260 and Ch263 paid half-days only. No standing employment. No contact Ch264–272.
+- Ch260 and Ch263 paid half-days only. No standing employment. No contact Ch264–273.
 
 ## South Guild yard / Edrin
-- Conditional route activated once Ch266. No contact Ch267–272. No standing job.
+- Conditional route activated once Ch266. No contact Ch267–273. No standing job.
 
 ## Economy / Vale debt
 - Currency: copper / silver / gold. No conversion rate established.
 - Antonius Vale debt active/unresolved. Original terms remain 35% interest, 8 days, labor through Antonius on default; original principal unknown. Exact current balance exists in-world and Greg knows it but narration does not state it.
-- Ch272 produces no wage, fee, purchase, debt payment, or Vale contact.
+- Ch273 Greg buys one Nerin small dark loaf full price and two onions from familiar seller. Green Coat offers two copper, refused. No wage/debt payment/Vale contact.
 - No Vale/Bren connection.
 
 ## Pressure / evidence ceiling
-- Latest grounded human-pressure evidence remains Ch236. Brown-coat/Mason's Cut/Bren evidence ceiling unchanged.
-- Chapters 249–272 add no human-pressure evidence.
+- Latest established older human-pressure evidence through Ch236 remains unchanged: brown-coat observer / Mason's Cut / Bren ceiling remains exactly as before.
+- Ch273 introduces a **separate ordinary civic-dispute pressure event**: unnamed Green Coat attempts to shape Greg's witness account for two copper and briefly catches his sleeve. This is grounded evidence only of that act.
+- Do not merge Green Coat into older pressure architecture without future evidence. No organization, employer, violence plan, Vale link, Bren link, brown-coat identity link, or repeated pattern established.
+- Lane assessor Senn is legitimate civic process in scene, not pressure antagonist.
 
 ## Protected uncertainties / do not auto-resolve
-- Weak needle-case mark; Rinna parcel; Lyssa older materials/current pale work/Ch269 packet/Ch270 wrapped bundle; long-standing brown cloth; Ch246 crate contents.
+- Weak needle-case mark; Rinna parcel; Lyssa older materials/Ch269 packet/Ch270 wrapped bundle; long-standing brown cloth; Ch246 crate contents.
+- Collar-facing customer/coat broader purpose remains unestablished. Six wraps explicitly separate and still unexplained.
 - Hessa next experiment unselected. Exact near/middle/far measurements unknown. Far untested.
 - Mudjaw/reedcrest unconfirmed; ditchrunners probable only.
 - Edrin exact title, Tessa broader life, bronze-cup musician/instrument, shade-lamp mechanism, deeper glowwing ecology unestablished.
 - Bellthroat broader ecology/training and Iven broader life unestablished.
 - Savin broader life/business and right-shoe wear cause unestablished.
-- Copperback direct local feeding/eradication effects unproven.
+- Copperback feeding/lifecycle/eradication/current Savin damage causation unproven despite free local sighting.
 - Orin/Nessa/Tolan/Pera broader lives/business remain narrow.
 - Vela broader business/life, Olan/Maris broader lives, unnamed water worker identity/role hierarchy unestablished.
-- Feed-stone mechanism/network details unestablished. Do not turn Greg into water-office investigator by default.
-- Household paper charm mechanism/maker/system unestablished.
-- Hollen/Pem/Colm broader lives, Nerin broader life, Reni move cause unconfirmed.
-- Six narrow wraps purpose/material and relationship to Lyssa's pale work unestablished.
-- No Vale/Bren connection.
+- Feed-stone mechanism/network details unestablished.
+- Green Coat identity, side in cart dispute, employer, motive beyond requested false/unsupported account, and whether he will recur all unestablished.
+- Exact pre-collision condition of Lower Reed post and whether cart was overloaded remain unresolved.
+- Senn broader role/life and lane-office structure unestablished.
+- No Vale/Bren/Green Coat connection.
 
-## Chapter 273 trailhead
+## Chapter 274 trailhead
 Follow the next actual claim from current authority.
 
-Chapter 272 is an ordinary infrastructure/neighborhood day. Let it stand. The building loses water, residents solve the practical problem collectively, Greg contributes within his physical limits, and service returns. There is no unresolved emergency requiring a follow-up water chapter.
+Chapter 273 creates a small real consequence from Greg's growing social legibility: because people know he was at the north cistern, an unnamed Green Coat tries to buy a convenient account from him, and legitimate assessor Senn later asks what he actually observed. Greg refuses to turn proximity into evidence. The dispute is ordinary civic damage unless future prose earns more.
 
-The feed stones are valuable ambient fantasy because nobody treats magical plumbing as a revelation. Do not automatically send Greg to the water office, explain their mechanism, create sabotage, turn the outage into pressure evidence, or make the feeder failure secretly important. Vela, Olan, and Maris are newly legible people with lives, not mandatory new ensemble members.
+Do not automatically escalate Green Coat. He may never return. Do not connect him to Bren, brown coat, Vale, Mason's Cut, theatre, or an organization without new evidence. Do not turn Senn into a standing investigator relationship or force Greg into a hearing next chapter. The cart/post fault remains unresolved and Greg's useful testimony is mostly what he did **not** see.
 
-Greg accepts help carrying his pitcher and contributes by watching/sorting jars rather than forcing unsafe physical independence. Preserve that material/disability reality without converting it into a lesson or immediate equipment invention.
+The pale work is now narrowly identified because Lyssa explicitly invited the question: a collar facing for a coat. The six narrow wraps are explicitly not that facing. Do not use this as permission to resolve Lyssa's other protected materials or make Greg manage her work.
 
-Magic continuity remains 36 / 32 / 66, Ch271 near 1/3, middle 0/2, far untested, restrictions unchanged. Hessa has not summoned Greg again. Do not independently practice or automatically schedule the next experiment.
+A free local copperback now exists on-page. Greg observes no feeding and does not carry the information to Savin. Let that clean confirmation stand. Do not automatically make copperbacks an infestation/quest/economy.
 
-At chapter end water service is back, Greg is uninjured, repaired shoe holding, household stable, and there is no guaranteed Hessa appointment, theatre call, Hollen shift, Vale meeting, Guild consultation, animal assignment, Savin appointment, Orin watch, Vela task, or Lyssa-network obligation.
+Magic continuity remains 36 / 32 / 66, Ch271 near 1/3, middle 0/2, far untested, restrictions unchanged. Hessa has not summoned Greg again.
 
-Let the next actual claim come from household, paid work, city/social life, theatre if genuinely summoned, pressure if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft if genuinely arriving, or another ordinary fantasy-world demand.
+At chapter end Greg is home, uninjured, repaired shoe holding, water running, household stable. No guaranteed Hessa appointment, theatre call, Hollen shift, Vale meeting, Guild consultation, animal assignment, Savin appointment, Orin watch, civic hearing, Green Coat encounter, or Lyssa-network obligation exists.
 
-Do not automatically rotate through water/feed stones/Vela/Olan/Maris, Hessa/distance/square, Orin/Nessa/Tolan, Savin/copperbacks/shoe wear, household charms, caller/Demi/Lenn, Iven/bellthroats, Nerin/Mara/Jessa/six wraps, glowwings, ditchrunners/Tessa/Edrin, bronze-cup musician, weather beads, Hollen/Pem, Second Toast/Marek, Colm, mudjaw/reedcrest/slateback, Daro/Neli, neighborhood cast, wash court, weak needle case, Rinna parcel, Lyssa's older materials, Vale, Bren/brown-coat pressure, magic-item acquisition, or eventual leg-loss architecture merely because each remains available.
+Let household, paid work, city/social life, theatre if genuinely summoned, pressure if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft if genuinely arriving, or another ordinary fantasy-world claim take Chapter 274.
 
-Write ONE complete Chapter 273, target 2,500–4,000 words and clear 2,500, Greg POV, zero em dashes. Validate it, update durable exact prose/state, and leave the Chapter 274 trailhead from what actually happened.
+Do not automatically rotate through Green Coat/Senn/cart dispute, copperbacks/Savin, collar facing/six wraps, water/feed stones/Vela/Olan/Maris, Hessa/distance/square, Orin/Nessa/Tolan, household charms, caller/Demi/Lenn, Iven/bellthroats, Nerin/Mara/Jessa, glowwings, ditchrunners/Tessa/Edrin, bronze-cup musician, weather beads, Hollen/Pem, Second Toast/Marek, Colm, mudjaw/reedcrest/slateback, Daro/Neli, neighborhood cast, wash court, weak needle case, Rinna parcel, Lyssa's older materials, Vale, Bren/brown-coat pressure, magic-item acquisition, or eventual leg-loss architecture merely because each remains available.
+
+Write ONE complete Chapter 274, target 2,500–4,000 words and clear 2,500, Greg POV, zero em dashes. Validate it, update durable exact prose/state, and leave the Chapter 275 trailhead from what actually happened.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
