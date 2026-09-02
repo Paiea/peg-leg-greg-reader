@@ -1,5 +1,5 @@
 {
-  "latest": 296,
+  "latest": 299,
   "chapters": [
     {
       "number": 156,
@@ -846,6 +846,24 @@
       "title": "THE HELD NOTE",
       "source": "checkpoint",
       "path": "296.html"
+    },
+    {
+      "number": 297,
+      "title": "THE HIGH LINE",
+      "source": "checkpoint",
+      "path": "297.html"
+    },
+    {
+      "number": 298,
+      "title": "THE FAR MARK",
+      "source": "checkpoint",
+      "path": "298.html"
+    },
+    {
+      "number": 299,
+      "title": "THE OTHER HANDLE",
+      "source": "checkpoint",
+      "path": "299.html"
     }
   ]
 }
