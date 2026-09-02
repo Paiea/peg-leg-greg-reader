@@ -1182,6 +1182,30 @@ It was also more than untested.
 
 I did not write a theory underneath it.
 
+The number also made the next temptation obvious.
+
+One more attempt would feel reasonable.
+
+Then another.
+
+A zero could always be blamed on one bad moment until I had spent the whole afternoon trying to bully uncertainty into becoming an answer.
+
+That had been Old Greg's favorite kind of stupidity. He could survive enough repetition to mistake endurance for method.
+
+This body did not owe me that luxury.
+
+Hessa had given me one far attempt because one far attempt was the protocol.
+
+I had stopped because the attempt ended.
+
+The paper had stayed still.
+
+Nothing about wanting a cleaner result changed any of those facts.
+
+That was not surrender.
+
+It was the difference between testing a thing and fighting it.
+
 For once, the far mark did not need to be a promise.
 
 It could be one failed attempt.
