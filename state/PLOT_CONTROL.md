@@ -28,6 +28,74 @@ Use evidence labels:
 
 **AVOID:** rapid power ladder, generalized telekinesis, casual independent experimentation, claims outrunning evidence.
 
+## Magical ecology / fieldcraft — strong forward direction
+
+This is a **STRONG DIRECTIONAL PUSH**, not a requirement that the next chapter contain a creature encounter and not permission to invent specific species as retroactive canon. The world should increasingly remember that it is a genuinely magical fantasy world populated by living magical ecology, mythical beings, shifters, strange animals, environmental magical hazards, and entities that do not exist merely to become enemies.
+
+Old Greg spent decades surviving and adventuring in this world. Creature behavior, magical ecology, field signs, territorial patterns, dangerous postures, migration, feeding, nesting, environmental hazards, and practical encounter judgment were not trivia to him. They were survival knowledge. Compared with historical trivia, future markets, social predictions, and other memory domains vulnerable to forty years of drift, **fieldcraft and magical-ecology knowledge should be treated as one of Greg's comparatively high-confidence competence reservoirs when the subject is something he personally encountered, studied, survived, hunted, traveled around, worked beside, or otherwise had repeated practical reason to know.**
+
+This is an important route for letting Greg be genuinely competent and sometimes simply correct.
+
+When the world presents a creature or field situation he knows well, do not reflexively manufacture a memory failure just to preserve uncertainty. Greg may recognize the species, posture, track, call, magical sign, nesting behavior, false threat display, real threat display, safe route, dangerous route, or counterintuitive response immediately. He may know what everyone should do before younger or less experienced people around him understand why. Sometimes the satisfying beat should be that they follow his instruction and **he was fucking right**.
+
+That competence does not require combat superiority. A strong Greg solution may be:
+
+- do not run;
+- do not draw a weapon;
+- move sideways rather than backward;
+- put down the food;
+- avoid the apparently harmless individual rather than the frightening one;
+- wait for a migration / territorial display to finish;
+- recognize that an animal is nesting, feeding, injured, courting, molting, guarding young, bluffing, or simply using the same road;
+- redirect rather than kill;
+- use terrain, scent, sound, timing, ordinary tools, or known behavior;
+- recognize that something beautiful is dangerous or that something frightening is neutral;
+- know when actual violence is necessary and when violence would make the situation much worse.
+
+### PvE without an enemy
+
+PvE should not automatically mean `monster fight`.
+
+Magical ecology can create problems with **no villain at all**: a road blocked by migration, a creature nesting in a structure, a cart crossing territory, salvage near a den, a magical scavenger following the wrong smell, an animal attracted to stage materials, a river entity changing a route, a herd moving through farmland, a territorial display mistaken for attack, or a genuinely dangerous creature that is behaving normally.
+
+The tension can come from navigation, retrieval, protection, timing, observation, escape, coexistence, competing human needs, or the fact that the creature is powerful and does not care about the characters' plans.
+
+Do not flatten this into cozy harmless wildlife either. Neutral does not mean safe. A bear does not need to be evil to kill someone. Mythical ecology can remain dangerous, frightening, inconvenient, beautiful, useful, protected, hunted, domesticated, sacred, mundane, economically important, or awe-inspiring depending on the specific thing and social context.
+
+### Shifters and intelligent / ambiguous beings
+
+Shifters are part of this push, but do not default them into a single `werewolf` template or make transformation automatically a combat gimmick.
+
+Possible world shapes include fully social people whose shifting is simply part of their bodies/lives, communities or occupations affected by transformation, people Greg has worked or adventured beside, and beings whose social/personhood category is less obvious to outsiders. Specific biology, cultures, legal categories, terminology, and species remain to be developed rather than assumed here.
+
+Greg may have old practical familiarity with shifters that makes his reaction notably less exoticizing than someone encountering one for the first time. He can have mundane opinions, remembered etiquette, professional experience, irritation, affection, prejudice he later questions, or highly specific field knowledge. Because forty years separate his memories from the present, terminology and social conventions may have changed even when the underlying creature knowledge remains strong.
+
+### Future knowledge should sometimes be unfair in Greg's favor
+
+Magical ecology also gives future knowledge a category where chronology can matter without becoming financial arbitrage. Greg may remember a breeding ground not yet documented, a migration route discovered years later, a species behavior that current conventional wisdom misunderstands, a future common name for something currently considered rare, or an ecological relationship that becomes established knowledge only later.
+
+When this comes from repeated first-life experience, let the information sometimes be exactly right.
+
+This can create delicious asymmetry: someone in the present treats a creature as legendary or extraordinarily rare while Greg remembers dealing with the damn things repeatedly. Conversely, something Current Greg has only heard about can still inspire genuine awe. Do not domesticate every mythical thing through his experience. Some encounters should still produce the response: **holy shit, that's actually one.**
+
+### Integration with the lived world
+
+Do not launch a disconnected `creature arc`. Seed magical ecology through ordinary life and let central encounters emerge naturally.
+
+It can touch:
+
+- roads, carts, deliveries, farms, rivers, weather, neighborhoods, markets, guild work, construction, salvage, travel, theatre materials, clothing fibers, food, medicine, insurance, local rules, rumors, children's knowledge, professional expertise, and ordinary inconvenience;
+- Greg's old adventuring competence;
+- Hessa's insistence on distinguishing observation from inference;
+- Lyssa's independent material knowledge;
+- theatre prop/material sourcing without turning theatre into combat training;
+- acquisition/provenance when an object comes from a creature or environment, without making every creature a loot source;
+- future travel beyond Carrow when the story earns it.
+
+Other people must also know things. Farmers, hunters, handlers, shifters, laborers, traders, scholars, children, locals, and specialists may know their own ecology better than Greg. Greg's advantage is decades of broad dangerous-world experience, not universal zoological omniscience.
+
+**AVOID:** monster-of-the-week structure; videogame encounter tables; every creature attacking on sight; every creature existing for loot; shifters reduced to combat transformations; treating intelligent nonhumans as wildlife; Greg knowing every species perfectly; constant gotcha memory failures when field knowledge should reasonably be durable; turning every mythical being mundane; making everyone else ignorant so Greg can lecture; lore dumps replacing lived encounters; using ecology merely as a new progression-grind lane.
+
 ## Magic-item / acquisition economy — developed possibility
 
 This is a **POSSIBILITY**, not current canon or a scheduled arc. It is a promising next route when manuscript pressure naturally opens it.
