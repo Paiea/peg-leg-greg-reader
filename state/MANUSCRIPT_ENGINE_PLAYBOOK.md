@@ -18,6 +18,8 @@ Before forward writing, read at minimum:
 
 Read additional engine state only when relevant. Some older state files may have stale endpoints. Never let a stale summary overrule newer manuscript prose.
 
+Consult `state/STORY_ANTI_PATTERNS.md` when a chapter choice risks a known recurring failure mode. It is a guardrail, not mandatory boot reading and not canon.
+
 ## 2. Authority discipline
 
 Use this order for story decisions:
@@ -253,15 +255,21 @@ Repeats exist historically, so this is a preference rather than a reason to dist
 
 ## 14. Drafting behavior
 
-Before drafting, identify privately:
+Before drafting, identify privately a **light chapter contract**:
 
 - the chapter's primary function;
+- opening state → closing state;
+- what materially changes by the end;
 - which engine moves;
 - which engines deliberately do not move;
 - the chapter's ordinary-life anchor;
-- one or two likely mistakes/limitations;
-- the evidence ceiling for any mystery or magic result;
-- the physical route through the day.
+- the physical route through the day;
+- any required beat that comes from current authoritative direction;
+- protected uncertainty / the evidence ceiling for mystery, threat, or magic;
+- one or two likely mistakes or limitations;
+- the relationship / continuity constraint most likely to be accidentally flattened.
+
+The contract is a steering interface, not canon, not a scene-by-scene outline, and not a checklist the prose must mechanically satisfy. Do not create a separate durable chapter-contract file unless a specific workflow genuinely needs one.
 
 Then write the chapter rather than continuing to plan it.
 
@@ -332,6 +340,12 @@ Update living files in place.
 `MANUSCRIPT_WORKFLOW.md` answers: WHAT FILES / STEPS DO WE USE?
 
 `MANUSCRIPT_ENGINE_PLAYBOOK.md` answers: HOW SHOULD 01 THINK AND WORK?
+
+After a shipped chapter batch or other meaningful manuscript wave, ask one integration question before touching state:
+
+**What durable state actually changed because this prose now exists?**
+
+Update only the living files whose answers materially changed. Do not churn state merely because work happened, and do not copy temporary chapter-contract thinking into durable state unless the manuscript established it.
 
 Do not duplicate large canon summaries across all four files.
 
