@@ -6,7 +6,7 @@ Durable craft guidance for drafting and editing. This is not canon and does not 
 
 STRONGER PROSE -> BETTER RHYTHM -> CLEARER CHARACTER VOICE -> CLEANER SCENES -> BETTER READING FLOW
 
-Preserve plot, characterization, canon, scene intent, and outcomes unless repairing an obvious contradiction.
+Preserve plot, characterization, canon, scene intent, and outcomes unless an explicitly authorized structural edit says otherwise.
 
 The target is deceptively easy prose with more life per word: readable enough to fly through, varied enough to sound deliberately written, and socially dense enough that recurring people feel like they have actually spent time together.
 
@@ -20,79 +20,110 @@ Different relationships should produce different versions of Greg. Greg with Lys
 
 Reader ignorance is not Greg ignorance. Greg lived decades in his first life, eventually at S-class, and has also lived his second life inside this world. Do not default to tourist-style `What is that?` exposition for common magic, infrastructure, creatures, institutions, tools, or social practices merely because they are new to the reader.
 
-Most ordinary familiarity should be invisible: Greg can name, use, pass, ignore, or take a world feature for granted without announcing prior knowledge. When a familiar thing becomes scene-relevant, curiosity should often attach to the newly visible mechanism, local implementation, failure, maintenance, labor, cost, constraint, or specialist practice rather than to the object's basic existence. His changed material circumstances can make systems newly visible that powerful Old Greg used without ever needing to understand professionally.
+Most ordinary familiarity should be invisible. Greg can name, use, pass, ignore, or take a world feature for granted without announcing prior knowledge. When a familiar thing becomes scene-relevant, curiosity should often attach to the local implementation, failure, maintenance, labor, cost, constraint, or specialist practice rather than to the object's basic existence.
 
-Preserve the boundary between broad literacy and specialist expertise. S-class experience can give Greg strong magical/adventuring intuition and fast systems reasoning without teaching him masonry, plumbing, civic infrastructure, ecology, manufacturing, medicine, or every regional practice. Let local workers know their domains. Let Greg form useful hypotheses, ask sharper questions, or recognize implications without automatically possessing the answer.
+Preserve the boundary between broad literacy and specialist expertise. S-class experience can give Greg strong magical/adventuring intuition and fast systems reasoning without teaching him masonry, plumbing, civic infrastructure, ecology, manufacturing, medicine, or every regional practice. Let local workers know their domains.
 
 ## Rhythm / paragraphs
 
 Vary sentence and paragraph length according to pressure and attention. Action can tighten; observation can widen; dialogue should breathe with physical beats; important moments do not always need explanation afterward.
 
-Do not create uniform one-sentence paragraphs merely to manufacture pace. Do not bury every beat in dense blocks either. Combine paragraphs when fragmentation weakens flow; split when a genuine beat or attention shift deserves space.
+Do not create uniform one-sentence paragraphs merely to manufacture pace. Do not bury every beat in dense blocks either. Fragments are punctuation, not default grammar.
 
-### Break the fragment habit
+Aggressively watch for pages built from repeated two-to-five-word paragraphs or chains such as:
 
-Fragments are punctuation, not the manuscript's default grammar.
+- `He stopped. / Nothing. / Good. / Again.`
+- `Not fear. / Attention.`
+- `X was one thing. / Y was another.`
+- `That mattered.`
+- `Good.`
+- `Excellent.`
 
-Aggressively watch for pages built from repeated two-to-five-word paragraphs, isolated reaction words, or chains such as:
-
-- He stopped. / Nothing. / Good. / Again.
-- Not fear. / Attention.
-- X was one thing. / Y was another.
-- That mattered.
-- Good.
-- Excellent.
-
-Greg may think this way sometimes, but these structures lose force when repeated. Preserve short sentences for genuine snaps, jokes, realizations, interruptions, danger, or emotional landings. Surround them with ordinary and fuller sentences so the short beat earns its impact.
-
-Allow longer sentences when Greg is observing several connected things, moving through a physical space, participating in a conversation, becoming anxious, or getting carried along by events. A page should normally contain actual developed paragraphs, not a vertical stack of tiny beats.
+Preserve short sentences for genuine snaps, jokes, realizations, interruptions, danger, or emotional landings. Surround them with fuller sentences so the short beat earns force.
 
 Read prose aloud mentally. If the rhythm becomes predictable, change the instrument.
 
 ## Dialogue / interiority
 
-Favor dialogue that sounds like people doing something to one another, not characters exchanging state summaries. Use action beats when they reveal timing, posture, work, avoidance, interruption, or relationship. Let people misunderstand, answer sideways, interrupt, revise, or leave something unsaid.
+Favor dialogue that sounds like people doing something to one another, not characters exchanging state summaries. Let people misunderstand, answer sideways, interrupt, revise, refuse the premise, or leave something unsaid.
 
-Use invisible dialogue tags freely when speaker clarity benefits. Prefer simple **said** and **asked**. Do not avoid attribution merely to make dialogue look cleaner. Action beats should earn themselves by adding timing, behavior, physical information, or relationship texture, not merely substitute for **said**. In multi-speaker scenes, err slightly toward clarity. Do not tag every line when a two-person exchange is already effortless to follow, but never make the reader perform speaker bookkeeping for the sake of taglessness.
+### Attribution: clarity first
 
-Prefer specific immediate thought over generalized explanation. Do not repeatedly explain an emotion the scene already demonstrates.
+Use invisible dialogue tags **freely and more aggressively than earlier PLG prose sometimes did**.
+
+Prefer simple `said` and `asked`.
+
+Do not avoid attribution merely to make dialogue look cleaner. Do not insert a decorative shrug, nod, look, smile, or hand motion solely to avoid `said`.
+
+Rules of thumb:
+- two-person exchanges may run untagged when sequence and voice remain effortless;
+- after an interruption, movement beat, paragraph of interiority, or subject shift, re-tag sooner than feels stylistically necessary if ambiguity is possible;
+- in scenes with **three or more speakers**, err toward over-clarity rather than forcing the reader to count alternating lines;
+- when two characters have deliberately similar local/workplace diction, tags matter even more;
+- distinct voice is never a substitute for attribution.
+
+Action beats should earn themselves through timing, posture, work, avoidance, interruption, physical information, or relationship texture.
+
+Prefer specific immediate thought over generalized explanation. Do not repeatedly explain an emotion or implication the scene already demonstrates.
 
 Let other people make the best joke, solve the practical problem, know context Greg missed, or continue talking after his contribution is finished. The world should not behave as though it knows Greg is the protagonist.
 
-### Recurring-character voice separation
+## Recurring-character voice separation
 
-Greg's voice is a strength. Do **not** weaken, neutralize, or genericize Greg in order to make the cast sound different. Move major recurring speakers away from Greg instead.
+Durable per-character speech authority lives in `state/voices/INDEX.md` and the individual files under `state/voices/`.
 
-PLG may retain a shared dry comic sensibility, but not every recurring character should be equally quick, elliptical, self-aware, systems-minded, or skilled at the same deadpan conversational exchange. Watch especially for scenes where everybody speaks in Greg's short practical reversals and the only difference is who gets the punchline.
+For a **substantial scene** involving a recurring character, read that character's voice page plus exact recent prose. Do not read the entire folder every chapter.
 
-Prioritize roughly **8–12 genuinely recurring characters**, not every person in Carrow. Current high-value voice-separation targets include Lyssa, Hessa, Antonius, Rinna, Nessa, Pell, Sera, Sevren, Teren, Marek, and other characters who accumulate enough page-time to develop a linguistic fingerprint. A one-scene seller, porter, baker, or customer does not need bespoke syntax merely to prove variety.
+The voice pages are craft authority, not canon. Exact manuscript dialogue outranks them.
 
-Differentiate recurring voices primarily through **how they process the world**, not decorative quirks:
-- what they notice first and what they routinely ignore
-- concrete/material thinking versus abstraction
-- how much explanation they believe another person deserves
-- sentence length, hesitation, interruption, revision, silence, and response speed
-- whether they pursue an argument, refuse it, redirect it, or let it die
-- what they consider evidence, risk, work, humor, intimacy, disrespect, or a finished answer
-- whether a joke is defensive, playful, impatient, performative, affectionate, accidental, or absent
+### Core rule
 
-Avoid easy substitutes such as catchphrases, exaggerated accents, signature filler words, or making everyone more colorful. Distinct voice should feel like distinct cognition plus distinct relationship history.
+Greg's voice is a strength. Do **not** weaken, neutralize, or genericize Greg to make the cast sound different. Move recurring speakers away from Greg through cognition, rhythm, relationship, and information behavior.
 
-Useful current directional anchors, **not rigid dialogue formulas**:
-- **Lyssa:** preserve material/social immediacy and an independent agenda. She can puncture Greg's abstraction without becoming "female Greg who wins the exchange." Sometimes the strongest Lyssa response is refusal to enter his analytical game at all.
-- **Hessa:** precision serves evidence, safety, method, and limits. She does not need to turn every boundary into a punchline or conversational victory.
-- **Antonius:** value, obligation, incentives, leverage, and time can shape what he considers relevant. Economic framing should feel native rather than like Greg doing economics in another mouth.
-- **Rinna:** business procedure, payment, records, pressure, and getting the next necessary thing done can compress her speech. She need not explain every decision.
-- **Nessa:** physical execution, object continuity, route, costume, reset, and immediate playable correction should keep her language concrete and operational.
-- **Sera:** medical uncertainty and decision boundaries matter. Let her distinguish what she knows, suspects, chose, and cannot promise without performing false certainty for Greg.
-- **Sevren:** preserve the sense that roads, deliveries, fatigue, other places, and other people's business continue beyond Greg. He does not have to care about Greg's current abstraction as much as Greg does.
-- **Teren:** favor local playable stage notes over universal aphorisms. His authority is strongest when tied to the exact performance problem.
-- **Marek:** performer energy, improvisation, embarrassment, jokes, object trouble, and surprising competence can create a different rhythm from Greg's analytical deadpan.
-- **Pell and other recurring technical/work voices:** where manuscript evidence supports it, let practical domain knowledge create its own rhythm, including incomplete explanations, assumed context, or attention fixed on the thing being worked rather than on Greg's framing.
+PLG may retain a shared dry comic sensibility. Shared Carrow colloquial speech, household language, theatre shorthand, and phrases learned from one another are allowed. Distinct voice does not mean maximal contrast.
 
-A useful editorial test: remove dialogue tags from a substantial exchange between Greg and one major recurring character. Not every isolated line must be identifiable, but after several turns the speakers should usually become legible through priorities, rhythm, assumptions, and relationship. Ask not only **"Who would say this?"** but **"Why would this person phrase the thought this way instead of Greg's way?"**
+Differentiate through:
+- what a person notices first and routinely ignores;
+- how much explanation they believe another person deserves;
+- whether they pursue an argument, redirect it, refuse it, or let it die;
+- sentence length, hesitation, interruption, revision, silence, and response speed;
+- what they consider evidence, risk, work, humor, intimacy, disrespect, or a finished answer;
+- whether a joke is defensive, playful, impatient, performative, affectionate, accidental, or absent.
 
-Do not force difference line by line. Shared workplace language, household shorthand, local humor, and phrases learned from one another are part of accumulation. The goal is not maximal contrast. The goal is that long-lived characters increasingly sound as if they possess minds that existed before Greg entered the room and continue after he leaves.
+Avoid accents invented after the fact, signature filler words, author-assigned catchphrases, or making everyone more colorful merely to prove variety.
+
+### Greg/Hessa contamination warning
+
+A current failure mode is that Hessa's useful evidence discipline leaks into the entire city.
+
+Other people may be empirical without using Hessa's reasoning architecture.
+
+Increase legitimate variety:
+- trade shorthand;
+- intuition;
+- inherited practice;
+- superstition;
+- local sayings;
+- rules that work even when the speaker cannot explain mechanism;
+- confident but partial knowledge;
+- people who are wrong;
+- people who do not care about Greg's distinction because the practical answer is already enough.
+
+A cobbler can say `Come back when it wears again` without delivering a speech about sample size.
+
+A repairer can say `Attachment first` because that is what his hands found, then get back to work.
+
+A neighbor may confidently believe glowwings mean rain.
+
+Hessa should remain uniquely Hessa.
+
+### Voice test
+
+Hide the tags from a multi-turn Greg/recurring-character exchange. After several turns, speakers should usually become legible through priorities, rhythm, assumptions, and relationship.
+
+Then restore the tags wherever clarity benefits.
+
+Ask not only `Who would say this?` but `Why would this person phrase the thought this way instead of Greg's way?`
 
 ## Social texture / group memory
 
@@ -100,9 +131,9 @@ Recurring groups, especially the theatre company, should accumulate social histo
 
 Characters should gradually become known for things without being reduced to gimmicks: who gets asked about props, who remembers lines, who borrows things, who gets volunteered because they did the job once, who knows where Rinna is, who absolutely does not, who fixes one oddly specific thing, who remembers Greg's old mistake, who gets teased by whom, who has unofficial authority, and who has an argument everyone else already recognizes.
 
-Prefer reinforcing behavior already present in the manuscript over inventing a new trait merely to decorate a scene.
+Prefer reinforcing behavior already present in the manuscript over inventing a trait merely to decorate a scene.
 
-People remember things. A mistake, success, costume, embarrassing entrance, audience incident, favor, or stupid comment can leave residue dozens of chapters later when the people involved would naturally remember it. Do not force callbacks to prove continuity; use social memory where human beings would actually carry it.
+People remember things. A mistake, success, costume, embarrassing entrance, audience incident, favor, or stupid comment can leave residue dozens of chapters later when the people involved would naturally remember it. Do not force callbacks to prove continuity.
 
 Side characters should show evidence of lives continuing when Greg is elsewhere: another job, unfinished argument, hunger, fatigue, errands, changed clothes, plans after work, information Greg lacks, a favor owed, or a minor problem already in progress. Do not turn every detail into a subplot.
 
@@ -114,13 +145,9 @@ Nicknames should usually be socially earned, not author-assigned.
 
 Preferred pattern:
 
-EVENT -> somebody jokes or mislabels -> someone repeats it -> Greg or another character reacts -> the name occasionally returns -> eventually nobody needs to explain it.
+EVENT -> somebody jokes or mislabels -> someone repeats it -> the target reacts -> the name occasionally returns -> eventually nobody needs to explain it.
 
-Names may arise from a mistake, job, costume, prop, repeated habit, line delivery, responsibility, misunderstanding, successful improvisation, or a reputation that is only partly deserved. Some should die immediately. Some belong to one relationship. Some spread. Some mutate. A character refusing to use everyone else's nickname can itself reveal relationship.
-
-Do not manufacture a nickname for every character. Do not make every nickname clever. Stupid names that survive because the target objects can be excellent social texture.
-
-Preserve established social labels and running jokes when they remain alive in the group. Let exhausted jokes die.
+Some names should die immediately. Some belong to one relationship. Some spread. Some mutate. Do not manufacture one for every character.
 
 ## Exposition
 
@@ -129,17 +156,22 @@ Worldbuilding should usually arrive because Greg is working, traveling, buying, 
 ## Repetition pass
 
 Hunt for:
-- the same conclusion stated twice
-- dialogue followed by narration explaining the dialogue
-- repeated body-language shorthand
-- repeated sentence openings
-- repeated rhetorical reversals
-- tiny-paragraph stacks that flatten cadence
-- unnecessary restatement of known stakes
-- generic sensory filler
-- excessive clever phrasing drawing attention away from the scene
-- relationships that reset instead of remembering prior chapters
-- side characters used only for plot delivery
+- the same conclusion stated twice;
+- dialogue followed by narration explaining the dialogue;
+- repeated body-language shorthand;
+- repeated sentence openings;
+- repeated rhetorical reversals;
+- tiny-paragraph stacks that flatten cadence;
+- unnecessary restatement of known stakes;
+- generic sensory filler;
+- excessive clever phrasing drawing attention away from the scene;
+- relationships that reset instead of remembering prior chapters;
+- side characters used only for plot delivery;
+- `this was growth` after behavior already proved growth;
+- repeated `not my job / not my profession / not a project` self-explanation;
+- Greg repeatedly narrating that he is not overclaiming after the dialogue/action already shows restraint.
+
+Cut the paragraph after the good paragraph when it merely explains why the good paragraph was good.
 
 ## Physicality
 
@@ -148,6 +180,8 @@ Greg's body and crutches affect routes, timing, fatigue, balance, carrying, seat
 Continuity: permanent LEFT BKA, knee preserved, right leg intact, two crutches unless current manuscript authority changes something.
 
 Other people should gradually become socially accustomed to Greg's movement. Earlier awkward accommodation can become ordinary shorthand, practiced spacing, automatic handoffs, or remembered route choices. That change is relationship development.
+
+Compress repeated body checks when nothing changed. Preserve them when the activity, equipment, fatigue, skin pressure, pain, balance, or route actually changes the scene.
 
 ## Theatre prose
 
@@ -158,11 +192,15 @@ The theatre should read as both workplace and social organism. Let shorthand, fa
 Preserve the visible theatre trajectory:
 FUN -> PEOPLE -> WORKPLACE -> ACTING -> STAGECRAFT -> FAILURE -> ANOTHER TURN.
 
-Do not make every theatre beat secretly future-capability training. The eventual utility is stronger if the theatre is first worth reading because the theatre itself is fun.
+Do not make every theatre beat secretly future-capability training.
 
 ## Magic prose
 
 Keep observation distinct from interpretation. Apparatus, fatigue, repetition, controls, failures, and narrow language matter. Avoid making a small experimental effect feel like superhero power acquisition.
+
+Once a protocol is established, **compress repeated procedure unless the changed variable, temptation, body response, or result is the point of the scene.** The reader does not need every familiar setup step re-logged indefinitely.
+
+Hessa's exact counts/results must remain intact even when prose compresses.
 
 ## Threat prose
 
@@ -174,13 +212,35 @@ Do not treat every chapter as an isolated short story. Inspect neighboring chapt
 
 A long serial should develop memory.
 
+## Structural compression
+
+Quiet chapters are not automatically weak chapters.
+
+Cut **repetition**, not quietness.
+
+A chapter can earn its existence through:
+- social presence;
+- leisure;
+- intimacy;
+- comedy;
+- changed relationship language;
+- belonging;
+- atmosphere;
+- material consequence;
+- a distinct world behavior;
+- a choice Greg could not have made earlier.
+
+When two neighboring chapters perform materially the same movement with different props, consider compression, merging, or deletion before polishing both at full length.
+
+Authorized structural passes may merge/delete/renumber chapters only under the dedicated structural map and renumber-safety process. Do not casually renumber during ordinary 01/04 work.
+
 ## Editing strength
 
 A light pass may tighten sentences, paragraphing, tags, transitions, and redundancy.
 
 A heavy prose pass may substantially rewrite sentences, restructure paragraphs, strengthen dialogue/action beats, and add small continuity-bearing social details while preserving canon, characterization, plot, scene intent, and outcomes.
 
-Neither pass should quietly become a new story draft.
+An explicitly authorized **structural pass** may additionally merge or cut scenes/chapters and renumber according to its frozen map.
 
 When adding social texture, prefer MORE LIFE PER WORD over MORE WORDS. If an addition feels authored instead of lived, cut it.
 
@@ -188,17 +248,21 @@ When adding social texture, prefer MORE LIFE PER WORD over MORE WORDS. If an add
 
 After a substantial chapter edit ask:
 
-PROSE: Does it read smoothly aloud? Are sentence lengths genuinely varied? Did short sentences regain impact? Are there enough real paragraphs?
+**PROSE**: Does it read smoothly aloud? Are sentence lengths genuinely varied? Did short sentences regain impact? Are there enough real paragraphs?
 
-PEOPLE: Could recurring characters be distinguished through behavior and relationship? Did somebody besides Greg feel alive? Does the group remember its own history?
+**PEOPLE**: Did the relevant recurring voice pages actually show up in cognition/rhythm rather than catchphrases? Did somebody besides Greg feel alive?
 
-SOCIAL WORLD: Did anything feel as if it existed before Greg entered and will continue after he leaves? Are reputations, jokes, roles, nicknames, favors, annoyances, and expectations accumulating naturally?
+**ATTRIBUTION**: Could a listener follow who is speaking without visual bookkeeping, especially in 3+ speaker scenes?
 
-PACE: Is it still easy to read? Did richness increase without making the chapter heavier to move through?
+**SOCIAL WORLD**: Did anything feel as if it existed before Greg entered and will continue after he leaves?
 
-CANON: Did the plot, outcome, relationships, world rules, body continuity, and established facts remain intact?
+**PACE**: Is it still easy to read? Did richness increase without making the chapter heavier to move through?
 
-If the prose became fancier but harder to read, simplify it. If it became cleaner but lost personality, put the personality back.
+**INTERIORITY**: Did Greg retain his analytical personality without explaining moments twice?
+
+**CANON**: Did plot, outcome, relationships, magic evidence, money, body continuity, and world facts remain intact?
+
+If prose became fancier but harder to read, simplify it. If it became cleaner but lost personality, put the personality back.
 
 ## Hard checks
 
@@ -207,7 +271,9 @@ If the prose became fancier but harder to read, simplify it. If it became cleane
 - verify numbers/counts/debt facts against state when relevant
 - verify body/prop/location continuity
 - inspect actual surrounding prose before broad stylistic judgments
+- consult relevant `state/voices/<CHARACTER>.md` for substantial recurring-character dialogue
 - do not silently replace established social history with newly invented cleaner versions
+- do not let voice differentiation reduce dialogue attribution clarity
 
 ## Living craft memory
 
