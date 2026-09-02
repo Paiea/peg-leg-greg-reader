@@ -1,11 +1,11 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 274 — **THE READER**.
+- Current exact story endpoint: Chapter 275 — **THE SCRAPER**.
 - Book 1 Chapters 1–82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent forward manuscript path: `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249–274 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries and still requires exact-text integration into the permanent manuscript. Older Ch156–219 synchronization debt also remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249–275 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries and still requires exact-text integration into the permanent manuscript. Older Ch156–219 synchronization debt also remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500–4,000 words and clear 2,500 unless explicitly changed.
@@ -23,15 +23,15 @@
 - Greg is nineteen, Bronze, in Carrow. Permanent LEFT BKA, knee preserved; right leg intact; uses two crutches.
 - LEFT tip replaced Ch223; RIGHT grip retensioned Ch242; LEFT grip fine. Ch247 haircut current.
 - Ch269 Savin repairs Greg's only right shoe outer-heel separation with pitch mix and three flush nails. No gait correction. Cause of outer-heel wear unestablished.
-- Ch274 body remains ordinary; repaired shoe quiet/holding, right leg fine, residual limb comfortable. No injury/equipment change.
+- Ch275 body ordinary. Lower-room stairs and low lamp holding tire shoulders mildly; right shoe holds, right leg fine, residual limb comfortable. No injury/equipment change.
 
 ## Greg / Lyssa / household
 - Lyssa remains independent and is not Greg's analyst/project manager.
 - Long-standing brown cloth and older unidentified materials remain protected/unexplained.
-- Ch273 current pale work identified narrowly as a collar facing for a coat with small pale buttons; customer/coat broader context unestablished.
-- Six narrow wraps explicitly are not the collar facing and remain unexplained.
+- Ch273 pale work identified narrowly as a collar facing for a coat with small pale buttons; customer/coat broader context unestablished. Six narrow wraps explicitly are not the collar facing and remain unexplained.
 - Ch269 small paper packet and Ch270 wrapped bundle remain unconnected/protected.
-- Ch274 Lyssa returns with a new narrow paper parcel under one arm. Contents/relationship to other work are not established. Greg does not ask.
+- Ch274 narrow paper parcel remains unidentified. Ch275 Lyssa still has/moves that parcel among her work things; Greg does not ask.
+- Household potatoes were stored in the shared lower room near the affected cold shelf. Olan moves them upstairs damp but with no visible white/blue growth. Greg spreads them to dry; one soft spot is cut away. No illness or spoilage event established.
 
 ## Recent durable residue
 - Ch249–264 exact checkpoint prose remains authoritative. See exact files.
@@ -44,100 +44,83 @@
 - Ch271 **THE DISTANCE**: first observed external response without old glass apparatus; near 1/3, middle 0/2, far untested; totals 36 / 32 / 66; outside restrictions unchanged.
 - Ch272 **THE QUEUE**: one-day building water outage, north-cistern feed stones, neighbor water logistics; service restored.
 - Ch273 **THE WITNESS**: separate ordinary cart/post dispute; Green Coat attempted two-copper witness shaping; legitimate Senn account; free local copperback observed; no older-pressure connection established.
+- Ch274 **THE READER**: one-off paid south-market scale-reading cover; Deni/Toma; magical seal plate; Lio expected back next day; no standing market job.
 
-### Chapter 274 — THE READER
-- Lyssa brings Greg a paid one-off opportunity relayed from **Maren**: south market east table at second bell, reading scale/weight marks for roughly an hour because the usual reader is sick.
-- Choice remains voluntary. Maren said if Greg does not want it, do not go. Lyssa does not volunteer/manage him.
-- Pay is **three copper** from the market clerk. Greg accepts because the work is physically compatible: seated reading, no required lifting.
-- **Deni** named: woman at south-market east scale-check table, dark hair with shaved strip above one ear, pencil through hair. Exact title unestablished. She handles records/merchant flow and pays Greg.
-- **Toma** named: broad older man who physically checks working weights against market standards. Exact title unestablished.
-- Greg's scope is explicit: read stamped standard/row clearly; do not decide pass/fail; do not touch standards; do not need to understand scale mechanics.
-- Market scale check includes ordinary balance scales plus a magical **seal plate**: flat brass plate on squat black base with thin blue light around edge.
-- Narrow observed/use claim for seal plate: Toma uses it for small marked weights; places market standard and merchant working weight together; blue light remains/brightens when he calls the pair a pass. Toma says it tells him if the marked pair agree. Deni says standards were checked against an `office master` that morning.
-- Exact seal-plate mechanism, tolerance, power source, whether it measures mass or another enchanted property, office-master mechanism, maker/cost/network remain unestablished.
-- Toma says ordinary pans `get stupid that small`, explaining only why the plate is used for small marks in practice.
-- At fifth bell Toma covers standards and touches a small brass tab on seal-plate base, after which blue light goes dark. Exact reason/mechanism unestablished.
-- `dry` and `wet` rows exist on Greg's reading board. Deni says weights do not differ, tables do. Do not infer broader measurement law beyond scene.
-- One merchant's working weight needs shaving; another appears self-filed and earns adjustment. Greg does not adjudicate lying.
-- A lamp-oil seller brings older weights stamped with small suns. Toma sends her to `office table` because `old marks`. Meaning/conversion remains unestablished.
-- Greg is recognized by a fish seller as the theatre `Uncle`, reinforcing ordinary social accumulation without creating theatre work.
-- A glowwing briefly lands on a roof and flashes green in flight. Nobody else reacts. No new ecology claim.
-- A stall owner tries to recruit Deni into a mundane argument about whether he said fifth bell or after second. Deni refuses to claim hearing it. This lightly echoes Ch273 evidence discipline without extending the cart dispute.
-- **Pera** briefly appears independently to give Deni a folded note `for tomorrow's west table`. Pera recognizes Greg as `cart watcher`; Greg asks only if Orin is good. Pera says he is complaining, therefore yes. No preserve job/watch/copperback subplot.
-- Deni says usual reader **Lio** returns tomorrow; Greg has no next-day scale job. `Until somebody else gets sick` is possibility only, not schedule/standing employment.
-- Greg is paid three copper. On way home he voluntarily buys one cup of Vela's remaining soup, leaving some of the pay. Vela's previously mentioned old bean-critic customer appears and complains; no new obligation.
-- Greg puts two of his remaining copper on household table and keeps the rest with his own small money. Exact soup price is not narrated and should not be inferred.
-- No Green Coat/Senn/cart-dispute contact, no Hessa contact/mana use, no theatre call, Hollen shift, Edrin consultation, Vale contact, debt payment, animal assignment, or injury.
+### Chapter 275 — THE SCRAPER
+- Actual claim is household/building maintenance. Olan brings Greg and Lyssa's damp potato sack upstairs because the shared lower storage room's back cold shelf/wall has developed white threadlike growth with faint blue active edges.
+- Greg recognizes the growth as matching old-life **rimeweb** closely enough for one clean safety rule: **do not scrape it while the edge is blue/active**. In his old-life experience, disturbing active growth could throw very cold dust capable of rapidly freezing wet surfaces/skin and posing eye risk at close range.
+- Greg explicitly limits the identification to `rimeweb, or close enough` and does not claim full taxonomy/mechanism/local equivalence.
+- Local people call the growth **whitewall**. Maris knows the local name and initially arrives with a broom, but accepts Greg's warning and waits for the building keeper.
+- **Mella** is named as the building keeper. Greg has actually encountered her before without retaining her name: she previously repaired/insulted the rear latch/hinge. This is social residue, not a newly invented prior friendship.
+- Mella already knows whitewall and independently confirms the practical rule not to scrape blue growth. Greg's old-life knowledge works cleanly but does not replace local expertise.
+- Mella's local cleaning method after blue fades: weak wash containing ash, vinegar, and salt, wet scraping, waste bucket, shelf left away from wall. Greg's old-life camps used weak ash water after active blue died. Do not generalize either method beyond this scene.
+- Mella says whitewall can appear with a wet wall/cold night; possible causes here include water-line sweating after service returned or an older patch under mortar. She does not establish cause.
+- Building water line runs behind the affected wall. A thin moisture line remains after cleaning. Mella plans only to look again tomorrow and see whether the wall dries. No confirmed leak, feed-stone failure, structural damage, infestation, or municipal problem.
+- Greg does not use mana or experiment on the growth. He explicitly refuses that route because Hessa's restrictions remain in force.
+- During cleanup, Greg's useful role is low lamp holding from a crate while Mella scrapes, Olan scrapes the section she assigns, and Maris catches wet waste. Greg does not become the cleaner/expert in charge.
+- Mella tells everyone to keep the back shelf empty overnight. Potatoes stay upstairs. No guaranteed Greg task tomorrow; Mella owns the follow-up.
+- No pay, debt payment, Green Coat/Senn contact, theatre call, Hessa contact, Hollen shift, Edrin consultation, Vale contact, animal assignment, or injury.
 
 ## Magical ecology / ordinary magical world
 - Slateback bounded; mudjaw/reedcrest unconfirmed; ditchrunners probable report only; bellthroats trained theatre fauna.
-- Glowwings bounded ordinary magical birds, not weather predictors. Ch274 one green flash only, no new claim.
-- Free local copperback Ch273 stands; no Ch274 copperback event.
-- Shade-lamp mechanism unknown. Household paper charm remains ambient only. Feed-stone mechanism/network remains unestablished.
-- Ch274 adds seal plate as ordinary market magical infrastructure with narrow paired-weight agreement use only. Do not generalize into universal truth detector, precision scale, item identifier, or Greg magic apparatus.
+- Glowwings bounded ordinary magical birds, not weather predictors.
+- Free local copperback Ch273 stands; no Ch274–275 copperback follow-up.
+- Shade-lamp, household charm, feed-stone, and seal-plate mechanisms remain bounded/unexplained beyond observed use.
+- Ch275 adds whitewall/rimeweb as ordinary magical growth in a building context. Established only: white threadlike wall growth, faint blue active edges, local people know it, Mella avoids scraping while blue, and Greg's old-life analogue could throw freezing dust when disturbed. Exact category, lifecycle, source, magical mechanism, prevalence, and whether Carrow whitewall is biologically identical to old-life rimeweb remain unestablished.
 
 ## Magic continuity
 - Totals remain **36 supervised minimal draws / 32 supervised deliberate shaping attempts / 66 supervised external-effect attempts**.
-- No Greg mana use Ch272–274.
+- No Greg mana use Ch272–275.
 - Ch271 evidence ceiling unchanged: near 1/3, middle 0/2, far untested. No general range law/reliability/material generalization.
 - Existing outside-session restrictions remain fully in force. Hessa next experiment/appointment unselected.
 
 ## Theatre / work
 - Greg is not permanent caller/stage manager/Uncle/usher/front-of-house/utility worker.
-- Demi usual caller; no theatre call Ch269–274. Fish seller remembers Greg's temporary Uncle performance only.
-- Ch274 scale-reader work is a one-off sick-cover job. Lio expected back tomorrow. No standing market role.
+- Demi usual caller; no theatre call Ch269–275.
+- Ch274 scale-reader work remains one-off cover. No market work Ch275.
 - Rinna Ch251 parcel remains unexplained.
-
-## Binding shop / Hollen / Pem
-- Ch260 and Ch263 paid half-days only. No standing employment. No contact Ch264–274.
-
-## South Guild yard / Edrin
-- Conditional route activated once Ch266. No contact Ch267–274. No standing job.
 
 ## Economy / Vale debt
 - Currency: copper / silver / gold. No conversion rate established.
 - Antonius Vale debt active/unresolved. Original terms remain 35% interest, 8 days, labor through Antonius on default; original principal unknown. Exact current balance exists in-world and Greg knows it but narration does not state it.
-- Ch274 Greg earns three copper for scale-reading cover, buys one Vela soup, puts two remaining copper on household table and keeps the rest of his remaining small money. Exact soup price/remaining personal amount is not narrated.
-- No debt payment/Vale contact. No Vale/Bren connection.
+- Ch275 has no income, debt payment, or Vale contact. No Vale/Bren connection.
 
 ## Pressure / evidence ceiling
 - Older grounded brown-coat/Mason's Cut/Bren evidence ceiling through Ch236 unchanged.
 - Ch273 Green Coat remains a separate ordinary civic-dispute pressure fact only.
-- Ch274 has no Green Coat/Senn/cart-dispute contact or new pressure evidence.
+- Ch274–275 add no pressure evidence.
 
 ## Protected uncertainties / do not auto-resolve
-- Weak needle-case mark; Rinna parcel; Lyssa older materials/Ch269 packet/Ch270 wrapped bundle/new Ch274 narrow paper parcel; long-standing brown cloth; Ch246 crate contents.
+- Weak needle-case mark; Rinna parcel; Lyssa older materials/Ch269 packet/Ch270 bundle/Ch274 narrow parcel; long-standing brown cloth; Ch246 crate contents.
 - Collar-facing customer/coat broader purpose unresolved; six wraps explicitly separate and unresolved.
 - Hessa next experiment unselected. Exact near/middle/far measurements unknown. Far untested.
 - Mudjaw/reedcrest unconfirmed; ditchrunners probable only.
 - Copperback feeding/lifecycle/eradication/current Savin damage causation unproven.
-- Household charm/feed-stone/shade-lamp mechanisms unestablished.
-- Seal-plate mechanism/tolerance/power/maker/cost/office-master details unestablished. Old sun marks meaning/conversion unestablished.
+- Household charm/feed-stone/shade-lamp/seal-plate mechanisms unestablished. Old sun weight marks meaning/conversion unestablished.
 - Green Coat identity/motive/side/employer/recurrence and cart/post fault unresolved.
-- Senn broader role/life/office structure unestablished.
-- Deni/Toma/Lio broader lives/roles unestablished. Pera west-table note contents unestablished.
-- Vela/Olan/Maris/Orin/Nessa/Tolan/Pera broader lives remain narrow.
+- Whitewall exact cause, identity relative to old-life rimeweb, lifecycle, mechanism, and whether wall moisture is leak versus condensation/sweat remain unresolved.
+- Mella broader life/other-building work unestablished. Deni/Toma/Lio broader roles/lives and Pera west-table note contents unestablished.
 
-## Chapter 275 trailhead
+## Chapter 276 trailhead
 Follow the next actual claim from current authority.
 
-Chapter 274 gives Greg one modest paid job that fits his body unusually well: sit, read clearly, and leave decisions/lifting to the people whose work it is. Let that remain a one-off sick-cover job. Lio is expected back tomorrow. Do not automatically make Greg the market reader, scale inspector, Deni/Toma assistant, or municipal measurement expert.
+Chapter 275 lets Greg's old-life field knowledge work cleanly in a mundane magical-world problem. He correctly recognizes the danger pattern and prevents active blue whitewall/rimeweb from being dry-scraped. Then Mella, the actual building keeper, owns the local treatment and follow-up. Preserve both halves. Do not retroactively make Greg wrong merely to create uncertainty, and do not promote him into magical-growth expert/building inspector because he remembered one useful rule.
 
-The seal plate is useful ambient fantasy because it is boring infrastructure to its users. Preserve the narrow evidence: paired small marked weights, blue associated with Toma calling agreement/pass, standards reportedly checked against an office master, brass tab darkens the plate at close. Do not turn it into a Greg experiment, magic lesson, truth device, purchase, or system exposition.
+Mella will look at the wall tomorrow. That does not obligate Chapter 276 to show it. Do not automatically turn the remaining moisture line into a leak, feed-stone failure, infestation, building evacuation, or Guild case. The lower-room event may simply resolve off-page if nothing further claims Greg.
 
-Maren can pass Greg an opportunity through Lyssa without making Lyssa his manager or Maren his employment agent. Pera can cross another network without requiring Orin follow-up. Vela can sell soup without becoming a quest giver. Let social accumulation stay social.
+The chapter adds magical ecology without a creature hunt: whitewall is ordinary enough that Maris and Mella know it, while Greg knows a close old-life analogue. Keep exact biology/mechanism open.
 
-Ch273 cart dispute remains quiet in Ch274. Do not bring Green Coat/Senn back merely because the thread exists. The free copperback sighting also needs no immediate follow-up.
+Lyssa's narrow paper parcel remains unidentified. Do not use the quiet household chapter as permission to explain her work backlog. Scale work remains one-off. Ch273 civic dispute remains quiet. Copperback sighting remains quiet.
 
 Magic continuity remains 36 / 32 / 66, Ch271 near 1/3, middle 0/2, far untested, restrictions unchanged. Hessa has not summoned Greg again.
 
-At chapter end Greg is home, paid modestly, uninjured, repaired shoe holding, household stable, and has no guaranteed Hessa appointment, theatre call, Hollen shift, Vale meeting, Guild consultation, animal assignment, Savin appointment, Orin watch, scale job, civic hearing, Green Coat encounter, or Lyssa-network obligation.
+At chapter end Greg is home, uninjured, repaired shoe holding, household stable, potatoes upstairs, lower back shelf temporarily empty, and has no guaranteed Hessa appointment, theatre call, Hollen shift, Vale meeting, Guild consultation, animal assignment, Savin appointment, Orin watch, scale job, civic hearing, Green Coat encounter, whitewall-cleaning duty, or Lyssa-network obligation.
 
-Let household, paid work, city/social life, theatre if genuinely summoned, pressure if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft if genuinely arriving, or another ordinary fantasy-world claim take Chapter 275.
+Let household, paid work, city/social life, theatre if genuinely summoned, pressure if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft if genuinely arriving, or another ordinary fantasy-world claim take Chapter 276.
 
-Do not automatically rotate through scale checks/Deni/Toma/Lio/seal plate, Pera/Orin, Vela, Green Coat/Senn/cart dispute, copperbacks/Savin, collar facing/six wraps/Lyssa parcel, water/feed stones, Hessa/distance/square, caller/Demi/Lenn, Iven/bellthroats, Nerin/Mara/Jessa, glowwings, ditchrunners/Tessa/Edrin, bronze-cup musician, weather beads, Hollen/Pem, Second Toast/Marek, Colm, mudjaw/reedcrest/slateback, Daro/Neli, neighborhood cast, wash court, weak needle case, Rinna parcel, Lyssa's older materials, Vale, Bren/brown-coat pressure, magic-item acquisition, or eventual leg-loss architecture merely because each remains available.
+Do not automatically rotate through whitewall/Mella/water line, scale checks/Deni/Toma/Lio/seal plate, Pera/Orin, Vela, Green Coat/Senn/cart dispute, copperbacks/Savin, collar facing/six wraps/Lyssa parcel, water/feed stones, Hessa/distance/square, caller/Demi/Lenn, Iven/bellthroats, Nerin/Mara/Jessa, glowwings, ditchrunners/Tessa/Edrin, bronze-cup musician, weather beads, Hollen/Pem, Second Toast/Marek, Colm, mudjaw/reedcrest/slateback, Daro/Neli, neighborhood cast, wash court, weak needle case, Rinna parcel, Lyssa's older materials, Vale, Bren/brown-coat pressure, magic-item acquisition, or eventual leg-loss architecture merely because each remains available.
 
-Write ONE complete Chapter 275, target 2,500–4,000 words and clear 2,500, Greg POV, zero em dashes. Validate it, update durable exact prose/state, and leave the Chapter 276 trailhead from what actually happened.
+Write ONE complete Chapter 276, target 2,500–4,000 words and clear 2,500, Greg POV, zero em dashes. Validate it, update durable exact prose/state, and leave the Chapter 277 trailhead from what actually happened.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
