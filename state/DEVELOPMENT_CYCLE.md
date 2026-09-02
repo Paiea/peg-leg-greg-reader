@@ -25,6 +25,12 @@ then repeat as useful while 01 continues writing.
 
 Do not wait for the manuscript to stop before developing the world. Do not require 01 to absorb every exploratory idea.
 
+### Parallelism rule
+
+**Parallelize exploration and verification aggressively. Serialize authoritative story decisions.**
+
+Research, continuity probes, alternative routes, specialist critiques, and other reversible analysis may run in parallel when useful. Canon prose and durable state must still pass through the normal authority path so parallel workers do not independently establish incompatible story facts.
+
 ## Long-serial residue specialist brain
 
 `LONG_SERIAL_RESIDUE_MAP.md` stores the project-level developmental map for **making time leave residue** across characters, non-Greg relationships, repeat Carrow social nodes, recurring objects/jokes/mistakes, and lightweight accumulated shorthand.
@@ -41,6 +47,7 @@ Start from current GitHub authority, especially:
 - current manuscript edge when exact scene evidence matters
 - `WRITERS_ROOM_STATE.md`
 - `LONG_SERIAL_RESIDUE_MAP.md` when developing social accumulation / offscreen life / recurring relationships
+- `STORY_ANTI_PATTERNS.md` when an exploration risks a known recurring failure mode
 - relevant specialist brains
 
 Then identify a small number of high-value developmental edges.
@@ -117,6 +124,7 @@ Start from current GitHub authority, especially:
 - `WRITERS_ROOM_STATE.md`
 - `RESEARCH_LEDGER.md` when relevant
 - `LONG_SERIAL_RESIDUE_MAP.md` when pressure-testing longitudinal social development
+- `STORY_ANTI_PATTERNS.md` when a candidate direction risks a known recurring failure mode
 - `PLOT_CONTROL.md`
 - `CHARACTER_BIBLE.md`
 - `SETTING_BIBLE.md`
@@ -184,24 +192,43 @@ Recommended interaction:
 - If 03 establishes a materially important new direction, place the compact durable residue in the specialist brain 01 already knows to consult.
 - Longitudinal social development should reach 01 as a few relevant habits or pressures, not as a requirement to service every item in `LONG_SERIAL_RESIDUE_MAP.md`.
 
+## Post-wave integration gate
+
+After a meaningful 02/03 wave, do not update durable files simply because analysis occurred. Ask:
+
+**What durable state actually changed?**
+
+Then sort the output:
+
+- exact manuscript evidence stays authority;
+- established changes go only to the living specialist/control file that owns them;
+- pressures remain pressures;
+- useful but unestablished ideas remain possibilities;
+- reusable sourced knowledge belongs in `RESEARCH_LEDGER.md`;
+- rejected branches and disposable reasoning do not need preservation.
+
+Update only the files whose answers materially changed. Prefer a small accurate state delta over a broad recap. A wave that produces no durable change is allowed to end without state churn.
+
 ## Handoff discipline
 
 After a substantial 02 response:
-1. update `WRITERS_ROOM_STATE.md` with durable residue only
-2. update `RESEARCH_LEDGER.md` if research produced reusable findings
-3. identify the strongest unresolved developmental edge
-4. end the durable 02 state with `## RE-PROMPT [02]` containing a compact executable same-lane continuation prompt
-5. when ready for integration, explicitly hand the developed possibility to 03
-6. **before ending the chat, visibly paste a copyable prompt for the lane/work you actually recommend the user run next**
+1. run the post-wave integration gate
+2. update `WRITERS_ROOM_STATE.md` with durable residue only when its answer materially changed
+3. update `RESEARCH_LEDGER.md` if research produced reusable findings
+4. identify the strongest unresolved developmental edge
+5. end the durable 02 state with `## RE-PROMPT [02]` containing a compact executable same-lane continuation prompt
+6. when ready for integration, explicitly hand the developed possibility to 03
+7. **before ending the chat, visibly paste a copyable prompt for the lane/work you actually recommend the user run next**
 
 After a substantial 03 response:
-1. update `STORY_CONTROL_STATE.md` with durable residue only
-2. update the relevant bible/control files if something graduates
-3. identify what remains uncertain
-4. identify the next research / exploration edge
-5. end the durable 03 state with `## RE-PROMPT [03]` containing a compact executable same-lane continuation prompt
-6. hand new research questions back to 02 when useful
-7. **before ending the chat, visibly paste a copyable prompt for the lane/work you actually recommend the user run next**
+1. run the post-wave integration gate
+2. update `STORY_CONTROL_STATE.md` with durable residue only when its answer materially changed
+3. update the relevant bible/control files if something graduates
+4. identify what remains uncertain
+5. identify the next research / exploration edge
+6. end the durable 03 state with `## RE-PROMPT [03]` containing a compact executable same-lane continuation prompt
+7. hand new research questions back to 02 when useful
+8. **before ending the chat, visibly paste a copyable prompt for the lane/work you actually recommend the user run next**
 
 The re-prompt is a trailhead, not a transcript.
 
