@@ -1,5 +1,5 @@
 {
-  "latest": 282,
+  "latest": 283,
   "chapters": [
     {
       "number": 156,
@@ -762,6 +762,12 @@
       "title": "THE SCENE PARTNER",
       "source": "checkpoint",
       "path": "282.html"
+    },
+    {
+      "number": 283,
+      "title": "THE WHOLESALE DOOR",
+      "source": "checkpoint",
+      "path": "283.html"
     }
   ]
 }
