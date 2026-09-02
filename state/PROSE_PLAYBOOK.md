@@ -49,6 +49,41 @@ Prefer specific immediate thought over generalized explanation. Do not repeatedl
 
 Let other people make the best joke, solve the practical problem, know context Greg missed, or continue talking after his contribution is finished. The world should not behave as though it knows Greg is the protagonist.
 
+### Recurring-character voice separation
+
+Greg's voice is a strength. Do **not** weaken, neutralize, or genericize Greg in order to make the cast sound different. Move major recurring speakers away from Greg instead.
+
+PLG may retain a shared dry comic sensibility, but not every recurring character should be equally quick, elliptical, self-aware, systems-minded, or skilled at the same deadpan conversational exchange. Watch especially for scenes where everybody speaks in Greg's short practical reversals and the only difference is who gets the punchline.
+
+Prioritize roughly **8–12 genuinely recurring characters**, not every person in Carrow. Current high-value voice-separation targets include Lyssa, Hessa, Antonius, Rinna, Nessa, Pell, Sera, Sevren, Teren, Marek, and other characters who accumulate enough page-time to develop a linguistic fingerprint. A one-scene seller, porter, baker, or customer does not need bespoke syntax merely to prove variety.
+
+Differentiate recurring voices primarily through **how they process the world**, not decorative quirks:
+- what they notice first and what they routinely ignore
+- concrete/material thinking versus abstraction
+- how much explanation they believe another person deserves
+- sentence length, hesitation, interruption, revision, silence, and response speed
+- whether they pursue an argument, refuse it, redirect it, or let it die
+- what they consider evidence, risk, work, humor, intimacy, disrespect, or a finished answer
+- whether a joke is defensive, playful, impatient, performative, affectionate, accidental, or absent
+
+Avoid easy substitutes such as catchphrases, exaggerated accents, signature filler words, or making everyone more colorful. Distinct voice should feel like distinct cognition plus distinct relationship history.
+
+Useful current directional anchors, **not rigid dialogue formulas**:
+- **Lyssa:** preserve material/social immediacy and an independent agenda. She can puncture Greg's abstraction without becoming "female Greg who wins the exchange." Sometimes the strongest Lyssa response is refusal to enter his analytical game at all.
+- **Hessa:** precision serves evidence, safety, method, and limits. She does not need to turn every boundary into a punchline or conversational victory.
+- **Antonius:** value, obligation, incentives, leverage, and time can shape what he considers relevant. Economic framing should feel native rather than like Greg doing economics in another mouth.
+- **Rinna:** business procedure, payment, records, pressure, and getting the next necessary thing done can compress her speech. She need not explain every decision.
+- **Nessa:** physical execution, object continuity, route, costume, reset, and immediate playable correction should keep her language concrete and operational.
+- **Sera:** medical uncertainty and decision boundaries matter. Let her distinguish what she knows, suspects, chose, and cannot promise without performing false certainty for Greg.
+- **Sevren:** preserve the sense that roads, deliveries, fatigue, other places, and other people's business continue beyond Greg. He does not have to care about Greg's current abstraction as much as Greg does.
+- **Teren:** favor local playable stage notes over universal aphorisms. His authority is strongest when tied to the exact performance problem.
+- **Marek:** performer energy, improvisation, embarrassment, jokes, object trouble, and surprising competence can create a different rhythm from Greg's analytical deadpan.
+- **Pell and other recurring technical/work voices:** where manuscript evidence supports it, let practical domain knowledge create its own rhythm, including incomplete explanations, assumed context, or attention fixed on the thing being worked rather than on Greg's framing.
+
+A useful editorial test: remove dialogue tags from a substantial exchange between Greg and one major recurring character. Not every isolated line must be identifiable, but after several turns the speakers should usually become legible through priorities, rhythm, assumptions, and relationship. Ask not only **"Who would say this?"** but **"Why would this person phrase the thought this way instead of Greg's way?"**
+
+Do not force difference line by line. Shared workplace language, household shorthand, local humor, and phrases learned from one another are part of accumulation. The goal is not maximal contrast. The goal is that long-lived characters increasingly sound as if they possess minds that existed before Greg entered the room and continue after he leaves.
+
 ## Social texture / group memory
 
 Recurring groups, especially the theatre company, should accumulate social history.
