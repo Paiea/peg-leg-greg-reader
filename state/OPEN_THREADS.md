@@ -1,122 +1,130 @@
 # MANUSCRIPT OPEN THREADS
 
 ## Current edge
-- Current exact story endpoint: Chapter 300 — **THE BLUE HORSE**.
-- Exact Chapters 249–300 are durable checkpoint files and outrank summaries.
+- Current exact story endpoint: Chapter 301 — **THE FALSE DOOR**.
+- Exact Chapters 249–301 are durable checkpoint files and outrank summaries.
 - Permanent running manuscript remains physically materialized through Chapter 248; exact-text integration debt remains.
-- See `MANUSCRIPT_STATE.md` for executable Chapter 301 trailhead.
+- See `MANUSCRIPT_STATE.md` for executable Chapter 302 trailhead.
 
 ## Direction
 - Preserve ordinary lived detail, social accumulation, disability/material reality, humor, work, and independent side-character causality.
 - Magical ecology/fieldcraft remains a strong push without creature-of-the-week, but not every chapter must service it.
-- Ch298 personal magic remains background evidence rather than triggering an automatic second session.
-- Ch299 basket/Olan/Mera sequence stands complete.
-- Ch300 follows a one-off household caregiving claim and embeds ordinary child-scale magic through a neighborhood kite court, not through a new repair/investigation lane.
-- Greg's world familiarity remains calibrated: broad lift-bead and weak-deflection families are familiar; Vara/Ren hold local practical knowledge.
-- Chapter 300 is not a structural milestone. Scope restraint remains behavioral.
+- Ch298 personal magic remains background evidence. Ch299 neighborhood logistics and Ch300 Tavi/bench-court caregiving stand complete.
+- Ch301 genuinely reactivates theatre for one bounded paid afternoon after a long quiet stretch.
+- Theatre fantasy appears through an ordinary depth-cloth false corridor, lamps, sightlines, masking, and rehearsal rather than through Greg gaining magic.
+- Greg's prior theatre/work accumulation matters: Teren uses him as a repeatable scene partner/moving body; Nessa pre-adjusts geometry for his right crutch; Pavin carries prior rehearsal history; Jori/Nessa own the stage solution.
+- Greg makes a useful mistake by improving his own crutch technique instead of the stage system; Teren corrects the scope.
+- Scope restraint remains behavioral. Rinna explicitly says `Tomorrow no` and establishes no standing rehearsal.
+- Structural boundaries follow actual story movement; Ch300's number remains non-structural.
+
+## Theatre / The Blue Window / false corridor
+- Ch301 note arrives on paper through an unnamed boy. Exact boy/theatre relationship unknown.
+- Note offers **two bits**, after midday, because `TEREN NEEDS A REPEATABLE BODY.` Signed Rinna.
+- Greg is paid exactly two bits after work. This does not establish a general theatre-pay rate or retroactively define Ch282 ordinary rehearsal pay.
+- Pavin remains Serrin in **The Blue Window**.
+- Greg reads servant/Corven and repeats a moving path for rehearsal/test. He is not given a performance role or replacement assignment.
+- Stage effect: freestanding open doorframe; pale gray treated depth cloth roughly six feet behind; faint silver perspective lines; two low hooded side lamps; smaller third lamp farther back.
+- Greg knows broad depth-cloth stage family from first-life exposure. Exact local mechanism, maker, age, treatment, charge, maintenance, and acquisition terms unknown.
+- From row five the shallow setup reads to Greg as an apparent pale corridor roughly twenty-five feet deep with a bright turn at the far end. This is Greg's visual estimate from one seat, not a measured property.
+- Teren says old staging made Serrin disappear before the last line landed, motivating the false corridor.
+- Nessa has Greg remove shoulder bag because strap can catch scenic black edge and pre-moves a chair two inches for his right-crutch lane.
+- Greg's left crutch entering the frame before his body creates a doubled narrow shadow that visually bends the false corridor.
+- Nessa reproduces the issue with a wooden cane, proving the problem is broader than Greg's crutch/body.
+- Teren forbids Greg from changing his cross while they test the stage system.
+- Jori's first lamp-hood adjustment partly helps but is the wrong direction and is reversed.
+- Jori calls for more `dead edge`; Nessa adds black cloth behind left frame edge.
+- Greg later turns his crutch inward and makes his own pass look better. Teren rejects this because it fixes `Greg crossing the effect`, while the cane still exposes the system.
+- A second lower dead-edge strip makes cane/crutch intrusion read as ordinary shadow rather than a folded/broken corridor.
+- Pavin checks from row five and says Greg's crossing now looks like a crutch, not a broken hallway.
+- Final scene run works without stop. This is rehearsal success only.
+- Rinna pays two bits and says `Tomorrow no`; future contact only if theatre independently sends paper.
+- Nessa/Jori/Pavin continue work after Greg leaves. Do not make Greg central to their technical/acting work.
+- Ch276 Sivi/expression-mask thread remains separate. Jori's casual `extra mask` wording in Ch301 refers to scenic masking; Nessa corrects him to `dead edge`. Do not merge these.
+- Do not auto-return to false corridor, depth cloth, Pavin scene, Teren lesson, Nessa/Jori adjustment, performance, or Sivi/mask.
+
+## Money / capital
+- Greg now holds **three private copper + two private bits** upstairs.
+- Ch301 exactly two bits earned from Rinna for this afternoon.
+- No other Ch301 spending/income.
+- No copper/bit conversion established. Keep denominations separate.
+- Ch293 one-copper bag remains first and only spend from original four private client copper.
 
 ## Magic / Hessa / range protocol
 - Totals remain **36 supervised minimal draws / 32 deliberate shaping attempts / 72 supervised external-effect attempts**.
-- No independent magic outside supervised sessions Ch281–300. Restrictions unchanged.
+- No independent magic outside supervised sessions Ch281–301. Restrictions unchanged.
 - Ch298 attempt 70 near: small clean net displacement away.
 - Ch298 attempt 71 middle: no observed response.
 - Ch298 attempt 72 far: first far test, no observed response.
 - Established-position aggregates remain **near 2 clean / 4; middle 1 clean / 6 plus one prior possible edge lift (attempt 68); far 0 / 1**.
 - No distance-response law, reliability curve, hard range limit, or dose relationship established.
 - Hessa next experiment, position, object, and appointment remain unselected.
-- Ch300 lift bead/drift web are external ordinary magic and do not alter Greg totals.
+- Ch301 stage illusion is external theatre magic/material culture and does not affect Greg totals.
 
-## Tavi / bench court / Vara / Ren / blue horse
-- Ch300 Cala gives Greg one bounded task: take restless Tavi to bench court, not market, and sit by the gate.
-- Route rules from Cala: `wall side` and `stop corners`. Tavi follows them adequately and stops unprompted at later corners.
-- Greg cannot normally hold Tavi's hand while walking with two crutches; bench-court geometry lets supervision depend on quiet lanes, corner stops, and a gate position rather than chasing.
-- Bench court: two quiet lanes away; old-brick walls on three sides, low iron gate on fourth, wall benches, central rain tree, packed earth, ordinary neighborhood children/play.
-- Vara is an older woman shelling peas on the gate bench. She knows Cala and recognizes Greg; Greg learns her name only in Ch300. Exact prior familiarity/formal role unknown.
-- Vara notices Greg's right crutch grip projecting into the walking path and tells him to `Sit better`; he adjusts it.
-- Ren is a boy Greg estimates around ten or eleven who is flying the blue horse kite. No standing relationship established.
-- Tavi is allowed to hold a separate plain red tail loop, not the main kite line.
-- During a snag, the spool rolls toward the gate. Greg tells Tavi `Stay`, pins the loose line briefly with his right crutch tip, and releases once Ren recovers the spool. No injury/equipment damage.
-- Kite catches low in rain tree. Greg does not use his crutch to retrieve it. An unnamed girl supplies a forked branch and helps Ren free it.
-- Tavi catches the falling tail/cloth against his chest; cloth remains fine.
-- Vara inspects and says `Bead fine. Knot slipped.` She recenters bead and reties local stop knot with two turns for today's west wind rather than yesterday's one turn.
-- Tavi later draws a blue chalk `horse` on the court wall. No household paper consumed.
-- Return-home comic residue: Tavi tells `Greg pole` / `Greg horse tree`; Greg denies responsibility. Cala's practical check is whether Tavi ran; he did not leave the court.
-- Do not auto-create a regular Greg/Tavi outing, Vara mentorship, Ren friendship, kite purchase, kite repair lane, drift-web investigation, or next-day return.
-
-## Blue horse kite / lift bead / drift web
-- Blue horse kite: badly painted cloth horse, roughly four feet long by Greg's visual estimate; small old brass lift bead beneath first cross spar.
-- Lift bead flashes pale gold when nose dips and helps cloth recover air. Greg recognizes broad family from survey/messenger/camp-signal kites; exact mechanism, maker, charge, lifespan, and safe envelope unknown.
-- Four short roof-corner posts support faint amber drift web above court. When kite nears edge, web briefly appears honey-colored and nudges it inward.
-- Exact installation, owner, maintenance, power source, force, height, limits, and whether it is designed exactly as Greg infers remain unestablished.
-- Vara's `two turns today / yesterday one` is local kite practice tied to west wind in this scene, not universal rule.
-
-## Mera basket / Olan carry tie
-- Ch299 facts stand complete. Ch300 begins after Mera has collected Lyssa's cloth and does not reopen basket durability, carry tie, Olan, or courier work.
-- Exact maker, age, charge/lifespan, easing mechanism, safe max load, broader standards, and repair history remain unknown.
+## Greg / body / equipment
+- Greg is nineteen, Bronze, Carrow, permanent LEFT BKA, knee preserved; right leg intact; two crutches.
+- Ch293 brown leather shoulder bag remains regular equipment; stay-bead notch unchanged.
+- Ch301 body normal throughout. Bag removed during false-door crossings only to avoid snagging scenic edge.
+- Nessa remembers Greg's right-crutch lane and moves a chair before the crossing.
+- Greg uses side steps to/from row five, avoiding steeper center steps and a cable.
+- Repeated crossings cause no pain, fall, pressure injury, residual-limb issue, crutch damage, shoe issue, bag issue, or equipment change.
 
 ## Lyssa / garment work
 - Lyssa independent garment-work network remains active.
-- Ch299 Mera delivery completes off the front of Ch300.
-- Ch300 Lyssa returns upstairs to brown-cuff work and later comes down with the cuff folded over one arm.
-- No customer identity, deadline, price, alteration request, completion, delivery, or queue consequence is established in Ch300.
-- Greg does not join, optimize, analyze, or manage the work.
+- Ch301 brown cuff is absent with Lyssa in the morning and present again with her at home later. This establishes no customer, completion, delivery, price, alteration, or deadline.
+- Greg does not ask for or join the brown-cuff work.
 - Existing protected Lyssa materials/packets/bundles remain protected.
+- Do not convert Greg into Lyssa's courier, manager, alteration analyst, supply optimizer, or partner.
 
-## Money / capital
-- Greg holds **three private client copper** upstairs.
-- Ch300 no income and no spending.
-- No household money carried/spent.
-- No copper/bit conversion established.
+## Tavi / bench court / blue horse
+- Ch300 facts stand complete.
+- Ch301 only carries ordinary comic residue: `Greg pole`, `Door red`, `Horse up`.
+- No Vara/Ren/kite/drift-web return, no regular outing, no Tavi kite acquisition, and no childcare-role expansion.
 
-## Greg carry bag / body / equipment
-- Ch293 brown leather shoulder bag remains regular equipment; stay-bead notch unchanged.
-- Ch300 bag carries only existing charcoal/narrow scrap and returns to peg normally.
-- Greg is nineteen, Bronze, Carrow, permanent LEFT BKA, knee preserved; right leg intact; two crutches.
-- Ch300 outing/body: no pain, fall, pressure injury, residual-limb issue, crutch damage, shoe issue, bag issue, or equipment change.
-- Bench sit/rise is ordinary with right foot/bench support and left knee clear.
-- Brief line-pin maneuver uses right crutch tip only; no damage or loss of balance.
+## Mera basket / Olan carry tie
+- Ch299 facts stand complete. Ch300–301 do not reopen.
+- Exact maker, age, charge/lifespan, degree/mechanism of easing, safe max load, broader standards, and full repair history unknown.
+- No Olan mentorship, Mera courier work, basket business, carry-knot study, or durability test.
 
 ## High line / Mara / Ovi / Tess
-- Ch297 facts stand. Ch298–300 do not return.
-- Tess remains only expected noon repair person, unseen. Repair outcome/mechanism/rate unknown.
-- Do not auto-return or make high-line work.
+- Ch297 facts stand. Ch298–301 do not return.
+- Tess remains only expected repair person, unseen. Repair outcome/mechanism/rate unknown.
 
 ## Kessa / Pella / Rusk / silverbacks-flickers
-- Ch297 facts stand. Ch298 has one passing recognition; Ch299–300 no follow-up.
+- Ch297 facts stand. Ch298 has one passing recognition; Ch299–301 no follow-up.
 - Exact taxonomy, naming boundary, lifecycle, prey range, `skins`, magical status, thresholds, and cool/sun behavior remain unresolved.
 
 ## Nemi / workshop-court music / road song
-- Ch296 facts stand. Ch297–300 no substantive follow-up.
+- Ch296 facts stand. Ch297–301 no substantive follow-up.
 - No music group, lesson, performance job, songwriting lane, theatre crossover, or hold-bead investigation.
 
 ## Bridges / Vela / Orra / Demin / Sot
-- Ch295 facts stand. Ch296–300 no return.
+- Ch295 facts stand. Ch296–301 no return.
 - Vela's `Tomorrow?` remains casual and non-binding.
 
 ## Household shopping / merchant memory
-- Ch294 facts stand. Ch295–300 no meaningful shopping follow-up.
+- Ch294 facts stand. Ch295–301 no meaningful shopping follow-up.
 - No formal household account/credit/discount/network.
 
 ## Shade fish / east-wall trough / water list
-- Ch292 facts stand. Ch293–300 do not return.
+- Ch292 facts stand. Ch293–301 do not return.
 - Weak sun-turn bead remains only marked/managed as of last sighting; fish fine; replacement schedule unknown.
 
 ## Door closer / Olan / Sella
-- Ch291 front door repair stands and functions cleanly in Ch299–300.
-- Olan's Ch299 basket appearance does not establish Greg apprenticeship, standing work, or general Olan lane.
+- Ch291 front door repair stands and functions cleanly.
+- Ch299 separate Olan basket repair did not create standing Olan lane.
 
 ## Rain shelf / rain thread
-- Ch290 facts stand. Household rain shelf works. Ch291–300 no reactivation.
+- Ch290 facts stand. Household rain shelf works. Ch291–301 no reactivation.
 
 ## Miri / cooling cups
-- Ch288 facts stand. Ch289–300 no follow-up.
+- Ch288 facts stand. Ch289–301 no follow-up.
 - Miri one-copper comparison and possible Pellin follow-up remain bounded/unresolved. Pellin is not Pell absent evidence.
 
 ## Carrying light
-- Ch287 facts stand. Ch288–300 do not advance Sera or lantern house.
+- Ch287 facts stand. Ch288–301 do not advance Sera or lantern house.
 
 ## Ward crossing
-- Ch289 repair stands. Ch290 passes it in rain. Ch291–300 no advancement.
+- Ch289 repair stands. Greg passes it in Ch301 without stopping long enough to reopen the thread.
 - Ch292 water worker/list remains separate from road crew/list.
 
 ## Dry seal / warm wall
@@ -126,25 +134,20 @@
 - Ch284 chaffer hatch stands, mostly over.
 - Ch292 shade fish remain separate urban ecology.
 - Ch297 kessa jumpers remain separate local ecological practice.
-- Ch298–300 do not advance ecology as a work lane.
-- Ch300 play-court magic is material/civic play infrastructure, not an ecology case.
+- Ch298–301 do not advance ecology.
 - Do not build creature-of-week or ecology-ledger structure.
-
-## Theatre / Pavin
-- Ch276 one-house Masked Guest replacement and Ch282 paid Pavin catch-up rehearsal stand.
-- Ch283–300 no theatre contact. No promotion/standing role.
 
 ## Rell / Maren / return hardware
 - Ch281 bounded return-hardware identification stands. Hardware unactivated/unvalued.
-- Exact maker/mechanism/pairing/activation/safety/value unknown. Jori only possible appraisal route.
+- Exact maker/mechanism/pairing/activation/safety/value unknown. Jori only possible appraisal route in that separate thread.
+- Jori's Ch301 theatre work does not activate the return-hardware appraisal route.
 - Rell referral proposal unresolved.
 
 ## Household
 - Three clean household gray sheets remain.
 - Horse-page reverse remains full.
-- Three private client copper remain upstairs.
-- Existing narrow scrap remains in Greg's bag; no Ch300 notes added.
-- Tavi's blue drawing is public wall chalk, not a new household page.
+- Greg's existing narrow scrap remains in bag; no Ch301 theatre notes added.
+- Three private copper + two private bits remain upstairs after Ch301.
 - Rain shelf works. Front door closer repaired/functioning.
 - Ch285 narrow wrapped packet remains absent/protected.
 
@@ -153,19 +156,18 @@
 - Vale debt active/unresolved; exact balance unstated.
 
 ## Pressure / protected uncertainty
-- Ch273 Green Coat remains separate/bounded. Older pressure evidence ceiling unchanged. Ch300 adds none.
+- Ch273 Green Coat remains separate/bounded. Older pressure evidence ceiling unchanged. Ch301 adds none.
 - Weak needle-case mark, Rinna parcel, Lyssa older materials/bundles, Ch246 crate contents, Pell exact return, Vale/Bren link unresolved.
 - Collar-facing broader purpose, six wraps, Ch281 flat package, Ch285 narrow wrapped packet unresolved.
 - Magic protected uncertainty remains exact range distances, far 0/1 only, attempt 68 possible edge lift only, next protocol unselected, no range law.
-- Mera basket/carry-tie uncertainties remain bounded.
-- Bench-court/kite/drift-web uncertainties remain bounded as listed above.
+- Ch301 depth-cloth/false-door uncertainties remain bounded as listed above.
 - Existing creature/ecology and magical-infrastructure uncertainties remain bounded.
 
 ## Next
-- Follow Chapter 301 trailhead in `MANUSCRIPT_STATE.md`.
-- Let Ch300 Tavi/bench-court/Vara/Ren/blue-horse sequence stand. No automatic return, regular babysitting lane, kite purchase, repair, ward investigation, or Vara mentorship.
-- Let Ch299 basket sequence and Ch298 far test stand.
-- Current Greg magic remains 36 / 32 / 72; near 2/4 clean; middle 1/6 clean + one possible edge lift; far 0/1. Restrictions unchanged.
-- Three private client copper and three clean sheets remain.
-- Chapter 300's round number created no structural event; do not create a delayed one merely because 301 follows it.
+- Follow Chapter 302 trailhead in `MANUSCRIPT_STATE.md`.
+- Let Ch301 paid theatre afternoon stand. Rinna explicitly says `Tomorrow no`; there is no standing rehearsal or performance role.
+- Do not automatically follow false door/depth cloth/Pavin/Teren/Nessa/Jori or use Sivi/mask as the next callback.
+- Current magic remains 36 / 32 / 72; near 2/4 clean; middle 1/6 clean + one possible edge lift; far 0/1. Restrictions unchanged.
+- Greg now has three private copper + two private bits. No forced spending/investment.
+- Three clean sheets remain. Lyssa's brown-cuff work remains hers and unresolved.
 - Follow the next actual claim rather than rotating available engines by checklist.
