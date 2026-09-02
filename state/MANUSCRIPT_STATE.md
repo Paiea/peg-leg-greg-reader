@@ -1,11 +1,11 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 284 — **THE WRONG CORNER**.
+- Current exact story endpoint: Chapter 285 — **THE SHORT MEASURE**.
 - Book 1 Chapters 1–82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent forward manuscript path: `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249–284 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries and still requires exact-text integration into the permanent manuscript. Older Ch156–219 synchronization debt also remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249–285 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries and still requires exact-text integration into the permanent manuscript. Older Ch156–219 synchronization debt also remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500–4,000 words and clear 2,500 unless explicitly changed.
@@ -15,139 +15,141 @@
 
 ## Author shoves / directional nudges
 - Preserve ordinary lived texture, social accumulation, disability/material reality, independent side-character lives, humor, work, and Greg inhabiting a life rather than speedrunning power.
-- Gradually move from second-life reconstruction toward second-life consequence without manufacturing danger or grimdark scheduling.
-- Magical ecology / fieldcraft remains a strong forward push. Ch284 advances it through a lived seasonal hatch rather than an assignment. Future knowledge should sometimes work cleanly, but bounded observation remains important. Do not force creature-of-the-week structure.
+- Gradually move from second-life reconstruction toward second-life consequence without manufacturing danger.
+- Magical ecology / fieldcraft remains a strong forward push. Ch284 gives it a lived seasonal hatch without an assignment. Let future fantasy arrive through ordinary world life, not creature-of-the-week scheduling.
+- Future knowledge should sometimes work cleanly, but bounded evidence remains important.
 - Eventual title-defining leg loss remains flexible long-range architecture, not a countdown. Exact cause/place/creature/trap/spell/tactical sequence/chapter remain open. No cheap random accident or forced retroactive foreshadowing. Aftermath must be substantial, with no instant adaptation, magical prosthetic fix, or immediate theatre return.
 
-### MONEY / CAPITAL FORWARD NUDGE
-- ACTIVE and developing gradually, but Ch284 deliberately does not advance it beyond ordinary household spending.
-- Greg wants meaningful capital, not merely next-wage survival, but ordinary life must continue around that desire.
-- Greg's emerging private disciplines remain `SCOPE BEFORE WORK`, `CLIENT FIRST`, and `PRICE BEFORE WORK, EVEN IF PRICE IS ZERO`.
-- Ch283 correction stands: bulk purchasing is not itself profit or value creation. Greg does not return for paper seconds or create a stationery business.
+## Money / capital / client discipline
+- ACTIVE and developing gradually.
+- Greg wants meaningful capital, not merely next-wage survival, but ordinary life continues around that desire.
+- Private disciplines remain `SCOPE BEFORE WORK`, `CLIENT FIRST`, and `PRICE BEFORE WORK, EVEN IF PRICE IS ZERO`.
+- Ch283 correction stands: bulk purchasing is not itself profit/value creation. Greg does not return for paper seconds or create a stationery business.
+- Ch285 gives Greg a third bounded paid client result. Nara asks him to determine why reed screens made to work with her brother Daro's frames have recently been too narrow.
+- Greg explicitly prices the work before beginning: one copper for comparing the two rules, one failed screen, and one frame if he can give a useful answer; nothing if he can only say he does not know. This is Greg's current improvised client policy, not a universal business rule.
+- Nara's burned-mark wooden rule has slightly shorter spacing than Daro's. Greg's own measuring stick agrees more closely with Daro's, but Greg refuses to claim that agreement proves Daro's rule universally correct.
+- The useful causal finding is workflow-specific: Nara owned the odd rule before failures began. Failures began only after a pattern string previously used for frame width broke and the rule took over that job. Small spacing differences then accumulated across repeated marks, making screens too narrow for Daro's frames.
+- Greg recommends a shared fixed pattern/reference for the parts that actually have to fit rather than chasing universal ruler truth.
+- Nara judges the answer useful and pays one copper. Greg now has **three private client copper**: Halei Ch279, Maren Ch281, Nara Ch285. All remain separate from ordinary theatre pay and household spending.
 - Rell's referral proposal remains unresolved. No commission schedule exists.
-- Greg still has two private client copper from Halei and Maren. Ch284 does not spend, label, or add to them.
-- Do not hand Greg wealth, a client stream, or effortless arbitrage. Let actual value, demand, mistakes, negotiation, reputation, and trust determine whether capital grows.
+- Do not turn Nara/Daro into an instant client stream or Greg into a measurement consultant. Let demand, mistakes, trust, reputation, negotiation, and actual value determine growth.
 
 ## Greg / body / equipment
 - Greg is nineteen, Bronze, in Carrow. Permanent LEFT BKA, knee preserved; right leg intact; uses two crutches.
 - LEFT tip replaced Ch223; RIGHT grip retensioned Ch242; LEFT grip fine. Ch247 haircut current.
-- Ch269 Savin repairs Greg's only right shoe outer-heel separation. No gait correction. Cause of outer-heel wear unestablished.
-- Ch284 Greg moves through a crowded market and drainage lane with both crutches. A city drain worker warns him away from a loose runnel-cap corner twice because Greg keeps watching the hatch instead of the ground.
-- At chapter end shoulders are ordinarily tired, repaired heel flat, residual limb comfortable, right grip tight, left tip fine. No fall, injury, or equipment change.
+- Ch269 Savin repairs Greg's only right shoe outer-heel separation. No gait correction; cause of wear unestablished.
+- Ch284 loose runnel-cap hazard produces no fall/injury.
+- Ch285 Nara's room is up four broad dry exterior stone steps. Greg handles them slowly without assistance; Nara waits rather than grabbing him. Nara carries the failed screen herself. No freight role is added to Greg's scope.
+- Ch285 begins with ordinary right-shoe check; no injury or equipment change.
 
 ## Greg / Lyssa / household
-- Lyssa remains independent and is not Greg's analyst/project manager.
+- Lyssa remains independent and is not Greg's analyst/project manager/procurement manager.
 - Long-standing brown cloth and older unidentified materials remain protected/unexplained.
-- Ch273 collar facing identified narrowly; six wraps explicitly separate/unexplained.
+- Ch273 collar facing identified narrowly; six wraps separate/unexplained.
 - Ch269 packet, Ch270 bundle, Ch274 narrow paper parcel, Ch278 folded cloth bundle remain unconnected/protected.
-- Ch281 flat wrapped package remains unexplained and untouched through Ch284.
-- Ch283 household paper remains ordinary. Four new sheets remained after Lyssa used one; Ch284 does not turn them into inventory/business infrastructure.
-- Tavi's seven-legged “faster” horse remains on the household table, weighted under the salt jar. Greg later uses the reverse side for bounded chaffer observations.
-- Cala calls Greg to look at pale husks beside the courtyard drain, then sweeps them normally when the drain/gutter prove unblocked.
-- Greg buys four ordinary household onions during Ch284. A carrying inconvenience leads him to buy a bag with a useful loop. Cala takes three onions for soup; Lyssa later takes the last one downstairs for the same soup. This is ordinary household/social exchange, not capital loss or debt.
-- Lyssa already knows the insects as chaffers in the ordinary local sense, but cannot answer Greg's detailed lifecycle questions. She does not become an ecology authority.
+- Ch281 flat wrapped package remains unexplained and untouched through Ch285.
+- Ch283 five household gray sheets were purchased; Lyssa used one for measurements, leaving four.
+- Ch285 Lyssa uses another clean gray sheet as a narrow strip with a small dark-green cloth piece for her own work, leaving **three clean household sheets**. The green cloth is not identified or promoted into a protected mystery.
+- Later Lyssa returns carrying a narrow wrapped packet under one arm. Greg deliberately does not ask about it. Exact contents/purpose remain unestablished; do not connect it automatically to older protected materials.
+- Lyssa's earlier folded measurement sheet now has two additional lines and a small sketch Greg does not understand. Her work continues independently.
+- Tavi's seven-legged “faster” horse page remains in the household and now carries Greg's bulk-paper, chaffer, and Ch285 measurement notes on the reverse. Tavi also draws a “fast boat” on broken roof tile.
+- Cala buys two dry reed bundles from Nara before Nara's paid Greg work begins. This is ordinary household commerce and does not make Cala Greg's referral broker.
 
-## Recent durable residue
-- Ch249–264 exact checkpoint prose remains authoritative. See exact files.
-- Ch265 **THE CONTROL** through Ch279 **THE FINDER** remain as previously recorded.
-- Ch280 **THE REPEAT**: supervised same-square middle repeat; attempt 67 no response, 68 possible edge lift only, 69 small clean net-away displacement; totals 36 / 32 / 69; far untested; restrictions unchanged.
-- Ch281 **THE SHARE**: Rell/Maren chair return-hardware work produces one free scoped look, one separately paid one-copper inspection, and unresolved referral compensation. Return hardware remains unactivated/unvalued.
-- Ch282 **THE SCENE PARTNER**: one paid Pavin catch-up rehearsal; no cast offer, standing role, return date, or Pavin explanation.
-- Ch283 **THE WHOLESALE DOOR**: ordinary paper errand exposes wholesale bundles/seconds; Greg refuses the false opportunity and buys only five needed sheets.
+## Chapter 284 — THE WRONG CORNER
+- Small pale winged insects emerge from damp urban cracks/gutters after recent wet weather and quick warmth, leaving pale-brown split husks.
+- Ordinary/informal local names include `gutter chaff`, `chaffers`, and the temporary event label `the hatch`; Lyssa knows `chaffers` as the everyday name.
+- Greg directly observes dark and gray birds eating them, chaffers on damp stone/sunlit walls/cut fruit, and a city drain worker's practical familiarity. Feeding/drinking, exact lifecycle, destination, reproduction, weather trigger, mana relation, duration, and formal taxonomy remain uncertain.
+- Greg collects no specimen, uses no mana, and receives no ecology assignment/payment.
+- The real outing hazard is an ordinary loose runnel-cap corner. Worker warns Greg twice; no fall.
+- Greg records bounded notes with question marks rather than promoting observations into law.
 
-### Chapter 284 — THE WRONG CORNER
-- Cala finds a loose mound of small pale-brown split husks beside the courtyard drain after wet weather. Olan reports similar husks at his building. Exact species/lifecycle is initially unknown.
-- Pale narrow insects with dark heads and clear folded wings emerge from the courtyard gutter with dry clicking sounds. They are ordinary enough that neighbors are curious/annoyed rather than alarmed.
-- Olan reports Seli called them “gutter chaff”; a street seller calls them “chaffers”; a city drain worker calls the event “the hatch” for the day. Greg does not force these into one formal taxonomy.
-- Multiple locals associate the hatch with warmth after rain. Onion seller says “first warm after rain.” Drain worker more specifically reports he usually sees it when stone stays wet two nights and then heats quickly. These are local observations, not universal lifecycle law.
-- Chaffers emerge from/around damp cracks, gutter beds, wall moss, drain edges, and similar places in the observed area. Greg observes one apparently attending a wet patch, but does not establish drinking behavior.
-- Fruit seller reports they sit on/“lick” cut fruit and expects the nuisance today and maybe tomorrow morning. Possible canal-garden/wall destination is only her guess.
-- Greg directly observes small dark birds and a larger gray runnel bird eating chaffers. No species names or broader predator law established.
-- City drain worker clears leaves from a grate while a gray bird opportunistically follows disturbed insects. The worker has no bird name and no claim to insect expertise beyond what he sees around drains.
-- The practical hazard of the outing is an ordinary loose runnel-cap corner. Worker warns Greg twice because people watching the hatch step toward it. Greg does not fall.
-- Greg collects no specimen/husk, uses no mana, and does not turn the hatch into an assignment, paid problem, Guild consultation, or new professional role.
-- At home Greg writes only bounded notes: `CHAFFERS?`, `WET NIGHTS + FAST WARMTH?`, and `DARK + GRAY BIRDS ATE THEM TODAY.` Question marks remain where evidence is uncertain.
-- Lyssa knows the everyday name chaffers and says everybody knows them, but answers “maybe”/“I don't know” to Greg's detailed destination, emergence-condition, and wet-stone questions. The chapter ends with uncertainty preserved.
-- No Hessa contact, theatre call, Pavin follow-up, Rell/Maren/Jori follow-up, referral agreement, clasp action, Vale contact, debt payment, Green Coat/Senn contact, Hollen shift, Edrin consultation, formal animal assignment, Savin appointment, or injury.
-
-## Magical ecology / chaffers
-- Ch284 establishes a lived, apparently ordinary seasonal hatch in Carrow without establishing a magical mechanism.
-- Chaffers are pale narrow winged insects observed emerging from damp urban cracks/gutters after recent wet weather and quick warmth. Pale-brown split husks remain behind.
-- Local names are inconsistent/informal: `gutter chaff`, `chaffers`, and `the hatch` as a temporary event label. Only `chaffers` has multiple ordinary uses by chapter end, including Lyssa.
-- Greg observes chaffers on damp stone, sunlit walls, and cut fruit, but feeding/drinking behavior remains unproven.
-- Dark and gray birds directly eat them during Ch284. No bird species or ecological generalization established.
-- Exact lifecycle, reproduction, destination, duration beyond local expectation, mana relation, species identity, and whether every hatch follows the reported weather pattern remain unestablished.
-- This is forward magical-ecology/world texture, not a creature-of-the-week case and not yet a Greg expertise engine.
-
-## Return hardware / chair pieces
-- Ch281 old low-strength furniture return hardware remains unactivated/unvalued. Exact current maker, age, mechanism, pairing, activation, safety, and market value remain unknown.
-- Ch282–284 do not advance this thread.
+## Chapter 285 — THE SHORT MEASURE
+- By next morning the chaffer hatch is mostly over. Cala sweeps six husks; Greg sees only a few remaining insects. No investigation follows.
+- Cala and Greg sort beans in the courtyard. Nara arrives selling Cala two bundles of dry pale reeds.
+- Nara recognizes Greg as “the one with the ruler” through ordinary local reputation and asks for help with a measuring dispute.
+- Nara makes small reed window screens; her younger brother Daro cuts frames. Last three screens have been too narrow.
+- Greg scopes and prices the job before work: compare two rules, one failed screen, one frame; one copper only if the answer is useful.
+- Nara's rule and Daro's rule start close but their burned spacing drifts. Greg's own stick agrees more closely with Daro's. Greg explicitly distinguishes agreement from proof of universal correctness.
+- Nara had owned the odd rule for about a year, but failures started later. She originally used Daro's pattern string for frame widths and used the rule for reed lengths. After the pattern string broke, she began using the rule for frame widths.
+- A failed screen measures as intended by Nara's rule but short by Daro's and Greg's. The practical failure is accumulated spacing difference after the odd rule changed jobs.
+- Greg recommends using a shared pattern/reference made from a frame they both agree fits. He does not repair/remake screens or expand scope.
+- Nara pays one copper after confirming the answer is useful. Greg now holds three private client copper.
+- Greg writes `COMPARE THE THINGS THAT HAVE TO FIT.` and `BAD RULE CHANGED JOB.` on the horse-page reverse. These are private working notes, not universal doctrine.
+- Lyssa independently gives the even more direct craft framing: measure the frame/make the screen to the frame, then accepts the shared-pattern need for repeated work. She does not become Greg's business analyst.
+- No mana, Hessa, theatre call, Pavin follow-up, Rell/Maren/Jori follow-up, referral agreement, clasp action, Vale contact, debt payment, Green Coat/Senn contact, Hollen shift, Edrin consultation, animal assignment, Savin appointment, pressure evidence, or injury.
 
 ## Magic continuity
 - Totals remain **36 supervised minimal draws / 32 supervised deliberate shaping attempts / 69 supervised external-effect attempts**.
 - Ch271 near: 1 clean / 3. Ch271 middle: 0 clean / 2. Ch280 middle: 1 clean / 3 plus one possible edge-lift event. Far untested.
 - Near is not demonstrated limit. No range/reliability/middle-difficulty/maximum-range/material-generalization/generalized-telekinesis law.
-- No Greg mana use Ch281–284. Outside-session restrictions fully unchanged. Hessa next experiment/appointment unselected.
+- No Greg mana use Ch281–285. Outside-session restrictions fully unchanged. Hessa next experiment/appointment unselected.
+
+## Return hardware / chair pieces
+- Ch281 old low-strength furniture return hardware remains unactivated/unvalued. Exact current maker, age, mechanism, pairing, activation, safety, and market value remain unknown.
+- Rell's reported movement remains unobserved by Greg. Possible chair-6 plate pairing remains theory only.
+- Removed pieces remain Maren's property. Jori remains only a possible appraisal route.
+- Ch282–285 do not advance this thread.
 
 ## Theatre / work
 - Ch276 one-house Masked Guest replacement stands.
 - Ch282 is one paid catch-up rehearsal with Pavin, not emergency performance or casting promotion.
-- Pavin is back/present and remains regular Masked Guest actor; reason for Ch276 absence is unknown.
+- Pavin is back/present and remains regular Masked Guest actor; reason for Ch276 absence remains unknown and does not require payoff.
 - Greg has no standing scene-partner job, cast role, return date, or guaranteed theatre call.
-- Ch283–284 contain no theatre contact and let the one-session use stand.
+- Ch283–285 contain no theatre contact.
 - Greg remains no permanent caller/stage manager/Uncle/Masked Guest/utility worker.
 
 ## Economy / Vale debt
 - Currency copper/silver/gold; no conversion rate established.
 - Vale debt active/unresolved; original terms unchanged; exact balance unstated.
-- Greg's two private bounded-client copper from Halei/Maren remain untouched in Ch283–284.
+- Greg now has three private bounded-client copper from Halei/Maren/Nara.
 - Ch282 ordinary rehearsal pay amount/allocation remains unstated.
-- Ch284 onion/bag purchase is ordinary household spending. No new income, inventory, debt payment, Vale contact, or capital purchase.
+- Ch284 onion/bag purchase and Ch285 household activity are ordinary spending/exchange. No inventory purchase, debt payment, Vale contact, or capital asset purchase.
 - Boundary clasp remains unowned/status unknown. Greg does not check it.
 
 ## Pressure / evidence ceiling
 - Older grounded brown-coat/Mason's Cut/Bren evidence ceiling through Ch236 unchanged.
 - Ch273 Green Coat remains separate civic-dispute pressure fact only.
-- Maren's brown coat in Ch281 is explicitly ordinary and establishes no pressure connection.
-- Ch274–284 add no new older-pressure evidence.
+- Maren's brown coat Ch281 is explicitly ordinary.
+- Ch274–285 add no older-pressure evidence.
 
 ## Protected uncertainties / do not auto-resolve
-- Weak needle-case mark; Rinna parcel; Lyssa older materials/packets/bundles; long-standing brown cloth; Ch246 crate contents.
-- Collar-facing customer/coat broader purpose; six wraps; Ch281 flat wrapped package.
+- Weak needle-case mark; Rinna parcel; Lyssa older materials/packets/bundles; long-standing brown cloth; Ch246 crate contents; Pell exact return; Vale/Bren link.
+- Collar-facing customer/coat broader purpose; six wraps; Ch281 flat wrapped package; Ch285 narrow wrapped packet.
 - Hessa next experiment; exact near/middle/far measurements; far response; Ch280 attempt 68 possible only.
 - Mudjaw/reedcrest; ditchrunners current confirmation; copperback deeper biology.
 - Household charm/feed-stone/shade-lamp/seal-plate/stage-mask mechanisms.
 - Green Coat identity/motive/side/employer/recurrence and cart/post fault.
 - Whitewall exact cause/identity/mechanism/lifecycle.
-- Boundary clasp uncertainties and Jori network remain unchanged.
+- Boundary clasp uncertainties/Jori network unchanged.
 - Halei/Trine future condition/value/sale; Noll/Tessa broader lives.
-- Rell/Maren/return-hardware/referral questions remain unresolved.
-- Pavin's Ch276 absence reason, broader life, exact Masked Guest history, and *The Blue Window* beyond rehearsed material remain unestablished.
+- Rell/Maren/return-hardware/referral questions unresolved.
+- Pavin Ch276 absence reason, broader life, Masked Guest history, and *The Blue Window* beyond rehearsed material remain unestablished.
 - Narrow Bell wholesale paper/seconds remain normal commerce and not a guaranteed Greg opportunity.
-- Chaffer exact lifecycle, mana relation, species identity, feeding behavior, destination, reproduction, weather trigger, and duration remain bounded/uncertain beyond direct Ch284 observation and local reports.
+- Chaffer exact lifecycle, mana relation, species identity, feeding behavior, destination, reproduction, weather trigger, and duration remain bounded/uncertain beyond Ch284 observations/reports.
+- Nara/Daro broader family/work/customer lives, exact measuring standard, origin of Nara's short-spaced rule, and whether they adopt the shared pattern remain unestablished. Do not automatically follow up.
 
-## Chapter 285 trailhead
+## Chapter 286 trailhead
 Follow the next actual claim from current authority.
 
-Chapter 284 finally gives the magical-ecology/fieldcraft shove a chapter-sized lived-world expression without assigning Greg a creature case. A small chaffer hatch moves through ordinary Carrow after wet weather and quick warmth. Greg follows it partly because he needs onions and partly because he is curious. The city already knows how to coexist with it: sweep husks, cover fruit, clear drains, watch the loose stone, let birds eat.
+Chapter 285 advances the capital/client engine through a **real demand path**, not inventory speculation. Nara already has a concrete problem: her reed screens no longer fit Daro's frames. Greg scopes the work, prices it before beginning, compares the actual parts that must fit, identifies a workflow change that explains why the problem appeared later, and gets paid because the answer is useful. Let that success stand without immediately turning it into a consulting business, measurement queue, Nara referral network, or repeated one-copper case formula.
 
-Let that work. Do not immediately turn chaffers into a dangerous magical species, Hessa specimen, paid consultation, plague, Guild problem, or three-chapter investigation. Greg's useful change is epistemic: he can observe a pattern, ask locals with different practical domains, and leave question marks where the evidence stops.
+The useful change is not that Greg now owns the true measuring standard. He explicitly does **not** establish that. Two sticks agreeing is stronger evidence than one, but the practical answer comes from comparing the screen and frame and noticing that Nara's odd rule changed jobs after the old pattern string broke. Preserve that epistemic restraint.
 
-The loose runnel cap is an ordinary city-maintenance hazard and is not foreshadowed magical sabotage. The unnamed drain worker is not automatically a mentor/contact. The gray bird is not a pet/companion. Chaffer names remain ordinary/informal rather than a taxonomy reveal.
+Greg now has **three private client copper**, all untouched at chapter end. Rell's referral proposal remains unresolved. Ch282 theatre pay remains ordinary and unstated. Do not immediately spend the three copper on paper seconds, the boundary clasp, debt, tools, inventory, or another capital object merely because the number increased.
 
-Money/capital remains active but Ch284 does not advance it. The two private client copper remain untouched. Rell's referral proposal remains unresolved. Do not reward the chaffer observations with immediate monetization.
+Ch284's chaffer hatch is mostly over by Ch285. Do not immediately revive it into a mystery, danger, Hessa specimen, or ecology job. Magical ecology remains a strong directional shove, but the next expression can be different and should arise through lived world.
 
-Magic continuity remains **36 / 32 / 69**. Far remains untested, attempt 68 remains possible only, Hessa has not summoned Greg, and outside-session restrictions are unchanged. Greg uses no mana in Ch284.
+Magic continuity remains **36 / 32 / 69**. Far remains untested, attempt 68 remains possible only, Hessa has not summoned Greg, and outside-session restrictions are unchanged. Greg uses no mana in Ch285.
 
-Return hardware remains unactivated/unvalued. Boundary clasp remains unowned/status unknown. Halei/Trine remains complete. Lyssa's protected materials remain untouched. Pavin's prior absence remains unexplained. Ch284 adds no pressure evidence.
+Return hardware remains unactivated/unvalued. Boundary clasp remains unowned/status unknown. Halei/Trine remains complete. Lyssa's protected materials remain untouched. Pavin's prior absence remains unexplained. Ch285 adds no pressure evidence.
 
-At chapter end Greg is home, uninjured, equipment holding, household stable, and has no guaranteed chaffer follow-up, ecology assignment, theatre call, rehearsal job, Pavin follow-up, referral agreement, client, Maren/Rell follow-up, Jori appraisal, Hessa appointment, far test, clasp hold, Hollen shift, Vale meeting, Guild consultation, animal assignment, Savin appointment, Orin watch, civic hearing, Green Coat encounter, or Lyssa-network obligation.
+At chapter end Greg is home, uninjured, equipment holding, household stable, three clean household sheets remain, three private client copper are together at home, and the horse-page reverse now carries bounded notes from paper, chaffers, and the measuring job. Greg has no guaranteed Nara/Daro follow-up, referral agreement, client, ecology assignment, theatre call, rehearsal job, Pavin follow-up, Maren/Rell follow-up, Jori appraisal, Hessa appointment, far test, clasp hold, Hollen shift, Vale meeting, Guild consultation, animal assignment, Savin appointment, Orin watch, civic hearing, Green Coat encounter, or Lyssa-network obligation.
 
-Let Chapter 285 follow the next actual claim from household, paid work, city/social life, theatre only if genuinely reactivated, pressure only if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft if a different lived claim emerges, a real capital/value-creation opportunity with actual demand, or another ordinary fantasy-world demand.
+Let Chapter 286 follow the next actual claim from household, paid work, city/social life, theatre only if genuinely reactivated, pressure only if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft through a different lived claim, a capital opportunity with actual demand/value, or another ordinary fantasy-world demand.
 
-Do not automatically rotate through chaffers/drain worker/gray bird, paper seconds/wholesale, Pavin/Teren/*The Blue Window*, Rell/Maren/chairs/Jori, Hessa/middle/far, Halei/Trine/Noll, Kes/boundary clasp, Sallo/copperbacks, mask/Sivi, whitewall/Mella, scale checks, Pera/Orin, Vela, Green Coat/Senn, Savin, collar facing/six wraps, caller/Demi/Lenn, bellthroats, Nerin/Mara/Jessa, glowwings, ditchrunners/Edrin, Hollen/Pem, Vale, older pressure, or eventual leg-loss architecture merely because each remains available.
+Do not automatically rotate through Nara/Daro/rulers/screens, chaffers/drain worker/gray bird, paper seconds/wholesale, Pavin/Teren/*The Blue Window*, Rell/Maren/chairs/Jori, Hessa/middle/far, Halei/Trine/Noll, Kes/boundary clasp, Sallo/copperbacks, mask/Sivi, whitewall/Mella, scale checks, Pera/Orin, Vela, Green Coat/Senn, Savin, collar facing/six wraps, caller/Demi/Lenn, bellthroats, Nerin/Mara/Jessa, glowwings, ditchrunners/Edrin, Hollen/Pem, Vale, older pressure, or eventual leg-loss architecture merely because each remains available.
 
-Write ONE complete Chapter 285, target 2,500–4,000 words and clear 2,500, Greg POV, zero em dashes. Validate it, update durable exact prose/state, and leave the Chapter 286 trailhead from what actually happened.
+Write ONE complete Chapter 286, target 2,500–4,000 words and clear 2,500, Greg POV, zero em dashes. Validate it, update durable exact prose/state, and leave the Chapter 287 trailhead from what actually happened.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
