@@ -1,5 +1,5 @@
 {
-  "latest": 283,
+  "latest": 286,
   "chapters": [
     {
       "number": 156,
@@ -768,6 +768,24 @@
       "title": "THE WHOLESALE DOOR",
       "source": "checkpoint",
       "path": "283.html"
+    },
+    {
+      "number": 284,
+      "title": "THE WRONG CORNER",
+      "source": "checkpoint",
+      "path": "284.html"
+    },
+    {
+      "number": 285,
+      "title": "THE SHORT MEASURE",
+      "source": "checkpoint",
+      "path": "285.html"
+    },
+    {
+      "number": 286,
+      "title": "THE WARM WALL",
+      "source": "checkpoint",
+      "path": "286.html"
     }
   ]
 }
