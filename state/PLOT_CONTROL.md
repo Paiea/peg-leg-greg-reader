@@ -28,6 +28,62 @@ Use evidence labels:
 
 **AVOID:** rapid power ladder, generalized telekinesis, casual independent experimentation, claims outrunning evidence.
 
+## Magic-item / acquisition economy — developed possibility
+
+This is a **POSSIBILITY**, not current canon or a scheduled arc. It is a promising next route when manuscript pressure naturally opens it.
+
+Greg's weak / uncertain personal magic does not require fantasy progression to stall. Magical objects can provide **real, sometimes dramatically overpowered capabilities at material cost**, while preserving evidence discipline and keeping money meaningful.
+
+Core shape:
+
+- magical items are a **money sink**, not free loot or abstract upgrades;
+- some items can do something genuinely extraordinary while carrying a downside so severe that the market is reasonable to consider them undesirable, failed, obsolete, cursed, damaged, specialist, or unusable;
+- Greg's advantage is not that everyone else is stupid. He is unusually willing to workshop failure modes, change the intended use, combine mundane technique with magical effect, and ask what an item can do rather than what it was sold to do;
+- theatre craft, blocking, timing, routes, object handling, misdirection, Hessa-style testing, and Greg's old systems knowledge may become unexpectedly useful in making bad interfaces / severe constraints workable;
+- let Greg **succeed**. Do not turn every acquisition into another correction/failure lesson. Some remembered advantages should be exactly right and some ugly experiments should pay off hard enough that the reader gets the pleasure of Greg knowing something forty years early;
+- an eventual collection can become idiosyncratic rather than a conventional adventurer loadout: individually compromised objects that become dangerous or useful because Greg understands their constraints and interactions.
+
+Useful failure-mode shapes include effects that are extremely strong but impose disastrous activation, duration, sensory, mobility, targeting, recovery, environmental, legal, or physical constraints. Do not reduce this to simple RPG tradeoffs such as `+power / -health`. A good bad item should make a reasonable buyer say **not worth it**, while giving Greg a legitimate systems problem to solve.
+
+### Acquisition should be socially and economically distributed
+
+Do not centralize this into one Magic Item Store or a clean upgrade ladder. Different objects can enter through different parts of the lived world:
+
+- auctions and estate lots;
+- dungeon / ruin salvage;
+- traders and recurring dealers;
+- private sellers;
+- back-alley / dubious-provenance exchanges;
+- vaults, confiscated collections, institutional storage, or deliberately removed objects;
+- pawn / debt seizure / military-surplus / abandoned-workshop channels;
+- ordinary objects whose maker, mark, provenance, or later significance is not yet recognized.
+
+The acquisition channel should create people, reputation, bargaining, risk, routes, obligations, provenance, and future social memory rather than functioning as a vending machine.
+
+### Future knowledge can operate through provenance
+
+Greg does not need to remember every exact object. He may recognize:
+
+- a maker's mark from someone who becomes important decades later;
+- an early workshop, manufacturer, technique, material combination, or design generation;
+- an object category that later becomes valuable for a use not yet understood;
+- a historically important item currently misidentified or treated as decorative / failed / mundane;
+- a known defect or obsolete feature that becomes useful when repurposed.
+
+This should remain imperfect. Greg can remember the wrong generation, confuse later attribution with original manufacture, encounter counterfeits, or discover that a famous maker's early work really was mediocre. But **future knowledge must sometimes work cleanly** or it ceases to be an advantage.
+
+A strong story shape is **different objective inside a public contest or market**: Greg recognizes that a lower-status prize, unattractive lot, or apparently secondary object is the thing he actually wants. He may therefore need to optimize for acquisition rather than conventional victory. Example shape only, not canon: a tournament's fifth-place painting is secretly a magical space / enterable object known to Greg from later history, making fifth place more valuable to him than first. Preserve the principle, not necessarily the literal painting.
+
+As Greg's hit rate becomes visible, his own attention can become market information: a trader, bidder, collector, creditor, or rival may eventually learn that **Greg becoming interested in apparent junk is itself a signal**. That naturally makes future acquisitions harder without simply invalidating his knowledge.
+
+### Interaction with illusion / perception
+
+If illusion becomes a real area of Greg competence, magical items can supply the small piece of **reality** inside a larger controlled presentation. Greg need not reproduce all of Old Greg's former power personally. An object may provide one real barrier, force, concealment, movement, sensory, or other bounded effect while Greg supplies timing, perception, misdirection, and old-life knowledge.
+
+This supports the long-range `truth under veil` direction without making theatre secret combat training. It can also give Greg a temporary / fake approximation of Old Greg's apparent capability before he has actually recovered anything like Old Greg's raw power.
+
+**AVOID:** loot treadmill; constant artifact escalation; every cursed item secretly being good; Greg instantly solving every downside; sellers being implausibly ignorant solely to enrich him; future knowledge becoming perfect arbitrage; magical items erasing debt, wages, ordinary purchases, disability, Hessa's evidence standards, or other people's expertise.
+
 ## External pressure / Bren engine
 
 **ESTABLISHED:** direct one-copper demand followed by indirect supplier questioning/interference. Brown-coat man's relationship to Bren remains unproved. Questions about theatre money handling increase practical concern.
@@ -60,7 +116,9 @@ Use evidence labels:
 
 **PRESSURE:** money should constrain choices without swallowing every chapter. Paid work can improve material conditions and still consume time/material.
 
-**AVOID:** invented exact balance/conversion; invented Vale/Bren link; abstract household income stats.
+**POSSIBILITY:** magical objects, auctions, salvage, collecting, speculative purchases, and equipment experimentation can become meaningful competing uses of Greg's finite capital. A correct future-knowledge purchase can improve his position; a wrong one can strand money in an object he cannot easily use or resell. This gives Greg reasons to seek purses, contracts, bargains, extra work, or better deals without making wealth itself the plot.
+
+**AVOID:** invented exact balance/conversion; invented Vale/Bren link; abstract household income stats; magical-item arbitrage becoming an effortless money printer.
 
 ## Legacy manuscript quarry — non-canon possibilities
 
@@ -94,7 +152,7 @@ Desired eventual convergence:
 - SECOND-LIFE GREG: world limits / evidence / magic and institutional understanding
 - THEATRE GREG: timing / silence / posture / attention / eyelines / staging / misdirection / partial information / improvisation / recovery / practical effects
 
-A possible payoff structure is **truth under veil**: a small true thing + controlled presentation + real knowledge + uncertainty, buying seconds or hesitation rather than magically defeating a stronger threat.
+A possible payoff structure is **truth under veil**: a small true thing + controlled presentation + real knowledge + uncertainty, buying seconds or hesitation rather than overpowering anyone.
 
 Do not schedule this prematurely.
 
