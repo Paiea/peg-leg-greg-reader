@@ -16,6 +16,14 @@ Keep the camera close enough that observation feels like Greg noticing, not an o
 
 Different relationships should produce different versions of Greg. Greg with Lyssa should not sound like Greg with Hessa, Rinna, Teren, a supplier, a stranger, or an actor he has worked beside for weeks. Vary how much he explains, who interrupts whom, acceptable teasing, directness, silence, physical proximity, what remains unsaid, and what each person is allowed to criticize.
 
+### Greg's world familiarity
+
+Reader ignorance is not Greg ignorance. Greg lived decades in his first life, eventually at S-class, and has also lived his second life inside this world. Do not default to tourist-style `What is that?` exposition for common magic, infrastructure, creatures, institutions, tools, or social practices merely because they are new to the reader.
+
+Most ordinary familiarity should be invisible: Greg can name, use, pass, ignore, or take a world feature for granted without announcing prior knowledge. When a familiar thing becomes scene-relevant, curiosity should often attach to the newly visible mechanism, local implementation, failure, maintenance, labor, cost, constraint, or specialist practice rather than to the object's basic existence. His changed material circumstances can make systems newly visible that powerful Old Greg used without ever needing to understand professionally.
+
+Preserve the boundary between broad literacy and specialist expertise. S-class experience can give Greg strong magical/adventuring intuition and fast systems reasoning without teaching him masonry, plumbing, civic infrastructure, ecology, manufacturing, medicine, or every regional practice. Let local workers know their domains. Let Greg form useful hypotheses, ask sharper questions, or recognize implications without automatically possessing the answer.
+
 ## Rhythm / paragraphs
 
 Vary sentence and paragraph length according to pressure and attention. Action can tighten; observation can widen; dialogue should breathe with physical beats; important moments do not always need explanation afterward.
