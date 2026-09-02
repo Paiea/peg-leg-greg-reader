@@ -1,10 +1,10 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 298 — **THE FAR MARK**.
+- Current exact story endpoint: Chapter 299 — **THE OTHER HANDLE**.
 - Book 1 Chapters 1–82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249–298 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249–299 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500–4,000 words and clear 2,500 unless explicitly changed.
@@ -17,88 +17,85 @@
 ## Direction
 - Preserve ordinary lived texture, social accumulation, disability/material reality, humor, work, and independent side-character lives.
 - Magical ecology / fieldcraft remains a strong push without creature-of-the-week structure, but not every chapter must service it.
-- Ch295–297 self-directed leisure/observation now sits as background competence rather than a repeated belonging thesis.
-- Ch298 advances Greg's personal magic because Greg himself chooses to request another supervised session rather than waiting for Hessa to summon him.
-- The magic progression remains evidence-first and conservative. Hessa uses a current-day near control, a middle comparison, and one first far attempt conditionally. Success does not unlock distance, and failure does not automatically close it.
-- Far is now tested once rather than remaining a promise/unknown on the board, but one no-response attempt establishes no range limit.
+- Ch298 personal magic now sits as established background evidence. Ch299 deliberately follows a household/social logistics claim instead of immediately repeating Hessa/range progression.
+- Ch299 lets ordinary magical material culture live inside a practical basket repair: Greg already knows the broad carry-knot family and learns only this basket's local construction and Olan's repair practice.
+- Scope restraint remains behavioral. Greg transports, relays exact terms, observes, and stops rather than converting the incident into a repair business, Lyssa-management role, or study project.
 - Eventual title-defining leg loss remains flexible long-range architecture, not a countdown.
 
 ## Money / capital
-- Greg holds **three private client copper** upstairs.
-- Ch298 spends none and earns none.
-- Greg carries no household money during the Guild visits and leaves all private copper at home.
+- Greg still holds **three private client copper** upstairs.
+- Ch299 spends none and earns no coin.
+- Mera gives Greg two eggs for carrying messages. Cala claims one for the household by agreement; Greg then voluntarily gives the second to the household too. No monetary valuation established.
+- Mera approves Olan's one-bit simple-repair price and pays on collection; Greg never handles her bit.
 - No copper/bit conversion established.
 - Ch293 one-copper bag remains Greg's first and only spend from the original four private client copper.
-- Nara-to-Miri referral remains one route, not a queue/business/network. Miri/Pellin follow-up unguaranteed. Rell referral compensation unresolved.
 
 ## Greg / body / equipment
 - Greg is nineteen in second life, Bronze, Carrow. Permanent LEFT BKA, knee preserved; right leg intact; two crutches.
 - Existing crutch repairs and Ch269 right-shoe repair remain sound.
-- Ch293 used brown leather shoulder bag remains regular personal equipment, but Greg leaves it home for the supervised test because Hessa says bring nothing.
-- Ch297 palm pressure from a longer walk had resolved with rest before Ch298. Hessa checks palms/hands/forearms and finds them normal before the session.
-- During/after Ch298 testing: no pain, tingling, weakness, numbness, residual-limb issue, right-leg issue, shoulder issue, fall, crutch damage, shoe issue, or equipment change.
-- Greg stands from Hessa's chair using right foot/chair arm and sets both crutches normally.
+- Ch293 used brown leather shoulder bag functions normally.
+- Ch299 Greg temporarily carries Mera's wide empty basket using plain household cord as a longer carry loop after testing position/clearance with Lyssa. Basket rides at right hip/back without interfering with either crutch, right leg, or residual limb after one adjustment.
+- Greg's body is normal after Ch298 Guild session: hands/forearms ordinary, residual limb comfortable, right shoe flat, crutches sound.
+- Greg lowers to and rises from a low curb using right leg/hand with left knee clear, no issue.
+- For Olan's bounded load check Greg sets crutches within reach, stands on right leg with left knee clear, lifts the repaired basket once by both handles, sets it down, and resumes crutches normally.
+- No pain, fall, pressure injury, equipment damage, or body change.
 
 ## Household / Lyssa
 - Three clean household gray sheets remain unused.
 - Three private client copper remain upstairs.
 - Horse page remains full.
-- Greg uses the existing narrow scrap and charcoal after the controlled session; no clean sheet consumed.
-- Before the session Greg tells Cala/Lyssa `Guild tomorrow`; they treat it as ordinary supervised magic rather than crisis.
-- Afterward Greg reports: near moved, middle did not, far did not; Lyssa is pleased that far was finally tested, not because it succeeded. Cala's first question is whether Greg's body is fine.
-- Tavi still repeats `door red`; comic residue only.
-- Lyssa's independent garment work is not advanced.
+- Existing narrow scrap remains in Greg's bag; he deliberately does not add basket notes to it.
+- Lyssa had independently arranged for Mera to carry two finished pieces across Lower Market. Mera's broken basket threatens timing, not the work itself.
+- Lyssa says she can carry the pieces herself if needed; Cala notes she has the brown cuff. No helplessness/rescue framing.
+- Greg's involvement preserves Lyssa's already-created delivery arrangement rather than creating a Greg courier/manager role.
+- By noon Mera collects the repaired basket, comes to the household, takes Lyssa's wrapped finished pieces, and leaves. No further Lyssa-business terms established.
 - Rain shelf works. Front door closer remains repaired/functioning.
 
-## Chapter 298 — THE FAR MARK
-- Greg goes to the Guild without a summons or appointment specifically to request the next supervised magic session.
-- Hessa confirms there has been no independent draw, shaping, or external attempt; no unusual sensation/injury; Ch297 palm pressure resolved.
-- Greg explicitly asks to test far because it remains untested and because he wants a real observation rather than the status `untested`.
-- Hessa refuses same-day testing but schedules the next morning: rested, eat first, bring nothing.
-- Next day Hessa uses the same pale paper square as prior range sessions and explicitly says it was stored intentionally because prior observations on the same object matter today.
-- Planned protocol is conditional on body/control: near first, middle second if Hessa continues, far third if Hessa continues; three attempts maximum.
-- Hessa emphasizes that middle success is not required to `earn` far. The sequence is an observation protocol, not a reward ladder.
-- Attempt 70, established near position: one small clean net displacement away. Greg stops on time. No body issue.
-- Attempt 71, established middle position: no observed response. Greg reports higher urge to compensate because far is next, but does not change effort/duration/method. No body issue.
-- Hessa proceeds to far because protocol/safety permit it, not because middle succeeded.
-- Attempt 72, established far position: **first far test**. Minimal established external-effect attempt, away, no distance compensation, no duration extension. No observed response. Greg stops on cue despite urge/thoughts to push harder/longer/change method.
-- Hessa verifies board/paper/window/thread/floor/body after attempts as in prior sessions.
-- Today's outcomes: near 1 clean / 1; middle 0 / 1; far 0 / 1.
-- Aggregate established-position outcomes after Ch298: **near 2 clean / 4; middle 1 clean / 6 plus one prior possible edge-lift event; far 0 / 1**.
-- No law about distance/reliability is established. Hessa explicitly rejects concluding that far `does not work` or that distance reduced response based on these small samples.
-- Far is no longer untested. Its current evidence is exactly one supervised no-response attempt.
-- Greg thanks Hessa; next experiment/position/object remain unselected.
-- Outside-session restrictions remain unchanged.
-- At home Greg records only the controlled result on the existing narrow scrap:
-  - `70 NEAR: CLEAN SMALL AWAY.`
-  - `71 MIDDLE: NO OBSERVED RESPONSE.`
-  - `72 FAR: FIRST TEST. NO OBSERVED RESPONSE.`
-  - `TOTALS: 36 / 32 / 72.`
-  - `NEAR 2/4 CLEAN.`
-  - `MIDDLE 1/6 CLEAN + 1 POSSIBLE EDGE LIFT.`
-  - `FAR 0/1.`
-- Greg deliberately writes no range theory beneath the results.
-- Core change: Greg initiates his own supervised magic progression and converts the far mark from an untested future idea into one bounded piece of evidence without breaking protocol or turning failure into drama.
-- No client, income, private-copper spend, theatre contact, pressure evidence, Vale contact, debt payment, clasp action, return-hardware action, ecology assignment, Nemi/music follow-up, bridges follow-up, high-line/Tess follow-up, or new external obligation.
+## Chapter 299 — THE OTHER HANDLE
+- Before breakfast Mera's old market basket is at Cala's house with one handle foot pulled free from the basket wall. Mera had asked specifically whether Olan could look at it and needs the basket by noon.
+- Basket carries greens, eggs sometimes, and Lyssa's cloth today. Lyssa had already arranged for Mera to deliver two finished pieces across Lower Market.
+- Greg recognizes the broad family of the pale green knot under the handle wrapping as a common low-grade carry/load-easing treatment, but does not know this basket's exact construction or condition.
+- Greg explicitly declines to repair it because Mera asked for Olan, not for Greg.
+- Greg offers only to transport the basket to Olan, with return-home fallback if Olan is absent.
+- Lyssa and Greg use plain household cord through sound rim points to create a temporary longer carry loop compatible with Greg's crutches. One initial placement bumps the doorframe; they shift it one reed-space inward and the second setup clears.
+- Olan is working a separate latch job near the cooper. Greg delivers the basket and waits until Olan finishes that work.
+- Olan identifies this basket's old carry tie as running into both handle feet and spreading pull across the rim when both feet hold.
+- Olan treats the visible problem as **attachment first**, not magical failure. Existing green thread appears uncut; its serviceability cannot be judged loaded until the handle attachment is repaired.
+- A prior pale-reed side repair is not Olan's but he judges it holding; no problem inferred from mismatched reed alone.
+- Olan quotes Mera **one bit if simple wrap and set; more if the rim opens when old binding is pulled**. He will not start without Mera's approval.
+- Egg-row location is supplied by the cooper shopkeeper. Greg relays Olan's exact conditional terms to Mera without negotiating for her or taking her money.
+- Mera authorizes one bit if simple; if more, leave it. She will pay on collection.
+- Mera gives Greg two eggs for carrying the message. They are personal payment in kind, not coin/client copper.
+- Greg carries approval back. Olan confirms the rim does not open when old binding is removed, so repair remains simple.
+- Olan resets the intact handle foot one reed-space over because old holes widened, reuses the existing green loop, adds fresh ordinary brown binding, and applies one brief dull-green set pulse. No persistent glow.
+- Olan waits after the set, then load-tests with a half bucket of water.
+- Greg performs one bounded feel/lift at Olan's request. The load is not weightless; pull feels broader/less concentrated near the repaired foot. Olan says effect is partly basket/partly tie and cannot isolate contribution without another basket/more time.
+- Repair is judged suitable **for Mera's use**, not universal heavy loads.
+- Greg returns home with both eggs intact. Cala claims one for house by agreement; Greg then gives the other to household too as a joke `investment in soup`.
+- Greg chooses not to record the repair despite having room on the scrap. He distinguishes useful observation from a problem he needs to own or solve.
+- By noon Mera has collected the basket and uses it to collect Lyssa's finished cloth. Handle holds; old green knot shows no visible light.
+- Core change: Greg participates in a small neighborhood logistics chain with bounded responsibility, adapts carrying around his disability, and observes ordinary magical repair without converting familiarity or curiosity into ownership.
+- No Hessa session, independent magic, client copper, theatre contact, pressure evidence, Vale contact, debt payment, clasp action, return-hardware action, ecology assignment, music follow-up, bridge follow-up, high-line follow-up, or new standing obligation.
 
 ## Magic continuity
-- Totals now **36 supervised minimal draws / 32 supervised deliberate shaping attempts / 72 supervised external-effect attempts**.
-- Established near aggregate: **2 clean / 4**.
-- Established middle aggregate: **1 clean / 6 plus one prior possible edge-lift event (attempt 68)**.
-- Established far aggregate: **0 / 1**, first tested at attempt 72.
-- No independent magic outside supervised sessions Ch281–298.
-- Outside-session restrictions unchanged: no independent draw, shaping, or external-effect attempt.
-- Hessa next experiment/appointment/position/material unselected.
-- Do not infer a distance law, hard range limit, reliability curve, or dose-response relationship from current small samples.
+- Totals remain **36 supervised minimal draws / 32 supervised deliberate shaping attempts / 72 supervised external-effect attempts**.
+- Established near aggregate remains **2 clean / 4**.
+- Established middle aggregate remains **1 clean / 6 plus one prior possible edge-lift event (attempt 68)**.
+- Established far aggregate remains **0 / 1**.
+- Ch299 includes no Greg draw, shaping, external attempt, or independent magic.
+- Olan's one dull-green set pulse on Mera's basket is Olan's work and does not affect Greg totals.
+- Outside-session restrictions unchanged. Hessa next experiment/appointment/position/material unselected.
+- Do not infer a distance law, hard range limit, reliability curve, or dose-response relationship from current samples.
 
 ## Other live continuity
-- Ch297 high line/Tess and Pella/Rusk/kessa jumpers stand. Ch298 does not return to them beyond one passing kessa recognition and one joking mention to Hessa; no ecology activation.
-- Ch296 Nemi/held-note experience stands. No music follow-up.
-- Ch295 bridges/open-seat experience stands. No Vela/Orra/Demin/Sot follow-up.
+- Ch298 far test stands; Ch299 does not return to Hessa/range work.
+- Ch297 high line/Tess and Pella/Rusk/kessa jumpers stand; no return.
+- Ch296 Nemi/held-note experience stands; no music follow-up.
+- Ch295 bridges/open-seat experience stands; no return.
 - Ch294 shopping errand stands complete.
-- Ch293 bag functions normally.
+- Ch293 bag functions normally and proves useful for carrying two eggs safely with straw.
 - Ch292 shade fish/east-wall trough stand; no return.
-- Ch291 front door stands repaired.
+- Ch291 front door stands repaired and opens cleanly while Greg carries the basket.
 - Ch290 rain shelf works.
 - Ch289 ward crossing stands repaired.
 - Ch288 Miri/cooling-cup result stands; Pellin remains only `Pellin kiln` in South Ovens and is not Pell absent evidence.
@@ -106,37 +103,38 @@
 - Ch286 dry seal remains ordinary resolved maintenance unless independently reactivated.
 - Ch284 chaffer hatch remains over/quiet.
 - Ch281 return hardware remains unactivated/unvalued. Rell/Maren/Jori unresolved.
-- Ch276/282 theatre facts stand. Ch283–298 no theatre contact.
+- Ch276/282 theatre facts stand. Ch283–299 no theatre contact.
 - Vale debt active/unresolved; exact balance unstated.
 - Boundary clasp unowned/status unknown.
-- Older pressure evidence ceiling unchanged. Ch298 adds none.
+- Older pressure evidence ceiling unchanged. Ch299 adds none.
 
 ## Protected uncertainties / do not auto-resolve
 - Existing weak needle-case, Rinna parcel, Lyssa older materials/packets/bundles, Ch246 crate, Pell return, Vale/Bren, collar-facing, six wraps, Ch281 flat package, Ch285 narrow wrapped packet remain protected.
-- Magic: exact near/middle/far distances remain unstated; far has one no-response attempt only; attempt 68 remains possible edge-lift only; next experiment unselected; paper-square storage details beyond intentional storage unestablished; no range law.
+- Magic range uncertainties from Ch298 remain unchanged.
+- Mera basket/carry tie: exact maker, age, original material, charge/lifespan, whether gray elsewhere indicates anything, degree of load easing, mechanism, safe maximum load, repair history beyond visible prior side repair, and broader carry-knot standards remain unknown.
+- Do not turn Olan into Greg's repair mentor/employer, Mera into a standing courier/client, the two eggs into a barter business, or Greg into Lyssa's delivery manager.
 - Existing shade-fish/water-list, dry-seal, carrying-light, cooling-cup, ward-road, rain-thread, door-closer, stay-bead, bridges, Nemi/hold-bead, high-line, and kessa-jumper uncertainties remain bounded.
-- Do not turn Greg's self-requested Hessa session into a standing schedule, automatic weekly training cycle, Guild promotion, unrestricted practice permission, or far-test ladder.
 
-## Chapter 299 trailhead
+## Chapter 300 trailhead
 Follow the next actual claim from current authority.
 
-Chapter 298 gives Greg meaningful personal-magic movement after a long supervised pause. Let the far test stand. Do not automatically make Chapter 299 another Hessa session, another far attempt, a range-measurement chapter, a different-object test, or an attempt to prove a distance law.
+Chapter 299 is a complete bounded neighborhood logistics/repair day. Let Mera's basket, Olan's carry-tie repair, the two eggs, and Lyssa's completed delivery stand. Do not automatically return for basket durability, carry-knot study, another Olan repair, Mera courier work, or Lyssa delivery optimization.
 
-Far is now **0 observed responses / 1 supervised attempt**, not a demonstrated limit. Middle is **1 clean / 6 plus one prior possible edge lift**. Near is **2 clean / 4**. Totals are **36 / 32 / 72**. Outside-session restrictions remain unchanged and next experiment is unselected.
+Ch298 magic also stands. Totals remain **36 / 32 / 72**; near **2/4 clean**; middle **1/6 clean + one possible edge lift**; far **0/1**. No Hessa appointment or next experiment is selected.
 
-Three private client copper remain. Do not force a purchase/investment/reward after the magic session.
+Three private client copper remain upstairs. Three clean sheets remain. Greg earned no coin in Ch299 and voluntarily put both message-payment eggs into the household food.
 
-The recent social, observational, ecology, and magic movements should now coexist as ordinary background capacities. Chapter 299 does not need to prove belonging, restraint, ecology, or magical progression again.
+At chapter end Greg is home around noon after Mera collects Lyssa's finished pieces using the repaired basket. Greg is uninjured; crutches, shoe, bag, front door, and rain shelf are functioning; no new external obligation exists.
 
-At chapter end Greg is home after a controlled Guild session, uninjured, body/equipment holding, bag functioning, household stable, front door repaired, rain shelf works, three clean sheets remain, three private client copper remain upstairs, and no new external obligation exists.
+Chapter 300 does not need to mark its round number. Do not manufacture a milestone, climax, act break, prophecy, danger spike, or retrospective merely because it is Chapter 300. Structural boundaries follow story movement only.
 
-Greg has no guaranteed client, Miri return, Pellin visit, Nara follow-up, Hessa appointment, second far test, Nemi/music follow-up, bridges invitation, high-line/Tess follow-up, Pella/Rusk/kessa follow-up, ecology assignment, ward-water contact, shade-fish task, bead replacement, bag follow-up, soap/mint follow-up, rain-thread need, Sella/Olan follow-up, Sera follow-up, lantern-house visit, Maro follow-up, theatre call, rehearsal job, referral agreement, Maren/Rell follow-up, Jori appraisal, clasp hold, Hollen shift, Vale meeting, Guild consultation, animal assignment, Savin appointment, civic hearing, Green Coat encounter, or Lyssa-network obligation.
+Greg has no guaranteed client, Miri return, Pellin visit, Nara follow-up, Hessa appointment, second far test, Mera follow-up, Olan lesson, Lyssa delivery task, Nemi/music follow-up, bridges invitation, high-line/Tess follow-up, Pella/Rusk/kessa follow-up, ecology assignment, ward-water contact, shade-fish task, bead replacement, bag follow-up, rain-thread need, Sera follow-up, lantern-house visit, Maro follow-up, theatre call, rehearsal job, referral agreement, Maren/Rell follow-up, Jori appraisal, clasp hold, Hollen shift, Vale meeting, Guild consultation, animal assignment, Savin appointment, civic hearing, Green Coat encounter, or Lyssa-network obligation.
 
-Let Chapter 299 follow the next actual claim from household, paid work only if genuinely activated, city/social life, theatre only if genuinely reactivated, pressure only if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft only through a genuinely fresh lived claim, magical infrastructure only if independently activated, a capital opportunity with actual demand/value, or another ordinary fantasy-world demand.
+Let Chapter 300 follow the next actual claim from household, paid work only if genuinely activated, city/social life, theatre only if genuinely reactivated, pressure only if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft only through a genuinely fresh lived claim, magical infrastructure only if independently activated, a capital opportunity with actual demand/value, or another ordinary fantasy-world demand.
 
-Do not automatically rotate through Hessa/near/middle/far, high line/Tess, Pella/Rusk/kessa jumpers, Nemi/music/hold bead, bridges/Vela/Orra/Demin/Sot, shopping/soap/mint, bag/stay bead, shade fish/water list/sun-turn bead, door closer/Sella/Olan, rain shelf/rain thread, Lyssa dark-blue job, ward paving/tamp charms, Miri/Pellin/cooling cups, Nara/Daro, carrying light/Sera/lantern house, Maro/dry seal, chaffers, paper wholesale, Pavin/Teren, Rell/Maren/Jori, Halei/Trine, Kes/clasp, copperbacks, mask/Sivi, whitewall, scale work, Green Coat/Senn, Savin, Lyssa protected materials, bellthroats, ditchrunners/Edrin, Hollen/Pem, Vale, older pressure, or eventual leg-loss architecture merely because available.
+Do not automatically rotate through Mera/basket/carry tie/Olan, Hessa/near/middle/far, high line/Tess, Pella/Rusk/kessa jumpers, Nemi/music/hold bead, bridges/Vela/Orra/Demin/Sot, shopping/soap/mint, bag/stay bead, shade fish/water list/sun-turn bead, door closer/Sella/Olan, rain shelf/rain thread, Lyssa dark-blue/brown-cuff work, ward paving/tamp charms, Miri/Pellin/cooling cups, Nara/Daro, carrying light/Sera/lantern house, Maro/dry seal, chaffers, paper wholesale, Pavin/Teren, Rell/Maren/Jori, Halei/Trine, Kes/clasp, copperbacks, mask/Sivi, whitewall, scale work, Green Coat/Senn, Savin, Lyssa protected materials, bellthroats, ditchrunners/Edrin, Hollen/Pem, Vale, older pressure, or eventual leg-loss architecture merely because available.
 
-Write ONE complete Chapter 299, target 2,500–4,000 words and clear 2,500, Greg POV, zero em dashes. Validate it, update durable exact prose/state, and leave the Chapter 300 trailhead from what actually happened.
+Write ONE complete Chapter 300, target 2,500–4,000 words and clear 2,500, Greg POV, zero em dashes. Validate it, update durable exact prose/state, and leave the Chapter 301 trailhead from what actually happened.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
