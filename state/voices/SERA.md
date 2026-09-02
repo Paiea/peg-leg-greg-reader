@@ -2,66 +2,87 @@
 
 Exact manuscript prose outranks this file.
 
+## Authority correction
+
+Earlier generic craft notes described a different Sera-shaped voice. Current exact manuscript evidence outranks that stale description.
+
+Current Sera is a Carrow local known around Greg's courtyard and, in Chapter 287, is seen tending a carrying-light run for the lane. Do not import a medical-professional voice onto her without separate manuscript proof.
+
 ## Core lens
 
-Sera thinks through bodies, symptoms, choices, uncertainty, and what can safely be promised. She separates what she knows from what she suspects because medical consequences make false certainty expensive.
+Sera is locally embedded and practical. She appears comfortable treating Greg as an ordinary known person rather than a novelty, and her carrying-light work is task-first: enough light, which run, what adjustment, what the lane needs.
 
-That precision should remain clinically/practically motivated rather than sounding like Hessa's experiment room transplanted into medicine.
+She knows more about the local system than Greg and has no particular urge to teach him all of it.
 
 ## Spoken rhythm
 
-Measured. Often complete sentences when the distinction matters, shorter answers when it does not.
+Plain and compact without Hessa's methodological edge.
 
-She may pause or revise rather than produce an elegant instant conclusion.
+She can answer a question with the locally sufficient noun:
+- carrying light;
+- line;
+- tiles;
+- turns;
+- draw;
+- weather.
+
+If Greg keeps digging after she has given the useful answer, she may simply announce that she is busy and leave.
 
 ## Humor
 
-Not a primary engine. Dry humor can appear through familiarity, but she should not automatically match Greg joke for joke.
+Dry when present, often through literal refusal to indulge Greg.
+
+In the courtyard, when someone asks where Greg lives, her `Which Greg?` / `Could be another` exchange plays because she already knows him and chooses mild social teasing.
 
 ## Disagreement / refusal
 
-Sera can refuse reassurance she cannot support.
+Sera does not need to win the argument. She may tell someone where to stand, make the adjustment, and continue the route.
 
-She can also refuse Greg's urge to convert one sensation into a diagnosis or one good day into a guarantee.
+She can be firm with local users who have previously changed a setting they were told not to change.
 
 ## Information behavior
 
-Useful distinctions include:
-- observed symptom versus cause;
-- possible versus likely;
-- choice made now versus prediction about later;
-- what would change the decision.
+She knows the carrying-light run operationally:
+- whether the current light is enough for the requested use;
+- which physical points to adjust;
+- that line, tiles, turns, draw, and weather affect the run.
 
-She should not narrate every distinction in textbook language. Often one ordinary sentence is enough.
+She does not automatically explain power source, maximum range, ownership structure, or mechanism merely because Greg asks.
+
+`I tend this run` is narrower than `I work at the lantern house`. Preserve that distinction.
 
 ## With Greg
 
-Greg's systems curiosity may make him ask mechanism questions while Sera cares first about what his body is doing and what action follows.
+Familiar enough for mild teasing and direct instruction. She does not perform deference to Bronze/theatre reputation.
 
-She can know when to stop answering the interesting question because the practical one is more important.
+Greg's curiosity may amuse or inconvenience her, but she should not become another expert whose primary role is correcting his epistemology.
 
-## Canon patterns
+## Canon lines / fingerprints
 
-- **CANON PATTERN:** Medical uncertainty and decision boundaries matter more than false reassurance.
-- **CANON PATTERN:** She distinguishes what she knows, suspects, chose, and cannot promise.
+- **CANON LINE:** `Which Greg?`
+- **CANON LINE:** `Could be another.`
+- **CANON LINE:** `Carrying light.`
+- **CANON LINE:** `Line. Tiles. Turns. Draw. Weather.`
+- **CANON LINE:** `I tend this run.`
+- **CANON LINE:** `I'm busy.`
 
 ## Voice tests — NON-CANON
 
-- `I said it looks better. I didn't say it's finished.`
-- `If that changes, come back.`
-- `I don't need a theory yet. I need to know whether it hurts.`
+- `Stand side.`
+- `Enough for the table. Not enough for the back.`
+- `Ask the house if you want the house answer.`
 
 Calibration only.
 
 ## Overlap allowed
 
-Sera and Hessa both resist unsupported certainty. Difference: Sera's frame is care/decision under bodily uncertainty, not experimental claim construction.
+Sera can be concise like Lyssa, Cala, or Rinna. Her compression comes from local familiarity and being in the middle of a job, not from household intimacy, theatre routing, or methodological discipline.
 
 ## Watch list
 
 Avoid:
-- medical oracle;
-- cold evidence machine;
-- generic nurturing healer;
-- turning every encounter into a lesson about uncertainty;
-- making her speak like Hessa merely because both professions care about evidence.
+- medical-professional voice unsupported by current exact prose;
+- lantern-house exposition machine;
+- Hessa-style qualification speeches;
+- making local competence mysterious;
+- assuming her job title or formal employer from `I tend this run`.
