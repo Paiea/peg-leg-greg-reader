@@ -1,11 +1,11 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 268 — **THE CALLER**.
+- Current exact story endpoint: Chapter 269 — **THE COBBLER**.
 - Book 1 Chapters 1–82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent forward manuscript path: `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249–268 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries and still requires exact-text integration into the permanent manuscript. Older Ch156–219 synchronization debt also remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249–269 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries and still requires exact-text integration into the permanent manuscript. Older Ch156–219 synchronization debt also remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time.
@@ -28,124 +28,118 @@ These are strong direction, not chapter scheduling or retroactive canon.
 - Greg is nineteen, Bronze, in Carrow.
 - Permanent LEFT BKA, knee preserved; right leg intact; uses two crutches.
 - LEFT tip replaced Ch223; RIGHT grip retensioned Ch242; LEFT grip fine. Ch247 haircut current.
-- Ch268 caller work involves long standing with less walking; Greg shifts position enough to avoid pain. End: shoulders tired, hands fine, right leg stiff enough to stretch, residual limb comfortable. No injury/equipment change.
-- Wet-weather route residue remains narrow and unchanged.
+- Ch269 right shoe develops a small outer-heel sole separation and scraping sound. Greg catches it before major failure and takes it to Savin.
+- Savin repairs the existing sole with pitch mix and three small flush nails. She does **not** alter Greg's wear angle because one observation cannot establish whether shoe geometry causes the roll or Greg's gait causes the wear. She asks him to return before it opens if the pattern repeats.
+- End Ch269 repair is holding, no scrape after walking home. This is a maintenance change, not new footwear or gait correction.
+- Body at opening recovered from Ch268: right-leg stiffness gone, shoulders still aware of prior standing, hands ordinary, residual limb comfortable. No injury.
 
 ## Greg / Lyssa / household
-- Canonical spelling **Lyssa**. Black woman, tall relative to Greg, thin/lithe, natural Afro-textured hair.
-- Lyssa retains independent work, errands, moods, obligations, competence, relationships, and decisions. She is not Greg's analyst/project manager.
+- Lyssa remains independent and is not Greg's analyst/project manager.
 - Long-standing narrow brown cloth remains protected/unexplained.
-- Older Lyssa material uncertainties remain separate unless exact prose connects them.
-- Current pale work remains unidentified through Ch268.
-- Ch267 six narrow wraps happen off-page by Ch268 evening without Greg's participation. Exact purpose/material/customer relationship remains unestablished.
-- Household still has bread. Lyssa leaves Greg rice and fried potato after his theatre day.
+- Current pale work goes out with Lyssa in the morning and is absent when she returns; identity remains unestablished.
+- Ch267 six narrow wraps already happened off-page by Ch268. Ch269 does not explain them.
+- Household finishes remaining bread with cooked onions in evening. Exact pantry inventory beyond that is not established.
+- Lyssa returns Ch269 with thread and a small paper packet; do not connect packet to older unresolved packets/materials without exact prose evidence.
 
 ## Recent durable residue
-- Ch249–264 exact checkpoint prose remains authoritative. See exact files for details.
+- Ch249–264 exact checkpoint prose remains authoritative. See exact files.
 - Ch265 **THE CONTROL**: third paper fin produces one small clean AWAY response in four; restrictions unchanged; totals 36 / 32 / 61.
 - Ch266 **THE RUNNER**: one paid Edrin report consultation, probable ditchrunners, no standing assignment; ambient bronze-cup street music.
-- Ch267 **THE ERRAND**: Greg directly meets Nerin, voluntarily carries one unpaid bread-count errand to Jessa, learns `six stayed six`; heat marks and glowwings add ambient magic.
+- Ch267 **THE ERRAND**: Greg directly meets Nerin, one voluntary unpaid bread-count errand, `six stayed six`; heat marks/glowwings.
+- Ch268 **THE CALLER**: one-day temporary theatre caller substitution, Demi usual caller, Iven and trained bellthroats, ordinary pay, no guaranteed return.
 
-### Chapter 268 — THE CALLER
-- Theatre worker **Lenn** is named. She sometimes works near costume/props logistics and carries a narrow wooden case. Exact job/title/life beyond this remains unestablished.
-- Lenn comes to Greg's court because Rinna wants him. Usual side-passage caller **Demi** is absent because of `mother`; exact circumstance unestablished and not Greg's business.
-- Rinna hires Greg for one day as temporary side-passage **caller** for two short houses: unfamiliar **The Miller's Moon** afternoon and familiar **The Glass Orchard** evening. Ordinary theatre pay, no emergency premium, no permanent role.
-- Caller function: operate Demi's existing passage system and lists, moving actors/musicians/supers/animal handler toward entrances on time; report missing people to Rinna. Greg does not invent the system.
-- Lenn's useful rule: if someone says they know better than the list, they might; ask why.
-- Greg makes ordinary errors: calls Hara too early; initially loses track of Venn because he assumes Venn is already waiting; Rinna says know where they are before `next`.
-- Marek identifies an outdated Miller's Moon note: his entrance changed from after the door to after the laugh. Greg verifies the reason and corrects the working note. No rivalry.
-- **Iven** is named, approximately twelve by Greg's impression, and handles four trained **bellthroats** for The Miller's Moon. Exact broader life/employer/training history unestablished.
-- Bellthroats are familiar to Greg from old life. Established narrowly: brown bodies, orange throats, narrow metallic-silver neck-feather fans; soft metallic bell-like throat notes; can ring when frightened, excited, hungry; frightened ringing in Greg's old knowledge is faster/sharper/repetitive. Iven says his trained birds release on stage and return.
-- During performance, three birds return first; fourth rings singly from stage and returns seconds later. Greg correctly does not treat this as frightened behavior. No escape, injury, capture, Guild event, or ecology expansion.
-- Iven insists the birds come back and later calls one `greedy`; Greg jokingly accepts this as taxonomy. Do not turn Iven into sidekick or bellthroats into immediate animal arc.
-- Greg adjusts his own caller position half a body-width toward wall and keeps left crutch closer to improve passage geometry. No formal accommodation scene.
-- Familiarity creates one bounded failure: during Glass Orchard rehearsal Greg anticipates Venn from the older staging in his head and calls him early; current list is right because staging changed. Greg resets to current evidence. This does not negate old-life knowledge generally.
-- Rinna's review is narrow: asks mistakes and whether house saw them; tells Greg `Then learn.` She says Demi may return tomorrow; if not, she may send for Greg. Explicitly no promise.
-- Greg returns Demi's lists with visible corrections rather than replacing/rebuilding the system.
-- Rinna pays exactly the ordinary amount named. No bonus/title/promotion.
-- Lyssa confirms the six narrow wraps `happened` without explaining them. Greg does not ask what they were.
-- No Hessa, Edrin, Vale, Hollen, pressure evidence, Greg mana use, or standing next-day obligation.
+### Chapter 269 — THE COBBLER
+- No theatre/Guild/Hessa/Hollen/Vale call arrives. Greg notices and addresses an ordinary material claim: his only right shoe's outer heel seam has begun separating.
+- **Savin** is named: gray hair braided tight, small round spectacles, one thumb wrapped in cloth, direct/dry manner; cobbler at the lower-market shop with red boot sign. Exact broader life/business history unestablished.
+- Savin recognizes Greg's name through Mara's talk, narrowly reinforcing existing social network without making Mara omniscient.
+- Savin observes Greg wears the right shoe outer heel first and says he `roll[s] out`, but refuses to correct/build up the angle from one observation because she does not know whether shoe causes gait or gait causes shoe wear. Wrong correction could hurt him.
+- Repair cost is small and paid exactly; no discount, information wage, or free service.
+- Savin asks Greg to return before reopening if wear repeats so she can see the pattern twice. This is not a medical diagnosis, orthotic plan, prosthetic intervention, or established future appointment.
+- Across the street are **shade lamps**: six small glass bulbs with pale floating sparks that brighten when sun goes behind cloud and dim in full sun. Savin names them but does not know mechanism. Ambient magic only.
+- A small insect under Savin's bench is identified locally and by Greg's old-life memory as a **copperback**: black/dark shell, dull copper stripe, six legs, clicking sound.
+- Greg remembers repeated old-life copperback problems with waxed/treated fiber: harness stitching, pack seams, sometimes leather binding when thread had dressing. He remembers storage mitigation through sealed/hanging/metal containers but does **not** remember killing method and refuses to invent one.
+- Savin says she found two copperbacks the prior week and had thought damage was mice. A box shows roughened/missing strands on treated thread/cord consistent with Greg's memory, but no one directly observes feeding in Ch269.
+- Greg and Savin jar the insect. Savin moves waxed thread/dressed cords into a metal tin. Plain pale thread stays out because Greg only says he does not remember copperbacks caring about plain thread.
+- Greg explicitly bounds current evidence: `Could be`; he has not watched this local insect eat thread. If infestation becomes broad, local expertise/Guild might matter, but no Guild report/contact occurs.
+- Copperback does not bite/attack Greg; no injury, no infestation crisis, no paid fieldwork, no shop job.
+- Sera knows Savin by name and calls her mean/efficient. Tavi briefly demonstrates a blue cloth strip `flies` when he runs. No neighborhood subplot activated.
+- Lyssa hears narrow copperback account and says Savin moving waxed thread into metal made the knowledge useful. No further ecology expansion.
 
 ## Magical ecology / ordinary magical world
-- Ch259 slateback evidence remains bounded.
-- Ch262 mudjaw/reedcrest reports remain unconfirmed.
-- Ch266 ditchrunners remain probable report-based only.
-- Ch267 glowwings remain narrow local ambient fauna.
-- Ch268 bellthroats are trained theatre animals and familiar old-life fauna to Greg. Do not generalize their ecology beyond exact established traits. Their stage use is ordinary theatre craft, not Greg's magic.
+- Ch259 slateback bounded live evidence; Ch262 mudjaw/reedcrest unconfirmed; Ch266 ditchrunners probable report only; Ch267 glowwings ambient; Ch268 bellthroats trained theatre fauna.
+- Ch269 copperback is a live ordinary pest Greg recognizes from old life. Clean repeated knowledge works, while Greg explicitly separates remembered behavior from unobserved current-local proof.
+- Established copperback facts only: small dark/black six-legged insect, dull copper stripe, clicks; old-life Greg remembers attraction/damage to treated/waxed fibers. Current Savin-shop thread damage is consistent but not directly witnessed. Do not invent lifecycle, magic, poison, flight, reproduction, nest, market value, or eradication method.
+- Shade lamps are ambient magical objects; mechanism unestablished.
 
 ## South Guild yard / Edrin
-- Edrin exact title/authority remains unestablished.
-- Conditional route activated once Ch266. No contact Ch267–268. No standing job.
+- Conditional route activated once Ch266. No contact Ch267–269. No standing job.
 
 ## Theatre / work
-- Theatre remains intrinsically valuable work.
-- Greg knows Uncle; Marek knows Steward. He is not permanent Uncle/usher/front-of-house/utility/caller.
-- Pell exact next work/performance date unknown. Kesh remains usual house worker and briefly appears Ch268 from front-of-house to communicate a late-party crossing.
-- Lenn newly named only as theatre logistics worker seen around costume/props side.
-- Demi usual caller, absent Ch268 because of mother; exact circumstance unknown.
-- Ch268 one-day caller work broadens Greg's theatre competence without promotion. Rinna may send tomorrow only if Demi remains unavailable; no promise.
+- Greg is not permanent caller/stage manager/Uncle/usher/front-of-house/utility worker.
+- Demi usual caller; Ch268 absence because of mother remains narrow. No theatre call Ch269, so do not infer Demi status.
+- Lenn/Iven/bellthroats remain Ch268 residue only.
 - Rinna Ch251 parcel remains unexplained.
 
 ## Binding shop / Hollen / Pem
-- Ch260 and Ch263 paid half-days only. No standing employment. No contact Ch264–268.
+- Ch260 and Ch263 paid half-days only. No standing employment. No contact Ch264–269.
 
 ## Lyssa customer / social-work ecology
-- Mara distinct from Marra. Nerin directly met Ch267. Jessa west room remains narrow evidence only.
-- Six narrow wraps needed by Nerin morning Ch268 occur without Greg. Exact wrap nature/material/use and relationship to Lyssa's pale work remain unestablished.
+- Nerin/Jessa/Mara network remains independent. Six narrow wraps happen without Greg and remain unexplained.
 - Greg is not fitter, mediator, formal courier, accountant, manager, or archivist of Lyssa's network.
 
 ## Magic continuity
 - Totals remain **36 supervised minimal draws / 32 supervised deliberate shaping attempts / 61 supervised external-effect attempts**.
 - Ch248/265 paper-fin evidence remains narrow. NO RANGE ESTABLISHED. NOT GENERALIZED. Restrictions unchanged. Hessa selects no next experiment.
-- Ch268 has magical fauna only; no Greg mana use and no evidence change.
+- Ch269 contains ambient magical object + fauna only; no Greg mana use/evidence change.
 
 ## Economy / Vale debt
 - Currency: copper / silver / gold. No conversion rate established.
 - Antonius Vale debt active/unresolved. Original hard terms remain 35% interest, 8 days, labor through Antonius on default; original principal unknown.
 - Exact current balance exists in-world and Greg knows it but narration does not state it. Prior legitimate credits/payments remain valid.
-- Ch268 Rinna pays ordinary theatre amount named at start; no bonus/emergency premium. No debt payment/contact.
+- Ch269 Greg pays Savin a small exact in-world price (not narrated numerically) for necessary shoe repair. No Vale payment/contact.
 - No Vale/Bren connection.
 
 ## Pressure / evidence ceiling
-- Latest grounded human-pressure evidence remains Ch236.
-- Brown-coat observer unidentified; Mason's Cut direction only; Bren evidence ceiling unchanged.
-- Chapters 249–268 add no human-pressure evidence.
+- Latest grounded human-pressure evidence remains Ch236. Brown-coat/Mason's Cut/Bren evidence ceiling unchanged.
+- Chapters 249–269 add no human-pressure evidence.
 
 ## Protected uncertainties / do not auto-resolve
 - Weak needle-case mark possibly familiar only.
 - Rinna Ch251 wrapped parcel unknown except `not glass`.
-- Lyssa older unidentified materials/packets and current pale work remain unresolved.
-- Long-standing brown cloth remains unexplained.
-- Ch246 delivery-crate contents unknown.
-- Hessa next magic experiment unselected. Pell exact return/work date unknown.
-- Ch262 mudjaw/reedcrest identities unconfirmed; Ch266 ditchrunners probable only.
-- Edrin exact title, Tessa broader life, gray runner, bronze-cup musician/instrument unestablished.
-- Glowwing deeper ecology unestablished.
-- Bellthroat broader ecology/value/training system unestablished beyond Ch268 evidence. Iven broader life unestablished.
-- Lenn exact theatre role beyond observed logistics work unestablished. Demi's mother's circumstance unestablished.
-- Hollen/Pem and Colm broader lives unestablished.
-- Nerin broader business/life unestablished. Reni move cause unconfirmed.
-- Six narrow wraps purpose/material and relationship to Lyssa's pale work remain unestablished even though the six were completed/delivered/handled somewhere off-page.
+- Lyssa older unidentified materials/packets and current pale work remain unresolved. Ch269 new small paper packet remains unconnected.
+- Long-standing brown cloth unexplained. Ch246 crate contents unknown.
+- Hessa next experiment unselected. Pell exact return/work date unknown.
+- Mudjaw/reedcrest unconfirmed; ditchrunners probable only.
+- Edrin exact title, Tessa broader life, bronze-cup musician/instrument, glowwing deeper ecology unestablished.
+- Bellthroat broader ecology/value/training system and Iven broader life unestablished.
+- Lenn exact role and Demi mother's circumstance unestablished.
+- Savin broader life/business history unestablished. Right-shoe wear cause unestablished.
+- Copperback current-local diet is not directly proven despite strong old-life recognition and consistent damage. Flight, lifecycle, eradication, magic, infestation scale all unestablished.
+- Shade-lamp mechanism unestablished.
+- Hollen/Pem/Colm broader lives unestablished. Nerin broader life unestablished. Reni move cause unconfirmed.
+- Six narrow wraps purpose/material and relationship to Lyssa's pale work remain unestablished.
 - No Vale/Bren connection.
 
-## Chapter 269 trailhead
+## Chapter 270 trailhead
 Follow the next actual claim from current authority.
 
-Chapter 268 returns Greg to theatre through a genuine temporary need and broadens his competence sideways rather than upward. Caller work matters because Greg can operate someone else's existing system, make visible-but-contained mistakes, accept current evidence over stale familiarity, and keep other workers arriving on time. Demi remains the usual caller. Rinna may send for Greg tomorrow only if Demi remains unavailable. Do not manufacture Demi's continued absence merely to preserve the role, and do not promote Greg into permanent caller/stage manager.
+Chapter 269 uses an ordinary maintenance need to deepen both disability/material reality and the fantasy ecology push. Greg's right shoe is now repaired, not upgraded. Savin has identified a wear pattern but explicitly refuses to correct it from one observation. Do not turn Chapter 270 into a gait clinic, shoe redesign, orthotic invention, prosthetic arc, or immediate second cobbler visit. The repair should simply become part of Greg's maintained life unless it genuinely fails later.
 
-The bellthroats are a useful fantasy-world intersection with theatre and Greg's old field knowledge, but their one late return resolves safely inside the performance. Do not automatically create an escaped-bird chapter, Iven friendship arc, animal-training job, Guild crossover, or bellthroat ecology investigation. Greg was right about the bird not sounding frightened; let that clean competence stand.
+Copperbacks let Greg be cleanly useful from repeated old-life knowledge without making him omniscient. The important residue is the evidence boundary: he remembers treated-fiber damage strongly, Savin has compatible damage and three insects across a week, but they did not watch this local copperback feed. Savin can test/watch on her own. Do not automatically return tomorrow for results, report it to Edrin, create an infestation crisis, or turn Savin into a fieldcraft client.
 
-The six narrow wraps happened without Greg. Preserve that independence. Do not now explain them merely because the sequence closed operationally, and do not retroactively identify Lyssa's pale work as the wraps without exact prose evidence.
+Shade lamps are another piece of ordinary magic Greg does not need explained. Let them remain mundane unless causality genuinely returns them.
 
-The author shoves remain horizon pressure. Greg's accumulated life now includes a wider theatre usefulness, but also more dependence on systems and people that exist without him. Consequence can eventually exploit that accumulation when causality earns it. Chapter 269 does not owe a punishment for Greg's growing competence.
+No theatre call arrived after Rinna's conditional `if not, I send`, which is useful negative space. Do not explain Demi's status merely to close the loop. Likewise, Lyssa's six wraps remain completed outside Greg's view and the pale work remains unidentified.
 
-At chapter end Greg has no guaranteed theatre call, Hollen shift, Hessa appointment, Vale meeting, Guild consultation, animal assignment, or Lyssa-network obligation. Household is stable. His body is ordinarily tired, not injured.
+The author shoves remain horizon pressure. Greg now has more maintained material life to lose: one functioning shoe, crutches, household contributions, work contacts, competence, and a growing reputation for occasionally knowing useful things. Consequence can eventually touch that accumulation, but Chapter 270 does not owe damage or threat.
 
-Let household, paid work, city/social life, theatre only if genuinely summoned, pressure if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft if genuinely arriving, or another ordinary fantasy-world claim take Chapter 269.
+At chapter end Greg has no guaranteed theatre call, Hollen shift, Hessa appointment, Vale meeting, Guild consultation, animal assignment, Savin appointment, or Lyssa-network obligation. His repaired shoe is holding and body is uninjured.
 
-Do not automatically continue caller work/Demi/Lenn, Iven/bellthroats, Nerin/Mara/Jessa/six wraps, glowwings, heat marks, ditchrunners/Tessa/Edrin, bronze-cup musician, Hessa/new paper, weather beads, Hollen/Pem, Second Toast/Marek, Colm, mudjaw/reedcrest/slateback, Daro/Neli, neighborhood cast, wash court, weak needle case, Rinna parcel, Lyssa's older materials, Vale, Bren/brown-coat pressure, magic-item acquisition, or eventual leg-loss architecture merely because each remains available.
+Let household, paid work, city/social life, theatre only if genuinely summoned, pressure if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft if genuinely arriving, or another ordinary fantasy-world claim take Chapter 270.
 
-Write ONE complete Chapter 269, target 2,500–4,000 words and clear 2,500, Greg POV, zero em dashes. Validate it, update durable exact prose/state, and leave the Chapter 270 trailhead from what actually happened.
+Do not automatically continue Savin/copperbacks/shoe wear, shade lamps, caller/Demi/Lenn, Iven/bellthroats, Nerin/Mara/Jessa/six wraps, glowwings, heat marks, ditchrunners/Tessa/Edrin, bronze-cup musician, Hessa/new paper, weather beads, Hollen/Pem, Second Toast/Marek, Colm, mudjaw/reedcrest/slateback, Daro/Neli, neighborhood cast, wash court, weak needle case, Rinna parcel, Lyssa's older materials, Vale, Bren/brown-coat pressure, magic-item acquisition, or eventual leg-loss architecture merely because each remains available.
+
+Write ONE complete Chapter 270, target 2,500–4,000 words and clear 2,500, Greg POV, zero em dashes. Validate it, update durable exact prose/state, and leave the Chapter 271 trailhead from what actually happened.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
