@@ -1,5 +1,5 @@
 {
-  "latest": 277,
+  "latest": 280,
   "chapters": [
     {
       "number": 156,
@@ -732,6 +732,24 @@
       "title": "THE APPRAISER",
       "source": "checkpoint",
       "path": "277.html"
+    },
+    {
+      "number": 278,
+      "title": "THE CLIENT",
+      "source": "checkpoint",
+      "path": "278.html"
+    },
+    {
+      "number": 279,
+      "title": "THE FINDER",
+      "source": "checkpoint",
+      "path": "279.html"
+    },
+    {
+      "number": 280,
+      "title": "THE REPEAT",
+      "source": "checkpoint",
+      "path": "280.html"
     }
   ]
 }
