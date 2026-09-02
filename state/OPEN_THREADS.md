@@ -1,85 +1,72 @@
 # MANUSCRIPT OPEN THREADS
 
 ## Current edge
-- Current exact story endpoint: Chapter 266 — **THE RUNNER**.
-- Exact Chapters 249–266 are durable checkpoint files and outrank summaries.
-- Permanent running manuscript remains physically materialized through Chapter 248 and requires exact-text integration of 249–266. Older Ch156–219 synchronization debt also remains. Never reconstruct exact prose from summaries.
-- See `MANUSCRIPT_STATE.md` for executable Chapter 267 trailhead and durable author-level shoves.
+- Current exact story endpoint: Chapter 267 — **THE ERRAND**.
+- Exact Chapters 249–267 are durable checkpoint files and outrank summaries.
+- Permanent running manuscript remains physically materialized through Chapter 248 and requires exact-text integration of 249–267. Older Ch156–219 synchronization debt also remains. Never reconstruct exact prose from summaries.
+- See `MANUSCRIPT_STATE.md` for executable Chapter 268 trailhead and durable author-level shoves.
 
 ## Author directional pushes
 - Preserve ordinary lived detail, social accumulation, disability/material reality, humor, work, and independent side-character causality.
-- Gradually transition from second-life reconstruction toward second-life consequence. Greg now has enough work routes, theatre belonging, household texture, Guild usefulness, and relationships that ordinary choices can matter without every chapter becoming danger.
-- Magical ecology/fieldcraft remains a strong push without creature-of-the-week. Ch259 is the clean live use; Ch262 creates a conditional Guild route; Ch266 activates it once as a small paid report consultation.
-- Ch265 resumes Greg's supervised magic. Ch265 weather beads and Ch266 bronze-cup street music keep fantasy present in ordinary commerce/city life without turning every magical detail into plot machinery.
+- Gradually transition from second-life reconstruction toward second-life consequence without manufacturing danger.
+- Magical ecology/fieldcraft remains a strong push without creature-of-the-week.
+- Fantasy should increasingly exist in ordinary city life as well as Greg's supervised experiments.
 - Future knowledge should sometimes work cleanly while evidence quality still matters.
-- Eventual title-defining leg-loss architecture remains long-range and unscheduled. Exact cause/location/creature/trap/spell/tactical sequence/chapter remain open. Greg's hubris/overconfidence/miscalculation/incomplete information/over-optimization should matter when naturally earned. No cheap random accident, countdown, forced foreshadowing, instant adaptation, magical prosthetic fix, or immediate theatre return.
+- Eventual title-defining leg-loss architecture remains long-range and unscheduled. Exact cause/location/creature/trap/spell/tactical sequence/chapter remain open. No cheap random accident, countdown, forced foreshadowing, instant adaptation, magical prosthetic fix, or immediate theatre return.
 
 ## Magic
 - Totals remain **36 supervised minimal draws / 32 deliberate shaping attempts / 61 supervised external-effect attempts**.
-- Ch265 new-fin block: attempt 60 small clean AWAY response; 58/59/61 no response; original-target control unchanged all four.
-- Narrow evidence only: prior apparatus use is not required for at least one response under current setup. No range, reliability, broader objects, or generalized telekinesis established.
+- Ch265 new-fin block has one small clean AWAY response in four; control unchanged all four.
+- No range, reliability, broader objects, or generalized telekinesis established.
 - Restrictions unchanged. Hessa has possibilities but selects no next experiment.
-- Ch266 has no Greg mana use.
+- Ch266–267 have no Greg mana use.
 
-## Magical ecology / fieldcraft
+## Magical ecology / ordinary magical city
 - Ch259 slateback remains bounded live fieldcraft evidence.
 - Ch262 mudjaw/reedcrest report identities remain unconfirmed.
-- Ch266 east-road report is materially better and earns **probably ditchrunners**, not confirmation.
-- Report evidence: two animals past third stone marker before old clay cut; pale backs, dark bellies, long tails carried high, road edge, horse refused; no attack/chase; both moved into drainage ditch when approached.
-- Separate same-night salt-fish theft half mile east may or may not be connected.
-- Narrow old-life ditchrunner knowledge established Ch266: short hair, pale dorsal/darker belly, nervous raised tail/scent glands, horses dislike mineral scent, small-prey/insect/egg/grub diet, can steal salted fish, can bite if cornered, old-life trapping/use around drainage existed.
-- Greg does not know current local cause, prices, population, seasonality, or fish-theft connection.
-- Conditional advice: leave ditch side open, no dogs, no surrounding, do not feed to move, clarify hair versus hard plate if seen again, report changed/observed behavior.
-- Do not upgrade probable report to confirmed current ditchrunner presence without later evidence.
+- Ch266 east-road report earns **probably ditchrunners**, not confirmation. Salt-fish theft connection/local ecology/current value remain unknown.
+- Ch265 weather beads remain ambient commerce.
+- Ch266 bronze-cup street musician remains unnamed and ambient; Greg does not know instrument name/mechanism.
+- Ch267 bean seller has three red glass heat marks/chips that brighten with the hot pot. Greg recognizes the general old-life type; exact local name/mechanism unestablished.
+- Ch267 establishes **glowwings** narrowly: small gray birds whose feather edges can flash/glow green; Lyssa says sometimes blue and that they nest high. Greg does not know them from old life. Do not invent deeper ecology, value, danger, powers, or old-life equivalence.
 
 ## South Guild yard / Edrin
 - Edrin exact title/authority unestablished.
-- Conditional route activates once Ch266 exactly as promised: unnamed gray-coated runner, Hessa agreement, Greg available, report worth asking, paid consultation.
-- **Tessa** established only as a road clerk connected to east-road report handling. Exact authority/life unestablished.
-- No standing job, badge, schedule, handler identity, east-road assignment, or obligation. Edrin explicitly says no tomorrow.
-- Do not auto-repeat reports or promote Tessa/runner into recurring cast.
-
-## Ordinary magical city texture
-- Ch265 cheap green-glowing weather beads at fruit stall remain ambient commerce. No purchase/subplot.
-- Ch266 unnamed street musician plays six bronze cups on a hammered-metal frame; touching one causes others to answer in changing sequence. Greg does not recognize instrument/name/mechanism and gives one copper simply because he enjoyed the music.
-- Do not auto-turn musician/instrument into magical-item, theatre, relationship, or magic-system plot.
+- Conditional route activates once Ch266 as promised.
+- Tessa established only as road clerk connected to east-road report handling.
+- No standing job, badge, schedule, handler identity, east-road assignment, or obligation. No Edrin contact Ch267.
 
 ## Theatre / work
 - Greg knows Uncle; Marek knows Steward. Pell exact next work/performance date unknown. Kesh usual house worker.
-- Ch263 real Steward call overlaps Hollen; Marek takes Steward capably; Greg later gets smaller paid rail + servant work. No rivalry crisis.
-- Colm is familiar scene painter; only name/blue-room repair established.
-- No theatre call Ch264–266.
+- No theatre call Ch264–267.
 - Rinna Ch251 parcel remains unknown except `not glass`.
-
-## Binding shop / Hollen / Pem
-- Ch260 first paid half-day; Ch261 no shift; Ch263 second paid half-day.
-- Hollen said no tomorrow, `Maybe later week.` No standing employment/apprenticeship/guaranteed schedule.
-- No shop contact Ch264–266.
+- Hollen/Pem: Ch260 and Ch263 half-days only. No standing employment. Ch267 Greg passes near Hollen's street and deliberately does not manufacture a shift by entering.
 
 ## Household / Lyssa
 - Lyssa remains independent. Greg is not manager/archivist of her network.
-- Brown cloth remains same fold / three pins through Ch266.
+- Brown cloth remains same fold / three pins through Ch267.
 - Repaired shirt wearable; better shirt retains pale blue theatre-paint streak; two replacement cord lengths remain.
-- Older Lyssa samples/materials/packets remain separate protected uncertainties.
-- Ch262 pale current work remains unidentified. By Ch266 it has tiny dark fastenings visible along one edge, still no garment/customer identity.
-- Neli dark dress complete/gone Ch264.
-- Nerin excess bread is finished Ch266 morning. Pepper cheese is finished Ch266 dinner.
-- Ch266 familiar onion seller recognizes Greg's repeated three-onion buying pattern when he buys four and gives one undersized fifth onion. Greg uses one at dinner. Ordinary social reputation, not subplot.
+- Current pale work remains unidentified despite changing construction.
+- Ch267 household bread is restored with two small dark Nerin loaves bought at full price.
+- Ch267 Lyssa brings a second bag containing thread, small pale buttons, and narrow white tape. These are current supplies only; do not connect to older uncertainties without evidence.
 
-## Lyssa customer / social-work ecology
-- Mara distinct from Marra; Daro coat sequence closed Ch264.
-- Mara works at Nerin's bakery on at least an afternoon bake shift. Nerin is a woman and Mara's boss.
-- Reni moved east to sister; cause uncertain. Jessa small-brass-button reply pending as of Ch264.
-- Current pale work remains Lyssa's and unidentified.
+## Lyssa / Nerin / Mara / Jessa network
+- Mara distinct from Marra; Daro sequence closed Ch264.
+- **Nerin is directly met Ch267**: broad woman with flour on both forearms, direct manner, bakery boss. Exact broader life/business structure unestablished.
+- Greg buys bread from Nerin and voluntarily accepts one optional unpaid paper errand to Jessa's west room. Nerin explicitly allows refusal. This does not establish a courier job.
+- Mara is at Jessa's west room. Jessa receives Nerin's bread count.
+- `Morning six. Not four` advances narrowly: Nerin needs **six narrow wraps tomorrow morning**; Lyssa had asked if the number changed; Mara tells Greg `six stayed six` to carry home if he sees Lyssa.
+- Exact nature/material/use of narrow wraps and relationship, if any, to Lyssa's pale work remain unestablished.
+- Greg does not become fitter, mediator, formal courier, accountant, manager, or archivist of this network.
 
 ## Neighborhood / city
 - Sera/Orren/Tavi/Cala/Mina remain social legibility, not mandatory ensemble rollout.
-- Ch266 Tavi is heard off-page being told to get down from something; no event/subplot established.
 - Bell Lane/Lower Tanner wet-weather route knowledge remains narrow.
+- Ch267 unnamed turnip-carrying man exists only long enough to name glowwings after one soils his coat. Do not promote him.
 
 ## Economy / debt
 - Antonius Vale debt remains active/unresolved; exact current balance unstated. Original terms remain 35% interest, 8 days, labor through Antonius on default; original principal unknown. Prior legitimate credits/payments valid.
-- Ch266 Edrin pays Greg an unstated modest consultation amount. Greg divides it household/personal, buys four onions, receives a fifth small onion free, and gives one kept copper to street musician. No debt payment.
+- Ch267 Greg buys two small dark loaves at full price. Nerin errand is unpaid and voluntary. No debt payment.
 - No Vale/Bren connection.
 
 ## Pressure
@@ -87,26 +74,26 @@
 - Brown-coat observer unidentified. Supported questions concern theatre money handling, cart/departure logistics, delivery/front-back access.
 - Mason's Cut direction only. Bren probable name of close-haired heavy-coat spokesman with left glove; one-copper demand refused Ch218; `Next time won't be one.`
 - No robbery, ambush, cart target, organization, boss, Bren employment, violence plan, or Vale connection established.
-- Chapters 249–266 add no human-pressure evidence.
+- Chapters 249–267 add no human-pressure evidence.
 
 ## Greg / body / equipment
 - Greg: nineteen, Bronze, Carrow, permanent LEFT BKA with knee preserved; right leg intact; two crutches.
-- Current repairs ordinary/functional; Ch247 haircut current.
-- Ch266 both grips/tips fine, residual limb comfortable, right leg ordinary. No injury/equipment change.
+- Ch267 west-market walk leaves right leg worked but not painful, residual limb comfortable, hands with ordinary pressure/no hot spots. No injury/equipment change.
 
 ## Protected uncertainty
 - Weak needle-case mark, Rinna parcel, Lyssa older materials, Ch246 crate contents, Pell exact return, Vale/Bren link remain unresolved.
 - Hessa next experiment unselected.
-- Mudjaw/reedcrest report identities unconfirmed. Edrin exact title unestablished.
-- Ch266 ditchrunners probable only; salt-fish link/local ecology/current value unconfirmed.
-- Tessa exact role beyond road clerk unestablished. Gray runner, broken-board man, and bronze-cup musician unnamed. Instrument name/mechanism unestablished.
-- Hollen/Pem exact lives beyond shop contact unestablished. Colm exact life beyond scene painting unestablished.
-- Current pale work remains unidentified. Nerin exact identity beyond bakery boss unestablished. Reni move cause unconfirmed.
+- Mudjaw/reedcrest identities unconfirmed; ditchrunners probable only.
+- Edrin exact title, Tessa broader life, gray runner, bronze-cup musician/instrument remain unestablished beyond exact prose.
+- Glowwing deeper ecology unestablished.
+- Hollen/Pem and Colm broader lives unestablished.
+- Current pale work remains unidentified. Reni move cause unconfirmed.
+- Six narrow wraps purpose/material and relationship to Lyssa's pale work unestablished.
 
 ## Next
-- Follow Chapter 267 trailhead in `MANUSCRIPT_STATE.md`.
-- Let Ch266's paid report consultation stand. Do not immediately send Greg east, confirm ditchrunners, investigate fish theft, repeat Edrin's route, or bring Tessa back.
-- Let the bronze-cup musician remain ambient fantasy unless genuine causality returns her.
-- Greg has no established next-day theatre call, Hollen shift, Hessa appointment, Vale meeting, Guild consultation, animal assignment, or customer obligation. Edrin explicitly says no tomorrow.
+- Follow Chapter 268 trailhead in `MANUSCRIPT_STATE.md`.
+- Let Ch267's optional errand remain optional and singular. Do not automatically send Greg back to Nerin/Jessa, make him deliver the six wraps, or turn him into Lyssa's courier.
+- Let glowwings and heat marks remain ordinary fantasy unless genuine causality returns them.
+- Greg has no established next-day theatre call, Hollen shift, Hessa appointment, Vale meeting, Guild consultation, animal assignment, or formal customer/courier obligation.
 - Author shoves shape the horizon rather than force category rotation.
-- Do not automatically rotate through ditchrunners/Tessa, Edrin, bronze cups, Hessa/new paper, weather beads, Mara/Nerin/Reni, Hollen/Pem, Second Toast/Marek, Colm, mudjaw/reedcrest/slateback, Daro/Neli, Marra/Jessa, neighborhood cast, wash court, needle case, Rinna parcel, Vale, pressure, magic-item acquisition, or eventual leg-loss architecture merely because each remains available.
+- Do not automatically rotate through Nerin/Mara/Jessa/six wraps, glowwings, heat marks, ditchrunners/Tessa/Edrin, bronze cups, Hessa/new paper, weather beads, Hollen/Pem, Second Toast/Marek, Colm, mudjaw/reedcrest/slateback, Daro/Neli, neighborhood cast, wash court, needle case, Rinna parcel, Vale, pressure, magic-item acquisition, or eventual leg-loss architecture merely because each remains available.
