@@ -1,5 +1,5 @@
 {
-  "latest": 256,
+  "latest": 257,
   "chapters": [
     {
       "number": 156,
@@ -606,6 +606,12 @@
       "title": "THE STRANDED",
       "source": "checkpoint",
       "path": "256.html"
+    },
+    {
+      "number": 257,
+      "title": "THE PLAYER",
+      "source": "checkpoint",
+      "path": "257.html"
     }
   ]
 }
