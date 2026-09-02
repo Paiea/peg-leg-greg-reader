@@ -1,5 +1,5 @@
 {
-  "latest": 248,
+  "latest": 255,
   "chapters": [
     {
       "number": 156,
@@ -558,6 +558,48 @@
       "title": "THE CONSTANT",
       "source": "manuscript",
       "path": "248.html"
+    },
+    {
+      "number": 249,
+      "title": "THE SHOPPER",
+      "source": "checkpoint",
+      "path": "249.html"
+    },
+    {
+      "number": 250,
+      "title": "THE SUBSTITUTE",
+      "source": "checkpoint",
+      "path": "250.html"
+    },
+    {
+      "number": 251,
+      "title": "THE UNDERSTUDY",
+      "source": "checkpoint",
+      "path": "251.html"
+    },
+    {
+      "number": 252,
+      "title": "THE WASHER",
+      "source": "checkpoint",
+      "path": "252.html"
+    },
+    {
+      "number": 253,
+      "title": "THE STEWARD",
+      "source": "checkpoint",
+      "path": "253.html"
+    },
+    {
+      "number": 254,
+      "title": "THE USHER",
+      "source": "checkpoint",
+      "path": "254.html"
+    },
+    {
+      "number": 255,
+      "title": "THE NEIGHBOR",
+      "source": "checkpoint",
+      "path": "255.html"
     }
   ]
 }
