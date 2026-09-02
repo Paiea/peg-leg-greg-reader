@@ -1,5 +1,5 @@
 {
-  "latest": 292,
+  "latest": 293,
   "chapters": [
     {
       "number": 156,
@@ -822,6 +822,12 @@
       "title": "THE SHADE LINE",
       "source": "checkpoint",
       "path": "292.html"
+    },
+    {
+      "number": 293,
+      "title": "THE THIRD HAND",
+      "source": "checkpoint",
+      "path": "293.html"
     }
   ]
 }
