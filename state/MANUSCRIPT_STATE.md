@@ -1,11 +1,11 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 277 — **THE APPRAISER**.
+- Current exact story endpoint: Chapter 278 — **THE CLIENT**.
 - Book 1 Chapters 1–82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent forward manuscript path: `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249–277 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries and still requires exact-text integration into the permanent manuscript. Older Ch156–219 synchronization debt also remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249–278 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries and still requires exact-text integration into the permanent manuscript. Older Ch156–219 synchronization debt also remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500–4,000 words and clear 2,500 unless explicitly changed.
@@ -20,26 +20,27 @@
 - Eventual title-defining leg loss remains flexible long-range architecture, not a countdown. Exact cause/place/creature/trap/spell/tactical sequence/chapter remain open. No cheap random accident or forced retroactive foreshadowing. Aftermath must be substantial, with no instant adaptation, magical prosthetic fix, or immediate theatre return.
 
 ### MONEY / CAPITAL FORWARD NUDGE
-- ACTIVE and now materially awakened by Ch277.
+- ACTIVE and materially awakened by Ch277–278.
 - Greg is allowed to want meaningful capital, not merely the next wage or expense coverage.
-- Future knowledge may reveal underpriced capabilities/opportunities without supplying capital, execution, trust, infrastructure, or buyers.
-- The world must remain rational about value. Serious defects, incompleteness, danger, illiquidity, compatibility problems, and uncertainty can rationally suppress an object's price while leaving its potential capability much larger.
+- Future knowledge may reveal underpriced capabilities/opportunities without supplying capital, execution, trust, infrastructure, buyers, or certainty.
+- The world must remain rational about value. Serious defects, incompleteness, danger, illiquidity, compatibility problems, reputation, certification, and uncertainty can rationally suppress price while leaving potential capability much larger.
 - Existing valuable possessions remain economically real but are not automatically liquid or expendable.
 - Do not hand Greg wealth. Let capital desire change questions, choices, and behavior gradually.
+- Ch278 adds a second durable layer: Greg now sees that appraisal and brokerage can monetize judgment, reputation, risk, and matching, not only clocked labor. Do not turn this into instant entrepreneurship or modern-business exposition.
 
 ## Greg / body / equipment
 - Greg is nineteen, Bronze, in Carrow. Permanent LEFT BKA, knee preserved; right leg intact; uses two crutches.
 - LEFT tip replaced Ch223; RIGHT grip retensioned Ch242; LEFT grip fine. Ch247 haircut current.
 - Ch269 Savin repairs Greg's only right shoe outer-heel separation with pitch mix and three flush nails. No gait correction. Cause of outer-heel wear unestablished.
-- Ch277 body ordinary; repaired shoe quiet/holding. No injury/equipment change.
+- Ch278 body ordinary; Blue Steps are six broad dry steps with a right-side rail and are manageable. Repaired shoe quiet/holding. No injury/equipment change.
 
 ## Greg / Lyssa / household
 - Lyssa remains independent and is not Greg's analyst/project manager.
 - Long-standing brown cloth and older unidentified materials remain protected/unexplained.
 - Ch273 collar facing identified narrowly; six wraps explicitly separate/unexplained.
 - Ch269 small paper packet, Ch270 wrapped bundle, Ch274 narrow paper parcel remain unconnected/protected.
-- Ch277 Lyssa carries lamp oil home with Greg, later goes back out with her work bag. Narrow parcel does not appear and remains unexplained.
-- Lyssa hears Greg's capital desire without managing it. She warns against buying the clasp now and tells him to ask cost before consulting Jori.
+- Ch278 Lyssa goes about her own work; later returns with a folded cloth bundle and small paper bag containing pepper-smelling cheese from work. Bundle contents remain unestablished. Greg does not interrogate her work.
+- Lyssa reinforces practical discipline around Greg's clasp interest: fee first, no buying now, no assumption that conditional value means safe value.
 
 ## Recent durable residue
 - Ch249–264 exact checkpoint prose remains authoritative. See exact files.
@@ -55,61 +56,67 @@
 - Ch274 **THE READER**: one-off south-market scale-reading cover; Deni/Toma; magical seal plate; no standing market job.
 - Ch275 **THE SCRAPER**: household whitewall/rimeweb event; Greg's old-life safety knowledge works cleanly; Mella owns local treatment/follow-up.
 - Ch276 **THE MASK**: one-house Masked Guest replacement; enchanted stage mask/lamp infrastructure owned by Sivi; Greg learns not to overplay prop; no standing role.
+- Ch277 **THE APPRAISER**: Greg discovers Kes's defective old boundary clasp, pays one copper to read Jori's written appraisal, explicitly wants the clasp, and begins thinking about capital beyond wages.
 
-### Chapter 277 — THE APPRAISER
-- Greg and Lyssa go to west market for ordinary lamp oil; Greg also buys fried onions. This is not initially an acquisition trip.
-- Greg notices an ugly brass magical object in a locked cabinet at a secondhand/estate-goods shop marked by a painted black key.
-- **Kes** named: narrow older/gray man with striking dark eyebrows; runs/owns enough of the shop to transact. Broader ownership/life unestablished.
-- Object is called a **latch ring** by Kes and an **old-pattern boundary clasp** in an appraisal. Brass loop about palm-width, black iron activation pin, six small square inner notches, one visibly cracked inner seat, no matched collar, no maker mark.
-- Price is in **gold**, genuinely beyond Greg's present casual means. Exact amount is stated in exact prose dialogue but should not be converted into copper/silver because no conversion rate exists.
-- Market is not stupid about the object. Kes says it began at a higher price and has sat about seven months. He now wants shelf space and roughly his money back.
-- Rational reasons for depressed value: matched collar absent; biting/uncontrolled closure fault; cracked inner seat; old pattern; unknown maker; uncertain modern collar compatibility; uncertain repair feasibility; no guarantee it holds after repair; appraiser declined a second activation because closure snapped too fast after release.
-- Handling danger observed historically, not by Greg: Kes has a curved scar at base of left thumb from the clasp closing on him after paired contact between iron pin and inner brass. Greg does not touch or activate it.
-- Greg recognizes a close old-life technology analogue called a **compression clasp**. In his memory, fitted versions reinforced prepared container seams via a small spatial/boundary fold. Uses could include strong sealing against crossing of air/water and sometimes other things, but those broader old-life capabilities are NOT claims about this exact clasp.
-- Current appraisal supports only probable intended use as fitted closure on prepared vessel/case. It certifies no pressure, heat, mana, scent, preservation, or storage performance.
-- Greg remembers later old-life versions using a **ceramic isolation sleeve** around a trigger pin to reduce accidental paired-contact activation. This is a possible handling mitigation only, not a repair claim. It would not fix the cracked seat, supply a collar, prove compatibility, or stabilize the fold.
-- Greg explicitly distinguishes `manageable bite` from `fixed object`. He knows multiple unresolved requirements would remain even if the sleeve memory applies.
-- **Jori** named only through Kes/appraisal as an appraiser at **Blue Steps**, reportedly still working there as of last month. Broader identity/title/life unestablished.
-- Greg pays **one copper** to read Jori's appraisal in Kes's shop. He receives no copy.
-- Appraisal: old-pattern boundary clasp, incomplete; brass body/iron activation pin/internal inclusions unverified; maker unknown; collar absent; observed closure activation under paired contact; uncontrolled closure toward nearest contacted edge; second activation not performed due handling risk; crack at one inner seat; no certified broader capability; value strongly depends on collar/repair/safe activation.
-- Appraisal does NOT call object cursed. Kes uses `bites` because customers understand it. Do not retroactively establish a curse.
-- Kes requires gold payment and refuses silver counting burden. Greg asks whether Kes would take less but explicitly does not buy/negotiate to completion.
-- Greg asks Kes to tell him if it sells; Kes refuses and says Greg can come look if he cares, but not daily. No hold, option, reservation, deposit, promise, or ownership interest exists.
-- Lyssa directly asks if Greg wants it. Greg says yes. This is the first clear capital-scale desire.
-- Greg does NOT sell existing valuables, borrow, ask Edrin/Rinna/Hollen for money/work, contact Vale, visit Jori immediately, involve Hessa, or test magic.
-- At home Greg writes an arithmetic/thinking page listing existing income categories and recognizes that nearly all current routes pay for his presence/time. He begins asking how knowledge can create value beyond selling an hour without jumping to a business plan.
-- Three durable self-notes: do not buy biting brass because excited; learn what it actually is; learn what money can do besides wait.
-- Greg says he will probably seek Jori/Blue Steps to learn, not to buy, but not automatically tomorrow. Consultation cost unknown and Lyssa tells him to ask price first.
-- Chapter ends with the clasp unchanged in Kes's cabinet but Greg's economic question widened: he wants enough money to choose something difficult before necessity chooses for him.
+### Chapter 278 — THE CLIENT
+- Greg chooses to visit **Jori at Blue Steps** for information, not to buy Kes's clasp. He does not stop at Kes's shop first or after consultation.
+- Blue Steps is literally six broad blue-gray stone steps leading to a row of businesses above a drainage channel. Jori's door card reads `JORI VENN / APPRAISALS / ESTATE INVENTORY / DISPUTED GOODS / ASK FEE BEFORE WORK`.
+- Jori is established directly: woman around fifty or older by Greg's impression, deep brown skin, short silver hair, square spectacles on a cord, dark green shirt with one sleeve rolled. Exact broader background remains unestablished.
+- Greg follows Lyssa's instruction and asks fee before work. Jori charges **two copper for a quarter bell consultation**, paid in advance. This is consultation only; Greg does not own the clasp and is not authorized to bring it.
+- Jori independently preserves the evidence ceiling. She explicitly says her appraisal does NOT establish boundary fold, air seal, prepared collar type, or identity with Greg's old-life `compression clasp` analogue.
+- Greg describes his old-life knowledge narrowly: he saw compression/boundary clasps used but did not make, repair, install, or buy them. He stood near competent users and retains partial pattern knowledge.
+- Greg's memory that six engagement points distributed a fold remains only a useful pattern/question. Jori demonstrates why six points alone prove little by showing a nonmagical cooper's alignment guide with six pegs.
+- Ceramic isolation-sleeve memory receives **conditional plausibility only**. Jori says an insulating sleeve might reduce accidental activation if direct conductive bridging is the mechanism, but might do nothing or interfere if the pin/collar/internal inclusions work differently. She explicitly calls it a `testable safety possibility`, not a repair.
+- Jori says the **cracked inner seat bothers her more than the bite** because the bite is observed while crack behavior under load is unknown. Possible uneven force/cosmetic/no-load possibilities remain open.
+- Jori adds exact prior appraisal detail: during her one activation, the clasp closed on a wood block and dented its edge. She separated contacts with an insulated hook; after the hook cleared, the loop closed again on the block instead of remaining neutral. This supports only one observed uncontrolled reclosure, not a generalized `seeking` rule.
+- Jori would **not** buy the clasp at Kes's current price, half, or similar speculative levels for restoration. At about one tenth she might consider it for parts only. This materially resists Greg's enthusiasm.
+- Jori says recoverable old boundary components/inclusions could have parts value and she knows two buyers for old boundary components, but she does not identify them or recruit Greg.
+- Jori also says if the clasp were actually made safe, matched with a correct prepared collar, and certified for useful vessel sealing, Kes's current price would be very low relative to complete modern boundary closure. This is conditional market logic, not proof restoration is feasible.
+- Complete modern boundary systems are gold-scale and can cost much more than Kes's clasp depending on size/certification/material/maker/use. No exact price or currency conversion is established.
+- Jori gives rational buyer logic: users who need function buy complete systems because failure cost matters; collectors may like famous/named/beautiful dangerous objects, while Kes's clasp is anonymous, ugly, incomplete dangerous.
+- Jori says a collar can physically be made, but whether the correct **prepared** collar for this clasp can be made is a different question involving boundary geometry/material and sometimes inclusions. She does not design collars.
+- Jori refuses to refer Greg to Carrow boundary workers merely for curiosity. She says ownership/job/client/reason would create a different basis. No introduction is given.
+- When Greg asks about earning beyond hourly labor, Jori distinguishes fee value from time alone: clients pay for judgment built over years and for reputation/risk behind a signed opinion. She sometimes brokers sales for separate flat/percentage fees.
+- Jori says finders are paid only when agreed **before** they do work. She explicitly does **not** hire Greg to collect magical objects and warns against wandering around demanding commission. If she ever asks him to look for something, fee would be discussed first. No standing finder/broker role exists.
+- Greg recognizes that Carrow already has appraisal/brokerage. His insight is not `invent brokerage`; it is that value can attach to judgment, risk, trust, and matching.
+- Jori gives no apprenticeship, mentorship invitation, standing consultation route, boundary-worker introduction, or promise to help acquire clasp.
+- After consultation Greg deliberately does not visit Kes even though the shop is nearby. He wants the clasp more specifically, not more confidently.
+- Nerin's bakery appears only as ordinary life. Greg buys one dark loaf. Nerin and a flour delivery man have their own three-sacks-now/three-first-bell-tomorrow dispute. Nerin asks whether Greg needs work only because Mara says he looks hungry for work; there is no actual job, and Greg does not manufacture one.
+- At home Greg adds `REPUTATION / RISK / MATCHING` to his capital thinking, then crosses out reputation because he does not possess Jori's. He recognizes there is no vocabulary shortcut to capital.
+- Lyssa hears the consultation result and keeps `might` as `might`. She does not fund/manage the pursuit.
+- Greg counts his money privately. He does not buy, borrow, sell important possessions, contact Kes again, seek Vale financing, ask Rinna/Hollen/Edrin for work, activate clasp, or use mana.
+- Chapter ends with Greg having spent two copper to learn why he might be wrong. He frames it as his first purchase for a future beyond immediate survival, but has no next-day appointment or new income route.
 - No Greg mana use, Hessa contact, theatre call, Hollen shift, Edrin consultation, Vale contact, debt payment, Green Coat/Senn contact, pressure evidence, animal assignment, or injury.
 
 ## Magical ecology / ordinary magical world
 - Existing bounded ecology/infrastructure remains unchanged unless exact recent prose says otherwise.
-- Ch277 adds a potentially powerful but defective old magical boundary-clasp technology through ordinary resale/appraisal infrastructure.
-- Do not generalize exact clasp capability from Greg's old-life analogue. Exact mechanism, internal inclusions, original maker, matched collar design, repairability, safe activation, compatibility, actual seal strength, and broader capabilities remain unestablished.
+- Ch277–278 add old magical boundary hardware through normal resale/appraisal institutions, not a quest shop.
+- Exact clasp mechanism, internal inclusions, original maker, matched collar design, repairability, safe activation, compatibility, actual seal strength, and broader capabilities remain unestablished.
+- Jori's consultation strengthens the evidence ceiling rather than the capability claim.
 
 ## Magic continuity
 - Totals remain **36 supervised minimal draws / 32 supervised deliberate shaping attempts / 66 supervised external-effect attempts**.
-- No Greg mana use Ch272–277.
+- No Greg mana use Ch272–278.
 - Ch271 evidence ceiling unchanged: near 1/3, middle 0/2, far untested.
 - Existing outside-session restrictions remain fully in force. Looking at, researching, or potentially buying a pre-existing magical object does NOT grant permission to activate/test it independently.
 - Hessa next experiment/appointment unselected.
 
 ## Theatre / work
-- Ch276 one-house replacement stands. No theatre contact Ch277.
+- Ch276 one-house replacement stands. No theatre contact Ch277–278.
 - Greg remains no permanent caller/stage manager/Uncle/Masked Guest/utility worker.
+- Ch278 creates no Jori job, brokerage job, bakery job, or standing appraisal role.
 
 ## Economy / Vale debt
 - Currency: copper / silver / gold. No conversion rate established.
 - Antonius Vale debt active/unresolved. Original terms remain 35% interest, 8 days, labor through Antonius on default; original principal unknown. Exact current balance exists in-world and Greg knows it but narration does not state it.
-- Ch277 Greg spends one copper to read Jori's appraisal and ordinary small spending on food/lamp oil occurs without exact accounting expansion.
-- No debt payment/Vale contact. No Vale/Bren connection.
-- Money/capital engine is now active in-character. Do not collapse it back to only wage accumulation, but also do not jump immediately to wealth/business empire.
+- Ch278 Greg spends two copper on Jori consultation plus ordinary bread purchase. No debt payment/Vale contact.
+- No Vale/Bren connection.
+- Money/capital engine remains active, but current concrete progress is **better questions and market understanding**, not increased wealth.
 
 ## Pressure / evidence ceiling
 - Older grounded brown-coat/Mason's Cut/Bren evidence ceiling through Ch236 unchanged.
 - Ch273 Green Coat remains separate civic-dispute pressure fact only.
-- Ch274–277 add no new pressure evidence.
+- Ch274–278 add no new pressure evidence.
 
 ## Protected uncertainties / do not auto-resolve
 - Weak needle-case mark; Rinna parcel; Lyssa older materials/packets/bundles; long-standing brown cloth; Ch246 crate contents.
@@ -120,30 +127,31 @@
 - Green Coat identity/motive/side/employer/recurrence and cart/post fault.
 - Whitewall exact cause/identity/mechanism/lifecycle.
 - Pavin absence reason; Sivi broader life.
-- Boundary clasp: exact mechanism/internal inclusions/maker/age/original owner; whether old-life compression-clasp memory maps correctly; ceramic sleeve applicability; crack severity/repairability; matched collar design/availability; actual working capabilities; safe activation; whether Jori will speak to Greg; Jori consultation price; whether object will remain unsold; Kes broader ownership/business; exact future price flexibility.
+- Boundary clasp: exact mechanism/internal inclusions/maker/age/original owner; whether old-life compression-clasp memory maps correctly; ceramic sleeve applicability; crack severity/repairability; matched collar design/availability; actual working capabilities; safe activation; whether object will remain unsold; Kes broader ownership/business; exact future price flexibility.
+- Jori broader history/business network; identity of boundary workers/parts buyers; whether she will ever hire Greg as finder; whether a suitable ownership/client basis ever exists.
 
-## Chapter 278 trailhead
+## Chapter 279 trailhead
 Follow the next actual claim from current authority.
 
-Chapter 277 wakes the money/capital engine with a specific credible desire. Greg wants Kes's defective old boundary clasp, but he has not bought it, reserved it, deposited on it, borrowed for it, or proved that his old-life memory applies. The object is rationally discounted because it is incomplete, dangerous, cracked, old-pattern, uncertain to repair, and useless to ordinary buyers who can afford complete boundary work. Preserve that market logic.
+Chapter 278 does the necessary independent expertise pass. Jori does not validate Greg's restoration dream. She narrows it. Ceramic isolation remains a plausible handling question only. The cracked seat may matter more than the bite. Correct collar work is specialized. Jori would not buy the clasp at Kes's current price for restoration, though she confirms that a fully safe/matched/certified boundary closure would be worth much more. Preserve that tension.
 
-Do not let desire become evidence. The current appraisal is deliberately narrow. Greg's ceramic isolation-sleeve memory is a possible handling mitigation, not a fix. He still needs to learn whether the object is what he thinks it is, whether the crack matters, whether a collar can exist, and whether safe use is realistic.
+Do not immediately send Greg back to Kes merely to check whether the clasp remains. Kes gave no hold and Greg deliberately did not visit after Jori. Do not make the object conveniently sell or conveniently wait just to manufacture pressure.
 
-Jori at Blue Steps is a natural information route, not a mandatory immediate Chapter 278 appointment. Greg said `probably`, not tomorrow. If he does seek Jori, ask price first and keep appraisal expertise independent. Do not make Jori instantly validate every old-life inference or become Greg's magical-item mentor.
+Do not promote Jori into mentor. She charged for one consultation, extended it briefly because she became curious, refused a boundary-worker introduction, and gave no next appointment. Her comments about brokerage/finders describe an existing profession, not a job offer. If future work with Jori occurs, fee/scope should be explicit and independently motivated.
 
-The bigger durable change is Greg's question: nearly all his current income sells his time. He is beginning to ask how knowledge, matching, trade, shares, production, brokerage, or other value creation might build capital. Let this develop through actual opportunities and relationships rather than a modern-business lecture or instant startup.
+The capital engine should now broaden through lived opportunities. Greg has learned that time is not the only thing inside a fee, but reputation, risk, matching, clients, ownership, and trust cannot be invented overnight. Let him encounter actual chances to create value, make small mistakes, negotiate, or decline bad deals. Do not jump straight to a business empire or convert every social contact into a lead.
 
-Do not automatically sell Greg's existing valuables or make Lyssa fund him. Do not use Vale debt as a convenient financing mechanism. Do not have Hessa authorize magical-item experimentation by implication. Existing mana restrictions remain unchanged.
+Ordinary wages still matter. Food, debt, household, repairs, and work remain real. Capital desire should collide with them, not erase them.
 
-Magic continuity remains 36 / 32 / 66, Ch271 near 1/3, middle 0/2, far untested. Hessa has not summoned Greg again.
+Magic continuity remains 36 / 32 / 66, Ch271 near 1/3, middle 0/2, far untested, restrictions unchanged. Hessa has not summoned Greg again.
 
-At chapter end Greg is home, uninjured, repaired shoe holding, household stable, clasp still at Kes's shop, and has no guaranteed Jori appointment, clasp hold, Hessa appointment, theatre call, Hollen shift, Vale meeting, Guild consultation, animal assignment, Savin appointment, Orin watch, market-scale job, civic hearing, Green Coat encounter, or Lyssa-network obligation.
+At chapter end Greg is home, uninjured, repaired shoe holding, household stable, clasp still unowned with status unknown, and has no guaranteed Jori appointment, clasp hold, Hessa appointment, theatre call, Hollen shift, Vale meeting, Guild consultation, animal assignment, Savin appointment, Orin watch, market-scale job, civic hearing, Green Coat encounter, brokerage assignment, bakery job, or Lyssa-network obligation.
 
-Let the capital question breathe. Household, paid work, city/social life, theatre if genuinely summoned, pressure if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft, appraisal/research if genuinely chosen, a real value-creation opportunity, or another ordinary fantasy-world claim can take Chapter 278.
+Let the capital question breathe through actual life. Household, paid work, city/social life, theatre if genuinely summoned, pressure if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft, a real value-creation opportunity, or another ordinary fantasy-world claim can take Chapter 279.
 
 Do not automatically rotate through Jori/Blue Steps, Kes/boundary clasp, mask/Sivi/Pavin, whitewall/Mella, scale checks, Pera/Orin, Vela, Green Coat/Senn, copperbacks/Savin, collar facing/six wraps, Hessa/distance, caller/Demi/Lenn, bellthroats, Nerin/Mara/Jessa, glowwings, ditchrunners/Edrin, Hollen/Pem, Vale, older pressure, or eventual leg-loss architecture merely because each remains available.
 
-Write ONE complete Chapter 278, target 2,500–4,000 words and clear 2,500, Greg POV, zero em dashes. Validate it, update durable exact prose/state, and leave the Chapter 279 trailhead from what actually happened.
+Write ONE complete Chapter 279, target 2,500–4,000 words and clear 2,500, Greg POV, zero em dashes. Validate it, update durable exact prose/state, and leave the Chapter 280 trailhead from what actually happened.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
