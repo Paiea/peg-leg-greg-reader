@@ -12,6 +12,7 @@ from reader_sections import render_book_sections
 
 RUNNING = Path('state/manuscript/Peg_Leg_Greg_Running_Manuscript.md')
 RECOVERED = Path('state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md')
+CHECKPOINT_GLOB = 'Peg_Leg_Greg_Chapter_*_EXACT_WIP.md'
 CHAPTERS_DIR = Path('chapters')
 LIGHT_DIR = Path('light')
 MANIFEST = LIGHT_DIR / 'manifest.json'
@@ -95,7 +96,13 @@ def load_all_sources() -> dict[int, Chapter]:
             if chapter and chapter.number <= 155:
                 chapters[chapter.number] = chapter
     chapters.update(parse_markdown_chapters(RECOVERED, 'recovered'))
-    chapters.update(parse_markdown_chapters(RUNNING, 'manuscript'))
+
+    running = parse_markdown_chapters(RUNNING, 'manuscript')
+    chapters.update(running)
+    running_edge = max(running, default=0)
+    for path in sorted(RUNNING.parent.glob(CHECKPOINT_GLOB)):
+        checkpoint = parse_markdown_chapters(path, 'checkpoint')
+        chapters.update({n: chapter for n, chapter in checkpoint.items() if n > running_edge})
     return chapters
 
 
@@ -185,7 +192,7 @@ def render_latest(chapter: Chapter, generated: set[int]) -> str:
 
 def selected_numbers(spec: str, all_chapters: dict[int, Chapter]) -> list[int]:
     if spec == 'current':
-        return sorted(n for n in all_chapters if n >= 220 and all_chapters[n].source == 'manuscript')
+        return sorted(n for n in all_chapters if n >= 220 and all_chapters[n].source in {'manuscript', 'checkpoint'})
     m = re.fullmatch(r'(\d+)-(\d+)', spec)
     if not m:
         raise SystemExit('range must be current or N-N')
