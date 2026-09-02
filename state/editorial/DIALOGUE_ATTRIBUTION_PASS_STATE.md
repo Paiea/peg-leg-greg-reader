@@ -69,30 +69,35 @@ Exact manuscript prose outranks this state file and every voice guide.
 
 ## Durable output pattern
 
-Save dialogue-pass prose as clearly labeled editorial WIP on this branch until integration is deliberately accepted.
-
-Use contiguous, reviewable ranges under:
+Store review results under:
 
 `state/editorial/dialogue-pass/`
 
-Do not claim a chapter is covered until the edited prose is durably written and re-read from GitHub.
+Use exact replacement patches when a chapter needs only attribution/voice surgery. A reviewed chapter that genuinely needs no change may be recorded as **REVIEWED — NO CHANGE REQUIRED** rather than duplicated wholesale merely to manufacture an edit.
+
+This pass remains editorial WIP until accepted/integrated into manuscript authority.
+
+Do not claim a chapter is covered until its exact source was reviewed and the batch result was durably written and fetched back from GitHub.
 
 ## Coverage ledger
 
 - Chapters 1–301: **NOT YET COMPLETE**
-- Verified completed range: **none yet**
-- Current source edge: **Chapter 1**
+- Verified reviewed range: **Chapters 1–4**
+- No-change chapters in reviewed range: **1, 4**
+- Chapters with hard attribution fixes recorded: **2, 3**
+- Durable batch: `state/editorial/dialogue-pass/BATCH_001_004.md`
+- Current source edge: **Chapter 5**
 
 ## Completion definition for one chapter
 
-A chapter counts as complete only after:
+A chapter counts as reviewed only after:
 1. exact source prose and necessary neighboring context were read;
 2. substantial recurring speakers were checked against relevant voice authority when needed;
-3. attribution/voice edits were performed without structural rewriting;
-4. edited prose was re-read for speaker clarity and cadence;
+3. attribution/voice changes were identified without structural rewriting, or a deliberate no-change verdict was reached;
+4. the dialogue was re-read for speaker clarity and cadence;
 5. canon-sensitive details were preserved;
-6. no em dashes were introduced;
-7. the edited chapter was durably saved on this branch and fetched back to verify persistence.
+6. no em dashes were introduced in proposed replacement prose;
+7. the exact patch or no-change verdict was durably saved on this branch and fetched back to verify persistence.
 
 ## Restart prompt
 
