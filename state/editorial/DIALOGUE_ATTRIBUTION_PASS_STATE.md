@@ -72,19 +72,20 @@ Use exact replacement patches when a chapter needs only attribution/voice surger
 
 This pass remains editorial WIP until integrated into manuscript/reader authority. The user has explicitly approved shipping accepted dialogue/attribution improvements to the illustrated reader as they are integrated; do not hold improved reader prose for completion of all 301 chapters. Structural compression remains separately parked.
 
-Current live-integration lane: `integration/dialogue-attribution-live-001-080` / PR #45 is responsible for applying the accepted Book I patches through Chapter 80 to the illustrated reader and promoting the resulting prose into canonical Book I authority without merging structural-compression experiments.
+Current live-integration lane: `integration/dialogue-attribution-live-001-080` / PR #45 is responsible for applying the accepted Book I patches through Chapter 80 to the illustrated reader and promoting the resulting prose into canonical Book I authority without merging structural-compression experiments. Chapters 81-82 are now reviewed on this branch and should join the next Book I live-integration increment after the already-scoped 1-80 work.
 
 Do not claim a chapter is covered until its exact source was reviewed and the batch result was durably written and fetched back from GitHub.
 
 ## Coverage ledger
 
 - Chapters 1-301: **NOT YET COMPLETE**
-- Verified reviewed range: **Chapters 1-80**
+- Verified reviewed range: **Chapters 1-82**
+- Book I dialogue + attribution review: **COMPLETE THROUGH CHAPTER 82 - THE RECONCILER**
 - No-change chapters in reviewed range: **1, 4, 5, 6, 7, 11, 12, 13, 14, 18, 19, 28, 38**
 - Chapters with hard attribution fixes recorded: **2, 3**
-- Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80**
-- Latest durable batch: `state/editorial/dialogue-pass/BATCH_074_080.md`
-- Current source edge: **Chapter 81**
+- Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82**
+- Latest durable batch: `state/editorial/dialogue-pass/BATCH_081_082.md`
+- Current source edge: **Chapter 83**
 
 All earlier durable batch files remain under `state/editorial/dialogue-pass/` and are authoritative for this editorial pass only.
 
@@ -96,7 +97,7 @@ A chapter counts as reviewed only after exact source prose and necessary neighbo
 
 - Greg: expands problems, negotiates definitions, jokes while reasoning, and keeps reaching for a larger system.
 - Rusk: operationally economical; answers the job question and stops.
-- Antonius: practical finance/operations; often refuses Greg's grand framing and cares what pays, what is owned, and what must be true for repayment.
+- Antonius: practical finance/operations; often refuses Greg's grand framing, prices arrangement cost, distinguishes what Greg may choose from what Vale is willing to purchase, and cares what pays, what is owned, and what must be true for repayment.
 - Arlo: workshop/mechanism/time/measurement; precision comes from the bench rather than generic evidence doctrine.
 - Hessa: controlled procedural instruction tied to body, safety, and repeatability.
 - Jorren: peer-level physical truth and ordinary care; sees stance, rhythm, fatigue, and what a fighter is actually doing without turning help into a solemn identity.
@@ -140,10 +141,11 @@ Shared dryness is allowed. Do not force distinct catchphrases where domain and c
 - Hazardous multi-person work with short commands needs heavier attribution because the reader must know who owns each physical system and decision.
 - Stable two-person relationship scenes can remain light once rhythm is established; re-tag after interiority, movement, third-speaker entry, or a subject pivot.
 - Chapters 74-80 strengthen the larger voice rule: **professional differentiation is often more valuable than bespoke diction**. Concise competent people can share Carrow language while remaining distinct because they decide different kinds of things. Lerris fits structure, Edrin controls evidence, Sera Dain controls clinical progression, Hessa controls repeatable safety procedure, Holl controls commercial sorting decisions, Merra controls record support, Pessa controls embodied field/training judgment, Rima controls customer fit, and Tam controls use-first craft judgment.
+- Chapters 81-82 sharpen the attribution rhythm for long technical two-person scenes: let established alternating dialogue breathe, then re-tag at phase changes, after substantial interior/expository beats, and when a reviewer or authority re-enters. In domestic/social rooms with three or more active people, names at speaker handoffs are worth more than additional voice ornament.
 
 ## Continuity/name cautions surfaced by dialogue pass
 
-- Book I reader pages may still render **Pell** where canonical name-map authority says **Arlo**. Live integration must use Arlo throughout the accepted Book I range.
+- Book I reader pages may still render **Pell** where canonical name-map authority says **Arlo**. Live integration must use Arlo throughout the accepted Book I range. Chapters 81 and 82 each contain a stale Pell reference and are explicitly patched in `BATCH_081_082.md`.
 - Chapter 31 stoneworker **Rinna**: verify against later theatre Rinna before sharing voice authority.
 - Chapter 35 early **Nessa**: verify against later theatre Nessa before back-propagating occupational traits.
 - Chapter 39 Berren's aunt **Vessa** versus workshop Vessa: do not resolve from shared name alone.
