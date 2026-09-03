@@ -1,6 +1,7 @@
 name: Publish dialogue attribution pass
 
-# Integration v4: strict patches, safe dialogue-turn fallback, and reviewed overrides.
+# Integration v5: publish accepted dialogue/attribution work through Chapter 99
+# while preserving the Book I / Book II canonical-source boundary.
 on:
   pull_request:
     paths:
@@ -23,7 +24,7 @@ permissions:
   contents: write
 
 jobs:
-  integrate-book1-dialogue:
+  integrate-dialogue-through-99:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -34,17 +35,19 @@ jobs:
           python-version: '3.12'
       - name: Fetch durable editorial patch authority
         run: git fetch origin editor/voice-compression-pass:refs/remotes/origin/editor/voice-compression-pass
-      - name: Install Book 1 source-sync dependency
+      - name: Install manuscript source-sync dependency
         run: pip install python-docx
-      - name: Apply approved Chapter 1-80 reader changes
-        run: python scripts/dialogue_live_entrypoint.py --patch-ref origin/editor/voice-compression-pass --min-chapter 6 --max-chapter 80 --canonicalize-from 1
-      - name: Promote resulting reader prose into canonical Book 1
-        run: python scripts/promote_book1_polish.py '1-80'
+      - name: Apply approved Chapter 1-99 reader changes
+        run: python scripts/dialogue_live_entrypoint.py --patch-ref origin/editor/voice-compression-pass --min-chapter 6 --max-chapter 99 --canonicalize-from 1
+      - name: Promote Book I reader prose through Chapter 82
+        run: python scripts/promote_book1_polish.py '1-82'
+      - name: Promote Book II reader prose through Chapter 99
+        run: python scripts/promote_book1_polish.py '83-99' --docx state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx
       - name: Validate integration boundary
         run: |
           python -m unittest discover -s tests -v
           git diff --check
-          bad="$(git diff --name-only | grep -Ev '^(chapters/[0-9]{3}\.html|state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map\.docx)$' || true)"
+          bad="$(git diff --name-only | grep -Ev '^(chapters/[0-9]{3}\.html|state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map\.docx|state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137\.docx)$' || true)"
           if [ -n "$bad" ]; then
             echo "Unexpected files changed:"
             echo "$bad"
@@ -53,24 +56,24 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           import re
-          for n in range(1, 81):
+          for n in range(1, 100):
               text = Path(f'chapters/{n:03d}.html').read_text(encoding='utf-8')
               m = re.search(r'<article\s+class="prose"[^>]*>(.*?)</article>', text, re.S | re.I)
               if not m:
                   raise SystemExit(f'missing prose article in chapter {n}')
               if '—' in re.sub(r'<[^>]+>', '', m.group(1)):
                   raise SystemExit(f'em dash in chapter {n} prose')
-          print('Book 1 dialogue integration validation passed through Chapter 80')
+          print('Dialogue integration validation passed through Chapter 99')
           PY
-      - name: Commit published reader and canonical source
+      - name: Commit published reader and canonical sources
         if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
         run: |
-          if git diff --quiet -- chapters state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx; then
-            echo 'Dialogue attribution reader prose already published.'
+          if git diff --quiet -- chapters state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx; then
+            echo 'Dialogue attribution reader prose already published through Chapter 99.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add chapters state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx
-          git commit -m 'editorial: publish dialogue attribution pass through chapter 80'
+          git add chapters state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx
+          git commit -m 'editorial: publish dialogue attribution pass through chapter 99'
           git push
