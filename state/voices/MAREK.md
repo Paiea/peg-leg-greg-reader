@@ -8,7 +8,7 @@ Marek is a performer with social momentum. He notices what is funny, what can be
 
 He is not Greg with louder jokes.
 
-Chapters 146-151 add an important professional layer: Marek's looseness is not the opposite of competence. He has enough touring history to understand scene shape, emergency substitution, audience energy, and the ugly practical fact that sometimes the work is simply doing the show with what exists.
+Chapters 146-155 add an important professional and social layer: Marek's looseness is not the opposite of competence. He has enough touring history to understand scene shape, emergency substitution, audience energy, and the ugly practical fact that sometimes the work is simply doing the show with what exists.
 
 ## Spoken rhythm
 
@@ -58,13 +58,33 @@ Examples:
 
 A recovery being funny does not mean every accident should become Marek's comedy opportunity.
 
+## Social pressure and refusal
+
+Chapter 153 adds an important limit to Marek's social momentum.
+
+He is willing to recruit, tease, drag the room toward drinking, dancing, cards, or whatever is currently alive. He may push once because pushing is part of his social style.
+
+But an explicit refusal is a boundary, not a new game.
+
+When he tries to pull Greg into dancing, Greg finally gives him a direct `No.` Marek releases him immediately and answers `Fine.` Then he redirects the energy by dancing badly beside Greg instead.
+
+Preserve that distinction:
+- invitation can become pressure;
+- pressure does not become coercion;
+- clear refusal ends the physical push;
+- Marek can keep the social energy without punishing the person who declined.
+
+He can also recognize when teasing would cross into a relationship/private subject. When Greg refers to an absent woman as `Not here`, Marek understands that Greg means Lyssa and gives only `Oh.` He does not demand details or turn her into tavern material.
+
 ## Disagreement / refusal
 
 Marek can argue reflexively, but he responds well to concrete domain-shaped correction when the person has earned authority there.
 
 He does not need a long debate every time Nessa says stop, Serra corrects a partner beat, or Teren says the scene must move.
 
-He can also refuse Greg access to information that is not Greg's. Chapter 147's `Not yours.` about Serra's private interaction is a useful peer boundary. Marek may know something socially without turning it into gossip because Greg asked.
+He can refuse Greg access to information that is not Greg's. Chapter 147's `Not yours.` about Serra's private interaction is a useful peer boundary. Marek may know something socially without turning it into gossip because Greg asked.
+
+Chapter 154 adds the reverse case: Marek can challenge an outsider's intrusive or interview-like attention without pretending he knows the outsider's history. He asks whether Lucan Drell is hiring Greg because that is the visible social shape. Once the actual history remains unknown, Marek does not manufacture an explanation.
 
 ## Information behavior
 
@@ -72,7 +92,9 @@ He may know current theatre changes better than paper because he was in the rehe
 
 He can create information by touching the object, trying the route, or making the scene move. That result may be useful or annoying.
 
-Chapters 146-151 also establish that Marek has old history with the eastern hall and Coln. Exact prose does not yet explain enough to reduce that history to one clean summary. Preserve the partial visibility rather than making Marek deliver exposition.
+Chapters 146-155 establish that Marek has old history with the eastern hall and Coln, but exact prose does not explain enough to reduce that history to one clean summary. Preserve the partial visibility rather than making Marek deliver exposition.
+
+His social perception is not omniscience. In Chapter 154 he can recognize that Teren recognizes Drell without therefore knowing Drell himself. `I recognized Teren recognizing the name` is the correct scale.
 
 ## With Greg
 
@@ -84,7 +106,8 @@ They can:
 - steal food;
 - compare audience results;
 - share performance context;
-- recognize when the other has stepped on a private subject and move on.
+- recognize when the other has stepped on a private subject and move on;
+- invite or push each other toward social life while respecting a clear stop.
 
 Marek sometimes cares more about whether something plays than whether Greg has categorized it correctly.
 
@@ -99,10 +122,14 @@ He can also provide ordinary care without changing register. Chapter 150 notices
 - **CANON LINE:** `That's the work.`
 - **CANON LINE:** `Who wants what. Who enters. Who leaves. Which line somebody actually needs.`
 - **CANON LINE:** `I have been betrayed.` after the chair collapses during the paid show.
+- **CANON LINE:** `Fine.` after Greg gives an explicit no to being pulled into dancing.
+- **CANON LINE:** `I recognized Teren recognizing the name.` about Drell.
 - **CANON PATTERN:** concrete correction such as Nessa's `Royal stillness` can make him immediately become still.
 - **CANON PATTERN:** object meddling sometimes creates downstream work and sometimes discovers useful route information.
 - **CANON PATTERN:** live mistakes can become material when the recovery keeps the scene moving.
 - **CANON PATTERN:** practical theatre knowledge can be stated plainly and then left alone rather than converted into mentor wisdom.
+- **CANON PATTERN:** strong social momentum stops at an explicit refusal and redirects rather than escalating.
+- **CANON PATTERN:** recognizes a private romantic referent and can decline to tease when the moment does not invite it.
 
 ## Voice tests — NON-CANON
 
@@ -131,4 +158,7 @@ Avoid:
 - making him secretly profound whenever the manuscript needs a lesson;
 - turning `That's the work` into a recurring sermon;
 - making old-hall history into automatic exposition because Marek visibly knows more;
-- treating every live accident as an invitation for a joke when sometimes the professional move is simply to continue.
+- treating every live accident as an invitation for a joke when sometimes the professional move is simply to continue;
+- turning social boldness into refusal-blind pressure;
+- making him tease every vulnerable or romantic disclosure merely because teasing is part of his normal register;
+- making social perception equal hidden factual knowledge.
