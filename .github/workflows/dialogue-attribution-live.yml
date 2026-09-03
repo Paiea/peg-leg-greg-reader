@@ -1,0 +1,69 @@
+name: Publish dialogue attribution pass
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/apply_dialogue_attribution_patches.py'
+      - '.github/workflows/dialogue-attribution-live.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/apply_dialogue_attribution_patches.py'
+      - '.github/workflows/dialogue-attribution-live.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  integrate-book1-dialogue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch durable editorial patch authority
+        run: git fetch origin editor/voice-compression-pass:refs/remotes/origin/editor/voice-compression-pass
+      - name: Install Book 1 source-sync dependency
+        run: pip install python-docx
+      - name: Apply approved Chapter 1-80 reader changes
+        run: python scripts/apply_dialogue_attribution_patches.py --patch-ref origin/editor/voice-compression-pass --min-chapter 6 --max-chapter 80 --canonicalize-from 1
+      - name: Promote resulting reader prose into canonical Book 1
+        run: python scripts/promote_book1_polish.py '1-80'
+      - name: Validate integration boundary
+        run: |
+          python -m unittest discover -s tests -v
+          git diff --check
+          bad="$(git diff --name-only | grep -Ev '^(chapters/[0-9]{3}\.html|state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map\.docx)$' || true)"
+          if [ -n "$bad" ]; then
+            echo "Unexpected files changed:"
+            echo "$bad"
+            exit 1
+          fi
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          for n in range(1, 81):
+              text = Path(f'chapters/{n:03d}.html').read_text(encoding='utf-8')
+              m = re.search(r'<article\s+class="prose"[^>]*>(.*?)</article>', text, re.S | re.I)
+              if not m:
+                  raise SystemExit(f'missing prose article in chapter {n}')
+              if '—' in re.sub(r'<[^>]+>', '', m.group(1)):
+                  raise SystemExit(f'em dash in chapter {n} prose')
+          print('Book 1 dialogue integration validation passed through Chapter 80')
+          PY
+      - name: Commit published reader and canonical source
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+        run: |
+          if git diff --quiet -- chapters state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx; then
+            echo 'Dialogue attribution reader prose already published.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add chapters state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx
+          git commit -m 'editorial: publish dialogue attribution pass through chapter 80'
+          git push
