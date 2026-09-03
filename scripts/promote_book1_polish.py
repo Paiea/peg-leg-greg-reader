@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Promote approved Book 1 reader prose into the canonical DOCX.
+"""Promote approved reader prose into a canonical DOCX.
 
 The illustrated HTML pages remain publishing derivatives. This tool exists so an
-approved editorial diff can be applied to the canonical Book 1 manuscript
-without rebuilding or replacing untargeted chapters.
+approved editorial diff can be applied to a canonical manuscript without
+rebuilding or replacing untargeted chapters.
 
 Requires: python-docx
 """
@@ -185,20 +185,36 @@ def promote_chapters(docx_path: Path, chapters_dir: Path, chapters: list[int]) -
     for chapter in sorted(requested, reverse=True):
         headings = _heading_map(doc)
         start = headings[chapter]
-        later = sorted(index for number, index in headings.items() if index > start)
-        if not later:
-            raise ValueError(f"chapter {chapter} has no following chapter boundary")
-        end = later[0]
+        later = sorted(index for index in headings.values() if index > start)
+        end = later[0] if later else len(doc.paragraphs)
         paragraphs = doc.paragraphs
         heading = paragraphs[start]
-        next_heading = paragraphs[end]
         body = paragraphs[start + 1 : end]
         template = body[0]._p if body else heading._p
 
         for paragraph in body:
             paragraph._p.getparent().remove(paragraph._p)
-        for text in replacements[chapter]:
-            next_heading._p.addprevious(_make_paragraph(text, template))
+
+        if later:
+            # Interior chapter: preserve the following chapter heading as the
+            # insertion boundary.
+            next_heading = doc.paragraphs[_heading_map(doc)[chapter] + 1]
+            # The expression above is not guaranteed to identify the next
+            # chapter after body removal, so resolve it from the next chapter
+            # number instead.
+            current_headings = _heading_map(doc)
+            current_start = current_headings[chapter]
+            next_indices = sorted(index for index in current_headings.values() if index > current_start)
+            next_heading = doc.paragraphs[next_indices[0]]
+            for text in replacements[chapter]:
+                next_heading._p.addprevious(_make_paragraph(text, template))
+        else:
+            # Final chapter: there is no following heading to anchor insertion.
+            # Insert each new paragraph immediately after the chapter heading in
+            # reverse order. This keeps Word's trailing section properties in
+            # place and preserves the requested paragraph order.
+            for text in reversed(replacements[chapter]):
+                heading._p.addnext(_make_paragraph(text, template))
 
     with tempfile.NamedTemporaryFile(suffix=".docx", delete=False, dir=docx_path.parent) as tmp:
         tmp_path = Path(tmp.name)
@@ -243,9 +259,9 @@ def main() -> int:
     chapters = _parse_range(args.range)
     changed = promote_chapters(args.docx, args.chapters_dir, chapters)
     if changed:
-        print(f"promoted Book 1 chapters {chapters[0]}-{chapters[-1]} into {args.docx}")
+        print(f"promoted chapters {chapters[0]}-{chapters[-1]} into {args.docx}")
     else:
-        print(f"Book 1 chapters {chapters[0]}-{chapters[-1]} already synchronized in {args.docx}")
+        print(f"chapters {chapters[0]}-{chapters[-1]} already synchronized in {args.docx}")
     return 0
 
 
