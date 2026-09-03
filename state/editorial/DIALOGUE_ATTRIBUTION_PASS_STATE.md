@@ -86,15 +86,16 @@ Do not claim a chapter is covered until its exact source was reviewed and the ba
 ## Coverage ledger
 
 - Chapters 1-301: **NOT YET COMPLETE**
-- Verified reviewed range: **Chapters 1-13**
-- No-change chapters in reviewed range: **1, 4, 5, 6, 7, 11, 12, 13**
+- Verified reviewed range: **Chapters 1-16**
+- No-change chapters in reviewed range: **1, 4, 5, 6, 7, 11, 12, 13, 14**
 - Chapters with hard attribution fixes recorded: **2, 3**
-- Chapters with clarity/attribution patches recorded: **8, 9, 10**
+- Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16**
 - Durable batches:
   - `state/editorial/dialogue-pass/BATCH_001_004.md`
   - `state/editorial/dialogue-pass/BATCH_005_010.md`
   - `state/editorial/dialogue-pass/BATCH_011_013.md`
-- Current source edge: **Chapter 14**
+  - `state/editorial/dialogue-pass/BATCH_014_016.md`
+- Current source edge: **Chapter 17**
 
 ## Completion definition for one chapter
 
@@ -115,6 +116,8 @@ Early Book I already contains useful natural separation:
 - Antonius: practical finance/operations; often refuses Greg's grand framing and cares what pays, what is owned, and what must be true for repayment.
 - Arlo: workshop/mechanism/time/measurement; precision comes from the bench rather than generic evidence doctrine.
 - Hessa: controlled procedural instruction tied to body, safety, and repeatability.
+- Jorren: peer-level physical truth; sees stance, rhythm, overcommitment, fatigue, and what a fighter is actually doing without turning every correction into theory.
+- Alden: fast, ambitious, initiative-seeking, willing to learn, and prone to treating early advantage as something already owned.
 
 Shared dryness is allowed. Do not force distinct catchphrases where domain and cadence already separate the voices.
 
