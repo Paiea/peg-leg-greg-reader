@@ -16,6 +16,10 @@ Do **not** read the whole folder every chapter.
 
 Do **not** force a voice page onto a scene when newer prose has clearly evolved the character. Update the page instead.
 
+**These are living pages, not first-pass snapshots.** During later dialogue passes, drafting, or editorial work, add a small amount when exact prose reveals a substantial recurring cadence, register, relationship-specific behavior, professional lens, refusal pattern, humor source, or information habit that future chapters should preserve. Remove or revise guidance when later prose disproves it.
+
+Do not update a page merely because the character spoke again. Update it when the new evidence changes or sharpens how a future writer should hear the person.
+
 ## Evidence labels
 
 Voice pages may contain:
@@ -137,6 +141,9 @@ Early Book I operational / relationship pages:
 - `RUSK.md`
 - `JORREN.md`
 - `ALDEN.md`
+- `PESSA.md`
+- `SERA_DAIN.md`
+- `NERIN.md`
 
 Recurring work/household/social pages:
 - `JORI.md`
@@ -147,6 +154,8 @@ Recurring work/household/social pages:
 - `OLAN.md`
 - `SERA.md`
 - `SEVREN.md`
+
+`SERA.md` and `SERA_DAIN.md` are deliberately separate authorities unless exact manuscript continuity later proves otherwise.
 
 Add another page when a character has enough repeated dialogue that a future writer benefits from a fingerprint. Do not create pages for one-scene people simply to fill a roster.
 
@@ -160,7 +169,8 @@ When updating a voice page:
 5. add only a few high-value canonical lines, not transcript dumps;
 6. keep constructed voice tests clearly non-canon;
 7. when useful, record cadence, register/education, professional vocabulary, and how much explanation the person naturally gives;
-8. allow shared Carrow language and relationship-driven convergence instead of purging every overlap.
+8. allow shared Carrow language and relationship-driven convergence instead of purging every overlap;
+9. revisit existing pages during later manuscript-wide passes when substantial new evidence appears, rather than treating the page created on the first pass as frozen.
 
 ## Quick editorial test
 
