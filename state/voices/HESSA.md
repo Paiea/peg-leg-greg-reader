@@ -19,6 +19,7 @@ Post-loss, `magic` is not one state. Hessa increasingly separates:
 - releasing the whole draw;
 - bounded extension beyond the body;
 - directional control;
+- neutral shape / baseline geometry;
 - observed external movement;
 - established external effect;
 - casting;
@@ -82,6 +83,10 @@ Chapters 125-129 add the next refusal boundary: **safe attempts are not free mer
 
 Failure also does not automatically earn an immediate retry. In Chapter 129, a failed changed-direction instruction is useful before it is something to correct. `Failure is data before it is an invitation.`
 
+Chapters 131-137 preserve that restraint even after cleaner progress. A clean internal directional report still earns a no-magic day. A second opposite-direction report increases confidence but does not justify the sentence `you can direct it.` A repeated wristward report finally earns the bounded phrase **provisionally supported under this narrow condition**, not general directional control. `Recovering well is not permission to remove recovery.`
+
+Hessa can also deliberately step backward in apparent complexity. Chapter 137 removes directional instruction entirely because a better description of the neutral shaped state may change what the prior directional results mean. She does not protect a previous success from a better baseline.
+
 ## Information behavior
 
 Hessa may know more than she says because information can contaminate expectation or because Greg does not need the next question yet.
@@ -97,10 +102,15 @@ Examples:
 - Chapter 122: Hessa records what she saw before hearing the version Greg wants her to have seen.
 - Chapter 127: Hessa audits her own notation and realizes that writing `near moved` puts interpretation into the record before direction. She labels the threads white and gray so the object can be recorded before the conclusion she hopes to test.
 - Chapter 129: Hessa removes the thread apparatus from sight when she has decided not to use it because leaving it visible would keep pulling Greg's attention back to a question she is no longer asking.
+- Chapters 131 and 133: Hessa removes the prepared destination and establishes direction before shaping so she can distinguish changed-direction difficulty from direction-first performance without claiming she has isolated one cause.
+- Chapter 135: she repeats wristward because it was the first direction-first condition, not because she prefers its result.
+- Chapter 137: she asks for neutral shape geometry with no directional instruction and preserves Greg's post-release drawing as structured self-report rather than independent observation.
 
 Independent witnesses and apparatus are useful, but they answer only the question they can actually answer. Copper can support that a mana event changed while Greg separately reports phenomenology. It does not give Hessa a perfect map of what Greg feels.
 
 Controls are likewise question-specific. A comparison can remove some explanations and leave others. Hessa does not treat adding a control as a ritual that automatically turns an ambiguous observation into causal proof.
+
+Self-report can become more structured without becoming independent. A drawing after release may preserve shape information across sessions while still being labeled as Greg's remembered report.
 
 ## Post-loss control progression
 
@@ -192,13 +202,34 @@ Hessa then asks a new internal directional-control question without a suspended 
 
 Hessa calls the result cleanly: Greg did not execute the changed direction as instructed. That failure does **not** erase the stable draw/shape/RETURN sequence. It makes directional control unclear and creates new questions about prepared-target organization, changed-direction difficulty, anticipation, and instruction quality.
 
-Do not write future prose as though the thread proved telekinesis, casting, Barrier recovery, or a repeatable external effect. By the end of Chapter 129:
+### Chapters 131-137: direction-first control and baseline geometry
+
+Chapter 131 removes the prepared charcoal destination and tells Greg the direction before shaping. Greg reports a small wrist-side asymmetry toward the instructed side. Hessa says her confidence in directional control increases **a little**, while preserving that the observation is self-report only.
+
+Chapter 133 repeats the direction-first structure in the opposite direction. Greg reports a small elbow-side asymmetry. This is the second direction-first report favoring the instructed side under broadly similar conditions, so Hessa increases confidence again but still refuses the global sentence `you can direct it`.
+
+Chapter 135 repeats wristward under the direction-first condition. The same reported edge behavior returns with clean RETURN and no motor or left-side complication. Hessa can now call directional control **provisionally supported under this narrow condition**.
+
+That phrase is the current ceiling. It does not mean:
+- established general directional control;
+- freely choosing arbitrary directions;
+- independent confirmation;
+- external effect;
+- casting;
+- Barrier.
+
+Chapter 137 then removes direction entirely and asks what the neutral localized shape does before being told to favor any side. Greg reports an asymmetric oval with the wrist-side boundary most distinct and some upper-edge change during a longer hold. After release he draws the geometry from memory. Hessa labels the drawing as structured self-report, not independent observation.
+
+That new baseline matters because prior wristward sharpening may have started from a shape whose wrist-side edge was already more distinct. Hessa does not erase the prior directional observations, but she also does not protect them from reinterpretation. Better baseline information can make an earlier success weaker.
+
+Do not write future prose as though directional control is fully established. By the end of Chapter 137:
 - minimal draw: increasingly repeatable;
 - localized shaping: increasingly repeatable;
 - maintaining draw while altering: increasingly repeatable;
 - RETURN: increasingly repeatable;
 - avoiding broad old response / motor recruitment: increasingly repeatable;
-- directional control: **unclear**;
+- direction-first control: **provisionally supported under a narrow self-reported condition**;
+- neutral shape may have repeatable asymmetry: **suggested, not established**;
 - external effect: **unestablished**;
 - casting: **not cleared**;
 - Barrier: **not cleared**.
@@ -207,23 +238,26 @@ Do not write future prose as though the thread proved telekinesis, casting, Barr
 
 Hessa's threshold is not a secret number.
 
-By Chapters 114-129, the useful factors include:
+By Chapters 114-137, the useful factors include:
 - deliberate initiation without broad unintended recruitment;
 - localization toward a requested intact-side target;
 - deliberate cessation or reduction while keeping the draw;
 - normal release when told;
 - absence of concerning physical symptoms;
 - no familiar unrequested casting pattern taking over;
-- enough repetition across changed conditions that accident is less convincing;
+- enough repetition across changed conditions that accident becomes less convincing;
 - enough internal control that an external success or failure would be interpretable;
 - an apparatus/question that does not create more ambiguity than it resolves;
-- enough reason to spend another safe attempt on the external question rather than a better internal one.
+- enough reason to spend another safe attempt on the external question rather than a better internal one;
+- enough understanding of the **starting geometry** that a reported directional change is interpretable against its baseline.
 
 A permission for **one external test** is not general external-test clearance. It is not casting clearance.
 
 A better control is not automatically a better experiment. Improving one confound may worsen another, and changing the apparatus may destroy the very replication question Hessa is trying to ask. She can choose a simple imperfect setup because repeating the same imperfect setup answers one useful question, then later stop using it when the signal remains poor.
 
 Immediate absence of symptoms does not make repeated attempts free. Hessa explicitly watches for accumulation of unknown load and preserves boring symptom-free intervals rather than stacking tests simply because Greg wants a cleaner answer.
+
+Likewise, a provisional internal success is not automatically a reason to return to external testing. Chapter 135 explicitly preserves the controlled sequence rather than throwing it away for a more dramatic question just because directional evidence improved.
 
 ## With Greg
 
@@ -237,11 +271,11 @@ Hessa also does not own Greg's non-medical day. Once she has stated the medical 
 
 Boring intervals are part of the evidence. Delayed effects either appear or fail to appear during ordinary life.
 
-The interval length can change with evidence. Chapter 120 shortens the next interval after a cleaner result plus prior tolerated living time. Chapter 122 lengthens it again after the first bounded external attempt. Chapters 125-129 keep using one-day intervals as Hessa compares external ambiguity against stable internal control. This is not reward/punishment; it is load and uncertainty management.
+The interval length can change with evidence. Chapter 120 shortens the next interval after a cleaner result plus prior tolerated living time. Chapter 122 lengthens it again after the first bounded external attempt. Chapters 125-137 keep using one-day intervals as Hessa compares external ambiguity against improving internal control. This is not reward/punishment; it is load and uncertainty management.
 
 Hessa does not want monitoring to become compulsion. Ordinary hand use should stay ordinary. If Greg checks his thumb every few moments because he wants certainty, Hessa treats the checking itself as noise.
 
-She also protects the next test from Greg's planning. If he inspects apparatus, reverse-engineers airflow, hangs substitute thread, or rehearses directional attention without mana, he may arrive optimized for the test rather than available to answer it.
+She also protects the next test from Greg's planning. If he inspects apparatus, reverse-engineers airflow, hangs substitute thread, rehearses directional attention without mana, or redraws a structured self-report from memory, he may turn ordinary life into an unrecorded extension of the assessment.
 
 Hessa can admit her own observational or instructional problem. In Chapters 127 and 129 she notices interpretive language in her notes and explicitly includes `my instruction was poor` among possible explanations. Her authority does not require pretending the practitioner cannot contaminate a test.
 
@@ -276,6 +310,10 @@ Hessa can admit her own observational or instructional problem. In Chapters 127 
 - **CANON LINE:** `Near is already interpretation. White is an object.`
 - **CANON LINE:** `Memorable is not the same as diagnostic.`
 - **CANON LINE:** `Failure is data before it is an invitation.`
+- **CANON LINE:** `Your report was consistent with a small directional asymmetry toward the instructed side.`
+- **CANON LINE:** `Provisionally supported under this narrow condition.`
+- **CANON LINE:** `Recovering well is not permission to remove recovery.`
+- **CANON LINE:** `Today was not a directional test.`
 - **CANON PATTERN:** uses unfamiliar or obscured setups when expectation would contaminate the question.
 - **CANON PATTERN:** grants the strongest noun the evidence earns, then immediately preserves the scope.
 - **CANON PATTERN:** changes instruction when the prior wording tested the wrong subskill rather than merely repeating harder.
@@ -286,6 +324,8 @@ Hessa can admit her own observational or instructional problem. In Chapters 127 
 - **CANON PATTERN:** improves her own notes when she notices interpretive language entering the record.
 - **CANON PATTERN:** stops using an interesting but noisy apparatus when it no longer justifies spending Greg's safe attempts.
 - **CANON PATTERN:** calls failure of a changed-direction instruction a failure for that exact question while preserving the separate control abilities that succeeded.
+- **CANON PATTERN:** upgrades direction-first control only after opposite-direction and repeated-direction reports, then keeps the claim narrow and self-report bounded.
+- **CANON PATTERN:** uses a no-direction baseline to challenge the interpretation of prior directional successes rather than treating prior progress as protected.
 
 Exact wording should be rechecked against current manuscript authority before reuse; these are evidence, not catchphrases.
 
@@ -302,7 +342,7 @@ Calibration only.
 Hessa and Greg share evidence vocabulary because she taught and reinforced it. That overlap is canonically meaningful.
 
 Hessa and Pessa may both use `No`, `Maybe`, `Good`, and short correction loops. The distinction is jurisdiction and evidence source:
-- Hessa: controlled magical/body response, contamination of expectation, repeatability, practitioner margin, progression criteria, apparatus ambiguity, and permission;
+- Hessa: controlled magical/body response, contamination of expectation, repeatability, practitioner margin, progression criteria, apparatus ambiguity, baseline geometry, and permission;
 - Pessa: physical movement, object load, drill objective, fatigue, integrated use, and the next embodied adjustment.
 
 Hessa may deliberately isolate or control a test variable. Pessa may explicitly reject the fiction that real movement has become isolated merely because an exercise was simplified. Preserve that difference.
@@ -334,6 +374,9 @@ Avoid:
 - salvaging a preferred external hypothesis by changing the test question after a failed replication;
 - treating an apparatus as worth continuing merely because it produced a memorable event;
 - pretending practitioner notes, expectations, or instructions cannot themselves create bias;
-- treating a failed directional instruction as failure of every control skill in the session.
+- treating a failed directional instruction as failure of every control skill in the session;
+- converting `provisionally supported under this narrow condition` into general directional mastery;
+- treating a neutral-shape baseline as a directional test just because it changes interpretation of the directional data;
+- assuming a later better baseline must either validate or erase earlier observations instead of changing their weight.
 
 Hessa is strongest when exactness belongs specifically to the work she is doing.
