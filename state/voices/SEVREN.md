@@ -8,6 +8,8 @@ Sevren carries the sense that roads, deliveries, fatigue, distant places, schedu
 
 He should make the world feel larger rather than functioning as a lore courier.
 
+Chapter 106 sharpens this into dispatch judgment. A person is not simply `able` or `unable` to courier. The actual route may involve stairs, distance, carrying, speed, bad ground, hard deadlines, or soft ones. Sevren can judge Greg as useful for one route without pretending that judgment applies to every route.
+
 ## Spoken rhythm
 
 Practical, traveled, not especially interested in polishing an answer for Greg.
@@ -24,11 +26,15 @@ He does not need to share Greg's urge to classify everything.
 
 Can be tired, situational, worldly, or attached to the predictable stupidity of travel/work.
 
+He can admit a work mistake without ceremony, then make the correction operational. In Chapter 106 he accepts that he failed to distinguish a soft deadline from the hard one elsewhere on the run and answers Greg's demand for a historical record with `Write the date.`
+
 ## Disagreement / refusal
 
 Sevren may reject Greg's framing simply because it is not the part of the situation he considers important.
 
 He can say what happened somewhere else without pretending to know why it happened.
+
+He can also refuse false global judgments. `Not for every route` is not a verdict on Greg's competence. It is a route assignment fact.
 
 ## Information behavior
 
@@ -38,7 +44,29 @@ That knowledge can be anecdotal, practical, incomplete, or stale. It does not ne
 
 His courier responsibility can also stop cleanly at the boundary of the job. Chapter 84 makes this concrete: he can carry a sealed packet for an hour, not know or care what documents are inside, and regard the signed receipt as the relevant completion fact. He may own the route, custody, recipient, and return proof without owning the sender's underlying business.
 
+Chapter 106 expands the same boundary through delegated work. Greg's job is to deliver three confirmation slips, get signatures when correct, and return an unsigned discrepancy with the recipient's own words attached. Sevren explicitly tells him not to solve the client's problem. Completion is the route and handoff, not ownership of every disagreement inside the paperwork.
+
+He distinguishes desired time from actual hard consequence. When Greg returns seven minutes after the stated midday deadline, Sevren still pays in full because Greg completed the assigned route and the hard receipt-window deadline belonged to one of the other deliveries. Sevren can also admit that he should have made that distinction explicit.
+
 Do not convert professional incuriosity into stupidity. Knowing what he is responsible for is part of the competence.
+
+## Route fit / assigning Greg work
+
+Chapter 106 gives a useful model for how Sevren can include Greg in courier work without either pity or magical disability transcendence.
+
+He notices concrete fit:
+- Greg knows the west market;
+- he can read;
+- he can obtain signatures;
+- the assigned pieces are papers, not cargo;
+- one stop has two steps, the others are ground level;
+- Greg is physically present and available.
+
+Afterward, Sevren says he would hire Greg again immediately, then adds `Not for every route.` The limit is ordinary dispatch judgment: some routes are stairs, distance, carrying, speed, or bad ground.
+
+This is not a disability speech. It is how a competent courier assigns work to anybody: match the person to the route.
+
+Likewise, lateness can be evaluated against the actual job rather than as a moral failure. Seven minutes late on a soft deadline with all three slips returned and one discrepancy properly documented still earns full pay.
 
 ## With Greg
 
@@ -48,11 +76,19 @@ Let Greg sometimes extract the pattern later rather than making Sevren explain i
 
 Their friendship can stay low-pressure. Sevren can offer an unused seat, route advice, bread, or an ordinary invitation without turning Greg into a recovery project. He may then get off two streets early because he still has work.
 
-## Canon patterns
+Chapter 106 adds another quiet friendship fact: Sevren knows Greg likes the road. When he mentions a possible north-road run for the following week, it is not yet an invitation and not a promise. He tells Greg because `You like the road.` Work knowledge and friend knowledge can overlap without becoming therapy.
+
+## Canon lines / patterns
 
 - **CANON PATTERN:** Roads, deliveries, fatigue, and other places remain active beyond Greg.
 - **CANON PATTERN:** Sevren does not have to care about Greg's current abstraction as much as Greg does.
 - **CANON PATTERN:** courier completion can be concrete and bounded: packet delivered, receipt signed, underlying contents still not Sevren's question.
+- **CANON LINE:** `Do not solve it.`
+- **CANON LINE:** `Not for every route.`
+- **CANON LINE:** `You were seven minutes late on a soft deadline I failed to distinguish from a hard one.`
+- **CANON LINE:** `Write the date.`
+- **CANON LINE:** `You like the road.`
+- **CANON PATTERN:** pays Greg the full agreed amount after a slightly late but correctly completed soft-deadline run, while still naming which kinds of future routes may not fit.
 
 ## Voice tests — NON-CANON
 
@@ -66,6 +102,8 @@ Calibration only.
 
 Sevren may share dry humor with Greg. Difference: his speech should often feel pulled by distance, work, and lived travel rather than by Greg's internal analytical loop.
 
+He may also sound operational like Merrin or Antonius, but his unit is usually the route and handoff rather than the registry or the business model.
+
 ## Watch list
 
 Avoid:
@@ -74,4 +112,7 @@ Avoid:
 - generic grizzled-road voice;
 - making every anecdote secretly plot-relevant;
 - forcing methodological precision onto ordinary remembered experience;
-- making courier competence require curiosity about every package's contents.
+- making courier competence require curiosity about every package's contents;
+- treating route suitability as a global judgment about a person's worth or capability;
+- turning work offered to Greg into charity or inspirational inclusion;
+- making every stated deadline equally hard when the actual route has different operational consequences.
