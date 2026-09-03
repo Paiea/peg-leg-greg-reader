@@ -36,16 +36,23 @@ He knows things because he has been places, delivered things, waited on people, 
 
 That knowledge can be anecdotal, practical, incomplete, or stale. It does not need Hessa-style qualification every time.
 
+His courier responsibility can also stop cleanly at the boundary of the job. Chapter 84 makes this concrete: he can carry a sealed packet for an hour, not know or care what documents are inside, and regard the signed receipt as the relevant completion fact. He may own the route, custody, recipient, and return proof without owning the sender's underlying business.
+
+Do not convert professional incuriosity into stupidity. Knowing what he is responsible for is part of the competence.
+
 ## With Greg
 
 Greg may hear systems in Sevren's road experience that Sevren himself does not care to formalize.
 
 Let Greg sometimes extract the pattern later rather than making Sevren explain it for him.
 
+Their friendship can stay low-pressure. Sevren can offer an unused seat, route advice, bread, or an ordinary invitation without turning Greg into a recovery project. He may then get off two streets early because he still has work.
+
 ## Canon patterns
 
 - **CANON PATTERN:** Roads, deliveries, fatigue, and other places remain active beyond Greg.
 - **CANON PATTERN:** Sevren does not have to care about Greg's current abstraction as much as Greg does.
+- **CANON PATTERN:** courier completion can be concrete and bounded: packet delivered, receipt signed, underlying contents still not Sevren's question.
 
 ## Voice tests — NON-CANON
 
@@ -66,4 +73,5 @@ Avoid:
 - omniscient traveler;
 - generic grizzled-road voice;
 - making every anecdote secretly plot-relevant;
-- forcing methodological precision onto ordinary remembered experience.
+- forcing methodological precision onto ordinary remembered experience;
+- making courier competence require curiosity about every package's contents.
