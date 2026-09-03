@@ -228,13 +228,13 @@ Not enough to invest. Present Greg still needed to prove the property was alread
 
 "Bad decisions," I said.
 
-She laughed. "Two silver." I had two copper. Progress. The name ARWICK came back while I was walking away. Not a person at first. A maker's stamp on filter housings decades from now. Arwick Works existed already, if one rented room behind a cooper counted as works. Pell Arwick repaired lamp regulators. He was not famous yet. I stared at him too long.
+She laughed. "Two silver." I had two copper. Progress. The name ARWICK came back while I was walking away. Not a person at first. A maker's stamp on filter housings decades from now. Arwick Works existed already, if one rented room behind a cooper counted as works. Arlo Arwick repaired lamp regulators. He was not famous yet. I stared at him too long.
 
-The future gave me his surname. The present gave me an artificer with a workshop, tools, and enough technical knowledge to tell me whether my memory was nonsense. I did not know if Pell himself became the Arwick I remembered, if a child inherited the work, or if somebody bought the name later. For now, he was the man who could test the first idea on my list.
+The future gave me his surname. The present gave me an artificer with a workshop, tools, and enough technical knowledge to tell me whether my memory was nonsense. I did not know if Arlo himself became the Arwick I remembered, if a child inherited the work, or if somebody bought the name later. For now, he was the man who could test the first idea on my list.
 
-That should have been simple. It was not. The future version of a name carried weight, and weight distorted judgment. I could feel myself wanting Pell to be important because that would make my memory cleaner. Cleaner memories were easier to monetize. Easier to control. That was exactly the kind of reasoning I needed to notice before it became a decision.
+That should have been simple. It was not. The future version of a name carried weight, and weight distorted judgment. I could feel myself wanting Arlo to be important because that would make my memory cleaner. Cleaner memories were easier to monetize. Easier to control. That was exactly the kind of reasoning I needed to notice before it became a decision.
 
-"Can I help you?" Pell asked.
+"Can I help you?" Arlo asked.
 
 Maybe you make a fortune. Maybe your son does. Maybe I am remembering the wrong Arwick entirely.
 
@@ -242,7 +242,7 @@ Maybe you make a fortune. Maybe your son does. Maybe I am remembering the wrong 
 
 His annoyance became interest when I explained the shale. Not the future. The present properties. Powder. Heat. Trace mana. Binding residue.
 
-"That would contaminate the batch," Pell said.
+"That would contaminate the batch," Arlo said.
 
 "Unless the contamination binds preferentially," I said.
 
@@ -382,11 +382,11 @@ Her name was written on the top form. I pointed. She looked down. Then back at m
 
 I watched her go. Who are you now? That was harder than who do you become. I had the uncomfortable suspicion it was also more important. Then I remembered I had eight days to turn borrowed silver into enough money that Antonius Vale did not own my schedule. Reflection could wait. I went to buy garbage.
 
-So that was the board after one day. Money: borrowed. Deadline: eight days. First investment: a cart of material most people considered rubbish. Pell: interested enough to test it, not yet mine to command, which was probably healthy. Antonius: watching. Magic: still theoretical. Reputation: nonexistent. The immediate job was simple enough. Make the shale prove something, turn that proof into enough money to clear Vale, then buy myself the time to start becoming a mage six years early.
+So that was the board after one day. Money: borrowed. Deadline: eight days. First investment: a cart of material most people considered rubbish. Arlo: interested enough to test it, not yet mine to command, which was probably healthy. Antonius: watching. Magic: still theoretical. Reputation: nonexistent. The immediate job was simple enough. Make the shale prove something, turn that proof into enough money to clear Vale, then buy myself the time to start becoming a mage six years early.
 
 CHAPTER THREETHE INVESTOR
 
-Buying garbage turned out to be the easy part. Toma sold me a cart of Kestrin shale for two silver and the expression of a woman who had just discovered that fools could be harvested. I paid another copper to have it delivered to Pell's workshop, which left me standing in the east market with borrowed money in my pocket and the unpleasant awareness that every coin now had Antonius Vale attached to it.
+Buying garbage turned out to be the easy part. Toma sold me a cart of Kestrin shale for two silver and the expression of a woman who had just discovered that fools could be harvested. I paid another copper to have it delivered to Arlo's workshop, which left me standing in the east market with borrowed money in my pocket and the unpleasant awareness that every coin now had Antonius Vale attached to it.
 
 Garbage had always been underrated. Not philosophically. Literally. Adventurers were terrible at distinguishing "worthless" from "not currently worth carrying." I had made money on that distinction later. Bones nobody wanted until necromantic licensing changed. Slime residue before preservative alchemy improved. Broken cores once artificers learned to laminate them. The shale was not unique. It was simply the first future waste product my nineteen-year-old purse could reach.
 
@@ -394,19 +394,19 @@ That thought nearly sent me back toward the guild salvage yard to start buying e
 
 The order had not changed. Prove the shale. Protect enough of the idea that I could profit from it. Pay Antonius before the interest or the man himself became a larger problem. Then divert part of whatever remained into mana conditioning. Money first, magic second, because being the greatest support mage in my old life meant very little while my current body could not cast a useful spell and my current purse could not afford to teach it.
 
-Pell was the technical gate. Antonius was the financial clock. Magic was still an expense I could not afford. Keep the chain narrow. Find out which assumption failed first.
+Arlo was the technical gate. Antonius was the financial clock. Magic was still an expense I could not afford. Keep the chain narrow. Find out which assumption failed first.
 
-Eight days. Thirty-five percent. If the experiment failed, my labor belonged to him until the debt was cleared. I had accepted worse contracts. That was not comforting. Pell was less pleased to see the shale than Toma had been to sell it.
+Eight days. Thirty-five percent. If the experiment failed, my labor belonged to him until the debt was cleared. I had accepted worse contracts. That was not comforting. Arlo was less pleased to see the shale than Toma had been to sell it.
 
-"You actually bought it," Pell said.
+"You actually bought it," Arlo said.
 
 "I said I would," I told him.
 
-"People say many things," Pell said.
+"People say many things," Arlo said.
 
 "Most of them should stop," I said.
 
-Pell looked past me at the cart. "That's too much."
+Arlo looked past me at the cart. "That's too much."
 
 "Good."
 
@@ -416,7 +416,7 @@ I turned and looked at his workshop. He was right. Arwick Works was currently a 
 
 "How much do you need?" I asked.
 
-"For a test? A bucket," Pell said. I looked at the cart. The carter looked at me.
+"For a test? A bucket," Arlo said. I looked at the cart. The carter looked at me.
 
 "Take the rest back," I told the carter.
 
@@ -428,43 +428,43 @@ I turned and looked at his workshop. He was right. Arwick Works was currently a 
 
 "Of course it does," I said.
 
-Pell folded his arms. I paid for the lesson. By the time the shale was stacked badly beside his rear wall, my elegant investment thesis had acquired hauling fees, storage problems, and a man named Hobb who charged three copper to move something I had just paid someone else to move. I wrote that down too.
+Arlo folded his arms. I paid for the lesson. By the time the shale was stacked badly beside his rear wall, my elegant investment thesis had acquired hauling fees, storage problems, and a man named Hobb who charged three copper to move something I had just paid someone else to move. I wrote that down too.
 
-The hauling mistake irritated me because future knowledge could not fix it. I knew the shale became valuable. I did not know how much space Pell had behind his workshop, what Hobb charged, or how many times I could afford to move the same stupid rocks. Grand history was cheaper in my head than one bad delivery in the present. Old Greg had learned logistics eventually. Young Greg was apparently paying tuition twice.
+The hauling mistake irritated me because future knowledge could not fix it. I knew the shale became valuable. I did not know how much space Arlo had behind his workshop, what Hobb charged, or how many times I could afford to move the same stupid rocks. Grand history was cheaper in my head than one bad delivery in the present. Old Greg had learned logistics eventually. Young Greg was apparently paying tuition twice.
 
 NOT EVERYTHING SCALES.
 
-Pell read over my shoulder.
+Arlo read over my shoulder.
 
-"Are you writing lessons?" Pell asked.
+"Are you writing lessons?" Arlo asked.
 
 "I'm preventing myself from becoming stupid twice," I said.
 
-"Does that work?" Pell asked.
+"Does that work?" Arlo asked.
 
 "Historically? No," I said.
 
-Pell gave me the look again. People had several for me already: nineteen-year-old talking like an old man, Bronze adventurer knowing too much outside his profession, stranger staring at a face as if searching for something behind it. Pell had developed his own. Brilliant or insane, with growing evidence for both.
+Arlo gave me the look again. People had several for me already: nineteen-year-old talking like an old man, Bronze adventurer knowing too much outside his profession, stranger staring at a face as if searching for something behind it. Arlo had developed his own. Brilliant or insane, with growing evidence for both.
 
 "Six silver," he said.
 
 "For the test," I said.
 
-"For my time," Pell corrected.
+"For my time," Arlo corrected.
 
 "You said six yesterday," I said.
 
-"And today it remains six. Remarkable stability," Pell said.
+"And today it remains six. Remarkable stability," Arlo said.
 
-I counted the coins onto his bench. It hurt. That was useful. In my old life, by the end, six silver had been invisible. I had spent more than that on wine I did not particularly like because someone important had selected the bottle. Now I watched each coin leave my hand. Capital had weight again. So did mistakes. Pell picked up a shale chip. "Tell me exactly what you think this does." I almost told him. Not the whole truth. The future was not a truth I could hand him. But I nearly gave him the answer as I remembered it. Then I stopped, because I did not remember the answer. I remembered filter housings. I remembered the Arwick stamp.
+I counted the coins onto his bench. It hurt. That was useful. In my old life, by the end, six silver had been invisible. I had spent more than that on wine I did not particularly like because someone important had selected the bottle. Now I watched each coin leave my hand. Capital had weight again. So did mistakes. Arlo picked up a shale chip. "Tell me exactly what you think this does." I almost told him. Not the whole truth. The future was not a truth I could hand him. But I nearly gave him the answer as I remembered it. Then I stopped, because I did not remember the answer. I remembered filter housings. I remembered the Arwick stamp.
 
 The loan agreement folded inside my coat seemed suddenly heavier. I touched it to make sure it was still there, then wondered why. Antonius did not need the paper to remember I owed him. I did. The document was less a contract than a physical reminder that every clever idea currently had a clock attached to it.
 
-Eight days sounded generous when I was sitting across from him. Inside Pell's workshop, watching six silver become somebody else's afternoon, it sounded like a very short week. I remembered somebody explaining, years after the discovery, that the shale's trace mana made it useful for binding residue during high-heat processing. That was not a formula. It was a story about a formula.
+Eight days sounded generous when I was sitting across from him. Inside Arlo's workshop, watching six silver become somebody else's afternoon, it sounded like a very short week. I remembered somebody explaining, years after the discovery, that the shale's trace mana made it useful for binding residue during high-heat processing. That was not a formula. It was a story about a formula.
 
 I pulled the memory apart anyway. Who had been talking? Workshop or banquet? Was the speaker an artificer or merely somebody repeating the explanation badly? Had the useful property been binding residue, or resisting it? The more I pushed, the less trustworthy the detail became. Good. Better to discover that at a bench than after betting the rest of the loan.
 
-"What?" Pell asked.
+"What?" Arlo asked.
 
 "I was about to pretend I knew more than I do."
 
@@ -482,7 +482,7 @@ I pulled the memory apart anyway. Who had been talking? Workshop or banquet? Was
 
 "I don't know."
 
-Pell's expression flattened. I pointed at him. "That is why you're being paid."
+Arlo's expression flattened. I pointed at him. "That is why you're being paid."
 
 "No. I'm being paid to test a hypothesis."
 
@@ -492,49 +492,49 @@ Pell's expression flattened. I pointed at him. "That is why you're being paid."
 
 "Those are cheaper."
 
-He muttered something about adventurers and began working. I stayed. Pell objected. I stayed anyway, not because I needed to supervise him, but because I needed to see what the present knew. That distinction mattered within the first hour. Pell ground the shale much finer than I expected. He washed part of it. Heated another portion dry. Mixed samples into two cheap clay bodies and one better ceramic paste. He kept notes in a narrow hand and labeled everything. I understood perhaps half of what he was doing. That bothered me more than it should have.
+He muttered something about adventurers and began working. I stayed. Arlo objected. I stayed anyway, not because I needed to supervise him, but because I needed to see what the present knew. That distinction mattered within the first hour. Arlo ground the shale much finer than I expected. He washed part of it. Heated another portion dry. Mixed samples into two cheap clay bodies and one better ceramic paste. He kept notes in a narrow hand and labeled everything. I understood perhaps half of what he was doing. That bothered me more than it should have.
 
-I had assumed the advantage lived in the answer. Pell kept showing me otherwise. I knew the shale mattered; he knew how to make that claim survive contact with a kiln. Old Greg had rarely been the best person in the room at every task. He had been very good at finding the person who was.
+I had assumed the advantage lived in the answer. Arlo kept showing me otherwise. I knew the shale mattered; he knew how to make that claim survive contact with a kiln. Old Greg had rarely been the best person in the room at every task. He had been very good at finding the person who was.
 
 That was closer to support than I wanted to admit. I had planned around artificers, healers, scouts, and killers for decades. I knew enough about their disciplines to coordinate them. Enough was dangerous. It was very easy to mistake knowing what an expert needed for being the expert.
 
 "What?" I asked.
 
-"Nothing," Pell said.
+"Nothing," Arlo said.
 
-"You've been staring at my hands for five minutes," Pell said.
+"You've been staring at my hands for five minutes," Arlo said.
 
 "I was trying to remember someone," I said.
 
-True, but incomplete. I was trying to decide whether Pell belonged on the list in my head. If his surname really became the Arwick mark I remembered, this cramped workshop was the beginning of something. If not, he was still the man doing the work in front of me.
+True, but incomplete. I was trying to decide whether Arlo belonged on the list in my head. If his surname really became the Arwick mark I remembered, this cramped workshop was the beginning of something. If not, he was still the man doing the work in front of me.
 
-"Me?" Pell asked.
+"Me?" Arlo asked.
 
 "Possibly," I said. He set the cup down.
 
-"That's unsettling," Pell said.
+"That's unsettling," Arlo said.
 
 "Yes," I said.
 
-"Do you do that with everyone?" Pell asked.
+"Do you do that with everyone?" Arlo asked.
 
 "Currently," I said.
 
-"Why?" Pell asked. I considered telling him that one day his surname might be stamped on equipment used across three kingdoms. Instead I said, "I was away from Carrow a long time."
+"Why?" Arlo asked. I considered telling him that one day his surname might be stamped on equipment used across three kingdoms. Instead I said, "I was away from Carrow a long time."
 
-"You're nineteen," Pell said.
+"You're nineteen," Arlo said.
 
 "Emotionally," I said.
 
-Pell stared. I smiled. He returned to the kiln. By afternoon, the first samples had failed. One cracked. One warped. One smelled terrible. The fourth did absolutely nothing interesting. I watched Pell scratch a line through it.
+Arlo stared. I smiled. He returned to the kiln. By afternoon, the first samples had failed. One cracked. One warped. One smelled terrible. The fourth did absolutely nothing interesting. I watched Arlo scratch a line through it.
 
 "Again," I said.
 
-"You paid for one test," Pell said.
+"You paid for one test," Arlo said.
 
 "I paid for your time," I said.
 
-"You paid for six silver of my time," Pell said.
+"You paid for six silver of my time," Arlo said.
 
 "How much time remains?" I asked.
 
@@ -542,53 +542,53 @@ He looked at the window. "Enough to tell you this was a bad idea." I felt the fi
 
 ARWICK.
 
-Was it Kestrin shale? I searched. A banquet thirty years later. Someone talking beside me while I watched a duchess lie badly about a border dispute. Wrong memory. Workshop. Smoke. A woman with burned fingertips. Not Pell. Arwick. Was her name Arwick? I could hear myself saying, "Use the old Kestrin mix." Maybe. Or "Don't use the old Kestrin mix." Fuck. Memory offered confidence without subtitles. I opened my eyes. This was exactly the trap. I had remembered the outcome and reconstructed the cause. The reconstruction was good enough to interest Pell. That did not make it true. I could lose the loan. Fine. I could work it off.
+Was it Kestrin shale? I searched. A banquet thirty years later. Someone talking beside me while I watched a duchess lie badly about a border dispute. Wrong memory. Workshop. Smoke. A woman with burned fingertips. Not Arlo. Arwick. Was her name Arwick? I could hear myself saying, "Use the old Kestrin mix." Maybe. Or "Don't use the old Kestrin mix." Fuck. Memory offered confidence without subtitles. I opened my eyes. This was exactly the trap. I had remembered the outcome and reconstructed the cause. The reconstruction was good enough to interest Arlo. That did not make it true. I could lose the loan. Fine. I could work it off.
 
-One bad memory did not erase forty years. It did change what I was allowed to buy with them. Memory could generate leads. Pell's bench got to decide which ones survived.
+One bad memory did not erase forty years. It did change what I was allowed to buy with them. Memory could generate leads. Arlo's bench got to decide which ones survived.
 
-"Greg," Pell said. Pell stood in the doorway.
+"Greg," Arlo said. Arlo stood in the doorway.
 
 "What?" I asked.
 
 "Come look," he said.
 
-The fifth sample had not worked either. The sixth had. Not dramatically. No glow. No miraculous transformation. Pell had run a cheap alchemical wash through a porous ceramic disk containing a small percentage of powdered shale. The liquid collected below was clearer than the control. Barely. But measurably. Pell ran it again. Same result. He stopped talking. That was when I knew we had something.
+The fifth sample had not worked either. The sixth had. Not dramatically. No glow. No miraculous transformation. Arlo had run a cheap alchemical wash through a porous ceramic disk containing a small percentage of powdered shale. The liquid collected below was clearer than the control. Barely. But measurably. Arlo ran it again. Same result. He stopped talking. That was when I knew we had something.
 
-I stared at the disk and remembered another successful test from much later in life. Different project. Different people. We had celebrated the first positive result for an entire night and discovered the next morning that it came from contamination in the measuring vessel. I had learned two things: never celebrate before replication, and never let Daro choose the celebratory liquor. Daro. Was Daro alive now? Almost certainly. Where? No idea. I nearly wrote his name down before remembering I was standing in Pell's workshop and had no paper in my hand.
+I stared at the disk and remembered another successful test from much later in life. Different project. Different people. We had celebrated the first positive result for an entire night and discovered the next morning that it came from contamination in the measuring vessel. I had learned two things: never celebrate before replication, and never let Daro choose the celebratory liquor. Daro. Was Daro alive now? Almost certainly. Where? No idea. I nearly wrote his name down before remembering I was standing in Arlo's workshop and had no paper in my hand.
 
 "How good?" I asked.
 
-"Not good," Pell said.
+"Not good," Arlo said.
 
 "Better?" I asked.
 
-"Yes," Pell said.
+"Yes," Arlo said.
 
 "How much better?" I asked.
 
-"I need proper measures," Pell said.
+"I need proper measures," Arlo said.
 
 "Guess," I said.
 
-"I don't guess," Pell said.
+"I don't guess," Arlo said.
 
 "Everyone guesses. Professionals write the guess down," I said. He glared at me.
 
 "Ten percent?" I asked.
 
-My heart kicked. Ten percent was enough. Not for the future product I remembered. Not yet. Enough for proof. Pell looked at the disk. Then at the shale. Then at me.
+My heart kicked. Ten percent was enough. Not for the future product I remembered. Not yet. Enough for proof. Arlo looked at the disk. Then at the shale. Then at me.
 
-"Where did you get this idea?" Pell asked. I smiled. He did not.
+"Where did you get this idea?" Arlo asked. I smiled. He did not.
 
-"Greg," Pell said.
+"Greg," Arlo said.
 
-Pell Arwick. Lamp repairer. Small workshop. Good hands. Careful notes. Future surname, maybe. I still did not know whether he became rich, whether somebody inherited the name, or whether I was remembering the wrong Arwick entirely. What did I owe the man in front of me if my memory had pointed me toward work he had not found yet? Inconvenient question. I answered a different one.
+Arlo Arwick. Lamp repairer. Small workshop. Good hands. Careful notes. Future surname, maybe. I still did not know whether he became rich, whether somebody inherited the name, or whether I was remembering the wrong Arwick entirely. What did I owe the man in front of me if my memory had pointed me toward work he had not found yet? Inconvenient question. I answered a different one.
 
 "How quickly can you improve it?" I asked.
 
-Pell's mouth tightened.
+Arlo's mouth tightened.
 
-"That's not what I asked," Pell said.
+"That's not what I asked," Arlo said.
 
 "I know," I said.
 
@@ -596,15 +596,15 @@ Pell's mouth tightened.
 
 "From something I saw a long time ago," I said.
 
-"You were a child a long time ago," Pell said.
+"You were a child a long time ago," Arlo said.
 
 "I was very observant," I said.
 
-"Greg," Pell said. I leaned over the bench.
+"Greg," Arlo said. I leaned over the bench.
 
 "If I tell you I don't have an answer you will believe, will you stop asking?" I asked.
 
-"No," Pell said.
+"No," Arlo said.
 
 "Then we've discovered another stable property," I said. He should have thrown me out. Instead he looked back at the sample. Curiosity beat suspicion, for now.
 
@@ -614,9 +614,9 @@ Interested, I corrected. Better.
 
 "What do you need?" I asked.
 
-"Better clay. Controlled heat. Different ratios. Proper test reagents," Pell said.
+"Better clay. Controlled heat. Different ratios. Proper test reagents," Arlo said.
 
-"Cost?" I asked. He named a number. I swore. Pell smiled for the first time all afternoon.
+"Cost?" I asked. He named a number. I swore. Arlo smiled for the first time all afternoon.
 
 "You wanted research."
 
@@ -630,27 +630,27 @@ I checked the remaining silver. I could fund it. Barely. Then I would have almos
 
 "I need a written statement," I said.
 
-Pell frowned. "Of what?"
+Arlo frowned. "Of what?"
 
 "What we tested. What happened. Your estimate that further trials are justified," I said.
 
-"I'm not putting my name on your sales pitch," Pell said.
+"I'm not putting my name on your sales pitch," Arlo said.
 
 "Not a sales pitch. A technical observation," I said.
 
-"For whom?" Pell asked.
+"For whom?" Arlo asked.
 
 "A lender," I said.
 
-"You borrowed the money?" Pell asked.
+"You borrowed the money?" Arlo asked.
 
-"Obviously," I said. Pell stared at me.
+"Obviously," I said. Arlo stared at me.
 
-"How much?" Pell asked.
+"How much?" Arlo asked.
 
 "Enough," I said.
 
-"From who?" Pell asked.
+"From who?" Arlo asked.
 
 "Antonius Vale," I said. He put both hands on the bench.
 
@@ -658,35 +658,35 @@ Pell frowned. "Of what?"
 
 "When you say it like that, it sounds irresponsible," I said.
 
-"It is irresponsible," Pell said.
+"It is irresponsible," Arlo said.
 
 "Then say it more quietly," I said.
 
-Pell walked to the other side of the workshop and stood there. I watched him think and felt the roles assembling anyway. Cautious artificer. Technical credibility. Future manufacturer. Partner. Asset. No. Pell. A person named Pell who wanted his work to remain his.
+Arlo walked to the other side of the workshop and stood there. I watched him think and felt the roles assembling anyway. Cautious artificer. Technical credibility. Future manufacturer. Partner. Asset. No. Arlo. A person named Arlo who wanted his work to remain his.
 
-I had always been good at turning people into roles because roles were easier to arrange than people. Pell was especially tempting because his surname already occupied some unknown place in my future.
+I had always been good at turning people into roles because roles were easier to arrange than people. Arlo was especially tempting because his surname already occupied some unknown place in my future.
 
 "If I write anything, it says exactly what happened. No claims. No projections."
 
 "Perfect," I said.
 
-"And my name stays attached to the work," Pell said.
+"And my name stays attached to the work," Arlo said.
 
 That surprised me, mostly because nineteen-year-old Greg would have tried to own the idea. Old Greg knew better. Mostly.
 
 "Yes," I said.
 
-Pell narrowed his eyes. "That easy?"
+Arlo narrowed his eyes. "That easy?"
 
 "No. I'm growing," I said.
 
-"Into what?" Pell asked.
+"Into what?" Arlo asked.
 
 "Unclear," I said.
 
 He wrote the statement. I took it to Antonius before sunset. His storage-room office still had the ham. The scarred man from yesterday was there too; his name, I learned, was Rusk. Nothing surfaced when I searched for him. On the walk over I rehearsed the argument three ways, then caught myself rehearsing for the Antonius I remembered rather than the one I had actually met.
 
-So I changed the plan. Give him the evidence. Let him ask. Watch what present Antonius cared about. Yesterday I had been a Bronze adventurer selling confidence. Today I had Pell's name on a test that had produced a measurable effect. Not a business. Evidence.
+So I changed the plan. Give him the evidence. Let him ask. Watch what present Antonius cared about. Yesterday I had been a Bronze adventurer selling confidence. Today I had Arlo's name on a test that had produced a measurable effect. Not a business. Evidence.
 
 Antonius looked at me long enough that I said, "What?"
 
@@ -696,7 +696,7 @@ Antonius looked at me long enough that I said, "What?"
 
 "Your face?"
 
-"Other people's." He held out his hand. I gave him Pell's note.
+"Other people's." He held out his hand. I gave him Arlo's note.
 
 He read it twice.
 
@@ -752,7 +752,7 @@ Jorren stopped laughing. Antonius did smile then.
 
 "Yes," I said.
 
-Could I? Probably. Maybe. There were merchants. Guild factors. Alchemists. Pell himself if I could convince him to risk his workshop. I did not know their current names. I did know how money behaved around opportunity. That was enough to make the threat credible to me. Antonius studied my face.
+Could I? Probably. Maybe. There were merchants. Guild factors. Alchemists. Arlo himself if I could convince him to risk his workshop. I did not know their current names. I did know how money behaved around opportunity. That was enough to make the threat credible to me. Antonius studied my face.
 
 "Who?"
 
@@ -770,7 +770,7 @@ Jorren barked a laugh. Antonius's smile widened.
 
 There. Not the loan. The play. I liked him more for asking. Yesterday the shale had been remembered garbage. Now it was a weak result, a technical witness, and a reason to ask for another round of capital. That was enough.
 
-"We prove the filtration effect. If it's material, we secure supply before anyone cares. Pell develops the process. We sell the process, manufacture the filters, or license both depending on capital."
+"We prove the filtration effect. If it's material, we secure supply before anyone cares. Arlo develops the process. We sell the process, manufacture the filters, or license both depending on capital."
 
 "We."
 
@@ -1146,25 +1146,25 @@ I thought of the silver in my coat. Research. Debt. Training. Food. I had wanted
 
 "Three," I said.
 
-Hessa named the fee. I winced. She smiled. Apparently everyone enjoyed this part. I paid for the first week. When I returned to Pell's workshop, it was dark. He was still there. Three new disks sat beside the kiln.
+Hessa named the fee. I winced. She smiled. Apparently everyone enjoyed this part. I paid for the first week. When I returned to Arlo's workshop, it was dark. He was still there. Three new disks sat beside the kiln.
 
 "You're late," he said.
 
 "You missed me."
 
-"No," Pell said.
+"No," Arlo said.
 
 "Results?"
 
 "Better."
 
-That word hit harder than it should have. Pell showed me. Not ten percent. Closer to twenty. Still crude. Still inconsistent.
+That word hit harder than it should have. Arlo showed me. Not ten percent. Closer to twenty. Still crude. Still inconsistent.
 
 Real.
 
-I laughed. Pell did not. Then he did, a little. I looked at the disks, the shale, the notes, Pell's tired face, and my mind began moving. Supply. Tests. Ownership. Guild salvage contracts. Manufacturing. Licensing. Antonius. Arwick. How much could I secure before anyone else noticed? How fast could Pell improve it? Who did I need? Who could I cut out? The thoughts came cleanly. Comfortably. Pell was saying something. I had stopped listening.
+I laughed. Arlo did not. Then he did, a little. I looked at the disks, the shale, the notes, Arlo's tired face, and my mind began moving. Supply. Tests. Ownership. Guild salvage contracts. Manufacturing. Licensing. Antonius. Arwick. How much could I secure before anyone else noticed? How fast could Arlo improve it? Who did I need? Who could I cut out? The thoughts came cleanly. Comfortably. Arlo was saying something. I had stopped listening.
 
-"Greg," Pell said. I looked up.
+"Greg," Arlo said. I looked up.
 
 "What?" I asked.
 
@@ -1188,7 +1188,7 @@ Dangerous. Useful. Person. I exhaled.
 
 "All right?"
 
-"Tomorrow. We write terms." Pell looked suspicious.
+"Tomorrow. We write terms." Arlo looked suspicious.
 
 "Fair terms."
 
@@ -1198,13 +1198,13 @@ More suspicious.
 
 "Do you?"
 
-That landed somewhere old. Faces. People I had pushed because I could. People I had made stronger. People I had made useful. People who had thanked me and hated me, sometimes in the same conversation. I looked at Pell. Not Arwick Works. Not a stamp on a future filter. Pell, in a rented room, after spending his entire day testing my stupid idea because curiosity had gotten its teeth into him.
+That landed somewhere old. Faces. People I had pushed because I could. People I had made stronger. People I had made useful. People who had thanked me and hated me, sometimes in the same conversation. I looked at Arlo. Not Arwick Works. Not a stamp on a future filter. Arlo, in a rented room, after spending his entire day testing my stupid idea because curiosity had gotten its teeth into him.
 
 "Yes," I said.
 
 Then, because the truth deserved precision:
 
-"I think I do." Pell nodded slowly.
+"I think I do." Arlo nodded slowly.
 
 "Tomorrow."
 
@@ -1216,13 +1216,13 @@ CHAPTER FOURTHE EXPERT
 
 The first thing I did the next morning was count my money. The second thing I did was count it again because the number offended me. It did not improve. I sat on the edge of the bed with the coins spread across the blanket in little stacks and tried to remember when silver had become invisible to me. Not metaphorically. Literally. There had been a point in my old life when I stopped counting it. Somebody else handled expenses. Somebody else settled rooms, replaced gear, paid porters, bought supplies, tipped runners, bribed clerks, and quietly moved money around so Greg could continue being Greg without ever needing to wonder whether dinner cost four copper or six.
 
-That arrangement had seemed efficient. Now it seemed suspiciously like being spoiled. I moved one silver from the left stack to the right. Training. Another. Food. Another. Pell. Another. Debt. I stopped. That was already more categories than coins.
+That arrangement had seemed efficient. Now it seemed suspiciously like being spoiled. I moved one silver from the left stack to the right. Training. Another. Food. Another. Arlo. Another. Debt. I stopped. That was already more categories than coins.
 
 "Excellent," I said.
 
-The room did not object. The shale project had become the most dangerous kind of thing: promising. Failure would have been cleaner. If Pell had looked at the sixth disk and said no, useless, wrong, then the project could die with dignity. Instead we had a twenty-percent improvement, a path toward better tests, and no idea whether the final product would take two weeks or two years.
+The room did not object. The shale project had become the most dangerous kind of thing: promising. Failure would have been cleaner. If Arlo had looked at the sixth disk and said no, useless, wrong, then the project could die with dignity. Instead we had a twenty-percent improvement, a path toward better tests, and no idea whether the final product would take two weeks or two years.
 
-I had been treating it like short-term money because I wanted it to be short-term money. Pell could keep working if we slowed the pace. Antonius had financing rights for three months. Nothing about the project demanded that I bleed myself dry this week except impatience. I took a piece of paper and wrote:
+I had been treating it like short-term money because I wanted it to be short-term money. Arlo could keep working if we slowed the pace. Antonius had financing rights for three months. Nothing about the project demanded that I bleed myself dry this week except impatience. I took a piece of paper and wrote:
 
 ARWICK / SHALE. LONG TERM.
 
@@ -1434,7 +1434,7 @@ Give me an hour and I knew who protected winnings, who chased losses, who bluffe
 
 The White Dog one night. The Copper Nail the next. A guild game behind a cooper's shop. A private table I got invited to because Osric apparently decided losing money to me was more enjoyable when accompanied by better wine. I won. Not always. Enough.
 
-Silver became less frightening. Then, almost immediately, less real. That was how fast my brain betrayed me. The first few winnings had been food. Training. Rent. Breathing room. The next few became capital. Capital became possibility. Possibility became permission. I funded another round of Pell's tests. Reasonable. I bought better food because Hessa had told me to. Also reasonable. I replaced my cracked boots. Still reasonable.
+Silver became less frightening. Then, almost immediately, less real. That was how fast my brain betrayed me. The first few winnings had been food. Training. Rent. Breathing room. The next few became capital. Capital became possibility. Possibility became permission. I funded another round of Arlo's tests. Reasonable. I bought better food because Hessa had told me to. Also reasonable. I replaced my cracked boots. Still reasonable.
 
 Then I bought a sword. That required more explanation. I already owned a sword. Technically. The object in my room had an edge, a hilt, and a history of being used on firewood. It was a sword in the same sense that I was currently a mage. Potentially. I wanted something balanced. Not expensive. There was a difference. I knew the difference. I had spent decades around excellent weapons. That should have helped. It did help.
 
@@ -1470,9 +1470,9 @@ Which raised an interesting question. How much better could I be if I learned it
 
 More importantly, I had spent decades making those warriors better. You learned a great deal about mechanics when your job was to amplify someone without tearing their muscles apart. Maybe first-life Greg had lacked education more than potential. Flattering theory. I liked it immediately. Dangerous. I wrote it down anyway. The guild practice yard charged by the hour. Of course it did.
 
-I paid. Silver. A stupid amount of silver for access to sand, posts, battered shields, and men who smelled like leather. I did not care. I wanted to move. That was the part the board could not solve. I was tired of sitting. Tired of remembering. Tired of explaining to Pell what I thought might happen. Tired of Hessa telling me to breathe slowly while trying to feel something that had once answered me like another limb. Tired of cards. Even winning at cards involved sitting down. I wanted my body to do something.
+I paid. Silver. A stupid amount of silver for access to sand, posts, battered shields, and men who smelled like leather. I did not care. I wanted to move. That was the part the board could not solve. I was tired of sitting. Tired of remembering. Tired of explaining to Arlo what I thought might happen. Tired of Hessa telling me to breathe slowly while trying to feel something that had once answered me like another limb. Tired of cards. Even winning at cards involved sitting down. I wanted my body to do something.
 
-More specifically, I wanted to be somebody who did things. The borrower waited. The investor watched Pell. The student breathed on command. The gambler sat and studied faces. The warrior moved. So I trained. For twenty minutes, I was a genius. My stance was cleaner than I remembered. My grip changed automatically. I stopped loading my shoulder before cuts.
+More specifically, I wanted to be somebody who did things. The borrower waited. The investor watched Arlo. The student breathed on command. The gambler sat and studied faces. The warrior moved. So I trained. For twenty minutes, I was a genius. My stance was cleaner than I remembered. My grip changed automatically. I stopped loading my shoulder before cuts.
 
 I shortened movements I had once made dramatically because nineteen-year-old Greg had apparently believed enemies were impressed by commitment. I moved around a post and saw mistakes before I made them. This was going to work. Of course it was. Why had I ever doubted it? I was not relearning swordsmanship. I was correcting it. Different thing. Faster thing. I worked through basic cuts.
 
@@ -1546,7 +1546,7 @@ Still fine. Annoying. Recoverable. I had Hessa money set aside. Except I had spe
 
 "That's inconvenient." I could win it back. That was the worst sentence I had thought all week. I knew it immediately. I went gambling the next night anyway. I won. I paid Hessa. I bought food.
 
-I put more money into Pell because one of his tests had improved again and stopping now seemed idiotic. Then I found a set of used vambraces at a price I considered absurdly low. They were absurdly low. I bought them. Good purchase. Still money. A week became a pattern. Win. Spend. Invest. Train. Lose. Win. Borrow against what I expected to win. That last part happened quietly. Antonius made it easy. Of course he did.
+I put more money into Arlo because one of his tests had improved again and stopping now seemed idiotic. Then I found a set of used vambraces at a price I considered absurdly low. They were absurdly low. I bought them. Good purchase. Still money. A week became a pattern. Win. Spend. Invest. Train. Lose. Win. Borrow against what I expected to win. That last part happened quietly. Antonius made it easy. Of course he did.
 
 "You've been paying on time," Antonius said.
 
@@ -1608,7 +1608,7 @@ That got the smallest smile.
 
 "Same thing." I disliked how quickly he said it. He turned the ledger toward me.
 
-Numbers. Actual numbers. I hated actual numbers when they disagreed with conceptual numbers. My original loan. Interest. Second advance. Third. Payments. Another advance. Fees. The sword instructor I had paid through a guild note because I had been short that afternoon. Pell's material order. A gambling stake Antonius's man had covered when I arrived without enough coin because I knew the table was good. I stared at that one.
+Numbers. Actual numbers. I hated actual numbers when they disagreed with conceptual numbers. My original loan. Interest. Second advance. Third. Payments. Another advance. Fees. The sword instructor I had paid through a guild note because I had been short that afternoon. Arlo's material order. A gambling stake Antonius's man had covered when I arrived without enough coin because I knew the table was good. I stared at that one.
 
 "I borrowed to gamble?"
 
@@ -1708,7 +1708,7 @@ Warrior Greg did not stay in the sand because his legs were tired. That was exac
 
 Bad.
 
-Very bad. Payment soon. Hessa due after that. Pell wanted another material batch. The sword instructor had offered a discounted block of five sessions if I paid upfront. Discounted. That made it economical. I wrote the amount down. Then stared at it. Progress. I crossed it out. Then wrote it again smaller. Potentially. I needed money. I knew how to make money.
+Very bad. Payment soon. Hessa due after that. Arlo wanted another material batch. The sword instructor had offered a discounted block of five sessions if I paid upfront. Discounted. That made it economical. I wrote the amount down. Then stared at it. Progress. I crossed it out. Then wrote it again smaller. Potentially. I needed money. I knew how to make money.
 
 Cards. Simple. I went out. The table was wrong. I knew that within twenty minutes. I stayed. The first player was unreadable because he was drunk enough that his own intentions changed between looking at his cards and placing the bet. The second was good. The third was better. The fourth was lucky. I hated the fourth. I lost. Not badly. Then badly. Then recovered half.
 
@@ -1824,7 +1824,7 @@ Beautiful balance. Excellent purchase. Investment in accelerated martial develop
 
 Outside, I started walking home. My legs hurt from training. My ribs hurt from Jorren. My hand still held the faint memory of mana. The sword moved comfortably at my hip. Both legs worked. For now, everything worked. That was the problem. Cards. Memory. Investments. Bodies. People. Me.
 
-Tomorrow Antonius owned my morning. Hessa owned part of my afternoon. Pell wanted money I no longer had. The gambling tables were temporarily forbidden unless I wanted to discover how patient Antonius really was. And Warrior Greg, apparently, was back.
+Tomorrow Antonius owned my morning. Hessa owned part of my afternoon. Arlo wanted money I no longer had. The gambling tables were temporarily forbidden unless I wanted to discover how patient Antonius really was. And Warrior Greg, apparently, was back.
 
 That was comforting in a way I did not entirely trust. There was always another Greg available when the current one became inconvenient. I had spent most of my life calling that adaptability. For now, I still liked the word. Halfway home, I caught myself thinking about how to make creditor labor useful. I stopped walking.
 
@@ -1838,7 +1838,7 @@ And kept walking.
 
 CHAPTER SIXTHE LABORER
 
-Antonius owned my morning. I objected to this on principle. Not the debt. The morning. Mornings were useful. Hessa preferred them for conditioning because the body was rested. Pell's workshop was quieter before deliveries began. The guild posted fresh contracts early. Gambling rooms were mostly empty, which made morning excellent for thinking about gambling without actually gambling. Antonius had taken the best part of the day and replaced it with Rusk. Rusk was waiting outside the warehouse when I arrived. He handed me a sack. I looked at it. Then at him.
+Antonius owned my morning. I objected to this on principle. Not the debt. The morning. Mornings were useful. Hessa preferred them for conditioning because the body was rested. Arlo's workshop was quieter before deliveries began. The guild posted fresh contracts early. Gambling rooms were mostly empty, which made morning excellent for thinking about gambling without actually gambling. Antonius had taken the best part of the day and replaced it with Rusk. Rusk was waiting outside the warehouse when I arrived. He handed me a sack. I looked at it. Then at him.
 
 "What is this?"
 
@@ -2114,7 +2114,7 @@ Four counts. Hold. Release. Again. My shoulders were tired from flour. My palms 
 
 "Then do it."
 
-Four counts. Nothing else. No debt. No warehouse. No sword. No Pell. Breath. Response. Hold. For five breaths, I managed it. Five. I opened my eyes. Hessa nodded. That was all. I wanted applause. Apparently S-class had not cured that either. After training, I should have rested. Instead I went to Pell. He had three new disks. One cracked.
+Four counts. Nothing else. No debt. No warehouse. No sword. No Arlo. Breath. Response. Hold. For five breaths, I managed it. Five. I opened my eyes. Hessa nodded. That was all. I wanted applause. Apparently S-class had not cured that either. After training, I should have rested. Instead I went to Arlo. He had three new disks. One cracked.
 
 One performed worse than the previous batch. One performed slightly better.
 
@@ -2128,7 +2128,7 @@ One performed worse than the previous batch. One performed slightly better.
 
 Unfortunate.
 
-"Slow," Pell said.
+"Slow," Arlo said.
 
 "I know."
 
@@ -2136,11 +2136,11 @@ Unfortunate.
 
 "It often is."
 
-He showed me the notes. I understood perhaps half and remembered enough future terminology to be dangerous. I asked two questions. One was useful. The other revealed I had misunderstood what Pell was measuring.
+He showed me the notes. I understood perhaps half and remembered enough future terminology to be dangerous. I asked two questions. One was useful. The other revealed I had misunderstood what Arlo was measuring.
 
 Good.
 
-Another correction. I left without funding another batch. That was difficult. I was proud of myself for almost an entire street. Then I thought of three cheaper tests Pell could run. I turned around. Stopped.
+Another correction. I left without funding another batch. That was difficult. I was proud of myself for almost an entire street. Then I thought of three cheaper tests Arlo could run. I turned around. Stopped.
 
 "No."
 
@@ -2576,7 +2576,7 @@ There was amusement again. But something else now. Assessment. He was indexing m
 
 "But you think you're passing through." I did.
 
-Obviously. A few weeks. Maybe months. Get mana online. Stabilize income. Build capital. Pell develops the shale. Warrior training accelerates. Then larger moves. Antonius's warehouse was a temporary constraint. Antonius watched all of that happen on my face.
+Obviously. A few weeks. Maybe months. Get mana online. Stabilize income. Build capital. Arlo develops the shale. Warrior training accelerates. Then larger moves. Antonius's warehouse was a temporary constraint. Antonius watched all of that happen on my face.
 
 "You do," he said.
 
@@ -2678,7 +2678,7 @@ Wrong.
 
 I had never known this version. And I had remembered his name anyway. Through forty years of wars, guilds, catastrophes, and people who could level buildings, Antonius Vale had stayed distinct. I remembered the weight more clearly than the mechanism. Future knowledge kept handing me conclusions about people whose beginnings I had never seen.
 
-Pell. Antonius. Maybe half the world. I knew what some of them became. Tomorrow Antonius was giving me a storeroom. One room. One shitty job. I felt my mind settle around it already. I hated that. Then I started wondering what was in the storeroom. Worse.
+Arlo. Antonius. Maybe half the world. I knew what some of them became. Tomorrow Antonius was giving me a storeroom. One room. One shitty job. I felt my mind settle around it already. I hated that. Then I started wondering what was in the storeroom. Worse.
 
 CHAPTER SEVENTHE OWNER
 
@@ -2842,7 +2842,7 @@ Potential. Not enough information. I put it in a separate pile. Antonius stopped
 
 "Of course." He resumed.
 
-Ten minutes later I had six categories. Antonius had two. Keep. Throw away. His system was faster. Mine was better. Probably. The room fought me. Every object suggested something. A bent iron brace reminded me of modular shield frames used during the Western campaigns. Too early. Wrong shape. A cracked lens reminded me of rangefinders. Not invented. Could Pell use it?
+Ten minutes later I had six categories. Antonius had two. Keep. Throw away. His system was faster. Mine was better. Probably. The room fought me. Every object suggested something. A bent iron brace reminded me of modular shield frames used during the Western campaigns. Too early. Wrong shape. A cracked lens reminded me of rangefinders. Not invented. Could Arlo use it?
 
 Maybe. A spool of copper wire was absolutely useful. Antonius said it was corroded. Still copper. A stack of warped wooden plates looked worthless until I realized they were standardized blanks for something. I did not know what. I kept them anyway. Antonius moved them back to discard. I moved them back to keep. He moved them again. I stared at him.
 
@@ -2954,7 +2954,7 @@ I pointed at the nested plates. "I think this is a master calibration gauge. Ear
 
 His eyebrows rose.
 
-"Pell might be able to identify it. Maybe authenticate it. I personally have no use for it at all."
+"Arlo might be able to identify it. Maybe authenticate it. I personally have no use for it at all."
 
 "So you want to pay three silver for something useless to you."
 
@@ -3176,7 +3176,7 @@ I stared toward the shelf. Five silver suddenly felt criminally cheap. Forty gol
 
 No mana conditioning. No sword training. No automatic fortune. It was forty gold sitting on a shelf pretending to be five silver until I did more work. Of course it was. Unless my memory was wrong. Unless Orlan himself never mattered and someone else used the name. Unless the mark changed. Unless the story I remembered was retrospective mythology. Still. This was exactly the kind of lead future knowledge was actually good for.
 
-Not certainty. A lead. Check. Pell could inspect it.
+Not certainty. A lead. Check. Arlo could inspect it.
 
 Good.
 
@@ -3594,9 +3594,9 @@ Something in his face shifted.
 
 "Take it." I put it in my pocket.
 
-No ledger. No two silver. No joke. We finished near dusk. An entire day. Gone. No gambling. No sword training. No Pell. Hessa missed. That last one was bad. I would have to explain. She would say I chose the debt. She would be correct. I hated that in advance. Antonius locked the storeroom. I stood in the hall, dusty, tired, and weirdly satisfied. The room was clean. That should not have mattered.
+No ledger. No two silver. No joke. We finished near dusk. An entire day. Gone. No gambling. No sword training. No Arlo. Hessa missed. That last one was bad. I would have to explain. She would say I chose the debt. She would be correct. I hated that in advance. Antonius locked the storeroom. I stood in the hall, dusty, tired, and weirdly satisfied. The room was clean. That should not have mattered.
 
-It did. One room. One constraint. Finished. My brain immediately tried to expand. Inventory system. Collateral valuation. Storage rotation. Old debtor review. Orlan Tere. Pell needed to see the box. Could Tere still be in Carrow? Could we find him? If his workshop failed because the market was too early, could I... Stop. I actually stopped. That was new. Antonius noticed.
+It did. One room. One constraint. Finished. My brain immediately tried to expand. Inventory system. Collateral valuation. Storage rotation. Old debtor review. Orlan Tere. Arlo needed to see the box. Could Tere still be in Carrow? Could we find him? If his workshop failed because the market was too early, could I... Stop. I actually stopped. That was new. Antonius noticed.
 
 "What?"
 
@@ -3894,23 +3894,23 @@ There. Not much. Enough.
 
 Selka looked between us. Then laughed once despite herself. Useful. People were easier after they laughed. Usually. Sometimes laughter meant they had decided to stab you. Context.
 
-"Three days," she said.
+"Three days," Selka said.
 
-"Buyer is three days late?" She nodded.
+"Buyer is three days late?" I asked. She nodded.
 
-"How much?"
+"How much?" I asked.
 
-"No."
+"No," Selka said.
 
-"More than nine silver?"
+"More than nine silver?" I asked.
 
 Silence.
 
 Yes.
 
-"How much more?"
+"How much more?" I asked.
 
-"Greg." Rusk again.
+"Greg," Rusk said again.
 
 Fine. Constraint. Nine silver, three copper. Collect. I looked at the shelves.
 
@@ -3970,19 +3970,21 @@ Too many. Nine silver. Today.
 
 Selka looked annoyed by the question.
 
-"Three."
+"Three," Selka said.
 
-"Silver?"
+"Silver?" I asked.
 
-"Yes." Rusk said, "Nine."
+"Yes," Selka said.
 
-"I heard you."
+"Nine," Rusk said.
 
-"Then collect nine."
+"I heard you," I said.
 
-"She doesn't have nine."
+"Then collect nine," Rusk said.
 
-"Not our problem."
+"She doesn't have nine," I said.
+
+"Not our problem," Rusk said.
 
 That phrase. Not our problem. I looked at him. He looked back. He was not being cruel. Not exactly. His job had edges. Collect the amount. My brain wanted to widen the edges until they contained the whole workshop. That was the trap. One problem. Nine silver. Today. What assets could bridge six? Finished cloth was committed. Tools?
 
@@ -3996,25 +3998,27 @@ Selka hesitated.
 
 "Jast."
 
-"Who is Jast?"
+"Who is Jast?" I asked.
 
-"Merchant." Rusk said, "I know him."
+"Merchant," Selka said.
+
+"I know him," Rusk said.
 
 Good.
 
-"Does he pay?" Rusk shrugged.
+"Does he pay?" I asked. Rusk shrugged.
 
-"Eventually."
+"Eventually," Rusk said.
 
-"How eventually?"
+"How eventually?" I asked.
 
-"Depends who asks."
+"Depends who asks," Rusk said.
 
 Interesting.
 
-"How much does he owe her?"
+"How much does he owe her?" I asked.
 
-Selka said, "Fourteen." There. Enough.
+"Fourteen," Selka said. There. Enough.
 
 "Due three days ago."
 
@@ -4128,23 +4132,25 @@ Selka frowned.
 
 There. Collateral that increased in value if left with the debtor. Interesting.
 
-"We take a lien on that piece." Rusk said, "A what?"
+"We take a lien on that piece," I said.
 
-"Security. Not possession."
+"A what?" Rusk asked.
 
-"I know what a lien is."
+"Security. Not possession," I said.
 
-"Excellent."
+"I know what a lien is," Rusk said.
 
-"Antonius said collect."
+"Excellent," I said.
+
+"Antonius said collect," Rusk said.
 
 "Three silver collected. Six secured against cloth worth at least eight unfinished and twelve finished. Due in three days, same day Jast should have paid or shortly after. If she defaults, Antonius takes the cloth."
 
 Selka's face changed. Anger.
 
-"You don't take it now."
+"You don't take it now," Selka said.
 
-"No."
+"No," I said.
 
 "Greg," Rusk said. I ignored him.
 
@@ -4254,21 +4260,21 @@ Antonius had asked for money. We had failed to collect five. Report it. Move on.
 
 "First: three silver, balance promised in two days." Antonius nodded.
 
-"Second?"
+"Second?" Antonius asked.
 
-"Three silver." Antonius looked at the list.
+"Three silver," Rusk said. Antonius looked at the list.
 
 "She owes nine."
 
-"Yes."
+"Yes," Rusk said.
 
 His eyes moved to me. I smiled. He closed his eyes.
 
 "Greg."
 
-"Before you react, "
+"Before you react," I said.
 
-"No."
+"No," Antonius said.
 
 "You don't know what happened."
 
@@ -4276,11 +4282,13 @@ His eyes moved to me. I smiled. He closed his eyes.
 
 Traitor. Antonius opened his eyes.
 
-"What did he do?" Rusk said, "Lent your money."
+"What did he do?" Antonius asked.
 
-"I did not lend anything." Antonius looked at me.
+"Lent your money," Rusk said.
 
-"What did you do?"
+"I did not lend anything," I said. Antonius looked at me.
+
+"What did you do?" Antonius asked.
 
 "Collected three, secured the remaining six against an unfinished cloth order worth at least eight as-is and likely twelve to fourteen finished, extended two days, with extension terms to be set by you."
 
@@ -4324,19 +4332,19 @@ Antonius's hand stopped.
 
 "See?" Antonius ignored me.
 
-"How long?"
+"How long?" Antonius asked.
 
-"Two days."
+"Two days," I said.
 
 "She offered three."
 
 "Rusk got two." Antonius looked at Rusk. Rusk shrugged.
 
-"I was there."
+"I was there," Rusk said.
 
-"That's reassuring."
+"That's reassuring," Antonius said.
 
-"It should be." Antonius looked at the agreement.
+"It should be," Rusk said. Antonius looked at the agreement.
 
 Read it. Again. Then set it down.
 
@@ -5104,7 +5112,7 @@ We walked another block.
 
 Interesting. I had too. More than Antonius probably possessed. Maybe. That was not the point. The point was he did not seem insulted by risk. He priced it. Different. Second stop. A woman named Dena Harrow ran a small chandlery near the river. She did not ask Antonius for money. She asked him to wait. That was strange. We waited. I hated waiting. I inspected rope.
 
-Lamp oil. Hooks. Wax. A brass fitting reminded me of the Tere gauge. Pell. Later.
+Lamp oil. Hooks. Wax. A brass fitting reminded me of the Tere gauge. Arlo. Later.
 
 No.
 
@@ -5116,17 +5124,19 @@ Yes.
 
 Which year? Not now. Maybe. Could be relevant. Boat name? The Silver Hen. Nothing. Captain? Jaro Venn. Nothing. Partners? One surname faintly familiar. Stop. Antonius asked, "Why is the share for sale?" The nephew said, "Partner needs cash." Antonius waited. The nephew added, "Family issue." Antonius waited. Dena looked at the boy. The boy shifted.
 
-"Cards."
+"Cards," the nephew said.
 
 There.
 
-"How much does he owe?"
+"How much does he owe?" Antonius asked.
 
-"I don't know."
+"I don't know," the nephew said.
 
-"Who?"
+"Who?" Antonius asked.
 
-"I don't know." Antonius looked at Dena. She said, "Vale."
+"I don't know." Antonius looked at Dena.
+
+"Vale," Dena said.
 
 Ah. Antonius. The selling partner owed Antonius. That changed the shape.
 
@@ -5138,13 +5148,13 @@ Right.
 
 Not my ledger. The nephew continued pitching. Good boat. Good route. Good captain. Profitable last year. Antonius asked for books. The nephew had copies. Antonius read. Slowly. I wanted them. He did not offer. I looked over his shoulder. He shifted the pages away. Bastard.
 
-"What do you think?" he asked.
+"What do you think?" Antonius asked.
 
 Me. I blinked.
 
-"About what?"
+"About what?" I asked.
 
-"The loan."
+"The loan," Antonius said.
 
 There were too many answers. Future river traffic. Partner incentives. Debt chain. Boat condition. Captain. Weather. Cargo concentration. Why share price twelve? Why seller desperate? Could Antonius simply take the share as settlement? Could the nephew,
 
@@ -5184,9 +5194,9 @@ Dena looked at me. The nephew looked at me. Antonius looked at me. I continued b
 
 Wrong instinct.
 
-"How long have you worked on the boat?"
+"How long have you worked on the boat?" I asked.
 
-"Three years."
+"Three years," the nephew said.
 
 "What do you do?"
 
@@ -5240,19 +5250,19 @@ There. He wanted ownership. Did he want responsibility? Different.
 
 Dena frowned at me. The boy got defensive.
 
-"I know the route."
+"I know the route," the nephew said.
 
-"I believe you."
+"I believe you," I said.
 
 That surprised him. I did. He knew details when Antonius asked. Dock fees. Typical loading delays. Which grain merchants cheated on weight. He knew the work. But ownership in his head was still a promotion. Status. Maybe money. Not yet responsibility. Could learn. Would he? Maybe. I looked at Antonius.
 
-"Not eight."
+"Not eight," I said.
 
 The nephew protested. Antonius ignored him.
 
-"Why?"
+"Why?" Antonius asked.
 
-"He knows the operation. Doesn't know the ownership job yet."
+"He knows the operation. Doesn't know the ownership job yet," I said.
 
 "How much?"
 
@@ -5894,7 +5904,7 @@ That was probably true.
 
 "You correct fast."
 
-Silence. Hessa had said something similar. Pell too, in different words. Once somebody showed me the mistake, I rarely made exactly that mistake again. I made exciting new ones.
+Silence. Hessa had said something similar. Arlo too, in different words. Once somebody showed me the mistake, I rarely made exactly that mistake again. I made exciting new ones.
 
 "That's why?" I asked.
 
@@ -6018,7 +6028,13 @@ WHAT IS HE ACTUALLY GOOD AT?
 
 I wrote:
 
-- temporary vs structural failure- pricing uncertainty- remembering people- knowing what borrowers need, not what they ask for- staying close to operations- saying no- options I stared at the last word. Then wrote:
+- temporary vs structural failure
+- pricing uncertainty
+- remembering people
+- knowing what borrowers need, not what they ask for
+- staying close to operations
+- saying no
+- options I stared at the last word. Then wrote:
 
 WHAT IS HE BAD AT?
 
@@ -6060,7 +6076,7 @@ Antonius put a dead man's hand on the table. I looked at it. Then at him.
 
 "That is exactly what someone says before explaining why a hand isn't technically a hand."
 
-Across the table, Pell Arwick leaned forward until his nose was perhaps six inches from the object. "It's a gauntlet." The distinction was defensible. Barely. The thing had five articulated fingers, a palm, a wrist, and enough tarnished metal plating to suggest armor, but the proportions were wrong. Too narrow through the palm. Too long in the fingers. Black leather showed beneath strips of dull silver-gray metal, and a cluster of tiny blue stones had been set along the inside of the wrist. One finger was missing. That did not help. Antonius said, "It was offered against a loan."
+Across the table, Arlo Arwick leaned forward until his nose was perhaps six inches from the object. "It's a gauntlet." The distinction was defensible. Barely. The thing had five articulated fingers, a palm, a wrist, and enough tarnished metal plating to suggest armor, but the proportions were wrong. Too narrow through the palm. Too long in the fingers. Black leather showed beneath strips of dull silver-gray metal, and a cluster of tiny blue stones had been set along the inside of the wrist. One finger was missing. That did not help. Antonius said, "It was offered against a loan."
 
 "By the dead man?" I asked.
 
@@ -6074,13 +6090,13 @@ Across the table, Pell Arwick leaned forward until his nose was perhaps six inch
 
 "It's nearly noon." I looked toward the window. It was, in fact, nearly noon.
 
-"That's worse." Pell touched one of the wrist stones with the end of a wooden pick. "Don't."
+"That's worse." Arlo touched one of the wrist stones with the end of a wooden pick. "Don't."
 
 "I wasn't going to touch it."
 
 "You were leaning."
 
-"I lean professionally." Pell gave me a flat look. "You bought a calibration gauge because you recognized a maker's stamp and still don't know what it does."
+"I lean professionally." Arlo gave me a flat look. "You bought a calibration gauge because you recognized a maker's stamp and still don't know what it does."
 
 "I know what it does."
 
@@ -6088,15 +6104,15 @@ Across the table, Pell Arwick leaned forward until his nose was perhaps six inch
 
 "That distinction is becoming fashionable."
 
-Antonius sat behind his desk with his small leather ledger closed beside one elbow. He had summoned Pell to the warehouse and then sent Rusk to find me at Hessa's. I had assumed this meant the Tere gauge. It did not.
+Antonius sat behind his desk with his small leather ledger closed beside one elbow. He had summoned Arlo to the warehouse and then sent Rusk to find me at Hessa's. I had assumed this meant the Tere gauge. It did not.
 
-The gauge was still mine once I produced ten silver, which was simultaneously an absurd bargain and ten silver I did not currently possess. Antonius had reduced the price from the original forty-gold revelation to something that remained painful enough to teach me not to tell a lender how valuable his trash was. He claimed this was generosity. I claimed he was a bastard. We were both correct. Antonius tapped the metal hand. "What is it worth?" Pell did not answer.
+The gauge was still mine once I produced ten silver, which was simultaneously an absurd bargain and ten silver I did not currently possess. Antonius had reduced the price from the original forty-gold revelation to something that remained painful enough to teach me not to tell a lender how valuable his trash was. He claimed this was generosity. I claimed he was a bastard. We were both correct. Antonius tapped the metal hand. "What is it worth?" Arlo did not answer.
 
 I did.
 
-"To whom?" Antonius looked at me. I smiled. He looked at Pell. Pell smiled. Antonius sighed. "I preferred both of you separately."
+"To whom?" Antonius looked at me. I smiled. He looked at Arlo. Arlo smiled. Antonius sighed. "I preferred both of you separately."
 
-"That's because separately you can bully us," Pell said.
+"That's because separately you can bully us," Arlo said.
 
 "I can bully you together."
 
@@ -6132,9 +6148,9 @@ I did.
 
 "You don't."
 
-Constraint. Fine. Pell rotated the gauntlet without touching the stones. "How old?"
+Constraint. Fine. Arlo rotated the gauntlet without touching the stones. "How old?"
 
-"Seller says pre-Concord." Pell snorted.
+"Seller says pre-Concord." Arlo snorted.
 
 "So no."
 
@@ -6152,7 +6168,7 @@ Constraint. Fine. Pell rotated the gauntlet without touching the stones. "How ol
 
 I looked more closely. Pre-Concord meant before the standardization agreements that had turned half the continent's magical craft from local secrets into merely expensive local secrets. People romanticized the period because old artificing occasionally did something modern artificers found irritatingly difficult to reproduce. Mostly, however, old magical objects were just old.
 
-Leather rotted. Runes wore. Mana channels cracked. People saw age and imagined lost mastery because nobody wrote ballads about obsolete hinges. The wrist stones bothered me. Not because I recognized them. Because I did not. Blue stones in magical equipment usually meant nothing by themselves. Color was one of the least useful ways to identify mana-active minerals and one of the most popular ways for idiots to do it. I crouched beside the table. Pell said, "Still don't touch."
+Leather rotted. Runes wore. Mana channels cracked. People saw age and imagined lost mastery because nobody wrote ballads about obsolete hinges. The wrist stones bothered me. Not because I recognized them. Because I did not. Blue stones in magical equipment usually meant nothing by themselves. Color was one of the least useful ways to identify mana-active minerals and one of the most popular ways for idiots to do it. I crouched beside the table. Arlo said, "Still don't touch."
 
 "I know."
 
@@ -6166,9 +6182,9 @@ Leather rotted. Runes wore. Mana channels cracked. People saw age and imagined l
 
 "How?" I thought.
 
-"I felt confident." Pell stared. Antonius laughed.
+"I felt confident." Arlo stared. Antonius laughed.
 
-"Excellent," Pell said. "Our appraisal method is confidence."
+"Excellent," Arlo said. "Our appraisal method is confidence."
 
 "I survived to, " I stopped.
 
@@ -6176,7 +6192,7 @@ Both men looked at me.
 
 "To nineteen?" Antonius asked.
 
-"Repeatedly." Pell frowned. I pointed at the gauntlet. "Can we make it do something?"
+"Repeatedly." Arlo frowned. I pointed at the gauntlet. "Can we make it do something?"
 
 "Eventually."
 
@@ -6188,7 +6204,7 @@ Both men looked at me.
 
 "Nine and a half."
 
-I looked at his left hand. The tip of his smallest finger was indeed missing. I had never noticed. Pell caught me looking and tucked the hand under the table.
+I looked at his left hand. The tip of his smallest finger was indeed missing. I had never noticed. Arlo caught me looking and tucked the hand under the table.
 
 "Workshop accident," he said.
 
@@ -6196,15 +6212,15 @@ I looked at his left hand. The tip of his smallest finger was indeed missing. I 
 
 "You were going to."
 
-Everyone was becoming Antonius. Terrible. Pell opened his case. That was when I understood why Antonius had called both of us. Pell knew objects. I knew consequences. Or, more accurately, I sometimes remembered consequences and then lied to myself about knowing the objects that caused them. Different skill. Useful distinction. Pell laid out a thin copper rod, two pieces of chalk, a little glass cup, a coil of wire, and a flat stone marked with concentric circles. Antonius looked at the equipment.
+Everyone was becoming Antonius. Terrible. Arlo opened his case. That was when I understood why Antonius had called both of us. Arlo knew objects. I knew consequences. Or, more accurately, I sometimes remembered consequences and then lied to myself about knowing the objects that caused them. Different skill. Useful distinction. Arlo laid out a thin copper rod, two pieces of chalk, a little glass cup, a coil of wire, and a flat stone marked with concentric circles. Antonius looked at the equipment.
 
 "How much?"
 
-"Mine," Pell said.
+"Mine," Arlo said.
 
 "That wasn't the question."
 
-"More than your desk." Antonius put one hand protectively on the desk. I smiled. Pell noticed.
+"More than your desk." Antonius put one hand protectively on the desk. I smiled. Arlo noticed.
 
 "Don't encourage him."
 
@@ -6212,19 +6228,19 @@ Everyone was becoming Antonius. Terrible. Pell opened his case. That was when I 
 
 "Your face did."
 
-Again. Pell began testing. Not dramatic testing. He did not chant. Nothing glowed. He touched the copper rod to different plates, marked responses in chalk, connected wire between two points, and muttered increasingly insulting things about whoever had built the gauntlet. I watched. Antonius watched me. After a while I looked at him.
+Again. Arlo began testing. Not dramatic testing. He did not chant. Nothing glowed. He touched the copper rod to different plates, marked responses in chalk, connected wire between two points, and muttered increasingly insulting things about whoever had built the gauntlet. I watched. Antonius watched me. After a while I looked at him.
 
-"What?"
+"What?" I asked.
 
-"Nothing."
+"Nothing," Antonius said.
 
-"You're watching me instead of Pell."
+"You're watching me instead of Arlo."
 
-"Yes."
+"Yes," Antonius said.
 
 "Why?"
 
-"I know what Pell is doing."
+"I know what Arlo is doing."
 
 "No, you don't."
 
@@ -6238,7 +6254,7 @@ Again. Pell began testing. Not dramatic testing. He did not chant. Nothing glowe
 
 "No. You're waiting to see what I say." Antonius smiled slightly.
 
-That was new. A week ago I would have spent the whole appraisal trying to prove I knew more than Pell. Today I was interested in why Antonius had chosen six gold as the question. Not whether the gauntlet was valuable. Whether it was useful as security. Different. I looked back at the object.
+That was new. A week ago I would have spent the whole appraisal trying to prove I knew more than Arlo. Today I was interested in why Antonius had chosen six gold as the question. Not whether the gauntlet was valuable. Whether it was useful as security. Different. I looked back at the object.
 
 "What does the borrower need six gold for?" Antonius said, "No."
 
@@ -6246,11 +6262,11 @@ That was new. A week ago I would have spent the whole appraisal trying to prove 
 
 "To whether this is worth six?"
 
-"To whether you should care if it's worth six." Pell paused.
+"To whether you should care if it's worth six." Arlo paused.
 
 Antonius's eyes narrowed. I continued.
 
-"If he needs six gold to buy a tavern, that's one problem. If he needs six gold to retrieve the other half of whatever this came from, that's another." Pell looked at Antonius. Antonius looked at me.
+"If he needs six gold to buy a tavern, that's one problem. If he needs six gold to retrieve the other half of whatever this came from, that's another." Arlo looked at Antonius. Antonius looked at me.
 
 "Expedition."
 
@@ -6292,7 +6308,7 @@ That was worse. Or better. Depending.
 
 "Expected return?"
 
-"He says thirty." I laughed. Pell resumed his testing. Antonius said, "Why is that funny?"
+"He says thirty." I laughed. Arlo resumed his testing. Antonius said, "Why is that funny?"
 
 "Because thirty is a number you say when the real answer is 'I hope a lot.'"
 
@@ -6302,9 +6318,9 @@ That was worse. Or better. Depending.
 
 "No."
 
-"Fine." I looked at Pell. "Anything?"
+"Fine." I looked at Arlo. "Anything?" I asked.
 
-"Yes."
+"Yes," Arlo said.
 
 "Good?"
 
@@ -6314,15 +6330,15 @@ That was worse. Or better. Depending.
 
 "No."
 
-"Useful." Pell tapped the palm plate with the copper rod. "There's a channel here."
+"Useful." Arlo tapped the palm plate with the copper rod. "There's a channel here."
 
 "Mana?"
 
 "What else?"
 
-"Blood." Pell stopped. Antonius stopped. I looked at the gauntlet.
+"Blood." Arlo stopped. Antonius stopped. I looked at the gauntlet.
 
-"Hm." Pell slowly moved the rod.
+"Hm." Arlo slowly moved the rod.
 
 "Why blood?"
 
@@ -6354,7 +6370,7 @@ Different. Another memory. A man in red armor reaching through a magical field w
 
 No.
 
-His gauntlet had been heavier. Gold channels. Different century. Another. Dungeon teams using handling frames to move unstable cores. Hands covered. Long fingers. Blue stones? Maybe. I leaned closer. Pell slapped my shoulder.
+His gauntlet had been heavier. Gold channels. Different century. Another. Dungeon teams using handling frames to move unstable cores. Hands covered. Long fingers. Blue stones? Maybe. I leaned closer. Arlo slapped my shoulder.
 
 "Back."
 
@@ -6370,7 +6386,7 @@ His gauntlet had been heavier. Gold channels. Different century. Another. Dungeo
 
 "Back." I moved back.
 
-The thought remained. Handling. Not combat. Maybe. The fingers were too long because they were not meant to match a hand precisely. They extended reach. Why articulate them? Fine manipulation. Why wrist stones? Buffer? Grounding? Isolation? I said, "It's not armor." Pell looked at me. Antonius said, "It looks like armor."
+The thought remained. Handling. Not combat. Maybe. The fingers were too long because they were not meant to match a hand precisely. They extended reach. Why articulate them? Fine manipulation. Why wrist stones? Buffer? Grounding? Isolation? I said, "It's not armor." Arlo looked at me. Antonius said, "It looks like armor."
 
 "It's shaped like armor."
 
@@ -6378,7 +6394,7 @@ The thought remained. Handling. Not combat. Maybe. The fingers were too long bec
 
 "The fingers are wrong."
 
-Pell's expression changed. Small. I pointed without touching. "If you wanted protection, you'd reinforce the knuckles and outer wrist. Those plates are thin. The expensive-looking parts are inside." Pell leaned closer.
+Arlo's expression changed. Small. I pointed without touching. "If you wanted protection, you'd reinforce the knuckles and outer wrist. Those plates are thin. The expensive-looking parts are inside." Arlo leaned closer.
 
 "The palm channel."
 
@@ -6406,7 +6422,7 @@ He had reached into a live array and moved a crystal while everyone else stood t
 
 "That's broad."
 
-"Yes." Pell said, "He's probably right." I looked at him.
+"Yes." Arlo said, "He's probably right." I looked at him.
 
 "Say it again."
 
@@ -6416,11 +6432,11 @@ He had reached into a live array and moved a crystal while everyone else stood t
 
 "Fuck off." Antonius rubbed his forehead.
 
-"Value."
+"Value," Antonius said.
 
-"Unknown," Pell said.
+"Unknown," Arlo said.
 
-"Helpful." Pell pointed to the blue stones. "Those are active."
+"Helpful," I said. Arlo pointed to the blue stones. "Those are active."
 
 "How active?"
 
@@ -6434,23 +6450,25 @@ He had reached into a live array and moved a crystal while everyone else stood t
 
 "Maybe if I remove one."
 
-"Don't." Pell looked at me. I surprised myself too.
+"Don't." Arlo looked at me. I surprised myself too.
 
 "Why not?" he asked.
 
-"Because if this is a matched system, removing one may tell you what the stone is while destroying the thing that makes the set valuable." Pell considered.
+"Because if this is a matched system, removing one may tell you what the stone is while destroying the thing that makes the set valuable." Arlo considered.
 
 Then nodded. Antonius noticed. I noticed Antonius noticing. This was becoming ridiculous.
 
 "Can we test function without feeding it mana?" I asked.
 
-Pell said, "Maybe mechanically." He opened the wrist clasp. The inside leather had hardened with age, but beneath it were tiny metal contacts arranged around the forearm. Not armor. Definitely not armor. Pell whistled softly. Antonius said, "Good whistle or expensive whistle?"
+Arlo said, "Maybe mechanically." He opened the wrist clasp. The inside leather had hardened with age, but beneath it were tiny metal contacts arranged around the forearm. Not armor. Definitely not armor. Arlo whistled softly. Antonius said, "Good whistle or expensive whistle?"
 
-"Interesting whistle."
+"Interesting whistle," Arlo said.
 
-"Worthless."
+"Worthless," Antonius said.
 
-"To you, perhaps." Antonius pointed at me. "Don't start."
+"To you, perhaps," I said. Antonius pointed at me.
+
+"Don't start."
 
 "I haven't."
 
@@ -6458,7 +6476,7 @@ Pell said, "Maybe mechanically." He opened the wrist clasp. The inside leather h
 
 "My eyes are normal."
 
-"No." Pell ignored us and examined the contacts.
+"No." Arlo ignored us and examined the contacts.
 
 "There should be an inner sleeve."
 
@@ -6476,7 +6494,7 @@ Pell said, "Maybe mechanically." He opened the wrist clasp. The inside leather h
 
 "Excellent." Antonius looked at the ceiling. I smiled.
 
-This was fun. That was dangerous. I knew that now. Not enough to stop. Enough to notice. Pell found a maker's mark beneath the wrist clasp. Not a symbol. Letters. Very small. He cleaned them with oil.
+This was fun. That was dangerous. I knew that now. Not enough to stop. Enough to notice. Arlo found a maker's mark beneath the wrist clasp. Not a symbol. Letters. Very small. He cleaned them with oil.
 
 K E L V A.
 
@@ -6486,15 +6504,17 @@ No.
 
 Antonius said, "You know it."
 
-"No."
+"No," I said.
 
-"You made the name face."
+"You made the name face," Antonius said.
 
-"I have too many faces."
+"I have too many faces," I said.
 
-"Agreed."
+"Agreed," Antonius said.
 
-"Kelva means something." Pell looked up. "To whom?"
+"Kelva means something," I said. Arlo looked up.
+
+"To whom?" Arlo asked.
 
 "Me."
 
@@ -6506,7 +6526,7 @@ No.
 
 Kelvar. Kelven. Maybe I was manufacturing familiarity because I wanted the object to matter. Important. I opened my eyes.
 
-"Not enough information yet." Antonius smiled. Pell said, "Good." I frowned. "Why good?"
+"Not enough information yet." Antonius smiled. Arlo said, "Good." I frowned. "Why good?"
 
 "You didn't invent an answer."
 
@@ -6514,7 +6534,7 @@ Kelvar. Kelven. Maybe I was manufacturing familiarity because I wanted the objec
 
 Both men looked at me.
 
-"Frequently." Pell returned to the mark.
+"Frequently." Arlo returned to the mark.
 
 "I've heard Kelva."
 
@@ -6540,19 +6560,19 @@ My attention snapped to him.
 
 "Can either of you tell me whether I should lend six gold against it?"
 
-"No," Pell said.
+"No," Arlo said.
 
 "Not yet," I said. Antonius looked at me. "Difference?"
 
-"Mine means we can find out." Pell said, "Mine also means that."
+"Mine means we can find out." Arlo said, "Mine also means that."
 
 "Yours sounded defeated."
 
 "Yours sounds expensive." Antonius sat again.
 
-"How?" I looked at the gauntlet. Then at Pell.
+"How?" I looked at the gauntlet. Then at Arlo.
 
-"Registry." Pell nodded.
+"Registry." Arlo nodded.
 
 "Workshop marks. Kelva. Find specialty."
 
@@ -6616,7 +6636,7 @@ Of course.
 
 "No."
 
-"Important." Pell was watching me now instead of the gauntlet. I kept going.
+"Important." Arlo was watching me now instead of the gauntlet. I kept going.
 
 "What does he think this is?"
 
@@ -6628,7 +6648,7 @@ There. My memory stirred again.
 
 "His artificer said so."
 
-Pell's expression sharpened. "Which artificer?" Antonius gave him a name. Pell swore. Good or bad?
+Arlo's expression sharpened. "Which artificer?" Antonius gave him a name. Arlo swore. Good or bad?
 
 "Competent?" I asked.
 
@@ -6660,9 +6680,9 @@ Good.
 
 "Because he wants to buy it."
 
-Ah. Pell laughed. I did too. There was Antonius. The artificer had a conflict. Not useless information. Weighted information.
+Ah. Arlo laughed. I did too. There was Antonius. The artificer had a conflict. Not useless information. Weighted information.
 
-"How much did he offer?" Pell asked.
+"How much did he offer?" Arlo asked.
 
 "Three."
 
@@ -6676,7 +6696,7 @@ Ah. Pell laughed. I did too. There was Antonius. The artificer had a conflict. N
 
 I looked at the gauntlet. Seller says twelve. Interested artificer says eight to fifteen, offers three. Loan request six. Antonius needs enough collateral protection, not maximum resale. Borrower has repayment history. Expedition itself may pay. The object is backup. Different question.
 
-"Six is probably safe," I said. Pell looked at me. Antonius said, "Probably."
+"Six is probably safe," I said. Arlo looked at me. Antonius said, "Probably."
 
 "Yes."
 
@@ -6700,17 +6720,17 @@ Silence. I pointed at Antonius's ledger.
 
 "I'm appraising the loan."
 
-That got him. Not visibly much. A slight change around the eyes. Pell leaned back. I continued.
+That got him. Not visibly much. A slight change around the eyes. Arlo leaned back. I continued.
 
 "The borrower has repaid you twice. One late payment had a verifiable external cause. He already has four gold committed, so he has something to lose. A competent artificer with an incentive to undervalue this still offered three gold and claims eight to fifteen if complete. Even if he's lying downward, the object has a market. Even if he's lying upward because he wants the borrower to sell, his three-gold offer establishes a floor unless he's willing to withdraw it." Antonius said, "He might."
 
-"Then call him on it before lending." Pell smiled. I was enjoying myself.
+"Then call him on it before lending." Arlo smiled. I was enjoying myself.
 
 Careful.
 
 "Also," I said, "don't lend six against the gauntlet alone." Antonius waited.
 
-"Take a claim on his expedition share until repayment." Pell made a small approving sound. Antonius did not.
+"Take a claim on his expedition share until repayment." Arlo made a small approving sound. Antonius did not.
 
 "Why?"
 
@@ -6720,7 +6740,7 @@ That happened. Adventuring. Normal. Present Greg had been away from it long enou
 
 "I have the gauntlet."
 
-"Yes." Pell looked at me.
+"Yes." Arlo looked at me.
 
 Not pity.
 
@@ -6736,7 +6756,7 @@ Not mine. I looked at Antonius.
 
 "Six?"
 
-"Five." Pell raised an eyebrow. Antonius said, "Why five?"
+"Five." Arlo raised an eyebrow. Antonius said, "Why five?"
 
 "Because he asked for six."
 
@@ -6756,7 +6776,7 @@ Antonius's mouth twitched.
 
 "Maybe."
 
-"Maybe." Pell looked between us. "You're becoming unbearable in the same direction."
+"Maybe." Arlo looked between us. "You're becoming unbearable in the same direction."
 
 "He's learning," Antonius said.
 
@@ -6764,13 +6784,13 @@ Antonius's mouth twitched.
 
 "Not emotionally."
 
-"Fuck you." Antonius stood and took the gauntlet. Pell immediately said, "Careful." Antonius froze.
+"Fuck you." Antonius stood and took the gauntlet. Arlo immediately said, "Careful." Antonius froze.
 
 Slowly.
 
 "Why?"
 
-"Because I don't know what the wrist stones do." Antonius looked at the object in his hands. Then at Pell. Then very carefully put it down. I laughed so hard I had to sit. Antonius waited. I tried to stop.
+"Because I don't know what the wrist stones do." Antonius looked at the object in his hands. Then at Arlo. Then very carefully put it down. I laughed so hard I had to sit. Antonius waited. I tried to stop.
 
 Failed.
 
@@ -6778,7 +6798,7 @@ Failed.
 
 "He's alive."
 
-"Not after you activate that." Pell was laughing now too. Antonius looked at both of us with the expression of a man reconsidering every decision that had led to this room.
+"Not after you activate that." Arlo was laughing now too. Antonius looked at both of us with the expression of a man reconsidering every decision that had led to this room.
 
 "Five gold," he said. "Expedition share first claim. Gauntlet secondary. Subject to the artificer's three-gold offer remaining open." I wiped my eyes.
 
@@ -6814,7 +6834,7 @@ Failed.
 
 "No."
 
-"Pell, tell him this is relevant to the collateral." Pell packed his tools.
+"Arlo, tell him this is relevant to the collateral." Arlo packed his tools.
 
 "It isn't."
 
@@ -6846,17 +6866,17 @@ Meeting over. I stayed seated. He looked at me.
 
 "Then why bring it up?"
 
-"Because Pell is here." Pell said, "I am not helping you steal it."
+"Because Arlo is here." Arlo said, "I am not helping you steal it."
 
 "It's mine."
 
 "When you pay."
 
-"I need you to inspect it." Pell paused. Antonius looked annoyed.
+"I need you to inspect it." Arlo paused. Antonius looked annoyed.
 
 Good.
 
-"Later," Pell said.
+"Later," Arlo said.
 
 "Today?"
 
@@ -6884,9 +6904,9 @@ At the door I stopped. Not because of the dungeon. Mostly.
 
 "For the appraisal."
 
-"You had Pell."
+"You had Arlo."
 
-"Pell knows the object."
+"Arlo knows the object."
 
 "And?" Antonius looked at the gauntlet. Then at me.
 
@@ -7094,7 +7114,7 @@ Annoying. People were collaborating against me without meeting.
 
 "Reasonable," I said. Hessa smiled.
 
-I hated that too. Outside, the afternoon had gone gold around the rooftops. I should have gone home. Instead I walked toward Pell's workshop. This was not disobedience. Hessa had said go home. Pell's workshop was on the way if I took an objectively terrible route. I arrived to find him arguing with a metal plate.
+I hated that too. Outside, the afternoon had gone gold around the rooftops. I should have gone home. Instead I walked toward Arlo's workshop. This was not disobedience. Hessa had said go home. Arlo's workshop was on the way if I took an objectively terrible route. I arrived to find him arguing with a metal plate.
 
 "Busy?" I asked.
 
@@ -7104,13 +7124,13 @@ I hated that too. Outside, the afternoon had gone gold around the rooftops. I sh
 
 "No." I stepped inside.
 
-The workshop smelled of hot metal, oil, stone dust, and something acidic enough that I decided breathing shallowly was prudent. Pell pointed toward a stool.
+The workshop smelled of hot metal, oil, stone dust, and something acidic enough that I decided breathing shallowly was prudent. Arlo pointed toward a stool.
 
 "Sit." I sat. He kept working.
 
 Five minutes passed. I managed four without speaking.
 
-"Kelva," I said. Pell did not look up.
+"Kelva," I said. Arlo did not look up.
 
 "South workshop."
 
@@ -7126,7 +7146,7 @@ My skin prickled.
 
 "For?"
 
-"Live arrays. Unstable cores. Ward maintenance. Some alchemical work." I smiled. Pell looked over.
+"Live arrays. Unstable cores. Ward maintenance. Some alchemical work." I smiled. Arlo looked over.
 
 "You guessed."
 
@@ -7162,7 +7182,7 @@ Good.
 
 "Yes."
 
-"Antonius lent five." Pell nodded.
+"Antonius lent five." Arlo nodded.
 
 "Good." I stared.
 
@@ -7178,7 +7198,7 @@ Good.
 
 "The Tere box."
 
-Finally. I produced the little wooden box from my coat. Antonius had let me take it under the deeply offensive condition that Pell sign a receipt acknowledging temporary possession. Pell read the receipt.
+Finally. I produced the little wooden box from my coat. Antonius had let me take it under the deeply offensive condition that Arlo sign a receipt acknowledging temporary possession. Arlo read the receipt.
 
 "Ten silver?"
 
@@ -7196,7 +7216,7 @@ Finally. I produced the little wooden box from my coat. Antonius had let me take
 
 "Probably." He opened the box. The gray hook.
 
-Two rods. Tiny square plates. Three-tooth mark. Pell stopped joking. That was satisfying. He lifted one rod. Carefully. Turned it.
+Two rods. Tiny square plates. Three-tooth mark. Arlo stopped joking. That was satisfying. He lifted one rod. Carefully. Turned it.
 
 "Where did you say this came from?"
 
@@ -7208,7 +7228,7 @@ Two rods. Tiny square plates. Three-tooth mark. Pell stopped joking. That was sa
 
 "You said Tere."
 
-"Same number of useful syllables." Pell looked at me.
+"Same number of useful syllables." Arlo looked at me.
 
 "Orlan Tere?"
 
@@ -7216,7 +7236,7 @@ Two rods. Tiny square plates. Three-tooth mark. Pell stopped joking. That was sa
 
 "You're sure?"
 
-"Antonius had the debtor record." Pell set the rod down.
+"Antonius had the debtor record." Arlo set the rod down.
 
 "Fuck."
 
@@ -7226,7 +7246,7 @@ There. That was the reaction ten silver deserved.
 
 "Do you know what this is?"
 
-"Calibration gauge." Pell looked offended.
+"Calibration gauge." Arlo looked offended.
 
 "I know that."
 
@@ -7240,7 +7260,7 @@ There. That was the reaction ten silver deserved.
 
 "Precision mana regulation."
 
-"Still not." I hated experts. Pell arranged the pieces.
+"Still not." I hated experts. Arlo arranged the pieces.
 
 "The hook isn't a hook."
 
@@ -7258,11 +7278,11 @@ There. That was the reaction ten silver deserved.
 
 There. Something clicked. Not memory. Function. The square plates were not parts. Standards. Known resistances. Known tolerances. You could test a regulator against them. Not make magic. Measure it. That was why the niche value was absurd. A master artificer could use this to calibrate other tools. A workshop could standardize output. A specialist could reproduce work reliably instead of trusting feel. Forty gold suddenly seemed less stupid.
 
-Possibly more. Pell was breathing differently. I noticed.
+Possibly more. Arlo was breathing differently. I noticed.
 
 "How valuable?" He did not answer.
 
-"Pell."
+"Arlo."
 
 "Shut up."
 
@@ -7294,7 +7314,7 @@ Then another.
 
 "Who else?"
 
-"No one." Pell closed the box.
+"No one." Arlo closed the box.
 
 "Keep it that way." I stared.
 
@@ -7310,15 +7330,15 @@ Not happily.
 
 There. I leaned forward.
 
-"How much?" Pell looked at the box.
+"How much?" Arlo looked at the box.
 
 "More than I can pay."
 
 That was not a number. It was better. For one stupid second, old calibration returned. Gold had once been logistics. Payroll. Equipment. Political favors. Emergency spell components. Numbers large enough that forty gold barely registered in some rooms. Now ten silver was difficult. And sitting between us was a piece of trash that could be worth more than Antonius's visible warehouse to exactly the right handful of people. Not to me.
 
-That mattered. I could not eat it. Could not cast with it. Could not swing it. Could not pay Hessa with its theoretical value unless I sold it. And selling it to the wrong person would be stupid. The value lived in someone else's hands. Pell's, perhaps. I looked at him. He was still staring at the box. Not greed. Possibility. I knew that face. Mine probably looked worse.
+That mattered. I could not eat it. Could not cast with it. Could not swing it. Could not pay Hessa with its theoretical value unless I sold it. And selling it to the wrong person would be stupid. The value lived in someone else's hands. Arlo's, perhaps. I looked at him. He was still staring at the box. Not greed. Possibility. I knew that face. Mine probably looked worse.
 
-"What could you do with it?" Pell answered immediately.
+"What could you do with it?" Arlo answered immediately.
 
 Then stopped. Interesting.
 
@@ -7326,7 +7346,7 @@ Then stopped. Interesting.
 
 "No."
 
-"Pell."
+"Arlo."
 
 "No."
 
@@ -7348,13 +7368,13 @@ Then stopped. Interesting.
 
 "Not enough information yet?" He glared. I smiled.
 
-Then he said, "Consistent." The word was quiet. I stopped smiling. There it was. Not stronger. Consistent. Pell's shale work had already shown me how much of early artificing lived in hands, habits, batches, intuition, tiny corrections nobody wrote down. A reference set changed that. Maybe. If genuine. If complete enough. If Pell knew how to use it. If we did not destroy it learning.
+Then he said, "Consistent." The word was quiet. I stopped smiling. There it was. Not stronger. Consistent. Arlo's shale work had already shown me how much of early artificing lived in hands, habits, batches, intuition, tiny corrections nobody wrote down. A reference set changed that. Maybe. If genuine. If complete enough. If Arlo knew how to use it. If we did not destroy it learning.
 
-Branches. So many. Arwick Works. Future manufacturing. Standards. Scale. My mind opened like a door in a storm. Pell. Antonius. Capital. Shale ceramics. Regulators. Calibration service. Sell access, not object. License,
+Branches. So many. Arwick Works. Future manufacturing. Standards. Scale. My mind opened like a door in a storm. Arlo. Antonius. Capital. Shale ceramics. Regulators. Calibration service. Sell access, not object. License,
 
 No.
 
-I stopped. Pell noticed.
+I stopped. Arlo noticed.
 
 "What?"
 
@@ -7368,7 +7388,7 @@ I stopped. Pell noticed.
 
 "Mostly." He laughed. I put both hands on the table.
 
-"What do you need from me?" Pell frowned.
+"What do you need from me?" Arlo frowned.
 
 That was not the question he expected.
 
@@ -7386,11 +7406,11 @@ Good.
 
 "No."
 
-"Then what?" I looked at the box. Then at Pell.
+"Then what?" I looked at the box. Then at Arlo.
 
 "Use it." He went still.
 
-Not dramatically. Pell was not dramatic. His stillness was smaller. More expensive.
+Not dramatically. Arlo was not dramatic. His stillness was smaller. More expensive.
 
 "Greg."
 
@@ -7402,7 +7422,7 @@ Not dramatically. Pell was not dramatic. His stillness was smaller. More expensi
 
 "Why?"
 
-Because Arwick mattered. Because I remembered the name. Because future workshops stamped ARWICK on things important people trusted. Because maybe this was one of the bricks. Because I was better at seeing Pell's next step than my own. Because the object was worth more in his hands than mine. Too many answers. I chose the present one.
+Because Arwick mattered. Because I remembered the name. Because future workshops stamped ARWICK on things important people trusted. Because maybe this was one of the bricks. Because I was better at seeing Arlo's next step than my own. Because the object was worth more in his hands than mine. Too many answers. I chose the present one.
 
 "Because you're the only artificer I know who understands why it's valuable."
 
@@ -7420,7 +7440,7 @@ Because Arwick mattered. Because I remembered the name. Because future workshops
 
 "For what?"
 
-"To test it without damaging it." Pell looked at me for a long moment. Then at the box.
+"To test it without damaging it." Arlo looked at me for a long moment. Then at the box.
 
 "Time."
 
@@ -7444,11 +7464,11 @@ That was harder. He had orders. Shale experiments. Actual customers. A roof with
 
 Right.
 
-I thought of Antonius. What has to be true for repayment to happen? Different problem. What has to be true for Pell to use the gauge? He needs two days he cannot afford to spend. So the bottleneck was not the gauge. It was Pell's time. Clean.
+I thought of Antonius. What has to be true for repayment to happen? Different problem. What has to be true for Arlo to use the gauge? He needs two days he cannot afford to spend. So the bottleneck was not the gauge. It was Arlo's time. Clean.
 
 "How much do your next two days earn?"
 
-Pell's eyes narrowed.
+Arlo's eyes narrowed.
 
 "No."
 
@@ -7476,7 +7496,7 @@ Then remembered I did not have six silver.
 
 Excellent.
 
-Pell's face changed as he watched me remember.
+Arlo's face changed as he watched me remember.
 
 "You don't have six silver."
 
@@ -7500,7 +7520,7 @@ Pell's face changed as he watched me remember.
 
 "Out." I laughed.
 
-"Fine." I picked up the box. Pell put one hand on it. I looked at his hand. He looked at mine.
+"Fine." I picked up the box. Arlo put one hand on it. I looked at his hand. He looked at mine.
 
 "Leave it," he said.
 
@@ -7522,15 +7542,15 @@ Pell's face changed as he watched me remember.
 
 "Excellent. Somewhere between." He found paper. I smiled.
 
-There it was again. A problem with edges. Two days of Pell's time. Six silver, perhaps. A gauge. A workshop. No question about what Greg should become. No new career. No build. Just:
+There it was again. A problem with edges. Two days of Arlo's time. Six silver, perhaps. A gauge. A workshop. No question about what Greg should become. No new career. No build. Just:
 
-How do I make Pell better? The answer came so quickly it was almost embarrassing. I would find the six silver. Not borrow it. Probably. Maybe.
+How do I make Arlo better? The answer came so quickly it was almost embarrassing. I would find the six silver. Not borrow it. Probably. Maybe.
 
 No.
 
-Not borrow it. I watched Pell write the receipt. Outside, evening had settled over Carrow. Somewhere beyond the walls, a salvager was preparing for a dungeon expedition with five of Antonius's gold. I wanted to know where. I wanted to go. I wanted to see what he found. My mana channels had finally held shape for a heartbeat. Pell had a tool that might change his workshop. Antonius was learning to use me. Everything was moving. For once, I did not add another direction. I had enough.
+Not borrow it. I watched Arlo write the receipt. Outside, evening had settled over Carrow. Somewhere beyond the walls, a salvager was preparing for a dungeon expedition with five of Antonius's gold. I wanted to know where. I wanted to go. I wanted to see what he found. My mana channels had finally held shape for a heartbeat. Arlo had a tool that might change his workshop. Antonius was learning to use me. Everything was moving. For once, I did not add another direction. I had enough.
 
-Hessa. Barrier. Pell. Six silver. Tomorrow. I started home. Then stopped. Six silver. I knew exactly where I could make six silver tonight. The Crown and Knives. I stood in the street for a long moment.
+Hessa. Barrier. Arlo. Six silver. Tomorrow. I started home. Then stopped. Six silver. I knew exactly where I could make six silver tonight. The Crown and Knives. I stood in the street for a long moment.
 
 "No."
 
@@ -7738,7 +7758,7 @@ Making it smaller. Tilting it. Rotating it. Moving the anchor point from palm to
 
 "What am I doing?" I asked aloud.
 
-The cup declined to answer. Current board. Mana: terrible. Barrier: exists. Debt: still irritating. Pell: has the Tere gauge. Six silver: still needed if I wanted to buy two days of Pell's time without borrowing. Sword: neglected yesterday. Antonius: likely to find me if I tried to hide. Dungeon salvager: leaving today, location unknown, absolutely none of my business.
+The cup declined to answer. Current board. Mana: terrible. Barrier: exists. Debt: still irritating. Arlo: has the Tere gauge. Six silver: still needed if I wanted to buy two days of Arlo's time without borrowing. Sword: neglected yesterday. Antonius: likely to find me if I tried to hide. Dungeon salvager: leaving today, location unknown, absolutely none of my business.
 
 I looked at the cup. Barrier. One spell. One terrible little spell. What was the strongest version of me available right now? Not mage. Not yet. Student. Annoying. I went to sleep. The next morning Antonius sent Rusk before breakfast. Rusk knocked twice, opened the door without waiting, and looked at me sitting on the floor.
 
@@ -7942,11 +7962,11 @@ Six silver. I looked up.
 
 "Apparently enough to send me after glass."
 
-"That was labor. Yesterday was not." I stared at the coins. Six silver. Exactly six. Pell. Two days. Antonius knew. Of course he knew.
+"That was labor. Yesterday was not." I stared at the coins. Six silver. Exactly six. Arlo. Two days. Antonius knew. Of course he knew.
 
 "Why six?"
 
-"That's what you said Pell's time cost."
+"That's what you said Arlo's time cost."
 
 "You were listening."
 
@@ -7978,7 +7998,7 @@ Antonius's face went blank.
 
 "I'm paying you for work I asked you to do outside the labor attached to your debt." I considered. Simple. Suspiciously simple.
 
-"You want me to give it to Pell."
+"You want me to give it to Arlo."
 
 "I don't care."
 
@@ -7996,7 +8016,7 @@ Lie. Maybe. Not enough information. I took the six silver.
 
 "Fuck both of you."
 
-Normal restored. I went to Pell's workshop with the money. He refused it. I put the coins on his bench. He put them back in my hand.
+Normal restored. I went to Arlo's workshop with the money. He refused it. I put the coins on his bench. He put them back in my hand.
 
 "I said two days of time, not that I was selling them to you."
 
@@ -8016,9 +8036,9 @@ Normal restored. I went to Pell's workshop with the money. He refused it. I put 
 
 "No."
 
-"Then how much?" Pell glared. I smiled. He had walked into that.
+"Then how much?" Arlo glared. I smiled. He had walked into that.
 
-"Not the point," Pell said.
+"Not the point," Arlo said.
 
 "What is the point?"
 
@@ -8036,9 +8056,9 @@ Normal restored. I went to Pell's workshop with the money. He refused it. I put 
 
 "And you get?"
 
-"A better Pell."
+"A better Arlo."
 
-Silence. I heard it after I said it. That sounded terrible. Pell's expression agreed.
+Silence. I heard it after I said it. That sounded terrible. Arlo's expression agreed.
 
 "I mean your work."
 
@@ -8050,7 +8070,7 @@ Silence. I heard it after I said it. That sounded terrible. Pell's expression ag
 
 "I am going to stop."
 
-"Growth." I sat on the edge of his worktable. Pell immediately shoved me off.
+"Growth." I sat on the edge of his worktable. Arlo immediately shoved me off.
 
 "Chair." I took the chair.
 
@@ -8066,7 +8086,7 @@ Silence. I heard it after I said it. That sounded terrible. Pell's expression ag
 
 "I was trying to get you out."
 
-"Still data." Pell looked at the coins. Then at me.
+"Still data." Arlo looked at the coins. Then at me.
 
 "Where did you get them?"
 
@@ -8086,7 +8106,7 @@ Silence. I heard it after I said it. That sounded terrible. Pell's expression ag
 
 "What work?"
 
-"Appraisal." Pell stared.
+"Appraisal." Arlo stared.
 
 "The gauntlet?"
 
@@ -8098,7 +8118,7 @@ Silence. I heard it after I said it. That sounded terrible. Pell's expression ag
 
 "Does Antonius know that?"
 
-"He invented them." Pell picked up one coin. Turned it over.
+"He invented them." Arlo picked up one coin. Turned it over.
 
 "One day."
 
@@ -8118,7 +8138,7 @@ Silence. I heard it after I said it. That sounded terrible. Pell's expression ag
 
 "Because somebody paid me."
 
-There it was. Pell had his own constraints. Annoying.
+There it was. Arlo had his own constraints. Annoying.
 
 "One day," I said. "Then?"
 
@@ -8346,9 +8366,9 @@ He grinned. I sat against the wall, breathing hard. Mana training in the morning
 
 No.
 
-That was false. Old Greg had known. He had simply possessed more ways to cheat. Potions. Reinforcement. Healers. Recovery arrays. Money. Assistants. People. A whole infrastructure around his body. Present Greg had soup. Important distinction. I went home. Ate soup. Responsible. Boring. The next morning Pell had already dismantled half his workbench when I arrived.
+That was false. Old Greg had known. He had simply possessed more ways to cheat. Potions. Reinforcement. Healers. Recovery arrays. Money. Assistants. People. A whole infrastructure around his body. Present Greg had soup. Important distinction. I went home. Ate soup. Responsible. Boring. The next morning Arlo had already dismantled half his workbench when I arrived.
 
-Not the gauge. His tools. The Tere reference set sat in the center on clean cloth. Pell had made three new brackets, a measuring frame, and something that looked like a tiny metal gallows. I stared.
+Not the gauge. His tools. The Tere reference set sat in the center on clean cloth. Arlo had made three new brackets, a measuring frame, and something that looked like a tiny metal gallows. I stared.
 
 "You were waiting."
 
@@ -8362,19 +8382,19 @@ Not the gauge. His tools. The Tere reference set sat in the center on clean clot
 
 "I couldn't sleep."
 
-There. Possibility. I knew that feeling. I did not say so. Pell pointed to a chair. "Sit there."
+There. Possibility. I knew that feeling. I did not say so. Arlo pointed to a chair. "Sit there."
 
 "Why?"
 
 "If you touch anything, I want distance."
 
-I sat. He spent the morning testing. It was beautiful. Not visually. Visually it was two men staring at pieces of metal while one occasionally swore. But the logic emerged. The Tere plates provided known resistance values. The bridge compared flow. Pell could pass a tiny controlled mana current through one of his regulators, compare its behavior against a reference plate, adjust, repeat.
+I sat. He spent the morning testing. It was beautiful. Not visually. Visually it was two men staring at pieces of metal while one occasionally swore. But the logic emerged. The Tere plates provided known resistance values. The bridge compared flow. Arlo could pass a tiny controlled mana current through one of his regulators, compare its behavior against a reference plate, adjust, repeat.
 
-The first regulator was off. The second was off differently. The third was nearly right. That was the problem. Pell's regulators were good because Pell was good. But "good" wandered. One day slightly high. One day slightly low. Temperature. Material batch. His hands. His mood. His breakfast, probably. The gauge did not care. By midday Pell had three regulators behaving within a much narrower range than his normal work.
+The first regulator was off. The second was off differently. The third was nearly right. That was the problem. Arlo's regulators were good because Arlo was good. But "good" wandered. One day slightly high. One day slightly low. Temperature. Material batch. His hands. His mood. His breakfast, probably. The gauge did not care. By midday Arlo had three regulators behaving within a much narrower range than his normal work.
 
 He stared at them. I stared too.
 
-"Consistent," I said. Pell did not answer.
+"Consistent," I said. Arlo did not answer.
 
 "That's what you wanted."
 
@@ -8384,7 +8404,7 @@ He stared at them. I stared too.
 
 "Shut up."
 
-"Pell."
+"Arlo."
 
 "I need more tests."
 
@@ -8408,7 +8428,7 @@ He stared at them. I stared too.
 
 "A week."
 
-"Excellent." Pell frowned. "Why excellent?"
+"Excellent." Arlo frowned. "Why excellent?"
 
 "Because now you have a problem."
 
@@ -8436,7 +8456,7 @@ He stared at them. I stared too.
 
 "The firing temperatures..."
 
-"Pell." He stopped. Interesting. His board had opened. Branches. I recognized it because I lived there. For once I was standing outside.
+"Arlo." He stopped. Interesting. His board had opened. Branches. I recognized it because I lived there. For once I was standing outside.
 
 "One regulator," I said. He looked at me.
 
@@ -8452,7 +8472,7 @@ He stared at them. I stared too.
 
 "The gauge itself could be incomplete."
 
-"Then learn that while making one." Pell stared at me. I enjoyed this far too much.
+"Then learn that while making one." Arlo stared at me. I enjoyed this far too much.
 
 "You're annoying," he said.
 
@@ -8462,11 +8482,11 @@ He stared at them. I stared too.
 
 "Good."
 
-I leaned back. That had been easy. Suspiciously easy. Not the artificing. Pell. His problem had edges once I gave them back to him. I almost thought about what that implied regarding myself.
+I leaned back. That had been easy. Suspiciously easy. Not the artificing. Arlo. His problem had edges once I gave them back to him. I almost thought about what that implied regarding myself.
 
 No.
 
-Later. Hessa. I left Pell before I could create a manufacturing company. At Hessa's, she checked my wrist first.
+Later. Hessa. I left Arlo before I could create a manufacturing company. At Hessa's, she checked my wrist first.
 
 "Better."
 
@@ -8652,7 +8672,7 @@ The possibilities arrived all at once. Too many. Beautiful. Dangerous. Hessa saw
 
 "Change what?"
 
-"Direction. Contact. Timing. Maybe pressure later. If I make it small enough and place it correctly, I don't need enough mana to overpower the whole force." Antonius considered. Unlike Hessa, he did not care about magical orthodoxy. Unlike Pell, he did not care how the mechanism worked. He asked, "Useful?"
+"Direction. Contact. Timing. Maybe pressure later. If I make it small enough and place it correctly, I don't need enough mana to overpower the whole force." Antonius considered. Unlike Hessa, he did not care about magical orthodoxy. Unlike Arlo, he did not care how the mechanism worked. He asked, "Useful?"
 
 "Eventually."
 
@@ -8750,7 +8770,7 @@ No.
 
 "That's what I want to know." I laughed. There it was. Next problem. Not Greg. Not Barrier. Not future. A thing on a table. A bounded question. I sat.
 
-"Get Pell." Antonius said, "He's busy."
+"Get Arlo." Antonius said, "He's busy."
 
 "Then get me a knife."
 
@@ -8799,8 +8819,6 @@ I picked up the spoon. The green shard waited. Somewhere inside my wrist, the fa
 "Excellent," I said.
 
 CHAPTER TWELVE
-
-THE RESEARCHER
 
 A spoon is an underrated investigative instrument. It is terrible at cutting. Mediocre at prying. Excellent at making the person who gave it to you feel safer than he should. I turned Antonius's spoon over in my hand.
 
@@ -8906,7 +8924,7 @@ Tired. I could see hands but not a face. Green powder in a folded paper. Someone
 
 Fine.
 
-No fire. No knife. No water. No Pell. Spoon. Dish. Myself. That last resource was unfortunately available. I extended one finger toward the shard. Antonius slapped my hand away. I stared at him. He stared back.
+No fire. No knife. No water. No Arlo. Spoon. Dish. Myself. That last resource was unfortunately available. I extended one finger toward the shard. Antonius slapped my hand away. I stared at him. He stared back.
 
 "Did you just hit me?"
 
@@ -9170,7 +9188,7 @@ He leaned back. I could see him evaluating whether the strange young debtor in f
 
 "We need someone who knows healing materials."
 
-"Pell?"
+"Arlo?"
 
 "Wrong craft."
 
@@ -9332,7 +9350,7 @@ I liked her.
 
 "One now, one if you can give us a usable name, handling warning, and ordinary buyer."
 
-She looked at me. Then Antonius. Ah. She had found the adult. Antonius said, "One and one." Traitor. Nera held out her hand. Antonius did not move. I paid. Of course I paid. One silver. My six silver had briefly existed. Pell had three. Now Nera had one. Money was apparently a substance that became unstable near me. She reopened the box.
+She looked at me. Then Antonius. Ah. She had found the adult. Antonius said, "One and one." Traitor. Nera held out her hand. Antonius did not move. I paid. Of course I paid. One silver. My six silver had briefly existed. Arlo had three. Now Nera had one. Money was apparently a substance that became unstable near me. She reopened the box.
 
 "Don't touch the black."
 
@@ -9430,11 +9448,11 @@ Nera looked between us.
 
 "Depends what you want."
 
-There. The shape of the market. Not treasure. A processing problem. The raw material had value only if separated well enough for an apothecary to trust it. I thought of Pell.
+There. The shape of the market. Not treasure. A processing problem. The raw material had value only if separated well enough for an apothecary to trust it. I thought of Arlo.
 
 No.
 
-Stop. Pell had a regulator problem. Do not give Pell another life. I almost laughed. Nera noticed.
+Stop. Arlo had a regulator problem. Do not give Arlo another life. I almost laughed. Nera noticed.
 
 "What?"
 
@@ -9756,11 +9774,11 @@ Corven's excitement died. There. Future knowledge did not turn a dungeon wall in
 
 Corven laughed. Antonius did not. I looked at the material. Green around black. Separate without grinding the black. Manual sorting worked for healers because they were processing handfuls. Several sacks? A chamber wall? You needed a process. Break the green away from the black without pulverizing either. Different hardness? Different fracture? Different response to heat?
 
-Water? Mana? Pell...
+Water? Mana? Arlo...
 
 No.
 
-Not Pell. Maybe.
+Not Arlo. Maybe.
 
 No.
 
@@ -9878,7 +9896,7 @@ Less offended.
 
 "Greg."
 
-Nera said, "He can write." Antonius looked at me. I could feel the boundary forming. A job. Not my life. Not my company. Not my dungeon. A half day. Record what happens. Ask useful questions. Do not acquire a processing enterprise. Do not recruit Pell. Do not cast Barrier at poisonous dungeon material. I hated how much easier the world became when someone else built the fence.
+Nera said, "He can write." Antonius looked at me. I could feel the boundary forming. A job. Not my life. Not my company. Not my dungeon. A half day. Record what happens. Ask useful questions. Do not acquire a processing enterprise. Do not recruit Arlo. Do not cast Barrier at poisonous dungeon material. I hated how much easier the world became when someone else built the fence.
 
 "Fine." Antonius narrowed his eyes.
 
@@ -10008,7 +10026,7 @@ Corven frowned.
 
 "Labor?"
 
-"Too much by hand." I looked at the spoon. Shape. Pressure. Boundary. Repeatability. A tool could do this. Not Pell. I looked away. Antonius caught it.
+"Too much by hand." I looked at the spoon. Shape. Pressure. Boundary. Repeatability. A tool could do this. Not Arlo. I looked away. Antonius caught it.
 
 "What?"
 
@@ -10034,7 +10052,7 @@ Corven said, "Can you make one?"
 
 "I know several people."
 
-"Pell."
+"Arlo."
 
 "He's busy."
 
@@ -10042,7 +10060,7 @@ That surprised Antonius.
 
 Good.
 
-I meant it. Pell had a regulator. A reference set. A problem already narrowed. I was not going to arrive with poisonous green rocks and a new industry because my brain had discovered another door. Not today.
+I meant it. Arlo had a regulator. A reference set. A problem already narrowed. I was not going to arrive with poisonous green rocks and a new industry because my brain had discovered another door. Not today.
 
 "Any competent toolmaker," I said. "It's a clamp."
 
@@ -10152,7 +10170,7 @@ We walked back toward his warehouse. For three streets, I managed not to mention
 
 "For what?"
 
-Good question. I almost answered automatically. Future. Preparation. Opportunity. Training. But those were category words. Not reasons. What would I do with the information today? Nothing. What could I do with it? Obsess. Design. Spend money. Recruit people. Distract Pell. Annoy Hessa. Probably attempt to accelerate my body into a dungeon before it was ready.
+Good question. I almost answered automatically. Future. Preparation. Opportunity. Training. But those were category words. Not reasons. What would I do with the information today? Nothing. What could I do with it? Obsess. Design. Spend money. Recruit people. Distract Arlo. Annoy Hessa. Probably attempt to accelerate my body into a dungeon before it was ready.
 
 I hated the clarity.
 
@@ -10242,11 +10260,9 @@ Things between meant a path. I touched the spoon in my pocket. Then immediately 
 
 CHAPTER THIRTEEN
 
-THE STUDENT
+Arlo had improved the regulator without me. I disliked this for almost three seconds. Then I remembered that was the point. He stood at the far end of his workbench with six ceramic housings arranged in a row. Same clay. Same copper contacts. Same little etched channel running around the waist. If I had seen them a month ago, I would have called them identical.
 
-Pell had improved the regulator without me. I disliked this for almost three seconds. Then I remembered that was the point. He stood at the far end of his workbench with six ceramic housings arranged in a row. Same clay. Same copper contacts. Same little etched channel running around the waist. If I had seen them a month ago, I would have called them identical.
-
-They were not. That was why the brass-and-glass Tere reference set sat open beside them. Pell pointed at the first regulator.
+They were not. That was why the brass-and-glass Tere reference set sat open beside them. Arlo pointed at the first regulator.
 
 "Tell me." I looked at him.
 
@@ -10274,7 +10290,7 @@ They were not. That was why the brass-and-glass Tere reference set sat open besi
 
 "My face did nothing."
 
-"It did a thing." Antonius was spreading. This was becoming a public-health problem. I picked up the first regulator. Pell slapped my hand. I stared at him. He stared back.
+"It did a thing." Antonius was spreading. This was becoming a public-health problem. I picked up the first regulator. Arlo slapped my hand. I stared at him. He stared back.
 
 "What?"
 
@@ -10294,11 +10310,11 @@ They were not. That was why the brass-and-glass Tere reference set sat open besi
 
 "Fine. Explain."
 
-Pell did not explain. He picked up the first regulator with wooden tongs and seated it into a crude testing frame. That was new. Not the regulator. The frame. Two uprights. A crosspiece. Copper contacts. A little ceramic cradle. A weighted arm hanging from a pin. Ugly. Functional. I leaned closer.
+Arlo did not explain. He picked up the first regulator with wooden tongs and seated it into a crude testing frame. That was new. Not the regulator. The frame. Two uprights. A crosspiece. Copper contacts. A little ceramic cradle. A weighted arm hanging from a pin. Ugly. Functional. I leaned closer.
 
 "You made a fixture."
 
-Pell's expression tightened.
+Arlo's expression tightened.
 
 "I made something to stop holding the fucking things in my hand."
 
@@ -10316,9 +10332,9 @@ Pell's expression tightened.
 
 "Many excellent things do."
 
-Pell pointed at the wall. I did not leave. He knew I would not. He turned the regulator's input screw a quarter turn. The weighted arm lifted. Not much. He marked the height on a strip of paper fixed behind it. Then he removed the regulator. Second. Same input. The arm lifted. Nearly the same height. Third. Same. Fourth. Slightly lower. Fifth. Almost exactly first.
+Arlo pointed at the wall. I did not leave. He knew I would not. He turned the regulator's input screw a quarter turn. The weighted arm lifted. Not much. He marked the height on a strip of paper fixed behind it. Then he removed the regulator. Second. Same input. The arm lifted. Nearly the same height. Third. Same. Fourth. Slightly lower. Fifth. Almost exactly first.
 
-Sixth. Higher. Pell looked at me. I looked at the marks. The spread was narrow. Not perfect. Not even close to what late Arwick Works would eventually produce. But compared with the regulators we had tested before?
+Sixth. Higher. Arlo looked at me. I looked at the marks. The spread was narrow. Not perfect. Not even close to what late Arwick Works would eventually produce. But compared with the regulators we had tested before?
 
 "Fuck."
 
@@ -10332,7 +10348,7 @@ Sixth. Higher. Pell looked at me. I looked at the marks. The spread was narrow. 
 
 "No."
 
-"Pell."
+"Arlo."
 
 "No."
 
@@ -10392,7 +10408,7 @@ Sixth. Higher. Pell looked at me. I looked at the marks. The spread was narrow. 
 
 I laughed. That was fair. Annoying. Fair. I had brought him the Tere set. I did not own what he learned from it. Knowing that intellectually and feeling it while six improved regulators sat three feet away were different experiences. I wanted to know everything. Clay composition. Firing time. Copper thickness. Etch depth. Cooling. Assembly sequence. Which reference pieces he used.
 
-Whether he had altered the regulator or merely controlled the process. I could feel my mind reaching for the entire workshop. Pell saw it.
+Whether he had altered the regulator or merely controlled the process. I could feel my mind reaching for the entire workshop. Arlo saw it.
 
 "No."
 
@@ -10402,7 +10418,7 @@ Whether he had altered the regulator or merely controlled the process. I could f
 
 "People inhale."
 
-"Not like that." I closed my mouth. Pell wiped his hands on a cloth.
+"Not like that." I closed my mouth. Arlo wiped his hands on a cloth.
 
 "First day I tried to make the regulator match the reference."
 
@@ -10460,7 +10476,7 @@ That was interesting.
 
 "The test."
 
-"The test." I looked at the ugly wooden frame on the shelf. Pell followed my eyes.
+"The test." I looked at the ugly wooden frame on the shelf. Arlo followed my eyes.
 
 "I was holding the input lead by hand."
 
@@ -10488,7 +10504,7 @@ That was interesting.
 
 "So I stopped making regulators."
 
-That sentence landed. Pell Arwick, who had spent weeks obsessed with improving a regulator, had stopped making regulators.
+That sentence landed. Arlo Arwick, who had spent weeks obsessed with improving a regulator, had stopped making regulators.
 
 "What did you make?"
 
@@ -10506,7 +10522,7 @@ I looked at it again. Twenty minutes, he had said. Probably a lie. Not malicious
 
 "How much?"
 
-He showed me a page. Numbers. Pell's handwriting was worse than mine, which I considered an important moral victory. I read them. The spread had dropped by more than half. Not because the regulator improved. Because the measurement did. I felt something warm move through my chest. This was not future knowledge. Not mine. Not Tere's, exactly. Pell had found it.
+He showed me a page. Numbers. Arlo's handwriting was worse than mine, which I considered an important moral victory. I read them. The spread had dropped by more than half. Not because the regulator improved. Because the measurement did. I felt something warm move through my chest. This was not future knowledge. Not mine. Not Tere's, exactly. Arlo had found it.
 
 "You separated measurement error from object variation."
 
@@ -10534,7 +10550,7 @@ He showed me a page. Numbers. Pell's handwriting was worse than mine, which I co
 
 "Changed nothing except winding tension."
 
-"How did you control it?" He pointed at another object. A stick. A spool. A hanging weight. I stared. Pell became defensive.
+"How did you control it?" He pointed at another object. A stick. A spool. A hanging weight. I stared. Arlo became defensive.
 
 "It's temporary."
 
@@ -10558,7 +10574,7 @@ Very good.
 
 "That is what a tensioner is if you are poor."
 
-He laughed despite himself. I looked around the workshop. The roof still sagged. The shelves still held too many half-finished jobs. A cracked crucible sat beside a bucket. There was clay under Pell's fingernails and a burn on one thumb. Nothing had transformed. That mattered. I had been expecting breakthroughs to arrive with visible grandeur because I remembered the future result.
+He laughed despite himself. I looked around the workshop. The roof still sagged. The shelves still held too many half-finished jobs. A cracked crucible sat beside a bucket. There was clay under Arlo's fingernails and a burn on one thumb. Nothing had transformed. That mattered. I had been expecting breakthroughs to arrive with visible grandeur because I remembered the future result.
 
 ARWICK.
 
@@ -10568,7 +10584,7 @@ Factories. Precision. A name stamped on devices used in half the civilized world
 
 "Reduced spread again."
 
-"How much?" Pell showed me. I read. Then reread.
+"How much?" Arlo showed me. I read. Then reread.
 
 "That's real."
 
@@ -10582,7 +10598,7 @@ Factories. Precision. A name stamped on devices used in half the civilized world
 
 "I know." I looked at the six regulators.
 
-"Which variable next?" Pell smiled. Not because he needed my answer. Because he already had one.
+"Which variable next?" Arlo smiled. Not because he needed my answer. Because he already had one.
 
 "Firing."
 
@@ -10640,7 +10656,7 @@ Fair. I turned it in my fingers. Small. Warm from the workshop. Nothing about it
 
 "Depends on the instrument."
 
-My mind opened twelve doors. Pell watched. Then pointed at the regulator.
+My mind opened twelve doors. Arlo watched. Then pointed at the regulator.
 
 "One." I looked at him.
 
@@ -10664,11 +10680,11 @@ There it was. I lowered my hand.
 
 "Yes."
 
-Pell's expression shifted. Not softened. Less armed.
+Arlo's expression shifted. Not softened. Less armed.
 
 "Yes," I repeated.
 
-He had made it. Tere had made references. I had recognized them. Antonius had sold them. Pell had built the fixture, controlled the tension, noticed the kiln. The regulator existed because several things met. That distinction felt increasingly important.
+He had made it. Tere had made references. I had recognized them. Antonius had sold them. Arlo had built the fixture, controlled the tension, noticed the kiln. The regulator existed because several things met. That distinction felt increasingly important.
 
 "How much would you sell this for?"
 
@@ -10704,7 +10720,7 @@ He had made it. Tere had made references. I had recognized them. Antonius had so
 
 "What?"
 
-"I should not put precision equipment loose beside coins." Pell stared.
+"I should not put precision equipment loose beside coins." Arlo stared.
 
 "Growth."
 
@@ -10716,7 +10732,7 @@ He had made it. Tere had made references. I had recognized them. Antonius had so
 
 Again. Everyone was learning my face. I needed a new face. I wrapped the regulator in cloth.
 
-"What are you doing with it?" Pell asked.
+"What are you doing with it?" Arlo asked.
 
 "I don't know."
 
@@ -11314,7 +11330,7 @@ That was the worst answer and the best evidence. Her anger changed.
 
 "I don't know."
 
-"Who else knows?" I thought. Antonius suspected something. Pell knew I was strange. Jorren knew my fighting was wrong. No one knew this.
+"Who else knows?" I thought. Antonius suspected something. Arlo knew I was strange. Jorren knew my fighting was wrong. No one knew this.
 
 "No one."
 
@@ -11558,7 +11574,7 @@ Her eyes narrowed.
 
 "Good."
 
-So I did. Not everything. Not names that could become weapons. Not wars. Not people. Not Antonius's future. Not Pell's. I told her the shape of the event: old ruin, unknown relic, touch, activation, wake, nineteen. She interrupted constantly. Did I feel mana? Maybe. Pain? Not exactly. Light?
+So I did. Not everything. Not names that could become weapons. Not wars. Not people. Not Antonius's future. Not Arlo's. I told her the shape of the event: old ruin, unknown relic, touch, activation, wake, nineteen. She interrupted constantly. Did I feel mana? Maybe. Pain? Not exactly. Light?
 
 Yes.
 
@@ -11622,9 +11638,9 @@ That was rude. Accurate. Rude. I pulled the wrapped regulator from my pocket. He
 
 "What?"
 
-"A regulator Pell made."
+"A regulator Arlo made."
 
-"Who is Pell?"
+"Who is Arlo?"
 
 "Artificer."
 
@@ -11654,7 +11670,7 @@ That was rude. Accurate. Rude. I pulled the wrapped regulator from my pocket. He
 
 "Maybe because you keep trying to know what everything becomes before you know what it is."
 
-I took the regulator back. Pell's fifth regulator. Not Arwick Works. Not a revolution. A low-flow regulator that could run a lamp. Maybe a heater. Maybe a measuring instrument. One thing. Hessa pointed at my pocket.
+I took the regulator back. Arlo's fifth regulator. Not Arwick Works. Not a revolution. A low-flow regulator that could run a lamp. Maybe a heater. Maybe a measuring instrument. One thing. Hessa pointed at my pocket.
 
 "Put it away." I did. Then she picked up the cup.
 
@@ -11744,7 +11760,7 @@ I left. Outside, Carrow continued existing with insulting normality. Carts. Mud.
 
 Knew what I had told her. Whether she believed it was another question. For the first time since waking, the secret existed outside my skull. I regretted it. Then didn't. Then did again. Very efficient. I passed a lamp-maker's shop. Stopped. Looked at the wrapped regulator in my hand. Low flow. Lamp. One thing. I could buy a lamp assembly.
 
-Test the regulator. Learn what Pell had actually made. Then I could...
+Test the regulator. Learn what Arlo had actually made. Then I could...
 
 No.
 
@@ -11779,8 +11795,6 @@ I laughed. The shopkeeper looked at me through the window. I kept walking. One t
 "That you know." He was right. Useful. We started again.
 
 CHAPTER FOURTEEN
-
-THE ESCORT
 
 Jorren hit me in the ribs three more times before he decided I was learning.
 
@@ -12996,8 +13010,6 @@ I was already thinking too much about it. Progress had limits.
 
 CHAPTER FIFTEEN
 
-THE OBSERVER
-
 The turnip man was innocent.
 
 This was disappointing for several reasons, most of which reflected badly on me.
@@ -13626,7 +13638,7 @@ The guild hall came into view.
 
 The ink-thumbed clerk saw us approaching through the open door and closed her eyes.
 
-"Why are there four more people?"
+"Why are there four more people?" the clerk asked.
 
 "Three criminals," Alden said.
 
@@ -13638,11 +13650,11 @@ The clerk looked at him.
 
 Then at me.
 
-"Who is he?"
+"Who is he?" the clerk asked.
 
-"Complication."
+"Complication," I said.
 
-"Alden Marr."
+"Alden Marr," Alden said.
 
 He offered his hand across the counter.
 
@@ -13660,17 +13672,17 @@ I did.
 
 She reviewed our contract.
 
-"Observation patrol."
+"Observation patrol," the clerk said.
 
 "Successful," I said.
 
-"You were supposed to observe."
+"You were supposed to observe," the clerk said.
 
-"We observed a robbery."
+"We observed a robbery," I said.
 
-"And?"
+"And?" the clerk asked.
 
-"Then neutrality became impractical."
+"Then neutrality became impractical," I said.
 
 Jorren leaned against the counter. "They were already fighting when we arrived."
 
@@ -13736,7 +13748,7 @@ Alden counted the coins once and put them away.
 
 Fast gains. The phrase appeared without invitation, and I disliked how quickly I began evaluating it.
 
-Hessa could make my training smarter. Jorren could make my body better. Pell could build things I remembered but could not reproduce. Antonius could put me near problems and capital.
+Hessa could make my training smarter. Jorren could make my body better. Arlo could build things I remembered but could not reproduce. Antonius could put me near problems and capital.
 
 My own combat power was still a long-horizon investment.
 
@@ -13820,7 +13832,7 @@ Oh, this was going to be a problem.
 
 "Tomorrow," I said. "Guild yard."
 
-"With him?"
+"With him?" Alden asked.
 
 Alden pointed at Jorren.
 
@@ -13834,7 +13846,7 @@ Alden laughed. "Third bell?"
 
 Jorren looked at me, then at Alden.
 
-"Fine."
+"Fine," Jorren said.
 
 Alden nodded as though he had arranged it. Again. That tiny assumption of center.
 
@@ -13890,9 +13902,9 @@ I looked at him. "What?"
 
 "I don't collect people."
 
-"Pell."
+"Arlo."
 
-"You don't know Pell."
+"You don't know Arlo."
 
 "The lender."
 
@@ -14016,8 +14028,6 @@ There I was.
 
 CHAPTER SIXTEEN
 
-THE TEACHER
-
 Jorren answered the question the next morning.
 
 Not immediately. He made me earn it by walking to the guild yard with him in silence while he carried two practice swords over one shoulder and behaved as though I had personally invented irritating young men.
@@ -14120,21 +14130,21 @@ That was disappointing.
 
 He saw us and smiled.
 
-"You came."
+"You came," Alden said.
 
 I looked at Jorren.
 
-"Apparently he thought this was optional."
+"Apparently he thought this was optional," I said.
 
 "It was," Alden said.
 
-"For you."
+"For you," I said.
 
-"Everything is optional until someone stops you."
+"Everything is optional until someone stops you," Alden said.
 
 Jorren handed him a practice sword.
 
-"Good philosophy for losing teeth."
+"Good philosophy for losing teeth," Jorren said.
 
 Alden tested the balance once, then twice. He did not flourish it. Good. He checked the grip, flexed his fingers, glanced at Jorren's stance, and adjusted his own by half an inch.
 
@@ -14148,13 +14158,13 @@ I felt the reach again. Not hunger exactly. Recognition of leverage. That was wo
 
 Alden looked at me.
 
-"And him?"
+"And him?" Alden asked.
 
 "Decoration," Jorren said.
 
 "Consultant," I corrected.
 
-"Decoration that talks."
+"Decoration that talks," Jorren said.
 
 Alden smiled. "Dangerous kind."
 
@@ -14256,13 +14266,13 @@ Jorren lowered his sword.
 
 Alden did not.
 
-"Why?"
+"Why?" Alden asked.
 
-"Because you're doing the same thing three different ways."
+"Because you're doing the same thing three different ways," I said.
 
 Alden looked pleased rather than offended.
 
-"Which thing?"
+"Which thing?" Alden asked.
 
 I walked closer.
 
@@ -14426,7 +14436,7 @@ Then he looked at me.
 
 There was no gratitude in his face. Excellent. There was appetite. Worse.
 
-"Again," he said.
+"Again," Alden said.
 
 Jorren hit him in the mouth.
 
@@ -14440,13 +14450,13 @@ Alden sat in the sand with one hand over his lip.
 
 Jorren looked at me.
 
-"Your student."
+"Your student," Jorren said.
 
-"I have taught him one sentence."
+"I have taught him one sentence," I said.
 
 Alden checked his fingers for blood.
 
-"Good sentence."
+"Good sentence," Alden said.
 
 "Bad religion," I said.
 
@@ -14516,11 +14526,11 @@ Show-off.
 
 He drank from a waterskin, then pointed it at me.
 
-"My turn."
+"My turn," Alden said.
 
-"To drink?"
+"To drink?" I asked.
 
-"To ask."
+"To ask," Alden said.
 
 That was not what I wanted.
 
@@ -14530,7 +14540,7 @@ Good.
 
 Alden nodded toward Jorren.
 
-"What does he do badly?"
+"What does he do badly?" Alden asked.
 
 Jorren went very still.
 
@@ -14780,17 +14790,17 @@ Jorren asked, "You already took it?"
 
 Alden nodded.
 
-"With who?"
+"With who?" Jorren asked.
 
-"Nobody yet."
+"Nobody yet," Alden said.
 
-"Then you didn't take it."
+"Then you didn't take it," Jorren said.
 
-"I reserved it."
+"I reserved it," Alden said.
 
-"That's not a thing."
+"That's not a thing," Jorren said.
 
-"Clerk let me put my name on it while I found bodies."
+"Clerk let me put my name on it while I found bodies," Alden said.
 
 "Which clerk?" I asked.
 
@@ -14804,17 +14814,17 @@ Alden looked at me.
 
 That described at least one useful person in every guild hall I had ever known.
 
-"And you want me?"
+"And you want me?" I asked.
 
 Alden looked at Jorren first.
 
 Interesting.
 
-"Both of you."
+"Both of you," Alden said.
 
 Jorren shook his head.
 
-"I have work."
+"I have work," Jorren said.
 
 Alden did not argue.
 
@@ -14822,7 +14832,7 @@ Also interesting.
 
 He looked at me.
 
-"You?"
+"You?" Alden asked.
 
 My first instinct was yes, so I made myself wait.
 
@@ -14981,8 +14991,6 @@ That was annoyingly good.
 Then he hit me again.
 
 CHAPTER SEVENTEEN
-
-THE INVESTIGATOR
 
 I read the contract.
 
@@ -15152,13 +15160,13 @@ The boards were thick enough that rats were not the explanation unless the rats 
 
 "That's the argument," Nella said.
 
-Verran had followed us after all. "Outside."
+Verran had followed us after all. "Outside," he said.
 
 Nella pointed at the inner face. "Some marks are here."
 
-"Because they pushed the boards inward."
+"Because they pushed the boards inward," Verran said.
 
-"Or because somebody inside loosened them."
+"Or because somebody inside loosened them," Nella said.
 
 Verran's mouth tightened. "Nobody inside is stealing from me."
 
@@ -15222,11 +15230,11 @@ Nella answered without checking. "Barley sacks, about seventy pounds when full. 
 
 "I do not cheat the measure," Verran said.
 
-"You round."
+"You round," Nella said.
 
-"Everyone rounds."
+"Everyone rounds," Verran said.
 
-"Down."
+"Down," Nella said.
 
 Alden coughed into his fist.
 
@@ -15950,11 +15958,11 @@ I did not know, and for once that felt useful.
 
 "Open it," Nella said.
 
-"No."
+"No," Verran said.
 
-"They've stolen two already."
+"They've stolen two already," Nella said.
 
-"Which is why we do not open the third in a room full of idiots."
+"Which is why we do not open the third in a room full of idiots," Verran said.
 
 I raised a finger. "That is the first persuasive thing you've said."
 
@@ -16238,15 +16246,15 @@ The clerk eventually came over with her ledger.
 
 Alden's eyebrows rose.
 
-"Twenty-four?"
+"Twenty-four?" Alden asked.
 
-"Each."
+"Each," the clerk said.
 
-"I like arbitration."
+"I like arbitration," Alden said.
 
-"You haven't experienced arbitration."
+"You haven't experienced arbitration," the clerk said.
 
-"I like the threat of arbitration."
+"I like the threat of arbitration," Alden said.
 
 She ignored him and looked at me. "You used magic?"
 
@@ -16457,8 +16465,6 @@ I did not remember the song.
 I let it ring anyway.
 
 CHAPTER EIGHTEEN
-
-THE EXPERIMENTER
 
 Hessa had beans.
 
@@ -17563,8 +17569,6 @@ Questions were free.
 Mostly.
 
 CHAPTER NINETEEN
-
-THE BYSTANDER
 
 The guild had put my sacks behind a locked door.
 
@@ -18896,8 +18900,6 @@ I smiled all the way to training.
 
 CHAPTER TWENTY
 
-THE VOLUNTEER
-
 Jorren hit me before I could apologize. This was efficient. I had arrived at the yard late enough that the afternoon shadows had moved noticeably and early enough that Jorren had not yet decided to leave. He stood in the packed dirt with two wooden swords, one in each hand. He threw one at me. I caught it badly. He hit me with the other.
 
 “Late,” he said.
@@ -18978,35 +18980,35 @@ Jorren leaned the wooden swords against the wall.
 
 Alden looked toward the yard.
 
-“So tomorrow?”
+“So tomorrow?” Alden asked.
 
 “No,” Jorren said.
 
 Alden frowned. I did too. Jorren looked between us.
 
-“What?”
+“What?” Jorren asked.
 
 “We were training tomorrow,” Alden said.
 
-“Outside.”
+“Outside,” Jorren said.
 
 “There’s an inside,” Alden said.
 
-“Not for what I wanted.”
+“Not for what I wanted,” Jorren said.
 
 “What did you want?” I asked.
 
 Jorren ignored me. Rainwater began running off the tiled roof in a continuous curtain. Alden took another bite of pie.
 
-“Could use the covered loading yard.”
+“Could use the covered loading yard,” Alden said.
 
 “Too narrow,” Jorren said.
 
-“The old horse court?”
+“The old horse court?” Alden asked.
 
 “Stone,” Jorren said.
 
-“South wall?”
+“South wall?” Alden asked.
 
 “Mud,” Jorren said.
 
@@ -19082,27 +19084,27 @@ Everyone knew the face now. This was intolerable. The guild door opened again an
 
 A chorus of complaints answered her. She did not care. Alden stood.
 
-“What about the tannery run?”
+“What about the tannery run?” Alden asked.
 
-“Delayed.”
+“Delayed,” the clerk said.
 
-“How long?”
+“How long?” Alden asked.
 
-“Tomorrow morning if the road drains.”
+“Tomorrow morning if the road drains,” the clerk said.
 
-“I had that.”
+“I had that,” Alden said.
 
-“You have it tomorrow morning.”
+“You have it tomorrow morning,” the clerk said.
 
-“I have training tomorrow morning.”
+“I have training tomorrow morning,” Alden said.
 
 The clerk looked at Jorren.
 
-“You?”
+“You?” she asked.
 
 Jorren nodded. She looked back at Alden.
 
-“Then you don’t.”
+“Then you don’t,” the clerk said.
 
 Alden opened his mouth. Closed it. I enjoyed this enormously.
 
@@ -19410,7 +19412,9 @@ The quartermaster left to find the carpenter. The laborers dispersed toward a ki
 
 “Yes.”
 
-I looked toward the courtyard. Rain fell in silver ropes beyond the arches. The yard would be mud tomorrow even if the sky cleared. Jorren’s distance drill was gone. At least for a day. Maybe two. I could imagine trying to recreate it somewhere else. Warehouse. Covered market. Long corridor. Bad surfaces. People. Costs. Permission. Or we could do something else. The obvious answer annoyed me because it was obvious.
+I looked toward the courtyard. Rain fell in silver ropes beyond the arches. The yard would be mud tomorrow even if the sky cleared.
+
+Jorren’s distance drill was gone. At least for a day. Maybe two. I could imagine trying to recreate it somewhere else. Warehouse. Covered market. Long corridor. Bad surfaces. People. Costs. Permission. Or we could do something else. The obvious answer annoyed me because it was obvious.
 
 “We train what the weather gives us.”
 
@@ -19622,8 +19626,6 @@ He waited. I kept walking. Not every question needed to become an experiment tod
 
 CHAPTER TWENTY-ONE
 
-THE TENANT
-
 The yard was still mud. Not wet dirt. Mud. There was a difference, and Jorren made me demonstrate it by stepping into the guild yard, planting my right foot, and nearly sitting down without permission. He watched from beneath the arcade.
 
 “Good,” he said.
@@ -19642,17 +19644,17 @@ I looked at my boot.
 
 Alden arrived ten minutes later and did exactly the same thing. He recovered better. I resented him for it. Jorren pointed at both of us.
 
-“No distance work.”
+“No distance work,” Jorren said.
 
 Alden looked across the yard.
 
-“It’s not that bad.”
+“It’s not that bad,” Alden said.
 
 Jorren pointed at the far fence, where one of the practice dummies had fallen face-first into a brown puddle. Alden considered.
 
-“Could be worse.”
+“Could be worse,” Alden said.
 
-“No.”
+“No,” Jorren said.
 
 I said, “I have another exercise.” Jorren looked suspicious.
 
@@ -19674,21 +19676,21 @@ I said, “I have another exercise.” Jorren looked suspicious.
 
 Alden said, “Coins.” Jorren looked at him.
 
-“He showed me yesterday.”
+“He showed me yesterday,” Alden said.
 
-“I showed you nothing.”
+“I showed you nothing,” I said.
 
-“You slapped my hand.”
+“You slapped my hand,” Alden said.
 
-“That was instruction.”
+“That was instruction,” I said.
 
-“That was assault.”
+“That was assault,” Alden said.
 
-“Bronze guild standards are broad.”
+“Bronze guild standards are broad,” I said.
 
 Jorren rubbed his face.
 
-“Where?”
+“Where?” he asked.
 
 That was the problem. The covered arcade was busy. Rain had delayed enough contracts that half the guild seemed to be waiting under it, arguing with clerks, checking postings, drying equipment, or lying about how much rain they had walked through. The indoor practice room was booked by a shield class. The covered loading yard had carts in it.
 
@@ -19732,13 +19734,13 @@ Alden looked around the crowded arcade.
 
 Because I had been looking for a training space. Not ten feet by five. A training space had requirements. Clear floor. Permission. Appropriate surface. No traffic. Enough room for movement. Ideally equipment. Possibly a fee. Ten feet by five had different requirements. This was irritating. Jorren said, “You keep doing that.”
 
-“I know.”
+“I know,” I said.
 
 Alden said, “Doing what?”
 
-“Making the problem bigger because he likes the bigger problem.”
+“Making the problem bigger because he likes the bigger problem,” Jorren said.
 
-“I do not like bigger problems.”
+“I do not like bigger problems,” I said.
 
 Jorren and Alden looked at me.
 
@@ -20300,7 +20302,9 @@ Something in her face changed. Not much. Annoyance sharpened into a more specifi
 
 “No.”
 
-I went to the third shed. Slowly. The driver met Octavia in the court. I could hear them. Not because I was listening. Because he was loud.
+I went to the third shed. Slowly. The driver met Octavia in the court.
+
+I could hear them. Not because I was listening. Because he was loud.
 
 “South ridge courier didn’t come through.”
 
@@ -20373,8 +20377,6 @@ She was still talking to the driver, not panicked or dramatic. She asked questio
 That was mean. Also correct. Maybe. I watched her for another moment. Then I stopped. Not my brother. Not my route. Not my problem. I had ten feet of floor. That was enough. For once, I intended to use exactly that much.
 
 CHAPTER TWENTY-TWO
-
-THE TRAINEE
 
 The guild gave me a free seat because Merek Verran was a liar. This was not how they described it. The ink-thumbed clerk called it a hazard adjustment.
 
@@ -20450,9 +20452,11 @@ She returned to her ledger. I made it three steps.
 
 “Go away.”
 
-Hall Two smelled like wet wool, old wood, and twenty-seven adventurers who had all decided they were dry enough. The rain had stopped sometime before dawn, but the city was still carrying it. Cloaks hung from pegs. Boots left dark prints across the floor. Two windows had been opened despite the cold because somebody near the back smelled like horse. Rows of benches faced a chalk board.
+Hall Two smelled like wet wool, old wood, and twenty-seven adventurers who had all decided they were dry enough.
 
-I stopped in the doorway. This was a classroom. I had spent decades becoming one of the strongest support adventurers alive, died, returned to my nineteen-year-old body, discovered my magic was pathetic, accumulated debt, found future-important people before they became future-important, and nearly had my face opened by an iron hook. Apparently the second life also contained professional development. A woman at a registration table held out her hand.
+The rain had stopped sometime before dawn, but the city was still carrying it. Cloaks hung from pegs. Boots left dark prints across the floor. Two windows had been opened despite the cold because somebody near the back smelled like horse. Rows of benches faced a chalk board. I stopped in the doorway. This was a classroom.
+
+I had spent decades becoming one of the strongest support adventurers alive, died, returned to my nineteen-year-old body, discovered my magic was pathetic, accumulated debt, found future-important people before they became future-important, and nearly had my face opened by an iron hook. Apparently the second life also contained professional development. A woman at a registration table held out her hand.
 
 “Card.”
 
@@ -21066,29 +21070,29 @@ Rusk looked at me.
 
 There. That was the problem. Not monsters. Information. The first useful fact was that people were leaving. Everything else was story. I looked at my group.
 
-“We don’t go through them.”
+“We don’t go through them,” I said.
 
 Cass said, “Contract.”
 
-“Cart doesn’t move through a frightened crowd.”
+“Cart doesn’t move through a frightened crowd,” I said.
 
 Berren nodded.
 
-“Turn?”
+“Turn?” Berren asked.
 
-“Not yet.”
+“Not yet,” I said.
 
 Lio pointed at the buildings.
 
-“Get off the road.”
+“Get off the road,” Lio said.
 
-“Yes.”
+“Yes,” I said.
 
-“Then what?”
+“Then what?” Lio asked.
 
 I looked at the map.
 
-“Count.”
+“Count,” I said.
 
 Rusk heard. Her eyes flicked toward the board at the front.
 
@@ -21254,9 +21258,9 @@ Then I signed.
 
 CHAPTER TWENTY-THREE
 
-THE AIDE
+North Gate had too many shoes.
 
-North Gate had too many shoes. That was my first useful observation. Not monsters. Not blood. Shoes. People stood in three lines outside the gatehouse, and almost every pair was wrong for the city. Mud-caked work boots. Wooden clogs. Soft house shoes wrapped in rags. One child had no shoes at all and was being carried by a woman who had tied two coats around him.
+That was my first useful observation. Not monsters. Not blood. Shoes. People stood in three lines outside the gatehouse, and almost every pair was wrong for the city. Mud-caked work boots. Wooden clogs. Soft house shoes wrapped in rags. One child had no shoes at all and was being carried by a woman who had tied two coats around him.
 
 The second useful observation was that nobody had organized the lines for the same reason. One line was names. One was injuries. One was apparently food until someone changed it to lodging. The third had become whatever happened when frightened people saw a line and assumed standing in it would eventually improve their situation. Alden looked at the crowd.
 
@@ -21274,15 +21278,15 @@ A city watchman heard him.
 
 The watchman pointed. A table beneath the gate arch had once been painted blue. Mostly. We went there. A woman in a watch coat stood behind it with three ledgers, two cups, a broken pencil, and the expression of someone who had been awake since before the problem existed.
 
-“Guild?”
+“Guild?” the woman asked.
 
 Alden showed his Bronze pin. She pointed at me.
 
-“Him too?”
+“Him too?” she asked.
 
-“I’m visibly here.”
+“I’m visibly here,” I said.
 
-“That wasn’t the question.”
+“That wasn’t the question,” she said.
 
 I showed mine.
 
@@ -21476,11 +21480,11 @@ The man stared at me.
 
 Water first. I nodded. He went. Alden said quietly, “You hate this.”
 
-“What?”
+“What?” I asked.
 
-“Waiting.”
+“Waiting,” Alden said.
 
-“I am excellent at waiting.”
+“I am excellent at waiting,” I said.
 
 “You followed a rope through a wall.”
 
@@ -22026,8 +22030,6 @@ For once, he did not move first. Neither did I.
 
 CHAPTER TWENTY-FOUR
 
-THE PASSENGER
-
 The last place on the Darrowmere list was gone by morning. Alden blamed me.
 
 “You said maybe.”
@@ -22054,25 +22056,25 @@ Alden looked at the board as though arithmetic had betrayed him personally. I wa
 
 I was still deciding what to do with that when Rusk found me. Not Dema Rusk. Rusk. Antonius’s Rusk. He stood near the guild doors with his usual expression of having already completed a conversation everyone else had not yet started.
 
-“You’re free.”
+“You’re free,” Rusk said.
 
 It was not a question.
 
-“Currently.”
+“Currently,” I said.
 
-“Marr?”
+“Marr?” Rusk called.
 
 Alden looked over.
 
-“What?”
+“What?” Alden asked.
 
-“You’re free too.”
+“You’re free too,” Rusk said.
 
-“Depends.”
+“Depends,” Alden said.
 
-“On?”
+“On?” Rusk asked.
 
-“What you want.”
+“What you want,” Alden said.
 
 Rusk considered him.
 
@@ -22116,7 +22118,9 @@ Rusk started walking.
 
 We followed. Of course we followed. The boat was on a wagon. The sentence did not become less stupid when I saw it. It was perhaps twenty feet long, broad in the middle, shallow underneath, and painted a green that had lost an argument with several years of weather. The mast was gone. Two benches remained. One side bore faded white lettering I could not read because half the name had been scraped away.
 
-The entire thing sat in a timber cradle on top of a six-wheeled freight wagon. Four draft horses stood in front. A fifth horse waited beside them. Two men were tightening straps. A woman under the wagon was swearing at an axle. I stopped. Alden kept walking three steps before realizing I had not. He turned.
+The entire thing sat in a timber cradle on top of a six-wheeled freight wagon. Four draft horses stood in front. A fifth horse waited beside them. Two men were tightening straps. A woman under the wagon was swearing at an axle.
+
+I stopped. Alden kept walking three steps before realizing I had not. He turned.
 
 “What?”
 
@@ -22146,9 +22150,11 @@ Rusk said, “Get in.” I looked at him.
 
 “That is generally why I came for you.”
 
-Alden climbed the wheel before I finished processing the insult. I hated him. I climbed after. The inside of the boat contained six sacks of something, two coils of rope, a wooden chest, three folded canvas sheets, and one annoyed-looking man with a shaved chin and a wool cap. He was eating an onion. Raw. He nodded at us.
+Alden climbed the wheel before I finished processing the insult. I hated him. I climbed after. The inside of the boat contained six sacks of something, two coils of rope, a wooden chest, three folded canvas sheets, and one annoyed-looking man with a shaved chin and a wool cap. He was eating an onion.
 
-“You guild?”
+Raw. He nodded at us.
+
+“You guild?” the man asked.
 
 “Yes,” Alden said.
 
@@ -22160,17 +22166,17 @@ Rusk looked up. I corrected.
 
 The onion man took another bite.
 
-“Good.”
+“Good,” the man said.
 
-“Why is that good?”
+“Why is that good?” I asked.
 
-“Guild people ask questions.”
+“Guild people ask questions,” he said.
 
 I sat on one of the benches.
 
 “I have bad news.”
 
-His name was Pellor. Not Pell. Pellor. I made him repeat it.
+His name was Pellor. Not Arlo. Pellor. I made him repeat it.
 
 “Pellor.”
 
@@ -22178,7 +22184,7 @@ His name was Pellor. Not Pell. Pellor. I made him repeat it.
 
 “You look disappointed.”
 
-“I know another Pell.”
+“I know another Arlo.”
 
 “Sorry.”
 
@@ -22298,17 +22304,17 @@ The clerk closed his eyes.
 
 Pellor pointed at Rusk. Rusk produced papers. The clerk read them. Then read them again.
 
-“This says salvage timber.”
+“This says salvage timber,” the clerk said.
 
 “Yes,” Rusk said.
 
 The clerk looked at the boat.
 
-“It is a boat.”
+“It is a boat,” the clerk said.
 
-“Currently.”
+“Currently,” Rusk said.
 
-“What does that mean?”
+“What does that mean?” the clerk asked.
 
 Rusk pointed at the papers.
 
@@ -22776,11 +22782,11 @@ Three miles. Unknown creatures. North road closed. Darrowmere still standing. Cu
 
 CHAPTER TWENTY-FIVE
 
-THE DEFENDER
+The first creature came over the wall sideways.
 
-The first creature came over the wall sideways. Not climbed. Not jumped. Sideways. One moment the top of the orchard wall was empty. The next, four gray limbs hooked over the stones and something long pulled itself across without changing pace. The driver shouted. The horses saw it. Everything happened at once. Our wagon lurched left. Alden grabbed the rail. I grabbed Alden.
+Not climbed. Not jumped. Sideways. One moment the top of the orchard wall was empty. The next, four gray limbs hooked over the stones and something long pulled itself across without changing pace. The driver shouted. The horses saw it. Everything happened at once. Our wagon lurched left. Alden grabbed the rail. I grabbed Alden. The rider from the timber yard drew his sword.
 
-The rider from the timber yard drew his sword. The creature dropped into the road. Dog was wrong. Wolf was wrong. It had the head for either if you looked quickly and wanted the world to make sense. Narrow muzzle. Dark mouth. Ears pressed flat. Then the body ruined it. Too long through the ribs. Forelegs slightly shorter than the rear.
+The creature dropped into the road. Dog was wrong. Wolf was wrong. It had the head for either if you looked quickly and wanted the world to make sense. Narrow muzzle. Dark mouth. Ears pressed flat. Then the body ruined it. Too long through the ribs. Forelegs slightly shorter than the rear.
 
 Joints folding close to the body, then opening farther than they should. Gray hide with strips of coarse black hair along the spine. It landed without the impact its size deserved. Smooth. That was what the potter had meant. The horses screamed.
 
@@ -22788,9 +22794,9 @@ Joints folding close to the body, then opening farther than they should. Gray hi
 
 The wagon turned harder. The left wheels struck the ditch. Alden went over the side. I caught cloth. His red scarf. Wrong thing. It tore free. Alden hit the road shoulder and rolled. The creature turned. Too fast. Exactly too fast. Not speed. No preparation. Its front half pointed at the horses. Then at Alden. No visible shift between. My hand was already up.
 
-Mana. Too much thought. Small. Brief. What needs to move? Not creature. Alden. No. Creature’s mouth. It lunged. I cast. A Barrier the size of my palm appeared beside its muzzle. Not in front. Beside. The creature struck it at an angle. The Barrier shattered. Pain snapped behind my eyes. The head moved three inches. Enough. Its teeth closed on Alden’s coat instead of his throat.
+Mana. Too much thought. Small. Brief. What needs to move? Not creature. Alden. No. Creature’s mouth. It lunged. I cast. A Barrier the size of my palm appeared beside its muzzle.
 
-Alden shouted and drove his boot into its chest. The creature dragged him.
+Not in front. Beside. The creature struck it at an angle. The Barrier shattered. Pain snapped behind my eyes. The head moved three inches. Enough. Its teeth closed on Alden’s coat instead of his throat. Alden shouted and drove his boot into its chest. The creature dragged him.
 
 “Greg!”
 
@@ -22838,15 +22844,13 @@ He stared at me.
 
 Excellent.
 
-“Alden?”
+“Alden?” I asked.
 
-“Seven.”
+“Seven,” Alden said.
 
-“Greg?”
+“Greg?” Alden asked.
 
-Alden asked it back.
-
-“Three.”
+“Three,” I said.
 
 He looked at me.
 
@@ -22928,17 +22932,17 @@ A sound came from the orchard. Not the scream. Branches. Cal raised his sword. A
 
 Cal said, “We can kill it.”
 
-“Maybe.”
+“Maybe,” I said.
 
-“It’s hurt.”
+“It’s hurt,” Cal said.
 
-“Yes.”
+“Yes,” I said.
 
-“We hurt it.”
+“We hurt it,” Cal said.
 
-“Yes.”
+“Yes,” I said.
 
-“So finish.”
+“So finish,” Cal said.
 
 Alden looked at him. Then at me. There it was. First advantage. Spend it. I said, “No.” Cal’s jaw tightened.
 
@@ -23056,17 +23060,17 @@ Cal jumped down.
 
 He stopped. I looked at the orchard wall. First creature. Still somewhere. Maybe.
 
-“Driver?”
+“Driver?” I called.
 
-“Wheel’s fine.”
+“Wheel’s fine,” the driver said.
 
-“Horses?”
+“Horses?” I asked.
 
-“Three here. One gone.”
+“Three here. One gone,” he said.
 
-“Can we move?”
+“Can we move?” I asked.
 
-“Not with traces like this.”
+“Not with traces like this,” he said.
 
 “How long?”
 
@@ -23338,8 +23342,6 @@ My laughter stopped. Behind the eastern wall, something screamed. Not one creatu
 
 CHAPTER TWENTY-SIX
 
-THE PATIENT
-
 The healer took my shirt. Not metaphorically. She cut it off.
 
 “That was unnecessary,” I said.
@@ -23408,11 +23410,11 @@ No bite. No claw wound. No broken bones. Good. The healer pressed two fingers be
 
 Everyone was using my own techniques against me now. The world had become intolerable. Alden said, “He does that.” The healer working on him laughed. I turned my head.
 
-“Do what?”
+“Do what?” I asked.
 
-“Answers a different question.”
+“Answers a different question,” Alden said.
 
-“I answer useful questions.”
+“I answer useful questions,” I said.
 
 “You answer the one you wanted.”
 
@@ -23694,7 +23696,11 @@ That was the clean answer. Doven considered.
 
 “Normal enough to disappoint everyone.”
 
-Alden said, “Everyone?” Nemi said, “People prefer monsters to be interesting after they’re dead.” Correct. Doven continued.
+Alden asked, “Everyone?”
+
+“People prefer monsters to be interesting after they’re dead,” Nemi said.
+
+Correct. Doven continued.
 
 “Four-limbed. Mammal structure, mostly. Stomach had sheep. Teeth are ordinary teeth in an unusual jaw. No embedded metal. No obvious rune work. No collar marks. No brand.”
 
@@ -23788,13 +23794,13 @@ That changed it. Not an invasion. Not yet. Predation. But predators did not usua
 
 Alden said, “Keep them out.” Doven shook his head.
 
-“Too large.”
+“Too large,” Doven said.
 
 I disliked how familiar this was becoming. I looked at the map.
 
-“Know where they are?”
+“Know where they are?” I asked.
 
-“Closer.”
+“Closer,” Doven said.
 
 Nemi said, “Keep people from feeding them.” There. Doven nodded.
 
@@ -24032,8 +24038,6 @@ Cal nodded. That was enough. We ran east.
 
 CHAPTER TWENTY-SEVEN
 
-THE RESCUER
-
 Senn was faster than she looked. That was inconvenient. She had a broom, work shoes, and thirty-one goats behind a closed gate. None of those things suggested speed. She disappeared around the corner before Cal and I reached it.
 
 “Left?” he asked.
@@ -24046,9 +24050,9 @@ Senn was faster than she looked. That was inconvenient. She had a broom, work sh
 
 We turned left. Darrowmere changed within one street. The square and command post had been stone, carts, officials, people doing jobs they understood. Here the buildings leaned close. Workshops below. Rooms above. Narrow passages between them. Lines of dyed cloth stretched overhead from upper windows, red and yellow and blue dripping into buckets because somebody had abandoned them halfway through rinsing.
 
-The street smelled of wet wool, vinegar, smoke, and something metallic. Doors stood open. A bucket rolled in a gutter. No people. That was wrong. Not empty. Abandoned recently. There was a difference. A kettle still steamed on a doorstep. A pair of shoes sat neatly outside one door. Someone had dropped half a loaf in the mud. One long bell. Two short.
+The street smelled of wet wool, vinegar, smoke, and something metallic. Doors stood open. A bucket rolled in a gutter. No people. That was wrong. Not empty. Abandoned recently. There was a difference. A kettle still steamed on a doorstep. A pair of shoes sat neatly outside one door. Someone had dropped half a loaf in the mud.
 
-East breach. Again.
+One long bell. Two short. East breach. Again.
 
 “Which way?” Cal asked.
 
@@ -24068,19 +24072,19 @@ Useful. Not useful. Cal pointed. Senn. She was at the next intersection, arguing
 
 “Senn,” the spearwoman said, “no.”
 
-“My daughter is there.”
+“My daughter is there,” Senn said.
 
-“We sent someone.”
+“We sent someone,” the spearwoman said.
 
-“You sent Jory.”
+“You sent Jory,” Senn said.
 
-“Yes.”
+“Yes,” the spearwoman said.
 
-“He’s sixteen.”
+“He’s sixteen,” Senn said.
 
-“He’s watch.”
+“He’s watch,” the spearwoman said.
 
-“He’s sixteen.”
+“He’s sixteen,” Senn said.
 
 Senn tried to go around. The spearwoman blocked her. Cal slowed. I did too. Good. Competent people already here. Do not become another problem.
 
@@ -24244,13 +24248,13 @@ He looked up. Worse. A gray body came down behind him. The crossbow snapped. Bol
 
 We moved aside. She had the line. Jory passed. Creature came. She thrust. Not at chest. Low. Front leg. The creature changed direction. Too fast. Exactly as before. But she expected it. Her spear moved with it. Darrowmere had learned too. Point cut the shoulder. Creature screamed and went up the wall. Crossbowman fired. Miss. Creature reached roof. Gone. Nobody chased. Excellent.
 
-Jory bent over breathing. Spearwoman slapped the back of his head.
+Jory bent over breathing. The spearwoman slapped the back of his head.
 
-“You looked.”
+“You looked,” she said.
 
-“You yelled.”
+“You yelled,” Jory said.
 
-“Not me.”
+“Not me,” she said.
 
 He looked at me. I raised my hand.
 
@@ -24270,23 +24274,23 @@ Jory moved. They had adapted in hours. Senn said, “My daughter.”
 
 She pointed to the blue house.
 
-“Jory, rear access?”
+“Jory, rear access?” she asked.
 
-“Alley connects dye shed.”
+“Alley connects dye shed,” Jory said.
 
-“Crossbow, roof cover.”
+“Crossbow, roof cover,” she ordered.
 
 The man nodded. She looked at Cal.
 
-“Can you hold a door?”
+“Can you hold a door?” she asked.
 
-“Yes.”
+“Yes,” Cal said.
 
-“You?”
+She looked at me.
 
-Me.
+"You?"
 
-“I can also hold a door.”
+“I can also hold a door,” I said.
 
 “No magic?”
 
@@ -24729,8 +24733,6 @@ Alden waited.
 I sat beside him. Outside, Darrowmere resumed making noise. Hammers. Carts. People. Someone shouting about missing chickens. The bell did not ring. I looked at the window. Nothing looked back. That was not the same as nothing being there.
 
 CHAPTER TWENTY-EIGHT
-
-THE GUEST
 
 Darrowmere charged refugees for soup. One copper. I learned this because Alden had no copper.
 
@@ -25220,15 +25222,15 @@ NO CASTING.
 
 I did not move. Tap. Not again. Only once. Could have been wood cooling. Could have been a branch. There was no tree outside. Could have been a bird. At night. Could have been nothing. I waited. Eventually, I got up. Slowly. I did not open the window. I looked through it. Alley. Roofline. Bakery wall. Moonlight on stone. Nothing. Then I looked down.
 
-On the outer sill sat a small piece of bread. The heel. Butter side up. I stared. Brina had given me one exactly like it downstairs. That meant nothing. Bread existed in bakeries. People dropped bread. Birds carried things. Children did strange things.
+On the outer sill sat a small piece of bread.
 
-Someone could have placed it there before I entered the room. Except I had looked out this window while washing. The sill had been empty. I knew that. I thought I knew that. Check. Could I prove it? No. I did not touch the bread. I closed the curtain. Then I moved the chair under the door handle. Not because I was afraid.
+The heel. Butter side up. I stared. Brina had given me one exactly like it downstairs. That meant nothing. Bread existed in bakeries. People dropped bread. Birds carried things. Children did strange things. Someone could have placed it there before I entered the room. Except I had looked out this window while washing. The sill had been empty. I knew that. I thought I knew that.
 
-Because chairs were free. I lay down again. I did not cast. I did not investigate. I did not wake Alden. For a long time, I listened to Darrowmere breathe around me. Ovens below. Someone coughing through the wall. A cart passing far away. A dog barking twice. Normal sounds. Eventually I slept. In the morning, the bread was gone.
+Check. Could I prove it? No. I did not touch the bread. I closed the curtain. Then I moved the chair under the door handle. Not because I was afraid. Because chairs were free. I lay down again. I did not cast. I did not investigate. I did not wake Alden.
+
+For a long time, I listened to Darrowmere breathe around me. Ovens below. Someone coughing through the wall. A cart passing far away. A dog barking twice. Normal sounds. Eventually I slept. In the morning, the bread was gone.
 
 CHAPTER TWENTY-NINE
-
-THE WITNESS
 
 The bread remained gone. I checked. That was the first mistake of the morning. Not checking the sill. Caring. The outer ledge held flour dust, two black crumbs, and a streak that might have been butter if butter had survived the night, rain, birds, insects, and my imagination. No footprints. No claw marks. No note. No useful evidence. I closed the window.
 
@@ -25604,17 +25606,17 @@ That was answer enough. He had a job. He had gone back to it. I liked that. The 
 
 “Muscle attaches here,” the butcher said.
 
-“I can see that.”
+“I can see that,” the mage said.
 
-“Then stop calling it abnormal.”
+“Then stop calling it abnormal,” the butcher said.
 
-“It is abnormal.”
+“It is abnormal,” the mage said.
 
-“For a dog.”
+“For a dog,” the butcher said.
 
-“It looks like a dog.”
+“It looks like a dog,” the mage said.
 
-“It is not a dog.”
+“It is not a dog,” the butcher said.
 
 Good. I approached. The mage saw my Bronze pin. Then my tag.
 
@@ -25720,9 +25722,9 @@ Alden said, “Accurate.” The mage looked at him.
 
 The butcher went back to work. The mage said, “I’m Kellan.”
 
-“Greg.”
+“Greg,” I said.
 
-“I know.”
+“I know,” Kellan said.
 
 Again. I disliked Darrowmere. Kellan crouched by the body.
 
@@ -25984,8 +25986,6 @@ Fourteen people. Two carts. Three children. One injured adult. Eight copper. Tha
 
 CHAPTER THIRTY
 
-THE ESCORT
-
 The smallest girl decided I was a disappointing wizard. This took six miles. At first she asked questions. Then she tested.
 
 “Can you make a wall?”
@@ -26066,13 +26066,15 @@ Alden looked at me. I shrugged. People loved badly designed things all the time.
 
 That ended the argument. For approximately three minutes. The remaining adults were less loud. A cooper’s apprentice named Venn traveling to stay with his uncle. A woman named Mera with two sacks of clothing she refused to put in either cart because she did not trust the wheels.
 
-A married couple, Harl and Tessa, who had left their pigs with Harl’s brother and were now arguing about whether that had been wise. A thin man named Osric who claimed he was only traveling to the city for business. Nobody believed him. He did not seem bothered. And us. Fourteen civilians. Two Bronze. Sixteen people total. The road west was open.
+A married couple, Harl and Tessa, who had left their pigs with Harl’s brother and were now arguing about whether that had been wise.
 
-That did not mean empty. We passed carts going both directions. Guild riders. Farmers. A wagon carrying barrels. A priest walking alone with mud to his knees. At the first checkpoint, Darrowmere watch counted us. Fourteen. At the second, city watch counted us. Fourteen. Nobody cared about me or Alden. Good. We walked. My body loosened as morning warmed. Not healed. Functional.
+A thin man named Osric who claimed he was only traveling to the city for business. Nobody believed him. He did not seem bothered. And us. Fourteen civilians. Two Bronze. Sixteen people total. The road west was open. That did not mean empty. We passed carts going both directions. Guild riders. Farmers. A wagon carrying barrels. A priest walking alone with mud to his knees.
 
-The LIMITED CASTING tag remained on my wrist. I did not cast. There was no reason. That was surprisingly difficult. Not because I needed magic. Because having permission made me want to test the edges. Small, low-load. How small? How low? Three bead-sized Barriers had been fine. Could I hold one for five seconds? Ten? Could I move it? Could I change angle under load?
+At the first checkpoint, Darrowmere watch counted us. Fourteen. At the second, city watch counted us. Fourteen. Nobody cared about me or Alden. Good. We walked. My body loosened as morning warmed. Not healed. Functional. The LIMITED CASTING tag remained on my wrist. I did not cast. There was no reason. That was surprisingly difficult. Not because I needed magic. Because having permission made me want to test the edges.
 
-No. You do not test where the limit is. The healer had anticipated me. Rude. Alden walked beside the first cart. His left arm stayed mostly still. He was better at following his restriction when other people were watching. Also rude. After an hour, he dropped back beside me.
+Small, low-load. How small? How low? Three bead-sized Barriers had been fine. Could I hold one for five seconds? Ten? Could I move it? Could I change angle under load? No. You do not test where the limit is. The healer had anticipated me. Rude. Alden walked beside the first cart. His left arm stayed mostly still.
+
+He was better at following his restriction when other people were watching. Also rude. After an hour, he dropped back beside me.
 
 “You pulled me by the scarf.”
 
@@ -26240,7 +26242,7 @@ He stared.
 
 He laughed. Sava looked back from the cart.
 
-“Problem?”
+“Problem?” she called.
 
 “No,” Alden called.
 
@@ -26248,11 +26250,11 @@ He laughed. Sava looked back from the cart.
 
 She slowed.
 
-“What?”
+“What?” Sava asked.
 
-“Nothing relevant.”
+“Nothing relevant,” I said.
 
-“Then walk faster.”
+“Then walk faster,” Sava said.
 
 We did. At midday we stopped near a roadside shrine. Not a temple. A stone niche with three little figures worn smooth by weather. Someone had left apples. Leni took one. Sava made her put it back.
 
@@ -26456,23 +26458,23 @@ He looked at her.
 
 He had no answer he wanted to share. Alden stepped over.
 
-“Where does it go?”
+“Where does it go?” Alden asked.
 
 Osric pointed southwest.
 
-“Old mill road.”
+“Old mill road,” Osric said.
 
-“City?”
+“City?” Alden asked.
 
-“Eventually.”
+“Eventually,” Osric said.
 
-“Why?”
+“Why?” Alden asked.
 
-“Business.”
+“Business,” Osric said.
 
-“What business?”
+“What business?” Alden asked.
 
-“My business.”
+“My business,” Osric said.
 
 Alden looked at me. I shrugged. He was not a prisoner.
 
@@ -26552,7 +26554,7 @@ I took the copper. He looked offended.
 
 I gave it back. Mostly because Sava was watching. The civilians dispersed slowly. Not dramatically. Fera and Noll argued about which cousin to stay with. Marden needed a cart. Harl and Tessa immediately began worrying about the pigs they had left behind. Mera still carried both clothing sacks. Osric disappeared before Sava could assign him another relative. Tem showed his beetles to a city guard.
 
-Arlo corrected someone who got his name wrong. Leni stood in front of me.
+Arlo corrected someone who called him Arlo. Leni stood in front of me.
 
 “You’re still disappointing.”
 
@@ -26611,8 +26613,6 @@ Fair.
 We walked toward the market arguing about two feet of red cloth. For once, neither of us looked back east.
 
 CHAPTER THIRTY-ONE
-
-THE REPORTER
 
 Alden bought the scarf. This was objectionable for several reasons. First, I did not owe him one. Second, he paid three copper for it. Third, it was red. Not the same red. Darker. That should not have mattered. It did.
 
@@ -26898,13 +26898,13 @@ She looked at me.
 
 Silence. Hessa did not help.
 
-“What kind of work?”
+“What kind of work?” I asked.
 
-“Facing. Steps. Corners. Sometimes lettering if the carver is behind.”
+“Facing. Steps. Corners. Sometimes lettering if the carver is behind,” Rinna said.
 
-“You can feel stress through the block.”
+“You can feel stress through the block,” I said.
 
-“Sometimes.”
+“Sometimes,” Rinna said.
 
 “How far?”
 
@@ -26938,11 +26938,11 @@ Another blink.
 
 “And with enough practice you could potentially redirect stress instead of only reading it.”
 
-She stared. Hessa turned a page in her ledger. The woman said, “I make stairs.”
+She stared. Hessa turned a page in her ledger. The woman said, “I make stairs,” Rinna said.
 
-“I understand.”
+“I understand,” I said.
 
-“No, I make good stairs.”
+“No, I make good stairs,” Rinna said.
 
 I stopped. She continued.
 
@@ -27270,8 +27270,6 @@ Good. Separate problems until evidence connected them. I left for South Canal. B
 
 CHAPTER THIRTY-TWO
 
-THE CONSULTANT
-
 South Canal smelled exactly the same. This was reassuring. Wet rope. Grain dust. Canal water. Horse piss. Somebody frying onions badly. Darrowmere had not improved the district. I crossed the towpath with Edrin’s note in my pocket and the LIMITED CASTING tag still on my wrist. A barge slid beneath the nearest crane while two men argued about whose responsibility a rope had become. Neither looked at the sky. Neither asked whether monsters were coming.
 
 Good. Verran Grain Stores was closed. Not empty. Closed. A Guild seal crossed the street doors. Another covered the smaller office entrance. The painted wheat sheaf above them looked embarrassed. I checked Edrin’s note.
@@ -27526,7 +27524,11 @@ Edrin looked at me. That was enough. I leaned closer. The inclusions were too pa
 
 “Not enough to say,” I corrected.
 
-Edrin nodded. Good. Verran said, “Can I leave?” The constable said, “No.” Verran sat back. I asked, “Where did the sacks come from?” Nobody answered. Not because nobody knew. I looked at Nella. She looked at Verran. There. Edrin noticed too. Probably had noticed yesterday.
+Edrin nodded. Good. Verran asked, “Can I leave?”
+
+“No,” the constable said.
+
+Verran sat back. I asked, “Where did the sacks come from?” Nobody answered. Not because nobody knew. I looked at Nella. She looked at Verran. There. Edrin noticed too. Probably had noticed yesterday.
 
 “Nella?” she asked.
 
@@ -27536,9 +27538,9 @@ Nella exhaled.
 
 Verran turned.
 
-“You were told not to discuss invoices.”
+“You were told not to discuss invoices,” Verran said.
 
-“I was told by you.”
+“I was told by you,” Nella said.
 
 The constable straightened. Verran said, “Nella.” She ignored him.
 
@@ -28176,8 +28178,6 @@ Someone had taken cheap kestrin shale and made it do this. That person, workshop
 
 CHAPTER THIRTY-THREE
 
-THE ASSESSOR
-
 The west storehouse had acquired a hole. Not a dramatic hole. No fire. No blood. No creature. A section of roof tile had failed above the rear loading bay, taken two battens with it, and deposited rainwater onto forty-three sacks of dried beans. This was apparently my problem. Rusk stood beneath the damage with a clipboard. He looked at my wrist.
 
 “Limited?”
@@ -28388,7 +28388,9 @@ Rusk, across the bay, said, “I can hear you.”
 
 “Because I get blamed neatly.”
 
-Good system. Bad job. I crouched beside the split sack. My left knee complained. My ribs were mostly quiet now. Palm healing. Channels quiet.
+Good system. Bad job. I crouched beside the split sack.
+
+My left knee complained. My ribs were mostly quiet now. Palm healing. Channels quiet.
 
 LIMITED CASTING.
 
@@ -28398,19 +28400,19 @@ I did not need magic to determine that beans sitting in butcher water should not
 
 Mevi said, “Four.”
 
-“Which?”
+“Which?” I asked.
 
 She kicked the pigeon sack.
 
-“The bird one.”
+“The bird one,” Mevi said.
 
-“Exterior only.”
+“Exterior only,” I said.
 
-“Bird.”
+“Bird,” Mevi said.
 
-“The contents are dry.”
+“The contents are dry,” I said.
 
-“Bird.”
+“Bird,” Mevi said.
 
 “That is not an argument.”
 
@@ -28502,13 +28504,13 @@ Not unknown. No. Meaning the answer was useless.
 
 Rusk made a small sound. Antonius looked at him.
 
-“What?”
+“What?” Antonius asked.
 
-“Nothing.”
+“Nothing,” Rusk said.
 
-“You disagree?”
+“You disagree?” Antonius asked.
 
-“No. I enjoy watching other people spend your money.”
+“No. I enjoy watching other people spend your money,” Rusk said.
 
 Antonius looked back at me.
 
@@ -28720,11 +28722,11 @@ I opened it. Nails. Twelve. Ordinary iron. I looked at him.
 
 “Why?”
 
-“Pell.”
+“Arlo.”
 
 That got me.
 
-“What about Pell?”
+“What about Arlo?”
 
 “He sent a message yesterday. Your regulator is ready for another comparison run if you are functional.”
 
@@ -28752,7 +28754,7 @@ No urgency again. I looked at the nails.
 
 “Rusk needs them.”
 
-“You carried twelve nails upstairs so you could tell me Pell sent a message?”
+“You carried twelve nails upstairs so you could tell me Arlo sent a message?”
 
 “I needed the box.”
 
@@ -29056,9 +29058,9 @@ I did not. Outside, Rusk was arguing with a roofer. The roofer wanted nine silve
 
 “He saw the hole.”
 
-Good. I headed toward my room for the regulator. Not Silas Marris. Pell. Obligation first had become obligation next. That was probably healthy. I disliked it. At my lodging, the room had remained offensively unchanged. Bed. Washbasin. Mirror. Coat.
+Good. I headed toward my room for the regulator. Not Silas Marris. Arlo. Obligation first had become obligation next. That was probably healthy. I disliked it. At my lodging, the room had remained offensively unchanged. Bed. Washbasin. Mirror. Coat.
 
-My sword leaned beside the wall, chipped edge still waiting for attention. I found Pell’s regulator wrapped in cloth at the bottom of my bag. The improved low-flow piece was small enough to fit in my palm. Brass body. Narrow channel. Adjustment screw. No magic required to appreciate good work. I turned it once. Stopped. Hessa’s voice arrived without permission. Do not test where the limit is.
+My sword leaned beside the wall, chipped edge still waiting for attention. I found Arlo’s regulator wrapped in cloth at the bottom of my bag. The improved low-flow piece was small enough to fit in my palm. Brass body. Narrow channel. Adjustment screw. No magic required to appreciate good work. I turned it once. Stopped. Hessa’s voice arrived without permission. Do not test where the limit is.
 
 I had not been going to cast. Probably. I put it back in the cloth. Someone knocked. I opened the door. Alden stood there with his sword on one shoulder and his new red scarf around his neck now instead of his wrist. His left arm still moved carefully. He looked pleased.
 
@@ -29194,7 +29196,7 @@ Alden looked at the wrapped regulator in my hand.
 
 “What’s that?”
 
-“Pell wants a comparison run.”
+“Arlo wants a comparison run.”
 
 “Magic?”
 
@@ -29212,7 +29214,7 @@ He nodded. No argument. Also new. Then he pointed at my sword.
 
 “Today.”
 
-“I have Pell.”
+“I have Arlo.”
 
 “After.”
 
@@ -29244,7 +29246,7 @@ He stood.
 
 I calculated. Two copper. Sword functional but chipped. Darrowmere had demonstrated that a bad edge was not theoretical. I hated practical Alden.
 
-“After Pell.”
+“After Arlo.”
 
 “Good.”
 
@@ -29300,17 +29302,15 @@ Alden grinned.
 
 “Get out.”
 
-He did. I stood alone with the regulator. Silas Marris. Sinkstone. Darrowmere creatures. Berren’s fire claim. A drainage ditch. Antonius’s warning. Pell’s comparison. Sword edge. Debt. Too many open threads. Old me would have called that opportunity.
+He did. I stood alone with the regulator. Silas Marris. Sinkstone. Darrowmere creatures. Berren’s fire claim. A drainage ditch. Antonius’s warning. Arlo’s comparison. Sword edge. Debt. Too many open threads. Old me would have called that opportunity.
 
-Old me had also become very good at making other people carry the cost of his opportunities. I wrapped the regulator tighter. Not a revelation. Not reform. Just scheduling. Pell first. Sword after. Silas Marris not today. I left before curiosity could renegotiate.
+Old me had also become very good at making other people carry the cost of his opportunities. I wrapped the regulator tighter. Not a revelation. Not reform. Just scheduling. Arlo first. Sword after. Silas Marris not today. I left before curiosity could renegotiate.
 
 CHAPTER THIRTY-FOUR
 
-THE HELPER
+Arlo was not testing my regulator. He was using it to hold up a shelf.
 
-Pell was not testing my regulator. He was using it to hold up a shelf. I stood in the workshop doorway with the wrapped improved piece in my hand and watched a narrow brass regulator, almost identical to mine, wedged beneath the left corner of a wooden rack. The rack held ceramic cups. One cup was cracked. Two were marked with charcoal.
-
-A third contained screws. Pell looked up from a bench.
+I stood in the workshop doorway with the wrapped improved piece in my hand and watched a narrow brass regulator, almost identical to mine, wedged beneath the left corner of a wooden rack. The rack held ceramic cups. One cup was cracked. Two were marked with charcoal. A third contained screws. Arlo looked up from a bench.
 
 “You’re late.”
 
@@ -29336,7 +29336,7 @@ A third contained screws. Pell looked up from a bench.
 
 He went back to work. I entered. The workshop had changed. Not dramatically. The same benches. Same kiln smell. Same metal filings in the floor cracks. Same collection of tools arranged according to a system I still could not infer. But one wall now held six regulators instead of two. Three brass. One dark iron. One ceramic-bodied.
 
-One that looked like it had been made by someone angry at circles. Pell had not been waiting for me. Good. I set my wrapped regulator on the only clear corner of the bench. He pointed without looking.
+One that looked like it had been made by someone angry at circles. Arlo had not been waiting for me. Good. I set my wrapped regulator on the only clear corner of the bench. He pointed without looking.
 
 “Not there.”
 
@@ -29346,7 +29346,7 @@ I moved it.
 
 “Hot.”
 
-I touched the bench. Hot. Young reflexes pulled my hand back before thought finished. Pell looked over.
+I touched the bench. Hot. Young reflexes pulled my hand back before thought finished. Arlo looked over.
 
 “Functional?”
 
@@ -29388,11 +29388,11 @@ He stopped filing.
 
 “Good.”
 
-Everyone liked the restriction except me. Pell wiped his hands on his apron.
+Everyone liked the restriction except me. Arlo wiped his hands on his apron.
 
 “Give me the piece.”
 
-I unwrapped it. He took it. No ceremony. Turned the adjustment screw twice. Held it to the light. Then placed it beside another regulator. Mine looked better. Not prettier. More finished. The channel edges were cleaner. The brass body had been filed down around the housing. The screw sat tighter. Pell had added two tiny marks near the collar.
+I unwrapped it. He took it. No ceremony. Turned the adjustment screw twice. Held it to the light. Then placed it beside another regulator. Mine looked better. Not prettier. More finished. The channel edges were cleaner. The brass body had been filed down around the housing. The screw sat tighter. Arlo had added two tiny marks near the collar.
 
 “What changed?”
 
@@ -29426,11 +29426,11 @@ He pointed at the kiln. A woman I had not noticed was kneeling beside it. She wo
 
 “Don’t point at me.”
 
-Pell lowered his hand.
+Arlo lowered his hand.
 
 “Vessa.”
 
-I knew the name. Pell’s shop. Chalk notes. Fixture work. She had been part of the place before I understood the place. Vessa pulled one arm free.
+I knew the name. Arlo’s shop. Chalk notes. Fixture work. She had been part of the place before I understood the place. Vessa pulled one arm free.
 
 “Greg?”
 
@@ -29440,7 +29440,7 @@ I knew the name. Pell’s shop. Chalk notes. Fixture work. She had been part of 
 
 “No.”
 
-Pell said, “Yes.” I looked at him. He had already returned to the bench. Vessa smiled.
+Arlo said, “Yes.” I looked at him. He had already returned to the bench. Vessa smiled.
 
 “Good. Hold this.”
 
@@ -29458,7 +29458,7 @@ I held it flat. She slid back under the kiln.
 
 “Because I need both hands.”
 
-Reasonable. Pell set three regulators in a row.
+Reasonable. Arlo set three regulators in a row.
 
 “Comparison.”
 
@@ -29472,9 +29472,9 @@ I looked at the plate.
 
 “Yes.”
 
-That was apparently not contradictory. Pell connected the first regulator to a small hand-pump assembly. No mana. Good. A glass tube rose from the apparatus with ink marks at regular intervals. He pressed the pump. Air moved through. A bead inside the tube climbed. Stopped. He wrote a number. Second regulator. Pump. Bead. Number. Mine. Pump. Bead. Number. He frowned. I became interested.
+That was apparently not contradictory. Arlo connected the first regulator to a small hand-pump assembly. No mana. Good. A glass tube rose from the apparatus with ink marks at regular intervals. He pressed the pump. Air moved through. A bead inside the tube climbed. Stopped. He wrote a number. Second regulator. Pump. Bead. Number. Mine. Pump. Bead. Number. He frowned. I became interested.
 
-Vessa said from beneath the kiln, “Plate.” I had tilted it. I corrected. Pell pumped again. Same result.
+Vessa said from beneath the kiln, “Plate.” I had tilted it. I corrected. Arlo pumped again. Same result.
 
 “What?”
 
@@ -29490,7 +29490,7 @@ Vessa said from beneath the kiln, “Plate.” I had tilted it. I corrected. Pel
 
 “No one’s face is private anymore.”
 
-He looked at me. I realized I had said that aloud. Vessa laughed under the kiln. Pell said, “Yours least of all.” Hostile city.
+He looked at me. I realized I had said that aloud. Vessa laughed under the kiln. Arlo said, “Yours least of all.” Hostile city.
 
 “What is wrong with the number?”
 
@@ -29514,7 +29514,7 @@ He showed me. I understood enough of the marks. The first regulator had variable
 
 “No.”
 
-I stared. He picked up mine. Turned the screw. Pump. Number. Turned. Pump. Number. Again. Again. The numbers stayed close. Not identical. Close. Pell’s frown deepened. Vessa said, “If you make him more interested, he’ll drop my plate.”
+I stared. He picked up mine. Turned the screw. Pump. Number. Turned. Pump. Number. Again. Again. The numbers stayed close. Not identical. Close. Arlo’s frown deepened. Vessa said, “If you make him more interested, he’ll drop my plate.”
 
 “I will not.”
 
@@ -29524,7 +29524,7 @@ My arms were beginning to tire. Not much. Enough. The plate was not designed to 
 
 I gave. She took the full weight one-handed from an awkward angle. Competence. Not magical. Just practiced. I liked watching it. She fitted the plate into place. Two bolts. Turn. Check. Loosen. Shift. Turn. No wasted motion.
 
-I nearly asked why she had loosened the first bolt after tightening it. Did not. She was working. Pell said, “Greg.” I looked back. He had disassembled my regulator.
+I nearly asked why she had loosened the first bolt after tightening it. Did not. She was working. Arlo said, “Greg.” I looked back. He had disassembled my regulator.
 
 “You could ask.”
 
@@ -29538,7 +29538,7 @@ I nearly asked why she had loosened the first bolt after tightening it. Did not.
 
 “Six.”
 
-He lifted the collar. Six. I moved closer. The internal channel looked different. Not the shape I remembered. Pell had added a tiny recess near the inlet.
+He lifted the collar. Six. I moved closer. The internal channel looked different. Not the shape I remembered. Arlo had added a tiny recess near the inlet.
 
 “What is that?”
 
@@ -29616,7 +29616,7 @@ I stopped. That was interesting.
 
 “Explain.”
 
-He sighed. Not annoyed. Pell’s version of pleased.
+He sighed. Not annoyed. Arlo’s version of pleased.
 
 “The first fixture tried to make the opening exact.”
 
@@ -29636,11 +29636,11 @@ He sighed. Not annoyed. Pell’s version of pleased.
 
 “The third changes the channel around the bad opening.”
 
-I looked at the recess. A tiny side volume. The flow could fluctuate at the screw and then settle before the outlet. Not fixing the unstable part. Absorbing its error. My brain lit. Buffer. No. Different. Similar. I thought of sinkstone. Cheap buffers always lie about what they keep. Not now. Pell was here. This was his thing.
+I looked at the recess. A tiny side volume. The flow could fluctuate at the screw and then settle before the outlet. Not fixing the unstable part. Absorbing its error. My brain lit. Buffer. No. Different. Similar. I thought of sinkstone. Cheap buffers always lie about what they keep. Not now. Arlo was here. This was his thing.
 
 “What did the fourth fixture change?”
 
-Pell looked toward Vessa. She had closed the kiln panel.
+Arlo looked toward Vessa. She had closed the kiln panel.
 
 “Ask her.”
 
@@ -29650,25 +29650,25 @@ I did.
 
 Vessa stood.
 
-“Pell.”
+“Arlo.”
 
 He looked offended. She wiped soot from her forearm.
 
 “The first three held the body too hard.”
 
-Pell said, “Not too hard.”
+Arlo said, “Not too hard.”
 
-“They marked the brass.”
+“They marked the brass,” Vessa said.
 
-“Cosmetic.”
+“Cosmetic,” Arlo said.
 
-“They distorted the housing.”
+“They distorted the housing,” Vessa said.
 
-“Barely.”
+“Barely,” Arlo said.
 
-“Enough.”
+“Enough,” Vessa said.
 
-Pell looked at me.
+Arlo looked at me.
 
 “Sometimes.”
 
@@ -29684,7 +29684,7 @@ Vessa continued.
 
 “Because he kept making the same good regulator in the fixture and a worse one after he took it out.”
 
-I looked at Pell. He did not deny it. That was funny. I smiled.
+I looked at Arlo. He did not deny it. That was funny. I smiled.
 
 “Do not,” he said.
 
@@ -29692,7 +29692,7 @@ I looked at Pell. He did not deny it. That was funny. I smiled.
 
 “You made the face.”
 
-Vessa laughed again. Pell pointed at her.
+Vessa laughed again. Arlo pointed at her.
 
 “You missed it too.”
 
@@ -29704,15 +29704,15 @@ Vessa laughed again. Pell pointed at her.
 
 “It was not.”
 
-Their argument continued without me. Good. I looked at the six regulators on the wall. The progression was visible now. Not invention. Iteration. Fixture. Measurement. Failure. Change. Another failure. Someone else noticing the housing distortion. Change again. My original contribution had been small. A question about low flow. A use case. Maybe an insistence. Pell had done the rest. No. Pell and Vessa.
+Their argument continued without me. Good. I looked at the six regulators on the wall. The progression was visible now. Not invention. Iteration. Fixture. Measurement. Failure. Change. Another failure. Someone else noticing the housing distortion. Change again. My original contribution had been small. A question about low flow. A use case. Maybe an insistence. Arlo had done the rest. No. Arlo and Vessa.
 
 Probably Tere somewhere before that. The workshop had grown around the problem without me. I liked that more than I expected.
 
 “What do you need from me?” I asked.
 
-Pell stopped arguing.
+Arlo stopped arguing.
 
-“Nothing.”
+“Nothing,” Arlo said.
 
 I blinked.
 
@@ -29732,13 +29732,13 @@ I blinked.
 
 “Yes.”
 
-“Then why me?”
+“Then why me?” I asked.
 
 He looked confused by the question.
 
-“You own it.”
+“You own it,” Arlo said.
 
-That was all. Not expertise. Not future knowledge. Property. I had built a larger role for myself because I was used to being useful. Embarrassing. Vessa said, “He also wanted to know if you broke it.” Pell looked at her.
+That was all. Not expertise. Not future knowledge. Property. I had built a larger role for myself because I was used to being useful. Embarrassing. Vessa said, “He also wanted to know if you broke it.” Arlo looked at her.
 
 “That was secondary.”
 
@@ -29760,11 +29760,11 @@ Right. Clean relationship to work. I picked up the first regulator.
 
 “Can I?”
 
-Pell nodded. I turned the screw. Felt the loose point. Then mine. Tighter. Not because the screw itself was dramatically better. Because the outlet behavior cared less about the screw’s tiny instability.
+Arlo nodded. I turned the screw. Felt the loose point. Then mine. Tighter. Not because the screw itself was dramatically better. Because the outlet behavior cared less about the screw’s tiny instability.
 
 “Does it work with liquid?”
 
-Pell said, “Some.”
+Arlo said, “Some.”
 
 “Which?”
 
@@ -29780,7 +29780,7 @@ Pell said, “Some.”
 
 “Alcohol?”
 
-Vessa said, “Better use for alcohol.” Pell ignored her.
+Vessa said, “Better use for alcohol.” Arlo ignored her.
 
 “Not tested.”
 
@@ -29788,7 +29788,7 @@ Vessa said, “Better use for alcohol.” Pell ignored her.
 
 “No.”
 
-There it was. My attention sharpened. Pell saw.
+There it was. My attention sharpened. Arlo saw.
 
 “No.”
 
@@ -29804,7 +29804,7 @@ Vessa leaned against the kiln.
 
 “What does his face do?”
 
-Pell considered.
+Arlo considered.
 
 “Expands.”
 
@@ -29822,7 +29822,7 @@ She nodded as if that made sense. Traitors. I set the regulator down.
 
 “Yes.”
 
-Pell began reassembling mine. I watched his hands. Fast. Not elegant. Effective. He dropped the collar. Caught it against his apron before it hit the floor. Young me would have pretended not to notice. Old me would have categorized dexterity and failure rate. Present me laughed. Pell looked at me.
+Arlo began reassembling mine. I watched his hands. Fast. Not elegant. Effective. He dropped the collar. Caught it against his apron before it hit the floor. Young me would have pretended not to notice. Old me would have categorized dexterity and failure rate. Present me laughed. Arlo looked at me.
 
 “What?”
 
@@ -29840,7 +29840,7 @@ Pell began reassembling mine. I watched his hands. Fast. Not elegant. Effective.
 
 “That is why.”
 
-He stared. Vessa said, “He’s been outside too much.” Maybe. Pell finished the assembly. Then handed me a small paper packet.
+He stared. Vessa said, “He’s been outside too much.” Maybe. Arlo finished the assembly. Then handed me a small paper packet.
 
 “What?”
 
@@ -29898,11 +29898,11 @@ He shrugged.
 
 “External vibration?”
 
-Pell paused. Then nodded.
+Arlo paused. Then nodded.
 
 “Good.”
 
-I smiled. There it was. Not a lesson. A problem. My body leaned toward the bench before I decided to. Pell saw.
+I smiled. There it was. Not a lesson. A problem. My body leaned toward the bench before I decided to. Arlo saw.
 
 “You cannot stay.”
 
@@ -29914,11 +29914,11 @@ I smiled. There it was. Not a lesson. A problem. My body leaned toward the bench
 
 “Not here.”
 
-I looked around. Vessa had reopened the kiln panel. Pell was already reaching for a ceramic-bodied regulator. A customer waited near the front now, holding a cracked lantern assembly. I had not heard him enter. The workshop did not need me.
+I looked around. Vessa had reopened the kiln panel. Arlo was already reaching for a ceramic-bodied regulator. A customer waited near the front now, holding a cracked lantern assembly. I had not heard him enter. The workshop did not need me.
 
 “Fine.”
 
-I wrapped my regulator. The customer stepped aside to let me pass. Then Pell said, “Wait.” I turned. He held up the ceramic-bodied piece.
+I wrapped my regulator. The customer stepped aside to let me pass. Then Arlo said, “Wait.” I turned. He held up the ceramic-bodied piece.
 
 “Do you know why this fails?”
 
@@ -29934,7 +29934,7 @@ I looked. Hairline crack around the inlet. Dark staining.
 
 “Bad firing?”
 
-Vessa said, “Careful.” I looked at her. She smiled. Pell said, “Not firing.”
+Vessa said, “Careful.” I looked at her. She smiled. Arlo said, “Not firing.”
 
 “Then I don’t know.”
 
@@ -29966,7 +29966,7 @@ There. Permission. Not assignment. Not need. I looked at the crack again. Wanted
 
 “I’ll think about it later.”
 
-Pell nodded. No disappointment. That made leaving easier. Outside, late afternoon had turned the workshop lane gold. My arms still remembered the weight of Vessa’s kiln plate. A mild tremor lived in the muscles near my elbow. Not mana. Just fatigue. Nineteen-year-old body. I rolled my shoulders. It felt good. That surprised me. Not the soreness. The work. Holding something heavy because another person needed both hands.
+Arlo nodded. No disappointment. That made leaving easier. Outside, late afternoon had turned the workshop lane gold. My arms still remembered the weight of Vessa’s kiln plate. A mild tremor lived in the muscles near my elbow. Not mana. Just fatigue. Nineteen-year-old body. I rolled my shoulders. It felt good. That surprised me. Not the soreness. The work. Holding something heavy because another person needed both hands.
 
 No optimization. No leverage. No future consequence. Useful for thirty seconds. Then done. I walked toward the east market. The smith Alden had recommended occupied half an open-front shop between a cobbler and a seller of cooking pots. A woman was already at the stone.
 
@@ -30050,7 +30050,7 @@ Jorren sat outside a narrow drink shop with one boot on the empty chair opposite
 
 “I was excellent at beans.”
 
-He moved his boot. Invitation. I looked at the regulator under my arm. Pell had work. Smith had stopped. Antonius had no urgency. Hessa had restricted casting. I could go home and write notes about sinkstone. I could think about the ceramic crack. I could list questions for Edrin. I could calculate Silas Marris possibilities. Jorren drank. Did not repeat the invitation.
+He moved his boot. Invitation. I looked at the regulator under my arm. Arlo had work. Smith had stopped. Antonius had no urgency. Hessa had restricted casting. I could go home and write notes about sinkstone. I could think about the ceramic crack. I could list questions for Edrin. I could calculate Silas Marris possibilities. Jorren drank. Did not repeat the invitation.
 
 I sat.
 
@@ -30166,11 +30166,9 @@ I considered arguing. Did not. Jorren leaned back.
 
 “Then decent.”
 
-That was not how evaluation worked. It was how his did. He drank. I drank. The regulator sat under my arm. The ceramic crack waited in Pell’s workshop. My sword waited behind a smith’s counter. Sinkstone waited for Edrin’s tests. Silas Marris existed whether I investigated them or not. For perhaps ten minutes, nothing required me. This was inefficient. I stayed anyway.
+That was not how evaluation worked. It was how his did. He drank. I drank. The regulator sat under my arm. The ceramic crack waited in Arlo’s workshop. My sword waited behind a smith’s counter. Sinkstone waited for Edrin’s tests. Silas Marris existed whether I investigated them or not. For perhaps ten minutes, nothing required me. This was inefficient. I stayed anyway.
 
 CHAPTER THIRTY-FIVE
-
-THE FRIEND
 
 The drink was worse after the third swallow. That seemed backwards. Jorren watched me discover this.
 
@@ -30280,7 +30278,9 @@ I looked at Mara. She was yelling at a man who had tried to put his boots on a c
 
 He waited. I waited. He drank. That was all. Good. He did not ask what the name meant. Not every curiosity required collection. The street in front of us had shifted from workday to evening without announcing it. Carts moved slower. Shop doors closed. Apprentices appeared in groups. A dog slept beneath a bench while three people stepped around it without complaint.
 
-Two men at the next table argued over whether a local fighter had cheated in a prize bout. A woman in blue work trousers arrived carrying a basket of laundry. Jorren moved his cup before she set the basket on our table. She sat.
+Two men at the next table argued over whether a local fighter had cheated in a prize bout. A woman in blue work trousers arrived carrying a basket of laundry.
+
+Jorren moved his cup before she set the basket on our table. She sat.
 
 “You’re in my chair.”
 
@@ -30296,7 +30296,7 @@ He looked at the chair beneath him.
 
 Jorren sighed and moved. She took his seat. I watched. No argument. Interesting. She looked at me.
 
-“New?”
+“New?” Nessa asked.
 
 “No,” Jorren said.
 
@@ -30304,7 +30304,7 @@ Jorren sighed and moved. She took his seat. I watched. No argument. Interesting.
 
 She looked between us.
 
-“Useful.”
+“Useful,” Nessa said.
 
 “Greg,” Jorren said. “This is Nessa.”
 
@@ -30358,19 +30358,19 @@ He put two copper on the table. She gave him bread and one parcel. I stared.
 
 “Yes.”
 
-“Why laundry?”
+“Why laundry?” I asked.
 
-“So watch doesn’t tax me as a street seller.”
+“So watch doesn’t tax me as a street seller,” Nessa said.
 
 Jorren said, “That’s not why.” Nessa looked at him.
 
-“It helps.”
+“It helps,” Nessa said.
 
-“What’s the real reason?”
+“What’s the real reason?” I asked.
 
 She held up the basket.
 
-“My sister does laundry.”
+“My sister does laundry,” Nessa said.
 
 “Ah.”
 
@@ -30566,13 +30566,13 @@ Jorren said, “No.” I looked at him.
 
 Nessa laughed. Second game. I won. Not because I knew the future. Because the man favored the left crossing after losing center. Third game. He changed. Good. I lost. Fourth. Won. Fifth. Nessa put her apple core on the board.
 
-“Stop.”
+“Stop,” Nessa said.
 
 I looked at her.
 
-“Why?”
+“Why?” I asked.
 
-“You’re not talking anymore.”
+“You’re not talking anymore,” Nessa said.
 
 “That is usually considered improvement.”
 
@@ -31016,15 +31016,13 @@ There. Magic returning. Slowly. Real. My chest lifted. Hessa saw. Of course.
 
 “That is the first half.”
 
-Fair. Outside, I touched the bare wrist where the tag had been. No dramatic freedom. Just skin. I wanted to cast. Very much. Instead I took the regulator from my bag. Mechanical test. Pell had given me something to do. Could test with water. No mana. I headed toward a public pump. Halfway there, someone called my name. Alden. He was across the street with Berren.
+Fair. Outside, I touched the bare wrist where the tag had been. No dramatic freedom. Just skin. I wanted to cast. Very much. Instead I took the regulator from my bag. Mechanical test. Arlo had given me something to do. Could test with water. No mana. I headed toward a public pump. Halfway there, someone called my name. Alden. He was across the street with Berren.
 
 Berren limped slightly. Boot thicker on one side. Alive alive. Alden raised a hand. Berren raised two fingers. I could cross. Ask about Darrowmere. Drainage ditch. Fire. Creature turns. Or I could test the regulator. Or go back to Antonius. Or find Jorren after dock shift. Too many. Good. Normal. I crossed the street. Not because Berren was historically important. Not because Alden needed improvement.
 
 Because they were there.
 
 CHAPTER THIRTY-SIX
-
-THE COACH
 
 Berren looked better standing up than he had in my head. This was because my head had been working from RETURNED. MINOR INJURY, which could mean anything from a bruised wrist to an adventurer refusing to admit his foot was gone. His foot was present. Good start. The boot was not.
 
@@ -31066,13 +31064,13 @@ He looked at Alden.
 
 Berren laughed. Good. Alive alive. The phrase had been Alden’s. Accurate. Berren looked at my sword.
 
-“Edge?”
+“Edge?” Berren asked.
 
-“Fixed.”
+“Fixed,” I said.
 
-“Then we can spar.”
+“Then we can spar,” Berren said.
 
-“No.”
+“No,” I said.
 
 He blinked. That surprised all three of us. Not because I did not want to. I did. Very much. My body had already noticed his stance. Weight favoring the left leg. Right foot protected.
 
@@ -31152,13 +31150,13 @@ I paused.
 
 Berren started walking. Alden followed. Apparently I was following too.
 
-“Why did your sister take your room key?”
+“Why did your sister take your room key?” I asked.
 
-“She says I am not sleeping there tonight.”
+“She says I am not sleeping there tonight,” Berren said.
 
-“Why?”
+“Why?” I asked.
 
-“Because I came home from Darrowmere.”
+“Because I came home from Darrowmere,” Berren said.
 
 “That normally helps with sleeping at home.”
 
@@ -31214,7 +31212,7 @@ Alden looked at me.
 
 I did. The three of us reached a narrow bakery with two outdoor benches and no visible sign. I had passed it several times. Never noticed. Berren pushed through the door. A woman behind the counter looked up. His sister. Probably. Same eyes. Same nose. Older by maybe four years. Flour on both forearms. She saw him. Then his foot. Then me and Alden.
 
-“Sit.”
+“Sit,” Nara said.
 
 Berren said, “I am sitting.” He was standing. She pointed at the bench. He sat. I liked her immediately. Not because she controlled him. Because she did not seem interested in whether she controlled him. She had bread to cut. Alden said, “This is Nara.” Nara nodded at me.
 
@@ -31514,11 +31512,11 @@ Berren said, “No. Cal said no.”
 
 Good. They had asked someone else before me. Also good. Berren looked at me.
 
-“You?”
+“You?” Berren asked.
 
 There it was. I could say yes. Bronze work. Three people. Manual job. Low threat. Water. Chance to see Alden with another partner. Chance to test repaired sword if lizards. Chance to observe Berren’s foot under work. No. That last thought. There. I understood his injury. I could probably predict where it failed. That did not make the contract mine. I asked, “Do you need me?”
 
-Berren said, “No.” Immediate. Clean. Alden looked at him. Berren shrugged.
+“No,” Berren said. Immediate. Clean. Alden looked at him. Berren shrugged.
 
 “We have two. Three preferred. They’ll take two.”
 
@@ -31568,7 +31566,7 @@ He looked at me like I had missed something.
 
 “Sometimes.”
 
-“Pell?”
+“Arlo?”
 
 “Maybe.”
 
@@ -32202,7 +32200,7 @@ Alden nodded.
 
 “Good.”
 
-Then left. I stood alone at the corner. Regulator in bag. Sword at hip. No tag on wrist. Small casting allowed. Hessa tomorrow. Spar day after. Maybe mill tomorrow. Antonius work somewhere. Pell tests waiting. Edrin tests waiting.
+Then left. I stood alone at the corner. Regulator in bag. Sword at hip. No tag on wrist. Small casting allowed. Hessa tomorrow. Spar day after. Maybe mill tomorrow. Antonius work somewhere. Arlo tests waiting. Edrin tests waiting.
 
 Silas Marris waiting if I was stupid enough to make them urgent. For once, the strongest next thing was not a mystery. It was deciding whether I wanted to spend half a day clearing a millrace with Berren. Four copper. Meal. Possible river lizards. Bad foot. Wet stone. Young body. Ordinary Bronze work. I smiled. Then caught myself. No. Not the face.
 
@@ -32210,11 +32208,9 @@ Too late. A woman passing with a basket saw me looking pleased at nothing and cr
 
 CHAPTER THIRTY-SEVEN
 
-THE LABORER
-
 I decided at noon. This was later than Berren wanted and earlier than Antonius would have respected. The decision itself was not difficult. Four copper. Meal. Half a day. Possible river lizards. The difficulty was admitting that none of those explained why I wanted to go.
 
-I had work available elsewhere. Pell had given me a regulator to test. Antonius could always find something that needed counting, moving, pricing, or arguing over. Edrin had actual magical material under examination. Hessa would see me the next morning if my channels remained quiet.
+I had work available elsewhere. Arlo had given me a regulator to test. Antonius could always find something that needed counting, moving, pricing, or arguing over. Edrin had actual magical material under examination. Hessa would see me the next morning if my channels remained quiet.
 
 The millrace paid less than several better uses of my time. I went to the Guild anyway. Berren had already signed my name. I stared at the sheet. He stood beside me on his rebuilt boot.
 
@@ -32276,13 +32272,13 @@ The millrace split west through a stone gate and ran beside a low embankment tow
 
 A woman in rolled trousers stood knee-deep in the race with a hooked pole. She looked at Berren’s boot.
 
-“No.”
+“No,” she said.
 
 Berren stopped.
 
-“What?”
+“What?” Berren asked.
 
-“You’re not going in.”
+“You’re not going in,” she said.
 
 “I’m hired.”
 
@@ -32396,11 +32392,11 @@ Coin-sized. Redirect at the nose. Easy. Probably. No. Etta threw a shovel. Not t
 
 Berren said, “We’re here for that.”
 
-“You were slow.”
+“You were slow,” Etta said.
 
-“I was not.”
+“I was not,” Berren said.
 
-“You were.”
+“You were,” Etta said.
 
 He looked at me. I had seen it. He knew. His first movement had been correct. His second had hesitated because the lizard was smaller than the threat he had prepared for. He had expected fight. Etta expected nuisance. Different objective. I could explain that. He already looked annoyed enough to be thinking. I picked up reeds. Berren said, “Nothing?”
 
@@ -32416,7 +32412,9 @@ He narrowed his eyes. Then laughed.
 
 “Probably.”
 
-We kept working. Ten minutes later another lizard surfaced beside my boot. I moved faster than thought. Young reflex. My foot came up. The lizard darted. I put a coin-sized Barrier on the stone beside its head. Not in front. Beside.
+We kept working.
+
+Ten minutes later another lizard surfaced beside my boot. I moved faster than thought. Young reflex. My foot came up. The lizard darted. I put a coin-sized Barrier on the stone beside its head. Not in front. Beside.
 
 It turned away from the pressure change and ran straight into Berren’s waiting hook. He lifted. Not hard. Just enough to redirect it onto the far bank. The lizard vanished into grass. Berren looked at me.
 
@@ -32682,8 +32680,6 @@ He looked suspicious. Then shrugged. We stood inside the gate. His aunt’s bake
 
 CHAPTER THIRTY-EIGHT
 
-THE PATIENT
-
 The four copper lasted until dinner. This was not because I spent four copper. I spent one. The other three remained in my pocket while I sat on the edge of my bed and stared at my hands. Blisters. Two on the right. One on the left. Small. Ordinary. Embarrassing.
 
 I had once held Barriers against things that could break stone. Now a hooked pole had injured me. Not badly. Still. I pressed the skin beside the largest blister. Pain. Useful. I stopped. Testing pain by making pain was stupid. Hessa would have said so. Jorren would have laughed first.
@@ -32692,11 +32688,13 @@ Alden would have asked whether I was trying to lose a fight to my own palm. Berr
 
 Right calf tight. No channel pain. No pressure behind the eyes. No heat. Good. One clean Barrier. Very small. Exactly enough. I wanted to cast another. Not because I needed one. Because I could. This was the problem with getting permission. Before permission, restraint had structure. After permission, there was choice. Annoying. The regulator sat on the desk. Mechanical test. Water. No mana.
 
-Useful. I looked at the washbasin. Then my hands. Then the bed. The bed won. I woke after dark. Not planned. Still dressed. One boot on. One boot off. Face against the blanket. My neck hurt. Young body recovered quickly if given the chance. It also demanded the chance with violence. I sat up. Hunger. Again. Nineteen was mostly hunger pretending to be a personality.
+Useful. I looked at the washbasin. Then my hands.
 
-I found bread. Hard. Cheese. Harder. Ate both. No cooking. No strategy. The room had cooled. Street noise below had thinned to occasional carts and arguments. I took the regulator from the desk. Pell had asked for use. Mechanical. Flow medium. Orientation. Duration. Temperature if relevant. External vibration. I could test with wash water. I found a cup. Then stopped. Dirty water.
+Then the bed. The bed won. I woke after dark. Not planned. Still dressed. One boot on. One boot off. Face against the blanket. My neck hurt. Young body recovered quickly if given the chance. It also demanded the chance with violence. I sat up. Hunger. Again. Nineteen was mostly hunger pretending to be a personality. I found bread. Hard. Cheese. Harder.
 
-No. Fresh. I went downstairs. The lodging keeper was counting coins behind the front desk. She looked at the cup.
+Ate both. No cooking. No strategy. The room had cooled. Street noise below had thinned to occasional carts and arguments. I took the regulator from the desk. Arlo had asked for use. Mechanical. Flow medium. Orientation. Duration. Temperature if relevant. External vibration. I could test with wash water. I found a cup. Then stopped. Dirty water. No. Fresh. I went downstairs. The lodging keeper was counting coins behind the front desk.
+
+She looked at the cup.
 
 “Water?”
 
@@ -32720,7 +32718,7 @@ He moved his turnips away from me. Reasonable. I waited. No urgency. The woman f
 
 Back upstairs, I fitted the regulator between a small funnel and a narrow tube improvised from a cleaned quill shaft. Ugly. Functional. First test. Vertical. Water. Room temperature. No vibration. The flow was too fast to show much. I adjusted. Slower. Better. The regulator held. Not perfectly. Small pulses. Less than the first design. I wrote it down. Second test. Tilted. Flow changed.
 
-Not much. Interesting. Third. Horizontal. Worse. I frowned. Then remembered Pell’s face. Too good. No. Different. I tapped the table lightly. Flow fluttered. Stopped. Fluttered again. External vibration. There. Useful. Not magic. Simple. I recorded it. Then I wanted to know whether thicker liquid changed behavior. Oil. No. Pell said bad. Could test anyway. Not tonight. I wanted to know whether temperature mattered.
+Not much. Interesting. Third. Horizontal. Worse. I frowned. Then remembered Arlo’s face. Too good. No. Different. I tapped the table lightly. Flow fluttered. Stopped. Fluttered again. External vibration. There. Useful. Not magic. Simple. I recorded it. Then I wanted to know whether thicker liquid changed behavior. Oil. No. Arlo said bad. Could test anyway. Not tonight. I wanted to know whether temperature mattered.
 
 Cold water. Hot water. Easy. No. Bed. My hands hurt. Tomorrow. I wrapped the regulator again. That felt like progress too. Stopping before exhausting the question. Maybe. Or I was tired. More likely. I slept properly. Morning arrived with consequences. Hands worse. Shoulders better. Ribs about the same. No headache. No channel symptoms. Good. I ate before leaving. Two eggs. Bread.
 
@@ -32960,7 +32958,7 @@ Right.
 
 “That is not eating.”
 
-Fine. I left with more permission and fewer fantasies. Outside, the morning was bright and cool. I had no immediate appointment. That was dangerous. Antonius? Possible. Pell? Regulator data. Edrin? No message. Sinkstone? Still interesting. Silas Marris? Still not today. Jorren? Working dock gate. Alden? South farms escort. Berren? Probably foot. I could go back to my room. Test the regulator. Write notes.
+Fine. I left with more permission and fewer fantasies. Outside, the morning was bright and cool. I had no immediate appointment. That was dangerous. Antonius? Possible. Arlo? Regulator data. Edrin? No message. Sinkstone? Still interesting. Silas Marris? Still not today. Jorren? Working dock gate. Alden? South farms escort. Berren? Probably foot. I could go back to my room. Test the regulator. Write notes.
 
 Rest. Or Antonius could find work and pay down debt. Debt won. Mostly because it existed even when I ignored it. I went west. Rusk was not at the storehouse. A worker I recognized from the bean day said, “Vale office.”
 
@@ -33154,9 +33152,9 @@ She nodded.
 
 “Move.”
 
-Right. I moved. Sat on the wall again. The result was small. Pell would like it. Maybe. I wanted to test hot water. Could. Not needed now. I wrapped the device. Stopped. Again. This stopping thing was becoming suspicious. I ate the last bite of pie. Then realized I had nowhere I needed to be. Could go home. Could walk. Could find Jorren after his shift.
+Right. I moved. Sat on the wall again. The result was small. Arlo would like it. Maybe. I wanted to test hot water. Could. Not needed now. I wrapped the device. Stopped. Again. This stopping thing was becoming suspicious. I ate the last bite of pie. Then realized I had nowhere I needed to be. Could go home. Could walk. Could find Jorren after his shift.
 
-Could check if Alden was back. Could visit Pell. Pell had asked for measurements. I had measurements. That was an actual reason. I headed toward his workshop. Halfway there, I changed direction. Not because Pell could wait. Because I was tired. Actually tired. Hands. Shoulders. Ribs. Channels. All separate. All voting. The room won again. I went home. No revelation. No discipline.
+Could check if Alden was back. Could visit Arlo. Arlo had asked for measurements. I had measurements. That was an actual reason. I headed toward his workshop. Halfway there, I changed direction. Not because Arlo could wait. Because I was tired. Actually tired. Hands. Shoulders. Ribs. Channels. All separate. All voting. The room won again. I went home. No revelation. No discipline.
 
 Just fatigue. I slept for an hour. When I woke, someone had pushed a folded note under the door. I stared at it from the bed. White paper. No seal. No blood. Probably not catastrophe. Good. I picked it up.
 
@@ -33179,8 +33177,6 @@ If Alden returned from south farms without inventing a new injury. The sinkstone
 For once, waiting did not feel like losing time.
 
 CHAPTER THIRTY-NINE
-
-THE PARTNER
 
 My hands were better. Not good. Better. The right blister had flattened overnight. The left one had become tender in a way that suggested it wanted attention and would resent receiving it. My ribs were quiet until I twisted. My channels were quiet until I used them. Alden arrived before I finished breakfast. Berren arrived after. This told me everything important about both men.
 
@@ -33240,7 +33236,7 @@ Alden claimed a narrow strip near the rear wall. Not claimed. Asked. A Guild att
 
 Young hands noticed immediately. Blisters noticed more. I wrapped both palms. Alden watched.
 
-“Rules.”
+“Rules,” Alden said.
 
 He had thought about them. Good.
 
@@ -33248,7 +33244,7 @@ He had thought about them. Good.
 
 Berren said, “That is not a round.”
 
-“It is ours.”
+“It is ours,” Alden said.
 
 “No chasing after clean touch,” Alden continued. “No extending after call. No head shots. No hard shots to Greg’s ribs. No low attacks on Berren’s right.”
 
@@ -33304,9 +33300,9 @@ Alden called it. Berren stepped back immediately. Good. No extra flourish. No gr
 
 “Yes.”
 
-Second exchange. I knew the bait now. He knew I knew. Different fight. He came outside again. I did not give the inside. He kicked my blade. Not with the injured foot. Left. Good. My grip shifted against the blister. Pain. Tiny. Enough. He saw. Changed target. Hand. I retreated. Young legs got me there. Barely.
+Second exchange. I knew the bait now. He knew I knew. Different fight. He came outside again. I did not give the inside. He kicked my blade. Not with the injured foot. Left. Good. My grip shifted against the blister. Pain. Tiny. Enough. He saw. Changed target. Hand. I retreated.
 
-I put a coin-sized Barrier beside his blade, not against it. The pressure changed the line a fraction. His cut missed my fingers. My practice sword touched his chest.
+Young legs got me there. Barely. I put a coin-sized Barrier beside his blade, not against it. The pressure changed the line a fraction. His cut missed my fingers. My practice sword touched his chest.
 
 “Greg.”
 
@@ -33340,15 +33336,15 @@ Instead he used the limit to predict where Berren would choose to go. Different.
 
 His blade touched Alden’s side at the same time Alden touched his shoulder. Both stopped. They looked at me. I looked at Alden.
 
-“You’re running this.”
+“You’re running this,” I said.
 
 He frowned.
 
-“Both.”
+“Both,” Alden said.
 
 Berren said, “Coward.”
 
-“Both,” Alden said.
+“Both,” Alden repeated.
 
 Done. Switch. Me and Alden. This was more dangerous. Not physically. Informationally. He knew me better. I knew him better. That was the problem. Alden smiled.
 
@@ -33422,11 +33418,11 @@ Berren said, “I got four.”
 
 Alden looked at his boot.
 
-“You’re bleeding again.”
+“You’re bleeding again,” Alden said.
 
 Berren looked down. Small red mark.
 
-“Fuck.”
+“Fuck,” Berren said.
 
 “Lara?”
 
@@ -33446,7 +33442,7 @@ I asked. He looked at me.
 
 “Vessa.”
 
-I froze. No. Different Vessa. Probably. City names repeated. Pell’s Vessa. Berren’s aunt Vessa. Could be same. Do not connect because names.
+I froze. No. Different Vessa. Probably. City names repeated. Arlo’s Vessa. Berren’s aunt Vessa. Could be same. Do not connect because names.
 
 “How old?”
 
@@ -33912,7 +33908,7 @@ I waited.
 
 “Yes. Within each sack, behavior is unusually narrow for cheap processed shale.”
 
-Pell. Too good. No. Different field. But manufacturing consistency mattered.
+Arlo. Too good. No. Different field. But manufacturing consistency mattered.
 
 “Batch control.”
 
@@ -33952,7 +33948,7 @@ There. That was the thread. Not monsters. Not conspiracy. Manufacturing. Someone
 
 “Not yet.”
 
-I wanted to help. I wanted to design tests. I wanted to ask Pell whether he knew anyone processing kestrin shale. I wanted Antonius’s Silas Marris business contacts. I wanted North Quay records. I wanted Ors. Six directions. Face expanding. Edrin saw.
+I wanted to help. I wanted to design tests. I wanted to ask Arlo whether he knew anyone processing kestrin shale. I wanted Antonius’s Silas Marris business contacts. I wanted North Quay records. I wanted Ors. Six directions. Face expanding. Edrin saw.
 
 “Greg.”
 
@@ -33972,7 +33968,7 @@ I asked. Edrin considered.
 
 “Nothing today.”
 
-There it was again. Pell. Nothing. Edrin. Nothing. The city had become alarmingly capable without me.
+There it was again. Arlo. Nothing. Edrin. Nothing. The city had become alarmingly capable without me.
 
 “Then why summon me?”
 
@@ -33982,7 +33978,7 @@ There it was again. Pell. Nothing. Edrin. Nothing. The city had become alarmingl
 
 “I told you the result.”
 
-That simple. I sat back. My ribs hurt. Hands hurt. Mild pressure from the morning Barrier had been gone for hours. Berren was probably being bullied by family into resting. Alden was eating lunch with people who were none of my business. Edrin had evidence. Pell had regulators. Antonius had ledgers. I had no assigned role.
+That simple. I sat back. My ribs hurt. Hands hurt. Mild pressure from the morning Barrier had been gone for hours. Berren was probably being bullied by family into resting. Alden was eating lunch with people who were none of my business. Edrin had evidence. Arlo had regulators. Antonius had ledgers. I had no assigned role.
 
 “What happens next?” I asked.
 
@@ -34014,31 +34010,29 @@ I smiled. She pointed at the door.
 
 I went. Outside, afternoon light hit hard after the annex. The city continued. Carts. Bread. A dog barking at a wheel. Someone arguing about onions. I had learned something important. Maybe. Not that Darrowmere connected to Silas Marris. Not that the creatures carried sinkstone. Not that the sacks explained anything east. The opposite, almost. The world had refused to collapse into one answer.
 
-Good. Annoying. Good. I started toward Pell’s workshop. Then stopped. My hands hurt. Tomorrow’s spar was already today. No. Spar done. Time had moved. I laughed. A passerby looked at me. Reasonable. Pell could wait until tomorrow. So could the manufacturer. So could Silas Marris. I went to find dinner.
+Good. Annoying. Good. I started toward Arlo’s workshop. Then stopped. My hands hurt. Tomorrow’s spar was already today. No. Spar done. Time had moved. I laughed. A passerby looked at me. Reasonable. Arlo could wait until tomorrow. So could the manufacturer. So could Silas Marris. I went to find dinner.
 
 CHAPTER FORTY
 
-THE TESTER
+Dinner was fish stew. I did not ask what fish. This was growth. Or cowardice. The stew had potatoes, onions, something green, and enough salt to make the water afterward necessary rather than optional. I ate two bowls, went upstairs, checked my hands, checked my ribs, checked my channels, and did not check anything else. No sinkstone notes. No manufacturing list. No Arlo.
 
-Dinner was fish stew. I did not ask what fish. This was growth. Or cowardice. The stew had potatoes, onions, something green, and enough salt to make the water afterward necessary rather than optional. I ate two bowls, went upstairs, checked my hands, checked my ribs, checked my channels, and did not check anything else. No sinkstone notes. No manufacturing list. No Pell.
+No Silas Marris. I slept. Morning made that decision look better. My right palm had closed enough that gripping no longer hurt unless I squeezed hard. My left blister had decided to become ugly rather than painful. Ribs quiet. Channels quiet. Mild stiffness in my legs from the spar. Nineteen-year-old recovery remained offensive.
 
-No Silas Marris. I slept. Morning made that decision look better. My right palm had closed enough that gripping no longer hurt unless I squeezed hard. My left blister had decided to become ugly rather than painful. Ribs quiet. Channels quiet. Mild stiffness in my legs from the spar. Nineteen-year-old recovery remained offensive. Useful. I ate. Then I looked at the regulator.
+Useful. I ate. Then I looked at the regulator. Arlo had asked for measurements. I had measurements. That was enough reason to go. I brought the device, my notes, and no questions about sinkstone. This lasted until I reached his door. Arlo’s workshop was louder than usual. Hammering from the back. A scraping wheel. Someone swearing about ceramic. Normal. I entered. Arlo was not at the regulator bench.
 
-Pell had asked for measurements. I had measurements. That was enough reason to go. I brought the device, my notes, and no questions about sinkstone. This lasted until I reached his door. Pell’s workshop was louder than usual. Hammering from the back. A scraping wheel. Someone swearing about ceramic. Normal. I entered. Pell was not at the regulator bench. Vessa was.
+Vessa was. Arlo stood near the front with a man holding a brass lamp assembly. The customer was angry. Not theatrically. Expensively.
 
-Pell stood near the front with a man holding a brass lamp assembly. The customer was angry. Not theatrically. Expensively.
+“It failed twice,” the customer said.
 
-“It failed twice.”
+Arlo said, “Yes.”
 
-Pell said, “Yes.”
+“You repaired it,” the customer said.
 
-“You repaired it.”
+“Yes,” Arlo said.
 
-“Yes.”
+“It failed again,” the customer said.
 
-“It failed again.”
-
-“Yes.”
+“Yes,” Arlo said.
 
 “That is not repair.”
 
@@ -34062,7 +34056,7 @@ The man stared. I stopped just inside. Vessa saw me. She put one finger to her l
 
 “Because the first fault was repaired.”
 
-The customer looked ready to become louder. Pell turned the lamp. Pointed.
+The customer looked ready to become louder. Arlo turned the lamp. Pointed.
 
 “First fault here.”
 
@@ -34082,11 +34076,11 @@ A blackened contact near the ignition housing.
 
 “No.”
 
-Pell paused.
+Arlo paused.
 
 “I expect it broke twice because it is bad.”
 
-Vessa coughed into her hand. The customer looked at her. She became extremely interested in a file. Pell continued.
+Vessa coughed into her hand. The customer looked at her. She became extremely interested in a file. Arlo continued.
 
 “I can repair this fault.”
 
@@ -34102,21 +34096,21 @@ Vessa coughed into her hand. The customer looked at her. She became extremely in
 
 “For a repair.”
 
-The man looked at the lamp. Then Pell. Then me. I had no role. Good.
+The man looked at the lamp. Then Arlo. Then me. I had no role. Good.
 
 “What would you do?” he asked.
 
-Damn. Pell looked at me. Vessa looked at me. The customer waited. I could answer. The lamp was probably not worth repeated repair if failures were distributed. Maybe replace. Maybe inspect full assembly first. Maybe the customer wanted reliability more than lowest cost. Maybe Pell knew the lamp better. I said, “Ask him.” The customer frowned.
+Damn. Arlo looked at me. Vessa looked at me. The customer waited. I could answer. The lamp was probably not worth repeated repair if failures were distributed. Maybe replace. Maybe inspect full assembly first. Maybe the customer wanted reliability more than lowest cost. Maybe Arlo knew the lamp better. I said, “Ask him.” The customer frowned.
 
 “I did.”
 
 “No. Ask whether he would repair it if it were his.”
 
-Pell’s face changed. Not much. The customer looked at him.
+Arlo’s face changed. Not much. The customer looked at him.
 
 “Well?”
 
-Pell picked up the lamp. Turned it. Looked at the base.
+Arlo picked up the lamp. Turned it. Looked at the base.
 
 “No.”
 
@@ -34128,7 +34122,7 @@ There.
 
 “How long?”
 
-Pell shrugged.
+Arlo shrugged.
 
 “Could be tomorrow. Could be a year.”
 
@@ -34152,7 +34146,7 @@ He took the lamp.
 
 “No.”
 
-He left. Pell watched the door close. Then looked at me.
+He left. Arlo watched the door close. Then looked at me.
 
 “You cost me three copper.”
 
@@ -34174,7 +34168,7 @@ I smiled.
 
 “No.”
 
-Vessa laughed. Pell pointed at my bag.
+Vessa laughed. Arlo pointed at my bag.
 
 “Measurements?”
 
@@ -34276,7 +34270,7 @@ Vessa said, “It’s the eyebrows.”
 
 “Traitor.”
 
-She smiled. Pell put the regulator in a clamp. Not the old clamp. A new one. Fourth fixture? No. Different bench. He tapped the table. Flow line fluttered. Not much. Then he put a folded cloth beneath the fixture feet. Tapped again. Less flutter. I stared.
+She smiled. Arlo put the regulator in a clamp. Not the old clamp. A new one. Fourth fixture? No. Different bench. He tapped the table. Flow line fluttered. Not much. Then he put a folded cloth beneath the fixture feet. Tapped again. Less flutter. I stared.
 
 “Isolation.”
 
@@ -34308,7 +34302,7 @@ There. Ownership again. I had wanted low-flow control for magic work eventually.
 
 “What did I ask you to build?”
 
-Pell looked at me.
+Arlo looked at me.
 
 “Better low-flow regulator.”
 
@@ -34324,21 +34318,21 @@ Pell looked at me.
 
 “Interesting.”
 
-Clean. I laughed. Vessa said, “He also wanted to beat Tere’s old one.” Pell looked offended.
+Clean. I laughed. Vessa said, “He also wanted to beat Tere’s old one.” Arlo looked offended.
 
-“No.”
+“No,” Arlo said.
 
-“Yes.”
+“Yes,” Vessa said.
 
-“Not beat.”
+“Not beat,” Arlo said.
 
-“What?”
+“What?” Vessa asked.
 
-“Improve.”
+“Improve,” Arlo said.
 
 “That is beat with paperwork.”
 
-I liked her. Pell ignored us.
+I liked her. Arlo ignored us.
 
 “What do you want it for?”
 
@@ -34346,7 +34340,7 @@ I looked at the regulator. Barrier experiments. Mana feed? Not yet. Could be mea
 
 “I don’t know yet.”
 
-Pell nodded. No disappointment.
+Arlo nodded. No disappointment.
 
 “Then test broadly.”
 
@@ -34354,7 +34348,7 @@ That was permission to be annoying. Dangerous. I pulled my notes back. Then reme
 
 “Do you use processed kestrin?”
 
-Pell did not react. Good.
+Arlo did not react. Good.
 
 “Sometimes.”
 
@@ -34384,7 +34378,7 @@ Of course.
 
 “Who does?”
 
-Pell shrugged.
+Arlo shrugged.
 
 “Stone yards. Kiln suppliers. Ward-material shops.”
 
@@ -34404,7 +34398,7 @@ I stopped. Guild evidence. Do not imply access.
 
 “Better than cheap material usually deserves.”
 
-Pell considered.
+Arlo considered.
 
 “That is not a number.”
 
@@ -34464,7 +34458,7 @@ Vessa said, “There he goes.” I ignored her.
 
 “If you wanted consistent output, where would you spend effort?”
 
-Pell stared at me.
+Arlo stared at me.
 
 “That is not one question.”
 
@@ -34490,7 +34484,7 @@ Good.
 
 I waited. He did not continue.
 
-“Pell.”
+“Arlo.”
 
 “What?”
 
@@ -34536,7 +34530,7 @@ True.
 
 “Not mine to say.”
 
-Pell nodded. Accepted. Good.
+Arlo nodded. Accepted. Good.
 
 “What did it do?”
 
@@ -34552,11 +34546,15 @@ He looked annoyed. Now he understood Edrin’s life. Good.
 
 “Who can make consistent material.”
 
-Pell thought. Actually thought. Not performing expertise. His eyes went to the shelves. Then the kiln. Then Vessa. She shrugged.
+Arlo thought. Actually thought. Not performing expertise. His eyes went to the shelves. Then the kiln. Then Vessa. She shrugged.
 
-“Stone yards can sort.”
+“Stone yards can sort,” Vessa said.
 
-Pell said, “Kiln people can control heat.” Vessa said, “Ward shops can test after.” Pell nodded.
+Arlo said, “Kiln people can control heat.”
+
+“Ward shops can test after,” Vessa said.
+
+Arlo nodded.
 
 “Best consistency might not come from one maker.”
 
@@ -34564,7 +34562,7 @@ I stopped. There. Supply chain. Not secret master craftsman. Sort here. Treat th
 
 “How would you buy it?”
 
-Pell asked.
+Arlo asked.
 
 “What?”
 
@@ -34600,7 +34598,7 @@ Right.
 
 “Who?”
 
-Pell shrugged.
+Arlo shrugged.
 
 “I buy from Dorrin Stone when I need shale.”
 
@@ -34624,7 +34622,7 @@ Fair.
 
 “Yes.”
 
-There. Lead. Easy. Legal. Public. My brain began building. Dorrin Stone. Ask about sorted kestrin. Ask who treats for mana suppression. Do not mention sacks. Do not mention Guild. Compare trade terms. Maybe find Silas Marris indirectly. No. Stop. Pell watched me.
+There. Lead. Easy. Legal. Public. My brain began building. Dorrin Stone. Ask about sorted kestrin. Ask who treats for mana suppression. Do not mention sacks. Do not mention Guild. Compare trade terms. Maybe find Silas Marris indirectly. No. Stop. Arlo watched me.
 
 “Do not go now.”
 
@@ -34702,7 +34700,7 @@ That was disappointingly sensible. Vessa said, “I watched.”
 
 “That is watching with value.”
 
-Pell looked at me.
+Arlo looked at me.
 
 “You don’t know enough.”
 
@@ -34710,7 +34708,7 @@ Pell looked at me.
 
 “Exactly.”
 
-Excellent. He wanted ignorance. I sat. Pell assembled the regulator. Slowly. Not his normal speed. He narrated nothing. Good. Body. Collar. Seal. Inlet. Ceramic housing. He tightened. Stopped. Looked at me.
+Excellent. He wanted ignorance. I sat. Arlo assembled the regulator. Slowly. Not his normal speed. He narrated nothing. Good. Body. Collar. Seal. Inlet. Ceramic housing. He tightened. Stopped. Looked at me.
 
 “What?”
 
@@ -34740,13 +34738,13 @@ Third. Pause.
 
 “You change grip.”
 
-Pell looked at his hand.
+Arlo looked at his hand.
 
 “No.”
 
 “Yes.”
 
-Vessa leaned closer. Pell assembled again. At final collar turn, his thumb shifted from side pressure to top. Small. Why? Ceramic body wanted stability. He was unconsciously bracing.
+Vessa leaned closer. Arlo assembled again. At final collar turn, his thumb shifted from side pressure to top. Small. Why? Ceramic body wanted stability. He was unconsciously bracing.
 
 “Why do you brace there?”
 
@@ -34754,17 +34752,17 @@ Vessa leaned closer. Pell assembled again. At final collar turn, his thumb shift
 
 “You do.”
 
-He tried without. The body rotated a fraction in the fixture. Vessa said, “Oh.” Pell stared. The fixture held the collar. Not body. Like regulator fixture four. But ceramic had less tolerance for torsion. Pell’s hand had been compensating. His hand was part of the fixture. Not repeatable.
+He tried without. The body rotated a fraction in the fixture. Vessa said, “Oh.” Arlo stared. The fixture held the collar. Not body. Like regulator fixture four. But ceramic had less tolerance for torsion. Arlo’s hand had been compensating. His hand was part of the fixture. Not repeatable.
 
 “There,” I said.
 
-Pell looked pleased. Very pleased. Dangerously.
+Arlo looked pleased. Very pleased. Dangerously.
 
 “Again.”
 
-We ran it. Vessa assembled. Different grip. Less rotation. Pell assembled with deliberate body support. Less. Not solved. Better. He wrote. No lesson. No correction. Just finding a thing. I forgot Dorrin Stone for almost an hour. That might have been the most interesting part.
+We ran it. Vessa assembled. Different grip. Less rotation. Arlo assembled with deliberate body support. Less. Not solved. Better. He wrote. No lesson. No correction. Just finding a thing. I forgot Dorrin Stone for almost an hour. That might have been the most interesting part.
 
-By the time Pell stopped, my stomach had started making decisions.
+By the time Arlo stopped, my stomach had started making decisions.
 
 “Food,” Vessa said.
 
@@ -34772,15 +34770,15 @@ By the time Pell stopped, my stomach had started making decisions.
 
 “That was not for you.”
 
-Pell looked at her. She pointed at the door.
+Arlo looked at her. She pointed at the door.
 
 “Both.”
 
-We left. Pell did not. Vessa came back, grabbed his sleeve, and pulled. He resisted for two steps. Then went. I followed because apparently I had been included. The food stall was around the corner. Rice. Roasted vegetables. Thin slices of pork. Pell paid for his. Vessa paid for hers. I paid for mine. No one offered. Good. We ate standing. I remembered Dorrin Stone halfway through the pork.
+We left. Arlo did not. Vessa came back, grabbed his sleeve, and pulled. He resisted for two steps. Then went. I followed because apparently I had been included. The food stall was around the corner. Rice. Roasted vegetables. Thin slices of pork. Arlo paid for his. Vessa paid for hers. I paid for mine. No one offered. Good. We ate standing. I remembered Dorrin Stone halfway through the pork.
 
 “Dorrin Stone.”
 
-Pell looked annoyed.
+Arlo looked annoyed.
 
 “You remembered.”
 
@@ -34804,7 +34802,7 @@ Vessa said, “What are you buying?”
 
 “Usually.”
 
-She nodded. No interest beyond that. Pell finished eating.
+She nodded. No interest beyond that. Arlo finished eating.
 
 “Bring regulator next time.”
 
@@ -34824,29 +34822,29 @@ She nodded. No interest beyond that. Pell finished eating.
 
 “No.”
 
-Good. I could wait. Again. Suspicious. We returned to the workshop. I collected my regulator and notes. The ceramic problem remained on the bench. Pell had work. Vessa had work. I had a stone supplier name. Not a conspiracy. Not an answer. A place that sold rocks. Excellent. Outside, I considered going to Dorrin Stone anyway. Closed soon did not mean closed.
+Good. I could wait. Again. Suspicious. We returned to the workshop. I collected my regulator and notes. The ceramic problem remained on the bench. Arlo had work. Vessa had work. I had a stone supplier name. Not a conspiracy. Not an answer. A place that sold rocks. Excellent. Outside, I considered going to Dorrin Stone anyway. Closed soon did not mean closed.
 
 Could hurry. Could arrive before shutter. Could ask one question. Could get one name. Then another. Old pattern. One more. I looked at my hands. Better. Not good. My stomach full. Body tired in a clean way. Tomorrow existed. I went home by the long route. Not because it was efficient. Because the weather was good.
 
 CHAPTER FORTY-ONE
 
-THE BUYER
-
 I did not go to Dorrin Stone first thing. This was because I had become wise. Also because it rained. Mostly rain. Not Darrowmere rain. City rain. Steady enough to turn the street outside my lodging into brown water and make everyone with somewhere to be reconsider how urgently they needed to be there.
 
 I stood under the front awning with my coat on and watched it. Dorrin Stone sold rocks. Rocks would survive. I went back upstairs. This felt excellent for almost twelve minutes. Then I started thinking. Sorted kestrin shale. Treatment. Testing. Rebatching.
 
-If Pell was right, consistency might be manufactured without improving the actual process much. Buy enough variation, measure after, throw away the wrong behavior. Or sell the wrong behavior somewhere else. Nothing was waste if there was another tolerance band. Future artificers did this constantly. Not specifically with sinkstone. With everything. Mana glass. Conductive salts. Barrier inks. Bone ash. Cheap cores.
+If Arlo was right, consistency might be manufactured without improving the actual process much. Buy enough variation, measure after, throw away the wrong behavior. Or sell the wrong behavior somewhere else. Nothing was waste if there was another tolerance band. Future artificers did this constantly. Not specifically with sinkstone. With everything. Mana glass. Conductive salts. Barrier inks. Bone ash. Cheap cores.
 
 The sophisticated version had specifications, batch certificates, testing houses, arguments about standards, bribes, fraud, and at least one murder I vaguely remembered because someone had substituted powdered shell for something expensive. Maybe. Different decade. Different city. Possibly not murder. Memory was helpful. I stopped. Rain. Rocks. Later. I checked my hands. Better again.
 
-The left blister had dried flat. Right palm still tender under pressure. I wrapped neither. Normal use. Hessa would approve. Probably. I did not need Hessa’s approval to possess hands. That sentence sounded defensive even internally. I ate another breakfast. Rain tax.
+The left blister had dried flat. Right palm still tender under pressure. I wrapped neither. Normal use.
 
-By the time it weakened, the morning had become late enough that Dorrin Stone would definitely be open and early enough that Pell could not accuse me of arriving after closing. Good range. I took the regulator because Pell had said bring it next time. Then realized I was not going to Pell.
+Hessa would approve. Probably. I did not need Hessa’s approval to possess hands. That sentence sounded defensive even internally. I ate another breakfast. Rain tax. By the time it weakened, the morning had become late enough that Dorrin Stone would definitely be open and early enough that Arlo could not accuse me of arriving after closing. Good range.
 
-I left it.The note looked absurdly ordinary.Gloves.A week ago I would have treated them as equipment. A month ago I would have treated them as an expense. Old Greg would have had somebody else buy six pairs and forgotten what they cost.I wanted a pair that fit.That was different.Tomorrow I would stand under the north freight arch and watch something clear something else by inches.Then I would go to Pell and see what was inside a regulator.After that, maybe food. Maybe Jorren. Maybe nothing.There were enough tomorrows now that I had started arranging them.I left the notebook open long enough for the ink to dry.
+I took the regulator because Arlo had said bring it next time. Then realized I was not going to Arlo. I left it. The note looked absurdly ordinary. Gloves. A week ago I would have treated them as equipment. A month ago I would have treated them as an expense. Old Greg would have had somebody else buy six pairs and forgotten what they cost.
 
-Then took it again. No reason. Put it down. Left. Came back. Put it in the bag. Fine. Dorrin Stone occupied a long yard north of the kiln district. I knew I was close before I saw the sign because the road became worse. Stone carts. Heavy wheels. Broken edges. Mud packed with pale grit.
+I wanted a pair that fit. That was different. Tomorrow I would stand under the north freight arch and watch something clear something else by inches. Then I would go to Arlo and see what was inside a regulator. After that, maybe food. Maybe Jorren. Maybe nothing.
+
+There were enough tomorrows now that I had started arranging them. I left the notebook open long enough for the ink to dry. Then took it again. No reason. Put it down. Left. Came back. Put it in the bag. Fine. Dorrin Stone occupied a long yard north of the kiln district. I knew I was close before I saw the sign because the road became worse. Stone carts. Heavy wheels. Broken edges. Mud packed with pale grit.
 
 The yard itself had a waist-high wall and an open gate wide enough for two carts if neither driver valued the paint.
 
@@ -34938,11 +34936,11 @@ Correct.
 
 “Why?”
 
-“Because Pell Arwick said you might know.”
+“Because Arlo Arwick said you might know.”
 
 That changed her expression slightly. Not suspicion. Recognition.
 
-“Pell still owes for two bins.”
+“Arlo still owes for two bins.”
 
 Interesting. Not my business.
 
@@ -34962,17 +34960,17 @@ I stopped.
 
 Fair. She finished chewing.
 
-“I’m Dorrin.”
+“I’m Dorrin,” she said.
 
 Person. Company. Of course.
 
-“Greg.”
+“Greg,” I said.
 
-“I know.”
+“I know,” Dorrin said.
 
 I waited. She pointed at my bag.
 
-“Pell’s regulator boy.”
+“Arlo’s regulator boy.”
 
 Hostile network.
 
@@ -35020,7 +35018,7 @@ She looked toward the yard.
 
 “All of them depending what you need.”
 
-Pell had relatives everywhere.
+Arlo had relatives everywhere.
 
 “Who sorts?”
 
@@ -35222,7 +35220,7 @@ Right. I looked at the sack I had purchased.
 
 “Less crumbly. Lower obvious vein. Fairly even pieces.”
 
-“Why would Pell buy it?”
+“Why would Arlo buy it?”
 
 “He buys cheaper.”
 
@@ -35248,7 +35246,7 @@ Dorrin stared.
 
 Good. A worker came to the counter.
 
-“North cart wants the pale cut.”
+“North cart wants the pale cut,” he said.
 
 Dorrin said, “Second stack, not first. First is Brin order.” The worker left. Her attention moved with him. Conversation over. I could feel it. One more question. No. I picked up the sack. Heavy. Not terrible. Maybe twenty pounds. My hands noticed. I shifted it against my hip. Dorrin saw.
 
@@ -35262,17 +35260,17 @@ She had already returned to numbers. I left. The rain had stopped completely. Th
 
 I walked. Bale Ward Supply was east. I knew roughly where. Could go now. I had three names. Dorrin had explicitly recommended Bale first. Efficient. Logical. I turned east. Then the sack shifted. My right palm hurt. Not badly. Enough. I stopped.
 
-Why was I carrying twenty pounds of shale to a ward shop? No reason. Could leave it home. Could give it Pell. Could test it later. Could ask Dorrin to deliver. Too late. I kept walking. Young Greg. Definitely. At the next corner someone shouted my name. Not Alden. Not Jorren. Nessa. She stood under a striped awning with the laundry basket.
+Why was I carrying twenty pounds of shale to a ward shop? No reason. Could leave it home. Could give it Arlo. Could test it later. Could ask Dorrin to deliver. Too late. I kept walking. Young Greg. Definitely. At the next corner someone shouted my name. Not Alden. Not Jorren. Nessa. She stood under a striped awning with the laundry basket.
 
 Food basket. Probably.
 
-“You look stupid.”
+“You look stupid,” Nessa said.
 
-“I am carrying rocks.”
+“I am carrying rocks,” I said.
 
-“I can see.”
+“I can see,” Nessa said.
 
-“That is why.”
+“That is why,” I said.
 
 She looked at the sack.
 
@@ -35382,9 +35380,9 @@ I looked at the sack.
 
 “Then maybe not.”
 
-She left. No invitation. No lesson. Just basket. I continued east. Her sentence followed. Are you paid? Bad standard. Pell was not paid to improve his regulator until someone bought it. Edrin was paid to investigate evidence. I was not paid to care.
+She left. No invitation. No lesson. Just basket. I continued east. Her sentence followed. Are you paid? Bad standard. Arlo was not paid to improve his regulator until someone bought it. Edrin was paid to investigate evidence. I was not paid to care.
 
-Old Greg had spent enormous portions of his life on unpaid curiosity. Some became power. Some became disasters. Some became nothing. Still worth doing. Maybe. Bale Ward Supply had a proper sign. Blue-painted letters. Clean windows. Shelves visible inside. Much more respectable than Pell. Suspicious. I entered with the sack. A bell rang.
+Old Greg had spent enormous portions of his life on unpaid curiosity. Some became power. Some became disasters. Some became nothing. Still worth doing. Maybe. Bale Ward Supply had a proper sign. Blue-painted letters. Clean windows. Shelves visible inside. Much more respectable than Arlo. Suspicious. I entered with the sack. A bell rang.
 
 A young man behind the counter looked at the sack, then at me.
 
@@ -35682,13 +35680,11 @@ Could own finished product. Could contract processing. Could simply buy. No evid
 
 I could still feel it. I closed the notebook. Outside, someone shouted about a missing dog. A cart wheel hit a pothole. The lodging keeper argued with a delivery boy. My hands did not hurt much anymore. My channels were quiet. I had rocks downstairs costing rent. Tomorrow I could ask better questions.
 
-Tonight I had to figure out how to stop owning twenty pounds of shale. That was a different problem. Probably Pell.
+Tonight I had to figure out how to stop owning twenty pounds of shale. That was a different problem. Probably Arlo.
 
 CHAPTER FORTY-TWO
 
-THE TROUBLESHOOTER
-
-Pell did not get the rocks. This was because someone else wanted me first. The knock came before breakfast. Not urgent knocking. Three times. Pause. Two. Professional. I opened the door. A boy in a brown coat held a folded note and looked annoyed that I had required stairs.
+Arlo did not get the rocks. This was because someone else wanted me first. The knock came before breakfast. Not urgent knocking. Three times. Pause. Two. Professional. I opened the door. A boy in a brown coat held a folded note and looked annoyed that I had required stairs.
 
 “Greg?”
 
@@ -35752,11 +35748,11 @@ I disliked her. The west gate freight yard was not the west storehouse. I knew t
 
 “You look like you didn’t.”
 
-Hostile. I walked another six minutes. The freight yard occupied a broad packed-earth square inside the west wall where carts could be weighed, split, reloaded, inspected, delayed, taxed, cursed, and occasionally repaired. Today it was mostly cursed. Rain had made the center soft. Not mud everywhere. Worse. Mud in specific places.
+Hostile. I walked another six minutes. The freight yard occupied a broad packed-earth square inside the west wall where carts could be weighed, split, reloaded, inspected, delayed, taxed, cursed, and occasionally repaired.
 
-Deep wheel ruts cut through the traffic lane. Three loaded carts waited along the wall. A fourth sat crooked near the weighing platform with its left rear wheel removed. Crates occupied the ground beside it under two canvas sheets. A teamster shouted at a yard clerk. A yard clerk shouted at no one. Two laborers carried sacks around both.
+Today it was mostly cursed. Rain had made the center soft. Not mud everywhere. Worse. Mud in specific places. Deep wheel ruts cut through the traffic lane. Three loaded carts waited along the wall. A fourth sat crooked near the weighing platform with its left rear wheel removed. Crates occupied the ground beside it under two canvas sheets. A teamster shouted at a yard clerk.
 
-A woman with a blue headcloth stood under the weighing roof with a ledger and looked like she wanted the entire city replaced. Rusk saw me.
+A yard clerk shouted at no one. Two laborers carried sacks around both. A woman with a blue headcloth stood under the weighing roof with a ledger and looked like she wanted the entire city replaced. Rusk saw me.
 
 “There.”
 
@@ -35874,13 +35870,13 @@ Rusk’s mouth tightened. Good question. Not because people were stupid. Because
 
 The woman in blue headcloth shouted from twenty feet away.
 
-“Yes.”
+“Yes,” she said.
 
 I liked her.
 
-“Who are you?”
+“Who are you?” I asked.
 
-“Lessa.”
+“Lessa,” she said.
 
 “Yard?”
 
@@ -35898,11 +35894,11 @@ I liked her.
 
 Rusk said, “Yesterday before rain.” Water should make cargo heavier, not lighter. Interesting. Could be scale difference. Could be missing cargo. Could be declared packaging. Could be wheel parts. The wheel was off.
 
-“How much does the wheel weigh?”
+“How much does the wheel weigh?” I asked.
 
 The wheelwright’s voice came from under the cart.
 
-“More than thirty-two.”
+“More than thirty-two,” he said.
 
 Right. Was road weight whole cart. Current yard weight with wheel removed? I looked at Lessa. She looked back.
 
@@ -35911,6 +35907,8 @@ Right. Was road weight whole cart. Current yard weight with wheel removed? I loo
 Good.
 
 “We weighed before he took it off.”
+
+Fine.
 
 “What exactly is blocked?”
 
@@ -36028,7 +36026,7 @@ Rusk looked at Lessa.
 
 She moved immediately. Good. I had not invented anything. I had asked the wheelwright how much iron weighed. Useful at interface. Rusk said, “That’s it?”
 
-“No.”
+“No,” I said.
 
 Three customers. Which delay costs first.
 
@@ -36098,9 +36096,9 @@ Excellent.
 
 Rusk nodded once. No surprise. Maybe he already suspected.
 
-“Check the dye.”
+“Check the dye,” Rusk said.
 
-“What?”
+“What?” I asked.
 
 “Vale said one hour.”
 
@@ -36117,6 +36115,8 @@ Rusk walked away before I agreed. Narrow discretion had edges. Apparently the ed
 “Name?”
 
 “Rella.”
+
+Existing Rella. Fine.
 
 “Greg.”
 
@@ -36558,7 +36558,7 @@ There. Different relationship.
 
 “Fine.”
 
-He left. The world had categories even when I wanted to merge them. Good. I stood under the gate arch with two copper in my pocket. Could go to Bale. Master available today. Could go to Kett. Could go to Varo. Could take the twenty pounds of shale to Pell. Could find food. The freight yard behind me shouted again. Different cart.
+He left. The world had categories even when I wanted to merge them. Good. I stood under the gate arch with two copper in my pocket. Could go to Bale. Master available today. Could go to Kett. Could go to Varo. Could take the twenty pounds of shale to Arlo. Could find food. The freight yard behind me shouted again. Different cart.
 
 Different problem. Not mine. I went home first. The lodging keeper was behind the desk. I put one copper down. She looked at it.
 
@@ -36596,8 +36596,6 @@ Expensive versus loud. I laughed. Food first. Bale after. Probably.
 
 CHAPTER FORTY-THREE
 
-THE PORTER
-
 The rocks had to move. This became true before anything else. Not because they mattered. Because the lodging keeper had raised the price.
 
 “Two copper tomorrow.”
@@ -36620,7 +36618,7 @@ I stopped halfway through the front room.
 
 “I can remove the rocks.”
 
-There. Market pressure. Terrible. I looked behind the desk. Twenty pounds of kestrin shale sat exactly where I had left it. Unchanged. Unrepentant. I had Antonius debt work in less than an hour. Pell’s workshop was in the wrong direction. Dorrin Stone was farther. Throwing it away would cost nothing and solve everything. No. I lifted the sack. My hands were mostly healed.
+There. Market pressure. Terrible. I looked behind the desk. Twenty pounds of kestrin shale sat exactly where I had left it. Unchanged. Unrepentant. I had Antonius debt work in less than an hour. Arlo’s workshop was in the wrong direction. Dorrin Stone was farther. Throwing it away would cost nothing and solve everything. No. I lifted the sack. My hands were mostly healed.
 
 Mostly. The weight settled against my forearms.
 
@@ -36714,13 +36712,13 @@ Good. I put on the gloves. They were too large.
 
 Mevi had me move sacks. Not think about sacks. Move them. From incoming pallet to dry platform. From dry platform to numbered row. Bluegrain. Barley. Something called red millet that was not red. The sacks weighed between thirty and sixty pounds. Young body. Good legs. Average technique. Bad pride. Mevi watched me lift the first heavy one.
 
-“No.”
+“No,” Mevi said.
 
 I froze with it halfway.
 
-“What?”
+“What?” I asked.
 
-“Put it down.”
+“Put it down,” Mevi said.
 
 I did.
 
@@ -36740,7 +36738,9 @@ I did.
 
 “Good enough.”
 
-Then she left. That was all. I moved sacks. Twenty minutes. Thirty. Sweat. Forearms. Back. No mana. No cleverness. The gloves rubbed my healing blister less than expected. One sack had a loose tie. I noticed. Tied it. Wrong knot. It slipped. I used Ossin’s millrace knot instead. Held. Good. Tiny transfer. No one applauded.
+Then she left. That was all. I moved sacks.
+
+Twenty minutes. Thirty. Sweat. Forearms. Back. No mana. No cleverness. The gloves rubbed my healing blister less than expected. One sack had a loose tie. I noticed. Tied it. Wrong knot. It slipped. I used Ossin’s millrace knot instead. Held. Good. Tiny transfer. No one applauded.
 
 At forty minutes, a cart arrived with six narrow crates marked glass. Rusk called, “Greg.” I put down the grain sack.
 
@@ -36826,13 +36826,13 @@ Toward his ankle. I had a wedge in my hand. Too far. Barrier. Coin-sized. Not ag
 
 Then he shoved the barrel back into line. No awe. Correct. Mevi came over.
 
-“What happened?”
+“What happened?” she asked.
 
-“Guide looked away. Barrel moved.”
+“Guide looked away. Barrel moved,” I said.
 
-“Why?”
+“Why?” Mevi asked.
 
-“Cart noise.”
+“Cart noise,” I said.
 
 She looked at the cart. Then at the ramp. Then at the barrel.
 
@@ -37014,7 +37014,7 @@ He told me the credit. I wrote it in my own notebook. Not approximate. Antonius 
 
 “Yes.”
 
-I lifted the sack. Hands tired. Back tired. Better technique. Still heavy. Pell. Finally. I carried twenty pounds of shale across Carrow. Again. This time on purpose. Pell’s workshop was open. Vessa was outside dumping gray water into the gutter. She saw me.
+I lifted the sack. Hands tired. Back tired. Better technique. Still heavy. Arlo. Finally. I carried twenty pounds of shale across Carrow. Again. This time on purpose. Arlo’s workshop was open. Vessa was outside dumping gray water into the gutter. She saw me.
 
 “No.”
 
@@ -37036,9 +37036,9 @@ I nearly dropped the sack laughing.
 
 “Because it is bad.”
 
-She held the door. I went inside. Pell was at the ceramic bench. He looked up. Looked at the sack. Then at me.
+She held the door. I went inside. Arlo was at the ceramic bench. He looked up. Looked at the sack. Then at me.
 
-“No.”
+“No,” Arlo said.
 
 “Fuck you.”
 
@@ -37050,7 +37050,7 @@ Vessa laughed behind me.
 
 “Free material.”
 
-Pell paused. Better.
+Arlo paused. Better.
 
 “What grade?”
 
@@ -37068,13 +37068,13 @@ Pell paused. Better.
 
 “Yes.”
 
-“Free?”
+“Free?” Arlo asked.
 
-“Yes.”
+“Yes,” I said.
 
 He pointed at a corner.
 
-“Put it there.”
+“Put it there,” Arlo said.
 
 Victory. I set it down. My arms felt suddenly absent.
 
@@ -37092,7 +37092,7 @@ Victory. I set it down. My arms felt suddenly absent.
 
 Fine. He returned to the ceramic regulator. I could ask about Bale. Kett. Varo. I could tell him what I learned. I could ask whether he knew Bale’s house test. Instead I looked at the fixture. New brace. Not mine.
 
-Pell and Vessa had added a second body support opposite the collar.
+Arlo and Vessa had added a second body support opposite the collar.
 
 “You changed it.”
 
@@ -37104,13 +37104,13 @@ Pell and Vessa had added a second body support opposite the collar.
 
 “How much?”
 
-Pell handed me a page. Seven assemblies. Crack reduced. Not gone. Good. They had continued without me. Of course.
+Arlo handed me a page. Seven assemblies. Crack reduced. Not gone. Good. They had continued without me. Of course.
 
 “Did my observation help?”
 
 “Yes.”
 
-Simple. No praise. Enough. Vessa said, “Your rocks are leaking dirt.” I looked. Small gray trail from sack seam. Pell said, “Take them back.”
+Simple. No praise. Enough. Vessa said, “Your rocks are leaking dirt.” I looked. Small gray trail from sack seam. Arlo said, “Take them back.”
 
 “No.”
 
@@ -37124,9 +37124,9 @@ Simple. No praise. Enough. Vessa said, “Your rocks are leaking dirt.” I look
 
 “Outside.”
 
-I dragged the sack to the rear awning. Pell allowed that. Barely. I had successfully transferred my storage problem to an artificer. This was perhaps my greatest achievement.
+I dragged the sack to the rear awning. Arlo allowed that. Barely. I had successfully transferred my storage problem to an artificer. This was perhaps my greatest achievement.
 
-“What did you do today?” Pell asked.
+“What did you do today?” Arlo asked.
 
 “Carried things.”
 
@@ -37168,15 +37168,13 @@ His attention sharpened.
 
 “Changed contact angle enough to move the hoop.”
 
-He nodded. That was all. No demand to see. No lecture. Small. Precise. Directional. Exactly what Hessa wanted. I hated when plans worked. I stayed another ten minutes. Not an hour. Pell had work. Vessa had work. I had no rocks. Excellent. Outside, late afternoon had turned warm.
+He nodded. That was all. No demand to see. No lecture. Small. Precise. Directional. Exactly what Hessa wanted. I hated when plans worked. I stayed another ten minutes. Not an hour. Arlo had work. Vessa had work. I had no rocks. Excellent. Outside, late afternoon had turned warm.
 
-I had spent five hours reducing debt, carried half the storehouse, misdelivered a receipt, used one clean Barrier, and convinced Pell to inherit twenty pounds of shale. No one had asked me to sort noise. No one had needed a special Greg function. That should have felt like regression. It did not.
+I had spent five hours reducing debt, carried half the storehouse, misdelivered a receipt, used one clean Barrier, and convinced Arlo to inherit twenty pounds of shale. No one had asked me to sort noise. No one had needed a special Greg function. That should have felt like regression. It did not.
 
 Yesterday Antonius had paid me to decide which problem came first. Today Mevi had paid my debt down by telling me where to put sacks. Both were work. Different role. Same body. I walked home without carrying anything. This felt like wealth.
 
 CHAPTER FORTY-FOUR
-
-THE PATIENT
 
 I woke because my right hand was numb. This was alarming for approximately one second. Then I discovered I had slept on it. Less alarming. I rolled onto my back and waited for sensation to return. Pins. Needles. Pain. Good. My shoulders remembered yesterday. My back remembered yesterday more. Carrying sacks used muscles fighting did not. Or used them differently. Old Greg had known this.
 
@@ -37388,7 +37386,9 @@ I stood.
 
 “Yes, if the task itself is ordinary and the cast stays small.”
 
-There. Not laboratory. Use. Observe. Do not manufacture danger to justify experiment. Good. I left. Bale was still available. So was lunch. Too early. Bale won. The master was there. I knew because the clerk from yesterday saw me enter and immediately pointed toward the back.
+There. Not laboratory. Use. Observe. Do not manufacture danger to justify experiment. Good. I left.
+
+Bale was still available. So was lunch. Too early. Bale won. The master was there. I knew because the clerk from yesterday saw me enter and immediately pointed toward the back.
 
 “He’s here.”
 
@@ -37402,15 +37402,15 @@ That sounded accusatory.
 
 A man emerged from behind a curtain carrying a wooden tray of gray pellets. Late forties. Round face. Clean apron. Three fingers on his left hand stained blue.
 
-“Greg?”
+“Greg?” he asked.
 
-“Yes.”
+“Yes,” I said.
 
-“I’m Holl.”
+“I’m Holl,” he said.
 
-“Master?”
+“Master?” I asked.
 
-“Owner.”
+“Owner,” Holl said.
 
 Better.
 
@@ -37458,9 +37458,9 @@ Good. We were doomed. Holl lifted one pellet.
 
 “Dorrin is right.”
 
-“Pell too.”
+“Arlo too.”
 
-“Pell owes Dorrin money.”
+“Arlo owes Dorrin money.”
 
 Everyone knew.
 
@@ -37732,7 +37732,7 @@ Maybe.
 
 “I don’t know. Faster line. Multiple pieces. Mechanical feed. Something.”
 
-Pell. No. Do not connect because Pell makes fixtures. Could be anyone.
+Arlo. No. Do not connect because Arlo makes fixtures. Could be anyone.
 
 “What limits yours?”
 
@@ -37756,13 +37756,13 @@ Everyone had tells.
 
 “No.”
 
-“What if,”
+“What if,” I began.
 
-“Greg.”
+“Greg,” Holl said.
 
 I stopped.
 
-“This is my morning.”
+“This is my morning,” Holl said.
 
 Right. He had given me time. Not hired me. Not requested optimization.
 
@@ -37966,7 +37966,7 @@ Dorn said, “Can he carry?”
 
 “Yes.”
 
-I said, “Apparently.” Done. They went back to the board. I was not included in whatever they had been discussing before. Good. I finished the bun. Tomorrow, road. Today, nothing urgent. I could go to Kett. Varo. Pell. Edrin. Antonius. No. I had enough. Hessa in the morning. Holl and Bale. Alden road job tomorrow. The city could keep the rest. I went home.
+I said, “Apparently.” Done. They went back to the board. I was not included in whatever they had been discussing before. Good. I finished the bun. Tomorrow, road. Today, nothing urgent. I could go to Kett. Varo. Arlo. Edrin. Antonius. No. I had enough. Hessa in the morning. Holl and Bale. Alden road job tomorrow. The city could keep the rest. I went home.
 
 On the way, I passed a narrow alley where three children were trying to float a wooden box through a gutter stream left by the rain. The box kept catching on a stone. One child moved the stone. The box passed. No Barrier. Excellent. At my lodging, the space behind the desk was empty. No rocks. Wealth. Upstairs, I checked my gear.
 
@@ -37975,8 +37975,6 @@ Sword. Knife. Coat. Water. Bandage. Food tomorrow. Boots. My right boot needed o
 Holl had said come back if I ever built a better test. Hessa had trusted me to decide when a palm-sized Barrier was actually necessary. Three different kinds of permission. No. Not permission. Trust? Too early. Expectation? Maybe. I stopped naming it. That was becoming another way to interfere. I finished oiling the boot. Tomorrow I would be a Bronze adventurer. That was enough.
 
 CHAPTER FORTY-FIVE
-
-THE ESCORT
 
 First light was a lie. There was light. Nothing about it felt first. The west gate was already open enough for carts, bakers were already selling yesterday's bread as today's breakfast, and someone had been arguing with a mule long enough to lose. I arrived with two boiled eggs in my coat pocket. Prepared. Professional. One cracked when I sat on it.
 
@@ -38040,7 +38038,7 @@ DELIVERY SIGNATURE REQUIRED
 
 Pessa said, “Road.” I looked at her. She pointed west.
 
-“The road leads.”
+“The road leads,” Pessa said.
 
 Good answer. Alden said, “Merrit owns the carts until delivery. We keep them moving and deal with trouble.”
 
@@ -38154,9 +38152,13 @@ Sova said, “Not mine.” Excellent. Pessa arrived last. She looked down.
 
 Across the ditch, a section of orchard fence had fallen inward. Pig had escaped. Probably. No monster. No bandits. Pig. Pessa said, “Get dog up.” Dorn hauled Pip. Pip objected. Sova climbed after him. Pig remained. I looked at the broken fence. Then at road. Then pig.
 
-“We leave it?”
+“We leave it?” Alden asked. Not asking me specifically.
 
-Alden asked. Not asking me specifically. Pessa said, “If it reaches road, cart problem.” Dorn said, “If we put it back, farmer problem.” Sova said, “If Pip sees it again, my problem.” Good. Pig looked at us. I had known kings with less confidence.
+Pessa said, “If it reaches road, cart problem.”
+
+Dorn said, “If we put it back, farmer problem.”
+
+Sova said, “If Pip sees it again, my problem.” Good. Pig looked at us. I had known kings with less confidence.
 
 There was a farmhouse maybe two hundred yards through the orchard. Smoke. Someone home. Alden said, “I'll tell them.” He crossed the ditch. Pessa said, “I'll keep carts.” Dorn kept dog. Sova returned to oil. I had no assigned role. Excellent. Pig started climbing toward road. There. I stepped sideways. It stopped. I stepped closer. It changed direction. I knew nothing about pigs.
 
@@ -38234,7 +38236,9 @@ I laughed. Everyone looked.
 
 “Nothing.”
 
-We left. Turnip followed the girl. Pip stared backward for half a mile. The next problem was a wheel. Not broken. Hot. Merrit stopped without anyone telling him. He touched the hub. Swore. Tool cart. Right front.
+We left. Turnip followed the girl.
+
+Pip stared backward for half a mile. The next problem was a wheel. Not broken. Hot. Merrit stopped without anyone telling him. He touched the hub. Swore. Tool cart. Right front.
 
 “Grease washed?”
 
@@ -38282,11 +38286,11 @@ Professional uncertainty. Excellent. We did. Warm. Not hot. Again another mile. 
 
 Alden traded half his cheese for some fish. Existing relationship? Maybe. Pessa accepted without negotiation. Likely. I did not ask. Growth. Pessa asked me instead.
 
-“What kind of magic?”
+“What kind of magic?” Pessa asked.
 
-“Barrier.”
+“Barrier,” I said.
 
-“Alden said.”
+“Alden said,” Pessa replied.
 
 “What did Alden say?”
 
@@ -38454,7 +38458,7 @@ Not ours. Guild clerk checked signatures. Six copper each. Actual coins. Pessa c
 
 “What now?” Alden asked.
 
-Pessa said, “Bath.” Dorn said, “Food.” Alden looked at me. I considered. Bale. Kett. Varo. Edrin. Pell. No.
+Pessa said, “Bath.” Dorn said, “Food.” Alden looked at me. I considered. Bale. Kett. Varo. Edrin. Arlo. No.
 
 “Food.”
 
@@ -38510,9 +38514,7 @@ Alden accepted this. We walked back toward the center. At one corner he turned n
 
 CHAPTER FORTY-SIX
 
-THE FRIEND
-
-The next morning I had four copper and no appointment. This was dangerous. Appointments made decisions. No appointment meant Bale. Kett. Varo. Pell. Guild. Antonius. Jorren. Alden. Hessa in two days, assuming no symptoms. Breakfast. Breakfast won because it was closest.
+The next morning I had four copper and no appointment. This was dangerous. Appointments made decisions. No appointment meant Bale. Kett. Varo. Arlo. Guild. Antonius. Jorren. Alden. Hessa in two days, assuming no symptoms. Breakfast. Breakfast won because it was closest.
 
 I spent one copper on eggs, bread, and something the cook called sausage. It was shaped like sausage. That was enough. Three copper. I sat near the window and opened my notebook.
 
@@ -38922,15 +38924,15 @@ Different. I went. The green-door building looked the same. Four floors. Narrow 
 
 He sat on the floor beside a low workbench with half a shoe in his lap. Not boot. Shoe. Fine.
 
-“You brought Greg.”
+“You brought Greg,” Tam said.
 
-“You know me?”
+“You know me?” I asked.
 
 Tam looked at Jorren.
 
-“Is that Greg?”
+“Is that Greg?” Tam asked.
 
-“Yes.”
+“Yes,” Jorren said.
 
 “Then I know Greg.”
 
@@ -38954,9 +38956,9 @@ The table was against the far wall. Heavy. Square. Covered in leather scraps, la
 
 Jorren started clearing it. I helped. Tam did not. His shoe remained in his lap.
 
-“Your table.”
+“Your table,” I said.
 
-“Your hands.”
+“Your hands,” Tam said.
 
 Fair. We cleared. The dead plant went on the floor. Tam said, “Careful.”
 
@@ -38974,7 +38976,9 @@ We moved. Chair in way. Tam moved chair with his foot. Doorway narrow. Not relev
 
 “Floor.”
 
-Jorren said, “Table.” Tam glared. I pressed corners. One leg short? No. Floor uneven. Old building. Tam reached for leather scrap. I said nothing. He folded it. Wedged under leg. Table stable. Solved. No Greg. Excellent.
+Jorren said, “Table.” Tam glared. I pressed corners. One leg short? No. Floor uneven. Old building. Tam reached for leather scrap. I said nothing. He folded it. Wedged under leg. Table stable.
+
+Solved. No Greg. Excellent.
 
 “Again,” Tam said.
 
@@ -39586,13 +39590,11 @@ Jorren asked. I thought.
 
 “He learned six inches.”
 
-Jorren nodded. That was enough. I drank. No one requested anything. No one needed me. The kiln would fire without me. Tam would make shoes. Jorren would clear river stairs with Eli. Alden was somewhere. Pessa somewhere else. Dorn probably eating an onion incorrectly. Edrin had evidence. Hessa had students. Antonius had businesses. Pell had my rocks. The city did not pause when I sat down.
+Jorren nodded. That was enough. I drank. No one requested anything. No one needed me. The kiln would fire without me. Tam would make shoes. Jorren would clear river stairs with Eli. Alden was somewhere. Pessa somewhere else. Dorn probably eating an onion incorrectly. Edrin had evidence. Hessa had students. Antonius had businesses. Arlo had my rocks. The city did not pause when I sat down.
 
 Good. I sat anyway.
 
 CHAPTER FORTY-SEVEN
-
-THE SECOND
 
 The beer cost one copper. This became important in the morning. I had one copper. One. Old Greg had owned property. Probably. Present Greg had breakfast money. Maybe. I ate at the lodging house because the cook would put breakfast against tomorrow if I asked. I did not ask. Pride was expensive.
 
@@ -39712,7 +39714,7 @@ Good. I could take the message run. Safer. Faster. Two copper. I reached for the
 
 He held a painted wooden route marker under one arm. The marker had been split clean through the middle. He looked at the message slip.
 
-“North clerk will make you wait until second bell.”
+“North clerk will make you wait until second bell,” he said.
 
 “How do you know?”
 
@@ -39758,13 +39760,13 @@ He smiled. Not offended.
 
 Premature judgment under review. The clerk tapped the broken route marker.
 
-“What happened?”
+“What happened?” she asked.
 
-“Cart.”
+“Cart,” Sevren said.
 
-“Your cart?”
+“Your cart?” the clerk asked.
 
-“No.”
+“No,” Sevren said.
 
 “Did you see it happen?”
 
@@ -40022,7 +40024,9 @@ He tucked box under his arm.
 
 “We report.”
 
-No defense. No story. Good. Fourth marker was on a hill above a shallow ford. The ford had widened. Not dangerously. Enough that the stepping stones were underwater. We did not need cross. Marker box on our side. Sevren opened it. Wet inside. Wax strip smeared. Route plate green at one corner. I recorded.
+No defense. No story. Good. Fourth marker was on a hill above a shallow ford. The ford had widened.
+
+Not dangerously. Enough that the stepping stones were underwater. We did not need cross. Marker box on our side. Sevren opened it. Wet inside. Wax strip smeared. Route plate green at one corner. I recorded.
 
 “Need replace seal.”
 
@@ -40078,7 +40082,7 @@ Related. Not opposite. The box dried enough. New wax. Seal. Done. We took the no
 
 He went through. I followed. Driver said, “Watch the wheel.” Sevren stepped around. I stepped around. No intervention. Excellent. On far side, one farmhand called, “Courier.” Sevren turned.
 
-“Yeah?”
+“Yeah?” Sevren said.
 
 “You going Harrow Lane?”
 
@@ -40086,15 +40090,15 @@ He went through. I followed. Driver said, “Watch the wheel.” Sevren stepped 
 
 “Take word to Mina Vell. Axle broke. Joss will be late.”
 
-“Which Joss?”
+“Which Joss?” Sevren asked.
 
-“Tall.”
+“Tall,” the farmhand said.
 
-“Useless.”
+“Useless,” Sevren said.
 
-“Red hat.”
+“Red hat,” the farmhand said.
 
-“Better.”
+“Better,” Sevren said.
 
 Sevren nodded. No paper. No payment.
 
@@ -40290,7 +40294,7 @@ Rell took packet. Solved. Sevren looked at me.
 
 “Food?”
 
-Immediate objective shifted. I should go home. Save money. Maybe Varo. Pell. Antonius. No.
+Immediate objective shifted. I should go home. Save money. Maybe Varo. Arlo. Antonius. No.
 
 “Food.”
 
@@ -40370,8 +40374,6 @@ He kept walking. I followed. Premature judgment had survived first contact. This
 
 CHAPTER FORTY-EIGHT
 
-THE COMPANION
-
 Lio lived above a cooper. This became obvious before Sevren said anything because the stairwell smelled like wet oak, old beer, and heat. The stove was on the third floor. Of course.
 
 “Why is it upstairs?” I asked.
@@ -40402,15 +40404,15 @@ He knocked on the third-floor door. A man opened it before the second knock. Lio
 
 His shirt had soot on one sleeve and flour on the other. Interesting.
 
-“You brought someone.”
+“You brought someone,” Lio said.
 
-“Greg.”
+“Greg,” Sevren said.
 
-“Barrier Greg?”
+“Barrier Greg?” Lio asked.
 
 I looked at Sevren. He looked delighted.
 
-“No.”
+“No,” I said.
 
 Lio nodded.
 
@@ -40582,11 +40584,11 @@ We returned to stove. Rope under. Blanket around iron corners. Lio had done this
 
 “Who takes bottom?” Sevren asked.
 
-“Me.”
+“Me,” I said.
 
 Lio said, “No.” I looked at him.
 
-“My stairs.”
+“My stairs,” Lio said.
 
 Fine. He took bottom. Sevren top. I took side at first. No. Bad. Too narrow.
 
@@ -40668,17 +40670,17 @@ Good instinct.
 
 “Need your door,” Lio said.
 
-“No.”
+“No,” Mara said.
 
-“Five minutes.”
+“Five minutes,” Lio said.
 
-“No.”
+“No,” Mara repeated.
 
 Sevren said, “Two.” She looked at him.
 
-“One.”
+“One,” Mara said.
 
-“Done.”
+“Done,” Sevren said.
 
 She shut it. We set stove back on landing. Lio removed hinge pins with a spoon handle and hammer. Mara opened again, now dressed enough to be angry.
 
@@ -40686,7 +40688,9 @@ She shut it. We set stove back on landing. Lio removed hinge pins with a spoon h
 
 “Yes.”
 
-Door came off. Sevren stepped into her doorway. More room. We rotated stove. Passed turn. No magic. Excellent. Mara watched.
+Door came off. Sevren stepped into her doorway. More room. We rotated stove. Passed turn. No magic. Excellent.
+
+Mara watched.
 
 “You moved that up?”
 
@@ -41190,7 +41194,7 @@ He tucked both into satchel. Then looked at me.
 
 “Coming?”
 
-I nearly said yes. Why? No reason. He was working. I was not. I could go Pell. Varo. Antonius. Home. Nap.
+I nearly said yes. Why? No reason. He was working. I was not. I could go Arlo. Varo. Antonius. Home. Nap.
 
 “Do you need me?”
 
@@ -41418,9 +41422,7 @@ I liked him more. That was worse.
 
 CHAPTER FORTY-NINE
 
-THE TESTER
-
-The next morning, Sevren went north. I went to Pell. This was not because Sevren went north. Probably. The regulator was still wrapped in cloth beside my bed. Six washers. Notes. Cold test. Orientation test. Vibration test still owed. Pell had asked for mechanical vibration specifically. Not mana. Good. I ate before leaving. No dramatic accounting. Also good. The workshop door was open.
+The next morning, Sevren went north. I went to Arlo. This was not because Sevren went north. Probably. The regulator was still wrapped in cloth beside my bed. Six washers. Notes. Cold test. Orientation test. Vibration test still owed. Arlo had asked for mechanical vibration specifically. Not mana. Good. I ate before leaving. No dramatic accounting. Also good. The workshop door was open.
 
 Vessa was carrying a tray of ceramic bodies from the kiln room. She saw me.
 
@@ -41430,7 +41432,7 @@ Vessa was carrying a tray of ceramic bodies from the kiln room. She saw me.
 
 “No.”
 
-“Pell asked.”
+“Arlo asked.”
 
 “Still no.”
 
@@ -41456,19 +41458,17 @@ Reasonable.
 
 Progress. I sat on an overturned crate outside. The lane smelled like wet clay and cabbage. Across the way, a cooper rolled two hoops down the street with a stick. One escaped. A child caught it. No Barrier. Everyone survived.
 
-Pell appeared ten minutes later carrying three narrow metal rods and a cup. He saw me.
+Arlo appeared ten minutes later carrying three narrow metal rods and a cup. He saw me.
 
-“Good.”
+“Good,” Arlo said.
 
-Vessa, from inside:
+Vessa called from inside, “No.”
 
-“No.”
+Arlo looked toward her.
 
-Pell looked toward her.
+“Why no?” he asked.
 
-“Why no?”
-
-“Glaze.”
+“Glaze,” Vessa said.
 
 “Right.”
 
@@ -41478,9 +41478,9 @@ He handed me the cup. Water. Not coffee. Probably safer.
 
 “Waiting.”
 
-Good workshop. We waited. This felt inefficient. Then I noticed everyone else was moving. Vessa checked kiln vents. A boy I had not seen before ground pigment at the back bench. Pell measured one rod against another, rejected one, marked it, and put it aside. A customer came for two lamp housings. Vessa handled it. Pell did not stop measuring. The workshop was not waiting.
+Good workshop. We waited. This felt inefficient. Then I noticed everyone else was moving. Vessa checked kiln vents. A boy I had not seen before ground pigment at the back bench. Arlo measured one rod against another, rejected one, marked it, and put it aside. A customer came for two lamp housings. Vessa handled it. Arlo did not stop measuring.
 
-I was. Different. I drank water. The boy grinding pigment glanced at me twice.
+The workshop was not waiting. I was. Different. I drank water. The boy grinding pigment glanced at me twice.
 
 “What?”
 
@@ -41490,7 +41490,7 @@ I asked. He looked down.
 
 “Good.”
 
-Pell said, “He knows who you are.” I looked at him.
+Arlo said, “He knows who you are.” I looked at him.
 
 “Why?”
 
@@ -41504,7 +41504,7 @@ The boy said, “Barrier.” Of course.
 
 “Today.”
 
-Pell said, “His uncle owes me.” Len said, “You owe him.”
+Arlo said, “His uncle owes me.” Len said, “You owe him.”
 
 “Same system.”
 
@@ -41512,7 +41512,7 @@ Not my business. Progress again. After maybe twenty minutes, Vessa came out.
 
 “Now.”
 
-We went in. The regulator went on the side bench. Pell had built something. Of course. A wooden frame. Two uprights. Crossbar. Leather straps. Small crank at one side connected to an off-center wheel. When turned, the bench plate shook. Not violently. Fast. Mechanical vibration. Simple. Ugly. Excellent.
+We went in. The regulator went on the side bench. Arlo had built something. Of course. A wooden frame. Two uprights. Crossbar. Leather straps. Small crank at one side connected to an off-center wheel. When turned, the bench plate shook. Not violently. Fast. Mechanical vibration. Simple. Ugly. Excellent.
 
 “You made this?”
 
@@ -41520,9 +41520,9 @@ We went in. The regulator went on the side bench. Pell had built something. Of c
 
 I looked at her. She shrugged.
 
-“Pell made the bad one.”
+“Arlo made the bad one.”
 
-Pell pointed.
+Arlo pointed.
 
 “First one walked.”
 
@@ -41540,7 +41540,7 @@ Better.
 
 “What do you want to know?” I asked.
 
-Pell looked at my notes.
+Arlo looked at my notes.
 
 “Same flow. Same regulator. Different vibration.”
 
@@ -41550,19 +41550,19 @@ Pell looked at my notes.
 
 “That is not measured.”
 
-Vessa said, “Here we go.” Pell ignored her.
+Vessa said, “Here we go.” Arlo ignored her.
 
 “Marked wheel.”
 
 He showed me. Four ink marks. Slow. Medium. Fast. Very fast. Not exact frequency. Enough categories.
 
-“Who turns?”
+“Who turns?” I asked.
 
-“You.”
+“You,” Arlo said.
 
-“Why?”
+“Why?” I asked.
 
-“Because your hand was not part of the fixture last time.”
+“Because your hand was not part of the fixture last time,” Arlo said.
 
 Fair.
 
@@ -41572,7 +41572,7 @@ Fair.
 
 “And sound?”
 
-Pell looked at me.
+Arlo looked at me.
 
 “Fine.”
 
@@ -41588,9 +41588,9 @@ She pointed at me.
 
 “Good.”
 
-That rule existed because of me now. Not proud. We mounted the regulator. Cold water feed. Catch bowl. Same washer as previous baseline. Pell checked collar. Vessa checked body support. Two supports now. Opposite sides. Ceramic body no longer depended on hand pressure. Good. We ran no vibration first. Flow clean. Low pulse. No leak. Then slow. Small flutter. Then medium. More.
+That rule existed because of me now. Not proud. We mounted the regulator. Cold water feed. Catch bowl. Same washer as previous baseline. Arlo checked collar. Vessa checked body support. Two supports now. Opposite sides. Ceramic body no longer depended on hand pressure. Good. We ran no vibration first. Flow clean. Low pulse. No leak. Then slow. Small flutter. Then medium. More.
 
-Fast. Output changed. Not much. Enough. Very fast. The whole fixture hummed. Pell stopped me.
+Fast. Output changed. Not much. Enough. Very fast. The whole fixture hummed. Arlo stopped me.
 
 “Again.”
 
@@ -41598,7 +41598,7 @@ Fast. Output changed. Not much. Enough. Very fast. The whole fixture hummed. Pel
 
 “Fast.”
 
-We repeated. Same. Then medium. Same. Then no vibration. Clean again. Good. Reversible. I wrote. Pell changed washer. Smaller opening. No vibration. Stable. Slow. Stable. Medium. Flutter. Fast. Worse than first washer. Interesting.
+We repeated. Same. Then medium. Same. Then no vibration. Clean again. Good. Reversible. I wrote. Arlo changed washer. Smaller opening. No vibration. Stable. Slow. Stable. Medium. Flutter. Fast. Worse than first washer. Interesting.
 
 “Pressure sensitivity?” I asked.
 
@@ -41612,7 +41612,7 @@ We repeated. Same. Then medium. Same. Then no vibration. Clean again. Good. Reve
 
 “Maybe.”
 
-Pell smiled. He liked maybe when it was real. Vessa did not.
+Arlo smiled. He liked maybe when it was real. Vessa did not.
 
 “Can we find out?” I asked.
 
@@ -41620,7 +41620,7 @@ Pell smiled. He liked maybe when it was real. Vessa did not.
 
 “How?”
 
-Pell took the regulator apart. Not answer. Method. He swapped one spacer. Reassembled. Run again. Different. Flutter started later.
+Arlo took the regulator apart. Not answer. Method. He swapped one spacer. Reassembled. Run again. Different. Flutter started later.
 
 “Spacer stiffness,” I said.
 
@@ -41630,9 +41630,9 @@ Pell took the regulator apart. Not answer. Method. He swapped one spacer. Reasse
 
 “Maybe.”
 
-Vessa said, “I hate both of you.” We kept going. Third configuration. Then fourth. Pell changed one thing each time. Not always what I would have changed. Good. He knew his object. I knew support behavior. Different. The second spacer was softer. Worse. We returned to first. Better again.
+Vessa said, “I hate both of you.” We kept going. Third configuration. Then fourth. Arlo changed one thing each time. Not always what I would have changed. Good. He knew his object. I knew support behavior. Different. The second spacer was softer. Worse. We returned to first. Better again.
 
-Then Pell rotated the whole regulator body ninety degrees without changing the washer. I almost objected because that was two lines of inquiry crossing. Then remembered orientation was already characterized. This was not a clean first experiment. It was a shop.
+Then Arlo rotated the whole regulator body ninety degrees without changing the washer. I almost objected because that was two lines of inquiry crossing. Then remembered orientation was already characterized. This was not a clean first experiment. It was a shop.
 
 “Why rotate now?” I asked.
 
@@ -41650,13 +41650,13 @@ Sideways plus medium vibration produced less flutter than upright plus medium. U
 
 “Again.”
 
-Pell grinned. Now I was asking. Again. Same. Vessa leaned close.
+Arlo grinned. Now I was asking. Again. Same. Vessa leaned close.
 
 “Fixture?”
 
 “Could be.”
 
-Pell touched one support.
+Arlo touched one support.
 
 “No hand.”
 
@@ -41664,17 +41664,17 @@ Pell touched one support.
 
 “We should isolate support pressure.”
 
-I said it too quickly. Pell nodded toward a pile of work.
+I said it too quickly. Arlo nodded toward a pile of work.
 
 “Tomorrow has already been invented.”
 
 Right. By midday we had something. Not a solution. A shape. The regulator tolerated low vibration well. At higher vibration, instability arrived sooner with the smaller washer. A stiffer spacer delayed onset but did not eliminate it. Body support helped consistency between runs. Orientation still interacted with vibration rather than disappearing beneath it.
 
-Sideways mounting might be more stable in one tested configuration, but one fixture was not a law. No mana. No magic. No brilliant breakthrough. Useful. Pell ate standing. Bread. Cheese. Vessa had an apple. I had brought meat and bread. Len ate outside. We ate around the bench.
+Sideways mounting might be more stable in one tested configuration, but one fixture was not a law. No mana. No magic. No brilliant breakthrough. Useful. Arlo ate standing. Bread. Cheese. Vessa had an apple. I had brought meat and bread. Len ate outside. We ate around the bench.
 
 “What does this change?” I asked.
 
-Pell chewed.
+Arlo chewed.
 
 “For current piece?”
 
@@ -41698,7 +41698,7 @@ I waited. He smiled.
 
 “More specific later.”
 
-Vessa said, “Put that on the card.” Pell said, “Not yet.”
+Vessa said, “Put that on the card.” Arlo said, “Not yet.”
 
 “Why?”
 
@@ -41714,11 +41714,11 @@ I looked at Vessa. She looked at me.
 
 “Yes.”
 
-Pell laughed. Hot line meant real operating heat. Different materials. Expansion. Seals. Risk. Not today. Good. I looked at the second body support on the ceramic fixture across the room.
+Arlo laughed. Hot line meant real operating heat. Different materials. Expansion. Seals. Risk. Not today. Good. I looked at the second body support on the ceramic fixture across the room.
 
 “Cracks?”
 
-Pell followed my eyes.
+Arlo followed my eyes.
 
 “Fewer.”
 
@@ -41744,15 +41744,15 @@ Not enough data. Promising.
 
 Vessa looked up.
 
-“Why?”
+“Why?” she asked.
 
-“Trying to isolate.”
+“Trying to isolate,” I said.
 
-“No.”
+“No,” Vessa said.
 
-“What?”
+“What?” I asked.
 
-“You are trying to turn my week into your experiment.”
+“You are trying to turn my week into your experiment,” Vessa said.
 
 There. I stopped. She pointed the apple at me.
 
@@ -41768,9 +41768,9 @@ I had not known.
 
 Also no.
 
-“And Pell stopped stacking them like an idiot.”
+“And Arlo stopped stacking them like an idiot.”
 
-Pell said, “That was one time.”
+Arlo said, “That was one time.”
 
 “Four.”
 
@@ -41784,7 +41784,7 @@ Vessa blinked.
 
 “No.”
 
-Pell said, “We can still sell the ones that did not crack.” There. Actual objective. Not proving mechanism. Making good pieces. I had almost made their workshop answer my question instead of their customers. Again.
+Arlo said, “We can still sell the ones that did not crack.” There. Actual objective. Not proving mechanism. Making good pieces. I had almost made their workshop answer my question instead of their customers. Again.
 
 “I understand.”
 
@@ -41796,7 +41796,7 @@ Vessa took another bite.
 
 “Good enough.”
 
-Pell finished bread.
+Arlo finished bread.
 
 “What about regulator?”
 
@@ -41804,7 +41804,7 @@ I looked at notes.
 
 “Current evidence supports mounting guidance. Need hot-line repeat before anything stronger.”
 
-He nodded. No correction. Good. Then a customer came in carrying a broken lantern frame. Not our problem. Pell took it. Looked.
+He nodded. No correction. Good. Then a customer came in carrying a broken lantern frame. Not our problem. Arlo took it. Looked.
 
 “Tomorrow.”
 
@@ -41820,13 +41820,13 @@ Customer looked at the price board. Did not.
 
 “Tomorrow.”
 
-Done. Pell put the broken frame in a tray. Work. I started packing the regulator. Vessa said, “Leave it.” I looked up.
+Done. Arlo put the broken frame in a tray. Work. I started packing the regulator. Vessa said, “Leave it.” I looked up.
 
 “Why?”
 
 “Hot line tomorrow.”
 
-Pell said, “If you can come.” Requested. Existing thread. Narrow.
+Arlo said, “If you can come.” Requested. Existing thread. Narrow.
 
 “I can.”
 
@@ -41836,7 +41836,7 @@ Pell said, “If you can come.” Requested. Existing thread. Narrow.
 
 “Second.”
 
-Good. Specific. I left the regulator. This felt strange. Object stayed in another person's workshop because they had work for it. Not because I had abandoned it. Not because storage cost money. Because it belonged in tomorrow's task. Small thing. Still. I washed my hands. There was clay dust on them anyway. At the door, Pell called after me.
+Good. Specific. I left the regulator. This felt strange. Object stayed in another person's workshop because they had work for it. Not because I had abandoned it. Not because storage cost money. Because it belonged in tomorrow's task. Small thing. Still. I washed my hands. There was clay dust on them anyway. At the door, Arlo called after me.
 
 “Greg.”
 
@@ -42034,13 +42034,11 @@ Then wrote:
 
 ALDEN LEFT FOR NORTH PRACTICE.
 
-Crossed it out. Not information I needed. Another improvement. Maybe. I closed notebook. Tomorrow, second bell, Pell. That was enough.
+Crossed it out. Not information I needed. Another improvement. Maybe. I closed notebook. Tomorrow, second bell, Arlo. That was enough.
 
 CHAPTER FIFTY
 
-THE RECORDER
-
-I arrived at Pell's at the second bell. The door was already open. That meant Pell was working. It did not mean he was waiting for me. Better distinction. Vessa was outside with a bucket of broken ceramic. She saw me.
+I arrived at Arlo's at the second bell. The door was already open. That meant Arlo was working. It did not mean he was waiting for me. Better distinction. Vessa was outside with a bucket of broken ceramic. She saw me.
 
 “You're early.”
 
@@ -42052,13 +42050,13 @@ I looked at the sun. Then at her.
 
 “That's not how bells work.”
 
-“It is when Pell forgets the first one.”
+“It is when Arlo forgets the first one.”
 
-From inside, Pell shouted, “I did not forget it.” Vessa kept walking.
+From inside, Arlo shouted, “I did not forget it.” Vessa kept walking.
 
 “Come in.”
 
-The regulator was still on the bench. Good. Pell had changed the fixture again. The wooden vibration frame was gone. In its place was a low iron bracket bolted to a stone-topped bench. The regulator sat inside two curved clamps. Not tight. Spring-loaded. I looked at it.
+The regulator was still on the bench. Good. Arlo had changed the fixture again. The wooden vibration frame was gone. In its place was a low iron bracket bolted to a stone-topped bench. The regulator sat inside two curved clamps. Not tight. Spring-loaded. I looked at it.
 
 “You changed the support.”
 
@@ -42068,7 +42066,7 @@ The regulator was still on the bench. Good. Pell had changed the fixture again. 
 
 “Hot line.”
 
-I nodded. That was apparently enough explanation for the moment. A narrow copper tube ran from the regulator toward a covered pot. The pot sat over a small enclosed burner. Heat. Actual heat. Pell handed me a slate.
+I nodded. That was apparently enough explanation for the moment. A narrow copper tube ran from the regulator toward a covered pot. The pot sat over a small enclosed burner. Heat. Actual heat. Arlo handed me a slate.
 
 “Record.”
 
@@ -42098,55 +42096,57 @@ Fair. Vessa set the broken ceramic beside the wall.
 
 “I know.”
 
-Pell crouched by the regulator.
+Arlo crouched by the regulator.
 
 “Ready?”
 
 “Yes.”
 
-He lit the burner. The first change was nothing. That was useful. The metal warmed slowly. Water ran through the regulator. No vibration. Flow steady. I wrote the starting time. Pell watched the catch bowl. Vessa watched the clamp. I watched everything else. This was a bad way to run a test. So I picked one thing. The right clamp.
+He lit the burner. The first change was nothing. That was useful. The metal warmed slowly. Water ran through the regulator. No vibration. Flow steady. I wrote the starting time. Arlo watched the catch bowl. Vessa watched the clamp. I watched everything else. This was a bad way to run a test. So I picked one thing. The right clamp.
 
-At about the fifth mark on Pell's temperature strip, the regulator made a faint click. I looked up.
+At about the fifth mark on Arlo's temperature strip, the regulator made a faint click.
 
-“Did you hear that?”
+I looked up.
 
-Pell stopped.
+“Did you hear that?” I asked.
 
-“Yes.”
+Arlo stopped.
+
+“Yes,” he said.
 
 Vessa touched the clamp.
 
-“Don't.”
+“Don't,” I said.
 
-“I wasn't.”
+“I wasn't,” Vessa said.
 
-She pulled her hand back. We waited. Another click. Then the flow changed. Barely. Pell looked at me.
+She pulled her hand back. We waited. Another click. Then the flow changed. Barely. Arlo looked at me.
 
 “Record it.”
 
-Already had. He shut the burner. The regulator cooled. The click came again. Different pitch. Interesting. Pell waited.
+Already had. He shut the burner. The regulator cooled. The click came again. Different pitch. Interesting. Arlo waited.
 
 “Again.”
 
-We did. Same sequence. Warm. Click. Small flutter. Cool. Click. No flutter. Not magic. Not a broken seal. Thermal movement. Probably. I wrote probably. Pell read over my shoulder.
+We did. Same sequence. Warm. Click. Small flutter. Cool. Click. No flutter. Not magic. Not a broken seal. Thermal movement. Probably. I wrote probably. Arlo read over my shoulder.
 
-“Why probably?”
+“Why probably?” he asked.
 
-“Because we don't know what moved.”
+“Because we don't know what moved,” I said.
 
-“The clamp.”
+“The clamp,” Arlo said.
 
-“Maybe.”
+“Maybe,” I said.
 
 He smiled. Vessa said, “You two are going to start sleeping here.”
 
 “No,” I said.
 
-Pell said, “Not possible.” She pointed at both of us.
+Arlo said, “Not possible.” She pointed at both of us.
 
 “Good.”
 
-The third run started. This time Pell loosened the left clamp by one turn. He did not tell me why. I did not ask. He knew the fixture. We ran. The first click came later. No flutter. Second click. Still clean. Pell looked at the clamp. Then at me.
+The third run started. This time Arlo loosened the left clamp by one turn. He did not tell me why. I did not ask. He knew the fixture. We ran. The first click came later. No flutter. Second click. Still clean. Arlo looked at the clamp. Then at me.
 
 “Write it.”
 
@@ -42158,7 +42158,7 @@ I wrote.
 
 “Maybe.”
 
-He nodded. We let it cool. Then he tightened it one turn past the first position. The regulator clicked sooner. Flutter appeared. Small. Repeatable. There. That was more interesting. Not because it solved anything. Because it was a relationship. Clamp pressure affected when the heated regulator changed behavior. Pell did not celebrate. He took the regulator apart. I watched.
+He nodded. We let it cool. Then he tightened it one turn past the first position. The regulator clicked sooner. Flutter appeared. Small. Repeatable. There. That was more interesting. Not because it solved anything. Because it was a relationship. Clamp pressure affected when the heated regulator changed behavior. Arlo did not celebrate. He took the regulator apart. I watched.
 
 “You're changing the whole fixture.”
 
@@ -42184,7 +42184,7 @@ Vessa came back with a cloth.
 
 “You're both exhausting.”
 
-Pell opened the regulator. The seal was intact. No obvious damage. He checked the seat. Clean. He checked the copper connection. Clean. Then he looked at the spring clamp. The contact surface had a bright worn line.
+Arlo opened the regulator. The seal was intact. No obvious damage. He checked the seat. Clean. He checked the copper connection. Clean. Then he looked at the spring clamp. The contact surface had a bright worn line.
 
 “That's new.”
 
@@ -42192,7 +42192,7 @@ I leaned closer. Vessa said, “Not touching.”
 
 “I know.”
 
-Pell rubbed the line with his thumb.
+Arlo rubbed the line with his thumb.
 
 “Heat.”
 
@@ -42220,7 +42220,7 @@ I looked at him.
 
 “Sometimes.”
 
-Good. Not our experiment. Their product. We ran it again. The click came later. No visible flutter. At higher crank speed, the fixture vibrated. The regulator rattled. The output stayed stable. Pell stopped turning.
+Good. Not our experiment. Their product. We ran it again. The click came later. No visible flutter. At higher crank speed, the fixture vibrated. The regulator rattled. The output stayed stable. Arlo stopped turning.
 
 “Enough.”
 
@@ -42246,15 +42246,15 @@ That was reasonable. I had been about to suggest another run. I kept my mouth sh
 
 “That's one word.”
 
-I hated that she could do that. Pell was already writing.
+I hated that she could do that. Arlo was already writing.
 
-“Current guidance?”
+“Current guidance?” Arlo asked.
 
 I looked at the slate.
 
 “Heat changes clamp behavior. Clamp pressure changes onset of flutter. Leather interface reduces observed movement in this fixture. High vibration can produce rattle without immediate output instability.”
 
-Pell nodded.
+Arlo nodded.
 
 “Good.”
 
@@ -42346,7 +42346,7 @@ I looked at the bowl. Fair. Jorren sat beside me.
 
 “Work?”
 
-“Pell.”
+“Arlo.”
 
 “Still doing that thing?”
 
@@ -42414,17 +42414,15 @@ He looked at my hand.
 
 “Thought so.”
 
-He left toward the yard. I went home. The regulator stayed at Pell's. The sinkstone stayed at Dorrin. Alden stayed south. Sevren stayed somewhere north. Everyone had somewhere else to be. I had food in my stomach. A test tomorrow. And a blister. For once, that was a complete enough list.
+He left toward the yard. I went home. The regulator stayed at Arlo's. The sinkstone stayed at Dorrin. Alden stayed south. Sevren stayed somewhere north. Everyone had somewhere else to be. I had food in my stomach. A test tomorrow. And a blister. For once, that was a complete enough list.
 
 CHAPTER FIFTY-ONE
-
-THE SIGNAL
 
 The blister was worse in the morning. Not dramatically. It had simply become more interested in existing. I found it while buttoning my shirt. A tender spot at the base of my thumb, skin lifted and pale at the edge. I pressed it once. Bad decision. I stopped pressing it.
 
 The rest of me was better. Ribs quiet. Legs good. Channels quiet. No headache. No strange pressure behind the eyes. That was enough to make me suspicious of the day. I ate bread, cheese, and an apple that had been cut yesterday and had therefore lost most of its enthusiasm. Then I looked at the regulator sitting on my table. I had not brought it home.
 
-Pell had kept it. That was probably correct. I had the notes. The notes were mine. The device was his workshop problem. Good. I put the notebook away. There was no reason to go to Pell. No reason to go to Dorrin Stone. No reason to go to Varo Chemical. No reason to find Alden. No reason to look for Sevren.
+Arlo had kept it. That was probably correct. I had the notes. The notes were mine. The device was his workshop problem. Good. I put the notebook away. There was no reason to go to Arlo. No reason to go to Dorrin Stone. No reason to go to Varo Chemical. No reason to find Alden. No reason to look for Sevren.
 
 I had, apparently, developed a morning routine consisting of identifying things I could do and then refusing to do half of them. Progress. The Guild had work. That was different. I went. The contract hall was already crowded. Not packed. Crowded in the ordinary way, which was worse because nobody had a dramatic reason for being in each other's way.
 
@@ -42434,23 +42432,26 @@ Fence inspection. South road escort. Warehouse unloading. Two days of guard work
 
 A Guild runner I did not know stood there holding a folded sheet.
 
-“Yes.”
+“Yes,” I said.
 
-“You've got a moment?”
+“You've got a moment?” the runner asked.
 
-“I have several.”
+“I have several,” I said.
 
 He handed me the paper.
 
-“Field desk.”
+“Field desk,” he said.
 
 I opened it.
 
-REQUEST: GREGORYBRONZEAVAILABLE TODAYASK FOR MAREK.
+REQUEST: GREGORY
+BRONZE
+AVAILABLE TODAY
+ASK FOR TAVIN.
 
-I stared at the name.
+I stared at the name. Tavin. No. Wrong Tavin. Almost certainly. The universe did not get to recycle every name just because I had been thinking about memory too much.
 
-“Which Marek?”
+“Which Tavin?”
 
 The runner blinked.
 
@@ -42468,7 +42469,7 @@ The runner blinked.
 
 “Didn't say.”
 
-I looked at the paper. This was suspicious. Because somebody had requested me. That was new enough to make the rest of my brain stand up. The runner was already walking away.
+I looked at the paper. This was suspicious. Not because of Tavin. Because somebody had requested me. That was new enough to make the rest of my brain stand up. The runner was already walking away.
 
 “Wait.”
 
@@ -42488,7 +42489,7 @@ The runner shrugged.
 
 “Ask him.”
 
-Good answer. I folded the paper. Then I almost went to the board again. Pigs. West gate. I went. The field office was a narrow room beside the gatehouse with two desks, a rack of route markers, and a window overlooking the freight road. A woman in a dark road coat stood over a map. She looked up when I entered.
+Good answer. I folded the paper. Then I almost went to the board again. Pigs. No. West gate. I went. The field office was a narrow room beside the gatehouse with two desks, a rack of route markers, and a window overlooking the freight road. A woman in a dark road coat stood over a map. She looked up when I entered.
 
 “Greg.”
 
@@ -42496,15 +42497,15 @@ Good answer. I folded the paper. Then I almost went to the board again. Pigs. We
 
 She pointed at the chair. I sat. She did not.
 
-“I'm Marek.”
+“I'm Tavin.”
 
 I waited. No recognition. Good.
 
-“Marek what?”
+“Tavin what?”
 
 “Marek Rusk.”
 
-Nothing. I was getting better at names.
+Nothing. Definitely not the wagon Tavin. He had been sixteen. This Tavin was perhaps forty. I was getting better at names.
 
 “You asked for me.”
 
@@ -42558,15 +42559,15 @@ She looked at me. I looked back. That was the entire explanation. She set the re
 
 There it was. Darrowmere. Not the mystery. Traffic. The road had changed because people had changed routes. That was the sort of consequence I liked. It did not require a monster.
 
-“What do you need me for?”
+“What do you need me for?” I asked.
 
-Marek pointed to the map.
+Tavin pointed to the map.
 
-“The roadwright owns the repair. The Guild lead owns the contract. The haulers own their carts. The gate clerk controls the queue.”
+“The roadwright owns the repair. The Guild lead owns the contract. The haulers own their carts. The gate clerk controls the queue,” she said.
 
-“And?”
+“And?” I asked.
 
-“And all four can do their jobs correctly and still make a mess.”
+“And all four can do their jobs correctly and still make a mess,” Tavin said.
 
 I smiled. She noticed.
 
@@ -42716,11 +42717,11 @@ He stopped. That was almost disappointingly easy. The second cart tried a minute
 
 I had spent years believing that if I could see the system clearly enough, I should intervene. Now I had a yellow marker and a man with a hammer. My job was to hold it. So I held it. The queue grew. The gate clerk came down.
 
-“We're backing up.”
+“We're backing up,” she said.
 
-“Yes.”
+“Yes,” I said.
 
-“Can you let the first two through?”
+“Can you let the first two through?” she asked.
 
 I looked at Leth. He was kneeling in the trench, packing crushed stone into the base. He looked up.
 
@@ -42836,8 +42837,6 @@ For once, I had done one thing that somebody else had asked me to do. Then I had
 
 CHAPTER FIFTY-TWO
 
-THE SIGNATORY
-
 I went back to the Guild the next morning because I had left the route report there. This was not urgent. I knew that. I went anyway. The field desk was quieter than yesterday. A different clerk sat behind it, a woman with ink on the side of her hand and a stack of folded route sheets beside her. She looked up.
 
 “Greg?”
@@ -42846,11 +42845,13 @@ I stopped.
 
 “Yes.”
 
-“Marek left something for you.”
+“Tavin left something for you.”
 
 She reached under the desk and produced a narrow slip. I took it.
 
-AVAILABLE FOR LANE SUPPORTGREGORYBRONZE
+AVAILABLE FOR LANE SUPPORT
+GREGORY
+BRONZE
 
 Below that, in smaller writing:
 
@@ -42876,7 +42877,9 @@ She pointed toward a chair.
 
 “Sit.”
 
-I sat. She pulled my report from a tray. The original was there, folded around a second sheet.
+I sat. She pulled my report from a tray.
+
+The original was there, folded around a second sheet.
 
 “You wrote the repair sequence?”
 
@@ -42928,7 +42931,7 @@ I looked down at the report. There were perhaps thirty words about my part in it
 
 “What was the availability note?”
 
-“Marek's.”
+“Tavin's.”
 
 “She wants me available?”
 
@@ -42978,11 +42981,11 @@ She shrugged.
 
 I thought about that. There it was. Not promotion. Not rank. A reputation that could be used or ignored. A little more trust. A little more opportunity. A little more temptation to turn an opportunity into an identity. I signed. The clerk took the paper.
 
-“Good.”
+“Good,” she said.
 
-“That's all?”
+“That's all?” I asked.
 
-“You expected applause?”
+“You expected applause?” the clerk asked.
 
 “No.”
 
@@ -43156,13 +43159,13 @@ I looked at her. She was already reaching for salve. Not a joke. Not a lesson. J
 
 The girl looked at me.
 
-“Do you do magic?”
+“Do you do magic?” she asked.
 
-“Sometimes.”
+“Sometimes,” I said.
 
-“Are you good?”
+“Are you good?” the girl asked.
 
-“No.”
+“No,” I said.
 
 Hessa looked up.
 
@@ -43222,7 +43225,7 @@ I stared at her. She stared back.
 
 “You smell like it.”
 
-That was unfairly specific. I left. Outside, the rain had stopped. The street was beginning to dry. I stood beneath the eave for a moment. I had a Guild availability note. A wrapped hand. No new assignment. No revelation. No reason to be anywhere. I could go to Pell. I could go to Dorrin Stone.
+That was unfairly specific. I left. Outside, the rain had stopped. The street was beginning to dry. I stood beneath the eave for a moment. I had a Guild availability note. A wrapped hand. No new assignment. No revelation. No reason to be anywhere. I could go to Arlo. I could go to Dorrin Stone.
 
 I could find out whether Varo Chemical sold processed kestrin in quantities that made sense. I could ask Antonius what he wanted done with the debt. I could find Jorren. I could find Alden.
 
@@ -43238,11 +43241,11 @@ I could find Sevren, although he was probably somewhere north carrying somebody 
 
 She saw me. Her expression changed. Not relief. Calculation. I slowed. The driver followed her gaze.
 
-“You know this fellow?”
+“You know this fellow?” the driver asked.
 
 She said, “He knows roads.” I almost corrected her. Then didn't. The driver looked at me.
 
-“Can you tell if it's safe?”
+“Can you tell if it's safe?” he asked.
 
 I looked at the cart. One wheel had been removed. The axle end was exposed. A crack ran through the outer collar.
 
@@ -43312,7 +43315,7 @@ I looked down the street after the cart. I had not realized anyone had noticed.
 
 “Maybe.”
 
-She smiled and walked away. I stood there a moment longer. Then I went to the market. Not for sinkstone. Not for Pell. Not for money. I bought an orange. It was expensive. I bought it anyway. I ate it walking home. It was good. That was enough.
+She smiled and walked away. I stood there a moment longer. Then I went to the market. Not for sinkstone. Not for Arlo. Not for money. I bought an orange. It was expensive. I bought it anyway. I ate it walking home. It was good. That was enough.
 
 I carried the peel home in my pocket because there was nowhere to put it. That was not a problem worth solving. I passed the corner where the north road split toward the courier yards. A pair of boys were dragging a broken handcart between them. One argued that they should fix the wheel. The other argued that they should sell it.
 
@@ -43368,7 +43371,7 @@ She checked the board again.
 
 “No lane work today.”
 
-“Marek?”
+“Tavin?”
 
 “East office.”
 
@@ -43412,15 +43415,18 @@ The building I remembered had blue tile around the entrance and a cracked stone 
 
 A sign said:
 
-WASHSOAKSTEAMTOWEL EXTRA
+WASH
+SOAK
+STEAM
+TOWEL EXTRA
 
 This seemed promising. I went in. A broad woman behind the counter looked at my sword.
 
-“Rack.”
+“Rack,” she said.
 
 I put it in the weapon rack. She looked at my hand.
 
-“Keep the wrap dry.”
+“Keep the wrap dry,” she said.
 
 “I know.”
 
@@ -43450,7 +43456,9 @@ I went left. The changing room had benches along the walls and hooks above them.
 
 Lean. A little more filled out than the first morning, maybe. Or I was standing differently. Scars that had not happened yet were absent. The leg was there. Both legs. I looked away. Not because that thought was dangerous. Because I had come here to bathe.
 
-The wash room had stone floors, low stools, buckets, and taps fed from heated tanks. Steam hung near the ceiling. I sat. The water was hot enough to make me swear. The sack-carrier laughed.
+The wash room had stone floors, low stools, buckets, and taps fed from heated tanks. Steam hung near the ceiling.
+
+I sat. The water was hot enough to make me swear. The sack-carrier laughed.
 
 “First time?”
 
@@ -43674,11 +43682,11 @@ Jorren raised a hand.
 
 They laughed. No explanation. The boy looked at me.
 
-“This Greg?”
+“This Greg?” he asked.
 
 I felt something tighten. Not fear. Expectation. Jorren said, “Unfortunately.” The boy grinned.
 
-“Barrier Greg?”
+“Barrier Greg?” the boy asked.
 
 There it was. I considered denying it.
 
@@ -43744,15 +43752,15 @@ The counter woman had been right. I lifted the hand. Water dripped from the wrap
 
 I got out. The counter woman was waiting when I reached the changing room. I did not know how. She looked at the wet wrap. I looked at her.
 
-“You forgot.”
+“You forgot,” she said.
 
-“I was attacked.”
+“I was attacked,” I said.
 
-“By water?”
+“By water?” she asked.
 
-“Jorren.”
+“Jorren,” I said.
 
-“Worse.”
+“Worse,” she said.
 
 She handed me a dry strip of cloth.
 
@@ -44032,9 +44040,9 @@ He stared at me.
 
 “Whatever you want.”
 
-That was an unreasonable amount of discretion. I looked around. Market to the east. Guild north. Pell west. Varo south. Lodging behind me. River. Bathhouse. Barber. Food. No task. No one waiting. Whatever I wanted. I could go to Varo. The thought was immediate. Of course it was. I could turn the afternoon productive. Ask about salt treatment. Ask about source lots.
+That was an unreasonable amount of discretion. I looked around. Market to the east. Guild north. Arlo west. Varo south. Lodging behind me. River. Bathhouse. Barber. Food. No task. No one waiting. Whatever I wanted. I could go to Varo. The thought was immediate. Of course it was. I could turn the afternoon productive. Ask about salt treatment. Ask about source lots.
 
-Ask whether they piece-tested. Ask whether Silas Marris bought from them. No. That last one especially no. I could go to Pell and tell him about the Guild availability note. Why? No reason. I could find Antonius. Definitely no. I could train. Hand wrapped. Hessa said no pressure work. Could run. Could walk. Could sleep. Could buy another orange. That was excessive.
+Ask whether they piece-tested. Ask whether Silas Marris bought from them. No. That last one especially no. I could go to Arlo and tell him about the Guild availability note. Why? No reason. I could find Antonius. Definitely no. I could train. Hand wrapped. Hessa said no pressure work. Could run. Could walk. Could sleep. Could buy another orange. That was excessive.
 
 I went to the river market. Not because I needed anything. I looked. That was harder than work. There were knives. Cheap jewelry. Used books. Boots. Candles. Dried fruit. A man selling carved animals. I picked up a wooden horse. It was badly proportioned. The legs were too thick. The head too small. I liked it.
 
@@ -44136,9 +44144,9 @@ Not old eyes. Mine. For tonight, that was enough.
 
 CHAPTER FIFTY-FOURTHE INTERPRETER
 
-I woke with a wooden horse watching me. This was unsettling. Its head was too small. Its legs were too thick. The carver had given it one eye slightly higher than the other, which made it look suspicious of the washbasin. I liked it more in daylight. Bad sign. My head hurt. Not badly. Cheap drink hurt differently at nineteen. Old Greg could drink.
+I woke with a wooden horse watching me. This was unsettling. Its head was too small. Its legs were too thick. The carver had given it one eye slightly higher than the other, which made it look suspicious of the washbasin. I liked it more in daylight.
 
-Old Greg had also spent years building the sort of tolerance that was probably just slow poisoning with better furniture. Current Greg had three cups and a headache. Useful. I drank water. Then more water. My hand was better.
+Bad sign. My head hurt. Not badly. Cheap drink hurt differently at nineteen. Old Greg could drink. Old Greg had also spent years building the sort of tolerance that was probably just slow poisoning with better furniture. Current Greg had three cups and a headache. Useful. I drank water. Then more water. My hand was better.
 
 The larger blister had flattened under Hessa's wrap. The smaller one had become less interesting. My beard still surprised me when I looked in the mirror. Better. Still my face. Probably. Someone knocked. I stared at the door. Nobody should know I was awake. Another knock.
 
@@ -44146,11 +44154,11 @@ The larger blister had flattened under Hessa's wrap. The smaller one had become 
 
 Woman. Not Hessa. Not Vessa. Not Octavia. I opened the door. The lodging keeper stood there holding a folded note.
 
-“You have mail.”
+“You have mail,” she said.
 
-“That's ominous.”
+“That's ominous,” I said.
 
-“You owe me nothing for it.”
+“You owe me nothing for it,” she said.
 
 “Less ominous.”
 
@@ -44236,15 +44244,15 @@ He looked.
 
 “Ah.”
 
-“Also your foot.”
+“Also your foot,” I said.
 
-“My foot's fine.”
+“My foot's fine,” Berren said.
 
-“Then why are you lacing it like you're negotiating?”
+“Then why are you lacing it like you're negotiating?” I asked.
 
 He stopped. Looked at me.
 
-“Fuck you.”
+“Fuck you,” Berren said.
 
 Good. He sat again. I sat beside him.
 
@@ -44374,13 +44382,13 @@ She removed them. The glow recovered. Then she placed three different pellets fr
 
 She moved to batch two. Same procedure. Stronger dimming. Three sets. Again narrow within the batch. Batch three. Weakest immediate suppression. But Edrin did not stop. She removed the pellets. The bead stayed dim. I leaned forward.
 
-“Retention.”
+“Retention,” I said.
 
-“Yes.”
+“Yes,” Edrin said.
 
-“How long?”
+“How long?” I asked.
 
-“Depends batch.”
+“Depends batch,” she said.
 
 She handed me a sheet. Numbers. Good numbers. Not perfect. Batch one suppressed moderately, recovered quickly. Batch two suppressed strongest, retained some effect for several minutes. Batch three suppressed least during contact but left the longest residual effect after removal. I read it twice.
 
@@ -44764,7 +44772,7 @@ I looked down. I had. Halfway. I sat fully. Edrin folded her hands.
 
 “How?”
 
-“Pell complained.”
+“Arlo complained.”
 
 “What?”
 
@@ -45222,7 +45230,7 @@ Good. He started away. Then turned.
 
 “To see if you're busy.”
 
-I thought about Edrin going to Varo. Not with me. Pell might have regulator work. Guild might call. Hessa might want the hand checked. Jorren existed. Alden existed. Everything existed.
+I thought about Edrin going to Varo. Not with me. Arlo might have regulator work. Guild might call. Hessa might want the hand checked. Jorren existed. Alden existed. Everything existed.
 
 “I don't know.”
 
@@ -45294,15 +45302,15 @@ Pain. Small. I changed hands. Alden saw.
 
 Dema looked over.
 
-“Greg.”
+“Greg,” she said.
 
-“Dema.”
+“Dema,” I said.
 
-“You cleared?”
+“You cleared?” she asked.
 
-“For sword work.”
+“For sword work,” I said.
 
-“Casting?”
+“Casting?” Dema asked.
 
 “Small utility if needed. No pressure work yesterday.”
 
@@ -45500,15 +45508,15 @@ I could see the next three problems. If the hand cue became automatic, it might 
 
 If he used closure as permission rather than observation, he'd simply relocate the premature commitment. All true. Probably. All useful. Maybe. Not mine. I bit the inside of my cheek. Alden looked at me.
 
-“You're doing it.”
+“You're doing it,” he said.
 
-“What?”
+“What?” I asked.
 
 “Not saying something.”
 
 “I'm growing.”
 
-“Disgusting.”
+“Disgusting,” Alden said.
 
 Pessa shouted from the yard, “He's constipated.” Berren nearly got hit laughing. I hated all of them. Alden grinned. Then said, quieter, “What?” I looked at him.
 
@@ -45632,15 +45640,15 @@ I started. Counting lamp oil was not intellectually difficult. That made it diff
 
 Good. Forty. One cracked seal. Record. Fifty. My mind went to Varo. I lost count. Fuck. I went back to the last chalk mark. Forty. Again. Mevi noticed.
 
-“Thinking?”
+“Thinking?” she asked.
 
-“Yes.”
+“Yes,” I said.
 
-“Don't.”
+“Don't,” Mevi said.
 
 “Excellent advice.”
 
-“Costs extra.”
+“Costs extra,” she said.
 
 I counted. This time I stayed with the tins. Rows three and four clean except three cracked seals. Row five had a problem. Not magical. The rear stack leaned. Slightly. I stopped. Mevi looked over.
 
@@ -46072,17 +46080,17 @@ Nothing else. Just the word.
 
 Instead I wrote:
 
-ALDEN:second action waits on actual informationhand cue may helpdo not turn cue into permission
+ALDEN:
+second action waits on actual information
+hand cue may help
+do not turn cue into permission Then crossed out the last two lines. His problem. Not mine. I turned the page. WEST STOREHOUSE:
+row five floor board cupped
+Rusk handling Another page.
 
-Then crossed out the last two lines. His problem. Not mine. I turned the page.
-
-WEST STOREHOUSE:row five floor board cuppedRusk handling
-
-Another page.
-
-GUILD:lane support availability existspeople may askmay also ask someone else
-
-I stopped. Sinkstone. I could write the new profiles again. Already had them. No need. I closed the notebook. The horse watched.
+GUILD:
+lane support availability exists
+people may ask
+may also ask someone else I stopped. Sinkstone. I could write the new profiles again. Already had them. No need. I closed the notebook. The horse watched.
 
 “Shut up.”
 
@@ -46104,27 +46112,30 @@ Normal. I reached the Guild early. Of course. Alden was not there. Also normal. 
 
 Just:
 
-BRONZE OR COPPERCLEARANCE WATCHTWO HOURSNORTH FREIGHT ARCH
+BRONZE OR COPPER
+CLEARANCE WATCH
+TWO HOURS
+NORTH FREIGHT ARCH
 
-Someone else could do it. Good. I walked away from the board. Pell found me before I reached the yard. He came through the side door carrying the regulator in a wrapped cloth bundle. I stopped. He stopped.
+Someone else could do it. Good. I walked away from the board. Arlo found me before I reached the yard. He came through the side door carrying the regulator in a wrapped cloth bundle. I stopped. He stopped.
 
 “No,” I said.
 
-“I didn't ask anything.”
+“I didn't ask anything,” Arlo said.
 
 “You're carrying a problem.”
 
-“I'm carrying a regulator.”
+“I'm carrying a regulator,” he said.
 
 “Same shape.”
 
-Pell looked at the yard. Then at me.
+Arlo looked at the yard. Then at me.
 
 “You busy?”
 
 “Yes.”
 
-That came out fast. Good. Pell blinked.
+That came out fast. Good. Arlo blinked.
 
 “With?”
 
@@ -46134,7 +46145,7 @@ He waited.
 
 “Sparring.”
 
-Pell nodded.
+Arlo nodded.
 
 “All right.”
 
@@ -46142,7 +46153,7 @@ That should have been the end. He turned. I hated this.
 
 “What did you need?”
 
-Pell looked back.
+Arlo looked back.
 
 “Nothing urgent.”
 
@@ -46170,13 +46181,13 @@ Second body. My attention arrived before permission.
 
 “Yes.”
 
-I was already building the comparison. Bench fixture. Hot line. Clamp pressure. Leather interface. Click before flutter. Sound possibly preceding output change. Second body. Field mount. Actual customer. Pell watched my face. I had become predictable to everyone.
+I was already building the comparison. Bench fixture. Hot line. Clamp pressure. Leather interface. Click before flutter. Sound possibly preceding output change. Second body. Field mount. Actual customer. Arlo watched my face. I had become predictable to everyone.
 
 “When?”
 
 “Second bell through midday.”
 
-I looked toward the yard. Of course. Pell said, “Vessa can go.”
+I looked toward the yard. Of course. Arlo said, “Vessa can go.”
 
 “Why did you ask me?”
 
@@ -46208,7 +46219,7 @@ That was all. Not expertise. Not indispensability. A narrow fact.
 
 “Me.”
 
-Good. Very good. Too good. I wanted to go. I also wanted to spar. Pell shifted the bundle under his arm.
+Good. Very good. Too good. I wanted to go. I also wanted to spar. Arlo shifted the bundle under his arm.
 
 “Greg.”
 
@@ -46224,7 +46235,7 @@ He turned again. This was intolerable.
 
 “Can the customer do later?”
 
-Pell stopped.
+Arlo stopped.
 
 “After midday.”
 
@@ -46248,7 +46259,7 @@ Right. I stared at him. He stared back.
 
 “Yes.”
 
-“And meet you at Pell's after midday.”
+“And meet you at Arlo's after midday.”
 
 “Yes.”
 
@@ -46264,7 +46275,7 @@ Fair.
 
 “After midday.”
 
-Pell nodded.
+Arlo nodded.
 
 “Don't be late.”
 
@@ -46286,11 +46297,11 @@ We went to the yard. Dema was not there. Pessa was. She had a spear and no sympa
 
 “Who put you in charge?” Berren asked.
 
-“No one.”
+“No one,” Pessa said.
 
-“Then why?”
+“Then why?” Berren asked.
 
-“Because you listened.”
+“Because you listened,” she said.
 
 Berren looked offended. We listened. The first round was Alden and me. No magic. Padded swords. Light coats. My hand held. Mostly. Alden's second action was better. Not solved. Better. He still started early once. Caught himself. The left hand stayed open. He changed line instead of forcing the second strike. I noticed. Did not comment. Then he hit me in the shoulder.
 
@@ -46348,7 +46359,7 @@ That word again. This time I liked it. He drank water.
 
 “What are you doing after?”
 
-“Pell.”
+“Arlo.”
 
 “Work?”
 
@@ -46408,7 +46419,7 @@ Getting hit with padded weapons by people who would insult me afterward. I had p
 
 By the time we stopped, my shirt was damp and my legs felt pleasantly heavy. My hand was sore. Not injured. Sore. Alden pointed at it.
 
-“Pell?”
+“Arlo?”
 
 “I can hold a slate.”
 
@@ -46416,7 +46427,7 @@ By the time we stopped, my shirt was damp and my legs felt pleasantly heavy. My 
 
 “Thank you.”
 
-He tore bread in half and gave me some. I ate without asking what it cost. Progress. We left the yard together. At the corner Alden went north with Berren. I went east. No one followed anyone. Good. I reached Pell's workshop twelve minutes after midday. Pell was closing the front shutters.
+He tore bread in half and gave me some. I ate without asking what it cost. Progress. We left the yard together. At the corner Alden went north with Berren. I went east. No one followed anyone. Good. I reached Arlo's workshop twelve minutes after midday. Arlo was closing the front shutters.
 
 “You're late.”
 
@@ -46440,7 +46451,7 @@ Vessa was at the back bench tying the second regulator body into a cloth wrap. S
 
 “It was exactly as intended.”
 
-Pell handed me the first regulator.
+Arlo handed me the first regulator.
 
 “Carry.”
 
@@ -46448,7 +46459,7 @@ I took it.
 
 “Am I being paid?”
 
-Both of them looked at me. Alden won. Pell said, “Four copper.”
+Both of them looked at me. Alden won. Arlo said, “Four copper.”
 
 “Good.”
 
@@ -46460,7 +46471,7 @@ We walked to the east lamp works. The customer was not one person. Of course not
 
 A woman in a brown apron raised one hand.
 
-“Pell.”
+“Arlo.”
 
 “Maret.”
 
@@ -46468,7 +46479,7 @@ She looked at me.
 
 “This him?”
 
-I stopped. Pell did not.
+I stopped. Arlo did not.
 
 “Greg.”
 
@@ -46480,7 +46491,7 @@ That was apparently enough. Maret looked me over.
 
 “Why?”
 
-Good question. Pell set the wrapped regulator on a bench.
+Good question. Arlo set the wrapped regulator on a bench.
 
 “He hears things.”
 
@@ -46490,27 +46501,27 @@ Maret looked at my ears. I disliked this immediately.
 
 “Good,” she said. “Hear it again.”
 
-Fair. The actual line was smaller than I expected. The regulator controlled flow through a heated washing feed used during frame finishing. Not fuel. Not dangerous enough to be exciting. Good. The second body was already mounted under the worktable with two leather-faced brackets. Customer hardware. Not Pell's fixture.
+Fair. The actual line was smaller than I expected. The regulator controlled flow through a heated washing feed used during frame finishing. Not fuel. Not dangerous enough to be exciting. Good. The second body was already mounted under the worktable with two leather-faced brackets. Customer hardware. Not Arlo's fixture.
 
 The copper feed entered from the left, bent downward, then into the body. The outlet climbed toward a narrow spray bar over a stone trough. Maret pointed.
 
-“We're getting flutter at low flow after the line warms.”
+“We're getting flutter at low flow after the line warms,” she said.
 
-Pell crouched.
+Arlo crouched.
 
-“Before?”
+“Before?” he asked.
 
-“No.”
+“No,” Maret said.
 
-“First body?”
+“First body?” Arlo asked.
 
-“Mostly clean.”
+“Mostly clean,” she said.
 
 “Mostly?”
 
 “Two shifts heard rattle. No output loss.”
 
-Pell looked at me. I understood. Sound. Maybe before output change. Maybe mount. Maybe line. Maybe nothing. I wanted to touch everything. I touched nothing. Pell opened the cloth bundle and set the first regulator on the bench.
+Arlo looked at me. I understood. Sound. Maybe before output change. Maybe mount. Maybe line. Maybe nothing. I wanted to touch everything. I touched nothing. Arlo opened the cloth bundle and set the first regulator on the bench.
 
 “Same mount spacing?”
 
@@ -46526,23 +46537,23 @@ Maret pointed to a wooden gauge.
 
 “New bend.”
 
-There. Variable. Pell saw it too. Neither of us spoke. Maret did.
+There. Variable. Arlo saw it too. Neither of us spoke. Maret did.
 
 “Don't tell me my tube is the problem before you run it.”
 
-“I wasn't,” Pell said.
+“I wasn't,” Arlo said.
 
 I had been about to. Not out loud. Probably. A worker started the wash line. Water moved. The copper tube clicked as it warmed. Not the regulator. I knew immediately. Different pitch. Higher. Sharper. I moved closer. Maret said, “Where?”
 
-“Tube.”
+“Tube,” I said.
 
-“Which?”
+“Which?” she asked.
 
 I pointed.
 
 “Bend before the body.”
 
-Pell put two fingers near it without touching. Waited. Click. Again.
+Arlo put two fingers near it without touching. Waited. Click. Again.
 
 “Expansion,” he said.
 
@@ -46554,7 +46565,7 @@ Good. The line warmed. The regulator stayed quiet. Flow low. Steady. Then a soft
 
 “Body.”
 
-Pell looked at me.
+Arlo looked at me.
 
 “Sure?”
 
@@ -46566,17 +46577,17 @@ Good. He smiled slightly. Maret did not.
 
 “We need repeat,” I said.
 
-Pell nodded. He did not ask permission. He already had it. They ran the line warmer. Click. Same region. No visible flutter. Maret leaned over the spray bar.
+Arlo nodded. He did not ask permission. He already had it. They ran the line warmer. Click. Same region. No visible flutter. Maret leaned over the spray bar.
 
 “Output's clean.”
 
-Pell said, “Again.” Third run. Click. Then faint rattle. The spray changed. Barely. Not enough to fail. Enough. Maret saw it.
+Arlo said, “Again.” Third run. Click. Then faint rattle. The spray changed. Barely. Not enough to fail. Enough. Maret saw it.
 
 “There.”
 
-Pell crouched under the table. I moved to the side. Not because he told me. Because I could see the outlet and he could see the mount. Different views. Useful. Maret said, “Stop?” Pell said, “No. Hold.” Line continued. The rattle faded. Flow steadied. Interesting. I wanted another variable. Clamp pressure. Feed bend. Heat. Leather. Body. Seat. No. One at a time.
+Arlo crouched under the table. I moved to the side. Not because he told me. Because I could see the outlet and he could see the mount. Different views. Useful. Maret said, “Stop?” Arlo said, “No. Hold.” Line continued. The rattle faded. Flow steadied. Interesting. I wanted another variable. Clamp pressure. Feed bend. Heat. Leather. Body. Seat. No. One at a time.
 
-Pell reached up and touched the left bracket.
+Arlo reached up and touched the left bracket.
 
 “Warm.”
 
@@ -46588,11 +46599,18 @@ She crouched. Touched both.
 
 “Little.”
 
-I looked at the copper feed. Left side carried more line heat into the mount. Maybe. Maybe. Pell said, “Shut down.” Maret called it. The worker closed the feed. No one argued. No drama. The regulator cooled. Click. Different pitch. Greg brain activated. Good.
+I looked at the copper feed. Left side carried more line heat into the mount. Maybe. Maybe. Arlo said, “Shut down.” Maret called it. The worker closed the feed. No one argued. No drama. The regulator cooled. Click. Different pitch. Greg brain activated. Good.
 
 I wrote:
 
-FIELD MOUNTSECOND BODYLOW FLOWCLICK AFTER WARMINGFAINT RATTLESMALL OUTPUT CHANGERECOVERS WHILE HOTLEFT BRACKET WARMER THAN RIGHT
+FIELD MOUNT
+SECOND BODY
+LOW FLOW
+CLICK AFTER WARMING
+FAINT RATTLE
+SMALL OUTPUT CHANGE
+RECOVERS WHILE HOT
+LEFT BRACKET WARMER THAN RIGHT
 
 Then stopped. Cause unknown.
 
@@ -46600,7 +46618,7 @@ I added:
 
 CAUSE UNKNOWN.
 
-Pell read over my shoulder.
+Arlo read over my shoulder.
 
 “Good.”
 
@@ -46608,7 +46626,7 @@ Pell read over my shoulder.
 
 “No.”
 
-Maret said, “Can we fix it?” Pell looked at the mount.
+Maret said, “Can we fix it?” Arlo looked at the mount.
 
 “Probably.”
 
@@ -46618,13 +46636,13 @@ There it was. Probably. Correct.
 
 “First I want the first body in the same mount.”
 
-Maret nodded. They swapped. Not me. Pell and Maret's worker. I held the old body. Warm metal through cloth. Physical. Ordinary. I liked this too. That was becoming a problem. First body mounted. Same leather. Same line. Same bend. They ran it. Warm. Tube click. Then nothing. Longer. Still nothing. Pell raised flow. No rattle. Lowered. Small click. No flutter. Again. Same.
+Maret nodded. They swapped. Not me. Arlo and Maret's worker. I held the old body. Warm metal through cloth. Physical. Ordinary. I liked this too. That was becoming a problem. First body mounted. Same leather. Same line. Same bend. They ran it. Warm. Tube click. Then nothing. Longer. Still nothing. Arlo raised flow. No rattle. Lowered. Small click. No flutter. Again. Same.
 
 Maret looked at the second body in my hands.
 
 “Body.”
 
-“Maybe,” Pell said.
+“Maybe,” Arlo said.
 
 “Seat?”
 
@@ -46636,7 +46654,7 @@ Maret looked at the second body in my hands.
 
 “Then open it.”
 
-Pell took the second body from me.
+Arlo took the second body from me.
 
 “Workshop.”
 
@@ -46660,11 +46678,11 @@ She pointed at the second body.
 
 “Maybe.”
 
-“Pell.”
+“Arlo.”
 
 “Tomorrow.”
 
-Good. We packed. No breakthrough. But enough. Outside the lamp works, Pell handed me four copper. I took it. Then he handed me one more. I stared.
+Good. We packed. No breakthrough. But enough. Outside the lamp works, Arlo handed me four copper. I took it. Then he handed me one more. I stared.
 
 “What?”
 
@@ -46686,7 +46704,7 @@ Good. We packed. No breakthrough. But enough. Outside the lamp works, Pell hande
 
 “Yes.”
 
-There. Something shifted. Not dramatic. A customer I had never met had agreed to pay for Greg-shaped observation because Pell said I might be useful.
+There. Something shifted. Not dramatic. A customer I had never met had agreed to pay for Greg-shaped observation because Arlo said I might be useful.
 
 “Was I required?”
 
@@ -46702,7 +46720,7 @@ There. Something shifted. Not dramatic. A customer I had never met had agreed to
 
 “Then why?”
 
-Pell stopped walking.
+Arlo stopped walking.
 
 “Because you heard the bench problem.”
 
@@ -46712,7 +46730,7 @@ Pell stopped walking.
 
 “Yes.”
 
-He waited. That was all. I put the coin away. Five copper. A small job. A specific role. Planned before I arrived. Useful enough to change how Pell divided his attention. Not necessary. I liked that more than I should have. Pell started walking. I followed.
+He waited. That was all. I put the coin away. Five copper. A small job. A specific role. Planned before I arrived. Useful enough to change how Arlo divided his attention. Not necessary. I liked that more than I should have. Arlo started walking. I followed.
 
 “What are you doing with the second body?”
 
@@ -46724,13 +46742,13 @@ He waited. That was all. I put the coin away. Five copper. A small job. A specif
 
 “Can I come?”
 
-He looked at me. There. Immediate. The day had already given me sparring. Paid work. A clean field result. Five copper. And I still wanted the next thing. Pell said, “You can.” I almost said yes.
+He looked at me. There. Immediate. The day had already given me sparring. Paid work. A clean field result. Five copper. And I still wanted the next thing. Arlo said, “You can.” I almost said yes.
 
-Then my stomach made a sound loud enough that Pell heard. He looked at me. I hated being nineteen.
+Then my stomach made a sound loud enough that Arlo heard. He looked at me. I hated being nineteen.
 
 “No.”
 
-Pell's eyebrows went up.
+Arlo's eyebrows went up.
 
 “No?”
 
@@ -46760,15 +46778,18 @@ There. Future. Ordinary.
 
 “It worked today.”
 
-Barely. We split. I bought food. A lot. Rice, stewed beans, fried fish, something pickled. I sat outside. My legs were tired from sparring. My shoulder hurt where Alden had hit me. My palm was sore. My stomach was aggressively pleased. Five copper from Pell. Debt hours yesterday. Another spar probably next week. Pell tomorrow afternoon. Maybe Jorren tonight. Maybe not. I knew what Edrin had done today.
+Barely. We split. I bought food. A lot. Rice, stewed beans, fried fish, something pickled. I sat outside. My legs were tired from sparring. My shoulder hurt where Alden had hit me. My palm was sore. My stomach was aggressively pleased. Five copper from Arlo. Debt hours yesterday. Another spar probably next week. Arlo tomorrow afternoon. Maybe Jorren tonight. Maybe not. I knew what Edrin had done today.
 
 Not what she had learned. That remained irritating. I did not go ask. The city kept moving. At the next table two laborers argued about axle grease. A courier ate standing up. A woman with blue thread in her hair counted coins into three piles. No one needed me. Some people wanted me. Different. I finished the fish. Then bought a second piece.
 
 Because I wanted it. I walked home slower than usual. Not tired enough to need to. Just slower. At the lodging, there was another note. Not Edrin. Guild. I opened it in the hall.
 
-NORTH FREIGHT ARCHCLEARANCE WATCHTOMORROW, FIRST BELLIF AVAILABLE
+NORTH FREIGHT ARCH
+CLEARANCE WATCH
+TOMORROW, FIRST BELL
+IF AVAILABLE
 
-There. Another request. Paid. Probably ordinary. I had Pell tomorrow afternoon. No conflict. I could take both. My brain liked that immediately. Work morning. Pell afternoon. Efficient. Useful. Wanted. I stood in the hall with the note. Then remembered Alden. Not tomorrow. No. Jorren? Unknown. Sevren? Unknown. Nothing else. I could say yes. I wanted to say yes. That mattered. Not the money.
+There. Another request. Paid. Probably ordinary. I had Arlo tomorrow afternoon. No conflict. I could take both. My brain liked that immediately. Work morning. Arlo afternoon. Efficient. Useful. Wanted. I stood in the hall with the note. Then remembered Alden. Not tomorrow. No. Jorren? Unknown. Sevren? Unknown. Nothing else. I could say yes. I wanted to say yes. That mattered. Not the money.
 
 Not entirely. Someone had written IF AVAILABLE. They had thought of me. I signed the acceptance line. Then stopped. No. The line was not an acceptance line. It was a receipt line. I laughed. The lodging keeper looked out from behind her desk.
 
@@ -46830,13 +46851,16 @@ I hated everyone. She filed it.
 
 “No.”
 
-I left. At home, the wooden horse had not moved. I put the five Pell copper beside it. Then removed them. The horse was not a bank. I put the coins with the rest. I sat on the bed. Tomorrow first bell, north freight arch. Tomorrow afternoon, Pell. Two things. Both expected. Neither impossible without me. Both real. I took out the notebook.
+I left. At home, the wooden horse had not moved. I put the five Arlo copper beside it. Then removed them. The horse was not a bank. I put the coins with the rest. I sat on the bed. Tomorrow first bell, north freight arch. Tomorrow afternoon, Arlo. Two things. Both expected. Neither impossible without me. Both real. I took out the notebook.
 
-GUILD:north freight archfirst bellclearance watch
-
-PELL:second bodyfield mount produced click + rattlefirst body did not in same mountopen tomorrow afternoon
-
-I stared at the page. There was room below.
+GUILD:
+north freight arch
+first bell
+clearance watch PELL:
+second body
+field mount produced click + rattle
+first body did not in same mount
+open tomorrow afternoon I stared at the page. There was room below.
 
 I almost wrote:
 
@@ -46854,9 +46878,9 @@ CHAPTER FIFTY-SEVENTHE WATCHER
 
 The north freight arch was built for carts that had become unreasonable. I liked it immediately. Two stone towers framed a passage wide enough for ordinary wagons to pass side by side. The problem was the overhead brace. Not the arch itself.
 
-A timber maintenance bridge crossed between the towers above the road, carrying signal ropes, inspection hooks, and a narrow walkway for people with better judgment than me. Below it, freight entered Carrow. Most freight fit. Some freight had opinions. This morning's opinion was timber. Long beams. Not especially heavy by freight standards.
+A timber maintenance bridge crossed between the towers above the road, carrying signal ropes, inspection hooks, and a narrow walkway for people with better judgment than me. Below it, freight entered Carrow. Most freight fit. Some freight had opinions. This morning's opinion was timber.
 
-Long enough that turning them through the arch required everyone involved to agree about where the back end existed. That was apparently difficult. I arrived before first bell. The north arch clerk was already there. I knew her face from somewhere. Not name. She knew mine.
+Long beams. Not especially heavy by freight standards. Long enough that turning them through the arch required everyone involved to agree about where the back end existed. That was apparently difficult. I arrived before first bell. The north arch clerk was already there. I knew her face from somewhere. Not name. She knew mine.
 
 “Greg.”
 
@@ -46874,15 +46898,15 @@ There it was. Not excitement. Relief. Small. Professional. I liked it. Dangerous
 
 A man beside the lead wagon raised two fingers. Broad shoulders. Gray cap. Probably fifty.
 
-“Who owns the gate?”
+“Who owns the gate?” I asked.
 
-“I do.”
+“I do,” the clerk said.
 
-“Who owns the turn?”
+“Who owns the turn?” I asked.
 
-“Bram.”
+“Bram,” she said.
 
-“Who owns clearance?”
+“Who owns clearance?” I asked.
 
 She pointed at me. I stopped.
 
@@ -46972,13 +46996,13 @@ He gave me the load sheet. Lengths. Heights. Axle width. Good. Not perfect. Usef
 
 Competent. I liked him. Kell said, “Encouraging.” We walked the path. Not theory. Feet. From holding line to turn mark. I stood where the rear swing would pass. Kell stood at the front corner. We could see each other. Good. I raised red. He raised white. Wrong.
 
-“Match me unless you're stopping.”
+“Match me unless you're stopping,” I said.
 
-“So if you're red, red.”
+“So if you're red, red,” Kell said.
 
 “Yes.”
 
-“If you're white, white unless I see bad.”
+“If you're white, white unless I see bad,” he said.
 
 “Yes.”
 
@@ -47050,13 +47074,13 @@ With a marked rope the clerk kept in a box. Thirty-three and a little. I looked 
 
 He said it without drama.
 
-“Can it fit?”
+“Can it fit?” I asked.
 
-“Yes.”
+“Yes,” Bram said.
 
-“How?”
+“How?” I asked.
 
-“Wider entry. Later turn.”
+“Wider entry. Later turn,” he said.
 
 I looked at the road. Wider entry put the front corner closer to the east bollard. Later turn put the rear farther from the west post initially, then increased swing later. Possible. I could model it. Roughly. Bram already had. Probably better.
 
@@ -47196,7 +47220,7 @@ Too much. Not impossible. Too much.
 
 “I do. I started at seven.”
 
-I looked at the gloves. I wanted them. Not because they were interesting. Because I expected to use them. Roads. Warehouse. Pell. Sparring maybe. Work next week. And the week after. Future.
+I looked at the gloves. I wanted them. Not because they were interesting. Because I expected to use them. Roads. Warehouse. Arlo. Sparring maybe. Work next week. And the week after. Future.
 
 “Six and I tell everyone you're generous.”
 
@@ -47210,7 +47234,7 @@ I paid. They were mine. I put them on. Good. Very good. The seller looked at my 
 
 “Don't smile. Makes me think I charged too little.”
 
-I stopped smiling. Mostly. I had time before Pell. This was another problem. Unscheduled time. I considered the Guild. No. Antonius. Absolutely not. Edrin. No. Varo. No. I could go home. I could find Jorren. I could see if Sevren had invented another ladder. I could train. Hand felt good. Shoulder slightly sore. No. I walked toward the river. Again. This was becoming a habit.
+I stopped smiling. Mostly. I had time before Arlo. This was another problem. Unscheduled time. I considered the Guild. No. Antonius. Absolutely not. Edrin. No. Varo. No. I could go home. I could find Jorren. I could see if Sevren had invented another ladder. I could train. Hand felt good. Shoulder slightly sore. No. I walked toward the river. Again. This was becoming a habit.
 
 At the low wall, someone had left chalk marks from a children's game. Squares. Numbers. I knew the game. Probably. I stepped over them. A girl shouted from behind me.
 
@@ -47246,7 +47270,7 @@ Unanswerable. I played until I won once. Then stopped. Important. The oldest sai
 
 “Yes.”
 
-I put my sword back on. My new gloves were dusty. Excellent. I reached Pell's workshop early. He looked at the gloves.
+I put my sword back on. My new gloves were dusty. Excellent. I reached Arlo's workshop early. He looked at the gloves.
 
 “You bought gloves.”
 
@@ -47262,11 +47286,11 @@ Vessa looked over.
 
 “Everyone needs a new word.”
 
-The second regulator body was already open. Not dramatically. Pieces arranged on cloth. Housing. Spring. Seat. Seal. Two small washers. Pell had cleaned nothing. Good. Evidence. I leaned over. No obvious break. No melted seal. No cracked spring. The seat showed a bright crescent on one side. I stopped.
+The second regulator body was already open. Not dramatically. Pieces arranged on cloth. Housing. Spring. Seat. Seal. Two small washers. Arlo had cleaned nothing. Good. Evidence. I leaned over. No obvious break. No melted seal. No cracked spring. The seat showed a bright crescent on one side. I stopped.
 
 “There.”
 
-Pell nodded.
+Arlo nodded.
 
 “Maybe.”
 
@@ -47274,7 +47298,7 @@ Vessa handed me a magnifying lens. I looked. The bright mark was wear. Uneven. N
 
 “Off-center.”
 
-“Maybe,” Pell said.
+“Maybe,” Arlo said.
 
 “You can see it.”
 
@@ -47308,7 +47332,7 @@ Annoying. Correct. Vessa was holding the housing. She rolled it between her fing
 
 “What?”
 
-She pointed to the threaded outer collar. One section had a faint burr. Tiny. I would have missed it. Pell took the lens.
+She pointed to the threaded outer collar. One section had a faint burr. Tiny. I would have missed it. Arlo took the lens.
 
 “Hm.”
 
@@ -47322,11 +47346,11 @@ He screwed the collar in slowly. Half turn. Smooth. Another. Tiny resistance. Th
 
 “Could pull the seat sideways when tightened,” I said.
 
-Pell did not answer. He assembled without spring. Tightened. Opened. Looked.
+Arlo did not answer. He assembled without spring. Tightened. Opened. Looked.
 
 “Maybe.”
 
-Vessa said, “Customer wrench.” Pell looked at her.
+Vessa said, “Customer wrench.” Arlo looked at her.
 
 “What?”
 
@@ -47340,15 +47364,15 @@ Vessa said, “Customer wrench.” Pell looked at her.
 
 “No. It's experience.”
 
-Good. Pell reassembled. Used a longer wrench. Not absurd. Firm. Opened again. The seat had shifted slightly. Maybe. I leaned closer.
+Good. Arlo reassembled. Used a longer wrench. Not absurd. Firm. Opened again. The seat had shifted slightly. Maybe. I leaned closer.
 
 “Again.”
 
-Pell looked at me. Not correction. Question. I answered myself.
+Arlo looked at me. Not correction. Question. I answered myself.
 
 “Your call.”
 
-He did it again. Same. Small shift. There. Not solved. But something. Pell sat back.
+He did it again. Same. Small shift. There. Not solved. But something. Arlo sat back.
 
 “Thread burr plus torque can bias the seat.”
 
@@ -47360,7 +47384,7 @@ Vessa smiled.
 
 “Fuck off.”
 
-Pell ignored us.
+Arlo ignored us.
 
 “Does that explain hot click?”
 
@@ -47394,7 +47418,7 @@ Good. Mundane defect. Partial mechanism. Not everything. I liked this.
 
 “Tomorrow.”
 
-I opened my mouth. Pell looked at me. I closed it. He smiled.
+I opened my mouth. Arlo looked at me. I closed it. He smiled.
 
 “After midday.”
 
@@ -47402,7 +47426,7 @@ I opened my mouth. Pell looked at me. I closed it. He smiled.
 
 “That wasn't an invitation.”
 
-I stared. Vessa laughed. Pell continued.
+I stared. Vessa laughed. Arlo continued.
 
 “Customer needs the first body back. I'm taking this one to Maret after bench check. If it behaves, she runs it. You don't need to be there.”
 
@@ -47420,7 +47444,7 @@ Right. I was becoming unbearable. Vessa handed me a cup of water.
 
 “Sit.”
 
-I sat. Pell began dressing the burr with a fine file. Small strokes. Physical. Patient. I watched. Not because I was needed. Because I wanted to. That was allowed. After a minute Vessa said, “You get paid this morning?”
+I sat. Arlo began dressing the burr with a fine file. Small strokes. Physical. Patient. I watched. Not because I was needed. Because I wanted to. That was allowed. After a minute Vessa said, “You get paid this morning?”
 
 “Yes.”
 
@@ -47444,11 +47468,11 @@ She looked at the gloves.
 
 “Then good.”
 
-This was an unusually sophisticated economic model. Pell kept filing. I watched the metal. No magic. No experiment. No attempt to accelerate. When he finished, he cleaned the threads and reassembled. Smooth. Better. Not proof. He set the regulator aside.
+This was an unusually sophisticated economic model. Arlo kept filing. I watched the metal. No magic. No experiment. No attempt to accelerate. When he finished, he cleaned the threads and reassembled. Smooth. Better. Not proof. He set the regulator aside.
 
 “Tomorrow.”
 
-I nodded. Then did not ask if I could come. Pell noticed. Of course.
+I nodded. Then did not ask if I could come. Arlo noticed. Of course.
 
 “You can stop making the face.”
 
@@ -47548,29 +47572,35 @@ He put the horse back.
 
 “I know.”
 
-He left. I closed the door. Next week. There it was again. I took out my notebook.
-
-NORTH ARCH:long timberclearance system workedKell front, me rear/heightuncertain = stopreset before forcingfourth load sheet wrong by ~1 ftactual load still cleared after route adjustment
-
-I paused.
+He left. I closed the door. Next week. There it was again. I took out my notebook. NORTH ARCH:
+long timber
+clearance system worked
+Kell front, me rear/height
+uncertain = stop
+reset before forcing
+fourth load sheet wrong by ~1 ft
+actual load still cleared after route adjustment I paused.
 
 Then added:
 
 DO NOT GENERALIZE FROM ONE ARCH.
 
-Good.
-
-PELL:second body seat wear uneventhread burrhigher tightening torque can bias seatdoes not yet explain full hot behaviorPell correcting + retesting
+Good. PELL:
+second body seat wear uneven
+thread burr
+higher tightening torque can bias seat
+does not yet explain full hot behavior
+Arlo correcting + retesting
 
 Then:
 
-NEXT WEEK:Alden, second bell
+NEXT WEEK:
+Alden, second bell
 
 Then:
 
-GLOVES:good
-
-I stared at that. Useful record. I closed the notebook. Tomorrow had no job with my name on it. Not yet. That was fine. The gloves would still be there. Pell would still have a regulator. Alden would still expect me next week.
+GLOVES:
+good I stared at that. Useful record. I closed the notebook. Tomorrow had no job with my name on it. Not yet. That was fine. The gloves would still be there. Arlo would still have a regulator. Alden would still expect me next week.
 
 The north arch would move freight whether I was standing under it or not. I liked all of those things. Especially the last one.
 
@@ -47580,7 +47610,7 @@ I woke because somebody dropped a barrel. Not in my room. Important distinction.
 
 No work. I smiled. Then stopped because there was nobody to annoy with it. The wooden horse did not count. I got up. The new gloves were where I had left them. Good. I did not put them on. No reason. That felt like ownership.
 
-I ate bread with soft cheese and the last of the pickled vegetables from yesterday. Then I looked at my notebook. Nothing scheduled. Pell did not need me. The Guild had not asked. Antonius had not sent anyone. Alden was next week.
+I ate bread with soft cheese and the last of the pickled vegetables from yesterday. Then I looked at my notebook. Nothing scheduled. Arlo did not need me. The Guild had not asked. Antonius had not sent anyone. Alden was next week.
 
 Edrin remained wherever Edrin was, presumably learning things I wanted to know and not telling me because she had boundaries. Rude. I could do anything. This was intolerable. I went to Hessa. Not because I was worried. That mattered. Her door was open.
 
@@ -47608,15 +47638,15 @@ I waited. The boy tried again. A faint shimmer appeared over the bowl. Not Barri
 
 I leaned against the wall. Ten minutes later he left carrying the bowl. He looked exhausted. Hessa looked normal.
 
-“You're late.”
+“You're late,” Hessa said.
 
-“I wasn't scheduled.”
+“I wasn't scheduled,” I said.
 
 “You were told three days.”
 
 “That was not a schedule.”
 
-“It was a number.”
+“It was a number,” Hessa said.
 
 “Different.”
 
@@ -47848,9 +47878,9 @@ She stared.
 
 “Yes.”
 
-“So the rule is symptom-based.”
+“So the rule is symptom-based,” I said.
 
-“The rule is task-based first. Symptoms second.”
+“The rule is task-based first. Symptoms second,” Hessa said.
 
 Right. Need before tolerance. Annoying.
 
@@ -48000,15 +48030,23 @@ Canal escort. Roof watch. Warehouse loading. Two-day road survey south-west. I s
 
 The posting said:
 
-SOUTH-WEST FARM ROADCULVERT AND SHOULDER CHECKTWO DAYSONE FIELD LEADTWO BRONZE OR COPPERWAGON PROVIDEDRETURN NIGHTLYREPORT DAMAGE / MARK REPAIR PRIORITYNO REPAIR WORK
+SOUTH-WEST FARM ROAD
+CULVERT AND SHOULDER CHECK
+TWO DAYS
+ONE FIELD LEAD
+TWO BRONZE OR COPPER
+WAGON PROVIDED
+RETURN NIGHTLY
+REPORT DAMAGE / MARK REPAIR PRIORITY
+NO REPAIR WORK
 
 That sounded interesting. Not dangerous. Road. Water. Physical systems. Inspection. I read the pay. Reasonable. Not enormous. A clerk behind the desk said, “You're not on that.”
 
-“I can read.”
+“I can read,” I said.
 
-“Congratulations.”
+“Congratulations,” the clerk said.
 
-“Who is?”
+“Who is?” I asked.
 
 “Field lead is Pessa.”
 
@@ -48326,7 +48364,12 @@ Tam said, “Get out.” I laughed. Then someone knocked downstairs. Tam went. A
 
 I went down. A Guild runner stood at the door. Not urgent. No breathless disaster. Just a folded slip. I opened it. Pessa's handwriting was worse than mine.
 
-GREGDAY AFTER TOMORROWFIRST BELLSOUTH-WEST GATEBRING FOODDORN SAYS NO PIGS THIS TIME
+GREG
+DAY AFTER TOMORROW
+FIRST BELL
+SOUTH-WEST GATE
+BRING FOOD
+DORN SAYS NO PIGS THIS TIME
 
 I smiled. The runner said, “Need answer?”
 
@@ -48374,29 +48417,45 @@ I waited.
 
 I went home before somebody found another table. The gloves were still beside the wooden horse. I put them on. Then took them off because I was indoors and this was ridiculous. Notebook.
 
-HESSA:coin 5 breaths cleanangled 4 breaths pressure 1, gone quicklysmall utility still okayseveral separated casts may be acceptable if task requires, no fixed numbertask first, symptoms secondmoving cast placement drifted when referenced to bodyexternal fixed reference cleanerNO sustainedNO deliberate load testingpalm unchangedreturn 3 days morning
-
-I stopped. That was a lot.
+HESSA:
+coin 5 breaths clean
+angled 4 breaths pressure 1, gone quickly
+small utility still okay
+several separated casts may be acceptable if task requires, no fixed number
+task first, symptoms second
+moving cast placement drifted when referenced to body
+external fixed reference cleaner
+NO sustained
+NO deliberate load testing
+palm unchanged
+return 3 days morning I stopped. That was a lot.
 
 Then:
 
-ROAD:day after tomorrowPessa leadDornsouth-west farm roadculvert + shoulder check2 daysreturn nightlyinspection / marking onlyNO REPAIR
-
-I underlined the last part. Good.
+ROAD:
+day after tomorrow
+Pessa lead
+Dorn
+south-west farm road
+culvert + shoulder check
+2 days
+return nightly
+inspection / marking only
+NO REPAIR I underlined the last part. Good.
 
 Then:
 
-NEXT WEEK:Alden second bell
+NEXT WEEK:
+Alden second bell
 
 Then:
 
-GREEN DOOR:table now wrong wall, but less wrong
-
-I looked at the page. Three days. Day after tomorrow. Next week. I had started needing a better way to track time. That was absurd. Old Greg had assistants. Calendars. People who reminded him where he was supposed to be. Young Greg had a notebook and a wooden horse. I looked at the horse.
+GREEN DOOR:
+table now wrong wall, but less wrong I looked at the page. Three days. Day after tomorrow. Next week. I had started needing a better way to track time. That was absurd. Old Greg had assistants. Calendars. People who reminded him where he was supposed to be. Young Greg had a notebook and a wooden horse. I looked at the horse.
 
 “Secretary.”
 
-It remained unqualified. I tore a clean page from the back of the notebook. Not notes. Schedule. I wrote the next seven days down the side. Tomorrow. Road day one. Road day two. Hessa morning. Blank. Blank. Alden second bell. Then I added Pell under tomorrow. Not because he needed me.
+It remained unqualified. I tore a clean page from the back of the notebook. Not notes. Schedule. I wrote the next seven days down the side. Tomorrow. Road day one. Road day two. Hessa morning. Blank. Blank. Alden second bell. Then I added Arlo under tomorrow. Not because he needed me.
 
 Because I wanted to stop by after his customer retest if he was back. I put a question mark beside it. Good. Not obligation. Possibility. I pinned the page beside the washbasin with the corner of the mirror frame. Crooked. I fixed it. Then moved the wooden horse underneath. Now it looked official. Terrible. I liked it. Tomorrow was mostly empty. The day after was not.
 
@@ -48422,25 +48481,27 @@ I looked at her. She looked at me. Strong argument. I bought three. At the lodgi
 
 The schedule page beside the mirror said:
 
-TODAYPell?
+TODAY
+Arlo? ROAD DAY ONE
+ROAD DAY TWO
+Hessa
+blank
+blank
+Alden I had written blank. Actually written it. This was administrative madness. The wooden horse stood beneath the page. Secretary. Unqualified. I ate one apple immediately, which damaged the plan but improved the morning. Then I put on the new gloves. Road job tomorrow. Inspection. Pessa lead. Dorn. No repair. Bring food.
 
-ROAD DAY ONEROAD DAY TWOHessablankblankAlden
+I needed nothing else. Probably. I checked my boots. Soles good. Laces good. One eyelet starting to pull. Not tomorrow's problem. Could become tomorrow's problem. I stared at it. Then took the boots to Tam. He was at the bench. Of course.
 
-I had written blank. Actually written it. This was administrative madness. The wooden horse stood beneath the page. Secretary. Unqualified. I ate one apple immediately, which damaged the plan but improved the morning. Then I put on the new gloves. Road job tomorrow. Inspection. Pessa lead. Dorn. No repair. Bring food. I needed nothing else. Probably. I checked my boots. Soles good.
+“Morning,” I said.
 
-Laces good. One eyelet starting to pull. Not tomorrow's problem. Could become tomorrow's problem. I stared at it. Then took the boots to Tam. He was at the bench. Of course.
-
-“Morning.”
-
-“Boot.”
+“Boot,” Tam said.
 
 “Yes.”
 
 He took it. Looked at the eyelet.
 
-“Tomorrow?”
+“Tomorrow?” he asked.
 
-“Road.”
+“Road,” I said.
 
 He grunted. Pulled the lace.
 
@@ -48478,13 +48539,13 @@ That was true. I kept watching anyway. Tam said, “Jorren's not here.”
 
 “Everyone says that.”
 
-Terrible city. He finished in twenty minutes. I paid. The boot felt exactly like a boot. Perfect. Outside, I walked toward Pell's. Question mark. Not appointment. I reminded myself twice. The workshop door was open. Vessa was carrying a box out. She saw me.
+Terrible city. He finished in twenty minutes. I paid. The boot felt exactly like a boot. Perfect. Outside, I walked toward Arlo's. Question mark. Not appointment. I reminded myself twice. The workshop door was open. Vessa was carrying a box out. She saw me.
 
 “No.”
 
 “I haven't said anything.”
 
-“Pell's at Maret's.”
+“Arlo's at Maret's.”
 
 “Retest?”
 
@@ -48542,7 +48603,7 @@ She started walking. I walked beside her.
 
 “It answers the useful one.”
 
-Fair. The box was not actually that heavy. She carried it herself. I did not offer. Progress. At the corner she said, “Pell thinks burr mattered.”
+Fair. The box was not actually that heavy. She carried it herself. I did not offer. Progress. At the corner she said, “Arlo thinks burr mattered.”
 
 “Thinks?”
 
@@ -48678,17 +48739,17 @@ I looked up.
 
 He tapped the folder against the table.
 
-“Next week, if you want, I can give you two fixed storehouse periods instead of arranging them piecemeal.”
+“Next week, if you want, I can give you two fixed storehouse periods instead of arranging them piecemeal,” Antonius said.
 
 There. Schedule.
 
-“How long?”
+“How long?” I asked.
 
-“Three hours each.”
+“Three hours each,” he said.
 
-“Which days?”
+“Which days?” I asked.
 
-“Your choice from three.”
+“Your choice from three,” Antonius said.
 
 He named them. One was Alden day. No. One was the day after. Possible. One was earlier. I thought. Not because Antonius was watching. Because I had a calendar.
 
@@ -48724,7 +48785,9 @@ Good.
 
 He handed me a small slip.
 
-WEST STOREHOUSETHREE HOURSMORNING
+WEST STOREHOUSE
+THREE HOURS
+MORNING
 
 No date number. Day name. Enough.
 
@@ -48748,11 +48811,283 @@ He looked at me. Not challenging. Just measuring.
 
 “There he is.”
 
-He left. I stared at the slip. A fixed debt period. Not glamorous. Very useful. I put it in the road packet. Then took it out because that was how documents disappeared. Notebook. Schedule later.
+He left. I stared at the slip. A fixed debt period. Not glamorous. Very useful. I put it in the road packet. Then took it out because that was how documents disappeared. Notebook. Schedule later. On the way, I found Pessa buying chalk. Not metaphorically.
 
-On the way, I found Pessa buying chalk.Not metaphorically.She stood outside a survey shop with six thick sticks laid across her palm.White.Red.Blue.She saw me.“Greg.”“Pessa.”She looked at my road packet.“You got it.”“Yes.”“Read it?”“Yes.”“How many times?”“Once.”She stared.“Twice.”“Better.”She paid for the chalk.I looked at the colors.“What do they mean?”“Tomorrow?”“Yes.”“Then tomorrow.”Fair.She put the chalk into a leather pouch.Dorn came out of the shop carrying a bundle of thin stakes and a short iron rod.He saw me.“No pigs.”“Apparently this matters to everyone.”“It matters to me.”“What is the rod?”“Probe.”“For shoulder depth?”“Soft ground. Culvert edges. Places I don't want to learn about with my boot.”Good tool.I wanted one.No.Inspection team already had one.Pessa started walking.We followed.Not meeting.Apparently just three people going in the same direction.“What do you want me doing tomorrow?” I asked.“Looking.”“That is broad.”“Yes.”“Specifically?”She stopped beside a drainage gutter.Pointed at it.“What do you see?”I looked.Stone-lined gutter.Dry now.Leaves.One cracked edge.Silt line two inches above the bottom.A darker stain near the wall.“Recent water to here. Debris catches at the corner. Cracked lip.”“What matters?”I looked again.The crack was small.The silt line was ordinary.The debris might matter if more accumulated.“Depends what it's supposed to do.”Pessa nodded.“Good.”Dorn said, “He's learning.”“Everyone stop saying good.”Pessa ignored me.“Tomorrow I want you marking differences.”“From?”“Map notes. Farm complaints. What the road says.”“Repair priority?”“I set final.”“Can I recommend?”“Yes.”“Can I stop a wagon?”“If we're inspecting a section and you need it clear, yes.”“Can I close road?”“No.”“Can I redirect?”“If I tell you.”“Can I mark damage?”“If you can describe why.”Good.Boundaries.“What does Dorn own?”Dorn answered.“Equipment. Wagon. Load if we pick anything up. Depth checks when Pessa wants them.”“No repair.”Pessa looked at me.“No repair.”“I know.”“You wrote it down?”“Yes.”“Good.”Fuck.We started walking again.I asked, “Why me?”Pessa did not answer immediately.That was better than a compliment.Finally:“West orchard.”“What about it?”“You looked at the road when everyone else looked at the pigs.”“There were many pigs.”“Also north arch report.”“You read that?”“Guild put it in your work history.”I did not know I had a work history.That was information.I tried not to enjoy it visibly.Failed.Pessa noticed.“Don't.”“What?”“Whatever that is.”“Nothing.”Dorn said, “He's pleased.”“I am not.”“You are.”Pessa continued.“You stop.”I looked at her.“When you don't know,” she said. “Usually.”Usually.Important qualifier.“That is why?”“That and you write things down.”Dorn held up the stakes.“I can write.”“No,” Pessa said.“I can.”“I've seen it.”I laughed.Dorn looked offended.His writing was probably terrible.Good.Pessa said, “Tomorrow isn't complicated. We inspect. We mark. We don't fix. Farmers will ask us to fix.”“Why?”“Because we're there.”“Do we?”“No.”“Even small?”“No.”“Why?”“Because then we're repairing one thing while the rest of the route waits.”There.System.Not because repair was impossible.Because scope protected the inspection.I understood.Dangerously.“What if something is actively failing?”Pessa looked at me.“Then we stop what needs stopping and report.”“Not repair.”“Not unless the field condition makes leaving it alone immediately worse and I make that call.”There.Exception.Owned.Good.Dorn said, “Last year a farmer tried to get us to rebuild a chicken fence.”“Was it on the road?”“No.”“Then why?”“We were there.”Pessa said, “People see tools.”I looked at Dorn's iron probe.Reasonable.At the next corner Pessa turned south.“First bell.”“I know.”“Food.”“Packed.”“Water.”“Yes.”“Gloves.”I held up my hands.Empty.“They're at home.”“Bring them.”“I planned to.”“Good.”I pointed at her.“No.”She smiled.Barely.Then left.Dorn followed.He looked back.“No pigs.”“Go away.”I went home for lunch.
+She stood outside a survey shop with six thick sticks laid across her palm. White. Red. Blue. She saw me.
 
-Eggs. Bread. Apple two. Plan damaged further. After lunch I did something Old Greg would have considered deeply suspicious. I rested. Not nap. Rest. Boots off. Window open. No notebook. No technical material. I lay on the bed and listened to the street. Cart wheels. Someone singing badly. A baby. Hammering. A dog. Two women arguing about cloth measurements. I fell asleep anyway.
+“Greg.”
+
+“Pessa.”
+
+She looked at my road packet.
+
+“You got it.”
+
+“Yes.”
+
+“Read it?”
+
+“Yes.”
+
+“How many times?”
+
+“Once.”
+
+She stared.
+
+“Twice.”
+
+“Better.”
+
+She paid for the chalk. I looked at the colors.
+
+“What do they mean?”
+
+“Tomorrow?”
+
+“Yes.”
+
+“Then tomorrow.”
+
+Fair. She put the chalk into a leather pouch. Dorn came out of the shop carrying a bundle of thin stakes and a short iron rod. He saw me.
+
+“No pigs.”
+
+“Apparently this matters to everyone.”
+
+“It matters to me.”
+
+“What is the rod?”
+
+“Probe.”
+
+“For shoulder depth?”
+
+“Soft ground. Culvert edges. Places I don't want to learn about with my boot.”
+
+Good tool. I wanted one. No. Inspection team already had one. Pessa started walking. We followed. Not meeting. Apparently just three people going in the same direction.
+
+“What do you want me doing tomorrow?” I asked.
+
+“Looking.”
+
+“That is broad.”
+
+“Yes.”
+
+“Specifically?”
+
+She stopped beside a drainage gutter. Pointed at it.
+
+“What do you see?”
+
+I looked. Stone-lined gutter. Dry now. Leaves. One cracked edge. Silt line two inches above the bottom. A darker stain near the wall.
+
+“Recent water to here. Debris catches at the corner. Cracked lip.”
+
+“What matters?”
+
+I looked again. The crack was small. The silt line was ordinary. The debris might matter if more accumulated.
+
+“Depends what it's supposed to do.”
+
+Pessa nodded.
+
+“Good.”
+
+Dorn said, “He's learning.”
+
+“Everyone stop saying good.”
+
+Pessa ignored me.
+
+“Tomorrow I want you marking differences,” Pessa said.
+
+“From?” I asked.
+
+“Map notes. Farm complaints. What the road says,” she said.
+
+“Repair priority?” I asked.
+
+“I set final,” Pessa said.
+
+“Can I recommend?”
+
+“Yes.”
+
+“Can I stop a wagon?”
+
+“If we're inspecting a section and you need it clear, yes.”
+
+“Can I close road?”
+
+“No.”
+
+“Can I redirect?”
+
+“If I tell you.”
+
+“Can I mark damage?”
+
+“If you can describe why.”
+
+Good. Boundaries.
+
+“What does Dorn own?” I asked.
+
+Dorn answered.
+
+“Equipment. Wagon. Load if we pick anything up. Depth checks when Pessa wants them,” he said.
+
+“No repair.”
+
+Pessa looked at me.
+
+“No repair.”
+
+“I know.”
+
+“You wrote it down?”
+
+“Yes.”
+
+“Good.”
+
+Fuck. We started walking again. I asked, “Why me?” Pessa did not answer immediately. That was better than a compliment.
+
+Finally:
+
+“West orchard.”
+
+“What about it?”
+
+“You looked at the road when everyone else looked at the pigs.”
+
+“There were many pigs.”
+
+“Also north arch report.”
+
+“You read that?”
+
+“Guild put it in your work history.”
+
+I did not know I had a work history. That was information. I tried not to enjoy it visibly. Failed. Pessa noticed.
+
+“Don't.”
+
+“What?”
+
+“Whatever that is.”
+
+“Nothing.”
+
+Dorn said, “He's pleased.”
+
+“I am not.”
+
+“You are.”
+
+Pessa continued.
+
+“You stop.”
+
+I looked at her.
+
+“When you don't know,” she said. “Usually.”
+
+Usually. Important qualifier.
+
+“That is why?”
+
+“That and you write things down.”
+
+Dorn held up the stakes.
+
+“I can write.”
+
+“No,” Pessa said.
+
+“I can.”
+
+“I've seen it.”
+
+I laughed. Dorn looked offended. His writing was probably terrible. Good. Pessa said, “Tomorrow isn't complicated. We inspect. We mark. We don't fix. Farmers will ask us to fix.”
+
+“Why?”
+
+“Because we're there.”
+
+“Do we?”
+
+“No.”
+
+“Even small?”
+
+“No.”
+
+“Why?”
+
+“Because then we're repairing one thing while the rest of the route waits.”
+
+There. System. Not because repair was impossible. Because scope protected the inspection. I understood. Dangerously.
+
+“What if something is actively failing?”
+
+Pessa looked at me.
+
+“Then we stop what needs stopping and report.”
+
+“Not repair.”
+
+“Not unless the field condition makes leaving it alone immediately worse and I make that call.”
+
+There. Exception. Owned. Good. Dorn said, “Last year a farmer tried to get us to rebuild a chicken fence.”
+
+“Was it on the road?”
+
+“No.”
+
+“Then why?”
+
+“We were there.”
+
+Pessa said, “People see tools.” I looked at Dorn's iron probe. Reasonable. At the next corner Pessa turned south.
+
+“First bell.”
+
+“I know.”
+
+“Food.”
+
+“Packed.”
+
+“Water.”
+
+“Yes.”
+
+“Gloves.”
+
+I held up my hands. Empty.
+
+“They're at home.”
+
+“Bring them.”
+
+“I planned to.”
+
+“Good.”
+
+I pointed at her.
+
+“No.”
+
+She smiled. Barely. Then left. Dorn followed. He looked back.
+
+“No pigs.”
+
+“Go away.”
+
+I went home for lunch. Eggs. Bread. Apple two. Plan damaged further. After lunch I did something Old Greg would have considered deeply suspicious. I rested. Not nap. Rest. Boots off. Window open. No notebook. No technical material. I lay on the bed and listened to the street. Cart wheels. Someone singing badly. A baby. Hammering. A dog. Two women arguing about cloth measurements. I fell asleep anyway.
 
 When I woke, the room had shifted toward afternoon. No panic. No lost year. Just sleep. Good. Someone knocked. I sat up.
 
@@ -48926,15 +49261,15 @@ He pointed at me.
 
 “Fuck you.”
 
-He left. I updated the schedule.
-
-TODAYboot fixedPell norest
+He left. I updated the schedule. TODAY
+boot fixed
+Arlo no
+rest
 
 ROAD DAY ONE
 
-ROAD DAY TWOdrink, third evening bell, Sevren maybe Jorren/Octavia
-
-Hessa morning blank blank Alden second bell
+ROAD DAY TWO
+drink, third evening bell, Sevren maybe Jorren/Octavia Hessa morning blank blank Alden second bell
 
 Then, under Alden day:
 
@@ -48980,9 +49315,11 @@ She looked at me like I was stupid. Correct.
 
 “Room's yours.”
 
-I went back upstairs. Another week. The phrase felt larger than the money. I did not analyze it. Mostly. I moved the schedule page because it was curling under the mirror frame. The horse fell over. I stood it up. Then I looked at the room. Bed. Washbasin. Sword. Food. Gloves. Road bag. Horse. Calendar. Another week. This was not much. Old Greg had owned houses.
+I went back upstairs. Another week.
 
-Rooms. Land, briefly. A tower that technically belonged to the Crown but everyone called mine because nobody else wanted to climb it. This room was cheap. The plaster was cracked. The window stuck when it rained. The washbasin leaned.
+The phrase felt larger than the money. I did not analyze it. Mostly. I moved the schedule page because it was curling under the mirror frame. The horse fell over. I stood it up. Then I looked at the room. Bed. Washbasin. Sword. Food. Gloves. Road bag. Horse. Calendar. Another week. This was not much. Old Greg had owned houses. Rooms. Land, briefly.
+
+A tower that technically belonged to the Crown but everyone called mine because nobody else wanted to climb it. This room was cheap. The plaster was cracked. The window stuck when it rained. The washbasin leaned.
 
 I had paid for another week before anyone asked me to. Good enough. I went out for dinner. Not because I lacked food. Because I wanted hot food before two days of road bread. The flatbread place from the bath day was busy. I found space at the end of a long table. Same stone. Same meat. Pickled onions. Different people. I ordered two.
 
@@ -48996,19 +49333,19 @@ CHAPTER SIXTYTHE SURVEYOR
 
 Pessa's wagon had one wheel that squeaked every seventh turn. Not every turn. Every seventh. I counted for three minutes before Dorn noticed.
 
-“Stop.”
+“Stop,” Dorn said.
 
-“What?”
+“What?” I asked.
 
 “Counting.”
 
 “I wasn't.”
 
-“Squeak.”
+“Squeak,” Dorn said.
 
 Pessa climbed onto the driver's bench.
 
-“Wheel is fine.”
+“Wheel is fine,” she said.
 
 “I know.”
 
@@ -49050,7 +49387,8 @@ We all looked at the road. The road remained mostly present. Dorn took the probe
 
 Complaint:
 
-SOUTH EDGE COLLAPSINGCARTS CANNOT PASS
+SOUTH EDGE COLLAPSING
+CARTS CANNOT PASS
 
 Carts were passing. One passed while I read it. The farmer pointed.
 
@@ -49072,7 +49410,12 @@ Pessa nodded. I crouched near the outlet. Water stain. Silt. Grass bent downstre
 
 I wrote:
 
-REPORTED: CARTS CANNOT PASSOBSERVED: PASSABLEOUTLET SHOULDER WASH ~2 FTSOFT EDGE LOCALCULVERT MINOR DEBRISLOADED CART CLEARANCE NOT OBSERVED
+REPORTED: CARTS CANNOT PASS
+OBSERVED: PASSABLE
+OUTLET SHOULDER WASH ~2 FT
+SOFT EDGE LOCAL
+CULVERT MINOR DEBRIS
+LOADED CART CLEARANCE NOT OBSERVED
 
 Pessa read.
 
@@ -49080,17 +49423,17 @@ Pessa read.
 
 I pointed at her. She ignored me. The farmer said, “When are you fixing it?” Pessa took blue chalk and marked the stone at the culvert.
 
-“Not today.”
+“Not today,” Pessa said.
 
-“You're here.”
+“You're here,” the farmer said.
 
 “Yes.”
 
-“You have tools.”
+“You have tools,” he said.
 
 Dorn held up the probe.
 
-“This is a stick.”
+“This is a stick,” Dorn said.
 
 “I can see that.”
 
@@ -49186,7 +49529,11 @@ Annoying. Correct.
 
 I wrote:
 
-UNREPORTED ACTIVE SEEPLIKELY OLD DRAINAGE CUTSHOULDER THIN LOCALCURRENT WHEEL TRACK CLEARRED
+UNREPORTED ACTIVE SEEP
+LIKELY OLD DRAINAGE CUT
+SHOULDER THIN LOCAL
+CURRENT WHEEL TRACK CLEAR
+RED
 
 Pessa added:
 
@@ -49302,21 +49649,22 @@ Second site. She kept almost everything. Third.
 
 She crossed out half my drainage description and wrote:
 
-PRIVATE CUT DIVERTS ROAD WATEROWNER TO NOTIFY DOWNSTREAM FARM
+PRIVATE CUT DIVERTS ROAD WATER
+OWNER TO NOTIFY DOWNSTREAM FARM
 
 Cleaner. I did not like it. Therefore probably better.
 
 “What am I missing?” I asked.
 
-“Priority.”
+“Priority,” Pessa said.
 
 “I mark color.”
 
-“Why?”
+“Why?” she asked.
 
 “Severity.”
 
-“No.”
+“No,” Pessa said.
 
 I looked at her.
 
@@ -49374,7 +49722,9 @@ We walked. The bridge deck had shallow wheel wear. No fresh cracks. Mortar patch
 
 I wrote:
 
-BRIDGE SERVICEABLEWEST MORTAR PATCH HOLDINGUPSTREAM BRANCH MINOR
+BRIDGE SERVICEABLE
+WEST MORTAR PATCH HOLDING
+UPSTREAM BRANCH MINOR
 
 Then paused. Pessa watched.
 
@@ -49632,11 +49982,11 @@ He nodded. Pessa looked at the shoulder. Then at the cart.
 
 I moved our wagon farther ahead with Dorn. Not me driving. Dorn. Correct. The cart passed on the firm center. Nothing happened. Pessa crouched near the wet edge.
 
-“Priority changes.”
+“Priority changes,” Pessa said.
 
 “Red already,” I said.
 
-“Red can become different red.”
+“Red can become different red,” she said.
 
 Annoying.
 
@@ -49708,7 +50058,7 @@ Pessa nodded.
 
 Dorn said, “Could be old patch.” I looked at him.
 
-“What?”
+“What?” I asked.
 
 He scraped the road surface with his boot. Different gravel beneath the top layer. Finer. Darker. A repair. Not on our map.
 
@@ -49742,15 +50092,15 @@ I stopped. Yesterday, clearing the mouth had looked like the obvious repair. We 
 
 Pessa said, “Yes.” The farmhouse sat two hundred yards away. A man came out before we reached it. Not the owner from yesterday. Younger. Mud on boots. He knew exactly what Pessa meant.
 
-“Grandfather filled that side.”
+“Grandfather filled that side,” the younger man said.
 
-“Why?”
+“Why?” Pessa asked.
 
 “Collapsed under a grain wagon.”
 
-“When?”
+“When?” she asked.
 
-“Three years?”
+“Three years?” the man said.
 
 “Pipe broken?”
 
@@ -49772,7 +50122,12 @@ It had. For three years. Until maybe now. Pessa asked more. No one died. No cons
 
 I wrote:
 
-BURIED CULVERT INTENTIONALLY FILLED AFTER PARTIAL COLLAPSE ~3 YRS AGOUNRECORDED FARM REPAIRDO NOT CLEAR WITHOUT OPENING / ASSESSING STRUCTUREACTIVE CULVERT CARRYING FULL FLOWFILL SATURATED AFTER RAINLIMIT LOADED TRAFFIC TO CENTER UNTIL CREW
+BURIED CULVERT INTENTIONALLY FILLED AFTER PARTIAL COLLAPSE ~3 YRS AGO
+UNRECORDED FARM REPAIR
+DO NOT CLEAR WITHOUT OPENING / ASSESSING STRUCTURE
+ACTIVE CULVERT CARRYING FULL FLOW
+FILL SATURATED AFTER RAIN
+LIMIT LOADED TRAFFIC TO CENTER UNTIL CREW
 
 Pessa read it.
 
@@ -49810,7 +50165,9 @@ Pessa nodded.
 
 The map had not caught up. I wrote less now.
 
-OLD MAP LINE OBSOLETEACTIVE CROSSING 20 FT SOUTHFUNCTIONAL
+OLD MAP LINE OBSOLETE
+ACTIVE CROSSING 20 FT SOUTH
+FUNCTIONAL
 
 Pessa did not edit it. Victory. At the second farm spur, a woman wanted us to inspect a barn threshold. We did not. At the third, a boy asked whether Dorn's probe was a spear. Dorn said yes. Pessa said no. The boy believed Dorn. Consequences unknown.
 
@@ -49902,9 +50259,55 @@ I hated him. Pessa laughed. We ate. I flexed my hand. Fine. No magic yet. No nee
 
 “That's the job.”
 
-Right. Two days. Then done. I had expected something else. Not danger. More. Because stories liked escalation. Roads did not care about narrative. Apparently jobs didn't either. Good.
+Right. Two days. Then done. I had expected something else. Not danger. More. Because stories liked escalation. Roads did not care about narrative. Apparently jobs didn't either. Good. Before the upper loop, I was wrong about a culvert. Not spectacularly. Enough.
 
-Before the upper loop, I was wrong about a culvert.Not spectacularly.Enough.The crossing sat below a pasture where the ditch widened into a shallow green pool.Water stood almost to the culvert mouth.The downstream side ran clear.I looked at the upstream pool.“Restriction.”Pessa said, “Where?”“Water backed at inlet.”“Is it?”I stopped.Water near an inlet looked like backed water.That was not the same thing.Dorn put the probe into the pool edge.Shallow.Then deeper.The pasture itself dipped toward the road.Pessa walked twenty yards along the fence and pointed to a second line of wet grass entering from the field.“Pond overflow,” she said.“Farm pond?”“Seasonal.”I checked the map.Nothing.Of course.The culvert mouth was half underwater because the designed upstream collection area was full, not because the pipe was half blocked.I crouched.Flow through the pipe was steady.No debris.No pressure boil.No unusual downstream scour.“Functional,” I said.“Yes.”“White?”“No mark.”I looked at her.“Why?”“What would you tell a crew?”“Nothing.”“Then don't create work because water looks dramatic.”That hurt.Reasonably.I crossed out the note I had started.Dorn said, “You can keep it for your memoir.”“I will kill you with your probe.”“Not repair work.”Pessa laughed.We moved on.The mistake bothered me for perhaps six minutes.Then less.My inference had been reasonable.It had also been wrong because I had treated water level as evidence of restriction without checking the grade that produced the water level.Useful.Not universal.I did not write a principle.This required restraint.Then we finished the upper loop.
+The crossing sat below a pasture where the ditch widened into a shallow green pool. Water stood almost to the culvert mouth. The downstream side ran clear. I looked at the upstream pool.
+
+“Restriction.”
+
+Pessa said, “Where?”
+
+“Water backed at inlet.”
+
+“Is it?”
+
+I stopped. Water near an inlet looked like backed water. That was not the same thing. Dorn put the probe into the pool edge. Shallow. Then deeper. The pasture itself dipped toward the road.
+
+Pessa walked twenty yards along the fence and pointed to a second line of wet grass entering from the field.
+
+“Pond overflow,” she said.
+
+“Farm pond?”
+
+“Seasonal.”
+
+I checked the map. Nothing. Of course. The culvert mouth was half underwater because the designed upstream collection area was full, not because the pipe was half blocked. I crouched. Flow through the pipe was steady. No debris. No pressure boil. No unusual downstream scour.
+
+“Functional,” I said.
+
+“Yes.”
+
+“White?”
+
+“No mark.”
+
+I looked at her.
+
+“Why?”
+
+“What would you tell a crew?”
+
+“Nothing.”
+
+“Then don't create work because water looks dramatic.”
+
+That hurt. Reasonably. I crossed out the note I had started. Dorn said, “You can keep it for your memoir.”
+
+“I will kill you with your probe.”
+
+“Not repair work.”
+
+Pessa laughed. We moved on. The mistake bothered me for perhaps six minutes. Then less. My inference had been reasonable. It had also been wrong because I had treated water level as evidence of restriction without checking the grade that produced the water level. Useful. Not universal. I did not write a principle. This required restraint. Then we finished the upper loop.
 
 One blocked ditch. White. One cracked culvert headwall. Blue. A farm gate opening directly into a wheel rut. Not our problem. A section of road with loose stone after somebody had dragged logs. Pessa marked blue.
 
@@ -50070,7 +50473,7 @@ Sevren looked disappointed. I told them about Dorn convincing a child the probe 
 
 He nodded. No invitation. No task. Good. I leaned back. My body was tired. Road tired. Not hurt. My hands smelled faintly of wet leather despite washing. My boots were drying at home. Tomorrow Hessa would ask what magic I had used. One cast yesterday. None today. Easy report. Next week Alden would hit me with a padded sword. Then Antonius would get three hours of my morning.
 
-Pell might have solved his regulator. Or not. Edrin might know something. Or not. The south-west road would still be wet. A crew would inspect the collapsed culvert. Some farmer would complain about something we had not fixed. All of it continued. Sevren said something. I missed it.
+Arlo might have solved his regulator. Or not. Edrin might know something. Or not. The south-west road would still be wet. A crew would inspect the collapsed culvert. Some farmer would complain about something we had not fixed. All of it continued. Sevren said something. I missed it.
 
 “What?”
 
@@ -50324,19 +50727,19 @@ That was worse than Pessa. I did not know what face I made. Hessa did.
 
 “Go eat.”
 
-I left before she could ruin it. Breakfast was eggs, rice, and something fried enough that its original identity no longer mattered. Excellent. I had nothing scheduled afterward. This lasted twelve minutes. Pell was back from Maret's.
+I left before she could ruin it. Breakfast was eggs, rice, and something fried enough that its original identity no longer mattered. Excellent. I had nothing scheduled afterward. This lasted twelve minutes. Arlo was back from Maret's.
 
-I knew because I walked past his street without intending to turn and then turned. Curiosity remained expensive. The workshop door was open. Pell sat at the rear bench with the second regulator body in pieces again. Vessa was not there. He looked at me.
+I knew because I walked past his street without intending to turn and then turned. Curiosity remained expensive. The workshop door was open. Arlo sat at the rear bench with the second regulator body in pieces again. Vessa was not there. He looked at me.
 
-“No.”
+“No,” Arlo said.
 
 “I haven't asked.”
 
 “You were going to.”
 
-“Did it work?”
+“Did it work?” I asked.
 
-“Mostly.”
+“Mostly,” Arlo said.
 
 I stepped inside.
 
@@ -50378,7 +50781,7 @@ Better.
 
 “No.”
 
-I leaned over the pieces. The seat now had a faint fresh contact line, more even than before. Pell pointed.
+I leaned over the pieces. The seat now had a faint fresh contact line, more even than before. Arlo pointed.
 
 “Maret wants two more bodies eventually.”
 
@@ -50432,7 +50835,12 @@ Information disease. I left. At the Guild, I was not looking for work. This was 
 
 That changed the shape of the room. Not because Dorn was urgent. Because he had a life and had apparently used part of it to leave something with my name. The clerk handed me a folded job notice.
 
-WEST RIVER YARDMILL FRAME TRANSFERTOMORROW, SECOND BELLBRONZE SUPPORTCLEARANCE / STOP CALLASK FOR DORN
+WEST RIVER YARD
+MILL FRAME TRANSFER
+TOMORROW, SECOND BELL
+BRONZE SUPPORT
+CLEARANCE / STOP CALL
+ASK FOR DORN
 
 I read it twice.
 
@@ -50472,9 +50880,9 @@ Good. Probably.
 
 “Clearance support for a heavy frame moving from river barge to yard cart.”
 
-“Rigging?”
+“Rigging?” I asked.
 
-“Iona.”
+“Ressa,” the clerk said.
 
 “Cart?”
 
@@ -50484,7 +50892,7 @@ Good. Probably.
 
 “River yard crew.”
 
-“And me?”
+“And me?” I asked.
 
 “Clearance and stop call between hoist lane and cart approach.”
 
@@ -50546,7 +50954,7 @@ Dorn pointed again. The cart could not sit directly under the hoist because a st
 
 There was a blind moment when the load crossed behind the hoist post from the cart driver's view. Ah.
 
-“Iona?” I asked.
+“Ressa?” I asked.
 
 “Rigging lead. Good.”
 
@@ -50556,7 +50964,7 @@ There was a blind moment when the load crossed behind the hoist post from the ca
 
 “Why not one of them call the whole move?”
 
-“Because Iona watches sling and frame. Marn watches hoist. I watch cart.”
+“Because Ressa watches sling and frame. Marn watches hoist. I watch cart.”
 
 “And nobody sees the interface continuously.”
 
@@ -50572,17 +50980,17 @@ Reasonable. Not because Greg was special. Because four people each needed to own
 
 “Final go?”
 
-“Iona.”
+“Ressa.”
 
 Good.
 
-“What do I own?”
+“What do I own?” I asked.
 
-“Clearance between load and cart. If you can't see, stop. If cart isn't where you want, stop. If load swings outside chalk lane, stop.”
+“Clearance between load and cart. If you can't see, stop. If cart isn't where you want, stop. If load swings outside chalk lane, stop,” Dorn said.
 
-“Do I direct hoist?”
+“Do I direct hoist?” I asked.
 
-“No.”
+“No,” Dorn said.
 
 “Cart?”
 
@@ -50600,9 +51008,9 @@ Good.
 
 “No.”
 
-Clean. I looked at the yard. Chalk marks already traced the planned cart approach. Iona had apparently been here. I walked the route. Not because I owned it. Because if I accepted, I needed sightlines.
+Clean. I looked at the yard. Chalk marks already traced the planned cart approach. Ressa had apparently been here. I walked the route. Not because I owned it. Because if I accepted, I needed sightlines.
 
-At the first position I could see barge, load, hoist post, and cart nose. At the second I could see cart bed and load underside but not the outer sling. Iona would see sling. Good.
+At the first position I could see barge, load, hoist post, and cart nose. At the second I could see cart bed and load underside but not the outer sling. Ressa would see sling. Good.
 
 At the third, near the drainage lip, I could see the final lowering clearance. I stepped there. A yard worker rolled a barrel past me. Normal traffic. Tomorrow the lane would be closed during the lift.
 
@@ -50694,7 +51102,7 @@ Good. I kept walking. Nothing hidden announced itself. No cracked beam. No omino
 
 A woman in a gray work coat came through the yard gate carrying three lengths of chalk and a folded sling sheet. Dorn lifted a hand.
 
-“Iona.”
+“Ressa.”
 
 She looked at me.
 
@@ -50704,7 +51112,7 @@ She looked at me.
 
 “Good.”
 
-Everyone needed another word. She was perhaps thirty. Shorter than me. Strong hands. Hair braided tight against the back of her head. Bronze badge under the coat. Not Antonius Vale. Not related until proven otherwise. Excellent. Dorn said, “He's looking before he signs.” Iona nodded.
+Everyone needed another word. She was perhaps thirty. Shorter than me. Strong hands. Hair braided tight against the back of her head. Bronze badge under the coat. Not Antonius Vale. Not related until proven otherwise. Excellent. Dorn said, “He's looking before he signs.” Ressa nodded.
 
 “Better.”
 
@@ -50744,7 +51152,7 @@ She pointed to the chalk lane.
 
 “Good.”
 
-There it was again. Iona traced the move.
+There it was again. Ressa traced the move.
 
 “First lift is vertical from barge. Hold. Check all four points. Marn brings it quay side. Hold. I inspect balance. Dorn backs cart to first mark. Hold. Marn travels load over lane. Greg takes near clearance. Dorn backs to final mark. Hold. Then lower.”
 
@@ -50798,11 +51206,11 @@ Good.
 
 “Then I'll be annoyed tomorrow instead of dead.”
 
-Excellent. Dorn said, “Dry run?” Iona looked at the empty cart.
+Excellent. Dorn said, “Dry run?” Ressa looked at the empty cart.
 
 “Yes.”
 
-I had not signed yet. She did not care. We walked the move without the load. Marn was called down from the hoist platform. Old Marn was indeed old. White beard. Missing the tip of one ear. Forearms covered in faded blue marks that might have been old work tattoos or bad decisions. He listened while Iona described the dry run. Then said, “No load.”
+I had not signed yet. She did not care. We walked the move without the load. Marn was called down from the hoist platform. Old Marn was indeed old. White beard. Missing the tip of one ear. Forearms covered in faded blue marks that might have been old work tattoos or bad decisions. He listened while Ressa described the dry run. Then said, “No load.”
 
 “Yes.”
 
@@ -50812,7 +51220,7 @@ I had not signed yet. She did not care. We walked the move without the load. Mar
 
 “Then this isn't my dry run.”
 
-Iona pointed at me.
+Ressa pointed at me.
 
 “His.”
 
@@ -50842,13 +51250,13 @@ Apparently my name had become yard equipment.
 
 “No.”
 
-“Iona?”
+“Ressa?”
 
 “Slings and frame.”
 
 “Dorn?”
 
-“Left wheel, rear mark, Iona when I can.”
+“Left wheel, rear mark, Ressa when I can.”
 
 There. Actual blind space. Mine tomorrow. We moved the empty cart along the chalk route. First mark. Stop. Second. Stop. Final. The drainage lip was closer to the rear wheel than I liked. Not unsafe. Close.
 
@@ -50870,7 +51278,7 @@ Dorn measured with his boot, then crouched and used a short rule.
 
 “If first mark is right.”
 
-Iona said, “If he needs one, we stop.” Good. At the final position I walked around the cart. The timber plates over the drain sat under the front-left wheel path, not final resting point. I crouched. One plate had fresh chalk across its edge.
+Ressa said, “If he needs one, we stop.” Good. At the final position I walked around the cart. The timber plates over the drain sat under the front-left wheel path, not final resting point. I crouched. One plate had fresh chalk across its edge.
 
 “Inspection mark?”
 
@@ -50884,7 +51292,7 @@ Dorn nodded.
 
 “How much less?”
 
-He told me. Not close enough to count as proof for tomorrow's load. I looked at Iona. She said, “Tomorrow before lift, yard puts test blocks on the cart and rolls it across the plates.” I stopped. Already planned.
+He told me. Not close enough to count as proof for tomorrow's load. I looked at Ressa. She said, “Tomorrow before lift, yard puts test blocks on the cart and rolls it across the plates.” I stopped. Already planned.
 
 “Full expected wheel load?”
 
@@ -50892,7 +51300,7 @@ He told me. Not close enough to count as proof for tomorrow's load. I looked at 
 
 “Good.”
 
-Iona smiled.
+Ressa smiled.
 
 “There's the word.”
 
@@ -50932,7 +51340,7 @@ Because it was better than lane watch and worse than I had started imagining dur
 
 “If yard delays two hours?”
 
-“You wait one. Then you can leave unless Iona renegotiates.”
+“You wait one. Then you can leave unless Ressa renegotiates.”
 
 I looked at her.
 
@@ -50960,11 +51368,19 @@ I saw Jorren across the market carrying roof nails and did not follow him becaus
 
 Then tomorrow:
 
-WEST RIVER YARDSECOND BELLDORN / RESSA / MARNCLEARANCE
+WEST RIVER YARD
+SECOND BELL
+DORN / RESSA / MARN
+CLEARANCE
 
 Under it:
 
-STOP = ANYONEGO = RESSACART = DORNHOIST = MARNRIGGING = RESSAME = CLEARANCE
+STOP = ANYONE
+GO = RESSA
+CART = DORN
+HOIST = MARN
+RIGGING = RESSA
+ME = CLEARANCE
 
 I stared. That was almost embarrassingly clear. Good.
 
@@ -50972,31 +51388,30 @@ Then I wrote:
 
 NO MAGIC EXPECTED
 
-Also good. I had an hour before dinner. I considered going back to the yard. No. I had seen it. Dorn had seen it. Iona had planned it. The yard crew had checked their plates. Marn knew the hoist. Tomorrow we would check again before moving anything. Enough. I made beans with onion. Too much onion. Not enough salt. Ate it anyway.
+Also good. I had an hour before dinner. I considered going back to the yard. No. I had seen it. Dorn had seen it. Ressa had planned it. The yard crew had checked their plates. Marn knew the hoist. Tomorrow we would check again before moving anything. Enough. I made beans with onion. Too much onion. Not enough salt. Ate it anyway.
 
 The wooden horse watched from beside the washbasin.
 
 “Work tomorrow.”
 
-It offered no objection. I looked at the calendar. Tomorrow had a job. Five days had Hessa. Next week had Alden and West Storehouse. Pell had a regulator that might become two more. Sevren would be somewhere north-east or west or on a roof with another stolen ladder. The room was paid. My boots were repaired. My gloves were drying clean from the road.
+It offered no objection. I looked at the calendar. Tomorrow had a job. Five days had Hessa. Next week had Alden and West Storehouse. Arlo had a regulator that might become two more. Sevren would be somewhere north-east or west or on a roof with another stolen ladder. The room was paid. My boots were repaired. My gloves were drying clean from the road.
 
-I was healthy enough that Hessa had told me to come back later instead of sooner.
+I was healthy enough that Hessa had told me to come back later instead of sooner. I slept before I could improve any of it.
 
-I slept before I could improve any of it.
 
 CHAPTER SIXTY-THREETHE BACKSTOP
 
-The load test passed. That mattered later. At the time, it was simply one more thing done correctly. I reached the west river yard before second bell because Iona had told me not to be early and I had interpreted that as a personal attack.
+The load test passed. That mattered later. At the time, it was simply one more thing done correctly. I reached the west river yard before second bell because Ressa had told me not to be early and I had interpreted that as a personal attack.
 
 The river was gray under a brightening sky. Barges sat low against the quay, ropes wet from spray. The mill frame waited on the nearest one exactly where it had been yesterday. Iron and oak. Heavy. Not interesting by itself. The interesting part was everything around it.
 
 Marn had the fixed hoist awake already. The yard crane was not really a crane in the later sense. Timber mast. Crossbeam. Iron wheel. Chain. Two lines. Counterweight box. Enough mechanical advantage to move things that had no business being moved by six men and optimism.
 
-Iona stood under it with a chalk stick behind one ear. Dorn was beside the heavy cart. The cart was empty. That was about to change. Iona saw me.
+Ressa stood under it with a chalk stick behind one ear. Dorn was beside the heavy cart. The cart was empty. That was about to change. Ressa saw me.
 
 “Greg.”
 
-“Iona.”
+“Ressa.”
 
 “You walk it?”
 
@@ -51006,17 +51421,17 @@ Iona stood under it with a chalk stick behind one ear. Dorn was beside the heavy
 
 Apparently I could still surprise people. She pointed at the yard lane.
 
-“Closed from river gate to west shed. Harl owns lane. Marn owns hoist. I own rigging and go. Dorn owns cart. You own clearance and stop.”
+“Closed from river gate to west shed. Harl owns lane. Marn owns hoist. I own rigging and go. Dorn owns cart. You own clearance and stop,” Ressa said.
 
-“Anyone stops.”
+“Anyone stops,” I said.
 
-“Anyone stops.”
+“Anyone stops,” Ressa confirmed.
 
 “Only you go.”
 
-“Yes.”
+“Yes,” she said.
 
-Good. Harl was a square man in a yellow cap standing at the yard gate. He had two workers with him and looked like he had been born annoyed by carts. He raised one hand. Lane closed. No pedestrians. No freight crossing. No children playing numbered chalk games under suspended iron. Professional. Iona inspected the rigging. Not quickly.
+Good. Harl was a square man in a yellow cap standing at the yard gate. He had two workers with him and looked like he had been born annoyed by carts. He raised one hand. Lane closed. No pedestrians. No freight crossing. No children playing numbered chalk games under suspended iron. Professional. Ressa inspected the rigging. Not quickly.
 
 She checked each sling by hand, then each hook, then the spreader bar, then the frame attachment points. She made one worker replace a pin because she disliked how the keeper sat. The old pin was probably fine. Probably was not enough. I liked her. Marn tested the hoist unloaded. Up. Hold. Down. Brake. Again with the counterweight engaged.
 
@@ -51038,7 +51453,7 @@ Dorn answered.
 
 “Plate position?”
 
-Iona pointed at chalk marks on the timber.
+Ressa pointed at chalk marks on the timber.
 
 “Wheel path matched.”
 
@@ -51048,23 +51463,23 @@ Marn drove a chalk line across plate and stone, then checked it after the wagon 
 
 “Pass,” he said.
 
-Iona looked at Dorn.
+Ressa looked at Dorn.
 
-“Cart?”
+“Cart?” she asked.
 
-“Ready.”
+“Ready,” Dorn said.
 
-Marn.
+She looked at Marn.
 
 “Hoist?”
 
-“Ready.”
+“Ready,” Marn said.
 
-Harl.
+Then Harl.
 
 “Lane?”
 
-“Closed.”
+“Closed,” Harl said.
 
 Then me.
 
@@ -51078,7 +51493,7 @@ I had a clear escape path behind me toward the open lane. No stacked material. N
 
 From there I could watch the frame corner clear the bollard while Dorn began the first turn. Yesterday's dry run had put me there. I checked again. Three steps backward to open yard. Two sideways. No obstruction. The timber plates began six feet beyond the bollard. I would move before the cart reached them. Good. I looked up. No overhead line in my path.
 
-Down. No loose chock. Iona said, “Satisfied?”
+Down. No loose chock. Ressa said, “Satisfied?”
 
 “No.”
 
@@ -51088,15 +51503,15 @@ She waited. I looked again. Then smiled.
 
 “Better.”
 
-We started. The first lift was boring. Excellent. Marn took tension. Iona watched the slings settle.
+We started. The first lift was boring. Excellent. Marn took tension. Ressa watched the slings settle.
 
 “Hold.”
 
-Marn held. Iona walked the frame. No twist. No sling crawl.
+Marn held. Ressa walked the frame. No twist. No sling crawl.
 
 “Up six.”
 
-The frame rose six inches from the barge bed. Stopped. Stayed. The barge moved under it. Not much. River. Iona waited for the motion to settle.
+The frame rose six inches from the barge bed. Stopped. Stayed. The barge moved under it. Not much. River. Ressa waited for the motion to settle.
 
 “Up.”
 
@@ -51104,7 +51519,7 @@ Marn lifted. The frame came clear. Slow. Heavy enough that the hoist lines spoke
 
 “Clear.”
 
-Iona did not say go because I had said clear. She checked her side. Marn checked line.
+Ressa did not say go because I had said clear. She checked her side. Marn checked line.
 
 Then:
 
@@ -51118,7 +51533,7 @@ Dorn stopped. The frame corner had begun to rotate toward the cart's rear uprigh
 
 “West corner closing. Two inches if you continue.”
 
-Iona looked. Could not see my angle.
+Ressa looked. Could not see my angle.
 
 “Dorn, half left.”
 
@@ -51126,15 +51541,15 @@ He adjusted. I watched.
 
 “Clear.”
 
-Iona checked.
+Ressa checked.
 
 “Go.”
 
 The cart moved. Frame descended. Blocks took weight. One corner touched first.
 
-“Hold,” Iona said.
+“Hold,” Ressa said.
 
-Marn held. Iona corrected the sling. Dorn shifted one bed block half an inch. Nobody put fingers under anything. Competent. The frame settled. Hoist retained partial load. Iona checked all four bearing points.
+Marn held. Ressa corrected the sling. Dorn shifted one bed block half an inch. Nobody put fingers under anything. Competent. The frame settled. Hoist retained partial load. Ressa checked all four bearing points.
 
 “Down two.”
 
@@ -51148,13 +51563,13 @@ Again. The cart creaked. Normal. The right rear wheel compressed slightly into t
 
 “Good.”
 
-The frame was seated. Iona left the hoist carrying enough load to stabilize while the temporary chains went on. I moved to second position. Stone bollard beside me. Open escape behind. The frame's west corner would pass three feet away. Then I would move before the drainage crossing. Simple. Chains secured. Iona checked. Marn eased more load off the hoist. Cart took it.
+The frame was seated. Ressa left the hoist carrying enough load to stabilize while the temporary chains went on. I moved to second position. Stone bollard beside me. Open escape behind. The frame's west corner would pass three feet away. Then I would move before the drainage crossing. Simple. Chains secured. Ressa checked. Marn eased more load off the hoist. Cart took it.
 
 Stayed level.
 
 “Full cart,” Dorn said.
 
-Marn kept the line connected but slack enough not to steer. Iona walked around once. Then again. She looked at me.
+Marn kept the line connected but slack enough not to steer. Ressa walked around once. Then again. She looked at me.
 
 “Clearance?”
 
@@ -51172,7 +51587,7 @@ Marn kept the line connected but slack enough not to steer. Iona walked around o
 
 “Lane clear.”
 
-Iona raised her hand.
+Ressa raised her hand.
 
 “Go.”
 
@@ -51180,7 +51595,7 @@ Dorn moved the cart. Slow. The frame corner approached the bollard. Three feet. 
 
 “Hold.”
 
-Dorn stopped. Immediately. Everyone stopped. The corner sat perhaps nine inches from stone. Iona looked at me.
+Dorn stopped. Immediately. Everyone stopped. The corner sat perhaps nine inches from stone. Ressa looked at me.
 
 “Why?”
 
@@ -51190,7 +51605,7 @@ Dorn looked down his side.
 
 “Weight.”
 
-Iona nodded. Not surprising. Different load. Expected.
+Ressa nodded. Not surprising. Different load. Expected.
 
 “How much correction?” she asked Dorn.
 
@@ -51200,7 +51615,7 @@ I checked my clearance.
 
 “That opens me.”
 
-Iona looked at Marn.
+Ressa looked at Marn.
 
 “Line?”
 
@@ -51212,7 +51627,7 @@ He adjusted. The corner moved away from the bollard.
 
 “Clear.”
 
-Iona checked.
+Ressa checked.
 
 “Go.”
 
@@ -51222,7 +51637,7 @@ I checked chalk line. Still aligned. Plate flat.
 
 “Clear.”
 
-Iona checked the frame.
+Ressa checked the frame.
 
 “Go.”
 
@@ -51230,19 +51645,19 @@ Front wheel rolled onto timber. Creak. Normal. Across. No shift. Front rearward?
 
 “Clear.”
 
-Wheel reached center. Then the frame moved. Not much. A small roll toward river. The cart bed leaned perhaps half an inch. Iona said, “Hold.” Dorn stopped. Marn took line tension immediately. The frame stopped moving. Everyone did the right thing. I looked at the plate. Chalk line broken. Not across the plate. At the stone edge beneath it.
+Wheel reached center. Then the frame moved. Not much. A small roll toward river. The cart bed leaned perhaps half an inch. Ressa said, “Hold.” Dorn stopped. Marn took line tension immediately. The frame stopped moving. Everyone did the right thing. I looked at the plate. Chalk line broken. Not across the plate. At the stone edge beneath it.
 
 “Plate moved.”
 
-“How much?” Iona asked.
+“How much?” Ressa asked.
 
 “Quarter inch. Maybe less.”
 
-Dorn did not move. Marn held tension. Iona came around without entering the wheel line. She looked.
+Dorn did not move. Marn held tension. Ressa came around without entering the wheel line. She looked.
 
 “Back?” Dorn asked.
 
-“No.”
+“No,” Ressa said.
 
 Good. Backing could load the shifted edge again.
 
@@ -51254,11 +51669,11 @@ Good. Backing could load the shifted edge again.
 
 “Enough to lighten cart. Not enough to lift clean from here without side pull.”
 
-Iona thought. Nobody hurried. The frame was stable. The cart was stopped. The wheel sat on the plate. Marn's line had tension. The plate had moved less than an inch. Problem. Bounded. Iona said, “Take a quarter load.” Marn tightened. The hoist line rose. The frame lifted fractionally against its chains. Cart suspension relaxed. Dorn watched the wheel.
+Ressa thought. Nobody hurried. The frame was stable. The cart was stopped. The wheel sat on the plate. Marn's line had tension. The plate had moved less than an inch. Problem. Bounded. Ressa said, “Take a quarter load.” Marn tightened. The hoist line rose. The frame lifted fractionally against its chains. Cart suspension relaxed. Dorn watched the wheel.
 
 “Better.”
 
-The plate did not move. Iona looked at me.
+The plate did not move. Ressa looked at me.
 
 “Can you see under the river edge?”
 
@@ -51266,7 +51681,7 @@ The plate did not move. Iona looked at me.
 
 “Don't move yet.”
 
-Good. Harl brought a long-handled inspection mirror from the yard shed. Of course they had one. He handed it to Iona. She slid it along the ground from outside the wheel line. Looked. Her face changed. Not panic. Attention.
+Good. Harl brought a long-handled inspection mirror from the yard shed. Of course they had one. He handed it to Ressa. She slid it along the ground from outside the wheel line. Looked. Her face changed. Not panic. Attention.
 
 “Marn.”
 
@@ -51296,7 +51711,7 @@ Dorn said, “Test wagon didn't open it.”
 
 “No.”
 
-Iona looked at the frame. Then cart. Then plate.
+Ressa looked at the frame. Then cart. Then plate.
 
 “We unload enough to move cart back without that wheel carrying full weight.”
 
@@ -51306,29 +51721,29 @@ Marn said, “Can take more, but line angle worsens as cart backs.”
 
 “Two feet.”
 
-Dorn said, “Need eighteen inches to get wheel off plate.” Iona nodded. There. Plan. Marn takes more frame. Cart backs eighteen inches. Wheel leaves damaged plate. Reset. Replace plate. Continue. Reasonable. I checked clearance. The frame corner was now farther from the bollard. No issue. The cart's left side had open lane. Right side drainage channel.
+Dorn said, “Need eighteen inches to get wheel off plate.” Ressa nodded. There. Plan. Marn takes more frame. Cart backs eighteen inches. Wheel leaves damaged plate. Reset. Replace plate. Continue. Reasonable. I checked clearance. The frame corner was now farther from the bollard. No issue. The cart's left side had open lane. Right side drainage channel.
 
 My position ahead and river side was not useful for backing.
 
 “Move me?” I asked.
 
-Iona pointed behind the cart, west side.
+Ressa pointed behind the cart, west side.
 
 “Rear corner. Watch frame against hoist line and left wheel. Stay outside wheel path.”
 
-I moved. Walked around, not through. Good. My new position was near a stack of empty pallets. Open enough. I could see the left rear wheel and the frame's upper corner against the hoist line. Dorn could not see that corner while steering backward. Blind interface. Mine. Iona walked the path.
+I moved. Walked around, not through. Good. My new position was near a stack of empty pallets. Open enough. I could see the left rear wheel and the frame's upper corner against the hoist line. Dorn could not see that corner while steering backward. Blind interface. Mine. Ressa walked the path.
 
-“Greg?”
+“Greg?” Ressa asked.
 
-“Clear for eighteen.”
+“Clear for eighteen,” I said.
 
-“Marn?”
+“Marn?” she asked.
 
-“Can take another quarter.”
+“Can take another quarter,” Marn said.
 
-“Take it.”
+“Take it,” Ressa said.
 
-Hoist tightened. The frame rose perhaps half an inch. Cart suspension lifted. The damaged right plate stayed still. Iona checked chains.
+Hoist tightened. The frame rose perhaps half an inch. Cart suspension lifted. The damaged right plate stayed still. Ressa checked chains.
 
 “Dorn?”
 
@@ -51342,7 +51757,7 @@ Hoist tightened. The frame rose perhaps half an inch. Cart suspension lifted. Th
 
 “Lane clear.”
 
-Iona raised her hand.
+Ressa raised her hand.
 
 “Back slow.”
 
@@ -51350,7 +51765,7 @@ The cart moved. An inch. Two. The right rear wheel began rolling backward across
 
 “Clear.”
 
-Six inches. Eight. Then the right plate dropped. Not broke. Dropped. The river-side end fell perhaps four inches into the drainage channel as the split underside sheared away from something beneath it. The right rear wheel fell with it. The cart snapped sideways. Dorn shouted. Iona shouted, “STOP.” Dorn had already stopped. Marn's brake caught. The frame swung. Not much. Enough. Toward me.
+Six inches. Eight. Then the right plate dropped. Not broke. Dropped. The river-side end fell perhaps four inches into the drainage channel as the split underside sheared away from something beneath it. The right rear wheel fell with it. The cart snapped sideways. Dorn shouted. Ressa shouted, “STOP.” Dorn had already stopped. Marn's brake caught. The frame swung. Not much. Enough. Toward me.
 
 I saw the upper corner move. I stepped back. Correct. Open escape. Except the pallet stack was not where it had been yesterday. It was six inches farther into the lane. Not enough to block me. Enough that my heel hit the bottom board. I turned instead of continuing backward. Still correct. The frame corner was not going to hit me. The cart was.
 
@@ -51358,7 +51773,7 @@ Not the whole cart. The left rear wheel had unloaded when the right side dropped
 
 Sideways was clear except the pallets. I cast. Coin-sized Barrier. Not against the cart. Too much load. Against the top pallet slat. Directional. One breath. The slat snapped away from me instead of catching my coat as I turned. Good cast. Clean. Useful. I moved. Almost enough. The cart corner missed my body. The wheel did not. There was a sound. Wood first.
 
-Then something lower. My left leg disappeared beneath the axle line. Not disappeared. Wrong word. Pressure. Impossible pressure. Then no pressure because I was on the ground. I did not remember falling. Someone screamed. Maybe me. The cart had stopped. The frame had stopped. Marn was holding it. Iona was beside me but not touching the cart.
+Then something lower. My left leg disappeared beneath the axle line. Not disappeared. Wrong word. Pressure. Impossible pressure. Then no pressure because I was on the ground. I did not remember falling. Someone screamed. Maybe me. The cart had stopped. The frame had stopped. Marn was holding it. Ressa was beside me but not touching the cart.
 
 “Greg.”
 
@@ -51368,7 +51783,7 @@ I looked at her.
 
 “I wasn't planning to.”
 
-My voice sounded normal. That was funny. I tried to look down. Iona put a hand against my shoulder.
+My voice sounded normal. That was funny. I tried to look down. Ressa put a hand against my shoulder.
 
 “Don't.”
 
@@ -51378,13 +51793,13 @@ I knew enough medicine to be unhelpful.
 
 “Don't lift the cart,” I said.
 
-Iona's face was very still.
+Ressa's face was very still.
 
 “We aren't.”
 
 Good. Dorn was on the other side. White. Not literally. Close.
 
-“Marn?” Iona called.
+“Marn?” Ressa called.
 
 “Holding.”
 
@@ -51398,11 +51813,11 @@ Good. Dorn was on the other side. White. Not literally. Close.
 
 “Do it.”
 
-Harl was already running. He did not need to be told. Yard workers cleared space. One brought blocks. Iona stopped him before he placed them.
+Harl was already running. He did not need to be told. Yard workers cleared space. One brought blocks. Ressa stopped him before he placed them.
 
 “Not under load path. West side first.”
 
-Competent. Everyone competent. My leg hurt. Then hurt more. Then changed. Hot. Cold. Pressure. My foot existed. I could feel the boot. Could I move toes? I tried. Iona saw my face.
+Competent. Everyone competent. My leg hurt. Then hurt more. Then changed. Hot. Cold. Pressure. My foot existed. I could feel the boot. Could I move toes? I tried. Ressa saw my face.
 
 “Don't.”
 
@@ -51428,7 +51843,7 @@ His mouth did something. Not smile. Almost. Good. I looked at the broken plate. 
 
 “What is that?” I asked.
 
-Iona looked where I was looking.
+Ressa looked where I was looking.
 
 “Don't care.”
 
@@ -51440,11 +51855,11 @@ There might not be later. No. Wrong. There would be later. I had Hessa in five d
 
 “Support under plate,” I said.
 
-Iona's eyes flicked once. She saw it. The load test had passed because the plate had been supported. The old split had held under vertical load. Backing changed something. Or the support moved. Or water had rotted the end. Or the wheel edge had loaded the split differently. I was doing it again.
+Ressa's eyes flicked once. She saw it. The load test had passed because the plate had been supported. The old split had held under vertical load. Backing changed something. Or the support moved. Or water had rotted the end. Or the wheel edge had loaded the split differently. I was doing it again.
 
 “Greg.”
 
-Iona.
+Ressa.
 
 “Present.”
 
@@ -51466,7 +51881,7 @@ That still sounded ridiculous.
 
 “Cart lateral shift. Left lower leg pinned between rear wheel and stone edge.”
 
-She looked at Iona. Iona gave the operational version in ten seconds. Good. The healer touched my thigh. Knee. Not lower.
+She looked at Ressa. Ressa gave the operational version in ten seconds. Good. The healer touched my thigh. Knee. Not lower.
 
 “Feel?”
 
@@ -51496,7 +51911,7 @@ She looked at the wheel. Then at the blood.
 
 “Do not lift until I say.”
 
-Nobody argued. She cut my trouser leg above the boot. I looked at the sky. Bright. Annoyingly bright. Someone had moved the pallets. Good. The healer said something to her assistant about splints, binding, and the jack. Iona answered questions. Marn kept holding the frame. Dorn kept the cart brake set. The operation had stopped. Perfectly. After the failure. That mattered too.
+Nobody argued. She cut my trouser leg above the boot. I looked at the sky. Bright. Annoyingly bright. Someone had moved the pallets. Good. The healer said something to her assistant about splints, binding, and the jack. Ressa answered questions. Marn kept holding the frame. Dorn kept the cart brake set. The operation had stopped. Perfectly. After the failure. That mattered too.
 
 The healer leaned close.
 
@@ -51524,7 +51939,7 @@ She did not smile.
 
 “It is information.”
 
-I liked her. Terrible timing. They blocked the cart. Not casually. Dorn and two yard workers placed cribbing under the frame side while Marn maintained hoist tension. The jack went under the axle where the healer approved. Iona checked every placement. Nobody rushed. I wanted them to rush. They did not. Good.
+I liked her. Terrible timing. They blocked the cart. Not casually. Dorn and two yard workers placed cribbing under the frame side while Marn maintained hoist tension. The jack went under the axle where the healer approved. Ressa checked every placement. Nobody rushed. I wanted them to rush. They did not. Good.
 
 The healer put a folded strap high around my thigh but did not tighten it. Ready. Not used. Yet.
 
@@ -51538,7 +51953,7 @@ I did.
 
 “Lift.”
 
-The jack turned. The wheel rose. One fraction. Pain became white. Not color. Absence. Then everything returned at once. I made a sound. Someone held my shoulders. Not Iona. Assistant.
+The jack turned. The wheel rose. One fraction. Pain became white. Not color. Absence. Then everything returned at once. I made a sound. Someone held my shoulders. Not Ressa. Assistant.
 
 “Again.”
 
@@ -51622,7 +52037,7 @@ At least. Good phrase. Terrible phrase.
 
 “Yes.”
 
-I closed my eyes. Not because I was afraid. I was afraid. Fine. Because the sky was too bright. Iona said my name. I opened them. She stood beside the litter. There was blood on one knee of her trousers. Not hers.
+I closed my eyes. Not because I was afraid. I was afraid. Fine. Because the sky was too bright. Ressa said my name. I opened them. She stood beside the litter. There was blood on one knee of her trousers. Not hers.
 
 “Frame?” I asked.
 
@@ -51646,7 +52061,7 @@ I stared.
 
 “You did.”
 
-I understood. The recommendation. He stops early and doesn't grab things. I had stopped. Iona had stopped. Dorn had stopped. Marn had stopped. The plate had failed anyway. Then we had made another plan. That plan had made sense too. I looked toward the drainage channel. The broken timber plate lay tilted into it. Underneath, the old black-ended support was visible now.
+I understood. The recommendation. He stops early and doesn't grab things. I had stopped. Ressa had stopped. Dorn had stopped. Marn had stopped. The plate had failed anyway. Then we had made another plan. That plan had made sense too. I looked toward the drainage channel. The broken timber plate lay tilted into it. Underneath, the old black-ended support was visible now.
 
 Marn was staring at it. Not me. The thing. Good. Someone would learn what it was. Later. The healer said, “Move.” They lifted the litter. Pain moved with me. I hated that. The yard tilted. River. Hoist. Frame. Cart. Pallets. My boot lying on its side near the drainage channel. Newly repaired eyelet. That was irritating. I laughed once. The healer looked down.
 
@@ -51660,13 +52075,13 @@ CHAPTER SIXTY-FOURTHE PATIENT
 
 The cart ride hurt less than being lifted. This was not because the cart ride hurt less. It was because somebody had given me something. I asked what. The healer said, “Don't worry about it.” Bad answer.
 
-“What?”
+“What?” I asked.
 
-“Poppy, willow, three drops gray tincture.”
+“Poppy, willow, three drops gray tincture,” the healer said.
 
-“How much poppy?”
+“How much poppy?” I asked.
 
-“Enough.”
+“Enough,” she said.
 
 “That's not a unit.”
 
@@ -51842,13 +52257,13 @@ No one answered. Sera said, “Greg. Look at me.” I did.
 
 “Both bones are broken in multiple places. One is open. There is extensive muscle damage. I am concerned about the main blood vessels below the knee.”
 
-“Concerned meaning?”
+“Concerned meaning?” I asked.
 
-“I don't have useful flow to the foot.”
+“I don't have useful flow to the foot,” Sera said.
 
-“Can you restore it?”
+“Can you restore it?” I asked.
 
-“Maybe.”
+“Maybe,” she said.
 
 Maybe. Good word. Honest word.
 
@@ -51986,9 +52401,9 @@ Of course. I laughed. Bad idea. Pain. Hessa put two fingers against my wrist. Th
 
 Sera said, “You know his baseline?”
 
-“Yes.”
+“Yes,” Hessa said.
 
-“Any reason healing support is unsafe?”
+“Any reason healing support is unsafe?” Sera asked.
 
 Hessa looked at me.
 
@@ -52226,7 +52641,7 @@ Hessa nodded.
 
 Good.
 
-“Pell?”
+“Arlo?”
 
 “No.”
 
@@ -52526,7 +52941,7 @@ Of course. I lay back. The absent foot was still clenched. I tried to unclench i
 
 “I wasn't there.”
 
-“Iona?”
+“Ressa?”
 
 “Outside earlier.”
 
@@ -52602,7 +53017,7 @@ City.
 
 “No idea.”
 
-“Pell?”
+“Arlo?”
 
 “No.”
 
@@ -52742,7 +53157,9 @@ My left foot itched. Specifically between the second and third toes. This was im
 
 “Fuck.”
 
-A woman at the next bed said, “Morning.” I turned. Curtain half open. Older woman. Bandage around her head. I had no idea who she was.
+A woman at the next bed said, “Morning.”
+
+I turned. Curtain half open. Older woman. Bandage around her head. I had no idea who she was.
 
 “Sorry.”
 
@@ -52792,9 +53209,9 @@ I pointed.
 
 He smiled. Terrible profession.
 
-“I'm Nerin.”
+“I'm Nerin,” he said.
 
-“Greg.”
+“Greg,” I said.
 
 “I know.”
 
@@ -53030,7 +53447,7 @@ A darker edge near the open section.
 
 Hessa touched above the knee. Then near the wound. Magic. Warm. Careful. My head stayed clear. Hessa said, “Response is better than last night.” Sera nodded.
 
-“Good.”
+“Good,” Sera said.
 
 I almost pointed. Did not. Sera cleaned the wound. That hurt. Not cinematic pain. Not white. Detailed pain. Sharp here. Burn there. Pull. Deep ache. The phantom foot clenched in sympathy. I gripped the bed rail. Nerin appeared beside me. I had not seen him enter.
 
@@ -53244,9 +53661,9 @@ He looked at the blanket. Then me.
 
 “Yes.”
 
-“Still might.”
+“Still might,” I said.
 
-“No.”
+“No,” Alden said.
 
 Immediate. Good. I stared. Alden said, “Not next week.”
 
@@ -53518,11 +53935,177 @@ She considered.
 
 “That isn't in the ledger.”
 
-Good. She left. The debt remained. Strangely reassuring.
+Good. She left. The debt remained. Strangely reassuring. I slept again. When I woke, Sera was arguing with Nerin about my blanket. Not medically. Actually the blanket.
 
-I slept again.When I woke, Sera was arguing with Nerin about my blanket.Not medically.Actually the blanket.“He keeps taking it off,” Nerin said.“I am awake.”“Good,” Sera said. “Then you can participate.”“I don't want the blanket.”“You were shivering.”“I was not.”Nerin said, “You were.”I looked at Sera.“Is this in my chart?”“It is now.”Terrible.Sera checked the wound without removing the whole dressing.Pressure.Warmth.Drainage.Then my knee.“Bend.”I bent it.Not far.Swelling pulled.“More.”“No.”“Pain or fear?”I looked at her.“Pain.”“Good.”“Everyone stop.”She supported the residual limb with one hand and had me bend again.A little farther.The missing foot tried to move with it.Heel sliding backward.Toes flexing.Nothing there.My stomach tightened.“Stop.”She stopped immediately.Good.I breathed.Sera waited.No encouragement.Better.“What are you checking?”“Knee motion. Swelling. Whether positioning is already encouraging you to hold it bent.”“Why?”“Because a knee that never straightens becomes another problem.”There.Future consequence arriving through a pillow.I looked down.The residual limb rested slightly bent because that hurt less.“How straight?”“Not forced today. But don't spend every hour curled.”“Can I put something under the end?”“No thick pillow under it for long periods.”“Why?”“Because you'll like it.”“That is not medical.”“And because comfort can teach the knee a position we don't want.”Annoying.“What position?”“Straight enough to remain useful.”Useful.Word hit strangely.Sera did not notice.Or did and ignored it.Good surgeon.“When do I get out of bed?”“You already did.”“I mean independently.”“Not today.”“Tomorrow?”“Maybe transfer with less help.”“Standing?”“Maybe with supervision if blood loss, wound, and balance permit.”“On one leg.”“Yes.”I knew how to stand on one leg.I had done it thousands of times.That sentence was now stupid.“Crutches?”“Eventually.”“Eventually is a bad unit.”“Tomorrow is also not a promise.”“What about stairs?”Sera stared.“What about them?”“My room is upstairs.”“How many?”I did not know.I had climbed them every day.“Enough.”“Count them when you go home.”“I'd prefer before.”“Then send a friend.”I pictured Sevren counting stairs.He would absolutely lose count on purpose.“Discharge?”“Not today.”“I gathered.”“Possibly several days if the wound behaves. Longer if it doesn't.”“Behaves meaning?”“No infection. Marginal tissue survives. Drainage decreases. No further debridement needed.”“And if it doesn't?”“We remove what becomes nonviable.”“More leg?”“Possibly a small revision. Possibly more if infection or tissue loss demands it.”There.Not finished.The amputation had happened.The result was still not entirely settled.“How likely?”“No.”“You people are cowards.”“We're repetitive.”She stood.“Do not fall.”“I wasn't planning to.”“Excellent. A plan I support.”She left.Nerin put the blanket over me.I let him.Temporary strategic concession.
+“He keeps taking it off,” Nerin said.
 
-When Hessa returned, I did not apologize. Neither did she. She checked my channels. Then sat. Not therapy. Waiting. I said, “Alden asked if I fucked up.”
+“I am awake.”
+
+“Good,” Sera said. “Then you can participate.”
+
+“I don't want the blanket.”
+
+“You were shivering.”
+
+“I was not.”
+
+Nerin said, “You were.” I looked at Sera.
+
+“Is this in my chart?”
+
+“It is now.”
+
+Terrible. Sera checked the wound without removing the whole dressing. Pressure. Warmth. Drainage. Then my knee.
+
+“Bend.”
+
+I bent it. Not far. Swelling pulled.
+
+“More.”
+
+“No.”
+
+“Pain or fear?”
+
+I looked at her.
+
+“Pain.”
+
+“Good.”
+
+“Everyone stop.”
+
+She supported the residual limb with one hand and had me bend again. A little farther. The missing foot tried to move with it. Heel sliding backward. Toes flexing. Nothing there. My stomach tightened.
+
+“Stop.”
+
+She stopped immediately. Good. I breathed. Sera waited. No encouragement. Better.
+
+“What are you checking?”
+
+“Knee motion. Swelling. Whether positioning is already encouraging you to hold it bent.”
+
+“Why?”
+
+“Because a knee that never straightens becomes another problem.”
+
+There. Future consequence arriving through a pillow. I looked down. The residual limb rested slightly bent because that hurt less.
+
+“How straight?”
+
+“Not forced today. But don't spend every hour curled.”
+
+“Can I put something under the end?”
+
+“No thick pillow under it for long periods.”
+
+“Why?”
+
+“Because you'll like it.”
+
+“That is not medical.”
+
+“And because comfort can teach the knee a position we don't want.”
+
+Annoying.
+
+“What position?”
+
+“Straight enough to remain useful.”
+
+Useful. Word hit strangely. Sera did not notice. Or did and ignored it. Good surgeon.
+
+“When do I get out of bed?”
+
+“You already did.”
+
+“I mean independently.”
+
+“Not today.”
+
+“Tomorrow?”
+
+“Maybe transfer with less help.”
+
+“Standing?”
+
+“Maybe with supervision if blood loss, wound, and balance permit.”
+
+“On one leg.”
+
+“Yes.”
+
+I knew how to stand on one leg. I had done it thousands of times. That sentence was now stupid.
+
+“Crutches?”
+
+“Eventually.”
+
+“Eventually is a bad unit.”
+
+“Tomorrow is also not a promise.”
+
+“What about stairs?”
+
+Sera stared.
+
+“What about them?”
+
+“My room is upstairs.”
+
+“How many?”
+
+I did not know. I had climbed them every day.
+
+“Enough.”
+
+“Count them when you go home.”
+
+“I'd prefer before.”
+
+“Then send a friend.”
+
+I pictured Sevren counting stairs. He would absolutely lose count on purpose.
+
+“Discharge?”
+
+“Not today.”
+
+“I gathered.”
+
+“Possibly several days if the wound behaves. Longer if it doesn't.”
+
+“Behaves meaning?”
+
+“No infection. Marginal tissue survives. Drainage decreases. No further debridement needed.”
+
+“And if it doesn't?”
+
+“We remove what becomes nonviable.”
+
+“More leg?”
+
+“Possibly a small revision. Possibly more if infection or tissue loss demands it.”
+
+There. Not finished. The amputation had happened. The result was still not entirely settled.
+
+“How likely?”
+
+“No.”
+
+“You people are cowards.”
+
+“We're repetitive.”
+
+She stood.
+
+“Do not fall.”
+
+“I wasn't planning to.”
+
+“Excellent. A plan I support.”
+
+She left. Nerin put the blanket over me. I let him. Temporary strategic concession. When Hessa returned, I did not apologize. Neither did she. She checked my channels. Then sat. Not therapy. Waiting. I said, “Alden asked if I fucked up.”
 
 “What did you say?”
 
@@ -53562,7 +54145,7 @@ Liar.
 
 “Who owns it?”
 
-“Guild yard office, probably with Iona's statement.”
+“Guild yard office, probably with Ressa's statement.”
 
 “Probably?”
 
@@ -53760,9 +54343,9 @@ That was offensive because it was correct. Sera arrived before I could prove him
 
 “It becomes falling very efficiently.”
 
-“I corrected.”
+“I corrected,” I said.
 
-“Nerin corrected.”
+“Nerin corrected,” Sera said.
 
 “I participated.”
 
@@ -53966,11 +54549,11 @@ Questionable. He separated an orange segment. I took it.
 
 There. The city. Moving.
 
-“Pell?”
+“Arlo?”
 
 Jorren stared.
 
-“What about Pell?”
+“What about Arlo?”
 
 “Nothing.”
 
@@ -54082,11 +54665,11 @@ He left. I was angry for six minutes. Then bored for twenty. Boredom was encoura
 
 *
 
-Pell came after midday. Not because I summoned him. This mattered. He carried a small paper packet.
+Arlo came after midday. Not because I summoned him. This mattered. He carried a small paper packet.
 
 “Food?” I asked.
 
-“No.”
+“No,” Arlo said.
 
 “Then leave.”
 
@@ -54154,13 +54737,13 @@ I looked at him. Yesterday. While I was here. Of course.
 
 “Not yet.”
 
-Good. Pell opened the packet. Sketch. Measurements. Vessa's notes. Not asking me to solve. Just showing. I read. One line caught me.
+Good. Arlo opened the packet. Sketch. Measurements. Vessa's notes. Not asking me to solve. Just showing. I read. One line caught me.
 
 HOT FLUTTER ONLY AFTER MOUNT TAKES FULL FRAME HEAT.
 
 “Frame expansion?”
 
-Pell said, “Maybe.”
+Arlo said, “Maybe.”
 
 “Mount shifts load?”
 
@@ -54174,7 +54757,7 @@ Of course.
 
 “Difference?”
 
-He pointed. Small. Real. Not enough alone. I kept reading. Pell said, “We're testing with a shim tomorrow.”
+He pointed. Small. Real. Not enough alone. I kept reading. Arlo said, “We're testing with a shim tomorrow.”
 
 “Material?”
 
@@ -54198,15 +54781,15 @@ Excellent engineering.
 
 I gave the notes back. He did not ask for a recommendation. That bothered me. Then I realized why. He had one. Test the shim. Observe. Good.
 
-“You didn't need me.”
+“You didn't need me,” I said.
 
-“No.”
+“No,” Arlo said.
 
 He said it easily. Not cruel. Not reassurance. Fact.
 
-“Then why bring it?”
+“Then why bring it?” I asked.
 
-“You like it.”
+“You like it,” Arlo said.
 
 Oh. I looked at him. He looked confused by my confusion.
 
@@ -54220,7 +54803,7 @@ There. Better. Worse.
 
 “Good.”
 
-Pell stood. He had work. Everyone had work. At the door he turned.
+Arlo stood. He had work. Everyone had work. At the door he turned.
 
 “Vessa says don't come to the shop until you can get up the step without making it our problem.”
 
@@ -54264,9 +54847,9 @@ Hessa came with the yard report. Not the full report. A copy. I knew because the
 
 “Then I take it away.”
 
-“Why do you have authority over paper?”
+“Why do you have authority over paper?” I asked.
 
-“I have authority over whether I hand you paper.”
+“I have authority over whether I hand you paper,” Hessa said.
 
 Annoying distinction.
 
@@ -54290,7 +54873,7 @@ First stop called by Greg after loaded cart tracking differed from dry run. Cart
 
 Hoist retook part of frame weight. Cart instructed reverse eighteen inches to clear damaged plate. During reverse, plate failed downward. Then more. The report did not say “everything went to hell.” Professional documents lacked poetry.
 
-Plate failure exposed underlying drainage channel edge. Right rear cart wheel dropped. Cart yawed toward river side. Hoist restraint limited frame movement but created lateral load through cart. Iona called stop. Marn held. Dorn attempted brake and straight correction. Greg moved from observation position toward designated escape lane.
+Plate failure exposed underlying drainage channel edge. Right rear cart wheel dropped. Cart yawed toward river side. Hoist restraint limited frame movement but created lateral load through cart. Ressa called stop. Marn held. Dorn attempted brake and straight correction. Greg moved from observation position toward designated escape lane.
 
 Pallet stack at lane edge had shifted approximately four inches from dry-run placement after morning freight handling. Four inches. There. I stopped reading. Hessa said nothing. I continued. Greg used small Barrier against loose pallet slat while turning through escape lane. Barrier effect observed successful. Cart body cleared Greg.
 
@@ -54354,7 +54937,7 @@ Hessa said, “Report says yard crew.”
 
 “Who approved?”
 
-“Iona accepted the test.”
+“Ressa accepted the test.”
 
 “Marn?”
 
@@ -54412,7 +54995,7 @@ Replace all timber drainage covers in transfer lane. Inspect undersides, not sur
 
 “Yes.”
 
-That stopped me. Hessa did not say it did not matter. Of course it mattered. Everything mattered. Plate notch. Rot. Track width. Pallet. Cart yaw. Hoist restraint. My turn. My speed. My choice to go through that lane. Iona's recovery. Dorn's correction. Marn's hold. Rain from days before? Timber moisture? Fucking breakfast? Enough variables and eventually one could be guilty.
+That stopped me. Hessa did not say it did not matter. Of course it mattered. Everything mattered. Plate notch. Rot. Track width. Pallet. Cart yaw. Hoist restraint. My turn. My speed. My choice to go through that lane. Ressa's recovery. Dorn's correction. Marn's hold. Rain from days before? Timber moisture? Fucking breakfast? Enough variables and eventually one could be guilty.
 
 “Did I fuck up?”
 
@@ -54506,7 +55089,7 @@ I stopped. Eventually. My face was wet. Not crying. Probably. Maybe. I wiped it.
 
 “Yes.”
 
-“Could Iona?”
+“Could Ressa?”
 
 “Yes.”
 
@@ -54608,7 +55191,7 @@ No argument. That was also new.
 
 *
 
-That evening, nobody visited. Good. I thought I wanted people. Then I didn't. Jorren worked. Sevren was north. Alden trained. Pell tested regulators. Antonius collected money from people with the decency to remain ambulatory. Pessa did gate work. Dorn was probably still answering questions about the yard. Iona too. Marn too.
+That evening, nobody visited. Good. I thought I wanted people. Then I didn't. Jorren worked. Sevren was north. Alden trained. Arlo tested regulators. Antonius collected money from people with the decency to remain ambulatory. Pessa did gate work. Dorn was probably still answering questions about the yard. Ressa too. Marn too.
 
 The world had distributed itself around the hole I had left in it. Not a large hole. That hurt. Then I hated myself for wanting it to be larger. I ate dinner. Used the pot. Read two pages. Remembered one. The calendar sat beside Secretary. I picked it up. Alden next week. I crossed out SPAR. Not Alden. Just SPAR.
 
@@ -54694,9 +55277,9 @@ I looked at her. She checked the dressing. The dark margin had improved. Not dis
 
 Bad unit.
 
-“What do I have to do?”
+“What do I have to do?” I asked.
 
-“Transfer safely. Stand without trying to invent a second floor contact. Show me you can manage basic needs with help available. Wound stays stable.”
+“Transfer safely. Stand without trying to invent a second floor contact. Show me you can manage basic needs with help available. Wound stays stable,” Sera said.
 
 “Crutches?”
 
@@ -54822,13 +55405,13 @@ He stared.
 
 “I don't know.”
 
-“Go back.”
+“Go back,” I said.
 
-“No.”
+“No,” Jorren said.
 
 “Jorren.”
 
-“I have work.”
+“I have work,” he said.
 
 “Measure the window.”
 
@@ -54994,7 +55577,7 @@ He stood.
 
 “What?”
 
-“Pell?”
+“Arlo?”
 
 Jorren stared.
 
@@ -55032,7 +55615,7 @@ Jorren left. The room went quiet. I unfolded his drawing. Fourteen stairs. No ra
 
 *
 
-The accident report came back to me after lunch. Not from Hessa. Iona brought it. Full report this time. She stood at the foot of the bed in her green work coat, though it had been cleaned. No rigging gloves. Her hands looked wrong without them.
+The accident report came back to me after lunch. Not from Hessa. Ressa brought it. Full report this time. She stood at the foot of the bed in her green work coat, though it had been cleaned. No rigging gloves. Her hands looked wrong without them.
 
 “Can I sit?”
 
@@ -55046,7 +55629,7 @@ She sat. Placed the report on the table.
 
 “She told me you'd say that.”
 
-Conspiracy. Iona looked at the bandage. Not long. Then my face.
+Conspiracy. Ressa looked at the bandage. Not long. Then my face.
 
 “I wanted to tell you where the yard landed.”
 
@@ -55118,7 +55701,7 @@ There.
 
 “Should you?”
 
-Iona looked at me.
+Ressa looked at me.
 
 “No.”
 
@@ -55152,13 +55735,13 @@ There. After.
 
 “Yard freight crew moved it after dry run. Four inches.”
 
-“Should have recleared lane.”
+“Should have recleared lane,” I said.
 
-“Yes.”
+“Yes,” Ressa said.
 
-“Whose responsibility?”
+“Whose responsibility?” I asked.
 
-“Mine.”
+“Mine,” she said.
 
 Immediate. I looked at her. She did not look away.
 
@@ -55192,7 +55775,7 @@ Immediate. I looked at her. She did not look away.
 
 “So I should have checked.”
 
-Iona's jaw tightened.
+Ressa's jaw tightened.
 
 “Greg.”
 
@@ -55216,7 +55799,7 @@ I stopped. There.
 
 “Yes.”
 
-I hated yes. I wanted no. Or guilt. Clean guilt. Mine. Hers. Somebody's. Iona said, “I signed the final go.”
+I hated yes. I wanted no. Or guilt. Clean guilt. Mine. Hers. Somebody's. Ressa said, “I signed the final go.”
 
 “You didn't know.”
 
@@ -55244,9 +55827,9 @@ Fuck.
 
 “No.”
 
-“Then what does owning mean?”
+“Then what does owning mean?” I asked.
 
-“Work.”
+“Work,” Ressa said.
 
 I stared. She tapped the report.
 
@@ -55334,7 +55917,7 @@ Not Greg. Not some floating responsibility. Named. Good.
 
 “Yes.”
 
-I wanted to scream. Instead I said, “This is useless.” Iona nodded.
+I wanted to scream. Instead I said, “This is useless.” Ressa nodded.
 
 “Yes.”
 
@@ -55378,7 +55961,7 @@ There it was. My job. Filled. Operation completed. Nothing symbolic. Just work.
 
 “Good,” I said.
 
-It sounded wrong. Iona heard.
+It sounded wrong. Ressa heard.
 
 “Greg.”
 
@@ -55412,7 +55995,7 @@ I felt anger.
 
 “No. I was telling you what one part does not mean.”
 
-I looked at the report. Fair. Still hated it. Iona stood.
+I looked at the report. Fair. Still hated it. Ressa stood.
 
 “I have to go.”
 
@@ -55430,7 +56013,7 @@ I looked at the report. Fair. Still hated it. Iona stood.
 
 Of course.
 
-“Iona.”
+“Ressa.”
 
 She stopped.
 
@@ -55452,7 +56035,7 @@ She took too long. Not pity. Calculation.
 
 “I don't know what you'll be able to do.”
 
-There. Sharp. Correct. I looked away. Iona said, “That isn't no.”
+There. Sharp. Correct. I looked away. Ressa said, “That isn't no.”
 
 “It isn't yes.”
 
@@ -55462,13 +56045,13 @@ Good. Bad. Real. She left. I stared at the door. Valued. Maybe. Useful. Unknown.
 
 *
 
-Pell arrived an hour later with Vessa. Vessa carried the regulator body wrapped in cloth. I laughed.
+Arlo arrived an hour later with Vessa. Vessa carried the regulator body wrapped in cloth. I laughed.
 
 “What?”
 
 “You brought it here.”
 
-Pell said, “You complained I didn't need you.”
+Arlo said, “You complained I didn't need you.”
 
 “I did not.”
 
@@ -55486,7 +56069,7 @@ Excellent. I forgot my leg for perhaps twenty seconds.
 
 “Heat transfer?”
 
-“Maybe,” Pell said.
+“Maybe,” Arlo said.
 
 “Spacing?”
 
@@ -55504,7 +56087,7 @@ Vessa showed me. Thin brass. One side.
 
 “That's what I think,” she said.
 
-Pell said, “I think heat path.”
+Arlo said, “I think heat path.”
 
 “Both.”
 
@@ -55530,11 +56113,11 @@ She described it. Competent.
 
 “What about fasteners?”
 
-Pell said, “Next.” There. They had a plan. Again. I leaned back.
+Arlo said, “Next.” There. They had a plan. Again. I leaned back.
 
 “Why are you here?”
 
-Vessa said, “Pell wanted to show you.” Pell looked offended.
+Vessa said, “Arlo wanted to show you.” Arlo looked offended.
 
 “You came too.”
 
@@ -55846,9 +56429,59 @@ Then he left because he had dinner with someone. He did not tell me who. I did n
 
 *
 
-Before dinner, Nerin took me to the washroom.Not the bath.A washroom inside the infirmary.Sixteen feet away.Chair.Transfer.Basin.Privacy, allegedly.The door was narrow enough that Nerin had to angle the chair.I noticed.Of course I noticed.“Width?”“No.”“What?”“You're about to ask.”“I wasn't.”“You looked at the frame.”“Observation is not a crime.”“Today.”He parked beside a low bench.I washed my face.Arms.Chest.The rest became logistics.I had never considered how often standing made washing easy.You stood.Turned.Reached.Shifted.Used both legs without assigning them jobs.Now every movement needed somewhere for weight to go.I braced one hand on the bench and immediately tried to brace through the missing left foot as I leaned.My hip dipped.Nerin caught the chair.“I had it.”“You didn't.”“I corrected.”“You say that a lot.”I sat.Angry.Then looked at the basin.“Can you leave?”“Yes.”He did.Good.I washed what I could.Slowly.The residual limb stayed wrapped and dry.My right sock came off.Putting it back on while seated was stupidly difficult because lifting the right foot removed my only floor contact.I could lean back.Use hands.Balance.Easy.Except my left foot kept trying to become the stabilizer.Three attempts.On the fourth I hooked the sock over my toes.Victory.Pathetic.Real.I sat there holding a sock and laughed once.No reason.Maybe too many.When Nerin came back, he looked at the sock.“Congratulations.”“Fuck you.”“Consistent.”On the way back, we passed the infirmary entrance.Blue door.Sunlight outside.People crossed the Guild courtyard.A porter carrying rope.Two Coppers arguing.A woman with flowers.Nobody looked at me for long.Good.One person did.Bad.Then gone.Nerin turned the chair.For one second I wanted to tell him to keep going.Out.Across courtyard.Home.Fourteen stairs.No rail.Privy outside.I said nothing.Back in bed, I was exhausted.From washing.This was offensive enough that I slept before I could properly resent it.*At night I read the full accident report again.
+Before dinner, Nerin took me to the washroom. Not the bath. A washroom inside the infirmary. Sixteen feet away. Chair. Transfer. Basin. Privacy, allegedly. The door was narrow enough that Nerin had to angle the chair. I noticed. Of course I noticed.
 
-Iona had left it. Hessa would object. Hessa was not there. Excellent. I read slowly. Not reconstructing positions. Mostly. I found another question. The plate had been wet from earlier rain. Did moisture change stiffness? Probably. Was that included in test? Same day. Yes. What about dynamic versus static load during reverse? Report estimated. Could have measured better. What about hoist line angle?
+“Width?”
+
+“No.”
+
+“What?”
+
+“You're about to ask.”
+
+“I wasn't.”
+
+“You looked at the frame.”
+
+“Observation is not a crime.”
+
+“Today.”
+
+He parked beside a low bench. I washed my face. Arms. Chest. The rest became logistics. I had never considered how often standing made washing easy. You stood. Turned. Reached. Shifted. Used both legs without assigning them jobs. Now every movement needed somewhere for weight to go.
+
+I braced one hand on the bench and immediately tried to brace through the missing left foot as I leaned. My hip dipped. Nerin caught the chair.
+
+“I had it.”
+
+“You didn't.”
+
+“I corrected.”
+
+“You say that a lot.”
+
+I sat. Angry. Then looked at the basin.
+
+“Can you leave?”
+
+“Yes.”
+
+He did. Good. I washed what I could. Slowly. The residual limb stayed wrapped and dry. My right sock came off. Putting it back on while seated was stupidly difficult because lifting the right foot removed my only floor contact. I could lean back. Use hands. Balance. Easy. Except my left foot kept trying to become the stabilizer. Three attempts. On the fourth I hooked the sock over my toes.
+
+Victory. Pathetic. Real. I sat there holding a sock and laughed once. No reason. Maybe too many. When Nerin came back, he looked at the sock.
+
+“Congratulations.”
+
+“Fuck you.”
+
+“Consistent.”
+
+On the way back, we passed the infirmary entrance. Blue door. Sunlight outside. People crossed the Guild courtyard. A porter carrying rope. Two Coppers arguing. A woman with flowers. Nobody looked at me for long. Good. One person did. Bad. Then gone. Nerin turned the chair.
+
+For one second I wanted to tell him to keep going. Out. Across courtyard. Home. Fourteen stairs. No rail. Privy outside. I said nothing. Back in bed, I was exhausted. From washing. This was offensive enough that I slept before I could properly resent it.
+
+*
+
+At night I read the full accident report again. Ressa had left it. Hessa would object. Hessa was not there. Excellent. I read slowly. Not reconstructing positions. Mostly. I found another question. The plate had been wet from earlier rain. Did moisture change stiffness? Probably. Was that included in test? Same day. Yes. What about dynamic versus static load during reverse? Report estimated. Could have measured better. What about hoist line angle?
 
 Known. What about cart suspension? Minimal. What about barrel wagon test speed? Slow. Mill cart reverse speed? Slower. What about notch orientation? Unknown until failure. Could have inspected underside. Could inspect every underside. Could inspect fastening holes. Could replace timber by age. Age unknown. Could maintain records. Old modification unrecorded. Could ban unrecorded infrastructure. Absurd. Could require matched wheel track. Now they would.
 
@@ -55856,9 +56489,11 @@ Could reclear lane every movement. Now they would. Could require two escape lane
 
 More information was good. Testing was good. Clear roles were good. Stopping was good. All still true. My leg was also gone. Both sets of facts occupied the same room. I hated crowded rooms. I put the report down. My phantom ankle was bent. I straightened the knee. Actual knee. Sera's instruction. The phantom ankle stayed bent. Fine. Let it. Tomorrow I might try crutches.
 
-Maybe. I had fourteen stairs. Maybe. A downstairs storage room. Absolutely not. Pell had a regulator that still fluttered. Alden would come next week without a question mark. Iona did not know if she would hire me again. Neither did I. That one stayed.
+Maybe. I had fourteen stairs. Maybe. A downstairs storage room. Absolutely not. Arlo had a regulator that still fluttered. Alden would come next week without a question mark. Ressa did not know if she would hire me again. Neither did I. That one stayed. I picked up Jorren's staircase drawing one more time. Fourteen. The number had become insulting. I could hire someone to carry food.
 
-I picked up Jorren's staircase drawing one more time.Fourteen.The number had become insulting.I could hire someone to carry food.I could use a pot at night.I could wash downstairs when someone helped me.I could sleep in the storage room.All technically possible.That was not the same as going home.Home had not changed.That seemed important.Same stairs.Same cracked plaster.Same oval mirror.Same bed.Same stupid place where I had woken nineteen and started making lists about how to do a life better.Only one variable had changed.Me.No.That was too dramatic.Many variables.Pain medication.Strength.Balance.Wound.Time.Practice.Fourteen stairs.I folded the drawing.Better.I turned off the lamp.
+I could use a pot at night. I could wash downstairs when someone helped me. I could sleep in the storage room. All technically possible. That was not the same as going home. Home had not changed. That seemed important. Same stairs. Same cracked plaster. Same oval mirror. Same bed.
+
+Same stupid place where I had woken nineteen and started making lists about how to do a life better. Only one variable had changed. Me. No. That was too dramatic. Many variables. Pain medication. Strength. Balance. Wound. Time. Practice. Fourteen stairs. I folded the drawing. Better. I turned off the lamp.
 
 For the first time since the wheel, I wanted tomorrow to arrive. Not much. Enough.
 
@@ -55866,11 +56501,11 @@ CHAPTER SIXTY-EIGHTTHE NOVICE
 
 Crutches were more complicated than sticks. This offended me immediately. They were waiting beside the parallel rails after breakfast. Wood. Padded tops. Hand grips. Rubberless feet wrapped in some rough dark material for traction. Adjustable by pegs. I looked at them. Nerin looked at me.
 
-“No.”
+“No,” he said.
 
 “I didn't say anything.”
 
-“You made the face.”
+“You made the face,” Nerin said.
 
 “What face?”
 
@@ -56012,7 +56647,7 @@ I breathed. My arms were already tired. Not exhausted. Young body. Good shoulder
 
 “Again.”
 
-“Five minutes.”
+“Five minutes,” she said.
 
 “Three.”
 
@@ -56026,9 +56661,9 @@ Professionals had no negotiation skill.
 
 *
 
-By the third pass I could cross the training room without stopping every movement. Not gracefully. Not safely alone. But enough that my mind started trying to optimize. Crutch angle. Hand position. Right stride. Turn radius. Energy. No. Too soon. I noticed anyway. My right calf did more. Shoulders more. Hands would blister if I was stupid. Floor mattered. Wet stone would matter.
+By the third pass I could cross the training room without stopping every movement.
 
-Loose gravel. Mud. Doors. Carrying things. Fuck. Nerin saw my face.
+Not gracefully. Not safely alone. But enough that my mind started trying to optimize. Crutch angle. Hand position. Right stride. Turn radius. Energy. No. Too soon. I noticed anyway. My right calf did more. Shoulders more. Hands would blister if I was stupid. Floor mattered. Wet stone would matter. Loose gravel. Mud. Doors. Carrying things. Fuck. Nerin saw my face.
 
 “No.”
 
@@ -56276,11 +56911,11 @@ Except there was no foot to place. The residual limb swung instinctively toward 
 
 “I know.”
 
-“Don't rush.”
+“Don't rush,” she said.
 
 “I know.”
 
-“Look where the crutch is.”
+“Look where the crutch is,” Sera said.
 
 I looked. Stable.
 
@@ -56474,7 +57109,7 @@ He looked at the bandage.
 
 “Because I don't know what work you'll be able to do.”
 
-Same answer as Iona. Different stakes.
+Same answer as Ressa. Different stakes.
 
 “Everyone keeps saying that.”
 
@@ -57028,15 +57663,15 @@ He unfolded it. No comment. I sat. My entire body exhaled. Traitor. The street c
 
 She kept walking. Good. Jorren bought water from a stall. I tried to reach for the cup while holding both crutches. Then remembered I was sitting. Easy. That almost made me angry. I drank.
 
-“Ready?” he asked.
+“Ready?” Jorren asked.
 
 “No.”
 
-“Good.”
+“Good,” he said.
 
 “What?”
 
-“You always say yes.”
+“You always say yes,” Jorren said.
 
 “I do not.”
 
@@ -57066,9 +57701,9 @@ Good. No pity. The step. I had done three with a rail. This one had doorframe. B
 
 Except the doorway narrowed the crutch angle and my right shoulder clipped the frame. Small. I stopped. Reset. Through. Inside. Success. The keeper said, “Storage room.”
 
-“Temporary room.”
+“Temporary room,” I said.
 
-“Storage room.”
+“Storage room,” she repeated.
 
 “Traitor.”
 
@@ -57228,13 +57863,13 @@ The keeper brought soup and bread. She put it on the stool. Then stopped. The st
 
 The keeper nodded. No ceremony. I reached for soup. Then realized I could not comfortably hold the bowl and reposition myself on the cot. Jorren moved it closer.
 
-“I had it.”
+“I had it,” I said.
 
-“You didn't.”
+“You didn't,” Jorren said.
 
 “Yes.”
 
-“Eat.”
+“Eat,” he said.
 
 I ate. Good soup. Too much salt. Perfect.
 
@@ -57340,7 +57975,7 @@ Dorn came before evening. He had the second glove. Clean. Mostly. Dark stain nea
 
 He sat on the crate Jorren had used. Looked uncomfortable. Not physically.
 
-“Iona came?”
+“Ressa came?”
 
 “Yes.”
 
@@ -57434,7 +58069,7 @@ We sat. He looked at the glove.
 
 “Everyone knows.”
 
-“Iona told me.”
+“Ressa told me.”
 
 Terrible city.
 
@@ -57484,9 +58119,59 @@ Hip lift using right foot and shoulders. My body tried to brace with left heel. 
 
 *
 
-Before dark, I tried washing.The keeper had left a basin on the kitchen table.Not for me specifically.Probably.I chose to believe not.Getting there was easy now that I had already done it twice.That was dangerous.Familiarity arrived before competence.Crutches.Right foot.Kitchen.I leaned both crutches against the table.Immediately hated that.Too far if I lost balance.I moved one closer.Then realized I needed both hands.Fine.Chair.There was a kitchen chair.Higher than cot.Good.I sat.Shirt off.Easy.Except pulling it over my head changed balance more than expected.My body tried to steady with the missing foot.Again.I stopped with the shirt over my face.Excellent.Blind, half naked, one foot.Good position.I lowered the shirt.Started over.One arm.Other arm.Head last.Success.My shoulders had new red marks where the crutch pads sat near but not under my armpits.Hands worse.Skin hot at the base of both thumbs.No blisters yet.Soon.Hessa.Fine.I washed.Face.Neck.Chest.Arms.The water cooled fast.My body looked mostly the same.Young.Lean.A little more muscle than when I woke in it.Ribs.Shoulders.Old scars not mine from first life.New bruising from crutches.Then bandage.End.The visual stopped.I did too.Not dramatic.Just hard to keep looking.I washed my right leg.This became another stupid problem.Lifting the right foot removed my only floor contact.I could lean back.Chair stable.Probably.I checked it.Of course.Then lifted.Washed calf.Ankle.Foot.One foot.My brain supplied the other.Wet left toes.No.I put the cloth down.Waited.The phantom sensation remained.Interesting.Terrible.Could temperature transfer across the body map?Maybe.No experiments.Hessa's voice arrived without her.Annoying.I dried.Then needed the shirt again.Easier.Practice.That word had become everywhere.The keeper entered while I was buttoning.She stopped.“Need anything?”“No.”She looked at basin.Then at me.“Water goes out back.”Of course.I stared at the basin.Full enough to be awkward.I could not carry it with two crutches.Could slide it?No.Could leave it?Yes.Could ask.Again.“Could you dump it?”“Yes.”No ceremony.She took the basin.Problem solved.I hated how many problems could be solved by another person doing one small thing.Not because it was bad.Because it worked.“Thanks.”She nodded.“Tomorrow I'll put a bucket here.”“For what?”“Used water.”Oh.Better system.Not mine.Useful anyway.I almost started optimizing placement.Stopped.“Good.”She looked at me strangely.“What?”“Nothing.”“Face?”She stared harder.Never mind.I went back to the storage room.My right leg was tired.Hands hurt.I had washed myself.Mostly.With one carried basin and one dumped basin and a chair someone else had already put in the kitchen.Independent was becoming a suspicious word.Maybe it always had been.No.Too philosophical.I lay down.Ten minutes.Then sat back up because the cot made my hip stiff.Everything had become maintenance.Fine.The mirror remained against the crate.
+Before dark, I tried washing. The keeper had left a basin on the kitchen table. Not for me specifically. Probably. I chose to believe not. Getting there was easy now that I had already done it twice. That was dangerous. Familiarity arrived before competence. Crutches. Right foot. Kitchen. I leaned both crutches against the table. Immediately hated that. Too far if I lost balance.
 
-Later I adjusted it. Not much. Just enough to see my face without ceiling. Crutches appeared along one edge. Sword along the other. Cot behind. Storage baskets. Not my cracked washbasin. Not my bed. Still me. I touched my beard. Same stupid uneven beard.
+I moved one closer. Then realized I needed both hands. Fine. Chair. There was a kitchen chair. Higher than cot. Good. I sat. Shirt off. Easy. Except pulling it over my head changed balance more than expected. My body tried to steady with the missing foot. Again. I stopped with the shirt over my face. Excellent. Blind, half naked, one foot. Good position.
+
+I lowered the shirt. Started over. One arm. Other arm. Head last. Success. My shoulders had new red marks where the crutch pads sat near but not under my armpits. Hands worse. Skin hot at the base of both thumbs. No blisters yet. Soon. Hessa. Fine. I washed. Face. Neck. Chest. Arms. The water cooled fast. My body looked mostly the same.
+
+Young. Lean. A little more muscle than when I woke in it. Ribs. Shoulders. Old scars not mine from first life. New bruising from crutches. Then bandage. End. The visual stopped. I did too. Not dramatic. Just hard to keep looking. I washed my right leg. This became another stupid problem. Lifting the right foot removed my only floor contact. I could lean back.
+
+Chair stable. Probably. I checked it. Of course. Then lifted. Washed calf. Ankle. Foot. One foot. My brain supplied the other. Wet left toes. No. I put the cloth down. Waited. The phantom sensation remained. Interesting. Terrible. Could temperature transfer across the body map? Maybe. No experiments. Hessa's voice arrived without her. Annoying. I dried. Then needed the shirt again. Easier. Practice.
+
+That word had become everywhere. The keeper entered while I was buttoning. She stopped.
+
+“Need anything?”
+
+“No.”
+
+She looked at basin. Then at me.
+
+“Water goes out back.”
+
+Of course. I stared at the basin. Full enough to be awkward. I could not carry it with two crutches. Could slide it? No. Could leave it? Yes. Could ask. Again.
+
+“Could you dump it?”
+
+“Yes.”
+
+No ceremony. She took the basin. Problem solved. I hated how many problems could be solved by another person doing one small thing. Not because it was bad. Because it worked.
+
+“Thanks.”
+
+She nodded.
+
+“Tomorrow I'll put a bucket here.”
+
+“For what?”
+
+“Used water.”
+
+Oh. Better system. Not mine. Useful anyway. I almost started optimizing placement. Stopped.
+
+“Good.”
+
+She looked at me strangely.
+
+“What?”
+
+“Nothing.”
+
+“Face?”
+
+She stared harder. Never mind. I went back to the storage room. My right leg was tired. Hands hurt. I had washed myself. Mostly. With one carried basin and one dumped basin and a chair someone else had already put in the kitchen. Independent was becoming a suspicious word. Maybe it always had been. No. Too philosophical. I lay down. Ten minutes.
+
+Then sat back up because the cot made my hip stiff. Everything had become maintenance. Fine. The mirror remained against the crate. Later I adjusted it. Not much. Just enough to see my face without ceiling. Crutches appeared along one edge. Sword along the other. Cot behind. Storage baskets. Not my cracked washbasin. Not my bed. Still me. I touched my beard. Same stupid uneven beard.
 
 The first morning in this body I had looked into that mirror and thought I had time. Not infinite time. More. Enough to do things differently. I still had time. Probably. That was not comforting.
 
@@ -57566,9 +58251,9 @@ Purse upstairs? No. My purse was in my bag. Good. I checked. Enough. No exact in
 
 Still took me three minutes. The keeper said, “Mira's boy runs deliveries.”
 
-“Passenger?”
+“Passenger?” I asked.
 
-“If passenger isn't proud.”
+“If passenger isn't proud,” she said.
 
 “Expensive?”
 
@@ -57686,13 +58371,13 @@ I smiled. She nodded toward the board.
 
 “Good.”
 
-“What are you doing?”
+“What are you doing?” I asked.
 
-“North road culvert follow-up.”
+“North road culvert follow-up,” Pessa said.
 
 “The farm repair?”
 
-“Different culvert.”
+“Different culvert,” she said.
 
 “Oh.”
 
@@ -57798,11 +58483,11 @@ There it was again. Enough. I disliked the word.
 
 “Fine.”
 
-“Falls?”
+“Falls?” Sera asked.
 
 “No.”
 
-“Near falls?”
+“Near falls?” she asked.
 
 I thought about the kitchen crutch sliding.
 
@@ -57976,11 +58661,11 @@ I rubbed one wrapped hand.
 
 “Yes.”
 
-“Then why not?”
+“Then why not?” I asked.
 
 Hessa looked at me.
 
-“I didn't tell you not to.”
+“I didn't tell you not to,” she said.
 
 Right. Fuck. I had not taken it. My choice. Why? Because I did not know if I could. That was new. Not inability. Uncertainty about ability. I hated that more.
 
@@ -58046,7 +58731,7 @@ He continued. Normal interaction. Good.
 
 *
 
-I found Pell in the Guild courtyard. Not looking for me. He was arguing with Vessa over a brass collar. Excellent. I stopped near them. Neither noticed for several seconds. Better. Vessa held the collar. Pell had a regulator body.
+I found Arlo in the Guild courtyard. Not looking for me. He was arguing with Vessa over a brass collar. Excellent. I stopped near them. Neither noticed for several seconds. Better. Vessa held the collar. Arlo had a regulator body.
 
 “No,” she said. “The hot shift follows the mount.”
 
@@ -58062,7 +58747,7 @@ I found Pell in the Guild courtyard. Not looking for me. He was arguing with Ves
 
 “That is not different enough to justify your face.”
 
-I said, “His face is very specific.” They both turned. Pell smiled.
+I said, “His face is very specific.” They both turned. Arlo smiled.
 
 “You're vertical.”
 
@@ -58084,7 +58769,7 @@ Good.
 
 “What happened?”
 
-Pell held up the collar.
+Arlo held up the collar.
 
 “Fastener test.”
 
@@ -58122,7 +58807,7 @@ There. My brain lit.
 
 “Could be seating sequence.”
 
-“Yes,” Pell said.
+“Yes,” Arlo said.
 
 “Or clamp order is hiding uneven face.”
 
@@ -58132,7 +58817,7 @@ Vessa nodded.
 
 “Could measure contact transfer with pigment.”
 
-Pell frowned.
+Arlo frowned.
 
 “Pigment?”
 
@@ -58152,7 +58837,7 @@ I stopped. Future knowledge. Current materials.
 
 “Could transfer.”
 
-Pell looked interested.
+Arlo looked interested.
 
 “Would it affect seating?”
 
@@ -58162,7 +58847,7 @@ Pell looked interested.
 
 “Very.”
 
-Vessa said, “We can try cold first.” Good. They had it. I did not need to go. I did not need to own it. I stood there smiling like an idiot. Pell noticed.
+Vessa said, “We can try cold first.” Good. They had it. I did not need to go. I did not need to own it. I stood there smiling like an idiot. Arlo noticed.
 
 “What?”
 
@@ -58180,9 +58865,91 @@ They left. Just like that. I had contributed one thought. Maybe useful. Maybe no
 
 *
 
-Before I left the Guild, I went back to the contract board.Not for the spice job.Gone.Obviously.The board had changed in the hours I had been inside.Three slips removed.Four added.One had a red cancellation mark.One had been amended from TWO BRONZE to ONE BRONZE, ONE COPPER.Living document.I liked that.A clerk was copying yesterday's completed jobs into a ledger.I recognized Bram's name.WEST RIVER MILL FRAME TRANSFER.Completed.Bram Holt.Dorn.Iona Vale.Marn.No Greg.Correct.My stomach still did something.I read the next line.EAST GATE CLEARANCE.Different names.Then SOUTH ROAD MARKERS.Different names.People.Work.Done.The clerk noticed.“You need something?”“No.”He looked at the crutches.Then at the ledger.“Your west yard line is in incident records, not completion.”“I know.”“Pay clerk has your partial.”I stopped.“What?”“West yard show and hours before incident. Iona signed it.”Of course.The job had pay.I had forgotten.“How much?”He checked another sheet.I almost told him not to.Economy.Numbers.Useful.“Four copper due.”Less than full job.More than nothing.Reasonable.“Now?”“If you want.”“Yes.”He counted four copper.I put it away.Money earned before the wheel.Strange.Not compensation.Not charity.Work.I liked that distinction too much.“Any medical claim?” I asked.The clerk frowned.“Yard incident coverage goes through Guild office. Sera filed treatment. Anything beyond treatment, ask accounts.”“Beyond?”“Lost equipment, canceled contract fees if applicable, injury allowance depending assignment.”There.A whole system I had not asked about.Of course.“Do I need to do that today?”“No.”Excellent.“Then not today.”The clerk nodded.Progress.I looked once more at the board.A new slip:CANAL LOCK WATCH.Bronze.Night.Physical.No.Another:LETTER COPY, THREE HOURS.Good handwriting required.My handwriting was functional.Could.Probably.I did not reach.Not every possible job needed to become a referendum.That thought almost sounded wise.I rejected it on principle.Then I left.*The return trip cost another two copper.
+Before I left the Guild, I went back to the contract board. Not for the spice job. Gone. Obviously. The board had changed in the hours I had been inside. Three slips removed. Four added. One had a red cancellation mark.
 
-I paid it immediately. No debate. Progress. The delivery boy had a sack of flour beside me this time. I shared the cart with flour. Appropriate. At the lodging, the front step was easier. Not easy. Familiar. Crutches in. Right foot. Door. Kitchen. The keeper had left lunch under a cloth. Cold chicken. Bread. Apple.
+One had been amended from TWO BRONZE to ONE BRONZE, ONE COPPER. Living document. I liked that. A clerk was copying yesterday's completed jobs into a ledger. I recognized Bram's name.
+
+WEST RIVER MILL FRAME TRANSFER.
+
+Completed. Bram Holt. Dorn. Iona Vale. Marn. No Greg. Correct. My stomach still did something. I read the next line.
+
+EAST GATE CLEARANCE.
+
+Different names. Then SOUTH ROAD MARKERS. Different names. People. Work. Done. The clerk noticed.
+
+“You need something?”
+
+“No.”
+
+He looked at the crutches. Then at the ledger.
+
+“Your west yard line is in incident records, not completion.”
+
+“I know.”
+
+“Pay clerk has your partial.”
+
+I stopped.
+
+“What?”
+
+“West yard show and hours before incident. Ressa signed it.”
+
+Of course. The job had pay. I had forgotten.
+
+“How much?”
+
+He checked another sheet. I almost told him not to. Economy. Numbers. Useful.
+
+“Four copper due.”
+
+Less than full job. More than nothing. Reasonable.
+
+“Now?”
+
+“If you want.”
+
+“Yes.”
+
+He counted four copper. I put it away. Money earned before the wheel. Strange. Not compensation. Not charity. Work. I liked that distinction too much.
+
+“Any medical claim?” I asked.
+
+The clerk frowned.
+
+“Yard incident coverage goes through Guild office. Sera filed treatment. Anything beyond treatment, ask accounts.”
+
+“Beyond?”
+
+“Lost equipment, canceled contract fees if applicable, injury allowance depending assignment.”
+
+There. A whole system I had not asked about. Of course.
+
+“Do I need to do that today?”
+
+“No.”
+
+Excellent.
+
+“Then not today.”
+
+The clerk nodded. Progress. I looked once more at the board.
+
+A new slip:
+
+CANAL LOCK WATCH.
+
+Bronze. Night. Physical. No.
+
+Another:
+
+LETTER COPY, THREE HOURS.
+
+Good handwriting required. My handwriting was functional. Could. Probably. I did not reach. Not every possible job needed to become a referendum. That thought almost sounded wise. I rejected it on principle. Then I left.
+
+*
+
+The return trip cost another two copper. I paid it immediately. No debate. Progress. The delivery boy had a sack of flour beside me this time. I shared the cart with flour. Appropriate. At the lodging, the front step was easier. Not easy. Familiar. Crutches in. Right foot. Door. Kitchen. The keeper had left lunch under a cloth. Cold chicken. Bread. Apple.
 
 I ate at the kitchen table. Crutches hooked over chair back. Her idea. Useful. After, I needed the notebook from the storage room. I got it myself. Then needed the accident report. Also there. I picked it up. Held it. Could not carry notebook, report, and use two crutches. Right. I put the report down. Notebook under shirt? Possible. No. I tucked it into the back of my belt.
 
@@ -58784,15 +59551,13 @@ She frowned.
 
 Good. She pointed to a table near the front. Chair. High enough. Good. Ledger. First counter's sheet. Three narrow columns. Lot. Ledger amount. Physical amount. Variance.
 
-“Problem?”
+“Problem?” I asked.
 
-I asked.
-
-“Five variances.”
+“Five variances,” Mara said.
 
 “Large?”
 
-“Two small. Three not.”
+“Two small. Three not,” she said.
 
 “Possible causes?”
 
@@ -58804,17 +59569,15 @@ I asked.
 
 Good. Warehouse boy appeared. Sixteen. Maybe seventeen. Name Toma. Thin. Spice dust on sleeves. Mara said, “He can bring tags and open lots.”
 
-“Can he lift?”
+“Can he lift?” I asked.
 
 Toma looked offended.
 
-“Yes.”
+“Yes,” he said.
 
 “Good.”
 
-“Can you?”
-
-Mara asked.
+“Can you?” Mara asked.
 
 “No.”
 
@@ -58900,15 +59663,15 @@ She nodded. Good question.
 
 Then:
 
-“Who has access?”
+“Who has access?” I asked.
 
 Mara's eyes narrowed.
 
-“Why?”
+“Why?” she asked.
 
 “If we're checking theft.”
 
-“We're not checking theft. We're checking count.”
+“We're not checking theft. We're checking count,” Mara said.
 
 Correct. I had expanded the problem.
 
@@ -58984,11 +59747,11 @@ Mara said, “Yes.”
 
 “Yes.”
 
-“Ledger entered from supplier invoice or local weight?”
+“Ledger entered from supplier invoice or local weight?” I asked.
 
 Mara stopped.
 
-“Invoice.”
+“Invoice,” she said.
 
 There.
 
@@ -59562,11 +60325,11 @@ Sevren returned before noon. I knew because he came through the front door talki
 
 He looked at me.
 
-“Still one leg?”
+“Still one leg?” Sevren asked.
 
 “Yes.”
 
-“Good. I was worried it might spread.”
+“Good. I was worried it might spread,” he said.
 
 I laughed. Immediate. Pain less now.
 
@@ -59708,9 +60471,9 @@ Then:
 
 We ate more bread. This was ordinary enough that I forgot to be irritated. Then Sevren asked, “Green door tonight?” I stopped. There. Social. Not work.
 
-“Jorren going?”
+“Jorren going?” I asked.
 
-“Yes.”
+“Yes,” Sevren said.
 
 “Octavia?”
 
@@ -59842,9 +60605,9 @@ Alden arrived early. Not tomorrow. Today. He had misread his own week. This deli
 
 He stood in the storage-room doorway with training bag. Sweaty again.
 
-“Sevren.”
+“Sevren,” Alden said.
 
-“Alden.”
+“Alden,” Sevren answered.
 
 They knew each other enough to nod. Interesting. Not mine. Good. Alden looked at me.
 
@@ -59950,9 +60713,9 @@ I smiled.
 
 “No.”
 
-He let it go. Important. Then he asked, “When can we train?” There. Not spar. Train. I looked at him.
+He let it go. Important. Then Alden asked, “When can we train?” There. Not spar. Train. I looked at him.
 
-“What kind?”
+“What kind?” I asked.
 
 He shrugged.
 
@@ -60000,7 +60763,361 @@ Sevren laughed. Alden left. I watched him go. No future scar. No optimization. J
 
 *
 
-After Sevren left to wash road dust off, I had three hours until dusk.Too much time.I considered canceling.Then I wanted a clean shirt.The clean shirt I wanted was upstairs.Of course.I had two shirts downstairs.One smelled faintly of spice.The other had a tear near the cuff.Neither mattered.I wanted the blue one.Not because blue mattered.Because I had chosen it before.Because it was mine.Because wanting one shirt instead of another was apparently now enough to generate a logistical operation.I stood at the bottom of the stairs.No attempt.Good.“Keeper?”She was in the kitchen.“What?”“Could you get a shirt from my room?”“Yes.”Immediate.I hated immediate.“Blue.”“Which blue?”I stopped.I owned two blue shirts?Apparently.“One with dark buttons.”She went upstairs.Twelve.Landing.Two.I counted again.Less consciously.Still counted.She came down with the wrong blue shirt.I stared.“What?”“Wrong buttons.”“They're dark.”“They're brown.”“Brown is dark.”“Not the same.”She looked at me.Then at the stairs.Then back.I felt ridiculous.Good.“I'll wear it.”“No.”“What?”She turned and went back upstairs.“Wait.”Too late.Twelve.Landing.Two.She returned with the right shirt.Black buttons.“Thank you.”“Men.”“That category is too broad.”“Greg.”“Fair.”I changed.The shirt did not make me feel better.Then it did.Slightly.Annoying.I looked in the mirror.Blue shirt.One boot.Crutches.Hair terrible.I could fix hair.Did.Beard?No.Fine.I looked nineteen.Going out.That was different from looking nineteen while injured.Same face.Different intention.I touched the mirror frame.Then stopped because that was becoming symbolic.No.It was dusty.I wiped it.Better.*The keeper had a bath tub.Not a permanent one.Wooden half-barrel brought into the washroom when someone paid for hot water.I knew this.Had used it twice.I suddenly wanted a bath.Not tonight.Too much.But the idea arrived.“How much for bath tomorrow?”I asked.She looked up from onions.“Hot?”“Yes.”“Two copper.”“Why?”“Water does not heat itself.”“Magic.”“You paying a mage?”“No.”“Then two copper.”Reasonable.“Can I use it?”She looked at crutches.Then toward washroom.“Getting in?”“Yes.”“Probably not alone.”There.I pictured tub edge.High.Wet floor.One foot.No.“Chair wash.”“Free.”“Terrible.”“Clean.”“Yes.”I had been doing basin washes.Functional.Not bath.I wanted hot water.Submerged.Body weight held by water.Then getting out.No.Later.Another ordinary thing waiting.Not lost.Not available yet.Different.I added it mentally to nothing.No list.Good.*Jorren came by before the Guild trip.Not to visit.He wanted his knife.“What knife?”“The small one I left upstairs.”“How did your knife get in my room?”“You borrowed it.”“When?”“Before Darrowmere.”I remembered.Maybe.“Why?”“Cutting cord.”“Then it's mine.”“No.”“Possession.”“Upstairs possession.”I looked at the stairs.He looked at me.“Fuck you.”“I didn't say anything.”“Face.”He went up.I listened.Again.He came down with the knife and my old belt pouch.“This was on the floor.”“I was looking for that.”“No you weren't.”“I would have eventually.”He tossed it.I caught.Good.Inside were two copper and a bent nail.Excellent wealth.“What is nail?”“No idea.”“Keep?”“Yes.”“Why?”“Could be useful.”He nodded solemnly.“Old Greg.”“What?”“Nothing.”“Explain.”“No.”He tucked knife into boot.“Green door?”“Yes.”“You going?”“Yes.”He looked surprised.That irritated me.“What?”“Nothing.”“You thought no.”“I thought maybe.”“Why?”“Because yesterday you were tired from counting cinnamon.”“Today I am not.”“Good.”There.No celebration.He headed for door.“Wait.”“What?”“Is the green door floor actually flat?”He stared.“Yes.”“Entirely?”“No floor is entirely flat.”Fuck.“Spills?”“Yes.”“Crowded?”“Probably.”“Door step?”“One.”“Back privy?”“One threshold.”“Anything else?”“What are you asking?”I stopped.What else.What else.What else.The question opened.Could someone knock crutches.Could chair shift.Could beer spill.Could fight start.Could fire.Could roof collapse.Could wagon hit building.Enough.“Nothing.”Jorren watched.Not understanding fully.Good.“Come if you want.”“I do.”“Then come.”He left.Simple.I hated simple less when it came from Jorren because he was frequently wrong.*At Guild, Sera checked the wound.Still improving.No increased drainage after yesterday's work.No fever.Swelling a little worse by evening yesterday, reduced after rest.Expected.“Work again today?”“No.”“Good.”“Social.”She looked at me.“What?”“Going somewhere.”“Excellent.”“Why excellent?”“Because you asked about something other than work.”I stared.“No therapy.”“That was medical.”“How?”“Fatigue management.”“Liar.”She smiled.“Stay off wet floors.”I froze.She noticed.“What?”“Nothing.”“Greg.”“Sevren said spills.”“Then don't put crutch tips in spills.”Simple.Fuck.“Alcohol?”“Minimal with medication.”“Define.”“One drink if you are not taking poppy near it. Prefer none.”“Food?”“Yes.”“Late?”“Sleep matters.”“You ruin everything.”“Professionally.”She rewrapped the limb.“Stairs?”“Still three.”“Want four?”“Yes.”
+After Sevren left to wash road dust off, I had three hours until dusk. Too much time. I considered canceling. Then I wanted a clean shirt. The clean shirt I wanted was upstairs. Of course. I had two shirts downstairs. One smelled faintly of spice. The other had a tear near the cuff. Neither mattered. I wanted the blue one. Not because blue mattered.
+
+Because I had chosen it before. Because it was mine. Because wanting one shirt instead of another was apparently now enough to generate a logistical operation. I stood at the bottom of the stairs. No attempt. Good.
+
+“Keeper?”
+
+She was in the kitchen.
+
+“What?”
+
+“Could you get a shirt from my room?”
+
+“Yes.”
+
+Immediate. I hated immediate.
+
+“Blue.”
+
+“Which blue?”
+
+I stopped. I owned two blue shirts? Apparently.
+
+“One with dark buttons.”
+
+She went upstairs. Twelve. Landing. Two. I counted again. Less consciously. Still counted. She came down with the wrong blue shirt. I stared.
+
+“What?”
+
+“Wrong buttons.”
+
+“They're dark.”
+
+“They're brown.”
+
+“Brown is dark.”
+
+“Not the same.”
+
+She looked at me. Then at the stairs. Then back. I felt ridiculous. Good.
+
+“I'll wear it.”
+
+“No.”
+
+“What?”
+
+She turned and went back upstairs.
+
+“Wait.”
+
+Too late. Twelve. Landing. Two. She returned with the right shirt. Black buttons.
+
+“Thank you.”
+
+“Men.”
+
+“That category is too broad.”
+
+“Greg.”
+
+“Fair.”
+
+I changed. The shirt did not make me feel better. Then it did. Slightly. Annoying. I looked in the mirror. Blue shirt. One boot. Crutches. Hair terrible. I could fix hair. Did. Beard? No. Fine. I looked nineteen. Going out. That was different from looking nineteen while injured. Same face. Different intention. I touched the mirror frame. Then stopped because that was becoming symbolic.
+
+No. It was dusty. I wiped it. Better.
+
+*
+
+The keeper had a bath tub. Not a permanent one. Wooden half-barrel brought into the washroom when someone paid for hot water. I knew this. Had used it twice. I suddenly wanted a bath. Not tonight. Too much. But the idea arrived.
+
+“How much for bath tomorrow?”
+
+I asked. She looked up from onions.
+
+“Hot?”
+
+“Yes.”
+
+“Two copper.”
+
+“Why?”
+
+“Water does not heat itself.”
+
+“Magic.”
+
+“You paying a mage?”
+
+“No.”
+
+“Then two copper.”
+
+Reasonable.
+
+“Can I use it?”
+
+She looked at crutches. Then toward washroom.
+
+“Getting in?”
+
+“Yes.”
+
+“Probably not alone.”
+
+There. I pictured tub edge. High. Wet floor. One foot. No.
+
+“Chair wash.”
+
+“Free.”
+
+“Terrible.”
+
+“Clean.”
+
+“Yes.”
+
+I had been doing basin washes. Functional. Not bath. I wanted hot water. Submerged. Body weight held by water. Then getting out. No. Later. Another ordinary thing waiting. Not lost. Not available yet. Different. I added it mentally to nothing. No list. Good.
+
+*
+
+Jorren came by before the Guild trip. Not to visit. He wanted his knife.
+
+“What knife?”
+
+“The small one I left upstairs.”
+
+“How did your knife get in my room?”
+
+“You borrowed it.”
+
+“When?”
+
+“Before Darrowmere.”
+
+I remembered. Maybe.
+
+“Why?”
+
+“Cutting cord.”
+
+“Then it's mine.”
+
+“No.”
+
+“Possession.”
+
+“Upstairs possession.”
+
+I looked at the stairs. He looked at me.
+
+“Fuck you.”
+
+“I didn't say anything.”
+
+“Face.”
+
+He went up. I listened. Again. He came down with the knife and my old belt pouch.
+
+“This was on the floor.”
+
+“I was looking for that.”
+
+“No you weren't.”
+
+“I would have eventually.”
+
+He tossed it. I caught. Good. Inside were two copper and a bent nail. Excellent wealth.
+
+“What is nail?”
+
+“No idea.”
+
+“Keep?”
+
+“Yes.”
+
+“Why?”
+
+“Could be useful.”
+
+He nodded solemnly.
+
+“Old Greg.”
+
+“What?”
+
+“Nothing.”
+
+“Explain.”
+
+“No.”
+
+He tucked knife into boot.
+
+“Green door?”
+
+“Yes.”
+
+“You going?”
+
+“Yes.”
+
+He looked surprised. That irritated me.
+
+“What?”
+
+“Nothing.”
+
+“You thought no.”
+
+“I thought maybe.”
+
+“Why?”
+
+“Because yesterday you were tired from counting cinnamon.”
+
+“Today I am not.”
+
+“Good.”
+
+There. No celebration. He headed for door.
+
+“Wait.”
+
+“What?”
+
+“Is the green door floor actually flat?”
+
+He stared.
+
+“Yes.”
+
+“Entirely?”
+
+“No floor is entirely flat.”
+
+Fuck.
+
+“Spills?”
+
+“Yes.”
+
+“Crowded?”
+
+“Probably.”
+
+“Door step?”
+
+“One.”
+
+“Back privy?”
+
+“One threshold.”
+
+“Anything else?”
+
+“What are you asking?”
+
+I stopped. What else. What else. What else. The question opened. Could someone knock crutches. Could chair shift. Could beer spill. Could fight start. Could fire. Could roof collapse. Could wagon hit building. Enough.
+
+“Nothing.”
+
+Jorren watched. Not understanding fully. Good.
+
+“Come if you want.”
+
+“I do.”
+
+“Then come.”
+
+He left. Simple. I hated simple less when it came from Jorren because he was frequently wrong.
+
+*
+
+At Guild, Sera checked the wound. Still improving. No increased drainage after yesterday's work. No fever. Swelling a little worse by evening yesterday, reduced after rest. Expected.
+
+“Work again today?”
+
+“No.”
+
+“Good.”
+
+“Social.”
+
+She looked at me.
+
+“What?”
+
+“Going somewhere.”
+
+“Excellent.”
+
+“Why excellent?”
+
+“Because you asked about something other than work.”
+
+I stared.
+
+“No therapy.”
+
+“That was medical.”
+
+“How?”
+
+“Fatigue management.”
+
+“Liar.”
+
+She smiled.
+
+“Stay off wet floors.”
+
+I froze. She noticed.
+
+“What?”
+
+“Nothing.”
+
+“Greg.”
+
+“Sevren said spills.”
+
+“Then don't put crutch tips in spills.”
+
+Simple. Fuck.
+
+“Alcohol?”
+
+“Minimal with medication.”
+
+“Define.”
+
+“One drink if you are not taking poppy near it. Prefer none.”
+
+“Food?”
+
+“Yes.”
+
+“Late?”
+
+“Sleep matters.”
+
+“You ruin everything.”
+
+“Professionally.”
+
+She rewrapped the limb.
+
+“Stairs?”
+
+“Still three.”
+
+“Want four?”
+
+“Yes.”
 
 Too much time. I considered canceling. Then considered going upstairs. No. Then considered stair practice at Guild. Wound check first. Right. I hired a cart. Again. No argument. At Guild, Sera checked the wound. Still improving. No increased drainage after yesterday's work. No fever. Swelling a little worse by evening yesterday, reduced after rest. Expected.
 
@@ -60192,7 +61309,43 @@ He looked away. Good. I stayed. That mattered. Not as triumph. I simply still wa
 
 *
 
-An hour became two.At some point Octavia dragged a chair sideways with her foot and sat beside me.Not delicately.“Sevren said you were difficult.”“He is unreliable.”“He said that too.”“What have you been doing?”“Recovering.”“Sounds boring.”“Yes.”“Work?”“One spice count.”She nodded.No congratulations.Good.“I had a cloth buyer try to pay me in buttons.”“Good buttons?”“No.”“Then insulting.”“Exactly.”She told me about it.The buyer had apparently argued that imported horn buttons would appreciate.Octavia had asked whether her landlord accepted appreciating buttons.He did not.I laughed hard enough that the residual limb complained.Then we spent five minutes ranking things that would be worse than buttons as payment.Dried fish.Roof tiles.A goat you did not own yet.Future soup.Jorren suggested debt.Antonius would approve.For several minutes I was not the injured person at the table.I was just one of several idiots discussing theoretical goat liquidity.Then I shifted and pain returned.Fine.Both could exist.Octavia got up because someone called her.No meaningful look.No hand squeeze.She went to argue about cards.Perfect.An hour became two.
+An hour became two. At some point Octavia dragged a chair sideways with her foot and sat beside me. Not delicately.
+
+“Sevren said you were difficult.”
+
+“He is unreliable.”
+
+“He said that too.”
+
+“What have you been doing?”
+
+“Recovering.”
+
+“Sounds boring.”
+
+“Yes.”
+
+“Work?”
+
+“One spice count.”
+
+She nodded. No congratulations. Good.
+
+“I had a cloth buyer try to pay me in buttons.”
+
+“Good buttons?”
+
+“No.”
+
+“Then insulting.”
+
+“Exactly.”
+
+She told me about it. The buyer had apparently argued that imported horn buttons would appreciate. Octavia had asked whether her landlord accepted appreciating buttons. He did not. I laughed hard enough that the residual limb complained.
+
+Then we spent five minutes ranking things that would be worse than buttons as payment. Dried fish. Roof tiles. A goat you did not own yet. Future soup. Jorren suggested debt. Antonius would approve.
+
+For several minutes I was not the injured person at the table. I was just one of several idiots discussing theoretical goat liquidity. Then I shifted and pain returned. Fine. Both could exist. Octavia got up because someone called her. No meaningful look. No hand squeeze. She went to argue about cards. Perfect. An hour became two.
 
 Bad. Good. My right leg stiffened. Shoulders tired. Residual limb throbbed. Time to leave. I knew before anyone told me. That was useful.
 
@@ -60432,11 +61585,11 @@ He looked at the crutches. Then nodded. No speech.
 
 He grinned.
 
-“Lerris Vane. Does doors, rails, shop counters, repairs. Not cheap. Not Antonius expensive.”
+“Lerris Vane. Does doors, rails, shop counters, repairs. Not cheap. Not Antonius expensive,” Tam said.
 
 “Useful scale.”
 
-“He'll be at east lane today.”
+“He'll be at east lane today,” Tam added.
 
 “Where?”
 
@@ -60488,15 +61641,15 @@ Lerris Vane had both thumbs. I checked. Carpenter. Relevant. He was broad, maybe
 
 “No idea.”
 
-“Plaster over timber?”
+“Plaster over timber?” Lerris asked.
 
 “Probably.”
 
-“Probably costs more.”
+“Probably costs more,” he said.
 
 “Why?”
 
-“Because I don't attach rails to probably.”
+“Because I don't attach rails to probably,” Lerris said.
 
 Good. I liked him.
 
@@ -60662,11 +61815,9 @@ Nerin smiled.
 
 Good. Seven. Half of fourteen. Arithmetic again. Not equivalent. No rail at home. Different geometry. Different fatigue. Still. Seven.
 
-“What do I need before fourteen?”
+“What do I need before fourteen?” I asked. Sera leaned against the wall.
 
-I asked. Sera leaned against wall.
-
-“Not a number.”
+“Not a number,” she said.
 
 “I know.”
 
@@ -60826,9 +61977,9 @@ We played. I lost again. This accomplished nothing. Excellent. Then he left for 
 
 Dela Marr arrived the next morning before Lerris. I had expected old. She was maybe thirty-five. Red coat. Two rings. Sharp face. Carried a ledger. Of course. The keeper introduced us.
 
-“This is Greg.”
+“This is Greg,” she said.
 
-“I know.”
+“I know,” Dela said.
 
 Why?
 
@@ -61084,7 +62235,23 @@ She left. No lesson.
 
 *
 
-That afternoon the wound started itching under the wrap.Real itch.Probably.I could no longer reliably distinguish real skin from phantom foot by annoyance alone.I sat on the cot and waited.The itch moved.Real.Closer to the suture line.Do not scratch.Fine.I pressed my thigh instead.No effect.Then the phantom toes joined.Excellent.Both.I laughed because the alternative was arguing with nerves.The keeper passed the doorway.“What?”“Nothing.”“You're laughing alone.”“Yes.”“Bad sign.”“Probably.”She kept going.I wanted a bath again.Hot water.Tub.Not yet.Could maybe sit on washroom chair and pour hot water.Different.Tomorrow.No need to solve bathing today.That afternoon I wanted my notebook from upstairs.
+That afternoon the wound started itching under the wrap. Real itch. Probably. I could no longer reliably distinguish real skin from phantom foot by annoyance alone. I sat on the cot and waited. The itch moved. Real. Closer to the suture line. Do not scratch. Fine. I pressed my thigh instead. No effect. Then the phantom toes joined. Excellent. Both. I laughed because the alternative was arguing with nerves.
+
+The keeper passed the doorway.
+
+“What?”
+
+“Nothing.”
+
+“You're laughing alone.”
+
+“Yes.”
+
+“Bad sign.”
+
+“Probably.”
+
+She kept going. I wanted a bath again. Hot water. Tub. Not yet. Could maybe sit on washroom chair and pour hot water. Different. Tomorrow. No need to solve bathing today. That afternoon I wanted my notebook from upstairs.
 
 Wrong notebook. The old one. Not the current. I could ask keeper. She was out. Could wait. Could ask Jorren later. Could climb. No. Could leave it. I left it. This was infuriating. I sat in the kitchen. Nothing to do. Current notebook. Cards. Sword. Could read accident report. No. Absolutely not. I found a scrap of paper and drew the staircase.
 
@@ -61170,7 +62337,87 @@ There. No calendar. No schedule. Just yes. He left for training. Of course.
 
 *
 
-After Alden left, I tried the kitchen chair without using the crutches for every reposition.Not walking.Chair movement.Right foot planted.Hands on seat.Small lift.Shift.Sit.Useful.Then I tried moving the chair six inches while seated.Awkward.Possible.The keeper watched from the stove.“What are you doing?”“Nothing.”“That is visibly something.”“Moving a chair.”“Why?”“I wanted it there.”“Then ask.”“I can move a chair.”“You can also ask.”Both true.Annoying.I moved it another six inches.My shoulder complained.Stopped.The chair was now where I wanted it.I had spent more effort than asking would have required.Still worth it.Maybe.Not every inefficient act needed correction.That felt important.No.It felt satisfying.Better.I sat by the kitchen window.Outside, two children rolled a hoop through the alley.One fell.Got up.Kept running.A woman carried laundry.Someone delivered onions.Nothing about the view was useful.I watched anyway.After a while the keeper put a cup of tea beside me.“I didn't ask.”“I made too much.”Everyone had adopted this defense.“Thank you.”She nodded.I drank.The tea was terrible.I finished it.Then Dela came back through the front room because she had forgotten her ledger clasp.She saw me by the window.“Rail starts tomorrow?”“Two days, Lerris said.”“He'll start tomorrow.”“Good.”She found the clasp.“Why no rail before?”“What?”“Staircase.”She shrugged.“No one asked.”There.Simple.“Never needed?”“Apparently not enough.”“Anyone old live upstairs?”“Several.”“They manage?”“Some hold wall. One moved downstairs last winter. One complains.”“Why not install?”“Money. Habit. Nobody asked. Pick one.”I looked at the stairs.Systems did not automatically become ideal because they functioned.Obvious.Also irritating.“Would you have installed if someone asked before?”“Depends who paid.”Of course.She left.No moral.Just landlord.I finished the tea.Later I practiced standing from the higher kitchen chair twice.No rails.Crutches positioned correctly.Push.Balance.Sit.The second was cleaner.I stopped at two.Not because Sera had ordered two.Because I wanted enough arm left to get to the privy before bed.Practicality.Boring.Good.The storage room still waited.So did the boot.I picked it up once.Leather stiff.Tam could use parts.I put it back.No decision tonight.At night the storage room felt temporary again.
+After Alden left, I tried the kitchen chair without using the crutches for every reposition. Not walking. Chair movement. Right foot planted. Hands on seat. Small lift. Shift. Sit. Useful. Then I tried moving the chair six inches while seated. Awkward. Possible. The keeper watched from the stove.
+
+“What are you doing?”
+
+“Nothing.”
+
+“That is visibly something.”
+
+“Moving a chair.”
+
+“Why?”
+
+“I wanted it there.”
+
+“Then ask.”
+
+“I can move a chair.”
+
+“You can also ask.”
+
+Both true. Annoying. I moved it another six inches. My shoulder complained. Stopped. The chair was now where I wanted it. I had spent more effort than asking would have required. Still worth it. Maybe. Not every inefficient act needed correction. That felt important. No. It felt satisfying. Better. I sat by the kitchen window. Outside, two children rolled a hoop through the alley.
+
+One fell. Got up. Kept running. A woman carried laundry. Someone delivered onions. Nothing about the view was useful. I watched anyway. After a while the keeper put a cup of tea beside me.
+
+“I didn't ask.”
+
+“I made too much.”
+
+Everyone had adopted this defense.
+
+“Thank you.”
+
+She nodded. I drank. The tea was terrible. I finished it. Then Dela came back through the front room because she had forgotten her ledger clasp. She saw me by the window.
+
+“Rail starts tomorrow?”
+
+“Two days, Lerris said.”
+
+“He'll start tomorrow.”
+
+“Good.”
+
+She found the clasp.
+
+“Why no rail before?”
+
+“What?”
+
+“Staircase.”
+
+She shrugged.
+
+“No one asked.”
+
+There. Simple.
+
+“Never needed?”
+
+“Apparently not enough.”
+
+“Anyone old live upstairs?”
+
+“Several.”
+
+“They manage?”
+
+“Some hold wall. One moved downstairs last winter. One complains.”
+
+“Why not install?”
+
+“Money. Habit. Nobody asked. Pick one.”
+
+I looked at the stairs. Systems did not automatically become ideal because they functioned. Obvious. Also irritating.
+
+“Would you have installed if someone asked before?”
+
+“Depends who paid.”
+
+Of course. She left. No moral. Just landlord. I finished the tea. Later I practiced standing from the higher kitchen chair twice. No rails. Crutches positioned correctly. Push. Balance. Sit. The second was cleaner. I stopped at two. Not because Sera had ordered two.
+
+Because I wanted enough arm left to get to the privy before bed. Practicality. Boring. Good. The storage room still waited. So did the boot. I picked it up once. Leather stiff. Tam could use parts. I put it back. No decision tonight. At night the storage room felt temporary again.
 
 Not because I had convinced myself. Because a rail was actually scheduled. Three copper labor. Two days. Then still training. Still wound. Still fourteen. But conditions could change. I could change some. Others changed me. Some stayed. No slogan. Good. I lay down. The phantom foot pressed against an imaginary floor. I ignored it. Upstairs, my room waited. Not forever. Probably. I smiled.
 
@@ -61210,13 +62457,13 @@ He smiled. I hated tradesmen who enjoyed themselves. The rail was ordinary ash. 
 
 The noise made the storage room impossible, so I stayed in the kitchen. This was mildly annoying and unexpectedly pleasant. Someone else was changing the stairs. I did not supervise. Mostly. At one point Lerris set a post against the stringer and sighted upward. I saw the angle.
 
-“That's not vertical.”
+“That's not vertical,” I said.
 
-“No.”
+“No,” Lerris said.
 
 “Why?”
 
-“Stair isn't.”
+“Stair isn't,” he said.
 
 “Oh.”
 
@@ -61426,9 +62673,9 @@ Good. New fact. Small.
 
 I stored it.
 
-“Did they treat the seized stock?”
+“Did they treat the seized stock?” I asked.
 
-“No evidence they did.”
+“No evidence they did,” Edrin said.
 
 Not no. No evidence. Good.
 
@@ -61492,11 +62739,11 @@ Interesting.
 
 “How would he get narrow?”
 
-“He gave me four answers.”
+“He gave me four answers,” Edrin said.
 
 I leaned forward. Residual limb pulled. Ignored.
 
-“One: start with unusually uniform raw stone.”
+“One: start with unusually uniform raw stone,” she continued.
 
 Dorrin sorting. Possible.
 
@@ -61674,9 +62921,9 @@ Or one customer with multiple use cases. Or seized batches unrelated beyond comp
 
 I had asked before stopping. Fine.
 
-“How far apart?”
+“How far apart?” I asked.
 
-“I am not giving you shipment records.”
+“I am not giving you shipment records,” Edrin said.
 
 “Days? Months?”
 
@@ -61932,7 +63179,12 @@ I did. The storage room smelled faintly of cut ash. My damaged left boot sat bes
 
 I wrote:
 
-VARO:SUPPRESSION EASY.CONSISTENCY HARD.POSSIBLE: UNIFORM RAW / REJECT / ADJUST PIECES / SORT AFTER.MEASUREMENT PROBLEM?WHY PAY?
+VARO:
+SUPPRESSION EASY.
+CONSISTENCY HARD.
+POSSIBLE: UNIFORM RAW / REJECT / ADJUST PIECES / SORT AFTER.
+MEASUREMENT PROBLEM?
+WHY PAY?
 
 Then:
 
@@ -61968,7 +63220,7 @@ He hammered. I laughed. Fine.
 
 *
 
-Pell arrived while Lerris was still working. Not for me. He had come to borrow a clamp from Lerris. Of course they knew each other. Carrow had approximately twelve people. Pell saw me.
+Arlo arrived while Lerris was still working. Not for me. He had come to borrow a clamp from Lerris. Of course they knew each other. Carrow had approximately twelve people. Arlo saw me.
 
 “Contact test worked.”
 
@@ -61996,7 +63248,7 @@ He did. Thin lampblack on mount face. Clamp. Release. Uneven transfer. Outer edg
 
 “Good.”
 
-Pell nodded.
+Arlo nodded.
 
 “Your idea helped.”
 
@@ -62058,9 +63310,143 @@ Everyone owned something. Fine. I paid him one copper of my three labor now, two
 
 *
 
-Before dinner, Sevren appeared in the doorway with rain on one shoulder and no obvious reason to be there.“South route?”“Done.”“That was fast.”“It was yesterday.”Right.Time.“Where are you going?”“Octavia.”“Again?”“She has a package.”“Romantic.”“It's cloth.”“Very romantic.”He looked at the half-finished rail.“That's new.”“Yes.”“Can you use it?”“No.”“Then terrible rail.”“Unfinished.”“Excuses.”He came in.Saw my notebook open.“Work?”“No.”“What?”“Sinkstone.”He waited.“Rocks.”“Ah.”He had no interest.This was refreshing.“Edrin talked to Varo.”“Who?”“Chemical shop.”“Good?”“Interesting.”“Are you going there?”“No.”He looked at me.“Really?”“Yes.”“Why?”“Not my investigation.”“Since when has that stopped you?”“Frequently.”He thought.“Has it?”“Fuck you.”He laughed.Then he noticed the damaged boot.“That yours?”“Was.”He picked it up before I could object.Turned it over.“Tam can use this.”“Yes.”“Good leather here.”He pressed the upper near heel.I watched.Nothing happened.It remained leather.“Take it to him?”“Not now.”“Why?”“I don't know.”Sevren put it back exactly where it had been.“Okay.”No question.Good.He sat on the crate.“Cards?”“You have package.”“Ten minutes.”We played one hand.I won.Finally.“Cheater,” he said.“I learned from you.”He left for Octavia's delivery.The sinkstone problem remained open on the notebook.The boot remained beside the table.The rail remained incomplete.Three unfinished things.I did not touch any of them for several minutes.At dinner I tried explaining Varo to the keeper.
+Before dinner, Sevren appeared in the doorway with rain on one shoulder and no obvious reason to be there.
 
-Mistake.
+“South route?”
+
+“Done.”
+
+“That was fast.”
+
+“It was yesterday.”
+
+Right. Time.
+
+“Where are you going?”
+
+“Octavia.”
+
+“Again?”
+
+“She has a package.”
+
+“Romantic.”
+
+“It's cloth.”
+
+“Very romantic.”
+
+He looked at the half-finished rail.
+
+“That's new.”
+
+“Yes.”
+
+“Can you use it?”
+
+“No.”
+
+“Then terrible rail.”
+
+“Unfinished.”
+
+“Excuses.”
+
+He came in. Saw my notebook open.
+
+“Work?”
+
+“No.”
+
+“What?”
+
+“Sinkstone.”
+
+He waited.
+
+“Rocks.”
+
+“Ah.”
+
+He had no interest. This was refreshing.
+
+“Edrin talked to Varo.”
+
+“Who?”
+
+“Chemical shop.”
+
+“Good?”
+
+“Interesting.”
+
+“Are you going there?”
+
+“No.”
+
+He looked at me.
+
+“Really?”
+
+“Yes.”
+
+“Why?”
+
+“Not my investigation.”
+
+“Since when has that stopped you?”
+
+“Frequently.”
+
+He thought.
+
+“Has it?”
+
+“Fuck you.”
+
+He laughed. Then he noticed the damaged boot.
+
+“That yours?”
+
+“Was.”
+
+He picked it up before I could object. Turned it over.
+
+“Tam can use this.”
+
+“Yes.”
+
+“Good leather here.”
+
+He pressed the upper near heel. I watched. Nothing happened. It remained leather.
+
+“Take it to him?”
+
+“Not now.”
+
+“Why?”
+
+“I don't know.”
+
+Sevren put it back exactly where it had been.
+
+“Okay.”
+
+No question. Good. He sat on the crate.
+
+“Cards?”
+
+“You have package.”
+
+“Ten minutes.”
+
+We played one hand. I won. Finally.
+
+“Cheater,” he said.
+
+“I learned from you.”
+
+He left for Octavia's delivery. The sinkstone problem remained open on the notebook. The boot remained beside the table. The rail remained incomplete. Three unfinished things. I did not touch any of them for several minutes. At dinner I tried explaining Varo to the keeper. Mistake.
 
 “So rocks?”
 
@@ -62118,11 +63504,12 @@ Old question. Still good.
 
 Under it I added:
 
-MAYBE WRONG UNIT.WHO SORTS / MEASURES / SPECIFIES?
+MAYBE WRONG UNIT.
+WHO SORTS / MEASURES / SPECIFIES?
 
 There. That felt useful. Maybe too useful. I stared. The producer might not be one person. Could be chain. Raw seller. Treater. Tester. Trader. Customer. Who sets tolerance? Customer maybe. Who rejects? Processor maybe. Who measures? Unknown. The hard part might be the test. Holl. No. General only. I closed notebook. Boundary. Good.
 
-Then I looked at the rail again. Someone had changed a staircase because I asked. Edrin had brought me information because she thought I saw things differently. Pell had used an idea because it happened to help.
+Then I looked at the rail again. Someone had changed a staircase because I asked. Edrin had brought me information because she thought I saw things differently. Arlo had used an idea because it happened to help.
 
 None of those made me necessary. I did not need to decide whether that was good. My phantom heel pressed into the floor. I lifted my actual thigh slightly. The phantom heel stayed. Wrong. Fine.
 
@@ -62274,7 +63661,7 @@ Ah. She showed me how to turn carefully toward rail, lower with control, keep re
 
 I hated that. We practiced standing from the step. Rail. Crutch. Right leg. Hard. Possible. Then down. At bottom my arms shook. Not badly. Real. Sera looked.
 
-“Home attempt this afternoon if swelling remains controlled.”
+Sera said, “Home attempt this afternoon if swelling remains controlled.”
 
 I stopped.
 
@@ -62306,7 +63693,9 @@ There.
 
 “Nerin can come if Guild allows.”
 
-Nerin said, “I have patients.” Right. Life. Sera said, “Hessa may be available. Or someone competent after instruction.”
+Nerin said, “I have patients.” Right. Life.
+
+“Hessa may be available,” Sera said. “Or someone competent after instruction.”
 
 “Jorren?”
 
@@ -62528,7 +63917,7 @@ Terrible. She looked at Jorren.
 
 “No.”
 
-Hessa showed him. Not by making me climb. Belt. Position one step below and slightly behind on ascent. Do not pull unless I actually lose balance. Do not stand directly behind where I could fall onto him. Do not grab crutches. Do not improvise. Jorren listened. Actually listened. Good. Keeper stood at bottom. Not because committee. Because it was her staircase and we were blocking it.
+Hessa showed him. Not by making me climb. "Belt. One step below and slightly behind on ascent. Do not pull unless he actually loses balance. Do not stand directly behind where he could fall onto you. Do not grab the crutches. Do not improvise." Jorren listened. Actually listened. Good. Keeper stood at bottom. Not because committee. Because it was her staircase and we were blocking it.
 
 “Ready?”
 
@@ -62546,15 +63935,15 @@ Jorren's hand touched belt. Not pulled. There. Actual. Rail. Crutch. Right foot.
 
 “Sit?” Jorren asked.
 
-Could sit on landing floor. Would then need stand. Two steps. I wanted room.
+Could sit on the landing floor. Would then need stand. Two steps. I wanted room.
 
-“Thirty seconds.”
+“Thirty seconds,” I said.
 
-We waited. Keeper below said, “You're blocking my stairs.” I laughed. Bad timing. Good. Breath. Thigh. Hands. Two. First upper step. Hard. Second. Harder. Top. I was upstairs. That was it. No trumpet. No revelation.
+We waited. Keeper below said, “You're blocking my stairs.” I laughed. Bad timing. Good. Breath. Thigh. Hands. Two. First upper step. Hard. Second. Harder. Top. I was upstairs.
 
-I stood in the hall with my right leg shaking and both arms tired enough that I immediately wanted a chair. My room door was six feet away. Fuck. I had forgotten the six feet. Of course. Crutch. Right foot. Crutch. Right foot. Door. Jorren opened it. I hated that. Then accepted it because my hands were occupied. My room. Same bed.
+That was it. No trumpet. No revelation. I stood in the hall with my right leg shaking and both arms tired enough that I immediately wanted a chair. My room door was six feet away. Fuck. I had forgotten the six feet. Of course. Crutch. Right foot. Crutch. Right foot. Door. Jorren opened it. I hated that. Then accepted it because my hands were occupied.
 
-Same washbasin. Empty hook where coat had been. Shelf. Window. The place smelled closed. Dust. My pillow. My actual mattress. I sat on the bed too fast. Residual limb hurt.
+My room. Same bed. Same washbasin. Empty hook where coat had been. Shelf. Window. The place smelled closed. Dust. My pillow. My actual mattress. I sat on the bed too fast. Residual limb hurt.
 
 “Fuck.”
 
@@ -62718,7 +64107,7 @@ I sat up. Bad idea. Slow. Better. Window light late afternoon. From upstairs I c
 
 *
 
-Pell sent a note. Not Pell personally. A boy.
+Arlo sent a note. Not Arlo personally. A boy.
 
 Vessa's handwriting:
 
@@ -62954,7 +64343,7 @@ I almost said boot. No.
 
 “Nothing.”
 
-She left. I ate by the window. From here I could see the roofline toward the Guild district if I leaned. Not the Guild. Just direction. Holl's shop was somewhere beyond two streets and a turn. Varo farther. Pell elsewhere. Work everywhere. I was upstairs eating an egg. This was not exile. It was also not mobility. Both. A runner passed below with Guild colors.
+She left. I ate by the window. From here I could see the roofline toward the Guild district if I leaned. Not the Guild. Just direction. Holl's shop was somewhere beyond two streets and a turn. Varo farther. Arlo elsewhere. Work everywhere. I was upstairs eating an egg. This was not exile. It was also not mobility. Both. A runner passed below with Guild colors.
 
 Not for me. Good. Then another. Also not. I laughed at myself. Nobody could hear. I spent the morning upstairs. This was the part I had not modeled. Getting room back meant being in room. Not doing anything. No kitchen table. No easy front door. No spontaneous green door. No Guild board. No Holl. I had traded storage-room access for upstairs privacy.
 
@@ -63076,7 +64465,9 @@ HOLL: WHAT DECISION SHOULD FAST TEST ENABLE?
 
 Under it:
 
-RAW ACCEPT?TREATMENT ADJUST?FINAL SORT?
+RAW ACCEPT?
+TREATMENT ADJUST?
+FINAL SORT?
 
 Three possibilities. Could be others. Of course. No exhaustive list. I closed notebook before making one. Then I looked at the stairs through open door. Fourteen down tomorrow. Different skill. Harder. I was afraid. There. Simple. Not of losing another leg. Not exactly. Of falling. Of wound opening.
 
@@ -63154,9 +64545,9 @@ He grinned.
 
 “Incision intact. No new drainage. No heat. No spreading redness. Margin still looks viable.”
 
-“Stairs?”
+“Stairs?” I asked.
 
-“Sera says one controlled descent if you feel as good after dressing and breakfast as you do now.”
+“Sera says one controlled descent if you feel as good after dressing and breakfast as you do now,” Nerin said.
 
 “I already ate.”
 
@@ -63302,11 +64693,11 @@ On ascent, right leg pushed. On descent, right leg had to lower me under control
 
 Good. Six. Seven. My right knee trembled. Not failure. Information. Eight. The stair below looked farther away than the one above had. That made no geometric sense. Body did not care. Nine. I lowered too fast. Right foot hit harder. Residual limb throbbed. I froze.
 
-“Sit,” keeper said.
+“Sit,” the keeper said.
 
 “I can continue.”
 
-“Didn't say you couldn't.”
+“Didn't say you couldn't,” she said.
 
 Annoying. I sat. Technique. Turn carefully toward rail. Keep residual limb clear. Lower. My arms were grateful before my pride could object. I sat on step nine. Or five from bottom. Depends direction. No. Stop counting. The keeper sat two steps below me.
 
@@ -63402,7 +64793,7 @@ It did. I walked back into lodging with two pears against my stomach. The keeper
 
 “Commerce.”
 
-She laughed. I ate one. The second remained on table. This was the first thing I had bought outside since getting downstairs again. Not meaningful. Pear. Good. I considered walking to the corner. No. My arms already felt the stairs. Pear expedition sufficient. The Guild sent no job. Excellent. Pell sent no note. Also excellent. Alden did not appear. Everyone had lives.
+She laughed. I ate one. The second remained on table. This was the first thing I had bought outside since getting downstairs again. Not meaningful. Pear. Good. I considered walking to the corner. No. My arms already felt the stairs. Pear expedition sufficient. The Guild sent no job. Excellent. Arlo sent no note. Also excellent. Alden did not appear. Everyone had lives.
 
 I sat at the kitchen table with current notebook.
 
@@ -63410,7 +64801,9 @@ HOLL.
 
 WHAT DECISION SHOULD FAST TEST ENABLE?
 
-RAW ACCEPT?TREATMENT ADJUST?FINAL SORT?
+RAW ACCEPT?
+TREATMENT ADJUST?
+FINAL SORT?
 
 I had wanted to go yesterday. Could go today. No. I had just descended fourteen stairs and used the privy. My arms knew. Tomorrow maybe. But I could think. Dangerous distinction. I drew three columns. Not sinkstone. General testing.
 
@@ -63454,11 +64847,11 @@ He handed it over. Clean enough. Stain remained. I put it beside the other glove
 
 He fetched it. Good. He examined the leather professionally. No symbolism. Pressed sole. Checked stitching. Looked at cut.
 
-“Upper has usable sections.”
+“Upper has usable sections,” Tam said.
 
 “For what?”
 
-“Patch work. Straps. Small pieces.”
+“Patch work. Straps. Small pieces,” he said.
 
 “Worth?”
 
@@ -63576,11 +64969,14 @@ Good. He copied names. Then left. No cards. Work. Fine. I felt better. Annoying.
 
 After Sevren left, I tried to nap. Could not. The storage room was too warm. The kitchen too loud. Upstairs had been quieter. Of course. I had spent days wanting downstairs access and now immediately missed upstairs. Human beings were badly designed.
 
-I took current notebook to kitchen. The second pear was still there. I ate it.
+I took current notebook to kitchen. The second pear was still there. I ate it. Then I wrote a list titled THINGS UPSTAIRS. Mirror.
+Brown notebook.
+Clean shirt.
+Calendar.
+Wooden horse.
+Sword. Sword was upstairs. Right. Did I need sword downstairs? No. Did I want it? Maybe. Could ask someone. No need.
 
-Then I wrote a list titled THINGS UPSTAIRS. Mirror.Brown notebook.Clean shirt.Calendar.Wooden horse.Sword.
-
-Sword was upstairs. Right. Did I need sword downstairs? No. Did I want it? Maybe. Could ask someone. No need. The list became ridiculous quickly. Everything could migrate every time I moved, or I could stop treating each floor as a permanent relocation. There. I crossed out title.
+The list became ridiculous quickly. Everything could migrate every time I moved, or I could stop treating each floor as a permanent relocation. There. I crossed out title.
 
 Wrote:
 
@@ -63730,7 +65126,9 @@ I did not go look. Not because afraid. Partly because afraid. Also because it wa
 
 Then I returned to notebook. A Guild runner came near fourth bell. I saw the colors through front window and immediately assumed work. Wrong. Note from Sera.
 
-NO SECOND STAIR TRIP TODAY.WOUND CHECK TOMORROW MORNING.IF NO INCREASED DRAINAGE/HEAT/REDNESS, MAY PRACTICE ONE ASCENT AFTER.
+NO SECOND STAIR TRIP TODAY.
+WOUND CHECK TOMORROW MORNING.
+IF NO INCREASED DRAINAGE/HEAT/REDNESS, MAY PRACTICE ONE ASCENT AFTER.
 
 Clear. Good. I read it twice. One ascent tomorrow. Not tonight. Storage room tonight. I looked at stairs. My room upstairs. Bed. Window. Privacy. Then storage cot. Kitchen near. Privy near. Front door near. Different advantages. I could be angry. Was. A little.
 
@@ -63890,7 +65288,8 @@ Different than before. The ceiling had not changed. The room had not changed. I 
 
 Below:
 
-SERA MORNING.MAYBE ONE ASCENT AFTER.
+SERA MORNING.
+MAYBE ONE ASCENT AFTER.
 
 Then:
 
@@ -63962,7 +65361,7 @@ He looked at the crutches. Then at my face.
 
 “Good. I don't have work.”
 
-Excellent start. His place smelled like stone dust, damp wood, and the faint mineral bitterness I associated with cheap kestrin. Not Pell's workshop. Less metal. More trays. Holl had a long bench against one wall with shallow wooden boxes divided into squares. Pieces of pale gray stone sat in some compartments. Others held brass tags. A balance. A mana bead fixture. Reference tiles.
+Excellent start. His place smelled like stone dust, damp wood, and the faint mineral bitterness I associated with cheap kestrin. Not Arlo's workshop. Less metal. More trays. Holl had a long bench against one wall with shallow wooden boxes divided into squares. Pieces of pale gray stone sat in some compartments. Others held brass tags. A balance. A mana bead fixture. Reference tiles.
 
 A little clamp. Nothing dramatic. Commercial. Good. I had hired the cart. Obviously. Morning wound check had been clean enough that Sera allowed normal ground-floor activity and one controlled ascent later if swelling remained modest. No stair practice. No unnecessary walking. Holl was ground floor. I had asked. Chair available. I had asked. Privy behind yard, one shallow threshold. I had asked.
 
@@ -63982,11 +65381,11 @@ He wiped his hands.
 
 “Your business.”
 
-“I sort and certify cheap suppression stock for people who don't want to pay for better stone.”
+“I sort and certify cheap suppression stock for people who don't want to pay for better stone,” Holl said.
 
 There.
 
-“Certify what?”
+“Certify what?” I asked.
 
 “Range.”
 
@@ -64148,9 +65547,9 @@ Good. Not high stakes. Mostly.
 
 “No.”
 
-“What decision?”
+“What decision?” I asked.
 
-“Which pile.”
+“Which pile,” Holl said.
 
 There. Simple.
 
@@ -64220,9 +65619,9 @@ Of course.
 
 Good.
 
-“What do you need?”
+“What do you need?” I asked.
 
-“Something a worker can use without me.”
+“Something a worker can use without me,” Holl said.
 
 There. Not fastest possible. Transferable.
 
@@ -64406,9 +65805,9 @@ He pulled ledger. Good. Not secret. Commercial. We looked. Recent lots. Rough pe
 
 Holl said, “Weak versus usable first.”
 
-“Then upper among usable.”
+“Then upper among usable,” I said.
 
-“Yes.”
+“Yes,” Holl said.
 
 “Two binary decisions.”
 
@@ -64974,7 +66373,7 @@ She left. I did not follow. Physical impossibility not required. I simply did no
 
 *
 
-Sevren was north. Jorren working late. Alden training. Pell and Vessa had explicitly banned me. I had no social visitor. This was fine. For about twenty minutes. Then boring. I ate second half of stolen meat pie? No. Keeper had eaten it. Criminal. I ordered stew. Paid.
+Sevren was north. Jorren working late. Alden training. Arlo and Vessa had explicitly banned me. I had no social visitor. This was fine. For about twenty minutes. Then boring. I ate second half of stolen meat pie? No. Keeper had eaten it. Criminal. I ordered stew. Paid.
 
 Read cheap adventure pamphlet again. The marsh serpent still made no sense. Good.
 
@@ -64984,11 +66383,20 @@ After dinner, I copied Holl notes. Not every detail.
 
 Actual useful:
 
-HOLL SELLS SORTED/CERTIFIED CHEAP SUPPRESSION STOCK.CUSTOMERS BUY RANGE/BAND, NOT EXACT VALUE.RAW ACCEPT + FINAL SORT.3 BANDS BECAUSE 4 DOESN'T PAY.FAST TEST SUCCESS = MORE CORRECT SORTING PER WORKER/DAY, NOT FASTEST READING.ERRORS ASYMMETRIC.TRACK WORKER + RETURNS BEFORE TOOL REDESIGN.BINARY THRESHOLDS MAY BE EASIER THAN 3-BAND MAGNITUDE.
+HOLL SELLS SORTED/CERTIFIED CHEAP SUPPRESSION STOCK.
+CUSTOMERS BUY RANGE/BAND, NOT EXACT VALUE.
+RAW ACCEPT + FINAL SORT.
+3 BANDS BECAUSE 4 DOESN'T PAY.
+FAST TEST SUCCESS = MORE CORRECT SORTING PER WORKER/DAY, NOT FASTEST READING.
+ERRORS ASYMMETRIC.
+TRACK WORKER + RETURNS BEFORE TOOL REDESIGN.
+BINARY THRESHOLDS MAY BE EASIER THAN 3-BAND MAGNITUDE.
 
 Then separate page:
 
-EDRIN:MEASUREMENT NEED NOT BE EXACT IF TOLERANCE DECISION IS CATEGORICAL.DOES NOT CONNECT HOLL.
+EDRIN:
+MEASUREMENT NEED NOT BE EXACT IF TOLERANCE DECISION IS CATEGORICAL.
+DOES NOT CONNECT HOLL.
 
 Important. I underlined last line. Once. No arrows. Good.
 
@@ -65004,7 +66412,9 @@ I woke once in the night because somebody came down the stairs. New rail creaked
 
 My brain immediately supplied:
 
-LOOSE POST.FAILURE.FALL.
+LOOSE POST.
+FAILURE.
+FALL.
 
 No. Lerris had installed. Stringer sound. Rail used all day. One creak. Could inspect tomorrow. Could ask keeper if others noticed. Did not need to wake carpenter. I lay there. The west-river report existed upstairs. I could not reach it without stairs anyway. Good. Physical constraint as anti-rumination tool. Terrible. I slept again.
 
@@ -65020,7 +66430,7 @@ Morning came with the second meat pie absent because theft remained permanent. T
 
 “Kitchen law.”
 
-Terrible. My residual limb was less swollen. Good. No drainage. No heat I could detect. Wound check later. No hurry. I had nowhere scheduled. Holl had records to gather. Edrin had her investigation. Pell and Vessa had their crooked mount face. Alden had Pessa. Sevren had north roads. Jorren had work.
+Terrible. My residual limb was less swollen. Good. No drainage. No heat I could detect. Wound check later. No hurry. I had nowhere scheduled. Holl had records to gather. Edrin had her investigation. Arlo and Vessa had their crooked mount face. Alden had Pessa. Sevren had north roads. Jorren had work.
 
 I had a cup of tea and one stairwell between me and my bed. This was not nothing. It was also not a crisis. The Guild runner arrived while I was eating. Of course. He had a folded posting slip. I stared.
 
@@ -65184,7 +66594,8 @@ Rude. He left. I looked at the archive slip. No referendum. Job. Did I want it? 
 
 I sent the keeper's boy with answer:
 
-YES.WHAT IS THRESHOLD?
+YES.
+WHAT IS THRESHOLD?
 
 He returned twenty minutes later.
 
@@ -65258,9 +66669,9 @@ She looked at me.
 
 Fair.
 
-“What does Guild want?”
+“What does Guild want?” I asked.
 
-“Reconstruct what the records actually support. Mark disagreements. Do not invent missing facts.”
+“Reconstruct what the records actually support. Mark disagreements. Do not invent missing facts,” Merra said.
 
 I liked Merra immediately.
 
@@ -65282,9 +66693,9 @@ Ordinary. Good.
 
 “Three copper through front desk after.”
 
-“Two hours?”
+“Two hours?” I asked.
 
-“If you're not done, stop.”
+“If you're not done, stop,” Merra said.
 
 “Really?”
 
@@ -65360,7 +66771,13 @@ I smiled. The records were terrible. Not corrupt. Human. Dock ledger organized b
 
 I made columns.
 
-DATE.TRANSFER.DOCK DAMAGE COUNT.CLAIM COUNT.APPROVED COUNT.PAID COUNT.NOTES.
+DATE.
+TRANSFER.
+DOCK DAMAGE COUNT.
+CLAIM COUNT.
+APPROVED COUNT.
+PAID COUNT.
+NOTES.
 
 Merra walked past.
 
@@ -65404,9 +66821,9 @@ The first hour produced no mystery. That was good.
 
 The mismatch came from three different counting questions:
 
-damaged on dock,claimed by owner,approved by Guild.
-
-Sixteen. Fourteen. Fifteen? Wait. Approved total should? Four plus five plus? I recalculated. Dock sixteen. Claims fourteen? Payment fifteen impossible if payment counts crates. Maybe payment register entry was amount units, not crates. I looked at heading.
+damaged on dock,
+claimed by owner,
+approved by Guild. Sixteen. Fourteen. Fifteen? Wait. Approved total should? Four plus five plus? I recalculated. Dock sixteen. Claims fourteen? Payment fifteen impossible if payment counts crates. Maybe payment register entry was amount units, not crates. I looked at heading.
 
 CLAIMS PAID.
 
@@ -65416,11 +66833,11 @@ Numbers. No unit. Danger.
 
 “What?”
 
-“Payment register numbers. Crates or payment entries?”
+“Payment register numbers. Crates or payment entries?” I asked.
 
 She came over.
 
-“Entries.”
+“Entries,” Merra said.
 
 There. Fuck.
 
@@ -65448,7 +66865,9 @@ PAYMENT REGISTER TOTAL IS NUMBER OF PAYMENT ENTRIES, NOT CRATES. NOT COMPARABLE 
 
 Then:
 
-DOCK DAMAGE = 16 CRATES.CLAIMS RECORD = 14 CLAIMED CRATES SUPPORTED.DIFFERENCE APPEARS TO INCLUDE 1 REBOUND/RELEASED CRATE AND 1 RECORD MERGER REQUIRING LINE-BY-LINE RECONSTRUCTION.
+DOCK DAMAGE = 16 CRATES.
+CLAIMS RECORD = 14 CLAIMED CRATES SUPPORTED.
+DIFFERENCE APPEARS TO INCLUDE 1 REBOUND/RELEASED CRATE AND 1 RECORD MERGER REQUIRING LINE-BY-LINE RECONSTRUCTION.
 
 Wait. Record merger did not remove crate. Need exact. I went back. No. The merged claim still counted two transfers but quantity line was five. Dock total across those transfers six? One crate denied? No. Claims quantity should six if claimed. Maybe missing one. Do not force. I crossed out sentence. Good. Merra noticed.
 
@@ -65512,7 +66931,7 @@ I drank. Terrible. Everyone made terrible tea. Maybe tea was terrible. Possibili
 
 She looked around.
 
-“Because records lie differently than people.”
+“Because records lie differently than people,” Merra said.
 
 I stopped.
 
@@ -65590,7 +67009,8 @@ Not my report yet. Fine. She pointed.
 
 I rewrote.
 
-DOCK AND CLAIMS LEDGERS CAN BE COMPARED BY CRATE QUANTITY WITH CAUTION.PAYMENT REGISTER CANNOT BE COMPARED BY CRATE QUANTITY BECAUSE ITS NUMBERS COUNT PAYMENT ENTRIES.
+DOCK AND CLAIMS LEDGERS CAN BE COMPARED BY CRATE QUANTITY WITH CAUTION.
+PAYMENT REGISTER CANNOT BE COMPARED BY CRATE QUANTITY BECAUSE ITS NUMBERS COUNT PAYMENT ENTRIES.
 
 Better. Then details. At exactly two hours Merra took pencil from my hand.
 
@@ -65756,7 +67176,7 @@ He nodded. Carrow had learned phrase. Terrible.
 
 *
 
-Outside Guild, I had twenty minutes before cart. Holl was not far. No. Holl had data to gather. Pell?
+Outside Guild, I had twenty minutes before cart. Holl was not far. No. Holl had data to gather. Arlo?
 
 WE KNOW. DO NOT COME.
 
@@ -65828,7 +67248,9 @@ Then stopped. That sounded like slogan. Crossed out.
 
 Wrote:
 
-DOCK = DAMAGED CRATES.CLAIMS = CLAIMED CRATES.PAYMENT = PAYMENT ENTRIES.
+DOCK = DAMAGED CRATES.
+CLAIMS = CLAIMED CRATES.
+PAYMENT = PAYMENT ENTRIES.
 
 Facts. Better.
 
@@ -65840,7 +67262,8 @@ Almost slogan. I stared. Could be useful. Crossed out MUST.
 
 Wrote:
 
-HOLL DECISION = BAND / ACCEPT / TEST MORE.NOT EXACT VALUE.
+HOLL DECISION = BAND / ACCEPT / TEST MORE.
+NOT EXACT VALUE.
 
 Good. No universal law.
 
@@ -65964,9 +67387,9 @@ Payment entries fifteen because split and combined payments happened to net same
 
 The original audit had accidentally compared three totals that looked related:
 
-16 damaged.14 approved.15 payment entries. And the claims ledger's visible total of 14 had been wrong as a claimed-crate total because of duplicate naming/organization.
-
-Messy. Human. No fraud. Could still be fraud somewhere. Not here. I wrote. Merra read. Claims clerk read.
+16 damaged.
+14 approved.
+15 payment entries. And the claims ledger's visible total of 14 had been wrong as a claimed-crate total because of duplicate naming/organization. Messy. Human. No fraud. Could still be fraud somewhere. Not here. I wrote. Merra read. Claims clerk read.
 
 “Can we fix old ledger?”
 
@@ -66086,7 +67509,7 @@ He left. Independent. Good.
 
 *
 
-Cart arrived. I went home. The archive job was finished. Holl was gathering data. Edrin had nothing for me. Pell and Vessa did not need me. Alden might want me to watch. Not train. Watch.
+Cart arrived. I went home. The archive job was finished. Holl was gathering data. Edrin had nothing for me. Arlo and Vessa did not need me. Alden might want me to watch. Not train. Watch.
 
 Jorren might go green door. My room was upstairs under conditions. Storage room downstairs under conditions. No grand direction. Several small ones. This felt more like a life than a plan. Dangerous sentence. I crossed it out mentally. Before going inside, I asked the driver to wait while I stood at curb. Not because I needed him. Because rain had started. Light.
 
@@ -66274,9 +67697,9 @@ Alden frowned.
 
 Pessa said, “No.” There. Good. I looked at her.
 
-“No?”
+“No?” I asked.
 
-“He's not reading my recovery.”
+“He's not reading my recovery,” she said.
 
 “What is he reading?”
 
@@ -66290,7 +67713,7 @@ I watched next exchange. Pessa cut. Alden parried. Her hand returned. His eyes f
 
 Alden said, “I can hear you.”
 
-“Good.”
+“Good,” I said.
 
 Pessa pointed at his face.
 
@@ -66402,11 +67825,9 @@ I asked. She was drinking.
 
 There. Good.
 
-“Why?”
+“Why?” Alden asked. Pessa answered before me.
 
-Alden asked. Pessa answered before me.
-
-“Because you were trying to enter from too far and making first commitment too large. Shorter step lets you keep choice longer.”
+“Because you were trying to enter from too far and making the first commitment too large. Shorter step lets you keep choice longer,” she said.
 
 That was better than my version. Of course. I had seen symptom from story. She had seen body.
 
@@ -66562,7 +67983,7 @@ Alden pointed knife.
 
 “I touched her.”
 
-Pessa said, “Then if your goal is to touch me, congratulations. If your goal is to know whether entry worked, no.” Alden looked at me.
+“Then if your goal is to touch me, congratulations,” Pessa said. “If your goal is to know whether the entry worked, no.” Alden looked at me.
 
 “Don't.”
 
@@ -66942,11 +68363,15 @@ Hessa would murder me if I started building theories from one chair scrape. Good
 
 I wrote:
 
-PESSA:FIRST STEP = KEEP CHOICE LONGER.ALDEN CHASES WEAPON HAND.DRILL SUCCESS != FIGHT SUCCESS.
+PESSA:
+FIRST STEP = KEEP CHOICE LONGER.
+ALDEN CHASES WEAPON HAND.
+DRILL SUCCESS != FIGHT SUCCESS.
 
 Then:
 
-SEATED KNIFE:PROTECTED OBJECT, EXPOSED HAND.
+SEATED KNIFE:
+PROTECTED OBJECT, EXPOSED HAND.
 
 I stared. Useful? Maybe.
 
@@ -67060,13 +68485,13 @@ Everyone.
 
 The knife stayed where Alden left it through lunch. I deliberately did not move it. Then the keeper moved it because she needed table. She set it beside my notebook. This offended me for reasons I could not justify. I picked it up again. Seated. One slow cut through air. Too much shoulder. Again. Smaller. Better. Then stopped. No drill. No program.
 
-No repetitions until mastery. Two cuts because I wanted to. I put it down. My hand wanted a third. No. Not because medically forbidden. Because wanting did not require immediately turning into practice. That was irritating. I ate cheese. The Guild sent no work. Edrin sent nothing. Holl sent nothing. Pell and Vessa sent nothing. Excellent.
+No repetitions until mastery. Two cuts because I wanted to. I put it down. My hand wanted a third. No. Not because medically forbidden. Because wanting did not require immediately turning into practice. That was irritating. I ate cheese. The Guild sent no work. Edrin sent nothing. Holl sent nothing. Arlo and Vessa sent nothing. Excellent.
 
 I had a padded wooden knife on kitchen table and nowhere I needed to be. I picked it up. Turned it once. Caught. Did not stand. Good. Then I put it down and finished breakfast.
 
 CHAPTER EIGHTYTHE CUSTOMER
 
-The problem with having nowhere to be was that I wanted to go somewhere. This was inconvenient. The Guild had sent nothing. Edrin had sent nothing. Holl had sent nothing. Pell and Vessa had very successfully sent nothing. Alden's padded knife sat beside my notebook. I picked it up. Put it down. Picked it up.
+The problem with having nowhere to be was that I wanted to go somewhere. This was inconvenient. The Guild had sent nothing. Edrin had sent nothing. Holl had sent nothing. Arlo and Vessa had very successfully sent nothing. Alden's padded knife sat beside my notebook. I picked it up. Put it down. Picked it up.
 
 “Either steal it or don't,” the keeper said.
 
@@ -67316,9 +68741,9 @@ A woman behind curtain answered, “What?”
 
 There. Customer. Good. Rima emerged. Late forties maybe. Gray streak at temple. Pins between lips. She removed them.
 
-“Need?”
+“Need?” Rima asked.
 
-“Shirt.”
+“Shirt,” I said.
 
 “Size?”
 
@@ -67338,11 +68763,11 @@ Rima asked.
 
 Ah. Standing. Fine. I set crutches. Right foot. Up. One hand on counter. Stable. Rima measured shoulders. Chest. Arm. Waist. Fast. No commentary about missing leg. Trousers? No. Shirt. Good.
 
-“Young,” she said.
+“Young,” Rima said.
 
 “What?”
 
-“Cut.”
+“Cut,” she said.
 
 “What about it?”
 
@@ -67394,9 +68819,9 @@ I pointed at cuff. It was not loose. Rima stared.
 
 “Four.”
 
-“Three and you keep brown shirt.”
+“Three and you keep the brown shirt,” I said.
 
-“No.”
+“No,” Rima said.
 
 Lyssa laughed.
 
@@ -67436,11 +68861,11 @@ I looked at crutches. Right. Lyssa tied folded shirt in cloth and looped it over
 
 She smiled. Attraction. Maybe. Do not optimize.
 
-“What are you doing later?” she asked.
+“What are you doing later?” Lyssa asked.
 
 There. Oh.
 
-“Nothing.”
+“Nothing,” I said.
 
 Good answer.
 
@@ -67538,7 +68963,9 @@ If I went green door, return downstairs. Sleep storage. Fine. No need upstairs t
 
 “Girl?”
 
-I choked on bread. She laughed. Terrible woman.
+I choked on bread. She laughed.
+
+Terrible woman.
 
 *
 
