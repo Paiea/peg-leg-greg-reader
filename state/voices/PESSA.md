@@ -20,6 +20,8 @@ Chapter 102 adds an important limit to Greg's analytical language. Simplifying a
 
 Chapter 110 adds the next practical layer: once Greg can move through a simple plan, Pessa can deliberately make the plan stop working and watch whether he keeps choosing. The useful result is not a universal fallback rule. A stop, a wider route, finishing the current turn, or abandoning the shortest path may each be right once and wrong later because the physical situation changed.
 
+Chapter 119 adds **anticipation itself as physical behavior**. Greg can make a worse movement choice because he is preparing for the obstacle from the previous run or trying to solve the next problem before it exists. Sometimes the useful movement is to stay where he is until the route actually changes.
+
 ## Spoken rhythm
 
 Compact and declarative. She can explain fully when a correction needs a reason, but usually starts with the smallest physical truth that changes the attempt.
@@ -63,7 +65,9 @@ Training:
 - how urgency changes movement;
 - what changes when an object is added;
 - what the body does before the trainee improves it;
-- whether the trainee can keep choosing after the expected route or sequence stops working.
+- whether the trainee can keep choosing after the expected route or sequence stops working;
+- whether anticipation is making the body move before the situation actually requires movement;
+- whether the trainee felt a loss of traction or support early enough to unload and correct.
 
 The shared principle is not abstraction. It is **physical consequence**.
 
@@ -102,9 +106,15 @@ That distinction produces several durable behaviors:
 - two crutches can provide support while also creating crowding;
 - one crutch can create space while also making the missing side feel exposed.
 
-Do not turn any of these into doctrine. Pessa's own correction is `Today.` The lesson remains attached to the body and conditions of that attempt.
+Chapter 119 extends the route problem without turning it into a new doctrine. Pessa adds ropes, alternate openings, her own body, and a rolling bucket. Greg tries to optimize around what happened on the previous run and takes a worse route when the expected obstacle does not appear. Pessa's answer is not `never anticipate.` When Greg says he should not plan for the previous run, she says, `That depends.` Asked what it depends on: `The next run.`
 
-When Greg hears a larger life principle in `whether you can keep making choices after the first plan stops working`, he immediately narrows it to `In this yard.` Pessa agrees. Preserve that jurisdiction. She is not secretly delivering a philosophy lecture through stakes.
+The same chapter adds waiting as a deliberate movement choice. Pessa blocks a lane, tells Greg to stay, then watches whether the unresolved next problem makes him move anyway. Her explanation is concrete: `You move when you don't need to` when he is trying to solve the next thing before it happens. Greg again narrows the apparent general lesson to `In this yard.` Pessa agrees.
+
+This is important. Waiting is not passivity as a theme. It is sometimes the physically correct choice because the route has not actually demanded another commitment yet.
+
+Chapter 119 also sharpens how Pessa treats a near-slip. Greg feels a crutch tip begin to slide before full load, unloads it, and catches himself through the other crutch and right leg. Pessa stops long enough to inspect the correction because the correction itself is the useful observation. She does not need a fall or completed route to make the attempt informative.
+
+Do not turn any of these into doctrine. Pessa's own correction remains `Today.` The lesson stays attached to the body and conditions of that attempt.
 
 Pessa can admit `I don't know` when Greg's changed body creates a training problem she has not yet solved. That uncertainty is local and practical, not a performance of methodological humility.
 
@@ -123,6 +133,10 @@ When Greg jumps from an event to a category, Pessa often pulls him one level bac
 She is also willing to let repetition establish ownership of a mistake. A repeated crutch collision can be useful because it shows the pattern belongs to Greg's movement rather than one random attempt.
 
 Chapter 110 adds that Greg does not have to perform every available repetition. When fatigue is clear, Pessa can agree that he physically *can* do one more and still end the session. Ability to continue is not the same as a useful reason to continue.
+
+Chapter 119 adds a limit on Greg's measurement instinct. Pessa refuses route times, correction counts, and crutch-contact scores because she does not want Greg arriving tomorrow trying to improve the number rather than moving through tomorrow's yard. Greg may still record relevant body/load facts for himself. The boundary is not anti-recording; it is anti-score when the score would become the task.
+
+Likewise, Pessa does not require Greg to report every schedule choice. If he may not come tomorrow because Hessa exists, her answer is simply that she already knows he may not come every day. Her training lane does not become ownership of his calendar.
 
 ## Jurisdiction with Hessa
 
@@ -171,10 +185,15 @@ Her jokes usually come from the immediate work or from somebody pretending a phy
 - **CANON LINE:** `I wanted to see what you did.`
 - **CANON LINE:** `Whether you can keep making choices after the first plan stops working.`
 - **CANON LINE:** `Yes. In this yard.`
+- **CANON LINE:** `That depends.` followed by `The next run.` when Greg tries to turn one failed anticipation into a rule against anticipation.
+- **CANON LINE:** `You move when you don't need to.`
+- **CANON LINE:** `Because then tomorrow you'll arrive trying to improve the number.`
 - **CANON PATTERN:** begins Greg's post-loss shield work by finding out what changes when he simply holds one, not by inventing a special combat doctrine first.
 - **CANON PATTERN:** removes the shield when it obscures the turning pattern, then varies direction, support, destination, person-in-space, and apparent urgency while still treating the movement as integrated.
-- **CANON PATTERN:** allows stopping, rerouting, or finishing an existing turn to be choices under changing geometry rather than grading each against one universal preferred solution.
+- **CANON PATTERN:** allows stopping, rerouting, finishing an existing turn, or waiting to be choices under changing geometry rather than grading each against one universal preferred solution.
 - **CANON PATTERN:** ends a session for fatigue even when Greg says he can physically do one more repetition.
+- **CANON PATTERN:** refuses performance metrics when they would cause Greg to optimize tomorrow's score instead of tomorrow's movement.
+- **CANON PATTERN:** treats an early-detected crutch slip and successful unload as useful information even though the route was not completed and no fall occurred.
 
 Exact wording should be rechecked against current manuscript authority before reuse; these lines are evidence, not catchphrases.
 
@@ -192,7 +211,7 @@ Pessa can be concise like Hessa, Rinna, Tam, or Teren.
 
 The distinction is source of precision:
 - Hessa: safety, repeatability, body/magic evidence, expectation control, and permission;
-- Teren: playable stage result;
+- Teren: playable stage result and actor-specific continuation cues;
 - Tam: customer use and shoe material;
 - Pessa: physical route/body consequence, drill objective, load, fatigue, integrated movement, and the next usable movement decision.
 
@@ -209,4 +228,6 @@ Avoid:
 - treating seated work, walls, crutches, or any one workaround as the answer merely because it solves one attempt;
 - making every simplified drill into a laboratory-style isolated-variable exercise;
 - turning `keep making choices` into a general resilience slogan detached from the physical yard;
-- treating stopping as failure when stopping was the deliberate safe choice under the current geometry.
+- turning `wait` into a general mindfulness lesson detached from route geometry;
+- treating stopping as failure when stopping was the deliberate safe choice under the current geometry;
+- using route times or correction counts when the metric would train Greg to chase the score rather than read the next physical situation.
