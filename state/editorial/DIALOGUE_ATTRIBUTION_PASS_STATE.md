@@ -1,10 +1,10 @@
-# PEG-LEG GREG — WHOLE-MANUSCRIPT DIALOGUE & ATTRIBUTION PASS
+# PEG-LEG GREG - WHOLE-MANUSCRIPT DIALOGUE & ATTRIBUTION PASS
 
 Branch: `editor/voice-compression-pass`
 
 Status: **ACTIVE WIP**
 
-Scope: **Chapters 1–301**
+Scope: **Chapters 1-301**
 
 ## Active goal
 
@@ -60,12 +60,16 @@ Education/register may influence vocabulary and explanation style, but **educati
 Use exact manuscript prose, not summaries.
 
 Preferred source ranges:
-- Chapters 1–82: authoritative Book I / exact Book I export.
-- Chapters 83–180: authoritative Book II exact prose / export.
-- Chapters 181–219: exact recovered/current manuscript authority.
-- Chapters 220–301: current running manuscript and exact checkpoint authority, using the newest exact prose available.
+- Chapters 1-82: canonical authority is `state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx`. The branch reader rendering may be used to locate/read scene prose when needed, but the canonical Book I name map outranks stale reader names. Material mapping: **Pell / Pellian -> Arlo**.
+- Chapters 83-180: authoritative Book II exact prose / export.
+- Chapters 181-219: exact recovered/current manuscript authority.
+- Chapters 220-301: current running manuscript and exact checkpoint authority, using the newest exact prose available.
 
 Exact manuscript prose outranks this state file and every voice guide.
+
+## Branch freshness
+
+`editor/voice-compression-pass` is intentionally preserved as the editorial work branch. Current `main` is newer in forward-state/thread churn and currently records Chapter 301 as the endpoint. Do not rebase merely to advance this dialogue pass. Read current main authority alongside the branch when forward-state freshness matters.
 
 ## Durable output pattern
 
@@ -73,7 +77,7 @@ Store review results under:
 
 `state/editorial/dialogue-pass/`
 
-Use exact replacement patches when a chapter needs only attribution/voice surgery. A reviewed chapter that genuinely needs no change may be recorded as **REVIEWED — NO CHANGE REQUIRED** rather than duplicated wholesale merely to manufacture an edit.
+Use exact replacement patches when a chapter needs only attribution/voice surgery. A reviewed chapter that genuinely needs no change may be recorded as **REVIEWED - NO CHANGE REQUIRED** rather than duplicated wholesale merely to manufacture an edit.
 
 This pass remains editorial WIP until accepted/integrated into manuscript authority.
 
@@ -81,12 +85,15 @@ Do not claim a chapter is covered until its exact source was reviewed and the ba
 
 ## Coverage ledger
 
-- Chapters 1–301: **NOT YET COMPLETE**
-- Verified reviewed range: **Chapters 1–4**
-- No-change chapters in reviewed range: **1, 4**
+- Chapters 1-301: **NOT YET COMPLETE**
+- Verified reviewed range: **Chapters 1-10**
+- No-change chapters in reviewed range: **1, 4, 5, 6, 7**
 - Chapters with hard attribution fixes recorded: **2, 3**
-- Durable batch: `state/editorial/dialogue-pass/BATCH_001_004.md`
-- Current source edge: **Chapter 5**
+- Chapters with clarity/attribution patches recorded: **8, 9, 10**
+- Durable batches:
+  - `state/editorial/dialogue-pass/BATCH_001_004.md`
+  - `state/editorial/dialogue-pass/BATCH_005_010.md`
+- Current source edge: **Chapter 11**
 
 ## Completion definition for one chapter
 
@@ -98,6 +105,17 @@ A chapter counts as reviewed only after:
 5. canon-sensitive details were preserved;
 6. no em dashes were introduced in proposed replacement prose;
 7. the exact patch or no-change verdict was durably saved on this branch and fetched back to verify persistence.
+
+## Current voice observations worth preserving
+
+Early Book I already contains useful natural separation:
+- Greg: expands problems, negotiates definitions, jokes while reasoning, and keeps reaching for a larger system.
+- Rusk: operationally economical; answers the job question and stops.
+- Antonius: practical finance/operations; often refuses Greg's grand framing and cares what pays, what is owned, and what must be true for repayment.
+- Arlo: workshop/mechanism/time/measurement; precision comes from the bench rather than generic evidence doctrine.
+- Hessa: controlled procedural instruction tied to body, safety, and repeatability.
+
+Shared dryness is allowed. Do not force distinct catchphrases where domain and cadence already separate the voices.
 
 ## Restart prompt
 
