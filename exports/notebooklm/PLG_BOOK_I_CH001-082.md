@@ -12,57 +12,57 @@ CHAPTER ONETHE BOY
 
 I woke up because my back did not hurt. That was wrong.
 
-Not alarming at first. Wrong. For years, waking had involved negotiation. Lower back. Left shoulder. Right knee. The rib that clicked if I slept twisted. None of it terrible by the end. I was still healthier than most men my age, which I had considered another small professional victory. But there had always been a roll call. This morning, silence. I lay still and waited for the pain to report late.
+Not alarming at first, just wrong. Waking normally involved negotiation. Lower back. Left shoulder. Right knee. The rib that clicked if I slept twisted. None of it terrible. There had simply always been a roll call. This morning, silence. I lay still and waited for the pain to report late.
 
-I flexed my toes. Too easy.
+I flexed my toes. Too easy. I bent one knee, then the other. Nothing objected.
 
-My right knee bent without complaint. I sat up too quickly and nearly laughed. The room was unfamiliar for perhaps half a second. Then it was not. Cheap plaster wall. Narrow bed. Washbasin with a crack running down one side. One chair with a coat thrown over it. My old sword leaning against the corner like it had been waiting forty years for me to admit I was never very good with it.
+I sat up too quickly and nearly laughed. No stiffness. No hand braced against the mattress while my back decided whether we were doing this. The room was unfamiliar for perhaps half a second, and then it was not. Cheap plaster wall. Narrow bed. Washbasin with a crack running down one side. One chair with a coat thrown over it. My sword leaning against the corner.
 
-The crack in the washbasin caught me next. Not because cracks mattered, but because I remembered cutting my thumb on that one. Or thought I did. I looked at my thumb. No scar. Wrong hand, maybe. There had been blood, a towel, somebody laughing. Mara? No. The soap thief next door? Possibly. I stared at the basin until the memory dissolved into the general category of stupid injuries young men collect when they assume their bodies are free.
+The crack in the washbasin caught me first. I remembered cutting my thumb on it. Or thought I did. There had been blood, a towel, somebody laughing. Mara? No. The soap thief next door? Possibly. I looked at my thumb. No scar. Wrong hand, maybe. I checked the other. Nothing. I stared at the basin until the memory stopped being a memory and became a question.
 
-That sent me sideways into the first truly ridiculous possibility: perhaps this was not my room at all. Perhaps I had found a room that merely resembled it, attached significance to a cheap sword, and was currently constructing forty years of history around familiar furniture. Then I looked at the sword again and remembered the nick near the guard. I had made that nick trying to split kindling because I had been too lazy to find an axe. The sword had been expensive to me then. I had used it on firewood. Yes. Definitely mine.
+Maybe it was not my basin. Cheap rooms repeated themselves. Cheap swords did too. I looked at the sword. There should be a nick near the guard. I crossed the room and turned it toward the window. The nick was there. I had made it trying to split kindling because I had been too lazy to find an axe. I remembered being angry about the damage and continuing to use it on firewood anyway. That was harder to dismiss.
 
 I stopped breathing. "No," I said.
 
-My voice was wrong too. Higher. Not high. Young. I put both hands in front of my face. No liver spots. No knuckle swelling. No pale scar crossing the left palm from the frost-wolf contract. The index finger on my right hand was straight. I bent it. Straight. I bent it again. Still straight.
+My voice was wrong too. Higher. Not high. Young. I put both hands in front of my face. The skin was too smooth. No swelling at the knuckles. No pale scar crossing the left palm from the frost-wolf contract. The index finger on my right hand was straight. I bent it. Straight. I bent it again. Still straight.
 
-At fifty-eight, that finger had leaned slightly inward because a bone had healed badly after I refused to let a healer reset it before the next descent. I had spent thirty years pretending I barely noticed. I noticed its absence immediately. I got out of bed too fast. My body rose with me instead of sending three separate complaints to management. I stood there, then crouched. Then lower. My knees worked. I laughed. Actually laughed.
+That finger should have leaned slightly inward from a badly healed fracture. I remembered refusing to have it reset because there had been another descent the next morning. I remembered the healer calling me an idiot. I remembered years of pretending I barely noticed the angle. The memories were clear enough. The finger disagreed with all of them. I got out of bed too fast. My body rose with me instead of sending three separate complaints to management. I crouched. Lower. Stood. Did it again.
 
 "What the fuck?"
 
-I stood and jumped once. That was childish. I did it again. The floorboards creaked. A voice from the other side of the wall shouted, "Some of us are sleeping!" I knew that voice. Or thought I did. I froze. The name would not come. That was worse than not recognizing it. I knew the irritation. I knew I had once shared this wall with somebody. I knew he snored. I knew he borrowed soap and never returned it. Name?
+I jumped once. That was childish. I did it again. The floorboards creaked. A voice from the other side of the wall shouted, "Some of us are sleeping!" I knew that voice. Or thought I did. I froze. The name would not come. I knew the irritation. I knew I had once shared this wall with somebody. I knew he snored. I knew he borrowed soap and never returned it. Name? Nothing.
 
-Forty years is a long time to remember someone who owed you soap. I walked to the washbasin and looked into the little oval mirror hanging above it. The face staring back at me belonged to a boy I had not thought of as a boy when I owned it. Dark hair. Too much of it. No gray. No crease beside the mouth. No scar under the chin. My eyes looked enormous without the sagging skin around them. I touched my jaw. The boy copied me.
+That bothered me enough to send me back to the washbasin. The little oval mirror above it was spotted around the edges. I leaned close. The face in it was mine. That was obvious. It was also wrong. Dark hair. Too much of it. No gray. No crease beside the mouth. No scar under the chin. I touched my jaw. The reflection copied me. I opened my mouth. Closed it. Turned my head. Same face. Mine, except far too young.
 
-That missing name bothered me more than the impossible face for several seconds, which told me something useful about the state of my mind. I was not remembering a life in neat order. I was getting pieces. Texture before labels. Emotion before chronology. The sound of a man's annoyance survived; his name did not. If I was going to trust anything that came next, I needed to stop treating recognition as certainty.
+The missing name next door and the face in the mirror did not fail in the same direction. One memory was incomplete. The other was much too complete. I knew what my face should look like. I also knew I could be wrong about details. That distinction suddenly mattered. Recognition was evidence, not proof.
 
-So I made myself slow down. Body first. Room second. Date third. Explanation later. If this was a hallucination, the details would probably betray it. If it was a curse, panicking would not improve the curse. If I was dead, I had apparently died into very cheap lodging. None of those possibilities required me to sprint into the street demanding an explanation.
+So I made myself slow down. Body first. Room second. Date third. Explanation later. Start with things I could check. If I was dreaming, details might slide. If something magical had altered my body, the room should not have changed with it. If my memory was damaged, the physical objects did not care. I did not need the correct explanation yet. I needed one that survived the next test.
 
-"Well." I smiled. He looked good. Annoyingly good. I turned sideways. Lean. Young. A little underfed. Shoulders I had once considered broad and now recognized as the optimistic beginning of broad. I lifted my shirt. Flat stomach. I had forgotten that.
+I looked at myself again. Lean. Young. A little underfed. Shoulders I had once considered broad and now recognized as the optimistic beginning of broad. I lifted my shirt. Flat stomach. I had forgotten that. I pressed a thumb against an old injury site. Nothing. My body kept answering the same way.
 
-"Hello." The boy in the mirror looked pleased with himself. Apparently some things survived impossible events. Death, hallucination, curse, dream, divine punishment, divine reward, severe head injury, and an extremely committed brothel were all still available explanations. I checked the room for evidence of the last one. No. Too poor. I found my trousers.
+"Hello," I told the mirror. The boy looked pleased with himself. Apparently some things survived whatever this was. Dream, curse, head injury, some magical effect. None explained everything. An extremely committed brothel also occurred to me and lasted several seconds.
 
-The brothel theory lasted longer than it deserved because I had known at least two establishments wealthy enough to stage something this elaborate and one proprietor vindictive enough to enjoy watching me panic. The problem was that every explanation had to account for the room, the face, the missing scars, and memories that felt older than all three. None did. Not yet.
+I checked the room for evidence of the last one. No. Too poor. More importantly, staging the room would not explain the hand, the voice, the scars, or why I remembered this place in fragments that felt older than the face looking back at me. I found my trousers. One problem at a time.
 
-The first thing that bothered me was how quickly I dressed. No stiffness. No careful weight shift. No moment with one hand braced against the chair while my hip decided whether it had an opinion. I pulled on one boot and stopped. The leather was cheap. I remembered these boots. Not this exact pair. Probably not. But this kind. Hard sole, badly stitched heel, no waterproofing worth the word. My boots. Early boots. That thought tightened something inside me. I searched the coat. Three copper. A bent lockpick I had no business owning. A Bronze guild token. I sat down. The token lay in my palm.
+Dressing became another test. No stiffness. No careful weight shift. No moment with one hand braced against the chair while my hip decided whether it had an opinion. I pulled on one boot and stopped. Cheap leather. Hard sole. Badly stitched heel. No waterproofing worth the word. I remembered this kind of boot. Mine. Early. Not necessarily this exact pair. I searched the coat. Three copper. A bent lockpick I had no business owning. A Bronze guild token. I sat down with the token in my palm.
 
-Bronze. For a long moment, I stared at the token like it had personally insulted me. Then I laughed again. "Bronze."
+Bronze. For a long moment, I stared at it like it had personally insulted me. Then I laughed. "Bronze."
 
 The laughter turned strange in the middle. Not sadness. Not yet. Disbelief.
 
-My later token had been black enamel over star-metal, heavy enough that new adventurers sometimes asked if it was ceremonial. There had been seven of us at that rank when I finally reached it. Seven in the world. That was enough thinking about S-class for now.
+Another token existed in my memory: black enamel over star-metal, heavy enough that new adventurers sometimes asked if it was ceremonial. Seven people in the world had held that rank when I finally reached it. I could see the thing in my hand and remember the weight of the other one. Both memories insisted they belonged to me. Fine. The Bronze token was here. Start there.
 
-The Bronze token mattered more. It was real. Mine. Current. I turned it over. Scratched initials on the back. Mine. The room felt smaller. I stood and went to the window. Carrow. Younger. The street below was narrower than I remembered because the southern row of shops had not been rebuilt yet. The guild roof still had the old red tiles. A chimney stood where, decades later, a three-story apothecary would be. That was not enough. I needed a date. I opened the wardrobe. Two shirts. One coat. Training leathers. Sword belt. Warrior gear. I closed the wardrobe. Opened it again. Still warrior gear.
+I turned it over. Scratched initials on the back. Mine. Current, or at least physically present. I went to the window. Carrow. I knew the street. The street did not quite match itself. The southern row of shops was missing. The guild roof still had old red tiles. A chimney stood where I remembered a three-story apothecary. I checked one landmark, then another. Familiar. Wrong. Not random wrong. Earlier wrong.
 
-Bronze gave me one boundary. Warrior gear gave me another. Whatever had happened, the room and everything in it belonged to the part of my life before the career that eventually defined me. That narrowed the years considerably. I tried to remember when I first stopped pretending the sword was going to become more than it was. Twenty-four? Twenty-five? The answer came with the uncomfortable fuzziness of a story I had retold too many times.
+That was too large a thought. I backed away from it. Window later. Room now. I opened the wardrobe. Two shirts. One coat. Training leathers. Sword belt. Warrior gear. I closed the wardrobe. Opened it again. Still warrior gear. Bronze gave me one boundary. Warrior gear gave me another. Whatever explanation I eventually accepted had to account for me owning equipment from a part of my life I remembered as finished.
 
-The evidence was becoming harder to fit inside any ordinary explanation. My body was younger. My possessions were older versions of things I remembered. Carrow itself matched memories that should have been decades out of date. I still needed the date. Until I had that, I had evidence, not an answer.
+I tried the smaller question. When had I still been doing this? Warrior first. Magic later. I could remember the order much better than the dates. Twenty-four? Twenty-five when I finally stopped pretending the sword was going to become more than it was? The answer came with the uncomfortable fuzziness of a story I had retold too many times. Useful. Not enough.
 
-"No," I said. That word was becoming overworked. I pulled the sword from the corner. Cheap steel. One-handed. Balanced badly toward the tip. I remembered loving it. That annoyed me. I swung once, careful of the ceiling. The movement came back from somewhere deeper than memory. Feet. Shoulder. Wrist. Not excellent. Never excellent. Competent. Young Greg had thought competent meant unfinished greatness. Old Greg knew better. I lowered the blade.
+I pulled the sword from the corner. Cheap steel. One-handed. Balanced badly toward the tip. I remembered loving it. That annoyed me. I swung once, careful of the ceiling. Feet. Shoulder. Wrist. The movement came back from somewhere deeper than recollection. Not excellent. Never excellent. Competent. The body knew the weapon too.
 
-"I was still doing this." The sentence helped. Not because it answered everything. Because it narrowed the world. I was young enough that I still thought I was going to become a warrior. That meant before magic. Before support. Before Barrier.
+"I was still doing this." The sentence helped. It did not explain the room, but it gave me another boundary. I was young enough that I still expected to become a warrior. That meant before magic. Before support. Before Barrier.
 
-Barrier. For one stupid moment, I remembered the clean version. I became a support mage at twenty-five because I finally understood what I was. That sounded right. Very right. Elegant. The sort of sentence somebody would put beneath a portrait. I stared at the sword.
+Barrier. For one stupid moment, I remembered the clean version. I became a support mage at twenty-five because I finally understood what I was. Elegant. Very professional. The sort of sentence somebody would put beneath a portrait. I stared at the sword.
 
 "Wait a second." That was not how it happened. There had been jokes. Taverns. A ridiculous fashion. Everybody learning Barrier because someone had discovered that the cheapest defensive spell in the guild curriculum had a use considerably more popular than stopping goblins. Sex.
 
@@ -70,29 +70,29 @@ I sat down again. "Oh, for fuck's sake."
 
 History had improved the story. I had not discovered magic because I was called by destiny. I had learned Barrier because I wanted a cleaner, easier way to avoid making babies. And I had been good at it. No. I frowned. That was the polished version too. My first Barrier had been garbage. Thin. Uneven. Flickered at the edge.
 
-The strange part was not that I cast a perfect spell. The strange part was that once someone corrected me, I never made the same mistake twice. Then I started correcting things nobody had pointed out. Then changing things just to see what happened. For months, I thought that was normal because Barrier was supposed to be easy.
+The strange part was not that I cast a perfect spell. I had not. It was that once someone corrected me, I rarely made the same mistake twice. Then I started correcting things nobody had pointed out, changing things just to see what happened. For months, I thought that was normal because Barrier was supposed to be easy.
 
-And there was another correction buried inside that memory. I had spent years telling people I discovered a gift for support magic. That was not quite true either. I discovered a gift for understanding systems that happened to express itself through magic. Barrier was merely the first system simple enough for me to see all the moving parts at once.
+There was another correction buried inside that memory. I had spent years telling people I discovered a gift for support magic. That was not quite true either. I discovered a gift for understanding systems that happened to express itself through magic. Barrier was merely the first system simple enough for me to see all the moving parts at once.
 
-At whatever age this was, though, that distinction was useless. I knew what I would eventually become. I did not yet know whether this body could be pushed toward it years early. That became the first real fork in the problem: understand where I was in my own life first, then decide what could actually be changed.
+That memory gave me another date marker and proved why memory was dangerous. I could remember the lesson and still misremember the story around it. Younger than twenty-five, then. Probably. My face said much younger. The Bronze token agreed. The city outside was starting to agree too. But all of that was chronology. There was a smaller test sitting right in front of me.
 
-It took an embarrassingly long time to understand that most people did not look at a spell and immediately start wondering which parts were unnecessary. I put the sword across my knees. Age twenty-five. So I was younger than that.
+Magic. If I was merely remembering my body wrong, mana should still answer the way I remembered. If something had changed me, maybe the response would tell me how. I closed my eyes and reached for the old internal sensation. Not Barrier. Nothing ambitious. Just enough response to know what was there. In memory, the motion was as ordinary as flexing a hand. Here, I got a headache and a faint tingling in my palm. I stopped immediately. "Shit."
 
-How much younger? I searched the desk. Old guild notices. Receipts. A letter from somebody whose handwriting I recognized before the name. Maren. No. Mara? I unfolded it. Mara. I remembered her face older. Not old. Older than this. She had once broken my nose. Or maybe that had been somebody else. I read the date.
+Expected: mana. Actual: almost nothing. That did not tell me why. Injury, interference, an untrained body, something stranger. Fine. The useful part was the mismatch. My memories knew how to do something this body apparently did not. Another contradiction, not an answer. I put the sword across my knees and let the largest possibility sit there without naming it. Either an absurd amount of my past had been rebuilt around me, including my body, or I was somehow standing inside an earlier version of my own life. Both explanations were ridiculous. One was beginning to require fewer exceptions. "Check," I said, and searched the desk. Old guild notices. Receipts. A letter from somebody whose handwriting I recognized before the name. Maren. No. Mara? I unfolded it. Mara. The date at the top meant almost nothing by itself. I found a guild notice and compared them.
 
-The calendar meant almost nothing until I compared it to a guild notice. I found another. Then another. I counted backward from something I did remember clearly: the siege of East Verrel, famous enough that nobody who lived through the next forty years forgot the year.
+Then another notice. Then another. I counted backward from something I did remember clearly: the siege of East Verrel, famous enough that nobody who lived through the next forty years forgot the year. The arithmetic gave me a number. I did it again.
 
-The number landed. I stared at it. Then checked again. Nineteen.
+Nineteen.
 
-"You're kidding." I checked the guild token issue date. Nineteen.
+"You're kidding." One document could be wrong. Three could share the same calendar. I checked the guild token issue date. Nineteen. I checked the letter again. Nineteen.
 
-The room. The sword. The letter. Nineteen. I stood very slowly. Then grinned. Nineteen.
+The room. The sword. Bronze. The old roof tiles. The missing apothecary. The face. The straight finger. Nineteen. The memories on the other side of those facts did not disappear. The crooked finger belonged to fifty-eight. The body in the mirror belonged to nineteen. I did not know how both could be mine. I knew they were.
 
-I was nineteen. My knees worked because they were nineteen. My back worked because it was nineteen. My face was ridiculous because it was nineteen. I laughed again, but this one came from somewhere wild. I had decades back. A whole second life. For perhaps five minutes, I did nothing intelligent. I stretched. Ran in place. Touched my hair. Checked my teeth. Looked at myself in the mirror twice more. There were other observations I will leave to the dignity of historical record, except to say that nineteen-year-old bodies are aggressively enthusiastic about being nineteen.
+I stood very slowly. Then grinned. Somehow, impossibly, I was back at nineteen with the rest of my life still in my head. Call the mechanism a curse, a miracle, time displacement, divine stupidity, whatever survived checking later. The mechanism could wait. The result could not. I laughed again, and this one came from somewhere wild. I had decades back. A whole second life. For perhaps five minutes, I did nothing intelligent. I stretched. Ran in place. Touched my hair. Checked my teeth. Looked at myself in the mirror twice more. There were other observations I will leave to the dignity of historical record, except to say that nineteen-year-old bodies are aggressively enthusiastic about being nineteen.
 
 "Outstanding," I told the mirror. The mirror agreed. Then I thought of my mother. The joy stopped. Not because I expected her to be downstairs. I knew better. I thought I knew better. Memory can be cruel when hope gets involved. I sat at the desk and forced myself to calculate. My parents had died before nineteen. Both. Years before.
 
-The reset had not gone far enough. I sat there for a while. No miracle there. No reunion. No impossible knock on the door. Good. Not good. Clear. I needed clear. I found paper.
+The reset had not gone far enough. I sat there for a while. No miracle there. No reunion. No impossible knock on the door. I needed something clearer than hope, so I found paper.
 
 Paper helped. Paper made impossible things administrative. Once something could be written beneath a heading, it became a problem instead of an omen. I had built campaigns that way. Businesses too. Relationships, less successfully. People generally disliked discovering they had become a column in one of my plans.
 
@@ -106,7 +106,7 @@ Then: WHAT CAN I VERIFY?
 
 I stared at those headings. "Very professional."
 
-Under KNOW, I wrote the siege of East Verrel. The Red Winter. The collapse of the Northern Gate. Three names that would eventually become famous. A war. A plague. I paused. People.
+Under KNOW, I wrote the siege of East Verrel. The Red Winter. The collapse of the Northern Gate. Three names that would eventually become famous. A war. A plague. Then I stopped. I knew those things had happened. I did not know, without checking, whether I had the years right, whether I was remembering the first cause or the version everyone repeated later, or whether one of those famous names was currently a child. KNOW was already becoming a narrower category than I wanted. I paused. People.
 
 Who was alive now? Who was already important? Who was still nobody? Who had I known personally? Who had I only known by reputation? I wrote a separate heading: PEOPLE WHO MATTER.
 
@@ -116,17 +116,17 @@ Alive was the strange word. My mind kept sorting people into dead and not-dead u
 
 Then another thought arrived. What about the people I had never met because they died before I became important enough to cross their path? Historians had names. Guild records had names. Disasters had casualty lists. There might be brilliant people walking around right now whose only historical contribution, in my memory, was dying too early. I wrote a fourth heading before I could talk myself out of it: PEOPLE I MISSED.
 
-Who had died before I ever met them? I started writing names and crossing them out. Soren. Did I know Soren yet? No. Maybe. I remembered Soren at thirty-something. Scar on the left arm. Laugh like gravel. Hated pears.
+Who had died before I ever met them? I started writing names and crossing them out. Soren. Did I know Soren yet? No. Maybe. I remembered Soren at thirty-something. Scar on the left arm. Laugh like gravel. Hated pears. I could see the scar more clearly than I could place the year. That was apparently how this was going to work.
 
 Had he always hated pears? Why did I remember that? Did it matter? Probably not. I wrote: SOREN - LATER IMPORTANT. CURRENTLY ?
 
-Then Mira. I stared at the name. Did I know her at nineteen? No. I did not think so. Future Mira existed in my head with the dangerous confidence of somebody I had known too well. Current Mira, wherever she was, might be a child. Or in another city. Or someone entirely unlike the person I remembered. I wrote: MIRA - DO NOT ASSUME.
+Then Mira. I stared at the name. Did I know her at nineteen? No. I did not think so. That was not the same as no. Future Mira existed in my head with the dangerous confidence of somebody I had known too well; the beginning of that memory was mostly missing. Current Mira, wherever she was, might be a child. Or in another city. Or someone entirely unlike the person I remembered. I wrote: MIRA - DO NOT ASSUME.
 
 That felt useful. Then I looked at the list again. Too many names. Too many ghosts who were not ghosts anymore. I imagined walking into a room, seeing some young idiot, and realizing he would eventually command armies. Or ruin a kingdom. Or save one.
 
 Would I tell him? Would I help? Would I use him? That answer came too quickly. Of course I would use him. I set the charcoal down. "Excellent." Second chance. Same bastard. I made another heading: MISTAKES.
 
-That list came faster. Too fast. A party I abandoned. A contract I took because I wanted the money and pretended it was strategy. A healer I pushed until she collapsed because I knew she could do more. A swordsman I kept angry because he fought better angry. People I had lied to because the lie made them useful. People who died because they trusted me. People who survived because they trusted me.
+That list came faster than I liked. A party I abandoned. A contract I took because I wanted the money and pretended it was strategy. A healer I pushed until she collapsed because I knew she could do more. A swordsman I kept angry because he fought better angry. People I had lied to because the lie made them useful. People who died because they trusted me. People who survived because they trusted me.
 
 That was the ugly part. My methods had worked often enough to become philosophy. I stopped writing. S-class Greg had not been a saint. He had been useful. Extremely useful. Those are not the same thing. I stood and walked to the window again. A boy crossed the street below carrying a bundle of rope. I watched him too long.
 
@@ -136,27 +136,27 @@ Who are you? Did you matter? Did I know you? Did you die? Did you become somebod
 
 "Fair."
 
-I returned to the desk. Now career. What had I actually been doing at nineteen? Warrior. Bronze. Slow.
+I returned to the desk. Now career. What had I actually been doing at nineteen? Warrior. Bronze. Slow. That much felt solid. The order around it did not.
 
-Slow. I remembered the shape of those years more than the sequence. Training. Cheap contracts. Trying to become stronger through repetition because that was what warriors did. Getting marginally better. Then more marginally better. Then discovering at twenty-five that I had spent years pushing the wrong door. I should skip that. Obviously. Magic now. Barrier now. Support now. I closed my eyes and reached for the old internal sensation.
+I remembered the shape of those years more than the sequence. Training. Cheap contracts. Trying to become stronger through repetition because that was what warriors did. Getting marginally better. Then more marginally better. Then discovering at twenty-five that I had spent years pushing the wrong door. Twenty-five felt right. Probably. I almost wrote it under KNOW, reconsidered, and left it under THINK. I should skip those years. Obviously. Magic now. Barrier now. Support now. Except I had already tried the smallest magical test I knew, and this body had answered with a headache and a tingling palm.
 
-Not nothing exactly. Mana existed. I knew that. I understood the theory more deeply than some professors ever would. But understanding was not capacity. My channels had not been trained. My body had not spent six years accumulating the foundation that made Barrier possible. I tried anyway. Of course I did. The result was a headache and a tingling palm. I stared at my hand. "Right."
+That mattered. I understood the theory more deeply than some professors ever would, but understanding was not capacity. My channels had not been trained. My body had not spent six years accumulating the foundation that made Barrier possible. The morning had given me one result, not permission to pretend the problem was solved. Knowledge was not embodiment. Annoying.
 
-Knowledge was not embodiment. Annoying. Could I accelerate the magical foundation? Probably. How much? Unknown. I wrote: MANA CONDITIONING - START NOW.
+Could I accelerate the magical foundation? Probably. How much? Unknown. I wrote: MANA CONDITIONING - START NOW.
 
 Then: WARRIOR YEARS - MOSTLY SKIP.
 
 I paused. Mostly. Those years had not been entirely wasted. Warrior Greg had learned how fighters moved. How shields failed. How fear changed timing. How much a man could hear while somebody tried to cut his head off. Later, support Greg had known what frontliners needed because he had spent years being a mediocre one. I crossed out MOSTLY SKIP and wrote: KEEP USEFUL PARTS. Better.
 
-Then money. Money was easy. I wrote that confidently. Then stared at the page. Was it?
+Then money. Money was easy. I wrote that confidently and stared at the page. Was it? The confidence had arrived before the evidence. That was becoming familiar.
 
-What exactly did I remember that made money today? Not eventually. Today. The Red Winter was decades away. Antonius Vale's rise was useless without access. A famous mana crystal shortage happened... when? I frowned. No idea. A shipping company became huge because of something involving southern grain. Was that this decade? Later? I could remember the company logo. Not the date.
+What exactly did I remember that made money today? Not eventually. Today. The Red Winter was decades away. Antonius Vale's rise was useless without access. A famous mana crystal shortage happened... when? I frowned. No idea. A shipping company became huge because of something involving southern grain. Was that this decade? Later? I could remember the company logo. Not the date. Apparently memory had retained the parts that made good stories and discarded the parts useful for buying lunch.
 
 "Wonderful." Forty years of future knowledge and I could not remember next week's price of onions. That was probably healthy. I leaned back.
 
 Wrong question. What happens tomorrow? Bad question. What becomes valuable later, and why? Better.
 
-That I could answer. Infrastructure. Mana access. Certain dungeon materials people currently treated as waste. Specific institutions. Certain people. Support training itself, eventually. I began another list. Then another. The desk disappeared beneath paper. Some ideas were memory. Some were inference. Some were probably complete bullshit. I marked them differently: KNOW. THINK. CHECK.
+That I could answer. Or thought I could. Infrastructure. Mana access. Certain dungeon materials people currently treated as waste. Specific institutions. Certain people. Support training itself, eventually. I began another list. Then another. The desk disappeared beneath paper. Halfway down one page I moved an item from KNOW to THINK. Two lines later I moved another from THINK to CHECK. Some ideas were memory. Some were inference built on memory. Some were probably complete bullshit wearing a familiar face. I marked them differently: KNOW. THINK. CHECK.
 
 By midday, I had a plan. A sensible plan. It would take perhaps twelve years. I stared at twelve. Too long. I started cutting. I did not need to learn warrior lessons twice. Ten. I knew which guild paths were dead ends. Nine. I knew which kinds of teachers mattered. Eight. I could begin mana conditioning early. Seven. Certain introductions could happen years sooner. Six. I stared at six. The number irritated me.
 
@@ -164,7 +164,7 @@ By midday, I had a plan. A sensible plan. It would take perhaps twelve years. I 
 
 The first bottleneck was capital.
 
-Capital immediately made me think of equipment. Equipment made me think of enchanted steel. Enchanted steel made me remember how obscenely cheap early mana-conductive alloys had once been before military procurement discovered them. For three glorious seconds I thought I had found my fortune. Then I remembered the alloy in question had not been invented yet. I wrote it down anyway. Not as an investment. As a question. Could it be invented early? By whom? Did I remember enough to point somebody toward it? Probably not. Still, the page gained another branch.
+Capital immediately made me think of equipment. Equipment made me think of enchanted steel. Enchanted steel made me remember how obscenely cheap early mana-conductive alloys had once been before military procurement discovered them. For three glorious seconds I thought I had found my fortune. Then I tried to place the alloy in time and remembered the irritating part: it had not been invented yet. Probably. I chased the memory backward and got a workshop smell, a military procurement argument, and no inventor. I wrote it down anyway. Not as an investment. Under CHECK. Could it be invented early? By whom? Did I remember enough to point somebody toward it? Probably not. Still, the page gained another branch.
 
 This was the danger and the opportunity. I did not have one future. I had forty years of loose threads, and pulling any one of them might lead to money, catastrophe, or a memory of a dinner conversation that had never been important in the first place.
 
@@ -174,7 +174,7 @@ Nineteen-year-old Greg had three copper. Sixty-year-old Greg knew what money cou
 
 "Reasonable." It was not. I knew a lender. Or rather, I knew what he became. Present version? Unknown. Current habits? Unknown. How much he would lend an arrogant nineteen-year-old Bronze warrior with three copper? Probably nothing. Still. That was a present problem. Present problems could be worked. I folded the papers. Then unfolded them and removed PEOPLE WHO MATTER. Too incriminating. Then put it back.
 
-If I was going to become the same manipulative bastard again, hiding the list from myself would not help. I looked once more at the mirror. Young. Alive. Unfinished. The old life felt impossibly far away and uncomfortably close. I had no reputation. No magic. No network. No proof.
+If I was going to become the same manipulative bastard again, hiding the list from myself would not help. I looked once more at the mirror. Young. Alive. Unfinished. The old life felt impossibly far away and uncomfortably close. I had no reputation, no magic, no network, no proof.
 
 Just forty years of experience, a nineteen-year-old body, a Bronze badge, and the deeply irritating conviction that this was still more than enough. Good work, Greg. I grabbed the coat. Then went looking for money.
 
@@ -192,21 +192,21 @@ Carrow looked wrong at street level. From the window, the differences had been a
 
 "Not remotely."
 
-She walked away faster. That was going to become a problem. Every person now came with questions. Who are you? Did I know you? Did you become somebody? Did you die? Did I help? Did I make it worse? Most faces gave me nothing. Forty years of life did not turn memory into a census. A guild runner named Daven caught my attention because I knew a Daven decades later. I asked for his family name. He asked why. His friend began laughing when I told him I might owe a Daven money. Three streets later I remembered the man I meant. Wrong Daven.
+She walked away faster. Every face wanted to become a question. Who are you? Did I know you? Did you become somebody? Did you die? Did I help? Did I make it worse? Most gave me nothing. Forty years of life did not turn memory into a census. A guild runner named Daven caught my attention because I knew a Daven decades later. I asked for his family name. He asked why. His friend began laughing when I told him I might owe a Daven money. Three streets later I remembered the man I meant. Wrong Daven.
 
 "Excellent," I muttered.
 
 Forty years of memory was a warehouse after an earthquake. Useful things were in there. Finding them was the problem. So I did not go directly to the lender. First I walked. I checked the city against memory. The northern freight road was still half dirt. The Exchange did not exist. Businesses I remembered as institutions were one-room shops or empty lots. I bought paper with one of my three copper and sat across from the east market.
 
-Walking was not wasted time anymore. It was indexing. A street corner reminded me of a riot. The riot reminded me of the guild captain who mishandled it. His name reminded me of a shipping family. The shipping family reminded me that their fortune had started somewhere boring. Most of those tangents died after two steps. A few did not.
+Walking was not wasted time anymore. It was indexing. A street corner reminded me of a riot. The riot reminded me of the guild captain who mishandled it. His name reminded me of a shipping family, and the shipping family reminded me that their fortune had started somewhere boring. Most tangents died after two steps. A few did not.
 
-That became the method. Let the present tug on the future until something connected strongly enough to investigate. I did not need to remember an exact winning bet. I needed one chain of cause and effect that still existed at this end of history. The lender was not the plan. He was a tool for the first step of it. Before I borrowed anything, I needed one present-day fact I could turn into a believable use for his money. Future knowledge by itself was worthless if I could not show where it touched the world now. So I walked Carrow looking for overlap: something cheap today, important later, and simple enough that I could verify it without already being rich or magical.
+That became the method. Let the present tug on the future until something connected strongly enough to investigate. I did not need an exact winning bet. I needed one chain of cause and effect that still existed at this end of history. The lender was only a tool for the first step. Before I borrowed anything, I needed one present-day fact I could turn into a believable use for his money. Future knowledge was worthless if I could not show where it touched the world now.
 
 WHAT BECOMES VALUABLE?
 
-That was better than asking what happened tomorrow. Tomorrow was mush. Causes were clearer. Mana-glass. Blue salt. Certain dungeon waste. Alchemical filtration. A porter dumped gray stone chips beside a masonry stall. I knew the stone. Kestrin shale. Cheap. Brittle. Mildly mana-reactive. Mostly rubbish. Years later it would be used in filtration ceramics because the property everybody hated about it was exactly what made it useful. I did not remember the date. I did not remember the inventor. I remembered the reason. That was enough to investigate.
+That was better than asking what happened tomorrow. Tomorrow was mush. Causes were clearer. Mana-glass. Blue salt. Certain dungeon waste. Alchemical filtration. A porter dumped gray stone chips beside a masonry stall. I knew the stone. Kestrin shale. Cheap. Brittle. Mildly mana-reactive. Mostly rubbish. Years later it would be used in filtration ceramics because the property everybody hated about it was exactly what made it useful. I did not remember the date or the inventor. I remembered the reason. That was enough to investigate.
 
-Not enough to invest. That distinction mattered. My old self had known the finished product. Present Greg needed to prove that the material property I remembered was already there, that someone could reproduce it, and that the economics were not completely different forty years earlier. Memory gave me a lead. The city had to give me confirmation.
+Not enough to invest. Present Greg still needed to prove the property was already there, that someone could reproduce it, and that the economics were not completely different forty years earlier. Memory gave me a lead. The city had to give me confirmation.
 
 "How much for a cart?" I asked the stall owner. She looked at my Bronze plate. "Why?"
 
@@ -230,7 +230,7 @@ Not enough to invest. That distinction mattered. My old self had known the finis
 
 She laughed. "Two silver." I had two copper. Progress. The name ARWICK came back while I was walking away. Not a person at first. A maker's stamp on filter housings decades from now. Arwick Works existed already, if one rented room behind a cooper counted as works. Pell Arwick repaired lamp regulators. He was not famous yet. I stared at him too long.
 
-Pell mattered for two different reasons, and I needed to keep them separate. The future gave me his surname. The present gave me an artificer with a workshop, tools, and enough technical knowledge to tell me whether my memory was nonsense. I did not know if Pell himself became the Arwick I remembered, if a child inherited the work, or if somebody bought the name later. For now, he was not a future industrial dynasty. He was the man who could test the first idea on my list.
+The future gave me his surname. The present gave me an artificer with a workshop, tools, and enough technical knowledge to tell me whether my memory was nonsense. I did not know if Pell himself became the Arwick I remembered, if a child inherited the work, or if somebody bought the name later. For now, he was the man who could test the first idea on my list.
 
 That should have been simple. It was not. The future version of a name carried weight, and weight distorted judgment. I could feel myself wanting Pell to be important because that would make my memory cleaner. Cleaner memories were easier to monetize. Easier to control. That was exactly the kind of reasoning I needed to notice before it became a decision.
 
@@ -246,13 +246,15 @@ His annoyance became interest when I explained the shale. Not the future. The pr
 
 "Unless the contamination binds preferentially," I said.
 
-He put down his tool. There. Not proof. Evidence. A test would cost six silver. I had two copper. Now I went to Antonius Vale. I remembered the man he became much better than the man he was now. I even went to the wrong building first. Eventually a narrow man with a scar led me into a gambling room, and Antonius came out to meet me. I knew him immediately. Younger. Leaner. Black hair instead of silver at the temples. Cheap coat by his later standards. The eyes were the same.
+He put down his tool. There. Not proof. Evidence. A test would cost six silver. I had two copper.
 
-That failure was exactly why Antonius came next. I had found something plausible and someone capable of testing it, but I could not afford the test. Antonius was not yet the financial predator I remembered from later life. Right now he was simply a lender with criminal edges and enough appetite for risk that a strange young adventurer might get through the door. I needed his silver, not his friendship. Ideally I would repay him before he had time to decide I was more valuable than the debt.
+Now I went to Antonius Vale. I remembered the man he became much better than the man he was now, and I even went to the wrong building first. Eventually a narrow man with a scar led me into a gambling room, and Antonius came out to meet me. I knew him immediately. Younger. Leaner. Black hair instead of silver at the temples. Cheap coat by his later standards. The eyes were the same.
 
-The sequence was now clean enough to say out loud: prove one remembered advantage; use the proof to borrow; use the borrowed money to turn the advantage into real capital; use the capital to accelerate magic. Every step depended on the one before it. That was good. It also meant one false memory could poison the whole chain.
+I had found something plausible and someone capable of testing it, but I could not afford the test. Antonius was not yet the financial predator I remembered from later life. Right now he was simply a lender with criminal edges and enough appetite for risk that a strange young adventurer might get through the door. I needed his silver, not his friendship. Ideally I would repay him before he had time to decide I was more valuable than the debt.
 
-I considered abandoning the shale and finding a safer idea. Then I considered how long 'safer' would take. The thought lasted perhaps three seconds. Old habits again. I was already trading certainty for speed.
+The sequence was clean enough: prove one remembered advantage, use the proof to borrow, turn the borrowed money into real capital, then use the capital to accelerate magic. Every step depended on the one before it. One false memory could poison the whole chain.
+
+I considered abandoning the shale and finding a safer idea. Then I considered how long "safer" would take. The thought lasted perhaps three seconds. Old habits again. I was already trading certainty for speed.
 
 "Have we met?" Antonius asked.
 
@@ -302,7 +304,7 @@ That got me inside. His office was a storage room with a ham hanging from the ce
 
 "Yes," I said.
 
-"Why?" Pell asked.
+"Why?" Antonius asked.
 
 "Because if it works, I don't want to come back tomorrow."
 
@@ -342,7 +344,7 @@ Shit. I let some uncertainty into my face. Nineteen-year-old uncertainty. A boy 
 
 "I asked around."
 
-I had changed roles without deciding to. That was the interesting part. Confident expert to nervous boy because nervous boy was safer, and the transition had happened before I consciously chose it. Voice slightly smaller. Shoulders less certain. Let Antonius feel older, sharper, more in control. Give him the version of Greg that made his next decision easiest. Useful. Also, perhaps, something I should examine later. Antonius pushed the coins toward me. "Eight days, Greg." I picked them up.
+I had shifted before deciding to. Confident expert to nervous boy because nervous boy was safer. Voice slightly smaller. Shoulders less certain. Let Antonius feel older, sharper, more in control. Give him the version of Greg that made his next decision easiest. Useful. Also something I should probably examine later. Antonius pushed the coins toward me. "Eight days, Greg." I picked them up.
 
 "You're going to remember me."
 
@@ -374,25 +376,25 @@ Her name was written on the top form. I pointed. She looked down. Then back at m
 
 "Who?"
 
-"You," Sella said. She stared. I smiled.
+"You," I said. She stared. I smiled.
 
 "Freak," Sella said, and walked around me.
 
 I watched her go. Who are you now? That was harder than who do you become. I had the uncomfortable suspicion it was also more important. Then I remembered I had eight days to turn borrowed silver into enough money that Antonius Vale did not own my schedule. Reflection could wait. I went to buy garbage.
 
-So that was the board after one day. Money: borrowed. Deadline: eight days. First investment: a cart of material most people considered rubbish. Pell: interested enough to test it, not yet mine to command, which was probably healthy. Antonius: watching. Magic: still theoretical. Reputation: nonexistent. The immediate job was simple enough to say out loud. Make the shale prove something. Turn that proof into enough money to clear Vale. Then buy myself the time to start becoming a mage six years early.
+So that was the board after one day. Money: borrowed. Deadline: eight days. First investment: a cart of material most people considered rubbish. Pell: interested enough to test it, not yet mine to command, which was probably healthy. Antonius: watching. Magic: still theoretical. Reputation: nonexistent. The immediate job was simple enough. Make the shale prove something, turn that proof into enough money to clear Vale, then buy myself the time to start becoming a mage six years early.
 
 CHAPTER THREETHE INVESTOR
 
 Buying garbage turned out to be the easy part. Toma sold me a cart of Kestrin shale for two silver and the expression of a woman who had just discovered that fools could be harvested. I paid another copper to have it delivered to Pell's workshop, which left me standing in the east market with borrowed money in my pocket and the unpleasant awareness that every coin now had Antonius Vale attached to it.
 
-Garbage had always been underrated. Not philosophically. Literally. Adventurers were terrible at distinguishing 'worthless' from 'not currently worth carrying.' I had made money on that distinction later. Bones nobody wanted until necromantic licensing changed. Slime residue before preservative alchemy improved. Broken cores once artificers learned to laminate them. The shale was not unique. It was simply the first future waste product my nineteen-year-old purse could reach.
+Garbage had always been underrated. Not philosophically. Literally. Adventurers were terrible at distinguishing "worthless" from "not currently worth carrying." I had made money on that distinction later. Bones nobody wanted until necromantic licensing changed. Slime residue before preservative alchemy improved. Broken cores once artificers learned to laminate them. The shale was not unique. It was simply the first future waste product my nineteen-year-old purse could reach.
 
 That thought nearly sent me back toward the guild salvage yard to start buying every cheap material I vaguely remembered becoming useful. I stopped myself before enthusiasm became inventory. One experiment first. If I could not make one cart of remembered garbage profitable, owning six different kinds of remembered garbage would merely make me a collector.
 
-The order had not changed yet. Prove the shale. Protect enough of the idea that I could profit from it. Pay Antonius before the interest or the man himself became a larger problem. Then divert part of whatever remained into mana conditioning. Money first, magic second, because being the greatest support mage in my old life meant very little while my current body could not cast a useful spell and my current purse could not afford to teach it.
+The order had not changed. Prove the shale. Protect enough of the idea that I could profit from it. Pay Antonius before the interest or the man himself became a larger problem. Then divert part of whatever remained into mana conditioning. Money first, magic second, because being the greatest support mage in my old life meant very little while my current body could not cast a useful spell and my current purse could not afford to teach it.
 
-That was the board that morning. Pell was the technical gate. Antonius was the financial clock. Magic was still an expense I could not yet afford. Keep the chain narrow. Find out which assumption failed first.
+Pell was the technical gate. Antonius was the financial clock. Magic was still an expense I could not afford. Keep the chain narrow. Find out which assumption failed first.
 
 Eight days. Thirty-five percent. If the experiment failed, my labor belonged to him until the debt was cleared. I had accepted worse contracts. That was not comforting. Pell was less pleased to see the shale than Toma had been to sell it.
 
@@ -454,11 +456,11 @@ Pell gave me the look again. People had several for me already: nineteen-year-ol
 
 "And today it remains six. Remarkable stability," Pell said.
 
-I counted the coins onto his bench. It hurt. That was useful. In my old life, by the end, six silver had been invisible. I had spent more than that on wine I did not particularly like because someone important had selected the bottle. Now I watched each coin leave my hand. Capital had weight again. So did mistakes. Pell picked up a shale chip. "Tell me exactly what you think this does." I almost told him. Not the whole truth. The future was not a truth I could hand him. But I nearly gave him the answer as I remembered it. Then I stopped. Because I did not remember the answer. I remembered filter housings. I remembered the Arwick stamp.
+I counted the coins onto his bench. It hurt. That was useful. In my old life, by the end, six silver had been invisible. I had spent more than that on wine I did not particularly like because someone important had selected the bottle. Now I watched each coin leave my hand. Capital had weight again. So did mistakes. Pell picked up a shale chip. "Tell me exactly what you think this does." I almost told him. Not the whole truth. The future was not a truth I could hand him. But I nearly gave him the answer as I remembered it. Then I stopped, because I did not remember the answer. I remembered filter housings. I remembered the Arwick stamp.
 
-Weight made me think of the loan agreement folded inside my coat. I touched it to make sure it was still there, then wondered why. Antonius did not need the paper to remember I owed him. I did. The document was less a contract than a physical reminder that every clever idea currently had a clock attached to it.
+The loan agreement folded inside my coat seemed suddenly heavier. I touched it to make sure it was still there, then wondered why. Antonius did not need the paper to remember I owed him. I did. The document was less a contract than a physical reminder that every clever idea currently had a clock attached to it.
 
-Eight days sounded generous when I was sitting across from him. Inside Pell's workshop, watching six silver become somebody else's afternoon, it sounded like a very short week. I remembered somebody explaining, years after the discovery, that the shale's trace mana made it useful for binding residue during high-heat processing. That was not a formula. That was a story about a formula.
+Eight days sounded generous when I was sitting across from him. Inside Pell's workshop, watching six silver become somebody else's afternoon, it sounded like a very short week. I remembered somebody explaining, years after the discovery, that the shale's trace mana made it useful for binding residue during high-heat processing. That was not a formula. It was a story about a formula.
 
 I pulled the memory apart anyway. Who had been talking? Workshop or banquet? Was the speaker an artificer or merely somebody repeating the explanation badly? Had the useful property been binding residue, or resisting it? The more I pushed, the less trustworthy the detail became. Good. Better to discover that at a bench than after betting the rest of the loan.
 
@@ -490,7 +492,7 @@ Pell's expression flattened. I pointed at him. "That is why you're being paid."
 
 "Those are cheaper."
 
-He muttered something about adventurers and began working. I stayed. Pell objected. I stayed anyway. Not because I needed to supervise him. Because I needed to see what the present knew. That distinction became important within the first hour. Pell ground the shale much finer than I expected. He washed part of it. Heated another portion dry. Mixed samples into two cheap clay bodies and one better ceramic paste. He kept notes in a narrow hand and labeled everything. I understood perhaps half of what he was doing. That bothered me more than it should have.
+He muttered something about adventurers and began working. I stayed. Pell objected. I stayed anyway, not because I needed to supervise him, but because I needed to see what the present knew. That distinction mattered within the first hour. Pell ground the shale much finer than I expected. He washed part of it. Heated another portion dry. Mixed samples into two cheap clay bodies and one better ceramic paste. He kept notes in a narrow hand and labeled everything. I understood perhaps half of what he was doing. That bothered me more than it should have.
 
 I had assumed the advantage lived in the answer. Pell kept showing me otherwise. I knew the shale mattered; he knew how to make that claim survive contact with a kiln. Old Greg had rarely been the best person in the room at every task. He had been very good at finding the person who was.
 
@@ -540,7 +542,7 @@ He looked at the window. "Enough to tell you this was a bad idea." I felt the fi
 
 ARWICK.
 
-Was it Kestrin shale? I searched. A banquet thirty years later. Someone talking beside me while I watched a duchess lie badly about a border dispute. Wrong memory. Workshop. Smoke. A woman with burned fingertips. Not Pell. Arwick. Was her name Arwick? I could hear myself saying, "Use the old Kestrin mix." Maybe. Or "Don't use the old Kestrin mix." Fuck. Memory offered confidence without subtitles. I opened my eyes. This was exactly the trap. I had remembered the outcome and reconstructed the cause. The reconstruction was good enough to interest Pell. That did not make it true. I could lose the loan. Fine. I could work it off. Fine.
+Was it Kestrin shale? I searched. A banquet thirty years later. Someone talking beside me while I watched a duchess lie badly about a border dispute. Wrong memory. Workshop. Smoke. A woman with burned fingertips. Not Pell. Arwick. Was her name Arwick? I could hear myself saying, "Use the old Kestrin mix." Maybe. Or "Don't use the old Kestrin mix." Fuck. Memory offered confidence without subtitles. I opened my eyes. This was exactly the trap. I had remembered the outcome and reconstructed the cause. The reconstruction was good enough to interest Pell. That did not make it true. I could lose the loan. Fine. I could work it off.
 
 One bad memory did not erase forty years. It did change what I was allowed to buy with them. Memory could generate leads. Pell's bench got to decide which ones survived.
 
@@ -552,7 +554,7 @@ One bad memory did not erase forty years. It did change what I was allowed to bu
 
 The fifth sample had not worked either. The sixth had. Not dramatically. No glow. No miraculous transformation. Pell had run a cheap alchemical wash through a porous ceramic disk containing a small percentage of powdered shale. The liquid collected below was clearer than the control. Barely. But measurably. Pell ran it again. Same result. He stopped talking. That was when I knew we had something.
 
-I stared at the disk and remembered another successful test from much later in life. Different project. Different people. We had celebrated the first positive result for an entire night and discovered the next morning that the result came from contamination in the measuring vessel. I had learned two things: never celebrate before replication, and never let Daro choose the celebratory liquor. Daro. Was Daro alive now? Almost certainly. Where? No idea. I nearly wrote his name down before remembering I was standing in Pell's workshop and had no paper in my hand.
+I stared at the disk and remembered another successful test from much later in life. Different project. Different people. We had celebrated the first positive result for an entire night and discovered the next morning that it came from contamination in the measuring vessel. I had learned two things: never celebrate before replication, and never let Daro choose the celebratory liquor. Daro. Was Daro alive now? Almost certainly. Where? No idea. I nearly wrote his name down before remembering I was standing in Pell's workshop and had no paper in my hand.
 
 "How good?" I asked.
 
@@ -608,7 +610,7 @@ Pell's mouth tightened.
 
 Useful. I hated how quickly the word appeared.
 
-Useful. I corrected it. Interested. Better.
+Interested, I corrected. Better.
 
 "What do you need?" I asked.
 
@@ -624,7 +626,7 @@ Useful. I corrected it. Interested. Better.
 
 "Apparently."
 
-I checked the remaining silver. I could fund it. Barely. Then I would have almost nothing left. Antonius was due in eight days. The sensible move was to take the weak positive result back to him and ask for more capital. The better move was to improve the result first. The Greg move was to do both while pretending there was no distinction.
+I checked the remaining silver. I could fund it. Barely. Then I would have almost nothing left. The sensible move was to take the weak positive result back to Antonius and ask for more capital. The better move was to improve the result first. The Greg move was to do both while pretending there was no distinction.
 
 "I need a written statement," I said.
 
@@ -682,21 +684,21 @@ Pell narrowed his eyes. "That easy?"
 
 "Unclear," I said.
 
-He wrote the statement. I took it to Antonius before sunset. His storage-room office still had the ham. The scarred man from yesterday was there too; his name, I learned, was Jorren. Nothing surfaced when I searched for him. On the walk over I rehearsed the argument three ways, then caught myself rehearsing for the Antonius I remembered rather than the one I had actually met.
+He wrote the statement. I took it to Antonius before sunset. His storage-room office still had the ham. The scarred man from yesterday was there too; his name, I learned, was Rusk. Nothing surfaced when I searched for him. On the walk over I rehearsed the argument three ways, then caught myself rehearsing for the Antonius I remembered rather than the one I had actually met.
 
 So I changed the plan. Give him the evidence. Let him ask. Watch what present Antonius cared about. Yesterday I had been a Bronze adventurer selling confidence. Today I had Pell's name on a test that had produced a measurable effect. Not a business. Evidence.
 
-"What?" I asked.
+Antonius looked at me long enough that I said, "What?"
 
-"Nothing," Pell said.
-
-"You keep looking at me."
+"You keep looking at people like that?"
 
 "I have a memorable-face problem."
 
 "Your face?"
 
-"Other people's." Antonius held out his hand. I gave him Pell's note. He read it twice.
+"Other people's." He held out his hand. I gave him Pell's note.
+
+He read it twice.
 
 "Ten percent."
 
@@ -1212,7 +1214,7 @@ The next move was not another miracle. It was keeping these pieces together long
 
 CHAPTER FOURTHE EXPERT
 
-The first thing I did the next morning was count my money. The second thing I did was count it again because the number offended me. It did not improve. I sat on the edge of the bed with the coins spread across the blanket in little stacks and tried to remember when silver had become invisible to me. Not metaphorically. Literally. There had been a point in my old life when I stopped counting it. Somebody else handled expenses. Somebody else settled rooms, replaced gear, paid porters, bought supplies, tipped runners, bribed clerks, and quietly moved money around so that Greg could continue being Greg without ever needing to wonder whether dinner cost four copper or six.
+The first thing I did the next morning was count my money. The second thing I did was count it again because the number offended me. It did not improve. I sat on the edge of the bed with the coins spread across the blanket in little stacks and tried to remember when silver had become invisible to me. Not metaphorically. Literally. There had been a point in my old life when I stopped counting it. Somebody else handled expenses. Somebody else settled rooms, replaced gear, paid porters, bought supplies, tipped runners, bribed clerks, and quietly moved money around so Greg could continue being Greg without ever needing to wonder whether dinner cost four copper or six.
 
 That arrangement had seemed efficient. Now it seemed suspiciously like being spoiled. I moved one silver from the left stack to the right. Training. Another. Food. Another. Pell. Another. Debt. I stopped. That was already more categories than coins.
 
@@ -1272,7 +1274,7 @@ Then underneath:
 
 TOO GOOD?
 
-That was not useful financially. Unless. Gambling. The thought arrived so cleanly I distrusted it. I leaned back. Cards. Dice. Tables. Not pure games of chance. Not the stupid ones. Anything with betting decisions, bluffing, hidden information, player behavior. I had played constantly in my old life. Not professionally. Socially. Expeditions were boring. Sieges were worse. Give twelve adventurers three weeks in a fortress and eventually somebody invented a drinking game, a card table, or a reason to hate whoever packed the dice. I had been good. Very good. How good? I frowned. That was exactly the kind of memory I had learned to question. I remembered winning. People remember winning.
+That was not useful financially. Unless I gambled. The thought arrived so cleanly I distrusted it. I leaned back. Cards. Dice. Tables. Not pure games of chance. Not the stupid ones. Anything with betting decisions, bluffing, hidden information, player behavior. I had played constantly in my old life. Not professionally. Socially. Expeditions were boring. Sieges were worse. Give twelve adventurers three weeks in a fortress and eventually somebody invented a drinking game, a card table, or a reason to hate whoever packed the dice. I had been good. Very good. How good? I frowned. That was exactly the kind of memory I had learned to question. I remembered winning. People remember winning.
 
 I remembered other people complaining. Also not evidence. I remembered being banned from a table in Hareth because the owner believed I was cheating. That was better. Had I been cheating? Not mechanically. I had known when the owner was bluffing. He considered that cheating because the distinction cost him money. I smiled.
 
@@ -1306,8 +1308,6 @@ The table laughed. The dealer did not.
 
 I sat. Three-card draw. Simple. Too simple. Good. I bought in small. The first hand I lost. Deliberately? That would have been smarter. I simply had bad cards. Important distinction. The second hand I folded too late because I mistook the merchant apprentice's nervousness for weakness. He had an excellent hand. I paid for the lesson.
 
-Interesting.
-
 I watched him. He was nervous because he had an excellent hand, not because he was bluffing. Knowing the principle was not knowing the man. Third hand. Dock-coat woman tapped one finger when she wanted someone to raise. Fourth. Red-nose exhaled through his nose before lying. Fifth. Guild-leathers touched his fake silver clasp when he wanted to look confident. I lost two. Won one. Folded three. The dealer watched me watching.
 
 "First time?" he asked.
@@ -1328,7 +1328,7 @@ I watched him. He was nervous because he had an excellent hand, not because he w
 
 He dealt. I picked up the cards. Mediocre. Not useless. The merchant apprentice looked at his hand and went still. Very still. Good hand. Red-nose scratched his cheek. Nothing. Dock coat checked the pot before checking anyone else. Interested. Fake Silver touched the clasp. There. Weak. I raised. Merchant apprentice called. Dock coat called. Fake Silver hesitated, then called because pride had entered the hand. Red-nose folded. Next card. Merchant apprentice blinked once. Better. Dock coat relaxed. Worse. Fake Silver touched the clasp again. Still weak. I had not improved. I raised anyway. Not because my cards deserved it.
 
-Because two players wanted permission to leave and one wanted to prove he could stay. Dock coat folded. Fake Silver called. Of course. Merchant Apprentice raised me. There was the problem. Good hand. Very good. I looked at him. He was trying not to breathe. I could beat Fake Silver. Not him. I folded. Fake Silver did not. Merchant Apprentice took the pot. Fake Silver swore. I smiled. Not because I won. Because the room had become legible. I stayed three hours. I did not win every hand. The others were not stupid. I just stopped making expensive mistakes quickly.
+Because two players wanted permission to leave and one wanted to prove he could stay. Dock coat folded. Fake Silver called. Of course. The merchant apprentice raised me. There was the problem. Good hand. Very good. I looked at him. He was trying not to breathe. I could beat Fake Silver. Not him. I folded. Fake Silver did not. The merchant apprentice took the pot. Fake Silver swore. I smiled, not because I won, but because the room had become legible. I stayed three hours. I did not win every hand. The others were not stupid. I just stopped making expensive mistakes quickly.
 
 The patterns changed as people changed. Red-nose's tell shifted after drinking. Dock Coat got reckless when behind. Merchant Apprentice protected profit. Fake Silver could be pushed by disrespect. I used that once.
 
@@ -1336,7 +1336,7 @@ The patterns changed as people changed. Red-nose's tell shifted after drinking. 
 
 "Too boring." He stayed in the next hand three raises longer than he should have.
 
-Useful. Ugly. Effective.
+Ugly. Effective.
 
 I won. The feeling was familiar. Not the money. The steering. That little shift where another person thought they were making a decision and I knew which pressure had nudged it. Old Greg had called it support when the outcome was heroic, strategy when it was political, negotiation when money moved, flirting when clothes came off. Read the person. Find the lever. Apply pressure. Fake Silver was stacking fewer coins than he had arrived with. Angry at me? At himself. Better. If he blamed me, he might leave. If he blamed himself, he would stay and try to repair the story.
 
@@ -1370,9 +1370,7 @@ That thought belonged to old Greg too. The room sharpened. I stopped trying to w
 
 The table laughed. I smiled. She did not.
 
-Interesting.
-
-Senna was the best player. Present-important, not future-important. I watched her hands. Nothing. Breathing. Nothing. Eyes. Minimal. Bet sizing. There. Not a tell. A preference. She hated inefficient bets. When somebody distorted a small pot with an irrational raise, she became more conservative even with good hands. Not fear. Disgust. She disliked bad structure. I tested it. Lost. Wrong. She had known I was testing. Her eyes flicked to me afterward. Tiny smile. Oh. I liked her. Dangerous in a completely different way.
+Senna was the best player. Present-important, not future-important. I watched her hands. Nothing. Breathing. Nothing. Eyes. Minimal. Bet sizing. There. Not a tell. A preference. She hated inefficient bets. When somebody distorted a small pot with an irrational raise, she became more conservative even with good hands. Not fear, disgust. She disliked bad structure. I tested it and lost. Wrong. She had known I was testing. Her eyes flicked to me afterward. Tiny smile. Oh. I liked her. Dangerous in a completely different way.
 
 "Again," I said.
 
@@ -1428,7 +1426,7 @@ That one had earned its place. I counted the money again. Not enough. Real. Tomo
 
 CHAPTER FIVETHE WARRIOR
 
-I paid Hessa first. That was new. Not paying people. I had always paid people eventually. Paying the sensible thing before the interesting thing. I put the training money aside before breakfast, counted what remained, and felt briefly pleased with myself. Then I went gambling. Three nights later, I had more money than I had possessed since waking up. Five nights later, I had less. This was not, strictly speaking, the gambling's fault. That distinction mattered to me. It did not matter to the coins. The gambling worked. That was the problem.
+I paid Hessa first. That was new. Not paying people. I had always paid people eventually. Paying the sensible thing before the interesting thing. I put the training money aside before breakfast, counted what remained, and felt briefly pleased with myself. Then I went gambling. Three nights later, I had more money than I had possessed since waking up. Five nights later, I had less. This was not, strictly speaking, the gambling's fault. The distinction mattered to me. It did not matter to the coins. The gambling worked. That was the problem.
 
 The White Dog became easy faster than it should have. Not easy enough to demand money from the universe. Cards remained cards. Bad hands and stupid luck still existed. A drunk dockworker once called a bet he had absolutely no business calling and drew the one card that could save him. I disliked him personally for almost six minutes. But individual people were astonishingly repetitive.
 
@@ -1436,9 +1434,9 @@ Give me an hour and I knew who protected winnings, who chased losses, who bluffe
 
 The White Dog one night. The Copper Nail the next. A guild game behind a cooper's shop. A private table I got invited to because Osric apparently decided losing money to me was more enjoyable when accompanied by better wine. I won. Not always. Enough.
 
-Silver became less frightening. Then, almost immediately, less real. That was how fast my brain betrayed me. The first few winnings had been food. Training. Rent. Breathing room. The next few became capital. Capital became possibility. Possibility became permission. I funded another round of Pell's tests. Reasonable. I bought better food because Hessa had told me to.
+Silver became less frightening. Then, almost immediately, less real. That was how fast my brain betrayed me. The first few winnings had been food. Training. Rent. Breathing room. The next few became capital. Capital became possibility. Possibility became permission. I funded another round of Pell's tests. Reasonable. I bought better food because Hessa had told me to. Also reasonable. I replaced my cracked boots. Still reasonable.
 
-Reasonable. I replaced my cracked boots. Also reasonable. Then I bought a sword. That required more explanation. I already owned a sword. Technically. The object in my room had an edge, a hilt, and a history of being used on firewood. It was a sword in the same sense that I was currently a mage. Potentially. I wanted something balanced. Not expensive. There was a difference. I knew the difference. I had spent decades around excellent weapons. That should have helped. It did help.
+Then I bought a sword. That required more explanation. I already owned a sword. Technically. The object in my room had an edge, a hilt, and a history of being used on firewood. It was a sword in the same sense that I was currently a mage. Potentially. I wanted something balanced. Not expensive. There was a difference. I knew the difference. I had spent decades around excellent weapons. That should have helped. It did help.
 
 A little. It also convinced me to spend far more than I had intended because I could feel every defect in the cheaper blades. The third sword I tested pulled slightly forward. The fourth had a grip too narrow for my hand. The fifth was competent. I should have bought the fifth. The sixth was beautiful. Not jeweled. Not ceremonial. Nothing stupid. Just balanced.
 
@@ -1508,7 +1506,7 @@ He froze. I smiled. There it was. That old pleasure. Not winning. The moment som
 
 "That's not what I meant." I liked him slightly more for that. We went again. I won the next exchange. Lost the next two.
 
-Won another. Then lost badly because my foot dragged half a beat behind the decision. Jorren's practice sword hit my ribs. I went down. The sand was warm. I lay there staring upward. My mind had known exactly what to do. My body had simply declined. That was new. Old. I had just forgotten. Jorren offered a hand.
+Won another. Then lost badly because my foot dragged half a beat behind the decision. Jorren's practice sword hit my ribs. I went down. The sand was warm. I lay there staring upward. My mind had known exactly what to do. My body had simply declined. That was old. I had just forgotten it. Jorren offered a hand.
 
 "You all right?"
 
@@ -1714,9 +1712,7 @@ Very bad. Payment soon. Hessa due after that. Pell wanted another material batch
 
 Cards. Simple. I went out. The table was wrong. I knew that within twenty minutes. I stayed. The first player was unreadable because he was drunk enough that his own intentions changed between looking at his cards and placing the bet. The second was good. The third was better. The fourth was lucky. I hated the fourth. I lost. Not badly. Then badly. Then recovered half.
 
-That should have been the exit. Instead I saw the line. The second player protected large pots. The third attacked weakness. The lucky idiot was overconfident. I could turn them against each other. I stayed. An hour later, I owed the table. Not much. Enough. I signed a note.
-
-Wasn't it? Probably not. I walked outside. Rusk was waiting. Antonius's man. Large. Quiet. I had met him twice. He looked at me. I looked at him.
+That should have been the exit. Instead I saw the line. The second player protected large pots. The third attacked weakness. The lucky idiot was overconfident. I could turn them against each other. I stayed. An hour later, I owed the table. Not much. Enough. I signed a note. Sensible? Probably not. I walked outside. Rusk was waiting. Antonius's man. Large. Quiet. I had met him twice. He looked at me. I looked at him.
 
 "That's efficient," I said.
 
@@ -1767,8 +1763,6 @@ I looked at the ledger again. There were too many numbers now. Not enormous numb
 "You heard me."
 
 "I can gamble it back."
-
-"I can."
 
 "I know."
 
