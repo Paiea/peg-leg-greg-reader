@@ -86,10 +86,10 @@ Do not claim a chapter is covered until its exact source was reviewed and the ba
 ## Coverage ledger
 
 - Chapters 1-301: **NOT YET COMPLETE**
-- Verified reviewed range: **Chapters 1-22**
-- No-change chapters in reviewed range: **1, 4, 5, 6, 7, 11, 12, 13, 14, 18, 19**
+- Verified reviewed range: **Chapters 1-35**
+- No-change chapters in reviewed range: **1, 4, 5, 6, 7, 11, 12, 13, 14, 18, 19, 28**
 - Chapters with hard attribution fixes recorded: **2, 3**
-- Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16, 17, 20, 21, 22**
+- Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35**
 - Durable batches:
   - `state/editorial/dialogue-pass/BATCH_001_004.md`
   - `state/editorial/dialogue-pass/BATCH_005_010.md`
@@ -97,7 +97,10 @@ Do not claim a chapter is covered until its exact source was reviewed and the ba
   - `state/editorial/dialogue-pass/BATCH_014_016.md`
   - `state/editorial/dialogue-pass/BATCH_017_019.md`
   - `state/editorial/dialogue-pass/BATCH_020_022.md`
-- Current source edge: **Chapter 23**
+  - `state/editorial/dialogue-pass/BATCH_023_026.md`
+  - `state/editorial/dialogue-pass/BATCH_027_030.md`
+  - `state/editorial/dialogue-pass/BATCH_031_035.md`
+- Current source edge: **Chapter 36**
 
 ## Completion definition for one chapter
 
@@ -123,8 +126,22 @@ Early Book I already contains useful natural separation:
 - Edrin: guild warding/custody; authority comes from responsibility for sealed structures and controlled access rather than from personal teaching.
 - Octavia: freight coordination; precision comes from routing real goods through real constraints, not from abstract system-building.
 - Dema Rusk: field-recovery instruction; teaches Bronze parties how to stop, count, move, and decide after plans fail. She is not the same voice authority as Antonius's Rusk.
+- Captain Ressa: intake triage; need first, firsthand report second, and no interrogating people who need water.
+- Iris: immediate watch response; decides whether information changes the next ten seconds and assigns bodies to jobs.
+- Brina: bakery consequences, emergency production, and practical debt categories.
+- Kellan: institutional magical measurement; field saturation, reference checks, rates, and instrument language.
+- Sava: civilian-group responsibility; counting, keeping people moving, and knowing social obligations the escorts do not.
+- Vessa: fabrication judgment; notices how fixtures and handling affect the physical workpiece rather than treating measurement as the whole job.
 
 Shared dryness is allowed. Do not force distinct catchphrases where domain and cadence already separate the voices.
+
+## Continuity/name cautions surfaced by dialogue pass
+
+- Book I reader pages may still render **Pell** where canonical name-map authority says **Arlo**. Integration must use Arlo.
+- Chapter 31 introduces a stoneworker named **Rinna**. Verify against later theatre Rinna before applying one voice authority across both appearances.
+- Chapter 35 introduces **Nessa** in a social/food-selling context. Verify whether this is the same person as later theatre Nessa before back-propagating occupational voice traits.
+
+Do not silently resolve these name/identity questions inside the attribution pass.
 
 ## Durable voice pages added during this pass
 
