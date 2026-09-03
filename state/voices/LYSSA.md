@@ -4,98 +4,85 @@ Exact manuscript prose outranks this file.
 
 ## Core lens
 
-Lyssa tends to begin with the material/social reality already in front of her: cloth, time, food, work, who asked, what still needs doing, what Greg is actually proposing, whether the thing matters enough to keep discussing.
+Lyssa begins with the material and social reality already in front of her: cloth, time, food, work, who asked, what still needs doing, what Greg is actually proposing, and whether the thing matters enough to keep discussing.
 
 She has an independent agenda. Her speech should feel like it comes from somebody whose day continues when Greg leaves the room.
 
-That independence also means she can choose Greg without needing an instrumental reason. Chapter 100 gives her one of the simplest possible motives for seeking him out: `I had time.` The visit does not need to become a date, intervention, errand, or relationship milestone in order to matter.
+That independence also means she can choose Greg without needing an instrumental reason. Chapter 100 gives her `I had time.` Chapter 123 lets work and purposeless intimacy share a route. Chapter 132 shows that a prior commitment can own her time even when a better-paying errand appears.
 
-Chapter 112 adds the emergency version of the same independence. Lyssa can make a practical plan that includes Greg's body, react quickly when conditions change, and still remain his partner rather than becoming his handler.
-
-Chapter 123 adds the workday version. Greg can accompany Lyssa on an ordinary paid delivery, wait while she completes it, and then share purposeless time before her next obligation without becoming her courier, manager, or business analyst. Her work remains hers even when intimacy overlaps the route.
-
-Chapter 132 sharpens the time boundary further. Lyssa may have an hour, a route, a prior commitment, and an opportunity for better pay at the same time. The most lucrative option does not automatically own her schedule. `Because I said yes to something else first.` is a work-priority fact, not a moral speech.
+Chapters 140-141 add temporary separation. Greg can want to go somewhere without Lyssa either authorizing the decision or manufacturing opposition so he can use her as the deciding variable.
 
 ## Spoken rhythm
 
-Lyssa can be concise, but her concision is not Hessa's methodology and not Greg's dry systems game.
+Lyssa can be concise, but her concision is not Hessa's methodology and not Greg's systems game.
 
 Her short answers often mean:
-- the question is already settled for her;
-- Greg is making something larger than it needs to be;
+- the question is settled for her;
+- Greg is making it larger than necessary;
 - she is busy;
 - she does not owe him the whole context;
 - intimacy allows less ceremony.
 
-She can also speak more fully when the issue is actually hers: work, money, household choices, relationship tension, desire, irritation, or something Greg has misunderstood about her.
+She can speak more fully when the issue is actually hers: work, money, household choices, relationship tension, desire, irritation, or something Greg has misunderstood about her.
 
-Direct emotional questions are available to her without requiring a speech afterward. Chapter 123's `Do you like me without proving it?` is intimate because Lyssa asks the actual question and then accepts a simple answer. Do not automatically convert that kind of exchange into a formal relationship declaration.
+Direct emotional questions are available without a speech afterward.
 
-Chapter 132 shows the reverse direction is equally natural. Greg can simply say `I wanted to see you.` Lyssa answers `You found me.` The line does not demand a larger declaration because the fact of his showing up already carries the intimacy.
+Chapter 123's `Do you like me without proving it?` works because she asks the real question and accepts a simple answer.
+
+Chapter 140 gives the travel version. Greg keeps insisting he has not decided whether to leave with the theatre. Lyssa does not argue the logistics for him. After removing go/don't-go/upset as possible answers, she asks the actual relationship question: `Do you want me to care?`
 
 ## Humor
 
 Often understated and relational.
 
-She does not need to top Greg's joke. Sometimes the funniest Lyssa response is refusing the premise entirely.
+She does not need to top Greg's joke. Sometimes the funniest answer is refusing the premise.
 
-She may let Greg talk himself into stupidity and answer with one practical sentence.
+Ordinary shared time can stay physically unserious: stealing food, feeding pigeons after Greg predicts consequences, teasing his theatre titles, mocking the ugly but functional black bag repair, or calling his cheap bread `sadness with a crust`.
 
-In ordinary shared time, humor can also be physical and unserious: stealing bites, splashing water, destroying a fried cake into `debris`, feeding pigeons after Greg explicitly identifies the consequences, or using the city's circulating `Landlord`, `Messenger`, and `Person` jokes against him. Do not make every playful beat into coded emotional exposition.
-
-After fear or conflict, humor can return without erasing what happened. Chapter 112 lets Lyssa move from anger at losing Greg in the evacuation to relieved laughter about his accidental line in the play, then back into ordinary food and teasing. The emotional turn works because the concrete safety question was answered first.
+Do not make every playful beat coded emotional exposition.
 
 ## Disagreement / refusal
 
-Lyssa is comfortable saying no without building a philosophical defense.
+Lyssa is comfortable saying no without philosophical defense.
 
 She can refuse:
 - a question;
 - an interpretation;
 - help she does not need;
 - Greg inserting himself into her work;
-- a customer's request when the material will not support it;
-- an opportunistic better-paying errand when it conflicts with a prior commitment;
-- Greg joining a work site that is a poor fit for the actual stairs, room, and crowd.
+- a customer's request the material will not support;
+- better-paying work when an earlier commitment already owns the time;
+- Greg joining a work site that is a poor fit for its stairs, room, or crowd;
+- the invitation to decide Greg's travel choice for him.
 
-Do not make every refusal a witty victory.
+Chapter 132's `That was not about you` matters. Greg's mobility is not secretly the reason for every work decision she makes.
 
-In danger, her disagreement can become immediate action. `We're going` in Chapter 112 is not a relationship power move. Smoke has changed the situation and she starts moving.
-
-Chapter 132 makes another distinction explicit. When Greg begins optimizing how Lyssa could fit a double-paying parcel into her remaining hour, she says `That was not about you.` His mobility is not secretly the reason for every work decision she makes. Her schedule can be constrained by promises, distance, work, and her own priorities independently of him.
-
-When she later says Greg cannot come to an inside job, the reasons are concrete: stairs, small room, too many people already. She does not apologize for the boundary or invent an accessible substitute job. She can still ask `You okay with that?` because practical exclusion and relational care are compatible.
+Chapter 140 adds a related boundary. She can care deeply about whether Greg leaves and returns without telling him what choice to make. She does not owe him a dramatic reaction to prove the relationship matters.
 
 ## Information behavior
 
-Lyssa often knows more about her own work and social routes than Greg does and does not automatically explain it.
+Lyssa often knows more about her own work and routes than Greg does and does not automatically explain it.
 
-She may give the minimum information Greg needs:
-- `Morning six. Not four.`
-- a route;
-- a simple correction;
-- whether something changed.
+Her opacity should come from owning her life, not from mystery-box writing.
 
-Her opacity should come from owning her life, not from artificial mystery-box writing.
+When Greg gives technical magic news, Lyssa usually starts with person-level relevance rather than becoming a magical analyst. She asks what happened, whether it hurt, whether he is allowed to continue, and what the practical consequence is.
 
-When Greg gives her technical magic news, Lyssa usually starts with the questions that matter to the person in front of her rather than trying to become a magical analyst. Chapters 107, 109, and 112 reinforce the pattern: was it supervised or allowed, did it hurt, what happened next? She can be sincerely pleased without pretending to understand channel mechanics better than she does.
+Chapter 132 compresses this to `So don't` after she learns Hessa has prohibited magic that day.
 
-Chapter 123 sharpens this after Greg's first bounded external test. Lyssa asks what happened, whether he repeated it, whether he is okay, and whether his hand is normal. When she takes his hand, the prose explicitly distinguishes the gesture from examination. She can care about the body without turning affection into a clinical check.
-
-Chapter 132 compresses this even further. Greg says the thread is done for now because it did not repeat cleanly and that Hessa tested direction instead. Lyssa asks only enough to understand the person-level update, then checks whether he is allowed magic today. `So don't.` closes the medical question. She does not need Hessa's apparatus history or evidence taxonomy.
+Chapter 140 shows she can understand a subtle evidence downgrade without adopting Hessa's language. The old directional test may still mean something, but less. She also notices Greg is unhappy because he was excited by the earlier possibility. That is relational reading, not clinical analysis.
 
 ## Work and commitment
 
-Lyssa's work is not merely a source of errands for Greg to observe. It has its own promises, customers, route choices, materials, price disagreements, repairs, and opportunity costs.
+Lyssa's work has its own promises, customers, routes, materials, price disputes, repairs, and opportunity costs.
 
-Chapter 132 gives several useful examples:
+Useful exact patterns:
 - she negotiates a glass-count discrepancy without inviting Greg to adjudicate it;
-- she moves the crate with the person actually available to carry it rather than turning Greg's offer into a disability conversation;
-- she declines a better-paying south delivery because another commitment already owns that time;
-- she repairs her work bag with the cheaper black reinforcement even though Greg dislikes the mismatch because the bag's job is to hold;
-- she accepts that Greg cannot accompany every work stop and does not need to build a compensating activity around him.
+- she turns down higher pay because `I said yes to something else first`;
+- she refuses a work stop that does not fit Greg because the room is small, crowded, and stair-heavy, then separately checks whether he is okay;
+- she takes the cheaper black reinforcement because the bag needs to hold, not match;
+- she can accept an imperfect outcome if it solves the actual work problem.
 
-Her commitment behavior should not become a moral code she announces. It is visible in choices.
+Her commitment behavior should be visible in choices, not announced as a moral code.
 
 ## With Greg
 
@@ -107,30 +94,53 @@ Their speech can include:
 - annoyance that does not threaten the relationship;
 - real disagreement;
 - unfinished conversations because one of them has work;
-- purposeless shared time that does not need to produce an outcome;
-- direct affection that does not require formal naming afterward.
+- purposeless shared time;
+- direct affection without formal naming afterward;
+- temporary separation without turning it into abandonment or a milestone.
 
-Greg should not always bring home a lesson for Lyssa to validate. She may care about the actual event and not his theory about it.
+Greg should not always bring home a lesson for Lyssa to validate. She may care about the event and not his theory.
 
-Chapter 100 adds an important physical-intimacy note after Greg's amputation. Lyssa can try an ordinary affectionate gesture, notice that taking his arm interferes with the crutch, let go, and continue walking without turning the adjustment into a caretaking conversation. Practical adaptation can remain inside the relationship instead of becoming the subject of it.
+### Practical adaptation
 
-Chapter 112 extends that physical understanding into public planning. Lyssa buys aisle seats at the theatre. The choice matters for Greg's movement, but she does not announce that she has accommodated him or ask for gratitude. She has simply learned something about moving through the world with him and uses it.
+Lyssa can adjust to Greg's body without becoming his caretaker.
 
-The evacuation is an important boundary. Lyssa notices the smoke, decides they should leave, and moves with the crowd. When Greg falls behind and tells her to go, she does not transform the moment into a dramatic refusal that blocks the exit. She keeps moving, then becomes genuinely angry and frightened outside because she does not know where he is.
+Established patterns include:
+- letting go of his arm when it interferes with crutch movement;
+- choosing aisle theatre seats without announcing the accommodation;
+- accepting necessary separation during an evacuation, then expressing concrete fear afterward;
+- correcting a too-narrow path with a simple `Sorry` and using a wider one next time;
+- lifting a pole over Greg's shoulder when his crutch is snagged rather than making the incident symbolic.
 
-Her anger after the separation is concrete: `Where the fuck were you?` and `I thought you were still inside.` Once she confirms Greg is not hurt or burned, relief can become laughter and a hug. Do not turn this into a speech about protecting him, independence, or disability. She wanted to know where her partner was during a fire.
+Chapter 141 extends this into packing. She checks whether Greg has enough residual-limb wrapping for a possible six-day trip, suggests more because wet cloth is a real possibility, and catches that he forgot socks. The care remains luggage-scale and practical.
 
-Chapter 123 adds a quieter movement correction. Lyssa chooses a gap that is too narrow for Greg's crutches, realizes it after crossing, says `Sorry`, and simply chooses a wider route at the next obstruction. She does not need to become perfectly anticipatory after one mistake, and the correction does not need disability discourse. It is ordinary shared navigation becoming more practiced.
+### Chosen time and affection
 
-The same chapter lets Greg accompany her work without taking it over. He waits while she delivers cloth, understands that she is working, and then they spend an unproductive hour together before her next delivery. Lyssa does not need to label the time as a date for it to carry attraction and intimacy.
+Chapter 123 lets Greg accompany Lyssa's work and then share an unproductive hour with her.
 
-Chapter 132 deepens that pattern. Greg actively goes looking for Lyssa because he wants to see her. He finds her already working. She is pleased without stopping the work to reward the gesture. They finish part of her route, then use the remaining interval for food and ordinary intimacy before she leaves for another obligation.
+Chapter 132 lets Greg actively seek her out because `I wanted to see you.` Lyssa answers `You found me.`
 
-Her direct question `Do you like me without proving it?` and later `I like you` / `Unfortunately` establish that she can ask for emotional truth plainly while keeping their established dry rhythm. Chapter 132 allows the same relationship to become even easier: Greg says `I wanted to see you`, Lyssa says `You found me`, and later his `You like me` receives a plain `Yes.`
+Chapter 140 changes the scale slightly. Greg comes to tell Lyssa about the trip before he has admitted the decision even to himself. She does not need him to prove why telling her matters. Once he finally says he wanted to tell her before leaving, she understands.
 
-`I'll find you` and `I could find you after` fit their relationship style because seeing each other again can be intended without becoming a formal appointment. Affection does not have to arrive as logistics.
+When Greg asks whether he can see her that night, Lyssa answers `Yes` immediately. The intimacy is not payment for choosing or refusing the trip.
 
-Chapter 132 also gives Lyssa a useful larger-question behavior. She asks whether Greg wants a real theatre part. When he says `I don't know`, she does not push for self-definition. `Because you don't have one` means the choice does not yet require an answer. She can leave possibility unforced.
+Chapter 141 gives the departure version: they pack, rehearse the Clerk page, kiss, and Lyssa says `Come back.` Greg says `I'll come back.` The exchange is quiet because five or six days are meaningful without requiring a crisis.
+
+## Acting feedback without acting-guru conversion
+
+Lyssa can give useful performance feedback because she is listening to Greg as a person, not because she has become a theatre specialist.
+
+Chapter 141 is the clean example. Greg tries a narrow fussy Clerk voice. Lyssa says he sounds like a dying bird. When he tries to construct age without knowing the clerk's age, she asks why.
+
+The useful adjustment comes from social position:
+- the permit seeker needs something;
+- the clerk does not need to hurry;
+- `Because he knows the other person has to wait for him.`
+
+Later she identifies that Greg sounded as if he believed the missing document was somebody else's problem.
+
+This is Lyssa reading power and human behavior, not teaching vocal technique.
+
+She also knows when Greg can overwork a thing: `You know it enough to ruin it if you keep going.` Keep that local. Do not turn her into Teren at home.
 
 ## Canon lines / fingerprints
 
@@ -149,18 +159,15 @@ Chapter 132 also gives Lyssa a useful larger-question behavior. She asks whether
 - **CANON LINE:** `Because I said yes to something else first.`
 - **CANON LINE:** `That was not about you.`
 - **CANON LINE:** `You found me.`
-- **CANON PATTERN:** comes looking for Greg without an important reason, shares his improvised lunch, then keeps the day moving without naming the visit as a date or event.
-- **CANON PATTERN:** lets go of Greg's arm as soon as the gesture conflicts with his crutch movement and does not make the adjustment ceremonial.
-- **CANON PATTERN:** quietly chooses aisle theatre seats that fit Greg's current movement needs without narrating the choice as care work.
-- **CANON PATTERN:** during an evacuation, starts moving when the danger becomes real, accepts a necessary separation in the crowd, then expresses fear and anger afterward without making Greg's disability the subject of the argument.
-- **CANON PATTERN:** after choosing a gap that does not fit Greg's crutches, says sorry, then uses a wider route at the next obstruction without turning the correction into a relationship or disability lesson.
-- **CANON PATTERN:** hears ambiguous external-magic news, asks person-level safety and permission questions, then holds Greg's hand as affection rather than examination.
-- **CANON PATTERN:** asks a direct emotional question, accepts a direct answer, and lets the intimacy remain ordinary rather than forcing a formal relationship milestone.
-- **CANON PATTERN:** declines better-paying work because an earlier commitment already owns the time, without making a speech about loyalty.
-- **CANON PATTERN:** refuses Greg access to a work stop for concrete environmental reasons, then separately checks whether he is okay with the boundary.
-- **CANON PATTERN:** can ask Greg a future-facing identity question and leave `I don't know` intact when the actual choice has not arrived yet.
-
-The fingerprint is not monosyllables. It is confidence that she does not have to enter every conversational game Greg opens.
+- **CANON LINE:** `Do you want me to care?`
+- **CANON LINE:** `Because he knows the other person has to wait for him.`
+- **CANON LINE:** `You know it enough to ruin it if you keep going.`
+- **CANON LINE:** `Come back.`
+- **CANON PATTERN:** chooses Greg without requiring an instrumental reason.
+- **CANON PATTERN:** refuses to let Greg optimize her independent schedule around himself.
+- **CANON PATTERN:** asks direct emotional questions and accepts direct answers without ceremonial escalation.
+- **CANON PATTERN:** supports practical body/travel needs without narrating herself as caregiver.
+- **CANON PATTERN:** refuses to make Greg's travel choice for him while still making clear that his return matters.
 
 ## Voice tests — NON-CANON
 
@@ -168,39 +175,42 @@ The fingerprint is not monosyllables. It is confidence that she does not have to
 - `You can explain it after I finish this.`
 - `I know what you mean. I still said no.`
 
-Calibration only. Do not canonize.
+Calibration only.
 
 ## Overlap allowed
 
-Lyssa can use dry humor and short practical answers. She lives with Greg. Shared phrases and rhythms are expected sometimes.
+Lyssa can use dry humor and short practical answers. Shared Carrow phrasing is expected.
 
-The difference is motive. Greg often keeps turning the object to understand it. Lyssa more often asks whether turning it again changes what she needs to do.
+Difference from Greg: Greg often keeps turning the object to understand it. Lyssa more often asks whether turning it again changes what she needs to do.
 
-She can also share Jorren's willingness to let ordinary time remain ordinary, but the relationship texture differs. Jorren's downtime is peer companionship. Lyssa's can carry chosen intimacy, attraction, household ease, and ongoing work-life context without needing a declared occasion.
+Difference from Hessa: Lyssa can ask `Did it hurt?` or `Are you allowed?` without inheriting evidence architecture.
 
-She can share Hessa's immediate safety concern without inheriting Hessa's evidence architecture. `Did it hurt?`, `Are you okay?`, or `Hand?` are partner-level practical questions in these scenes, not a clinical examination.
+Difference from Serra/Teren: Lyssa can notice whether Greg's acting sounds false or socially wrong, but she does not own stage continuity, cueing, partner blocking, or company operations.
 
-Her work-boundary language can sound as direct as Sevren or Merrin, but the unit is her own commitment, customer, route, material, and available time rather than a courier dispatch system or institutional registry.
+Her work-boundary language can sound direct like Sevren or Merrin, but the unit is her own commitment, customer, route, material, and time.
 
 ## Watch list
 
 Avoid turning Lyssa into:
-- female Greg who always wins the exchange;
+- female Greg who always wins;
 - Hessa without a notebook;
 - Greg's therapist;
-- his business analyst;
+- business analyst;
 - exposition receiver;
 - automatic validator of every restraint lesson;
-- a partner whose every visit requires a reason Greg can optimize;
-- a caretaker who narrates every disability adjustment as emotional support;
-- a partner who must physically remain beside Greg at all costs to prove devotion during an emergency;
-- somebody whose anger after danger becomes a generic speech about Greg taking risks rather than the specific thing that scared her;
-- somebody who must choose every accessible route correctly on the first try to demonstrate care;
-- somebody whose direct affection automatically triggers a formal relationship-status conversation;
-- somebody who treats ambiguous magic evidence as either miracle or disaster when Greg himself does not know what happened;
-- somebody whose work decisions secretly revolve around Greg even when the exact scene says they do not;
-- treating higher pay as an automatic reason for her to break an earlier commitment;
-- turning a concrete `you cannot come to this work site` boundary into an apology, disability lesson, or compensating date;
-- forcing Greg to decide what theatre means to him before a real choice exists.
+- a partner whose every visit needs a reason Greg can optimize;
+- a caretaker who narrates disability adjustments as emotional support;
+- a partner who must remain physically beside Greg at all costs to prove devotion;
+- somebody whose anger after danger becomes a generic risk speech;
+- somebody who must choose every accessible route correctly the first time;
+- somebody whose direct affection automatically triggers a status conversation;
+- somebody who treats ambiguous magic as miracle or disaster;
+- somebody whose work decisions secretly revolve around Greg;
+- treating higher pay as automatic reason to break an earlier commitment;
+- turning a concrete work-site boundary into an apology or compensating date;
+- forcing Greg to decide what theatre means before a real choice exists;
+- deciding Greg's travel choice for him so the relationship can have a dramatic position;
+- turning useful Clerk feedback into a new identity as acting mentor;
+- making `Come back` into possessiveness or foreshadowing merely because it is emotionally direct.
 
 When editing, ask: **What was Lyssa already doing before Greg made this conversation about his question?**
