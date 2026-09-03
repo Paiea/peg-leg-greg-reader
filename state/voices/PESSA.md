@@ -18,6 +18,8 @@ Later adaptive training sharpens this further: Pessa does not begin with a theor
 
 Chapter 102 adds an important limit to Greg's analytical language. Simplifying an exercise does not mean the real movement has become isolated. Pessa may remove an object because it gives Greg too many things to blame, then still refuse his claim that she has isolated one variable.
 
+Chapter 110 adds the next practical layer: once Greg can move through a simple plan, Pessa can deliberately make the plan stop working and watch whether he keeps choosing. The useful result is not a universal fallback rule. A stop, a wider route, finishing the current turn, or abandoning the shortest path may each be right once and wrong later because the physical situation changed.
+
 ## Spoken rhythm
 
 Compact and declarative. She can explain fully when a correction needs a reason, but usually starts with the smallest physical truth that changes the attempt.
@@ -60,7 +62,8 @@ Training:
 - another person occupying space;
 - how urgency changes movement;
 - what changes when an object is added;
-- what the body does before the trainee improves it.
+- what the body does before the trainee improves it;
+- whether the trainee can keep choosing after the expected route or sequence stops working.
 
 The shared principle is not abstraction. It is **physical consequence**.
 
@@ -89,6 +92,20 @@ This distinction matters. Hessa may deliberately isolate or control a test varia
 
 She can still simplify aggressively. Removing the shield, using circles, changing direction, taking away one crutch, giving unpredictable destinations, or changing the apparent urgency are ways to make a pattern easier to see without pretending the body has become a laboratory component.
 
+Chapter 110 pushes this from observation into adaptive choice. Pessa uses irregular stakes, walls, her own body in the route, one versus two crutches, a fallen obstacle, and destination changes that arrive during a turn. She is not searching for the one optimal route. She is watching whether Greg can keep making choices after the first plan stops working.
+
+That distinction produces several durable behaviors:
+- stopping can be a legitimate chosen response rather than automatic failure;
+- finishing the current turn before obeying a new direction may work once and fail the next time because the wall is closer;
+- going around an obstacle may be safer until Pessa occupies that route;
+- an open route can make Greg accelerate without deciding to;
+- two crutches can provide support while also creating crowding;
+- one crutch can create space while also making the missing side feel exposed.
+
+Do not turn any of these into doctrine. Pessa's own correction is `Today.` The lesson remains attached to the body and conditions of that attempt.
+
+When Greg hears a larger life principle in `whether you can keep making choices after the first plan stops working`, he immediately narrows it to `In this yard.` Pessa agrees. Preserve that jurisdiction. She is not secretly delivering a philosophy lecture through stakes.
+
 Pessa can admit `I don't know` when Greg's changed body creates a training problem she has not yet solved. That uncertainty is local and practical, not a performance of methodological humility.
 
 ## With Greg
@@ -104,6 +121,8 @@ She does not need to reassure him that his interpretation was almost right.
 When Greg jumps from an event to a category, Pessa often pulls him one level back. `The problem is sequencing` may become `Maybe the problem is sequencing.` `Less torque` may become the more useful human answer `Feels safer.` `To isolate turning` may become `To watch you turn.`
 
 She is also willing to let repetition establish ownership of a mistake. A repeated crutch collision can be useful because it shows the pattern belongs to Greg's movement rather than one random attempt.
+
+Chapter 110 adds that Greg does not have to perform every available repetition. When fatigue is clear, Pessa can agree that he physically *can* do one more and still end the session. Ability to continue is not the same as a useful reason to continue.
 
 ## Jurisdiction with Hessa
 
@@ -149,8 +168,13 @@ Her jokes usually come from the immediate work or from somebody pretending a phy
 - **CANON LINE:** `You keep trying to isolate things that aren't isolated when you use them.`
 - **CANON LINE:** `It also gave you too many things to blame.`
 - **CANON LINE:** `Same mistake twice. Now I know you own it.`
+- **CANON LINE:** `I wanted to see what you did.`
+- **CANON LINE:** `Whether you can keep making choices after the first plan stops working.`
+- **CANON LINE:** `Yes. In this yard.`
 - **CANON PATTERN:** begins Greg's post-loss shield work by finding out what changes when he simply holds one, not by inventing a special combat doctrine first.
 - **CANON PATTERN:** removes the shield when it obscures the turning pattern, then varies direction, support, destination, person-in-space, and apparent urgency while still treating the movement as integrated.
+- **CANON PATTERN:** allows stopping, rerouting, or finishing an existing turn to be choices under changing geometry rather than grading each against one universal preferred solution.
+- **CANON PATTERN:** ends a session for fatigue even when Greg says he can physically do one more repetition.
 
 Exact wording should be rechecked against current manuscript authority before reuse; these lines are evidence, not catchphrases.
 
@@ -183,4 +207,6 @@ Avoid:
 - confusing road priority with simple severity ranking;
 - inventing a polished adaptive-combat methodology before the manuscript earns one;
 - treating seated work, walls, crutches, or any one workaround as the answer merely because it solves one attempt;
-- making every simplified drill into a laboratory-style isolated-variable exercise.
+- making every simplified drill into a laboratory-style isolated-variable exercise;
+- turning `keep making choices` into a general resilience slogan detached from the physical yard;
+- treating stopping as failure when stopping was the deliberate safe choice under the current geometry.
