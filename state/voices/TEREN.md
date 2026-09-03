@@ -14,6 +14,8 @@ Teren can also give brief playable corrections when the immediate scene requires
 
 Chapter 128 adds an important distinction: **a recovery can keep the scene alive and still be wrong for the intended entrance, prop handoff, or rehearsal question.** Teren can let an imperfect recovery continue, then reset the exact local problem without pretending survival made the original mistake correct.
 
+Chapters 130-138 extend that distinction into a second operating mode: **rehearsal can stop and repeat; live performance cannot.** Once an audience is present, Teren's work is less about restoring the planned run and more about preserving whatever can still move forward from the current state.
+
 ## Spoken rhythm
 
 Brief without being cryptic for its own sake.
@@ -25,7 +27,16 @@ He tends to give:
 - a prop or entrance noun when that is the missing thing;
 - another run or a return to the page.
 
-`Again` does a great deal of work in his scenes because rehearsal itself supplies the next explanation.
+`Again` does a great deal of work in rehearsal because the next run supplies the next explanation.
+
+By Chapters 130-138, `Again` is no longer uniquely Teren's word. Actors and other theatre workers use it too because it has become shared workflow language. Do not force vocabulary uniqueness where job ownership already distinguishes speakers.
+
+Other useful Teren-sized corrections in the sword work include:
+- `Less.`
+- `Keep.`
+- `Next.`
+- `Listen.`
+- `Keep moving.`
 
 He does not need to turn theatre work into philosophy.
 
@@ -80,6 +91,31 @@ Preserve this distinction:
 
 Teren can value the first without silently grading the second as correct.
 
+Chapters 130-136 deepen the same behavior as Greg begins doing more than temporary line reading. Teren can change a cut mid-run, ask Greg to read another role, stop a prepared `Sword Voice`, or simply tell him to listen to the partner. The correction belongs to the exact scene problem, not to a complete acting method.
+
+Greg's sword performance repeatedly changes when the actor holding the prop changes timing, eye line, grip, or intention. Teren therefore does not ask Greg to reproduce one previously successful sound mechanically. A good prior line is evidence that something can work, not a template the next live beat must obey.
+
+## Live performance
+
+Chapter 138 adds a distinct live-show mode.
+
+At the east market hall there is no practical `Again` once the audience is present. A bad line is gone. An actor who enters early is now onstage. A missing effect must be covered, abandoned, or replaced in the moment. Audience laughter can occupy space and change when the next line should arrive.
+
+Teren does not need to narrate this transition. The room simply works differently.
+
+When a cast absence forces Greg into Shopkeeper and a different actor carries the talking sword, Teren can use Greg because the current show needs those functions. That is not a promotion ceremony, permanent casting decision, or declaration that Greg is now an actor.
+
+During the show, current partner and current audience response outrank the memory of the best rehearsal run. Greg's Shopkeeper works when he responds to what the debtor is doing now rather than trying to recreate the earlier joke. His Sword work becomes harder when a different carrier changes the prop's movement and timing.
+
+Afterward, Greg asks whether the show was good. Teren answers `Parts.` That is a strong Teren-shaped evaluation. A show can contain:
+- a weak first act;
+- a successful Shopkeeper scene;
+- a dead speech;
+- a recovered missing effect;
+- a better later Sword scene;
+- useful audience response;
+without needing one global score to replace the local information.
+
 ## Humor
 
 Usually secondary to work. He may be dry, careless with his lunch, or willing to tease Greg, but he is not there to win banter.
@@ -96,15 +132,21 @@ He also does not need Greg to return. Chapter 118's `Because I don't care.` is n
 
 Chapter 128 adds another refusal: Greg may want to optimize a floor sound, prop method, or improvised recovery that is not the current rehearsal problem. Teren can simply say `Stop`, `Later`, or run the intended entrance again.
 
+Chapters 134-136 add a related refusal around performance theory. Greg can ask what made a sword line work and Teren may answer only enough to produce another playable attempt. `Keep` can be a complete note if the useful next action is to do it again rather than explain it.
+
 ## Information behavior
 
 Teren explains enough to make the next observation usable.
 
-He does not owe Greg a complete theory of acting, prompting, audience response, improvisation, or human behavior every rehearsal.
+He does not owe Greg a complete theory of acting, prompting, audience response, improvisation, voice, or human behavior every rehearsal.
 
 When the useful information is actor-specific, he says so rather than laundering it into a general principle.
 
-When the useful information is simply which mark, prop, cut, or entrance the room is testing, he can name that and stop.
+When the useful information is simply which mark, prop, cut, entrance, or partner the room is testing, he can name that and stop.
+
+He can also let another theatre worker own the correction. The recurring rehearsal woman often has better information about partner distance, eye line, staging, or what she can play from Greg. The servant actor knows what kind of line gives him a usable reaction. The soot-shirt worker owns prop and backstage physical reality.
+
+Teren's authority does not grow by stealing theirs.
 
 ## With Greg
 
@@ -124,9 +166,11 @@ The cleanest Chapter 116 sequence is:
 
 Chapter 128 adds a second relationship pattern. Greg is no longer only watching prompt technique. Teren can hand him a temporary part because Greg is physically present and useful to the current rehearsal. The role can last longer than planned because the room keeps using him, then end without promotion or ceremony.
 
+Chapters 130-138 continue that accumulation. Greg can be Landlord, Person, Sword, and Shopkeeper in different local needs without Teren ever making a speech about belonging. Teren gives him pages, takes them back, gives them back again, and uses him where the room currently needs him.
+
 As Greg becomes familiar with the room, Teren's speech should compress further. Shared rehearsal context can replace explanation where earned.
 
-Do not make every useful correction come from Teren. Chapter 128 already distributes authority: the recurring rehearsal woman owns staging and partner-recovery questions that are not Teren's page/prompt problem, while backstage workers own physical objects and routes.
+Do not make every useful correction come from Teren. Chapters 128-138 repeatedly distribute authority across the recurring rehearsal woman, scene partners, and backstage workers.
 
 ## Canon lines / fingerprints
 
@@ -140,11 +184,18 @@ Do not make every useful correction come from Teren. Chapter 128 already distrib
 - **CANON LINE:** `Yes.` when Greg asks whether an early but recoverable entrance was wrong.
 - **CANON LINE:** `Wrong entrance.`
 - **CANON LINE:** `Letter.` after Greg improvises around the missing prop.
+- **CANON LINE:** `Less.`
+- **CANON LINE:** `Keep.`
+- **CANON LINE:** `Listen.`
+- **CANON LINE:** `Parts.` when Greg asks for one global judgment of the live show.
 - **CANON PATTERN:** distinguishes an actor's intentional pause from a lost line by watching the actor rather than treating silence itself as the prompt cue.
 - **CANON PATTERN:** gives only the local cue Greg can use now and explicitly refuses to universalize it.
 - **CANON PATTERN:** can be wrong about a prompt and keep working without turning the miss into a crisis.
 - **CANON PATTERN:** lets a recoverable mistake continue long enough to preserve the scene, then resets the exact rehearsal problem with minimal explanation.
 - **CANON PATTERN:** temporary use of Greg can expand because the rehearsal keeps needing him without becoming a status change.
+- **CANON PATTERN:** does not treat a successful prior run as a fixed recipe when the scene partner, prop handling, or current beat changes.
+- **CANON PATTERN:** live performance replaces reset logic with forward-continuation logic once the audience is present.
+- **CANON PATTERN:** evaluates a mixed show in parts rather than laundering several local outcomes into one global score.
 
 Exact wording should be rechecked against current manuscript authority before reuse; these lines are evidence, not catchphrases.
 
@@ -167,6 +218,8 @@ The distinction is source of precision:
 
 The recurring rehearsal woman's corrections may overlap Teren's use of `Again`, but her lane can be staging, partner relationship, and playable scene behavior while Teren remains strongest at page, cue, prompt, cut, and local continuity. Do not force a formal org chart from this overlap.
 
+Shared words like `Again`, `No`, `Good`, and `Keep moving` can belong to the theatre's work culture rather than to one character's bespoke diction. Voice difference should come from what problem the speaker owns.
+
 ## Watch list
 
 Avoid:
@@ -180,6 +233,9 @@ Avoid:
 - every note becoming memorable wisdom;
 - treating an improvisation that preserves the scene as automatically correct for the intended rehearsal task;
 - making Teren explain every recovery when `Again` is enough;
-- stealing staging or backstage authority from other theatre workers because Teren is the named recurring guide.
+- stealing staging or backstage authority from other theatre workers because Teren is the named recurring guide;
+- treating `Again` as uniquely Teren's voice after the room has adopted it as workflow vocabulary;
+- forcing a rehearsal solution onto a live performance after the partner or audience has changed the scene;
+- reducing a mixed show to a universal good/bad verdict when `Parts` preserves more useful information.
 
 If a correction or prompt can be smaller and still keep the scene moving, prefer smaller.
