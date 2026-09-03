@@ -72,9 +72,9 @@ Merrin can acknowledge when Greg's redirect was useful without promoting him int
 
 - **CANON LINE:** `Not your business.`
 - **CANON LINE:** `Sit there. If anyone asks where I am, say upstairs.`
-- **CANON LINE:** `Dena can mark it?` is Greg's discovery; Merrin's pattern is knowing that she owns the bay board when he is away.
 - **CANON LINE:** `You'd be terrible.`
 - **CANON LINE:** `Substitute clerk.`
+- **CANON PATTERN:** knows that Dena owns the bay board when he is off desk and that a Tavin check-in belongs to a different registry from the visible front-desk ledger.
 - **CANON PATTERN:** routes a question to the correct registry/person instead of assuming the front desk or current ledger is universally authoritative.
 
 These are evidence, not catchphrases.
