@@ -72,21 +72,21 @@ Use exact replacement patches when a chapter needs only attribution/voice surger
 
 This pass remains editorial WIP until integrated into manuscript/reader authority. The user has explicitly approved shipping accepted dialogue/attribution improvements to the illustrated reader as they are integrated; do not hold improved reader prose for completion of all 301 chapters. Structural compression remains separately parked.
 
-Current live-integration lane: `integration/dialogue-attribution-live-001-080` / PR #45 is responsible for applying the accepted Book I patches through Chapter 80 to the illustrated reader and promoting the resulting prose into canonical Book I authority without merging structural-compression experiments. Chapters 81-86 are now reviewed on this branch and should join later live-integration increments after the already-scoped 1-80 work.
+Current live-integration lane: `integration/dialogue-attribution-live-001-080` / PR #45 is responsible for applying the accepted Book I patches through Chapter 80 to the illustrated reader and promoting the resulting prose into canonical Book I authority without merging structural-compression experiments. Chapters 81-90 are now reviewed on this branch and should join later live-integration increments after the already-scoped 1-80 work.
 
 Do not claim a chapter is covered until its exact source was reviewed and the batch result was durably written and fetched back from GitHub.
 
 ## Coverage ledger
 
 - Chapters 1-301: **NOT YET COMPLETE**
-- Verified reviewed range: **Chapters 1-86**
+- Verified reviewed range: **Chapters 1-90**
 - Book I dialogue + attribution review: **COMPLETE THROUGH CHAPTER 82 - THE RECONCILER**
 - Book II dialogue + attribution review: **ACTIVE FROM CHAPTER 83**
-- No-change chapters in reviewed range: **1, 4, 5, 6, 7, 11, 12, 13, 14, 18, 19, 28, 38, 85**
+- No-change chapters in reviewed range: **1, 4, 5, 6, 7, 11, 12, 13, 14, 18, 19, 28, 38, 85, 88, 90**
 - Chapters with hard attribution fixes recorded: **2, 3**
-- Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 86**
-- Latest durable batch: `state/editorial/dialogue-pass/BATCH_083_086.md`
-- Current source edge: **Chapter 87**
+- Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 86, 87, 89**
+- Latest durable batch: `state/editorial/dialogue-pass/BATCH_087_090.md`
+- Current source edge: **Chapter 91**
 
 All earlier durable batch files remain under `state/editorial/dialogue-pass/` and are authoritative for this editorial pass only.
 
@@ -104,7 +104,8 @@ A chapter counts as reviewed only after exact source prose and necessary neighbo
 - Jorren: peer-level physical truth and ordinary care; sees stance, rhythm, fatigue, and what a fighter is actually doing without turning help into a solemn identity.
 - Alden: fast, ambitious, initiative-seeking, willing to learn, and increasingly capable of building rules that preserve tomorrow's work rather than chasing today's exchange.
 - Edrin: guild warding/custody and investigative boundaries; shares useful evidence, distinguishes absence of evidence from proof, and refuses Greg access to records he does not need.
-- Octavia: freight coordination; precision comes from routing real goods through real constraints, not abstract system-building.
+- Octavia: freight coordination plus sequence/timing memory; keeps route and handoff facts operationally, and Chapter 87 shows the same habit socially by retaining small earlier behaviors only when they change the next move. Durable page: `state/voices/OCTAVIA.md`.
+- Merrin: institutional routing and record ownership; knows which registry/person/permission actually owns a request and does not confuse proximity to the front desk with authority. Durable page: `state/voices/MERRIN.md`.
 - Dema Rusk: field-recovery instruction; teaches Bronze parties how to stop, count, move, and decide after plans fail. She is not Antonius's Rusk.
 - Captain Ressa: intake triage and operation ownership; need first, firsthand report second, and after an accident she turns responsibility into changes to the next operation rather than a clean guilt story.
 - Iris: immediate watch response; decides whether information changes the next ten seconds and assigns bodies to jobs.
@@ -144,6 +145,7 @@ Shared dryness is allowed. Do not force distinct catchphrases where domain and c
 - Chapters 74-80 strengthen the larger voice rule: **professional differentiation is often more valuable than bespoke diction**. Concise competent people can share Carrow language while remaining distinct because they decide different kinds of things. Lerris fits structure, Edrin controls evidence, Sera Dain controls clinical progression, Hessa controls repeatable safety procedure, Holl controls commercial sorting decisions, Merra controls record support, Pessa controls embodied field/training judgment, Rima controls customer fit, and Tam controls use-first craft judgment.
 - Chapters 81-82 sharpen the attribution rhythm for long technical two-person scenes: let established alternating dialogue breathe, then re-tag at phase changes, after substantial interior/expository beats, and when a reviewer or authority re-enters. In domestic/social rooms with three or more active people, names at speaker handoffs are worth more than additional voice ornament.
 - Chapters 83-86 reinforce the same rule from the opposite direction: intimate Greg/Lyssa and road Greg/Sevren exchanges need very little tagging, but a single third participant should trigger explicit ownership of the shared decision. Game/training scenes especially benefit from tagging disputed calls rather than making compact dry voices carry speaker identity alone.
+- Chapters 87-90 sharpen the crowded-scene rule further: transient speakers can remain light when the prose physically introduces them immediately before their line. The highest-value tags belong to **returning authority and relationship handoffs**: Lyssa entering an already active card table, Nessa answering from outside the main exchange, an urgent stranger entering a full service hall, or Merrin returning to reclaim a desk surrounded by unresolved speakers.
 
 ## Continuity/name cautions surfaced by dialogue pass
 
@@ -170,6 +172,8 @@ Do not silently resolve these name/identity questions inside the attribution pas
 - `state/voices/SERA_DAIN.md`
 - `state/voices/NERIN.md`
 - `state/voices/HOLL.md`
+- `state/voices/OCTAVIA.md`
+- `state/voices/MERRIN.md`
 
 Existing `state/voices/SEVREN.md` remains the durable Sevren guide and was sharpened at Chapter 84 around courier responsibility boundaries. `state/voices/INDEX.md` explicitly treats voice pages as living authority that should be updated later when substantial new exact prose sharpens a recurring character.
 
