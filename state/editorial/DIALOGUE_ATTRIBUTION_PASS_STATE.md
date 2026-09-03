@@ -86,17 +86,18 @@ Do not claim a chapter is covered until its exact source was reviewed and the ba
 ## Coverage ledger
 
 - Chapters 1-301: **NOT YET COMPLETE**
-- Verified reviewed range: **Chapters 1-19**
+- Verified reviewed range: **Chapters 1-22**
 - No-change chapters in reviewed range: **1, 4, 5, 6, 7, 11, 12, 13, 14, 18, 19**
 - Chapters with hard attribution fixes recorded: **2, 3**
-- Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16, 17**
+- Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16, 17, 20, 21, 22**
 - Durable batches:
   - `state/editorial/dialogue-pass/BATCH_001_004.md`
   - `state/editorial/dialogue-pass/BATCH_005_010.md`
   - `state/editorial/dialogue-pass/BATCH_011_013.md`
   - `state/editorial/dialogue-pass/BATCH_014_016.md`
   - `state/editorial/dialogue-pass/BATCH_017_019.md`
-- Current source edge: **Chapter 20**
+  - `state/editorial/dialogue-pass/BATCH_020_022.md`
+- Current source edge: **Chapter 23**
 
 ## Completion definition for one chapter
 
@@ -120,6 +121,8 @@ Early Book I already contains useful natural separation:
 - Jorren: peer-level physical truth; sees stance, rhythm, overcommitment, fatigue, and what a fighter is actually doing without turning every correction into theory.
 - Alden: fast, ambitious, initiative-seeking, willing to learn, and prone to treating early advantage as something already owned.
 - Edrin: guild warding/custody; authority comes from responsibility for sealed structures and controlled access rather than from personal teaching.
+- Octavia: freight coordination; precision comes from routing real goods through real constraints, not from abstract system-building.
+- Dema Rusk: field-recovery instruction; teaches Bronze parties how to stop, count, move, and decide after plans fail. She is not the same voice authority as Antonius's Rusk.
 
 Shared dryness is allowed. Do not force distinct catchphrases where domain and cadence already separate the voices.
 
