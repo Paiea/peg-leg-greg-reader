@@ -8,6 +8,8 @@ Lyssa tends to begin with the material/social reality already in front of her: c
 
 She has an independent agenda. Her speech should feel like it comes from somebody whose day continues when Greg leaves the room.
 
+That independence also means she can choose Greg without needing an instrumental reason. Chapter 100 gives her one of the simplest possible motives for seeking him out: `I had time.` The visit does not need to become a date, intervention, errand, or relationship milestone in order to matter.
+
 ## Spoken rhythm
 
 Lyssa can be concise, but her concision is not Hessa's methodology and not Greg's dry systems game.
@@ -28,6 +30,8 @@ Often understated and relational.
 She does not need to top Greg's joke. Sometimes the funniest Lyssa response is refusing the premise entirely.
 
 She may let Greg talk himself into stupidity and answer with one practical sentence.
+
+In ordinary shared time, humor can also be physical and unserious: stealing bites, splashing water, or answering the literal thing Greg is over-examining. Do not make every playful beat into coded emotional exposition.
 
 ## Disagreement / refusal
 
@@ -63,9 +67,12 @@ Their speech can include:
 - sexual familiarity;
 - annoyance that does not threaten the relationship;
 - real disagreement;
-- unfinished conversations because one of them has work.
+- unfinished conversations because one of them has work;
+- purposeless shared time that does not need to produce an outcome.
 
 Greg should not always bring home a lesson for Lyssa to validate. She may care about the actual event and not his theory about it.
+
+Chapter 100 adds an important physical-intimacy note after Greg's amputation. Lyssa can try an ordinary affectionate gesture, notice that taking his arm interferes with the crutch, let go, and continue walking without turning the adjustment into a caretaking conversation. Practical adaptation can remain inside the relationship instead of becoming the subject of it.
 
 ## Canon lines / fingerprints
 
@@ -74,6 +81,9 @@ Greg should not always bring home a lesson for Lyssa to validate. She may care a
 - **CANON LINE:** `You got one question.`
 - **CANON LINE:** `I can carry the pieces myself.`
 - **CANON LINE:** `Now easy.`
+- **CANON LINE:** `I had time.`
+- **CANON PATTERN:** comes looking for Greg without an important reason, shares his improvised lunch, then keeps the day moving without naming the visit as a date or event.
+- **CANON PATTERN:** lets go of Greg's arm as soon as the gesture conflicts with his crutch movement and does not make the adjustment ceremonial.
 
 The fingerprint is not monosyllables. It is confidence that she does not have to enter every conversational game Greg opens.
 
@@ -91,6 +101,8 @@ Lyssa can use dry humor and short practical answers. She lives with Greg. Shared
 
 The difference is motive. Greg often keeps turning the object to understand it. Lyssa more often asks whether turning it again changes what she needs to do.
 
+She can also share Jorren's willingness to let ordinary time remain ordinary, but the relationship texture differs. Jorren's downtime is peer companionship. Lyssa's can carry chosen intimacy, attraction, household ease, and ongoing work-life context without needing a declared occasion.
+
 ## Watch list
 
 Avoid turning Lyssa into:
@@ -99,6 +111,8 @@ Avoid turning Lyssa into:
 - Greg's therapist;
 - his business analyst;
 - exposition receiver;
-- automatic validator of every restraint lesson.
+- automatic validator of every restraint lesson;
+- a partner whose every visit requires a reason Greg can optimize;
+- a caretaker who narrates every disability adjustment as emotional support.
 
 When editing, ask: **What was Lyssa already doing before Greg made this conversation about his question?**
