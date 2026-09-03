@@ -1,134 +1,136 @@
 # MANUSCRIPT OPEN THREADS
 
 ## Current edge
-- Current exact story endpoint: Chapter 302 — **THE LOW LAMPS**.
-- Exact Chapters 249–302 are durable checkpoint files and outrank summaries.
+- Current exact story endpoint: Chapter 303 — **THE DRY BENCH**.
+- Exact Chapters 249–303 are durable checkpoint files and outrank summaries.
 - Permanent running manuscript remains physically materialized through Chapter 248; exact-text integration debt remains.
-- See `MANUSCRIPT_STATE.md` for executable Chapter 303 trailhead.
+- See `MANUSCRIPT_STATE.md` for executable Chapter 304 trailhead.
 
 ## Direction
 - Preserve ordinary lived detail, social accumulation, disability/material reality, humor, work, and independent side-character causality.
 - Magical ecology/fieldcraft remains a strong push without creature-of-the-week, but not every chapter must service it.
-- Ch298 personal magic remains background evidence. Ch299 neighborhood logistics and Ch300 Tavi/bench-court caregiving stand complete.
-- Ch301 reactivates theatre for one bounded paid afternoon and ends cleanly with no standing rehearsal.
-- Ch302 follows a relationship/leisure claim: Lyssa asks Greg to walk during Carrow's low-lamp response to a lampwing flight.
-- Greg already knows the broad fantasy category. He does not collect, test, document, or build an ecology case around the insects.
-- Greg and Lyssa accumulate ordinary relationship through route choice, body familiarity, shared food, partial conversation, silence, and Lyssa's own neighborhood social memory.
-- One bit is spent on pleasure without becoming a spending/investment thesis.
+- Ch298 personal magic remains background evidence. Ch299 neighborhood logistics, Ch300 Tavi/bench-court caregiving, Ch301 theatre work, and Ch302 relationship/leisure stand complete.
+- Ch303 follows Greg's own ordinary body-care need through North Steps public bathhouse.
+- Fantasy material culture is ordinary and already legible to Greg: grip-treated wet tile, dry-bench infrastructure, water routing, ceramic feet, and a faintly warm brass line.
+- Scope restraint remains behavioral. Greg uses the bathhouse, asks only one bounded maintenance question, does not document the system, and leaves.
 - Structural boundaries follow actual story movement; Ch300's number remains non-structural.
 
+## North Steps / dry bench / Ch303
+- North Steps is an older public bathhouse below the uphill road, with wash rooms, hotter steam/soak side, and laundry entrance.
+- Broad signs: blue line for wash rooms, red cup for hotter communal side, shirt bundle for laundry. Greg already understands the broad convention.
+- Cala sends Greg with two **household bits**: one for wash entry and one in case a cloth/towel is needed.
+- Counter woman charges exactly one bit for wash. Greg has brought Cala's larger household cloth, so second bit remains unspent and is returned to Cala.
+- Counter woman sees crutches and asks only `Dry bench?`, then provides a square-cut clay token for third room/left wall. No leg-history interrogation or special speech.
+- Wet-room floor has old `grip wash` treatment familiar to Greg; crutch tip resists lateral slip. Faint green seams show between some tiles when steam lies low.
+- Exact grip-wash formulation, magic/mechanics, seam function, installer, maintenance, and lifespan are unknown.
+- Third wash room has six low stools, long stone trough, and three bronze spouts. Observed positions: first warm, middle hotter, third cool. Exact heat/routing mechanism unknown.
+- Dry bench is wood on four pale ceramic feet, outside direct splash, with two upright cane/crutch slots and small brass line under front edge. It remains unusually dry in steam.
+- Older male bather says there used to be two dry benches; the other cracked and was removed in winter. Exact cause/date/repair/ownership unknown.
+- Younger male bather goes to hot room despite older man's teasing warning about once sleeping in steam. Hot-room price/rules unestablished.
+- Greg's left BKA is visible while changing/washing. Other bathers notice only incidentally and return to their own business. No pity, staring, conflict, or leg-history questions.
+- Greg checks residual-limb skin after recent walking: no abnormal redness, rubbed spot, or issue. He washes/rinses/dries it fully.
+- Dry bench's brass line feels faintly warm under Greg's forearm. No mechanism or causal role established.
+- Greg finds one ordinary blue thread at a crutch-tip edge and discards it. Explicitly not Lyssa thread, magical thread, or evidence.
+- Counter woman answers `How long does the dry bench stay dry?` with `Until it doesn't. Then we tell Noll.`
+- `Noll` is only a name in the local maintenance chain. Identity, occupation, relationship to bathhouse, rate, tools, responsibility, and whether Noll repaired the removed bench are unknown.
+- Counter woman and two bathers remain one-scene strangers.
+- Do not auto-return, meet Noll, study dry-bench hardware, price bath infrastructure, create accessibility work, investigate the cracked bench, or make North Steps a recurring Greg site by summary fiat.
+
 ## Lampwings / low lamps / Ch302
-- Ch302 takes place the same evening after Ch301 theatre work and household food.
+- Ch302 takes place the previous evening after Ch301 theatre work and household food.
 - Lyssa initiates a walk and explicitly says `Not market.` Cala says `Low lamps` and suggests west lanes are quieter.
-- Small pale `lampwings` are moving through Carrow in an evening flight. Greg has seen similar broad insect flights elsewhere and is not a fantasy tourist about the category.
-- Observed appearance: broad pale wings, mottled cream/gray up close, darker veins, powdery outer edge.
-- Some lampwings hold a faint green-white sheen briefly after passing stronger magical light.
-- Exact species/taxonomy, lifecycle, origin/destination, food, predators, breeding site, magical status, nature of held light, wing-dust properties, population, flight trigger, and duration are unresolved.
-- Carrow residents/shopfronts lower or cover sharper blue-white charm lights with cloth, shutters, cups, tin, etc. Warm oil lamps/candles remain in use.
-- Exact low-lamp rule, authority, seasonality, universality, relevant light types, and whether behavior is custom or regulation are unestablished.
-- An unnamed cobbler waves a broom at lampwings circling his covered sign bead. No relationship follows.
-- Children try to catch lampwings; one boy briefly cups one in glass and releases it when an adult tells him to.
-- Greg/Lyssa sit at a small square with a dry fountain. Exact fountain condition/seasonal operation remains unestablished.
-- One lampwing briefly lands on Lyssa's wrap/hair edge; she chooses to wait for it to leave. Pale dust later shows no glow when rubbed. No sample retained.
-- On return an unnamed man carries six blue-white glow beads under dark cloth; an exposed edge attracts lampwings. Lyssa says he should use a box; he responds rudely; Lyssa says he was rude last week. Exact prior event/identity unestablished.
-- Lyssa exchanges a passing hand lift with an older woman Greg does not know. Do not promote ordinary social familiarity into a formal network.
-- Do not auto-return to lampwing flight, ecology study, low-lamp regulation, glow-bead carrier, cobbler, dry fountain, or a second lampwing evening.
+- Small pale lampwings move through Carrow in a seasonal-looking evening flight. Greg has seen similar broad flights elsewhere.
+- Observed appearance: broad pale wings, mottled cream/gray up close, darker veins, powdery outer edge; some hold faint green-white sheen briefly after stronger magical light.
+- Exact species/taxonomy, lifecycle, origin/destination, food, predators, breeding site, magical status, held-light mechanism, wing-dust properties, population, flight trigger, and duration remain unresolved.
+- Residents/shopfronts lower or cover sharper blue-white charm lights while warm oil lamps/candles remain in use. Exact rule, authority, seasonality, universality, and relevant light types are unestablished.
+- Ch303 shows only morning residue/background: a few lampwings rest under eaves and one later passes the household gallery. No investigation or second lampwing chapter.
+- Do not auto-return to lampwing flight, ecology study, low-lamp regulation, glow-bead carrier, cobbler, dry fountain, or a second evening.
 
 ## Greg / Lyssa leisure / relationship
 - Ch302 is an ordinary couple walk initiated by Lyssa because she wants to go.
-- Lyssa's reason for wanting to see the lampwings is simply `Because I wanted to.` Greg begins to ask for a system and stops.
-- Greg gives a concise Ch301 theatre summary only after Lyssa asks. She asks if it worked and if he got paid, then the subject ends.
-- Lyssa independently chooses route changes and knows neighborhood people Greg does not.
-- In darker lanes, Greg chooses smoother walking surface; Lyssa naturally moves to his left so oncoming people have more room. No caretaking speech or gratitude ritual.
+- Greg spends one private bit on shared fried dough, leaving three private copper + one private bit.
+- Lyssa independently chooses routes and knows neighborhood people Greg does not.
+- In darker lanes Greg chooses smoother walking surface; Lyssa naturally moves to his left so oncoming people have more room. No caretaking speech or gratitude ritual.
 - No standing date-night routine or lampwing tradition is established.
+- Ch303 does not repeat or analyze the relationship chapter.
 
 ## Theatre / The Blue Window / false corridor
-- Ch301 note arrives on paper through an unnamed boy. Exact boy/theatre relationship unknown.
-- Note offers **two bits**, after midday, because `TEREN NEEDS A REPEATABLE BODY.` Signed Rinna.
+- Ch301 note offers two bits after midday because `TEREN NEEDS A REPEATABLE BODY.` Signed Rinna.
 - Greg is paid exactly two bits after work. This does not establish a general theatre-pay rate or retroactively define Ch282 ordinary rehearsal pay.
-- Pavin remains Serrin in **The Blue Window**.
-- Greg reads servant/Corven and repeats a moving path for rehearsal/test. He is not given a performance role or replacement assignment.
-- Stage effect: freestanding open doorframe; pale gray treated depth cloth roughly six feet behind; faint silver perspective lines; two low hooded side lamps; smaller third lamp farther back.
-- Greg knows broad depth-cloth stage family from first-life exposure. Exact local mechanism, maker, age, treatment, charge, maintenance, and acquisition terms unknown.
-- From row five the shallow setup reads to Greg as an apparent pale corridor roughly twenty-five feet deep with a bright turn at the far end. This is Greg's visual estimate from one seat, not a measured property.
-- Greg's left crutch entering the frame before his body creates a doubled narrow shadow that bends the false corridor. Nessa reproduces the issue with a wooden cane.
-- Teren forbids Greg from changing his cross while testing the stage system.
-- Jori's first lamp adjustment is reversed after proving the wrong direction. Jori/Nessa then add local `dead edge` black masking.
-- Greg temporarily improves only his own crossing by turning the crutch inward; Teren rejects that because the cane still breaks the effect.
-- Additional lower dead edge makes cane/crutch intrusion read as ordinary shadow rather than a broken corridor.
-- Final scene run works without stop. Rinna pays two bits and says `Tomorrow no`; future theatre contact only if independently sent.
-- Nessa/Jori/Pavin continue work after Greg leaves. Do not make Greg central to their technical/acting work.
-- Ch276 Sivi/expression-mask thread remains separate. Jori's `extra mask` wording in Ch301 was scenic masking, corrected by Nessa to `dead edge`.
-- Ch302 contains no theatre return, only Greg's brief report to Lyssa.
+- Pavin remains Serrin in **The Blue Window**. Greg reads servant/Corven and repeats a moving path for rehearsal/test, not performance.
+- Depth-cloth false corridor is corrected locally with added `dead edge` masking after Greg's crutch and a cane expose the sightline problem.
+- Teren rejects Greg changing his own cross because the stage system, not Greg, needs fixing.
+- Final scene run works without stop. Rinna says `Tomorrow no`; future theatre contact only if independently sent.
+- Ch302–303 contain no theatre return.
+- Ch276 Sivi/expression-mask thread remains separate.
 
 ## Money / capital
-- Greg now holds **three private copper + one private bit** upstairs.
-- Ch301 exactly two bits earned from Rinna.
-- Ch302 Greg takes both bits on the walk and spends exactly **one bit** on one paper twist of fried dough shared with Lyssa.
-- No household money involved. No copper spent. No copper/bit conversion established.
-- One bit remains beside the three copper at chapter end.
-- Ch293 one-copper bag remains first and only spend from original four private client copper.
-- Do not force another purchase, investment, repayment, or reward because the discretionary spend succeeded.
+- Greg holds **three private copper + one private bit** upstairs.
+- Ch301: +2 private bits from Rinna.
+- Ch302: -1 private bit on shared fried dough.
+- Ch303: no private income/spending. Cala provides two household bits; North Steps uses one and Greg returns one.
+- No copper/bit conversion established. Keep denominations separate.
+- Ch293 one-copper bag remains first and only copper spend from original four private client copper.
+- Do not force another purchase, investment, repayment, or reward.
 
 ## Magic / Hessa / range protocol
 - Totals remain **36 supervised minimal draws / 32 deliberate shaping attempts / 72 supervised external-effect attempts**.
-- No independent Greg magic outside supervised sessions Ch281–302. Restrictions unchanged.
+- No independent Greg magic outside supervised sessions Ch281–303. Restrictions unchanged.
 - Ch298 attempt 70 near: small clean net displacement away.
 - Ch298 attempt 71 middle: no observed response.
 - Ch298 attempt 72 far: first far test, no observed response.
 - Established-position aggregates remain **near 2 clean / 4; middle 1 clean / 6 plus one prior possible edge lift (attempt 68); far 0 / 1**.
 - No distance-response law, reliability curve, hard range limit, or dose relationship established.
 - Hessa next experiment, position, object, and appointment remain unselected.
-- Ch301 depth cloth and Ch302 lampwing/charm-light interactions are external world magic/material culture and do not affect Greg totals.
+- Ch301 depth cloth, Ch302 lampwing/charm-light interactions, and Ch303 bathhouse treatments are external world magic/material culture only.
 
 ## Greg / body / equipment
 - Greg is nineteen, Bronze, Carrow, permanent LEFT BKA, knee preserved; right leg intact; two crutches.
-- Ch293 brown leather shoulder bag remains regular equipment; stay-bead notch unchanged.
-- Ch302 follows a day that already included theatre walking. Greg is mildly reluctant to stand again but has no pain/problem.
-- Greg/Lyssa avoid one narrow cart-blocked lane rather than forcing a crowded crutch pass.
-- Greg uses a low bench with arms normally, keeps crutches out of the path, and rises without issue.
-- Darker lanes make surface reading more important; Greg shortens pace on rough stone and uses smoother center strip as needed.
+- Ch293 brown leather shoulder bag remains regular equipment; stay-bead notch unchanged. Bag stays home in Ch303.
+- Ch303 Greg uses bathhouse dry bench/crutch slots, grip-treated floor, and low stool normally.
+- Greg checks residual-limb skin, washes and dries carefully, and has no abnormal redness/rubbed area after recent walking.
+- Hair washing uses one crutch braced and one within reach for stable balance.
 - No pain, fall, pressure injury, residual-limb issue, crutch damage, shoe issue, bag issue, or equipment change.
 
 ## Lyssa / garment work
 - Lyssa independent garment-work network remains active.
-- Ch302 opens with Lyssa stitching and the brown cuff beside her. Greg does not ask what stage it has reached.
-- No customer, completion, delivery, price, alteration, deadline, or brown-cuff advancement is established.
+- Ch302 brown cuff is beside Lyssa during stitching. Ch303 it is absent from view.
+- No customer, completion, delivery, price, alteration, deadline, or brown-cuff advancement is established in Ch302–303.
 - Existing protected Lyssa materials/packets/bundles remain protected.
 - Do not convert Greg into Lyssa's courier, manager, alteration analyst, supply optimizer, or partner.
 
 ## Tavi / bench court / blue horse
 - Ch300 facts stand complete.
-- Ch301 carried comic `Greg pole`/horse residue. Ch302 Tavi is asleep through the couple walk.
-- No Vara/Ren/kite/drift-web return, no regular outing, no Tavi kite acquisition, and no childcare-role expansion.
+- Ch301–303 carry only comic language residue such as `Greg pole`, `Horse up`, and `Greg pole bath`.
+- No Vara/Ren/kite/drift-web return, regular outing, Tavi kite acquisition, or childcare-role expansion.
 
 ## Mera basket / Olan carry tie
-- Ch299 facts stand complete. Ch300–302 do not reopen.
+- Ch299 facts stand complete. Ch300–303 do not reopen.
 - Exact maker, age, charge/lifespan, degree/mechanism of easing, safe max load, broader standards, and full repair history unknown.
 - No Olan mentorship, Mera courier work, basket business, carry-knot study, or durability test.
 
 ## High line / Mara / Ovi / Tess
-- Ch297 facts stand. Ch298–302 do not return.
+- Ch297 facts stand. Ch298–303 do not return.
 - Tess remains only expected repair person, unseen. Repair outcome/mechanism/rate unknown.
 
 ## Kessa / Pella / Rusk / silverbacks-flickers
-- Ch297 facts stand. Ch298 has one passing recognition; Ch299–302 no follow-up.
+- Ch297 facts stand. Ch298 has one passing recognition; Ch299–303 no follow-up.
 - Exact taxonomy, naming boundary, lifecycle, prey range, `skins`, magical status, thresholds, and cool/sun behavior remain unresolved.
 
 ## Nemi / workshop-court music / road song
-- Ch296 facts stand. Ch297–302 no substantive follow-up.
+- Ch296 facts stand. Ch297–303 no substantive follow-up.
 - No music group, lesson, performance job, songwriting lane, theatre crossover, or hold-bead investigation.
 
 ## Bridges / Vela / Orra / Demin / Sot
-- Ch295 facts stand. Ch296–302 no return.
+- Ch295 facts stand. Ch296–303 no return.
 - Vela's `Tomorrow?` remains casual and non-binding.
 
 ## Household shopping / merchant memory
-- Ch294 facts stand. Ch295–302 no meaningful shopping follow-up.
+- Ch294 facts stand. Ch295–303 no meaningful shopping follow-up.
 - No formal household account/credit/discount/network.
 
 ## Shade fish / east-wall trough / water list
-- Ch292 facts stand. Ch293–302 do not return.
+- Ch292 facts stand. Ch293–303 do not return.
 - Weak sun-turn bead remains only marked/managed as of last sighting; fish fine; replacement schedule unknown.
 
 ## Door closer / Olan / Sella
@@ -136,18 +138,18 @@
 - Ch299 separate Olan basket repair did not create standing Olan lane.
 
 ## Rain shelf / rain thread
-- Ch290 facts stand. Household rain shelf works. Ch291–302 no reactivation.
+- Ch290 facts stand. Household rain shelf works. Ch291–303 no reactivation.
 
 ## Miri / cooling cups
-- Ch288 facts stand. Ch289–302 no follow-up.
+- Ch288 facts stand. Ch289–303 no follow-up.
 - Miri one-copper comparison and possible Pellin follow-up remain bounded/unresolved. Pellin is not Pell absent evidence.
 
 ## Carrying light
-- Ch287 facts stand. Ch288–302 do not advance Sera or lantern house.
-- Ch302 uses unrelated household/shop charm lights and lampwings. Do not merge with the Ch287 carrying-light service.
+- Ch287 facts stand. Ch288–303 do not advance Sera or lantern house.
+- Ch302 household/shop charm lights and Ch303 bathhouse magic are separate from the carrying-light service.
 
 ## Ward crossing
-- Ch289 repair stands. Ch301 passed it without reopening. Ch302 no advancement.
+- Ch289 repair stands. Ch301 passes it without reopening. Ch302–303 no advancement.
 - Ch292 water worker/list remains separate from road crew/list.
 
 ## Dry seal / warm wall
@@ -158,6 +160,7 @@
 - Ch292 shade fish remain separate urban ecology.
 - Ch297 kessa jumpers remain separate local ecological practice.
 - Ch302 lampwings add seasonal-looking magical-ecology texture, but no specimen/case/assignment or research thread is created.
+- Ch303 does not advance ecology.
 - Do not build creature-of-week or ecology-ledger structure.
 
 ## Rell / Maren / return hardware
@@ -169,9 +172,11 @@
 ## Household
 - Three clean household gray sheets remain.
 - Horse-page reverse remains full.
-- Greg's existing narrow scrap/charcoal remain in bag; no Ch301 theatre or Ch302 lampwing notes added.
-- Three private copper + one private bit remain upstairs after Ch302.
-- Tavi is asleep during Ch302 outing; no new household assignment.
+- Greg's existing narrow scrap/charcoal remain in bag; no Ch301 theatre, Ch302 lampwing, or Ch303 bath notes added.
+- Three private copper + one private bit remain upstairs after Ch303.
+- Cala pays one household bit for Greg's North Steps wash; unused second bit returns to household.
+- Damp household drying cloth is hung after Greg returns.
+- Greg sorts beans after bathing as ordinary household labor.
 - Rain shelf works. Front door closer repaired/functioning.
 - Ch285 narrow wrapped packet remains absent/protected.
 
@@ -180,20 +185,21 @@
 - Vale debt active/unresolved; exact balance unstated.
 
 ## Pressure / protected uncertainty
-- Ch273 Green Coat remains separate/bounded. Older pressure evidence ceiling unchanged. Ch302 adds none.
+- Ch273 Green Coat remains separate/bounded. Older pressure evidence ceiling unchanged. Ch303 adds none.
 - Weak needle-case mark, Rinna parcel, Lyssa older materials/bundles, Ch246 crate contents, Pell exact return, Vale/Bren link unresolved.
 - Collar-facing broader purpose, six wraps, Ch281 flat package, Ch285 narrow wrapped packet unresolved.
 - Magic protected uncertainty remains exact range distances, far 0/1 only, attempt 68 possible edge lift only, next protocol unselected, no range law.
 - Ch301 depth-cloth/false-door uncertainties remain bounded.
-- Ch302 lampwing/low-lamp uncertainties remain bounded as listed above.
+- Ch302 lampwing/low-lamp uncertainties remain bounded.
+- Ch303 North Steps/dry-bench/grip-wash/Noll uncertainties remain bounded.
 - Existing creature/ecology and magical-infrastructure uncertainties remain bounded.
 
 ## Next
-- Follow Chapter 303 trailhead in `MANUSCRIPT_STATE.md`.
-- Let Ch302 evening walk, lampwings, low lamps, fried dough, unnamed local people, and one-bit discretionary spend stand.
-- No automatic second lampwing night, ecology investigation, date ritual, low-lamp job, fried-dough return, or glow-bead follow-up.
-- Let Ch301 paid theatre afternoon stand. Rinna said `Tomorrow no`; there is no standing rehearsal or performance role.
+- Follow Chapter 304 trailhead in `MANUSCRIPT_STATE.md`.
+- Let Ch303 North Steps bath, dry bench, grip wash, unnamed bathers/counter woman, and Noll mention stand.
+- No automatic bathhouse return, maintenance investigation, Noll meeting, accessibility project, or bathhouse economics.
+- Let Ch302 lampwing evening and Ch301 theatre afternoon stand complete.
 - Current Greg magic remains 36 / 32 / 72; near 2/4 clean; middle 1/6 clean + one possible edge lift; far 0/1. Restrictions unchanged.
-- Greg now has three private copper + one private bit. No forced spending/investment.
+- Greg has three private copper + one private bit. No forced spending/investment.
 - Three clean sheets remain. Lyssa's brown-cuff work remains hers and unresolved.
 - Follow the next actual claim rather than rotating available engines by checklist.
