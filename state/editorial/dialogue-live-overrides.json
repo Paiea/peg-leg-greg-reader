@@ -25,9 +25,9 @@
     "replacement": ["There was no gratitude in his face. Excellent. There was appetite. Worse.", "\"Again,\" Alden said.", "...", "Jorren looked at me.", "\"Your student,\" Jorren said.", "\"I have taught him one sentence,\" I said.", "Alden checked his fingers for blood.", "\"Good sentence,\" Alden said.", "\"Bad religion,\" I said."]
   },
   "32|Fix 32.1 - Verran asks to leave": {
-    "reason": "Current main embeds the Verran/constable exchange at the front of a longer investigation paragraph. Split only the authority handoff and preserve every sentence that follows.",
-    "current": ["Verran said, \"Can I leave?\" The constable said, \"No.\" Verran sat back. I asked, \"Where did the sacks come from?\" Nobody answered. Not because nobody knew. I looked at Nella. She looked at Verran. There. Edrin noticed too. Probably had noticed yesterday."],
-    "replacement": ["Verran asked, \"Can I leave?\"", "\"No,\" the constable said.", "Verran sat back. I asked, \"Where did the sacks come from?\" Nobody answered. Not because nobody knew. I looked at Nella. She looked at Verran. There. Edrin noticed too. Probably had noticed yesterday."]
+    "reason": "Current main embeds the Verran/constable exchange at the front of a longer investigation paragraph, preceded in that same paragraph by 'Edrin nodded. Good.' Split only the authority handoff and preserve the prefix plus every sentence that follows.",
+    "current": ["Edrin nodded. Good. Verran said, \"Can I leave?\" The constable said, \"No.\" Verran sat back. I asked, \"Where did the sacks come from?\" Nobody answered. Not because nobody knew. I looked at Nella. She looked at Verran. There. Edrin noticed too. Probably had noticed yesterday."],
+    "replacement": ["Edrin nodded. Good. Verran asked, \"Can I leave?\"", "\"No,\" the constable said.", "Verran sat back. I asked, \"Where did the sacks come from?\" Nobody answered. Not because nobody knew. I looked at Nella. She looked at Verran. There. Edrin noticed too. Probably had noticed yesterday."]
   },
   "40|Fix 40.3 - supply-chain synthesis": {
     "reason": "Current main combines Arlo/Pell and Vessa's two specialist contributions plus the nod in one paragraph. Split the collaborative synthesis into audible speaker beats; global Book I name mapping supplies Arlo elsewhere.",
