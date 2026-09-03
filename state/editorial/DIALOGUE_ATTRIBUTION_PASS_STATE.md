@@ -72,22 +72,22 @@ Use exact replacement patches when a chapter needs only attribution/voice surger
 
 This pass remains editorial WIP until integrated into manuscript/reader authority. The user has explicitly approved shipping accepted dialogue/attribution improvements to the illustrated reader as they are integrated; do not hold improved reader prose for completion of all 301 chapters. Structural compression remains separately parked.
 
-Current live-integration lane: `integration/dialogue-attribution-live-001-080` / PR #45 is responsible for applying the accepted Book I patches through Chapter 80 to the illustrated reader and promoting the resulting prose into canonical Book I authority without merging structural-compression experiments. Chapters **81-124** are now reviewed on this branch and should join later live-integration increments after the already-scoped 1-80 work.
+Current live-integration lane: `integration/dialogue-attribution-live-001-080` / PR #45 is responsible for applying the accepted Book I patches through Chapter 80 to the illustrated reader and promoting the resulting prose into canonical Book I authority without merging structural-compression experiments. Chapters **81-129** are now reviewed on this branch and should join later live-integration increments after the already-scoped 1-80 work.
 
 Do not claim a chapter is covered until its exact source was reviewed and the batch result was durably written and fetched back from GitHub.
 
 ## Coverage ledger
 
 - Chapters 1-301: **NOT YET COMPLETE**
-- Verified reviewed range: **Chapters 1-124**
+- Verified reviewed range: **Chapters 1-129**
 - Book I dialogue + attribution review: **COMPLETE THROUGH CHAPTER 82 - THE RECONCILER**
 - Book II dialogue + attribution review: **ACTIVE FROM CHAPTER 83**
-- No-change chapters in reviewed range: **1, 4, 5, 6, 7, 11, 12, 13, 14, 18, 19, 28, 38, 85, 88, 90, 91, 93, 94, 97, 98, 99, 102, 103, 105, 107, 109, 111, 114, 115, 116, 117, 120, 122**
+- No-change chapters in reviewed range: **1, 4, 5, 6, 7, 11, 12, 13, 14, 18, 19, 28, 38, 85, 88, 90, 91, 93, 94, 97, 98, 99, 102, 103, 105, 107, 109, 111, 114, 115, 116, 117, 120, 122, 125, 127, 128, 129**
 - Chapters with hard attribution fixes recorded: **2, 3**
 - Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 86, 87, 89, 92, 95, 96, 100, 104, 106, 108, 110, 112, 118**
-- Chapters with referent-continuity corrections recorded: **100, 101, 106, 112, 113, 119, 121, 123, 124**
-- Latest durable batch: `state/editorial/dialogue-pass/BATCH_120_124.md`
-- Current source edge: **Chapter 125 - THE TEST CASE**
+- Chapters with referent-continuity corrections recorded: **100, 101, 106, 112, 113, 119, 121, 123, 124, 126**
+- Latest durable batch: `state/editorial/dialogue-pass/BATCH_125_129.md`
+- Current source edge: **Chapter 130 - THE EXTRA**
 
 All earlier durable batch files remain under `state/editorial/dialogue-pass/` and are authoritative for this editorial pass only.
 
@@ -102,12 +102,12 @@ A chapter counts as reviewed only after exact source prose and necessary neighbo
 - Rusk: operationally economical; answers the job question and stops.
 - Antonius: practical finance/operations; prices arrangement cost, distinguishes Greg's choices from Vale's purchases, and cares what pays, what is owned, and what repayment requires.
 - Arlo: workshop/mechanism/time/measurement; precision comes from the bench rather than generic evidence doctrine.
-- Hessa: controlled procedural instruction tied to body, safety, expectation control, repeatability, apparatus ambiguity, progression criteria, and permission. Chapters 91-114 build the post-loss ladder from prompt/draw through shaping, cessation, deliberate RETURN, and bounded criteria for eventually considering external work. Chapter 117 defines repeatability as availability across enough changed conditions that accident becomes less convincing. Chapter 120 adds anti-score repeatability and anti-ritual monitoring: related attempts remain distinct, and certainty-seeking checks can create noise. Chapter 122 permits the first tightly bounded `REACH` beyond the body. The thread moves during the attempt but also during baseline, so Hessa records observed movement, cause unknown, and explicitly preserves **no established external effect**. The same ambiguous external test still yields useful internal-control evidence. One external-test permission is not casting or general external-work clearance. Durable page: `state/voices/HESSA.md`.
-- Jorren: peer-level physical truth and ordinary care; sees stance, rhythm, fatigue, and what a fighter is doing without turning help into solemn identity. Chapter 95 adds off-duty ease: empty time need not be optimized and support need not be ceremonial. Durable page: `state/voices/JORREN.md`.
+- Hessa: controlled procedural instruction tied to body, safety, expectation control, repeatability, apparatus ambiguity, progression criteria, and permission. Chapters 91-120 build the post-loss ladder from prompt/draw through shaping, cessation, deliberate RETURN, repeatability, and readiness to ask a bounded external question. Chapter 122 permits the first `REACH` beyond the body but preserves **no established external effect** because thread movement also occurs at baseline. Chapters 125 and 127 add a paired comparison and then a failed replication: one suggestive differential movement improves the question but does not establish mana, and failure to repeat it lowers external confidence while clean internal control raises internal confidence. Hessa audits her own notation (`Near is already interpretation. White is an object.`), distinguishes memorable from diagnostic, and refuses to move the question after disappointing data. Chapter 129 parks the noisy thread apparatus because safe attempts are not free, then cleanly calls a changed-direction instruction a failure at that exact scope while preserving the control skills that still succeeded. By Chapter 129, directional control remains **unclear**, external effect **unestablished**, casting and Barrier **not cleared**. Durable page: `state/voices/HESSA.md`.
+- Jorren: peer-level physical truth and ordinary care; sees stance, rhythm, fatigue, and what a fighter is doing without turning help into solemn identity. Chapter 95 adds off-duty ease: empty time need not be optimized and support need not be ceremonial. Chapter 125 confirms that he can hear highly technical magic news, react at peer scale, refuse the apparatus lecture, and move on to food/work without becoming a second analyst. Durable page: `state/voices/JORREN.md`.
 - Alden: fast, ambitious, initiative-seeking, willing to learn, and increasingly capable of rules that preserve tomorrow's work rather than chasing today's exchange. Chapter 104 adds a useful access boundary: initiative does not mean entitlement. Durable page: `state/voices/ALDEN.md`.
 - Edrin: guild warding/custody and investigative boundaries; shares useful evidence, distinguishes absence of evidence from proof, and refuses access Greg does not need.
 - Octavia: freight coordination plus sequence/timing memory. Socially, she retains small earlier behaviors only when they change the next move and distinguishes noticing a signal from believing its intended message. Durable page: `state/voices/OCTAVIA.md`.
-- Merrin: institutional routing and record ownership; knows which registry/person/permission owns a request and does not confuse proximity with authority. Durable page: `state/voices/MERRIN.md`.
+- Merrin: institutional routing and record ownership; knows which registry/person/permission owns a request and does not confuse proximity with authority. Exact Chapter 89 source-settles Merrin as male. Chapter 126 reinforces `flag, do not fix` clerical scope and routes Greg's old-road archive curiosity back toward the person who owns the road question. Durable page: `state/voices/MERRIN.md`.
 - Dema Rusk: field-recovery instruction; teaches Bronze parties how to stop, count, move, and decide after plans fail. She is not Antonius's Rusk.
 - Captain Ressa: intake triage and operation ownership; need first, firsthand report second, responsibility converted into the next operation rather than a clean guilt story.
 - Iris: immediate watch response; decides whether information changes the next ten seconds and assigns bodies to jobs.
@@ -122,9 +122,9 @@ A chapter counts as reviewed only after exact source prose and necessary neighbo
 - Mevi: manual workflow and load handling; one demonstration, immediate correction, then back to work.
 - Holl: commercial ward-material sorting and throughput; cares which pile a worker should choose, recheck cost, whether the worker can decide without him, and whether customers need the same tolerance. Chapter 96 keeps process inquiry bounded to the current shop decision. Durable page: `state/voices/HOLL.md`.
 - Pessa: working-road and embodied training judgment. Chapters 92-93 establish inventory before architecture. Chapter 102 rejects the fiction that simplified movement becomes isolated. Chapter 110 adds choice after the first plan fails. Chapter 119 adds anticipation/waiting and anti-score discipline: preparing for the previous obstacle can create the wrong route, waiting can be a physical choice, a near-slip correction can itself be useful evidence, and metrics are refused when they would replace tomorrow's movement with tomorrow's score. Durable page: `state/voices/PESSA.md`.
-- Teren: theatre prompting and scene continuity at actor scale. Chapters 116 and 118 establish that silence alone is not a prompt cue; he watches the particular actor/scene and may use an actor-specific physical cue without universalizing it. His page is support, not oracle: he can prompt early or late and mark a practical interruption with the smallest useful note. Durable page: `state/voices/TEREN.md`.
+- Teren: theatre prompting and scene continuity at actor scale. Chapters 116 and 118 establish actor-specific cue judgment rather than universal prompting rules. Chapter 128 adds **wrong but recoverable** rehearsal work: an early entrance can be wrong even when actors preserve the scene, and a missing prop can be improvised around without becoming the preferred solution. Teren can let recovery continue, then reset with the smallest local note (`Letter.`, `Again.`). His named authority remains page/cue/prompt/cut/local continuity rather than universal theatre control. Durable page: `state/voices/TEREN.md`.
 - Tam: customer-specific shoe work and local trade routing; terse use-first answers attached to actual object/person.
-- Sevren: courier route knowledge plus low-pressure friendship. Chapter 84 sharpens route/custody/recipient/receipt boundaries; Chapter 106 adds dispatch judgment around route fit and hard/soft deadlines. Durable page: `state/voices/SEVREN.md`.
+- Sevren: courier route knowledge plus low-pressure friendship. Chapter 84 establishes route/custody/recipient/receipt boundaries. Chapter 106 adds dispatch judgment around route fit and hard/soft deadlines. Chapter 126 adds **current-route reality**: a remembered old road can be historically accurate and still be operationally stale after fire, flood, reinforcement, grading, traffic rules, new stops, current weather, and load changes. Sevren's possible north ride remains conditional until passenger space, crutch securement, stops, duration, cargo geometry, and road are real. `I own cart` is practical jurisdiction over cart/road continuation, not ownership of Greg's body. Durable page: `state/voices/SEVREN.md`.
 - Lio: ordinary multi-job competence; has done practical things before without turning them into professional identity.
 - Tavin: coordination across ownership boundaries; systems language is institutional/job-specific, not Greg-style abstraction.
 - Leth: roadwright uncertainty; speaks from the physical state of repair and does not pretend ten minutes cannot become twenty.
@@ -156,6 +156,7 @@ Shared dryness is allowed. Do not force distinct catchphrases where domain and c
 - Chapters 110-114: in crowded emergencies, transient workers can stay light when physically introduced; tag the operational authority only where the safety decision would otherwise be unclear.
 - Chapters 115-119: anonymous background speakers can remain anonymous when individual ownership is irrelevant. Tag when a recurring authority enters that texture, a glance makes the wrong responder plausible, or a one-word reply has two credible owners.
 - Chapters 120-124: **crowd size alone is not an attribution problem**. Chapters 121 and 124 remain readable without new tags because workers are physically introduced and job ownership is locally legible. Do not manufacture bookkeeping merely because many bodies are onstage. Chapter 123 likewise confirms that stable Greg/Lyssa dialogue can stay light through long intimacy/work beats when occasional transient speakers are introduced cleanly.
+- Chapters 125-129 add three refinements. First, **attribution and referent continuity are separate problems**: Chapter 126's conversations remain readable while two recurring-character pronoun systems drift in opposite directions. Second, failed replication should actually change the strength of a character's claim rather than leaving `uncertain` frozen forever; Hessa can lower external confidence while raising internal-control confidence. Third, in theatre, **successful recovery does not erase a local mistake**. A wrong entrance can survive without becoming correct, and the editor should preserve the small reset rather than converting recovery into explanatory dialogue.
 
 ## Continuity/name cautions surfaced by dialogue pass
 
@@ -168,12 +169,13 @@ Shared dryness is allowed. Do not force distinct catchphrases where domain and c
 - Chapter 53 barber **Mara** is explicitly another Mara from drink-shop Mara.
 - Chapter 71 **Mara Fen** owns West Spice Storage. Do not conflate with other Maras by first name.
 - `SERA.md` and `SERA_DAIN.md` deliberately remain separate voice authorities.
-- **Lodging keeper pronoun is source-settled as female.** Exact Chapter 84 uses she/her. Male reader callbacks have now been found in Chapters **100, 101, 106, 112, 113, 119, 121, 123, and 124**. Integrate them as female references according to their durable batch files.
+- **Lodging keeper pronoun is source-settled as female.** Exact Chapters 84 and 89 use she/her. Male reader callbacks have now been found in Chapters **100, 101, 106, 112, 113, 119, 121, 123, 124, and 126**. Integrate them as female references according to their durable batch files.
+- **Merrin pronoun is source-settled as male.** Exact Chapter 89 introduces Merrin with `He saw me` and continues he/him through the front-desk scene. Chapter 126's four she/her Merrin passages are local reader slips and are patched in `BATCH_125_129.md`.
 - **Nerin pronoun is source-settled as male.** Exact Chapter 65 introduction is `“I'm Nerin,” he said.` Chapter 101's opening she/her references are local reader slips and should integrate as he/him.
-- **Unnamed theatre women in Chapters 112-124 remain identity-separated until exact prose names them.** The soot-shirt backstage/workflow woman and the unnamed rehearsal/acting woman are distinct recurring people in scene logic. Existing `RINNA.md` should not be silently assigned to either merely because Rinna is a later theatre authority. Chapter 116 source-settles Teren as the male prompter.
+- **Unnamed theatre women in Chapters 112-129 remain identity-separated until exact prose names them.** The soot-shirt backstage/workflow woman and the recurring rehearsal/acting woman are distinct recurring people in scene logic. Existing `RINNA.md` should not be silently assigned to either merely because Rinna is a later theatre authority. Chapter 116 source-settles Teren as the male prompter.
 - **Chapter 123 `Aileen` is unresolved.** Exact editorial-branch reader and current `main` both contain Lyssa saying `“You're comfortable, Aileen.”` to Greg. Current durable character authority does not establish Aileen as Greg's name, alias, nickname, or relationship language. Do **not** guess a replacement inside this pass. Canonical Book II manuscript authority must settle the intended word/name during integration.
 
-Do not silently resolve unresolved name/identity questions inside the attribution pass. The keeper and Nerin pronoun corrections are not unresolved because earlier exact prose settles them.
+Do not silently resolve unresolved name/identity questions inside the attribution pass. Keeper, Merrin, and Nerin pronoun corrections are not unresolved because earlier exact prose settles them.
 
 ## Durable voice pages added during this pass
 
@@ -190,14 +192,14 @@ Do not silently resolve unresolved name/identity questions inside the attributio
 - `state/voices/MERRIN.md`
 
 Existing voice guides remain living authority. Notable later sharpenings now include:
-- `SEVREN.md`: Chapters 84 and 106;
-- `HESSA.md`: Chapters 91-94, 100-114, and now **120-122** around repeatability, external-test interpretability, `REACH`, and the no-established-external-effect ceiling;
+- `SEVREN.md`: Chapters 84, 106, and now **126** around current route authority, conditional route inclusion, and cart/road jurisdiction;
+- `HESSA.md`: Chapters 91-94, 100-122, and now **125-129** around paired controls, practitioner self-audit, failed replication, finite safe attempts, parking a noisy apparatus, and scoped directional failure;
 - `PESSA.md`: Chapters 92-93, 102, 110, 119;
 - `JORREN.md` / `HOLL.md`: Chapters 95-96;
-- `LYSSA.md`: Chapters 100, 112, and now **123** around ordinary work-route intimacy, practical accessibility correction, ambiguous magic news, and direct affection without ceremony;
+- `LYSSA.md`: Chapters 100, 112, 123;
 - `OCTAVIA.md`: Chapters 87 and 108;
 - `ALDEN.md`: Chapter 104;
-- `TEREN.md`: Chapters 116-118.
+- `TEREN.md`: Chapters 116-118 and now **128** around wrong-but-recoverable rehearsal work and minimal resets.
 
 `state/voices/INDEX.md` explicitly treats voice pages as living authority that should be updated later when substantial new exact prose sharpens a recurring character.
 
