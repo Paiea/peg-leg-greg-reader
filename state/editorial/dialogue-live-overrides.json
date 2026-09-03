@@ -1,6 +1,6 @@
 {
   "8|Fix 8.3 - Jast sequence": {
-    "reason": "Current main retains the standalone 'Good.' beat between the merchant identification and the payment question, and the final Fourteen paragraph carries 'There. Enough.' narration. Preserve both while applying the accepted attribution change.",
+    "reason": "Current main retains the standalone 'Good.' beat between the merchant identification and the payment question, the standalone 'Interesting.' beat before the amount question, and the final Fourteen paragraph carries 'There. Enough.' narration. Preserve all while applying the accepted attribution change.",
     "current": [
       "\"Who is Jast?\"",
       "\"Merchant.\" Rusk said, \"I know him.\"",
@@ -25,6 +25,32 @@
       "Interesting.",
       "\"How much does he owe her?\" I asked.",
       "\"Fourteen,\" Selka said. There. Enough."
+    ]
+  },
+  "8|Fix 8.4 - lien proposal": {
+    "reason": "Current main carries 'I ignored him.' in the final Rusk paragraph. Preserve that narration while assigning Selka and Greg explicitly in the lien exchange.",
+    "current": [
+      "\"We take a lien on that piece.\" Rusk said, \"A what?\"",
+      "\"Security. Not possession.\"",
+      "\"I know what a lien is.\"",
+      "\"Excellent.\"",
+      "\"Antonius said collect.\"",
+      "...",
+      "\"You don't take it now.\"",
+      "\"No.\"",
+      "\"Greg,\" Rusk said. I ignored him."
+    ],
+    "replacement": [
+      "\"We take a lien on that piece,\" I said.",
+      "\"A what?\" Rusk asked.",
+      "\"Security. Not possession,\" I said.",
+      "\"I know what a lien is,\" Rusk said.",
+      "\"Excellent,\" I said.",
+      "\"Antonius said collect,\" Rusk said.",
+      "...",
+      "\"You don't take it now,\" Selka said.",
+      "\"No,\" I said.",
+      "\"Greg,\" Rusk said. I ignored him."
     ]
   }
 }
