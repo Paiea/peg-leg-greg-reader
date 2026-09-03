@@ -1,0 +1,30 @@
+{
+  "8|Fix 8.3 - Jast sequence": {
+    "reason": "Current main retains the standalone 'Good.' beat between the merchant identification and the payment question, and the final Fourteen paragraph carries 'There. Enough.' narration. Preserve both while applying the accepted attribution change.",
+    "current": [
+      "\"Who is Jast?\"",
+      "\"Merchant.\" Rusk said, \"I know him.\"",
+      "...",
+      "\"Does he pay?\" Rusk shrugged.",
+      "\"Eventually.\"",
+      "\"How eventually?\"",
+      "\"Depends who asks.\"",
+      "Interesting.",
+      "\"How much does he owe her?\"",
+      "Selka said, \"Fourteen.\" There. Enough."
+    ],
+    "replacement": [
+      "\"Who is Jast?\" I asked.",
+      "\"Merchant,\" Selka said.",
+      "\"I know him,\" Rusk said.",
+      "...",
+      "\"Does he pay?\" I asked. Rusk shrugged.",
+      "\"Eventually,\" Rusk said.",
+      "\"How eventually?\" I asked.",
+      "\"Depends who asks,\" Rusk said.",
+      "Interesting.",
+      "\"How much does he owe her?\" I asked.",
+      "\"Fourteen,\" Selka said. There. Enough."
+    ]
+  }
+}
