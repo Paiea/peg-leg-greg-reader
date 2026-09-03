@@ -135,6 +135,8 @@ Early Book I operational / relationship pages:
 - `ANTONIUS.md`
 - `ARLO.md`
 - `RUSK.md`
+- `JORREN.md`
+- `ALDEN.md`
 
 Recurring work/household/social pages:
 - `JORI.md`
