@@ -1,10 +1,10 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 307 - **THE RED POT**.
+- Current exact story endpoint: Chapter 308 - **THE DEBT HOUR**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249-307 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249-308 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500-4,000 words and clear 2,500 unless explicitly changed.
@@ -22,8 +22,10 @@
 - Ch304 advances Greg's weak personal magic through cleaner observation rather than greater range or force.
 - Ch305 lets high-confidence first-life fieldcraft work cleanly during a mirrorhorn herd crossing without making Greg a handler.
 - Ch306 opens the magical-item / acquisition-economy lane through one consequential speculative purchase. Greg spends two private copper on an obsolete fixed holdfast because he remembers later practical uses for its hated fixed-release constraint. The purchase is not yet vindicated.
-- Ch307 deliberately lets those fantasy/capital pressures breathe. Cala goes to her own card evening, Greg makes household dinner with Tavi, Lyssa comes home tired, and ordinary heat-stone magic remains background material culture rather than a new investigation.
-- Ch307 adds life outside Greg: Cala has a social evening and household exchange routes Greg does not fully know. Do not turn this immediately into a card arc, neighbor-network map, cooking series, or heat-stone maintenance case.
+- Ch307 deliberately lets those fantasy/capital pressures breathe through an ordinary household evening.
+- Ch308 reactivates the Vale/money engine without undoing Ch306's liquidity consequence. Greg accepts one bounded seated hour of debt-credit work. The debt moves by one copper credit, but his private purse remains one copper plus one bit.
+- Antonius keeps the task evidence-bounded: compare returned-goods tags only as MATCH / MISMATCH / UNREADABLE and do not assign cause. When an unexpected note appears on the back of one tag, Antonius treats his own instruction as incomplete rather than retroactively blaming Greg.
+- Greg tells Antonius he does want suitable cash work offered if it appears, but only by explicit separate terms. This is a possibility, not a guaranteed future job, standing obligation, weekly arrangement, exclusivity, first refusal, or automatic cash refill.
 - Greg's reduced liquidity remains materially real at one copper plus one bit.
 - Ch300 remains only a round number, not a structural milestone. Structural boundaries continue to follow actual story movement only.
 - Eventual title-defining leg loss remains flexible long-range architecture, not a countdown.
@@ -35,34 +37,36 @@
 - Ch304 and Ch305 have no income or spending.
 - Ch306 Greg spends exactly **two private copper** on the working fixed holdfast. No household money is involved.
 - Ch307 has no income, private spending, household spending, debt payment, reimbursement, resale, appraisal, or capital action.
+- Ch308 creates exactly **one copper of Vale debt credit** for one bounded office hour. This is not cash income and does not change Greg's private purse.
+- Ch308 contains no private spending, household spending, cash wage, resale, appraisal, refund, reimbursement, or copper/bit conversion.
+- Vale debt remains active/unresolved; exact remaining balance remains unstated even after the one-copper credit.
 - No copper/bit conversion is established. Denominations remain separate.
 - Ch293 one-copper shoulder bag remains Greg's first private copper equipment spend; Ch306 fixed holdfast is the second.
-- The reduction from three copper to one copper is an intentional material consequence. Do not erase it through instant profit, refund, lucky resale, or a conveniently tailored paid job.
+- The reduction from three copper to one copper remains an intentional material consequence. Do not erase it through instant profit, refund, lucky resale, or a conveniently tailored cash job.
 
 ## Greg / body / equipment
 - Greg is nineteen in second life, Bronze, Carrow. Permanent LEFT BKA, knee preserved; right leg intact; two crutches.
 - Existing crutch repairs and Ch269 right-shoe repair remain sound.
 - Ch293 used brown leather shoulder bag remains regular equipment and holds the existing narrow scrap plus wrapped charcoal.
 - Ch306 wrapped holdfast rides home once in the shoulder bag without interfering with crutches. It is not regular carry equipment and remains stored at home.
-- In Ch307 Greg does most vegetable preparation seated with right foot flat, left knee clear, and both crutches safely angled against the wall within reach.
-- Cala has already arranged the heavy pot and ingredients so Greg does not need to cross the room carrying a filled pot while on crutches. Greg shifts the filled red pot only about six inches from counter to hearth while standing close, right hip against counter and crutches braced behind him, then resets his grips.
-- While washing dishes he uses the low basin and braces his right hip against the counter, working one-handed when useful.
-- Tavi moves his block road out of the crutch path when Greg asks.
-- No fall, residual-limb issue, pressure injury, shoe issue, crutch damage, bag damage, stay-bead issue, or equipment change.
+- Ch307 household geometry remains established: seated prep, short close transfer of the filled red pot, low basin use, ordinary crutch-path adjustment.
+- Ch308 Vale transport is included in the task terms. Greg uses a small hire cart and the driver waits for explicit crutch handoff rather than grabbing equipment.
+- Greg enters/exits the cart using the frame/right leg while keeping the left knee clear. Vale's task is ground-floor and seated.
+- Ch308 office hour produces no unusual hand, shoulder, residual-limb, right-leg, shoe, crutch, or bag issue. Greg explicitly notes ordinary comfort after the seated work.
+- No fall, pressure injury, equipment damage, stay-bead issue, or equipment change.
 
 ## Household / Lyssa / Tavi
 - Three clean household gray sheets remain unused.
 - Horse-page reverse remains full.
-- Existing narrow scrap still carries Ch304 magic data plus Ch306 holdfast notes. Ch307 adds no new notes and consumes no paper.
-- Fixed holdfast remains wrapped on the high shelf above Greg's clothes, ring sideways, base on sailcloth, out of Tavi's reach. Warning tag remains `DO NOT TURN RING.` No Ch307 activation or handling occurs.
-- Cala independently goes out for an evening of cards. She wears a clean gray scarf with narrow yellow stitching and a different blouse. An unnamed older woman arrives with a flat wooden box and green shawl, takes Cala's covered bowl, and leaves with her. Exact card group, location, stakes, rules, frequency, and relationships remain unestablished.
-- Cala leaves Greg dinner ingredients already prepared enough to make the task bounded: soaked beans, filled red pot, vegetables, salt, and half a loaf already in the house.
-- Household red pot has one side handle with a hairline crack bound with dark wire. Cala's local rule is red pot on the left heat stone, cracked handle toward the wall, half heat, greens last, salt after boil.
-- Greg burns the onions slightly but makes an acceptable bean/vegetable stew. Greg and Lyssa each take a second bowl; Cala later eats the final bowl. Tavi prefers bread after one bowl. This does not establish Greg as household cook or a recurring cooking duty.
-- Lyssa arrives tired from work with hair partly loose and no parcel/basket/cloth bundle. Brown-cuff work and protected garment materials do not advance. She does not take over dinner.
-- Lyssa already knows the red-pot orientation and adds one pinch of salt after tasting. She and Greg share quiet physical proximity while waiting, later wash/dry dishes together, and end upstairs with teasing, a kiss, and Tavi's `CARROT BLANKET` interruption. No new relationship status or obligation follows.
-- An unnamed girl around twelve returns a covered bowl for Cala and identifies the sender only as `Us`. Lyssa recognizes pickled beans by smell; Cala later recognizes the bowl without explanation. Exact sender/relationship/exchange routine remains unestablished.
-- Cala returns after dark with multiple voices/laughter outside. She notices the cleaned dishes, says little, and carries Tavi upstairs for bed. This confirms some independent social life without creating a named recurring group.
+- Existing narrow scrap still carries Ch304 magic data plus Ch306 holdfast notes. Ch307 adds no new notes.
+- Ch308 adds no new field note. Greg stores the Vale one-copper debt-credit receipt under the existing narrow scrap rather than consuming a clean sheet.
+- Fixed holdfast remains wrapped on the high shelf above Greg's clothes, ring sideways, base on sailcloth, out of Tavi's reach. Warning tag remains `DO NOT TURN RING.` No Ch307-Ch308 activation or handling occurs.
+- Cala's Ch307 card evening, red-pot routine, returned bowl, and heat-stone details remain background life and do not advance in Ch308.
+- Tavi steals Greg's bread while Greg reads the Vale note and later returns the Ch307 carrot to ordinary food status. Comic/household only; no new childcare role.
+- Cala treats `Debt` as work without turning the holdfast spend into a household accounting confrontation.
+- Lyssa arrives later with a small paper twist of roasted seeds. She confirms debt credit still counts as pay in a different sense, but does not become Greg's financial manager.
+- Greg tells Lyssa only that Antonius **may** send suitable cash work if something appears. Lyssa immediately preserves the uncertainty with `May.` No job is promised.
+- Brown-cuff work and protected garment materials do not advance.
 - Rain shelf works. Front door closer remains repaired/functioning.
 
 ## Chapter 304 - THE QUIET TABLE
@@ -121,6 +125,26 @@
 - Greg's private money remains exactly **one copper + one bit**. Holdfast remains untouched on high shelf. Three clean sheets remain. Magic remains unchanged.
 - No client, income, spending, debt payment, Greg mana, Hessa contact, theatre return, ecology encounter, mirrorhorn follow-up, holdfast use, Lyssa-business advancement, pressure evidence, injury, or standing external obligation.
 
+## Chapter 308 - THE DEBT HOUR
+- A Vale office boy delivers Antonius's optional debt-credit note while Greg is at breakfast.
+- Exact offered terms: Vale office; ground floor; one hour; seated; materials at table; cart covered; compare returned-goods tags against warehouse receipt list; mark MATCH / MISMATCH / UNREADABLE only; do not assign cause; credit one copper; reply yes or no.
+- Greg accepts with `YES. ONE HOUR. IF MATERIALS ARE READY AS STATED.` No extra condition is negotiated.
+- Vale-covered hire cart transport functions normally and keeps the one-hour clerical task physically bounded.
+- Task materials: nine flat returned-goods tags and a receipt list. Greg is not given the goods themselves and is not asked to inspect condition, maker, quantity, provenance, or cause.
+- Greg marks five MATCH, two MISMATCH, and two UNREADABLE on first pass.
+- Clear mismatch examples: receipt `LAMP HOODS` versus tag `LAMP HOOKS`; receipt number 463 versus tag 436, both `TWINE RINGS`.
+- Unreadable examples: one smeared final digit; one broken-corner tag whose final 8 cannot be established without using the receipt to reconstruct it.
+- One tag reads BROWN BINDING over a crossed-out RED BINDING line and matches the current receipt wording.
+- During Antonius's check, he turns that tag over and finds faint `R TO B` on the back. Greg had not turned the tags because Antonius's instruction did not explicitly say to inspect both sides.
+- Antonius explicitly owns the ambiguity: `It sounds like my instruction was incomplete.` He does not retroactively fault Greg.
+- `R TO B` meaning remains unknown. Antonius records `BACK NOTE: R TO B. MEANING NOT ESTABLISHED.` without changing the MATCH result, because the task is current readable number/item-family comparison rather than full return-history reconstruction.
+- Greg then checks all nine backs only for additional writing. No comparison category changes.
+- Antonius ends the task when the work is complete rather than paying for decorative remaining time.
+- Greg receives a signed receipt for exactly **one copper debt credit**. The receipt does not state the remaining debt balance. Greg is allowed to inspect the account ledger but chooses not to do so that day. Exact debt balance remains unestablished.
+- Greg's private purse remains **one copper + one bit** upstairs. Ch308 does not produce cash income.
+- Antonius asks whether Greg wants suitable cash work offered if something appears. Greg says yes, conditional on task and rate. Antonius establishes only that any cash task would be separate from debt credit, optional, and sent with terms. No standing obligation, weekly cadence, first refusal, exclusivity, actual future task, rate, or timing is established.
+- No Bren discussion, suspicious visitor, pressure clue, threat escalation, holdfast use, magical-item appraisal, Hessa contact, Greg mana, theatre contact, ecology encounter, Lyssa-business advancement, injury, or new standing obligation.
+
 ## Magic continuity
 - Current totals remain **36 supervised minimal draws / 32 supervised deliberate shaping attempts / 75 supervised external-effect attempts**.
 - Near aggregate: **3 clean / 7**.
@@ -132,7 +156,7 @@
 - Attempt 73 near/still off: no observed response.
 - Attempt 74 near/still on: clean small displacement away under reduced-draft observation conditions.
 - Attempt 75 near/still on: no observed response.
-- Ch305-Ch307 contain no Greg draw, shaping, external attempt, or independent magic.
+- Ch305-Ch308 contain no Greg draw, shaping, external attempt, or independent magic.
 - Ch306 fixed holdfast and Ch307 household heat-stone use are item magic and do not count as Greg mana use.
 - Outside-session restrictions remain unchanged.
 - Hessa next experiment/appointment/position/object/condition remains unselected.
@@ -145,7 +169,7 @@
 - Ch302 lampwings remain a separate seasonal magical-ecology event.
 - Ch305 is the first recent encounter where Greg's old dangerous-world fieldcraft is the central solution rather than bounded observation.
 - Mirrorhorns are not established as common in central Carrow. Cala and the gray-braided woman only know of sightings nearer the north road / old lime fields.
-- Ch306-Ch307 contain no ecology follow-up. Do not turn magical ecology into a creature-of-the-week progression.
+- Ch306-Ch308 contain no ecology follow-up. Do not turn magical ecology into a creature-of-the-week progression.
 
 ## Other live continuity
 - Ch303 North Steps/dry bench/Noll stands complete.
@@ -166,9 +190,10 @@
 - Ch287 carrying light stands.
 - Ch286 dry seal remains ordinary resolved maintenance unless independently reactivated.
 - Ch281 return hardware remains unactivated/unvalued. Rell/Maren/Jori appraisal route unresolved.
-- Vale debt active/unresolved; exact balance unstated.
+- Vale debt remains active/unresolved. Ch308 applies one copper credit; exact remaining balance remains unstated.
+- Antonius may offer suitable cash work in the future only if an actual task appears; no guaranteed offer exists.
 - Boundary clasp unowned/status unknown.
-- Older Bren/pressure evidence ceiling unchanged. Ch307 adds no Bren/Vale/pressure evidence.
+- Older Bren/pressure evidence ceiling unchanged. Ch308 adds no Bren/Vale-threat link or pressure evidence.
 
 ## Protected uncertainties / do not auto-resolve
 - Existing weak needle-case, Rinna parcel, Lyssa older materials/packets/bundles, Ch246 crate, Pell return, Vale/Bren, collar-facing, six wraps, Ch281 flat package, Ch285 narrow wrapped packet remain protected.
@@ -182,42 +207,43 @@
 - Greg's field rule about copies vanishing before a charge remains high-confidence repeated first-life practical knowledge behaviorally confirmed in Ch305. Do not artificially weaken it without contrary evidence.
 - Ch306 fixed holdfast uncertainties remain bounded: formal product name, exact maker identity beyond observed mark, exact age/provenance, current safe load, surface-specific limits, exact duration, heat/cold/material response, mechanism, cooldown, remaining service life/activations, stone behavior, whether later `forty holds` are technically identical, resale value, repairability/recharge, and adoption chronology.
 - The seller's single plank demonstration establishes only that this unit set, resisted her hard body-weight pull without observed slip, produced three warning blinks, and self-released once.
-- Ch307 Cala/card uncertainties: older woman's name/relationship, card group members, location, game, stakes, frequency, whether Cala regularly attends, and meaning of the carried bowl/green shawl remain unestablished. Do not make the social evening an automatic follow-up arc.
-- Ch307 household-bowl uncertainties: the unnamed girl's identity, who `Us` means, ownership/history of the bowl, and whether pickled-bean exchange is routine remain unestablished.
-- Ch307 heat-stone uncertainties: maker, age, exact mechanism, charge/recharge, maintenance history, technical heat distribution, and whether the brighter amber line indicates ordinary age or any maintenance need remain unestablished. Nothing in Ch307 creates a repair case.
+- Ch307 Cala/card uncertainties remain bounded: older woman's name/relationship, card group members, location, game, stakes, frequency, whether Cala regularly attends, and meaning of the carried bowl/green shawl.
+- Ch307 household-bowl and heat-stone uncertainties remain bounded. Nothing creates a repair case or neighbor-network obligation.
 - One decent dinner does not establish Greg as household cook, regular Tavi minder, or new domestic-role progression.
+- Ch308 `R TO B` back-note meaning, return-history cause, goods inspection results, warehouse disposition, and any reason for the two mismatches remain unestablished and do not require follow-up.
+- Ch308 cash-work discussion establishes only permission for Antonius to send explicit terms if a suitable task genuinely exists. Do not promote `may` into a promised next job.
 - Existing shade-fish/water-list, dry-seal, carrying-light, cooling-cup, ward-road, rain-thread, door-closer, stay-bead, bridges, Nemi/hold-bead, high-line, kessa-jumper, Sivi/mask, and other older uncertainties remain bounded.
 
-## Chapter 308 trailhead
+## Chapter 309 trailhead
 Follow the next actual claim from current authority.
 
-Chapter 307 is a complete household evening. Let Cala's card night, Greg's one dinner, Tavi's carrot, the returned bowl, and the red-pot/heat-stone routine become background life rather than immediate new engines.
+Chapter 308 is a complete Vale debt-credit hour. Let the returned-goods tags, `R TO B`, one-copper credit, and cash-work conversation stand without immediate conversion into a Vale mini-arc.
 
-Do **not** automatically make Chapter 308:
-- another cooking chapter or cooking-competence series,
-- Greg's permanent household-cook role,
-- a regular Tavi childcare chapter,
-- Cala card-night follow-up,
-- introduction/mapping of Cala's card group,
-- gambling/stakes drama,
-- an investigation of the returned bowl or pickled-bean exchange,
-- a heat-stone repair/inspection,
-- a red-pot technical chapter,
+Do **not** automatically make Chapter 309:
+- another Vale office task,
+- the cash job Antonius said he may offer,
+- a debt-balance reveal or repayment-plan chapter,
+- an investigation of `R TO B`, East Store, warehouse dispersal, lamp hoods/hooks, twine rings, or the returned goods,
+- a Bren/Vale connection or threat escalation,
+- a chapter whose main purpose is to restore Greg's two spent copper,
 - a holdfast activation/test/appraisal/resale/payoff,
 - a salvage-seller return or second magical-item purchase,
-- a second mirrorhorn/handler/fieldcraft-advice chapter,
+- a mirrorhorn/handler/fieldcraft-advice follow-up,
 - an automatic Hessa/still-bead/range repeat,
-- or a conveniently tailored paid job whose main function is restoring Greg's two spent copper.
+- another cooking/Tavi/card-night/returned-bowl/heat-stone chapter,
+- or an automatic theatre return merely because theatre has been quiet.
 
-Greg's private liquid money remains **one copper + one bit**. No conversion rate is established. Reduced liquidity should continue to matter naturally without becoming a morality meter.
+Greg's private liquid money remains **one copper + one bit**. Vale debt has received exactly **one copper credit in Ch308**, but the exact remaining debt balance is still unstated. No copper/bit conversion exists.
+
+Antonius may send explicit terms for suitable cash work only if an actual task independently exists. Greg may accept or refuse. There is no standing obligation, weekly schedule, first refusal, exclusivity, promised rate, or promised timing.
 
 Magic remains **36 / 32 / 75**; near **3/7 clean**; middle **1/6 clean + one possible edge lift**; far **0/1**. Restrictions unchanged. Hessa has selected no next protocol.
 
 Three clean household sheets remain. Lyssa's brown-cuff work remains hers and unresolved. The fixed holdfast stays safely stored upstairs. Household is stable. Greg is uninjured; crutches, right shoe, bag, front door, rain shelf, and ordinary kitchen equipment are functioning for current use.
 
-Greg has no guaranteed client, Miri return, Pellin visit, Nara follow-up, Hessa appointment, second far test, still-bead repeat, theatre paper, performance role, North Steps return, Noll meeting, mirrorhorn/handler follow-up, Renn contact, holdfast use/appraisal/resale, salvage-seller return, magical-item dealer route, Cala-card invitation, regular Tavi-minding duty, returned-bowl follow-up, Vara/Ren/kite follow-up, Mera/Olan work, Nemi/music follow-up, bridges invitation, high-line/Tess follow-up, Pella/Rusk follow-up, ecology assignment, ward-water contact, shade-fish task, bead replacement, bag follow-up, rain-thread need, Sera/lantern-house visit, Maro follow-up, Maren/Rell/Jori appraisal, clasp hold, Hollen shift, Vale meeting, Guild consultation, Savin appointment, civic hearing, Green Coat encounter, or Lyssa-network obligation.
+Greg has no guaranteed client, Miri return, Pellin visit, Nara follow-up, Hessa appointment, second far test, still-bead repeat, theatre paper, performance role, North Steps return, Noll meeting, mirrorhorn/handler follow-up, Renn contact, holdfast use/appraisal/resale, salvage-seller return, magical-item dealer route, Vale cash task, second immediate Vale debt task, Cala-card invitation, regular Tavi-minding duty, returned-bowl follow-up, Vara/Ren/kite follow-up, Mera/Olan work, Nemi/music follow-up, bridges invitation, high-line/Tess follow-up, Pella/Rusk follow-up, ecology assignment, ward-water contact, shade-fish task, bead replacement, bag follow-up, rain-thread need, Sera/lantern-house visit, Maro follow-up, Maren/Rell/Jori appraisal, clasp hold, Hollen shift, Guild consultation, Savin appointment, civic hearing, Green Coat encounter, or Lyssa-network obligation.
 
-Let Chapter 308 follow the next actual claim from household, paid work only if genuinely activated, city/social life, theatre only if independently reactivated, pressure only if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft only through a genuinely fresh lived claim, Greg's own magic only if genuinely activated, capital only with actual demand/value, or another ordinary fantasy-world demand.
+Let Chapter 309 follow the next actual claim from household, paid work only if genuinely activated, city/social life, theatre only if independently reactivated, pressure only if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft only through a genuinely fresh lived claim, Greg's own magic only if genuinely activated, capital only with actual demand/value, or another ordinary fantasy-world demand.
 
 Do not rotate available engines by checklist.
 
