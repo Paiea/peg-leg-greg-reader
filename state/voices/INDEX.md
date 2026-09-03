@@ -154,6 +154,7 @@ Recurring work/household/social pages:
 - `OLAN.md`
 - `SERA.md`
 - `SEVREN.md`
+- `HOLL.md`
 
 `SERA.md` and `SERA_DAIN.md` are deliberately separate authorities unless exact manuscript continuity later proves otherwise.
 
