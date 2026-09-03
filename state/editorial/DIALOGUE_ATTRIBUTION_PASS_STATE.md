@@ -54,7 +54,7 @@ Use exact manuscript prose, not summaries.
 
 Preferred source ranges:
 - Chapters 1-82: canonical authority is `state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx`. Branch reader rendering may locate/read scene prose, but canonical Book I name map outranks stale reader names. Material mapping: **Pell / Pellian -> Arlo**.
-- Chapters 83-180: authoritative Book II exact prose / export.
+- Chapters 83-180: authoritative Book II exact prose / export. The branch reader rendering is an accessible exact-text surface for review, but the canonical Book II manuscript outranks it if any mismatch surfaces.
 - Chapters 181-219: exact recovered/current manuscript authority.
 - Chapters 220-301: current running manuscript and exact checkpoint authority, using newest exact prose available.
 
@@ -72,20 +72,21 @@ Use exact replacement patches when a chapter needs only attribution/voice surger
 
 This pass remains editorial WIP until integrated into manuscript/reader authority. The user has explicitly approved shipping accepted dialogue/attribution improvements to the illustrated reader as they are integrated; do not hold improved reader prose for completion of all 301 chapters. Structural compression remains separately parked.
 
-Current live-integration lane: `integration/dialogue-attribution-live-001-080` / PR #45 is responsible for applying the accepted Book I patches through Chapter 80 to the illustrated reader and promoting the resulting prose into canonical Book I authority without merging structural-compression experiments. Chapters 81-82 are now reviewed on this branch and should join the next Book I live-integration increment after the already-scoped 1-80 work.
+Current live-integration lane: `integration/dialogue-attribution-live-001-080` / PR #45 is responsible for applying the accepted Book I patches through Chapter 80 to the illustrated reader and promoting the resulting prose into canonical Book I authority without merging structural-compression experiments. Chapters 81-86 are now reviewed on this branch and should join later live-integration increments after the already-scoped 1-80 work.
 
 Do not claim a chapter is covered until its exact source was reviewed and the batch result was durably written and fetched back from GitHub.
 
 ## Coverage ledger
 
 - Chapters 1-301: **NOT YET COMPLETE**
-- Verified reviewed range: **Chapters 1-82**
+- Verified reviewed range: **Chapters 1-86**
 - Book I dialogue + attribution review: **COMPLETE THROUGH CHAPTER 82 - THE RECONCILER**
-- No-change chapters in reviewed range: **1, 4, 5, 6, 7, 11, 12, 13, 14, 18, 19, 28, 38**
+- Book II dialogue + attribution review: **ACTIVE FROM CHAPTER 83**
+- No-change chapters in reviewed range: **1, 4, 5, 6, 7, 11, 12, 13, 14, 18, 19, 28, 38, 85**
 - Chapters with hard attribution fixes recorded: **2, 3**
-- Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82**
-- Latest durable batch: `state/editorial/dialogue-pass/BATCH_081_082.md`
-- Current source edge: **Chapter 83**
+- Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 86**
+- Latest durable batch: `state/editorial/dialogue-pass/BATCH_083_086.md`
+- Current source edge: **Chapter 87**
 
 All earlier durable batch files remain under `state/editorial/dialogue-pass/` and are authoritative for this editorial pass only.
 
@@ -116,10 +117,10 @@ A chapter counts as reviewed only after exact source prose and necessary neighbo
 - Ossin: manual/body knowledge; knots, footing, load, and what tomorrow's hands will feel like.
 - Dorrin: stone-yard specifications and commercial boundaries; grade, tolerance, size, purpose, and what a customer actually paid to know.
 - Mevi: manual workflow and load handling; one demonstration, immediate correction, then back to work.
-- Holl: commercial ward-material sorting and throughput; cares which pile a worker should choose, asymmetric commercial error, and tools usable without him more than theoretical exactness.
+- Holl: commercial ward-material sorting and throughput; cares which pile a worker should choose, what expert recheck time costs, whether a worker can make the decision without him, and whether different customers actually need the same tolerance. Durable page: `state/voices/HOLL.md`.
 - Pessa: working-road and embodied training judgment; reads surfaces, drainage, distance, body commitment, practical objective, and what the drill is actually meant to teach. Durable page: `state/voices/PESSA.md`.
 - Tam: customer-specific shoe work and local trade routing; terse use-first answers attached to actual object/person, with enough social embeddedness to route adjacent practical problems.
-- Sevren: courier route knowledge plus low-pressure friendship; arrival, detours, fatigue, informal messages, social logistics, and useful identifiers. He can offer a cart or bread without making Greg a project.
+- Sevren: courier route knowledge plus low-pressure friendship; arrival, detours, fatigue, informal messages, social logistics, and useful identifiers. Chapter 84 sharpens his professional boundary: he can own route/custody/recipient/receipt without owning a sealed packet's contents. Durable page: `state/voices/SEVREN.md`.
 - Lio: ordinary multi-job competence; has done practical things before without turning them into a professional identity.
 - Tavin: coordination across ownership boundaries; systems language is institutional and job-specific, not Greg-style abstraction.
 - Leth: roadwright uncertainty; speaks from the physical state of the repair and does not pretend ten minutes cannot become twenty.
@@ -142,6 +143,7 @@ Shared dryness is allowed. Do not force distinct catchphrases where domain and c
 - Stable two-person relationship scenes can remain light once rhythm is established; re-tag after interiority, movement, third-speaker entry, or a subject pivot.
 - Chapters 74-80 strengthen the larger voice rule: **professional differentiation is often more valuable than bespoke diction**. Concise competent people can share Carrow language while remaining distinct because they decide different kinds of things. Lerris fits structure, Edrin controls evidence, Sera Dain controls clinical progression, Hessa controls repeatable safety procedure, Holl controls commercial sorting decisions, Merra controls record support, Pessa controls embodied field/training judgment, Rima controls customer fit, and Tam controls use-first craft judgment.
 - Chapters 81-82 sharpen the attribution rhythm for long technical two-person scenes: let established alternating dialogue breathe, then re-tag at phase changes, after substantial interior/expository beats, and when a reviewer or authority re-enters. In domestic/social rooms with three or more active people, names at speaker handoffs are worth more than additional voice ornament.
+- Chapters 83-86 reinforce the same rule from the opposite direction: intimate Greg/Lyssa and road Greg/Sevren exchanges need very little tagging, but a single third participant should trigger explicit ownership of the shared decision. Game/training scenes especially benefit from tagging disputed calls rather than making compact dry voices carry speaker identity alone.
 
 ## Continuity/name cautions surfaced by dialogue pass
 
@@ -167,8 +169,9 @@ Do not silently resolve these name/identity questions inside the attribution pas
 - `state/voices/PESSA.md`
 - `state/voices/SERA_DAIN.md`
 - `state/voices/NERIN.md`
+- `state/voices/HOLL.md`
 
-Existing `state/voices/SEVREN.md` remains the durable Sevren guide. `state/voices/INDEX.md` now explicitly treats voice pages as living authority that should be updated later when substantial new exact prose sharpens a recurring character.
+Existing `state/voices/SEVREN.md` remains the durable Sevren guide and was sharpened at Chapter 84 around courier responsibility boundaries. `state/voices/INDEX.md` explicitly treats voice pages as living authority that should be updated later when substantial new exact prose sharpens a recurring character.
 
 These are specialist editorial aids, not canon substitutes.
 
