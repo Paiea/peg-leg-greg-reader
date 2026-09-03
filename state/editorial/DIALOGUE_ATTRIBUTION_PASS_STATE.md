@@ -86,10 +86,10 @@ Do not claim a chapter is covered until its exact source was reviewed and the ba
 ## Coverage ledger
 
 - Chapters 1-301: **NOT YET COMPLETE**
-- Verified reviewed range: **Chapters 1-41**
+- Verified reviewed range: **Chapters 1-47**
 - No-change chapters in reviewed range: **1, 4, 5, 6, 7, 11, 12, 13, 14, 18, 19, 28, 38**
 - Chapters with hard attribution fixes recorded: **2, 3**
-- Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 39, 40, 41**
+- Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 39, 40, 41, 42, 43, 44, 45, 46, 47**
 - Durable batches:
   - `state/editorial/dialogue-pass/BATCH_001_004.md`
   - `state/editorial/dialogue-pass/BATCH_005_010.md`
@@ -101,7 +101,8 @@ Do not claim a chapter is covered until its exact source was reviewed and the ba
   - `state/editorial/dialogue-pass/BATCH_027_030.md`
   - `state/editorial/dialogue-pass/BATCH_031_035.md`
   - `state/editorial/dialogue-pass/BATCH_036_041.md`
-- Current source edge: **Chapter 42**
+  - `state/editorial/dialogue-pass/BATCH_042_047.md`
+- Current source edge: **Chapter 48**
 
 ## Completion definition for one chapter
 
@@ -137,6 +138,11 @@ Early Book I already contains useful natural separation:
 - Etta: worksite objective and temporary repair; the mill needs to move now, perfect repair can belong to the mason later.
 - Ossin: manual/body knowledge; knots, footing, load, and what tomorrow's hands will feel like.
 - Dorrin: stone-yard specifications and commercial boundaries; grade, tolerance, size, purpose, and what a customer has actually paid to know.
+- Mevi: manual workflow and load handling; one demonstration, immediate correction, then back to work.
+- Holl: commercial ward-material tolerance; he can explain his product deeply but stops unpaid process redesign at the edge of his own morning.
+- Pessa: working-road judgment; road surface, bridge condition, carts, and what becomes a route problem.
+- Tam: customer-specific shoe work; terse use-first answers attached to the actual object and person in front of him.
+- Sevren: courier route knowledge; arrival, detours, fatigue, informal messages, and identifiers useful enough to deliver. Practical, traveled, anecdotal, incomplete.
 
 Shared dryness is allowed. Do not force distinct catchphrases where domain and cadence already separate the voices.
 
@@ -146,6 +152,7 @@ Shared dryness is allowed. Do not force distinct catchphrases where domain and c
 - Chapter 31 introduces a stoneworker named **Rinna**. Verify against later theatre Rinna before applying one voice authority across both appearances.
 - Chapter 35 introduces **Nessa** in a social/food-selling context. Verify whether this is the same person as later theatre Nessa before back-propagating occupational voice traits.
 - Chapter 39 mentions Berren's aunt **Vessa** while workshop Vessa is already established. Do not connect or separate them merely from the shared name without exact continuity evidence.
+- Chapter 42 introduces **Rella**, explicitly noted in source as an existing name. Do not resolve identity by name alone inside this pass.
 
 Do not silently resolve these name/identity questions inside the attribution pass.
 
@@ -156,6 +163,8 @@ Do not silently resolve these name/identity questions inside the attribution pas
 - `state/voices/RUSK.md`
 - `state/voices/JORREN.md`
 - `state/voices/ALDEN.md`
+
+Existing `state/voices/SEVREN.md` is strongly confirmed by Chapter 47 and should remain the durable guide rather than creating a duplicate.
 
 These are specialist editorial aids, not canon substitutes.
 
