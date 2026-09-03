@@ -5,13 +5,14 @@ from pathlib import Path
 
 try:
     from docx import Document
-    from scripts.promote_book1_polish import promote_chapters
+    from scripts.promote_book1_polish import _number_from_heading, promote_chapters
 except ModuleNotFoundError:
     Document = None
+    _number_from_heading = None
     promote_chapters = None
 
 
-@unittest.skipIf(Document is None, "python-docx is only required for Book 1 source promotion")
+@unittest.skipIf(Document is None, "python-docx is only required for manuscript source promotion")
 class PromoteBook1PolishTests(unittest.TestCase):
     def make_docx(self, path: Path) -> None:
         doc = Document()
@@ -56,6 +57,42 @@ class PromoteBook1PolishTests(unittest.TestCase):
                     "Keep this too.",
                 ],
             )
+
+    def test_promotes_final_chapter_without_following_heading(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            docx = root / "book1.docx"
+            chapters = root / "chapters"
+            chapters.mkdir()
+            self.make_docx(docx)
+            (chapters / "003.html").write_text(
+                '<article class="prose"><p>New final one.</p><p>New final two.</p></article>',
+                encoding="utf-8",
+            )
+
+            changed = promote_chapters(docx, chapters, [3])
+
+            self.assertTrue(changed)
+            reopened = Document(docx)
+            text = [p.text for p in reopened.paragraphs]
+            self.assertEqual(
+                text,
+                [
+                    "PEG-LEG GREG",
+                    "CHAPTER ONE\nTHE BOY",
+                    "Old one.",
+                    "Old two.",
+                    "CHAPTER TWO\nTHE BORROWER",
+                    "Keep this chapter exactly.",
+                    "CHAPTER THREE\nTHE INVESTOR",
+                    "New final one.",
+                    "New final two.",
+                ],
+            )
+
+    def test_recognizes_ninety_series_heading(self):
+        self.assertEqual(_number_from_heading("CHAPTER NINETY\nTHE EXAMPLE"), 90)
+        self.assertEqual(_number_from_heading("CHAPTER NINETY-NINE\nTHE EXAMPLE"), 99)
 
     def test_rejects_em_dash_in_promoted_prose(self):
         with tempfile.TemporaryDirectory() as tmp:

@@ -78,5 +78,15 @@
     "reason": "Current main carries Greg's full landing calculation in the middle paragraph. Preserve it while adding the accepted article and explicit Greg attribution.",
     "current": ["\"Sit?\" Jorren asked.", "Could sit on landing floor. Would then need stand. Two steps. I wanted room.", "\"Thirty seconds.\""],
     "replacement": ["\"Sit?\" Jorren asked.", "Could sit on the landing floor. Would then need stand. Two steps. I wanted room.", "\"Thirty seconds,\" I said."]
+  },
+  "81|Fix 81.7 - Lyssa and keeper in the same kitchen scene": {
+    "reason": "Current main keeps the kitchen kiss and keeper setup inside a longer narration paragraph. Preserve the full existing kiss beat while explicitly returning the final 'No' to the keeper after Lyssa exits.",
+    "current": ["\"Brown.\"", "\"Fuck.\"", "She laughed.", "\"Working?\"", "\"No.\"", "\"Good.\"", "Everyone. She handed package to keeper.", "\"Green door tomorrow?\"", "...", "She leaned down and kissed me once. Kitchen. Keeper three feet away. I froze. Not because phantom foot. Because keeper. Lyssa left. Keeper continued chopping onion.", "\"No.\""],
+    "replacement": ["\"Brown,\" Lyssa said.", "\"Fuck.\"", "She laughed.", "\"Working?\" she asked.", "\"No.\"", "\"Good.\"", "Everyone. She handed package to keeper.", "\"Green door tomorrow?\" Lyssa asked.", "...", "She leaned down and kissed me once. Kitchen. Keeper three feet away. I froze. Not because phantom foot. Because keeper. Lyssa left. The keeper continued chopping onion.", "\"No,\" she said."]
+  },
+  "82|Fix 82.7 - canonical Arlo name at the Book I close": {
+    "reason": "Current main adds the final 'Excellent.' narration beyond the editorial snippet. Preserve the full paragraph unchanged here and let the canonical Book I name pass perform Pell to Arlo without dropping the live beat.",
+    "current": ["Guild sent no work. Edrin sent nothing. Holl sent nothing. Pell and Vessa sent nothing. Alden sent no boy. Excellent."],
+    "replacement": ["Guild sent no work. Edrin sent nothing. Holl sent nothing. Pell and Vessa sent nothing. Alden sent no boy. Excellent."]
   }
 }
