@@ -86,14 +86,15 @@ Do not claim a chapter is covered until its exact source was reviewed and the ba
 ## Coverage ledger
 
 - Chapters 1-301: **NOT YET COMPLETE**
-- Verified reviewed range: **Chapters 1-10**
-- No-change chapters in reviewed range: **1, 4, 5, 6, 7**
+- Verified reviewed range: **Chapters 1-13**
+- No-change chapters in reviewed range: **1, 4, 5, 6, 7, 11, 12, 13**
 - Chapters with hard attribution fixes recorded: **2, 3**
 - Chapters with clarity/attribution patches recorded: **8, 9, 10**
 - Durable batches:
   - `state/editorial/dialogue-pass/BATCH_001_004.md`
   - `state/editorial/dialogue-pass/BATCH_005_010.md`
-- Current source edge: **Chapter 11**
+  - `state/editorial/dialogue-pass/BATCH_011_013.md`
+- Current source edge: **Chapter 14**
 
 ## Completion definition for one chapter
 
@@ -116,6 +117,14 @@ Early Book I already contains useful natural separation:
 - Hessa: controlled procedural instruction tied to body, safety, and repeatability.
 
 Shared dryness is allowed. Do not force distinct catchphrases where domain and cadence already separate the voices.
+
+## Durable voice pages added during this pass
+
+- `state/voices/ANTONIUS.md`
+- `state/voices/ARLO.md`
+- `state/voices/RUSK.md`
+
+These are specialist editorial aids, not canon substitutes.
 
 ## Restart prompt
 
