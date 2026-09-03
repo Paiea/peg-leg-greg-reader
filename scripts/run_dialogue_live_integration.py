@@ -3,30 +3,46 @@
 
 The durable editorial batches remain the default authority. This wrapper applies
 small, reviewed overrides only where current `main` contains preserved prose
-beats that an editorial batch abbreviated. Overrides never enable fuzzy
-matching: they replace one patch's exact current/replacement tuples and then the
-strict base integrator still requires an exact unique match.
+beats that an editorial batch abbreviated. Overrides never enable unconstrained
+fuzzy matching.
 
 Reader typography is normalized only for matching. Book I contains both straight
 and curly quotation/apostrophe styles, while the editorial patch notes use
 straight quotes. Replacement prose inherits the typography of the paragraph it
 replaces.
 
+When paragraph-exact matching fails, a guarded fallback may align the same
+ordered dialogue turns through nearby paragraph-shape drift. The fallback is
+allowed only when current and replacement lines preserve the spoken payload and
+therefore change attribution/punctuation rather than dialogue content. Existing
+surrounding narration stays in place.
+
 During validation, unresolved patches are collected across all chapters and
 reported together. Successful patches may modify the temporary CI checkout,
-but the run still fails before source promotion until every mismatch has an
-explicit reviewed resolution.
+but the run still fails before source promotion until every mismatch has a
+reviewed deterministic resolution.
 """
 
 from __future__ import annotations
 
 import json
+import re
+from dataclasses import dataclass
 from pathlib import Path
 
 import apply_dialogue_attribution_patches as base
 
 
 OVERRIDES_PATH = Path("state/editorial/dialogue-live-overrides.json")
+QUOTE_RE = re.compile(r'"([^"]*)"')
+
+
+@dataclass(frozen=True)
+class Candidate:
+    paragraph_index: int
+    start: int
+    end: int
+    penalty: int
 
 
 def _load_overrides() -> dict[str, dict[str, object]]:
@@ -90,6 +106,155 @@ def _style_like(text: str, sample: str) -> str:
     return value
 
 
+def _quote_payloads(text: str) -> tuple[str, ...]:
+    normalized = _match_text(text)
+    payloads: list[str] = []
+    for value in QUOTE_RE.findall(normalized):
+        # Attribution changes commonly convert a sentence-final period to a comma
+        # inside the quotation mark. Treat that as the same spoken payload.
+        payloads.append(re.sub(r"[.,]$", "", value.strip()))
+    return tuple(payloads)
+
+
+def _safe_attribution_pair(current: str, replacement: str) -> bool:
+    if _match_text(current) == _match_text(replacement):
+        return True
+    current_quotes = _quote_payloads(current)
+    replacement_quotes = _quote_payloads(replacement)
+    return bool(current_quotes) and current_quotes == replacement_quotes
+
+
+def _line_candidates(paragraphs: list[base.Paragraph], wanted: str) -> list[Candidate]:
+    wanted_norm = _match_text(wanted)
+    if not wanted_norm:
+        return []
+    candidates: list[Candidate] = []
+    for index, paragraph in enumerate(paragraphs):
+        live_norm = _match_text(paragraph.text)
+        start = 0
+        while True:
+            found = live_norm.find(wanted_norm, start)
+            if found < 0:
+                break
+            exact = live_norm == wanted_norm
+            extra = len(live_norm) - len(wanted_norm)
+            candidates.append(
+                Candidate(
+                    paragraph_index=index,
+                    start=found,
+                    end=found + len(wanted_norm),
+                    penalty=(0 if exact else 100 + max(extra, 0)),
+                )
+            )
+            start = found + max(1, len(wanted_norm))
+    return candidates
+
+
+def _alignment_score(alignment: tuple[Candidate, ...]) -> int:
+    first = alignment[0].paragraph_index
+    last = alignment[-1].paragraph_index
+    span = last - first
+    repeated_paragraphs = sum(
+        1
+        for left, right in zip(alignment, alignment[1:])
+        if left.paragraph_index == right.paragraph_index
+    )
+    return span * 1000 + repeated_paragraphs * 25 + sum(item.penalty for item in alignment)
+
+
+def _unique_alignment(paragraphs: list[base.Paragraph], wanted: tuple[str, ...]) -> tuple[Candidate, ...] | None:
+    candidate_lists = [_line_candidates(paragraphs, line) for line in wanted]
+    if not candidate_lists or any(not values for values in candidate_lists):
+        return None
+
+    max_span = len(wanted) + 10
+    alignments: list[tuple[Candidate, ...]] = []
+    limit = 2000
+
+    def walk(position: int, chosen: list[Candidate]) -> None:
+        if len(alignments) >= limit:
+            return
+        if position == len(candidate_lists):
+            alignments.append(tuple(chosen))
+            return
+
+        for candidate in candidate_lists[position]:
+            if chosen:
+                previous = chosen[-1]
+                if candidate.paragraph_index < previous.paragraph_index:
+                    continue
+                if (
+                    candidate.paragraph_index == previous.paragraph_index
+                    and candidate.start < previous.end
+                ):
+                    continue
+                if candidate.paragraph_index - chosen[0].paragraph_index > max_span:
+                    continue
+            chosen.append(candidate)
+            walk(position + 1, chosen)
+            chosen.pop()
+
+    walk(0, [])
+    if not alignments:
+        return None
+
+    scored = sorted((_alignment_score(item), item) for item in alignments)
+    best_score, best = scored[0]
+    if len(scored) > 1 and scored[1][0] == best_score and scored[1][1] != best:
+        return None
+    return best
+
+
+def _fallback_replace_attribution(article_body: str, patch: base.Patch) -> tuple[str, str] | None:
+    if len(patch.current) != len(patch.replacement):
+        return None
+    if not all(
+        _safe_attribution_pair(current, replacement)
+        for current, replacement in zip(patch.current, patch.replacement)
+    ):
+        return None
+
+    paragraphs = base._paragraphs(article_body)
+    alignment = _unique_alignment(paragraphs, patch.current)
+    if alignment is None:
+        return None
+
+    by_paragraph: dict[int, list[tuple[int, int, str, str]]] = {}
+    for candidate, current, replacement in zip(alignment, patch.current, patch.replacement):
+        if _match_text(current) == _match_text(replacement):
+            continue
+        by_paragraph.setdefault(candidate.paragraph_index, []).append(
+            (candidate.start, candidate.end, current, replacement)
+        )
+
+    if not by_paragraph:
+        return article_body, "already"
+
+    edits: list[tuple[int, int, str]] = []
+    for paragraph_index, replacements in by_paragraph.items():
+        node = paragraphs[paragraph_index]
+        if base.TAG_RE.search(node.inner):
+            return None
+        text = node.text
+        for start, end, current, replacement in sorted(replacements, reverse=True):
+            # Matching normalization changes quote glyphs one-for-one, so these
+            # offsets remain valid in the live paragraph text.
+            live_slice = _match_text(text[start:end])
+            if live_slice != _match_text(current):
+                return None
+            styled = _style_like(replacement, text)
+            text = text[:start] + styled + text[end:]
+        raw = article_body[node.start : node.end]
+        open_end = raw.find(">") + 1
+        close_start = raw.lower().rfind("</p>")
+        new_raw = raw[:open_end] + base._html_for_text(text) + raw[close_start:]
+        edits.append((node.start, node.end, new_raw))
+
+    for start, end, new_raw in reversed(edits):
+        article_body = article_body[:start] + new_raw + article_body[end:]
+    return article_body, "applied"
+
+
 def _replace_exact_segment(article_body: str, patch: base.Patch) -> tuple[str, str]:
     paragraphs = base._paragraphs(article_body)
 
@@ -107,6 +272,9 @@ def _replace_exact_segment(article_body: str, patch: base.Patch) -> tuple[str, s
     if not hits:
         hits = _find_sequence(paragraphs, patch.current, canonical=True)
     if len(hits) != 1:
+        fallback = _fallback_replace_attribution(article_body, patch)
+        if fallback is not None:
+            return fallback
         raise RuntimeError(
             f"{patch.source_file} {patch.label}: expected current text exactly once in chapter {patch.chapter}, found {len(hits)}"
         )
