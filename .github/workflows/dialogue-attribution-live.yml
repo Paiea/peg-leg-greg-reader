@@ -1,11 +1,12 @@
 name: Publish dialogue attribution pass
 
-# Integration v3: strict patches plus explicit reviewed current-main overrides.
+# Integration v4: strict patches, safe dialogue-turn fallback, and reviewed overrides.
 on:
   pull_request:
     paths:
       - 'scripts/apply_dialogue_attribution_patches.py'
       - 'scripts/run_dialogue_live_integration.py'
+      - 'scripts/dialogue_live_entrypoint.py'
       - 'state/editorial/dialogue-live-overrides.json'
       - '.github/workflows/dialogue-attribution-live.yml'
   push:
@@ -13,6 +14,7 @@ on:
     paths:
       - 'scripts/apply_dialogue_attribution_patches.py'
       - 'scripts/run_dialogue_live_integration.py'
+      - 'scripts/dialogue_live_entrypoint.py'
       - 'state/editorial/dialogue-live-overrides.json'
       - '.github/workflows/dialogue-attribution-live.yml'
   workflow_dispatch:
@@ -35,7 +37,7 @@ jobs:
       - name: Install Book 1 source-sync dependency
         run: pip install python-docx
       - name: Apply approved Chapter 1-80 reader changes
-        run: python scripts/run_dialogue_live_integration.py --patch-ref origin/editor/voice-compression-pass --min-chapter 6 --max-chapter 80 --canonicalize-from 1
+        run: python scripts/dialogue_live_entrypoint.py --patch-ref origin/editor/voice-compression-pass --min-chapter 6 --max-chapter 80 --canonicalize-from 1
       - name: Promote resulting reader prose into canonical Book 1
         run: python scripts/promote_book1_polish.py '1-80'
       - name: Validate integration boundary
