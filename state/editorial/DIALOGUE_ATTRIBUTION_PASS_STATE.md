@@ -67,17 +67,17 @@ Store review results under `state/editorial/dialogue-pass/`.
 
 Use exact replacement patches when a chapter needs only attribution/voice surgery. A reviewed chapter that genuinely needs no change may be recorded as **REVIEWED - NO CHANGE REQUIRED** rather than duplicated wholesale merely to manufacture an edit.
 
-This pass remains editorial WIP until accepted/integrated into manuscript authority.
+This pass remains editorial WIP until integrated into manuscript/reader authority. The user has explicitly approved shipping accepted dialogue/attribution improvements to the illustrated reader as they are integrated; do not hold improved reader prose for completion of all 301 chapters. Structural compression remains separately parked.
 
 Do not claim a chapter is covered until its exact source was reviewed and the batch result was durably written and fetched back from GitHub.
 
 ## Coverage ledger
 
 - Chapters 1-301: **NOT YET COMPLETE**
-- Verified reviewed range: **Chapters 1-53**
+- Verified reviewed range: **Chapters 1-59**
 - No-change chapters in reviewed range: **1, 4, 5, 6, 7, 11, 12, 13, 14, 18, 19, 28, 38**
 - Chapters with hard attribution fixes recorded: **2, 3**
-- Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53**
+- Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59**
 - Durable batches:
   - `state/editorial/dialogue-pass/BATCH_001_004.md`
   - `state/editorial/dialogue-pass/BATCH_005_010.md`
@@ -91,7 +91,8 @@ Do not claim a chapter is covered until its exact source was reviewed and the ba
   - `state/editorial/dialogue-pass/BATCH_036_041.md`
   - `state/editorial/dialogue-pass/BATCH_042_047.md`
   - `state/editorial/dialogue-pass/BATCH_048_053.md`
-- Current source edge: **Chapter 54**
+  - `state/editorial/dialogue-pass/BATCH_054_059.md`
+- Current source edge: **Chapter 60**
 
 ## Completion definition for one chapter
 
@@ -122,12 +123,14 @@ Early Book I already contains useful natural separation:
 - Dorrin: stone-yard specifications and commercial boundaries; grade, tolerance, size, purpose, and what a customer actually paid to know.
 - Mevi: manual workflow and load handling; one demonstration, immediate correction, then back to work.
 - Holl: commercial ward-material tolerance; can explain product deeply but stops unpaid process redesign at edge of his morning.
-- Pessa: working-road judgment; road surface, bridge condition, carts, and what becomes a route problem.
+- Pessa: working-road judgment and field priority; reads surfaces, drainage, bridges, complaints, and what becomes a route problem. She owns final repair priority when she is field lead rather than converting every observation into theory.
 - Tam: customer-specific shoe work; terse use-first answers attached to actual object and person.
 - Sevren: courier route knowledge; arrival, detours, fatigue, informal messages, and useful identifiers. Practical, traveled, anecdotal, incomplete.
 - Lio: ordinary multi-job competence; has done practical things before without turning them into a professional identity.
 - Tavin: coordination across ownership boundaries; systems language is institutional and job-specific, not Greg-style abstraction.
 - Leth: roadwright uncertainty; speaks from the physical state of the repair and does not pretend ten minutes cannot become twenty.
+- Maret: production-line symptoms and customer use; speaks from shifts, mounts, feed lines, heat, flutter, and whether output actually changed. Her evidence is manufacturing evidence, not Arlo's mechanism ownership.
+- Bram: experienced freight handling; practical geometry from moving real wagons, willing to walk a turn and accept a stop without surrendering expertise.
 
 Shared dryness is allowed. Do not force distinct catchphrases where domain and cadence already separate voices.
 
