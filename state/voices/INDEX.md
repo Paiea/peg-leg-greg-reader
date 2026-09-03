@@ -1,4 +1,4 @@
-# PEG-LEG GREG — CHARACTER VOICE LIBRARY
+# PEG-LEG GREG - CHARACTER VOICE LIBRARY
 
 Durable dialogue/voice authority for recurring characters.
 
@@ -20,9 +20,9 @@ Do **not** force a voice page onto a scene when newer prose has clearly evolved 
 
 Voice pages may contain:
 
-- **CANON LINE** — exact or tightly preserved manuscript dialogue used as evidence.
-- **CANON PATTERN** — repeated manuscript-supported behavior/rhythm summarized without claiming exact wording.
-- **VOICE TEST — NON-CANON** — a constructed line used only to hear the voice. It never establishes plot, fact, relationship, terminology, or world rules.
+- **CANON LINE** - exact or tightly preserved manuscript dialogue used as evidence.
+- **CANON PATTERN** - repeated manuscript-supported behavior/rhythm summarized without claiming exact wording.
+- **VOICE TEST - NON-CANON** - a constructed line used only to hear the voice. It never establishes plot, fact, relationship, terminology, or world rules.
 
 Never treat a VOICE TEST line as something the character actually said.
 
@@ -130,6 +130,11 @@ Highest-frequency / highest-impact pages:
 - `NESSA.md`
 - `HARA.md`
 - `MAREK.md`
+
+Early Book I operational / relationship pages:
+- `ANTONIUS.md`
+- `ARLO.md`
+- `RUSK.md`
 
 Recurring work/household/social pages:
 - `JORI.md`
