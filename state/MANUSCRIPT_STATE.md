@@ -1,10 +1,10 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 306 - **THE BAD TOOL**.
+- Current exact story endpoint: Chapter 307 - **THE RED POT**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249-306 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249-307 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500-4,000 words and clear 2,500 unless explicitly changed.
@@ -21,45 +21,48 @@
 - Magical ecology / fieldcraft remains a strong forward push without creature-of-the-week structure, but not every chapter must service it.
 - Ch304 advances Greg's weak personal magic through cleaner observation rather than greater range or force.
 - Ch305 lets high-confidence first-life fieldcraft work cleanly during a mirrorhorn herd crossing without making Greg a handler.
-- Ch306 opens the magical-item / acquisition-economy lane through one consequential purchase rather than a loot treadmill. Greg spends most of his small private pile on an obsolete fixed holdfast because he remembers later practical uses for its hated fixed-release constraint.
-- The seller is informed rather than foolish: she knows it is a bad cargo tool, demonstrates the unit, knows its missing early release is dangerous, gives practical warnings, and prices the working hardware at two copper.
-- Greg's advantage is not secret knowledge that the seller has missed about present condition. His advantage is decades of later field experience showing that the exact design flaw can become useful for temporary rescue/bracing/pull-point work.
-- The purchase is not yet vindicated. This exact unit's safe load, service life, stone behavior, cooldown, and future usefulness remain unknown. No tailored emergency appears to justify it immediately.
-- Money now matters more because capability speculation reduces Greg's liquid private funds to one copper plus one bit.
+- Ch306 opens the magical-item / acquisition-economy lane through one consequential speculative purchase. Greg spends two private copper on an obsolete fixed holdfast because he remembers later practical uses for its hated fixed-release constraint. The purchase is not yet vindicated.
+- Ch307 deliberately lets those fantasy/capital pressures breathe. Cala goes to her own card evening, Greg makes household dinner with Tavi, Lyssa comes home tired, and ordinary heat-stone magic remains background material culture rather than a new investigation.
+- Ch307 adds life outside Greg: Cala has a social evening and household exchange routes Greg does not fully know. Do not turn this immediately into a card arc, neighbor-network map, cooking series, or heat-stone maintenance case.
+- Greg's reduced liquidity remains materially real at one copper plus one bit.
 - Ch300 remains only a round number, not a structural milestone. Structural boundaries continue to follow actual story movement only.
 - Eventual title-defining leg loss remains flexible long-range architecture, not a countdown.
 
 ## Money / capital
-- Greg now holds **one private copper + one private bit** upstairs.
+- Greg holds **one private copper + one private bit** upstairs.
 - Ch301 paid exactly two bits for one theatre afternoon. Ch302 spent exactly one private bit on shared fried dough, leaving one private bit.
 - Ch303 used one household bit for North Steps bath entry and returned the second household bit unused.
 - Ch304 and Ch305 have no income or spending.
-- Ch306 Greg deliberately takes two of his three private copper to the lower-market salvage edge and spends exactly **two private copper** on the working fixed holdfast. No household money is involved.
-- No income, debt payment, resale, profit, appraisal, or client reimbursement occurs in Ch306.
+- Ch306 Greg spends exactly **two private copper** on the working fixed holdfast. No household money is involved.
+- Ch307 has no income, private spending, household spending, debt payment, reimbursement, resale, appraisal, or capital action.
 - No copper/bit conversion is established. Denominations remain separate.
-- Ch293 one-copper shoulder bag remains Greg's first private copper spend; Ch306 fixed holdfast is the second capital/equipment purchase from private copper.
+- Ch293 one-copper shoulder bag remains Greg's first private copper equipment spend; Ch306 fixed holdfast is the second.
 - The reduction from three copper to one copper is an intentional material consequence. Do not erase it through instant profit, refund, lucky resale, or a conveniently tailored paid job.
 
 ## Greg / body / equipment
 - Greg is nineteen in second life, Bronze, Carrow. Permanent LEFT BKA, knee preserved; right leg intact; two crutches.
 - Existing crutch repairs and Ch269 right-shoe repair remain sound.
 - Ch293 used brown leather shoulder bag remains regular equipment and holds the existing narrow scrap plus wrapped charcoal.
-- In Ch306 the wrapped holdfast rides briefly in the shoulder bag. The bag's stay bead at the first notch gives one faint green blink and maintains strap position. The extra weight is noticeable but does not cause swing into either crutch or interfere with walking.
-- Greg walks ten test steps and turns after loading the holdfast; no body/equipment problem appears.
-- No fall, residual-limb issue, pressure injury, shoe issue, crutch damage, bag damage, stay-bead change, or equipment failure.
-- The holdfast is not regular carry equipment yet. Greg leaves it stored at home for the afternoon and does not add it automatically to his daily load.
+- Ch306 wrapped holdfast rides home once in the shoulder bag without interfering with crutches. It is not regular carry equipment and remains stored at home.
+- In Ch307 Greg does most vegetable preparation seated with right foot flat, left knee clear, and both crutches safely angled against the wall within reach.
+- Cala has already arranged the heavy pot and ingredients so Greg does not need to cross the room carrying a filled pot while on crutches. Greg shifts the filled red pot only about six inches from counter to hearth while standing close, right hip against counter and crutches braced behind him, then resets his grips.
+- While washing dishes he uses the low basin and braces his right hip against the counter, working one-handed when useful.
+- Tavi moves his block road out of the crutch path when Greg asks.
+- No fall, residual-limb issue, pressure injury, shoe issue, crutch damage, bag damage, stay-bead issue, or equipment change.
 
 ## Household / Lyssa / Tavi
 - Three clean household gray sheets remain unused.
 - Horse-page reverse remains full.
-- Greg uses an already-used paper edge only for the holdfast safety tag; no clean sheet is consumed.
-- Greg adds holdfast notes below the Ch304 magic results on the existing narrow scrap; no new sheet is consumed.
-- Lyssa begins Ch306 doing unrelated cloth work with pale thread/dark cloth. Greg does not ask for or join the work. Brown-cuff work remains unadvanced/unexplained.
-- Cala and Lyssa treat the two-copper purchase as Greg's private-money choice, not household spending, while still judging whether the object is sensible.
-- Lyssa understands Greg's temporary-use logic through the analogy `Like basting`; Greg calls it dangerous/powerful basting. This does not create a Lyssa-work collaboration or magical-tool role.
-- Tavi repeatedly calls the object `bad`; Greg keeps it out of reach.
-- The holdfast is stored upstairs on the high shelf above Greg's folded clothes, wrapped in the seller's old sailcloth, ring turned sideways, base resting on sailcloth rather than directly on wood, pushed farther back from reach.
-- Safety tag: `DO NOT TURN RING.` Tavi cannot read it, so placement rather than the tag is the actual child boundary.
+- Existing narrow scrap still carries Ch304 magic data plus Ch306 holdfast notes. Ch307 adds no new notes and consumes no paper.
+- Fixed holdfast remains wrapped on the high shelf above Greg's clothes, ring sideways, base on sailcloth, out of Tavi's reach. Warning tag remains `DO NOT TURN RING.` No Ch307 activation or handling occurs.
+- Cala independently goes out for an evening of cards. She wears a clean gray scarf with narrow yellow stitching and a different blouse. An unnamed older woman arrives with a flat wooden box and green shawl, takes Cala's covered bowl, and leaves with her. Exact card group, location, stakes, rules, frequency, and relationships remain unestablished.
+- Cala leaves Greg dinner ingredients already prepared enough to make the task bounded: soaked beans, filled red pot, vegetables, salt, and half a loaf already in the house.
+- Household red pot has one side handle with a hairline crack bound with dark wire. Cala's local rule is red pot on the left heat stone, cracked handle toward the wall, half heat, greens last, salt after boil.
+- Greg burns the onions slightly but makes an acceptable bean/vegetable stew. Greg and Lyssa each take a second bowl; Cala later eats the final bowl. Tavi prefers bread after one bowl. This does not establish Greg as household cook or a recurring cooking duty.
+- Lyssa arrives tired from work with hair partly loose and no parcel/basket/cloth bundle. Brown-cuff work and protected garment materials do not advance. She does not take over dinner.
+- Lyssa already knows the red-pot orientation and adds one pinch of salt after tasting. She and Greg share quiet physical proximity while waiting, later wash/dry dishes together, and end upstairs with teasing, a kiss, and Tavi's `CARROT BLANKET` interruption. No new relationship status or obligation follows.
+- An unnamed girl around twelve returns a covered bowl for Cala and identifies the sender only as `Us`. Lyssa recognizes pickled beans by smell; Cala later recognizes the bowl without explanation. Exact sender/relationship/exchange routine remains unestablished.
+- Cala returns after dark with multiple voices/laughter outside. She notices the cleaned dishes, says little, and carries Tavi upstairs for bed. This confirms some independent social life without creating a named recurring group.
 - Rain shelf works. Front door closer remains repaired/functioning.
 
 ## Chapter 304 - THE QUIET TABLE
@@ -76,68 +79,47 @@
 - Greg records `STILL FIELD IMPROVES OBSERVATION. NOT PROOF IT IMPROVES EFFECT.` on the existing narrow scrap.
 
 ## Chapter 305 - THE CLEAR LANE
-- Greg encounters a blocked commercial lane at dye row with **six real mirrorhorns**: four adults, one younger nearly adult animal, and one calf.
+- Greg encounters a blocked commercial lane at dye row with six real mirrorhorns: four adults, one younger nearly adult animal, and one calf.
 - Mirrorhorns create two or three pale offset copies around real bodies; copies lag slightly during movement. Exact mechanism remains unestablished.
-- Greg's practical method for identifying the real animals is to watch feet/real shadow rather than doubled upper bodies.
-- Lane-watch man **Renn** initially has a short sword drawn. Greg tells him to sheath it. An older gray-braided cart woman reinforces Greg's instruction.
-- Greg confidently knows that crowding, shouting, barking, and sharp bright charm points can worsen the herd's uncertainty; shops dark/hood bright signs, carts open the middle, and a butcher quiets a barking dog by loosely covering its head with an apron.
-- The gray-braided woman supplies local route knowledge better than Greg: a north-road herd sometimes comes near old lime fields; gate work/noise are possibilities only. Greg does not know why this herd entered central Carrow.
-- High-confidence first-life field rule: `Copies mean thinking. One means done thinking.` When the largest female loses all copies and holds fully real/still, Greg correctly treats this as dangerous pre-charge decision state, tells everyone not to approach and to lower gaze, and gives the herd space.
+- Greg tracks real feet/shadows rather than doubled upper bodies.
+- Lane-watch man **Renn** initially has a short sword drawn. Greg tells him to sheath it. An older gray-braided cart woman reinforces the instruction and supplies better local route knowledge.
+- Greg confidently knows that crowding, shouting, barking, and sharp bright charm points can worsen the herd's uncertainty; locals help darken signs, open the middle, and quiet a dog.
+- High-confidence first-life field rule: `Copies mean thinking. One means done thinking.` When the largest female loses all copies and holds fully real/still, Greg correctly treats this as dangerous pre-charge decision state and gives the herd space.
 - The female's copies return; the herd accepts the opened corridor and walks out without charge, injury, cart damage, or broken stall.
 - Greg refuses Renn's request to stay and explicitly says he is not a handler.
 - Small local attention follows because an unnamed woman later asks Greg about the warning sign. This is not yet a job/reputation business/referral engine.
 - No Greg mana, Hessa contact, theatre return, client work, payment, Vale contact, debt payment, pressure evidence, specimen, ecology assignment, animal handling contract, or standing external obligation.
 
 ## Chapter 306 - THE BAD TOOL
-- The morning after Ch305, no mirrorhorn visitor/question queue appears. Greg deliberately leaves that event alone.
-- Greg decides on his own to browse the lower-market salvage edge with **two private copper**. He is not shopping for a known current need or client request.
-- Salvage stock includes ordinary failed/obsolete warehouse, cart, chain, charm-housing, pulley, ward-plate, and other work hardware. Greg knows the broad material culture and looks for useful constraints rather than treating it as exotic treasure.
-- He finds one working old **fixed holdfast / blind fixed hold** among cargo fittings:
-  - roughly palm wide,
-  - black iron round base,
-  - three folding teeth,
-  - thick top ring,
-  - dull amber bead offset beneath the ring,
-  - no release tongue,
-  - shallow mark under ring mount: three short lines crossed by one long line.
-- Greg remembers later users calling this old family `forty holds`; he explicitly says this was not necessarily the formal product name and he does not claim this exact unit is identical to all later versions.
-- First-life category behavior Greg knows: seat against a sufficiently solid surface, twist ring, teeth bite, bead holds the unit extremely difficult to move relative to its accepted surface for a fixed interval, then it releases whether desired or not.
-- The missing early release and guaranteed eventual self-release made the old design poor cargo/warehouse hardware. Later rescue crews, climbers, dungeon teams, and Greg himself found uses where temporary certainty plus automatic release could be an advantage.
-- Seller is an unnamed short-gray-haired woman with old rope-burn marks on her forearms. She immediately calls it the `bad one`, knows the flaw, and is not being fooled.
-- Seller provenance: warehouse pullout from `North storage`; it had been in a bin with mostly dead fittings after wall eyes were replaced. Exact warehouse, ownership history, reason for replacement, age, and maker remain unknown.
-- Seller asks **two copper** for the working unit.
-- Seller demonstrates it on a thick upright bolted test plank:
-  - folds teeth outward,
-  - presses base to wood,
-  - quarter-turns ring,
-  - amber bead glows deep orange,
-  - teeth bite with three dry clicks,
-  - she pulls hard with both hands and the plank creaks while the holdfast remains fixed,
-  - steady orange eventually dims and gives **three warning blinks**,
-  - after a brief interval bead goes dark and all three teeth release together,
-  - seller catches it by ring.
-- Safe load is explicitly unknown. Seller says she does not test beyond roughly her own body and has not seen it fail under her tests.
-- Exact hold duration is unknown. Seller says it depends on heat, what it bites, and how long it sat cold; an old book said `forty breaths`. Greg explicitly refuses to treat his breathing as a clock.
-- Cooldown is unknown. Seller says she has never tried the unit twice in the same hour; this establishes only her practice, not a one-hour technical limit.
-- Greg recalls first-life successful uses of the category for a ravine rescue line, a temporary mine brace, and a short wagon pull point. He also recalls later release-tongue versions being bulkier and one later release tongue jamming with sand. These memories support his application logic, not this unit's present load rating or remaining life.
-- Greg buys the holdfast for exactly **two copper**, reducing private liquid money to **one copper + one bit**.
-- Seller gives explicit handling warnings: keep teeth folded; do not turn the ring while it sits flat against anything valuable; do not put fingers under it after set. No return policy.
-- Seller wraps it in old sailcloth and thin cord for safe handling. Greg carries it home once in his shoulder bag without body/equipment trouble.
-- Household discussion keeps the purchase uncertain rather than declaring victory. Lyssa asks whether Greg needs it now or knows he will need it later; both answers are no. Greg's rationale is that it does one thing well and tools can become expensive after people agree on the useful job.
-- No home activation/test occurs. Greg explicitly refuses to punch the teeth into Cala's furniture merely to gather data.
-- Greg does not take the unit to Hessa/Guild, Rell, Jori, an appraiser, or another seller. He does not buy a second unit or begin a dealer route.
-- Greg later walks without money and sees mundane rope/cleat/stone solutions that are better, cheaper, or more reusable for their actual jobs. The magical tool does not obsolete ordinary technique.
-- Existing narrow scrap gains:
-  - `FIXED HOLDFAST.`
-  - `2 COPPER.`
-  - `NO EARLY RELEASE.`
-  - `THREE WARNING BLINKS.`
-  - `SAFE LOAD UNKNOWN.`
-  - `DO NOT TEST ON HOUSE.`
-  - `USEFUL ONLY IF RELEASE TIME IS PART OF PLAN.`
-- Greg deliberately does **not** write `FUTURE USEFUL`, because that is private remembered knowledge rather than current evidence about this exact unit.
+- The morning after Ch305, no mirrorhorn visitor/question queue appears.
+- Greg browses the lower-market salvage edge with two private copper without a current client or equipment requirement.
+- He finds one working old fixed holdfast / blind fixed hold: palm-wide black iron round base, three folding teeth, thick top ring, dull amber bead, no release tongue, and an observed shallow mark of three short lines crossed by one long line.
+- Greg remembers later users calling this old family `forty holds`, but does not establish that as the formal present-day product name.
+- Broad first-life behavior Greg knows: seat on sufficiently solid surface, twist ring, teeth bite, item becomes extremely difficult to move relative to the accepted surface for a fixed interval, then self-releases whether desired or not.
+- The no-early-release / inevitable-later-release behavior is why the design is poor cargo/warehouse hardware. Greg remembers later rescue/climbing/dungeon uses where temporary certainty plus automatic release can help.
+- Unnamed short-gray-haired seller with old rope-burn marks knows the flaw and calls it the bad one. She is not being fooled.
+- Seller provenance is only `North storage` warehouse pullout among mostly dead fittings after wall eyes were replaced. Exact history/maker/age unknown.
+- Seller demonstrates this exact unit once on an upright bolted plank: amber glow, three teeth bite, it resists her hard pull, gives three warning blinks, then self-releases. Safe load remains unknown.
+- Exact hold duration and cooldown remain unknown. Seller says duration varies and an old book said `forty breaths`; she says she has never tried the unit twice in the same hour. Neither statement establishes a precise technical limit.
+- Greg buys it for exactly two copper, reducing private liquid money to one copper + one bit.
+- Seller warns: keep teeth folded; do not turn ring while flat against something valuable; do not put fingers under it after set. No return policy.
+- Household discussion keeps the purchase uncertain. Lyssa compares its temporary logic to basting. No shared project follows.
+- No home activation/test occurs. Greg does not bring it to Hessa/Guild, Rell, Jori, appraiser, or another seller; no second purchase or dealer route.
+- Existing narrow scrap records price, no early release, three warning blinks, safe load unknown, do not test on house, and `USEFUL ONLY IF RELEASE TIME IS PART OF PLAN.`
 - Core change: Greg makes his first clearly speculative magical-equipment capital purchase. Future knowledge informs the bet, but consequence is immediate while payoff remains unproved.
-- No client, income, household spend, debt payment, Vale contact, Bren/pressure evidence, Greg mana use, Hessa contact, theatre return, ecology encounter, Lyssa-business advancement, injury, or new standing obligation.
+
+## Chapter 307 - THE RED POT
+- Ch307 is a household evening rather than another competence/capital payoff chapter. Holdfast, mirrorhorn, Hessa, theatre, pressure, and client engines do not move.
+- Cala independently leaves for a card evening with an unnamed older woman. Greg knows only that Cala is going to `Cards` with `People`; the social group remains hers and largely opaque to him.
+- Cala assigns Greg to make dinner for himself/Tavi/Lyssa from already-prepared household ingredients and leaves practical stove/pot instructions.
+- Common household heat-stone category is familiar to Greg. Cala's hearth has three dark heat stones under iron plates with clay rings and small brass control tongues. The left stone is old, gray at the edges, with one amber line brighter than the others at half setting. Nothing establishes a defect or repair need.
+- Greg learns the house-specific reason for the red-pot orientation through use: one quadrant of the left plate runs hotter, and cracked-handle-to-wall places the pot's deeper side over that hotter section. Cala, Lyssa, and even Tavi already know the household rule.
+- Greg burns the onions somewhat but the stew remains decent. Cala later eats the remaining bowl and judges `Salt good` / `Onion burnt.`
+- Lyssa comes home tired, does not take over, and shares ordinary dinner/dishes/quiet contact with Greg. Her garment work does not advance.
+- Tavi's evening behavior includes carrot/block play and the later `CARROT BLANKET` demand. Comic only; no regular childcare role is created.
+- An unnamed girl returns a covered bowl for Cala from only `Us`; Lyssa identifies pickled beans by smell. Exact sender/exchange network remains unknown.
+- Greg's private money remains exactly **one copper + one bit**. Holdfast remains untouched on high shelf. Three clean sheets remain. Magic remains unchanged.
+- No client, income, spending, debt payment, Greg mana, Hessa contact, theatre return, ecology encounter, mirrorhorn follow-up, holdfast use, Lyssa-business advancement, pressure evidence, injury, or standing external obligation.
 
 ## Magic continuity
 - Current totals remain **36 supervised minimal draws / 32 supervised deliberate shaping attempts / 75 supervised external-effect attempts**.
@@ -150,8 +132,8 @@
 - Attempt 73 near/still off: no observed response.
 - Attempt 74 near/still on: clean small displacement away under reduced-draft observation conditions.
 - Attempt 75 near/still on: no observed response.
-- Ch305-Ch306 contain no Greg draw, shaping, external attempt, or independent magic.
-- The fixed holdfast's operation is item magic and does not count as Greg mana use.
+- Ch305-Ch307 contain no Greg draw, shaping, external attempt, or independent magic.
+- Ch306 fixed holdfast and Ch307 household heat-stone use are item magic and do not count as Greg mana use.
 - Outside-session restrictions remain unchanged.
 - Hessa next experiment/appointment/position/object/condition remains unselected.
 - Do not infer a distance law, hard range limit, reliability curve, dose relationship, or still-field effect from current samples.
@@ -163,7 +145,7 @@
 - Ch302 lampwings remain a separate seasonal magical-ecology event.
 - Ch305 is the first recent encounter where Greg's old dangerous-world fieldcraft is the central solution rather than bounded observation.
 - Mirrorhorns are not established as common in central Carrow. Cala and the gray-braided woman only know of sightings nearer the north road / old lime fields.
-- Ch306 contains no ecology follow-up. Do not turn magical ecology into a creature-of-the-week progression.
+- Ch306-Ch307 contain no ecology follow-up. Do not turn magical ecology into a creature-of-the-week progression.
 
 ## Other live continuity
 - Ch303 North Steps/dry bench/Noll stands complete.
@@ -186,7 +168,7 @@
 - Ch281 return hardware remains unactivated/unvalued. Rell/Maren/Jori appraisal route unresolved.
 - Vale debt active/unresolved; exact balance unstated.
 - Boundary clasp unowned/status unknown.
-- Older Bren/pressure evidence ceiling unchanged. Ch306 adds no Bren/Vale/pressure evidence.
+- Older Bren/pressure evidence ceiling unchanged. Ch307 adds no Bren/Vale/pressure evidence.
 
 ## Protected uncertainties / do not auto-resolve
 - Existing weak needle-case, Rinna parcel, Lyssa older materials/packets/bundles, Ch246 crate, Pell return, Vale/Bren, collar-facing, six wraps, Ch281 flat package, Ch285 narrow wrapped packet remain protected.
@@ -197,44 +179,45 @@
 - Ch303 North Steps/dry-bench/grip-wash/Noll uncertainties remain bounded.
 - Ch304 still-bead protocol remains bounded. One clean still-on displacement does not prove the still bead helps or that attempt 74's cause is fully identified.
 - Ch305 mirrorhorn uncertainties remain bounded: exact taxonomy, anatomy, field mechanism, regional variation, herd origin/destination, route cause, central-city frequency, legal status, lane-watch procedure, handler organization, and generalization of local-light effects are unestablished.
-- Greg's field rule about copies vanishing before a charge remains high-confidence repeated first-life practical knowledge behaviorally confirmed in Ch305. Do not artificially weaken it into `maybe` without contrary evidence.
-- Ch306 fixed holdfast uncertainties: formal product name, exact maker identity beyond observed mark, exact age, exact provenance before North storage, current safe load, surface-specific limits, exact duration, duration response to heat/cold/material, field/mechanical mechanism, cooldown, remaining service life/activations, stone behavior of this exact unit, whether later `forty holds` are technically identical, resale value, repairability, recharge method, and exact future adoption chronology remain unestablished.
-- The seller's single plank demonstration establishes that this unit set, resisted her body-weight pull without observed slip, produced three warning blinks, and self-released once. It does not establish a universal load rating or reliable future performance.
-- Greg's first-life memory establishes that later/related fixed holds could be useful in rescue/bracing/pull-point work. It does not prove this exact purchased unit is safe for those loads now.
-- Do not immediately reward the purchase with a tailor-made problem, instant appreciation, profitable resale, appraisal windfall, or proof that Greg's bet was correct.
+- Greg's field rule about copies vanishing before a charge remains high-confidence repeated first-life practical knowledge behaviorally confirmed in Ch305. Do not artificially weaken it without contrary evidence.
+- Ch306 fixed holdfast uncertainties remain bounded: formal product name, exact maker identity beyond observed mark, exact age/provenance, current safe load, surface-specific limits, exact duration, heat/cold/material response, mechanism, cooldown, remaining service life/activations, stone behavior, whether later `forty holds` are technically identical, resale value, repairability/recharge, and adoption chronology.
+- The seller's single plank demonstration establishes only that this unit set, resisted her hard body-weight pull without observed slip, produced three warning blinks, and self-released once.
+- Ch307 Cala/card uncertainties: older woman's name/relationship, card group members, location, game, stakes, frequency, whether Cala regularly attends, and meaning of the carried bowl/green shawl remain unestablished. Do not make the social evening an automatic follow-up arc.
+- Ch307 household-bowl uncertainties: the unnamed girl's identity, who `Us` means, ownership/history of the bowl, and whether pickled-bean exchange is routine remain unestablished.
+- Ch307 heat-stone uncertainties: maker, age, exact mechanism, charge/recharge, maintenance history, technical heat distribution, and whether the brighter amber line indicates ordinary age or any maintenance need remain unestablished. Nothing in Ch307 creates a repair case.
+- One decent dinner does not establish Greg as household cook, regular Tavi minder, or new domestic-role progression.
 - Existing shade-fish/water-list, dry-seal, carrying-light, cooling-cup, ward-road, rain-thread, door-closer, stay-bead, bridges, Nemi/hold-bead, high-line, kessa-jumper, Sivi/mask, and other older uncertainties remain bounded.
 
-## Chapter 307 trailhead
+## Chapter 308 trailhead
 Follow the next actual claim from current authority.
 
-Chapter 306 is a complete acquisition/capital decision. Let the fixed holdfast stay on the high shelf and let the **two-copper cost** remain materially real.
+Chapter 307 is a complete household evening. Let Cala's card night, Greg's one dinner, Tavi's carrot, the returned bowl, and the red-pot/heat-stone routine become background life rather than immediate new engines.
 
-Do **not** automatically make Chapter 307:
-- a holdfast activation/test,
-- a convenient rescue/brace/crossing problem tailored to the new purchase,
-- an appraisal,
-- a resale/profit chapter,
-- a return to the salvage seller,
-- a second magical-item purchase,
-- a dealer/collector route,
-- a Guild/Hessa analysis of the item,
-- Rell/Jori identification work,
-- a cooldown/load-rating experiment,
-- or a chapter proving Greg was right to buy it.
+Do **not** automatically make Chapter 308:
+- another cooking chapter or cooking-competence series,
+- Greg's permanent household-cook role,
+- a regular Tavi childcare chapter,
+- Cala card-night follow-up,
+- introduction/mapping of Cala's card group,
+- gambling/stakes drama,
+- an investigation of the returned bowl or pickled-bean exchange,
+- a heat-stone repair/inspection,
+- a red-pot technical chapter,
+- a holdfast activation/test/appraisal/resale/payoff,
+- a salvage-seller return or second magical-item purchase,
+- a second mirrorhorn/handler/fieldcraft-advice chapter,
+- an automatic Hessa/still-bead/range repeat,
+- or a conveniently tailored paid job whose main function is restoring Greg's two spent copper.
 
-Greg's private liquid money is now **one copper + one bit**. No conversion rate is established. Let having less money constrain future choices naturally rather than immediately restoring the pile.
+Greg's private liquid money remains **one copper + one bit**. No conversion rate is established. Reduced liquidity should continue to matter naturally without becoming a morality meter.
 
-Likewise let Ch305's mirrorhorn success stand. No automatic second creature encounter, handler visit, Renn follow-up, fieldcraft-advice queue, or explanation of why the herd entered Carrow.
+Magic remains **36 / 32 / 75**; near **3/7 clean**; middle **1/6 clean + one possible edge lift**; far **0/1**. Restrictions unchanged. Hessa has selected no next protocol.
 
-Let Ch304's quiet-table result stand. No automatic Hessa session, still-bead repeat, near/middle/far attempt, or apparatus study. Hessa has selected no next protocol.
+Three clean household sheets remain. Lyssa's brown-cuff work remains hers and unresolved. The fixed holdfast stays safely stored upstairs. Household is stable. Greg is uninjured; crutches, right shoe, bag, front door, rain shelf, and ordinary kitchen equipment are functioning for current use.
 
-Magic remains **36 / 32 / 75**; near **3/7 clean**; middle **1/6 clean + one possible edge lift**; far **0/1**. Restrictions unchanged.
+Greg has no guaranteed client, Miri return, Pellin visit, Nara follow-up, Hessa appointment, second far test, still-bead repeat, theatre paper, performance role, North Steps return, Noll meeting, mirrorhorn/handler follow-up, Renn contact, holdfast use/appraisal/resale, salvage-seller return, magical-item dealer route, Cala-card invitation, regular Tavi-minding duty, returned-bowl follow-up, Vara/Ren/kite follow-up, Mera/Olan work, Nemi/music follow-up, bridges invitation, high-line/Tess follow-up, Pella/Rusk follow-up, ecology assignment, ward-water contact, shade-fish task, bead replacement, bag follow-up, rain-thread need, Sera/lantern-house visit, Maro follow-up, Maren/Rell/Jori appraisal, clasp hold, Hollen shift, Vale meeting, Guild consultation, Savin appointment, civic hearing, Green Coat encounter, or Lyssa-network obligation.
 
-Three clean household sheets remain. Lyssa's brown-cuff work remains hers and unresolved. Household is stable. Greg is uninjured; crutches, shoe, bag, front door, and rain shelf function normally. The holdfast is stored safely upstairs and creates no standing obligation.
-
-Greg has no guaranteed client, Miri return, Pellin visit, Nara follow-up, Hessa appointment, second far test, still-bead repeat, theatre paper, performance role, North Steps return, Noll meeting, mirrorhorn/handler follow-up, Renn contact, holdfast use/appraisal/resale, salvage-seller return, magical-item dealer route, Vara/Ren/kite follow-up, regular Tavi outing, Mera/Olan work, Nemi/music follow-up, bridges invitation, high-line/Tess follow-up, Pella/Rusk follow-up, ecology assignment, ward-water contact, shade-fish task, bead replacement, bag follow-up, rain-thread need, Sera/lantern-house visit, Maro follow-up, Maren/Rell/Jori appraisal, clasp hold, Hollen shift, Vale meeting, Guild consultation, Savin appointment, civic hearing, Green Coat encounter, or Lyssa-network obligation.
-
-Let Chapter 307 follow the next actual claim from household, paid work only if genuinely activated, city/social life, theatre only if independently reactivated, pressure only if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft only through a genuinely fresh lived claim, Greg's own magic only if genuinely activated, capital only with actual demand/value rather than because an item was just purchased, or another ordinary fantasy-world demand.
+Let Chapter 308 follow the next actual claim from household, paid work only if genuinely activated, city/social life, theatre only if independently reactivated, pressure only if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft only through a genuinely fresh lived claim, Greg's own magic only if genuinely activated, capital only with actual demand/value, or another ordinary fantasy-world demand.
 
 Do not rotate available engines by checklist.
 
