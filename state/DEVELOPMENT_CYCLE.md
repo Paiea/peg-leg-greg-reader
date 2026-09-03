@@ -72,6 +72,8 @@ Possible edges include:
 
 02 should not merely list twenty ideas. It should choose 1–3 promising tensions and develop at least one deeply enough that 03 can evaluate it.
 
+02 may record exploration and evidence, but it does not silently promote an interpretive possibility into ESTABLISHED story state merely because the synthesis feels convincing.
+
 ## Research is part of development
 
 When real-world knowledge would materially improve the story, research it rather than improvising generic texture.
@@ -151,6 +153,38 @@ Classify durable development as:
 
 03 may update `PLOT_CONTROL.md`, `CHARACTER_BIBLE.md`, `SETTING_BIBLE.md`, or `OPEN_THREADS.md` when the residue belongs there. Do not stuff all thinking into `STORY_CONTROL_STATE.md`.
 
+### Evidence-bounded promotion rule
+
+`ESTABLISHED` in a control/bible file means **accepted derived operating memory supported by manuscript evidence**. It is not a second canon. Exact manuscript prose still wins whenever wording, chronology, motive, knowledge state, causality, or scene detail matters.
+
+03 may promote a synthesis to `ESTABLISHED` without separate author approval when all of these are true:
+
+1. the exact manuscript evidence is identified;
+2. the synthesis is a faithful compression of what that evidence clearly establishes;
+3. no plausible competing interpretation would materially change the story meaning;
+4. the owning bible/control file is the correct place for that synthesis;
+5. any important evidence ceiling is preserved.
+
+When a claim is non-obvious or easy to overgeneralize, use a compact evidence-bounded note when useful:
+
+- **Claim** — the durable synthesis;
+- **Status** — ESTABLISHED / POSSIBILITY / etc.;
+- **Evidence** — chapter(s) or exact source pointer;
+- **Limit** — what the evidence does not establish.
+
+Do not force this mini-schema onto every bullet. Use it where future workers are likely to ask `where did we establish that?` or where adjacent facts are easy to merge incorrectly.
+
+Keep the claim as `POSSIBILITY`, proposed residue, or route it to the author when 03 would need to:
+
+- choose among multiple plausible interpretations;
+- infer motive, romance, friendship, hierarchy, causality, identity, or generalized behavior not compelled by prose;
+- establish a future story direction rather than summarize existing evidence;
+- resolve a meaningful contradiction/ambiguity;
+- retcon accepted prose/state;
+- turn external research or analogy into world canon.
+
+A confident interpretation is not evidence. Preserve uncertainty instead of laundering it into `ESTABLISHED`.
+
 ## Character/world expansion rule
 
 The development cycle should deliberately build people and places beyond Greg's immediate utility.
@@ -201,11 +235,13 @@ After a meaningful 02/03 wave, do not update durable files simply because analys
 Then sort the output:
 
 - exact manuscript evidence stays authority;
-- established changes go only to the living specialist/control file that owns them;
+- evidence-bounded established changes go only to the living specialist/control file that owns them;
 - pressures remain pressures;
 - useful but unestablished ideas remain possibilities;
 - reusable sourced knowledge belongs in `RESEARCH_LEDGER.md`;
 - rejected branches and disposable reasoning do not need preservation.
+
+Before promoting a derived claim, ask whether the source **compels the synthesis** or merely makes it plausible. If merely plausible, preserve it as possibility/proposal or route it to the author instead of promoting it.
 
 Update only the files whose answers materially changed. Prefer a small accurate state delta over a broad recap. A wave that produces no durable change is allowed to end without state churn.
 
