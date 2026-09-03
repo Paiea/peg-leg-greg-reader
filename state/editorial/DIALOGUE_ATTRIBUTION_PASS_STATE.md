@@ -74,10 +74,10 @@ Do not claim a chapter is covered until its exact source was reviewed and the ba
 ## Coverage ledger
 
 - Chapters 1-301: **NOT YET COMPLETE**
-- Verified reviewed range: **Chapters 1-59**
+- Verified reviewed range: **Chapters 1-66**
 - No-change chapters in reviewed range: **1, 4, 5, 6, 7, 11, 12, 13, 14, 18, 19, 28, 38**
 - Chapters with hard attribution fixes recorded: **2, 3**
-- Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59**
+- Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66**
 - Durable batches:
   - `state/editorial/dialogue-pass/BATCH_001_004.md`
   - `state/editorial/dialogue-pass/BATCH_005_010.md`
@@ -92,7 +92,8 @@ Do not claim a chapter is covered until its exact source was reviewed and the ba
   - `state/editorial/dialogue-pass/BATCH_042_047.md`
   - `state/editorial/dialogue-pass/BATCH_048_053.md`
   - `state/editorial/dialogue-pass/BATCH_054_059.md`
-- Current source edge: **Chapter 60**
+  - `state/editorial/dialogue-pass/BATCH_060_066.md`
+- Current source edge: **Chapter 67**
 
 ## Completion definition for one chapter
 
@@ -131,8 +132,15 @@ Early Book I already contains useful natural separation:
 - Leth: roadwright uncertainty; speaks from the physical state of the repair and does not pretend ten minutes cannot become twenty.
 - Maret: production-line symptoms and customer use; speaks from shifts, mounts, feed lines, heat, flutter, and whether output actually changed. Her evidence is manufacturing evidence, not Arlo's mechanism ownership.
 - Bram: experienced freight handling; practical geometry from moving real wagons, willing to walk a turn and accept a stop without surrendering expertise.
+- Sera Dain: surgical-consequence precision; names what is crushed, what has flow, what may be viable, what healing can and cannot do, and what delay costs. Her uncertainty is surgical, not Hessa's channel-permission methodology.
+- Nerin: bedside practicality and indignity management; willing to tease Greg while watching the physical basics closely.
+- Marn: hoist/mechanical-load authority; capacity, line angle, brake behavior, load transfer, and what the machine can safely carry.
 
 Shared dryness is allowed. Do not force distinct catchphrases where domain and cadence already separate voices.
+
+## High-value attribution finding
+
+Chapter 63 establishes an important exception to the normal light-tagging preference: during hazardous multi-person work where short commands govern different physical systems, heavier attribution improves tension because the reader can track exactly who owns each decision. Operational ambiguity is not productive suspense.
 
 ## Continuity/name cautions surfaced by dialogue pass
 
