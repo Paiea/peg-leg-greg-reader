@@ -18,6 +18,7 @@ Post-loss, `magic` is not one state. Hessa increasingly separates:
 - maintaining the underlying draw;
 - releasing the whole draw;
 - bounded extension beyond the body;
+- directional control;
 - observed external movement;
 - established external effect;
 - casting;
@@ -65,7 +66,9 @@ She may refuse because:
 - Greg is already leaning into the expected result;
 - repetition would train the test rather than answer it;
 - an external question would be uninterpretable because internal control is not yet good enough;
-- Greg is trying to convert omitted information into permission.
+- the apparatus is consuming safe attempts without producing enough interpretable signal;
+- Greg is trying to convert omitted information into permission;
+- Greg wants to move the question after a disappointing result.
 
 More attempts are not automatically better.
 
@@ -74,6 +77,10 @@ Chapters 105, 107, and 109 reinforce that a promising result is not a reason to 
 Chapter 120 adds another restraint: **do not turn repeated observations into a score.** Hessa keeps Ch111, Ch114, Ch117, and Ch120 separate because they answer related but non-identical questions. Greg's desire to count `three successful reductions` would erase the differences that matter to her.
 
 The same chapter sharpens her anti-checking rule. Checking because something feels wrong can be useful. Repeated checking because Greg wants certainty creates noise and can become its own ritual.
+
+Chapters 125-129 add the next refusal boundary: **safe attempts are not free merely because the immediate examination is reassuring.** Hessa is willing to stop an apparatus that remains interesting when its signal is too noisy to justify stacking more supervised attempts. She can preserve the possibility for later without continuing it now.
+
+Failure also does not automatically earn an immediate retry. In Chapter 129, a failed changed-direction instruction is useful before it is something to correct. `Failure is data before it is an invitation.`
 
 ## Information behavior
 
@@ -88,8 +95,12 @@ Examples:
 - Chapter 111: physical load from Pessa's training changes what magical/body observation is worth doing next without becoming magic evidence itself.
 - Chapter 120: Hessa withholds the next possible test because Greg can rehearse decisions even without using mana.
 - Chapter 122: Hessa records what she saw before hearing the version Greg wants her to have seen.
+- Chapter 127: Hessa audits her own notation and realizes that writing `near moved` puts interpretation into the record before direction. She labels the threads white and gray so the object can be recorded before the conclusion she hopes to test.
+- Chapter 129: Hessa removes the thread apparatus from sight when she has decided not to use it because leaving it visible would keep pulling Greg's attention back to a question she is no longer asking.
 
 Independent witnesses and apparatus are useful, but they answer only the question they can actually answer. Copper can support that a mana event changed while Greg separately reports phenomenology. It does not give Hessa a perfect map of what Greg feels.
+
+Controls are likewise question-specific. A comparison can remove some explanations and leave others. Hessa does not treat adding a control as a ritual that automatically turns an ambiguous observation into causal proof.
 
 ## Post-loss control progression
 
@@ -133,7 +144,7 @@ The important conclusion is narrower: Hessa is less concerned that once Greg del
 
 That makes external-effect testing more worth considering. It is not external-effect clearance.
 
-### Chapter 122: first bounded external question
+### Chapters 122-129: external questions, replication, and a poor apparatus
 
 Chapter 122 is the first supervised attempt to deliberately extend an altered response beyond Greg's body.
 
@@ -156,23 +167,47 @@ The permission is deliberately narrow:
 - no Barrier;
 - no general external-work clearance.
 
-The thread moves twice during the extension portion, once toward Greg and once sideways. It also moved during baseline.
+The thread moves twice during the extension portion, once toward Greg and once sideways. It also moved during baseline. Hessa therefore records **observed external movement during the attempt**, cause unknown. There is **no established external effect**.
 
-Hessa therefore refuses the stronger claim. Her wording is the important ceiling: **observed external movement during the attempt**, cause unknown. There is **no established external effect**.
+Chapter 125 adds a farther comparison thread. The closer thread moves toward Greg during REACH while the farther thread does not at that exact moment, but the two threads also behave differently from one another during ordinary baseline conditions. Hessa calls the result more useful than the first attempt and increases her confidence that the setup can produce interpretable information, while still refusing causal attribution to mana.
 
-The test still teaches something useful. Greg can attempt a bounded outward extension without immediately releasing, broadening into the familiar pattern, recruiting the hand, or losing the underlying draw. When Hessa ends the external question, he can RETURN the alteration without the earlier unwanted responses.
+Chapter 127 repeats the general paired-thread setup. The memorable differential REACH movement does **not** repeat. The closer thread instead moves during shaping, and neither thread moves enough to record during REACH. Hessa therefore lowers confidence in a repeatable external response under that setup while increasing confidence in Greg's internal sequence.
 
-This is the key distinction:
+This separation is crucial: **external confidence can go down while internal-control confidence goes up in the same session.**
 
-**An ambiguous external result can still produce useful internal-control evidence.**
+Chapter 127 also shows Hessa auditing her own observer behavior. She changes her notation from `near/far` to `white/gray` because `near` already embeds the interpretation she is testing. She is willing to notice and correct her own bias without turning the correction into a performance of scientific purity. The setup is not blinded; the cheap label simply improves the record.
 
-Do not write future prose as though the thread proved telekinesis, casting, Barrier recovery, or even a repeatable external effect.
+`Memorable is not the same as diagnostic.` Hessa reviews all three external attempts together rather than letting the most exciting one dominate the story.
+
+Chapter 129 then stops spending attempts on the thread apparatus. This is not proof that external effect is impossible and not abandonment forever. The apparatus is simply not producing enough interpretable signal to justify more of Greg's current safe tolerance.
+
+The most reliable result across the external attempts was internal:
+- establish a small alteration where instructed;
+- maintain the underlying draw;
+- attempt a bounded directional change without broadening into the older response;
+- avoid hand recruitment and concerning symptoms;
+- RETURN when told.
+
+Hessa then asks a new internal directional-control question without a suspended target. She deliberately prepares one charcoal target, then changes the requested direction after shaping. Greg's altered edge sharpens toward the prepared mark rather than the new indicated direction.
+
+Hessa calls the result cleanly: Greg did not execute the changed direction as instructed. That failure does **not** erase the stable draw/shape/RETURN sequence. It makes directional control unclear and creates new questions about prepared-target organization, changed-direction difficulty, anticipation, and instruction quality.
+
+Do not write future prose as though the thread proved telekinesis, casting, Barrier recovery, or a repeatable external effect. By the end of Chapter 129:
+- minimal draw: increasingly repeatable;
+- localized shaping: increasingly repeatable;
+- maintaining draw while altering: increasingly repeatable;
+- RETURN: increasingly repeatable;
+- avoiding broad old response / motor recruitment: increasingly repeatable;
+- directional control: **unclear**;
+- external effect: **unestablished**;
+- casting: **not cleared**;
+- Barrier: **not cleared**.
 
 ## External-effect threshold
 
 Hessa's threshold is not a secret number.
 
-By Chapters 114-122, the useful factors include:
+By Chapters 114-129, the useful factors include:
 - deliberate initiation without broad unintended recruitment;
 - localization toward a requested intact-side target;
 - deliberate cessation or reduction while keeping the draw;
@@ -181,13 +216,14 @@ By Chapters 114-122, the useful factors include:
 - no familiar unrequested casting pattern taking over;
 - enough repetition across changed conditions that accident is less convincing;
 - enough internal control that an external success or failure would be interpretable;
-- an apparatus/question that does not create more ambiguity than it resolves.
-
-Chapter 120 states the logic clearly: an external question is only useful if Hessa understands the internal behavior well enough that external success or failure means something.
-
-Chapter 122 then demonstrates why. A thread can move for many ordinary reasons. A dramatic-looking event is not automatically better evidence than a boring, bounded one.
+- an apparatus/question that does not create more ambiguity than it resolves;
+- enough reason to spend another safe attempt on the external question rather than a better internal one.
 
 A permission for **one external test** is not general external-test clearance. It is not casting clearance.
+
+A better control is not automatically a better experiment. Improving one confound may worsen another, and changing the apparatus may destroy the very replication question Hessa is trying to ask. She can choose a simple imperfect setup because repeating the same imperfect setup answers one useful question, then later stop using it when the signal remains poor.
+
+Immediate absence of symptoms does not make repeated attempts free. Hessa explicitly watches for accumulation of unknown load and preserves boring symptom-free intervals rather than stacking tests simply because Greg wants a cleaner answer.
 
 ## With Greg
 
@@ -201,11 +237,13 @@ Hessa also does not own Greg's non-medical day. Once she has stated the medical 
 
 Boring intervals are part of the evidence. Delayed effects either appear or fail to appear during ordinary life.
 
-The interval length can change with evidence. Chapter 120 shortens the next interval after a cleaner result plus prior tolerated living time. Chapter 122 lengthens it again after the first bounded external attempt. This is not reward/punishment; it is load and uncertainty management.
+The interval length can change with evidence. Chapter 120 shortens the next interval after a cleaner result plus prior tolerated living time. Chapter 122 lengthens it again after the first bounded external attempt. Chapters 125-129 keep using one-day intervals as Hessa compares external ambiguity against stable internal control. This is not reward/punishment; it is load and uncertainty management.
 
 Hessa does not want monitoring to become compulsion. Ordinary hand use should stay ordinary. If Greg checks his thumb every few moments because he wants certainty, Hessa treats the checking itself as noise.
 
-She also protects the next test from Greg's planning. If he inspects apparatus, reverse-engineers airflow, or rehearses a future decision tree, he may arrive optimized for the test rather than available to answer it.
+She also protects the next test from Greg's planning. If he inspects apparatus, reverse-engineers airflow, hangs substitute thread, or rehearses directional attention without mana, he may arrive optimized for the test rather than available to answer it.
+
+Hessa can admit her own observational or instructional problem. In Chapters 127 and 129 she notices interpretive language in her notes and explicitly includes `my instruction was poor` among possible explanations. Her authority does not require pretending the practitioner cannot contaminate a test.
 
 ## Canon lines / fingerprints
 
@@ -219,16 +257,14 @@ She also protects the next test from Greg's planning. If he inspects apparatus, 
 - **CANON LINE:** `You altered.`
 - **CANON LINE:** `There is no clean comparison.`
 - **CANON LINE:** `It is exactly as useful as it is.`
-- **CANON LINE:** `You are learning.`
 - **CANON LINE:** `I don't know.` when asked whether Greg can cast again.
-- **CANON LINE:** `Yes.` when Greg asks whether he shaped mana, immediately bounded by `Once, in a small supervised test, without a spell.`
+- **CANON LINE:** `Yes.` when Greg asks whether he shaped mana, immediately bounded by one small supervised test without a spell.
 - **CANON LINE:** `You stopped deliberately feeding the change. I am reasonably confident of that.`
 - **CANON LINE:** `Partly.` when Greg asks whether he returned the alteration toward the underlying draw.
 - **CANON LINE:** `That is why I am the practitioner.`
 - **CANON LINE:** `Do not turn ordinary movement into a test ritual.`
 - **CANON LINE:** `That is allowed.`
 - **CANON LINE:** `Because repeatability is not the same as repeating the instruction twice.`
-- **CANON LINE:** `Seeing whether a result remains available across enough changes that I stop thinking it was an accident.`
 - **CANON LINE:** `Checking once because something feels wrong is useful. Checking every thirty seconds because you want certainty creates noise.`
 - **CANON LINE:** `The point is to ask a question we can interpret.`
 - **CANON LINE:** `For one question.` when Greg asks whether the thread apparatus is clearance.
@@ -236,13 +272,20 @@ She also protects the next test from Greg's planning. If he inspects apparatus, 
 - **CANON LINE:** `No established external effect.`
 - **CANON LINE:** `You were cleared for this external test.`
 - **CANON LINE:** `Unknown.` when Greg asks what caused the first thread movement.
+- **CANON LINE:** `Controls are not magic truth machines. They remove some explanations and leave others.`
+- **CANON LINE:** `Near is already interpretation. White is an object.`
+- **CANON LINE:** `Memorable is not the same as diagnostic.`
+- **CANON LINE:** `Failure is data before it is an invitation.`
 - **CANON PATTERN:** uses unfamiliar or obscured setups when expectation would contaminate the question.
 - **CANON PATTERN:** grants the strongest noun the evidence earns, then immediately preserves the scope.
 - **CANON PATTERN:** changes instruction when the prior wording tested the wrong subskill rather than merely repeating harder.
 - **CANON PATTERN:** treats motor urge as a stopping condition before injury or visible movement.
 - **CANON PATTERN:** refuses to turn repeated related observations into a score when the differences between attempts matter.
 - **CANON PATTERN:** first external test uses baseline observation and a deliberately harmless target; visible movement remains unattributed because the target also moves without magic.
-- **CANON PATTERN:** treats an ambiguous external test as useful internal-control evidence without upgrading the external claim.
+- **CANON PATTERN:** a paired comparison produces one suggestive differential movement, but failed replication lowers external confidence rather than being explained away.
+- **CANON PATTERN:** improves her own notes when she notices interpretive language entering the record.
+- **CANON PATTERN:** stops using an interesting but noisy apparatus when it no longer justifies spending Greg's safe attempts.
+- **CANON PATTERN:** calls failure of a changed-direction instruction a failure for that exact question while preserving the separate control abilities that succeeded.
 
 Exact wording should be rechecked against current manuscript authority before reuse; these are evidence, not catchphrases.
 
@@ -288,6 +331,9 @@ Avoid:
 - converting observed thread movement into proof of an external magical effect;
 - converting one external-test permission into general external-work or casting clearance;
 - calling an ambiguous external result useless when the same attempt produced interpretable internal-control evidence;
-- treating a quieter or more controlled test as narratively less important than a dramatic but uninterpretable one.
+- salvaging a preferred external hypothesis by changing the test question after a failed replication;
+- treating an apparatus as worth continuing merely because it produced a memorable event;
+- pretending practitioner notes, expectations, or instructions cannot themselves create bias;
+- treating a failed directional instruction as failure of every control skill in the session.
 
 Hessa is strongest when exactness belongs specifically to the work she is doing.
