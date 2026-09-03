@@ -14,7 +14,7 @@ Do not inflate either lane into universal theatre authority. Teren does not beco
 
 ## Three operating modes
 
-Chapters 146-151 make it important to distinguish three theatre environments.
+Chapters 146-152 make it important to distinguish three theatre environments.
 
 ### Closed rehearsal
 
@@ -47,9 +47,11 @@ Once the paid show starts, there is no practical reset. A bad line is gone. An e
 
 Teren's notes compress accordingly.
 
-Chapter 151 gives the cleanest example. After Greg's Shopkeeper scene, Teren says `Good.` Greg asks which part. Teren answers `Done part.` The scene survived and the show is still moving. Full diagnosis can wait.
+After Greg's first paid Shopkeeper scene, Teren says `Good.` Greg asks which part. Teren answers `Done part.` The scene survived and the show is still moving. Full diagnosis can wait.
 
 Before the show, `Don't wait for yesterday.` is a local warning against reproducing the prior successful version when the current partner, cue, and audience will change again.
+
+Chapter 152 adds another live boundary: not every omitted word requires repair. If nothing downstream depends on it, the show can keep moving without restoring it.
 
 ## Spoken rhythm
 
@@ -70,7 +72,8 @@ At company scale, his answers can be equally compressed:
 - `Two.`
 - `Maybe three.`
 - `Dead.`
-- an actual pay rate when Greg's pay is the question.
+- an actual pay rate when Greg's pay is the question;
+- `Learn the first page.` when a late casting failure creates an impossible-looking new role.
 
 The compression comes from work pressure and shared context, not mystique.
 
@@ -106,7 +109,7 @@ Chapter 128 establishes that **scene survival is not the same as executing the i
 
 Chapters 147-149 sharpen it further.
 
-Greg can preserve Shopkeeper while still be waiting for yesterday's laugh. Marek can cover Serra's skipped line while hiding the very mistake Serra needs to detect. A strong improvised `spoon` can be worth recording without becoming fixed text.
+Greg can preserve Shopkeeper while still waiting for yesterday's laugh. Marek can cover Serra's skipped line while hiding the very mistake Serra needs to detect. A strong improvised `spoon` can be worth recording without becoming fixed text.
 
 Teren therefore protects the current question, not every successful recovery.
 
@@ -116,19 +119,20 @@ Teren therefore protects the current question, not every successful recovery.
 
 In performance, the priority changes. Recovery that would hide useful rehearsal information may be exactly what the live scene needs.
 
-Chapter 151 demonstrates distributed live competence:
+Chapters 151-152 demonstrate distributed live competence:
 - Serra restores missing information after Marek enters early;
 - Iven recognizes that a changed preceding scene has changed Greg's cue;
 - Orin gives a partner a path back after a wrong line;
 - Marek covers a forgotten name and a collapsing chair;
 - Davin fixes the loose floorboard while the show continues;
-- costume workers repair garments in use.
+- costume workers repair garments in use;
+- a missing word can remain missing if no later beat needs it.
 
 Teren does not need to own each recovery to own the show's forward continuity.
 
 ## Tour / company operations
 
-Chapters 140-151 establish that Teren's role extends beyond cueing when the company travels.
+Chapters 140-155 establish that Teren's role extends beyond cueing when the company travels.
 
 He can own or route:
 - departure time;
@@ -140,15 +144,70 @@ He can own or route:
 - sleeping arrangements he has actually made;
 - hall negotiation;
 - current casting changes;
+- whether a hall is physically usable enough to perform;
 - deciding which upstream problem has become somebody else's actionable consequence.
 
-His logistics are not flawless. `Five, maybe six` can become six. A third show can move from possible to `Dead.` A Clerk scene can die separately because the current hall lacks the needed desk. Sleeping arrangements can be solved late.
+His logistics are not flawless. `Five, maybe six` can become six. A third show can move from possible to `Dead.` A Clerk scene can die because a hall lacks the needed desk. A northern booking can remain conditional until the company sees the actual hall. Sleeping arrangements can be solved late.
 
 When Greg presses about pay, Teren eventually states the real arrangement. When a hall dispute remains upstream, Greg may receive only the current consequences.
 
 Pell's line `Teren will tell you if it changes you` describes this behavior but is not Teren's catchphrase or a universal company law.
 
-By Chapter 150, Teren reports the gate terms as `Done`, not good or bad. The useful company fact is that the two paid shows are operational.
+### Continued choice
+
+Chapter 154 prevents company belonging from quietly becoming possession.
+
+Greg has already traveled with the troupe and been paid for two shows. Teren still asks before the next leg:
+
+`You coming?`
+
+Greg says yes.
+
+`Good.`
+
+The question is practical, not ceremonial, but it remains a question. Do not make Teren assume indefinite ownership of Greg's time merely because Greg has become useful.
+
+### Hall viability and physical route
+
+Chapter 155 shows company authority under a leaking roof.
+
+Teren's decision depends on actual usable conditions:
+- whether the stage is wet;
+- which entrance survives;
+- whether another route physically works for Greg;
+- how many seats moving a bench costs;
+- whether an alternate room has usable sound and weather protection;
+- whether sold tickets and hall terms can coexist with safe performance.
+
+When Greg tests the replacement entrance and Teren says `Again`, the word means repeat the **geometry**, not rehearse the acting. The work object defines the note.
+
+## Outside pressure / uncertainty
+
+Lucan Drell in Chapter 154 adds an important information distinction.
+
+Teren recognizes Drell and immediately protects the company:
+
+`You're not taking anyone.`
+
+But recognition is not omniscience. When Greg asks what Drell wants, Teren says:
+
+`If I knew, I would have told him no more specifically.`
+
+That is useful Teren uncertainty. He can know enough to set a boundary, ask Greg to report another contact, and still genuinely not know the outsider's purpose.
+
+Do not convert every withheld answer into secret knowledge Teren is choosing not to share. Sometimes he does not know.
+
+The same scene source-settles only a narrow amount of Drell information: Teren knows him, Drell knows the old company box, Drell is neither theatre nor Guild according to Teren, and Teren does not want him taking anyone. The larger history remains unresolved.
+
+## Casting pressure
+
+Chapter 155 ends with a clean company-consequence escalation.
+
+Sick Advocate Lorn can no longer perform. Greg suddenly inherits roughly forty-three lines for the next night's show. Teren does not give a speech about trust or readiness. He gives the next usable instruction:
+
+`Learn the first page.`
+
+This is Teren at his best scale. The whole problem is large. Greg's next action does not need to be.
 
 ## Distributed authority
 
@@ -157,7 +216,7 @@ Do not make Teren's coordination steal other people's cognition.
 - **Serra:** partner behavior, staging, eye line, playable reaction, and live actor recovery.
 - **Iven:** scene-partner pressure, cue adaptation, and practical actor shorthand.
 - **Nessa:** costume/prop function and material continuity in performance.
-- **Davin:** wagon, load, rope, repair, scenery handling, and physical transport/stage problems.
+- **Davin:** wagon, load, rope, repair, scenery handling, physical transport/stage problems, and material storage conditions.
 - **Rinna:** business/assignment/record throughput where exact prose supports it.
 - **Marek:** performer/social momentum and live scene instinct.
 - **Teren:** page/cue/cut/reset/local continuity plus cross-company show consequences and hall coordination.
@@ -168,16 +227,11 @@ The troupe works because these authorities overlap without collapsing into one b
 
 Greg wants systems. Teren often stops that process at the smallest useful scale.
 
-Greg's use expands from observer to Messenger, Landlord, Person, Sword, Shopkeeper, traveler, and paid performer without Teren delivering a promotion speech.
+Greg's use expands from observer to Messenger, Landlord, Person, Sword, Shopkeeper, traveler, paid performer, and now emergency Advocate without Teren delivering a promotion speech.
 
-The travel decision is similarly plain:
-- `Are you coming?`
-- Greg says yes.
-- `Good. Bring food.`
+At each scale, belonging keeps arriving through workflow rather than affirmation.
 
-At the eastern hall, Teren may give Greg only seconds of attention because the company has many concurrent problems.
-
-Before the first paid show, Greg gets almost no rerun. Teren checks entrance geometry and says of an improvised Serra line, `If she says it.` The current partner remains current.
+Teren can also redirect Greg away from upstream mysteries when the current problem is more actionable. In Chapter 155, after giving the narrow old-box facts he actually has, he tells Greg to think about the rain. The redirect should not be read as proof he secretly knows the entire Drell/box story.
 
 ## Canon lines / fingerprints
 
@@ -196,11 +250,16 @@ Before the first paid show, Greg gets almost no rerun. Teren checks entrance geo
 - **CANON LINE:** `So I remember.` after `Keep spoon.`
 - **CANON LINE:** `Don't wait for yesterday.`
 - **CANON LINE:** `Done part.`
+- **CANON LINE:** `If I knew, I would have told him no more specifically.`
+- **CANON LINE:** `Learn the first page.`
 - **CANON PATTERN:** distinguishes intentional pause from lost line by watching the actor.
 - **CANON PATTERN:** lets a recoverable mistake continue, then resets the exact rehearsal problem.
 - **CANON PATTERN:** uses public open rehearsal as a place where audience response can inform another run without becoming permanent text.
 - **CANON PATTERN:** live performance replaces reset logic with forward-continuation logic.
 - **CANON PATTERN:** tells Greg the company consequence when it becomes Greg's consequence without exposing every upstream negotiation first.
+- **CANON PATTERN:** continues to ask whether Greg is coming on a new travel leg even after Greg has become a paid company performer.
+- **CANON PATTERN:** can set a strong boundary around an outsider while admitting uncertainty about that person's actual motive.
+- **CANON PATTERN:** reduces a sudden large casting problem to the smallest learnable next action.
 
 ## Voice tests — NON-CANON
 
@@ -232,11 +291,14 @@ Avoid:
 - treating recovered improvisation as automatically correct for the rehearsal task;
 - treating an open-rehearsal laugh as a guaranteed paid-show line;
 - making Teren explain every recovery when another run can answer it;
-- stealing staging, costume, load, repair, or partner authority from other workers;
+- stealing staging, costume, load, repair, storage, or partner authority from other workers;
 - forcing yesterday's rehearsal solution onto today's partner or audience;
 - reducing a mixed show to one global good/bad judgment;
 - upgrading travel coordination into flawless logistics;
 - hiding information after it actually changes Greg's pay, role, safety, or required action;
-- turning `Stop trying to make it good` or `Don't wait for yesterday` into generic artistic philosophy detached from the immediate scene problem.
+- treating every Teren refusal as proof of hidden knowledge;
+- converting Drell uncertainty into a solved backstory before exact prose earns it;
+- turning `Learn the first page` into generic life advice rather than emergency role triage;
+- assuming Greg's continued participation without leaving room for the actual travel question.
 
 If a correction or company instruction can be smaller and still keep the work moving, prefer smaller.
