@@ -132,6 +132,7 @@ Highest-frequency / highest-impact pages:
 - `RINNA.md`
 - `TEREN.md`
 - `NESSA.md`
+- `SERRA.md`
 - `HARA.md`
 - `MAREK.md`
 
@@ -158,7 +159,7 @@ Recurring work/household/social pages:
 - `OCTAVIA.md`
 - `MERRIN.md`
 
-`SERA.md` and `SERA_DAIN.md` are deliberately separate authorities unless exact manuscript continuity later proves otherwise.
+`SERRA.md`, `SERA.md`, and `SERA_DAIN.md` are deliberately separate authorities unless exact manuscript continuity later proves otherwise.
 
 Add another page when a character has enough repeated dialogue that a future writer benefits from a fingerprint. Do not create pages for one-scene people simply to fill a roster.
 
