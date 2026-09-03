@@ -74,10 +74,10 @@ Do not claim a chapter is covered until its exact source was reviewed and the ba
 ## Coverage ledger
 
 - Chapters 1-301: **NOT YET COMPLETE**
-- Verified reviewed range: **Chapters 1-66**
+- Verified reviewed range: **Chapters 1-73**
 - No-change chapters in reviewed range: **1, 4, 5, 6, 7, 11, 12, 13, 14, 18, 19, 28, 38**
 - Chapters with hard attribution fixes recorded: **2, 3**
-- Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66**
+- Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73**
 - Durable batches:
   - `state/editorial/dialogue-pass/BATCH_001_004.md`
   - `state/editorial/dialogue-pass/BATCH_005_010.md`
@@ -93,7 +93,8 @@ Do not claim a chapter is covered until its exact source was reviewed and the ba
   - `state/editorial/dialogue-pass/BATCH_048_053.md`
   - `state/editorial/dialogue-pass/BATCH_054_059.md`
   - `state/editorial/dialogue-pass/BATCH_060_066.md`
-- Current source edge: **Chapter 67**
+  - `state/editorial/dialogue-pass/BATCH_067_073.md`
+- Current source edge: **Chapter 74**
 
 ## Completion definition for one chapter
 
@@ -112,7 +113,7 @@ Early Book I already contains useful natural separation:
 - Edrin: guild warding/custody; authority comes from responsibility for sealed structures and controlled access rather than personal teaching.
 - Octavia: freight coordination; precision comes from routing real goods through real constraints, not abstract system-building.
 - Dema Rusk: field-recovery instruction; teaches Bronze parties how to stop, count, move, and decide after plans fail. She is not Antonius's Rusk.
-- Captain Ressa: intake triage; need first, firsthand report second, and no interrogating people who need water.
+- Captain Ressa: intake triage and operation ownership; need first, firsthand report second, and after an accident she turns responsibility into changes to the next operation rather than a clean guilt story.
 - Iris: immediate watch response; decides whether information changes the next ten seconds and assigns bodies to jobs.
 - Brina: bakery consequences, emergency production, and practical debt categories.
 - Kellan: institutional magical measurement; field saturation, reference checks, rates, and instrument language.
@@ -125,22 +126,26 @@ Early Book I already contains useful natural separation:
 - Mevi: manual workflow and load handling; one demonstration, immediate correction, then back to work.
 - Holl: commercial ward-material tolerance; can explain product deeply but stops unpaid process redesign at edge of his morning.
 - Pessa: working-road judgment and field priority; reads surfaces, drainage, bridges, complaints, and what becomes a route problem. She owns final repair priority when she is field lead rather than converting every observation into theory.
-- Tam: customer-specific shoe work; terse use-first answers attached to actual object and person.
-- Sevren: courier route knowledge; arrival, detours, fatigue, informal messages, and useful identifiers. Practical, traveled, anecdotal, incomplete.
+- Tam: customer-specific shoe work and local trade routing; terse use-first answers attached to actual object/person, with enough social embeddedness to know who can solve adjacent practical problems.
+- Sevren: courier route knowledge plus low-pressure friendship; arrival, detours, fatigue, informal messages, social logistics, and useful identifiers. He can offer a cart or bread without making Greg a project.
 - Lio: ordinary multi-job competence; has done practical things before without turning them into a professional identity.
 - Tavin: coordination across ownership boundaries; systems language is institutional and job-specific, not Greg-style abstraction.
 - Leth: roadwright uncertainty; speaks from the physical state of the repair and does not pretend ten minutes cannot become twenty.
 - Maret: production-line symptoms and customer use; speaks from shifts, mounts, feed lines, heat, flutter, and whether output actually changed. Her evidence is manufacturing evidence, not Arlo's mechanism ownership.
 - Bram: experienced freight handling; practical geometry from moving real wagons, willing to walk a turn and accept a stop without surrendering expertise.
-- Sera Dain: surgical-consequence precision; names what is crushed, what has flow, what may be viable, what healing can and cannot do, and what delay costs. Her uncertainty is surgical, not Hessa's channel-permission methodology.
-- Nerin: bedside practicality and indignity management; willing to tease Greg while watching the physical basics closely.
+- Sera Dain: surgical-consequence precision and rehabilitation progression; names what is viable, what delay costs, what progression requires, and what the body has actually demonstrated. Her uncertainty is surgical/clinical, not Hessa's channel-permission methodology.
+- Nerin: bedside practicality and indignity management; immediate body cues, humor, and physical basics without owning Sera's medical progression decisions.
 - Marn: hoist/mechanical-load authority; capacity, line angle, brake behavior, load transfer, and what the machine can safely carry.
+- Mara Fen: warehouse-owner commercial scope; receiving, issue records, lots, weights, suppliers, and the exact discrepancy she hired someone to verify. She will accept useful process suggestions while refusing scope expansion into an investigation she did not order.
+- Lerris Vane: carpenter/structural fastening judgment; attachment, material, wall condition, labor, and what can safely carry a rail after inspection. His `probably costs more` comes from structure, not generic caution.
+- Dela Marr: landlord/property authority; permission, permanence, cost, building value, and what alteration she will authorize for a tenant.
 
 Shared dryness is allowed. Do not force distinct catchphrases where domain and cadence already separate voices.
 
-## High-value attribution finding
+## High-value attribution findings
 
-Chapter 63 establishes an important exception to the normal light-tagging preference: during hazardous multi-person work where short commands govern different physical systems, heavier attribution improves tension because the reader can track exactly who owns each decision. Operational ambiguity is not productive suspense.
+- Chapter 63 establishes an important exception to the normal light-tagging preference: during hazardous multi-person work where short commands govern different physical systems, heavier attribution improves tension because the reader can track exactly who owns each decision. Operational ambiguity is not productive suspense.
+- Chapters 69 and 72 reinforce the opposite rule for stable relationship scenes: once a two-person rhythm is established, keep tags light unless interiority, a third speaker, movement, or a subject pivot makes the owner uncertain. Jorren, Sevren, and Alden should feel like different relationships, not transcript participants.
 
 ## Continuity/name cautions surfaced by dialogue pass
 
@@ -151,6 +156,7 @@ Chapter 63 establishes an important exception to the normal light-tagging prefer
 - Chapter 42 introduces **Rella**, explicitly noted in source as an existing name. Do not resolve identity by name alone inside this pass.
 - Chapter 51 introduces field lead **Tavin Marek Rusk**. Do not conflate her with the earlier wagon Tavin, Antonius's Rusk, or later Marek merely because names overlap.
 - Chapter 53 explicitly introduces another **Mara** at the barber shop, distinct in source from drink-shop Mara. Preserve the distinction unless canonical authority later resolves names.
+- Chapter 71 introduces **Mara Fen**, owner of West Spice Storage. Do not conflate her with drink-shop Mara or barber Mara merely by first name.
 
 Do not silently resolve these name/identity questions inside the attribution pass.
 
