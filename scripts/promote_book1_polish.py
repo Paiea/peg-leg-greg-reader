@@ -196,12 +196,8 @@ def promote_chapters(docx_path: Path, chapters_dir: Path, chapters: list[int]) -
             paragraph._p.getparent().remove(paragraph._p)
 
         if later:
-            # Interior chapter: preserve the following chapter heading as the
-            # insertion boundary.
-            next_heading = doc.paragraphs[_heading_map(doc)[chapter] + 1]
-            # The expression above is not guaranteed to identify the next
-            # chapter after body removal, so resolve it from the next chapter
-            # number instead.
+            # Interior chapter: re-resolve the next heading after body removal,
+            # then insert the replacement prose immediately before it.
             current_headings = _heading_map(doc)
             current_start = current_headings[chapter]
             next_indices = sorted(index for index in current_headings.values() if index > current_start)
@@ -210,9 +206,8 @@ def promote_chapters(docx_path: Path, chapters_dir: Path, chapters: list[int]) -
                 next_heading._p.addprevious(_make_paragraph(text, template))
         else:
             # Final chapter: there is no following heading to anchor insertion.
-            # Insert each new paragraph immediately after the chapter heading in
-            # reverse order. This keeps Word's trailing section properties in
-            # place and preserves the requested paragraph order.
+            # Insert immediately after the chapter heading in reverse order.
+            # This preserves Word's trailing section properties and prose order.
             for text in reversed(replacements[chapter]):
                 heading._p.addnext(_make_paragraph(text, template))
 
