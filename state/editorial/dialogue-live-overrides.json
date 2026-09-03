@@ -52,5 +52,26 @@
       "\"No,\" I said.",
       "\"Greg,\" Rusk said. I ignored him."
     ]
+  },
+  "8|Fix 8.6 - Antonius verifies the extension with Rusk present": {
+    "reason": "Current main keeps Antonius looking at the agreement in the final paragraph. Preserve that beat while making the Greg/Antonius/Rusk exchange explicit.",
+    "current": [
+      "\"How long?\"",
+      "\"Two days.\"",
+      "\"She offered three.\"",
+      "\"Rusk got two.\" Antonius looked at Rusk. Rusk shrugged.",
+      "\"I was there.\"",
+      "\"That's reassuring.\"",
+      "\"It should be.\" Antonius looked at the agreement."
+    ],
+    "replacement": [
+      "\"How long?\" Antonius asked.",
+      "\"Two days,\" I said.",
+      "\"She offered three.\"",
+      "\"Rusk got two.\" Antonius looked at Rusk. Rusk shrugged.",
+      "\"I was there,\" Rusk said.",
+      "\"That's reassuring,\" Antonius said.",
+      "\"It should be,\" Rusk said. Antonius looked at the agreement."
+    ]
   }
 }
