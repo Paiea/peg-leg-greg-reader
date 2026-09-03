@@ -4,160 +4,212 @@ Exact manuscript prose outranks this file.
 
 ## Core lens
 
-Hessa cares about what the evidence actually supports, what the body can safely tolerate, which variable changed, and what permission follows from the result.
+Hessa cares about **what the evidence actually supports, what the body can safely tolerate, which variable changed, and what permission follows from the result**.
 
 Precision is not a personality decoration for her. It is how she prevents Greg from hurting himself and how she keeps weak evidence from turning into fantasy.
 
-In later post-loss work, she also separates broad words into actual permissions. `Magic` is not one state. Prompting, drawing mana, deliberate alteration, shaping, stopping alteration, ceasing to feed an alteration, deliberate reduction toward baseline, maintaining a draw, casting, external effect, and clearance may each be different steps with different stopping conditions.
+Post-loss, `magic` is not one state. Hessa increasingly separates:
+- prompting;
+- drawing mana;
+- deliberate alteration;
+- localized shaping;
+- ceasing to feed an alteration;
+- deliberate RETURN toward the underlying draw;
+- maintaining the underlying draw;
+- releasing the whole draw;
+- bounded extension beyond the body;
+- observed external movement;
+- established external effect;
+- casting;
+- clearance.
 
-Her own condition is part of the safety system. Chapter 101 establishes that practitioner fatigue can be a reason not to spend judgment on an unnecessary test even when Hessa is not specifically afraid she would hurt Greg.
+Those are different questions with different stopping conditions. A success at one does not silently grant the next.
+
+Her own condition is part of the safety system. Chapter 101 establishes that practitioner fatigue can be enough reason to decline an otherwise probably-safe test because Hessa wants her judgment to be boring.
 
 ## Spoken rhythm
 
-Short, controlled, often procedural.
+Short, controlled, procedural when the work needs it.
 
-She asks questions more often than she volunteers explanations. When she does explain, the explanation tends to be exact and bounded rather than lyrical.
+She often asks before she explains. When she explains, the answer is bounded to the current question rather than expanded into philosophy.
 
-She does not need to answer Greg's joke. Silence is one of her strongest responses.
+Useful Hessa shapes:
+- correct the noun;
+- narrow the claim;
+- ask what evidence supports it;
+- distinguish one permission from another;
+- give a stopping condition;
+- record before interpreting;
+- refuse a second attempt when expectation has contaminated the question;
+- stop talking when Greg already knows the rule.
+
+Silence is one of her strongest responses. Do not turn every Hessa scene into a duel of one-liners.
 
 ## Humor
 
-Rare, dry, and therefore more valuable.
+Rare and dry enough to matter.
 
-Do not make every Hessa scene a duel of one-liners. A tiny joke or nearly-hidden smile lands because she spends so much time refusing Greg's conversational invitations.
+She can let Greg have a valid emotional reaction without rewarding it with permission. After his first successful post-amputation draw, she lets him be happy briefly and then restores `No casting.` Chapter 114 makes this explicit with `That is allowed.`
 
-Later prose shows she can also let Greg have a valid emotional moment before restating the limit. After his first successful post-amputation mana draw, she allows the happiness to exist for a few seconds before returning to `No casting.` That restraint matters more than extra warmth would.
-
-Chapter 114 extends that permission without softening her method. When accurate chronology gives Greg a legitimate reason to be pleased, she can say `That is allowed.` Allowing the feeling is not granting a stronger magical permission.
+Her humor can also come from refusing Greg's category games while still answering the real medical question.
 
 ## Disagreement / refusal
 
-Hessa does not negotiate because Greg is charming.
+Hessa's `no` is operational, not punitive.
 
-Common shapes:
-- correct the noun;
-- narrow the claim;
-- repeat the rule;
-- ask what evidence supports his conclusion;
-- stop the session when behavior or body state changes;
-- decline to reveal the next experiment;
-- cancel or narrow a planned assessment when her own margin is worse than she wants.
+She may refuse because:
+- the evidence does not support Greg's requested noun;
+- the body changed;
+- the current attempt produced an unwanted motor or familiar pattern;
+- practitioner margin is worse than she wants;
+- Greg is already leaning into the expected result;
+- repetition would train the test rather than answer it;
+- an external question would be uninterpretable because internal control is not yet good enough;
+- Greg is trying to convert omitted information into permission.
 
-Her `no` is usually operational, not punitive.
+More attempts are not automatically better.
 
-She may also refuse repetition when Greg's expectation has become part of the experiment. More trials are not automatically better if the subject is already leaning into the result.
+Chapters 105, 107, and 109 reinforce that a promising result is not a reason to chase a cleaner version immediately. Chapters 111 and 114 distinguish `Stop`, `Enough`, and `RETURN` as different control tasks rather than stylistic synonyms.
 
-Chapter 101 adds another reason to refuse: a test can be probably safe and still not be worth doing under reduced practitioner margin. Hessa's phrasing is practical: she wants her judgment to be boring.
+Chapter 120 adds another restraint: **do not turn repeated observations into a score.** Hessa keeps Ch111, Ch114, Ch117, and Ch120 separate because they answer related but non-identical questions. Greg's desire to count `three successful reductions` would erase the differences that matter to her.
 
-Chapters 105, 107, and 109 deepen the same restraint after shaping begins. A successful-looking narrow attempt is not a reason to repeat immediately. An unintended widening after a stop instruction is a reason to stop the session, preserve the observation, and wait rather than chase the cleaner result Greg wants.
-
-Chapters 111 and 114 add another kind of restraint: Hessa can change the instruction because the prior wording tested the wrong subskill for the next question. `Stop` led Greg to try to freeze an altered state. `Enough` asks him to stop feeding the deliberate alteration and let it settle while the underlying draw remains. Later `RETURN` asks for active reduction toward the ordinary draw. Those are not stylistic synonyms. They are different control tasks.
-
-She can also stop a useful test for a new motor sign before it becomes an injury. In Chapter 114 Greg reports that his fingers *want* to curl even though Hessa sees no actual movement. The task has already produced useful information, so that unrequested motor urge is enough reason to release rather than push for a cleaner result.
+The same chapter sharpens her anti-checking rule. Checking because something feels wrong can be useful. Repeated checking because Greg wants certainty creates noise and can become its own ritual.
 
 ## Information behavior
 
-She may know more than she says because giving Greg the answer can contaminate expectation or because he does not need the information yet.
+Hessa may know more than she says because information can contaminate expectation or because Greg does not need the next question yet.
 
-That withholding can be part of test design. In Chapters 91 and 94 she uses irrelevant or unexplained objects, changes order, and withholds an instrument's purpose specifically so Greg cannot unconsciously produce the result he expects.
+This is methodological, not mysterious mentor behavior.
 
-Chapter 103 extends the same logic into shaping. Hessa deliberately avoids Barrier for the first shaping question because it is too familiar and may pull Greg into an old trained pattern. The target is a tiny unfamiliar redistribution into the right thumb. Even the curved copper is visually changed so Greg does not unconsciously treat it as the same test, not because the curve itself has special shaping power.
+Examples:
+- Chapters 91 and 94: irrelevant or unexplained objects and changed order keep Greg from producing the result he expects.
+- Chapter 103: an unfamiliar tiny shaping target is chosen specifically because Barrier is too familiar and may recruit an old trained pattern.
+- Chapter 105: a draw-only non-recurrence after ordinary crutch use cannot explain a delayed symptom; `There is no clean comparison` is a refusal to pretend the body supplied one.
+- Chapter 111: physical load from Pessa's training changes what magical/body observation is worth doing next without becoming magic evidence itself.
+- Chapter 120: Hessa withholds the next possible test because Greg can rehearse decisions even without using mana.
+- Chapter 122: Hessa records what she saw before hearing the version Greg wants her to have seen.
 
-Chapter 105 adds an important control lesson after the delayed thumb tingling. Hessa does not promise interpretation before observation. A draw-only session plus a few minutes of ordinary crutch use can establish that tingling did not recur immediately under those conditions. It cannot explain the later symptom or erase the need to watch what happens during ordinary life. `There is no clean comparison` is not surrender; it is refusal to pretend the body has supplied a cleaner experiment than it has.
+Independent witnesses and apparatus are useful, but they answer only the question they can actually answer. Copper can support that a mana event changed while Greg separately reports phenomenology. It does not give Hessa a perfect map of what Greg feels.
 
-Chapter 111 adds cross-load context before another shaping question. Greg trained hard enough with Pessa to make his hands hot the prior day. Hessa first verifies that a minimal draw after that ordinary physical load does not immediately reproduce the hand symptom. Only then does she decide whether the shaping question is worth asking. Movement load is not magic evidence, but it can change what magical/body observation is worth doing next.
+## Post-loss control progression
 
-She records more than Greg would prefer.
+Do not turn this into a formal curriculum in prose. It is a durable evidence ladder for writers/editors.
 
-She may seek independent confirmation without treating Greg as dishonest. A tool can confirm that an event corresponding to a mana draw or redistribution occurred while Greg separately reports what the event felt like.
+### Chapters 91-103: prompt, draw, alteration
 
-Do not generalize her withholding into mysterious mentor behavior. Her reasons should remain methodological or practical unless prose establishes otherwise.
+Hessa first establishes that right-side channel response broadly persists and that body-map / phantom phenomena can be provoked without proving a restored missing-side channel.
 
-## Post-loss shaping progression
+She then separates draw from casting and eventually asks whether Greg can deliberately alter a small draw in an unfamiliar intact-side location.
 
-Chapter 103 creates the first important distinction.
+Chapter 103's thumb-localization instruction fails. The mana changes more broadly through the hand/wrist and begins a familiar old setup. Hessa therefore separates:
+- deliberate attempt;
+- observed alteration;
+- failure of the requested localization;
+- no external release;
+- no completed spell;
+- no casting clearance.
 
-Hessa's first shaping question is not `Can Greg cast Barrier again?` It is closer to: can he deliberately alter a small draw in a small unfamiliar way without an old trained form taking over?
+Failure of the instruction can still produce evidence. Do not upgrade it into success at a stronger claim.
 
-Greg fails the requested thumb localization. The mana shifts more broadly through palm and wrist and begins a familiar old setup. Hessa therefore separates several claims:
-- Greg deliberately attempted an alteration;
-- something in the right-hand channel pattern changed;
-- the change was broader than instructed;
-- no external release occurred;
-- no spell completed;
-- the event is evidence of deliberate alteration, not proof of successful thumb localization;
-- none of this is casting clearance.
+### Chapters 107-114: shaping, stopping, RETURN
 
-Failure of the instruction can still produce evidence. Do not convert that into success at a stronger claim.
+Chapter 107 asks an easier, cleaner localization question rather than repeating the failed thumb task. Greg makes a small change toward the intended area. Hessa finally grants the bounded word `shaped`, immediately limited to one small supervised test with no spell or clearance.
 
-Likewise, a familiar old form is not automatically reassuring. For the first shaping question, `too familiar` may make Barrier less useful because trained habit can conceal what Greg can deliberately control now.
+Chapter 109 asks whether Greg can stop shaping while maintaining the underlying draw. His forward progression reduces but the altered area widens. Hessa records a changed pattern after the stop instruction without calling it deliberate redirection.
 
-Chapter 107 changes the question rather than merely making the same task easier. Hessa marks a new intact-side target and deliberately asks for less precision than the failed thumb localization. Her reasoning is specific: failing a harder task twice in two different ways can teach less than asking a narrower question cleanly.
+Chapter 111 changes the cue to `Enough`. The question is whether Greg can stop deliberately feeding the alteration and let it settle while keeping the draw. The result is better but different and includes a wrist twitch.
 
-Greg produces one small localized alteration toward the marked area without the prior broad palm/wrist pattern. Hessa eventually agrees that, in the bounded ordinary meaning relevant to that test, he **shaped mana**. She immediately preserves the scope: once, small, supervised, no spell, no independent practice, no casting clearance.
+Chapter 114 introduces deliberate `RETURN`: actively reduce a shaped alteration toward the underlying draw while maintaining the draw. Greg partly succeeds but gets an unrequested urge to curl his fingers, which is enough for Hessa to stop before visible movement or injury.
 
-That `yes` matters because Hessa should not become a character who refuses every positive noun forever. She can grant the strongest claim the evidence actually earned while refusing all the stronger claims Greg wants to attach to it.
+### Chapters 117-120: repeatability without scorekeeping
 
-Chapter 109 adds the next distinction: initiating shaping is not the same as stopping shaping while maintaining the underlying draw. Hessa tells Greg to alter toward a forearm target, then calls `Stop` while requiring him to keep the draw stable. His forward progression reduces, but the altered area widens sideways before release.
+Chapter 117 makes the definition explicit: repeatability is not merely repeating an instruction twice. It is seeing whether a result remains available across enough changed conditions that accident becomes a less convincing explanation.
 
-Hessa does not call this clean stopping. She also does not collapse it into total failure. The pattern changed after the stop instruction, but that does not prove Greg deliberately redirected it; control may simply have degraded.
+Chapter 120 repeats deliberate reduction under a slightly changed forearm target. Greg reduces without the prior elbowward shift, motor urge, or separate edge-correction attempt.
 
-Chapter 111 deliberately changes the instruction because the previous `stop` cue led Greg to try to **freeze** the altered state. Hessa uses `Enough` instead. The task is to stop feeding the deliberate change and allow it to settle toward the underlying draw without releasing the draw.
+Hessa can therefore say her confidence increased. She does **not** collapse the prior attempts into one simple score and does not make identical replication the goal. The arm is not a board and the work is not laboratory reproduction.
 
-Greg's altered forearm response diminishes rather than broadens, and copper response diminishes with it, but his wrist twitches at the end. Hessa can therefore say she is reasonably confident he stopped deliberately feeding the change while still refusing a simple success category. The result is both **better** and **different** from the previous attempt.
+The important conclusion is narrower: Hessa is less concerned that once Greg deliberately alters a draw his only options are continue, lose the draw, or recruit another pattern.
 
-Chapter 114 asks a still different question with `RETURN`: can Greg actively reduce a shaped alteration toward his ordinary underlying draw while maintaining the draw, rather than merely ceasing to feed the alteration and waiting for it to settle?
+That makes external-effect testing more worth considering. It is not external-effect clearance.
 
-The result is mixed and therefore useful. The altered patch initially shifts toward the elbow, then Greg narrows and dims it; an unrequested urge to curl the fingers appears without visible movement, and Hessa orders release. Her bounded conclusion is `Partly.` One attempt supports that Greg **may have some deliberate influence over reducing an alteration while maintaining a draw**, but it does not establish clean deliberate reduction as a general capability.
+### Chapter 122: first bounded external question
 
-Future prose should preserve the growing ladder without pretending it is a formal curriculum:
-- initiate an alteration;
-- localize it toward a target;
-- change what it is doing;
-- cease deliberately feeding it while keeping the draw;
-- let it settle toward the underlying draw;
-- deliberately reduce it toward the underlying draw;
-- hold or stop it without unwanted recruitment;
-- release the whole draw;
-- eventually demonstrate enough repeatable control to justify considering an external effect.
+Chapter 122 is the first supervised attempt to deliberately extend an altered response beyond Greg's body.
 
-Hessa's external-effect threshold is explicitly **not one line or one number**. By Chapter 114 she names several things she would want to see more than once:
+Hessa's instruction is **REACH**, not release, push, cast, or Barrier.
+
+The setup uses a light thread three quarters of an inch from the right forearm. Hessa first observes baseline room movement because breath, airflow, vibration, heat, twist, and other causes can move the thread without mana.
+
+The permission is deliberately narrow:
+- one question;
+- one attempt under Hessa's instruction;
+- right forearm only;
+- small existing alteration;
+- maintain the underlying draw;
+- smallest extension toward the thread;
+- no force;
+- no broadening;
+- no hand/wrist/finger movement;
+- no independent reproduction afterward;
+- no spell;
+- no Barrier;
+- no general external-work clearance.
+
+The thread moves twice during the extension portion, once toward Greg and once sideways. It also moved during baseline.
+
+Hessa therefore refuses the stronger claim. Her wording is the important ceiling: **observed external movement during the attempt**, cause unknown. There is **no established external effect**.
+
+The test still teaches something useful. Greg can attempt a bounded outward extension without immediately releasing, broadening into the familiar pattern, recruiting the hand, or losing the underlying draw. When Hessa ends the external question, he can RETURN the alteration without the earlier unwanted responses.
+
+This is the key distinction:
+
+**An ambiguous external result can still produce useful internal-control evidence.**
+
+Do not write future prose as though the thread proved telekinesis, casting, Barrier recovery, or even a repeatable external effect.
+
+## External-effect threshold
+
+Hessa's threshold is not a secret number.
+
+By Chapters 114-122, the useful factors include:
 - deliberate initiation without broad unintended recruitment;
-- deliberate reduction or cessation without losing the entire draw;
-- no concerning physical symptom;
-- no familiar unrequested pattern taking over.
+- localization toward a requested intact-side target;
+- deliberate cessation or reduction while keeping the draw;
+- normal release when told;
+- absence of concerning physical symptoms;
+- no familiar unrequested casting pattern taking over;
+- enough repetition across changed conditions that accident is less convincing;
+- enough internal control that an external success or failure would be interpretable;
+- an apparatus/question that does not create more ambiguity than it resolves.
 
-She does not know how many repetitions will be enough. Repeatability is not merely repeating the same instruction twice; it is seeing whether the result remains available across enough changed conditions that accident becomes a less convincing explanation.
+Chapter 120 states the logic clearly: an external question is only useful if Hessa understands the internal behavior well enough that external success or failure means something.
 
-Her reason for caring remains concrete progression toward eventual external work. `External effect` is a criterion category, not a promise that such a test is next.
+Chapter 122 then demonstrates why. A thread can move for many ordinary reasons. A dramatic-looking event is not automatically better evidence than a boring, bounded one.
+
+A permission for **one external test** is not general external-test clearance. It is not casting clearance.
 
 ## With Greg
 
-There is real intellectual trust under the irritation. She increasingly expects him to understand the discipline and can make him state the rule instead of lecturing him again.
+There is real intellectual trust under the irritation. Hessa increasingly expects Greg to understand the discipline and can make him state the rule instead of lecturing him again.
 
 Greg becomes more Hessa-shaped in this relationship than anywhere else. That is relationship-specific and should not spread unchanged into every other conversation in Carrow.
 
-Post-loss, Hessa does not claim universal ownership of Greg's body. Chapter 94 makes the jurisdiction explicit: Hessa owns magic, Pessa owns movement, and Greg owns the body. The practical consequence is cross-reporting. Neither specialist gets to ignore the load created by the other's work.
+Hessa owns the magic lane. Pessa owns movement/training. Greg owns the body. Chapter 94's jurisdiction matters because the practical consequence is cross-reporting, not a philosophical speech.
 
-Keep that line practical rather than turning Hessa into a philosophical autonomy lecturer. In the scene she immediately converts it into who must tell whom what happened.
+Hessa also does not own Greg's non-medical day. Once she has stated the medical boundary, whether he trains, visits theatre, works, or does nothing is not automatically her decision.
 
-Hessa can also require Greg to live with a result before granting the next test. Boring days are not narrative stalling inside her voice. They are where delayed effects either appear or fail to appear.
+Boring intervals are part of the evidence. Delayed effects either appear or fail to appear during ordinary life.
 
-Chapter 105 adds another jurisdiction boundary. When Greg asks whether he can train with Pessa, Hessa eventually asks whether he actually wants to. Once she has stated that she has no medical objection, the rest is no longer automatically a medical question. Hessa should not turn medical authority into ownership of Greg's schedule or desire.
+The interval length can change with evidence. Chapter 120 shortens the next interval after a cleaner result plus prior tolerated living time. Chapter 122 lengthens it again after the first bounded external attempt. This is not reward/punishment; it is load and uncertainty management.
 
-Chapter 111 repeats that limit in a different way. Tomorrow does not need to contain Pessa simply because it cannot contain Hessa. A no-magic day is not a vacancy that must be optimized into another sanctioned improvement project.
+Hessa does not want monitoring to become compulsion. Ordinary hand use should stay ordinary. If Greg checks his thumb every few moments because he wants certainty, Hessa treats the checking itself as noise.
 
-Chapter 114 adds a small but important anti-ritual boundary. After the finger-curl urge, Greg starts asking permission for ordinary hand movement. Hessa tells him ordinary use is ordinary use. She does not want safety monitoring to turn every cup, grip, or finger movement into a self-test ritual.
-
-She can answer the emotionally harder question cleanly too. When Greg asks whether she thinks he can cast again, the answer is `I don't know.` Later positive shaping evidence gives her `one more reason not to conclude that you cannot`, not a false prognosis.
+She also protects the next test from Greg's planning. If he inspects apparatus, reverse-engineers airflow, or rehearses a future decision tree, he may arrive optimized for the test rather than available to answer it.
 
 ## Canon lines / fingerprints
 
 - **CANON LINE:** `Two non-responses.`
-- **CANON LINE:** `You said nonsense with a qualifier.`
-- **CANON LINE:** `A control answers a question. Adding one because controls are respectable does not make the question better.`
-- **CANON LINE:** `Successful restraint is not a reason to immediately demand more restraint under a stronger temptation.`
-- **CANON LINE:** `Not selected.`
 - **CANON LINE:** `Before is not now.`
 - **CANON LINE:** `Maybe means maybe.`
 - **CANON LINE:** `You own the body.`
@@ -165,31 +217,34 @@ She can answer the emotionally harder question cleanly too. When Greg asks wheth
 - **CANON LINE:** `Too familiar.`
 - **CANON LINE:** `I hate categories before evidence.`
 - **CANON LINE:** `You altered.`
-- **CANON LINE:** `Do not build a future out of one failed thumb.`
 - **CANON LINE:** `There is no clean comparison.`
 - **CANON LINE:** `It is exactly as useful as it is.`
 - **CANON LINE:** `You are learning.`
 - **CANON LINE:** `I don't know.` when asked whether Greg can cast again.
-- **CANON LINE:** `You made a change toward the intended area.`
-- **CANON LINE:** `Yes.` when Greg finally asks directly whether he shaped mana, immediately bounded by `Once, in a small supervised test, without a spell.`
-- **CANON LINE:** `The alteration did not continue in exactly the same way after the stop instruction.`
-- **CANON LINE:** `We do not know if you can. You did not today.`
-- **CANON LINE:** `It is early.`
+- **CANON LINE:** `Yes.` when Greg asks whether he shaped mana, immediately bounded by `Once, in a small supervised test, without a spell.`
 - **CANON LINE:** `You stopped deliberately feeding the change. I am reasonably confident of that.`
-- **CANON LINE:** `It is different.` followed by Greg's valid correction `It can be both.`
 - **CANON LINE:** `Partly.` when Greg asks whether he returned the alteration toward the underlying draw.
 - **CANON LINE:** `That is why I am the practitioner.`
 - **CANON LINE:** `Do not turn ordinary movement into a test ritual.`
-- **CANON LINE:** `That is allowed.` when Greg says he was about to be pleased.
-- **CANON LINE:** `Because if every shaping change can only end by dropping the entire draw, you have less control than I want before testing anything with an external effect.`
-- **CANON PATTERN:** after Greg's first successful post-amputation mana draw, Hessa confirms the result, lets him be happy briefly, then restores the existing no-casting boundary.
-- **CANON PATTERN:** for the first shaping attempt, uses an unfamiliar small target and a visually changed copper witness to reduce contamination by old trained expectation.
-- **CANON PATTERN:** treats a failed thumb-localization instruction as evidence of a broader deliberate alteration without upgrading it into spell success or clearance.
-- **CANON PATTERN:** after a later narrow target works, grants the word `shaped` while immediately preserving the small supervised scope.
-- **CANON PATTERN:** tests whether Greg can stop alteration while holding a draw, and treats unintended widening as a specific control failure rather than either total collapse or secret success.
-- **CANON PATTERN:** changes `Stop` to `Enough` when she wants to test cessation of deliberate feeding rather than freezing an altered state.
-- **CANON PATTERN:** later uses `RETURN` to test active reduction toward the underlying draw and stops on an unrequested motor urge even without visible movement.
-- **CANON PATTERN:** treats future external-effect consideration as a multi-criterion repeatability problem, not a single numerical threshold.
+- **CANON LINE:** `That is allowed.`
+- **CANON LINE:** `Because repeatability is not the same as repeating the instruction twice.`
+- **CANON LINE:** `Seeing whether a result remains available across enough changes that I stop thinking it was an accident.`
+- **CANON LINE:** `Checking once because something feels wrong is useful. Checking every thirty seconds because you want certainty creates noise.`
+- **CANON LINE:** `The point is to ask a question we can interpret.`
+- **CANON LINE:** `For one question.` when Greg asks whether the thread apparatus is clearance.
+- **CANON LINE:** `We record an observed external movement during the attempt.`
+- **CANON LINE:** `No established external effect.`
+- **CANON LINE:** `You were cleared for this external test.`
+- **CANON LINE:** `Unknown.` when Greg asks what caused the first thread movement.
+- **CANON PATTERN:** uses unfamiliar or obscured setups when expectation would contaminate the question.
+- **CANON PATTERN:** grants the strongest noun the evidence earns, then immediately preserves the scope.
+- **CANON PATTERN:** changes instruction when the prior wording tested the wrong subskill rather than merely repeating harder.
+- **CANON PATTERN:** treats motor urge as a stopping condition before injury or visible movement.
+- **CANON PATTERN:** refuses to turn repeated related observations into a score when the differences between attempts matter.
+- **CANON PATTERN:** first external test uses baseline observation and a deliberately harmless target; visible movement remains unattributed because the target also moves without magic.
+- **CANON PATTERN:** treats an ambiguous external test as useful internal-control evidence without upgrading the external claim.
+
+Exact wording should be rechecked against current manuscript authority before reuse; these are evidence, not catchphrases.
 
 ## Voice tests — NON-CANON
 
@@ -204,7 +259,7 @@ Calibration only.
 Hessa and Greg share evidence vocabulary because she taught and reinforced it. That overlap is canonically meaningful.
 
 Hessa and Pessa may both use `No`, `Maybe`, `Good`, and short correction loops. The distinction is jurisdiction and evidence source:
-- Hessa: controlled magical/body response, contamination of expectation, repeatability, practitioner margin, progression criteria, and permission;
+- Hessa: controlled magical/body response, contamination of expectation, repeatability, practitioner margin, progression criteria, apparatus ambiguity, and permission;
 - Pessa: physical movement, object load, drill objective, fatigue, integrated use, and the next embodied adjustment.
 
 Hessa may deliberately isolate or control a test variable. Pessa may explicitly reject the fiction that real movement has become isolated merely because an exercise was simplified. Preserve that difference.
@@ -217,21 +272,22 @@ Avoid:
 - generic magical mentor warmth;
 - constant clever put-downs;
 - turning every sentence into an aphorism;
-- explaining basic methodology again after Greg has clearly learned it;
+- explaining methodology again after Greg has clearly learned it;
 - Hessa becoming the universal voice of authorial correctness;
 - treating every unknown as mystical;
-- making `You own the body` into a reusable thesis line detached from the concrete split of magic, movement, and bodily load;
-- treating `probably safe` as automatically sufficient reason to perform an unnecessary test;
 - equating deliberate alteration with successful requested shaping;
 - equating a familiar old casting reflex with present clearance;
 - making Barrier the inevitable first milestone simply because Greg cares about it most;
-- refusing the word `shaped` after the manuscript has actually earned that bounded claim;
+- refusing the word `shaped` after the manuscript earns that bounded claim;
 - treating a changed pattern after `stop` as proof of deliberate redirection;
-- treating `external effect` as a promised next test rather than a future control threshold;
-- using medical authority to decide whether Greg should want ordinary non-medical activity after safety has been addressed;
-- treating `stop feeding`, `return`, `release`, and `hold` as interchangeable language once the manuscript distinguishes them;
+- treating `stop feeding`, `RETURN`, `release`, and `hold` as interchangeable;
 - turning one partial reduction into proof of clean control;
-- making safety observation turn ordinary post-test hand use into a ritualized series of self-tests;
-- treating pleasure in bounded progress as permission inflation.
+- turning ordinary post-test hand use into ritualized self-testing;
+- using medical authority to decide Greg's ordinary non-medical schedule;
+- treating pleasure in bounded progress as permission inflation;
+- converting observed thread movement into proof of an external magical effect;
+- converting one external-test permission into general external-work or casting clearance;
+- calling an ambiguous external result useless when the same attempt produced interpretable internal-control evidence;
+- treating a quieter or more controlled test as narratively less important than a dramatic but uninterpretable one.
 
 Hessa is strongest when exactness belongs specifically to the work she is doing.
