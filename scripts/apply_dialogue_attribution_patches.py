@@ -7,6 +7,8 @@ approved Book 1 name map in prose paragraphs, and preserves all non-paragraph
 reader markup (including illustrations and navigation).
 
 It is intentionally strict: unresolved or multiply-matching patches fail.
+Editorial `...` lines are treated as explicit preserved gaps between exact
+replacement segments, never as permission for fuzzy matching.
 """
 
 from __future__ import annotations
@@ -27,6 +29,7 @@ P_RE = re.compile(r"<p(?:\s[^>]*)?>(.*?)</p>", re.DOTALL | re.IGNORECASE)
 TAG_RE = re.compile(r"<[^>]+>")
 BR_RE = re.compile(r"<br\s*/?>", re.IGNORECASE)
 ARTICLE_RE = re.compile(r"(<article\s+class=\"prose\"[^>]*>)(.*?)(</article>)", re.DOTALL | re.IGNORECASE)
+GAP = "\0PLG_PATCH_GAP\0"
 
 
 @dataclass(frozen=True)
@@ -143,14 +146,17 @@ def _parse_batch(content: str, source_file: str, min_chapter: int, max_chapter: 
             if lowered.startswith("replace"):
                 mode = "replacement"
                 continue
-            if (
-                lowered.startswith("current")
-                or lowered.startswith("stale reader rendering")
-            ):
+            if lowered.startswith("current") or lowered.startswith("stale reader rendering"):
                 mode = "current"
                 continue
             if lowered.startswith("reason:"):
                 finalize()
+                continue
+
+            if raw_line.strip() == "..." and mode in {"current", "replacement"}:
+                target = current if mode == "current" else replacement
+                if target and target[-1] != GAP:
+                    target.append(GAP)
                 continue
 
             code_match = INLINE_CODE_RE.match(raw_line.strip())
@@ -211,7 +217,18 @@ def _find_sequence_canonical(paragraphs: list[Paragraph], wanted: tuple[str, ...
     ]
 
 
-def _replace_patch(article_body: str, patch: Patch) -> tuple[str, str]:
+def _split_gaps(values: tuple[str, ...]) -> list[tuple[str, ...]]:
+    segments: list[list[str]] = [[]]
+    for value in values:
+        if value == GAP:
+            if segments[-1]:
+                segments.append([])
+            continue
+        segments[-1].append(value)
+    return [tuple(segment) for segment in segments if segment]
+
+
+def _replace_exact_segment(article_body: str, patch: Patch) -> tuple[str, str]:
     paragraphs = _paragraphs(article_body)
 
     replacement_hits = _find_sequence(paragraphs, patch.replacement)
@@ -249,7 +266,6 @@ def _replace_patch(article_body: str, patch: Patch) -> tuple[str, str]:
 
     first, last = old_nodes[0], old_nodes[-1]
     between = article_body[first.start : last.end]
-    # Different paragraph counts are allowed only when the patch does not cross art or other markup.
     stripped = P_RE.sub("", between)
     if stripped.strip():
         raise RuntimeError(
@@ -258,6 +274,31 @@ def _replace_patch(article_body: str, patch: Patch) -> tuple[str, str]:
     new_block = "".join(f"<p>{_html_for_text(text)}</p>" for text in patch.replacement)
     article_body = article_body[: first.start] + new_block + article_body[last.end :]
     return article_body, "applied"
+
+
+def _replace_patch(article_body: str, patch: Patch) -> tuple[str, str]:
+    if GAP not in patch.current and GAP not in patch.replacement:
+        return _replace_exact_segment(article_body, patch)
+
+    current_segments = _split_gaps(patch.current)
+    replacement_segments = _split_gaps(patch.replacement)
+    if len(current_segments) != len(replacement_segments):
+        raise RuntimeError(
+            f"{patch.source_file} {patch.label}: gapped patch has {len(current_segments)} current segments and {len(replacement_segments)} replacement segments"
+        )
+
+    statuses: list[str] = []
+    for index, (current, replacement) in enumerate(zip(current_segments, replacement_segments), start=1):
+        segment_patch = Patch(
+            chapter=patch.chapter,
+            label=f"{patch.label} [segment {index}]",
+            current=current,
+            replacement=replacement,
+            source_file=patch.source_file,
+        )
+        article_body, status = _replace_exact_segment(article_body, segment_patch)
+        statuses.append(status)
+    return article_body, "already" if all(status == "already" for status in statuses) else "applied"
 
 
 def _canonicalize_article_paragraphs(article_body: str) -> tuple[str, int]:
@@ -323,11 +364,7 @@ def main() -> int:
         path = args.chapters_dir / f"{chapter:03d}.html"
         if not path.exists():
             raise RuntimeError(f"missing chapter page: {path}")
-        changed, stats = apply_to_chapter(
-            path,
-            by_chapter.get(chapter, []),
-            canonicalize=True,
-        )
+        changed, stats = apply_to_chapter(path, by_chapter.get(chapter, []), canonicalize=True)
         total["files_changed"] += int(changed)
         for key in ("applied", "already", "name_paragraphs"):
             total[key] += stats[key]
