@@ -8,7 +8,7 @@ Nessa notices objects in motion: where a prop belongs, what must reset, what som
 
 She is concrete before abstract.
 
-Chapter 144 sharpens the costume side of that lens. A garment is not correct merely because it is clean, short enough not to catch dirt, or mechanically intact. Actor height, the actual shoe, the scene, designed drag, and what the hem does during movement can all be part of the object's intended function.
+A garment is not correct merely because it is clean, short enough not to catch dirt, or mechanically intact. Actor height, the actual shoe, the scene, designed drag, movement, duration, and live wear can all be part of the object's intended function.
 
 ## Spoken rhythm
 
@@ -21,12 +21,13 @@ Her lines commonly function as:
 - hold still;
 - use this route;
 - don't touch that;
-- here's the corrected shorthand;
-- use the right shoe/hem/object for the scene currently being solved.
+- use the correct shoe/hem/object;
+- repair this now;
+- abandon the preferred option when it will not be ready in time.
 
 Do not make her explain the whole prop or costume system when one usable sentence does the job.
 
-When a newcomer has misunderstood the object, she can explain the exact performance consequence in one compact chain rather than arguing taste.
+When somebody has misunderstood the object, she can explain the exact performance consequence in one compact chain rather than arguing taste.
 
 ## Humor
 
@@ -34,7 +35,9 @@ Dry and situational. Often comes from accumulated history with objects and peopl
 
 Her funniest lines can be corrections that are funny because everyone already knows the history.
 
-She can threaten consequences in work language without becoming a permanent scold. `Then die usefully.` works because Pell has just complained that unpacking the correct coat will anger Davin and the production still needs the coat.
+`Then die usefully.` works because Pell has just complained that unpacking the correct coat may anger Davin and the production still needs the coat.
+
+During live repair, `Then stop breathing` can answer Serra's `Don't stab me` because the seam is being repaired while the actor is still wearing the dress. The work creates the joke; Nessa does not pause to perform it.
 
 ## Disagreement / refusal
 
@@ -44,23 +47,47 @@ If Marek creates a problem, she handles the object/problem. She does not need to
 
 If somebody else discovers useful information, she can absorb it immediately without praise ceremony.
 
-Chapter 144 gives an important costume refusal: a road-practical alteration can still be wrong. Pell shortening a mourning dress because it drags in dirt does not answer what the dress must do onstage. Nessa's objection is not sentimentality about the original garment. The hem was cut for an actress, a shoe, and a scene.
+Chapter 144 establishes that a road-practical alteration can be wrong for performance. Pell shortening a mourning dress because it drags in dirt does not answer what the dress must do onstage. The hem was cut for an actress, a shoe, and a scene.
+
+Chapters 149-151 add two refinements.
+
+First, yesterday's explanation does not own today's problem. If the hem now `Pulls`, Nessa checks the current pull rather than insisting the shoe explanation must still be correct.
+
+Second, **brief successful wear is not full performance proof**. In Chapter 150, a garment having held for six minutes does not persuade Nessa because `Today nobody wore it` in the sense that matters: it has not survived the duration and movement of the actual show.
+
+## Live-performance repair
+
+Once the paid show is running, Nessa's job changes from preparation to continuity under use.
+
+She can:
+- stop Serra immediately after a scene because a seam opened;
+- repair the dress while Serra is still wearing it;
+- direct `Back.` / `Arm.` and keep the repair smaller than a costume discussion;
+- have Marek hold fabric as soon as he comes offstage, with no concern for whether he was King ten seconds ago;
+- abandon the red dress when it will not be ready and use blue instead;
+- keep costume work moving between shows rather than treating applause as the end of the workday.
+
+Live repair is not evidence that any damaged costume can always be patched safely in place. It is the current work solution when the exact object allows it.
 
 ## Information behavior
 
-She knows practical continuity inside her domain. She may assume context that newcomers lack because the theatre has already been living with the object for days.
+Nessa knows practical continuity inside her domain. She may assume context newcomers lack because the theatre has already been living with the object for days.
 
 She is not omniscient and can be surprised.
 
 Costume information can be distributed among Nessa, Rinna, Serra, Pell, and whoever packed the shoe. Nessa may own the performance-function question without personally owning every bag, repair, or business decision.
 
+She can also relinquish a preferred plan when current time defeats it. The red dress can become blue without a philosophical defense because the show still has to happen.
+
 ## With Greg
 
-As Greg becomes familiar, she should need fewer directions. Her dialogue with him can become route/object shorthand rather than repeated onboarding.
+As Greg becomes familiar, she needs fewer directions. Her dialogue with him can become route/object shorthand rather than repeated onboarding.
 
-She may trust him with a specific object because of history without promoting him into her domain generally.
+She may trust him with a specific object or errand because of history without promoting him into her domain generally.
 
-If Greg is present during a costume argument, she does not need him as judge. Chapter 144's mourning-dress dispute is already legible through the garment, shoe, and scene. His opinion is not authority merely because he noticed the argument.
+If Greg is present during a costume dispute, she does not need him as judge. His opinion is not authority merely because he noticed the problem.
+
+By Chapter 151, she can simply throw Greg thread and say `Pell.` The theatre already supplies the rest of the route.
 
 ## Canon lines / fingerprints
 
@@ -71,8 +98,12 @@ If Greg is present during a costume argument, she does not need him as judge. Ch
 - **CANON LINE:** `Marek learned through his face.`
 - **CANON LINE:** `It is cut for the actress's height, the shoe, and the scene. It drags by design. The hem moves when she turns.`
 - **CANON LINE:** `Then die usefully.`
+- **CANON LINE:** `Today nobody wore it.`
+- **CANON LINE:** `Then stop breathing.` during an in-place seam repair.
 - **CANON PATTERN:** a practical offstage alteration can be rejected when it destroys intended onstage movement or costume geometry.
-- **CANON PATTERN:** the correct costume state may depend on the exact performance shoe rather than the garment in isolation.
+- **CANON PATTERN:** the correct costume state may depend on the actual performance shoe rather than the garment in isolation.
+- **CANON PATTERN:** a new material symptom can replace yesterday's explanation as the current repair problem.
+- **CANON PATTERN:** live repairs are routed by what keeps the worn costume functioning through the show, not by preserving the dignity of the preparation process.
 
 ## Voice tests — NON-CANON
 
@@ -84,11 +115,11 @@ Calibration only.
 
 ## Overlap allowed
 
-Nessa and Rinna can both be concise theatre voices. Rinna routes business and assignment. Nessa routes physical object continuity and execution.
+Nessa and Rinna can both be concise theatre voices. Rinna routes business and assignment where exact authority supports it. Nessa routes physical object continuity and execution.
 
-Nessa and Teren can both correct quickly. Teren corrects performance behavior/page consequence. Nessa corrects the material path around it.
+Nessa and Teren can both correct quickly. Teren corrects performance/page consequence. Nessa corrects the material path around it.
 
-Nessa and Davin can both reject a superficially practical fix. Davin's reference system is load, hardware, rope, wagon, and repair. Nessa's is what the prop/costume must physically do when performed.
+Nessa and Davin can both reject a superficially practical fix. Davin's reference system is load, hardware, rope, wagon, scenery, and repair. Nessa's is what the prop/costume must physically do when performed.
 
 ## Watch list
 
@@ -99,5 +130,7 @@ Avoid:
 - universal backstage authority;
 - Hessa-style explanation of why every observation matters;
 - treating every Marek interaction as the same joke;
-- making `shorter`, `cleaner`, or `less likely to drag` automatically better when the costume is designed for stage movement;
-- making her the sole costume worker when exact prose distributes work across Pell, Rinna, Serra, and others.
+- making `shorter`, `cleaner`, or `less likely to drag` automatically better when stage movement requires something else;
+- treating six minutes of limited wear as proof a repair is show-ready;
+- making her the sole costume worker when exact prose distributes work across Pell, Rinna, Serra, and others;
+- treating live repair as magic competence that can solve any garment problem instantly.
