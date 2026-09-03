@@ -18,7 +18,10 @@ Primary changes:
 - strengthen subtle recurring-character voice fingerprints through cadence, vocabulary, register/education, confidence, humor, information density, and professional habits;
 - preserve shared Carrow/local speech where culturally or relationally natural;
 - remove decorative action beats only when they exist solely to avoid attribution;
-- consult relevant `state/voices/` pages for substantial recurring-character dialogue.
+- consult relevant `state/voices/` pages for substantial recurring-character dialogue;
+- **keep those voice pages live during the rest of the pass**: when later exact prose substantially sharpens a recurring character's cadence, register, relationship language, professional lens, refusal pattern, humor source, or information behavior, update the existing page rather than treating the first voice pass as frozen.
+
+Do not update a voice page merely because the character spoke again. Update it when the new evidence changes what a future writer should preserve.
 
 ## Explicitly parked for this pass
 
@@ -69,6 +72,8 @@ Use exact replacement patches when a chapter needs only attribution/voice surger
 
 This pass remains editorial WIP until integrated into manuscript/reader authority. The user has explicitly approved shipping accepted dialogue/attribution improvements to the illustrated reader as they are integrated; do not hold improved reader prose for completion of all 301 chapters. Structural compression remains separately parked.
 
+Current live-integration lane: `integration/dialogue-attribution-live-001-080` / PR #45 is responsible for applying the accepted Book I patches through Chapter 80 to the illustrated reader and promoting the resulting prose into canonical Book I authority without merging structural-compression experiments.
+
 Do not claim a chapter is covered until its exact source was reviewed and the batch result was durably written and fetched back from GitHub.
 
 ## Coverage ledger
@@ -111,7 +116,7 @@ A chapter counts as reviewed only after exact source prose and necessary neighbo
 - Dorrin: stone-yard specifications and commercial boundaries; grade, tolerance, size, purpose, and what a customer actually paid to know.
 - Mevi: manual workflow and load handling; one demonstration, immediate correction, then back to work.
 - Holl: commercial ward-material sorting and throughput; cares which pile a worker should choose, asymmetric commercial error, and tools usable without him more than theoretical exactness.
-- Pessa: working-road and embodied training judgment; reads surfaces, drainage, distance, body commitment, practical objective, and what the drill is actually meant to teach.
+- Pessa: working-road and embodied training judgment; reads surfaces, drainage, distance, body commitment, practical objective, and what the drill is actually meant to teach. Durable page: `state/voices/PESSA.md`.
 - Tam: customer-specific shoe work and local trade routing; terse use-first answers attached to actual object/person, with enough social embeddedness to route adjacent practical problems.
 - Sevren: courier route knowledge plus low-pressure friendship; arrival, detours, fatigue, informal messages, social logistics, and useful identifiers. He can offer a cart or bread without making Greg a project.
 - Lio: ordinary multi-job competence; has done practical things before without turning them into a professional identity.
@@ -119,8 +124,8 @@ A chapter counts as reviewed only after exact source prose and necessary neighbo
 - Leth: roadwright uncertainty; speaks from the physical state of the repair and does not pretend ten minutes cannot become twenty.
 - Maret: production-line symptoms and customer use; speaks from shifts, mounts, feed lines, heat, flutter, and whether output actually changed.
 - Bram: experienced freight handling; practical geometry from moving real wagons, willing to walk a turn and accept a stop without surrendering expertise.
-- Sera Dain: surgical-consequence precision and rehabilitation progression; names what is viable, what delay costs, what progression requires, and what the body has actually demonstrated.
-- Nerin: bedside practicality and indignity management; immediate body cues, humor, and physical basics without owning Sera's medical progression decisions.
+- Sera Dain: surgical-consequence precision and rehabilitation progression; names what is viable, what delay costs, what progression requires, and what the body has actually demonstrated. Durable page: `state/voices/SERA_DAIN.md`. Keep separate from `state/voices/SERA.md` unless exact continuity proves identity.
+- Nerin: bedside practicality and indignity management; immediate body cues, humor, and physical basics without owning Sera Dain's medical progression decisions. Durable page: `state/voices/NERIN.md`.
 - Marn: hoist/mechanical-load authority; capacity, line angle, brake behavior, load transfer, and what the machine can safely carry.
 - Mara Fen: warehouse-owner commercial scope; receiving, issue records, lots, weights, suppliers, and the exact discrepancy she hired someone to verify.
 - Lerris Vane: carpenter/structural fastening judgment; attachment, material, wall condition, labor, and what can safely carry a rail after inspection.
@@ -134,11 +139,11 @@ Shared dryness is allowed. Do not force distinct catchphrases where domain and c
 
 - Hazardous multi-person work with short commands needs heavier attribution because the reader must know who owns each physical system and decision.
 - Stable two-person relationship scenes can remain light once rhythm is established; re-tag after interiority, movement, third-speaker entry, or a subject pivot.
-- Chapters 74-80 strengthen the larger voice rule: **professional differentiation is often more valuable than bespoke diction**. Concise competent people can share Carrow language while remaining distinct because they decide different kinds of things. Lerris fits structure, Edrin controls evidence, Sera controls clinical progression, Hessa controls repeatable safety procedure, Holl controls commercial sorting decisions, Merra controls record support, Pessa controls embodied field/training judgment, Rima controls customer fit, and Tam controls use-first craft judgment.
+- Chapters 74-80 strengthen the larger voice rule: **professional differentiation is often more valuable than bespoke diction**. Concise competent people can share Carrow language while remaining distinct because they decide different kinds of things. Lerris fits structure, Edrin controls evidence, Sera Dain controls clinical progression, Hessa controls repeatable safety procedure, Holl controls commercial sorting decisions, Merra controls record support, Pessa controls embodied field/training judgment, Rima controls customer fit, and Tam controls use-first craft judgment.
 
 ## Continuity/name cautions surfaced by dialogue pass
 
-- Book I reader pages may still render **Pell** where canonical name-map authority says **Arlo**. Integration must use Arlo. Chapter 80 contains one such stale reference.
+- Book I reader pages may still render **Pell** where canonical name-map authority says **Arlo**. Live integration must use Arlo throughout the accepted Book I range.
 - Chapter 31 stoneworker **Rinna**: verify against later theatre Rinna before sharing voice authority.
 - Chapter 35 early **Nessa**: verify against later theatre Nessa before back-propagating occupational traits.
 - Chapter 39 Berren's aunt **Vessa** versus workshop Vessa: do not resolve from shared name alone.
@@ -146,6 +151,7 @@ Shared dryness is allowed. Do not force distinct catchphrases where domain and c
 - Chapter 51 field lead **Tavin Marek Rusk**: do not conflate with wagon Tavin, Antonius's Rusk, or later Marek.
 - Chapter 53 barber **Mara** is explicitly another Mara from drink-shop Mara.
 - Chapter 71 **Mara Fen** owns West Spice Storage. Do not conflate with other Maras by first name.
+- `SERA.md` and `SERA_DAIN.md` deliberately remain separate voice authorities.
 
 Do not silently resolve these name/identity questions inside the attribution pass.
 
@@ -156,8 +162,11 @@ Do not silently resolve these name/identity questions inside the attribution pas
 - `state/voices/RUSK.md`
 - `state/voices/JORREN.md`
 - `state/voices/ALDEN.md`
+- `state/voices/PESSA.md`
+- `state/voices/SERA_DAIN.md`
+- `state/voices/NERIN.md`
 
-Existing `state/voices/SEVREN.md` remains the durable Sevren guide.
+Existing `state/voices/SEVREN.md` remains the durable Sevren guide. `state/voices/INDEX.md` now explicitly treats voice pages as living authority that should be updated later when substantial new exact prose sharpens a recurring character.
 
 These are specialist editorial aids, not canon substitutes.
 
