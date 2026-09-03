@@ -86,10 +86,10 @@ Do not claim a chapter is covered until its exact source was reviewed and the ba
 ## Coverage ledger
 
 - Chapters 1-301: **NOT YET COMPLETE**
-- Verified reviewed range: **Chapters 1-35**
-- No-change chapters in reviewed range: **1, 4, 5, 6, 7, 11, 12, 13, 14, 18, 19, 28**
+- Verified reviewed range: **Chapters 1-41**
+- No-change chapters in reviewed range: **1, 4, 5, 6, 7, 11, 12, 13, 14, 18, 19, 28, 38**
 - Chapters with hard attribution fixes recorded: **2, 3**
-- Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35**
+- Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 39, 40, 41**
 - Durable batches:
   - `state/editorial/dialogue-pass/BATCH_001_004.md`
   - `state/editorial/dialogue-pass/BATCH_005_010.md`
@@ -100,7 +100,8 @@ Do not claim a chapter is covered until its exact source was reviewed and the ba
   - `state/editorial/dialogue-pass/BATCH_023_026.md`
   - `state/editorial/dialogue-pass/BATCH_027_030.md`
   - `state/editorial/dialogue-pass/BATCH_031_035.md`
-- Current source edge: **Chapter 36**
+  - `state/editorial/dialogue-pass/BATCH_036_041.md`
+- Current source edge: **Chapter 42**
 
 ## Completion definition for one chapter
 
@@ -122,7 +123,7 @@ Early Book I already contains useful natural separation:
 - Arlo: workshop/mechanism/time/measurement; precision comes from the bench rather than generic evidence doctrine.
 - Hessa: controlled procedural instruction tied to body, safety, and repeatability.
 - Jorren: peer-level physical truth; sees stance, rhythm, overcommitment, fatigue, and what a fighter is actually doing without turning every correction into theory.
-- Alden: fast, ambitious, initiative-seeking, willing to learn, and prone to treating early advantage as something already owned.
+- Alden: fast, ambitious, initiative-seeking, willing to learn, and increasingly capable of building rules that preserve tomorrow's work rather than chasing today's exchange.
 - Edrin: guild warding/custody; authority comes from responsibility for sealed structures and controlled access rather than from personal teaching.
 - Octavia: freight coordination; precision comes from routing real goods through real constraints, not from abstract system-building.
 - Dema Rusk: field-recovery instruction; teaches Bronze parties how to stop, count, move, and decide after plans fail. She is not the same voice authority as Antonius's Rusk.
@@ -132,6 +133,10 @@ Early Book I already contains useful natural separation:
 - Kellan: institutional magical measurement; field saturation, reference checks, rates, and instrument language.
 - Sava: civilian-group responsibility; counting, keeping people moving, and knowing social obligations the escorts do not.
 - Vessa: fabrication judgment; notices how fixtures and handling affect the physical workpiece rather than treating measurement as the whole job.
+- Berren: broad unfinished confidence, humor through injury, appetite for difficult work, and quick combat understanding once Greg stops over-explaining.
+- Etta: worksite objective and temporary repair; the mill needs to move now, perfect repair can belong to the mason later.
+- Ossin: manual/body knowledge; knots, footing, load, and what tomorrow's hands will feel like.
+- Dorrin: stone-yard specifications and commercial boundaries; grade, tolerance, size, purpose, and what a customer has actually paid to know.
 
 Shared dryness is allowed. Do not force distinct catchphrases where domain and cadence already separate the voices.
 
@@ -140,6 +145,7 @@ Shared dryness is allowed. Do not force distinct catchphrases where domain and c
 - Book I reader pages may still render **Pell** where canonical name-map authority says **Arlo**. Integration must use Arlo.
 - Chapter 31 introduces a stoneworker named **Rinna**. Verify against later theatre Rinna before applying one voice authority across both appearances.
 - Chapter 35 introduces **Nessa** in a social/food-selling context. Verify whether this is the same person as later theatre Nessa before back-propagating occupational voice traits.
+- Chapter 39 mentions Berren's aunt **Vessa** while workshop Vessa is already established. Do not connect or separate them merely from the shared name without exact continuity evidence.
 
 Do not silently resolve these name/identity questions inside the attribution pass.
 
