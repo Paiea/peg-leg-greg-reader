@@ -149,6 +149,7 @@ Early Book I operational / relationship pages:
 Recurring work/household/social pages:
 - `JORI.md`
 - `DAVIN.md`
+- `IVEN.md`
 - `CALA.md`
 - `MARRA.md`
 - `JESSA.md`
