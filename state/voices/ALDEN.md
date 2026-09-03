@@ -14,9 +14,12 @@ He notices:
 - whether an opening exists;
 - whether somebody else is competent enough to follow;
 - whether a useful correction can be applied immediately;
-- what rank, money, or next opportunity opens the next door.
+- what rank, money, or next opportunity opens the next door;
+- whether a limit means inability or simply lack of permission.
 
 When nobody has clearly taken charge, Alden has a tendency to behave as though the center is available and step into it.
+
+That initiative should not be confused with entitlement. Chapter 104 shows that he can ask for access, receive a direct no, and move on without turning the refusal into a status contest.
 
 ## Sentence shape
 
@@ -29,6 +32,8 @@ Default:
 
 He does not need to deliver speeches about leadership. His assumption of initiative should appear through conversational behavior before ideology.
 
+When he needs to distinguish two operational states, he often asks the shortest useful question. `Can't or aren't allowed?` is representative: he wants the boundary that changes what is possible next.
+
 ## Vocabulary and register
 
 Young adventurer register.
@@ -40,7 +45,8 @@ Natural domains:
 - fights;
 - next step;
 - whether someone is actually better than they look;
-- what a correction buys immediately.
+- what a correction buys immediately;
+- whether a restriction is practical, temporary, or about actual capability.
 
 Do not give present Alden historical grandeur, military diction, or future-title language merely because Greg remembers a song.
 
@@ -69,6 +75,8 @@ He does not need to pretend the correction was his idea.
 
 But he may overuse a new insight before he has actually integrated it. Early pattern: once an advantage works, he wants to spend it again immediately.
 
+Chapter 104 adds a useful distinction in how he questions Greg's magic recovery. `Can't or aren't allowed?` and then `Could you?` separate actual ability from Hessa's current restriction. He is not asking for the full medical model. He wants the part that changes the practical future.
+
 ## Conflict / disagreement
 
 Alden is not especially defensive about being corrected. He is more likely to challenge whether the correction is useful or whether the person giving it can justify it.
@@ -78,6 +86,8 @@ When he disagrees, he may:
 - test the advice;
 - turn the structure back on the advisor;
 - take initiative rather than argue abstractly.
+
+But a clear personal boundary does not automatically become something to overcome. In Chapter 104 he asks whether he can watch Greg's next assessment. Greg says, `I don't want you there.` Alden answers `All right.` The absence of persuasion is part of the characterization.
 
 ## Relationship language with Greg
 
@@ -95,6 +105,8 @@ Greg notices:
 - Alden becomes less careful when he thinks he has already won the useful part;
 - Alden's name survives in an incomplete future song.
 
+Later friendship should preserve an important limit: Alden can be intensely curious about Greg without believing curiosity grants access. A direct `I don't want you there` can be enough.
+
 Do not let Greg's future anxiety write Alden's present dialogue for him.
 
 ## Relationship language with Jorren
@@ -110,11 +122,13 @@ Do not flatten Alden into:
 - arrogant prodigy caricature;
 - Greg's recruit who automatically accepts Greg's hierarchy;
 - generic ambitious rival;
-- grand speechmaker.
+- grand speechmaker;
+- somebody whose initiative means every boundary becomes a challenge;
+- a friend who treats Greg's medical or magical privacy as information he is owed.
 
-Present Alden is a Bronze adventurer who can stop a robbery, carry a goat, lose to Jorren, learn fast, and ask what Jorren does badly next.
+Present Alden is a Bronze adventurer who can stop a robbery, carry a goat, lose to Jorren, learn fast, ask what Jorren does badly next, and accept a plain no without making it about himself.
 
-## Useful canon fingerprints from early Book I
+## Useful canon fingerprints from early Book I / early Book II
 
 Patterns worth protecting:
 - `Somebody should give orders.`
@@ -122,10 +136,15 @@ Patterns worth protecting:
 - wanting Gold, then Platinum, then `whatever comes after` without ceremonial ambition language;
 - `Everything is optional until someone stops you.`
 - turning Greg's analysis structure around and asking what Jorren does badly;
-- treating the South Canal contract as something to reserve while he finds bodies.
+- treating the South Canal contract as something to reserve while he finds bodies;
+- **CANON LINE:** `Can't or aren't allowed?`
+- **CANON LINE:** `Could you?`
+- **CANON PATTERN:** asks to watch Greg's next magic assessment; when Greg says `I don't want you there`, answers `All right` and drops it.
 
 These are patterns, not catchphrases.
 
 ## Attribution note
 
 Alden, Greg, and Jorren can all answer with fast dry confidence. In shared scenes, use clean tags at conversational pivots. Do not make Alden more flamboyant merely so the reader can identify him without attribution.
+
+When Alden is the person who opened a practical question, tag his follow-up at the first crowded hinge rather than relying on initiative alone to identify him.
