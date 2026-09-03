@@ -14,7 +14,7 @@ Do not inflate either lane into universal theatre authority. Teren does not beco
 
 ## Three operating modes
 
-Chapters 146-152 make it important to distinguish three theatre environments.
+Chapters 146-158 make it important to distinguish three theatre environments.
 
 ### Closed rehearsal
 
@@ -53,6 +53,8 @@ Before the show, `Don't wait for yesterday.` is a local warning against reproduc
 
 Chapter 152 adds another live boundary: not every omitted word requires repair. If nothing downstream depends on it, the show can keep moving without restoring it.
 
+Chapters 156-158 add a related distinction under substitution pressure. The show may tolerate paraphrase and line cuts while still requiring certain facts to survive because later beats depend on them.
+
 ## Spoken rhythm
 
 Brief without being cryptic for style.
@@ -73,7 +75,8 @@ At company scale, his answers can be equally compressed:
 - `Maybe three.`
 - `Dead.`
 - an actual pay rate when Greg's pay is the question;
-- `Learn the first page.` when a late casting failure creates an impossible-looking new role.
+- `Learn the first page.` when a late casting failure creates an impossible-looking new role;
+- `Learn less.` when another experienced actor has already reduced that emergency role to what the show needs.
 
 The compression comes from work pressure and shared context, not mystique.
 
@@ -109,7 +112,7 @@ Chapter 128 establishes that **scene survival is not the same as executing the i
 
 Chapters 147-149 sharpen it further.
 
-Greg can preserve Shopkeeper while still waiting for yesterday's laugh. Marek can cover Serra's skipped line while hiding the very mistake Serra needs to detect. A strong improvised `spoon` can be worth recording without becoming fixed text.
+Greg can preserve Shopkeeper while still be waiting for yesterday's laugh. Marek can cover Serra's skipped line while hiding the very mistake Serra needs to detect. A strong improvised `spoon` can be worth recording without becoming fixed text.
 
 Teren therefore protects the current question, not every successful recovery.
 
@@ -119,20 +122,22 @@ Teren therefore protects the current question, not every successful recovery.
 
 In performance, the priority changes. Recovery that would hide useful rehearsal information may be exactly what the live scene needs.
 
-Chapters 151-152 demonstrate distributed live competence:
+Chapters 151-158 demonstrate distributed live competence:
 - Serra restores missing information after Marek enters early;
 - Iven recognizes that a changed preceding scene has changed Greg's cue;
 - Orin gives a partner a path back after a wrong line;
 - Marek covers a forgotten name and a collapsing chair;
 - Davin fixes the loose floorboard while the show continues;
 - costume workers repair garments in use;
-- a missing word can remain missing if no later beat needs it.
+- a missing word can remain missing if no later beat needs it;
+- Serra can restore the bridge consequence after Greg reverses `from` into `to` during the Advocate scene;
+- Marek can cut across a dangerous live deviation and restore scene direction when Greg's replacement page no longer covers the new question.
 
 Teren does not need to own each recovery to own the show's forward continuity.
 
 ## Tour / company operations
 
-Chapters 140-155 establish that Teren's role extends beyond cueing when the company travels.
+Chapters 140-158 establish that Teren's role extends beyond cueing when the company travels.
 
 He can own or route:
 - departure time;
@@ -150,6 +155,8 @@ He can own or route:
 His logistics are not flawless. `Five, maybe six` can become six. A third show can move from possible to `Dead.` A Clerk scene can die because a hall lacks the needed desk. A northern booking can remain conditional until the company sees the actual hall. Sleeping arrangements can be solved late.
 
 When Greg presses about pay, Teren eventually states the real arrangement. When a hall dispute remains upstream, Greg may receive only the current consequences.
+
+Chapter 158 adds a useful booking boundary. Bessa offers a stronger next-night house after the second northern show. Teren still leaves because a separate private-house engagement is already in motion and half-paid. A better immediate gate does not automatically erase the commitment the company has already made elsewhere.
 
 Pell's line `Teren will tell you if it changes you` describes this behavior but is not Teren's catchphrase or a universal company law.
 
@@ -209,12 +216,22 @@ Sick Advocate Lorn can no longer perform. Greg suddenly inherits roughly forty-t
 
 This is Teren at his best scale. The whole problem is large. Greg's next action does not need to be.
 
+Chapter 156 sharpens that further. Iven starts cutting the replacement part aggressively. Greg calls across the hall that Iven is cutting the Advocate. Teren answers `Good.` Later, when Greg keeps resisting the shrinking part, Teren says `Learn less.`
+
+This establishes a useful emergency rule of authority:
+- Teren owns the casting consequence;
+- Iven can own practical scene-shape cuts as the experienced actor currently helping Greg;
+- Teren can accept those cuts without personally re-editing every line;
+- the target is not a faithful miniature of the full role, but enough role for the show to remain structurally usable tonight.
+
+Do not generalize `Learn less` into Teren's philosophy of theatre. It belongs to an emergency replacement with almost no preparation time.
+
 ## Distributed authority
 
 Do not make Teren's coordination steal other people's cognition.
 
 - **Serra:** partner behavior, staging, eye line, playable reaction, and live actor recovery.
-- **Iven:** scene-partner pressure, cue adaptation, and practical actor shorthand.
+- **Iven:** scene-partner pressure, cue adaptation, practical actor shorthand, and emergency functional cuts when he is the experienced actor carrying Greg through a replacement role.
 - **Nessa:** costume/prop function and material continuity in performance.
 - **Davin:** wagon, load, rope, repair, scenery handling, physical transport/stage problems, and material storage conditions.
 - **Rinna:** business/assignment/record throughput where exact prose supports it.
@@ -227,11 +244,13 @@ The troupe works because these authorities overlap without collapsing into one b
 
 Greg wants systems. Teren often stops that process at the smallest useful scale.
 
-Greg's use expands from observer to Messenger, Landlord, Person, Sword, Shopkeeper, traveler, paid performer, and now emergency Advocate without Teren delivering a promotion speech.
+Greg's use expands from observer to Messenger, Landlord, Person, Sword, Shopkeeper, traveler, paid performer, and emergency Advocate without Teren delivering a promotion speech.
 
 At each scale, belonging keeps arriving through workflow rather than affirmation.
 
 Teren can also redirect Greg away from upstream mysteries when the current problem is more actionable. In Chapter 155, after giving the narrow old-box facts he actually has, he tells Greg to think about the rain. The redirect should not be read as proof he secretly knows the entire Drell/box story.
+
+In Chapter 156, Greg wants a full run he does not have time for. Teren's answer is not reassurance. The doors are in ninety minutes. The scene gets reduced to the work that can still be done.
 
 ## Canon lines / fingerprints
 
@@ -252,6 +271,7 @@ Teren can also redirect Greg away from upstream mysteries when the current probl
 - **CANON LINE:** `Done part.`
 - **CANON LINE:** `If I knew, I would have told him no more specifically.`
 - **CANON LINE:** `Learn the first page.`
+- **CANON LINE:** `Learn less.` during the emergency Advocate substitution.
 - **CANON PATTERN:** distinguishes intentional pause from lost line by watching the actor.
 - **CANON PATTERN:** lets a recoverable mistake continue, then resets the exact rehearsal problem.
 - **CANON PATTERN:** uses public open rehearsal as a place where audience response can inform another run without becoming permanent text.
@@ -260,6 +280,8 @@ Teren can also redirect Greg away from upstream mysteries when the current probl
 - **CANON PATTERN:** continues to ask whether Greg is coming on a new travel leg even after Greg has become a paid company performer.
 - **CANON PATTERN:** can set a strong boundary around an outsider while admitting uncertainty about that person's actual motive.
 - **CANON PATTERN:** reduces a sudden large casting problem to the smallest learnable next action.
+- **CANON PATTERN:** can accept another experienced actor's emergency cuts when those cuts preserve the show's necessary scene functions.
+- **CANON PATTERN:** can leave a better immediate booking because a separate engagement is already committed and partially paid.
 
 ## Voice tests — NON-CANON
 
@@ -277,6 +299,8 @@ Teren can sound precise like Hessa or Pessa, but the precision source differs:
 - Teren wants the scene/show/company consequence to keep moving without unnecessary interference.
 
 Shared words like `Again`, `No`, `Good`, `Keep moving`, and `Later` can belong to theatre work culture rather than one bespoke voice.
+
+Iven and Teren may both participate in cutting an emergency role. Teren owns whether Greg has the role and what the company needs from it. Iven can own the practical actor-to-actor reduction of that role's scene load. Do not collapse those into one authority merely because both are cutting text.
 
 ## Watch list
 
@@ -298,7 +322,8 @@ Avoid:
 - hiding information after it actually changes Greg's pay, role, safety, or required action;
 - treating every Teren refusal as proof of hidden knowledge;
 - converting Drell uncertainty into a solved backstory before exact prose earns it;
-- turning `Learn the first page` into generic life advice rather than emergency role triage;
-- assuming Greg's continued participation without leaving room for the actual travel question.
+- turning `Learn the first page` or `Learn less` into generic life advice rather than emergency role triage;
+- assuming Greg's continued participation without leaving room for the actual travel question;
+- treating the best immediate gate as automatically superior to an already-committed booking.
 
 If a correction or company instruction can be smaller and still keep the work moving, prefer smaller.
