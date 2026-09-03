@@ -69563,13 +69563,13 @@ Sword still where I had left it. Then controlled descent because Nerin had said 
 
 Maybe more. The keeper brought tea.
 
-“Antonius?”
+“Antonius?” the keeper asked.
 
 I looked at her.
 
 “What?”
 
-“You've read his note six times.”
+“You've read his note six times,” she said.
 
 “Three.”
 
@@ -69587,7 +69587,11 @@ count. compare. notice. ask. sit. Annoy people. The last had market value somewh
 
 I sent a note:
 
-I CAN MEET TOMORROW AFTER SECOND BELL.GROUND FLOOR.NO LONGER THAN TWO HOURS.I WILL COME BY CART.IF THAT DOES NOT WORK, SEND ANOTHER TIME.
+I CAN MEET TOMORROW AFTER SECOND BELL.
+GROUND FLOOR.
+NO LONGER THAN TWO HOURS.
+I WILL COME BY CART.
+IF THAT DOES NOT WORK, SEND ANOTHER TIME.
 
 I stared. Too much? No. Conditions. Useful.
 
@@ -69597,7 +69601,9 @@ NO PAYMENT DUE. I UNDERSTAND.
 
 Important. The keeper's boy carried it. He returned with answer before lunch.
 
-VALE OFFICE. SECOND BELL.GROUND FLOOR.ONE HOUR SHOULD SUFFICE.
+VALE OFFICE. SECOND BELL.
+GROUND FLOOR.
+ONE HOUR SHOULD SUFFICE.
 
 One hour. Excellent.
 
@@ -69617,13 +69623,13 @@ The fact that Antonius had crossed SITE did not make sites disappear. It just me
 
 World continued. A clerk recognized me.
 
-“Vale's expecting you.”
+“Vale's expecting you,” the clerk said.
 
-“Ground floor?”
+“Ground floor?” I asked.
 
 She pointed at a side room. Good. No stairs. The room had a table, two chairs, a narrow window, and nothing decorative except a brass scale on shelf. Antonius came in carrying my debt ledger. Of course. He wore dark coat. Clean cuffs. No visible hurry. He looked at blue shirt. Then at crutches. Then at me.
 
-“Improvement.”
+“Improvement,” Antonius said.
 
 “Shirt?”
 
@@ -69631,7 +69637,7 @@ She pointed at a side room. Good. No stairs. The room had a table, two chairs, a
 
 Good. I sat. He sat opposite. Ledger between us. No pity. Excellent.
 
-“How are you?”
+“How are you?” he asked.
 
 “Expensive.”
 
@@ -69693,7 +69699,7 @@ Antonius looked.
 
 Why good? He wrote something. Archive. Three records. Different units. Damaged crates. Claimed crates. Approved crates. Payment entries. No fraud. Merra. Do not invent missing facts. He listened longer.
 
-“What was the useful part?”
+“What was the useful part?” Antonius asked.
 
 “Noticing totals were not counting same thing.”
 
@@ -69981,7 +69987,10 @@ Worse. He brought out a second sheet. Not contract. Blank.
 
 He wrote four headings:
 
-TABLE.ROOM.SITE.ROAD.
+TABLE.
+ROOM.
+SITE.
+ROAD.
 
 “What?”
 
@@ -69991,7 +70000,11 @@ Good.
 
 Under TABLE:
 
-records.accounts.small objects.correspondence.pricing comparisons.
+records.
+accounts.
+small objects.
+correspondence.
+pricing comparisons.
 
 “Pricing?”
 
@@ -70003,7 +70016,11 @@ records.accounts.small objects.correspondence.pricing comparisons.
 
 Under ROOM:
 
-inventory verification.customer or supplier meeting.small inspections.sorting.quality questions.
+inventory verification.
+customer or supplier meeting.
+small inspections.
+sorting.
+quality questions.
 
 “Standing?”
 
@@ -70019,7 +70036,10 @@ inventory verification.customer or supplier meeting.small inspections.sorting.qu
 
 Under SITE:
 
-warehouse.yard.dock.shop floor. He drew a line through most.
+warehouse.
+yard.
+dock.
+shop floor. He drew a line through most.
 
 “Not now.”
 
@@ -70027,9 +70047,10 @@ I hated seeing it. Good.
 
 Under ROAD:
 
-delivery.route inspection.escort.field work.
-
-He crossed entire heading.
+delivery.
+route inspection.
+escort.
+field work. He crossed entire heading.
 
 “Definitely not now.”
 
@@ -70065,9 +70086,9 @@ SITE RECORDS AT TABLE.
 
 There.
 
-“Rate?”
+“Rate?” I asked.
 
-I asked. Antonius smiled. Now.
+Antonius smiled. Now.
 
 “Not one rate.”
 
@@ -70309,7 +70330,7 @@ There. Good. Not profession. Function.
 
 “Small. Brought to table.”
 
-“Pell?”
+“Arlo?”
 
 “No.”
 
@@ -70339,9 +70360,13 @@ He turned blank sheet toward me.
 
 “Provisional.”
 
-TABLE tasks can be offered individually.ROOM tasks only if seating/access/carrying conditions stated.SITE and ROAD suspended.Transport to Vale premises covered by Vale when requested for debt labor.Task credit agreed before work.No automatic weekly obligation during injury interval.Reassess after medical restrictions materially change.
-
-I read.
+TABLE tasks can be offered individually.
+ROOM tasks only if seating/access/carrying conditions stated.
+SITE and ROAD suspended.
+Transport to Vale premises covered by Vale when requested for debt labor.
+Task credit agreed before work.
+No automatic weekly obligation during injury interval.
+Reassess after medical restrictions materially change. I read.
 
 “Debt payment still deferred?”
 
@@ -70689,13 +70714,13 @@ Fact. Kept. Under SITE/ROAD crossed categories I almost wrote LATER. Did not. La
 
 Near supper, Lyssa stopped by. Not recovery committee. She was delivering altered trousers to a tenant upstairs. Normal. She saw me. Blue shirt? Brown today.
 
-“Brown.”
+“Brown,” Lyssa said.
 
 “Fuck.”
 
 She laughed.
 
-“Working?”
+“Working?” she asked.
 
 “No.”
 
@@ -70703,7 +70728,7 @@ She laughed.
 
 Everyone. She handed package to keeper.
 
-“Green door tomorrow?”
+“Green door tomorrow?” Lyssa asked.
 
 “Maybe.”
 
@@ -70713,9 +70738,9 @@ She stared. I smiled.
 
 “Better.”
 
-She leaned down and kissed me once. Kitchen. Keeper three feet away. I froze. Not because phantom foot. Because keeper. Lyssa left. Keeper continued chopping onion.
+She leaned down and kissed me once. Kitchen. Keeper three feet away. I froze. Not because phantom foot. Because keeper. Lyssa left. The keeper continued chopping onion.
 
-“No.”
+“No,” she said.
 
 “I said nothing.”
 
@@ -70739,9 +70764,14 @@ I ate two eggs, then a third because keeper had made extra. She claimed extra wa
 
 Possible labor credit, if interested:
 
-Review three supplier invoices against received-goods tallies.Vale office.Seated.Estimated one hour.Materials at table.No stairs.Transport covered.Credit: two copper.
-
-Reply yes or no. There. Actual implementation. No pressure. Two copper. One hour. Could. Did I want? Maybe. I had green door later. Wound check midday. Training maybe if Alden asked. Not all. Capacity. Choice. I read again. The keeper said, “Work?”
+Review three supplier invoices against received-goods tallies.
+Vale office.
+Seated.
+Estimated one hour.
+Materials at table.
+No stairs.
+Transport covered.
+Credit: two copper. Reply yes or no. There. Actual implementation. No pressure. Two copper. One hour. Could. Did I want? Maybe. I had green door later. Wound check midday. Training maybe if Alden asked. Not all. Capacity. Choice. I read again. The keeper said, “Work?”
 
 “Maybe.”
 
@@ -70753,7 +70783,9 @@ I laughed. Then I looked at the day. Invoice job one hour. Transport. Midday wou
 
 I wrote:
 
-YES.ONE HOUR.IF MATERIALS ARE READY.
+YES.
+ONE HOUR.
+IF MATERIALS ARE READY.
 
 Then added:
 
@@ -70765,7 +70797,9 @@ PESSA THIRD BELL. COMING?
 
 I wrote:
 
-NO.BUSY.NEXT TIME.
+NO.
+BUSY.
+NEXT TIME.
 
 The boy left. I did not explain. I had chosen invoices and kissing over training. This was not a philosophy. It was Tuesday.
 
@@ -70841,7 +70875,9 @@ IS SOMETHING WRONG?
 
 Important. If I asked whether something was wrong, every scratch mark became suspicious. If I asked whether Vale owed the amount written, I needed terms, goods, quantity, price, and accepted changes. That was enough. Probably. No. Enough for task. Good.
 
-I sorted each invoice beside its tally and left purchase order centered. Merrin watched.
+I sorted each invoice beside its tally and left purchase order centered.
+
+Merrin watched.
 
 “What?”
 
@@ -70885,9 +70921,7 @@ He frowned.
 
 He left. Clock. Not actual clock. Sand timer on shelf. Of course Antonius had put sand. One hour. Good. Merrin returned with old invoice. Plain cord three bits less per coil. Two coils. Six bits. Not much. Still.
 
-“Does accepted substitute mean accepted at ordered price?”
-
-I asked.
+“Does accepted substitute mean accepted at ordered price?” I asked.
 
 “No idea.”
 
@@ -70919,13 +70953,17 @@ DELIVERED PRICE.
 
 Invoice:
 
-GOODSRIVER FREIGHTCARTAGE
+GOODS
+RIVER FREIGHT
+CARTAGE
 
 There. Potential double charge.
 
 Receiving tally:
 
-28 LARGE RECEIVED SOUND.2 LARGE CRACKED ON ARRIVAL.20 SMALL RECEIVED SOUND.
+28 LARGE RECEIVED SOUND.
+2 LARGE CRACKED ON ARRIVAL.
+20 SMALL RECEIVED SOUND.
 
 A second note:
 
@@ -70981,7 +71019,9 @@ He left. Returned with two old invoices. Good. Both had unit prices slightly low
 
 Quote:
 
-LARGE JAR, DELIVERED EAST STORE: 8B EACH.SMALL: 5B EACH.VALID 10 DAYS.
+LARGE JAR, DELIVERED EAST STORE: 8B EACH.
+SMALL: 5B EACH.
+VALID 10 DAYS.
 
 Order accepted day six. Price fixed delivered. Supplier message after rate increase did not change contract unless Vale accepted.
 
@@ -70999,7 +71039,10 @@ HAVEL LATER ADVISED OF RIVER RATE INCREASE AND SAID IT WOULD PASS DIFFERENCE AT 
 
 INVOICE APPEARS TO CHARGE FULL FREIGHT/CARTAGE, NOT CLEARLY THE DIFFERENCE.
 
-NEED:A) WHETHER A.V. AGREED TO CHANGE PRICE;B) IF YES, PROOF OF ACTUAL RATE DIFFERENCE;C) WHETHER REPLACEMENT CARTAGE IS HAVEL'S COST OR VALE'S UNDER DAMAGE TERMS.
+NEED:
+A) WHETHER A.V. AGREED TO CHANGE PRICE;
+B) IF YES, PROOF OF ACTUAL RATE DIFFERENCE;
+C) WHETHER REPLACEMENT CARTAGE IS HAVEL'S COST OR VALE'S UNDER DAMAGE TERMS.
 
 I stopped. Damage terms. Purchase order.
 
@@ -71061,7 +71104,7 @@ Better. Missing facts. I was becoming Merra. Terrible.
 
 He left. I looked at the three invoices. One clean. One six-bit ambiguity. One transport problem. Nothing dramatic. Still enough to justify hour. That was satisfying in a way I disliked. Antonius came in when sand had maybe eight minutes. He looked at pages.
 
-“How long?”
+“How long?” Antonius asked.
 
 “Fifty-two minutes.”
 
@@ -71127,9 +71170,9 @@ He looked at replacement cartage.
 
 Good.
 
-“What did I miss?”
+“What did I miss?” I asked.
 
-I asked. Antonius pointed at the quote validity.
+Antonius pointed at the quote validity.
 
 “Nothing important there.”
 
@@ -71353,7 +71396,7 @@ He pointed at me.
 
 His face changed from amusement to professional attention.
 
-“What happened?”
+“What happened?” Nerin asked.
 
 “Phantom left foot tried to step closer. Hip moved. Crutch caught. No fall. No pain.”
 
@@ -71497,21 +71540,21 @@ Before leaving lodging I considered changing back to brown. Why? Protect blue fr
 
 I bought a meat pie from stall near green door and ate half before entering. The other half survived twelve seconds. Nineteen. The green door was quieter than last time. Lyssa wasn't there yet. Good. I had arrived before her. This made me feel stupid. Jorren was at table. He saw shirt.
 
-“Again?”
+“Again?” Jorren asked.
 
-“Clothes can be reused.”
+“Clothes can be reused,” I said.
 
-“Interesting.”
+“Interesting,” he said.
 
 “Fuck.”
 
 Nessa put bowl down.
 
-“What?”
+“What?” Nessa asked.
 
 “Nothing.”
 
-“Stew.”
+“Stew,” she said.
 
 Good. I ate. Octavia came later with thread wrapped around one wrist. Tam arrived for one drink and left after twenty minutes because he had work early. Normal. Lyssa came after them. She wore gray. Not blue dress. Good. She saw me. Smiled. Sat beside, not across. Good. No announcement. No everyone clapping. Excellent.
 
@@ -71539,7 +71582,7 @@ She stared.
 
 She took bread. Everyone stole my food.
 
-“Your day?”
+“Your day?” I asked.
 
 “Rima made me redo three sleeves because I pinned one wrong and then kept copying the wrong length.”
 
@@ -71749,7 +71792,9 @@ LABOR CREDIT: 2 COPPER.
 
 And below:
 
-HAVEL CONFIRMED RATE DIFFERENCE ONLY.REPLACEMENT CARTAGE REMOVED.DAMAGED JARS ABANDONED TO VALE.
+HAVEL CONFIRMED RATE DIFFERENCE ONLY.
+REPLACEMENT CARTAGE REMOVED.
+DAMAGED JARS ABANDONED TO VALE.
 
 There. Resolved. No mystery. Supplier annoying but legitimate. Clerical invoice overstated transport because bookkeeper had used standard freight line for surcharge. Ordinary. Good.
 
@@ -71767,13 +71812,18 @@ Sent it back. Mutual. Good.
 
 *
 
-Guild sent no work. Edrin sent nothing. Holl sent nothing. Pell and Vessa sent nothing. Alden sent no boy. Excellent. I had a date in two days. A two-copper reduction in debt. A blue shirt. A wound. No stairs today unless needed. No need. I picked up notebook. Could calculate how many two-copper tasks debt required. No. That would be stupid. I knew multiplication.
+Guild sent no work. Edrin sent nothing. Holl sent nothing. Arlo and Vessa sent nothing. Alden sent no boy. Excellent. I had a date in two days. A two-copper reduction in debt. A blue shirt. A wound. No stairs today unless needed. No need. I picked up notebook. Could calculate how many two-copper tasks debt required. No. That would be stupid. I knew multiplication.
 
 I closed notebook.
 
 Then opened it again and wrote:
 
-INVOICE REVIEW:ASK WHAT QUESTION.CHECK UNIT.CHECK TERMS.CHECK SUBSTITUTIONS.CHECK WHO OWNS REJECTS.
+INVOICE REVIEW:
+ASK WHAT QUESTION.
+CHECK UNIT.
+CHECK TERMS.
+CHECK SUBSTITUTIONS.
+CHECK WHO OWNS REJECTS.
 
 That was work knowledge. Fine.
 
