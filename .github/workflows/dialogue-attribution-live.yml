@@ -1,5 +1,6 @@
 name: Publish dialogue attribution pass
 
+# Integration v2: supports explicit preserved gaps in editorial patch snippets.
 on:
   pull_request:
     paths:
