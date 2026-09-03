@@ -51,6 +51,7 @@ TENS = {
     "SIXTY": 60,
     "SEVENTY": 70,
     "EIGHTY": 80,
+    "NINETY": 90,
 }
 HEADING_RE = re.compile(r"^CHAPTER\s+([^\n]+)(?:\n.*)?$", re.IGNORECASE)
 
@@ -196,8 +197,6 @@ def promote_chapters(docx_path: Path, chapters_dir: Path, chapters: list[int]) -
             paragraph._p.getparent().remove(paragraph._p)
 
         if later:
-            # Interior chapter: re-resolve the next heading after body removal,
-            # then insert the replacement prose immediately before it.
             current_headings = _heading_map(doc)
             current_start = current_headings[chapter]
             next_indices = sorted(index for index in current_headings.values() if index > current_start)
@@ -205,9 +204,6 @@ def promote_chapters(docx_path: Path, chapters_dir: Path, chapters: list[int]) -
             for text in replacements[chapter]:
                 next_heading._p.addprevious(_make_paragraph(text, template))
         else:
-            # Final chapter: there is no following heading to anchor insertion.
-            # Insert immediately after the chapter heading in reverse order.
-            # This preserves Word's trailing section properties and prose order.
             for text in reversed(replacements[chapter]):
                 heading._p.addnext(_make_paragraph(text, template))
 
