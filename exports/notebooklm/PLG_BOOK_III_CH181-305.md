@@ -140240,7 +140240,7 @@ I looked at her.
 
 "How do you know six?"
 
-"Jori's sister came through."
+"Someone came through."
 
 Of course.
 
