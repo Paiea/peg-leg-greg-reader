@@ -1,279 +1,82 @@
 {
   "8|Fix 8.3 - Jast sequence": {
     "reason": "Current main retains the standalone 'Good.' beat between the merchant identification and the payment question, the standalone 'Interesting.' beat before the amount question, and the final Fourteen paragraph carries 'There. Enough.' narration. Preserve all while applying the accepted attribution change.",
-    "current": [
-      "\"Who is Jast?\"",
-      "\"Merchant.\" Rusk said, \"I know him.\"",
-      "...",
-      "\"Does he pay?\" Rusk shrugged.",
-      "\"Eventually.\"",
-      "\"How eventually?\"",
-      "\"Depends who asks.\"",
-      "Interesting.",
-      "\"How much does he owe her?\"",
-      "Selka said, \"Fourteen.\" There. Enough."
-    ],
-    "replacement": [
-      "\"Who is Jast?\" I asked.",
-      "\"Merchant,\" Selka said.",
-      "\"I know him,\" Rusk said.",
-      "...",
-      "\"Does he pay?\" I asked. Rusk shrugged.",
-      "\"Eventually,\" Rusk said.",
-      "\"How eventually?\" I asked.",
-      "\"Depends who asks,\" Rusk said.",
-      "Interesting.",
-      "\"How much does he owe her?\" I asked.",
-      "\"Fourteen,\" Selka said. There. Enough."
-    ]
+    "current": ["\"Who is Jast?\"", "\"Merchant.\" Rusk said, \"I know him.\"", "...", "\"Does he pay?\" Rusk shrugged.", "\"Eventually.\"", "\"How eventually?\"", "\"Depends who asks.\"", "Interesting.", "\"How much does he owe her?\"", "Selka said, \"Fourteen.\" There. Enough."],
+    "replacement": ["\"Who is Jast?\" I asked.", "\"Merchant,\" Selka said.", "\"I know him,\" Rusk said.", "...", "\"Does he pay?\" I asked. Rusk shrugged.", "\"Eventually,\" Rusk said.", "\"How eventually?\" I asked.", "\"Depends who asks,\" Rusk said.", "Interesting.", "\"How much does he owe her?\" I asked.", "\"Fourteen,\" Selka said. There. Enough."]
   },
   "8|Fix 8.4 - lien proposal": {
     "reason": "Current main carries 'I ignored him.' in the final Rusk paragraph. Preserve that narration while assigning Selka and Greg explicitly in the lien exchange.",
-    "current": [
-      "\"We take a lien on that piece.\" Rusk said, \"A what?\"",
-      "\"Security. Not possession.\"",
-      "\"I know what a lien is.\"",
-      "\"Excellent.\"",
-      "\"Antonius said collect.\"",
-      "...",
-      "\"You don't take it now.\"",
-      "\"No.\"",
-      "\"Greg,\" Rusk said. I ignored him."
-    ],
-    "replacement": [
-      "\"We take a lien on that piece,\" I said.",
-      "\"A what?\" Rusk asked.",
-      "\"Security. Not possession,\" I said.",
-      "\"I know what a lien is,\" Rusk said.",
-      "\"Excellent,\" I said.",
-      "\"Antonius said collect,\" Rusk said.",
-      "...",
-      "\"You don't take it now,\" Selka said.",
-      "\"No,\" I said.",
-      "\"Greg,\" Rusk said. I ignored him."
-    ]
+    "current": ["\"We take a lien on that piece.\" Rusk said, \"A what?\"", "\"Security. Not possession.\"", "\"I know what a lien is.\"", "\"Excellent.\"", "\"Antonius said collect.\"", "...", "\"You don't take it now.\"", "\"No.\"", "\"Greg,\" Rusk said. I ignored him."],
+    "replacement": ["\"We take a lien on that piece,\" I said.", "\"A what?\" Rusk asked.", "\"Security. Not possession,\" I said.", "\"I know what a lien is,\" Rusk said.", "\"Excellent,\" I said.", "\"Antonius said collect,\" Rusk said.", "...", "\"You don't take it now,\" Selka said.", "\"No,\" I said.", "\"Greg,\" Rusk said. I ignored him."]
   },
   "8|Fix 8.6 - Antonius verifies the extension with Rusk present": {
     "reason": "Current main keeps Antonius looking at the agreement in the final paragraph. Preserve that beat while making the Greg/Antonius/Rusk exchange explicit.",
-    "current": [
-      "\"How long?\"",
-      "\"Two days.\"",
-      "\"She offered three.\"",
-      "\"Rusk got two.\" Antonius looked at Rusk. Rusk shrugged.",
-      "\"I was there.\"",
-      "\"That's reassuring.\"",
-      "\"It should be.\" Antonius looked at the agreement."
-    ],
-    "replacement": [
-      "\"How long?\" Antonius asked.",
-      "\"Two days,\" I said.",
-      "\"She offered three.\"",
-      "\"Rusk got two.\" Antonius looked at Rusk. Rusk shrugged.",
-      "\"I was there,\" Rusk said.",
-      "\"That's reassuring,\" Antonius said.",
-      "\"It should be,\" Rusk said. Antonius looked at the agreement."
-    ]
+    "current": ["\"How long?\"", "\"Two days.\"", "\"She offered three.\"", "\"Rusk got two.\" Antonius looked at Rusk. Rusk shrugged.", "\"I was there.\"", "\"That's reassuring.\"", "\"It should be.\" Antonius looked at the agreement."],
+    "replacement": ["\"How long?\" Antonius asked.", "\"Two days,\" I said.", "\"She offered three.\"", "\"Rusk got two.\" Antonius looked at Rusk. Rusk shrugged.", "\"I was there,\" Rusk said.", "\"That's reassuring,\" Antonius said.", "\"It should be,\" Rusk said. Antonius looked at the agreement."]
   },
   "9|Fix 9.1 - seller debt reveal": {
     "reason": "Current main has a standalone 'There.' after the nephew admits cards and combines Dena's answer into the nephew paragraph. Preserve the beat while splitting the four-speaker reveal cleanly.",
-    "current": [
-      "\"Cards.\"",
-      "There.",
-      "\"How much does he owe?\"",
-      "\"I don't know.\"",
-      "\"Who?\"",
-      "\"I don't know.\" Antonius looked at Dena. She said, \"Vale.\""
-    ],
-    "replacement": [
-      "\"Cards,\" the nephew said.",
-      "There.",
-      "\"How much does he owe?\" Antonius asked.",
-      "\"I don't know,\" the nephew said.",
-      "\"Who?\" Antonius asked.",
-      "\"I don't know.\" Antonius looked at Dena.",
-      "\"Vale,\" Dena said."
-    ]
+    "current": ["\"Cards.\"", "There.", "\"How much does he owe?\"", "\"I don't know.\"", "\"Who?\"", "\"I don't know.\" Antonius looked at Dena. She said, \"Vale.\""],
+    "replacement": ["\"Cards,\" the nephew said.", "There.", "\"How much does he owe?\" Antonius asked.", "\"I don't know,\" the nephew said.", "\"Who?\" Antonius asked.", "\"I don't know.\" Antonius looked at Dena.", "\"Vale,\" Dena said."]
   },
   "16|Fix 16.4 - after Alden first lands the correction": {
     "reason": "The isolated 'Again' occurs twice in current main. Include the unique appetite beat immediately before the intended Alden line so the attribution change is deterministic.",
-    "current": [
-      "There was no gratitude in his face. Excellent. There was appetite. Worse.",
-      "\"Again,\" he said.",
-      "...",
-      "Jorren looked at me.",
-      "\"Your student.\"",
-      "\"I have taught him one sentence.\"",
-      "Alden checked his fingers for blood.",
-      "\"Good sentence.\"",
-      "\"Bad religion,\" I said."
-    ],
-    "replacement": [
-      "There was no gratitude in his face. Excellent. There was appetite. Worse.",
-      "\"Again,\" Alden said.",
-      "...",
-      "Jorren looked at me.",
-      "\"Your student,\" Jorren said.",
-      "\"I have taught him one sentence,\" I said.",
-      "Alden checked his fingers for blood.",
-      "\"Good sentence,\" Alden said.",
-      "\"Bad religion,\" I said."
-    ]
+    "current": ["There was no gratitude in his face. Excellent. There was appetite. Worse.", "\"Again,\" he said.", "...", "Jorren looked at me.", "\"Your student.\"", "\"I have taught him one sentence.\"", "Alden checked his fingers for blood.", "\"Good sentence.\"", "\"Bad religion,\" I said."],
+    "replacement": ["There was no gratitude in his face. Excellent. There was appetite. Worse.", "\"Again,\" Alden said.", "...", "Jorren looked at me.", "\"Your student,\" Jorren said.", "\"I have taught him one sentence,\" I said.", "Alden checked his fingers for blood.", "\"Good sentence,\" Alden said.", "\"Bad religion,\" I said."]
   },
   "32|Fix 32.1 - Verran asks to leave": {
-    "reason": "Current main keeps Verran, the constable, and Verran sitting back in one paragraph. Split the authority handoff into separate beats without changing content.",
-    "current": [
-      "Verran said, \"Can I leave?\" The constable said, \"No.\" Verran sat back."
-    ],
-    "replacement": [
-      "Verran asked, \"Can I leave?\"",
-      "\"No,\" the constable said.",
-      "Verran sat back."
-    ]
+    "reason": "Current main embeds the Verran/constable exchange at the front of a longer investigation paragraph. Split only the authority handoff and preserve every sentence that follows.",
+    "current": ["Verran said, \"Can I leave?\" The constable said, \"No.\" Verran sat back. I asked, \"Where did the sacks come from?\" Nobody answered. Not because nobody knew. I looked at Nella. She looked at Verran. There. Edrin noticed too. Probably had noticed yesterday."],
+    "replacement": ["Verran asked, \"Can I leave?\"", "\"No,\" the constable said.", "Verran sat back. I asked, \"Where did the sacks come from?\" Nobody answered. Not because nobody knew. I looked at Nella. She looked at Verran. There. Edrin noticed too. Probably had noticed yesterday."]
   },
   "40|Fix 40.3 - supply-chain synthesis": {
     "reason": "Current main combines Arlo/Pell and Vessa's two specialist contributions plus the nod in one paragraph. Split the collaborative synthesis into audible speaker beats; global Book I name mapping supplies Arlo elsewhere.",
-    "current": [
-      "\"Stone yards can sort.\"",
-      "Pell said, \"Kiln people can control heat.\" Vessa said, \"Ward shops can test after.\" Pell nodded."
-    ],
-    "replacement": [
-      "\"Stone yards can sort,\" Vessa said.",
-      "Arlo said, \"Kiln people can control heat.\"",
-      "\"Ward shops can test after,\" Vessa said.",
-      "Arlo nodded."
-    ]
+    "current": ["\"Stone yards can sort.\"", "Pell said, \"Kiln people can control heat.\" Vessa said, \"Ward shops can test after.\" Pell nodded."],
+    "replacement": ["\"Stone yards can sort,\" Vessa said.", "Arlo said, \"Kiln people can control heat.\"", "\"Ward shops can test after,\" Vessa said.", "Arlo nodded."]
   },
   "43|Fix 43.3 - Arlo accepts the free shale": {
     "reason": "The opening workshop paragraph has additional live narration around Pell. Match only the unique dialogue chain and let the global canonical name pass change Pell to Arlo in surrounding prose.",
-    "current": [
-      "\"No.\"",
-      "\"Fuck you.\"",
-      "...",
-      "\"Free?\"",
-      "\"Yes.\"",
-      "He pointed at a corner.",
-      "\"Put it there.\""
-    ],
-    "replacement": [
-      "\"No,\" Arlo said.",
-      "\"Fuck you.\"",
-      "...",
-      "\"Free?\" Arlo asked.",
-      "\"Yes,\" I said.",
-      "He pointed at a corner.",
-      "\"Put it there,\" Arlo said."
-    ]
+    "current": ["\"No.\"", "\"Fuck you.\"", "...", "\"Free?\"", "\"Yes.\"", "He pointed at a corner.", "\"Put it there.\""],
+    "replacement": ["\"No,\" Arlo said.", "\"Fuck you.\"", "...", "\"Free?\" Arlo asked.", "\"Yes,\" I said.", "He pointed at a corner.", "\"Put it there,\" Arlo said."]
   },
   "45|Fix 45.2 - pig-role negotiation": {
     "reason": "Current main puts Alden's attribution in its own paragraph and carries the pig narration after Sova's line. Preserve that narration while splitting the four speakers into clean beats.",
-    "current": [
-      "\"We leave it?\"",
-      "Alden asked. Not asking me specifically. Pessa said, \"If it reaches road, cart problem.\" Dorn said, \"If we put it back, farmer problem.\" Sova said, \"If Pip sees it again, my problem.\" Good. Pig looked at us. I had known kings with less confidence."
-    ],
-    "replacement": [
-      "\"We leave it?\" Alden asked. Not asking me specifically.",
-      "Pessa said, \"If it reaches road, cart problem.\"",
-      "Dorn said, \"If we put it back, farmer problem.\"",
-      "Sova said, \"If Pip sees it again, my problem.\" Good. Pig looked at us. I had known kings with less confidence."
-    ]
+    "current": ["\"We leave it?\"", "Alden asked. Not asking me specifically. Pessa said, \"If it reaches road, cart problem.\" Dorn said, \"If we put it back, farmer problem.\" Sova said, \"If Pip sees it again, my problem.\" Good. Pig looked at us. I had known kings with less confidence."],
+    "replacement": ["\"We leave it?\" Alden asked. Not asking me specifically.", "Pessa said, \"If it reaches road, cart problem.\"", "Dorn said, \"If we put it back, farmer problem.\"", "Sova said, \"If Pip sees it again, my problem.\" Good. Pig looked at us. I had known kings with less confidence."]
   },
   "50|Fix 50.2 - why probably": {
     "reason": "Avoid coupling the attribution edit to the stale Pell name in the preceding narration. Match only the unique Greg/Arlo technical exchange; global name mapping handles Pell elsewhere.",
-    "current": [
-      "\"Why probably?\"",
-      "\"Because we don't know what moved.\"",
-      "\"The clamp.\"",
-      "\"Maybe.\""
-    ],
-    "replacement": [
-      "\"Why probably?\" he asked.",
-      "\"Because we don't know what moved,\" I said.",
-      "\"The clamp,\" Arlo said.",
-      "\"Maybe,\" I said."
-    ]
+    "current": ["\"Why probably?\"", "\"Because we don't know what moved.\"", "\"The clamp.\"", "\"Maybe.\""],
+    "replacement": ["\"Why probably?\" he asked.", "\"Because we don't know what moved,\" I said.", "\"The clamp,\" Arlo said.", "\"Maybe,\" I said."]
   },
   "56|Fix 56.1 - canonical Arlo arrival": {
     "reason": "Current main's opening Pell paragraph contains extra arrival narration. Match the following unique dialogue only and let the global canonical name pass update the prose paragraph.",
-    "current": [
-      "\"I didn't ask anything.\"",
-      "\"You're carrying a problem.\"",
-      "\"I'm carrying a regulator.\""
-    ],
-    "replacement": [
-      "\"I didn't ask anything,\" Arlo said.",
-      "\"You're carrying a problem.\"",
-      "\"I'm carrying a regulator,\" he said."
-    ]
+    "current": ["\"I didn't ask anything.\"", "\"You're carrying a problem.\"", "\"I'm carrying a regulator.\""],
+    "replacement": ["\"I didn't ask anything,\" Arlo said.", "\"You're carrying a problem.\"", "\"I'm carrying a regulator,\" he said."]
   },
   "56|Fix 56.3 - Maret identifies the test variable": {
     "reason": "Leave the stale Pell crouch paragraph in place for global canonicalization and attribute only the customer/artificer diagnostic turns around it.",
-    "current": [
-      "\"We're getting flutter at low flow after the line warms.\"",
-      "...",
-      "\"Before?\"",
-      "\"No.\"",
-      "\"First body?\"",
-      "\"Mostly clean.\""
-    ],
-    "replacement": [
-      "\"We're getting flutter at low flow after the line warms,\" she said.",
-      "...",
-      "\"Before?\" he asked.",
-      "\"No,\" Maret said.",
-      "\"First body?\" Arlo asked.",
-      "\"Mostly clean,\" she said."
-    ]
+    "current": ["\"We're getting flutter at low flow after the line warms.\"", "...", "\"Before?\"", "\"No.\"", "\"First body?\"", "\"Mostly clean.\""],
+    "replacement": ["\"We're getting flutter at low flow after the line warms,\" she said.", "...", "\"Before?\" he asked.", "\"No,\" Maret said.", "\"First body?\" Arlo asked.", "\"Mostly clean,\" she said."]
   },
   "62|Fix 62.1 - canonical Arlo workshop exchange": {
     "reason": "Current main's Pell return is embedded in a longer narration paragraph. Match the unique workshop dialogue chain and let global Book I canonicalization update the surrounding name.",
-    "current": [
-      "\"No.\"",
-      "\"I haven't asked.\"",
-      "\"You were going to.\"",
-      "\"Did it work?\"",
-      "\"Mostly.\""
-    ],
-    "replacement": [
-      "\"No,\" Arlo said.",
-      "\"I haven't asked.\"",
-      "\"You were going to.\"",
-      "\"Did it work?\" I asked.",
-      "\"Mostly,\" Arlo said."
-    ]
+    "current": ["\"No.\"", "\"I haven't asked.\"", "\"You were going to.\"", "\"Did it work?\"", "\"Mostly.\""],
+    "replacement": ["\"No,\" Arlo said.", "\"I haven't asked.\"", "\"You were going to.\"", "\"Did it work?\" I asked.", "\"Mostly,\" Arlo said."]
   },
   "66|Fix 66.2 - canonical Arlo visit": {
     "reason": "Current main's Pell arrival paragraph contains extra narration. Attribute the first food exchange only; global Book I canonicalization changes Pell to Arlo in the surrounding prose.",
-    "current": [
-      "\"Food?\" I asked.",
-      "\"No.\"",
-      "\"Then leave.\""
-    ],
-    "replacement": [
-      "\"Food?\" I asked.",
-      "\"No,\" Arlo said.",
-      "\"Then leave.\""
-    ]
+    "current": ["\"Food?\" I asked.", "\"No.\"", "\"Then leave.\""],
+    "replacement": ["\"Food?\" I asked.", "\"No,\" Arlo said.", "\"Then leave.\""]
   },
   "75|Fix 75.3 - Hessa instructs Jorren": {
     "reason": "Current main contains one additional spotting-safety instruction beyond the older editorial snippet. Preserve every current instruction while converting Hessa's summary into audible direct procedural speech.",
-    "current": [
-      "Hessa showed him. Not by making me climb. Belt. Position one step below and slightly behind on ascent. Do not pull unless I actually lose balance. Do not stand directly behind where I could fall onto him. Do not grab crutches. Do not improvise. Jorren listened. Actually listened. Good. Keeper stood at bottom. Not because committee. Because it was her staircase and we were blocking it."
-    ],
-    "replacement": [
-      "Hessa showed him. Not by making me climb. \"Belt. One step below and slightly behind on ascent. Do not pull unless he actually loses balance. Do not stand directly behind where he could fall onto you. Do not grab the crutches. Do not improvise.\" Jorren listened. Actually listened. Good. Keeper stood at bottom. Not because committee. Because it was her staircase and we were blocking it."
-    ]
+    "current": ["Hessa showed him. Not by making me climb. Belt. Position one step below and slightly behind on ascent. Do not pull unless I actually lose balance. Do not stand directly behind where I could fall onto him. Do not grab crutches. Do not improvise. Jorren listened. Actually listened. Good. Keeper stood at bottom. Not because committee. Because it was her staircase and we were blocking it."],
+    "replacement": ["Hessa showed him. Not by making me climb. \"Belt. One step below and slightly behind on ascent. Do not pull unless he actually loses balance. Do not stand directly behind where he could fall onto you. Do not grab the crutches. Do not improvise.\" Jorren listened. Actually listened. Good. Keeper stood at bottom. Not because committee. Because it was her staircase and we were blocking it."]
   },
   "75|Fix 75.4 - Jorren at the landing": {
     "reason": "Current main carries Greg's full landing calculation in the middle paragraph. Preserve it while adding the accepted article and explicit Greg attribution.",
-    "current": [
-      "\"Sit?\" Jorren asked.",
-      "Could sit on landing floor. Would then need stand. Two steps. I wanted room.",
-      "\"Thirty seconds.\""
-    ],
-    "replacement": [
-      "\"Sit?\" Jorren asked.",
-      "Could sit on the landing floor. Would then need stand. Two steps. I wanted room.",
-      "\"Thirty seconds,\" I said."
-    ]
+    "current": ["\"Sit?\" Jorren asked.", "Could sit on landing floor. Would then need stand. Two steps. I wanted room.", "\"Thirty seconds.\""],
+    "replacement": ["\"Sit?\" Jorren asked.", "Could sit on the landing floor. Would then need stand. Two steps. I wanted room.", "\"Thirty seconds,\" I said."]
   }
 }
