@@ -86,16 +86,17 @@ Do not claim a chapter is covered until its exact source was reviewed and the ba
 ## Coverage ledger
 
 - Chapters 1-301: **NOT YET COMPLETE**
-- Verified reviewed range: **Chapters 1-16**
-- No-change chapters in reviewed range: **1, 4, 5, 6, 7, 11, 12, 13, 14**
+- Verified reviewed range: **Chapters 1-19**
+- No-change chapters in reviewed range: **1, 4, 5, 6, 7, 11, 12, 13, 14, 18, 19**
 - Chapters with hard attribution fixes recorded: **2, 3**
-- Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16**
+- Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16, 17**
 - Durable batches:
   - `state/editorial/dialogue-pass/BATCH_001_004.md`
   - `state/editorial/dialogue-pass/BATCH_005_010.md`
   - `state/editorial/dialogue-pass/BATCH_011_013.md`
   - `state/editorial/dialogue-pass/BATCH_014_016.md`
-- Current source edge: **Chapter 17**
+  - `state/editorial/dialogue-pass/BATCH_017_019.md`
+- Current source edge: **Chapter 20**
 
 ## Completion definition for one chapter
 
@@ -118,6 +119,7 @@ Early Book I already contains useful natural separation:
 - Hessa: controlled procedural instruction tied to body, safety, and repeatability.
 - Jorren: peer-level physical truth; sees stance, rhythm, overcommitment, fatigue, and what a fighter is actually doing without turning every correction into theory.
 - Alden: fast, ambitious, initiative-seeking, willing to learn, and prone to treating early advantage as something already owned.
+- Edrin: guild warding/custody; authority comes from responsibility for sealed structures and controlled access rather than from personal teaching.
 
 Shared dryness is allowed. Do not force distinct catchphrases where domain and cadence already separate the voices.
 
@@ -126,6 +128,8 @@ Shared dryness is allowed. Do not force distinct catchphrases where domain and c
 - `state/voices/ANTONIUS.md`
 - `state/voices/ARLO.md`
 - `state/voices/RUSK.md`
+- `state/voices/JORREN.md`
+- `state/voices/ALDEN.md`
 
 These are specialist editorial aids, not canon substitutes.
 
