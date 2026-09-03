@@ -1,7 +1,7 @@
 name: Publish dialogue attribution pass
 
-# Integration v5: publish accepted dialogue/attribution work through Chapter 99
-# while preserving the Book I / Book II canonical-source boundary.
+# Integration v5: publish the accepted incremental dialogue/attribution range
+# through Chapter 99 while preserving the Book I / Book II source boundary.
 on:
   pull_request:
     paths:
@@ -37,10 +37,10 @@ jobs:
         run: git fetch origin editor/voice-compression-pass:refs/remotes/origin/editor/voice-compression-pass
       - name: Install manuscript source-sync dependency
         run: pip install python-docx
-      - name: Apply approved Chapter 1-99 reader changes
-        run: python scripts/dialogue_live_entrypoint.py --patch-ref origin/editor/voice-compression-pass --min-chapter 6 --max-chapter 99 --canonicalize-from 1
+      - name: Apply approved Chapter 81-99 reader changes
+        run: python scripts/dialogue_live_entrypoint.py --patch-ref origin/editor/voice-compression-pass --min-chapter 81 --max-chapter 99 --canonicalize-from 81
       - name: Promote Book I reader prose through Chapter 82
-        run: python scripts/promote_book1_polish.py '1-82'
+        run: python scripts/promote_book1_polish.py '81-82'
       - name: Promote Book II reader prose through Chapter 99
         run: python scripts/promote_book1_polish.py '83-99' --docx state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx
       - name: Validate integration boundary
@@ -56,14 +56,14 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           import re
-          for n in range(1, 100):
+          for n in range(81, 100):
               text = Path(f'chapters/{n:03d}.html').read_text(encoding='utf-8')
               m = re.search(r'<article\s+class="prose"[^>]*>(.*?)</article>', text, re.S | re.I)
               if not m:
                   raise SystemExit(f'missing prose article in chapter {n}')
               if '—' in re.sub(r'<[^>]+>', '', m.group(1)):
                   raise SystemExit(f'em dash in chapter {n} prose')
-          print('Dialogue integration validation passed through Chapter 99')
+          print('Dialogue integration validation passed for Chapters 81-99')
           PY
       - name: Commit published reader and canonical sources
         if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
