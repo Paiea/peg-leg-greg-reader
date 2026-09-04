@@ -19,10 +19,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Import approved repair inputs and migration tooling
+      - name: Import approved repair inputs
         run: |
           git fetch origin editor/bren-memory-repair-design reader/renumber-after-220
-          git checkout origin/reader/renumber-after-220 -- scripts/one_off_renumber_after_220.py docs/superpowers/plans/2026-09-03-renumber-after-220.md
+          git checkout origin/reader/renumber-after-220 -- docs/superpowers/plans/2026-09-03-renumber-after-220.md
           git checkout origin/editor/bren-memory-repair-design -- \
             state/manuscript/Peg_Leg_Greg_Chapter_220A_EXACT.md \
             state/manuscript/Peg_Leg_Greg_Chapter_220B_EXACT.md \
@@ -30,7 +30,7 @@ jobs:
             state/BREN_220ABC_CANON.md \
             state/OPEN_THREADS.md
       - name: Run deterministic renumber migration
-        run: python scripts/one_off_renumber_after_220.py
+        run: python scripts/one_off_renumber_after_220_v2.py
       - name: Regenerate Light edition
         run: |
           python scripts/generate_light.py 156-219
