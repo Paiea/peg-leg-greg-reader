@@ -1,10 +1,10 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 326 - **THE LOT**.
+- Current exact story endpoint: Chapter 327 - **THE LAST DOOR**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249-326 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249-327 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500-4,000 words and clear 2,500 unless explicitly changed.
@@ -17,48 +17,56 @@
 
 ## Current direction
 - Preserve ordinary lived texture, social accumulation, disability/material reality, humor, work, independent side-character lives, and long-delay residue.
-- Ch322 artifact market; Ch323 dangerous institutional artifact work; Ch324 specialist/economic information; Ch325 public night work and earned reserve; Ch326 delivers the first fresh artifact acquisition under the stronger artifact engine.
-- Greg now has **two copper + zero bits** after spending one copper on a mixed repair-sweep lot. This is not economic reset. He deliberately spends part of reserve while retaining two copper afterward.
-- The acquired dark oval is a real payoff but remains unidentified. Do not immediately reveal full mechanics, make it secretly legendary, or solve it through one convenient expert visit.
-- Artifact progression should now include use, constraint, observation, interaction, and consequences rather than immediately replacing this object with another purchase.
-- Avoid loot treadmill. The basket also contains eighteen apparently mundane/unknown repair pieces, most likely garbage unless later exact prose earns otherwise.
+- Ch322 artifact market; Ch323 dangerous institutional artifact work; Ch324 specialist/economic information; Ch325 public night work and earned reserve; Ch326 first fresh acquisition; Ch327 turns that acquisition into actual capability + constraint.
+- The dark oval now has one strong observed use pattern: when freely able to orient, it appears to indicate the most recently crossed qualifying threshold and updates after a new qualifying threshold is crossed.
+- Its core limitation is equally important: crossing a new qualifying threshold overwrites the prior orientation. It is useful for one-step retreat, not full route memory.
+- Do not upgrade this into perfect navigation, path recording, danger sensing, teleportation, or universal doorway detection.
+- Artifact engine should now deepen this object through use, circumstances, constraints, and eventual interaction rather than immediately replacing it with another acquisition.
 
 ## Money / capital
-- Greg holds **two private copper + zero private bits** at Ch326 end.
+- Greg holds **two private copper + zero private bits** at Ch327 end. Ch327 changes no money.
 - Vale debt remains active/unresolved; exact remaining balance unstated after Ch308 one-copper debt credit.
 - No copper/bit conversion established.
 - Recent anchors: Ch293 shoulder bag 1c; Ch306 fixed holdfast 2c; Ch308 one seated Vale hour 1c debt credit; Ch319 missed two-hour cash task 1c; Ch320 portrait quote 1c; Ch322 registered field brace 14c; Ch324 Mara mark read 2c / housing 3c / open seat 4c + materials; Ch325 West Glass night-line shift 2c; Ch326 mixed repair-sweep basket 1c.
-- Ch326 seller prices obvious known lots differently: brass fasteners 2c; mixed unsorted repair sweep 1c. The low lot price is rationalized by mixed provenance, unknown function, sorting/testing labor, table space, and seller attention, not seller stupidity.
-- Do not instantly restore the spent copper. Reserve logic means Greg can spend selectively and still retain choice.
+- Ch327 reinforces that the one-copper lot produced useful capability before any resale/value claim. Do not make the oval secretly worth a fortune yet.
 
 ## Greg / body / equipment
 - Greg is nineteen in second life, Bronze, Carrow. Permanent LEFT BKA, knee preserved; right leg intact; two crutches.
 - Ch293 brown leather shoulder bag remains regular equipment; narrow scrap plus wrapped charcoal normally ride inside.
 - Fixed holdfast remains wrapped on high shelf above clothes, ring sideways, base on sailcloth, out of Tavi reach, tag `DO NOT TURN RING.` Untested/unvindicated beyond seller demonstration.
-- Square black Kiln yard chit remains in small inner fold of bag. Mara checklist card remains in bag: MARK / MATERIAL / MOVING PARTS / STONE OR CORE / VISIBLE DAMAGE / KNOWN USE.
-- Ch326 acquired shallow woven basket and mixed repair-sweep contents. Dark oval is separately wrapped in clean ordinary cloth, placed in the shallow lidless wooden case from the lot, and stored high on a different side from the holdfast, out of Tavi reach. Do not merge/contact/test it with holdfast automatically.
-- Remaining eighteen lot pieces are left in the basket on the floor at Ch326 end. They include buckles, blackened hinge, stone buttons, bent copper plate, possible lock tongue, iron hook, pale ceramic hollow cylinder, broken iron ring, cloudy glass fragments including one with a broken silver thread, and other low-value repair debris. Exact count/details beyond prose should not be inflated into eighteen artifacts.
-- No injury/equipment damage through Ch326. Ch325 shoulder/hand fatigue is ordinary and resolving.
+- Square black Kiln yard chit remains in small inner fold of bag. Mara checklist card remains in bag.
+- Dark oval acquired Ch326 remains Greg's property. In Ch327 Greg carries it wrapped in its shallow wooden case inside the shoulder bag, then later hangs it freely from a short loop of spare cord through its tiny hole near his upstairs doorway for easier observation.
+- Hanging/free orientation appears easier to read but is not proven necessary for function.
+- Remaining eighteen repair-sweep pieces stay separate and should default mundane/unknown unless exact prose earns otherwise.
+- No injury/equipment damage through Ch327.
 
 ## Notes / household
-- Household stable. Tavi obeys no-touch boundary around unknown object. Lyssa witnesses the first observed oval movements but does not become artifact partner/appraiser.
-- Three clean household gray sheets remain unused. Greg explicitly does not use them to wrap the oval.
-- Narrow scrap adds Ch326: `TOOL LANE LOT 1 C / DARK OVAL / 3-CUT OPEN TRIANGLE / MOVES WITHOUT TOUCH / NO CLAIM YET / 2 C LEFT` plus bounded observation notes.
-- Ch308 Vale debt-credit receipt remains stored. Ch319 expired Antonius cash-work note remains record only.
+- Household stable. Tavi obeys no-touch boundary and later triggers one observed threshold update by crossing the open upstairs doorway/frame.
+- Lyssa witnesses discussion but does not become artifact partner/appraiser.
+- Three clean household gray sheets remain unused.
+- Narrow scrap now carries Ch327 bounded notes including observed qualifying thresholds, `SO FAR, CONSISTENT WITH MOST RECENT QUALIFYING THRESHOLD`, `CROSSING NEW QUALIFYING THRESHOLD OVERWRITES PRIOR ORIENTATION`, `USEFUL FOR ONE-STEP RETREAT`, `NOT ROUTE MEMORY`, `HANGING = EASIER TO READ / NOT PROVEN REQUIRED`, and working label `LAST-DOOR OVAL`.
+- `LAST-DOOR OVAL` is Greg's working note name only, not canonical formal terminology.
 
 ## Magic continuity
 - Current totals remain **36 supervised minimal draws / 32 supervised deliberate shaping attempts / 78 supervised external-effect attempts**.
 - Near aggregate **4 clean / 10**. Middle **1 clean / 6 plus one possible edge lift (attempt 68)**. Far **0 / 1**.
-- Ch313-Ch326 add no Greg magic attempts. External equipment does not count as Greg mana use.
-- Ch326 Greg does not activate, channel into, press, scrape, polish, open, or magically test the dark oval.
-- Observed oval behavior: after being exposed on sailcloth, it makes several small rotations/twitches without touch. One occurs after the downstairs front door opens and appears to turn away from the door, but this is only one bounded observation and exact angle/cause are unestablished. Later, after Cala comes home and the front door closes downstairs, one soft click is heard from inside the wooden case. No glow/explosion/confirmed mana response.
-- Greg has partial first-life memory of a similar black disk/oval associated with a wet-road night shelter and being hung where it could move. He does not recover the function.
+- Ch313-Ch327 add no Greg magic attempts. External equipment does not count as Greg mana use.
+- Ch327 Greg does not channel mana into, press, scrape, polish, disassemble, or intentionally activate the oval.
+- Observed behavior in Ch327:
+  - apartment front door outward crossing clicks once;
+  - building door outward crossing clicks once;
+  - repeated immediate re-crossings do not produce a simple `every crossing always clicks` rule;
+  - dye-shop qualifying wooden doors/tally-room doorway produce clicks and orientation changes;
+  - cloth curtain produces no click and no update;
+  - shop front door, bakery door, two-door public passage, stone arch, and open wooden frame all support threshold-update behavior;
+  - in a lower warehouse passage Greg uses the oval to retreat one doorway at a time after route confusion;
+  - crossing a new qualifying threshold overwrites the prior orientation, making it one-step retreat rather than route memory;
+  - an open framed upstairs doorway without a physical door can qualify.
+- Exact qualification rule remains unknown. Material, enclosure, magical threshold status, frame geometry, intent, direction, distance, and environmental conditions remain unestablished.
+- Greg's first-life memory sharpens only to category/joke-level familiarity: a similar black road/shelter piece hung freely near a doorway and a remembered joke about dark making doors look honest / remembering the last liar. Formal name still unrecovered.
 - Outside-session restrictions unchanged. Hessa next experiment/appointment/position/object/condition remains unselected.
 
 ## Recent chapter ledger
-
-### Chapter 322 - THE BIDDER
-- Registered old field brace visibly absorbs strikes and sells for 14c. Greg partly recognizes hardware family; Rusk names Mara Quill. Reserve/optionality pressure begins.
 
 ### Chapter 323 - THE HELD WEIGHT
 - Kiln cooperative counterload frame fails during lintel move. Greg carries exact emergency message and receives narrow black yard chit, not pay. Institutional access becomes another route through expensive magic.
@@ -70,44 +78,44 @@
 - Greg chooses 2c West Glass public night-line shift over easier 1-bit sack work. Public-light trial has blue surge and cracked-bowl shutdown; Greg uses crowd/blocking experience without becoming artifact expert. Earns 2c, ending at 3c.
 
 ### Chapter 326 - THE LOT
-- Greg walks Tool Lane with 3c reserve and examines an unsorted mixed repair-sweep basket priced at exactly **1 copper**.
-- Seller is an unnamed old man. Lot came from a South warehouse clearance but is mixed across boxes/trades; exact warehouse, prior owners, chronology, and provenance remain unknown. Seller says if he knew something magical worked the basket would not cost 1c.
-- Greg uses Mara's mundane checklist and does not touch/activate pieces while deciding.
-- One dark oval partly hidden beneath an old leather strip catches Greg's attention. It is roughly two inches long/one inch wide, dark with faint smoke-like depth, shallow groove around edge, tiny hole through one end, and an underside mark of three short cuts forming an open triangle. Greg only recognizes a possible old field/road-equipment mark family, not exact item/function/maker.
-- Rational underpricing source: seller is dumping mixed unsorted low-value repair sweep because individual sorting/testing/selling costs attention and table space. No claim that everyone missed obvious demonstrated value.
-- Greg asks bounded safety/provenance questions. Seller knows of no danger/death/bond/restriction attached to the lot but carefully does not guarantee absence. No returns.
-- Greg pays exactly **1 copper** for the whole lot and basket, leaving **2 copper + zero bits**. This is deliberate discretionary acquisition while preserving reserve.
-- At home Greg separates obviously mundane pieces using cloth for grime, not magical protection. He does not activate the oval.
-- Oval makes several tiny movements without touch. One later movement follows a downstairs door opening and appears away from the door, but evidence is insufficient. After Cala later comes home/door closes, one soft click comes from the stored case.
-- Greg records `MOVES WITHOUT TOUCH`, `NO CLAIM YET`, and bounded observation language. Lyssa/Tavi witness some behavior. No one is harmed.
-- End: first fresh artifact acquisition under stronger artifact engine has occurred, but function/value/downside remain unknown.
+- Greg buys one-copper unsorted mixed repair-sweep basket, preserving 2c reserve. One dark oval with three-cut open-triangle mark and tiny hanging hole shows small unexplained movements at home. No full function claim.
+
+### Chapter 327 - THE LAST DOOR
+- Greg carries the oval while completing an ordinary Cala receipt errand and begins hearing clicks around some door/threshold crossings.
+- In a dye shop, the oval visibly reorients toward a recently crossed tally-room doorway when the case is moved relative to the room, establishing room-relative orientation rather than case-relative position.
+- Repeated doorway observations across the dye shop, bakery, public passage, stone arches, and open frames become consistent with `most recent qualifying threshold` behavior.
+- Cloth curtain does not trigger/update in observed case, showing not every boundary qualifies.
+- Greg's route is diverted through a lower warehouse passage. He becomes mildly lost, then uses the oval practically to preserve one-step retreat.
+- Critical limitation discovered: every new qualifying threshold appears to overwrite the previous orientation. It is therefore not a route map or multi-step path recorder.
+- Greg changes movement behavior accordingly: uncertain doorway crossings become deliberate because each can erase the prior retreat point.
+- At home he hangs the oval freely near the upstairs doorway and uses working note label `LAST-DOOR OVAL`. Formal name/function family remain unconfirmed.
+- End money remains **2 copper + zero bits**. No Greg magic attempt, injury, purchase, sale, appraisal, job, or debt change.
 
 ## Other live continuity
-- Senna/gates remain bounded. Ch322 Rusk/brace/buyer remain non-automatic. Ch323 Kiln node remains bounded. Ch324 Mara known but no appointment/mentor relationship. Ch325 Sel/West Glass one completed shift, no guaranteed repeat.
-- Ch326 unnamed Tool Lane seller is not automatically recurring dealer, fence, mentor, or source of endless cheap artifacts.
+- Senna/gates remain bounded. Ch322 Rusk/brace/buyer remain non-automatic. Ch323 Kiln node remains bounded. Ch324 Mara known but no appointment/mentor relationship. Ch325 Sel/West Glass one completed shift, no guaranteed repeat. Ch326 Tool Lane seller not automatic recurring dealer.
 - Theatre only if independently reactivated. Antonius future work only if genuine separate task appears.
 
 ## Protected uncertainties
 - Fixed holdfast deeper identity/function/limits/provenance/value/repair remain unestablished.
-- Dark oval formal name, maker, age, provenance, material, activation, purpose, orientation rule, trigger, range, target, whether door behavior is causal, whether click means activation/state/change, safety, downside, value, rarity, charge, repairability, relation to Greg's first-life memory, and whether three-cut mark is maker/class/use mark all remain unestablished.
-- Do not assume it is a compass, threat detector, door detector, person detector, escape tool, ward piece, tracker, or navigation artifact from current observations.
-- Remaining repair-sweep pieces should default mundane/unknown. Do not retroactively turn the entire one-copper basket into a jackpot.
+- Dark oval formal name, maker, age, provenance, material, exact activation, exact threshold qualification, maximum distance, directional precision, duration, whether hanging is required, whether orientation survives movement across open space indefinitely, whether some thresholds are magical vs geometric, safety, downside beyond overwrite limitation, value, rarity, charge, repairability, and relation to Greg's first-life remembered road equipment all remain unestablished.
+- Do not assume it is a compass, threat detector, full navigation artifact, escape tool, door detector in the universal sense, tracker, or ward piece.
+- Remaining repair-sweep pieces should default mundane/unknown. Do not retroactively turn the basket into a jackpot.
 - Older holdfast/Valek/Kiln/Mara/West Glass/ecology/infrastructure uncertainties remain bounded unless exact prose advances them.
 
-## Chapter 327 trailhead
-Follow the next actual claim from Chapter 326 and current authority.
+## Chapter 328 trailhead
+Follow the next actual claim from Chapter 327 and current authority.
 
-Recent rhythm: market competition; dangerous institutional artifact work; specialist pricing; public paid night work; now direct acquisition and first household observation of an unidentified object. Do **not** immediately buy another artifact, return to another auction, or have Mara instantly explain everything.
+Recent rhythm: acquisition followed by real-world functional discovery. Do **not** immediately buy another artifact, visit Mara for a full explanation, or repeat a chapter built around walking through many doors just to gather more samples.
 
-The dark oval is now the strongest fresh claim. Let it earn page space through behavior, constraint, practical use, or a situation that reveals one layer. Preserve incomplete information. A useful next chapter may test nothing deliberately yet still put Greg in circumstances where the object's behavior becomes informative.
+The oval now needs story use, not endless testing. Let its one-step retreat function or overwrite limitation matter inside a different kind of chapter: field action, travel, performance geometry, danger, work, social consequence, or another live engine.
 
-Greg has **2 copper + zero bits**. Do not instantly restore the spent copper or make the purchase secretly worth a fortune. The payoff should first be capability/constraint/information, not resale value.
+Greg now behaves differently around uncertain thresholds when carrying the oval. That is the operating-rule rewrite. Preserve the inconvenience: crossing the wrong threshold can erase the useful return point.
 
-Greg's first-life memory is partial. It can sharpen if exact circumstances cue it, but avoid convenient full recall on demand.
+Greg has **2 copper + zero bits**. Do not instantly restore or spend it merely to service the artifact route.
 
-The object should eventually rewrite some operating rule of Greg's life if it proves meaningful. That does not require immediate power. Favor a downside/constraint or bounded use that creates future scene grammar rather than a clean stat upgrade.
+The first-life memory may sharpen only when circumstances genuinely cue it. Do not solve formal identity on demand.
 
-Holdfast remains separately stored and should not automatically be paired with the oval. Mara checklist is preparation, not certification. Black Kiln chit remains narrow. Magic remains 36 / 32 / 78. Household stable.
+Holdfast remains separately stored and should not automatically be paired with the oval. Mara remains optional, not immediate. Black Kiln chit remains narrow. Magic remains 36 / 32 / 78. Household stable.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
