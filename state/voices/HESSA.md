@@ -91,6 +91,8 @@ Chapters 179 and 182 add the inverse discipline: **movement does not end the nee
 
 Chapter 186 adds the next restraint: **repeatable response is not the same as arbitrary directional control**. Once the board and Greg's body orientation are separated, two movements occur away from Greg while sideways/toward-body intended conditions produce no movement. Hessa records only `POSSIBLE BIAS: AWAY FROM GREG. NOT ESTABLISHED.` She refuses `direction follows me`, `I can push away`, and `it prefers away` as established claims.
 
+Chapter 190 shows the matching upgrade discipline. Three requested-away trials produce visible target movement across multiple target positions, while two requested-toward trials produce no movement and a sideways request produces only an ambiguous small displacement that does not cleanly follow the requested sideways direction. Hessa can therefore upgrade the directional noun to **supported relative preference in the current setup** while writing `NOT GENERALIZED.` She still refuses to turn the result into arbitrary directional choice or a general push capability.
+
 ## Information behavior
 
 Hessa may know more than she says because information can contaminate expectation or because Greg does not need the next question yet.
@@ -112,6 +114,7 @@ High-value examples:
 - Chapter 179: she separates `observable`, `repeatable`, `caused by you`, and `magical` rather than letting Greg's word `counts` smuggle several thresholds into one question. After a target-only movement she inspects the apparatus, finds target-fin asymmetry, records `Possible directional movement during supervised external attempt. Not repeated. Apparatus asymmetry identified after attempt.`, and stops until the setup can be improved.
 - Chapter 182: she reduces the easiest apparatus explanation with sharper same-paper, same-fold fins, grooved lanes, target assignment that Greg does not control, fin swaps, position changes, and paired controls. She gives Greg the bounded yes only after multiple different targets move under the improved setup.
 - Chapter 186: she rotates the board and physically moves Greg around the table so board-relative `forward` and Greg-relative `forward/away` can diverge. She treats furniture, shoulder position, palm soreness, and visible body movement as part of the causal environment even when the strain is not caused by mana.
+- Chapter 190: she fixes the better-supported response direction long enough to compare it against toward and sideways requests, changes target position without pretending distance is the day's main question, and records the exact observed pattern before separately judging away as the better explanation. Her spoken `probably` does not replace the written observation.
 
 Independent witnesses and apparatus answer only the question they can actually answer. Copper can support that a mana event changed while Greg reports phenomenology. It does not give Hessa a perfect map of Greg's sensation.
 
@@ -304,6 +307,63 @@ Current ceiling by the end of Chapter 186:
 - Barrier: **not cleared**;
 - independent magical work: **still prohibited**, including paper, substitute-object, or direction testing outside supervision.
 
+### Chapter 190: supported body-relative directional preference
+
+Chapter 190 keeps the paper-fin apparatus and explicitly compares requested directions while varying target position. Hessa retains control of trial order and target assignment so Greg cannot simply choose the condition he expects to work.
+
+Before external work Greg completes one supervised minimal draw and one isolated deliberate-shaping baseline. Exact totals become:
+- **26 successful supervised minimal draws**;
+- **22 successful supervised deliberate shaping attempts**.
+
+Six supervised external attempts occur in Chapter 190:
+1. requested **away**, near/straight position: visible target movement; paired control unchanged;
+2. requested **toward**: no target or control movement;
+3. requested **away**, cross position: target twists partly out of the guide in the direction farther from Greg; paired control unchanged;
+4. requested **sideways left**: very small ambiguous displacement that does not cleanly follow the requested sideways direction and may contain an away component;
+5. requested **toward**: no movement;
+6. requested **away**, farther position: visible target movement; paired control unchanged.
+
+Exact external-attempt total becomes **19**.
+
+The three requested-away trials all produce visible target movement across multiple target positions. The two requested-toward trials do not. The sideways request does not cleanly produce the requested sideways direction.
+
+Hessa's written conclusion is:
+
+**AWAY RESPONSE REPEATED UNDER MULTIPLE TARGET POSITIONS.**
+
+**TOWARD RESPONSE NOT OBSERVED TODAY.**
+
+**DIRECTIONAL PREFERENCE RELATIVE TO GREG'S POSITION SUPPORTED.**
+
+**NOT GENERALIZED.**
+
+This is a real upgrade from Chapter 186's `possible bias`. The supported noun is still bounded to the demonstrated paper-fin setup and observed body-relative pattern. It does not establish arbitrary directional choice, a general push ability, spell, casting, Barrier, or independent-work permission.
+
+The next operational question becomes:
+
+**AWAY ONLY.**
+
+**NEAR / FAR.**
+
+Distance becomes the cleaner next variable while the better-supported response direction stays fixed.
+
+Current ceiling by the end of Chapter 190:
+- minimal draw: increasingly repeatable and retained across ordinary work intervals;
+- localized shaping: increasingly repeatable;
+- maintaining draw while altering: increasingly repeatable;
+- RETURN: increasingly repeatable;
+- avoiding broad old response / motor recruitment: increasingly repeatable;
+- direction-first internal control: **provisionally supported under a narrow self-reported condition, with interpretation weakened by better baseline geometry**;
+- neutral shape may have repeatable asymmetry: **supported as a live possibility, not established cause or anatomy**;
+- external response: **repeatable under the paper-fin apparatus within the demonstrated target/control conditions**;
+- external-response direction: **directional preference relative to Greg's position supported in the current setup, with away better supported than toward; not generalized**;
+- arbitrary directional choice: **not established**;
+- distance effect: **not yet established; next question is away-only near/far comparison**;
+- spell: **not established**;
+- casting: **not cleared**;
+- Barrier: **not cleared**;
+- independent magical work: **still prohibited**, including paper, substitute-object, distance, or direction testing outside supervision.
+
 ## External-effect threshold
 
 Hessa's threshold is not a secret number.
@@ -335,6 +395,8 @@ A repeatable response under one improved apparatus earns the bounded response cl
 
 Two movements in the same body-relative direction are not enough by themselves to establish a directional rule when the sample is small and the failed conditions also matter. Chapter 186 earns a **possible bias** and a better next test, not `push away` as a capability.
 
+Three repeated requested-away responses across multiple target positions, combined with two requested-toward nonresponses and no clean contrary sideways result, can upgrade `possible bias` to a **supported directional preference in the current setup**. It still does not establish arbitrary directional control or generalization to other objects, distances, scales, or unsupervised conditions.
+
 ## With Greg
 
 There is real intellectual trust under the irritation. Hessa increasingly expects Greg to understand the discipline and can make him state the rule instead of lecturing him again.
@@ -360,6 +422,8 @@ Chapter 176 also keeps ordinary work outside her authority. When Greg says he mu
 Chapters 179 and 182 show the relationship after a result becomes emotionally tempting. Hessa does not deny Greg the satisfaction of a bounded yes, but she refuses to let excitement widen permission. After Chapter 182's repeated paper response, she still makes Greg recite the restrictions before leaving and keeps the next question narrow: different direction/orientation, same demonstrated lane, later.
 
 Chapter 186 adds ordinary physical fatigue to the interpretation without pretending it is magical injury. Greg's shoulder and palm are sore from theatre/crutch work. Hessa can stop because visible shaking or compensatory movement makes a tiny-motion experiment harder to interpret. `That's not mana` is not a reason to ignore the body.
+
+Chapter 190 preserves the same relationship after the evidence gets stronger. Hessa can say `probably` in conversation and allow `supported` in the written directional conclusion while still refusing independent practice. Stronger evidence changes the noun, not the permission ladder automatically.
 
 ## Canon lines / fingerprints
 
@@ -393,6 +457,10 @@ Chapter 186 adds ordinary physical fatigue to the interpretation without pretend
 - **CANON LINE:** `Possible directional movement during supervised external attempt. Not repeated. Apparatus asymmetry identified after attempt.`
 - **CANON LINE:** `You produced a repeatable external response under this apparatus.`
 - **CANON LINE:** `Possible bias: away from Greg. Not established.`
+- **CANON LINE:** `Away response repeated under multiple target positions.`
+- **CANON LINE:** `Toward response not observed today.`
+- **CANON LINE:** `Directional preference relative to Greg's position supported.`
+- **CANON LINE:** `Not generalized.`
 - **CANON PATTERN:** upgrades the strongest noun only when evidence earns it, then preserves the scope.
 - **CANON PATTERN:** lowers confidence in an exciting result when later baseline information makes another explanation more plausible.
 - **CANON PATTERN:** gives ordinary-life freedom without expanding magical permission.
@@ -401,6 +469,7 @@ Chapter 186 adds ordinary physical fatigue to the interpretation without pretend
 - **CANON PATTERN:** a target-only movement can justify apparatus redesign before it justifies a causal claim.
 - **CANON PATTERN:** multiple target movements under improved controls can earn a bounded external-response claim without granting casting or generalization.
 - **CANON PATTERN:** separates apparatus-relative direction from body-relative direction before granting a directional-control claim.
+- **CANON PATTERN:** repeated response in one body-relative direction can earn a supported preference before arbitrary directional control or cross-object generalization.
 
 ## Voice tests — NON-CANON
 
@@ -451,6 +520,7 @@ Avoid:
 - treating Chapter 179's single moved fin as proof after its base asymmetry is discovered;
 - converting Chapter 182's repeatable paper response into general object-moving ability, spell, casting clearance, Barrier, or independent-work permission;
 - treating `forward` as established directional control before the apparatus-orientation question is tested;
-- converting Chapter 186's possible away-from-Greg bias into `push`, general body-relative directional control, or a spell before stronger repetition earns it.
+- converting Chapter 186's possible away-from-Greg bias into `push`, general body-relative directional control, or a spell before stronger repetition earns it;
+- converting Chapter 190's supported away-relative preference into arbitrary directional choice, cross-object generalization, larger-scale capability, or independent practice.
 
 Hessa is strongest when exactness belongs specifically to the work she is doing.
