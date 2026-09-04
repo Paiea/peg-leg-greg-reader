@@ -1,0 +1,65 @@
+name: One-off renumber after 220
+
+on:
+  push:
+    branches:
+      - reader/renumber-after-220
+
+permissions:
+  contents: write
+
+jobs:
+  renumber:
+    if: ${{ !contains(github.event.head_commit.message, '[renumber-done]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run deterministic renumber migration
+        run: python scripts/one_off_renumber_after_220.py
+      - name: Regenerate Light edition
+        run: |
+          python scripts/generate_light.py 156-219
+          python scripts/generate_light.py current
+      - name: Refresh reader navigation and home contents
+        run: |
+          python scripts/update_reader_navigation.py index.html
+          python scripts/update_home_contents.py
+      - name: Run tests and reader verification
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py'
+          python scripts/verify_light.py 156-219
+          python scripts/verify_light.py current
+          grep -q 'CHAPTER 221' chapters/221.html
+          grep -q 'THE SHORTAGE' chapters/221.html
+          grep -q 'CHAPTER 222' chapters/222.html
+          grep -q 'THE OLD MAN' chapters/222.html
+          grep -q 'CHAPTER 223' chapters/223.html
+          grep -q 'THE ROUTE' chapters/223.html
+          grep -q 'CHAPTER 224' chapters/224.html
+          grep -q 'THE PARTICIPANT' chapters/224.html
+          test -f chapters/304.html
+          test -f light/304.html
+          ! test -f chapters/220a.html
+          ! test -f chapters/220b.html
+          ! test -f chapters/220c.html
+          ! test -f state/manuscript/Peg_Leg_Greg_Chapter_220A_EXACT.md
+          ! test -f state/manuscript/Peg_Leg_Greg_Chapter_220B_EXACT.md
+          ! test -f state/manuscript/Peg_Leg_Greg_Chapter_220C_EXACT.md
+          grep -q 'Current endpoint:** Chapter 304' state/MANUSCRIPT_CHAPTER_INDEX.md
+          git diff --check
+      - name: Commit atomic renumber migration
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'No renumber changes to commit.'
+            exit 0
+          fi
+          git commit -m 'manuscript: normalize 220ABC insertion and shift later chapters [renumber-done]'
+          git push
