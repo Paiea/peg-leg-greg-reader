@@ -55,10 +55,12 @@ def _print_heading_diagnostic() -> None:
     except (ValueError, IndexError):
         return
     from docx import Document
-    headings = [p.text for p in Document(path).paragraphs if "CHAPTER" in p.text.upper()]
+    doc = Document(path)
+    headings = [p.text for p in doc.paragraphs if "CHAPTER" in p.text.upper()]
     print("Book II canonical heading tail:")
     for heading in headings[-12:]:
-        print(repr(heading))
+        print(repr(heading), "=>", _number_from_heading(heading))
+    print("Parsed heading keys tail:", sorted(impl._heading_map(doc))[-12:])
 
 
 if __name__ == "__main__":
