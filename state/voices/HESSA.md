@@ -87,6 +87,8 @@ Hessa does not protect a preferred result from a better baseline.
 
 Chapter 176 adds another version of the same restraint. Greg returns from travel with no prohibited independent work, then asks to revisit the external question at a smaller scale. Hessa allows one clean supervised attempt under a better breath-controlled setup. When it produces no external displacement, she stops after one rather than spending more attempts chasing a prettier null or a desired twitch.
 
+Chapters 179 and 182 add the inverse discipline: **movement does not end the need for controls.** In Chapter 179 a designated target fin moves while the paired control does not, but the movement fails to repeat and Hessa later identifies that the moved fin has a slightly flatter base. She records the movement without granting the desired claim and stops external work until the apparatus can be improved. Chapter 182 then uses sharper same-paper, same-fold fins, a grooved board, paired controls, position changes, and multiple fins. Only after three different designated targets move across two positions while paired controls show no visible movement does Hessa answer `Yes` to Greg's bounded `Did I move paper?` question. Even then, the earned noun is **repeatable external response under this apparatus**, not spell, casting, Barrier, or general object-moving ability.
+
 ## Information behavior
 
 Hessa may know more than she says because information can contaminate expectation or because Greg does not need the next question yet.
@@ -104,7 +106,9 @@ High-value examples:
 - Chapters 131 and 133: she removes the prepared destination and establishes direction before shaping.
 - Chapter 135: she repeats wristward because it was the first direction-first condition, not because she prefers its result.
 - Chapters 137 and 139: she maps neutral shape geometry so later directional claims can be interpreted against a better starting description.
-- Chapter 176: she makes Greg separate prepared-object behavior, audience interpretation, and his own external magical work before she will accept the question. During the test, Greg notices himself trying to construct the clean result story and stops. Hessa treats that restraint as improved experimental behavior, not magical success.
+- Chapter 176: she makes Greg separate prepared-object behavior, audience interpretation, and his own external magical work before she will accept the question. During the test, Greg notices himself trying to construct the clean result story and stops. Hessa treats that restraint as improved method behavior, not magical success.
+- Chapter 179: she separates `observable`, `repeatable`, `caused by you`, and `magical` rather than letting Greg's word `counts` smuggle several thresholds into one question. After a target-only movement she inspects the apparatus, finds target-fin asymmetry, records `Possible directional movement during supervised external attempt. Not repeated. Apparatus asymmetry identified after attempt.`, and stops until the setup can be improved.
+- Chapter 182: she reduces the easiest apparatus explanation with sharper same-paper, same-fold fins, grooved lanes, target assignment that Greg does not control, fin swaps, position changes, and paired controls. She gives Greg the bounded yes only after multiple different targets move under the improved setup.
 
 Independent witnesses and apparatus answer only the question they can actually answer. Copper can support that a mana event changed while Greg reports phenomenology. It does not give Hessa a perfect map of Greg's sensation.
 
@@ -204,6 +208,47 @@ Current ceiling by the end of Chapter 176:
 - Barrier: **not cleared**;
 - independent magical work: **still prohibited**.
 
+### Chapters 179-182: from possible target movement to repeatable bounded external response
+
+Chapter 179 improves the apparatus with narrow paper fins constrained by guides and a larger breath shield. Hessa refuses Greg's attempt to make `observable`, `repeatable`, `caused by you`, and `magical` one threshold.
+
+A designated target fin moves forward while Greg is deliberately shaping toward it and the paired control shows no visible movement. The movement does not repeat. After the attempt, Hessa finds that the moved fin has a slightly flatter base and may have been easier to move. Her record remains deliberately provisional: **possible directional movement during supervised external attempt; not repeated; apparatus asymmetry identified after attempt.** She does not spend more external work on a setup whose own asymmetry now competes with the exciting interpretation.
+
+Chapter 182 returns with a better board and six sharper fins made from the same paper, with the same fold, by the same person. The fins sit in parallel grooves with ink marks. Hessa checks stability, changes positions, switches fins, uses paired controls, and does not let Greg choose every target assignment.
+
+Before external work Greg completes two supervised minimal draws and two deliberate shaping baselines. Exact totals become:
+- **24 successful supervised minimal draws**;
+- **20 successful supervised deliberate shaping attempts**.
+
+Four supervised external attempts occur in Chapter 182:
+1. left target: forward movement across the first ink mark; no visible paired-control movement;
+2. right target using the previously moved fin after a position swap: no movement;
+3. right target using a different fin: small lateral movement; no visible paired-control movement;
+4. right target using another fin: forward movement across the first ink mark; no visible paired-control movement.
+
+Exact external-attempt total becomes **9**.
+
+Hessa's high-value written summary is: **three different fins moved across two positions.**
+
+The earned conclusion is narrow but real. Under this setup, during supervised deliberate shaping toward a designated paper target, small movement of multiple target fins has been observed without visible movement of paired controls. Hessa answers `Yes` when Greg asks whether he moved paper and then gives the stronger bounded noun: **repeatable external response under this apparatus.**
+
+That upgrades the prior `external effect unestablished` ceiling, but only inside the demonstrated setup. It does **not** establish a spell, Barrier, casting clearance, general object-moving ability, or independent magical-work permission.
+
+Current ceiling by the end of Chapter 182:
+- minimal draw: increasingly repeatable and retained after travel;
+- localized shaping: increasingly repeatable and retained after travel;
+- maintaining draw while altering: increasingly repeatable;
+- RETURN: increasingly repeatable;
+- avoiding broad old response / motor recruitment: increasingly repeatable;
+- direction-first internal control: **provisionally supported under a narrow self-reported condition, with interpretation weakened by better baseline geometry**;
+- neutral shape may have repeatable asymmetry: **supported as a live possibility, not established cause or anatomy**;
+- external response: **repeatable under the Chapter 182 paper-fin apparatus within the demonstrated target/control conditions**;
+- direction of the external response: **not yet separated from apparatus orientation; next question is whether `forward` belongs to Greg or the setup**;
+- spell: **not established**;
+- casting: **not cleared**;
+- Barrier: **not cleared**;
+- independent magical work: **still prohibited**, including paper or substitute-object testing at home.
+
 ## External-effect threshold
 
 Hessa's threshold is not a secret number.
@@ -228,6 +273,10 @@ A provisional internal success is not automatically a reason to return to extern
 
 A null external attempt is not an automatic reason to repeat immediately. If the condition was clean enough to answer the day's question and expectation is now stronger, stopping may preserve more information than another try.
 
+A target-only movement is not automatically proof of Greg's effect if the target itself differs materially from the control. Apparatus asymmetry can weaken an exciting observation without erasing that the movement occurred.
+
+A repeatable response under one improved apparatus earns the bounded response claim before it earns a general mechanism. Position, direction, fin behavior, and setup orientation remain next questions after Chapter 182.
+
 ## With Greg
 
 There is real intellectual trust under the irritation. Hessa increasingly expects Greg to understand the discipline and can make him state the rule instead of lecturing him again.
@@ -249,6 +298,8 @@ Chapter 176 confirms that principle after a much longer road interval. Hessa fir
 Hessa may give Greg an assessment artifact while still controlling what it means. She gives him the newer drawing but warns against reconstructing the sensation, turning travel into unrecorded testing, or even physically folding the sheet through the boundary in a way that may contaminate later memory.
 
 Chapter 176 also keeps ordinary work outside her authority. When Greg says he must return to the theatre by four, Hessa treats that as a real constraint: `You have work.` The magic session fits around it rather than consuming his day because the experiment is important.
+
+Chapters 179 and 182 show the relationship after a result becomes emotionally tempting. Hessa does not deny Greg the satisfaction of a bounded yes, but she refuses to let excitement widen permission. After Chapter 182's repeated paper response, she still makes Greg recite the restrictions before leaving and keeps the next question narrow: different direction/orientation, same demonstrated lane, later.
 
 ## Canon lines / fingerprints
 
@@ -279,11 +330,15 @@ Chapter 176 also keeps ordinary work outside her authority. When Greg says he mu
 - **CANON LINE:** `Go because you want to go.`
 - **CANON LINE:** `We are asking whether you can produce a small external displacement under a cleaner condition than your previous attempts.`
 - **CANON LINE:** `You have work.`
+- **CANON LINE:** `Possible directional movement during supervised external attempt. Not repeated. Apparatus asymmetry identified after attempt.`
+- **CANON LINE:** `You produced a repeatable external response under this apparatus.`
 - **CANON PATTERN:** upgrades the strongest noun only when evidence earns it, then preserves the scope.
 - **CANON PATTERN:** lowers confidence in an exciting result when later baseline information makes another explanation more plausible.
 - **CANON PATTERN:** gives ordinary-life freedom without expanding magical permission.
 - **CANON PATTERN:** can treat Greg noticing his own result-construction impulse as methodological progress without upgrading the magical result.
 - **CANON PATTERN:** a clean null external attempt can be worth stopping on rather than repeating until something moves.
+- **CANON PATTERN:** a target-only movement can justify apparatus redesign before it justifies a causal claim.
+- **CANON PATTERN:** multiple target movements under improved controls can earn a bounded external-response claim without granting casting or generalization.
 
 ## Voice tests — NON-CANON
 
@@ -330,6 +385,9 @@ Avoid:
 - assuming later baseline evidence must either validate or erase earlier observations rather than changing their weight;
 - turning `Go because you want to go` into a generic autonomy slogan detached from the specific boundary of Hessa's authority;
 - merging prepared-object behavior, audience interpretation, and Greg's own external magical effect into one mechanism merely because Greg sees a useful analogy;
-- repeating a clean null external attempt immediately because a more dramatic answer would be emotionally satisfying.
+- repeating a clean null external attempt immediately because a more dramatic answer would be emotionally satisfying;
+- treating Chapter 179's single moved fin as proof after its base asymmetry is discovered;
+- converting Chapter 182's repeatable paper response into general object-moving ability, spell, casting clearance, Barrier, or independent-work permission;
+- treating `forward` as established directional control before the apparatus-orientation question is tested.
 
 Hessa is strongest when exactness belongs specifically to the work she is doing.
