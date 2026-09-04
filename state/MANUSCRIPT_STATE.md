@@ -1,10 +1,10 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 321 - **THE REFEREE**.
+- Current exact story endpoint: Chapter 322 - **THE BIDDER**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249-321 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249-322 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500-4,000 words and clear 2,500 unless explicitly changed.
@@ -12,105 +12,61 @@
 - Exact prose outranks summaries/state/development/chat residue.
 - Follow the next actual claim created by prose. Do not rotate live engines by checklist.
 - Structural boundaries follow story movement, not predetermined counts.
-- Reader ignorance is not Greg ignorance. Greg's first life reached roughly fifty-nine and S-class. Ordinary fantasy-world familiarity should usually remain invisible; curiosity attaches to local implementation, labor, constraints, failure, cost, or specialist practice.
-- Magical-ecology and fieldcraft competence may sometimes be simply correct when grounded in repeated first-life experience. Do not manufacture uncertainty solely to protect mystery.
-- Future knowledge may sometimes work cleanly, but current-object condition, local price, chronology, and other evidence ceilings still matter. Do not turn it into perfect arbitrage.
+- Reader ignorance is not Greg ignorance. Greg's first life reached roughly fifty-nine and S-class. Ordinary fantasy familiarity should usually remain invisible; curiosity attaches to local implementation, labor, constraints, failure, cost, or specialist practice.
+- Magical ecology/fieldcraft competence may be simply correct when grounded in repeated first-life experience. Do not manufacture uncertainty solely to protect mystery.
+- Future knowledge may work cleanly, but current-object condition, local price, chronology, evidence ceilings, and current capability still matter. Do not turn it into perfect arbitrage.
+- Apply `ECONOMY_CONTINUITY.md` to meaningful money scenes. Liquidity is not the whole economic state. Preserve the economic ratchet without fake global inflation.
 
 ## Current direction
-- Preserve ordinary lived texture, social accumulation, disability/material reality, humor, work, and independent side-character lives.
-- Magical ecology / fieldcraft remains a strong forward possibility without creature-of-the-week structure, but not every chapter must service it.
-- Ch304 advances weak personal magic through cleaner observation rather than greater range or force.
-- Ch305 lets high-confidence first-life fieldcraft work cleanly during a mirrorhorn crossing without making Greg a handler.
-- Ch306 opens the magical-item / acquisition-economy lane through the consequential two-copper fixed holdfast purchase. It remains unvindicated.
-- Ch308 gives one bounded Vale debt-credit hour. Ch309 uses ordinary magical weather. Ch310 keeps Lyssa's professional scope hers. Ch311 restores Sevren through independent courier life. Ch312 tests target specification and gets one clean small rotation on attempt 77 only.
-- Ch313-Ch315 let those engines breathe through a cupboard move, municipal water-line flush, and tea-stall lying game.
-- Ch316-Ch319 complete one Bell Ford road sequence. Greg spends his final bit on travel, sees the resonance bridge, observes Sevren's bounded relay work, returns home, and learns he missed a genuine one-copper cash task while away. The trip remains worth it to him.
-- Ch320 stays home in Carrow and follows a fresh social claim. Street artist **Senna** sketches Greg in an ordinary paved triangle near old cooper's row. The scene adds partial local reputation, ordinary disability visibility, first-life portrait memory, and a new city acquaintance without creating a job, art career, heroic image, purchase, or obligation.
-- Greg refuses Senna's one-copper price for the seated portrait because it would consume his entire liquid purse. Senna later hangs it with other practice studies. No money changes hands.
-- Ch321 stays in the home courtyard and lets Greg get drafted into a children's `gates` dispute. He is a bad referee, learns only the local version, eventually plays badly himself, and becomes unnecessary once the children resume adjudicating their own game.
-- Ch321 introduces Pali, Niko, Sela, and Omi only as local children in the game. No mentorship, childcare role, coaching lane, payment, obligation, or guaranteed recurrence follows.
-- Greg's liquid money remains one copper and zero bits.
+- Preserve ordinary lived texture, social accumulation, disability/material reality, humor, work, independent side-character lives, and long-delay residue.
+- Ch304-Ch312 advanced weak personal magic, fieldcraft, magical-item acquisition, bounded debt work, Lyssa's independent work, Sevren's courier life, and target-specification testing. Ch313-Ch315 let those engines breathe. Ch316-Ch319 completed the Bell Ford road sequence. Ch320-Ch321 added two different ordinary social chapters. Ch322 reopens magical-item/economic curiosity at a materially higher price tier without giving Greg a purchase or windfall.
+- Ch322 is the first explicit higher-value market exposure in the recent economic progression: a registered old field brace opens at six copper and sells for fourteen copper to an older woman who arrived after the demonstration. Greg cannot bid with one copper, but fourteen reads as far rather than metaphysically impossible.
+- Greg's useful realization is reserve/optionality: the sold brace shows that money arriving after an opportunity is gone cannot recover that opportunity. Do not turn this into sudden greed, a get-rich scheme, collecting mania, or instant compensatory income.
+- Greg receives the name **Mara Quill**, an assessor who reads old housings and maker work on South Registry Row three mornings a week if present. This is information, not an appointment, guarantee, free appraisal, job, mentor, or obligation.
 - Ch300 remains only a round number, not a structural milestone.
 - Eventual title-defining leg loss remains flexible long-range architecture, not a countdown.
 
 ## Money / capital
-- Greg holds **one private copper + zero private bits** upstairs.
-- Ch293 one-copper shoulder bag remains his first private copper equipment spend.
-- Ch301 paid two bits for one theatre afternoon. Ch302 spent one private bit on shared fried dough. Ch303 used one household bit for bath entry and returned the second household bit unused.
-- Ch306 spent exactly two private copper on the working fixed holdfast. No household money involved.
-- Ch308 created exactly one copper of Vale debt credit, not cash.
-- Ch310 unnamed load-vest customer paid Lyssa exactly one bit for accepted cloth work; offered extra bit for charm-line work was refused.
-- Ch311 Three Wells seat/meal cost Greg nothing. Ch312-Ch315 no private spending/income.
-- Ch316 spent exactly the final private bit on Bell Ford passenger travel. Ch317-Ch318 no spending/income.
-- Ch319's one-copper Antonius cash offer was missed and completed by another worker. No cash entered Greg's purse.
-- Ch320 Senna asks one copper if Greg wants the seated portrait. Greg refuses. Lyssa does not buy it. No payment, gift, discount, barter, debt, or purchase occurs.
-- Ch321 has no spending, income, prize, wager, purchase, or fee.
-- Vale debt remains active/unresolved; exact remaining balance unstated after Ch308 credit.
+- Greg holds **one private copper + zero private bits** upstairs. Ch322 changes no cash, debt, purchase, sale, fee, or income.
+- Vale debt remains active/unresolved; exact remaining balance unstated after Ch308 one-copper debt credit.
 - No copper/bit conversion established.
-- Reduced liquidity should matter naturally. Do not instantly restore it through convenient work, refund, lucky resale, pity, art sale, game prize, or holdfast payoff.
+- Recent anchors remain: Ch293 used shoulder bag one copper; Ch301 theatre two bits; Ch302 fried dough one bit; Ch303 bath one household bit; Ch306 fixed holdfast two copper; Ch308 one seated Vale hour one copper debt credit; Ch310 Lyssa cloth work one bit; Ch316 special Bell Ford passenger seat one bit; Ch319 missed two-hour cash task one copper; Ch320 portrait quote one copper; Ch322 registered old field brace sold fourteen copper.
+- Ch322 demonstrates a higher transaction tier without inflating ordinary prices. Serious trade buyers bid six through eleven; an older woman buys at fourteen. The market is not blind to obvious magical utility.
+- One copper is useful and spendable, not sacred or automatic crisis money. Greg's current weakness is lack of reserve for surprise, not a reset to early-book destitution.
+- Do not instantly restore liquidity through convenient work, refund, lucky resale, pity, art sale, game prize, holdfast payoff, or brace-related windfall.
 
 ## Greg / body / equipment
 - Greg is nineteen in second life, Bronze, Carrow. Permanent LEFT BKA, knee preserved; right leg intact; two crutches.
 - Existing crutch repairs and Ch269 right-shoe repair remain sound.
-- Ch293 brown leather shoulder bag remains regular equipment and normally holds narrow scrap plus wrapped charcoal.
-- Ch306 fixed holdfast is not regular carry equipment and remains stored at home.
-- Ch319 road stiffness and mild friction redness resolve with ordinary rest.
-- Ch320 Greg cleans/greases the road-worn shoulder bag with an old household leather-grease tin, airs it safely out of Tavi's reach, then returns narrow scrap and wrapped charcoal to it once the smell fades. No equipment change or purchase.
-- Senna's drawings observe Greg's standing/seated geometry without diagnosing it. No new injury, rehabilitation beat, medical claim, or equipment issue.
-- Ch321 Greg mostly watches/plays seated. Repeated leaning to flick a game disk produces only mild temporary shoulder stiffness, relieved by rolling the shoulder. No injury or equipment issue.
-- Crutches, right shoe, bag, stay bead, hands, right leg, residual limb, and balance remain sound through Ch321.
+- Ch293 brown leather shoulder bag remains regular equipment; narrow scrap plus wrapped charcoal normally ride inside.
+- Ch306 fixed holdfast is not regular carry equipment. It remains wrapped on high shelf above clothes, ring sideways, base on sailcloth, out of Tavi reach, tag `DO NOT TURN RING.` Untested/unvindicated.
+- Ch319 road stiffness/redness resolved. Ch321 temporary shoulder stiffness from `gates` resolved with ordinary movement. Ch322 includes only ordinary hand fatigue from standing in the auction; no injury/equipment change.
+- Crutches, right shoe, bag, stay bead, hands, right leg, residual limb, and balance remain sound through Ch322.
 
 ## Household / Lyssa / Tavi
 - Three clean household gray sheets remain unused. Horse-page reverse remains full.
-- Existing narrow scrap carries Ch304 magic data plus Ch306 holdfast notes and Ch312 marked-strip data.
-- Ch308 Vale debt-credit receipt remains stored under the narrow scrap. Ch319 expired Antonius cash-work note remains record only.
-- Fixed holdfast remains wrapped on high shelf above Greg's clothes, ring sideways, base on sailcloth, out of Tavi's reach, warning tag `DO NOT TURN RING.` No activation/handling through Ch321.
-- Ch310 unnamed load-vest customer / Jari / blue-line work remains Lyssa's bounded job. Ch320 explicitly shows Lyssa trimming something dark that is **not** the green vest; Greg does not investigate. Ch321 again shows unrelated dark cloth only and does not advance that work.
-- Ch313 cupboard move complete. Ch314 water line/sack returned to normal. Ch315 tea-stall outing creates no obligation. Ch316-Ch319 Bell Ford trip complete.
-- Ch320 Cala supplies old household leather grease and recognizes Senna only as the local `sign girl`, specifically associating her with blue letters at a fish shop. This does not establish Senna's employer, ownership, contract, or standing relationship to Cala.
-- Lyssa hears about the portrait, agrees one copper is all Greg's money, and does not buy it for him. No tidy financial lesson or new obligation.
-- Ch321 Tavi and local children play a courtyard sliding game called `gates`; the local three-gate version uses wooden disks with small `sleep bead` state markers. Lyssa says some streets use five gates and that second-gate touch rules vary, preventing Greg from promoting the courtyard version into a universal rule.
+- Narrow scrap now carries Ch304 magic data, Ch306 holdfast notes, Ch312 marked-strip data, and Ch322 notes: `OLD FIELD HARDWARE / MARA QUILL / SOUTH REGISTRY ROW / RIBS 3 NARROW / 1 WIDE / RED STONE / UNLOAD CHECK 4TH RIB / 14 C SOLD`.
+- Ch308 Vale debt-credit receipt remains under narrow scrap. Ch319 expired Antonius cash-work note remains record only.
+- Ch310 unnamed load-vest customer/Jari/blue-line work remains Lyssa's bounded job. Ch320-Ch322 show unrelated dark cloth only; Greg does not investigate.
+- Ch320 Cala recognizes Senna only as local `sign girl` associated with blue fish-shop letters. No broader relationship established.
+- Ch321 Tavi/local children `gates` game creates no Greg childcare/referee/mentor role. Ch322 briefly hears the game again but Greg explicitly passes without jurisdiction.
 - Brown-cuff work and protected garment materials do not advance. Rain shelf works. Front door closer remains repaired/functioning.
 
 ## Magic continuity
 - Current totals remain **36 supervised minimal draws / 32 supervised deliberate shaping attempts / 78 supervised external-effect attempts**.
 - Near aggregate **4 clean / 10**. Middle **1 clean / 6 plus one possible edge lift (attempt 68)**. Far **0 / 1**.
-- Attempts 70-78 remain exactly as previously recorded; attempt 77 is one clean small near rotation under right-marked-region specification, not generalized control.
-- Ch313-Ch321 add no Greg magic attempts. Environmental/item magic does not count as Greg mana use.
-- Ch321 sleep beads are ordinary game hardware in use by children. Their exact mechanism, maker, trigger threshold, and broader rules are not established; Greg does not use mana on them.
+- Attempts 70-78 remain bounded exactly as previously recorded; attempt 77 is one clean small near rotation under right-marked-region specification, not generalized control.
+- Ch313-Ch322 add no Greg magic attempts. Environmental/item magic does not count as Greg mana use.
+- Ch322 Greg vaguely remembers old first-life catch-assembly testing, but current memory is incomplete and his present mana control is insufficient for confident unsupervised testing. This does not authorize a new magic technique.
 - Outside-session restrictions unchanged. Hessa next experiment/appointment/position/object/condition remains unselected.
 - Do not infer distance law, hard range, reliability curve, still-field effect, target-resolution law, torque ability, leverage principle, repeatable control, or practical-object utility from current samples.
 
 ## Magical ecology / fieldcraft continuity
 - Ch284 chaffers, Ch292 shade fish, Ch297 kessa jumpers, Ch302 lampwings, and Ch305 mirrorhorns remain separate.
 - Ch305 mirrorhorn crossing remains the recent encounter where Greg's repeated first-life fieldcraft works cleanly.
-- Ch306-Ch321 contain no mirrorhorn/ecology follow-up. Do not turn magical ecology into creature-of-the-week progression.
+- Ch306-Ch322 contain no mirrorhorn/ecology follow-up. Do not turn magical ecology into creature-of-the-week progression.
 
 ## Recent chapter ledger
-
-### Chapter 304 - THE QUIET TABLE
-- Hessa uses witness apparatus. Attempts 73-75 all near; attempt 74 is one clean small displacement. No next protocol selected.
-
-### Chapter 305 - THE CLEAR LANE
-- Six mirrorhorns block dye row. Greg's old practical rule works. He refuses handler role. No payment/follow-up.
-
-### Chapter 306 - THE BAD TOOL
-- Greg buys one working obsolete fixed holdfast for exactly two private copper. It stays wrapped at home with `DO NOT TURN RING.`
-
-### Chapter 307 - THE RED POT
-- Ordinary household evening. No major engine advances.
-
-### Chapter 308 - THE DEBT HOUR
-- One bounded seated Vale hour earns one copper debt credit, not cash. `R TO B` unexplained.
-
-### Chapter 309 - THE LAST CHIME
-- Charge rain changes street procedure. No investigation/job follows.
-
-### Chapter 310 - THE UNCUT LINE
-- Lyssa accepts cloth work and refuses offered extra pay to alter a blue load line. Her scope remains hers.
-
-### Chapter 311 - THE RETURN CART
-- Sevren returns through independent courier life and gives Greg a freight-covered Three Wells seat. Future longer-seat possibility remains conditional here.
 
 ### Chapter 312 - THE MARKED THIRD
 - Hessa tests target specification. Attempt 77 clean small rotation; 76 and 78 none. No next protocol.
@@ -122,10 +78,10 @@
 - Scheduled municipal line flush cuts water temporarily. Greg makes two bounded household water-cart trips. System returns normally.
 
 ### Chapter 315 - THE TRUE STORY
-- Tea-stall lying game. Greg tells true first-life wandering-door story and loses because details sound too specifically real. Bel named. No job/obligation.
+- Tea-stall lying game. Greg tells a true first-life wandering-door story and loses because details sound too specifically real. Bel named. No job/obligation.
 
 ### Chapter 316 - THE EAST SEAT
-- Genuine Bell Ford passenger seat appears. Greg pays final bit. Daro Venn drives. Greg is passenger only and leaves holdfast home.
+- Genuine Bell Ford passenger seat appears. Greg pays final bit. Daro Venn drives. Greg passenger only; holdfast stays home.
 
 ### Chapter 317 - THE SINGING BRIDGE
 - Bell Ford resonance bridge is ordinary infrastructure. Greg recognizes broad family but does not investigate. Sevren completes relay work independently.
@@ -134,35 +90,36 @@
 - Naro's expected relay peg stays empty after East Cut axle break. Naro reported safe; replacement morning. No rescue/investigation.
 
 ### Chapter 319 - THE MISSED COIN
-- Greg returns home and finds expired Antonius offer for two seated hours / one copper cash. Work already completed. No replacement coin. Bell Ford still worth it.
+- Greg returns home and finds expired Antonius offer for two seated hours/one copper cash. Work already completed. No replacement coin. Bell Ford still worth it.
 
 ### Chapter 320 - THE PORTRAIT
-- Greg cleans his road-worn shoulder bag, returns an ordinary household bowl, and keeps walking through Carrow because walking feels good after the cart trip.
-- At a paved triangle near old cooper's row he meets **Senna**, a young charcoal artist who practices by sketching people who stop near her bench. She also sometimes does signs, shop cards, copied borders, and paid portraits.
-- Senna knows only a partial Greg through Bel: `a crutch man` who told a terrible lie that was supposedly true. She did **not** know the wandering-door detail until Greg mentions it. This preserves partial/networked reputation.
-- Senna draws Greg standing and seated. The drawings represent his left BKA as actually visible rather than heroicizing, hiding, diagnosing, or moralizing it.
-- Greg recalls first-life formal/S-class portraits that exaggerated or sanitized him. No new current-world rank disclosure follows.
-- Senna asks exactly one copper for the seated portrait after Greg reveals he wants it. Greg refuses because that is his entire liquid purse. No bargain or pity discount follows.
-- Next morning Senna hangs the portrait among six practice studies. A passerby recognizes Greg from it, but no fame/reputation engine, commission, notice, or public role follows.
-- Cala recognizes Senna only as a local sign painter associated with blue fish-shop letters. Lyssa does not buy the portrait.
-- End money **one copper + zero bits**. No magic, job, injury, purchase, debt, appointment, or standing obligation.
+- Greg meets street artist Senna at a paved triangle near old cooper's row. She sketches his actual standing/seated geometry without heroicizing, hiding, diagnosing, or moralizing his left BKA.
+- Senna knows only partial Greg gossip through Bel. Greg's first-life portrait memories contrast with Senna's ordinary drawing.
+- Senna quotes one copper for the seated portrait. Greg refuses; no money changes hands. Portrait remains Senna's practice/display work at chapter end.
+- Existing prose overweights the purse snapshot as the reason for refusal relative to the newer economy model. Preserve downstream outcome unless a targeted editorial pass explicitly repairs Ch320.
 
 ### Chapter 321 - THE REFEREE
-- Tavi calls Greg into a dispute with Pali during a courtyard sliding game called `gates`.
-- Greg does not know the local rules and is a poor referee. The children establish that first, second, and third gates use different scoring rules; local wooden disks carry small `sleep bead` markers used around chalk-contact states.
-- Pali, Niko, Sela, and Omi are named only through the game. Omi repairs a smeared gate line using surviving endpoints and later wins without Greg's help.
-- Greg stops refereeing, watches the children adjudicate themselves, then plays badly from a seated position. Pali corrects his two-finger flick; no coaching relationship follows.
-- Lyssa says the game is simply `gates`, some streets use five gates, and the touch rule varies, preserving local variation.
-- End money **one copper + zero bits**. No Greg magic, job, injury, purchase, client, appointment, childcare duty, mentorship, or standing obligation.
+- Tavi drafts Greg into a courtyard `gates` dispute with Pali, Niko, Sela, and Omi. Greg is a poor referee, later plays badly, and becomes unnecessary once children resume adjudicating themselves.
+- Local rules vary. Sleep beads are ordinary game hardware. No mentorship, childcare role, payment, obligation, or guaranteed recurrence.
+
+### Chapter 322 - THE BIDDER
+- Greg encounters an estate/house clearance on Cooper Street. Ordinary house goods and tools sell alongside one registered field piece from deceased mason **Orren Valek**.
+- Field piece is a dark metal forearm sleeve/brace with four ribs, three narrow and one wide, old leather lining, dull red stone, clean registration, demonstrated function, and no current service mark. Exact maker, formal family, age, remaining service life, recharge, repair, side/blade behavior, deeper mechanism, and full capability remain unestablished.
+- **Rusk**, a guild-cord man managing the demonstration, fits the brace to a wooden practice arm. Two direct hammer strikes are absorbed. Red stone flashes and ribs click; first strike produces sequential four clicks, second lighter strike nearly simultaneous clicks.
+- Auctioneer explicitly disclaims claims beyond demonstrated direct strikes. Opening bid six copper. Serious buyers bid upward. A thin older woman in a rain-gray coat enters after demonstration and buys at exactly **fourteen copper**. Identity, motive, prior knowledge, relationship to Valek, and intended use unestablished.
+- Greg recognizes the rib/click family only partially from first-life experience involving an old gate/catch-rib memory. He does not know the exact brace, does not prove deeper function, and does not bid.
+- Rusk presses the wide fourth rib before removal and calls it an `unload check`, saying he likes his fingers. Do not infer exact stored-force mechanism from this alone.
+- Rusk names **Mara Quill** as someone who reads old housings/maker work on South Registry Row three mornings a week if present. She does not certify combat use, promise function, or touch bonded pieces. No price established. No appointment or relationship established.
+- Greg returns home with one copper unchanged and records bounded notes. He realizes the larger economic problem is reserve/optionality for rare opportunities, not that one copper is sacred.
+- No purchase, income, debt change, magic attempt, injury, client, job, appraisal, or standing obligation.
 
 ## Other live continuity
-- Ch320 portrait encounter may recur only if independently natural. Senna is a local artist/sign worker, not Greg's official portraitist, reputation manager, illustrator, employer, client, or automatic new friend.
-- The portrait remains Senna's practice work/display at the square at chapter end. Ownership, later sale, later storage, exact paper/charcoal source, sign-work clients beyond the narrow fish-shop reference, family relationships, training, residence, and old-man/boy/girl identities remain unestablished.
-- Bel's mention of Greg to Senna establishes only partial local gossip, not broad fame or a stable story about Greg.
-- Ch321 `gates` is an ordinary local children's game, not a new Greg role. Pali/Niko/Sela/Omi are not guaranteed recurring characters, students, clients, dependents, or a child-care lane. Exact rules vary locally.
-- Ch314 water-cart event complete. Ch313 cupboard complete. Ch312 marked-strip result bounded. Ch315 tea-stall lane unscheduled. Ch316-Ch319 Bell Ford trip complete.
-- Daro/Corren/Naro/East Cut/bridge/bee-clasp details do not auto-return. Vale debt remains active/unresolved. Antonius future cash work remains possible only if a genuine separate task appears.
-- Boundary clasp unowned/status unknown. Ch281 return hardware unactivated/unvalued. Older Bren/pressure evidence ceiling unchanged. Theatre remains available only if independently reactivated.
+- Senna may recur only if independently natural. She is not Greg's official portraitist/reputation manager/illustrator/employer/client/automatic friend. Portrait fate and Senna's surname, age, training, residence, family, income, and wider clients remain unestablished.
+- `Gates` is ordinary local play. Pali/Niko/Sela/Omi are not guaranteed recurring characters, students, clients, dependents, or a childcare lane.
+- Ch322 Rusk/Mara Quill/Valek brace/older buyer are fresh market nodes, not automatic quest-givers. The sold brace is gone with its buyer unless later prose independently earns contact. Do not conveniently put it back on sale.
+- Ch314 water event complete. Ch313 cupboard complete. Ch315 tea-stall lane unscheduled. Ch316-Ch319 Bell Ford trip complete.
+- Daro/Corren/Naro/East Cut/bridge/bee-clasp details do not auto-return. Vale debt active/unresolved. Antonius future cash work possible only if a genuine separate task appears.
+- Boundary clasp unowned/status unknown. Ch281 return hardware unactivated/unvalued. Older Bren/pressure evidence ceiling unchanged. Theatre only if independently reactivated.
 
 ## Protected uncertainties / do not auto-resolve
 - Existing weak needle-case, Rinna parcel, Lyssa older materials/packets/bundles, Ch246 crate, Pell return, Vale/Bren, collar-facing, six wraps, Ch281 flat package, Ch285 narrow wrapped packet remain protected.
@@ -170,43 +127,30 @@
 - Ch306 fixed holdfast formal name, maker identity beyond observed mark, age/provenance, safe load, surface limits, exact duration, environmental response, mechanism, cooldown, remaining service life, stone behavior, later-family identity, resale value, repairability/recharge, and adoption chronology remain unestablished.
 - Ch307 card/bowl/heat-stone details bounded. Ch308 `R TO B` and return-history details unestablished. Ch309 charge-rain technical/authority details bounded.
 - Ch310 load-vest maker/age/formal terminology/charm mechanism/safe load/anchor design/damage cause/final alteration/customer satisfaction remain unestablished. Customer unnamed. Jari only a name from prior alteration.
-- Ch311 Three Wells network/relay ownership/courier economics details unestablished.
-- Ch312 one clean rotation does not prove sub-object targeting, target control, spatial resolution, torque, leverage, mechanism, repeatability, or chosen rotation.
-- Ch313 cupboard technical/origin/mover details bounded. Ch314 municipal line-flush technical/administrative details bounded.
-- Ch315 tea-stall participants beyond Bel remain unnamed; first-life wandering-door/Jalen/mule details create no current obligation.
-- Ch316 Daro/road-strider/seat/relay-house/route economics details unestablished. Ch317 Bell Ford bridge/town technical and governance details unestablished. Ch318 Naro/East Cut/red-strip/bee-clasp details unestablished.
-- Ch319 missed cash task is complete/gone. `Mera clerk`, tally contents/results, and task origin remain unestablished.
-- Ch320 Senna's surname, age, training, residence, family, exact work arrangements, income, clients beyond observed/narrowly reported sign work, portrait fate, practice-display duration, and identities of the other square people remain unestablished.
-- Ch321 exact `gates` rules beyond the observed courtyard version, sleep-bead mechanism/maker/threshold, disk ownership, and the children's wider relationships/families remain unestablished.
-- Existing shade-fish/water-list, dry-seal, carrying-light, cooling-cup, ward-road, rain-thread, door-closer, stay-bead, bridges, Nemi/hold-bead, high-line, kessa-jumper, Sivi/mask, and other older uncertainties remain bounded.
+- Ch311 Three Wells network/relay ownership/courier economics details unestablished. Ch312 clean rotation remains tightly bounded.
+- Ch313 cupboard details bounded. Ch314 municipal flush details bounded. Ch315 participants beyond Bel unnamed.
+- Ch316 route economics/details bounded. Ch317 Bell Ford technical/governance details bounded. Ch318 Naro/East Cut/red-strip/bee-clasp details bounded.
+- Ch319 missed cash task complete/gone. `Mera clerk`, tally contents/results, task origin unestablished.
+- Ch320 portrait/Senna uncertainties remain bounded. Ch321 wider `gates` rules/sleep-bead mechanism/children's wider relationships remain unestablished.
+- Ch322 Valek brace deeper function, buyer identity, Rusk's broader role, Mara Quill's exact credentials/rates/schedule reliability, catch-rib terminology, first-life Teren/gate specifics, and relationship between Greg's remembered hardware and this brace remain unestablished.
+- Existing shade-fish/water-list, dry-seal, carrying-light, cooling-cup, ward-road, rain-thread, door-closer, stay-bead, bridges, Nemi/hold-bead, high-line, kessa-jumper, Sivi/mask, and older uncertainties remain bounded.
 
-## Chapter 322 trailhead
-Follow the next actual claim from current authority.
+## Chapter 323 trailhead
+Follow the next actual claim from Chapter 322 and current authority.
 
-Let Chapters 320-321 stand as two different pieces of ordinary social accumulation. Do not automatically return to Senna/portrait/Bel or to Tavi's `gates` game, Pali, Niko, Sela, or Omi. Greg is not now a referee, coach, child minder, game expert, or neighborhood youth mentor.
+Ch322 has created a real new desire: Greg wants more economic optionality and has learned that a higher-value magical-item market exists. Do not solve that desire immediately. It may change what work, purchases, information, or risks he notices without forcing Chapter 323 into a money-making scheme.
 
-Let the Ch316-Ch319 road sequence remain complete and in the background. Do not automatically send Sevren back with another seat, revisit Bell Ford, inspect the singing bridge, return to Three Wells, investigate Naro/East Cut, ask about bee clasps, or turn Greg into a courier/road worker/travel writer.
+Mara Quill is a legitimate possible continuation because Greg deliberately wrote her name down, but she is not mandatory. If Greg seeks her, preserve the narrow information: South Registry Row, three mornings a week if present, reads old housings/maker work, does not certify combat use/promise function/touch bonded pieces, price unknown. A visit should not automatically reveal the holdfast's secrets, validate the sold brace, create a mentor, or hand Greg a profession.
 
-Let Ch319's missed one-copper offer remain missed. Do not compensate Greg immediately with another cash task, pity coin, refund, appraisal windfall, holdfast payoff, portrait income, game prize, or guaranteed Vale work.
+The Valek brace sold for fourteen copper and left with the older woman. Do not chase the buyer merely because Greg is curious. Do not manufacture a theft, reversal, secret invitation, buyer death, resale, or convenient second chance.
 
-Do not automatically make Chapter 322:
-- another portrait/Senna/Bel chapter,
-- another children's game/referee/childcare chapter,
-- a haircut chapter,
-- another road/travel chapter,
-- another water-line/cupboard household problem,
-- another Hessa session or immediate marked-strip repeat,
-- an applied-object escalation of attempt 77,
-- the Ch310 customer pickup/final fit or Jari investigation,
-- a second Greg/Lyssa argument designed to resolve Ch310,
-- an `R TO B` investigation,
-- a holdfast test/appraisal/resale/payoff,
-- a charge-rain or mirrorhorn follow-up,
-- or automatic theatre return merely because theatre has been quiet.
+Greg still has one copper + zero bits. Do not narrate that as destitution. He can make ordinary small choices. His new pressure is reserve and access to larger opportunities over time.
 
-Greg's liquid money is **one copper + zero bits**. Magic remains **36 / 32 / 78**. Three clean household sheets remain. Holdfast stays stored and unused. Household stable. Greg is home and uninjured. No guaranteed external appointment/client/seat exists.
+Magic remains 36 / 32 / 78. Holdfast remains stored and unused. Household stable. No guaranteed appointment/client/seat exists.
 
-Follow a genuinely fresh claim or an independently reactivated existing lane. Mundane is welcome when the situation, social function, or consequence is new; do not repeat an already-used chapter function merely because it is easy.
+Avoid immediate repetition of portrait, children's game, road trip, water/cupboard chore, Hessa test, Lyssa customer resolution, `R TO B`, holdfast payoff, mirrorhorn/charge-rain follow-up, or automatic theatre return.
+
+Follow a genuinely fresh claim or an independently reactivated lane. Mundane remains welcome when new. Let the new economic horizon alter Greg's attention before it alters his bank balance.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
