@@ -4,6 +4,7 @@
 - Current exact story endpoint: Chapter 300 — **THE BLUE HORSE**.
 - Exact Chapters 249–300 are durable checkpoint files and outrank summaries.
 - Permanent running manuscript remains physically materialized through Chapter 248; exact-text integration debt remains.
+- Canonical inserted Chapters **220A — THE SHORTAGE**, **220B — THE OLD MAN**, and **220C — THE ROUTE** sit between Chapters 220 and 221 and do not renumber later chapters.
 - See `MANUSCRIPT_STATE.md` for executable Chapter 301 trailhead.
 
 ## Direction
@@ -152,8 +153,22 @@
 - Currency copper/silver/gold; no conversion rate. Bits small-price unit; conversion unstated.
 - Vale debt active/unresolved; exact balance unstated.
 
+## Bren / local extortion repair
+- Canonical inserted sequence is **220A THE SHORTAGE → 220B THE OLD MAN → 220C THE ROUTE**, between Ch220 and Ch221. Later chapter numbers do not shift.
+- Ch220 establishes Olin delivery questioning and Rinna's question-sharing response.
+- Ch220A makes the threat materially expensive: Olin stops sending his boy while two men watch/question the route, and Nessa/Jori must collect oil themselves.
+- Ch220B fulfills Bren's `Next time won't be one` threat. Bren returns with two men and demands five copper. Rinna remains the theatre authority. Greg uses stagecraft, prepared blue-glass theatrical magic, old-life procedural threat-reading, and deliberate performance to make certainty expensive. Greg casts no new personal illusion spell and gains no new independent magic capability.
+- Bren recognizes that some effects are theatre but cannot cleanly separate staged effects from Greg's genuine knowledge/history. His group withdraws. The win is uncertainty/delay, not domination.
+- Ch220B also demonstrates the clarified memory pattern: deeply practiced procedural recall can survive while an attached autobiographical identifier, such as a teacher's name, does not.
+- Ch220C makes the quiet resolution legible: Rinna's informal business network shares questions, reduces useful information, adds witnesses/friction, and Olin's ordinary delivery eventually resumes.
+- Treat the **local theatre extortion pressure as resolved/dormant** unless later causality independently reactivates it. Do not auto-return Bren.
+- Bren surname, employer/boss, organization, full network scale, permanent whereabouts, and whether every watcher worked for him remain unresolved.
+- **Vale/Bren link remains unresolved and unestablished.**
+- See `state/BREN_220ABC_CANON.md` for the dedicated insertion state.
+
 ## Pressure / protected uncertainty
-- Ch273 Green Coat remains separate/bounded. Older pressure evidence ceiling unchanged. Ch300 adds none.
+- Ch273 Green Coat remains separate/bounded. Ch300 adds no new pressure evidence.
+- The older Bren/theatre pressure is locally resolved through Ch220A–C as above; broader Bren criminal ecology remains protected uncertainty rather than an active automatic threat lane.
 - Weak needle-case mark, Rinna parcel, Lyssa older materials/bundles, Ch246 crate contents, Pell exact return, Vale/Bren link unresolved.
 - Collar-facing broader purpose, six wraps, Ch281 flat package, Ch285 narrow wrapped packet unresolved.
 - Magic protected uncertainty remains exact range distances, far 0/1 only, attempt 68 possible edge lift only, next protocol unselected, no range law.
