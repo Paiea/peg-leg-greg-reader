@@ -42,8 +42,22 @@ jobs:
         run: git fetch origin editor/voice-compression-pass:refs/remotes/origin/editor/voice-compression-pass
       - name: Install manuscript source-sync dependency
         run: pip install python-docx
-      - name: Promote recovered exact prose through Chapter 201
-        run: python scripts/promote_recovered_dialogue.py 164-201 --patch-ref origin/editor/voice-compression-pass --source state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
+      - name: Promote Chapters 164-167
+        run: python scripts/promote_recovered_dialogue.py 164-167 --patch-ref origin/editor/voice-compression-pass --source state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
+      - name: Promote Chapters 168-172
+        run: python scripts/promote_recovered_dialogue.py 168-172 --patch-ref origin/editor/voice-compression-pass --source state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
+      - name: Promote Chapters 173-177
+        run: python scripts/promote_recovered_dialogue.py 173-177 --patch-ref origin/editor/voice-compression-pass --source state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
+      - name: Promote Chapters 178-182
+        run: python scripts/promote_recovered_dialogue.py 178-182 --patch-ref origin/editor/voice-compression-pass --source state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
+      - name: Promote Chapters 183-187
+        run: python scripts/promote_recovered_dialogue.py 183-187 --patch-ref origin/editor/voice-compression-pass --source state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
+      - name: Promote Chapters 188-192
+        run: python scripts/promote_recovered_dialogue.py 188-192 --patch-ref origin/editor/voice-compression-pass --source state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
+      - name: Promote Chapters 193-197
+        run: python scripts/promote_recovered_dialogue.py 193-197 --patch-ref origin/editor/voice-compression-pass --source state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
+      - name: Promote Chapters 198-201
+        run: python scripts/promote_recovered_dialogue.py 198-201 --patch-ref origin/editor/voice-compression-pass --source state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
       - name: Extend Illustrated Reader through Chapter 201
         run: python scripts/generate_illustrated.py 156-201
       - name: Refresh Text Reader Chapters 164-201
