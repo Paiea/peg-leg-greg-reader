@@ -95,6 +95,8 @@ Chapter 190 shows the matching upgrade discipline. Three requested-away trials p
 
 Chapter 196 adds the next boundary: **a supported direction is not a range**. Holding `away` fixed, two near-position trials produce observed target responses while one far trial produces no response and another far trial is unusable because target movement is uncertain and a control may also have moved. Hessa writes `NEAR RESPONSE MORE RELIABLE THAN FAR RESPONSE TODAY` and `POSSIBLE DISTANCE DEPENDENCE IN CURRENT APPARATUS`, then explicitly writes `NOT A RANGE. NOT GENERALIZED.`
 
+Chapter 200 repeats that near/far question and earns a stronger but still bounded distance noun. Two near-position trials again produce clean away responses with unchanged controls, while one far trial produces no visible response and the other far trial is only ambiguous. Hessa can therefore write **`DISTANCE DEPENDENCE SUPPORTED IN CURRENT APPARATUS`** while preserving **`NO RANGE ESTABLISHED`** and **`NOT GENERALIZED`**. Repetition upgrades the comparison, not the permission ladder.
+
 ## Information behavior
 
 Hessa may know more than she says because information can contaminate expectation or because Greg does not need the next question yet.
@@ -118,6 +120,7 @@ High-value examples:
 - Chapter 186: she rotates the board and physically moves Greg around the table so board-relative `forward` and Greg-relative `forward/away` can diverge. She treats furniture, shoulder position, palm soreness, and visible body movement as part of the causal environment even when the strain is not caused by mana.
 - Chapter 190: she fixes the better-supported response direction long enough to compare it against toward and sideways requests, changes target position without pretending distance is the day's main question, and records the exact observed pattern before separately judging away as the better explanation. Her spoken `probably` does not replace the written observation.
 - Chapter 196: she holds direction fixed at `away`, defines today's near and far positions physically, keeps Greg's chair/hands/crutch/body position controlled, and records the uncertain far trial as unusable evidence rather than converting `maybe` into a response. Distance enters only after direction is better supported.
+- Chapter 200: she chooses the first far condition before Greg arrives, marks Greg's chair position rather than trusting memory, keeps near/far and away fixed, and records a possible far twitch as ambiguous rather than letting Greg's expectation rescue it. Only the repeated two-session pattern earns `distance dependence supported in current apparatus`.
 
 Independent witnesses and apparatus answer only the question they can actually answer. Copper can support that a mana event changed while Greg reports phenomenology. It does not give Hessa a perfect map of Greg's sensation.
 
@@ -424,6 +427,67 @@ Current ceiling by the end of Chapter 196:
 - Barrier: **not cleared**;
 - independent magical work: **still prohibited**, including paper, substitute-object, distance, or direction testing outside supervision.
 
+### Chapter 200: supported distance dependence in the current apparatus
+
+Chapter 200 repeats the near/far comparison while holding the better-supported response direction fixed at **away**. Hessa also marks Greg's chair position and chooses the first far condition before he arrives, tightening control over both body position and expectation.
+
+Before external work Greg completes one supervised minimal draw and one supervised deliberate-shaping attempt. Exact totals become:
+- **28 successful supervised minimal draws**;
+- **24 supervised deliberate shaping attempts**.
+
+Four supervised external attempts occur in Chapter 200:
+1. **far / away**: no visible target or control response;
+2. **near / away**: small clean movement away; control unchanged;
+3. **far / away**: possible displacement, not cleanly away; recorded as ambiguous rather than a clean response;
+4. **near / away**: small movement away; control unchanged.
+
+Exact external-attempt total becomes **27**.
+
+The second session therefore broadly repeats the Chapter 196 pattern. Near produces two clean away responses with unchanged controls. Far produces one clean nonresponse and one ambiguous possible displacement that cannot be counted as a clean far response.
+
+Hessa's written conclusion is:
+
+**AWAY RESPONSE REPEATED AT NEAR POSITION IN SECOND SESSION.**
+
+**FAR RESPONSE NOT REPEATED CLEANLY.**
+
+**NEAR RESPONSE MORE RELIABLE THAN FAR ACROSS CURRENT SESSIONS.**
+
+**DISTANCE DEPENDENCE SUPPORTED IN CURRENT APPARATUS.**
+
+**NO RANGE ESTABLISHED.**
+
+**NOT GENERALIZED.**
+
+This is a real upgrade from Chapter 196's `possible distance dependence`. The supported noun is still attached to the current apparatus and demonstrated positions. It does not establish that far can never work, a maximum range, a general inverse-distance law, or generalization to other targets, scales, directions, or unsupervised conditions.
+
+The next operational question becomes:
+
+**INTERMEDIATE POSITION.**
+
+**AWAY ONLY.**
+
+**SAME APPARATUS IF POSSIBLE.**
+
+**NO OTHER CHANGE.**
+
+Current ceiling by the end of Chapter 200:
+- minimal draw: increasingly repeatable and retained across ordinary work intervals;
+- localized shaping: increasingly repeatable;
+- maintaining draw while altering: increasingly repeatable;
+- RETURN: increasingly repeatable;
+- avoiding broad old response / motor recruitment: increasingly repeatable;
+- direction-first internal control: **provisionally supported under a narrow self-reported condition, with interpretation weakened by better baseline geometry**;
+- neutral shape may have repeatable asymmetry: **supported as a live possibility, not established cause or anatomy**;
+- external response: **repeatable under the paper-fin apparatus within the demonstrated target/control conditions**;
+- external-response direction: **directional preference relative to Greg's position supported in the current setup, with away better supported than toward; not generalized**;
+- distance effect: **distance dependence supported in the current apparatus across the demonstrated near/far sessions; near response more reliable than far; no range established and not generalized**;
+- arbitrary directional choice: **not established**;
+- spell: **not established**;
+- casting: **not cleared**;
+- Barrier: **not cleared**;
+- independent magical work: **still prohibited**, including paper, substitute-object, distance, direction, intermediate-position, or other testing outside supervision.
+
 ## External-effect threshold
 
 Hessa's threshold is not a secret number.
@@ -460,6 +524,8 @@ Three repeated requested-away responses across multiple target positions, combin
 
 Two clean near responses paired with no clean far response can make distance a **possible apparatus-specific variable** worth repeating. That does not establish a range, a maximum distance, or a general law about magical strength falling with distance.
 
+When a second controlled session broadly repeats the same near-over-far reliability pattern, Hessa can upgrade distance dependence to **supported in the current apparatus**. Even then, she does not convert two tested positions into a range. The next cleaner question is an intermediate position under the same direction and apparatus, not a larger object or broader capability.
+
 ## With Greg
 
 There is real intellectual trust under the irritation. Hessa increasingly expects Greg to understand the discipline and can make him state the rule instead of lecturing him again.
@@ -489,6 +555,8 @@ Chapter 186 adds ordinary physical fatigue to the interpretation without pretend
 Chapter 190 preserves the same relationship after the evidence gets stronger. Hessa can say `probably` in conversation and allow `supported` in the written directional conclusion while still refusing independent practice. Stronger evidence changes the noun, not the permission ladder automatically.
 
 Chapter 196 adds another trust marker: Greg releases an external attempt on his own when the condition feels wrong. Hessa does not punish the release or force completion. She treats it as usable self-regulation, rests him, and later allows one final far attempt before stopping on wrist/shoulder fatigue. A self-aborted attempt can improve method without producing positive evidence.
+
+Chapter 200 shows that some of the method discipline has become Greg's own behavior. After a failed far attempt he notices himself trying to add effort and backs off before Hessa has to stop him. Hessa can say `Better` without turning that methodological improvement into magical success. She also respects Greg's theatre schedule as a real outside constraint: after the session, stronger evidence still does not make magic the only meaningful work in his day.
 
 ## Canon lines / fingerprints
 
@@ -529,6 +597,11 @@ Chapter 196 adds another trust marker: Greg releases an external attempt on his 
 - **CANON LINE:** `Far response not established.`
 - **CANON LINE:** `Near response more reliable than far response today.`
 - **CANON LINE:** `Possible distance dependence in current apparatus.`
+- **CANON LINE:** `Away response repeated at near position in second session.`
+- **CANON LINE:** `Far response not repeated cleanly.`
+- **CANON LINE:** `Near response more reliable than far across current sessions.`
+- **CANON LINE:** `Distance dependence supported in current apparatus.`
+- **CANON LINE:** `No range established.`
 - **CANON LINE:** `Not a range.`
 - **CANON LINE:** `Not generalized.`
 - **CANON PATTERN:** upgrades the strongest noun only when evidence earns it, then preserves the scope.
@@ -541,6 +614,7 @@ Chapter 196 adds another trust marker: Greg releases an external attempt on his 
 - **CANON PATTERN:** separates apparatus-relative direction from body-relative direction before granting a directional-control claim.
 - **CANON PATTERN:** repeated response in one body-relative direction can earn a supported preference before arbitrary directional control or cross-object generalization.
 - **CANON PATTERN:** a near/far difference can become a repeatable question before it becomes a range claim.
+- **CANON PATTERN:** a repeated near-over-far pattern can support distance dependence in the current apparatus while still leaving range and generalization unestablished.
 
 ## Voice tests — NON-CANON
 
@@ -593,6 +667,7 @@ Avoid:
 - treating `forward` as established directional control before the apparatus-orientation question is tested;
 - converting Chapter 186's possible away-from-Greg bias into `push`, general body-relative directional control, or a spell before stronger repetition earns it;
 - converting Chapter 190's supported away-relative preference into arbitrary directional choice, cross-object generalization, larger-scale capability, or independent practice;
-- converting Chapter 196's near-vs-far pattern into a range, maximum distance, general inverse-distance law, or permission to test distance independently.
+- converting Chapter 196's near-vs-far pattern into a range, maximum distance, general inverse-distance law, or permission to test distance independently;
+- converting Chapter 200's supported distance dependence into a maximum range, proof that far cannot work, general strength-vs-distance law, cross-object result, or independent intermediate-distance practice.
 
 Hessa is strongest when exactness belongs specifically to the work she is doing.
