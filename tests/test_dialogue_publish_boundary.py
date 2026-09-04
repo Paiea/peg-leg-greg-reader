@@ -20,9 +20,10 @@ class DialoguePublishBoundaryTests(unittest.TestCase):
         self.assertIn("promote_recovered_dialogue.py 164-167", text)
         self.assertIn("promote_recovered_dialogue.py 198-201", text)
         self.assertIn("generate_illustrated.py 156-201", text)
-        self.assertIn("generate_light.py 164-201", text)
+        self.assertNotIn("generate_light.py 164-201", text)
+        self.assertNotIn("git add chapters index.html light latest.html", text)
+        self.assertIn("git add chapters state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md", text)
         self.assertNotIn("164-219", text)
-        self.assertNotIn("dialogue_live_entrypoint.py --patch-ref origin/editor/voice-compression-pass --min-chapter 164", text)
 
     def test_generated_illustrated_chapter_keeps_reader_shell_and_navigation(self):
         chapter = Chapter(177, "THE STAGEHAND", '<p>Backstage work.</p>', "recovered")
