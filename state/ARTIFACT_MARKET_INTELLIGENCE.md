@@ -1,8 +1,8 @@
 # PEG-LEG GREG — ARTIFACT MARKET INTELLIGENCE
 
-This file is a durable companion to `RHYTHM_ARTIFACT_ENGINE.md` and `ECONOMY_CONTINUITY.md`.
+This file is a durable companion to `RHYTHM_ARTIFACT_ENGINE.md`, `ARTIFACT_PRICING_LOGIC.md`, and `ECONOMY_CONTINUITY.md`.
 
-Its purpose is to make artifact acquisition an information, bargaining, provenance, and risk problem rather than a clean shop interface.
+Its purpose is to make artifact acquisition an information, bargaining, provenance, assessment, rarity, and risk problem rather than a clean shop interface.
 
 Exact manuscript prose remains authority. This is forward-writing logic, not a catalog of canon artifacts.
 
@@ -31,6 +31,123 @@ An artifact can therefore have multiple layers of uncertainty at once.
 A seller may know one visible effect and nothing else. A former owner may know a dangerous rule but not understand why. Greg may remember the later famous use while being uncertain about this exact generation or condition. A specialist may correctly identify the mechanism but miss a later-discovered application. A rumor may preserve the right warning with the wrong explanation.
 
 This is not noise. It is the acquisition game.
+
+## Artifacts should remain rare
+
+Meaningful unique artifacts are not common consumer goods.
+
+Do not make every market stall, adventurer, workshop, household, guard, or minor criminal carry one.
+
+A useful default world feeling is:
+
+- ordinary enchanted conveniences and small magical hardware can exist in daily life;
+- genuinely rule-changing, dangerous, historically interesting, or high-value artifacts are much rarer;
+- a town may have only a handful of truly notable objects in circulation at a given time, many privately owned, institutional, inherited, hidden, damaged, or misidentified;
+- a city can support dealers, specialists, auction houses, repairers, collectors, vaults, guild storage, and rumor networks without having shelves full of legendary items;
+- truly exceptional objects should create social gravity when credible people know they exist.
+
+Do not literalize `a few per town` into a fixed quota. The point is rarity and significance, not a numerical spawn rate.
+
+Because meaningful artifacts are rare, encountering one should often matter even when Greg does not acquire it.
+
+## Greg does NOT know every artifact
+
+Greg's first life gives him broad experience, not a complete artifact encyclopedia.
+
+He may know an object because:
+
+- he personally used or fought around that exact object later;
+- he knew the maker, workshop, family, guild, military unit, collector, or later owner;
+- the artifact became historically famous;
+- a famous death, disaster, expedition, auction, war, scandal, theft, or discovery involved it;
+- he encountered the artifact class repeatedly in first-life adventuring;
+- he remembers a story or warning without remembering the technical explanation;
+- he recognizes a maker mark, design language, generation, material, housing, activation geometry, or repair convention;
+- the object resembles something he knew but is not the same thing.
+
+Just as often, Greg should encounter artifacts he has never seen and does not recognize.
+
+Do not make `old Greg lived a long time` equivalent to universal object identification.
+
+Rare items should preserve surprise for him too.
+
+## Recognition should have levels
+
+Greg's artifact recognition can fall anywhere along a spectrum:
+
+1. **exact recognition** — he knows this object or a historically specific equivalent;
+2. **maker / family recognition** — he knows who or what tradition likely produced it;
+3. **class recognition** — he knows roughly what family of magical tool it belongs to;
+4. **technique recognition** — he recognizes construction or activation choices without knowing the artifact's function;
+5. **story recognition** — he remembers a warning, rumor, death, famous use, or later history that may connect;
+6. **pattern familiarity** — something about it feels technically familiar but remains unidentified;
+7. **no recognition** — it is simply new to him.
+
+Do not collapse these into `Greg knows what it does`.
+
+Partial recognition is often more useful because it creates a direction for inquiry without giving away the answer.
+
+## Greg may retain assessment skill better than current magical capacity
+
+Old Greg may have learned practical skills for examining magical tools even when current Greg lacks the mana, strength, equipment, credentials, specialist senses, or practiced body needed to perform them fully.
+
+This should be subtle.
+
+Do NOT suddenly reveal that Greg was secretly a master appraiser who can now make easy money.
+
+Better shapes:
+
+- he remembers how to inspect wear around activation points;
+- he knows which maker marks are commonly forged;
+- he knows to test one material seam before another;
+- he can distinguish a storage housing from the active artifact;
+- he recognizes signs of repeated overload;
+- he knows what questions an actual specialist should ask;
+- he remembers a basic diagnostic sequence but current mana is too weak to complete the magical step;
+- he can perform only the mundane or low-mana portions of a former assessment routine;
+- he knows an old assessment skill in theory but is rusty, physically constrained, or missing the right tool;
+- he knows enough to realize that somebody else with the correct specialty is needed.
+
+This can gradually become useful without becoming a convenient income unlock.
+
+The strongest progression is often:
+
+**Greg knows how to ask better questions before he knows the answer.**
+
+## Assessment can require people, tools, or access
+
+Artifact understanding should be socially distributed.
+
+Greg may need:
+
+- a specialist appraiser;
+- a repairer;
+- a maker's catalog or mark book;
+- controlled magical current;
+- a testing frame;
+- a particular material sample;
+- an old guild record;
+- an owner willing to demonstrate the item;
+- a creature handler or field specialist;
+- Hessa for a narrow measurement question;
+- someone with stronger mana;
+- someone who has survived using the thing;
+- a tool that provides only limited diagnostic information.
+
+Do not create a universal scanner that outputs a complete item description.
+
+If an assessment artifact/tool exists, prefer bounded information such as:
+- active / inactive;
+- current passing through one path;
+- material mismatch;
+- damaged seal;
+- recent activation;
+- broad affinity or field response;
+- one readable maker layer;
+- one anomalous region;
+- whether a claimed effect is plausible.
+
+A useful assessment tool should **nudge investigation**, not solve the object.
 
 ## Layered artifact knowledge
 
@@ -127,6 +244,8 @@ His advantage can come from knowing one layer the present market lacks:
 
 Sometimes Greg should know enough to want the object very badly while still not knowing everything about it.
 
+Sometimes he should know almost nothing and need to assess, ask, watch, research, or walk away.
+
 That is stronger than either perfect foresight or total ignorance.
 
 ## Information itself has economic value
@@ -207,6 +326,33 @@ Possible seller states:
 
 Artifact acquisition should create relationships and reputations, not vending-machine transactions.
 
+## Artifacts can belong to threats and other competent people
+
+Do not reserve unusual artifacts for Greg's collection or for markets waiting to sell to him.
+
+Artifacts can already be in use by:
+
+- adventurers;
+- guards;
+- criminals;
+- nobles;
+- collectors;
+- specialists;
+- couriers;
+- military veterans;
+- institutions;
+- monsters or intelligent nonhumans where canon supports ownership/use;
+- dangerous people who understand only part of what they possess;
+- dangerous people who understand the item better than Greg does.
+
+This can make a threat dangerous because its operating rules are altered too.
+
+A hostile person with one strong artifact may matter more than a stronger generic enemy.
+
+Greg may recognize the object, recognize only the category, infer something from use, or have no idea what he is looking at until the effect happens.
+
+Do not make every artifact-bearing opponent a loot delivery system. The item may be lost, destroyed, inaccessible, legally claimed, bonded to its owner, too dangerous to take, or simply remain theirs.
+
 ## Hidden upside / hidden downside matrix
 
 Useful artifact shapes include:
@@ -222,12 +368,12 @@ Useful artifact shapes include:
 
 Do not use the most mysterious shape every time. Variety matters.
 
-## Acquisition scene test
+## Acquisition / assessment scene test
 
-Before shipping a meaningful artifact acquisition or bidding scene, ask:
+Before shipping a meaningful artifact acquisition, assessment, or bidding scene, ask:
 
-1. What does the seller believe the object does?
-2. What does Greg believe it does?
+1. What does the seller/owner believe the object does?
+2. What does Greg actually recognize: exact object, maker, class, technique, story, pattern, or nothing?
 3. What does Greg know about the downside?
 4. What remains unknown to both?
 5. What information would change the price if spoken aloud?
@@ -235,21 +381,28 @@ Before shipping a meaningful artifact acquisition or bidding scene, ask:
 7. Why is the current price rational from the seller's perspective?
 8. Why does Greg consider the price good, bad, or urgent?
 9. What could Greg be wrong about?
-10. What new operating rule, economic pressure, or future relationship can this transaction create?
+10. What assessment can Greg actually perform with his current body, mana, tools, and access?
+11. Who else might know more, and what would it cost socially/economically to involve them?
+12. What new operating rule, economic pressure, threat geometry, or future relationship can this object create?
 
-If all parties effectively share the same complete stat sheet, the artifact market is probably too flat.
+If Greg effectively receives a complete stat sheet from memory or one convenient scan, the artifact system is probably too flat.
 
 ## Forward effect
 
-From the current Book 3 direction onward, artifact acquisition should increasingly contain:
+From the current Book 3 direction onward, artifact play should increasingly contain:
 
+- rarity;
 - incomplete information;
+- uneven Greg recognition;
 - asymmetric knowledge;
+- partial assessment;
+- skills Greg remembers better than he can currently execute;
+- specialists and tools that reveal bounded clues rather than answers;
 - warnings without full explanations;
-- market misvaluation;
-- strategic silence;
-- bargaining behavior;
+- rational market pricing based on visible value;
+- strategic silence and bargaining behavior;
 - provenance questions;
+- artifacts in other people's hands, including threats;
 - the risk that somebody notices Greg knows more than he should.
 
 This should complement, not replace, the stronger artifact rule: important objects should change how Greg operates, and their acquisition should push his economic ambitions upward.
