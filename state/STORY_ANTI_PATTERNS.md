@@ -52,6 +52,27 @@ Theatre must remain intrinsically worthwhile as people, work, art, failure, craf
 ### Plot swallowing ordinary life
 Danger, magic, mystery, and reputation should collide with food, wages, customers, rehearsal, errands, fatigue, sex, household work, broken objects, weather, routes, and schedules rather than replacing them.
 
+### Rhythm stagnation disguised as novelty
+A chapter can contain new people, a new errand, a new neighborhood object, or a new joke and still perform the same story function as the previous several chapters.
+
+Do not defend a low-voltage run merely by saying each individual situation is technically new. Inspect the last 3–6 chapters for repeated emotional amplitude, Greg-role, uncertainty type, resolution shape, and practical/social function.
+
+When the recent rhythm has become repetitive, deliberately change one or more major axes: stakes, fantasy density, location scale, objective type, social geometry, economic magnitude, physical demand, uncertainty, consequence durability, or Greg's agency.
+
+Ordinary life remains valuable. Mundane repetition is still repetition.
+
+### Loot treadmill as fake rhythm change
+Do not answer rhythm stagnation by giving Greg a new magical object every few chapters.
+
+Magical artifacts / unique items are now a strong forward route because they can create new scene grammar, economics, constraints, and combinations. They should not become disposable upgrades or a checklist of increasingly stronger loot.
+
+Prefer objects with history, provenance, ugly constraints, meaningful downsides, maintenance, storage, social consequences, and multiple uses discovered over time. Reuse can be a rhythm change when the same object behaves differently under a new constraint or combines with another tool.
+
+### Artifact downside as punishment tax
+Do not make artifact drawbacks generic pain, random failure, simple stat penalties, or arbitrary curses that exist only to stop Greg from being effective.
+
+A strong downside creates decisions and alternative uses. It can be severe, but should be understandable enough that Greg and other people can reason around it without instantly eliminating it.
+
 ## Continuity / serial anti-patterns
 
 ### Callback parade
@@ -59,14 +80,6 @@ Do not revive old people, objects, jokes, or places merely to prove continuity. 
 
 ### Sitcom reset
 Do not erase accumulated social, material, financial, bodily, work, or relationship consequences after a chapter or mini-arc unless the story genuinely establishes recovery or reversal.
-
-### Economic reset through an empty purse
-Do not let a temporary low cash-on-hand number erase Greg's accumulated earning capacity, assets, work access, city knowledge, bargaining position, or ability to choose. A later-book Greg with one copper in his room is not automatically equivalent to an early-book Greg whose entire economic life was one copper.
-
-A liquidity dip can constrain a specific choice. It should not automatically make Greg anxious about every cheap purchase, praise himself for saving every coin, or narrate ordinary spending as if progress never happened.
-
-### Inflation as fake progression
-Do not make the economy feel like a game zone where every later loaf, bath, ride, wage, or repair simply gets a larger number because the protagonist progressed. Keep ordinary price layers locally coherent. Let the economic ladder widen upward through better work, larger tools, specialist services, valuable materials, travel, contracts, assets, and magical items.
 
 ### Every chapter services every engine
 A chapter does not need to advance household, theatre, magic, threat, debt, friendship, and worldbuilding simultaneously. Let engines rotate and breathe.
@@ -100,10 +113,11 @@ Keep Greg's body materially present through activity-specific geometry and cost 
 ### Money as RPG abstraction or morality meter
 Material improvement may stick. Debt and scarcity may remain real. Do not invent unsupported exact balances/conversions or make every ordinary purchase prove virtue or irresponsibility.
 
-### Wallet melodrama
-Do not automatically convert `this is all the cash I currently have` into `this object is too expensive`. Price, affordability, value, liquidity, and opportunity cost are different questions. Greg can afford something and decline it. He can be cash-light and still spend. He can regret a purchase without the narration declaring a moral failure.
+### Economic reset from a light purse
+Do not treat low cash-on-hand as automatic evidence that Greg has returned to early-book poverty. Liquidity, earning capacity, assets, obligations, and optionality are distinct. Once a price tier has become ordinary/survivable, prose needs a concrete setback before making that same tier existential again.
 
-See `ECONOMY_CONTINUITY.md` when a money scene carries real narrative weight.
+### World-price inflation as progression
+Do not make bread, baths, local errands, and ordinary low-tier services steadily more expensive just because Greg's story is progressing. Widen the economic ceiling through better work, specialist services, tools, artifacts, capital purchases, larger contracts, bids, travel, and higher-value markets.
 
 ## Use test
 
@@ -117,6 +131,7 @@ When something feels exciting but suspiciously easy, ask:
 6. Is this genuinely changed continuity, or just a callback?
 7. Am I adding machinery when existing material could converge?
 8. Would the scene be stronger if it trusted the reader and stopped earlier?
-9. If money is driving the beat, is the reaction calibrated to Greg's current economic stage rather than only the purse snapshot?
+9. Does this chapter change the recent rhythm, or only swap in new nouns?
+10. If an artifact is involved, does it create new decisions and future play rather than merely increasing power?
 
 If none of these traps apply, move on. Do not use this file to create fear of writing or to sand away useful surprise.
