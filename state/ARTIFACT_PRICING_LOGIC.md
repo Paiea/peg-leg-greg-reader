@@ -80,6 +80,29 @@ Strong reasons an artifact may be underpriced include:
 
 The less visible the upside, the more plausible a deep bargain becomes.
 
+## Why mispricing can survive
+
+A valuable information gap needs a reason it has not already been arbitraged away.
+
+Strong persistence reasons include:
+- **activation rarity:** the useful effect appears only under conditions most owners never encounter;
+- **missing complement:** the artifact becomes valuable only when paired with another object, technique, species, material, environment, or future invention;
+- **wrong customer base:** current buyers value the obvious use, while Greg values an application outside the artifact's normal profession or social class;
+- **poor authentication:** the object looks like common junk and its maker, generation, or provenance cannot be cheaply proved;
+- **fragmented evidence:** failures and successes occurred in different places, under different names, or across records nobody has connected;
+- **bad historical explanation:** people preserved the event but attached the wrong cause;
+- **low reproducibility:** the hidden effect is real but difficult to demonstrate on demand, making buyers unwilling to pay heavily for it;
+- **dangerous testing:** proving the upside safely would cost too much or risk death, so the market rationally discounts the claim;
+- **future demand:** the capability becomes extremely valuable only after a later war, profession, creature migration, infrastructure change, legal change, or new technology creates demand;
+- **institutional blind spot:** specialists evaluate the artifact according to intended use and therefore dismiss a cross-domain application;
+- **social stigma:** the item is associated with deaths, criminals, failed adventurers, taboo practice, or embarrassment that suppresses demand even when capability exists;
+- **maintenance bottleneck:** the current world cannot cheaply repair, recharge, or operate the item, while Greg knows a workaround or later route;
+- **misleading success:** the obvious function is good enough that nobody has reason to search for another one.
+
+Do not use `nobody ever tried` when thousands of rational people obviously would have tried.
+
+The stronger the hidden value, the stronger the explanation should be for why the present market has not discovered or capitalized on it.
+
 ## Known downside can lower price rationally
 
 An artifact can be visibly powerful and still sell below its apparent capability if the downside is severe enough.
@@ -183,8 +206,9 @@ Before shipping a meaningful artifact purchase, auction, bid, appraisal, or nego
 8. Is Greg relying on actual asymmetric information, or merely on everyone else being inexplicably stupid?
 9. If the item is spectacularly useful in an obvious way, is the absolute price high enough to reflect that?
 10. If the item is deeply underpriced, what concrete information failure explains the gap?
+11. Why has that information gap survived until now?
 
-If question 10 has no good answer, raise the price or reduce the hidden bargain.
+If questions 10–11 have no good answer, raise the price, weaken the hidden advantage, or improve the historical/market explanation.
 
 ## Forward economic effect
 
