@@ -1,7 +1,7 @@
 from pathlib import Path
 import unittest
 
-from scripts.apply_dialogue_attribution_patches import _parse_batch
+from scripts.dialogue_live_entrypoint import _parse_batch_compat
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -37,7 +37,7 @@ Replace only the untagged answer with:
 Reason:
 clear speaker hinge
 '''
-        patches = _parse_batch(batch, "batch.md", 156, 156)
+        patches = _parse_batch_compat(batch, "batch.md", 156, 156)
         self.assertEqual(len(patches), 1)
         self.assertEqual(patches[0].current[-1], '"To arrest the Chancellor."')
         self.assertEqual(patches[0].replacement[-1], 'Lorn said, "To arrest the Chancellor."')
