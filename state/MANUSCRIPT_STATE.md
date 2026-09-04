@@ -1,118 +1,116 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 331 - **THE MARKER FIELD**.
+- Current exact story endpoint: Chapter 332 - **THE HOUSING**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249-331 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249-332 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500-4,000 words and clear 2,500 unless explicitly changed.
 - NO EM DASHES in manuscript prose. Greg POV.
 - Exact prose outranks summaries/state/development/chat residue.
-- Follow the next actual claim created by prose. Do not rotate live engines by checklist.
-- Structural boundaries follow story movement, not predetermined counts.
-- Reader ignorance is not Greg ignorance. Greg's first life reached roughly fifty-nine and S-class. Ordinary fantasy familiarity should usually remain invisible; curiosity attaches to local implementation, labor, constraints, failure, cost, or specialist practice.
-- Apply `ECONOMY_CONTINUITY.md`, `RHYTHM_ARTIFACT_ENGINE.md`, `ARTIFACT_MARKET_INTELLIGENCE.md`, and `ARTIFACT_PRICING_LOGIC.md` when relevant.
+- Follow next actual claim from prose, not engine rotation.
+- Greg first life reached ~59 and S-class. Familiar fantasy knowledge should often remain invisible; curiosity attaches to local implementation/constraints/cost/failure/specialist practice.
+- Apply economy, rhythm/artifact, market-intelligence, and pricing continuity when relevant.
 
 ## Current direction
-- Preserve ordinary lived texture, social accumulation, disability/material reality, humor, work, independent side-character lives, and long-delay residue.
-- Ch331 changes rhythm with half-day field survey work outside Carrow. Greg has a concrete objective, physical terrain, paid competence, and partial first-life survey-mark recognition without becoming a surveyor.
-- Economic progression moves meaningfully: Greg earns exactly **3 copper cash**, bringing private cash from 2c to **5 copper + 0 bits**.
-- Five copper materially changes optionality. Mara's 2c/3c/4c+ rates no longer consume the entire purse, but Greg does not immediately spend merely because he can.
-- Keep the oval quieter/background after its recent run. Ch331 gives it only ordinary threshold behavior at South Gate and home.
+- Ch332 cashes in the Ch331 economic ratchet through a deliberate information purchase rather than another acquisition.
+- Greg spends **3 copper** on Mara's housing read for the fixed holdfast and deliberately refuses the immediately available ~2c controlled-load follow-up because that would zero his reserve.
+- Economic principle: five copper made the choice real; spending three does not reset Greg to poverty psychology. End cash is **2c + 0 bits**, with acquired information and a known next question.
+- Holdfast now has more bounded housing information but remains unactivated by Greg and materially unresolved.
+- Oval remains quiet/background.
 
 ## Money / capital
-- Greg holds **five private copper + zero private bits** at Ch331 end.
-- Ch331 work: Antonius hires Greg for half-day boundary-marker field check outside Carrow for exactly **3 copper cash**. Payment is completed same day.
-- No debt credit. Vale debt remains active/unresolved.
-- No copper/bit conversion established.
-- Five copper now makes bounded specialist information purchases possible while preserving some reserve: Mara mark read 2c, housing read 3c, open seat 4c + materials. Do not mechanically spend next chapter.
-- This is upward economic ratchet, not sudden wealth. Fourteen-copper brace tier remains meaningfully above current reserve.
+- Greg starts Ch332 at 5c + 0 bits and pays Mara exactly **3c** for housing read.
+- Greg ends **2 private copper + 0 bits**.
+- Mara quotes a possible controlled bench behavior observation at **2c if simple**, more if extra hands/load frame required. Greg explicitly declines today rather than spending remaining reserve.
+- This is not a fixed universal test price and no test has occurred.
+- Vale debt active/unresolved. No copper/bit conversion established.
 
 ## Greg / body / equipment
 - Greg nineteen, Bronze, Carrow. Permanent LEFT BKA, knee preserved; right leg intact; two crutches.
-- Half-day field work uses cart seats between stops where appropriate. Greg explicitly conserves shoulders rather than proving endurance. Ordinary fatigue only, no injury/equipment damage.
-- Brown leather shoulder bag regular equipment. Dark oval carried wrapped/in shallow case but mostly ignored. Normal click at South Gate and home only.
-- Fixed holdfast remains home/stored/untested beyond seller demo. Greg considers bringing it for field work and correctly declines due unknown load/surface/release behavior.
-- Black Kiln chit narrow. Mara checklist retained.
+- Holdfast transport problem becomes material: basket/forearm carry interferes with crutches; Lyssa adapts an older woven carrying sling so basket sits flat against Greg's lower back. Mara later warns cloth alone does not protect ring from pressure and recommends rigid slats across basket mouth.
+- Greg obtains two discarded packing slats free after asking and improves carry guard. This is practical transport only, not artifact modification.
+- Holdfast returns home wrapped, high shelf, same orientation, ring sideways, `DO NOT TURN RING` visible.
+- Oval carried but only normal threshold clicks.
 
-## Antonius / field survey continuity
-- Antonius independently hires Greg in person near lower market. No standing job created.
-- Task scope: outside Carrow, half day, check old physical boundary markers against current filed line, note condition/disagreement. Greg is not adjudicating ownership or moving markers.
-- Other participants: **Pell**, thin man with pale beard and strong concern for record accuracy, carries/reads survey sheet; **Sera**, wide-hatted cart driver with little interest in conversation. Exact employment affiliations/titles remain unestablished.
-- Filed route runs from canal tooth fourteen to hill stone three with six registered intermediate markers. Registration is twelve years old; some physical posts older. Exact parcel owners/names are not established.
-- Marker 1 ordinary gray stone post, south face cleaner, no conclusion.
-- Marker 2 leans toward ditch; base crack has one cleaner edge, noted as possible recent wash only.
-- Marker 3 expected iron-capped post missing. A shallow square socket-like depression is found about 22.75 marked-cord lengths from prior reference vs expected 23. No conclusion.
-- Marker 4 dispute area contains two candidates near filed line: gray stone post matching registered description but ~4 feet west of filed line; dark oak post with iron collar ~1 foot east, plus same two-cut face and a back mark of three short lines under a half circle.
-- Greg recognizes the back mark only as resembling an old first-life temporary/carry-forward survey family. He explicitly states local meaning unverified.
-- A shallow groove east of wooden post leads toward low buried unmarked stone near filed line; no conclusion.
-- Marker 5 correct stone marker near line; behind it a cut-off oak stub with rusted iron collar bears same half-circle/three-line mark family, supporting but not proving temporary working-post interpretation.
-- Marker 6 ordinary.
-- Final sightline shows filed line barely crosses inside shoulder of old drainage berm. This can explain possible crew placement choice but does not prove historical cause.
-- Greg/Pell/Antonius record uncertainty rather than solve ownership/history.
-- Pell may copy Greg an old local survey-mark reference page **if he remembers**. No promise, apprenticeship, or standing study relationship.
+## Fixed holdfast new bounded evidence
+- Existing facts preserved: bought Ch306 exactly 2c; seller demonstrated fixed bench pull; Greg has not turned ring since purchase.
+- Underside primary mark copied in Ch332: **two nested/opposing hooks facing opposite directions with a short vertical cut between**. Mara cannot support maker identity from it; maybe trade family.
+- Rear screw previously thought scratched shows clear tool wear around head. Mara supports that it was turned with a bad/mismatched tool at some point, but cannot tell loosened vs tightened or exact purpose.
+- Primary housing mark predates rear-screw tool wear enough that Mara will not call them same service event.
+- Four exterior fasteners total; only one has obvious bad-tool wear.
+- Thin paper seam check stops earlier near worn rear screw; Mara supports **slight housing/seam distortion** there. Cause unestablished.
+- No obvious exterior heat discoloration.
+- Ring sits in dark collar with narrow accessible gap. Mara can barely see dark stone or glass-composite-like core seat; she sees **no visible crack from accessible angle**, explicitly not certification.
+- Housing construction has four exterior fasteners, separate collar seat, replaceable base plate. Mara supports it as **serviceable older working equipment**, not sealed manufacture.
+- Broad trade/use family supportable only as anchoring / rigging / restraint / load-control neighborhood. Exact function remains unknown.
+- Base wear supports repeated mounting/use. Mara notes somebody considered it worth moving and setting again. This nudges category toward portable/repeatedly mounted fixed working tool, not permanent one-bench installation.
+- Tiny secondary hand-scratched mark near base edge: three vertical strokes with one diagonal through them. Could be tally/owner/boredom; no claim.
+- Mara explicitly would **not open housing yet** because worn fastener + slight distortion mean opening could turn readable problem into broken one.
+- Mara's recommended next information step, if Greg chooses later: controlled load behavior check before service/opening. Owner would operate ring while Mara observes housing under fixture. No test yet.
+- Do not infer safe load, activation mechanism, release behavior, maximum force, defect, hidden power, value, maker, or formal name from this read.
 
-## Oval continuity
-- Ch331 mostly backgrounds oval use. It clicks normally at South Gate and later home doorway. No unexplained no-crossing events.
-- Operational rule remains **USEFUL ENOUGH TO CARRY / NOT TRUSTED ENOUGH TO OBEY**.
-- Do not force another oval event immediately.
+## Mara continuity
+- Mara's prior rates remain: mark read 2c; housing 3c; open seat 4c + materials; registry by page; provenance by hour.
+- Ch332 clarifies housing read scope: accessible exterior housing, visible seams/fasteners, visible core seat without opening, wear/service points, supportable housing-family information. No opening, activation, safety certification, or guaranteed function claim.
+- Separate controlled bench behavior observation can be 2c if simple, variable upward with setup. This is not on prior sign and not a universal artifact-testing tariff.
+- Mara gives free transport safety advice after paid read: rigid guard over ring during body carry. No mentorship/apprenticeship created.
 
 ## Magic continuity
 - Totals remain **36 supervised minimal draws / 32 supervised deliberate shaping attempts / 78 supervised external-effect attempts**.
-- Near aggregate 4 clean/10. Middle 1 clean/6 + possible edge lift attempt 68. Far 0/1.
-- Ch313-Ch331 add no Greg magic attempts.
-- Survey marks and boundary posts are not automatically magical artifacts. Greg's first-life recognition is institutional/fieldcraft memory.
-- Outside-session restrictions unchanged. Hessa next experiment remains unselected.
+- Ch313-Ch332 add no Greg magic attempts.
+- Mara inspection tools do not count as Greg magic.
+- Hessa next experiment remains unselected; outside restrictions unchanged.
 
 ## Recent chapter ledger
 
-### Chapter 328 - THE WRONG DOOR
-- Theatre route work; oval no-crossing contradiction; uncertain `remembers retreat`; ends scream.
-
-### Chapter 329 - THE WAY OUT
-- Building heat-service failure and safe rear evacuation. Oval useful but not blindly trusted.
-
 ### Chapter 330 - THE BACK DOOR
-- Low-amplitude repair/social residue; linewright bounds fault to building-side seat; Senna portrait copy declined; front route reopens under temporary bypass.
+- Building aftermath, Senna sign/portrait choice, front route reopens. Greg 2c.
 
 ### Chapter 331 - THE MARKER FIELD
-- Antonius offers Greg half-day outside-city boundary-marker documentation for **3c cash**. Greg accepts after clarifying scope, terrain, pay, and no lifting.
-- Field rhythm changes setting/physical demand. Cart seats are used between stops to conserve Greg's shoulders.
-- Early markers establish disciplined observation without forced conclusions.
-- Marker-four conflict shows one registered-description-matching stone post outside filed tolerance and one wooden post inside tolerance with possible old temporary/carry-forward mark family.
-- Marker-five oak stub bears same mark family behind a correct final stone, giving corroborating pattern without proving marker-four history.
-- Greg's first-life survey familiarity provides category recognition, not local certainty or professional authority.
-- Pell may copy a local reference page if he remembers. No apprenticeship/job guarantee.
-- Greg earns exact 3c cash and ends **5c + 0 bits**.
-- At home he recognizes 5c changes information-buying options but does not spend immediately. Final principle remains choice, not automatic consumption.
-- No Greg magic attempt, injury, purchase, sale, appraisal, or debt change.
+- Antonius field survey work. Greg earns 3c and reaches 5c. Partial old survey-mark recognition, no adjudication.
+
+### Chapter 332 - THE HOUSING
+- Greg recognizes 5c makes Mara's 3c housing read a genuine choice while preserving reserve.
+- Before travel, Greg documents holdfast visible mark and rear-screw tool wear without turning ring.
+- Transport itself becomes a disability/material problem; Lyssa helps make basket carry workable without occupying crutch hands.
+- Greg pays Mara 3c for housing read.
+- Read supports older serviceable working housing in broad anchoring/rigging/restraint/load-control family, repeated mounting, one badly worked rear fastener, slight local seam distortion, no obvious heat damage, no visible accessible core crack.
+- Mara advises against opening first. Controlled behavior/load observation should precede service/opening.
+- Mara offers possible simple bench observation for 2c; Greg refuses because it would consume remaining reserve.
+- Mara flags basket transport pressure risk; Greg adds free rigid packing slats as guard.
+- Greg returns holdfast home/stored. Ends **2c + 0 bits** with more information and known next question, not economic reset.
+- No activation, injury, sale, new artifact acquisition, debt change, or Greg mana attempt.
+
+## Other live continuity
+- Antonius/Pell marker dispute remains unresolved and does not need immediate follow-up.
+- Pell possible reference page remains weak/delayed.
+- Theatre no standing work guarantee.
+- Building proper seat replacement can remain background.
+- Senna copy remains hers.
 
 ## Protected uncertainties
-- Holdfast deeper identity/function/limits/provenance/value/repair unestablished.
-- Oval formal identity/mechanics/value unestablished; normal background use only in Ch331.
-- Marker-four true controlling boundary, whether stone moved, whether wood was temporary, filed-line accuracy, buried stone role, parcel ownership dispute, and legal resolution all remain unestablished.
-- Greg's temporary/carry-forward survey-mark interpretation remains unverified locally.
-- Pell's exact role/employer and whether reference page appears remain unestablished.
+- Holdfast exact identity, maker, date, formal function, safe load, activation/release mechanics, defect status, core condition beyond visible angle, reason for worn screw/distortion, service history, value, repairability remain unestablished.
+- Mara has not opened or activated it.
+- Oval exact identity/mechanics/value remain unestablished.
 - Remaining repair-sweep pieces default mundane/unknown.
 
-## Chapter 332 trailhead
-Follow the next actual claim from Ch331 and current authority.
+## Chapter 333 trailhead
+Follow next actual claim from Ch332/current authority.
 
-Recent rhythm: emergency -> aftermath -> outdoor paid field work. Avoid immediately repeating another survey/marker job, another quiet household chapter, or another posted generic shift.
+Recent rhythm: outdoor paid field work -> expensive specialist information/owned-object logistics. Avoid another immediate Mara visit, another holdfast test, or another quiet money-accounting chapter.
 
-Greg now has **5 copper + 0 bits**. This is the strongest economic optionality he has had in this recent run. Let that matter through a genuine choice, not mandatory spending. A specialist appraisal/read is now financially possible without zeroing him out, but do not mechanically route to Mara unless prose pressure makes it the best next move.
+Greg is back at **2c + 0 bits**, but unlike before this is a chosen post-investment reserve and he has improved information. Do not narratively reset him to desperation.
 
-The holdfast remains the strongest owned unresolved object after the oval. Because 5c creates room around Mara's housing-read price, the option is now real. However, another valid route could be a different acquisition opportunity, travel, theatre/public performance, Hessa reactivation, or social/material consequence that makes one of Greg's assets relevant.
+The holdfast now has a clear delayed next step: controlled behavior/load observation when Greg has enough reserve to pay without zeroing himself. Let that breathe.
 
-Artifact payoff pressure is lower than before because the oval has paid off, but the stronger artifact engine should remain present in the book. Avoid loot treadmill.
+Strongly change rhythm in Ch333. Good candidates include theatre/public performance with different social geometry, Hessa reactivation, travel/field encounter, social collision, or an external opportunity/problem where Greg's recent accumulated tools/relationships matter without becoming another appraisal scene.
 
-Pell's possible reference-page offer is intentionally weak and delayed. Do not force him to appear next chapter.
+The oval can remain quiet. The holdfast should stay home unless a genuinely earned reason requires it. Magic remains 36 / 32 / 78.
 
-The oval can remain quiet. Magic remains 36 / 32 / 78. Household safe. Front route open under temporary bypass. Theatre has no guaranteed standing work.
-
-Strongly favor a chapter where Greg has to decide what five copper lets him do that two copper did not, even if the answer is ultimately `not this yet`.
+Avoid generic posted job -> competence -> pay repetition immediately after Ch331.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
