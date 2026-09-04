@@ -67,24 +67,24 @@ A chapter needing only attribution/voice/referent surgery gets an exact replacem
 
 This pass remains editorial WIP until integrated into manuscript/reader authority.
 
-Current live-integration lane: `integration/dialogue-attribution-live-001-080` / PR #45 owns accepted Book I patches through Chapter 80. Chapters **81-163** are reviewed/staged on this editorial branch for later integration increments. Do not claim those chapters are live-integrated merely because they are reviewed here.
+Accepted dialogue/attribution work through **Chapter 163** has now been published to `main` via PR #47. Chapters **164+** remain reviewed/staged editorial WIP until a later integration increment explicitly publishes them. Do not claim editorial coverage beyond the published boundary is already live.
 
 Do not claim a chapter is covered until its exact source was reviewed and the durable batch was written and fetched back from GitHub.
 
 ## Coverage ledger
 
 - Chapters 1-301: **NOT YET COMPLETE**
-- Verified reviewed range: **Chapters 1-163**
+- Verified reviewed range: **Chapters 1-167**
 - Book I dialogue + attribution review: **COMPLETE THROUGH CHAPTER 82 - THE RECONCILER**
 - Book II dialogue + attribution review: **ACTIVE FROM CHAPTER 83**
-- No-change chapters in reviewed range: **1, 4, 5, 6, 7, 11, 12, 13, 14, 18, 19, 28, 38, 85, 88, 90, 91, 93, 94, 97, 98, 99, 102, 103, 105, 107, 109, 111, 114, 115, 116, 117, 120, 122, 125, 127, 128, 129, 130, 131, 133, 135, 137, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 157, 158, 159, 160**
+- No-change chapters in reviewed range: **1, 4, 5, 6, 7, 11, 12, 13, 14, 18, 19, 28, 38, 85, 88, 90, 91, 93, 94, 97, 98, 99, 102, 103, 105, 107, 109, 111, 114, 115, 116, 117, 120, 122, 125, 127, 128, 129, 130, 131, 133, 135, 137, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 157, 158, 159, 160, 166**
 - Chapters with hard attribution fixes recorded: **2, 3**
 - Chapters with clarity/attribution patches recorded: **8, 9, 10, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 86, 87, 89, 92, 95, 96, 100, 104, 106, 108, 110, 112, 118, 156**
 - Chapters with referent-continuity corrections recorded: **100, 101, 106, 112, 113, 119, 121, 123, 124, 126, 132, 134, 136**
-- Chapters with first-person narrator/POV continuity repairs recorded: **161, 162, 163**
+- Chapters with first-person narrator/POV continuity repairs recorded: **161, 162, 163, 164, 165, 167**
 - Chapters with unresolved identity-continuity flags but no accepted replacement prose: **138**
-- Latest durable batch: `state/editorial/dialogue-pass/BATCH_159_163.md`
-- Current source edge: **Chapter 164 - THE PROSPECTOR**
+- Latest durable batch: `state/editorial/dialogue-pass/BATCH_164_167.md`
+- Current source edge: **Chapter 168 - THE PITCHMAN**
 - Current exact source for next edge: `state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md`
 
 All earlier durable batch files under `state/editorial/dialogue-pass/` remain authority for this editorial pass.
@@ -95,7 +95,7 @@ A chapter counts as reviewed only after exact source prose and necessary neighbo
 
 ## Current voice observations worth preserving
 
-- **Greg:** expands problems, negotiates definitions, jokes while reasoning, and reaches for systems. Theatre increasingly teaches him that a successful line, laugh, route, rope, or prior performance is not automatically a reusable rule. Chapters 156-158 distinguish exact wording from load-bearing scene information. Chapters 159-163 add touring accumulation: public show, private selected performance, requested extra, street-market sets, and mill work all have different terms; `one more stop` is becoming a real temporal unit without yet equaling a permanent troupe choice.
+- **Greg:** expands problems, negotiates definitions, jokes while reasoning, and reaches for systems. Theatre increasingly teaches him that a successful line, laugh, route, rope, or prior performance is not automatically a reusable rule. Chapters 156-158 distinguish exact wording from load-bearing scene information. Chapters 159-163 add touring accumulation: public show, private selected performance, requested extra, street-market sets, and mill work all have different terms; `one more stop` becomes a real temporal unit without yet equaling a permanent troupe choice. Chapters 164-167 deepen ordinary company belonging through prospecting, collection logistics, road tasks, remembered route information, and a confident `Yes` when a stranger asks whether the company is going to Dast.
 - **Lyssa:** material/social reality first, independent agenda, concise intimacy, no obligation to enter every analytical game Greg opens. Chapters 140-141 add ordinary departure intimacy, practical packing care, refusal to decide Greg's trip for him, and socially grounded acting feedback. Durable page: `state/voices/LYSSA.md`.
 - **Hessa:** controlled procedural instruction tied to body, safety, expectation control, repeatability, apparatus ambiguity, baseline geometry, and permission. Chapters 137 and 139 show possibly repeatable neutral asymmetry that weakens the interpretation of earlier direction-first success without erasing it. External effect remains **unestablished**; casting and Barrier **not cleared**. Durable page: `state/voices/HESSA.md`.
 - **Pessa:** embodied training judgment, inventory before architecture, integrated movement, fatigue, waiting, and anti-score discipline. Durable page: `state/voices/PESSA.md`.
@@ -103,13 +103,13 @@ A chapter counts as reviewed only after exact source prose and necessary neighbo
 - **Alden:** fast, ambitious, initiative-seeking, increasingly capable of rules that preserve tomorrow's work. Durable page: `state/voices/ALDEN.md`.
 - **Octavia:** freight coordination plus sequence/timing memory; retains earlier behavior when it changes the next move. Durable page: `state/voices/OCTAVIA.md`.
 - **Merrin:** institutional routing and record ownership; current exact authority source-settles Merrin as male. Durable page: `state/voices/MERRIN.md`.
-- **Teren:** page/cue/prompt/cut/reset/local continuity plus bounded company consequence. Chapters 146-158 establish closed rehearsal, open rehearsal, paid performance, continued travel choice, Drell uncertainty, hall viability, emergency casting triage, delegated emergency cuts, and committed-booking logic. Chapters 159-163 confirm that this company authority includes bounded private-performance terms, requested-piece premiums, market/mill low-rate agreements, audience/venue adaptation, and ending a patron interaction when the purchased time is done. No page rewrite required in this batch. Durable page: `state/voices/TEREN.md`.
-- **Serra:** partner-facing actor precision: path, distance, eye line, playable reaction, current words, and what information the scene still needs. Chapters 159-163 confirm she can treat a private patron, market crowd, mill noise, and current scene partner as different information sources without making every audience interruption into a partner cue. No page rewrite required in this batch. Durable page: `state/voices/SERRA.md`.
-- **Iven:** dry, low-energy offstage, sharply useful inside scene timing. Chapters 156-158 add emergency functional cuts, keyword retrieval, downstream-information load, anti-overchecking, and boring-success logic. Chapters 159-163 confirm the guide without another rewrite. Durable page: `state/voices/IVEN.md`.
-- **Marek:** performer with social momentum and real touring competence. Chapters 153-154 establish explicit refusal and privacy boundaries. Chapter 160 adds the useful correction `She is not mine to sell`, reinforcing that social/play energy does not imply ownership of another performer. No page rewrite required here. Durable page: `state/voices/MAREK.md`.
-- **Davin:** named male wagon/backstage fabrication worker in the forward travel strand. Owns load, rope, repair, wagon/stage geometry, road/wheel decisions, and material storage conditions. Chapters 159-163 repeatedly show Teren/Rinna using his physical road and stable-cost answers as inputs without taking over his domain. Durable page: `state/voices/DAVIN.md`.
+- **Teren:** page/cue/prompt/cut/reset/local continuity plus bounded company consequence. Chapters 146-158 establish closed rehearsal, open rehearsal, paid performance, continued travel choice, Drell uncertainty, hall viability, emergency casting triage, delegated emergency cuts, and committed-booking logic. Chapters 159-163 confirm bounded private-performance terms, requested-piece premiums, market/mill low-rate agreements, audience/venue adaptation, and ending a patron interaction when purchased time is done. Chapters 164-167 confirm prospecting and fair-slot negotiation as company authority: a referral is not a booking, a free pitch can still be bad work, and he asks what Bellan actually has before accepting the slot. No page rewrite required in this batch. Durable page: `state/voices/TEREN.md`.
+- **Serra:** partner-facing actor precision: path, distance, eye line, playable reaction, current words, and what information the scene still needs. Chapters 159-163 confirm she can treat a private patron, market crowd, mill noise, and current scene partner as different information sources without making every audience interruption into a partner cue. Chapter 165 again shows her using current public material rather than reproducing the earlier successful Sword exchange. No page rewrite required in this batch. Durable page: `state/voices/SERRA.md`.
+- **Iven:** dry, low-energy offstage, sharply useful inside scene timing. Chapters 156-158 add emergency functional cuts, keyword retrieval, downstream-information load, anti-overchecking, and boring-success logic. Chapters 159-167 confirm the guide without another rewrite. Durable page: `state/voices/IVEN.md`.
+- **Marek:** performer with social momentum and real touring competence. Chapters 153-154 establish explicit refusal and privacy boundaries. Chapter 160 adds the useful correction `She is not mine to sell`, reinforcing that social/play energy does not imply ownership of another performer. Chapters 164-167 keep his money/commercial riff alive without making it company authority. No page rewrite required here. Durable page: `state/voices/MAREK.md`.
+- **Davin:** named male wagon/backstage fabrication worker in the forward travel strand. Owns load, rope, repair, wagon/stage geometry, road/wheel decisions, horse condition, route feasibility, and material storage conditions. Chapters 164-167 extend that authority across bridge choice, road shoulders, turning room, wheel checks, and anonymous route information. No page rewrite required in this batch. Durable page: `state/voices/DAVIN.md`.
 - **Nessa:** physical theatre continuity and costume-performance function. Durable page: `state/voices/NESSA.md`.
-- **Rinna:** theatre/business throughput plus touring operating reality. Chapters 159-163 materially sharpen company money versus personal money, food as road inventory, change/tolls/lodging/stable cost, in-kind compensation, route timing, and the fact that arriving four days early does not pay. Durable page: `state/voices/RINNA.md`.
+- **Rinna:** theatre/business throughput plus touring operating reality. Chapters 159-163 materially sharpen company money versus personal money, food as road inventory, change/tolls/lodging/stable cost, in-kind compensation, route timing, and the fact that arriving four days early does not pay. Chapters 164-167 continue the same authority through room price, oats, food, market collection, and the question of whether a possible crowd is actually worth another night. No page rewrite required here. Durable page: `state/voices/RINNA.md`.
 - **Sevren:** courier route knowledge plus low-pressure friendship; current-route reality and cart/road jurisdiction. Durable page: `state/voices/SEVREN.md`.
 - **Sera Dain:** surgical-consequence precision and rehabilitation progression. Keep separate from `SERA.md` and `SERRA.md`. Durable page: `state/voices/SERA_DAIN.md`.
 - **Nerin:** bedside practicality and indignity management; exact Chapter 65 establishes Nerin as male. Durable page: `state/voices/NERIN.md`.
@@ -134,10 +134,11 @@ Other established specialist observations remain available in prior batch files 
 - Chapters 152-155: not every omission needs recovery; shared workflow words inherit meaning from the active object/system; explicit refusal can bound otherwise aggressive social momentum; object custody can be real authority without exposition.
 - Chapters 156-158: preserve downstream load, not every byte. Keyword prompts can retrieve function more cleanly than full-line feeding. Overchecking one dangerous fact can contaminate sequence. Backstage objects can carry attribution when handlers and routes remain visible.
 - Chapters 159-163: private patron, public market, and worker-room audience are different dialogue environments. A patron is not automatically a scene partner. Venue can change the bill. Company fee, individual share, food, floor, tolls, stable cost, and collection money must not be collapsed. In crowded work scenes, jurisdiction plus object/space can carry attribution better than redundant tags.
+- Chapters 164-167: prospecting and travel are dialogue environments too. Open-market interruptions can be speaker-clear through current transaction and position; collection mechanics can become performance mechanics; road authority stays with the person who owns physical consequence; and a referral card creates access to negotiation, not entitlement to a booking.
 
 ## Source-surface caution
 
-The branch reader currently stops at Chapter 155. A direct request for `chapters/156.html` returns 404. This does **not** mean Chapter 156 is absent.
+The editorial branch reader currently stops at Chapter 155. A direct request for `chapters/156.html` on this branch returns 404. This does **not** mean Chapter 156 is absent. Published `main` has since advanced through the accepted integration boundary, but editorial review for Chapters 156-219 must still use recovered exact authority rather than generated reader surfaces.
 
 Use `state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md` for Chapters 156-219. Its header explicitly identifies the content as recovered exact prose and warns against reconstruction from summaries.
 
@@ -163,7 +164,7 @@ Use `state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md` for Chapters 15
 - **Chapter 144 names current theatre Nessa and Rinna**, but same-name identities elsewhere remain continuity questions unless exact prose connects them.
 - **Chapter 123 `Aileen` remains unresolved.** Do not guess a replacement inside this pass. Canonical Book II authority must settle it during integration.
 - **Chapter 154 introduces Lucan Drell.** Exact reviewed prose establishes that he watched both eastern-town shows, knows Teren, knows the old company box, and is neither theatre nor Guild according to Teren. His larger role, motive, and history remain unresolved. Do not invent them, and do not create a durable voice page until recurrence earns one.
-- **Recovered exact prose begins intermittent first-person narrator drift in Chapters 161-163.** Accepted repairs are recorded in `BATCH_159_163.md`. Chapter 164 opens with another known `Greg had money.` instance and must be handled in the next batch rather than silently normalized here.
+- **Recovered exact prose contains intermittent first-person narrator drift in Chapters 161-167.** Accepted repairs are recorded in `BATCH_159_163.md` and `BATCH_164_167.md`. Isolated third-person `Greg` references inside otherwise continuous `I/me` narration should not be normalized silently outside a reviewed batch.
 
 Do not silently resolve unresolved name/identity questions inside the attribution pass.
 
@@ -188,13 +189,13 @@ Notable later sharpenings include:
 - `LYSSA.md`: Chapters 100, 112, 123, 132, 140-141;
 - `PESSA.md`: Chapters 92-93, 102, 110, 119;
 - `SEVREN.md`: Chapters 84, 106, 126;
-- `TEREN.md`: Chapters 116-158; Chapters 159-163 confirm private/market/mill company authority without another rewrite;
-- `SERRA.md`: Chapters 128-152, named at 143; Chapters 156-163 confirm the guide without another rewrite;
-- `MAREK.md`: Chapters 146-154; Chapters 156-163 confirm refusal/personhood/social boundaries without another rewrite;
+- `TEREN.md`: Chapters 116-163; Chapters 164-167 confirm prospecting/fair-slot authority without another rewrite;
+- `SERRA.md`: Chapters 128-152, named at 143; Chapters 156-167 confirm the guide without another rewrite;
+- `MAREK.md`: Chapters 146-154; Chapters 156-167 confirm refusal/personhood/social boundaries without another rewrite;
 - `NESSA.md`: Chapters 144-151; later chapters confirm the guide without another rewrite;
-- `DAVIN.md`: Chapters 142-155; Chapters 159-163 confirm road/wheel/material authority without another rewrite;
-- `IVEN.md`: repeated exact behavior through Chapters 142-158, including emergency functional cuts, keyword retrieval, downstream-information load, anti-overchecking, and boring-success logic;
-- `RINNA.md`: Chapters 159-163 materially sharpen touring economics, company-vs-personal money, road inventory, in-kind compensation, and route timing.
+- `DAVIN.md`: Chapters 142-163; Chapters 164-167 confirm road/wheel/material authority without another rewrite;
+- `IVEN.md`: repeated exact behavior through Chapters 142-167, including emergency functional cuts, keyword retrieval, downstream-information load, anti-overchecking, and boring-success logic;
+- `RINNA.md`: Chapters 159-167 materially sharpen touring economics, company-vs-personal money, road inventory, in-kind compensation, prospecting cost, and route timing.
 
 `state/voices/INDEX.md` treats voice pages as living authority. These are specialist editorial aids, not canon substitutes.
 
