@@ -172,7 +172,7 @@ Examples:
 - Chapter 175: Marra gives Lyssa pale cloth plus roughly two copper after dress-correction work;
 - Chapter 178: Lyssa calls cheese `Payment` for carrying the blue after Jessa's complication;
 - Chapter 209: Lyssa returns with beans and identifies them as `Trade` / payment for finished work;
-- Chapters 225–226: brown-cuff customer changes completed work twice; Lyssa charges for both changes; job is delivered and paid;
+- Chapters 228–229: brown-cuff customer changes completed work twice; Lyssa charges for both changes; job is delivered and paid;
 - Chapter 218: Lyssa reports being paid for `Two alterations and a rush repair`; a bundle also contains food associated with the customer's mother.
 
 **Classification:** ESTABLISHED material/economic exchange and separately charged additional work.
@@ -200,7 +200,7 @@ Important anti-conflation examples:
 - Chapter 217: an explicit referral creates shoulder-seam work; later a customer's daughter changes a measured dress;
 - Chapter 218: a second fitting and paid `two alterations and a rush repair` occur; exact identity linkage to the referred customer is not fully explicit;
 - Chapter 219: Lyssa explicitly says `Different dress. Different shoulder.` when Greg tries to connect similar shoulder work;
-- Chapters 220–227 continue multiple sleeves, cuffs, green/dark/pale garments, and new customers without always naming ownership.
+- Chapters 220–230 continue multiple sleeves, cuffs, green/dark/pale garments, and new customers without always naming ownership.
 
 **Classification:** ESTABLISHED plurality; many identity links remain UNCERTAIN.
 

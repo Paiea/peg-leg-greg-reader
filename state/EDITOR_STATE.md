@@ -434,7 +434,7 @@ Voice library foundation is being built under `state/voices/`.
 
 Next structural task after voice-library/routing completion:
 
-**Create `state/editorial/RECENT_COMPRESSION_MAP_260_299.md` from exact Chapters 260-299 before rewriting or renumbering them.**
+**Create `state/editorial/RECENT_COMPRESSION_MAP_260_299.md` from exact Chapters 263-302 before rewriting or renumbering them.**
 
 ## RE-PROMPT [04]
 

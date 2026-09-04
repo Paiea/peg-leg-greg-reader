@@ -132,7 +132,7 @@ Key durable evidence:
 - Ch182 Davin repairs the curtain wheel; Jori later operates/tests the repaired curtain.
 - Ch210 Davin owns missing-pin diagnosis/fabrication and directs Jori through a rolling test; Jori adds chalk verification and later checking.
 - Ch214 returned original pin carries shared repair/object memory.
-- Ch226–225 make dry technical disagreement / credit humor more legible without making Davin useless.
+- Ch226–228 make dry technical disagreement / credit humor more legible without making Davin useless.
 - Ch231 gives mistake → correction → changed wet-board handling → narrow retained monitoring.
 
 Do not clean this into friendship, rivalry, formal hierarchy, or permanent distrust. No Jori/Davin subplot plan is needed.

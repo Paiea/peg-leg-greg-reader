@@ -1,11 +1,11 @@
 # MANUSCRIPT OPEN THREADS
 
 ## Current edge
-- Current exact story endpoint: Chapter 303 — **THE BLUE HORSE**.
-- Exact Chapters 249–300 are durable checkpoint files and outrank summaries.
-- Permanent running manuscript remains physically materialized through Chapter 251; exact-text integration debt remains.
-- Canonical inserted Chapters **220A — THE SHORTAGE**, **220B — THE OLD MAN**, and **220C — THE ROUTE** sit between Chapters 220 and 221 and do not renumber later chapters.
-- See `MANUSCRIPT_STATE.md` for executable Chapter 304 trailhead.
+- Current exact story endpoint: Chapter 304 — **THE FALSE DOOR**.
+- Permanent running manuscript is continuous through Chapter 234, with Chapter 251 also materialized.
+- Exact checkpoint files cover Chapters 235–250 and 252–304; exact prose outranks summaries/state. Synchronization debt remains.
+- Canonical repair sequence is Chapters **221 — THE SHORTAGE**, **222 — THE OLD MAN**, and **223 — THE ROUTE**, between Chapters 220 and 224.
+- Chapter 304 is exact authority. No Chapter 305 trailhead is currently materialized.
 
 ## Direction
 - Preserve ordinary lived detail, social accumulation, disability/material reality, humor, work, and independent side-character causality.
@@ -18,7 +18,7 @@
 
 ## Magic / Hessa / range protocol
 - Totals remain **36 supervised minimal draws / 32 deliberate shaping attempts / 72 supervised external-effect attempts**.
-- No independent magic outside supervised sessions Ch284–300. Restrictions unchanged.
+- No independent magic outside supervised sessions Ch284–303. Restrictions unchanged.
 - Ch301 attempt 70 near: small clean net displacement away.
 - Ch301 attempt 71 middle: no observed response.
 - Ch301 attempt 72 far: first far test, no observed response.
@@ -78,46 +78,46 @@
 - Brief line-pin maneuver uses right crutch tip only; no damage or loss of balance.
 
 ## High line / Mara / Ovi / Tess
-- Ch300 facts stand. Ch301–300 do not return.
+- Ch300 facts stand. Ch301–303 do not return.
 - Tess remains only expected noon repair person, unseen. Repair outcome/mechanism/rate unknown.
 - Do not auto-return or make high-line work.
 
 ## Kessa / Pella / Rusk / silverbacks-flickers
-- Ch300 facts stand. Ch301 has one passing recognition; Ch302–300 no follow-up.
+- Ch300 facts stand. Ch301 has one passing recognition; Ch302–303 no follow-up.
 - Exact taxonomy, naming boundary, lifecycle, prey range, `skins`, magical status, thresholds, and cool/sun behavior remain unresolved.
 
 ## Nemi / workshop-court music / road song
-- Ch299 facts stand. Ch300–300 no substantive follow-up.
+- Ch299 facts stand. Ch300–303 no substantive follow-up.
 - No music group, lesson, performance job, songwriting lane, theatre crossover, or hold-bead investigation.
 
 ## Bridges / Vela / Orra / Demin / Sot
-- Ch298 facts stand. Ch299–300 no return.
+- Ch298 facts stand. Ch299–303 no return.
 - Vela's `Tomorrow?` remains casual and non-binding.
 
 ## Household shopping / merchant memory
-- Ch297 facts stand. Ch298–300 no meaningful shopping follow-up.
+- Ch297 facts stand. Ch298–303 no meaningful shopping follow-up.
 - No formal household account/credit/discount/network.
 
 ## Shade fish / east-wall trough / water list
-- Ch295 facts stand. Ch296–300 do not return.
+- Ch295 facts stand. Ch296–303 do not return.
 - Weak sun-turn bead remains only marked/managed as of last sighting; fish fine; replacement schedule unknown.
 
 ## Door closer / Olan / Sella
-- Ch294 front door repair stands and functions cleanly in Ch302–300.
+- Ch294 front door repair stands and functions cleanly in Ch302–303.
 - Olan's Ch302 basket appearance does not establish Greg apprenticeship, standing work, or general Olan lane.
 
 ## Rain shelf / rain thread
-- Ch293 facts stand. Household rain shelf works. Ch294–300 no reactivation.
+- Ch293 facts stand. Household rain shelf works. Ch294–303 no reactivation.
 
 ## Miri / cooling cups
-- Ch291 facts stand. Ch292–300 no follow-up.
+- Ch291 facts stand. Ch292–303 no follow-up.
 - Miri one-copper comparison and possible Pellin follow-up remain bounded/unresolved. Pellin is not Pell absent evidence.
 
 ## Carrying light
-- Ch290 facts stand. Ch291–300 do not advance Sera or lantern house.
+- Ch290 facts stand. Ch291–303 do not advance Sera or lantern house.
 
 ## Ward crossing
-- Ch292 repair stands. Ch293 passes it in rain. Ch294–300 no advancement.
+- Ch292 repair stands. Ch293 passes it in rain. Ch294–303 no advancement.
 - Ch295 water worker/list remains separate from road crew/list.
 
 ## Dry seal / warm wall
@@ -127,13 +127,13 @@
 - Ch287 chaffer hatch stands, mostly over.
 - Ch295 shade fish remain separate urban ecology.
 - Ch300 kessa jumpers remain separate local ecological practice.
-- Ch301–300 do not advance ecology as a work lane.
+- Ch301–303 do not advance ecology as a work lane.
 - Ch303 play-court magic is material/civic play infrastructure, not an ecology case.
 - Do not build creature-of-week or ecology-ledger structure.
 
 ## Theatre / Pavin
 - Ch279 one-house Masked Guest replacement and Ch285 paid Pavin catch-up rehearsal stand.
-- Ch286–300 no theatre contact. No promotion/standing role.
+- Ch286–303 no theatre contact. No promotion/standing role.
 
 ## Rell / Maren / return hardware
 - Ch284 bounded return-hardware identification stands. Hardware unactivated/unvalued.
@@ -154,7 +154,7 @@
 - Vale debt active/unresolved; exact balance unstated.
 
 ## Bren / local extortion repair
-- Canonical inserted sequence is **220A THE SHORTAGE → 220B THE OLD MAN → 220C THE ROUTE**, between Ch220 and Ch224. Later chapter numbers do not shift.
+- Canonical inserted sequence is **221 THE SHORTAGE → 222 THE OLD MAN → 223 THE ROUTE**, between Ch220 and Ch224. Later chapter numbers do not shift.
 - Ch220 establishes Olin delivery questioning and Rinna's question-sharing response.
 - Ch221 makes the threat materially expensive: Olin stops sending his boy while two men watch/question the route, and Nessa/Jori must collect oil themselves.
 - Ch222 fulfills Bren's `Next time won't be one` threat. Bren returns with two men and demands five copper. Rinna remains the theatre authority. Greg uses stagecraft, prepared blue-glass theatrical magic, old-life procedural threat-reading, and deliberate performance to make certainty expensive. Greg casts no new personal illusion spell and gains no new independent magic capability.
@@ -164,7 +164,7 @@
 - Treat the **local theatre extortion pressure as resolved/dormant** unless later causality independently reactivates it. Do not auto-return Bren.
 - Bren surname, employer/boss, organization, full network scale, permanent whereabouts, and whether every watcher worked for him remain unresolved.
 - **Vale/Bren link remains unresolved and unestablished.**
-- See `state/BREN_220ABC_CANON.md` for the dedicated insertion state.
+- See `state/BREN_221_223_CANON.md` for the dedicated insertion state.
 
 ## Pressure / protected uncertainty
 - Ch276 Green Coat remains separate/bounded. Ch303 adds no new pressure evidence.

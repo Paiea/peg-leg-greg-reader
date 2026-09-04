@@ -52,7 +52,7 @@ Preferred source ranges:
 - Chapters 83-137: authoritative Book II exact prose/export. Branch reader rendering is an accessible exact-text surface, but stronger canonical Book II manuscript authority wins if a mismatch surfaces.
 - Chapters 138-155: current running-manuscript / branch reader exact surface, with stronger exact manuscript authority winning if a mismatch surfaces. The current branch reader ends at Chapter 155.
 - Chapters 156-219: exact recovered authority is `state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md`. The file explicitly identifies itself as recovered exact prose; do not reconstruct these chapters from summaries or invent missing reader HTML.
-- Chapters 220-301: current running manuscript and newest exact checkpoint authority.
+- Chapters 220-304: current running manuscript and newest exact checkpoint authority.
 
 Exact manuscript prose outranks this state file and every voice guide.
 

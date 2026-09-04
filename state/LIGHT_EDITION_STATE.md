@@ -60,8 +60,8 @@ Legacy `light.html?chapter=N` remains a compatibility router. If a requested cha
 Verified checkpoint at this handoff:
 
 - Chapters 156–219 — static and verified from recovered exact authority.
-- Chapters 220–234 — static and verified from the permanent running manuscript.
-- Continuous static Light coverage: Chapters 156–234.
+- Chapters 220–237 — static and verified from the permanent running manuscript.
+- Continuous static Light coverage: Chapters 156–237.
 - Current exact Light-publishable endpoint: Chapter 237 — **THE CONDITION**.
 - No exact-source chapter gap remains in the 156–234 static range at this checkpoint.
 

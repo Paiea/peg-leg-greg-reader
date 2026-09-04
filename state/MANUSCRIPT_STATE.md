@@ -1,10 +1,10 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 303 — **THE BLUE HORSE**.
+- Current exact story endpoint: Chapter 304 — **THE FALSE DOOR**.
 - Book 1 Chapters 1–82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
-- Permanent running manuscript is physically materialized through Chapter 251.
-- Exact Chapters 249–300 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
+- Permanent running manuscript is continuous through Chapter 234, with Chapter 251 also materialized.
+- Exact checkpoint files cover Chapters 235–250 and 252–304; exact prose outranks summaries/state. Synchronization debt remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500–4,000 words and clear 2,500 unless explicitly changed.
@@ -23,6 +23,7 @@
 - Tavi/Greg household trust advances behaviorally through a bounded outing and practical supervision, not a speech about belonging.
 - Scope restraint remains behavioral. Greg helps stop a loose kite line, but does not take over the kite, repair it, study the court ward, or create a childcare role from one outing.
 - Chapter 303 is explicitly not a structural milestone. Structural boundaries continue to follow actual story movement only.
+- Ch304 THE FALSE DOOR is exact manuscript authority and supersedes the older Chapter 304 trailhead. No Chapter 305 trailhead is currently materialized.
 - Eventual title-defining leg loss remains flexible long-range architecture, not a countdown.
 
 ## Money / capital
@@ -92,7 +93,7 @@
 
 ## Other live continuity
 - Ch302 Mera basket/Olan carry-tie/Lyssa delivery stands complete; Ch303 begins after Mera leaves and does not reopen it.
-- Ch301 far test stands; Ch302–300 do not return to Hessa/range work.
+- Ch301 far test stands; Ch302–303 do not return to Hessa/range work.
 - Ch300 high line/Tess and Pella/Rusk/kessa jumpers stand; no return.
 - Ch299 Nemi/held-note experience stands; no music follow-up.
 - Ch298 bridges/open-seat experience stands; no return.
@@ -107,7 +108,7 @@
 - Ch289 dry seal remains ordinary resolved maintenance unless independently reactivated.
 - Ch287 chaffer hatch remains over/quiet.
 - Ch284 return hardware remains unactivated/unvalued. Rell/Maren/Jori unresolved.
-- Ch279/282 theatre facts stand. Ch286–300 no theatre contact.
+- Ch279/282 theatre facts stand. Ch286–303 no theatre contact.
 - Vale debt active/unresolved; exact balance unstated.
 - Boundary clasp unowned/status unknown.
 - Older pressure evidence ceiling unchanged. Ch303 adds none.

@@ -23,7 +23,7 @@ are not aesthetic scores and do not authorize deletion.
 - Locked Book 2 source: `state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx`, Chapters 83-137
 - Exact continuation: `state/manuscript/Peg_Leg_Greg_Running_Manuscript_Ch138-155.md`, Chapters 138-155
 - Recovered exact block: `state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md`, Chapters 156-219
-- Permanent forward manuscript: `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`, Chapters 220-231 at audit time
+- Permanent forward manuscript: `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`, Chapters 220-234 at audit time
 - Writable 04 continuation: `state/editorial/Peg_Leg_Greg_Heavy_Edit_Continuation.md`, completed through Chapter 181 at audit time
 - Lane brains and handoffs: `MANUSCRIPT_*`, `WRITERS_ROOM_STATE.md`,
   `STORY_CONTROL_STATE.md`, `EDITOR_STATE.md`, `PROSE_PLAYBOOK.md`,
@@ -133,12 +133,12 @@ outside Git, which multiply the same repository into several gigabytes.
 - 157 chapter HTML pages inspected
 - 150 pages have multiple images
 - 5 pages have one image: Chapters 133-137
-- 2 pages have no art: preview Chapters 220-221
+- 2 pages have no art: preview Chapters 220-224
 - Maximum images on one chapter page: 4
 - Broken image references: 0
 - Reader-referenced nonexistent assets: 0
 
-The zero-art result does not mean missing prose. Chapters 220-221 are forward
+The zero-art result does not mean missing prose. Chapters 220-224 are forward
 preview shells by design. Chapters 156-219 render through the Light Reader and
 do not have static illustrated pages.
 

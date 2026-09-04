@@ -6,7 +6,7 @@ This file is developmental evidence, not a subplot plan and not authority over m
 
 Authority audited:
 - exact recovered Chapters 156–219: `state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md`
-- current permanent running manuscript Chapters 220–228 at this checkpoint
+- current permanent running manuscript Chapters 220–231 at this checkpoint
 
 No external research was used.
 
@@ -160,13 +160,13 @@ Rinna later includes both in the small practical supplier / information briefing
 
 Do not convert this into a Jori / Davin security role.
 
-## Ch220–228 — current prose makes the pair more legible
+## Ch220–231 — current prose makes the pair more legible
 
 Current prose preserves plenty of separate work, which is good. The pair is available without being staged together every chapter.
 
 Important current evidence:
 - Davin is pulled from property-table work because he has to help Jori with a wall brace.
-- Ch226–225 cart-brace sequence: Greg finds Jori already under the cart while Davin stands over him with a mallet and offers advice; Jori rejects leverage as the answer to the cracked brace.
+- Ch226–228 cart-brace sequence: Greg finds Jori already under the cart while Davin stands over him with a mallet and offers advice; Jori rejects leverage as the answer to the cracked brace.
 - the cart is left out of service until the brace is actually usable.
 - once repaired, Davin loudly claims the cart works because he helped; Jori narrows that to `You held a nail`; Davin calls that essential.
 - Jori later drives the repaired cart while Davin rides beside him and scenery / benches move normally again.

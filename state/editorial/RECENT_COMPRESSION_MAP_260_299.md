@@ -2,7 +2,7 @@
 
 Status: **STRUCTURAL AUDIT WIP — NOT YET FROZEN**
 
-Authority: exact manuscript checkpoint prose for Chapters 260-299.
+Authority: exact manuscript checkpoint prose for Chapters 263-302.
 
 Purpose: decide what the recent run actually needs before rewriting sentences or renumbering chapters.
 
