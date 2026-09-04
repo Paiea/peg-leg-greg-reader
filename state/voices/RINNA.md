@@ -97,24 +97,6 @@ She can say `Possible` without meaning yes.
 
 A route is not good merely because it is short. A booking is not good merely because it pays something. The useful question is whether the current mix keeps the company solvent and moving.
 
-## Public claims and sellable promises
-
-Chapter 180 adds another company boundary: a memorable personal claim can become a customer expectation before the evidence behind it is settled.
-
-When the hall starts retelling Greg's ambiguous paper movement as `Greg moved paper` and then `Greg moved paper with magic maybe`, Rinna does not become the person who decides whether the magic claim is scientifically true. Her question is operational:
-
-`Because if you can do magic, somebody will eventually ask me whether you can do it in a show.`
-
-If Greg cannot actually promise or perform that effect, the company should not let the exciting version harden into part of the offer.
-
-This is distinct from Hessa's evidence ceiling:
-- Hessa asks what the observation supports;
-- Rinna asks what the company can reliably sell, schedule, price, or promise without creating a future problem.
-
-The ticket-door version is related. Rinna does **not** tell Greg to lie about the ghost. She tells him to stop finishing every answer. Sales communication can stay truthful without volunteering every mechanism and limitation before the customer has asked for them.
-
-Do not turn this into marketing doctrine. It is practical control of promises the troupe may later be expected to fulfill.
-
 ## Humor
 
 Dry by consequence more than performance. She does not need to play Greg's or Marek's game.
@@ -138,8 +120,7 @@ She distinguishes between:
 - what belongs to company operation;
 - what belongs to personal pay;
 - what belongs to somebody else's private situation;
-- what tomorrow's road has already claimed;
-- what the company can actually promise versus what people merely want to say about it.
+- what tomorrow's road has already claimed.
 
 Do not make every withheld detail mysterious.
 
@@ -156,8 +137,6 @@ Examples of shape:
 
 She can learn from ordinary service workers without ceremony. A kitchen answer about what food will spoil tomorrow can become a company provisioning decision immediately.
 
-Chapter 180 reinforces that she can leave the causal/magical claim with Hessa while still owning the commercial consequence of how that claim is repeated publicly.
-
 ## With Greg
 
 She increasingly trusts Greg enough to give compressed instructions, but this should feel like reduced onboarding rather than praise.
@@ -171,8 +150,6 @@ Touring examples:
 
 She may also exploit his availability because the theatre is a workplace and he has proven useful.
 
-Chapter 180 adds that she will protect Greg from accidentally creating a company promise out of an exciting personal story. She does this by shrinking the operational claim, not by trying to become his evidence authority.
-
 ## Canon lines / fingerprints
 
 - **CANON LINE:** `Today.`
@@ -184,12 +161,10 @@ Chapter 180 adds that she will protect Greg from accidentally creating a company
 - **CANON LINE:** `Bring change.`
 - **CANON LINE:** `Because four days early doesn't pay.`
 - **CANON LINE:** `You remain expensive.`
-- **CANON LINE:** `Because if you can do magic, somebody will eventually ask me whether you can do it in a show.`
 - **CANON PATTERN:** converts private-house leftovers and included meals/lodging into reduced future road cost.
 - **CANON PATTERN:** tracks company cash separately from performer pocket money.
 - **CANON PATTERN:** uses Davin's road judgment as an input without pretending to own road engineering.
 - **CANON PATTERN:** can accept a low-cash job when food, floor, collection, route position, and next-stop need make the whole package workable.
-- **CANON PATTERN:** distinguishes an interesting personal claim from a reliable company promise without stealing the underlying expertise.
 
 ## Voice tests — NON-CANON
 
@@ -208,8 +183,6 @@ Rinna and Teren both negotiate and route company consequence. Difference: Teren 
 
 Rinna and Davin can both talk about road viability. Davin reads the physical road, wheel, load, and hardware. Rinna reads what that physical answer does to timing, food, tolls, and booking feasibility.
 
-Rinna and Hessa can both reject an overlarge claim, but for different reasons. Hessa protects the evidence boundary. Rinna protects the company from being expected to deliver a result it cannot currently promise.
-
 ## Watch list
 
 Avoid:
@@ -222,6 +195,4 @@ Avoid:
 - treating every in-kind term as automatically good merely because it is free;
 - treating company money as everyone's pocket money;
 - making her a road engineer because she can use Davin's road answer;
-- making her explain the full company budget whenever Greg asks one small money question;
-- making her the judge of whether Greg's ambiguous magical observation was causally real merely because its public retelling affects the company;
-- letting a memorable story silently become a sellable show capability before the company can actually deliver it.
+- making her explain the full company budget whenever Greg asks one small money question.
