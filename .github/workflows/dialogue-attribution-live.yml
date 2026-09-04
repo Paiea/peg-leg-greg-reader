@@ -1,6 +1,6 @@
 name: Publish dialogue attribution pass
 
-# Integration v9: publish accepted dialogue/attribution work through Chapter 201.
+# Integration v10: keep accepted recovered dialogue through Chapter 201 and extend the Illustrated Reader through Chapter 320 from exact current manuscript authority.
 on:
   pull_request:
     paths:
@@ -23,7 +23,7 @@ permissions:
   contents: write
 
 jobs:
-  integrate-dialogue-through-201:
+  publish-illustrated-through-320:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -52,9 +52,9 @@ jobs:
         run: python scripts/promote_recovered_dialogue.py 193-197 --patch-ref origin/editor/voice-compression-pass --source state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
       - name: Promote Chapters 198-201
         run: python scripts/promote_recovered_dialogue.py 198-201 --patch-ref origin/editor/voice-compression-pass --source state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
-      - name: Extend Illustrated Reader through Chapter 201
-        run: python scripts/generate_illustrated.py 156-201
-      - name: Validate integration boundary
+      - name: Extend Illustrated Reader through Chapter 320
+        run: python scripts/generate_illustrated.py 156-320
+      - name: Validate publication boundary
         run: |
           python -m unittest discover -s tests -v
           git diff --check
@@ -63,23 +63,25 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           import re
-          for n in range(156, 202):
-              text = Path(f'chapters/{n:03d}.html').read_text(encoding='utf-8')
+          for n in range(156, 321):
+              path = Path(f'chapters/{n:03d}.html')
+              if not path.exists(): raise SystemExit(f'missing Illustrated Reader chapter {n}')
+              text = path.read_text(encoding='utf-8')
               m = re.search(r'<article\s+class="prose"[^>]*>(.*?)</article>', text, re.S | re.I)
               if not m: raise SystemExit(f'missing prose article in chapter {n}')
               if '—' in re.sub(r'<[^>]+>', '', m.group(1)): raise SystemExit(f'em dash in chapter {n} prose')
-          print('Illustrated Reader validation passed for Chapters 156-201')
+          print('Illustrated Reader validation passed for Chapters 156-320')
           PY
       - name: Commit published illustrated reader and recovered authority
         if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
         run: |
           if git diff --quiet -- chapters state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md; then
-            echo 'Dialogue attribution reader prose already published through Chapter 201.'
+            echo 'Illustrated Reader already published through Chapter 320.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add chapters state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
-          git commit -m 'editorial: publish dialogue attribution pass through chapter 201'
+          git commit -m 'reader: publish Illustrated Reader through chapter 320'
           git pull --rebase origin main
           git push

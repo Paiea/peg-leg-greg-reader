@@ -15,12 +15,14 @@ WORKFLOW = ROOT / ".github/workflows/dialogue-attribution-live.yml"
 
 
 class DialoguePublishBoundaryTests(unittest.TestCase):
-    def test_live_workflow_publishes_only_verified_reviewed_range_through_201(self):
+    def test_live_workflow_keeps_recovered_promotion_at_201_and_illustrated_at_320(self):
         text = WORKFLOW.read_text(encoding="utf-8")
         self.assertIn("promote_recovered_dialogue.py 164-167", text)
         self.assertIn("promote_recovered_dialogue.py 198-201", text)
-        self.assertIn("generate_illustrated.py 156-201", text)
-        self.assertNotIn("generate_light.py 164-201", text)
+        self.assertNotIn("promote_recovered_dialogue.py 202-", text)
+        self.assertIn("generate_illustrated.py 156-320", text)
+        self.assertIn("for n in range(156, 321)", text)
+        self.assertNotIn("generate_light.py", text)
         self.assertNotIn("git add chapters index.html light latest.html", text)
         self.assertIn("git add chapters state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md", text)
         self.assertNotIn("164-219", text)
@@ -40,6 +42,15 @@ class DialoguePublishBoundaryTests(unittest.TestCase):
         page = render_illustrated_chapter(chapter, [177], [Path('visual/chapter_art/177/example.webp')])
         self.assertIn('../visual/chapter_art/177/example.webp', page)
         self.assertEqual(page.count('<figure class="chapter-art scene-illustration">'), 1)
+
+    def test_chapter_320_shell_can_link_to_current_text_reader(self):
+        chapter = Chapter(320, "THE PORTRAIT", '<p>Current prose.</p>', "running")
+        page = render_illustrated_chapter(chapter, [319, 320, 321], [])
+        self.assertIn('CHAPTER 320', page)
+        self.assertIn('THE PORTRAIT', page)
+        self.assertIn('href="319.html"', page)
+        self.assertIn('href="321.html"', page)
+        self.assertIn('href="../light/320.html"', page)
 
     def test_parser_accepts_patch_heading_and_blockquote_paragraphs(self):
         batch = '''## Chapter 156 - THE ADVOCATE
