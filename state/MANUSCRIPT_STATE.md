@@ -1,10 +1,10 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 330 - **THE BACK DOOR**.
+- Current exact story endpoint: Chapter 331 - **THE MARKER FIELD**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249-330 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249-331 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500-4,000 words and clear 2,500 unless explicitly changed.
@@ -17,100 +17,102 @@
 
 ## Current direction
 - Preserve ordinary lived texture, social accumulation, disability/material reality, humor, work, independent side-character lives, and long-delay residue.
-- Ch330 deliberately lowers amplitude after the Ch329 evacuation and lets consequences become household/social/material residue rather than another emergency.
-- Greg's oval rule remains **USEFUL ENOUGH TO CARRY / NOT TRUSTED ENOUGH TO OBEY**. Ch330 makes ordinary clicks/background use less narratively dominant, which is desirable.
-- Economic progression is now showing through preference: Greg can possess copper and still decline a one-bit portrait copy because he does not want it enough to seek change. Do not convert this into miserliness or moral superiority.
-- Building repair has a bounded technical outcome: temporary bypass installed, front route reopened, proper seat replacement still future/owner responsibility.
+- Ch331 changes rhythm with half-day field survey work outside Carrow. Greg has a concrete objective, physical terrain, paid competence, and partial first-life survey-mark recognition without becoming a surveyor.
+- Economic progression moves meaningfully: Greg earns exactly **3 copper cash**, bringing private cash from 2c to **5 copper + 0 bits**.
+- Five copper materially changes optionality. Mara's 2c/3c/4c+ rates no longer consume the entire purse, but Greg does not immediately spend merely because he can.
+- Keep the oval quieter/background after its recent run. Ch331 gives it only ordinary threshold behavior at South Gate and home.
 
 ## Money / capital
-- Greg holds **two private copper + zero private bits** at Ch330 end. Ch330 changes no Greg money.
-- Cala pays Senna exactly **one bit** for a painted rear-entrance sign. This is Cala's transaction, not Greg's.
-- Senna offers Greg a smaller copy of his portrait for **one bit**. Greg declines because he does not want it enough to go seek change from copper, not because one bit is existential.
-- No copper/bit conversion established. Senna says a money table can change copper and that rate/terms depend on changer/amount, but no numeric conversion is given.
-- Vale debt remains active/unresolved.
+- Greg holds **five private copper + zero private bits** at Ch331 end.
+- Ch331 work: Antonius hires Greg for half-day boundary-marker field check outside Carrow for exactly **3 copper cash**. Payment is completed same day.
+- No debt credit. Vale debt remains active/unresolved.
+- No copper/bit conversion established.
+- Five copper now makes bounded specialist information purchases possible while preserving some reserve: Mara mark read 2c, housing read 3c, open seat 4c + materials. Do not mechanically spend next chapter.
+- This is upward economic ratchet, not sudden wealth. Fourteen-copper brace tier remains meaningfully above current reserve.
 
 ## Greg / body / equipment
 - Greg nineteen, Bronze, Carrow. Permanent LEFT BKA, knee preserved; right leg intact; two crutches.
-- Rear stair inconvenience during front closure becomes learned route pattern. Tavi moves a peg that caught Greg's shoulder bag. No injury/equipment damage.
-- Brown leather shoulder bag regular equipment; dark oval carried wrapped/in shallow case. Greg increasingly lets normal behavior stay background rather than inspecting every click.
-- Fixed holdfast remains separately stored/untested. Black Kiln chit narrow. Mara checklist retained.
+- Half-day field work uses cart seats between stops where appropriate. Greg explicitly conserves shoulders rather than proving endurance. Ordinary fatigue only, no injury/equipment damage.
+- Brown leather shoulder bag regular equipment. Dark oval carried wrapped/in shallow case but mostly ignored. Normal click at South Gate and home only.
+- Fixed holdfast remains home/stored/untested beyond seller demo. Greg considers bringing it for field work and correctly declines due unknown load/surface/release behavior.
+- Black Kiln chit narrow. Mara checklist retained.
 
-## Household / building
-- Front hall/front door route stays closed for roughly three days after Ch329 failure; residents use rear service route/courtyard.
-- Rear-route inconvenience creates social residue: residents who normally use different entrances meet; children try to race rear stair; Cala bans it.
-- Linewright is an unnamed woman around fifty, broad-shouldered, gray hair braided close, dark red tool roll, brass badge with three nested squares around dot. Exact name/employer/title beyond linewright not established.
-- Neris reports her wall sometimes clicked on cold mornings last season and this season. Frequency/cause relationship remains uncertain.
-- Linewright's bounded finding: city feed is carrying correctly to wall; **building-side receiving seat failed under load**. Exact root cause/age/negligence remains unestablished.
-- Responsibility is `probably owner`, enough that Cala relaxes because residents are not directly asked to pay today. Owner authorizes temporary bypass.
-- Temporary black conduit installed visibly along upper front-hall wall by sunset. Red keep-clear remains around opened wall section. Front route reopens with instructions not to touch conduit/sealed housing or lean things against it.
-- Proper seat replacement remains future work. If bypass/wall heats abnormally, residents should use rear route and pull courtyard bell. Fast repeating ticking is warning; one isolated click means nothing per linewright.
-
-## Senna continuity
-- Cala independently commissions Senna to paint sign: `FRONT CLOSED / USE COURTYARD DOOR / NO DELIVERIES THROUGH FRONT` for exactly one bit.
-- Senna's original Ch320 Greg portrait has sold as part of a four-study street set: basket boy, old man, onion woman, Greg, total seven bits. Greg's individual original was not sold for one copper; exact allocation within set not established.
-- Senna made a smaller copy of Greg portrait as practice/because he wanted original; offers copy to Greg for one bit. Greg declines. Copy remains Senna's.
-- This does NOT create fame, commission relationship, romance, debt, or automatic future purchase.
+## Antonius / field survey continuity
+- Antonius independently hires Greg in person near lower market. No standing job created.
+- Task scope: outside Carrow, half day, check old physical boundary markers against current filed line, note condition/disagreement. Greg is not adjudicating ownership or moving markers.
+- Other participants: **Pell**, thin man with pale beard and strong concern for record accuracy, carries/reads survey sheet; **Sera**, wide-hatted cart driver with little interest in conversation. Exact employment affiliations/titles remain unestablished.
+- Filed route runs from canal tooth fourteen to hill stone three with six registered intermediate markers. Registration is twelve years old; some physical posts older. Exact parcel owners/names are not established.
+- Marker 1 ordinary gray stone post, south face cleaner, no conclusion.
+- Marker 2 leans toward ditch; base crack has one cleaner edge, noted as possible recent wash only.
+- Marker 3 expected iron-capped post missing. A shallow square socket-like depression is found about 22.75 marked-cord lengths from prior reference vs expected 23. No conclusion.
+- Marker 4 dispute area contains two candidates near filed line: gray stone post matching registered description but ~4 feet west of filed line; dark oak post with iron collar ~1 foot east, plus same two-cut face and a back mark of three short lines under a half circle.
+- Greg recognizes the back mark only as resembling an old first-life temporary/carry-forward survey family. He explicitly states local meaning unverified.
+- A shallow groove east of wooden post leads toward low buried unmarked stone near filed line; no conclusion.
+- Marker 5 correct stone marker near line; behind it a cut-off oak stub with rusted iron collar bears same half-circle/three-line mark family, supporting but not proving temporary working-post interpretation.
+- Marker 6 ordinary.
+- Final sightline shows filed line barely crosses inside shoulder of old drainage berm. This can explain possible crew placement choice but does not prove historical cause.
+- Greg/Pell/Antonius record uncertainty rather than solve ownership/history.
+- Pell may copy Greg an old local survey-mark reference page **if he remembers**. No promise, apprenticeship, or standing study relationship.
 
 ## Oval continuity
-- Normal threshold behavior mostly backgrounds in Ch330.
-- When Senna arrives at rear service door, oval clicks without Greg crossing and initially points toward rear door/courtyard line. Exact cause unestablished.
-- Later Cala returns through rear door and oval clicks/turns toward kitchen passage behind Greg; no danger/event follows. This further argues against simplistic `pre-crossing update = danger warning`.
-- Greg crosses kitchen doorway and normal last-threshold overwrite resumes.
-- At chapter end oval makes a small silent rotation with no event, then Tavi crosses upstairs doorway and normal click/orientation occurs.
-- Preserve ambiguity around `retreat`. Do not make every no-crossing movement important.
+- Ch331 mostly backgrounds oval use. It clicks normally at South Gate and later home doorway. No unexplained no-crossing events.
+- Operational rule remains **USEFUL ENOUGH TO CARRY / NOT TRUSTED ENOUGH TO OBEY**.
+- Do not force another oval event immediately.
 
 ## Magic continuity
 - Totals remain **36 supervised minimal draws / 32 supervised deliberate shaping attempts / 78 supervised external-effect attempts**.
 - Near aggregate 4 clean/10. Middle 1 clean/6 + possible edge lift attempt 68. Far 0/1.
-- Ch313-Ch330 add no Greg magic attempts.
-- Linewright tools/equipment are specialist external magic, not Greg mana use.
+- Ch313-Ch331 add no Greg magic attempts.
+- Survey marks and boundary posts are not automatically magical artifacts. Greg's first-life recognition is institutional/fieldcraft memory.
 - Outside-session restrictions unchanged. Hessa next experiment remains unselected.
 
 ## Recent chapter ledger
 
-### Chapter 327 - THE LAST DOOR
-- Oval shows most-recent qualifying-threshold / one-step retreat behavior and overwrite limitation.
-
 ### Chapter 328 - THE WRONG DOOR
-- Theatre route work; first unexplained no-crossing update; uncertain first-life phrase `remembers retreat`; ends on downstairs scream.
+- Theatre route work; oval no-crossing contradiction; uncertain `remembers retreat`; ends scream.
 
 ### Chapter 329 - THE WAY OUT
-- Building heat-service joint failure. Safe rear evacuation. Oval useful but not trusted blindly. Municipal isolation. Front route closed temporarily.
+- Building heat-service failure and safe rear evacuation. Oval useful but not blindly trusted.
 
 ### Chapter 330 - THE BACK DOOR
-- Three days of rear-route living create practical/social residue. Tavi moves stair peg that catches Greg's bag. Residents encounter each other differently through courtyard.
-- Linewright inspects failed service with bounded specialist tools. Greg correctly stays out of domain and does not present oval for appraisal.
-- Senna arrives because Cala commissions one-bit temporary rear-entrance sign. Senna reveals original Greg portrait sold within four-study street set for seven bits total and offers Greg a smaller copy for one bit; Greg declines rather than seeking change.
-- Oval gives a couple unexplained no-crossing clicks/orientations but no emergency follows, weakening any simplistic danger-warning interpretation.
-- Linewright identifies building-side receiving seat failure under load, city feed okay, owner probably responsible. Owner authorizes temporary bypass. Front route reopens by sunset; permanent seat repair pending.
-- Greg records building outcome and declined portrait. Economic distinction between inability and preference continues.
-- End money **2c + 0 bits**. No Greg magic attempt, purchase, sale, appraisal, injury, or debt change.
+- Low-amplitude repair/social residue; linewright bounds fault to building-side seat; Senna portrait copy declined; front route reopens under temporary bypass.
+
+### Chapter 331 - THE MARKER FIELD
+- Antonius offers Greg half-day outside-city boundary-marker documentation for **3c cash**. Greg accepts after clarifying scope, terrain, pay, and no lifting.
+- Field rhythm changes setting/physical demand. Cart seats are used between stops to conserve Greg's shoulders.
+- Early markers establish disciplined observation without forced conclusions.
+- Marker-four conflict shows one registered-description-matching stone post outside filed tolerance and one wooden post inside tolerance with possible old temporary/carry-forward mark family.
+- Marker-five oak stub bears same mark family behind a correct final stone, giving corroborating pattern without proving marker-four history.
+- Greg's first-life survey familiarity provides category recognition, not local certainty or professional authority.
+- Pell may copy a local reference page if he remembers. No apprenticeship/job guarantee.
+- Greg earns exact 3c cash and ends **5c + 0 bits**.
+- At home he recognizes 5c changes information-buying options but does not spend immediately. Final principle remains choice, not automatic consumption.
+- No Greg magic attempt, injury, purchase, sale, appraisal, or debt change.
 
 ## Protected uncertainties
 - Holdfast deeper identity/function/limits/provenance/value/repair unestablished.
-- Oval formal name/maker/age/provenance/material/exact activation/retreat mechanics/range/precision/duration/safety/value/rarity/charge/repair unestablished.
-- No-crossing oval movements are not automatically warnings, predictions, or meaningful events.
-- Building proper seat replacement timing/cost/root cause/liability beyond `probably owner` unestablished.
-- Linewright identity and tool mechanics unestablished.
-- Senna street-set buyer identity and exact per-study prices unestablished.
+- Oval formal identity/mechanics/value unestablished; normal background use only in Ch331.
+- Marker-four true controlling boundary, whether stone moved, whether wood was temporary, filed-line accuracy, buried stone role, parcel ownership dispute, and legal resolution all remain unestablished.
+- Greg's temporary/carry-forward survey-mark interpretation remains unverified locally.
+- Pell's exact role/employer and whether reference page appears remain unestablished.
 - Remaining repair-sweep pieces default mundane/unknown.
 
-## Chapter 331 trailhead
-Follow the next actual claim from Ch330 and current authority.
+## Chapter 332 trailhead
+Follow the next actual claim from Ch331 and current authority.
 
-Recent rhythm has been artifact discovery/use, theatre, emergency, then low-amplitude household/material aftermath. Ch331 should change rhythm again rather than continue building-repair administration or another quiet neighbor chapter.
+Recent rhythm: emergency -> aftermath -> outdoor paid field work. Avoid immediately repeating another survey/marker job, another quiet household chapter, or another posted generic shift.
 
-Strong live routes include independently reactivated paid work, travel/field action, theatre with different social geometry, economic opportunity requiring a real choice, or another magical-world event where Greg has an objective beyond observing equipment.
+Greg now has **5 copper + 0 bits**. This is the strongest economic optionality he has had in this recent run. Let that matter through a genuine choice, not mandatory spending. A specialist appraisal/read is now financially possible without zeroing him out, but do not mechanically route to Mara unless prose pressure makes it the best next move.
 
-The oval should remain carried naturally and can be quiet for an entire chapter. Do not force a click/event because it exists.
+The holdfast remains the strongest owned unresolved object after the oval. Because 5c creates room around Mara's housing-read price, the option is now real. However, another valid route could be a different acquisition opportunity, travel, theatre/public performance, Hessa reactivation, or social/material consequence that makes one of Greg's assets relevant.
 
-Greg has **2 copper + zero bits**. His economic progression should eventually rebuild reserve through selective work, but do not instantly refund the one-copper artifact purchase or turn every chapter into job hunting.
+Artifact payoff pressure is lower than before because the oval has paid off, but the stronger artifact engine should remain present in the book. Avoid loot treadmill.
 
-Theatre has recently reactivated Greg for route competence but no standing job. Antonius cash work remains possible only as genuine separate opportunity. Kiln chit remains narrow access, not employment. Mara remains optional.
+Pell's possible reference-page offer is intentionally weak and delayed. Do not force him to appear next chapter.
 
-Proper building seat replacement can happen off-page or later unless it creates a genuinely new consequence.
+The oval can remain quiet. Magic remains 36 / 32 / 78. Household safe. Front route open under temporary bypass. Theatre has no guaranteed standing work.
 
-Magic remains 36 / 32 / 78. Holdfast stored. Household safe. Front route reopened under temporary bypass.
+Strongly favor a chapter where Greg has to decide what five copper lets him do that two copper did not, even if the answer is ultimately `not this yet`.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
