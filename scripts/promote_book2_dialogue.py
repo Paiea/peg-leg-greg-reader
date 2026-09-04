@@ -56,11 +56,11 @@ def _print_heading_diagnostic() -> None:
         return
     from docx import Document
     doc = Document(path)
-    headings = [p.text for p in doc.paragraphs if "CHAPTER" in p.text.upper()]
-    print("Book II canonical heading tail:")
-    for heading in headings[-12:]:
-        print(repr(heading), "=>", _number_from_heading(heading))
-    print("Parsed heading keys tail:", sorted(impl._heading_map(doc))[-12:])
+    parsed = impl._heading_map(doc)
+    print("Parsed heading keys 95-105:", [n for n in sorted(parsed) if 95 <= n <= 105])
+    for p in doc.paragraphs:
+        if "CHAPTER 100" in p.text.upper() or "CHAPTER 99" in p.text.upper() or "CHAPTER 101" in p.text.upper():
+            print("Seam heading:", repr(p.text), "=>", _number_from_heading(p.text))
 
 
 if __name__ == "__main__":
