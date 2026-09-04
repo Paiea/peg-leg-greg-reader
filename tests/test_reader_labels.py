@@ -1,5 +1,10 @@
+import sys
 import unittest
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parents[1] / 'scripts'))
+
+from generate_light import Chapter, render_chapter, render_index, render_latest
 
 
 class ReaderLabelTests(unittest.TestCase):
@@ -20,6 +25,24 @@ class ReaderLabelTests(unittest.TestCase):
         self.assertNotIn('Light Edition', light)
         self.assertNotIn('LIGHT EDITION', light)
         self.assertNotIn('>LIGHT<', light)
+
+    def test_generated_reader_surfaces_keep_the_same_vocabulary(self):
+        chapter = Chapter(220, 'THE TEST', '<p>Body</p>', 'test')
+        chapters = {220: chapter}
+
+        rendered_index = render_index(chapters, {220})
+        rendered_chapter = render_chapter(chapter, [220], {220})
+        rendered_latest = render_latest(chapter, {220})
+
+        for rendered in (rendered_index, rendered_chapter, rendered_latest):
+            self.assertIn('TEXT READER', rendered.upper())
+            self.assertNotIn('LIGHT EDITION', rendered.upper())
+
+        self.assertIn('Illustrated Reader', rendered_index)
+        self.assertIn('Text-only reading', rendered_index)
+        self.assertIn('TEXT READER · CHAPTER 220', rendered_chapter)
+        self.assertIn('Text-only reading · no chapter illustrations', rendered_chapter)
+        self.assertIn('Browse the Text Reader', rendered_latest)
 
 
 if __name__ == '__main__':
