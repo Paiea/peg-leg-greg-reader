@@ -1,10 +1,10 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 338 - **THE PUBLIC COUNTER**.
+- Current exact story endpoint: Chapter 339 - **THE SECOND VOICE**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249-338 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249-339 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500-4,000 words and clear 2,500 unless explicitly changed.
@@ -15,146 +15,126 @@
 - Apply economy, rhythm/artifact, market-intelligence, and pricing continuity when relevant.
 
 ## Current direction
-- Ch338 pays off Jessa's delayed invitation narrowly: the black chit grants Greg unsupervised passage along the marked public route from East Kiln gate to the public counter. It is literal access, not authority, employment, discount, training, or private-yard permission.
-- Public-counter access exposes a lower-capital artifact/equipment layer: retired industrial components with known faults, incomplete trust, narrow paperwork, and secondary parts/study value.
-- Greg makes a real artifact acquisition for exactly 1c: retired counterload rest stone K-14-6. This is a genuine win in access/ownership, but not a hidden jackpot or immediately usable power.
-- Important market principle: cheap magic exists in retired/incomplete component markets, not because the market is stupid but because the object has narrow function, known fault, no rated use, and uncertain future utility.
-- Greg deliberately preserves 1c reserve after buying instead of zeroing himself.
+- Ch339 gives the new rest stone room to breathe and returns to theatre through a materially different function: Greg is invited as a physical/noise test condition for an ordinary stage-magic sound system service problem, not as audience or paid route worker.
+- Greg's growing network now produces small, believable opportunities because people remember specific useful traits: Jessa remembered his safe curiosity; Rinna/Jori remember his crutch geometry/noise as a test condition; Rinna may consider him for future paid house work.
+- The chapter reinforces that magical equipment is maintained through compatibility, wear, calibration, and operating procedure rather than magic being a black-box effect.
+- Greg does not collect every technical fact or open every available door. He deliberately leaves the rest stone boxed and does not write down the theatre repair details, showing reduced scarcity/rushing behavior.
 
 ## Money / capital
-- Greg begins Ch338 at **2 private copper + 0 bits**.
-- He buys retired counterload rest stone K-14-6 for exactly **1 copper**, with retired-status sale paperwork/card included and no additional transfer fee established at this counter.
-- Greg ends **1 private copper + 0 bits**.
-- This is not poverty reset. He chooses to spend half his liquid reserve for a bounded artifact-learning opportunity while preserving one copper.
-- No pay, debt credit, appraisal, or copper/bit conversion.
+- Greg remains **1 private copper + 0 bits** throughout Ch339.
+- Theatre visit is unpaid and under one hour. No current wage or debt credit.
+- Rinna says there **may** be paid house work next week, two evenings, house route + late reset. Not confirmed. If it happens, Nessa will ask Greg and rate will be given with offer.
+- Do not treat this as promised income, standing job, or known rate.
 - Vale debt remains active/unresolved.
-- Blue-harness medium-term ambition toward readiness/access remains intact.
+- No purchase, appraisal, transfer, or copper/bit conversion.
 
-## East Kiln public counter / black chit
-- East Kiln gate is a working yard. Public may use the public counter, but normal visitors do not wander through the yard.
-- Black yard chit allows Greg to follow the marked yellow route from East gate to public counter without escort after deliveries start.
-- Chit does NOT grant work, tools, stores, training, discounts, private-yard access, or authority.
-- White-stone boundary remains off limits. Gate worker says if chit becomes invalid, gate will tell Greg. Chit remains with Greg after visit and is still apparently good until marked otherwise.
-- Public counter windows/categories include RETURNS, CLAIMS, SURPLUS / RETIRED.
-- Surplus board categories include stone hardware, frame fittings, worn hand tools, nonrated load parts, registered components as marked, mixed/by weight.
-- Inventory turns weekly. Unsold marked pieces may roll forward, move to mixed lots, or go to scrap. No guarantee.
-- Public-facing failure display exists beside counter: failed/retired examples used to explain condition notes and reduce arguments/returns.
-- Examples include cut-open bent load pin with internal crack, deeply grooved guide roller, re-cracked repaired ceramic heat plate, heat-glazed braided red cord, and pale load stone whose visible exterior line was only polish while internal fracture was found by ringing test.
-- Institutional point: visible scratches do not necessarily equal true condition; hidden failure may exist elsewhere.
+## Theatre / second voice continuity
+- Rinna sends theatre child to invite Greg before second bell, asking him to bring crutches because theatre wants his normal crutch-walking noise as a test condition.
+- Theatre is changing a second-act entrance and servicing a stage sound-return system nicknamed **second voice**.
+- Main housing: shallow wooden box with brass face mounted beneath front edge of stage/house-left area. Registered theatre equipment.
+- Function: carries quiet stage speech forward without making room sound shouted at.
+- Original pickup throat cracked last week. Replacement service throat from **North Lantern stock** is compatible with housing family but not exact original part.
+- Replacement throat: narrow brass tube, square collar, tiny silver band. Its fit differs slightly from original; replacement collar fractionally deeper.
+- Old housing seat has been dressed twice / worn, so nominal dimensions do not map simply to actual fit.
+- Initial replacement setting carries speech but over-carries impact/contact noise: Marek's boots, Jori's wrist-brace click, chair/prop contact, and Greg's harder crutch placements.
+- Jori adjusts silver collar one notch. This reduces unwanted impact pickup while keeping Hara's speech clear. Another notch causes Hara's final consonant/word edge to thin, so Jori returns one notch.
+- Final state for this room/day: ordinary Greg crutch walking mostly acceptable, one harder front-strip placement still can carry. Nessa marks backstage strip and route procedure so visitors are not sent across it during live pickup.
+- No claim this is universal/permanent calibration. Jori explicitly frames it as `for this room today`.
+- Jori removes throat afterward to inspect/check seat before tonight. No failure or emergency.
+- Greg does not repair equipment, operate magic, or become sound technician.
 
-## Jessa / Kiln continuity
-- Jessa sent Ch337 note because Davin/Jessa remembered Greg's curiosity after Ch323 frame failure and because he behaved usefully/safely: carried exact message and did not touch equipment.
-- Jessa explicitly says public-counter invitation is not yard work. If someone offers work, they will tell Greg directly.
-- Jessa brought Greg only to counter-side/public-route spaces, then left for her shift. No tour, mentorship, apprenticeship, or private access.
-- Jessa says she participated with two others in removing the rest stone, but public card remains the information boundary; she does not disclose internal yard sheet details.
-- Davin does not appear in Ch338.
-
-## New artifact: retired counterload rest stone K-14-6
-- Exact public-card label: `COUNTERLOAD REST STONE / SMALL`.
-- Yard register: **K-14-6**.
-- Physical: thumb-sized dark stone held in split iron collar; appears black at first, dark red in edge light; shallow exposed-face cut of unknown meaning; collar has two bolt holes, one slightly oval from wear.
-- Function at last check: **holds frame bias while main load is static**.
-- Removed from **West Bed Two**.
-- Removal reason: **release delay outside yard limit**.
-- Explicit status: **NO RATED USE / SALE AS RETIRED COMPONENT**.
-- Price exactly **1c**.
-- Public counter clarifies sale transfers ownership only, not use approval.
-- Sale slip records old register number + retired status. This is not active-equipment registration.
-- Sale card travels with object; Greg does NOT receive internal yard sheet.
-- No test occurs at East Kiln. Counter does not provide public test access for it.
-- Exact mechanism, magnitude of bias-holding, release-delay duration, safe system, compatibility, remaining service life, hidden defect, repairability, resale value, maker, and standalone behavior all remain unknown.
-- Do not assume it makes things lighter, holds arbitrary objects, or functions outside a larger counterload system.
-- Greg buys it partly as a physical comparison/study object and because it is a credible low-cost entry into retired industrial magic, not because he knows hidden value.
-- Stored at home in shallow wooden box on a separate shelf, below holdfast shelf but above Tavi reach. Card and sale slip remain with it.
-- No activation or household testing. Greg explicitly tells family they do not use it.
-
-## Other public-counter marked components observed
-- Brass guide roller, groove wear, 2 bits.
-- Red-handled plain steel load pin, shaft measured narrow, 1 bit.
-- Rectangular copper **heat spread plate**, two white ceramic studs, function reduces local hot spot under continuous contact; removed for edge crack; not for pressure service; 2 bits. Another buyer purchases it for ceramic studs, illustrating parts value rather than function value.
-- Incomplete narrow iron guide fork with one tine shorter, matched mate missing, 1 bit; magical/system relevance unestablished.
-- Public buyers value items differently for material, comparison, repair stock, components, or possible reuse. Market remains rational under heterogeneous needs.
+## Theatre character continuity
+- Rinna: authority, practical, thanks Greg, no current pay. Mentions possible future two-evening paid house route/reset work only if confirmed.
+- Jori: technical/stage-geometry authority here. Directs test crossings and service adjustment. Wears existing left wrist leather/metal support observed to click; no injury/background established.
+- Nessa: practical reset/route authority, marks problem strip backstage.
+- Hara: provides clean spoken test phrase and performer competence.
+- Marek: humor/boot-noise test, remains peer/performer, not technical authority.
+- Theatre ensemble retains distributed competence. Greg is useful as an unusual test condition, not strongest person in room.
 
 ## Greg / body / equipment
 - Greg nineteen, Bronze, Carrow. Permanent LEFT BKA, knee preserved; right leg intact; two crutches.
-- Follows yellow public route through East Kiln. No injury/fall/equipment issue.
-- Brown shoulder bag carried. Oval remains separately wrapped inside.
-- Rest stone box fits in shoulder bag and is somewhat heavier than oval but not difficult to carry.
-- Holdfast remains home.
+- Crutch contact becomes a useful acoustic test condition. Tight new entrance turn is possible but awkward; no injury or route denial.
+- No magic attempt, fall, equipment damage, or new mobility aid.
+- Brown shoulder bag + oval carried. Oval only ordinary threshold behavior.
 
-## Household residue
-- Greg brings rest stone home and explains bounded card facts to Cala/Lyssa/Tavi.
-- Tavi asks whether it can hold his spoon carrier; Greg says absolutely not.
-- Cala is wary of `retired magic`; Greg agrees it is not for use.
-- Greg stores rest stone separately from holdfast and oval, preserving distinct trust categories.
+## Reputation / social accumulation
+- Greg recognizes people increasingly carry useful versions of him when he is absent: Rinna/theatre may think of him for house-route work, Jessa thought of him for retired-parts access, Antonius thought of him for boundary field check.
+- Do not turn this into universal fame or sudden career acceleration. Reputation remains local, uneven, task-specific, and accumulated through prior behavior.
+- Key progression is that Greg no longer feels compelled to rush through every open door before it closes.
 
-## Artifact trust categories now explicit in Greg's life
-- Oval: useful but unexplained; working rule `USEFUL ENOUGH TO CARRY / NOT TRUSTED ENOUGH TO OBEY`.
-- Holdfast: seller-demonstrated fixed working object, partially inspected, unresolved, Greg has not turned ring since purchase.
-- Rest stone K-14-6: documented function-at-last-check, documented retirement fault, no rated use, no current test.
-- Useful contrast: cheapest object currently has the clearest warning, but not necessarily the clearest mechanism.
+## Rest stone K-14-6
+- Remains home in shallow wooden box, card/slip with it, separate shelf below holdfast and above Tavi reach.
+- No activation, opening, inspection, specialist discussion, or household experiment in Ch339.
+- Greg considers opening box merely to look and deliberately does not.
+- All Ch338 protected uncertainties remain.
 
 ## Oval continuity
-- No special Ch338 event. Ordinary carry only.
-- Ch337 Tanner's Cut no-crossing click remains ambiguous and should not be forced into immediate testing.
-- Ch334 theatre click remains unresolved residue.
+- Carried to theatre and home.
+- Only ordinary threshold click on longer route home near street frame; no special event.
+- Tanner's Cut and theatre Ch334 no-crossing clicks remain unresolved.
+
+## Tanner's Cut residue
+- Greg takes longer route home because Tanner's Cut still partly closed.
+- Board now: `CHANNEL WORK / OLD DRAIN TRACE / EAST WALK OPEN / CARTS SINGLE FILE`.
+- Red stakes moved. Old drain mostly covered except two lifted sections farther south.
+- Green-coated specialist absent; different workers present.
+- Service crawler folded on spool cart. No new mechanics/solution established.
+
+## Household residue
+- Tavi's mundane spoon carrier now gains string and briefly functions by being pulled; one metal loop falls off. No magic/artifact discovery.
+- Lyssa asks whether theatre visit was paid and whether Greg accidentally volunteered six hours. Learns it was under one hour and possible future work is unconfirmed.
+- Household does not count hypothetical income.
 
 ## Holdfast continuity
-- Home/stored, wrapped, ring sideways, warning visible.
-- Mara-controlled bench observation remains known future information step when paying does not zero Greg.
-- Greg currently has only 1c, so 2c simple observation is not presently affordable without additional money anyway.
-- No Ch338 holdfast interaction.
+- Home high shelf, wrapped, ring sideways, warning visible.
+- No interaction/test. Mara simple controlled observation still 2c minimum if simple; Greg currently has 1c.
 
 ## Magic continuity
 - Totals remain **41 supervised minimal draws / 41 supervised deliberate shaping attempts / 91 supervised external-effect attempts**.
-- Ch338 adds no Greg magic attempts.
-- No independent practice. Hessa restrictions unchanged.
+- Ch339 adds no Greg magic attempts.
+- Hessa restrictions unchanged.
+- Second voice is theatre equipment, not Greg mana.
 
 ## Recent chapter ledger
 
-### Chapter 336 - THE BID LINE
-- Blue harness sells 36c + 1c transfer. Greg learns opening price != buying price and sees account/inspection/transport/repair infrastructure around artifact ownership.
-
 ### Chapter 337 - THE RED PATH
-- Ordinary onion errand crosses municipal crawler/old-drain work. Greg does not solve it. Jessa later reactivates black Kiln chit and invites Greg to public counter.
+- Onion errand crosses municipal crawler/old-drain work; Jessa later reactivates black Kiln chit.
 
 ### Chapter 338 - THE PUBLIC COUNTER
-- Greg uses black chit to follow yellow public route into East Kiln public counter. Chit is route access only.
-- Jessa explains she sent note because Greg had asked what happened to broken/retired frame parts and had behaved safely during Ch323 emergency.
-- Greg sees public surplus/retired market and a failure-example display showing why visible condition can mislead.
-- Key object: retired counterload rest stone K-14-6, function-at-last-check holds frame bias while main load static, removed for release delay outside yard limit, no rated use, 1c.
-- Greg asks bounded legal/information questions, receives no internal yard sheet or testing privilege.
-- He watches other buyers value components for parts/material rather than magical function.
-- Greg buys K-14-6 for exactly 1c and preserves 1c reserve.
-- At home he stores it separately, does not activate/test it, and records only bounded facts.
-- Ends **1c + 0 bits**, no pay, job, injury, Greg magic attempt, debt change, or holdfast/oval test.
+- Greg gains narrow East Kiln public-counter access and buys retired rest stone K-14-6 for 1c, preserving 1c reserve. No testing.
+
+### Chapter 339 - THE SECOND VOICE
+- Rinna invites Greg to theatre for under an hour because replacement sound-return pickup throat is over-carrying impact noise and they want crutch contact as a test condition.
+- Jori/Nessa/Hara/Marek and Greg test ordinary stage geometry. Jori calibrates one notch and changes backstage route procedure rather than declaring universal fix.
+- Greg is useful but does not repair/operate system.
+- Rinna mentions possible, unconfirmed paid house-route + late-reset work next week, two evenings, rate only if offered.
+- Greg notices local task-specific reputation accumulating through people remembering him.
+- He does not write theatre technical notes and does not open/test rest stone at home.
+- Ends **1c + 0 bits**, no pay, purchase, injury, Greg magic attempt, debt change, or artifact test.
 
 ## Protected uncertainties
-- Rest stone exact mechanism, release-delay duration, safe load/system, standalone behavior, repairability, maker, hidden value, resale value, and compatibility remain unknown.
-- Public counter internal yard sheets remain private/not transferred.
-- Black chit future duration/conditions beyond gate's statement remain unformalized.
-- Tanner's Cut old drain details unresolved.
-- Oval Tanner's Cut and theatre no-crossing clicks unresolved.
+- Possible theatre paid work is unconfirmed; rate unknown.
+- Second voice exact magical mechanism, maker, age, full service history, North Lantern supplier details, and long-term calibration stability unknown.
+- Rest stone exact mechanism/release delay/safe system/standalone behavior/value remain unresolved.
+- Black chit remains narrow public-route access only.
+- Tanner's Cut final repair/old-drain history unresolved.
+- Oval anomalous clicks unresolved.
 - Blue harness buyer/motive/use unknown.
 - Holdfast exact identity/function/value unresolved.
 - Greg magic range/repeatability unresolved.
 
-## Chapter 339 trailhead
-Follow next actual claim from Ch338/current authority.
+## Chapter 340 trailhead
+Follow next actual claim from Ch339/current authority.
 
-Recent rhythm: auction market -> ordinary municipal/household day -> Kiln public-counter access + real low-cost artifact acquisition. Do not immediately do another appraisal, surplus shopping trip, or home experiment with the rest stone.
+Recent rhythm: municipal/household -> retired-component access/acquisition -> theatre technical/social beat. Do not immediately do another theatre service scene or artifact test/appraisal.
 
-Greg now has **1c + 0 bits** and three materially different artifact relationships. Do not reset him to desperate poverty. He intentionally spent 1c while preserving 1c because this was a bounded opportunity.
+Greg has **1c + 0 bits**, one untested retired rest stone, unresolved holdfast, carried oval, and a growing but still local/task-specific network. Possible theatre work is not yet real and should not be treated as income until explicitly offered.
 
-The rest stone should breathe. Its strongest future value may come from comparison, specialist discussion, system interaction, or eventual safe observation, not immediate activation. Do not test it casually at home.
+Strong next routes include Hessa if the social/technical rhythm has breathed enough, travel or magical ecology, household/relationship consequence, or a materially different work opportunity that arises from existing continuity rather than convenient capital injection. A stronger external event can also interrupt plans.
 
-Strong next routes: a character/social consequence, work or travel where Greg's growing network matters, Hessa return if rhythm supports it, theatre/household relationship beat, magical ecology, or an external problem that does not simply become another artifact-info scene.
+Greg's new behavioral progression is important: enough doors now exist that he can leave some unopened. Preserve that without making him passive. He can choose selectively rather than chase every opportunity.
 
-If money enters, avoid a conveniently huge payout. Economic growth should remain stair-step and capability-linked.
-
-Black chit remains narrow public-route access. Do not convert it into free private-yard roaming.
-
-Magic remains 41 / 41 / 91. Holdfast home. Oval may stay quiet.
+Do not immediately test rest stone or holdfast. Avoid another `Greg watches specialists calibrate equipment` chapter. Oval may stay quiet. Magic remains 41 / 41 / 91.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
