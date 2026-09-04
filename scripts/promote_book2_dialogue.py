@@ -3,9 +3,10 @@
 
 from __future__ import annotations
 
-import re
-
-import promote_book1_polish as impl
+try:
+    import promote_book1_polish as impl
+except ModuleNotFoundError:
+    from scripts import promote_book1_polish as impl
 
 
 _original_number_from_heading = impl._number_from_heading
