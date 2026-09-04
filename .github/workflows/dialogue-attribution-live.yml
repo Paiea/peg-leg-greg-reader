@@ -1,6 +1,6 @@
 name: Publish dialogue attribution pass
 
-# Integration v6: publish accepted dialogue/attribution work through Chapter 163.
+# Integration v7: publish accepted dialogue/attribution work through Chapter 219.
 on:
   pull_request:
     paths:
@@ -27,7 +27,7 @@ permissions:
   contents: write
 
 jobs:
-  integrate-dialogue-through-163:
+  integrate-dialogue-through-219:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -40,16 +40,16 @@ jobs:
         run: git fetch origin editor/voice-compression-pass:refs/remotes/origin/editor/voice-compression-pass
       - name: Install manuscript source-sync dependency
         run: pip install python-docx
-      - name: Apply approved Chapter 100-155 Illustrated changes
-        run: python scripts/dialogue_live_entrypoint.py --patch-ref origin/editor/voice-compression-pass --min-chapter 100 --max-chapter 155 --canonicalize-from 999
-      - name: Promote recovered exact prose through Chapter 163
-        run: python scripts/promote_recovered_dialogue.py 156-163 --patch-ref origin/editor/voice-compression-pass --source state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
-      - name: Refresh Light Chapters 100-163
-        run: python scripts/generate_light.py 100-163
+      - name: Apply approved Chapter 164-219 Illustrated changes
+        run: python scripts/dialogue_live_entrypoint.py --patch-ref origin/editor/voice-compression-pass --min-chapter 164 --max-chapter 219 --canonicalize-from 999
+      - name: Promote recovered exact prose through Chapter 219
+        run: python scripts/promote_recovered_dialogue.py 164-219 --patch-ref origin/editor/voice-compression-pass --source state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
+      - name: Refresh Light Chapters 164-219
+        run: python scripts/generate_light.py 164-219
       - name: Validate integration boundary
         run: |
           python -m unittest discover -s tests -v
-          python scripts/verify_light.py 100-163
+          python scripts/verify_light.py 164-219
           git diff --check
           bad="$(git diff --name-only | grep -Ev '^(chapters/[0-9]{3}\.html|light/[0-9]{3}\.html|light/index\.html|light/manifest\.json|latest\.html|state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT\.md)$' || true)"
           if [ -n "$bad" ]; then
@@ -60,25 +60,25 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           import re
-          for n in range(100, 156):
+          for n in range(164, 220):
               text = Path(f'chapters/{n:03d}.html').read_text(encoding='utf-8')
               m = re.search(r'<article\s+class="prose"[^>]*>(.*?)</article>', text, re.S | re.I)
               if not m:
                   raise SystemExit(f'missing prose article in chapter {n}')
               if '—' in re.sub(r'<[^>]+>', '', m.group(1)):
                   raise SystemExit(f'em dash in chapter {n} prose')
-          print('Illustrated dialogue integration validation passed for Chapters 100-155')
+          print('Illustrated dialogue integration validation passed for Chapters 164-219')
           PY
       - name: Commit published reader and recovered authority
         if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
         run: |
           if git diff --quiet -- chapters light latest.html state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md; then
-            echo 'Dialogue attribution reader prose already published through Chapter 163.'
+            echo 'Dialogue attribution reader prose already published through Chapter 219.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add chapters light latest.html state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
-          git commit -m 'editorial: publish dialogue attribution pass through chapter 163'
+          git commit -m 'editorial: publish dialogue attribution pass through chapter 219'
           git pull --rebase origin main
           git push
