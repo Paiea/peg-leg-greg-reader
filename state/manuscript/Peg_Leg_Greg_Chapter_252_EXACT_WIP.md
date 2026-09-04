@@ -1,1143 +1,1121 @@
 # CHAPTER 252
 
-## THE WASHER
+## THE SHOPPER
 
-The sheets needed washing.
+We needed bread.
 
-This was not a metaphor.
+Also onions, salt, something green if the market had stopped treating vegetables as a moral test, and enough food that Hessa could not accidentally consume the household by writing EAT on another note.
 
-Nothing had happened to them except two people sleeping in them for several nights, which turned out to be enough.
+Lyssa had a list.
 
-Lyssa stripped the bed while I was still deciding whether being awake counted as participation.
+This was unusual enough that I read it twice.
 
-One corner came free and hit me in the face.
+BREAD
+ONIONS
+SALT
+GREENS
+CHEESE IF GOOD
 
-I sat up.
+The last line concerned me.
 
-"Violence."
+"Good according to whom?"
 
-"Move."
+Lyssa was standing at the table with the reddish-brown sample in one hand and the darker thread beside it. Morning light made the cloth look browner than it had last night. I had stopped trusting it.
 
-"I am moving."
+"You," she said.
 
-"You are sitting."
+"That seems reckless."
 
-"Movement begins internally."
+"Then don't buy cheese."
 
-She pulled the sheet from under me.
+"That feels like surrender."
 
-That settled the philosophy.
+She threaded the needle.
 
-The room looked slightly wrong without the bed made. Not empty. Exposed.
+The long-standing brown cloth remained folded near the wall with its three pins. My damaged shirt remained on the shelf with its three loose threads. Neither had volunteered for today's economy.
 
-The Uncle's pages were still on the table where I had put them last night.
+I looked at the list again.
 
-I looked at them once.
+"How much bread?"
 
-No one had knocked.
+"One loaf."
 
-No theatre runner waited outside.
+"Onions?"
 
-Pell might be back today. He might not. Teren had not asked me to appear before the ordinary call, and ordinary call was later.
+"Three."
 
-For the first time in two mornings, I did not have forty-three lines trying to climb into my head before breakfast.
+I smiled.
 
-This should have felt restful.
+"The onion woman has corrupted you."
 
-Instead Lyssa dropped the second sheet on my lap.
+"We ate three."
 
-"Wash."
-
-I looked down.
-
-"All of it?"
-
-"Sheets. Towels. Shirts."
-
-"Today?"
-
-She looked toward the window.
-
-The sky was pale and dry.
+"Over several days."
 
 "Yes."
 
-Apparently weather had made a decision.
+"That is how onions work."
 
-I stood.
+Lyssa looked at me.
 
-My right shoulder still carried a small amount of yesterday. Not pain. Not enough to matter. Just the ordinary complaint of two days spent using crutches, rehearsing, standing, sitting badly, and sleeping with pages beside my hand like a man under siege by dialogue.
+I folded the list.
 
-Hands fine.
+"Three onions."
 
-Right leg fine.
+"Salt."
 
-Residual limb fine.
+"I saw it."
 
-Both crutch grips normal.
+"Last time you saw salt and came home with cheese."
 
-The household had no emergency.
+"We needed cheese."
 
-That was when households became most dangerous.
+"We needed salt."
 
-They found maintenance.
+"The cheese was good."
 
-Lyssa had already separated the washing into two bundles.
+"There was no salt."
 
-One held the sheets and towels.
+I put the list in my pocket.
 
-The other held clothes.
+"This is why civilization invented writing."
 
-My damaged shirt was in the clothes pile.
+"Apparently."
 
-Three loose threads still hung from the cuff.
+She went back to the cloth.
 
-I picked it up.
+I waited a moment.
 
-"Wash this?"
-
-"Yes."
-
-"The threads?"
-
-"Still threads."
-
-Useful.
-
-The long-standing brown cloth remained folded near the wall with the same three pins.
-
-Not washing.
-
-Not my business.
-
-The reddish-brown sample was still absent.
-
-The darker spool was still absent too.
-
-Also not my business.
-
-I put the shirt back in the pile.
-
-Lyssa tied the first bundle.
-
-Then the second.
-
-The sheet bundle was large enough to become architecture.
-
-I looked at it.
-
-Then at my crutches.
-
-Then at Lyssa.
+"Are you coming?"
 
 "No."
 
-She tied the second knot.
+"You wrote the list."
 
-"You haven't tried."
+"For you."
 
-"I have eyes."
+Dangerous technology.
 
-"You have a strap."
+Lyssa had work. I had groceries.
 
-That was worse because she was right.
+The division felt suspiciously adult.
 
-We owned a broad carrying strap that had previously been used for bundles, market loads, and one chair leg that had become briefly more important than dignity.
+No note waited under the cup. Hessa had selected no next experiment yesterday, and the absence of paper this morning did not secretly become one. No theatre boy had knocked. Vale had not sent anyone. The city had managed to produce an obligation anyway.
 
-Lyssa threaded it around the larger bundle.
+I checked my purse before leaving.
 
-I tested the weight.
+Not because we were desperate.
 
-Dry cloth was not heavy.
+Because lists became prices once they reached the street.
 
-Dry cloth was bulky.
+Enough for the food.
 
-Bulky was its own species of problem when both hands belonged to crutches.
+Probably.
 
-I could sling the bundle high behind my shoulder.
+Cheese if good had no ceiling, which was another reason to distrust it.
 
-That interfered with the left crutch.
+I put on the better shirt with the blue paint streak. My hair remained out of my eyes. The right grip felt normal. Left tip normal. Right leg fine. Residual limb comfortable.
 
-Lower across my back.
+Lyssa looked up when I reached the door.
 
-That interfered with my hip.
+"Greg."
 
-In front.
+"Yes?"
 
-Absolutely not.
+"Salt."
 
-Lyssa watched the experiment.
+I touched the pocket with the list.
 
-"Smaller."
-
-"I was about to say that."
-
-"No."
-
-She untied the bundle and divided the sheets from the towels.
-
-Three bundles became manageable.
-
-Annoying.
-
-Manageable.
-
-I could take one strapped behind me and one smaller bundle hanging from the right crutch below the grip, leaving the left hand free except for the left crutch, which was already a full-time occupation.
-
-Lyssa took the third.
-
-"You're coming?"
-
-"Until the court."
-
-"Then?"
-
-"North side."
-
-There it was.
-
-Her day had not rearranged itself around laundry.
-
-The laundry had been fitted into the route she already had.
-
-Adult technology again.
-
-We ate.
-
-No Hessa note waited under the cup.
-
-No Vale runner arrived.
-
-No one asked me to investigate a mark on a needle case I had not bought.
-
-I did not think about the needle case for almost the entire breakfast.
-
-Then I did because I had just thought about not thinking about it.
-
-Excellent.
-
-The sheets won.
-
-Outside, Carrow had that cold dry brightness that made every wet stone look innocent.
-
-The wash court sat two streets below the west market, behind a row of buildings I had passed often enough that I knew the smell before I knew the entrance.
-
-Soap.
-
-Wet cloth.
-
-Hot water.
-
-A little ash.
-
-I had known there was washing somewhere.
-
-Of course there was washing somewhere.
-
-Cities did not become cities by everyone individually discovering water.
-
-I had simply never needed the place badly enough to care where the entrance was.
-
-Lyssa turned through a wide arch.
-
-I followed.
-
-The court was larger than I expected.
-
-Stone underfoot.
-
-Open sky above most of it.
-
-A roofed edge along one wall where people had set baskets, soap, wooden paddles, buckets, and folded dry things.
-
-Three long basins ran through the middle, fed from a covered channel at one end.
-
-The water in the nearest basin steamed slightly.
-
-The second did not.
-
-The third looked cold enough to hold a grudge.
-
-Lines crossed the far half of the court between posts and wall hooks.
-
-Most were already occupied.
-
-Sheets moved above us like pale flags belonging to a nation founded on chores.
-
-"Which one?" I asked.
-
-Lyssa pointed.
-
-"Hot first."
-
-"Obviously."
-
-She looked at me.
-
-"That was confidence, not knowledge."
+"Written."
 
 "Good."
 
-I closed my eyes.
+I left before the conspiracy widened.
 
-The word had followed me home from the theatre and now entered public infrastructure.
+The market had decided to be crowded.
 
-There were perhaps twenty people in the court.
+Not festival crowded. Not panic crowded. Ordinary late-morning crowded, which meant every person in Carrow had apparently chosen a different direction and resented everyone else for doing the same.
 
-Mostly women.
+I took the wider street down.
 
-Two men.
+A cart carrying sacks of flour occupied half the first crossing while a man on the ground argued with the driver about whether one sack had been wet before loading. Neither seemed interested in opening it. A woman carrying a basket went around them without slowing. I followed her route until she turned toward fish and I remembered I was not actually following her.
 
-One older boy carrying buckets.
+Bread first.
 
-A little girl sitting on a basket and kicking her heels against the side.
+The baker looked at my hair before he looked at my money.
 
-Nobody looked surprised to see me.
+"Still gone."
 
-One woman looked at the bundle hanging from my crutch and said, "That'll drag."
+"It has been one day."
 
-I looked down.
+"Could grow fast."
 
-It was not dragging.
+"Do you sell bread or observations?"
 
-Yet.
+"Bread costs more."
 
-"Optimist."
+I bought one loaf.
 
-She pointed at the next stretch of floor.
+He wrapped nothing around it because bread remained confident in itself.
 
-A shallow dip crossed the stones.
+"Salt?" I asked.
 
-I took two steps.
+The baker pointed across the lane.
 
-The bundle touched.
+"Dry goods."
 
-Fine.
+"I know where salt is."
 
-I lifted the loop higher on the crutch shaft.
+"Then why ask?"
 
-"Thank you."
+"I didn't ask where."
 
-She had already turned back to a shirt in the basin.
-
-Lyssa found an open place along the roofed wall.
-
-We set the bundles down.
-
-I expected instruction.
-
-She took out the soap.
-
-Handed it to me.
-
-"Sheets first."
-
-"That is instruction."
-
-"Yes."
-
-Then she opened her own smaller bundle and pulled out two pieces of cloth that were not ours.
-
-I looked.
-
-Not reddish-brown.
-
-Not the pinned brown cloth from home.
-
-Something pale and narrow.
-
-I stopped looking.
-
-Progress.
-
-Lyssa wet one piece at the edge of the hot basin.
-
-"You're washing work?"
-
-"Rinsing."
-
-Different thing.
-
-I did not ask why.
-
-She did not explain.
-
-I put the first sheet into the water.
-
-The sheet immediately became six times heavier and personally opposed to my existence.
-
-"Ah."
-
-The woman beside me glanced over.
-
-"First sheet?"
-
-"First hostile sheet."
-
-She laughed.
-
-Lyssa did not.
-
-She had probably known.
-
-Wet cloth changed the geometry.
-
-That was obvious in the abstract.
-
-In practice it meant I could not lean over the basin the way everyone else did without giving up one crutch, and I could not give up one crutch casually because the floor was wet stone and my right foot was currently my only foot.
-
-I set both crutches against the basin.
-
-Bad.
-
-They slid.
-
-I caught one before it fell.
-
-The older boy carrying buckets said, "Hooks."
-
-I looked behind me.
-
-Iron hooks had been set into the posts under the roof.
-
-Several already held baskets and handles.
-
-One was empty.
-
-I put the crutches there.
-
-Both.
-
-Then stood with my right hand on the basin edge.
-
-Stable enough.
-
-Not elegant.
-
-Useful.
-
-The sheet floated with one corner escaping toward another person's washing.
-
-I grabbed it.
-
-"Stay."
-
-The sheet did not respect authority.
-
-Lyssa rinsed her second piece.
-
-Then came over and pushed the far corner back toward me.
-
-"Fold it."
-
-"In the water?"
-
-"Yes."
-
-I folded.
-
-The entire sheet became smaller and worse.
-
-She showed me once.
-
-Not a lesson.
-
-Just two hands doing the motion.
-
-Fold into the water.
-
-Press.
-
-Soap the worst areas.
-
-Work it against itself.
-
-Open.
-
-Shift.
-
-Again.
-
-I copied her.
-
-My first attempt mostly moved water onto my shirt.
-
-The second worked.
-
-The woman beside me said, "Too much soap."
-
-I looked at the soap.
-
-Then at the sheet.
-
-White suds had begun collecting along the fold.
-
-"How much is too much?"
-
-"That."
-
-Precise local science.
-
-I stopped adding soap.
-
-Lyssa had already finished her rinse.
-
-She squeezed the narrow cloth between both hands, wrapped it in another dry piece, and put it back into her bag.
-
-"That's it?"
-
-"That's it."
-
-She checked the position of my crutches on the hook.
-
-Then the sheet.
-
-Then me.
-
-"Cold after."
-
-"Hot, then cold."
-
-"Rinse."
-
-"Yes."
-
-She took her bag.
-
-I stared.
-
-"You are abandoning me."
-
-"You're washing."
-
-"This is how people die."
-
-"In sheets?"
-
-"History is broad."
-
-She kissed my cheek.
-
-The woman beside me pretended not to notice with the skill of someone who had noticed everything.
-
-Lyssa said, "Don't leave them wet."
-
-"I understood that independently."
-
-"Good."
-
-"Go."
-
-She went.
-
-I watched her cross the court, avoid a bucket without looking down, and disappear through the arch toward the north-side route.
-
-Then I turned back to the sheet.
-
-Still there.
-
-No escalation.
+He had already turned to the next customer.
 
 Excellent.
 
-The next hour taught me that washing sheets was not difficult enough to be interesting and not easy enough to disappear.
+I put the loaf in the cloth bag and crossed to the dry-goods stall before the universe could distract me.
 
-It occupied exactly the amount of attention required to make thinking about other things inconvenient.
+Salt came in small paper twists and larger cloth bags. I needed neither philosophy nor future knowledge. I bought the amount Lyssa usually bought when she was with me, which I knew because apparently I had been present for enough salt to develop a baseline.
 
-Soap.
+This was unsettling.
 
-Fold.
+The seller took my coin and pushed the paper twist toward me.
 
-Press.
+"Keep dry."
 
-Shift.
+"Strong plan."
 
-Rinse.
+She did not respond.
 
-The first sheet went into the cold basin after I had squeezed enough water from it that moving it did not feel like transporting a drowned sail.
+Two items.
 
-I used the basin edge for balance and kept the crutches on the hooks.
+I checked the list.
 
-The older boy objected when I dripped across his bucket route.
+Bread.
 
-Not verbally.
+Salt.
 
-He stopped.
+Civilization remained intact.
 
-Looked at the trail.
+The onion seller saw me before I reached her.
 
-Looked at me.
-
-I moved the sheet closer to the stone.
-
-"Sorry."
-
-He continued.
-
-The second sheet went faster.
-
-Not because I had become a master washer.
-
-Because I stopped inventing new ways to hold it.
-
-That was competence often enough.
-
-The towels were easier.
-
-The clothes were easier still until I reached the damaged shirt.
-
-Three loose cuff threads.
-
-Still three.
-
-I wet it.
-
-The threads darkened with the cloth and stuck to my fingers.
-
-For a moment I thought about cutting them.
-
-I had no reason to.
-
-I left them.
-
-Soap did not require repair.
-
-The blue paint streak on my better shirt had faded before today.
-
-Washing made it paler.
-
-Not gone.
-
-I scrubbed once.
-
-Twice.
-
-The streak remained.
-
-I considered the amount of effort required to make my shirt pretend theatre had never touched it.
-
-Then stopped.
-
-Pale blue was fine.
-
-A woman farther down the basin was arguing with a teenage boy about a red stain on trousers.
-
-"You put it there."
-
-"I was wearing them."
-
-"That is not a defense."
-
-"It happened while I was wearing them."
-
-"Exactly."
-
-I minded my own business.
-
-Mostly.
-
-The little girl on the basket had acquired a wooden spoon.
-
-Nobody seemed certain from where.
-
-She hit the basket with it in a regular rhythm.
-
-The older boy carrying buckets told her to stop.
-
-She stopped until he turned away.
-
-Then resumed more quietly.
-
-Society.
-
-By the time everything was washed, my shoulders had become aware of the day.
-
-Not injured.
-
-Worked.
-
-Different from theatre.
-
-Different from Hessa's chair.
-
-Different from walking Carrow.
-
-Wringing cloth wanted both hands, which meant I had to stand supported against the basin edge or sit.
-
-I chose sitting for the sheets.
-
-A low stone bench ran under the roof.
-
-I sat with a sheet across my lap and twisted one section at a time.
-
-An older woman at the other end watched me do this badly for perhaps thirty seconds.
-
-Then said, "Other way."
-
-I looked at my hands.
-
-"Which other way?"
-
-She stood.
-
-Took the far end of the sheet.
-
-"Hold."
-
-I held.
-
-She twisted her end clockwise.
-
-I had been twisting mine clockwise too.
-
-Which produced a thick rope of cloth that mostly moved the same water around.
-
-"Opposite," she said.
-
-I twisted counterclockwise.
-
-Water ran onto the stones.
-
-"Oh."
-
-She let go.
-
-"Better."
-
-"Significantly."
-
-She sat.
-
-No name.
-
-No biography.
-
-No revelation.
-
-A person in a wash court had known how to wring a sheet.
-
-The world survived without becoming my network.
-
-I finished the rest correctly.
-
-Then came the lines.
-
-Drying lines, not Uncle lines.
-
-Important distinction.
-
-Most of the lower ones were full.
-
-Two higher lines had space.
-
-I could reach them.
-
-Technically.
-
-Reaching while balancing on one right leg and trying to hold wet cloth above shoulder height was a bad definition of technically.
-
-I looked around.
-
-A short wooden pole leaned against one post with a forked end.
-
-Ah.
-
-I used the pole to lift the line down into reach.
-
-That worked for the first sheet.
-
-For the second, I lifted too quickly and knocked another person's cloth loose from its peg.
-
-It fell.
-
-Not into mud.
-
-Onto stone.
-
-Still wet.
-
-Still my fault.
-
-"Shit."
-
-The owner turned.
-
-I picked it up immediately.
-
-"Sorry."
-
-She looked at the cloth.
-
-Then at the pole.
-
-"Slow."
-
-"Yes."
-
-She rehung it.
-
-No forgiveness ceremony.
-
-No anger ceremony.
-
-I went slower.
-
-The sheets rose.
-
-Towels followed.
-
-Shirts.
-
-Trousers.
-
-The damaged shirt hung with its three threads visible at the cuff if anyone cared enough to inspect.
-
-No one did.
-
-I sat.
-
-That was most of the job.
-
-Which meant the job became waiting.
-
-The court had a waiting population.
-
-People mended things.
-
-Talked.
-
-Left and returned.
-
-A woman peeled an apple with a small knife and shared pieces with two children.
-
-Someone produced bread.
-
-The bucket boy vanished and came back with another stack of buckets.
-
-The little girl eventually abandoned the spoon and fell asleep against the basket.
-
-I had brought no book.
-
-No pages.
-
-No food.
-
-Poor planning.
-
-I watched the sheets move.
-
-My sheets.
-
-Our sheets.
-
-That distinction appeared without invitation.
-
-Not mine because I had purchased them.
-
-I had not.
-
-Not ours because anyone had declared property law over the bed.
-
-Ours because I knew which corner had the small worn patch and which towel had become too thin along one edge and which shirt would still have blue paint after it dried.
-
-I knew where the wash court was now.
-
-I knew the hot basin came first.
-
-I knew the crutches went on the hooks instead of against wet stone.
-
-I knew the forked pole existed.
-
-I knew too much soap because too much soap looked exactly like my first sheet.
-
-This was not impressive.
-
-That was the point.
-
-A man could spend an old life crossing bad country, surviving fights, remembering creatures that could kill him, learning roads that no longer existed, and then in a second life discover that wet sheets had logistics.
-
-The sheets did not care.
-
-Good for them.
-
-I waited.
-
-At some point the woman who had warned me about the dragging bundle left.
-
-At some point the older woman left.
-
-At some point two new people arrived and took their places without the court changing identity.
-
-The sun crossed enough sky that the first sheet stopped looking wet.
-
-I tested a corner.
-
-Damp.
-
-Not wet.
-
-The second was worse.
-
-I waited longer.
-
-Theatre call would come eventually.
-
-If someone wanted me.
-
-No one had come looking.
-
-I did not go looking either.
-
-That felt strange for perhaps ten minutes.
-
-Then less strange.
-
-By the time I took the first shirts down, the blue streak had dried into a faint line.
-
-Still there.
-
-I smiled at it.
-
-Not sentiment.
-
-Just recognition.
-
-The damaged shirt's threads had dried crooked.
-
-Three.
-
-Still three.
-
-I folded it badly.
-
-Refolded it less badly.
-
-The towels came down.
-
-Then the sheets.
-
-Dry enough.
-
-Not perfect.
-
-Dry enough that carrying them home would not create a new problem.
-
-I tied the bundles smaller this time.
-
-Practice from the morning helped.
-
-One on the strap behind me.
-
-One on the right crutch.
-
-Towels under the arm only until I realized that was stupid.
-
-I retied them too.
-
-The older boy was back.
-
-He looked at the right-crutch bundle.
-
-Then at the dip in the floor.
-
-I lifted it before reaching the dip.
-
-He nodded.
-
-I felt absurdly rewarded.
-
-Outside the arch, the city had continued without supervision.
-
-Market traffic.
-
-A dog sleeping beside a wall.
-
-Two laborers moving boards.
-
-Someone shouting about fish from far enough away that I refused responsibility.
-
-I took the wider route home.
-
-The clean sheet bundle shifted once.
+"Three."
 
 I stopped.
 
-Adjusted it.
+"I have written authority this time."
 
-Continued.
+She looked at the folded list in my hand.
 
-No one chased me.
+"Three."
 
-No one offered work.
+I opened it and showed her.
 
-No strange object revealed itself.
+She read the first few lines upside down.
 
-No future memory opened.
+"Three."
 
-No magical creature crossed the road.
-
-No debt collector stepped from an alley.
-
-The day remained washing.
-
-At home, the room still looked wrong without the bed made.
-
-I put the bundles down.
-
-My shoulders thanked me by hurting slightly less.
-
-I made the bed.
-
-This was harder alone than washing the sheet had been.
-
-One corner.
-
-Across.
-
-Back.
-
-The far side required going around because I could not simply lean across a bed and trust two legs I did not have.
-
-I went around.
-
-Tucked.
-
-Returned.
-
-The sheet came loose from the first corner.
-
-I stared at it.
-
-"Enemy."
-
-I fixed it.
-
-The second sheet went on.
-
-Blanket.
-
-Done.
-
-The room returned to itself.
-
-Clean towels on the shelf.
-
-Clothes folded.
-
-Damaged shirt back on the shelf, three loose threads.
-
-Better shirt folded with its paler blue paint streak.
-
-The brown cloth remained where it had been all day.
-
-Three pins.
-
-I washed my hands.
-
-The water in the basin clouded faintly with soap that had already been on me for hours.
-
-Excellent.
-
-Then I sat on the edge of the newly made bed.
-
-That lasted perhaps thirty seconds.
-
-The clean sheet felt too good.
-
-I lay back.
-
-Only for a moment.
-
-I woke when Lyssa opened the door.
-
-The light had changed.
-
-She stood inside with her work bag.
-
-I sat up.
-
-"Maintenance injury."
-
-"You slept."
-
-"Severe."
-
-She looked at the bed.
-
-Then the folded clothes.
-
-Then the towels.
-
-"Dry?"
-
-"Dry enough."
-
-She touched the nearest towel.
-
-Apparently evidence mattered in every profession.
-
-"Good."
-
-I pointed at her.
-
-She smiled.
-
-Then she took off her coat.
-
-I asked, "North side?"
-
-"Yes."
-
-That was the whole report.
-
-She did not explain the pale cloth she had rinsed.
-
-I did not ask about the missing sample or spool.
-
-She looked toward the table.
-
-The Uncle's pages were still there.
-
-"Called?"
+"You appear pleased."
 
 "No."
 
-"Pell?"
+She put three onions on the cloth.
 
-"Don't know."
+I paid.
 
-She nodded.
+"You were right once," I said.
+
+"More than once."
+
+"About me buying three."
+
+"More than once."
+
+"This conversation is becoming structurally unsound."
+
+A regular customer beside me laughed.
+
+The onion seller pointed her knife at him.
+
+"Five."
+
+He stopped laughing.
+
+I left with my dignity and three onions.
+
+Greens were harder.
+
+Not because greens were rare. Because the list said GREENS, which turned an entire category of plants into my problem.
+
+One stall had bundles of dark leaves tied with cord. Another had pale heads with thick stems. A third had something long and narrow that looked as though it had been grown specifically to punish soup.
+
+I stood between them.
+
+This had happened before with onions.
+
+I recognized the danger.
+
+A woman at the dark-leaf stall said, "Buying?"
+
+"Eventually."
+
+"Then move closer."
+
+I moved closer.
+
+She had six bundles left. Four looked similar. One was smaller. One had yellow along the outer leaves.
+
+I pointed at the ordinary ones.
+
+"Those."
+
+"Yes."
+
+"What are they?"
+
+She named the green.
+
+I knew the word.
+
+Probably.
+
+It had existed forty years later. That did not mean the thing in front of me tasted the same, cost the same, or had not spent forty years being bred into something less vindictive.
+
+"Good in stew?"
+
+"Yes."
+
+"Fried?"
+
+"Yes."
+
+"Raw?"
+
+She made a face.
+
+Useful.
+
+"One bundle."
+
+She took the smaller one.
+
+"That one is smaller."
+
+"Cheaper."
+
+"How much cheaper?"
+
+She named both prices.
+
+The difference was small.
+
+I looked at the larger bundle.
+
+Then at the smaller.
+
+Then at the list.
+
+We needed food, not an ideological victory over leaves.
+
+"Large."
+
+She swapped it.
+
+I paid.
+
+Three onions. Bread. Salt. Greens.
+
+The bag had become annoying.
+
+Not heavy enough to be a problem. Awkward enough that the loaf wanted the same space as the greens and the onions had discovered rolling.
+
+I stopped near the edge of the market and reorganized everything with the bag on a low crate someone was using as a public surface. The owner, if there was one, did not object.
+
+Bread on top.
+
+Salt inside the fold of the cloth so it would stay dry.
+
+Greens beside the onions instead of under them.
+
+Better.
+
+I checked the list.
+
+CHEESE IF GOOD.
+
+I could go home.
+
+Technically.
+
+Lyssa had given me permission through ambiguity.
+
+I went toward cheese.
+
+The first seller had three wheels open and one covered. I tasted a shaving from the cheapest.
+
+Too sharp.
+
+Not bad.
+
+Just sharp enough that Lyssa would eat it and I would spend the entire meal pretending I liked it because I had paid.
+
+Dangerous.
+
+The second was softer and cost more.
+
+Good.
+
+Annoyingly good.
+
+I asked the price again in case the first answer had been temporary.
+
+It had not.
+
+"Smaller piece?"
+
+The seller cut one.
+
+Still more than I wanted to spend after bread, onions, salt, greens, yesterday's potato, the haircut, the crutch repair, and the continuing existence of Antonius Vale.
+
+None of those purchases had ruined me.
+
+Together they had developed opinions.
+
+I looked at the cheese.
+
+"No."
+
+The seller shrugged and put it back.
+
+No insult.
+
+No negotiation.
 
 No tragedy.
 
-No opportunity.
+I felt irrationally successful.
 
-Just don't know.
+Then someone behind me said, "If you're not buying, move."
 
-I stood and started supper because one of us had to.
+I moved.
 
-Lyssa sat for a while before helping.
+The third cheese seller had no samples.
 
-We ate on clean towels we did not need, beside clean shirts we were not wearing, in a room that smelled faintly of soap.
+This seemed hostile.
 
-Nothing had advanced.
+I kept walking.
 
-That was not true.
+The market thinned near the upper edge where food gave way to household goods, used tools, cord, buckles, old pans, patched coats, and the category of object sold because somebody else had stopped wanting it.
 
-The wash court was two streets below the west market.
+I did not need anything there.
 
-Hot first.
+That was exactly why I looked.
 
-Cold rinse.
+Not for magic.
 
-Crutches on the hooks.
+Not consciously.
 
-Lift the line slowly.
+That distinction survived perhaps ten steps.
 
-Three loose threads remained three.
+A table of used metal goods held two lamps, a bent brass spoon, three cabinet pulls, a narrow hand bell without a clapper, and a blackened iron plate with four holes near the corners.
 
-Blue paint remained blue, only paler.
+I slowed.
 
-The bed was clean.
+The seller was talking to another man about a hinge.
 
-That was enough for one day.
+I looked at the plate.
+
+Nothing happened.
+
+No old memory rose from the dead.
+
+No maker's mark flashed recognition into my skull.
+
+It was an iron plate.
+
+Possibly part of a stove.
+
+I kept walking.
+
+A woman had laid old jewelry and buttons on dark cloth. Most were ordinary brass or bone. One green glass bead caught the light hard enough that I looked twice.
+
+Glass.
+
+Just glass.
+
+Probably.
+
+I did not touch it.
+
+That was when I noticed what I was doing.
+
+I had spent months learning Carrow as routes, people, work, food, theatre, debt, Hessa's room, Lyssa's customers, the Guild, the places where my crutches slipped when it rained.
+
+Now I was scanning junk.
+
+Not because the junk had changed.
+
+Because I had remembered that sometimes junk mattered.
+
+That thought arrived with an older sensation behind it.
+
+A table in another city.
+
+Not Carrow.
+
+Rain on canvas.
+
+A man's hands with two missing fingertips turning over a copper fitting while I waited for him to notice what he had.
+
+I reached for the memory.
+
+It broke apart.
+
+No name.
+
+No object.
+
+No useful year.
+
+Only the feeling of having once known how to look.
+
+I stood still long enough that a woman carrying a basket said, "Move."
+
+I moved.
+
+Good.
+
+The old life did not become more accurate because I wanted it.
+
+I continued past the used tables at a normal pace.
+
+Mostly.
+
+A tray of buckles got one extra glance.
+
+A cracked blue tile got none.
+
+A small wooden box with a silver-colored latch got too many until I saw the inside was full of needles.
+
+Useful needles, probably.
+
+Not my needles.
+
+At the next table a man had arranged tools in rows according to a system visible only to him. Two small hammers. Pliers. Files. A narrow saw. Three awls. A brass measuring arm with one hinge stiff from rust.
+
+That one did trigger memory.
+
+Not of the object.
+
+Of Pell Arwick's hands turning Kestrin shale under lamplight while I tried to sound like a man who had not borrowed money against a future he could barely verify.
+
+Cheap today.
+
+Important later.
+
+Simple enough to verify.
+
+The old sequence came back with humiliating clarity.
+
+Prove one remembered advantage.
+
+Borrow.
+
+Turn proof into capital.
+
+Use capital to accelerate magic.
+
+I had done the first parts.
+
+Then life had become complicated in ways my original plan had not included.
+
+A crushed leg had been one of them.
+
+Lyssa was another.
+
+Theatre had been several hundred of them.
+
+Hessa had taken the word accelerate and beaten it to death with recordkeeping.
+
+I looked at the brass measuring arm.
+
+The seller looked at me looking.
+
+"Works."
+
+"I didn't ask."
+
+"You looked."
+
+Barbers and merchants shared intelligence.
+
+I picked it up only after he nodded.
+
+The hinge resisted, then moved.
+
+No warmth.
+
+No pulse.
+
+No ancient recognition.
+
+It was a measuring arm with rust.
+
+"How much?"
+
+He named a price.
+
+I put it down.
+
+"That much?"
+
+"Brass."
+
+"Rust."
+
+"Hinge."
+
+"Bad hinge."
+
+"Still hinge."
+
+I looked at him.
+
+He looked back.
+
+I almost negotiated because the object had become a contest.
+
+Then I remembered the groceries hanging from my crutch and the fact that I had no use for a brass measuring arm.
+
+"No."
+
+He shrugged.
+
+I walked away.
+
+That should have ended it.
+
+Instead the old sequence kept walking with me.
+
+Accelerate magic.
+
+I had been nineteen again for months.
+
+Months.
+
+The exact number became slippery because recovery had eaten time strangely and theatre weeks had started organizing themselves around rehearsals rather than dates. But months was enough.
+
+In my first week I had behaved as if every day not converted into advantage was a loss.
+
+Now I knew two onion sellers.
+
+No. One onion seller and several other people who sold onions. Important distinction.
+
+I had a barber I could find again without knowing his name.
+
+I had theatre pages at home often enough that Lyssa asked whether I worked tomorrow.
+
+I had debt work I could sometimes do and debt work I was correctly forbidden from touching.
+
+I had fifty-seven external magic attempts producing results too small and inconsistent to frighten paper reliably.
+
+Old Greg would have hated this pace.
+
+The thought came so quickly I almost accepted it.
+
+Then I corrected myself.
+
+Old Greg had spent years making bad decisions at speed.
+
+He would have hated the pace and been wrong about why.
+
+Possibly.
+
+That was less comforting.
+
+A shout went up behind me.
+
+I turned.
+
+Nothing dramatic.
+
+A boy had dropped a bundle of wooden spoons. Three people were helping gather them because the spoons were in everyone's way.
+
+I kept walking.
+
+Near the end of the used-goods row, one seller had no table at all. He sat on an overturned crate with six objects on a blanket at his feet.
+
+A chipped stone mortar.
+
+Two leather belts.
+
+A bronze lamp cap.
+
+A short length of chain.
+
+A cracked ceramic disk painted with a yellow ring.
+
+A wooden case no longer than my hand.
+
+I looked at the disk.
+
+Nothing.
+
+Then the case.
+
+Nothing.
+
+The seller looked up.
+
+"Buying?"
+
+Apparently this was the market's universal greeting.
+
+"No."
+
+"Then don't stand on the chain."
+
+I looked down.
+
+My right crutch tip was half an inch from it.
+
+"Fair."
+
+I moved.
+
+The wooden case had a tiny stamped mark near the latch.
+
+Three vertical lines inside a circle.
+
+I knew it.
+
+My stomach tightened.
+
+Then I knew why.
+
+Not a famous artificer.
+
+Not a legendary workshop.
+
+Not magic.
+
+A cooper's inspection mark.
+
+I had seen the same symbol burned into small tool cases near the river warehouses in my first life.
+
+Or something close to it.
+
+Maybe.
+
+I crouched as far as the crutches made sensible and looked without touching.
+
+The seller said, "Needle set."
+
+Of course it was.
+
+"Can I see the mark?"
+
+He picked up the case and handed it to me.
+
+The stamp was clearer close.
+
+Three lines.
+
+Circle.
+
+One line slightly shorter.
+
+Memory offered me a warehouse, a blue door, and an old argument about damaged casks.
+
+No date.
+
+No maker.
+
+No reason to buy needles.
+
+"What is it?" I asked.
+
+"Needles."
+
+"The mark."
+
+He looked.
+
+"Don't know."
+
+Reasonable.
+
+I opened the case.
+
+Six slots.
+
+Four needles remained.
+
+Ordinary steel as far as I could tell. One slightly bent.
+
+No magical glow, because magic had never had the decency to label itself for me.
+
+I closed the case.
+
+"How much?"
+
+He named a small price.
+
+Small enough that I could buy it without pain.
+
+Large enough that it would still be money I had not spent on cheese, debt, bread tomorrow, a crutch repair next week, or anything else with an established use.
+
+I held the case.
+
+The old part of my mind leaned forward.
+
+Cheap today.
+
+Important later.
+
+Except I did not know that.
+
+I knew a mark.
+
+Maybe.
+
+That was not the same thing.
+
+I handed it back.
+
+"No."
+
+The seller put it on the blanket.
+
+He did not lower the price.
+
+He did not ask what I knew.
+
+He did not care.
+
+I walked away.
+
+Ten steps later I wanted to go back.
+
+Not because of the needles.
+
+Because I had recognized something.
+
+Recognition itself had become intoxicating.
+
+That was dangerous.
+
+I kept walking.
+
+Five more steps.
+
+Still wanted to go back.
+
+I stopped beside a stall selling old pots and checked the grocery list as if Lyssa had hidden ethical guidance beneath GREENS.
+
+Nothing.
+
+Bread.
+
+Onions.
+
+Salt.
+
+Greens.
+
+Cheese if good.
+
+I had not bought cheese.
+
+I could afford the needle case more easily because I had not bought cheese.
+
+That was not how permission worked.
+
+Probably.
+
+I folded the list again.
+
+A woman at the pot stall said, "You buying?"
+
+"Apparently not."
+
+"Then you're blocking the small ones."
+
+I moved.
+
+The market was very good at preventing philosophy.
+
+I went home.
+
+Not directly.
+
+I stopped at a cheaper cheese stall on the way out, tasted one piece, liked it enough, and bought a small wedge.
+
+Cheese if good.
+
+Done.
+
+The bag was genuinely heavy now.
+
+Not dangerous. Just enough that I shifted the cloth loop twice before finding a position that did not drag against my wrist when the crutch planted. I took the wider uphill route and rested once on the low wall near the blue-shutter lane.
+
+Nobody applauded my groceries.
+
+A dog investigated the bag.
+
+I moved the cheese farther from the edge.
+
+At home, Lyssa was still working.
+
+The reddish-brown sample had moved from the table to her lap. The darker thread was now running through it in short, neat stitches near one edge.
+
+So the thread was visible.
+
+A little.
+
+Maren's question had eventually acquired an answer without me.
+
+I put the groceries on the table.
+
+Lyssa looked.
+
+Bread.
+
+Onions.
+
+Salt.
+
+Greens.
+
+Cheese.
+
+She picked up the salt first.
+
+I was offended.
+
+"I remembered."
+
+"Yes."
+
+"There are also onions."
+
+"Three."
+
+"Written authority."
+
+She looked at the list when I put it beside the food.
+
+Then at the cheese.
+
+"Good?"
+
+"Acceptable."
+
+"Then why buy it?"
+
+"Good became expensive."
+
+She nodded.
+
+No criticism.
+
+That somehow felt worse.
+
+I sat.
+
+The grocery bag had left a red line across one finger where I had adjusted it badly. It faded while I watched.
+
+Lyssa kept sewing.
+
+I looked at the reddish-brown cloth.
+
+"Visible edge?"
+
+"Inside."
+
+"Ah."
+
+"What?"
+
+"Maren asked."
+
+"You told me."
+
+"Now I know."
+
+"Yes."
+
+She kept sewing.
+
+I waited.
+
+Then said, "I almost bought needles."
+
+Lyssa looked up.
+
+"Why?"
+
+Good question.
+
+"Old mark."
+
+She waited.
+
+"Maybe old mark."
+
+Still waiting.
+
+"On the case. I recognized it. Or something close."
+
+"Need needles?"
+
+"No."
+
+"Then good."
+
+There was that word again.
+
+"I did not buy them."
+
+"I know."
+
+"You seem insufficiently impressed."
+
+"You went for food."
+
+I looked at the food.
+
+Hard to argue with physical evidence.
+
+Lyssa tied off the thread and bit the end clean.
+
+"Magic?" she asked.
+
+"I don't know. Probably not."
+
+"Then why needles?"
+
+"The mark reminded me of something."
+
+"What?"
+
+I opened my mouth.
+
+Warehouse.
+
+Blue door.
+
+Damaged casks.
+
+Three lines in a circle.
+
+Maybe the same mark.
+
+Maybe not.
+
+"I don't know."
+
+Lyssa nodded.
+
+Not dismissive.
+
+Just complete.
+
+She folded the sample once and set it beside the darker spool.
+
+Still no garment I recognized.
+
+"You can go back," she said.
+
+That surprised me.
+
+"For needles?"
+
+"If you remember."
+
+I looked at her.
+
+"And if I don't?"
+
+She picked up an onion.
+
+"Then we need supper."
+
+That was the available hierarchy.
+
+We made supper.
+
+I cut the greens badly. Lyssa corrected the first handful by taking the knife, showing me the size once, and giving it back. I did the rest close enough.
+
+The cheese was better with bread than it had been alone.
+
+Good, apparently, had conditions.
+
+After we ate, I counted what remained in my purse.
+
+Not obsessively.
+
+Accurately.
+
+Food had cost money.
+
+The needle case would have cost money.
+
+Antonius still wanted money.
+
+Magic, if objects ever became part of it, would almost certainly want money too because the universe had shown consistent taste.
+
+I put the coins away.
+
+The mark remained in my head.
+
+Three lines inside a circle.
+
+I tried to remember the warehouse.
+
+Blue door.
+
+River smell.
+
+A man complaining that a cask had passed inspection and leaked anyway.
+
+Then another image intruded, years later or earlier, of a similar mark on a tool rack.
+
+Maybe similar.
+
+Not enough.
+
+I stopped.
+
+The case was still at the market if nobody bought it.
+
+If somebody did, then somebody owned four needles I did not need.
+
+This was survivable.
+
+Lyssa cleared the bowls while I put the remaining greens away.
+
+The brown cloth remained folded near the wall.
+
+Three pins.
+
+My damaged shirt remained on the shelf.
+
+Three threads.
+
+The reddish-brown sample now had a short line of darker stitching inside one edge.
+
+One thing had finally changed.
+
+I looked at it.
+
+Lyssa saw me.
+
+"What?"
+
+"Nothing."
+
+"Good."
+
+I hated everyone.

@@ -1,5 +1,5 @@
 {
-  "latest": 301,
+  "latest": 304,
   "chapters": [
     {
       "number": 156,
@@ -393,489 +393,507 @@
     },
     {
       "number": 221,
-      "title": "THE PARTICIPANT",
+      "title": "THE SHORTAGE",
       "source": "manuscript",
       "path": "221.html"
     },
     {
       "number": 222,
-      "title": "THE PROPERTY MAN",
+      "title": "THE OLD MAN",
       "source": "manuscript",
       "path": "222.html"
     },
     {
       "number": 223,
-      "title": "THE MAINTENANCE MAN",
+      "title": "THE ROUTE",
       "source": "manuscript",
       "path": "223.html"
     },
     {
       "number": 224,
-      "title": "THE CHECKER",
+      "title": "THE PARTICIPANT",
       "source": "manuscript",
       "path": "224.html"
     },
     {
       "number": 225,
-      "title": "THE STEWARD",
+      "title": "THE PROPERTY MAN",
       "source": "manuscript",
       "path": "225.html"
     },
     {
       "number": 226,
-      "title": "THE REFERENCE",
+      "title": "THE MAINTENANCE MAN",
       "source": "manuscript",
       "path": "226.html"
     },
     {
       "number": 227,
-      "title": "THE BUNDLER",
+      "title": "THE CHECKER",
       "source": "manuscript",
       "path": "227.html"
     },
     {
       "number": 228,
-      "title": "THE FLOWER BEARER",
+      "title": "THE STEWARD",
       "source": "manuscript",
       "path": "228.html"
     },
     {
       "number": 229,
-      "title": "THE ROAD ONE",
+      "title": "THE REFERENCE",
       "source": "manuscript",
       "path": "229.html"
     },
     {
       "number": 230,
-      "title": "THE REPLICATE",
+      "title": "THE BUNDLER",
       "source": "manuscript",
       "path": "230.html"
     },
     {
       "number": 231,
-      "title": "THE MAGISTRATE",
+      "title": "THE FLOWER BEARER",
       "source": "manuscript",
       "path": "231.html"
     },
     {
       "number": 232,
-      "title": "THE COUNTERSIGN",
+      "title": "THE ROAD ONE",
       "source": "manuscript",
       "path": "232.html"
     },
     {
       "number": 233,
-      "title": "THE SEAT",
+      "title": "THE REPLICATE",
       "source": "manuscript",
       "path": "233.html"
     },
     {
       "number": 234,
-      "title": "THE CONDITION",
+      "title": "THE MAGISTRATE",
       "source": "manuscript",
       "path": "234.html"
     },
     {
       "number": 235,
-      "title": "THE TAGALONG",
+      "title": "THE COUNTERSIGN",
       "source": "manuscript",
       "path": "235.html"
     },
     {
       "number": 236,
-      "title": "THE DISTRIBUTOR",
+      "title": "THE SEAT",
       "source": "manuscript",
       "path": "236.html"
     },
     {
       "number": 237,
-      "title": "THE BEARER",
+      "title": "THE CONDITION",
       "source": "manuscript",
       "path": "237.html"
     },
     {
       "number": 238,
-      "title": "THE SEALER",
+      "title": "THE TAGALONG",
       "source": "manuscript",
       "path": "238.html"
     },
     {
       "number": 239,
-      "title": "THE WAITER",
+      "title": "THE DISTRIBUTOR",
       "source": "manuscript",
       "path": "239.html"
     },
     {
       "number": 240,
-      "title": "THE SAMPLE",
+      "title": "THE BEARER",
       "source": "manuscript",
       "path": "240.html"
     },
     {
       "number": 241,
-      "title": "THE SCRAPER",
+      "title": "THE SEALER",
       "source": "manuscript",
       "path": "241.html"
     },
     {
       "number": 242,
-      "title": "THE SPENDER",
+      "title": "THE WAITER",
       "source": "manuscript",
       "path": "242.html"
     },
     {
       "number": 243,
-      "title": "THE MINDER",
+      "title": "THE SAMPLE",
       "source": "manuscript",
       "path": "243.html"
     },
     {
       "number": 244,
-      "title": "THE UNCLE",
+      "title": "THE SCRAPER",
       "source": "manuscript",
       "path": "244.html"
     },
     {
       "number": 245,
-      "title": "THE NAME-TAKER",
+      "title": "THE SPENDER",
       "source": "manuscript",
       "path": "245.html"
     },
     {
       "number": 246,
-      "title": "THE MATCHER",
+      "title": "THE MINDER",
       "source": "manuscript",
       "path": "246.html"
     },
     {
       "number": 247,
-      "title": "THE PATRON",
+      "title": "THE UNCLE",
       "source": "manuscript",
       "path": "247.html"
     },
     {
       "number": 248,
-      "title": "THE CONSTANT",
+      "title": "THE NAME-TAKER",
       "source": "manuscript",
       "path": "248.html"
     },
     {
       "number": 249,
-      "title": "THE SHOPPER",
-      "source": "checkpoint",
+      "title": "THE MATCHER",
+      "source": "manuscript",
       "path": "249.html"
     },
     {
       "number": 250,
-      "title": "THE SUBSTITUTE",
-      "source": "checkpoint",
+      "title": "THE PATRON",
+      "source": "manuscript",
       "path": "250.html"
     },
     {
       "number": 251,
-      "title": "THE UNDERSTUDY",
-      "source": "checkpoint",
+      "title": "THE CONSTANT",
+      "source": "manuscript",
       "path": "251.html"
     },
     {
       "number": 252,
-      "title": "THE WASHER",
+      "title": "THE SHOPPER",
       "source": "checkpoint",
       "path": "252.html"
     },
     {
       "number": 253,
-      "title": "THE STEWARD",
+      "title": "THE SUBSTITUTE",
       "source": "checkpoint",
       "path": "253.html"
     },
     {
       "number": 254,
-      "title": "THE USHER",
+      "title": "THE UNDERSTUDY",
       "source": "checkpoint",
       "path": "254.html"
     },
     {
       "number": 255,
-      "title": "THE NEIGHBOR",
+      "title": "THE WASHER",
       "source": "checkpoint",
       "path": "255.html"
     },
     {
       "number": 256,
-      "title": "THE STRANDED",
+      "title": "THE STEWARD",
       "source": "checkpoint",
       "path": "256.html"
     },
     {
       "number": 257,
-      "title": "THE PLAYER",
+      "title": "THE USHER",
       "source": "checkpoint",
       "path": "257.html"
     },
     {
       "number": 258,
-      "title": "THE PORTER",
+      "title": "THE NEIGHBOR",
       "source": "checkpoint",
       "path": "258.html"
     },
     {
       "number": 259,
-      "title": "THE SHEPHERD",
+      "title": "THE STRANDED",
       "source": "checkpoint",
       "path": "259.html"
     },
     {
       "number": 260,
-      "title": "THE SORTER",
+      "title": "THE PLAYER",
       "source": "checkpoint",
       "path": "260.html"
     },
     {
       "number": 261,
-      "title": "THE CUSTOMER",
+      "title": "THE PORTER",
       "source": "checkpoint",
       "path": "261.html"
     },
     {
       "number": 262,
-      "title": "THE MEASURE",
+      "title": "THE SHEPHERD",
       "source": "checkpoint",
       "path": "262.html"
     },
     {
       "number": 263,
-      "title": "THE SHOPHAND",
+      "title": "THE SORTER",
       "source": "checkpoint",
       "path": "263.html"
     },
     {
       "number": 264,
-      "title": "THE HOST",
+      "title": "THE CUSTOMER",
       "source": "checkpoint",
       "path": "264.html"
     },
     {
       "number": 265,
-      "title": "THE CONTROL",
+      "title": "THE MEASURE",
       "source": "checkpoint",
       "path": "265.html"
     },
     {
       "number": 266,
-      "title": "THE RUNNER",
+      "title": "THE SHOPHAND",
       "source": "checkpoint",
       "path": "266.html"
     },
     {
       "number": 267,
-      "title": "THE ERRAND",
+      "title": "THE HOST",
       "source": "checkpoint",
       "path": "267.html"
     },
     {
       "number": 268,
-      "title": "THE CALLER",
+      "title": "THE CONTROL",
       "source": "checkpoint",
       "path": "268.html"
     },
     {
       "number": 269,
-      "title": "THE COBBLER",
+      "title": "THE RUNNER",
       "source": "checkpoint",
       "path": "269.html"
     },
     {
       "number": 270,
-      "title": "THE WATCHMAN",
+      "title": "THE ERRAND",
       "source": "checkpoint",
       "path": "270.html"
     },
     {
       "number": 271,
-      "title": "THE DISTANCE",
+      "title": "THE CALLER",
       "source": "checkpoint",
       "path": "271.html"
     },
     {
       "number": 272,
-      "title": "THE QUEUE",
+      "title": "THE COBBLER",
       "source": "checkpoint",
       "path": "272.html"
     },
     {
       "number": 273,
-      "title": "THE WITNESS",
+      "title": "THE WATCHMAN",
       "source": "checkpoint",
       "path": "273.html"
     },
     {
       "number": 274,
-      "title": "THE READER",
+      "title": "THE DISTANCE",
       "source": "checkpoint",
       "path": "274.html"
     },
     {
       "number": 275,
-      "title": "THE SCRAPER",
+      "title": "THE QUEUE",
       "source": "checkpoint",
       "path": "275.html"
     },
     {
       "number": 276,
-      "title": "THE MASK",
+      "title": "THE WITNESS",
       "source": "checkpoint",
       "path": "276.html"
     },
     {
       "number": 277,
-      "title": "THE APPRAISER",
+      "title": "THE READER",
       "source": "checkpoint",
       "path": "277.html"
     },
     {
       "number": 278,
-      "title": "THE CLIENT",
+      "title": "THE SCRAPER",
       "source": "checkpoint",
       "path": "278.html"
     },
     {
       "number": 279,
-      "title": "THE FINDER",
+      "title": "THE MASK",
       "source": "checkpoint",
       "path": "279.html"
     },
     {
       "number": 280,
-      "title": "THE REPEAT",
+      "title": "THE APPRAISER",
       "source": "checkpoint",
       "path": "280.html"
     },
     {
       "number": 281,
-      "title": "THE SHARE",
+      "title": "THE CLIENT",
       "source": "checkpoint",
       "path": "281.html"
     },
     {
       "number": 282,
-      "title": "THE SCENE PARTNER",
+      "title": "THE FINDER",
       "source": "checkpoint",
       "path": "282.html"
     },
     {
       "number": 283,
-      "title": "THE WHOLESALE DOOR",
+      "title": "THE REPEAT",
       "source": "checkpoint",
       "path": "283.html"
     },
     {
       "number": 284,
-      "title": "THE WRONG CORNER",
+      "title": "THE SHARE",
       "source": "checkpoint",
       "path": "284.html"
     },
     {
       "number": 285,
-      "title": "THE SHORT MEASURE",
+      "title": "THE SCENE PARTNER",
       "source": "checkpoint",
       "path": "285.html"
     },
     {
       "number": 286,
-      "title": "THE WARM WALL",
+      "title": "THE WHOLESALE DOOR",
       "source": "checkpoint",
       "path": "286.html"
     },
     {
       "number": 287,
-      "title": "THE CARRYING LIGHT",
+      "title": "THE WRONG CORNER",
       "source": "checkpoint",
       "path": "287.html"
     },
     {
       "number": 288,
-      "title": "THE RED THREAD",
+      "title": "THE SHORT MEASURE",
       "source": "checkpoint",
       "path": "288.html"
     },
     {
       "number": 289,
-      "title": "THE GOOD STEP",
+      "title": "THE WARM WALL",
       "source": "checkpoint",
       "path": "289.html"
     },
     {
       "number": 290,
-      "title": "THE RAIN SHELF",
+      "title": "THE CARRYING LIGHT",
       "source": "checkpoint",
       "path": "290.html"
     },
     {
       "number": 291,
-      "title": "THE DOOR WEIGHT",
+      "title": "THE RED THREAD",
       "source": "checkpoint",
       "path": "291.html"
     },
     {
       "number": 292,
-      "title": "THE SHADE LINE",
+      "title": "THE GOOD STEP",
       "source": "checkpoint",
       "path": "292.html"
     },
     {
       "number": 293,
-      "title": "THE THIRD HAND",
+      "title": "THE RAIN SHELF",
       "source": "checkpoint",
       "path": "293.html"
     },
     {
       "number": 294,
-      "title": "THE USUAL",
+      "title": "THE DOOR WEIGHT",
       "source": "checkpoint",
       "path": "294.html"
     },
     {
       "number": 295,
-      "title": "THE OPEN SEAT",
+      "title": "THE SHADE LINE",
       "source": "checkpoint",
       "path": "295.html"
     },
     {
       "number": 296,
-      "title": "THE HELD NOTE",
+      "title": "THE THIRD HAND",
       "source": "checkpoint",
       "path": "296.html"
     },
     {
       "number": 297,
-      "title": "THE HIGH LINE",
+      "title": "THE USUAL",
       "source": "checkpoint",
       "path": "297.html"
     },
     {
       "number": 298,
-      "title": "THE FAR MARK",
+      "title": "THE OPEN SEAT",
       "source": "checkpoint",
       "path": "298.html"
     },
     {
       "number": 299,
-      "title": "THE OTHER HANDLE",
+      "title": "THE HELD NOTE",
       "source": "checkpoint",
       "path": "299.html"
     },
     {
       "number": 300,
-      "title": "THE BLUE HORSE",
+      "title": "THE HIGH LINE",
       "source": "checkpoint",
       "path": "300.html"
     },
     {
       "number": 301,
-      "title": "THE FALSE DOOR",
+      "title": "THE FAR MARK",
       "source": "checkpoint",
       "path": "301.html"
+    },
+    {
+      "number": 302,
+      "title": "THE OTHER HANDLE",
+      "source": "checkpoint",
+      "path": "302.html"
+    },
+    {
+      "number": 303,
+      "title": "THE BLUE HORSE",
+      "source": "checkpoint",
+      "path": "303.html"
+    },
+    {
+      "number": 304,
+      "title": "THE FALSE DOOR",
+      "source": "checkpoint",
+      "path": "304.html"
     }
   ]
 }

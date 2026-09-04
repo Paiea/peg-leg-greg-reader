@@ -1,1217 +1,931 @@
 # CHAPTER 278
 
-## THE CLIENT
+## THE SCRAPER
 
-I did not go to Blue Steps first thing in the morning.
+The first sign of trouble was Olan carrying our potatoes upstairs.
 
-This was evidence of maturity.
+He had the sack hugged against his chest and the expression of a man who had been betrayed by architecture.
 
-I went after breakfast.
+I opened the door wider.
 
-Lyssa did not accept the distinction.
+"Those look familiar."
 
-"You said not tomorrow."
+"Yours."
 
-"I said probably not tomorrow just because I could."
+"I knew we had excellent potatoes."
 
-"Today is tomorrow."
+"You have wet potatoes."
 
-"Time is cruel."
+That was less excellent.
 
-She tied her hair back with a dark strip of cloth and looked at me over both hands.
+He set the sack just inside our door. Dark damp had spread across the bottom cloth, but nothing dripped.
 
-"You buying?"
+"Lower room?" I asked.
+
+"Back wall."
+
+"Pipe?"
 
 "No."
 
-"Kes?"
+"Water from yesterday?"
 
-"Not going to Kes."
+"Maybe. Maris says no."
 
-"Jori."
+"What does Maris think?"
 
-"Information."
+"Cold shelf's gone white."
 
-"Price first."
+I looked at him.
+
+"Gone white how?"
+
+Olan rubbed two fingers together as if that might summon a better description.
+
+"Threads."
+
+Something old moved in my head.
+
+Not certainty yet.
+
+A shape.
+
+"Blue at the edges?"
+
+He stopped rubbing his fingers.
+
+"A little."
+
+That was closer to certainty.
+
+"Did anyone scrape it?"
+
+"No."
+
+"Good."
+
+"Why?"
+
+"I need to see it."
+
+Olan looked toward my crutches, then toward the stairs behind him.
+
+The shared lower storage room sat beneath the rear half of the building. I had been down there enough times to know I disliked the last three steps, which were narrower than the rest and worn low in the middle.
+
+"You don't have to," he said.
+
+"Our potatoes are wet. I have been personally attacked."
+
+"Maris moved the onions."
+
+"Our onions?"
+
+"Everybody's."
+
+"Then civilization is already responding."
+
+I checked the potato sack first.
+
+The cloth was damp and cold. The potatoes near the bottom were colder than the room, but not frozen. No white growth showed on them. No blue.
+
+I pulled one free, wiped it on the sack, and smelled it.
+
+Potato.
+
+A sophisticated test.
+
+"Don't eat that," Olan said.
+
+"I wasn't going to."
+
+"You looked like you were."
+
+"Everyone in this city has become very controlling about what I put in my mouth."
+
+"Lyssa?"
+
+"Especially Lyssa."
+
+I set the potato back.
+
+"Let's look."
+
+The stairs down were dry until the turn.
+
+I went carefully, both crutches one step below before bringing my right foot down. The left side of the stairwell had a rail, but it was too close to the wall to be useful with my left crutch. I used the right side instead and let Olan go ahead with a lamp.
+
+The last three steps remained bad.
+
+They had not improved themselves during my absence.
+
+At the bottom, the lower room smelled of stone, old wood, onions, and something sharp enough to catch behind my nose.
+
+That smell finished the memory.
+
+"Don't touch the white."
+
+Olan had already stopped.
+
+"Wasn't planning to."
+
+"Good."
+
+The room was longer than our apartment and lower than I liked. Shelves ran along two walls. People had marked sections with charcoal names, scratched initials, bits of colored cord, and one painted red hand that probably meant something to someone.
+
+The back wall held the cold shelf.
+
+I had assumed the name meant it stayed cooler because it sat against earth.
+
+Apparently the shelf had ambitions.
+
+White threads spread across the stone behind it in a patch wider than my shoulders. They looked delicate from a distance, like frost caught in a spiderweb. Along the newest outer strands, a faint blue light pulsed slowly.
+
+Not bright.
+
+Enough.
+
+"Rimeweb," I said.
+
+Olan glanced at me.
+
+"You know it?"
+
+"I knew something like it."
+
+That qualification arrived automatically now.
+
+I moved closer until I could see the center.
+
+The oldest threads had gone dull white. The outer growth was thinner and blue at the tips. Moisture beaded on the stone beneath it, but the beads were strangely still. One had frozen halfway down a groove.
+
+"Yes," I said. "Rimeweb. Or close enough that I don't want anyone scraping the blue part."
+
+"Why?"
+
+"When it's active, disturbing it throws cold dust."
+
+Olan looked at the wall.
+
+"Cold dust."
+
+"That was what we called it."
+
+"What does it do?"
+
+"Freezes wet things fast. Skin if you're unlucky. Eyes if you're stupid."
+
+He took one step backward.
+
+A sensible man.
+
+"How stupid?"
+
+"Face close, scraping hard, no cover. That kind."
+
+"Maris wanted a broom."
+
+"Maris is banned from the broom."
+
+"You tell her."
+
+"Absolutely not."
+
+Olan smiled despite himself.
+
+I studied the patch again.
+
+Old-life rimeweb had liked shaded stone after sudden wet weather, especially where mineral seep stayed cold. It was not a plant. I had never learned what category it actually belonged to. People in field camps had cared less about taxonomy than whether their blankets froze to a wall.
+
+The useful part of the memory was simpler.
+
+Active blue edges were bad to disturb.
+
+Dull white could be wetted and scraped.
+
+Heat made some patches spread before they died, depending on what the wall held.
+
+Do not burn it indoors.
+
+That last one had been learned by somebody else before I arrived at the camp, which was the best way to learn dangerous things.
+
+"Do you have ash water?" I asked.
+
+Olan looked at me strangely.
+
+"For washing?"
 
 "Yes."
 
-"Before questions."
+"Maris does."
+
+"Of course she does."
+
+"Why?"
+
+"We used weak ash water after the blue went out. Helped lift the dead web from stone."
+
+"After?"
+
+"After."
+
+"How long?"
+
+That I did not know.
+
+The old camp walls had been outdoors. Different stone. Different weather. Different everything.
+
+"I don't know here."
+
+Olan nodded once.
+
+No disappointment.
+
+Just a boundary.
+
+"Who handles this normally?"
+
+I asked because that was suddenly more important than proving I remembered a fungus from another life.
+
+"Mella."
+
+"Who is Mella?"
+
+"Building keeper."
+
+I stared at him.
+
+"We have a building keeper?"
+
+"You met her."
+
+"Did I?"
+
+"She fixed the rear latch."
+
+I searched memory.
+
+A square woman with gray hair had once spent ten minutes insulting a hinge while I carried something past her.
+
+"That was Mella?"
 
 "Yes."
 
-"Before sitting."
+"I thought she was angry at the door professionally."
 
-I stared at her.
+"She was."
 
-"How expensive do you think chairs are at Blue Steps?"
+"That does not answer anything."
 
-"Greg."
-
-"Price first."
-
-She nodded.
-
-I had passed the household examination.
-
-The clasp remained exactly where I had left it, assuming Kes had not sold it overnight to someone richer and less cautious.
-
-I did not check.
-
-That took more effort than not using magic.
-
-Different temptation.
-
-Same stupid brain.
-
-I left the apartment after Lyssa did.
-
-The potatoes were no longer spread across half the room. Maris had said the lower shelf could take dry sacks again, but Lyssa and I had moved ours to a different section anyway because learning from inconvenience was cheaper than proving loyalty to a shelf.
-
-My right shoe stayed quiet.
-
-Residual limb comfortable.
-
-No note under the door.
-
-No Lenn.
-
-No Hessa runner.
-
-No civic official asking what I had not seen.
-
-Blue Steps sat farther west than Kes's shop, in a part of Carrow where the streets climbed just enough to annoy me without earning the dignity of hills.
-
-The name came from the actual steps.
-
-Six broad blue-gray stone risers climbed from the street to a row of narrow businesses built above a sunken drainage channel. The stone was not painted. Something in it gave a faint blue cast where years of feet had polished the center.
-
-I stopped at the bottom.
-
-Six steps.
-
-Broad.
-
-Dry.
-
-Rail on the right.
-
-Fine.
-
-I climbed.
-
-At the top, three doors faced the landing.
-
-One had painted teeth.
-
-I did not choose that one.
-
-One had a copper bowl nailed above it.
-
-The third had a white card in the window.
-
-`JORI VENN`
-
-Under that:
-
-`APPRAISALS / ESTATE INVENTORY / DISPUTED GOODS`
-
-Then, smaller:
-
-`ASK FEE BEFORE WORK`
-
-I stood there for a moment.
-
-Lyssa had somehow infiltrated the sign.
-
-I opened the door.
-
-The room beyond was small enough that nobody could pretend not to notice me.
-
-A long counter divided the front from the work side. Two chairs sat near the wall. Shelves behind the counter held boxes, folded cloth, scales, a magnifying lens on an articulated arm, and several shallow trays made from some dark material that looked like wood until the light hit it wrong.
-
-No glowing relics.
-
-No suspended swords.
-
-No skulls.
-
-Appraisal had poor theatrical instincts.
-
-A woman sat behind the counter reading a folded document.
-
-She looked about fifty, maybe older, with deep brown skin, short silver hair, and square spectacles attached to a cord around her neck. One sleeve of her dark green shirt was rolled to the elbow. The other was not.
-
-She looked up.
-
-"Yes?"
-
-"Jori?"
-
-"Yes."
-
-"Fee first."
-
-Her eyebrows lifted.
-
-"Good start. For what?"
-
-"Questions about an appraisal you already wrote. Kes's west-market shop. Old boundary clasp. Missing collar. Cracked seat. Bites."
-
-Recognition arrived before I finished.
-
-Not surprise.
-
-I liked that.
-
-"Consultation only?"
-
-"Yes. I do not own the object. I am not authorized to bring it. I paid Kes to read your copy yesterday."
-
-"How many questions?"
-
-"Dangerous question."
-
-"Then time. Quarter bell. Two copper. Longer if I agree."
-
-That was more than reading the sheet.
-
-Less than gold.
-
-I considered my pocket.
-
-Considered the clasp.
-
-"Two copper. Quarter bell."
-
-"Paid now."
-
-I paid.
-
-Jori put the coins in a small wooden dish, turned the document she had been reading facedown, and pointed to one of the chairs.
-
-"Sit."
-
-I sat.
-
-Lyssa would have been pleased that I had paid before furniture.
-
-Jori took a blank sheet from under the counter.
-
-"Name."
-
-"Greg."
-
-She waited.
-
-"Just Greg."
-
-"Bronze Greg?"
-
-"Yes."
-
-"Theatre?"
-
-I sighed.
-
-"Sometimes."
-
-She wrote something.
-
-"This relevant?"
-
-"No. I like knowing who is asking me about dangerous hardware they do not own."
+"It answers enough."
 
 Fair.
 
-"Why are you asking?"
+"Where is she?"
 
-"I think I recognize the type from somewhere else."
+"Other building this morning."
 
-"Where?"
+"Then get her before anyone cleans this."
 
-"Old life."
+Olan looked at the white patch.
 
-Her pencil stopped.
+"You sure?"
 
-Not for long.
+"About not scraping blue rimeweb? Yes. About what Mella does with Carrow rimeweb? No."
 
-"Meaning before Bronze?"
+"Good enough."
 
-"Yes."
+He started toward the stairs.
 
-"You remember technical work?"
+I stayed.
 
-"Some. Incompletely."
+"What are you doing?"
 
-"Good answer. What did you call it?"
+"Looking."
 
-"Compression clasp. Sometimes boundary clasp depending on where I was. Fitted loop around a prepared collar. Reinforced a seal through a boundary fold."
+"You said don't touch."
 
-Jori's face did not change much.
+"I can look without touching. Hessa has trained me for this exact humiliation."
 
-That was better than excitement.
+Olan did not know what that meant.
 
-"What do you mean by boundary fold?"
+He left anyway.
 
-I explained as narrowly as I could.
+I remained near the doorway rather than moving closer.
 
-Not storage expansion.
+The blue edge pulsed again.
 
-Not a bigger inside.
+Slow.
 
-A closure effect at a prepared seam.
+Not responding to me.
 
-The versions I remembered could make crossing the seam harder for air and water. Some later or better work had additional resistance to heat, smell, or mana leakage, but I did not know whether that came from the clasp, the collar, preparation of the vessel, or all three.
+Probably.
 
-Jori wrote two words.
+I had used no mana.
 
-"You saw these used?"
+I was not going to use mana.
 
-"Yes."
+Hessa would kill me, revive me to improve the methodology, then kill me again.
 
-"Made them?"
+I watched moisture gather on the wall.
+
+The web did not crawl visibly. It did not reach for anything. It simply occupied stone and made the air around it colder.
+
+A wooden crate had been pushed away from the shelf. Its back side was damp but clean. Two sacks sat farther down, one marked with a black loop. No growth on them.
+
+Our potatoes had likely gotten wet from condensation or runoff near the shelf.
+
+Likely was not the same as proven.
+
+I did not lick the wall.
+
+More growth.
+
+Footsteps came down the stairs.
+
+Not Olan's.
+
+Maris appeared with a broom.
+
+Of course.
 
 "No."
 
-"Repaired them?"
-
-"No."
-
-"Installed them?"
-
-"No."
-
-"Bought them?"
-
-"No."
-
-The list was becoming insulting.
-
-"I stood near competent people."
-
-"Common source of expertise."
-
-"I am learning that."
-
-She set down the pencil.
-
-"My appraisal does not establish a boundary fold."
-
-"I know."
-
-"Does not establish air seal."
-
-"I know."
-
-"Does not establish prepared collar type."
-
-"I know."
-
-"Does not establish that your compression clasp is this object."
-
-"I know."
-
-"Good. Then we can talk."
-
-Hessa had relatives everywhere.
-
-"Do the six seats mean anything to you?" I asked.
-
-"Seats?"
-
-"Inner notches. I called them engagement points. Kes called them notches."
-
-"I called them seats because something should seat into them. Probably collar tabs."
-
-"Probably."
-
-"Probably."
-
-She smiled faintly.
-
-I told her my old-life memory: six points were common on medium circular clasps because they distributed the fold around a seam. Four could twist. Five worked on some designs. Eight existed on larger ones.
-
-Jori listened.
-
-"Useful pattern," she said.
-
-My chest lifted slightly.
-
-Then she continued.
-
-"Not enough to identify this one."
-
-Chest returned to normal.
-
-"Why not?"
-
-"Because six is also a convenient number when a maker likes six."
-
-"That is offensive."
-
-"Reality often is."
-
-She reached behind her and pulled down a small wooden practice ring.
-
-Not magical.
-
-A teaching object, maybe.
-
-Six pegs around the inside.
-
-"This is a cooper's alignment guide," she said. "Six points. No boundary work."
-
-"Fine."
-
-"Pattern supports a question. Not an answer."
-
-"You and Hessa would be unbearable together."
-
-"Who?"
-
-"Nobody you need."
-
-I moved on.
-
-"The bite."
-
-Jori's expression tightened slightly.
-
-"What about it?"
-
-"I remember later versions isolating the trigger pin with ceramic. A sleeve around the pin so a handler could not bridge the activation contact accidentally."
-
-"Bridge?"
-
-"Touch pin and inner body together through skin or conductive material."
-
-"You think that is what happened to Kes."
-
-"Maybe. He said he touched both. Your appraisal says paired contact."
-
-"Yes."
-
-"Would a ceramic sleeve help?"
-
-Jori leaned back.
-
-"Maybe."
-
-That was not validation.
-
-I waited.
-
-She noticed.
-
-"Good," she said.
+She stopped on the second-to-last stair.
 
 "What?"
 
-"You didn't turn maybe into yes."
+"No broom."
 
-"I am being trained against my will."
+"Olan said you know it."
 
-She ignored that.
+"I know enough to say no broom while it's blue."
 
-"If the activation requires direct conductive contact between pin and body, an insulating sleeve could reduce accidental activation. If activation only requires those points to be connected through the collar, a sleeve might do nothing once installed. If the pin is not merely a trigger but part of the active boundary, changing its contact geometry could alter function. If the internal inclusions couple through the pin, ceramic could interfere. If your remembered designs used ceramic because their pins were already isolated internally, copying the visible sleeve onto an older design could be useless."
+Maris leaned around me.
 
-I stared at her.
+"It's mold."
 
-"You have been waiting your whole life to ruin this idea."
+"Magical mold."
 
-"I met you nine minutes ago."
+"All mold thinks it's magical."
 
-"Efficient."
+"This one can freeze your face."
 
-She tapped the counter.
+That improved her respect for classification.
 
-"Your memory is useful because it creates a testable safety possibility. It is not a repair."
+She lowered the broom.
 
-"Agreed."
+"Freeze?"
 
-"The crack bothers me more."
+"Cold dust if you scrape active edges. At least the kind I knew. Olan's getting Mella."
 
-"Inner seat."
+"Mella hates this stuff."
 
-"Yes."
+"You knew what it was?"
 
-"Why?"
+"Whitewall."
 
-"Because I can see the bite. I cannot see what the crack does under load."
+I looked back at the patch.
 
-That landed.
+"You call it whitewall?"
 
-"You think uneven engagement."
+"What do you call it?"
 
-"I think cracked things can become more cracked."
+"Rimeweb."
 
-"Technical."
+"Stupid name."
 
-"You paid for clarity, not poetry."
+"Whitewall is barely a name. It is a description written by a tired person."
 
-She took the pencil again.
+"And rimeweb was written by a poet?"
 
-"If it is a collar seat, and if the collar loads all six seats, that crack may take uneven force. Or it may be cosmetic. Or the seat may not carry load at all. We do not know. I did not activate it again because there was no matched collar and the uncontrolled closure already gave me enough evidence to call handling unsafe."
+"A frightened poet."
 
-"Kes said you would not wake it twice."
+Maris came down the last step but stayed beside me.
 
-"Correct."
+"Mella usually salts it."
 
-"What did it close on?"
+That was new.
 
-"Wood block."
+"Dry salt?"
 
-"Damage?"
+"Don't know."
 
-"Dented edge."
+"Before or after blue goes out?"
 
-"How fast?"
+"Don't know."
 
-"Fast enough."
+"Then we wait for Mella."
 
-"That is Kes's phrase."
+Maris looked at me.
 
-"Kes repeats useful phrases."
+"You enjoy saying that now."
 
-"He said it snapped toward nearest contacted edge after release."
+"I have become wise."
 
-"Yes."
+"No."
 
-"Release from what?"
+"Temporarily cautious."
 
-"I separated the contact points with an insulated hook. The loop opened. When the hook cleared, it closed again on the block instead of remaining neutral."
+"Better."
 
-That was worse than I had pictured.
+We waited.
 
-"So it seeks closure."
+It was not dramatic waiting.
 
-"Observed once."
+Maris carried the broom back upstairs because she had other things to clean. I shifted my weight twice, then found an empty low crate near the doorway and sat on it. The crate complained but survived.
 
-"Right. It closed again once."
+My shoulders appreciated the decision.
+
+My right leg had been fine that morning and remained fine. The lower room was cold enough that I could feel it through my trouser leg before long, so I stretched the knee and kept my right foot flat instead of tucking it back.
+
+The rimeweb continued being a wall problem.
+
+Five minutes later, somebody upstairs shouted about missing onions.
+
+Maris shouted back that the onions were safe.
+
+The person shouted that safe was not the same as located.
+
+Maris told them where the onions were.
+
+The crisis resolved.
+
+Then Mella arrived.
+
+She was exactly the woman I remembered from the hinge.
+
+Square shoulders, gray hair tied back, thick apron over a brown dress. She carried a bucket in one hand and a short wooden scraper in the other.
+
+Olan followed with another bucket.
+
+Mella saw me sitting by the doorway.
+
+"You live here."
+
+"I have for some time."
+
+"You watched me fix your latch."
+
+"I remember the insults more clearly than the introduction."
+
+"Hinge deserved them."
+
+Olan had not lied.
+
+Mella set down the bucket.
+
+"Show."
+
+I pointed.
+
+She walked toward the wall, stopped well before the blue edge, and squinted.
+
+"Fresh."
+
+"You call it whitewall?"
+
+"Everybody calls it whitewall."
+
+"I don't."
+
+"You everybody?"
+
+"Increasingly no."
+
+Mella crouched as far as her knees allowed and examined the bottom of the patch.
+
+"Don't scrape blue," I said.
+
+She looked over her shoulder.
+
+"I know."
+
+There it was.
+
+Old-life expertise had arrived in Carrow and discovered a building keeper.
+
+I felt no disappointment at all.
+
+Actually, I felt relieved.
 
 "Good."
 
-I hated everyone.
+Mella looked back at the wall.
 
-"Would you buy it?"
+"Who told you?"
 
-Jori laughed.
+"Old life. We called it rimeweb."
 
-Not politely.
+"Stupid name."
 
-"No."
+Maris, from somewhere upstairs, shouted, "Told you."
 
-"At Kes's price?"
+I hated community.
 
-"No."
+Mella dipped two fingers into her bucket and flicked a little liquid onto the stone well below the growth.
 
-"At half?"
+It smelled faintly of ash and something sour.
 
-"No."
+"Ash water?"
 
-"At one tenth?"
+"Ash, vinegar, salt. Weak."
 
-She considered.
+"We used ash water after."
 
-"For parts, maybe."
+"After what?"
 
-That hurt.
+"Blue died."
 
-I had wanted independent expertise.
+Mella nodded.
 
-I had received it.
+"Same."
 
-"Why parts?"
+That pleased me more than it should have.
 
-"Because the inclusions may be recoverable, the brass is old work, the pin is interesting, and I know two people who buy old boundary components."
+Not because I had discovered anything.
 
-"Not because you think it can be restored."
+Because the old rule still worked.
 
-"I do not know if it can be restored."
+Different city. Different life. Same stupid cold wall growth.
 
-"If it could?"
+"How long?" I asked.
 
-"Then Kes's price is low."
+"Till it stops blue."
 
-There it was.
+"That is your measurement?"
 
-Not a victory.
-
-A conditional.
-
-"How low?"
-
-"Compared with a complete modern boundary closure capable of certified vessel sealing? Very."
-
-"Gold still."
-
-"Gold still."
-
-"Why doesn't someone buy it as a gamble?"
-
-"People do not become wealthy by buying every broken thing that might become valuable."
-
-"Some do."
-
-"Most of those stories omit the broken things that stayed broken."
-
-I sat with that.
-
-Jori checked a small sand timer on her side of the counter.
-
-Quarter bell had not ended yet.
-
-"Complete modern system," I said. "How expensive?"
-
-"Depends on size, certification, material, maker, use."
-
-"Gold?"
-
-"Yes."
-
-"More than Kes?"
-
-"Usually. Sometimes much more."
-
-"So buyers who need the function buy complete because the failure cost matters."
-
-"Yes."
-
-"And collectors avoid this because no maker mark, dangerous, incomplete."
-
-"Some collectors like dangerous."
-
-"Of course they do."
-
-"They like named dangerous. Famous dangerous. Beautiful dangerous. Kes's clasp is anonymous ugly dangerous."
-
-I looked toward the window as if the clasp might hear from across the city.
-
-"I think it's beautiful."
-
-"Then your problem is worse than I thought."
-
-Fair.
-
-"Could a collar be made?"
-
-"Probably."
-
-"That sounded too easy."
-
-"A collar can be made. Whether it is the correct prepared collar for that clasp is another question."
-
-"What makes it prepared?"
-
-"Boundary work."
-
-"Specific geometry?"
-
-"Yes."
-
-"Material?"
-
-"Yes."
-
-"Inclusions?"
-
-"Sometimes."
-
-"Could you design one?"
+"You got a better one?"
 
 "No."
 
-"Who could?"
+"Then that's the measurement."
 
-She looked at me.
+Hessa would have hated and respected this conversation in equal amounts.
 
-I had found the edge of the consultation.
+Mella stood.
 
-"There are boundary workers in Carrow," she said. "I do not send strangers to them because they ask interesting questions."
+"Back shelf stays empty today. Window open. Nobody brushes it. I'll come after fifth bell."
 
-"What makes someone not a stranger?"
-
-"A job. Ownership. A client. A reason."
-
-"I have a reason."
-
-"You have curiosity."
-
-"And two fewer copper."
-
-"That purchased my time, not someone else's reputation."
-
-Also fair.
-
-I did not push.
-
-That surprised both of us.
-
-"If I owned the clasp?"
-
-"Then I might tell you who I would pay to inspect it."
-
-"Might."
-
-"Might."
-
-The sand timer emptied.
-
-Jori turned it over once without comment.
-
-I noticed.
-
-"Did I just buy more time?"
-
-"No. I did."
-
-"Why?"
-
-"I have questions now."
-
-That was flattering until I remembered who paid whom.
-
-"About the clasp?"
-
-"About you."
-
-"Less useful."
-
-"Your old life. You said boundary clasps were common enough you saw them in warehouses and field use."
-
-"Yes."
-
-"What else do you recognize?"
-
-Dangerous question.
-
-I thought about the copperback.
-
-Whitewall.
-
-Weather beads.
-
-Heat marks.
-
-Things I recognized partly.
-
-Things I did not.
-
-"Some materials. Creatures. Tools. Not consistently. Sometimes I know a principle and not construction. Sometimes I know what not to do."
-
-"You sell that?"
-
-"Sometimes Guild pays consultation."
-
-"How?"
-
-"They ask a narrow question. I answer narrowly."
-
-Jori nodded.
-
-"Good model."
-
-"It sells my time."
-
-"Everything sells your time somewhere."
-
-I looked at her.
-
-"You know what I mean."
-
-"Yes. You want money while sleeping."
-
-"That sounds worse."
-
-"It usually is."
-
-"I want value that is not one copper per hour forever."
-
-"Then stop thinking time is the only thing inside a fee."
-
-I waited.
-
-She tapped her appraisal stamp.
-
-"When I charge someone for an opinion, they are not paying only for the quarter bell I speak. They are paying for the years that make the quarter bell worth hearing, and for the fact that my signed mistake costs me future work."
-
-"Reputation."
-
-"And risk."
-
-"Still tied to you."
-
-"Of course. I am not a magical coin tree."
-
-"Do you broker sales?"
-
-"Sometimes."
-
-"Fee?"
-
-"Separate."
-
-"Percentage?"
-
-"Sometimes. Flat fee sometimes. Depends on goods and client."
-
-"So if you connect a seller and buyer, you take a share."
-
-"If I am doing the work and taking the risk of the introduction, yes."
-
-That was the thing I had written last night.
-
-Matching.
-
-But here it was ordinary.
-
-Not invention.
-
-Not revolutionary.
-
-Carrow already had brokers.
-
-Of course it did.
-
-"How does someone start?"
-
-Jori gave me a look so dry it could preserve fish.
-
-"Not by asking an appraiser how to compete with her."
-
-I laughed.
-
-"Fair."
-
-"You know people. You know things. Sometimes those two facts become useful together. Usually they become gossip. Learn the difference."
-
-That was more advice than she owed me.
-
-"Do you pay finders?"
-
-"Sometimes."
-
-"Standing rate?"
+Olan said, "Salt now?"
 
 "No."
 
-"Could I bring you old magical hardware?"
+"Maris said you salt it."
 
-"You can bring me anything. I can also tell you to leave."
+"Maris says many things."
 
-"Paid if useful?"
+From upstairs: "I can hear you."
 
-"Only if we agreed before you did work for me."
+"Good."
 
-Important.
+Mella picked up her bucket.
 
-"So do not wander the city collecting cursed spoons and demand commission."
-
-"Please do not."
-
-"Noted."
-
-"If I ever ask you to look for something, we discuss fee first."
-
-"Fee first."
-
-"You learn."
-
-"Slowly."
-
-A knock came at the inner door behind her.
-
-Not the street door.
-
-Jori looked over her shoulder.
-
-"Done."
-
-There it was.
-
-No apprenticeship.
-
-No magical-item mentorship.
-
-No invitation to spend afternoons learning appraisals.
-
-I stood.
-
-"One last thing."
-
-"If it is actually one."
-
-"Would you pay Kes's current price if the collar existed and crack were proven repairable?"
-
-Jori considered carefully.
-
-"If a competent boundary worker inspected the clasp, matched or designed a collar, and certified safe operation for a useful vessel size, Kes would not be selling it at Kes's current price."
-
-"Because he would raise it."
-
-"Or someone would buy it before you finished asking questions."
-
-That answer hurt in a productive way.
-
-"So the opportunity is real only before the evidence is complete."
-
-"That is why it is cheap."
-
-"And buying before evidence means buying risk."
-
-"That is why it is still there."
-
-Clean.
-
-I nodded.
-
-"Thank you."
-
-"You paid."
-
-"Still."
-
-She picked up the document she had been reading when I entered.
-
-The consultation was over.
-
-I left.
-
-At the bottom of Blue Steps, I stood with one crutch on the street and looked east.
-
-Kes's shop was not far.
-
-I could go check the cabinet.
-
-I did not.
-
-Not because I had stopped wanting the clasp.
-
-Worse.
-
-I wanted it more specifically now.
-
-Before Jori, I wanted the idea of the object.
-
-After Jori, I wanted the possibility contained inside a very expensive list of unresolved problems.
-
-That was less romantic.
-
-More dangerous.
-
-I went to buy bread instead.
-
-Nerin's bakery had a line of four people and one argument already in progress.
-
-The argument belonged to Nerin and a man delivering flour.
-
-"Six sacks short," Nerin said.
-
-"Two."
-
-"Six."
-
-"Your count includes tomorrow."
-
-"Tomorrow exists."
-
-"Not on today's paper."
-
-"My oven does not care about your paper."
-
-I waited.
-
-Mara stood behind the counter with the expression of someone who had heard the first half before I arrived and expected a second half after I left.
-
-She saw me.
-
-"Bread?"
-
-"One dark."
-
-"Wait."
-
-"Excellent system."
-
-The flour man turned.
-
-"You the theatre boy?"
-
-I closed my eyes.
-
-Nerin said, "Don't start."
-
-He did not start.
-
-Progress.
-
-The argument resolved into three sacks today, three first bell tomorrow, and mutual dissatisfaction.
-
-The flour man left.
-
-Nerin looked at me.
-
-"You need work?"
-
-For one stupid second, the clasp answered for me.
-
-Yes.
-
-Any work.
-
-Every copper.
-
-Pile them until gold happened.
-
-Then I remembered last night.
-
-Learn what money can do besides wait.
-
-"If you have actual work," I said.
-
-"No. Mara said you looked hungry for work."
-
-I looked at Mara.
+"Why now?" I asked.
 
 She shrugged.
 
-"You always look hungry."
+"Wet wall. Cold night. Maybe feed line sweated after they brought water back. Maybe old patch under mortar. Maybe both."
 
-"That is different."
+"Feed line?"
 
-Nerin handed me the loaf.
+She pointed upward with the scraper.
 
-I paid.
+"Building water line runs behind that wall."
 
-No invented shift.
+That connected the outage to the patch in a way that was possible and not proven.
 
-No desperation disguised as initiative.
+"Can you tell if it leaked?"
 
-I left with bread.
+"Later."
 
-On the walk home, I thought about Jori's stamp.
+"How?"
 
-Her quarter bell cost me two copper.
+"Wall dries or doesn't."
 
-That did not mean she earned eight copper every bell all day.
+"That's it?"
 
-Clients did not appear on command.
+"Greg."
 
-Years of expertise did not fit neatly into arithmetic.
+I stared at her.
 
-Reputation could vanish faster than it grew.
+"How do you know my name?"
 
-Brokerage required buyers, sellers, trust, and something worth connecting.
+"You live here."
 
-There was no shortcut hidden in vocabulary.
+This was becoming a problem.
 
-Still, the model mattered.
+Mella left.
 
-A person could be paid for a judgment.
+Olan stayed long enough to help move the remaining crates farther from the back wall. I did not help with the heavy ones because nobody asked me to prove anything stupid.
 
-For an introduction.
+I did move two empty baskets and a folded cloth from the low shelf near the doorway. That work fit the space better. I could hook a basket handle with one hand while keeping the opposite crutch planted, then set it on the dry side without twisting.
 
-For risk.
+Olan handled the sacks.
 
-For a result.
+We finished without ceremony.
 
-Not only for carrying a crate until the bell rang.
+"Potatoes upstairs today," he said.
 
-I already knew this in theory.
+"Where?"
 
-Vale knew it too well.
+"Your house."
 
-Theatre owners knew it.
+"I was hoping yours."
 
-Merchants knew it.
+"No."
 
-Every person who owned anything knew it.
+"Cruel."
 
-Knowing a principle was not the same as having a place inside it.
+"They're your potatoes."
 
-That was my problem.
+Ownership had consequences.
 
-At home, I put the bread down and unfolded yesterday's paper.
+Back upstairs, I spread the damp sack open near the window and put the potatoes on a cloth one layer deep.
 
-Three lines.
+There were more than I remembered buying.
 
-`DO NOT BUY BITING BRASS BECAUSE EXCITED.`
+I counted twice.
 
-Still true.
+Lyssa had bought potatoes.
 
-`LEARN WHAT IT ACTUALLY IS.`
+Without filing a report.
 
-Slightly less ignorant.
+I found one soft spot on one potato and cut it away. The rest seemed fine. I did not know whether rimeweb cold had touched them directly, but none carried white threads or blue edges.
 
-`LEARN WHAT MONEY CAN DO BESIDES WAIT.`
+I washed my hands anyway.
 
-I added beneath it:
+Then I washed the knife.
 
-`REPUTATION / RISK / MATCHING`
+Caution did not require a speech.
 
-Then crossed out `REPUTATION` because I did not have Jori's.
+Around fifth bell, I went downstairs again.
 
-I wrote:
+Not because Mella needed me.
 
-`BUILD REASONS PEOPLE PAY ME FOR THE ANSWER, NOT JUST THE HOUR.`
+Because our storage space did.
 
-That sounded too clever.
+That distinction mattered mostly to me.
 
-I crossed out half of it.
+The blue at the edge had faded.
 
-The paper became ugly.
+Mella was already there with Olan and Maris. She had tied a cloth over her nose and mouth and handed matching cloths to them.
 
-Good.
+She held one out to me.
 
-Plans should look worse after contact with reality.
+"If you stay."
 
-Lyssa came home before sunset.
+I took it.
 
-She carried no visible parcel today, only a folded cloth bundle and a small paper bag that smelled like pepper.
+"I feel included."
 
-I did not ask about the bundle.
+"You can leave."
 
-I did ask about the pepper smell.
+"Less included."
 
-"Cheese," she said.
+The active edge was now dull white.
 
-"Work?"
+Mella touched the scraper to the smallest outer strand and waited.
+
+Nothing happened.
+
+No dust burst.
+
+No blue light.
+
+She scraped downward slowly.
+
+The white growth came away in wet clumps instead of powder.
+
+"Wet it first," I said.
+
+"I did."
+
+I looked at the wall.
+
+The lower section was darker.
+
+She had already misted it with the ash-vinegar-salt wash while I was tying the cloth.
+
+"I missed that."
 
 "Yes."
 
-That was enough.
+I was contributing magnificently.
 
-We ate some with bread.
+Mella gave Olan a second scraper.
 
-"Jori?" she asked.
+"Bottom only."
 
-"Two copper. Paid first."
+He started where she pointed.
 
-"Good."
+Maris held the bucket for waste.
 
-"She thinks my ceramic sleeve idea might reduce accidental activation if my memory maps correctly."
+I expected Mella to hand me something.
 
-Lyssa looked at me.
+She did not.
 
-"Might."
+That was fine.
 
-"Yes. Might. It does not fix the crack or make a collar or prove anything else."
+Then she looked at the section behind the shelf.
 
-"Good."
+"Need light low."
 
-"You sound disappointed that I learned caution."
+I took the lamp from the floor and shifted onto the crate again. From there I could hold it near knee height without blocking Olan's movement.
 
-"No. Surprised."
+A job appeared because of geometry, not charity.
 
-I ignored that.
+Mella scraped.
 
-I told her Jori would not buy the clasp at Kes's price.
+Olan scraped.
 
-"Good."
+Maris caught wet clumps.
 
-"You enjoy that word too much."
+I held light.
 
-"You buying?"
+The exposed stone underneath was dark but intact as far as I could tell.
+
+A thin line of moisture ran from a mortar seam near the top.
+
+Mella touched it with one finger, smelled her fingertip, then wiped it on her apron.
+
+"Still wet."
+
+"Leak?" Olan asked.
+
+"Maybe sweat."
+
+"How long?"
+
+"Tomorrow."
+
+"What happens tomorrow?"
+
+"I look again."
+
+The building keeper had invented longitudinal data.
+
+Hessa would be proud.
+
+I did not say that.
+
+When the visible web was gone, Mella washed the scraped stone again and left the shelf pulled away from the wall.
+
+"Nothing back here tonight."
+
+Maris said, "Onions?"
+
+"Other wall."
+
+"Potatoes?"
+
+"Upstairs."
+
+I sighed.
+
+Mella looked at me.
+
+"Problem?"
+
+"I was hoping the potatoes could become someone else's responsibility."
+
+"Eat them."
+
+A brutal solution.
+
+We went upstairs.
+
+Mella took the waste bucket with her. I did not ask where it went. Olan carried the wash bucket. Maris reclaimed her broom and immediately used it on the stair landing, as if denied broom activity had accumulated inside her.
+
+Lyssa came home while I was cutting potatoes for dinner.
+
+She put her narrow paper parcel on the table.
+
+Still narrow.
+
+Still paper.
+
+Still none of my business.
+
+Then she looked at the potatoes covering half the room.
+
+"Why?"
+
+"Magical mold."
+
+She stopped taking off her outer layer.
+
+"What?"
+
+"Lower storage. Whitewall. Rimeweb if you respect language."
+
+"Whitewall."
+
+"You too?"
+
+"Everybody calls it whitewall."
+
+"I have been culturally defeated."
+
+She came closer to the potatoes.
+
+"On them?"
+
+"No. Back wall. Potatoes got damp. Mella cleaned after the blue went out."
+
+"Blue?"
+
+I explained the narrow part.
+
+Active edge glowed faint blue.
+
+Do not scrape it then.
+
+Old-life kind threw freezing dust when disturbed.
+
+Mella already knew the local version and used weak ash, vinegar, and salt wash after it dulled.
+
+"You touch it?" Lyssa asked.
 
 "No."
 
-"Then good."
+"Good."
 
-"She said if it were inspected, matched, repaired, and certified, Kes's price would be very low."
+There it was again.
 
-Lyssa chewed.
+"I am beginning to feel insulted by how predictable this question is."
 
-"But then price goes up."
+"You touch things."
 
-I pointed at her.
+"I specifically did not touch this thing."
 
-"Exactly."
+"Growth."
 
-"So you pay for risk."
+"Thank you."
 
-"Exactly."
+She picked up one potato.
 
-"No."
+"These good?"
 
-"That was not the conclusion."
+"Mostly. One had a soft spot. I cut it."
 
-"My conclusion."
+"You wash?"
 
-I laughed.
+"Hands and knife."
 
-Then I told her about appraisal work and brokerage.
+"Good."
 
-Not as a speech.
+"I passed another test."
 
-Just the useful part.
+Lyssa set the potato down.
 
-Jori sometimes got paid for connecting buyers and sellers. She did not pay finders unless she had agreed before the work. She had not hired me to find anything. I was specifically forbidden by common sense from collecting cursed spoons.
+"Mella check wall tomorrow?"
 
-Lyssa smiled.
+"Yes."
 
-"You would."
+"Then leave our shelf empty."
 
-"I would collect only premium spoons."
+"That was already the plan."
 
-"No."
+She nodded and went to wash.
 
-"You hate commerce."
+No analysis meeting followed.
 
-"I hate your commerce."
+No one needed to decide what whitewall meant for my destiny.
 
-Fair.
+Dinner required potatoes, onion, and the last of the pepper cheese Lyssa had brought home days ago.
 
-After dinner, I counted my money.
+I cooked.
 
-Privately.
+She ate.
 
-Not because I had forgotten the amount.
+The narrow paper parcel remained closed on the table until she moved it to her work things later.
 
-Because the clasp had changed what the amount meant.
+I did not ask.
 
-Before, coins were distance from hunger, debt, broken shoes, empty shelves.
+After dark, I went down once more only far enough to smell the stairwell.
 
-Now they were also distance from choice.
+The sharp cold scent had weakened.
 
-Still not enough choice.
+I did not enter the lower room.
 
-That fact did not become tragedy.
+Mella had said tomorrow.
 
-It became scale.
+Tomorrow was allowed to exist without me checking it early.
 
-Two copper bought a quarter bell of a good appraiser.
+I went back upstairs.
 
-Gold bought an ugly dangerous question in a cabinet.
+My shoulders were a little tired from the stairs and from holding the lamp low, but nothing hurt beyond ordinary use. My right shoe still held. My residual limb was comfortable.
 
-I had no reason to believe the question would wait for me.
+I had not earned money.
 
-Kes could sell it tomorrow.
+I had not advanced magic.
 
-Next month.
+I had not been summoned by anyone important.
 
-Never.
+A wet wall had grown something I remembered from another life, and for once the memory had worked exactly where I put it.
 
-I did not control that.
+Don't scrape it blue.
 
-What I controlled was whether wanting it made me stupid.
+That was all.
 
-So far, only moderately.
-
-I folded the ugly paper and put it away.
-
-Tomorrow had no appointment.
-
-Jori had not invited me back.
-
-Kes had not promised to hold anything.
-
-No one had offered me a brokerage fee.
-
-I had not become richer.
-
-I had spent two copper learning why I might be wrong.
-
-That felt expensive.
-
-It also felt like the first purchase I had made for a future that was not simply trying to survive until next week.
+Mella already knew the rest.

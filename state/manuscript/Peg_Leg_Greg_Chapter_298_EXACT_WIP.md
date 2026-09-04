@@ -1,1213 +1,1041 @@
 # CHAPTER 298
 
-## THE FAR MARK
+## THE OPEN SEAT
 
-I went to the Guild to ask permission to fail farther away.
+The first person to offer me a chair in Carrow did it because somebody else had abandoned it.
 
-This was growth.
+This felt appropriately municipal.
 
-Possibly.
+I had passed the soap stall, declined to buy soap we did not need, and continued west with no list in my bag and no particular reason to be going west.
 
-The morning had started without a list.
+That was unusual enough to feel suspicious.
 
-No client.
+Most of my recent walks had acquired purposes.
 
-No household errand.
+Salt.
 
-No song trying to recruit me.
+Paper.
 
-No sock fell from the sky.
+A client.
 
-The three copper stayed upstairs.
+A door question.
 
-The bag held charcoal and notes.
+Fish.
 
-My hands felt normal after yesterday's longer walk.
+A bag.
 
-My right shoe remained flat at the repaired heel.
+Soap.
 
-Residual limb comfortable.
+Today I had nothing except two crutches, three copper at home, and the mild conviction that I should not return immediately just because nobody had assigned me a task.
 
-Crutches ordinary.
+The lane widened near a cooper's yard.
 
-I left the house before my brain could decide that wandering was a sufficient use of the day.
+Four people sat around a square table under a patched awning.
 
-At the second lane, I passed a tray of kessa in the sun.
+Three of them were still sitting.
 
-One silver-brown jumper vanished under the stall.
+The fourth chair was empty.
 
-I recognized it.
+The man who had occupied it was halfway across the street, shouting at somebody unloading two barrels from a handcart.
 
-I kept walking.
+"Not that one."
 
-At the third lane, somebody had tied fresh laundry to a high line.
+The cart man shouted back, "Then mark them."
 
-Not Mara's court.
+"They are marked."
 
-Different line.
+"With what?"
 
-Different laundry.
+The seated woman nearest the empty chair picked up a little wooden piece from the table.
 
-I kept walking.
+"He's gone."
 
-This was becoming suspiciously competent.
+Another player said, "He comes back."
 
-Then the Guild wall came into view.
+The first woman looked at the barrel argument.
 
-I almost turned away.
+"He lives there now."
 
-Not because I was afraid of Hessa.
+The third player laughed.
 
-That would imply poor judgment.
+Then the woman looked at me.
 
-Because I had no note.
-
-Every recent magic session had arrived through somebody else deciding the time.
-
-Hessa's note.
-
-A summons.
-
-A scheduled repeat.
-
-I had followed instructions very well.
-
-This time I wanted the next instruction.
-
-That was different.
-
-The yard was busy enough that nobody cared about one nineteen-year-old on crutches entering without a cabbage leaf.
-
-A porter rolled two narrow crates toward the rear building.
-
-A woman in a blue sash stood under the awning arguing about seal wax.
-
-Two apprentices crossed the yard carrying a frame between them.
-
-I knew none of them.
-
-Good.
-
-I went to Hessa's room.
-
-The door was open.
-
-She was writing.
-
-Of course.
-
-I stopped at the threshold.
-
-"I have no appointment."
-
-Hessa did not look up.
-
-"Correct."
-
-"I thought honesty would help."
-
-"It has not yet."
-
-I waited.
-
-She finished the line.
-
-Then she looked at me.
-
-"Problem?"
-
-"No."
-
-"Independent attempt?"
-
-"No."
-
-"Unusual sensation?"
-
-"No."
-
-"Injury?"
-
-"No."
-
-"Then why are you here?"
-
-There was no graceful version.
-
-"I want the next session."
-
-Hessa leaned back slightly.
-
-"Why?"
-
-"Because the last one was seventeen chapters ago."
-
-She stared at me.
-
-I corrected myself.
-
-"Because enough life has happened that I stopped waiting for a note and came to ask."
-
-"Better."
-
-"I dislike when you confirm the existence of a worse answer."
-
-"What do you want to test?"
-
-I looked at the board behind her.
-
-Near.
-
-Middle.
-
-Far.
-
-The marks were still there.
-
-"Far."
-
-"Why?"
-
-"Because it remains untested."
-
-"Anything else?"
-
-"Because middle produced one clean displacement in five attempts across the first two sessions at that position, plus one possible edge lift."
-
-"Anything else?"
-
-"Because I want to know whether the effect exists at the far mark at all."
-
-"That is not what one attempt would tell you."
-
-"Then I want to stop calling it untested."
-
-Hessa's expression changed by almost nothing.
-
-I had learned that almost nothing could be approval.
-
-Or indigestion.
-
-"Sit," she said.
-
-I sat.
-
-The familiar questions came again.
-
-Sleep.
-
-Food.
-
-Pain.
-
-Independent draw.
-
-Independent shaping.
-
-Independent external attempt.
-
-All ordinary.
-
-No.
-
-No.
-
-No.
-
-She checked pulse.
-
-Grip.
-
-Forearm.
-
-Hands.
-
-Then she looked at my palms.
-
-"Pressure?"
-
-I frowned.
-
-"Yesterday. Long walk. Resolved with rest."
-
-"Pain?"
-
-"No."
-
-"Blister?"
-
-"No."
-
-"Numbness?"
-
-"No."
-
-"Today?"
-
-"Normal."
-
-She checked anyway.
-
-Of course.
-
-"Why did you not write for an appointment?" she asked.
-
-"I was already walking."
-
-"That is not an answer."
-
-"I wanted to ask in person."
-
-"Why?"
-
-I thought about it.
-
-"Because asking felt different from being summoned."
-
-Hessa wrote something.
-
-"What?"
-
-"Not relevant to today's magic."
-
-"Then stop writing it."
-
-"No."
-
-Cruel institution.
-
-She closed that page and opened another.
-
-"Not today."
-
-I sighed.
-
-"Of course."
-
-"Tomorrow. Same time as prior morning sessions. Rested. Eat first. Bring nothing."
-
-I looked at the far mark.
-
-"Far?"
-
-"Maybe."
-
-"You are stealing my language."
-
-"Leave."
-
-"I came here voluntarily."
-
-"You may leave voluntarily."
-
-I did.
-
-At home, Cala was cutting something green.
-
-Not mint.
-
-I did not ask because I knew the broad category of vegetable and lacked professional need for the exact variety.
-
-This was another suspicious sign of growth.
-
-Lyssa sat by the window with a folded pale cloth across her lap.
-
-Tavi had two spoons.
-
-The cup was absent.
-
-Peace had returned.
-
-"Guild tomorrow," I said.
-
-Lyssa looked up.
-
-"Magic?"
-
-"Yes."
-
-"Hessa?"
-
-"Yes."
-
-Cala nodded.
-
-No one reacted as if I had announced war.
-
-That was nice.
-
-Tavi said, "Door red."
-
-Peace remained theoretical.
-
-I slept well.
-
-I ate before leaving.
-
-No cabbage.
-
-No lucky coin.
-
-No paper square hidden in my sleeve because I had survived nineteen years and nearly sixty more before that without becoming that stupid.
-
-The three copper stayed upstairs.
-
-The bag stayed home too.
-
-Hessa had said bring nothing.
-
-I brought nothing except the two crutches I required to arrive.
-
-The Guild room looked the same.
-
-Narrow board.
-
-Three marks.
-
-Near.
-
-Middle.
-
-Far.
-
-Same pale paper square.
-
-Or the same square as before if Hessa had not replaced it.
-
-She answered before I asked.
-
-"Same square."
+"You play bridges?"
 
 I stopped.
 
-"You knew."
+"Sometimes."
 
-"Yes."
+"Sit."
 
-"Stored intentionally?"
+There are invitations that require thought.
 
-"Yes."
+This one involved a chair.
 
-That was more information than she had given me last time.
+I looked at the chair.
 
-I became suspicious.
+Low back. Four legs. No obvious trap.
 
-"Why tell me now?"
+I looked at the table.
 
-"Because today it matters."
+A shallow board had been cut into it.
 
-"How?"
+Six crossing lines ran from one side to the other with little square islands between them. Small dark and pale pieces sat on the lines.
 
-"You have prior observations on this object."
+I knew the game.
 
-"So same object controls one variable."
+Broadly.
 
-"Partly."
+"Short board?" I asked.
 
-I looked at the board.
+The woman nodded.
 
-The square sat on the table, not yet placed.
-
-Hessa pointed at the chair.
-
-I sat.
-
-Body first.
-
-Again.
-
-Sleep.
-
-Food.
-
-Pain.
-
-Independent draw.
-
-Independent shaping.
-
-Independent external attempt.
-
-No.
-
-No.
-
-No.
-
-Hands normal.
-
-Palms normal.
-
-Forearms normal.
-
-Right leg fine.
-
-Residual limb comfortable.
-
-Shoulders ordinary.
-
-She checked anyway.
-
-Then she said, "Today's protocol is conditional."
-
-"On what?"
-
-"Body and observed control."
-
-"How many?"
-
-"Three maximum. I may stop after one or two."
-
-"Positions?"
-
-"Near first. Middle second if I continue. Far third if I continue."
-
-I stared at her.
-
-"Far selected."
-
-"Conditionally."
-
-"Before I succeed at middle today."
-
-"Correct."
+"Market board."
 
 That mattered.
 
-Last session I had wanted success to unlock the next distance.
+I had played long bridges in barracks and guild halls in my first life, usually while waiting for somebody more responsible to finish paperwork. The full board used nine crossings and took long enough for arguments to become historical.
 
-Hessa had hated the sentence.
+Six was civilized.
 
-Now the protocol itself refused the reward ladder.
+"I know long."
 
-Near was not a test I had to pass to earn middle.
+"Then lose short."
 
-Middle was not a test I had to pass to earn far.
+"Strong recruitment."
 
-They were observations in sequence, conditional on safety and control.
+She kicked the empty chair toward me with one foot.
 
-"Why near?" I asked.
+I moved closer.
 
-"Current-day control."
+The two crutches created the first problem.
 
-"Why middle?"
+Not a serious one.
 
-"Current-day comparison to prior middle observations."
+There was no good place to lean them without putting one behind another player's chair or letting both fall under the table.
 
-"Why far?"
+The man opposite me reached down and shifted a little clay stand beside the table.
 
-"Because you asked a useful question."
+Two grooves.
 
-I looked at her.
+Crutch width.
 
-"That almost sounded kind."
+He did not explain it.
 
-"Do not make it strange."
+I set the crutches there.
 
-"Too late."
+They stayed upright against the table edge.
 
-She placed the square at near.
+I looked at the stand.
 
-Attempt seventy.
+"Convenient."
 
-The number felt heavier than it deserved.
+"Canes," he said.
 
-I settled.
+"Crutches today."
 
-Hand loose.
+He shrugged.
 
-Shoulder down.
+The infrastructure accepted reclassification.
 
-Breathing ordinary.
+I sat.
 
-Minimal permitted draw within the established external-effect protocol.
+Right foot planted.
 
-No added reach.
+Left knee clear.
 
-No longer duration.
+The chair was high enough that standing later would not become a separate chapter.
 
-Direction away.
+Good.
 
-"Expectation?" Hessa asked.
+The woman pushed three pale pieces toward me.
 
-"Some response more likely than no response."
+"You're white."
 
-"Evidence?"
+"They're tan."
 
-"Near has one clean response in three prior attempts. Not strong evidence. Familiar distance."
+"White."
 
-"Anything else?"
+"I accept local authority."
 
-"I want today to work because I requested it."
+The pieces were round, flat, and heavy for their size.
 
-She wrote that.
+Stone mixed with something metallic.
 
-"That is not evidence," I said.
+Their undersides gave the faintest tack against the board when I set one down.
 
-"Correct."
+Hold glaze.
 
-"I knew."
+Ordinary game-table treatment. Enough grip that a bumped table or passing cart did not erase twenty minutes of poor decisions.
 
-"Then begin."
+I had played with waxed pieces, magnetic iron boards, little cling charms, even one ridiculous officers' set that announced illegal moves in a woman's disappointed voice.
 
-I worked.
+This table merely kept its pieces where people put them.
 
-The square did nothing for the first part of the attempt.
+The woman tapped the first crossing.
 
-Then it slid.
+"Bell side starts."
 
-Small.
+I looked toward the street.
 
-Away.
+There was, in fact, a small brass bell fixed to the awning post on my right.
 
-Clean enough that I saw the leading edge cross one grain line in the board.
-
-I stopped on time.
-
-Hessa moved immediately.
-
-Board.
-
-Square.
-
-Window.
-
-Thread.
-
-Floor.
-
-Me.
-
-She measured the shift.
-
-"Observed small net displacement away."
-
-I breathed out.
-
-Near.
-
-One clean response.
-
-No drama.
-
-My heart tried anyway.
-
-"Body?" she asked.
-
-"Fine."
-
-"Urge to increase?"
-
-"Low."
-
-"Because?"
-
-"It already moved."
-
-"That can also increase urge."
-
-"Not this time."
-
-She checked me.
-
-Fine.
-
-Then she moved the square to middle.
-
-Attempt seventy-one.
-
-Same position as before.
-
-Same square.
-
-Same direction.
-
-My attention sharpened.
-
-"Expectation?"
-
-"Low to medium."
-
-"Evidence?"
-
-"One clean middle displacement in five prior attempts across two sessions. One possible edge lift in another."
-
-"Anything else?"
-
-"Near moved today, which emotionally feels relevant and scientifically may not be."
-
-"Good."
-
-I hated when she approved sentences that made me sound boring.
-
-I settled.
-
-Start.
-
-I worked.
-
-Nothing happened.
-
-Not a lift.
-
-Not a curl.
-
-Not a slide.
-
-The square remained flat.
-
-I stopped on time.
-
-Hessa checked.
-
-"No observed response."
-
-I nodded.
-
-Disappointment arrived.
-
-Smaller than it would have months ago.
-
-Still there.
-
-"Body?"
-
-"Fine."
-
-"Urge to increase?"
-
-I looked at the far mark.
-
-"Higher."
-
-"Why?"
-
-"Because middle failed and far is farther. My brain wants to compensate before we even try."
-
-"Will you?"
-
-"No."
-
-"Certain?"
-
-I breathed once.
-
-Then again.
+"Literal bell side."
 
 "Yes."
 
-Hessa checked pulse.
+"I admire clarity."
 
-Hands.
+The man across from me said, "Move."
 
-Forearm.
+"Already?"
 
-She watched my face longer than I liked.
+"You sat."
 
-Then she picked up the square.
+Apparently onboarding was complete.
 
-My chest tightened.
+I moved one pale piece onto the first crossing.
 
-She moved it past middle.
+The woman immediately moved dark around it.
 
-To far.
-
-The far mark had been painted on that board for so long that it had stopped feeling like a real place.
-
-Near was where something could happen.
-
-Middle was where something had happened once.
-
-Far was a word Hessa used to ruin conversations.
-
-Now the paper sat there.
-
-Nothing else changed.
-
-The room did not become colder.
-
-No hidden apparatus unfolded.
-
-No Guild witnesses entered.
-
-No bell rang.
-
-Far was just farther.
-
-Attempt seventy-two.
-
-Hessa did not speak for a moment.
-
-Neither did I.
-
-Then she said, "Permission remains the same. Minimal established attempt. Direction away. No compensation for distance. No extension in duration. One attempt only at far today."
-
-"One."
-
-"Yes."
-
-"Even if nothing happens."
-
-"Especially if nothing happens."
-
-Fair.
-
-"Expectation?"
-
-I looked at the square.
-
-"Low."
-
-"Why?"
-
-"Far has never been tested. Middle is already unreliable. Distance feels like it should matter, though current evidence does not establish how."
-
-"Anything else?"
-
-"I want this one more than I wanted near."
-
-"Evidence?"
-
-"No."
-
-She wrote.
-
-I opened my hand.
-
-Shoulder down.
-
-Breathing ordinary.
-
-No reaching with the body.
-
-No leaning toward the board.
-
-No imagined rope between me and the square.
-
-No old-life spell structure forced onto a weak current-life effect.
-
-Just the same minimal attempt.
-
-"Begin."
-
-I worked.
-
-Nothing happened.
-
-I kept the attempt inside the established duration.
-
-The square remained flat.
-
-My mind started offering suggestions.
-
-Push harder.
-
-Hold longer.
-
-Narrow focus.
-
-Change angle.
-
-Reach.
-
-I did none of them.
-
-The end cue came.
-
-I stopped.
-
-The paper had not moved.
-
-Hessa checked anyway.
-
-Board.
-
-Square.
-
-Thread.
-
-Window.
-
-Floor.
-
-Me.
-
-She crouched to inspect the paper edge from the side.
-
-Then stood.
-
-"No observed response at far."
-
-There it was.
-
-The sentence I had come for.
-
-Not the sentence I wanted.
-
-The sentence I came for.
-
-I sat back.
-
-"Far is tested."
-
-"Once."
-
-"Far is tested once."
-
-"Yes."
-
-"No response."
-
-"Correct."
-
-"Can we say far does not work?"
-
-"No."
-
-"I know."
-
-"Then why ask?"
-
-"Grief requires ritual."
-
-Hessa ignored that.
-
-"Can we say distance reduced response today?" I asked.
-
-"No."
-
-"Near responded. Middle did not. Far did not."
-
-"Three attempts at three positions in one session do not establish a distance-response relationship."
-
-"Can we say near was the only position with observed response today?"
-
-"Yes."
-
-"Can we say far is no longer untested?"
-
-"Yes."
-
-That helped more than it should have.
-
-Untested had become one no-response attempt.
-
-Small information.
-
-Real information.
-
-I looked at the far mark.
-
-"Again next time?"
-
-"Not selected."
-
-"Middle?"
-
-"Not selected."
-
-"Near?"
-
-"Not selected."
-
-"Different object?"
-
-"Not selected."
-
-"You have a rich vocabulary."
-
-"Body."
-
-She checked everything again.
-
-Hands warm but ordinary.
-
-No tingling.
-
-No weakness.
-
-No pain.
-
-Forearm normal.
-
-Pulse settling.
-
-Shoulders fine.
-
-Right leg fine.
-
-Residual limb comfortable.
-
-"Totals?" I asked.
-
-"Thirty-six supervised minimal draws. Thirty-two deliberate shaping attempts. Seventy-two supervised external-effect attempts."
-
-"Near today one clean in one."
-
-"Yes."
-
-"Middle today zero in one."
-
-"Yes."
-
-"Far today zero in one."
-
-"Yes."
-
-"Aggregate near?"
-
-"Two observed clean responses in four attempts at the established near position."
-
-"Middle?"
-
-"One observed clean net displacement in six attempts at the established middle position, plus one prior possible edge-lift event."
-
-"Far?"
-
-"Zero observed responses in one attempt."
-
-I repeated it quietly.
-
-Two in four.
-
-One in six, plus possible.
-
-Zero in one.
-
-That pattern looked like a story.
-
-Hessa saw my face.
-
-"Do not turn three small samples into a law."
-
-"I was about to."
-
-"I know."
-
-"It is a very attractive law."
-
-"Still no."
-
-"Fine."
-
-She closed the notebook.
-
-"Restrictions outside supervised sessions remain unchanged."
-
-"No independent draw."
-
-"Correct."
-
-"No independent shaping."
-
-"Correct."
-
-"No independent external attempts."
-
-"Correct."
-
-"No testing kessa jumpers."
-
-Hessa looked at me.
-
-"What?"
-
-"Nothing."
-
-"Greg."
-
-"Local seed insects. Not relevant. No test."
-
-She stared.
-
-"Leave."
-
-"That is probably safest."
-
-I collected the crutches.
-
-Before standing, I looked at the far mark one more time.
-
-It had changed without changing.
-
-Same paint.
-
-Same distance.
-
-Different status.
-
-I stood.
-
-Right foot under.
-
-Push through the chair arm.
-
-Both crutches set.
-
-Easy.
-
-At the door I stopped.
-
-"Hessa."
-
-"What?"
+The third player, a narrow man with flour on one sleeve, said, "Bad."
 
 "Thank you."
 
-She looked annoyed by the possibility of sincerity.
+"Very bad."
 
-"You asked a useful question."
+"Your coaching structure is aggressive."
 
-"That was almost worse."
+The woman said, "Don't help."
 
-"Leave."
+"I'm not."
 
-I left.
+The flour man looked pleased with himself.
 
-Outside, the Guild yard continued not caring that the far mark had changed category in my life.
+There were four seats but only two colors.
 
-A porter rolled a crate.
+Short bridges was normally played in pairs.
 
-Somebody dropped a bundle of cord.
+I looked at the pieces.
 
-The woman in the blue sash was still arguing about seal wax, which suggested either dedication or a terrible price.
+The woman and flour man had dark.
 
-I walked home.
+The quiet man across from me had pale.
 
-I did not stop at the kessa tray.
+So he was my partner.
 
-I did not inspect a high line.
+He had not introduced himself.
 
-I did not look for Nemi's court.
+Neither had anyone else.
 
-I did not pass Cooper Lane to see whether a chair was open.
+The game continued.
 
-Not because those things had stopped mattering.
+That was fine.
 
-Because today I already had enough.
+My second move was less bad.
 
-At home, Cala looked at me.
+My third was apparently offensive.
 
-"Magic?"
+My partner inhaled through his nose.
 
-"Yes."
+"That bad?"
 
-Lyssa came down from upstairs.
+"Mm."
 
-"Good?"
+I moved my hand back.
 
-I considered.
+"Committed?"
 
-"Useful."
+The woman slapped the table lightly.
 
-That was Hessa's word.
+"Hand off. Moved."
 
-I hated that it fit.
+Ah.
 
-"Near moved," I said. "Middle did not. Far did not."
+House rule.
 
-Lyssa paused.
+In most long-board games I knew, a piece was not committed until the next player touched theirs.
 
-"Far?"
+Here, hand off meant done.
 
-"Far. First test."
+"Good to know."
+
+"You said you know."
+
+"Long."
+
+"Short different."
+
+"At last, a city institution willing to admit regional variation."
+
+Nobody cared.
+
+The woman captured my piece.
+
+The flour man laughed.
+
+I liked them immediately.
+
+The barrel argument across the lane became louder.
+
+The missing fourth player was now pointing at a charcoal mark on one barrel.
+
+The cart man was pointing at a different charcoal mark.
+
+Neither had returned to the table.
+
+The woman glanced over once.
+
+"He's dead."
+
+"Probably not," I said.
+
+"Game dead."
+
+"That seems more likely."
+
+My partner moved.
+
+He played quietly and well.
+
+No wasted motion.
+
+He used the market board the way people use small kitchens, knowing exactly how much space existed without measuring it.
+
+The short board changed timing.
+
+On a long board, you could sacrifice an outer bridge early and rebuild through the middle.
+
+Here, losing one crossing narrowed everything immediately.
+
+I saw the difference three moves too late.
+
+The woman saw me see it.
 
 She smiled.
 
-Not because it moved.
+"Long."
 
-Because I had finally gotten to try.
+"Yes."
 
-That felt better than celebration would have.
+"Short now."
 
-Cala said, "Body?"
+"Painfully."
 
-"Fine."
+We lost.
+
+Not badly.
+
+Badly enough.
+
+The flour man leaned back.
+
+"Again."
+
+I looked at the street.
+
+I had nowhere I needed to be.
+
+This remained strange.
+
+"Same teams?"
+
+The woman said, "No."
+
+She pointed at me.
+
+"With me."
+
+My former partner gave a small nod that might have been relief.
+
+We reset the pieces.
+
+The hold glaze made a soft clicking sound as each stone released from the board.
+
+No one polished the board.
+
+No one checked the little bell.
+
+No one explained why a cooper's lane had a public game table.
+
+It was simply there.
+
+A boy carrying a stack of hoops stopped long enough to watch the opening.
+
+The flour man said, "Go work."
+
+The boy said, "I am."
+
+"Watching not work."
+
+"Watching you lose."
+
+The flour man threatened him with a dark piece.
+
+The boy left laughing.
+
+Second game.
+
+I was on dark.
+
+The woman beside me said, "You open."
+
+"Why?"
+
+"New loses first. New opens second."
+
+Another house rule.
+
+"Does that help the new player?"
+
+"No."
+
+"Excellent."
+
+I opened more carefully.
+
+This time I treated the edges as expensive.
+
+The short board did not reward patience exactly.
+
+It punished pretending there was more board than there was.
+
+That I understood.
+
+The flour man tried the same early pressure the woman had used against me.
+
+I gave him the outer crossing.
+
+My partner made a sound.
+
+Not approval.
+
+Concern.
+
+"Wait," I said.
+
+She waited because her move came after mine and she had no legal alternative.
+
+Three turns later the middle opened.
+
+I took it.
+
+The woman slapped my shoulder once.
+
+"Long man learns."
+
+"Slowly."
+
+The quiet man opposite me moved a pale piece into a square I had assumed was closed.
+
+I frowned.
+
+"That's blocked."
+
+He pointed at the awning bell.
+
+The bell had moved.
+
+Not rung.
+
+Moved.
+
+A little vane above it had turned with the breeze, rotating the bell bracket half a notch toward the lane.
+
+The flour man said, "Bell line open."
+
+I looked at the board.
+
+Then at the bell.
+
+Then back at the board.
+
+"You're using the wind?"
+
+The woman said, "Bell side changes."
+
+I knew variants where a marked side changed after a capture count or after a player passed.
+
+I had never played one tied to an actual awning bell turning with the local breeze.
+
+Not magic.
+
+Not exactly.
+
+The bracket had a little blue balance bead near the pivot, common low-friction hardware, but the wind itself was doing the choosing.
+
+"How often?"
+
+The flour man said, "When bell turns."
+
+"Yes. I have penetrated that layer of the system."
+
+The woman laughed.
+
+My quiet former partner said, "Don't plan on bell."
+
+That was probably the entire strategic lesson.
+
+I had been planning on the bell.
+
+I stopped.
+
+The open line gave pale a route I had not accounted for.
+
+The flour man grinned.
+
+"Long."
+
+"Wind has personally betrayed me."
+
+"Wind doesn't know you."
+
+"That makes it worse."
+
+The game tightened.
+
+A cart rolled past close enough to shake the street.
+
+The pieces stayed put.
+
+One of my crutches vibrated in the clay stand but did not fall.
+
+The awning snapped once overhead.
+
+The bell turned back.
+
+A line closed.
+
+The woman beside me immediately changed direction.
+
+No complaint.
+
+No pause.
+
+She had not been waiting for the wind.
+
+She had been ready for either board.
+
+That was different.
+
+I followed.
+
+We won six moves later.
+
+Barely.
+
+The flour man accused the wind.
+
+I stared at him.
+
+"You just told me the wind doesn't know anyone."
+
+"It knows her."
+
+The woman said, "Because I pay."
+
+"How much does wind cost?"
+
+"More than you."
+
+The barrel man finally came back.
+
+He stood beside my chair.
+
+"You're sitting."
+
+"I was given strong legal title."
+
+"That's my chair."
+
+The woman said, "You died."
+
+"I was working."
+
+"Same."
+
+He looked at the board.
+
+"Who won?"
+
+"We did," I said.
+
+He looked at me.
+
+"Then move."
+
+Fair.
+
+I reached for the crutches.
+
+The quiet man lifted one from the clay stand and handed it to me without comment.
+
+I took it.
+
+Then the other.
+
+Right foot under.
+
+Push from the chair arm.
+
+Stand.
+
+The bag stayed tight against my left ribs.
+
+No collision.
+
+The barrel man took his chair back before I had fully stepped away.
+
+This should have felt rude.
+
+It did not.
+
+The seat had been open.
+
+Now it was not.
+
+Simple.
+
+I stood near the awning post while they reset.
+
+The woman looked at me.
+
+"Tomorrow?"
+
+The question surprised me more than it should have.
+
+Not an appointment.
+
+Her tone was too careless for that.
+
+Maybe invitation.
+
+Maybe habit.
+
+Maybe nothing.
+
+"I don't know."
 
 She nodded.
 
-Correct priority.
+"Then maybe."
 
-Tavi entered holding the cup.
+That was all.
 
-I pointed at him.
+I almost asked their names.
 
-"Do not."
+Then realized I had just spent most of an hour with them without needing names.
 
-He hit the cup with one spoon.
+The thought bothered me.
 
-"Door red."
+Not because names did not matter.
 
-Magic had advanced.
+Because I had liked not needing a transaction before sharing space.
 
-Civilization had not.
+Still, I pointed at the woman.
 
-Upstairs, the three copper remained where I had left them.
+"Greg."
 
-The three clean sheets remained clean.
+She looked at me.
 
-I took out the narrow scrap and charcoal.
+Then pointed at herself.
 
-This time I wrote.
+"Vela."
 
-Not because everything interesting deserved a record.
+Flour sleeve said, "Orra."
 
-Because this was a controlled test and numbers were better when they did not rely on my mood.
+The quiet man said, "Demin."
 
-`70 NEAR: CLEAN SMALL AWAY.`
+The barrel man, already studying the board, said, "Sot."
 
-`71 MIDDLE: NO OBSERVED RESPONSE.`
+There.
 
-`72 FAR: FIRST TEST. NO OBSERVED RESPONSE.`
+Four names.
 
-Then:
+No ceremony.
 
-`TOTALS: 36 / 32 / 72.`
+Sot looked at my crutches.
 
-Below that I wrote:
+Not at the missing lower leg.
 
-`NEAR 2/4 CLEAN.`
+At the crutches.
 
-`MIDDLE 1/6 CLEAN + 1 POSSIBLE EDGE LIFT.`
+"Where you stay?"
 
-`FAR 0/1.`
+"Narrow court east of here. Cala's place."
 
-I stared at the last line.
+Vela snapped her fingers.
 
-Zero in one.
+"Cala."
 
-It was almost nothing.
+There it was again.
 
-It was also more than untested.
+I sighed.
 
-I did not write a theory underneath it.
+"Yes. Cala."
 
-The number also made the next temptation obvious.
+"You upstairs?"
 
-One more attempt would feel reasonable.
+"Yes."
 
-Then another.
+"Lyssa there?"
 
-A zero could always be blamed on one bad moment until I had spent the whole afternoon trying to bully uncertainty into becoming an answer.
+"Yes."
 
-That had been Old Greg's favorite kind of stupidity. He could survive enough repetition to mistake endurance for method.
+Orra pointed a dark piece at me.
 
-This body did not owe me that luxury.
+"Then I've seen you."
 
-Hessa had given me one far attempt because one far attempt was the protocol.
+"Doing what?"
 
-I had stopped because the attempt ended.
+"Walking."
 
-The paper had stayed still.
+I waited.
 
-Nothing about wanting a cleaner result changed any of those facts.
+That was apparently the whole sighting.
 
-That was not surrender.
+"Damning."
 
-It was the difference between testing a thing and fighting it.
+Demin said, "You talk more sitting."
 
-For once, the far mark did not need to be a promise.
+"I have more breath sitting."
 
-It could be one failed attempt.
+That earned the smallest smile I had seen from him.
 
-That was enough to make it real.
+Nobody asked what happened to my leg.
+
+Nobody asked whether the crutches were permanent.
+
+Nobody asked what work I did, what rank I held, who I had been, or why a nineteen-year-old spoke like a tired clerk whenever somebody mentioned prices.
+
+They had asked whether I knew bridges.
+
+That had been enough to get me into the chair.
+
+I had spent years in my first life entering rooms through titles.
+
+Rank.
+
+Class.
+
+Contract.
+
+Guild standing.
+
+Danger handled.
+
+Person vouched for.
+
+A seat at a street table required considerably less paperwork.
+
+Vela tapped the board.
+
+"Long board slow."
+
+"Long board has dignity."
+
+"Slow."
+
+"It has strategic depth."
+
+"Slow."
+
+Orra said, "Old people play long."
+
+I looked at him.
+
+"How old are you?"
+
+"Not old."
+
+"Compelling defense."
+
+Demin moved one pale piece back into the box.
+
+"Long is good in rain."
+
+That was the first positive thing anybody had said about my version.
+
+"Thank you."
+
+"Because nobody wants leave."
+
+Vela laughed hard enough to slap the table.
+
+I accepted defeat.
+
+I nodded.
+
+"Good game."
+
+Orra said, "You lost one."
+
+"And won one."
+
+"One-one."
+
+"That is how numbers work."
+
+Vela waved me away.
+
+"Go."
+
+I went.
+
+For half a street I expected the hour to turn into something else.
+
+A job lead.
+
+A favor.
+
+A message.
+
+A client.
+
+A reason the game mattered beyond itself.
+
+Nothing happened.
+
+A woman argued over cabbage.
+
+A mason carried three lengths of pale rod over one shoulder.
+
+Two little children chased a paper spinner that kept lifting half a foot off the ground whenever it crossed the warm air above a bakery vent.
+
+I knew that trick too.
+
+Folded heat fins.
+
+No charm needed.
+
+The spinner rose.
+
+The children screamed.
+
+It fell.
+
+They chased it again.
+
+I kept walking.
+
+At home, Cala was scraping the softer part from the second red onion.
+
+Not the soft onion from yesterday.
+
+The other one.
+
+Apparently time remained committed to vegetables.
+
+She looked at me.
+
+"No list?"
+
+"No."
+
+"Good."
+
+"I played bridges."
+
+That got more reaction than expected.
+
+"Where?"
+
+"Cooper lane. Short board under the patched awning."
+
+Cala nodded.
+
+"Vela."
+
+I stared.
+
+"Of course you know Vela."
+
+"She loud."
+
+"Accurate."
+
+"Orra there?"
+
+"Flour on sleeve?"
+
+"Yes."
+
+"Demin?"
+
+"Quiet."
+
+"Yes."
+
+I waited.
+
+"Sot?"
+
+Cala made a face.
+
+"What?"
+
+"Cheats."
+
+I laughed.
+
+"He did not play while I was there."
+
+"Still cheats."
+
+This was apparently a durable character assessment.
+
+Lyssa came in from the courtyard carrying folded cloth.
+
+"What?"
+
+"Greg play bridges."
+
+Lyssa looked at me.
+
+"You play?"
+
+"Long board, usually."
+
+"Short?"
+
+"Now."
+
+"Win?"
+
+"One."
+
+"Lose?"
+
+"One."
+
+She nodded.
+
+"Good."
+
+"Why does everybody evaluate ordinary life like equipment?"
+
+"Because good."
+
+There was no defeating her.
+
+Tavi appeared.
+
+"Bridge."
+
+"No bridge."
+
+"Fish?"
+
+"No fish."
+
+"Bag?"
+
+"Yes, the bag remains present."
+
+He accepted this summary and left.
+
+I went upstairs.
+
+Three copper remained where I had left them.
+
+The notes were in the bag.
+
+The charcoal was in the bag.
+
+Nothing had changed economically.
+
+Nothing had changed magically.
+
+Nothing had changed in my work.
+
+I had learned four names.
+
+That felt like enough.
+
+I wrote none of them down.
+
+This was difficult.
+
+Not because I would forget them.
+
+Because writing had become my method for proving that something counted.
+
+Price.
+
+Material.
+
+Distance.
+
+Result.
+
+What worked.
+
+What failed.
+
+Who paid.
+
+What remained uncertain.
+
+Vela, Orra, Demin, and Sot did not need to become a ledger.
+
+If I saw them again, I would remember.
+
+If I did not, the game had still happened.
+
+I left the scrap alone.
+
+The next day I passed Cooper Lane on my way nowhere important.
+
+The patched awning was there.
+
+The table was there.
+
+The clay crutch stand was there.
+
+All four seats were occupied.
+
+Vela had her back to me.
+
+Orra was arguing.
+
+Demin was quiet.
+
+Sot moved a piece and Vela slapped his hand.
+
+"Hand off."
+
+"Was off."
+
+"Was not."
+
+"Wind moved."
+
+"The wind did not move your hand."
+
+I stopped long enough to laugh.
+
+Vela looked over.
+
+"Greg."
+
+"Vela."
+
+No chair opened.
+
+Nobody told me to wait.
+
+I did not.
+
+I kept walking.
+
+At the corner, the little brass bell turned in the breeze.
+
+Behind me, four people immediately started arguing about what that meant for the board.
+
+I smiled.
+
+Carrow had not assigned me a role.
+
+It had done something smaller.
+
+It had made room for one game, then filled the chair again.

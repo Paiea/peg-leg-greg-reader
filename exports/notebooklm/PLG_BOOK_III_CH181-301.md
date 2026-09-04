@@ -48544,7 +48544,7 @@ We had gotten his questions instead.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 221
+# CHAPTER 224
 
 ## THE PARTICIPANT
 
@@ -49512,7 +49512,7 @@ For tonight, more than once was enough.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 222
+# CHAPTER 225
 
 ## THE PROPERTY MAN
 
@@ -50374,7 +50374,7 @@ That seemed like enough trouble to prepare for.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 223
+# CHAPTER 226
 
 ## THE MAINTENANCE MAN
 
@@ -51191,7 +51191,7 @@ That would have to be enough.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 224
+# CHAPTER 227
 
 ## THE CHECKER
 
@@ -52045,7 +52045,7 @@ I could live with that.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 225
+# CHAPTER 228
 
 ## THE STEWARD
 
@@ -52993,7 +52993,7 @@ Some problems deserved preparation.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 226
+# CHAPTER 229
 
 ## THE REFERENCE
 
@@ -54419,7 +54419,7 @@ Which was worse.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 227
+# CHAPTER 230
 
 ## THE BUNDLER
 
@@ -55543,7 +55543,7 @@ That one belonged to her.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 228
+# CHAPTER 231
 
 ## THE FLOWER BEARER
 
@@ -56751,7 +56751,7 @@ I did not check.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 229
+# CHAPTER 232
 
 ## THE ROAD ONE
 
@@ -57603,7 +57603,7 @@ For once, that was its only job.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 230
+# CHAPTER 233
 
 ## THE REPLICATE
 
@@ -59007,7 +59007,7 @@ No one recorded the result.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 231
+# CHAPTER 234
 
 ## THE MAGISTRATE
 
@@ -60123,7 +60123,7 @@ I took the other piece.
 
 It had more of the sharp spread on it anyway.
 
-## Chapter 232 — THE COUNTERSIGN
+## Chapter 235 — THE COUNTERSIGN
 
 The black coat was still on the chair when I woke.
 
@@ -61219,7 +61219,7 @@ So did I.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 233
+# CHAPTER 236
 
 ## THE SEAT
 
@@ -62175,7 +62175,7 @@ It remained a poor reward for good behavior.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 234
+# CHAPTER 237
 
 ## THE CONDITION
 
@@ -63505,7 +63505,7 @@ For once, the most reliable thing in the room was not the paper.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 235
+# CHAPTER 238
 
 ## THE TAGALONG
 
@@ -64573,7 +64573,7 @@ I stayed anyway.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 236
+# CHAPTER 239
 
 ## THE DISTRIBUTOR
 
@@ -65643,7 +65643,7 @@ The beans stayed wherever tomorrow had put them.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 237
+# CHAPTER 240
 
 ## THE BEARER
 
@@ -66827,7 +66827,7 @@ I kept the pages where I could see them.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 238
+# CHAPTER 241
 
 ## THE SEALER
 
@@ -67793,7 +67793,7 @@ I ate mine before the office could send anyone to seal it.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 239
+# CHAPTER 242
 
 ## THE WAITER
 
@@ -68769,7 +68769,7 @@ It was almost enough to make waiting feel like a job.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 240
+# CHAPTER 243
 
 ## THE SAMPLE
 
@@ -69764,7 +69764,7 @@ It had not made it simpler.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 241
+# CHAPTER 244
 
 ## THE SCRAPER
 
@@ -70846,7 +70846,7 @@ I left it there.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 242
+# CHAPTER 245
 
 ## THE SPENDER
 
@@ -71828,7 +71828,7 @@ That was the most useful thing I bought all day.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 243
+# CHAPTER 246
 
 ## THE MINDER
 
@@ -72986,7 +72986,7 @@ She turned away before I could improve anything.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 244
+# CHAPTER 247
 
 ## THE UNCLE
 
@@ -74132,7 +74132,7 @@ I had become old enough in Carrow to know what maybe was worth.
 I ate the cheese before it became evidence.
 ------------------------------------------------------------------------
 
-# CHAPTER 245
+# CHAPTER 248
 
 ## THE NAME-TAKER
 
@@ -74996,7 +74996,7 @@ That was where they belonged.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 246
+# CHAPTER 249
 
 ## THE MATCHER
 
@@ -75912,7 +75912,7 @@ Maren’s had remembered me as blue last time.
 
 I left the spool alone.
 
-# CHAPTER 247
+# CHAPTER 250
 
 ## THE PATRON
 
@@ -77194,7 +77194,7 @@ That was enough change for one day.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 248
+# CHAPTER 251
 
 ## THE CONSTANT
 
@@ -78309,7 +78309,7 @@ Tomorrow had acquired groceries.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 249
+# CHAPTER 252
 
 ## THE SHOPPER
 
@@ -79431,7 +79431,7 @@ Lyssa saw me.
 
 I hated everyone.
 
-# CHAPTER 250
+# CHAPTER 253
 
 ## THE SUBSTITUTE
 
@@ -80763,7 +80763,7 @@ The Uncle had forty-three lines.
 
 That was a real problem.
 
-# CHAPTER 251
+# CHAPTER 254
 
 ## THE UNDERSTUDY
 
@@ -81911,7 +81911,7 @@ I pointed at her.
 
 She smiled and went back to the pan.
 
-# CHAPTER 252
+# CHAPTER 255
 
 ## THE WASHER
 
@@ -83055,7 +83055,7 @@ The bed was clean.
 
 That was enough for one day.
 
-# CHAPTER 253
+# CHAPTER 256
 
 ## THE STEWARD
 
@@ -84325,7 +84325,7 @@ Nothing had become permanent just because it had happened twice.
 
 That seemed like a useful kind of ordinary.
 
-# CHAPTER 254
+# CHAPTER 257
 
 ## THE USHER
 
@@ -85821,7 +85821,7 @@ It had given me a door and then taken it back.
 
 For one day, that was work.
 
-# CHAPTER 255
+# CHAPTER 258
 
 ## THE NEIGHBOR
 
@@ -86951,7 +86951,7 @@ Tomorrow Sera's bowl needed returning.
 
 That was enough to make one door in our building belong to somebody instead of geography.
 
-# CHAPTER 256
+# CHAPTER 259
 
 ## THE STRANDED
 
@@ -88101,7 +88101,7 @@ Useful.
 
 Mostly rude.
 
-# CHAPTER 257
+# CHAPTER 260
 
 ## THE PLAYER
 
@@ -88947,7 +88947,7 @@ That was less frightening than it used to be.
 
 Mostly because I was tired and Hara had somehow made pears funny.
 
-# CHAPTER 258
+# CHAPTER 261
 
 ## THE PORTER
 
@@ -90199,7 +90199,7 @@ That was the important part.
 
 I had my own day to lose.
 
-# CHAPTER 259
+# CHAPTER 262
 
 ## THE SHEPHERD
 
@@ -91285,7 +91285,7 @@ That made the city feel slightly more like the world I remembered.
 
 I was not sure whether that was comforting.
 
-# CHAPTER 260
+# CHAPTER 263
 
 ## THE SORTER
 
@@ -92263,7 +92263,7 @@ Only one had paid in coin.
 
 I knew which one Lyssa would accept for onions.
 
-# CHAPTER 261
+# CHAPTER 264
 
 ## THE CUSTOMER
 
@@ -93251,7 +93251,7 @@ She said nothing.
 
 Good.
 
-# CHAPTER 262
+# CHAPTER 265
 
 ## THE MEASURE
 
@@ -94379,7 +94379,7 @@ It paid if it became real.
 
 For once, I was content to leave it that way.
 
-# CHAPTER 263
+# CHAPTER 266
 
 ## THE SHOPHAND
 
@@ -95658,7 +95658,7 @@ Occasionally badly timed.
 
 Mine.
 
-# CHAPTER 264
+# CHAPTER 267
 
 ## THE HOST
 
@@ -96618,7 +96618,7 @@ Full.
 
 I liked the difference.
 
-# CHAPTER 265
+# CHAPTER 268
 
 ## THE CONTROL
 
@@ -97594,7 +97594,7 @@ Tomorrow still had no assignment.
 
 The world had magic in it anyway.
 
-# CHAPTER 266
+# CHAPTER 269
 
 ## THE RUNNER
 
@@ -98568,7 +98568,7 @@ Fine.
 
 I started dinner.
 
-Not because Chapter 264 had transformed me into a cook.
+Not because Chapter 267 had transformed me into a cook.
 
 Because I was hungry and Lyssa was working.
 
@@ -98684,7 +98684,7 @@ Our shelf had four and a half onions after dinner.
 
 The world was getting stranger without becoming less ordinary.
 
-# CHAPTER 267
+# CHAPTER 270
 
 ## THE ERRAND
 
@@ -99726,7 +99726,7 @@ Six was still six.
 
 And somewhere above Hollen's street, a flock of glowwings was making Carrow more magical and one man's coat less so.
 
-# CHAPTER 268
+# CHAPTER 271
 
 ## THE CALLER
 
@@ -100932,7 +100932,7 @@ Someone had to know who was next.
 
 Today, temporarily, that had been me.
 
-# CHAPTER 269
+# CHAPTER 272
 
 ## THE COBBLER
 
@@ -101956,7 +101956,7 @@ Or nothing.
 
 For once, neither possibility belonged to me.
 
-# CHAPTER 270
+# CHAPTER 273
 
 ## THE WATCHMAN
 
@@ -102898,7 +102898,7 @@ Tolan's mother lost this round.
 
 I slept early anyway.
 
-# CHAPTER 271
+# CHAPTER 274
 
 ## THE DISTANCE
 
@@ -104214,7 +104214,7 @@ That wanting was not evidence.
 
 For once, I knew the difference before Hessa had to tell me.
 
-# CHAPTER 272
+# CHAPTER 275
 
 ## THE QUEUE
 
@@ -105336,7 +105336,7 @@ Neither required the other.
 
 That felt right.
 
-# CHAPTER 273
+# CHAPTER 276
 
 ## THE WITNESS
 
@@ -106356,7 +106356,7 @@ That was all.
 
 For once, all was enough.
 
-# CHAPTER 274
+# CHAPTER 277
 
 ## THE READER
 
@@ -107586,7 +107586,7 @@ And for one hour, my most valuable physical ability had been sitting still and r
 
 I could live with that.
 
-# CHAPTER 275
+# CHAPTER 278
 
 ## THE SCRAPER
 
@@ -108518,7 +108518,7 @@ That was all.
 
 Mella already knew the rest.
 
-# CHAPTER 276
+# CHAPTER 279
 
 ## THE MASK
 
@@ -109650,7 +109650,7 @@ That was fine.
 
 Tonight, one had been enough.
 
-# CHAPTER 277
+# CHAPTER 280
 
 ## THE APPRAISER
 
@@ -110898,7 +110898,7 @@ Tomorrow still had no job waiting.
 
 Now it had a question.
 
-# CHAPTER 278
+# CHAPTER 281
 
 ## THE CLIENT
 
@@ -112116,7 +112116,7 @@ That felt expensive.
 
 It also felt like the first purchase I had made for a future that was not simply trying to survive until next week.
 
-# CHAPTER 279
+# CHAPTER 282
 
 ## THE FINDER
 
@@ -113712,7 +113712,7 @@ It was barely a pattern.
 
 But it was the first time the question had paid me back.
 
-# CHAPTER 280
+# CHAPTER 283
 
 ## THE REPEAT
 
@@ -114838,7 +114838,7 @@ But wanting two things did not make either one mine.
 
 For once, I could live with that.
 
-# CHAPTER 281
+# CHAPTER 284
 
 ## THE SHARE
 
@@ -116198,7 +116198,7 @@ As far as I knew.
 
 That was enough for the day.
 
-# CHAPTER 282
+# CHAPTER 285
 
 ## THE SCENE PARTNER
 
@@ -117168,7 +117168,7 @@ Lyssa narrowed her eyes.
 
 She threw the stocking at me.
 
-# CHAPTER 283
+# CHAPTER 286
 
 ## THE WHOLESALE DOOR
 
@@ -118004,7 +118004,7 @@ He left the horse on the table.
 
 I kept it.
 
-# CHAPTER 284
+# CHAPTER 287
 
 ## THE WRONG CORNER
 
@@ -119102,7 +119102,7 @@ Outside, somewhere beyond the courtyard wall, one last dry clicking run started 
 
 I left the question marks where they were.
 
-# CHAPTER 285
+# CHAPTER 288
 
 ## THE SHORT MEASURE
 
@@ -120334,7 +120334,7 @@ Tonight I had three copper, three clean household sheets, one increasingly abuse
 
 That seemed like enough.
 
-# CHAPTER 286
+# CHAPTER 289
 
 ## THE WARM WALL
 
@@ -121388,7 +121388,7 @@ Maybe.
 
 I left that question mark too.
 
-# CHAPTER 287
+# CHAPTER 290
 
 ## THE CARRYING LIGHT
 
@@ -122186,7 +122186,7 @@ Also still three.
 
 For the first time, the scraps seemed like the better haul.
 
-# CHAPTER 288
+# CHAPTER 291
 
 ## THE RED THREAD
 
@@ -123160,7 +123160,7 @@ Tavi had obeyed the system.
 
 That might have been the most reliable magic I saw all day.
 
-# CHAPTER 289
+# CHAPTER 292
 
 ## THE GOOD STEP
 
@@ -124016,7 +124016,7 @@ I had spent one life powerful enough to walk over bad steps.
 
 This one was teaching me to notice who made them good.
 
-# CHAPTER 290
+# CHAPTER 293
 
 ## THE RAIN SHELF
 
@@ -124862,7 +124862,7 @@ Four copper sat untouched beside the scraps.
 
 For once, knowing the price of something did not make me want to own it.
 
-# CHAPTER 291
+# CHAPTER 294
 
 ## THE DOOR WEIGHT
 
@@ -125696,7 +125696,7 @@ That might have been the part Old Greg understood least.
 
 Not every useful thing I knew had to become mine.
 
-# CHAPTER 292
+# CHAPTER 295
 
 ## THE SHADE LINE
 
@@ -126416,7 +126416,7 @@ Not prophecy.
 
 Just something becoming slightly less good, and somebody noticing in time.
 
-# CHAPTER 293
+# CHAPTER 296
 
 ## THE THIRD HAND
 
@@ -127376,7 +127376,7 @@ Carrow had been carrying things all along.
 
 I had just finally bought myself a third hand.
 
-# CHAPTER 294
+# CHAPTER 297
 
 ## THE USUAL
 
@@ -128388,7 +128388,7 @@ I did not need to buy it early.
 
 That might have been what knowing the usual was for.
 
-# CHAPTER 295
+# CHAPTER 298
 
 ## THE OPEN SEAT
 
@@ -129430,7 +129430,7 @@ It had done something smaller.
 
 It had made room for one game, then filled the chair again.
 
-# CHAPTER 296
+# CHAPTER 299
 
 ## THE HELD NOTE
 
@@ -130560,7 +130560,7 @@ I kept walking.
 
 For once, knowing where the second line went was enough.
 
-# CHAPTER 297
+# CHAPTER 300
 
 ## THE HIGH LINE
 
@@ -131956,7 +131956,7 @@ Not enough to own it.
 
 Enough to recognize it.
 
-# CHAPTER 298
+# CHAPTER 301
 
 ## THE FAR MARK
 
@@ -133170,7 +133170,7 @@ It could be one failed attempt.
 
 That was enough to make it real.
 
-# CHAPTER 299
+# CHAPTER 302
 
 ## THE OTHER HANDLE
 
@@ -134360,7 +134360,7 @@ Some magic made a basket slightly less unpleasant to carry.
 
 And sometimes the useful thing was simply knowing which handle was yours.
 
-# CHAPTER 300
+# CHAPTER 303
 
 ## THE BLUE HORSE
 
@@ -135112,7 +135112,7 @@ The only thing that had flown was a badly painted blue horse.
 
 That seemed sufficient.
 
-# CHAPTER 301
+# CHAPTER 304
 
 ## THE FALSE DOOR
 

@@ -1,12 +1,12 @@
 # NON-CANON EDITORIAL PILOT
 
-Source: Chapter 271 — THE DISTANCE
+Source: Chapter 274 — THE DISTANCE
 
 Do not treat as authoritative manuscript prose until integrated through the structural pass.
 
 ---
 
-# CHAPTER 271
+# CHAPTER 274
 
 ## THE DISTANCE
 

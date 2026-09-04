@@ -170,7 +170,7 @@ This supports the long-range `truth under veil` direction without making theatre
 
 **ESTABLISHED — referral:** Chapter 217 contains one explicit customer referral: a satisfied cuff customer recommends another customer, whose new work is a shoulder seam. This establishes that referral can occur, but not a broad referral ladder or the identity of every later customer.
 
-**ESTABLISHED — recent work:** by Chapter 224 Lyssa is explicitly maintaining three customers. Current prose also establishes customer visits at the apartment, jobs delivered/paid off-page, several unrelated garments active at once, paid customer-requested cuff rework, Maren as a separate thread-supply shop route, and Chapter 227's customer-present fitting / insufficient-cloth refusal.
+**ESTABLISHED — recent work:** by Chapter 227 Lyssa is explicitly maintaining three customers. Current prose also establishes customer visits at the apartment, jobs delivered/paid off-page, several unrelated garments active at once, paid customer-requested cuff rework, Maren as a separate thread-supply shop route, and Chapter 230's customer-present fitting / insufficient-cloth refusal.
 
 **PRESSURE:** Lyssa's work should continue to make independent demands on time, space, errands, materials, customer interactions, and household rhythm. Existing nodes such as Marra, Jessa, established customers, and supply routes may recur selectively when current story use makes them relevant. Greg does not need to witness or understand every decision.
 

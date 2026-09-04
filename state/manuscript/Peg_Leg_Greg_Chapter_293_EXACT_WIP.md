@@ -1,959 +1,845 @@
 # CHAPTER 293
 
-## THE THIRD HAND
+## THE RAIN SHELF
 
-The salt had not damaged my shirt.
+It rained before breakfast.
 
-This was the strongest argument in favor of continuing to use my clothing as cargo storage.
+Not hard.
 
-The weaker arguments were that the packet had scratched my chest, shed three grains into the waistband of my trousers, and required me to lean against the kitchen table while Cala pulled it out because both my hands were occupied keeping two crutches from falling.
+Carrow had several kinds of rain and this was the irritating one. Enough to wet the street. Not enough to justify staying inside. Fine drops leaned past the courtyard wall and darkened the stone in patches.
 
-By breakfast, I had decided the system needed refinement.
+Cala looked up once.
 
-I demonstrated the problem for Lyssa.
+"Shelf."
 
-She was sitting near the window with a strip of dark cloth across one knee. I stood beside the table, put a folded scrap inside my shirt, took both crutches, and walked three steps.
+I looked at the shelf.
 
-The scrap slid downward.
+The shelf looked back with the moral innocence of furniture.
 
-I stopped.
+It was still standing away from the kitchen wall where we had left it after the old dry seal had worked itself nearly back to normal.
 
-"Efficient."
+"What about it?"
 
-Lyssa looked at me.
+"Rain shelf."
 
-"Pocket."
+"That explains almost nothing."
 
-"I have pockets."
+She pointed upward.
 
-"Use."
+Not at the shelf.
 
-"They are small."
+At the courtyard opening.
 
-"Then small things."
+A narrow wooden board ran beneath the edge of the upper gallery, sloped slightly toward the drain side. Rain struck the gallery stones above, reached the edge, and disappeared behind the board instead of dripping into the kitchen doorway.
 
-"This is a medium thing."
+I knew rain shelves.
 
-"It is paper."
-
-"Paper has ambitions."
-
-She went back to the cloth.
-
-Cala had a market bag.
-
-I knew because I had seen it hanging from a peg beside the kitchen for months. Heavy woven cloth, broad strap, enough capacity to transport vegetables, bread, or a child with poor judgment.
-
-I asked before touching it.
-
-"Can I try the market bag?"
-
-Cala looked at me.
-
-"Why?"
-
-"Because my shirt is not a bag."
-
-She considered this.
-
-Then nodded.
-
-I took the market bag from the peg and slung it across my body.
-
-The strap was too long.
-
-The bag settled against my left hip, which was not automatically a problem until I moved.
-
-First crutch.
-
-Right foot.
-
-Second crutch.
-
-The bag swung forward and struck the left crutch shaft.
-
-I stopped.
-
-Cala said, "No."
-
-"I noticed."
-
-I shortened the strap with a temporary knot.
-
-Tried again.
-
-Better.
-
-Then the bag swung backward, bounced against the side of my left thigh above the knee, and shifted the strap across my neck.
-
-Not dangerous.
-
-Annoying.
-
-I turned.
-
-The bag kept turning after I stopped.
-
-"Also no."
-
-Lyssa said, "Too big."
-
-"Yes."
-
-"Market bag."
-
-"Your naming system remains brutally accurate."
-
-Cala took it back.
-
-That settled the household option.
-
-I had used shoulder bags before. Satchels. Map cases. Field pouches. Harness packs. A great many pieces of equipment had been designed by people who assumed the wearer possessed two free hands and an equal number of useful legs.
-
-Others had not.
-
-Couriers solved carrying problems. Climbers solved them. Soldiers solved them. Adventurers solved them badly, expensively, or both.
-
-I did not need a grand solution.
-
-I needed somewhere to put paper, a little food, a few coins, and whatever small thing I was inevitably asked to carry while both hands remained on crutches.
-
-That was an actual need.
-
-Upstairs, the four copper sat where I had left them.
-
-I looked at them.
-
-This was different from rain thread.
-
-Different from a door repair.
-
-Different from discovering that something existed and immediately deciding I should own it.
-
-I had been putting things in my shirt.
-
-The evidence had become personal.
-
-I took one copper.
-
-Three remained.
-
-For the first time, the row looked changed because I had chosen to change it.
-
-I put the copper in my right trouser pocket.
-
-The irony was not lost on me.
-
-Then I went looking for a bag.
-
-Not a new bag.
-
-Carrow sold new things to people with stronger financial opinions.
-
-I went toward the used stalls near the old west arcade, where repaired shoes, patched coats, dented cookware, tool handles, buckles, boxes, and objects of uncertain ancestry occupied tables under mismatched awnings.
-
-I knew the district.
-
-I had walked through it before without needing anything specific.
-
-Needing something changed the street.
-
-A table of belts became relevant.
-
-A rack of child-sized cloaks did not.
-
-A man selling three military packs had exactly the wrong answer because every one of them rode too low and too wide for my crutches.
-
-The seller watched me test the smallest with one hand.
-
-"Good pack."
-
-"Probably."
-
-"Strong."
-
-"Also probably."
-
-"You want?"
-
-"It wants both my shoulders and half the lane."
-
-He looked at the crutches.
+Not that one.
 
 "Ah."
 
-We achieved mutual understanding.
+Cala looked at me.
 
-I moved on.
+"Ah."
 
-The next stall had leather pouches hanging from a horizontal pole.
+"I was looking at the wrong shelf."
 
-Most were belt pouches.
+"Yes."
 
-Too small.
+Tavi laughed with the cruelty of the very young.
 
-One had a long strap.
+I ate bread.
 
-Too narrow. It would cut into my shoulder with any useful weight.
+The rain shelf gave one small silver shimmer along its underside.
 
-Another was a soft courier sling with a broad cloth strap and a shallow body that looked promising until I lifted it.
+Then another.
 
-The bottom seam had separated for three inches.
+I had seen versions of the same thing in inns, barracks, field kitchens, caravan shelters, and one absurdly expensive adventurer lodge where the rain had been diverted into decorative stone fish mouths because apparently rich people required weather to perform.
 
-The seller said, "Easy fix."
+The broad idea was ordinary. A treated edge persuaded water to follow a chosen path instead of dripping wherever gravity first suggested.
 
-"Then fix it."
+This one was doing something slightly different.
 
-He looked offended by my attack on commerce.
+The water vanished behind the board.
 
-I put it back.
+I leaned sideways.
 
-At the far end of the arcade, a woman had six bags on hooks behind her table.
+"Where does it go?"
 
-Not a bag seller exactly.
+Cala pointed toward the courtyard drain.
 
-Her table also held two walking sticks, a cooking grate, a brass lamp frame, three wooden boxes, a chipped mirror, and one helmet with no obvious future.
+"Drain."
 
-Used goods.
+"Through the wall?"
 
-Better.
+"No."
 
-I stopped in front of the bags.
+"Behind the shelf?"
 
-She looked at my crutches.
+"Greg."
 
-Then at me.
+"One question."
 
-"Hands full."
+She stared at me.
 
-"Constantly."
+"Two questions."
 
-She pointed to a square shoulder bag.
+"One subject."
 
-"That."
+She went back to cutting bread.
 
-I lifted it.
+I took that as conditional permission to investigate without involving her.
 
-Brown leather, softened with age. Broad strap. Flat back. The body was about the size of two hands side by side and not much deeper than my thumb.
+The rain shelf ran from the kitchen side toward the courtyard corner. A thin line of water appeared at the far end and dropped into a little stone channel I had seen every day without caring about it.
 
-Useful.
+So not through the wall.
 
-I put the strap over my head and across my right shoulder so the bag rode on my left side.
+Along the board somehow, then down.
 
-Too low.
+Fine.
 
-I shortened the strap through the buckle.
+Familiar category. Local installation.
 
-The bag rose to my lower ribs.
+I did not need to discover rain management as a concept.
 
-I planted both crutches.
+I did, however, want to know why the water was not visible crossing the underside.
 
-Walked.
+I moved closer.
 
-The bag swung.
+The board had a shallow lip underneath, no deeper than my little finger. Inside the lip, something dark green had been pressed into a narrow groove.
 
-Not much.
+Not paint.
 
-Enough.
-
-The woman said, "Turn bead."
-
-I had already seen it.
-
-A little brass stay bead sat where the strap joined the upper back corner of the bag. Old courier hardware. I knew the class. Low-force stabilization, useful for keeping pouches, scabbard loops, map tubes, and other irritating objects from developing independent motion.
-
-I had used better versions in my first life.
-
-Much better.
-
-Those had been fitted into expedition harnesses that cost more than this entire stall probably contained.
-
-This bead had two worn notches and a thumb groove polished almost smooth.
-
-I turned it one notch.
-
-The brass gave a faint green blink.
-
-The bag pulled closer against my side.
-
-Not tight.
-
-Settled.
-
-I walked again.
-
-Crutch.
-
-Right foot.
-
-Crutch.
-
-The bag moved with me instead of after me.
-
-I turned.
-
-It followed.
+Not exactly moss either.
 
 I stopped.
 
-It stopped.
+That was new enough to deserve attention.
 
-That was promising.
+"Cala."
 
-"Old," I said.
+"No."
 
-The woman nodded.
+"I haven't asked yet."
 
-"Still works."
+"No touch."
 
-"One notch only?"
+"That was going to be my second question."
 
-"Two."
+"No."
 
-I turned it to the second.
+Reasonable.
 
-The bag hugged my ribs harder.
+I watched instead.
 
-Too hard.
+Rain reached the gallery edge.
 
-When I reached forward with the right crutch, the strap dragged across my chest.
+The underside of the board shimmered.
 
-I put it back to the first notch.
+A bead formed near the outer lip, flattened, then seemed to slide sideways into the groove.
 
-"One for walking."
+The dark green material deepened in color for a moment.
 
-"Two for riding."
+At the far end, water gathered and dropped into the channel.
 
-"Makes sense."
+A wick system, maybe.
 
-I did not ask how stay beads worked.
+A guided surface treatment.
 
-I knew what stay beads were.
+Some low draw effect.
 
-I cared whether this one still worked, whether the strap sat correctly on my body, whether the leather would take ordinary weight, and whether the bag could be opened without turning me into furniture.
+Or a combination.
 
-I tried the flap.
+I had seen water-follow treatments before. I had not seen this exact green-filled groove used on a household rain shelf.
 
-Simple wooden toggle.
+Tavi came over.
 
-One hand could open it.
+"Rain eats it."
 
-Closing it one-handed took longer.
+"The shelf?"
 
-Possible.
+"Green."
 
-The woman put two little iron weights inside.
+"Does the green eat the rain?"
 
-"Walk."
+"Yes."
+
+"Excellent. We have established the leading theory."
+
+Cala said, "No."
+
+Tavi looked offended.
+
+"It eats."
+
+"Carries," Cala said.
+
+That was more useful.
 
 I looked at her.
 
-"Those come with it?"
-
-"No."
-
-"Disappointing."
-
-I walked.
-
-The added weight changed the swing less than I expected.
-
-The stay bead held the bag close enough to keep it out of the crutch path.
-
-I went to the end of the arcade and back.
-
-Then I sat on a low stone ledge.
-
-The bag pressed into my side but did not trap under me.
-
-I stood.
-
-Right foot under.
-
-One crutch braced.
-
-Hand on ledge.
-
-Push.
-
-The bag stayed clear.
-
-Good.
-
-I tried stairs next.
-
-Only three.
-
-Up carefully.
-
-Down more carefully.
-
-The bottom corner touched my hip once but did not swing into either crutch.
-
-I returned to the stall.
-
-The woman had not looked worried that I might escape with the bag.
-
-Possibly because escaping rapidly on two crutches while wearing unpaid merchandise was not my strongest criminal plan.
-
-"How much?"
-
-"One copper."
-
-There it was.
-
-Exactly the amount in my pocket.
-
-I looked at the bag again.
-
-The leather had scratches.
-
-One seam near the flap had been restitched in darker thread.
-
-The buckle was plain iron.
-
-The stay bead was old but responsive on both settings.
-
-"Any tear under the back panel?"
-
-"No."
-
-"Bead ever drops setting?"
-
-"Not for me."
-
-"Strap replaced?"
-
-"Yes."
-
-"When?"
-
-She shrugged.
-
-"Before me."
-
-Of course.
-
-"Can I load paper flat?"
-
-She removed the iron weights.
-
-I took the narrow scrap from inside my shirt.
-
-I had carried it there specifically because apparently I required one final humiliation before purchasing a solution.
-
-The scrap fit.
-
-So did the older folded note beside it.
-
-The flap closed.
-
-Nothing bent.
-
-I moved twice.
-
-No paper migrated into my trousers.
-
-Strong performance.
-
-"One copper," she repeated.
-
-I took the copper from my pocket.
-
-Then stopped.
-
-Not because I had changed my mind.
-
-Because this was the first of the four.
-
-Halei.
-
-Maren.
-
-Nara.
-
-Miri.
-
-Four small paid answers.
-
-Four proofs that useful judgment could become money without becoming a grand profession.
-
-I had kept the copper separate partly because I wanted to see whether I could build something from it.
-
-I had imagined tools.
-
-Materials.
-
-Inventory.
-
-A better chance at the next piece of work.
-
-I had not imagined a bag.
-
-That made the purchase feel less ambitious.
-
-Also more honest.
-
-A bag did not promise profit.
-
-It promised that when somebody handed me salt, I would not have to store it against my skin.
-
-I gave her the copper.
-
-She bit it.
-
-I stared.
-
-She looked back.
-
-"Good."
-
-"I am relieved my money passed the dental examination."
-
-She put the coin away.
-
-The bag was mine.
-
-Three copper remained at home.
-
-No change.
-
-No conversion.
-
-No accounting problem.
-
-The woman pointed at the stay bead.
-
-"Don't oil."
-
-"I wouldn't."
-
-"Leather oil, no bead."
-
-"Understood."
-
-"Wet, dry first."
-
-"The bag or the bead?"
-
-"Both."
-
-That was sensible enough to preserve without building a theory.
-
-"Anything else?"
-
-"Don't fill heavy."
-
-"How heavy?"
-
-She looked at me.
-
-Then at the crutches.
-
-"Less."
-
-I laughed.
-
-"Excellent measurement."
-
-She had already turned to the chipped mirror.
-
-Transaction complete.
-
-I walked home by a longer route.
-
-Not because I needed to test the bag.
-
-Entirely because I needed to test the bag.
-
-I put the stay bead on the first notch.
-
-The bag stayed at my left ribs.
-
-The strap crossed from left side to right shoulder, broad enough not to cut.
-
-At a curb, I stepped down.
-
-No swing.
-
-At a narrow turn between a vegetable cart and a wall, I rotated my shoulders.
-
-The bag stayed inside my body line.
-
-That mattered.
-
-Anything sticking farther out than my elbows had a strong chance of meeting Carrow personally.
-
-I stopped beneath an awning and opened the flap one-handed.
-
-Harder standing than sitting.
-
-I could do it if I planted both crutches securely and held one grip against my forearm while working the toggle with my right hand.
-
-Not elegant.
-
-Possible.
-
-I closed it.
-
-Slower.
-
-Still possible.
-
-A man passing said, "New?"
-
-I looked at the scratched leather.
-
-"To me."
-
-He nodded as if that distinction covered most of life.
-
-At the next corner, I bought nothing.
-
-This was partly because I had no money left on me.
-
-My financial discipline remained heavily assisted by logistics.
-
-When I reached home, Cala noticed the bag before I said anything.
-
-"Bag."
-
-"Yes."
-
-"Yours?"
-
-"Yes."
-
-"How much?"
-
-"One copper."
-
-She looked at me.
-
-Not alarmed.
-
-Not impressed.
-
-Evaluating.
-
-I turned sideways.
-
-"Used. Strap replaced sometime before the seller had it. Stay bead works on both notches. One is better for walking. Two holds too tight."
-
-Cala touched the leather near the bottom seam.
-
-Then tugged the strap once.
-
-"Good."
-
-That was a stronger review than most businesses received.
-
-"Three copper left," I said.
-
-She nodded.
-
-I did not know whether I was reporting to her or myself.
-
-Tavi arrived.
-
-"Bag."
-
-"You and Cala should form an academy."
-
-"Mine?"
-
-"No."
-
-He reached for it.
-
-I turned away.
-
-"Mine."
-
-"Rock."
-
-"No rock."
-
-He held up yesterday's fish pebble.
-
-"No."
-
-"Fish."
-
-"Still no."
-
-"Shade."
-
-"This argument has changed categories."
-
-Lyssa came downstairs.
-
-She looked at the bag.
-
-Then at me.
-
-Then at the strap.
-
-"Walk."
-
-"Everyone in this city has become an equipment inspector."
-
-"Walk."
-
-I walked across the courtyard.
-
-She pointed.
-
-"Again."
-
-I turned and came back.
-
-She stopped me by touching the strap near my right shoulder.
-
-"Twist."
-
-I looked down.
-
-The broad strap had rolled slightly at the back where I could not see it.
-
-She flattened it.
-
-"Better."
-
-"Yes."
-
-She pointed at the bag.
-
-"Open."
-
-I opened it.
-
-"One hand?"
-
-"Mostly."
-
-"Show."
-
-I demonstrated the awkward standing method.
-
-She watched.
-
-Then she took the wooden toggle and rotated it ninety degrees before closing the flap.
-
-"Now."
-
-I opened it again.
-
-Easier.
-
-The loop slipped off with less pulling.
-
-I stared at her.
-
-"That was insulting."
-
-"Bag easy."
-
-"It was supposed to be a test of adaptation."
-
-"Now easy."
-
-I closed it.
-
-She had not changed the bag.
-
-She had changed the orientation of the toggle.
-
-A small local improvement.
-
-No thesis required.
-
-"Thank you."
+"The green carries the water?"
 
 "Mm."
 
-Tavi said, "Rock."
+"What is it?"
+
+She shrugged.
+
+"Rain thread."
+
+I looked back at the groove.
+
+"Actual thread?"
 
 "No."
 
-Lyssa looked at the pebble.
+Of course not.
 
-Then at me.
+Carrow remained committed to names that were useful right up until I asked a second question.
 
-"One rock."
+"Who put it in?"
 
-"Betrayal."
+"Old."
 
-"Test."
+"Before you lived here?"
 
-That was unfortunately reasonable.
+"Yes."
 
-I opened the bag.
+"Does it need replacing?"
 
-Tavi dropped the pebble inside.
+"Sometimes."
 
-It landed with a tiny thump.
+"How do you know?"
 
-"Fish."
+Cala pointed at the doorway threshold.
 
-"The fish is now cargo."
+"Wet."
 
-He looked satisfied.
+I smiled.
 
-I walked once around the courtyard carrying two scraps and one stone pretending to be a fish.
+"Strong diagnostic framework."
 
-The bag remained stable.
+"Wet bad."
 
-Cala handed me an onion.
+"Difficult to argue."
 
-I stopped.
+The threshold was dry.
 
-"Why?"
+Therefore, by household standards, the rain shelf was functioning.
 
-"Bag."
+I left it alone.
 
-"This has become a community evaluation."
+That should have been the entire magical event of the morning.
 
-"Carry."
+Then Lyssa came downstairs carrying the gray-brown coat from yesterday.
 
-I put the onion inside.
+She had turned it right side out.
 
-The bag bulged slightly but still closed.
+"You going?" Cala asked.
 
-I walked again.
+"Marra."
 
-No problem.
+I knew the route without thinking.
 
-Then Cala handed me a second onion.
+Lyssa folded the coat once over her arm.
 
-"Are we stress testing or making soup?"
+Cala handed her a cloth wrap for it because the rain was still fine enough to be annoying.
 
-"Carry."
+Lyssa covered the garment.
 
-I added it.
+Then she looked at me.
 
-The bag was now visibly rounder.
+"You out?"
 
-Still manageable.
+"Eventually."
 
-The stay bead blinked faint green when I turned.
+"Come half."
 
-I walked.
+That was unusual enough that I checked her face.
 
-The weight pulled more on the shoulder, but the bag did not swing.
+"Half where?"
 
-Useful.
+"Marra road. I carry this. You carry nothing."
 
-I stopped.
+"An excellent division of labor."
 
-"Enough."
+"You walk."
 
-Cala nodded.
+"I am also highly qualified."
 
-That was apparently the correct answer.
+She waited.
 
-I returned both onions.
+"Why half?"
 
-Tavi's pebble remained.
+"Jessa bring thing. I meet her. Then you go."
 
-He objected when I tried to give it back.
+Not an errand for me.
 
-"Fish live bag."
+Not a delivery.
+
+Not a new garment assignment.
+
+A shared route for part of the morning.
+
+"All right."
+
+I got the crutches.
+
+The rain had eased by the time we left, but the streets were slick enough to make me choose every right-foot placement instead of pretending wet stone was dry stone with atmosphere.
+
+Lyssa matched my pace without announcing that she was matching it.
+
+That had become ordinary too.
+
+We passed the repaired crossing from yesterday.
+
+Water ran cleanly over the curb edge and into the gutter.
+
+I noticed.
+
+I did not stop.
+
+Growth.
+
+Lyssa said, "You look."
+
+"I am allowed to look."
+
+"Yesterday stone?"
+
+"Yes."
+
+"Still stone."
+
+"Excellent field report."
+
+We kept going.
+
+At Bell Lane, carrying light moved pale across a wall above us.
+
+Neither of us looked up.
+
+At the next corner, a gutter mouth clicked as a little brass tongue lifted under the flow and let a rush of rainwater through.
+
+I knew those too.
+
+I did not interrogate it.
+
+I was becoming extremely mature.
+
+Lyssa stopped near a covered arcade where three shops shared a broad stone overhang.
+
+"Here."
+
+"This is half?"
+
+"Yes."
+
+"Your fractions remain geographically aggressive."
+
+She ignored that.
+
+Jessa appeared from the far end of the arcade with a bundle under one arm and a small basket in the other.
+
+I knew her well enough not to mistake her arrival for something meant for me.
+
+She greeted Lyssa first.
+
+"Marra says this one today."
+
+She handed over the bundle.
+
+Lyssa shifted the wrapped coat and took it.
+
+"Today finish?"
+
+"Today look. Woman comes late."
+
+Lyssa opened one corner of the bundle just enough to see dark blue cloth.
+
+"This hem?"
+
+"No. Side."
+
+"Which side?"
+
+Jessa tapped her own left hip.
+
+"Her left."
+
+Lyssa nodded.
+
+That was work shorthand I could understand without being invited into the job.
+
+Jessa looked at me.
+
+"Greg."
+
+"Jessa."
+
+"You carry?"
+
+"Apparently nothing. I have been given strict professional boundaries."
+
+Lyssa said, "Good."
+
+Jessa smiled.
+
+Then she reached into the basket and pulled out a little wooden spool.
+
+Not Lyssa's protected spool.
+
+This one was plainly ordinary, pale wood, wound with dark blue thread.
+
+"Maren no same," Jessa said.
+
+Lyssa took it, pinched the thread between finger and thumb, and held it beside the cloth.
+
+"Too black."
+
+"Marra say maybe inside."
+
+"Inside yes. Outside no."
+
+Jessa nodded.
+
+No crisis.
+
+No mystery.
+
+A color mismatch.
+
+The kind of thing that existed in a world where people made clothes by hand and cared what they looked like.
+
+I knew thread matching broadly. I also knew better than to offer my eye when two professionals were already using theirs.
+
+Then the light changed.
+
+Not magical light.
+
+Cloud light.
+
+The rain thinned, and the gray arcade brightened.
+
+The dark blue cloth shifted visibly warmer.
+
+Lyssa moved it closer to the open edge of the arcade.
+
+Jessa followed.
+
+The thread that had looked nearly right in shade now looked wrong.
+
+Too flat. Too dark.
+
+Lyssa said, "See."
+
+Jessa made a face.
+
+"Mm."
+
+I remembered Lyssa saying the window was better for some color than carrying light.
+
+Not because carrying light was false.
+
+Because light changed judgment.
+
+Ordinary craft fact in a magical city.
+
+I did not say this aloud.
+
+That was my second act of maturity in ten minutes.
+
+Jessa put the spool back in her basket.
+
+"I go Maren again."
+
+Lyssa shook her head.
+
+"No. I go after Marra."
+
+"You have coat."
+
+"I have legs."
+
+I looked down at myself.
+
+Lyssa saw.
+
+"Two enough."
+
+"Cruel."
+
+Jessa laughed.
+
+"You want him go?"
 
 "No."
 
-"Fish bag."
+Immediate.
 
-"Absolutely not."
+Clean.
 
-Lyssa took the pebble and put it in his cup.
+I appreciated the clarity.
 
-"Fish home."
+Jessa handed Lyssa the basket anyway.
 
-Tavi accepted this legal settlement.
+"Take. I go south."
 
-Upstairs, I put the bag on the table beside the three remaining copper.
+Lyssa accepted it.
 
-For a moment the arrangement looked like a business decision.
+There was some exchange in that gesture I did not fully know. Borrowed basket, route convenience, work habit, favor, ownership. I did not need to label it.
 
-Three copper and a new piece of equipment.
+Jessa left south.
 
-Then I remembered the onion.
+Lyssa now had the coat, the dark blue bundle, and the basket.
 
-It was not business equipment.
+I said, "You have reached the point where my empty hands are becoming insulting."
 
-It was life equipment.
+"You carry basket."
 
-That distinction mattered more than I expected.
-
-I moved the scraps into the bag.
-
-Not everything.
-
-Only the current narrow scrap, one folded older note, and a short charcoal stick wrapped in cloth.
-
-The bag had room left.
-
-I resisted filling it because empty space was also useful.
-
-Old Greg had owned equipment designed for dangerous roads, long campaigns, bad weather, monsters, mana storms, and people who wanted him dead.
-
-This bag had been designed for somebody carrying messages through a city.
-
-Its great achievement was not interfering with my crutches.
-
-At nineteen, in Carrow, that was enough to make it valuable.
-
-I turned the stay bead off before setting the bag down.
-
-The next morning, I put it on before I reached for the crutches.
-
-That order felt strange.
-
-Shirt.
-
-Trousers.
-
-Bag.
-
-Crutches.
-
-I went downstairs.
-
-Cala handed me a folded shopping note.
-
-No explanation.
-
-I opened the flap.
-
-Put the note inside.
-
-Closed it.
-
-She nodded.
+I took the basket.
 
 There it was.
 
-The bag had lasted less than a day before becoming ordinary.
+A promotion.
 
-I liked that.
+"My responsibilities expand."
 
-Outside, the front door closed softly behind me.
+"Don't drop."
 
-At the first corner, I passed a woman carrying a basket on her head.
+"And immediately there is management pressure."
 
-At the second, a boy dragged a sack twice his width.
+We walked another block together.
 
-At the third, a courier ran past with three flat cases strapped across his back and two stay beads flashing blue at each turn.
+At the next corner Lyssa stopped.
 
-I knew what his equipment was doing.
+"You go home?"
 
-He knew what mine was doing.
+"Probably not yet."
 
-Neither of us stopped.
+"Then give."
 
-Carrow did not care that I had solved carrying.
+I handed the basket back.
 
-Carrow had been carrying things all along.
+My career ended quickly.
 
-I had just finally bought myself a third hand.
+"You are going to Marra, then Maren?"
+
+"Yes."
+
+"For the blue?"
+
+"Yes."
+
+"Same job?"
+
+She looked at me.
+
+I raised one hand.
+
+"Not asking details. Just confirming the visible sequence."
+
+"Same job."
+
+"Thank you."
+
+She adjusted the bundle under her arm.
+
+"You learning."
+
+"Slowly."
+
+"Very."
+
+Then she went toward Marra's green-door route.
+
+I went the other way.
+
+That was the entire overlap.
+
+No invitation into the fitting.
+
+No request to source thread.
+
+No business consultation.
+
+I had walked half a route with the woman I lived with and carried a basket for one block.
+
+It felt more intimate than some conversations we had had about death.
+
+I did not examine that too closely.
+
+The rain stopped completely by midday.
+
+Steam rose from darker roof tiles where the sun reached them.
+
+I ended up near the lower market because I had no better plan and because a man was roasting chestnuts under a striped awning.
+
+I did not buy chestnuts.
+
+This was not discipline.
+
+I had no ordinary spending money with me.
+
+The four client copper were at home.
+
+I considered this evidence that leaving capital physically behind was an excellent financial strategy.
+
+A woman beside the chestnut stall was selling little bundles of dried green material tied with straw.
+
+Rain thread.
+
+I recognized it from the kitchen shelf groove.
+
+That was enough to stop me.
+
+Not because I needed some.
+
+Because the household had some old enough that Cala said it sometimes needed replacing.
+
+Actual potential future need.
+
+I looked at the bundles.
+
+The seller noticed.
+
+"Roof?"
+
+"Rain shelf."
+
+She picked up a smaller bundle.
+
+"This."
+
+I did not ask what it was.
+
+I asked, "For a shallow groove under wood?"
+
+"How wide?"
+
+I held my little finger up.
+
+"Less than this."
+
+"Maybe this. Maybe split."
+
+Good.
+
+Local use mattered.
+
+"Does it need a treatment before it goes in?"
+
+"If shelf old, yes."
+
+"What treatment?"
+
+"Depends shelf."
+
+Also good.
+
+"Who usually does that?"
+
+She shrugged.
+
+"House. Carpenter. Rain man. Whoever knows."
+
+Rain man was either a trade category or a person she expected me to know.
+
+I did not know which.
+
+I did not force it.
+
+"How much for the small bundle?"
+
+"Two bits."
+
+I did not know whether that was cheap relative to a copper because our currency conversion remained an insult to accounting.
+
+More importantly, I had not been asked to buy it.
+
+"Thanks."
+
+I started to leave.
+
+She said, "You need?"
+
+"Not today."
+
+"Then why ask?"
+
+I considered several answers.
+
+"I live under one."
+
+That satisfied her more than it satisfied me.
+
+I walked home.
+
+The rain shelf was dry now.
+
+The green groove had faded from dark green to gray-green.
+
+I pointed up.
+
+"Cala."
+
+She looked.
+
+"I saw rain thread at lower market. Small bundle is two bits. Seller said an old shelf may need treatment depending on the shelf."
+
+Cala stared at me.
+
+"Ours good."
+
+"Yes."
+
+"No buy."
+
+"I did not buy."
+
+She looked genuinely surprised.
+
+This was hurtful.
+
+"I am capable of gathering information without converting it into inventory."
+
+"Mm."
+
+"That sounded doubtful."
+
+"Mm."
+
+Tavi was now using the roof-tile house as a boat again.
+
+Apparently real estate remained liquid.
+
+I went upstairs.
+
+Four copper.
+
+Still four.
+
+Three clean sheets.
+
+Still three.
+
+I took the scrap with the cup and road notes and found almost no room left.
+
+I considered starting another scrap.
+
+Then stopped.
+
+Did I need to record rain thread?
+
+I knew what it was now in the local household sense. Cala knew more about whether ours needed replacement than I did. The seller had given me no universal treatment. No purchase. No client. No job.
+
+I wrote only:
+
+`RAIN THREAD SMALL BUNDLE: 2 BITS AT LOWER MARKET. OURS GOOD.`
+
+Then I added:
+
+`DO NOT BUY BECAUSE YOU LEARN PRICE.`
+
+That was probably the more important line.
+
+Lyssa came home later with no basket.
+
+She had the gray-brown coat but not the dark blue bundle.
+
+I noticed the difference.
+
+I did not ask where every object had gone.
+
+She sat by the window and opened the coat.
+
+"Maren have thread?" I asked.
+
+She looked at me.
+
+That was a legitimate question because I had witnessed the mismatch and the route.
+
+"Yes."
+
+"Better match?"
+
+"Yes."
+
+"Good."
+
+I stopped.
+
+She waited.
+
+I waited.
+
+"That all?" she asked.
+
+"I can ask more if you prefer."
+
+"No."
+
+"Then yes."
+
+She smiled.
+
+I told her about the rain thread price.
+
+She already knew rain thread.
+
+Of course she did.
+
+"Two bits small?" she asked.
+
+"Yes."
+
+"Too much."
+
+I sat up.
+
+"Ah. Market intelligence. Why?"
+
+"Small bundle one bit near Marra."
+
+"Same kind?"
+
+"Maybe."
+
+I lay back down.
+
+"You destroyed my arbitrage before it existed."
+
+"Good."
+
+"I wasn't going to buy it."
+
+"Good."
+
+"Cala also didn't believe me."
+
+"Smart."
+
+This household had no faith in entrepreneurship.
+
+Downstairs, a drop of leftover rain fell from somewhere into the courtyard channel.
+
+Then another.
+
+The threshold stayed dry.
+
+The rain shelf worked.
+
+Lyssa's thread route worked.
+
+The repaired crossing worked.
+
+Carrow was full of systems I had known in broad outline for decades and local versions I had never needed to see.
+
+I did not need to turn every one into work.
+
+That was becoming its own kind of competence.
+
+Four copper sat untouched beside the scraps.
+
+For once, knowing the price of something did not make me want to own it.

@@ -1,6 +1,6 @@
 # NON-CANON EDITORIAL PILOT
 
-Sources: Chapter 269 — THE COBBLER + selected Chapter 270 — THE WATCHMAN
+Sources: Chapter 272 — THE COBBLER + selected Chapter 273 — THE WATCHMAN
 
 Do not treat as authoritative manuscript prose until integrated through the structural pass.
 
@@ -8,7 +8,7 @@ Do not treat as authoritative manuscript prose until integrated through the stru
 
 ---
 
-# CHAPTER 269
+# CHAPTER 272
 
 ## THE COBBLER
 

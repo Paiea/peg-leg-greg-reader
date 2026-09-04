@@ -12,7 +12,7 @@ Core loop:
 
 **EXPLORE → RESEARCH only where a real specificity gap exists → SYNTHESIZE → UPDATE STATE → IDENTIFY NEW EDGE → RE-PROMPT → continue**
 
-Current manuscript authority at this checkpoint is Chapter 229 — **THE ROAD ONE**. Re-read current GitHub authority first because 01 may advance.
+Current manuscript authority at this checkpoint is Chapter 232 — **THE ROAD ONE**. Re-read current GitHub authority first because 01 may advance.
 
 ## CURRENT 03 FILTER
 
@@ -41,8 +41,8 @@ Recent manuscript-first archaeology has now been integrated by Story Control:
 - one explicit Chapter-217 referral exists narrowly; broader referral business remains possibility.
 - Maren is a separate lighter supply node: **Marra ≠ Maren**.
 - most unnamed customer/material chains remain passive history.
-- Chapter 229 validates changed return naturally: Greg knows Marra's route and work lane without instruction; Marra still calls him `the road one`; Jessa reads marks/shorthand Greg does not; a customer asks for Lyssa independently and Marra already knows the timing.
-- Chapter 229 also provides an anti-systemization warning: Greg calls it a `network`; Lyssa reduces it back to ordinary people knowing where she goes and what she told them. Development may use `network/work ecology` analytically; prose does not need to explain the model.
+- Chapter 232 validates changed return naturally: Greg knows Marra's route and work lane without instruction; Marra still calls him `the road one`; Jessa reads marks/shorthand Greg does not; a customer asks for Lyssa independently and Marra already knows the timing.
+- Chapter 232 also provides an anti-systemization warning: Greg calls it a `network`; Lyssa reduces it back to ordinary people knowing where she goes and what she told them. Development may use `network/work ecology` analytically; prose does not need to explain the model.
 
 ### Jori / Davin
 - established secondary workplace relationship.
@@ -57,8 +57,8 @@ Recent manuscript-first archaeology has now been integrated by Story Control:
 - Marek's object engagement can create downstream work **or useful information**.
 - Nessa responds to actual material/scene consequence rather than serving as a generic disciplinarian.
 - recovered prose shows Marek responding to concrete Nessa correction (`Royal stillness` → he becomes still).
-- Chapter 222 establishes umbrella/property-table consequence and anticipation; Chapter 225 continues the material pattern with the painted cup.
-- Chapter 228 provides the crucial anti-flattening beat: Marek's borrowed flower spray reveals a real doorway-route problem and Nessa converts it into `Sideways through the door, upright after`.
+- Chapter 225 establishes umbrella/property-table consequence and anticipation; Chapter 228 continues the material pattern with the painted cup.
+- Chapter 231 provides the crucial anti-flattening beat: Marek's borrowed flower spray reveals a real doorway-route problem and Nessa converts it into `Sideways through the door, upright after`.
 - do not flatten Nessa into Marek's keeper/prop cop or Marek into idiot/permanent liability.
 - friendship, rivalry, romance, hierarchy, general distrust, permanent discipline, and motive remain unestablished.
 
@@ -97,7 +97,7 @@ Research only when newer prose creates a concrete factual question whose answer 
 
 Do not automatically audit another relationship merely because Hara/Pell/Marek, Nessa/Jori, or another pairing remains available.
 
-The recent archaeology cycles have recovered enough hidden social infrastructure, and Chapter 229 immediately demonstrated that 01 can use it naturally without the development lanes forcing a callback.
+The recent archaeology cycles have recovered enough hidden social infrastructure, and Chapter 232 immediately demonstrated that 01 can use it naturally without the development lanes forcing a callback.
 
 The next useful 02 question is therefore not:
 
@@ -118,10 +118,10 @@ If none of those is true, preserve HOLD / OBSERVE and let 01 keep writing.
 
 ## HANDOFF STATUS
 
-No handoff to 03 is currently waiting. Story Control has integrated the latest Nessa/Marek audit through Chapter 229-era authority.
+No handoff to 03 is currently waiting. Story Control has integrated the latest Nessa/Marek audit through Chapter 232-era authority.
 
 02 should not generate another development assignment just to keep the loop visibly busy.
 
 ## RE-PROMPT [02]
 
-Continue Peg-Leg Greg Writers' Room from current GitHub authority. Read `AGENTS.md`, `state/PROJECT_STATE.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current manuscript/state and exact recent prose, `state/WRITERS_ROOM_STATE.md`, `state/STORY_CONTROL_STATE.md`, `state/RESEARCH_LEDGER.md`, and `state/LONG_SERIAL_RESIDUE_MAP.md`. The recent manuscript-first cycles are integrated: Lyssa selective continuity, Jori/Davin, and Nessa/Marek now have durable Story Control classifications. Chapter 229 validates the changed-callback policy at Marra's and also warns against making characters explain the analytical `network` model. Legacy pre-rebuild manuscript archaeology is available only as a non-canon quarry; `PLOT_CONTROL.md` records reusable shapes and explicit avoidances. Do not open a legacy-draft mining queue. Generic external research is paused. Current 02 posture is HOLD / OBSERVE rather than automatically opening another relationship archaeology queue. First inspect newer manuscript authority. If newer prose has created a real developmental tension, specific factual gap, changed relationship, thinning engine, returned social node, or a natural opening for one legacy quarry shape, develop only that edge. If not, preserve HOLD / OBSERVE and let 01 continue.
+Continue Peg-Leg Greg Writers' Room from current GitHub authority. Read `AGENTS.md`, `state/PROJECT_STATE.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current manuscript/state and exact recent prose, `state/WRITERS_ROOM_STATE.md`, `state/STORY_CONTROL_STATE.md`, `state/RESEARCH_LEDGER.md`, and `state/LONG_SERIAL_RESIDUE_MAP.md`. The recent manuscript-first cycles are integrated: Lyssa selective continuity, Jori/Davin, and Nessa/Marek now have durable Story Control classifications. Chapter 232 validates the changed-callback policy at Marra's and also warns against making characters explain the analytical `network` model. Legacy pre-rebuild manuscript archaeology is available only as a non-canon quarry; `PLOT_CONTROL.md` records reusable shapes and explicit avoidances. Do not open a legacy-draft mining queue. Generic external research is paused. Current 02 posture is HOLD / OBSERVE rather than automatically opening another relationship archaeology queue. First inspect newer manuscript authority. If newer prose has created a real developmental tension, specific factual gap, changed relationship, thinning engine, returned social node, or a natural opening for one legacy quarry shape, develop only that edge. If not, preserve HOLD / OBSERVE and let 01 continue.

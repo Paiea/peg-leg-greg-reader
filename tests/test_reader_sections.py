@@ -39,7 +39,7 @@ class ReaderSectionsTests(unittest.TestCase):
         self.assertEqual(book_three.slug, 'book-iii')
         self.assertEqual(book_one.card_src, 'assets/book-role-cards/book-i-warrior-005.webp')
         self.assertEqual(book_two.card_src, 'assets/book-role-cards/book-ii-stagehand-177.webp')
-        self.assertEqual(book_three.card_src, 'assets/book-role-cards/book-iii-magistrate-231.webp')
+        self.assertEqual(book_three.card_src, 'assets/book-role-cards/book-iii-magistrate-234.webp')
         self.assertEqual(
             [(act.start, act.end, act.title) for act in book_two.acts],
             [
@@ -61,7 +61,7 @@ class ReaderSectionsTests(unittest.TestCase):
         expected = {
             'assets/book-role-cards/book-i-warrior-005.webp',
             'assets/book-role-cards/book-ii-stagehand-177.webp',
-            'assets/book-role-cards/book-iii-magistrate-231.webp',
+            'assets/book-role-cards/book-iii-magistrate-234.webp',
         }
         self.assertEqual({book.card_src for book in BOOKS}, expected)
         for relative_path in expected:
@@ -90,11 +90,11 @@ class ReaderSectionsTests(unittest.TestCase):
         self.assertEqual(rendered.count('class="reader-book-card-image"'), 3)
         self.assertIn('src="assets/book-role-cards/book-i-warrior-005.webp"', rendered)
         self.assertIn('src="assets/book-role-cards/book-ii-stagehand-177.webp"', rendered)
-        self.assertIn('src="assets/book-role-cards/book-iii-magistrate-231.webp"', rendered)
+        self.assertIn('src="assets/book-role-cards/book-iii-magistrate-234.webp"', rendered)
         self.assertIn('width="720" height="960"', rendered)
         self.assertIn('href="chapters/005.html"', rendered)
         self.assertIn('href="light/177.html"', rendered)
-        self.assertIn('href="light/231.html"', rendered)
+        self.assertIn('href="light/234.html"', rendered)
         self.assertLess(rendered.index('id="book-i-heading"'), rendered.index('class="reader-book-plate"'))
         self.assertLess(rendered.index('class="reader-book-plate"'), rendered.index('class="reader-book-acts"'))
         self.assertNotIn('aria-label="Open Chapter', rendered)

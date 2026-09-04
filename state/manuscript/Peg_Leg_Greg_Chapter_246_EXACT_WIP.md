@@ -1,0 +1,1155 @@
+# CHAPTER 246
+
+## THE MINDER
+
+We were out of onions.
+
+Not nearly out.
+
+Not one onion left that could be cut carefully enough to become two onions.
+
+Out.
+
+I discovered this by opening the basket, which was an advanced household technique nobody had previously explained to me.
+
+Lyssa was already gone.
+
+The brown cloth remained near the wall with its three pins and the patience of stone. The dark cloth from two nights ago remained absent. My damaged shirt still had three loose threads, so I wore the better shirt with the blue paint streak and accepted that respectable clothing was now a historical category.
+
+The right crutch grip felt normal.
+
+I noticed that only because yesterday I had spent money making it normal.
+
+Then I stopped noticing.
+
+Worth every copper.
+
+No theatre boy came up the stairs. No Hessa note waited under the door. Vale had said tomorrow, maybe, which meant nothing had happened yet and might continue doing so all day.
+
+The onion basket, however, was definitely empty.
+
+I ate bread, drank water, and went to correct the one problem in Carrow that had supplied evidence.
+
+The market was already loud by the time I reached it.
+
+A fish seller near the lower lane had arranged six silver fish on a board and was arguing with a woman who claimed one of them had looked larger yesterday. A boy carried a stack of shallow baskets taller than his head. Two dogs had found something under a cart that neither dog appeared willing to surrender.
+
+Nobody needed me.
+
+Good city.
+
+The onion seller saw me before I reached her stall.
+
+She pointed at a pile with the knife in her hand.
+
+"Three."
+
+"I haven't spoken."
+
+"Three."
+
+"I was going to say two."
+
+"You always say two."
+
+That was not true enough to be comfortable.
+
+"I have said two twice."
+
+"And bought three."
+
+"Once."
+
+She looked at me.
+
+I looked at the onions.
+
+Memory was becoming expensive.
+
+"Two," I said.
+
+She put three on the cloth.
+
+"This is coercion."
+
+"This is onions."
+
+The third one was smaller.
+
+That weakened my case.
+
+I reached for my coins.
+
+A handcart struck the edge of the next stall hard enough to make a stack of empty baskets lean.
+
+The onion seller turned before the baskets fell.
+
+A man behind the cart swore.
+
+One of the sacks on the cart had split along the side.
+
+Onions had not poured into the street. That would have been dramatic. Instead six or seven had worked through the gap and lodged between the sack and the cart rail, while one had escaped completely and rolled under a cabbage table.
+
+The seller put her knife down.
+
+"That mine?"
+
+The cart man looked at the sack.
+
+"Probably."
+
+"Probably?"
+
+"Mark's on the other side."
+
+"Turn it."
+
+"It's tied."
+
+"Then untie it."
+
+The cabbage seller leaned over his own table.
+
+"Your onion's under me."
+
+"Keep it."
+
+"I don't want it."
+
+"Then stop announcing ownership."
+
+He kicked the escaped onion gently back into the lane.
+
+It rolled three feet and stopped against my left crutch tip.
+
+I looked down.
+
+The city had made a decision.
+
+The onion seller came around the front of her stall.
+
+"Sit."
+
+I looked at the stool beside the baskets.
+
+"Why?"
+
+"Watch."
+
+"What?"
+
+She pointed at the stall.
+
+I looked at the stall.
+
+Then at her.
+
+"All of it?"
+
+"Onions."
+
+"Sell?"
+
+"No."
+
+That was clear.
+
+"How long?"
+
+She was already moving toward the cart.
+
+"Until I'm back."
+
+This was less clear.
+
+I sat.
+
+My three onions remained on the cloth beside the coin I had not yet given her.
+
+The seller reached the cart, shoved one sack enough to expose the painted mark on its side, and began arguing with the cart man about whether a split sack was the same as a short sack.
+
+Apparently I had been appointed to government.
+
+I set my crutches along the inside of the stall where nobody would catch a foot on them. The right grip stayed flat when I turned it to fit under the table.
+
+I did not think about that again.
+
+For perhaps thirty seconds, I minded onions successfully.
+
+Then an old woman with a narrow basket came up.
+
+"Three small."
+
+I looked at her.
+
+She looked at me.
+
+I looked toward the onion seller.
+
+The seller was pointing at the torn seam while the cart man pointed at a wheel, which did not appear relevant.
+
+"She's over there," I said.
+
+"I can see."
+
+"Good."
+
+The woman reached toward the small onions.
+
+I put one hand over the pile.
+
+She stopped.
+
+"What are you doing?"
+
+"She said not to sell."
+
+"I'm not buying from you."
+
+That seemed technically worse.
+
+"Then you should probably wait."
+
+The woman stared at me.
+
+"I take three every fourth day."
+
+"Congratulations."
+
+"Move your hand."
+
+"I don't know what you pay."
+
+"She does."
+
+"She is over there."
+
+"I can see."
+
+We had reached a stable system.
+
+The old woman put her basket on the stall.
+
+"I'll wait."
+
+"Excellent."
+
+"It isn't."
+
+A second customer arrived before either of us improved.
+
+He was a boy perhaps twelve or thirteen carrying a square basket lined with cloth.
+
+"Six for the cookshop."
+
+I looked at him.
+
+"Which cookshop?"
+
+He named one near the upper market that I knew only because its steam made one corner smell like onions most mornings.
+
+Appropriate.
+
+"She said they'd be ready."
+
+"Are they?"
+
+He looked at the onions.
+
+"Those are onions."
+
+"Strong evidence."
+
+The old woman said, "He won't let you have them."
+
+The boy looked at me.
+
+"Why?"
+
+"Instruction."
+
+"What instruction?"
+
+"Do not sell."
+
+"I'm not buying. Cookshop pays later."
+
+I closed my eyes briefly.
+
+Of course.
+
+"That is somehow less helpful."
+
+He put his basket beside the old woman's.
+
+"I can wait."
+
+The old woman said, "We are forming a society."
+
+"Membership appears involuntary."
+
+She sniffed.
+
+A man walking past slowed long enough to look at me sitting behind the stall.
+
+"New?"
+
+"No."
+
+He kept walking.
+
+Correct interaction.
+
+Across the lane, the onion seller pulled the split sack open enough to inspect the contents. She pressed one onion near the torn seam, cut a soft place with her thumbnail, and held it up toward the cart man.
+
+He shook his head.
+
+She held up another.
+
+He shook his head again, though with less confidence.
+
+The cabbage seller had abandoned his own work enough to watch.
+
+I understood none of the pricing problem.
+
+That did not stop me from having opinions.
+
+I kept them.
+
+A young woman approached the stall with a copper already between two fingers.
+
+"Two large."
+
+The old woman said, "No."
+
+The young woman looked at her.
+
+Then at me.
+
+"Why no?"
+
+I pointed at the seller.
+
+"Temporary government."
+
+The old woman said, "Bad government."
+
+The young woman looked across the lane.
+
+"She knows what I pay."
+
+"So does everyone except me."
+
+"Then take the coin."
+
+"No."
+
+"Why?"
+
+"Because I don't know if it is the right coin."
+
+"It is."
+
+"According to you."
+
+She stared at me.
+
+The boy from the cookshop said, "He's very serious."
+
+"I am guarding onions."
+
+"From customers."
+
+"Apparently."
+
+The young woman sighed and joined the waiting society.
+
+This was becoming visible.
+
+The onion seller finally looked toward us.
+
+She stopped.
+
+Three waiting customers.
+
+Me behind the stall.
+
+My hand still resting protectively on produce.
+
+Her face changed.
+
+Not alarm.
+
+Something worse.
+
+Understanding.
+
+She came back across the lane.
+
+"Why are they here?"
+
+I looked at the old woman.
+
+The old woman looked delighted.
+
+"You said don't sell."
+
+The seller looked at me.
+
+"Yes."
+
+"I have sold nothing."
+
+"I can see."
+
+"Then I have performed perfectly."
+
+The old woman said, "He defended them."
+
+The seller turned to her.
+
+"From who?"
+
+"Me."
+
+The cookshop boy laughed.
+
+I did not.
+
+The seller pointed at the old woman.
+
+"Three small. Same."
+
+The old woman immediately took three onions, dropped a coin onto the cloth, and left.
+
+No counting.
+
+No discussion.
+
+The seller pointed at the cookshop boy.
+
+"Six are under the green cloth."
+
+He reached beneath the rear corner of the stall and pulled out a small tied bag I had not known existed.
+
+"Tomorrow morning too?" he asked.
+
+"Maybe eight."
+
+He nodded and left without paying anything.
+
+The seller looked at the young woman.
+
+"Two large."
+
+The copper in the woman's hand disappeared into the seller's palm.
+
+Two onions went into her bag.
+
+She left.
+
+The entire backlog vanished in less than a minute.
+
+I looked at the seller.
+
+"You have hidden systems."
+
+"I have customers."
+
+"I was told to watch onions."
+
+"Yes."
+
+"I watched them."
+
+"You stopped people buying them."
+
+"You said don't sell."
+
+"I meant you don't sell."
+
+I pointed at the lane where the old woman had disappeared.
+
+"She sold to herself."
+
+"She knows what she takes."
+
+"The boy paid nothing."
+
+"Cookshop pays later."
+
+"The other woman told me the coin was right."
+
+"It was."
+
+I sat back.
+
+"This operation relies dangerously on information."
+
+She took my three onions from the cloth and put them into a small bag.
+
+"Most do."
+
+That was rude enough to sound like Hessa.
+
+I ignored it.
+
+"What was I supposed to do?"
+
+"Don't choose. Don't make change. Don't promise. Don't let strangers walk off with things."
+
+I stared at her.
+
+"Those are much better instructions."
+
+"I thought you had sense."
+
+"Evidence mixed."
+
+She looked at me.
+
+I regretted letting Jori spread.
+
+The cart man called from across the lane.
+
+The seller turned.
+
+He had opened the split sack completely now. The top layer looked fine. The onions around the tear did not. Two had crushed sides. One had a wet dark patch.
+
+She looked back at me.
+
+"Stay."
+
+I lifted both hands.
+
+"New instructions first."
+
+Her eyes narrowed.
+
+Then she pointed at the regular piles.
+
+"If they know what they take and what they owe, let them. Coin there."
+
+She tapped a shallow wooden dish.
+
+"Cookshop bag is gone. No credit for anyone else. No prices from you. No promises. Nobody touches the torn-sack pile when I bring it over."
+
+I nodded.
+
+"Strangers?"
+
+"Wait for me."
+
+"People who claim not to be strangers?"
+
+"Use your head."
+
+"That clause destroys the rest."
+
+She was already walking away.
+
+The second administration began.
+
+This time nobody came.
+
+Naturally.
+
+I sat behind onions under improved law and watched the market continue refusing to care.
+
+The cabbage seller sold half a cabbage to a woman who had brought her own knife.
+
+The fish seller finally ended the argument about yesterday's larger fish by telling the customer to buy yesterday's fish.
+
+A child passed with a broken wooden wheel under one arm.
+
+The cart man and onion seller moved the split sack onto the ground between them.
+
+She sorted quickly.
+
+Firm onions to one side.
+
+Bruised ones to another.
+
+Soft ones into a shallow basket.
+
+The cart man objected to the size of the bad pile.
+
+She put one thumb through a damaged side and held it up.
+
+He stopped objecting to that onion.
+
+A few minutes later she came back carrying the shallow basket.
+
+"Move."
+
+I moved my crutches and shifted the stool.
+
+She set the damaged onions behind the stall, separate from everything else.
+
+"These don't sell with those."
+
+"Because damaged."
+
+"Because cheaper."
+
+I looked at the basket.
+
+"Some are still good."
+
+"Yes."
+
+"Then why cheaper?"
+
+She looked at me.
+
+"Do you want to buy them full price?"
+
+"No."
+
+"Learning."
+
+Cruel.
+
+She went back for another load.
+
+A woman with a green scarf came to the stall.
+
+She picked up four medium onions, checked two, replaced one, chose another, and placed a coin in the dish.
+
+I watched.
+
+She looked at me.
+
+"She here?"
+
+I pointed.
+
+The woman followed my finger.
+
+"Fine."
+
+She started to leave.
+
+Every instinct from the first administration told me to stop her.
+
+The new instructions did not.
+
+"Four?" I asked.
+
+She looked back.
+
+"Four."
+
+"Coin there?"
+
+"Yes."
+
+"Then apparently we are citizens."
+
+She left.
+
+I checked the dish.
+
+There was a coin.
+
+I did not know whether it was enough.
+
+That was not my job.
+
+Progress through ignorance.
+
+The seller returned with a second small basket.
+
+She looked at the coin dish.
+
+Then at the missing onions.
+
+"Green scarf?"
+
+"Yes."
+
+"Four?"
+
+"Yes."
+
+She nodded.
+
+I felt an unreasonable amount of satisfaction.
+
+Then she said, "She usually takes five."
+
+I looked toward the street.
+
+The woman was gone.
+
+"She said four."
+
+"Then four."
+
+No investigation.
+
+No accusation.
+
+No need to recover the lost fifth onion that had never left.
+
+Healthy commerce.
+
+The seller crouched beside the damaged pile and began sorting again.
+
+I stayed on the stool because leaving would have required announcing that I had finished a job nobody had formally given me.
+
+After a minute she handed me an onion.
+
+"Soft?"
+
+I pressed it.
+
+Firm on one side.
+
+Softer near the neck.
+
+"Part."
+
+"Cut."
+
+"I don't have a knife."
+
+She held hers out handle first.
+
+I took it.
+
+This had become employment without wages.
+
+I cut through the soft section.
+
+The center beneath it was clean.
+
+She took the onion back.
+
+"That pile."
+
+She pointed to a basket.
+
+"What is that pile?"
+
+"Today."
+
+"Compared to?"
+
+"Tomorrow."
+
+I looked at the other basket.
+
+"Those survive?"
+
+"Probably."
+
+"Strong system."
+
+"Cut."
+
+So I cut.
+
+Not many.
+
+Six or seven onions from the split edge.
+
+Soft section off.
+
+Clean remainder into the today basket.
+
+Anything wet through or smelling wrong went into a shallow reject bowl.
+
+The seller checked the first two pieces I chose.
+
+On the third she moved one from today to reject.
+
+"Why?"
+
+She turned it.
+
+The base had gone translucent.
+
+"Ah."
+
+"Smell."
+
+I did.
+
+Wrong.
+
+Not rotten enough to announce itself from a distance.
+
+Wrong enough.
+
+The next time I checked the base.
+
+Nobody congratulated me.
+
+The cart man and seller finished whatever argument governed the sack. He retied the good ones, shifted another sack down, and left with fewer coins than he probably wanted.
+
+The seller watched the cart go.
+
+"Short?"
+
+I asked.
+
+"No."
+
+"Split?"
+
+"Yes."
+
+"Who pays for bad?"
+
+"Some me. Some him."
+
+"How much?"
+
+She looked at me.
+
+"Not you."
+
+Good boundary.
+
+I cut another onion.
+
+By the time the damaged basket was sorted, my hands smelled sharp enough to make my eyes notice. My right palm was fine. The repaired grip had stayed out of the way completely. Shoulders normal. Right leg slightly stiff from sitting, which resolved when I stood and moved around the stall once.
+
+Residual limb comfortable.
+
+No new problem.
+
+The seller reclaimed her stool.
+
+I took that as dismissal.
+
+"Am I paid?"
+
+"No."
+
+"I performed public service."
+
+"You blocked three customers."
+
+"Then recovered."
+
+"You cut six onions."
+
+"Seven."
+
+She looked at the reject bowl.
+
+"Six."
+
+One had apparently ceased to qualify as work.
+
+I accepted the correction.
+
+She held up my bag.
+
+"Three."
+
+I reached for it.
+
+She did not let go.
+
+"Pay."
+
+I stared at her.
+
+"I guarded your property."
+
+"Badly."
+
+"I sorted damage."
+
+"Slowly."
+
+"I preserved order."
+
+"You made a line."
+
+"Lines are order."
+
+"Pay."
+
+I paid.
+
+No discount.
+
+Healthy business.
+
+She gave me the bag.
+
+Then added one small onion from the damaged-today basket.
+
+I looked at it.
+
+"Free?"
+
+"Use tonight."
+
+"That is free."
+
+"That is dying."
+
+"Still onion."
+
+"Today."
+
+I put it in the bag.
+
+Four onions.
+
+I had come for two.
+
+The market had structure.
+
+I left before she could improve my household further.
+
+I bought a small flat cake from a nearby stall because cutting onions had made me hungry and because yesterday's stew had already established that food continued costing money after other things cost money.
+
+No debt arithmetic.
+
+No moral hearing.
+
+Flat cake.
+
+I ate it standing near a wall while two women argued about ribbon color at a stall across the lane. One preferred yellow. The other preferred not yellow. The seller appeared personally harmed by both positions.
+
+Then I went home.
+
+The bag hung from my wrist for the clearer stretches and moved to the crook of my elbow when I needed more hand around the right grip. Four onions were not heavy. They were simply shaped badly for a man using two crutches.
+
+At the apartment, Lyssa was still out.
+
+Brown cloth.
+
+Three pins.
+
+Same fold.
+
+The better shirt still had blue on the sleeve.
+
+The damaged shirt remained damaged.
+
+I put the dying onion apart from the other three because apparently I had become responsible for onion chronology.
+
+Then I washed my hands.
+
+The smell remained.
+
+I washed again.
+
+Still onion.
+
+There were worse reputations.
+
+Lyssa returned after dark with no bundle I recognized and dust along one side of her skirt.
+
+She saw the onions immediately.
+
+"Three?"
+
+I looked at the table.
+
+Three good onions.
+
+One dying onion.
+
+"Complicated."
+
+She put down a small packet of something green and leafy that I did not ask about because I had suffered enough commerce for one day.
+
+"We needed two," she said.
+
+"I know."
+
+"Why four?"
+
+"One is temporary."
+
+Lyssa looked at me.
+
+I pointed at the softer onion.
+
+"Today."
+
+She touched it.
+
+"Fine."
+
+"Apparently."
+
+She took the knife.
+
+"Where did you learn onions?"
+
+"Employment."
+
+She stopped.
+
+"Vale?"
+
+"No."
+
+"Theatre?"
+
+"No."
+
+"Market?"
+
+"Unfortunately."
+
+She cut the softer onion.
+
+The clean part went into the pot.
+
+The soft neck went aside.
+
+She looked at me.
+
+"Good onion."
+
+"I was told it was dying."
+
+"Everything is."
+
+I stared at her.
+
+"Do not become Hessa."
+
+She smiled.
+
+Just enough.
+
+I told her about the stall while she cooked.
+
+Not every customer.
+
+Only the first three because the shape improved with suffering.
+
+When I reached the part where the seller returned to find them waiting, Lyssa stopped cutting greens.
+
+"You stopped them?"
+
+"I followed instructions."
+
+"What instructions?"
+
+"Don't sell."
+
+Lyssa looked at me for a long moment.
+
+"She meant you."
+
+"Yes. This became clear later."
+
+She laughed.
+
+Not politely.
+
+Enough that she had to put the knife down.
+
+I waited with the dignity available to a former public official.
+
+When she recovered, she said, "You made them wait."
+
+"Three people."
+
+"Why?"
+
+"Because I did not know their arrangements."
+
+"Then why were you in charge?"
+
+"I was not."
+
+That made her laugh again.
+
+This household had become unsafe.
+
+I sat.
+
+The right grip disappeared under my hand when I leaned on the crutch.
+
+I did not think about yesterday's repair until that moment.
+
+Then it disappeared again.
+
+Lyssa put onions and greens into the pot.
+
+"Did she pay you?"
+
+"No."
+
+"Good."
+
+I looked at her.
+
+"Why good?"
+
+"You would go back."
+
+"I might go back anyway."
+
+"For onions."
+
+"Potentially administration."
+
+"No."
+
+She stirred the pot.
+
+I considered my options.
+
+"She gave me the fourth onion."
+
+Lyssa glanced at it already cooking.
+
+"Then she paid you."
+
+"That was dying."
+
+"Still onion."
+
+I hated when two professionals agreed independently.
+
+We ate.
+
+The onion was fine.
+
+Not excellent.
+
+Not symbolic.
+
+Fine.
+
+The brown cloth stayed folded near the wall.
+
+No note arrived.
+
+No work appeared because I had checked yesterday.
+
+No theatre boy climbed the stairs.
+
+No Hessa question entered the room.
+
+I had spent part of the day preventing a market from functioning and part of it cutting soft onions under supervision.
+
+Carrow had survived both.
+
+Before bed, Lyssa asked, "Two next time?"
+
+I looked at the three good onions still in the basket.
+
+"We have three."
+
+"Good."
+
+There it was.
+
+I pointed at her.
+
+She turned away before I could improve anything.

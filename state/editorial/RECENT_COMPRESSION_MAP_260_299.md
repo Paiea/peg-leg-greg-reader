@@ -813,7 +813,7 @@ These are **not frozen** yet.
 3. **283 cut as standalone.** Salvage only exceptional Tavi/household or Lyssa line if useful.
 4. **293 + 294 merge** into one bag acquisition + first-use chapter.
 
-If only these four structural decisions survive, current Chapter 299 would eventually become approximately **Chapter 295** before any additional merges.
+If only these four structural decisions survive, current Chapter 302 would eventually become approximately **Chapter 298** before any additional merges.
 
 ## Secondary merge/cut tests
 
@@ -821,7 +821,7 @@ If only these four structural decisions survive, current Chapter 299 would event
 6. **291**: retain door catch + Olan repair, but test whether it needs a standalone boundary.
 7. **262 opening**: move Daro customer closure back toward 261 rather than keeping a third customer-opening beat.
 
-If both 289 and 291 also lose standalone status, current Chapter 299 would land approximately around **293**, subject to exact final mapping.
+If both 289 and 291 also lose standalone status, current Chapter 302 would land approximately around **293**, subject to exact final mapping.
 
 No renumbering should occur until these secondary tests are resolved.
 
@@ -833,13 +833,13 @@ Add/verify voice pages for recurring speakers likely to matter in the pilot/rece
 - Mara (bakery / social node; distinct from Marra)
 - Tavi
 - Edrin
-- possibly Nemi if she returns beyond Chapter 296
+- possibly Nemi if she returns beyond Chapter 299
 
 Potential naming collisions to audit before structural integration:
-- market `Nessa` in Chapter 270 versus established theatre Nessa;
+- market `Nessa` in Chapter 273 versus established theatre Nessa;
 - appraiser `Jori Venn` in 278 versus established theatre Jori;
 - `Daro` in 285 versus earlier Daro customer sequence if they are not intentionally the same person;
-- Sera exact identity/continuity, with current voice page already corrected toward exact Ch287 evidence.
+- Sera exact identity/continuity, with current voice page already corrected toward exact Ch290 evidence.
 
 # Pilot recommendation
 

@@ -1,1205 +1,975 @@
 # CHAPTER 268
 
-## THE CALLER
+## THE CONTROL
 
-The theatre sent a woman this time.
+Hessa's note arrived while I was eating yesterday's bakery bread.
 
-That was how I knew something had gone wrong.
+This was already an improvement over the last time magic had interrupted breakfast, because I had breakfast.
 
-Not badly wrong.
+The boy at the door was not one I knew. He held the folded paper between two fingers and looked past me into the room with the expression of somebody who had been told not to lose a message and had therefore decided every surface was hostile.
 
-Badly wrong came with running.
-
-This woman walked into the court carrying a narrow wooden case under one arm and asked Sera where Greg lived.
-
-I heard my name through the open window.
-
-Then Sera said, "Which Greg?"
-
-I leaned out.
-
-"Cruel."
-
-Sera looked up at me.
-
-"Could be another."
-
-"There is not another."
-
-"Then why ask?"
-
-The woman with the case followed her gaze.
-
-I knew her face.
-
-Not her name.
-
-She worked near the theatre's costume side sometimes. Or props. Or both. She was one of those people who existed at the edge of a room carrying things that later appeared exactly where actors expected them.
-
-She pointed at me.
-
-"Rinna wants you."
-
-"Ordinary?"
-
-"No."
-
-There it was.
-
-I looked at the bread on the table behind me.
-
-One loaf intact.
-
-The other diminished but alive.
-
-Lyssa had already gone.
-
-No note.
-
-No explanation of six narrow wraps.
-
-Good.
-
-"What happened?"
-
-The woman shifted the wooden case.
-
-"Caller didn't come."
-
-I waited.
-
-"And?"
-
-"Rinna wants you."
-
-"That is not more information."
-
-"It is enough for me."
-
-Fair.
-
-I grabbed my coat.
-
-By the time I came down, Sera had resumed whatever she had been doing with a basket of damp cloth. The theatre woman was waiting near the court entrance.
-
-"You have a name?" I asked.
-
-"Lenn."
-
-"Greg."
-
-"I know."
-
-This was becoming Carrow's preferred introduction.
-
-We walked.
-
-Lenn did not slow dramatically for me.
-
-She also did not pretend not to notice my pace. She chose streets with room, waited once when a cart cut between us, and never turned the walk into a conversation about my body.
-
-Competent person.
-
-Dangerous.
-
-"Caller for what?" I asked.
-
-"House."
-
-"Front?"
-
-"Side."
-
-"Performance?"
-
-"Two."
-
-"Same piece?"
-
-"No."
-
-This was improving.
-
-"What does caller mean here?"
-
-Lenn looked at me.
-
-"You don't know?"
-
-"I know several things called caller."
-
-"Side passage. You tell people when they're next."
-
-"Actors?"
-
-"Some."
-
-"Who else?"
-
-"Musicians. Two supers. One boy with birds."
-
-I stopped.
-
-Lenn took three more steps before noticing.
-
-She turned.
-
-"What?"
-
-"Boy with birds."
+"Greg?"
 
 "Yes."
 
-"Real birds?"
+He gave me the note.
 
-"Yes."
+I opened it.
 
-"What kind?"
+`MIDDAY. SAME ROOM. NO PRACTICE BEFORE.`
 
-"I don't know."
+Below that, in smaller writing:
 
-"Excellent."
+`YES, THAT STILL MEANS NONE.`
 
-She stared.
+I looked at the boy.
 
-I resumed walking.
-
-"Not important," she said.
-
-"That is exactly what someone says before birds become important."
-
-"They sit in a cage."
-
-"Better."
-
-"Mostly."
-
-I looked at her.
-
-Lenn smiled for the first time.
-
-I should have stayed home.
-
-The theatre was already awake when we reached it.
-
-Not performance-awake.
-
-Preparation-awake.
-
-Doors open. People crossing. A hammer somewhere. Someone calling for blue cord. Someone else shouting that the blue cord was already in the west box and had been since yesterday.
-
-Lenn took me through the side entrance instead of the blue door.
-
-Rinna stood at a narrow table with three slips of paper in front of her.
-
-She looked up.
-
-"You came."
-
-"Apparently I am a caller."
-
-"Today."
-
-Good.
-
-"Pay?"
-
-She named it.
-
-Ordinary theatre pay for an ordinary day.
-
-Not emergency premium.
-
-"Two performances?"
-
-"Two short houses. Afternoon and evening. Different pieces."
-
-"Lines?"
-
-"None unless something breaks."
-
-"Define breaks."
-
-Rinna looked at me.
-
-"No."
-
-Reasonable.
-
-She pushed the first slip toward me.
-
-It listed names, marks, and short notes.
-
-I recognized Hara.
-
-Venn.
-
-Marek.
-
-Colm was not on it because Colm painted scenery and apparently did not need to be told when to become scenery.
-
-The piece title was unfamiliar.
-
-**The Miller's Moon.**
-
-The second slip was **The Glass Orchard**.
-
-Familiar.
-
-The third was not a cast list.
-
-It was a passage map.
-
-"Kesh?" I asked.
-
-"House."
-
-"Usual caller?"
-
-"Demi."
-
-"Sick?"
-
-"Mother."
-
-That was all Rinna gave me.
-
-Demi's mother existed.
-
-Something had happened enough that Demi was not here.
-
-It was not mine.
-
-"What do I actually do?"
-
-Rinna pointed toward the side passage.
-
-"Lenn shows you once. Then you keep the passage from becoming stupid."
-
-"This theatre has asked too much."
-
-"Yes."
-
-Lenn took the slips.
-
-"Come."
-
-The side passage ran behind the right edge of the stage and connected three small waiting spaces, a stair, the musician alcove, and a door that opened toward the rear yard.
-
-I had crossed pieces of it before.
-
-I had never understood it as a system.
-
-That was different.
-
-The floor had chalk marks at three places.
-
-One near the stage entrance.
-
-One beside the stair.
-
-One at the rear door.
-
-"First mark is next," Lenn said. "Second is waiting. Third is outside if they need air or carry something large."
-
-"Who decides next?"
-
-"You."
-
-"Based on?"
-
-She held up the list.
-
-"This."
-
-"Who wrote it?"
-
-"Demi yesterday."
-
-Good.
-
-I was not designing the system.
-
-I was operating one.
-
-Lenn pointed to a narrow shelf.
-
-"Messages there. Water below. If someone is missing, tell Rinna. If someone says they know better than the list, they might. Ask why."
-
-"That is dangerous policy."
-
-"Actors."
-
-Fair.
-
-"Birds?"
-
-She pointed toward the rear yard.
-
-"Later."
-
-I wanted later immediately.
-
-Instead she walked me through the first piece.
-
-The Miller's Moon had more entrances than its name deserved.
-
-Hara entered twice from our side.
-
-Venn once.
-
-Marek three times, because apparently the miller had hired him to become a problem.
-
-Two unnamed supers carried sacks through during the market scene.
-
-A flute player moved from the alcove to the stage edge for one song and back.
-
-A boy named Iven brought a cage on for the final scene.
-
-"Birds," I said.
-
-Lenn sighed.
-
-"Yes."
-
-"What birds?"
-
-"Ask Iven."
-
-"I will."
-
-"After you learn the calls."
-
-Tyrant.
-
-The calls were not complicated.
-
-That made them dangerous.
-
-Complicated things demanded attention.
-
-Simple things invited confidence.
-
-"Hara next."
-
-Wait.
-
-"Hara ready."
-
-Wait for cue.
-
-"Hara go."
-
-Not theatre magic.
-
-Not glamorous.
-
-Timing and names.
-
-A person had to be in the correct piece of hallway before the stage needed them.
-
-That was all.
-
-Which meant being wrong by ten seconds could become visible to two hundred people.
-
-I liked it less after understanding it.
-
-Lenn ran me through the list twice.
-
-Then she handed it over.
-
-"You can read."
-
-"A dangerous assumption."
-
-"Rinna says you can."
-
-"Rinna spreads rumors."
-
-Lenn left with her wooden case.
-
-I was alone in the passage for almost thirty seconds.
-
-Then Marek arrived carrying half a miller's coat.
-
-Not wearing half.
-
-Carrying it.
-
-"Why are you here?" he asked.
-
-"I have seized the theatre."
-
-"Again?"
-
-"Caller."
-
-He looked at the list in my hand.
-
-"Demi?"
-
-"Mother."
-
-His expression changed.
-
-"Ah."
-
-He did not ask more.
-
-Neither did I.
-
-"You're third entrance twice and second entrance once."
-
-"I know."
-
-"Then why am I here?"
-
-"Because actors don't."
-
-Marek nodded.
-
-"Fair."
-
-He put the coat on properly and went to find whatever part of his dignity had remained backstage.
-
-The first rehearsal of calls went badly in ways nobody outside the passage would have noticed.
-
-I called Hara too early.
-
-She arrived, stood on the first chalk mark, and waited through almost a full scene.
-
-Afterward she looked at me.
-
-"Early."
-
-"Yes."
-
-"Don't."
-
-"Useful note."
-
-Venn came late because he had been helping move a bench and I had assumed he was already in the second waiting space.
-
-He was not.
-
-I found him myself.
-
-That took too long.
-
-Rinna did not yell.
-
-Worse.
-
-She appeared at the passage entrance and said, "Know where they are before next."
-
-Then left.
-
-I wrote that on the edge of the list.
-
-Not because I would forget.
-
-Because seeing my mistake in ink made it less likely to become philosophy.
-
-Marek corrected me once.
-
-"This entrance comes after the laugh, not the door."
-
-I checked Demi's note.
-
-It said `after door`.
-
-"List says door."
-
-"List is wrong. We changed it yesterday."
-
-"Why isn't the list changed?"
-
-"Demi left early."
-
-There it was.
-
-A system had history.
-
-I asked why.
-
-Marek showed me the scene.
-
-Door slam.
-
-Three lines.
-
-Audience laugh usually landed on the third.
-
-His entrance during the laugh covered the miller's coat change at the other side.
-
-That made sense.
-
-I changed the note.
-
-Not because Marek knew better than paper.
-
-Because he knew why.
-
-Lenn's policy survived contact with actors.
-
-The birds arrived before noon.
-
-Iven was maybe twelve.
-
-Thin, serious, and carrying a wooden cage with both hands.
-
-Inside were four birds the size of large pigeons.
-
-Their bodies were brown.
-
-Their throats were orange.
-
-Each had a fan of narrow silver feathers around the base of the neck.
-
-Actual silver.
-
-Not gray.
-
-Not shine.
-
-Metallic enough that the feathers caught the passage light and threw it back in little hard lines.
-
-I forgot my job for one second.
-
-"What are those?"
-
-Iven looked at me.
-
-"Bellthroats."
-
-I knew bellthroats.
-
-Old life knew them instantly.
-
-That recognition came with a memory of a camp at dawn, six cages hanging under a wagon, and one bastard bird ringing every time somebody tried to sleep.
-
-"They ring when frightened," I said.
-
-Iven's face changed.
-
-"Or excited."
-
-"Yes."
-
-"Or hungry."
-
-"That too."
-
-One bird looked directly at me.
-
-A soft metallic note came from its throat.
-
-Not song.
-
-A bell struck under cloth.
-
-Then another answered.
-
-I smiled before I could stop myself.
-
-"Hello, assholes."
-
-Iven frowned.
-
-"They're nice."
-
-"You haven't traveled with them."
-
-"Have you?"
-
-"Old life."
-
-He looked at my missing leg.
-
-Then back at me.
-
-He did not ask.
-
-Good child.
-
-"These are trained," he said.
-
-"For what?"
-
-"Release."
-
-That was less good.
-
-"Release where?"
-
-"Stage."
-
-"And then?"
-
-"They come back."
-
-"Usually?"
-
-Iven's face hardened.
-
-"They come back."
-
-This was clearly personal.
-
-I looked at the cage.
-
-The birds were calm.
-
-No pacing.
-
-No repeated climbing.
-
-Feathers smooth.
-
-One picked at something between its toes.
-
-"Fine," I said.
-
-Iven put the cage at the third chalk mark.
-
-"Not there."
-
-"Why?"
-
-"Rear door opens there."
-
-"Demi puts them here."
-
-I looked at the map.
-
-Bird cage was marked at third position.
-
-I looked at the door.
-
-Then at the cage.
-
-The door opened inward but stopped well short.
-
-I had assumed the mark meant people needed the whole area.
-
-It did not.
-
-"Then there," I said.
-
-Iven gave me a look containing the entire history of adults interfering with his birds.
-
-Fair.
-
-I returned to the list.
-
-The afternoon house filled without becoming full.
-
-I knew because I could hear it.
-
-Audience noise had shape from backstage. Not words. Pressure.
-
-Seats taking bodies. Conversations gathering. Programs folding. A cough becoming three coughs because humans were contagious even without disease.
-
-Then the bell.
-
-My passage became work.
-
-Hara next.
-
-Hara ready.
-
-Go.
-
-Venn next.
-
-Venn ready.
-
-Wait.
-
-Wait.
-
-Go.
-
-Marek after laugh.
-
-He arrived before I called him.
-
-"You know," I whispered.
-
-"I know."
-
-"Then leave so I can summon you."
-
-He did not.
-
-The laugh came.
-
-"Go."
-
-He went.
-
-Two supers with sacks.
-
-Flute player.
-
-Hara again.
-
-The passage was not quiet, but it was contained.
-
-Everyone had somewhere to be and a reason not to stand exactly where somebody else needed to pass.
-
-My crutches complicated the narrowest point near the stair.
-
-After the first crossing, I moved my working position half a body-width toward the wall and kept my left crutch angled closer under me.
-
-That gave Hara's skirt more room and kept Venn from having to turn sideways.
-
-No announcement.
-
-No accommodation speech.
-
-Just geometry.
-
-Then the birds.
-
-Iven lifted the cage.
-
-The four bellthroats stirred.
-
-Silver neck feathers rose slightly.
-
-"Ready?" I asked.
-
-"Yes."
-
-The stage cue was a line about morning breaking over the mill.
-
-I heard it.
-
-"Go."
-
-Iven carried the cage through.
-
-I could not see the stage from my position.
-
-I heard the latch.
-
-Then wings.
-
-Then four soft metallic notes spreading across the house.
-
-The audience went quiet in the particular way people did when something beautiful had surprised them.
-
-One bird rang again.
-
-A child in the audience laughed.
-
-Then the scene continued.
-
-Thirty seconds later, three bellthroats came back through the high side opening above the passage.
-
-Three.
-
-I looked at Iven.
-
-He looked at me.
-
-Neither of us spoke.
-
-A fourth metallic note sounded from the stage.
-
-Iven moved.
-
-I caught his sleeve.
-
-"Wait."
-
-"She's supposed to come."
-
-"Is she frightened?"
-
-"No."
-
-Another note.
-
-Clear.
-
-Not rapid.
-
-Not alarm ringing.
-
-Old knowledge said frightened bellthroats repeated fast and sharp until the sound blurred.
-
-This bird was ringing once at a time.
-
-Iven listened.
-
-His shoulders lowered.
-
-"Hungry," he whispered.
-
-"Or excited."
-
-He glared.
-
-Fair.
-
-The bird appeared above us a few seconds later, silver feathers bright as coins, and landed directly on the top of the cage.
-
-Iven opened the little upper door.
-
-It hopped inside.
-
-He looked at me.
-
-"They come back."
-
-"I apologize to your entire profession."
-
-"Good."
-
-Twelve-year-olds were ruthless.
-
-The rest of the performance went cleanly.
-
-Not perfectly.
-
-One super came to the wrong mark with a sack and had to back up.
-
-The flute player tried to leave his instrument on my shelf.
-
-I refused custody.
-
-Hara asked for water and then forgot she had asked until after her entrance.
-
-Marek missed nothing.
-
-The audience clapped.
-
-The passage emptied.
-
-I sat on the narrow stool near the rear door and let my hands rest.
-
-Right leg fine.
-
-Residual limb fine.
-
-Shoulders worked.
-
-Calling required less walking than most theatre labor and more standing still than my body enjoyed. I had shifted often enough to keep stiffness from becoming pain.
-
-Iven sat on the floor beside the cage and fed the bellthroats something from a paper twist.
-
-"What is that?"
-
-"Seed."
-
-"Magical seed?"
-
-He looked at me as if I had asked whether water was trained.
-
-"Seed."
-
-"Good."
-
-One bellthroat rang.
-
-"Hungry?"
-
-"Greedy."
-
-Old life had not contained that scientific category.
-
-It should have.
-
-The evening piece was The Glass Orchard.
-
-Familiar work changed the caller job immediately.
-
-I knew the scenes.
-
-I knew Hara's inheritance entrance.
-
-I knew Venn's route.
-
-I knew where the gate clerk would have stood because I had been him.
-
-That helped.
-
-It also created a new problem.
-
-I started anticipating.
-
-Not the list.
-
-The play.
-
-During the first run-through I called Venn toward the mark before his listed cue because I knew what came next.
-
-He arrived early.
-
-Not disastrously.
-
-Early enough to look at me.
-
-"List," he said.
-
-I looked down.
-
-He was right.
-
-The current staging had moved his entrance later than the version in my head.
-
-My familiarity had become worse than ignorance for six seconds.
-
-"List," I agreed.
-
-I reset.
-
-That mattered.
-
-Old knowledge worked.
-
-Recent knowledge worked.
-
-Confidence worked.
-
-Until the thing in front of me had changed.
-
-Then being sure was just another way to be wrong early.
-
-I did not need Hessa to write that down.
-
-The evening house was larger.
-
-The passage tightened.
-
-Kesh appeared once from the front to say a late party would enter between scenes. Rinna moved one crossing. Lenn returned with the wooden case and took something from it that looked like a false silver branch.
-
-Nobody explained the branch.
-
-I loved the theatre.
-
-Calls began.
-
-This time I stayed with the paper.
-
-Hara next.
-
-Ready.
-
-Go.
-
-Venn next.
-
-Ready.
-
-Hold.
-
-Go.
-
-Marek passed through carrying a tray.
-
-"Still seized the theatre?"
-
-"I have delegated most of it."
-
-"Wise."
-
-He went on.
-
-The inheritance scene landed.
-
-I heard the audience settle into it.
-
-Not silence exactly.
-
-Attention.
-
-The kind that made backstage people move more carefully even though nobody had told them to.
-
-For a few minutes, my entire job was to keep other lives arriving on time.
-
-That was all.
-
-It was enough.
-
-Near the end, Rinna appeared beside me.
-
-"Demi tomorrow maybe."
-
-"Good."
-
-"If not, I send."
-
-"Fine."
-
-"No promise."
-
-"Better."
-
-She looked at the list in my hand.
-
-"Mistakes?"
-
-"Early Hara. Late Venn. Marek corrected an old note. I anticipated Venn wrong in Orchard because I knew the older timing."
-
-Rinna nodded.
-
-"House see?"
-
-"No."
-
-"Then learn."
-
-She left.
-
-That was my review.
-
-I preferred it to applause.
-
-When the final curtain ended, I returned Demi's lists to Rinna with my corrections visible.
-
-I did not rewrite them clean.
-
-They were Demi's system.
-
-My notes were today's evidence.
-
-Rinna paid the amount she had named.
-
-No bonus.
-
-No emergency premium.
-
-No caller title attached permanently to my body.
-
-Lenn had already gone.
-
-Iven carried his cage out through the rear yard.
-
-All four bellthroats were inside.
-
-One rang as he passed me.
-
-"Greedy," I said.
-
-Iven nodded solemnly.
-
-Progress.
-
-I walked home after dark.
-
-The city had changed temperature.
-
-Warm kitchens pushed smells into the street. Window light made wet patches on stone look deeper than they were. Somewhere above the roofs, something gave one faint blue flash.
-
-Glowwing, maybe.
-
-I did not stop to confirm it.
-
-At home, Lyssa had eaten.
-
-She had left me rice and something fried that I could not identify from across the room.
-
-"Theatre," she said.
-
-"Caller."
-
-"What?"
-
-I explained.
-
-She listened while working on the pale piece.
-
-Still pale.
-
-Still not mine.
-
-"Birds," I added.
-
-"What birds?"
-
-"Bellthroats."
-
-She looked up.
-
-"Inside?"
-
-"Four. Trained release. One came back late."
-
-"You touch it?"
-
-"No."
-
-"Good."
-
-I stared at her.
-
-"Again."
-
-She smiled.
-
-"You know those?"
-
-"Old life."
-
-"Dangerous?"
-
-"Not especially. Loud when frightened. Metallic throat note. Silver neck feathers. Apparently also greedy."
-
-"Greedy isn't magic."
-
-"Iven says it is taxonomy."
+"Did she seem angry?"
 
 "Who?"
 
-"Bird boy."
+"Good."
 
-Lyssa nodded as if that solved it.
+He left.
 
-I ate.
+Lyssa was already dressed for outside work. The pale current piece from yesterday had disappeared into her bag sometime before I woke. The long-standing brown cloth remained folded by the wall with the same three pins.
 
-The fried thing was potato.
+She held out a hand.
 
-Good potato.
+I gave her the note.
 
-"Six?" I asked.
+She read it.
+
+"You practiced?"
+
+"No."
+
+"Good."
+
+"I hate this city."
+
+She handed the note back.
+
+"No, you don't."
+
+Annoyingly accurate.
+
+"You going to Nerin?" I asked.
 
 Lyssa looked at me.
 
-I pointed with my spoon.
+"Why?"
 
-"I am not asking what. I am asking whether six happened."
+"Morning six. Not four."
+
+"That was yesterday."
+
+"I know."
+
+"Then no."
+
+I had acquired information and immediately failed to use it.
+
+Healthy.
+
+She kissed me once, took her bag, and left before I could ask where she was actually going.
+
+I finished the bread.
+
+There were still two small loaves from Nerin's excess, which meant I did not need to turn breakfast into a grocery problem. I put one away, cut the other, and ate enough that Hessa could not later accuse hunger of being a magical variable.
+
+She would.
+
+Not because hunger was magic.
+
+Because Hessa considered the human body an unreliable apparatus with opinions.
+
+This was also annoyingly accurate.
+
+I reached the Guild room before midday.
+
+Not the south yard.
+
+The same room.
+
+Hessa's room.
+
+The door was open.
+
+I stopped in it.
+
+The table looked familiar until I noticed the third paper fin.
+
+Then it looked offensive.
+
+Hessa sat with three sheets laid out beside her notebook.
+
+The glass was in its usual place.
+
+The INTERMEDIATE mark remained on the table.
+
+The old target fin sat off to one side.
+
+The old control fin sat beside it.
+
+Between them was a new fin cut to the same rough shape and size.
+
+Fresh paper.
+
+No old pencil marks.
+
+No history I could see.
+
+I pointed at it.
+
+"You made another one."
+
+"I did."
+
+"Without me."
+
+"That is generally how restrictions work."
+
+I came in and closed the door.
+
+"New paper?"
+
+"From the same stock as the previous two."
+
+"Cut today?"
+
+"This morning."
+
+"By you?"
 
 "Yes."
 
-That was all.
+"Same dimensions?"
 
-Six had happened without me.
+"As closely as practical."
 
-Perfect.
+"Same fold?"
 
-I finished dinner.
+"There is no fold."
 
-My shoulders were tired from the long standing day. My hands were fine. Right leg stiff enough that I stretched it before bed. Residual limb comfortable.
+I looked at the old fins.
 
-The theatre might call tomorrow if Demi still needed to be away.
+"Right."
 
-Or it might not.
+Hessa watched me notice my own mistake.
 
-Rinna had been careful about that.
+"Sit."
 
-Lyssa's six narrow wraps had happened somewhere in the city without requiring my participation.
+I put the crutches where they normally went and sat.
 
-Four bellthroats had flown over a stage and returned to a twelve-year-old who trusted them more than I did.
+My body felt ordinary. Right leg normal after the walk. Residual limb comfortable. Hands warm from outside, not work. No pain. No tingling. No excuse to become interesting before the experiment had started.
 
-I had spent the day telling people when to enter rooms I was not entering myself.
+"What are we testing?" I asked.
 
-That should have felt like standing outside the story.
+Hessa turned the new fin once between her fingers, then set it down again.
 
-It did not.
+"Nothing broad."
 
-Someone had to know who was next.
+"Promising start."
 
-Today, temporarily, that had been me.
+"Last session, the physical fin that had served as control produced two observed responses after we moved it to the target position."
+
+"Two of four."
+
+"In that block."
+
+"I remember."
+
+"The original target remained unchanged while serving as control."
+
+"Yes."
+
+She tapped the new fin.
+
+"Both of those papers had history in the apparatus. This one does not."
+
+I looked at it.
+
+"So new fin at target."
+
+"Yes."
+
+"Which old one at control?"
+
+"Original target."
+
+"Why that one?"
+
+"Because it remained unchanged through the swapped block, and because changing both papers to new ones would answer less."
+
+I thought about it.
+
+"You want one unfamiliar physical fin and one familiar control."
+
+"I want fewer changed things than two unfamiliar fins would give me."
+
+"Same INTERMEDIATE position?"
+
+"Yes."
+
+"AWAY direction?"
+
+"Same instruction."
+
+"Four attempts?"
+
+"Four if you remain ordinary."
+
+"I am never ordinary."
+
+"Then we can stop now."
+
+"Four."
+
+She wrote something.
+
+I narrowed my eyes.
+
+"Was that `annoying before attempt one`?"
+
+"No."
+
+"Missed opportunity."
+
+Hessa moved the new fin to the target mark and the original target fin to control.
+
+She did not use the former control fin at all.
+
+That one stayed beside her notebook.
+
+I watched the new paper settle flat.
+
+It was stupid how different it felt.
+
+Not physically.
+
+It was paper.
+
+But I had spent enough sessions looking at the same two pieces that a third one felt like a stranger had entered a private argument.
+
+"Can I touch it?" I asked.
+
+"No."
+
+"Because contamination?"
+
+"Because you don't need to."
+
+"That answer lacks romance."
+
+"Good."
+
+She checked the glass, the marks, both fins, and my position.
+
+Then she looked at me.
+
+"Expectation?"
+
+I considered lying to sound disciplined.
+
+"I think it will move."
+
+"Why?"
+
+"Because the old control moved when you made it target."
+
+"That is an observation, not a reason this one must."
+
+"I know. But you asked what I expect."
+
+She wrote it.
+
+"Anything else?"
+
+"I want it to move."
+
+She wrote that too.
+
+"Cruel."
+
+"Useful."
+
+Attempt fifty-eight.
+
+Loose hand.
+
+Shoulder down.
+
+Breathing ordinary.
+
+Same permitted minimal draw.
+
+Same deliberate external intention.
+
+Away.
+
+Hessa gave the start.
+
+I worked.
+
+The new fin did nothing.
+
+I kept the effort inside the familiar boundary instead of trying to make up for the paper's lack of cooperation.
+
+Nothing.
+
+Stop.
+
+Hessa checked target.
+
+Control.
+
+Glass.
+
+"No observed response."
+
+"Control unchanged."
+
+She marked both.
+
+I looked at the new fin.
+
+"Rude."
+
+"Paper."
+
+"Those are not mutually exclusive."
+
+Hessa waited the usual interval.
+
+I flexed my fingers once.
+
+Normal.
+
+"Again?"
+
+"When I say."
+
+"You could let me have one authority."
+
+"No."
+
+Attempt fifty-nine.
+
+Same setup.
+
+Same new target fin.
+
+Same original target acting as control.
+
+Same INTERMEDIATE mark.
+
+Same AWAY instruction.
+
+I expected less this time.
+
+I told her.
+
+She wrote it.
+
+Then I worked.
+
+Nothing.
+
+Not a twitch.
+
+Not a lift.
+
+Not the tiny rude slide I had learned to recognize before I could decide whether I imagined it.
+
+Hessa checked.
+
+"No observed response."
+
+"Control unchanged."
+
+She marked it.
+
+I leaned back.
+
+"Two failures."
+
+"Two non-responses."
+
+"You hate nouns with emotional content."
+
+"I hate you trying to turn two attempts into a verdict."
+
+Fair.
+
+We took the planned break.
+
+I stood and walked the short circuit of the room with my crutches. My right leg had not stiffened much yet. The movement was still useful. Hessa inspected the new fin without lifting it, then the control.
+
+"Damage?" I asked.
+
+"None obvious."
+
+"Maybe it doesn't know me."
+
+Hessa looked up.
+
+"Do not."
+
+"I said maybe."
+
+"You said nonsense with a qualifier."
+
+"That is most early science."
+
+"No."
+
+I smiled.
+
+She did not.
+
+Mostly.
+
+I caught the corner of her mouth move and decided not to endanger the event by mentioning it.
+
+When I sat again, Hessa pushed water toward me before I asked.
+
+"You are becoming kind."
+
+"Drink."
+
+I drank.
+
+"If it never moves today, what does that mean?"
+
+"That we observed no response from this fin in this block under this setup."
+
+"And if it moves once?"
+
+"That we observed one response."
+
+"You make magic sound like inventory."
+
+"Inventory would improve you."
+
+Pem would have liked her.
+
+That thought surprised me enough to make me laugh.
+
+"What?" Hessa asked.
+
+"Nothing."
+
+"Then stop."
+
+Attempt sixty.
+
+I settled again.
+
+By now I no longer expected the new fin to move.
+
+That was dangerous in the opposite direction. I told Hessa.
+
+She wrote it.
+
+"You really write all of this?"
+
+"Yes."
+
+"Future scholars will think I was unstable."
+
+"Current scholars have evidence."
+
+I stared at her.
+
+"That was a joke."
+
+"Start."
+
+I worked.
+
+The new fin moved.
+
+Small.
+
+Clean.
+
+Away.
+
+No obvious rotation.
+
+It happened near the end of the permitted attempt, not as a dramatic jump, just a visible slide across the mark.
+
+I stopped on time.
+
+Hessa was already leaning toward the glass.
+
+She checked the new target fin first.
+
+Then the old target serving as control.
+
+Then the glass.
+
+Then the marks.
+
+"Small observed response."
+
+I did not speak.
+
+"Net away."
+
+I kept not speaking.
+
+"No obvious rotation."
+
+Still excellent silence.
+
+"Control unchanged."
+
+She marked the sheet.
+
+I waited.
+
+Hessa looked at me.
+
+"You may speak."
+
+"New paper."
+
+"Yes."
+
+"First session in the apparatus."
+
+"Yes."
+
+"First day existing as a fin."
+
+"As far as this shape is concerned."
+
+"It moved."
+
+"Once."
+
+"I know."
+
+"Do you?"
+
+"I am showing tremendous restraint."
+
+"Show more."
+
+I looked through the glass at the new fin.
+
+It had moved.
+
+That did not mean any paper would move.
+
+It did not mean target position caused the effect.
+
+It did not mean my intention attached to labels.
+
+It did not mean the apparatus was irrelevant.
+
+It did not mean range existed.
+
+It did not mean I could go home and bully household receipts across the table.
+
+But the paper had no previous history as target or control.
+
+Hessa had cut it that morning.
+
+And it had moved.
+
+That was allowed to be interesting.
+
+"One more," Hessa said.
+
+"Yes."
+
+"Same setup."
+
+"Yes."
+
+"No extra effort because sixty responded."
+
+"I know."
+
+"Say it."
+
+"No extra effort because sixty responded."
+
+"No trying to reproduce the exact feeling."
+
+"No trying to reproduce the exact feeling."
+
+"No extending the attempt."
+
+"No extending the attempt."
+
+"No smiling at the paper."
+
+I looked at her.
+
+"That one is not methodological."
+
+"It is for me."
+
+Attempt sixty-one.
+
+I did not smile at the paper.
+
+Much.
+
+Hessa gave the start.
+
+I worked.
+
+Nothing moved.
+
+I reached the familiar end and stopped.
+
+The new fin stayed where it was.
+
+The control stayed where it was.
+
+Hessa checked both.
+
+"No observed response."
+
+"Control unchanged."
+
+She marked the final attempt.
+
+One response in four.
+
+I said nothing until she finished writing.
+
+Hessa pulled the earlier record closer.
+
+"What can we say?" she asked.
+
+This was a trap, but an educational one.
+
+"A newly cut fin from the same paper stock, with no prior use in the apparatus, produced one small clean observed AWAY response in four attempts at INTERMEDIATE while the original target fin served as control."
+
+"And?"
+
+"Control unchanged on all four."
+
+"Good."
+
+I waited.
+
+She waited.
+
+"You want interpretation."
+
+"I want yours."
+
+That was worse.
+
+I looked at the three paper fins.
+
+Old target.
+
+Old control.
+
+New stranger.
+
+"The effect is not explained by the original target fin being uniquely capable of moving. We already had that."
+
+"Yes."
+
+"Now it is also not explained by only the two previously used fins being capable of responding."
+
+Hessa's pencil paused.
+
+"Under the current apparatus and observed conditions," she said.
+
+"Yes."
+
+"Better."
+
+I continued.
+
+"It supports the idea that prior use in the apparatus is not required for a paper fin to produce an observed response."
+
+"Supports."
+
+"Does not prove."
+
+"Correct."
+
+"Does not establish all paper works."
+
+"Correct."
+
+"Does not establish paper is irrelevant."
+
+"Correct."
+
+"Does not isolate target position."
+
+"Correct."
+
+"Does not establish range."
+
+"Correct."
+
+"Does not let me practice with bread wrappers."
+
+"Correct."
+
+"Coins?"
+
+"No."
+
+"Thread?"
+
+"No."
+
+"The pot?"
+
+Hessa looked at me.
+
+"Why a pot?"
+
+"Recent enemy."
+
+"No."
+
+Restrictions unchanged.
+
+Of course.
+
+I should have been disappointed.
+
+I was not.
+
+The restrictions were the same because the evidence was still small.
+
+But the shape of the ignorance had changed.
+
+Three physical paper fins had now existed in the apparatus.
+
+Two had responded while serving as target.
+
+One of those two had been cut that morning.
+
+The original target had responded in older sessions and stayed still when used as control in the swapped block and again today.
+
+That was not power.
+
+It was a better question.
+
+I liked better questions.
+
+Hessa inspected my hand and forearm before releasing me.
+
+Warm.
+
+Normal strength.
+
+No pain.
+
+No tingling.
+
+Right leg mildly stiff from sitting, resolved after I stood and walked.
+
+Residual limb comfortable.
+
+"Next experiment?" I asked.
+
+"Not selected."
+
+"You knew I would ask."
+
+"Yes."
+
+"Do you have possibilities?"
+
+"Yes."
+
+I waited.
+
+She closed the notebook.
+
+"Cruel."
+
+"Disciplined."
+
+"Same thing in better clothes."
+
+She pointed at the door.
+
+I collected my crutches.
+
+Thirty-six supervised minimal draws.
+
+Thirty-two supervised deliberate shaping attempts.
+
+Sixty-one supervised external-effect attempts.
+
+Four more attempts had produced one small response and no broader permission.
+
+I had once lived in a world where magic could throw men, break walls, ruin plans, save lives, and make very stupid people believe they were immortal.
+
+Today I had moved a piece of paper slightly.
+
+Once.
+
+It still felt like magic.
+
+That mattered too.
+
+Outside, Carrow was bright and windy.
+
+A strip of blue cloth had caught high on a roof hook across the lane and snapped hard enough in the wind to look like it was trying to escape the building. Two women below argued about whether it belonged to either of them. Neither seemed willing to climb for it.
+
+I passed a fruit seller with three small glass beads hanging from the edge of his awning.
+
+Each bead held a pale green glow.
+
+I had seen them before.
+
+Not those exact beads.
+
+The type.
+
+Weather beads.
+
+Cheap ones.
+
+Old-life roadside stalls used them when merchants wanted to know whether the next few hours would turn wet enough to cover stock. Green meant dry air. Blue meant moisture rising. Clouded white meant the bead had probably been dropped, cracked, cursed by its owner, or all three.
+
+I stopped.
+
+The fruit seller looked at me.
+
+"Buying?"
+
+I looked at the beads.
+
+All three green.
+
+"No. Sorry."
+
+He followed my eyes.
+
+"Rain?"
+
+"Not from those."
+
+He snorted.
+
+"Could've told you that."
+
+"Good."
+
+He looked at me strangely.
+
+I continued walking.
+
+There was no revelation.
+
+No one paid me for identifying cheap weather beads.
+
+They were simply there.
+
+Magic hanging from an awning beside pears.
+
+I had been so focused on whether my own tiny effect worked that I sometimes forgot how much of the world had never stopped being magical at all.
+
+At home, Lyssa had returned before me.
+
+Her bag was open on the table.
+
+The pale work was not visible.
+
+The brown cloth remained by the wall.
+
+Three pins.
+
+She was eating one of Nerin's small loaves with something sharp-smelling spread over it.
+
+"You left me one?" I asked.
+
+"One what?"
+
+I checked the shelf.
+
+One loaf remained.
+
+"Good."
+
+Lyssa smiled.
+
+I sat.
+
+"New paper," I said.
+
+She chewed.
+
+"Hessa?"
+
+"Yes."
+
+"Moved?"
+
+"Once."
+
+"Rules?"
+
+"Same."
+
+She nodded.
+
+I stared at her.
+
+"You have reduced my entire magical life to three questions."
+
+"Works."
+
+"Apparently."
+
+She pushed the sharp-smelling spread toward me.
+
+I smelled it.
+
+"What is this?"
+
+"Pepper cheese."
+
+"From where?"
+
+"Work."
+
+"That is not a place."
+
+"No."
+
+I put some on bread anyway.
+
+It was good.
+
+I did not say the word.
+
+Lyssa watched me eat.
+
+"Good?"
+
+I narrowed my eyes.
+
+She smiled.
+
+The new paper fin had moved once.
+
+The rules had not.
+
+The weather beads were green.
+
+Lyssa had acquired pepper cheese through a route I did not know.
+
+Tomorrow still had no assignment.
+
+The world had magic in it anyway.

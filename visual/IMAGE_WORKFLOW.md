@@ -173,7 +173,7 @@ A useful board should make it easy to say things like:
 
 - R2C4 KEEP
 - R4C1 RETRY
-- 07 promote for Ch241
+- 07 promote for Ch244
 - 19 useful composition, wrong continuity
 
 The contact sheet is a review surface, not automatically reader art.

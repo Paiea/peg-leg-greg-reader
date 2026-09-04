@@ -1,1231 +1,969 @@
 # CHAPTER 285
 
-## THE SHORT MEASURE
+## THE SCENE PARTNER
 
-The next morning the chaffers were mostly gone.
+Lenn came for me after breakfast and ruined a perfectly good theory.
 
-That was rude.
+I had been sitting by the window with the ugly capital page folded under my bowl because apparently I could now make bread taste like bookkeeping by proximity alone.
 
-I had left three question marks on Tavi's horse paper and apparently expected the insects to respect my research schedule.
+Lyssa had already left.
 
-The courtyard gutter clicked twice before breakfast. I went to the window in time to see one pale body crawl from under the lip, open its wings, and leave.
+Her work bag was gone.
 
-Then nothing.
+Lenn knocked once, opened the door after I called, and said, "Theatre."
 
-Cala swept six husks from beside the drain and did not call me.
+I put the last piece of bread in my mouth.
 
-This felt like professional decline.
+"Who is missing?"
 
-Lyssa was already dressed for work. She stood at the table with one of the remaining clean gray sheets folded into a narrow strip beside her bag. Not the measurement sheet from before. A different one.
+"No one."
 
-I counted automatically.
+I stopped chewing.
 
-Three clean household sheets remained.
+Lenn waited.
 
-I did not say this aloud.
+I swallowed.
 
-Growth.
+"Who is hurt?"
 
-Lyssa tied her hair back, picked up the strip, and held it against a piece of dark green cloth no larger than my hand.
+"No one."
 
-I looked away.
-
-Not because the cloth was protected. I had no idea what it was.
-
-Because I had learned that staring at every object Lyssa touched was a good way to become furniture in my own home.
-
-"You going out?" she asked.
-
-"Eventually."
-
-"Where?"
-
-"I haven't invented a reason yet."
-
-"Stay home."
-
-"Cruel."
-
-She folded the green cloth into her bag.
-
-"Cala need help after lunch."
-
-"With what?"
-
-"Ask Cala."
-
-This was how independent adults behaved. They possessed information I did not and refused to become my briefing documents.
-
-Lyssa left.
-
-I washed the cups, checked my right shoe, and spent twenty minutes doing absolutely nothing useful.
-
-This should have been restful.
-
-Instead I kept noticing the silence where yesterday's clicking had been.
-
-By the time I went downstairs, Tavi was drawing on a broken piece of roof tile with charcoal.
-
-"Horse?" I asked.
-
-"Boat."
-
-The shape looked like a potato with a mast.
-
-"Excellent boat."
-
-"Fast boat."
-
-Of course.
-
-Cala was sitting on the courtyard bench with a wooden box beside her.
-
-"Lyssa said you needed help."
-
-"After lunch."
-
-"It is after breakfast."
-
-"Yes."
-
-I waited.
-
-She kept sorting dried beans.
-
-"So I have been pre-summoned."
-
-"You can go away."
-
-"No, now I'm invested."
-
-"Then sit."
-
-I sat.
-
-She pushed the bean bowl toward me.
-
-"Bad ones there."
-
-I looked at the beans.
-
-"I have been promoted."
+"Late?"
 
 "No."
 
-We sorted beans.
+"Drunk?"
 
-Some were split. Some had dark soft spots. One had a small round hole in it.
+"Not yet."
 
-I held that one up.
+"Then why are you here?"
 
-"Bug?"
+"Teren asked for you."
 
-"Probably."
+That was worse.
 
-"Do you want the confident answer or the useful one?"
+I looked at the folded page under my bowl.
 
-Cala stared at me.
+Lenn followed my eyes.
 
-I put the bean in the bad pile.
-
-Yesterday had not improved me as much as I hoped.
-
-A woman came through the gate carrying a shallow basket against her hip.
-
-I had seen her before but did not know her name. Mid-thirties maybe, hair wrapped in faded yellow cloth, sleeves rolled above the elbow. She greeted Cala first.
-
-"You still want it?"
-
-Cala looked into the basket.
-
-"If it's dry."
-
-The woman peeled back a cloth.
-
-Inside were bundles of thin pale reeds, each cut to roughly the length of my forearm and tied with dark string.
-
-Cala picked one up, bent it lightly, and nodded.
-
-"Better."
-
-"Told you."
-
-"Last ones were wet."
-
-"Last ones were cheap."
-
-"These cheap?"
+"Is that money?"
 
 "No."
 
-Cala sighed.
+"Looks like money."
 
-This was commerce at its purest.
+"It is paper."
 
-The woman named a price for two bundles. I heard it and deliberately did not memorize it as a universal reed exchange rate.
+"Rinna says paper becomes money if you make people sign the right part."
 
-Cala paid from a small cloth purse.
+"Please leave my house."
 
-The woman counted the coins, then looked at me.
+"You have to come with me."
 
-"You the one with the ruler?"
+I checked the repaired right shoe before standing. Heel flat. No sound. The left crutch tip was good. Right grip wrap still tight under my palm.
 
-I stopped sorting beans.
+No Hessa note.
 
-"I own several objects people have called rulers."
+No client.
 
-Cala said, "He has measuring stick."
+No half-chair.
 
-"Do you?"
+No obvious reason Teren would ask for me by name.
+
+I disliked unexplained competence almost as much as unexplained danger.
+
+"Ordinary rehearsal pay?" I asked.
 
 "Yes."
 
-The woman shifted the basket on her hip.
+"For what?"
 
-"Need one thing measured."
-
-There it was.
-
-The dangerous sentence.
-
-I looked at Cala.
-
-She looked innocent.
-
-"What thing?" I asked.
-
-The woman pulled a narrow wooden slat from under the reed bundles.
-
-It was smooth, flat, and marked along one edge with dark burned lines. A measuring rule, or intended to be one.
-
-"This."
-
-I took it only after she held it out farther.
-
-The marks ran from one end almost to the other. Every fifth mark was longer. There were no written numbers.
-
-"What's wrong with it?"
-
-"Maybe nothing."
-
-"Excellent start."
-
-"My brother says it's short."
-
-"The stick?"
-
-"The measure."
-
-That was more interesting.
-
-"Compared to what?"
-
-"His."
-
-"And his is right because?"
-
-She frowned.
-
-"Because it's his."
-
-Cala laughed into the bean bowl.
-
-The woman gave her a look.
-
-"You want help or not?" Cala asked.
-
-"I want him to tell me which one is wrong."
-
-I handed the slat back.
-
-"I can't do that from one stick."
-
-"You have measuring stick."
-
-"I have a stick I trust more than yours because I have used it before. That isn't the same as knowing it's correct."
-
-She looked disappointed.
-
-Good.
-
-Disappointment was cheaper than false precision.
-
-"What are you measuring?"
-
-"Reed screens."
-
-She tapped the bundles.
-
-"Door screens?"
-
-"Window. Small ones."
-
-"Selling them?"
-
-"Sometimes."
-
-"And your brother?"
-
-"Cuts frames."
-
-There was the actual problem.
-
-Not a ruler argument.
-
-Two people making parts that had to fit.
-
-"Do the screens fit his frames?"
-
-"Some."
-
-"Some don't?"
-
-"Last three too narrow."
-
-"By how much?"
-
-She held her fingers apart.
-
-About the width of a fingernail.
-
-Maybe.
-
-Finger measurements were excellent until money entered the room.
-
-"Did you measure the same opening?"
-
-"Yes."
-
-"With both rules?"
-
-"No."
-
-I looked at Cala.
-
-She was sorting beans very carefully now, which meant she was listening to everything.
-
-"Where is your brother?"
-
-"Working."
-
-"Where?"
-
-"Two lanes over."
-
-"Does he have his rule?"
-
-"Probably."
-
-"Do you have a screen or frame that didn't fit?"
-
-The woman looked toward the gate.
-
-"At home."
-
-I considered the scope.
-
-I had two private client copper because twice now somebody had paid me for bounded work. I also had a growing ability to accidentally spend half a day proving that sticks existed.
-
-"What do you want from me?" I asked.
-
-"Tell me which rule is wrong."
-
-"I may not be able to."
-
-"Then tell me why the screens don't fit."
-
-"That is a bigger job."
-
-She narrowed her eyes.
-
-Good.
-
-We had reached the part where words mattered.
-
-"How much?" she asked.
-
-Cala's hands stopped for half a second.
-
-Mine did too.
-
-Price before work.
-
-Even if price was zero.
-
-Especially if I wanted the work because the problem was interesting.
-
-"For comparing the two rules and one bad screen to one frame, one copper if I can give you a useful answer. Nothing if all I can tell you is that I don't know."
-
-The woman stared at me.
-
-"One copper?"
-
-"Yes."
-
-"For looking?"
-
-"For comparing the rules, the screen, and the frame. Not for remaking anything. Not for measuring every window."
-
-"And if you're wrong?"
-
-"Then you shouldn't pay me."
-
-That was not a complete business policy.
-
-It was what I could defend today.
-
-She looked at Cala.
-
-"He always talk this much?"
-
-"More."
-
-"Traitor."
-
-Cala resumed sorting beans.
-
-The woman thought for another moment.
-
-"Fine."
-
-"Fine one copper?"
-
-"Fine."
-
-"If useful."
-
-"Yes."
-
-I nodded.
-
-"Then I need my rule."
-
-I went upstairs.
-
-My measuring stick lived beside the wall near the table, which was exactly where I had left it after the last time I convinced myself organization was a permanent personality change.
-
-I also took a charcoal nub and one of the older scraps already written on. Not a clean household sheet.
-
-Growth again.
-
-When I returned, the woman had introduced herself to nobody because apparently I was expected to ask.
-
-"What's your name?"
-
-"Nara."
-
-"Greg."
-
-"I know."
-
-Of course she did.
-
-Carrow continued to maintain records without my consent.
-
-We left Cala with the beans.
-
-Nara walked at a pace that was almost comfortable for me, then remembered she was going somewhere and sped up. I let her get ahead. She noticed after half a lane and slowed without apologizing.
-
-Better than apology.
-
-The chaffers were nearly absent. I saw two on a sunny wall and one dark bird checking yesterday's hunting route with diminishing returns.
-
-Nara did not look up.
-
-Her brother worked in an open-front space between a basket repairer and a seller of lamp oil. The shop was barely a shop. A roof, a bench, a rack of narrow wood strips, and a man with a saw.
-
-He was younger than Nara by several years and built like someone who had spent those years carrying timber instead of arguing about rulers.
-
-"No," he said when he saw us.
-
-Nara stopped.
-
-"I didn't say anything."
-
-"You brought ruler man."
-
-I looked behind me.
-
-"I hope there is another one."
-
-He put the saw down.
-
-"My rule is fine."
-
-"Excellent," I said. "Then this will be quick."
-
-Nara smiled.
-
-He did not.
-
-"Daro," she said, "give him yours."
-
-"Why?"
-
-"Because three screens are wrong."
-
-"Your screens are wrong."
-
-"That's why he's here."
-
-Daro looked at my crutches, then at the measuring stick under my arm.
-
-"You a carpenter?"
-
-"No."
-
-"Screen maker?"
-
-"No."
-
-"Then what?"
-
-"Available."
-
-Nara laughed.
-
-Daro did not.
-
-I added, "She is paying me to compare the two rules and one failed screen to one frame. That's all."
-
-"Paying?"
-
-"If I give her a useful answer."
-
-That made him look at Nara instead.
-
-"You paying him?"
-
-"Maybe."
-
-"You won't pay me for fixing them."
-
-"Because you say they don't need fixing."
-
-There was history here.
-
-I wanted none of it.
-
-"Rules," I said.
-
-Daro took his from a peg and handed it over.
-
-His was thicker than Nara's and older, with the same style of burned marks. Every fifth mark longer. No numbers.
-
-I put the two rules side by side on his bench.
-
-Their ends matched.
-
-For the first third, the marks looked nearly aligned.
-
-Then they began to drift.
-
-By the far end, Nara's final mark sat visibly short of Daro's.
-
-Not much.
-
-Enough.
-
-Nara leaned over.
-
-"See?"
-
-Daro said, "Hers is bad."
-
-"Maybe," I said.
-
-Both of them looked at me with identical irritation.
-
-Family resemblance established.
-
-I laid my own measuring stick beside theirs.
-
-My marks aligned more closely with Daro's than Nara's.
-
-That did not make Daro's holy.
-
-It made two sticks agree better than the third.
-
-I checked the starting ends again.
-
-Then I reversed Nara's rule.
-
-"Why turn it?" Daro asked.
-
-"Because I want to see whether the end is the problem or the spacing."
-
-It was the spacing.
-
-The first marks were close. The drift accumulated gradually.
-
-I ran a finger above the burned lines without touching them.
-
-"How was this made?"
-
-Nara shrugged.
-
-"Bought it."
-
-"From who?"
-
-"Market."
-
-"When?"
-
-"Last year."
-
-"Did it always disagree?"
-
-"Didn't know."
-
-"What did you use before?"
-
-"String."
-
-That was important.
-
-"And the bad screens started when?"
-
-She thought.
-
-"Not when I bought this. Later."
-
-Daro folded his arms.
-
-"Because she cuts sloppy."
-
-Nara said something about his face that was not relevant to measurement.
-
-I waited.
-
-They finished.
-
-"One failed screen," I said.
-
-Nara's home was another half lane away, up one short exterior stair.
-
-That created a problem.
-
-Not an impossible one. Four stone steps, broad enough, dry.
-
-Nara started up, then looked back.
-
-"You can?"
-
-"Yes. Just slower."
-
-She waited at the top without offering a hand I could not use.
-
-Also better than apology.
-
-Her room smelled like dry reeds and boiled grain. Three finished screens leaned against one wall, each a light wooden rectangle with pale reed lattice tied inside.
-
-She pointed to the narrowest.
-
-"That one."
-
-We did not carry it back.
-
-I looked at the stairs, looked at the screen, and decided my one-copper scope did not include becoming freight.
-
-Nara carried it.
-
-Back at Daro's shop, he had found a frame section from one of the failed orders. Not a whole window frame. Four joined pieces, small enough to sit on the bench.
-
-"Same size as the others," he said.
-
-"Measured with yours?"
-
-"Yes."
-
-Nara set the screen over it.
-
-Too narrow.
-
-Not by much.
-
-A gap ran along one side, close to the width she had shown with her fingers.
-
-I checked the screen width with Nara's rule.
-
-It matched the size she said she intended.
-
-I checked it with Daro's.
-
-Short.
-
-I checked it with mine.
-
-Also short, close to Daro's reading.
-
-That looked simple.
-
-Simple was dangerous.
-
-"How do you mark your reed frame before cutting?" I asked Nara.
-
-"Measure top. Mark. Cut."
-
-"With this rule?"
-
-"Yes."
-
-"Do you start at the end?"
-
-"Yes."
-
-"Show me."
-
-She looked annoyed but took a spare thin strip from Daro's rack.
-
-She set her rule against it, marked a length, moved the rule, marked another.
-
-I watched her hand.
-
-The rule itself did not slip.
-
-Her marks were clean.
-
-Daro said, "See? Short rule."
-
-"Probably."
-
-"Probably?"
-
-"My rule agrees with yours better. That tells me hers is the odd one here. It doesn't tell me why."
-
-I looked more closely at Nara's slat.
-
-The wood was pale except near one end, where the grain darkened and curved.
-
-Not burned.
-
-Warped?
-
-I set it flat on the bench.
-
-One corner lifted slightly.
-
-Nara pressed it down.
-
-"That's nothing."
-
-"Maybe."
-
-Daro made an irritated sound.
-
-I ignored him.
-
-The marks were burned into the edge. If the rule had warped after marking, the distance along the wood would not shrink enough to explain this unless the distortion was much worse.
-
-I knew enough geometry to become dangerous and not enough woodworking to become correct.
-
-"Daro, do you have a straight strip you haven't cut?"
-
-He handed me one.
-
-I aligned Nara's rule against it and transferred every fifth mark with charcoal.
-
-Then I aligned Daro's rule from the same starting point and marked again.
-
-The drift repeated.
-
-"The marks are spaced differently," I said.
-
-Nara crossed her arms.
-
-"So mine wrong."
-
-"Compared with his and mine, yes."
-
-"You said you couldn't know."
-
-"I said I couldn't know from one stick. Now I have three and a failed piece."
-
-Daro tapped his rule.
-
-"Mine right."
-
-"Yours agrees with mine."
-
-"Same thing."
-
-"No."
-
-He looked at Nara.
-
-"Why did you bring him?"
-
-"Because he says no to you too."
-
-That was apparently worth one copper by itself.
-
-I looked at the screen again.
-
-"But this still doesn't explain why the problem started later if you've had the rule a year."
-
-Nara's expression changed.
-
-Not much.
-
-Enough.
-
-"What?" I asked.
-
-"I didn't use it for frames at first."
-
-"What did you use it for?"
-
-"Reed lengths."
-
-"And frames?"
-
-"String from Daro's pattern."
-
-Daro closed his eyes.
-
-"You stopped using the pattern string."
-
-"It broke."
-
-"I gave you another."
-
-"Too long."
-
-"It was the right length."
-
-"It was dirty."
-
-I held up a hand.
-
-"Please don't make me price family mediation separately."
-
-Nara laughed despite herself.
-
-Daro rubbed his face.
-
-There it was.
-
-The bad screens had not begun when the bad rule entered her life. They had begun when the bad rule changed jobs.
-
-That mattered more than the origin of the bad markings.
-
-"Do you need to know why this rule is short," I asked, "or do you need screens that fit?"
-
-Nara looked at the failed screen.
-
-"Fit."
-
-"Then stop using this rule for frame width. Use Daro's pattern string, or make a new fixed pattern from a frame you both agree fits."
-
-Daro said, "I told her."
-
-"You told her her rule was wrong."
-
-"It is."
-
-"That is not the same instruction."
-
-He opened his mouth.
-
-Closed it.
-
-Nara looked pleased.
-
-I pointed at her.
-
-"Do not enjoy this too much. Your rule is still the odd one."
-
-She stopped looking pleased.
-
-Balance restored.
-
-"Can I fix it?" she asked.
-
-"The rule?"
-
-"Yes."
-
-"Maybe by remarking it against a standard you trust, but then you'd need to know which standard you trust and whether the old marks will confuse you. Easier answer is don't use it where accumulated error matters."
-
-"Accumulated?"
-
-I put the three rules together again.
-
-"Each little space is only a little short. One mark, you barely care. Twenty marks, the difference adds up."
-
-She watched the growing drift.
-
-"So small wrong becomes big wrong."
-
-"Over enough repeats, yes. Here."
-
-I stopped myself before turning that into philosophy.
-
-Daro did it for me.
-
-"Like her."
-
-Nara hit him with a reed bundle.
-
-The bundle broke.
-
-Not the reeds.
-
-The dark string around them snapped, and pale lengths spilled across the shop floor.
-
-Daro stared at her.
-
-Nara stared at the reeds.
-
-I looked at both of them.
-
-"My scope has ended."
-
-Daro laughed for the first time.
-
-We picked up reeds anyway.
-
-Free work.
-
-I noted the violation internally and decided civilization would survive.
-
-Nara retied the bundle with a scrap from her basket.
-
-Then she reached into her purse and held out a copper.
-
-I did not take it immediately.
-
-"Useful answer?"
-
-"Yes."
-
-"You understand I did not prove his rule is universally correct."
-
-"Greg."
-
-"Right."
-
-I took the copper.
-
-Third private client copper.
-
-That felt different from the first two.
-
-Not because copper had changed.
-
-Because I had named the work before doing it, limited the scope, admitted what I could not prove, and still produced something useful enough that the client paid without being chased.
-
-Daro picked up his saw.
-
-"How much to tell her I'm right next time?"
-
-"More than you have."
-
-Nara said, "He cheap."
-
-"Then impossible."
-
-I left before the family business expanded.
-
-Outside, the lane had returned almost completely to ordinary life.
-
-One chaffer sat on the warm wall above the lamp-oil seller.
-
-A dark bird dropped toward it.
-
-The insect flew first.
-
-The bird missed.
-
-No lesson.
-
-Sometimes lunch escaped.
-
-I went home with one new copper and no desire to buy thirty sheets of damaged paper.
-
-This was progress.
-
-Cala was still in the courtyard.
-
-The bean bowl was gone. Tavi's tile boat had acquired three more masts.
-
-"Fast?" I asked.
-
-"Very."
-
-"Dangerous."
-
-Cala looked at my hand.
-
-I had apparently been holding the copper visibly.
-
-"Paid?"
-
-"Yes."
-
-"Good."
-
-"One copper."
-
-"I didn't ask."
-
-"I wanted somebody to."
-
-She smiled.
-
-"Lyssa will."
-
-That was true.
-
-Upstairs, I put the new copper with the other two.
-
-Three.
-
-I did not stack them dramatically.
-
-I stacked them normally.
-
-Then I moved them apart because three coins in a tower looked like I was trying too hard.
-
-The horse paper was still under the salt jar.
-
-I turned it over.
-
-The chaffer notes occupied one corner. The bulk-paper notes occupied another.
-
-There was enough blank space left to write one more line.
-
-`TOOLS CAN AGREE AND STILL NOT BE TRUE.`
-
-I stared at it.
-
-Too broad.
-
-Also irritating.
-
-I crossed out `TRUE` and wrote:
-
-`RIGHT.`
-
-Worse.
-
-I crossed out the whole sentence.
-
-What had actually mattered today was simpler.
-
-I wrote:
-
-`COMPARE THE THINGS THAT HAVE TO FIT.`
-
-That was closer.
-
-Not universal law.
-
-Useful enough for me.
-
-Below it I added:
-
-`BAD RULE CHANGED JOB.`
-
-That looked ridiculous.
-
-I kept it.
-
-Lyssa came home before sunset carrying her work bag and a narrow wrapped packet under one arm.
-
-I looked at the packet once.
-
-Then at her face.
-
-She noticed.
-
-"Good."
-
-"What?"
-
-"You didn't ask."
-
-"I am becoming unbearable in new ways."
-
-She put the packet beside her bag without explaining it.
-
-Protected by ordinary relationship competence rather than mystery.
-
-Then she saw the coins.
-
-"Three?"
-
-Cala had been correct.
-
-"Three."
-
-"New one?"
-
-"I diagnosed a ruler dispute."
-
-Lyssa sat down.
-
-"Who won?"
-
-"Nobody."
-
-"Then bad diagnosis."
-
-"Nara's rule was short. Daro's agreed with mine."
-
-"Daro?"
-
-"Her brother."
-
-"Then Daro won."
-
-"No."
-
-"He right?"
-
-"Locally."
-
-She stared at me.
-
-"I hate that word now."
-
-"You don't even know how I used it."
-
-"Still."
-
-I told her about the screen.
-
-Not every question.
-
-Not every mark.
-
-The useful shape.
-
-Nara had a measuring rule with slightly shorter spacing. It had not caused trouble while she used a pattern string for frame widths. The trouble began when the string broke and the short rule took over that job. Small differences accumulated across the width and produced screens too narrow for Daro's frames.
-
-Lyssa listened while removing thread from around one finger.
-
-When I finished, she said, "Why not measure frame?"
-
-I stopped.
-
-"We did."
-
-"Before make screen."
-
-"They thought they had."
-
-"No. Measure frame. Make screen to frame."
+"Scene partner."
 
 I stared at her.
 
-She shrugged.
+"That is suspiciously specific."
 
-"Customer want screen fit window."
+"He was specific."
 
-There it was.
+"Which scene?"
 
-A seamstress's answer.
+"Several."
 
-Not a ruler answer.
+"Whose?"
 
-"That is offensively direct."
+"Pavin's."
+
+That name landed a little differently.
+
+The Masked Guest.
+
+The man whose role I had worn for one house because he had not been there.
+
+His absence had not been my problem then.
+
+It was still not my problem now.
+
+"He's back?"
+
+Lenn looked at me.
+
+Apparently that had been a stupid question.
 
 "Yes."
 
-"Daro makes repeated frames. Nara makes repeated screens. They need a shared pattern so they don't have to bring every frame together every time."
+"Do I ask why he was gone?"
 
-"Then shared pattern."
+"No."
 
-"That was also my answer."
+"Excellent. I am learning theatre."
+
+We went.
+
+The city had decided to be warm without becoming cruel about it. Shop awnings were out, the lane stones were dry, and a woman at the corner was pouring wash water into the gutter around a sleeping dog that refused to move for civilization.
+
+I kept both hands on the crutches and let Lenn carry the narrow packet of pages she had brought.
+
+This was not pride.
+
+This was geometry.
+
+Pages were light until you needed two crutches and a door.
+
+At the theatre, nobody was running.
+
+That remained unsettling.
+
+Rinna stood at the long worktable near the side passage with three payment slips, a chipped cup, and a pile of thread that did not belong to her.
+
+She took one look at me.
 
 "Good."
 
-I waited for more.
+"Explain."
 
-There was no more.
+"Teren needs a body and a voice for Pavin's catch-up."
 
-She opened her work bag and removed the folded gray measurement sheet from two days ago.
+"That sounds less flattering than Lenn made it sound."
 
-The one she had taken from our five clean sheets.
+"Lenn said scene partner."
 
-Three measurements were written at the top.
+"Exactly."
 
-Below them were two new lines and a small sketch I did not understand.
+Rinna pushed a folded page toward me.
 
-She looked at it, looked at the wrapped packet, and then put the sheet back.
+"Three scenes. You read everyone opposite Pavin unless Teren tells you otherwise. You move where he tells you. You do not learn the role for performance. You are not replacing anyone."
 
-Her work continued without becoming mine.
+I picked up the page.
 
-"You paid?" she asked.
+There were enough names on it to prove she meant the last part.
 
-"One copper."
+"Why me?"
 
-"You asked first?"
+"Available."
+
+I waited.
+
+Rinna kept sorting slips.
+
+"That is the entire answer?"
+
+"You also reset without arguing as much as Marek."
+
+"That is not praise."
+
+"It was not meant as praise."
+
+There it was.
+
+A usable reason.
+
+Availability and tolerable reset behavior.
+
+My professional rise continued at breathtaking speed.
+
+"Ordinary rehearsal pay?"
+
+"Already told you."
+
+"Lenn told me. I trust you differently."
+
+Rinna looked up.
+
+"Ordinary rehearsal pay."
+
+"Done."
+
+Rinna said, "Don't lose the pages."
+
+"I have never lost theatre pages."
+
+"You left three under a bench in spring."
+
+"They were waiting."
+
+"Upstairs."
+
+I went before she found older evidence.
+
+The small rehearsal room had one tall window, six mismatched chairs, chalk marks on the floor, and a table that had been repaired so many times its original wood might have been a rumor.
+
+Teren stood by the window reading pages.
+
+Pavin sat sideways in one chair with one ankle over the opposite knee.
+
+I knew him immediately, mostly because I had expected someone stranger.
+
+He was ordinary.
+
+Late twenties, maybe. Lean. Long brown hair tied low at the neck. A narrow nose that had been broken once or wanted people to think it had. Plain gray rehearsal clothes. No mask. No mysterious scar shaped like a prophecy.
+
+He looked at my crutches first.
+
+Then my face.
+
+Then at Teren.
+
+"This him?"
+
+Teren said, "Greg."
+
+Pavin nodded.
+
+"You wore the Guest."
+
+"One house."
+
+"Did you sweat in the mask?"
+
+"No."
+
+"Good."
+
+That was apparently the interview.
+
+I leaned my crutches against the chair Teren indicated and sat.
+
+"I was told you hated it."
+
+Pavin looked at me.
+
+"Who said?"
+
+"Marek."
+
+"Marek likes objects more if someone else dislikes them."
+
+That was not an answer.
+
+I left it alone.
+
+Teren handed me a thicker packet.
+
+"You're Elia, Corven, the servant, and whoever else speaks to him. Don't make four characters. Give him the lines."
+
+"That seems easy."
+
+"It will not remain easy."
+
+Pavin smiled without warmth or hostility.
+
+"He says that when he wants you to fail early."
+
+Teren said, "Page twelve."
+
+We began.
+
+The play was not The Last Lantern.
+
+It was a revival of something called The Blue Window, which I had apparently managed not to see despite living in a theatre's orbit for months.
+
+Pavin played a man named Serrin who had spent most of the first act lying to his sister, his employer, and himself in slightly different ways.
+
+I read the sister.
+
+Then the employer.
+
+Then a servant whose entire contribution was bringing a coat into the room and refusing to leave quickly enough.
+
+Teren had said not to make four characters.
+
+I obeyed for perhaps forty seconds.
+
+Then I gave Elia a lower voice because Pavin's next line sounded better against it.
+
+Teren stopped us.
+
+"No."
+
+I looked up.
+
+"What?"
+
+"Your voice."
+
+"I have one."
+
+"Use it."
+
+"Pavin has one too."
 
 "Yes."
 
-"Before work?"
+Pavin rubbed one eye.
+
+Teren pointed at the page.
+
+"You're not helping the audience. There is no audience. Give him the line where it belongs."
+
+I looked at the words.
+
+"I thought contrast would help."
+
+"It helped you."
+
+That was irritatingly precise.
+
+We started again.
+
+I used my own voice.
+
+That created a different problem.
+
+Without little character tricks, I flattened everything.
+
+Question.
+
+Answer.
+
+Prompt.
+
+Answer.
+
+Pavin stopped on his own.
+
+"Are you angry at me?"
+
+"No."
+
+"You sound angry."
+
+"I am reading."
+
+"You read like a tax notice."
+
+"I have never received a tax notice."
+
+"You have the soul for it."
+
+Teren said, "Again. Greg, don't act the parts. Don't kill them either."
+
+"Useful middle."
+
+"You'll find it."
+
+We went again.
+
+This time I listened to what Pavin was actually doing.
+
+He was good.
+
+Annoyingly good in a way that did not announce itself.
+
+He did not make Serrin sound clever on every line, even though the lines invited it. He hesitated in one place where the text had no hesitation. He rushed another sentence because the character wanted to get past it. When I read Elia's accusation, he did not react at the accusation. He reacted half a line later, when she mentioned the window.
+
+I almost missed my next line watching him.
+
+Teren stopped us.
+
+"Pavin."
+
+"What?"
+
+"Don't wait for him."
+
+"I didn't."
+
+"You did."
+
+Pavin looked at me.
+
+I had expected the correction to belong to me.
+
+That expectation was apparently visible because Teren said, "You are not the only person rehearsing."
+
+"I didn't say anything."
+
+"Your face did."
+
+Pavin leaned back.
+
+"Mask would fix that."
+
+I looked at him.
+
+There he was.
+
+Not friendly.
+
+Not hostile.
+
+Alive enough to be annoying.
+
+We ran the scene again.
+
+My job became stranger the more I understood it.
+
+I was not supposed to perform four roles.
+
+I was not supposed to become blank paper either.
+
+Pavin needed timing, direction, pressure, interruptions, and enough human response that he was playing a scene instead of reciting into furniture.
+
+But if I made the rehearsal about my choices, I changed the problem Teren was trying to solve.
+
+There was a narrow useful space in between.
+
+I found it.
+
+Then lost it.
+
+Then found a different part.
+
+On the third run I anticipated Pavin's pause and came in too early.
+
+He stopped.
+
+"Let me have that."
+
+"Have what?"
+
+"The pause."
+
+"You stopped talking."
 
 "Yes."
 
-She nodded.
+"I thought that was my cue."
+
+Teren tapped the line with one finger.
+
+"That pause is his. Come after he looks back at Elia."
+
+Specific.
+
+Annoying.
+
+Useful.
+
+Again.
+
+This time Pavin reached the line and stopped. He looked away from me, held the pause, then looked back.
+
+I waited.
+
+He spoke.
+
+My line arrived after.
+
+The scene had more room in it.
+
+On the next page I tried to be respectful again and waited too long.
+
+Pavin stared at me.
+
+"Now."
+
+"I thought there was another pause."
+
+"There isn't."
+
+Teren turned away, which I suspected was laughter.
+
+We broke after the first scene.
+
+Someone had left a pitcher of water outside the room. Pavin drank first, then handed the cup to me without asking whether I wanted it.
+
+I did.
+
+He sat on the floor instead of taking his chair again.
+
+I stayed seated because getting down there for atmosphere would have been stupid.
+
+For a minute nobody spoke.
+
+Then Pavin said, "How was the Guest?"
+
+"The role or the mask?"
+
+"Role."
+
+"Seven lines. Mostly sitting. Good work."
+
+He nodded.
+
+"Mask?"
+
+"Excellent. Horrible."
+
+Another nod.
+
+"Sivi tell you not to help it?"
+
+"Marek and Hara did."
+
+"Of course."
+
+"You do help it?"
+
+Pavin looked at the water cup.
+
+"First time."
 
 That was all.
 
-I had expected praise.
+No confession about why he hated it.
 
-Apparently adulthood did not issue certificates for remembering one's own rule.
+No explanation of where he had been.
 
-"You could be more impressed."
+No sacred transfer of theatrical wisdom from the true Masked Guest to the temporary one.
 
-"You got paid."
+He drank again.
+
+Then said, "You hit Marek's chair?"
+
+I stared at him.
+
+"Who told you?"
+
+"Marek."
+
+"That man is disease."
 
 "Yes."
 
-"That impressive part."
+Teren returned to the pages.
 
-Fair.
+"Second scene."
 
-She reached for the horse paper.
+The second scene required movement.
 
-"What this?"
+Not much.
 
-"Do not judge my notes."
+A chair, a door mark, and a table.
 
-She read `COMPARE THE THINGS THAT HAVE TO FIT.`
+Teren moved the real furniture until the rehearsal room barely resembled its usual shape. Pavin had to enter, cross behind the table, remove his coat, refuse a chair, then eventually sit in it after spending half the scene insisting he would leave.
 
-Then `BAD RULE CHANGED JOB.`
+My roles stood in three different places.
 
-Then the crossed-out sentence above them.
+This created a practical problem.
 
-"You write too much."
+I had one body.
 
-"I am aware."
+Teren solved it by putting a chair at one mark and telling me to read Elia from there, then stand and shift to the table when I became Corven.
 
-She turned the page over.
+"Crutches?"
 
-Seven-legged horse.
+"Use them."
 
-"Fast horse."
+"Every change?"
 
-"Still?"
+"Yes."
 
-"Very."
+"That slows the handoff."
 
-I took the page back.
+"Then the handoff is slow."
 
-Outside, the courtyard was quiet.
+Simple.
 
-No clicking.
+We started.
 
-No hatch.
+I read Elia.
 
-No bird working the drain.
+Pavin entered.
 
-Tomorrow the city would probably have some other ordinary problem.
+He crossed.
 
-Tonight I had three copper, three clean household sheets, one increasingly abused horse page, and a rule that had earned money only after I refused to pretend it was more accurate than it was.
+I changed to Corven and stood.
 
-That seemed like enough.
+The first time I tried to move too quickly, my right crutch landed half on a chalk line and half off it. Nothing dangerous happened. The tip held. I corrected and arrived at the table late enough that Pavin had to wait for the line.
+
+Teren stopped us.
+
+"Again. Greg moves first."
+
+I looked at the page.
+
+"My line is after his."
+
+"Your body isn't."
+
+That was theatre.
+
+I needed to begin the physical change while Pavin finished the line so I could be in place when the next voice entered.
+
+Not rush.
+
+Not teleport.
+
+Start earlier.
+
+We reset.
+
+This time I shifted my weight, took the crutches, and moved while Pavin finished speaking. My line arrived after I had settled by the table.
+
+Better.
+
+Then Pavin missed the chair.
+
+Not fully.
+
+He turned to sit while arguing, caught the edge with the back of his thigh, and had to grab the table.
+
+I reacted before thinking.
+
+"You good?"
+
+He stood.
+
+"Yes."
+
+Teren said, "Again."
+
+Pavin looked at the chair.
+
+"It moved."
+
+I almost defended the chair.
+
+Then I remembered Rell.
+
+"Not magically."
+
+Pavin looked at me.
+
+"What?"
+
+"Nothing."
+
+Teren crouched, checked the chalk marks, and moved the chair two inches.
+
+"Nessa marked from the front leg. You were finding the back."
+
+Pavin nodded.
+
+No shame.
+
+No joke.
+
+Just changed information.
+
+We reset again.
+
+That run worked.
+
+The next failed because I forgot which side of the table Corven occupied.
+
+Then Pavin rushed the coat business.
+
+Then I read a line from the wrong character and accidentally made the servant accuse Serrin of adultery.
+
+Pavin stared at me.
+
+Teren stared at me.
+
+I checked the page.
+
+"That is Elia."
+
+"Yes," Teren said.
+
+"The servant has stronger opinions in my version."
+
+Pavin laughed.
+
+Not politely.
+
+Actual laughter, sharp and brief.
+
+The room loosened.
+
+We started from the coat.
+
+By midday we had run three scenes enough times that I no longer thought of the job as reading.
+
+It was support work for acting.
+
+That sounded dangerously like an abstraction, so I did not write it anywhere.
+
+I also understood why Rinna had called me.
+
+I was available, I could read, I knew enough stage language to move on a note, and when Teren said again, I usually went again.
+
+Nothing grander was required.
+
+At the break, Marek appeared with two meat pies and no explanation.
+
+He gave one to Pavin and kept the other.
+
+I looked at Marek.
+
+Marek looked at me.
+
+"Where is mine?"
+
+"You aren't in this play."
+
+"I am currently in this room."
+
+"Not the same thing."
+
+Pavin tore his pie in half and handed me part.
+
+Marek looked offended.
+
+"I bought that."
+
+Pavin took a bite from his half.
+
+"He has to survive page thirty-eight."
+
+I accepted this medical judgment and ate.
+
+We talked about nothing important.
+
+A hinge on the east dressing-room door was squeaking again.
+
+Hara had lost a blue ribbon and accused nobody while clearly suspecting everyone.
+
+Sivi had refused to let Marek borrow one of her lamp cloths for something involving polish.
+
+Pavin had apparently been back long enough that nobody treated him like a returned prince.
+
+He was simply there.
+
+That was useful information too.
+
+Not why he had been gone.
+
+Just that the theatre had kept moving and then made space when he returned.
+
+After food, Teren made us run the first scene once more.
+
+It was worse.
+
+Pavin stumbled over a line he had not missed all morning.
+
+I anticipated him.
+
+He corrected.
+
+I corrected my correction.
+
+We produced a conversational corpse.
+
+Teren stopped us.
+
+"Enough."
+
+I waited for another note.
+
+He closed the pages.
+
+"That's the note."
+
+Pavin stood.
+
+"We're worse."
+
+"Yes."
+
+"Tomorrow?"
+
+"With Hara."
+
+Pavin nodded.
+
+That meant I was done.
+
+No invitation.
+
+No extra scene.
+
+No sudden casting.
+
+I felt a small, stupid disappointment anyway.
+
+Teren looked at me.
+
+"Rinna has your pay."
+
+"Am I bad enough to be finished or good enough?"
+
+"Finished."
+
+"Very clarifying."
+
+"You gave him something to work against."
+
+That was closer to praise than Teren usually bothered with.
+
+Then he added, "You also taught the servant about adultery."
+
+Pavin laughed again.
+
+There went the dignity.
+
+I collected my crutches.
+
+At the door, Teren said, "Greg."
+
+I turned.
+
+"If Rinna asks you for rehearsal partner work again, ask what kind before you agree. Reading seated is one job. Blocking three people is another."
+
+There it was.
+
+Not a promotion.
+
+A scope problem.
+
+My brain immediately reached for the ugly page.
+
+I hated that page.
+
+"Different work," I said.
+
+"Yes."
+
+"Different pay?"
+
+Teren shrugged.
+
+"Ask Rinna."
+
+Of course.
+
+No universal rule.
+
+Only another question.
+
+I left before I could build a system in the rehearsal room.
+
+Rinna paid me ordinary rehearsal money downstairs.
+
+I did not negotiate retroactively.
+
+I did ask, "If the next scene-partner job includes blocking multiple people, is that still ordinary rehearsal pay?"
+
+She looked at me for a long second.
+
+"Depends how much you are doing."
+
+"So ask before."
+
+"Yes."
+
+"Good."
+
+"Are you becoming difficult?"
+
+"I am trying to become accurately difficult."
+
+"Do it somewhere else."
+
+Lenn was not there to collect a referral fee.
+
+No one mentioned Rell.
+
+The theatre did not care about my two private copper.
+
+It had its own economy, its own missing ribbons, its own bad hinge, its own people returning without giving me explanations.
+
+I liked that.
+
+On the walk home, my shoulders were tired in the ordinary way that came from several hours of sitting, standing, shifting, and carrying my whole movement system between marks.
+
+My right leg felt worked but fine.
+
+Residual limb comfortable.
+
+The repaired shoe held.
+
+At one corner I stopped for a handcart whose driver was arguing with a small flock of gray birds occupying the street.
+
+The birds ignored him.
+
+A girl from a fruit stall stepped out, scattered something from her palm toward the gutter, and the entire flock moved after it.
+
+The cart driver went through.
+
+Nobody applauded.
+
+Nobody hired me to identify the birds.
+
+I did not know what they were.
+
+Carrow survived.
+
+At home, Lyssa had returned before me.
+
+She was sitting by the window with one stocking off and a needle between her lips, repairing a small tear near the ankle.
+
+"Theatre," she said around the needle.
+
+"Rehearsal."
+
+"Play?"
+
+"Not in it."
+
+She pulled the needle free.
+
+"Then what?"
+
+"Scene partner."
+
+She considered this.
+
+"You kiss?"
+
+"No."
+
+"Bad scene."
+
+"It was mostly lying and family damage."
+
+"Better."
+
+I told her about Pavin.
+
+Not where he had been, because I did not know.
+
+Not why he hated the mask, because I still did not know that either.
+
+I told her I had read four people badly, then less badly. I told her the servant had briefly accused a man of adultery.
+
+Lyssa laughed hard enough to put the needle down.
+
+"Again."
+
+"You heard it."
+
+"Tell better."
+
+So I did.
+
+The second version gave the servant more outrage than he had possessed in the rehearsal room.
+
+Lyssa narrowed her eyes.
+
+"You acting now."
+
+"There is an audience."
+
+"One."
+
+"Still counts."
+
+She threw the stocking at me.

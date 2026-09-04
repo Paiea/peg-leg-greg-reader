@@ -1,1149 +1,1269 @@
 # CHAPTER 256
 
-## THE STRANDED
+## THE STEWARD
 
-Sera's bowl went back before breakfast became lunch.
+Pell came back looking terrible.
 
-This was less impressive than it sounds because she lived one floor below us.
+This was reassuring.
 
-I carried it under my left arm.
+Not because I wanted him terrible.
 
-This worked for four steps.
+Because terrible and standing in the theatre doorway was considerably better than fever and absent.
 
-Then the bowl began slipping against my coat, which forced my left elbow outward, which changed the crutch angle, which made the entire arrangement stupid.
-
-I stopped on the landing.
-
-The cracked green door was six feet away.
-
-I looked at it.
-
-Then at the bowl.
-
-Then tucked the bowl inside my coat.
-
-Not fully.
-
-Enough.
-
-The door opened before I knocked.
-
-Sera looked at me.
-
-Then at the wooden rim sticking out from my coat.
-
-"What are you doing?"
-
-"Returning property."
-
-"Inside your shirt?"
-
-"Coat."
-
-"That makes it normal."
-
-"Yes."
-
-She held out both hands.
-
-I gave her the bowl.
-
-Clean.
-
-Dry.
-
-Unbroken.
-
-Success.
-
-Sera checked it because apparently everyone had become Hessa.
-
-"Beans?"
-
-"Gone."
-
-"Lyssa liked?"
-
-"Yes."
-
-"You?"
-
-"Also yes."
-
-"Good."
-
-There was that word again.
-
-I waited.
-
-Sera waited.
-
-This was the dangerous part of returning objects. Sometimes the object had been the entire conversation.
-
-I said, "Thank you."
-
-"You said that yesterday."
-
-"I remained grateful overnight."
-
-"Expensive habit."
-
-Then she shut the door.
-
-Not rudely.
-
-Efficiently.
-
-I stood on the landing for a moment with two empty hands on my crutches and no further obligation.
-
-Excellent.
-
-Upstairs, the room had nothing urgent in it.
-
-The brown cloth remained folded near the wall with three pins.
-
-The damaged shirt remained three loose threads.
-
-Lyssa's paper-wrapped packet from last night was gone.
-
-Her work bag was gone.
-
-Lyssa was gone.
-
-No note today.
-
-That was probably because she had told me last night she would be out early.
-
-I had listened.
-
-Another dangerous improvement.
-
-I ate the rest of the bread and considered whether to stay inside.
-
-The sky outside the window was gray without commitment.
-
-Carrow did this sometimes.
-
-Clouds gathered.
-
-People looked up.
-
-Nothing happened.
-
-Then everyone felt foolish for having opinions about weather.
-
-I had no theatre call.
-
-No Hessa note.
-
-No Vale runner.
-
-No list.
-
-No bowl.
-
-I needed lamp oil eventually.
-
-Not urgently.
-
-Eventually was enough.
-
-I put on the better shirt under my coat, pale blue theatre streak still visible at one sleeve when the cuff shifted, checked both crutch tips, and went out.
-
-At the bottom step, yesterday's chalk road was gone.
-
-Mostly.
-
-A pale line still lived in one crack.
-
-Mina had not issued further municipal guidance.
-
-Tavi was nowhere visible.
-
-Neither was the pig.
-
-Good.
-
-The street smelled different under cloud.
-
-Less dust.
-
-More stone.
-
-A cart rolled past with three barrels tied down under canvas. The driver had covered the barrels but not himself, which suggested either confidence or poor forecasting.
-
-I went east first because the nearest oil seller was that direction.
-
-Not Olin.
-
-Different oil.
-
-Lamp oil for people who did not own a theatre.
-
-The shop was narrow enough that two customers created a crowd.
-
-One customer already occupied half of it.
-
-He was arguing about wick width.
-
-The shopkeeper held two coils.
-
-"They both fit."
-
-"Not the same."
+He had lost enough color that his face looked borrowed. His hair had been tied back badly, his coat hung a little loose at the shoulders, and Nessa had one hand against his chest before he got three steps inside.
 
 "No."
 
-"I want the narrow."
+Pell stopped.
 
-"Then buy the narrow."
-
-"I bought narrow."
-
-"Then what are we doing?"
-
-Good business.
-
-I waited by the door.
-
-The man eventually purchased the narrow wick he had apparently already decided to purchase.
-
-He left.
-
-The shopkeeper looked at me.
-
-"Oil?"
+"I am here."
 
 "Yes."
 
-"How much?"
+"I can work."
 
-Reasonable question.
+"No."
 
-I had not brought our bottle.
+He looked past her toward the stage.
 
-Less reasonable Greg.
+I was sitting on the edge with Jori, holding one end of a narrow rail while he checked a split near the foot.
 
-I looked at the shelf behind him.
+Pell saw me.
 
-Several reused bottles.
+Then saw Marek carrying a tray.
 
-Different sizes.
+Then saw the tray.
 
-"Small bottle."
+His face changed.
 
-He pointed.
+"The Second Toast?"
 
-"That small?"
+Marek looked down at the tray as though surprised to discover evidence in his hands.
 
-"How long?"
+"No."
 
-"Depends how much light you use."
+Nessa said, "Also no."
 
-"Excellent system."
+Pell frowned.
+
+"What is no?"
+
+"You performing."
+
+"I came to perform."
+
+"You came to stand in my doorway and look sick."
+
+"I am not sick."
+
+Nessa looked at him.
+
+Pell corrected himself.
+
+"Not fever sick."
+
+"Excellent distinction. Go home."
+
+He did not.
+
+Of course he did not.
+
+I had not been called to The Second Toast either.
+
+That was the important part.
+
+The tray in Marek's hands belonged to a different piece. The Uncle's hat was nowhere visible. Pell's pages were not on the side table. Teren was working with Hara and Venn near a painted doorway I did not recognize.
+
+The two-day emergency had ended without waiting for Pell to return and announce it.
+
+The bill had changed.
+
+Good.
+
+Probably.
+
+I put my attention back on the rail.
+
+Jori pressed his thumb against the split.
+
+"Open."
+
+I pulled lightly.
+
+The split opened.
+
+"Bad?"
+
+"Wood."
+
+"Strong diagnosis."
+
+He took the rail from me and set it flat.
+
+"Glue."
+
+Davin, somewhere behind us, said, "Already."
+
+Jori looked over.
+
+Davin was holding the glue pot.
+
+"Growth," I said.
+
+Davin pointed at me with the brush.
+
+"Was getting it before he asked."
+
+"Dangerous independence."
+
+Pell was still arguing with Nessa.
+
+Quietly now.
+
+That made it more serious.
+
+"I walked here."
+
+"Congratulations."
+
+"I can sit."
+
+"At home."
+
+"I know the piece."
+
+"Which piece?"
+
+That stopped him.
+
+Nessa pointed toward the stage.
+
+"Not yours today."
+
+Pell looked.
+
+Teren had Hara cross through the painted doorway, stop, turn, and cross back.
+
+Venn followed with a folded coat over one arm.
+
+No Uncle.
+
+No dinner table.
+
+No Steward.
+
+Pell exhaled.
+
+Some part of him had apparently expected the theatre to preserve his absence as a hole.
+
+I understood that more than I wanted to.
+
+Two weeks ago, maybe even one week ago, I would have watched his face and tried to solve it.
+
+Say something useful.
+
+Tell him the show had gone well.
+
+Tell him his role had survived.
+
+Tell him I had not stolen anything.
+
+All terrible options.
+
+I held the rail while Jori worked glue into the split.
+
+Pell said, "What am I doing?"
+
+Nessa answered, "Going home."
+
+"Tomorrow?"
+
+"Ask tomorrow."
+
+He looked toward Rinna.
+
+Rinna was at the front table counting something that had nothing to do with his emotional needs.
+
+He went to her anyway.
+
+Healthy theatre.
+
+Jori wrapped cord around the glued foot.
+
+"Hold."
+
+I held.
+
+The morning had claimed me before I arrived.
+
+Not dramatically.
+
+I had gone to the theatre because I had spent yesterday washing our sheets and because the ordinary call existed whether anyone sent a boy to my door or not. The Uncle pages had stayed home on the table.
+
+I had considered bringing them.
+
+Then had not.
+
+Insurance was useful until it became luggage.
+
+At the theatre, Jori had pointed at the rail.
+
+That had been enough.
+
+My body was ordinary after the wash court. Shoulders fine after sleep. Right hand fine. Right leg fine. Residual limb comfortable. Left tip normal. Both grips normal. The clean better shirt had a pale blue streak on one sleeve that had survived washing and apparently intended to outlive me.
+
+I wore it.
+
+Nobody cared.
+
+Jori tied the cord.
+
+"Done."
+
+"Already?"
+
+"Glue isn't."
+
+"Then not done."
 
 He looked at me.
 
-I chose the second-smallest bottle.
+"Rail work done."
 
-Not because I had calculated consumption.
+Apparently completion had departments.
 
-Because the smallest looked insulting.
+We set the rail under the rear overhang where nobody would kick it.
 
-The price was ordinary enough that I did not need to convert it into debt morality.
+Davin put the glue away.
 
-I paid.
+Then immediately took it back out because Jori pointed at a loose corner on a painted box.
 
-The shopkeeper corked the bottle and wrapped a strip of rough cloth around the neck.
+Theatre maintenance reproduced when observed.
 
-"For grip."
+I stood.
 
-I looked at my crutches.
+Pell was at Rinna's table now.
 
-Then at the bottle.
-
-"How do people usually carry this?"
-
-"Bag."
-
-"Hostile."
-
-He considered me for a second, then took a narrow cord from under the counter.
-
-He tied it below the bottle's shoulder, made a loop, and held it out.
-
-"Crutch."
-
-I looked.
-
-The loop could hang below the right grip without touching my hand.
-
-I tested it.
-
-Bottle swung once.
-
-Too much.
-
-He shortened the loop.
-
-Better.
-
-"That costs extra?"
-
-"No."
-
-"Why?"
-
-"You bought oil."
-
-Dangerous generosity.
-
-I nodded.
-
-"Thank you."
-
-He was already looking at the next person entering.
-
-Transaction complete.
-
-Outside, the first drop hit my forehead.
-
-One drop.
-
-Then another on the stone.
-
-Then nothing.
-
-I looked up.
-
-Bad habit.
-
-A third drop hit my cheek.
-
-Across the lane, a woman pulling cloth from a market hook said, "Move."
-
-I did not think she meant me.
-
-She meant everyone.
-
-The ribbon seller was already gathering her display.
-
-Two boys carried a basket under an awning.
-
-A fish seller threw a waxed cover over half his table and swore at the other half.
-
-The clouds had apparently decided.
-
-I turned home.
-
-The bottle hung from my right crutch.
-
-The first thirty steps were dry enough to feel clever.
-
-Then the rain arrived.
-
-Not drizzle.
-
-Rain.
-
-A full sheet of cold water dropped through the lane hard enough that the nearest stones changed color at once.
-
-People moved.
-
-That was the first problem.
-
-The street had routes when everyone was walking normally.
-
-Rain erased them.
-
-People cut toward awnings.
-
-Carts moved closer to walls.
-
-Shopkeepers pulled goods inward.
-
-A boy carrying bread ran directly across my path, apologized without stopping, and disappeared under a covered arcade.
-
-I planted both crutches and waited.
-
-Water hit my hair.
-
-My haircut offered no defense.
-
-My coat darkened at the shoulders.
-
-The lamp-oil bottle swung under my right hand.
-
-"Excellent."
-
-I moved toward the same arcade.
-
-Not fast.
-
-Fast with two crutches on wet stone was a category I respected too much to perform for weather.
-
-The right tip held.
-
-Left tip held.
-
-The stones near the gutter did not.
-
-I knew that before testing because water was already running over them in a shallow moving sheet.
-
-So I stayed closer to the building edge.
-
-Three people reached the arcade before me.
-
-Then five.
-
-Then more.
-
-By the time I got under cover, the arcade had become a temporary country.
-
-Everyone claimed six inches.
-
-A woman with two baskets stood against the wall.
-
-A delivery boy held a covered parcel above his head even though we were now dry.
-
-An old man had somehow brought a stool.
-
-This felt unfair.
-
-A young woman shook water from her sleeves directly beside me.
-
-The woman with baskets said, "Not here."
-
-The young woman stopped.
-
-"Sorry."
-
-Nobody introduced themselves.
+She was not comforting him.
 
 Good.
 
-The arcade ran along the front of four shops.
+I could hear enough to know she was asking whether he had eaten.
 
-Closed cloth seller.
+He said yes.
 
-Open baker.
+She asked when the fever had broken.
 
-Open tea stall.
+He said yesterday morning.
 
-A cobbler who had pulled his bench farther inside and continued working as if weather were merely outside's problem.
+She asked whether his sister knew he had walked here.
 
-The rain hammered the street.
+He said something quieter.
 
-Water came off the roof edge in a thick line three feet in front of us.
+Rinna looked at him.
 
-No one was crossing that unless they had somewhere important to be.
-
-I did not.
-
-That should have been restful.
-
-Instead I looked down at my boots.
-
-Wet.
-
-Right trouser leg wet to the knee.
-
-Left side of my coat wetter because the rain had come from that direction.
-
-Residual limb comfortable.
-
-No slipping.
-
-Hands cold.
-
-Lamp oil intact.
-
-A successful expedition trapped by weather.
-
-I leaned both shoulders against the wall and settled.
-
-The delivery boy looked at my bottle.
-
-"Oil?"
-
-"Yes."
-
-"Bad timing."
-
-"I bought it dry."
-
-He considered that.
-
-"Still raining."
-
-"Your analysis is stronger."
-
-He smiled.
-
-Then looked back at the street.
-
-A cart tried to cross the intersection.
-
-The horse did not object.
-
-The wheel did.
-
-One wheel dropped into a gutter channel hidden under the running water and tilted enough that everyone under the arcade watched.
-
-The driver swore.
-
-A man from the tea stall stepped out under no cover at all and grabbed the rear wheel.
-
-Another man joined him.
-
-They pushed.
-
-The horse pulled.
-
-The wheel came free.
-
-The tea-stall man returned soaked from chest down.
-
-The stall woman handed him a cloth before he crossed the threshold.
-
-No applause.
-
-Carrow had moved a cart.
-
-Rain continued.
-
-I checked the lane home.
-
-Two streets.
-
-Then uphill.
-
-Normally nothing.
-
-Now the intersection carried ankle-deep runoff along one side.
-
-Not everywhere.
-
-Channels.
-
-The city's slope had become visible.
-
-Water chose routes I ignored on dry days.
-
-A covered drain near the opposite wall swallowed half of one stream.
-
-The other half went around a broken stone and widened.
-
-The delivery boy said, "You going west?"
-
-"Eventually."
-
-"Don't take Lower Tanner."
-
-"Why?"
-
-"Floods by the dye yard."
-
-Useful.
-
-"How much floods?"
-
-He held his hand near his ankle.
-
-"For you?"
-
-I looked at my crutches.
-
-He corrected himself.
-
-"For anybody."
-
-Better.
-
-"Other way?"
-
-"Cut north at Bell Lane."
-
-I knew Bell Lane.
-
-Narrow.
-
-Steeper.
-
-Usually crowded with handcarts.
-
-In rain, probably fewer handcarts.
-
-Maybe.
-
-"Thanks."
-
-He nodded.
-
-No name.
+Pell looked at the floor.
 
 Excellent.
 
-The old man with the stool had purchased tea somehow.
+Nessa called, "Greg."
 
-I had missed the transaction.
+I turned.
 
-He drank.
+She held a narrow leather case.
 
-I began wanting tea because someone else had tea.
+Not mine.
 
-This was a serious economic force.
+Not magical.
 
-I bought tea.
+Not a needle case.
 
-The stall woman gave it to me in a thick cup with no handle.
+Just a leather case long enough to hold stage knives.
 
-Problem.
+"Rear shelf."
 
-Both hands belonged to crutches when standing.
+I took it.
 
-She looked at me.
+That was the entire assignment.
 
-Then at the narrow ledge along the wall.
+I carried it to the rear shelf.
 
-"Sit."
+When I came back, Pell was sitting in the third row with a cup in both hands.
 
-There was no chair.
+Still here.
 
-"Where?"
+Not working.
 
-She pointed lower.
+Compromise had entered the building.
 
-A stone lip ran beneath the shopfront, maybe eight inches high.
+He looked at me.
 
-Sit was generous.
+I looked at him.
 
-I lowered myself carefully.
+"Alive," I said.
 
-Right leg forward.
+"Unfortunately."
 
-Left knee bent.
+"Good."
 
-Crutches against the wall where nobody could kick them.
+His eyes narrowed.
 
-Tea in both hands.
+"I was gone three days."
 
-Better.
+"Two performances."
 
-The stone lip was cold through my trousers.
-
-Still better.
-
-The old man on the stool looked at me.
-
-"You paid more for worse seating."
-
-"I bought tea."
-
-He lifted his cup.
-
-"Seat included."
-
-"Apparently."
-
-We drank.
-
-His stool remained superior.
-
-The rain softened after perhaps twenty minutes.
-
-Not stopped.
-
-Softened.
-
-Some people left immediately.
-
-Bad optimists.
-
-They crossed the street and became wet again.
-
-The woman with baskets waited.
-
-So did I.
-
-The delivery boy did not.
-
-He pulled his hood up, checked the parcel cover, and went north at a fast walk.
-
-His job had urgency.
-
-Mine had lamp oil.
-
-Different economy.
-
-I finished the tea.
-
-Returned the cup.
-
-The stall woman took it.
-
-"Bell Lane," she said.
-
-I looked at her.
-
-"You heard."
-
-"Everyone heard."
-
-Arcades were also surveillance states.
-
-"Lower Tanner bad?"
-
-She nodded.
-
-"Always in hard rain."
-
-"Why?"
-
-"Dye yard wall narrowed the drain."
-
-That sounded like a problem older than me.
-
-"Nobody fixed it?"
-
-She stared at me.
-
-I withdrew the question.
-
-Civilization survived.
-
-The rain eased again.
-
-This time enough that the roof edge became drops instead of a curtain.
-
-People began moving with more confidence.
-
-I waited one extra minute because I had recently learned what confidence did.
-
-Then took my crutches and stood.
-
-The right grip was slick from water I had carried inside on my hand.
-
-I wiped it on the dry part of my coat.
-
-The bottle loop still held.
-
-Bell Lane.
-
-North first.
-
-Then west.
-
-Longer route.
-
-Better drainage.
-
-I went.
-
-The first crossing was the hardest.
-
-Not because the water was deep.
-
-Because every visible stone lied about friction.
-
-I planted the right crutch.
-
-Test.
-
-Weight.
-
-Left.
-
-Test.
-
-Weight.
-
-Right foot.
-
-Move.
-
-Slow.
-
-A woman behind me sighed.
-
-I looked back.
-
-"Go around."
-
-She did.
-
-No apology.
-
-No tragedy.
-
-Good.
-
-Bell Lane rose enough that water ran beside rather than across most of the walking line.
-
-The delivery boy had been right.
-
-So had the tea-stall woman.
-
-The lane was nearly empty.
-
-One handcart stood under a cover with its owner sitting on the shafts eating something from a paper fold.
-
-A child floated a piece of bark in the gutter.
-
-It moved faster than I did.
-
-Hostile comparison.
-
-At the top of Bell Lane, the rain became fine enough to stop mattering except that I was already wet.
-
-Home was downhill one block and then across.
-
-I could see our building roof.
-
-For a moment this felt absurdly satisfying.
-
-Not survival.
-
-Navigation.
-
-A day had gone slightly wrong and then continued.
-
-I crossed carefully.
-
-At the building entrance, Mina stood under the overhang with a bucket catching water from somewhere it should not have been coming from.
-
-I stopped.
-
-The bucket sat beneath one corner of the overhang.
-
-Drip.
-
-Drip.
-
-Drip.
-
-Not from the sky.
-
-From the seam.
-
-Mina looked at me.
-
-"Don't."
-
-"I haven't said anything."
-
-"You'll make it a project."
-
-"I was going to ask if the roof leaks."
-
-"Overhang leaks."
-
-"Different jurisdiction."
-
-"Exactly."
-
-She shifted the bucket half an inch.
-
-The drip hit center.
-
-"Need help?"
-
-"No."
-
-This answer was immediate enough to respect.
-
-I went inside.
-
-The stairs smelled like wet coats.
-
-Someone had left shoes near the first landing.
-
-Not in the middle.
-
-Neighborhood civilization.
-
-Sera's cracked green door was closed.
-
-At the top floor, Orren's brass-latch door was open and a pair of wet trousers hung over a chair near it.
-
-I did not investigate.
-
-Growth.
-
-Our room was empty.
-
-Lyssa had not returned yet.
-
-I set the lamp-oil bottle on the table.
-
-Then looked at the cord.
-
-Useful.
-
-I left it tied around the neck.
-
-My coat came off heavy.
-
-I hung it.
-
-Water dripped onto the floor.
-
-I moved the coat over the basin.
-
-Better.
-
-The better shirt beneath was damp at the shoulders and one side.
-
-The pale blue paint streak looked darker while wet.
-
-Theatre returned through chemistry.
-
-I changed shirts.
-
-Not the damaged one.
-
-Another.
-
-The damaged shirt remained on the shelf with three loose threads and no new relevance.
-
-I dried the crutch grips.
-
-Then the shafts where my wet hands had run.
-
-Checked the tips.
-
-Both had held.
-
-No damage.
-
-Right foot cold.
-
-Sock damp near the toe.
-
-Residual limb comfortable.
-
-No skin problem.
-
-No heroic weather consequence.
-
-I changed the sock.
-
-Then I looked at the lamp.
-
-We had enough oil for tonight even before the new bottle.
-
-Of course.
-
-Eventually had remained eventually.
-
-I laughed.
-
-Outside, rain tapped lightly against the window.
-
-Carrow looked washed.
-
-Not clean.
-
-Different.
-
-The street below carried narrow dark tracks where runoff still followed the gutters.
-
-The dog from yesterday had relocated beneath a cart.
-
-Tavi's pig was not visible.
-
-I heated the last of the beans in a small pot because weather demanded something warm even when weather had no legal authority.
-
-Lyssa came home before dark.
-
-Dry.
-
-Mostly.
-
-I stared at her.
-
-She looked at me.
-
-Then at my wet coat over the basin.
-
-Then back at me.
-
-"What happened?"
-
-"Rain."
-
-She looked toward the window where the rain was still visibly happening.
+"Three days."
 
 "Yes."
 
-"I was out."
+He looked toward the stage.
 
-"Also yes."
+"How bad?"
 
-"How are you dry?"
+There were several possible meanings.
 
-"North arcade."
+I chose the one I could answer.
 
-I pointed at her.
+"First day I knew maybe a third of your exact words."
 
-"There are arcades everywhere."
+Pell closed his eyes.
 
-"Several."
+"Rinna let you go on?"
 
-"I found one."
+"Teren did."
+
+"Worse."
+
+"Hara carried me."
+
+"Of course."
+
+"Second day was better."
+
+He opened his eyes.
+
+"How much better?"
+
+"I knew the words."
+
+"That is the minimum."
+
+"Nessa said something similar."
+
+He drank.
+
+I waited.
+
+He looked at Marek, who had now put down the tray and was helping Venn move a chair.
+
+"Marek did Steward?"
+
+"Yes."
+
+"How bad?"
+
+"First day?"
+
+"Yes."
+
+"Correct doors by the end."
+
+Pell stared at me.
+
+"That bad."
+
+"He also learned the cups."
+
+"Blue and red?"
+
+"Yes."
+
+"That is not difficult."
+
+"You say that because you have never been Marek."
+
+Pell considered this.
+
+"Fair."
+
+He looked at me again.
+
+"Did you copy me?"
+
+There it was.
+
+Not accusation exactly.
+
+Close.
+
+"At first."
+
+His mouth tightened.
+
+"Teren stopped me."
 
 "Good."
 
-"Stop."
+I pointed at him.
 
-She smiled.
+"Hostile recovery."
 
-Her work bag was under her arm.
+"What did he say?"
 
-No paper packet today.
+"That I knew what the man wanted. Play that. Don't imitate you."
 
-No pale cloth visible.
+Pell looked toward the empty stage chair that was not the Uncle's chair.
 
-No explanation.
+"And?"
 
-Fine.
+"And apparently my Uncle thinks he owns the room longer than yours does."
 
-She took off her outer layer.
+Pell frowned.
 
-Only the lower hem was wet.
+"What does mine think?"
 
-"Where did you go?"
+"That everyone has already disappointed him."
 
-"Oil."
+"Correct."
 
-She looked at the lamp.
+"Marek said you sound angrier."
 
-Then the new bottle.
+"Marek is an idiot."
 
-"We had oil."
+"Also correct."
 
-"Eventually."
+Pell drank again.
+
+That was enough discussion of the Uncle.
+
+No pages.
+
+No demonstration.
+
+No request that I prove anything.
+
+Pell sat sickly in the third row and I went back to work.
+
+The new piece was called The Borrowed Coat.
+
+I learned this because Nessa told me to stop putting the brown coat on the wrong hook.
+
+Not the dangerous brown coat.
+
+A stage coat.
+
+Different brown.
+
+This one had a patched elbow, a broad collar, and three brass-colored buttons, only two of which matched.
+
+It belonged to Venn in the first piece and Hara in the second.
+
+That was the problem.
+
+Not for the audience.
+
+For us.
+
+The two pieces were paired close enough that Venn came offstage, took off the coat, and Hara needed it before the next piece began.
+
+Nessa had arranged the change beside the left costume rack.
+
+Venn off.
+
+Coat off.
+
+Hara in.
+
+Simple.
+
+Except the hook beside the rack already held a gray shawl, a belt, and one hat Marek had been told not to touch.
+
+The brown coat kept disappearing into fabric.
+
+Nessa moved the gray shawl.
+
+Then the belt.
+
+Then looked at the hat.
+
+Marek appeared.
+
+"No."
+
+"I didn't do anything."
+
+"Take your hat."
+
+His face brightened.
+
+"My hat."
+
+"Take it to the other rack."
+
+Less bright.
+
+He took it.
+
+The hook became visible.
+
+Nessa put the coat there.
+
+"Brown coat lives here between pieces."
+
+I looked at it.
+
+"Temporary residence."
+
+"Greg."
+
+"Here."
+
+"You're on this side for the first piece."
+
+"Property?"
+
+"Coat."
+
+I waited.
+
+"Only coat?"
+
+"And Venn's letter."
+
+There it was.
+
+Employment.
+
+The Borrowed Coat was not complicated enough to deserve its title.
+
+Venn played a man who had borrowed a coat to impress a woman and then discovered the coat belonged to her brother.
+
+Hara played the woman.
+
+Marek played the brother.
+
+Of course.
+
+My role was not in the play.
+
+My job was to make sure Venn entered with the letter in the coat pocket and came off with both coat and letter accounted for.
+
+Then the coat had to reach Hara for the next short piece, where it represented an entirely different coat belonging to an entirely different man.
+
+Theatre did not respect property law.
+
+Teren ran the first piece.
+
+I stood by the left rack.
+
+Venn came to me before his entrance.
+
+"Letter."
+
+I gave it to him.
+
+He put it into the inside pocket.
+
+I said, "Other pocket."
+
+He stopped.
+
+"Why?"
+
+I knew why.
+
+Because in rehearsal he had reached across his body for the letter and caught the broad collar under his chin.
+
+Nessa had moved the letter to the outside pocket after that.
+
+I had seen it.
+
+Venn had apparently not.
+
+"Outside."
+
+He looked toward Nessa.
+
+She was helping Hara with a cuff.
+
+"Outside," she said without turning.
+
+Venn moved the letter.
+
+"Everyone knows my coat."
+
+"Not your coat."
+
+He looked at me.
+
+"That is the play."
+
+Right.
+
+He went on.
+
+I watched from the wing.
+
+Not because I needed to admire him.
+
+Because the coat had to come back.
+
+Venn was good.
+
+Not Hara good.
+
+Different.
+
+Quiet.
+
+His character was trying very hard to appear wealthier than he was and kept making the mistake of protecting the borrowed coat from ordinary contact.
+
+When Hara offered him a chair, he checked the back before sitting.
+
+Small laugh.
+
+When Marek entered and brushed past him, Venn turned sideways to protect the sleeve.
+
+Bigger laugh.
+
+Nobody explained the coat mattered.
+
+His body did.
+
+Teren had probably made him do that.
+
+Or Venn had found it.
+
+I did not know.
+
+Healthy.
+
+Halfway through the scene, Venn reached into the outside pocket and found the letter.
+
+Correct.
+
+Then Marek recognized one of the brass-colored buttons.
+
+"You."
+
+Venn froze.
+
+Hara looked between them.
+
+"What?"
+
+Marek pointed at the coat.
+
+"That button."
+
+Venn looked down.
+
+The audience laughed because looking down was guilt.
+
+He tried to cover it by fastening the coat.
+
+Wrong button.
+
+The mismatched one would not pass through the tighter hole.
+
+The audience laughed harder.
+
+I had seen the button problem backstage.
+
+I had not known it was the joke.
+
+That felt useful.
+
+The scene ended with Hara learning the truth, Marek demanding his coat back, and Venn refusing to remove it until he could leave the room without standing in shirtsleeves.
+
+Reasonable.
+
+Curtain.
+
+Venn came off fast.
+
+"Coat."
+
+I held out both hands.
+
+He shrugged out of it.
+
+The letter remained in the pocket.
+
+I checked.
+
+Not because I distrusted him.
+
+Because Nessa had told me to.
+
+"Letter."
+
+"Still there."
+
+"I found it."
+
+"Excellent."
+
+I pulled it out and put it on the property table.
+
+Then I put the coat on the hook.
+
+Hara was already coming.
+
+She had changed one outer layer and was fastening her hair differently.
+
+"Coat."
+
+I handed it to her.
+
+She put it on.
+
+The sleeves were too long for her by perhaps an inch.
+
+Nessa folded each cuff once.
+
+"Keep."
+
+Hara flexed her hands.
+
+"Fine."
+
+Then she went.
+
+Twenty seconds.
+
+Maybe less.
+
+The coat had been Venn's problem, then my object, then Hara's costume.
+
+No speech.
+
+Good.
+
+Pell watched from the third row.
+
+I noticed only because he laughed when Marek tried to retrieve the hat from the wrong rack and found a bonnet instead.
+
+Marek came around the flat holding it.
+
+"This is not mine."
+
+Nessa said, "Evidence supports you."
+
+Pell laughed hard enough to cough.
+
+The room changed.
+
+Nessa turned immediately.
+
+So did Rinna.
+
+Pell raised one hand.
+
+"Fine."
+
+Nobody believed him.
+
+The cough stopped.
+
+Rinna pointed at the door.
+
+Pell stared.
+
+"Seriously?"
+
+"Yes."
+
+"I walked here."
+
+"You keep saying that like it improves the decision."
+
+"It proves capacity."
+
+"It proves poor judgment."
+
+I looked at Hara's coat disappearing into the second piece.
+
+Not my problem.
+
+Pell's argument was also not my problem.
+
+This was becoming a productive day.
+
+He left five minutes later.
+
+Not happily.
+
+Nessa made Venn walk him partway.
+
+Venn objected that he was in the next piece.
+
+Nessa said he was not.
+
+Venn checked.
+
+He was not.
+
+Apparently theatre could weaponize schedules for health.
+
+Pell looked at me on the way out.
+
+"Tomorrow."
+
+"Maybe."
+
+He pointed at me.
+
+I smiled.
+
+Rinna heard.
+
+"Ask tomorrow."
+
+Pell left.
+
+The second piece continued.
+
+Hara wore the brown coat as a widow's brother's coat or husband's coat or possibly a debtor's coat. I never learned because I was busy resetting the first piece's letter and helping Davin find a wooden stool that had migrated behind the curtain.
+
+This did not bother me.
+
+Not knowing every play had stopped feeling like a deficiency.
+
+Mostly.
+
+At midday, Rinna gave me bread and a piece of hard cheese because I had been there since morning.
+
+I paid for neither.
+
+I also received no philosophical explanation of company food.
+
+Marek sat beside me on the stage edge.
+
+"Steward."
+
+I looked at him.
+
+"What?"
+
+"Mine was better."
+
+"We settled this."
+
+"Pell is back."
+
+"Briefly."
+
+"So Steward is yours again."
+
+I ate cheese.
+
+"Was it ever mine?"
+
+Marek frowned.
+
+"You did it first."
+
+"That is not ownership."
+
+"Then mine."
+
+"Also not ownership."
+
+He considered.
+
+"Shared."
+
+"Temporary employment."
+
+"Too many words."
+
+Hara passed us carrying the brown coat.
+
+Not wearing it now.
+
+She dropped it into my lap.
+
+"Hook."
+
+I looked at Marek.
+
+"Authority."
+
+He looked impressed.
+
+I put the coat on the hook.
+
+The afternoon was not a performance for me.
+
+It was work.
+
+I helped Jori test the repaired rail after the glue had set enough to handle.
+
+Not enough to abuse.
+
+He put it upright.
+
+I held one side.
+
+Davin pressed the foot.
+
+No opening.
+
+"Good."
+
+I looked at Jori.
+
+"Can we use it?"
+
+"Tomorrow."
+
+"Then why test it now?"
+
+"So tomorrow isn't when we learn it failed."
+
+Reasonable.
+
+Annoying.
+
+We set it aside.
+
+Nessa had me carry three costume pieces from one rack to another because the first rack needed space for evening.
+
+I could carry one at a time while using both crutches.
+
+So I did.
+
+Three trips.
+
+Nobody combined them into a challenge.
+
+On the second trip I passed the Uncle's hat.
+
+It was on a high shelf.
+
+Not hidden.
+
+Not waiting for me.
+
+A hat.
+
+I kept walking.
+
+That felt like the correct amount of meaning.
+
+By late afternoon, Teren had me read four lines for a porter in a piece I had seen once.
+
+Not because Pell was sick.
+
+Not because I had covered Uncle.
+
+Because the actor who usually did Porter was helping Jori move a painted stair unit and Teren wanted to hear the scene while the stage was clear.
+
+I read from the page.
+
+Standing at the wing.
+
+No costume.
+
+No audience.
+
+Four lines.
+
+The first was fine.
+
+The second I put too much suspicion into.
+
+Teren stopped me.
+
+"Why do you think he knows?"
+
+"Because the letter is false."
+
+"Greg knows that."
+
+Right.
+
+I tried again.
+
+The Porter took the letter because someone handed him a letter.
+
+That was all.
+
+Teren nodded.
+
+Then the regular actor came back.
+
+He took the page from me.
+
+We continued with him.
+
+No promotion.
+
+No demotion.
+
+No emotional ceremony.
+
+I liked it.
+
+Possibly because I had become less stupid.
+
+Possibly because I had already had enough ceremony from sheets.
+
+Rinna paid me the normal copper at the end of the day.
+
+Normal.
+
+Not Uncle share.
+
+Not emergency share.
+
+Marek got normal money for his actual work.
+
+Hara got hers.
+
+Venn had returned after delivering Pell and got paid for what he had done.
+
+The company had no interest in preserving my two better-pay days as a new economic category.
+
+Correct.
+
+Still mildly disappointing.
+
+I put the copper away.
+
+Rinna said, "Pell's sister sent a boy."
+
+I looked at her.
+
+"He home?"
+
+"Yes."
+
+"Angry?"
+
+"Apparently."
+
+"Good."
+
+Rinna looked at me.
+
+I smiled.
+
+She almost did.
+
+"Tomorrow?"
+
+I asked it because everyone did eventually.
+
+Rinna looked at the evening board.
+
+"Come ordinary."
+
+That was new enough that I checked the words.
+
+"Ordinary call?"
+
+"Yes."
+
+"Role?"
+
+"Ask Teren."
+
+"Work?"
+
+She looked around the theatre.
+
+There were chairs.
+
+Coats.
+
+Props.
+
+A repaired rail.
+
+Two flats waiting for evening.
+
+Marek holding something he had almost certainly been told not to hold.
+
+"Probably."
+
+Fair.
+
+I left.
+
+Outside, Carrow had reached the hour where every cookshop smelled better than my purse wanted it to.
+
+I bought a small hot cake anyway.
+
+Money had come in.
+
+Money went out.
+
+The arithmetic existed without becoming a moral event.
+
+I ate walking slowly.
+
+The better shirt's pale blue streak caught the last light when I moved my arm.
+
+Still there.
+
+At home, Lyssa was already back.
+
+The brown cloth remained folded near the wall.
+
+Three pins.
+
+My damaged shirt remained on the shelf.
+
+Three loose threads.
+
+No Uncle pages on the table.
+
+I stopped.
+
+They were gone.
+
+That got my attention.
+
+Lyssa looked up from where she was sitting.
+
+"Where are the pages?"
+
+She pointed at the shelf.
+
+I looked.
+
+Folded there.
+
+Beside my damaged shirt.
+
+Not thrown away.
+
+Not returned.
+
+Moved.
+
+"Why?"
+
+"Food."
+
+I looked at the table.
+
+There was food.
+
+Reasonable.
+
+"The pages were in the way."
+
+"Yes."
+
+I took off my coat.
+
+"Pell came back."
 
 Lyssa looked at me.
 
-I raised one hand.
+"Good?"
 
-"I know."
+"Terrible."
 
-She laughed softly.
+She waited.
 
-Then smelled the pot.
-
-"Sera?"
-
-"Last beans."
-
-"You returned bowl?"
-
-"Before rain."
+"Looks terrible. Fever broke yesterday. Walked to theatre. Nessa and Rinna sent him home."
 
 "Good."
 
-I pointed again.
+"Correct."
 
-She ignored me and sat.
+I sat.
 
-I gave her the first bowl.
+Lyssa pushed a bowl toward me.
 
-Not Sera's bowl.
+I ate.
 
-Ours.
+After several bites she asked, "Uncle?"
 
-Important.
+"No."
 
-We ate.
+That was all.
 
-I told her Bell Lane stayed better in hard rain.
+She nodded.
 
-She said, "Yes."
+I almost told her the bill had changed.
 
-Of course.
+That Marek had not been Steward.
 
-I told her Lower Tanner flooded near the dye yard.
+That I had spent most of the day managing one brown stage coat between Venn and Hara.
 
-She said, "Yes."
+That Pell had asked whether I copied him.
 
-Of course.
+That Teren had given me four Porter lines and then taken them away when the Porter returned.
 
-I told her about the oil bottle cord.
+None of it required a report.
 
-That interested her.
+I ate.
 
-She picked up the bottle, tested the loop, and nodded.
+Lyssa had something pale folded near her work bag.
 
-"Keep it."
+Not the pale rinse cloth from yesterday, maybe.
 
-"Obviously."
+I could not tell.
 
-"Not obvious. You throw useful string away."
+I did not ask.
 
-"I have standards."
+She did not ask whether I had checked the needle case.
 
-"You threw away three pieces last week."
+Good household.
 
-"Those were bad string."
+After supper, I took the Uncle pages from the shelf.
 
-She looked at me.
+Not to study.
 
-I had no evidence.
+I folded them once more and put them inside my coat.
 
-We ate more beans.
+Lyssa watched.
 
-After supper, the rain stopped fully.
+"Need?"
 
-The silence after it felt larger than the rain had.
+"No."
 
-Water still dripped from roofs.
+"Then why?"
 
-Somebody downstairs moved the bucket.
+I considered saying insurance again.
 
-A cart passed with wet wheels making a softer sound on stone.
+It was no longer true.
 
-I checked the window.
+"Return."
 
-Not because I expected danger.
+"Tomorrow?"
 
-Because the city looked different.
+"Ordinary call."
 
-The route home had changed for an hour.
+She nodded.
 
-Lower Tanner became bad.
+I put the coat by the door.
 
-Bell Lane became good.
+The pages had been Pell's before they had been mine for two days.
 
-An arcade became a room full of people without becoming anyone's home.
+Tomorrow they could become theatre paper again.
 
-A tea-stall woman knew the drainage problem.
+I knew forty-three lines I had not known three days ago.
 
-A delivery boy knew the alternate route.
+Marek knew eleven Steward lines he had not known either.
 
-Mina knew the overhang leak was not the roof.
+Pell was home being angry under supervision.
 
-Lyssa already knew all of it because apparently she had been living in Carrow while I was conducting research.
+The bill had changed.
 
-I put more oil in the lamp.
+The rail glue was drying.
 
-From the old bottle.
+The brown stage coat was on its hook.
 
-The new one could wait.
+Our sheets were clean.
 
-Tomorrow had no call.
+Nothing had reset.
 
-No bowl.
+Nothing had become permanent just because it had happened twice.
 
-No weather promise.
-
-For tonight, the floor was dry enough, the lamp was lit, and my coat was still dripping into the basin exactly where I had put it.
-
-The city had taught me another route by raining on the first one.
-
-That was rude.
-
-Useful.
-
-Mostly rude.
+That seemed like a useful kind of ordinary.

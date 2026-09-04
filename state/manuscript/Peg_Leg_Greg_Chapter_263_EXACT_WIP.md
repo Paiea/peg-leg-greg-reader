@@ -1,1278 +1,977 @@
 # CHAPTER 263
 
-## THE SHOPHAND
+## THE SORTER
 
-Daro approved the coat before breakfast became lunch.
+The slateback did not come back.
 
-This required more ceremony than the sentence deserved.
+Neither did the market warden.
 
-He arrived in the correct trousers, the correct shoes, and the same expression he had worn yesterday when Lyssa asked whether he owned more than one pair of trousers.
+Nobody arrived to offer me a distinguished career in frightened mineral animals.
 
-The dark extension strip was still pinned inside the coat.
+By breakfast, the most magical thing in the room was Lyssa's ability to make yesterday's heavier work bag become today's lighter one without explaining where half the contents had gone.
 
-Not sewn.
+The narrow wrapped bundle from west sat near her side of the table.
 
-Lyssa made him put the coat on, button it, walk to the window, turn, sit once, stand again, and look at himself in the small mirror propped against the wall.
+I did not touch it.
 
-Daro looked.
+The brown cloth remained by the wall.
 
-Mara looked at Daro looking.
+Three pins.
 
-I ate bread.
+My damaged shirt remained on the shelf.
 
-Finally he said, "Fine."
+Three loose threads.
 
-Lyssa said, "Fine means yes?"
+Two lengths of cord now sat where one had sat before.
 
-Daro frowned.
+This was the kind of progress I could prove.
 
-"Yes."
+Lyssa ate quickly.
 
-"Say yes."
+"Out?" I asked.
 
-"Yes."
+"Later."
 
-Mara laughed into her hand.
-
-Lyssa unpinned the coat from him before he could reconsider.
-
-"Tomorrow evening."
-
-Daro started to say something.
-
-Lyssa looked at him.
-
-He stopped.
-
-"Tomorrow evening," he said.
-
-Progress.
-
-Mara followed him out, but not before looking at me and saying, "Witness."
-
-"I refuse."
-
-"You heard him."
-
-"I hear many terrible things."
-
-"Still heard."
-
-She left.
-
-Lyssa closed the door.
-
-I looked at her.
-
-She looked at me.
-
-"Do not."
-
-"I was going to compliment your legal practice."
-
-"Don't."
-
-"Fine."
-
-She pointed at me.
-
-I smiled.
-
-The word had become dangerous.
-
-Daro's coat went onto the table.
-
-Lyssa removed the pins from the extension strip, marked two points with chalk, and then moved the whole coat aside.
-
-Not sewing it immediately.
-
-Other work existed.
-
-That had become visible enough now that I understood it without needing a speech.
-
-The brown cloth by the wall still held its three pins.
-
-The repaired shirt remained on the wearable peg.
-
-The two lengths of replacement cord remained on the shelf.
-
-No Guild runner came.
-
-No theatre note waited under the door.
-
-No animal tried to become my profession.
-
-Then Pem knocked.
-
-Not Hollen.
-
-Pem.
-
-He stood in the corridor holding one of Hollen's short measuring sticks like a badge of office.
-
-"Roof dry," he said.
-
-"Congratulations."
-
-"Hollen says come if free."
-
-"When?"
-
-"Now."
-
-"Why?"
-
-Pem looked at the stick.
-
-"Counts."
-
-"That is not a reason. That is a threat."
-
-"Dry stock moved."
-
-I looked at Lyssa.
-
-She was threading a needle.
-
-She did not look up.
-
-"How long?" I asked.
-
-Pem shrugged.
-
-"Half day."
-
-"Pay?"
-
-He named the same half-day amount as before.
-
-Hollen had apparently discovered wages could survive weather.
-
-I had no theatre call.
-
-No Guild call.
-
-No appointment.
-
-I looked at my breakfast.
-
-Then at Pem.
-
-"Fine."
-
-He grinned.
-
-"Good."
-
-I pointed at him.
+"West?"
 
 "No."
-
-He had no idea what he had done.
-
-Lyssa did.
-
-She smiled down at the thread.
-
-I finished breakfast, took my crutches, and went with Pem.
-
-The roof was dry.
-
-This was the first thing Hollen showed me.
-
-Not the stock.
-
-The roof.
-
-He stood in the rear of the shop beneath the old leak line and pointed upward.
-
-A fresh patch of darker wood crossed one section. The bucket was gone.
-
-"Dry."
-
-"Pem reported."
-
-"Touch."
-
-I looked at him.
-
-"The roof?"
-
-"Board."
-
-He meant the shelf board beneath the repaired seam.
-
-I touched it.
-
-Dry.
-
-"Excellent."
-
-Hollen nodded.
-
-"Counts."
-
-Of course.
-
-The wet stock from two days ago had become dry enough to move back into sale piles.
-
-This created problems.
-
-Dry straps no longer matched their wet shape exactly.
-
-Some curled.
-
-Some narrowed.
-
-Some looked fine until bent.
-
-The pale cord had dried with dark grit marks that had not disappeared merely because water had.
-
-Hollen had already decided which damaged pieces remained bad.
-
-He did not need me to judge leather.
-
-He needed me to count what survived his judgment and put the categories back where customers could find them.
-
-Pem had hooks.
-
-I had straps and cord.
-
-Again.
-
-I sat on the same stool.
-
-My crutches leaned within reach.
-
-Hollen handed me the ledger board.
-
-The old chalk counts were still faintly visible underneath the new marks.
-
-Thirty-two narrow had once mattered.
-
-Today there were twenty-nine.
-
-I counted twice.
-
-Twenty-nine.
-
-"Three sold?" I asked.
-
-Hollen said, "Two sold. One bad."
-
-"Which one?"
-
-He pointed to a short split near a punched hole in the reject tray.
-
-I had seen it wet.
-
-It had looked acceptable then.
-
-Now the leather around the hole had dried hard and cracked.
-
-"Late failure."
-
-"Dry tells."
 
 I nodded.
 
-Useful.
-
-Not a universal principle.
-
-Leather.
-
-Twenty-nine narrow.
-
-Fourteen narrow-medium.
-
-Twenty-one medium.
-
-Nine wide.
-
-Short cord thirty-eight.
-
-Long cord twenty-five.
-
-I counted each twice because yesterday had taught me Hollen's expectations were not evidence and because paying someone to count once was an excellent way to purchase a future argument.
-
-Pem worked across from me.
-
-He held up a hook.
-
-"Basket frame?"
-
-I looked.
-
-"Refuse involvement."
-
-"Wrong."
-
-"Hollen?"
-
-"Not here."
-
-Hollen was at the front with a customer.
-
-Pem held the hook beside another.
-
-The curves were almost the same.
-
-Almost.
-
-I remembered Hollen's explanation.
-
-One tighter.
-
-"Left one basket frame."
-
-Pem smiled.
-
-"Right."
-
-I stared at him.
-
-"You knew."
-
-"Yes."
-
-"You tested me."
-
-"Yes."
-
-"This workplace has become hostile."
-
-He put the hooks into separate trays.
-
-I continued counting.
-
-At some point a theatre boy came through the door.
-
-Not the same boy from the Uncle call.
-
-This one was younger, with red hair flattened on one side and the look of someone who had been sent across too many streets carrying messages other people considered urgent.
-
-He saw me immediately.
-
-"Greg?"
-
-Hollen looked over from the counter.
-
-Pem looked up.
-
-I stopped with a strap in my hand.
-
-"Yes."
-
-The boy came to the rear.
-
-"Teren wants you."
-
-Of course.
-
-"When?"
-
-"Before midday."
-
-I looked toward the front window.
-
-The sun had not reached midday.
-
-Close enough that distance now mattered.
-
-"What for?"
-
-The boy unfolded a paper.
-
-"Second Toast."
-
-My stomach did something small.
-
-Not fear.
-
-Recognition.
-
-"Uncle?"
-
-He checked.
-
-"Steward."
-
-That was mine.
-
-Eleven lines.
-
-Marek had covered it during Pell's fever while I covered Uncle.
-
-Not a promotion.
-
-Not an emergency crown.
-
-My ordinary Steward.
-
-"Performance?"
-
-"Run first. Maybe evening."
-
-I looked at Hollen.
-
-He had heard.
-
-He said nothing.
-
-That was worse than permission.
-
-I looked at the ledger board.
-
-Half the categories were finished.
-
-I had said yes to a half day.
-
-Hollen had named the pay.
-
-The boy said, "Teren said before midday."
-
-"Can I come after?"
-
-He shrugged.
-
-"Message says before."
-
-"Useful."
-
-He held the paper toward me.
-
-I took it.
-
-IF FREE.
-BEFORE MIDDAY.
-SECOND TOAST.
-STEWARD.
-
-Theatre had excellent consistency.
-
-If free.
-
-I was not.
-
-That answer should have been easy.
-
-It was easy.
-
-I just did not like it.
-
-I gave the paper back.
-
-"I'm working."
-
-The boy blinked.
-
-At Hollen.
-
-At me.
-
-"Here?"
+"The city has other directions."
 
 "Apparently."
 
-"Should I tell Teren?"
+She reached for the wrapped bundle, turned it once, and put it into her work bag.
 
-"Yes."
+Still no explanation.
 
-"What?"
+I respected this so aggressively that it became difficult.
 
-I almost said tell him after midday.
+No theatre note waited under the door.
 
-No.
+No Hessa paper.
 
-The message was not a negotiation unless Teren made it one.
+No Vale runner.
 
-"Tell him I'm working until midday."
+No civic animal emergency.
 
-The boy nodded.
+I had bread.
 
-Then hesitated.
+I had lamp oil.
 
-"Do you still come later?"
+I had cord.
 
-"If they still need me."
+I had enough onions to avoid buying onions for at least one day.
 
-Another shrug.
+The morning had failed to assign me anything.
 
-He left.
+So I left before it could become proud of itself.
 
-Pem watched the door close.
+I did not have a destination.
 
-Then looked at me.
+This was different from being lost.
 
-"Theatre?"
+I knew where I was.
 
-"Yes."
+I simply had nowhere I was required to be.
 
-"You like theatre."
-
-"Yes."
-
-"Then go."
-
-Hollen said from the front, "He said yes here."
-
-Pem looked at him.
-
-Then at me.
-
-Hollen had not raised his voice.
-
-He did not sound possessive.
-
-He stated a fact.
-
-I had said yes here.
-
-That was the whole shape.
-
-"I know," I said.
-
-Pem looked confused.
-
-"You can leave."
-
-Hollen said, "He can."
-
-That changed it.
-
-I looked at Hollen.
-
-He finished tying a customer's bundle and took her money before coming to the rear.
-
-"Go if you want."
-
-"No."
-
-He waited.
-
-"I said half day."
-
-"Yes."
-
-"You planned around that?"
-
-"Yes."
-
-There it was.
-
-Not moral philosophy.
-
-Inventory.
-
-He had planned around having another pair of hands.
-
-Maybe he could finish without me.
-
-Probably.
-
-That did not make my yes disappear.
-
-"I'll finish."
-
-Hollen nodded once.
-
-No praise.
+The lower market was busy enough that yesterday's slateback might have been a story from another district. The grain stall had its baskets straight. The cooper's lane was open. No glowing animal occupied the handcart.
 
 Good.
 
-Pem said, "Theatre pays more."
+I took the longer way around anyway.
 
-"Usually."
+Not fear.
 
-"Then why?"
+I had no reason to walk directly through a crowd when the side lane was wider and my morning belonged to me.
 
-I picked up the ledger board.
+At the binding shop, the man who had sold me cord yesterday was standing in the doorway with both arms full of wet straps.
 
-"Because I said yes first."
+Not damp.
 
-Pem frowned.
+Wet.
 
-This was not persuasive to a fourteen-year-old.
-
-Fair.
-
-"That seems stupid."
-
-"It may be."
-
-Hollen said, "Count."
-
-Excellent employer support.
-
-I counted.
-
-The next half hour was irritating because the theatre now existed in my head.
-
-I knew the Steward.
-
-I knew the piece.
-
-I knew where the stupid serving cloth caught if Venn pulled it too early.
-
-I knew the second scene turn.
-
-I knew Marek could cover Steward because he had already done it.
-
-That last part should have made me relax.
-
-Instead it made the missed opportunity cleaner.
-
-They did not need me uniquely.
-
-They wanted me if free.
-
-I was not free.
-
-Someone else could do it.
-
-This was what belonging looked like when the world contained more than one place that might use you.
-
-Annoying.
-
-I wrote twenty-five beside long cord.
-
-Hollen checked the count.
-
-"Twenty-four."
-
-I stared at him.
-
-"No."
-
-He counted.
-
-Twenty-five.
-
-He looked at the pile.
-
-Then at the board.
-
-"Twenty-five."
-
-"Thank you."
-
-Pem said, "Thirty-two."
-
-I pointed at him.
-
-"Do not resurrect that."
-
-He laughed.
-
-A customer came in asking for a strap long enough to bind a traveling chest.
-
-Hollen asked what size chest.
-
-The customer held his hands apart.
-
-Hollen stared at the distance.
-
-I almost laughed.
-
-Hands had become unreliable measurement across Carrow.
-
-He took out a length of marked cord instead.
-
-Lyssa and Hollen would have respected each other for exactly four minutes and then fought over categories.
-
-I did not arrange this meeting.
-
-At midday, Hollen said, "Enough."
-
-I looked up.
-
-That was it.
-
-Half day.
-
-The counts were finished.
-
-Dry stock had returned to shelves.
-
-Reject stock remained reject stock.
-
-The roof did not drip.
-
-Hollen paid me exactly what he had named.
-
-I counted once.
-
-"Right?" he asked.
-
-"Yes."
-
-"Tomorrow?"
-
-I waited.
-
-He looked at the shelves.
-
-"No."
-
-"Excellent."
-
-"Maybe later week."
-
-"Conditional employment is your strongest tradition."
-
-He did not care.
-
-Pem was already eating bread.
-
-I took my pay and left.
-
-I could still go to the theatre.
-
-Midday had passed.
-
-The message had said before midday.
-
-I went anyway.
-
-Not because I expected the role.
-
-Because "if they still need me" had been part of the answer.
-
-The theatre side door was open.
-
-Inside, the blue room flat had been repaired.
-
-I knew this because it was leaning against the wall with a fresh lower edge and because the unnamed painter was standing beside it drinking water.
+A dark line ran from one end of each leather strip to the other.
 
 He saw me.
 
-"Late."
+I saw him.
 
-"Employed."
+We both looked at the straps.
 
-"Tragic."
+"Rain?" I asked.
 
-"What's your name?"
+"Roof."
 
-He lowered the cup.
+"Yesterday?"
 
-I had surprised him.
+"Night."
 
-"Colm."
+I looked up.
 
-There.
+The roof appeared innocent from the street.
 
-Months of seeing his face, apparently solved by asking.
+This meant nothing.
 
-"Greg."
+He shifted the bundle higher against his chest.
 
-"I know."
+"You working?"
 
-"Unfair."
+I looked behind me in case he had found someone with employment.
 
-He smiled.
-
-"Stage."
-
-I went backstage.
-
-The Second Toast was running.
-
-Not performing.
-
-Running.
-
-I heard Hara's voice before I saw the stage.
-
-Then Marek.
-
-Then the Steward line.
-
-Mine.
-
-Except Marek was saying it.
-
-Of course.
-
-I stopped at the wing rather than entering.
-
-Nessa stood at the property table.
-
-She saw me.
-
-Then looked at the stage.
-
-Then back at me.
-
-"Working?"
-
-"Hollen."
-
-She nodded.
-
-No accusation.
-
-No surprise.
-
-Just placed information into the right shelf.
-
-"Marek has it."
-
-"I hear."
-
-"Mostly."
-
-That word hurt more than it should have.
-
-Onstage, Marek missed the small serving-cloth handoff and Venn caught it before it hit the floor.
-
-Teren said, "Again."
-
-Marek groaned.
-
-I smiled.
-
-Nessa saw.
-
-"Don't."
-
-"I did nothing."
-
-"You enjoyed."
-
-"Privately."
-
-"Badly."
-
-The scene reset.
-
-Marek saw me in the wing this time.
-
-His face changed.
-
-"Look who got rich."
-
-Teren turned.
-
-Saw me.
-
-"Free now?"
-
-"Yes."
-
-"Too late."
-
-There it was.
-
-Clean.
-
-Not cruel.
-
-Not punitive.
-
-The run had started.
-
-Marek had the role.
-
-Changing again because I had arrived would make everyone else repeat work for my convenience.
-
-"Understood."
-
-Teren looked at me for another second.
-
-"Evening maybe. Stay?"
-
-I did not answer immediately.
-
-That mattered.
-
-Not because I wanted to be difficult.
-
-Because I had already worked half a day and because "stay" could mean three hours of waiting, work, or nothing.
-
-"What time decide?"
-
-Teren pointed at the stage.
-
-"After this run."
-
-"Fine."
-
-He turned back.
-
-Marek said, "Good."
-
-I pointed at him from the wing.
-
-He laughed and missed his next entrance cue.
-
-Teren said, "Marek."
-
-"Greg distracted me."
-
-"Greg is standing still."
-
-"Menacingly."
-
-"Again."
-
-Nessa handed me a coil of narrow stage cord.
-
-"Since you're here."
-
-I took it.
-
-"What?"
-
-"Untangle."
-
-"Paid?"
-
-She looked at me.
-
-"Are you in the evening?"
-
-"Unknown."
-
-"Then unknown."
-
-Healthy institution.
-
-I sat on the low box near the property table and untangled stage cord while they finished the run.
-
-My crutches rested against the wall.
-
-Residual limb comfortable.
-
-Right leg slightly tired from the morning sitting and walk, nothing more.
-
-The repaired right grip disappeared under my palm when I stood once to move the box out of a costume lane.
-
-Ordinary.
-
-Onstage, Marek settled.
-
-His Steward was still broader than mine.
-
-More visible.
-
-He played the man's confidence even when the scene did not deserve it.
-
-It made Hara's irritation funnier.
-
-Teren corrected one entrance and stopped correcting the rest.
-
-By the final scene, Marek knew the handoffs again.
-
-Good.
-
-Actually good.
-
-Not the word conspiracy.
-
-The work.
-
-He had covered this role before.
-
-Now he covered it again because I was somewhere else.
-
-Theatre remembered too.
-
-That was not loss.
-
-It was consequence.
-
-At the end of the run, Teren came backstage.
-
-"Evening yes."
-
-He looked at Marek.
-
-"Steward."
-
-Then at me.
-
-"Back rail and third-scene servant."
-
-I knew the servant.
-
-Four lines.
-
-One tray.
-
-One entrance through the side lane.
-
-Not Steward.
-
-Still paid work.
-
-"Fine."
-
-"Call second bell."
-
-"Pay?"
-
-Rinna answered from behind him.
-
-"Normal split for rail. Small line share."
-
-I had not seen her approach.
-
-"Good."
-
-I closed my eyes.
-
-Marek laughed.
-
-Rinna looked at him.
-
-"What?"
-
-"Nothing."
-
-I said, "Nothing."
-
-Rinna stared at both of us.
-
-Then walked away.
-
-Teren did too.
-
-Marek came over.
-
-"You could have had Steward."
-
-"I was counting straps."
-
-He waited for the joke.
-
-There was none.
-
-"You chose straps?"
-
-"I had already said yes."
-
-Marek looked toward Nessa.
-
-"Is he sick?"
-
-Nessa said, "Frequently."
-
-"I heard that."
-
-"Good."
-
-"Stop."
-
-Marek grinned.
-
-Then he held out the serving cloth.
-
-"Tell me where this catches."
-
-I looked.
-
-He had twisted it once around his wrist before the handoff.
-
-"You're doing that."
-
-"Doing what?"
-
-I showed him.
-
-He untwisted it.
-
-"Oh."
-
-"No charge."
-
-"Shop money changed you."
-
-"Deeply."
-
-The evening performance was ordinary.
-
-That was not an insult.
-
-Marek played Steward.
-
-I worked the back rail before the house opened, checked the third-scene tray, and entered as servant when called.
-
-Four lines.
-
-No rescue.
-
-No emergency substitution.
-
-No surprise promotion.
-
-The serving cloth did not fall.
-
-Hara got the strongest laugh in the second scene.
-
-Venn got one better in the third by waiting half a breath before looking at the empty dish.
-
-Marek was early once, recovered, and later landed a line I usually liked saying.
-
-It bothered me.
-
-A little.
-
-Not enough to become a problem.
-
-Enough to be honest.
-
-I had wanted Steward.
-
-I had also wanted to keep the half-day agreement I made first.
-
-Both things could be true.
-
-Afterward Rinna paid me the rail share and small line share she had named.
-
-Less than Steward would have been.
-
-More than nothing.
-
-I counted it.
-
-Then combined none of it with Hollen's money until I got home.
-
-Not because the coins knew their origin.
-
-Because I did.
-
-Outside, Colm was washing blue paint from one hand.
-
-"Blue room survive?"
+"Currently?"
 
 "Today."
 
-"Tomorrow?"
+"No."
 
-He shrugged.
+"Can you count?"
 
-"Actors."
+I looked at him.
 
-Fair.
+"This interview is becoming insulting."
 
-I went home.
-
-Lyssa was still awake.
-
-Daro's coat lay folded near the table.
-
-The extension strip was still pinned.
-
-Not sewn.
-
-"Approved?" I asked.
-
-"Tomorrow."
-
-"Again."
-
-"He came late."
-
-I laughed.
-
-"Queue consequence."
-
-She looked at me.
-
-"What?"
-
-"Nothing."
-
-I put the day's money on the table in two small groups.
-
-Hollen.
-
-Theatre.
-
-Lyssa looked at them.
-
-"Both?"
+"Can you?"
 
 "Yes."
 
-I told her the short version.
+"Sit?"
 
-Hollen first.
+"With great professionalism."
 
-Theatre call second.
+He jerked his head toward the shop.
 
-Steward gone by the time I arrived.
+"Half day."
 
-Back rail and four-line servant instead.
+I looked inside.
 
-She listened.
+The front shelves were the same crowded argument I had seen yesterday: rope, twine, straps, hooks, handles, buckles, coils, loops, and things I had not bothered naming because I had wanted cord.
 
-"You wanted Steward."
+Behind the counter, however, the floor had changed.
 
-"Yes."
+Three shallow trays sat on boards. A pile of damp straps occupied one. Another held wet cord. A third contained small leather loops and ties spread apart so they would not dry into a single commercial organism.
 
-"You left Hollen?"
+A stool stood beside them.
 
-"No."
+"Doing what?"
 
-She nodded.
+"Separate wet from dry. Count. Hang what can hang. Bad pile there. Good pile there. Don't mix sizes."
 
-That was all.
+"Pay?"
 
-I waited.
+He named an amount.
 
-She looked at me.
+It was not theatre money.
 
-"What?"
+It was not emergency Uncle money.
 
-"Nothing."
+It was half-day shop money.
 
-"You want me to say you were right."
+I knew enough about being poor to recognize the category even without a grand economic theory.
 
-"No."
-
-"You do."
-
-"I want you to recognize that I made a mature commitment decision."
+"Food?"
 
 "No."
 
 "Cruel."
 
-She moved the household portion of the money together.
+"Half day."
 
-Not all.
+"Yes."
 
-I kept some.
+That was how I became employed by cord.
 
-Again.
+His name was Hollen.
 
-The brown cloth by the wall still had three pins.
+I learned this because a woman came in ten minutes later and said, "Hollen, these are wrong," while holding three basket handles.
 
-The repaired shirt remained wearable.
+He said, "They're handles."
 
-The better shirt still carried its pale blue paint streak.
+She said, "They're short."
 
-Two lengths of cord remained on the shelf.
+He said, "You asked short."
 
-Daro's coat remained pinned, waiting on Daro rather than controlling Lyssa's schedule.
+She said, "Not that short."
 
-Hollen might need me later in the week.
+Then they argued in measurements I did not know while I sat behind the counter sorting wet straps.
 
-The theatre might call tomorrow.
+No introduction occurred.
 
-Edrin might never call at all.
+I stored the name anyway.
 
-For the first time, those possibilities did not feel like empty space waiting to be filled.
+The work was simple for six minutes.
 
-They felt like my calendar.
+Then I discovered Hollen's definition of size.
 
-Messy.
+There were narrow straps.
 
-Conditional.
+Medium straps.
 
-Occasionally badly timed.
+Wide straps.
 
-Mine.
+There were also narrow-medium straps, which I initially believed were medium until Hollen looked over and said, "Wrong."
+
+"That is medium."
+
+"No."
+
+"It is between narrow and wide."
+
+"Narrow-medium."
+
+"You have invented a fourth category to hurt me."
+
+He took the strap from my hand and laid it beside three others.
+
+They were, irritatingly, the same width.
+
+"Those."
+
+"Fine."
+
+I made a fourth pile.
+
+Five minutes later he said, "Not there."
+
+"You said those."
+
+"Those hang."
+
+"Why?"
+
+"Better leather."
+
+I stared at the straps.
+
+They looked like leather.
+
+He picked up one from the pile and bent it.
+
+"See?"
+
+"No."
+
+He bent a cheaper one.
+
+That one creased sharply near the wet edge.
+
+The first had flexed without holding the line.
+
+"Now?"
+
+"Yes."
+
+"Good."
+
+Apparently the city had coordinated this word again.
+
+I separated the better narrow-medium straps for hanging.
+
+The shop had a rear rail low enough that I could reach it from the stool if I turned sideways. Hollen had put the stool there without discussing my leg or crutches.
+
+I noticed because I had spent enough of this life noticing when people made work possible without making a speech about it.
+
+The crutches leaned against the wall within reach.
+
+My residual limb was comfortable.
+
+Right leg fine.
+
+Both grips ordinary.
+
+The job required hands more than movement.
+
+Useful.
+
+The first count was thirty-two narrow straps.
+
+Hollen said thirty-one.
+
+We counted again.
+
+Thirty-two.
+
+He frowned at the pile.
+
+"Yesterday thirty-one."
+
+"Then congratulations."
+
+"On what?"
+
+"Growth."
+
+He did not understand the onion joke because the onion seller had not coordinated with him.
+
+I felt briefly betrayed by Carrow.
+
+He counted a third time.
+
+Thirty-two.
+
+Then he found two stuck together at one end by wet dye.
+
+"Thirty-two," I said.
+
+"Yes."
+
+"I would like that recorded."
+
+"No."
+
+We moved on.
+
+The wet cord was worse.
+
+Not because counting cord was difficult.
+
+Because Hollen sold it by lengths that had already been cut, and several lengths had become tangled when water came through the rear roof seam.
+
+He handed me a wooden measuring stick with two dark marks burned into it.
+
+"Short. Long."
+
+"Only two categories?"
+
+"For these."
+
+"I don't trust you anymore."
+
+He went back to a customer.
+
+I worked the knots apart.
+
+This was slower than I expected.
+
+Wet cord tightened against itself. Pulling hard made it worse. I used the end of the measuring stick to loosen one loop, then another.
+
+No knife.
+
+Cutting stock to solve a knot seemed like the kind of efficiency that produced unemployment.
+
+A boy came through the rear carrying a shallow tray of metal hooks.
+
+He was perhaps fourteen.
+
+Maybe fifteen.
+
+He looked at me.
+
+Then at the crutches.
+
+Then at the cord.
+
+"You're in my place."
+
+I looked at the stool.
+
+"This stool belongs to you?"
+
+"Work."
+
+Hollen called from the front, "Your place leaks."
+
+The boy looked toward the ceiling.
+
+Then back at me.
+
+"Oh."
+
+He set the tray down.
+
+"You sick?" I asked.
+
+"No."
+
+"Excellent. I was about to feel guilty."
+
+"Why?"
+
+"Apparently I'm replacing you."
+
+He frowned.
+
+"I'm on hooks."
+
+Hollen called, "He's on hooks."
+
+"I understand now."
+
+The boy sat on an overturned crate across from me and began separating hooks by shape.
+
+His name was Pem.
+
+I learned this because Hollen said, "Pem, not those," four times in the next hour.
+
+Pem was not incompetent.
+
+Hollen simply possessed a highly developed relationship with correction.
+
+At one point Pem held up two hooks.
+
+"Same."
+
+Hollen said, "No."
+
+Pem looked at me.
+
+I looked at the hooks.
+
+They looked the same.
+
+"I refuse involvement."
+
+Pem smiled.
+
+Hollen took them, laid them side by side, and pointed to the curve.
+
+One was slightly tighter.
+
+Pem sighed.
+
+"Same enough."
+
+"Not for basket frame."
+
+That ended it.
+
+There were jobs where almost the same was the same.
+
+There were jobs where almost the same broke the basket.
+
+I knew that already from other things.
+
+The knowledge did not need to become a lesson.
+
+By late morning, the shop smelled like wet leather, rope fiber, and the faint sourness of damp wood.
+
+The rear roof seam dripped twice into an empty bucket.
+
+Hollen looked at it each time as if personal disapproval might repair the building.
+
+It did not.
+
+A woman came in for six straps and left with four straps, two handles, and a complaint about prices.
+
+A cart driver bought rope thick enough to tow something I did not want to meet.
+
+An old man returned three hooks because one had bent.
+
+Hollen replaced the bent one without argument.
+
+No speeches about customer service.
+
+No investigation.
+
+The hook had bent.
+
+He replaced it.
+
+Pem kept sorting.
+
+I kept counting.
+
+At some point I stopped thinking of the work as temporary enough to be interesting.
+
+It became work.
+
+That was better.
+
+The long cord pile came to twenty-seven.
+
+The short pile came to forty-one.
+
+Two lengths were bad because the water had carried dark roof grit into pale fibers and Hollen said they would stain whatever they tied.
+
+One strap had split near a punched hole.
+
+Three leather loops had swollen enough that Hollen put them in the bad tray rather than risk selling them as matched pieces.
+
+He did not mourn inventory.
+
+He separated it.
+
+Good.
+
+At midday, Pem pulled bread from a cloth and ate half.
+
+I looked at him.
+
+He looked at me.
+
+"What?"
+
+"Nothing."
+
+Hollen had said no food.
+
+Technically he had said food was not included.
+
+This distinction now felt hostile.
+
+I had money.
+
+I could leave and buy something.
+
+I was also halfway through a knot that had developed moral ambition.
+
+I finished the knot first.
+
+Then I stood.
+
+My right leg had gone stiff from sitting.
+
+Not injured.
+
+Just stiff.
+
+I took both crutches, waited one breath, and let the leg remember employment.
+
+Pem watched.
+
+Not staring exactly.
+
+Watching the sequence.
+
+I looked at him.
+
+"It still works."
+
+He looked away.
+
+"Didn't ask."
+
+"You were conducting research."
+
+"No."
+
+"Poorly, then."
+
+He smiled again.
+
+I bought a small meat pie from the corner seller and ate it standing beneath the awning because the stool had become Pem's again while I was gone.
+
+When I returned, he moved without being asked.
+
+"Your place," he said.
+
+"Dangerous phrase."
+
+He did not know why.
+
+Neither did I, exactly.
+
+I sat.
+
+The afternoon part of a half-day job lasted less than an afternoon.
+
+Hollen's roof problem had mostly become rows of separated stock by then.
+
+The better straps hung from the rear rail.
+
+Wet cord lay loose instead of knotted.
+
+Hooks remained Pem's problem and therefore morally superior.
+
+Hollen brought me a small ledger board.
+
+Not a book.
+
+A board with chalk columns.
+
+"Counts."
+
+I read the headings.
+
+Narrow.
+
+Narrow-medium.
+
+Medium.
+
+Wide.
+
+Short cord.
+
+Long cord.
+
+Bad.
+
+"You wrote narrow-medium."
+
+"Yes."
+
+"So it exists officially."
+
+"Yes."
+
+"I withdraw my accusation."
+
+"Write."
+
+I wrote the counts.
+
+My numbers were readable.
+
+This was not guaranteed in every life.
+
+Hollen checked them against the piles.
+
+Thirty-two.
+
+He paused there.
+
+I waited.
+
+"Thirty-two," he said.
+
+"Thank you."
+
+He continued.
+
+When he finished, he wiped one count and changed it by one.
+
+"Which?"
+
+"Bad loops. Four."
+
+"I had three."
+
+He held up another swollen loop from beneath the hanging rail.
+
+"Four."
+
+"Fine."
+
+I changed it.
+
+The work ended without a bell.
+
+Hollen simply looked around and said, "Enough."
+
+Pem immediately stood.
+
+Apparently he knew the word.
+
+Hollen paid me the amount he had named that morning.
+
+Exact.
+
+No bonus for surviving wet cord.
+
+No deduction for insulting his categories.
+
+I counted it once.
+
+He watched.
+
+"Right?"
+
+"Yes."
+
+"You free tomorrow?"
+
+There it was.
+
+Not promotion.
+
+Not destiny.
+
+A question.
+
+I looked at the rear roof seam.
+
+The bucket had caught three more drops.
+
+"Still leaking tomorrow?"
+
+"Roof man coming."
+
+"Then probably not."
+
+Hollen nodded.
+
+"If stock needs."
+
+"If stock needs."
+
+No promise.
+
+Pem picked up his hook tray.
+
+"You count slow."
+
+"You sort hooks wrong."
+
+"Not all."
+
+"Neither do I count all things slowly."
+
+He considered this.
+
+"Thirty-two."
+
+I pointed at him.
+
+"Exactly."
+
+I left.
+
+Outside, the day had become warmer.
+
+The market was full.
+
+Nobody screamed.
+
+No blue light flashed beneath carts.
+
+I did not feel disappointed.
+
+I had been paid.
+
+That was its own form of wildlife.
+
+I put part of the money in the inside pocket where household money went.
+
+The rest stayed separate until I got home and decided what it was for.
+
+Not because I had invented a financial system.
+
+Because money disappeared faster when every coin believed it was available.
+
+Old Greg had known that too.
+
+Old Greg had also ignored it whenever hungry, drunk, angry, generous, bored, or near a card table.
+
+Future knowledge had limits.
+
+Mostly personality.
+
+On the way home I passed the lane where the slateback had hidden yesterday.
+
+The handcart was gone.
+
+A cooper's apprentice rolled a hoop across the stones.
+
+A woman argued over apples.
+
+Nothing glowed.
+
+Good.
+
+At the courtyard, Tavi sat on the lowest step drawing with chalk.
+
+Not a city today.
+
+A six-legged animal.
+
+I stopped.
+
+It had an enormous round body, six sticks beneath it, and what appeared to be flames coming from its back.
+
+"What is that?"
+
+Tavi looked up at me with disgust.
+
+"Slateback."
+
+Of course.
+
+"Those are flames?"
+
+"Magic."
+
+"It did not have flames."
+
+"Sera said blue."
+
+"Blue is not automatically flame."
+
+Tavi added another line.
+
+"It shocked a cart."
+
+"No."
+
+"Barek said."
+
+I paused.
+
+"Barek?"
+
+"His sister."
+
+The route of information had become diseased.
+
+"It did not shock a cart."
+
+Tavi looked at the drawing.
+
+"Could."
+
+Unfortunately, yes.
+
+"Could is not did."
+
+Tavi shrugged.
+
+The distinction was not artistically useful.
+
+I went upstairs.
+
+Lyssa was home before me.
+
+Her work bag sat near the wall.
+
+The narrow wrapped bundle from west was gone.
+
+In its place was a folded piece of dark cloth I did not recognize.
+
+I did not ask.
+
+This was becoming a competitive sport.
+
+She looked at me.
+
+Then at the faint dark marks on my fingers from wet leather dye.
+
+"Work?"
+
+"Cord."
+
+She looked toward the shelf.
+
+Both replacement lengths were still there.
+
+"What?"
+
+"The man who sold me cord hired me to sort the part of his shop his roof tried to drown."
+
+"Today?"
+
+"Half day."
+
+"Paid?"
+
+I put the coins on the table.
+
+Not all of them.
+
+The household portion.
+
+Lyssa looked at the amount.
+
+Then at me.
+
+"Keep some."
+
+"I did."
+
+She nodded.
+
+No audit.
+
+No praise.
+
+She moved the coins into the small household place we used for money that had already stopped belonging to either of us individually.
+
+That movement did something quiet to me.
+
+Not because the amount was large.
+
+It was not.
+
+Not because I had never contributed.
+
+I had.
+
+Theatre money had come home before.
+
+Other money too.
+
+But this morning I had left because nothing needed me.
+
+Then something had.
+
+A leaking roof.
+
+Wet straps.
+
+Thirty-two narrow pieces of leather.
+
+I had sat on a stool and counted them.
+
+The world did not need to become dramatic to become mine.
+
+Lyssa looked at my fingers again.
+
+"Wash."
+
+"This is evidence of labor."
+
+"It's dye."
+
+"Labor-colored dye."
+
+"Wash."
+
+I washed.
+
+Most of it came off.
+
+One dark line remained beside my right thumbnail.
+
+I showed her.
+
+"Permanent career mark."
+
+"Tomorrow it'll be gone."
+
+"You don't support my advancement."
+
+"No."
+
+We ate later than usual because Lyssa still had work on the table.
+
+The dark cloth had become two dark cloths by then.
+
+Or perhaps it had always been two and I had failed the interview.
+
+I did not ask.
+
+The brown cloth remained folded by the wall.
+
+Three pins.
+
+The damaged shirt remained three threads.
+
+The new cord remained two lengths.
+
+My half-day pay had become partly household money and partly mine.
+
+Hollen might have wet stock tomorrow.
+
+He might not.
+
+Theatre might call.
+
+It might not.
+
+Hessa had not.
+
+Vale had not.
+
+Nobody from the market had come looking for a slateback expert.
+
+Good.
+
+I had spent one day knowing an animal.
+
+I had spent the next knowing thirty-two was thirty-two.
+
+Both had paid differently.
+
+Only one had paid in coin.
+
+I knew which one Lyssa would accept for onions.

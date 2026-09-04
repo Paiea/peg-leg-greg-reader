@@ -12,7 +12,7 @@ Core loop:
 
 **INTEGRATE → PRESSURE-TEST → CLASSIFY → UPDATE DURABLE BRAINS → IDENTIFY NEW EDGE → RE-PROMPT → continue**
 
-Current manuscript authority at this checkpoint: Chapter 229 — **THE ROAD ONE**. Re-read current GitHub authority first because 01 may advance.
+Current manuscript authority at this checkpoint: Chapter 232 — **THE ROAD ONE**. Re-read current GitHub authority first because 01 may advance.
 
 Integrated development waves:
 1. theatre rehearsal notes / recovery / shorthand
@@ -47,7 +47,7 @@ Use selectively. Do not turn every mistake into delayed-payoff machinery.
 
 Repeated competence should often remove explanation rather than produce praise.
 
-Chapter 229 is an especially clean non-theatre proof: Greg no longer needs directions to Marra's, automatically stays out of the work lane, and receives no congratulatory speech for knowing how to exist in the room.
+Chapter 232 is an especially clean non-theatre proof: Greg no longer needs directions to Marra's, automatically stays out of the work lane, and receives no congratulatory speech for knowing how to exist in the room.
 
 Domain-shaped trust matters more than status. Shorthand can exist where shared work earned it, but must not become a progress meter.
 
@@ -55,7 +55,7 @@ Domain-shaped trust matters more than status. Shorthand can exist where shared w
 
 Prefer social reuse before unnecessary proliferation.
 
-Chapter 229 validates the policy directly: Marra/Jessa return after a long absence with old history still active but no reintroduction scene. Greg's route knowledge, physical placement, Marra's `the road one`, Jessa's mark-reading, and a customer's Lyssa-specific expectation all carry prior chapters forward in changed form.
+Chapter 232 validates the policy directly: Marra/Jessa return after a long absence with old history still active but no reintroduction scene. Greg's route knowledge, physical placement, Marra's `the road one`, Jessa's mark-reading, and a customer's Lyssa-specific expectation all carry prior chapters forward in changed form.
 
 Avoid cameo parade and forced callbacks.
 
@@ -87,9 +87,9 @@ The manuscript establishes a real independent work ecology. Forward prose should
 - **customer recognition/recommendation:** customers know Lyssa directly by Chapter 195; one explicit Chapter-217 satisfied-customer referral occurs; broader referral business remains possibility.
 - **Maren:** lighter separate spool-sign supply route, useful for material matching but not yet a socially dense relationship.
 
-### Chapter 229 — selective continuity validated
+### Chapter 232 — selective continuity validated
 
-Chapter 229 is a model changed return rather than a new Lyssa-work development beat:
+Chapter 232 is a model changed return rather than a new Lyssa-work development beat:
 - Lyssa sends Greg to Marra without explanatory directions;
 - Greg walks the route automatically, including Sen's red door / Marra's green door distinction, while thinking about something else;
 - he now recognizes the work lane and stays out of it without instruction;
@@ -103,7 +103,7 @@ This is exactly the desired shape:
 
 **OLD SOCIAL NODE → LESS EXPLANATION → MORE ASSUMED HISTORY → GREG MORE COMPETENT BUT STILL PARTIALLY OUTSIDE THE DOMAIN**
 
-### Anti-systemization warning from Chapter 229
+### Anti-systemization warning from Chapter 232
 
 At home Greg tries to describe Lyssa's relationships as a `network`.
 
@@ -115,7 +115,7 @@ Do not make the prose explain the developmental model back to the reader.
 
 ### Passive history / uncertainty
 - most unnamed customers and garment chains should remain unnamed rather than become serviced threads;
-- Chapter 227's pale-coat customer's source remains unknown;
+- Chapter 230's pale-coat customer's source remains unknown;
 - **Marra ≠ Maren**;
 - formal Marra/Jessa/Lyssa roles remain unestablished;
 - queue causality, broad referral systems, generalized remembered fit preferences, and formal business machinery remain possibility or avoid.
@@ -132,8 +132,8 @@ Key durable evidence:
 - Ch182 Davin repairs the curtain wheel; Jori later operates/tests the repaired curtain.
 - Ch210 Davin owns missing-pin diagnosis/fabrication and directs Jori through a rolling test; Jori adds chalk verification and later checking.
 - Ch214 returned original pin carries shared repair/object memory.
-- Ch223–225 make dry technical disagreement / credit humor more legible without making Davin useless.
-- Ch228 gives mistake → correction → changed wet-board handling → narrow retained monitoring.
+- Ch226–225 make dry technical disagreement / credit humor more legible without making Davin useless.
+- Ch231 gives mistake → correction → changed wet-board handling → narrow retained monitoring.
 
 Do not clean this into friendship, rivalry, formal hierarchy, or permanent distrust. No Jori/Davin subplot plan is needed.
 
@@ -161,7 +161,7 @@ This establishes that Marek can joke and still respond immediately to Nessa's co
 
 ### ESTABLISHED — SPECIFIC HABITS CREATE ANTICIPATORY CUSTODY
 
-Chapter 222 makes accumulated object history explicit:
+Chapter 225 makes accumulated object history explicit:
 - Nessa knows Marek used the striped umbrella the day before;
 - once it is found, she tells Greg **`Do not give it to Marek.`**
 - Marek reaches for it anyway;
@@ -181,7 +181,7 @@ Current prose gives actual consequences, not only teasing:
 - protected stage property requires active custody;
 - Marek touches the forbidden hat and Nessa physically blocks/slaps the hand away;
 - later the property chest requires reorganization after Marek returns objects to wrong compartments, and the umbrella must be found again;
-- Ch225 Marek drinks from the painted stage cup; Nessa's reaction stops him, identifies the material problem, and she inspects/reclaims the object.
+- Ch228 Marek drinks from the painted stage cup; Nessa's reaction stops him, identifies the material problem, and she inspects/reclaims the object.
 
 This supports **consequences travel sideways** without requiring every Marek object beat to become trouble.
 
@@ -261,7 +261,7 @@ When relevant:
 2. Jori/Davin have overlapping problem-shaped practical authority;
 3. Nessa/Marek have specific object/costume history, but no scene is required to service it;
 4. Marek's object engagement can cause trouble **or** reveal useful information;
-5. Chapter 229 demonstrates the best changed-callback shape: return to an old social node with less explanation and more assumed history;
+5. Chapter 232 demonstrates the best changed-callback shape: return to an old social node with less explanation and more assumed history;
 6. do not make characters explain the development system to each other.
 
 Otherwise, let 01 keep writing.
@@ -301,7 +301,7 @@ Do not schedule this prematurely. Threat should collide with ordinary life rathe
 
 **HOLD / OBSERVE. DO NOT OPEN ANOTHER GENERIC RELATIONSHIP ARCHAEOLOGY QUEUE YET.**
 
-The last three development cycles have successfully recovered Lyssa's work ecology, Jori/Davin, and Nessa/Marek. Chapter 229 then demonstrated that the manuscript can naturally use this durable history without a development lane forcing the callback.
+The last three development cycles have successfully recovered Lyssa's work ecology, Jori/Davin, and Nessa/Marek. Chapter 232 then demonstrated that the manuscript can naturally use this durable history without a development lane forcing the callback.
 
 That is the point to stop mining for a moment.
 
@@ -320,19 +320,19 @@ Do **not** automatically move to Hara/Pell/Marek archaeology just because that p
 
 ## CURRENT STORY-CONTROL EDGE
 
-03 is integrated through Chapter 229 at this checkpoint.
+03 is integrated through Chapter 232 at this checkpoint.
 
 Current posture:
-1. Lyssa selective continuity is validated by Chapter 229; Marra/Jessa return changed without reintroduction or system explanation.
+1. Lyssa selective continuity is validated by Chapter 232; Marra/Jessa return changed without reintroduction or system explanation.
 2. `Network` remains useful analytical language, not required character/world terminology.
 3. Jori/Davin is established secondary workplace relationship with overlapping problem-shaped authority.
 4. Nessa/Marek is established secondary workplace relationship centered on specific object/costume history and material consequence.
 5. Nessa must not become Marek's keeper/prop cop; Marek must not become a permanent liability.
-6. Chapter 228's flower route proves Marek's object engagement can generate useful information.
+6. Chapter 231's flower route proves Marek's object engagement can generate useful information.
 7. Generic external research remains paused.
 8. No new social-archaeology queue is active. **Hold / observe newer prose.**
 9. Let 01 continue without waiting.
 
 ## RE-PROMPT [03]
 
-Continue Peg-Leg Greg Story Control from current GitHub authority. Read `AGENTS.md`, `state/PROJECT_STATE.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current manuscript/state and exact recent prose, `state/STORY_CONTROL_STATE.md`, `state/WRITERS_ROOM_STATE.md`, `state/RESEARCH_LEDGER.md`, `state/LONG_SERIAL_RESIDUE_MAP.md`, `state/PLOT_CONTROL.md`, `state/OPEN_THREADS.md`, `state/LYSSA_WORK_NETWORK_AUDIT.md`, and relevant bibles. Story Control is integrated through Chapter 229. The recent manuscript-first cycles have established Lyssa's selective-continuity work ecology, Jori/Davin as an overlapping-competence secondary workplace relationship, and Nessa/Marek as a narrower object/costume-history relationship where Marek's object engagement can create either downstream work or useful information and Nessa responds to material consequence. Chapter 229 validates the changed-callback policy: Greg reaches Marra's automatically, stays out of the work lane without instruction, Marra still calls him `the road one`, Jessa understands marks/shorthand he does not, and a customer asks for Lyssa independently; Lyssa later resists Greg systematizing these ordinary relationships as a `network`. Generic external research is paused. Do not automatically open another pair archaeology queue. First inspect newer manuscript authority and identify what actually changed on-page. If no new development pressure exists, preserve HOLD / OBSERVE and let 01 continue.
+Continue Peg-Leg Greg Story Control from current GitHub authority. Read `AGENTS.md`, `state/PROJECT_STATE.md`, `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, current manuscript/state and exact recent prose, `state/STORY_CONTROL_STATE.md`, `state/WRITERS_ROOM_STATE.md`, `state/RESEARCH_LEDGER.md`, `state/LONG_SERIAL_RESIDUE_MAP.md`, `state/PLOT_CONTROL.md`, `state/OPEN_THREADS.md`, `state/LYSSA_WORK_NETWORK_AUDIT.md`, and relevant bibles. Story Control is integrated through Chapter 232. The recent manuscript-first cycles have established Lyssa's selective-continuity work ecology, Jori/Davin as an overlapping-competence secondary workplace relationship, and Nessa/Marek as a narrower object/costume-history relationship where Marek's object engagement can create either downstream work or useful information and Nessa responds to material consequence. Chapter 232 validates the changed-callback policy: Greg reaches Marra's automatically, stays out of the work lane without instruction, Marra still calls him `the road one`, Jessa understands marks/shorthand he does not, and a customer asks for Lyssa independently; Lyssa later resists Greg systematizing these ordinary relationships as a `network`. Generic external research is paused. Do not automatically open another pair archaeology queue. First inspect newer manuscript authority and identify what actually changed on-page. If no new development pressure exists, preserve HOLD / OBSERVE and let 01 continue.

@@ -189,7 +189,7 @@
         "chapters/154.html",
         "chapters/155.html",
         "chapters/220.html",
-        "chapters/221.html",
+        "chapters/224.html",
         "index.html",
         "latest.html",
         "light.html",
@@ -213,7 +213,7 @@
       "path": "assets/manuscript-preview.js",
       "referenced_by": [
         "chapters/220.html",
-        "chapters/221.html"
+        "chapters/224.html"
       ],
       "sha256": "a12f51dd72ea8f765ac9e52baddd8449dc69ed2a8139ac2d0752b0aa637c54ea",
       "size_bytes": 2331
@@ -379,7 +379,7 @@
         "chapters/154.html",
         "chapters/155.html",
         "chapters/220.html",
-        "chapters/221.html",
+        "chapters/224.html",
         "index.html",
         "latest.html",
         "light.html",
@@ -2097,7 +2097,7 @@
       "category": "GENERATED",
       "path": "chapters/220.html",
       "referenced_by": [
-        "chapters/221.html",
+        "chapters/224.html",
         "latest.html"
       ],
       "sha256": "cda03f6a189216301c0be6a786a10c83a35c07028f8fdb47febe8a689e792a17",
@@ -2105,7 +2105,7 @@
     },
     {
       "category": "GENERATED",
-      "path": "chapters/221.html",
+      "path": "chapters/224.html",
       "referenced_by": [
         "chapters/220.html",
         "latest.html"
@@ -2344,7 +2344,7 @@
         "chapters/154.html",
         "chapters/155.html",
         "chapters/220.html",
-        "chapters/221.html",
+        "chapters/224.html",
         "latest.html",
         "light.html",
         "scripts/sync_running_manuscript.py"
@@ -2357,7 +2357,7 @@
       "path": "latest.html",
       "referenced_by": [
         "chapters/220.html",
-        "chapters/221.html",
+        "chapters/224.html",
         "light.html"
       ],
       "sha256": "8bdbf5198090292c6deb3292df40d35c2c1b472decffe595c361b74b23102011",
@@ -2368,7 +2368,7 @@
       "path": "light.html",
       "referenced_by": [
         "chapters/220.html",
-        "chapters/221.html",
+        "chapters/224.html",
         "index.html",
         "latest.html",
         "light.html"
@@ -6252,49 +6252,49 @@
     },
     {
       "category": "HISTORICAL_KEEP",
-      "path": "visual/development/contact_sheets/Ch007-119_Fast-Coverage-003_C.png",
+      "path": "visual/development/contact_sheets/Ch7-119_Fast-Coverage-003_C.png",
       "referenced_by": [],
       "sha256": "f336338f735e1164644b9017ca8aaf35d1e6127e28a05885ad08b1f478c91cde",
       "size_bytes": 3379091
     },
     {
       "category": "HISTORICAL_KEEP",
-      "path": "visual/development/contact_sheets/Ch007-137_Coverage-Batch-002_A.png",
+      "path": "visual/development/contact_sheets/Ch7-137_Coverage-Batch-002_A.png",
       "referenced_by": [],
       "sha256": "e4b3b8a106b4304a58891ce0566379f9e54885dd0d16a7c221369bdb43170e5f",
       "size_bytes": 3397902
     },
     {
       "category": "HISTORICAL_KEEP",
-      "path": "visual/development/contact_sheets/Ch007-137_Coverage-Batch-002_B.png",
+      "path": "visual/development/contact_sheets/Ch7-137_Coverage-Batch-002_B.png",
       "referenced_by": [],
       "sha256": "e68308252827634075c1c7baac7b18f6a521ecea6ce825d3d973f5d388459625",
       "size_bytes": 3344451
     },
     {
       "category": "HISTORICAL_KEEP",
-      "path": "visual/development/contact_sheets/Ch007-137_Coverage-Batch-002_C.png",
+      "path": "visual/development/contact_sheets/Ch7-137_Coverage-Batch-002_C.png",
       "referenced_by": [],
       "sha256": "b2b9d97cd6eae73c9433dd6b8e37ec55015ccfed8d0e7eae85d9120f5dcc563b",
       "size_bytes": 3319148
     },
     {
       "category": "HISTORICAL_KEEP",
-      "path": "visual/development/contact_sheets/Ch022-081_Fast-Coverage-003_A.png",
+      "path": "visual/development/contact_sheets/Ch22-081_Fast-Coverage-003_A.png",
       "referenced_by": [],
       "sha256": "237c0efe06bd13592144b195ce385762d439ef4211eeaa826a986afe78c59ed7",
       "size_bytes": 3405186
     },
     {
       "category": "HISTORICAL_KEEP",
-      "path": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "path": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "referenced_by": [],
       "sha256": "802ed3e60892a8413e5e224033d89274630954d6b9095122fabeaf6ffa5cd0e8",
       "size_bytes": 3406408
     },
     {
       "category": "HISTORICAL_KEEP",
-      "path": "visual/development/contact_sheets/Ch063-155_Fast-Coverage-006.png",
+      "path": "visual/development/contact_sheets/Ch63-155_Fast-Coverage-006.png",
       "referenced_by": [],
       "sha256": "ddefd715a2e164b29f5b730eaf1df7c29b5a9149549abca110d6403368697a62",
       "size_bytes": 3183031

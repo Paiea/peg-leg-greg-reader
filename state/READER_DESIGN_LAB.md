@@ -82,7 +82,7 @@ This replaces the earlier fake-cover / generic-frontispiece direction. The card 
 Current representatives:
 - **Book I -> Chapter 05 — THE WARRIOR**
 - **Book II -> Chapter 177 — THE STAGEHAND**
-- **Book III -> Chapter 231 — THE MAGISTRATE**
+- **Book III -> Chapter 234 — THE MAGISTRATE**
 
 Selection rule:
 - use an actual chapter role Greg inhabits, not merely an event or environment label

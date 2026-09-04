@@ -1,1053 +1,835 @@
 # CHAPTER 286
 
-## THE WARM WALL
+## THE WHOLESALE DOOR
 
-Cala's help turned out to be moving a shelf.
+The next morning I went looking for paper and accidentally found economics.
 
-Not repairing it.
+This was less impressive than it sounds.
 
-Not measuring it.
+We were nearly out.
 
-Not diagnosing why the shelf had failed to become a better shelf.
+Not important paper.
 
-Moving it.
+No contracts.
 
-I learned this after spending most of the morning waiting for the mysterious after-lunch task Lyssa had warned me about.
+No theatre pages.
 
-"From there," Cala said.
+No mysterious notes wrapped in vegetables.
 
-She pointed at the low kitchen shelf against the inner wall.
+Household paper.
 
-Then she pointed six feet away.
+The cheap gray kind Lyssa used for measurements she did not need to keep and I used for numbers I pretended were becoming a system.
 
-"To there."
+There were three sheets left.
 
-I looked at the shelf.
+One had a grease mark.
 
-"You summoned a one-legged man with two crutches for furniture moving."
+One had Tavi's attempt at a horse on the bottom half.
 
-"Olan coming."
+The horse had six legs and looked more structurally confident than I did.
 
-"Ah. I'm management."
+The third was clean.
+
+Lyssa looked at the stack before leaving.
+
+"Paper."
+
+"I noticed."
+
+"Buy some."
+
+"I was going to."
+
+"Today."
+
+"Cruel."
+
+She tied her work bag.
+
+"You write on walls otherwise."
+
+"Only useful things."
 
 "No."
 
-Olan arrived carrying nothing and immediately understood the assignment better than I did.
+She left.
 
-"Empty first," he said.
+I finished breakfast, checked the repaired heel, both crutch tips, and the right grip wrap, then took the small cloth purse we used for ordinary errands.
 
-Cala nodded.
+The two private copper stayed where they were.
 
-I stared at both of them.
+That mattered mostly because I noticed myself noticing.
 
-"I had that idea."
+Household paper was a household expense.
 
-"You didn't say it," Olan said.
+I did not need to turn every coin into philosophy.
 
-"Leadership is often invisible."
+Outside, Cala was shaking a rug over the courtyard rail.
 
-Cala handed me a stack of bowls.
+Tavi was below it for reasons nobody had approved.
 
-That was how I became storage.
+"Move," Cala said.
 
-The shelf held bowls, two jars, a chipped pitcher, a wooden box of spoons, three folded cloths, and one small blue-glazed pot that Cala told me not to drop before I had even touched it.
-
-"I wasn't going to."
-
-"Good."
-
-"You have no faith in me."
-
-"Correct."
-
-We emptied the shelf onto the table and bench. Olan lifted one end. Cala took the other.
-
-I stood ready to be useful in a way nobody had specified.
-
-The shelf moved away from the wall.
-
-Cala stopped.
-
-"There."
-
-The plaster behind it was darker than the rest of the kitchen wall.
-
-Not black.
-
-Not moldy-looking.
-
-Just a broad irregular patch of deeper gray from the floor to about knee height.
-
-Olan touched it.
-
-"Wet?"
-
-"Don't," Cala said.
-
-He withdrew his hand.
-
-I looked at the wall.
-
-"Why are we moving the shelf?"
-
-"That."
-
-"You knew it was there?"
-
-"Saw dark under bottom yesterday."
-
-I lowered myself carefully onto the nearest stool.
-
-The wall was an interior wall. Courtyard on the other side? No. The other side belonged to the narrow passage between our building and the next one, mostly covered overhead except near the drain end.
-
-Yesterday's rain had been enough to make half of Carrow damp.
-
-A wet wall was not exactly a revelation.
-
-Then I felt warmth on my right shin.
-
-I stopped.
-
-The shelf had been against the wall, trapping air. The exposed patch should have felt cooler if it was wet.
-
-Maybe.
-
-Instead the air near it felt faintly warm.
-
-I leaned closer.
-
-"What?" Cala asked.
-
-"Maybe nothing."
-
-"You say that before things."
-
-"I also say it before nothing. That's why it works."
-
-I held the back of my hand near the plaster without touching.
-
-Warm.
-
-Not hot.
-
-Warmer than the wall beside it.
-
-Olan noticed what I was doing.
-
-"Hot?"
-
-"No."
-
-"Warm?"
-
-"A little."
-
-He leaned down.
-
-Cala said, "Don't lick it."
-
-Olan looked offended.
-
-"Why would I lick wall?"
-
-"I know you."
-
-I said, "I would like the record to show that I did not consider licking the wall."
-
-"Yet," Cala said.
-
-The dark patch did not shine. No visible lines ran through it. No hum. No clicking. No insects. No smoke.
-
-I looked toward the kitchen hearth.
-
-It was on the opposite wall.
-
-"Anything behind this?"
-
-Cala shook her head.
-
-"Passage."
-
-"Neighbor's hearth against it?"
-
-"No room there."
-
-Olan said, "Warm pipe?"
-
-I looked at him.
-
-"Do we have warm pipes?"
-
-"No."
-
-"Then probably not."
-
-He nodded seriously.
-
-I liked Olan.
-
-Cala put both hands on her hips.
-
-"Shelf stays there?"
-
-That was the actual question.
-
-Not what mysterious force warmed the wall.
-
-Could she put her kitchen shelf back against it?
-
-I looked at the dark plaster.
-
-"I don't know yet."
-
-"Need someone?"
-
-"Maybe."
-
-"Who?"
-
-That was harder.
-
-A builder? A landlord? Whoever owned the building? A mason? Someone who knew household wall charms better than I did, which included nearly everyone who knew household wall charms at all.
-
-I asked, "Has this happened before?"
-
-Cala shrugged.
-
-"Shelf always there."
-
-"Any smell?"
-
-"No."
-
-"Smoke?"
-
-"No."
-
-"Wall crumbling?"
-
-She scraped one fingernail lightly over the dry plaster above the patch. A little dust came away. Nothing dramatic.
-
-"No."
-
-"Water on floor?"
-
-"No."
-
-I looked down.
-
-The floor at the base of the wall was dry.
-
-Olan crouched beside me.
-
-"Could be sun."
-
-"Passage is shaded."
-
-"Yesterday sun?"
-
-"Still shaded."
-
-"Magic?"
-
-Cala and I both looked at him.
-
-He raised his hands.
-
-"Could be."
-
-That was the problem with living in a world where magic existed.
-
-"Could be" became an enormous bucket.
-
-I had old-life categories for damp walls, heat transfer, hidden leaks, trapped moisture, bad ventilation, masonry, rot, mold, insects, pipes, electrical faults, none of which mapped cleanly onto a Carrow wall that might also have a charm, a heated stone, a neighboring seal, or some local building practice nobody had bothered to explain to the reincarnated teenager.
-
-"Let's look outside," I said.
-
-The passage was accessible from the courtyard through a narrow side gate I had used maybe twice. It was barely wide enough for me to plant both crutches comfortably without angling one.
-
-Cala went first.
-
-I followed slowly.
-
-Olan came behind and immediately became annoying by asking if I needed him to carry a crutch.
-
-"Then what would I use?"
-
-"Other crutch."
-
-"For both sides?"
-
-"Take turns."
-
-"You have solved disability."
-
-"Good."
-
-The passage smelled of wet stone, old wood, and somebody's lunch from the building next door.
-
-The outer face of Cala's kitchen wall was rough stone rather than plaster. Yesterday's rain had left dark seams near the bottom.
-
-But not where I expected.
-
-The stones directly opposite the warm patch were mostly dry.
-
-Three feet farther down, near a narrow gutter channel, the wall was visibly wet.
-
-I looked back toward the kitchen through the open side door.
-
-"Cala. Where exactly is the patch?"
-
-She stepped inside and knocked twice on the plaster.
-
-The sound came through the wall slightly ahead of me.
-
-Dry stones.
-
-I touched one.
-
-Warm.
-
-This time actually touched.
-
-The stone was warmer than the damp stones farther down the passage.
-
-Olan touched it too.
-
-"Warm."
-
-"Yes."
-
-"Magic."
-
-"Still a bucket."
-
-Cala leaned through the doorway.
-
-"What bucket?"
-
-"Nothing."
-
-A thin line of pale material ran through the mortar between two stones.
-
-I almost missed it because the mortar itself was light gray. This line was smoother, slightly glassy, and only as wide as a piece of thread.
-
-It went down six inches, turned along a mortar joint, then disappeared behind a vertical drain board.
-
-I leaned closer.
-
-"That normal?"
-
-Cala came out.
-
-She looked.
-
-"Seal line."
-
-I looked at her.
-
-"You know that?"
-
-"Everybody know seal line."
-
-Lyssa had used that sentence about chaffers.
-
-Carrow was beginning to feel personally organized against me.
-
-"What does it seal?"
-
-"Wall."
-
-"Thank you."
-
-"Water, maybe."
-
-"Maybe?"
-
-She shrugged.
-
-"Building old."
-
-Olan said, "My place has blue ones."
-
-"Blue seal lines?"
-
-"By stair."
-
-"Warm?"
-
-"No."
-
-Good.
-
-One local comparison and immediately less certainty.
-
-I followed the pale line with my eyes. It vanished behind the drain board, reappeared lower down, then ended at a small square of dull yellow material set into the mortar near ankle height.
-
-Not metal exactly.
-
-Ceramic maybe.
-
-The square was smaller than my palm and marked with three shallow grooves.
-
-I had seen household marks before. Feed stones. Seal plates. Shade-lamp pieces. Things people used without giving me a lecture because nobody lectures a nineteen-year-old every time he passes a hinge.
-
-I did not know this one.
-
-"Cala?"
-
-She looked down.
-
-"Old seal plate."
-
-"What kind?"
-
-"Wall."
-
-I closed my eyes.
-
-"I walked into that."
-
-Olan laughed.
-
-"Does it normally get warm?"
-
-Cala shook her head.
-
-"Don't know. Never touch."
-
-That was better.
-
-I held my hand near the square.
-
-Warmer than the stone.
-
-Not painfully hot.
-
-Definitely warm.
-
-The pale line nearest it was warm too.
-
-I did not touch the grooves.
-
-I did not use mana.
-
-I did not decide that because a magical-looking plate was warm, it had caused the entire wall patch.
-
-But the correlation was becoming difficult to ignore.
-
-"Who owns the building?" I asked.
-
-Cala named a man I had heard mentioned before but never met.
-
-"Does he fix things?"
-
-She made a face.
-
-That answered the legal portion.
-
-"Who fixes walls when he doesn't?"
-
-"Maro."
-
-"Who is Maro?"
-
-"Mason."
-
-"Nearby?"
-
-"Other side of bell lane."
-
-Olan said, "Old man with ear."
-
-I looked at him.
-
-"One ear?"
-
-"Two. One bad."
-
-"That description was unnecessarily alarming."
-
-Cala said, "He comes after lunch sometimes."
-
-"To this building?"
-
-"To bell lane."
-
-"Do you want me to get him?"
-
-Cala looked at the warm square.
-
-"Need?"
-
-I appreciated that she asked.
-
-I hated that I had to answer.
-
-The wall was warm, not burning. No smoke. No smell. No cracking. No visible active mana. The floor was dry. The shelf could stay away from it for now. There was no reason to turn a household oddity into an emergency.
-
-"I think we leave the shelf moved and ask Maro when convenient. If the wall gets hot, smells, smokes, cracks, or starts doing anything new, then don't wait for convenient."
-
-Cala nodded.
-
-"Good."
-
-Olan said, "If it sings?"
-
-I looked at him.
-
-"Yes. If the wall sings, get someone."
-
-"What if good song?"
-
-"Especially then."
-
-We moved the shelf to the other wall.
-
-That required actual furniture moving.
-
-Olan and Cala lifted again. I carried the spoon box and the blue pot.
-
-I did not drop either.
-
-History would forget this achievement.
-
-By midday the kitchen looked slightly wrong because the shelf was now where a chair had been, the chair was where a basket had been, and the basket had become my problem because nobody knew where to put it.
-
-I put it under the table.
-
-Cala moved it immediately.
-
-Management remained invisible.
-
-I went upstairs and considered the three copper on the table.
-
-I did not touch them.
-
-That was becoming an activity in itself.
-
-Three copper was enough to feel like a beginning and not enough to justify pretending I had a plan.
-
-I could buy something.
-
-Tools, maybe.
-
-Material.
-
-Inventory.
-
-A partial payment toward something larger.
-
-The problem was that every noun became an opportunity if I stared at the coins long enough.
-
-I covered them with an empty cup.
-
-Better.
-
-Then I noticed the cup looked like a secret treasure marker.
-
-I moved it.
-
-This was not finance.
-
-A knock came from below.
-
-Cala called, "Greg."
-
-I leaned toward the door.
-
-"Alive."
-
-"Maro."
-
-Convenient had arrived.
-
-Maro was not as old as Olan's description had made him sound. Maybe fifty. Broad hands, gray in his beard, left ear slightly folded at the top as if it had lost an argument years ago.
-
-Olan had apparently converted that into a medical biography.
-
-Maro carried a short hammer, a narrow iron pick, and a cloth bag dusted white.
-
-He did not greet me as ruler man, theatre man, magic boy, one-leg, or anything else Carrow had recently tried.
-
-He greeted Cala.
-
-Excellent.
-
-She showed him the dark patch inside first.
-
-He touched the plaster with two fingers.
-
-Then the dry wall above it.
-
-Then he went outside.
-
-I followed.
-
-He found the pale seal line and the yellow square immediately.
-
-"Warm," Cala said.
-
-"I see."
-
-I almost asked how he saw warmth.
-
-Then noticed the yellow square had changed color near one groove.
-
-Not dramatically. One shallow line was a little darker than the others.
-
-Had it been that way earlier?
-
-I did not know.
-
-I had not recorded it.
-
-Good reminder.
-
-Maro pressed the back of one knuckle against the stone beside the plate.
-
-"How long?"
-
-Cala said, "Saw wall yesterday. Warm today."
-
-"Rain before?"
-
-"Yes."
-
-"Shelf against inside?"
-
-"Yes."
-
-He nodded.
-
-I waited.
-
-He did not explain.
-
-This was intolerable.
-
-"What is it?" I asked.
-
-Maro glanced at me.
-
-"Old dry seal."
-
-Cala had called it a wall seal. Maro added dry.
-
-"Keeps water out?"
-
-"Helps move wet."
-
-That was not the same thing.
-
-"Move it where?"
-
-He pointed down the mortar line toward the gutter end of the passage.
+Tavi moved two feet sideways.
 
 "Away."
 
-"How?"
+He moved another foot.
 
-Maro looked at me for a moment.
+Cala looked at me.
 
-"You live here?"
+"Paper shop?"
 
-"Yes."
+I stopped.
 
-"Then don't chip it."
+"How do you know?"
 
-"That was not my question."
-
-"Better answer."
-
-Cala smiled.
-
-I had found another professional with domain boundaries and no interest in feeding me a textbook.
-
-Maro opened his cloth bag and took out a little lump of pale chalky material. He rubbed it across the mortar line in two places.
-
-The first stayed pale.
-
-The second, nearer the yellow plate, darkened faintly.
-
-"What does that show?"
-
-"Line carrying."
-
-"Mana?"
-
-"Seal."
-
-"Those are not mutually exclusive words."
-
-He looked at Cala.
-
-"He always?"
-
-"Yes."
-
-I was being reviewed by the community.
-
-Maro scraped a tiny amount of mortar beside the plate, not the plate itself. He smelled the dust.
-
-Then he pressed the yellow square again.
-
-"Not broken."
-
-"Then why warm?" Cala asked.
-
-"Working hard."
-
-That was the first answer that changed the room.
-
-Not broken.
-
-Working.
-
-I looked at the dark patch through the doorway.
-
-"Because of the rain?"
-
-Maro shrugged.
-
-"Rain. Wet joint. Shelf holds damp inside. Maybe drain board pushing water wrong."
-
-Three possibilities.
-
-Not one explanation.
-
-"Can you tell which?"
-
-"Not today."
-
-Beautiful.
-
-I liked him too.
-
-"Dangerous?" Cala asked.
-
-Maro shook his head.
-
-"Not now. Keep shelf off. Let wall dry. I come two days. If line cool, good. If still hot, open board."
-
-"Hot or warm?" I asked.
-
-"Hot bad. Warm working."
-
-That sounded like a rule.
-
-I distrusted rules on principle now.
-
-"Always?"
-
-Maro gave me a long look.
-
-"No."
-
-Perfect.
-
-He pointed at the plate.
-
-"This one. This wall. Today. Warm is working. Hot is bad. Cold after wet can mean dead. Cold can also mean dry."
-
-I smiled before I could stop myself.
-
-Maro frowned.
-
-"What?"
-
-"Nothing. That's a very good answer."
-
-"It is wall."
-
-"Exactly."
-
-He charged Cala a small visit fee.
-
-I did not ask the amount.
-
-I was improving.
-
-She paid him.
-
-He told her again to leave the shelf off the wall and said he would return in two days if he was nearby, otherwise she should send Olan.
-
-Olan looked surprised to discover he had become messenger infrastructure.
-
-"Why me?"
-
-"You know where," Cala said.
-
-"Greg know now."
-
-Cala looked at my crutches.
-
-Then at Olan.
-
-"You."
-
-I said, "For once discrimination has benefited me."
-
-Nobody cared.
-
-Maro packed his chalk and pick.
-
-Before he left, I asked one more question.
-
-"Are those common?"
-
-I pointed at the seal plate.
-
-"Old buildings."
-
-"Same kind everywhere?"
-
-"No."
-
-"Do people still make them?"
-
-"Some."
-
-"Do you?"
-
-"Repair."
-
-"Who makes them?"
-
-He was already walking toward the gate.
-
-"People who make seals."
-
-I stared after him.
-
-Olan said, "Good answer."
-
-"I hate this city."
-
-I did not.
-
-That was the problem.
-
-The warm wall stayed warm through the afternoon.
-
-Slightly less, maybe.
-
-I refused to decide based on my hand.
-
-Cala refused to care until Maro came back.
-
-Her position was healthier.
-
-I sat in the courtyard while Tavi moved his roof-tile boat through an imaginary river between the paving stones.
-
-"Water," he said.
-
-"That is a crack."
-
-"River."
-
-"Understood."
-
-The boat reached the drain.
-
-He stopped before putting it in.
-
-Progress existed everywhere if one was desperate enough.
-
-"Greg."
-
-"Yes?"
-
-"Wall magic?"
-
-I looked toward the kitchen.
-
-"Wall seal."
-
-"Magic?"
-
-"Maybe."
-
-"Warm."
-
-"Yes."
-
-"Hot?"
-
-"No."
-
-He nodded.
-
-"Good wall."
-
-I almost corrected him.
-
-Then didn't.
-
-Maro had said not broken. Working hard. That was enough for a child playing boat and not enough for me to write a law.
-
-"Good enough wall," I said.
-
-Tavi accepted this.
-
-Lyssa came home near dusk.
-
-She noticed the kitchen shelf before she noticed me.
-
-"Why there?"
-
-Cala answered from inside.
-
-"Wall warm."
-
-Lyssa put down her bag.
-
-"Seal?"
+"Lyssa said you're going."
 
 Of course.
 
-I looked at her.
-
-"Everybody knows?"
-
-"What?"
-
-"Dry seals."
+"Need anything?"
 
 "No."
 
-That surprised me.
+Tavi said, "Blue paper."
 
-"You know this one?"
+Cala shook the rug.
 
-"I know old walls have things."
+Dust descended on him.
 
-Better.
+"No blue paper."
 
-She went into the passage, looked at the yellow plate, and came back without touching it.
+He coughed dramatically.
 
-"Maro?"
+"I am dying."
 
-"Already came."
+"Die away from the laundry."
 
-"What say?"
+I left before becoming responsible for the funeral.
 
-"Working hard. Shelf stays off. He checks in two days if needed."
+The paper shop I knew was on Narrow Bell, three streets past the old spice lane. I had bought from it before.
 
-She nodded.
+Cheap gray sheets.
 
-No fascination.
+String.
 
-No fear.
+Once, a pencil that broke before I got home.
 
-Just household information.
+Reliable disappointment.
 
-Then she looked at me.
+Narrow Bell was crowded enough that morning to make two crutches irritating but not impossible. I stayed near the wall where I could, let a handcart pass, waited while three apprentices carried a long wooden frame across the lane, then crossed behind them.
 
-"You touch?"
+The paper shop had changed its front table.
 
-"The stone. Not the grooves."
+That was the first problem.
 
-"Mana?"
+The second was the sign.
+
+The familiar little painted sheet hanging above the door was gone.
+
+In its place was a board that said:
+
+`RETAIL AT SOUTH COUNTER`
+
+Below that, smaller:
+
+`BUNDLES / LOTS / TRADE ORDERS THROUGH COURT`
+
+I read it twice.
+
+Then looked through the open door.
+
+Paper.
+
+Shelves of it.
+
+Good enough.
+
+I went inside.
+
+The room was wrong immediately.
+
+Not dangerous wrong.
+
+Administrative wrong.
+
+The front counter I remembered had disappeared. In its place were stacked bundles tied in twine, each bundle thick enough to injure a man if dropped with conviction.
+
+A woman I did not know stood behind a narrow desk writing numbers into a ledger.
+
+She looked up.
+
+"Trade?"
+
+"Paper."
+
+She waited.
+
+"Yes," I added.
+
+"Trade order?"
+
+"Probably not."
+
+"South counter is around the corner."
+
+I looked back at the door.
+
+Then at the sign I had successfully read and failed to obey.
+
+"Excellent."
+
+She went back to her ledger.
+
+I should have left.
+
+Instead I saw the numbers chalked on the wall behind her.
+
+Not prices exactly.
+
+Quantities.
+
+Twenty-five sheets.
+
+Fifty.
+
+One hundred.
+
+Two hundred.
+
+Beside each was a smaller number.
+
+I stared long enough that the woman noticed.
+
+"You buying?"
+
+"No."
+
+"Then don't block the door."
+
+I moved farther in.
+
+This was technically compliance.
+
+The court beyond the room was open to the sky. Two men were unloading paper bundles from a narrow wagon. Another person was checking seals against a board. There were stacks under canvas along one wall and a row of wooden bins filled with offcuts along another.
+
+Not a shop.
+
+A back end.
+
+The part ordinary customers were not supposed to wander into because they had read half a sign and become curious.
+
+I looked at the chalkboard again.
+
+The woman sighed.
+
+"What?"
+
+"Those are bundle prices?"
+
+"Yes."
+
+"Same paper as retail?"
+
+"Some."
+
+"Gray household?"
+
+She pointed with the end of her pen.
+
+"Third line."
+
+I found it.
+
+The number was lower than I expected.
+
+Not lower total.
+
+Lower per sheet.
+
+Obviously.
+
+Bulk existed.
+
+I had known bulk existed in both lives.
+
+I had not previously needed to care about bulk paper in Carrow.
+
+That distinction saved the moment from becoming revelation.
+
+"How many in the smallest bundle?"
+
+"Twenty-five."
+
+"And retail sells five?"
+
+"Retail sells however many you pay for."
+
+"Useful."
+
+She stared at me.
+
+"You are not trade."
+
+"No."
+
+"South counter."
+
+"I am going."
+
+I did not go yet.
+
+Because one of the men unloading the wagon cut the twine from a damaged bundle and swore.
+
+The outer sheets had been crushed at one corner.
+
+Not ruined.
+
+Bent.
+
+The woman behind the desk looked over.
+
+"How many?"
+
+"Top six bad. Maybe eight."
+
+"Offcut bin if they tear. Seconds if they don't."
+
+The man nodded.
+
+I looked at the bins.
+
+Then at the board.
+
+"Seconds?"
+
+The woman put down her pen.
+
+This was not because she had decided to mentor me.
+
+This was because I had become more annoying than the ledger.
+
+"Bent, stained, wrong cut, short count, damaged edge. Still usable. Sold cheaper. Usually by mixed lot."
+
+"Retail?"
+
+"Sometimes south counter takes a stack. Usually schools, kitchens, shops, anyone who doesn't care what it looks like."
+
+"Can anyone buy a lot?"
+
+"Anyone with money."
+
+There it was.
+
+The oldest qualification in commerce.
+
+"How much?"
+
+"Depends on the lot."
+
+"Posted?"
+
+"When there's enough to post."
+
+"Where?"
+
+She pointed behind me.
+
+A narrow board hung beside the door.
+
+I had walked past it.
+
+Three slips were pinned there.
+
+One for waxed wrapping paper.
+
+One for narrow card strips.
+
+One for mixed gray seconds, thirty to forty sheets depending on final count.
+
+The price was small.
+
+Not nothing.
+
+Small enough that I immediately compared it to the two private copper I was not carrying.
+
+That was irritating.
+
+"Those thirty to forty sheets all writable?"
+
+"It says mixed gray seconds."
+
+"That does not answer the question."
+
+"Then you understand trade."
+
+I liked her less now.
+
+Possibly more.
+
+I read the slip again.
+
+The lot was not dramatically cheaper than buying only the paper we actually needed today.
+
+It was cheaper per usable sheet if most of it was usable.
+
+If.
+
+There was the problem.
+
+I could buy five clean sheets at retail and know exactly what I had.
+
+Or buy a mixed stack and maybe get thirty useful sheets, maybe twenty, maybe paper with stains Lyssa would refuse to put near customer cloth, maybe narrow cuts that were only useful for notes.
+
+And then we would own too much paper.
+
+Too much paper was not a tragedy.
+
+It was also not capital.
+
+I had recently become vulnerable to calling any larger quantity an investment.
+
+The woman picked up her pen again.
+
+"South counter."
+
+"One more question."
+
+"No."
+
+"Fair."
+
+I left through the correct door this time.
+
+The south counter was literally around the corner.
+
+A painted arrow on the wall made this humiliatingly clear.
+
+The retail room was smaller than I remembered because the old shop had apparently been divided. A young man with a shaved head sat behind the counter eating nuts from a cup.
+
+"Gray paper," I said.
+
+"How much?"
+
+"Five sheets."
+
+He reached under the counter.
+
+"String?"
+
+"No."
+
+"Charcoal?"
+
+"No."
+
+"Pencils?"
+
+"Not from here."
+
+He looked offended on behalf of a pencil I had purchased months ago.
+
+"Different stock now."
+
+"The last one died young."
+
+"Then it fulfilled its nature."
+
+I paid for five sheets.
+
+Simple.
+
+Household errand complete.
+
+Then I stood outside holding paper in one hand and both crutches in the other arrangement that made holding paper annoying.
+
+This was why Lyssa used a bag.
+
+I tucked the sheets inside my shirt.
+
+Dignity remained theoretical.
+
+I should have gone home.
+
+Instead I walked back around the corner and looked at the seconds notice again from outside.
+
+I did not enter.
+
+That mattered.
+
+The mixed lot price sat there being tempting without doing anything to me.
+
+Thirty to forty sheets.
+
+Unknown usable count.
+
+Mixed condition.
+
+No need.
+
+No buyer.
+
+No resale plan.
+
+No reason to assume anybody else would pay me more for paper they could buy themselves.
+
+That last part killed most of the fantasy.
+
+Buying cheap was not value creation if the only next step was hoping someone more foolish appeared.
+
+Old life had contained entire industries dedicated to forgetting that sentence.
+
+I walked home.
+
+Halfway there I saw a bakery boy carrying a stack of narrow gray slips exactly like the card-strip seconds notice.
+
+For one stupid second my brain tried to build a paper empire from evidence that bakeries used paper.
+
+I stopped that.
+
+The bakery had probably bought paper from the paper seller.
+
+Revolutionary.
+
+At the courtyard, Cala had finished the rug.
+
+Tavi was alive despite earlier predictions.
+
+He saw the paper edge inside my shirt.
+
+"Blue?"
+
+"Gray."
+
+"Bad."
+
+"You are not the client."
+
+Cala looked over from a basin.
+
+"You got five?"
+
+I paused.
+
+"How do you know five?"
+
+"That's what Lyssa buys."
+
+My household remained publicly documented.
+
+"Yes."
+
+"Good."
+
+I went upstairs.
+
+The clean sheet with the six-legged horse was still on the table.
+
+I put the new five beside it.
+
+Then I took the horse sheet and turned it over.
+
+I wrote:
+
+`BULK IS NOT PROFIT.`
+
+Under it:
+
+`CHEAPER PER UNIT ONLY MATTERS IF UNITS ARE USEFUL.`
+
+Then I stared at the second sentence.
+
+It sounded like a man trying very hard to become boring.
+
+Possibly necessary.
+
+I added:
+
+`SECONDS?`
+
+Then crossed it out.
+
+The paper lot was not an opportunity yet.
+
+It was a thing I had learned existed.
+
+Those were different categories.
+
+I was getting better at not promoting one into the other because I wanted the second category more.
+
+A knock came at the door.
+
+For one hopeful and embarrassing moment I imagined a paying client who desperately needed expertise in damaged stationery.
+
+It was Tavi.
+
+He held half an onion skin and a piece of charcoal.
+
+"Horse paper."
+
+"No."
+
+"Back."
+
+"I am using the back."
+
+He leaned around me and saw my writing.
+
+"That not horse."
+
+"Correct."
+
+"Horse better."
+
+"Debatable."
+
+He pushed the charcoal toward me.
+
+"Make horse."
+
+"I cannot draw a horse."
+
+"I can."
+
+"You drew six legs."
+
+"Fast horse."
+
+I had no answer to that.
+
+He took the charcoal back and left.
+
+The page remained on the table.
+
+I spent the next hour doing ordinary things.
+
+Washed the bowl from breakfast.
+
+Checked the right shoe because I had walked farther than planned. Heel still flat.
+
+Rested my shoulders.
+
+Moved the new paper away from the window when a breeze started lifting the corners.
+
+No capital was created.
+
+No magical object appeared between the sheets.
+
+No one offered to finance my stationery ambitions.
+
+Around midday I went downstairs because Cala was calling for help with a stuck cupboard latch.
+
+Not magical.
+
+Not paid.
+
+The wood had swollen.
+
+Olan was already there with a thin knife and solved it before I reached the doorway.
+
+"Fixed," he said.
+
+"Excellent."
+
+I turned around.
+
+Cala said, "You can carry this upstairs."
+
+She held out a small covered bowl.
+
+I looked at both crutches.
+
+Then at her.
+
+She looked at both crutches.
+
+"Right."
+
+Olan took the bowl.
+
+This was the full extent of my contribution.
+
+I went back up.
+
+By late afternoon Lyssa returned with thread looped around two fingers and a paper twist tucked into the side of her bag.
+
+Not one of the protected parcels.
+
+Food.
+
+I knew because grease had already marked the paper.
+
+She put two fried little dough things on the table.
+
+"Paper?"
+
+I pointed.
+
+She counted the new sheets without touching them.
+
+"Five."
+
+"Apparently this household has a standard."
+
+"Yes."
+
+I handed her one of the fried things.
+
+She ate half before asking, "What happened?"
+
+"Why does something have to happen?"
+
+"You bought paper and wrote on old paper."
+
+She pointed at my note.
+
+I had forgotten it was visible.
+
+`BULK IS NOT PROFIT.`
+
+Lyssa read it.
+
+Then the next line.
+
+Then looked at me.
+
+"You tried to buy too much paper?"
+
+"No."
+
+"Wanted to?"
+
+"Briefly."
+
+"Why?"
+
+"It was cheaper."
+
+"Did we need it?"
+
+"No."
+
+"Then very expensive."
+
+I stopped.
+
+That was annoyingly good.
+
+"You cannot just say things like that while eating fried dough."
+
+"Why?"
+
+"Because I have been thinking about unit economics all day."
+
+She took another bite.
+
+"I don't know what that is."
+
+"Apparently neither do I."
+
+I told her about the wrong door.
+
+Trade bundles.
+
+Seconds.
+
+Mixed lots.
+
+Bent corners.
+
+The notice board.
+
+I did not ask whether we should buy them.
+
+She did not become my purchasing department.
+
+She listened because the story involved me ignoring a sign.
+
+That was enough entertainment.
+
+"It said south counter," she said.
+
+"The sign was badly placed."
+
+"Above door?"
+
+"Yes."
+
+"Bad place."
+
+"Thank you."
+
+She smiled into the dough.
+
+Then she took the horse page and looked at Tavi's drawing.
+
+"Fast horse."
+
+I stared at her.
+
+"You people are impossible."
+
+She turned the page over and saw my crossed-out `SECONDS?`
+
+"You not buying?"
 
 "No."
 
 "Good."
 
-I waited.
+"Maybe someday if we actually need enough paper. Or if I know somebody who needs a lot and there's a reason I can solve something the seller isn't already solving."
 
-"That's all?"
+Lyssa nodded once.
 
-"What you want?"
+Not approval of a business plan.
 
-"Recognition."
+Just acknowledgment that the sentence had ended.
 
-"For not touching old seal with mana?"
+Then she reached for the clean sheets.
 
-"When you say it like that, it sounds less heroic."
+"I need one."
 
-"Yes."
+I put my hand over the stack.
 
-She went upstairs.
+"These are household assets."
 
-I followed after a minute.
+She looked at my hand.
 
-The three copper were still on the table.
+I moved it.
 
-So were the three clean gray sheets.
+She took a sheet.
 
-The narrow wrapped packet Lyssa had brought home yesterday was gone from sight. I did not ask where.
+Capital discipline had limits.
 
-The horse paper remained under the salt jar.
+She wrote three measurements near the top, folded the page once, and tucked it into her work bag for tomorrow.
 
-I turned it over.
+Four new sheets remained.
 
-There was almost no blank space left.
+The household paper supply had already declined twenty percent.
 
-Bulk paper.
+I considered saying this.
 
-Chaffers.
+I chose life.
 
-Rules and screens.
+That evening Tavi came back with his charcoal.
 
-I found a narrow strip along the bottom and wrote:
+He did not ask for the horse page.
 
-`WARM WALL = DRY SEAL WORKING?`
+He had found a scrap somewhere else.
 
-Then below it:
+On it was a horse with seven legs.
 
-`MARO: THIS WALL, TODAY.`
+"Faster," he said.
 
-That mattered.
+I looked at the drawing.
 
-I considered adding the rain, the shelf, the wet joint, and the drain board.
+Then at my note about useful units.
 
-All possible.
+"I have no standing to criticize your scaling strategy."
 
-None established.
+Tavi nodded as if I had finally understood.
 
-I left them off.
+He left the horse on the table.
 
-Lyssa looked over from the bed.
-
-"Horse full."
-
-I turned the page over.
-
-Seven legs.
-
-Still plenty of room on the horse side if I was willing to become a monster.
-
-"I need another scrap."
-
-"Three paper."
-
-"Those are clean sheets."
-
-"Paper is for writing."
-
-"Not like this."
-
-She looked at the back of Tavi's increasingly abused horse.
-
-"True."
-
-I put it under the salt jar again.
-
-Outside, the city had gone quiet in the way it only did for a few minutes between work noise and evening noise.
-
-No chaffer clicking.
-
-No theatre runner at the gate.
-
-No client asking for a ruler.
-
-Downstairs, a wall seal I had not known existed was moving something I could not see through stone I had lived beside for months.
-
-It was not a quest.
-
-It was keeping Cala's kitchen dry.
-
-Maybe.
-
-I left that question mark too.
+I kept it.

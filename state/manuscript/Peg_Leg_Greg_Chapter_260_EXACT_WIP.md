@@ -1,977 +1,845 @@
 # CHAPTER 260
 
-## THE SORTER
+## THE PLAYER
 
-The slateback did not come back.
+The theatre called after breakfast.
 
-Neither did the market warden.
+Not dramatically.
 
-Nobody arrived to offer me a distinguished career in frightened mineral animals.
+A boy I had seen carry messages for Rinna twice before knocked, handed me a folded scrap, waited until I opened it, and said, "She said read it now."
 
-By breakfast, the most magical thing in the room was Lyssa's ability to make yesterday's heavier work bag become today's lighter one without explaining where half the contents had gone.
+"Does she think I save them for winter?"
 
-The narrow wrapped bundle from west sat near her side of the table.
+The boy shrugged.
 
-I did not touch it.
+The note contained six words.
 
-The brown cloth remained by the wall.
+ORDINARY CALL. SECOND BELL. BLUE DOOR.
 
-Three pins.
+I read it again because ordinary had recently become suspicious.
 
-My damaged shirt remained on the shelf.
-
-Three loose threads.
-
-Two lengths of cord now sat where one had sat before.
-
-This was the kind of progress I could prove.
-
-Lyssa ate quickly.
-
-"Out?" I asked.
-
-"Later."
-
-"West?"
+"Anything else?"
 
 "No."
 
-I nodded.
+"You sure?"
 
-"The city has other directions."
+"She said if you ask that, no."
 
-"Apparently."
+Rinna was improving her systems.
 
-She reached for the wrapped bundle, turned it once, and put it into her work bag.
+I folded the note.
 
-Still no explanation.
+"Thank you."
 
-I respected this so aggressively that it became difficult.
+The boy had already turned toward the stairs.
 
-No theatre note waited under the door.
+Lyssa looked up from the table after the door shut.
 
-No Hessa paper.
+"Theatre?"
 
-No Vale runner.
+"Apparently they remember me."
 
-No civic animal emergency.
+"You were there three days ago."
 
-I had bread.
+"Memory is fragile."
 
-I had lamp oil.
+"Greg."
 
-I had cord.
+"Ordinary call. Second bell. Blue door."
 
-I had enough onions to avoid buying onions for at least one day.
+She nodded and went back to what she was doing.
 
-The morning had failed to assign me anything.
+Not the brown cloth. That remained folded near the wall with the same three pins. Not the reddish-brown sample. Not the pale material. None of those were visible.
 
-So I left before it could become proud of itself.
+Today she had a gray sleeve turned inside out across her lap and was picking old stitches from one seam with the tip of a small tool. A separate dark cuff sat on the table beside her. I did not ask whether they belonged together.
 
-I did not have a destination.
+This was becoming a discipline.
 
-This was different from being lost.
+My coat had dried from yesterday's rain. The better shirt had dried too, leaving the old pale blue theatre streak exactly where it had been before weather tried to make it interesting. Both crutch grips were dry. Both tips looked ordinary. My right leg, shoulders, hands, and residual limb had no opinions worth recording.
 
-I knew where I was.
+I ate another piece of bread.
 
-I simply had nowhere I was required to be.
+Lyssa looked at the loaf.
 
-The lower market was busy enough that yesterday's slateback might have been a story from another district. The grain stall had its baskets straight. The cooper's lane was open. No glowing animal occupied the handcart.
+Then at me.
 
-Good.
+"There is still bread."
 
-I took the longer way around anyway.
+"I can see that."
 
-Not fear.
+"Just establishing progress."
 
-I had no reason to walk directly through a crowd when the side lane was wider and my morning belonged to me.
+"Go to work."
 
-At the binding shop, the man who had sold me cord yesterday was standing in the doorway with both arms full of wet straps.
+"Second bell."
 
-Not damp.
+"Then wait quietly."
 
-Wet.
+Hostile household.
 
-A dark line ran from one end of each leather strip to the other.
+I left before I could improve it.
 
-He saw me.
+The rain had cleaned Carrow badly.
 
-I saw him.
+The air was clearer, the roofs darker, and every gutter had collected whatever the water had failed to carry away. Bell Lane looked innocent in daylight. Lower Tanner probably did too. I did not test either. The theatre route was dry enough that ordinary stone had returned to being merely uneven instead of argumentative.
 
-We both looked at the straps.
+I reached the blue door before second bell.
 
-"Rain?" I asked.
+It was not the usual side door.
 
-"Roof."
+The blue door sat farther around the building, opening into a narrow passage behind the rear storage rooms. I had used it before, but not often enough for it to feel like mine.
 
-"Yesterday?"
+Davin was inside carrying one end of a painted wall.
 
-"Night."
+Jori carried the other.
 
-I looked up.
+The wall had a window in it.
 
-The roof appeared innocent from the street.
+No glass.
 
-This meant nothing.
+I stopped outside the door.
 
-He shifted the bundle higher against his chest.
+Davin saw me through the fake window.
 
-"You working?"
+"Move."
 
-I looked behind me in case he had found someone with employment.
+"I am outside."
 
-"Currently?"
+"Good place."
 
-"Today."
+They carried the wall through.
+
+I waited.
+
+Jori backed past me and said, "Blue room."
+
+"Rinna?"
 
 "No."
 
-"Can you count?"
+"Teren?"
+
+"No."
+
+"Then who wants me?"
+
+Jori had already turned the corner.
+
+"Blue room."
+
+Useful institution.
+
+I went in.
+
+The blue room was called the blue room because one wall had once been painted blue and theatre people were apparently unwilling to surrender a successful name merely because most of the paint had peeled away.
+
+Marek sat on a crate with one boot off.
+
+Hara stood near the wall reading two pages.
+
+Venn was eating something wrapped in paper.
+
+Nessa had both hands inside a coat hanging from a hook.
+
+Nobody looked alarmed.
+
+This was reassuring.
+
+Marek looked at me first.
+
+"Alive."
+
+"Barely."
+
+"Heard you drowned."
 
 I looked at him.
 
-"This interview is becoming insulting."
+"Where?"
 
-"Can you?"
+"Rain."
 
-"Yes."
+"That is not a location."
 
-"Sit?"
+"Tavi said you were trapped."
 
-"With great professionalism."
+I stared.
 
-He jerked his head toward the shop.
+Hara looked up from the pages.
 
-"Half day."
+"Who is Tavi?"
 
-I looked inside.
+"A hostile child."
 
-The front shelves were the same crowded argument I had seen yesterday: rope, twine, straps, hooks, handles, buckles, coils, loops, and things I had not bothered naming because I had wanted cord.
+Marek nodded solemnly.
 
-Behind the counter, however, the floor had changed.
+"Reliable source."
 
-Three shallow trays sat on boards. A pile of damp straps occupied one. Another held wet cord. A third contained small leather loops and ties spread apart so they would not dry into a single commercial organism.
+"How do you know Tavi?"
 
-A stool stood beside them.
+"I don't."
 
-"Doing what?"
+"Then how did you hear this?"
 
-"Separate wet from dry. Count. Hang what can hang. Bad pile there. Good pile there. Don't mix sizes."
+He pointed at Venn.
 
-"Pay?"
+Venn swallowed.
 
-He named an amount.
+"My sister buys bread near your street."
 
-It was not theatre money.
+That did not answer enough questions, but it answered the important one.
 
-It was not emergency Uncle money.
+Carrow had achieved information without conspiracy.
 
-It was half-day shop money.
+"I did not drown."
 
-I knew enough about being poor to recognize the category even without a grand economic theory.
+"Good," Hara said. "You're in the third piece."
 
-"Food?"
+I looked at her.
 
-"No."
+"Which third piece?"
 
-"Cruel."
+"Tonight's."
 
-"Half day."
+"That narrows it beautifully."
 
-"Yes."
+She handed me one of the pages.
 
-That was how I became employed by cord.
+The title at the top was familiar.
 
-His name was Hollen.
+**The Glass Orchard.**
 
-I learned this because a woman came in ten minutes later and said, "Hollen, these are wrong," while holding three basket handles.
+I knew the piece.
 
-He said, "They're handles."
+Not well enough to become nervous.
 
-She said, "They're short."
+That was the problem.
 
-He said, "You asked short."
+I had worked it several times in smaller bills. My part was a gate clerk with nine lines, one entrance, one exit, and a chair that had once tried to collapse under Venn.
 
-She said, "Not that short."
+"Gate clerk?"
 
-Then they argued in measurements I did not know while I sat behind the counter sorting wet straps.
+"Unless you learned my part in the rain," Hara said.
 
-No introduction occurred.
+"I was busy not drowning."
 
-I stored the name anyway.
+"Then gate clerk."
 
-The work was simple for six minutes.
+Good.
 
-Then I discovered Hollen's definition of size.
+Ordinary call meant ordinary work.
 
-There were narrow straps.
+Nessa pulled her hands out of the hanging coat.
 
-Medium straps.
+"Boot."
 
-Wide straps.
+I looked down.
 
-There were also narrow-medium straps, which I initially believed were medium until Hollen looked over and said, "Wrong."
+"Mine?"
 
-"That is medium."
+"Marek."
 
-"No."
+Marek still had one boot off.
 
-"It is between narrow and wide."
+"What happened?"
 
-"Narrow-medium."
+"Nothing," he said.
 
-"You have invented a fourth category to hurt me."
+Nessa held up a broken lace.
 
-He took the strap from my hand and laid it beside three others.
+"This happened."
 
-They were, irritatingly, the same width.
+"That is a thing."
 
-"Those."
+"Other boot."
+
+Marek lifted his foot.
+
+The other lace was also frayed.
+
+Nessa stared at him.
+
+"Do you chew these?"
+
+"Only expensive ones."
+
+She threw the broken lace at his chest.
+
+He caught it.
+
+"New pair from costume basket. Both."
+
+"This boot isn't costume."
+
+"Then buy laces."
+
+"Before tonight?"
+
+"You have hours."
+
+Marek put the boot back on without tying it.
+
+"Cruel profession."
+
+Nessa returned to the coat.
+
+Nobody had asked me to solve Marek's feet.
+
+I liked the theatre.
+
+Teren entered carrying three pages and a cup.
+
+He looked at me.
+
+"You came."
+
+"Rinna used writing."
+
+"Reliable."
+
+He handed Hara another page.
+
+Then Venn.
+
+Then looked at the page in my hand.
+
+"You remember it?"
+
+"Nine lines. Gate clerk. Chair."
+
+"Chair moved."
+
+Of course it had.
+
+"Where?"
+
+"Stage right of gate now."
+
+"Why?"
+
+"Venn."
+
+Venn looked offended.
+
+"The chair broke before I sat."
+
+Nessa said, "It broke while you sat."
+
+"Sequence disputed."
+
+Teren ignored him.
+
+"Your entrance is the same. Do not cross for the chair. Sit only after Hara's second pass."
+
+I pictured it.
+
+Old route entered, crossed half the stage, sat near center.
+
+New route entered, stayed right, let Hara pass twice, then sat.
 
 "Fine."
 
-I made a fourth pile.
+"Show me."
 
-Five minutes later he said, "Not there."
+We went to the stage.
 
-"You said those."
+Not all of us.
 
-"Those hang."
+Marek went to buy laces under direct threat from Nessa.
 
-"Why?"
+The set was half assembled. The painted wall I had seen through the blue door now stood stage left. The gate was only a frame, not a working gate, and the clerk's chair sat exactly where Teren had said.
 
-"Better leather."
+Jori was checking the wall feet while Davin tied something behind it.
 
-I stared at the straps.
+I waited until they cleared my entrance.
 
-They looked like leather.
+Teren pointed.
 
-He picked up one from the pile and bent it.
+"From there."
 
-"See?"
+I entered.
 
-"No."
+The new route was easier.
 
-He bent a cheaper one.
+That annoyed me because I had already learned the old one.
 
-That one creased sharply near the wet edge.
+I planted right crutch, left, moved through the frame, turned enough to face Hara's path, and stopped beside the chair.
 
-The first had flexed without holding the line.
+"Too close," Hara said.
 
-"Now?"
+I looked at my left tip.
 
-"Yes."
+She pointed at the hem of her rehearsal skirt.
 
-"Good."
+"Second pass."
 
-Apparently the city had coordinated this word again.
+Right.
 
-I separated the better narrow-medium straps for hanging.
+The chair had moved to save a crossing and created a skirt problem.
 
-The shop had a rear rail low enough that I could reach it from the stool if I turned sideways. Hollen had put the stool there without discussing my leg or crutches.
+I shifted six inches toward the wing.
 
-I noticed because I had spent enough of this life noticing when people made work possible without making a speech about it.
+Hara walked past once.
 
-The crutches leaned against the wall within reach.
+Clear.
 
-My residual limb was comfortable.
+Turned.
 
-Right leg fine.
+Walked past again.
 
-Both grips ordinary.
+Her hem missed my left crutch by maybe four inches.
 
-The job required hands more than movement.
+"Better."
 
-Useful.
+I sat.
 
-The first count was thirty-two narrow straps.
+The chair held.
 
-Hollen said thirty-one.
+Venn said from behind us, "See?"
 
-We counted again.
+Nessa, somewhere offstage, said, "No."
 
-Thirty-two.
+I laughed before I could stop myself.
 
-He frowned at the pile.
+Teren looked at the spacing.
 
-"Yesterday thirty-one."
+"Again."
 
-"Then congratulations."
+We did it again.
 
-"On what?"
+Then with lines.
 
-"Growth."
+My first line arrived late because I was thinking about the chair.
 
-He did not understand the onion joke because the onion seller had not coordinated with him.
+Teren stopped us.
 
-I felt briefly betrayed by Carrow.
-
-He counted a third time.
-
-Thirty-two.
-
-Then he found two stuck together at one end by wet dye.
-
-"Thirty-two," I said.
+"You know the line."
 
 "Yes."
 
-"I would like that recorded."
+"Then stop checking the chair."
+
+"It has history."
+
+Venn said, "Unfair history."
+
+Teren pointed at the chair.
+
+"Jori checked it."
+
+That was enough.
+
+Not because Jori was incapable of error.
+
+Because checking the chair was now somebody else's work.
+
+We started again.
+
+This time I entered, stopped in the new place, gave the line, let Hara cross, answered Venn, waited for Hara's second pass, and sat without looking down.
+
+The chair remained a chair.
+
+Excellent performance.
+
+Teren let us continue.
+
+The Glass Orchard was not a great play.
+
+I had thought this the first time and saw no reason to become dishonest through repetition. It had one excellent scene, two good arguments, a ridiculous final speech about fruit, and a middle section where three people discussed inheritance for so long that death began to feel merciful.
+
+Hara made the inheritance scene work anyway.
+
+That was irritating.
+
+She played the older sister as if every polite sentence cost her money. Venn, playing the younger brother, kept trying to soften her and failing. Their scene did not become shorter, but it stopped feeling long.
+
+I watched from the side because my next entrance was twelve minutes away.
+
+Marek returned during the scene.
+
+He wore new laces.
+
+Bright red.
+
+Nessa saw them before he reached the property table.
+
+She closed her eyes.
+
+"Why red?"
+
+He whispered, "Only pair."
+
+"There were black ones in the basket."
+
+"You said buy."
+
+"I said new pair from costume basket. Both."
+
+"Then you said buy laces."
+
+"After you complained."
+
+"I followed the final instruction."
+
+Nessa stared at him.
+
+I whispered, "Strong legal defense."
+
+She pointed at me without looking.
 
 "No."
 
-We moved on.
+I stopped helping.
 
-The wet cord was worse.
+Marek's boots were mostly hidden under his trousers anyway.
 
-Not because counting cord was difficult.
+This did not save him.
 
-Because Hollen sold it by lengths that had already been cut, and several lengths had become tangled when water came through the rear roof seam.
+Nessa made him change the laces after the scene.
 
-He handed me a wooden measuring stick with two dark marks burned into it.
+By late afternoon the company had become ordinary around me again.
 
-"Short. Long."
+That was not the same as nothing happening.
 
-"Only two categories?"
+Davin and Jori shifted the orchard wall twice because the first position narrowed Hara's exit. Venn lost a glove, found it in his own belt, and blamed costume architecture. Marek borrowed my cup, discovered it was empty, and returned it as though he had improved it. Nessa made him put it back where he found it.
 
-"For these."
+Rinna came through once with a list of the evening pieces and changed the order of the first two because one costume needed longer between them. Nobody asked me why I had missed the previous two days because I had not missed anything. I had not been called.
 
-"I don't trust you anymore."
+That distinction had been obvious at home and somehow became even more obvious here.
 
-He went back to a customer.
+The theatre had continued.
 
-I worked the knots apart.
+So had I.
 
-This was slower than I expected.
+Neither had required an argument about it.
 
-Wet cord tightened against itself. Pulling hard made it worse. I used the end of the measuring stick to loosen one loop, then another.
+Before the house opened, I changed into the gate clerk's coat.
 
-No knife.
+It smelled faintly of dust and someone else's soap. The sleeves were slightly short, which was normal for me. The better shirt stayed underneath. Blue paint hidden.
 
-Cutting stock to solve a knot seemed like the kind of efficiency that produced unemployment.
+Nessa checked the coat fastening, not me.
 
-A boy came through the rear carrying a shallow tray of metal hooks.
+"Turn."
 
-He was perhaps fourteen.
+I turned.
 
-Maybe fifteen.
+She tugged the back once.
 
-He looked at me.
+"Fine."
 
-Then at the crutches.
+"High praise."
 
-Then at the cord.
+"For the coat."
 
-"You're in my place."
+"I understood."
 
-I looked at the stool.
+She moved on to Venn.
 
-"This stool belongs to you?"
+The audience entered as noise before they became people.
 
-"Work."
+Feet. Voices. A cough. Someone laughing too loudly near the front. A child asking a question that carried through the curtain and received no useful answer.
 
-Hollen called from the front, "Your place leaks."
+I stood in the wing with my crutches and listened.
 
-The boy looked toward the ceiling.
+Not house-side this time.
 
-Then back at me.
+Back where sound arrived without faces.
 
-"Oh."
+The first piece went well.
 
-He set the tray down.
+The second went badly in one narrow place and recovered.
 
-"You sick?" I asked.
+Marek missed a handoff because the person giving him the object came from the wrong side. He covered by turning the empty hand into a gesture, finished the line, took the object on the next pass, and kept going.
 
-"No."
+Nobody in the audience appeared to know.
 
-"Excellent. I was about to feel guilty."
+Backstage, Nessa knew.
 
-"Why?"
+She was waiting when he came off.
 
-"Apparently I'm replacing you."
+"Wrong side?"
 
-He frowned.
+"Wrong side."
 
-"I'm on hooks."
+The other actor arrived behind him already saying, "Me."
 
-Hollen called, "He's on hooks."
+Nessa looked between them.
 
-"I understand now."
+"Next time, same side."
 
-The boy sat on an overturned crate across from me and began separating hooks by shape.
+Done.
 
-His name was Pem.
+No trial.
 
-I learned this because Hollen said, "Pem, not those," four times in the next hour.
+No speech.
 
-Pem was not incompetent.
+The third piece was ours.
 
-Hollen simply possessed a highly developed relationship with correction.
+I waited for the cue.
 
-At one point Pem held up two hooks.
+The gate frame stood in darkness just beyond the wing. My chair waited stage right. I could not see the audience from where I stood, only the pale edge of the stage and Hara's shoulder as she entered before me.
 
-"Same."
+Her first line landed.
 
-Hollen said, "No."
+Venn answered.
 
-Pem looked at me.
+My cue came.
 
-I looked at the hooks.
+I entered.
 
-They looked the same.
+The route held exactly as rehearsal had taught it.
 
-"I refuse involvement."
+Right crutch. Left. Through the gate. Stop farther right than the old version. First line.
 
-Pem smiled.
+Hara passed.
 
-Hollen took them, laid them side by side, and pointed to the curve.
+Four inches of clearance looked like a mile when nobody was measuring it.
 
-One was slightly tighter.
+I answered Venn.
 
-Pem sighed.
+Hara passed again.
 
-"Same enough."
+I sat.
 
-"Not for basket frame."
+No chair inspection.
 
-That ended it.
+The audience laughed at my third line.
 
-There were jobs where almost the same was the same.
+I had forgotten that they sometimes did.
 
-There were jobs where almost the same broke the basket.
+Not a large laugh.
 
-I knew that already from other things.
+Enough to change the next half second.
 
-The knowledge did not need to become a lesson.
+I waited.
 
-By late morning, the shop smelled like wet leather, rope fiber, and the faint sourness of damp wood.
+Then continued.
 
-The rear roof seam dripped twice into an empty bucket.
+The line after the laugh belonged to Venn. He waited too, slightly longer than I did, then gave it into the quiet after the audience settled.
 
-Hollen looked at it each time as if personal disapproval might repair the building.
+Better timing than mine.
 
-It did not.
+I noticed and kept acting.
 
-A woman came in for six straps and left with four straps, two handles, and a complaint about prices.
+The scene moved.
 
-A cart driver bought rope thick enough to tow something I did not want to meet.
+Hara owned the inheritance argument.
 
-An old man returned three hooks because one had bent.
+Of course she did.
 
-Hollen replaced the bent one without argument.
+From the chair, I had a better angle than from the wing. Her polite sentences tightened one by one until the audience stopped rustling. Venn softened his voice instead of matching her, which made her anger look larger without either of them raising volume.
 
-No speeches about customer service.
+My gate clerk had nothing to do for almost two minutes.
 
-No investigation.
+This was acting too.
 
-The hook had bent.
+I sat.
 
-He replaced it.
+Listened.
 
-Pem kept sorting.
+Did not become interesting.
 
-I kept counting.
+At my next line, I looked toward Venn because the clerk wanted an answer from him, not because Greg wanted to see whether the audience was watching.
 
-At some point I stopped thinking of the work as temporary enough to be interesting.
+He answered.
 
-It became work.
+The scene continued.
 
-That was better.
+The ridiculous fruit speech arrived near the end.
 
-The long cord pile came to twenty-seven.
+Hara gave it to Venn tonight.
 
-The short pile came to forty-one.
+Not literally. The script still gave it to her, but she looked at him before starting, and something in the way he braced made the audience laugh before the speech even became ridiculous.
 
-Two lengths were bad because the water had carried dark roof grit into pale fibers and Hollen said they would stain whatever they tied.
+Then she said the first line.
 
-One strap had split near a punched hole.
+Bigger laugh.
 
-Three leather loops had swollen enough that Hollen put them in the bad tray rather than risk selling them as matched pieces.
+Venn looked wounded in character.
 
-He did not mourn inventory.
+Another laugh.
 
-He separated it.
+By the time she reached the part about pears, the speech had become good against its will.
 
-Good.
+I nearly laughed from the chair.
 
-At midday, Pem pulled bread from a cloth and ate half.
+Gate clerks apparently found inheritance fruit serious.
 
-I looked at him.
+I looked down at my hands instead.
 
-He looked at me.
+The scene ended.
+
+My exit came.
+
+I stood, took the route back through the gate, and cleared the stage.
+
+Nessa caught the chair before the next change.
+
+Davin and Jori moved the orchard wall.
+
+Marek passed me carrying a tray that belonged to the next piece.
+
+"Drowned well," he whispered.
+
+"Die."
+
+"Later piece."
+
+He kept moving.
+
+I changed coats.
+
+The rest of the evening did not need me onstage.
+
+It needed me carrying two benches, holding a flat while Davin reset one foot, taking a basket from Hara because she had both hands full, and staying out of the passage when three people came through at once.
+
+Ordinary theatre.
+
+At the end, Rinna paid me the ordinary amount for the call.
+
+No emergency addition.
+
+No special house-work coin.
+
+No Uncle money.
+
+I counted it once and put it away.
+
+Rinna was already paying Venn.
+
+I waited until she finished.
+
+"Tomorrow?"
+
+She looked at her list.
+
+Not at me.
+
+"Not yet."
+
+Good answer.
+
+"Fine."
+
+She looked up then.
+
+"If I need you, I know where you live."
+
+"Apparently everyone does."
 
 "What?"
 
 "Nothing."
 
-Hollen had said no food.
+She had already moved to the next person.
 
-Technically he had said food was not included.
+Outside, the street was dry.
 
-This distinction now felt hostile.
+Cold, but dry.
 
-I had money.
+I took the normal route home.
 
-I could leave and buy something.
+No Bell Lane experiment.
 
-I was also halfway through a knot that had developed moral ambition.
+No Lower Tanner test.
 
-I finished the knot first.
+Just home.
 
-Then I stood.
+Lyssa was there before me. The gray sleeve from morning was gone. The dark cuff remained on the table beside a different piece of cloth I did not recognize.
 
-My right leg had gone stiff from sitting.
+I took off my coat.
 
-Not injured.
+"Theatre remembered you?" she asked.
 
-Just stiff.
+"Barely. Nine lines."
 
-I took both crutches, waited one breath, and let the leg remember employment.
+"Hard life."
 
-Pem watched.
+"Chair moved."
 
-Not staring exactly.
+She looked up.
 
-Watching the sequence.
+"You survived?"
 
-I looked at him.
+"Jori checked it."
 
-"It still works."
+"Then yes."
 
-He looked away.
+Everyone coordinated this.
 
-"Didn't ask."
+I sat across from her and told her about Marek's red laces.
 
-"You were conducting research."
+Not the performance first.
 
-"No."
+The laces.
 
-"Poorly, then."
+Lyssa laughed before I reached Nessa making him change them.
 
-He smiled again.
+"Were they bad?"
 
-I bought a small meat pie from the corner seller and ate it standing beneath the awning because the stool had become Pem's again while I was gone.
+"Bright red."
 
-When I returned, he moved without being asked.
+"That wasn't my question."
 
-"Your place," he said.
+I considered.
 
-"Dangerous phrase."
+"They held his boots."
 
-He did not know why.
+"Then good laces."
 
-Neither did I, exactly.
+"Wrong laces."
 
-I sat.
-
-The afternoon part of a half-day job lasted less than an afternoon.
-
-Hollen's roof problem had mostly become rows of separated stock by then.
-
-The better straps hung from the rear rail.
-
-Wet cord lay loose instead of knotted.
-
-Hooks remained Pem's problem and therefore morally superior.
-
-Hollen brought me a small ledger board.
-
-Not a book.
-
-A board with chalk columns.
-
-"Counts."
-
-I read the headings.
-
-Narrow.
-
-Narrow-medium.
-
-Medium.
-
-Wide.
-
-Short cord.
-
-Long cord.
-
-Bad.
-
-"You wrote narrow-medium."
+"For costume."
 
 "Yes."
 
-"So it exists officially."
+"Good laces."
+
+I narrowed my eyes.
+
+"You would defend him."
+
+"I don't know him."
+
+"Apparently not required."
+
+She went back to the dark cuff.
+
+I ate the food she had left covered for me.
+
+After a while she asked, "Play good?"
+
+"Hara made the fruit speech work."
+
+Lyssa looked at me.
+
+"The bad one?"
 
 "Yes."
 
-"I withdraw my accusation."
+She had heard me complain about The Glass Orchard before.
 
-"Write."
+Accumulated suffering.
 
-I wrote the counts.
+"How?"
 
-My numbers were readable.
+"Venn looked scared of pears."
 
-This was not guaranteed in every life.
+She waited.
 
-Hollen checked them against the piles.
+"That does not explain it," she said.
 
-Thirty-two.
+"It explains enough."
 
-He paused there.
+I finished eating.
 
-I waited.
+The ordinary pay sat in my coat pocket.
 
-"Thirty-two," he said.
+Tomorrow remained unassigned.
 
-"Thank you."
+The theatre had called today because it had work for me, and when the work ended it had stopped needing me.
 
-He continued.
+That was less frightening than it used to be.
 
-When he finished, he wiped one count and changed it by one.
-
-"Which?"
-
-"Bad loops. Four."
-
-"I had three."
-
-He held up another swollen loop from beneath the hanging rail.
-
-"Four."
-
-"Fine."
-
-I changed it.
-
-The work ended without a bell.
-
-Hollen simply looked around and said, "Enough."
-
-Pem immediately stood.
-
-Apparently he knew the word.
-
-Hollen paid me the amount he had named that morning.
-
-Exact.
-
-No bonus for surviving wet cord.
-
-No deduction for insulting his categories.
-
-I counted it once.
-
-He watched.
-
-"Right?"
-
-"Yes."
-
-"You free tomorrow?"
-
-There it was.
-
-Not promotion.
-
-Not destiny.
-
-A question.
-
-I looked at the rear roof seam.
-
-The bucket had caught three more drops.
-
-"Still leaking tomorrow?"
-
-"Roof man coming."
-
-"Then probably not."
-
-Hollen nodded.
-
-"If stock needs."
-
-"If stock needs."
-
-No promise.
-
-Pem picked up his hook tray.
-
-"You count slow."
-
-"You sort hooks wrong."
-
-"Not all."
-
-"Neither do I count all things slowly."
-
-He considered this.
-
-"Thirty-two."
-
-I pointed at him.
-
-"Exactly."
-
-I left.
-
-Outside, the day had become warmer.
-
-The market was full.
-
-Nobody screamed.
-
-No blue light flashed beneath carts.
-
-I did not feel disappointed.
-
-I had been paid.
-
-That was its own form of wildlife.
-
-I put part of the money in the inside pocket where household money went.
-
-The rest stayed separate until I got home and decided what it was for.
-
-Not because I had invented a financial system.
-
-Because money disappeared faster when every coin believed it was available.
-
-Old Greg had known that too.
-
-Old Greg had also ignored it whenever hungry, drunk, angry, generous, bored, or near a card table.
-
-Future knowledge had limits.
-
-Mostly personality.
-
-On the way home I passed the lane where the slateback had hidden yesterday.
-
-The handcart was gone.
-
-A cooper's apprentice rolled a hoop across the stones.
-
-A woman argued over apples.
-
-Nothing glowed.
-
-Good.
-
-At the courtyard, Tavi sat on the lowest step drawing with chalk.
-
-Not a city today.
-
-A six-legged animal.
-
-I stopped.
-
-It had an enormous round body, six sticks beneath it, and what appeared to be flames coming from its back.
-
-"What is that?"
-
-Tavi looked up at me with disgust.
-
-"Slateback."
-
-Of course.
-
-"Those are flames?"
-
-"Magic."
-
-"It did not have flames."
-
-"Sera said blue."
-
-"Blue is not automatically flame."
-
-Tavi added another line.
-
-"It shocked a cart."
-
-"No."
-
-"Barek said."
-
-I paused.
-
-"Barek?"
-
-"His sister."
-
-The route of information had become diseased.
-
-"It did not shock a cart."
-
-Tavi looked at the drawing.
-
-"Could."
-
-Unfortunately, yes.
-
-"Could is not did."
-
-Tavi shrugged.
-
-The distinction was not artistically useful.
-
-I went upstairs.
-
-Lyssa was home before me.
-
-Her work bag sat near the wall.
-
-The narrow wrapped bundle from west was gone.
-
-In its place was a folded piece of dark cloth I did not recognize.
-
-I did not ask.
-
-This was becoming a competitive sport.
-
-She looked at me.
-
-Then at the faint dark marks on my fingers from wet leather dye.
-
-"Work?"
-
-"Cord."
-
-She looked toward the shelf.
-
-Both replacement lengths were still there.
-
-"What?"
-
-"The man who sold me cord hired me to sort the part of his shop his roof tried to drown."
-
-"Today?"
-
-"Half day."
-
-"Paid?"
-
-I put the coins on the table.
-
-Not all of them.
-
-The household portion.
-
-Lyssa looked at the amount.
-
-Then at me.
-
-"Keep some."
-
-"I did."
-
-She nodded.
-
-No audit.
-
-No praise.
-
-She moved the coins into the small household place we used for money that had already stopped belonging to either of us individually.
-
-That movement did something quiet to me.
-
-Not because the amount was large.
-
-It was not.
-
-Not because I had never contributed.
-
-I had.
-
-Theatre money had come home before.
-
-Other money too.
-
-But this morning I had left because nothing needed me.
-
-Then something had.
-
-A leaking roof.
-
-Wet straps.
-
-Thirty-two narrow pieces of leather.
-
-I had sat on a stool and counted them.
-
-The world did not need to become dramatic to become mine.
-
-Lyssa looked at my fingers again.
-
-"Wash."
-
-"This is evidence of labor."
-
-"It's dye."
-
-"Labor-colored dye."
-
-"Wash."
-
-I washed.
-
-Most of it came off.
-
-One dark line remained beside my right thumbnail.
-
-I showed her.
-
-"Permanent career mark."
-
-"Tomorrow it'll be gone."
-
-"You don't support my advancement."
-
-"No."
-
-We ate later than usual because Lyssa still had work on the table.
-
-The dark cloth had become two dark cloths by then.
-
-Or perhaps it had always been two and I had failed the interview.
-
-I did not ask.
-
-The brown cloth remained folded by the wall.
-
-Three pins.
-
-The damaged shirt remained three threads.
-
-The new cord remained two lengths.
-
-My half-day pay had become partly household money and partly mine.
-
-Hollen might have wet stock tomorrow.
-
-He might not.
-
-Theatre might call.
-
-It might not.
-
-Hessa had not.
-
-Vale had not.
-
-Nobody from the market had come looking for a slateback expert.
-
-Good.
-
-I had spent one day knowing an animal.
-
-I had spent the next knowing thirty-two was thirty-two.
-
-Both had paid differently.
-
-Only one had paid in coin.
-
-I knew which one Lyssa would accept for onions.
+Mostly because I was tired and Hara had somehow made pears funny.

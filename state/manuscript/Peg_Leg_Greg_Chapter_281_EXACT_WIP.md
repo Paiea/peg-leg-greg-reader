@@ -1,1359 +1,1217 @@
 # CHAPTER 281
 
-## THE SHARE
+## THE CLIENT
 
-The next person who offered me money wanted me to refuse it.
+I did not go to Blue Steps first thing in the morning.
 
-This was new.
+This was evidence of maturity.
 
-I was in the courtyard with a bowl between my knees and a knife I had been specifically told not to improve.
+I went after breakfast.
 
-The knife was fine.
+Lyssa did not accept the distinction.
 
-The onions were not.
+"You said not tomorrow."
 
-Cala had bought a sack of small ones from a cart that apparently considered roundness optional. Half were flattened on one side. Several had begun growing green tips. One had the moral character of a wet sock.
+"I said probably not tomorrow just because I could."
 
-I was cutting away the bad parts because Cala had handed me the bowl and said, "Useful."
+"Today is tomorrow."
 
-That had been the entire contract.
+"Time is cruel."
 
-No fee.
+She tied her hair back with a dark strip of cloth and looked at me over both hands.
 
-No scope discussion.
-
-No client.
-
-Sometimes a neighbor gave you onions and you helped save the onions.
-
-Capital had not yet destroyed civilization.
-
-"That one bad," Tavi said.
-
-He crouched three steps away, watching me work.
-
-"That one is already in the discard bowl."
-
-"Very bad."
-
-"Thank you, inspector."
-
-"Pay me."
-
-I looked at him.
-
-"For what?"
-
-"Finding bad onion."
-
-Cala laughed from the doorway.
-
-I pointed the knife at her.
-
-"This is your fault."
-
-"You teach boy business."
-
-"I did not teach him anything."
-
-"Pay me," Tavi repeated.
+"You buying?"
 
 "No."
 
-"One copper."
+"Kes?"
 
-"Absolutely not."
+"Not going to Kes."
 
-"Half copper."
+"Jori."
 
-"We do not have those."
+"Information."
 
-"Then one."
-
-His negotiation strategy had structural weaknesses.
-
-I returned to the onions.
-
-My right shoe stayed quiet against the courtyard stone. The repaired heel had stopped being something I checked every morning. I still noticed it sometimes, usually after I had walked farther than expected, but the seam remained flat.
-
-My residual limb was comfortable.
-
-Shoulders fine.
-
-Hands smelled like onion.
-
-No Hessa note.
-
-No theatre runner.
-
-No client at the door.
-
-This was a normal morning until a woman I did not know came through the lane carrying half a broken chair.
-
-Not a chair with one broken leg.
-
-Half a chair.
-
-Seat, back, one side rail, and two legs still connected. The other side was gone entirely.
-
-She stopped when she saw Cala.
-
-"You said Bronze was here."
-
-Cala looked at me.
-
-I looked at Cala.
-
-"Did you?"
-
-"Sometimes."
-
-"That is not an answer."
-
-"It is true."
-
-The woman shifted the half-chair under one arm.
-
-She was short, broad through the chest, with a dark blue scarf tied over close-cropped hair. Sawdust clung to the front of her trousers. One thumb had a strip of cloth wrapped around it.
-
-"You Greg?"
-
-"Depends what happened to the other half."
-
-She looked at the chair.
-
-"Fire."
-
-"Then yes."
-
-Cala took the knife out of my hand.
-
-"Go."
-
-"I was useful."
-
-"Now useful somewhere else."
-
-Tavi pointed at the discard bowl.
-
-"Pay me."
-
-I left before his union formed.
-
-The woman set the chair piece against the courtyard wall.
-
-"Name's Rell. I work two lanes over. Repair tables, stools, shutters. Sometimes carts if people lie about them being furniture."
-
-"And this?"
-
-"Not mine."
-
-"Good."
-
-She gave me a narrow look.
-
-"Mara said you know old things sometimes."
-
-Of course Mara had.
-
-"Sometimes."
-
-"And you charge sometimes."
-
-That had traveled faster.
-
-"Sometimes."
-
-"I don't want to pay you."
-
-"Excellent."
-
-"But I might want you to get paid."
-
-I waited.
-
-Rell tapped the surviving side rail of the chair.
-
-"Customer brought six burned chairs from a rooming house. Wants four repaired enough to use, two stripped for parts. This one had a metal strip under the seat. I pulled it because I thought it was reinforcement. It isn't."
-
-"Why not?"
-
-"Because reinforcement does not crawl back toward the wood."
-
-I stopped.
-
-"Crawl?"
-
-"Slow."
-
-"How slow?"
-
-"Finger-width while I was making tea."
-
-"Did you touch it?"
-
-"With tongs after that."
-
-Good.
-
-"Where is it now?"
-
-"Shop. Under a clay bowl."
-
-Less good.
-
-"Why clay?"
-
-"Because metal seemed stupid."
-
-That was not terrible reasoning.
-
-"What does it look like?"
-
-"Flat black strip. About this long."
-
-She showed me from thumb to little finger.
-
-"Two holes. One end melted or cut wrong. Thin lines in it. Not writing I know."
-
-I did not recognize it from description.
-
-That mattered.
-
-"What do you want from me?"
-
-"Come look. If you know what it is, I tell the chair owner you identified it. If they want to pay for the answer, they pay you. If they don't, you get nothing and I put it back under the bowl."
-
-There it was.
-
-A proposed share without a client.
-
-Or a referral without a fee.
-
-Or free work with optimism attached.
-
-My ugly page had not prepared me for this exact shape.
-
-"Do you get anything?"
-
-Rell shrugged.
-
-"I get to know whether my shop has a thing that crawls."
-
-"That is value."
+"Price first."
 
 "Yes."
 
-"Do you want part of what they pay me?"
-
-"No."
-
-"Why?"
-
-"Because then you start charging me to look at every weird nail I find."
-
-Reasonable.
-
-"And if it is valuable?"
-
-"It belongs to the chair owner unless the repair agreement says otherwise. It doesn't."
-
-Client first.
-
-Not my client yet.
-
-Still not my property.
-
-"Who owns the chairs?"
-
-"Maren Tosk. Runs the rooming house at Clay Arch."
-
-I knew Clay Arch as a place, not a person.
-
-"Does Maren know you removed the strip?"
-
-"Knows I found odd hardware. Told me not to throw anything away until she sees it."
-
-Better.
-
-"Did she authorize someone else identifying it?"
-
-Rell frowned.
-
-"No."
-
-"Then I can look for you. I cannot charge her for an answer she did not ask for."
-
-Rell stared at me.
-
-"You really have been thinking about this."
-
-"Unfortunately."
-
-"So look for me."
-
-"Free?"
-
-"Free."
-
-I considered.
-
-The shop was two lanes over.
-
-The object had moved on its own, according to Rell.
-
-That could mean magic.
-
-It could mean heat.
-
-Warped metal.
-
-A sloped bench.
-
-A story improving during the walk.
-
-I wanted to see it.
-
-Wanting did not create a fee.
-
-"Fine. For you, I look. I tell you what I recognize and what I don't. No valuation. No testing. No touching if I don't like it."
-
-Rell nodded.
-
-"No touching is good."
-
-"You say that now."
-
-We went.
-
-Rell's shop had no sign.
-
-It had three stools outside, each different, which was probably better advertising.
-
-Inside smelled of cut wood, hot glue, old varnish, and something sharp enough to clear my nose.
-
-Half-repaired furniture occupied every wall.
-
-A shutter lay across two trestles.
-
-A table stood upside down with one leg missing.
-
-Three chair backs hung from hooks.
-
-The burned chairs were stacked near the rear, blackened along their lower rails but not destroyed.
-
-Rell pointed at a workbench.
-
-Clay bowl.
-
-Upside down.
-
-A brick sat on top.
-
-"You added the brick."
-
-"After breakfast."
-
-"Did it escape?"
-
-"No."
-
-"Then why?"
-
-"I slept badly."
-
-Fair.
-
-I moved closer without touching the bench.
-
-"Show me where it was in the chair first."
-
-Rell turned the half-chair over.
-
-Under the surviving seat rail, two small screw holes marked a narrow recess in the wood.
-
-The recess ran along the underside, hidden when the chair was upright.
-
-Black soot had collected around it, but the wood inside the recess was lighter.
-
-Protected from some of the fire.
-
-"Strip sat here?"
+"Before questions."
 
 "Yes."
 
-"Tight?"
-
-"Before I pulled it, yes. One screw gone. One still in."
-
-"Screw metal?"
-
-"Iron. Ordinary."
-
-"Any other strip on the other chairs?"
-
-"Didn't check after this one moved."
-
-Good again.
-
-"Let's not yet."
-
-Rell lifted the brick.
-
-Then the bowl.
-
-The strip lay on a square of pale tile.
-
-Flat black metal.
-
-About the length she had shown.
-
-Two holes.
-
-One end jagged where heat or breakage had taken part of it.
-
-Fine pale lines ran across its surface in paired curves.
-
-I knew it.
-
-Not immediately by name.
-
-By irritation.
-
-Old-life memory arrived as a workshop floor, three cheap stools, a man complaining that apprentices kept sitting on the wrong one, and little strips fixed under the seats so the stools would drag themselves back against a marked wall after use.
-
-I stared.
-
-Rell watched me.
-
-"You know."
-
-"I know something close."
-
-"What?"
-
-"Return strip. Maybe."
-
-"Return where?"
-
-"To a paired anchor."
-
-Rell looked around her shop.
-
-"There is no anchor."
-
-"Probably why it only moved a finger-width."
-
-I stopped myself.
-
-"No. That's theory."
-
-"You just said it."
-
-"I retract the causal part. I recognize this pattern from old-life furniture hardware that pulled light furniture toward a paired position marker. I do not know whether this exact strip is that, whether its pair still exists, or why yours moved."
-
-Rell leaned closer.
-
-"Magic chair."
-
-"Potentially extremely boring magic chair."
-
-"Best kind."
-
-I agreed.
-
-The pale lines looked familiar enough to make my memory itch.
-
-Two nested curves.
-
-A short break near one screw hole.
-
-The jagged end had removed part of the pattern.
-
-That mattered.
-
-"Do not put your finger on it."
-
-"Wasn't planning to."
-
-"Good."
-
-"Can you tell if dangerous?"
-
-"No."
-
-"Can you tell if valuable?"
-
-"No."
-
-"Can you tell if I can put it back?"
-
-"No."
-
-Rell folded her arms.
-
-"You are excellent."
-
-"I have range."
-
-Not magical range.
-
-I refused to think about the far mark.
-
-"What would make it move?" she asked.
-
-I looked at the strip.
-
-Old versions I remembered had a tiny stored pull and a paired mark. Furniture-scale convenience enchantment. Cheap enough for workshops, kitchens, some inns. Not powerful. Not dangerous unless someone did something stupid with heavier objects.
-
-But that was old life.
-
-This strip had been through a fire.
-
-One end was damaged.
-
-The pair, if any, was absent.
-
-"In what I remember, the strip responds to a paired anchor or mark. Sometimes the chair had the active strip and the wall had a passive plate. Sometimes both pieces mattered. I don't know this maker or this pattern."
-
-"Could the other half of the chair have the pair?"
-
-"Maybe."
-
-"Burned away."
-
-"Maybe."
-
-"Could another chair have it?"
-
-"Maybe."
-
-Rell glared.
-
-"I hate your profession."
-
-"I do not have a profession."
-
-"You have the voice."
-
-That was worrying.
-
-I crouched enough to look along the tile without bringing my face over the strip.
-
-No glow.
-
-No visible heat shimmer.
-
-No sound.
-
-"Has it moved since you put it on tile?"
-
-"Not that I saw."
-
-"Did it move on wood?"
-
-"Yes."
-
-"Flat bench?"
-
-"Mostly."
-
-"Mostly is not flat."
-
-"Furniture shop. Nothing flat."
-
-Fair.
-
-I stood again.
-
-"My answer to you: likely old return hardware for light furniture, based on a close old-life match. Exact function unconfirmed. Do not reinstall it. Do not activate it deliberately. Keep it separated from the chairs until Maren decides what she wants done. Tell her you had someone recognize a possible class of hardware, not certify it."
-
-"And then?"
-
-"Then she chooses whether she cares."
-
-Rell nodded slowly.
-
-"You won't charge me?"
-
-"We agreed free."
-
-"Even though you knew it?"
-
-"Especially because we agreed free."
-
-She made a face.
-
-"Bad business."
-
-"Maybe."
-
-"You could have said one copper after."
-
-"That would be changing price after I knew the answer."
-
-"People do that."
-
-"I am trying not to become people."
-
-Rell laughed.
-
-Then she put the bowl back over the strip.
-
-No brick this time.
-
-"Maren comes after midday to argue about chair legs. You want me to tell her your name?"
-
-I thought about it.
-
-This was where the tiny two-copper success from Halei could become a disease.
-
-Every odd object.
-
-Every neighbor.
-
-Every maybe.
-
-I also thought about the strip.
-
-If Maren wanted an answer, I could give a bounded one.
-
-If she did not, I had already satisfied my curiosity.
-
-"Tell her what I said. If she wants more from me, she can ask. Don't promise I can do more."
-
-"You really hate promises."
-
-"I like accurate ones."
-
-I left.
-
-I did not wait for Maren.
-
-That was harder than it should have been.
-
-I went home and finished helping with the onions.
-
-Tavi had disappeared.
-
-Cala had saved the knife for me.
-
-"Magic chair?" she asked.
-
-I stopped.
-
-"How do you know?"
-
-"Rell loud."
-
-Two lanes.
-
-Apparently enough.
-
-"Maybe magic chair hardware."
-
-"Money?"
-
-"No."
-
-Cala looked disappointed on my behalf.
-
-"Free work."
-
-"Neighbor work."
-
-"Rell not neighbor."
-
-"Two lanes."
-
-"Far."
+"Before sitting."
 
 I stared at her.
 
-"Do not say far to me."
+"How expensive do you think chairs are at Blue Steps?"
 
-She had no idea why that was funny.
+"Greg."
 
-Which made it better.
+"Price first."
 
-We finished the onions.
+She nodded.
 
-I took our share upstairs.
+I had passed the household examination.
 
-Lyssa had left before I woke and had not returned yet.
+The clasp remained exactly where I had left it, assuming Kes had not sold it overnight to someone richer and less cautious.
 
-Her work bag was gone.
+I did not check.
 
-The brown cloth remained folded where it had been.
+That took more effort than not using magic.
 
-I did not inspect it.
+Different temptation.
 
-I ate bread with onion and spent part of the afternoon doing nothing profitable.
+Same stupid brain.
 
-This felt increasingly rebellious.
+I left the apartment after Lyssa did.
 
-I cleaned the crutch grips.
+The potatoes were no longer spread across half the room. Maris had said the lower shelf could take dry sacks again, but Lyssa and I had moved ours to a different section anyway because learning from inconvenience was cheaper than proving loyalty to a shelf.
 
-Checked the right grip wrap where the tack sat under the overlap.
+My right shoe stayed quiet.
 
-Still flush.
+Residual limb comfortable.
 
-Left tip fine.
+No note under the door.
 
-Right shoe fine.
+No Lenn.
 
-Then I sat by the window with the ugly capital page.
+No Hessa runner.
 
-`SCOPE BEFORE WORK.`
+No civic official asking what I had not seen.
 
-`CLIENT FIRST.`
+Blue Steps sat farther west than Kes's shop, in a part of Carrow where the streets climbed just enough to annoy me without earning the dignity of hills.
 
-I added:
+The name came from the actual steps.
 
-`PRICE BEFORE ANSWER.`
+Six broad blue-gray stone risers climbed from the street to a row of narrow businesses built above a sunken drainage channel. The stone was not painted. Something in it gave a faint blue cast where years of feet had polished the center.
 
-Then crossed it out.
+I stopped at the bottom.
 
-That was wrong.
+Six steps.
 
-Rell had asked me to look for free and I had agreed because I wanted to know too. There was nothing wrong with that.
+Broad.
 
-The problem would have been pretending it was free until I knew I had something useful, then inventing a fee.
+Dry.
 
-I wrote:
+Rail on the right.
 
-`PRICE BEFORE WORK, EVEN IF PRICE IS ZERO.`
+Fine.
 
-Ugly.
+I climbed.
 
-Long.
+At the top, three doors faced the landing.
 
-Accurate.
+One had painted teeth.
 
-I left it.
+I did not choose that one.
 
-The knock came near late afternoon.
+One had a copper bowl nailed above it.
 
-Not a runner knock.
+The third had a white card in the window.
 
-Not urgent.
+`JORI VENN`
 
-Three ordinary taps.
+Under that:
+
+`APPRAISALS / ESTATE INVENTORY / DISPUTED GOODS`
+
+Then, smaller:
+
+`ASK FEE BEFORE WORK`
+
+I stood there for a moment.
+
+Lyssa had somehow infiltrated the sign.
 
 I opened the door.
 
-Rell stood there with another woman.
+The room beyond was small enough that nobody could pretend not to notice me.
 
-The second woman was taller than Rell, maybe fifty, with a heavy gray braid over one shoulder and a brown coat that had been patched neatly at both elbows.
+A long counter divided the front from the work side. Two chairs sat near the wall. Shelves behind the counter held boxes, folded cloth, scales, a magnifying lens on an articulated arm, and several shallow trays made from some dark material that looked like wood until the light hit it wrong.
 
-Not the brown coat.
+No glowing relics.
 
-A brown coat.
+No suspended swords.
 
-My brain still noticed.
+No skulls.
 
-That was residue, not evidence.
+Appraisal had poor theatrical instincts.
 
-"Maren Tosk," the woman said. "Clay Arch. Chairs."
+A woman sat behind the counter reading a folded document.
+
+She looked about fifty, maybe older, with deep brown skin, short silver hair, and square spectacles attached to a cord around her neck. One sleeve of her dark green shirt was rolled to the elbow. The other was not.
+
+She looked up.
+
+"Yes?"
+
+"Jori?"
+
+"Yes."
+
+"Fee first."
+
+Her eyebrows lifted.
+
+"Good start. For what?"
+
+"Questions about an appraisal you already wrote. Kes's west-market shop. Old boundary clasp. Missing collar. Cracked seat. Bites."
+
+Recognition arrived before I finished.
+
+Not surprise.
+
+I liked that.
+
+"Consultation only?"
+
+"Yes. I do not own the object. I am not authorized to bring it. I paid Kes to read your copy yesterday."
+
+"How many questions?"
+
+"Dangerous question."
+
+"Then time. Quarter bell. Two copper. Longer if I agree."
+
+That was more than reading the sheet.
+
+Less than gold.
+
+I considered my pocket.
+
+Considered the clasp.
+
+"Two copper. Quarter bell."
+
+"Paid now."
+
+I paid.
+
+Jori put the coins in a small wooden dish, turned the document she had been reading facedown, and pointed to one of the chairs.
+
+"Sit."
+
+I sat.
+
+Lyssa would have been pleased that I had paid before furniture.
+
+Jori took a blank sheet from under the counter.
+
+"Name."
 
 "Greg."
 
-"Rell says you know what was under one."
+She waited.
 
-"I recognize a close type. I don't know exactly what yours is."
+"Just Greg."
 
-Maren nodded once.
+"Bronze Greg?"
 
-"Good. She said you'd say that."
+"Yes."
 
-Rell looked smug.
-
-"I can repeat what I told her."
-
-"How much?"
-
-There it was.
-
-I almost said one copper.
-
-Halei had paid one copper for identification.
-
-That was a precedent.
-
-Not a law.
-
-Maren already owned the object.
-
-I had already done the recognition work for Rell for free.
-
-Charging Maren one copper to repeat the same answer felt wrong in one direction.
-
-Charging nothing because I had accidentally done the work before she arrived felt wrong in another.
-
-I had not planned this.
-
-Good.
-
-I needed mistakes eventually.
-
-Maybe this would be one.
-
-"One copper if you want me to come back to Rell's shop, look at the other five chairs without activating anything, and tell you whether I see matching hardware or obvious paired pieces. No valuation. No repair advice beyond what I can identify. If you only want what I already told Rell, she can tell you free."
-
-Rell's eyebrows went up.
-
-Maren considered me.
-
-"You already looked at one."
-
-"For Rell. Free. Different question."
-
-"And if the other chairs have nothing?"
-
-"You still pay one copper because the work is checking all five."
-
-"How long?"
-
-"However long it takes to inspect without dismantling them. If you want dismantling, that's Rell's work, not mine."
-
-Rell nodded sharply at that.
-
-Maren looked between us.
-
-"One copper."
-
-"Agreed."
-
-"Paid after?"
-
-I thought.
-
-Scope before work.
-
-Halei had paid before.
-
-Jori had required before.
-
-But payment timing was not morality.
-
-"After is fine because the scope is fixed."
-
-Maren smiled slightly.
-
-"You are making this up as you go."
-
-"Completely."
-
-"Good. People who pretend otherwise charge more."
-
-We went back to Rell's shop.
-
-The six chairs had come from the same rooming-house common room, Maren explained as we walked. A cooking fire had climbed a wall, caught a curtain, then scorched furniture before neighbors put it out.
-
-No one hurt.
-
-One wall needed plaster.
-
-Two chairs were probably dead.
-
-Four might survive.
-
-The chairs had belonged to the house before Maren bought it.
-
-How long before, she did not know.
-
-That mattered because old hardware could predate her ownership by years or decades.
-
-At the shop, Rell moved the first half-chair aside.
-
-"No dismantling unless I do it," she said.
-
-"Agreed."
-
-We started with the intact chairs.
-
-Chair two had no black strip under the seat.
-
-It had a narrow empty recess with two screw holes.
-
-That was useful.
-
-"Missing hardware," I said. "Or same construction recess used without it. Can't tell which."
-
-Maren nodded.
-
-Chair three had a strip.
-
-Not black.
-
-Dark gray under soot.
-
-Same length.
-
-Same two-hole pattern.
-
-Intact end.
-
-Fine pale curves.
-
-And a tiny stamped shape near the rear screw.
-
-A square with one corner open.
-
-My memory clicked harder.
-
-"That mark I know."
-
-"How well?" Maren asked.
-
-Good question.
-
-"Better than the strip name. In my old life, open-corner square marks were used on some low-strength return fixtures. Furniture, cabinet doors, light shop gates. It meant the piece was meant to pull toward a registered resting position, not hold against load."
-
-"Registered?"
-
-"Paired marker or anchor."
-
-Rell leaned under the chair from the other side.
-
-"Where?"
-
-"Could be wall. Floor. Another part of chair. Depends on system."
-
-"Can we find it?"
-
-"Maybe."
-
-Maren looked at me.
+"Theatre?"
 
 I sighed.
 
+"Sometimes."
+
+She wrote something.
+
+"This relevant?"
+
+"No. I like knowing who is asking me about dangerous hardware they do not own."
+
+Fair.
+
+"Why are you asking?"
+
+"I think I recognize the type from somewhere else."
+
+"Where?"
+
+"Old life."
+
+Her pencil stopped.
+
+Not for long.
+
+"Meaning before Bronze?"
+
+"Yes."
+
+"You remember technical work?"
+
+"Some. Incompletely."
+
+"Good answer. What did you call it?"
+
+"Compression clasp. Sometimes boundary clasp depending on where I was. Fitted loop around a prepared collar. Reinforced a seal through a boundary fold."
+
+Jori's face did not change much.
+
+That was better than excitement.
+
+"What do you mean by boundary fold?"
+
+I explained as narrowly as I could.
+
+Not storage expansion.
+
+Not a bigger inside.
+
+A closure effect at a prepared seam.
+
+The versions I remembered could make crossing the seam harder for air and water. Some later or better work had additional resistance to heat, smell, or mana leakage, but I did not know whether that came from the clasp, the collar, preparation of the vessel, or all three.
+
+Jori wrote two words.
+
+"You saw these used?"
+
+"Yes."
+
+"Made them?"
+
+"No."
+
+"Repaired them?"
+
+"No."
+
+"Installed them?"
+
+"No."
+
+"Bought them?"
+
+"No."
+
+The list was becoming insulting.
+
+"I stood near competent people."
+
+"Common source of expertise."
+
+"I am learning that."
+
+She set down the pencil.
+
+"My appraisal does not establish a boundary fold."
+
 "I know."
 
-Chair four had another empty recess.
+"Does not establish air seal."
 
-Chair five was badly burned and missing most of the underside.
+"I know."
 
-Chair six had no strip under the seat, but Rell found a small dark plate fixed low on the rear stretcher between the legs.
+"Does not establish prepared collar type."
 
-She did not touch it.
+"I know."
 
-"That?"
+"Does not establish that your compression clasp is this object."
 
-I crouched.
+"I know."
 
-The plate was square.
+"Good. Then we can talk."
 
-One corner physically open, cut away in a neat diagonal.
+Hessa had relatives everywhere.
 
-Not a stamped mark.
+"Do the six seats mean anything to you?" I asked.
 
-A shape.
+"Seats?"
 
-The strip on chair three had the same open-corner symbol.
+"Inner notches. I called them engagement points. Kes called them notches."
 
-My old-life memory shifted.
+"I called them seats because something should seat into them. Probably collar tabs."
 
-Not wall anchor.
+"Probably."
 
-Chair-local pair.
+"Probably."
 
-Maybe the strip and plate were both on the same chair, allowing the seat assembly to settle back into alignment after someone dragged or twisted it.
+She smiled faintly.
 
-But why would the strip be under the seat and the plate on the stretcher?
+I told her my old-life memory: six points were common on medium circular clasps because they distributed the fold around a seam. Four could twist. Five worked on some designs. Eight existed on larger ones.
 
-I did not know.
+Jori listened.
 
-"Possible paired piece," I said. "Shape matches the mark family. I do not know whether this plate pairs with the under-seat strip."
+"Useful pattern," she said.
 
-"Can we put them near each other?" Rell asked.
+My chest lifted slightly.
 
-"No."
+Then she continued.
 
-"Why?"
+"Not enough to identify this one."
 
-"Because that would be testing activation."
+Chest returned to normal.
 
-"You know Hessa too," Maren said.
+"Why not?"
 
-I looked at her.
+"Because six is also a convenient number when a maker likes six."
 
-"Why does everyone know Hessa?"
+"That is offensive."
 
-"I don't. Rell said you talk like someone with rules."
+"Reality often is."
 
-Rell looked innocent.
+She reached behind her and pulled down a small wooden practice ring.
 
-I hated social networks.
+Not magical.
 
-We inspected without moving magical hardware closer together.
+A teaching object, maybe.
 
-No glow.
+Six pegs around the inside.
 
-No motion.
+"This is a cooper's alignment guide," she said. "Six points. No boundary work."
 
-No heat I could see.
+"Fine."
 
-No reason to turn identification into experiment.
+"Pattern supports a question. Not an answer."
 
-At the end I stood and gave Maren the answer she had bought.
+"You and Hessa would be unbearable together."
 
-"Two chairs have intact-looking strips or remnants. Two have matching recesses with no strip. One is too burned underneath to tell. One has a separate open-corner plate on the rear stretcher that may be related. The intact strip on chair three has a mark I recognize from old-life low-strength return hardware. That supports the return-hardware identification. It does not tell us exact pairing, current safety, repairability, or value."
+"Who?"
 
-"Would you use the chairs?"
+"Nobody you need."
 
-"Not with the hardware active or unknown."
+I moved on.
 
-Rell said, "I can remove the strips and plates before repair."
+"The bite."
 
-I looked at her.
+Jori's expression tightened slightly.
 
-"Can you remove without bringing them together?"
+"What about it?"
+
+"I remember later versions isolating the trigger pin with ceramic. A sleeve around the pin so a handler could not bridge the activation contact accidentally."
+
+"Bridge?"
+
+"Touch pin and inner body together through skin or conductive material."
+
+"You think that is what happened to Kes."
+
+"Maybe. He said he touched both. Your appraisal says paired contact."
 
 "Yes."
 
-"Then that seems safer than reinstalling unknown moving hardware. But that's a repair choice between you and Maren."
+"Would a ceramic sleeve help?"
 
-Maren nodded.
+Jori leaned back.
 
-"I want chairs that stay where people put them."
+"Maybe."
 
-"Excellent feature."
+That was not validation.
 
-"What about the pieces after removal?"
+I waited.
 
-There was the next value question.
+She noticed.
 
-I could feel my brain reach for it.
-
-Old magical hardware.
-
-Multiple pieces.
-
-Possible complete pair.
-
-Maybe useful.
-
-Maybe sellable.
-
-Maybe worth more than one copper.
-
-Maybe nothing.
-
-I did not own it.
-
-Client first.
-
-"Keep them separated and labeled by chair," I said. "If you want value, ask an appraiser or someone who deals in old household enchantments. I do not know current price."
-
-"Do you know someone?"
-
-Jori.
-
-I could give Jori again.
-
-But Jori had said appraisal, estate inventory, disputed goods. This was within that broad territory.
-
-Still no promise.
-
-"Jori at Blue Steps does appraisals. I have paid her before. I cannot promise she takes this kind or that the pieces are worth her fee. Ask fee first."
-
-Maren smiled.
-
-"You say that a lot."
-
-"Recent trauma."
-
-She paid me one copper.
-
-Rell watched the coin change hands.
-
-"So I found you work."
-
-I looked at her.
-
-There it was.
-
-The thing she had said she did not want.
-
-Not a fee.
-
-A fact.
-
-She had created the introduction.
-
-Without her, no Maren.
-
-Without my free look for Rell, no paid inspection.
-
-Was that worth something?
-
-Not retroactively.
-
-We had agreed zero.
-
-Price before work, even if zero.
-
-I put the copper away.
-
-"Yes."
-
-"Next time I want a piece."
-
-Maren laughed.
-
-I did not.
-
-"Then next time we agree before I look."
-
-Rell's grin widened.
-
-"Half."
-
-"No."
-
-"Quarter."
-
-"We do not have those either."
-
-"Then one copper every four jobs."
-
-I stared at her.
-
-That was annoyingly coherent.
-
-"No agreement today."
-
-"Scared."
-
-"Thinking."
-
-"Same face."
-
-Maybe.
-
-I left with one copper and a new problem.
-
-Not how to identify old hardware.
-
-How to pay for introductions without paying for noise.
-
-If Rell brought me ten useless nails and demanded a share because one day a customer appeared, that was bad.
-
-If she found a real question and connected me to someone who paid, maybe a referral share made sense.
-
-But then she had an incentive to tell everyone I knew everything.
-
-Which I did not.
-
-Reputation risk.
-
-Jori's word.
-
-Not exactly.
-
-But close.
-
-At home I unfolded the ugly page.
-
-`SCOPE BEFORE WORK.`
-
-`CLIENT FIRST.`
-
-`PRICE BEFORE WORK, EVEN IF PRICE IS ZERO.`
-
-I added:
-
-`REFERRALS?`
-
-Then underneath:
-
-`PAY FOR RESULT, NOT NOISE.`
-
-That sounded too clever.
-
-I crossed out `RESULT`.
-
-A result could be nothing useful after honest work.
-
-I wrote:
-
-`PAY FOR REAL INTRODUCTION?`
-
-Question mark stayed.
-
-Good.
-
-Lyssa came home while I was staring at it.
-
-She carried a flat wrapped package under one arm.
-
-Not the narrow paper parcel from before.
-
-Different shape.
-
-I noticed and then stopped noticing.
-
-She set her work bag down.
-
-"Money face."
-
-"I have a money face now?"
-
-"Yes."
-
-"Bad?"
-
-"Annoying."
-
-"I earned one copper."
-
-"Good."
-
-"By looking at chairs."
-
-"Less good."
-
-"Magic chairs."
-
-She paused.
-
-"Better."
-
-I explained Rell.
-
-The return strip.
-
-Maren.
-
-The six-chair inspection.
-
-The one copper.
-
-Then the referral question.
-
-Lyssa listened while unwrapping nothing. She did not open the flat package. She only moved it to her side of the room and put a folded cloth over it.
-
-Her work.
-
-Her business.
-
-"Rell wants money next time," I said.
-
-"She bring person."
-
-"Yes."
-
-"Person pay you."
-
-"Yes."
-
-"Then maybe."
-
-"That is not a system."
-
-"You have one copper. Need system?"
-
-I looked at her.
-
-"Cruel."
-
-"True."
-
-"What if she sends everyone?"
-
-"Say no."
-
-"What if she tells them I know things I don't?"
-
-"Tell Rell no."
-
-"What if she wants a quarter copper?"
-
-"Tell city make smaller money."
-
-I laughed.
-
-Lyssa sat down.
-
-"Greg."
+"Good," she said.
 
 "What?"
 
-"You trying make rules before problem big."
+"You didn't turn maybe into yes."
 
-I looked at the page.
+"I am being trained against my will."
 
-That was exactly what I was doing.
+She ignored that.
 
-"Rules help."
+"If the activation requires direct conductive contact between pin and body, an insulating sleeve could reduce accidental activation. If activation only requires those points to be connected through the collar, a sleeve might do nothing once installed. If the pin is not merely a trigger but part of the active boundary, changing its contact geometry could alter function. If the internal inclusions couple through the pin, ceramic could interfere. If your remembered designs used ceramic because their pins were already isolated internally, copying the visible sleeve onto an older design could be useless."
 
-"Some."
+I stared at her.
 
-"Hessa has rules."
+"You have been waiting your whole life to ruin this idea."
 
-"Hessa has you."
+"I met you nine minutes ago."
 
-That was unfair and devastating.
+"Efficient."
 
-I folded the page.
+She tapped the counter.
 
-One copper from Halei remained with my private money.
+"Your memory is useful because it creates a testable safety possibility. It is not a repair."
 
-Now one copper from Maren joined it.
+"Agreed."
 
-Two copper.
+"The crack bothers me more."
 
-Not clasp money.
-
-Not capital, really.
-
-Just two coins I had earned by answering bounded questions.
-
-The household had received its share from Halei already. I considered splitting this one.
-
-Then I stopped.
-
-Not every coin needed an immediate moral ceremony.
-
-Lyssa had income I did not audit.
-
-The household had arrangements that existed before my new obsession with capital.
-
-I put the new copper with my private money.
-
-"Keeping?" Lyssa asked.
+"Inner seat."
 
 "Yes."
 
+"Why?"
+
+"Because I can see the bite. I cannot see what the crack does under load."
+
+That landed.
+
+"You think uneven engagement."
+
+"I think cracked things can become more cracked."
+
+"Technical."
+
+"You paid for clarity, not poetry."
+
+She took the pencil again.
+
+"If it is a collar seat, and if the collar loads all six seats, that crack may take uneven force. Or it may be cosmetic. Or the seat may not carry load at all. We do not know. I did not activate it again because there was no matched collar and the uncontrolled closure already gave me enough evidence to call handling unsafe."
+
+"Kes said you would not wake it twice."
+
+"Correct."
+
+"What did it close on?"
+
+"Wood block."
+
+"Damage?"
+
+"Dented edge."
+
+"How fast?"
+
+"Fast enough."
+
+"That is Kes's phrase."
+
+"Kes repeats useful phrases."
+
+"He said it snapped toward nearest contacted edge after release."
+
+"Yes."
+
+"Release from what?"
+
+"I separated the contact points with an insulated hook. The loop opened. When the hook cleared, it closed again on the block instead of remaining neutral."
+
+That was worse than I had pictured.
+
+"So it seeks closure."
+
+"Observed once."
+
+"Right. It closed again once."
+
 "Good."
 
-"You don't know why."
+I hated everyone.
 
-"You earned."
+"Would you buy it?"
 
-Simple.
+Jori laughed.
 
-I disliked simple because it made my page look stupid.
+Not politely.
 
-Outside, somebody in the courtyard shouted that Tavi had put onion skins in Maris's laundry pot.
+"No."
 
-Tavi shouted back that they were boats.
+"At Kes's price?"
 
-Lyssa closed her eyes.
+"No."
 
-"You teach him business."
+"At half?"
 
-"I taught him nothing."
+"No."
 
-"Now boats."
+"At one tenth?"
 
-"Also not me."
+She considered.
 
-We went downstairs because sometimes household consequence arrived as a child with onion boats.
+"For parts, maybe."
 
-No magic moved them.
+That hurt.
 
-As far as I knew.
+I had wanted independent expertise.
 
-That was enough for the day.
+I had received it.
+
+"Why parts?"
+
+"Because the inclusions may be recoverable, the brass is old work, the pin is interesting, and I know two people who buy old boundary components."
+
+"Not because you think it can be restored."
+
+"I do not know if it can be restored."
+
+"If it could?"
+
+"Then Kes's price is low."
+
+There it was.
+
+Not a victory.
+
+A conditional.
+
+"How low?"
+
+"Compared with a complete modern boundary closure capable of certified vessel sealing? Very."
+
+"Gold still."
+
+"Gold still."
+
+"Why doesn't someone buy it as a gamble?"
+
+"People do not become wealthy by buying every broken thing that might become valuable."
+
+"Some do."
+
+"Most of those stories omit the broken things that stayed broken."
+
+I sat with that.
+
+Jori checked a small sand timer on her side of the counter.
+
+Quarter bell had not ended yet.
+
+"Complete modern system," I said. "How expensive?"
+
+"Depends on size, certification, material, maker, use."
+
+"Gold?"
+
+"Yes."
+
+"More than Kes?"
+
+"Usually. Sometimes much more."
+
+"So buyers who need the function buy complete because the failure cost matters."
+
+"Yes."
+
+"And collectors avoid this because no maker mark, dangerous, incomplete."
+
+"Some collectors like dangerous."
+
+"Of course they do."
+
+"They like named dangerous. Famous dangerous. Beautiful dangerous. Kes's clasp is anonymous ugly dangerous."
+
+I looked toward the window as if the clasp might hear from across the city.
+
+"I think it's beautiful."
+
+"Then your problem is worse than I thought."
+
+Fair.
+
+"Could a collar be made?"
+
+"Probably."
+
+"That sounded too easy."
+
+"A collar can be made. Whether it is the correct prepared collar for that clasp is another question."
+
+"What makes it prepared?"
+
+"Boundary work."
+
+"Specific geometry?"
+
+"Yes."
+
+"Material?"
+
+"Yes."
+
+"Inclusions?"
+
+"Sometimes."
+
+"Could you design one?"
+
+"No."
+
+"Who could?"
+
+She looked at me.
+
+I had found the edge of the consultation.
+
+"There are boundary workers in Carrow," she said. "I do not send strangers to them because they ask interesting questions."
+
+"What makes someone not a stranger?"
+
+"A job. Ownership. A client. A reason."
+
+"I have a reason."
+
+"You have curiosity."
+
+"And two fewer copper."
+
+"That purchased my time, not someone else's reputation."
+
+Also fair.
+
+I did not push.
+
+That surprised both of us.
+
+"If I owned the clasp?"
+
+"Then I might tell you who I would pay to inspect it."
+
+"Might."
+
+"Might."
+
+The sand timer emptied.
+
+Jori turned it over once without comment.
+
+I noticed.
+
+"Did I just buy more time?"
+
+"No. I did."
+
+"Why?"
+
+"I have questions now."
+
+That was flattering until I remembered who paid whom.
+
+"About the clasp?"
+
+"About you."
+
+"Less useful."
+
+"Your old life. You said boundary clasps were common enough you saw them in warehouses and field use."
+
+"Yes."
+
+"What else do you recognize?"
+
+Dangerous question.
+
+I thought about the copperback.
+
+Whitewall.
+
+Weather beads.
+
+Heat marks.
+
+Things I recognized partly.
+
+Things I did not.
+
+"Some materials. Creatures. Tools. Not consistently. Sometimes I know a principle and not construction. Sometimes I know what not to do."
+
+"You sell that?"
+
+"Sometimes Guild pays consultation."
+
+"How?"
+
+"They ask a narrow question. I answer narrowly."
+
+Jori nodded.
+
+"Good model."
+
+"It sells my time."
+
+"Everything sells your time somewhere."
+
+I looked at her.
+
+"You know what I mean."
+
+"Yes. You want money while sleeping."
+
+"That sounds worse."
+
+"It usually is."
+
+"I want value that is not one copper per hour forever."
+
+"Then stop thinking time is the only thing inside a fee."
+
+I waited.
+
+She tapped her appraisal stamp.
+
+"When I charge someone for an opinion, they are not paying only for the quarter bell I speak. They are paying for the years that make the quarter bell worth hearing, and for the fact that my signed mistake costs me future work."
+
+"Reputation."
+
+"And risk."
+
+"Still tied to you."
+
+"Of course. I am not a magical coin tree."
+
+"Do you broker sales?"
+
+"Sometimes."
+
+"Fee?"
+
+"Separate."
+
+"Percentage?"
+
+"Sometimes. Flat fee sometimes. Depends on goods and client."
+
+"So if you connect a seller and buyer, you take a share."
+
+"If I am doing the work and taking the risk of the introduction, yes."
+
+That was the thing I had written last night.
+
+Matching.
+
+But here it was ordinary.
+
+Not invention.
+
+Not revolutionary.
+
+Carrow already had brokers.
+
+Of course it did.
+
+"How does someone start?"
+
+Jori gave me a look so dry it could preserve fish.
+
+"Not by asking an appraiser how to compete with her."
+
+I laughed.
+
+"Fair."
+
+"You know people. You know things. Sometimes those two facts become useful together. Usually they become gossip. Learn the difference."
+
+That was more advice than she owed me.
+
+"Do you pay finders?"
+
+"Sometimes."
+
+"Standing rate?"
+
+"No."
+
+"Could I bring you old magical hardware?"
+
+"You can bring me anything. I can also tell you to leave."
+
+"Paid if useful?"
+
+"Only if we agreed before you did work for me."
+
+Important.
+
+"So do not wander the city collecting cursed spoons and demand commission."
+
+"Please do not."
+
+"Noted."
+
+"If I ever ask you to look for something, we discuss fee first."
+
+"Fee first."
+
+"You learn."
+
+"Slowly."
+
+A knock came at the inner door behind her.
+
+Not the street door.
+
+Jori looked over her shoulder.
+
+"Done."
+
+There it was.
+
+No apprenticeship.
+
+No magical-item mentorship.
+
+No invitation to spend afternoons learning appraisals.
+
+I stood.
+
+"One last thing."
+
+"If it is actually one."
+
+"Would you pay Kes's current price if the collar existed and crack were proven repairable?"
+
+Jori considered carefully.
+
+"If a competent boundary worker inspected the clasp, matched or designed a collar, and certified safe operation for a useful vessel size, Kes would not be selling it at Kes's current price."
+
+"Because he would raise it."
+
+"Or someone would buy it before you finished asking questions."
+
+That answer hurt in a productive way.
+
+"So the opportunity is real only before the evidence is complete."
+
+"That is why it is cheap."
+
+"And buying before evidence means buying risk."
+
+"That is why it is still there."
+
+Clean.
+
+I nodded.
+
+"Thank you."
+
+"You paid."
+
+"Still."
+
+She picked up the document she had been reading when I entered.
+
+The consultation was over.
+
+I left.
+
+At the bottom of Blue Steps, I stood with one crutch on the street and looked east.
+
+Kes's shop was not far.
+
+I could go check the cabinet.
+
+I did not.
+
+Not because I had stopped wanting the clasp.
+
+Worse.
+
+I wanted it more specifically now.
+
+Before Jori, I wanted the idea of the object.
+
+After Jori, I wanted the possibility contained inside a very expensive list of unresolved problems.
+
+That was less romantic.
+
+More dangerous.
+
+I went to buy bread instead.
+
+Nerin's bakery had a line of four people and one argument already in progress.
+
+The argument belonged to Nerin and a man delivering flour.
+
+"Six sacks short," Nerin said.
+
+"Two."
+
+"Six."
+
+"Your count includes tomorrow."
+
+"Tomorrow exists."
+
+"Not on today's paper."
+
+"My oven does not care about your paper."
+
+I waited.
+
+Mara stood behind the counter with the expression of someone who had heard the first half before I arrived and expected a second half after I left.
+
+She saw me.
+
+"Bread?"
+
+"One dark."
+
+"Wait."
+
+"Excellent system."
+
+The flour man turned.
+
+"You the theatre boy?"
+
+I closed my eyes.
+
+Nerin said, "Don't start."
+
+He did not start.
+
+Progress.
+
+The argument resolved into three sacks today, three first bell tomorrow, and mutual dissatisfaction.
+
+The flour man left.
+
+Nerin looked at me.
+
+"You need work?"
+
+For one stupid second, the clasp answered for me.
+
+Yes.
+
+Any work.
+
+Every copper.
+
+Pile them until gold happened.
+
+Then I remembered last night.
+
+Learn what money can do besides wait.
+
+"If you have actual work," I said.
+
+"No. Mara said you looked hungry for work."
+
+I looked at Mara.
+
+She shrugged.
+
+"You always look hungry."
+
+"That is different."
+
+Nerin handed me the loaf.
+
+I paid.
+
+No invented shift.
+
+No desperation disguised as initiative.
+
+I left with bread.
+
+On the walk home, I thought about Jori's stamp.
+
+Her quarter bell cost me two copper.
+
+That did not mean she earned eight copper every bell all day.
+
+Clients did not appear on command.
+
+Years of expertise did not fit neatly into arithmetic.
+
+Reputation could vanish faster than it grew.
+
+Brokerage required buyers, sellers, trust, and something worth connecting.
+
+There was no shortcut hidden in vocabulary.
+
+Still, the model mattered.
+
+A person could be paid for a judgment.
+
+For an introduction.
+
+For risk.
+
+For a result.
+
+Not only for carrying a crate until the bell rang.
+
+I already knew this in theory.
+
+Vale knew it too well.
+
+Theatre owners knew it.
+
+Merchants knew it.
+
+Every person who owned anything knew it.
+
+Knowing a principle was not the same as having a place inside it.
+
+That was my problem.
+
+At home, I put the bread down and unfolded yesterday's paper.
+
+Three lines.
+
+`DO NOT BUY BITING BRASS BECAUSE EXCITED.`
+
+Still true.
+
+`LEARN WHAT IT ACTUALLY IS.`
+
+Slightly less ignorant.
+
+`LEARN WHAT MONEY CAN DO BESIDES WAIT.`
+
+I added beneath it:
+
+`REPUTATION / RISK / MATCHING`
+
+Then crossed out `REPUTATION` because I did not have Jori's.
+
+I wrote:
+
+`BUILD REASONS PEOPLE PAY ME FOR THE ANSWER, NOT JUST THE HOUR.`
+
+That sounded too clever.
+
+I crossed out half of it.
+
+The paper became ugly.
+
+Good.
+
+Plans should look worse after contact with reality.
+
+Lyssa came home before sunset.
+
+She carried no visible parcel today, only a folded cloth bundle and a small paper bag that smelled like pepper.
+
+I did not ask about the bundle.
+
+I did ask about the pepper smell.
+
+"Cheese," she said.
+
+"Work?"
+
+"Yes."
+
+That was enough.
+
+We ate some with bread.
+
+"Jori?" she asked.
+
+"Two copper. Paid first."
+
+"Good."
+
+"She thinks my ceramic sleeve idea might reduce accidental activation if my memory maps correctly."
+
+Lyssa looked at me.
+
+"Might."
+
+"Yes. Might. It does not fix the crack or make a collar or prove anything else."
+
+"Good."
+
+"You sound disappointed that I learned caution."
+
+"No. Surprised."
+
+I ignored that.
+
+I told her Jori would not buy the clasp at Kes's price.
+
+"Good."
+
+"You enjoy that word too much."
+
+"You buying?"
+
+"No."
+
+"Then good."
+
+"She said if it were inspected, matched, repaired, and certified, Kes's price would be very low."
+
+Lyssa chewed.
+
+"But then price goes up."
+
+I pointed at her.
+
+"Exactly."
+
+"So you pay for risk."
+
+"Exactly."
+
+"No."
+
+"That was not the conclusion."
+
+"My conclusion."
+
+I laughed.
+
+Then I told her about appraisal work and brokerage.
+
+Not as a speech.
+
+Just the useful part.
+
+Jori sometimes got paid for connecting buyers and sellers. She did not pay finders unless she had agreed before the work. She had not hired me to find anything. I was specifically forbidden by common sense from collecting cursed spoons.
+
+Lyssa smiled.
+
+"You would."
+
+"I would collect only premium spoons."
+
+"No."
+
+"You hate commerce."
+
+"I hate your commerce."
+
+Fair.
+
+After dinner, I counted my money.
+
+Privately.
+
+Not because I had forgotten the amount.
+
+Because the clasp had changed what the amount meant.
+
+Before, coins were distance from hunger, debt, broken shoes, empty shelves.
+
+Now they were also distance from choice.
+
+Still not enough choice.
+
+That fact did not become tragedy.
+
+It became scale.
+
+Two copper bought a quarter bell of a good appraiser.
+
+Gold bought an ugly dangerous question in a cabinet.
+
+I had no reason to believe the question would wait for me.
+
+Kes could sell it tomorrow.
+
+Next month.
+
+Never.
+
+I did not control that.
+
+What I controlled was whether wanting it made me stupid.
+
+So far, only moderately.
+
+I folded the ugly paper and put it away.
+
+Tomorrow had no appointment.
+
+Jori had not invited me back.
+
+Kes had not promised to hold anything.
+
+No one had offered me a brokerage fee.
+
+I had not become richer.
+
+I had spent two copper learning why I might be wrong.
+
+That felt expensive.
+
+It also felt like the first purchase I had made for a future that was not simply trying to survive until next week.

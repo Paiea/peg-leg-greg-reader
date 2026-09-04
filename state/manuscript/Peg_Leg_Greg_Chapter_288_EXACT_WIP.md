@@ -1,973 +1,1231 @@
 # CHAPTER 288
 
-## THE RED THREAD
+## THE SHORT MEASURE
 
-Lyssa left a red thread on the table.
+The next morning the chaffers were mostly gone.
 
-I did not investigate it.
+That was rude.
 
-This was becoming one of my strongest skills.
+I had left three question marks on Tavi's horse paper and apparently expected the insects to respect my research schedule.
 
-It was a short piece, maybe the length of my hand, bright enough to stand out against the worn wood. It had a knot at one end and nothing interesting at the other.
+The courtyard gutter clicked twice before breakfast. I went to the window in time to see one pale body crawl from under the lip, open its wings, and leave.
 
-Lyssa had already gone to work.
+Then nothing.
 
-I ate breakfast beside it.
+Cala swept six husks from beside the drain and did not call me.
 
-Cala came through, saw it, picked it up, and tied it around the neck of a jar.
+This felt like professional decline.
 
-Mystery solved.
+Lyssa was already dressed for work. She stood at the table with one of the remaining clean gray sheets folded into a narrow strip beside her bag. Not the measurement sheet from before. A different one.
 
-"That Lyssa's?" I asked.
+I counted automatically.
 
-"Was on table."
+Three clean household sheets remained.
 
-"Excellent chain of custody."
+I did not say this aloud.
 
-Cala tightened the knot.
+Growth.
 
-"Jar need mark."
+Lyssa tied her hair back, picked up the strip, and held it against a piece of dark green cloth no larger than my hand.
 
-"What is in it?"
+I looked away.
 
-"Salt fish."
+Not because the cloth was protected. I had no idea what it was.
 
-"Why does salt fish need a red thread?"
+Because I had learned that staring at every object Lyssa touched was a good way to become furniture in my own home.
 
-"So Tavi don't open."
+"You going out?" she asked.
 
-Tavi, sitting on the floor with his roof-tile house, looked up.
+"Eventually."
 
-"Red means no."
+"Where?"
 
-I looked at Cala.
+"I haven't invented a reason yet."
 
-"Does red always mean no?"
+"Stay home."
 
-"No."
+"Cruel."
 
-Of course it didn't.
+She folded the green cloth into her bag.
 
-I finished breakfast.
+"Cala need help after lunch."
 
-The wall behind the moved shelf looked nearly normal now. I did not touch it. Cala did not ask me to. Maro did not arrive.
+"With what?"
 
-A good household repair story was apparently allowed to end with the household continuing to exist.
+"Ask Cala."
 
-I went upstairs and looked at my three scrap strips.
+This was how independent adults behaved. They possessed information I did not and refused to become my briefing documents.
 
-The first carried the carrying-light notes.
+Lyssa left.
 
-The second was blank except for old account writing on the reverse.
+I washed the cups, checked my right shoe, and spent twenty minutes doing absolutely nothing useful.
 
-The third had a grease mark near one edge.
+This should have been restful.
 
-I liked them more than the clean sheets.
+Instead I kept noticing the silence where yesterday's clicking had been.
 
-That felt morally suspicious.
+By the time I went downstairs, Tavi was drawing on a broken piece of roof tile with charcoal.
 
-Then somebody knocked downstairs.
+"Horse?" I asked.
 
-Not a pounding knock.
+"Boat."
 
-Two quick taps, pause, one more.
+The shape looked like a potato with a mast.
 
-Cala called, "Greg."
+"Excellent boat."
 
-I leaned toward the stairs.
-
-"Alive."
-
-"Woman."
-
-"That narrows Carrow considerably."
-
-No response.
-
-I went down.
-
-The woman at the courtyard gate was maybe forty, with a square basket hooked over one arm and a narrow green scarf wrapped around her hair. I recognized her face without knowing her name. She sold something in the morning market. Herbs, maybe. Or soap. Or both. Carrow had defeated my ability to categorize people by one visible object.
-
-She looked at me.
-
-"Greg?"
-
-"Yes."
-
-"Nara say you look at things."
-
-There it was.
-
-I felt the three copper upstairs become heavier through the floor.
-
-"Sometimes."
-
-"You charge?"
-
-Better question than most clients asked.
-
-"Sometimes. What is the thing?"
-
-She lifted the basket.
-
-Inside were six little clay cups nested in straw.
-
-Five were ordinary reddish brown.
-
-One had a dark ring around its lower half.
-
-"These."
-
-I looked without touching.
-
-"What do they do?"
-
-"Keep milk cool."
-
-I looked again.
-
-The cups were small enough for one serving.
-
-"All six?"
-
-"Supposed."
-
-"And one doesn't?"
-
-"One sweats."
-
-"Sweats water?"
-
-"Outside wet. Milk gets warm."
-
-That was interesting.
-
-Too interesting.
-
-I pulled myself back.
-
-"Do you make them?"
-
-"No."
-
-"Sell them?"
-
-"Sometimes."
-
-"Who made them?"
-
-"Pellin kiln."
-
-Not Pell.
-
-Pellin.
-
-Different person until proven otherwise.
-
-"What do you want me to tell you?"
-
-She looked impatient.
-
-"Why bad."
-
-"I may not know."
-
-"Nara say you say that."
-
-Excellent reputation.
-
-"Nara also paid me because I found something useful."
-
-"One copper."
-
-Nara had apparently included financial disclosure.
-
-"For her job. Yours may be different."
-
-The woman shifted the basket.
-
-"How much?"
-
-I looked at the six cups.
-
-Actual demand.
-
-A bounded object.
-
-A defect with a comparison set.
-
-This was exactly the kind of thing I had been telling myself I wanted.
-
-Which meant I needed to be careful.
-
-"First, scope. I compare the bad cup to the five good ones. I don't break them. I don't pour anything into them unless you approve. I don't take them anywhere. If I can give you a useful difference or a useful next step, one copper. If I can't, nothing."
-
-She stared at me.
-
-"Same as Nara."
-
-"Similar price. Different work."
-
-"One copper."
-
-"If useful."
-
-"Good."
-
-"Your name?"
-
-"Miri."
-
-"Miri. Good."
-
-Cala was listening from the kitchen.
-
-I could feel it.
-
-I ignored her professionally.
-
-"Can we use the table?"
-
-Miri stepped into the courtyard.
-
-"Not long."
-
-"I also enjoy not long."
-
-We set the basket down.
-
-I brought my measuring stick, charcoal, and the second scrap strip.
-
-No clean sheet.
-
-No mana.
-
-No declaration that I was now a cup expert.
-
-Miri took the six cups out and lined them on the table.
-
-Up close, they were more interesting.
-
-Each cup had three shallow horizontal grooves around the outside. The grooves were not decorative in the same way on every cup. On four, a pale gray material sat inside the lowest groove. On one, it was almost white. On the dark-ringed cup, the groove looked empty.
-
-I pointed.
-
-"What's this?"
-
-"Cool line."
-
-"Material?"
-
-"Kiln puts it."
-
-"Pellin?"
-
-"Yes."
-
-"Do all cooling cups have it?"
-
-"These."
-
-Good answer.
-
-I wrote:
-
-`MIRI: SIX COOL CUPS. ONE WARM / WET OUTSIDE.`
-
-Then:
-
-`LOW GROOVE LOOKS EMPTY ON BAD CUP.`
-
-I did not write cause.
-
-"Did it always do this?"
-
-"First use."
-
-"New?"
-
-"Bought yesterday."
-
-"All six together?"
-
-"Yes."
-
-"Same kiln batch?"
-
-"Same basket."
-
-Not the same thing.
-
-"Did Pellin say same firing?"
-
-"No."
-
-I looked at the cup bottoms.
-
-Each had a pressed mark like a little three-pronged leaf.
-
-Same mark.
-
-The bad cup's mark was shallower.
-
-Maybe pressure difference.
-
-Maybe wear in stamp.
-
-Maybe meaningless.
-
-I did not write it yet.
-
-"What happens when you put milk in the good ones?"
-
-"Cup gets cool."
-
-"Immediately?"
-
-"Soon."
-
-"Outside stays dry?"
-
-"Mostly."
-
-"Bad one?"
-
-"Outside wet. Milk not cool."
-
-"How much milk?"
-
-She held two fingers against the cup.
-
-"To here."
-
-"Same amount each?"
-
-"Enough."
-
-That was not precise, but this was milk service, not laboratory work.
-
-I asked, "Can we test with water instead?"
-
-Miri frowned.
-
-"Why?"
-
-"Cheaper than wasting milk if it doesn't matter what liquid is inside. But I don't know if it doesn't matter."
-
-She considered that.
-
-"Water works."
-
-"You know?"
-
-"I rinse, cup cool."
-
-Useful.
-
-Cala brought a pitcher without being asked.
-
-I looked at her.
-
-"You are interfering with a client engagement."
-
-"Water."
-
-"Accepted."
-
-Miri rolled her eyes.
-
-We put equal-looking amounts of water into one normal cup and the dark-ringed cup.
-
-I used the same small kitchen ladle for both.
-
-Not exact measurement.
-
-Better than guessing from the pitcher.
-
-Then we waited.
-
-This was the part of professional work nobody advertised.
-
-Miri stood with arms crossed.
-
-Cala chopped something in the kitchen.
-
-Tavi moved his house tile three inches and announced that it was now a shop.
-
-I touched neither cup for the first minute.
-
-Then I held the back of one finger near each.
-
-The normal cup felt slightly cooler.
-
-Maybe.
-
-I waited longer.
-
-A thin dampness appeared on the outside of the bad cup, first at the dark ring.
-
-The good cup stayed mostly dry.
-
-"There," Miri said.
-
-"Yes."
-
-I touched the outside of the good cup.
-
-Cool.
-
-Then the bad.
-
-Not warm exactly.
-
-Closer to room temperature.
-
-The wetness was real.
-
-I looked inside both.
-
-No obvious leak line. Water levels looked similar.
-
-"Does the bad one lose liquid?"
-
-"No."
-
-"You checked?"
-
-"Milk still there."
-
-So the outside moisture might not be leakage.
-
-Condensation, in old-life terms, except the supposedly cooling cup was the one not cooling properly.
-
-That could still happen depending on surfaces and temperature gradients.
-
-Or the magical material could be moving moisture.
-
-Or something else entirely.
-
-I had too many categories again.
-
-I rotated the bad cup.
-
-The dark ring was strongest on one side.
-
-The empty lower groove ran all the way around, but near that dark side there was a tiny pale fleck lodged in a crack.
-
-I pointed.
-
-"Was the groove filled when you bought it?"
-
-Miri leaned closer.
-
-"Don't know."
-
-"Did you see pale material fall out?"
-
-"No."
-
-"Anything in the basket?"
-
-She looked at the straw.
-
-We both did.
-
-Tiny pale crumbs sat among the straw.
-
-Not many.
-
-I did not touch them immediately.
-
-"Were those there before?"
-
-"Basket old."
+"Fast boat."
 
 Of course.
 
-I used the end of my measuring stick to separate one pale crumb from a piece of straw.
+Cala was sitting on the courtyard bench with a wooden box beside her.
 
-"This look like the cool line material?"
+"Lyssa said you needed help."
 
-Miri squinted.
+"After lunch."
 
-"Maybe."
-
-Cala came over, looked once, and said, "Looks same."
-
-Two maybes did not make a fact.
-
-I compared the five good cups more carefully.
-
-Four had obvious pale fill in the lower groove.
-
-The fifth, the almost-white one, had fill in both the lower and middle groove.
-
-"This one different too."
-
-Miri looked.
-
-"That one very cold."
-
-I stopped.
-
-"Colder than the others?"
+"It is after breakfast."
 
 "Yes."
 
-"Always?"
+I waited.
 
-"Used once."
+She kept sorting dried beans.
 
-"And it was colder that one time?"
+"So I have been pre-summoned."
 
-"Yes."
+"You can go away."
 
-I wrote:
+"No, now I'm invested."
 
-`ONE GOOD CUP HAS EXTRA PALE LINE / MIRI SAYS VERY COLD ONCE.`
+"Then sit."
 
-That was a useful comparison.
+I sat.
 
-Not binary good versus bad anymore.
+She pushed the bean bowl toward me.
 
-Maybe amount or placement of the pale material mattered.
+"Bad ones there."
 
-Maybe not.
+I looked at the beans.
 
-I asked, "Did Pellin sell these as equal?"
-
-"Same price."
-
-"Same cooling?"
-
-"Cool cups."
-
-"Did he promise same strength?"
-
-Miri's face told me I was becoming tiresome.
+"I have been promoted."
 
 "No."
 
-Fair.
+We sorted beans.
 
-I looked at the water again.
+Some were split. Some had dark soft spots. One had a small round hole in it.
 
-The good cup was distinctly cooler now.
+I held that one up.
 
-The bad cup still had dampness on the outside and no comparable chill.
+"Bug?"
 
-I asked, "Can I touch the pale fill on a good cup with wood? Not scrape it. Just press lightly."
+"Probably."
 
-"Why?"
+"Do you want the confident answer or the useful one?"
 
-"See if it's hard or loose."
+Cala stared at me.
 
-She nodded.
+I put the bean in the bad pile.
 
-I used the rounded end of the measuring stick.
+Yesterday had not improved me as much as I hoped.
 
-The pale fill was hard.
+A woman came through the gate carrying a shallow basket against her hip.
 
-Not chalk.
+I had seen her before but did not know her name. Mid-thirties maybe, hair wrapped in faded yellow cloth, sleeves rolled above the elbow. She greeted Cala first.
 
-Not soft paste.
+"You still want it?"
 
-On the almost-white cup, the extra middle line was also hard.
+Cala looked into the basket.
 
-On the bad cup, the tiny remaining fleck near the dark side moved under almost no pressure.
+"If it's dry."
 
-I stopped before dislodging it.
+The woman peeled back a cloth.
 
-"That piece is loose."
+Inside were bundles of thin pale reeds, each cut to roughly the length of my forearm and tied with dark string.
 
-Miri leaned closer.
+Cala picked one up, bent it lightly, and nodded.
 
-"So bad line fell out."
+"Better."
 
-"Maybe."
+"Told you."
 
-"You see empty."
+"Last ones were wet."
 
-"Yes. I see the groove is mostly empty. I see one remaining pale fleck is loose. I see crumbs in an old basket that look similar. I don't know whether the cup left the kiln missing the fill, whether it broke loose later, or whether the empty groove causes the cooling failure."
+"Last ones were cheap."
 
-Miri stared at me.
-
-"Then what I pay for?"
-
-Reasonable.
-
-I looked at the six cups.
-
-"You sell these?"
-
-"Sometimes."
-
-"Do you need to know the magic, or do you need to know what to do with this cup?"
-
-That changed her expression.
-
-"What do with cup."
-
-"Then don't sell this one as a working cool cup. Take it back to Pellin with one normal cup for comparison. Show him the empty lower groove and the loose remaining fleck. Tell him it doesn't cool like the others. Ask whether the line is supposed to be filled and whether he replaces defects."
-
-"He say I broke."
-
-"Did you?"
+"These cheap?"
 
 "No."
 
-"Then tell him first use failed."
+Cala sighed.
 
-"He still say."
+This was commerce at its purest.
 
-I believed her.
+The woman named a price for two bundles. I heard it and deliberately did not memorize it as a universal reed exchange rate.
 
-"Do you have the basket he gave you?"
+Cala paid from a small cloth purse.
+
+The woman counted the coins, then looked at me.
+
+"You the one with the ruler?"
+
+I stopped sorting beans.
+
+"I own several objects people have called rulers."
+
+Cala said, "He has measuring stick."
+
+"Do you?"
 
 "Yes."
 
-"Bring it. Don't tell him the crumbs prove anything. They don't. But don't throw them away either."
+The woman shifted the basket on her hip.
 
-Miri looked at the straw.
-
-"You come?"
+"Need one thing measured."
 
 There it was.
 
-Expansion.
+The dangerous sentence.
 
-The natural enemy of scope.
+I looked at Cala.
 
-"Not for this copper."
+She looked innocent.
+
+"What thing?" I asked.
+
+The woman pulled a narrow wooden slat from under the reed bundles.
+
+It was smooth, flat, and marked along one edge with dark burned lines. A measuring rule, or intended to be one.
+
+"This."
+
+I took it only after she held it out farther.
+
+The marks ran from one end almost to the other. Every fifth mark was longer. There were no written numbers.
+
+"What's wrong with it?"
+
+"Maybe nothing."
+
+"Excellent start."
+
+"My brother says it's short."
+
+"The stick?"
+
+"The measure."
+
+That was more interesting.
+
+"Compared to what?"
+
+"His."
+
+"And his is right because?"
 
 She frowned.
 
-"You talk better."
+"Because it's his."
 
-"Probably. But the work we agreed was compare the cups and give you a useful difference or next step. Going to argue with Pellin is new work."
+Cala laughed into the bean bowl.
 
-Cala made a small sound from the kitchen that might have been approval or a cough.
+The woman gave her a look.
 
-I did not look.
+"You want help or not?" Cala asked.
 
-Miri tapped one finger against the table.
+"I want him to tell me which one is wrong."
 
-"How much come?"
+I handed the slat back.
 
-I had no idea.
+"I can't do that from one stick."
 
-The kiln could be close or far. The conversation could take five minutes or an hour. I did not know Pellin. I did not know whether he would consider me useful or insulting.
+"You have measuring stick."
 
-"I don't know yet. Where is the kiln?"
+"I have a stick I trust more than yours because I have used it before. That isn't the same as knowing it's correct."
 
-"South ovens."
+She looked disappointed.
 
-That was farther than I wanted to casually promise on crutches.
+Good.
 
-"Not today. If you still need me after you ask him, come back and tell me what happened. Then we scope that job separately."
+Disappointment was cheaper than false precision.
 
-Miri did not like this answer.
+"What are you measuring?"
 
-That did not make it wrong.
+"Reed screens."
 
-She looked at the cups again.
+She tapped the bundles.
 
-"Useful?" I asked.
+"Door screens?"
 
-She picked up the bad cup and ran a thumb near the empty groove without touching the loose fleck.
+"Window. Small ones."
 
-Then she picked up a normal one.
+"Selling them?"
+
+"Sometimes."
+
+"And your brother?"
+
+"Cuts frames."
+
+There was the actual problem.
+
+Not a ruler argument.
+
+Two people making parts that had to fit.
+
+"Do the screens fit his frames?"
+
+"Some."
+
+"Some don't?"
+
+"Last three too narrow."
+
+"By how much?"
+
+She held her fingers apart.
+
+About the width of a fingernail.
+
+Maybe.
+
+Finger measurements were excellent until money entered the room.
+
+"Did you measure the same opening?"
 
 "Yes."
 
-She gave me one copper.
-
-Fourth.
-
-I did not feel triumphant.
-
-I felt alert.
-
-That was probably healthier.
-
-I set the coin apart from the cups.
-
-"Do you want me to write what we saw?"
-
-Miri looked at the scrap strip.
-
-"For me?"
-
-"If Pellin reads."
-
-"He reads."
-
-I turned the strip over.
-
-The old account writing covered most of that side.
-
-Not useful.
-
-I looked upstairs.
-
-Three clean sheets.
-
-No.
-
-Then I looked at the third scrap strip with the grease mark.
-
-I brought it down.
-
-On the blank side I wrote slowly enough to be legible:
-
-`SIX COOL CUPS BOUGHT TOGETHER.`
-
-`ONE DOES NOT COOL LIKE THE OTHERS.`
-
-`LOW GROOVE MOSTLY EMPTY. REMAINING PALE FLECK LOOSE.`
-
-`ONE NORMAL CUP HAS PALE FILL IN LOW GROOVE.`
-
-`COMPARE BEFORE REPAIR.`
-
-I stopped.
-
-"Do you want my name?"
-
-Miri considered.
+"With both rules?"
 
 "No."
 
-I respected that deeply.
+I looked at Cala.
 
-I handed her the strip.
+She was sorting beans very carefully now, which meant she was listening to everything.
 
-"This doesn't say Pellin caused it."
+"Where is your brother?"
 
-"I know."
+"Working."
 
-"It doesn't say the missing fill definitely causes the problem."
+"Where?"
 
-"I know."
+"Two lanes over."
 
-"It says what we saw."
+"Does he have his rule?"
+
+"Probably."
+
+"Do you have a screen or frame that didn't fit?"
+
+The woman looked toward the gate.
+
+"At home."
+
+I considered the scope.
+
+I had two private client copper because twice now somebody had paid me for bounded work. I also had a growing ability to accidentally spend half a day proving that sticks existed.
+
+"What do you want from me?" I asked.
+
+"Tell me which rule is wrong."
+
+"I may not be able to."
+
+"Then tell me why the screens don't fit."
+
+"That is a bigger job."
+
+She narrowed her eyes.
+
+Good.
+
+We had reached the part where words mattered.
+
+"How much?" she asked.
+
+Cala's hands stopped for half a second.
+
+Mine did too.
+
+Price before work.
+
+Even if price was zero.
+
+Especially if I wanted the work because the problem was interesting.
+
+"For comparing the two rules and one bad screen to one frame, one copper if I can give you a useful answer. Nothing if all I can tell you is that I don't know."
+
+The woman stared at me.
+
+"One copper?"
+
+"Yes."
+
+"For looking?"
+
+"For comparing the rules, the screen, and the frame. Not for remaking anything. Not for measuring every window."
+
+"And if you're wrong?"
+
+"Then you shouldn't pay me."
+
+That was not a complete business policy.
+
+It was what I could defend today.
+
+She looked at Cala.
+
+"He always talk this much?"
+
+"More."
+
+"Traitor."
+
+Cala resumed sorting beans.
+
+The woman thought for another moment.
+
+"Fine."
+
+"Fine one copper?"
+
+"Fine."
+
+"If useful."
+
+"Yes."
+
+I nodded.
+
+"Then I need my rule."
+
+I went upstairs.
+
+My measuring stick lived beside the wall near the table, which was exactly where I had left it after the last time I convinced myself organization was a permanent personality change.
+
+I also took a charcoal nub and one of the older scraps already written on. Not a clean household sheet.
+
+Growth again.
+
+When I returned, the woman had introduced herself to nobody because apparently I was expected to ask.
+
+"What's your name?"
+
+"Nara."
 
 "Greg."
 
-"Yes?"
+"I know."
 
-"Stop."
+Of course she did.
 
-"Understood."
+Carrow continued to maintain records without my consent.
 
-She packed the cups carefully, putting the bad one at one end and the comparison cup beside it. The very-cold cup stayed with the other three.
+We left Cala with the beans.
 
-She took the note.
+Nara walked at a pace that was almost comfortable for me, then remembered she was going somewhere and sped up. I let her get ahead. She noticed after half a lane and slowed without apologizing.
 
-At the gate she turned back.
+Better than apology.
 
-"Nara say you annoying."
+The chaffers were nearly absent. I saw two on a sunny wall and one dark bird checking yesterday's hunting route with diminishing returns.
 
-"That was not included in her testimonial."
+Nara did not look up.
 
-"She say useful too."
+Her brother worked in an open-front space between a basket repairer and a seller of lamp oil. The shop was barely a shop. A roof, a bench, a rack of narrow wood strips, and a man with a saw.
 
-Then Miri left.
+He was younger than Nara by several years and built like someone who had spent those years carrying timber instead of arguing about rulers.
 
-I stood in the courtyard holding the fourth copper.
+"No," he said when he saw us.
 
-Cala came out.
+Nara stopped.
 
-"Paid."
+"I didn't say anything."
 
-"Yes."
+"You brought ruler man."
 
-"Four."
+I looked behind me.
 
-"Apparently everybody is tracking my finances now."
+"I hope there is another one."
 
-"You leave coins on table."
+He put the saw down.
 
-"In my room."
+"My rule is fine."
 
-"Lyssa sees."
+"Excellent," I said. "Then this will be quick."
 
-"That is not everybody."
+Nara smiled.
 
-Cala went back to the kitchen.
+He did not.
 
-I climbed upstairs and put the new copper beside the other three.
+"Daro," she said, "give him yours."
 
-Four coins made a square if arranged properly.
+"Why?"
 
-I arranged them properly.
+"Because three screens are wrong."
 
-Then immediately hated what that did to my brain.
+"Your screens are wrong."
 
-I scattered them.
+"That's why he's here."
 
-The first scrap strip still held carrying-light notes.
+Daro looked at my crutches, then at the measuring stick under my arm.
 
-The second now held cup notes on one side.
-
-The third was gone with Miri.
-
-I had one blankish scrap left if I counted the unused space around the grease mark on the remaining strip.
-
-I wrote one line beneath the cup observations:
-
-`USEFUL NEXT STEP CAN BE ENOUGH.`
-
-Then I stared at it.
-
-Too universal.
-
-I added:
-
-`FOR THIS JOB.`
-
-Better.
-
-Lyssa came home after sunset.
-
-She put her bag down, washed her hands, and saw the four coins.
-
-"Four."
-
-"Cala has corrupted you."
-
-"Who?"
-
-"Miri. Cooling cups."
-
-Lyssa looked at me.
-
-"Miri green scarf?"
-
-"Yes."
-
-"Sells soap."
-
-"I thought herbs."
-
-"Soap. Sometimes herbs."
-
-Vindicated by complexity.
-
-"One cup didn't cool. The lower groove looked like it had lost its pale fill. I didn't tell her that caused it."
-
-"Good."
-
-"I gave her a next step."
-
-"Pellin?"
-
-I stared.
-
-"You know Pellin?"
-
-"Kiln."
-
-"Everybody knows everything except me."
+"You a carpenter?"
 
 "No."
 
-"Thank you for the comfort."
+"Screen maker?"
 
-She picked up my scrap strip.
+"No."
 
-"Compare before repair."
+"Then what?"
 
-"That note went with Miri. This is my version."
+"Available."
 
-She read the line at the bottom.
+Nara laughed.
 
-"Useful next step can be enough. For this job."
+Daro did not.
 
-"I am becoming cautious."
+I added, "She is paying me to compare the two rules and one failed screen to one frame. That's all."
 
-"Old."
+"Paying?"
 
-"Nineteen."
+"If I give her a useful answer."
 
-"Very old."
+That made him look at Nara instead.
 
-I pointed at the four copper.
-
-"This is becoming something."
-
-Lyssa looked at the coins.
-
-"Money."
-
-"Yes, technically."
-
-"Four money."
-
-"I mean the pattern. People are asking me to look at bounded problems."
-
-She sat on the bed.
-
-"Nara tell Miri."
-
-"Yes."
-
-"Miri tell someone."
-
-That possibility sat there.
-
-I did not like how much I liked it.
+"You paying him?"
 
 "Maybe."
 
-Lyssa nodded.
+"You won't pay me for fixing them."
 
-"Then price before."
+"Because you say they don't need fixing."
 
-"I did."
+There was history here.
+
+I wanted none of it.
+
+"Rules," I said.
+
+Daro took his from a peg and handed it over.
+
+His was thicker than Nara's and older, with the same style of burned marks. Every fifth mark longer. No numbers.
+
+I put the two rules side by side on his bench.
+
+Their ends matched.
+
+For the first third, the marks looked nearly aligned.
+
+Then they began to drift.
+
+By the far end, Nara's final mark sat visibly short of Daro's.
+
+Not much.
+
+Enough.
+
+Nara leaned over.
+
+"See?"
+
+Daro said, "Hers is bad."
+
+"Maybe," I said.
+
+Both of them looked at me with identical irritation.
+
+Family resemblance established.
+
+I laid my own measuring stick beside theirs.
+
+My marks aligned more closely with Daro's than Nara's.
+
+That did not make Daro's holy.
+
+It made two sticks agree better than the third.
+
+I checked the starting ends again.
+
+Then I reversed Nara's rule.
+
+"Why turn it?" Daro asked.
+
+"Because I want to see whether the end is the problem or the spacing."
+
+It was the spacing.
+
+The first marks were close. The drift accumulated gradually.
+
+I ran a finger above the burned lines without touching them.
+
+"How was this made?"
+
+Nara shrugged.
+
+"Bought it."
+
+"From who?"
+
+"Market."
+
+"When?"
+
+"Last year."
+
+"Did it always disagree?"
+
+"Didn't know."
+
+"What did you use before?"
+
+"String."
+
+That was important.
+
+"And the bad screens started when?"
+
+She thought.
+
+"Not when I bought this. Later."
+
+Daro folded his arms.
+
+"Because she cuts sloppy."
+
+Nara said something about his face that was not relevant to measurement.
+
+I waited.
+
+They finished.
+
+"One failed screen," I said.
+
+Nara's home was another half lane away, up one short exterior stair.
+
+That created a problem.
+
+Not an impossible one. Four stone steps, broad enough, dry.
+
+Nara started up, then looked back.
+
+"You can?"
+
+"Yes. Just slower."
+
+She waited at the top without offering a hand I could not use.
+
+Also better than apology.
+
+Her room smelled like dry reeds and boiled grain. Three finished screens leaned against one wall, each a light wooden rectangle with pale reed lattice tied inside.
+
+She pointed to the narrowest.
+
+"That one."
+
+We did not carry it back.
+
+I looked at the stairs, looked at the screen, and decided my one-copper scope did not include becoming freight.
+
+Nara carried it.
+
+Back at Daro's shop, he had found a frame section from one of the failed orders. Not a whole window frame. Four joined pieces, small enough to sit on the bench.
+
+"Same size as the others," he said.
+
+"Measured with yours?"
+
+"Yes."
+
+Nara set the screen over it.
+
+Too narrow.
+
+Not by much.
+
+A gap ran along one side, close to the width she had shown with her fingers.
+
+I checked the screen width with Nara's rule.
+
+It matched the size she said she intended.
+
+I checked it with Daro's.
+
+Short.
+
+I checked it with mine.
+
+Also short, close to Daro's reading.
+
+That looked simple.
+
+Simple was dangerous.
+
+"How do you mark your reed frame before cutting?" I asked Nara.
+
+"Measure top. Mark. Cut."
+
+"With this rule?"
+
+"Yes."
+
+"Do you start at the end?"
+
+"Yes."
+
+"Show me."
+
+She looked annoyed but took a spare thin strip from Daro's rack.
+
+She set her rule against it, marked a length, moved the rule, marked another.
+
+I watched her hand.
+
+The rule itself did not slip.
+
+Her marks were clean.
+
+Daro said, "See? Short rule."
+
+"Probably."
+
+"Probably?"
+
+"My rule agrees with yours better. That tells me hers is the odd one here. It doesn't tell me why."
+
+I looked more closely at Nara's slat.
+
+The wood was pale except near one end, where the grain darkened and curved.
+
+Not burned.
+
+Warped?
+
+I set it flat on the bench.
+
+One corner lifted slightly.
+
+Nara pressed it down.
+
+"That's nothing."
+
+"Maybe."
+
+Daro made an irritated sound.
+
+I ignored him.
+
+The marks were burned into the edge. If the rule had warped after marking, the distance along the wood would not shrink enough to explain this unless the distortion was much worse.
+
+I knew enough geometry to become dangerous and not enough woodworking to become correct.
+
+"Daro, do you have a straight strip you haven't cut?"
+
+He handed me one.
+
+I aligned Nara's rule against it and transferred every fifth mark with charcoal.
+
+Then I aligned Daro's rule from the same starting point and marked again.
+
+The drift repeated.
+
+"The marks are spaced differently," I said.
+
+Nara crossed her arms.
+
+"So mine wrong."
+
+"Compared with his and mine, yes."
+
+"You said you couldn't know."
+
+"I said I couldn't know from one stick. Now I have three and a failed piece."
+
+Daro tapped his rule.
+
+"Mine right."
+
+"Yours agrees with mine."
+
+"Same thing."
+
+"No."
+
+He looked at Nara.
+
+"Why did you bring him?"
+
+"Because he says no to you too."
+
+That was apparently worth one copper by itself.
+
+I looked at the screen again.
+
+"But this still doesn't explain why the problem started later if you've had the rule a year."
+
+Nara's expression changed.
+
+Not much.
+
+Enough.
+
+"What?" I asked.
+
+"I didn't use it for frames at first."
+
+"What did you use it for?"
+
+"Reed lengths."
+
+"And frames?"
+
+"String from Daro's pattern."
+
+Daro closed his eyes.
+
+"You stopped using the pattern string."
+
+"It broke."
+
+"I gave you another."
+
+"Too long."
+
+"It was the right length."
+
+"It was dirty."
+
+I held up a hand.
+
+"Please don't make me price family mediation separately."
+
+Nara laughed despite herself.
+
+Daro rubbed his face.
+
+There it was.
+
+The bad screens had not begun when the bad rule entered her life. They had begun when the bad rule changed jobs.
+
+That mattered more than the origin of the bad markings.
+
+"Do you need to know why this rule is short," I asked, "or do you need screens that fit?"
+
+Nara looked at the failed screen.
+
+"Fit."
+
+"Then stop using this rule for frame width. Use Daro's pattern string, or make a new fixed pattern from a frame you both agree fits."
+
+Daro said, "I told her."
+
+"You told her her rule was wrong."
+
+"It is."
+
+"That is not the same instruction."
+
+He opened his mouth.
+
+Closed it.
+
+Nara looked pleased.
+
+I pointed at her.
+
+"Do not enjoy this too much. Your rule is still the odd one."
+
+She stopped looking pleased.
+
+Balance restored.
+
+"Can I fix it?" she asked.
+
+"The rule?"
+
+"Yes."
+
+"Maybe by remarking it against a standard you trust, but then you'd need to know which standard you trust and whether the old marks will confuse you. Easier answer is don't use it where accumulated error matters."
+
+"Accumulated?"
+
+I put the three rules together again.
+
+"Each little space is only a little short. One mark, you barely care. Twenty marks, the difference adds up."
+
+She watched the growing drift.
+
+"So small wrong becomes big wrong."
+
+"Over enough repeats, yes. Here."
+
+I stopped myself before turning that into philosophy.
+
+Daro did it for me.
+
+"Like her."
+
+Nara hit him with a reed bundle.
+
+The bundle broke.
+
+Not the reeds.
+
+The dark string around them snapped, and pale lengths spilled across the shop floor.
+
+Daro stared at her.
+
+Nara stared at the reeds.
+
+I looked at both of them.
+
+"My scope has ended."
+
+Daro laughed for the first time.
+
+We picked up reeds anyway.
+
+Free work.
+
+I noted the violation internally and decided civilization would survive.
+
+Nara retied the bundle with a scrap from her basket.
+
+Then she reached into her purse and held out a copper.
+
+I did not take it immediately.
+
+"Useful answer?"
+
+"Yes."
+
+"You understand I did not prove his rule is universally correct."
+
+"Greg."
+
+"Right."
+
+I took the copper.
+
+Third private client copper.
+
+That felt different from the first two.
+
+Not because copper had changed.
+
+Because I had named the work before doing it, limited the scope, admitted what I could not prove, and still produced something useful enough that the client paid without being chased.
+
+Daro picked up his saw.
+
+"How much to tell her I'm right next time?"
+
+"More than you have."
+
+Nara said, "He cheap."
+
+"Then impossible."
+
+I left before the family business expanded.
+
+Outside, the lane had returned almost completely to ordinary life.
+
+One chaffer sat on the warm wall above the lamp-oil seller.
+
+A dark bird dropped toward it.
+
+The insect flew first.
+
+The bird missed.
+
+No lesson.
+
+Sometimes lunch escaped.
+
+I went home with one new copper and no desire to buy thirty sheets of damaged paper.
+
+This was progress.
+
+Cala was still in the courtyard.
+
+The bean bowl was gone. Tavi's tile boat had acquired three more masts.
+
+"Fast?" I asked.
+
+"Very."
+
+"Dangerous."
+
+Cala looked at my hand.
+
+I had apparently been holding the copper visibly.
+
+"Paid?"
+
+"Yes."
 
 "Good."
 
-"You could say I'm building a reputation."
+"One copper."
 
-"Annoying."
+"I didn't ask."
 
-"Useful and annoying. Apparently."
+"I wanted somebody to."
 
-"Good reputation."
+She smiled.
 
-I laughed.
+"Lyssa will."
 
-Then I looked at the four copper again.
+That was true.
 
-The first three had felt like proof that separate things could happen more than once.
+Upstairs, I put the new copper with the other two.
 
-The fourth felt different.
+Three.
 
-Not because it was more money.
+I did not stack them dramatically.
 
-Because Nara had said my name when I wasn't there.
+I stacked them normally.
 
-That was a route.
+Then I moved them apart because three coins in a tower looked like I was trying too hard.
 
-Not a business.
+The horse paper was still under the salt jar.
 
-Not yet.
+I turned it over.
 
-A route.
+The chaffer notes occupied one corner. The bulk-paper notes occupied another.
 
-I did not write that down.
+There was enough blank space left to write one more line.
 
-Some things became dangerous when given capital letters too early.
+`TOOLS CAN AGREE AND STILL NOT BE TRUE.`
 
-Before bed, I checked the right shoe, leaned both crutches where I could reach them, and put the remaining scrap under the salt jar with the horse page.
+I stared at it.
 
-Four copper stayed on the table.
+Too broad.
 
-Three clean sheets stayed clean.
+Also irritating.
 
-Downstairs, the jar with the red thread remained closed.
+I crossed out `TRUE` and wrote:
 
-Tavi had obeyed the system.
+`RIGHT.`
 
-That might have been the most reliable magic I saw all day.
+Worse.
+
+I crossed out the whole sentence.
+
+What had actually mattered today was simpler.
+
+I wrote:
+
+`COMPARE THE THINGS THAT HAVE TO FIT.`
+
+That was closer.
+
+Not universal law.
+
+Useful enough for me.
+
+Below it I added:
+
+`BAD RULE CHANGED JOB.`
+
+That looked ridiculous.
+
+I kept it.
+
+Lyssa came home before sunset carrying her work bag and a narrow wrapped packet under one arm.
+
+I looked at the packet once.
+
+Then at her face.
+
+She noticed.
+
+"Good."
+
+"What?"
+
+"You didn't ask."
+
+"I am becoming unbearable in new ways."
+
+She put the packet beside her bag without explaining it.
+
+Protected by ordinary relationship competence rather than mystery.
+
+Then she saw the coins.
+
+"Three?"
+
+Cala had been correct.
+
+"Three."
+
+"New one?"
+
+"I diagnosed a ruler dispute."
+
+Lyssa sat down.
+
+"Who won?"
+
+"Nobody."
+
+"Then bad diagnosis."
+
+"Nara's rule was short. Daro's agreed with mine."
+
+"Daro?"
+
+"Her brother."
+
+"Then Daro won."
+
+"No."
+
+"He right?"
+
+"Locally."
+
+She stared at me.
+
+"I hate that word now."
+
+"You don't even know how I used it."
+
+"Still."
+
+I told her about the screen.
+
+Not every question.
+
+Not every mark.
+
+The useful shape.
+
+Nara had a measuring rule with slightly shorter spacing. It had not caused trouble while she used a pattern string for frame widths. The trouble began when the string broke and the short rule took over that job. Small differences accumulated across the width and produced screens too narrow for Daro's frames.
+
+Lyssa listened while removing thread from around one finger.
+
+When I finished, she said, "Why not measure frame?"
+
+I stopped.
+
+"We did."
+
+"Before make screen."
+
+"They thought they had."
+
+"No. Measure frame. Make screen to frame."
+
+I stared at her.
+
+She shrugged.
+
+"Customer want screen fit window."
+
+There it was.
+
+A seamstress's answer.
+
+Not a ruler answer.
+
+"That is offensively direct."
+
+"Yes."
+
+"Daro makes repeated frames. Nara makes repeated screens. They need a shared pattern so they don't have to bring every frame together every time."
+
+"Then shared pattern."
+
+"That was also my answer."
+
+"Good."
+
+I waited for more.
+
+There was no more.
+
+She opened her work bag and removed the folded gray measurement sheet from two days ago.
+
+The one she had taken from our five clean sheets.
+
+Three measurements were written at the top.
+
+Below them were two new lines and a small sketch I did not understand.
+
+She looked at it, looked at the wrapped packet, and then put the sheet back.
+
+Her work continued without becoming mine.
+
+"You paid?" she asked.
+
+"One copper."
+
+"You asked first?"
+
+"Yes."
+
+"Before work?"
+
+"Yes."
+
+She nodded.
+
+That was all.
+
+I had expected praise.
+
+Apparently adulthood did not issue certificates for remembering one's own rule.
+
+"You could be more impressed."
+
+"You got paid."
+
+"Yes."
+
+"That impressive part."
+
+Fair.
+
+She reached for the horse paper.
+
+"What this?"
+
+"Do not judge my notes."
+
+She read `COMPARE THE THINGS THAT HAVE TO FIT.`
+
+Then `BAD RULE CHANGED JOB.`
+
+Then the crossed-out sentence above them.
+
+"You write too much."
+
+"I am aware."
+
+She turned the page over.
+
+Seven-legged horse.
+
+"Fast horse."
+
+"Still?"
+
+"Very."
+
+I took the page back.
+
+Outside, the courtyard was quiet.
+
+No clicking.
+
+No hatch.
+
+No bird working the drain.
+
+Tomorrow the city would probably have some other ordinary problem.
+
+Tonight I had three copper, three clean household sheets, one increasingly abused horse page, and a rule that had earned money only after I refused to pretend it was more accurate than it was.
+
+That seemed like enough.

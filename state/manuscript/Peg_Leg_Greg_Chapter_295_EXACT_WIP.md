@@ -1,1041 +1,719 @@
 # CHAPTER 295
 
-## THE OPEN SEAT
+## THE SHADE LINE
 
-The first person to offer me a chair in Carrow did it because somebody else had abandoned it.
+The fish moved when the sun did.
 
-This felt appropriately municipal.
+I noticed because I was losing an argument with a bench.
 
-I had passed the soap stall, declined to buy soap we did not need, and continued west with no list in my bag and no particular reason to be going west.
+The bench was outside a tea stall near the east wall, low enough that sitting down required commitment and standing back up required either dignity or leverage. I had chosen leverage.
 
-That was unusual enough to feel suspicious.
+One crutch braced beside my right foot. One hand on the bench. Push through the right leg. Keep the left knee clear. Rise.
 
-Most of my recent walks had acquired purposes.
+A successful operation.
 
-Salt.
+Then I looked across the lane and saw six silver-backed fish leave a bright patch of water at exactly the same time.
 
-Paper.
+Not dramatic fish.
 
-A client.
+No teeth worth mentioning.
 
-A door question.
+No glow.
 
-Fish.
+No wings.
 
-A bag.
+They were swimming in a stone trough built along the wall beneath a public spout. I had passed it before. Water entered through a carved mouth at one end and escaped through a grated runnel at the other. People filled jars there. Horses drank from the lower basin when nobody objected.
 
-Soap.
+The fish belonged to the upper trough, apparently.
 
-Today I had nothing except two crutches, three copper at home, and the mild conviction that I should not return immediately just because nobody had assigned me a task.
+Sunlight had reached one end between two roofs.
 
-The lane widened near a cooper's yard.
+The fish had been in it.
 
-Four people sat around a square table under a patched awning.
+Then the line of light shifted half a handspan.
 
-Three of them were still sitting.
+All six crossed into shade.
 
-The fourth chair was empty.
+I watched.
 
-The man who had occupied it was halfway across the street, shouting at somebody unloading two barrels from a handcart.
+A seventh fish emerged from beneath the lip of the trough and joined them.
 
-"Not that one."
-
-The cart man shouted back, "Then mark them."
-
-"They are marked."
-
-"With what?"
-
-The seated woman nearest the empty chair picked up a little wooden piece from the table.
-
-"He's gone."
-
-Another player said, "He comes back."
-
-The first woman looked at the barrel argument.
-
-"He lives there now."
-
-The third player laughed.
-
-Then the woman looked at me.
-
-"You play bridges?"
-
-I stopped.
-
-"Sometimes."
-
-"Sit."
-
-There are invitations that require thought.
-
-This one involved a chair.
-
-I looked at the chair.
-
-Low back. Four legs. No obvious trap.
-
-I looked at the table.
-
-A shallow board had been cut into it.
-
-Six crossing lines ran from one side to the other with little square islands between them. Small dark and pale pieces sat on the lines.
-
-I knew the game.
-
-Broadly.
-
-"Short board?" I asked.
-
-The woman nodded.
-
-"Market board."
-
-That mattered.
-
-I had played long bridges in barracks and guild halls in my first life, usually while waiting for somebody more responsible to finish paperwork. The full board used nine crossings and took long enough for arguments to become historical.
-
-Six was civilized.
-
-"I know long."
-
-"Then lose short."
-
-"Strong recruitment."
-
-She kicked the empty chair toward me with one foot.
-
-I moved closer.
-
-The two crutches created the first problem.
-
-Not a serious one.
-
-There was no good place to lean them without putting one behind another player's chair or letting both fall under the table.
-
-The man opposite me reached down and shifted a little clay stand beside the table.
-
-Two grooves.
-
-Crutch width.
-
-He did not explain it.
-
-I set the crutches there.
-
-They stayed upright against the table edge.
-
-I looked at the stand.
-
-"Convenient."
-
-"Canes," he said.
-
-"Crutches today."
-
-He shrugged.
-
-The infrastructure accepted reclassification.
-
-I sat.
-
-Right foot planted.
-
-Left knee clear.
-
-The chair was high enough that standing later would not become a separate chapter.
-
-Good.
-
-The woman pushed three pale pieces toward me.
-
-"You're white."
-
-"They're tan."
-
-"White."
-
-"I accept local authority."
-
-The pieces were round, flat, and heavy for their size.
-
-Stone mixed with something metallic.
-
-Their undersides gave the faintest tack against the board when I set one down.
-
-Hold glaze.
-
-Ordinary game-table treatment. Enough grip that a bumped table or passing cart did not erase twenty minutes of poor decisions.
-
-I had played with waxed pieces, magnetic iron boards, little cling charms, even one ridiculous officers' set that announced illegal moves in a woman's disappointed voice.
-
-This table merely kept its pieces where people put them.
-
-The woman tapped the first crossing.
-
-"Bell side starts."
-
-I looked toward the street.
-
-There was, in fact, a small brass bell fixed to the awning post on my right.
-
-"Literal bell side."
-
-"Yes."
-
-"I admire clarity."
-
-The man across from me said, "Move."
-
-"Already?"
-
-"You sat."
-
-Apparently onboarding was complete.
-
-I moved one pale piece onto the first crossing.
-
-The woman immediately moved dark around it.
-
-The third player, a narrow man with flour on one sleeve, said, "Bad."
-
-"Thank you."
-
-"Very bad."
-
-"Your coaching structure is aggressive."
-
-The woman said, "Don't help."
-
-"I'm not."
-
-The flour man looked pleased with himself.
-
-There were four seats but only two colors.
-
-Short bridges was normally played in pairs.
-
-I looked at the pieces.
-
-The woman and flour man had dark.
-
-The quiet man across from me had pale.
-
-So he was my partner.
-
-He had not introduced himself.
-
-Neither had anyone else.
-
-The game continued.
-
-That was fine.
-
-My second move was less bad.
-
-My third was apparently offensive.
-
-My partner inhaled through his nose.
-
-"That bad?"
-
-"Mm."
-
-I moved my hand back.
-
-"Committed?"
-
-The woman slapped the table lightly.
-
-"Hand off. Moved."
-
-Ah.
-
-House rule.
-
-In most long-board games I knew, a piece was not committed until the next player touched theirs.
-
-Here, hand off meant done.
-
-"Good to know."
-
-"You said you know."
-
-"Long."
-
-"Short different."
-
-"At last, a city institution willing to admit regional variation."
-
-Nobody cared.
-
-The woman captured my piece.
-
-The flour man laughed.
-
-I liked them immediately.
-
-The barrel argument across the lane became louder.
-
-The missing fourth player was now pointing at a charcoal mark on one barrel.
-
-The cart man was pointing at a different charcoal mark.
-
-Neither had returned to the table.
-
-The woman glanced over once.
-
-"He's dead."
-
-"Probably not," I said.
-
-"Game dead."
-
-"That seems more likely."
-
-My partner moved.
-
-He played quietly and well.
-
-No wasted motion.
-
-He used the market board the way people use small kitchens, knowing exactly how much space existed without measuring it.
-
-The short board changed timing.
-
-On a long board, you could sacrifice an outer bridge early and rebuild through the middle.
-
-Here, losing one crossing narrowed everything immediately.
-
-I saw the difference three moves too late.
-
-The woman saw me see it.
-
-She smiled.
-
-"Long."
-
-"Yes."
-
-"Short now."
-
-"Painfully."
-
-We lost.
-
-Not badly.
-
-Badly enough.
-
-The flour man leaned back.
-
-"Again."
-
-I looked at the street.
-
-I had nowhere I needed to be.
-
-This remained strange.
-
-"Same teams?"
-
-The woman said, "No."
-
-She pointed at me.
-
-"With me."
-
-My former partner gave a small nod that might have been relief.
-
-We reset the pieces.
-
-The hold glaze made a soft clicking sound as each stone released from the board.
-
-No one polished the board.
-
-No one checked the little bell.
-
-No one explained why a cooper's lane had a public game table.
-
-It was simply there.
-
-A boy carrying a stack of hoops stopped long enough to watch the opening.
-
-The flour man said, "Go work."
-
-The boy said, "I am."
-
-"Watching not work."
-
-"Watching you lose."
-
-The flour man threatened him with a dark piece.
-
-The boy left laughing.
-
-Second game.
-
-I was on dark.
-
-The woman beside me said, "You open."
-
-"Why?"
-
-"New loses first. New opens second."
-
-Another house rule.
-
-"Does that help the new player?"
-
-"No."
-
-"Excellent."
-
-I opened more carefully.
-
-This time I treated the edges as expensive.
-
-The short board did not reward patience exactly.
-
-It punished pretending there was more board than there was.
-
-That I understood.
-
-The flour man tried the same early pressure the woman had used against me.
-
-I gave him the outer crossing.
-
-My partner made a sound.
-
-Not approval.
-
-Concern.
-
-"Wait," I said.
-
-She waited because her move came after mine and she had no legal alternative.
-
-Three turns later the middle opened.
-
-I took it.
-
-The woman slapped my shoulder once.
-
-"Long man learns."
-
-"Slowly."
-
-The quiet man opposite me moved a pale piece into a square I had assumed was closed.
-
-I frowned.
-
-"That's blocked."
-
-He pointed at the awning bell.
-
-The bell had moved.
-
-Not rung.
-
-Moved.
-
-A little vane above it had turned with the breeze, rotating the bell bracket half a notch toward the lane.
-
-The flour man said, "Bell line open."
-
-I looked at the board.
-
-Then at the bell.
-
-Then back at the board.
-
-"You're using the wind?"
-
-The woman said, "Bell side changes."
-
-I knew variants where a marked side changed after a capture count or after a player passed.
-
-I had never played one tied to an actual awning bell turning with the local breeze.
-
-Not magic.
-
-Not exactly.
-
-The bracket had a little blue balance bead near the pivot, common low-friction hardware, but the wind itself was doing the choosing.
-
-"How often?"
-
-The flour man said, "When bell turns."
-
-"Yes. I have penetrated that layer of the system."
-
-The woman laughed.
-
-My quiet former partner said, "Don't plan on bell."
-
-That was probably the entire strategic lesson.
-
-I had been planning on the bell.
-
-I stopped.
-
-The open line gave pale a route I had not accounted for.
-
-The flour man grinned.
-
-"Long."
-
-"Wind has personally betrayed me."
-
-"Wind doesn't know you."
-
-"That makes it worse."
-
-The game tightened.
-
-A cart rolled past close enough to shake the street.
-
-The pieces stayed put.
-
-One of my crutches vibrated in the clay stand but did not fall.
-
-The awning snapped once overhead.
-
-The bell turned back.
-
-A line closed.
-
-The woman beside me immediately changed direction.
-
-No complaint.
-
-No pause.
-
-She had not been waiting for the wind.
-
-She had been ready for either board.
-
-That was different.
-
-I followed.
-
-We won six moves later.
-
-Barely.
-
-The flour man accused the wind.
-
-I stared at him.
-
-"You just told me the wind doesn't know anyone."
-
-"It knows her."
-
-The woman said, "Because I pay."
-
-"How much does wind cost?"
-
-"More than you."
-
-The barrel man finally came back.
-
-He stood beside my chair.
-
-"You're sitting."
-
-"I was given strong legal title."
-
-"That's my chair."
-
-The woman said, "You died."
-
-"I was working."
-
-"Same."
-
-He looked at the board.
-
-"Who won?"
-
-"We did," I said.
-
-He looked at me.
-
-"Then move."
-
-Fair.
-
-I reached for the crutches.
-
-The quiet man lifted one from the clay stand and handed it to me without comment.
-
-I took it.
-
-Then the other.
-
-Right foot under.
-
-Push from the chair arm.
-
-Stand.
-
-The bag stayed tight against my left ribs.
-
-No collision.
-
-The barrel man took his chair back before I had fully stepped away.
-
-This should have felt rude.
-
-It did not.
-
-The seat had been open.
-
-Now it was not.
-
-Simple.
-
-I stood near the awning post while they reset.
-
-The woman looked at me.
-
-"Tomorrow?"
-
-The question surprised me more than it should have.
-
-Not an appointment.
-
-Her tone was too careless for that.
-
-Maybe invitation.
-
-Maybe habit.
-
-Maybe nothing.
-
-"I don't know."
-
-She nodded.
-
-"Then maybe."
-
-That was all.
-
-I almost asked their names.
-
-Then realized I had just spent most of an hour with them without needing names.
-
-The thought bothered me.
-
-Not because names did not matter.
-
-Because I had liked not needing a transaction before sharing space.
-
-Still, I pointed at the woman.
-
-"Greg."
-
-She looked at me.
-
-Then pointed at herself.
-
-"Vela."
-
-Flour sleeve said, "Orra."
-
-The quiet man said, "Demin."
-
-The barrel man, already studying the board, said, "Sot."
-
-There.
-
-Four names.
-
-No ceremony.
-
-Sot looked at my crutches.
-
-Not at the missing lower leg.
-
-At the crutches.
-
-"Where you stay?"
-
-"Narrow court east of here. Cala's place."
-
-Vela snapped her fingers.
-
-"Cala."
-
-There it was again.
-
-I sighed.
-
-"Yes. Cala."
-
-"You upstairs?"
-
-"Yes."
-
-"Lyssa there?"
-
-"Yes."
-
-Orra pointed a dark piece at me.
-
-"Then I've seen you."
-
-"Doing what?"
-
-"Walking."
-
-I waited.
-
-That was apparently the whole sighting.
-
-"Damning."
-
-Demin said, "You talk more sitting."
-
-"I have more breath sitting."
-
-That earned the smallest smile I had seen from him.
-
-Nobody asked what happened to my leg.
-
-Nobody asked whether the crutches were permanent.
-
-Nobody asked what work I did, what rank I held, who I had been, or why a nineteen-year-old spoke like a tired clerk whenever somebody mentioned prices.
-
-They had asked whether I knew bridges.
-
-That had been enough to get me into the chair.
-
-I had spent years in my first life entering rooms through titles.
-
-Rank.
-
-Class.
-
-Contract.
-
-Guild standing.
-
-Danger handled.
-
-Person vouched for.
-
-A seat at a street table required considerably less paperwork.
-
-Vela tapped the board.
-
-"Long board slow."
-
-"Long board has dignity."
-
-"Slow."
-
-"It has strategic depth."
-
-"Slow."
-
-Orra said, "Old people play long."
+The tea seller said, "You buying tea?"
 
 I looked at him.
 
-"How old are you?"
+"This question follows me."
 
-"Not old."
+"Tea?"
 
-"Compelling defense."
+I had household money today.
 
-Demin moved one pale piece back into the box.
+One bit, specifically, because Cala had sent me for salt and had given me enough for salt plus whatever small uncertainty lived between our house and the salt seller.
 
-"Long is good in rain."
+I was not spending her uncertainty on tea.
 
-That was the first positive thing anybody had said about my version.
+"No."
 
-"Thank you."
+"Then don't block bench."
 
-"Because nobody wants leave."
+I had already stood up.
 
-Vela laughed hard enough to slap the table.
+"I have defeated your bench and will trouble you no further."
 
-I accepted defeat.
+He ignored me.
 
-I nodded.
+The fish moved again.
 
-"Good game."
+Not with the light this time.
 
-Orra said, "You lost one."
+A woman approached the spout carrying two narrow-necked jars. Before she reached the trough, the fish slid toward the grated end and held there.
 
-"And won one."
+She filled both jars.
 
-"One-one."
+Water splashed from one rim.
 
-"That is how numbers work."
+The fish stayed away from the disturbance.
 
-Vela waved me away.
+When she left, they spread out again.
 
-"Go."
+Ordinary behavior.
 
-I went.
+Maybe.
 
-For half a street I expected the hour to turn into something else.
+I knew trough fish. Cities used them for several reasons. Mosquito larvae. Algae. Insect control. Water quality. Decoration. Luck, depending on how much the ward clerk hated budgets and loved grandmothers.
 
-A job lead.
+Some places used magically sensitive species as crude warning systems.
 
-A favor.
+These did not look like any famous warning fish I knew.
 
-A message.
+That meant almost nothing.
 
-A client.
+I did not know every fish.
 
-A reason the game mattered beyond itself.
+I went to buy salt.
 
-Nothing happened.
+The salt seller measured a small household packet into brown paper, folded it twice, and tied it with a fiber twist.
 
-A woman argued over cabbage.
+"One bit."
 
-A mason carried three lengths of pale rod over one shoulder.
+I gave her the bit.
 
-Two little children chased a paper spinner that kept lifting half a foot off the ground whenever it crossed the warm air above a bakery vent.
+There went the entire expedition budget.
 
-I knew that trick too.
+Good.
 
-Folded heat fins.
+I tucked the packet inside my shirt where both hands remained free for the crutches.
 
-No charm needed.
+On the way home, I passed the trough again.
 
-The spinner rose.
+The sunlight had moved farther across the stone.
 
-The children screamed.
+The fish were still in shade.
 
-It fell.
+A boy crouched beside the upper basin with a reed.
 
-They chased it again.
+He poked the water.
+
+The fish fled.
+
+An older man slapped the back of his head lightly.
+
+"Leave ward fish."
+
+The boy stood.
+
+"Didn't touch."
+
+"Reed touched."
+
+"Fish don't care."
+
+The fish had very clearly cared.
+
+The boy left under protest.
+
+Ward fish.
+
+That narrowed ownership more than biology.
 
 I kept walking.
 
-At home, Cala was scraping the softer part from the second red onion.
+At home, I gave Cala the salt.
 
-Not the soft onion from yesterday.
+"One bit."
 
-The other one.
+She nodded.
 
-Apparently time remained committed to vegetables.
-
-She looked at me.
-
-"No list?"
+"No change."
 
 "No."
 
 "Good."
 
-"I played bridges."
+"Your confidence in my accounting wounds me."
 
-That got more reaction than expected.
+She put the salt away.
 
-"Where?"
+Tavi had arranged three cups upside down in the courtyard and was moving a pebble between them.
 
-"Cooper lane. Short board under the patched awning."
+"Find."
 
-Cala nodded.
+"I know this game."
 
-"Vela."
+"Find."
 
-I stared.
+He moved the cups with both hands.
 
-"Of course you know Vela."
+Badly.
 
-"She loud."
+The pebble remained visible for most of the operation.
 
-"Accurate."
+Then he stopped.
 
-"Orra there?"
+I pointed to the middle cup.
 
-"Flour on sleeve?"
+He lifted the left one.
+
+Empty.
+
+"No."
+
+"That is not how evidence works."
+
+He lifted the middle cup.
+
+Pebble.
+
+He frowned at me.
+
+"Again."
+
+I sat on the courtyard step.
+
+"I saw fish today."
+
+Tavi moved the cups.
+
+"Fish."
+
+"Ward fish."
+
+"Big?"
+
+"Small."
+
+"Eat?"
+
+"Probably. Most fish consider it."
+
+"Eat Greg?"
+
+"Not unless I become significantly easier to portion."
+
+Cala looked over.
+
+"Silver fish?"
+
+That was enough to make me look at her.
+
+"Silver backs. Upper trough near east wall."
+
+"Shade fish."
+
+There it was.
+
+A local name.
+
+"They move out of sun?"
 
 "Yes."
 
-"Demin?"
+"Always?"
 
-"Quiet."
+Cala shrugged.
 
-"Yes."
+"Hot."
 
-I waited.
+Reasonable.
 
-"Sot?"
+"Ward keeps them?"
 
-Cala made a face.
+"Mm."
 
-"What?"
+"For insects?"
 
-"Cheats."
+"Some."
+
+"Anything else?"
+
+She pointed at the cups.
+
+"Play."
+
+Tavi had already moved them again.
+
+I chose the right cup.
+
+Wrong.
+
+He screamed with victory.
+
+My interrogation ended.
+
+That afternoon I went back to the east wall.
+
+Not for the fish.
+
+Entirely for the fish.
+
+I did not take a clean sheet.
+
+I did not take a jar.
+
+I did not take bait, a net, a cup, a specimen bag, or anything else that would turn looking into collecting.
+
+I took myself.
+
+This was enough equipment for most mistakes.
+
+The trough sat where I had left it, which was encouraging.
+
+The sun had crossed the lane. Almost the entire upper basin was shaded now.
+
+The fish were spread wider.
+
+Seven visible.
+
+Maybe more under the lip.
+
+I stood against the opposite wall where I was not blocking the spout.
+
+A woman filled a bucket.
+
+Fish moved away from the splash.
+
+A man rinsed dust from his hands in the lower basin, not the upper.
+
+A delivery girl let a narrow-faced mule drink below. The mule ignored the fish. The fish ignored the mule.
+
+Then something small struck the surface.
+
+A gnat, maybe.
+
+One fish snapped upward.
+
+Another followed too late.
+
+Insect control, at least in part.
+
+No revelation.
+
+A city trough containing insect-eating fish was not enough to earn a chapter.
+
+Unfortunately, I was already in the chapter.
+
+I watched longer.
+
+The interesting part was not that they preferred shade.
+
+The interesting part was where the shade came from.
+
+The trough had been built into a lane that received direct sun for part of the day. A narrow wooden slat projected from the wall above it, but the slat was too small to shade the whole basin.
+
+At its underside, a pale blue bead had been fixed near each end.
+
+Common sun-turn beads.
+
+Cheap versions showed up on market awnings, seed trays, cooling shelves, and windows where somebody wanted to reduce direct heat without building a permanent roof. They did not create darkness. They bent or softened a narrow band of direct light depending on angle and setting.
+
+These were old.
+
+One had gone cloudy.
+
+The other was clear.
+
+The shade line below them was crooked.
+
+Ah.
+
+Now I had a local question.
+
+Had the fish moved because they simply preferred cooler water, or because the shade system had drifted enough that their usable cool area had changed?
+
+Still not my system.
+
+Still not my fish.
+
+But the behavior and the infrastructure were interacting.
+
+That was worth watching.
+
+A woman in a blue-gray vest arrived carrying a short pole with a hook at one end.
+
+She did not look at me.
+
+She looked at the trough.
+
+Then at the slat.
+
+Then at the fish.
+
+Ward worker, probably.
+
+Not yesterday's ward crew. Different clothing. Different work.
+
+She set down a small leather satchel and touched the clear bead with the hook.
+
+The bead turned a fraction.
+
+The shade line moved.
+
+The fish moved with it.
+
+Not instantly.
+
+Within a few breaths.
+
+They drifted toward the broader shaded side.
+
+The woman watched them.
+
+Then she turned the cloudy bead.
+
+Nothing visible happened.
+
+She frowned.
+
+I remained quiet.
+
+She turned it farther.
+
+Still nothing.
+
+Then she tapped the bead with the wooden shaft.
+
+A weak blue flicker ran through it and died.
+
+"Dead?" I asked.
+
+She looked at me.
+
+"Weak."
+
+Fair correction.
+
+"Enough to matter?"
+
+She looked at the water.
+
+"Today? Some."
+
+"To the fish?"
+
+"To water. Fish follow water."
+
+Better.
+
+Not fish magic.
+
+At least not necessarily.
+
+"Heat?"
+
+"Heat, light, bugs, people."
+
+She gave the cloudy bead another small turn.
+
+"All together."
+
+I liked that answer because it refused to simplify the world for me.
+
+"Do you replace the bead?"
+
+"Not me."
+
+She opened the satchel and took out a narrow wax tablet.
+
+With a blunt stylus, she marked something.
+
+"You mark it for someone else?"
+
+"Mm."
+
+"Same as road mark? Seen, not scheduled?"
+
+She looked at me more closely.
+
+"Road crew?"
+
+"I watched one yesterday."
+
+"Different list."
+
+"Of course it is."
+
+She almost smiled.
+
+"Water list."
+
+That was all.
+
+No department lecture.
+
+No organizational chart.
+
+A water list existed.
+
+The worker crouched by the trough and held two fingers in the water near the shaded side.
+
+Then the bright side.
+
+No visible magic.
+
+Just touch.
+
+She stood.
+
+"Warm."
+
+"Too warm?"
+
+"Not yet."
+
+"How do you decide?"
+
+She pointed at the fish.
+
+"They tell."
+
+I looked at them.
+
+"By crowding shade?"
+
+"One thing."
+
+"What are the others?"
+
+She closed the satchel.
+
+"If you work water, learn water."
 
 I laughed.
 
-"He did not play while I was there."
+"I don't."
 
-"Still cheats."
+"Then shade enough."
 
-This was apparently a durable character assessment.
+There was the boundary.
 
-Lyssa came in from the courtyard carrying folded cloth.
+I respected it.
 
-"What?"
+She used the hook to adjust the clear bead one more fraction.
 
-"Greg play bridges."
+The softened shade widened across the middle of the trough.
 
-Lyssa looked at me.
+The fish spread.
 
-"You play?"
+Not evenly.
 
-"Long board, usually."
+More evenly.
 
-"Short?"
+She watched for perhaps half a minute.
 
-"Now."
+Then she picked up the satchel.
 
-"Win?"
+"Good?" I asked.
 
-"One."
+"For today."
 
-"Lose?"
+Not fixed.
 
-"One."
+Managed.
 
-She nodded.
+"Cloudy bead gets replaced later?"
 
-"Good."
+"If list says."
 
-"Why does everybody evaluate ordinary life like equipment?"
+"And the list says because you marked it."
 
-"Because good."
+"Maybe."
 
-There was no defeating her.
+Carrow's institutions remained philosophically opposed to certainty.
 
-Tavi appeared.
+She left.
 
-"Bridge."
+I stayed.
 
-"No bridge."
+The fish did not perform anything more interesting.
 
-"Fish?"
+That was useful too.
 
-"No fish."
+One took an insect.
 
-"Bag?"
+Two drifted under the stone lip.
 
-"Yes, the bag remains present."
+A woman filled a jar.
 
-He accepted this summary and left.
+The shade held.
 
-I went upstairs.
+The cloudy bead remained cloudy.
 
-Three copper remained where I had left them.
+The city continued functioning at a level best described as sufficient.
 
-The notes were in the bag.
+I went home before I could ruin it.
 
-The charcoal was in the bag.
+I did not write `SHADE FISH = HEAT SENSOR` because that would have been stronger than the evidence.
 
-Nothing had changed economically.
+I did not write `WARD USES FISH TO MONITOR WATER` because the worker had said fish were one thing among heat, light, bugs, and people.
 
-Nothing had changed magically.
+I wrote on the new scrap:
 
-Nothing had changed in my work.
+`EAST WALL UPPER TROUGH: SILVER-BACK "SHADE FISH." EAT SMALL INSECTS. MOVE WITH COOLER/SHADED WATER.`
 
-I had learned four names.
+Then:
 
-That felt like enough.
+`2 SUN-TURN BEADS ABOVE TROUGH. 1 CLEAR / WORKING. 1 CLOUDY / WEAK.`
 
-I wrote none of them down.
+Then:
 
-This was difficult.
+`WATER WORKER ADJUSTED WORKING BEAD. MARKED WEAK ONE ON WATER LIST. "FOR TODAY."`
 
-Not because I would forget them.
+I stared at the lines.
 
-Because writing had become my method for proving that something counted.
+There was a temptation to make them mean more.
 
-Price.
+I left them alone.
 
-Material.
+Lyssa came home while I was still looking at the scrap.
 
-Distance.
+She put a small wrapped piece of bread on the table beside me.
 
-Result.
+"Eat."
 
-What worked.
+"For me?"
 
-What failed.
+"No. For chair."
 
-Who paid.
+"The chair has been working hard."
 
-What remained uncertain.
+She pushed it closer.
 
-Vela, Orra, Demin, and Sot did not need to become a ledger.
+I ate.
 
-If I saw them again, I would remember.
+"What you write?"
 
-If I did not, the game had still happened.
+"Fish."
 
-I left the scrap alone.
+"Work?"
 
-The next day I passed Cooper Lane on my way nowhere important.
+"No."
 
-The patched awning was there.
+"Money?"
 
-The table was there.
+"No."
 
-The clay crutch stand was there.
+"Why fish?"
 
-All four seats were occupied.
+I thought about the answer.
 
-Vela had her back to me.
+"Because they moved when the shade moved."
 
-Orra was arguing.
+Lyssa waited.
 
-Demin was quiet.
+"And because the shade was partly made by two old beads, and one bead was weak, and a ward water worker adjusted the good one enough for today."
 
-Sot moved a piece and Vela slapped his hand.
+"Fish okay?"
 
-"Hand off."
+"Apparently."
 
-"Was off."
+"Then good."
 
-"Was not."
+She sat by the window with her own work.
 
-"Wind moved."
+That should have ended the subject.
 
-"The wind did not move your hand."
+Instead Tavi came upstairs holding one of the courtyard cups.
 
-I stopped long enough to laugh.
+"Fish."
 
-Vela looked over.
+There was no fish in the cup.
 
-"Greg."
+"That is a cup."
 
-"Vela."
+"Fish cup."
 
-No chair opened.
+"Still a cup."
 
-Nobody told me to wait.
+He put the pebble inside it.
 
-I did not.
+"Fish."
+
+"That is a rock pretending to be a fish."
+
+"Shade."
+
+He shoved the cup under the table.
+
+The pebble disappeared into shadow.
+
+I looked at him.
+
+He looked at me.
+
+"Fish good."
+
+I sighed.
+
+"Your model has severe limitations, but the broad result is acceptable."
+
+Lyssa laughed.
+
+The next morning, I passed the east-wall trough again because my route happened to take me there.
+
+That was true enough.
+
+The sun had not yet reached the water.
+
+The fish were spread through the basin.
+
+The cloudy bead was still there.
+
+No replacement crew.
+
+No crisis.
+
+No dead fish.
+
+No magical bloom.
+
+No secret warning.
+
+A boy filled a jar.
+
+One fish snapped at something near the surface.
 
 I kept walking.
 
-At the corner, the little brass bell turned in the breeze.
+There were systems in Carrow that failed loudly.
 
-Behind me, four people immediately started arguing about what that meant for the board.
+Doors caught crutches. Stones caught carts. Cups stopped cooling.
 
-I smiled.
+There were others that weakened by degrees and were managed before they became stories anybody else would tell.
 
-Carrow had not assigned me a role.
+A cloudy bead.
 
-It had done something smaller.
+A crooked shade line.
 
-It had made room for one game, then filled the chair again.
+Seven fish choosing the better water.
+
+A worker writing one mark on a tablet and saying, for today.
+
+Old Greg had known how to survive spectacular failures.
+
+This Greg was getting interested in the smaller sentence before them.
+
+Not danger.
+
+Not prophecy.
+
+Just something becoming slightly less good, and somebody noticing in time.

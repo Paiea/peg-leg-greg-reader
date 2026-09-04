@@ -6,7 +6,7 @@ Exact manuscript prose outranks this file.
 
 Earlier generic craft notes described a different Sera-shaped voice. Current exact manuscript evidence outranks that stale description.
 
-Current Sera is a Carrow local known around Greg's courtyard and, in Chapter 287, is seen tending a carrying-light run for the lane. Do not import a medical-professional voice onto her without separate manuscript proof.
+Current Sera is a Carrow local known around Greg's courtyard and, in Chapter 290, is seen tending a carrying-light run for the lane. Do not import a medical-professional voice onto her without separate manuscript proof.
 
 ## Core lens
 

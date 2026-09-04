@@ -1,1019 +1,941 @@
 # CHAPTER 273
 
-## THE WITNESS
+## THE WATCHMAN
 
-The morning after the water returned, somebody tried to pay me for seeing a cart hit a post.
+The job found me because a man wanted lunch.
 
-I had not seen the cart hit the post.
+This was more respectable than most systems of employment.
 
-This complicated negotiations.
+He caught me near the north fountain just before midday.
 
-The man found me outside Nerin's bakery.
+I had gone out for salt.
 
-I had gone there because we needed bread again and because the small dark loaves had survived our household better than the white ones from two streets over.
+Only salt.
 
-This was not loyalty.
+This mattered because leaving the house for one cheap thing had become one of the city's preferred methods of assigning me a second life.
 
-It was crumb management.
+The man stood beside a handcart with two high wooden sides and a canvas cover tied over the top.
 
-Nerin had two small dark loaves left.
+I knew his face from the lower market.
 
-I bought one.
+Not his name.
 
-Full price.
+He sold something involving jars.
 
-No errand.
+Or bought jars.
 
-No message for Mara.
+Possibly he was simply followed by jars professionally.
 
-No six becoming eight.
+"Greg?"
 
-A clean transaction.
+"Depends."
 
-I had almost escaped when a thin man in a green coat stepped sideways into my path.
+He looked at my crutches.
 
-"You Greg?"
+"Bronze Greg."
 
-I looked at him.
+"Less depends."
 
-"Depends what I witnessed."
+"You busy?"
 
-He blinked.
+I looked at the packet of salt in my coat pocket.
 
-I had guessed correctly too early.
+"Violently."
 
-"Cart at Lower Reed yesterday."
+He nodded toward the cart.
 
-"No."
+"Need someone sit with this half an hour."
 
-"You were there."
+"Why?"
 
-"Also no."
+"Lunch."
 
-"Near there."
-
-"That is a different sentence."
-
-He looked irritated.
-
-Good.
-
-I had been awake for less than two hours and already preferred bread.
-
-"Water cart," he said. "Hit the post by the dyer's lane."
-
-I thought back.
-
-Yesterday had contained several carts.
-
-Olan's low cart.
-
-Vela's soup cart.
-
-Other people's water carts at the cistern.
-
-I had not been at Lower Reed.
-
-"Didn't see it."
-
-"You were at the north draw."
-
-"Yes."
-
-"Same cart came through."
-
-"Maybe."
-
-"Blue sideboards."
-
-I remembered a handcart in line with six covered pots.
-
-Vela's.
-
-Not blue.
-
-Another with shoulder yokes nearby.
-
-No useful memory.
-
-"I don't know."
-
-The man lowered his voice.
-
-"Just need someone say it was overloaded."
-
-There it was.
-
-"Was it?"
-
-"Obviously."
-
-"Did you see it?"
-
-"After."
-
-"Then you can say that."
-
-He reached into his coat.
-
-I looked at his hand.
-
-Not frightened.
-
-Interested.
-
-He produced two copper coins.
-
-"For your time."
-
-"My time doing what?"
-
-"Answering a clerk."
-
-"With what answer?"
-
-"Cart was overloaded when it left the cistern."
-
-I looked at the coins.
-
-Two copper was not much.
-
-That made it worse in a specific way.
-
-He did not think he was buying a dangerous lie.
-
-He thought he was buying convenience.
-
-"I don't know that."
-
-"You saw the carts."
-
-"I saw carts."
-
-"Blue one."
-
-"I don't remember a blue one."
-
-"You will when they ask."
-
-"No."
-
-He stared at me.
-
-"No?"
-
-"No."
-
-"You don't have to swear anything."
-
-"Then you don't need me."
-
-I moved around him.
-
-He caught my sleeve.
-
-Not hard.
-
-A mistake anyway.
-
-I stopped.
-
-Looked down at his hand.
-
-He let go.
-
-"Just trying to settle damage," he said.
-
-"Then settle damage."
-
-"Driver says post was already cracked."
-
-"Maybe it was."
-
-"It wasn't."
-
-"Then say that if you know it."
-
-"Need someone from the draw."
-
-"Find someone who saw the cart."
-
-I walked away.
-
-The bread remained under my arm.
-
-My right shoe remained attached.
-
-My heart had sped up a little.
-
-Not danger.
-
-Annoyance with a body component.
-
-I crossed one street before checking behind me.
-
-Green Coat had not followed.
-
-Good.
-
-I went home.
-
-Lyssa was still there.
-
-That was unusual enough to make me stop in the doorway.
-
-She sat at the table with the pale work in front of her.
-
-Finally visible again.
-
-It had become a narrow folded length with small pale buttons along one edge.
-
-Not six separate wraps.
-
-Not obviously anything I could name.
-
-I put the bread down.
-
-"You are here."
-
-"Sharp."
-
-"Work later?"
-
-"Yes."
-
-I looked at the pale piece.
-
-Then deliberately looked away.
-
-Lyssa noticed.
-
-"You can ask what this is."
-
-I turned back.
-
-"Can I?"
-
-"Yes."
-
-This felt like a trap created by months of restraint.
+Excellent.
 
 "What is it?"
 
-"Collar facing."
+"Jars."
 
-I stared.
+I had been right.
 
-"That is less exciting than every theory I refused to have."
+"What's in the jars?"
 
-"Good."
+"Preserves."
 
-"For what?"
+"What kind?"
 
-"Coat."
+"Do you want the work?"
 
-"Whose?"
+"I want to know whether the cart explodes."
 
-Lyssa looked at me.
+"Plum. Pear. Pepper. Two onion."
 
-"You got one question."
+"No explosion?"
 
-"Cruel."
+"Not unless you eat the pepper."
 
-She smiled.
+He named a small amount.
 
-The pale work was a collar facing.
+Not theatre pay.
 
-That resolved exactly one thing and created almost nothing.
+Not Guild pay.
 
-Beautiful.
+Half an hour of sitting money.
 
-"Man tried to buy me outside Nerin's," I said.
+I looked at the cart.
 
-Lyssa's hands stopped.
+"What am I doing?"
 
-Not dramatically.
+"Don't let anyone take jars. If Tolan comes, he can take the blue crate. If my sister comes, tell her I went to eat."
 
-Enough.
+"Who is your sister?"
 
-"Who?"
+"Nessa."
 
-"Don't know. Green coat. Thin. Wanted me to tell a clerk a blue-sided water cart was overloaded when it left the north cistern yesterday."
+"Who is Tolan?"
 
-"Was it?"
+"Tall. Missing two front teeth. Blue cap."
 
-"I don't know. I don't remember the cart."
+"Could describe half the market after winter."
 
-"Why you?"
+"He'll say blue crate."
 
-"Because I was at the cistern. Apparently proximity is testimony."
+"Better."
 
-"How much?"
+The man held out his hand.
 
-"Two copper."
-
-Lyssa's mouth tightened.
-
-"You take?"
-
-"No."
-
-"He touch you?"
-
-I paused.
-
-"Sleeve. Briefly. Let go when I looked at him."
-
-She set the pale piece down.
+"Orin."
 
 "Greg."
 
-"I'm fine."
-
 "I know."
 
-That was not what she meant.
+Of course.
 
-I sat.
+"Where are you eating?"
 
-"Do you know a cart dispute?"
+"There."
 
-"No."
+He pointed across the street at a cookstall.
 
-"Lower Reed, dyer's lane, post damage. Driver says post was cracked already. Green Coat says it wasn't."
+I stared at him.
 
-"Could be nothing."
+"You are paying me because your lunch is thirty steps away?"
 
-"Probably is."
+"Cart can't go in."
 
-Lyssa looked at me.
+"You can see it from there."
 
-"Probably."
+"Not from the back bench."
 
-The word stayed between us.
+"Sit at the front."
 
-Not because this resembled Bren.
+"Full."
 
-It did not.
-
-Wrong coat color.
-
-Wrong face.
-
-Wrong subject.
-
-Wrong scale.
-
-No reason to connect it to Vale, Mason's Cut, theatre money, deliveries, or any of the older pressure.
-
-A dishonest man could simply be dishonest without joining the grand conspiracy I did not have evidence for.
-
-"I'm not making it Bren," I said.
-
-"Good."
-
-"Or Vale."
-
-"Good."
-
-"Or brown coat."
-
-"Green."
-
-"Very green."
-
-"Then don't."
-
-"I won't."
-
-Lyssa returned to the collar facing.
-
-I cut bread.
-
-The morning could have ended there.
-
-It did not.
-
-A knock came before midday.
-
-Two firm knocks.
-
-Then one.
-
-I looked at Lyssa.
-
-She looked at me.
-
-"Not Hessa," I said.
-
-"You know knocks now?"
-
-"I know Hessa sends children who ask for extra coin."
-
-I opened the door.
-
-A woman stood outside wearing a dark blue tabard over ordinary clothes.
-
-No weapon.
-
-No Guild mark I recognized.
-
-She held a thin board with papers clipped under cord.
-
-Behind her stood Olan.
-
-He looked apologetic.
-
-"Greg," he said.
-
-"Olan."
-
-The woman said, "You were at north cistern yesterday?"
-
-I looked at Olan.
-
-"Did the whole city decide this?"
-
-"Maris told me you went first."
-
-Of course she did.
-
-The woman held out the board slightly.
-
-"I'm Senn. Lane assessor's office. Cart struck a boundary post at Lower Reed during water hauling yesterday. I'm collecting accounts from people who may have seen the cart before impact."
-
-I laughed once.
-
-Not because it was funny.
-
-Because Green Coat had been fast.
-
-Senn watched me.
-
-"Something?"
-
-"A man in a green coat offered me two copper this morning to tell a clerk the blue-sided cart was overloaded when it left the cistern."
-
-Olan swore.
-
-Senn did not.
-
-Her face became quieter.
-
-"Did you take it?"
-
-"No."
-
-"Do you know him?"
-
-"No."
-
-"Description?"
-
-I gave it.
-
-Thin.
-
-Green coat.
-
-Brown hair cut close around the ears.
-
-Maybe thirty.
-
-Maybe older.
-
-No beard.
-
-Long nose.
-
-No visible mark.
-
-Two copper offered.
-
-Caught my sleeve once, released immediately.
-
-Senn wrote.
-
-"What exactly did he ask you to say?"
-
-I repeated it as closely as I could.
-
-Cart was overloaded when it left the cistern.
-
-Driver says post was already cracked.
-
-Need someone from the draw.
-
-You will remember when they ask.
-
-Senn wrote all of that.
-
-"Did he name the driver?"
-
-"No."
-
-"Owner?"
-
-"No."
-
-"Clerk?"
-
-"No."
-
-"Anything about who would pay for the post?"
-
-"No."
-
-"Good."
-
-I leaned on my crutches.
-
-"Good?"
-
-"Good that you are saying what you don't know."
-
-I liked her too.
-
-Carrow had too many sensible women.
-
-"Did you see a blue-sided cart at the cistern?" she asked.
-
-"I don't remember one."
-
-"Did you see any cart that appeared dangerously overloaded?"
-
-I thought.
-
-"No. But I wasn't inspecting carts."
-
-"Did you see any cart leave with water spilling or a wheel failing?"
-
-"No."
-
-"Any argument involving a blue-sided cart?"
-
-"No."
-
-"Did you see the collision?"
-
-"No."
-
-"Did you see the post before the collision?"
-
-"No."
-
-"Then that's enough."
-
-She turned the board slightly and made a final mark.
-
-I blinked.
-
-"That's it?"
-
-"That's your account."
-
-"Mostly no."
-
-"Mostly no is useful."
-
-Hessa had infected municipal government.
-
-"What happened?" I asked.
-
-Senn considered me.
-
-"A hired water cart hit a lane boundary post. Cart owner says the post was already split low and gave when the wheel clipped it. Property holder says cart was loaded beyond the lane allowance and struck a sound post. We inspect the post, cart, and accounts. Then somebody decides who pays."
-
-"Lane allowance?"
-
-"Weight and width for some narrow lanes."
-
-"Magic?"
-
-Senn looked at me.
-
-"What?"
-
-"Nothing."
-
-Not everything needed magic.
-
-That was also useful.
-
-"Who was Green Coat?"
-
-"Don't know yet."
-
-"Connected to owner?"
-
-"Don't know."
-
-"Property holder?"
-
-"Don't know."
-
-"You are very good at this."
-
-"At what?"
-
-"Not knowing."
-
-Olan laughed.
-
-Senn almost smiled.
-
-"If he approaches you again, don't argue. Get a name if offered. Don't follow him. Don't take money. Tell Olan, Maris, Cala, or the lane office."
-
-"Why those three?"
-
-"Because I can find them."
-
-Excellent system.
-
-"Am I in trouble?"
-
-"No."
-
-"Do I owe an appearance?"
-
-"Not unless someone disputes your account and the assessor asks. Probably not."
-
-"Paid?"
-
-"No."
-
-"Municipal work is worse than preserve guarding."
-
-Senn looked at Olan.
-
-"He like this?"
-
-"Mostly."
-
-"Unfortunate."
-
-She left.
-
-Olan stayed.
-
-"Sorry."
-
-"For what?"
-
-"Gave your name."
-
-"You told the truth."
-
-"Still."
-
-"Did you see the cart?"
-
-"Blue one? At cistern, maybe. I pulled ours after. Too many carts."
-
-"Did you see it overloaded?"
-
-"No."
-
-"Then we are a powerful witness team."
-
-Olan nodded.
-
-"I told her I don't know."
-
-"Apparently that is allowed."
-
-He left.
-
-Lyssa had heard most of it from the table.
-
-"Lane office," she said.
-
-"Real."
-
-"Yes."
-
-"You know Senn?"
-
-"No."
-
-"Finally."
-
-I sat again.
-
-The green-coated man had become more interesting and less important at the same time.
-
-Interesting because he had tried to shape an official account before an assessor arrived.
-
-Less important because the dispute itself was painfully ordinary.
-
-Cart.
-
-Post.
-
-Damage.
-
-Who pays.
-
-No shadow organization required.
-
-People lied over fence posts in every world.
-
-Probably every universe.
-
-Lyssa picked up the pale collar facing.
-
-"You going out?"
-
-"Wasn't planning to."
-
-"Good."
-
-"You?"
-
-"Soon."
-
-She worked another few minutes.
-
-Then folded the pale piece carefully and put it into a cloth wrapper.
-
-I watched only because she had told me what it was now.
-
-"Coat collar."
-
-"Facing."
-
-"I have learned nothing."
-
-"Facing goes inside."
-
-"I have learned one thing."
-
-She tucked it into her bag.
-
-"Buttons?"
-
-"Part of it."
-
-"Six narrow wraps?"
-
-Lyssa looked at me.
-
-"No."
-
-That was useful and narrow.
-
-The six wraps were not this collar facing.
-
-I accepted the answer without asking what they were.
-
-I deserved a medal.
-
-Lyssa left for work.
-
-I stayed home for an hour because Senn had explicitly told me not to follow Green Coat and because going outside to hunt for a man I had refused money from would be a special kind of stupidity.
-
-Also because the house needed sweeping.
-
-Heroism waited while I moved dust.
-
-Around midafternoon I went to the market for onions.
-
-Not to investigate.
-
-We needed onions.
-
-The familiar onion woman saw me and held up two before I reached her.
-
-"These."
-
-"You are deciding for me now?"
-
-"You buy bad ones if I don't."
-
-"I bought one small onion."
-
-"Four days ago."
-
-"You remember?"
-
-"You complained."
-
-"I complain beautifully."
-
-She put the two onions on the board.
-
-I paid.
-
-No free fifth onion today.
-
-The market remained economically ruthless.
-
-On the way back, I crossed Lower Reed.
-
-Not deliberately.
-
-It was one of two sensible routes home and the other had stairs I disliked.
-
-I saw the post before I saw the cart.
-
-Stone post at the corner of a narrow lane.
-
-Waist high.
-
-Fresh pale break across one upper edge.
-
-A darker line lower down.
-
-Could have been an older crack.
-
-Could have been dirt.
-
-I did not know stone.
-
-Three people stood around it.
-
-Senn was one.
-
-Another woman held a measuring cord.
-
-A broad man with a blue-sided cart stood with his arms crossed.
-
-There it was.
-
-Blue sideboards.
-
-One wheel had a fresh scrape along the rim.
-
-The cart was empty now.
-
-I stopped only long enough to register that it existed.
-
-Senn saw me.
-
-She raised one hand.
-
-Not come here.
-
-Just acknowledgment.
-
-I raised mine back.
-
-Then kept walking.
-
-The broad man looked at me.
-
-No recognition I could see.
-
-Green Coat was nowhere visible.
-
-Good.
-
-At the next corner, something clicked in a gutter.
-
-I stopped.
-
-Tiny sound.
-
-Hard shell against stone.
-
-Click.
-
-Click.
-
-A copperback crawled from beneath a damp scrap of cord.
-
-Same little beetle shape as Savin's jar.
-
-Copper-dark shell.
-
-Two faint warm lines along the back.
-
-Alive.
-
-Free.
-
-Completely uninterested in municipal corruption.
-
-I crouched as much as my crutches allowed and watched it for a few seconds.
-
-The cord scrap was dark with water and grime.
-
-Not waxed as far as I could tell.
-
-The copperback walked over it.
-
-Paused.
-
-Then kept going into a crack between stones.
-
-It did not eat the cord in front of me.
-
-It did not prove anything.
-
-But there it was.
-
-A local copperback, loose in the city, exactly where a local copperback might reasonably be.
-
-I smiled.
-
-Old-life knowledge had not needed to become a quest.
-
-Sometimes the world simply confirmed that a beetle existed.
-
-Then I went home with onions.
-
-Lyssa returned after dark.
-
-No pale work visible.
-
-No flour on her sleeve.
-
-No wrapped bundle.
-
-I told her I had seen the blue cart and post while walking home.
-
-"You stop?"
-
-"No."
-
-"Good."
-
-"Senn saw me."
+A complete economic system.
 
 "Fine."
 
-"Also copperback."
+Orin walked away before I could reconsider.
 
-That got less reaction than I wanted.
+I became a watchman.
 
-"Outside?"
+The cart was parked beside the fountain wall where two market lanes met. Good visibility. Bad traffic.
 
-"Gutter."
+I sat on the low stone edge with the cart at my right and my crutches resting against my shoulder.
 
-"Bug outside."
+My repaired shoe did not scrape.
 
-"Magical bug outside."
+I noticed because I had not noticed until sitting down.
 
-"Bug."
+Good.
+
+The canvas cover shifted once in the breeze.
+
+Under it, glass clicked softly against wood.
+
+I had guarded stranger things.
+
+Probably.
+
+Old life contained enough bad decisions that I refused to rank them.
+
+For the first five minutes, nobody cared about the cart.
+
+Then a woman stopped.
+
+"Orin?"
+
+"Lunch."
+
+She looked at me.
+
+"You selling?"
+
+"No."
+
+"Pear left?"
+
+"I don't know."
+
+"Can you look?"
+
+"I am specifically being paid not to interfere with the jars."
+
+She frowned.
+
+"That's stupid."
+
+"I am new to the profession."
+
+She left.
+
+Two boys circled the fountain chasing each other with lengths of reed.
+
+A dog smelled the cart.
+
+I told it no.
+
+It disagreed silently but moved on.
+
+A cart wheel hit a stone somewhere behind me.
+
+Someone swore.
+
+Someone else laughed.
+
+Market music without instruments.
+
+Then a little green light appeared under Orin's canvas.
+
+I stared at it.
+
+The light vanished.
+
+I leaned closer.
+
+Nothing.
+
+"No," I told the cart.
+
+A second green flash.
+
+Small.
+
+Low near the rear wheel.
+
+Not inside the jars.
+
+Under the cart.
+
+I shifted forward and looked beneath.
+
+Two gray birds stood in the shadow between the wheel and the wall.
+
+Small.
+
+Their feather edges glowed faint green.
+
+"Glowwings."
+
+One tilted its head.
+
+I felt absurdly pleased to know the word.
+
+Not the animal.
+
+The word.
+
+Lyssa had given me that much.
+
+The birds pecked at something dark on the ground.
+
+Probably dropped fruit.
+
+Maybe insect.
+
+Maybe magical crime.
+
+I knew nothing about glowwing diet and intended to preserve that achievement.
+
+"You can stay if you don't steal preserves."
+
+They ignored me.
+
+Reasonable.
+
+A man with a blue cap approached.
+
+Tall.
+
+When he smiled, two front teeth were missing.
+
+"Blue crate."
+
+"Tolan."
+
+"Greg."
+
+I hated this city.
+
+"Orin said you can take it."
+
+Tolan untied one side of the canvas.
+
+I watched his hands.
+
+Not because I distrusted him.
+
+Because that was literally the job.
+
+He pulled out a shallow crate painted blue at both ends.
+
+Inside were six squat jars packed in straw.
+
+One jar held something purple.
+
+One orange.
+
+The others hidden by paper wraps.
+
+"All?" I asked.
+
+"Blue crate."
+
+"Good."
+
+He retied the canvas.
+
+Then looked under the cart.
+
+"Glowwings."
+
+"Apparently."
+
+"Means rain."
+
+I looked at the sky.
+
+Clear.
+
+"Does it?"
+
+Tolan shrugged.
+
+"My mother says."
+
+"Do you?"
+
+"No."
+
+Excellent man.
+
+He carried the crate away.
+
+I added one fact to my glowwing knowledge.
+
+Tolan's mother believed they meant rain.
+
+This was not the same as weather prediction.
+
+The birds continued pecking.
+
+One flashed blue.
+
+Lyssa had said sometimes blue.
+
+That was satisfying in a tiny useless way.
+
+Then both birds flew straight upward between the buildings.
+
+No prophecy followed.
+
+Ten minutes remained.
+
+I knew because the fountain shadow had moved almost nothing and because Orin had promised half an hour, which was not a measurement device.
+
+I considered asking the cookstall.
+
+Then a girl arrived carrying a basket on one hip.
+
+Maybe sixteen.
+
+Maybe younger.
+
+"Where's Orin?"
+
+"Lunch."
+
+She closed her eyes.
+
+"Again?"
+
+"You are Nessa."
+
+"Unfortunately."
+
+"He said tell you he went to eat."
+
+"I can see him."
+
+Orin was now visible through the cookstall opening, lifting a bowl.
+
+Nessa stared at him across the street with the concentrated disappointment only family could produce.
+
+"Did Tolan come?"
+
+"Took blue crate."
+
+"Good."
+
+She set her basket on the cart edge.
+
+"Move."
+
+"Why?"
+
+"Because that's mine."
+
+"What is?"
+
+"Basket."
+
+"You just put it there."
+
+"Cart."
+
+"Orin hired me to stop people taking jars."
+
+"I'm not taking jars."
+
+"Then we have achieved peace."
+
+Nessa looked at me.
+
+"He paid you?"
+
+"Yes."
+
+"Idiot."
+
+"He wanted lunch."
+
+"He could ask me."
+
+"Were you here?"
+
+"No."
+
+"His strategy improves."
+
+She snorted.
+
+Then untied the canvas.
+
+I put a hand on the knot.
+
+"What are you doing?"
+
+"Putting these in."
+
+She lifted the basket lid.
+
+Empty jars.
+
+Clean.
+
+Different sizes.
+
+"He said don't let anyone take jars."
+
+"I'm adding jars."
+
+I considered the contract.
+
+"Allowed."
+
+"Thank you, watchman."
+
+The title had already become insulting.
+
+Nessa packed the empty jars into a rear compartment beneath the preserves.
+
+She knew exactly where they went.
+
+I let her.
+
+Then she retied the canvas better than Tolan had.
+
+"You're the theatre one?" she asked.
+
+"Sometimes."
+
+"And Guild animal one?"
+
+"Once. Maybe twice depending how generous rumor is."
+
+"Mara says you knew bugs at Savin's."
+
+That had taken less than a day.
+
+"Mara needs hobbies."
+
+"She has them. Talking is one."
+
+"Apparently."
+
+Nessa picked up her basket.
+
+"What bugs?"
+
+"Copperbacks."
+
+"Those eat wax cord."
+
+I stared at her.
+
+"You know that?"
+
+"Orin had them in the shed last year."
+
+That was useful.
+
+Very useful.
+
+"You watched them?"
+
+"No. He lost two tied jar covers. Found the little clicking things under the shelf. Old Pera told him copperbacks."
+
+"Who's Pera?"
+
+"Woman near west dye steps. Sells cord and net repair."
+
+I leaned back.
+
+There it was.
+
+Local knowledge.
+
+Not proof exactly.
+
+But independent local pattern.
+
+"Did he do anything?"
+
+"Tin boxes. Swept everything. Put bitterleaf around the wall."
+
+"Did bitterleaf work?"
+
+Nessa shrugged.
+
+"Bugs went away. Could be sweeping. Could be winter."
+
+I smiled.
+
+"You are my favorite person today."
+
+"Why?"
+
+"You don't know."
+
+"I know lots."
+
+"Exactly."
+
+She looked concerned for me.
+
+Fair.
+
+"Tell Savin?" she asked.
+
+I thought about it.
+
+Savin had the bug in a jar.
+
+Waxed thread in metal.
+
+She knew more existed.
+
+She could ask locally if she wanted.
+
+I did not need to run across the market carrying every scrap of corroboration like a prophet of insect storage.
+
+"If I see her," I said.
+
+Nessa nodded.
+
+Then left.
+
+Orin returned carrying half a flatbread folded around something oily.
+
+"All good?"
+
+"Tolan took blue crate. Nessa added empty jars and judged you. Two glowwings occupied the underside briefly. No preserves stolen."
+
+Orin looked under the cart.
+
+"Glowwings?"
+
+"Gone."
+
+"Rain?"
+
+"Tolan's mother says so."
+
+Orin looked at the clear sky.
+
+"She's wrong a lot."
+
+"Good to know."
+
+He paid me.
+
+Exactly what he had named.
+
+"Tomorrow?" he asked.
+
+I stared.
+
+"You planning lunch again?"
+
+"Usually."
+
+"Bold."
+
+"Same time maybe."
+
+There was the dangerous part of casual work.
+
+One useful half hour wanted to become a pattern before anybody had agreed to one.
+
+"If I'm here and free," I said.
+
+Orin nodded.
+
+"Fine."
+
+No promise.
+
+Good.
+
+I went home with salt and money.
+
+Technically profit.
+
+This was how merchants were born.
+
+Lyssa was not home.
+
+I put the salt where salt lived.
+
+Then counted the money I had on me.
+
+Not total debt arithmetic.
+
+Just the coins in my hand.
+
+Savin's repair had taken some.
+
+Orin's cart had returned a little.
+
+Yesterday's theatre pay still existed in the larger pile.
+
+The Guild payment before that.
+
+Small money came and went through ordinary holes.
+
+Bread.
+
+Salt.
+
+Shoe repair.
+
+Tea.
+
+The kind of life where one dramatic payment did not solve anything because existence charged subscription fees.
+
+I separated household money from mine.
+
+Then stopped.
+
+The amount I had been treating as mine looked wrong.
+
+Not missing.
+
+Too much.
+
+I counted again.
+
+Still too much.
+
+I frowned.
+
+Then remembered the caller pay.
+
+I had split the previous binding-shop pay automatically.
+
+I had not split yesterday's theatre pay after coming home tired.
+
+The extra was not profit.
+
+It was delayed responsibility.
+
+Annoying.
+
+I moved the household share where it belonged.
+
+My personal pile became less impressive.
+
+More accurate.
+
+I preferred accurate less impressive.
+
+Usually.
+
+A knock came at the door.
+
+I looked toward it.
+
+One knock.
+
+Then two.
+
+Not Lyssa.
+
+She had a key.
+
+Not theatre style either. Theatre people knocked like doors had personally offended schedules.
+
+I opened it.
+
+A boy stood there holding a folded paper.
+
+Not the gray Guild runner from before.
+
+Different boy.
+
+Younger.
+
+Red scarf.
+
+"Greg?"
+
+"Yes."
+
+He handed me the paper.
+
+"From Hessa."
+
+There went my free afternoon.
+
+I opened it.
+
+Her handwriting.
+
+Recognizable.
+
+Short.
+
+**Tomorrow. Midmorning. If rested. Bring nothing.**
+
+I read it twice.
+
+"Answer?" the boy asked.
+
+"Yes."
+
+"Yes what?"
+
+"Tell her yes, if rested."
+
+He nodded.
+
+"Coin?"
+
+I stared at him.
+
+"For delivering?"
+
+"She paid me."
+
+"Then why ask?"
+
+"Sometimes people pay twice."
+
+Entrepreneur.
+
+"Not today."
+
+"Fine."
+
+He left.
+
+I closed the door.
+
+Hessa tomorrow.
+
+Bring nothing.
+
+That was interesting.
+
+No paper.
+
+No coin.
+
+No thread.
+
+No larger object.
+
+Possibly she had selected a next experiment.
+
+Possibly she wanted to tell me to stop being annoying in person.
+
+Both plausible.
+
+I put the note on the table.
+
+Then deliberately did not speculate for almost three minutes.
+
+Personal growth.
+
+Lyssa came back carrying a wrapped bundle under one arm and a small sack in the other.
+
+Not the pale work.
+
+Different shape.
+
+I did not identify it by force.
+
+"Hessa tomorrow," I said.
+
+Lyssa set the sack down.
+
+"Magic?"
+
+"Unknown. Says bring nothing."
+
+She read the note.
+
+"Rested."
+
+"Yes."
+
+She looked at me.
+
+"You rested?"
+
+"I guarded preserves for half an hour."
+
+"What?"
+
+I explained Orin.
+
+Then Tolan.
+
+Then Nessa.
+
+Then the glowwings.
+
+Lyssa unpacked the sack while listening.
+
+Two onions.
+
+A handful of something green.
+
+Small hard cheese.
+
+"Rain?" she asked.
+
+"Tolan's mother says glowwings mean rain. Orin says she's wrong a lot."
+
+"They don't."
+
+"Good."
+
+"Sometimes before rain more bugs fly high. Glowwings eat them."
+
+I stopped.
+
+"Glowwings eat bugs?"
+
+Lyssa shrugged.
+
+"Some."
+
+"You said they nest high."
+
+"They do."
+
+"Green and sometimes blue."
+
+"Yes."
+
+"This is becoming a bird."
+
+She looked at me.
+
+"It was already bird."
 
 I pointed at her.
 
-"You have no wonder."
+"You know what I mean."
 
-"I have onions?"
+She did not.
 
-"I bought onions."
+Or pretended not to.
 
-"Then I have onions."
+"Copperbacks," I said. "Nessa says Orin had them last year. Damaged tied jar covers. Local woman named Pera called them copperbacks too. They used tin boxes, swept, bitterleaf. Nessa doesn't know what actually solved it."
 
-Unassailable.
+Lyssa cut the cheese.
 
-We cooked.
+"Tell Savin?"
 
-Nobody knocked.
+"If I see her."
 
-Green Coat did not return.
+"Good."
 
-No theatre message arrived.
+That was the second person who thought information did not require immediate delivery.
 
-No Hessa note.
+I was surrounded by restraint.
 
-No Guild runner.
+"Also," I said, "Orin may ask me to guard his lunch cart again if I happen to be there."
 
-The water continued running.
+"His lunch cart?"
 
-My shoe held.
+"Preserve cart. His lunch."
 
-My body felt ordinary.
+"You guard food while he eats food."
 
-Before bed I thought about the two copper coins I had refused.
+"Economy."
 
-Not because I regretted refusing them.
+Lyssa nodded solemnly.
 
-Because they had been so little.
+"Strong system."
 
-A lie did not always arrive dressed as danger.
+We cooked the onions and greens with the last of something from yesterday.
 
-Sometimes it arrived as convenience.
+I did not ask what the wrapped bundle was.
 
-Say you saw this.
+Lyssa did not explain.
 
-You were nearby.
+Hessa's note stayed on the table.
 
-Close enough.
+Tomorrow.
 
-Everybody knows what happened.
+Midmorning.
 
-Two copper for your time.
+If rested.
 
-Hessa had spent months teaching me that an observed movement was not a theory, a theory was not a mechanism, and wanting an answer did not make the answer true.
+Bring nothing.
 
-Apparently the same rule worked on broken posts.
+That was a real claim.
 
-I had not seen the cart leave overloaded.
+Not tonight's.
 
-So I had not seen it.
+Tonight I had salt, a repaired shoe, a few new coins, a household share corrected before it became imaginary wealth, and a local rumor about insects that I did not need to carry anywhere yet.
 
-That was all.
+Outside, the sky remained clear.
 
-For once, all was enough.
+Tolan's mother lost this round.
+
+I slept early anyway.

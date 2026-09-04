@@ -1,845 +1,797 @@
 # CHAPTER 290
 
-## THE RAIN SHELF
+## THE CARRYING LIGHT
 
-It rained before breakfast.
+The next morning I needed a new piece of paper.
 
-Not hard.
+This was not an emergency.
 
-Carrow had several kinds of rain and this was the irritating one. Enough to wet the street. Not enough to justify staying inside. Fine drops leaned past the courtyard wall and darkened the stone in patches.
+I treated it like one for six minutes.
 
-Cala looked up once.
+Tavi's horse page had reached the end of its useful life as a research document. The back was crowded with paper prices, chaffers, bad rulers, a warm wall, and Maro's warning that one wall on one day was not the foundation of universal masonry.
 
-"Shelf."
+The front had a seven-legged horse.
 
-I looked at the shelf.
+There was technically room around the horse.
 
-The shelf looked back with the moral innocence of furniture.
+I had standards.
 
-It was still standing away from the kitchen wall where we had left it after the old dry seal had worked itself nearly back to normal.
+"Three sheets," Lyssa said.
 
-"What about it?"
+She was eating a heel of bread by the window.
 
-"Rain shelf."
+"Household sheets."
 
-"That explains almost nothing."
+"Paper."
 
-She pointed upward.
+"Clean paper."
 
-Not at the shelf.
+"You need dirty paper?"
 
-At the courtyard opening.
+"Used paper."
 
-A narrow wooden board ran beneath the edge of the upper gallery, sloped slightly toward the drain side. Rain struck the gallery stones above, reached the edge, and disappeared behind the board instead of dripping into the kitchen doorway.
+"Use horse."
 
-I knew rain shelves.
+"The horse has rights."
 
-Not that one.
+Lyssa looked at the drawing.
 
-"Ah."
+"Horse has seven legs."
 
-Cala looked at me.
+"More rights."
 
-"Ah."
+She finished the bread.
 
-"I was looking at the wrong shelf."
+"Go find scrap."
 
-"Yes."
+That was, annoyingly, the correct answer.
 
-Tavi laughed with the cruelty of the very young.
+I checked my right shoe, tucked the charcoal nub into my pocket, and left the three copper where they were.
 
-I ate bread.
+I did not even look at them twice.
 
-The rain shelf gave one small silver shimmer along its underside.
+Once and a half, maybe.
 
-Then another.
+Outside, Carrow had dried enough that yesterday's darker stones were turning pale again. The air still smelled washed. Not clean exactly. Carrow had too many people, animals, drains, cookfires, workshops, and ambitions to become clean because of one rain.
 
-I had seen versions of the same thing in inns, barracks, field kitchens, caravan shelters, and one absurdly expensive adventurer lodge where the rain had been diverted into decorative stone fish mouths because apparently rich people required weather to perform.
+But washed.
 
-The broad idea was ordinary. A treated edge persuaded water to follow a chosen path instead of dripping wherever gravity first suggested.
+The chaffers were gone.
 
-This one was doing something slightly different.
+I saw one husk stuck in a crack near the courtyard gate and left it there out of professional courtesy.
 
-The water vanished behind the board.
+I had no destination beyond scrap paper.
 
-I leaned sideways.
+That was dangerous because Carrow was very good at supplying destinations once I started walking.
 
-"Where does it go?"
+I took the lane toward the Narrow Bell, then turned before the paper shop.
 
-Cala pointed toward the courtyard drain.
+I was not going back to stare at wholesale prices until arithmetic became a personality disorder.
 
-"Drain."
+A vegetable seller was wrapping bruised greens in old printed sheets at the corner. I slowed.
 
-"Through the wall?"
+The sheets had writing on both sides.
 
-"No."
+Too useful to her.
 
-"Behind the shelf?"
+I kept going.
 
-"Greg."
+At the next lane a cobbler had a pile of thin card strips under his bench. Leather patterns, not paper.
 
-"One question."
+I did not steal them.
 
-She stared at me.
+Growth continued.
 
-"Two questions."
-
-"One subject."
-
-She went back to cutting bread.
-
-I took that as conditional permission to investigate without involving her.
-
-The rain shelf ran from the kitchen side toward the courtyard corner. A thin line of water appeared at the far end and dropped into a little stone channel I had seen every day without caring about it.
-
-So not through the wall.
-
-Along the board somehow, then down.
-
-Fine.
-
-Familiar category. Local installation.
-
-I did not need to discover rain management as a concept.
-
-I did, however, want to know why the water was not visible crossing the underside.
-
-I moved closer.
-
-The board had a shallow lip underneath, no deeper than my little finger. Inside the lip, something dark green had been pressed into a narrow groove.
-
-Not paint.
-
-Not exactly moss either.
+Then a light moved across the wall beside me.
 
 I stopped.
 
-That was new enough to deserve attention.
+It was morning.
 
-"Cala."
+The sun was behind the roofs.
 
-"No."
+The light was a narrow white-gold bar about the length of my forearm, sliding slowly over the plaster at shoulder height.
 
-"I haven't asked yet."
+I looked up.
 
-"No touch."
+Nothing obvious.
 
-"That was going to be my second question."
+The bar reached a doorway, crossed the dark opening, and appeared on the other side.
 
-"No."
+A woman carrying a basket walked through it without reacting.
 
-Reasonable.
+I looked behind me for a mirror.
 
-I watched instead.
+No mirror.
 
-Rain reached the gallery edge.
+The light continued around the corner.
 
-The underside of the board shimmered.
+I followed.
 
-A bead formed near the outer lip, flattened, then seemed to slide sideways into the groove.
+Not because it was magical.
 
-The dark green material deepened in color for a moment.
+Because it had turned the corner.
 
-At the far end, water gathered and dropped into the channel.
+Reflected sunlight could do many things.
 
-A wick system, maybe.
+Turning a stone corner without an intermediate surface was usually not one of them.
 
-A guided surface treatment.
+The bar moved along the next wall, steady as a person walking slowly.
 
-Some low draw effect.
+A boy ahead of me saw it and stepped aside.
 
-Or a combination.
+That was the first sign I was the only idiot here.
 
-I had seen water-follow treatments before. I had not seen this exact green-filled groove used on a household rain shelf.
+"What is that?" I asked him.
 
-Tavi came over.
+He looked at me, then at the light.
 
-"Rain eats it."
+"Carrying light."
 
-"The shelf?"
+"What does it carry?"
 
-"Green."
+"Light."
 
-"Does the green eat the rain?"
+He ran off.
 
-"Yes."
+Carrow had trained its children specifically to hurt me.
 
-"Excellent. We have established the leading theory."
+The bar reached another corner.
 
-Cala said, "No."
+This time I saw what happened.
 
-Tavi looked offended.
+A small pale tile was set into the wall near the turn, no larger than two fingers across. The moving bar touched it. The tile brightened. A second tile on the adjoining wall brightened a heartbeat later, and the bar continued from there.
 
-"It eats."
+Not turning.
 
-"Carries," Cala said.
+Passing.
 
-That was more useful.
+That was different.
 
-I looked at her.
+I moved closer after the light had gone.
 
-"The green carries the water?"
+The first tile was dull again. Cream-colored ceramic, maybe, with a shallow diagonal groove across its face.
 
-"Mm."
+I did not touch it.
 
-"What is it?"
+Yesterday had apparently created habits.
 
-She shrugged.
+A man opened the door beside me.
 
-"Rain thread."
+"You waiting?"
 
-I looked back at the groove.
+"No. Looking at your wall."
 
-"Actual thread?"
+He looked at the tile.
 
-"No."
+"Why?"
 
-Of course not.
-
-Carrow remained committed to names that were useful right up until I asked a second question.
-
-"Who put it in?"
-
-"Old."
-
-"Before you lived here?"
+"Carrying light."
 
 "Yes."
 
-"Does it need replacing?"
+"What is it for?"
 
-"Sometimes."
+He pointed down the lane.
 
-"How do you know?"
+"Bakery."
 
-Cala pointed at the doorway threshold.
+That did not answer anything.
 
-"Wet."
+"The light goes to the bakery?"
 
-I smiled.
+"Today."
 
-"Strong diagnostic framework."
+"Why?"
 
-"Wet bad."
-
-"Difficult to argue."
-
-The threshold was dry.
-
-Therefore, by household standards, the rain shelf was functioning.
-
-I left it alone.
-
-That should have been the entire magical event of the morning.
-
-Then Lyssa came downstairs carrying the gray-brown coat from yesterday.
-
-She had turned it right side out.
-
-"You going?" Cala asked.
-
-"Marra."
-
-I knew the route without thinking.
-
-Lyssa folded the coat once over her arm.
-
-Cala handed her a cloth wrap for it because the rain was still fine enough to be annoying.
-
-Lyssa covered the garment.
-
-Then she looked at me.
-
-"You out?"
-
-"Eventually."
-
-"Come half."
-
-That was unusual enough that I checked her face.
-
-"Half where?"
-
-"Marra road. I carry this. You carry nothing."
-
-"An excellent division of labor."
-
-"You walk."
-
-"I am also highly qualified."
-
-She waited.
-
-"Why half?"
-
-"Jessa bring thing. I meet her. Then you go."
-
-Not an errand for me.
-
-Not a delivery.
-
-Not a new garment assignment.
-
-A shared route for part of the morning.
-
-"All right."
-
-I got the crutches.
-
-The rain had eased by the time we left, but the streets were slick enough to make me choose every right-foot placement instead of pretending wet stone was dry stone with atmosphere.
-
-Lyssa matched my pace without announcing that she was matching it.
-
-That had become ordinary too.
-
-We passed the repaired crossing from yesterday.
-
-Water ran cleanly over the curb edge and into the gutter.
-
-I noticed.
-
-I did not stop.
-
-Growth.
-
-Lyssa said, "You look."
-
-"I am allowed to look."
-
-"Yesterday stone?"
-
-"Yes."
-
-"Still stone."
-
-"Excellent field report."
-
-We kept going.
-
-At Bell Lane, carrying light moved pale across a wall above us.
-
-Neither of us looked up.
-
-At the next corner, a gutter mouth clicked as a little brass tongue lifted under the flow and let a rush of rainwater through.
-
-I knew those too.
-
-I did not interrogate it.
-
-I was becoming extremely mature.
-
-Lyssa stopped near a covered arcade where three shops shared a broad stone overhang.
-
-"Here."
-
-"This is half?"
-
-"Yes."
-
-"Your fractions remain geographically aggressive."
-
-She ignored that.
-
-Jessa appeared from the far end of the arcade with a bundle under one arm and a small basket in the other.
-
-I knew her well enough not to mistake her arrival for something meant for me.
-
-She greeted Lyssa first.
-
-"Marra says this one today."
-
-She handed over the bundle.
-
-Lyssa shifted the wrapped coat and took it.
-
-"Today finish?"
-
-"Today look. Woman comes late."
-
-Lyssa opened one corner of the bundle just enough to see dark blue cloth.
-
-"This hem?"
-
-"No. Side."
-
-"Which side?"
-
-Jessa tapped her own left hip.
-
-"Her left."
-
-Lyssa nodded.
-
-That was work shorthand I could understand without being invited into the job.
-
-Jessa looked at me.
-
-"Greg."
-
-"Jessa."
-
-"You carry?"
-
-"Apparently nothing. I have been given strict professional boundaries."
-
-Lyssa said, "Good."
-
-Jessa smiled.
-
-Then she reached into the basket and pulled out a little wooden spool.
-
-Not Lyssa's protected spool.
-
-This one was plainly ordinary, pale wood, wound with dark blue thread.
-
-"Maren no same," Jessa said.
-
-Lyssa took it, pinched the thread between finger and thumb, and held it beside the cloth.
-
-"Too black."
-
-"Marra say maybe inside."
-
-"Inside yes. Outside no."
-
-Jessa nodded.
-
-No crisis.
-
-No mystery.
-
-A color mismatch.
-
-The kind of thing that existed in a world where people made clothes by hand and cared what they looked like.
-
-I knew thread matching broadly. I also knew better than to offer my eye when two professionals were already using theirs.
-
-Then the light changed.
-
-Not magical light.
-
-Cloud light.
-
-The rain thinned, and the gray arcade brightened.
-
-The dark blue cloth shifted visibly warmer.
-
-Lyssa moved it closer to the open edge of the arcade.
-
-Jessa followed.
-
-The thread that had looked nearly right in shade now looked wrong.
-
-Too flat. Too dark.
-
-Lyssa said, "See."
-
-Jessa made a face.
-
-"Mm."
-
-I remembered Lyssa saying the window was better for some color than carrying light.
-
-Not because carrying light was false.
-
-Because light changed judgment.
-
-Ordinary craft fact in a magical city.
-
-I did not say this aloud.
-
-That was my second act of maturity in ten minutes.
-
-Jessa put the spool back in her basket.
-
-"I go Maren again."
-
-Lyssa shook her head.
-
-"No. I go after Marra."
-
-"You have coat."
-
-"I have legs."
-
-I looked down at myself.
-
-Lyssa saw.
-
-"Two enough."
-
-"Cruel."
-
-Jessa laughed.
-
-"You want him go?"
-
-"No."
-
-Immediate.
-
-Clean.
-
-I appreciated the clarity.
-
-Jessa handed Lyssa the basket anyway.
-
-"Take. I go south."
-
-Lyssa accepted it.
-
-There was some exchange in that gesture I did not fully know. Borrowed basket, route convenience, work habit, favor, ownership. I did not need to label it.
-
-Jessa left south.
-
-Lyssa now had the coat, the dark blue bundle, and the basket.
-
-I said, "You have reached the point where my empty hands are becoming insulting."
-
-"You carry basket."
-
-I took the basket.
-
-There it was.
-
-A promotion.
-
-"My responsibilities expand."
-
-"Don't drop."
-
-"And immediately there is management pressure."
-
-We walked another block together.
-
-At the next corner Lyssa stopped.
-
-"You go home?"
-
-"Probably not yet."
-
-"Then give."
-
-I handed the basket back.
-
-My career ended quickly.
-
-"You are going to Marra, then Maren?"
-
-"Yes."
-
-"For the blue?"
-
-"Yes."
-
-"Same job?"
-
-She looked at me.
-
-I raised one hand.
-
-"Not asking details. Just confirming the visible sequence."
-
-"Same job."
-
-"Thank you."
-
-She adjusted the bundle under her arm.
-
-"You learning."
-
-"Slowly."
-
-"Very."
-
-Then she went toward Marra's green-door route.
-
-I went the other way.
-
-That was the entire overlap.
-
-No invitation into the fitting.
-
-No request to source thread.
-
-No business consultation.
-
-I had walked half a route with the woman I lived with and carried a basket for one block.
-
-It felt more intimate than some conversations we had had about death.
-
-I did not examine that too closely.
-
-The rain stopped completely by midday.
-
-Steam rose from darker roof tiles where the sun reached them.
-
-I ended up near the lower market because I had no better plan and because a man was roasting chestnuts under a striped awning.
-
-I did not buy chestnuts.
-
-This was not discipline.
-
-I had no ordinary spending money with me.
-
-The four client copper were at home.
-
-I considered this evidence that leaving capital physically behind was an excellent financial strategy.
-
-A woman beside the chestnut stall was selling little bundles of dried green material tied with straw.
-
-Rain thread.
-
-I recognized it from the kitchen shelf groove.
-
-That was enough to stop me.
-
-Not because I needed some.
-
-Because the household had some old enough that Cala said it sometimes needed replacing.
-
-Actual potential future need.
-
-I looked at the bundles.
-
-The seller noticed.
-
-"Roof?"
-
-"Rain shelf."
-
-She picked up a smaller bundle.
-
-"This."
-
-I did not ask what it was.
-
-I asked, "For a shallow groove under wood?"
-
-"How wide?"
-
-I held my little finger up.
-
-"Less than this."
-
-"Maybe this. Maybe split."
-
-Good.
-
-Local use mattered.
-
-"Does it need a treatment before it goes in?"
-
-"If shelf old, yes."
-
-"What treatment?"
-
-"Depends shelf."
-
-Also good.
-
-"Who usually does that?"
-
-She shrugged.
-
-"House. Carpenter. Rain man. Whoever knows."
-
-Rain man was either a trade category or a person she expected me to know.
-
-I did not know which.
-
-I did not force it.
-
-"How much for the small bundle?"
-
-"Two bits."
-
-I did not know whether that was cheap relative to a copper because our currency conversion remained an insult to accounting.
-
-More importantly, I had not been asked to buy it.
-
-"Thanks."
-
-I started to leave.
-
-She said, "You need?"
-
-"Not today."
-
-"Then why ask?"
-
-I considered several answers.
-
-"I live under one."
-
-That satisfied her more than it satisfied me.
-
-I walked home.
-
-The rain shelf was dry now.
-
-The green groove had faded from dark green to gray-green.
-
-I pointed up.
-
-"Cala."
-
-She looked.
-
-"I saw rain thread at lower market. Small bundle is two bits. Seller said an old shelf may need treatment depending on the shelf."
-
-Cala stared at me.
-
-"Ours good."
-
-"Yes."
-
-"No buy."
-
-"I did not buy."
-
-She looked genuinely surprised.
-
-This was hurtful.
-
-"I am capable of gathering information without converting it into inventory."
-
-"Mm."
-
-"That sounded doubtful."
-
-"Mm."
-
-Tavi was now using the roof-tile house as a boat again.
-
-Apparently real estate remained liquid.
-
-I went upstairs.
-
-Four copper.
-
-Still four.
-
-Three clean sheets.
-
-Still three.
-
-I took the scrap with the cup and road notes and found almost no room left.
-
-I considered starting another scrap.
-
-Then stopped.
-
-Did I need to record rain thread?
-
-I knew what it was now in the local household sense. Cala knew more about whether ours needed replacement than I did. The seller had given me no universal treatment. No purchase. No client. No job.
-
-I wrote only:
-
-`RAIN THREAD SMALL BUNDLE: 2 BITS AT LOWER MARKET. OURS GOOD.`
-
-Then I added:
-
-`DO NOT BUY BECAUSE YOU LEARN PRICE.`
-
-That was probably the more important line.
-
-Lyssa came home later with no basket.
-
-She had the gray-brown coat but not the dark blue bundle.
-
-I noticed the difference.
-
-I did not ask where every object had gone.
-
-She sat by the window and opened the coat.
-
-"Maren have thread?" I asked.
-
-She looked at me.
-
-That was a legitimate question because I had witnessed the mismatch and the route.
-
-"Yes."
-
-"Better match?"
-
-"Yes."
-
-"Good."
-
-I stopped.
-
-She waited.
+"They asked."
 
 I waited.
 
-"That all?" she asked.
+He waited.
 
-"I can ask more if you prefer."
+"Asked who?"
+
+"Lantern house."
+
+There it was.
+
+Not a mystery.
+
+A service.
+
+"Thank you."
+
+He nodded and closed his door.
+
+I followed the light again.
+
+The bar was farther ahead now, visible in pieces where the lane bent. I could have let it go.
+
+I did not.
+
+The next transfer point was not a wall tile.
+
+It was a little metal fork fixed under an awning post. The light reached the fork, split briefly into two thin lines, then one line faded while the other crossed under the awning and continued along a pale cord stretched above the street.
+
+I stopped so abruptly my right crutch tip squeaked on stone.
+
+A woman behind me said, "Move."
+
+I moved.
+
+The light ran along the cord.
+
+Not inside it, exactly. More like the cord gave the brightness somewhere to stay.
+
+It crossed the lane overhead, reached another fork, and dropped as a clean bar onto a wall.
+
+Nobody screamed.
+
+Nobody prayed.
+
+A delivery man ducked under it carrying two sacks.
+
+I had lived in Carrow for months and apparently missed municipal fiber optics.
+
+That comparison was probably wrong in twelve ways.
+
+I loved it anyway.
+
+The bakery was easy to find because three people were standing outside complaining.
+
+"Still dim," one woman said.
+
+"It's morning," the baker said.
+
+"Back room isn't morning."
+
+The baker was a thick-armed man with flour up both forearms. He looked past her toward the approaching bar of light.
+
+"There."
+
+The carrying light reached a tile beside his door.
+
+The tile brightened.
+
+Inside the bakery, something answered.
+
+Not a flash.
+
+A soft pale glow spread deeper into the room.
+
+The woman who had complained looked through the doorway.
+
+"Better."
+
+"Told you."
+
+"Yesterday was weak."
+
+"Yesterday line was wet."
+
+I stood outside pretending I was not listening.
+
+I was listening.
+
+The baker noticed me.
+
+"You buying?"
+
+"Eventually in my life, probably."
+
+"Then don't block door."
+
+I moved again.
+
+The carrying bar had stopped at the bakery tile. It did not continue farther.
+
+A girl in a gray vest came walking from the direction the light had traveled. She carried a narrow pole with a hooked top and a square leather case at her hip.
+
+She stopped at the bakery tile and looked inside.
+
+"Enough?"
+
+The baker said, "Back still low."
+
+"For ovens?"
+
+"No. Table."
+
+She nodded.
+
+The complaining woman said, "Yesterday couldn't see seeds."
+
+The girl in gray ignored her.
+
+She looked at the cord overhead, then back down the lane.
+
+I recognized the posture.
+
+Not the job.
+
+The posture.
+
+Someone checking a system from end to end instead of staring at the place where the complaint happened.
+
+She saw me watching.
+
+"Need through?"
 
 "No."
 
-"Then yes."
+"Then stand side."
 
-She smiled.
+I stood side.
 
-I told her about the rain thread price.
+She unhooked the pole from her shoulder and lifted it toward the little fork under the bakery awning. The hook caught a ring I had not noticed. She turned it a quarter turn.
 
-She already knew rain thread.
+The pale glow inside the bakery strengthened.
 
-Of course she did.
+The woman at the door said, "There."
 
-"Two bits small?" she asked.
+The girl lowered the pole.
+
+"Too much?"
+
+The baker looked toward the back.
+
+"No."
+
+"Keep it there. Don't turn house plate."
+
+"I know."
+
+"You turned it last month."
+
+"That was different."
+
+"It was brighter."
+
+"Exactly."
+
+She stared at him.
+
+He looked at me as if I might support him.
+
+I looked away.
+
+I had survived enough client relationships to recognize a trap.
+
+The girl closed her leather case without opening it.
+
+I asked, "Is that coming from the lantern house?"
+
+She looked at me.
 
 "Yes."
 
-"Too much."
+"Actual light?"
 
-I sat up.
+"What else?"
 
-"Ah. Market intelligence. Why?"
+"Mana. Heat. Something translated into light."
 
-"Small bundle one bit near Marra."
+Her expression changed slightly.
 
-"Same kind?"
+Not impressed.
 
-"Maybe."
+Recalculating how annoying I was.
 
-I lay back down.
+"Light," she said.
 
-"You destroyed my arbitrage before it existed."
+"Stored?"
+
+"Carried."
+
+"From where?"
+
+She pointed vaguely uphill.
+
+"House."
+
+"How far can it go?"
+
+"Depends."
+
+"On what?"
+
+"Line. Tiles. Turns. Draw. Weather."
+
+Five nouns.
+
+I wanted thirty questions.
+
+She put the pole back over her shoulder.
+
+"You work there?" I asked.
+
+"No."
+
+That stopped me.
+
+"You just said lantern house."
+
+"I tend this run."
+
+"For them?"
+
+"For the lane."
+
+The baker said, "Sera."
+
+She turned.
+
+"What?"
+
+"Tell him you're busy."
+
+Sera looked at me.
+
+"I'm busy."
+
+"Understood."
+
+She left.
+
+I watched her go without following.
+
+This was growth of a different kind.
+
+The baker pointed at the door.
+
+"Buying?"
+
+I looked at the trays.
+
+There were small round rolls, dark crusted loaves, and something twisted with seeds.
+
+I had not brought ordinary spending money because I had left home to find free scrap paper.
+
+The three client copper were still at home.
+
+"No money."
+
+"Then definitely don't block door."
+
+I left.
+
+The carrying light remained at the bakery.
+
+That mattered more than I expected.
+
+It had looked like a moving thing because I met it while it was being delivered. Now it was simply there, feeding pale brightness into a dim workroom because somebody had asked for more light.
+
+No spectacle.
+
+A utility.
+
+I continued toward nowhere.
+
+Half a lane later I found my paper.
+
+A fruit seller was trimming old account sheets into squares to wrap soft pears. A narrow strip had been cut from one side of several pages and lay in a basket with stems and string.
+
+"You throwing those?" I asked.
+
+She looked at the strips.
+
+"Why?"
+
+"Can I have one?"
+
+"One?"
+
+"A long one if possible."
+
+She handed me three.
+
+"Take."
+
+"Thank you."
+
+"You buying pear?"
+
+"Not today."
+
+"Then go."
+
+Carrow commerce had become very consistent.
+
+The strips were written on one side and mostly blank on the other.
+
+Perfect.
+
+I tucked them carefully inside my shirt so they would not fold around the crutch strap.
+
+Then I went home.
+
+I did not go uphill to find the lantern house.
+
+I considered it.
+
+That distinction deserved recognition.
+
+At home, Cala was airing the kitchen with the side door open. The dark patch behind the moved shelf looked lighter than yesterday.
+
+Maybe.
+
+I did not touch it.
+
+"Wall?" I asked.
+
+"Wall."
+
+"Warm?"
+
+"Less."
+
+"You checked?"
+
+"Hand."
+
+"Scientific."
+
+"Shelf stays."
 
 "Good."
 
-"I wasn't going to buy it."
+That was the entire dry-seal follow-up.
+
+I went upstairs.
+
+The three copper were still there.
+
+I put the three scrap strips beside them.
+
+This created a visual argument I did not like.
+
+Three copper.
+
+Three scraps.
+
+It looked like accounting.
+
+I moved the scraps.
+
+On the first strip I wrote:
+
+`CARRYING LIGHT`
+
+Then stopped.
+
+That was a name, not knowledge.
+
+I added:
+
+`LANE SERVICE? BAKERY ASKED FOR IT.`
+
+Question mark after service.
+
+Then:
+
+`TILES / FORKS / CORD CAN PASS IT.`
+
+I stared at that sentence.
+
+Can pass what?
+
+Light, apparently.
+
+According to direct observation, yes.
+
+I had watched a bright bar reach one tile and appear from another. I had watched it move along a cord. I had watched Sera adjust a fork and the bakery brighten.
+
+That was more than rumor.
+
+I added:
+
+`SERA: LINE, TILES, TURNS, DRAW, WEATHER MATTER.`
+
+I did not write maximum distance.
+
+I did not write mana.
+
+I did not write stored sunlight.
+
+I did not write that Sera worked for the lantern house because she had explicitly said she did not.
+
+I did not write that the lane owned the system because I had no idea what "for the lane" meant legally, financially, or socially.
+
+The strip still had room.
+
+This was luxurious.
+
+I sat back.
+
+There was a strange satisfaction in having learned something without acquiring it.
+
+No client.
+
+No coin.
+
+No tool.
+
+No secret.
+
+I had gone out for garbage paper and come home knowing that Carrow could route light around corners.
+
+That felt like enough profit for one walk.
+
+Lyssa came home earlier than usual.
+
+She had no packet with her this time.
+
+I noticed only because I was becoming very skilled at not noticing things.
+
+She put her bag down and saw the scrap strip.
+
+"Found paper."
+
+"Three pieces. Free."
+
+"Rich."
+
+"Finally."
+
+She picked up the top strip.
+
+"Carrying light."
+
+"You know it?"
+
+"Yes."
+
+I waited.
+
+She looked at me.
+
+"What?"
+
+"Nothing. I am practicing not demanding lectures from people who live here."
 
 "Good."
 
-"Cala also didn't believe me."
+She kept reading.
 
-"Smart."
+"Bakery?"
 
-This household had no faith in entrepreneurship.
+"They asked for more light in the back room. I saw it arrive."
 
-Downstairs, a drop of leftover rain fell from somewhere into the courtyard channel.
+"Mm."
 
-Then another.
+"That's all you have?"
 
-The threshold stayed dry.
+"You practicing."
 
-The rain shelf worked.
+"I hate practice."
 
-Lyssa's thread route worked.
+She smiled.
 
-The repaired crossing worked.
+I pointed at the line about Sera.
 
-Carrow was full of systems I had known in broad outline for decades and local versions I had never needed to see.
+"She adjusted a fork under the awning. The room got brighter."
 
-I did not need to turn every one into work.
+"Too bright bad."
 
-That was becoming its own kind of competence.
+"Why?"
 
-Four copper sat untouched beside the scraps.
+Lyssa shrugged.
 
-For once, knowing the price of something did not make me want to own it.
+"Eyes. Cloth. Some color look wrong."
+
+That was interesting.
+
+"Does your work use carrying light?"
+
+"Sometimes shop."
+
+"For color?"
+
+"For seeing."
+
+I deserved that.
+
+She set the strip down.
+
+"Window better for color."
+
+"Because carrying light changes it?"
+
+"Sometimes."
+
+"Always?"
+
+"No."
+
+I smiled.
+
+Lyssa narrowed her eyes.
+
+"Why you smile?"
+
+"Everybody is finally learning how to answer me."
+
+"No. You finally learn hear answer."
+
+That was worse.
+
+I changed subjects.
+
+"The wall is cooler."
+
+"Good."
+
+"Cala says shelf stays moved."
+
+"Good."
+
+"Maro may not need to come back."
+
+"Good."
+
+"You are contributing very little."
+
+"Dinner soon."
+
+"Excellent contribution."
+
+We went downstairs.
+
+Tavi had turned the fast boat tile into a house by adding a square around the potato-shaped hull.
+
+"Boat house?" I asked.
+
+"No. House."
+
+"What happened to the boat?"
+
+He looked at me as if the answer were obvious.
+
+"Now house."
+
+I considered explaining asset conversion.
+
+I chose life.
+
+After dinner, the kitchen needed a lamp earlier than usual because the moved shelf now blocked part of the light from the courtyard door.
+
+Cala lit one.
+
+I looked at the small flame.
+
+Then at the wall.
+
+Then thought about a white-gold bar walking through Carrow because a bakery wanted to see seeds on a table.
+
+Magic in my old imagination had always wanted to be dramatic.
+
+Fireballs.
+
+Portals.
+
+Weapons.
+
+Impossible towers.
+
+Carrow kept using it to dry walls and brighten workbenches.
+
+I liked that more than I knew how to explain.
+
+Upstairs, I put the new scrap beside the horse page instead of replacing it.
+
+The old page was still useful.
+
+Just full.
+
+That was different from finished.
+
+I looked at the three copper once before bed.
+
+Still three.
+
+Then at the three free scraps.
+
+Also still three.
+
+For the first time, the scraps seemed like the better haul.

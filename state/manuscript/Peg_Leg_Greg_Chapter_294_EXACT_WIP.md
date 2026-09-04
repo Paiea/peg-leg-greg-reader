@@ -1,1011 +1,833 @@
 # CHAPTER 294
 
-## THE USUAL
+## THE DOOR WEIGHT
 
-Cala's shopping note contained four words and one number.
+The front door tried to eat my crutch.
 
-`SOAP`
-`WICK`
-`ONIONS 2`
-`MINT`
+This was unfair because I had been using the door for months and it had shown no previous appetite.
 
-I read it twice.
+I pushed it open with my shoulder, planted the right crutch beyond the threshold, moved through, and the door swung back faster than expected.
 
-Not because it was difficult.
-
-Because the last time somebody had given me a household errand, I had carried salt against my chest like a nervous smuggler.
-
-This time I had a bag.
-
-I put the note inside.
-
-Cala watched.
-
-"Money."
-
-"An important second component."
-
-She handed me a small cloth fold tied once around a few bits.
-
-Household money.
-
-Not mine.
-
-I tucked it into the inner corner of the bag, separate from the notes and charcoal.
-
-"Change comes back," I said.
-
-Cala looked at me.
-
-"Yes."
-
-"I was stating policy."
-
-"Mm."
-
-The three private copper remained upstairs.
-
-I did not touch them.
-
-The bag stayed on its first notch.
-
-I left.
-
-The front door closed softly behind me.
-
-That was becoming ordinary too.
-
-The morning market had reached the stage between setup and crowding. Stalls were open. Sellers were awake. Customers had not yet formed into the kind of moving wall that made two crutches and one right foot feel like a civic negotiation.
-
-I liked that hour.
-
-I could see the ground.
-
-This was an underrated luxury.
-
-The note stayed flat in the bag.
-
-I knew because I checked once at the first corner.
-
-Then I stopped checking.
-
-That was the point of the bag.
-
-Two red onions came first.
-
-The produce stall had six kinds arranged in shallow baskets, which was five more kinds of onion than most meals deserved.
-
-I knew the household onions.
-
-Small red ones. Sharp. Good in broth. Cala bought them often enough that I had cut them under supervision and been told my pieces were too large, too small, and then acceptable in three consecutive minutes.
-
-I pointed.
-
-"Two."
-
-The seller picked two.
-
-"These?"
-
-"Yes."
-
-She weighed them in one hand.
-
-Not on a scale.
-
-Just her hand.
-
-Then she named the price.
-
-I paid from Cala's cloth fold.
-
-The onions fit inside the bag beside the notes.
-
-The shape was worse than paper.
-
-Still manageable.
-
-I closed the flap.
-
-The stay bead blinked once when I turned away from the stall.
-
-The bag settled.
-
-No ceremony.
-
-At the chandler, the wick question was slightly harder.
-
-There were six coils hanging behind the counter.
-
-Flat wick. Round wick. Thin blue-burn cord. Heavy hearth cord. Two treated varieties for lamps that had better opinions of themselves than ours did.
-
-The seller said, "Which?"
-
-I knew our lamp.
-
-Old oil lamp. Plain burner. Narrow mouth. Nothing exotic.
-
-I held up two fingers at the approximate wick width.
-
-"Flat. This wide."
-
-He cut a length.
-
-"Long?"
-
-"Household lamp. One replacement."
-
-He cut less.
-
-Good.
-
-I had bought and replaced lamp wick in my first life enough times that the transaction needed no education.
-
-The cord had a short blackened mark near one end.
-
-Trim mark.
-
-Common.
-
-The seller wrapped it in scrap paper and tucked the end under itself.
-
-I paid.
-
-The packet went into the bag.
-
-Onions below.
-
-Wick above.
-
-The arrangement mattered more than I expected.
-
-If I put the wick under the onions, I would arrive home with an agricultural opinion pressed into it.
-
-At nineteen, logistics had become intimate.
-
-The mint stall was farther along the lane.
-
-Dried bunches hung from a line under the awning.
-
-Green. Gray-green. One nearly black variety that smelled sharp enough to clear my nose from four steps away.
-
-Cala's note said only `MINT`.
-
-That was the first problem.
+The lower edge caught the crutch shaft with a wooden knock.
 
 I stopped.
 
-The seller was an older woman with both hands stained green at the fingertips.
+The door stopped.
 
-"Mint," I said.
+We considered each other.
 
-She looked behind her.
+"No," I told it.
 
-This was not helpful because approximately a third of the stall was mint.
+Cala looked up from the courtyard.
 
-"Which?"
+"Door."
 
-"That is the question."
+"Yes. I identified the attacker."
 
-She waited.
+I pushed it open again and stepped fully inside.
 
-I opened the bag and took out the note.
+The door swung shut behind me with more force than usual.
 
-"Household cooking. Cala sent me."
+Not a slam.
 
-The woman looked at the note.
+Close.
 
-Then at me.
+Tavi came running because any object making a new sound was automatically entertainment.
 
-"Cala from the narrow court by the blue door?"
-
-"Our door is not blue."
-
-"Back door."
-
-"We have a back door?"
-
-She stared at me.
-
-I reconsidered the architecture of my life.
-
-"Possibly."
-
-She pointed at a gray-green bunch.
-
-"That."
-
-"How do you know?"
-
-"She buys it."
-
-Reasonable.
-
-"Often?"
-
-"Enough."
-
-I smelled it.
-
-Ordinary dry mint. Strong, clean, slightly bitter.
-
-I knew the type.
-
-I just had not known it was Cala's type.
-
-"Small bunch."
-
-The woman tore off half a tied bundle.
-
-"She takes half."
-
-Of course she did.
-
-I paid.
-
-She wrapped the mint in thin paper.
-
-The packet fit against the flat back of the bag.
-
-I looked at the onions.
-
-Then at the mint.
-
-Then rearranged everything so the onions could not turn the leaves into seasoning before we reached home.
-
-The woman watched.
-
-"New bag?"
-
-"To me."
-
-"Good."
-
-"Thank you."
-
-"Too much onion."
-
-"There are two."
-
-"Too much for mint."
-
-That was a more precise criticism.
-
-I moved the onions lower.
-
-She nodded.
-
-I left.
-
-Three items.
-
-One word remained.
-
-`SOAP`
-
-That should have been easiest.
-
-It was not.
-
-The soap seller worked near the lower edge of the market where the awnings narrowed and the street tilted toward the wash court.
-
-I knew the stall.
-
-Blocks stood in rows on slatted wood.
-
-Brown.
-
-Gray.
-
-Yellow.
-
-One pale green that smelled like pine and cost enough that I had previously assumed it contained legal advice.
-
-I held up the note.
-
-"Brown household soap."
-
-The seller looked at me.
-
-"Cala's?"
-
-I lowered the note.
-
-"Apparently everybody knows Cala except me."
-
-He smiled.
-
-"Cala's brown?"
-
-"That is what I was going to buy."
-
-"Out."
-
-He pointed at an empty section of slat.
-
-There were crumbs.
-
-This seemed disrespectful.
-
-"When?"
-
-"Tomorrow."
-
-I looked at the note again.
-
-It continued to say `SOAP`.
-
-No emergency language.
-
-No specification.
-
-No helpful addendum such as `IF BROWN SOAP UNAVAILABLE, DO NOT IMPROVISE`.
-
-I looked at the other blocks.
-
-"Gray?"
-
-"Strong."
-
-"I know."
-
-"Yellow."
-
-"I also know yellow soap exists."
-
-He waited.
-
-"Does Cala buy either when brown is out?"
-
-The seller picked up a yellow block.
-
-"Yellow."
-
-"Usually?"
-
-"If brown gone."
-
-That was useful.
-
-"Gray never?"
-
-"For pots maybe. Not hands."
-
-Cala washed pots.
-
-Cala also had hands.
-
-The distinction remained inadequate.
-
-I asked, "Same yellow every time?"
-
-He turned the block.
-
-One corner was chipped.
-
-"Today this."
-
-"Because?"
-
-"Chipped."
-
-"Cheaper?"
-
-"Same."
-
-"Then why this one?"
-
-He shrugged.
-
-"Smaller."
-
-I laughed.
-
-"Your sales technique is unusual."
-
-"She cuts."
-
-Ah.
-
-A smaller block could be enough if she was cutting it for use rather than storing a full brick.
-
-Maybe.
-
-Or he was giving me a chipped block because he had one.
-
-I had evidence, not certainty.
-
-"How much?"
-
-He named the price.
-
-I counted the household bits.
-
-Enough.
-
-With change.
-
-I did not need to use my copper.
-
-That had not really been in question, but I liked confirming it.
-
-I picked up the yellow block.
-
-The smell was lighter than the brown soap Cala usually kept near the basin.
-
-I had seen yellow ash soaps before. Softer on skin, less aggressive on grease, depending on ash and fat. Nothing magical about the category.
-
-This one had three tiny blue grains pressed into one face.
-
-That was ordinary too.
-
-Drying grains.
-
-Cheap soapmakers used them to pull excess damp during storage. Better shops used racks and time. Fast shops used both.
-
-I pressed the surface lightly.
-
-Firm.
-
-No weeping.
-
-No crack except the chipped corner.
-
-"Fresh?"
-
-"Two days."
-
-"Grains spent?"
-
-He scraped one blue grain with his thumbnail.
-
-It crumbled pale.
-
-"Mostly."
-
-Fine.
-
-I was not buying a magical artifact.
-
-I was buying soap.
-
-The seller wrapped it.
-
-Before I paid, I asked, "Cala takes yellow when brown is gone. You're sure?"
-
-He looked offended.
-
-"I sell her soap."
-
-There was an entire profession inside that sentence.
-
-I paid.
-
-He gave me change.
-
-I counted it once.
-
-Not because I distrusted him.
-
-Because it was Cala's money.
-
-Then I put the change back in the cloth fold and the soap into the bag.
-
-Onion problem.
-
-Mint problem.
-
-Soap problem.
-
-I rearranged.
-
-Soap flat against the outer wall.
-
-Mint high.
-
-Wick beside notes.
-
-Onions low.
-
-The bag closed.
-
-I stood.
-
-The weight pulled slightly more at my shoulder than it had with two test onions yesterday, but not much.
-
-I turned the stay bead to the first notch.
-
-Green blink.
-
-Settle.
-
-The bag stayed in.
-
-The seller watched me.
-
-"Good bead."
-
-"Old bead."
-
-"Good old bead."
-
-"Fair."
-
-I started away.
-
-He said, "Tell Cala brown tomorrow."
-
-"I will."
-
-There it was.
-
-A message acquired accidentally.
-
-The bag had become useful enough to generate more cargo simply by existing.
-
-At the next corner, I stopped beneath an awning and took out the shopping note.
-
-All four items.
-
-Done.
-
-I considered writing `BROWN SOAP TOMORROW` on the bottom.
-
-Then I looked at the charcoal.
-
-Then at my hands.
-
-One on each crutch.
-
-The note could remain unwritten.
-
-I could remember one sentence for six streets.
-
-This was a daring cognitive experiment.
-
-I put it back.
-
-The market had thickened while I shopped.
-
-A pair of porters came through with a long pole between them, baskets hanging from either end.
-
-A woman moved sideways with three clay jars nested in a hip sling.
-
-A boy carried a tray of hot buns on one palm while a little heat-shedding charm under the tray flickered orange against his sleeve.
-
-I knew the charm.
-
-I knew the buns.
-
-I wanted the buns.
-
-I had household money in my bag.
-
-This created no ambiguity.
-
-I walked past.
-
-Maturity had become exhausting.
-
-Near the crossing, a cart blocked half the lane while a driver argued with a fruit seller about whose wheel belonged where.
-
-I could have gone around the back.
-
-The paving there was rough.
-
-Instead I waited.
-
-Not long.
-
-The driver moved.
-
-I crossed.
-
-The new bag did not catch the cart.
-
-The soap did not escape.
-
-The onions remained onions.
-
-This chapter was achieving remarkable stability.
-
-Halfway home, I remembered the seller's message.
-
-Brown tomorrow.
-
-Still there.
-
-Excellent.
-
-At the courtyard door, I opened the flap one-handed.
-
-Lyssa's rotated toggle remained easier.
-
-I took out the note before going inside.
-
-Not because I needed it.
-
-Because I wanted to hand Cala the list and the goods together.
-
-The front door closed behind me.
-
-Cala looked at the bag.
-
-Then at me.
-
-"Done?"
-
-"All four."
-
-She held out her hand.
-
-I gave her the note first.
-
-Then the cloth fold with the change.
-
-She counted.
-
-I pretended not to watch her count.
-
-She looked at me.
-
-"Good."
-
-"Again, your faith in my financial character is moving."
-
-"Soap?"
-
-"Yellow."
-
-She paused.
-
-"Brown gone."
-
-"Yes."
-
-"Tomorrow."
-
-"That was the message."
-
-She nodded.
-
-Good.
-
-I had not misunderstood the seller.
-
-I took the yellow soap from the bag.
-
-She looked at the chipped corner.
-
-Then at me.
-
-"He gave this?"
-
-"Yes."
-
-"Good."
-
-"Why good?"
-
-"Small."
-
-"The seller said you cut it."
-
-"Mm."
-
-"Why not buy a full yellow block?"
-
-She took the soap toward the kitchen.
-
-"Don't need."
-
-That was the entire purchasing philosophy.
-
-Need one.
-
-Buy one.
-
-Or half.
-
-Or the chipped smaller block.
-
-No reverence for unit price.
-
-No speculation.
-
-No inventory strategy.
-
-I respected it enough not to say so.
-
-Next came the wick.
-
-She checked the width between finger and thumb.
-
-"Good."
-
-Then mint.
-
-She smelled it.
-
-"Good."
-
-Then onions.
-
-She looked at both.
-
-One had a soft spot near the root I had not noticed.
-
-Cala pressed it.
-
-I leaned closer.
-
-"Bad?"
-
-"Use first."
-
-Not bad.
-
-Order mattered.
-
-She put that onion on the counter nearest the knife.
-
-The other went into the basket.
-
-There was an entire household supply system conducted without a ledger.
-
-I had four notes upstairs proving I did not believe in such things.
-
-"Anything wrong?" I asked.
+"Again."
 
 "No."
 
-That felt better than I expected.
+"Again."
 
-Not because the errand had been difficult.
+"The door and I are no longer performing."
 
-It had not.
+He pushed it open.
 
-That was the point.
+The door pulled itself from his hand and shut.
 
-I had taken a note, household money, and two crutches.
+He laughed.
 
-I had returned with what the household expected.
+Cala did not.
 
-Almost.
+She came over and opened it halfway.
 
-The soap had changed.
+The upper hinge gave a faint dry squeak.
 
-But not by guess.
+Then the door accelerated through the last third of its travel.
 
-By the merchant who knew Cala's usual.
+"Wind?" I asked.
 
-That part stayed with me.
+Cala shook her head.
 
-"Mint woman knows you too," I said.
+I knew weighted doors.
 
-Cala was cutting the yellow soap into two smaller pieces.
+Spring doors. Counterweighted doors. Charm-close doors. Draft-close doors. Heat doors. Smoke doors. Privacy doors. Doors that locked themselves at night and one memorable guild door that opened only for people wearing the correct badge, which had led to an entire afternoon of very powerful adults shouting at a wall because somebody had changed the roster.
 
-"Who?"
+This one was simple by comparison.
 
-"Green fingers. Near the hanging bundles."
+At least it had always seemed simple.
 
-Cala nodded immediately.
+I looked above the frame.
 
-"Senna?"
+A narrow wooden box sat over the inner lintel.
 
-I had not gotten the woman's name.
+I had seen it every day.
 
-"Apparently."
+A cord disappeared into one end.
 
-"Good mint."
+"Weight box?" I asked.
 
-"She knew which one you buy."
+Cala nodded.
 
-"She sells mint."
+Good.
 
-There it was again.
+Not a discovery.
+
+A problem.
+
+"Always this fast?"
+
+"No."
+
+"Today?"
+
+"Morning."
+
+"After rain?"
+
+She shrugged.
+
+That was not evidence.
+
+I opened the door slowly.
+
+The cord above tightened.
+
+Inside the lintel box, something rolled with a soft stone sound.
+
+Not a hanging counterweight then, or not only one. I knew the class broadly. Some door closers used a weighted runner inside a channel, sometimes with a drag strip or low holding charm to keep the final pull controlled.
+
+I did not know this box.
+
+I also did not need to open it.
+
+The door shut again.
+
+Fast near the end.
+
+I watched the gap.
+
+The lower edge met the jamb cleanly.
+
+No obvious sag.
+
+Hinges looked seated.
+
+Cord did not fray where visible.
+
+"Has it hit anyone?" I asked.
+
+"No."
+
+"Caught fingers?"
+
+"No."
+
+"Tavi?"
+
+"No."
+
+Tavi said, "Again."
+
+"Your testimony is compromised."
+
+Cala pointed at him.
+
+"No door."
+
+He went away with the particular tragedy of a child denied repetitive impact testing.
+
+I checked the floor where the door traveled.
+
+Dry.
+
+No grit under the sweep.
+
+The threshold had stayed dry through yesterday's rain.
+
+The rain shelf remained innocent.
+
+That was useful mostly because it stopped my brain from building an unnecessary theory connecting every household system into one conspiracy.
+
+"Do we need it fixed today?" I asked.
+
+Cala looked at the door.
+
+"Need slow."
+
+That was yes.
+
+"Who usually does doors?"
+
+"Olan."
 
 Of course.
 
-The city was full of people whose expertise included not only objects, but customers.
+Olan had already solved the cupboard latch before I could turn that into a career.
 
-Who took which soap.
+I respected him for this despite barely knowing him.
 
-Who bought half a bundle.
+"Can he come?"
 
-Who preferred a certain wick.
+"Working."
 
-Who came back tomorrow.
+"Later?"
 
-Old Greg had known quartermasters who could provision fifty people across a month and remember who required what salve after rain.
+"Maybe."
 
-I had treated that as impressive because armies made everything dramatic.
+I opened the door again.
 
-Cala buying mint from the same woman often enough to be remembered was the same kind of knowledge at household scale.
+The weight rolled.
 
-Smaller stakes.
+The last third pulled hard.
 
-Same human machinery.
+A simple practical question presented itself.
 
-Lyssa came downstairs and saw the goods.
+Could we make the door safe enough until Olan looked at it without pretending to repair the mechanism?
 
-"Yellow."
+That was a better question than what was wrong inside the box.
 
-"Brown was out."
+I looked around the courtyard.
 
-"Cala yellow when brown out."
+"Do we have a wedge?"
 
-I stared at her.
+Cala pointed toward the kitchen.
 
-"You knew too."
+There was a small wood wedge under the moved shelf.
+
+I picked it up.
+
+"For door?"
+
+"Shelf."
+
+"Then not for door."
+
+She gave me a look.
+
+"Temporary borrowing with informed consent?"
+
+"No."
+
+Clear.
+
+I put it back.
+
+We had scrap wood. Most households did. But a wedge holding the door fully open would solve closing by eliminating closing, which was not necessarily useful if Cala wanted the front door closed.
+
+I looked at the latch.
+
+"Does it need to stay shut?"
 
 "Yes."
 
-"I live in a conspiracy of soap knowledge."
+There went my revolutionary open-door policy.
 
-She picked up one of the cut pieces.
+"Then Olan."
 
-"Wash."
+Cala nodded.
 
-"I understand soap."
+I had contributed almost nothing.
 
-She smiled.
-
-Tavi arrived because the presence of onions had apparently summoned him.
-
-"Bag."
-
-"The bag has completed its first official mission."
-
-"Fish?"
-
-"No fish."
-
-"Rock?"
-
-"No rock."
-
-He looked inside anyway.
-
-Empty now except for my notes and charcoal.
-
-"Mine?"
-
-"Still no."
-
-Cala handed him the softer onion.
-
-I looked at her.
-
-"You're giving him the one we need to use first?"
-
-"Carry kitchen."
-
-Tavi carried it six feet.
-
-Success.
-
-No stay bead required.
+This was becoming another skill.
 
 I went upstairs.
 
-Three copper remained.
+The four copper were still there.
 
-I checked because they existed.
+I did not interpret the broken door as a divine message that capital should finally be deployed.
 
-Not because I planned to spend one.
+Household repair was not automatically my private business expense.
 
-The bag went on its peg beside the table.
+Also, I did not own the house.
 
-I removed the household shopping note from it.
+This seemed relevant.
 
-For a moment I considered keeping it.
+Lyssa was already gone.
 
-First errand with the bag.
+The three clean sheets remained under the stack. The horse page remained full. The scrap with the rain-thread price and road notes had become crowded enough that any additional writing would require either smaller handwriting or admitting that paper had uses.
 
-First use of the equipment.
+I chose neither.
 
-Evidence.
+I went out through the door carefully.
 
-Then I looked at the note.
+It tried to close on my left crutch this time.
 
-`SOAP`
-`WICK`
-`ONIONS 2`
-`MINT`
+"Vindictive," I said.
 
-It had already done its job.
+Cala called from behind me, "Door."
 
-I took it downstairs.
+"I know."
 
-"Cala."
+Outside, Carrow had dried almost completely.
 
-She looked up.
+The lower gutters still carried thin water. A laundry line crossed one upper window. Someone had hung six pale shirts in order of size, which made me wonder whether the smallest belonged to a child or simply a very disappointing adult.
 
-"Keep?"
+I walked toward the upper market.
 
-She shook her head.
+Not because of the door.
 
-"Fire."
+Mostly.
 
-I handed it over.
+I had no plan to find Olan. Cala had said he was working, not where. Carrow contained enough people named Olan that searching by first name would have been a poor municipal strategy anyway.
 
-She tucked it beside the kindling.
+I wanted breakfast again.
+
+This was a legitimate second purpose for leaving the house.
+
+At a corner stall, I spent no money because I had none with me.
+
+This flaw in the plan became apparent only after I had looked at fried dough for too long.
+
+The seller said, "You buying?"
+
+"Emotionally."
+
+"Copper."
+
+"Financially, no."
+
+He turned to someone useful.
+
+I moved on.
+
+A few doors later, I noticed a shop entrance closing in exactly the way ours should have.
+
+Slow through most of the swing.
+
+Slower at the end.
+
+Soft contact.
+
+I stopped outside.
+
+The shop sold ceramic jars, lamp bowls, and shallow trays. The door itself was narrow, painted dark red, with a lintel box larger than ours.
+
+A woman came out carrying two wrapped bowls.
+
+The door followed her.
+
+Controlled.
+
+I watched the upper cord.
+
+Different arrangement.
+
+Two cords instead of one.
+
+Not useful as direct comparison.
+
+The shopkeeper saw me through the doorway.
+
+"You coming?"
+
+"No."
+
+He waited.
+
+"Your door closes nicely."
+
+He looked at the door.
+
+Then at me.
+
+"Thank you?"
+
+"Mine doesn't."
+
+"Then fix yours."
+
+Excellent local wisdom.
+
+I should have left.
+
+Instead I asked, "Who maintains your closer?"
+
+He pointed across the lane.
+
+Not at a person.
+
+At a narrow shop with three wooden frames leaning against the wall.
+
+"Sella."
+
+That was actual information.
+
+"Door work?"
+
+"Frames, shutters, closers."
+
+"Thanks."
+
+He nodded and returned to his jars.
+
+I crossed the lane.
+
+The narrow shop had no sign I could read from the street, just the frames and a bench under the awning. A woman sat on the bench shaving a strip of wood with a drawknife.
+
+Gray hair tied high. Thick forearms. Leather apron. No visible mana tool.
+
+I did not ask whether she was Sella.
+
+I said, "Do you work on door closers?"
+
+She kept shaving.
+
+"Sometimes."
+
+"Household weight box over lintel. Single visible cord. Started pulling hard near the end this morning."
+
+The drawknife stopped.
+
+That was better than asking what a door was.
+
+"Box wood or iron?"
+
+"Wood."
+
+"Cord side?"
+
+"Inside right when facing out."
+
+"Door opens in?"
+
+"Yes."
+
+"Rain yesterday?"
+
+"Yes, but threshold stayed dry."
+
+"Box wet?"
+
+"Not that I saw."
+
+"Squeak?"
+
+"Upper hinge, faint."
+
+"Roll sound in box?"
+
+"Yes."
+
+She set the drawknife down.
+
+"Could be drag strip shifted. Could be runner clean now because damp swelled then dried. Could be cord moved. Could be hinge making it feel worse. Could be box cracked inside."
+
+A list of possibilities.
+
+Not a diagnosis.
+
+I liked her too.
+
+"Safe to use?"
+
+"How hard?"
+
+"Hard enough to catch a crutch if I'm slow through it. Not slamming."
+
+She looked at the crutches.
+
+"Children?"
+
+"One."
+
+"Keep him off it. Hold door when passing. Fix soon."
+
+Practical.
+
+"Would you need to see it?"
+
+"Yes."
+
+"Of course."
+
+"Where?"
+
+I told her the lane and described the courtyard entrance.
+
+She recognized the row, not the house.
+
+"Today?"
+
+"I don't own the house."
+
+She picked up the drawknife again.
+
+"Then why asking me?"
+
+Fair.
+
+"I live there. Cala handles the house. Olan usually does doors, apparently. He's working. I wanted to know whether this was hold-it-carefully-until-later or stop-using-it-now."
+
+She resumed shaving.
+
+"Careful until later if no crack, no fray, no slam. If worse, stop."
+
+"Thank you."
+
+"One bit if I come look. More if parts."
+
+There was a price.
+
+I did not reach for money I did not have.
+
+More importantly, I did not hire her.
+
+"I'll tell Cala."
+
+Sella nodded.
+
+I left.
+
+That was a clean piece of information.
+
+One bit to inspect, more if parts.
+
+Olan remained the household's usual door person.
+
+Sella was an available alternative only if Cala wanted one.
+
+I could carry that home without converting it into a contract.
+
+This restraint thing was getting repetitive enough that I worried I might actually be learning.
+
+On the way back, I saw a street performer balancing three green glass balls on the backs of his hands.
+
+I knew the trick.
+
+Not the exact routine, but the broad technique. Weight, timing, finger control, maybe a little adhesion charm depending on whether he was honest.
+
+I watched for thirty seconds.
+
+One ball paused against gravity a fraction too long.
+
+Adhesion charm.
+
+He caught me noticing.
+
+I raised my eyebrows.
+
+He winked.
+
+No explanation required.
+
+I had lived in this world a long time.
+
+Sometimes magic was just a man cheating beautifully in public.
+
+I continued home.
+
+The front door was propped open.
+
+Not with the shelf wedge.
+
+A brick held it.
+
+I looked at Cala.
+
+"You said it needed to stay shut."
+
+"Olan coming."
+
+"Ah."
+
+"Soon."
+
+I pointed at the brick.
+
+"Temporary borrowing with informed consent?"
+
+"Brick."
+
+"Hard to argue with the licensing structure."
+
+Tavi sat six feet away under explicit exile from the door.
+
+"Door bad," he told me.
+
+"Your technical judgment has improved."
+
+Olan arrived before I could explain Sella.
+
+He was older than I had remembered from the cupboard-latch day, or maybe I had not looked closely then. Narrow shoulders, dark cap, tool roll under one arm. He greeted Cala, nodded at me, and went straight to the door.
+
+No ceremony.
+
+Cala removed the brick.
+
+Olan opened the door halfway.
+
+It pulled shut.
+
+He caught it with one hand.
+
+Opened it again.
+
+Listened.
+
+Then he looked at the upper hinge.
+
+"Oil."
+
+I almost said that could not explain the late acceleration.
+
+I did not.
+
+He took a tiny bottle from the roll, put one drop at the hinge pin, worked the door twice, and listened again.
+
+The squeak vanished.
+
+The door still pulled hard at the end.
+
+Olan looked at me.
+
+I said nothing.
+
+This required strength.
+
+He reached up to the lintel box.
+
+The front panel had two little wooden catches I had not noticed. He turned them with his thumbnail and lowered the panel.
+
+Inside was a narrow channel.
+
+A stone runner the size of two fingers sat in it, connected to the cord.
+
+A dark felt-like strip ran along the final third of the channel.
+
+The strip had peeled loose at one end and folded back on itself.
+
+There was the drag.
+
+Or rather, the missing drag.
+
+The runner traveled freely until it reached the folded strip, then hopped over it and pulled the door through the final part of the swing.
+
+Olan touched the strip.
+
+"Loose."
+
+Cala said, "Fix?"
+
+"Yes."
+
+He did not replace it.
+
+He took a thin flat blade, lifted the strip, scraped old pale adhesive from the wood, and rubbed the underside of the strip between his fingers.
+
+Then he opened a waxed paper packet from his tool roll and pinched out a grainy gray paste.
+
+I recognized binder paste broadly.
+
+Not the recipe.
+
+He spread a very thin layer beneath the strip.
+
+No mana.
+
+Pressed it flat.
+
+Then he held two fingers over it.
+
+A faint yellow warmth appeared under his fingertips.
+
+One pulse.
+
+Low setting charm or hand-cast set effect. Common enough.
+
+The paste dulled.
+
+He waited longer than the magic lasted.
+
+That part interested me.
+
+"Set time after pulse?" I asked.
+
+Olan glanced at me.
+
+"Yes."
+
+"How long?"
+
+"Enough."
+
+Cala smiled.
+
+I was surrounded by specialists committed to destroying measurement.
+
+Olan closed the panel and tested the door.
+
+Slow.
+
+Slower at the end.
+
+Soft contact.
+
+He opened it again and let Tavi watch from a safe distance.
+
+Same result.
+
+Then he handed the door to me.
+
+I went through with both crutches.
+
+The door followed without trying to take either one.
+
+"Good," I said.
+
+Olan nodded.
+
+Cala asked, "How much?"
+
+"One bit."
+
+Same as Sella's inspection price, though Olan had repaired it.
+
+That comparison meant almost nothing without knowing relationship, normal rates, parts, travel, favor, or whether Cala and Olan settled work differently.
+
+I did not write a market report in my head.
+
+Cala paid him from household money.
+
+Not my four copper.
+
+Olan rolled his tools.
+
+I said, "I asked Sella across from the jar shop about it before I came back. She said one bit to look, more for parts. I didn't hire her."
+
+Cala nodded.
+
+"Sella good."
+
+"You know her?"
+
+"Yes."
 
 Of course.
 
-The document retention policy was severe.
-
-That afternoon the yellow soap sat in two pieces beside the basin.
-
-The soft onion disappeared into a pot.
-
-The new wick stayed wrapped on the shelf.
-
-The mint hung from a small hook to keep it dry.
-
-Every item moved immediately into a place I had seen before.
-
-Nothing became special because I had bought it.
-
-That was satisfying.
-
-Later, I washed my hands with the yellow soap.
-
-It smelled faintly of warm ash and something citrusy I could not name.
-
-Lyssa passed behind me.
-
-"Good?"
-
-"It's soap."
+"Then I have successfully introduced you to someone you already know."
 
 "Good."
 
-"Everyone keeps saying that."
+Olan left.
 
-She dried her hands.
+The door closed behind him perfectly.
 
-"Because good."
+Tavi pushed it open.
 
-I could not defeat the argument.
+Cala said, "No."
 
-The next morning, Cala did not give me another list.
+He let go.
 
-That also felt important.
+The door closed perfectly again.
 
-One successful errand had not promoted me to household procurement officer.
+He looked disappointed.
 
-I ate breakfast.
+Apparently correct function had less entertainment value.
 
-Tavi dropped bread.
+Upstairs, I finally started a new scrap.
 
-Lyssa told him to pick it up.
+Not a clean sheet.
 
-The door worked.
+There was still the reverse of an older household mark near one edge of a narrow piece Cala had put aside for kindling. I asked before taking it.
 
-The rain shelf worked.
+She said yes.
 
-My bag hung where I had left it.
+I wrote:
 
-The city continued without assigning me a role.
+`DOOR CLOSER: LATE HARD PULL WAS LOOSE DRAG STRIP IN RUNNER CHANNEL.`
 
-When I went out later, I passed the soap stall by chance.
+Then:
 
-Brown blocks were back on the slats.
+`OLAN: RESEATED OLD STRIP, BINDER PASTE + ONE SET PULSE. WAITED AFTER PULSE.`
 
-The seller saw me looking.
+Then I stopped.
 
-"Cala?"
+I almost added Sella's price.
 
-"Not today."
+I did not.
 
-He nodded.
+That price had been for a hypothetical visit. Olan's one bit had been an actual household repair. Different conditions. Recording them side by side would invite a comparison the evidence did not support.
 
-I kept walking.
+I wrote instead:
 
-I knew which block she would want next time.
+`SELLA: CAREFUL USE IF NO CRACK / FRAY / SLAM. STOP IF WORSE.`
 
-I did not need to buy it early.
+That was useful.
 
-That might have been what knowing the usual was for.
+The four copper remained untouched beside the new scrap.
+
+Lyssa came home near evening.
+
+The front door closed behind her softly.
+
+She looked back at it.
+
+"Fixed."
+
+"Olan."
+
+"Mm."
+
+"Loose drag strip in the closer."
+
+"Mm."
+
+"I also consulted a second door specialist without hiring her."
+
+Lyssa took off her outer wrap.
+
+"Why?"
+
+"Because Olan had not arrived yet."
+
+"Door broken?"
+
+"It tried to eat my crutch."
+
+She looked at the crutch.
+
+"Crutch okay?"
+
+"Yes."
+
+"Then door hungry."
+
+I stared at her.
+
+"Tavi has been spreading misinformation."
+
+She smiled.
+
+Downstairs the door opened again.
+
+Someone came in.
+
+It closed softly.
+
+No drama.
+
+No magic worth announcing.
+
+No new client.
+
+No money earned.
+
+A household problem had appeared, belonged to the household, and been solved by the person Cala already trusted to solve it.
+
+I had learned something anyway.
+
+That might have been the part Old Greg understood least.
+
+Not every useful thing I knew had to become mine.

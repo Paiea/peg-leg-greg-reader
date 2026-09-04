@@ -1,1125 +1,1247 @@
 # CHAPTER 280
 
-## THE REPEAT
+## THE APPRAISER
 
-Hessa's note arrived inside a cabbage leaf.
+The expensive thing was ugly.
 
-This was not magical.
+That helped.
 
-It was worse.
+If it had been beautiful, I might have distrusted myself sooner.
 
-Tavi had folded the leaf around the paper because he said the note looked cold.
+Instead it sat in a locked glass cabinet between a silver-backed hand mirror and a green stone cup with three handles, looking like somebody had taken a good brass ring, flattened it with a hammer, and then regretted stopping.
 
-"Paper does not get cold," I said.
+I was not shopping.
 
-"This one did."
+This is important.
 
-"How?"
+I had gone to the west market because Lyssa wanted lamp oil and I wanted to see whether the man near the spice row still sold fried onions in paper cones.
 
-"Outside."
+He did.
 
-That was technically possible.
+The onions were excellent.
 
-I took the note.
+The lamp oil was less interesting.
 
-The cabbage leaf was damp and had left a green smear along one edge.
+Then I saw the cabinet.
 
-"Where did you get this?"
+The shop behind it had no sign I could read from the street. Just a painted black key over the door and two narrow windows crowded with objects that had failed to become antiques politely.
 
-"Cala."
+Bent candlesticks.
 
-"The note or the cabbage?"
+A cracked blue basin.
 
-"Yes."
+Three knives with no matching handles.
 
-Tavi ran away.
+A brass bird missing one wing.
 
-I stood in the courtyard holding a damp summons and reconsidered every choice that had led me to becoming locally reachable by children.
+A box of buckles.
 
-The note said:
+Two pieces of chain thick enough to restrain something ambitious.
 
-`Tomorrow. Same time. Rested. Bring nothing.`
+And the cabinet.
 
-Below that, in smaller writing:
+The ring was not actually a ring.
 
-`No cabbage.`
+Too large for a finger.
 
-I looked toward Cala's doorway.
+Too small for a wrist.
 
-She was not visible.
+A flattened brass loop about the width of my palm, with a black iron pin through one side and six tiny square notches around the inner edge.
 
-"Hessa knows," I said to nobody.
+The metal was dull.
 
-Maris, hanging a cloth over the rail above me, said, "Everybody knows."
+No glow.
 
-I went upstairs.
+No obvious magic.
 
-Lyssa was not home yet.
+A paper tag hung from the pin.
 
-One copper from Halei sat with my private money.
+I could read the price from outside.
 
-One had gone to the household table.
+I stopped chewing.
 
-The ugly arithmetic page remained folded beneath a bowl.
+Lyssa took three more steps before noticing.
 
-I added nothing to it.
-
-Not because I had stopped thinking about capital.
-
-Because a note from Hessa did not become an investment opportunity merely because I had recently learned the word client could apply to me.
-
-Some parts of my life did not need to merge.
-
-That was becoming difficult to preserve.
-
-The next morning I ate before leaving.
-
-No cabbage.
-
-No paper.
-
-No coin selected for luck.
-
-No ceramic sleeve theory smuggled into conversation.
-
-I had not visited Kes.
-
-I had not visited Jori.
-
-I had not checked whether Halei went to Noll.
-
-I had slept well.
-
-My right shoe remained flat at the repaired heel.
-
-Residual limb comfortable.
-
-Hands ordinary.
-
-Shoulders ordinary.
-
-The Guild room looked almost exactly as it had nine chapters ago.
-
-That made it feel stranger than if Hessa had changed everything.
-
-Same narrow wooden board.
-
-Same three marks.
-
-Near.
-
-Middle.
-
-Far.
-
-Same pale paper square.
-
-Or a square that looked the same.
-
-The glass apparatus was still absent.
-
-Hessa sat behind the table with her notebook open.
-
-I stopped in the doorway.
-
-"Repeat."
-
-"Maybe."
-
-"You summoned me to say maybe in person."
-
-"Sit."
-
-I sat.
-
-She held out her hand.
-
-"Note."
-
-I gave it to her.
-
-She looked at the green smear.
-
-"Cabbage."
-
-"Not mine."
-
-"I wrote no cabbage."
-
-"After the cabbage happened."
-
-"Correct."
-
-"How did you know?"
-
-"Cala sent the boy."
-
-"I live inside a conspiracy."
-
-Hessa put the note aside.
-
-"Body first."
-
-The questions came in their familiar order.
-
-Sleep.
-
-Food.
-
-Pain.
-
-Independent draw.
-
-Independent shaping.
-
-Independent external attempt.
-
-"No. No. No."
-
-"One at a time."
+She turned.
 
 "No."
 
-"Any unusual sensation since last session?"
+"I haven't said anything."
+
+"Your face did."
+
+"My face is innocent."
+
+"Mask yesterday. Shop today. Bad pattern."
+
+"This is not about the mask."
+
+"Worse."
+
+I pointed with the onion cone.
+
+"Do you see that brass loop?"
+
+Lyssa looked.
+
+"Ugly."
+
+"Exactly."
 
 "No."
 
-"Any injury?"
+"Again, I have not proposed anything."
 
-"No."
+"You stopped walking."
 
-"Shoe?"
+That was evidence.
 
-"Still repaired."
+I ate another onion.
 
-"Leg?"
+The price tag remained offensive.
 
-"Fine."
+Not because it was cheap.
 
-"Hands?"
+It was not.
 
-"Fine."
+It was priced in gold.
 
-She checked anyway.
+Actual gold.
 
-Pulse.
+More money than any ordinary object I had seriously considered buying in this life. More than theatre shifts and market covers and cart watches could accidentally become if I piled enough of them together and refused to eat for an unreasonable period.
 
-Grip.
+I did not know the copper-to-silver-to-gold conversion cleanly enough to turn the tag into a neat number in my head.
 
-Forearm.
+I did not need to.
 
-Nothing interesting.
+Gold was gold.
 
-Then she looked at me.
+Lyssa shifted the oil jar under one arm.
 
-"What do you think we are doing?"
+"What is it?"
 
-"Middle again."
+"Maybe nothing."
 
-"Why?"
+"Then walk."
 
-"Because last time near gave one response in three, middle gave none in two, and far was untested. You said middle again was a possibility."
+"Maybe not nothing."
 
-"Anything else?"
+She sighed.
 
-I looked at the board.
+"Five minutes."
 
-"You stopped because I wanted to compensate for distance."
+"Generous."
 
-"Yes."
+"Four."
 
-"So you want to know whether I can repeat the middle block without changing effort."
+I went inside.
 
-"Partly."
+A bell over the door made no sound.
 
-"What is the other part?"
+Instead, a little brass tongue beside the frame flashed red once.
 
-"Whether anything happens."
+The man behind the counter looked up from a ledger.
 
-"You make science sound disappointing."
+He was narrow everywhere except the eyebrows.
 
-"It often is."
+Gray coat.
 
-She moved the square to the middle mark.
+Gray beard.
 
-Not near first.
+Gray hair.
 
-Middle.
+Eyebrows like two black caterpillars refusing age.
 
-My attention sharpened.
+"Oil shop is next door," he said.
 
-"No near block?"
+"We have oil."
 
-"Not today."
-
-"Why?"
-
-"Because I am not trying to recreate the entire prior session."
-
-"Then repeat is wrong."
-
-"I did not say repeat."
-
-"I did."
-
-"Yes."
-
-I stared at the paper.
-
-Same apparent square.
-
-Same bare board.
-
-No glass.
-
-Middle position.
-
-"Same paper?"
-
-"Same square."
-
-That mattered.
-
-"Stored how?"
-
-Hessa looked at me.
-
-"You do not need that yet."
-
-"That means stored intentionally."
-
-"It means begin with what matters to today's permission."
-
-I sighed.
-
-"Permission?"
-
-"Under supervision, today only, you may attempt the same external effect on this paper square at the middle position. Direction away. No other object. No independent change in draw, duration, or method."
-
-"How many?"
-
-"Three planned. I may stop earlier."
-
-"Far?"
-
-"Not selected."
-
-"You brought the mark."
-
-"The board already has the mark."
-
-"Cruel."
-
-"Expectation?"
-
-I looked at the square.
-
-Nine chapters had passed.
-
-That number meant nothing physically.
-
-It meant a great deal emotionally.
-
-I had thought about money more than magic for several days.
-
-That felt almost disloyal.
-
-Then I realized how stupid that was.
-
-Magic did not need loyalty.
-
-It needed evidence.
-
-"Low," I said.
-
-"Why?"
-
-"Zero in two last time at middle."
-
-"Anything else?"
-
-"Distance still feels like it should be harder."
-
-"Evidence?"
-
-"Old-life expectation, not current evidence."
-
-"Anything else?"
-
-I considered.
-
-"I want it to move more because we waited."
-
-Hessa wrote that.
-
-"Why?"
-
-"Because my brain thinks patience deserves payment."
-
-"Does it?"
-
-"No."
-
-"Good."
-
-Attempt sixty-seven.
-
-I settled.
-
-Hand loose.
-
-Shoulder down.
-
-Breathing ordinary.
-
-Minimal permitted draw within the external attempt.
-
-No added reach.
-
-No longer duration.
-
-Away.
-
-Hessa gave the start.
-
-I worked.
-
-Nothing happened.
-
-The paper square remained flat.
-
-I stopped on time.
-
-Hessa checked the board and square.
-
-"No observed response."
-
-I nodded.
-
-That felt almost comfortable.
-
-Not success.
-
-Familiarity.
-
-"Urge to increase?" she asked.
-
-"Small."
-
-"Did you?"
-
-"No."
-
-"Body?"
-
-"Fine."
-
-She checked.
-
-Fine.
-
-Attempt sixty-eight.
-
-Same middle mark.
-
-Same square.
-
-Same direction.
-
-Expectation lower.
-
-I told her.
-
-Start.
-
-I worked.
-
-For the first half, nothing.
-
-Then one edge of the square lifted.
-
-Not much.
-
-A tiny curl upward.
-
-It dropped.
-
-The square did not slide.
-
-I stopped on time.
-
-Hessa moved before I spoke.
-
-She checked the room.
-
-The board.
-
-The paper.
-
-Then she crouched and looked along the board's surface from the side.
-
-I waited.
-
-"Observed edge lift," she said.
-
-My heart kicked.
-
-"Away?"
-
-"No net displacement."
-
-"But response."
-
-"Observed edge lift."
-
-"That is a response."
-
-"It is an observed change during the attempt."
-
-"Hessa."
-
-She looked at me.
-
-"I am not yet calling it an external-effect response."
-
-That hurt more than it should have.
-
-"Why?"
-
-"Because I want to check air movement."
-
-She crossed the room.
-
-The window was shut.
-
-The door had been shut.
-
-She held a thin thread from her notebook near the board.
-
-It hung nearly still.
-
-"Nearly?" I asked.
-
-"Everything moves some."
-
-"The square lifted."
-
-"Yes."
-
-"During the attempt."
-
-"Yes."
-
-"At middle."
-
-"Yes."
-
-"And you are refusing me joy."
-
-"Temporarily."
-
-She wrote.
-
-I watched her.
-
-"What do you call it?"
-
-"Possible response. No net displacement."
-
-Possible.
-
-I could live with possible.
-
-Barely.
-
-"Third?"
-
-Hessa checked my hand.
-
-Forearm.
-
-Pulse.
-
-"Urge to push?"
-
-"Higher."
-
-"Because?"
-
-"Because it almost did something."
-
-"Almost?"
-
-I corrected myself.
-
-"Because we observed something that might be the effect."
-
-"And?"
-
-"I want a cleaner result."
-
-"Will you change anything?"
-
-"No."
-
-"Certain?"
-
-I looked at the square.
-
-That was the question.
-
-Last time she had stopped after I admitted the wanting had changed.
-
-This time the wanting had changed again.
-
-But wanting was not action.
-
-"I can hold the same attempt."
-
-Hessa watched me.
-
-Then nodded.
-
-"One more."
-
-Attempt sixty-nine.
-
-I sat back before starting.
-
-Reset my shoulders.
-
-Opened my hand.
-
-Closed it once.
-
-Opened it.
-
-The paper square sat at middle.
-
-No glass.
-
-Same stock.
-
-Same object as last time.
-
-Away.
-
-No compensation.
-
-No reward for patience.
-
-No reward for being good.
-
-No reward because attempt sixty-eight had teased me.
-
-Just another attempt.
-
-"Expectation?" Hessa asked.
-
-"Medium."
-
-"Why higher?"
-
-"Possible response on sixty-eight."
-
-"Anything else?"
-
-"Hope."
-
-"Evidence?"
-
-"No."
-
-She wrote it.
-
-Start.
-
-I worked.
-
-Nothing happened at first.
-
-Then the square moved.
-
-Not a corner.
-
-Not a curl.
-
-The whole piece slid away from me.
-
-Small.
-
-Clean.
-
-Straight enough that I saw the front edge cross a scratch in the board.
-
-Then it stopped.
-
-I stopped too.
-
-On time.
-
-My entire body wanted to shout.
-
-I did not.
-
-Hessa was already checking.
-
-Board.
-
-Square.
-
-Window.
-
-Thread.
-
-Floor.
-
-Me.
-
-She measured the shift with a small strip from her notebook and wrote without showing me the number.
-
-"Small observed net displacement away."
-
-I breathed out.
-
-"At middle."
-
-"At today's middle position."
-
-"Same middle as last time?"
-
-She paused.
-
-"Yes."
-
-That mattered.
-
-"Same square?"
-
-"Yes."
-
-"No glass."
-
-"Correct."
-
-"One clean movement in three today."
-
-"One observed net displacement in three. One possible edge-lift event. One no observed response."
-
-"And last time zero in two at the same middle position."
-
-"Correct."
-
-I grinned.
-
-"So middle works."
-
-"No."
-
-The grin remained but suffered.
-
-"We just watched it work."
-
-"We observed one response at middle."
-
-"That means possible."
-
-"Yes."
-
-"Possible is works with bad confidence."
-
-"No."
-
-"You hate language."
-
-"I hate you abusing it."
-
-I looked at the square.
-
-One response.
-
-At middle.
-
-That was more than we had before.
-
-Not range law.
-
-Not reliable.
-
-Not strong.
-
-Not far.
-
-But the zero in two had become one in five across sessions.
-
-Or one clean response in five, plus one possible edge lift, depending on how Hessa recorded it.
-
-"Can we say the near position is not the demonstrated limit?"
-
-Hessa considered.
-
-"Yes."
-
-I sat very still.
-
-That was the largest sentence she had given me all day.
-
-"Can we say distance reduces reliability?"
-
-"No."
-
-"Can we say middle is harder?"
-
-"No."
-
-"Can we say I can affect paper farther away than the near position?"
-
-"Under supervision, under today's conditions, we observed one small net-away displacement at the middle position."
-
-"That is the least romantic version."
-
-"It is the useful version."
-
-I wanted the far mark.
-
-Immediately.
-
-The wanting was so obvious that I did not need Hessa to ask.
-
-I looked at it.
-
-Then at her.
-
-"No far."
-
-"Correct."
-
-"You didn't even pretend to consider it."
-
-"I considered it before you arrived."
-
-"And?"
-
-"Not today."
-
-"Because I want it."
-
-"Partly."
-
-"Because we finally got middle."
-
-"Mostly."
-
-"That seems backward."
-
-"Why?"
-
-"Success should unlock the next thing."
-
-Hessa closed the active page.
-
-"That sentence is why success does not unlock the next thing."
-
-I leaned back.
-
-"You planned that."
-
-"No."
-
-"It sounded planned."
-
-"You are predictable."
-
-Cruel.
-
-She checked my body again.
-
-Hands warm.
-
-Forearm warm.
-
-No pain.
-
-No tingling.
-
-No weakness.
-
-Right leg fine.
-
-Residual limb comfortable.
-
-Shoulders ordinary.
-
-"Totals?" I asked.
-
-"Thirty-six supervised minimal draws. Thirty-two deliberate shaping attempts. Sixty-nine external-effect attempts."
-
-"The draw count did not increase?"
-
-"We continue counting the established external-attempt protocol separately."
-
-"Fine."
-
-"Restrictions outside supervised sessions remain unchanged."
-
-"No paper."
-
-"No."
-
-"No coins."
-
-"No."
-
-"No cabbage."
-
-Hessa looked at me.
-
-"Especially no cabbage."
-
-"That one feels personal."
-
-"It is."
-
-I collected my crutches.
-
-Before standing, I looked at the far mark one more time.
-
-Hessa noticed.
-
-"Untested," she said.
-
-"I know."
-
-"Say it."
-
-"Far remains untested."
-
-"Good."
-
-"You enjoy making me say sad things."
-
-"Yes."
-
-I stood.
-
-"Next experiment?"
-
-"Not selected."
-
-"Middle again?"
-
-"Possibility."
-
-"Near control?"
-
-"Possibility."
-
-"Far?"
-
-"Not selected."
-
-"Different material?"
-
-"Leave."
-
-Some traditions survived.
-
-Outside the Guild yard, the day had warmed.
-
-A line of small black beetles crossed the stone near the wall carrying pale bits of something larger than themselves.
-
-Ordinary beetles.
-
-Probably.
-
-I did not inspect them.
-
-A cart passed with three glass jars strapped upright in a wooden frame. The straps crossed in a pattern that made me think of Halei's Trine braces.
-
-Different hardware.
-
-Different system.
-
-I did not chase it.
-
-A man sold little blue paper twists of salt beside the fountain.
-
-I bought one because we needed salt.
-
-This was not a test object.
-
-Growth.
-
-On the walk home I kept returning to the middle mark.
-
-Not the movement itself.
-
-The waiting.
-
-Nine chapters of life had happened between middle attempts.
-
-Water had stopped and returned.
-
-I had watched jars.
-
-Read weights.
-
-Scraped nothing while Mella treated a wall.
-
-Worn a magical mask badly and then less badly.
-
-Found a gold-priced broken clasp.
-
-Paid an appraiser to tell me why wanting it did not make it good.
-
-Earned two copper by answering a stranger carefully.
-
-None of that had improved my magic.
-
-As far as I knew.
-
-That was important.
-
-Life had not been training montage disguised as errands.
-
-The paper moved because under one supervised attempt, something happened.
-
-Not because the universe rewarded me for doing chores.
-
-At home, Cala was in the courtyard sorting onions into a shallow basket.
-
-I stopped.
-
-"Where is Tavi?"
-
-"Why?"
-
-"I need to discuss cabbage correspondence."
-
-"No."
-
-"You sent him."
-
-"Hessa sent note. I sent boy. Boy found cabbage."
-
-"Where?"
-
-Cala pointed at a basket beside her.
-
-One leaf was missing.
-
-"He stole your cabbage."
-
-"He improved delivery."
-
-"Everyone is against me."
-
-"Yes."
-
-I went upstairs.
-
-Lyssa came home later than I did.
-
-Pale thread dust marked one sleeve again.
-
-She had a small loaf under her arm and a tired look that made questions about her work obviously unwelcome.
-
-I took the loaf when she offered it.
-
-"Hessa," she said.
-
-"How do you know?"
-
-"Cala."
-
-"Conspiracy."
-
-"Paper?"
-
-"Moved."
-
-She stopped untying her work bag.
-
-"Where?"
-
-I liked that question.
-
-Not how much.
-
-Where.
-
-"Middle."
-
-Her eyes sharpened.
-
-"Same?"
-
-"Same middle position as last time. Same square. No glass. Three attempts today. First nothing. Second edge lifted but Hessa only calls it possible. Third moved cleanly away. Small."
-
-"Far?"
-
-"Untested."
-
-"Good."
-
-I stared at her.
-
-"You and Hessa have formed a union."
-
-"You wanted far."
-
-"Immediately."
-
-"No."
-
-"I know."
-
-She waited.
-
-"I did not argue very much."
-
-"How much?"
-
-"Professionally."
+"Then congratulations."
 
 Lyssa smiled.
 
-I told her the totals.
+I pointed toward the cabinet.
 
-Thirty-six.
+"What is the brass loop?"
 
-Thirty-two.
+The man's eyes moved to it, then back to me.
 
-Sixty-nine.
+"Expensive."
 
-I told her restrictions were unchanged.
+"I saw."
 
-I told her Hessa had not selected the next experiment.
+"Then you know enough."
 
-Then I put the salt on the shelf.
+"Probably not."
 
-Lyssa looked at it.
+"Usually true."
 
-"Magic?"
+I liked him less than Sivi because he had my rhythm.
 
-"Dinner."
+"Does it have a name?"
+
+"Latch ring."
+
+That was useless.
+
+"What does it latch?"
+
+"Nothing now."
+
+"What did it latch?"
+
+"Depends who you believe."
+
+Lyssa leaned against the doorframe.
+
+She had not entered fully.
+
+Four minutes had become observation.
+
+I pointed again.
+
+"May I look closer?"
+
+"Through glass."
+
+"Fine."
+
+I moved to the cabinet.
+
+The six square notches mattered.
+
+I had seen that arrangement before.
+
+Not this object.
+
+Not this exact shape.
+
+The memory came from much later in my old life, from a warehouse outside Aster Reach where a quartermaster had spent an entire afternoon complaining about a broken compression clasp.
+
+Compression clasp.
+
+That was the old name.
+
+Or one old name.
+
+A fitted loop locked around the neck of a prepared container, chest, tube, sometimes a travel case. When closed against the matching collar, it reinforced the seal by distributing pressure through a small spatial fold.
+
+Not storage magic.
+
+Not exactly.
+
+It did not make a container bigger.
+
+It made the boundary harder to violate.
+
+Good ones could keep air, water, heat, smell, and sometimes mana leakage from crossing a prepared seam.
+
+Very good ones had military uses.
+
+This one was missing the collar.
+
+Probably.
+
+The iron pin was wrong too.
+
+Blackened.
+
+And one of the six inner notches had a pale crack running through it.
+
+I crouched as far as the cabinet and my balance allowed.
+
+My right shoe stayed flat and quiet.
+
+"Where did it come from?"
+
+"Estate lot."
+
+"Whose?"
+
+"Dead man's."
+
+"Helpful."
+
+"He wasn't using it."
+
+Lyssa made a small sound behind me.
+
+The shopkeeper looked at her.
+
+"He always like this?"
+
+"Worse when interested."
+
+"Unfortunate."
+
+I ignored both of them.
+
+"What is wrong with it?"
+
+The shopkeeper closed his ledger.
+
+That was the first sign I had asked the correct question.
+
+"You know it's worked?"
+
+"I know the price is too high for scrap and too low for something uncomplicated."
+
+He studied me.
+
+"Name?"
+
+"Greg."
+
+"Bronze?"
+
+"Yes."
+
+"Theatre Greg?"
+
+I closed my eyes.
+
+"Unfortunately."
+
+Lyssa said, "Uncle."
+
+"Traitor."
+
+The shopkeeper's eyebrows moved upward.
+
+"Saw you in the orchard piece."
+
+"I have made a terrible mistake becoming locally visible."
+
+"Probably."
+
+He came around the counter and unlocked the cabinet with two keys.
+
+Not one.
+
+Two separate locks.
+
+He did not hand me the brass loop.
+
+He took it out himself and set it on a square of dark felt on the counter.
+
+Up close, the object looked older and worse.
+
+The brass was scratched.
+
+The black pin had a tiny reddish line near its head.
+
+The cracked notch was definitely cracked.
+
+The paper tag had three lines.
+
+The top was the gold price.
+
+The second said:
+
+`NO COLLAR`
+
+The third said:
+
+`BITES`
+
+I looked at the shopkeeper.
+
+"Bites."
+
+"Bites."
+
+"Metaphor?"
+
+"No."
+
+Good.
+
+Bad.
+
+Interesting.
+
+"What happens?"
+
+"Closes on skin if you wake it wrong."
+
+"How wrong?"
+
+"Touch iron pin and inner brass together while holding it."
+
+I moved my hands farther from the counter.
+
+Lyssa noticed.
+
+"Good," she said.
+
+"I was already not touching it."
+
+"More not touching now."
+
+The shopkeeper nodded toward her.
+
+"Smart."
+
+"She has moments."
+
+Lyssa looked at me.
+
+I continued quickly.
+
+"How hard does it close?"
+
+"Hard enough."
+
+"Break fingers?"
+
+"Didn't break mine."
+
+He held up his left hand.
+
+A pale curved scar crossed the base of his thumb.
+
+"That you?"
+
+"First week I owned it."
+
+"And you kept it?"
+
+"Gold is gold."
+
+There was the whole market in three words.
+
+"Does it do anything without the collar?"
+
+"Bites."
+
+"Useful anything."
+
+"No."
+
+"Have you tried matching it?"
+
+"Three collars. None took."
+
+"Prepared collars?"
+
+His eyes narrowed.
+
+"You do know something."
+
+I shrugged.
+
+"Something like it."
+
+"How much something?"
+
+"Enough to ask why six notches."
+
+He looked down at the loop.
+
+"I don't know why six."
+
+I did.
+
+Or I remembered a reason from a different version of the technology.
+
+Six engagement points distributed the fold around a circular seam. Five could work badly. Four tended to twist. Eight existed on larger military clasps.
+
+That did not prove this object worked the same way.
+
+But the pattern was too close to ignore.
+
+"What did the appraiser call it?" I asked.
+
+"Boundary clasp."
+
+Closer.
+
+"What did they say it could do?"
+
+"If complete? Seal prepared containers against air and water. Maybe heat. Appraiser wouldn't sign heat."
+
+Good appraiser.
+
+"Mana?"
+
+"Wouldn't sign that either."
+
+Better appraiser.
+
+"Who appraised it?"
+
+"Jori at Blue Steps."
+
+A name.
+
+Not one I knew.
+
+"Why is it still here?"
+
+The shopkeeper laughed once.
+
+"Because people with enough gold to buy boundary work buy complete boundary work."
+
+There it was.
+
+Not stupidity.
+
+A rational market.
+
+"And people without enough gold?"
+
+"Buy jars."
+
+Lyssa said, "Smart."
+
+"Everyone is against me."
+
+The shopkeeper tapped the felt beside the clasp.
+
+"Missing collar. Biting fault. Cracked inner seat. Old pattern. No maker mark. No guarantee it takes a modern collar. No guarantee it holds if repaired. No guarantee the bite isn't the start of something worse."
+
+"Something worse?"
+
+"Appraiser wouldn't wake it twice."
+
+That was information.
+
+"Why?"
+
+"Said the fold snapped shut too fast after release."
+
+I looked at the iron pin.
+
+Old compression clasps had a fault like that.
+
+Not a curse, exactly.
+
+A failed return spring in the binding geometry could make the closure seek the nearest continuous edge instead of waiting for the fitted collar.
+
+Skin counted as an edge.
+
+So did cloth.
+
+So did wood, sometimes.
+
+Later versions used a ceramic isolation sleeve around the trigger pin.
+
+Later.
+
+Much later than the kind I remembered from field use.
+
+A sleeve did not repair the fold.
+
+It prevented accidental trigger contact while handling.
+
+The cracked seat remained.
+
+The missing collar remained.
+
+The unknown compatibility remained.
+
+But the bite...
+
+The bite might be manageable.
+
+Not removable.
+
+Manageable.
+
+My stomach changed.
+
+Not fear.
+
+Recognition.
+
+The object was still mostly useless.
+
+That was the important part.
+
+I could not buy it and suddenly own a perfect seal for anything I wanted.
+
+I would need a compatible prepared collar.
+
+I would need someone who understood current boundary work.
+
+I would need the cracked seat assessed.
+
+I would need a safe handling method.
+
+I would need to know whether my old isolation-sleeve memory applied to this pattern at all.
+
+I would need money.
+
+A lot of money.
+
+And then, if all of that worked, I might have something much more valuable than the price tag suggested.
+
+Might.
+
+I hated that word.
+
+"How long has it been here?"
+
+"Seven months."
+
+"Price always this?"
+
+"No."
+
+"Higher?"
+
+"Started higher."
+
+"How much higher?"
+
+He told me.
+
+I stared.
+
+Lyssa whistled softly.
+
+"And now?"
+
+He tapped the current tag.
+
+"Now I want shelf space and my money back."
+
+"Your money back exactly?"
+
+"Close enough."
+
+"Would you take less?"
+
+Lyssa straightened from the door.
+
+The shopkeeper smiled.
+
+I realized what I had said.
+
+"I am not buying it today."
+
+"Good," Lyssa said.
+
+The shopkeeper's smile widened.
+
+"Didn't think you were."
+
+"Why?"
+
+"You asked too many questions before asking whether I take silver."
+
+Fair.
+
+"Would you?"
+
+"No."
+
+"Not even enough silver?"
+
+"Gold price. Gold payment."
+
+"Why?"
+
+"Because I don't want a bucket of metal counted on my counter."
+
+Also fair.
+
+I looked at the clasp again.
+
+"Does Jori's appraisal come with it?"
+
+"Copy."
+
+"May I read it?"
+
+The shopkeeper considered.
+
+"You buying?"
+
+"No."
+
+"Then no."
+
+"Can I pay to read it?"
+
+Lyssa said my name.
+
+I looked at her.
+
+"Small money for information is different from gold for biting brass."
+
+"How small?"
+
+I asked the shopkeeper.
+
+He named one copper.
+
+Lyssa's expression relaxed slightly.
+
+"One copper to read the appraisal?"
+
+"Here. No copy."
+
+"Done."
+
+I paid.
+
+That was the first money the clasp took from me.
+
+I noticed.
+
+The shopkeeper noticed me noticing.
+
+He went behind the counter and brought out a folded sheet with a blue stamp at the bottom.
+
+I read it standing.
+
+The appraisal was wonderfully boring.
+
+Object: old-pattern boundary clasp, incomplete.
+
+Material: brass body, iron activation pin, internal inclusions unverified.
+
+Maker: unknown.
+
+Matched collar: absent.
+
+Observed response: closure activation under paired contact at pin and inner body.
+
+Observed fault: uncontrolled closure toward nearest contacted edge.
+
+Second activation not performed due handling risk.
+
+Crack at one inner seat.
+
+No certified claims for pressure, heat, mana, scent, preservation, or storage.
+
+Probable intended use: fitted closure on prepared vessel or case.
+
+Value estimate: wide range, strongly dependent on matching collar, repair feasibility, and safe activation.
+
+No curse was listed.
+
+I read that twice.
+
+"Appraiser didn't call it cursed."
+
+"No."
+
+"You call it biting."
+
+"Customers understand biting."
+
+That was excellent merchandising.
+
+"Can I see the back?"
+
+"No writing."
+
+"Can I see it?"
+
+He turned the page.
+
+Blank.
+
+I gave it back.
+
+"Jori still works Blue Steps?"
+
+"As of last month."
+
+I filed that away.
+
+Lyssa said, "Time."
+
+She was right.
+
+I had promised four minutes approximately fifteen minutes ago.
+
+I looked once more at the clasp.
+
+The gold tag looked no smaller.
+
+I had money.
+
+Not no money.
+
+That mattered.
+
+I had theatre pay.
+
+Occasional market pay.
+
+Binding work when Hollen needed hands.
+
+Guild consultation when Edrin had something narrow enough to ask.
+
+Tiny cart watches.
+
+Household obligations.
+
+Vale.
+
+Food.
+
+Shoes that required repair because the world insisted feet were consumable.
+
+What I did not have was capital.
+
+Not in the useful sense.
+
+I could not see a gold-priced opportunity and make a serious decision about it.
+
+I could only admire it and leave.
+
+That irritated me more than the clasp.
+
+"Name?" I asked the shopkeeper.
+
+"Kes."
+
+"You own the shop?"
+
+"Enough of it."
+
+Protected uncertainty had entered retail.
+
+"Kes. If someone buys that, will you tell me?"
+
+"Why?"
+
+"Because I will be sad."
+
+"No."
+
+"Cruel."
+
+"Come look if you care."
+
+"How often?"
+
+"Not daily."
+
+Lyssa said, "Thank you."
+
+Kes nodded to her.
+
+"You can come without him."
+
+"I know."
+
+We left.
+
+Outside, I finished the cold remains of my fried onions.
+
+Lyssa carried the oil.
+
+We walked half a block before she spoke.
+
+"You want it."
+
+"Yes."
+
+No joke.
+
+That made her look at me.
+
+"Why?"
+
+"Because I think I know what kind of thing it is. Not exactly. Something like it."
+
+"Useful?"
+
+"Potentially very."
+
+"Now?"
+
+"No."
+
+"Then why gold?"
+
+Good question.
+
+"Because even broken, the working part is rare enough that someone thinks it matters. And if it can be made safe and matched..."
+
+I stopped.
+
+That sentence wanted to become certainty.
+
+I corrected it.
+
+"If it can be made safe enough to handle, if the cracked seat can hold, and if a compatible collar can be made or found, then something like it could seal a prepared container much better than an ordinary lid. Maybe against air and water. Maybe more. The appraisal only supports air and water as probable intended use, not proven performance."
+
+Lyssa listened.
+
+"You know fix?"
+
+"One part. Maybe."
+
+"Maybe."
+
+"Later versions in my old life isolated the trigger pin with ceramic. It kept handlers from touching the wrong surfaces together accidentally. That would not fix the crack. Would not make a collar. Would not prove the fold is stable. It might only make it less eager to eat thumbs."
+
+"Useful."
+
+"Very."
+
+"Enough for gold?"
+
+"Not yet."
+
+She nodded.
+
+That was why I told her things.
+
+She could hear me say I wanted something and still accept that wanting it did not make the evidence better.
+
+"How much gold?" she asked.
+
+I told her the tag.
+
+She stopped walking.
+
+"No."
+
+"I know."
+
+"No."
+
+"I heard the first one."
 
 "Good."
 
-We ate the loaf with leftover beans and more salt than the beans deserved.
+We resumed.
 
-The copper I had kept from Halei remained where I had put it.
+"Could sell something," she said after a while.
 
-The clasp remained somewhere else, assuming it remained anywhere at all.
+I looked at her.
 
-The far mark remained untested.
+"What?"
 
-I wanted both.
+"You have things."
 
-Gold and distance.
+I did.
 
-That was inconvenient.
+Not many.
 
-But wanting two things did not make either one mine.
+Some mattered.
 
-For once, I could live with that.
+Some had value.
+
+Value was not the same as cash.
+
+And selling a useful thing to buy a possibly useful thing was how people became cautionary stories.
+
+"I don't want to sell something important just to reach the price."
+
+"Then don't."
+
+"I could earn it."
+
+Lyssa glanced at me.
+
+"With cart watching?"
+
+"At current rates I will be eighty."
+
+"Older."
+
+"Cruel."
+
+"True."
+
+That was the problem.
+
+Wages were useful.
+
+Wages bought food.
+
+Paid debt.
+
+Fixed shoes.
+
+Put copper on the household table.
+
+Wages accumulated if life stopped charging admission.
+
+Life did not.
+
+I had spent an entire second life thinking in terms of the next paid shift because the next paid shift had been what I needed.
+
+Now there was a brass loop in a cabinet asking a different question.
+
+How did I turn what I knew into more than an hour of my time?
+
+That question followed me home.
+
+Not the clasp.
+
+The question.
+
+I did not go to Blue Steps.
+
+That day.
+
+Important distinction.
+
+I also did not go to Hessa and ask whether ceramic sleeves could make dangerous magical objects safe.
+
+That would have been a creative interpretation of my restrictions and also stupid.
+
+I did not ask Edrin for money.
+
+I did not ask Rinna for more work.
+
+I did not ask Hollen to invent a job.
+
+I went home with lamp oil.
+
+Lyssa went back out after setting the jar on the shelf.
+
+Her work bag went with her.
+
+The narrow paper parcel did not appear.
+
+I did not ask.
+
+I sat at the table with a scrap of paper.
+
+Not magic paper.
+
+Arithmetic paper.
+
+Hessa had not forbidden arithmetic, though given enough time she might.
+
+I wrote down the kinds of money I had actually earned in Carrow.
+
+Theatre.
+
+Binding shop.
+
+Guild consultation.
+
+Market cover.
+
+Small errands and watches.
+
+Then I crossed out the last line because unpaid errands did not become income through optimism.
+
+I added household share beside each paid category.
+
+Then I stopped.
+
+The exact numbers mattered to me.
+
+They did not need to become a speech.
+
+The pattern was obvious without exposing every coin I owned to the page.
+
+All of those routes paid me for being present.
+
+My time.
+
+My body.
+
+My attention.
+
+Sometimes my old knowledge.
+
+But even Edrin's consultation had been a one-time payment for one report.
+
+Useful.
+
+Not scalable.
+
+I hated that word too.
+
+Old-life knowledge offered possibilities.
+
+Some were dangerous.
+
+Some required tools I did not have.
+
+Some required mana I was explicitly forbidden to practice.
+
+Some depended on industries that might not exist yet.
+
+Some were so obvious that Carrow probably already did them better.
+
+I was not going to become the man who invented chairs and demanded applause.
+
+But there had to be things between `sell an hour` and `reinvent civilization`.
+
+Trade.
+
+Matching information to people.
+
+Recognizing materials.
+
+Finding underpriced broken things only if I understood why they were broken.
+
+Improving a process without owning the whole process.
+
+Taking a share instead of a wage, if I actually contributed value worth sharing.
+
+The last thought made me sit back.
+
+A share of what?
+
+Nothing yet.
+
+That was the danger.
+
+Capital desire could become fantasy faster than magic.
+
+I folded the paper.
+
+Then unfolded it.
+
+At the bottom I wrote:
+
+`DO NOT BUY BITING BRASS BECAUSE EXCITED.`
+
+That felt responsible.
+
+Under it:
+
+`LEARN WHAT IT ACTUALLY IS.`
+
+Better.
+
+Under that:
+
+`LEARN WHAT MONEY CAN DO BESIDES WAIT.`
+
+I stared at the third line.
+
+That one was new.
+
+When Lyssa came home, she found me still at the table.
+
+She had a smear of dark chalk near one wrist and no parcel visible.
+
+"You buy it?"
+
+"Yes. I hid several gold in my shoe."
+
+She looked at the shoe.
+
+"Bad hiding place."
+
+"Also no."
+
+"Good."
+
+I showed her the paper.
+
+She read the three lines.
+
+"Biting brass."
+
+"Technical term."
+
+"Kes says latch ring."
+
+"Kes is weak."
+
+She tapped the last line.
+
+"This one."
+
+"Yes."
+
+"What mean?"
+
+"I don't know yet."
+
+She looked at me for a long moment.
+
+"Good."
+
+"You approve of ignorance?"
+
+"You know you don't know."
+
+"Hessa has infected this household."
+
+Lyssa sat across from me.
+
+"You go back?"
+
+"To Kes?"
+
+"Mm."
+
+"Probably. Not tomorrow just because I can."
+
+"Blue Steps?"
+
+I looked at her.
+
+"You heard that."
+
+"I was there."
+
+"I forget you collect evidence too."
+
+"I listen."
+
+"Dangerous."
+
+She smiled.
+
+"You go?"
+
+I considered lying for dignity.
+
+"Probably."
+
+"To buy?"
+
+"To learn. Jori appraised it. If I can learn what a current appraiser sees in that object, I can find out whether my old memory is useful or just similar-looking nonsense."
+
+"Cost?"
+
+"Unknown."
+
+"Ask first."
+
+"I have become very good at asking price first."
+
+"No."
+
+"Better."
+
+"Some."
+
+I folded the paper again.
+
+The clasp remained in Kes's cabinet.
+
+It was still broken.
+
+Still dangerous.
+
+Still missing the part that made it useful.
+
+Still priced in gold I did not have available for foolishness.
+
+Nothing had changed about the object.
+
+Something had changed about the size of the problem I was willing to think about.
+
+For months, money had meant survival, debt, food, household, repair, the next ordinary thing.
+
+Those remained real.
+
+They did not become smaller because I wanted brass.
+
+But for the first time in this life, I wanted enough money to choose something difficult before necessity chose for me.
+
+That was different.
+
+Tomorrow still had no job waiting.
+
+Now it had a question.

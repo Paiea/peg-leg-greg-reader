@@ -75,9 +75,9 @@ BOOKS = (
             ReaderAct('ACT I', 'THE WORKING COMPANY', 181, 219, 'Company work becomes routine, social, and increasingly interconnected.'),
             ReaderAct('ACT II', 'THE PRICE OF ATTENTION', 220, None, 'Ordinary work draws new attention, obligations, and pressure.'),
         ),
-        'assets/book-role-cards/book-iii-magistrate-231.webp',
-        'The Magistrate, Chapter 231: young bearded Greg inhabiting the theatrical magistrate role at a petitions desk.',
-        'light/231.html',
+        'assets/book-role-cards/book-iii-magistrate-234.webp',
+        'The Magistrate, Chapter 234: young bearded Greg inhabiting the theatrical magistrate role at a petitions desk.',
+        'light/234.html',
     ),
 )
 

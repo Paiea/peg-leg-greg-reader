@@ -1,751 +1,1395 @@
 # CHAPTER 300
 
-## THE BLUE HORSE
+## THE HIGH LINE
 
-After Mera left with Lyssa's cloth, Tavi discovered that the room was too small for his ambitions.
+The first thing to fall out of the sky was a sock.
 
-He crossed it six times in under a minute, first as himself, then apparently as something with more knees. On the seventh pass he struck the table with one palm, shouted, "Horse up," and turned around so quickly that his shoulder clipped the stool.
+It landed three feet in front of me.
 
-The stool survived.
+Gray.
 
-Tavi did too.
+Small.
 
-Cala watched him from beside the basin.
-
-Lyssa had already gone back upstairs with the brown cuff and the kind of face that said the next person to ask what she was doing would become part of the garment.
-
-I was innocent only because I had learned.
-
-Tavi ran past again.
-
-Cala said, "Take him bench court."
-
-I looked at her.
-
-Then at Tavi.
-
-Then back at her.
-
-"You are giving me responsibility for a moving person."
-
-"Yes."
-
-"He has no handles."
-
-"Greg."
-
-Tavi slapped the table again.
-
-"Horse up."
-
-Cala pointed toward the door. "Bench court. Not market. Sit by gate."
-
-That was the whole assignment.
-
-I knew the court. Two quiet lanes over, enclosed on three sides by old brick and on the fourth by a low iron gate that had not closed properly in years. There were benches along the walls, a rain tree in the middle, and enough packed earth for children to become exhausted without immediately joining cart traffic.
-
-The gate mattered.
-
-With two crutches, I could not hold Tavi's hand and move normally at the same time. I could manage a few steps one-handed if I had to, but turning an ordinary walk into a balancing exercise while supervising a child seemed like a poor use of everyone involved.
-
-Bench court solved most of that by geometry.
-
-Cala had apparently reached the same conclusion before I finished thinking.
-
-"Wall side," she told Tavi.
-
-He stopped moving.
-
-That was more impressive than anything I had done at the Guild yesterday.
-
-"Wall side," he repeated.
-
-"With Greg. Stop corners."
-
-Tavi nodded with the solemnity of a man accepting military command.
-
-I did not trust it for a second.
-
-Cala handed him a small piece of bread.
-
-He ate half before we reached the door.
-
-The other half became my concern when he tried to put it in my shoulder bag.
-
-"No."
-
-"Bag."
-
-"Bread does not travel with charcoal."
-
-He considered this and put the bread in his mouth instead.
-
-Problem solved by consumption.
-
-The front door opened cleanly. Tavi stepped out first, remembered something, then moved to the wall side without being told again.
-
-I looked back at Cala.
-
-She had already returned to the basin.
-
-Apparently we had passed inspection.
-
-The first lane was narrow enough that Tavi could walk along the building edge while I took the center. I kept my pace slow. He kept his for almost twelve seconds.
-
-Then he saw a beetle.
-
-"Bug."
-
-"Yes."
-
-He crouched.
+Damp at one heel.
 
 I stopped.
 
-The beetle was ordinary, black, and uninterested in becoming educational. It crossed a crack and disappeared beneath a step.
+The sock remained where it had fallen.
 
-Tavi stood.
+I looked up.
 
-We resumed.
+Three floors above the lane, laundry crossed between two buildings on four lines.
 
-At the first corner I said, "Stop."
+Shirts.
 
-He stopped.
+Aprons.
 
-This was suspicious.
+A pair of trousers large enough to shelter livestock.
 
-I checked both directions, crossed first enough to occupy the lane, then called him through beside the wall. No carts. No running. No drama.
+Two blue cloths.
 
-At the second corner he stopped before I spoke.
+One surviving sock.
 
-I stared at him.
+The empty peg beside it told the story.
 
-"Who trained you?"
+I looked down at the casualty.
 
-"Cala."
+"You had one job."
 
-Of course.
+A woman leaned over the third-floor rail.
 
-Bench court was already loud when we arrived.
+"Gray?"
 
-Not dangerously loud. Child loud.
+"Mostly."
 
-Seven or eight children occupied the dirt under the rain tree. Two were drawing with chalk near the wall. One was dragging a wooden cart with nothing in it. A pair of older girls had a skipping cord stretched between them. Three boys were arguing about whether a stick was a sword, a fishing rod, or somebody's dead uncle.
+"Small?"
 
-None of those interested Tavi.
+"Depends how ambitious your feet are."
 
-He saw the horse.
+"Mine."
 
-It was blue, roughly four feet long from nose to tail, and flying above the court.
+That simplified ownership.
 
-"Horse up!"
+I could have kept walking.
 
-There it was.
+Instead I moved the sock out of the cart track with the side of my right crutch tip.
 
-The kite had been painted by someone who understood horses only in the broadest moral sense. Four legs. Long head. Tail. Blue body. One eye much larger than the other. Its wings were not anatomically defensible because horses did not have wings, but the painter had apparently refused to let that stop them.
+Not because it was my responsibility.
 
-A thin main line ran down to a boy near the tree. He looked ten or eleven and had wrapped the spool cord twice around one hand despite an older woman on the bench repeatedly telling him not to.
+Because a wheel would make the question more complicated.
 
-The kite climbed another few feet.
+"By the stair," the woman called.
 
-A small brass lift bead sat just below the first cross spar. It flashed pale gold whenever the nose dipped too far, helping the cloth catch enough air to recover. Cheap children's assist, not flight magic. I had seen better versions on survey kites, messenger rigs, and camp signals in my first life. This one was old enough that its brass had gone almost brown.
+I looked toward the narrow doorway beneath her gallery.
 
-Above the court, four short posts at the roof corners held a faint amber drift web. Most of the time it was invisible. When the blue horse rose near the edge, the web showed itself as a brief honey-colored line and nudged the kite inward.
+A shallow wooden basket sat beside it.
 
-I knew that kind of boundary too.
+Laundry retrieval infrastructure.
 
-Weak deflection. Low force. Enough to keep toys out of chimneys and neighboring windows without trying to stop birds, rain, or anything heavier than the court was meant to throw into the air.
+Civilization endured.
 
-Tavi did not care how it worked.
+I hooked the sock lightly with the lower end of my crutch, lifted it enough to catch with my free hand, and dropped it into the basket.
 
-"Horse fly."
+The woman above said, "Good."
 
-"Technically, yes."
+"A demanding morning."
+
+She disappeared from the rail.
+
+I continued.
+
+The road tune from yesterday stayed out of my head for almost half a lane.
+
+Then my mind supplied the next phrase anyway.
+
+I ignored it.
+
+The city was allowed to have music without my participation.
+
+It was also apparently allowed to throw clothing at me.
+
+Fair balance.
+
+The morning had come bright after several days of mixed cloud and fine rain.
+
+Not hot yet.
+
+The upper walls held sun while the lane floor remained mostly in shade.
+
+That changed how Carrow looked.
+
+Lines appeared.
+
+Not road lines.
+
+Overhead ones.
+
+Laundry lines were obvious because they carried laundry.
+
+Others were thinner.
+
+Some crossed from gallery to gallery with nothing on them.
+
+Some ran along walls under eaves.
+
+One carried little paper twists every few feet, turning slowly in the moving air.
+
+Another had three dull green beads spaced along it and vanished through a pulley box above a spice shop.
+
+I knew the broad families.
+
+Drying lines.
+
+Message pulls.
+
+Light cords.
+
+Shade rigs.
+
+Lift lines.
+
+Market awnings.
+
+Things people strung above streets because streets had walls on both sides and humans were incapable of leaving useful geometry unemployed.
+
+I had spent my first life in cities with much more dangerous things overhead.
+
+Cargo cages.
+
+Bridge chains.
+
+Watch lines.
+
+Alarm wire.
+
+One memorable guild quarter had used paired levitation rails to move beer barrels above pedestrian traffic.
+
+The barrels had been safer than the pedestrians.
+
+Usually.
+
+So I did not stop because Carrow had lines.
+
+I stopped because one of them was moving wrong.
+
+The line crossed a narrow court ahead, high enough to clear the second-floor galleries.
+
+Thin dark cord.
+
+No laundry.
+
+No load I could see.
+
+It ran from a square box fixed under one roof edge to a small iron ring on the building opposite.
+
+A row of pale paper tabs hung beneath it on short threads.
+
+The tabs were not decoration.
+
+They were all leaning east.
+
+Except one.
+
+The middle tab hung straight down.
+
+I watched.
+
+Wind moved through the court.
+
+The east tabs fluttered.
+
+The west tabs fluttered.
+
+The middle one stayed still.
+
+Then the whole line dipped half an inch.
+
+Rose.
+
+Dipped again.
+
+Not much.
+
+Enough.
+
+A man beneath it was arranging shallow wooden trays on a waist-high rack.
+
+He did not look up.
+
+A woman on the opposite gallery shook a cloth over the rail.
+
+She did not look up either.
+
+So either the line was behaving normally or everybody had accepted death.
+
+Both were common urban conditions.
+
+I moved closer.
+
+The trays held sliced yellow roots.
+
+Drying, probably.
+
+The man shifted one tray into the sun.
+
+The line dipped again.
+
+The dead paper tab remained dead.
+
+I knew enough not to touch an overhead line I did not own.
+
+That lesson had survived both lives.
+
+I also knew enough to stand out of the direct path beneath it while I looked.
+
+The man with the trays noticed me doing this.
+
+"What?"
+
+"Your line."
+
+He looked up.
+
+The line moved.
+
+"What line?"
+
+I pointed.
+
+He squinted.
+
+"High line."
+
+"Yes."
+
+"What?"
+
+Excellent conversation.
+
+"Middle flag isn't moving."
+
+He looked again.
+
+The paper tabs fluttered around the still one.
+
+He frowned.
+
+That was enough to tell me it was not ordinary.
+
+"Huh."
+
+A technical diagnosis had been achieved.
+
+He wiped both hands on his apron.
+
+"Since when?"
+
+"I have known your line for perhaps forty seconds."
 
 He looked at me.
 
-I corrected myself.
+"Now, then."
 
-"Horse fly."
+"Now."
 
-Satisfied, he walked toward it.
+He stepped away from the trays and stood where I had been standing.
 
-I moved to the bench beside the gate.
+The line dipped.
 
-Cala's instruction had not been decorative.
-
-From there I could see the whole court, and more importantly, Tavi could not leave without passing within three feet of me. I rested the crutch tips against the packed earth and sat with my left knee clear, right foot planted, bag against my ribs.
-
-The older woman on the other end of the bench glanced at me.
-
-"Cala's?"
-
-"Temporarily."
-
-She nodded as if that answer made complete sense.
-
-Carrow had stopped asking me to explain certain things.
-
-Tavi stood beneath the horse with his head tipped back.
-
-The boy with the spool saw him.
-
-"Want?"
-
-Tavi reached both hands up.
-
-The older woman said, "Not line. Tail."
-
-The boy rolled his eyes.
-
-She said his name.
-
-"Ren."
-
-The eye roll disappeared.
-
-"Tail," Ren said.
-
-He called another child over to hold the spool while he lowered the kite. The blue horse came down in a sequence of ugly sideways hops, one wing folding, then opening again when the lift bead flashed.
-
-Tavi laughed so hard he had to put both hands on his knees.
-
-Ren caught the lower tail cord before the kite touched dirt.
-
-It had a second loop about three feet from the cloth, plain red string with no magic in it.
-
-"Hold here," he told Tavi.
-
-Tavi grabbed it.
-
-The kite pulled.
-
-His eyes widened.
-
-He did not let go.
-
-"Horse strong."
-
-"Wind strong," Ren said.
-
-Tavi looked at the horse instead.
-
-Ren looked at me.
-
-I shrugged.
-
-Some arguments were lost before they began.
-
-The main line went back out. Ren kept both hands on the spool now, perhaps because the older woman remained within hearing range. Tavi held only the tail loop. The horse rose until the tail cord pulled lightly against his hands.
-
-He walked backward.
-
-"Stay dirt," I said.
-
-He stopped before reaching the chalk drawings.
+He moved out from under it.
 
 Good.
 
-The kite dipped.
+"Mara!"
 
-The brass bead flashed.
+The woman on the gallery looked down.
 
-The nose lifted again.
+"What?"
 
-Tavi shouted, "Again!"
+"High line."
 
-Ren said, "Wind does it."
+She looked at it.
 
-"Again."
+The still tab remained still.
 
-Ren gave up on pedagogy.
+"Oh."
 
-For several minutes nothing happened except a child holding a red loop while a bad blue horse moved through the air.
+More expert language.
 
-It was enough.
+She leaned over the rail, following the cord toward the roof box.
 
-The court had its own rhythm. Chalk scraped brick. The empty cart lost a wheel and was immediately promoted from cart to boat. One of the skipping girls accused the other of cheating at a game whose rules appeared to change every six seconds. The older woman beside me had a basket of pea pods in her lap and shelled them without watching her hands.
+"Don't pull it."
 
-I knew her face vaguely from the lanes but not her name.
-
-She knew mine.
-
-"Greg."
-
-I looked over.
-
-"Yes."
-
-She pointed a pea pod at my crutches. "Gate is good."
-
-It took me a second.
-
-Then I understood.
-
-"Because I cannot chase him."
-
-She shrugged. "Nobody should chase him. Fast."
-
-That was fair.
-
-"Cala said sit here."
-
-"Cala knows."
-
-Apparently the household had outsourced my childcare strategy to architecture and community memory.
-
-Efficient.
-
-The woman split another pod.
-
-"I'm Vara."
-
-"Good to finally know what to call the person evaluating my gate position."
-
-"Sit better."
-
-I looked down.
-
-My right crutch had drifted just far enough that its upper grip projected into the walking path beside the bench.
-
-I pulled it closer.
-
-"Fair."
-
-Vara returned to peas.
-
-No lecture.
-
-No praise.
-
-Useful correction completed.
-
-The blue horse touched the amber drift web.
-
-This time the contact happened at a corner where the wind was stronger. A honey-colored curve flashed above the roofline. The kite slid along it instead of turning cleanly, tail sweeping sideways.
-
-Ren swore.
-
-Vara said, "Language."
-
-Ren said, "It stuck."
-
-"Pull down, not back."
-
-He pulled back.
-
-The horse flattened against the invisible boundary for half a second.
-
-Vara did not stand.
-
-"Down."
-
-Ren changed the angle.
-
-The line lowered.
-
-The kite peeled free and dropped into the court.
-
-The lift bead flashed twice trying to catch air.
-
-One wing clipped the rain tree.
-
-The main line went slack.
-
-The spool jumped from Ren's hand.
-
-That got my attention.
-
-Not because the kite mattered.
-
-Because the spool hit dirt and rolled directly toward the gate.
-
-Tavi saw it too.
-
-His body leaned forward.
-
-"Stay," I said.
-
-He froze.
-
-The spool rolled past him.
-
-I planted my right crutch tip on the loose line instead of the spool itself.
-
-The cord stopped feeding.
-
-The spool rolled another foot and tipped over.
-
-Ren ran to it.
-
-"Got it," he said.
-
-"I have the line."
-
-He picked up the spool and took tension again.
-
-I lifted my crutch tip.
-
-Nothing dramatic had happened.
-
-The horse remained caught in the lower branches of the rain tree, hanging sideways with one blue leg over a twig.
-
-Tavi pointed.
-
-"Horse tree."
-
-Vara said, "Now it is."
-
-Ren looked up at the kite.
-
-Then at the tree.
-
-Then at Vara.
-
-"Can you?"
-
-"No."
-
-"You have the pole."
-
-I had not noticed the pole under the bench until then.
-
-Vara looked at him.
-
-"My peas."
-
-Ren looked at me.
-
-"No."
-
-He had not asked yet.
-
-"You also have a pole," he said, looking at one of my crutches.
-
-"This pole is occupied."
-
-Vara laughed.
-
-Ren did not.
-
-He tried pulling the kite free.
-
-The cloth tightened around the twig.
-
-Vara said, "Stop pulling."
-
-This time he stopped.
-
-A girl near the chalk wall came over carrying a forked branch longer than she was tall.
-
-"Use this."
-
-Ren looked at it.
-
-"Where did you get that?"
-
-"Tree."
-
-"Which tree?"
-
-She pointed at the same rain tree.
-
-A closed information loop.
-
-Ren took the branch. The girl guided the fork under the tail cord while he kept the main line loose. Together they lifted the cloth over the twig and let it slide free.
-
-The blue horse dropped.
-
-Tavi caught the tail against his chest.
-
-Not elegantly.
-
-But successfully.
-
-He looked stunned.
-
-Ren looked more stunned.
-
-"Don't squeeze it."
-
-Tavi immediately squeezed it.
-
-"Tavi," I said.
-
-He loosened his arms.
-
-The cloth was fine.
-
-One painted wing had a smear of tree dust across it.
-
-Ren checked the brass bead.
-
-Vara finally set the peas aside and stood.
-
-She took the kite from Tavi, turned the bead between two fingers, and looked at the cross spar.
-
-"Bead fine. Knot slipped."
-
-I could see it once she pointed.
-
-The small cord loop holding the bead below the spar had shifted sideways during the snag.
-
-Ren reached for it.
-
-Vara slapped his hand lightly away.
+The man said, "Wasn't."
 
 "You pull everything."
 
-That sounded familiar enough to be dangerous.
+"Not everything."
 
-She loosened the cord, centered the bead, and retied the little stop knot with two turns instead of one.
+"Door."
 
-I knew the broad knot family. I also knew better than to offer commentary while somebody who had been managing neighborhood children and their flying equipment longer than I had lived in this body was fixing it.
+"Door stuck."
 
-Ren watched.
+"Shelf."
 
-"Two?"
+"Shelf was crooked."
 
-"Today two. Wind west."
+"Your tooth."
 
-"Yesterday one."
+He stopped.
 
-"Yesterday not west."
+I looked away.
 
-There was the local practice.
+Some arguments were private even when conducted across public air.
 
-Not a universal kite law.
+The woman, Mara apparently, disappeared from the gallery.
 
-Not a magical principle.
+The man looked at me.
 
-Vara's answer was just enough for the problem in front of her.
-
-She handed the kite back.
-
-Ren relaunched it from the center of the court.
-
-The first attempt failed because Tavi would not release the tail.
-
-The second failed because the empty cart, now apparently a boat, crossed directly through Ren's run.
-
-The third worked.
-
-The blue horse climbed.
-
-The bead flashed once, steadied, and remained dull.
-
-Tavi clapped.
-
-"Horse up."
-
-Ren handed him the red tail loop again.
-
-This time Tavi stayed in one place without my telling him.
-
-I sat by the gate and watched.
-
-No one needed me for the kite.
-
-That was pleasant.
-
-No one needed me for the children either, beyond the one Cala had specifically given me. That was more than enough.
-
-Vara resumed shelling peas.
-
-"He listens."
-
-I looked at Tavi.
-
-"Sometimes."
-
-"To Cala."
-
-"Ah. Then yes."
-
-She smiled.
-
-We sat without talking for a while.
-
-I had spent much of my first life around magic that announced itself through scale. Wards across valleys. Flying platforms. Battle fields. Healing arrays bright enough to turn night into afternoon. Things built to make powerful people feel appropriately powerful.
-
-The court's magic did not care about any of that.
-
-A tired brass bead helped a cloth horse keep its nose in the wind. Four roof posts nudged bad decisions away from chimneys. Neither system would impress anyone who had ever watched a war mage work.
-
-The children would have been furious if either stopped working.
-
-That was probably a better measure of usefulness.
-
-I did not write that down.
-
-Tavi eventually released the tail loop on his own and wandered toward the chalk wall.
-
-He chose a piece of blue chalk.
-
-Of course.
-
-The wall already held several drawings layered over one another: circles, houses, people, three suns, something labeled CAT that looked like a chair, and a green shape with far too many teeth.
-
-Tavi drew one vertical line.
-
-Then another.
-
-Then a long horizontal one connecting them.
-
-He looked at me.
-
-"Horse."
-
-I considered the evidence.
-
-"Strong start."
-
-He added a circle nowhere near the rest of the drawing.
-
-"Horse."
-
-"Improving."
-
-Vara said, "Liar."
-
-"Supportive supervision."
-
-"Liar."
-
-Tavi did not care.
-
-He drew until his fingers were blue.
-
-When the sun moved far enough that the gate shadow reached my right foot, I decided we had been out long enough.
-
-Standing from the bench was easy. Right foot under, left knee clear, one hand on the bench edge, both crutches set.
-
-I called, "Tavi. Home."
-
-He said, "No."
+"You know lines?"
 
 There it was.
 
-The suspicious competence had expired.
+A familiar question with dangerous potential.
 
-"Home."
+"Broadly. Not yours."
 
-"Horse."
+He nodded.
 
-"Horse belongs to Ren."
+No disappointment.
 
-Ren, still flying it, nodded vigorously.
+Good city.
 
-Tavi looked betrayed by property law.
+"It shouldn't sag."
 
-Vara said, "Tomorrow horse."
+"I gathered."
 
-Ren looked at her.
+"Wind line."
 
-She raised one eyebrow.
+That narrowed the category.
 
-He looked back at Tavi.
+I looked at the paper tabs again.
 
-"Maybe."
+Not a message pull.
 
-Good. No appointments for children either.
+Not a lift.
 
-Tavi dragged his feet to the gate.
+The square box at the roof edge had a shallow metal face with three slots.
 
-Then stopped at the edge without being told.
+The cord entered the lower slot.
+
+A thin vane projected from the side, almost flat to the wall.
+
+I had seen wind lines used for awning control, venting, drying courts, kiln sheds, grain lofts, even cheap weather alarms.
+
+The exact local use still mattered.
+
+"What does this one run?"
+
+The man pointed at the roof above us.
+
+I stepped back far enough to see.
+
+A long strip of pale fabric lay rolled beneath the upper eave.
+
+Shade cloth.
+
+"Court shade?"
+
+"When sun turns."
+
+He pointed at the tabs.
+
+"Wind too high, stays up. Wind low, comes out."
+
+Reasonable.
+
+No sense deploying a broad shade in a gust strong enough to tear it.
+
+The paper tabs gave a cheap visible check on air movement below the roof.
+
+The line itself likely carried some combination of tension and vane response to the shade box.
+
+Likely.
+
+I did not know.
+
+"And middle tab?"
+
+He shrugged.
+
+"All should move."
+
+That was useful.
+
+Mara emerged through a ground-floor doorway carrying a long pole.
+
+Not a dramatic pole.
+
+A household pole.
+
+Wood, maybe twelve feet, with a forked metal tip.
+
+She saw me.
+
+"Who?"
+
+The man said, "Greg."
 
 I looked at him.
 
-He looked at me.
+"We skipped that part."
 
-"Stop corner."
+He shrugged.
 
-"Yes."
+"You look Greg."
 
-We walked home wall side.
+"Disturbing."
 
-At the first turn, he tried to explain the entire afternoon using only the words horse, tree, up, Ren, and Greg.
+Mara looked at the man.
 
-I understood perhaps sixty percent.
+"You know him?"
 
-At the second corner, he stopped early again.
+"No."
 
-By the time we reached our door, the story had changed enough that I was apparently responsible for putting the horse in the tree.
+"Then how?"
 
-"False," I told him.
+"Cala's upstairs one."
 
-He pointed at my crutch.
+Of course.
 
-"Greg pole."
+I sighed.
 
-"Also false. Ren proposed that. I rejected it."
+"Greg remains correct."
 
-Cala opened the door before we finished litigating.
+Mara nodded once.
 
-She looked at Tavi first.
+"Mara. That's Ovi."
 
-Then at me.
+The man with the trays, Ovi, lifted one hand.
 
-"Run?"
+Names complete.
 
-"Only emotionally."
+No paperwork.
 
-"Greg."
+Mara carried the pole to the edge of the court.
 
-"No. He stayed in the court. Stopped at corners."
+She did not stand beneath the line.
 
-Cala nodded.
+She extended the fork upward and caught a small loop hanging from the wall below the roof box.
 
-That was the report she wanted.
+Not the main line.
 
-Tavi pushed past her.
+A separate release.
 
-"Horse up! Horse tree! Greg pole!"
+She pulled once.
 
-Lyssa called from upstairs, "What did you do?"
+Nothing happened.
 
-"Nothing!"
+She stopped immediately.
 
-Tavi shouted, "Greg horse tree!"
+Good.
+
+"Stiff," she said.
+
+Ovi said, "Pull harder."
+
+Mara looked at me.
+
+"See?"
+
+"I have been here four minutes and already understand the marriage."
+
+Ovi laughed.
+
+Mara did not.
+
+Then she did, once, despite herself.
+
+She lowered the pole.
+
+"Leave."
+
+Ovi said, "Shade?"
+
+"Leave."
+
+He looked at the sun.
+
+The court was still mostly comfortable.
+
+The bright edge had reached only the first drying rack.
+
+"Roots need half shade."
+
+Mara looked at the trays.
+
+"Move racks."
+
+Ovi looked offended by the possibility of solving a problem without solving the machine.
+
+I respected Mara immediately.
+
+Ovi moved the first rack two feet toward the wall.
+
+The shade edge covered it.
+
+He moved the second.
+
+One wheel on the rack caught in a crack.
+
+He lifted that side and rolled it free.
+
+No magic.
+
+No high line.
+
+Roots saved from whatever amount of sun offended roots.
+
+Mara leaned the pole against the wall.
+
+"Tess comes noon."
+
+Ovi nodded.
+
+That sounded like the end.
+
+I should continue walking.
+
+I did.
+
+Three steps.
+
+Mara said, "Greg."
+
+I stopped.
+
+"Yes?"
+
+"You saw first?"
+
+"The still tab."
+
+"Good."
+
+That was all.
+
+I waited half a second in case a second sentence existed.
+
+It did not.
+
+I left.
+
+The city did not reward me.
+
+No copper fell from the sky.
+
+No guild clerk appeared with a contract.
+
+The sock woman did not descend to offer a career in laundry recovery.
+
+I walked another lane.
+
+At the corner, a pair of children were drawing circles in dust with a broken tile.
+
+One circle had six legs.
+
+The other had teeth.
+
+I did not ask.
+
+The road tune tried again.
+
+I let it.
+
+By the time I reached the upper market, I had stopped thinking about the high line.
+
+Mostly.
+
+That was progress.
+
+I had seen a thing behaving oddly.
+
+I had said something.
+
+The people who owned it had recognized the problem, changed the immediate work, and named the person who would come later.
+
+My role had lasted perhaps two minutes.
+
+This was an excellent size for a role.
+
+I bought nothing.
+
+That was easier when I had brought no money.
+
+The three copper remained upstairs, safe from my growing ability to notice merchandise.
+
+I turned south instead of west.
+
+Not because south contained opportunity.
+
+Because I had not walked that stretch in a few days.
+
+The lane narrowed between a dye shop and a building with carved stone lintels.
+
+Blue water ran in a shallow channel beside the dye shop wall.
+
+Not bright blue.
+
+Gray-blue.
+
+Spent rinse.
+
+A little grate at the corner caught threads before the water entered the covered drain.
+
+Three strips of cloth had tangled there.
+
+A worker in rolled sleeves lifted them out with a hooked stick and dropped them into a bucket.
+
+Routine.
+
+I passed.
+
+At the next doorway, a woman was painting tiny white marks onto clay jars.
+
+At the next, two men were arguing about whether a plank was straight.
+
+At the next, nobody was doing anything visible, which made it suspicious.
+
+I kept walking.
+
+This was what I had wanted, apparently.
+
+Not adventure.
+
+Not exactly.
+
+A city with enough going on that I did not have to manufacture importance to justify leaving the house.
+
+Old Greg would have called that rest.
+
+Old Greg had been bad at rest.
+
+Young Greg had inherited the expertise.
+
+The road opened near a little triangular square I had crossed before without reason to remember it.
+
+Today there were six baskets on the ground.
+
+Not a market.
+
+A woman sat on an upturned crate beside them, sorting something dark and round from something pale and broken.
+
+Seeds, maybe.
+
+A man held one basket open.
+
+Another woman shook a shallow sieve.
+
+Every few shakes, three or four tiny silver shapes jumped from the basket rim.
+
+I stopped because one landed on the man's sleeve.
+
+It had legs.
+
+Six, I thought.
+
+Maybe eight.
+
+Small enough that counting was ambitious.
+
+It flashed silver, then brown.
+
+The man flicked it off.
+
+It jumped into the shade beneath the basket.
+
+I knew grain jumpers broadly.
+
+Every region had something willing to live in dry seed, flour, husks, meal, or the moral weakness of storage containers.
+
+Some were pests.
+
+Some ate pests.
+
+Some changed careers depending on season.
+
+These were not a category I recognized by exact body.
+
+That did not make them mysterious.
+
+It made them local.
+
+The woman with the sieve shook again.
+
+Two silver-brown jumpers sprang free.
+
+She said, "Good."
+
+That changed the likely category.
+
+I stayed where I was.
+
+Not close enough to interfere.
+
+The man holding the basket looked at me.
+
+"Want?"
+
+I looked at the jumping things.
+
+"Probably not."
+
+He laughed.
+
+The woman with the sieve said, "Seeds."
+
+"Ah."
+
+She pointed at the pale basket beside her.
+
+"Those."
+
+So the offer was seeds, not insects.
+
+Important clarification.
+
+"No money."
+
+"Tomorrow."
+
+"Also no current need for seeds."
+
+She shrugged and kept shaking.
+
+One jumper landed on the crate.
+
+It turned toward the basket.
+
+Then toward a pale broken seed on the ground.
+
+It jumped onto the seed.
+
+Its front end lowered.
+
+The woman watched it.
+
+"See?"
+
+I did.
+
+The little thing worried at the broken seed for a moment.
+
+Then something white moved inside the split husk.
+
+A larva.
+
+Very small.
+
+The jumper struck.
+
+The white movement stopped.
+
+"Good," the woman said again.
+
+There it was.
+
+Not pest removal.
+
+Pest sorting.
+
+The sieve was shaking the jumpers out with the seed, but she was not killing them because they were hunting something worse.
+
+I looked at the baskets.
+
+Dark round seed in one.
+
+Pale broken pieces in another.
+
+A third basket held chaff and dust.
+
+The jumpers moved mostly around the damaged seed.
+
+"You keep them?" I asked.
+
+The woman shook her head.
+
+"Not keep. Let."
+
+Better distinction.
+
+"They stay in the seed?"
+
+"If grubs."
+
+"Leave when clean?"
+
+She shrugged.
+
+"Mostly."
+
+Bounded local answer.
+
+I liked her already.
+
+The man said, "Too many, bad."
+
+"For seed?"
+
+He rubbed his fingers together.
+
+"Skins."
+
+Maybe they damaged seed coats if prey ran out.
+
+Maybe he meant shed skins fouled storage.
+
+Maybe something else.
+
+I did not turn one word into a natural history.
+
+The woman with the sieve tapped the basket rim.
+
+"Sun them."
+
+The man nodded.
+
+They lifted the sorted basket together and carried it into a bright patch of square.
+
+The jumpers reacted almost immediately.
+
+Three sprang toward the shaded underside.
+
+Two jumped onto the ground and vanished between stones.
+
+One stayed on the seed.
+
+The woman waited.
+
+Then shook the basket once.
+
+The last jumper left.
+
+"Clean enough," she said.
+
+Not clean.
+
+Clean enough.
+
+That phrase had survived every profession I had ever known.
+
+I looked at the broken pale seed.
+
+The dead grub remained inside.
+
+"What seed?"
+
+"Kessa."
+
+I knew kessa.
+
+Small oil seed. Bitter raw unless treated. Used in paste, lamp blend, sometimes bread if somebody wanted to start an argument about bread.
+
+I had seen it in sacks and cakes.
+
+I had never watched anyone use tiny jumping predators as part of sorting it.
+
+"Local jumpers?"
+
+The woman nodded.
+
+"Silverbacks."
+
+The man said, "Not silverbacks. Flickers."
+
+The woman looked at him.
+
+"Silverbacks."
+
+"Flickers."
+
+Excellent.
+
+Taxonomy had arrived.
+
+I said, "I will record both and offend everyone equally."
+
+They both looked at my bag.
+
+I had not meant literally.
+
+I reconsidered.
+
+Then I did something unusual.
+
+Nothing.
+
+I left the charcoal wrapped.
+
+The insects continued jumping.
+
+The seed sorters continued sorting.
+
+I had no client.
+
+No specimen.
+
+No assignment.
+
+No reason to turn their work into my document.
+
+That did not mean I had to forget it.
+
+"Greg," I said.
+
+The woman pointed at herself with the sieve.
+
+"Pella."
+
+The man said, "Rusk."
+
+Pella shook the sieve again.
+
+"You buy kessa, come morning."
+
+"Why morning?"
+
+"Cool."
+
+Rusk added, "Jumpers slow."
+
+Pella said, "Easier sort."
+
+Useful.
+
+Local.
+
+Not an appointment.
+
+"If I need kessa."
+
+"Then morning."
+
+I nodded.
+
+I moved on.
+
+Behind me, Rusk said, "Flickers."
+
+Pella said, "Wrong."
+
+I smiled.
+
+That was enough ecology for one street.
+
+I did not need to know where the jumpers nested.
+
+I did not need to know whether they were magical.
+
+Nothing I had seen required magic.
+
+I did not need to ask what ate them, whether they bred in the baskets, how many grubs one killed, or whether the morning cold slowed them by half or by a third.
+
+Pella and Rusk were sorting seed.
+
+They knew what they needed to know to sort seed.
+
+I had learned one useful local practice because I happened to stop.
+
+Then I had left.
+
+This was becoming a pattern.
+
+I was not sure whether to be proud or worried.
+
+At home, Cala had moved the onion basket into the shade.
+
+I looked at it.
+
+"More trouble?"
+
+"No."
+
+"Good."
+
+Tavi sat on the floor with two wooden spoons and a cup.
+
+He hit the cup.
+
+"Door red."
 
 I closed my eyes.
 
-Cala walked away laughing.
+"The song has damaged him permanently."
 
-I followed Tavi into the room and put my bag on its peg.
+Lyssa was not in the courtyard.
 
-Three private copper remained upstairs. Three clean sheets remained clean. My body felt fine. My crutches had prevented one spool from escaping and had not become a kite-retrieval system despite Ren's best efforts.
+I heard her upstairs moving something across the floor.
 
-Lyssa came down with the brown cuff folded over one arm.
+Cala pointed at my bag.
 
-She looked at Tavi's blue fingers.
+"Buy?"
 
-Then at me.
+"Nothing."
 
-"Nothing?"
+"Good."
 
-"I supervised."
+"A sock fell on me."
 
-"Blue."
+Cala looked up.
 
-"Chalk."
+"Whose?"
 
-"Horse tree."
+"Woman three floors above. I returned it to a basket."
 
-"Wind."
+"Good."
 
-"Greg pole."
-
-"Slander."
-
-She smiled and went to wash Tavi's hands.
+Apparently this was the approved outcome.
 
 I sat at the table.
 
-Outside, somewhere two lanes over, a child yelled, and a moment later somebody else yelled back.
+Right foot forward.
 
-No bells rang. No Guild note arrived. No client knocked. Chapter three hundred, if the universe was counting, passed without noticing itself.
+Left knee clear.
 
-The only thing that had flown was a badly painted blue horse.
+The walk had been longer than I meant it to be.
 
-That seemed sufficient.
+My palms felt it more than my leg.
+
+Not pain.
+
+Just pressure from the grips.
+
+I opened and closed my fingers.
+
+Tavi hit the cup again.
+
+"Door red."
+
+"You have one song."
+
+He hit it again.
+
+Cala said, "You have many words. Same problem."
+
+I looked at her.
+
+"That was cruel."
+
+"True."
+
+Also cruel.
+
+Lyssa came down carrying a folded length of cloth.
+
+She set it on the far end of the table, away from Tavi.
+
+Not my work.
+
+I did not ask.
+
+She looked at me.
+
+"Walk?"
+
+"Yes."
+
+"Where?"
+
+I thought about the question.
+
+A sock.
+
+A high line.
+
+Drying roots.
+
+Blue rinse water.
+
+Kessa seed.
+
+Silverbacks.
+
+Flickers.
+
+"South."
+
+Lyssa waited.
+
+"That's all?"
+
+"I am practicing concise reporting."
+
+She smiled.
+
+"Bad at it."
+
+"Deeply."
+
+I told them about the high line first.
+
+Not the mechanism, because I did not know the mechanism.
+
+Just the still paper tab, the sag, Mara refusing to pull harder, Ovi moving his drying racks, and Tess coming later.
+
+Cala nodded at Tess's name.
+
+Of course she knew Tess.
+
+I did not even ask.
+
+Lyssa said, "High line for shade."
+
+"That one."
+
+"Many courts."
+
+"I know the type. Their middle flag stopped moving."
+
+She nodded.
+
+No explanation required.
+
+Then I told them about the seed sort.
+
+Cala knew kessa.
+
+Lyssa knew kessa.
+
+Tavi knew cup.
+
+We each contributed according to training.
+
+"Pella called them silverbacks," I said. "Rusk called them flickers."
+
+Cala said, "Flickers."
+
+Lyssa said, "Silverbacks."
+
+I stared at both of them.
+
+"Of course."
+
+Cala pointed toward the eastern lanes.
+
+"Here, flickers."
+
+Lyssa pointed south.
+
+"There, silverbacks."
+
+That was more interesting than either being right.
+
+"Same thing?"
+
+Cala shrugged.
+
+Lyssa shrugged.
+
+Excellent.
+
+Uncertainty survived contact with two residents.
+
+"They eat kessa grubs," I said.
+
+Cala nodded.
+
+Lyssa said, "Sometimes flour beetle eggs."
+
+I looked at her.
+
+"You've used them?"
+
+"No. Marra complains."
+
+There it was.
+
+Not expertise.
+
+Proximity.
+
+"Pella suns the basket after sorting to make them leave."
+
+Cala said, "Mm."
+
+Lyssa said, "Makes sense."
+
+I almost reached for the bag.
+
+The impulse was automatic.
+
+Name.
+
+Place.
+
+Observed behavior.
+
+Local disagreement.
+
+Morning cold.
+
+Sun clearing.
+
+A clean little note.
+
+I left the bag closed.
+
+Lyssa noticed.
+
+"No write?"
+
+"No job."
+
+She looked at me for a moment.
+
+"You write other things."
+
+Annoyingly accurate.
+
+"No need yet."
+
+That was better.
+
+She nodded.
+
+No praise.
+
+No lesson.
+
+She unfolded her cloth and checked one edge against the light.
+
+Conversation over.
+
+I sat there while Tavi beat his cup into a new musical tradition.
+
+The three copper remained upstairs.
+
+The three clean sheets remained clean.
+
+My charcoal remained wrapped.
+
+Outside, somewhere beyond the court wall, a pulley squeaked twice.
+
+Then stopped.
+
+I did not go investigate it.
+
+This may have been my greatest achievement of the week.
+
+Near midday I went upstairs to rest my hands.
+
+Not sleep.
+
+Just sit without crutches under me for a while.
+
+The bag went on the floor beside the bed.
+
+I could have taken out the scrap.
+
+I did not.
+
+Instead I lay back and watched the light move across the ceiling.
+
+There were cities I remembered by danger.
+
+A gate breached.
+
+A tower burning.
+
+A river turned black after a mana spill.
+
+A district where the dead had refused burial for six days because somebody had built a shrine wrong.
+
+Carrow was accumulating differently.
+
+A bad step repaired.
+
+A rain shelf that worked.
+
+A door weight that did not.
+
+A short board under an awning.
+
+A held note.
+
+A high line with one still flag.
+
+Tiny silver-brown things jumping out of seed.
+
+None of those were the city.
+
+That was the point.
+
+A city was too large to become one thing unless someone was trying to sell it to you.
+
+I had spent years in my first life arriving in places because a problem had made them important.
+
+War.
+
+Contract.
+
+Monster.
+
+Guild request.
+
+Missing caravan.
+
+Broken ward.
+
+The problem became the place.
+
+Then I left when the problem was solved.
+
+Carrow was refusing that shape.
+
+Good.
+
+I did not need another place that existed only while I was useful to it.
+
+Downstairs, Tavi struck the cup.
+
+"DOOR RED!"
+
+I covered my face with one hand.
+
+Carrow had other methods of permanence.
+
+I rested until my palms stopped feeling pressed.
+
+Then I went downstairs.
+
+The afternoon passed without producing a claim on me.
+
+I helped Cala move a water pot because I lived there.
+
+I held the door for Lyssa because I was standing near it.
+
+I prevented Tavi from putting one wooden spoon into the other water pot because society had rules.
+
+No money changed hands.
+
+No magic came out of me.
+
+No one knocked with a job.
+
+Toward evening, wind moved over the roofs.
+
+I heard fabric snap somewhere south.
+
+For a moment I thought of Mara's high line.
+
+Then I thought of the shade cloth rolled safely under its eave because she had left the stiff release alone.
+
+Maybe Tess had come.
+
+Maybe not.
+
+I did not know.
+
+I did not need to walk back and check.
+
+The uncertainty sat there without hurting me.
+
+That was useful too.
+
+The next morning I passed a seed seller near the upper market.
+
+Different seller.
+
+Different lane.
+
+A shallow tray of kessa sat in the sun.
+
+Two tiny silver-brown shapes jumped from the rim and vanished beneath the stall.
+
+The seller did not react.
+
+Neither did I.
+
+I kept walking.
+
+I knew one more thing about the city than I had yesterday.
+
+Not enough to own it.
+
+Enough to recognize it.

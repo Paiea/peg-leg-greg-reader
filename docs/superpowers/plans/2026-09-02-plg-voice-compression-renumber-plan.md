@@ -95,7 +95,7 @@
 - Consumes: exact checkpoint prose for Chapters 260-299 plus adjacent context and current state.
 - Produces: disposition and rationale for every chapter in the window.
 
-- [ ] For each Chapter 260-299 record title, unique value, repeated architecture, voice risks, procedural redundancy, and disposition: KEEP / COMPRESS / MERGE CANDIDATE / CUT CANDIDATE.
+- [ ] For each Chapter 263-299 record title, unique value, repeated architecture, voice risks, procedural redundancy, and disposition: KEEP / COMPRESS / MERGE CANDIDATE / CUT CANDIDATE.
 - [ ] Identify chapter pairs/triples that perform materially duplicated work.
 - [ ] Protect distinct hinges such as claim-vs-commitment, leisure/belonging, theatre craft, magic evidence changes, and magical-ecology/world integration.
 - [ ] Mark specific recurring narration to trim: lesson-after-lesson paragraphs, repeated scope self-talk, repeated body/protocol logs, and over-qualified conclusions.

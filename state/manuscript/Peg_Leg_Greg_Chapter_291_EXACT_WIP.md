@@ -1,833 +1,973 @@
 # CHAPTER 291
 
-## THE DOOR WEIGHT
+## THE RED THREAD
 
-The front door tried to eat my crutch.
+Lyssa left a red thread on the table.
 
-This was unfair because I had been using the door for months and it had shown no previous appetite.
+I did not investigate it.
 
-I pushed it open with my shoulder, planted the right crutch beyond the threshold, moved through, and the door swung back faster than expected.
+This was becoming one of my strongest skills.
 
-The lower edge caught the crutch shaft with a wooden knock.
+It was a short piece, maybe the length of my hand, bright enough to stand out against the worn wood. It had a knot at one end and nothing interesting at the other.
 
-I stopped.
+Lyssa had already gone to work.
 
-The door stopped.
+I ate breakfast beside it.
 
-We considered each other.
+Cala came through, saw it, picked it up, and tied it around the neck of a jar.
 
-"No," I told it.
+Mystery solved.
 
-Cala looked up from the courtyard.
+"That Lyssa's?" I asked.
 
-"Door."
+"Was on table."
 
-"Yes. I identified the attacker."
+"Excellent chain of custody."
 
-I pushed it open again and stepped fully inside.
+Cala tightened the knot.
 
-The door swung shut behind me with more force than usual.
+"Jar need mark."
 
-Not a slam.
+"What is in it?"
 
-Close.
+"Salt fish."
 
-Tavi came running because any object making a new sound was automatically entertainment.
+"Why does salt fish need a red thread?"
 
-"Again."
+"So Tavi don't open."
 
-"No."
+Tavi, sitting on the floor with his roof-tile house, looked up.
 
-"Again."
-
-"The door and I are no longer performing."
-
-He pushed it open.
-
-The door pulled itself from his hand and shut.
-
-He laughed.
-
-Cala did not.
-
-She came over and opened it halfway.
-
-The upper hinge gave a faint dry squeak.
-
-Then the door accelerated through the last third of its travel.
-
-"Wind?" I asked.
-
-Cala shook her head.
-
-I knew weighted doors.
-
-Spring doors. Counterweighted doors. Charm-close doors. Draft-close doors. Heat doors. Smoke doors. Privacy doors. Doors that locked themselves at night and one memorable guild door that opened only for people wearing the correct badge, which had led to an entire afternoon of very powerful adults shouting at a wall because somebody had changed the roster.
-
-This one was simple by comparison.
-
-At least it had always seemed simple.
-
-I looked above the frame.
-
-A narrow wooden box sat over the inner lintel.
-
-I had seen it every day.
-
-A cord disappeared into one end.
-
-"Weight box?" I asked.
-
-Cala nodded.
-
-Good.
-
-Not a discovery.
-
-A problem.
-
-"Always this fast?"
-
-"No."
-
-"Today?"
-
-"Morning."
-
-"After rain?"
-
-She shrugged.
-
-That was not evidence.
-
-I opened the door slowly.
-
-The cord above tightened.
-
-Inside the lintel box, something rolled with a soft stone sound.
-
-Not a hanging counterweight then, or not only one. I knew the class broadly. Some door closers used a weighted runner inside a channel, sometimes with a drag strip or low holding charm to keep the final pull controlled.
-
-I did not know this box.
-
-I also did not need to open it.
-
-The door shut again.
-
-Fast near the end.
-
-I watched the gap.
-
-The lower edge met the jamb cleanly.
-
-No obvious sag.
-
-Hinges looked seated.
-
-Cord did not fray where visible.
-
-"Has it hit anyone?" I asked.
-
-"No."
-
-"Caught fingers?"
-
-"No."
-
-"Tavi?"
-
-"No."
-
-Tavi said, "Again."
-
-"Your testimony is compromised."
-
-Cala pointed at him.
-
-"No door."
-
-He went away with the particular tragedy of a child denied repetitive impact testing.
-
-I checked the floor where the door traveled.
-
-Dry.
-
-No grit under the sweep.
-
-The threshold had stayed dry through yesterday's rain.
-
-The rain shelf remained innocent.
-
-That was useful mostly because it stopped my brain from building an unnecessary theory connecting every household system into one conspiracy.
-
-"Do we need it fixed today?" I asked.
-
-Cala looked at the door.
-
-"Need slow."
-
-That was yes.
-
-"Who usually does doors?"
-
-"Olan."
-
-Of course.
-
-Olan had already solved the cupboard latch before I could turn that into a career.
-
-I respected him for this despite barely knowing him.
-
-"Can he come?"
-
-"Working."
-
-"Later?"
-
-"Maybe."
-
-I opened the door again.
-
-The weight rolled.
-
-The last third pulled hard.
-
-A simple practical question presented itself.
-
-Could we make the door safe enough until Olan looked at it without pretending to repair the mechanism?
-
-That was a better question than what was wrong inside the box.
-
-I looked around the courtyard.
-
-"Do we have a wedge?"
-
-Cala pointed toward the kitchen.
-
-There was a small wood wedge under the moved shelf.
-
-I picked it up.
-
-"For door?"
-
-"Shelf."
-
-"Then not for door."
-
-She gave me a look.
-
-"Temporary borrowing with informed consent?"
-
-"No."
-
-Clear.
-
-I put it back.
-
-We had scrap wood. Most households did. But a wedge holding the door fully open would solve closing by eliminating closing, which was not necessarily useful if Cala wanted the front door closed.
-
-I looked at the latch.
-
-"Does it need to stay shut?"
-
-"Yes."
-
-There went my revolutionary open-door policy.
-
-"Then Olan."
-
-Cala nodded.
-
-I had contributed almost nothing.
-
-This was becoming another skill.
-
-I went upstairs.
-
-The four copper were still there.
-
-I did not interpret the broken door as a divine message that capital should finally be deployed.
-
-Household repair was not automatically my private business expense.
-
-Also, I did not own the house.
-
-This seemed relevant.
-
-Lyssa was already gone.
-
-The three clean sheets remained under the stack. The horse page remained full. The scrap with the rain-thread price and road notes had become crowded enough that any additional writing would require either smaller handwriting or admitting that paper had uses.
-
-I chose neither.
-
-I went out through the door carefully.
-
-It tried to close on my left crutch this time.
-
-"Vindictive," I said.
-
-Cala called from behind me, "Door."
-
-"I know."
-
-Outside, Carrow had dried almost completely.
-
-The lower gutters still carried thin water. A laundry line crossed one upper window. Someone had hung six pale shirts in order of size, which made me wonder whether the smallest belonged to a child or simply a very disappointing adult.
-
-I walked toward the upper market.
-
-Not because of the door.
-
-Mostly.
-
-I had no plan to find Olan. Cala had said he was working, not where. Carrow contained enough people named Olan that searching by first name would have been a poor municipal strategy anyway.
-
-I wanted breakfast again.
-
-This was a legitimate second purpose for leaving the house.
-
-At a corner stall, I spent no money because I had none with me.
-
-This flaw in the plan became apparent only after I had looked at fried dough for too long.
-
-The seller said, "You buying?"
-
-"Emotionally."
-
-"Copper."
-
-"Financially, no."
-
-He turned to someone useful.
-
-I moved on.
-
-A few doors later, I noticed a shop entrance closing in exactly the way ours should have.
-
-Slow through most of the swing.
-
-Slower at the end.
-
-Soft contact.
-
-I stopped outside.
-
-The shop sold ceramic jars, lamp bowls, and shallow trays. The door itself was narrow, painted dark red, with a lintel box larger than ours.
-
-A woman came out carrying two wrapped bowls.
-
-The door followed her.
-
-Controlled.
-
-I watched the upper cord.
-
-Different arrangement.
-
-Two cords instead of one.
-
-Not useful as direct comparison.
-
-The shopkeeper saw me through the doorway.
-
-"You coming?"
-
-"No."
-
-He waited.
-
-"Your door closes nicely."
-
-He looked at the door.
-
-Then at me.
-
-"Thank you?"
-
-"Mine doesn't."
-
-"Then fix yours."
-
-Excellent local wisdom.
-
-I should have left.
-
-Instead I asked, "Who maintains your closer?"
-
-He pointed across the lane.
-
-Not at a person.
-
-At a narrow shop with three wooden frames leaning against the wall.
-
-"Sella."
-
-That was actual information.
-
-"Door work?"
-
-"Frames, shutters, closers."
-
-"Thanks."
-
-He nodded and returned to his jars.
-
-I crossed the lane.
-
-The narrow shop had no sign I could read from the street, just the frames and a bench under the awning. A woman sat on the bench shaving a strip of wood with a drawknife.
-
-Gray hair tied high. Thick forearms. Leather apron. No visible mana tool.
-
-I did not ask whether she was Sella.
-
-I said, "Do you work on door closers?"
-
-She kept shaving.
-
-"Sometimes."
-
-"Household weight box over lintel. Single visible cord. Started pulling hard near the end this morning."
-
-The drawknife stopped.
-
-That was better than asking what a door was.
-
-"Box wood or iron?"
-
-"Wood."
-
-"Cord side?"
-
-"Inside right when facing out."
-
-"Door opens in?"
-
-"Yes."
-
-"Rain yesterday?"
-
-"Yes, but threshold stayed dry."
-
-"Box wet?"
-
-"Not that I saw."
-
-"Squeak?"
-
-"Upper hinge, faint."
-
-"Roll sound in box?"
-
-"Yes."
-
-She set the drawknife down.
-
-"Could be drag strip shifted. Could be runner clean now because damp swelled then dried. Could be cord moved. Could be hinge making it feel worse. Could be box cracked inside."
-
-A list of possibilities.
-
-Not a diagnosis.
-
-I liked her too.
-
-"Safe to use?"
-
-"How hard?"
-
-"Hard enough to catch a crutch if I'm slow through it. Not slamming."
-
-She looked at the crutches.
-
-"Children?"
-
-"One."
-
-"Keep him off it. Hold door when passing. Fix soon."
-
-Practical.
-
-"Would you need to see it?"
-
-"Yes."
-
-"Of course."
-
-"Where?"
-
-I told her the lane and described the courtyard entrance.
-
-She recognized the row, not the house.
-
-"Today?"
-
-"I don't own the house."
-
-She picked up the drawknife again.
-
-"Then why asking me?"
-
-Fair.
-
-"I live there. Cala handles the house. Olan usually does doors, apparently. He's working. I wanted to know whether this was hold-it-carefully-until-later or stop-using-it-now."
-
-She resumed shaving.
-
-"Careful until later if no crack, no fray, no slam. If worse, stop."
-
-"Thank you."
-
-"One bit if I come look. More if parts."
-
-There was a price.
-
-I did not reach for money I did not have.
-
-More importantly, I did not hire her.
-
-"I'll tell Cala."
-
-Sella nodded.
-
-I left.
-
-That was a clean piece of information.
-
-One bit to inspect, more if parts.
-
-Olan remained the household's usual door person.
-
-Sella was an available alternative only if Cala wanted one.
-
-I could carry that home without converting it into a contract.
-
-This restraint thing was getting repetitive enough that I worried I might actually be learning.
-
-On the way back, I saw a street performer balancing three green glass balls on the backs of his hands.
-
-I knew the trick.
-
-Not the exact routine, but the broad technique. Weight, timing, finger control, maybe a little adhesion charm depending on whether he was honest.
-
-I watched for thirty seconds.
-
-One ball paused against gravity a fraction too long.
-
-Adhesion charm.
-
-He caught me noticing.
-
-I raised my eyebrows.
-
-He winked.
-
-No explanation required.
-
-I had lived in this world a long time.
-
-Sometimes magic was just a man cheating beautifully in public.
-
-I continued home.
-
-The front door was propped open.
-
-Not with the shelf wedge.
-
-A brick held it.
+"Red means no."
 
 I looked at Cala.
 
-"You said it needed to stay shut."
+"Does red always mean no?"
 
-"Olan coming."
+"No."
 
-"Ah."
+Of course it didn't.
 
-"Soon."
+I finished breakfast.
 
-I pointed at the brick.
+The wall behind the moved shelf looked nearly normal now. I did not touch it. Cala did not ask me to. Maro did not arrive.
 
-"Temporary borrowing with informed consent?"
+A good household repair story was apparently allowed to end with the household continuing to exist.
 
-"Brick."
+I went upstairs and looked at my three scrap strips.
 
-"Hard to argue with the licensing structure."
+The first carried the carrying-light notes.
 
-Tavi sat six feet away under explicit exile from the door.
+The second was blank except for old account writing on the reverse.
 
-"Door bad," he told me.
+The third had a grease mark near one edge.
 
-"Your technical judgment has improved."
+I liked them more than the clean sheets.
 
-Olan arrived before I could explain Sella.
+That felt morally suspicious.
 
-He was older than I had remembered from the cupboard-latch day, or maybe I had not looked closely then. Narrow shoulders, dark cap, tool roll under one arm. He greeted Cala, nodded at me, and went straight to the door.
+Then somebody knocked downstairs.
 
-No ceremony.
+Not a pounding knock.
 
-Cala removed the brick.
+Two quick taps, pause, one more.
 
-Olan opened the door halfway.
+Cala called, "Greg."
 
-It pulled shut.
+I leaned toward the stairs.
 
-He caught it with one hand.
+"Alive."
 
-Opened it again.
+"Woman."
 
-Listened.
+"That narrows Carrow considerably."
 
-Then he looked at the upper hinge.
+No response.
 
-"Oil."
+I went down.
 
-I almost said that could not explain the late acceleration.
+The woman at the courtyard gate was maybe forty, with a square basket hooked over one arm and a narrow green scarf wrapped around her hair. I recognized her face without knowing her name. She sold something in the morning market. Herbs, maybe. Or soap. Or both. Carrow had defeated my ability to categorize people by one visible object.
 
-I did not.
+She looked at me.
 
-He took a tiny bottle from the roll, put one drop at the hinge pin, worked the door twice, and listened again.
-
-The squeak vanished.
-
-The door still pulled hard at the end.
-
-Olan looked at me.
-
-I said nothing.
-
-This required strength.
-
-He reached up to the lintel box.
-
-The front panel had two little wooden catches I had not noticed. He turned them with his thumbnail and lowered the panel.
-
-Inside was a narrow channel.
-
-A stone runner the size of two fingers sat in it, connected to the cord.
-
-A dark felt-like strip ran along the final third of the channel.
-
-The strip had peeled loose at one end and folded back on itself.
-
-There was the drag.
-
-Or rather, the missing drag.
-
-The runner traveled freely until it reached the folded strip, then hopped over it and pulled the door through the final part of the swing.
-
-Olan touched the strip.
-
-"Loose."
-
-Cala said, "Fix?"
+"Greg?"
 
 "Yes."
 
-He did not replace it.
+"Nara say you look at things."
 
-He took a thin flat blade, lifted the strip, scraped old pale adhesive from the wood, and rubbed the underside of the strip between his fingers.
+There it was.
 
-Then he opened a waxed paper packet from his tool roll and pinched out a grainy gray paste.
+I felt the three copper upstairs become heavier through the floor.
 
-I recognized binder paste broadly.
+"Sometimes."
 
-Not the recipe.
+"You charge?"
 
-He spread a very thin layer beneath the strip.
+Better question than most clients asked.
 
-No mana.
+"Sometimes. What is the thing?"
 
-Pressed it flat.
+She lifted the basket.
 
-Then he held two fingers over it.
+Inside were six little clay cups nested in straw.
 
-A faint yellow warmth appeared under his fingertips.
+Five were ordinary reddish brown.
 
-One pulse.
+One had a dark ring around its lower half.
 
-Low setting charm or hand-cast set effect. Common enough.
+"These."
 
-The paste dulled.
+I looked without touching.
 
-He waited longer than the magic lasted.
+"What do they do?"
 
-That part interested me.
+"Keep milk cool."
 
-"Set time after pulse?" I asked.
+I looked again.
 
-Olan glanced at me.
+The cups were small enough for one serving.
 
-"Yes."
+"All six?"
 
-"How long?"
+"Supposed."
 
-"Enough."
+"And one doesn't?"
 
-Cala smiled.
+"One sweats."
 
-I was surrounded by specialists committed to destroying measurement.
+"Sweats water?"
 
-Olan closed the panel and tested the door.
+"Outside wet. Milk gets warm."
 
-Slow.
+That was interesting.
 
-Slower at the end.
+Too interesting.
 
-Soft contact.
+I pulled myself back.
 
-He opened it again and let Tavi watch from a safe distance.
+"Do you make them?"
 
-Same result.
+"No."
 
-Then he handed the door to me.
+"Sell them?"
 
-I went through with both crutches.
+"Sometimes."
 
-The door followed without trying to take either one.
+"Who made them?"
 
-"Good," I said.
+"Pellin kiln."
 
-Olan nodded.
+Not Pell.
 
-Cala asked, "How much?"
+Pellin.
 
-"One bit."
+Different person until proven otherwise.
 
-Same as Sella's inspection price, though Olan had repaired it.
+"What do you want me to tell you?"
 
-That comparison meant almost nothing without knowing relationship, normal rates, parts, travel, favor, or whether Cala and Olan settled work differently.
+She looked impatient.
 
-I did not write a market report in my head.
+"Why bad."
 
-Cala paid him from household money.
+"I may not know."
 
-Not my four copper.
+"Nara say you say that."
 
-Olan rolled his tools.
+Excellent reputation.
 
-I said, "I asked Sella across from the jar shop about it before I came back. She said one bit to look, more for parts. I didn't hire her."
+"Nara also paid me because I found something useful."
 
-Cala nodded.
+"One copper."
 
-"Sella good."
+Nara had apparently included financial disclosure.
 
-"You know her?"
+"For her job. Yours may be different."
 
-"Yes."
+The woman shifted the basket.
 
-Of course.
+"How much?"
 
-"Then I have successfully introduced you to someone you already know."
+I looked at the six cups.
+
+Actual demand.
+
+A bounded object.
+
+A defect with a comparison set.
+
+This was exactly the kind of thing I had been telling myself I wanted.
+
+Which meant I needed to be careful.
+
+"First, scope. I compare the bad cup to the five good ones. I don't break them. I don't pour anything into them unless you approve. I don't take them anywhere. If I can give you a useful difference or a useful next step, one copper. If I can't, nothing."
+
+She stared at me.
+
+"Same as Nara."
+
+"Similar price. Different work."
+
+"One copper."
+
+"If useful."
 
 "Good."
 
-Olan left.
+"Your name?"
 
-The door closed behind him perfectly.
+"Miri."
 
-Tavi pushed it open.
+"Miri. Good."
 
-Cala said, "No."
+Cala was listening from the kitchen.
 
-He let go.
+I could feel it.
 
-The door closed perfectly again.
+I ignored her professionally.
 
-He looked disappointed.
+"Can we use the table?"
 
-Apparently correct function had less entertainment value.
+Miri stepped into the courtyard.
 
-Upstairs, I finally started a new scrap.
+"Not long."
 
-Not a clean sheet.
+"I also enjoy not long."
 
-There was still the reverse of an older household mark near one edge of a narrow piece Cala had put aside for kindling. I asked before taking it.
+We set the basket down.
 
-She said yes.
+I brought my measuring stick, charcoal, and the second scrap strip.
 
-I wrote:
+No clean sheet.
 
-`DOOR CLOSER: LATE HARD PULL WAS LOOSE DRAG STRIP IN RUNNER CHANNEL.`
+No mana.
 
-Then:
+No declaration that I was now a cup expert.
 
-`OLAN: RESEATED OLD STRIP, BINDER PASTE + ONE SET PULSE. WAITED AFTER PULSE.`
+Miri took the six cups out and lined them on the table.
 
-Then I stopped.
+Up close, they were more interesting.
 
-I almost added Sella's price.
+Each cup had three shallow horizontal grooves around the outside. The grooves were not decorative in the same way on every cup. On four, a pale gray material sat inside the lowest groove. On one, it was almost white. On the dark-ringed cup, the groove looked empty.
 
-I did not.
+I pointed.
 
-That price had been for a hypothetical visit. Olan's one bit had been an actual household repair. Different conditions. Recording them side by side would invite a comparison the evidence did not support.
+"What's this?"
 
-I wrote instead:
+"Cool line."
 
-`SELLA: CAREFUL USE IF NO CRACK / FRAY / SLAM. STOP IF WORSE.`
+"Material?"
 
-That was useful.
+"Kiln puts it."
 
-The four copper remained untouched beside the new scrap.
-
-Lyssa came home near evening.
-
-The front door closed behind her softly.
-
-She looked back at it.
-
-"Fixed."
-
-"Olan."
-
-"Mm."
-
-"Loose drag strip in the closer."
-
-"Mm."
-
-"I also consulted a second door specialist without hiring her."
-
-Lyssa took off her outer wrap.
-
-"Why?"
-
-"Because Olan had not arrived yet."
-
-"Door broken?"
-
-"It tried to eat my crutch."
-
-She looked at the crutch.
-
-"Crutch okay?"
+"Pellin?"
 
 "Yes."
 
-"Then door hungry."
+"Do all cooling cups have it?"
 
-I stared at her.
+"These."
 
-"Tavi has been spreading misinformation."
+Good answer.
 
-She smiled.
+I wrote:
 
-Downstairs the door opened again.
+`MIRI: SIX COOL CUPS. ONE WARM / WET OUTSIDE.`
 
-Someone came in.
+Then:
 
-It closed softly.
+`LOW GROOVE LOOKS EMPTY ON BAD CUP.`
 
-No drama.
+I did not write cause.
 
-No magic worth announcing.
+"Did it always do this?"
 
-No new client.
+"First use."
 
-No money earned.
+"New?"
 
-A household problem had appeared, belonged to the household, and been solved by the person Cala already trusted to solve it.
+"Bought yesterday."
 
-I had learned something anyway.
+"All six together?"
 
-That might have been the part Old Greg understood least.
+"Yes."
 
-Not every useful thing I knew had to become mine.
+"Same kiln batch?"
+
+"Same basket."
+
+Not the same thing.
+
+"Did Pellin say same firing?"
+
+"No."
+
+I looked at the cup bottoms.
+
+Each had a pressed mark like a little three-pronged leaf.
+
+Same mark.
+
+The bad cup's mark was shallower.
+
+Maybe pressure difference.
+
+Maybe wear in stamp.
+
+Maybe meaningless.
+
+I did not write it yet.
+
+"What happens when you put milk in the good ones?"
+
+"Cup gets cool."
+
+"Immediately?"
+
+"Soon."
+
+"Outside stays dry?"
+
+"Mostly."
+
+"Bad one?"
+
+"Outside wet. Milk not cool."
+
+"How much milk?"
+
+She held two fingers against the cup.
+
+"To here."
+
+"Same amount each?"
+
+"Enough."
+
+That was not precise, but this was milk service, not laboratory work.
+
+I asked, "Can we test with water instead?"
+
+Miri frowned.
+
+"Why?"
+
+"Cheaper than wasting milk if it doesn't matter what liquid is inside. But I don't know if it doesn't matter."
+
+She considered that.
+
+"Water works."
+
+"You know?"
+
+"I rinse, cup cool."
+
+Useful.
+
+Cala brought a pitcher without being asked.
+
+I looked at her.
+
+"You are interfering with a client engagement."
+
+"Water."
+
+"Accepted."
+
+Miri rolled her eyes.
+
+We put equal-looking amounts of water into one normal cup and the dark-ringed cup.
+
+I used the same small kitchen ladle for both.
+
+Not exact measurement.
+
+Better than guessing from the pitcher.
+
+Then we waited.
+
+This was the part of professional work nobody advertised.
+
+Miri stood with arms crossed.
+
+Cala chopped something in the kitchen.
+
+Tavi moved his house tile three inches and announced that it was now a shop.
+
+I touched neither cup for the first minute.
+
+Then I held the back of one finger near each.
+
+The normal cup felt slightly cooler.
+
+Maybe.
+
+I waited longer.
+
+A thin dampness appeared on the outside of the bad cup, first at the dark ring.
+
+The good cup stayed mostly dry.
+
+"There," Miri said.
+
+"Yes."
+
+I touched the outside of the good cup.
+
+Cool.
+
+Then the bad.
+
+Not warm exactly.
+
+Closer to room temperature.
+
+The wetness was real.
+
+I looked inside both.
+
+No obvious leak line. Water levels looked similar.
+
+"Does the bad one lose liquid?"
+
+"No."
+
+"You checked?"
+
+"Milk still there."
+
+So the outside moisture might not be leakage.
+
+Condensation, in old-life terms, except the supposedly cooling cup was the one not cooling properly.
+
+That could still happen depending on surfaces and temperature gradients.
+
+Or the magical material could be moving moisture.
+
+Or something else entirely.
+
+I had too many categories again.
+
+I rotated the bad cup.
+
+The dark ring was strongest on one side.
+
+The empty lower groove ran all the way around, but near that dark side there was a tiny pale fleck lodged in a crack.
+
+I pointed.
+
+"Was the groove filled when you bought it?"
+
+Miri leaned closer.
+
+"Don't know."
+
+"Did you see pale material fall out?"
+
+"No."
+
+"Anything in the basket?"
+
+She looked at the straw.
+
+We both did.
+
+Tiny pale crumbs sat among the straw.
+
+Not many.
+
+I did not touch them immediately.
+
+"Were those there before?"
+
+"Basket old."
+
+Of course.
+
+I used the end of my measuring stick to separate one pale crumb from a piece of straw.
+
+"This look like the cool line material?"
+
+Miri squinted.
+
+"Maybe."
+
+Cala came over, looked once, and said, "Looks same."
+
+Two maybes did not make a fact.
+
+I compared the five good cups more carefully.
+
+Four had obvious pale fill in the lower groove.
+
+The fifth, the almost-white one, had fill in both the lower and middle groove.
+
+"This one different too."
+
+Miri looked.
+
+"That one very cold."
+
+I stopped.
+
+"Colder than the others?"
+
+"Yes."
+
+"Always?"
+
+"Used once."
+
+"And it was colder that one time?"
+
+"Yes."
+
+I wrote:
+
+`ONE GOOD CUP HAS EXTRA PALE LINE / MIRI SAYS VERY COLD ONCE.`
+
+That was a useful comparison.
+
+Not binary good versus bad anymore.
+
+Maybe amount or placement of the pale material mattered.
+
+Maybe not.
+
+I asked, "Did Pellin sell these as equal?"
+
+"Same price."
+
+"Same cooling?"
+
+"Cool cups."
+
+"Did he promise same strength?"
+
+Miri's face told me I was becoming tiresome.
+
+"No."
+
+Fair.
+
+I looked at the water again.
+
+The good cup was distinctly cooler now.
+
+The bad cup still had dampness on the outside and no comparable chill.
+
+I asked, "Can I touch the pale fill on a good cup with wood? Not scrape it. Just press lightly."
+
+"Why?"
+
+"See if it's hard or loose."
+
+She nodded.
+
+I used the rounded end of the measuring stick.
+
+The pale fill was hard.
+
+Not chalk.
+
+Not soft paste.
+
+On the almost-white cup, the extra middle line was also hard.
+
+On the bad cup, the tiny remaining fleck near the dark side moved under almost no pressure.
+
+I stopped before dislodging it.
+
+"That piece is loose."
+
+Miri leaned closer.
+
+"So bad line fell out."
+
+"Maybe."
+
+"You see empty."
+
+"Yes. I see the groove is mostly empty. I see one remaining pale fleck is loose. I see crumbs in an old basket that look similar. I don't know whether the cup left the kiln missing the fill, whether it broke loose later, or whether the empty groove causes the cooling failure."
+
+Miri stared at me.
+
+"Then what I pay for?"
+
+Reasonable.
+
+I looked at the six cups.
+
+"You sell these?"
+
+"Sometimes."
+
+"Do you need to know the magic, or do you need to know what to do with this cup?"
+
+That changed her expression.
+
+"What do with cup."
+
+"Then don't sell this one as a working cool cup. Take it back to Pellin with one normal cup for comparison. Show him the empty lower groove and the loose remaining fleck. Tell him it doesn't cool like the others. Ask whether the line is supposed to be filled and whether he replaces defects."
+
+"He say I broke."
+
+"Did you?"
+
+"No."
+
+"Then tell him first use failed."
+
+"He still say."
+
+I believed her.
+
+"Do you have the basket he gave you?"
+
+"Yes."
+
+"Bring it. Don't tell him the crumbs prove anything. They don't. But don't throw them away either."
+
+Miri looked at the straw.
+
+"You come?"
+
+There it was.
+
+Expansion.
+
+The natural enemy of scope.
+
+"Not for this copper."
+
+She frowned.
+
+"You talk better."
+
+"Probably. But the work we agreed was compare the cups and give you a useful difference or next step. Going to argue with Pellin is new work."
+
+Cala made a small sound from the kitchen that might have been approval or a cough.
+
+I did not look.
+
+Miri tapped one finger against the table.
+
+"How much come?"
+
+I had no idea.
+
+The kiln could be close or far. The conversation could take five minutes or an hour. I did not know Pellin. I did not know whether he would consider me useful or insulting.
+
+"I don't know yet. Where is the kiln?"
+
+"South ovens."
+
+That was farther than I wanted to casually promise on crutches.
+
+"Not today. If you still need me after you ask him, come back and tell me what happened. Then we scope that job separately."
+
+Miri did not like this answer.
+
+That did not make it wrong.
+
+She looked at the cups again.
+
+"Useful?" I asked.
+
+She picked up the bad cup and ran a thumb near the empty groove without touching the loose fleck.
+
+Then she picked up a normal one.
+
+"Yes."
+
+She gave me one copper.
+
+Fourth.
+
+I did not feel triumphant.
+
+I felt alert.
+
+That was probably healthier.
+
+I set the coin apart from the cups.
+
+"Do you want me to write what we saw?"
+
+Miri looked at the scrap strip.
+
+"For me?"
+
+"If Pellin reads."
+
+"He reads."
+
+I turned the strip over.
+
+The old account writing covered most of that side.
+
+Not useful.
+
+I looked upstairs.
+
+Three clean sheets.
+
+No.
+
+Then I looked at the third scrap strip with the grease mark.
+
+I brought it down.
+
+On the blank side I wrote slowly enough to be legible:
+
+`SIX COOL CUPS BOUGHT TOGETHER.`
+
+`ONE DOES NOT COOL LIKE THE OTHERS.`
+
+`LOW GROOVE MOSTLY EMPTY. REMAINING PALE FLECK LOOSE.`
+
+`ONE NORMAL CUP HAS PALE FILL IN LOW GROOVE.`
+
+`COMPARE BEFORE REPAIR.`
+
+I stopped.
+
+"Do you want my name?"
+
+Miri considered.
+
+"No."
+
+I respected that deeply.
+
+I handed her the strip.
+
+"This doesn't say Pellin caused it."
+
+"I know."
+
+"It doesn't say the missing fill definitely causes the problem."
+
+"I know."
+
+"It says what we saw."
+
+"Greg."
+
+"Yes?"
+
+"Stop."
+
+"Understood."
+
+She packed the cups carefully, putting the bad one at one end and the comparison cup beside it. The very-cold cup stayed with the other three.
+
+She took the note.
+
+At the gate she turned back.
+
+"Nara say you annoying."
+
+"That was not included in her testimonial."
+
+"She say useful too."
+
+Then Miri left.
+
+I stood in the courtyard holding the fourth copper.
+
+Cala came out.
+
+"Paid."
+
+"Yes."
+
+"Four."
+
+"Apparently everybody is tracking my finances now."
+
+"You leave coins on table."
+
+"In my room."
+
+"Lyssa sees."
+
+"That is not everybody."
+
+Cala went back to the kitchen.
+
+I climbed upstairs and put the new copper beside the other three.
+
+Four coins made a square if arranged properly.
+
+I arranged them properly.
+
+Then immediately hated what that did to my brain.
+
+I scattered them.
+
+The first scrap strip still held carrying-light notes.
+
+The second now held cup notes on one side.
+
+The third was gone with Miri.
+
+I had one blankish scrap left if I counted the unused space around the grease mark on the remaining strip.
+
+I wrote one line beneath the cup observations:
+
+`USEFUL NEXT STEP CAN BE ENOUGH.`
+
+Then I stared at it.
+
+Too universal.
+
+I added:
+
+`FOR THIS JOB.`
+
+Better.
+
+Lyssa came home after sunset.
+
+She put her bag down, washed her hands, and saw the four coins.
+
+"Four."
+
+"Cala has corrupted you."
+
+"Who?"
+
+"Miri. Cooling cups."
+
+Lyssa looked at me.
+
+"Miri green scarf?"
+
+"Yes."
+
+"Sells soap."
+
+"I thought herbs."
+
+"Soap. Sometimes herbs."
+
+Vindicated by complexity.
+
+"One cup didn't cool. The lower groove looked like it had lost its pale fill. I didn't tell her that caused it."
+
+"Good."
+
+"I gave her a next step."
+
+"Pellin?"
+
+I stared.
+
+"You know Pellin?"
+
+"Kiln."
+
+"Everybody knows everything except me."
+
+"No."
+
+"Thank you for the comfort."
+
+She picked up my scrap strip.
+
+"Compare before repair."
+
+"That note went with Miri. This is my version."
+
+She read the line at the bottom.
+
+"Useful next step can be enough. For this job."
+
+"I am becoming cautious."
+
+"Old."
+
+"Nineteen."
+
+"Very old."
+
+I pointed at the four copper.
+
+"This is becoming something."
+
+Lyssa looked at the coins.
+
+"Money."
+
+"Yes, technically."
+
+"Four money."
+
+"I mean the pattern. People are asking me to look at bounded problems."
+
+She sat on the bed.
+
+"Nara tell Miri."
+
+"Yes."
+
+"Miri tell someone."
+
+That possibility sat there.
+
+I did not like how much I liked it.
+
+"Maybe."
+
+Lyssa nodded.
+
+"Then price before."
+
+"I did."
+
+"Good."
+
+"You could say I'm building a reputation."
+
+"Annoying."
+
+"Useful and annoying. Apparently."
+
+"Good reputation."
+
+I laughed.
+
+Then I looked at the four copper again.
+
+The first three had felt like proof that separate things could happen more than once.
+
+The fourth felt different.
+
+Not because it was more money.
+
+Because Nara had said my name when I wasn't there.
+
+That was a route.
+
+Not a business.
+
+Not yet.
+
+A route.
+
+I did not write that down.
+
+Some things became dangerous when given capital letters too early.
+
+Before bed, I checked the right shoe, leaned both crutches where I could reach them, and put the remaining scrap under the salt jar with the horse page.
+
+Four copper stayed on the table.
+
+Three clean sheets stayed clean.
+
+Downstairs, the jar with the red thread remained closed.
+
+Tavi had obeyed the system.
+
+That might have been the most reliable magic I saw all day.

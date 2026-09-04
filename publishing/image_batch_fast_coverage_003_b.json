@@ -1,14 +1,14 @@
 {
   "batch": "FAST-COVERAGE-003-B",
   "production_mode": "cheap 5x5 storybook coverage",
-  "selected_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+  "selected_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
   "kept_count": 25,
   "retry_count": 0,
   "items": [
     {
       "chapter": 39,
       "scene": "Fast Coverage B01",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 1,
       "column": 1,
       "target": "visual/chapter_art/039/Ch039_Fast-Coverage-003-B01.jpg",
@@ -20,7 +20,7 @@
     {
       "chapter": 40,
       "scene": "Fast Coverage B02",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 1,
       "column": 2,
       "target": "visual/chapter_art/040/Ch040_Fast-Coverage-003-B02.jpg",
@@ -32,7 +32,7 @@
     {
       "chapter": 41,
       "scene": "Fast Coverage B03",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 1,
       "column": 3,
       "target": "visual/chapter_art/041/Ch041_Fast-Coverage-003-B03.jpg",
@@ -44,7 +44,7 @@
     {
       "chapter": 42,
       "scene": "Fast Coverage B04",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 1,
       "column": 4,
       "target": "visual/chapter_art/042/Ch042_Fast-Coverage-003-B04.jpg",
@@ -56,7 +56,7 @@
     {
       "chapter": 43,
       "scene": "Fast Coverage B05",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 1,
       "column": 5,
       "target": "visual/chapter_art/043/Ch043_Fast-Coverage-003-B05.jpg",
@@ -68,7 +68,7 @@
     {
       "chapter": 44,
       "scene": "Fast Coverage B06",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 2,
       "column": 1,
       "target": "visual/chapter_art/044/Ch044_Fast-Coverage-003-B06.jpg",
@@ -80,7 +80,7 @@
     {
       "chapter": 45,
       "scene": "Fast Coverage B07",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 2,
       "column": 2,
       "target": "visual/chapter_art/045/Ch045_Fast-Coverage-003-B07.jpg",
@@ -92,7 +92,7 @@
     {
       "chapter": 46,
       "scene": "Fast Coverage B08",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 2,
       "column": 3,
       "target": "visual/chapter_art/046/Ch046_Fast-Coverage-003-B08.jpg",
@@ -104,7 +104,7 @@
     {
       "chapter": 47,
       "scene": "Fast Coverage B09",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 2,
       "column": 4,
       "target": "visual/chapter_art/047/Ch047_Fast-Coverage-003-B09.jpg",
@@ -116,7 +116,7 @@
     {
       "chapter": 48,
       "scene": "Fast Coverage B10",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 2,
       "column": 5,
       "target": "visual/chapter_art/048/Ch048_Fast-Coverage-003-B10.jpg",
@@ -128,7 +128,7 @@
     {
       "chapter": 49,
       "scene": "Fast Coverage B11",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 3,
       "column": 1,
       "target": "visual/chapter_art/049/Ch049_Fast-Coverage-003-B11.jpg",
@@ -140,7 +140,7 @@
     {
       "chapter": 50,
       "scene": "Fast Coverage B12",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 3,
       "column": 2,
       "target": "visual/chapter_art/050/Ch050_Fast-Coverage-003-B12.jpg",
@@ -152,7 +152,7 @@
     {
       "chapter": 52,
       "scene": "Fast Coverage B13",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 3,
       "column": 3,
       "target": "visual/chapter_art/052/Ch052_Fast-Coverage-003-B13.jpg",
@@ -164,7 +164,7 @@
     {
       "chapter": 53,
       "scene": "Fast Coverage B14",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 3,
       "column": 4,
       "target": "visual/chapter_art/053/Ch053_Fast-Coverage-003-B14.jpg",
@@ -176,7 +176,7 @@
     {
       "chapter": 54,
       "scene": "Fast Coverage B15",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 3,
       "column": 5,
       "target": "visual/chapter_art/054/Ch054_Fast-Coverage-003-B15.jpg",
@@ -188,7 +188,7 @@
     {
       "chapter": 56,
       "scene": "Fast Coverage B16",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 4,
       "column": 1,
       "target": "visual/chapter_art/056/Ch056_Fast-Coverage-003-B16.jpg",
@@ -200,7 +200,7 @@
     {
       "chapter": 57,
       "scene": "Fast Coverage B17",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 4,
       "column": 2,
       "target": "visual/chapter_art/057/Ch057_Fast-Coverage-003-B17.jpg",
@@ -212,7 +212,7 @@
     {
       "chapter": 59,
       "scene": "Fast Coverage B18",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 4,
       "column": 3,
       "target": "visual/chapter_art/059/Ch059_Fast-Coverage-003-B18.jpg",
@@ -224,7 +224,7 @@
     {
       "chapter": 65,
       "scene": "Fast Coverage B19",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 4,
       "column": 4,
       "target": "visual/chapter_art/065/Ch065_Fast-Coverage-003-B19.jpg",
@@ -236,7 +236,7 @@
     {
       "chapter": 68,
       "scene": "Fast Coverage B20",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 4,
       "column": 5,
       "target": "visual/chapter_art/068/Ch068_Fast-Coverage-003-B20.jpg",
@@ -248,7 +248,7 @@
     {
       "chapter": 75,
       "scene": "Fast Coverage B21",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 5,
       "column": 1,
       "target": "visual/chapter_art/075/Ch075_Fast-Coverage-003-B21.jpg",
@@ -260,7 +260,7 @@
     {
       "chapter": 77,
       "scene": "Fast Coverage B22",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 5,
       "column": 2,
       "target": "visual/chapter_art/077/Ch077_Fast-Coverage-003-B22.jpg",
@@ -272,7 +272,7 @@
     {
       "chapter": 79,
       "scene": "Fast Coverage B23",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 5,
       "column": 3,
       "target": "visual/chapter_art/079/Ch079_Fast-Coverage-003-B23.jpg",
@@ -284,7 +284,7 @@
     {
       "chapter": 80,
       "scene": "Fast Coverage B24",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 5,
       "column": 4,
       "target": "visual/chapter_art/080/Ch080_Fast-Coverage-003-B24.jpg",
@@ -296,7 +296,7 @@
     {
       "chapter": 82,
       "scene": "Fast Coverage B25",
-      "source_sheet": "visual/development/contact_sheets/Ch039-082_Fast-Coverage-003_B.png",
+      "source_sheet": "visual/development/contact_sheets/Ch39-082_Fast-Coverage-003_B.png",
       "row": 5,
       "column": 5,
       "target": "visual/chapter_art/082/Ch082_Fast-Coverage-003-B25.jpg",

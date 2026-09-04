@@ -1,719 +1,855 @@
 # CHAPTER 292
 
-## THE SHADE LINE
+## THE GOOD STEP
 
-The fish moved when the sun did.
+The fourth copper survived the night.
 
-I noticed because I was losing an argument with a bench.
+I checked.
 
-The bench was outside a tea stall near the east wall, low enough that sitting down required commitment and standing back up required either dignity or leverage. I had chosen leverage.
+This was not because copper was known to migrate while people slept. It was because four had become enough to feel like money and not enough to know what to do with.
 
-One crutch braced beside my right foot. One hand on the bench. Push through the right leg. Keep the left knee clear. Rise.
+That was an irritating range.
 
-A successful operation.
+Lyssa was already awake, sitting by the window with one foot tucked under her and a sleeve turned inside out across her lap. She had three pins between her lips.
 
-Then I looked across the lane and saw six silver-backed fish leave a bright patch of water at exactly the same time.
-
-Not dramatic fish.
-
-No teeth worth mentioning.
-
-No glow.
-
-No wings.
-
-They were swimming in a stone trough built along the wall beneath a public spout. I had passed it before. Water entered through a carved mouth at one end and escaped through a grated runnel at the other. People filled jars there. Horses drank from the lower basin when nobody objected.
-
-The fish belonged to the upper trough, apparently.
-
-Sunlight had reached one end between two roofs.
-
-The fish had been in it.
-
-Then the line of light shifted half a handspan.
-
-All six crossed into shade.
-
-I watched.
-
-A seventh fish emerged from beneath the lip of the trough and joined them.
-
-The tea seller said, "You buying tea?"
-
-I looked at him.
-
-"This question follows me."
-
-"Tea?"
-
-I had household money today.
-
-One bit, specifically, because Cala had sent me for salt and had given me enough for salt plus whatever small uncertainty lived between our house and the salt seller.
-
-I was not spending her uncertainty on tea.
-
-"No."
-
-"Then don't block bench."
-
-I had already stood up.
-
-"I have defeated your bench and will trouble you no further."
-
-He ignored me.
-
-The fish moved again.
-
-Not with the light this time.
-
-A woman approached the spout carrying two narrow-necked jars. Before she reached the trough, the fish slid toward the grated end and held there.
-
-She filled both jars.
-
-Water splashed from one rim.
-
-The fish stayed away from the disturbance.
-
-When she left, they spread out again.
-
-Ordinary behavior.
-
-Maybe.
-
-I knew trough fish. Cities used them for several reasons. Mosquito larvae. Algae. Insect control. Water quality. Decoration. Luck, depending on how much the ward clerk hated budgets and loved grandmothers.
-
-Some places used magically sensitive species as crude warning systems.
-
-These did not look like any famous warning fish I knew.
-
-That meant almost nothing.
-
-I did not know every fish.
-
-I went to buy salt.
-
-The salt seller measured a small household packet into brown paper, folded it twice, and tied it with a fiber twist.
-
-"One bit."
-
-I gave her the bit.
-
-There went the entire expedition budget.
-
-Good.
-
-I tucked the packet inside my shirt where both hands remained free for the crutches.
-
-On the way home, I passed the trough again.
-
-The sunlight had moved farther across the stone.
-
-The fish were still in shade.
-
-A boy crouched beside the upper basin with a reed.
-
-He poked the water.
-
-The fish fled.
-
-An older man slapped the back of his head lightly.
-
-"Leave ward fish."
-
-The boy stood.
-
-"Didn't touch."
-
-"Reed touched."
-
-"Fish don't care."
-
-The fish had very clearly cared.
-
-The boy left under protest.
-
-Ward fish.
-
-That narrowed ownership more than biology.
-
-I kept walking.
-
-At home, I gave Cala the salt.
-
-"One bit."
-
-She nodded.
-
-"No change."
-
-"No."
-
-"Good."
-
-"Your confidence in my accounting wounds me."
-
-She put the salt away.
-
-Tavi had arranged three cups upside down in the courtyard and was moving a pebble between them.
-
-"Find."
-
-"I know this game."
-
-"Find."
-
-He moved the cups with both hands.
-
-Badly.
-
-The pebble remained visible for most of the operation.
-
-Then he stopped.
-
-I pointed to the middle cup.
-
-He lifted the left one.
-
-Empty.
-
-"No."
-
-"That is not how evidence works."
-
-He lifted the middle cup.
-
-Pebble.
-
-He frowned at me.
-
-"Again."
-
-I sat on the courtyard step.
-
-"I saw fish today."
-
-Tavi moved the cups.
-
-"Fish."
-
-"Ward fish."
-
-"Big?"
-
-"Small."
-
-"Eat?"
-
-"Probably. Most fish consider it."
-
-"Eat Greg?"
-
-"Not unless I become significantly easier to portion."
-
-Cala looked over.
-
-"Silver fish?"
-
-That was enough to make me look at her.
-
-"Silver backs. Upper trough near east wall."
-
-"Shade fish."
-
-There it was.
-
-A local name.
-
-"They move out of sun?"
-
-"Yes."
-
-"Always?"
-
-Cala shrugged.
-
-"Hot."
-
-Reasonable.
-
-"Ward keeps them?"
-
-"Mm."
-
-"For insects?"
-
-"Some."
-
-"Anything else?"
-
-She pointed at the cups.
-
-"Play."
-
-Tavi had already moved them again.
-
-I chose the right cup.
-
-Wrong.
-
-He screamed with victory.
-
-My interrogation ended.
-
-That afternoon I went back to the east wall.
-
-Not for the fish.
-
-Entirely for the fish.
-
-I did not take a clean sheet.
-
-I did not take a jar.
-
-I did not take bait, a net, a cup, a specimen bag, or anything else that would turn looking into collecting.
-
-I took myself.
-
-This was enough equipment for most mistakes.
-
-The trough sat where I had left it, which was encouraging.
-
-The sun had crossed the lane. Almost the entire upper basin was shaded now.
-
-The fish were spread wider.
-
-Seven visible.
-
-Maybe more under the lip.
-
-I stood against the opposite wall where I was not blocking the spout.
-
-A woman filled a bucket.
-
-Fish moved away from the splash.
-
-A man rinsed dust from his hands in the lower basin, not the upper.
-
-A delivery girl let a narrow-faced mule drink below. The mule ignored the fish. The fish ignored the mule.
-
-Then something small struck the surface.
-
-A gnat, maybe.
-
-One fish snapped upward.
-
-Another followed too late.
-
-Insect control, at least in part.
-
-No revelation.
-
-A city trough containing insect-eating fish was not enough to earn a chapter.
-
-Unfortunately, I was already in the chapter.
-
-I watched longer.
-
-The interesting part was not that they preferred shade.
-
-The interesting part was where the shade came from.
-
-The trough had been built into a lane that received direct sun for part of the day. A narrow wooden slat projected from the wall above it, but the slat was too small to shade the whole basin.
-
-At its underside, a pale blue bead had been fixed near each end.
-
-Common sun-turn beads.
-
-Cheap versions showed up on market awnings, seed trays, cooling shelves, and windows where somebody wanted to reduce direct heat without building a permanent roof. They did not create darkness. They bent or softened a narrow band of direct light depending on angle and setting.
-
-These were old.
-
-One had gone cloudy.
-
-The other was clear.
-
-The shade line below them was crooked.
-
-Ah.
-
-Now I had a local question.
-
-Had the fish moved because they simply preferred cooler water, or because the shade system had drifted enough that their usable cool area had changed?
-
-Still not my system.
-
-Still not my fish.
-
-But the behavior and the infrastructure were interacting.
-
-That was worth watching.
-
-A woman in a blue-gray vest arrived carrying a short pole with a hook at one end.
-
-She did not look at me.
-
-She looked at the trough.
-
-Then at the slat.
-
-Then at the fish.
-
-Ward worker, probably.
-
-Not yesterday's ward crew. Different clothing. Different work.
-
-She set down a small leather satchel and touched the clear bead with the hook.
-
-The bead turned a fraction.
-
-The shade line moved.
-
-The fish moved with it.
-
-Not instantly.
-
-Within a few breaths.
-
-They drifted toward the broader shaded side.
-
-The woman watched them.
-
-Then she turned the cloudy bead.
-
-Nothing visible happened.
-
-She frowned.
-
-I remained quiet.
-
-She turned it farther.
-
-Still nothing.
-
-Then she tapped the bead with the wooden shaft.
-
-A weak blue flicker ran through it and died.
-
-"Dead?" I asked.
+I held up one coin.
 
 She looked at me.
 
-"Weak."
+I put it down.
 
-Fair correction.
+"Nothing," I said.
 
-"Enough to matter?"
+She removed the pins.
 
-She looked at the water.
+"Good."
 
-"Today? Some."
+"You don't even know what I was going to say."
 
-"To the fish?"
+"Four money."
 
-"To water. Fish follow water."
+"I could have been discussing metallurgy."
 
-Better.
+"You weren't."
 
-Not fish magic.
+I put the coin back with the others.
 
-At least not necessarily.
+Four copper.
 
-"Heat?"
+Halei. Maren. Nara. Miri.
 
-"Heat, light, bugs, people."
+Different jobs. Different reasons. No plan connecting them except that I had been there and useful enough to get paid.
 
-She gave the cloudy bead another small turn.
+That was already more structure than I trusted.
 
-"All together."
+Downstairs, Cala had removed the red thread from the salt-fish jar.
 
-I liked that answer because it refused to simplify the world for me.
+Tavi saw me notice.
 
-"Do you replace the bead?"
+"Can open now."
 
-"Not me."
+"Did the fish receive legal clearance?"
 
-She opened the satchel and took out a narrow wax tablet.
+"Yes."
 
-With a blunt stylus, she marked something.
+Cala handed him a piece of bread.
 
-"You mark it for someone else?"
+The fish remained closed anyway.
+
+Systems were complicated.
+
+I ate, checked the right shoe, settled the crutches under my arms, and went out because I had nowhere I needed to be.
+
+That used to feel like failure.
+
+Now it mostly felt like a morning.
+
+Carrow was busy before I reached the end of the lane.
+
+A cart with one blue wheel blocked half the crossing. Two women were arguing over onions. A man carried a ladder horizontally and nearly removed three people from civic life. Somewhere uphill a bell rang twice, stopped, then rang once more as if correcting itself.
+
+I knew the bell.
+
+Not which hand pulled it, not who maintained the line, not what it cost to replace the bronze, but what it meant in the ordinary sense. Market opening at the upper square.
+
+I had known bells like it for most of two lives.
+
+The strange part was that I had once been important enough not to care who kept them ringing.
+
+Now I walked under the ladder.
+
+The man carrying it said, "Head."
+
+"Still attached."
+
+"Barely."
+
+Carrow continued.
+
+I took the long way toward Bell Lane without deciding why. Not to see the carrying light. I passed two pale route tiles without looking twice. One was bright, one dull. Somebody else's morning.
+
+At the next crossing, a delivery boy was trying to get a handcart over a curb stone.
+
+The front wheel hit the edge.
+
+He pulled harder.
+
+The cart did not become more cooperative.
+
+I moved around him.
+
+Then the left side of the cart dropped half an inch.
+
+The boy swore.
+
+I stopped.
+
+Not because of the swearing.
+
+It was respectable work.
+
+The wheel had not broken. The curb stone had moved.
+
+One corner of the broad flat stone sat lower than the others, leaving a shallow lip where there should have been a nearly even crossing.
+
+The boy backed up and tried again at an angle.
+
+The cart climbed.
+
+"There," he said to nobody.
+
+He kept going.
+
+I looked at the stone.
+
+Then I looked away.
+
+Not every irregular surface in Carrow required Greg.
+
+I made it six steps.
+
+A woman with a cane reached the same crossing.
+
+Her cane tip found the low edge.
+
+She corrected before putting weight through it and stepped around.
+
+She did not fall.
+
+She did not curse.
+
+She did glare at the stone with the familiarity of someone who had already met it.
+
+"Been like that long?" I asked.
+
+She looked at me.
+
+"Three days."
+
+"Ah."
+
+"You fixing?"
+
+"No."
+
+"Then move."
+
+I moved.
+
+Carrow's elderly remained efficient.
+
+I continued down the lane.
+
+The stone stayed behind me.
+
+Then my right crutch landed on a different paving joint that had been repaired properly years ago, and the contrast bothered me.
+
+Not the existence of bad paving. I knew bad paving. I had crossed roads in towns where the central engineering principle appeared to be hatred of ankles.
+
+What bothered me was the crossing.
+
+It was a deliberate low curb, a place made for wheels, carts, handbarrows, and people who did not want to step over a full-height edge. Somebody had built a useful transition and then one stone had settled enough to make the useful part worse.
+
+Old Greg would have stepped over it.
+
+Old Greg had two legs and enough strength to treat half the built world as a suggestion.
+
+Current Greg had opinions about half an inch.
+
+That was not ignorance becoming knowledge.
+
+It was indifference becoming personal.
+
+I turned back.
+
+The woman with the cane was gone.
+
+The stone remained.
+
+I crouched badly.
+
+There was no elegant way to crouch on one leg with two crutches. There were only versions that ended with dignity surviving.
+
+I braced one crutch against the curb, lowered myself enough to see the seam, and immediately discovered that I had no business inspecting street masonry from that angle.
+
+The stone was broad, gray, worn smooth on top. One edge had dropped. Dirt packed the seam. A narrow iron slot sat in the curb face two stones away.
+
+I knew what that was for in broad terms. Lift access. Maintenance crews used slots like it with bars or hooks depending on the street system.
+
+I did not know whether this particular stone shared the same bed, lock, drain channel, or support arrangement as the ones I remembered from other cities.
+
+Regional infrastructure had an annoying habit of being regional.
+
+A voice behind me said, "You lose something?"
+
+I looked up.
+
+A man stood with a bundle of thin boards under one arm. Mid-thirties maybe. Brown apron, shaved head, one eyebrow interrupted by an old pale scar.
+
+"Confidence."
+
+He looked at the stone.
+
+"Step's bad."
+
+"Apparently for three days."
+
+"Four."
+
+"The public record is deteriorating."
+
+He shifted the boards.
+
+"You going to sit there?"
+
+"I am crouching."
+
+"Looks like sitting."
+
+"Cruel distinction."
+
+I pushed myself upright.
+
+The right leg did the work. My left knee and stump stayed clear of the stone. I settled both crutches again.
+
+The man nodded toward the crossing.
+
+"Ward crew marked it."
+
+I looked.
+
+There was a small chalk slash on the curb face.
+
+I had missed it.
+
+"That means scheduled?"
+
+"Means seen."
+
+Better answer.
+
+"Do you know when they fix it?"
+
+"No."
+
+He started away.
+
+I said, "Thanks."
+
+He lifted one board without turning.
+
+That should have ended it.
+
+It almost did.
+
+I walked another two lanes, bought nothing, inspected nothing, and successfully resisted asking a lamp seller why one shade frame had five ribs and another had six.
+
+I knew why in the broad sense.
+
+Different shape. Different load. Different cloth. Different maker. Possibly different fashion. There was no reason to interrogate a stranger because the reader inside my head wanted exposition.
+
+The reader inside my head was becoming a problem.
+
+At a narrow food stall I spent ordinary household money Cala had given me for onions.
+
+Not client copper.
+
+This distinction mattered because otherwise every purchase became a referendum on capital allocation and I would starve while building a very disciplined four-copper empire.
+
+The onion seller gave me five small onions and one opinion about rain.
+
+I paid for only the onions.
+
+On the way home, the crossing was louder.
+
+A two-man handbarrow had stopped beside it. One of the men wore a yellow sash tied over a gray work shirt. The other had a short iron bar in the curb slot.
+
+Ward crew.
+
+I knew enough to keep out of the way.
+
+I also knew enough to slow down.
+
+The man with the bar leaned his weight against it. The broad crossing stone lifted slightly at one corner.
+
+The yellow-sashed worker shoved a flat wooden wedge under the edge.
+
+No magic.
+
+Not yet.
+
+The bar man reset his grip.
+
+"Again."
+
+The stone rose another finger width.
+
+A woman with a basket stepped toward the crossing.
+
+Yellow Sash held up one hand.
+
+"Round."
+
+She went around without complaint.
+
+I stopped against the wall.
+
+Yellow Sash looked at me.
+
+"You waiting?"
+
+"Watching."
+
+"Why?"
+
+"Bad habits."
+
+He accepted that.
+
+The second worker pulled loose grit from beneath the raised edge with a hooked scraper. Then he reached into the handbarrow and took out a small cloth sack.
+
+I expected sand.
+
+He poured out black grains with dull silver flecks.
+
+Bed grit.
+
+I knew the category. Road crews in other places used mixes that packed under weight and could be encouraged to bind or settle with low magic. The exact compositions varied enough that pretending otherwise would be stupid.
+
+This mix smelled faintly mineral when he spread it.
+
+Yellow Sash noticed me noticing.
+
+"Don't breathe close."
+
+I moved my face farther away.
+
+"Good general policy for street powder."
+
+"Especially this."
+
+He took a flat tool from the barrow, shaped like a short paddle with a dark stone set into the handle.
+
+That part I recognized too.
+
+A tamp charm.
+
+Common class, many versions.
+
+I had seen camp engineers use heavier cousins to settle temporary footing under bridge plates. I had never cared what city crews used under curb stones because city curb stones had not been my problem.
+
+Yellow Sash pressed the paddle flat against the fresh grit.
+
+The dark stone in the handle gave one faint amber pulse.
+
+The grains shifted.
+
+Not dramatically.
+
+They simply stopped looking poured.
+
+The surface tightened into a level bed.
+
+The other worker scraped one high spot, added another pinch, and Yellow Sash tamped again.
+
+Two pulses total.
+
+Then they lowered the crossing stone.
+
+It sat too high.
+
+"Up," Yellow Sash said.
+
+They lifted it again.
+
+The second worker removed some grit.
+
+I smiled.
+
+Magic had failed to abolish measuring.
+
+This was comforting.
+
+Yellow Sash saw me smile.
+
+"What?"
+
+"Nothing."
+
+"Say."
+
+"I like that the magic still lets you get it wrong."
+
+He stared at me.
+
+Then he looked at the stone.
+
+"Magic packs. I set."
+
+"Exactly."
+
+"You road crew?"
+
+"No."
+
+"Mason?"
+
+"No."
+
+"Then why exactly?"
+
+"Former professional user of roads."
+
+The other worker laughed.
+
+Yellow Sash did not.
+
+They lowered the stone again.
+
+This time its top sat nearly flush with the adjoining crossing slabs.
+
+Yellow Sash ran the flat edge of his paddle across the joint.
+
+It caught slightly.
+
+"Again."
+
+The other worker sighed.
+
+"It's good."
+
+"Cart catches."
+
+"Small."
+
+"Still catches."
+
+They lifted it a third time.
+
+I liked him immediately, which was dangerous because I did not know his name and he was not auditioning to become a recurring character in my life.
+
+The second worker scraped a shallow channel through the packed grit, then added a little material at the opposite side.
+
+Yellow Sash tamped once more.
+
+Third amber pulse.
+
+Stone down.
+
+Paddle across.
+
+Smooth.
+
+He stepped onto it with one boot and shifted his weight.
+
+Then the other worker rolled the empty handbarrow over the crossing.
+
+No catch.
+
+Yellow Sash nodded.
+
+"Good step."
+
+That was apparently the entire acceptance test.
+
+I looked at the chalk slash.
+
+"Does the mark come off now?"
+
+Yellow Sash rubbed it away with his thumb.
+
+"Now."
+
+Simple.
+
+Seen.
+
+Fixed.
+
+Mark gone.
+
+I had spent decades in a world full of magic and somehow the thing that held me there was municipal quality control.
+
+The bar man said, "You done watching?"
+
+"Probably."
+
+"Good."
+
+They loaded the tools.
+
+I asked one question because I had earned at least one through restraint.
+
+"That bed grit local mix?"
+
+Yellow Sash looked at me more carefully.
+
+"South quarry."
+
+"Silver in it?"
+
+"Mica."
+
+"Binding dust?"
+
+"Some."
+
+"Same mix everywhere in Carrow?"
+
+"No."
+
+There it was.
+
+Broad category familiar. Local implementation not universal.
+
+I nodded.
+
+"Thanks."
+
+He pointed at my crutches.
+
+"Try it."
+
+I looked at the crossing.
+
+"Professional consultation?"
+
+"Walk."
+
+I walked.
+
+Right crutch first onto the repaired stone.
+
+Flat.
+
+Right foot through.
+
+Left crutch.
+
+No lip worth adjusting for.
+
+I turned around.
+
+"Good step."
+
+The second worker laughed again.
+
+Yellow Sash had already picked up the handbarrow handles.
+
+They left.
+
+No names.
+
+No appointment.
+
+No invitation to the ward yard.
+
+No revelation that the city had been waiting for my opinion on paving.
+
+A repaired crossing remained behind them.
+
+I stood there for another few seconds.
+
+Then the woman with the cane came back.
+
+Same woman.
+
+She approached from uphill, saw me, saw the stone, and stopped.
+
+"Fixed?"
+
+"Looks like."
+
+She tested it with her cane.
+
+The tip landed squarely.
+
+She stepped across.
+
+"Good."
+
+Then she kept going.
+
+No applause.
+
+I liked that too.
+
+At home Cala took the onions.
+
+"Five."
+
+"That is what I purchased."
+
+"Small."
+
+"That is what you requested."
+
+She weighed one in her hand.
+
+"Good."
+
+I was receiving a lot of concise performance reviews today.
+
+Tavi was on the floor with two bits of wood laid across each other.
+
+"Bridge," he said.
+
+"For what?"
+
+He pushed the roof-tile house toward it.
+
+"House."
+
+"Your house travels?"
+
+"Yes."
+
+I decided not to explain zoning.
+
+Upstairs, the four copper remained where I had left them.
+
+I did not add anything to them.
+
+I took the cup-note scrap from under the salt jar and found a narrow blank space.
+
+I wrote:
+
+`GOOD STEP = FLUSH ENOUGH CART DOESN'T CATCH.`
+
+Then stopped.
+
+That sounded like I had discovered roads.
+
+I crossed it out.
+
+Underneath I wrote:
+
+`WARD CREW: MARK = SEEN, NOT SCHEDULE.`
+
+That was local information I had actually learned.
+
+Then:
+
+`BED GRIT: SOUTH QUARRY. MICA + SOME BINDING DUST. NOT SAME MIX EVERYWHERE.`
+
+I considered writing about the tamp charm.
+
+I already knew tamp charms existed.
+
+That was not new.
+
+What was new was how this crew used one: pack, check, lift, correct, pack again.
+
+I wrote:
+
+`CHARM PACKS. WORKER SETS.`
+
+That was Yellow Sash's wording, close enough to matter.
+
+I looked at the sentence for a while.
+
+Old Greg had known hundreds of things like tamp charms as equipment categories.
+
+Useful.
+
+Common.
+
+Beneath notice unless one failed during a bridge crossing or somebody forgot to bring one.
+
+I had known roads too.
+
+I had known wards, lamps, cooling vessels, sealed walls, route lights, field kitchens, healing halls, guild desks, supply carts, courier stations, waystones, camp barriers, monster fences, lift plates, drain charms, and a thousand other pieces of a magical world that existed mostly as nouns because other people kept them working.
+
+S-class had not made me ignorant.
+
+It had made ignorance affordable.
+
+That thought landed harder than I expected.
+
+Not because power made people stupid.
+
+Because power let you route around inconvenience.
+
+Bad step?
+
+Step over it.
+
+Heavy door?
+
+Open it harder.
+
+Long road?
+
+Buy a horse, hire a wagon, take a gate, use a better route.
+
+Dim room?
+
+Someone else handled the light.
+
+Broken cup?
+
+Replace it.
+
+Current Greg had four copper from four small jobs and a right shoe I checked every morning because a bad seam mattered.
+
+Half an inch mattered.
+
+A missing groove fill mattered.
+
+Whether a worker said `seen` or `scheduled` mattered.
+
+This life had not made the world more magical.
+
+It had made the magic heavier.
+
+Material.
+
+Owned by somebody. Maintained by somebody. Paid for somehow. Wrong sometimes.
+
+I did not write any of that down.
+
+It sounded too much like a lesson.
+
+Lyssa came home carrying a folded gray-brown garment over one arm and a paper twist in the other hand.
+
+Not one of the protected packets.
+
+I knew what the paper twist was because she opened it immediately and ate a sugared nut.
+
+She offered me one.
+
+I took it.
+
+"Four still?" she asked.
+
+"You are obsessed with my wealth."
+
+"You talk four."
+
+"I did not talk four today."
+
+She looked at the table.
+
+"You look four."
+
+Unfair.
+
+I ate the nut.
+
+"I watched the ward crew fix a crossing stone."
+
+"Why?"
+
+"It was bad."
+
+"You fix?"
+
+"No."
+
+"Paid?"
+
+"No."
+
+"Then why?"
+
+I pointed at my left leg.
+
+Or where the lower part of it was not.
+
+Lyssa looked at me, then at the crutches.
+
+"Ah."
+
+That was enough explanation.
+
+I showed her the note.
+
+"They used a tamp charm. South-quarry bed grit. Mica, some binding dust. Different mixes in different parts of Carrow apparently."
 
 "Mm."
 
-"Same as road mark? Seen, not scheduled?"
-
-She looked at me more closely.
-
-"Road crew?"
-
-"I watched one yesterday."
-
-"Different list."
-
-"Of course it is."
-
-She almost smiled.
-
-"Water list."
-
-That was all.
-
-No department lecture.
-
-No organizational chart.
-
-A water list existed.
-
-The worker crouched by the trough and held two fingers in the water near the shaded side.
-
-Then the bright side.
-
-No visible magic.
-
-Just touch.
-
-She stood.
-
-"Warm."
-
-"Too warm?"
-
-"Not yet."
-
-"How do you decide?"
-
-She pointed at the fish.
-
-"They tell."
-
-I looked at them.
-
-"By crowding shade?"
-
-"One thing."
-
-"What are the others?"
-
-She closed the satchel.
-
-"If you work water, learn water."
-
-I laughed.
-
-"I don't."
-
-"Then shade enough."
-
-There was the boundary.
-
-I respected it.
-
-She used the hook to adjust the clear bead one more fraction.
-
-The softened shade widened across the middle of the trough.
-
-The fish spread.
-
-Not evenly.
-
-More evenly.
-
-She watched for perhaps half a minute.
-
-Then she picked up the satchel.
-
-"Good?" I asked.
-
-"For today."
-
-Not fixed.
-
-Managed.
-
-"Cloudy bead gets replaced later?"
-
-"If list says."
-
-"And the list says because you marked it."
-
-"Maybe."
-
-Carrow's institutions remained philosophically opposed to certainty.
-
-She left.
-
-I stayed.
-
-The fish did not perform anything more interesting.
-
-That was useful too.
-
-One took an insect.
-
-Two drifted under the stone lip.
-
-A woman filled a jar.
-
-The shade held.
-
-The cloudy bead remained cloudy.
-
-The city continued functioning at a level best described as sufficient.
-
-I went home before I could ruin it.
-
-I did not write `SHADE FISH = HEAT SENSOR` because that would have been stronger than the evidence.
-
-I did not write `WARD USES FISH TO MONITOR WATER` because the worker had said fish were one thing among heat, light, bugs, and people.
-
-I wrote on the new scrap:
-
-`EAST WALL UPPER TROUGH: SILVER-BACK "SHADE FISH." EAT SMALL INSECTS. MOVE WITH COOLER/SHADED WATER.`
-
-Then:
-
-`2 SUN-TURN BEADS ABOVE TROUGH. 1 CLEAR / WORKING. 1 CLOUDY / WEAK.`
-
-Then:
-
-`WATER WORKER ADJUSTED WORKING BEAD. MARKED WEAK ONE ON WATER LIST. "FOR TODAY."`
-
-I stared at the lines.
-
-There was a temptation to make them mean more.
-
-I left them alone.
-
-Lyssa came home while I was still looking at the scrap.
-
-She put a small wrapped piece of bread on the table beside me.
-
-"Eat."
-
-"For me?"
-
-"No. For chair."
-
-"The chair has been working hard."
-
-She pushed it closer.
-
-I ate.
-
-"What you write?"
-
-"Fish."
-
-"Work?"
+"You knew that?"
 
 "No."
 
-"Money?"
+"Excellent. Finally."
 
-"No."
+"Don't care."
 
-"Why fish?"
+"Less excellent."
 
-I thought about the answer.
+She unfolded the garment on the bed.
 
-"Because they moved when the shade moved."
+I recognized the broad category. Coat. Alteration work. Nothing about it required interrogation.
 
-Lyssa waited.
+She checked one seam against the window light.
 
-"And because the shade was partly made by two old beads, and one bead was weak, and a ward water worker adjusted the good one enough for today."
+I watched her thumb the cloth flat.
 
-"Fish okay?"
+"You use different thread for different seams," I said.
 
-"Apparently."
+She looked at me.
 
-"Then good."
+"Yes."
 
-She sat by the window with her own work.
+"I know."
 
-That should have ended the subject.
+"Then why say?"
 
-Instead Tavi came upstairs holding one of the courtyard cups.
+"I am testing a new conversational strategy where I demonstrate existing knowledge instead of demanding yours."
 
-"Fish."
+"Bad strategy."
 
-There was no fish in the cup.
+"Immediate feedback."
 
-"That is a cup."
+She smiled and returned to the seam.
 
-"Fish cup."
+I leaned back on my hands.
 
-"Still a cup."
+Downstairs, Tavi's traveling house knocked against his wooden bridge and he shouted something about a river.
 
-He put the pebble inside it.
+The four copper stayed on the table.
 
-"Fish."
+The three clean sheets stayed under the other things.
 
-"That is a rock pretending to be a fish."
+Nobody knocked with a client problem.
 
-"Shade."
+Miri did not return.
 
-He shoved the cup under the table.
+Pellin remained in South Ovens doing whatever kiln people did when they were not being accused of defective cups.
 
-The pebble disappeared into shadow.
+No theatre runner came.
 
-I looked at him.
+No ward worker came back to recruit me into municipal paving.
 
-He looked at me.
+The day had produced no money, no magic practice, no pressure, and no new obligation.
 
-"Fish good."
+It had still changed something.
 
-I sighed.
+Not the city.
 
-"Your model has severe limitations, but the broad result is acceptable."
+My attention.
 
-Lyssa laughed.
+I had spent one life powerful enough to walk over bad steps.
 
-The next morning, I passed the east-wall trough again because my route happened to take me there.
-
-That was true enough.
-
-The sun had not yet reached the water.
-
-The fish were spread through the basin.
-
-The cloudy bead was still there.
-
-No replacement crew.
-
-No crisis.
-
-No dead fish.
-
-No magical bloom.
-
-No secret warning.
-
-A boy filled a jar.
-
-One fish snapped at something near the surface.
-
-I kept walking.
-
-There were systems in Carrow that failed loudly.
-
-Doors caught crutches. Stones caught carts. Cups stopped cooling.
-
-There were others that weakened by degrees and were managed before they became stories anybody else would tell.
-
-A cloudy bead.
-
-A crooked shade line.
-
-Seven fish choosing the better water.
-
-A worker writing one mark on a tablet and saying, for today.
-
-Old Greg had known how to survive spectacular failures.
-
-This Greg was getting interested in the smaller sentence before them.
-
-Not danger.
-
-Not prophecy.
-
-Just something becoming slightly less good, and somebody noticing in time.
+This one was teaching me to notice who made them good.

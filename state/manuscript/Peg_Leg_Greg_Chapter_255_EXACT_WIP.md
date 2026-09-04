@@ -1,1129 +1,1143 @@
 # CHAPTER 255
 
-## THE NEIGHBOR
+## THE WASHER
 
-Nobody came for me in the morning.
+The sheets needed washing.
 
-This was not an emergency.
+This was not a metaphor.
 
-It took me perhaps three minutes to believe that.
+Nothing had happened to them except two people sleeping in them for several nights, which turned out to be enough.
 
-I ate bread with one of yesterday's onions and considered the shape of a day that had not already been assigned by Rinna, Teren, Hessa, Antonius Vale, a fever, a broken rail, or a household list.
+Lyssa stripped the bed while I was still deciding whether being awake counted as participation.
 
-The answer was apparently bread and onion.
+One corner came free and hit me in the face.
 
-Lyssa had left before I woke properly. Not secretly. Her work bag was gone, the cup she used in the morning was upside down beside the basin, and a short note sat under the edge of the bread board.
+I sat up.
 
-Back late.
+"Violence."
 
-Two words.
+"Move."
 
-No destination.
+"I am moving."
 
-No assignment for me.
+"You are sitting."
 
-The long brown cloth remained folded near the wall with the same three pins. My damaged shirt remained on the shelf with the same three loose threads. The pale work material from two mornings ago remained absent.
+"Movement begins internally."
 
-I did not inspect any of them.
+She pulled the sheet from under me.
 
-This qualified as personal growth only if standards had collapsed.
+That settled the philosophy.
 
-My body was ordinary. Right hand fine. Shoulders fine. Right leg fine. Residual limb comfortable. Both grips normal. Left tip normal.
+The room looked slightly wrong without the bed made. Not empty. Exposed.
 
-The room needed sweeping.
+The Uncle's pages were still on the table where I had put them last night.
 
-Not dramatically.
+I looked at them once.
 
-There was no visible layer of filth proving moral decline. Just grit near the door, two onion skins that had escaped supper, thread ends near Lyssa's work chair, and the fine gray dust that Carrow generated from apparently nothing.
+No one had knocked.
 
-I swept.
+No theatre runner waited outside.
 
-The thread ends went into the rubbish.
+Pell might be back today. He might not. Teren had not asked me to appear before the ordinary call, and ordinary call was later.
 
-I hesitated over one because it was dark reddish-brown.
+For the first time in two mornings, I did not have forty-three lines trying to climb into my head before breakfast.
 
-Then I looked at myself holding a piece of rubbish between two fingers and dropped it with the others.
+This should have felt restful.
 
-Healthy.
+Instead Lyssa dropped the second sheet on my lap.
 
-I had just finished when somebody knocked.
+"Wash."
 
-Not theatre knock.
+I looked down.
 
-Not Hessa's precise knock.
+"All of it?"
 
-Not the hard two-beat knock used by boys carrying messages from people who expected answers.
+"Sheets. Towels. Shirts."
 
-Three quick taps, a pause, then one more.
+"Today?"
 
-I opened the door.
+She looked toward the window.
 
-A woman stood outside holding a wooden bowl against one hip.
-
-I knew her face.
-
-This was becoming a dangerous category.
-
-She lived somewhere close. I had passed her on the stairs or near the pump enough times that we had reached the stage of mutual recognition without information.
-
-Dark hair threaded with gray. Round face. Heavy blue shawl. Small silver ring through one ear.
-
-She looked past me into the room.
-
-"Lyssa?"
-
-"Out."
-
-"Late?"
-
-I looked at the note on the table.
-
-"Apparently."
-
-The woman nodded as if this matched information she already possessed.
-
-Then she held out the bowl.
-
-"Can you take this?"
-
-I looked into it.
-
-Beans.
-
-Cooked beans.
-
-"Probably."
-
-She kept holding it.
-
-I took the bowl.
-
-"For Lyssa?"
-
-"For you both."
-
-This created a different problem.
-
-"Why?"
-
-The woman looked offended.
-
-Not deeply.
-
-Efficiently.
-
-"Because I made too many."
-
-"Ah."
-
-That was a reason I understood.
-
-"Thank you."
-
-"Bring the bowl back."
-
-"Also understood."
-
-She turned to go.
-
-I said, "Wait."
-
-She turned back.
-
-I had nearly let a woman give me food without knowing her name.
-
-This felt like something a child would do.
-
-"I know you live near us."
+The sky was pale and dry.
 
 "Yes."
 
-"I do not know your name."
+Apparently weather had made a decision.
 
-Her face changed.
+I stood.
 
-"You don't?"
+My right shoulder still carried a small amount of yesterday. Not pain. Not enough to matter. Just the ordinary complaint of two days spent using crutches, rehearsing, standing, sitting badly, and sleeping with pages beside my hand like a man under siege by dialogue.
 
-"I have been operating on visual recognition."
+Hands fine.
 
-"For months?"
+Right leg fine.
 
-"Apparently."
+Residual limb fine.
 
-She stared at me.
+Both crutch grips normal.
 
-Then laughed once.
+The household had no emergency.
 
-"Sera."
+That was when households became most dangerous.
 
-"Greg."
+They found maintenance.
 
-"I know."
+Lyssa had already separated the washing into two bundles.
 
-Of course she did.
+One held the sheets and towels.
 
-I disliked neighborhoods.
+The other held clothes.
 
-"Lyssa knows?"
+My damaged shirt was in the clothes pile.
 
-"My name?"
+Three loose threads still hung from the cuff.
 
-"Yes."
+I picked it up.
 
-Sera laughed again.
-
-"Lyssa knows everybody's name."
-
-This was obviously false.
-
-It was also obviously more true than the version where I did.
-
-"Good."
-
-She pointed at the bowl in my hands.
-
-"Tomorrow is fine."
-
-"For the bowl?"
-
-"Unless you eat that too."
-
-"Wood is expensive."
-
-"Then tomorrow."
-
-She left.
-
-I closed the door.
-
-The beans smelled excellent.
-
-I put the bowl on the table.
-
-Then realized I had learned nothing about where to return it.
-
-I opened the door again.
-
-Sera was halfway down the stairs.
-
-"Which door?"
-
-She stopped.
-
-Looked up.
-
-"You really don't know."
-
-"I know your face."
-
-"Second floor. Green door."
-
-"There are two green doors."
-
-"The one with the cracked corner."
-
-I pictured it.
-
-"Left from stairs?"
+"Wash this?"
 
 "Yes."
 
-"Good."
+"The threads?"
 
-She shook her head and continued down.
+"Still threads."
 
-I closed the door again.
+Useful.
 
-We had lived here long enough for a woman named Sera to know my name, know Lyssa's schedule better than I did this morning, and give us excess beans.
+The long-standing brown cloth remained folded near the wall with the same three pins.
 
-I had known her as Woman With Blue Shawl.
+Not washing.
 
-Excellent social performance.
+Not my business.
 
-I ate some of the beans for midday.
+The reddish-brown sample was still absent.
 
-Not all.
+The darker spool was still absent too.
 
-I left enough for Lyssa because I was not an animal.
+Also not my business.
 
-Then I washed our two morning cups and Sera's bowl only around the rim where I had dripped broth.
+I put the shirt back in the pile.
 
-The bowl still contained beans.
+Lyssa tied the first bundle.
 
-This complicated washing.
+Then the second.
 
-I put a plate over it.
+The sheet bundle was large enough to become architecture.
 
-No call came.
+I looked at it.
 
-I considered going to the theatre anyway.
+Then at my crutches.
 
-That thought lasted longer than I liked.
-
-Rinna had not called me. Teren had not called me. `Again tomorrow if I need it` had contained a condition, and I had been present when language was invented.
-
-Showing up because maybe they needed me would turn conditional work into me standing in a doorway asking whether anybody had invented a task.
-
-I had done enough of that in my life.
-
-I stayed home.
-
-For almost an hour.
-
-Then the room became too small.
-
-I took my coat and went out with no destination more important than not being inside.
-
-The street below our building was busy in the ordinary middle part of the day. A cooper's boy rolled two hoops beside the curb. Someone above shook a cloth from a window and got yelled at by someone below. A dog slept against a warm patch of wall with the confidence of an animal that paid no rent.
-
-I went toward the pump.
-
-Not because we needed water immediately.
-
-Because I could.
-
-This was poor planning but good walking.
-
-At the pump, an older man I recognized from our building was filling two narrow buckets.
-
-Another face without a name.
-
-Dangerous day.
-
-He nodded at me.
-
-I nodded back.
-
-He finished one bucket and moved it aside.
-
-"Lyssa working north?"
-
-I looked at him.
-
-"Apparently everyone knows this."
-
-"Knows what?"
-
-"Where Lyssa is."
-
-"I don't know where she is."
-
-"You just said north."
-
-"Usually north on fifth day."
-
-I counted backward mentally.
-
-It might have been fifth day.
-
-I had not known there was a neighborhood schedule.
-
-"I have a note saying late."
-
-"Then late."
-
-He started filling the second bucket.
-
-I said, "Greg."
-
-He glanced at me.
-
-"I know."
-
-Of course.
-
-"Your name?"
-
-"Orren."
-
-"Good."
-
-"You forgot?"
-
-"I never learned."
-
-He looked at me longer.
-
-"That's worse."
-
-"Yes."
-
-He smiled.
-
-I had seen Orren carry buckets, a rolled mat, once a cage containing no visible animal, and several times a small girl asleep against his shoulder. I knew his movement better than his identity.
-
-Now he had both.
-
-"Which door?" I asked.
-
-"Why?"
-
-"Preventative measure."
-
-He pointed back toward our building.
-
-"Top floor. End."
-
-I knew the door.
-
-"With the brass latch?"
-
-"Yes."
-
-"Excellent."
-
-Orren lifted one bucket.
-
-Then looked at my crutches.
-
-Then the second bucket.
-
-I saw the question arrive.
+Then at Lyssa.
 
 "No."
 
-He laughed.
+She tied the second knot.
 
-"Wasn't asking."
+"You haven't tried."
 
-"You looked."
+"I have eyes."
 
-"I was deciding whether to leave it here while I carry the first."
+"You have a strap."
 
-"Ah."
+That was worse because she was right.
 
-"Not everything is about you."
+We owned a broad carrying strap that had previously been used for bundles, market loads, and one chair leg that had become briefly more important than dignity.
 
-This was increasingly the theme of Carrow.
+Lyssa threaded it around the larger bundle.
 
-"Strong neighborhood."
+I tested the weight.
 
-He carried one bucket away.
+Dry cloth was not heavy.
 
-I stayed near the pump.
+Dry cloth was bulky.
 
-The second bucket sat where he had left it.
+Bulky was its own species of problem when both hands belonged to crutches.
 
-Nobody stole it.
+I could sling the bundle high behind my shoulder.
 
-A woman filled a jug beside it. A boy splashed his shoes and got told by three adults who were not apparently related to him to stop. He stopped for almost ten seconds.
+That interfered with the left crutch.
 
-Orren returned.
+Lower across my back.
 
-"Still there."
+That interfered with my hip.
 
-"I defended it heroically."
+In front.
 
-"You stood six feet away."
+Absolutely not.
 
-"Defense through uncertainty."
+Lyssa watched the experiment.
 
-He took the second bucket.
+"Smaller."
 
-"Tell Lyssa Sera came by."
-
-I stared at him.
-
-"How do you know that?"
-
-"Saw her carrying the bowl up."
-
-Neighborhoods were surveillance states without paperwork.
-
-"She left beans."
-
-"Good beans."
-
-"You know the beans?"
-
-"Sera cooks beans."
-
-He left.
-
-I remained by the pump for another minute because I needed to reconsider my understanding of privacy.
-
-Then I walked west without deciding to.
-
-Not theatre west.
-
-Market edge west.
-
-The distinction mattered only to me.
-
-I passed the lane that would have taken me toward the theatre and did not turn.
-
-That felt less dramatic than expected.
-
-At a fruit stall, the woman who had sold me apples twice recognized me.
-
-"No list?"
-
-Apparently paper had become reputation.
-
-"No list."
-
-"Then dangerous."
-
-"I bought three onions yesterday without supervision."
-
-"How many did you need?"
-
-I considered this.
-
-"Unknown."
-
-"Then maybe supervision."
-
-I bought two small apples.
-
-Not because we needed apples urgently.
-
-Because I wanted apples.
-
-The transaction did not collapse the household.
-
-I put them in my coat pocket.
-
-One fit better than the other.
-
-The market had the thinner afternoon crowd. Enough people to make the lane alive, not enough to make crutch placement a negotiation every three steps. I knew which paving stones near the fish seller stayed wet. I knew the bakery corner narrowed because a support post stole half the walkway. I knew the woman selling ribbons hated people touching them with dirty hands because I had heard her say it to six separate people.
-
-I knew all of this without knowing her name.
-
-Today had become accusatory.
-
-I did not ask.
-
-There were limits.
-
-I ate one apple on the walk back.
-
-At the building entrance, a girl of perhaps eight sat on the lowest step with a piece of chalk and three flat stones.
-
-I recognized her too.
-
-Of course.
-
-She had dark braids and one front tooth missing. I had seen her with Orren several times.
-
-The sleeping girl, when awake.
-
-She looked at my apple.
-
-Then at me.
-
-"You got another?"
-
-I had another.
-
-This was not necessarily her business.
-
-"Yes."
-
-"Can I have it?"
-
-Direct commerce.
+"I was about to say that."
 
 "No."
 
-She nodded as though this was a reasonable market result and went back to arranging the stones.
+She untied the bundle and divided the sheets from the towels.
 
-I stopped.
+Three bundles became manageable.
 
-"Orren's?"
+Annoying.
 
-She looked up.
+Manageable.
 
-"What?"
+I could take one strapped behind me and one smaller bundle hanging from the right crutch below the grip, leaving the left hand free except for the left crutch, which was already a full-time occupation.
 
-"Are you Orren's daughter?"
+Lyssa took the third.
 
-"No."
+"You're coming?"
 
-Good.
+"Until the court."
 
-I had nearly established a false family structure from carrying behavior.
+"Then?"
 
-"Granddaughter?"
+"North side."
 
-"No."
+There it was.
 
-"Niece?"
+Her day had not rearranged itself around laundry.
 
-She looked at me with growing interest.
+The laundry had been fitted into the route she already had.
 
-"No."
+Adult technology again.
 
-I stopped guessing.
+We ate.
 
-"What is your name?"
+No Hessa note waited under the cup.
 
-"Tavi."
+No Vale runner arrived.
 
-"Greg."
+No one asked me to investigate a mark on a needle case I had not bought.
 
-"I know."
+I did not think about the needle case for almost the entire breakfast.
 
-Of course.
+Then I did because I had just thought about not thinking about it.
 
-"How do you know Orren?"
+Excellent.
 
-"He lives upstairs."
+The sheets won.
 
-"Yes."
+Outside, Carrow had that cold dry brightness that made every wet stone look innocent.
 
-"So do I."
+The wash court sat two streets below the west market, behind a row of buildings I had passed often enough that I knew the smell before I knew the entrance.
 
-"This has not answered the question."
+Soap.
 
-"My mother works nights."
+Wet cloth.
 
-That answered enough.
+Hot water.
 
-Orren carrying a sleeping Tavi did not make him father, grandfather, uncle, or anything else I could name from one sentence.
+A little ash.
 
-It made him Orren carrying Tavi when her mother worked nights.
+I had known there was washing somewhere.
 
-Better.
+Of course there was washing somewhere.
 
-Tavi moved one chalk stone.
+Cities did not become cities by everyone individually discovering water.
 
-"Apple?"
+I had simply never needed the place badly enough to care where the entrance was.
 
-"Still no."
+Lyssa turned through a wide arch.
 
-"You have two."
+I followed.
 
-"I had two."
+The court was larger than I expected.
 
-She looked at the core in my hand.
+Stone underfoot.
 
-"One and a dead one."
+Open sky above most of it.
 
-Accurate.
+A roofed edge along one wall where people had set baskets, soap, wooden paddles, buckets, and folded dry things.
 
-I sat on the second step because standing had become unnecessary.
+Three long basins ran through the middle, fed from a covered channel at one end.
 
-"What are the stones?"
+The water in the nearest basin steamed slightly.
 
-"Houses."
+The second did not.
 
-There were three.
+The third looked cold enough to hold a grudge.
 
-"Small city."
+Lines crossed the far half of the court between posts and wall hooks.
 
-"That's not the city."
+Most were already occupied.
 
-"You said houses."
+Sheets moved above us like pale flags belonging to a nation founded on chores.
 
-"These houses."
+"Which one?" I asked.
 
-She pointed to our building, then the one opposite, then the narrow one beside the baker's rear wall.
+Lyssa pointed.
 
-The stones corresponded badly to all three.
+"Hot first."
 
-I respected abstraction.
-
-"What is the chalk?"
-
-"Road."
-
-"Davin would approve."
-
-"Who?"
-
-"A man who believes every obstruction is a road problem."
-
-Tavi considered this.
-
-"That's stupid."
-
-"Sometimes."
-
-She drew a line between two stones.
-
-A woman came out of the building carrying folded laundry.
-
-She saw Tavi.
-
-"Don't block the step."
-
-Tavi moved the stones two inches.
-
-The woman looked at me.
-
-"You too."
-
-I moved one crutch inward.
-
-Apparently I was part of the game now.
-
-She went past.
-
-Tavi said, "That's Mina."
-
-I looked after the woman.
-
-"I didn't ask."
-
-"You don't know anybody."
-
-Hostile child.
-
-"I know people."
-
-"Who?"
-
-"Lyssa."
-
-"She lives with you."
-
-"Still counts."
-
-"Sera?"
-
-"As of today."
-
-Tavi stared.
-
-"You didn't know Sera?"
-
-"Visual recognition."
-
-"What's that?"
-
-"I knew which person she was without knowing the word attached."
-
-"Her name."
-
-"Yes."
-
-"That's dumb."
-
-"Strong neighborhood consensus."
-
-Tavi drew another road.
-
-I gave her the second apple.
-
-Not because she had won.
-
-Because I had already eaten one and because she had told me Mina's name without charging me.
-
-She took it immediately.
-
-"Thank you."
-
-Good child.
-
-She bit into it.
-
-"Sera's husband is dead."
-
-I stared at her.
-
-"That escalated."
-
-"What?"
-
-"Nothing."
-
-She chewed.
-
-"Orren used to work carts. Mina hates cats. Jessa on the second floor sings bad."
-
-"Stop."
-
-She stopped.
-
-"Why?"
-
-"I do not need the building explained to me by force."
-
-"You don't know it."
-
-"I live here."
-
-"You don't know Sera."
-
-"I know Sera now."
-
-Tavi took another bite.
-
-"Do you know Jessa?"
-
-I had no idea which face belonged to Jessa.
-
-"No."
-
-"She sings bad."
-
-"You have established that."
-
-A voice from above called, "Tavi."
-
-Tavi looked up.
-
-Orren leaned over the upper railing.
-
-"Up."
-
-"I'm eating."
-
-"You can eat upstairs."
+"Obviously."
 
 She looked at me.
 
-"See?"
+"That was confidence, not knowledge."
 
-"I do."
+"Good."
 
-She gathered the three stones.
+I closed my eyes.
 
-Left the chalk road on the step.
+The word had followed me home from the theatre and now entered public infrastructure.
 
-Then looked at my apple core.
+There were perhaps twenty people in the court.
 
-"You gonna eat that?"
+Mostly women.
 
-"No."
+Two men.
 
-"Give."
+One older boy carrying buckets.
 
-"Why?"
+A little girl sitting on a basket and kicking her heels against the side.
 
-"Pig."
+Nobody looked surprised to see me.
 
-There was apparently a pig somewhere in this social system.
+One woman looked at the bundle hanging from my crutch and said, "That'll drag."
 
-I handed her the core.
+I looked down.
 
-She climbed the stairs with apple in one hand, core in the other, stones held against her shirt.
+It was not dragging.
 
-Orren disappeared from the railing before she reached him.
+Yet.
 
-I remained on the step.
+"Optimist."
 
-Mina came back without laundry.
+She pointed at the next stretch of floor.
 
-She looked at the chalk lines.
+A shallow dip crossed the stones.
 
-Then at me.
+I took two steps.
 
-"Tavi."
+The bundle touched.
 
-"Yes."
+Fine.
 
-"Wash it before rain makes paste."
-
-I looked at the chalk.
-
-"Me?"
-
-"You're sitting there."
-
-This was flawless neighborhood logic.
-
-"Fine."
-
-She went inside.
-
-I had acquired a task.
-
-Not theatre.
-
-Not magic.
-
-Not debt.
-
-Chalk.
-
-I went upstairs, got a rag, came back down, and wiped the road from the step with a little water from the pump.
-
-The chalk resisted in the cracks.
-
-I scrubbed harder.
-
-A man entering stepped around me without comment.
-
-Sera came around the corner carrying an empty basket.
-
-She saw me kneeling awkwardly at the lowest step with one crutch laid beside me and a wet rag in hand.
-
-"What happened?"
-
-"Urban planning."
-
-She looked at the chalk.
-
-"Tavi."
-
-"Yes."
-
-"Mina make you clean it?"
-
-"I was sitting there."
-
-Sera nodded.
-
-Apparently this was enough legal foundation.
-
-"Beans good?"
-
-"Very."
-
-"Lyssa home?"
-
-"Not yet."
-
-"She'll be late."
-
-"The note agrees."
-
-Sera started inside.
-
-I said, "Sera."
-
-She turned.
+I lifted the loop higher on the crutch shaft.
 
 "Thank you."
 
-"For beans?"
+She had already turned back to a shirt in the basin.
+
+Lyssa found an open place along the roofed wall.
+
+We set the bundles down.
+
+I expected instruction.
+
+She took out the soap.
+
+Handed it to me.
+
+"Sheets first."
+
+"That is instruction."
 
 "Yes."
 
-"Bring bowl tomorrow."
+Then she opened her own smaller bundle and pulled out two pieces of cloth that were not ours.
 
-"Still planning to preserve it."
+I looked.
 
-She went upstairs.
+Not reddish-brown.
 
-I finished the chalk.
+Not the pinned brown cloth from home.
 
-The lowest step was cleaner than the other four now.
+Something pale and narrow.
 
-This made the staircase look worse.
+I stopped looking.
 
-I considered cleaning all of them.
+Progress.
 
-Then recognized madness and stopped.
+Lyssa wet one piece at the edge of the hot basin.
 
-Back upstairs, the room remained empty.
+"You're washing work?"
 
-I put the rag by the basin.
+"Rinsing."
 
-The bowl of beans waited under the plate.
+Different thing.
 
-I ate bread and another spoonful standing at the table.
+I did not ask why.
 
-Then I found myself listening for Lyssa's steps.
+She did not explain.
 
-Not worried.
+I put the first sheet into the water.
 
-Aware.
+The sheet immediately became six times heavier and personally opposed to my existence.
 
-There was a difference.
+"Ah."
 
-She had said late.
+The woman beside me glanced over.
 
-Late had not yet become very late.
+"First sheet?"
 
-I sat by the window with nothing useful to do and watched the street darken by degrees.
+"First hostile sheet."
 
-A cart stopped near the baker's rear door.
+She laughed.
 
-Two men unloaded flour sacks.
+Lyssa did not.
 
-The dog from morning moved from one wall to another.
+She had probably known.
 
-Tavi appeared below carrying something green and leading an actual pig by a cord.
+Wet cloth changed the geometry.
 
-There was the pig.
+That was obvious in the abstract.
 
-The apple core had entered a broader economy.
+In practice it meant I could not lean over the basin the way everyone else did without giving up one crutch, and I could not give up one crutch casually because the floor was wet stone and my right foot was currently my only foot.
 
-I laughed.
+I set both crutches against the basin.
 
-Tavi looked up, saw me at the window, and held up the core.
+Bad.
 
-Then gave it to the pig.
+They slid.
 
-The pig ate it.
+I caught one before it fell.
 
-Evidence resolved.
+The older boy carrying buckets said, "Hooks."
 
-Lyssa came home after full dark.
+I looked behind me.
 
-Not exhausted.
+Iron hooks had been set into the posts under the roof.
 
-Tired enough to move carefully while taking off her outer layer.
+Several already held baskets and handles.
 
-She had her work bag and a paper-wrapped packet under one arm.
+One was empty.
 
-She looked at me.
+I put the crutches there.
 
-Then at the table.
+Both.
 
-Then at Sera's bowl.
+Then stood with my right hand on the basin edge.
 
-"Sera."
+Stable enough.
 
-"I know her name now."
+Not elegant.
 
-Lyssa stopped.
+Useful.
 
-"Now?"
+The sheet floated with one corner escaping toward another person's washing.
 
-"Apparently this has become public humiliation."
+I grabbed it.
 
-She laughed and sat.
+"Stay."
 
-I uncovered the beans.
+The sheet did not respect authority.
 
-"She made too many. Bowl goes back tomorrow. Second floor, green door, cracked corner, left from stairs."
+Lyssa rinsed her second piece.
 
-Lyssa stared at me.
+Then came over and pushed the far corner back toward me.
 
-"You asked directions?"
+"Fold it."
 
-"I am learning."
+"In the water?"
 
-"You have been here how long?"
+"Yes."
 
-"Hostile household."
+I folded.
 
-She smiled and took the spoon.
+The entire sheet became smaller and worse.
 
-I cut bread.
+She showed me once.
 
-For a while we ate without talking.
+Not a lesson.
 
-Lyssa's late day stayed hers. She did not explain the paper packet. I did not ask. It sat near her work bag while we ate.
+Just two hands doing the motion.
 
-Eventually she said, "Tavi gave me an apple story."
+Fold into the water.
 
-I looked at her.
+Press.
 
-"Already?"
+Soap the worst areas.
 
-"She was downstairs."
+Work it against itself.
 
-"I gave her one apple."
+Open.
 
-"She said she negotiated it."
+Shift.
 
-"False."
+Again.
 
-"She said you refused twice."
+I copied her.
 
-"True."
+My first attempt mostly moved water onto my shirt.
 
-"Then gave it."
+The second worked.
 
-"True."
+The woman beside me said, "Too much soap."
 
-Lyssa ate beans.
+I looked at the soap.
 
-"Negotiated."
+Then at the sheet.
 
-"I reject the framing."
+White suds had begun collecting along the fold.
 
-She smiled into the bowl.
+"How much is too much?"
 
-"Also Mina says thank you for the step."
+"That."
+
+Precise local science.
+
+I stopped adding soap.
+
+Lyssa had already finished her rinse.
+
+She squeezed the narrow cloth between both hands, wrapped it in another dry piece, and put it back into her bag.
+
+"That's it?"
+
+"That's it."
+
+She checked the position of my crutches on the hook.
+
+Then the sheet.
+
+Then me.
+
+"Cold after."
+
+"Hot, then cold."
+
+"Rinse."
+
+"Yes."
+
+She took her bag.
 
 I stared.
 
-"How many people did you speak to between the door and here?"
+"You are abandoning me."
 
-"Three."
+"You're washing."
 
-"That is too many."
+"This is how people die."
 
-"You were home all day."
+"In sheets?"
 
-"I went out."
+"History is broad."
 
-"Clearly."
+She kissed my cheek.
 
-I told her about Orren.
+The woman beside me pretended not to notice with the skill of someone who had noticed everything.
 
-Not his former cart work because Tavi was not a reliable historical archive.
+Lyssa said, "Don't leave them wet."
 
-Only that I had learned his name and that Tavi was not his daughter, granddaughter, or niece.
+"I understood that independently."
 
-Lyssa looked at me.
+"Good."
 
-"You asked all three?"
+"Go."
 
-"I stopped after niece."
+She went.
 
-She put down the spoon.
+I watched her cross the court, avoid a bucket without looking down, and disappear through the arch toward the north-side route.
 
-"Greg."
+Then I turned back to the sheet.
 
-"I recognized the error."
+Still there.
 
-"Before or after asking a child if Orren was three different relatives?"
+No escalation.
 
-"During."
+Excellent.
 
-She laughed hard enough to put one hand over her mouth.
+The next hour taught me that washing sheets was not difficult enough to be interesting and not easy enough to disappear.
 
-I ate bread and accepted judgment.
+It occupied exactly the amount of attention required to make thinking about other things inconvenient.
 
-When she recovered, she said, "Tavi's mother is Cala. Orren watches her some nights."
+Soap.
 
-"That is all I needed."
+Fold.
 
-"You didn't need any of it."
+Press.
 
-"Also true."
+Shift.
 
-We finished the beans.
+Rinse.
 
-I washed Sera's bowl properly this time and set it upside down near the door.
+The first sheet went into the cold basin after I had squeezed enough water from it that moving it did not feel like transporting a drowned sail.
 
-Lyssa watched me do it.
+I used the basin edge for balance and kept the crutches on the hooks.
 
-"Tomorrow?"
+The older boy objected when I dripped across his bucket route.
 
-"Apparently I have a call."
+Not verbally.
 
-"Theatre?"
+He stopped.
 
-"Sera."
+Looked at the trail.
 
-She laughed again.
+Looked at me.
 
-I liked that more than I should have.
+I moved the sheet closer to the stone.
 
-Before bed, I checked the door latch.
+"Sorry."
 
-Not the theatre schedule.
+He continued.
 
-Not my coat for pages.
+The second sheet went faster.
 
-Not the market list.
+Not because I had become a master washer.
 
-The room had changed by almost nothing.
+Because I stopped inventing new ways to hold it.
 
-One clean wooden bowl waited near the door.
+That was competence often enough.
 
-I knew Sera lived behind the cracked green door on the second floor.
+The towels were easier.
 
-I knew Orren lived at the top end with the brass latch.
+The clothes were easier still until I reached the damaged shirt.
 
-I knew Tavi was Tavi and that her mother worked nights sometimes.
+Three loose cuff threads.
 
-Mina hated chalk on the step, which was not the same as hating children, cats, or civilization despite Tavi's willingness to expand biographies.
+Still three.
 
-None of these people had become my friends.
+I wet it.
 
-Nobody had invited me into anything.
+The threads darkened with the cloth and stuck to my fingers.
 
-I had not solved a problem worth money.
+For a moment I thought about cutting them.
 
-Tomorrow Sera's bowl needed returning.
+I had no reason to.
 
-That was enough to make one door in our building belong to somebody instead of geography.
+I left them.
+
+Soap did not require repair.
+
+The blue paint streak on my better shirt had faded before today.
+
+Washing made it paler.
+
+Not gone.
+
+I scrubbed once.
+
+Twice.
+
+The streak remained.
+
+I considered the amount of effort required to make my shirt pretend theatre had never touched it.
+
+Then stopped.
+
+Pale blue was fine.
+
+A woman farther down the basin was arguing with a teenage boy about a red stain on trousers.
+
+"You put it there."
+
+"I was wearing them."
+
+"That is not a defense."
+
+"It happened while I was wearing them."
+
+"Exactly."
+
+I minded my own business.
+
+Mostly.
+
+The little girl on the basket had acquired a wooden spoon.
+
+Nobody seemed certain from where.
+
+She hit the basket with it in a regular rhythm.
+
+The older boy carrying buckets told her to stop.
+
+She stopped until he turned away.
+
+Then resumed more quietly.
+
+Society.
+
+By the time everything was washed, my shoulders had become aware of the day.
+
+Not injured.
+
+Worked.
+
+Different from theatre.
+
+Different from Hessa's chair.
+
+Different from walking Carrow.
+
+Wringing cloth wanted both hands, which meant I had to stand supported against the basin edge or sit.
+
+I chose sitting for the sheets.
+
+A low stone bench ran under the roof.
+
+I sat with a sheet across my lap and twisted one section at a time.
+
+An older woman at the other end watched me do this badly for perhaps thirty seconds.
+
+Then said, "Other way."
+
+I looked at my hands.
+
+"Which other way?"
+
+She stood.
+
+Took the far end of the sheet.
+
+"Hold."
+
+I held.
+
+She twisted her end clockwise.
+
+I had been twisting mine clockwise too.
+
+Which produced a thick rope of cloth that mostly moved the same water around.
+
+"Opposite," she said.
+
+I twisted counterclockwise.
+
+Water ran onto the stones.
+
+"Oh."
+
+She let go.
+
+"Better."
+
+"Significantly."
+
+She sat.
+
+No name.
+
+No biography.
+
+No revelation.
+
+A person in a wash court had known how to wring a sheet.
+
+The world survived without becoming my network.
+
+I finished the rest correctly.
+
+Then came the lines.
+
+Drying lines, not Uncle lines.
+
+Important distinction.
+
+Most of the lower ones were full.
+
+Two higher lines had space.
+
+I could reach them.
+
+Technically.
+
+Reaching while balancing on one right leg and trying to hold wet cloth above shoulder height was a bad definition of technically.
+
+I looked around.
+
+A short wooden pole leaned against one post with a forked end.
+
+Ah.
+
+I used the pole to lift the line down into reach.
+
+That worked for the first sheet.
+
+For the second, I lifted too quickly and knocked another person's cloth loose from its peg.
+
+It fell.
+
+Not into mud.
+
+Onto stone.
+
+Still wet.
+
+Still my fault.
+
+"Shit."
+
+The owner turned.
+
+I picked it up immediately.
+
+"Sorry."
+
+She looked at the cloth.
+
+Then at the pole.
+
+"Slow."
+
+"Yes."
+
+She rehung it.
+
+No forgiveness ceremony.
+
+No anger ceremony.
+
+I went slower.
+
+The sheets rose.
+
+Towels followed.
+
+Shirts.
+
+Trousers.
+
+The damaged shirt hung with its three threads visible at the cuff if anyone cared enough to inspect.
+
+No one did.
+
+I sat.
+
+That was most of the job.
+
+Which meant the job became waiting.
+
+The court had a waiting population.
+
+People mended things.
+
+Talked.
+
+Left and returned.
+
+A woman peeled an apple with a small knife and shared pieces with two children.
+
+Someone produced bread.
+
+The bucket boy vanished and came back with another stack of buckets.
+
+The little girl eventually abandoned the spoon and fell asleep against the basket.
+
+I had brought no book.
+
+No pages.
+
+No food.
+
+Poor planning.
+
+I watched the sheets move.
+
+My sheets.
+
+Our sheets.
+
+That distinction appeared without invitation.
+
+Not mine because I had purchased them.
+
+I had not.
+
+Not ours because anyone had declared property law over the bed.
+
+Ours because I knew which corner had the small worn patch and which towel had become too thin along one edge and which shirt would still have blue paint after it dried.
+
+I knew where the wash court was now.
+
+I knew the hot basin came first.
+
+I knew the crutches went on the hooks instead of against wet stone.
+
+I knew the forked pole existed.
+
+I knew too much soap because too much soap looked exactly like my first sheet.
+
+This was not impressive.
+
+That was the point.
+
+A man could spend an old life crossing bad country, surviving fights, remembering creatures that could kill him, learning roads that no longer existed, and then in a second life discover that wet sheets had logistics.
+
+The sheets did not care.
+
+Good for them.
+
+I waited.
+
+At some point the woman who had warned me about the dragging bundle left.
+
+At some point the older woman left.
+
+At some point two new people arrived and took their places without the court changing identity.
+
+The sun crossed enough sky that the first sheet stopped looking wet.
+
+I tested a corner.
+
+Damp.
+
+Not wet.
+
+The second was worse.
+
+I waited longer.
+
+Theatre call would come eventually.
+
+If someone wanted me.
+
+No one had come looking.
+
+I did not go looking either.
+
+That felt strange for perhaps ten minutes.
+
+Then less strange.
+
+By the time I took the first shirts down, the blue streak had dried into a faint line.
+
+Still there.
+
+I smiled at it.
+
+Not sentiment.
+
+Just recognition.
+
+The damaged shirt's threads had dried crooked.
+
+Three.
+
+Still three.
+
+I folded it badly.
+
+Refolded it less badly.
+
+The towels came down.
+
+Then the sheets.
+
+Dry enough.
+
+Not perfect.
+
+Dry enough that carrying them home would not create a new problem.
+
+I tied the bundles smaller this time.
+
+Practice from the morning helped.
+
+One on the strap behind me.
+
+One on the right crutch.
+
+Towels under the arm only until I realized that was stupid.
+
+I retied them too.
+
+The older boy was back.
+
+He looked at the right-crutch bundle.
+
+Then at the dip in the floor.
+
+I lifted it before reaching the dip.
+
+He nodded.
+
+I felt absurdly rewarded.
+
+Outside the arch, the city had continued without supervision.
+
+Market traffic.
+
+A dog sleeping beside a wall.
+
+Two laborers moving boards.
+
+Someone shouting about fish from far enough away that I refused responsibility.
+
+I took the wider route home.
+
+The clean sheet bundle shifted once.
+
+I stopped.
+
+Adjusted it.
+
+Continued.
+
+No one chased me.
+
+No one offered work.
+
+No strange object revealed itself.
+
+No future memory opened.
+
+No magical creature crossed the road.
+
+No debt collector stepped from an alley.
+
+The day remained washing.
+
+At home, the room still looked wrong without the bed made.
+
+I put the bundles down.
+
+My shoulders thanked me by hurting slightly less.
+
+I made the bed.
+
+This was harder alone than washing the sheet had been.
+
+One corner.
+
+Across.
+
+Back.
+
+The far side required going around because I could not simply lean across a bed and trust two legs I did not have.
+
+I went around.
+
+Tucked.
+
+Returned.
+
+The sheet came loose from the first corner.
+
+I stared at it.
+
+"Enemy."
+
+I fixed it.
+
+The second sheet went on.
+
+Blanket.
+
+Done.
+
+The room returned to itself.
+
+Clean towels on the shelf.
+
+Clothes folded.
+
+Damaged shirt back on the shelf, three loose threads.
+
+Better shirt folded with its paler blue paint streak.
+
+The brown cloth remained where it had been all day.
+
+Three pins.
+
+I washed my hands.
+
+The water in the basin clouded faintly with soap that had already been on me for hours.
+
+Excellent.
+
+Then I sat on the edge of the newly made bed.
+
+That lasted perhaps thirty seconds.
+
+The clean sheet felt too good.
+
+I lay back.
+
+Only for a moment.
+
+I woke when Lyssa opened the door.
+
+The light had changed.
+
+She stood inside with her work bag.
+
+I sat up.
+
+"Maintenance injury."
+
+"You slept."
+
+"Severe."
+
+She looked at the bed.
+
+Then the folded clothes.
+
+Then the towels.
+
+"Dry?"
+
+"Dry enough."
+
+She touched the nearest towel.
+
+Apparently evidence mattered in every profession.
+
+"Good."
+
+I pointed at her.
+
+She smiled.
+
+Then she took off her coat.
+
+I asked, "North side?"
+
+"Yes."
+
+That was the whole report.
+
+She did not explain the pale cloth she had rinsed.
+
+I did not ask about the missing sample or spool.
+
+She looked toward the table.
+
+The Uncle's pages were still there.
+
+"Called?"
+
+"No."
+
+"Pell?"
+
+"Don't know."
+
+She nodded.
+
+No tragedy.
+
+No opportunity.
+
+Just don't know.
+
+I stood and started supper because one of us had to.
+
+Lyssa sat for a while before helping.
+
+We ate on clean towels we did not need, beside clean shirts we were not wearing, in a room that smelled faintly of soap.
+
+Nothing had advanced.
+
+That was not true.
+
+The wash court was two streets below the west market.
+
+Hot first.
+
+Cold rinse.
+
+Crutches on the hooks.
+
+Lift the line slowly.
+
+Three loose threads remained three.
+
+Blue paint remained blue, only paler.
+
+The bed was clean.
+
+That was enough for one day.

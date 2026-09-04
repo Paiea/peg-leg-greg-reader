@@ -166,7 +166,7 @@ Current prose preserves plenty of separate work, which is good. The pair is avai
 
 Important current evidence:
 - Davin is pulled from property-table work because he has to help Jori with a wall brace.
-- Ch223–225 cart-brace sequence: Greg finds Jori already under the cart while Davin stands over him with a mallet and offers advice; Jori rejects leverage as the answer to the cracked brace.
+- Ch226–225 cart-brace sequence: Greg finds Jori already under the cart while Davin stands over him with a mallet and offers advice; Jori rejects leverage as the answer to the cracked brace.
 - the cart is left out of service until the brace is actually usable.
 - once repaired, Davin loudly claims the cart works because he helped; Jori narrows that to `You held a nail`; Davin calls that essential.
 - Jori later drives the repaired cart while Davin rides beside him and scenery / benches move normally again.
@@ -181,7 +181,7 @@ Recent prose now supports a small pattern:
 
 This is not old enough or broad enough to become their universal template.
 
-## Ch228 — name board: correction without formal hierarchy
+## Ch231 — name board: correction without formal hierarchy
 
 Davin paints the same dead man's name on both sides of a reversible board.
 

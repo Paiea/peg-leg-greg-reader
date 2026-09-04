@@ -962,6 +962,3054 @@ We had gotten his questions instead.
 
 # CHAPTER 221
 
+## THE SHORTAGE
+
+The oil did not arrive.
+
+That was the first thing wrong with the day.
+
+Not dramatic wrong.
+
+No broken window.
+
+No man at the door.
+
+No cart missing a pin.
+
+Jori stood beside the rear shelf holding two empty lamp tins and looking at them as though disappointment might produce oil.
+
+It did not.
+
+I came in with my crutches wet from a brief morning rain and stopped beside him.
+
+"Where is it?"
+
+"Excellent question."
+
+"I have more."
+
+"Save them."
+
+The shelf held one sealed tin, one half tin, and three lamps that would eventually make this everybody's problem.
+
+I looked toward the rear door.
+
+"Olin?"
+
+Jori nodded once.
+
+That was wrong too.
+
+Olin was not punctual in the way Antonius Vale was punctual. He did not make time feel guilty for being late. But his boy usually came before second bell with lamp oil, wicks if Jori had ordered them, and an opinion about whichever street had been blocked that morning.
+
+Second bell had passed.
+
+The boy had not.
+
+Rinna was at the front table with the receipts.
+
+I went there.
+
+"Oil."
+
+"I know."
+
+"Did Olin send word?"
+
+"No."
+
+"Should someone go?"
+
+"Already did."
+
+I looked around.
+
+"Who?"
+
+"Nessa."
+
+That explained why three costumes were lying open across chairs with no one insulting their seams.
+
+"Why Nessa?"
+
+"She was going that direction."
+
+"That is disgustingly reasonable."
+
+Rinna kept writing.
+
+The board behind her said:
+
+KING: MAREK / HARA / EVIN
+
+BORROWED HOUSE: VEYA / SELLEN / GREG
+
+SHORT: PELL / TAREN
+
+GREG: PORTER / SET
+
+I read it.
+
+"Porter again."
+
+"You complained less last time."
+
+"I was growing."
+
+"Keep growing."
+
+I went rear.
+
+Pell had one side of the painted window on his shoulder.
+
+"Oil?" he asked.
+
+"No oil."
+
+"We're closing."
+
+"We have oil."
+
+He looked at the shelf.
+
+"We have one and a half oil."
+
+"That's not a unit."
+
+"It is today."
+
+He was probably right.
+
+We carried the window.
+
+Normal work remained normal even when the lamps had become arithmetic.
+
+The window went stage left.
+
+Nessa would later move it.
+
+Pell found a loose board under the rear platform and blamed humidity.
+
+Jori blamed Pell.
+
+Marek arrived with bread wrapped in paper and immediately lost the paper.
+
+Hara found it under the King chair.
+
+He accused the chair.
+
+The chair remained silent under questioning.
+
+By third bell, the oil had still not arrived.
+
+Rinna reduced two rehearsal lamps to one.
+
+That changed the room more than I expected.
+
+Backstage became less soft.
+
+Corners sharpened.
+
+The pale cloth window looked flatter.
+
+A costume rail disappeared into shadow before it should have.
+
+Nessa came through the rear door carrying no oil.
+
+She had one folded gray sleeve over her arm.
+
+Rinna looked up.
+
+Nessa said, "He's not sending the boy."
+
+Nobody asked who.
+
+Rinna put down the pen.
+
+"Today?"
+
+"Until he decides."
+
+"Why?"
+
+Nessa set the sleeve on the table.
+
+"Someone waited outside his place yesterday."
+
+My hands tightened on the crutch grips.
+
+Not much.
+
+Enough.
+
+Rinna asked, "Who?"
+
+"He doesn't know. Two men. One asked whether he still supplied the hall."
+
+Pell said, "Bren."
+
+Rinna looked at him.
+
+"Men."
+
+"Fine. Men who enjoy commerce badly."
+
+Nessa continued.
+
+"Olin told them yes. They asked when deliveries came here. He told them to buy oil if they wanted oil."
+
+I liked Olin more.
+
+"Then?" Rinna asked.
+
+"They stayed."
+
+"How long?"
+
+"He didn't count."
+
+"Did they threaten him?"
+
+"Not in words he'll swear to."
+
+Good.
+
+Annoying.
+
+Important.
+
+"What happened?" I asked.
+
+Nessa looked at me.
+
+"He sent the boy home by the back."
+
+There.
+
+Not a wheel pin.
+
+Not a broken lamp.
+
+A boy going home another way because two men had learned where he worked.
+
+That was worse than a pin in a quieter direction.
+
+Rinna said, "Oil?"
+
+"Olin says we can collect it ourselves. Daylight only. Two people. He won't send anyone until he knows whether the men stop watching."
+
+Jori came from rear.
+
+"How much do we have?"
+
+"One sealed, half open," I said.
+
+He looked at me.
+
+"I asked Rinna."
+
+"Same answer."
+
+Rinna said, "Enough for tonight?"
+
+Jori thought.
+
+Not theatrically.
+
+He looked toward the front lamps, then rear, then at the rehearsal lamp we had already extinguished.
+
+"If house is small."
+
+"If it isn't?"
+
+"We burn less backstage."
+
+Pell looked offended.
+
+"How do I find anything?"
+
+Nessa said, "Put it where it belongs."
+
+"Cruel."
+
+Rinna looked at the board.
+
+Then at Nessa.
+
+"Did Olin say when we can collect?"
+
+"Before fifth."
+
+"Jori."
+
+He nodded.
+
+"I'll go."
+
+Rinna looked around.
+
+Her eyes stopped on me.
+
+I said, "No."
+
+"Good."
+
+"I was refusing before you asked."
+
+"Better."
+
+Pell pointed at himself.
+
+"I have two legs."
+
+"You also have rehearsal," Rinna said.
+
+"So does Greg."
+
+"Greg has a reputation for turning errands into theories."
+
+"Unfair."
+
+Nobody defended me.
+
+Nessa said, "I'll go with Jori."
+
+Rinna nodded.
+
+That was the decision.
+
+No committee.
+
+No war council.
+
+Oil needed collecting.
+
+Two people went to collect oil.
+
+The problem was that now collecting oil required two people.
+
+That was the cost.
+
+Not the copper.
+
+The hours.
+
+Nessa had fittings.
+
+Jori had lamps.
+
+Theatre had rehearsal.
+
+Two men standing outside one supplier had purchased part of everybody's afternoon without paying for it.
+
+I hated the efficiency.
+
+Teren came from the stage with a page in one hand.
+
+"Porter."
+
+"Threatened supplier."
+
+"After rehearsal."
+
+"Right."
+
+He handed me the page.
+
+Same porter.
+
+Wrong house.
+
+Six lines.
+
+One chest.
+
+I knew where the laugh lived now.
+
+That felt useful and insulting.
+
+We rehearsed.
+
+The first run was bad because Marek came through the wrong entrance even though he was not in Borrowed House.
+
+He had been looking for his paper.
+
+"Why are you here?" Veya asked.
+
+"Wrong play."
+
+"Leave."
+
+He did.
+
+The second run was bad because I carried the chest too carefully.
+
+Teren stopped me.
+
+"Again."
+
+"What?"
+
+"You're worried about it."
+
+"It is a chest."
+
+"Porter isn't."
+
+I looked at the chest.
+
+Then at him.
+
+"Porter doesn't know about the oil."
+
+Teren did not look toward Rinna.
+
+That was one reason he was good.
+
+"Correct."
+
+Again.
+
+I carried the chest like I had carried a hundred chests badly.
+
+Not careful.
+
+Not careless.
+
+Routine.
+
+Veya asked who sent me.
+
+"A man."
+
+"What man?"
+
+"The one who told me this house."
+
+She stared.
+
+I left before the laugh finished.
+
+Teren nodded once.
+
+That was all.
+
+By fourth bell, Nessa and Jori were back.
+
+They had the oil.
+
+Two tins.
+
+One bundle of wicks.
+
+No blood.
+
+No broken cart.
+
+No men following as far as they knew.
+
+Jori put the tins on the shelf.
+
+I looked at them.
+
+"Expensive."
+
+"Same price," he said.
+
+"Not what I meant."
+
+He knew.
+
+Rinna did too.
+
+Nessa had lost half an afternoon.
+
+Jori had lost an hour and change.
+
+The theatre had rehearsed with fewer hands.
+
+Olin's boy had lost his route.
+
+Same oil.
+
+Different price.
+
+Rinna opened the ledger.
+
+Not the theatre ledger.
+
+The short folded threat paper beneath it.
+
+BREN?
+
+LEFT GLOVE.
+
+CART YARD.
+
+PAID ONCE. MORE.
+
+PIN RETURNED.
+
+MESSAGE IN BREN'S NAME.
+
+She added:
+
+OLIN: TWO MEN ASKED DELIVERY TIME.
+
+BOY SENT HOME.
+
+COLLECT ONLY.
+
+Pell leaned over.
+
+"That's him."
+
+Rinna said, "No."
+
+"You know what I mean."
+
+"Yes."
+
+"Then why?"
+
+"Because I know what you mean."
+
+He straightened.
+
+"Difficult woman."
+
+"Useful man. Go move the table."
+
+Pell went.
+
+I stayed.
+
+Rinna looked at me.
+
+"Don't."
+
+"I haven't said anything."
+
+"You're building something."
+
+I was.
+
+Not a plan yet.
+
+A shape.
+
+Two men at Olin's.
+
+One boy sent home.
+
+One theatre collecting its own oil.
+
+A cart yard that had paid once.
+
+A pin removed and returned.
+
+Bren saying next time would not be one.
+
+The first time, he had wanted money.
+
+The second time, he had wanted obedience.
+
+Now he was buying inconvenience cheaply.
+
+That was old.
+
+Not Bren.
+
+The method.
+
+I knew methods.
+
+I had seen villages taxed by people who never called it tax.
+
+Road companies selling safety they had first made uncertain.
+
+Mercenary captains charging twice for the same bridge.
+
+Guild officers who had learned that delay could be more expensive than theft.
+
+The details changed.
+
+The arithmetic did not.
+
+"Greg."
+
+Rinna had said my name twice.
+
+"Sorry."
+
+"Don't go anywhere."
+
+"I wasn't."
+
+"You were in your face."
+
+"That isn't a place."
+
+"For you it is."
+
+She folded the paper.
+
+"We open tonight."
+
+I looked toward the lamps.
+
+Two tins.
+
+One half.
+
+Enough.
+
+"Yes."
+
+"We work."
+
+"Yes."
+
+"And tomorrow I talk to Olin."
+
+"About what?"
+
+"People."
+
+"Names?"
+
+"No."
+
+I sighed.
+
+"Very difficult."
+
+"Good."
+
+House opened.
+
+Twenty-three people came.
+
+Then six more.
+
+Jori lit one fewer rear lamp.
+
+Nobody complained because the audience could not see backstage and the actors knew where most things were.
+
+Pell did not.
+
+He walked into the edge of a hanging cloth, blamed darkness, then found the missing stool under his own hand.
+
+Borrowed House got the usual laughs.
+
+The King got a better one when Hara forgot the petition and invented a complaint about the missing petition.
+
+Marek accused the kingdom of administrative decay.
+
+The audience agreed.
+
+For two hours, nobody cared about Olin.
+
+That was not disrespect.
+
+That was the job.
+
+At close, Rinna paid me one copper.
+
+I put it away.
+
+Jori pinched out the front lamps one by one.
+
+The room changed with each flame.
+
+Bright.
+
+Less bright.
+
+Dim.
+
+One lamp near the painted window remained.
+
+Pell crossed behind it carrying a coat.
+
+His shadow stretched across the cloth.
+
+I looked at it.
+
+He stopped.
+
+"What?"
+
+"Nothing."
+
+"You have the face."
+
+Apparently I had several now.
+
+I looked at the shadow again.
+
+Then at the lamp.
+
+Then at the empty house.
+
+The first bluff had happened because Pell was standing in the right wrong place.
+
+That was luck.
+
+The next one did not have to be.
+
+Rinna, from the table, said, "Greg."
+
+I looked at her.
+
+She had not been watching the shadow.
+
+She had been watching me.
+
+"Tomorrow," she said.
+
+"What tomorrow?"
+
+"You tell me what you're thinking."
+
+I glanced at Pell.
+
+He was still holding the coat.
+
+"That seems unsafe."
+
+"Probably."
+
+She folded the threat note into the ledger.
+
+"Tomorrow anyway."
+
+The last lamp went out.
+
+# CHAPTER 222
+
+## THE OLD MAN
+
+Rinna let me explain for almost a minute before saying no.
+
+That was longer than expected.
+
+We stood near the front table after first bell.
+
+The hall was empty except for Pell under something wooden, Nessa sorting coats, Jori cleaning yesterday's lamp soot, and Teren onstage reading pages aloud without emotion.
+
+I had drawn nothing.
+
+This was important.
+
+Rinna looked at the blank table.
+
+"Where is the plan?"
+
+"Here."
+
+I tapped my head.
+
+"Then no."
+
+"You haven't heard it."
+
+"I heard where it is."
+
+"That's prejudice."
+
+"Experience."
+
+I looked toward the painted window.
+
+Pell had left yesterday's coat-stick behind it.
+
+Not as a threat.
+
+Because Pell left things.
+
+That was one of his crafts.
+
+"They're pricing us," I said.
+
+Rinna's expression changed slightly.
+
+Good.
+
+Not agreement.
+
+Permission to continue.
+
+"The pin was cheap," I said. "The messenger was cheap. Standing outside Olin was cheap. They don't need to break anything expensive if we spend more avoiding the break than they spend implying it."
+
+Rinna folded her arms.
+
+"And?"
+
+"We make this place expensive to understand."
+
+"No."
+
+"That was the short version."
+
+"Good."
+
+"The longer version is better."
+
+"Unlikely."
+
+Pell's voice came from under the platform.
+
+"I want the longer version."
+
+Rinna said, "You aren't voting."
+
+"Still want it."
+
+I continued.
+
+"The first night worked because he couldn't tell what was true."
+
+"The first night worked because he chose to leave."
+
+"Yes."
+
+"You don't know why."
+
+"No."
+
+That helped.
+
+Rinna noticed.
+
+"You're learning terrible things from Hessa."
+
+"She would object to this entire conversation."
+
+"Good."
+
+I pointed toward the pale window.
+
+"He knew some of it was theatre. Or he should have. He saw the hall. He saw costumes. The shadow wasn't convincing up close. It didn't have to be."
+
+Nessa looked over from the coats.
+
+"It was convincing from house."
+
+"Yes."
+
+"Because I put the lamp there."
+
+I stopped.
+
+Nessa returned to the coat.
+
+There.
+
+Important.
+
+I had remembered the shadow.
+
+I had not remembered who had made it work.
+
+Nessa had.
+
+"Right," I said.
+
+She glanced at me.
+
+"You moved it twice."
+
+"Three times."
+
+"Wrong twice."
+
+"Still three."
+
+Rinna said, "Continue before I regret this."
+
+I did.
+
+"Bren thinks he knows the shape now. Theatre. Guild. Vale debt, maybe. One-legged actor who talks strangely. He keeps checking because the first time I made the shape bigger than it was."
+
+"You did."
+
+"Yes."
+
+"On purpose."
+
+"Mostly."
+
+Pell said, "I helped."
+
+"You had a broom."
+
+"Authority broom."
+
+Rinna ignored him.
+
+"What are you proposing?"
+
+"If he comes again, we don't give him more facts."
+
+"We already don't."
+
+"We give him worse ones."
+
+"No lies."
+
+"Not large ones."
+
+"Greg."
+
+"Fine. No lies."
+
+That made the plan harder.
+
+Probably healthier.
+
+I looked around the hall.
+
+"We let him see things he can explain. Then one thing he can't."
+
+Rinna's face went flat.
+
+"Magic."
+
+"Prepared effect. Not mine."
+
+"Whose?"
+
+I looked at Jori.
+
+Jori stopped cleaning the lamp.
+
+"No."
+
+"I haven't asked."
+
+"You looked."
+
+Everybody knew this argument now.
+
+Jori had a narrow blue-glass stage lamp we used in one old night piece because the treated glass made the flame throw a colder edge across pale cloth. Not an illusion spell. Not even impressive magic by Guild standards.
+
+Onstage, with smoke and distance, it made faces look wrong.
+
+Backstage, it was a lamp with expensive glass.
+
+"That," I said.
+
+Jori looked offended.
+
+"It's not a threat lamp."
+
+"Nothing is a threat lamp until someone is afraid of it."
+
+Nessa said, "Don't say that near the lamps."
+
+Fair.
+
+Rinna looked at Jori.
+
+"Safe?"
+
+"For a show."
+
+"For this?"
+
+He thought.
+
+"If nobody touches the glass hot. If Greg doesn't improvise with fuel. If Pell doesn't move it."
+
+Pell crawled out from under the platform.
+
+"Why me?"
+
+"History."
+
+"Unfair."
+
+"Experience," Rinna said.
+
+I liked her less when she used my arguments.
+
+"We don't know he'll come," she said.
+
+"No."
+
+"We don't invite him."
+
+"Agreed."
+
+"We don't send a challenge."
+
+"Agreed."
+
+"We don't threaten him first."
+
+I hesitated.
+
+Rinna waited.
+
+"Agreed."
+
+"And if he comes, I talk."
+
+That part hurt.
+
+Old Greg disliked not owning the room.
+
+Current Greg had learned more about ownership.
+
+"Yes," I said.
+
+Rinna nodded.
+
+"Then you can make the room strange if I tell you."
+
+Pell smiled.
+
+"Excellent."
+
+Rinna looked at him.
+
+"You still aren't voting."
+
+"I know."
+
+Nessa came over.
+
+"What room?"
+
+I pointed toward the pale window.
+
+"Not that one."
+
+"Why?"
+
+"He saw it before."
+
+"Good. Then he knows it's fake."
+
+I stopped.
+
+Nessa looked at me.
+
+"You want him looking for tricks."
+
+I did.
+
+She had understood before I had finished understanding.
+
+"Yes."
+
+"Then use the same one first."
+
+Pell said, "Authority broom returns."
+
+"No broom," Nessa said.
+
+"Cruel."
+
+She walked toward the window.
+
+"If he knows the shadow is fake, he watches the shadow. If he's watching the shadow, he isn't watching the other side."
+
+There it was.
+
+Not my idea anymore.
+
+Better.
+
+Teren called from the stage.
+
+"Do any of you intend to rehearse?"
+
+Rinna said, "Yes."
+
+That ended strategy.
+
+We rehearsed.
+
+Normal work first.
+
+I was not in King.
+
+I moved a bench.
+
+Wrong bench.
+
+Nessa corrected me.
+
+Borrowed House had changed one entrance because the painted wall was being repaired.
+
+Teren made me run the Porter entrance five times because my second step looked careful.
+
+"I have one leg," I said.
+
+"You have one role."
+
+"Those are not mutually exclusive."
+
+"Again."
+
+Again.
+
+By midday, the hall had become itself.
+
+The plan existed in pieces around ordinary work.
+
+Jori put the blue-glass lamp where Nessa told him.
+
+Then moved it because she told him again.
+
+Pell tested the old coat shadow.
+
+Too large.
+
+Too obvious.
+
+Nessa shortened it.
+
+Then she hung a strip of gauze near the opposite side of the room.
+
+Not across the whole space.
+
+Just enough that the blue edge from the lamp caught when someone crossed behind it.
+
+From the front table, I could see exactly what it was.
+
+From the doorway, the edge looked like a person had moved through darkness where there was no clear passage.
+
+"That's nothing," I said.
+
+Nessa nodded.
+
+"Good."
+
+Pell walked behind it.
+
+Cold blue passed once across the shape of his shoulder.
+
+Then nothing.
+
+I stared.
+
+"Again."
+
+Nessa said, "No."
+
+"Why?"
+
+"Because now you're expecting it."
+
+I hated professionals.
+
+We left it.
+
+No one came.
+
+Second bell.
+
+No one.
+
+Third.
+
+House prep began.
+
+Still no one.
+
+I started feeling stupid.
+
+This was healthy.
+
+Pell started feeling disappointed.
+
+This was normal.
+
+Rinna did not react at all.
+
+At fourth bell, someone knocked at the front.
+
+Not hard.
+
+Three knocks.
+
+Evenly spaced.
+
+The hall changed anyway.
+
+Rinna looked at me once.
+
+Not permission.
+
+Awareness.
+
+Jori was rear.
+
+Nessa near the costumes.
+
+Pell had the coat-stick behind the window because he had been told to leave it there.
+
+Marek was not holding the King hat.
+
+Progress continued.
+
+Rinna opened the front door.
+
+Bren stood there.
+
+Two men with him.
+
+One I had seen outside before.
+
+One new.
+
+The new one was broad through the chest, shaved head, short dark jacket, no visible weapon.
+
+Visible was not the same as absent.
+
+Old Greg knew that without thinking.
+
+The thought arrived with the man's feet.
+
+Not his hands.
+
+Feet first.
+
+Weight balanced slightly forward.
+
+Right heel too light.
+
+He expected movement.
+
+Someone had taught me that once.
+
+A courtyard.
+
+Rain on stone.
+
+A woman laughing because I had watched a knife hand instead of the hips.
+
+I could hear the laugh.
+
+I could see one gold tooth.
+
+Her name was gone.
+
+The correction remained.
+
+Watch what moves the body, idiot.
+
+The memory vanished before I could chase it.
+
+Useful first.
+
+Grief later.
+
+Bren said, "Busy?"
+
+Rinna answered, "Yes."
+
+He looked past her.
+
+The hall was half-set.
+
+Ordinary.
+
+Painted wall.
+
+Bench.
+
+Costume rail.
+
+Lamp.
+
+Me.
+
+His eyes stopped.
+
+"Greg."
+
+I did not answer.
+
+Rinna said, "What do you want?"
+
+Bren looked at her.
+
+"Five."
+
+There it was.
+
+Not one.
+
+Five copper.
+
+I did not know whether five was large for him.
+
+It was large for us.
+
+Five ordinary theatre days in one word.
+
+Rinna did not look at me.
+
+"No."
+
+Bren nodded as though she had confirmed an appointment.
+
+"Then Olin keeps collecting his own oil."
+
+My stomach tightened.
+
+Rinna said, "He can."
+
+"Cart yards keep checking pins."
+
+"They should."
+
+"Customers hear things."
+
+"They do."
+
+The broad man smiled.
+
+Not Bren.
+
+Bren watched Rinna.
+
+"Five is still cheaper."
+
+Rinna said, "Than what?"
+
+Good.
+
+He had to say it.
+
+Bren looked around the room again.
+
+"Trouble."
+
+Rinna waited.
+
+Silence.
+
+Current Greg wanted to fill it.
+
+Old Greg did not.
+
+That was the first performance.
+
+No coat.
+
+No light.
+
+Just not helping.
+
+Bren's eyes moved to me.
+
+"Nothing today?"
+
+I looked at him.
+
+Not the glove.
+
+That was difficult.
+
+I knew he expected the glove.
+
+So I denied him even that.
+
+"Rinna is talking," I said.
+
+Fewer words.
+
+Wrong voice.
+
+Not fake.
+
+Older.
+
+The broad man's smile disappeared.
+
+Small.
+
+Good.
+
+Bren noticed.
+
+Of course he noticed.
+
+"You rehearsed that?" he asked.
+
+I almost smiled.
+
+Almost.
+
+"Yes."
+
+True.
+
+Not the line.
+
+The habit.
+
+His eyes sharpened.
+
+He had found the theatre.
+
+Good.
+
+Let him.
+
+Behind the pale window, the coat shadow rose.
+
+Same trick.
+
+Bren saw it immediately.
+
+His mouth moved at one corner.
+
+"Again?"
+
+Pell did not move the shadow.
+
+That was Nessa's instruction.
+
+Once visible, hold.
+
+Bren looked at me.
+
+I looked at him.
+
+The new broad man looked at the shadow.
+
+The old lookout did not.
+
+Interesting.
+
+He watched the rear instead.
+
+Better training.
+
+Or more fear.
+
+I did not know.
+
+Rinna said, "Five is no."
+
+Bren ignored the shadow now.
+
+Good.
+
+He had priced it.
+
+Fake man.
+
+Old trick.
+
+Cheap.
+
+"Ten next time," he said.
+
+Rinna said, "No next time."
+
+The broad man shifted his right foot.
+
+There.
+
+Weight changed.
+
+Not attack.
+
+Preparation.
+
+Old Greg knew the difference because Old Greg had lived long enough to be wrong about it.
+
+I watched his hips.
+
+He noticed me watching.
+
+That mattered.
+
+I said, "Don't."
+
+One word.
+
+The man stared.
+
+Bren turned slightly.
+
+"Don't what?"
+
+I did not answer him.
+
+I looked at the broad man.
+
+He had expected me to explain.
+
+I could see it.
+
+Current Greg would have.
+
+Current Greg could explain weather to a wall if the wall looked skeptical.
+
+I stayed quiet.
+
+The broad man glanced at Bren.
+
+Not permission.
+
+Check.
+
+Good.
+
+Then Nessa crossed behind the gauze.
+
+Not Pell.
+
+Nessa.
+
+I knew because her step was shorter and she had told me exactly once that if I looked toward the gauze she would kill the entire effect herself.
+
+So I did not look.
+
+The blue edge moved across the far darkness.
+
+One shoulder.
+
+A face shape that was not a face.
+
+Gone.
+
+The broad man saw it.
+
+His eyes snapped sideways.
+
+The old lookout saw him see it and turned too late.
+
+Bren did not turn.
+
+He watched me.
+
+Smart.
+
+That made him worse.
+
+"Lamp," he said.
+
+I said nothing.
+
+"Blue glass."
+
+Still nothing.
+
+He smiled.
+
+"Theatre."
+
+"Yes," I said.
+
+That was the second truth.
+
+His smile changed.
+
+Not because I had fooled him.
+
+Because I had agreed.
+
+He had identified the trick and gained nothing.
+
+Behind him, street traffic moved normally.
+
+Someone shouted about onions.
+
+A cart wheel struck a stone.
+
+The world did not know we were doing anything important.
+
+Bren said, "So that's it?"
+
+I looked at the old lookout.
+
+Then the broad man.
+
+Then Bren.
+
+Not fast.
+
+Counting.
+
+He had done that to us.
+
+Now I did it back.
+
+"No," I said.
+
+Nothing else.
+
+Bren waited.
+
+I let him.
+
+The blue light did not move again.
+
+The coat shadow stayed where it was.
+
+Pell had become very good at standing still with a fake man.
+
+The room contained two visible tricks.
+
+One explained.
+
+One obvious.
+
+That left everything else.
+
+My knowledge of his route.
+
+The glove.
+
+The cart yard.
+
+Olin.
+
+The Guild.
+
+Vale.
+
+The fact that I had known when the broad man shifted before anyone touched anyone.
+
+None of it magical.
+
+Some of it old.
+
+Some of it luck.
+
+Some of it theatre.
+
+He had no clean way to separate them.
+
+That was the point.
+
+Not fear.
+
+Cost.
+
+Bren looked at Rinna.
+
+"You think this protects you?"
+
+She said, "No."
+
+He frowned slightly.
+
+Rinna continued.
+
+"Doors protect us from weather. Locks slow people. Jori checks the cart. Olin sells oil. You keep asking what one thing protects us because you want one thing to break."
+
+That was longer than Rinna usually spoke.
+
+Which meant she had been thinking too.
+
+Good.
+
+Bren said, "Everything breaks."
+
+Rinna nodded.
+
+"Eventually."
+
+The old lookout shifted near the door.
+
+Not forward.
+
+Back.
+
+He wanted street.
+
+The broad man noticed.
+
+Bren noticed both.
+
+I remembered another room.
+
+Not the room.
+
+The feeling.
+
+Five people pretending not to look at an exit.
+
+Old Greg had known then too.
+
+Who had been with me?
+
+A red scarf.
+
+A missing finger.
+
+Someone breathing through their nose because they were trying not to cough.
+
+Name gone.
+
+Exit remembered.
+
+I hated memory.
+
+Bren looked at me one more time.
+
+"You aren't what you were."
+
+My whole body went cold.
+
+For one stupid second, I thought he knew.
+
+Chronoclast.
+
+Old life.
+
+Everything.
+
+Then he looked at the crutches.
+
+Right.
+
+Leg.
+
+Current problem.
+
+I let out nothing.
+
+Not breath.
+
+Not answer.
+
+He continued.
+
+"People say you used to be louder."
+
+That almost made me laugh.
+
+Instead I said, "People improve."
+
+Pell made a tiny strangled sound behind the window.
+
+I would kill him later.
+
+Bren heard something.
+
+Looked toward the shadow.
+
+The fake man remained still.
+
+He looked back.
+
+"Five," he said.
+
+Rinna said, "No."
+
+He nodded.
+
+Then, finally, he looked toward the broad man.
+
+Not command.
+
+Decision.
+
+The broad man eased his right foot back flat.
+
+There.
+
+Violence had become standing.
+
+Standing could become leaving.
+
+Bren looked at me.
+
+"Next time, no lamps."
+
+I said, "Good."
+
+He narrowed his eyes.
+
+Current Greg wanted to add something clever.
+
+Old Greg had buried men who added something clever after they had already won the minute.
+
+I shut up.
+
+Bren turned.
+
+The old lookout was through the door first.
+
+The broad man followed.
+
+Bren left last.
+
+At the threshold, he looked back once.
+
+Not at me.
+
+At the room.
+
+Good.
+
+Then he went.
+
+Rinna shut the door.
+
+Jori latched it.
+
+Nobody spoke.
+
+The coat shadow remained on the pale cloth.
+
+Nessa stepped out from the far side carrying a folded cream dress.
+
+Not a weapon.
+
+Not a wand.
+
+A dress.
+
+The broad man had nearly moved because Nessa had walked six paces with laundry.
+
+I started laughing.
+
+Not loudly.
+
+It came out wrong.
+
+Then my right hand shook.
+
+A lot.
+
+I sat.
+
+Not gracefully.
+
+The bench arrived before I was fully ready because Pell had shoved it behind me.
+
+I landed.
+
+"Good," he said.
+
+"What?"
+
+"Bench."
+
+"Yes."
+
+My shoulders hurt.
+
+Not from magic.
+
+From holding the crutches too hard.
+
+My palms had gone slick.
+
+I wiped one on my trousers.
+
+Rinna looked at me.
+
+"You didn't ask permission for the foot thing."
+
+"What foot thing?"
+
+"Broad man."
+
+"I told him don't."
+
+"Yes."
+
+"He was loading his right side."
+
+"For what?"
+
+"Maybe movement."
+
+"Maybe?"
+
+"Yes."
+
+Rinna stared.
+
+"You sounded certain."
+
+"That was the point."
+
+She closed her eyes.
+
+I said, "In fairness, I was pretty sure."
+
+"Greg."
+
+"Less helpful."
+
+"Much."
+
+Pell came out from behind the window carrying the coat-stick.
+
+"He knew."
+
+"Yes," I said.
+
+"He knew the shadow was fake."
+
+"Yes."
+
+"Then why did it work?"
+
+Nessa answered before I did.
+
+"It didn't."
+
+Pell looked at her.
+
+She hung the cream dress.
+
+"That one did what it did last time. He knew it. So he watched for the next one."
+
+Pell considered.
+
+"Which was you."
+
+"Which was cloth and light."
+
+"Still you."
+
+"Unfortunately."
+
+Jori went to the blue lamp.
+
+"I'm putting this away."
+
+"Good," Rinna said.
+
+I said, "Leave it."
+
+Everyone looked at me.
+
+I raised both hands.
+
+Bad idea while seated without holding my crutches.
+
+I caught myself on the bench.
+
+"Not for crime. For house."
+
+Jori stared.
+
+"It is a theatre lamp."
+
+"Exactly."
+
+He put it away anyway.
+
+Correct.
+
+Teren came from the stage.
+
+He had not participated.
+
+That bothered me until I realized that had been his participation.
+
+He had kept the stage clear.
+
+Kept everyone not needed away from the front.
+
+Kept the room from becoming twelve people pretending to be dangerous.
+
+"House in forty," he said.
+
+Rinna looked at him.
+
+"We're opening?"
+
+He looked at the latched door.
+
+Then at the board.
+
+"Are we?"
+
+Rinna was quiet.
+
+Not long.
+
+"Yes."
+
+Teren nodded.
+
+"Then forty."
+
+That was theatre.
+
+Again.
+
+I sat for another minute.
+
+Maybe two.
+
+My hand stopped shaking enough to grip the crutch normally.
+
+Nessa threw the Porter coat at me.
+
+I caught it.
+
+Better this time.
+
+"Why?"
+
+"You're Porter."
+
+"I just prevented organized commercial pressure through performance."
+
+"You have six lines."
+
+"Cruel profession."
+
+"Dress."
+
+I dressed.
+
+House opened.
+
+Twenty-eight people came.
+
+One man complained the front bench was narrower than last week.
+
+It was the same bench.
+
+A woman asked whether Marek would be King.
+
+Rinna said yes.
+
+A boy dropped a copper and three adults looked for it until the boy found it in his own shoe.
+
+Nobody knew Bren had been in the room.
+
+Nobody knew the blue lamp had been anything except a blue lamp.
+
+Borrowed House came second.
+
+I waited with the chest.
+
+Both hands.
+
+Crutch at the wing.
+
+Sellen put the chest where I needed it.
+
+I braced.
+
+Four steps.
+
+Veya looked at me.
+
+"Who sent you?"
+
+"A man."
+
+"What man?"
+
+"The one who told me this house."
+
+The audience laughed.
+
+I left on time.
+
+Backstage, Pell whispered, "Old man."
+
+I stopped.
+
+"What?"
+
+"You sounded like an old man before."
+
+My chest tightened again.
+
+Pell grinned.
+
+"Terrible old man. Like you'd already heard the argument and were bored."
+
+Right.
+
+Not magic.
+
+Not revelation.
+
+Performance.
+
+I looked toward the stage.
+
+Veya was saying something about poison.
+
+The audience laughed.
+
+I could still hear another laugh too.
+
+Rain on stone.
+
+Gold tooth.
+
+Watch the hips, idiot.
+
+No name.
+
+I swallowed.
+
+Pell said, "You all right?"
+
+"Yes."
+
+That was mostly true.
+
+"Good. Move the wall."
+
+I looked at him.
+
+"You move it."
+
+"I have the coat."
+
+He did.
+
+Wrong coat.
+
+Normal problem.
+
+I took the wall.
+
+# CHAPTER 223
+
+## THE ROUTE
+
+Olin's boy came back two days later.
+
+Not to the theatre.
+
+That would have been too convenient.
+
+He came to the corner near Marra's while I was carrying nothing important and thinking about lunch.
+
+The second part mattered.
+
+I had one heel of bread wrapped in cloth and half an onion in my bag. Neither deserved criminal attention.
+
+The boy saw me first.
+
+"Greg."
+
+I stopped.
+
+He was maybe fourteen.
+
+Maybe younger.
+
+Old enough to be offended by being called boy and young enough that everybody did it anyway.
+
+He had Olin's narrow oil ledger tucked under one arm.
+
+No tins.
+
+"You're alive," I said.
+
+He looked at me.
+
+"Yes."
+
+"Good."
+
+"Why wouldn't I be?"
+
+"No reason."
+
+"Olin says stop asking people if I'm alive."
+
+I had asked Nessa once.
+
+Possibly Jori twice.
+
+"That seems excessive."
+
+"He said you'd say that."
+
+This was getting hostile.
+
+The boy held out a folded scrap.
+
+I did not take it.
+
+Growth.
+
+"For Rinna?"
+
+"Yes."
+
+"Why me?"
+
+"You're going there."
+
+I looked toward East Market Hall.
+
+Then at him.
+
+"How do you know?"
+
+"You're wearing the coat."
+
+I looked down.
+
+Brown Porter coat.
+
+Right.
+
+I had forgotten I was already dressed because Nessa wanted the hem checked before rehearsal.
+
+"Strong evidence."
+
+"Can you give it to her?"
+
+"Yes."
+
+I took the paper.
+
+"Are you delivering again?"
+
+"Some."
+
+"Some oil?"
+
+"Some places."
+
+"Us?"
+
+He shrugged.
+
+"Ask Rinna."
+
+Everyone had become difficult.
+
+"Did the men come back?"
+
+His expression changed.
+
+Not frightened.
+
+Annoyed.
+
+That was better.
+
+"One did."
+
+"Which?"
+
+"Man."
+
+"Excellent."
+
+"He asked when I worked."
+
+I stopped joking.
+
+The boy noticed.
+
+"What did you say?"
+
+"That Olin knows."
+
+"Good."
+
+"Olin said not to answer questions."
+
+"Very good."
+
+"Then he told the man to ask him."
+
+"Did he?"
+
+"No."
+
+That was interesting.
+
+"Then what?"
+
+The boy shrugged again.
+
+"He left."
+
+"Follow you?"
+
+"No."
+
+"You sure?"
+
+He gave me the expression fourteen-year-olds reserve for adults who have become stupid in public.
+
+"Olin made me wait. Then Ressa walked me to Copper Row."
+
+"Ressa?"
+
+"His sister."
+
+I did not know Olin had a sister.
+
+The world had once again failed to brief me.
+
+"Good."
+
+"You say good too much."
+
+"Professional contamination."
+
+He left.
+
+No oil.
+
+No threat.
+
+Just a folded paper in my hand.
+
+I did not open it.
+
+More growth.
+
+At the hall, Rinna was already arguing with a man who sold rope.
+
+Not about Bren.
+
+About rope.
+
+"That twist is worse," she said.
+
+The rope man said, "That twist costs less."
+
+"Yes."
+
+"Then why are we talking?"
+
+"Because less is not free."
+
+He looked at the coil.
+
+"You need six lengths."
+
+"I need six lengths that survive being pulled."
+
+"They survive."
+
+"You said worse."
+
+"Worse isn't dead."
+
+I waited.
+
+This felt important to commerce.
+
+Eventually Rinna bought four lengths of the better rope and two of the cheaper.
+
+Neither side looked satisfied.
+
+Probably a successful transaction.
+
+The rope man left.
+
+I handed her Olin's paper.
+
+"Oil boy."
+
+She looked at me.
+
+"He has a name."
+
+"I don't know it."
+
+"Of course."
+
+She opened the paper.
+
+I did not lean over.
+
+That was harder than not opening it.
+
+Rinna read.
+
+Then folded it once.
+
+"What?"
+
+She looked at me.
+
+I had lasted three seconds.
+
+"Deliveries resume tomorrow."
+
+"Good."
+
+"Daylight."
+
+"Fine."
+
+"He changed the route."
+
+"To what?"
+
+"Not your business."
+
+I stared.
+
+"It is literally our oil."
+
+"The oil arrives here. The route is his."
+
+That was unfortunately reasonable.
+
+She put the paper under the ledger.
+
+"The men?"
+
+"One came back. Asked questions. Got none."
+
+"The boy told me."
+
+"Then why ask?"
+
+"I like confirmation."
+
+"You like duplication."
+
+"Hessa calls it replication."
+
+"Don't."
+
+Fair.
+
+Nessa came through carrying two coats.
+
+One was mine.
+
+One was not.
+
+I could tell now.
+
+This was progress no one had requested.
+
+"Olin?" she asked.
+
+Rinna said, "Tomorrow."
+
+Nessa nodded.
+
+That was all.
+
+No celebration.
+
+No one applauded delivery logistics.
+
+Pell entered from rear with a small wooden bracket.
+
+"Cart yard sent this."
+
+Rinna looked up.
+
+That changed the room more.
+
+"Which yard?"
+
+"Mason's Cut."
+
+He held out the bracket.
+
+Not broken.
+
+Just wood with two holes and a chalk mark.
+
+"Why?" I asked.
+
+Pell said, "I was hoping you knew."
+
+"I usually am too."
+
+Rinna took the bracket.
+
+A note was tied through one hole.
+
+She read it.
+
+"What?" Pell asked.
+
+Rinna looked at him.
+
+"You brought it."
+
+"That isn't reading."
+
+She handed him the note.
+
+Pell read more slowly than Rinna.
+
+Not badly.
+
+Slowly.
+
+"If anyone asks about replacement pins, send them to Harven?"
+
+"Harven," Rinna said.
+
+"Who is Harven?"
+
+"Yard foreman."
+
+I said, "How do you know?"
+
+"I asked."
+
+"When?"
+
+"Yesterday."
+
+"You went to Mason's Cut?"
+
+"No."
+
+"Then who?"
+
+"People."
+
+I hated her network.
+
+It worked too well without me.
+
+Pell turned the note over.
+
+"There's more."
+
+Rinna said, "Yes."
+
+He read.
+
+"They've had three shops ask whether the same men came by."
+
+I stopped.
+
+"Which shops?"
+
+Rinna said, "No."
+
+"Why is that always your answer?"
+
+"Because you always ask the next question."
+
+"That is how information works."
+
+"Not yours."
+
+Pell kept reading.
+
+"One cooper. One lamp seller. One food yard."
+
+Rinna looked at him.
+
+"You didn't have to read that aloud."
+
+"Greg was going to ask."
+
+"Traitor," I said.
+
+"Efficient."
+
+The bracket itself was not evidence of anything criminal.
+
+It was a pattern sample.
+
+Harven had apparently started marking replacement pins and related cart hardware in a way that let neighboring yards compare whether damage looked like wear, theft, or somebody using the same cheap trick.
+
+Not a guild standard.
+
+Not law.
+
+A yard foreman with chalk and wood getting tired of being bothered.
+
+I loved him immediately.
+
+"So they're coordinating," I said.
+
+Rinna put the bracket on the table.
+
+"They're talking."
+
+"Same thing."
+
+"No."
+
+Of course not.
+
+Talking was smaller.
+
+More accurate.
+
+Probably stronger.
+
+No one had founded an association.
+
+No one had written rules.
+
+A cart yard told a cooper.
+
+A cooper told someone who sold lamps.
+
+Someone who sold lamps told Olin.
+
+Olin told his sister to walk the boy.
+
+Rinna asked people she knew.
+
+Questions started traveling sideways instead of toward the people asking them.
+
+That changed the price of ignorance.
+
+For Bren too.
+
+Maybe.
+
+Inference.
+
+I did not say it.
+
+Rinna looked at me.
+
+"What?"
+
+"Nothing."
+
+"Good."
+
+"You can't reward me every time I don't speak."
+
+"Watch me."
+
+We rehearsed.
+
+The day was boring.
+
+Wonderful.
+
+Pell broke the cheap rope before it was even tied into anything important.
+
+The rope man had been correct.
+
+Worse was not dead.
+
+It was still worse.
+
+Rinna stared at the broken end.
+
+"Four better. Two cheaper."
+
+Pell held up the broken piece.
+
+"Five better."
+
+"Next time."
+
+"We have next time?"
+
+"With rope."
+
+"Good distinction."
+
+Nessa adjusted my Porter hem by less than a finger width.
+
+I could not see the difference.
+
+She could.
+
+Teren changed one line in the Short because Evin kept making the original sound like a confession.
+
+Marek arrived late with no explanation.
+
+Nobody demanded one.
+
+At midday, I ate my bread and onion on the rear step.
+
+The cart sat beside me.
+
+Replacement pin installed.
+
+Chalk line straight.
+
+Another small chalk mark now sat on the opposite pin too.
+
+I looked at it.
+
+Jori came out.
+
+"Don't."
+
+"I'm eating."
+
+"You were looking."
+
+"Looking is legal."
+
+"For now."
+
+He sat two steps away with a cup of water.
+
+We ate without talking.
+
+Then he said, "Olin tomorrow."
+
+"Apparently."
+
+"Good."
+
+"You say good too much."
+
+He looked at me.
+
+"No."
+
+Fair.
+
+House was larger that night.
+
+Thirty-four by my count.
+
+Thirty-five by Rinna's.
+
+I counted again.
+
+Thirty-five.
+
+A man near the back had been standing beside the wall and therefore apparently did not exist to me.
+
+He paid anyway.
+
+Borrowed House went clean.
+
+Not brilliant.
+
+Clean.
+
+The Porter got one laugh where he should and none where he should not.
+
+That was better than brilliance in a repeat piece.
+
+King was louder.
+
+Marek recovered from missing a line by simply staring at Hara until she gave him the missing word as an insult.
+
+The audience assumed this was written.
+
+Theatre.
+
+After close, Rinna paid us.
+
+One copper for me.
+
+Normal.
+
+I looked at it.
+
+Not Bren's copper.
+
+Not Vale's copper.
+
+Mine until I spent it.
+
+I put it away.
+
+Then there was a knock.
+
+Everyone stopped.
+
+Not long.
+
+Long enough.
+
+Jori looked toward the rear.
+
+Pell looked toward the painted window.
+
+I hated that.
+
+Rinna went to the door.
+
+"Who?"
+
+A familiar voice answered.
+
+"Oil."
+
+Jori exhaled first.
+
+Rinna opened the door.
+
+Olin stood outside.
+
+Not the boy.
+
+Olin himself.
+
+One tin in each hand.
+
+I looked at the darkness beyond him.
+
+No one obvious.
+
+That meant nothing.
+
+Olin saw me doing it.
+
+"Stop."
+
+"I didn't say anything."
+
+"Your face did."
+
+Everyone knew my faces.
+
+Rinna stepped aside.
+
+"Tomorrow."
+
+"Changed my mind."
+
+Olin carried the tins in.
+
+Jori took one.
+
+"Why?"
+
+"Was coming this way."
+
+Rinna looked at him.
+
+Olin looked back.
+
+"And I don't like changing twice."
+
+That was apparently the whole explanation.
+
+He put the second tin on the shelf.
+
+Same shelf.
+
+Same oil.
+
+I looked at Rinna.
+
+She looked at the tins.
+
+Then at Olin.
+
+"Any trouble?"
+
+"No."
+
+"Questions?"
+
+"One."
+
+"From?"
+
+"Man outside the cooper yesterday. Asked if I still came here."
+
+"What did you say?"
+
+Olin shrugged.
+
+"Asked if he needed oil."
+
+I smiled.
+
+Rinna did not.
+
+"Then?"
+
+"He didn't."
+
+"Follow you?"
+
+"No."
+
+"Sure?"
+
+Olin looked at her.
+
+"No."
+
+Good answer.
+
+Not comforting.
+
+Accurate.
+
+Rinna nodded.
+
+Olin pointed toward the street with his chin.
+
+"Harven's telling yards not to answer route questions. Cooper on Bell Street is doing the same. Lamp seller too."
+
+"Why?" Pell asked.
+
+Olin looked at him.
+
+"Because questions are free. Answers apparently aren't."
+
+That shut Pell up.
+
+Almost impressive.
+
+I looked at the two oil tins.
+
+Nothing magical.
+
+Nothing heroic.
+
+No blood.
+
+No captured extortionist tied to a chair.
+
+No city watch arriving late enough to be theatrical.
+
+A supplier had decided he could carry oil to a customer again because enough people had stopped making themselves individually easy to question.
+
+Not safe.
+
+Safer.
+
+Different word.
+
+Important word.
+
+Rinna opened the ledger.
+
+The threat paper came out.
+
+She read it once.
+
+BREN?
+
+LEFT GLOVE.
+
+CART YARD.
+
+PAID ONCE. MORE.
+
+PIN RETURNED.
+
+MESSAGE IN BREN'S NAME.
+
+OLIN: TWO MEN ASKED DELIVERY TIME.
+
+BOY SENT HOME.
+
+COLLECT ONLY.
+
+She took the pen.
+
+I watched.
+
+"What are you writing?"
+
+"Nothing."
+
+"You're holding a pen."
+
+"I know."
+
+She did not add BREN GONE.
+
+Good.
+
+She did not cross out the name.
+
+Also good.
+
+She added one line:
+
+DELIVERY RESUMED.
+
+Then beneath it:
+
+ROUTE QUESTIONS SHARED.
+
+She let the ink dry.
+
+Folded the paper.
+
+Did not put it beneath the ledger.
+
+She put it inside.
+
+Not gone.
+
+Stored.
+
+Pell noticed too.
+
+"Done?"
+
+Rinna said, "Tonight."
+
+That was the best answer.
+
+Olin had already gone.
+
+Jori was checking the tins because apparently oil could become wrong while carried.
+
+Nessa had taken my Porter coat and hung it properly.
+
+Teren was stacking pages.
+
+Marek had found bread somewhere and refused to explain.
+
+The theatre became a theatre again.
+
+Not because Bren had vanished from Carrow.
+
+I did not know where Bren was.
+
+Not because we had defeated anyone.
+
+We had not.
+
+The first bluff bought a minute.
+
+The second bought another.
+
+Rinna and everyone she knew had made the minutes expensive to purchase repeatedly.
+
+I almost thought that sentence all the way through.
+
+Then Jori handed me an empty tin.
+
+"Shelf."
+
+"Why me?"
+
+"You're there."
+
+I looked at the shelf.
+
+Six paces.
+
+One empty tin.
+
+No criminal significance.
+
+I carried it.
+
+The tin went beside the others.
+
+Tomorrow somebody would use it.
+
+That was enough.
+
+# CHAPTER 224
+
 ## THE PARTICIPANT
 
 The note was under the cup.
@@ -1928,7 +4976,7 @@ For tonight, more than once was enough.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 222
+# CHAPTER 225
 
 ## THE PROPERTY MAN
 
@@ -2790,7 +5838,7 @@ That seemed like enough trouble to prepare for.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 223
+# CHAPTER 226
 
 ## THE MAINTENANCE MAN
 
@@ -3607,7 +6655,7 @@ That would have to be enough.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 224
+# CHAPTER 227
 
 ## THE CHECKER
 
@@ -4461,7 +7509,7 @@ I could live with that.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 225
+# CHAPTER 228
 
 ## THE STEWARD
 
@@ -5409,7 +8457,7 @@ Some problems deserved preparation.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 226
+# CHAPTER 229
 
 ## THE REFERENCE
 
@@ -6835,7 +9883,7 @@ Which was worse.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 227
+# CHAPTER 230
 
 ## THE BUNDLER
 
@@ -7959,7 +11007,7 @@ That one belonged to her.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 228
+# CHAPTER 231
 
 ## THE FLOWER BEARER
 
@@ -9167,7 +12215,7 @@ I did not check.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 229
+# CHAPTER 232
 
 ## THE ROAD ONE
 
@@ -10019,7 +13067,7 @@ For once, that was its only job.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 230
+# CHAPTER 233
 
 ## THE REPLICATE
 
@@ -11423,7 +14471,7 @@ No one recorded the result.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 231
+# CHAPTER 234
 
 ## THE MAGISTRATE
 
@@ -12539,7 +15587,7 @@ I took the other piece.
 
 It had more of the sharp spread on it anyway.
 
-## Chapter 232 — THE COUNTERSIGN
+## Chapter 235 — THE COUNTERSIGN
 
 The black coat was still on the chair when I woke.
 
@@ -13635,7 +16683,7 @@ So did I.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 233
+# CHAPTER 236
 
 ## THE SEAT
 
@@ -14591,7 +17639,7 @@ It remained a poor reward for good behavior.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 234
+# CHAPTER 237
 
 ## THE CONDITION
 
@@ -15921,7 +18969,7 @@ For once, the most reliable thing in the room was not the paper.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 235
+# CHAPTER 238
 
 ## THE TAGALONG
 
@@ -16989,7 +20037,7 @@ I stayed anyway.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 236
+# CHAPTER 239
 
 ## THE DISTRIBUTOR
 
@@ -18059,7 +21107,7 @@ The beans stayed wherever tomorrow had put them.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 237
+# CHAPTER 240
 
 ## THE BEARER
 
@@ -19243,7 +22291,7 @@ I kept the pages where I could see them.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 238
+# CHAPTER 241
 
 ## THE SEALER
 
@@ -20209,7 +23257,7 @@ I ate mine before the office could send anyone to seal it.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 239
+# CHAPTER 242
 
 ## THE WAITER
 
@@ -21185,7 +24233,7 @@ It was almost enough to make waiting feel like a job.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 240
+# CHAPTER 243
 
 ## THE SAMPLE
 
@@ -22180,7 +25228,7 @@ It had not made it simpler.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 241
+# CHAPTER 244
 
 ## THE SCRAPER
 
@@ -23262,7 +26310,7 @@ I left it there.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 242
+# CHAPTER 245
 
 ## THE SPENDER
 
@@ -24244,7 +27292,7 @@ That was the most useful thing I bought all day.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 243
+# CHAPTER 246
 
 ## THE MINDER
 
@@ -25402,7 +28450,7 @@ She turned away before I could improve anything.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 244
+# CHAPTER 247
 
 ## THE UNCLE
 
@@ -26548,7 +29596,7 @@ I had become old enough in Carrow to know what maybe was worth.
 I ate the cheese before it became evidence.
 ------------------------------------------------------------------------
 
-# CHAPTER 245
+# CHAPTER 248
 
 ## THE NAME-TAKER
 
@@ -27412,7 +30460,7 @@ That was where they belonged.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 246
+# CHAPTER 249
 
 ## THE MATCHER
 
@@ -28328,7 +31376,7 @@ Maren’s had remembered me as blue last time.
 
 I left the spool alone.
 
-# CHAPTER 247
+# CHAPTER 250
 
 ## THE PATRON
 
@@ -29610,7 +32658,7 @@ That was enough change for one day.
 
 ------------------------------------------------------------------------
 
-# CHAPTER 248
+# CHAPTER 251
 
 ## THE CONSTANT
 

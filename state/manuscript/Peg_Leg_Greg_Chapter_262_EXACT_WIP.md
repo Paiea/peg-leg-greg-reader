@@ -1,1127 +1,1085 @@
 # CHAPTER 262
 
-## THE MEASURE
+## THE SHEPHERD
 
-Mara's brother arrived before I had finished breakfast.
+Lyssa left west before I finished breakfast.
 
-He wore the coat.
+Not west in the philosophical sense.
 
-He wore shoes.
+Actual west.
 
-I checked both facts because Lyssa had made them important and because I had apparently become the kind of man who noticed whether strangers arrived correctly dressed for alterations.
+Jessa's message had apparently contained enough information to move a person across Carrow without explaining itself to me.
 
-The shoes were black, square at the toe, and polished only where trouser hems did not cover them. The coat was the same dark brown one Mara had carried yesterday, except now it contained a large man with a narrow mustache and the expression of someone who believed standing still was a service he provided to others.
+Lyssa packed the dark cuff, the small paper packet, two other pieces of cloth I had not seen before, and the narrow tool roll she used often enough that I had stopped asking what each tool did.
 
-Mara stood behind him.
+The brown cloth remained folded by the wall.
 
-"Here," she said.
+Three pins.
 
-The man looked at me.
+My damaged shirt remained on the shelf.
 
-"Morning."
+Three loose threads.
 
-"Morning."
+The world had survived another night without identifying either one for me.
 
-He looked at my crutches, then at Lyssa.
-
-"This her place?"
-
-Lyssa said, "Stand straight."
-
-He stood straighter.
-
-Good answer.
-
-I moved my plate away from the working end of the table.
-
-Mara's brother turned once while Lyssa looked at the coat from the front and back.
-
-"You shortened it too much," he said.
-
-Mara made a sound through her nose.
-
-Lyssa did not.
-
-"I shortened what you marked."
-
-"It's too short now."
-
-"Stand normal."
-
-"I am."
-
-"No."
-
-He looked at Mara.
-
-Mara said, "Stand normal."
-
-He stopped lifting his chest.
-
-The coat dropped slightly.
-
-I ate bread.
-
-Lyssa crouched and checked the lower edge against his trousers.
-
-"Walk."
-
-"Where?"
-
-"There. Back."
-
-He walked from the door to the window and returned.
-
-The coat moved differently when he walked. The front lifted. The back did not.
-
-Lyssa pointed at his shoes.
-
-"These?"
-
-"Yes."
-
-Mara said, "Those are the ones."
-
-Her brother looked annoyed that the shoes had witnesses.
-
-"How much longer?" Lyssa asked.
-
-He held his fingers apart.
-
-More than Mara had yesterday.
-
-Mara stared at his hand.
-
-"You said two fingers."
-
-"That's two."
-
-"Those are your fingers."
-
-"Yes."
-
-"Your fingers are enormous."
-
-I looked down at my bread.
-
-The morning improved.
-
-Lyssa took a narrow measuring strip from her work bag and held it against the coat.
-
-"This much?"
-
-He looked.
-
-"Little more."
-
-She moved her thumb.
-
-"This?"
-
-"Yes."
-
-"You sure?"
-
-"Yes."
-
-"Sixth day, these shoes?"
-
-"Yes."
-
-"Same trousers?"
-
-He paused.
-
-Lyssa waited.
-
-Mara closed her eyes.
-
-"Probably."
-
-"No."
-
-The man frowned.
-
-"No what?"
-
-"Probably doesn't get cut."
-
-"It's a coat."
-
-"Yes."
-
-"The trousers don't change the coat."
-
-"They change what you think looks short."
-
-He looked down at himself.
-
-Mara looked at me again.
-
-I shook my head.
-
-"Still not management."
-
-"I didn't ask you," the man said.
-
-"Excellent."
-
-Lyssa stood.
-
-"Bring the trousers."
-
-"I'm wearing trousers."
-
-"The ones for sixth day."
-
-"These are close."
-
-"Then I can make the coat close."
-
-Mara laughed.
-
-Her brother did not.
-
-For a moment I thought he might leave.
-
-That would have been his right.
-
-Lyssa did not soften the requirement.
-
-She also did not make it larger than it was.
-
-She folded her measuring strip once and waited.
-
-The man looked at Mara.
-
-"You didn't say trousers."
-
-"Yesterday you said shoes."
-
-"Because she asked shoes."
-
-"I didn't know trousers had become a legal matter."
-
-Lyssa said, "They haven't. Bring them."
-
-The man muttered something I did not catch.
-
-Mara said, "I'll get them."
-
-"They're at home."
-
-"I know where you live."
-
-"I have work."
-
-"Then go to work. I'll bring them."
-
-He looked at Lyssa.
-
-"Don't change it until then."
-
-Lyssa looked at him.
-
-"That is what I have been saying."
-
-He left wearing the coat.
-
-Mara stayed long enough to say, "His name is Daro, before you decide he's only a coat."
-
-I pointed at Lyssa.
-
-"She started that."
-
-Lyssa said, "Go get the trousers."
-
-Mara grinned and left.
-
-The door shut.
-
-I waited.
-
-Lyssa looked at me.
-
-"Don't."
-
-"I haven't said anything."
-
-"You're going to."
-
-"I was only going to say that your customer-confirmation process has expanded into a complete wardrobe review."
-
-"Don't."
-
-"Fine."
-
-I finished breakfast.
-
-Daro had a name now.
-
-This did not make his coat longer.
-
-By the time Mara returned with folded dark trousers, Daro was gone to work and Lyssa had packed the coat measurement into her head rather than writing it anywhere I could see.
-
-Mara put the trousers on the table.
-
-"These."
-
-Lyssa unfolded them, checked the hem, and nodded.
-
-"Same shoes?"
-
-Mara stared at her.
-
-"I am going to kill him."
-
-"Same shoes?"
-
-"Yes."
-
-"Good."
-
-Mara pointed at Lyssa.
-
-"If you say that word again, I'm charging you."
-
-"For what?"
-
-"Emotional labor."
-
-Lyssa smiled.
-
-I liked Mara more now that she was threatening invoices.
-
-She did not stay.
-
-Lyssa folded the trousers and put them beside the dark work pieces associated with Neli, which had acquired buttons yesterday and had not become more identifiable to me overnight.
-
-"You doing the coat now?" I asked.
-
-"Later."
-
-"Why?"
-
-She looked at me.
-
-"Because I have other work."
-
-There it was.
-
-Daro's indecision had consequences.
-
-Not punishment.
-
-Not a lecture.
-
-His coat had missed the part of Lyssa's morning where it might have been worked on because the information had not been settled.
-
-Now something else occupied the table.
-
-Lyssa took out a pale sleeve-shaped piece I had not seen before and began checking a seam.
-
-I knew better than to ask whether it belonged to the old pale material, the rinsed pieces, the folded material, or some completely different pale cloth in a city that contained more than one pale thing.
-
-This was advanced reasoning.
-
-I washed the breakfast plate.
-
-Then a folded paper slid under the door.
-
-Not knocked.
-
-Slid.
-
-Lyssa and I both looked at it.
-
-I was closer.
-
-I picked it up.
-
-The paper had my name on the outside.
-
-GREG.
-
-No title.
-
-No theatre mark.
-
-No Hessa hand that I recognized.
-
-I opened it.
-
-The message was short.
-
-**Come to the south Guild yard before midday if able. Ask for Edrin. Hessa knows.**
-
-I read it twice.
-
-Lyssa held out her hand.
-
-I gave it to her.
-
-She read it.
-
-"Hessa knows."
-
-"Apparently."
-
-"Not Hessa sent."
-
-"Apparently."
-
-She gave it back.
-
-"You going?"
-
-I looked at the paper again.
-
-If able.
-
-Not urgent.
-
-Not run.
-
-Not come now.
-
-Before midday.
-
-Ask for Edrin.
-
-Hessa knows.
-
-"Yes."
-
-Lyssa nodded and went back to the pale seam.
-
-No warning.
-
-No theory.
-
-No request that I report every detail of Guild yard life when I returned.
-
-I changed shirts.
-
-Not because the repaired one was unwearable.
-
-Because I had repaired it and immediately discovered I did not want to test my work against a Guild yard if I did not have to.
-
-This was cowardice of the textile variety.
-
-I wore the better shirt with the old pale blue theatre-paint streak.
-
-The streak remained.
-
-I took both crutches.
-
-Both grips ordinary.
-
-Residual limb comfortable.
-
-Right leg fine.
-
-Lyssa said, "Greg."
-
-I stopped at the door.
-
-She pointed at the paper.
-
-"Take it."
-
-I had left it on the table.
-
-"I was testing whether Edrin respects confidence."
-
-"Take it."
-
-I took it.
-
-The south Guild yard was not Hessa's testing room.
-
-I knew that much.
-
-It sat beyond the older storehouses where the streets widened for carts and the buildings became less interested in windows. The yard itself was enclosed by a stone wall high enough to keep ordinary thieves honest and low enough that determined thieves could probably treat it as exercise.
-
-The gate stood open.
-
-Two wagons waited inside.
-
-Neither looked magical.
-
-This disappointed some part of me that had been trained badly by stories.
-
-A man at a narrow desk just inside the gate looked up.
-
-"Business?"
-
-"Edrin."
-
-"Who?"
-
-"I am asking for Edrin."
-
-"No. Who are you?"
-
-"Greg."
-
-He waited.
-
-"Just Greg."
-
-I showed him the paper.
-
-He read it.
-
-"Bronze?"
-
-"Yes."
-
-He looked at my crutches.
-
-Then toward the yard.
-
-"Wait there."
-
-There was a bench against the wall.
-
-I sat.
-
-The yard contained ordinary work first.
-
-Barrels.
-
-Crates.
-
-Bundles under canvas.
-
-A scale platform large enough for sacks or small animals.
-
-Three workers rolling a cask toward a covered shed.
-
-A woman with a slate board arguing with a wagon driver about whether six bundles were five bundles because two had been tied together.
-
-I liked her immediately.
-
-Farther back, under a separate awning, stood four wooden frames with metal mesh sides.
-
-Empty.
-
-Beside them were shallow ceramic trays dusted white.
-
-That was more interesting.
-
-I did not get up.
-
-Edrin came from the rear shed after perhaps ten minutes.
-
-He was a compact man with gray in his beard and one sleeve rolled higher than the other. Not old. Not young. He carried a leather folder under one arm.
-
-"Greg?"
-
-"Yes."
-
-"Hessa's Bronze?"
-
-I disliked the possessive immediately.
-
-"Greg."
-
-He looked at me.
-
-Then nodded once.
-
-"Fair."
-
-Better.
-
-He sat at the other end of the bench without asking me to stand.
-
-"You know slatebacks."
-
-There it was.
-
-Not another animal.
-
-A sentence.
-
-"Some."
-
-"Barek says more than some."
-
-"Barek knows local ones better."
-
-"He says you knew the colors."
-
-"Yes."
-
-"Hessa says you know things from before."
-
-I looked at him.
-
-"That is an ambitious sentence."
-
-"She used more words."
-
-"That sounds like Hessa."
-
-Edrin opened the leather folder.
-
-Inside were three sheets of rough paper, each with a charcoal drawing.
-
-Not good drawings.
-
-Functional drawings.
-
-The first showed a six-legged low body with plates.
-
-Slateback.
-
-The second showed something long and narrow with a raised fan or crest along its neck.
-
-The third looked like a sack with teeth.
-
-I leaned closer.
-
-"What is this?"
-
-Edrin tapped the second drawing.
-
-"You tell me."
-
-I looked at it.
-
-"No."
-
-He waited.
-
-"No, I don't know from that."
-
-"You knew the slateback."
-
-"I knew a slateback standing in front of me. This could be a lizard wearing a fence."
-
-The corner of his mouth moved.
-
-"Witness said neck fan."
-
-"Color?"
-
-"Didn't say."
-
-"Size?"
-
-"Dog."
-
-"Which dog?"
-
-"Dog-sized."
-
-"That is not a size."
-
-"You sound like Hessa."
-
-"I am sorry."
-
-He tapped the third drawing.
-
-"This?"
-
-I looked.
-
-"Still a sack with teeth."
-
-"Witness said round body, low legs, mouth wide."
-
-"Where?"
-
-"North grain road."
-
-"When?"
-
-"Last month."
-
-"Alive?"
-
-"It left."
-
-"Anyone hurt?"
-
-"No."
-
-I studied the drawing again.
-
-Something in it pulled at memory.
-
-Not recognition.
-
-The shape of a memory trying to become recognition because someone expected it.
-
-I had done that before in my old life.
-
-Seen a track, a bad sketch, half a description, then let confidence fill the missing pieces.
-
-Sometimes I had been right.
-
-Sometimes being right often had made being wrong expensive.
-
-"Maybe a mudjaw," I said.
-
-Edrin's attention sharpened.
-
-I held up a finger.
+"Late?" I asked.
 
 "Maybe."
 
-"What's a mudjaw?"
+"North?"
 
-"If that's what it is, low marsh scavenger. Broad mouth. Eats almost anything soft enough. Usually avoids people unless cornered or feeding."
+She looked at me.
 
-"Magic?"
+"West."
 
-"Everything is magic if you ask Guild people long enough."
+"I was testing consistency."
 
-He did not laugh.
+"Failed."
 
-Fair.
+She kissed me, took her work bag, and left.
 
-"Does it do anything?"
+No theatre note waited under the door.
 
-I looked at the drawing.
+No Hessa paper.
 
-"I don't know if this is one."
+No Vale runner.
 
-"If it is."
+No crate.
 
-"Old ones sometimes spit warm slurry when threatened. Not fire. Not poison, at least not the ones I knew. It sticks. Smells terrible."
+I ate the rest of breakfast and discovered I did not need lamp oil, onions, salt, washing, a haircut, or immediate medical supervision.
 
-Edrin wrote something.
+This was becoming irresponsible.
 
-"How far?"
+I decided to buy cord.
 
-"I don't know."
+Not because the household had entered a cord crisis.
 
-"Three feet? Ten?"
+Because yesterday we had owned one useful length and today Marra's buckle crate owned it instead.
 
-"I don't know."
+Cord was cheap enough to replace before the loss became an argument and ordinary enough that I did not need Lyssa to write a list.
 
-"You saw them before?"
+I took my coat and went out.
 
-"Yes."
+The courtyard was quiet.
 
-"Repeatedly?"
+Cala's little barrow was back beneath the stair. Someone had turned it around so the handles pointed inward instead of toward the passage.
 
-"Yes."
+No accusation had been nailed to our door.
 
-"Then how do you not know?"
+Success.
 
-"Because I never stood in front of one with a measuring rope while it spat at me."
+Orren was gone.
 
-He stopped writing.
+Sera's cracked green door was closed.
 
-"Good."
+The lowest step had no chalk city on it.
 
-There was that word again.
+I went toward the lower market.
 
-I sighed.
+Yesterday's rain had mostly left the streets. It remained in black seams between stones, under cart wheels, and in the smell of wet timber where awnings had not fully dried. The gutters carried only thin streams now.
 
-"What?"
+The cord seller I knew was not a cord seller.
 
-"Nothing."
+He sold rope, twine, straps, basket handles, small hooks, and enough miscellaneous binding material that calling him the cord seller was unfair to several shelves.
 
-He turned back to the second drawing.
+I bought two lengths.
 
-"This one?"
+One to replace what we had lost.
 
-I studied it longer.
+One because buying exactly one replacement after discovering we could lose cord seemed like refusing evidence.
 
-Raised neck fan.
-
-Long body.
-
-Four legs in the drawing, but witnesses forgot legs constantly. Color absent. Dog-sized, which meant nothing.
-
-"Where?"
-
-"West orchard road."
-
-"Trees damaged?"
+The seller wound both around my hand, tied them together loosely, and said, "Bag?"
 
 "No."
 
-"Animals?"
+He looked at the crutches.
 
-"One mule wouldn't pass."
+Then tucked the bundle through my coat belt instead.
 
-"Did it charge?"
+"There."
 
-"No."
+"You all coordinate."
 
-"Sound?"
+"Who?"
 
-Edrin checked a note.
+"People selling me things."
 
-"Clicking."
+He had already moved on.
 
-That did it.
+I left.
 
-Not completely.
+The first scream came from two lanes over.
 
-Enough.
+Not theatrical.
 
-"Could be a reedcrest."
+Not even particularly good.
 
-"Could?"
+Short. High. Followed by a crash.
 
-"Could."
+Then several people shouted different instructions at once.
 
-"What does it do?"
+That was more convincing.
 
-"Depends why the crest is up."
+I stopped at the corner.
 
-"Meaning?"
+The market ahead had changed shape.
 
-I rubbed my thumb along the edge of the paper.
+People were backing away from the lane between a grain stall and a cooper's yard. A handcart stood sideways. One basket had overturned. Apples rolled across wet stone.
 
-Old memory came cleanly this time.
+Something low moved beneath the cart.
 
-Not a story.
+I saw blue first.
 
-A road near a flooded orchard. Two pack animals refusing a narrow bridge. A reedcrest under the rail, green fan open, clicking because a dog had trapped it against water.
+Not cloth.
 
-"Crest flat, leave it alone. Crest half-open, it's watching. Full open and clicking, it wants space. If the clicking stops while the crest stays open, move."
+Light.
 
-"Why?"
+Three narrow lines of blue shimmer moved along a dark back and vanished beneath the cart axle.
 
-"It jumps."
+My first thought arrived before the second.
 
-"At people?"
+Slateback.
 
-"At whatever is keeping it from leaving."
+The second thought was that it was too small.
 
-"Bites?"
+Juvenile.
 
-"Yes. Mostly it wants out."
+Maybe four feet from nose to tail. Six legs. Low belly. Broad wedge of a head with no visible ears. Overlapping dark plates ran from shoulders to tail, each plate edged in cloudy blue light that pulsed once when someone yelled.
 
-"Magic?"
+A man beside the grain stall had a broom raised like a spear.
 
-I searched memory.
-
-"The crest makes light in fog. Faint green. I don't know if that's useful to it or just what it does."
-
-"Danger?"
-
-"Teeth. Claws. Being stupid near it."
-
-Edrin wrote.
-
-"You sure?"
-
-"About reedcrests? Yes. About your drawing? No."
-
-He underlined something.
-
-"That's what Hessa said you'd do."
-
-I looked at him.
-
-"What?"
-
-"Separate it."
-
-"She sent you to test me?"
-
-"No."
-
-He closed the folder.
-
-"We had three reports after the rain. Slateback was one. Other two were already filed. Barek said you knew the slateback before anyone in the market did. I asked Hessa if you were useful or lucky."
-
-"And she said?"
-
-"Ask him what he knows. Don't ask him to know what he doesn't."
-
-That sounded exactly like Hessa.
-
-"Why?"
-
-Edrin looked toward the empty mesh frames.
-
-"Because south yard gets things sometimes."
-
-"Things."
-
-"Animals. Plants. Cargo nobody wants to open twice."
-
-"That is a terrible category."
-
-"It's several categories."
-
-"Better."
-
-"Most of it has papers. Some doesn't. Sometimes a driver knows a name. Sometimes he knows his mule screamed."
-
-I looked at the empty frames again.
-
-"You want me to identify things."
-
-"Sometimes. If you're here. If Hessa agrees. If we have something worth asking."
-
-There were four conditions in that sentence.
-
-I liked that more than a job offer.
-
-"Paid?"
-
-"If we call you, yes."
-
-"How much?"
-
-He named a small inspection amount.
-
-More than tea.
-
-Less than a theatre day.
-
-"For looking?"
-
-"For useful looking."
-
-"And if I say I don't know?"
-
-"If that's useful, paid."
-
-I looked at him.
-
-"You may be the first man in Carrow to offer wages for ignorance."
-
-"Accurate ignorance."
-
-"More expensive."
-
-"Usually cheaper."
-
-That was true enough that I did not make a joke.
-
-Edrin stood.
-
-"No animal today."
-
-"Good."
+"Don't hit it," I said.
 
 He looked at me.
 
-I hated that he had noticed.
+"What?"
 
-"It's a word," he said.
+"Don't hit it."
 
-"Fuck you."
+The slateback shoved farther under the handcart.
 
-He laughed.
+Its back plates brightened.
 
-That improved him.
+Blue.
 
-"If we need you, runner comes. South yard only unless paper says otherwise. Don't come because you hear a market story."
-
-"I wasn't planning to become a volunteer animal inspector."
-
-"Good."
-
-I pointed at him.
-
-"Stop."
-
-He walked away smiling.
-
-I stayed on the bench for another minute.
-
-The empty frames remained empty.
-
-No creature arrived to validate the conversation.
-
-No magical object hummed from a crate.
-
-A worker rolled a barrel past me and swore when it caught on a stone.
-
-The woman with the slate board was still arguing that tied bundles remained two bundles.
-
-The Guild yard had offered me a possibility.
-
-Not a role.
-
-Not a title.
-
-Not even a schedule.
-
-If something arrived.
-
-If Edrin thought it worth asking.
-
-If Hessa agreed.
-
-If I was available.
-
-And if I knew.
-
-That last condition mattered most.
-
-I left before midday.
-
-On the way home, I tried to remember everything I knew about reedcrests.
-
-That was the wrong thing to do.
-
-Memory immediately became eager.
-
-Colors. Habitats. eggs. mating season. whether they preferred reeds or low branches. Half of it might have belonged to another animal, another region, another year, or a drunk man who had once insisted a reedcrest stole his boot.
-
-I stopped the list.
-
-I knew the clicking.
-
-I knew the crest.
-
-I knew the jump.
-
-I knew the faint green light in fog.
-
-I knew I had seen them more than once.
-
-Enough.
-
-The mudjaw was weaker.
-
-Maybe.
-
-That word stayed attached.
+Still blue.
 
 Good.
 
-Damn it.
-
-At home, Daro's coat had returned without Daro.
-
-It lay on the table beside his trousers.
-
-Lyssa was working on something else.
-
-"Guild?" she asked.
-
-"They offered to pay me for saying I don't know."
-
-She looked up.
-
-"You should be rich."
-
-I stared at her.
-
-"That was immediate."
-
-"What happened?"
-
-I told her.
-
-Not every old-life reedcrest memory.
-
-The actual thing.
-
-Three reports. Slateback already known. Two old drawings. One maybe mudjaw. One possibly reedcrest. Edrin at south yard. Occasional paid looking if something real arrived and Hessa agreed.
-
-Lyssa listened while stitching.
-
-"You said maybe?"
-
-"Several times."
-
-"Good."
-
-I put my face in my hands.
-
-She laughed.
-
-"Everyone in this city has joined a conspiracy."
-
-"Against you?"
-
-"Against one word."
-
-"Good."
-
-"I love you less."
+A woman holding a child said, "It's charging."
 
 "No."
 
-"Temporarily."
+She looked at me too.
 
-She kept sewing.
+This was rapidly becoming public speaking.
 
-I looked at Daro's coat.
+The man with the broom said, "It sparked."
 
-"He came back?"
+"Blue?"
 
-"Mara brought it."
+"What?"
 
-"Trousers solved the national emergency?"
+"Was the light blue?"
 
-"I measured again."
+He stared at the animal.
 
-"And?"
+"Yes."
 
-"Less than he wanted."
+"Then it's scared."
 
-I smiled.
+The slateback made a sound like stone scraping stone.
 
-"Shoes?"
+The child began crying.
 
-"Same shoes."
+A butcher from the opposite side of the lane stepped out holding a cleaver.
+
+That was worse.
+
+"Put that away."
+
+He looked at me.
+
+"You know it?"
+
+"Yes."
+
+Not maybe.
+
+Not from a book.
+
+Not from a story.
+
+I had slept beside slateback burrows in the eastern cuts, cursed them for eating mineral paste from wagon axles, watched one overturn a cooking rack because somebody salted meat too close to camp, and once spent half a day helping a caravan master convince three juveniles that a road marker was not edible.
+
+Old knowledge settled into place cleanly.
+
+No fog.
+
+No historical correction.
+
+Slateback.
+
+Juvenile.
+
+Frightened.
+
+Probably washed out of a drainage cut or driven uphill by yesterday's water.
+
+The butcher said, "It'll bite."
+
+"If you put your hand near its mouth, probably."
+
+"Helpful."
+
+"Put the cleaver away."
+
+The slateback scraped backward.
+
+Its tail hit the cart wheel.
+
+The plates flashed brighter.
+
+Blue edged toward violet.
+
+My stomach tightened.
+
+"Everyone back."
+
+People were already back.
+
+"More. Give it the lane."
+
+Nobody moved.
+
+A man near the cooper's yard said, "Why?"
+
+"Because if those plates go white, it stops being frightened and starts discharging."
+
+That moved people.
+
+Good.
+
+The butcher lowered the cleaver.
+
+The broom man lowered the broom.
+
+A woman behind me said, "White does what?"
+
+"Hurts."
+
+I did not need to explain conductivity while standing on damp stone.
+
+Someone farther back shouted, "Get the watch."
+
+Another voice said, "Already sent."
+
+Fine.
+
+The slateback remained under the cart.
+
+Blue-violet.
+
+Not white.
+
+I knew the posture now too.
+
+Head low. Front pair folded inward. Rear legs braced. Not attack.
+
+Waiting for the walls to stop moving.
+
+The lane was still wrong.
+
+People had backed away but formed a half circle around both ends.
+
+To a frightened animal, we had made a larger cage.
+
+"Open the north end," I said.
+
+The cooper said, "Why north?"
+
+I looked at the slope.
+
+Not north because slatebacks preferred north.
+
+North because the north lane rose and opened toward a wider stone court with fewer stalls.
+
+The south end narrowed beside hanging cloth and two tethered goats.
+
+"More space. No goats."
+
+The cooper looked south.
+
+Then north.
+
+"Right."
+
+He started moving people himself.
+
+Good.
+
+Not everyone needed Greg to understand animals.
+
+The butcher put away the cleaver and helped pull the handcart farther left without touching the slateback's hiding place. The woman with the child moved into the grain shop. Two boys who had been trying to see under the cart got dragged backward by an older woman who called one of them an idiot with professional confidence.
+
+The north lane opened.
+
+The slateback did not move.
+
+Of course not.
+
+Animals did not become cooperative because humans had finally stopped making the obvious mistake.
+
+I looked at the grain stall.
+
+Salt sacks.
+
+No.
+
+Grain.
+
+The cooper's yard had glue, hoops, shavings.
+
+The butcher had blood.
+
+Wrong.
+
+What did a juvenile follow when frightened?
+
+Mineral scent.
+
+Old camps came back clearly.
+
+Salt blocks.
+
+Chalk.
+
+Ash with lye washed out.
+
+Anything it could smell as mineral-rich without approaching fire.
+
+I looked at the grain seller.
+
+"Do you have salt?"
+
+He blinked.
+
+"Some."
+
+"Loose?"
+
+"Why?"
+
+"It'll follow it."
+
+The broom man said, "You said it's not hungry."
+
+"I said it's scared. Scared things can still smell."
+
+The grain seller disappeared into his stall.
+
+A different man near the edge of the crowd said, "Slateback?"
+
+I turned.
+
+He was older, broad shouldered, wearing a leather apron darkened by rain at the bottom.
+
+"Yes."
+
+He squinted beneath the cart.
+
+"Young one."
+
+"Yes."
+
+He nodded once.
+
+Relief moved through me for a reason I did not expect.
+
+Not because I needed validation.
+
+Because somebody else knew what the damn thing was.
+
+"Hill country?" I asked.
+
+"North quarries."
+
+"Then you know the plates."
+
+"Blue is fear. White is bad."
+
+"Exactly."
+
+The woman behind me said, "How bad?"
+
+The quarry man said, "Bad enough to move."
+
+Better answer.
+
+The grain seller returned with a wooden scoop holding coarse salt.
+
+I looked at the north lane.
+
+"Put a little there. Then farther. Trail, not pile."
+
+He hesitated.
+
+The quarry man said, "He's right."
+
+That ended the debate faster than my face had.
+
+Fair.
+
+The grain seller scattered a pinch six feet from the cart.
+
+Then another farther north.
+
+Then another.
+
+The slateback's head moved.
+
+Tiny movement.
+
+Nose first.
+
+Blue light eased one shade darker.
+
+The crowd noticed and made the dangerous human sound of collective excitement.
+
+"Quiet," I said.
+
+Too late.
+
+Someone whispered loudly, "It's moving."
+
+The slateback froze.
+
+Blue brightened.
+
+The quarry man turned around.
+
+"Shut up."
+
+Excellent authority.
+
+Silence improved.
+
+The animal waited.
+
+Then unfolded its first pair of legs.
+
+One.
+
+Two.
+
+Six total, moving in a low rolling sequence I remembered immediately.
+
+It came out from beneath the cart.
+
+Several people stepped back again.
+
+Good instinct this time.
+
+The slateback's body was narrower than the plates made it look. Mud covered one flank. A raw patch showed behind the second left leg where something had scraped off the outer scale.
+
+No blood worth worrying about.
+
+Its eyes were black and small.
+
+It sniffed the first salt patch.
+
+Licked stone once.
+
+Then followed the next.
+
+The grain seller looked at me.
+
+"More?"
+
+"Yes. Don't crowd it."
+
+He moved along the lane scattering small pinches.
+
+The slateback followed.
+
+Slowly.
+
+At the wider court, it stopped.
+
+The salt trail ended.
+
+This was where incomplete planning became visible.
+
+The quarry man said, "Where are you taking it?"
+
+Good question.
+
+I had taken it out of the market lane.
+
+I had not taken it anywhere useful.
+
+Old Greg had usually dealt with slatebacks outside cities.
+
+Road cut. Camp. Quarry edge. Dry creek bed.
+
+This one was in Carrow.
+
+Forty years earlier.
+
+Different streets.
+
+Different drains.
+
+I did not know where current Carrow wanted displaced magical wildlife.
+
+Excellent.
+
+"Not sure yet," I said.
+
+The quarry man grunted.
+
+No disappointment.
+
+Just information.
+
+A woman wearing a dark green city coat pushed through from the south with two watchmen behind her.
+
+Not city watch exactly. Market wardens, maybe. I recognized the coat from market disputes but had never needed the distinction.
+
+She stopped when she saw the slateback in the open court.
+
+Then the salt trail.
+
+Then me.
+
+"Who moved it?"
+
+The grain seller pointed at me.
+
+Traitor.
+
+I raised one hand.
+
+"Mostly itself."
+
+The quarry man said, "He knew the animal."
+
+The woman looked at him.
+
+"You?"
+
+"Quarries."
+
+She nodded.
+
+Then looked at me again.
+
+"You?"
+
+There were several answers.
+
+Old life.
+
+Roads that had not happened yet.
+
+Forty years of experience belonging to a man who no longer existed in the right order.
+
+I chose the useful one.
+
+"Travel."
+
+True enough.
+
+"What is it?"
+
+"Juvenile slateback. Frightened. Plates stayed blue."
+
+The quarry man added, "Went violet once. No white."
+
+The warden looked at the animal.
+
+"Injured?"
+
+"Scraped flank. Walking fine."
+
+She crouched slightly, not close enough to threaten it.
+
+Competent.
+
+"Flood channel," she said to one of the watchmen.
+
+He nodded.
+
+"West spillway?"
+
+"Too crowded. Old lime cut."
+
+I did not know the old lime cut.
+
+Good.
+
+The city had procedures I did not.
+
+She looked at the salt scoop.
+
+"Can you keep it moving?"
+
+The grain seller looked offended.
+
+"That's my salt."
+
+The warden said, "Market pays."
+
+He immediately regained civic spirit.
+
+I looked at the quarry man.
+
+"You know the cut?"
+
+"Yes."
+
+The warden said, "Both of you, then."
+
+Not a title.
+
+Not employment.
+
+A temporary need.
+
+The slateback licked the last salt grains from the stone.
+
+Its plates had dimmed to a deep cloudy blue.
+
+"Fine," I said.
+
+We moved it.
+
+Not alone.
+
+The grain seller carried the salt.
+
+The quarry man walked ahead and told us which turn reached the old lime cut without passing the goat pens.
+
+One warden kept people back.
+
+The other went ahead to clear a narrow bridge.
+
+The woman in the green coat walked behind the slateback at enough distance that it did not care about her.
+
+I stayed slightly to the side.
+
+Crutches mattered here because I could not dart away if the animal suddenly turned.
+
+So I did not stand where darting away would be required.
+
+Old habit.
+
+Good habit.
+
+At one turn, the salt trail crossed a patch of standing water.
+
+I stopped the grain seller.
+
+"Edge. Not through."
+
+"Why?"
+
+"It can lose the scent."
+
+The quarry man said, "And they hate deep puddles."
+
+I looked at him.
+
+"They do?"
+
+"Quarry ones do."
+
+That was new.
+
+I had seen slatebacks cross streams without caring.
+
+Maybe quarry juveniles were different.
+
+Maybe local ones were.
+
+Maybe he was wrong.
+
+No reason to test it.
+
+We laid the salt around the edge.
+
+The slateback followed.
+
+At the bridge, a cart waited with the driver swearing quietly.
+
+The warden had stopped him.
+
+He saw the animal and stopped swearing.
+
+The slateback crossed.
+
+Its claws clicked on the boards.
+
+Blue light slid over its plates in the shadow beneath the bridge rail.
+
+Beautiful, annoyingly.
+
+Not holy.
+
+Not destiny.
+
+Just an animal with magic in its body doing its best not to be surrounded by idiots.
+
+I understood that.
+
+The old lime cut lay beyond a low wall at the edge of a less crowded industrial lane. The ground there rose into pale exposed stone, cracked and partly overgrown. Water from yesterday's rain still ran through one ditch.
+
+The slateback smelled the cut before we reached it.
+
+Its head lifted.
+
+Then it ignored the next salt patch.
+
+Good sign.
+
+"Stop feeding," I said.
+
+The grain seller lowered the scoop.
+
+The slateback turned toward the pale stone.
+
+One step.
+
+Then another.
+
+Its plates dimmed almost completely.
+
+It climbed the broken slope with six-legged ease, stopped halfway, and looked back.
+
+The market warden raised one hand.
+
+Nobody moved.
+
+The slateback scraped its jaw once against the lime face.
+
+Mineral dust fell.
+
+Then it disappeared into a dark split between stones.
+
+Done.
+
+For several seconds everyone remained still because movement felt disrespectful to the amount of work it had taken to achieve nothing happening.
+
+The grain seller looked into his scoop.
+
+"That's a lot of salt."
+
+The warden said, "Market pays."
+
+He nodded.
+
+Still good.
+
+The quarry man looked at me.
+
+"Travel where?"
+
+Dangerous question.
+
+"East. South. Roads."
+
+"Slatebacks south?"
+
+"Some."
+
+He frowned.
+
+Not suspicious.
+
+Interested.
+
+"Bigger?"
+
+"Sometimes."
+
+That was true enough to survive.
+
+He nodded.
+
+"Quarry ones stay smaller."
+
+Maybe they did now.
+
+Maybe local population.
+
+Maybe forty years changed food, range, or what people called a slateback.
+
+My knowledge had worked cleanly where it mattered.
+
+It did not need to become universal.
+
+The market warden looked at me.
+
+"Name?"
+
+"Greg."
+
+"Work?"
+
+I almost said theatre.
+
+Then realized she had probably asked because city people enjoyed categories.
+
+"Theatre sometimes. Other work sometimes."
+
+She looked at the crutches, then at me.
+
+"You handle animals?"
+
+"No."
+
+The answer came quickly enough that the quarry man laughed.
+
+The warden did not.
+
+"You did today."
+
+"I knew this one."
+
+"Species."
+
+"Yes."
+
+"Fine."
+
+She took out a small folded pad and wrote something.
+
+I did not ask what.
+
+Growth.
+
+Then she said to the quarry man, "You?"
+
+"Barek. North quarry yard."
+
+A name.
+
+I had learned it accidentally.
+
+Barek looked at me.
+
+"Greg."
+
+"Yes."
+
+"Theatre?"
+
+"Sometimes."
+
+"You the drowned one?"
+
+I closed my eyes.
+
+The grain seller laughed.
+
+The warden looked between us.
+
+"What?"
+
+"Nothing," I said.
+
+Barek said, "Bread woman told my sister."
+
+Of course.
+
+Carrow had defeated privacy again.
+
+I left before the slateback could become less interesting than my weather history.
+
+On the way back, the market had already begun repairing itself.
+
+Apples were back in baskets. The handcart had been straightened. The broom man was sweeping grain from wet stone with the same broom he had nearly used as a weapon. The butcher was cutting meat again.
+
+The grain seller had not returned yet.
+
+His apprentice stood behind the stall telling a customer, "Slateback."
+
+The customer said, "Dangerous?"
+
+The apprentice held his hands apart much wider than the animal had been.
+
+"Huge."
+
+Excellent.
+
+By tomorrow it would have wings.
+
+I bought bread.
+
+Not because we were out.
+
+Because the baker had bread and I had money and apparently surviving magical wildlife incidents did not feed people either.
+
+At home, Lyssa was still west.
+
+The room was empty.
+
+I put the two new lengths of cord on the shelf.
+
+One replacement.
+
+One reserve.
+
+Then I noticed that I had spent the morning doing exactly what the long dead version of me had done hundreds of times without thinking much about it.
+
+Not fighting.
+
+Not casting.
+
+Not winning.
+
+Seeing an animal and knowing what not to do.
+
+That should have felt larger.
+
+It did not.
+
+It felt familiar.
+
+That was stranger.
+
+I sat by the window and ate bread.
+
+Lyssa returned near evening with her work bag heavier than when she left and a narrow wrapped bundle under one arm.
+
+She set both down.
+
+Saw the new cord on the shelf.
+
+"Two?"
+
+"Evidence-based purchasing."
+
+"You lost one."
+
+"Exactly."
+
+She took off her coat.
+
+"Day?"
+
+"Slateback."
+
+She stopped.
+
+"What?"
+
+Good.
+
+Finally a household response with proper scale.
+
+"Juvenile. Lower market."
+
+"Alive?"
+
+"Yes."
+
+"You?"
+
+"Also yes."
+
+"Anybody hurt?"
+
+"No."
+
+She looked at me for another second.
+
+"What did you do?"
+
+"Salt."
+
+Her face changed.
+
+"Salt?"
+
+"They follow mineral scent when frightened."
+
+"You knew that."
+
+Not a question.
+
+"Yes."
+
+She sat down slowly.
+
+I told her the short version.
+
+The short version included the broom, the cleaver, the plates going violet, Barek from the north quarry, the market warden, the salt trail, the lime cut, and the fact that apparently I had drowned strongly enough for quarry workers to know about it.
+
+Lyssa laughed at the last part.
+
+"This is not the important part."
+
+"It reached a quarry."
+
+"Greg."
+
+"Fine. Slateback."
+
+She leaned forward with her elbows on the table.
+
+"You remembered all of it?"
+
+There was the real question.
+
+I thought about the animal beneath the cart.
+
+Blue plates.
+
+Head low.
+
+Salt.
+
+Open lane.
+
+White meant move.
+
+No uncertainty where it mattered.
+
+"Yes."
+
+Lyssa nodded once.
+
+No analysis.
+
+No warning.
+
+No speech about Old Greg.
+
+She reached for the bread.
 
 "Good."
 
-Lyssa threw another thread scrap at me.
+I stared at her.
 
-This one reached.
+"You all coordinate this word."
 
-It landed on my shirt.
+"Still no."
 
-The better shirt.
+She tore off a piece.
 
-Blue paint streak and all.
+The wrapped bundle stayed beside her work bag.
 
-I left it there through supper.
+West remained unexplained.
 
-By evening, Daro's coat had a narrow strip of matching-enough dark cloth pinned along the inside lower edge.
+The slateback remained somewhere in the old lime cut unless it had already decided otherwise.
 
-Not sewn.
+I had two lengths of cord again.
 
-Pinned.
+Tomorrow had no assignment.
 
-"He approved that?" I asked.
+Carrow did, however, contain at least one slateback.
 
-"Tomorrow."
+That made the city feel slightly more like the world I remembered.
 
-"Again?"
-
-"He sees it before I sew."
-
-"He's going to love you."
-
-"He pays."
-
-"Better."
-
-The brown cloth by the wall still had three pins.
-
-My repaired shirt remained on the wearable peg.
-
-The two lengths of cord remained on the shelf.
-
-No theatre note came.
-
-No animal came.
-
-No Guild runner returned.
-
-I had acquired a new kind of maybe.
-
-It paid if it became real.
-
-For once, I was content to leave it that way.
+I was not sure whether that was comforting.

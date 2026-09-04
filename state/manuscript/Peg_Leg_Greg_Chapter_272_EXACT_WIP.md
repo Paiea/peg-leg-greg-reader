@@ -1,1121 +1,1023 @@
 # CHAPTER 272
 
-## THE QUEUE
+## THE COBBLER
 
-The next morning, the water stopped.
+Nobody came from the theatre in the morning.
 
-Not all water.
+I waited until breakfast to notice.
 
-Carrow remained attached to the concept.
+That felt healthier than waiting at the window.
 
-Our building simply stopped receiving it.
+Lyssa was already gone.
 
-I discovered this by lifting the kitchen pitcher and finding enough at the bottom to insult me.
+The pale thing had gone with her.
 
-"Lyssa."
+Not the brown cloth.
 
-She was pinning her hair up near the window.
+The brown cloth remained on the shelf in the same narrow fold with the same three pins, apparently committed to outliving both of us.
 
-"Mm?"
+I ate bread.
 
-I tilted the pitcher.
+Then more bread.
 
-One sad mouthful moved along the bottom.
+The problem with having good bread in the house was that it became a meal plan.
 
-"We are wealthy in dampness."
+My right leg had stopped being stiff overnight. Shoulders still knew about yesterday's standing. Hands ordinary. Residual limb comfortable.
 
-She looked at it.
-
-"Courtyard tap?"
-
-"I'll check."
-
-I took the pitcher downstairs.
-
-The courtyard tap produced a cough.
-
-Then nothing.
-
-Three other people had already discovered this.
-
-Cala stood with a bucket.
-
-An older man from the rear rooms had two jars at his feet.
-
-A woman I knew only as the person who shook rugs too early in the morning held a pot large enough to bathe a child.
-
-We all stared at the tap.
-
-"You broke it," Cala said.
-
-"I arrived after you."
-
-"Still possible."
-
-The older man turned the handle again.
-
-The pipe made a hollow knock inside the wall.
-
-No water.
-
-Rug Woman sighed.
-
-"North cistern."
-
-Cala groaned.
-
-I looked between them.
-
-"What?"
-
-"Public draw," Cala said. "When the lane line goes dry."
-
-"How far?"
-
-"Not far."
-
-This was a phrase invented by people carrying zero crutches.
-
-"How much do we need?"
-
-"Need?" Cala asked.
-
-"House. Today."
-
-She looked at my pitcher.
-
-"More than that."
-
-Helpful.
-
-I went back upstairs.
-
-Lyssa had already found the larger water jar.
-
-"North cistern," I said.
-
-"I know."
-
-"How?"
-
-"Heard Cala."
-
-"Walls are destroying privacy."
-
-Lyssa tied cloth around the jar's neck.
-
-It was not enormous.
-
-It was enormous enough.
-
-"I can go," she said.
-
-"You have work."
-
-"Later."
-
-"I can go."
-
-She looked at my crutches.
-
-Then the jar.
-
-Then me.
-
-"How?"
-
-Excellent question.
-
-Carrying anything large while using two crutches remained one of the world's more committed jokes.
-
-I had already learned not to improvise straps around a barrow and call the resulting geometry safe.
-
-"Not like that," I said.
-
-"Good."
-
-"I can get water."
-
-"How?"
-
-"I will discover civilization."
-
-Lyssa smiled.
-
-"Bring civilization back full."
-
-I left with the small pitcher.
-
-Not because it would solve the household.
-
-Because I could carry it by its loop against my wrist without stealing a hand from a crutch.
-
-Slowly.
-
-Annoyingly.
-
-Safely enough.
-
-The north cistern was three streets away.
-
-Not far.
-
-I hated Cala.
-
-The line began before I reached it.
-
-Buckets.
-
-Jugs.
-
-Two shoulder yokes.
-
-One narrow handcart with six covered pots.
-
-A boy holding a kettle.
-
-A woman with three blue bottles tucked into a basket.
-
-Nobody looked alarmed.
-
-This was reassuring and inconvenient.
-
-I joined the end.
-
-The cistern itself sat beneath a stone canopy built into the corner of a square. Water came through three bronze mouths into a long trough, then from the trough into whatever people held beneath the lower spouts.
-
-All three mouths were running.
-
-Good.
-
-Above them, four thumb-sized glass stones were set into the canopy arch.
-
-Three glowed pale white.
-
-The fourth was dark.
-
-I looked at them.
-
-Then at the line.
-
-Then back at them.
-
-A man ahead of me noticed.
-
-"West feeder's out."
-
-"That what the dark one means?"
-
-"Means it's not feeding."
-
-"Magic?"
-
-He looked at me.
-
-"Obviously."
-
-Right.
-
-I had asked the equivalent of whether a wet fish involved water.
-
-"Do they show flow?"
-
-"Pressure, I think."
-
-A woman beside him said, "Not pressure. Feed."
-
-"Same thing."
-
-"No."
-
-I liked her immediately.
-
-The man shrugged.
-
-"Water comes when they're lit."
-
-That was the useful level of public knowledge.
-
-I looked at the three pale stones.
-
-Magic embedded in plumbing.
-
-Of course.
-
-Old life had used flow wards in fortress wells and caravan tanks. Different construction. Different indicators. Usually more expensive than anyone wanted until the day somebody poisoned a reservoir.
-
-These looked cheap.
-
-Or ordinary enough to be cheap now.
-
-I did not know.
-
-The line moved.
-
-Slowly.
-
-A city worker stood beside the trough wearing a leather apron darkened with water. She had a hooked iron key in one hand and a strip of chalk tucked behind one ear.
-
-Every few minutes she leaned over the stone curb, listened to something below, then made a mark on a board.
-
-Nobody asked her what she was doing.
-
-I wanted to.
-
-I did not.
-
-Growth had become exhausting.
-
-The boy with the kettle reached the spout.
-
-The worker stopped him.
-
-"Two fills only."
-
-"It's one kettle."
-
-"You filled it already."
-
-"For my aunt."
-
-"Then this one is yours?"
-
-"For my uncle."
-
-"Back of line."
-
-The boy stared at her.
-
-"It's a kettle."
-
-"Back."
-
-He went.
-
-I looked at my pitcher.
-
-One fill would not solve much.
-
-But I had not come to solve everything.
-
-I had come to get water without breaking myself.
-
-That distinction was becoming annoyingly useful.
-
-The woman with the blue bottles turned around.
-
-"Your lane dry?"
-
-"Apparently."
-
-"Which?"
-
-I told her.
-
-She nodded.
-
-"West feeder."
-
-"You know?"
-
-"Mine too."
-
-"How long?"
-
-"Since dawn."
-
-"Normal?"
-
-"Sometimes."
-
-"Useful answer."
-
-"You new?"
-
-"Enough."
-
-She looked at my pitcher.
-
-"That's all?"
-
-"That's what I can carry."
-
-Her eyes moved to the crutches.
-
-Not pity.
-
-Arithmetic.
-
-"You got a jar at home?"
-
-"Yes."
-
-"Cart?"
-
-"No."
-
-"Neighbor?"
-
-"Probably."
-
-"Then why are you here?"
-
-I considered this.
-
-"I wanted water."
-
-She laughed.
-
-"Fair."
-
-The line moved again.
-
-By the time I reached the front, my right leg was mildly stiff from standing.
-
-Not pain.
-
-Just the particular complaint of a limb doing all the standing while the other side contributed mostly opinions.
-
-I shifted my weight and used the crutches properly instead of pretending discomfort was morally impressive.
-
-The worker looked at me.
-
-"One?"
-
-"One."
-
-"Fill it."
-
-I hooked the pitcher loop over my wrist, moved close, and tried to position it beneath the lower spout without dropping a crutch.
-
-Bad geometry.
-
-The worker watched for two seconds.
-
-"Give it."
-
-I handed her the pitcher.
-
-She filled it.
-
-No ceremony.
-
-No speech about independence.
-
-She handed it back.
-
-"Thanks."
-
-"Next."
-
-Perfect.
-
-I moved aside.
-
-Then the dark glass stone above the arch flashed amber.
-
-The line reacted before I did.
-
-Not panic.
-
-Groaning.
-
-Collective, practiced groaning.
-
-The worker swore once.
-
-The amber light blinked again.
-
-One of the three running bronze mouths weakened.
-
-Water thinned from a stream to a rope.
-
-"Two mouths," the worker called. "One vessel each until west returns."
-
-Complaints began.
-
-She ignored them.
-
-The woman with blue bottles had already filled two before the change. She capped them and stepped aside.
-
-"Feed dropping?" I asked.
-
-The worker looked up at the amber stone.
-
-"South branch losing."
-
-"Amber means losing?"
-
-"Amber means unstable."
-
-"And dark?"
-
-"No feed."
-
-That was enough.
-
-I moved away before curiosity turned me into an unpaid apprentice to municipal water magic.
-
-The blue-bottle woman caught up with me.
-
-"You walk that back?"
-
-"That's the dream."
-
-She looked at the filled pitcher hanging from my wrist.
-
-"You'll spill half."
-
-"Optimist."
-
-"I have a cart."
-
-She pointed to the narrow handcart with six covered pots.
-
-I had assumed it belonged to someone else.
-
-"Those yours?"
-
-"Soup."
-
-"Of course."
-
-"My kitchen's two lanes past yours. I can put the pitcher in."
-
-I hesitated.
-
-Not because I thought she would steal my water.
-
-Because accepting help had a strange way of feeling more expensive than it was.
-
-Then my right leg reminded me I had already stood in a line long enough.
-
-"Yes. Thank you."
-
-She lifted the pitcher into the cart between two covered pots.
-
-"I'm Vela."
-
-"Greg."
-
-"I know."
-
-Carrow continued its campaign against anonymity.
-
-"How?"
-
-"Theatre."
-
-"Of course."
-
-"And Mara."
-
-"More of course."
-
-Vela pushed the cart.
-
-I walked beside her.
-
-The wheels were narrow but good.
-
-Not a cargo solution for me.
-
-Her hands occupied the handle. Mine occupied crutches. Civilization had not been discovered so much as borrowed from a woman transporting soup.
-
-"You sell it?" I asked.
-
-"Lunch pots. Three shops, two houses, one old man who complains if I change the beans."
-
-"Six."
-
-"Six."
-
-"Every day?"
-
-"Most."
-
-"What happens when water stops?"
-
-"I swear. Then I get water."
-
-A robust business plan.
-
-"Does the feeder fail often?"
-
-"Not often. Enough."
-
-"Why?"
-
-"Ask the water office."
-
-"I won't."
-
-"Good. They'll explain for an hour and still make you carry water."
-
-We turned onto my lane.
-
-Cala was coming toward us pulling a low two-wheeled cart.
-
-On it sat three household jars.
-
-I stopped.
-
-She stopped.
-
-We looked at each other.
-
-"Civilization," she said.
-
-"I found soup."
-
-Vela looked between us.
-
-"You need more?"
-
-"Apparently not."
-
-Cala pointed at the jars.
-
-"Rear man has cart. Rug woman has rope. We did a run. Yours is upstairs."
-
-I stared at her.
-
-"You filled ours?"
-
-"Lyssa gave me the jar."
-
-Of course she had.
-
-While I had gone to personally obtain one pitcher, the building had formed a water logistics cooperative without consulting me.
-
-This was offensive.
-
-Also excellent.
-
-"Thank you."
-
-Cala shrugged.
-
-"You can take second run later if line stays bad."
-
-"How?"
-
-"Pull cart."
-
-I looked at my crutches.
-
-Cala looked at my crutches.
-
-"No," she said.
-
-"Strong plan."
-
-"You can watch jars."
-
-There it was again.
-
-My emerging profession.
-
-"I have experience."
-
-Vela laughed.
-
-Cala did not know why.
-
-Better.
-
-We reached the building.
-
-Vela handed me my pitcher.
-
-"Kitchen?"
-
-She pointed downlane.
-
-"Green awning after the turn. Noon pots."
-
-"I'll remember."
-
-"Don't need to."
-
-That made me like her more.
-
-She pushed on.
-
-Cala took the cart toward the courtyard.
-
-I went upstairs with my small pitcher and discovered a full household jar beside the table.
-
-Lyssa was gone.
-
-A folded scrap of paper sat under the jar.
-
-Not Hessa.
-
-Lyssa's hand.
-
-`CALA TOOK IT. DON'T GO AGAIN.`
-
-I looked at the full jar.
-
-Then at my pitcher.
-
-"Too late."
-
-Nobody appreciated this.
-
-I drank some of the water I had carried because spite could be hydrating.
-
-Then I rested my right leg.
-
-The stiffness eased quickly.
-
-Shoe seam still flat.
-
-Residual limb comfortable.
-
-No equipment issue.
-
-The morning had cost me no money and earned me none.
-
-It had produced water.
-
-That seemed fair.
-
-Around midday, the courtyard became a distribution point.
-
-Not officially.
-
-Nothing in our building became official if a bucket could solve it first.
-
-The rear-room man, whose name I finally learned was Olan, owned the low cart.
-
-Rug Woman was Maris.
-
-Her pot was not for bathing a child.
-
-It was for laundry.
-
-I had misjudged both her cookware and her domestic priorities.
-
-Cala organized the second run by refusing to call it organizing.
-
-"Olan pulls. Maris and I fill. Greg stays here."
-
-"Why am I here?"
-
-"People need water."
-
-"So I guard it."
-
-"You sit by it."
-
-"Watchman."
-
-"If that makes you useful."
-
-They left.
-
-I sat in the courtyard beside five filled vessels belonging to different rooms.
-
-Nobody had labeled them.
-
-This became a problem immediately.
-
-A child came down and pointed at a jar.
-
-"Ours."
-
-"Which room?"
-
-He pointed upward.
-
-"Powerful system."
-
-"Mama said bring ours."
-
-"What does yours look like?"
-
-"Jar."
-
-I stared at the five jars.
-
-He stared at me.
-
-"Any mark?"
-
-"What?"
-
-I stood and inspected them.
-
-One had blue cord around the neck.
-
-One had a chipped handle.
-
-One was tall and narrow.
-
-Two were nearly identical brown clay.
-
-"Your mama's jar have blue cord?"
-
-"No."
-
-"Chip?"
-
-"No."
-
-"Tall?"
-
-"No."
-
-We had narrowed the field to two.
-
-Civilization collapsed.
-
-"Go ask her for something I can identify."
-
-He ran upstairs.
-
-A minute later he returned.
-
-"White scratch."
-
-One brown jar had a pale scratch near the base.
-
-"That one."
-
-He tried to lift it.
-
-Failed.
-
-Of course.
-
-"Wait."
-
-I could not carry it upstairs either.
-
-Not safely.
-
-We looked at each other.
-
-"Mama said bring it."
-
-"Mama has unreasonable faith in both of us."
-
-A young man crossed the courtyard carrying folded wood.
-
-"Tavi."
-
-He stopped.
-
-"What?"
-
-"Carry this upstairs for him?"
-
-Tavi looked at the jar.
-
-Then the boy.
-
-"Which floor?"
-
-The boy held up two fingers.
-
-Tavi sighed, put the wood down, and lifted the jar.
-
-"Show me."
-
-They went.
-
-I remained with four jars.
-
-That was how the next hour worked.
-
-People came.
-
-I identified containers badly.
-
-Someone stronger carried them where needed.
-
-Nobody paid anyone.
-
-Nobody wrote a system.
-
-When Cala, Olan, and Maris returned with the cart, they brought six more vessels and news.
-
-"South's dark now," Olan said.
-
-"Amber became dark?"
-
-"Yep."
-
-"North still running?"
-
-"Two mouths."
-
-Maris wiped water from her forearms.
-
-"City crew says west repair before evening."
-
-"Says?"
-
-"Says."
-
-Cala looked at the remaining jars.
-
-"Good."
-
-I pointed at her.
-
-"Labels."
-
-"What?"
-
-"Next run, tie different scraps on them."
-
-"Why?"
-
-"Because apparently every household in Carrow bought the same brown jar."
-
-Olan laughed.
-
-Maris looked at the containers.
-
-"He's right."
-
-Cala looked betrayed.
-
-"Don't encourage him."
-
-We found cloth scraps.
-
-Not Lyssa's work cloth.
-
-I was not suicidal.
-
-Old rag scraps from the courtyard cleaning basket.
-
-Red strip.
-
-Blue strip.
-
-Two knots.
-
-One knot.
-
-A piece with a hole.
-
-We matched each vessel to a room before the third run.
-
-It was not revolutionary.
-
-It was barely organization.
-
-It worked.
-
-I stayed with the filled jars again.
-
-This time the child came down and said, "Red."
-
-I gave him the red-marked jar.
-
-Tavi happened to pass five minutes later and carried it up without being asked twice.
-
-Progress.
-
-By late afternoon, the courtyard had enough water to stop behaving like a crisis.
-
-People still conserved it.
-
-No unnecessary washing.
-
-Cooking first.
-
-Drinking first.
-
-Laundry postponed except Maris, who had apparently decided laundry was a constitutional right.
-
-Then the courtyard tap coughed.
-
-Everyone heard it.
-
-We turned.
-
-It coughed again.
-
-A brown spit of water came out.
-
-Maris slapped the handle closed.
-
-"Wait."
-
-Nobody argued.
-
-A few minutes later she opened it again.
-
-Clear water sputtered, stopped, then began running steadily.
-
-Cala cheered.
-
-The child upstairs cheered because Cala did.
-
-Somebody from a rear window shouted, "Don't drink first draw!"
-
-Olan shouted back, "We know!"
-
-Carrow's water system had returned under the supervision of everyone except the water office.
-
-We let it run briefly into the courtyard drain until clear and steady.
-
-Then people began refilling what had been used.
-
-I sat on the low step.
-
-My right leg was tired.
-
-Not hurt.
-
-My hands were fine.
-
-My shoe held.
-
-I had spent much of the day doing less physical work than everyone around me.
-
-That should have bothered me more than it did.
-
-Instead I had watched jars.
-
-Matched scraps.
-
-Sent people to the correct rooms.
-
-Kept one child from taking somebody else's water.
-
-Not heroic.
-
-Useful.
-
-Lyssa returned near sunset.
-
-She stopped in the courtyard.
-
-Red, blue, and ragged cloth markers still hung from several jars.
-
-"What happened?"
-
-"I invented labels."
-
-Cala called from across the courtyard.
-
-"He did not."
-
-"I improved labels."
-
-"Also no."
-
-Lyssa looked at me.
-
-"Water?"
-
-"Back."
-
-"You went twice?"
-
-"Your note said don't."
-
-"So?"
-
-"I obeyed after receiving it."
-
-She narrowed her eyes.
-
-"I had already gone once."
-
-"Greg."
-
-"Small pitcher. Safely. Vela carried it back in a soup cart."
-
-There was a pause.
-
-"Vela?"
-
-"You know Vela?"
-
-"Green awning?"
-
-"Yes."
-
-"Good soup."
-
-Of course.
-
-"Everyone knows everyone except me."
-
-"You know many people."
-
-"Against my will."
-
-Lyssa smiled.
-
-We went upstairs.
-
-The household jar was still more than half full.
-
-The tap worked.
-
-The brown cloth remained folded by the wall.
-
-Three pins.
-
-No pale work visible.
-
-No new Hessa note.
-
-No theatre message.
+No theatre woman.
 
 No Guild runner.
 
-No one waiting to make my life more narratively efficient.
+No note from Hessa.
 
-We ate.
+No Hollen boy.
 
-I told Lyssa about the cistern stones.
+No mysterious debt collector appearing through the wall.
 
-Three white.
+The morning was offensively mine.
 
-One dark.
+I decided to ruin that by checking my right shoe.
 
-Then amber.
+It had started making a noise.
 
-Then south dark too.
+Not a dramatic noise.
 
-"Feed stones," she said.
+A soft scrape on certain stones.
 
-"You know them?"
+I had noticed it twice yesterday and once on the walk home after theatre. The sole looked fine from above, which was the main advantage shoes had over feet. They concealed their failures until the failure became inconvenient.
 
-"Everybody knows them."
+I sat by the window and turned it over.
 
-"I did not."
+The outer edge near the heel had worn thinner than the inner edge.
 
-"Now you do."
+Not through.
 
-"Do they measure flow or pressure?"
+Not close to through.
 
-Lyssa shrugged.
+But enough that one small section had begun to peel at the seam.
 
-"Water."
+I pressed it with my thumb.
+
+It moved.
+
+"Bastard."
+
+The shoe did not apologize.
+
+My left side had no shoe to compare against.
+
+That was occasionally useful and mostly not.
+
+I knew enough about leather to know that waiting until the sole opened would cost more than dealing with it now.
+
+I also knew enough about my own walking to know the right shoe did more work than any reasonable shoe had agreed to.
+
+Crutches did not remove weight from the right leg.
+
+They redistributed it.
+
+Sometimes kindly.
+
+Sometimes like accountants.
+
+I put the shoe back on and stood.
+
+The scrape happened on the second step.
+
+Decision made.
+
+I knew two cobblers by location and none by name.
+
+One near the lower market had a red boot painted over the door. The other sat farther north near the old fountain and usually had three pairs hanging from pegs outside.
+
+The red boot was closer.
+
+That was enough qualification for footwear medicine.
+
+The shop was open.
+
+A narrow room.
+
+Leather smell first.
+
+Then glue.
+
+Then old dust.
+
+Shoes occupied almost every surface without creating the impression that any of them belonged there.
+
+A woman sat behind a low bench with one foot braced against a wooden block.
+
+She was shaving the edge of a sole with a short curved knife.
+
+Gray hair braided tight against her head.
+
+Small round spectacles.
+
+One thumb wrapped in cloth.
+
+She looked up at my crutches.
+
+Then at my right shoe.
+
+Then at the empty space below my left knee.
+
+"Which one?" she asked.
+
+I liked her immediately.
+
+"Right."
+
+"Sit."
+
+I sat.
+
+She held out a hand.
+
+I took the shoe off and gave it to her.
+
+"Scrapes. Outer heel seam moving."
+
+She turned it over.
+
+Pressed the same spot I had.
+
+Then bent the sole farther than I had been willing to.
+
+"Started."
+
+"Bad?"
+
+"No."
+
+"Expensive?"
+
+"No."
+
+Better and better.
+
+She looked at the upper.
+
+"This yours from new?"
+
+"No."
+
+"How long?"
+
+I gave her the best answer I could.
+
+She grunted.
+
+"You walk hard outside."
+
+"I walk with enthusiasm."
+
+"You roll out."
+
+"I do what?"
+
+She put the shoe on the floor and pressed two fingers against the worn edge.
+
+"Outside first. Heel. Then across."
+
+She demonstrated with her hand.
+
+"Because of this?" I asked, tapping my left residual limb.
+
+She shrugged.
+
+"Maybe. Maybe you always walked ugly."
+
+Excellent woman.
+
+"Can you fix it?"
+
+"Yes."
+
+She named a price.
+
+Small enough that I did not need to pretend to think for dignity.
+
+"Do it."
+
+"Today."
+
+"How long?"
+
+She looked at my bare right foot.
+
+"You have another?"
+
+"Shoe?"
+
+"Foot."
+
+I stared at her.
+
+Her mouth moved once.
+
+Not quite a smile.
+
+"No," I said.
+
+"Then you wait."
 
 I laughed.
 
-That was probably the most honest answer available without finding the water office and losing an hour of my life.
+She pointed toward a stool against the wall.
 
-Yesterday I had moved paper once without a glass apparatus.
+"There."
 
-Today the building lost water and solved most of the practical problem with a cart, cloth scraps, neighbors, and a public cistern whose plumbing used magic nobody around me considered remarkable.
+"I can come back."
 
-My own magic had become slightly stranger.
+"Barefoot?"
 
-The city had become slightly more familiar.
+"I have crutches."
 
-Neither required the other.
+"And one foot."
 
-That felt right.
+"You are very focused on the foot count."
+
+"Cobbler."
+
+Fair.
+
+I moved to the stool.
+
+"Name?" I asked.
+
+"Savin."
+
+"Greg."
+
+"I know."
+
+Of course.
+
+"How?"
+
+Savin took a small hammer from the bench.
+
+"Theatre."
+
+That narrowed nothing.
+
+"You go?"
+
+"Sometimes."
+
+"You saw me?"
+
+"No."
+
+"Then how?"
+
+She tapped the sole edge flat.
+
+"Mara talks."
+
+I closed my eyes.
+
+The city had become a conspiracy of women who knew each other.
+
+"What did Mara say?"
+
+"Bronze with one leg buys onions and asks too many questions."
+
+"That is slander."
+
+"You asked four already."
+
+I stopped asking questions.
+
+For almost a minute.
+
+Savin worked.
+
+She did not replace the whole sole.
+
+She lifted the loose section, cleaned beneath it with a narrow tool, trimmed something I could not see, brushed on a dark sticky compound, pressed the layers together, then set the shoe into a wooden clamp shaped like a disagreement.
+
+"Glue?" I asked.
+
+"Pitch mix."
+
+"What's in it?"
+
+She looked at me over her spectacles.
+
+Five questions.
+
+I nodded.
+
+"Never mind."
+
+The shop door opened.
+
+A man came in carrying a child's boot.
+
+He saw me sitting with one bare foot and no left lower leg.
+
+Looked at Savin.
+
+"Busy?"
+
+"Yes."
+
+He put the boot on the counter anyway.
+
+"Toe again."
+
+Savin picked it up.
+
+The front had split open like a mouth.
+
+"Same child?"
+
+"Same wall."
+
+"Tell him stop kicking it."
+
+"I did."
+
+"Tell wall."
+
+The man sighed.
+
+"Tomorrow?"
+
+"Evening."
+
+He left.
+
+Savin put the boot aside.
+
+"Does the wall listen?" I asked.
+
+"Better than children."
+
+Six questions if rhetorical counted.
+
+The pitch needed time.
+
+Savin started another job while mine sat clamped.
+
+I had nowhere else to go.
+
+This was not unpleasant.
+
+The shop window faced the street. People passed in pieces. A basket. A shoulder. Two boys running. A woman carrying a fish long enough that its tail hit her skirt every third step.
+
+Across the street, a vendor had hung six small glass bulbs from a line.
+
+Each contained a pale floating spark.
+
+Not flame.
+
+Too steady.
+
+The bulbs brightened whenever the sun went behind a cloud and dimmed when it returned.
+
+I watched the cycle twice.
+
+Savin noticed.
+
+"Shade lamps."
+
+"I didn't ask."
+
+"Face did."
+
+"How do they know?"
+
+"Don't know."
+
+I looked at her.
+
+"You sell shoes."
+
+"Fix shoes."
+
+"And accept ignorance."
+
+"Free."
+
+Edrin charged the Guild for mine.
+
+Savin gave hers away.
+
+Carrow had range.
+
+A woman entered with a pair of soft indoor shoes wrapped in cloth.
+
+Savin inspected them.
+
+"Too wet."
+
+"Can you save them?"
+
+"Maybe."
+
+"How much?"
+
+"If they dry straight, this. If they twist, more."
+
+The woman hesitated.
+
+"Can you tell now?"
+
+"No."
+
+She accepted that.
+
+Left the shoes.
+
+No argument.
+
+No demand that Savin turn uncertainty into certainty because money was involved.
+
+I thought of Lyssa refusing to cut Daro's coat until the actual trousers arrived.
+
+Edrin paying for accurate ignorance.
+
+Hessa refusing to call one paper twitch a theory.
+
+Apparently Carrow contained several people who understood that not knowing was a stage of work.
+
+This was either wisdom or an elaborate attack on my personality.
+
+Savin unclamped my shoe.
+
+Pressed the seam.
+
+Then set it aside again.
+
+"Not yet."
+
+"I saw."
+
+"You were about to ask."
+
+"My face?"
+
+"Loud."
+
+I folded my arms.
+
+A tiny clicking sound came from beneath the bench.
+
+I looked down.
+
+Something moved between two leather scraps.
+
+Small.
+
+Black.
+
+About the length of my thumb.
+
+Six legs.
+
+A shell with a dull copper stripe down the middle.
+
+It clicked again.
+
+Savin did not look.
+
+"You have a bug."
+
+"I have many."
+
+"That one has metal on it."
+
+"Copperback."
+
+I knew those too.
+
+Not well.
+
+Old life memory gave me a storeroom, grain sacks, and a man swearing because copperbacks had eaten the stitching from three harness pads.
+
+"They eat treated thread," I said.
+
+Savin stopped working.
+
+Looked under the bench.
+
+"That one?"
+
+"If it's the same thing I knew."
+
+She reached for a scrap of stiff paper.
+
+"What same thing?"
+
+"Copperback. We called them that too. They liked waxed or treated fiber more than plain cloth. Harness stitching. Pack seams. Sometimes leather binding if the thread had enough dressing on it."
+
+Savin crouched.
+
+The insect clicked and moved deeper beneath the scraps.
+
+"Bite?"
+
+"Not people. Not that I remember."
+
+"Fly?"
+
+I searched memory.
+
+"I don't know."
+
+She gave me the paper.
+
+"Move scraps."
+
+I looked at my bare foot.
+
+Then at her.
+
+"You are assigning the one-legged barefoot customer insect work."
+
+"You're sitting."
+
+This was difficult to argue with.
+
+I leaned down and used the stiff paper to shift the nearest scraps one at a time.
+
+Savin waited with an empty jar.
+
+The copperback appeared again.
+
+It was exactly what I remembered.
+
+Dark shell.
+
+Copper line.
+
+Small hooked mouthparts under the head.
+
+It moved quickly when exposed but did not charge or leap.
+
+"There."
+
+Savin lowered the jar in front of it.
+
+I nudged from behind with the paper.
+
+The insect climbed into the jar.
+
+She flipped it upright and covered the mouth with another scrap.
+
+Click.
+
+Click.
+
+The sound was louder in glass.
+
+"You sure thread?" she asked.
+
+"Repeated old-life problem, yes. But I don't know if yours here behave exactly the same."
+
+Savin looked toward a shelf behind her.
+
+Three coils of dark waxed thread sat there.
+
+Then toward the floor.
+
+"Found two last week."
+
+That changed the room.
+
+Not into danger.
+
+Into work.
+
+"Damage?"
+
+"Thought mice."
+
+She pulled a low box from beneath the bench.
+
+Inside were leather strips, cord, thread, and several unfinished repairs.
+
+One coil had roughened sections.
+
+Another showed a clean missing bite through several outer strands.
+
+I leaned closer.
+
+"Could be."
+
+"Could?"
+
+"I haven't watched one eat it."
+
+Savin grunted.
+
+Good grunt.
+
+Not annoyed.
+
+Accepted.
+
+She put the jar on the bench.
+
+"What did you do?"
+
+"Old life?"
+
+"Yes."
+
+I remembered badly at first.
+
+Copperbacks in storage.
+
+Harness room.
+
+A quartermaster moving treated cord into hanging tins.
+
+Ash around shelf legs?
+
+No.
+
+That might have been something else.
+
+Oil bowls?
+
+Definitely something else.
+
+I refused to turn fragments into instructions.
+
+"Kept treated thread sealed or hanging where they couldn't reach easily," I said. "I remember metal containers. I don't remember what killed them. I don't remember whether height alone mattered or if the containers were the point."
+
+Savin looked at her three open coils.
+
+"Metal box I have."
+
+"That seems safer than me inventing poison."
+
+"Good."
+
+She moved the waxed thread into a rectangular tin with a lid.
+
+Then two dressed cords.
+
+Then paused over a spool of plain pale thread.
+
+"That too?"
+
+"I don't remember them caring about plain thread."
+
+"Don't remember or no?"
+
+"Don't remember them caring."
+
+She left it out.
+
+That was more trust than the sentence deserved and exactly as much as I had offered.
+
+"Guild care?" she asked.
+
+"Maybe if infestation is broader. One bug in a cobbler shop seems like a cobbler problem."
+
+"Three."
+
+"Three seems like a more irritated cobbler problem."
+
+She almost smiled again.
+
+"If you find twenty, maybe ask somebody who knows local copperbacks better than a dead-world teenager."
+
+"Dead-world?"
+
+I regretted the phrase immediately.
+
+Savin's eyes sharpened.
+
+Not fear.
+
+Interest.
+
+"Old life," I corrected.
+
+She watched me for a second.
+
+Then tapped the jar.
+
+"This old too?"
+
+"Yes."
+
+"Same name."
+
+"Apparently."
+
+"Useful."
+
+That was all.
+
+No revelation.
+
+No demand for cosmology.
+
+She returned to my shoe.
+
+I exhaled.
+
+"Ready?"
+
+"Now you can ask."
+
+She flexed the sole.
+
+Pressed the repaired edge hard with her thumb.
+
+Then took three short nails from a tray.
+
+"Thought it was glued."
+
+"Pitch holds. Nails keep heel edge honest."
+
+She drove them in with quick light taps.
+
+Trimmed the heads flush.
+
+Then rubbed the repaired section with something oily.
+
+"Wear."
+
+I put the shoe on.
+
+Stood.
+
+Took three steps inside the shop.
+
+No scrape.
+
+Heel felt slightly firmer at the outer edge.
+
+Not corrected.
+
+Not built up.
+
+Just repaired.
+
+"You didn't change the wear angle."
+
+"No."
+
+"Should you?"
+
+Savin looked at how I stood.
+
+Then at my crutches.
+
+"Maybe later."
+
+"Why not now?"
+
+"Because I don't know if shoe made you roll or you made shoe roll."
+
+There it was again.
+
+"If I change it wrong?"
+
+"You hurt."
+
+"Excellent reason."
+
+"Come back when this wears. Before it opens. I see pattern twice, maybe know more."
+
+I nodded.
+
+That was a plan without pretending one observation was enough.
+
+I paid her.
+
+Exact price named.
+
+No copperback discount.
+
+No information wage.
+
+Savin kept the jar.
+
+"What are you doing with it?"
+
+"Watching."
+
+"Feed it thread?"
+
+"Maybe."
+
+"You have become a scientist."
+
+"Cobbler."
+
+"Right."
+
+I reached the door.
+
+"Greg."
+
+I turned.
+
+Savin pointed at the repaired heel.
+
+"If it pulls again soon, come back. Don't wait."
+
+"I won't."
+
+"People say that."
+
+"I have one shoe. I am motivated."
+
+"Good."
+
+Outside, the shade lamps across the street had dimmed in full sun.
+
+One pale spark remained visible in each bulb.
+
+I still did not know how they worked.
+
+Savin did not know either.
+
+The world survived us both.
+
+I walked toward home slowly at first.
+
+Not because the repair hurt.
+
+Because I was listening.
+
+No scrape.
+
+At the corner, still none.
+
+By the next street, I stopped checking.
+
+That was probably the real sign it worked.
+
+I bought nothing else.
+
+The repair had cost money.
+
+Necessary money, but still money.
+
+I had theatre pay from yesterday, Guild pay from before that, binding-shop pay in the larger household flow, and a debt that remained perfectly capable of existing while I spent coin on keeping my only shoe attached to itself.
+
+Second lives were expensive in boring directions.
+
+Near the court, Tavi ran past carrying a stick with a strip of blue cloth tied to the end.
+
+"Greg!"
+
+"Tavi."
+
+"It flies."
+
+"That is cloth."
+
+"When I run."
+
+He ran.
+
+The cloth flew.
+
+I had been defeated by evidence.
+
+Sera was at her doorway.
+
+"Theatre?" she asked.
+
+"No. Cobbler."
+
+"Savin?"
+
+Of course she knew Savin.
+
+"Yes."
+
+"Mean?"
+
+"Efficient."
+
+"Mean."
+
+"She fixed the shoe."
+
+"Then efficient."
+
+I went upstairs.
+
+No message waited.
+
+No caller.
+
+No runner.
+
+No new obligation had grown while I was gone.
+
+I took the shoe off again and inspected the repair.
+
+The seam sat flat.
+
+Three nail heads barely visible.
+
+I put it beside the bed instead of under the table.
+
+Not because it had become precious.
+
+Because I wanted to remember to look at the heel before it became a problem again.
+
+Lyssa returned near evening.
+
+No pale piece.
+
+No explanation.
+
+She saw the shoe by the bed.
+
+"What?"
+
+"Sole started opening."
+
+She looked at it.
+
+"Fixed?"
+
+"Yes. Savin."
+
+"Good."
+
+"You know her?"
+
+"Mara."
+
+I pointed at Lyssa.
+
+"That woman is a public information system."
+
+"You talk too."
+
+"Not about shoes."
+
+"Onions."
+
+I had no defense.
+
+Lyssa unpacked her bag.
+
+Thread.
+
+A small paper packet.
+
+Nothing I recognized as six narrow wraps.
+
+I did not ask.
+
+"Copperbacks," I said instead.
+
+She paused.
+
+"At Savin's?"
+
+"Three, apparently. One today. I knew them. Old life."
+
+"Bad?"
+
+"For treated thread, maybe. Not people. I told her what I remembered and what I didn't."
+
+"She listen?"
+
+"Moved waxed thread into metal."
+
+Lyssa nodded.
+
+"Then useful."
+
+Everybody in Carrow was conspiring to use Edrin's word.
+
+"I did not get paid for this knowledge."
+
+"You paid her."
+
+"Worse."
+
+Lyssa smiled.
+
+We ate the remaining bread with onions cooked down until they stopped pretending to be vegetables.
+
+My repaired shoe sat by the bed.
+
+Somewhere across the lower market, Savin had a copperback in a jar and waxed thread in a tin.
+
+Maybe the insect would eat what I remembered.
+
+Maybe it would not.
+
+Tomorrow might prove something.
+
+Or nothing.
+
+For once, neither possibility belonged to me.

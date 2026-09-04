@@ -1,1089 +1,1278 @@
 # CHAPTER 266
 
-## THE RUNNER
+## THE SHOPHAND
 
-The knock came before I finished the last Nerin loaf.
+Daro approved the coat before breakfast became lunch.
 
-I looked at it.
+This required more ceremony than the sentence deserved.
 
-Then at the door.
+He arrived in the correct trousers, the correct shoes, and the same expression he had worn yesterday when Lyssa asked whether he owned more than one pair of trousers.
 
-Lyssa had already left.
+The dark extension strip was still pinned inside the coat.
 
-No note from Hessa had arrived. No theatre boy had appeared. Hollen had not discovered another half-day hiding inside his shelves. The morning had been mine for almost twelve minutes.
+Not sewn.
 
-I opened the door.
+Lyssa made him put the coat on, button it, walk to the window, turn, sit once, stand again, and look at himself in the small mirror propped against the wall.
 
-A girl in a gray Guild coat stood outside breathing hard enough to make the message in her hand shake.
+Daro looked.
 
-"Greg?"
+Mara looked at Daro looking.
 
-"Yes."
+I ate bread.
 
-"South yard. Edrin. If you're available."
+Finally he said, "Fine."
 
-She held out the folded paper.
+Lyssa said, "Fine means yes?"
 
-I took it.
-
-`SOUTH YARD. REPORT ONLY. WORTH ASKING. PAID IF YOU COME.`
-
-Below that was a second line.
-
-`HESSA AGREES.`
-
-I stared at it.
-
-The girl bent forward with both hands on her knees.
-
-"Did you run?"
-
-She looked up at me.
+Daro frowned.
 
 "Yes."
 
-"Why?"
-
-"He said find you."
-
-"He didn't say race death."
-
-"I didn't know where you lived."
-
-That explained several streets of panic.
-
-"You want water?"
-
-"No."
-
-She took one more breath.
-
-"Are you coming?"
-
-I looked at the room behind me.
-
-One loaf heel.
-
-Two lengths of cord.
-
-Brown cloth, three pins.
-
-No obligations capable of objecting.
+"Say yes."
 
 "Yes."
 
-She nodded and immediately turned away.
+Mara laughed into her hand.
 
-"Walk," I said.
+Lyssa unpinned the coat from him before he could reconsider.
 
-She stopped.
+"Tomorrow evening."
 
-"What?"
+Daro started to say something.
 
-"You found me. Job complete. Walk back."
+Lyssa looked at him.
 
-She considered this, then started walking.
+He stopped.
 
-Good.
+"Tomorrow evening," he said.
 
-I ate the rest of the loaf while putting on my coat.
+Progress.
 
-The south Guild yard was farther than Hessa's room and less interested in whether a nineteen-year-old with two crutches had recently eaten. I checked both grips before leaving. Fine. Tips fine. Residual limb comfortable. Right leg ordinary.
+Mara followed him out, but not before looking at me and saying, "Witness."
 
-No need to invent a problem.
+"I refuse."
 
-The runner had disappeared by the time I reached the first turn.
+"You heard him."
 
-Apparently walking was advice rather than law.
+"I hear many terrible things."
 
-I took the route I knew.
+"Still heard."
 
-Carrow had become easier to cross without becoming small. That distinction mattered. I knew which streets climbed harder, which corners held carts too long after morning deliveries, which stones stayed slick under awnings, where a doorway could give me room if two handcarts met in the wrong place.
+She left.
 
-I still did not know half the people shouting across those streets.
-
-That felt correct.
-
-The south yard smelled like wet rope, old wood, and something mineral drying in the sun.
-
-No animal waited for me.
-
-I noticed that first.
-
-No cage.
-
-No frightened crowd.
-
-No magical thing trying to eat a wall.
-
-Report only meant report only.
-
-Edrin stood under the same awning where I had first seen the empty mesh-sided frames. A man beside him held a broken board. A woman in a green scarf held nothing and looked annoyed about it.
-
-Edrin saw me.
-
-"You came."
-
-"I was available."
-
-He nodded once.
-
-The exact wording had survived.
-
-Good institution.
-
-The gray-coated runner was sitting on an overturned bucket behind him drinking water.
-
-I pointed at her.
-
-"She ran."
-
-Edrin glanced back.
-
-"I told her to find you quickly."
-
-"That is how runners become corpses."
-
-The girl raised her cup toward me without standing.
-
-"Found you."
-
-"Unfortunately."
-
-Edrin held out a folded sheet.
-
-"This came from the east road station before dawn."
-
-I did not take it yet.
-
-"Witness?"
-
-"Two."
-
-"Same event?"
-
-"Probably."
-
-"Probably?"
-
-The woman in the green scarf said, "They were on the same wagon."
+Lyssa closed the door.
 
 I looked at her.
 
-"That improves probably."
+She looked at me.
 
-She did not smile.
+"Do not."
 
-Edrin said, "Tessa. Road clerk."
+"I was going to compliment your legal practice."
 
-Tessa gave me a short nod.
+"Don't."
 
-The man with the broken board remained unnamed.
+"Fine."
 
-Excellent restraint from the world.
-
-I took the sheet.
-
-The drawing was better than the mudjaw report.
-
-This was not high praise.
-
-Someone had drawn a long body with four visible legs, a narrow head, and a tail that curved upward at the end. Marks along the back might have been spines, fur, feathers, or an argument with the charcoal.
-
-Beside it, in a different hand, someone had written:
-
-`PALE BACK. DARK BELLY. LONG TAIL. ROAD EDGE. TWO SEEN. WAGON HORSE REFUSED.`
-
-Below that:
-
-`NO ATTACK. NO CHASE. BOTH MOVED INTO DITCH WHEN MEN APPROACHED.`
-
-I read it twice.
-
-"Where on the east road?"
-
-Tessa answered.
-
-"Past the third stone marker, before the old clay cut."
-
-"Water there?"
-
-"Drainage ditch. Some standing water after rain."
-
-"Trees?"
-
-"Sparse. Brush. Reed patches lower down."
-
-I looked at the drawing again.
-
-Long body.
-
-Pale back.
-
-Dark belly.
-
-Tail lifted at the end.
-
-Two together.
-
-Road edge.
-
-Horse refused.
-
-Moved into ditch when approached.
-
-Something old in my head settled into place.
-
-Not memory as revelation.
-
-Recognition.
-
-"Probably ditchrunners," I said.
-
-Edrin did not move.
-
-Tessa did.
-
-"Probably?"
-
-I looked at her.
-
-"Yes."
-
-"Not maybe?"
-
-"Probably."
-
-She folded her arms.
-
-"Difference?"
-
-"Better report."
-
-That got the smallest change in her face.
-
-Not a smile.
-
-Permission to continue.
-
-I pointed at the drawing.
-
-"This part is useless."
-
-The man with the broken board said, "My drawing."
-
-I looked at him.
-
-"Sorry."
-
-"No, it is."
-
-Good.
-
-"The written parts help more. Pale dorsal coat, darker belly, long tail with the end carried up, pairs near drainage after rain. Ditchrunners do that. Horses hate the smell."
-
-Edrin said, "Dangerous?"
-
-"Usually not."
-
-Tessa said, "Usually."
-
-"They bite if cornered. Anything with a mouth may eventually discover biting. But if these are ditchrunners and the report is accurate, moving into the ditch when approached is exactly what I'd want them to do."
-
-"Why were they on the road?"
-
-"Warm stone, maybe. Food. Water moving insects out of the banks. Depends on season."
-
-I stopped.
-
-Season.
-
-I knew the old world's patterns.
-
-I did not know whether Carrow's east road had the same insects, same drainage work, same local population, or same seasonal timing.
-
-"That part is old knowledge," I said. "I don't know the local reason they're there."
-
-Edrin nodded.
-
-Tessa asked, "What do they eat?"
-
-"Small things. Beetles. Burrow mice. Eggs if they find them. Some marsh grubs. They also steal salted fish if you leave it low enough, because nature contains evil."
-
-The runner laughed into her cup.
-
-Tessa looked at Edrin.
-
-"That would explain the fish cart."
-
-I looked up.
-
-"What fish cart?"
-
-Edrin handed me a second scrap.
-
-This one had no drawing.
-
-`SALT FISH BASKET TORN. THREE PIECES MISSING. NO TRACK COUNT. SAME ROAD, HALF MILE EAST.`
-
-"Same night?"
-
-"Yes," Tessa said.
-
-"Could be them."
-
-"Could?"
-
-"Yes."
-
-"You just said they steal salted fish."
-
-"They do. So do people. Dogs. Other animals. A fact being convenient does not make it exclusive."
-
-Edrin's mouth moved slightly.
-
-I pointed at him.
-
-"Hessa has damaged me."
-
-"She said you were improving."
-
-I stared.
-
-"She said that?"
-
-"No."
-
-Tessa laughed once.
-
-Edrin was becoming dangerous.
-
-The man with the broken board turned it in his hands.
-
-"If they're ditchrunners, do we clear them?"
-
-"Clear them from what?"
-
-"Road."
-
-"Are they blocking it?"
-
-"Horse wouldn't pass."
-
-"One horse."
-
-Tessa said, "Two wagons waited behind it."
-
-"Then the horse blocked the road."
-
-The man looked at me.
-
-"Tell the horse that."
-
-"I don't speak horse."
-
-"Useful man."
-
-"Occasionally."
-
-Edrin said, "If another report comes tonight, what should the station do?"
-
-That was a better question.
-
-I put the sheet down on the crate between us.
-
-"If they are ditchrunners, don't surround them. Don't send dogs into the ditch. Don't throw food to move them unless you want them learning the road produces food. Give them the ditch side and room. They'll usually leave the stone when traffic quiets."
-
-"Usually," Tessa said again.
-
-I liked her less every time she correctly repeated my qualifiers.
-
-"Yes. Usually."
-
-"And if they don't?"
-
-"Then I would want to know what they're actually doing before telling you more."
-
-"No killing?"
-
-I looked at her.
-
-"Did I say that?"
-
-"No."
-
-"Then no."
-
-Edrin asked, "White back?"
-
-"Pale. Not white. If the witness meant white, ask whether it was fur or plate."
-
-Tessa pulled a small notebook from inside her coat.
-
-"Why?"
-
-"Because ditchrunners have hair. Short. Looks almost smooth at distance. If someone saw hard white plates, I would change my answer."
-
-"To what?"
-
-"I don't know yet."
-
-She wrote that too.
-
-Good institution again.
-
-Edrin tapped the first report.
-
-"Tail up?"
-
-"Important."
-
-"Why?"
-
-"Ditchrunners scent from glands under the tail. When nervous, they carry the end high. Horses notice before people do."
-
-The man with the board stepped back from the report as if paper could smell.
-
-"Bad?"
-
-"Not like a skunk."
-
-He relaxed.
-
-"Worse in a different way."
-
-He stopped relaxing.
+She pointed at me.
 
 I smiled.
 
-"Sharp mineral stink. Stays in cloth. Old caravan rule was never store blankets beside a ditchrunner cage."
+The word had become dangerous.
 
-Tessa's pencil paused.
+Daro's coat went onto the table.
 
-"People cage them?"
+Lyssa removed the pins from the extension strip, marked two points with chalk, and then moved the whole coat aside.
 
-"People cage everything eventually."
+Not sewing it immediately.
 
-That came out flatter than I intended.
+Other work existed.
 
-Old memory offered me a wagon at dusk, three wire cages, a man missing two fingertips, and a ditchrunner chewing calmly through a leather tie while everyone argued about whether it could.
+That had become visible enough now that I understood it without needing a speech.
 
-I had known the answer.
+The brown cloth by the wall still held its three pins.
 
-Nobody had listened until the cage door opened.
+The repaired shirt remained on the wearable peg.
 
-That memory did not belong to this road.
+The two lengths of replacement cord remained on the shelf.
 
-I left it where it was.
+No Guild runner came.
 
-"They're not valuable?" Edrin asked.
+No theatre note waited under the door.
 
-"I didn't say that either."
+No animal tried to become my profession.
 
-"Are they?"
+Then Pem knocked.
 
-"I don't know current prices. Old life, some people trapped them for scent glands and winter fur. Some road crews liked them around drainage because they ate burrowers. Both can be true."
+Not Hollen.
 
-Tessa wrote again.
+Pem.
 
-"So don't let trappers hear?"
+He stood in the corridor holding one of Hollen's short measuring sticks like a badge of office.
 
-"I definitely did not say that."
+"Roof dry," he said.
 
-She looked at me.
+"Congratulations."
 
-"You imply a lot for someone who likes evidence."
+"Hollen says come if free."
 
-"I am nineteen. It is one of my remaining freedoms."
+"When?"
 
-The runner laughed again.
+"Now."
 
-Edrin took the papers back.
+"Why?"
 
-"Enough."
+Pem looked at the stick.
 
-I blinked.
+"Counts."
 
-"That's it?"
+"That is not a reason. That is a threat."
 
-"Report only."
+"Dry stock moved."
 
-Right.
+I looked at Lyssa.
 
-He had written the words.
+She was threading a needle.
 
-No animal waiting.
+She did not look up.
 
-No inspection trip.
+"How long?" I asked.
 
-No east-road adventure because the chapter had discovered a direction.
+Pem shrugged.
 
-Tessa asked Edrin, "You're sending the station instructions?"
+"Half day."
 
-"You are."
+"Pay?"
 
-She frowned.
+He named the same half-day amount as before.
 
-"I brought the report."
+Hollen had apparently discovered wages could survive weather.
 
-"And you're going back."
+I had no theatre call.
 
-"After midday."
+No Guild call.
 
-"Then take the answer."
+No appointment.
 
-Tessa looked at me.
+I looked at my breakfast.
 
-"Say it short."
+Then at Pem.
 
-I considered the report.
+"Fine."
 
-"Probable ditchrunners if the written description is accurate. Leave ditch side open. No dogs. No surrounding. Don't feed them to move them. Ask whether pale means hair or plate if seen again. Report changed behavior."
+He grinned.
 
-She repeated it back.
-
-Almost exactly.
-
-Edrin corrected one word.
-
-"Observed behavior."
-
-Tessa rolled her eyes.
+"Good."
 
 I pointed at him.
 
-"Hessa."
-
-"No," he said. "Paperwork."
-
-Different disease.
-
-Edrin paid me.
-
-Not much.
-
-Not insulting.
-
-The agreed shape of the thing mattered more than the amount. He had said paid if something worth asking arrived and if I was available.
-
-Something had arrived.
-
-I had been available.
-
-I answered what I knew and said what I did not.
-
-Then the transaction ended.
-
-I put the coins away.
-
-"Do you need anything else?"
-
 "No."
 
-"Tomorrow?"
+He had no idea what he had done.
 
-"No."
+Lyssa did.
 
-"Standing schedule?"
+She smiled down at the thread.
 
-Edrin looked at me.
+I finished breakfast, took my crutches, and went with Pem.
 
-"Did I offer one?"
+The roof was dry.
 
-"No."
+This was the first thing Hollen showed me.
 
-"Then no."
+Not the stock.
 
-Beautiful.
+The roof.
 
-I collected my crutches.
+He stood in the rear of the shop beneath the old leak line and pointed upward.
 
-The man with the board said, "What is the board for?"
+A fresh patch of darker wood crossed one section. The bucket was gone.
+
+"Dry."
+
+"Pem reported."
+
+"Touch."
 
 I looked at him.
 
-"I was wondering that."
+"The roof?"
 
-"You never asked."
+"Board."
 
-"Growth."
+He meant the shelf board beneath the repaired seam.
 
-He held up the split wood.
+I touched it.
 
-"Cart side."
+Dry.
 
-That was all.
+"Excellent."
 
-I left the south yard with money for identifying an animal I had not seen.
+Hollen nodded.
 
-That felt stranger than moving paper.
+"Counts."
 
-At least the paper had been in the room.
+Of course.
 
-The east-road creatures might not be ditchrunners at all.
+The wet stock from two days ago had become dry enough to move back into sale piles.
 
-But the report was good enough that I was willing to say probably.
+This created problems.
 
-That was a useful difference from maybe.
+Dry straps no longer matched their wet shape exactly.
 
-Outside the yard, a wagon loaded with empty clay jars had stopped because one of the harness straps had twisted. The driver fixed it while a second man stood nearby giving advice nobody requested.
+Some curled.
 
-I passed them.
+Some narrowed.
 
-"Turn the buckle!"
+Some looked fine until bent.
 
-"I know!"
+The pale cord had dried with dark grit marks that had not disappeared merely because water had.
 
-"Then why isn't it turned?"
+Hollen had already decided which damaged pieces remained bad.
 
-Carrow remained healthy.
+He did not need me to judge leather.
 
-I had money in my pocket and no next assignment.
+He needed me to count what survived his judgment and put the categories back where customers could find them.
 
-The obvious thing would have been to go home.
+Pem had hooks.
 
-Instead I bought onions.
+I had straps and cord.
 
-Not three.
+Again.
 
-Four.
+I sat on the same stool.
 
-This was reckless behavior, but the household had consumed one yesterday and I was tired of being predictable to a vegetable seller.
+My crutches leaned within reach.
 
-The onion woman looked at the four in front of me.
+Hollen handed me the ledger board.
 
-Then at me.
+The old chalk counts were still faintly visible underneath the new marks.
 
-"Four?"
+Thirty-two narrow had once mattered.
+
+Today there were twenty-nine.
+
+I counted twice.
+
+Twenty-nine.
+
+"Three sold?" I asked.
+
+Hollen said, "Two sold. One bad."
+
+"Which one?"
+
+He pointed to a short split near a punched hole in the reject tray.
+
+I had seen it wet.
+
+It had looked acceptable then.
+
+Now the leather around the hole had dried hard and cracked.
+
+"Late failure."
+
+"Dry tells."
+
+I nodded.
+
+Useful.
+
+Not a universal principle.
+
+Leather.
+
+Twenty-nine narrow.
+
+Fourteen narrow-medium.
+
+Twenty-one medium.
+
+Nine wide.
+
+Short cord thirty-eight.
+
+Long cord twenty-five.
+
+I counted each twice because yesterday had taught me Hollen's expectations were not evidence and because paying someone to count once was an excellent way to purchase a future argument.
+
+Pem worked across from me.
+
+He held up a hook.
+
+"Basket frame?"
+
+I looked.
+
+"Refuse involvement."
+
+"Wrong."
+
+"Hollen?"
+
+"Not here."
+
+Hollen was at the front with a customer.
+
+Pem held the hook beside another.
+
+The curves were almost the same.
+
+Almost.
+
+I remembered Hollen's explanation.
+
+One tighter.
+
+"Left one basket frame."
+
+Pem smiled.
+
+"Right."
+
+I stared at him.
+
+"You knew."
 
 "Yes."
 
-She looked behind me as if another Greg might be responsible.
+"You tested me."
 
-"You always buy three."
+"Yes."
 
-"I am changing."
+"This workplace has become hostile."
 
-"Why?"
+He put the hooks into separate trays.
 
-"Personal growth."
+I continued counting.
 
-She weighed the onions.
+At some point a theatre boy came through the door.
 
-"Cost more."
+Not the same boy from the Uncle call.
 
-"Personal growth is expensive."
+This one was younger, with red hair flattened on one side and the look of someone who had been sent across too many streets carrying messages other people considered urgent.
 
-She named the price.
+He saw me immediately.
 
-I paid it.
+"Greg?"
 
-Then she added a fifth onion.
+Hollen looked over from the counter.
 
-I stared.
+Pem looked up.
 
-"What is that?"
+I stopped with a strap in my hand.
 
-"Small."
+"Yes."
 
-"It is still an onion."
+The boy came to the rear.
 
-"Too small."
+"Teren wants you."
 
-"For what?"
+Of course.
 
-"Selling alone."
+"When?"
 
-"You just sold it to me."
+"Before midday."
 
-"No. Gave."
+I looked toward the front window.
 
-I looked at the fifth onion.
+The sun had not reached midday.
 
-This had become dangerous.
+Close enough that distance now mattered.
 
-"Why?"
+"What for?"
 
-She was already reaching for the next customer's basket.
+The boy unfolded a paper.
 
-"You buy onions."
+"Second Toast."
 
-That was apparently my reputation.
-
-Not theatre.
-
-Not magic.
-
-Not slatebacks.
-
-Onions.
-
-I put all five into the cloth bag and left before the network could deepen.
-
-The bag was light enough to manage with my crutches because I had brought it expecting groceries. I looped it high where it would not swing into my left side and took the flatter route home.
-
-Halfway there, I heard music.
-
-Not theatre music.
-
-Street music.
-
-A woman had set a narrow hammered-metal frame on the ground beside a wall. Six thin rods rose from it, each holding a little bronze cup. She drew a wet finger around the rim of the first cup.
-
-The other five answered.
-
-Not loudly.
-
-A descending shimmer passed through them one after another, though she had touched only the first.
-
-I stopped with three other people.
-
-She touched the second cup.
-
-The fourth answered first this time, then the sixth, then the others in a pattern I did not know.
-
-Magic.
-
-Probably.
-
-Or enchanted metalwork, which was magic with a receipt.
-
-A child beside me dropped a copper into the woman's bowl.
-
-His mother said, "That's for bread."
-
-"It sang."
-
-"Bread doesn't?"
-
-The child considered this.
-
-"No."
-
-"Then we made our choice."
-
-They walked away.
-
-I stayed for one more sequence.
-
-The musician never announced what the cups were called.
-
-Nobody asked.
-
-I did not recognize the instrument from my old life.
-
-That was almost as satisfying as recognizing the ditchrunners.
-
-The world was allowed to contain magic I did not know.
-
-I gave her a copper.
-
-Not because I needed the mechanism explained.
-
-Because she was playing music in the street and I had just been paid.
-
-She nodded without stopping.
-
-I went home with five onions.
-
-Lyssa was there.
-
-She had changed shirts and was sitting on the floor near the window with her work bag open. The pale current piece lay across her knees.
-
-I still could not tell what it was becoming.
-
-This had reached the point of principle.
-
-I put the onions on the table.
-
-Lyssa looked at them.
-
-Counted.
-
-Looked at me.
-
-"Five?"
-
-"Four."
-
-She looked again.
-
-"Five."
-
-"One was imposed on me."
-
-"By who?"
-
-"Onion woman."
-
-Lyssa put her needle down.
-
-"She gave you an onion?"
-
-"Too small to sell alone."
-
-"So free."
-
-"Nothing is free. I now have an onion identity."
-
-Lyssa laughed.
-
-I sat at the table.
-
-"Guild called."
-
-Her expression changed just enough.
+My stomach did something small.
 
 Not fear.
 
-Attention.
+Recognition.
 
-"Animal?"
+"Uncle?"
 
-"Report. East road. Probably ditchrunners."
+He checked.
 
-"Probably?"
+"Steward."
 
-I pointed at her.
+That was mine.
 
-"You too?"
+Eleven lines.
 
-"What?"
+Marek had covered it during Pell's fever while I covered Uncle.
 
-"Nothing."
+Not a promotion.
 
-I told her the useful part.
+Not an emergency crown.
 
-Two seen.
+My ordinary Steward.
 
-Pale backs, dark bellies, long tails.
+"Performance?"
 
-Horse refused.
+"Run first. Maybe evening."
 
-They moved into the ditch instead of attacking.
+I looked at Hollen.
 
-Maybe connected to stolen salt fish, maybe not.
+He had heard.
 
-"Dangerous?" she asked.
+He said nothing.
 
-"Not usually. Don't corner them. Don't send dogs after them."
+That was worse than permission.
 
-"You seen them before?"
+I looked at the ledger board.
 
-"A lot. Old life."
+Half the categories were finished.
 
-"You sure?"
+I had said yes to a half day.
 
-I thought about the drawing.
+Hollen had named the pay.
 
-"Not from the drawing. From the report, probably."
+The boy said, "Teren said before midday."
 
-She nodded.
+"Can I come after?"
 
-No demand for certainty.
+He shrugged.
 
-No declaration that my past had returned.
+"Message says before."
 
-She picked up her needle again.
+"Useful."
 
-"Paid?"
+He held the paper toward me.
+
+I took it.
+
+IF FREE.
+BEFORE MIDDAY.
+SECOND TOAST.
+STEWARD.
+
+Theatre had excellent consistency.
+
+If free.
+
+I was not.
+
+That answer should have been easy.
+
+It was easy.
+
+I just did not like it.
+
+I gave the paper back.
+
+"I'm working."
+
+The boy blinked.
+
+At Hollen.
+
+At me.
+
+"Here?"
+
+"Apparently."
+
+"Should I tell Teren?"
 
 "Yes."
 
-"Good."
+"What?"
+
+I almost said tell him after midday.
+
+No.
+
+The message was not a negotiation unless Teren made it one.
+
+"Tell him I'm working until midday."
+
+The boy nodded.
+
+Then hesitated.
+
+"Do you still come later?"
+
+"If they still need me."
+
+Another shrug.
+
+He left.
+
+Pem watched the door close.
+
+Then looked at me.
+
+"Theatre?"
+
+"Yes."
+
+"You like theatre."
+
+"Yes."
+
+"Then go."
+
+Hollen said from the front, "He said yes here."
+
+Pem looked at him.
+
+Then at me.
+
+Hollen had not raised his voice.
+
+He did not sound possessive.
+
+He stated a fact.
+
+I had said yes here.
+
+That was the whole shape.
+
+"I know," I said.
+
+Pem looked confused.
+
+"You can leave."
+
+Hollen said, "He can."
+
+That changed it.
+
+I looked at Hollen.
+
+He finished tying a customer's bundle and took her money before coming to the rear.
+
+"Go if you want."
+
+"No."
+
+He waited.
+
+"I said half day."
+
+"Yes."
+
+"You planned around that?"
+
+"Yes."
 
 There it was.
 
-"I also saw a magic instrument."
+Not moral philosophy.
 
-Lyssa looked up.
+Inventory.
 
-"What?"
+He had planned around having another pair of hands.
 
-I described the bronze cups and the answering sequence.
+Maybe he could finish without me.
 
-She listened longer to that than she had to the ditchrunners.
+Probably.
 
-"Know it?" she asked.
+That did not make my yes disappear.
+
+"I'll finish."
+
+Hollen nodded once.
+
+No praise.
+
+Good.
+
+Pem said, "Theatre pays more."
+
+"Usually."
+
+"Then why?"
+
+I picked up the ledger board.
+
+"Because I said yes first."
+
+Pem frowned.
+
+This was not persuasive to a fourteen-year-old.
+
+Fair.
+
+"That seems stupid."
+
+"It may be."
+
+Hollen said, "Count."
+
+Excellent employer support.
+
+I counted.
+
+The next half hour was irritating because the theatre now existed in my head.
+
+I knew the Steward.
+
+I knew the piece.
+
+I knew where the stupid serving cloth caught if Venn pulled it too early.
+
+I knew the second scene turn.
+
+I knew Marek could cover Steward because he had already done it.
+
+That last part should have made me relax.
+
+Instead it made the missed opportunity cleaner.
+
+They did not need me uniquely.
+
+They wanted me if free.
+
+I was not free.
+
+Someone else could do it.
+
+This was what belonging looked like when the world contained more than one place that might use you.
+
+Annoying.
+
+I wrote twenty-five beside long cord.
+
+Hollen checked the count.
+
+"Twenty-four."
+
+I stared at him.
 
 "No."
 
-"Good."
+He counted.
 
-I stared.
+Twenty-five.
 
-"That word is becoming violence."
+He looked at the pile.
 
-She smiled.
+Then at the board.
 
-"You like not knowing."
+"Twenty-five."
 
-I opened my mouth.
+"Thank you."
 
-Closed it.
+Pem said, "Thirty-two."
 
-Annoying woman.
+I pointed at him.
 
-"Sometimes."
+"Do not resurrect that."
 
-She went back to sewing.
+He laughed.
 
-I divided the Guild pay the way I had been dividing ordinary income lately. Household first. Some kept.
+A customer came in asking for a strap long enough to bind a traveling chest.
 
-The musician's copper had already come from the kept part in my head, which was not accounting but felt close enough for a man with no ledger.
+Hollen asked what size chest.
 
-The onions belonged to everybody.
+The customer held his hands apart.
 
-Especially the fifth one, which had apparently chosen us.
+Hollen stared at the distance.
 
-I checked the shelf.
+I almost laughed.
 
-Pepper cheese remained.
+Hands had become unreliable measurement across Carrow.
 
-No bread.
+He took out a length of marked cord instead.
 
-"We need bread."
+Lyssa and Hollen would have respected each other for exactly four minutes and then fought over categories.
 
-Lyssa said, "Tomorrow."
+I did not arrange this meeting.
 
-"We had three loaves yesterday."
+At midday, Hollen said, "Enough."
 
-"You ate."
+I looked up.
 
-"You also ate."
+That was it.
+
+Half day.
+
+The counts were finished.
+
+Dry stock had returned to shelves.
+
+Reject stock remained reject stock.
+
+The roof did not drip.
+
+Hollen paid me exactly what he had named.
+
+I counted once.
+
+"Right?" he asked.
 
 "Yes."
 
-"Shared crime."
+"Tomorrow?"
 
-"Tomorrow."
+I waited.
 
-I looked at the onions.
+He looked at the shelves.
 
-Five onions and no bread was not a meal. It was a threat.
+"No."
 
-"Rice?"
+"Excellent."
 
-Lyssa pointed without looking.
+"Maybe later week."
 
-There was enough.
+"Conditional employment is your strongest tradition."
 
-Fine.
+He did not care.
 
-I started dinner.
+Pem was already eating bread.
 
-Not because Chapter 264 had transformed me into a cook.
+I took my pay and left.
 
-Because I was hungry and Lyssa was working.
+I could still go to the theatre.
 
-I used one of the small onions.
+Midday had passed.
 
-Not the free one.
+The message had said before midday.
 
-I was not emotionally ready.
+I went anyway.
 
-The pot survived.
+Not because I expected the role.
 
-This represented measurable improvement.
+Because "if they still need me" had been part of the answer.
 
-While rice cooked, Lyssa shifted the pale work across her lap and turned one seam inside out. I saw a line of tiny dark fastenings along an edge that had not been visible before.
+The theatre side door was open.
 
-I did not ask what it was.
+Inside, the blue room flat had been repaired.
 
-She noticed me not asking.
+I knew this because it was leaning against the wall with a fresh lower edge and because the unnamed painter was standing beside it drinking water.
+
+He saw me.
+
+"Late."
+
+"Employed."
+
+"Tragic."
+
+"What's your name?"
+
+He lowered the cup.
+
+I had surprised him.
+
+"Colm."
+
+There.
+
+Months of seeing his face, apparently solved by asking.
+
+"Greg."
+
+"I know."
+
+"Unfair."
+
+He smiled.
+
+"Stage."
+
+I went backstage.
+
+The Second Toast was running.
+
+Not performing.
+
+Running.
+
+I heard Hara's voice before I saw the stage.
+
+Then Marek.
+
+Then the Steward line.
+
+Mine.
+
+Except Marek was saying it.
+
+Of course.
+
+I stopped at the wing rather than entering.
+
+Nessa stood at the property table.
+
+She saw me.
+
+Then looked at the stage.
+
+Then back at me.
+
+"Working?"
+
+"Hollen."
+
+She nodded.
+
+No accusation.
+
+No surprise.
+
+Just placed information into the right shelf.
+
+"Marek has it."
+
+"I hear."
+
+"Mostly."
+
+That word hurt more than it should have.
+
+Onstage, Marek missed the small serving-cloth handoff and Venn caught it before it hit the floor.
+
+Teren said, "Again."
+
+Marek groaned.
+
+I smiled.
+
+Nessa saw.
+
+"Don't."
+
+"I did nothing."
+
+"You enjoyed."
+
+"Privately."
+
+"Badly."
+
+The scene reset.
+
+Marek saw me in the wing this time.
+
+His face changed.
+
+"Look who got rich."
+
+Teren turned.
+
+Saw me.
+
+"Free now?"
+
+"Yes."
+
+"Too late."
+
+There it was.
+
+Clean.
+
+Not cruel.
+
+Not punitive.
+
+The run had started.
+
+Marek had the role.
+
+Changing again because I had arrived would make everyone else repeat work for my convenience.
+
+"Understood."
+
+Teren looked at me for another second.
+
+"Evening maybe. Stay?"
+
+I did not answer immediately.
+
+That mattered.
+
+Not because I wanted to be difficult.
+
+Because I had already worked half a day and because "stay" could mean three hours of waiting, work, or nothing.
+
+"What time decide?"
+
+Teren pointed at the stage.
+
+"After this run."
+
+"Fine."
+
+He turned back.
+
+Marek said, "Good."
+
+I pointed at him from the wing.
+
+He laughed and missed his next entrance cue.
+
+Teren said, "Marek."
+
+"Greg distracted me."
+
+"Greg is standing still."
+
+"Menacingly."
+
+"Again."
+
+Nessa handed me a coil of narrow stage cord.
+
+"Since you're here."
+
+I took it.
+
+"What?"
+
+"Untangle."
+
+"Paid?"
+
+She looked at me.
+
+"Are you in the evening?"
+
+"Unknown."
+
+"Then unknown."
+
+Healthy institution.
+
+I sat on the low box near the property table and untangled stage cord while they finished the run.
+
+My crutches rested against the wall.
+
+Residual limb comfortable.
+
+Right leg slightly tired from the morning sitting and walk, nothing more.
+
+The repaired right grip disappeared under my palm when I stood once to move the box out of a costume lane.
+
+Ordinary.
+
+Onstage, Marek settled.
+
+His Steward was still broader than mine.
+
+More visible.
+
+He played the man's confidence even when the scene did not deserve it.
+
+It made Hara's irritation funnier.
+
+Teren corrected one entrance and stopped correcting the rest.
+
+By the final scene, Marek knew the handoffs again.
+
+Good.
+
+Actually good.
+
+Not the word conspiracy.
+
+The work.
+
+He had covered this role before.
+
+Now he covered it again because I was somewhere else.
+
+Theatre remembered too.
+
+That was not loss.
+
+It was consequence.
+
+At the end of the run, Teren came backstage.
+
+"Evening yes."
+
+He looked at Marek.
+
+"Steward."
+
+Then at me.
+
+"Back rail and third-scene servant."
+
+I knew the servant.
+
+Four lines.
+
+One tray.
+
+One entrance through the side lane.
+
+Not Steward.
+
+Still paid work.
+
+"Fine."
+
+"Call second bell."
+
+"Pay?"
+
+Rinna answered from behind him.
+
+"Normal split for rail. Small line share."
+
+I had not seen her approach.
+
+"Good."
+
+I closed my eyes.
+
+Marek laughed.
+
+Rinna looked at him.
 
 "What?"
 
 "Nothing."
 
-"You looked."
+I said, "Nothing."
 
-"I am allowed eyes."
+Rinna stared at both of us.
 
-"Ask."
+Then walked away.
 
-I considered it.
+Teren did too.
 
-"No."
+Marek came over.
 
-Lyssa narrowed her eyes.
+"You could have had Steward."
 
-This was much better than information.
+"I was counting straps."
 
-"Greg."
+He waited for the joke.
 
-"I have grown."
+There was none.
 
-"You bought four onions."
+"You chose straps?"
 
-"Five."
+"I had already said yes."
 
-"Exactly."
+Marek looked toward Nessa.
 
-I laughed and checked the rice.
+"Is he sick?"
 
-Outside, someone in the court shouted for Tavi to get down from something.
+Nessa said, "Frequently."
 
-Tavi shouted back that he was already down.
+"I heard that."
 
-A second voice said, "No you're not."
+"Good."
 
-Then a thump.
+"Stop."
 
-No scream.
+Marek grinned.
 
-Probably fine.
+Then he held out the serving cloth.
 
-I did not go investigate.
+"Tell me where this catches."
 
-That might have been growth too.
+I looked.
 
-Dinner was rice, onion, greens, and the remaining pepper cheese divided over the top because we had it.
+He had twisted it once around his wrist before the handoff.
 
-Lyssa ate while still working until I told her she was going to sew food into somebody's clothing.
+"You're doing that."
 
-She moved the pale piece away.
+"Doing what?"
 
-"Whose?" I asked automatically.
+I showed him.
+
+He untwisted it.
+
+"Oh."
+
+"No charge."
+
+"Shop money changed you."
+
+"Deeply."
+
+The evening performance was ordinary.
+
+That was not an insult.
+
+Marek played Steward.
+
+I worked the back rail before the house opened, checked the third-scene tray, and entered as servant when called.
+
+Four lines.
+
+No rescue.
+
+No emergency substitution.
+
+No surprise promotion.
+
+The serving cloth did not fall.
+
+Hara got the strongest laugh in the second scene.
+
+Venn got one better in the third by waiting half a breath before looking at the empty dish.
+
+Marek was early once, recovered, and later landed a line I usually liked saying.
+
+It bothered me.
+
+A little.
+
+Not enough to become a problem.
+
+Enough to be honest.
+
+I had wanted Steward.
+
+I had also wanted to keep the half-day agreement I made first.
+
+Both things could be true.
+
+Afterward Rinna paid me the rail share and small line share she had named.
+
+Less than Steward would have been.
+
+More than nothing.
+
+I counted it.
+
+Then combined none of it with Hollen's money until I got home.
+
+Not because the coins knew their origin.
+
+Because I did.
+
+Outside, Colm was washing blue paint from one hand.
+
+"Blue room survive?"
+
+"Today."
+
+"Tomorrow?"
+
+He shrugged.
+
+"Actors."
+
+Fair.
+
+I went home.
+
+Lyssa was still awake.
+
+Daro's coat lay folded near the table.
+
+The extension strip was still pinned.
+
+Not sewn.
+
+"Approved?" I asked.
+
+"Tomorrow."
+
+"Again."
+
+"He came late."
+
+I laughed.
+
+"Queue consequence."
 
 She looked at me.
 
-I looked at her.
+"What?"
 
-"Damn it."
+"Nothing."
 
-She smiled.
+I put the day's money on the table in two small groups.
 
-No answer.
+Hollen.
 
-We ate.
+Theatre.
 
-The day had contained one Guild runner, two reports, a probable animal identification, one paid consultation, five onions, and a magical street instrument I could not name.
+Lyssa looked at them.
 
-None of it had become an emergency.
+"Both?"
 
-That felt important in a way I did not need to explain.
+"Yes."
 
-My old life had taught me fieldcraft because getting an animal wrong could hurt people.
+I told her the short version.
 
-This life had found a smaller use for the same knowledge.
+Hollen first.
 
-Read a report.
+Theatre call second.
 
-Say probably.
+Steward gone by the time I arrived.
 
-Say I don't know.
+Back rail and four-line servant instead.
 
-Get paid.
+She listened.
 
-Go buy onions.
+"You wanted Steward."
 
-Tomorrow had no assignment again.
+"Yes."
 
-The east road had probable ditchrunners.
+"You left Hollen?"
 
-Carrow had a woman who could make six bronze cups answer one touch.
+"No."
 
-Our shelf had four and a half onions after dinner.
+She nodded.
 
-The world was getting stranger without becoming less ordinary.
+That was all.
+
+I waited.
+
+She looked at me.
+
+"What?"
+
+"Nothing."
+
+"You want me to say you were right."
+
+"No."
+
+"You do."
+
+"I want you to recognize that I made a mature commitment decision."
+
+"No."
+
+"Cruel."
+
+She moved the household portion of the money together.
+
+Not all.
+
+I kept some.
+
+Again.
+
+The brown cloth by the wall still had three pins.
+
+The repaired shirt remained wearable.
+
+The better shirt still carried its pale blue paint streak.
+
+Two lengths of cord remained on the shelf.
+
+Daro's coat remained pinned, waiting on Daro rather than controlling Lyssa's schedule.
+
+Hollen might need me later in the week.
+
+The theatre might call tomorrow.
+
+Edrin might never call at all.
+
+For the first time, those possibilities did not feel like empty space waiting to be filled.
+
+They felt like my calendar.
+
+Messy.
+
+Conditional.
+
+Occasionally badly timed.
+
+Mine.

@@ -1,1131 +1,1019 @@
 # CHAPTER 276
 
-## THE MASK
+## THE WITNESS
 
-The theatre sent Lenn before breakfast was finished.
+The morning after the water returned, somebody tried to pay me for seeing a cart hit a post.
 
-This was rude in several ways.
+I had not seen the cart hit the post.
 
-First, I had food.
+This complicated negotiations.
 
-Second, Lenn knew where I lived now.
+The man found me outside Nerin's bakery.
 
-Third, she had learned not to explain anything before I agreed to leave.
+I had gone there because we needed bread again and because the small dark loaves had survived our household better than the white ones from two streets over.
 
-She stood in the doorway with the same narrow wooden case she always seemed to be carrying.
+This was not loyalty.
 
-"Rinna wants you."
+It was crumb management.
 
-"For what?"
+Nerin had two small dark loaves left.
 
-"Performance."
+I bought one.
 
-"Today?"
+Full price.
 
-"Yes."
+No errand.
 
-"Lines?"
+No message for Mara.
 
-"Some."
+No six becoming eight.
 
-"How many?"
+A clean transaction.
 
-"Enough."
+I had almost escaped when a thin man in a green coat stepped sideways into my path.
 
-I looked past her at the courtyard.
+"You Greg?"
 
-No fire.
+I looked at him.
 
-No running people.
+"Depends what I witnessed."
 
-No obvious emergency.
+He blinked.
 
-"Ordinary pay?"
+I had guessed correctly too early.
 
-"Yes."
-
-"One house?"
-
-"One."
-
-This was suspiciously civilized.
-
-Lyssa was tying the narrow paper parcel from last night into her work bag. She did not look up.
-
-"Go," she said.
-
-"You don't even know what it is."
-
-"Theatre."
-
-"Could be murder."
-
-Lenn said, "Not unless you miss the third lamp."
-
-I looked at her.
-
-She smiled.
-
-That decided it.
-
-"I hate both of you."
-
-Lyssa kissed my cheek on the way past.
-
-"Eat first."
-
-I finished breakfast.
-
-Lenn waited without pretending this was inefficient.
-
-The repaired shoe stayed quiet on the walk.
-
-My shoulders were still a little tired from yesterday's stairs and lamp holding, but ordinary tired. No pain. Residual limb comfortable. Right leg fine.
-
-The lower storage room did not claim me on the way out.
-
-Mella was in the courtyard speaking to Olan about something near the drain. She saw me, lifted two fingers, and said, "Wall's dull."
-
-That was all.
-
-I stopped anyway.
-
-"Dry?"
-
-"Drying."
-
-"Blue?"
+"Cart at Lower Reed yesterday."
 
 "No."
 
-"Good."
+"You were there."
 
-"Theatre?"
+"Also no."
 
-I looked at Lenn.
+"Near there."
 
-Then at Mella.
+"That is a different sentence."
 
-"Does everyone know my schedule?"
+He looked irritated.
 
-"You dress nicer for theatre."
+Good.
 
-I looked down at myself.
+I had been awake for less than two hours and already preferred bread.
 
-I did not.
+"Water cart," he said. "Hit the post by the dyer's lane."
 
-Lenn said, "You do."
+I thought back.
 
-Betrayal continued.
+Yesterday had contained several carts.
 
-Mella went back to Olan.
+Olan's low cart.
 
-No wall emergency.
+Vela's soup cart.
 
-No leak announcement.
+Other people's water carts at the cistern.
 
-No invitation to supervise scraping.
+I had not been at Lower Reed.
 
-Yesterday remained yesterday.
+"Didn't see it."
 
-We walked.
+"You were at the north draw."
 
-"What is third lamp?" I asked Lenn.
+"Yes."
 
-"You'll see."
+"Same cart came through."
 
-"You have become worse."
+"Maybe."
 
-"Rinna says you ask too many questions before seeing the thing."
+"Blue sideboards."
 
-"Rinna says many cruel truths."
+I remembered a handcart in line with six covered pots.
 
-"This one was free."
+Vela's.
 
-The theatre was calmer than the last time Lenn had fetched me.
+Not blue.
 
-No caller missing.
+Another with shoulder yokes nearby.
 
-No birds late.
+No useful memory.
 
-No one carrying half a coat.
+"I don't know."
 
-Just the ordinary noise of a house preparing for one performance.
+The man lowered his voice.
 
-Hammering somewhere high.
-
-A violin tuning badly in a room with a closed door.
-
-Two people arguing over whether a table belonged left of the arch or under it.
-
-One of them had the table.
-
-The other had certainty.
-
-I knew who would win.
-
-Rinna was near the stage entrance with a folded coat over one arm.
-
-She looked me over.
-
-"Good."
-
-"You say that before explaining things."
-
-"Masked Guest."
-
-"That sounds criminal."
-
-"Seven lines. Banquet scene. Sit through most of it. Stand once. Cross once. Exit in blackout."
-
-I paused.
-
-"Sit?"
-
-"Mostly."
-
-"You have finally recognized my highest skill."
-
-"Pavin isn't here."
-
-"Why?"
-
-"Not your problem."
-
-Pavin existed.
-
-Pavin was absent.
-
-My knowledge of Pavin was complete.
-
-"Have I seen the piece?"
-
-"No."
-
-"Title?"
-
-"The Last Lantern."
-
-"Reassuring."
-
-Rinna handed me the coat.
-
-Dark blue wool.
-
-Long enough to look expensive from a stage and ordinary from six feet away.
-
-"Costume room. Marek has the pages. Sivi has the mask. Do what Sivi says about the mask."
-
-"Who is Sivi?"
-
-"Lamp side."
-
-"What does that mean?"
-
-"You'll see."
-
-The theatre had coordinated against me.
-
-I went to the costume room.
-
-Marek was there wearing a red sash and eating something from a paper twist.
-
-"Why are you here?" he asked.
-
-"Masked Guest."
-
-He swallowed.
-
-"Pavin?"
-
-"Not my problem."
-
-Marek nodded.
-
-"Learning."
-
-"Seven lines."
-
-"Eight if you count the laugh."
-
-"A laugh is not a line."
-
-"Pavin makes it one."
-
-"Then Pavin is an artist."
-
-Marek handed me three pages.
-
-The scene was simple enough in writing.
-
-A noble family held a late banquet while waiting for a messenger who never arrived.
-
-Everyone at the table pretended not to fear what that meant.
-
-The Masked Guest was a relative nobody trusted.
-
-He said seven short things.
-
-Most were unpleasant.
-
-My favorite was:
-
-`A quiet road is still a road.`
-
-I did not know what it meant in the rest of the play.
-
-Marek did.
-
-"You're the aunt's cousin," he said.
-
-"I have become older."
-
-"Nobody says how old."
-
-"Good."
-
-"You sit here."
-
-He pointed to a chair already set near the costume-room wall as if the theatre had brought blocking to me personally.
-
-"At the top, you're already at the table. Curtain opens on you seated. You don't have to enter."
-
-"Rinna does love me."
-
-"Don't stand until Hara says `send him home`."
-
-"Then?"
-
-"Stand. Third line. Walk behind my chair. Stop on the brass mark. Say `A quiet road is still a road.` Then the lamp changes."
+"Just need someone say it was overloaded."
 
 There it was.
 
-"Third lamp."
+"Was it?"
 
-Marek grinned.
+"Obviously."
 
-"Third lamp."
+"Did you see it?"
 
-"What happens?"
+"After."
 
-"Mask changes."
+"Then you can say that."
 
-I stared at him.
+He reached into his coat.
 
-"Changes how?"
+I looked at his hand.
 
-"Go ask Sivi."
+Not frightened.
 
-"You all deserve each other."
+Interested.
 
-He took another bite from the paper twist.
+He produced two copper coins.
 
-"Do not touch the inside of the mask with wet fingers."
+"For your time."
 
-"Why?"
+"My time doing what?"
 
-"Sivi gets angry."
+"Answering a clerk."
 
-"That is not mechanism."
+"With what answer?"
 
-"It is consequence."
+"Cart was overloaded when it left the cistern."
 
-Fair.
+I looked at the coins.
 
-I learned the scene.
+Two copper was not much.
 
-Not perfectly.
+That made it worse in a specific way.
 
-Enough to become dangerous.
+He did not think he was buying a dangerous lie.
 
-Marek read the other parts at first. Then Hara arrived and read her own. Venn appeared halfway through with a cup of water and told me my second line belonged after the cup hit the table, not after Hara sat.
+He thought he was buying convenience.
 
-"Page says after she sits."
+"I don't know that."
 
-"Page is old."
+"You saw the carts."
 
-I looked at Marek.
+"I saw carts."
 
-"Why does this theatre hate current paper?"
+"Blue one."
 
-"Paper is slow."
+"I don't remember a blue one."
 
-Hara said, "Actors are worse."
+"You will when they ask."
 
-No one disagreed.
+"No."
 
-We ran it twice in the costume room without the mask.
+He stared at me.
 
-The first time I stood too early.
+"No?"
 
-The second time I waited too long because I was listening for the cup instead of the sentence around it.
+"No."
 
-Marek stopped me.
+"You don't have to swear anything."
 
-"Don't hunt the cue."
+"Then you don't need me."
 
-"Useful."
+I moved around him.
 
-"You stare when you're hunting."
+He caught my sleeve.
 
-"I am acting."
+Not hard.
 
-"You are waiting visibly."
+A mistake anyway.
 
-Worse.
+I stopped.
 
-We ran it again.
+Looked down at his hand.
 
-This time I listened to the scene.
+He let go.
 
-Hara said the line.
+"Just trying to settle damage," he said.
 
-Venn put down the cup.
+"Then settle damage."
 
-I answered when the moment arrived instead of when the object made noise.
+"Driver says post was already cracked."
 
-Marek nodded once.
+"Maybe it was."
 
-That was enough praise.
+"It wasn't."
 
-Then Sivi came in carrying my face.
+"Then say that if you know it."
 
-I disliked this immediately.
+"Need someone from the draw."
 
-She was small, probably around forty, with black hair cut to her jaw and a dark apron covered in narrow pockets. The mask rested on both palms.
+"Find someone who saw the cart."
 
-From the front it looked simple.
+I walked away.
 
-Black lacquer.
+The bread remained under my arm.
 
-Smooth cheeks.
+My right shoe remained attached.
 
-Thin mouth.
+My heart had sped up a little.
 
-No expression worth naming.
+Not danger.
 
-The eye openings were narrow but not dangerously so.
+Annoyance with a body component.
 
-Three pale threads ran from the temples into the lacquer and disappeared.
+I crossed one street before checking behind me.
 
-Not sewn threads.
+Green Coat had not followed.
 
-Lines inside the material.
+Good.
 
-Faint silver.
+I went home.
 
-"Greg?" Sivi asked.
+Lyssa was still there.
 
-"Apparently."
+That was unusual enough to make me stop in the doorway.
 
-"Sit."
+She sat at the table with the pale work in front of her.
 
-I sat.
+Finally visible again.
 
-She held the mask near my face without touching it.
+It had become a narrow folded length with small pale buttons along one edge.
 
-"Too wide at jaw. Good."
+Not six separate wraps.
 
-"Why is too wide good?"
+Not obviously anything I could name.
 
-"Air."
+I put the bread down.
 
-"Also good."
+"You are here."
 
-She turned it over.
+"Sharp."
 
-The inside was lined with dark cloth around the brow and cheek edges. Tiny glassy scales were set beneath the lacquer near the mouth and eyes.
-
-Not many.
-
-Maybe twelve.
-
-They caught the room light and gave nothing back.
-
-"What does it do?"
-
-Sivi looked at me.
-
-"Changes expression under marked stage lamps."
-
-Finally.
-
-"How?"
-
-"Light."
-
-"Yes, I gathered that."
-
-"Then you're done."
-
-Another expert.
-
-"Does the lamp change the glass?"
-
-"Mask changes."
-
-"Does the mask store anything?"
-
-"Don't know."
-
-That surprised me.
-
-Sivi shrugged.
-
-"I run lamps. I don't make faces."
-
-Perfect.
-
-"Who made it?"
-
-"Old prop shop. Before me."
-
-"How old?"
-
-"Old enough I don't care."
-
-She fitted the mask.
-
-The cloth touched my brow and upper cheeks.
-
-No pressure on the nose.
-
-Breathing easy.
-
-Vision narrower but workable.
-
-I turned my head.
-
-Sivi tapped my shoulder.
-
-"Slow."
-
-"Why?"
-
-"Because you can't see the chair edge."
-
-That was a better reason than magic.
-
-She tied the mask behind my head.
-
-"You use both crutches on the cross?"
+"Work later?"
 
 "Yes."
 
-"Good. Don't let Marek talk you into one."
+I looked at the pale piece.
 
-From across the room, Marek said, "I wasn't going to."
+Then deliberately looked away.
 
-Sivi did not look at him.
+Lyssa noticed.
 
-"He was."
+"You can ask what this is."
 
-I liked Sivi.
+I turned back.
 
-"Lamp one keeps it plain," she said. "Lamp two pulls the mouth down. Lamp three opens the eyes and lifts the mouth."
+"Can I?"
 
-"Happy?"
+"Yes."
 
-"No."
+This felt like a trap created by months of restraint.
 
 "What is it?"
 
-"Wrong."
+"Collar facing."
 
-That was somehow worse.
+I stared.
 
-"You will see in mirror before stage."
-
-She took the mask off again.
-
-"Do not touch inside with wet fingers. Do not wipe glass scales. If you sweat, tell me. If it fogs your vision, stop."
-
-"Does it bite?"
-
-"Only actors."
-
-Marek laughed.
-
-Sivi did not.
-
-We went to the stage.
-
-The banquet set occupied most of it.
-
-Long table.
-
-Six chairs.
-
-Two high-backed seats at the far end.
-
-A painted window showing black sky and a single lantern hanging outside.
-
-The lantern was real enough to glow.
-
-Not flame.
-
-Something small and warm-white inside glass.
-
-I did not ask.
-
-I was developing restraint through exhaustion.
-
-Sivi worked at stage left with three hooded lamps mounted on low stands.
-
-The first gave ordinary amber light.
-
-The second was cooler.
-
-The third looked almost colorless until she opened its shutter.
-
-A faint blue-white line appeared across the floor.
-
-Not bright.
-
-Precise.
-
-She closed it again.
-
-"Brass mark," Marek said.
-
-A small brass nail had been set into the stage floor behind his chair.
-
-"You stop with right foot beside it."
-
-"Not on it?"
-
-"Beside."
-
-"Why?"
-
-"Light catches face there."
-
-"That I accept."
-
-We ran the scene without masks.
-
-Then with masks.
-
-The first full run failed because I forgot that narrow vision made my left crutch tip disappear below the mask edge.
-
-I placed it too close to Marek's chair.
-
-The tip struck wood.
-
-Small sound.
-
-Not disaster.
-
-Marek shifted the chair half an inch before my next step.
-
-After the run, Sivi said, "Again. Look with head before moving crutch."
-
-"I know where my crutch is."
-
-"You knew where the chair was too."
-
-Annoying.
-
-Correct.
-
-Second run, I moved my head first.
-
-The cross became slower.
-
-Better.
-
-At the brass mark, I said the road line.
-
-Sivi opened lamp three.
-
-Something changed across my face.
-
-Not heat.
-
-Not pressure.
-
-A tiny crawling coolness in the lacquer, distant through the cloth lining.
-
-Hara stopped speaking.
-
-"What?" I asked.
-
-Marek pointed toward the rehearsal mirror.
-
-I turned.
-
-The mask was smiling.
-
-Not broadly.
-
-That would have been easier.
-
-The mouth had lifted only a little while the eye shapes seemed wider and brighter. The same blank black face now looked delighted in a way no sane person would be delighted during a family argument.
-
-It was excellent.
-
-"That is horrible."
-
-Sivi said, "Good."
-
-"Does it physically move?"
-
-"A little."
-
-"The lacquer?"
-
-"A little."
-
-"The glass scales?"
-
-"Greg."
-
-"Fine."
-
-Hara was smiling at me.
-
-"You like it."
-
-"I hate it professionally."
-
-"You like it."
-
-I did.
-
-Not because it was power.
-
-It was a prop.
-
-An old theatre prop somebody else had built, somebody else maintained, somebody else lit, and I happened to wear.
-
-That was better.
-
-We ran again.
-
-The mask did the strange smile.
-
-I overacted around it.
-
-I could feel myself doing it while I did it and still could not stop in time.
-
-I leaned too far into the line.
-
-Made my shoulders stiff.
-
-Turned my head slowly like a villain in a cheap story.
-
-Afterward Marek said, "Stop helping the mask."
-
-"It looked wrong."
-
-"That's its job."
-
-Hara nodded.
-
-"You're already interesting because the face changed. You don't have to tell us you noticed."
-
-I looked at her.
-
-"You are both very confident for people wearing normal faces."
-
-Sivi said, "Again."
-
-We did it again.
-
-This time I said the line.
-
-The lamp changed.
-
-The mask smiled.
-
-I did nothing.
-
-Not nothing exactly.
-
-I kept breathing.
-
-Kept my weight balanced.
-
-Looked at Hara because she was the person I had been speaking to.
-
-Let the face become wrong without announcing it through every joint I owned.
-
-The silence afterward lasted half a second longer.
-
-Then Hara continued.
-
-Better.
-
-Nobody praised me.
-
-Also better.
-
-By the time doors opened, I knew the seven lines.
-
-I knew the cup cue.
-
-I knew where my right foot belonged beside the brass nail.
-
-I knew to turn my head before placing the left crutch near Marek's chair.
-
-I knew lamp three made the mask smile wrong.
-
-I did not know how.
-
-The audience arrived.
-
-The Masked Guest started seated before curtain, which meant I took my place early while people were still finding theirs beyond the stage.
-
-I could hear them.
-
-Coughing.
-
-Talking.
-
-A child asking why the lantern was already lit.
-
-Someone shushing the child.
-
-Someone else dropping something hard enough to roll under a seat.
-
-Theatre.
-
-The mask remained off until the last moment.
-
-Sivi fitted it herself.
-
-"Vision?"
-
-"Clear."
-
-"Pressure?"
-
-"Fine."
-
-"Inside dry?"
-
-"Yes."
+"That is less exciting than every theory I refused to have."
 
 "Good."
 
-She moved away.
+"For what?"
 
-The house dimmed.
+"Coat."
 
-Curtain.
+"Whose?"
 
-The first half of the scene happened around me.
+Lyssa looked at me.
 
-This was harder than talking.
-
-Sitting still while other actors built the room required not looking like a man waiting for seven lines.
-
-Marek had told me that.
-
-Hara had told me in more insulting words.
-
-I listened.
-
-The scene was better with everyone doing their actual parts.
-
-Marek was not reading multiple people badly.
-
-Venn's cup had weight.
-
-Hara's aunt character could slice a room with three polite words.
-
-My first line arrived.
-
-I said it.
-
-No problem.
-
-Second.
-
-Cup.
-
-I answered the moment, not the sound.
-
-Then Hara said, "Send him home."
-
-I stood.
-
-Slow enough to stay balanced.
-
-Both crutches.
-
-Cross behind Marek.
-
-Head first.
-
-Left tip clear of chair.
-
-Right foot beside brass nail.
-
-I said, "A quiet road is still a road."
-
-Lamp three opened.
-
-The audience changed.
-
-Not a gasp.
-
-A little collective shift.
-
-People leaning without meaning to.
-
-The mask smiled.
-
-I knew because I felt that faint cool crawl through the lacquer.
-
-I did not help it.
-
-Hara looked at me.
-
-Her face changed by almost nothing.
-
-Enough.
-
-Then she said her next line.
-
-The scene moved.
-
-My last four lines went where they belonged.
-
-I sat again.
-
-Later, during the blackout, I stood and left by the marked route.
-
-Sivi caught my elbow just beyond the curtain because the mask narrowed my vision and the floor changed there.
-
-Not dramatic.
-
-Practiced.
-
-She removed the mask.
-
-"Dry," she said.
-
-"I am glad my face passed inspection."
-
-"Mask passed."
+"You got one question."
 
 "Cruel."
 
-Marek came off two scenes later.
+She smiled.
 
-"You stopped helping it."
+The pale work was a collar facing.
 
-"I was told."
+That resolved exactly one thing and created almost nothing.
 
-"Usually takes Pavin longer."
+Beautiful.
 
-"You are lying to make me feel good."
+"Man tried to buy me outside Nerin's," I said.
 
-"Pavin hates the mask."
+Lyssa's hands stopped.
 
-"Why?"
+Not dramatically.
 
-"Says it steals his face."
+Enough.
 
-That sounded like an actor problem so specific I immediately believed it.
+"Who?"
 
-"Does it?"
+"Don't know. Green coat. Thin. Wanted me to tell a clerk a blue-sided water cart was overloaded when it left the north cistern yesterday."
 
-"No. It gives him another one."
+"Was it?"
 
-"That is worse."
+"I don't know. I don't remember the cart."
 
-Marek grinned and left to change.
+"Why you?"
 
-The rest of the performance did not involve me.
-
-I stayed because Rinna had not paid me yet and because leaving in costume would have created questions I did not want.
-
-From backstage I watched Sivi work the lamps for later scenes.
-
-Not all of them were magical.
-
-Most were just lamps.
-
-One had a shutter that made window bars across the floor.
-
-One warmed the painted lantern outside the fake window.
-
-Lamp three remained closed after my scene.
-
-The magical thing had one job in the piece.
-
-Then it was done.
-
-That restraint felt familiar for reasons I refused to make symbolic.
-
-After curtain, Rinna paid me ordinary performance money.
-
-No emergency bonus.
-
-No promise tomorrow.
-
-"Pavin back next house?" I asked.
-
-"Probably."
-
-"So I have been replaced in advance."
-
-"You were the replacement."
-
-"Technicality."
-
-Rinna looked toward the stage.
-
-"You did fine."
-
-"Marek says I stopped helping the mask."
-
-"Good."
-
-"That is all anyone says here."
-
-"It was enough."
-
-She moved on to somebody with a real problem.
-
-I found Lenn near the side passage.
-
-"Third lamp did not kill me."
-
-"I said not unless you missed it."
-
-"What happens if I miss it?"
-
-"Your face stays boring."
-
-"You implied murder."
-
-"You invented murder."
-
-Evidence discipline had become personally inconvenient.
-
-I went home after dark.
-
-No one followed me.
-
-No Green Coat.
-
-No Senn.
-
-No Guild runner.
-
-No Hessa note waiting under the door.
-
-Lyssa was home first.
-
-The narrow paper parcel from yesterday was no longer on the table.
-
-Something else was.
-
-Two small pears.
-
-Better mystery.
-
-"Theatre?" she asked.
-
-"I wore a magical face and insulted a noble family."
-
-She looked up.
-
-"Mask play?"
-
-"You know it?"
-
-"Seen one."
-
-"Of course."
-
-I described Sivi's mask.
-
-Black lacquer.
-
-Glass scales inside.
-
-Three lamps.
-
-Wrong smile.
-
-Lyssa listened while cutting one pear.
-
-"Did it hurt?"
-
-"No."
-
-"Hot?"
-
-"No. Tiny cool feeling when it changed."
-
-"You use magic?"
-
-"No."
-
-"Good."
-
-"Sivi uses lamps. I use my face as storage."
-
-"Your face finally useful."
-
-I pointed at her.
-
-"Theatre professionals praised me more."
+"Because I was at the cistern. Apparently proximity is testimony."
 
 "How much?"
 
-I told her the pay.
+"Two copper."
 
-We split the household share the way we had been doing instead of letting tired arithmetic become tomorrow's fiction.
+Lyssa's mouth tightened.
 
-Then we ate pears.
+"You take?"
 
-I told her Mella had said the wall was dull and drying.
+"No."
 
-"Good," Lyssa said.
+"He touch you?"
 
-That was the entire whitewall follow-up.
+I paused.
 
-No expedition downstairs.
+"Sleeve. Briefly. Let go when I looked at him."
 
-No second scraping lesson.
+She set the pale piece down.
 
-No magical plumbing investigation.
+"Greg."
 
-The wall belonged to Mella.
+"I'm fine."
 
-The mask belonged to Sivi.
+"I know."
 
-My magic belonged, for now, to Hessa's supervised room.
+That was not what she meant.
 
-That left me with the useful middle territory.
+I sat.
 
-I could know something without owning it.
+"Do you know a cart dispute?"
 
-I could use something without understanding it.
+"No."
 
-I could wear a magical face for one scene and still come home with my own.
+"Lower Reed, dyer's lane, post damage. Driver says post was cracked already. Green Coat says it wasn't."
 
-Lyssa finished her pear.
+"Could be nothing."
 
-"You like the mask."
+"Probably is."
 
-"I hated it professionally."
+Lyssa looked at me.
 
-"You liked it."
+"Probably."
 
-"A little."
+The word stayed between us.
 
-"Mm."
+Not because this resembled Bren.
 
-She gave me the second half of her pear anyway.
+It did not.
 
-Tomorrow had no role waiting.
+Wrong coat color.
 
-That was fine.
+Wrong face.
 
-Tonight, one had been enough.
+Wrong subject.
+
+Wrong scale.
+
+No reason to connect it to Vale, Mason's Cut, theatre money, deliveries, or any of the older pressure.
+
+A dishonest man could simply be dishonest without joining the grand conspiracy I did not have evidence for.
+
+"I'm not making it Bren," I said.
+
+"Good."
+
+"Or Vale."
+
+"Good."
+
+"Or brown coat."
+
+"Green."
+
+"Very green."
+
+"Then don't."
+
+"I won't."
+
+Lyssa returned to the collar facing.
+
+I cut bread.
+
+The morning could have ended there.
+
+It did not.
+
+A knock came before midday.
+
+Two firm knocks.
+
+Then one.
+
+I looked at Lyssa.
+
+She looked at me.
+
+"Not Hessa," I said.
+
+"You know knocks now?"
+
+"I know Hessa sends children who ask for extra coin."
+
+I opened the door.
+
+A woman stood outside wearing a dark blue tabard over ordinary clothes.
+
+No weapon.
+
+No Guild mark I recognized.
+
+She held a thin board with papers clipped under cord.
+
+Behind her stood Olan.
+
+He looked apologetic.
+
+"Greg," he said.
+
+"Olan."
+
+The woman said, "You were at north cistern yesterday?"
+
+I looked at Olan.
+
+"Did the whole city decide this?"
+
+"Maris told me you went first."
+
+Of course she did.
+
+The woman held out the board slightly.
+
+"I'm Senn. Lane assessor's office. Cart struck a boundary post at Lower Reed during water hauling yesterday. I'm collecting accounts from people who may have seen the cart before impact."
+
+I laughed once.
+
+Not because it was funny.
+
+Because Green Coat had been fast.
+
+Senn watched me.
+
+"Something?"
+
+"A man in a green coat offered me two copper this morning to tell a clerk the blue-sided cart was overloaded when it left the cistern."
+
+Olan swore.
+
+Senn did not.
+
+Her face became quieter.
+
+"Did you take it?"
+
+"No."
+
+"Do you know him?"
+
+"No."
+
+"Description?"
+
+I gave it.
+
+Thin.
+
+Green coat.
+
+Brown hair cut close around the ears.
+
+Maybe thirty.
+
+Maybe older.
+
+No beard.
+
+Long nose.
+
+No visible mark.
+
+Two copper offered.
+
+Caught my sleeve once, released immediately.
+
+Senn wrote.
+
+"What exactly did he ask you to say?"
+
+I repeated it as closely as I could.
+
+Cart was overloaded when it left the cistern.
+
+Driver says post was already cracked.
+
+Need someone from the draw.
+
+You will remember when they ask.
+
+Senn wrote all of that.
+
+"Did he name the driver?"
+
+"No."
+
+"Owner?"
+
+"No."
+
+"Clerk?"
+
+"No."
+
+"Anything about who would pay for the post?"
+
+"No."
+
+"Good."
+
+I leaned on my crutches.
+
+"Good?"
+
+"Good that you are saying what you don't know."
+
+I liked her too.
+
+Carrow had too many sensible women.
+
+"Did you see a blue-sided cart at the cistern?" she asked.
+
+"I don't remember one."
+
+"Did you see any cart that appeared dangerously overloaded?"
+
+I thought.
+
+"No. But I wasn't inspecting carts."
+
+"Did you see any cart leave with water spilling or a wheel failing?"
+
+"No."
+
+"Any argument involving a blue-sided cart?"
+
+"No."
+
+"Did you see the collision?"
+
+"No."
+
+"Did you see the post before the collision?"
+
+"No."
+
+"Then that's enough."
+
+She turned the board slightly and made a final mark.
+
+I blinked.
+
+"That's it?"
+
+"That's your account."
+
+"Mostly no."
+
+"Mostly no is useful."
+
+Hessa had infected municipal government.
+
+"What happened?" I asked.
+
+Senn considered me.
+
+"A hired water cart hit a lane boundary post. Cart owner says the post was already split low and gave when the wheel clipped it. Property holder says cart was loaded beyond the lane allowance and struck a sound post. We inspect the post, cart, and accounts. Then somebody decides who pays."
+
+"Lane allowance?"
+
+"Weight and width for some narrow lanes."
+
+"Magic?"
+
+Senn looked at me.
+
+"What?"
+
+"Nothing."
+
+Not everything needed magic.
+
+That was also useful.
+
+"Who was Green Coat?"
+
+"Don't know yet."
+
+"Connected to owner?"
+
+"Don't know."
+
+"Property holder?"
+
+"Don't know."
+
+"You are very good at this."
+
+"At what?"
+
+"Not knowing."
+
+Olan laughed.
+
+Senn almost smiled.
+
+"If he approaches you again, don't argue. Get a name if offered. Don't follow him. Don't take money. Tell Olan, Maris, Cala, or the lane office."
+
+"Why those three?"
+
+"Because I can find them."
+
+Excellent system.
+
+"Am I in trouble?"
+
+"No."
+
+"Do I owe an appearance?"
+
+"Not unless someone disputes your account and the assessor asks. Probably not."
+
+"Paid?"
+
+"No."
+
+"Municipal work is worse than preserve guarding."
+
+Senn looked at Olan.
+
+"He like this?"
+
+"Mostly."
+
+"Unfortunate."
+
+She left.
+
+Olan stayed.
+
+"Sorry."
+
+"For what?"
+
+"Gave your name."
+
+"You told the truth."
+
+"Still."
+
+"Did you see the cart?"
+
+"Blue one? At cistern, maybe. I pulled ours after. Too many carts."
+
+"Did you see it overloaded?"
+
+"No."
+
+"Then we are a powerful witness team."
+
+Olan nodded.
+
+"I told her I don't know."
+
+"Apparently that is allowed."
+
+He left.
+
+Lyssa had heard most of it from the table.
+
+"Lane office," she said.
+
+"Real."
+
+"Yes."
+
+"You know Senn?"
+
+"No."
+
+"Finally."
+
+I sat again.
+
+The green-coated man had become more interesting and less important at the same time.
+
+Interesting because he had tried to shape an official account before an assessor arrived.
+
+Less important because the dispute itself was painfully ordinary.
+
+Cart.
+
+Post.
+
+Damage.
+
+Who pays.
+
+No shadow organization required.
+
+People lied over fence posts in every world.
+
+Probably every universe.
+
+Lyssa picked up the pale collar facing.
+
+"You going out?"
+
+"Wasn't planning to."
+
+"Good."
+
+"You?"
+
+"Soon."
+
+She worked another few minutes.
+
+Then folded the pale piece carefully and put it into a cloth wrapper.
+
+I watched only because she had told me what it was now.
+
+"Coat collar."
+
+"Facing."
+
+"I have learned nothing."
+
+"Facing goes inside."
+
+"I have learned one thing."
+
+She tucked it into her bag.
+
+"Buttons?"
+
+"Part of it."
+
+"Six narrow wraps?"
+
+Lyssa looked at me.
+
+"No."
+
+That was useful and narrow.
+
+The six wraps were not this collar facing.
+
+I accepted the answer without asking what they were.
+
+I deserved a medal.
+
+Lyssa left for work.
+
+I stayed home for an hour because Senn had explicitly told me not to follow Green Coat and because going outside to hunt for a man I had refused money from would be a special kind of stupidity.
+
+Also because the house needed sweeping.
+
+Heroism waited while I moved dust.
+
+Around midafternoon I went to the market for onions.
+
+Not to investigate.
+
+We needed onions.
+
+The familiar onion woman saw me and held up two before I reached her.
+
+"These."
+
+"You are deciding for me now?"
+
+"You buy bad ones if I don't."
+
+"I bought one small onion."
+
+"Four days ago."
+
+"You remember?"
+
+"You complained."
+
+"I complain beautifully."
+
+She put the two onions on the board.
+
+I paid.
+
+No free fifth onion today.
+
+The market remained economically ruthless.
+
+On the way back, I crossed Lower Reed.
+
+Not deliberately.
+
+It was one of two sensible routes home and the other had stairs I disliked.
+
+I saw the post before I saw the cart.
+
+Stone post at the corner of a narrow lane.
+
+Waist high.
+
+Fresh pale break across one upper edge.
+
+A darker line lower down.
+
+Could have been an older crack.
+
+Could have been dirt.
+
+I did not know stone.
+
+Three people stood around it.
+
+Senn was one.
+
+Another woman held a measuring cord.
+
+A broad man with a blue-sided cart stood with his arms crossed.
+
+There it was.
+
+Blue sideboards.
+
+One wheel had a fresh scrape along the rim.
+
+The cart was empty now.
+
+I stopped only long enough to register that it existed.
+
+Senn saw me.
+
+She raised one hand.
+
+Not come here.
+
+Just acknowledgment.
+
+I raised mine back.
+
+Then kept walking.
+
+The broad man looked at me.
+
+No recognition I could see.
+
+Green Coat was nowhere visible.
+
+Good.
+
+At the next corner, something clicked in a gutter.
+
+I stopped.
+
+Tiny sound.
+
+Hard shell against stone.
+
+Click.
+
+Click.
+
+A copperback crawled from beneath a damp scrap of cord.
+
+Same little beetle shape as Savin's jar.
+
+Copper-dark shell.
+
+Two faint warm lines along the back.
+
+Alive.
+
+Free.
+
+Completely uninterested in municipal corruption.
+
+I crouched as much as my crutches allowed and watched it for a few seconds.
+
+The cord scrap was dark with water and grime.
+
+Not waxed as far as I could tell.
+
+The copperback walked over it.
+
+Paused.
+
+Then kept going into a crack between stones.
+
+It did not eat the cord in front of me.
+
+It did not prove anything.
+
+But there it was.
+
+A local copperback, loose in the city, exactly where a local copperback might reasonably be.
+
+I smiled.
+
+Old-life knowledge had not needed to become a quest.
+
+Sometimes the world simply confirmed that a beetle existed.
+
+Then I went home with onions.
+
+Lyssa returned after dark.
+
+No pale work visible.
+
+No flour on her sleeve.
+
+No wrapped bundle.
+
+I told her I had seen the blue cart and post while walking home.
+
+"You stop?"
+
+"No."
+
+"Good."
+
+"Senn saw me."
+
+"Fine."
+
+"Also copperback."
+
+That got less reaction than I wanted.
+
+"Outside?"
+
+"Gutter."
+
+"Bug outside."
+
+"Magical bug outside."
+
+"Bug."
+
+I pointed at her.
+
+"You have no wonder."
+
+"I have onions?"
+
+"I bought onions."
+
+"Then I have onions."
+
+Unassailable.
+
+We cooked.
+
+Nobody knocked.
+
+Green Coat did not return.
+
+No theatre message arrived.
+
+No Hessa note.
+
+No Guild runner.
+
+The water continued running.
+
+My shoe held.
+
+My body felt ordinary.
+
+Before bed I thought about the two copper coins I had refused.
+
+Not because I regretted refusing them.
+
+Because they had been so little.
+
+A lie did not always arrive dressed as danger.
+
+Sometimes it arrived as convenience.
+
+Say you saw this.
+
+You were nearby.
+
+Close enough.
+
+Everybody knows what happened.
+
+Two copper for your time.
+
+Hessa had spent months teaching me that an observed movement was not a theory, a theory was not a mechanism, and wanting an answer did not make the answer true.
+
+Apparently the same rule worked on broken posts.
+
+I had not seen the cart leave overloaded.
+
+So I had not seen it.
+
+That was all.
+
+For once, all was enough.

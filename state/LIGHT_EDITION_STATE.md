@@ -21,9 +21,9 @@ Generation must preserve these source rules:
 
 Do not reconstruct missing prose from summaries or compact state.
 
-The current exact running manuscript contains one legacy alternate chapter-heading form at Chapter 232:
+The current exact running manuscript contains one legacy alternate chapter-heading form at Chapter 235:
 
-`## Chapter 232 — THE COUNTERSIGN`
+`## Chapter 235 — THE COUNTERSIGN`
 
 The Light parser supports that exact combined heading form in addition to the normal `# CHAPTER N` plus `## TITLE` form. The manuscript was not rewritten to satisfy the publisher.
 
@@ -62,10 +62,10 @@ Verified checkpoint at this handoff:
 - Chapters 156–219 — static and verified from recovered exact authority.
 - Chapters 220–234 — static and verified from the permanent running manuscript.
 - Continuous static Light coverage: Chapters 156–234.
-- Current exact Light-publishable endpoint: Chapter 234 — **THE CONDITION**.
+- Current exact Light-publishable endpoint: Chapter 237 — **THE CONDITION**.
 - No exact-source chapter gap remains in the 156–234 static range at this checkpoint.
 
-Chapter 232 previously appeared absent to the Light build because its exact prose used the combined heading `## Chapter 232 — THE COUNTERSIGN`. That was a parser-compatibility defect, not missing prose. The reader tooling now recognizes the exact source form without altering manuscript authority.
+Chapter 235 previously appeared absent to the Light build because its exact prose used the combined heading `## Chapter 235 — THE COUNTERSIGN`. That was a parser-compatibility defect, not missing prose. The reader tooling now recognizes the exact source form without altering manuscript authority.
 
 Re-check exact running prose on every future reader run. `generate_light.py current` should publish new exact forward chapters automatically.
 

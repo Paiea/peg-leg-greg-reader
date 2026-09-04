@@ -122,7 +122,7 @@ How do actors in ensemble settings receive and use rehearsal notes, when are not
 Mixed institutional, professional-practitioner, and theatre-education guidance. High confidence in the broad behavioral patterns: post-run notes are common, authority is usually bounded, ensemble shorthand develops, and partners often cover live mistakes. Exact hierarchy and etiquette vary substantially by company, era, contract, and production. Modern formal protocols are analogues for Carrow, not fantasy-world history.
 
 **Story translation:**
-- Chapter 225 already lands on a highly plausible note problem: Greg anticipates Hara's scripted choice and presents it early. Hara's live bridge protects the scene while Teren's later narrow correction preserves the mistake as useful residue.
+- Chapter 228 already lands on a highly plausible note problem: Greg anticipates Hara's scripted choice and presents it early. Hara's live bridge protects the scene while Teren's later narrow correction preserves the mistake as useful residue.
 - Let some full runs continue through non-safety acting errors rather than making Teren stop every imperfection. Immediate stops can remain more likely for dangerous traffic, broken physical business, or a problem that prevents the work from continuing.
 - Treat note authority as distributed by domain. Teren can own acting/story adjustments; Nessa can own props, resets, traffic, and practical backstage continuity; Jori can own physical stage/build safety and geometry; Rinna can own house/business procedure. This is a story translation, not established hierarchy beyond what manuscript evidence supports.
 - Earn shorthand over time. Greg may initially receive explicit corrections, then later understand a word, look, gesture, or repeated phrase because shared work has accumulated. Different relationships should develop different shorthand.
@@ -130,7 +130,7 @@ Mixed institutional, professional-practitioner, and theatre-education guidance. 
 - Receiving notes can differentiate characters. Greg currently has a tendency to explain the mechanism of his mistake before resetting. Other actors may simply retry, ask one precise clarification, privately disagree, or joke and then make the adjustment. Do not assign these as fixed gimmicks without manuscript evidence.
 
 **Canon status:**
-POSSIBILITY / RESEARCH SUPPORT. Chapter 225 itself establishes Greg's premature help, Hara's recovery, and Teren's narrow correction; the broader rehearsal culture remains developmental material until established in prose or explicitly approved.
+POSSIBILITY / RESEARCH SUPPORT. Chapter 228 itself establishes Greg's premature help, Hara's recovery, and Teren's narrow correction; the broader rehearsal culture remains developmental material until established in prose or explicitly approved.
 
 ---
 
@@ -199,7 +199,7 @@ How are props and costumes tracked through live performance, what makes missing 
 High confidence in the broad running principles: props have repeatable pickup/return locations, missing-item visibility matters, maintenance continues throughout a run, costumes have detailed tracks, and quick changes are planned physical work. The specific staffing, paperwork, fasteners, laundry systems, and scale belong to modern theatre and should not be imported literally into Carrow.
 
 **Story translation:**
-- Chapter 222's chalk square for Greg's parcel is already a strong Carrow-scale version of a marked props table. Repeated chalk marks, shelf positions, hooks, baskets, or cloth wraps can make an object's `home` visible without modern paperwork or explanation.
+- Chapter 225's chalk square for Greg's parcel is already a strong Carrow-scale version of a marked props table. Repeated chalk marks, shelf positions, hooks, baskets, or cloth wraps can make an object's `home` visible without modern paperwork or explanation.
 - An object's route can become social memory: who hands it to whom, which wing it returns through, who resets it, and who notices it never came back. Breaking the route creates downstream work even if the original mistake looked trivial.
 - Marek touching or using a stage object can have specific consequences beyond a joke: the item may need rewiping, repainting, replacing, drying, rechecking, or hunting because the next scene assumes it is already home.
 - Nessa's practical authority can grow from knowing object routes and failures rather than generic backstage omniscience. Other people should own other tracks and sometimes know something she does not.

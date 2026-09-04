@@ -24,7 +24,7 @@ Greg may rapidly understand implications once he actually looks, especially wher
 
 Do not overcorrect by making Greg constantly announce that he already knows things. Most familiarity should remain invisible and natural. He should simply use, pass, name, or accept ordinary world features without exposition until something about them becomes relevant. When exposition is needed, prefer Greg knowing **what** a common thing is while becoming curious about **how this instance works, why it is behaving differently, who maintains it, what it costs, or what local practice differs**.
 
-- Current visual continuity after Ch247: Greg has a fresh ordinary haircut from an unnamed Lower Steps barber. Hair is cut above/out of his eyes, clear of his ears and collar, with shorter sides/back than before. No exact named style is established.
+- Current visual continuity after Ch250: Greg has a fresh ordinary haircut from an unnamed Lower Steps barber. Hair is cut above/out of his eyes, clear of his ears and collar, with shorter sides/back than before. No exact named style is established.
 
 ### Voice / behavior targets
 
@@ -48,14 +48,14 @@ Repeated work can also reduce supervision around Greg without making him the bes
 - Often refuses Greg's attempt to inflate a narrow practical event into a grand lesson when she has her own work to do.
 - Her professional sewing/alteration work is an independent economic/social engine, not background scenery.
 - Recovered Chapters 156–219 establish a recurring work ecology around **Marra**, **Jessa**, customers, material routes, messages, deliveries, and payment/exchange well before the recent three-customer material.
-- By Chapter 195 customers at Marra's greet Lyssa by name and ask about unfinished work. Her professional recognition therefore predates Chapter 224.
+- By Chapter 195 customers at Marra's greet Lyssa by name and ask about unfinished work. Her professional recognition therefore predates Chapter 227.
 - Greg gradually learns Lyssa's Marra route until Chapter 199 says he knows it without thinking; Lyssa's work geography is part of his accumulated Carrow belonging without becoming his domain.
 - Chapter 217 explicitly establishes **one customer referral**: a satisfied cuff customer recommends another customer, whose new work is a shoulder seam. This proves referral can occur in Lyssa's work world, but does not establish a generalized referral system or the identity of every later customer.
-- Chapter 224 explicitly says she is maintaining three customers and a changing collection of cloth while Greg handles his own work.
+- Chapter 227 explicitly says she is maintaining three customers and a changing collection of cloth while Greg handles his own work.
 - Current work life includes customer visits at the apartment, jobs completed/delivered while Greg is elsewhere, payment, several unrelated garments moving through the table, and ordinary material errands.
-- Chapter 225–226 establishes paid customer-requested rework at the narrow behavioral level: the brown-cuff customer changes the cuff after completion, changes it again, Lyssa charges for both changes, delivers the job, gets paid, hears that the first cuff was prettier, and moves on.
-- Chapter 222 establishes **Maren** as a useful garment/thread supply shop route. Maren is separate from Marra. Greg can bring a cloth sample for matching; Lyssa later says `Maren usually does.` Do not invent a personal seller relationship unless prose establishes it.
-- Chapter 227 establishes another unnamed customer being fitted in the apartment while Greg arrives after the work is already underway. Lyssa pins the pale coat near the hem and refuses one requested additional narrowing point because there is not enough cloth there. This establishes customer-present fitting and one concrete material constraint/refusal, not a universal fitting doctrine or refusal/pricing policy.
+- Chapter 228–226 establishes paid customer-requested rework at the narrow behavioral level: the brown-cuff customer changes the cuff after completion, changes it again, Lyssa charges for both changes, delivers the job, gets paid, hears that the first cuff was prettier, and moves on.
+- Chapter 225 establishes **Maren** as a useful garment/thread supply shop route. Maren is separate from Marra. Greg can bring a cloth sample for matching; Lyssa later says `Maren usually does.` Do not invent a personal seller relationship unless prose establishes it.
+- Chapter 230 establishes another unnamed customer being fitted in the apartment while Greg arrives after the work is already underway. Lyssa pins the pale coat near the hem and refuses one requested additional narrowing point because there is not enough cloth there. This establishes customer-present fitting and one concrete material constraint/refusal, not a universal fitting doctrine or refusal/pricing policy.
 - The Chapter-227 customer's source remains unknown. Do not retroactively make her the Chapter-217 referral or invent another referral chain.
 - Current prose deliberately keeps many customer identities separate/uncertain. Similar sleeves, cuffs, colors, or shoulder work do not prove the same customer; Chapter 211 and Chapter 219 explicitly resist those merges.
 - Greg may notice patterns in her work but should not become her business manager, alteration analyst, or automatic courier.
@@ -98,7 +98,7 @@ Repeated work can also reduce supervision around Greg without making him the bes
 ## Teren
 
 - Recurring theatre authority for acting / scene adjustment in current prose.
-- Chapter 225 shows a useful correction language: brief, local, playable instructions tied to the exact failure rather than speeches about acting or life.
+- Chapter 228 shows a useful correction language: brief, local, playable instructions tied to the exact failure rather than speeches about acting or life.
 - He can correct Greg without becoming Greg's mentor in every domain.
 - Do not make Teren the sole source of theatre knowledge, every note a memorable aphorism, or his narrow stage instructions universal philosophy.
 
@@ -107,16 +107,16 @@ Repeated work can also reduce supervision around Greg without making him the bes
 - Demonstrated practical authority over props, resets, storage, handoffs, costume continuity, and backstage object routes.
 - Corrects operational problems directly and repeatedly; she does not need Teren to authorize every prop or reset decision.
 - Her practical relationship with Marek predates the recent property-table chapters. Recovered road-era prose shows her pinning his collar, answering his `Royal instinct` joke with `Royal stillness`, and Marek immediately becoming still. Concrete work correction can land without turning into a fight.
-- Chapter 222–225 establishes accumulated material memory around Marek's object habits: specific props are kept from him, the striped umbrella returns wet and requires drying, protected stage property gets active custody, and the painted cup is stopped/inspected after he uses it for water.
-- Chapter 228 is important anti-flattening evidence: Marek's borrowed flower spray reveals a real doorway-route problem, and Nessa incorporates his useful discovery into `Sideways through the door, upright after`, later preserving the information for Greg.
+- Chapter 225–225 establishes accumulated material memory around Marek's object habits: specific props are kept from him, the striped umbrella returns wet and requires drying, protected stage property gets active custody, and the painted cup is stopped/inspected after he uses it for water.
+- Chapter 231 is important anti-flattening evidence: Marek's borrowed flower spray reveals a real doorway-route problem, and Nessa incorporates his useful discovery into `Sideways through the door, upright after`, later preserving the information for Greg.
 - Her authority is behavioral and manuscript-established. Do not invent a formal modern title/reporting line unless later prose supports one.
 - Do not flatten Nessa into a generic prop cop, Marek babysitter, or omniscient predictor. She should respond to actual material/scene consequences, can be wrong or surprised, and can use useful information produced by somebody who also irritates her.
 
 ## Hara
 
 - Strong performer who can own major audience beats without Greg being the center.
-- Chapter 225 establishes live scene-partner recovery: when Greg presents her intended cup choice too early, she bridges inside the scene, restores her character's agency, and keeps the performance moving.
-- Chapter 222 also shows practical social memory around objects: she repositions a key because she knows Marek's sleeve path can disturb it.
+- Chapter 228 establishes live scene-partner recovery: when Greg presents her intended cup choice too early, she bridges inside the scene, restores her character's agency, and keeps the performance moving.
+- Chapter 225 also shows practical social memory around objects: she repositions a key because she knows Marek's sleeve path can disturb it.
 - Afterward her accountability is peer-level and dry rather than instructional or sentimental.
 - Do not promote Hara into Greg's acting mentor or a props authority merely because she is excellent and observant. Let her have stage relationships, work, irritation, and competence that do not revolve around teaching him.
 
@@ -124,7 +124,7 @@ Repeated work can also reduce supervision around Greg without making him the bes
 
 - Practical theatre competence includes build/repair but is **not exclusive**; current prose especially makes him legible through usable stage geometry, operation, verification, set movement, and practical repair judgment.
 - He repeatedly moves/handles flats and benches, operates/calls around working scenery, checks repaired cart hardware, uses chalk witness marks for verification, and quietly adjusts stage geometry so Greg and other performers have usable routes.
-- His authority overlaps Davin's and changes with the problem. Chapter 210 has Davin own the missing-pin diagnosis/fabrication and direct a cart test while Jori operates the cart and adds later verification; Chapter 228 has Jori narrow the recovery after Davin's name-board painting mistake.
+- His authority overlaps Davin's and changes with the problem. Chapter 210 has Davin own the missing-pin diagnosis/fabrication and direct a cart test while Jori operates the cart and adds later verification; Chapter 231 has Jori narrow the recovery after Davin's name-board painting mistake.
 - Practical accommodations can become ordinary workplace behavior without speeches about them.
 - Do not turn Jori into a universal engineer, safety oracle, formal technical boss, or Davin's permanent supervisor; keep competence specific and social.
 
@@ -134,15 +134,15 @@ Repeated work can also reduce supervision around Greg without making him the bes
 - Recovered prose establishes him repairing the curtain wheel, diagnosing the missing cart pin as pulled rather than broken, fabricating its replacement and wedge, directing Jori through a rolling test, and participating in later recognition of the returned original pin.
 - He and Jori repeatedly share hauling/setup/travel work, but the manuscript does not establish a formal supervisor/helper relationship. Authority is problem-shaped.
 - Current prose adds dry pair-specific credit/correction humor around cart repair, knots, cabinets, and practical labor. That humor works because Davin is genuinely useful; it is not his entire personality.
-- Chapter 228 gives him a real mistake with the reversible name board, then preserves competence/accountability: he remains on the repair, follows the narrowed scrape/chalk/paint solution, later carries the repaired board with the wet side protected, and the narration says he learned. Jori still watches, which establishes narrow social memory rather than permanent distrust.
+- Chapter 231 gives him a real mistake with the reversible name board, then preserves competence/accountability: he remains on the repair, follows the narrowed scrape/chalk/paint solution, later carries the repaired board with the wet side protected, and the narration says he learned. Jori still watches, which establishes narrow social memory rather than permanent distrust.
 - Do not flatten Davin into Jori's helper, permanent screwup, credit thief, comic liability, or universal handyman. Do not invent friendship, rivalry, hierarchy, or a fixed repair philosophy with Jori unless later prose establishes it.
 
 ## Marek
 
 - Strong recurring performer with humor, improvisational/recovery competence, and a repeated history of touching, borrowing, or using working stage objects in ways other workers remember.
-- Nessa, Hara, and other workers have material social memory around this behavior. Chapter 222–225 shows it creating actual downstream work or preventative adjustment: umbrella hunting/drying, object repositioning, protected property handling, reset/reorganization, and painted-cup inspection.
+- Nessa, Hara, and other workers have material social memory around this behavior. Chapter 225–225 shows it creating actual downstream work or preventative adjustment: umbrella hunting/drying, object repositioning, protected property handling, reset/reorganization, and painted-cup inspection.
 - He is not simply disobedient. Recovered prose shows him responding immediately when Nessa gives a concrete costume correction (`Royal stillness`), and current performance work shows he can adjust routes and recover inside scenes.
-- Chapter 228 explicitly prevents `permanent liability` flattening: borrowing the long flower spray causes him to discover a real doorway-route problem; he reports it, and Nessa turns the discovery into working shorthand for the company.
+- Chapter 231 explicitly prevents `permanent liability` flattening: borrowing the long flower spray causes him to discover a real doorway-route problem; he reports it, and Nessa turns the discovery into working shorthand for the company.
 - Preserve the two-sided object pattern: Marek's engagement with an object can create **trouble or useful information**. Do not make every touch a mistake, every mistake a Nessa punishment beat, or his object behavior his entire personality.
 - Do not flatten him into an idiot, saboteur, permanent liability, or Nessa's ward. He should retain independent competence, relationships, jokes, and the capacity to surprise the company usefully.
 

@@ -1,1395 +1,1011 @@
 # CHAPTER 297
 
-## THE HIGH LINE
+## THE USUAL
 
-The first thing to fall out of the sky was a sock.
+Cala's shopping note contained four words and one number.
 
-It landed three feet in front of me.
+`SOAP`
+`WICK`
+`ONIONS 2`
+`MINT`
 
-Gray.
+I read it twice.
 
-Small.
+Not because it was difficult.
 
-Damp at one heel.
+Because the last time somebody had given me a household errand, I had carried salt against my chest like a nervous smuggler.
 
-I stopped.
+This time I had a bag.
 
-The sock remained where it had fallen.
+I put the note inside.
 
-I looked up.
+Cala watched.
 
-Three floors above the lane, laundry crossed between two buildings on four lines.
+"Money."
 
-Shirts.
+"An important second component."
 
-Aprons.
+She handed me a small cloth fold tied once around a few bits.
 
-A pair of trousers large enough to shelter livestock.
+Household money.
 
-Two blue cloths.
+Not mine.
 
-One surviving sock.
+I tucked it into the inner corner of the bag, separate from the notes and charcoal.
 
-The empty peg beside it told the story.
+"Change comes back," I said.
 
-I looked down at the casualty.
-
-"You had one job."
-
-A woman leaned over the third-floor rail.
-
-"Gray?"
-
-"Mostly."
-
-"Small?"
-
-"Depends how ambitious your feet are."
-
-"Mine."
-
-That simplified ownership.
-
-I could have kept walking.
-
-Instead I moved the sock out of the cart track with the side of my right crutch tip.
-
-Not because it was my responsibility.
-
-Because a wheel would make the question more complicated.
-
-"By the stair," the woman called.
-
-I looked toward the narrow doorway beneath her gallery.
-
-A shallow wooden basket sat beside it.
-
-Laundry retrieval infrastructure.
-
-Civilization endured.
-
-I hooked the sock lightly with the lower end of my crutch, lifted it enough to catch with my free hand, and dropped it into the basket.
-
-The woman above said, "Good."
-
-"A demanding morning."
-
-She disappeared from the rail.
-
-I continued.
-
-The road tune from yesterday stayed out of my head for almost half a lane.
-
-Then my mind supplied the next phrase anyway.
-
-I ignored it.
-
-The city was allowed to have music without my participation.
-
-It was also apparently allowed to throw clothing at me.
-
-Fair balance.
-
-The morning had come bright after several days of mixed cloud and fine rain.
-
-Not hot yet.
-
-The upper walls held sun while the lane floor remained mostly in shade.
-
-That changed how Carrow looked.
-
-Lines appeared.
-
-Not road lines.
-
-Overhead ones.
-
-Laundry lines were obvious because they carried laundry.
-
-Others were thinner.
-
-Some crossed from gallery to gallery with nothing on them.
-
-Some ran along walls under eaves.
-
-One carried little paper twists every few feet, turning slowly in the moving air.
-
-Another had three dull green beads spaced along it and vanished through a pulley box above a spice shop.
-
-I knew the broad families.
-
-Drying lines.
-
-Message pulls.
-
-Light cords.
-
-Shade rigs.
-
-Lift lines.
-
-Market awnings.
-
-Things people strung above streets because streets had walls on both sides and humans were incapable of leaving useful geometry unemployed.
-
-I had spent my first life in cities with much more dangerous things overhead.
-
-Cargo cages.
-
-Bridge chains.
-
-Watch lines.
-
-Alarm wire.
-
-One memorable guild quarter had used paired levitation rails to move beer barrels above pedestrian traffic.
-
-The barrels had been safer than the pedestrians.
-
-Usually.
-
-So I did not stop because Carrow had lines.
-
-I stopped because one of them was moving wrong.
-
-The line crossed a narrow court ahead, high enough to clear the second-floor galleries.
-
-Thin dark cord.
-
-No laundry.
-
-No load I could see.
-
-It ran from a square box fixed under one roof edge to a small iron ring on the building opposite.
-
-A row of pale paper tabs hung beneath it on short threads.
-
-The tabs were not decoration.
-
-They were all leaning east.
-
-Except one.
-
-The middle tab hung straight down.
-
-I watched.
-
-Wind moved through the court.
-
-The east tabs fluttered.
-
-The west tabs fluttered.
-
-The middle one stayed still.
-
-Then the whole line dipped half an inch.
-
-Rose.
-
-Dipped again.
-
-Not much.
-
-Enough.
-
-A man beneath it was arranging shallow wooden trays on a waist-high rack.
-
-He did not look up.
-
-A woman on the opposite gallery shook a cloth over the rail.
-
-She did not look up either.
-
-So either the line was behaving normally or everybody had accepted death.
-
-Both were common urban conditions.
-
-I moved closer.
-
-The trays held sliced yellow roots.
-
-Drying, probably.
-
-The man shifted one tray into the sun.
-
-The line dipped again.
-
-The dead paper tab remained dead.
-
-I knew enough not to touch an overhead line I did not own.
-
-That lesson had survived both lives.
-
-I also knew enough to stand out of the direct path beneath it while I looked.
-
-The man with the trays noticed me doing this.
-
-"What?"
-
-"Your line."
-
-He looked up.
-
-The line moved.
-
-"What line?"
-
-I pointed.
-
-He squinted.
-
-"High line."
+Cala looked at me.
 
 "Yes."
 
-"What?"
+"I was stating policy."
 
-Excellent conversation.
+"Mm."
 
-"Middle flag isn't moving."
+The three private copper remained upstairs.
 
-He looked again.
+I did not touch them.
 
-The paper tabs fluttered around the still one.
-
-He frowned.
-
-That was enough to tell me it was not ordinary.
-
-"Huh."
-
-A technical diagnosis had been achieved.
-
-He wiped both hands on his apron.
-
-"Since when?"
-
-"I have known your line for perhaps forty seconds."
-
-He looked at me.
-
-"Now, then."
-
-"Now."
-
-He stepped away from the trays and stood where I had been standing.
-
-The line dipped.
-
-He moved out from under it.
-
-Good.
-
-"Mara!"
-
-The woman on the gallery looked down.
-
-"What?"
-
-"High line."
-
-She looked at it.
-
-The still tab remained still.
-
-"Oh."
-
-More expert language.
-
-She leaned over the rail, following the cord toward the roof box.
-
-"Don't pull it."
-
-The man said, "Wasn't."
-
-"You pull everything."
-
-"Not everything."
-
-"Door."
-
-"Door stuck."
-
-"Shelf."
-
-"Shelf was crooked."
-
-"Your tooth."
-
-He stopped.
-
-I looked away.
-
-Some arguments were private even when conducted across public air.
-
-The woman, Mara apparently, disappeared from the gallery.
-
-The man looked at me.
-
-"You know lines?"
-
-There it was.
-
-A familiar question with dangerous potential.
-
-"Broadly. Not yours."
-
-He nodded.
-
-No disappointment.
-
-Good city.
-
-"It shouldn't sag."
-
-"I gathered."
-
-"Wind line."
-
-That narrowed the category.
-
-I looked at the paper tabs again.
-
-Not a message pull.
-
-Not a lift.
-
-The square box at the roof edge had a shallow metal face with three slots.
-
-The cord entered the lower slot.
-
-A thin vane projected from the side, almost flat to the wall.
-
-I had seen wind lines used for awning control, venting, drying courts, kiln sheds, grain lofts, even cheap weather alarms.
-
-The exact local use still mattered.
-
-"What does this one run?"
-
-The man pointed at the roof above us.
-
-I stepped back far enough to see.
-
-A long strip of pale fabric lay rolled beneath the upper eave.
-
-Shade cloth.
-
-"Court shade?"
-
-"When sun turns."
-
-He pointed at the tabs.
-
-"Wind too high, stays up. Wind low, comes out."
-
-Reasonable.
-
-No sense deploying a broad shade in a gust strong enough to tear it.
-
-The paper tabs gave a cheap visible check on air movement below the roof.
-
-The line itself likely carried some combination of tension and vane response to the shade box.
-
-Likely.
-
-I did not know.
-
-"And middle tab?"
-
-He shrugged.
-
-"All should move."
-
-That was useful.
-
-Mara emerged through a ground-floor doorway carrying a long pole.
-
-Not a dramatic pole.
-
-A household pole.
-
-Wood, maybe twelve feet, with a forked metal tip.
-
-She saw me.
-
-"Who?"
-
-The man said, "Greg."
-
-I looked at him.
-
-"We skipped that part."
-
-He shrugged.
-
-"You look Greg."
-
-"Disturbing."
-
-Mara looked at the man.
-
-"You know him?"
-
-"No."
-
-"Then how?"
-
-"Cala's upstairs one."
-
-Of course.
-
-I sighed.
-
-"Greg remains correct."
-
-Mara nodded once.
-
-"Mara. That's Ovi."
-
-The man with the trays, Ovi, lifted one hand.
-
-Names complete.
-
-No paperwork.
-
-Mara carried the pole to the edge of the court.
-
-She did not stand beneath the line.
-
-She extended the fork upward and caught a small loop hanging from the wall below the roof box.
-
-Not the main line.
-
-A separate release.
-
-She pulled once.
-
-Nothing happened.
-
-She stopped immediately.
-
-Good.
-
-"Stiff," she said.
-
-Ovi said, "Pull harder."
-
-Mara looked at me.
-
-"See?"
-
-"I have been here four minutes and already understand the marriage."
-
-Ovi laughed.
-
-Mara did not.
-
-Then she did, once, despite herself.
-
-She lowered the pole.
-
-"Leave."
-
-Ovi said, "Shade?"
-
-"Leave."
-
-He looked at the sun.
-
-The court was still mostly comfortable.
-
-The bright edge had reached only the first drying rack.
-
-"Roots need half shade."
-
-Mara looked at the trays.
-
-"Move racks."
-
-Ovi looked offended by the possibility of solving a problem without solving the machine.
-
-I respected Mara immediately.
-
-Ovi moved the first rack two feet toward the wall.
-
-The shade edge covered it.
-
-He moved the second.
-
-One wheel on the rack caught in a crack.
-
-He lifted that side and rolled it free.
-
-No magic.
-
-No high line.
-
-Roots saved from whatever amount of sun offended roots.
-
-Mara leaned the pole against the wall.
-
-"Tess comes noon."
-
-Ovi nodded.
-
-That sounded like the end.
-
-I should continue walking.
-
-I did.
-
-Three steps.
-
-Mara said, "Greg."
-
-I stopped.
-
-"Yes?"
-
-"You saw first?"
-
-"The still tab."
-
-"Good."
-
-That was all.
-
-I waited half a second in case a second sentence existed.
-
-It did not.
+The bag stayed on its first notch.
 
 I left.
 
-The city did not reward me.
+The front door closed softly behind me.
 
-No copper fell from the sky.
+That was becoming ordinary too.
 
-No guild clerk appeared with a contract.
+The morning market had reached the stage between setup and crowding. Stalls were open. Sellers were awake. Customers had not yet formed into the kind of moving wall that made two crutches and one right foot feel like a civic negotiation.
 
-The sock woman did not descend to offer a career in laundry recovery.
+I liked that hour.
 
-I walked another lane.
+I could see the ground.
 
-At the corner, a pair of children were drawing circles in dust with a broken tile.
+This was an underrated luxury.
 
-One circle had six legs.
+The note stayed flat in the bag.
 
-The other had teeth.
+I knew because I checked once at the first corner.
 
-I did not ask.
+Then I stopped checking.
 
-The road tune tried again.
+That was the point of the bag.
 
-I let it.
+Two red onions came first.
 
-By the time I reached the upper market, I had stopped thinking about the high line.
+The produce stall had six kinds arranged in shallow baskets, which was five more kinds of onion than most meals deserved.
 
-Mostly.
+I knew the household onions.
 
-That was progress.
+Small red ones. Sharp. Good in broth. Cala bought them often enough that I had cut them under supervision and been told my pieces were too large, too small, and then acceptable in three consecutive minutes.
 
-I had seen a thing behaving oddly.
+I pointed.
 
-I had said something.
+"Two."
 
-The people who owned it had recognized the problem, changed the immediate work, and named the person who would come later.
+The seller picked two.
 
-My role had lasted perhaps two minutes.
-
-This was an excellent size for a role.
-
-I bought nothing.
-
-That was easier when I had brought no money.
-
-The three copper remained upstairs, safe from my growing ability to notice merchandise.
-
-I turned south instead of west.
-
-Not because south contained opportunity.
-
-Because I had not walked that stretch in a few days.
-
-The lane narrowed between a dye shop and a building with carved stone lintels.
-
-Blue water ran in a shallow channel beside the dye shop wall.
-
-Not bright blue.
-
-Gray-blue.
-
-Spent rinse.
-
-A little grate at the corner caught threads before the water entered the covered drain.
-
-Three strips of cloth had tangled there.
-
-A worker in rolled sleeves lifted them out with a hooked stick and dropped them into a bucket.
-
-Routine.
-
-I passed.
-
-At the next doorway, a woman was painting tiny white marks onto clay jars.
-
-At the next, two men were arguing about whether a plank was straight.
-
-At the next, nobody was doing anything visible, which made it suspicious.
-
-I kept walking.
-
-This was what I had wanted, apparently.
-
-Not adventure.
-
-Not exactly.
-
-A city with enough going on that I did not have to manufacture importance to justify leaving the house.
-
-Old Greg would have called that rest.
-
-Old Greg had been bad at rest.
-
-Young Greg had inherited the expertise.
-
-The road opened near a little triangular square I had crossed before without reason to remember it.
-
-Today there were six baskets on the ground.
-
-Not a market.
-
-A woman sat on an upturned crate beside them, sorting something dark and round from something pale and broken.
-
-Seeds, maybe.
-
-A man held one basket open.
-
-Another woman shook a shallow sieve.
-
-Every few shakes, three or four tiny silver shapes jumped from the basket rim.
-
-I stopped because one landed on the man's sleeve.
-
-It had legs.
-
-Six, I thought.
-
-Maybe eight.
-
-Small enough that counting was ambitious.
-
-It flashed silver, then brown.
-
-The man flicked it off.
-
-It jumped into the shade beneath the basket.
-
-I knew grain jumpers broadly.
-
-Every region had something willing to live in dry seed, flour, husks, meal, or the moral weakness of storage containers.
-
-Some were pests.
-
-Some ate pests.
-
-Some changed careers depending on season.
-
-These were not a category I recognized by exact body.
-
-That did not make them mysterious.
-
-It made them local.
-
-The woman with the sieve shook again.
-
-Two silver-brown jumpers sprang free.
-
-She said, "Good."
-
-That changed the likely category.
-
-I stayed where I was.
-
-Not close enough to interfere.
-
-The man holding the basket looked at me.
-
-"Want?"
-
-I looked at the jumping things.
-
-"Probably not."
-
-He laughed.
-
-The woman with the sieve said, "Seeds."
-
-"Ah."
-
-She pointed at the pale basket beside her.
-
-"Those."
-
-So the offer was seeds, not insects.
-
-Important clarification.
-
-"No money."
-
-"Tomorrow."
-
-"Also no current need for seeds."
-
-She shrugged and kept shaking.
-
-One jumper landed on the crate.
-
-It turned toward the basket.
-
-Then toward a pale broken seed on the ground.
-
-It jumped onto the seed.
-
-Its front end lowered.
-
-The woman watched it.
-
-"See?"
-
-I did.
-
-The little thing worried at the broken seed for a moment.
-
-Then something white moved inside the split husk.
-
-A larva.
-
-Very small.
-
-The jumper struck.
-
-The white movement stopped.
-
-"Good," the woman said again.
-
-There it was.
-
-Not pest removal.
-
-Pest sorting.
-
-The sieve was shaking the jumpers out with the seed, but she was not killing them because they were hunting something worse.
-
-I looked at the baskets.
-
-Dark round seed in one.
-
-Pale broken pieces in another.
-
-A third basket held chaff and dust.
-
-The jumpers moved mostly around the damaged seed.
-
-"You keep them?" I asked.
-
-The woman shook her head.
-
-"Not keep. Let."
-
-Better distinction.
-
-"They stay in the seed?"
-
-"If grubs."
-
-"Leave when clean?"
-
-She shrugged.
-
-"Mostly."
-
-Bounded local answer.
-
-I liked her already.
-
-The man said, "Too many, bad."
-
-"For seed?"
-
-He rubbed his fingers together.
-
-"Skins."
-
-Maybe they damaged seed coats if prey ran out.
-
-Maybe he meant shed skins fouled storage.
-
-Maybe something else.
-
-I did not turn one word into a natural history.
-
-The woman with the sieve tapped the basket rim.
-
-"Sun them."
-
-The man nodded.
-
-They lifted the sorted basket together and carried it into a bright patch of square.
-
-The jumpers reacted almost immediately.
-
-Three sprang toward the shaded underside.
-
-Two jumped onto the ground and vanished between stones.
-
-One stayed on the seed.
-
-The woman waited.
-
-Then shook the basket once.
-
-The last jumper left.
-
-"Clean enough," she said.
-
-Not clean.
-
-Clean enough.
-
-That phrase had survived every profession I had ever known.
-
-I looked at the broken pale seed.
-
-The dead grub remained inside.
-
-"What seed?"
-
-"Kessa."
-
-I knew kessa.
-
-Small oil seed. Bitter raw unless treated. Used in paste, lamp blend, sometimes bread if somebody wanted to start an argument about bread.
-
-I had seen it in sacks and cakes.
-
-I had never watched anyone use tiny jumping predators as part of sorting it.
-
-"Local jumpers?"
-
-The woman nodded.
-
-"Silverbacks."
-
-The man said, "Not silverbacks. Flickers."
-
-The woman looked at him.
-
-"Silverbacks."
-
-"Flickers."
-
-Excellent.
-
-Taxonomy had arrived.
-
-I said, "I will record both and offend everyone equally."
-
-They both looked at my bag.
-
-I had not meant literally.
-
-I reconsidered.
-
-Then I did something unusual.
-
-Nothing.
-
-I left the charcoal wrapped.
-
-The insects continued jumping.
-
-The seed sorters continued sorting.
-
-I had no client.
-
-No specimen.
-
-No assignment.
-
-No reason to turn their work into my document.
-
-That did not mean I had to forget it.
-
-"Greg," I said.
-
-The woman pointed at herself with the sieve.
-
-"Pella."
-
-The man said, "Rusk."
-
-Pella shook the sieve again.
-
-"You buy kessa, come morning."
-
-"Why morning?"
-
-"Cool."
-
-Rusk added, "Jumpers slow."
-
-Pella said, "Easier sort."
-
-Useful.
-
-Local.
-
-Not an appointment.
-
-"If I need kessa."
-
-"Then morning."
-
-I nodded.
-
-I moved on.
-
-Behind me, Rusk said, "Flickers."
-
-Pella said, "Wrong."
-
-I smiled.
-
-That was enough ecology for one street.
-
-I did not need to know where the jumpers nested.
-
-I did not need to know whether they were magical.
-
-Nothing I had seen required magic.
-
-I did not need to ask what ate them, whether they bred in the baskets, how many grubs one killed, or whether the morning cold slowed them by half or by a third.
-
-Pella and Rusk were sorting seed.
-
-They knew what they needed to know to sort seed.
-
-I had learned one useful local practice because I happened to stop.
-
-Then I had left.
-
-This was becoming a pattern.
-
-I was not sure whether to be proud or worried.
-
-At home, Cala had moved the onion basket into the shade.
-
-I looked at it.
-
-"More trouble?"
-
-"No."
-
-"Good."
-
-Tavi sat on the floor with two wooden spoons and a cup.
-
-He hit the cup.
-
-"Door red."
-
-I closed my eyes.
-
-"The song has damaged him permanently."
-
-Lyssa was not in the courtyard.
-
-I heard her upstairs moving something across the floor.
-
-Cala pointed at my bag.
-
-"Buy?"
-
-"Nothing."
-
-"Good."
-
-"A sock fell on me."
-
-Cala looked up.
-
-"Whose?"
-
-"Woman three floors above. I returned it to a basket."
-
-"Good."
-
-Apparently this was the approved outcome.
-
-I sat at the table.
-
-Right foot forward.
-
-Left knee clear.
-
-The walk had been longer than I meant it to be.
-
-My palms felt it more than my leg.
-
-Not pain.
-
-Just pressure from the grips.
-
-I opened and closed my fingers.
-
-Tavi hit the cup again.
-
-"Door red."
-
-"You have one song."
-
-He hit it again.
-
-Cala said, "You have many words. Same problem."
-
-I looked at her.
-
-"That was cruel."
-
-"True."
-
-Also cruel.
-
-Lyssa came down carrying a folded length of cloth.
-
-She set it on the far end of the table, away from Tavi.
-
-Not my work.
-
-I did not ask.
-
-She looked at me.
-
-"Walk?"
+"These?"
 
 "Yes."
 
-"Where?"
+She weighed them in one hand.
 
-I thought about the question.
+Not on a scale.
 
-A sock.
+Just her hand.
 
-A high line.
+Then she named the price.
 
-Drying roots.
+I paid from Cala's cloth fold.
 
-Blue rinse water.
+The onions fit inside the bag beside the notes.
 
-Kessa seed.
+The shape was worse than paper.
 
-Silverbacks.
+Still manageable.
 
-Flickers.
+I closed the flap.
 
-"South."
+The stay bead blinked once when I turned away from the stall.
 
-Lyssa waited.
+The bag settled.
 
-"That's all?"
+No ceremony.
 
-"I am practicing concise reporting."
+At the chandler, the wick question was slightly harder.
 
-She smiled.
+There were six coils hanging behind the counter.
 
-"Bad at it."
+Flat wick. Round wick. Thin blue-burn cord. Heavy hearth cord. Two treated varieties for lamps that had better opinions of themselves than ours did.
 
-"Deeply."
+The seller said, "Which?"
 
-I told them about the high line first.
+I knew our lamp.
 
-Not the mechanism, because I did not know the mechanism.
+Old oil lamp. Plain burner. Narrow mouth. Nothing exotic.
 
-Just the still paper tab, the sag, Mara refusing to pull harder, Ovi moving his drying racks, and Tess coming later.
+I held up two fingers at the approximate wick width.
 
-Cala nodded at Tess's name.
+"Flat. This wide."
 
-Of course she knew Tess.
+He cut a length.
 
-I did not even ask.
+"Long?"
 
-Lyssa said, "High line for shade."
+"Household lamp. One replacement."
 
-"That one."
-
-"Many courts."
-
-"I know the type. Their middle flag stopped moving."
-
-She nodded.
-
-No explanation required.
-
-Then I told them about the seed sort.
-
-Cala knew kessa.
-
-Lyssa knew kessa.
-
-Tavi knew cup.
-
-We each contributed according to training.
-
-"Pella called them silverbacks," I said. "Rusk called them flickers."
-
-Cala said, "Flickers."
-
-Lyssa said, "Silverbacks."
-
-I stared at both of them.
-
-"Of course."
-
-Cala pointed toward the eastern lanes.
-
-"Here, flickers."
-
-Lyssa pointed south.
-
-"There, silverbacks."
-
-That was more interesting than either being right.
-
-"Same thing?"
-
-Cala shrugged.
-
-Lyssa shrugged.
-
-Excellent.
-
-Uncertainty survived contact with two residents.
-
-"They eat kessa grubs," I said.
-
-Cala nodded.
-
-Lyssa said, "Sometimes flour beetle eggs."
-
-I looked at her.
-
-"You've used them?"
-
-"No. Marra complains."
-
-There it was.
-
-Not expertise.
-
-Proximity.
-
-"Pella suns the basket after sorting to make them leave."
-
-Cala said, "Mm."
-
-Lyssa said, "Makes sense."
-
-I almost reached for the bag.
-
-The impulse was automatic.
-
-Name.
-
-Place.
-
-Observed behavior.
-
-Local disagreement.
-
-Morning cold.
-
-Sun clearing.
-
-A clean little note.
-
-I left the bag closed.
-
-Lyssa noticed.
-
-"No write?"
-
-"No job."
-
-She looked at me for a moment.
-
-"You write other things."
-
-Annoyingly accurate.
-
-"No need yet."
-
-That was better.
-
-She nodded.
-
-No praise.
-
-No lesson.
-
-She unfolded her cloth and checked one edge against the light.
-
-Conversation over.
-
-I sat there while Tavi beat his cup into a new musical tradition.
-
-The three copper remained upstairs.
-
-The three clean sheets remained clean.
-
-My charcoal remained wrapped.
-
-Outside, somewhere beyond the court wall, a pulley squeaked twice.
-
-Then stopped.
-
-I did not go investigate it.
-
-This may have been my greatest achievement of the week.
-
-Near midday I went upstairs to rest my hands.
-
-Not sleep.
-
-Just sit without crutches under me for a while.
-
-The bag went on the floor beside the bed.
-
-I could have taken out the scrap.
-
-I did not.
-
-Instead I lay back and watched the light move across the ceiling.
-
-There were cities I remembered by danger.
-
-A gate breached.
-
-A tower burning.
-
-A river turned black after a mana spill.
-
-A district where the dead had refused burial for six days because somebody had built a shrine wrong.
-
-Carrow was accumulating differently.
-
-A bad step repaired.
-
-A rain shelf that worked.
-
-A door weight that did not.
-
-A short board under an awning.
-
-A held note.
-
-A high line with one still flag.
-
-Tiny silver-brown things jumping out of seed.
-
-None of those were the city.
-
-That was the point.
-
-A city was too large to become one thing unless someone was trying to sell it to you.
-
-I had spent years in my first life arriving in places because a problem had made them important.
-
-War.
-
-Contract.
-
-Monster.
-
-Guild request.
-
-Missing caravan.
-
-Broken ward.
-
-The problem became the place.
-
-Then I left when the problem was solved.
-
-Carrow was refusing that shape.
+He cut less.
 
 Good.
 
-I did not need another place that existed only while I was useful to it.
+I had bought and replaced lamp wick in my first life enough times that the transaction needed no education.
 
-Downstairs, Tavi struck the cup.
+The cord had a short blackened mark near one end.
 
-"DOOR RED!"
+Trim mark.
 
-I covered my face with one hand.
+Common.
 
-Carrow had other methods of permanence.
+The seller wrapped it in scrap paper and tucked the end under itself.
 
-I rested until my palms stopped feeling pressed.
+I paid.
 
-Then I went downstairs.
+The packet went into the bag.
 
-The afternoon passed without producing a claim on me.
+Onions below.
 
-I helped Cala move a water pot because I lived there.
+Wick above.
 
-I held the door for Lyssa because I was standing near it.
+The arrangement mattered more than I expected.
 
-I prevented Tavi from putting one wooden spoon into the other water pot because society had rules.
+If I put the wick under the onions, I would arrive home with an agricultural opinion pressed into it.
 
-No money changed hands.
+At nineteen, logistics had become intimate.
 
-No magic came out of me.
+The mint stall was farther along the lane.
 
-No one knocked with a job.
+Dried bunches hung from a line under the awning.
 
-Toward evening, wind moved over the roofs.
+Green. Gray-green. One nearly black variety that smelled sharp enough to clear my nose from four steps away.
 
-I heard fabric snap somewhere south.
+Cala's note said only `MINT`.
 
-For a moment I thought of Mara's high line.
+That was the first problem.
 
-Then I thought of the shade cloth rolled safely under its eave because she had left the stiff release alone.
+I stopped.
 
-Maybe Tess had come.
+The seller was an older woman with both hands stained green at the fingertips.
 
-Maybe not.
+"Mint," I said.
 
-I did not know.
+She looked behind her.
 
-I did not need to walk back and check.
+This was not helpful because approximately a third of the stall was mint.
 
-The uncertainty sat there without hurting me.
+"Which?"
 
-That was useful too.
+"That is the question."
 
-The next morning I passed a seed seller near the upper market.
+She waited.
 
-Different seller.
+I opened the bag and took out the note.
 
-Different lane.
+"Household cooking. Cala sent me."
 
-A shallow tray of kessa sat in the sun.
+The woman looked at the note.
 
-Two tiny silver-brown shapes jumped from the rim and vanished beneath the stall.
+Then at me.
 
-The seller did not react.
+"Cala from the narrow court by the blue door?"
 
-Neither did I.
+"Our door is not blue."
+
+"Back door."
+
+"We have a back door?"
+
+She stared at me.
+
+I reconsidered the architecture of my life.
+
+"Possibly."
+
+She pointed at a gray-green bunch.
+
+"That."
+
+"How do you know?"
+
+"She buys it."
+
+Reasonable.
+
+"Often?"
+
+"Enough."
+
+I smelled it.
+
+Ordinary dry mint. Strong, clean, slightly bitter.
+
+I knew the type.
+
+I just had not known it was Cala's type.
+
+"Small bunch."
+
+The woman tore off half a tied bundle.
+
+"She takes half."
+
+Of course she did.
+
+I paid.
+
+She wrapped the mint in thin paper.
+
+The packet fit against the flat back of the bag.
+
+I looked at the onions.
+
+Then at the mint.
+
+Then rearranged everything so the onions could not turn the leaves into seasoning before we reached home.
+
+The woman watched.
+
+"New bag?"
+
+"To me."
+
+"Good."
+
+"Thank you."
+
+"Too much onion."
+
+"There are two."
+
+"Too much for mint."
+
+That was a more precise criticism.
+
+I moved the onions lower.
+
+She nodded.
+
+I left.
+
+Three items.
+
+One word remained.
+
+`SOAP`
+
+That should have been easiest.
+
+It was not.
+
+The soap seller worked near the lower edge of the market where the awnings narrowed and the street tilted toward the wash court.
+
+I knew the stall.
+
+Blocks stood in rows on slatted wood.
+
+Brown.
+
+Gray.
+
+Yellow.
+
+One pale green that smelled like pine and cost enough that I had previously assumed it contained legal advice.
+
+I held up the note.
+
+"Brown household soap."
+
+The seller looked at me.
+
+"Cala's?"
+
+I lowered the note.
+
+"Apparently everybody knows Cala except me."
+
+He smiled.
+
+"Cala's brown?"
+
+"That is what I was going to buy."
+
+"Out."
+
+He pointed at an empty section of slat.
+
+There were crumbs.
+
+This seemed disrespectful.
+
+"When?"
+
+"Tomorrow."
+
+I looked at the note again.
+
+It continued to say `SOAP`.
+
+No emergency language.
+
+No specification.
+
+No helpful addendum such as `IF BROWN SOAP UNAVAILABLE, DO NOT IMPROVISE`.
+
+I looked at the other blocks.
+
+"Gray?"
+
+"Strong."
+
+"I know."
+
+"Yellow."
+
+"I also know yellow soap exists."
+
+He waited.
+
+"Does Cala buy either when brown is out?"
+
+The seller picked up a yellow block.
+
+"Yellow."
+
+"Usually?"
+
+"If brown gone."
+
+That was useful.
+
+"Gray never?"
+
+"For pots maybe. Not hands."
+
+Cala washed pots.
+
+Cala also had hands.
+
+The distinction remained inadequate.
+
+I asked, "Same yellow every time?"
+
+He turned the block.
+
+One corner was chipped.
+
+"Today this."
+
+"Because?"
+
+"Chipped."
+
+"Cheaper?"
+
+"Same."
+
+"Then why this one?"
+
+He shrugged.
+
+"Smaller."
+
+I laughed.
+
+"Your sales technique is unusual."
+
+"She cuts."
+
+Ah.
+
+A smaller block could be enough if she was cutting it for use rather than storing a full brick.
+
+Maybe.
+
+Or he was giving me a chipped block because he had one.
+
+I had evidence, not certainty.
+
+"How much?"
+
+He named the price.
+
+I counted the household bits.
+
+Enough.
+
+With change.
+
+I did not need to use my copper.
+
+That had not really been in question, but I liked confirming it.
+
+I picked up the yellow block.
+
+The smell was lighter than the brown soap Cala usually kept near the basin.
+
+I had seen yellow ash soaps before. Softer on skin, less aggressive on grease, depending on ash and fat. Nothing magical about the category.
+
+This one had three tiny blue grains pressed into one face.
+
+That was ordinary too.
+
+Drying grains.
+
+Cheap soapmakers used them to pull excess damp during storage. Better shops used racks and time. Fast shops used both.
+
+I pressed the surface lightly.
+
+Firm.
+
+No weeping.
+
+No crack except the chipped corner.
+
+"Fresh?"
+
+"Two days."
+
+"Grains spent?"
+
+He scraped one blue grain with his thumbnail.
+
+It crumbled pale.
+
+"Mostly."
+
+Fine.
+
+I was not buying a magical artifact.
+
+I was buying soap.
+
+The seller wrapped it.
+
+Before I paid, I asked, "Cala takes yellow when brown is gone. You're sure?"
+
+He looked offended.
+
+"I sell her soap."
+
+There was an entire profession inside that sentence.
+
+I paid.
+
+He gave me change.
+
+I counted it once.
+
+Not because I distrusted him.
+
+Because it was Cala's money.
+
+Then I put the change back in the cloth fold and the soap into the bag.
+
+Onion problem.
+
+Mint problem.
+
+Soap problem.
+
+I rearranged.
+
+Soap flat against the outer wall.
+
+Mint high.
+
+Wick beside notes.
+
+Onions low.
+
+The bag closed.
+
+I stood.
+
+The weight pulled slightly more at my shoulder than it had with two test onions yesterday, but not much.
+
+I turned the stay bead to the first notch.
+
+Green blink.
+
+Settle.
+
+The bag stayed in.
+
+The seller watched me.
+
+"Good bead."
+
+"Old bead."
+
+"Good old bead."
+
+"Fair."
+
+I started away.
+
+He said, "Tell Cala brown tomorrow."
+
+"I will."
+
+There it was.
+
+A message acquired accidentally.
+
+The bag had become useful enough to generate more cargo simply by existing.
+
+At the next corner, I stopped beneath an awning and took out the shopping note.
+
+All four items.
+
+Done.
+
+I considered writing `BROWN SOAP TOMORROW` on the bottom.
+
+Then I looked at the charcoal.
+
+Then at my hands.
+
+One on each crutch.
+
+The note could remain unwritten.
+
+I could remember one sentence for six streets.
+
+This was a daring cognitive experiment.
+
+I put it back.
+
+The market had thickened while I shopped.
+
+A pair of porters came through with a long pole between them, baskets hanging from either end.
+
+A woman moved sideways with three clay jars nested in a hip sling.
+
+A boy carried a tray of hot buns on one palm while a little heat-shedding charm under the tray flickered orange against his sleeve.
+
+I knew the charm.
+
+I knew the buns.
+
+I wanted the buns.
+
+I had household money in my bag.
+
+This created no ambiguity.
+
+I walked past.
+
+Maturity had become exhausting.
+
+Near the crossing, a cart blocked half the lane while a driver argued with a fruit seller about whose wheel belonged where.
+
+I could have gone around the back.
+
+The paving there was rough.
+
+Instead I waited.
+
+Not long.
+
+The driver moved.
+
+I crossed.
+
+The new bag did not catch the cart.
+
+The soap did not escape.
+
+The onions remained onions.
+
+This chapter was achieving remarkable stability.
+
+Halfway home, I remembered the seller's message.
+
+Brown tomorrow.
+
+Still there.
+
+Excellent.
+
+At the courtyard door, I opened the flap one-handed.
+
+Lyssa's rotated toggle remained easier.
+
+I took out the note before going inside.
+
+Not because I needed it.
+
+Because I wanted to hand Cala the list and the goods together.
+
+The front door closed behind me.
+
+Cala looked at the bag.
+
+Then at me.
+
+"Done?"
+
+"All four."
+
+She held out her hand.
+
+I gave her the note first.
+
+Then the cloth fold with the change.
+
+She counted.
+
+I pretended not to watch her count.
+
+She looked at me.
+
+"Good."
+
+"Again, your faith in my financial character is moving."
+
+"Soap?"
+
+"Yellow."
+
+She paused.
+
+"Brown gone."
+
+"Yes."
+
+"Tomorrow."
+
+"That was the message."
+
+She nodded.
+
+Good.
+
+I had not misunderstood the seller.
+
+I took the yellow soap from the bag.
+
+She looked at the chipped corner.
+
+Then at me.
+
+"He gave this?"
+
+"Yes."
+
+"Good."
+
+"Why good?"
+
+"Small."
+
+"The seller said you cut it."
+
+"Mm."
+
+"Why not buy a full yellow block?"
+
+She took the soap toward the kitchen.
+
+"Don't need."
+
+That was the entire purchasing philosophy.
+
+Need one.
+
+Buy one.
+
+Or half.
+
+Or the chipped smaller block.
+
+No reverence for unit price.
+
+No speculation.
+
+No inventory strategy.
+
+I respected it enough not to say so.
+
+Next came the wick.
+
+She checked the width between finger and thumb.
+
+"Good."
+
+Then mint.
+
+She smelled it.
+
+"Good."
+
+Then onions.
+
+She looked at both.
+
+One had a soft spot near the root I had not noticed.
+
+Cala pressed it.
+
+I leaned closer.
+
+"Bad?"
+
+"Use first."
+
+Not bad.
+
+Order mattered.
+
+She put that onion on the counter nearest the knife.
+
+The other went into the basket.
+
+There was an entire household supply system conducted without a ledger.
+
+I had four notes upstairs proving I did not believe in such things.
+
+"Anything wrong?" I asked.
+
+"No."
+
+That felt better than I expected.
+
+Not because the errand had been difficult.
+
+It had not.
+
+That was the point.
+
+I had taken a note, household money, and two crutches.
+
+I had returned with what the household expected.
+
+Almost.
+
+The soap had changed.
+
+But not by guess.
+
+By the merchant who knew Cala's usual.
+
+That part stayed with me.
+
+"Mint woman knows you too," I said.
+
+Cala was cutting the yellow soap into two smaller pieces.
+
+"Who?"
+
+"Green fingers. Near the hanging bundles."
+
+Cala nodded immediately.
+
+"Senna?"
+
+I had not gotten the woman's name.
+
+"Apparently."
+
+"Good mint."
+
+"She knew which one you buy."
+
+"She sells mint."
+
+There it was again.
+
+Of course.
+
+The city was full of people whose expertise included not only objects, but customers.
+
+Who took which soap.
+
+Who bought half a bundle.
+
+Who preferred a certain wick.
+
+Who came back tomorrow.
+
+Old Greg had known quartermasters who could provision fifty people across a month and remember who required what salve after rain.
+
+I had treated that as impressive because armies made everything dramatic.
+
+Cala buying mint from the same woman often enough to be remembered was the same kind of knowledge at household scale.
+
+Smaller stakes.
+
+Same human machinery.
+
+Lyssa came downstairs and saw the goods.
+
+"Yellow."
+
+"Brown was out."
+
+"Cala yellow when brown out."
+
+I stared at her.
+
+"You knew too."
+
+"Yes."
+
+"I live in a conspiracy of soap knowledge."
+
+She picked up one of the cut pieces.
+
+"Wash."
+
+"I understand soap."
+
+She smiled.
+
+Tavi arrived because the presence of onions had apparently summoned him.
+
+"Bag."
+
+"The bag has completed its first official mission."
+
+"Fish?"
+
+"No fish."
+
+"Rock?"
+
+"No rock."
+
+He looked inside anyway.
+
+Empty now except for my notes and charcoal.
+
+"Mine?"
+
+"Still no."
+
+Cala handed him the softer onion.
+
+I looked at her.
+
+"You're giving him the one we need to use first?"
+
+"Carry kitchen."
+
+Tavi carried it six feet.
+
+Success.
+
+No stay bead required.
+
+I went upstairs.
+
+Three copper remained.
+
+I checked because they existed.
+
+Not because I planned to spend one.
+
+The bag went on its peg beside the table.
+
+I removed the household shopping note from it.
+
+For a moment I considered keeping it.
+
+First errand with the bag.
+
+First use of the equipment.
+
+Evidence.
+
+Then I looked at the note.
+
+`SOAP`
+`WICK`
+`ONIONS 2`
+`MINT`
+
+It had already done its job.
+
+I took it downstairs.
+
+"Cala."
+
+She looked up.
+
+"Keep?"
+
+She shook her head.
+
+"Fire."
+
+I handed it over.
+
+She tucked it beside the kindling.
+
+Of course.
+
+The document retention policy was severe.
+
+That afternoon the yellow soap sat in two pieces beside the basin.
+
+The soft onion disappeared into a pot.
+
+The new wick stayed wrapped on the shelf.
+
+The mint hung from a small hook to keep it dry.
+
+Every item moved immediately into a place I had seen before.
+
+Nothing became special because I had bought it.
+
+That was satisfying.
+
+Later, I washed my hands with the yellow soap.
+
+It smelled faintly of warm ash and something citrusy I could not name.
+
+Lyssa passed behind me.
+
+"Good?"
+
+"It's soap."
+
+"Good."
+
+"Everyone keeps saying that."
+
+She dried her hands.
+
+"Because good."
+
+I could not defeat the argument.
+
+The next morning, Cala did not give me another list.
+
+That also felt important.
+
+One successful errand had not promoted me to household procurement officer.
+
+I ate breakfast.
+
+Tavi dropped bread.
+
+Lyssa told him to pick it up.
+
+The door worked.
+
+The rain shelf worked.
+
+My bag hung where I had left it.
+
+The city continued without assigning me a role.
+
+When I went out later, I passed the soap stall by chance.
+
+Brown blocks were back on the slats.
+
+The seller saw me looking.
+
+"Cala?"
+
+"Not today."
+
+He nodded.
 
 I kept walking.
 
-I knew one more thing about the city than I had yesterday.
+I knew which block she would want next time.
 
-Not enough to own it.
+I did not need to buy it early.
 
-Enough to recognize it.
+That might have been what knowing the usual was for.

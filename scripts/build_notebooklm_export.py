@@ -4,7 +4,7 @@
 The export follows repository authority rather than the public reader crawl:
 Book I: authoritative Ch1-82 DOCX
 Book II: authoritative Ch83-137 DOCX + exact Ch138-155 MD + recovered exact Ch156-180
-Book III: recovered exact Ch181-219 + running Ch220-248 + exact checkpoint Ch249+
+Book III: recovered exact Ch181-219 + running Ch220-248 + exact checkpoint Ch252+
 
 No state, planning, summaries, or authorial-direction files are included in the exported books.
 """

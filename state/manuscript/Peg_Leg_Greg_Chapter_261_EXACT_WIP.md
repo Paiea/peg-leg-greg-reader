@@ -1,987 +1,1251 @@
 # CHAPTER 261
 
-## THE CUSTOMER
+## THE PORTER
 
-Hollen did not need me the next morning.
+Tomorrow remained unassigned until somebody put a crate in it.
 
-This information arrived by not arriving at all.
+The crate arrived before I finished breakfast.
 
-No boy from the binding shop knocked on our door. No damp strap was pushed beneath it. The roof had apparently accepted professional help without demanding that I supervise.
+Not at the door.
 
-I approved.
+That would have been too convenient.
 
-Lyssa had already been working for an hour by the time I finished breakfast.
+Lyssa came back up the stairs, opened the door with her shoulder, and said, "Shoes."
 
-Not at the table.
+I looked at my feet.
 
-On the floor.
+"Present."
 
-The two dark pieces from yesterday lay beside her knee, one folded lengthwise and one spread flat over a clean cloth. A narrow line of pale stitching ran along the inside of the spread piece. I had not seen that line before.
+"Good. Come down."
 
-I looked once.
+She turned around.
 
-Then at Lyssa.
+I looked at the bread in my hand.
 
-She did not look up.
+Then at the open door.
 
-I ate bread.
+"Excellent briefing."
 
-This was maturity.
+She was already on the stairs.
 
-The brown cloth remained folded by the wall with its same three pins. My damaged shirt still had three loose threads at the cuff. The two lengths of replacement cord remained on the shelf.
+I ate the rest of the bread and followed.
 
-Nothing in the room had transformed overnight except the dark cloth, and that appeared to have done so through labor rather than destiny.
+The morning had the pale, undecided light that made every roof look colder than it was. Yesterday's rain had left the courtyard stones dark in the cracks, but the center had dried.
 
-Lyssa bit off a thread.
+A handcart stood beside the building.
 
-"Out?" she asked.
+So did a crate.
 
-"Apparently not."
+The crate was not large.
 
-"Hollen?"
+This mattered because large crates had a way of becoming everybody's philosophy.
 
-I looked at her.
+This one was perhaps two feet long, narrower across, and high enough to be inconvenient without becoming furniture. Two thin slats crossed the top. A cord had been tied around it twice and knotted badly.
 
-"You remember his name."
+A man I did not know stood beside the cart holding a folded paper.
 
-"You said it twice."
+Lyssa stood opposite him.
 
-"I said Pem's too."
+He looked at me when I came down.
 
-"You said Hollen more."
+Then at the crutches.
 
-This was probably true and therefore irritating.
+Then back at Lyssa.
 
-"No Hollen. No theatre. No animals."
+"Him?"
 
-"Busy day."
+Lyssa said, "Yes."
 
-"I may have to rest."
+I stopped beside her.
 
-She finally looked up.
+"Encouraging."
 
-"You could fix your shirt."
+The man held out the paper.
 
-I looked toward the shelf.
+"Marra's. Green door."
 
-"That sounds like work."
+I looked at Lyssa.
 
-"Three threads."
+She nodded.
 
-"They have become historic."
-
-"They're loose."
-
-"History is often loose."
-
-Lyssa went back to stitching.
-
-I did not fix the shirt.
-
-Not immediately.
-
-Instead I washed the breakfast plate, swept near the door, and checked the lamp oil because these were all tasks that allowed me to remain morally superior to cuff repair.
-
-The oil was fine.
-
-The floor became cleaner.
-
-The shirt remained damaged by three threads.
-
-Then somebody knocked.
-
-Lyssa said, "Door."
-
-"I know how they work."
-
-"Good."
-
-I opened it.
-
-A woman stood outside holding a folded coat over both arms.
-
-She was perhaps forty, perhaps younger and tired. Shorter than Lyssa. Brown skin. Hair wrapped in a faded yellow cloth. She wore a blue work dress with flour dust along one hip and had the expression of someone who had already had one conversation too many before reaching our door.
-
-She looked at me.
-
-Then past me.
-
-"Lyssa?"
-
-Good.
-
-The world remained correctly organized.
-
-"Inside."
-
-I moved aside.
-
-The woman entered without asking my name.
-
-Better.
-
-Lyssa looked up from the floor.
-
-"Mara."
-
-Not Marra.
-
-Mara.
-
-I stored the difference immediately because Carrow had already punished me enough for assuming sounds belonged to only one person.
-
-Mara held out the coat.
-
-"He changed it."
-
-Lyssa did not take the coat.
-
-"Again?"
-
-"Again."
-
-There was history here.
-
-I became interested against my will.
-
-Lyssa set her needle down.
-
-"What now?"
-
-Mara unfolded the coat.
-
-It was a man's dark brown coat, heavier than the one Lyssa had been working on and cut broad through the shoulders. One sleeve had chalk marks near the cuff. The front had been opened at the lower seam and pinned loosely back together.
-
-Mara pointed.
-
-"Longer."
-
-Lyssa stared at her.
-
-"He wanted shorter."
-
-"I know."
-
-"Last time he wanted shorter."
-
-"I know."
-
-"I made it shorter."
-
-"I know."
-
-"Now longer."
-
-Mara closed her eyes.
+"It needs to go there?"
 
 "Yes."
 
-I looked at the coat.
+"What's in it?"
 
-Then at Lyssa.
+The man said, "Buckles."
 
-Then wisely said nothing.
+Lyssa said, "Not ours."
 
-Lyssa stood.
+Both answers were useful in different ways.
 
-"How much?"
+I looked at the crate again.
 
-"Back where it was."
+"Why is it here?"
+
+The man rubbed one hand over his jaw.
+
+"Wrong court."
+
+"How wrong?"
+
+"One street."
+
+That was almost respectable.
+
+He pointed toward the north end of the courtyard.
+
+"Woman downstairs said Lyssa lived here."
+
+Apparently Sera had become freight infrastructure.
+
+Lyssa took the folded paper from him, read it, and handed it to me.
+
+The writing was not for me. Two names I did not know. A count beside each. Marra written at the bottom.
+
+"You're going that way?" I asked Lyssa.
 
 "No."
 
-Mara opened her eyes.
+"I am?"
 
-"No?"
+"If you want."
 
-"Not enough cloth."
+That changed the shape of it.
 
-She took the coat now and turned the lower front edge inside out. The old seam allowance was narrow. I knew enough sewing from living near Lyssa to understand that narrow meant there was not much hidden cloth waiting to become length.
+Not an assignment.
 
-Mara leaned closer.
+A useful thing available in an empty morning.
 
-"Can you add?"
+I looked at the crate.
 
-"Yes. Different cloth."
+Then the cart.
 
-"He'll hate that."
+"Cart too?"
 
-"Then he can be shorter."
+The man shook his head immediately.
 
-Mara laughed once.
+"Cart goes east."
 
-Not because it was especially funny.
+Of course.
 
-Because she had apparently considered saying the same thing.
+"Then how was the crate supposed to get to Marra?"
 
-Lyssa laid the coat on the table and measured the front with her fingers, then the back.
+"Boy."
 
-"How much longer?"
+"Where's the boy?"
 
-Mara held her hand about two fingers apart.
-
-Lyssa looked at the distance.
-
-"He said that?"
-
-"He showed me."
-
-"Wearing it?"
-
-"Yes."
-
-"Shoes?"
-
-Mara paused.
-
-"What?"
-
-"Same shoes?"
-
-"I don't know."
-
-Lyssa looked at her.
-
-Mara's shoulders dropped.
-
-"I don't know."
-
-"Bring him."
-
-"He won't come."
-
-"Then I don't change it."
-
-There it was.
-
-Not anger.
-
-Not drama.
-
-A wall.
-
-Mara stared at the coat.
-
-"He needs it sixth day."
-
-"Then bring him today."
-
-"He works until dark."
-
-"Tomorrow morning."
-
-"He'll complain."
-
-"He already complains."
-
-Mara looked at me as if I might provide a different ruling.
-
-I raised both hands.
-
-"I have been specifically trained not to touch this."
-
-Lyssa said, "No one trained you."
-
-"Experience is training."
-
-Mara smiled despite herself.
-
-Then she looked back at Lyssa.
-
-"Tomorrow morning."
-
-"With the coat on."
-
-"Yes."
-
-"And the shoes."
-
-"The shoes."
-
-"The ones he'll wear sixth day."
-
-Mara sighed.
-
-"I'll tell him."
-
-Lyssa folded the coat again and handed it back.
-
-Mara did not leave immediately.
-
-She looked at the dark pieces on the floor.
-
-"Neli's?"
-
-Lyssa nodded.
-
-"She picked the dark?"
-
-"Finally."
-
-Mara made a face.
-
-"Better than the green."
-
-"She liked the green."
-
-"She was wrong."
-
-Lyssa smiled.
-
-I had no idea who Neli was.
-
-This did not injure me.
-
-Mara shifted the coat against her hip.
-
-"You still going north tomorrow?"
-
-"Afternoon."
-
-"Good. Tell Jessa I found the small brass ones."
-
-Lyssa nodded.
-
-"Where?"
-
-"Tollin's. Back drawer."
-
-"Price?"
-
-Mara named it.
-
-Lyssa frowned.
-
-"Too much."
-
-"I know."
-
-"Did you buy?"
-
-"No."
-
-"Good."
-
-There it was again.
-
-The coordinated word.
-
-Mara finally left with the coat.
-
-I closed the door.
-
-Lyssa sat back down.
+"Wrong court."
 
 I waited.
 
-She picked up her needle.
+The man looked at me.
 
-I waited longer.
+"Other wrong court."
 
-She looked at me.
+This delivery had achieved complexity through commitment.
 
-"What?"
+Lyssa took the paper back, folded it once, and put it beneath the cord.
 
-"Nothing."
+"You don't have to."
 
-"Greg."
+I looked toward the stairs.
 
-"I am respecting your independent work life."
+No theatre message waited above.
 
-"Loudly."
+No Hessa note.
 
-"Who is Neli?"
+No Vale runner.
 
-Lyssa smiled without looking up.
+No household emergency.
 
-"Customer."
+I knew the green door.
 
-"That is all I get?"
+"I'll take it."
 
-"Yes."
+The man nodded as if a commercial crisis had been resolved.
 
-"And Mara?"
+Then he lifted the crate.
 
-"Her brother is the coat."
+I held up one hand.
 
-I looked at the door.
+"Wait."
 
-"Her brother is inside the coat?"
+He stopped.
 
-"Greg."
+The crate itself was not the problem.
 
-"Important distinction."
+The problem was that I used two crutches.
 
-"Mara's brother owns the coat."
-
-"Better."
-
-She threaded the needle again.
-
-I sat by the window.
-
-The exchange should have ended there.
-
-Instead, it changed the morning.
-
-Not because Mara had brought a crisis.
-
-She had brought the opposite.
-
-A customer change.
-
-A second customer change, apparently.
-
-Lyssa had refused to guess.
-
-The coat would come back with the man inside it, wearing the right shoes, before she cut or added anything.
-
-I had watched Hessa do something similar with magic.
-
-Not the shoes.
-
-The refusal to let uncertainty become action merely because action was available.
-
-I did not say this to Lyssa.
-
-That would have turned her morning into my theory.
-
-Also she might have stabbed me with a needle.
-
-I picked up my damaged shirt.
-
-Three threads.
-
-Lyssa glanced over.
-
-"Finally."
-
-"Do not make this emotional."
-
-"I'm not."
-
-I took the shirt to the table.
-
-I could sew well enough to prevent cloth from becoming more broken.
-
-This was not the same as sewing well.
-
-Lyssa gave me a needle without comment.
-
-"Thread?"
-
-She pointed.
-
-I chose a dark thread.
-
-"No."
-
-I stopped.
-
-"Why?"
-
-"Too heavy."
-
-I chose another.
-
-"No."
-
-"You are becoming Hollen."
-
-"Too pale."
-
-"Narrow-medium thread?"
-
-She looked at me.
-
-"What?"
-
-"Nothing. Shop trauma."
-
-She handed me the right spool.
-
-I repaired the cuff.
-
-Slowly.
-
-The first stitch was too far from the edge.
-
-Lyssa said nothing.
-
-I removed it.
-
-The second was better.
-
-I worked through all three loose threads, securing the frayed edge without pretending I had restored the shirt to youth.
-
-When I finished, the cuff looked repaired by a person who wanted it not to unravel.
-
-That person had succeeded.
-
-Lyssa inspected it.
-
-"Fine."
-
-I waited.
-
-"Fine?"
-
-"Yes."
-
-"Not good?"
-
-"Fine."
-
-"You know what Hollen says."
-
-"I don't know Hollen."
-
-"He would have found a category between fine and good."
-
-"Wear it."
-
-I put the shirt back on the shelf.
-
-The three loose threads were gone.
-
-This was a larger household event than the slateback.
-
-Nobody came to witness it.
-
-Around midday Lyssa packed the dark pieces into her bag.
-
-"Out?" I asked.
-
-"Mina first. Then north."
-
-"Our Mina?"
-
-She looked at me.
-
-"The Mina downstairs."
-
-"That counts as ours now?"
-
-"No."
-
-"Good. Boundaries."
-
-She stood and lifted the bag.
-
-"You?"
-
-"Undecided."
-
-"Don't buy cord."
-
-"We have enough cord."
-
-"Exactly."
-
-She kissed me and left.
-
-I stayed home for perhaps twenty minutes.
-
-Then I became bored.
-
-Boredom was dangerous because it made unnecessary errands feel like civic responsibility.
-
-I checked the shelf.
-
-Bread enough.
-
-Onions enough.
-
-Salt enough.
-
-Lamp oil enough.
-
-Cord aggressively enough.
-
-I could have remained home.
-
-Instead I decided to walk to the theatre district without going to the theatre.
-
-This was a real distinction.
-
-The theatre district contained more than the theatre.
-
-There were food stalls, two print sellers, a cobbler, a narrow public court where actors sometimes rehearsed loudly enough to make ordinary citizens regret culture, and a tea shop I had passed many times without entering because tea cost money and water had spent years making a strong argument for itself.
-
-I had kept part of yesterday's pay.
-
-Not all kept money needed to become savings immediately or it stopped being mine in a different way.
-
-I wanted tea.
-
-This was not a financial emergency.
-
-I went.
-
-The walk was ordinary.
-
-My repaired cuff remained attached.
-
-This felt suspiciously competent.
-
-Near the theatre lane, a man carrying rolled painted canvas recognized me before I recognized him.
-
-"Greg."
-
-I stopped.
-
-He was one of the scene painters who had worked the rail-repair day.
-
-I knew his face.
-
-Not his name.
-
-Damn it.
-
-"Hello."
-
-He shifted the canvas higher.
-
-"You in today?"
-
-"No call."
-
-"Lucky bastard."
-
-"That bad?"
-
-"Blue room."
-
-This meant nothing to me for one second.
-
-Then I remembered the small interior flat used in two pieces, painted pale blue and repeatedly repaired at the bottom because people kicked it during changes.
-
-"Again?"
-
-"Again."
-
-He kept walking.
-
-No invitation.
-
-No request for help.
-
-No plot.
-
-Just a man going to repair something the theatre had broken again.
-
-I still did not know his name.
-
-Social accumulation had limits.
-
-I bought tea.
-
-The tea shop was narrow and warm, with four small tables and a counter scarred by cups. I chose the table nearest the wall because it gave my crutches somewhere to rest without becoming a public obstacle.
-
-The woman behind the counter brought a clay cup and did not ask why I was alone.
-
-I liked her immediately.
-
-The tea was stronger than I expected and tasted faintly of smoke.
-
-I sat there with no assignment.
-
-Across the room, two men argued about a cart axle.
-
-A woman near the window read a folded printed sheet and occasionally made a small disgusted sound.
-
-Nobody needed me.
-
-This time I stayed.
-
-That was harder than finding work.
-
-Not emotionally.
-
-Physically, it was easy.
-
-I sat in a chair and drank tea.
-
-But some part of me had become accustomed to converting open hours into proof.
-
-Proof I could work.
-
-Proof I could earn.
-
-Proof I could learn routes.
-
-Proof I could help an animal.
-
-Proof I belonged somewhere because somebody had asked me to be there.
-
-Tea did not prove anything.
-
-It was excellent.
-
-I drank it anyway.
-
-Halfway through the cup, the woman with the printed sheet laughed.
-
-Not a polite laugh.
-
-A sudden bark that made one of the axle men look over.
-
-She folded the sheet and pushed it across the table toward him.
-
-"Read that."
-
-He said, "I can't."
-
-"Then you're protected."
-
-I smiled into my tea.
-
-The woman behind the counter saw me.
-
-"You want another?"
-
-I considered the coin.
-
-"No."
-
-"Good."
-
-I looked at her.
-
-She looked back.
-
-"What?"
-
-"Nothing. Everyone says that."
-
-"Says what?"
-
-"Good."
-
-"It's a word."
-
-"Apparently."
-
-She moved on.
-
-I finished the tea and left.
-
-I did not go into the theatre.
-
-That mattered only because it would have been easy.
-
-The side door was open. I knew people inside. The painter with no name was repairing the blue room. Somebody would have found something for me to carry, hold, fetch, count, remember, or avoid standing on.
-
-But no one had called.
-
-I had come for tea.
-
-So I went home.
-
-On the way, I passed Hollen's shop.
-
-The roof man was there.
-
-Actually on the roof.
-
-A ladder leaned against the side wall. Hollen stood below with his arms folded, looking upward with the same personal disapproval he had used on the leak.
-
-Pem sat in the doorway sorting hooks.
-
-He saw me.
-
-"No work."
-
-"I can see that."
-
-"Roof."
-
-"Also visible."
-
-Hollen looked over.
-
-"Dry tomorrow."
-
-"Congratulations."
-
-"Maybe."
-
-The roof man shouted something down that I could not hear.
-
-Hollen shouted back, "Then fix it."
-
-I kept walking.
-
-No shift.
-
-No disappointment.
-
-The shop had needed me yesterday.
-
-Today it did not.
-
-That was how useful work was supposed to function.
-
-When I reached our building, Mina was coming down the stairs carrying a folded pale cloth under one arm.
-
-She saw me.
-
-"Lyssa went north."
-
-"I know."
-
-Mina stopped.
-
-"She said you'd ask."
-
-I stared at her.
-
-"I was not going to ask."
-
-"Good."
-
-"There it is again."
-
-Mina frowned.
-
-"What?"
-
-"Nothing."
-
-She went past me.
-
-I climbed the stairs.
-
-The room was empty.
-
-I put my crutches against the wall and checked the repaired cuff.
-
-Still repaired.
-
-I had spent money on tea.
-
-Not much.
-
-Enough to notice.
-
-I had not turned the free day into a full day of wages.
-
-I had not gone into the theatre to make myself useful.
-
-I had not followed Lyssa north.
-
-The room did not punish me for any of these decisions.
-
-I sat by the window.
-
-For a while, I did nothing useful.
-
-Then I sharpened the small household knife because doing nothing had limits.
-
-Lyssa came back before dark.
-
-She carried her work bag and no new bundle that I could see.
-
-"Tea," she said after looking at me.
-
-I frowned.
-
-"What?"
-
-"You smell like tea."
-
-"I had tea."
-
-"Alone?"
-
-"Scandalously."
-
-She put down her bag.
-
-"Good?"
-
-I pointed at her.
-
-"You people are doing this deliberately."
-
-"Doing what?"
-
-"Never mind."
-
-She laughed.
-
-I told her Mara's brother had not yet materialized inside the coat again.
-
-She said, "Tomorrow morning."
-
-"With shoes."
-
-"Yes."
-
-"Correct shoes."
-
-"Yes."
-
-I nodded gravely.
-
-"High standards."
-
-She opened her work bag and took out the two dark pieces from morning. One now had a small row of dark buttons beside the pale inner stitching.
-
-I recognized the buttons.
-
-Not from magic.
-
-Not from old life.
-
-From living here.
-
-"Those the expensive ones?"
+I had carried parcels before. Bags. Baskets. Cloth. Things with straps. Things small enough to trap against a hip for six bad steps. A wooden crate with no handle was different.
 
 Lyssa looked at me.
 
+"Cord?"
+
+"Maybe."
+
+I pressed the top slats.
+
+Solid enough.
+
+The cord was not.
+
+One loop had already slid toward the corner.
+
 "No."
+
+The man said, "It's tied."
+
+"It is participating in being tied."
+
+He frowned.
+
+I tugged the loop.
+
+It slipped another inch.
+
+Lyssa crouched and looked at the knot.
+
+"Bad."
+
+"Thank you."
+
+The man seemed personally wounded by this review.
+
+"Held from East Court."
+
+"On a cart," I said.
+
+He considered that.
+
+"Yes."
+
+Different job.
+
+Lyssa went upstairs and came back with a length of plain cord from the household shelf.
+
+Not the lamp-oil bottle cord.
+
+Not thread.
+
+Not one of her garment materials.
+
+Cord.
+
+I appreciated the world retaining categories.
+
+She retied the crate without ceremony, making two tighter loops and a cross beneath them. Then she pulled hard enough to make the slats complain.
+
+"Better," I said.
+
+"Carry it."
+
+I looked at the loops.
+
+One hand could hold the crossed cord for a short distance.
+
+One hand could not also use a crutch.
+
+I tried the crate against my right side, hooking my forearm beneath the cord while keeping my hand on the grip.
+
+Bad.
+
+The crate swung into the crutch shaft.
+
+I stopped before gravity could become instructional.
+
+Lyssa watched.
+
+"No."
+
+"I reached that conclusion."
+
+The delivery man looked toward his cart.
+
+He had the expression of somebody whose wrong court was becoming expensive.
+
+I set the crate down.
+
+"How far is Marra's from here?"
+
+Lyssa looked at me.
+
+I knew the answer.
+
+That was why she did not give it.
+
+"Right."
+
+I pictured the route.
+
+Stairs to street. Across the lower market edge. Past Sen's red door. Green door after the turn.
+
+Not far.
+
+Too far to carry badly.
+
+I looked around the courtyard.
+
+Sera's door was open below the landing. Orren sat on a low stool near it with a knife and a piece of wood, shaving one edge into something narrower.
+
+He had been there the whole time.
+
+Of course he had.
+
+He looked at the crate.
+
+Then at me.
+
+"Need a board."
+
+I looked at him.
+
+"For what?"
+
+He pointed with the knife.
+
+"Across."
+
+This was not enough language.
+
+He set the wood down, went inside, and returned with a flat board perhaps three feet long and a little wider than my hand.
+
+He laid it across the crate.
+
+Then he pointed at my shoulders.
+
+"No."
+
+"Excellent demonstration."
+
+He ignored me.
+
+He took the board away again and disappeared into the building.
+
+The delivery man looked at Lyssa.
+
+"He always like this?"
+
+"Which one?"
+
+Fair.
+
+Orren came back with a different object.
+
+A carrying yoke.
+
+Not the heavy curved kind used for water buckets. This was smaller and flatter, a worn wooden bar with a shallow neck curve in the middle and two short hanging cords at the ends.
+
+I knew what it was.
+
+More importantly, I knew it would not work.
+
+"No."
+
+Orren stopped.
+
+"Why?"
+
+"Crutches."
+
+He looked at them.
+
+Then at the yoke.
+
+Then at me.
+
+"Ah."
+
+I liked him more immediately.
+
+No argument.
+
+No insistence that a tool useful for one body must become useful for mine through optimism.
+
+He put the yoke aside.
+
+"Sled?"
+
+Lyssa said, "Stone."
+
+"Small wheels?"
+
+The delivery man said, "Cart."
+
+All four of us looked at his cart.
+
+He put one hand on it protectively.
+
+"East."
+
+"We know," I said.
+
+Sera appeared in the doorway holding a cup.
+
+"What's wrong?"
+
+"Nothing," Lyssa said.
+
+"Crate," Orren said.
+
+Sera looked at the crate.
+
+Then at me.
+
+"Why don't you take the little barrow?"
+
+Silence.
+
+Orren turned his head.
+
+Lyssa looked toward the narrow passage beside the building.
+
+I said, "The what?"
+
+Sera drank from the cup.
+
+"Cala's."
+
+Apparently the courtyard contained vehicles now.
+
+Cala was not home.
+
+Her little barrow was.
+
+It leaned beneath the stair on the far side of the building, half hidden behind two empty baskets and a broken chair frame. One wheel. Two handles. Shallow wooden tray.
+
+A wheelbarrow.
+
+Not large enough for bricks unless the bricks had agreed to travel in shifts.
+
+Orren pulled it free.
+
+The wheel squeaked once.
+
+He spun it.
+
+It squeaked again.
+
+"Good," he said.
+
+"That sound means good?"
+
+"Turns."
+
+Strong standard.
+
+Sera said, "She uses it for ash."
+
+I looked inside the tray.
+
+Gray dust remained in the corners.
+
+"Will she mind?"
+
+"Yes," Sera said.
+
+I waited.
+
+"Will she mind enough that I shouldn't use it?"
+
+Sera considered.
+
+"No."
+
+Useful neighborhood scale.
+
+Lyssa lifted one side of the crate. Orren took the other. They set it in the tray.
+
+It fit.
+
+Barely.
+
+The delivery man visibly relaxed.
+
+I pointed at him.
+
+"You are enjoying this too much."
+
+"I have East Court."
+
+"Go."
+
+He went.
+
+No name.
+
+No future relationship.
+
+A man with a cart had misplaced a crate by one street and then left once the crate became somebody else's problem.
+
+Carrow remained healthy.
+
+The barrow created a different question.
+
+Two handles.
+
+Two hands.
+
+I had two hands.
+
+Unfortunately both had jobs.
+
+I tried standing between the handles with my crutches angled slightly wider.
+
+Impossible.
+
+I tried one handle in the crook of my right elbow while keeping the crutch grip.
+
+Worse.
+
+Orren watched without speaking.
+
+Lyssa did too.
+
+Nobody said I could not do it.
+
+This was kinder than encouragement.
+
+I stepped back.
+
+"Need one hand free."
+
+Orren nodded.
+
+"One crutch?"
+
+I looked at the distance to the street.
+
+Then at the barrow.
+
+Then at my body.
+
+"Not with weight."
+
+I could use one crutch for short controlled movement on good ground. I did not enjoy combining that with a wheelbarrow full of somebody else's buckles.
+
+Lyssa said, "I can take it."
+
+She could.
+
+That irritated me for exactly one second.
+
+Not because she should not.
+
+Because I had said I would.
+
+The irritation passed before it became policy.
+
+"Wait."
+
+I looked at the barrow again.
+
+The handles were long enough that a person did not need to stand between them.
+
+The crate was not especially heavy. The problem was balance and propulsion.
+
+I moved to the left side of the barrow.
+
+Left crutch under left arm. Right crutch under right.
+
+I put my right forearm across the nearest handle and lifted.
+
+The barrow tilted.
+
+Too much pressure against the forearm.
+
+I lowered it.
+
+"No."
+
+Orren picked up the carrying yoke again.
+
+Not for me.
+
+He untied one short hanging cord from it.
+
+Then the other.
+
+Two lengths of rope.
+
+He held them toward me.
+
+I understood before he spoke.
+
+"Handle loop?"
+
+He nodded.
+
+We tied one cord around each barrow handle, making loops long enough to sit over my forearms above the wrists without reaching the crutch grips.
+
+I tested them empty.
+
+Lifted.
+
+The barrow rose.
+
+My forearms took the weight while my hands remained on the crutch grips.
+
+Interesting.
+
+Also terrible.
+
+The handles pulled inward against my arms and changed the crutch angle.
+
+I lowered it immediately.
+
+"Closer together," I said.
+
+Orren retied the loops shorter.
+
+Second try.
+
+Better.
+
+Still not good.
+
+The barrow wanted to move before I did.
+
+I took one step.
+
+The wheel rolled six inches.
+
+My right crutch landed late.
+
+Stop.
+
+I set it down.
+
+Lyssa said, "No."
+
+I breathed out.
+
+"Probably."
+
+There were versions of nineteen-year-old pride that could turn a crate of buckles into an injury.
+
+I had already lived long enough once to find that embarrassing.
+
+Orren untied the loops.
+
+No one praised the decision.
+
+Good.
+
+I looked at the route again.
+
+"What if I pull it?"
+
+Lyssa looked at the wheelbarrow.
+
+Sera said, "Backward?"
+
+"Not walking backward."
+
+I pointed at the front frame beneath the tray.
+
+A short crosspiece joined the two supports behind the wheel.
+
+"Cord there. Long enough to pull from the side."
+
+Orren crouched.
+
+He touched the crosspiece, then the wheel, then looked at the crate.
+
+"Tips."
+
+Right.
+
+Pulling from the front would make the handles drop unless the load stayed balanced over the wheel.
+
+We shifted the crate forward three inches.
+
+The barrow settled differently.
+
+Orren tied the household cord to the front crosspiece.
+
+Lyssa held the handles while I moved to the side and forward.
+
+The cord reached my left hand.
+
+Which needed a crutch.
+
+Still wrong.
+
+I stared at it.
+
+Sera drank more tea.
+
+"Tie it to you."
+
+I looked at her.
+
+"Where?"
+
+She pointed at my waist.
+
+Lyssa said, "No."
+
+We all looked at her.
+
+She pointed at the barrow.
+
+"If it runs, it takes him."
+
+Correct.
+
+Sera nodded.
+
+"No."
+
+Good meeting.
+
+I looked at the barrow.
+
+Then the street.
+
+Then Orren.
+
+"You busy?"
+
+He held up the piece of wood he had been shaving.
+
+I waited.
+
+He looked at it too.
+
+Then set it on the stool.
+
+"No."
+
+That was how I became a porter with another porter.
+
+Orren took the wheelbarrow handles.
+
+I took my crutches.
+
+Lyssa handed me the folded delivery paper.
+
+"Marra."
+
+"I remember."
+
+"Green door."
+
+"Cruel."
+
+Her mouth moved slightly.
+
+Then she looked at Orren.
+
+"Bring the barrow back."
+
+Orren nodded.
+
+Sera said, "Before Cala."
+
+"When's Cala back?" I asked.
+
+Sera looked toward the street.
+
+"Before the barrow."
+
+Neighborhood scheduling.
+
+We left.
+
+I had expected the job to become smaller once Orren pushed the crate.
+
+It did not.
+
+It became different.
+
+The barrow wheel was narrow and disliked broken stone. Orren knew the immediate street but not Marra's route. I knew the route but had both hands occupied with movement. At the first gutter, he aimed straight for the deepest part.
+
+"Left."
+
+He shifted without asking why.
+
+The wheel crossed where the stone was flatter.
+
+At the market edge, two baskets narrowed the lane.
+
+"Right side."
+
+He went right.
+
+A woman carrying folded cloth came the other way. Orren stopped the barrow before I needed to say anything and let her pass.
+
+We continued.
+
+No system.
+
+No breakthrough.
+
+Two people had different useful information.
+
+That was enough to move buckles through a city.
+
+At Sen's red door, Orren slowed.
+
+"Here?"
+
+"No. Green."
+
+He looked ahead.
+
+"That one?"
+
+"Yes."
+
+Marra's door stood open.
+
+Jessa came out carrying a basket before we reached it.
+
+She saw me.
+
+Then Orren.
+
+Then the wheelbarrow.
+
+Then the crate.
+
+"Why?"
+
+"Wrong court."
+
+She looked at the crate again.
+
+"That explains nothing."
+
+"It explained enough to me."
+
+Orren set the barrow down.
+
+Jessa put her basket beside the door and looked at the folded paper I held out.
+
+She read it.
+
+"Buckles."
+
+"Apparently."
+
+"You're not Lyssa."
+
+"Recent development."
+
+She looked at Orren.
+
+He said, "Orren."
+
+Jessa nodded.
+
+"Jessa."
+
+That was all.
+
+No one explained their histories.
+
+Marra called from inside, "What?"
+
+Jessa called back, "Buckles."
+
+"Which?"
+
+Jessa looked at the paper.
+
+"Both."
+
+A pause.
+
+"Finally."
+
+There was history here.
+
+It did not belong to me.
+
+Jessa moved the basket aside and pointed into the room.
+
+"There."
+
+Orren pushed the barrow inside far enough that the crate could be lifted without blocking the door.
+
+I stayed out of the work lane automatically.
+
+Marra came from behind a hanging length of cloth, wiping chalk from two fingers.
+
+She looked at me.
+
+"Road one."
+
+"Crate one today."
+
+She looked at Orren.
+
+Then the barrow.
+
+"Whose?"
+
+"Cala's," Orren said.
+
+Marra accepted this without knowing who Cala was.
+
+Carrow had reached the correct level of detail.
+
+Jessa cut the cord around the crate.
+
+I opened my mouth.
+
+Then closed it.
+
+Not my cord anymore.
+
+Not my crate.
+
+Not my buckles.
+
+Progress.
+
+Marra lifted one top slat enough to look inside.
+
+Metal clicked softly.
+
+She counted something near the top without unloading the whole thing.
+
+Jessa checked the paper again.
+
+"Two bags."
+
+"I see two."
+
+"Count?"
+
+"Later."
+
+The crate had arrived.
+
+Our job was finished.
+
+This should have been the end.
+
+Then Marra looked at the wheelbarrow tray.
+
+"Ash?"
+
+Orren looked inside.
+
+"Yes."
+
+"Not on my floor."
+
+He lifted the handles immediately.
+
+I stepped aside.
+
+Jessa laughed.
+
+Not at him exactly.
+
+At the speed.
+
+Orren looked at me.
+
+"Back."
+
+"Apparently."
+
+Marra had already turned toward the crate.
+
+No thanks speech.
+
+No payment.
+
+The crate was not ours and the delivery had not become a job.
+
+Jessa picked up her basket.
+
+"Tell Lyssa west is tomorrow."
+
+I stopped.
+
+"West is tomorrow."
+
+"Yes."
+
+"Will she know what that means?"
+
+Jessa looked at me.
+
+"Yes."
+
+Of course.
+
+"Fine."
+
+She left.
+
+Orren and I took the barrow back.
+
+The empty tray made the wheel louder.
+
+Halfway home, Orren said, "You know them."
+
+"Some."
+
+"Work?"
+
+"Lyssa's."
+
+He nodded.
+
+That was enough for him.
+
+I expected a question about Lyssa.
+
+None came.
+
+At the next corner he said, "Rain bad yesterday."
+
+"Yes."
+
+"Lower Tanner?"
+
+"Bad near the dye yard."
+
+He grunted.
+
+"Always."
+
+I looked at him.
+
+"You knew that?"
+
+"Carts."
+
+Tavi had claimed Orren used to work carts.
+
+Child testimony had accidentally collided with adult evidence.
+
+I did not tell him that.
+
+"Bell Lane was better," I said.
+
+"North."
+
+"Yes."
+
+"South, no."
+
+"Why?"
+
+He pointed with his chin toward a street we were not on.
+
+"Steps. Water comes down."
+
+I stored that.
+
+Not because every conversation needed to become a route map.
+
+Because I had been caught in hard rain yesterday and a man who had apparently worked carts knew where water went.
+
+"Good to know."
+
+Orren shrugged.
+
+We reached the courtyard before Cala.
+
+This was confirmed by the absence of anyone shouting about the wheelbarrow.
+
+Orren returned it beneath the stair.
+
+Sera had gone inside.
+
+Lyssa had gone too.
+
+Not upstairs.
+
+Gone.
+
+Of course.
+
+She had work.
+
+The room was empty when I climbed back up.
+
+Her morning gray sleeve was not on the table.
+
+The dark cuff remained.
+
+Beside it sat a small paper packet I had not seen when I left.
+
+I looked at it.
+
+Then away.
+
+I had become excellent at this.
+
+The household cord was gone with the crate.
+
+That was mildly annoying.
+
+I had not thought about ownership when Jessa cut it.
+
+Now I did.
+
+One useful length of cord had become part of somebody else's delivery because I had said yes to moving a crate that was not ours.
+
+Consequences had achieved a price of one cord.
+
+Survivable.
+
+I sat down.
+
+No theatre message had appeared while I was gone.
+
+Still unassigned.
+
+Except I had spent half the morning delivering buckles with Orren.
+
+The distinction mattered less than it used to.
+
+I ate the remaining bread carefully enough that Lyssa could not accuse me of destroying civilization.
+
+Then I repaired the loose tie on one of our storage sacks because it was there and because the morning had made cord politically important.
+
+Lyssa returned in the afternoon carrying nothing.
+
+She saw me at the table.
+
+"Done?"
+
+"Buckles delivered."
 
 "Good."
 
-She stared.
+"We lost the cord."
 
-I smiled.
+She stopped.
 
-"It's a word."
+"What?"
 
-She threw a scrap of thread at me.
+"Jessa cut it."
 
-It landed short.
+"Why?"
 
-I did not help.
+"To open the crate."
 
-Later, while we ate, she said Mara had found the right buttons somewhere else for less.
+"Our cord?"
 
-I did not ask where.
+"Formerly."
 
-I did not ask who Neli was again.
+Lyssa closed her eyes for a moment.
 
-The dark pieces belonged to a customer whose name I now knew and whose face I did not.
+I waited.
 
-Mara's brother would come tomorrow because Lyssa had refused to change his coat from a description.
+"How did you carry it?" she asked.
 
-Hollen's roof might finally stop leaking.
+"I didn't."
 
-The theatre's blue room was being repaired by a man whose face I knew and name I still did not.
+Her eyes opened.
 
-My cuff no longer had three loose threads.
+"Good."
 
-That was the only old household mystery I had solved.
+"We attempted engineering."
 
-It had not been a mystery.
+"Greg."
 
-I had simply been avoiding a needle.
+"It failed safely."
 
-Before bed, I moved the shirt from the shelf to the peg where I kept clothes I could actually wear without pretending not to notice them.
+"Greg."
 
-Lyssa saw.
+"Then Orren pushed Cala's ash barrow."
 
-She said nothing.
+That required explanation.
 
-Good.
+I gave her the short version.
+
+The short version became longer because she wanted to know why Orren had Cala's barrow, why Sera had authorized it, whether Cala actually knew, and why I had apparently spent part of the morning trying to invent a forearm suspension system for a wheelbarrow.
+
+"It almost worked."
+
+"No."
+
+"It moved."
+
+"Badly."
+
+"That is still movement."
+
+"You stopped."
+
+"Yes."
+
+She looked at me for a second longer.
+
+Then nodded.
+
+Not praise.
+
+Not relief made ceremonial.
+
+Just acceptance of the useful part.
+
+"Jessa said west is tomorrow," I said.
+
+Lyssa's attention changed immediately.
+
+"Tomorrow?"
+
+"Apparently west remains tomorrow."
+
+She went to the table and picked up the dark cuff.
+
+Then the paper packet.
+
+Neither was explained to me.
+
+"You know what that means?"
+
+"Yes."
+
+"Good."
+
+I leaned back.
+
+She looked at me.
+
+"What?"
+
+"Nothing. I enjoy information that reaches its intended victim."
+
+"Customer."
+
+"Even worse."
+
+She put the cuff and packet into her work bag.
+
+The brown cloth remained near the wall.
+
+Three pins.
+
+My damaged shirt remained on the shelf.
+
+Three threads.
+
+The day had moved one crate, lost one cord, confirmed one piece of child gossip by accident, and given Lyssa a message I did not understand.
+
+No theatre.
+
+No magic.
+
+No revelation.
+
+Tomorrow had acquired west.
+
+Not for me.
+
+That was the important part.
+
+I had my own day to lose.

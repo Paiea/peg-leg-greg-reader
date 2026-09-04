@@ -1,941 +1,1041 @@
 # CHAPTER 270
 
-## THE WATCHMAN
+## THE ERRAND
 
-The job found me because a man wanted lunch.
+Bread became my problem before breakfast.
 
-This was more respectable than most systems of employment.
+This was mostly because there was no bread.
 
-He caught me near the north fountain just before midday.
+I stood in front of the shelf and confirmed the situation from several angles, in case a loaf had developed stealth overnight.
 
-I had gone out for salt.
+Four and a half onions.
 
-Only salt.
+Rice.
 
-This mattered because leaving the house for one cheap thing had become one of the city's preferred methods of assigning me a second life.
+A little salt.
 
-The man stood beside a handcart with two high wooden sides and a canvas cover tied over the top.
+No pepper cheese.
 
-I knew his face from the lower market.
+No bread.
 
-Not his name.
+The two replacement cord lengths still sat where they had been sitting for days, because apparently cord had greater household stability than food.
 
-He sold something involving jars.
+Lyssa was awake behind me.
 
-Or bought jars.
+"Bread," I said.
 
-Possibly he was simply followed by jars professionally.
+"Yes."
 
-"Greg?"
+"We have none."
 
-"Depends."
+"Yes."
 
-He looked at my crutches.
+"This is a crisis."
 
-"Bronze Greg."
+"Go buy bread."
 
-"Less depends."
+There it was.
 
-"You busy?"
+Government.
 
-I looked at the packet of salt in my coat pocket.
+I turned.
 
-"Violently."
+She was fastening her hair back with one hand while holding the pale work under her other arm. The piece had changed again.
 
-He nodded toward the cart.
+Not enough for me to identify it.
 
-"Need someone sit with this half an hour."
+Enough that it was doing this deliberately.
 
-"Why?"
+"Nerin?" I asked.
 
-"Lunch."
+"Any bread."
 
-Excellent.
+"That sounds like permission to make mistakes."
 
-"What is it?"
+"Bread, Greg."
 
-"Jars."
+"Specificity protects everyone."
 
-I had been right.
+She looked at the shelf.
 
-"What's in the jars?"
+"Not onion bread."
 
-"Preserves."
+"That exists?"
+
+"Probably."
+
+"Now I need to find it."
+
+"No."
+
+I put on my coat.
+
+The long-standing brown cloth remained folded near the wall with three pins. Lyssa put the pale work into her bag. I still did not ask what it was.
+
+This had become less restraint and more competition.
+
+She noticed me watching.
+
+"You going?"
+
+"Yes."
+
+"Then go."
+
+"I am being expelled from my own home over bread."
+
+"Bring some back."
+
+I left.
+
+The morning was cool enough that my hands wanted gloves and warm enough that wearing them would have annoyed me ten minutes later. I compromised by putting them in my coat pockets whenever the street allowed it.
+
+Crutches complicated that plan.
+
+My hands came back out.
+
+The city had opinions.
+
+I could have gone to the nearest bread seller.
+
+Instead I headed toward Nerin's bakery.
+
+Not because Mara worked there.
+
+Not because Lyssa had a route there.
+
+Because three small loaves had entered our room from that bakery and then disappeared at a speed suggesting competence.
+
+This was evidence.
+
+Also I wanted to see whether the place smelled as good as the bread had.
+
+It did.
+
+I smelled it before I found the door.
+
+Warm grain, browned crust, something sweet farther inside, and the hot mineral smell of ovens working harder than the street deserved.
+
+The bakery occupied a narrow front with a wider room behind it. Two people were already waiting near the counter. A boy carried a tray through a side opening and vanished before I could decide whether he worked there or had stolen twelve rolls with extraordinary confidence.
+
+Mara was not at the counter.
+
+Good.
+
+A broad woman with flour on both forearms looked at me.
+
+"What?"
+
+I liked her immediately.
+
+"Bread."
 
 "What kind?"
 
-"Do you want the work?"
+This was where Lyssa's instructions failed me.
 
-"I want to know whether the cart explodes."
+"Household."
 
-"Plum. Pear. Pepper. Two onion."
+The woman stared.
 
-"No explosion?"
+"Eating kind."
 
-"Not unless you eat the pepper."
+"All of it is eating kind."
 
-He named a small amount.
+"Excellent bakery."
 
-Not theatre pay.
+The man waiting beside me made a sound that might have been a laugh.
 
-Not Guild pay.
+The woman pointed to three stacks.
 
-Half an hour of sitting money.
+"Small dark. Round wheat. Long white."
 
-I looked at the cart.
+"Which lasts?"
 
-"What am I doing?"
+"Dark."
 
-"Don't let anyone take jars. If Tolan comes, he can take the blue crate. If my sister comes, tell her I went to eat."
+"Which is cheapest?"
 
-"Who is your sister?"
+"Dark."
 
-"Nessa."
+"Which does Mara bring home when Nerin is going to throw it out?"
 
-"Who is Tolan?"
+The woman's eyes changed.
 
-"Tall. Missing two front teeth. Blue cap."
+"You Greg?"
 
-"Could describe half the market after winter."
+Ah.
 
-"He'll say blue crate."
+"Unfortunately."
 
-"Better."
+"Mara said you'd say something stupid."
 
-The man held out his hand.
+"This is slander through prediction."
 
-"Orin."
+She wiped one hand on her apron and held it out.
+
+"Nerin."
+
+I looked at the hand.
+
+Then at her.
+
+"You are Nerin."
+
+"Yes."
+
+I shook it.
 
 "Greg."
 
 "I know."
 
-Of course.
+That was becoming a problem.
 
-"Where are you eating?"
+Not a large problem.
 
-"There."
+A bread-sized problem.
 
-He pointed across the street at a cookstall.
+Nerin pointed again.
 
-I stared at him.
+"Dark keeps best."
 
-"You are paying me because your lunch is thirty steps away?"
+"Two."
 
-"Cart can't go in."
+"Small?"
 
-"You can see it from there."
+"Yes."
 
-"Not from the back bench."
+She put two loaves on the counter.
 
-"Sit at the front."
+I paid.
 
-"Full."
+No discount.
 
-A complete economic system.
-
-"Fine."
-
-Orin walked away before I could reconsider.
-
-I became a watchman.
-
-The cart was parked beside the fountain wall where two market lanes met. Good visibility. Bad traffic.
-
-I sat on the low stone edge with the cart at my right and my crutches resting against my shoulder.
-
-My repaired shoe did not scrape.
-
-I noticed because I had not noticed until sitting down.
+No free bread.
 
 Good.
 
-The canvas cover shifted once in the breeze.
+I started arranging them in my cloth bag.
 
-Under it, glass clicked softly against wood.
-
-I had guarded stranger things.
-
-Probably.
-
-Old life contained enough bad decisions that I refused to rank them.
-
-For the first five minutes, nobody cared about the cart.
-
-Then a woman stopped.
-
-"Orin?"
-
-"Lunch."
-
-She looked at me.
-
-"You selling?"
-
-"No."
-
-"Pear left?"
-
-"I don't know."
-
-"Can you look?"
-
-"I am specifically being paid not to interfere with the jars."
-
-She frowned.
-
-"That's stupid."
-
-"I am new to the profession."
-
-She left.
-
-Two boys circled the fountain chasing each other with lengths of reed.
-
-A dog smelled the cart.
-
-I told it no.
-
-It disagreed silently but moved on.
-
-A cart wheel hit a stone somewhere behind me.
-
-Someone swore.
-
-Someone else laughed.
-
-Market music without instruments.
-
-Then a little green light appeared under Orin's canvas.
-
-I stared at it.
-
-The light vanished.
-
-I leaned closer.
-
-Nothing.
-
-"No," I told the cart.
-
-A second green flash.
-
-Small.
-
-Low near the rear wheel.
-
-Not inside the jars.
-
-Under the cart.
-
-I shifted forward and looked beneath.
-
-Two gray birds stood in the shadow between the wheel and the wall.
-
-Small.
-
-Their feather edges glowed faint green.
-
-"Glowwings."
-
-One tilted its head.
-
-I felt absurdly pleased to know the word.
-
-Not the animal.
-
-The word.
-
-Lyssa had given me that much.
-
-The birds pecked at something dark on the ground.
-
-Probably dropped fruit.
-
-Maybe insect.
-
-Maybe magical crime.
-
-I knew nothing about glowwing diet and intended to preserve that achievement.
-
-"You can stay if you don't steal preserves."
-
-They ignored me.
-
-Reasonable.
-
-A man with a blue cap approached.
-
-Tall.
-
-When he smiled, two front teeth were missing.
-
-"Blue crate."
-
-"Tolan."
-
-"Greg."
-
-I hated this city.
-
-"Orin said you can take it."
-
-Tolan untied one side of the canvas.
-
-I watched his hands.
-
-Not because I distrusted him.
-
-Because that was literally the job.
-
-He pulled out a shallow crate painted blue at both ends.
-
-Inside were six squat jars packed in straw.
-
-One jar held something purple.
-
-One orange.
-
-The others hidden by paper wraps.
-
-"All?" I asked.
-
-"Blue crate."
-
-"Good."
-
-He retied the canvas.
-
-Then looked under the cart.
-
-"Glowwings."
-
-"Apparently."
-
-"Means rain."
-
-I looked at the sky.
-
-Clear.
-
-"Does it?"
-
-Tolan shrugged.
-
-"My mother says."
-
-"Do you?"
-
-"No."
-
-Excellent man.
-
-He carried the crate away.
-
-I added one fact to my glowwing knowledge.
-
-Tolan's mother believed they meant rain.
-
-This was not the same as weather prediction.
-
-The birds continued pecking.
-
-One flashed blue.
-
-Lyssa had said sometimes blue.
-
-That was satisfying in a tiny useless way.
-
-Then both birds flew straight upward between the buildings.
-
-No prophecy followed.
-
-Ten minutes remained.
-
-I knew because the fountain shadow had moved almost nothing and because Orin had promised half an hour, which was not a measurement device.
-
-I considered asking the cookstall.
-
-Then a girl arrived carrying a basket on one hip.
-
-Maybe sixteen.
-
-Maybe younger.
-
-"Where's Orin?"
-
-"Lunch."
-
-She closed her eyes.
-
-"Again?"
-
-"You are Nessa."
-
-"Unfortunately."
-
-"He said tell you he went to eat."
-
-"I can see him."
-
-Orin was now visible through the cookstall opening, lifting a bowl.
-
-Nessa stared at him across the street with the concentrated disappointment only family could produce.
-
-"Did Tolan come?"
-
-"Took blue crate."
-
-"Good."
-
-She set her basket on the cart edge.
-
-"Move."
-
-"Why?"
-
-"Because that's mine."
-
-"What is?"
-
-"Basket."
-
-"You just put it there."
-
-"Cart."
-
-"Orin hired me to stop people taking jars."
-
-"I'm not taking jars."
-
-"Then we have achieved peace."
-
-Nessa looked at me.
-
-"He paid you?"
-
-"Yes."
-
-"Idiot."
-
-"He wanted lunch."
-
-"He could ask me."
-
-"Were you here?"
-
-"No."
-
-"His strategy improves."
-
-She snorted.
-
-Then untied the canvas.
-
-I put a hand on the knot.
-
-"What are you doing?"
-
-"Putting these in."
-
-She lifted the basket lid.
-
-Empty jars.
-
-Clean.
-
-Different sizes.
-
-"He said don't let anyone take jars."
-
-"I'm adding jars."
-
-I considered the contract.
-
-"Allowed."
-
-"Thank you, watchman."
-
-The title had already become insulting.
-
-Nessa packed the empty jars into a rear compartment beneath the preserves.
-
-She knew exactly where they went.
-
-I let her.
-
-Then she retied the canvas better than Tolan had.
-
-"You're the theatre one?" she asked.
-
-"Sometimes."
-
-"And Guild animal one?"
-
-"Once. Maybe twice depending how generous rumor is."
-
-"Mara says you knew bugs at Savin's."
-
-That had taken less than a day.
-
-"Mara needs hobbies."
-
-"She has them. Talking is one."
-
-"Apparently."
-
-Nessa picked up her basket.
-
-"What bugs?"
-
-"Copperbacks."
-
-"Those eat wax cord."
-
-I stared at her.
-
-"You know that?"
-
-"Orin had them in the shed last year."
-
-That was useful.
-
-Very useful.
-
-"You watched them?"
-
-"No. He lost two tied jar covers. Found the little clicking things under the shelf. Old Pera told him copperbacks."
-
-"Who's Pera?"
-
-"Woman near west dye steps. Sells cord and net repair."
-
-I leaned back.
-
-There it was.
-
-Local knowledge.
-
-Not proof exactly.
-
-But independent local pattern.
-
-"Did he do anything?"
-
-"Tin boxes. Swept everything. Put bitterleaf around the wall."
-
-"Did bitterleaf work?"
-
-Nessa shrugged.
-
-"Bugs went away. Could be sweeping. Could be winter."
-
-I smiled.
-
-"You are my favorite person today."
-
-"Why?"
-
-"You don't know."
-
-"I know lots."
-
-"Exactly."
-
-She looked concerned for me.
-
-Fair.
-
-"Tell Savin?" she asked.
-
-I thought about it.
-
-Savin had the bug in a jar.
-
-Waxed thread in metal.
-
-She knew more existed.
-
-She could ask locally if she wanted.
-
-I did not need to run across the market carrying every scrap of corroboration like a prophet of insect storage.
-
-"If I see her," I said.
-
-Nessa nodded.
-
-Then left.
-
-Orin returned carrying half a flatbread folded around something oily.
-
-"All good?"
-
-"Tolan took blue crate. Nessa added empty jars and judged you. Two glowwings occupied the underside briefly. No preserves stolen."
-
-Orin looked under the cart.
-
-"Glowwings?"
-
-"Gone."
-
-"Rain?"
-
-"Tolan's mother says so."
-
-Orin looked at the clear sky.
-
-"She's wrong a lot."
-
-"Good to know."
-
-He paid me.
-
-Exactly what he had named.
-
-"Tomorrow?" he asked.
-
-I stared.
-
-"You planning lunch again?"
-
-"Usually."
-
-"Bold."
-
-"Same time maybe."
-
-There was the dangerous part of casual work.
-
-One useful half hour wanted to become a pattern before anybody had agreed to one.
-
-"If I'm here and free," I said.
-
-Orin nodded.
-
-"Fine."
-
-No promise.
-
-Good.
-
-I went home with salt and money.
-
-Technically profit.
-
-This was how merchants were born.
-
-Lyssa was not home.
-
-I put the salt where salt lived.
-
-Then counted the money I had on me.
-
-Not total debt arithmetic.
-
-Just the coins in my hand.
-
-Savin's repair had taken some.
-
-Orin's cart had returned a little.
-
-Yesterday's theatre pay still existed in the larger pile.
-
-The Guild payment before that.
-
-Small money came and went through ordinary holes.
-
-Bread.
-
-Salt.
-
-Shoe repair.
-
-Tea.
-
-The kind of life where one dramatic payment did not solve anything because existence charged subscription fees.
-
-I separated household money from mine.
-
-Then stopped.
-
-The amount I had been treating as mine looked wrong.
-
-Not missing.
-
-Too much.
-
-I counted again.
-
-Still too much.
-
-I frowned.
-
-Then remembered the caller pay.
-
-I had split the previous binding-shop pay automatically.
-
-I had not split yesterday's theatre pay after coming home tired.
-
-The extra was not profit.
-
-It was delayed responsibility.
-
-Annoying.
-
-I moved the household share where it belonged.
-
-My personal pile became less impressive.
-
-More accurate.
-
-I preferred accurate less impressive.
-
-Usually.
-
-A knock came at the door.
-
-I looked toward it.
-
-One knock.
-
-Then two.
-
-Not Lyssa.
-
-She had a key.
-
-Not theatre style either. Theatre people knocked like doors had personally offended schedules.
-
-I opened it.
-
-A boy stood there holding a folded paper.
-
-Not the gray Guild runner from before.
-
-Different boy.
-
-Younger.
-
-Red scarf.
-
-"Greg?"
-
-"Yes."
-
-He handed me the paper.
-
-"From Hessa."
-
-There went my free afternoon.
-
-I opened it.
-
-Her handwriting.
-
-Recognizable.
-
-Short.
-
-**Tomorrow. Midmorning. If rested. Bring nothing.**
-
-I read it twice.
-
-"Answer?" the boy asked.
-
-"Yes."
-
-"Yes what?"
-
-"Tell her yes, if rested."
-
-He nodded.
-
-"Coin?"
-
-I stared at him.
-
-"For delivering?"
-
-"She paid me."
-
-"Then why ask?"
-
-"Sometimes people pay twice."
-
-Entrepreneur.
-
-"Not today."
-
-"Fine."
-
-He left.
-
-I closed the door.
-
-Hessa tomorrow.
-
-Bring nothing.
-
-That was interesting.
-
-No paper.
-
-No coin.
-
-No thread.
-
-No larger object.
-
-Possibly she had selected a next experiment.
-
-Possibly she wanted to tell me to stop being annoying in person.
-
-Both plausible.
-
-I put the note on the table.
-
-Then deliberately did not speculate for almost three minutes.
-
-Personal growth.
-
-Lyssa came back carrying a wrapped bundle under one arm and a small sack in the other.
-
-Not the pale work.
-
-Different shape.
-
-I did not identify it by force.
-
-"Hessa tomorrow," I said.
-
-Lyssa set the sack down.
-
-"Magic?"
-
-"Unknown. Says bring nothing."
-
-She read the note.
-
-"Rested."
-
-"Yes."
-
-She looked at me.
-
-"You rested?"
-
-"I guarded preserves for half an hour."
-
-"What?"
-
-I explained Orin.
-
-Then Tolan.
-
-Then Nessa.
-
-Then the glowwings.
-
-Lyssa unpacked the sack while listening.
-
-Two onions.
-
-A handful of something green.
-
-Small hard cheese.
-
-"Rain?" she asked.
-
-"Tolan's mother says glowwings mean rain. Orin says she's wrong a lot."
-
-"They don't."
-
-"Good."
-
-"Sometimes before rain more bugs fly high. Glowwings eat them."
+Nerin said, "Wait."
 
 I stopped.
 
-"Glowwings eat bugs?"
+This was how free onions happened.
 
-Lyssa shrugged.
+She disappeared through the side opening.
 
-"Some."
+I considered leaving.
 
-"You said they nest high."
+The man beside me said, "She'll catch you."
 
-"They do."
+"I use crutches."
 
-"Green and sometimes blue."
+"Exactly."
+
+Cruel city.
+
+Nerin returned carrying a folded square of paper.
+
+Not bread.
+
+Worse.
+
+"Take this to Mara."
+
+I looked at it.
+
+"Where?"
+
+"You don't know?"
+
+"I know she works here."
+
+"Not this morning."
+
+"Then I know less than you hoped."
+
+Nerin frowned.
+
+"She said Lyssa knows Jessa's west room."
+
+That was a sentence containing several people and one direction.
+
+"Lyssa already left."
+
+"You know Jessa?"
 
 "Yes."
 
-"This is becoming a bird."
+"You know west market?"
 
-She looked at me.
+"Yes."
 
-"It was already bird."
+"Then take it."
 
-I pointed at her.
+I did not take it.
 
-"You know what I mean."
+"What is it?"
 
-She did not.
+Nerin looked at the paper.
 
-Or pretended not to.
+"A count."
 
-"Copperbacks," I said. "Nessa says Orin had them last year. Damaged tied jar covers. Local woman named Pera called them copperbacks too. They used tin boxes, swept, bitterleaf. Nessa doesn't know what actually solved it."
+"Of?"
 
-Lyssa cut the cheese.
+"Bread."
 
-"Tell Savin?"
+"Why does Mara need a bread count in Jessa's west room?"
 
-"If I see her."
+"She doesn't."
+
+"Excellent."
+
+"Jessa does."
+
+I waited.
+
+Nerin waited harder.
+
+"Why?"
+
+"Because she asked."
+
+There were moments when information simply refused to improve.
+
+"Is this paid?"
+
+"No."
+
+"Urgent?"
+
+"Before midday."
+
+"Why me?"
+
+Nerin pointed at my bag.
+
+"You're going that way."
+
+I looked toward the door.
+
+"I was going home."
+
+She considered this.
+
+"Then don't."
+
+That was unexpectedly reasonable.
+
+She put the folded paper beside my loaves instead of into my hand.
+
+"If you're not going, leave it."
+
+No guilt.
+
+No debt.
+
+No claim that Mara needed rescuing.
+
+Just an errand that existed and could remain here.
+
+I looked at the bread.
+
+Then at the paper.
+
+I had no other assignment.
+
+West market was not close to home, but it was not a foolish route from here. I knew the streets. My body felt good. Both grips were fine. The bag was light.
+
+"Jessa's west room," I said.
+
+"Ask for Mara or Jessa."
+
+"And if neither is there?"
+
+"Bring it back."
+
+"Today?"
+
+"Tomorrow is fine if you don't eat it."
+
+"Paper is expensive fiber."
+
+Nerin looked at me.
+
+I took the count.
+
+"Before midday."
+
+"Yes."
+
+I tucked it into the inside pocket of my coat where it would not become bread seasoning.
+
+Then I left with two loaves and an unpaid errand I had chosen badly enough to call my own.
+
+Carrow was busier by then.
+
+A handcart full of green pottery blocked half a lane while two men argued over whether the wheel was crooked or the street was. A woman selling hot beans had arranged three small red glass chips above her pot. They glowed brighter whenever the lid came off and dimmed when she covered it again.
+
+I slowed.
+
+Not because I needed beans.
+
+The chips were probably heat marks.
+
+Probably.
+
+I had seen better versions in my old life, fixed into kitchen walls and bathhouse pipes. Red for hot, dull for safe, black when dead or broken. Cheap ones lied near steam.
+
+The woman's three chips brightened as the pot opened.
+
+She did not look at them.
+
+She looked at the beans.
+
+Ordinary magic was apparently most successful when nobody admired it.
+
+I kept walking.
+
+At the west market, I found the building I remembered from the buckle delivery and Lyssa's routes. Calling it Jessa's room was generous. It was a narrow work space behind a frontage full of metal findings, cord ends, buttons, hooks, and little trays that seemed designed to make coins leave pockets one at a time.
+
+Jessa stood behind a table sorting small brass pieces.
+
+Marra was not there.
+
+Mara was.
+
+This was already dangerous for names.
+
+Mara sat on a low stool with a strip of paper across one knee and three little piles of something pale on the table in front of her.
+
+She looked up.
+
+"Greg?"
+
+"Apparently."
+
+Jessa glanced over.
+
+"Road one."
+
+"Still offensive."
+
+"Still true."
+
+I took Nerin's folded count from my pocket.
+
+"Nerin sent this."
+
+Mara groaned.
+
+"Why you?"
+
+"I bought bread."
+
+Jessa held out a hand.
+
+"For me."
+
+I gave it to her.
+
+She opened it.
+
+Mara said, "She counted?"
+
+"She said it was a count."
+
+Jessa read the page.
+
+"She counted."
+
+This seemed to matter.
+
+I had no idea why.
+
+Excellent.
+
+"Do I need to know anything else?" I asked.
+
+"No," Jessa said.
+
+Mara said, "Maybe."
+
+I looked between them.
+
+"Fight first."
+
+Jessa put the paper flat on the table.
+
+"He doesn't need it."
+
+"He knows Lyssa."
+
+"I also know Lyssa," Jessa said.
+
+"You're here."
+
+"So are you."
+
+I shifted my crutches.
+
+"I can leave."
+
+Mara pointed at me.
+
+"Wait."
+
+Jessa said, "Don't."
+
+I stayed entirely because this was funny.
+
+Mara looked at the paper.
+
+"Nerin needs six of the narrow wraps tomorrow morning."
+
+Jessa said, "I can read."
+
+"I'm telling Greg."
+
+"Why?"
+
+"Because Lyssa asked if the number changed."
+
+That connected one thing.
+
+Not many.
+
+One.
+
+I said, "Morning six. Not four."
+
+Mara looked at me.
+
+"You know."
+
+"I heard it. I did not know what it meant."
+
+Jessa tapped the count.
+
+"Now you know six means six."
+
+"This city is full of revelations."
+
+Mara smiled.
+
+"Tell Lyssa six stayed six."
+
+I looked at Jessa.
+
+"Do I need to?"
+
+Jessa shrugged.
+
+"If you see her."
+
+Good.
+
+Not a courier network.
+
+Not a mission.
+
+A sentence I could carry home because home contained the person it concerned.
+
+"Six stayed six," I said.
+
+Mara nodded.
+
+I looked at the pale piles in front of her.
+
+They were thin strips of folded cloth.
+
+Not Lyssa's pale work.
+
+Different shade.
+
+Different texture.
+
+I knew this because I had apparently become a man who could distinguish unresolved pale things.
+
+"Bakery?" I asked.
+
+Mara looked down.
+
+"No."
 
 "Good."
 
-That was the second person who thought information did not require immediate delivery.
+She laughed.
 
-I was surrounded by restraint.
+Jessa went back to her brass pieces.
 
-"Also," I said, "Orin may ask me to guard his lunch cart again if I happen to be there."
+"You done?"
 
-"His lunch cart?"
+"I delivered paper."
 
-"Preserve cart. His lunch."
+"Then yes."
 
-"You guard food while he eats food."
+I turned to leave.
 
-"Economy."
+Mara said, "How's the shirt?"
 
-Lyssa nodded solemnly.
+I stopped.
 
-"Strong system."
+"What shirt?"
 
-We cooked the onions and greens with the last of something from yesterday.
+"Your cuff."
 
-I did not ask what the wrapped bundle was.
+I looked at the repaired cuff Lyssa had fixed after the customer-change day.
 
-Lyssa did not explain.
+"Alive."
 
-Hessa's note stayed on the table.
+"Lyssa said you tried to repair it yourself."
 
-Tomorrow.
+"I was abandoned."
 
-Midmorning.
+"She was across the room."
 
-If rested.
+"Emotionally abandoned."
 
-Bring nothing.
+Jessa said, "Go home, Road one."
 
-That was a real claim.
+I went home.
 
-Not tonight's.
+Not directly.
 
-Tonight I had salt, a repaired shoe, a few new coins, a household share corrected before it became imaginary wealth, and a local rumor about insects that I did not need to carry anywhere yet.
+The route back crossed near Hollen's street.
 
-Outside, the sky remained clear.
+I did not go in.
 
-Tolan's mother lost this round.
+This required less discipline than it sounded like. I had bread. I had completed the errand. Hollen had not asked for me. Walking into a shop to see whether work existed was a thing I could do someday, but today it would have been inventing a claim because I happened to know where one lived.
 
-I slept early anyway.
+I kept walking.
+
+A bell sounded somewhere behind the market.
+
+Not theatre bell.
+
+Too high.
+
+A flock of tiny gray birds lifted from a roofline all at once. For half a second their wings flashed green.
+
+Not reflected green.
+
+Green from inside the feathers, thin as light through leaves.
+
+Then they turned and became gray again.
+
+Nobody stopped.
+
+A man carrying turnips swore because one bird had relieved itself on his shoulder.
+
+Magic had standards.
+
+I laughed hard enough that I had to stop beside a wall.
+
+The man heard me.
+
+"Funny?"
+
+"A little."
+
+He looked at his shoulder.
+
+"Glowwing shit."
+
+There.
+
+A name.
+
+Not because I asked.
+
+Because a bird had committed a crime.
+
+"Glowwings?" I said.
+
+The man pointed upward.
+
+"Those."
+
+"Thanks."
+
+"For what?"
+
+"Education."
+
+He walked away muttering.
+
+I looked up again.
+
+The flock had settled two roofs farther on. Gray bodies. Nothing special until one shifted and a feather edge gave off the faintest green line.
+
+I did not know glowwings.
+
+Not from my old life.
+
+Maybe they had existed and I had ignored them. Maybe they were local. Maybe the name was Carrow's and the animal had six other names elsewhere.
+
+I did not need to solve it.
+
+A bird glowed.
+
+Then it shit on a man.
+
+The world remained balanced.
+
+I went home.
+
+Lyssa had not returned.
+
+That meant the bread was mine to defend from myself.
+
+I put both loaves on the shelf.
+
+Then I moved them farther back.
+
+This was strategic maturity.
+
+The four and a half onions remained.
+
+I had bought no new onions.
+
+Also maturity.
+
+I sat and took my coat off.
+
+The west-market trip had been longer than a bread run needed to be. My right leg felt worked but not painful. Residual limb comfortable. Hands had the familiar pressure from the crutch grips, no hot spots. I flexed both hands and let them rest.
+
+For a while, nothing happened.
+
+This was excellent.
+
+I drank water.
+
+I found a loose thread at the inside edge of my coat pocket and cut it rather than pulling it until the entire garment became philosophy.
+
+Then I sat near the window and watched the court.
+
+Sera crossed with a basket.
+
+Orren carried two narrow boards in the opposite direction.
+
+Mina appeared long enough to throw something into a bucket and disappear again.
+
+Nobody came to my door.
+
+Tavi did not fall off anything visible.
+
+The afternoon was almost offensively manageable.
+
+Lyssa came back carrying her work bag and a second bag I did not recognize.
+
+I stood to make room at the table.
+
+"Bread," I announced.
+
+She looked at the shelf.
+
+"Good."
+
+"Two."
+
+"I see."
+
+"Paid full price."
+
+"Good."
+
+"No charity."
+
+Lyssa looked at me.
+
+"You got a free onion yesterday."
+
+"That was coercion."
+
+She set the unfamiliar bag on the floor.
+
+I did not ask.
+
+Her eyes narrowed.
+
+I smiled.
+
+"Six stayed six."
+
+That changed her face immediately.
+
+Not alarm.
+
+Recognition.
+
+"Nerin sent you?"
+
+"Nerin sent a bread count to Jessa. Mara was there. Mara told me to tell you six stayed six. Jessa said only if I saw you. I have now seen you."
+
+Lyssa put her work bag down.
+
+"You went to Jessa?"
+
+"I bought bread."
+
+"At Jessa's?"
+
+"No. Nerin's."
+
+"Then why Jessa?"
+
+"Paper."
+
+She stared at me.
+
+I enjoyed this more than I should have.
+
+"Nerin asked if I was going west. I was not. Then I chose to because I had nothing else and the paper needed to be there before midday. It was a bread count. Jessa needed it. Mara was there. Six stayed six."
+
+Lyssa absorbed the route.
+
+"Okay."
+
+That was it.
+
+No explanation of what six counted.
+
+No revelation that the pale work belonged to Nerin.
+
+No sudden invitation into Lyssa's business.
+
+Just okay.
+
+She opened the second bag.
+
+Inside were three narrow wrapped bundles.
+
+I looked.
+
+She looked at me.
+
+I looked away.
+
+"You can ask," she said.
+
+"No."
+
+"Why?"
+
+"Principle."
+
+"Stupid principle."
+
+"Most durable kind."
+
+She laughed and began taking things out.
+
+One bundle was thread.
+
+I could tell because it stopped being mysterious the moment she unwrapped it.
+
+The second held buttons.
+
+Small, pale, ordinary.
+
+The third remained closed.
+
+Victory belonged to uncertainty.
+
+"I saw glowwings," I said.
+
+Lyssa stopped.
+
+"Where?"
+
+"Near Hollen's street."
+
+"You know glowwings?"
+
+"No. A man named them after one shit on him."
+
+She stared at me.
+
+Then laughed so suddenly she had to put the buttons down.
+
+"That's how I learned."
+
+I blinked.
+
+"What?"
+
+"Not same man."
+
+"That would have been better."
+
+"They nest high."
+
+"Do they always glow green?"
+
+"Sometimes blue."
+
+"Why?"
+
+Lyssa shrugged.
+
+"They're glowwings."
+
+I waited.
+
+That was apparently the complete local scientific record available in our household.
+
+"Useful."
+
+"You asked."
+
+"I did."
+
+She touched one of the pale buttons with her thumb.
+
+"You know them from before?"
+
+"No."
+
+"Good."
+
+I pointed at her.
+
+"You need another word."
+
+"Why?"
+
+"This one has become hostile."
+
+She smiled.
+
+I cut one loaf for us.
+
+The bread was darker than the free loaves had been, denser, with a harder crust. Better for keeping, Nerin had said.
+
+Lyssa ate a piece while sorting buttons.
+
+"Good?" I asked.
+
+"Bread."
+
+"Nerin said dark keeps best."
+
+"It does."
+
+"You knew."
+
+"Yes."
+
+"You could have specified."
+
+"You came back with bread."
+
+This was infuriatingly strong evidence for her method.
+
+I ate another piece.
+
+"I also saw heat marks over a bean pot."
+
+"Red glass?"
+
+"Three chips."
+
+"Common."
+
+"I knew those. Old life."
+
+Lyssa nodded.
+
+"Glowwings I didn't."
+
+Another nod.
+
+The distinction sat comfortably between us.
+
+Some things remembered.
+
+Some things new.
+
+Some things local enough that a woman could shrug and say they were glowwings as if that explained why birds lit green from inside their feathers.
+
+I liked Carrow better for refusing to organize itself around what I knew.
+
+Later, Lyssa took the third wrapped bundle out again.
+
+I was reading nothing in particular from an old scrap because the room did not contain enough books and I had not solved that problem yet.
+
+She unwrapped it.
+
+Narrow white tape.
+
+That was all.
+
+No cursed jewel.
+
+No secret contract.
+
+Tape.
+
+"Ha," she said.
+
+I looked up.
+
+"What?"
+
+"You wanted to know."
+
+"I did not ask."
+
+"Still wanted."
+
+"Wanting is private."
+
+"Your face isn't."
+
+I returned to the scrap.
+
+"Six stayed six."
+
+"Yes."
+
+"What is six?"
+
+Lyssa smiled.
+
+I waited.
+
+She threaded a needle.
+
+"Not asking?"
+
+I hated her.
+
+"No."
+
+"Good."
+
+There it was again.
+
+I threw the scrap at her.
+
+She caught it.
+
+No magic required.
+
+The day had started because we needed bread.
+
+It had acquired Nerin's face, an optional paper errand, one useful sentence for Lyssa, three wrapped supply bundles, red heat glass, and birds that glowed before insulting a stranger.
+
+None of those things had been waiting for me specifically.
+
+I had simply gone outside.
+
+Tomorrow still had no assignment.
+
+We had bread again.
+
+Six was still six.
+
+And somewhere above Hollen's street, a flock of glowwings was making Carrow more magical and one man's coat less so.

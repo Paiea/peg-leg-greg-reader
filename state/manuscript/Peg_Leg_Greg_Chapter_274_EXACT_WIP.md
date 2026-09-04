@@ -1,1229 +1,1315 @@
 # CHAPTER 274
 
-## THE READER
+## THE DISTANCE
 
-The next actual claim arrived folded into a fish wrapper.
+I woke rested enough to qualify.
 
-This was less dignified than a summons.
+That was less obvious than it sounded.
 
-It was also cheaper.
+Hessa had written **if rested**, which meant arriving tired would not count as determination. It would count as introducing a variable and then pretending the variable was courage.
 
-I was eating breakfast when Lyssa flattened the paper beside my bowl.
+I ate before leaving.
 
-"Read this."
+Lyssa had already gone.
 
-I looked at her.
+The wrapped bundle from last night had gone with her. The brown cloth had not. The small paper packet she had brought home two days ago remained somewhere I could not see, which was ideal because I had no business tracking it.
 
-"Good morning."
+My right shoe made no sound.
 
-"Good morning. Read this."
+I checked the repaired heel once anyway.
 
-The paper had once held something oily.
+Flat seam.
 
-A dark crescent stained one corner. Two lines of printed notice ran across the middle, upside down from where I sat.
+Three nail heads where Savin had put them.
 
-"Is this a test?"
+Nothing lifting.
 
-"Yes."
+Then I stopped checking.
 
-"Cruel."
+Hessa's note was in my pocket even though I did not need it.
 
-"Read."
+**Tomorrow. Midmorning. If rested. Bring nothing.**
 
-I turned it around.
+I brought nothing.
 
-The letters were familiar enough. Carrow's hand and print still varied by whoever had learned from whichever teacher, but this was clean block work.
+This required more discipline than expected.
 
-`SOUTH MARKET SCALE CHECK`
+No paper.
 
-Below that:
+No coin.
 
-`SECOND BELL THROUGH FIFTH`
+No thread.
 
-Then smaller writing.
+No clever object I could later claim had accidentally been in my pocket.
 
-`WEIGHTS MARKED AT EAST TABLE`
+I had clothing, crutches, one shoe, and the note.
 
-I read it aloud.
+The note was technically paper.
 
-Lyssa nodded.
+I considered whether Hessa would count that as disobedience.
 
-"Good."
+Then decided that if she did, I deserved the argument.
 
-"I have passed fish."
+The Guild room was open when I arrived.
 
-"You have passed a notice."
+Same room.
 
-"What is it for?"
+Same table.
 
-"Market scales."
+Different table arrangement.
 
-"I gathered that from the advanced literary themes."
+That stopped me in the doorway.
 
-She took the paper back.
+The glass was gone.
 
-"Maren asked if I knew someone who could sit and read marks for an hour."
+Not moved.
 
-I stopped eating.
+Gone.
 
-"Paid?"
+The three paper fins were not on the table either.
 
-"Yes."
+Instead Hessa had placed a narrow wooden board across one end of the room. Three ink marks crossed it.
 
-"How much?"
+Near.
 
-"Three copper."
+Middle.
 
-"For an hour?"
+Far.
 
-"Maybe less."
+Not written as words.
 
-"What marks?"
+Just lines.
 
-"Weights."
+A small square of pale paper sat on the nearest mark.
 
-"Do I have to lift them?"
+Not a fin.
 
-"No."
+Flat square.
 
-"Do I have to understand scales?"
+I looked at Hessa.
 
-"No."
+"Bring nothing."
 
-"Do I have to lie about a cart?"
+"You brought the note."
 
-Lyssa stared at me.
+"I knew it."
 
-"No."
+She held out her hand.
 
-"Important after yesterday."
+I gave it to her.
 
-"Maren said they need somebody who reads clearly and doesn't wander off."
+She put it beside her notebook.
 
-"That second qualification feels targeted."
+"Now nothing."
 
-"It is."
+"My dignity?"
 
-I ate another spoonful.
+"You did not bring that."
 
-"Why doesn't Maren do it?"
+I stared.
 
-"Working."
+Hessa's face remained still.
 
-"Why doesn't the market person do it?"
-
-"Working."
-
-"Why am I doing it?"
-
-"You are not working."
-
-A devastating labor analysis.
-
-"Where?"
-
-"South market. East table. Second bell."
-
-"Who pays?"
-
-"Market clerk."
-
-"Name?"
-
-"Don't know."
-
-"What exactly do I read?"
-
-"Greg."
-
-"I am establishing scope."
-
-"You are annoying breakfast."
-
-"Both can be true."
-
-Lyssa folded the fish paper again.
-
-"Maren said if you don't want it, don't go."
-
-That mattered.
-
-Not a favor owed.
-
-Not Lyssa volunteering me.
-
-Not a standing role.
-
-Three copper for an hour of sitting and reading marks sounded suspiciously compatible with my current body.
-
-"I'll go."
-
-"Good."
-
-"Do I get the fish paper?"
-
-"No."
-
-"Then how will I remember?"
-
-"South market. East table. Second bell."
-
-"You have too much faith in literacy and memory at once."
-
-She left for work before I did.
-
-No collar facing visible.
-
-No brown cloth moved.
-
-No six wraps.
-
-The household had water.
-
-The tap worked when I checked it, mostly because I distrusted infrastructure now.
-
-My right shoe held.
-
-My residual limb felt comfortable.
-
-The day had begun with three copper available for sitting down.
-
-I approved of civilization again.
-
-South market at second bell was already loud.
-
-Not crowded enough to trap me.
-
-Crowded enough that everyone had opinions about where I should be.
-
-"East table?" I asked a fruit seller.
-
-She pointed with a pear.
-
-"Past cloth."
-
-"Thank you."
-
-"Don't touch that basket."
-
-"I wasn't."
-
-"You looked."
-
-Carrow merchants had developed preemptive law.
-
-I went past cloth.
-
-The east table was impossible to miss once I knew what it was.
-
-A long plank rested on trestles beneath a striped awning. Behind it sat twelve metal weights arranged from something I could have hidden in my fist to something I did not want dropped on my foot.
-
-Each had a stamped mark on top.
-
-Beside them stood three balance scales.
-
-Two ordinary.
-
-One strange.
-
-The strange one had no hanging pans.
-
-Instead, a flat brass plate sat on a squat black base. A thin line of blue light ran around the plate's edge.
-
-I looked at it.
-
-Then away.
-
-Growth.
-
-A woman at the table saw me.
-
-"Greg?"
-
-"Unfortunately."
-
-She had a shaved strip above one ear and a pencil tucked through the rest of her dark hair.
-
-"Maren sent you?"
-
-"Indirectly through Lyssa and a fish wrapper."
-
-"Sounds like Maren. I'm Deni."
-
-She pointed to a stool.
+"You prepared that."
 
 "Sit."
 
 I sat.
 
-Best job in Carrow.
+My body felt ordinary.
 
-"What am I doing?"
+Right leg normal after the walk.
 
-Deni put a narrow board in front of me.
+Residual limb comfortable.
 
-Six rows had been ruled across it. Each row contained a printed weight mark and a short word beside it.
+Hands warm from outside.
 
-"I call a stall. They bring their working weights. Toma checks against standards. You read the stamped standard and tell him which row. He marks pass or shave."
+Shoulders fine.
 
-"Shave?"
+No pain.
 
-"Adjustment."
+No tingling.
 
-"Do I decide pass?"
+No excuse.
+
+I looked at the board again.
+
+"Range."
+
+"Distance," Hessa said.
+
+"That is range wearing a coat."
 
 "No."
 
-"Do I touch weights?"
+"Three marks."
+
+"Yes."
+
+"Object moves farther away from me."
+
+"Maybe."
+
+I pointed at the pale square.
+
+"New paper?"
+
+"Yes."
+
+"Same stock?"
 
 "No."
 
-"Do I read only what's stamped?"
+That surprised me.
+
+"Why not?"
+
+"Because today is not a continuation of the fin comparison."
+
+"Then what is it?"
+
+"First, an attempt to answer whether the apparatus we have been using is necessary for the observed effect."
+
+I looked at the empty place where the glass normally stood.
+
+"You removed it."
 
 "Yes."
 
-This was becoming alarmingly reasonable.
-
-A broad older man at the next scale raised two fingers without looking at me.
-
-"Toma."
-
-"Greg."
-
-"Read clear."
-
-"I have been accused of worse."
-
-"Don't care."
-
-Excellent.
-
-Deni pointed at the rows.
-
-"Show me."
-
-I read them.
-
-The first mark meant one local small measure.
-
-The next doubled it.
-
-Then four.
-
-Then eight.
-
-The words beside them were not numbers.
-
-`dry`
-
-`dry`
-
-`dry`
-
-`dry`
-
-The final two rows were marked differently.
-
-`wet`
-
-`wet`
-
-I frowned.
-
-"Dry and wet standards differ?"
-
-"Weights don't. Tables do."
-
-"Meaning?"
-
-"Meaning you read the row and don't redesign the market."
-
-Deni had met me for three minutes.
-
-Maren had briefed her.
-
-"Understood."
-
-The first merchant arrived carrying four iron weights in a cloth sling.
-
-He sold grain.
-
-Toma took one of the merchant's weights, set it on the left pan of an ordinary balance, and matched a market standard on the right.
-
-The beam tipped.
-
-"Standard," he said.
-
-I looked at the stamped top.
-
-"Four dry."
-
-Deni marked something.
-
-Toma added a sliver of metal to the merchant side.
-
-The beam leveled.
-
-"Shave."
-
-Deni marked again.
-
-The merchant sighed.
-
-"How much?"
-
-Toma said, "Enough."
-
-"It passed last quarter."
-
-"It doesn't now."
-
-"Your standard could be heavy."
-
-Toma looked at him.
-
-"Then complain to Deni."
-
-The merchant looked at Deni.
-
-Deni pointed at the blue-lit brass plate.
-
-"We checked standards this morning."
-
-The merchant looked at the plate.
-
-His argument lost structural integrity.
-
-I looked at the plate too.
-
-Magic.
-
-Probably.
-
-Deni noticed.
-
-"Seal plate."
-
-"What does it do?"
-
-"Checks the standards."
-
-"How?"
-
-"Blue means matched."
-
-"Matched to what?"
-
-"Office master."
-
-"How?"
-
-"Greg."
-
-"I know. Read the row."
-
-"Good."
-
-I read the row.
-
-For the next half hour, the work was exactly what they had said.
-
-Merchants brought weights.
-
-Toma compared.
-
-I read stamps.
-
-Deni marked.
-
-Some passed.
-
-Some needed shaving.
-
-One needed metal added and earned its owner a lecture about filing his own weight.
-
-"I didn't," the owner said.
-
-Toma held it up.
-
-One side was visibly brighter.
-
-"Then your weight has learned tools."
-
-I liked Toma.
-
-The owner paid an adjustment fee and left unhappy.
-
-Nobody asked me to decide whether he had lied.
-
-I read what was stamped.
-
-A fish seller arrived with wet-table weights.
-
-She knew Deni.
-
-They argued about someone's wedding while Toma worked.
-
-"Three wet," he said.
-
-I read the stamp.
-
-"Three wet."
-
-The fish seller looked at me.
-
-"You new?"
-
-"To this stool."
-
-"Theatre boy."
-
-"Apparently not new enough."
-
-She laughed.
-
-"You were Uncle."
-
-"Temporarily."
-
-"You were funny."
-
-"Professionally or accidentally?"
-
-"Both."
-
-Toma said, "Pass."
-
-Deni marked.
-
-The fish seller took her weights and left.
-
-I had been recognized while reading scale marks.
-
-Theatre had escaped the theatre again.
-
-Not badly.
-
-Just enough to make Carrow feel smaller than it was.
-
-The next merchant was a spice seller with six tiny brass weights.
-
-Toma moved to the blue-lit seal plate.
-
-I paid attention despite myself.
-
-He placed one market standard in the center.
-
-The blue edge brightened.
-
-Then he put the merchant's brass weight beside it.
-
-The light stayed blue.
-
-"Pass," he said.
-
-Deni marked.
-
-"That scale doesn't compare balance?" I asked.
-
-"Seal plate," Deni said.
+"And changed the object."
 
 "Yes."
 
-"For small marks."
+"That is two things."
 
-"Why?"
+"More than two."
 
-"Toma."
+I waited.
 
-Toma grunted.
+She opened the notebook.
 
-"Pans get stupid that small."
+"We have spent enough attempts learning that a paper fin can sometimes move under one narrow arrangement. The glass may matter. The marks may matter. The fin shape may matter. The target-control arrangement may matter. Or none may matter. Continuing to alter one physical fin at a time does not tell me whether you can produce any observed external effect without that arrangement."
 
-That was not technical language.
+"So you are making it worse on purpose."
 
-It was sufficient.
+"Broader on purpose."
 
-"Does the plate measure mass?"
+"Dangerous word."
 
-Toma looked at me for the first time.
+"Which is why the permission is still narrow."
 
-"It tells me if the marked pair agree."
+I leaned forward.
 
-"Pair?"
+"Permission?"
 
-"Standard and working."
+Hessa looked directly at me.
 
-"So it doesn't tell you what either weighs alone?"
+"Today, under supervision, you may attempt an external effect on this paper square without the glass apparatus. Nothing else."
 
-Deni pointed at my board.
+There it was.
 
-"Read."
+A rule had changed.
+
+Not at home.
+
+Not permanently.
+
+Not enough to touch a spoon.
+
+But changed.
+
+I looked at the square.
+
+"Direction?"
+
+"Away."
+
+"Of course."
+
+"Position?"
+
+She tapped the nearest mark.
+
+"Start there."
+
+"How near?"
+
+"Closer than the old target position."
+
+"Measured?"
+
+"Yes."
+
+"Will you tell me?"
+
+"No."
+
+"Cruel."
+
+"You do not need the number to perform the attempt."
+
+That sounded like Hessa.
+
+"How many?"
+
+"Three at near. If no problem, three at middle. Far only if the earlier blocks give me a reason."
+
+I blinked.
+
+"That is distance."
+
+"It may become distance evidence."
+
+"You are impossible."
+
+"Body first."
+
+She checked me the way she always did.
+
+Hands.
+
+Forearm.
+
+Questions.
+
+Sleep.
+
+Food.
+
+Pain.
+
+Any independent practice.
+
+"No."
+
+"Any draw since last session?"
+
+"No."
+
+"Any attempt to move anything?"
+
+"No."
+
+"Any unusual sensation?"
+
+"No."
+
+"Any problem with the leg?"
+
+"No. Shoe repaired."
+
+She looked down.
+
+"What happened?"
+
+"Outer heel seam started separating. Cobbler repaired it."
+
+"Pain?"
+
+"No."
+
+"Changed gait?"
+
+"Cobbler refused to change the wear angle from one observation."
+
+Hessa nodded once.
+
+"Good cobbler."
+
+"You would like her."
+
+"Probably not."
+
+"She is you with leather."
+
+"Start position."
 
 I smiled.
 
-"Yes, boss."
+The paper square sat flat on bare wood.
 
-The plate did not become a system lecture.
+No glass.
 
-It did something narrow.
+No second fin.
 
-At least according to the people using it.
+No control object.
 
-Two marked weights together.
+That bothered me.
 
-Blue if they agreed.
+"No control?"
 
-What counted as agreement, how close, what powered it, whether it compared mass or some enchanted property, I did not know.
+"Not in this first block."
 
-I did not need to know to read `two dry`.
+"Why?"
 
-A shadow crossed the awning.
+"Because I want to see whether anything happens before deciding what control is useful."
 
-I looked up.
+"That sounds less disciplined than you."
 
-A glowwing landed on the roof edge opposite us.
+"A control answers a question. Adding one because controls are respectable does not make the question better."
 
-Gray body.
+I sat back.
 
-Tiny bird.
+"I hate when you make sense."
 
-It pecked at something between tiles.
+"Expectation?"
 
-Then jumped sideways.
+I looked at the square.
 
-Its wings flashed green.
+"I think it moves."
 
-Deni did not look.
+"Why?"
 
-Toma did not look.
+"Because three different fins have now responded at least once when I was trying to move them."
 
-The spice seller did not look.
+"Under the old apparatus."
 
-I looked.
+"Yes."
 
-The bird disappeared behind the roof.
+"And this is not a fin."
 
-I returned to the board.
+"Yes."
 
-The city was becoming more magical mostly because I was finally learning where to look.
+"And not the same paper stock."
 
-Or maybe it had always been this magical and I had spent my first months too busy surviving to notice plumbing stones, glowing birds, enchanted scales, and beetles that warmed along their backs.
+"Yes."
 
-Both could be true.
+"And no glass."
 
-The next stall owner arrived angry.
+"I still think it moves."
 
-Not at us.
+She wrote it.
 
-At somebody behind him.
+"Confidence?"
 
-"I said fifth bell."
+"Unreasonably high."
 
-A younger man carrying a crate said, "You said after second."
+She wrote that too.
 
-"I said fifth."
+"You enjoy this."
 
-"You said after second."
+"Yes."
 
-Deni raised a hand.
+Attempt sixty-two.
 
-"Take the argument away from my table."
+The number mattered more than I wanted it to.
 
-They did not.
+Sixty-one external-effect attempts behind me.
 
-The stall owner put his weights down hard.
+Most nothing.
 
-"Check these."
+Some small paper movement.
 
-Toma checked them.
+Every one supervised.
 
-I read.
+Every one inside a system Hessa had built around my tendency to turn curiosity into injury.
 
-Deni marked.
+Now the glass was gone.
 
-The younger man stood behind us holding the crate and looking increasingly dead inside.
+I settled my hand.
 
-When the last weight passed, the stall owner grabbed them.
+Loose.
 
-"You heard me say fifth," he told Deni.
+Shoulder down.
 
-Deni said, "No."
+Breathing ordinary.
 
-"You were there yesterday."
+Minimal permitted draw.
 
-"I was at this table yesterday."
+No shaping beyond what she had already allowed for the external attempt.
 
-"Near my stall."
+Away.
 
-I looked at my board.
+Hessa gave the start.
 
-The universe had a sense of humor.
+I worked.
 
-"You heard."
+The square did nothing.
 
-"No," Deni said.
+I reached the end.
 
-The stall owner looked at me as if I might be recruitable.
+Stopped.
 
-"You know how loud this market is."
+Hessa checked the paper and board.
 
-"I arrived today."
+"No observed response."
 
-"Not asking you."
+I nodded.
 
-"Excellent."
+She marked it.
 
-Deni leaned back.
+"Again?"
 
-"Take your weights."
+"Wait."
 
-He did.
+Of course.
 
-The younger man followed him.
+Attempt sixty-three.
 
-Toma waited until they were gone.
+Same near mark.
 
-"Everybody wants witnesses when they already know what happened."
+Same paper square.
 
-I laughed hard enough that my side hurt.
+Same direction.
 
-Deni looked at me.
+No glass.
 
-"What?"
+No control.
+
+I expected less.
+
+I told her.
+
+She wrote it.
+
+Start.
+
+I worked.
+
+Nothing.
+
+Not even a questionable edge lift.
+
+Stop.
+
+"No observed response."
+
+I exhaled.
+
+"Maybe the glass matters."
+
+"Maybe."
+
+"Maybe fin shape matters."
+
+"Maybe."
+
+"Maybe same stock matters."
+
+"Maybe."
+
+"Maybe I have offended squares."
+
+"No."
+
+"You cannot know that."
+
+"I can."
+
+Attempt sixty-four.
+
+I looked at the square and tried not to negotiate with it.
+
+My confidence had become appropriately damaged.
+
+Hessa asked.
+
+I told her.
+
+"Low."
+
+"Compared with attempt sixty-two?"
+
+"Much lower."
+
+She wrote it.
+
+Start.
+
+I worked.
+
+For most of the attempt, nothing happened.
+
+Then the square shifted.
+
+Not far.
+
+Not dramatic.
+
+One corner moved first, then the whole piece slid a small distance away from me and stopped at a slight angle.
+
+I stopped on time.
+
+Hessa was already moving.
+
+She checked the board.
+
+The paper.
+
+The floor around it.
+
+The room.
+
+Then me.
+
+"Small observed response."
+
+"Away."
+
+"Net away. Slight rotation."
+
+I kept my mouth shut.
+
+She looked at me.
+
+"Speak."
+
+"No glass."
+
+"Correct."
+
+"New paper stock."
+
+"Correct."
+
+"Not a fin."
+
+"Correct."
+
+"One of three."
+
+"Correct."
+
+I smiled.
+
+"That is broader."
+
+"It is different."
+
+"Hessa."
+
+"Do not make me regret the word."
+
+I looked at the square.
+
+It had moved.
+
+Bare wood.
+
+No glass.
+
+No old fin.
+
+No target-control pair.
+
+A plain square cut from different paper.
+
+One response in three.
+
+The world did not explode.
+
+Neither did I.
+
+"What can we say?" she asked.
+
+"The old glass apparatus is not required for at least one observed external response under supervision."
+
+"Better."
+
+"Fin shape is not required for at least one observed response."
+
+"Careful."
+
+I thought.
+
+"A fin shape was not present in this observed response."
+
+"Better."
+
+"The old paper stock is not required for at least one observed response."
+
+"Under today's conditions, yes."
+
+"Still paper."
+
+"Yes."
+
+"Still close."
+
+"Yes."
+
+"Still away."
+
+"Yes."
+
+"No reliability."
+
+"Correct."
+
+"No range."
+
+Hessa looked at the middle mark.
+
+"Not yet."
+
+I felt my grin arrive before I could stop it.
+
+"You said yet."
+
+"Planned break."
+
+"You said yet."
+
+"Stand."
+
+I stood.
+
+Right leg fine.
+
+Hands warm.
+
+Forearm warm in the familiar ordinary way.
+
+No pain.
+
+No tingling.
+
+Residual limb comfortable.
+
+I walked the room.
+
+The paper square remained where attempt sixty-four had left it until Hessa reset it.
+
+She did not move it to the middle mark immediately.
+
+She checked me again first.
+
+Water.
+
+Pulse at wrist.
+
+Questions.
+
+"Head?"
+
+"Fine."
+
+"Vision?"
+
+"Fine."
+
+"Hand?"
+
+"Warm."
+
+"Different from prior sessions?"
+
+"No."
+
+"Leg?"
+
+"Fine."
+
+"Any urge to increase draw because the apparatus is gone?"
+
+That was an irritatingly good question.
+
+"Yes."
+
+She waited.
+
+"I didn't."
+
+"Good."
+
+"You knew?"
+
+"I expected."
+
+"Why?"
+
+"Because you treat missing structure as an invitation to compensate."
+
+I opened my mouth.
+
+Closed it.
+
+"That is rude."
+
+"Is it wrong?"
+
+"No."
+
+Worse.
+
+She reset the square.
+
+Middle mark.
+
+The distance difference was obvious.
+
+Not huge.
+
+Enough that I felt it before doing anything.
+
+The old apparatus had trained my eyes to a familiar working space. This was outside it.
+
+Not across the room.
+
+Not theatrical telekinesis.
+
+Just farther.
+
+"Three?" I asked.
+
+"Two first."
+
+"You said three."
+
+"I said three at middle if no problem. I am changing the block."
+
+"Why?"
+
+"Because we now have a response without the apparatus. I want fewer attempts before reassessing."
+
+I nodded.
+
+That made sense.
+
+"Same square?"
+
+"Same square."
+
+"Same away?"
+
+"Same away."
+
+"Expectation?"
+
+"Mine?"
+
+"Yours."
+
+I looked at the middle mark.
+
+"Lower than near."
+
+"Why?"
+
+"Because farther feels harder."
+
+"Evidence?"
+
+"None."
+
+"Good."
+
+She wrote it.
+
+Attempt sixty-five.
+
+Start.
+
+I worked.
+
+Nothing.
+
+The paper stayed flat.
+
+I stopped.
+
+"No observed response."
+
+Hessa marked it.
+
+My body remained ordinary.
+
+Attempt sixty-six.
+
+Same middle position.
+
+I tried not to push.
+
+That was harder now.
+
+Not physically.
+
+Mentally.
+
+The paper looked far enough away to invite effort.
+
+My old life had taught me distance mattered for almost everything magical.
+
+Strength.
+
+Precision.
+
+Cost.
+
+Different systems in different ways, but distance was rarely free.
+
+I did not know if this magic followed any of those rules.
+
+I knew my body wanted to behave as if it did.
+
+"Expectation?" Hessa asked.
+
+"Low."
+
+"Anything else?"
+
+I hesitated.
+
+"Old life says farther usually costs more."
+
+Her pencil stopped.
+
+"Usually?"
+
+"Across a lot of things. Not universal. Not this effect."
+
+"And what are you going to do with that expectation?"
+
+"Not increase draw."
+
+"Say the rest."
+
+"Not extend time. Not strain. Not chase it."
+
+"Good."
+
+Start.
+
+I worked.
+
+Nothing.
+
+Halfway through, I felt the urge to reach.
+
+Not with my hand.
+
+With whatever internal thing had begun to feel like direction over sixty-six attempts.
+
+I stopped myself from adding force.
+
+The permitted attempt ended.
+
+I stopped.
+
+The square had not moved.
+
+"No observed response," Hessa said.
+
+I nodded.
+
+She did not immediately mark another attempt.
+
+"What happened?"
 
 "Nothing."
 
-"You strange?"
+"Greg."
+
+I sighed.
+
+"I wanted to push harder."
+
+"Did you?"
+
+"No."
+
+"Certain?"
+
+"I held the draw where it was."
+
+"What changed?"
+
+"The wanting."
+
+She wrote that.
+
+I disliked seeing it become data.
+
+"Third middle?" I asked.
+
+"No."
+
+I looked at the far mark.
+
+"Far?"
+
+"No."
+
+"Because no responses at middle?"
+
+"Partly."
+
+"Because I wanted to push?"
 
 "Mostly."
 
-"Maren didn't mention that."
+That stung more than the non-responses.
 
-"She has standards."
+Not because she was wrong.
 
-"Apparently low ones."
+Because she was exactly right.
 
-We continued.
+"I didn't push."
 
-By fourth bell, my job had changed slightly.
+"Correct."
 
-Not because anyone promoted me.
+"So why stop?"
 
-Because Toma needed to use the privy.
+"Because successful restraint is not a reason to immediately demand more restraint under a stronger temptation."
 
-"Don't touch," he told me.
+I sat with that.
 
-"I have mastered that."
+Hessa closed the active sheet.
 
-"Nobody touches standards."
+"You are allowed to be annoyed."
 
-"What if the awning catches fire?"
+"Generous."
 
-"Then move the table."
+"You are not allowed to turn annoyance into another attempt."
 
-"Without touching standards?"
+"Cruel."
 
-He stared at me.
+"Expected."
 
-"I regret the question."
+I looked at the middle mark.
 
-"Good."
+Two attempts.
 
-He left.
+No response.
 
-Deni remained.
+That did not prove distance mattered.
 
-No merchant was waiting.
+Near had been one response in three.
 
-For perhaps thirty seconds, the east table became quiet.
+Middle zero in two.
 
-I looked at the standard weights.
+Tiny numbers.
 
-Different sizes.
+Different mental state.
 
-Different wear.
+Same square, same session, same direction.
 
-Stamped marks kept clean.
+Enough to be interesting.
 
-The smallest sat near the seal plate.
+Not enough to become law.
 
-The blue line around the brass plate was dim now.
+"What can we say?" Hessa asked.
 
-Not off.
-
-Dim.
-
-"Does that stay lit all day?" I asked.
-
-"Until sixth."
-
-"Then what?"
-
-"Goes dark."
-
-"Why sixth?"
-
-"Because we stop."
-
-"Does it know?"
-
-Deni looked at me.
-
-"Know what?"
-
-"Never mind."
-
-She laughed.
-
-"You really do this."
-
-"Do what?"
-
-"Ask one question past useful."
-
-"Only one?"
-
-"Then somebody stops you."
-
-Fair.
-
-A woman approached the table carrying no weights.
-
-"Deni."
-
-Deni looked up.
-
-"Pera."
-
-I recognized the name a moment before I recognized the woman.
-
-Pera from Orin's preserve route.
-
-I had met her only briefly.
-
-She recognized me too.
-
-"Cart watcher."
-
-"Half-hour specialist."
-
-"You work scales now?"
-
-"I read."
-
-"Dangerous."
-
-"Very."
-
-Pera handed Deni a folded note.
-
-"For tomorrow's west table."
-
-Deni opened it, read, and put it under her board.
-
-I did not ask.
-
-Pera did not explain.
-
-Independent lives continued happening directly in front of me without submitting summaries.
-
-It was almost rude.
-
-"Orin good?" I asked.
-
-"Complaining."
-
-"So yes."
+"At near, one observed response in three without the old apparatus. At middle, no observed response in two."
 
 "Yes."
 
-She left.
+"We cannot say the middle distance prevents the effect."
 
-That was all.
+"Correct."
 
-No preserve cart.
+"We cannot say distance reduces reliability."
 
-No watch offer.
+"Correct."
 
-No copperback report.
+"We cannot say the near position is the limit."
 
-No new job.
+"Correct."
 
-Toma returned.
-
-"Anything?"
-
-"I touched every standard."
-
-He looked at Deni.
-
-Deni said, "He didn't."
-
-"Shame."
-
-I had disappointed him.
-
-The last hour brought more merchants and fewer arguments.
-
-A baker's weight passed.
-
-A cloth seller's did not.
-
-A woman selling lamp oil brought a set with tiny stamped suns instead of the marks on my board.
-
-I stared.
-
-"Not mine."
-
-Deni looked.
-
-"Old issue. Toma?"
-
-Toma examined them.
-
-"Office table."
-
-The woman groaned.
-
-"Why?"
-
-"Old marks."
-
-"They weigh true."
-
-"Maybe. Office table."
-
-She left with them.
-
-I looked at Deni.
-
-"What do the suns mean?"
-
-"Old marks."
-
-"Yes, I gathered."
-
-"Then you know."
-
-I did not know.
-
-That was fine.
-
-At fifth bell, Deni stopped taking new checks.
-
-Three merchants complained they had been in line.
-
-She pointed toward tomorrow's board.
-
-"West table after second."
-
-One complained louder.
-
-Deni did not become more impressed.
-
-Toma covered the standard weights with a fitted wooden case.
-
-The seal plate's blue edge still glowed beneath its own cloth cover until he touched a small brass tab on the base.
-
-The light went dark.
-
-I wanted to ask whether the tab broke a circuit, closed a ward, dismissed a bound effect, or politely told the plate its shift was over.
-
-I did not.
-
-Deni counted three copper into my hand.
-
-"You read fine."
-
-"Highest praise of my career."
-
-"You also stayed seated."
-
-"Second highest."
-
-"Maren said you might be useful."
-
-"Did she say might?"
+"We did establish at least one response outside the old apparatus and closer than the old target position."
 
 "Yes."
 
-"Good. I trust her more now."
+I looked at the middle mark.
 
-Deni packed her papers.
+"Did we establish distance at all?"
 
-I pocketed the coins.
+"We established that you can produce at least one observed response at today's near position."
 
-"Tomorrow?"
+"Which is a distance."
 
-I asked because employment required questions, not because I wanted to become market scale reader forever.
+"A tested position."
 
-"No," she said. "I have Lio tomorrow. He was sick today."
+"You are going to die defending nouns."
 
-Perfect.
-
-"Then I am retired."
-
-"Until somebody else gets sick."
-
-"Dangerous wording."
-
-Deni shrugged.
-
-"Maren knows where you live?"
-
-"Unfortunately several people do."
-
-"Then maybe."
-
-Maybe was not a schedule.
-
-I left.
-
-The three copper felt good in my pocket.
-
-Not life-changing.
-
-Not debt-solving.
-
-Not enough to transform anything.
-
-Money for an hour of work my body could do without negotiation.
-
-That mattered in a quieter way.
-
-On the walk home, I stopped at Vela's green awning.
-
-Not because the chapter demanded a returning side character.
-
-Because Lyssa had said the soup was good and I now had three copper.
-
-Vela was ladling the last of something thick and brown into a cup for an old man.
-
-He tasted it.
-
-"More salt yesterday."
-
-Vela looked at me.
-
-"This one."
-
-"The bean critic?"
-
-The old man turned.
-
-"Who are you?"
-
-"Nobody."
-
-"Good."
-
-He took his cup away.
-
-Vela watched him go.
-
-"He'll be back tomorrow."
-
-"You changed the beans?"
-
-"No."
-
-"Salt?"
-
-"No."
-
-"Then what changed?"
-
-"Him."
+"Not today."
 
 I laughed.
 
-"Soup left?"
+She checked my hand and forearm again.
 
-"One cup."
+Warm.
 
-"How much?"
+Normal strength.
 
-She told me.
+No pain.
 
-I paid.
+No tingling.
 
-Not all three copper.
+Right leg fine after standing.
 
-Enough remained that the job still felt like a job.
+Residual limb comfortable.
 
-The soup was good.
+No injury.
 
-Lyssa had been right.
+"Restrictions?" I asked.
 
-I hated when evidence supported her.
+"Unchanged outside supervised sessions."
 
-Vela leaned on the counter.
+"Inside?"
 
-"Water all good?"
+"Today's permission ends when you leave."
 
-"Running."
+"So no paper squares at home."
 
-"Good."
+"No."
 
-"You?"
+"No testing distance with crumbs."
 
-"Running."
+"No."
 
-"Soup?"
+"No testing whether salt moves."
 
-"Also running."
+"Why salt?"
 
-We had exhausted the relationship.
+"Recent acquisition."
 
-I finished the cup and returned it.
+"No."
 
-"Thanks."
+"Coins?"
 
-"Bring Lyssa next time."
+"No."
 
-"She already knows your soup."
+"Thread?"
 
-"Then bring yourself if you have money."
+"No."
 
-A businesswoman.
+"Shoe nails?"
 
-I went home.
+Hessa looked at me.
 
-Lyssa arrived later with a narrow paper parcel under one arm.
+"Absolutely not."
 
-Not the collar facing.
+"Good. I like the shoe."
 
-At least not visibly.
+"Then stop naming objects."
 
-I did not ask.
+I stopped.
 
-I put two of the remaining copper on the table and kept the rest with my own small money.
+Mostly.
 
-Lyssa looked at the coins.
+"Next?" I asked.
 
-"Paid?"
+"Not selected."
 
-"Three."
-
-"You ate one?"
-
-"Soup."
-
-"Vela?"
+"You have possibilities."
 
 "Yes."
 
-"Good?"
+"Middle again."
 
-"Annoyingly."
+"Possibility."
 
-She smiled.
+That was more than she usually gave me.
 
-"Scale work?"
+"Control?"
 
-"I sat down and read words while other people lifted metal. I may have found my calling."
+"Possibility."
 
-"Theatre?"
+"Different material?"
 
-"Former calling."
+Hessa closed the notebook.
 
-"Guild?"
+"Leave."
 
-"Former former calling."
+"That was a yes-shaped refusal."
 
-"Watchman?"
+"Greg."
 
-"Half-hour calling."
+I collected my crutches.
 
-"You have many callings."
+Thirty-six supervised minimal draws.
 
-"None call tomorrow."
+Thirty-two supervised deliberate shaping attempts.
 
-That remained true.
+Sixty-six supervised external-effect attempts.
 
-I told her about Deni and Toma.
+Five new attempts.
 
-The seal plate.
+One response.
 
-Blue when the paired small weights agreed.
+For the first time, a paper object had moved under deliberate external intention without the old glass apparatus.
 
-Dark when Toma touched the tab at the end.
+For the first time, Hessa had deliberately changed the working distance as a variable.
 
-"You know those?" I asked.
+For the first time, she had stopped a block not because my body had failed, but because my desire to force a result had become part of the experiment.
 
-"Scale plates?"
+That last one bothered me.
 
-"Apparently."
+Which probably meant it mattered most.
 
-"Seen them."
+Outside, the city was bright but cooler than yesterday.
 
-"Do you know how they work?"
+No rain.
+
+Tolan's mother remained defeated.
+
+I passed the north fountain on the way home.
+
+Orin's preserve cart was there.
+
+Orin was there too.
+
+He saw me.
+
+"Lunch?"
+
+I looked across the street.
+
+The cookstall front bench had one open place.
+
+"You can sit at the front today."
+
+Orin followed my gaze.
+
+"Huh."
+
+"Problem solved."
+
+"Tomorrow maybe."
+
+"Maybe."
+
+I kept walking.
+
+That felt like victory.
+
+At the next corner, a woman was selling thin paper charms from a tray.
+
+Not spell scrolls.
+
+Not weapons.
+
+Little household things.
+
+One was pinned over a basket of fish and gave off a faint dry warmth that kept flies from landing.
+
+I recognized the principle vaguely from old life and none of the construction.
+
+I did not stop.
+
+Magic did not require me to investigate every time it existed in public.
+
+That also felt like progress.
+
+At home, Lyssa arrived after me.
+
+The wrapped bundle was gone.
+
+The pale work was still not visible.
+
+She had flour on one sleeve.
+
+I looked at it.
+
+Then at her.
 
 "No."
 
-"Excellent."
+"I did not ask."
 
-"Why?"
+"Face did."
 
-"I am building a community of ignorance."
+Savin's disease had spread.
 
-"You lead it."
+"Hessa," Lyssa said.
 
-Fair.
+"Yes."
 
-I told her about the glowwing on the roof.
+"Moved?"
 
-She barely reacted.
+"Once."
 
-Then about Pera bringing Deni a note for tomorrow's west table.
+"Rules?"
 
-"Pera?"
+"Same outside."
 
-"You know Pera?"
+She waited.
+
+I smiled.
+
+"Different setup."
+
+That got her attention.
+
+I explained the missing glass.
+
+The square.
+
+Near.
+
+Middle.
+
+One response in three near.
+
+None in two middle.
+
+No far attempts.
+
+Then I explained why Hessa stopped.
+
+Lyssa listened without interrupting.
+
+"You pushed?" she asked.
 
 "No."
 
-I pointed at her.
+"Wanted."
 
-"Finally."
+"Yes."
 
-She laughed.
+"Stopped."
 
-We ate bread and what remained from the previous night's onions.
+"Hessa stopped the session."
 
-No knock came.
+"You stopped pushing."
 
-No green coat.
+"I never started pushing."
 
-No Senn.
+Lyssa looked at me.
 
-No Hessa.
+I sighed.
 
-No theatre runner.
+"Yes. I stopped myself from increasing effort."
 
-No one asked me to testify, carry water, watch preserves, inspect an animal, read another scale, or identify a coat part.
+"Good."
 
-My right leg was fine.
+There it was.
 
-My residual limb was comfortable.
+Not disappointment that the middle paper had not moved.
 
-My shoe remained quiet.
+Not excitement that the near one had.
 
-The three-copper job had left me with less than three copper because I had spent some of it on soup.
+Good because I had wanted to push and had not.
 
-This was not economic failure.
+I hated living with sensible people.
 
-This was the entire point of money if one ignored debt, survival, rent, food stores, future emergencies, and every other argument money had ever won.
+"Also Orin did not need me because a seat was open."
 
-I had worked.
+"Good."
 
-I had bought something because I wanted it.
+"Less emotionally significant."
 
-I had brought some money home.
+"Still good."
 
-The world had shown me another small piece of magic nobody thought deserved a lecture.
+We ate something involving flour that Lyssa did not explain and I did not identify correctly.
 
-And for one hour, my most valuable physical ability had been sitting still and reading clearly.
+My shoe held.
 
-I could live with that.
+My body felt fine.
+
+The rules at home were unchanged.
+
+Somewhere in the Guild, Hessa had a paper square sitting on a board with three marks.
+
+Near had moved once.
+
+Middle had not.
+
+Far remained untouched.
+
+I wanted to know what happened there.
+
+That wanting was not evidence.
+
+For once, I knew the difference before Hessa had to tell me.

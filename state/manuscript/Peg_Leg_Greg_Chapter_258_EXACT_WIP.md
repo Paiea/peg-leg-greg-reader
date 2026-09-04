@@ -1,1251 +1,1129 @@
 # CHAPTER 258
 
-## THE PORTER
+## THE NEIGHBOR
 
-Tomorrow remained unassigned until somebody put a crate in it.
+Nobody came for me in the morning.
 
-The crate arrived before I finished breakfast.
+This was not an emergency.
 
-Not at the door.
+It took me perhaps three minutes to believe that.
 
-That would have been too convenient.
+I ate bread with one of yesterday's onions and considered the shape of a day that had not already been assigned by Rinna, Teren, Hessa, Antonius Vale, a fever, a broken rail, or a household list.
 
-Lyssa came back up the stairs, opened the door with her shoulder, and said, "Shoes."
+The answer was apparently bread and onion.
 
-I looked at my feet.
+Lyssa had left before I woke properly. Not secretly. Her work bag was gone, the cup she used in the morning was upside down beside the basin, and a short note sat under the edge of the bread board.
 
-"Present."
+Back late.
 
-"Good. Come down."
+Two words.
 
-She turned around.
+No destination.
 
-I looked at the bread in my hand.
+No assignment for me.
 
-Then at the open door.
+The long brown cloth remained folded near the wall with the same three pins. My damaged shirt remained on the shelf with the same three loose threads. The pale work material from two mornings ago remained absent.
 
-"Excellent briefing."
+I did not inspect any of them.
 
-She was already on the stairs.
+This qualified as personal growth only if standards had collapsed.
 
-I ate the rest of the bread and followed.
+My body was ordinary. Right hand fine. Shoulders fine. Right leg fine. Residual limb comfortable. Both grips normal. Left tip normal.
 
-The morning had the pale, undecided light that made every roof look colder than it was. Yesterday's rain had left the courtyard stones dark in the cracks, but the center had dried.
+The room needed sweeping.
 
-A handcart stood beside the building.
+Not dramatically.
 
-So did a crate.
+There was no visible layer of filth proving moral decline. Just grit near the door, two onion skins that had escaped supper, thread ends near Lyssa's work chair, and the fine gray dust that Carrow generated from apparently nothing.
 
-The crate was not large.
+I swept.
 
-This mattered because large crates had a way of becoming everybody's philosophy.
+The thread ends went into the rubbish.
 
-This one was perhaps two feet long, narrower across, and high enough to be inconvenient without becoming furniture. Two thin slats crossed the top. A cord had been tied around it twice and knotted badly.
+I hesitated over one because it was dark reddish-brown.
 
-A man I did not know stood beside the cart holding a folded paper.
+Then I looked at myself holding a piece of rubbish between two fingers and dropped it with the others.
 
-Lyssa stood opposite him.
+Healthy.
 
-He looked at me when I came down.
+I had just finished when somebody knocked.
 
-Then at the crutches.
+Not theatre knock.
 
-Then back at Lyssa.
+Not Hessa's precise knock.
 
-"Him?"
+Not the hard two-beat knock used by boys carrying messages from people who expected answers.
 
-Lyssa said, "Yes."
+Three quick taps, a pause, then one more.
 
-I stopped beside her.
+I opened the door.
 
-"Encouraging."
+A woman stood outside holding a wooden bowl against one hip.
 
-The man held out the paper.
+I knew her face.
 
-"Marra's. Green door."
+This was becoming a dangerous category.
 
-I looked at Lyssa.
+She lived somewhere close. I had passed her on the stairs or near the pump enough times that we had reached the stage of mutual recognition without information.
 
-She nodded.
+Dark hair threaded with gray. Round face. Heavy blue shawl. Small silver ring through one ear.
 
-"It needs to go there?"
+She looked past me into the room.
 
-"Yes."
+"Lyssa?"
 
-"What's in it?"
+"Out."
 
-The man said, "Buckles."
+"Late?"
 
-Lyssa said, "Not ours."
+I looked at the note on the table.
 
-Both answers were useful in different ways.
+"Apparently."
 
-I looked at the crate again.
+The woman nodded as if this matched information she already possessed.
 
-"Why is it here?"
+Then she held out the bowl.
 
-The man rubbed one hand over his jaw.
+"Can you take this?"
 
-"Wrong court."
+I looked into it.
 
-"How wrong?"
+Beans.
 
-"One street."
-
-That was almost respectable.
-
-He pointed toward the north end of the courtyard.
-
-"Woman downstairs said Lyssa lived here."
-
-Apparently Sera had become freight infrastructure.
-
-Lyssa took the folded paper from him, read it, and handed it to me.
-
-The writing was not for me. Two names I did not know. A count beside each. Marra written at the bottom.
-
-"You're going that way?" I asked Lyssa.
-
-"No."
-
-"I am?"
-
-"If you want."
-
-That changed the shape of it.
-
-Not an assignment.
-
-A useful thing available in an empty morning.
-
-I looked at the crate.
-
-Then the cart.
-
-"Cart too?"
-
-The man shook his head immediately.
-
-"Cart goes east."
-
-Of course.
-
-"Then how was the crate supposed to get to Marra?"
-
-"Boy."
-
-"Where's the boy?"
-
-"Wrong court."
-
-I waited.
-
-The man looked at me.
-
-"Other wrong court."
-
-This delivery had achieved complexity through commitment.
-
-Lyssa took the paper back, folded it once, and put it beneath the cord.
-
-"You don't have to."
-
-I looked toward the stairs.
-
-No theatre message waited above.
-
-No Hessa note.
-
-No Vale runner.
-
-No household emergency.
-
-I knew the green door.
-
-"I'll take it."
-
-The man nodded as if a commercial crisis had been resolved.
-
-Then he lifted the crate.
-
-I held up one hand.
-
-"Wait."
-
-He stopped.
-
-The crate itself was not the problem.
-
-The problem was that I used two crutches.
-
-I had carried parcels before. Bags. Baskets. Cloth. Things with straps. Things small enough to trap against a hip for six bad steps. A wooden crate with no handle was different.
-
-Lyssa looked at me.
-
-"Cord?"
-
-"Maybe."
-
-I pressed the top slats.
-
-Solid enough.
-
-The cord was not.
-
-One loop had already slid toward the corner.
-
-"No."
-
-The man said, "It's tied."
-
-"It is participating in being tied."
-
-He frowned.
-
-I tugged the loop.
-
-It slipped another inch.
-
-Lyssa crouched and looked at the knot.
-
-"Bad."
-
-"Thank you."
-
-The man seemed personally wounded by this review.
-
-"Held from East Court."
-
-"On a cart," I said.
-
-He considered that.
-
-"Yes."
-
-Different job.
-
-Lyssa went upstairs and came back with a length of plain cord from the household shelf.
-
-Not the lamp-oil bottle cord.
-
-Not thread.
-
-Not one of her garment materials.
-
-Cord.
-
-I appreciated the world retaining categories.
-
-She retied the crate without ceremony, making two tighter loops and a cross beneath them. Then she pulled hard enough to make the slats complain.
-
-"Better," I said.
-
-"Carry it."
-
-I looked at the loops.
-
-One hand could hold the crossed cord for a short distance.
-
-One hand could not also use a crutch.
-
-I tried the crate against my right side, hooking my forearm beneath the cord while keeping my hand on the grip.
-
-Bad.
-
-The crate swung into the crutch shaft.
-
-I stopped before gravity could become instructional.
-
-Lyssa watched.
-
-"No."
-
-"I reached that conclusion."
-
-The delivery man looked toward his cart.
-
-He had the expression of somebody whose wrong court was becoming expensive.
-
-I set the crate down.
-
-"How far is Marra's from here?"
-
-Lyssa looked at me.
-
-I knew the answer.
-
-That was why she did not give it.
-
-"Right."
-
-I pictured the route.
-
-Stairs to street. Across the lower market edge. Past Sen's red door. Green door after the turn.
-
-Not far.
-
-Too far to carry badly.
-
-I looked around the courtyard.
-
-Sera's door was open below the landing. Orren sat on a low stool near it with a knife and a piece of wood, shaving one edge into something narrower.
-
-He had been there the whole time.
-
-Of course he had.
-
-He looked at the crate.
-
-Then at me.
-
-"Need a board."
-
-I looked at him.
-
-"For what?"
-
-He pointed with the knife.
-
-"Across."
-
-This was not enough language.
-
-He set the wood down, went inside, and returned with a flat board perhaps three feet long and a little wider than my hand.
-
-He laid it across the crate.
-
-Then he pointed at my shoulders.
-
-"No."
-
-"Excellent demonstration."
-
-He ignored me.
-
-He took the board away again and disappeared into the building.
-
-The delivery man looked at Lyssa.
-
-"He always like this?"
-
-"Which one?"
-
-Fair.
-
-Orren came back with a different object.
-
-A carrying yoke.
-
-Not the heavy curved kind used for water buckets. This was smaller and flatter, a worn wooden bar with a shallow neck curve in the middle and two short hanging cords at the ends.
-
-I knew what it was.
-
-More importantly, I knew it would not work.
-
-"No."
-
-Orren stopped.
-
-"Why?"
-
-"Crutches."
-
-He looked at them.
-
-Then at the yoke.
-
-Then at me.
-
-"Ah."
-
-I liked him more immediately.
-
-No argument.
-
-No insistence that a tool useful for one body must become useful for mine through optimism.
-
-He put the yoke aside.
-
-"Sled?"
-
-Lyssa said, "Stone."
-
-"Small wheels?"
-
-The delivery man said, "Cart."
-
-All four of us looked at his cart.
-
-He put one hand on it protectively.
-
-"East."
-
-"We know," I said.
-
-Sera appeared in the doorway holding a cup.
-
-"What's wrong?"
-
-"Nothing," Lyssa said.
-
-"Crate," Orren said.
-
-Sera looked at the crate.
-
-Then at me.
-
-"Why don't you take the little barrow?"
-
-Silence.
-
-Orren turned his head.
-
-Lyssa looked toward the narrow passage beside the building.
-
-I said, "The what?"
-
-Sera drank from the cup.
-
-"Cala's."
-
-Apparently the courtyard contained vehicles now.
-
-Cala was not home.
-
-Her little barrow was.
-
-It leaned beneath the stair on the far side of the building, half hidden behind two empty baskets and a broken chair frame. One wheel. Two handles. Shallow wooden tray.
-
-A wheelbarrow.
-
-Not large enough for bricks unless the bricks had agreed to travel in shifts.
-
-Orren pulled it free.
-
-The wheel squeaked once.
-
-He spun it.
-
-It squeaked again.
-
-"Good," he said.
-
-"That sound means good?"
-
-"Turns."
-
-Strong standard.
-
-Sera said, "She uses it for ash."
-
-I looked inside the tray.
-
-Gray dust remained in the corners.
-
-"Will she mind?"
-
-"Yes," Sera said.
-
-I waited.
-
-"Will she mind enough that I shouldn't use it?"
-
-Sera considered.
-
-"No."
-
-Useful neighborhood scale.
-
-Lyssa lifted one side of the crate. Orren took the other. They set it in the tray.
-
-It fit.
-
-Barely.
-
-The delivery man visibly relaxed.
-
-I pointed at him.
-
-"You are enjoying this too much."
-
-"I have East Court."
-
-"Go."
-
-He went.
-
-No name.
-
-No future relationship.
-
-A man with a cart had misplaced a crate by one street and then left once the crate became somebody else's problem.
-
-Carrow remained healthy.
-
-The barrow created a different question.
-
-Two handles.
-
-Two hands.
-
-I had two hands.
-
-Unfortunately both had jobs.
-
-I tried standing between the handles with my crutches angled slightly wider.
-
-Impossible.
-
-I tried one handle in the crook of my right elbow while keeping the crutch grip.
-
-Worse.
-
-Orren watched without speaking.
-
-Lyssa did too.
-
-Nobody said I could not do it.
-
-This was kinder than encouragement.
-
-I stepped back.
-
-"Need one hand free."
-
-Orren nodded.
-
-"One crutch?"
-
-I looked at the distance to the street.
-
-Then at the barrow.
-
-Then at my body.
-
-"Not with weight."
-
-I could use one crutch for short controlled movement on good ground. I did not enjoy combining that with a wheelbarrow full of somebody else's buckles.
-
-Lyssa said, "I can take it."
-
-She could.
-
-That irritated me for exactly one second.
-
-Not because she should not.
-
-Because I had said I would.
-
-The irritation passed before it became policy.
-
-"Wait."
-
-I looked at the barrow again.
-
-The handles were long enough that a person did not need to stand between them.
-
-The crate was not especially heavy. The problem was balance and propulsion.
-
-I moved to the left side of the barrow.
-
-Left crutch under left arm. Right crutch under right.
-
-I put my right forearm across the nearest handle and lifted.
-
-The barrow tilted.
-
-Too much pressure against the forearm.
-
-I lowered it.
-
-"No."
-
-Orren picked up the carrying yoke again.
-
-Not for me.
-
-He untied one short hanging cord from it.
-
-Then the other.
-
-Two lengths of rope.
-
-He held them toward me.
-
-I understood before he spoke.
-
-"Handle loop?"
-
-He nodded.
-
-We tied one cord around each barrow handle, making loops long enough to sit over my forearms above the wrists without reaching the crutch grips.
-
-I tested them empty.
-
-Lifted.
-
-The barrow rose.
-
-My forearms took the weight while my hands remained on the crutch grips.
-
-Interesting.
-
-Also terrible.
-
-The handles pulled inward against my arms and changed the crutch angle.
-
-I lowered it immediately.
-
-"Closer together," I said.
-
-Orren retied the loops shorter.
-
-Second try.
-
-Better.
-
-Still not good.
-
-The barrow wanted to move before I did.
-
-I took one step.
-
-The wheel rolled six inches.
-
-My right crutch landed late.
-
-Stop.
-
-I set it down.
-
-Lyssa said, "No."
-
-I breathed out.
+Cooked beans.
 
 "Probably."
 
-There were versions of nineteen-year-old pride that could turn a crate of buckles into an injury.
+She kept holding it.
 
-I had already lived long enough once to find that embarrassing.
+I took the bowl.
 
-Orren untied the loops.
+"For Lyssa?"
 
-No one praised the decision.
+"For you both."
 
-Good.
-
-I looked at the route again.
-
-"What if I pull it?"
-
-Lyssa looked at the wheelbarrow.
-
-Sera said, "Backward?"
-
-"Not walking backward."
-
-I pointed at the front frame beneath the tray.
-
-A short crosspiece joined the two supports behind the wheel.
-
-"Cord there. Long enough to pull from the side."
-
-Orren crouched.
-
-He touched the crosspiece, then the wheel, then looked at the crate.
-
-"Tips."
-
-Right.
-
-Pulling from the front would make the handles drop unless the load stayed balanced over the wheel.
-
-We shifted the crate forward three inches.
-
-The barrow settled differently.
-
-Orren tied the household cord to the front crosspiece.
-
-Lyssa held the handles while I moved to the side and forward.
-
-The cord reached my left hand.
-
-Which needed a crutch.
-
-Still wrong.
-
-I stared at it.
-
-Sera drank more tea.
-
-"Tie it to you."
-
-I looked at her.
-
-"Where?"
-
-She pointed at my waist.
-
-Lyssa said, "No."
-
-We all looked at her.
-
-She pointed at the barrow.
-
-"If it runs, it takes him."
-
-Correct.
-
-Sera nodded.
-
-"No."
-
-Good meeting.
-
-I looked at the barrow.
-
-Then the street.
-
-Then Orren.
-
-"You busy?"
-
-He held up the piece of wood he had been shaving.
-
-I waited.
-
-He looked at it too.
-
-Then set it on the stool.
-
-"No."
-
-That was how I became a porter with another porter.
-
-Orren took the wheelbarrow handles.
-
-I took my crutches.
-
-Lyssa handed me the folded delivery paper.
-
-"Marra."
-
-"I remember."
-
-"Green door."
-
-"Cruel."
-
-Her mouth moved slightly.
-
-Then she looked at Orren.
-
-"Bring the barrow back."
-
-Orren nodded.
-
-Sera said, "Before Cala."
-
-"When's Cala back?" I asked.
-
-Sera looked toward the street.
-
-"Before the barrow."
-
-Neighborhood scheduling.
-
-We left.
-
-I had expected the job to become smaller once Orren pushed the crate.
-
-It did not.
-
-It became different.
-
-The barrow wheel was narrow and disliked broken stone. Orren knew the immediate street but not Marra's route. I knew the route but had both hands occupied with movement. At the first gutter, he aimed straight for the deepest part.
-
-"Left."
-
-He shifted without asking why.
-
-The wheel crossed where the stone was flatter.
-
-At the market edge, two baskets narrowed the lane.
-
-"Right side."
-
-He went right.
-
-A woman carrying folded cloth came the other way. Orren stopped the barrow before I needed to say anything and let her pass.
-
-We continued.
-
-No system.
-
-No breakthrough.
-
-Two people had different useful information.
-
-That was enough to move buckles through a city.
-
-At Sen's red door, Orren slowed.
-
-"Here?"
-
-"No. Green."
-
-He looked ahead.
-
-"That one?"
-
-"Yes."
-
-Marra's door stood open.
-
-Jessa came out carrying a basket before we reached it.
-
-She saw me.
-
-Then Orren.
-
-Then the wheelbarrow.
-
-Then the crate.
+This created a different problem.
 
 "Why?"
 
-"Wrong court."
+The woman looked offended.
 
-She looked at the crate again.
+Not deeply.
 
-"That explains nothing."
+Efficiently.
 
-"It explained enough to me."
+"Because I made too many."
 
-Orren set the barrow down.
+"Ah."
 
-Jessa put her basket beside the door and looked at the folded paper I held out.
+That was a reason I understood.
 
-She read it.
+"Thank you."
 
-"Buckles."
+"Bring the bowl back."
+
+"Also understood."
+
+She turned to go.
+
+I said, "Wait."
+
+She turned back.
+
+I had nearly let a woman give me food without knowing her name.
+
+This felt like something a child would do.
+
+"I know you live near us."
+
+"Yes."
+
+"I do not know your name."
+
+Her face changed.
+
+"You don't?"
+
+"I have been operating on visual recognition."
+
+"For months?"
 
 "Apparently."
 
-"You're not Lyssa."
+She stared at me.
 
-"Recent development."
+Then laughed once.
 
-She looked at Orren.
+"Sera."
 
-He said, "Orren."
+"Greg."
 
-Jessa nodded.
+"I know."
 
-"Jessa."
+Of course she did.
 
-That was all.
+I disliked neighborhoods.
 
-No one explained their histories.
+"Lyssa knows?"
 
-Marra called from inside, "What?"
-
-Jessa called back, "Buckles."
-
-"Which?"
-
-Jessa looked at the paper.
-
-"Both."
-
-A pause.
-
-"Finally."
-
-There was history here.
-
-It did not belong to me.
-
-Jessa moved the basket aside and pointed into the room.
-
-"There."
-
-Orren pushed the barrow inside far enough that the crate could be lifted without blocking the door.
-
-I stayed out of the work lane automatically.
-
-Marra came from behind a hanging length of cloth, wiping chalk from two fingers.
-
-She looked at me.
-
-"Road one."
-
-"Crate one today."
-
-She looked at Orren.
-
-Then the barrow.
-
-"Whose?"
-
-"Cala's," Orren said.
-
-Marra accepted this without knowing who Cala was.
-
-Carrow had reached the correct level of detail.
-
-Jessa cut the cord around the crate.
-
-I opened my mouth.
-
-Then closed it.
-
-Not my cord anymore.
-
-Not my crate.
-
-Not my buckles.
-
-Progress.
-
-Marra lifted one top slat enough to look inside.
-
-Metal clicked softly.
-
-She counted something near the top without unloading the whole thing.
-
-Jessa checked the paper again.
-
-"Two bags."
-
-"I see two."
-
-"Count?"
-
-"Later."
-
-The crate had arrived.
-
-Our job was finished.
-
-This should have been the end.
-
-Then Marra looked at the wheelbarrow tray.
-
-"Ash?"
-
-Orren looked inside.
+"My name?"
 
 "Yes."
 
-"Not on my floor."
+Sera laughed again.
 
-He lifted the handles immediately.
+"Lyssa knows everybody's name."
 
-I stepped aside.
+This was obviously false.
 
-Jessa laughed.
+It was also obviously more true than the version where I did.
 
-Not at him exactly.
+"Good."
 
-At the speed.
+She pointed at the bowl in my hands.
 
-Orren looked at me.
+"Tomorrow is fine."
 
-"Back."
+"For the bowl?"
 
-"Apparently."
+"Unless you eat that too."
 
-Marra had already turned toward the crate.
+"Wood is expensive."
 
-No thanks speech.
-
-No payment.
-
-The crate was not ours and the delivery had not become a job.
-
-Jessa picked up her basket.
-
-"Tell Lyssa west is tomorrow."
-
-I stopped.
-
-"West is tomorrow."
-
-"Yes."
-
-"Will she know what that means?"
-
-Jessa looked at me.
-
-"Yes."
-
-Of course.
-
-"Fine."
+"Then tomorrow."
 
 She left.
 
-Orren and I took the barrow back.
+I closed the door.
 
-The empty tray made the wheel louder.
+The beans smelled excellent.
 
-Halfway home, Orren said, "You know them."
+I put the bowl on the table.
 
-"Some."
+Then realized I had learned nothing about where to return it.
 
-"Work?"
+I opened the door again.
 
-"Lyssa's."
+Sera was halfway down the stairs.
 
-He nodded.
-
-That was enough for him.
-
-I expected a question about Lyssa.
-
-None came.
-
-At the next corner he said, "Rain bad yesterday."
-
-"Yes."
-
-"Lower Tanner?"
-
-"Bad near the dye yard."
-
-He grunted.
-
-"Always."
-
-I looked at him.
-
-"You knew that?"
-
-"Carts."
-
-Tavi had claimed Orren used to work carts.
-
-Child testimony had accidentally collided with adult evidence.
-
-I did not tell him that.
-
-"Bell Lane was better," I said.
-
-"North."
-
-"Yes."
-
-"South, no."
-
-"Why?"
-
-He pointed with his chin toward a street we were not on.
-
-"Steps. Water comes down."
-
-I stored that.
-
-Not because every conversation needed to become a route map.
-
-Because I had been caught in hard rain yesterday and a man who had apparently worked carts knew where water went.
-
-"Good to know."
-
-Orren shrugged.
-
-We reached the courtyard before Cala.
-
-This was confirmed by the absence of anyone shouting about the wheelbarrow.
-
-Orren returned it beneath the stair.
-
-Sera had gone inside.
-
-Lyssa had gone too.
-
-Not upstairs.
-
-Gone.
-
-Of course.
-
-She had work.
-
-The room was empty when I climbed back up.
-
-Her morning gray sleeve was not on the table.
-
-The dark cuff remained.
-
-Beside it sat a small paper packet I had not seen when I left.
-
-I looked at it.
-
-Then away.
-
-I had become excellent at this.
-
-The household cord was gone with the crate.
-
-That was mildly annoying.
-
-I had not thought about ownership when Jessa cut it.
-
-Now I did.
-
-One useful length of cord had become part of somebody else's delivery because I had said yes to moving a crate that was not ours.
-
-Consequences had achieved a price of one cord.
-
-Survivable.
-
-I sat down.
-
-No theatre message had appeared while I was gone.
-
-Still unassigned.
-
-Except I had spent half the morning delivering buckles with Orren.
-
-The distinction mattered less than it used to.
-
-I ate the remaining bread carefully enough that Lyssa could not accuse me of destroying civilization.
-
-Then I repaired the loose tie on one of our storage sacks because it was there and because the morning had made cord politically important.
-
-Lyssa returned in the afternoon carrying nothing.
-
-She saw me at the table.
-
-"Done?"
-
-"Buckles delivered."
-
-"Good."
-
-"We lost the cord."
+"Which door?"
 
 She stopped.
 
-"What?"
+Looked up.
 
-"Jessa cut it."
+"You really don't know."
+
+"I know your face."
+
+"Second floor. Green door."
+
+"There are two green doors."
+
+"The one with the cracked corner."
+
+I pictured it.
+
+"Left from stairs?"
+
+"Yes."
+
+"Good."
+
+She shook her head and continued down.
+
+I closed the door again.
+
+We had lived here long enough for a woman named Sera to know my name, know Lyssa's schedule better than I did this morning, and give us excess beans.
+
+I had known her as Woman With Blue Shawl.
+
+Excellent social performance.
+
+I ate some of the beans for midday.
+
+Not all.
+
+I left enough for Lyssa because I was not an animal.
+
+Then I washed our two morning cups and Sera's bowl only around the rim where I had dripped broth.
+
+The bowl still contained beans.
+
+This complicated washing.
+
+I put a plate over it.
+
+No call came.
+
+I considered going to the theatre anyway.
+
+That thought lasted longer than I liked.
+
+Rinna had not called me. Teren had not called me. `Again tomorrow if I need it` had contained a condition, and I had been present when language was invented.
+
+Showing up because maybe they needed me would turn conditional work into me standing in a doorway asking whether anybody had invented a task.
+
+I had done enough of that in my life.
+
+I stayed home.
+
+For almost an hour.
+
+Then the room became too small.
+
+I took my coat and went out with no destination more important than not being inside.
+
+The street below our building was busy in the ordinary middle part of the day. A cooper's boy rolled two hoops beside the curb. Someone above shook a cloth from a window and got yelled at by someone below. A dog slept against a warm patch of wall with the confidence of an animal that paid no rent.
+
+I went toward the pump.
+
+Not because we needed water immediately.
+
+Because I could.
+
+This was poor planning but good walking.
+
+At the pump, an older man I recognized from our building was filling two narrow buckets.
+
+Another face without a name.
+
+Dangerous day.
+
+He nodded at me.
+
+I nodded back.
+
+He finished one bucket and moved it aside.
+
+"Lyssa working north?"
+
+I looked at him.
+
+"Apparently everyone knows this."
+
+"Knows what?"
+
+"Where Lyssa is."
+
+"I don't know where she is."
+
+"You just said north."
+
+"Usually north on fifth day."
+
+I counted backward mentally.
+
+It might have been fifth day.
+
+I had not known there was a neighborhood schedule.
+
+"I have a note saying late."
+
+"Then late."
+
+He started filling the second bucket.
+
+I said, "Greg."
+
+He glanced at me.
+
+"I know."
+
+Of course.
+
+"Your name?"
+
+"Orren."
+
+"Good."
+
+"You forgot?"
+
+"I never learned."
+
+He looked at me longer.
+
+"That's worse."
+
+"Yes."
+
+He smiled.
+
+I had seen Orren carry buckets, a rolled mat, once a cage containing no visible animal, and several times a small girl asleep against his shoulder. I knew his movement better than his identity.
+
+Now he had both.
+
+"Which door?" I asked.
 
 "Why?"
 
-"To open the crate."
+"Preventative measure."
 
-"Our cord?"
+He pointed back toward our building.
 
-"Formerly."
+"Top floor. End."
 
-Lyssa closed her eyes for a moment.
+I knew the door.
 
-I waited.
+"With the brass latch?"
 
-"How did you carry it?" she asked.
+"Yes."
 
-"I didn't."
+"Excellent."
 
-Her eyes opened.
+Orren lifted one bucket.
 
-"Good."
+Then looked at my crutches.
 
-"We attempted engineering."
+Then the second bucket.
 
-"Greg."
-
-"It failed safely."
-
-"Greg."
-
-"Then Orren pushed Cala's ash barrow."
-
-That required explanation.
-
-I gave her the short version.
-
-The short version became longer because she wanted to know why Orren had Cala's barrow, why Sera had authorized it, whether Cala actually knew, and why I had apparently spent part of the morning trying to invent a forearm suspension system for a wheelbarrow.
-
-"It almost worked."
+I saw the question arrive.
 
 "No."
 
-"It moved."
+He laughed.
 
-"Badly."
+"Wasn't asking."
 
-"That is still movement."
+"You looked."
 
-"You stopped."
+"I was deciding whether to leave it here while I carry the first."
+
+"Ah."
+
+"Not everything is about you."
+
+This was increasingly the theme of Carrow.
+
+"Strong neighborhood."
+
+He carried one bucket away.
+
+I stayed near the pump.
+
+The second bucket sat where he had left it.
+
+Nobody stole it.
+
+A woman filled a jug beside it. A boy splashed his shoes and got told by three adults who were not apparently related to him to stop. He stopped for almost ten seconds.
+
+Orren returned.
+
+"Still there."
+
+"I defended it heroically."
+
+"You stood six feet away."
+
+"Defense through uncertainty."
+
+He took the second bucket.
+
+"Tell Lyssa Sera came by."
+
+I stared at him.
+
+"How do you know that?"
+
+"Saw her carrying the bowl up."
+
+Neighborhoods were surveillance states without paperwork.
+
+"She left beans."
+
+"Good beans."
+
+"You know the beans?"
+
+"Sera cooks beans."
+
+He left.
+
+I remained by the pump for another minute because I needed to reconsider my understanding of privacy.
+
+Then I walked west without deciding to.
+
+Not theatre west.
+
+Market edge west.
+
+The distinction mattered only to me.
+
+I passed the lane that would have taken me toward the theatre and did not turn.
+
+That felt less dramatic than expected.
+
+At a fruit stall, the woman who had sold me apples twice recognized me.
+
+"No list?"
+
+Apparently paper had become reputation.
+
+"No list."
+
+"Then dangerous."
+
+"I bought three onions yesterday without supervision."
+
+"How many did you need?"
+
+I considered this.
+
+"Unknown."
+
+"Then maybe supervision."
+
+I bought two small apples.
+
+Not because we needed apples urgently.
+
+Because I wanted apples.
+
+The transaction did not collapse the household.
+
+I put them in my coat pocket.
+
+One fit better than the other.
+
+The market had the thinner afternoon crowd. Enough people to make the lane alive, not enough to make crutch placement a negotiation every three steps. I knew which paving stones near the fish seller stayed wet. I knew the bakery corner narrowed because a support post stole half the walkway. I knew the woman selling ribbons hated people touching them with dirty hands because I had heard her say it to six separate people.
+
+I knew all of this without knowing her name.
+
+Today had become accusatory.
+
+I did not ask.
+
+There were limits.
+
+I ate one apple on the walk back.
+
+At the building entrance, a girl of perhaps eight sat on the lowest step with a piece of chalk and three flat stones.
+
+I recognized her too.
+
+Of course.
+
+She had dark braids and one front tooth missing. I had seen her with Orren several times.
+
+The sleeping girl, when awake.
+
+She looked at my apple.
+
+Then at me.
+
+"You got another?"
+
+I had another.
+
+This was not necessarily her business.
 
 "Yes."
 
-She looked at me for a second longer.
+"Can I have it?"
 
-Then nodded.
+Direct commerce.
 
-Not praise.
+"No."
 
-Not relief made ceremonial.
+She nodded as though this was a reasonable market result and went back to arranging the stones.
 
-Just acceptance of the useful part.
+I stopped.
 
-"Jessa said west is tomorrow," I said.
+"Orren's?"
 
-Lyssa's attention changed immediately.
-
-"Tomorrow?"
-
-"Apparently west remains tomorrow."
-
-She went to the table and picked up the dark cuff.
-
-Then the paper packet.
-
-Neither was explained to me.
-
-"You know what that means?"
-
-"Yes."
-
-"Good."
-
-I leaned back.
-
-She looked at me.
+She looked up.
 
 "What?"
 
-"Nothing. I enjoy information that reaches its intended victim."
+"Are you Orren's daughter?"
 
-"Customer."
+"No."
 
-"Even worse."
+Good.
 
-She put the cuff and packet into her work bag.
+I had nearly established a false family structure from carrying behavior.
 
-The brown cloth remained near the wall.
+"Granddaughter?"
 
-Three pins.
+"No."
 
-My damaged shirt remained on the shelf.
+"Niece?"
 
-Three threads.
+She looked at me with growing interest.
 
-The day had moved one crate, lost one cord, confirmed one piece of child gossip by accident, and given Lyssa a message I did not understand.
+"No."
 
-No theatre.
+I stopped guessing.
 
-No magic.
+"What is your name?"
 
-No revelation.
+"Tavi."
 
-Tomorrow had acquired west.
+"Greg."
 
-Not for me.
+"I know."
 
-That was the important part.
+Of course.
 
-I had my own day to lose.
+"How do you know Orren?"
+
+"He lives upstairs."
+
+"Yes."
+
+"So do I."
+
+"This has not answered the question."
+
+"My mother works nights."
+
+That answered enough.
+
+Orren carrying a sleeping Tavi did not make him father, grandfather, uncle, or anything else I could name from one sentence.
+
+It made him Orren carrying Tavi when her mother worked nights.
+
+Better.
+
+Tavi moved one chalk stone.
+
+"Apple?"
+
+"Still no."
+
+"You have two."
+
+"I had two."
+
+She looked at the core in my hand.
+
+"One and a dead one."
+
+Accurate.
+
+I sat on the second step because standing had become unnecessary.
+
+"What are the stones?"
+
+"Houses."
+
+There were three.
+
+"Small city."
+
+"That's not the city."
+
+"You said houses."
+
+"These houses."
+
+She pointed to our building, then the one opposite, then the narrow one beside the baker's rear wall.
+
+The stones corresponded badly to all three.
+
+I respected abstraction.
+
+"What is the chalk?"
+
+"Road."
+
+"Davin would approve."
+
+"Who?"
+
+"A man who believes every obstruction is a road problem."
+
+Tavi considered this.
+
+"That's stupid."
+
+"Sometimes."
+
+She drew a line between two stones.
+
+A woman came out of the building carrying folded laundry.
+
+She saw Tavi.
+
+"Don't block the step."
+
+Tavi moved the stones two inches.
+
+The woman looked at me.
+
+"You too."
+
+I moved one crutch inward.
+
+Apparently I was part of the game now.
+
+She went past.
+
+Tavi said, "That's Mina."
+
+I looked after the woman.
+
+"I didn't ask."
+
+"You don't know anybody."
+
+Hostile child.
+
+"I know people."
+
+"Who?"
+
+"Lyssa."
+
+"She lives with you."
+
+"Still counts."
+
+"Sera?"
+
+"As of today."
+
+Tavi stared.
+
+"You didn't know Sera?"
+
+"Visual recognition."
+
+"What's that?"
+
+"I knew which person she was without knowing the word attached."
+
+"Her name."
+
+"Yes."
+
+"That's dumb."
+
+"Strong neighborhood consensus."
+
+Tavi drew another road.
+
+I gave her the second apple.
+
+Not because she had won.
+
+Because I had already eaten one and because she had told me Mina's name without charging me.
+
+She took it immediately.
+
+"Thank you."
+
+Good child.
+
+She bit into it.
+
+"Sera's husband is dead."
+
+I stared at her.
+
+"That escalated."
+
+"What?"
+
+"Nothing."
+
+She chewed.
+
+"Orren used to work carts. Mina hates cats. Jessa on the second floor sings bad."
+
+"Stop."
+
+She stopped.
+
+"Why?"
+
+"I do not need the building explained to me by force."
+
+"You don't know it."
+
+"I live here."
+
+"You don't know Sera."
+
+"I know Sera now."
+
+Tavi took another bite.
+
+"Do you know Jessa?"
+
+I had no idea which face belonged to Jessa.
+
+"No."
+
+"She sings bad."
+
+"You have established that."
+
+A voice from above called, "Tavi."
+
+Tavi looked up.
+
+Orren leaned over the upper railing.
+
+"Up."
+
+"I'm eating."
+
+"You can eat upstairs."
+
+She looked at me.
+
+"See?"
+
+"I do."
+
+She gathered the three stones.
+
+Left the chalk road on the step.
+
+Then looked at my apple core.
+
+"You gonna eat that?"
+
+"No."
+
+"Give."
+
+"Why?"
+
+"Pig."
+
+There was apparently a pig somewhere in this social system.
+
+I handed her the core.
+
+She climbed the stairs with apple in one hand, core in the other, stones held against her shirt.
+
+Orren disappeared from the railing before she reached him.
+
+I remained on the step.
+
+Mina came back without laundry.
+
+She looked at the chalk lines.
+
+Then at me.
+
+"Tavi."
+
+"Yes."
+
+"Wash it before rain makes paste."
+
+I looked at the chalk.
+
+"Me?"
+
+"You're sitting there."
+
+This was flawless neighborhood logic.
+
+"Fine."
+
+She went inside.
+
+I had acquired a task.
+
+Not theatre.
+
+Not magic.
+
+Not debt.
+
+Chalk.
+
+I went upstairs, got a rag, came back down, and wiped the road from the step with a little water from the pump.
+
+The chalk resisted in the cracks.
+
+I scrubbed harder.
+
+A man entering stepped around me without comment.
+
+Sera came around the corner carrying an empty basket.
+
+She saw me kneeling awkwardly at the lowest step with one crutch laid beside me and a wet rag in hand.
+
+"What happened?"
+
+"Urban planning."
+
+She looked at the chalk.
+
+"Tavi."
+
+"Yes."
+
+"Mina make you clean it?"
+
+"I was sitting there."
+
+Sera nodded.
+
+Apparently this was enough legal foundation.
+
+"Beans good?"
+
+"Very."
+
+"Lyssa home?"
+
+"Not yet."
+
+"She'll be late."
+
+"The note agrees."
+
+Sera started inside.
+
+I said, "Sera."
+
+She turned.
+
+"Thank you."
+
+"For beans?"
+
+"Yes."
+
+"Bring bowl tomorrow."
+
+"Still planning to preserve it."
+
+She went upstairs.
+
+I finished the chalk.
+
+The lowest step was cleaner than the other four now.
+
+This made the staircase look worse.
+
+I considered cleaning all of them.
+
+Then recognized madness and stopped.
+
+Back upstairs, the room remained empty.
+
+I put the rag by the basin.
+
+The bowl of beans waited under the plate.
+
+I ate bread and another spoonful standing at the table.
+
+Then I found myself listening for Lyssa's steps.
+
+Not worried.
+
+Aware.
+
+There was a difference.
+
+She had said late.
+
+Late had not yet become very late.
+
+I sat by the window with nothing useful to do and watched the street darken by degrees.
+
+A cart stopped near the baker's rear door.
+
+Two men unloaded flour sacks.
+
+The dog from morning moved from one wall to another.
+
+Tavi appeared below carrying something green and leading an actual pig by a cord.
+
+There was the pig.
+
+The apple core had entered a broader economy.
+
+I laughed.
+
+Tavi looked up, saw me at the window, and held up the core.
+
+Then gave it to the pig.
+
+The pig ate it.
+
+Evidence resolved.
+
+Lyssa came home after full dark.
+
+Not exhausted.
+
+Tired enough to move carefully while taking off her outer layer.
+
+She had her work bag and a paper-wrapped packet under one arm.
+
+She looked at me.
+
+Then at the table.
+
+Then at Sera's bowl.
+
+"Sera."
+
+"I know her name now."
+
+Lyssa stopped.
+
+"Now?"
+
+"Apparently this has become public humiliation."
+
+She laughed and sat.
+
+I uncovered the beans.
+
+"She made too many. Bowl goes back tomorrow. Second floor, green door, cracked corner, left from stairs."
+
+Lyssa stared at me.
+
+"You asked directions?"
+
+"I am learning."
+
+"You have been here how long?"
+
+"Hostile household."
+
+She smiled and took the spoon.
+
+I cut bread.
+
+For a while we ate without talking.
+
+Lyssa's late day stayed hers. She did not explain the paper packet. I did not ask. It sat near her work bag while we ate.
+
+Eventually she said, "Tavi gave me an apple story."
+
+I looked at her.
+
+"Already?"
+
+"She was downstairs."
+
+"I gave her one apple."
+
+"She said she negotiated it."
+
+"False."
+
+"She said you refused twice."
+
+"True."
+
+"Then gave it."
+
+"True."
+
+Lyssa ate beans.
+
+"Negotiated."
+
+"I reject the framing."
+
+She smiled into the bowl.
+
+"Also Mina says thank you for the step."
+
+I stared.
+
+"How many people did you speak to between the door and here?"
+
+"Three."
+
+"That is too many."
+
+"You were home all day."
+
+"I went out."
+
+"Clearly."
+
+I told her about Orren.
+
+Not his former cart work because Tavi was not a reliable historical archive.
+
+Only that I had learned his name and that Tavi was not his daughter, granddaughter, or niece.
+
+Lyssa looked at me.
+
+"You asked all three?"
+
+"I stopped after niece."
+
+She put down the spoon.
+
+"Greg."
+
+"I recognized the error."
+
+"Before or after asking a child if Orren was three different relatives?"
+
+"During."
+
+She laughed hard enough to put one hand over her mouth.
+
+I ate bread and accepted judgment.
+
+When she recovered, she said, "Tavi's mother is Cala. Orren watches her some nights."
+
+"That is all I needed."
+
+"You didn't need any of it."
+
+"Also true."
+
+We finished the beans.
+
+I washed Sera's bowl properly this time and set it upside down near the door.
+
+Lyssa watched me do it.
+
+"Tomorrow?"
+
+"Apparently I have a call."
+
+"Theatre?"
+
+"Sera."
+
+She laughed again.
+
+I liked that more than I should have.
+
+Before bed, I checked the door latch.
+
+Not the theatre schedule.
+
+Not my coat for pages.
+
+Not the market list.
+
+The room had changed by almost nothing.
+
+One clean wooden bowl waited near the door.
+
+I knew Sera lived behind the cracked green door on the second floor.
+
+I knew Orren lived at the top end with the brass latch.
+
+I knew Tavi was Tavi and that her mother worked nights sometimes.
+
+Mina hated chalk on the step, which was not the same as hating children, cats, or civilization despite Tavi's willingness to expand biographies.
+
+None of these people had become my friends.
+
+Nobody had invited me into anything.
+
+I had not solved a problem worth money.
+
+Tomorrow Sera's bowl needed returning.
+
+That was enough to make one door in our building belong to somebody instead of geography.

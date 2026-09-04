@@ -1,835 +1,1125 @@
 # CHAPTER 283
 
-## THE WHOLESALE DOOR
+## THE REPEAT
 
-The next morning I went looking for paper and accidentally found economics.
+Hessa's note arrived inside a cabbage leaf.
 
-This was less impressive than it sounds.
+This was not magical.
 
-We were nearly out.
+It was worse.
 
-Not important paper.
+Tavi had folded the leaf around the paper because he said the note looked cold.
 
-No contracts.
+"Paper does not get cold," I said.
 
-No theatre pages.
+"This one did."
 
-No mysterious notes wrapped in vegetables.
+"How?"
 
-Household paper.
+"Outside."
 
-The cheap gray kind Lyssa used for measurements she did not need to keep and I used for numbers I pretended were becoming a system.
+That was technically possible.
 
-There were three sheets left.
+I took the note.
 
-One had a grease mark.
+The cabbage leaf was damp and had left a green smear along one edge.
 
-One had Tavi's attempt at a horse on the bottom half.
+"Where did you get this?"
 
-The horse had six legs and looked more structurally confident than I did.
+"Cala."
 
-The third was clean.
-
-Lyssa looked at the stack before leaving.
-
-"Paper."
-
-"I noticed."
-
-"Buy some."
-
-"I was going to."
-
-"Today."
-
-"Cruel."
-
-She tied her work bag.
-
-"You write on walls otherwise."
-
-"Only useful things."
-
-"No."
-
-She left.
-
-I finished breakfast, checked the repaired heel, both crutch tips, and the right grip wrap, then took the small cloth purse we used for ordinary errands.
-
-The two private copper stayed where they were.
-
-That mattered mostly because I noticed myself noticing.
-
-Household paper was a household expense.
-
-I did not need to turn every coin into philosophy.
-
-Outside, Cala was shaking a rug over the courtyard rail.
-
-Tavi was below it for reasons nobody had approved.
-
-"Move," Cala said.
-
-Tavi moved two feet sideways.
-
-"Away."
-
-He moved another foot.
-
-Cala looked at me.
-
-"Paper shop?"
-
-I stopped.
-
-"How do you know?"
-
-"Lyssa said you're going."
-
-Of course.
-
-"Need anything?"
-
-"No."
-
-Tavi said, "Blue paper."
-
-Cala shook the rug.
-
-Dust descended on him.
-
-"No blue paper."
-
-He coughed dramatically.
-
-"I am dying."
-
-"Die away from the laundry."
-
-I left before becoming responsible for the funeral.
-
-The paper shop I knew was on Narrow Bell, three streets past the old spice lane. I had bought from it before.
-
-Cheap gray sheets.
-
-String.
-
-Once, a pencil that broke before I got home.
-
-Reliable disappointment.
-
-Narrow Bell was crowded enough that morning to make two crutches irritating but not impossible. I stayed near the wall where I could, let a handcart pass, waited while three apprentices carried a long wooden frame across the lane, then crossed behind them.
-
-The paper shop had changed its front table.
-
-That was the first problem.
-
-The second was the sign.
-
-The familiar little painted sheet hanging above the door was gone.
-
-In its place was a board that said:
-
-`RETAIL AT SOUTH COUNTER`
-
-Below that, smaller:
-
-`BUNDLES / LOTS / TRADE ORDERS THROUGH COURT`
-
-I read it twice.
-
-Then looked through the open door.
-
-Paper.
-
-Shelves of it.
-
-Good enough.
-
-I went inside.
-
-The room was wrong immediately.
-
-Not dangerous wrong.
-
-Administrative wrong.
-
-The front counter I remembered had disappeared. In its place were stacked bundles tied in twine, each bundle thick enough to injure a man if dropped with conviction.
-
-A woman I did not know stood behind a narrow desk writing numbers into a ledger.
-
-She looked up.
-
-"Trade?"
-
-"Paper."
-
-She waited.
-
-"Yes," I added.
-
-"Trade order?"
-
-"Probably not."
-
-"South counter is around the corner."
-
-I looked back at the door.
-
-Then at the sign I had successfully read and failed to obey.
-
-"Excellent."
-
-She went back to her ledger.
-
-I should have left.
-
-Instead I saw the numbers chalked on the wall behind her.
-
-Not prices exactly.
-
-Quantities.
-
-Twenty-five sheets.
-
-Fifty.
-
-One hundred.
-
-Two hundred.
-
-Beside each was a smaller number.
-
-I stared long enough that the woman noticed.
-
-"You buying?"
-
-"No."
-
-"Then don't block the door."
-
-I moved farther in.
-
-This was technically compliance.
-
-The court beyond the room was open to the sky. Two men were unloading paper bundles from a narrow wagon. Another person was checking seals against a board. There were stacks under canvas along one wall and a row of wooden bins filled with offcuts along another.
-
-Not a shop.
-
-A back end.
-
-The part ordinary customers were not supposed to wander into because they had read half a sign and become curious.
-
-I looked at the chalkboard again.
-
-The woman sighed.
-
-"What?"
-
-"Those are bundle prices?"
+"The note or the cabbage?"
 
 "Yes."
 
-"Same paper as retail?"
+Tavi ran away.
 
-"Some."
+I stood in the courtyard holding a damp summons and reconsidered every choice that had led me to becoming locally reachable by children.
 
-"Gray household?"
+The note said:
 
-She pointed with the end of her pen.
+`Tomorrow. Same time. Rested. Bring nothing.`
 
-"Third line."
+Below that, in smaller writing:
 
-I found it.
+`No cabbage.`
 
-The number was lower than I expected.
+I looked toward Cala's doorway.
 
-Not lower total.
+She was not visible.
 
-Lower per sheet.
+"Hessa knows," I said to nobody.
 
-Obviously.
-
-Bulk existed.
-
-I had known bulk existed in both lives.
-
-I had not previously needed to care about bulk paper in Carrow.
-
-That distinction saved the moment from becoming revelation.
-
-"How many in the smallest bundle?"
-
-"Twenty-five."
-
-"And retail sells five?"
-
-"Retail sells however many you pay for."
-
-"Useful."
-
-She stared at me.
-
-"You are not trade."
-
-"No."
-
-"South counter."
-
-"I am going."
-
-I did not go yet.
-
-Because one of the men unloading the wagon cut the twine from a damaged bundle and swore.
-
-The outer sheets had been crushed at one corner.
-
-Not ruined.
-
-Bent.
-
-The woman behind the desk looked over.
-
-"How many?"
-
-"Top six bad. Maybe eight."
-
-"Offcut bin if they tear. Seconds if they don't."
-
-The man nodded.
-
-I looked at the bins.
-
-Then at the board.
-
-"Seconds?"
-
-The woman put down her pen.
-
-This was not because she had decided to mentor me.
-
-This was because I had become more annoying than the ledger.
-
-"Bent, stained, wrong cut, short count, damaged edge. Still usable. Sold cheaper. Usually by mixed lot."
-
-"Retail?"
-
-"Sometimes south counter takes a stack. Usually schools, kitchens, shops, anyone who doesn't care what it looks like."
-
-"Can anyone buy a lot?"
-
-"Anyone with money."
-
-There it was.
-
-The oldest qualification in commerce.
-
-"How much?"
-
-"Depends on the lot."
-
-"Posted?"
-
-"When there's enough to post."
-
-"Where?"
-
-She pointed behind me.
-
-A narrow board hung beside the door.
-
-I had walked past it.
-
-Three slips were pinned there.
-
-One for waxed wrapping paper.
-
-One for narrow card strips.
-
-One for mixed gray seconds, thirty to forty sheets depending on final count.
-
-The price was small.
-
-Not nothing.
-
-Small enough that I immediately compared it to the two private copper I was not carrying.
-
-That was irritating.
-
-"Those thirty to forty sheets all writable?"
-
-"It says mixed gray seconds."
-
-"That does not answer the question."
-
-"Then you understand trade."
-
-I liked her less now.
-
-Possibly more.
-
-I read the slip again.
-
-The lot was not dramatically cheaper than buying only the paper we actually needed today.
-
-It was cheaper per usable sheet if most of it was usable.
-
-If.
-
-There was the problem.
-
-I could buy five clean sheets at retail and know exactly what I had.
-
-Or buy a mixed stack and maybe get thirty useful sheets, maybe twenty, maybe paper with stains Lyssa would refuse to put near customer cloth, maybe narrow cuts that were only useful for notes.
-
-And then we would own too much paper.
-
-Too much paper was not a tragedy.
-
-It was also not capital.
-
-I had recently become vulnerable to calling any larger quantity an investment.
-
-The woman picked up her pen again.
-
-"South counter."
-
-"One more question."
-
-"No."
-
-"Fair."
-
-I left through the correct door this time.
-
-The south counter was literally around the corner.
-
-A painted arrow on the wall made this humiliatingly clear.
-
-The retail room was smaller than I remembered because the old shop had apparently been divided. A young man with a shaved head sat behind the counter eating nuts from a cup.
-
-"Gray paper," I said.
-
-"How much?"
-
-"Five sheets."
-
-He reached under the counter.
-
-"String?"
-
-"No."
-
-"Charcoal?"
-
-"No."
-
-"Pencils?"
-
-"Not from here."
-
-He looked offended on behalf of a pencil I had purchased months ago.
-
-"Different stock now."
-
-"The last one died young."
-
-"Then it fulfilled its nature."
-
-I paid for five sheets.
-
-Simple.
-
-Household errand complete.
-
-Then I stood outside holding paper in one hand and both crutches in the other arrangement that made holding paper annoying.
-
-This was why Lyssa used a bag.
-
-I tucked the sheets inside my shirt.
-
-Dignity remained theoretical.
-
-I should have gone home.
-
-Instead I walked back around the corner and looked at the seconds notice again from outside.
-
-I did not enter.
-
-That mattered.
-
-The mixed lot price sat there being tempting without doing anything to me.
-
-Thirty to forty sheets.
-
-Unknown usable count.
-
-Mixed condition.
-
-No need.
-
-No buyer.
-
-No resale plan.
-
-No reason to assume anybody else would pay me more for paper they could buy themselves.
-
-That last part killed most of the fantasy.
-
-Buying cheap was not value creation if the only next step was hoping someone more foolish appeared.
-
-Old life had contained entire industries dedicated to forgetting that sentence.
-
-I walked home.
-
-Halfway there I saw a bakery boy carrying a stack of narrow gray slips exactly like the card-strip seconds notice.
-
-For one stupid second my brain tried to build a paper empire from evidence that bakeries used paper.
-
-I stopped that.
-
-The bakery had probably bought paper from the paper seller.
-
-Revolutionary.
-
-At the courtyard, Cala had finished the rug.
-
-Tavi was alive despite earlier predictions.
-
-He saw the paper edge inside my shirt.
-
-"Blue?"
-
-"Gray."
-
-"Bad."
-
-"You are not the client."
-
-Cala looked over from a basin.
-
-"You got five?"
-
-I paused.
-
-"How do you know five?"
-
-"That's what Lyssa buys."
-
-My household remained publicly documented.
-
-"Yes."
-
-"Good."
+Maris, hanging a cloth over the rail above me, said, "Everybody knows."
 
 I went upstairs.
 
-The clean sheet with the six-legged horse was still on the table.
+Lyssa was not home yet.
 
-I put the new five beside it.
+One copper from Halei sat with my private money.
 
-Then I took the horse sheet and turned it over.
+One had gone to the household table.
 
-I wrote:
+The ugly arithmetic page remained folded beneath a bowl.
 
-`BULK IS NOT PROFIT.`
+I added nothing to it.
 
-Under it:
+Not because I had stopped thinking about capital.
 
-`CHEAPER PER UNIT ONLY MATTERS IF UNITS ARE USEFUL.`
+Because a note from Hessa did not become an investment opportunity merely because I had recently learned the word client could apply to me.
 
-Then I stared at the second sentence.
+Some parts of my life did not need to merge.
 
-It sounded like a man trying very hard to become boring.
+That was becoming difficult to preserve.
 
-Possibly necessary.
+The next morning I ate before leaving.
 
-I added:
+No cabbage.
 
-`SECONDS?`
+No paper.
 
-Then crossed it out.
+No coin selected for luck.
 
-The paper lot was not an opportunity yet.
+No ceramic sleeve theory smuggled into conversation.
 
-It was a thing I had learned existed.
+I had not visited Kes.
 
-Those were different categories.
+I had not visited Jori.
 
-I was getting better at not promoting one into the other because I wanted the second category more.
+I had not checked whether Halei went to Noll.
 
-A knock came at the door.
+I had slept well.
 
-For one hopeful and embarrassing moment I imagined a paying client who desperately needed expertise in damaged stationery.
+My right shoe remained flat at the repaired heel.
 
-It was Tavi.
+Residual limb comfortable.
 
-He held half an onion skin and a piece of charcoal.
+Hands ordinary.
 
-"Horse paper."
+Shoulders ordinary.
 
-"No."
+The Guild room looked almost exactly as it had nine chapters ago.
 
-"Back."
+That made it feel stranger than if Hessa had changed everything.
 
-"I am using the back."
+Same narrow wooden board.
 
-He leaned around me and saw my writing.
+Same three marks.
 
-"That not horse."
+Near.
+
+Middle.
+
+Far.
+
+Same pale paper square.
+
+Or a square that looked the same.
+
+The glass apparatus was still absent.
+
+Hessa sat behind the table with her notebook open.
+
+I stopped in the doorway.
+
+"Repeat."
+
+"Maybe."
+
+"You summoned me to say maybe in person."
+
+"Sit."
+
+I sat.
+
+She held out her hand.
+
+"Note."
+
+I gave it to her.
+
+She looked at the green smear.
+
+"Cabbage."
+
+"Not mine."
+
+"I wrote no cabbage."
+
+"After the cabbage happened."
 
 "Correct."
 
-"Horse better."
+"How did you know?"
 
-"Debatable."
+"Cala sent the boy."
 
-He pushed the charcoal toward me.
+"I live inside a conspiracy."
 
-"Make horse."
+Hessa put the note aside.
 
-"I cannot draw a horse."
+"Body first."
 
-"I can."
+The questions came in their familiar order.
 
-"You drew six legs."
-
-"Fast horse."
-
-I had no answer to that.
-
-He took the charcoal back and left.
-
-The page remained on the table.
-
-I spent the next hour doing ordinary things.
-
-Washed the bowl from breakfast.
-
-Checked the right shoe because I had walked farther than planned. Heel still flat.
-
-Rested my shoulders.
-
-Moved the new paper away from the window when a breeze started lifting the corners.
-
-No capital was created.
-
-No magical object appeared between the sheets.
-
-No one offered to finance my stationery ambitions.
-
-Around midday I went downstairs because Cala was calling for help with a stuck cupboard latch.
-
-Not magical.
-
-Not paid.
-
-The wood had swollen.
-
-Olan was already there with a thin knife and solved it before I reached the doorway.
-
-"Fixed," he said.
-
-"Excellent."
-
-I turned around.
-
-Cala said, "You can carry this upstairs."
-
-She held out a small covered bowl.
-
-I looked at both crutches.
-
-Then at her.
-
-She looked at both crutches.
-
-"Right."
-
-Olan took the bowl.
-
-This was the full extent of my contribution.
-
-I went back up.
-
-By late afternoon Lyssa returned with thread looped around two fingers and a paper twist tucked into the side of her bag.
-
-Not one of the protected parcels.
+Sleep.
 
 Food.
 
-I knew because grease had already marked the paper.
+Pain.
 
-She put two fried little dough things on the table.
+Independent draw.
 
-"Paper?"
+Independent shaping.
 
-I pointed.
+Independent external attempt.
 
-She counted the new sheets without touching them.
+"No. No. No."
 
-"Five."
-
-"Apparently this household has a standard."
-
-"Yes."
-
-I handed her one of the fried things.
-
-She ate half before asking, "What happened?"
-
-"Why does something have to happen?"
-
-"You bought paper and wrote on old paper."
-
-She pointed at my note.
-
-I had forgotten it was visible.
-
-`BULK IS NOT PROFIT.`
-
-Lyssa read it.
-
-Then the next line.
-
-Then looked at me.
-
-"You tried to buy too much paper?"
+"One at a time."
 
 "No."
 
-"Wanted to?"
-
-"Briefly."
-
-"Why?"
-
-"It was cheaper."
-
-"Did we need it?"
+"Any unusual sensation since last session?"
 
 "No."
 
-"Then very expensive."
+"Any injury?"
 
-I stopped.
+"No."
 
-That was annoyingly good.
+"Shoe?"
 
-"You cannot just say things like that while eating fried dough."
+"Still repaired."
+
+"Leg?"
+
+"Fine."
+
+"Hands?"
+
+"Fine."
+
+She checked anyway.
+
+Pulse.
+
+Grip.
+
+Forearm.
+
+Nothing interesting.
+
+Then she looked at me.
+
+"What do you think we are doing?"
+
+"Middle again."
 
 "Why?"
 
-"Because I have been thinking about unit economics all day."
+"Because last time near gave one response in three, middle gave none in two, and far was untested. You said middle again was a possibility."
 
-She took another bite.
+"Anything else?"
 
-"I don't know what that is."
+I looked at the board.
 
-"Apparently neither do I."
-
-I told her about the wrong door.
-
-Trade bundles.
-
-Seconds.
-
-Mixed lots.
-
-Bent corners.
-
-The notice board.
-
-I did not ask whether we should buy them.
-
-She did not become my purchasing department.
-
-She listened because the story involved me ignoring a sign.
-
-That was enough entertainment.
-
-"It said south counter," she said.
-
-"The sign was badly placed."
-
-"Above door?"
+"You stopped because I wanted to compensate for distance."
 
 "Yes."
 
-"Bad place."
+"So you want to know whether I can repeat the middle block without changing effort."
 
-"Thank you."
+"Partly."
 
-She smiled into the dough.
+"What is the other part?"
 
-Then she took the horse page and looked at Tavi's drawing.
+"Whether anything happens."
 
-"Fast horse."
+"You make science sound disappointing."
 
-I stared at her.
+"It often is."
 
-"You people are impossible."
+She moved the square to the middle mark.
 
-She turned the page over and saw my crossed-out `SECONDS?`
+Not near first.
 
-"You not buying?"
+Middle.
+
+My attention sharpened.
+
+"No near block?"
+
+"Not today."
+
+"Why?"
+
+"Because I am not trying to recreate the entire prior session."
+
+"Then repeat is wrong."
+
+"I did not say repeat."
+
+"I did."
+
+"Yes."
+
+I stared at the paper.
+
+Same apparent square.
+
+Same bare board.
+
+No glass.
+
+Middle position.
+
+"Same paper?"
+
+"Same square."
+
+That mattered.
+
+"Stored how?"
+
+Hessa looked at me.
+
+"You do not need that yet."
+
+"That means stored intentionally."
+
+"It means begin with what matters to today's permission."
+
+I sighed.
+
+"Permission?"
+
+"Under supervision, today only, you may attempt the same external effect on this paper square at the middle position. Direction away. No other object. No independent change in draw, duration, or method."
+
+"How many?"
+
+"Three planned. I may stop earlier."
+
+"Far?"
+
+"Not selected."
+
+"You brought the mark."
+
+"The board already has the mark."
+
+"Cruel."
+
+"Expectation?"
+
+I looked at the square.
+
+Nine chapters had passed.
+
+That number meant nothing physically.
+
+It meant a great deal emotionally.
+
+I had thought about money more than magic for several days.
+
+That felt almost disloyal.
+
+Then I realized how stupid that was.
+
+Magic did not need loyalty.
+
+It needed evidence.
+
+"Low," I said.
+
+"Why?"
+
+"Zero in two last time at middle."
+
+"Anything else?"
+
+"Distance still feels like it should be harder."
+
+"Evidence?"
+
+"Old-life expectation, not current evidence."
+
+"Anything else?"
+
+I considered.
+
+"I want it to move more because we waited."
+
+Hessa wrote that.
+
+"Why?"
+
+"Because my brain thinks patience deserves payment."
+
+"Does it?"
 
 "No."
 
 "Good."
 
-"Maybe someday if we actually need enough paper. Or if I know somebody who needs a lot and there's a reason I can solve something the seller isn't already solving."
+Attempt sixty-seven.
 
-Lyssa nodded once.
+I settled.
 
-Not approval of a business plan.
+Hand loose.
 
-Just acknowledgment that the sentence had ended.
+Shoulder down.
 
-Then she reached for the clean sheets.
+Breathing ordinary.
 
-"I need one."
+Minimal permitted draw within the external attempt.
 
-I put my hand over the stack.
+No added reach.
 
-"These are household assets."
+No longer duration.
 
-She looked at my hand.
+Away.
 
-I moved it.
+Hessa gave the start.
 
-She took a sheet.
+I worked.
 
-Capital discipline had limits.
+Nothing happened.
 
-She wrote three measurements near the top, folded the page once, and tucked it into her work bag for tomorrow.
+The paper square remained flat.
 
-Four new sheets remained.
+I stopped on time.
 
-The household paper supply had already declined twenty percent.
+Hessa checked the board and square.
 
-I considered saying this.
+"No observed response."
 
-I chose life.
+I nodded.
 
-That evening Tavi came back with his charcoal.
+That felt almost comfortable.
 
-He did not ask for the horse page.
+Not success.
 
-He had found a scrap somewhere else.
+Familiarity.
 
-On it was a horse with seven legs.
+"Urge to increase?" she asked.
 
-"Faster," he said.
+"Small."
 
-I looked at the drawing.
+"Did you?"
 
-Then at my note about useful units.
+"No."
 
-"I have no standing to criticize your scaling strategy."
+"Body?"
 
-Tavi nodded as if I had finally understood.
+"Fine."
 
-He left the horse on the table.
+She checked.
 
-I kept it.
+Fine.
+
+Attempt sixty-eight.
+
+Same middle mark.
+
+Same square.
+
+Same direction.
+
+Expectation lower.
+
+I told her.
+
+Start.
+
+I worked.
+
+For the first half, nothing.
+
+Then one edge of the square lifted.
+
+Not much.
+
+A tiny curl upward.
+
+It dropped.
+
+The square did not slide.
+
+I stopped on time.
+
+Hessa moved before I spoke.
+
+She checked the room.
+
+The board.
+
+The paper.
+
+Then she crouched and looked along the board's surface from the side.
+
+I waited.
+
+"Observed edge lift," she said.
+
+My heart kicked.
+
+"Away?"
+
+"No net displacement."
+
+"But response."
+
+"Observed edge lift."
+
+"That is a response."
+
+"It is an observed change during the attempt."
+
+"Hessa."
+
+She looked at me.
+
+"I am not yet calling it an external-effect response."
+
+That hurt more than it should have.
+
+"Why?"
+
+"Because I want to check air movement."
+
+She crossed the room.
+
+The window was shut.
+
+The door had been shut.
+
+She held a thin thread from her notebook near the board.
+
+It hung nearly still.
+
+"Nearly?" I asked.
+
+"Everything moves some."
+
+"The square lifted."
+
+"Yes."
+
+"During the attempt."
+
+"Yes."
+
+"At middle."
+
+"Yes."
+
+"And you are refusing me joy."
+
+"Temporarily."
+
+She wrote.
+
+I watched her.
+
+"What do you call it?"
+
+"Possible response. No net displacement."
+
+Possible.
+
+I could live with possible.
+
+Barely.
+
+"Third?"
+
+Hessa checked my hand.
+
+Forearm.
+
+Pulse.
+
+"Urge to push?"
+
+"Higher."
+
+"Because?"
+
+"Because it almost did something."
+
+"Almost?"
+
+I corrected myself.
+
+"Because we observed something that might be the effect."
+
+"And?"
+
+"I want a cleaner result."
+
+"Will you change anything?"
+
+"No."
+
+"Certain?"
+
+I looked at the square.
+
+That was the question.
+
+Last time she had stopped after I admitted the wanting had changed.
+
+This time the wanting had changed again.
+
+But wanting was not action.
+
+"I can hold the same attempt."
+
+Hessa watched me.
+
+Then nodded.
+
+"One more."
+
+Attempt sixty-nine.
+
+I sat back before starting.
+
+Reset my shoulders.
+
+Opened my hand.
+
+Closed it once.
+
+Opened it.
+
+The paper square sat at middle.
+
+No glass.
+
+Same stock.
+
+Same object as last time.
+
+Away.
+
+No compensation.
+
+No reward for patience.
+
+No reward for being good.
+
+No reward because attempt sixty-eight had teased me.
+
+Just another attempt.
+
+"Expectation?" Hessa asked.
+
+"Medium."
+
+"Why higher?"
+
+"Possible response on sixty-eight."
+
+"Anything else?"
+
+"Hope."
+
+"Evidence?"
+
+"No."
+
+She wrote it.
+
+Start.
+
+I worked.
+
+Nothing happened at first.
+
+Then the square moved.
+
+Not a corner.
+
+Not a curl.
+
+The whole piece slid away from me.
+
+Small.
+
+Clean.
+
+Straight enough that I saw the front edge cross a scratch in the board.
+
+Then it stopped.
+
+I stopped too.
+
+On time.
+
+My entire body wanted to shout.
+
+I did not.
+
+Hessa was already checking.
+
+Board.
+
+Square.
+
+Window.
+
+Thread.
+
+Floor.
+
+Me.
+
+She measured the shift with a small strip from her notebook and wrote without showing me the number.
+
+"Small observed net displacement away."
+
+I breathed out.
+
+"At middle."
+
+"At today's middle position."
+
+"Same middle as last time?"
+
+She paused.
+
+"Yes."
+
+That mattered.
+
+"Same square?"
+
+"Yes."
+
+"No glass."
+
+"Correct."
+
+"One clean movement in three today."
+
+"One observed net displacement in three. One possible edge-lift event. One no observed response."
+
+"And last time zero in two at the same middle position."
+
+"Correct."
+
+I grinned.
+
+"So middle works."
+
+"No."
+
+The grin remained but suffered.
+
+"We just watched it work."
+
+"We observed one response at middle."
+
+"That means possible."
+
+"Yes."
+
+"Possible is works with bad confidence."
+
+"No."
+
+"You hate language."
+
+"I hate you abusing it."
+
+I looked at the square.
+
+One response.
+
+At middle.
+
+That was more than we had before.
+
+Not range law.
+
+Not reliable.
+
+Not strong.
+
+Not far.
+
+But the zero in two had become one in five across sessions.
+
+Or one clean response in five, plus one possible edge lift, depending on how Hessa recorded it.
+
+"Can we say the near position is not the demonstrated limit?"
+
+Hessa considered.
+
+"Yes."
+
+I sat very still.
+
+That was the largest sentence she had given me all day.
+
+"Can we say distance reduces reliability?"
+
+"No."
+
+"Can we say middle is harder?"
+
+"No."
+
+"Can we say I can affect paper farther away than the near position?"
+
+"Under supervision, under today's conditions, we observed one small net-away displacement at the middle position."
+
+"That is the least romantic version."
+
+"It is the useful version."
+
+I wanted the far mark.
+
+Immediately.
+
+The wanting was so obvious that I did not need Hessa to ask.
+
+I looked at it.
+
+Then at her.
+
+"No far."
+
+"Correct."
+
+"You didn't even pretend to consider it."
+
+"I considered it before you arrived."
+
+"And?"
+
+"Not today."
+
+"Because I want it."
+
+"Partly."
+
+"Because we finally got middle."
+
+"Mostly."
+
+"That seems backward."
+
+"Why?"
+
+"Success should unlock the next thing."
+
+Hessa closed the active page.
+
+"That sentence is why success does not unlock the next thing."
+
+I leaned back.
+
+"You planned that."
+
+"No."
+
+"It sounded planned."
+
+"You are predictable."
+
+Cruel.
+
+She checked my body again.
+
+Hands warm.
+
+Forearm warm.
+
+No pain.
+
+No tingling.
+
+No weakness.
+
+Right leg fine.
+
+Residual limb comfortable.
+
+Shoulders ordinary.
+
+"Totals?" I asked.
+
+"Thirty-six supervised minimal draws. Thirty-two deliberate shaping attempts. Sixty-nine external-effect attempts."
+
+"The draw count did not increase?"
+
+"We continue counting the established external-attempt protocol separately."
+
+"Fine."
+
+"Restrictions outside supervised sessions remain unchanged."
+
+"No paper."
+
+"No."
+
+"No coins."
+
+"No."
+
+"No cabbage."
+
+Hessa looked at me.
+
+"Especially no cabbage."
+
+"That one feels personal."
+
+"It is."
+
+I collected my crutches.
+
+Before standing, I looked at the far mark one more time.
+
+Hessa noticed.
+
+"Untested," she said.
+
+"I know."
+
+"Say it."
+
+"Far remains untested."
+
+"Good."
+
+"You enjoy making me say sad things."
+
+"Yes."
+
+I stood.
+
+"Next experiment?"
+
+"Not selected."
+
+"Middle again?"
+
+"Possibility."
+
+"Near control?"
+
+"Possibility."
+
+"Far?"
+
+"Not selected."
+
+"Different material?"
+
+"Leave."
+
+Some traditions survived.
+
+Outside the Guild yard, the day had warmed.
+
+A line of small black beetles crossed the stone near the wall carrying pale bits of something larger than themselves.
+
+Ordinary beetles.
+
+Probably.
+
+I did not inspect them.
+
+A cart passed with three glass jars strapped upright in a wooden frame. The straps crossed in a pattern that made me think of Halei's Trine braces.
+
+Different hardware.
+
+Different system.
+
+I did not chase it.
+
+A man sold little blue paper twists of salt beside the fountain.
+
+I bought one because we needed salt.
+
+This was not a test object.
+
+Growth.
+
+On the walk home I kept returning to the middle mark.
+
+Not the movement itself.
+
+The waiting.
+
+Nine chapters of life had happened between middle attempts.
+
+Water had stopped and returned.
+
+I had watched jars.
+
+Read weights.
+
+Scraped nothing while Mella treated a wall.
+
+Worn a magical mask badly and then less badly.
+
+Found a gold-priced broken clasp.
+
+Paid an appraiser to tell me why wanting it did not make it good.
+
+Earned two copper by answering a stranger carefully.
+
+None of that had improved my magic.
+
+As far as I knew.
+
+That was important.
+
+Life had not been training montage disguised as errands.
+
+The paper moved because under one supervised attempt, something happened.
+
+Not because the universe rewarded me for doing chores.
+
+At home, Cala was in the courtyard sorting onions into a shallow basket.
+
+I stopped.
+
+"Where is Tavi?"
+
+"Why?"
+
+"I need to discuss cabbage correspondence."
+
+"No."
+
+"You sent him."
+
+"Hessa sent note. I sent boy. Boy found cabbage."
+
+"Where?"
+
+Cala pointed at a basket beside her.
+
+One leaf was missing.
+
+"He stole your cabbage."
+
+"He improved delivery."
+
+"Everyone is against me."
+
+"Yes."
+
+I went upstairs.
+
+Lyssa came home later than I did.
+
+Pale thread dust marked one sleeve again.
+
+She had a small loaf under her arm and a tired look that made questions about her work obviously unwelcome.
+
+I took the loaf when she offered it.
+
+"Hessa," she said.
+
+"How do you know?"
+
+"Cala."
+
+"Conspiracy."
+
+"Paper?"
+
+"Moved."
+
+She stopped untying her work bag.
+
+"Where?"
+
+I liked that question.
+
+Not how much.
+
+Where.
+
+"Middle."
+
+Her eyes sharpened.
+
+"Same?"
+
+"Same middle position as last time. Same square. No glass. Three attempts today. First nothing. Second edge lifted but Hessa only calls it possible. Third moved cleanly away. Small."
+
+"Far?"
+
+"Untested."
+
+"Good."
+
+I stared at her.
+
+"You and Hessa have formed a union."
+
+"You wanted far."
+
+"Immediately."
+
+"No."
+
+"I know."
+
+She waited.
+
+"I did not argue very much."
+
+"How much?"
+
+"Professionally."
+
+Lyssa smiled.
+
+I told her the totals.
+
+Thirty-six.
+
+Thirty-two.
+
+Sixty-nine.
+
+I told her restrictions were unchanged.
+
+I told her Hessa had not selected the next experiment.
+
+Then I put the salt on the shelf.
+
+Lyssa looked at it.
+
+"Magic?"
+
+"Dinner."
+
+"Good."
+
+We ate the loaf with leftover beans and more salt than the beans deserved.
+
+The copper I had kept from Halei remained where I had put it.
+
+The clasp remained somewhere else, assuming it remained anywhere at all.
+
+The far mark remained untested.
+
+I wanted both.
+
+Gold and distance.
+
+That was inconvenient.
+
+But wanting two things did not make either one mine.
+
+For once, I could live with that.

@@ -1,717 +1,1213 @@
 # CHAPTER 301
 
-## THE FALSE DOOR
+## THE FAR MARK
 
-The theatre sent paper instead of Lenn.
+I went to the Guild to ask permission to fail farther away.
 
-I considered this an improvement until I read it.
+This was growth.
 
-The folded strip had arrived with a boy I did not know, who handed it to Cala, accepted half a heel of bread for reasons unrelated to me, and vanished before I could ask whether he worked for the theatre or had simply been captured by Rinna on the road.
+Possibly.
 
-The note said:
+The morning had started without a list.
 
-`AFTER MIDDAY.`
+No client.
 
-`TWO BITS.`
+No household errand.
 
-`TEREN NEEDS A REPEATABLE BODY.`
+No song trying to recruit me.
 
-`RINNA.`
+No sock fell from the sky.
 
-I read the third line twice.
+The three copper stayed upstairs.
 
-Cala was sorting dried beans at the table.
+The bag held charcoal and notes.
 
-"I have been reduced to a repeatable body."
+My hands felt normal after yesterday's longer walk.
 
-"Good."
+My right shoe remained flat at the repaired heel.
 
-"You did not hear the insult."
+Residual limb comfortable.
 
-"Two bits."
+Crutches ordinary.
 
-"You heard the money."
+I left the house before my brain could decide that wandering was a sufficient use of the day.
 
-"Yes."
+At the second lane, I passed a tray of kessa in the sun.
 
-Tavi was on the floor with a wooden spoon and a square of scrap cloth he had apparently promoted to horse.
+One silver-brown jumper vanished under the stall.
 
-He looked up.
+I recognized it.
 
-"Greg pole."
+I kept walking.
 
-"The historical record is hostile."
+At the third lane, somebody had tied fresh laundry to a high line.
 
-Cala put another bad bean into a small side bowl.
+Not Mara's court.
 
-"Go after food."
+Different line.
 
-That part of Rinna's note had been implied by survival.
+Different laundry.
 
-Lyssa had already left that morning. The brown cuff was gone from the table with her, which told me only that she had taken the brown cuff somewhere. I did not convert absence into a customer theory.
+I kept walking.
 
-I ate.
+This was becoming suspiciously competent.
 
-The three private copper remained upstairs. I left them there. The shoulder bag carried charcoal, the narrow scrap with the magic numbers, and nothing that would become embarrassing if the theatre asked me to run.
+Then the Guild wall came into view.
 
-The walk was ordinary.
+I almost turned away.
 
-My hands felt good. Right shoe flat. Residual limb comfortable. Crutches quiet. The front door closed softly behind me and the rain shelf above the gallery remained a shelf instead of a narrative demand.
+Not because I was afraid of Hessa.
 
-I crossed the repaired ward step without looking at it long enough to turn it into a reunion.
+That would imply poor judgment.
 
-That was becoming a skill.
+Because I had no note.
 
-The theatre yard felt almost offensively familiar after the gap.
+Every recent magic session had arrived through somebody else deciding the time.
 
-A narrow scenery cart blocked half the passage. Someone had left two rolled carpets against the wall. A woman carrying costume sleeves told a man with a hammer that he had stolen her chair. The man said the chair had been under a ladder. She said that did not make it his. He said he had improved it by sitting in it.
+Hessa's note.
 
-Nobody asked my opinion.
+A summons.
 
-Home.
+A scheduled repeat.
 
-Rinna was at the side table with a stack of slips under one hand and three bits in a row beside them.
+I had followed instructions very well.
 
-She looked at me, then at the clock board on the wall.
+This time I wanted the next instruction.
 
-"On time."
+That was different.
 
-"I was promised two bits."
+The yard was busy enough that nobody cared about one nineteen-year-old on crutches entering without a cabbage leaf.
 
-"After."
+A porter rolled two narrow crates toward the rear building.
 
-"I respect your commitment to suspense."
+A woman in a blue sash stood under the awning arguing about seal wax.
 
-"Stage. Teren."
+Two apprentices crossed the yard carrying a frame between them.
 
-"What am I repeating?"
+I knew none of them.
 
-"Your body."
+Good.
 
-"Still rude."
+I went to Hessa's room.
 
-Rinna had already gone back to the slips.
+The door was open.
 
-Conversation concluded.
+She was writing.
 
-The stage was open to work light, curtain raised, house empty.
+Of course.
 
-Teren stood in the middle of it with Pavin, Nessa, and Jori.
+I stopped at the threshold.
 
-That combination made more sense than I wanted it to.
+"I have no appointment."
 
-Pavin had pages rolled in one hand. Nessa had a length of black cloth over one shoulder and chalk tucked behind one ear. Jori was kneeling beside a freestanding doorframe that had no door in it.
+Hessa did not look up.
 
-Behind the frame hung a pale gray cloth stretched from floor to a narrow crossbar.
+"Correct."
 
-It was only six feet behind the frame.
+"I thought honesty would help."
 
-From the stage, that was obvious.
+"It has not yet."
 
-The cloth had faint silver lines running through it in long perspective angles, all narrowing toward a point slightly left of center. Two low hooded lamps sat behind side screens. A third lamp, smaller, rested on a box farther back.
+I waited.
 
-I knew the broad trick.
+She finished the line.
 
-Depth cloth.
+Then she looked at me.
 
-Cheap stages, roadside houses, temporary halls, sometimes even military briefings when someone wanted a command tent to look larger than it was. A treated surface took guided light unevenly, carrying some lines forward and letting others sink. Paint and geometry did the rest.
+"Problem?"
 
-Good versions could make six feet feel like thirty from the right audience angle.
+"No."
 
-Bad versions made six feet look like six feet with expensive confidence.
+"Independent attempt?"
 
-I did not know which version this was.
+"No."
 
-Teren saw me looking.
+"Unusual sensation?"
 
-"Good."
+"No."
 
-"Rinna called me repeatable."
+"Injury?"
 
-"You are."
+"No."
 
-"This theatre has become crueler while I was gone."
+"Then why are you here?"
 
-Pavin unrolled his pages.
+There was no graceful version.
 
-"You were gone?"
+"I want the next session."
 
-"Apparently not emotionally."
-
-Nessa pointed to a chalk mark near the false doorway.
-
-"Bag off before you cross."
-
-I looked at her.
+Hessa leaned back slightly.
 
 "Why?"
 
-"Strap catches the black edge."
+"Because the last one was seventeen chapters ago."
 
-That was enough.
+She stared at me.
 
-I put the shoulder bag on a chair against the side wall.
+I corrected myself.
 
-Jori stood and stepped back from the frame.
-
-"We're testing the hall."
-
-"It currently appears to end in cloth."
-
-"From here."
-
-"Good distinction."
-
-Teren handed me four pages.
-
-"Pavin is Serrin. You're servant and Corven. Same scene as before, cut shorter."
-
-The Blue Window.
-
-I remembered enough to dislike Corven on principle and enough not to trust memory with lines.
-
-I scanned the pages.
-
-The scene was not one we had run in the small room. Serrin crossed from a real room into a hallway while Corven continued speaking from behind him. In the old staging, the hallway was apparently just an exit behind a flat.
-
-Now it had become a false corridor visible through an open frame.
-
-"Why change it?"
-
-Teren said, "Because the old exit makes Serrin disappear before the last line lands."
-
-Pavin said, "And because Rinna found the cloth."
-
-Nessa said, "Rinna found a price on the cloth."
-
-Jori said, "Same thing to Rinna."
-
-Teren ignored all three.
-
-"You read opposite Pavin. On the last section, you cross through the frame, turn left behind the veil, then come back. Same path each time."
-
-"Am I the servant or Corven when I cross?"
-
-"Body."
-
-I looked at him.
-
-"Rinna infected you."
-
-"Read first."
-
-We read standing near the table.
-
-Pavin had improved since the last time I had been used as his scene furniture.
-
-Or I had learned enough to notice different things.
-
-He did not rush the lie about the letter anymore. He let Corven interrupt him once, then took the next line too quickly, as if Serrin regretted allowing space.
-
-I read Corven in my own voice.
-
-Not flat.
-
-Not a performance.
-
-Just enough pressure to give Pavin something to push against.
-
-Teren stopped us twice.
-
-The first time because I leaned into Corven's accusation.
-
-"Less."
-
-"I am barely doing anything."
-
-"Do less of the barely."
-
-Pavin looked down at his page.
-
-I suspected him of smiling.
-
-The second stop belonged to Pavin.
-
-"Don't make the pause pretty," Teren said.
-
-Pavin nodded once.
-
-No defense.
-
-We started again.
-
-That run reached the door.
-
-Nessa moved a chair two inches before we crossed.
-
-I glanced at it.
-
-"Why?"
-
-"Your right crutch needs the lane."
-
-She did not say anything else.
-
-The adjustment had already happened.
-
-Accumulated workplace memory was becoming rude in a different direction. People were starting to fix geometry before I complained about it.
-
-I took both crutches, started the cross during Pavin's line, and arrived at the chalk mark near the frame on time.
-
-Teren said, "Through. Normal pace."
-
-I went through.
-
-The gray cloth was behind me.
-
-The black side masking made a narrow passage left of it. I turned, followed the path behind the veil, and emerged from the other side.
-
-Nothing happened.
-
-Jori said, "Again. Lamps."
-
-Nessa closed one stage shutter.
-
-The work light dropped around the frame.
-
-Jori opened the two low side lamps.
-
-The gray cloth changed.
-
-Not dramatically from where I stood.
-
-Silver lines warmed. Dark paint between them seemed to sink. The center point grew brighter and smaller at once, which made the cloth look less like a surface and more like something seen through a surface.
-
-The third lamp came on.
-
-A cool white patch appeared near the false corridor's far end.
-
-From the stage, I could still see the trick.
-
-Teren pointed toward the house.
-
-"Row five."
-
-I took the side steps because the center ones were steeper and because Jori had left a length of cable there.
-
-Nobody explained this. I simply used the route I knew.
-
-From row five, the doorway opened into a hall that did not exist.
-
-I stopped.
-
-The six feet of cloth had become maybe twenty-five feet of pale corridor, narrow and high, with a bright turn at the far end. The silver perspective lines read as wall seams. The dark paint became recess. The cool patch became another room beyond the turn.
-
-It was not perfect.
-
-I could see the cloth if I looked for cloth.
-
-But I had to look.
-
-Pavin stood in the doorway onstage.
-
-From the house, he looked like a man with a real place behind him.
-
-"That's good," I said.
-
-Jori called, "It was good yesterday too."
-
-"Then why am I here?"
-
-Nessa shouted, "Because yesterday nobody crossed it."
-
-There was always a second sentence.
-
-I returned to the stage.
-
-Teren reset us at the last page.
-
-Pavin spoke.
-
-I answered as Corven.
-
-Then I took the crutches and crossed through the false doorway at normal pace.
-
-The instant my left crutch entered the frame, the corridor bent.
-
-I saw it even from the stage.
-
-A narrow gray shadow doubled itself along one silver line, and the far wall appeared to kink toward me. My body followed a beat later. The effect settled after I passed.
-
-Jori said, "There."
-
-Nessa said, "Left lamp."
-
-Teren said, "Again. Same."
-
-I came back.
-
-"Was that me?"
-
-Jori said, "Partly."
-
-"My crutch?"
-
-"Long narrow object entering before body."
-
-That was broader than me.
-
-Nessa picked up a wooden cane from the prop table.
-
-She held it out through the frame without stepping forward.
-
-The corridor bent again.
-
-Less, but enough.
-
-"Cane too," she said.
-
-Pavin looked at his pages.
-
-"Serrin has a cane in act three."
-
-Nessa said, "Not here."
-
-"Still offensive."
-
-Teren pointed at my chalk mark.
-
-"Again. Do not change your cross."
-
-"I was about to move the crutch later."
-
-"Don't."
-
-"Why?"
-
-"Because then we're testing your correction instead of the door."
-
-Hessa would have liked him.
-
-That was upsetting.
-
-I reset.
-
-Same start.
-
-Same pace.
-
-Same crutch placement as best I could repeat it.
-
-The corridor bent again.
-
-Jori crouched at the left lamp and shifted its hood half a hand inward.
-
-"Again."
-
-I crossed.
-
-The bend reduced but did not vanish.
-
-Nessa took the cane and repeated the same intrusion.
-
-Still visible.
-
-Jori moved the lamp back to its original position.
-
-"Wrong direction."
-
-No shame.
-
-No speech.
-
-Just information.
-
-He looked at the frame, then at the black masking along its left edge.
-
-"Need more dead edge."
-
-Nessa pulled the black cloth from her shoulder.
-
-That explained why she had brought it.
-
-She clipped a strip behind the left side of the frame, narrowing the visible corridor by perhaps two fingers from the audience angle.
-
-From the stage it looked worse.
-
-From row five it looked better.
-
-That was theatre in one sentence.
-
-We tested again.
-
-My crutch entered.
-
-A small double shadow appeared, but the false wall no longer kinked around it. The black edge swallowed the first part of the shadow until my body entered the light field.
-
-Jori said, "Better."
-
-Nessa said, "Not enough."
-
-Teren said, "Again."
-
-Pavin sat on the edge of the stage while I crossed four more times.
-
-The fourth time I got clever.
-
-I turned my left crutch slightly inward as I entered, keeping more of the shaft behind my body.
-
-The corridor held.
-
-I looked toward Teren.
+"Because enough life has happened that I stopped waiting for a note and came to ask."
 
 "Better."
 
-"Wrong."
+"I dislike when you confirm the existence of a worse answer."
 
-I stopped.
+"What do you want to test?"
 
-"You saw it."
+I looked at the board behind her.
 
-"Yes. You changed the cross."
+Near.
 
-"I improved the effect."
+Middle.
 
-"You improved Greg crossing the effect."
+Far.
 
-He pointed at the cane in Nessa's hand.
+The marks were still there.
 
-"Door still wrong."
+"Far."
 
-There it was.
+"Why?"
 
-I had optimized the wrong system.
+"Because it remains untested."
 
-Again.
+"Anything else?"
 
-I reset and crossed normally.
+"Because middle produced one clean displacement in five attempts across the first two sessions at that position, plus one possible edge lift."
 
-Nessa repeated with the cane.
+"Anything else?"
 
-Jori added a second narrow strip of dead black cloth behind the frame, lower this time, where the lamp caught objects before bodies.
+"Because I want to know whether the effect exists at the far mark at all."
 
-The next cane test held.
+"That is not what one attempt would tell you."
 
-Mostly.
+"Then I want to stop calling it untested."
 
-The shadow appeared, but as an ordinary shadow inside the false hall rather than a bright fold that exposed the cloth.
+Hessa's expression changed by almost nothing.
 
-Pavin went to row five.
+I had learned that almost nothing could be approval.
 
-"Again," he called.
+Or indigestion.
 
-I crossed.
+"Sit," she said.
 
-He was quiet.
+I sat.
 
-Then, "Looks like a crutch."
+The familiar questions came again.
 
-"Devastating."
+Sleep.
 
-"Not like a broken hallway."
+Food.
 
-Jori sat back on his heels.
+Pain.
 
-"Good."
+Independent draw.
 
-Teren said, "Now scene."
+Independent shaping.
 
-That was important.
+Independent external attempt.
 
-The door could work technically and still fail theatrically if everyone treated it like a demonstration.
+All ordinary.
 
-We reset the page.
+No.
 
-Pavin began.
+No.
 
-This time the scene had somewhere to go.
+No.
 
-Serrin lied about the letter. Corven refused the lie. Pavin moved toward the doorway before the argument had ended, which made the false corridor visible behind him. He did not look back at it. He did not present it.
+She checked pulse.
 
-It was just where he intended to leave.
+Grip.
 
-I read the next line and moved when Teren's blocking required it.
+Forearm.
 
-Crutches.
+Hands.
 
-Right foot.
+Then she looked at my palms.
 
-Frame.
+"Pressure?"
 
-The false hall stayed a hall.
+I frowned.
 
-I disappeared behind the veil.
+"Yesterday. Long walk. Resolved with rest."
 
-Pavin said his last line into the space I had left.
+"Pain?"
 
-For half a second, standing behind six feet of treated cloth in a passage that smelled like dust and lamp oil, I understood why the old flat exit had been wrong.
+"No."
 
-The audience needed to believe Serrin could keep walking after the scene ended.
+"Blister?"
 
-Not because the hallway was important.
+"No."
 
-Because leaving was.
+"Numbness?"
 
-I almost turned that into a theory.
+"No."
 
-Then Nessa said, "Greg, you're blocking the reset."
+"Today?"
 
-I moved.
+"Normal."
 
-Theatre saved again.
+She checked anyway.
 
-We ran it three more times.
+Of course.
 
-Pavin missed one line on the second and did not pretend otherwise.
+"Why did you not write for an appointment?" she asked.
 
-I came in early on the third because I heard his breath and mistook it for the end of a pause.
+"I was already walking."
 
-Teren stopped me.
+"That is not an answer."
 
-"Wait for the look."
+"I wanted to ask in person."
 
-Same note family as before.
+"Why?"
 
-Not identical scene.
+I thought about it.
 
-Useful memory without ritual.
+"Because asking felt different from being summoned."
 
-On the final run, nobody stopped us.
-
-That felt less dramatic than I remembered it feeling months ago.
-
-It also felt better.
-
-No one needed to announce improvement. We had work that now worked.
-
-Rinna appeared at the stage door before I had fully realized we were done.
-
-"Finished?"
-
-Teren said, "For today."
-
-Rinna looked at Jori.
-
-"Cloth?"
-
-"Works with the extra mask."
-
-Nessa corrected him.
-
-"Dead edge."
-
-"Black cloth."
-
-"Dead edge."
-
-Rinna looked at neither of them long enough for the argument to become billable.
-
-She handed me two bits.
-
-I counted them once.
-
-Two.
-
-"Thank you."
-
-"Tomorrow no."
-
-I blinked.
-
-"I had not asked."
-
-"You were about to."
-
-I was.
-
-Rinna pointed toward the side passage.
-
-"If Teren needs you again, paper. No standing rehearsal."
-
-"My repeatable body is devastated."
-
-"Your body can go home."
-
-I collected the shoulder bag.
-
-Nessa had already removed one of the black strips and was marking its end with chalk so it would return to the same place tomorrow.
-
-Jori was measuring the gap beside the frame with two fingers and a short rule.
-
-Pavin sat in row five watching the false hall alone.
-
-Their work continued after mine ended.
-
-That felt right.
-
-I left with two bits in the inside pocket of the bag, separate from charcoal.
-
-The city outside had not changed because a fake hallway now looked better from the fifth row.
-
-A fish seller argued over a cracked bowl. A cart backed into a lane and made three people move. Someone above me beat dust from a rug without checking who was below.
-
-I avoided the rug.
-
-Old Greg had seen illusions used to hide fortifications, multiply troop movement, disguise bridges, and make people kill shadows.
-
-This afternoon I had watched two pieces of black cloth stop a fake corridor from folding around a cane.
-
-Same world.
-
-Different urgency.
-
-I liked this one more.
-
-At home, Lyssa was back before me.
-
-The brown cuff sat on the far side of the table. She had thread between her fingers and did not look up until I put the two bits beside my bowl.
-
-"Theatre?"
-
-"Theatre."
-
-"Acting?"
-
-"Repeatable body."
-
-She looked at me.
+Hessa wrote something.
 
 "What?"
 
-"Rinna's phrase. Teren's philosophy. I crossed a false door several times until it stopped breaking around my crutch."
+"Not relevant to today's magic."
 
-Lyssa looked toward the real front door.
+"Then stop writing it."
 
-"That one works."
+"No."
 
-"Olan has ruined your standards."
+Cruel institution.
 
-Tavi came in from the courtyard.
+She closed that page and opened another.
 
-"Door red."
+"Not today."
 
-I pointed at him.
+I sighed.
 
-"Different door."
+"Of course."
 
-"Horse up."
+"Tomorrow. Same time as prior morning sessions. Rested. Eat first. Bring nothing."
 
-"Also different problem."
+I looked at the far mark.
 
-He climbed onto a stool and began telling Lyssa something that involved a horse, a tree, and my continued criminal use of poles.
+"Far?"
 
-She listened to him instead of me.
+"Maybe."
+
+"You are stealing my language."
+
+"Leave."
+
+"I came here voluntarily."
+
+"You may leave voluntarily."
+
+I did.
+
+At home, Cala was cutting something green.
+
+Not mint.
+
+I did not ask because I knew the broad category of vegetable and lacked professional need for the exact variety.
+
+This was another suspicious sign of growth.
+
+Lyssa sat by the window with a folded pale cloth across her lap.
+
+Tavi had two spoons.
+
+The cup was absent.
+
+Peace had returned.
+
+"Guild tomorrow," I said.
+
+Lyssa looked up.
+
+"Magic?"
+
+"Yes."
+
+"Hessa?"
+
+"Yes."
+
+Cala nodded.
+
+No one reacted as if I had announced war.
+
+That was nice.
+
+Tavi said, "Door red."
+
+Peace remained theoretical.
+
+I slept well.
+
+I ate before leaving.
+
+No cabbage.
+
+No lucky coin.
+
+No paper square hidden in my sleeve because I had survived nineteen years and nearly sixty more before that without becoming that stupid.
+
+The three copper stayed upstairs.
+
+The bag stayed home too.
+
+Hessa had said bring nothing.
+
+I brought nothing except the two crutches I required to arrive.
+
+The Guild room looked the same.
+
+Narrow board.
+
+Three marks.
+
+Near.
+
+Middle.
+
+Far.
+
+Same pale paper square.
+
+Or the same square as before if Hessa had not replaced it.
+
+She answered before I asked.
+
+"Same square."
+
+I stopped.
+
+"You knew."
+
+"Yes."
+
+"Stored intentionally?"
+
+"Yes."
+
+That was more information than she had given me last time.
+
+I became suspicious.
+
+"Why tell me now?"
+
+"Because today it matters."
+
+"How?"
+
+"You have prior observations on this object."
+
+"So same object controls one variable."
+
+"Partly."
+
+I looked at the board.
+
+The square sat on the table, not yet placed.
+
+Hessa pointed at the chair.
+
+I sat.
+
+Body first.
+
+Again.
+
+Sleep.
+
+Food.
+
+Pain.
+
+Independent draw.
+
+Independent shaping.
+
+Independent external attempt.
+
+No.
+
+No.
+
+No.
+
+Hands normal.
+
+Palms normal.
+
+Forearms normal.
+
+Right leg fine.
+
+Residual limb comfortable.
+
+Shoulders ordinary.
+
+She checked anyway.
+
+Then she said, "Today's protocol is conditional."
+
+"On what?"
+
+"Body and observed control."
+
+"How many?"
+
+"Three maximum. I may stop after one or two."
+
+"Positions?"
+
+"Near first. Middle second if I continue. Far third if I continue."
+
+I stared at her.
+
+"Far selected."
+
+"Conditionally."
+
+"Before I succeed at middle today."
+
+"Correct."
+
+That mattered.
+
+Last session I had wanted success to unlock the next distance.
+
+Hessa had hated the sentence.
+
+Now the protocol itself refused the reward ladder.
+
+Near was not a test I had to pass to earn middle.
+
+Middle was not a test I had to pass to earn far.
+
+They were observations in sequence, conditional on safety and control.
+
+"Why near?" I asked.
+
+"Current-day control."
+
+"Why middle?"
+
+"Current-day comparison to prior middle observations."
+
+"Why far?"
+
+"Because you asked a useful question."
+
+I looked at her.
+
+"That almost sounded kind."
+
+"Do not make it strange."
+
+"Too late."
+
+She placed the square at near.
+
+Attempt seventy.
+
+The number felt heavier than it deserved.
+
+I settled.
+
+Hand loose.
+
+Shoulder down.
+
+Breathing ordinary.
+
+Minimal permitted draw within the established external-effect protocol.
+
+No added reach.
+
+No longer duration.
+
+Direction away.
+
+"Expectation?" Hessa asked.
+
+"Some response more likely than no response."
+
+"Evidence?"
+
+"Near has one clean response in three prior attempts. Not strong evidence. Familiar distance."
+
+"Anything else?"
+
+"I want today to work because I requested it."
+
+She wrote that.
+
+"That is not evidence," I said.
+
+"Correct."
+
+"I knew."
+
+"Then begin."
+
+I worked.
+
+The square did nothing for the first part of the attempt.
+
+Then it slid.
+
+Small.
+
+Away.
+
+Clean enough that I saw the leading edge cross one grain line in the board.
+
+I stopped on time.
+
+Hessa moved immediately.
+
+Board.
+
+Square.
+
+Window.
+
+Thread.
+
+Floor.
+
+Me.
+
+She measured the shift.
+
+"Observed small net displacement away."
+
+I breathed out.
+
+Near.
+
+One clean response.
+
+No drama.
+
+My heart tried anyway.
+
+"Body?" she asked.
+
+"Fine."
+
+"Urge to increase?"
+
+"Low."
+
+"Because?"
+
+"It already moved."
+
+"That can also increase urge."
+
+"Not this time."
+
+She checked me.
+
+Fine.
+
+Then she moved the square to middle.
+
+Attempt seventy-one.
+
+Same position as before.
+
+Same square.
+
+Same direction.
+
+My attention sharpened.
+
+"Expectation?"
+
+"Low to medium."
+
+"Evidence?"
+
+"One clean middle displacement in five prior attempts across two sessions. One possible edge lift in another."
+
+"Anything else?"
+
+"Near moved today, which emotionally feels relevant and scientifically may not be."
+
+"Good."
+
+I hated when she approved sentences that made me sound boring.
+
+I settled.
+
+Start.
+
+I worked.
+
+Nothing happened.
+
+Not a lift.
+
+Not a curl.
+
+Not a slide.
+
+The square remained flat.
+
+I stopped on time.
+
+Hessa checked.
+
+"No observed response."
+
+I nodded.
+
+Disappointment arrived.
+
+Smaller than it would have months ago.
+
+Still there.
+
+"Body?"
+
+"Fine."
+
+"Urge to increase?"
+
+I looked at the far mark.
+
+"Higher."
+
+"Why?"
+
+"Because middle failed and far is farther. My brain wants to compensate before we even try."
+
+"Will you?"
+
+"No."
+
+"Certain?"
+
+I breathed once.
+
+Then again.
+
+"Yes."
+
+Hessa checked pulse.
+
+Hands.
+
+Forearm.
+
+She watched my face longer than I liked.
+
+Then she picked up the square.
+
+My chest tightened.
+
+She moved it past middle.
+
+To far.
+
+The far mark had been painted on that board for so long that it had stopped feeling like a real place.
+
+Near was where something could happen.
+
+Middle was where something had happened once.
+
+Far was a word Hessa used to ruin conversations.
+
+Now the paper sat there.
+
+Nothing else changed.
+
+The room did not become colder.
+
+No hidden apparatus unfolded.
+
+No Guild witnesses entered.
+
+No bell rang.
+
+Far was just farther.
+
+Attempt seventy-two.
+
+Hessa did not speak for a moment.
+
+Neither did I.
+
+Then she said, "Permission remains the same. Minimal established attempt. Direction away. No compensation for distance. No extension in duration. One attempt only at far today."
+
+"One."
+
+"Yes."
+
+"Even if nothing happens."
+
+"Especially if nothing happens."
 
 Fair.
 
-I took the two bits upstairs and set them beside the three copper rather than mixing them into a number I did not know how to convert.
+"Expectation?"
 
-Three copper.
+I looked at the square.
 
-Two bits.
+"Low."
 
-No theory required.
+"Why?"
 
-The false hallway had disappeared the moment Jori shut the lamps.
+"Far has never been tested. Middle is already unreliable. Distance feels like it should matter, though current evidence does not establish how."
 
-The pay had not.
+"Anything else?"
+
+"I want this one more than I wanted near."
+
+"Evidence?"
+
+"No."
+
+She wrote.
+
+I opened my hand.
+
+Shoulder down.
+
+Breathing ordinary.
+
+No reaching with the body.
+
+No leaning toward the board.
+
+No imagined rope between me and the square.
+
+No old-life spell structure forced onto a weak current-life effect.
+
+Just the same minimal attempt.
+
+"Begin."
+
+I worked.
+
+Nothing happened.
+
+I kept the attempt inside the established duration.
+
+The square remained flat.
+
+My mind started offering suggestions.
+
+Push harder.
+
+Hold longer.
+
+Narrow focus.
+
+Change angle.
+
+Reach.
+
+I did none of them.
+
+The end cue came.
+
+I stopped.
+
+The paper had not moved.
+
+Hessa checked anyway.
+
+Board.
+
+Square.
+
+Thread.
+
+Window.
+
+Floor.
+
+Me.
+
+She crouched to inspect the paper edge from the side.
+
+Then stood.
+
+"No observed response at far."
+
+There it was.
+
+The sentence I had come for.
+
+Not the sentence I wanted.
+
+The sentence I came for.
+
+I sat back.
+
+"Far is tested."
+
+"Once."
+
+"Far is tested once."
+
+"Yes."
+
+"No response."
+
+"Correct."
+
+"Can we say far does not work?"
+
+"No."
+
+"I know."
+
+"Then why ask?"
+
+"Grief requires ritual."
+
+Hessa ignored that.
+
+"Can we say distance reduced response today?" I asked.
+
+"No."
+
+"Near responded. Middle did not. Far did not."
+
+"Three attempts at three positions in one session do not establish a distance-response relationship."
+
+"Can we say near was the only position with observed response today?"
+
+"Yes."
+
+"Can we say far is no longer untested?"
+
+"Yes."
+
+That helped more than it should have.
+
+Untested had become one no-response attempt.
+
+Small information.
+
+Real information.
+
+I looked at the far mark.
+
+"Again next time?"
+
+"Not selected."
+
+"Middle?"
+
+"Not selected."
+
+"Near?"
+
+"Not selected."
+
+"Different object?"
+
+"Not selected."
+
+"You have a rich vocabulary."
+
+"Body."
+
+She checked everything again.
+
+Hands warm but ordinary.
+
+No tingling.
+
+No weakness.
+
+No pain.
+
+Forearm normal.
+
+Pulse settling.
+
+Shoulders fine.
+
+Right leg fine.
+
+Residual limb comfortable.
+
+"Totals?" I asked.
+
+"Thirty-six supervised minimal draws. Thirty-two deliberate shaping attempts. Seventy-two supervised external-effect attempts."
+
+"Near today one clean in one."
+
+"Yes."
+
+"Middle today zero in one."
+
+"Yes."
+
+"Far today zero in one."
+
+"Yes."
+
+"Aggregate near?"
+
+"Two observed clean responses in four attempts at the established near position."
+
+"Middle?"
+
+"One observed clean net displacement in six attempts at the established middle position, plus one prior possible edge-lift event."
+
+"Far?"
+
+"Zero observed responses in one attempt."
+
+I repeated it quietly.
+
+Two in four.
+
+One in six, plus possible.
+
+Zero in one.
+
+That pattern looked like a story.
+
+Hessa saw my face.
+
+"Do not turn three small samples into a law."
+
+"I was about to."
+
+"I know."
+
+"It is a very attractive law."
+
+"Still no."
+
+"Fine."
+
+She closed the notebook.
+
+"Restrictions outside supervised sessions remain unchanged."
+
+"No independent draw."
+
+"Correct."
+
+"No independent shaping."
+
+"Correct."
+
+"No independent external attempts."
+
+"Correct."
+
+"No testing kessa jumpers."
+
+Hessa looked at me.
+
+"What?"
+
+"Nothing."
+
+"Greg."
+
+"Local seed insects. Not relevant. No test."
+
+She stared.
+
+"Leave."
+
+"That is probably safest."
+
+I collected the crutches.
+
+Before standing, I looked at the far mark one more time.
+
+It had changed without changing.
+
+Same paint.
+
+Same distance.
+
+Different status.
+
+I stood.
+
+Right foot under.
+
+Push through the chair arm.
+
+Both crutches set.
+
+Easy.
+
+At the door I stopped.
+
+"Hessa."
+
+"What?"
+
+"Thank you."
+
+She looked annoyed by the possibility of sincerity.
+
+"You asked a useful question."
+
+"That was almost worse."
+
+"Leave."
+
+I left.
+
+Outside, the Guild yard continued not caring that the far mark had changed category in my life.
+
+A porter rolled a crate.
+
+Somebody dropped a bundle of cord.
+
+The woman in the blue sash was still arguing about seal wax, which suggested either dedication or a terrible price.
+
+I walked home.
+
+I did not stop at the kessa tray.
+
+I did not inspect a high line.
+
+I did not look for Nemi's court.
+
+I did not pass Cooper Lane to see whether a chair was open.
+
+Not because those things had stopped mattering.
+
+Because today I already had enough.
+
+At home, Cala looked at me.
+
+"Magic?"
+
+"Yes."
+
+Lyssa came down from upstairs.
+
+"Good?"
+
+I considered.
+
+"Useful."
+
+That was Hessa's word.
+
+I hated that it fit.
+
+"Near moved," I said. "Middle did not. Far did not."
+
+Lyssa paused.
+
+"Far?"
+
+"Far. First test."
+
+She smiled.
+
+Not because it moved.
+
+Because I had finally gotten to try.
+
+That felt better than celebration would have.
+
+Cala said, "Body?"
+
+"Fine."
+
+She nodded.
+
+Correct priority.
+
+Tavi entered holding the cup.
+
+I pointed at him.
+
+"Do not."
+
+He hit the cup with one spoon.
+
+"Door red."
+
+Magic had advanced.
+
+Civilization had not.
+
+Upstairs, the three copper remained where I had left them.
+
+The three clean sheets remained clean.
+
+I took out the narrow scrap and charcoal.
+
+This time I wrote.
+
+Not because everything interesting deserved a record.
+
+Because this was a controlled test and numbers were better when they did not rely on my mood.
+
+`70 NEAR: CLEAN SMALL AWAY.`
+
+`71 MIDDLE: NO OBSERVED RESPONSE.`
+
+`72 FAR: FIRST TEST. NO OBSERVED RESPONSE.`
+
+Then:
+
+`TOTALS: 36 / 32 / 72.`
+
+Below that I wrote:
+
+`NEAR 2/4 CLEAN.`
+
+`MIDDLE 1/6 CLEAN + 1 POSSIBLE EDGE LIFT.`
+
+`FAR 0/1.`
+
+I stared at the last line.
+
+Zero in one.
+
+It was almost nothing.
+
+It was also more than untested.
+
+I did not write a theory underneath it.
+
+The number also made the next temptation obvious.
+
+One more attempt would feel reasonable.
+
+Then another.
+
+A zero could always be blamed on one bad moment until I had spent the whole afternoon trying to bully uncertainty into becoming an answer.
+
+That had been Old Greg's favorite kind of stupidity. He could survive enough repetition to mistake endurance for method.
+
+This body did not owe me that luxury.
+
+Hessa had given me one far attempt because one far attempt was the protocol.
+
+I had stopped because the attempt ended.
+
+The paper had stayed still.
+
+Nothing about wanting a cleaner result changed any of those facts.
+
+That was not surrender.
+
+It was the difference between testing a thing and fighting it.
+
+For once, the far mark did not need to be a promise.
+
+It could be one failed attempt.
+
+That was enough to make it real.

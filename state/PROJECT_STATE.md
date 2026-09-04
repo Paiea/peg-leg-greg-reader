@@ -134,7 +134,7 @@ Permanent forward path:
 
 Do NOT create a new range-stamped running manuscript for each forward chapter/pass.
 
-Current recorded story endpoint is Chapter 248 — **THE CONSTANT**. Always verify `MANUSCRIPT_STATE.md` / running manuscript before using this number if newer work exists.
+Current recorded story endpoint is Chapter 251 — **THE CONSTANT**. Always verify `MANUSCRIPT_STATE.md` / running manuscript before using this number if newer work exists.
 
 Repository exact-text availability:
 - illustrated/static prose through Chapter 155 — **THE LEAK**
@@ -188,8 +188,8 @@ Recent manuscript-first social archaeology has now established and integrated th
    - one Chapter-217 referral is established narrowly; broader referral business is not.
    - Maren remains a separate lighter supply node: **Marra ≠ Maren**.
    - most unnamed customer/material chains remain passive history.
-   - Chapter 229 validates the policy directly: Greg reaches Marra's automatically, stays out of the work lane without instruction, Marra still calls him `the road one`, Jessa understands marks/shorthand he does not, and a customer asks for Lyssa independently.
-   - Story Control may analytically call this a network/work ecology, but Chapter 229 usefully has Lyssa resist Greg turning ordinary relationships into a formal `network` abstraction. Do not make prose explain the development system.
+   - Chapter 232 validates the policy directly: Greg reaches Marra's automatically, stays out of the work lane without instruction, Marra still calls him `the road one`, Jessa understands marks/shorthand he does not, and a customer asks for Lyssa independently.
+   - Story Control may analytically call this a network/work ecology, but Chapter 232 usefully has Lyssa resist Greg turning ordinary relationships into a formal `network` abstraction. Do not make prose explain the development system.
 
 2. **Jori / Davin**
    - established secondary workplace relationship.
@@ -201,8 +201,8 @@ Recent manuscript-first social archaeology has now established and integrated th
 3. **Nessa / Marek**
    - established secondary workplace relationship, narrower and more object/costume-centered than Jori/Davin.
    - specific object/costume history changes custody/correction; Marek's object engagement can create downstream work **or useful information**; Nessa responds to the material consequence.
-   - Chapter 222 umbrella/property-table history and Chapter 225 painted-cup handling establish real downstream object work and compressed correction.
-   - Chapter 228 prevents flattening: Marek's borrowed flower spray reveals a real doorway-route problem and Nessa converts that discovery into `Sideways through the door, upright after`.
+   - Chapter 225 umbrella/property-table history and Chapter 228 painted-cup handling establish real downstream object work and compressed correction.
+   - Chapter 231 prevents flattening: Marek's borrowed flower spray reveals a real doorway-route problem and Nessa converts that discovery into `Sideways through the door, upright after`.
    - do not flatten Nessa into Marek's keeper/prop cop or Marek into permanent liability/idiot.
    - friendship, rivalry, romance, hierarchy, general distrust, permanent discipline, and motive remain unestablished.
 
@@ -212,7 +212,7 @@ Recent manuscript-first social archaeology has now established and integrated th
 
 Do not automatically open another relationship archaeology queue merely because Hara/Pell/Marek, Nessa/Jori, or another pairing remains interesting.
 
-The last several cycles recovered enough hidden social infrastructure to materially improve the project brain, and Chapter 229 immediately demonstrated that 01 can use it naturally without a development lane forcing the callback.
+The last several cycles recovered enough hidden social infrastructure to materially improve the project brain, and Chapter 232 immediately demonstrated that 01 can use it naturally without a development lane forcing the callback.
 
 The next 02/03 cycle should begin from **new manuscript pressure**, not from a desire to consume the cast systematically.
 

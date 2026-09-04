@@ -1,969 +1,1595 @@
 # CHAPTER 282
 
-## THE SCENE PARTNER
+## THE FINDER
 
-Lenn came for me after breakfast and ruined a perfectly good theory.
+The first thing I found was not valuable.
 
-I had been sitting by the window with the ugly capital page folded under my bowl because apparently I could now make bread taste like bookkeeping by proximity alone.
+This made it an excellent beginning.
 
-Lyssa had already left.
+I was buying cabbage.
 
-Her work bag was gone.
+Not searching for opportunity.
 
-Lenn knocked once, opened the door after I called, and said, "Theatre."
+Not scouting inventory.
 
-I put the last piece of bread in my mouth.
+Not building capital.
 
-"Who is missing?"
+Cabbage.
 
-"No one."
+The woman selling it had six heads on a low board, three good, two small, one split down the side where something had bruised it before market.
 
-I stopped chewing.
+I picked one of the good ones.
 
-Lenn waited.
+She named the price.
 
-I swallowed.
+I paid.
 
-"Who is hurt?"
+Commerce had been completed successfully.
 
-"No one."
+Then the man at the next stall swore.
 
-"Late?"
+Not ordinary swearing.
 
-"No."
+Specific swearing.
 
-"Drunk?"
+"Again?"
 
-"Not yet."
+I looked over.
 
-"Then why are you here?"
+His stall held lengths of cord, bundled netting, cork floats, bone needles, and little wooden winding blocks. I had seen him before without learning his name.
 
-"Teren asked for you."
+Today he was holding a coil of pale waxed line away from his body like it smelled worse than it did.
 
-That was worse.
+A small black insect clicked on the table.
 
-I looked at the folded page under my bowl.
+Copper stripe.
 
-Lenn followed my eyes.
+Six legs.
 
-"Is that money?"
+Copperback.
 
-"No."
+I stopped.
 
-"Looks like money."
+The cabbage woman saw me stop.
 
-"It is paper."
+"Don't."
 
-"Rinna says paper becomes money if you make people sign the right part."
+"I haven't done anything."
 
-"Please leave my house."
+"You have a face."
 
-"You have to come with me."
+Apparently Lyssa had trained the whole city.
 
-I checked the repaired right shoe before standing. Heel flat. No sound. The left crutch tip was good. Right grip wrap still tight under my palm.
+The cord seller crushed the insect under the heel of a wooden block.
 
-No Hessa note.
+Then he unwound two handspans of line and found a roughened patch where the waxed fibers had been disturbed.
 
-No client.
+"Damn things," he said.
 
-No half-chair.
+"Tin," I said before deciding whether to.
 
-No obvious reason Teren would ask for me by name.
-
-I disliked unexplained competence almost as much as unexplained danger.
-
-"Ordinary rehearsal pay?" I asked.
-
-"Yes."
-
-"For what?"
-
-"Scene partner."
-
-I stared at her.
-
-"That is suspiciously specific."
-
-"He was specific."
-
-"Which scene?"
-
-"Several."
-
-"Whose?"
-
-"Pavin's."
-
-That name landed a little differently.
-
-The Masked Guest.
-
-The man whose role I had worn for one house because he had not been there.
-
-His absence had not been my problem then.
-
-It was still not my problem now.
-
-"He's back?"
-
-Lenn looked at me.
-
-Apparently that had been a stupid question.
-
-"Yes."
-
-"Do I ask why he was gone?"
-
-"No."
-
-"Excellent. I am learning theatre."
-
-We went.
-
-The city had decided to be warm without becoming cruel about it. Shop awnings were out, the lane stones were dry, and a woman at the corner was pouring wash water into the gutter around a sleeping dog that refused to move for civilization.
-
-I kept both hands on the crutches and let Lenn carry the narrow packet of pages she had brought.
-
-This was not pride.
-
-This was geometry.
-
-Pages were light until you needed two crutches and a door.
-
-At the theatre, nobody was running.
-
-That remained unsettling.
-
-Rinna stood at the long worktable near the side passage with three payment slips, a chipped cup, and a pile of thread that did not belong to her.
-
-She took one look at me.
-
-"Good."
-
-"Explain."
-
-"Teren needs a body and a voice for Pavin's catch-up."
-
-"That sounds less flattering than Lenn made it sound."
-
-"Lenn said scene partner."
-
-"Exactly."
-
-Rinna pushed a folded page toward me.
-
-"Three scenes. You read everyone opposite Pavin unless Teren tells you otherwise. You move where he tells you. You do not learn the role for performance. You are not replacing anyone."
-
-I picked up the page.
-
-There were enough names on it to prove she meant the last part.
-
-"Why me?"
-
-"Available."
-
-I waited.
-
-Rinna kept sorting slips.
-
-"That is the entire answer?"
-
-"You also reset without arguing as much as Marek."
-
-"That is not praise."
-
-"It was not meant as praise."
-
-There it was.
-
-A usable reason.
-
-Availability and tolerable reset behavior.
-
-My professional rise continued at breathtaking speed.
-
-"Ordinary rehearsal pay?"
-
-"Already told you."
-
-"Lenn told me. I trust you differently."
-
-Rinna looked up.
-
-"Ordinary rehearsal pay."
-
-"Done."
-
-Rinna said, "Don't lose the pages."
-
-"I have never lost theatre pages."
-
-"You left three under a bench in spring."
-
-"They were waiting."
-
-"Upstairs."
-
-I went before she found older evidence.
-
-The small rehearsal room had one tall window, six mismatched chairs, chalk marks on the floor, and a table that had been repaired so many times its original wood might have been a rumor.
-
-Teren stood by the window reading pages.
-
-Pavin sat sideways in one chair with one ankle over the opposite knee.
-
-I knew him immediately, mostly because I had expected someone stranger.
-
-He was ordinary.
-
-Late twenties, maybe. Lean. Long brown hair tied low at the neck. A narrow nose that had been broken once or wanted people to think it had. Plain gray rehearsal clothes. No mask. No mysterious scar shaped like a prophecy.
-
-He looked at my crutches first.
-
-Then my face.
-
-Then at Teren.
-
-"This him?"
-
-Teren said, "Greg."
-
-Pavin nodded.
-
-"You wore the Guest."
-
-"One house."
-
-"Did you sweat in the mask?"
-
-"No."
-
-"Good."
-
-That was apparently the interview.
-
-I leaned my crutches against the chair Teren indicated and sat.
-
-"I was told you hated it."
-
-Pavin looked at me.
-
-"Who said?"
-
-"Marek."
-
-"Marek likes objects more if someone else dislikes them."
-
-That was not an answer.
-
-I left it alone.
-
-Teren handed me a thicker packet.
-
-"You're Elia, Corven, the servant, and whoever else speaks to him. Don't make four characters. Give him the lines."
-
-"That seems easy."
-
-"It will not remain easy."
-
-Pavin smiled without warmth or hostility.
-
-"He says that when he wants you to fail early."
-
-Teren said, "Page twelve."
-
-We began.
-
-The play was not The Last Lantern.
-
-It was a revival of something called The Blue Window, which I had apparently managed not to see despite living in a theatre's orbit for months.
-
-Pavin played a man named Serrin who had spent most of the first act lying to his sister, his employer, and himself in slightly different ways.
-
-I read the sister.
-
-Then the employer.
-
-Then a servant whose entire contribution was bringing a coat into the room and refusing to leave quickly enough.
-
-Teren had said not to make four characters.
-
-I obeyed for perhaps forty seconds.
-
-Then I gave Elia a lower voice because Pavin's next line sounded better against it.
-
-Teren stopped us.
-
-"No."
-
-I looked up.
+He looked at me.
 
 "What?"
 
-"Your voice."
+I had old-life knowledge.
 
-"I have one."
+I also had Pera's local corroboration, Nessa's story from Orin's shed, and Savin's decision to move treated thread into metal after we found one in his shop.
 
-"Use it."
+This was not a leap.
 
-"Pavin has one too."
+Still, I corrected the shape of the claim before it left me.
 
-"Yes."
+"I've seen people move waxed or treated fiber into metal tins after finding copperbacks. I know they damage that kind of fiber. I don't know if tin keeps them out or just makes storage easier to inspect."
 
-Pavin rubbed one eye.
+The seller stared at me.
 
-Teren pointed at the page.
-
-"You're not helping the audience. There is no audience. Give him the line where it belongs."
-
-I looked at the words.
-
-"I thought contrast would help."
-
-"It helped you."
-
-That was irritatingly precise.
-
-We started again.
-
-I used my own voice.
-
-That created a different problem.
-
-Without little character tricks, I flattened everything.
-
-Question.
-
-Answer.
-
-Prompt.
-
-Answer.
-
-Pavin stopped on his own.
-
-"Are you angry at me?"
+"You sell tins?"
 
 "No."
 
-"You sound angry."
+"Then why are you telling me?"
 
-"I am reading."
+"Because you looked unhappy."
 
-"You read like a tax notice."
+"I am unhappy."
 
-"I have never received a tax notice."
+"Good diagnosis."
 
-"You have the soul for it."
+The cabbage woman snorted.
 
-Teren said, "Again. Greg, don't act the parts. Don't kill them either."
+The seller looked down at the damaged line.
 
-"Useful middle."
-
-"You'll find it."
-
-We went again.
-
-This time I listened to what Pavin was actually doing.
-
-He was good.
-
-Annoyingly good in a way that did not announce itself.
-
-He did not make Serrin sound clever on every line, even though the lines invited it. He hesitated in one place where the text had no hesitation. He rushed another sentence because the character wanted to get past it. When I read Elia's accusation, he did not react at the accusation. He reacted half a line later, when she mentioned the window.
-
-I almost missed my next line watching him.
-
-Teren stopped us.
-
-"Pavin."
-
-"What?"
-
-"Don't wait for him."
-
-"I didn't."
-
-"You did."
-
-Pavin looked at me.
-
-I had expected the correction to belong to me.
-
-That expectation was apparently visible because Teren said, "You are not the only person rehearsing."
-
-"I didn't say anything."
-
-"Your face did."
-
-Pavin leaned back.
-
-"Mask would fix that."
-
-I looked at him.
-
-There he was.
-
-Not friendly.
-
-Not hostile.
-
-Alive enough to be annoying.
-
-We ran the scene again.
-
-My job became stranger the more I understood it.
-
-I was not supposed to perform four roles.
-
-I was not supposed to become blank paper either.
-
-Pavin needed timing, direction, pressure, interruptions, and enough human response that he was playing a scene instead of reciting into furniture.
-
-But if I made the rehearsal about my choices, I changed the problem Teren was trying to solve.
-
-There was a narrow useful space in between.
-
-I found it.
-
-Then lost it.
-
-Then found a different part.
-
-On the third run I anticipated Pavin's pause and came in too early.
-
-He stopped.
-
-"Let me have that."
-
-"Have what?"
-
-"The pause."
-
-"You stopped talking."
+"Pera uses tins."
 
 "Yes."
 
-"I thought that was my cue."
+His eyes came back to me.
 
-Teren tapped the line with one finger.
+"You know Pera?"
 
-"That pause is his. Come after he looks back at Elia."
+"A little."
 
-Specific.
+"She charges too much."
 
-Annoying.
+"For tins?"
 
-Useful.
+"For everything."
 
-Again.
+That sounded like a relationship I did not need to enter.
 
-This time Pavin reached the line and stopped. He looked away from me, held the pause, then looked back.
+I adjusted the cabbage under my arm.
 
-I waited.
+"Then I have reached the end of my expertise."
 
-He spoke.
+I started to leave.
 
-My line arrived after.
+"Wait."
 
-The scene had more room in it.
+I stopped.
 
-On the next page I tried to be respectful again and waited too long.
+He held up the coil.
 
-Pavin stared at me.
+"You know if this is ruined?"
 
-"Now."
+"No."
 
-"I thought there was another pause."
+"You just said they damage it."
 
-"There isn't."
+"That is different from knowing how much damage makes your line unusable."
 
-Teren turned away, which I suspected was laughter.
+"You use line?"
 
-We broke after the first scene.
+"Not professionally."
 
-Someone had left a pitcher of water outside the room. Pavin drank first, then handed the cup to me without asking whether I wanted it.
+"Then who knows?"
 
-I did.
+Pera, probably.
 
-He sat on the floor instead of taking his chair again.
+Maybe net makers.
 
-I stayed seated because getting down there for atmosphere would have been stupid.
+Maybe whoever bought his cord.
 
-For a minute nobody spoke.
+I could say a name.
 
-Then Pavin said, "How was the Guest?"
+Jori's voice appeared in my head.
 
-"The role or the mask?"
+You know people. You know things. Sometimes those two facts become useful together. Usually they become gossip. Learn the difference.
 
-"Role."
+The man had asked who knew.
 
-"Seven lines. Mostly sitting. Good work."
+That was not yet a job.
 
-He nodded.
+"Pera might," I said. "She works near the west dye steps with cord and net repair. You already know her."
 
-"Mask?"
+His mouth twisted.
 
-"Excellent. Horrible."
+"She'll tell me to throw half of it away."
 
-Another nod.
+"Maybe half of it should be thrown away."
 
-"Sivi tell you not to help it?"
+"Easy for you."
 
-"Marek and Hara did."
+"Very. I do not own it."
 
-"Of course."
+The cabbage woman laughed openly now.
 
-"You do help it?"
+The seller looked at me for another second.
 
-Pavin looked at the water cup.
+"Name?"
 
-"First time."
+"Greg."
 
-That was all.
+"I'm Sallo."
 
-No confession about why he hated it.
+There.
 
-No explanation of where he had been.
+A person.
 
-No sacred transfer of theatrical wisdom from the true Masked Guest to the temporary one.
+Not a lead.
 
-He drank again.
+I nodded.
 
-Then said, "You hit Marek's chair?"
+"Good luck, Sallo."
 
-I stared at him.
+"You want the bad line?"
 
-"Who told you?"
+I looked at the coil.
 
-"Marek."
+"Why?"
 
-"That man is disease."
+"You like broken things."
 
-"Yes."
+This city was becoming slanderous.
 
-Teren returned to the pages.
+"Who told you that?"
 
-"Second scene."
+"Kes."
 
-The second scene required movement.
-
-Not much.
-
-A chair, a door mark, and a table.
-
-Teren moved the real furniture until the rehearsal room barely resembled its usual shape. Pavin had to enter, cross behind the table, remove his coat, refuse a chair, then eventually sit in it after spending half the scene insisting he would leave.
-
-My roles stood in three different places.
-
-This created a practical problem.
-
-I had one body.
-
-Teren solved it by putting a chair at one mark and telling me to read Elia from there, then stand and shift to the table when I became Corven.
-
-"Crutches?"
-
-"Use them."
-
-"Every change?"
-
-"Yes."
-
-"That slows the handoff."
-
-"Then the handoff is slow."
-
-Simple.
-
-We started.
-
-I read Elia.
-
-Pavin entered.
-
-He crossed.
-
-I changed to Corven and stood.
-
-The first time I tried to move too quickly, my right crutch landed half on a chalk line and half off it. Nothing dangerous happened. The tip held. I corrected and arrived at the table late enough that Pavin had to wait for the line.
-
-Teren stopped us.
-
-"Again. Greg moves first."
-
-I looked at the page.
-
-"My line is after his."
-
-"Your body isn't."
-
-That was theatre.
-
-I needed to begin the physical change while Pavin finished the line so I could be in place when the next voice entered.
-
-Not rush.
-
-Not teleport.
-
-Start earlier.
-
-We reset.
-
-This time I shifted my weight, took the crutches, and moved while Pavin finished speaking. My line arrived after I had settled by the table.
-
-Better.
-
-Then Pavin missed the chair.
-
-Not fully.
-
-He turned to sit while arguing, caught the edge with the back of his thigh, and had to grab the table.
-
-I reacted before thinking.
-
-"You good?"
-
-He stood.
-
-"Yes."
-
-Teren said, "Again."
-
-Pavin looked at the chair.
-
-"It moved."
-
-I almost defended the chair.
-
-Then I remembered Rell.
-
-"Not magically."
-
-Pavin looked at me.
-
-"What?"
-
-"Nothing."
-
-Teren crouched, checked the chalk marks, and moved the chair two inches.
-
-"Nessa marked from the front leg. You were finding the back."
-
-Pavin nodded.
-
-No shame.
-
-No joke.
-
-Just changed information.
-
-We reset again.
-
-That run worked.
-
-The next failed because I forgot which side of the table Corven occupied.
-
-Then Pavin rushed the coat business.
-
-Then I read a line from the wrong character and accidentally made the servant accuse Serrin of adultery.
-
-Pavin stared at me.
-
-Teren stared at me.
-
-I checked the page.
-
-"That is Elia."
-
-"Yes," Teren said.
-
-"The servant has stronger opinions in my version."
-
-Pavin laughed.
-
-Not politely.
-
-Actual laughter, sharp and brief.
-
-The room loosened.
-
-We started from the coat.
-
-By midday we had run three scenes enough times that I no longer thought of the job as reading.
-
-It was support work for acting.
-
-That sounded dangerously like an abstraction, so I did not write it anywhere.
-
-I also understood why Rinna had called me.
-
-I was available, I could read, I knew enough stage language to move on a note, and when Teren said again, I usually went again.
-
-Nothing grander was required.
-
-At the break, Marek appeared with two meat pies and no explanation.
-
-He gave one to Pavin and kept the other.
-
-I looked at Marek.
-
-Marek looked at me.
-
-"Where is mine?"
-
-"You aren't in this play."
-
-"I am currently in this room."
-
-"Not the same thing."
-
-Pavin tore his pie in half and handed me part.
-
-Marek looked offended.
-
-"I bought that."
-
-Pavin took a bite from his half.
-
-"He has to survive page thirty-eight."
-
-I accepted this medical judgment and ate.
-
-We talked about nothing important.
-
-A hinge on the east dressing-room door was squeaking again.
-
-Hara had lost a blue ribbon and accused nobody while clearly suspecting everyone.
-
-Sivi had refused to let Marek borrow one of her lamp cloths for something involving polish.
-
-Pavin had apparently been back long enough that nobody treated him like a returned prince.
-
-He was simply there.
-
-That was useful information too.
-
-Not why he had been gone.
-
-Just that the theatre had kept moving and then made space when he returned.
-
-After food, Teren made us run the first scene once more.
-
-It was worse.
-
-Pavin stumbled over a line he had not missed all morning.
-
-I anticipated him.
-
-He corrected.
-
-I corrected my correction.
-
-We produced a conversational corpse.
-
-Teren stopped us.
-
-"Enough."
-
-I waited for another note.
-
-He closed the pages.
-
-"That's the note."
-
-Pavin stood.
-
-"We're worse."
-
-"Yes."
-
-"Tomorrow?"
-
-"With Hara."
-
-Pavin nodded.
-
-That meant I was done.
-
-No invitation.
-
-No extra scene.
-
-No sudden casting.
-
-I felt a small, stupid disappointment anyway.
-
-Teren looked at me.
-
-"Rinna has your pay."
-
-"Am I bad enough to be finished or good enough?"
-
-"Finished."
-
-"Very clarifying."
-
-"You gave him something to work against."
-
-That was closer to praise than Teren usually bothered with.
-
-Then he added, "You also taught the servant about adultery."
-
-Pavin laughed again.
-
-There went the dignity.
-
-I collected my crutches.
-
-At the door, Teren said, "Greg."
-
-I turned.
-
-"If Rinna asks you for rehearsal partner work again, ask what kind before you agree. Reading seated is one job. Blocking three people is another."
-
-There it was.
-
-Not a promotion.
-
-A scope problem.
-
-My brain immediately reached for the ugly page.
-
-I hated that page.
-
-"Different work," I said.
-
-"Yes."
-
-"Different pay?"
-
-Teren shrugged.
-
-"Ask Rinna."
+I closed my eyes.
 
 Of course.
 
-No universal rule.
+"I have spoken to Kes twice."
 
-Only another question.
+"Enough."
 
-I left before I could build a system in the rehearsal room.
+"No. I do not want insect-damaged line."
 
-Rinna paid me ordinary rehearsal money downstairs.
+"Cheap."
 
-I did not negotiate retroactively.
+"Still no."
 
-I did ask, "If the next scene-partner job includes blocking multiple people, is that still ordinary rehearsal pay?"
+"Free."
 
-She looked at me for a long second.
+That was more dangerous.
 
-"Depends how much you are doing."
+I looked at the coil again.
 
-"So ask before."
+Waxed pale cord.
 
-"Yes."
+Rough patch.
 
-"Good."
+Unknown deeper damage.
 
-"Are you becoming difficult?"
+Potential copperback contamination.
 
-"I am trying to become accurately difficult."
+No immediate use.
 
-"Do it somewhere else."
+No buyer.
 
-Lenn was not there to collect a referral fee.
+No agreement with anyone to find damaged line.
 
-No one mentioned Rell.
-
-The theatre did not care about my two private copper.
-
-It had its own economy, its own missing ribbons, its own bad hinge, its own people returning without giving me explanations.
-
-I liked that.
-
-On the walk home, my shoulders were tired in the ordinary way that came from several hours of sitting, standing, shifting, and carrying my whole movement system between marks.
-
-My right leg felt worked but fine.
-
-Residual limb comfortable.
-
-The repaired shoe held.
-
-At one corner I stopped for a handcart whose driver was arguing with a small flock of gray birds occupying the street.
-
-The birds ignored him.
-
-A girl from a fruit stall stepped out, scattered something from her palm toward the gutter, and the entire flock moved after it.
-
-The cart driver went through.
-
-Nobody applauded.
-
-Nobody hired me to identify the birds.
-
-I did not know what they were.
-
-Carrow survived.
-
-At home, Lyssa had returned before me.
-
-She was sitting by the window with one stocking off and a needle between her lips, repairing a small tear near the ankle.
-
-"Theatre," she said around the needle.
-
-"Rehearsal."
-
-"Play?"
-
-"Not in it."
-
-She pulled the needle free.
-
-"Then what?"
-
-"Scene partner."
-
-She considered this.
-
-"You kiss?"
+No reason to bring possible insects into our apartment unless I wanted Lyssa to kill me with the cabbage.
 
 "No."
 
-"Bad scene."
+Sallo looked genuinely surprised.
 
-"It was mostly lying and family damage."
+I felt proud.
+
+Then the cabbage woman said, "Learning."
+
+I left before she could become my second appraiser.
+
+The cabbage was for the household.
+
+I took it home.
+
+That mattered because carrying cabbage while using two crutches was possible but annoying. I wedged it into a cloth sling against my right side, kept both hands available for the grips, and walked slower than dignity preferred.
+
+No magical solution.
+
+No heroic balance.
+
+Just cabbage pressing into my ribs for three streets.
+
+Cala was in the courtyard when I arrived.
+
+She looked at the sling.
+
+"Baby?"
+
+"Cabbage."
+
+"Ugly baby."
+
+"Takes after me."
+
+She took the cabbage without asking and carried it upstairs.
+
+I let her.
+
+This was also evidence of maturity.
+
+I followed at my own speed.
+
+Inside, Lyssa had left already.
+
+A note on the table said:
+
+`BACK LATE. EAT.`
+
+No explanation.
+
+None required.
+
+I put the cabbage near the other food and sat for a while because my right side was tired from the sling pressing against me and because sitting was free.
+
+The clasp entered my thoughts.
+
+I told it to leave.
+
+It did not.
+
+I had not checked Kes's cabinet yesterday.
+
+I had not checked this morning.
+
+This was becoming less like restraint and more like a private contest with furniture I could not see.
+
+I won again.
+
+Mostly because I had cabbage responsibilities.
+
+Around midday, someone knocked.
+
+Not a Hessa knock.
+
+I did not actually know what a Hessa knock was, but I had developed categories anyway.
+
+I opened the door.
+
+Mara stood there with flour on one sleeve and a folded piece of paper in her hand.
+
+"Nerin?" I asked.
+
+"No."
+
+"Theatre?"
+
+"Why would I bring theatre?"
+
+"People keep doing things to me."
+
+"This is your fault."
+
+She held out the paper.
+
+I did not take it yet.
+
+"What is it?"
+
+"Question."
+
+"Paid question?"
+
+Mara smiled.
+
+"You are different this week."
+
+"Jori charged me two copper. I have been spiritually injured."
+
+"Not paid yet."
+
+"Then dangerous."
+
+She leaned against the doorframe.
+
+"Woman at the bakery this morning asked if I knew anyone who could identify old road gear."
+
+I stared at her.
+
+"Why would you say me?"
+
+"I didn't."
+
+Good.
+
+"I said I knew someone who sometimes knew old things and sometimes didn't."
+
+Less good.
+
+"That is fair."
+
+"She wants to know if this mark means anything."
+
+Mara unfolded the paper.
+
+A charcoal rubbing covered the center.
+
+Not a picture of an object.
+
+A mark.
+
+Oval border.
+
+Three short vertical bars inside.
+
+A hooked line under them.
+
+I knew it.
+
+Immediately.
+
+That was the problem.
+
+My old life supplied the answer so quickly that I distrusted it on principle.
+
+I looked longer.
+
+Three bars.
+
+Hook.
+
+Oval.
+
+The lower hook bent left, not right.
+
+"Where is the object?"
+
+"Her house."
+
+"What object?"
+
+"Metal frame. About this long."
+
+Mara held her hands apart roughly the length of my forearm.
+
+"She said road gear."
+
+"She said she thinks road gear."
+
+"Difference."
+
+"Yes."
+
+I looked at the rubbing again.
+
+In my old life, that mark had belonged to a family of load braces used on pack frames and light carts. Not a maker exactly. More like a compatibility mark for a standardized tension system.
+
+Three bars with left hook meant third-width anchor.
+
+I remembered soldiers arguing about them because right-hook fittings looked nearly identical and did not seat safely.
+
+Maybe.
+
+No.
+
+I remembered the argument clearly.
+
+The mark clearly.
+
+The application less clearly.
+
+"I know the mark from my old life," I said.
+
+Mara's face sharpened.
+
+"What?"
+
+"I think it marks a fitting size for a load-brace system. Third width. Left-hook pattern. Pack frames or light carts. Something that takes a tension arm or strap fitting."
+
+"Worth money?"
+
+"I have no idea."
+
+"Useful?"
+
+"Maybe if the rest exists."
+
+"She has a box."
+
+Of course she had a box.
+
+"Of pieces?"
+
+"Yes."
+
+"How many?"
+
+"I didn't count."
+
+"Good."
+
+"Why good?"
+
+"Because if you had counted, I would start pretending this was organized."
+
+Mara folded the rubbing halfway.
+
+"She wants someone to look."
+
+There it was.
+
+A real request.
+
+Not mine.
+
+Not invented.
+
+"Who is she?"
+
+"Halei. Buys bread twice a week. Her brother cleared a storage room after their aunt died. Box came from there."
+
+Estate goods.
+
+Old road gear.
+
+A mark I recognized.
+
+My pulse did something stupid.
+
+Not the clasp.
+
+This was not the clasp.
+
+Important.
+
+"What does she want from me? Identification? Value? Buyer?"
+
+Mara shrugged.
+
+"She asked what it is. Then if it is worth keeping."
+
+"Those are different questions."
+
+"Tell her."
+
+"Where?"
+
+Mara gave me an address two lanes north of the old fountain, in a narrow row I knew by sight but not by residents.
+
+"Today?"
+
+"She said afternoon if you want."
+
+"Fee?"
+
+Mara grinned.
+
+"You ask her."
+
+Jori had infected Mara too.
+
+"Did you promise anything?"
+
+"No."
+
+"Did you tell her I would come?"
+
+"I said I would ask."
+
+Good.
+
+Independent people making bounded commitments.
+
+Beautiful.
+
+"Tell her I can look for one copper if she only wants what I recognize and what I don't. No valuation. No guarantee. If she wants more after that, we agree separately."
+
+Mara's eyebrows rose.
+
+"One copper?"
+
+I almost changed it.
+
+Too low?
+
+Too high?
+
+I had no market rate.
+
+I was not Jori.
+
+I had no stamp.
+
+But Halei had a question I might answer, and one copper was enough to make the work explicit without pretending my opinion carried certified value.
+
+"One copper," I said. "Only if she agrees before I go."
+
+Mara nodded slowly.
+
+"I'll tell her."
+
+"And if she says no, no problem."
+
+"You really are different."
+
+"I paid for this personality change."
+
+She left.
+
+I shut the door.
+
+Then I sat down again.
+
+I had quoted a fee.
+
+One copper.
+
+For an answer.
+
+Not a shift.
+
+Not a crate.
+
+Not standing at a door.
+
+That felt much larger than one copper should.
+
+I immediately distrusted the feeling.
+
+Halei might say no.
+
+The mark might not mean what I remembered.
+
+The box might contain broken trash.
+
+Even if I identified every piece correctly, I still did not know current Carrow value.
+
+I was not an appraiser.
+
+I wrote that on the ugly paper.
+
+`NOT AN APPRAISER.`
+
+Then below it:
+
+`ONE COPPER = IDENTIFICATION ATTEMPT ONLY.`
+
+The page was becoming useful because it insulted me.
+
+Mara returned less than an hour later.
+
+She did not come upstairs.
+
+She shouted from the courtyard.
+
+"GREG!"
+
+I went to the window.
+
+"WHAT?"
+
+"SHE SAID YES!"
+
+"WHY ARE WE YELLING?"
+
+"YOU'RE UP THERE!"
+
+Reasonable.
+
+I went down.
+
+Mara had bakery work to return to, so she pointed me toward Halei's row and left.
+
+No escort.
+
+No commission.
+
+No network management.
+
+Just an introduction because someone asked a question near bread.
+
+Carrow was very efficient when it wanted to be.
+
+Halei's door was painted yellow at the bottom and unpainted above, as if enthusiasm had run out halfway.
+
+A woman opened after my knock.
+
+She looked around forty, broad through the shoulders, with two long braids and a faded red apron over ordinary clothes.
+
+"Greg?"
+
+"Yes. Halei?"
+
+"Yes. Mara said one copper."
+
+"For me to look at the box and tell you what I recognize, what I don't, and what I think I remember. Not value. Not guarantee. If I don't know, I say I don't know."
+
+She looked at me for a second.
+
+"Good."
+
+She paid before I entered.
+
+I liked her immediately.
+
+The front room smelled like soap and old wood.
+
+A low table held the box.
+
+Not magical.
+
+Just wood with iron corners.
+
+The lid was already open.
+
+Inside lay eleven pieces of metal and leather arranged in no useful order.
+
+I did not touch them.
+
+"May I?"
+
+"Yes."
+
+"Any of them bite?"
+
+Halei blinked.
+
+"What?"
+
+"Different week."
+
+I sat on a chair beside the table and began.
+
+The first piece was a curved iron bar with a pivot at one end and a flattened hook at the other.
+
+No mark.
+
+I did not know it.
+
+"Unknown."
+
+Halei frowned.
+
+"Already?"
+
+"You paid for honest disappointment."
+
+"Fine."
+
+Second piece: leather strap with three reinforced holes and a bronze tongue.
+
+Could be anything.
+
+"Probably strap hardware. I can't identify system."
+
+Third: a small rectangular iron plate.
+
+Oval mark.
+
+Three bars.
+
+Left hook.
+
+There.
+
+I picked it up.
+
+Heavy for its size.
+
+Two slots on one side.
+
+A shallow channel on the back.
+
+My memory sharpened.
+
+"This is closer. I think this is a third-width left anchor plate for an old load-brace system."
+
+"What does that mean?"
+
+"A frame or cart could use a tension arm or strap assembly to stabilize a load. This plate would be one mounting point. I think."
+
+"Think."
+
+"Yes."
+
+"How sure?"
+
+I considered.
+
+"About the mark meaning third-width left pattern in the system I remember? High. About this exact object belonging to the same system? Medium-high. About how it was used in Carrow, whether anyone still uses it, or whether the rest of your box matches? Not yet."
+
+Halei nodded.
+
+That was a better reaction than excitement.
+
+We continued.
+
+Fourth piece had the same oval but two bars and a right hook.
+
+"Different size and side."
+
+"So not matching?"
+
+"Not directly. Could belong to another frame."
+
+Fifth was a bronze collar with a toothed inner edge.
+
+I did not know it.
+
+Sixth was a short iron arm with a springy layered section.
+
+That I knew.
+
+"Tension arm."
+
+The words came cleanly.
+
+I turned it over.
+
+A tiny stamp near the pivot showed three bars.
+
+No hook.
+
+"Third width. The side probably comes from which anchor plate it mounts to."
+
+"Useful?"
+
+"If it still has tension and if you have the matching pieces."
+
+I pressed the layered section carefully against the table.
+
+It flexed.
+
+Returned.
+
+No magic.
+
+Mechanical.
+
+Old.
+
+"Still springs."
+
+Halei leaned closer.
+
+"My aunt kept everything."
+
+"Sometimes that becomes inheritance. Sometimes storage."
+
+"Mostly storage."
+
+Seventh piece was another strap.
+
+Eighth was a small brass block with a slot through it.
+
+Unknown.
+
+Ninth was another third-width plate, this one right hook.
+
+Tenth was a second tension arm, shorter.
+
+Two bars.
+
+Eleventh was a folded leather harness with two metal mounting tabs.
+
+The tabs had three bars.
+
+No oval.
+
+I stared.
+
+Memory came sideways.
+
+Not cart.
+
+Pack frame.
+
+The harness sat across an animal's back or a person's shoulders depending on the version.
+
+The brace arms controlled lateral sway of a high load.
+
+I had seen them on mountain supply teams.
+
+"This may be a pack-frame harness," I said.
+
+Halei's expression changed.
+
+"Animal?"
+
+"Could be. Could be person. I saw versions used with both. I don't know this exact harness."
+
+"My aunt hauled glass."
+
+That mattered.
+
+"Where?"
+
+"North road. Years ago. Before her knees got bad."
+
+Glass.
+
+Fragile loads.
+
+Load stabilization.
+
+Suddenly the box made more sense.
+
+Not valuable yet.
+
+Coherent.
+
+"Then yes, a brace system would make sense. Especially if she carried fragile loads over bad road."
+
+"Can I use it?"
+
+"I wouldn't yet."
+
+"Why?"
+
+"Leather age. Unknown fittings. Mixed sizes. I don't know whether the spring arms are safe under real load. And if left and right fittings matter the way I remember, mismatching them could make the brace twist instead of stabilize."
+
+Halei looked at the pile.
+
+"So junk."
+
+"No."
+
+"You just said don't use it."
+
+"Not safe to use without someone current checking it is different from junk."
+
+I hated how much I sounded like Jori.
+
+Growth was humiliating.
+
+Halei sat across from me.
+
+"Worth keeping?"
+
+That was the second question.
+
+I had promised identification, not valuation.
+
+But `worth keeping` was not exactly price.
+
+"If you have room, yes, until you know whether anyone still repairs or uses this pattern. You have at least several pieces that appear to belong to a coherent load-brace system, probably related to your aunt's glass hauling. I would not throw them away today."
+
+"Who knows if people use them?"
+
+I did not know.
+
+Pera did cord.
+
+Hollen binding.
+
+Edrin Guild cargo.
+
+Jori estate goods.
+
+Kes secondhand goods.
+
+I could throw names until one stuck.
+
+That would be gossip.
+
+"I don't know yet," I said.
+
+Halei looked disappointed.
+
+Good.
+
+Reality often was.
+
+Then she pointed at the two tension arms.
+
+"Could you find out?"
+
+There.
+
+A different job.
+
+I did not answer immediately.
+
+"What do you want to know exactly?"
+
+"If someone in Carrow uses these. If someone buys them."
+
+"Those are two questions."
+
+"Fine. Both."
+
+"Do you want to sell?"
+
+"Maybe. I don't need them."
+
+"Do you want the best possible price or just not to throw away something useful?"
+
+She thought.
+
+"I want to know if the box is worth bothering with."
+
+That was manageable.
+
+Maybe.
+
+"I can ask around. But I don't want to promise a buyer or price."
+
+"How much?"
+
+Fee first.
+
+I had no idea.
+
+This was no longer a one-copper identification.
+
+It could take an afternoon.
+
+Could take days if I let it.
+
+Could become unpaid wandering.
+
+I thought about Jori.
+
+Agreement before work.
+
+Scope.
+
+Risk.
+
+"One copper if I come back with a credible current answer about whether the pattern is still used or bought in Carrow. Nothing if I learn nothing useful. If I find an actual buyer and you want me to handle the introduction, we agree separately before I do that."
+
+Halei looked at me.
+
+"You already got one copper."
+
+"For identifying what I could in the box."
+
+"You like copper."
+
+"Increasingly."
+
+She laughed.
+
+"Fine. One if you find out."
+
+"Credible answer, not buyer."
+
+"Yes."
+
+"No deadline?"
+
+"This week."
+
+"I can agree to this week."
+
+We shook on it.
+
+I left without taking the box.
+
+That was important.
+
+I did not own it.
+
+I did not need to carry eleven pieces of somebody else's old road gear around Carrow to ask whether road gear existed.
+
+Also, stairs.
+
+The first place I went was not Jori.
+
+This was evidence of independence.
+
+The second place was not Kes.
+
+This was evidence of survival.
+
+I went to the south Guild yard because Edrin's work actually involved cargo.
+
+I did not assume Edrin was there.
+
+He was not.
+
+Tessa was.
+
+She sat behind the road desk with two ledgers open and a strip of dried fruit between her teeth.
+
+She recognized me.
+
+"No report."
+
+"I don't have one."
+
+"Good."
+
+"Question. Personal, not Guild consultation."
+
+"Then quick."
+
+I described the mark.
+
+Three bars.
+
+Left and right hooks.
+
+Old load-brace plates.
+
+Glass hauling north road.
+
+Tessa stopped chewing.
+
+"Spring braces?"
+
+My heart kicked.
+
+"Maybe."
+
+"Old drover gear."
+
+"Still used?"
+
+"Some. Not much in city."
+
+"Who would know current?"
+
+She pointed with the dried fruit toward the yard.
+
+"Harness repair. Back wall. Ask Noll. Don't say I sent you if he's busy."
+
+"Did you send me?"
+
+"No."
+
+"Excellent."
+
+I went to the back wall.
+
+Noll was busy.
+
+I waited.
+
+This was another skill I had acquired against my will.
+
+He finished stitching a broad leather breast strap before looking at me.
+
+Noll was younger than I expected, maybe late twenties, with one shaved side of his head and a long braid on the other. His hands were stained dark from leather dressing.
+
+"What?"
+
+I described the pieces again.
+
+He interrupted at the oval mark.
+
+"Old Trine braces."
+
+There.
+
+A current name.
+
+"Trine?"
+
+"Three-bar mark. Old road standard."
+
+Not exactly what I remembered.
+
+Or maybe local naming layered over it.
+
+"Third-width?"
+
+Noll looked at me more carefully.
+
+"Three is width. Hook is side."
+
+Clean.
+
+My old knowledge worked.
+
+Not approximately.
+
+Not poetically.
+
+Correctly.
+
+I let myself enjoy that for one second.
+
+Then stopped before it became a religion.
+
+"Still used?"
+
+"Old glass haulers. Instrument carts. Some mountain loads. New rigs use cross-bands more."
+
+"Do people buy old parts?"
+
+"If good."
+
+"Mixed box. Two spring arms, plates, harness, some unknown fittings. Leather old."
+
+"Springs marked?"
+
+"One three, one two."
+
+"Three worth more."
+
+"Why?"
+
+"Harder to find."
+
+Capital whispered.
+
+I ignored the volume and asked the next useful question.
+
+"Who buys?"
+
+Noll shrugged.
+
+"Repairers. Haulers who still run old rigs. Me if cheap."
+
+There it was.
+
+Actual buyer.
+
+I did not tell him where the box was.
+
+Not yet.
+
+"What does cheap mean?"
+
+He looked at me.
+
+"You selling?"
+
+"Not mine."
+
+"Then not your price."
+
+Jori had relatives everywhere.
+
+"Fair. I'm trying to learn whether the owner should keep or sell."
+
+"If three-width spring still good, don't throw it. Plates too. Harness depends leather."
+
+"Would you inspect if owner brought it?"
+
+"For fee."
+
+"How much?"
+
+He named a small fee.
+
+I remembered it.
+
+"Would you buy after inspecting?"
+
+"Maybe."
+
+"Separate from fee?"
+
+"Yes."
+
+Good.
+
+"Can I tell the owner your name and inspection price?"
+
+Noll considered me.
+
+"Yes. Tell her morning, not late."
+
+"Thank you."
+
+"You get paid for this?"
+
+I hesitated.
+
+"One copper if I bring her a credible answer."
+
+Noll laughed.
+
+"You walked across Carrow for one copper?"
+
+"I also learned something."
+
+"Still stupid."
+
+"Possibly."
+
+He went back to work.
+
+I left.
+
+On the way home, I did arithmetic.
+
+One copper from Halei already earned.
+
+One possible copper for the current-use answer.
+
+Walking, stairs, time, conversation.
+
+Not impressive.
+
+But the shape was different.
+
+I had not sold a full shift.
+
+I had sold a bounded question.
+
+Then I had used one relationship, Tessa, to find expertise, Noll, without pretending either owed me anything.
+
+I had not hidden Noll's name to create artificial scarcity.
+
+I had not bought Halei's box cheaply before telling her it might matter.
+
+That last possibility occurred to me only after I left the Guild yard.
+
+I stopped walking.
+
+Oh.
+
+I could have done that.
+
+Halei did not know what she had.
+
+I did.
+
+Or knew more.
+
+I could have offered her a few copper for the whole box before asking Noll.
+
+If the three-width spring was valuable, I might have made more.
+
+That was exactly the kind of capital move I had been thinking about.
+
+It also felt dirty now that I had already accepted money to identify her property honestly.
+
+Client first.
+
+Buyer second.
+
+I had taken her copper.
+
+That created a duty even if nobody had written one down.
+
+Interesting.
+
+Money could create opportunity.
+
+It could also close one.
+
+I continued walking.
+
+That lesson was probably worth more than the second copper.
+
+Halei was home when I returned.
+
+I told her what Noll had said.
+
+Old Trine braces.
+
+Three-bar mark meant width.
+
+Hook meant side.
+
+Still used in some glass hauling, instrument carts, mountain loads.
+
+Newer systems often different.
+
+Old parts could have buyers if sound.
+
+Three-width spring harder to find according to Noll.
+
+Noll would inspect for the fee he named, morning preferred.
+
+I did not tell her what her box was worth.
+
+I did not know.
+
+I did not tell her Noll would definitely buy.
+
+He had said maybe.
+
+Halei listened.
+
+Then she paid the second copper.
+
+"So I take box to him?"
+
+"If you want a current condition inspection, yes."
+
+"Can you take it?"
+
+I looked at the box.
+
+Then at my crutches.
+
+Then at Halei.
+
+She laughed before I spoke.
+
+"Right."
+
+"I could arrange someone with a cart, but that becomes a different problem."
+
+"My nephew can carry it."
 
 "Better."
 
-I told her about Pavin.
+"You come?"
 
-Not where he had been, because I did not know.
+That was another question.
 
-Not why he hated the mask, because I still did not know that either.
+"Do you need me?"
 
-I told her I had read four people badly, then less badly. I told her the servant had briefly accused a man of adultery.
+"You know what he says."
 
-Lyssa laughed hard enough to put the needle down.
+"You will also know what he says if you are there."
 
-"Again."
+She considered.
 
-"You heard it."
+"Fair."
 
-"Tell better."
+No manufactured continuation.
 
-So I did.
+Then she touched the three-width spring arm.
 
-The second version gave the servant more outrage than he had possessed in the rehearsal room.
+"If he wants to buy, how do I know price fair?"
 
-Lyssa narrowed her eyes.
+I smiled despite myself.
 
-"You acting now."
+"That is an appraisal question."
 
-"There is an audience."
+"You know an appraiser?"
 
-"One."
+Of course.
 
-"Still counts."
+The city was trying to make a joke.
 
-She threw the stocking at me.
+"Yes. But she charges more than me."
+
+"How much?"
+
+"Depends on work. Ask fee first."
+
+Halei laughed.
+
+"You all say that?"
+
+"The good ones apparently."
+
+I gave her Jori's name and Blue Steps location.
+
+No commission.
+
+No promise Jori would take the job.
+
+Just a name.
+
+Halei nodded.
+
+"I'll see Noll first."
+
+"Makes sense."
+
+I left with two copper total from the day.
+
+One already in pocket from identification.
+
+One from finding a current answer.
+
+Not gold.
+
+Not close.
+
+But the coins felt different.
+
+At home, Lyssa was not back yet.
+
+I put one copper on the household table.
+
+I kept one.
+
+Then I took out the ugly paper.
+
+`REPUTATION / RISK / MATCHING`
+
+Reputation still crossed out.
+
+I added:
+
+`SCOPE BEFORE WORK.`
+
+Then:
+
+`CLIENT FIRST.`
+
+I stared at that.
+
+I had not become a broker.
+
+I had not even brokered anything.
+
+I had answered one question and found one current expert.
+
+But I had discovered a line I did not want to cross accidentally.
+
+If someone paid me to tell them what they owned, I could not quietly become the person buying it from them before they understood.
+
+Maybe people did.
+
+Probably people did.
+
+I did not want to.
+
+That mattered because the clasp still existed somewhere in my head, gold-priced and dangerous.
+
+Capital was not only how to get enough money to buy something.
+
+It was also what kind of person I became while trying.
+
+That sounded too much like a lesson.
+
+I crossed out the sentence.
+
+Better.
+
+Lyssa came home late, exactly as promised.
+
+She looked tired, hair looser than in the morning, one sleeve marked with pale thread dust.
+
+No parcel.
+
+I heated cabbage with the last of yesterday's bread and told her about Sallo trying to give me insect line.
+
+"You take?"
+
+"No."
+
+She stopped eating.
+
+"No?"
+
+"No."
+
+"Free?"
+
+"Yes."
+
+She narrowed her eyes.
+
+"Who are you?"
+
+"I am growing."
+
+"Suspicious."
+
+Then I told her about Halei.
+
+The one-copper identification.
+
+The second one-copper question.
+
+Tessa.
+
+Noll.
+
+Old Trine braces.
+
+The three-width spring.
+
+I told her I had thought afterward that I could have offered to buy the box before telling Halei what I knew.
+
+Lyssa looked at me.
+
+"But she paid you."
+
+"Exactly."
+
+"Then no."
+
+"Exactly."
+
+"Easy."
+
+"It became easy after I had already not done it."
+
+She ate another bite.
+
+"Good."
+
+There was that word again.
+
+I put the remaining copper beside my private money.
+
+Not clasp money.
+
+Not yet.
+
+Just money.
+
+The distinction mattered.
+
+Tomorrow Halei might take the box to Noll without me.
+
+Probably would.
+
+Jori might never hear about it.
+
+Sallo might buy tins or keep swearing at insects.
+
+Mara would go back to bread.
+
+Nobody had hired me for another question.
+
+That was fine.
+
+I had spent two copper yesterday learning why expertise cost money.
+
+Today someone had paid me two copper because, for one narrow problem, I knew where the answer started.
+
+That was not capital.
+
+It was not a business.
+
+It was barely a pattern.
+
+But it was the first time the question had paid me back.

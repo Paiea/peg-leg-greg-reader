@@ -17,11 +17,11 @@ Current commercial pressure has made the theatre's relationship with neighboring
 Recent manuscript establishes a practical prop ecology without a formalized modern system:
 - a backstage property table is used to stage show objects, including rough scene-order arrangement;
 - frequently used objects have expected places / routes and are handed out, returned, reset, or moved between pieces;
-- Chapter 222 uses return baskets between pieces and Nessa chalk-marks a specific home for Greg's parcel after it goes missing;
+- Chapter 225 uses return baskets between pieces and Nessa chalk-marks a specific home for Greg's parcel after it goes missing;
 - hooks / storage locations matter enough that putting the striped umbrella with belts makes it effectively lost;
 - people remember object-specific hazards and habits, such as Hara moving a key away from Marek's sleeve path;
 - an absent usual property runner can be covered by another worker rather than stopping the company;
-- Chapter 225 gives the repurposed cups scene-specific identities and later `STAGE ONLY` storage;
+- Chapter 228 gives the repurposed cups scene-specific identities and later `STAGE ONLY` storage;
 - ordinary props can require inspection, drying, repainting, repair, or other maintenance during their working life.
 
 These are established physical/workplace behaviors. Do not inflate them into universal chalk outlines, formal checklists, paperwork plots, fixed rosters, or modern stage-management bureaucracy unless later prose independently establishes an equivalent.
@@ -42,12 +42,12 @@ Recovered Chapters 156–219 establish substantially more infrastructure than re
 - Greg gradually learns Lyssa's routes through repeated use rather than exposition.
 
 Recent facts continue this:
-- Chapter 224 explicitly says Lyssa is maintaining three customers and a changing collection of cloth;
+- Chapter 227 explicitly says Lyssa is maintaining three customers and a changing collection of cloth;
 - customers can come to the apartment, and Lyssa prepares domestic space for that work independently of Greg;
 - jobs can be delivered and paid while Greg is elsewhere;
 - several unrelated garments / sleeves can be active at once;
 - Chapter 217 establishes one explicit customer referral from a satisfied cuff customer to a new shoulder-seam customer;
-- Chapter 227 shows another unnamed customer being fitted in the apartment while Greg arrives after the fitting is already underway;
+- Chapter 230 shows another unnamed customer being fitted in the apartment while Greg arrives after the fitting is already underway;
 - during that fitting Lyssa refuses one requested additional narrowing point because there is not enough cloth there.
 
 Do not infer a formal customer system, universal fitting sequence, rate card, queue model, or identity link among unnamed customers unless exact prose establishes it.
@@ -75,7 +75,7 @@ Do not invent:
 
 **Maren is NOT Marra.**
 
-Chapter 222 establishes **Maren as a separate shop**, identified by a spool sign.
+Chapter 225 establishes **Maren as a separate shop**, identified by a spool sign.
 
 Greg can use a cloth sample to request matching thread there. The seller asks `Matching?` and finds a spool close enough to work; Lyssa later approves it and says `Maren usually does.`
 

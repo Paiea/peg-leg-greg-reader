@@ -36,7 +36,7 @@ are not aesthetic scores and do not authorize deletion.
   `chapters/155.html`, `assets/reader.css`
 - Light/current reader: `light.html`, `assets/light-reader.js`
 - Forward preview support: `latest.html`, `chapters/220.html`,
-  `chapters/221.html`, `assets/manuscript-preview.js`
+  `chapters/224.html`, `assets/manuscript-preview.js`
 - Promoted chapter art: `visual/chapter_art/`
 - Visual references/maps/homepage: `visual/reference/`, `visual/maps/`,
   `visual/homepage/`

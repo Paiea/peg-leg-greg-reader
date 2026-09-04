@@ -1,1189 +1,1129 @@
 # CHAPTER 299
 
-## THE OTHER HANDLE
+## THE HELD NOTE
 
-The basket arrived before breakfast and immediately became my problem by being too useful.
+The song reached me before the people did.
 
-It sat on the table beside Cala.
+One low note came around the corner and stayed there.
 
-Round.
+Not loud.
 
-Brown reed.
+Not haunting.
 
-Two handles.
+Just longer than a human breath had any right to be.
 
-One handle was attached to the basket.
+I knew the trick.
 
-The other was attached to nothing.
+Hold bead.
 
-I looked at it.
+Cheap music hardware if you bought a bad one. Expensive music hardware if you bought a good one. Terrible military hardware if somebody decided a marching horn needed to sustain itself after the horn player had stopped.
 
-Cala kept cutting bread.
+I had survived that decision once.
 
-Lyssa kept drinking something hot.
+The note bent slightly.
 
-Tavi had not yet begun striking household objects with spoons, which meant the morning remained recoverable.
+Then released.
 
-I pointed at the loose handle.
-
-"That seems pessimistic."
-
-Cala said, "Mera's."
-
-"The basket or the handle?"
-
-"Both."
-
-"Good. I dislike divided ownership before food."
-
-Lyssa smiled into her cup.
-
-The basket was an ordinary market carrier, wider than the one Cala usually took for vegetables. The reeds were dark from age and handling. One side had been repaired at least twice. I could see a newer binding near the bottom rim and a short patch where three pale reeds interrupted the brown weave.
-
-The loose handle had come free cleanly at one end.
-
-Not broken through the middle.
-
-Not snapped.
-
-The wrapped foot of it had pulled out of the basket wall.
-
-I knew baskets.
-
-Not professionally.
-
-Human civilization had been putting things in woven containers since before any guild had figured out how to charge admission for it.
-
-My first life had included pack baskets, fish baskets, herb baskets, ammunition baskets, monster-part baskets, one ceremonial basket that turned out to contain a duke's left shoe, and several baskets whose magical reinforcement had been more expensive than their contents.
-
-This one looked gloriously ordinary.
-
-Then I noticed the pale green knot tucked beneath the loose wrapping.
-
-Not ordinary.
-
-Not extraordinary either.
-
-A carry knot.
-
-Common low-grade load easing.
-
-I had seen variations on pack frames, market straps, shoulder yokes, handcarts, and cheap travel cases. The magic did not make weight disappear. Good versions softened the ugly part of carrying, spread pull, reduced swing, or kept a loaded object from fighting the carrier quite so much.
-
-Which version this was, I did not know.
-
-The knot was old.
-
-One loop had gone gray.
-
-I ate bread.
-
-This was growth too.
-
-Possibly.
-
-Cala said, "Mera asked if Olan could look."
-
-"Door Olan?"
-
-"He fixes more than doors."
-
-"That is dangerous information."
-
-"He is not here."
-
-"Safer."
-
-Cala slid a small crock toward Lyssa.
-
-"She needs basket by noon."
-
-There it was.
-
-Not my basket.
-
-Not my job.
-
-Not even my neighbor, unless Mera was one of the many people who had become neighbors without filing the appropriate paperwork.
-
-I tore bread.
-
-"What does she carry?"
-
-Cala looked at me.
-
-"Why?"
-
-"Because if the handle failed empty, that is one thing. If it failed with thirty pounds of stone, I would like to admire it from farther away."
-
-"Greens. Eggs sometimes. Cloth today."
-
-Lyssa said, "Cloth is mine."
-
-I looked at her.
-
-"Ah."
-
-She pointed at the basket.
-
-"Mera is taking two finished pieces across Lower Market for me."
-
-That changed the shape without making it mine.
-
-Lyssa had arranged her own delivery.
-
-Mera had a basket problem.
-
-Cala had accepted the basket because Olan sometimes repaired things.
-
-Olan was absent.
-
-No one had asked Greg to become Basket Greg.
-
-I ate more bread.
-
-Tavi entered.
-
-He saw the loose handle.
-
-His face brightened.
-
-I moved it beyond his reach.
-
-"No."
-
-"Mine."
-
-"Absolutely not."
-
-"Door red."
-
-"Your legal argument is weakening."
-
-Lyssa finished her drink.
-
-"I can carry the pieces myself."
-
-Cala said, "You have the brown cuff."
-
-Lyssa's expression changed.
-
-Not alarm.
-
-Calculation.
-
-"I can do both."
-
-"You can," Cala said.
-
-That was all.
-
-No command.
-
-No rescue.
-
-Lyssa looked at the basket again.
-
-I knew that look.
-
-Not helplessness.
-
-Schedule.
-
-The cloth delivery had been delegated because she had other work.
-
-If she took it back, something else moved.
-
-I pointed at the handle.
-
-"Did Mera ask for repair or for Olan?"
-
-Cala said, "Olan."
-
-Important distinction.
-
-"Then I am not repairing it."
-
-Lyssa nodded.
-
-No one argued.
-
-Also nice.
-
-I leaned closer without touching the green knot.
-
-"But I can carry it to him if you know where he is."
-
-Cala said, "South end today. Latch job near the cooper."
-
-Of course she knew.
-
-Carrow operated on a communications system made mostly of bread, cousins, and people seeing each other in lanes.
-
-"And if he is not there?"
-
-"Bring it back."
-
-Perfect scope.
-
-Transport one broken basket to one known repair person.
-
-No diagnosis promised.
-
-No repair promised.
-
-No money promised.
-
-No new profession.
-
-I finished breakfast.
-
-The brown leather shoulder bag went over me.
-
-It remained empty except for charcoal and the narrow scrap.
-
-I did not put the basket inside it because geometry still had rights.
-
-Carrying a wide basket with two crutches required a brief negotiation.
-
-The intact handle could go over my left forearm, but that put the basket against the crutch shaft and made it swing into my knee space.
-
-Bad.
-
-Holding the rim with fingers while gripping a crutch was worse.
-
-I tried neither for more than a second.
-
-Lyssa watched.
-
-"Want me to tie it?"
-
-"Maybe."
-
-She found a short length of plain cord from Cala's shelf.
-
-Not special cord.
-
-Not protected material.
-
-Household cord.
-
-We looped it through two sound points on the basket rim and made a temporary longer carry loop.
-
-I put that over my shoulder opposite the leather bag.
-
-The basket hung high against my right hip.
-
-Too high.
-
-I shortened the leather bag strap instead and shifted the basket slightly back.
-
-Better.
-
-It still touched my coat when I moved.
-
-It did not touch either crutch.
-
-It did not swing into the residual limb.
-
-It did not block my right leg.
-
-"Walk," Lyssa said.
-
-I walked across the room.
-
-Turned.
-
-Came back.
-
-The basket bumped the doorframe.
-
-"Excellent."
-
-Lyssa laughed.
-
-We shifted the cord one reed-space inward.
-
-Second try cleared.
-
-Cala said, "Do not break other handle."
-
-"Strong operational guidance."
-
-"Greg."
-
-"I will not break the other handle."
-
-Tavi reached for the loose one again.
-
-I left before he established precedent.
-
-The repaired front door opened cleanly.
-
-The basket cleared it.
-
-The lane was dry.
-
-My body felt normal after yesterday's Guild session.
-
-Hands ordinary.
-
-Forearms ordinary.
-
-Residual limb comfortable.
-
-Right shoe flat.
-
-Crutches sound.
-
-The basket changed my width more than my weight.
-
-That mattered immediately.
-
-People carrying things through cities became temporary architecture.
-
-A woman with two water jars needed one kind of space.
-
-A man with a plank needed another.
-
-A nineteen-year-old on crutches with a basket hanging off one hip apparently required the turning radius of a small boat.
-
-I learned this at the first corner.
-
-A boy came around fast with a bundle of onions.
-
-I stopped.
-
-He stopped.
-
-We looked at each other.
-
-He looked at the basket.
-
-I looked at the onions.
-
-"You are more dangerous," I said.
-
-He stepped aside.
-
-Correct outcome.
-
-At the wider lane I settled into a rhythm.
-
-Crutch.
-
-Right foot.
-
-Crutch.
-
-Basket behaved.
-
-The temporary cord carried the dead weight of the empty basket easily enough.
-
-The old green knot did nothing I could feel.
-
-That did not mean it was dead.
-
-The basket was empty.
-
-A load-easing charm on an empty carrier had very little ugliness to ease.
+A woman started singing.
 
 I kept walking.
 
-South end near the cooper was not far.
+For seven steps.
 
-I passed a woman selling fried dough.
+Then I stopped.
 
-Three private copper existed upstairs and remained none of her business.
+This was becoming a problem.
 
-I passed a man shaving curls from a chair leg.
+Not the music.
 
-Not Rell.
+The fact that I had no reason not to stop.
 
-I passed a cart with a wheel making a noise that would have attracted Old Greg from three streets away.
+Yesterday an open chair had done the work for me. Somebody had pointed at a seat and said sit.
 
-This Greg kept moving because the cart already had an owner and the owner had ears.
+Today nobody had asked anything.
 
-Suspicious competence continued.
+The lane ahead remained perfectly passable.
 
-The cooper's lane announced itself through smell before sign.
+Home was east.
 
-Wet wood.
+I was not late.
 
-Shavings.
+No list sat in my bag.
 
-Pitch.
+No client waited.
 
-A stack of narrow barrel hoops leaned against one wall.
+No one had sent me west.
 
-Olan was kneeling at a shop threshold with half a latch in his hand.
+The woman sang another line.
 
-I knew it was him because he was Olan.
+I turned toward the sound.
 
-This was an advantage of having met people.
+Apparently I required practice at being unnecessary.
 
-He looked up.
+The music came from a small court behind a row of workshops.
 
-Then at the basket.
+Not a performance court.
 
-"No."
+No raised platform.
 
-"You have not heard the question."
+No painted sign.
 
-"Basket."
+No crowd arranged in respectful rows.
 
-"Yes."
+A potter had three damp bowls lined on a board near one wall. Someone from the cooper's yard was eating from a paper fold. Two women sat on an overturned crate and a low stone ledge. A boy was winding cord around a bundle of narrow sticks while singing the wrong words with great confidence.
 
-"No."
+The musician sat near the shade.
 
-"Mera sent it through Cala."
+Gray hair.
 
-He sighed.
+Red scarf.
 
-"That changes nothing."
+A flat five-string board instrument rested across her knees.
 
-"Wonderful. I was promised only delivery."
+The hold bead sat beneath the lower edge of the bridge.
 
-I set the basket down outside his work area.
+Brass.
 
-Carefully.
+Thumb-sized.
 
-No need to make a second repair while requesting the first.
+Old enough that the polished center had gone yellow while the rim stayed dark.
 
-Olan went back to the latch.
+She plucked two strings.
 
-I waited.
+The bead gave a faint violet blink.
 
-The shopkeeper inside handed him a narrow screw.
+One note remained after her fingers moved away.
 
-Olan tried it.
-
-Wrong size.
-
-He handed it back.
-
-The shopkeeper found another.
-
-I looked at the cooper's stacked hoops.
-
-Not because they were mysterious.
-
-Because waiting without staring directly at a working person was a social technology worth preserving.
-
-Olan set the second screw.
-
-Tested the latch.
-
-Opened.
-
-Closed.
-
-Opened again.
-
-Then he sat back.
-
-"Basket."
-
-I moved it closer.
-
-He picked up the loose handle.
-
-His fingers went immediately to the pale green knot.
-
-"Mera still loading this?"
-
-"Greens. Eggs sometimes. Cloth today."
-
-He looked at me.
-
-"You ask?"
-
-"I asked because I was carrying a broken thing and prefer knowing whether it usually carries rocks."
-
-"Fair."
-
-He turned the handle foot.
-
-The wrapping had pulled loose from the basket wall, but the handle reed itself looked intact.
-
-Olan pressed the green knot with one thumbnail.
-
-No light.
-
-No pulse.
-
-No dramatic magical confession.
-
-"Old carry tie," he said.
-
-"That broad family I know."
-
-He nodded.
-
-No surprise.
-
-"This one is tied into both handle feet."
-
-That was local detail.
-
-I crouched as much as my position allowed, then decided sitting on the low stone curb was smarter.
-
-I lowered myself with the right leg and one hand on the curb edge, keeping the left knee clear.
-
-Crutches beside me.
-
-Olan pointed with a dirty fingernail.
-
-The pale green thread disappeared under the handle wrapping, then reappeared one reed over as a tiny flattened loop.
-
-"Spreads pull across the rim," he said.
-
-"Both sides?"
-
-"When both feet hold."
-
-He lifted the loose handle end.
-
-"This doesn't."
-
-"So charm failure or attachment failure?"
-
-"Attachment first."
-
-Good answer.
-
-Not because it solved everything.
-
-Because it refused to blame magic for a reed coming loose.
-
-Olan peeled back one turn of the brown wrapping.
-
-The green thread beneath remained uncut.
-
-"Tie may still be fine."
-
-"May?"
-
-"Can't tell loaded until handle is fixed."
-
-"Do you test it loaded?"
-
-"A little."
-
-"With what?"
-
-He pointed at the cooper's shop.
-
-The shopkeeper, who had apparently been listening, said, "Not my barrel."
-
-Olan said, "Water."
-
-The shopkeeper said, "Also not my floor."
-
-Their relationship seemed healthy.
-
-Olan looked at the basket wall.
-
-"Mera had this side done before."
-
-He touched the pale repair reeds I had noticed at breakfast.
-
-"Not mine."
-
-"Problem?"
-
-"No."
-
-He pressed them.
-
-"Different reed. Holds."
-
-Again, no universal theory.
-
-A repair could be ugly, mismatched, and functional.
-
-This city was full of things that had survived aesthetics.
-
-I felt represented.
-
-"Can you fix it by noon?" I asked.
-
-Olan looked at the latch job.
-
-Then at the sun.
-
-Then at the basket.
-
-"If Mera wants quick."
-
-"She wants basket. Lyssa wants cloth moved."
-
-"Price?"
-
-"Not mine."
-
-He nodded.
-
-Good.
-
-No accidental negotiation on someone else's behalf.
-
-"Tell Mera one bit if simple wrap and set. More if rim opens when I pull old binding."
-
-I stored that exactly.
-
-One bit if simple.
-
-More if hidden damage appeared.
-
-Not a quote from me.
-
-Not permission from Mera.
-
-"Do you start without her?"
-
-"No."
-
-Even better.
-
-"Then I need Mera."
-
-"Or Cala can send word."
-
-The cooper's shopkeeper said, "Mera's at egg row until ten."
-
-I looked at him.
-
-He shrugged.
-
-Bread, cousins, and people in lanes.
-
-The communications system remained undefeated.
-
-I stood.
-
-Right foot under.
-
-One hand on curb.
-
-Crutches set.
-
-No issue.
-
-"I can find her."
-
-Olan said, "You don't have to."
-
-That stopped me.
-
-He was right.
-
-I had delivered the basket.
-
-My promised scope was complete.
-
-Mera could receive word through Cala.
-
-Olan could wait.
-
-Lyssa could still choose to carry her own cloth if timing failed.
-
-The city would survive without Greg becoming a message service because a basket had one loose handle.
-
-Then the cooper's shopkeeper said, "Egg row is on your way back."
-
-Damn geography.
-
-"That is manipulative."
-
-"Still true."
-
-I considered.
-
-Going home by egg row added almost nothing.
-
-The message was bounded.
-
-One bit if simple wrap and set. More if rim opens. Olan will not start without approval.
-
-No analysis required.
-
-No purchase required.
-
-No magical expertise required.
-
-"Fine," I said. "I will tell her."
-
-Olan returned to the latch.
-
-"Tell her I said quick means quick, not pretty."
-
-"That sounds like a threat."
-
-"She knows."
-
-I left the basket with him.
-
-Without it, my body narrowed back to its usual unreasonable dimensions.
-
-The leather shoulder bag sat where it belonged.
-
-Crutches moved cleanly.
-
-Egg row was three turns north.
-
-I knew it by smell too.
-
-Not eggs.
-
-Straw.
-
-Feathers.
-
-Warm grain.
-
-The eggs themselves smelled like commerce, which mostly meant people arguing.
-
-Mera turned out to be a broad woman with a red scarf and three shallow trays of eggs in front of her.
-
-I recognized her only after she recognized me.
-
-"Basket?"
-
-Useful opening.
-
-"With Olan. Handle attachment pulled. He says one bit if it is simple wrap and set. More if the rim opens when he pulls the old binding. He will not start without your approval. Quick means quick, not pretty."
-
-Mera closed her eyes briefly.
-
-"He said that?"
-
-"Exactly enough that I resent remembering it."
-
-She looked at the sun.
-
-"One bit. If more, leave it."
-
-"I can carry that message."
-
-She reached under the stall cloth.
-
-I raised a hand.
-
-"Do not give me the bit."
-
-She paused.
-
-"Why?"
-
-"Because then I become responsible for money I do not need to touch. Tell him you pay when you collect."
-
-Mera considered this.
-
-"Fine."
-
-Then she picked up two eggs.
-
-"Take."
-
-"No."
-
-"For walking."
-
-"Eggs are famously bad walking equipment."
-
-"For carrying message."
-
-Ah.
-
-Payment.
-
-Not requested.
-
-Not copper.
-
-Two eggs.
-
-I looked at them.
-
-Then at her.
-
-"Are these mine or Cala's?"
-
-"Yours."
-
-"That distinction has saved households."
-
-I accepted the eggs.
-
-Now I had two crutches, one shoulder bag, and two eggs.
-
-The universe disliked stable systems.
-
-I opened the leather bag.
-
-Charcoal and narrow scrap occupied almost no room.
-
-The eggs would roll.
-
-Bad.
-
-Mera gave me a twist of straw without comment.
-
-I nested the eggs in it and placed them carefully in the bag.
-
-The stay-bead notch held the strap where it had been set since I bought the bag.
-
-I felt no magical event.
-
-I did feel two fragile objects become my responsibility.
-
-This was worse.
-
-"If I arrive with one egg, do I owe you half a message?"
-
-Mera said, "Go."
-
-Carrow's women had formed a conspiracy around that word.
-
-Back at the cooper's lane, Olan had finished the latch.
-
-He was sitting on an upturned block with the basket between his knees.
-
-He had not opened the binding.
-
-Good.
-
-"Mera approves one bit if simple. If more, leave it. She pays when she collects."
-
-Olan nodded.
-
-Then he began.
-
-I could have left.
-
-I almost did.
-
-Then he pulled the first brown wrap free and the rim did not open.
-
-That answered the condition immediately.
-
-Simple, apparently.
-
-I stayed because the repair would take minutes and because I wanted to see how the carry tie sat inside the handle foot.
-
-That was curiosity, not ownership.
-
-There was a difference.
-
-Olan did not explain until I asked something worth answering.
-
-He unwound three turns of old binding.
-
-The green thread lay beneath, flattened against the basket rim.
-
-One section had gone gray where the handle foot had worked loose.
-
-"Gray means weak?" I asked.
-
-"Sometimes dirty."
-
-Of course.
-
-He rubbed it between finger and thumb.
-
-A faint green color returned under the grime.
-
-"This is dirty."
-
-"Useful system."
-
-"Wash hands."
-
-"Revolutionary."
-
-He ignored me.
-
-He reset the handle foot into the basket wall, not in the exact old holes. One reed over.
-
-"Why move it?"
-
-"Old holes widened."
+She played against it.
 
 Simple.
 
-He threaded the existing green loop around the reset foot.
+Useful.
 
-No new magical material.
+Beautiful.
 
-Then he used fresh brown binding from his pouch to wrap the handle foot tightly into the rim.
+I knew what it did.
 
-Around.
+I did not know the song.
 
-Through.
+That was different.
 
-Around again.
+I stayed near the entrance to the court.
 
-He wet the end with his tongue.
+The singer reached the end of a verse.
 
-"High craft."
+Three people joined the last line.
 
-"Quiet."
+Not perfectly.
 
-He tucked it.
+The potter came in late.
 
-Then he pressed two fingers against the pale green knot.
+The boy sang early.
 
-A dull green pulse moved through the thread.
+The woman beside the crate did not sing at all, but tapped two fingers against her knee on the beat.
 
-One.
+Then the hold bead released its note.
 
-Brief.
+Silence lasted half a breath.
 
-The basket rim tightened almost invisibly around the handle foot.
+The singer said, "Again."
 
-No glow remained.
+Nobody objected.
 
-Olan waited.
+She started another verse.
 
-I noticed that.
+I should have kept walking.
 
-Not because waiting after set pulses was new to me.
+Instead I looked for somewhere to stand without becoming a traffic problem.
 
-Because people who knew their work kept doing it.
+The court had been built by people who believed every square foot should either hold work or complain about it.
 
-After a few breaths he lifted the basket by both handles.
+Clay jars.
 
-Then he looked into the cooper's shop.
+Boards.
 
-"Water."
+Two stacked baskets.
 
-The shopkeeper pointed at a bucket.
+A low cart missing one wheel.
 
-"Half."
+A narrow bench with a broken arm.
 
-Olan put the half bucket into the basket.
+No open chair.
 
-The basket sagged.
+That seemed fair after yesterday.
 
-Not much.
+I moved to the wall.
 
-The repaired handle held.
+Standing still on two crutches was possible.
 
-He lifted it.
+Comfortable depended on the minute.
 
-Set it down.
+I settled the grips under my palms and shifted most of my weight through the right leg.
 
-Lifted again.
+The bag rested high against my left ribs.
 
-"Feel?" he asked.
+First notch.
 
-I blinked.
+Normal.
 
-"You want me to carry it?"
+The woman sang.
 
-"One step. Both handles."
+I listened.
 
-This was not my magic.
+The chorus came back.
 
-Not my repair.
+This time I caught more of it.
 
-Not dangerous by the evidence in front of me.
+"Keep the flame low,
+keep the door wide,
+leave enough room for the late one inside."
 
-I set both crutches against the wall within reach and stood on the right leg with the left knee clear.
+I looked around.
 
-Then I took the two basket handles.
+Nobody reacted to the philosophy.
 
-The half bucket had weight.
+The potter sang "flame high."
 
-Obviously.
+The boy sang "door red."
 
-But the basket did not drag hard toward one side the way I expected from the repaired foot. The pull felt broader through both handles, less concentrated in the fingers nearest the repair.
+The singer kept going.
 
-Not lighter.
+Local accuracy appeared negotiable.
 
-Better distributed.
+The next verse involved a missing shoe.
 
-I set it down after one controlled lift.
+I understood perhaps half of it.
 
-"That the tie?"
+The singer had a rough voice, not pretty in the polished stage sense.
 
-Olan said, "Partly basket. Partly tie."
+It worked better than pretty would have.
 
-Good.
+She pushed the line forward.
 
-"Can you tell which?"
+The hold bead kept a low note under her while her left hand shifted higher.
 
-"Not without another basket and more time."
+No magic from her body that I could see.
 
-Better.
+The bead did the small stored work it had been made to do.
 
-I reclaimed my crutches.
+The rest was fingers and timing.
 
-"Then it holds."
+A man came out of one workshop carrying a tray of little copper fittings.
 
-"For Mera's use, yes."
+He crossed directly through the court.
 
-"Not stone."
+The singer moved one knee.
 
-"Why would she carry stone?"
+The boy pulled his stick bundle inward.
 
-"I asked that this morning."
+The man passed.
 
-Olan stared at me.
+Nobody stopped the song.
 
-I left before the conversation became circular.
+That mattered.
 
-By the time I reached home, both eggs remained eggs.
+This was not an event.
 
-This felt like an achievement worth hiding.
+It was where people were while something else was happening.
 
-Cala was at the table.
+I had spent enough of my first life around camp music to know the difference.
 
-Lyssa had pale cloth folded beside her and dark thread across one finger.
+Formal songs had beginnings.
 
-I put the two eggs down.
+Somebody announced them.
 
-Cala looked at them.
+Somebody expected silence.
 
-"Mera."
+Camp songs happened because there were twenty people waiting for rain to stop and one idiot owned a flute.
 
-"Payment for message carrying. Mine, apparently."
+This was closer to that.
 
-"One yours," Cala said. "One house."
+Except nobody here was trapped by weather.
 
-I considered the legal structure.
+They had simply stayed.
 
-"Accepted."
+The singer finished the shoe verse.
 
-Lyssa looked up.
+The woman tapping her knee looked at me.
 
-"Basket?"
+Noticed the crutches first.
 
-"Olan repaired it. One bit if simple. It was simple. Mera approved before he started. She pays on collection."
+Then my face.
 
-"By noon?"
+Then the fact that I had been standing in the entrance for long enough to qualify as architecture.
 
-"Yes."
+She pointed at the broken-arm bench.
 
-Lyssa nodded and went back to her work.
+"Sit."
 
-That was the whole effect on her business.
+I almost laughed.
 
-No Greg delivery route.
+"There it is."
 
-No partnership.
+"What?"
 
-No optimization meeting.
+"Nothing."
 
-Her cloth would go because the person she had already arranged to carry it would have her basket back.
+I moved toward the bench.
+
+It was not empty exactly.
+
+A coil of thin rope occupied one end.
+
+A folded apron occupied the other.
+
+The middle was available.
+
+I set one crutch against the wall.
+
+The second wanted to slide.
+
+The potter reached behind himself without turning and handed me a small wedge of clay.
+
+I stared at it.
+
+He pointed to the floor.
+
+I put the clay against the crutch tip.
+
+It held.
+
+"Temporary infrastructure," I said.
+
+He looked at me.
+
+"Clay."
+
+"Local terminology remains brutal."
+
+He returned to his bowls.
 
 I sat.
 
-Cala cracked the house egg into a bowl.
+Right foot forward.
 
-My egg remained on the table.
+Left knee clear.
 
-Tavi appeared.
+Bag still high.
 
-I covered it with one hand.
+No problem.
+
+The broken arm on the bench was the far arm, which meant I had one usable side for pushing up later.
+
+Good enough.
+
+The song began again.
+
+The chorus was easier now.
+
+The singer looked at me during the first line.
+
+"You know it?"
+
+"Not enough to damage it responsibly."
+
+"Chorus."
+
+"I have identified the chorus."
+
+"Then sing."
+
+There were invitations that required thought.
+
+This one required a mouth.
+
+The chorus came.
+
+The others joined.
+
+I did too.
+
+"Keep the flame low,
+keep the door wide,
+leave enough room for the late one inside."
+
+My timing was half a beat behind on the first line.
+
+Correct by the third.
+
+The boy shouted the last word.
+
+"OUTSIDE."
+
+Everyone ignored him.
+
+The singer started the next verse.
+
+I sat back.
+
+Apparently that was all the admission process required.
+
+No name.
+
+No money.
+
+No work.
+
+No proof I had ever sung anything before.
+
+The held note returned.
+
+Violet blink.
+
+Low hum beneath the strings.
+
+The next verse was about a roof repair.
+
+At least I thought it was.
+
+The singer used a word I did not know.
+
+Not because the object was fantastical.
+
+Because local songs enjoyed compressing language until only people raised within five streets could survive it.
+
+The woman beside me saw my face.
+
+"Rain lip."
+
+"Ah."
+
+That made the line make sense.
+
+Some kind of old slang for roof edge or gutter lip.
+
+I knew roof edges.
+
+I did not know this lyric.
+
+Important distinction.
+
+The singer reached the chorus.
+
+I joined on time.
+
+The hold bead continued under us.
+
+A girl carrying two glazed bowls entered the court and sang only the second line while passing through.
+
+She never stopped walking.
+
+"Keep the door wide."
+
+Then she was gone.
+
+I smiled before I could stop myself.
+
+The woman beside me noticed.
+
+"First time?"
+
+"Here."
+
+"Song?"
+
+"This version."
+
+She nodded.
+
+"Everybody changes it."
+
+"That explains the boy."
+
+The boy said, "Door red."
+
+"You are the strongest evidence."
+
+He looked pleased.
+
+The singer played a little run down the strings.
+
+The held note vanished.
+
+Then she tapped the brass bead with the edge of her thumbnail.
+
+It gave a dry click.
+
+She turned it half a notch.
+
+I recognized the adjustment.
+
+Shorter hold.
+
+Useful when the harmony changed faster.
+
+I did not ask.
+
+She played.
+
+The next sustained note lasted maybe two breaths instead of four.
+
+Better for the new song.
+
+This one was faster.
+
+No chorus at first.
+
+The potter abandoned his bowl long enough to clap his hands twice.
+
+Someone in the workshop behind us knocked metal against wood in rhythm.
+
+Not intentionally at first.
+
+Then intentionally.
+
+The song acquired percussion by accident.
+
+I knew this one.
+
+Not the local words.
+
+The tune.
+
+I had heard variants in three regions during my first life.
+
+A road rhythm.
+
+Old enough that nobody had a credible claim to ownership.
+
+The words usually changed based on what travelers hated that year.
+
+Mud.
+
+Tolls.
+
+Bad horses.
+
+Worse officers.
+
+This version began with a cart wheel.
+
+Of course it did.
+
+I laughed.
+
+The singer looked at me.
+
+"You know."
+
+"Tune."
+
+"Then take line."
 
 "No."
 
-"Mine."
+"Take line."
 
-"You have a concerning theory of property."
+"I know the tune, not your words."
 
-"Door red."
+"Make words."
 
-"Denied."
+There were limits.
 
-He wandered away.
+I had found one.
 
-I looked at the narrow scrap in my bag.
+"No."
 
-There was room below the magic numbers.
+The potter said, "Coward."
 
-I did not write the basket repair.
+"You have clay on both eyebrows."
 
-Not because it had been uninteresting.
+He touched one eyebrow.
 
-It had been useful.
+There was clay there.
 
-Old carry tie.
+The court laughed.
 
-Attachment failure first.
+The singer did not let me escape.
 
-Existing magical thread still serviceable.
+She played the road rhythm again.
 
-Handle foot moved one reed over because old holes had widened.
+"One line."
 
-Fresh ordinary binding.
+I had been forced into worse things.
 
-One set pulse.
+Usually with weapons.
 
-Load test.
+I listened to the beat.
 
-One bit if simple.
+Simple.
 
-All clean facts.
+Four stresses.
 
-But they belonged to a repair I had watched, not a problem I needed to solve.
+Room for eight or ten syllables depending on how much dignity you were willing to lose.
 
-I could remember enough.
+I looked toward the court entrance.
 
-More importantly, I had carried the basket to Olan, carried one message to Mera, carried one approval back, and stopped.
+A delivery cart was trying to turn around outside.
 
-The two eggs were the only thing the work had turned into for me.
+The driver had approached the problem from three directions and improved none of them.
 
-One of those had already become household property by treaty.
+Fine.
 
-I picked up the remaining egg.
+I sang:
 
-Yesterday I had moved a paper square at near and failed to move it at middle and far.
+"Turn it left and swear it's right."
 
-Today I had moved a broken basket through three lanes without breaking the other handle.
+The court answered with laughter.
 
-The second achievement was less magical.
+The singer pointed at me.
 
-It had also paid better in breakfast.
+"Again."
 
-I put the egg beside Cala's bowl.
+The driver outside shouted something I could not hear.
 
-"House can have both."
+I continued:
 
-Cala said, "Why?"
+"Block the lane till nearly night."
 
-"I am investing in soup."
+The metal worker behind us hit wood twice.
 
-"Egg."
+The boy yelled, "DOOR RED."
 
-"A diversified portfolio."
+"That is not part of this song."
 
-She shook her head and cracked it.
+"It is now," the woman beside me said.
+
+The singer went into the next line herself.
+
+Something about a wheel that had married a curb.
+
+The potter added one about a mule refusing legal testimony.
+
+I did not understand the reference.
+
+Everybody else did.
+
+That was fine.
+
+I joined the repeated tune when it came around.
+
+Not because I had been assigned a part.
+
+Because I knew where the notes went.
+
+That was new enough to notice.
+
+We sang through four improvised verses.
+
+Maybe five.
+
+The border between verse and argument became unstable.
+
+A man from the workshop objected to the potter's claim that clay dust improved bread.
+
+The potter said nobody had mentioned bread.
+
+The man said the rhyme clearly implied bread.
+
+The singer played louder until both stopped.
+
+The held bead flashed violet beneath the bridge and left a low chord hanging under her scolding.
+
+Magic used for its highest purpose.
+
+Winning an argument by remaining louder after your hands had stopped.
+
+I approved.
+
+Then the singer set the instrument flat across her lap.
+
+"Water."
+
+The song ended.
+
+No applause.
+
+The potter went back to the bowl.
+
+The boy finished tying the sticks.
+
+The woman beside me stood and carried her apron into a doorway.
+
+Half the court disappeared into work within a minute.
+
+I remained on the bench.
+
+That created a new question.
+
+Was I supposed to leave when the music stopped?
+
+No one had announced anything.
+
+The singer drank from a narrow cup.
+
+She looked at me.
+
+"You staying?"
+
+"I don't know."
+
+"Good answer."
+
+This city was developing a philosophy.
+
+I looked at the instrument.
+
+"Old bead."
+
+She followed my eyes.
+
+"Older than me."
+
+"Still clean."
+
+"Mostly."
+
+"Short and long hold both?"
+
+"Three."
+
+I had only seen two positions.
+
+She turned the bead a fraction past the half-notch.
+
+"Long."
+
+Another.
+
+"Short."
+
+Then she pressed inward.
+
+The bead clicked.
+
+"No hold."
+
+"Useful."
+
+She looked at me.
+
+"You play?"
+
+"Not that."
+
+"Anything?"
+
+I considered the question.
+
+Old Greg had learned enough instruments to embarrass himself in several countries.
+
+Mostly practical camp things.
+
+Whistle.
+
+Drum badly.
+
+A little string work.
+
+Enough to accompany people who knew what they were doing.
+
+Not enough to deserve confidence.
+
+"Some."
+
+"What?"
+
+"Depends how charitable the audience is."
+
+She grunted.
+
+"Bad then."
+
+"Professionally."
+
+She smiled.
+
+I did not ask to touch the instrument.
+
+She did not offer.
+
+That boundary required no discussion.
+
+The woman with the apron came back carrying a bowl.
+
+She handed it to the singer.
+
+The singer drank, then looked at me.
+
+"Name?"
+
+"Greg."
+
+She pointed at herself.
+
+"Nemi."
+
+Name delivered after music.
+
+Not before.
+
+The woman with the apron repeated my name once as if fitting it to my face.
+
+"Greg."
+
+"That remains correct."
+
+She nodded and went back through the doorway.
+
+I nodded to Nemi.
+
+"Good song."
+
+"Which?"
+
+"All of it."
+
+"That means none."
+
+"Then the road one."
+
+"Bad song."
+
+"The best kind."
+
+She drank again.
+
+The potter said, "He made cart line."
+
+Nemi looked at me.
+
+"That line stays."
+
+"No."
+
+"Stays."
+
+"I revoke it."
+
+"You sang. Gone now."
+
+The woman with the apron said, "Public property."
+
+I had apparently donated to culture.
+
+This was alarming.
+
+"At least improve it."
+
+Nemi picked up the instrument.
+
+"No."
+
+She plucked the opening rhythm.
+
+The hold bead blinked.
+
+The potter sang my first line immediately.
+
+"Turn it left and swear it's right."
+
+The boy shouted the second.
+
+"Block the lane till nearly night."
+
+Then he added:
+
+"DOOR RED."
+
+Nemi stopped playing.
+
+Everyone looked at him.
+
+He looked back.
+
+Nemi said, "No."
+
+At last.
+
+Authority.
+
+The boy seemed wounded.
+
+I laughed until my ribs hurt.
+
+Not badly.
+
+Just enough to remind me that I had been sitting for a while.
+
+I looked at the light in the court.
+
+Later than when I entered.
+
+Home was still east.
+
+I should go.
+
+This time the thought did not feel like an assignment.
+
+Just time.
+
+I reached for the crutches.
+
+The clay wedge had dried slightly against one tip and wanted to come with me.
+
+I knocked it loose.
+
+The potter held out his hand.
+
+I gave it back.
+
+He looked at the crutch-tip impression pressed into one side.
+
+"Keep?"
+
+"Your clay."
+
+He turned the piece over.
+
+"Mark."
+
+"Crutch."
+
+"Mark."
+
+He set it beside the damp bowls.
+
+Maybe he would reuse it.
+
+Maybe fire it.
+
+Maybe throw it back in the clay bucket.
+
+Not my object.
+
+The singer watched me stand.
+
+Right foot under.
+
+Hand on the good bench arm.
+
+One crutch braced.
+
+Push.
+
+Up.
+
+Easy.
+
+The bag settled back against my left ribs when I turned on the first notch.
+
+Nemi said, "Tomorrow?"
+
+I stared.
+
+She laughed before I could answer.
+
+"No. Not tomorrow."
+
+"Thank you."
+
+"Maybe next."
+
+"Strong scheduling."
+
+She waved me away.
+
+I left.
+
+For the second day in a row, I had spent part of an hour somewhere I had not intended to be.
+
+Yesterday somebody had opened a chair.
+
+Today I had stopped on my own.
+
+That difference was small enough to miss if I wrote it down.
+
+So I did not.
+
+On the way home, I heard the road rhythm again.
+
+Not from the court.
+
+A boy pushing a handcart two lanes over was humming it.
+
+Not my line.
+
+Just the tune.
+
+He had probably known it for years.
+
+Good.
+
+My contribution to Carrow remained containable.
+
+At home, Tavi was lying on the courtyard stones with both arms spread.
+
+I looked at Cala.
+
+"Alive?"
+
+"Hot."
+
+"Reasonable."
+
+Lyssa sat near the kitchen doorway, cutting a loose thread from a dark sleeve.
+
+She looked at me.
+
+"You sing?"
+
+I stopped.
+
+"How?"
+
+She pointed toward the lane.
+
+Apparently sound traveled.
+
+Or the city had spies.
+
+"Nemi?"
+
+I asked.
+
+Lyssa nodded.
+
+"You know Nemi."
+
+"Yes."
+
+Of course.
+
+I set the bag down.
+
+"Cala?"
+
+Cala looked up.
+
+"Nemi red scarf?"
+
+"Yes."
+
+She nodded.
+
+Of course.
+
+"How does everyone know everyone except me?"
+
+Lyssa said, "You know now."
+
+That was difficult to argue with.
+
+Tavi sat up.
+
+"Sing."
+
+"No."
+
+"Sing."
+
+"No."
+
+Lyssa smiled.
+
+"Road song."
+
+"I made one terrible line under pressure."
+
+"Sing."
+
+"This household has become hostile."
+
+Cala said, "Sing."
+
+Betrayal from every direction.
+
+I gave them the rhythm first by tapping two fingers against the table.
+
+Then the line.
+
+"Turn it left and swear it's right."
+
+Lyssa laughed immediately.
+
+Cala smiled.
+
+Tavi shouted, "DOOR RED."
+
+I froze.
+
+"How do you know that?"
+
+Nobody answered.
+
+Tavi shouted it again.
+
+"DOOR RED."
+
+The city had become too small.
+
+Lyssa tapped the rhythm back.
+
+"Next."
+
+I gave them the second line.
+
+"Block the lane till nearly night."
+
+Cala repeated it once.
+
+Not singing.
+
+Testing the shape.
+
+Then she added a line of her own in the same rhythm.
+
+"Charge him twice and call it light."
+
+I stared at her.
+
+Lyssa laughed so hard she bent forward.
+
+"Where did that come from?"
+
+Cala shrugged.
+
+"Song."
+
+Apparently I had underestimated her criminal history.
+
+Tavi shouted, "DOOR RED."
+
+"Still no."
+
+We built one more verse.
+
+Mostly Lyssa.
+
+Cala contributed a rhyme about burnt rice that did not fit the cart theme and therefore fit the song perfectly.
+
+I did not write any of it down.
+
+That seemed important too.
+
+Some things survived because people repeated them.
+
+Not because I recorded them.
+
+The next morning, I left the house with no list again.
+
+The bag held my notes and charcoal.
 
 The three copper stayed upstairs.
 
-The three clean sheets stayed clean.
+At the first lane, someone was sweeping dust toward the gutter.
 
-My bag had carried charcoal, notes, two eggs, and no new profession.
+At the second, a baker was arguing with a flour sack.
 
-By noon, Mera's basket was gone from Olan's lane.
+At the third, a girl carrying two baskets hummed the road tune.
 
-I knew because I did not go check.
+I knew the next phrase.
 
-Lyssa's finished cloth disappeared from our table shortly after.
+She did not sing it.
 
-I knew because Mera came to the door, said, "Got it," took the wrapped pieces, and left with the repaired basket hanging from both hands.
+Neither did I.
 
-The handle held.
+I kept walking.
 
-The old green knot showed no light at all.
-
-It did not need to.
-
-Some magic announced itself.
-
-Some magic made a basket slightly less unpleasant to carry.
-
-And sometimes the useful thing was simply knowing which handle was yours.
+For once, knowing where the second line went was enough.

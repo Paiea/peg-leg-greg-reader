@@ -1,986 +1,68 @@
 # CHAPTER 259
 
-## THE SHEPHERD
+## THE STRANDED
 
-Lyssa left west before I finished breakfast.
+Sera's bowl went back before breakfast became lunch.
 
-Not west in the philosophical sense.
+This was less impressive than it sounds because she lived one floor below us.
 
-Actual west.
+I carried it under my left arm.
 
-Jessa's message had apparently contained enough information to move a person across Carrow without explaining itself to me.
+This worked for four steps.
 
-Lyssa packed the dark cuff, the small paper packet, two other pieces of cloth I had not seen before, and the narrow tool roll she used often enough that I had stopped asking what each tool did.
+Then the bowl began slipping against my coat, which forced my left elbow outward, which changed the crutch angle, which made the entire arrangement stupid.
 
-The brown cloth remained folded by the wall.
+I stopped on the landing.
 
-Three pins.
+The cracked green door was six feet away.
 
-My damaged shirt remained on the shelf.
+I looked at it.
 
-Three loose threads.
+Then at the bowl.
 
-The world had survived another night without identifying either one for me.
+Then tucked the bowl inside my coat.
 
-"Late?" I asked.
+Not fully.
 
-"Maybe."
+Enough.
 
-"North?"
+The door opened before I knocked.
 
-She looked at me.
+Sera looked at me.
 
-"West."
+Then at the wooden rim sticking out from my coat.
 
-"I was testing consistency."
+"What are you doing?"
 
-"Failed."
+"Returning property."
 
-She kissed me, took her work bag, and left.
+"Inside your shirt?"
 
-No theatre note waited under the door.
+"Coat."
 
-No Hessa paper.
+"That makes it normal."
 
-No Vale runner.
+"Yes."
 
-No crate.
+She held out both hands.
 
-I ate the rest of breakfast and discovered I did not need lamp oil, onions, salt, washing, a haircut, or immediate medical supervision.
+I gave her the bowl.
 
-This was becoming irresponsible.
+Clean.
 
-I decided to buy cord.
+Dry.
 
-Not because the household had entered a cord crisis.
-
-Because yesterday we had owned one useful length and today Marra's buckle crate owned it instead.
-
-Cord was cheap enough to replace before the loss became an argument and ordinary enough that I did not need Lyssa to write a list.
-
-I took my coat and went out.
-
-The courtyard was quiet.
-
-Cala's little barrow was back beneath the stair. Someone had turned it around so the handles pointed inward instead of toward the passage.
-
-No accusation had been nailed to our door.
+Unbroken.
 
 Success.
 
-Orren was gone.
+Sera checked it because apparently everyone had become Hessa.
 
-Sera's cracked green door was closed.
+"Beans?"
 
-The lowest step had no chalk city on it.
+"Gone."
 
-I went toward the lower market.
-
-Yesterday's rain had mostly left the streets. It remained in black seams between stones, under cart wheels, and in the smell of wet timber where awnings had not fully dried. The gutters carried only thin streams now.
-
-The cord seller I knew was not a cord seller.
-
-He sold rope, twine, straps, basket handles, small hooks, and enough miscellaneous binding material that calling him the cord seller was unfair to several shelves.
-
-I bought two lengths.
-
-One to replace what we had lost.
-
-One because buying exactly one replacement after discovering we could lose cord seemed like refusing evidence.
-
-The seller wound both around my hand, tied them together loosely, and said, "Bag?"
-
-"No."
-
-He looked at the crutches.
-
-Then tucked the bundle through my coat belt instead.
-
-"There."
-
-"You all coordinate."
-
-"Who?"
-
-"People selling me things."
-
-He had already moved on.
-
-I left.
-
-The first scream came from two lanes over.
-
-Not theatrical.
-
-Not even particularly good.
-
-Short. High. Followed by a crash.
-
-Then several people shouted different instructions at once.
-
-That was more convincing.
-
-I stopped at the corner.
-
-The market ahead had changed shape.
-
-People were backing away from the lane between a grain stall and a cooper's yard. A handcart stood sideways. One basket had overturned. Apples rolled across wet stone.
-
-Something low moved beneath the cart.
-
-I saw blue first.
-
-Not cloth.
-
-Light.
-
-Three narrow lines of blue shimmer moved along a dark back and vanished beneath the cart axle.
-
-My first thought arrived before the second.
-
-Slateback.
-
-The second thought was that it was too small.
-
-Juvenile.
-
-Maybe four feet from nose to tail. Six legs. Low belly. Broad wedge of a head with no visible ears. Overlapping dark plates ran from shoulders to tail, each plate edged in cloudy blue light that pulsed once when someone yelled.
-
-A man beside the grain stall had a broom raised like a spear.
-
-"Don't hit it," I said.
-
-He looked at me.
-
-"What?"
-
-"Don't hit it."
-
-The slateback shoved farther under the handcart.
-
-Its back plates brightened.
-
-Blue.
-
-Still blue.
-
-Good.
-
-A woman holding a child said, "It's charging."
-
-"No."
-
-She looked at me too.
-
-This was rapidly becoming public speaking.
-
-The man with the broom said, "It sparked."
-
-"Blue?"
-
-"What?"
-
-"Was the light blue?"
-
-He stared at the animal.
-
-"Yes."
-
-"Then it's scared."
-
-The slateback made a sound like stone scraping stone.
-
-The child began crying.
-
-A butcher from the opposite side of the lane stepped out holding a cleaver.
-
-That was worse.
-
-"Put that away."
-
-He looked at me.
-
-"You know it?"
-
-"Yes."
-
-Not maybe.
-
-Not from a book.
-
-Not from a story.
-
-I had slept beside slateback burrows in the eastern cuts, cursed them for eating mineral paste from wagon axles, watched one overturn a cooking rack because somebody salted meat too close to camp, and once spent half a day helping a caravan master convince three juveniles that a road marker was not edible.
-
-Old knowledge settled into place cleanly.
-
-No fog.
-
-No historical correction.
-
-Slateback.
-
-Juvenile.
-
-Frightened.
-
-Probably washed out of a drainage cut or driven uphill by yesterday's water.
-
-The butcher said, "It'll bite."
-
-"If you put your hand near its mouth, probably."
-
-"Helpful."
-
-"Put the cleaver away."
-
-The slateback scraped backward.
-
-Its tail hit the cart wheel.
-
-The plates flashed brighter.
-
-Blue edged toward violet.
-
-My stomach tightened.
-
-"Everyone back."
-
-People were already back.
-
-"More. Give it the lane."
-
-Nobody moved.
-
-A man near the cooper's yard said, "Why?"
-
-"Because if those plates go white, it stops being frightened and starts discharging."
-
-That moved people.
-
-Good.
-
-The butcher lowered the cleaver.
-
-The broom man lowered the broom.
-
-A woman behind me said, "White does what?"
-
-"Hurts."
-
-I did not need to explain conductivity while standing on damp stone.
-
-Someone farther back shouted, "Get the watch."
-
-Another voice said, "Already sent."
-
-Fine.
-
-The slateback remained under the cart.
-
-Blue-violet.
-
-Not white.
-
-I knew the posture now too.
-
-Head low. Front pair folded inward. Rear legs braced. Not attack.
-
-Waiting for the walls to stop moving.
-
-The lane was still wrong.
-
-People had backed away but formed a half circle around both ends.
-
-To a frightened animal, we had made a larger cage.
-
-"Open the north end," I said.
-
-The cooper said, "Why north?"
-
-I looked at the slope.
-
-Not north because slatebacks preferred north.
-
-North because the north lane rose and opened toward a wider stone court with fewer stalls.
-
-The south end narrowed beside hanging cloth and two tethered goats.
-
-"More space. No goats."
-
-The cooper looked south.
-
-Then north.
-
-"Right."
-
-He started moving people himself.
-
-Good.
-
-Not everyone needed Greg to understand animals.
-
-The butcher put away the cleaver and helped pull the handcart farther left without touching the slateback's hiding place. The woman with the child moved into the grain shop. Two boys who had been trying to see under the cart got dragged backward by an older woman who called one of them an idiot with professional confidence.
-
-The north lane opened.
-
-The slateback did not move.
-
-Of course not.
-
-Animals did not become cooperative because humans had finally stopped making the obvious mistake.
-
-I looked at the grain stall.
-
-Salt sacks.
-
-No.
-
-Grain.
-
-The cooper's yard had glue, hoops, shavings.
-
-The butcher had blood.
-
-Wrong.
-
-What did a juvenile follow when frightened?
-
-Mineral scent.
-
-Old camps came back clearly.
-
-Salt blocks.
-
-Chalk.
-
-Ash with lye washed out.
-
-Anything it could smell as mineral-rich without approaching fire.
-
-I looked at the grain seller.
-
-"Do you have salt?"
-
-He blinked.
-
-"Some."
-
-"Loose?"
-
-"Why?"
-
-"It'll follow it."
-
-The broom man said, "You said it's not hungry."
-
-"I said it's scared. Scared things can still smell."
-
-The grain seller disappeared into his stall.
-
-A different man near the edge of the crowd said, "Slateback?"
-
-I turned.
-
-He was older, broad shouldered, wearing a leather apron darkened by rain at the bottom.
-
-"Yes."
-
-He squinted beneath the cart.
-
-"Young one."
-
-"Yes."
-
-He nodded once.
-
-Relief moved through me for a reason I did not expect.
-
-Not because I needed validation.
-
-Because somebody else knew what the damn thing was.
-
-"Hill country?" I asked.
-
-"North quarries."
-
-"Then you know the plates."
-
-"Blue is fear. White is bad."
-
-"Exactly."
-
-The woman behind me said, "How bad?"
-
-The quarry man said, "Bad enough to move."
-
-Better answer.
-
-The grain seller returned with a wooden scoop holding coarse salt.
-
-I looked at the north lane.
-
-"Put a little there. Then farther. Trail, not pile."
-
-He hesitated.
-
-The quarry man said, "He's right."
-
-That ended the debate faster than my face had.
-
-Fair.
-
-The grain seller scattered a pinch six feet from the cart.
-
-Then another farther north.
-
-Then another.
-
-The slateback's head moved.
-
-Tiny movement.
-
-Nose first.
-
-Blue light eased one shade darker.
-
-The crowd noticed and made the dangerous human sound of collective excitement.
-
-"Quiet," I said.
-
-Too late.
-
-Someone whispered loudly, "It's moving."
-
-The slateback froze.
-
-Blue brightened.
-
-The quarry man turned around.
-
-"Shut up."
-
-Excellent authority.
-
-Silence improved.
-
-The animal waited.
-
-Then unfolded its first pair of legs.
-
-One.
-
-Two.
-
-Six total, moving in a low rolling sequence I remembered immediately.
-
-It came out from beneath the cart.
-
-Several people stepped back again.
-
-Good instinct this time.
-
-The slateback's body was narrower than the plates made it look. Mud covered one flank. A raw patch showed behind the second left leg where something had scraped off the outer scale.
-
-No blood worth worrying about.
-
-Its eyes were black and small.
-
-It sniffed the first salt patch.
-
-Licked stone once.
-
-Then followed the next.
-
-The grain seller looked at me.
-
-"More?"
-
-"Yes. Don't crowd it."
-
-He moved along the lane scattering small pinches.
-
-The slateback followed.
-
-Slowly.
-
-At the wider court, it stopped.
-
-The salt trail ended.
-
-This was where incomplete planning became visible.
-
-The quarry man said, "Where are you taking it?"
-
-Good question.
-
-I had taken it out of the market lane.
-
-I had not taken it anywhere useful.
-
-Old Greg had usually dealt with slatebacks outside cities.
-
-Road cut. Camp. Quarry edge. Dry creek bed.
-
-This one was in Carrow.
-
-Forty years earlier.
-
-Different streets.
-
-Different drains.
-
-I did not know where current Carrow wanted displaced magical wildlife.
-
-Excellent.
-
-"Not sure yet," I said.
-
-The quarry man grunted.
-
-No disappointment.
-
-Just information.
-
-A woman wearing a dark green city coat pushed through from the south with two watchmen behind her.
-
-Not city watch exactly. Market wardens, maybe. I recognized the coat from market disputes but had never needed the distinction.
-
-She stopped when she saw the slateback in the open court.
-
-Then the salt trail.
-
-Then me.
-
-"Who moved it?"
-
-The grain seller pointed at me.
-
-Traitor.
-
-I raised one hand.
-
-"Mostly itself."
-
-The quarry man said, "He knew the animal."
-
-The woman looked at him.
-
-"You?"
-
-"Quarries."
-
-She nodded.
-
-Then looked at me again.
-
-"You?"
-
-There were several answers.
-
-Old life.
-
-Roads that had not happened yet.
-
-Forty years of experience belonging to a man who no longer existed in the right order.
-
-I chose the useful one.
-
-"Travel."
-
-True enough.
-
-"What is it?"
-
-"Juvenile slateback. Frightened. Plates stayed blue."
-
-The quarry man added, "Went violet once. No white."
-
-The warden looked at the animal.
-
-"Injured?"
-
-"Scraped flank. Walking fine."
-
-She crouched slightly, not close enough to threaten it.
-
-Competent.
-
-"Flood channel," she said to one of the watchmen.
-
-He nodded.
-
-"West spillway?"
-
-"Too crowded. Old lime cut."
-
-I did not know the old lime cut.
-
-Good.
-
-The city had procedures I did not.
-
-She looked at the salt scoop.
-
-"Can you keep it moving?"
-
-The grain seller looked offended.
-
-"That's my salt."
-
-The warden said, "Market pays."
-
-He immediately regained civic spirit.
-
-I looked at the quarry man.
-
-"You know the cut?"
-
-"Yes."
-
-The warden said, "Both of you, then."
-
-Not a title.
-
-Not employment.
-
-A temporary need.
-
-The slateback licked the last salt grains from the stone.
-
-Its plates had dimmed to a deep cloudy blue.
-
-"Fine," I said.
-
-We moved it.
-
-Not alone.
-
-The grain seller carried the salt.
-
-The quarry man walked ahead and told us which turn reached the old lime cut without passing the goat pens.
-
-One warden kept people back.
-
-The other went ahead to clear a narrow bridge.
-
-The woman in the green coat walked behind the slateback at enough distance that it did not care about her.
-
-I stayed slightly to the side.
-
-Crutches mattered here because I could not dart away if the animal suddenly turned.
-
-So I did not stand where darting away would be required.
-
-Old habit.
-
-Good habit.
-
-At one turn, the salt trail crossed a patch of standing water.
-
-I stopped the grain seller.
-
-"Edge. Not through."
-
-"Why?"
-
-"It can lose the scent."
-
-The quarry man said, "And they hate deep puddles."
-
-I looked at him.
-
-"They do?"
-
-"Quarry ones do."
-
-That was new.
-
-I had seen slatebacks cross streams without caring.
-
-Maybe quarry juveniles were different.
-
-Maybe local ones were.
-
-Maybe he was wrong.
-
-No reason to test it.
-
-We laid the salt around the edge.
-
-The slateback followed.
-
-At the bridge, a cart waited with the driver swearing quietly.
-
-The warden had stopped him.
-
-He saw the animal and stopped swearing.
-
-The slateback crossed.
-
-Its claws clicked on the boards.
-
-Blue light slid over its plates in the shadow beneath the bridge rail.
-
-Beautiful, annoyingly.
-
-Not holy.
-
-Not destiny.
-
-Just an animal with magic in its body doing its best not to be surrounded by idiots.
-
-I understood that.
-
-The old lime cut lay beyond a low wall at the edge of a less crowded industrial lane. The ground there rose into pale exposed stone, cracked and partly overgrown. Water from yesterday's rain still ran through one ditch.
-
-The slateback smelled the cut before we reached it.
-
-Its head lifted.
-
-Then it ignored the next salt patch.
-
-Good sign.
-
-"Stop feeding," I said.
-
-The grain seller lowered the scoop.
-
-The slateback turned toward the pale stone.
-
-One step.
-
-Then another.
-
-Its plates dimmed almost completely.
-
-It climbed the broken slope with six-legged ease, stopped halfway, and looked back.
-
-The market warden raised one hand.
-
-Nobody moved.
-
-The slateback scraped its jaw once against the lime face.
-
-Mineral dust fell.
-
-Then it disappeared into a dark split between stones.
-
-Done.
-
-For several seconds everyone remained still because movement felt disrespectful to the amount of work it had taken to achieve nothing happening.
-
-The grain seller looked into his scoop.
-
-"That's a lot of salt."
-
-The warden said, "Market pays."
-
-He nodded.
-
-Still good.
-
-The quarry man looked at me.
-
-"Travel where?"
-
-Dangerous question.
-
-"East. South. Roads."
-
-"Slatebacks south?"
-
-"Some."
-
-He frowned.
-
-Not suspicious.
-
-Interested.
-
-"Bigger?"
-
-"Sometimes."
-
-That was true enough to survive.
-
-He nodded.
-
-"Quarry ones stay smaller."
-
-Maybe they did now.
-
-Maybe local population.
-
-Maybe forty years changed food, range, or what people called a slateback.
-
-My knowledge had worked cleanly where it mattered.
-
-It did not need to become universal.
-
-The market warden looked at me.
-
-"Name?"
-
-"Greg."
-
-"Work?"
-
-I almost said theatre.
-
-Then realized she had probably asked because city people enjoyed categories.
-
-"Theatre sometimes. Other work sometimes."
-
-She looked at the crutches, then at me.
-
-"You handle animals?"
-
-"No."
-
-The answer came quickly enough that the quarry man laughed.
-
-The warden did not.
-
-"You did today."
-
-"I knew this one."
-
-"Species."
-
-"Yes."
-
-"Fine."
-
-She took out a small folded pad and wrote something.
-
-I did not ask what.
-
-Growth.
-
-Then she said to the quarry man, "You?"
-
-"Barek. North quarry yard."
-
-A name.
-
-I had learned it accidentally.
-
-Barek looked at me.
-
-"Greg."
-
-"Yes."
-
-"Theatre?"
-
-"Sometimes."
-
-"You the drowned one?"
-
-I closed my eyes.
-
-The grain seller laughed.
-
-The warden looked between us.
-
-"What?"
-
-"Nothing," I said.
-
-Barek said, "Bread woman told my sister."
-
-Of course.
-
-Carrow had defeated privacy again.
-
-I left before the slateback could become less interesting than my weather history.
-
-On the way back, the market had already begun repairing itself.
-
-Apples were back in baskets. The handcart had been straightened. The broom man was sweeping grain from wet stone with the same broom he had nearly used as a weapon. The butcher was cutting meat again.
-
-The grain seller had not returned yet.
-
-His apprentice stood behind the stall telling a customer, "Slateback."
-
-The customer said, "Dangerous?"
-
-The apprentice held his hands apart much wider than the animal had been.
-
-"Huge."
-
-Excellent.
-
-By tomorrow it would have wings.
-
-I bought bread.
-
-Not because we were out.
-
-Because the baker had bread and I had money and apparently surviving magical wildlife incidents did not feed people either.
-
-At home, Lyssa was still west.
-
-The room was empty.
-
-I put the two new lengths of cord on the shelf.
-
-One replacement.
-
-One reserve.
-
-Then I noticed that I had spent the morning doing exactly what the long dead version of me had done hundreds of times without thinking much about it.
-
-Not fighting.
-
-Not casting.
-
-Not winning.
-
-Seeing an animal and knowing what not to do.
-
-That should have felt larger.
-
-It did not.
-
-It felt familiar.
-
-That was stranger.
-
-I sat by the window and ate bread.
-
-Lyssa returned near evening with her work bag heavier than when she left and a narrow wrapped bundle under one arm.
-
-She set both down.
-
-Saw the new cord on the shelf.
-
-"Two?"
-
-"Evidence-based purchasing."
-
-"You lost one."
-
-"Exactly."
-
-She took off her coat.
-
-"Day?"
-
-"Slateback."
-
-She stopped.
-
-"What?"
-
-Good.
-
-Finally a household response with proper scale.
-
-"Juvenile. Lower market."
-
-"Alive?"
+"Lyssa liked?"
 
 "Yes."
 
@@ -988,98 +70,1080 @@ Finally a household response with proper scale.
 
 "Also yes."
 
-"Anybody hurt?"
+"Good."
+
+There was that word again.
+
+I waited.
+
+Sera waited.
+
+This was the dangerous part of returning objects. Sometimes the object had been the entire conversation.
+
+I said, "Thank you."
+
+"You said that yesterday."
+
+"I remained grateful overnight."
+
+"Expensive habit."
+
+Then she shut the door.
+
+Not rudely.
+
+Efficiently.
+
+I stood on the landing for a moment with two empty hands on my crutches and no further obligation.
+
+Excellent.
+
+Upstairs, the room had nothing urgent in it.
+
+The brown cloth remained folded near the wall with three pins.
+
+The damaged shirt remained three loose threads.
+
+Lyssa's paper-wrapped packet from last night was gone.
+
+Her work bag was gone.
+
+Lyssa was gone.
+
+No note today.
+
+That was probably because she had told me last night she would be out early.
+
+I had listened.
+
+Another dangerous improvement.
+
+I ate the rest of the bread and considered whether to stay inside.
+
+The sky outside the window was gray without commitment.
+
+Carrow did this sometimes.
+
+Clouds gathered.
+
+People looked up.
+
+Nothing happened.
+
+Then everyone felt foolish for having opinions about weather.
+
+I had no theatre call.
+
+No Hessa note.
+
+No Vale runner.
+
+No list.
+
+No bowl.
+
+I needed lamp oil eventually.
+
+Not urgently.
+
+Eventually was enough.
+
+I put on the better shirt under my coat, pale blue theatre streak still visible at one sleeve when the cuff shifted, checked both crutch tips, and went out.
+
+At the bottom step, yesterday's chalk road was gone.
+
+Mostly.
+
+A pale line still lived in one crack.
+
+Mina had not issued further municipal guidance.
+
+Tavi was nowhere visible.
+
+Neither was the pig.
+
+Good.
+
+The street smelled different under cloud.
+
+Less dust.
+
+More stone.
+
+A cart rolled past with three barrels tied down under canvas. The driver had covered the barrels but not himself, which suggested either confidence or poor forecasting.
+
+I went east first because the nearest oil seller was that direction.
+
+Not Olin.
+
+Different oil.
+
+Lamp oil for people who did not own a theatre.
+
+The shop was narrow enough that two customers created a crowd.
+
+One customer already occupied half of it.
+
+He was arguing about wick width.
+
+The shopkeeper held two coils.
+
+"They both fit."
+
+"Not the same."
 
 "No."
 
-She looked at me for another second.
+"I want the narrow."
 
-"What did you do?"
+"Then buy the narrow."
 
-"Salt."
+"I bought narrow."
 
-Her face changed.
+"Then what are we doing?"
 
-"Salt?"
+Good business.
 
-"They follow mineral scent when frightened."
+I waited by the door.
 
-"You knew that."
+The man eventually purchased the narrow wick he had apparently already decided to purchase.
 
-Not a question.
+He left.
 
-"Yes."
+The shopkeeper looked at me.
 
-She sat down slowly.
-
-I told her the short version.
-
-The short version included the broom, the cleaver, the plates going violet, Barek from the north quarry, the market warden, the salt trail, the lime cut, and the fact that apparently I had drowned strongly enough for quarry workers to know about it.
-
-Lyssa laughed at the last part.
-
-"This is not the important part."
-
-"It reached a quarry."
-
-"Greg."
-
-"Fine. Slateback."
-
-She leaned forward with her elbows on the table.
-
-"You remembered all of it?"
-
-There was the real question.
-
-I thought about the animal beneath the cart.
-
-Blue plates.
-
-Head low.
-
-Salt.
-
-Open lane.
-
-White meant move.
-
-No uncertainty where it mattered.
+"Oil?"
 
 "Yes."
 
-Lyssa nodded once.
+"How much?"
 
-No analysis.
+Reasonable question.
 
-No warning.
+I had not brought our bottle.
 
-No speech about Old Greg.
+Less reasonable Greg.
 
-She reached for the bread.
+I looked at the shelf behind him.
 
-"Good."
+Several reused bottles.
+
+Different sizes.
+
+"Small bottle."
+
+He pointed.
+
+"That small?"
+
+"How long?"
+
+"Depends how much light you use."
+
+"Excellent system."
+
+He looked at me.
+
+I chose the second-smallest bottle.
+
+Not because I had calculated consumption.
+
+Because the smallest looked insulting.
+
+The price was ordinary enough that I did not need to convert it into debt morality.
+
+I paid.
+
+The shopkeeper corked the bottle and wrapped a strip of rough cloth around the neck.
+
+"For grip."
+
+I looked at my crutches.
+
+Then at the bottle.
+
+"How do people usually carry this?"
+
+"Bag."
+
+"Hostile."
+
+He considered me for a second, then took a narrow cord from under the counter.
+
+He tied it below the bottle's shoulder, made a loop, and held it out.
+
+"Crutch."
+
+I looked.
+
+The loop could hang below the right grip without touching my hand.
+
+I tested it.
+
+Bottle swung once.
+
+Too much.
+
+He shortened the loop.
+
+Better.
+
+"That costs extra?"
+
+"No."
+
+"Why?"
+
+"You bought oil."
+
+Dangerous generosity.
+
+I nodded.
+
+"Thank you."
+
+He was already looking at the next person entering.
+
+Transaction complete.
+
+Outside, the first drop hit my forehead.
+
+One drop.
+
+Then another on the stone.
+
+Then nothing.
+
+I looked up.
+
+Bad habit.
+
+A third drop hit my cheek.
+
+Across the lane, a woman pulling cloth from a market hook said, "Move."
+
+I did not think she meant me.
+
+She meant everyone.
+
+The ribbon seller was already gathering her display.
+
+Two boys carried a basket under an awning.
+
+A fish seller threw a waxed cover over half his table and swore at the other half.
+
+The clouds had apparently decided.
+
+I turned home.
+
+The bottle hung from my right crutch.
+
+The first thirty steps were dry enough to feel clever.
+
+Then the rain arrived.
+
+Not drizzle.
+
+Rain.
+
+A full sheet of cold water dropped through the lane hard enough that the nearest stones changed color at once.
+
+People moved.
+
+That was the first problem.
+
+The street had routes when everyone was walking normally.
+
+Rain erased them.
+
+People cut toward awnings.
+
+Carts moved closer to walls.
+
+Shopkeepers pulled goods inward.
+
+A boy carrying bread ran directly across my path, apologized without stopping, and disappeared under a covered arcade.
+
+I planted both crutches and waited.
+
+Water hit my hair.
+
+My haircut offered no defense.
+
+My coat darkened at the shoulders.
+
+The lamp-oil bottle swung under my right hand.
+
+"Excellent."
+
+I moved toward the same arcade.
+
+Not fast.
+
+Fast with two crutches on wet stone was a category I respected too much to perform for weather.
+
+The right tip held.
+
+Left tip held.
+
+The stones near the gutter did not.
+
+I knew that before testing because water was already running over them in a shallow moving sheet.
+
+So I stayed closer to the building edge.
+
+Three people reached the arcade before me.
+
+Then five.
+
+Then more.
+
+By the time I got under cover, the arcade had become a temporary country.
+
+Everyone claimed six inches.
+
+A woman with two baskets stood against the wall.
+
+A delivery boy held a covered parcel above his head even though we were now dry.
+
+An old man had somehow brought a stool.
+
+This felt unfair.
+
+A young woman shook water from her sleeves directly beside me.
+
+The woman with baskets said, "Not here."
+
+The young woman stopped.
+
+"Sorry."
+
+Nobody introduced themselves.
+
+Good.
+
+The arcade ran along the front of four shops.
+
+Closed cloth seller.
+
+Open baker.
+
+Open tea stall.
+
+A cobbler who had pulled his bench farther inside and continued working as if weather were merely outside's problem.
+
+The rain hammered the street.
+
+Water came off the roof edge in a thick line three feet in front of us.
+
+No one was crossing that unless they had somewhere important to be.
+
+I did not.
+
+That should have been restful.
+
+Instead I looked down at my boots.
+
+Wet.
+
+Right trouser leg wet to the knee.
+
+Left side of my coat wetter because the rain had come from that direction.
+
+Residual limb comfortable.
+
+No slipping.
+
+Hands cold.
+
+Lamp oil intact.
+
+A successful expedition trapped by weather.
+
+I leaned both shoulders against the wall and settled.
+
+The delivery boy looked at my bottle.
+
+"Oil?"
+
+"Yes."
+
+"Bad timing."
+
+"I bought it dry."
+
+He considered that.
+
+"Still raining."
+
+"Your analysis is stronger."
+
+He smiled.
+
+Then looked back at the street.
+
+A cart tried to cross the intersection.
+
+The horse did not object.
+
+The wheel did.
+
+One wheel dropped into a gutter channel hidden under the running water and tilted enough that everyone under the arcade watched.
+
+The driver swore.
+
+A man from the tea stall stepped out under no cover at all and grabbed the rear wheel.
+
+Another man joined him.
+
+They pushed.
+
+The horse pulled.
+
+The wheel came free.
+
+The tea-stall man returned soaked from chest down.
+
+The stall woman handed him a cloth before he crossed the threshold.
+
+No applause.
+
+Carrow had moved a cart.
+
+Rain continued.
+
+I checked the lane home.
+
+Two streets.
+
+Then uphill.
+
+Normally nothing.
+
+Now the intersection carried ankle-deep runoff along one side.
+
+Not everywhere.
+
+Channels.
+
+The city's slope had become visible.
+
+Water chose routes I ignored on dry days.
+
+A covered drain near the opposite wall swallowed half of one stream.
+
+The other half went around a broken stone and widened.
+
+The delivery boy said, "You going west?"
+
+"Eventually."
+
+"Don't take Lower Tanner."
+
+"Why?"
+
+"Floods by the dye yard."
+
+Useful.
+
+"How much floods?"
+
+He held his hand near his ankle.
+
+"For you?"
+
+I looked at my crutches.
+
+He corrected himself.
+
+"For anybody."
+
+Better.
+
+"Other way?"
+
+"Cut north at Bell Lane."
+
+I knew Bell Lane.
+
+Narrow.
+
+Steeper.
+
+Usually crowded with handcarts.
+
+In rain, probably fewer handcarts.
+
+Maybe.
+
+"Thanks."
+
+He nodded.
+
+No name.
+
+Excellent.
+
+The old man with the stool had purchased tea somehow.
+
+I had missed the transaction.
+
+He drank.
+
+I began wanting tea because someone else had tea.
+
+This was a serious economic force.
+
+I bought tea.
+
+The stall woman gave it to me in a thick cup with no handle.
+
+Problem.
+
+Both hands belonged to crutches when standing.
+
+She looked at me.
+
+Then at the narrow ledge along the wall.
+
+"Sit."
+
+There was no chair.
+
+"Where?"
+
+She pointed lower.
+
+A stone lip ran beneath the shopfront, maybe eight inches high.
+
+Sit was generous.
+
+I lowered myself carefully.
+
+Right leg forward.
+
+Left knee bent.
+
+Crutches against the wall where nobody could kick them.
+
+Tea in both hands.
+
+Better.
+
+The stone lip was cold through my trousers.
+
+Still better.
+
+The old man on the stool looked at me.
+
+"You paid more for worse seating."
+
+"I bought tea."
+
+He lifted his cup.
+
+"Seat included."
+
+"Apparently."
+
+We drank.
+
+His stool remained superior.
+
+The rain softened after perhaps twenty minutes.
+
+Not stopped.
+
+Softened.
+
+Some people left immediately.
+
+Bad optimists.
+
+They crossed the street and became wet again.
+
+The woman with baskets waited.
+
+So did I.
+
+The delivery boy did not.
+
+He pulled his hood up, checked the parcel cover, and went north at a fast walk.
+
+His job had urgency.
+
+Mine had lamp oil.
+
+Different economy.
+
+I finished the tea.
+
+Returned the cup.
+
+The stall woman took it.
+
+"Bell Lane," she said.
+
+I looked at her.
+
+"You heard."
+
+"Everyone heard."
+
+Arcades were also surveillance states.
+
+"Lower Tanner bad?"
+
+She nodded.
+
+"Always in hard rain."
+
+"Why?"
+
+"Dye yard wall narrowed the drain."
+
+That sounded like a problem older than me.
+
+"Nobody fixed it?"
+
+She stared at me.
+
+I withdrew the question.
+
+Civilization survived.
+
+The rain eased again.
+
+This time enough that the roof edge became drops instead of a curtain.
+
+People began moving with more confidence.
+
+I waited one extra minute because I had recently learned what confidence did.
+
+Then took my crutches and stood.
+
+The right grip was slick from water I had carried inside on my hand.
+
+I wiped it on the dry part of my coat.
+
+The bottle loop still held.
+
+Bell Lane.
+
+North first.
+
+Then west.
+
+Longer route.
+
+Better drainage.
+
+I went.
+
+The first crossing was the hardest.
+
+Not because the water was deep.
+
+Because every visible stone lied about friction.
+
+I planted the right crutch.
+
+Test.
+
+Weight.
+
+Left.
+
+Test.
+
+Weight.
+
+Right foot.
+
+Move.
+
+Slow.
+
+A woman behind me sighed.
+
+I looked back.
+
+"Go around."
+
+She did.
+
+No apology.
+
+No tragedy.
+
+Good.
+
+Bell Lane rose enough that water ran beside rather than across most of the walking line.
+
+The delivery boy had been right.
+
+So had the tea-stall woman.
+
+The lane was nearly empty.
+
+One handcart stood under a cover with its owner sitting on the shafts eating something from a paper fold.
+
+A child floated a piece of bark in the gutter.
+
+It moved faster than I did.
+
+Hostile comparison.
+
+At the top of Bell Lane, the rain became fine enough to stop mattering except that I was already wet.
+
+Home was downhill one block and then across.
+
+I could see our building roof.
+
+For a moment this felt absurdly satisfying.
+
+Not survival.
+
+Navigation.
+
+A day had gone slightly wrong and then continued.
+
+I crossed carefully.
+
+At the building entrance, Mina stood under the overhang with a bucket catching water from somewhere it should not have been coming from.
+
+I stopped.
+
+The bucket sat beneath one corner of the overhang.
+
+Drip.
+
+Drip.
+
+Drip.
+
+Not from the sky.
+
+From the seam.
+
+Mina looked at me.
+
+"Don't."
+
+"I haven't said anything."
+
+"You'll make it a project."
+
+"I was going to ask if the roof leaks."
+
+"Overhang leaks."
+
+"Different jurisdiction."
+
+"Exactly."
+
+She shifted the bucket half an inch.
+
+The drip hit center.
+
+"Need help?"
+
+"No."
+
+This answer was immediate enough to respect.
+
+I went inside.
+
+The stairs smelled like wet coats.
+
+Someone had left shoes near the first landing.
+
+Not in the middle.
+
+Neighborhood civilization.
+
+Sera's cracked green door was closed.
+
+At the top floor, Orren's brass-latch door was open and a pair of wet trousers hung over a chair near it.
+
+I did not investigate.
+
+Growth.
+
+Our room was empty.
+
+Lyssa had not returned yet.
+
+I set the lamp-oil bottle on the table.
+
+Then looked at the cord.
+
+Useful.
+
+I left it tied around the neck.
+
+My coat came off heavy.
+
+I hung it.
+
+Water dripped onto the floor.
+
+I moved the coat over the basin.
+
+Better.
+
+The better shirt beneath was damp at the shoulders and one side.
+
+The pale blue paint streak looked darker while wet.
+
+Theatre returned through chemistry.
+
+I changed shirts.
+
+Not the damaged one.
+
+Another.
+
+The damaged shirt remained on the shelf with three loose threads and no new relevance.
+
+I dried the crutch grips.
+
+Then the shafts where my wet hands had run.
+
+Checked the tips.
+
+Both had held.
+
+No damage.
+
+Right foot cold.
+
+Sock damp near the toe.
+
+Residual limb comfortable.
+
+No skin problem.
+
+No heroic weather consequence.
+
+I changed the sock.
+
+Then I looked at the lamp.
+
+We had enough oil for tonight even before the new bottle.
+
+Of course.
+
+Eventually had remained eventually.
+
+I laughed.
+
+Outside, rain tapped lightly against the window.
+
+Carrow looked washed.
+
+Not clean.
+
+Different.
+
+The street below carried narrow dark tracks where runoff still followed the gutters.
+
+The dog from yesterday had relocated beneath a cart.
+
+Tavi's pig was not visible.
+
+I heated the last of the beans in a small pot because weather demanded something warm even when weather had no legal authority.
+
+Lyssa came home before dark.
+
+Dry.
+
+Mostly.
 
 I stared at her.
 
-"You all coordinate this word."
+She looked at me.
 
-"Still no."
+Then at my wet coat over the basin.
 
-She tore off a piece.
+Then back at me.
 
-The wrapped bundle stayed beside her work bag.
+"What happened?"
 
-West remained unexplained.
+"Rain."
 
-The slateback remained somewhere in the old lime cut unless it had already decided otherwise.
+She looked toward the window where the rain was still visibly happening.
 
-I had two lengths of cord again.
+"Yes."
 
-Tomorrow had no assignment.
+"I was out."
 
-Carrow did, however, contain at least one slateback.
+"Also yes."
 
-That made the city feel slightly more like the world I remembered.
+"How are you dry?"
 
-I was not sure whether that was comforting.
+"North arcade."
+
+I pointed at her.
+
+"There are arcades everywhere."
+
+"Several."
+
+"I found one."
+
+"Good."
+
+"Stop."
+
+She smiled.
+
+Her work bag was under her arm.
+
+No paper packet today.
+
+No pale cloth visible.
+
+No explanation.
+
+Fine.
+
+She took off her outer layer.
+
+Only the lower hem was wet.
+
+"Where did you go?"
+
+"Oil."
+
+She looked at the lamp.
+
+Then the new bottle.
+
+"We had oil."
+
+"Eventually."
+
+Lyssa looked at me.
+
+I raised one hand.
+
+"I know."
+
+She laughed softly.
+
+Then smelled the pot.
+
+"Sera?"
+
+"Last beans."
+
+"You returned bowl?"
+
+"Before rain."
+
+"Good."
+
+I pointed again.
+
+She ignored me and sat.
+
+I gave her the first bowl.
+
+Not Sera's bowl.
+
+Ours.
+
+Important.
+
+We ate.
+
+I told her Bell Lane stayed better in hard rain.
+
+She said, "Yes."
+
+Of course.
+
+I told her Lower Tanner flooded near the dye yard.
+
+She said, "Yes."
+
+Of course.
+
+I told her about the oil bottle cord.
+
+That interested her.
+
+She picked up the bottle, tested the loop, and nodded.
+
+"Keep it."
+
+"Obviously."
+
+"Not obvious. You throw useful string away."
+
+"I have standards."
+
+"You threw away three pieces last week."
+
+"Those were bad string."
+
+She looked at me.
+
+I had no evidence.
+
+We ate more beans.
+
+After supper, the rain stopped fully.
+
+The silence after it felt larger than the rain had.
+
+Water still dripped from roofs.
+
+Somebody downstairs moved the bucket.
+
+A cart passed with wet wheels making a softer sound on stone.
+
+I checked the window.
+
+Not because I expected danger.
+
+Because the city looked different.
+
+The route home had changed for an hour.
+
+Lower Tanner became bad.
+
+Bell Lane became good.
+
+An arcade became a room full of people without becoming anyone's home.
+
+A tea-stall woman knew the drainage problem.
+
+A delivery boy knew the alternate route.
+
+Mina knew the overhang leak was not the roof.
+
+Lyssa already knew all of it because apparently she had been living in Carrow while I was conducting research.
+
+I put more oil in the lamp.
+
+From the old bottle.
+
+The new one could wait.
+
+Tomorrow had no call.
+
+No bowl.
+
+No weather promise.
+
+For tonight, the floor was dry enough, the lamp was lit, and my coat was still dripping into the basin exactly where I had put it.
+
+The city had taught me another route by raining on the first one.
+
+That was rude.
+
+Useful.
+
+Mostly rude.

@@ -5,7 +5,7 @@ Manuscript-first evidence map for Lyssa's working world. This file is **canon su
 Audit basis:
 - exact recovered Chapters 156–219: `state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md`
 - permanent running manuscript from Chapter 220 onward
-- current manuscript state when this audit was completed, through Chapter 228
+- current manuscript state when this audit was completed, through Chapter 231
 
 No external research was used for this audit.
 
@@ -89,7 +89,7 @@ Progression:
 
 **Classification:** ESTABLISHED long-serial residue. The route becomes ordinary without a milestone speech.
 
-### ESTABLISHED — customers know Lyssa directly before Chapter 224
+### ESTABLISHED — customers know Lyssa directly before Chapter 227
 
 **Chapter 195:** inside Marra's active work room, one customer enters and greets Lyssa by name; another customer arrives and asks whether Lyssa has finished `the narrow one`; Lyssa answers `Tomorrow.`
 
@@ -135,14 +135,14 @@ The manuscript establishes use of:
 - a cloth shop that already knows Lyssa and can direct Greg toward Marra;
 - a dyer in the Chapter-178 blue-work route;
 - an unnamed thread seller two streets from Marra in Chapter 195;
-- **Maren**, a separate spool-sign thread/garment shop in Chapter 222 where Greg can present a cloth sample for matching thread and Lyssa later says `Maren usually does.`
-- **Chapter 246:** the same Maren counter woman remembers Greg narrowly as `Blue last time` when he returns with another sample. This graduates one small Greg/shop familiarity fact only. Her name remains unestablished; `Maren` is still not established as her personal name; no personal recognition of Lyssa by that seller is established; the shop remains a lighter supply node rather than a socially dense relationship.
+- **Maren**, a separate spool-sign thread/garment shop in Chapter 225 where Greg can present a cloth sample for matching thread and Lyssa later says `Maren usually does.`
+- **Chapter 249:** the same Maren counter woman remembers Greg narrowly as `Blue last time` when he returns with another sample. This graduates one small Greg/shop familiarity fact only. Her name remains unestablished; `Maren` is still not established as her personal name; no personal recognition of Lyssa by that seller is established; the shop remains a lighter supply node rather than a socially dense relationship.
 
 **Classification:** ESTABLISHED routes/use.
 
 **Continuity trap: MARRA ≠ MAREN.**
 - **Marra:** recurring green-door garment-work person/hub from Chapter 175 onward, with Jessa and customers.
-- **Maren:** separate later spool-sign supply shop from Chapter 222.
+- **Maren:** separate later spool-sign supply shop from Chapter 225.
 
 Do not infer that Maren's seller personally knows Lyssa, that `Maren` is the seller's personal name, or that the shop has infinite stock.
 
@@ -158,11 +158,11 @@ Across the audited span Lyssa:
 - hosts customers at the apartment.
 
 Recent continuation:
-- Chapter 224 explicitly says she maintains three customers;
-- Chapter 225 has a customer due at the apartment before midday;
-- Chapter 226 has a brown-cuff job already delivered/paid while other garments continue;
-- Chapter 227 opens with Lyssa already gone and tells Greg not to wait for supper; Greg later returns to a fitting already underway;
-- Chapter 228 continues garment-state changes offscreen without forcing a Marra/Jessa callback.
+- Chapter 227 explicitly says she maintains three customers;
+- Chapter 228 has a customer due at the apartment before midday;
+- Chapter 229 has a brown-cuff job already delivered/paid while other garments continue;
+- Chapter 230 opens with Lyssa already gone and tells Greg not to wait for supper; Greg later returns to a fitting already underway;
+- Chapter 231 continues garment-state changes offscreen without forcing a Marra/Jessa callback.
 
 **Classification:** ESTABLISHED independent schedule / offscreen causality.
 
@@ -206,7 +206,7 @@ Important anti-conflation examples:
 
 This is a strength. Do not clean it into false continuity.
 
-### ESTABLISHED — Chapter 227 graduates competence-through-limit
+### ESTABLISHED — Chapter 230 graduates competence-through-limit
 
 Greg returns to a fitting already underway with an explicitly new unnamed customer in a pale coat. When the customer asks for additional narrowing at one point, Lyssa immediately says `Not there` because there is `Not enough cloth.`
 

@@ -15,10 +15,10 @@ Structural decision:
 - **KEEP FULL: Chapter 190, THE MEASURE.** It establishes the directional-preference breakthrough that launches the later distance question.
 - **KEEP FULL: Chapter 206, THE SETTER.** Intermediate is introduced and produces its first meaningful evidence.
 - **KEEP FULL: Chapter 213, THE COUNTER.** Far produces its first observed response, and the chapter also carries Vale/debt/extortion work.
-- **COMPRESS: Chapter 221, THE PARTICIPANT.** Preserve far replication across sessions, but stop replaying the full apparatus and body inventory.
-- **KEEP FULL: Chapter 226, THE REFERENCE.** The predeclared intermediate/far comparison creates genuinely new methodological value, especially the contaminated attempt where the control also moves.
-- **COMPRESS: Chapter 230, THE REPLICATE.** Preserve the reversed-order test and its result, but summarize the now-familiar procedure.
-- **COMPRESS: Chapter 234, THE CONDITION.** Preserve the intermediate-only replication and exact evidence, but let the ordinary free morning and domestic ending carry more of the chapter.
+- **COMPRESS: Chapter 224, THE PARTICIPANT.** Preserve far replication across sessions, but stop replaying the full apparatus and body inventory.
+- **KEEP FULL: Chapter 229, THE REFERENCE.** The predeclared intermediate/far comparison creates genuinely new methodological value, especially the contaminated attempt where the control also moves.
+- **COMPRESS: Chapter 233, THE REPLICATE.** Preserve the reversed-order test and its result, but summarize the now-familiar procedure.
+- **COMPRESS: Chapter 237, THE CONDITION.** Preserve the intermediate-only replication and exact evidence, but let the ordinary free morning and domestic ending carry more of the chapter.
 
 The intended reader experience is three major full distance/replication scenes rather than six. The compressed sessions remain visible as real scientific work and elapsed evidence. They simply stop charging the reader full-scene attention for already-established protocol.
 
@@ -26,7 +26,7 @@ No chapter deletion or renumbering is authorized by this pilot. The replacement 
 
 ---
 
-## Chapter 221 - THE PARTICIPANT
+## Chapter 224 - THE PARTICIPANT
 
 ### Replacement scope
 
@@ -216,7 +216,7 @@ There were times I suspected Hessa had entered medicine only because interrogati
 
 ---
 
-## Chapter 230 - THE REPLICATE
+## Chapter 233 - THE REPLICATE
 
 ### Replacement scope
 
@@ -412,7 +412,7 @@ I left.
 
 ---
 
-## Chapter 234 - THE CONDITION
+## Chapter 237 - THE CONDITION
 
 ### Replacement scope
 
@@ -610,7 +610,7 @@ I left.
 
 ## Canon preservation checklist
 
-### Chapter 221
+### Chapter 224
 - end counts remain **31 minimal / 27 shaping / 37 external**;
 - attempts 35-37 remain FAR, AWAY ONLY;
 - attempt 35 no response, control unchanged;
@@ -622,10 +622,10 @@ I left.
 - restrictions unchanged;
 - Hessa has a next question but does not reveal it.
 
-### Chapter 230
+### Chapter 233
 - end counts remain **33 minimal / 29 shaping / 45 external**;
-- prior Chapter 226 order remains FAR / INTERMEDIATE / FAR / INTERMEDIATE;
-- Chapter 230 order remains INTERMEDIATE / FAR / INTERMEDIATE / FAR;
+- prior Chapter 229 order remains FAR / INTERMEDIATE / FAR / INTERMEDIATE;
+- Chapter 233 order remains INTERMEDIATE / FAR / INTERMEDIATE / FAR;
 - attempt 42 intermediate observed response, control unchanged;
 - attempt 43 far no response, control unchanged;
 - attempt 44 intermediate no response, control unchanged;
@@ -636,7 +636,7 @@ I left.
 - no range; not generalized;
 - restrictions unchanged.
 
-### Chapter 234
+### Chapter 237
 - end counts remain **34 minimal / 30 shaping / 49 external**;
 - attempts 46-49 remain fixed INTERMEDIATE-only;
 - attempt 46 no response;

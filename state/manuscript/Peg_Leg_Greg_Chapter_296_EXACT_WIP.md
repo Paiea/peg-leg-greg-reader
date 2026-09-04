@@ -1,1129 +1,959 @@
 # CHAPTER 296
 
-## THE HELD NOTE
+## THE THIRD HAND
 
-The song reached me before the people did.
+The salt had not damaged my shirt.
 
-One low note came around the corner and stayed there.
+This was the strongest argument in favor of continuing to use my clothing as cargo storage.
 
-Not loud.
+The weaker arguments were that the packet had scratched my chest, shed three grains into the waistband of my trousers, and required me to lean against the kitchen table while Cala pulled it out because both my hands were occupied keeping two crutches from falling.
 
-Not haunting.
+By breakfast, I had decided the system needed refinement.
 
-Just longer than a human breath had any right to be.
+I demonstrated the problem for Lyssa.
 
-I knew the trick.
+She was sitting near the window with a strip of dark cloth across one knee. I stood beside the table, put a folded scrap inside my shirt, took both crutches, and walked three steps.
 
-Hold bead.
-
-Cheap music hardware if you bought a bad one. Expensive music hardware if you bought a good one. Terrible military hardware if somebody decided a marching horn needed to sustain itself after the horn player had stopped.
-
-I had survived that decision once.
-
-The note bent slightly.
-
-Then released.
-
-A woman started singing.
-
-I kept walking.
-
-For seven steps.
-
-Then I stopped.
-
-This was becoming a problem.
-
-Not the music.
-
-The fact that I had no reason not to stop.
-
-Yesterday an open chair had done the work for me. Somebody had pointed at a seat and said sit.
-
-Today nobody had asked anything.
-
-The lane ahead remained perfectly passable.
-
-Home was east.
-
-I was not late.
-
-No list sat in my bag.
-
-No client waited.
-
-No one had sent me west.
-
-The woman sang another line.
-
-I turned toward the sound.
-
-Apparently I required practice at being unnecessary.
-
-The music came from a small court behind a row of workshops.
-
-Not a performance court.
-
-No raised platform.
-
-No painted sign.
-
-No crowd arranged in respectful rows.
-
-A potter had three damp bowls lined on a board near one wall. Someone from the cooper's yard was eating from a paper fold. Two women sat on an overturned crate and a low stone ledge. A boy was winding cord around a bundle of narrow sticks while singing the wrong words with great confidence.
-
-The musician sat near the shade.
-
-Gray hair.
-
-Red scarf.
-
-A flat five-string board instrument rested across her knees.
-
-The hold bead sat beneath the lower edge of the bridge.
-
-Brass.
-
-Thumb-sized.
-
-Old enough that the polished center had gone yellow while the rim stayed dark.
-
-She plucked two strings.
-
-The bead gave a faint violet blink.
-
-One note remained after her fingers moved away.
-
-She played against it.
-
-Simple.
-
-Useful.
-
-Beautiful.
-
-I knew what it did.
-
-I did not know the song.
-
-That was different.
-
-I stayed near the entrance to the court.
-
-The singer reached the end of a verse.
-
-Three people joined the last line.
-
-Not perfectly.
-
-The potter came in late.
-
-The boy sang early.
-
-The woman beside the crate did not sing at all, but tapped two fingers against her knee on the beat.
-
-Then the hold bead released its note.
-
-Silence lasted half a breath.
-
-The singer said, "Again."
-
-Nobody objected.
-
-She started another verse.
-
-I should have kept walking.
-
-Instead I looked for somewhere to stand without becoming a traffic problem.
-
-The court had been built by people who believed every square foot should either hold work or complain about it.
-
-Clay jars.
-
-Boards.
-
-Two stacked baskets.
-
-A low cart missing one wheel.
-
-A narrow bench with a broken arm.
-
-No open chair.
-
-That seemed fair after yesterday.
-
-I moved to the wall.
-
-Standing still on two crutches was possible.
-
-Comfortable depended on the minute.
-
-I settled the grips under my palms and shifted most of my weight through the right leg.
-
-The bag rested high against my left ribs.
-
-First notch.
-
-Normal.
-
-The woman sang.
-
-I listened.
-
-The chorus came back.
-
-This time I caught more of it.
-
-"Keep the flame low,
-keep the door wide,
-leave enough room for the late one inside."
-
-I looked around.
-
-Nobody reacted to the philosophy.
-
-The potter sang "flame high."
-
-The boy sang "door red."
-
-The singer kept going.
-
-Local accuracy appeared negotiable.
-
-The next verse involved a missing shoe.
-
-I understood perhaps half of it.
-
-The singer had a rough voice, not pretty in the polished stage sense.
-
-It worked better than pretty would have.
-
-She pushed the line forward.
-
-The hold bead kept a low note under her while her left hand shifted higher.
-
-No magic from her body that I could see.
-
-The bead did the small stored work it had been made to do.
-
-The rest was fingers and timing.
-
-A man came out of one workshop carrying a tray of little copper fittings.
-
-He crossed directly through the court.
-
-The singer moved one knee.
-
-The boy pulled his stick bundle inward.
-
-The man passed.
-
-Nobody stopped the song.
-
-That mattered.
-
-This was not an event.
-
-It was where people were while something else was happening.
-
-I had spent enough of my first life around camp music to know the difference.
-
-Formal songs had beginnings.
-
-Somebody announced them.
-
-Somebody expected silence.
-
-Camp songs happened because there were twenty people waiting for rain to stop and one idiot owned a flute.
-
-This was closer to that.
-
-Except nobody here was trapped by weather.
-
-They had simply stayed.
-
-The singer finished the shoe verse.
-
-The woman tapping her knee looked at me.
-
-Noticed the crutches first.
-
-Then my face.
-
-Then the fact that I had been standing in the entrance for long enough to qualify as architecture.
-
-She pointed at the broken-arm bench.
-
-"Sit."
-
-I almost laughed.
-
-"There it is."
-
-"What?"
-
-"Nothing."
-
-I moved toward the bench.
-
-It was not empty exactly.
-
-A coil of thin rope occupied one end.
-
-A folded apron occupied the other.
-
-The middle was available.
-
-I set one crutch against the wall.
-
-The second wanted to slide.
-
-The potter reached behind himself without turning and handed me a small wedge of clay.
-
-I stared at it.
-
-He pointed to the floor.
-
-I put the clay against the crutch tip.
-
-It held.
-
-"Temporary infrastructure," I said.
-
-He looked at me.
-
-"Clay."
-
-"Local terminology remains brutal."
-
-He returned to his bowls.
-
-I sat.
-
-Right foot forward.
-
-Left knee clear.
-
-Bag still high.
-
-No problem.
-
-The broken arm on the bench was the far arm, which meant I had one usable side for pushing up later.
-
-Good enough.
-
-The song began again.
-
-The chorus was easier now.
-
-The singer looked at me during the first line.
-
-"You know it?"
-
-"Not enough to damage it responsibly."
-
-"Chorus."
-
-"I have identified the chorus."
-
-"Then sing."
-
-There were invitations that required thought.
-
-This one required a mouth.
-
-The chorus came.
-
-The others joined.
-
-I did too.
-
-"Keep the flame low,
-keep the door wide,
-leave enough room for the late one inside."
-
-My timing was half a beat behind on the first line.
-
-Correct by the third.
-
-The boy shouted the last word.
-
-"OUTSIDE."
-
-Everyone ignored him.
-
-The singer started the next verse.
-
-I sat back.
-
-Apparently that was all the admission process required.
-
-No name.
-
-No money.
-
-No work.
-
-No proof I had ever sung anything before.
-
-The held note returned.
-
-Violet blink.
-
-Low hum beneath the strings.
-
-The next verse was about a roof repair.
-
-At least I thought it was.
-
-The singer used a word I did not know.
-
-Not because the object was fantastical.
-
-Because local songs enjoyed compressing language until only people raised within five streets could survive it.
-
-The woman beside me saw my face.
-
-"Rain lip."
-
-"Ah."
-
-That made the line make sense.
-
-Some kind of old slang for roof edge or gutter lip.
-
-I knew roof edges.
-
-I did not know this lyric.
-
-Important distinction.
-
-The singer reached the chorus.
-
-I joined on time.
-
-The hold bead continued under us.
-
-A girl carrying two glazed bowls entered the court and sang only the second line while passing through.
-
-She never stopped walking.
-
-"Keep the door wide."
-
-Then she was gone.
-
-I smiled before I could stop myself.
-
-The woman beside me noticed.
-
-"First time?"
-
-"Here."
-
-"Song?"
-
-"This version."
-
-She nodded.
-
-"Everybody changes it."
-
-"That explains the boy."
-
-The boy said, "Door red."
-
-"You are the strongest evidence."
-
-He looked pleased.
-
-The singer played a little run down the strings.
-
-The held note vanished.
-
-Then she tapped the brass bead with the edge of her thumbnail.
-
-It gave a dry click.
-
-She turned it half a notch.
-
-I recognized the adjustment.
-
-Shorter hold.
-
-Useful when the harmony changed faster.
-
-I did not ask.
-
-She played.
-
-The next sustained note lasted maybe two breaths instead of four.
-
-Better for the new song.
-
-This one was faster.
-
-No chorus at first.
-
-The potter abandoned his bowl long enough to clap his hands twice.
-
-Someone in the workshop behind us knocked metal against wood in rhythm.
-
-Not intentionally at first.
-
-Then intentionally.
-
-The song acquired percussion by accident.
-
-I knew this one.
-
-Not the local words.
-
-The tune.
-
-I had heard variants in three regions during my first life.
-
-A road rhythm.
-
-Old enough that nobody had a credible claim to ownership.
-
-The words usually changed based on what travelers hated that year.
-
-Mud.
-
-Tolls.
-
-Bad horses.
-
-Worse officers.
-
-This version began with a cart wheel.
-
-Of course it did.
-
-I laughed.
-
-The singer looked at me.
-
-"You know."
-
-"Tune."
-
-"Then take line."
-
-"No."
-
-"Take line."
-
-"I know the tune, not your words."
-
-"Make words."
-
-There were limits.
-
-I had found one.
-
-"No."
-
-The potter said, "Coward."
-
-"You have clay on both eyebrows."
-
-He touched one eyebrow.
-
-There was clay there.
-
-The court laughed.
-
-The singer did not let me escape.
-
-She played the road rhythm again.
-
-"One line."
-
-I had been forced into worse things.
-
-Usually with weapons.
-
-I listened to the beat.
-
-Simple.
-
-Four stresses.
-
-Room for eight or ten syllables depending on how much dignity you were willing to lose.
-
-I looked toward the court entrance.
-
-A delivery cart was trying to turn around outside.
-
-The driver had approached the problem from three directions and improved none of them.
-
-Fine.
-
-I sang:
-
-"Turn it left and swear it's right."
-
-The court answered with laughter.
-
-The singer pointed at me.
-
-"Again."
-
-The driver outside shouted something I could not hear.
-
-I continued:
-
-"Block the lane till nearly night."
-
-The metal worker behind us hit wood twice.
-
-The boy yelled, "DOOR RED."
-
-"That is not part of this song."
-
-"It is now," the woman beside me said.
-
-The singer went into the next line herself.
-
-Something about a wheel that had married a curb.
-
-The potter added one about a mule refusing legal testimony.
-
-I did not understand the reference.
-
-Everybody else did.
-
-That was fine.
-
-I joined the repeated tune when it came around.
-
-Not because I had been assigned a part.
-
-Because I knew where the notes went.
-
-That was new enough to notice.
-
-We sang through four improvised verses.
-
-Maybe five.
-
-The border between verse and argument became unstable.
-
-A man from the workshop objected to the potter's claim that clay dust improved bread.
-
-The potter said nobody had mentioned bread.
-
-The man said the rhyme clearly implied bread.
-
-The singer played louder until both stopped.
-
-The held bead flashed violet beneath the bridge and left a low chord hanging under her scolding.
-
-Magic used for its highest purpose.
-
-Winning an argument by remaining louder after your hands had stopped.
-
-I approved.
-
-Then the singer set the instrument flat across her lap.
-
-"Water."
-
-The song ended.
-
-No applause.
-
-The potter went back to the bowl.
-
-The boy finished tying the sticks.
-
-The woman beside me stood and carried her apron into a doorway.
-
-Half the court disappeared into work within a minute.
-
-I remained on the bench.
-
-That created a new question.
-
-Was I supposed to leave when the music stopped?
-
-No one had announced anything.
-
-The singer drank from a narrow cup.
-
-She looked at me.
-
-"You staying?"
-
-"I don't know."
-
-"Good answer."
-
-This city was developing a philosophy.
-
-I looked at the instrument.
-
-"Old bead."
-
-She followed my eyes.
-
-"Older than me."
-
-"Still clean."
-
-"Mostly."
-
-"Short and long hold both?"
-
-"Three."
-
-I had only seen two positions.
-
-She turned the bead a fraction past the half-notch.
-
-"Long."
-
-Another.
-
-"Short."
-
-Then she pressed inward.
-
-The bead clicked.
-
-"No hold."
-
-"Useful."
-
-She looked at me.
-
-"You play?"
-
-"Not that."
-
-"Anything?"
-
-I considered the question.
-
-Old Greg had learned enough instruments to embarrass himself in several countries.
-
-Mostly practical camp things.
-
-Whistle.
-
-Drum badly.
-
-A little string work.
-
-Enough to accompany people who knew what they were doing.
-
-Not enough to deserve confidence.
-
-"Some."
-
-"What?"
-
-"Depends how charitable the audience is."
-
-She grunted.
-
-"Bad then."
-
-"Professionally."
-
-She smiled.
-
-I did not ask to touch the instrument.
-
-She did not offer.
-
-That boundary required no discussion.
-
-The woman with the apron came back carrying a bowl.
-
-She handed it to the singer.
-
-The singer drank, then looked at me.
-
-"Name?"
-
-"Greg."
-
-She pointed at herself.
-
-"Nemi."
-
-Name delivered after music.
-
-Not before.
-
-The woman with the apron repeated my name once as if fitting it to my face.
-
-"Greg."
-
-"That remains correct."
-
-She nodded and went back through the doorway.
-
-I nodded to Nemi.
-
-"Good song."
-
-"Which?"
-
-"All of it."
-
-"That means none."
-
-"Then the road one."
-
-"Bad song."
-
-"The best kind."
-
-She drank again.
-
-The potter said, "He made cart line."
-
-Nemi looked at me.
-
-"That line stays."
-
-"No."
-
-"Stays."
-
-"I revoke it."
-
-"You sang. Gone now."
-
-The woman with the apron said, "Public property."
-
-I had apparently donated to culture.
-
-This was alarming.
-
-"At least improve it."
-
-Nemi picked up the instrument.
-
-"No."
-
-She plucked the opening rhythm.
-
-The hold bead blinked.
-
-The potter sang my first line immediately.
-
-"Turn it left and swear it's right."
-
-The boy shouted the second.
-
-"Block the lane till nearly night."
-
-Then he added:
-
-"DOOR RED."
-
-Nemi stopped playing.
-
-Everyone looked at him.
-
-He looked back.
-
-Nemi said, "No."
-
-At last.
-
-Authority.
-
-The boy seemed wounded.
-
-I laughed until my ribs hurt.
-
-Not badly.
-
-Just enough to remind me that I had been sitting for a while.
-
-I looked at the light in the court.
-
-Later than when I entered.
-
-Home was still east.
-
-I should go.
-
-This time the thought did not feel like an assignment.
-
-Just time.
-
-I reached for the crutches.
-
-The clay wedge had dried slightly against one tip and wanted to come with me.
-
-I knocked it loose.
-
-The potter held out his hand.
-
-I gave it back.
-
-He looked at the crutch-tip impression pressed into one side.
-
-"Keep?"
-
-"Your clay."
-
-He turned the piece over.
-
-"Mark."
-
-"Crutch."
-
-"Mark."
-
-He set it beside the damp bowls.
-
-Maybe he would reuse it.
-
-Maybe fire it.
-
-Maybe throw it back in the clay bucket.
-
-Not my object.
-
-The singer watched me stand.
-
-Right foot under.
-
-Hand on the good bench arm.
-
-One crutch braced.
-
-Push.
-
-Up.
-
-Easy.
-
-The bag settled back against my left ribs when I turned on the first notch.
-
-Nemi said, "Tomorrow?"
-
-I stared.
-
-She laughed before I could answer.
-
-"No. Not tomorrow."
-
-"Thank you."
-
-"Maybe next."
-
-"Strong scheduling."
-
-She waved me away.
-
-I left.
-
-For the second day in a row, I had spent part of an hour somewhere I had not intended to be.
-
-Yesterday somebody had opened a chair.
-
-Today I had stopped on my own.
-
-That difference was small enough to miss if I wrote it down.
-
-So I did not.
-
-On the way home, I heard the road rhythm again.
-
-Not from the court.
-
-A boy pushing a handcart two lanes over was humming it.
-
-Not my line.
-
-Just the tune.
-
-He had probably known it for years.
-
-Good.
-
-My contribution to Carrow remained containable.
-
-At home, Tavi was lying on the courtyard stones with both arms spread.
-
-I looked at Cala.
-
-"Alive?"
-
-"Hot."
-
-"Reasonable."
-
-Lyssa sat near the kitchen doorway, cutting a loose thread from a dark sleeve.
-
-She looked at me.
-
-"You sing?"
+The scrap slid downward.
 
 I stopped.
 
-"How?"
+"Efficient."
 
-She pointed toward the lane.
+Lyssa looked at me.
 
-Apparently sound traveled.
+"Pocket."
 
-Or the city had spies.
+"I have pockets."
 
-"Nemi?"
+"Use."
 
-I asked.
+"They are small."
 
-Lyssa nodded.
+"Then small things."
 
-"You know Nemi."
+"This is a medium thing."
+
+"It is paper."
+
+"Paper has ambitions."
+
+She went back to the cloth.
+
+Cala had a market bag.
+
+I knew because I had seen it hanging from a peg beside the kitchen for months. Heavy woven cloth, broad strap, enough capacity to transport vegetables, bread, or a child with poor judgment.
+
+I asked before touching it.
+
+"Can I try the market bag?"
+
+Cala looked at me.
+
+"Why?"
+
+"Because my shirt is not a bag."
+
+She considered this.
+
+Then nodded.
+
+I took the market bag from the peg and slung it across my body.
+
+The strap was too long.
+
+The bag settled against my left hip, which was not automatically a problem until I moved.
+
+First crutch.
+
+Right foot.
+
+Second crutch.
+
+The bag swung forward and struck the left crutch shaft.
+
+I stopped.
+
+Cala said, "No."
+
+"I noticed."
+
+I shortened the strap with a temporary knot.
+
+Tried again.
+
+Better.
+
+Then the bag swung backward, bounced against the side of my left thigh above the knee, and shifted the strap across my neck.
+
+Not dangerous.
+
+Annoying.
+
+I turned.
+
+The bag kept turning after I stopped.
+
+"Also no."
+
+Lyssa said, "Too big."
 
 "Yes."
+
+"Market bag."
+
+"Your naming system remains brutally accurate."
+
+Cala took it back.
+
+That settled the household option.
+
+I had used shoulder bags before. Satchels. Map cases. Field pouches. Harness packs. A great many pieces of equipment had been designed by people who assumed the wearer possessed two free hands and an equal number of useful legs.
+
+Others had not.
+
+Couriers solved carrying problems. Climbers solved them. Soldiers solved them. Adventurers solved them badly, expensively, or both.
+
+I did not need a grand solution.
+
+I needed somewhere to put paper, a little food, a few coins, and whatever small thing I was inevitably asked to carry while both hands remained on crutches.
+
+That was an actual need.
+
+Upstairs, the four copper sat where I had left them.
+
+I looked at them.
+
+This was different from rain thread.
+
+Different from a door repair.
+
+Different from discovering that something existed and immediately deciding I should own it.
+
+I had been putting things in my shirt.
+
+The evidence had become personal.
+
+I took one copper.
+
+Three remained.
+
+For the first time, the row looked changed because I had chosen to change it.
+
+I put the copper in my right trouser pocket.
+
+The irony was not lost on me.
+
+Then I went looking for a bag.
+
+Not a new bag.
+
+Carrow sold new things to people with stronger financial opinions.
+
+I went toward the used stalls near the old west arcade, where repaired shoes, patched coats, dented cookware, tool handles, buckles, boxes, and objects of uncertain ancestry occupied tables under mismatched awnings.
+
+I knew the district.
+
+I had walked through it before without needing anything specific.
+
+Needing something changed the street.
+
+A table of belts became relevant.
+
+A rack of child-sized cloaks did not.
+
+A man selling three military packs had exactly the wrong answer because every one of them rode too low and too wide for my crutches.
+
+The seller watched me test the smallest with one hand.
+
+"Good pack."
+
+"Probably."
+
+"Strong."
+
+"Also probably."
+
+"You want?"
+
+"It wants both my shoulders and half the lane."
+
+He looked at the crutches.
+
+"Ah."
+
+We achieved mutual understanding.
+
+I moved on.
+
+The next stall had leather pouches hanging from a horizontal pole.
+
+Most were belt pouches.
+
+Too small.
+
+One had a long strap.
+
+Too narrow. It would cut into my shoulder with any useful weight.
+
+Another was a soft courier sling with a broad cloth strap and a shallow body that looked promising until I lifted it.
+
+The bottom seam had separated for three inches.
+
+The seller said, "Easy fix."
+
+"Then fix it."
+
+He looked offended by my attack on commerce.
+
+I put it back.
+
+At the far end of the arcade, a woman had six bags on hooks behind her table.
+
+Not a bag seller exactly.
+
+Her table also held two walking sticks, a cooking grate, a brass lamp frame, three wooden boxes, a chipped mirror, and one helmet with no obvious future.
+
+Used goods.
+
+Better.
+
+I stopped in front of the bags.
+
+She looked at my crutches.
+
+Then at me.
+
+"Hands full."
+
+"Constantly."
+
+She pointed to a square shoulder bag.
+
+"That."
+
+I lifted it.
+
+Brown leather, softened with age. Broad strap. Flat back. The body was about the size of two hands side by side and not much deeper than my thumb.
+
+Useful.
+
+I put the strap over my head and across my right shoulder so the bag rode on my left side.
+
+Too low.
+
+I shortened the strap through the buckle.
+
+The bag rose to my lower ribs.
+
+I planted both crutches.
+
+Walked.
+
+The bag swung.
+
+Not much.
+
+Enough.
+
+The woman said, "Turn bead."
+
+I had already seen it.
+
+A little brass stay bead sat where the strap joined the upper back corner of the bag. Old courier hardware. I knew the class. Low-force stabilization, useful for keeping pouches, scabbard loops, map tubes, and other irritating objects from developing independent motion.
+
+I had used better versions in my first life.
+
+Much better.
+
+Those had been fitted into expedition harnesses that cost more than this entire stall probably contained.
+
+This bead had two worn notches and a thumb groove polished almost smooth.
+
+I turned it one notch.
+
+The brass gave a faint green blink.
+
+The bag pulled closer against my side.
+
+Not tight.
+
+Settled.
+
+I walked again.
+
+Crutch.
+
+Right foot.
+
+Crutch.
+
+The bag moved with me instead of after me.
+
+I turned.
+
+It followed.
+
+I stopped.
+
+It stopped.
+
+That was promising.
+
+"Old," I said.
+
+The woman nodded.
+
+"Still works."
+
+"One notch only?"
+
+"Two."
+
+I turned it to the second.
+
+The bag hugged my ribs harder.
+
+Too hard.
+
+When I reached forward with the right crutch, the strap dragged across my chest.
+
+I put it back to the first notch.
+
+"One for walking."
+
+"Two for riding."
+
+"Makes sense."
+
+I did not ask how stay beads worked.
+
+I knew what stay beads were.
+
+I cared whether this one still worked, whether the strap sat correctly on my body, whether the leather would take ordinary weight, and whether the bag could be opened without turning me into furniture.
+
+I tried the flap.
+
+Simple wooden toggle.
+
+One hand could open it.
+
+Closing it one-handed took longer.
+
+Possible.
+
+The woman put two little iron weights inside.
+
+"Walk."
+
+I looked at her.
+
+"Those come with it?"
+
+"No."
+
+"Disappointing."
+
+I walked.
+
+The added weight changed the swing less than I expected.
+
+The stay bead held the bag close enough to keep it out of the crutch path.
+
+I went to the end of the arcade and back.
+
+Then I sat on a low stone ledge.
+
+The bag pressed into my side but did not trap under me.
+
+I stood.
+
+Right foot under.
+
+One crutch braced.
+
+Hand on ledge.
+
+Push.
+
+The bag stayed clear.
+
+Good.
+
+I tried stairs next.
+
+Only three.
+
+Up carefully.
+
+Down more carefully.
+
+The bottom corner touched my hip once but did not swing into either crutch.
+
+I returned to the stall.
+
+The woman had not looked worried that I might escape with the bag.
+
+Possibly because escaping rapidly on two crutches while wearing unpaid merchandise was not my strongest criminal plan.
+
+"How much?"
+
+"One copper."
+
+There it was.
+
+Exactly the amount in my pocket.
+
+I looked at the bag again.
+
+The leather had scratches.
+
+One seam near the flap had been restitched in darker thread.
+
+The buckle was plain iron.
+
+The stay bead was old but responsive on both settings.
+
+"Any tear under the back panel?"
+
+"No."
+
+"Bead ever drops setting?"
+
+"Not for me."
+
+"Strap replaced?"
+
+"Yes."
+
+"When?"
+
+She shrugged.
+
+"Before me."
 
 Of course.
 
-I set the bag down.
+"Can I load paper flat?"
 
-"Cala?"
+She removed the iron weights.
 
-Cala looked up.
+I took the narrow scrap from inside my shirt.
 
-"Nemi red scarf?"
+I had carried it there specifically because apparently I required one final humiliation before purchasing a solution.
+
+The scrap fit.
+
+So did the older folded note beside it.
+
+The flap closed.
+
+Nothing bent.
+
+I moved twice.
+
+No paper migrated into my trousers.
+
+Strong performance.
+
+"One copper," she repeated.
+
+I took the copper from my pocket.
+
+Then stopped.
+
+Not because I had changed my mind.
+
+Because this was the first of the four.
+
+Halei.
+
+Maren.
+
+Nara.
+
+Miri.
+
+Four small paid answers.
+
+Four proofs that useful judgment could become money without becoming a grand profession.
+
+I had kept the copper separate partly because I wanted to see whether I could build something from it.
+
+I had imagined tools.
+
+Materials.
+
+Inventory.
+
+A better chance at the next piece of work.
+
+I had not imagined a bag.
+
+That made the purchase feel less ambitious.
+
+Also more honest.
+
+A bag did not promise profit.
+
+It promised that when somebody handed me salt, I would not have to store it against my skin.
+
+I gave her the copper.
+
+She bit it.
+
+I stared.
+
+She looked back.
+
+"Good."
+
+"I am relieved my money passed the dental examination."
+
+She put the coin away.
+
+The bag was mine.
+
+Three copper remained at home.
+
+No change.
+
+No conversion.
+
+No accounting problem.
+
+The woman pointed at the stay bead.
+
+"Don't oil."
+
+"I wouldn't."
+
+"Leather oil, no bead."
+
+"Understood."
+
+"Wet, dry first."
+
+"The bag or the bead?"
+
+"Both."
+
+That was sensible enough to preserve without building a theory.
+
+"Anything else?"
+
+"Don't fill heavy."
+
+"How heavy?"
+
+She looked at me.
+
+Then at the crutches.
+
+"Less."
+
+I laughed.
+
+"Excellent measurement."
+
+She had already turned to the chipped mirror.
+
+Transaction complete.
+
+I walked home by a longer route.
+
+Not because I needed to test the bag.
+
+Entirely because I needed to test the bag.
+
+I put the stay bead on the first notch.
+
+The bag stayed at my left ribs.
+
+The strap crossed from left side to right shoulder, broad enough not to cut.
+
+At a curb, I stepped down.
+
+No swing.
+
+At a narrow turn between a vegetable cart and a wall, I rotated my shoulders.
+
+The bag stayed inside my body line.
+
+That mattered.
+
+Anything sticking farther out than my elbows had a strong chance of meeting Carrow personally.
+
+I stopped beneath an awning and opened the flap one-handed.
+
+Harder standing than sitting.
+
+I could do it if I planted both crutches securely and held one grip against my forearm while working the toggle with my right hand.
+
+Not elegant.
+
+Possible.
+
+I closed it.
+
+Slower.
+
+Still possible.
+
+A man passing said, "New?"
+
+I looked at the scratched leather.
+
+"To me."
+
+He nodded as if that distinction covered most of life.
+
+At the next corner, I bought nothing.
+
+This was partly because I had no money left on me.
+
+My financial discipline remained heavily assisted by logistics.
+
+When I reached home, Cala noticed the bag before I said anything.
+
+"Bag."
 
 "Yes."
+
+"Yours?"
+
+"Yes."
+
+"How much?"
+
+"One copper."
+
+She looked at me.
+
+Not alarmed.
+
+Not impressed.
+
+Evaluating.
+
+I turned sideways.
+
+"Used. Strap replaced sometime before the seller had it. Stay bead works on both notches. One is better for walking. Two holds too tight."
+
+Cala touched the leather near the bottom seam.
+
+Then tugged the strap once.
+
+"Good."
+
+That was a stronger review than most businesses received.
+
+"Three copper left," I said.
 
 She nodded.
 
-Of course.
+I did not know whether I was reporting to her or myself.
 
-"How does everyone know everyone except me?"
+Tavi arrived.
 
-Lyssa said, "You know now."
+"Bag."
 
-That was difficult to argue with.
+"You and Cala should form an academy."
 
-Tavi sat up.
-
-"Sing."
+"Mine?"
 
 "No."
 
-"Sing."
+He reached for it.
+
+I turned away.
+
+"Mine."
+
+"Rock."
+
+"No rock."
+
+He held up yesterday's fish pebble.
 
 "No."
 
-Lyssa smiled.
-
-"Road song."
-
-"I made one terrible line under pressure."
-
-"Sing."
-
-"This household has become hostile."
-
-Cala said, "Sing."
-
-Betrayal from every direction.
-
-I gave them the rhythm first by tapping two fingers against the table.
-
-Then the line.
-
-"Turn it left and swear it's right."
-
-Lyssa laughed immediately.
-
-Cala smiled.
-
-Tavi shouted, "DOOR RED."
-
-I froze.
-
-"How do you know that?"
-
-Nobody answered.
-
-Tavi shouted it again.
-
-"DOOR RED."
-
-The city had become too small.
-
-Lyssa tapped the rhythm back.
-
-"Next."
-
-I gave them the second line.
-
-"Block the lane till nearly night."
-
-Cala repeated it once.
-
-Not singing.
-
-Testing the shape.
-
-Then she added a line of her own in the same rhythm.
-
-"Charge him twice and call it light."
-
-I stared at her.
-
-Lyssa laughed so hard she bent forward.
-
-"Where did that come from?"
-
-Cala shrugged.
-
-"Song."
-
-Apparently I had underestimated her criminal history.
-
-Tavi shouted, "DOOR RED."
+"Fish."
 
 "Still no."
 
-We built one more verse.
+"Shade."
 
-Mostly Lyssa.
+"This argument has changed categories."
 
-Cala contributed a rhyme about burnt rice that did not fit the cart theme and therefore fit the song perfectly.
+Lyssa came downstairs.
 
-I did not write any of it down.
+She looked at the bag.
 
-That seemed important too.
+Then at me.
 
-Some things survived because people repeated them.
+Then at the strap.
 
-Not because I recorded them.
+"Walk."
 
-The next morning, I left the house with no list again.
+"Everyone in this city has become an equipment inspector."
 
-The bag held my notes and charcoal.
+"Walk."
 
-The three copper stayed upstairs.
+I walked across the courtyard.
 
-At the first lane, someone was sweeping dust toward the gutter.
+She pointed.
 
-At the second, a baker was arguing with a flour sack.
+"Again."
 
-At the third, a girl carrying two baskets hummed the road tune.
+I turned and came back.
 
-I knew the next phrase.
+She stopped me by touching the strap near my right shoulder.
 
-She did not sing it.
+"Twist."
 
-Neither did I.
+I looked down.
 
-I kept walking.
+The broad strap had rolled slightly at the back where I could not see it.
 
-For once, knowing where the second line went was enough.
+She flattened it.
+
+"Better."
+
+"Yes."
+
+She pointed at the bag.
+
+"Open."
+
+I opened it.
+
+"One hand?"
+
+"Mostly."
+
+"Show."
+
+I demonstrated the awkward standing method.
+
+She watched.
+
+Then she took the wooden toggle and rotated it ninety degrees before closing the flap.
+
+"Now."
+
+I opened it again.
+
+Easier.
+
+The loop slipped off with less pulling.
+
+I stared at her.
+
+"That was insulting."
+
+"Bag easy."
+
+"It was supposed to be a test of adaptation."
+
+"Now easy."
+
+I closed it.
+
+She had not changed the bag.
+
+She had changed the orientation of the toggle.
+
+A small local improvement.
+
+No thesis required.
+
+"Thank you."
+
+"Mm."
+
+Tavi said, "Rock."
+
+"No."
+
+Lyssa looked at the pebble.
+
+Then at me.
+
+"One rock."
+
+"Betrayal."
+
+"Test."
+
+That was unfortunately reasonable.
+
+I opened the bag.
+
+Tavi dropped the pebble inside.
+
+It landed with a tiny thump.
+
+"Fish."
+
+"The fish is now cargo."
+
+He looked satisfied.
+
+I walked once around the courtyard carrying two scraps and one stone pretending to be a fish.
+
+The bag remained stable.
+
+Cala handed me an onion.
+
+I stopped.
+
+"Why?"
+
+"Bag."
+
+"This has become a community evaluation."
+
+"Carry."
+
+I put the onion inside.
+
+The bag bulged slightly but still closed.
+
+I walked again.
+
+No problem.
+
+Then Cala handed me a second onion.
+
+"Are we stress testing or making soup?"
+
+"Carry."
+
+I added it.
+
+The bag was now visibly rounder.
+
+Still manageable.
+
+The stay bead blinked faint green when I turned.
+
+I walked.
+
+The weight pulled more on the shoulder, but the bag did not swing.
+
+Useful.
+
+I stopped.
+
+"Enough."
+
+Cala nodded.
+
+That was apparently the correct answer.
+
+I returned both onions.
+
+Tavi's pebble remained.
+
+He objected when I tried to give it back.
+
+"Fish live bag."
+
+"No."
+
+"Fish bag."
+
+"Absolutely not."
+
+Lyssa took the pebble and put it in his cup.
+
+"Fish home."
+
+Tavi accepted this legal settlement.
+
+Upstairs, I put the bag on the table beside the three remaining copper.
+
+For a moment the arrangement looked like a business decision.
+
+Three copper and a new piece of equipment.
+
+Then I remembered the onion.
+
+It was not business equipment.
+
+It was life equipment.
+
+That distinction mattered more than I expected.
+
+I moved the scraps into the bag.
+
+Not everything.
+
+Only the current narrow scrap, one folded older note, and a short charcoal stick wrapped in cloth.
+
+The bag had room left.
+
+I resisted filling it because empty space was also useful.
+
+Old Greg had owned equipment designed for dangerous roads, long campaigns, bad weather, monsters, mana storms, and people who wanted him dead.
+
+This bag had been designed for somebody carrying messages through a city.
+
+Its great achievement was not interfering with my crutches.
+
+At nineteen, in Carrow, that was enough to make it valuable.
+
+I turned the stay bead off before setting the bag down.
+
+The next morning, I put it on before I reached for the crutches.
+
+That order felt strange.
+
+Shirt.
+
+Trousers.
+
+Bag.
+
+Crutches.
+
+I went downstairs.
+
+Cala handed me a folded shopping note.
+
+No explanation.
+
+I opened the flap.
+
+Put the note inside.
+
+Closed it.
+
+She nodded.
+
+There it was.
+
+The bag had lasted less than a day before becoming ordinary.
+
+I liked that.
+
+Outside, the front door closed softly behind me.
+
+At the first corner, I passed a woman carrying a basket on her head.
+
+At the second, a boy dragged a sack twice his width.
+
+At the third, a courier ran past with three flat cases strapped across his back and two stay beads flashing blue at each turn.
+
+I knew what his equipment was doing.
+
+He knew what mine was doing.
+
+Neither of us stopped.
+
+Carrow did not care that I had solved carrying.
+
+Carrow had been carrying things all along.
+
+I had just finally bought myself a third hand.

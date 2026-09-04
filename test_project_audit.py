@@ -64,7 +64,7 @@ class RepositoryInventoryTests(unittest.TestCase):
             manuscript = root / "state/manuscript/Peg_Leg_Greg_Running_Manuscript.md"
             manuscript.parent.mkdir(parents=True)
             manuscript.write_text(
-                "# CHAPTER 220\n## ONE\ntext\n# CHAPTER 222\n## THREE\ntext",
+                "# CHAPTER 220\n## ONE\ntext\n# CHAPTER 225\n## THREE\ntext",
                 encoding="utf-8",
             )
             rows = detect_manuscript_ranges(root)

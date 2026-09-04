@@ -1,797 +1,1097 @@
 # CHAPTER 287
 
-## THE CARRYING LIGHT
+## THE WRONG CORNER
 
-The next morning I needed a new piece of paper.
+The seven-legged horse stayed on the table for two days because I could not decide whether throwing it away would count as discouraging innovation.
 
-This was not an emergency.
+By the third morning, Lyssa had moved it under the salt jar.
 
-I treated it like one for six minutes.
+Not hidden. Weighted.
 
-Tavi's horse page had reached the end of its useful life as a research document. The back was crowded with paper prices, chaffers, bad rulers, a warm wall, and Maro's warning that one wall on one day was not the foundation of universal masonry.
+Tavi had apparently drawn the horse on paper thin enough to curl whenever the window opened, and Lyssa had grown tired of catching its rear legs before they escaped under the bed.
 
-The front had a seven-legged horse.
+I was eating the last piece of yesterday's bread when Cala called up from the courtyard.
 
-There was technically room around the horse.
+"Greg."
 
-I had standards.
+I leaned toward the window.
 
-"Three sheets," Lyssa said.
+"Alive."
 
-She was eating a heel of bread by the window.
+"Come see this."
 
-"Household sheets."
+That sentence had become dangerous in Carrow without ever becoming dramatic.
 
-"Paper."
+Sometimes it meant a broken latch.
 
-"Clean paper."
+Sometimes it meant onion skins.
 
-"You need dirty paper?"
+Once it had meant a child inside a barrel.
 
-"Used paper."
+I checked the repaired heel out of habit, set both crutch tips, and went downstairs.
 
-"Use horse."
+Cala stood beside the courtyard drain with a broom in one hand and the expression of a woman who had already decided the problem belonged to the city but expected the city to disagree.
 
-"The horse has rights."
+The drain itself looked normal.
 
-Lyssa looked at the drawing.
+The corner beside it did not.
 
-"Horse has seven legs."
+A loose mound of pale brown husks had collected against the wall overnight. They were small, curled, and papery, each one about the size of my thumbnail. Some were split along one side. A few clung to the damp stone above the drain as if pasted there.
 
-"More rights."
+Tavi crouched three feet away.
 
-She finished the bread.
-
-"Go find scrap."
-
-That was, annoyingly, the correct answer.
-
-I checked my right shoe, tucked the charcoal nub into my pocket, and left the three copper where they were.
-
-I did not even look at them twice.
-
-Once and a half, maybe.
-
-Outside, Carrow had dried enough that yesterday's darker stones were turning pale again. The air still smelled washed. Not clean exactly. Carrow had too many people, animals, drains, cookfires, workshops, and ambitions to become clean because of one rain.
-
-But washed.
-
-The chaffers were gone.
-
-I saw one husk stuck in a crack near the courtyard gate and left it there out of professional courtesy.
-
-I had no destination beyond scrap paper.
-
-That was dangerous because Carrow was very good at supplying destinations once I started walking.
-
-I took the lane toward the Narrow Bell, then turned before the paper shop.
-
-I was not going back to stare at wholesale prices until arithmetic became a personality disorder.
-
-A vegetable seller was wrapping bruised greens in old printed sheets at the corner. I slowed.
-
-The sheets had writing on both sides.
-
-Too useful to her.
-
-I kept going.
-
-At the next lane a cobbler had a pile of thin card strips under his bench. Leather patterns, not paper.
-
-I did not steal them.
-
-Growth continued.
-
-Then a light moved across the wall beside me.
-
-I stopped.
-
-It was morning.
-
-The sun was behind the roofs.
-
-The light was a narrow white-gold bar about the length of my forearm, sliding slowly over the plaster at shoulder height.
-
-I looked up.
-
-Nothing obvious.
-
-The bar reached a doorway, crossed the dark opening, and appeared on the other side.
-
-A woman carrying a basket walked through it without reacting.
-
-I looked behind me for a mirror.
-
-No mirror.
-
-The light continued around the corner.
-
-I followed.
-
-Not because it was magical.
-
-Because it had turned the corner.
-
-Reflected sunlight could do many things.
-
-Turning a stone corner without an intermediate surface was usually not one of them.
-
-The bar moved along the next wall, steady as a person walking slowly.
-
-A boy ahead of me saw it and stepped aside.
-
-That was the first sign I was the only idiot here.
-
-"What is that?" I asked him.
-
-He looked at me, then at the light.
-
-"Carrying light."
-
-"What does it carry?"
-
-"Light."
-
-He ran off.
-
-Carrow had trained its children specifically to hurt me.
-
-The bar reached another corner.
-
-This time I saw what happened.
-
-A small pale tile was set into the wall near the turn, no larger than two fingers across. The moving bar touched it. The tile brightened. A second tile on the adjoining wall brightened a heartbeat later, and the bar continued from there.
-
-Not turning.
-
-Passing.
-
-That was different.
-
-I moved closer after the light had gone.
-
-The first tile was dull again. Cream-colored ceramic, maybe, with a shallow diagonal groove across its face.
-
-I did not touch it.
-
-Yesterday had apparently created habits.
-
-A man opened the door beside me.
-
-"You waiting?"
-
-"No. Looking at your wall."
-
-He looked at the tile.
-
-"Why?"
-
-"Carrying light."
-
-"Yes."
-
-"What is it for?"
-
-He pointed down the lane.
-
-"Bakery."
-
-That did not answer anything.
-
-"The light goes to the bakery?"
-
-"Today."
-
-"Why?"
-
-"They asked."
-
-I waited.
-
-He waited.
-
-"Asked who?"
-
-"Lantern house."
-
-There it was.
-
-Not a mystery.
-
-A service.
-
-"Thank you."
-
-He nodded and closed his door.
-
-I followed the light again.
-
-The bar was farther ahead now, visible in pieces where the lane bent. I could have let it go.
-
-I did not.
-
-The next transfer point was not a wall tile.
-
-It was a little metal fork fixed under an awning post. The light reached the fork, split briefly into two thin lines, then one line faded while the other crossed under the awning and continued along a pale cord stretched above the street.
-
-I stopped so abruptly my right crutch tip squeaked on stone.
-
-A woman behind me said, "Move."
-
-I moved.
-
-The light ran along the cord.
-
-Not inside it, exactly. More like the cord gave the brightness somewhere to stay.
-
-It crossed the lane overhead, reached another fork, and dropped as a clean bar onto a wall.
-
-Nobody screamed.
-
-Nobody prayed.
-
-A delivery man ducked under it carrying two sacks.
-
-I had lived in Carrow for months and apparently missed municipal fiber optics.
-
-That comparison was probably wrong in twelve ways.
-
-I loved it anyway.
-
-The bakery was easy to find because three people were standing outside complaining.
-
-"Still dim," one woman said.
-
-"It's morning," the baker said.
-
-"Back room isn't morning."
-
-The baker was a thick-armed man with flour up both forearms. He looked past her toward the approaching bar of light.
-
-"There."
-
-The carrying light reached a tile beside his door.
-
-The tile brightened.
-
-Inside the bakery, something answered.
-
-Not a flash.
-
-A soft pale glow spread deeper into the room.
-
-The woman who had complained looked through the doorway.
-
-"Better."
-
-"Told you."
-
-"Yesterday was weak."
-
-"Yesterday line was wet."
-
-I stood outside pretending I was not listening.
-
-I was listening.
-
-The baker noticed me.
-
-"You buying?"
-
-"Eventually in my life, probably."
-
-"Then don't block door."
-
-I moved again.
-
-The carrying bar had stopped at the bakery tile. It did not continue farther.
-
-A girl in a gray vest came walking from the direction the light had traveled. She carried a narrow pole with a hooked top and a square leather case at her hip.
-
-She stopped at the bakery tile and looked inside.
-
-"Enough?"
-
-The baker said, "Back still low."
-
-"For ovens?"
-
-"No. Table."
-
-She nodded.
-
-The complaining woman said, "Yesterday couldn't see seeds."
-
-The girl in gray ignored her.
-
-She looked at the cord overhead, then back down the lane.
-
-I recognized the posture.
-
-Not the job.
-
-The posture.
-
-Someone checking a system from end to end instead of staring at the place where the complaint happened.
-
-She saw me watching.
-
-"Need through?"
+Cala pointed the broom at him without looking.
 
 "No."
 
-"Then stand side."
+"I not touch."
 
-I stood side.
+His hand was already extended.
 
-She unhooked the pole from her shoulder and lifted it toward the little fork under the bakery awning. The hook caught a ring I had not noticed. She turned it a quarter turn.
+"Your hand disagrees."
 
-The pale glow inside the bakery strengthened.
+He pulled it back.
 
-The woman at the door said, "There."
+I stopped near the wall and looked down.
 
-The girl lowered the pole.
+"Seeds?"
 
-"Too much?"
+"That's why I called you."
 
-The baker looked toward the back.
+"I know seeds now?"
 
-"No."
+"You know strange things."
 
-"Keep it there. Don't turn house plate."
+This was an increasingly irresponsible reputation.
 
-"I know."
+I lowered myself onto the courtyard bench because crouching over a drain with two crutches was possible but stupid. From there I could see the pile better.
 
-"You turned it last month."
+They were not seeds.
 
-"That was different."
+At least I did not think they were.
 
-"It was brighter."
+The husks had little jointed shapes at one end, empty and translucent. Not wings. Not exactly shells either.
 
-"Exactly."
+Something had come out of them.
 
-She stared at him.
+I knew that much.
 
-He looked at me as if I might support him.
+Old-life knowledge offered several possibilities and no useful certainty.
 
-I looked away.
+"Did you sweep these here?"
 
-I had survived enough client relationships to recognize a trap.
-
-The girl closed her leather case without opening it.
-
-I asked, "Is that coming from the lantern house?"
-
-She looked at me.
-
-"Yes."
-
-"Actual light?"
-
-"What else?"
-
-"Mana. Heat. Something translated into light."
-
-Her expression changed slightly.
-
-Not impressed.
-
-Recalculating how annoying I was.
-
-"Light," she said.
-
-"Stored?"
-
-"Carried."
-
-"From where?"
-
-She pointed vaguely uphill.
-
-"House."
-
-"How far can it go?"
-
-"Depends."
-
-"On what?"
-
-"Line. Tiles. Turns. Draw. Weather."
-
-Five nouns.
-
-I wanted thirty questions.
-
-She put the pole back over her shoulder.
-
-"You work there?" I asked.
+Cala gave me a look.
 
 "No."
 
-That stopped me.
+"Wind?"
 
-"You just said lantern house."
+"Maybe."
 
-"I tend this run."
+"Were they here last night?"
 
-"For them?"
-
-"For the lane."
-
-The baker said, "Sera."
-
-She turned.
-
-"What?"
-
-"Tell him you're busy."
-
-Sera looked at me.
-
-"I'm busy."
-
-"Understood."
-
-She left.
-
-I watched her go without following.
-
-This was growth of a different kind.
-
-The baker pointed at the door.
-
-"Buying?"
-
-I looked at the trays.
-
-There were small round rolls, dark crusted loaves, and something twisted with seeds.
-
-I had not brought ordinary spending money because I had left home to find free scrap paper.
-
-The three client copper were still at home.
-
-"No money."
-
-"Then definitely don't block door."
-
-I left.
-
-The carrying light remained at the bakery.
-
-That mattered more than I expected.
-
-It had looked like a moving thing because I met it while it was being delivered. Now it was simply there, feeding pale brightness into a dim workroom because somebody had asked for more light.
-
-No spectacle.
-
-A utility.
-
-I continued toward nowhere.
-
-Half a lane later I found my paper.
-
-A fruit seller was trimming old account sheets into squares to wrap soft pears. A narrow strip had been cut from one side of several pages and lay in a basket with stems and string.
-
-"You throwing those?" I asked.
-
-She looked at the strips.
-
-"Why?"
-
-"Can I have one?"
-
-"One?"
-
-"A long one if possible."
-
-She handed me three.
-
-"Take."
-
-"Thank you."
-
-"You buying pear?"
-
-"Not today."
-
-"Then go."
-
-Carrow commerce had become very consistent.
-
-The strips were written on one side and mostly blank on the other.
-
-Perfect.
-
-I tucked them carefully inside my shirt so they would not fold around the crutch strap.
-
-Then I went home.
-
-I did not go uphill to find the lantern house.
-
-I considered it.
-
-That distinction deserved recognition.
-
-At home, Cala was airing the kitchen with the side door open. The dark patch behind the moved shelf looked lighter than yesterday.
-
-Maybe.
-
-I did not touch it.
-
-"Wall?" I asked.
-
-"Wall."
-
-"Warm?"
-
-"Less."
+"No."
 
 "You checked?"
 
-"Hand."
+"I poured wash water there after supper."
 
-"Scientific."
+That was better evidence than my first question deserved.
 
-"Shelf stays."
+Tavi leaned sideways.
 
-"Good."
+"Bugs."
 
-That was the entire dry-seal follow-up.
+"Probably," I said.
 
-I went upstairs.
+Cala looked at me.
 
-The three copper were still there.
+"Probably?"
 
-I put the three scrap strips beside them.
+"Do you want the confident answer or the useful one?"
 
-This created a visual argument I did not like.
+"Useful."
 
-Three copper.
+"Then probably bugs."
 
-Three scraps.
+She considered hitting me with the broom.
 
-It looked like accounting.
+Before she decided, Olan came through the courtyard gate carrying a sack over one shoulder.
 
-I moved the scraps.
+He slowed.
 
-On the first strip I wrote:
+"You got husks too?"
 
-`CARRYING LIGHT`
+Cala turned.
+
+"Too?"
+
+"Back stair at our place. More than that."
+
+I looked at the pile again.
+
+That changed the shape of the problem without making it mine.
+
+"Same kind?" I asked.
+
+Olan came closer, dropped the sack by the wall, and looked.
+
+"Looks like."
+
+"Anything alive with them?"
+
+"Didn't see. Seli swept ours before breakfast."
+
+Cala pointed the broom at the husks.
+
+"Can I sweep these?"
+
+I almost said yes.
 
 Then stopped.
 
-That was a name, not knowledge.
+That was the kind of answer I had become better at not giving merely because somebody had asked me first.
 
-I added:
+"I don't know."
 
-`LANE SERVICE? BAKERY ASKED FOR IT.`
+"They're empty."
 
-Question mark after service.
+"They look empty."
 
-Then:
+"Greg."
 
-`TILES / FORKS / CORD CAN PASS IT.`
+"Sweep them if you want the courtyard clean. I just don't know what they are."
 
-I stared at that sentence.
+That distinction satisfied nobody, which made it feel appropriately honest.
 
-Can pass what?
+Cala swept the pile into a dustpan.
 
-Light, apparently.
+Tavi watched with personal grief.
 
-According to direct observation, yes.
-
-I had watched a bright bar reach one tile and appear from another. I had watched it move along a cord. I had watched Sera adjust a fork and the bakery brighten.
-
-That was more than rumor.
-
-I added:
-
-`SERA: LINE, TILES, TURNS, DRAW, WEATHER MATTER.`
-
-I did not write maximum distance.
-
-I did not write mana.
-
-I did not write stored sunlight.
-
-I did not write that Sera worked for the lantern house because she had explicitly said she did not.
-
-I did not write that the lane owned the system because I had no idea what "for the lane" meant legally, financially, or socially.
-
-The strip still had room.
-
-This was luxurious.
-
-I sat back.
-
-There was a strange satisfaction in having learned something without acquiring it.
-
-No client.
-
-No coin.
-
-No tool.
-
-No secret.
-
-I had gone out for garbage paper and come home knowing that Carrow could route light around corners.
-
-That felt like enough profit for one walk.
-
-Lyssa came home earlier than usual.
-
-She had no packet with her this time.
-
-I noticed only because I was becoming very skilled at not noticing things.
-
-She put her bag down and saw the scrap strip.
-
-"Found paper."
-
-"Three pieces. Free."
-
-"Rich."
-
-"Finally."
-
-She picked up the top strip.
-
-"Carrying light."
-
-"You know it?"
-
-"Yes."
-
-I waited.
-
-She looked at me.
-
-"What?"
-
-"Nothing. I am practicing not demanding lectures from people who live here."
-
-"Good."
-
-She kept reading.
-
-"Bakery?"
-
-"They asked for more light in the back room. I saw it arrive."
-
-"Mm."
-
-"That's all you have?"
-
-"You practicing."
-
-"I hate practice."
-
-She smiled.
-
-I pointed at the line about Sera.
-
-"She adjusted a fork under the awning. The room got brighter."
-
-"Too bright bad."
-
-"Why?"
-
-Lyssa shrugged.
-
-"Eyes. Cloth. Some color look wrong."
-
-That was interesting.
-
-"Does your work use carrying light?"
-
-"Sometimes shop."
-
-"For color?"
-
-"For seeing."
-
-I deserved that.
-
-She set the strip down.
-
-"Window better for color."
-
-"Because carrying light changes it?"
-
-"Sometimes."
-
-"Always?"
+"Keep one."
 
 "No."
 
-I smiled.
+"For Greg."
 
-Lyssa narrowed her eyes.
+"Still no."
 
-"Why you smile?"
+I said, "Thank you for protecting me."
 
-"Everybody is finally learning how to answer me."
+Cala dumped the husks into the ash bucket.
 
-"No. You finally learn hear answer."
+Then a dry clicking sound came from above us.
 
-That was worse.
+All four of us looked up.
 
-I changed subjects.
+Nothing happened.
 
-"The wall is cooler."
+The courtyard had laundry lines, two narrow balconies, a patched gutter, and a strip of morning sky. A shirt moved in the breeze.
+
+Click.
+
+Click-click.
+
+Tavi pointed.
+
+"There."
+
+I followed his finger to the gutter corner above Cala's window.
+
+Something small moved under the lip.
+
+Then another.
+
+Not flying.
+
+Crawling.
+
+Pale bodies, narrow as my little finger, with dark heads and folded backs that made them look like scraps of dry leaf until they shifted.
+
+One climbed onto the gutter edge.
+
+Its back opened.
+
+Two clear wings unfolded from under the pale shell.
+
+It launched badly, dropped half a foot, recovered, and flew across the courtyard.
+
+Tavi made the sound of a man witnessing the invention of flight.
+
+"Ohhh."
+
+Three more followed.
+
+They did not come toward us. They crossed the courtyard, circled once near the upper wall, then disappeared over the roofline.
+
+Cala looked at me.
+
+"Bugs."
+
+"That part is stronger now."
+
+Olan laughed.
+
+Another clicking run came from the gutter.
+
+Not dozens.
+
+Maybe six more over the next minute.
+
+Each one crawled out, opened clear wings, and left.
+
+No glow.
+
+No sparks.
+
+No mana I could see.
+
+No reason for the world to care that I had once known other insects that emerged from husks.
+
+Still, I watched.
+
+The last one did not leave immediately.
+
+It climbed down the wall instead, stopped above the damp stone near the drain, and pressed its mouth or face against the wet surface.
+
+I leaned forward.
+
+"Water."
+
+Cala looked at the wall.
+
+"What?"
+
+"Maybe. It's at the wet patch."
+
+"So?"
+
+"Nothing yet."
+
+The insect stayed there long enough to make my shoulders tighten from leaning. Then it lifted and followed the others over the roof.
+
+Olan picked up his sack.
+
+"Seli said they're gutter chaff."
+
+I looked at him.
+
+"That's a name?"
+
+"Maybe."
+
+"She knows them?"
+
+"She knows everything when she's sweeping it."
+
+That sounded less like taxonomy and more like marriage.
+
+"Did she say what they do?"
+
+"She said I was standing in the way."
+
+Useful.
+
+He left with his sack.
+
+Cala looked up at the gutter.
+
+"Need somebody?"
+
+"For what?"
+
+"To clear it."
+
+I considered the husks, the damp corner, the insects leaving, and the fact that nothing had actually gone wrong.
+
+"Is the gutter blocked?"
+
+She looked.
+
+"No."
+
+"Drain?"
+
+She poured a little water from the basin. It ran down cleanly.
+
+"No."
+
+"Then maybe nobody."
+
+Cala rested the broom against the wall.
 
 "Good."
 
-"Cala says shelf stays moved."
+That was the whole emergency.
+
+I should have gone upstairs.
+
+Instead Tavi said, "Where go?"
+
+"The bugs?"
+
+"Yes."
+
+I looked toward the roofline where they had disappeared.
+
+"No idea."
+
+"Find."
+
+"No."
+
+"Why?"
+
+"Because I have bread upstairs."
+
+This was not my strongest argument.
+
+Tavi knew it.
+
+"Old bread."
+
+"Still mine."
+
+He ran toward the courtyard gate.
+
+Cala caught the back of his shirt without moving her feet.
+
+"No."
+
+"Find bugs."
+
+"No."
+
+"Greg find."
+
+Cala looked at me.
+
+I said, "Greg is going upstairs."
 
 "Good."
 
-"Maro may not need to come back."
+I went upstairs.
+
+For approximately four minutes.
+
+Then I stood at the window looking toward the roofline.
+
+This was not because gutter insects were important.
+
+It was because I had seen them leave in one direction.
+
+That was all.
+
+A direction was not a mystery.
+
+It was barely information.
+
+I finished the bread.
+
+Then the clicking started again somewhere outside the building.
+
+Not in our courtyard.
+
+Farther down the lane.
+
+A short dry rattle, then another.
+
+I took my crutches.
+
+I told myself I was going to buy onions.
+
+We did, in fact, need onions.
+
+The fact that the onion stall was in the same direction as the clicking was a coincidence created by excellent urban planning.
+
+Downstairs, Cala was rinsing the dustpan.
+
+She saw me.
+
+"Bread?"
+
+"Finished."
+
+"Bugs?"
+
+"Onions."
+
+She smiled.
+
+I disliked that.
+
+The lane outside was bright and already warm. I moved slowly because the morning crowd had thickened, and because looking up while using crutches was a reliable way to become horizontal.
+
+The clicking came again from a gutter two buildings down.
+
+I stopped against a wall.
+
+More pale insects emerged from under the eave.
+
+A woman below them kept arranging red roots on a cloth as if nothing unusual was happening.
+
+"Those bother you?" I asked.
+
+She looked up.
+
+"What?"
+
+One of the insects flew past her head.
+
+"Those."
+
+"Chaffers?"
+
+Different name.
+
+"Maybe."
+
+"No."
+
+She returned to the roots.
+
+"They bite?"
+
+"Not me."
+
+"Useful standard."
+
+She ignored me.
+
+I kept walking.
+
+At the next corner I saw three children holding their hands up while the insects passed overhead. One landed on a boy's sleeve. He watched it crawl to his elbow, then flicked his arm and sent it away.
+
+Nobody screamed.
+
+Nobody called a Guild.
+
+Nobody offered me money.
+
+The city had once again failed to organize itself around my curiosity.
+
+The insects were moving roughly east.
+
+Not in a straight line. They came from gutters, wall cracks, shaded drain edges, anywhere damp stone held the night's coolness. A few flew west. Most of the ones I happened to see went east or northeast, which could have meant a destination or wind or sunlight or nothing.
+
+I reached the onion stall.
+
+The seller was an older man with a white cloth tied around his neck. I had bought from him twice and neither of us had remembered the other enough to pretend otherwise.
+
+"Four," I said.
+
+He put four onions on the scale.
+
+A pale insect landed on one.
+
+He brushed it off.
+
+"Those always do this?"
+
+"What?"
+
+"The chaffers."
+
+He looked up at me properly for the first time.
+
+"First warm after rain."
+
+That was more information than anyone else had given me.
+
+"They come out?"
+
+"Sometimes."
+
+"From gutters?"
+
+"From wherever they were."
+
+"Where do they go?"
+
+He shrugged.
+
+"Away."
+
+"Excellent."
+
+"You want onions or insects?"
+
+"Onions."
+
+He wrapped them in a net scrap and handed them over.
+
+Carrying four onions with two crutches created an immediate engineering problem.
+
+I looped the net over my wrist, which worked until the onions began swinging into my thigh.
+
+I adjusted it higher.
+
+One hit my right crutch shaft.
+
+The seller watched.
+
+"You want a bag?"
+
+"Now you offer."
+
+"Bag costs."
+
+"Of course it does."
+
+I paid for the bag.
+
+Capital suffered another setback.
+
+The bag had a long enough loop to hang close under my left arm without interfering with the crutch grip. Better.
+
+I left the stall and immediately forgot I was supposed to go home.
+
+A cluster of maybe twenty chaffers had gathered on the sunny wall opposite the market lane.
+
+Not random.
+
+Or not visibly random.
+
+They landed with their wings folded tight, pale backs turning almost silver in the light. A few crawled upward. Most stayed still.
+
+Then a shadow crossed them.
+
+The whole cluster lifted at once.
+
+A bird came through.
+
+Small, dark, fast.
+
+It snapped one insect from the air, banked, and came back for another.
+
+Two more birds joined it.
+
+The chaffers scattered.
+
+The birds followed.
+
+A fruit seller under the wall pulled a cloth over a tray of cut yellow fruit.
+
+Not because of the birds.
+
+Because the insects had begun landing on the fruit.
+
+"Ah," she said with deep personal offense.
+
+She waved a reed fan over the tray.
+
+I moved closer but stayed outside her customer space.
+
+"They eat it?"
+
+"They lick it."
+
+"Lick?"
+
+"Whatever. They sit on it."
+
+One landed on the cloth.
+
+She slapped beside it and sent it away.
+
+"First warm after rain?"
+
+She looked at me.
+
+"Yes."
+
+"How long?"
+
+"What?"
+
+"This."
+
+"Today. Maybe tomorrow morning."
+
+"Then gone?"
+
+"Usually."
+
+Usually was doing a lot of work, but it was still better than my knowledge.
+
+"Where?"
+
+She pointed with the fan toward the eastern roofs.
+
+"Canal gardens, I think. Or walls. Ask a bird."
+
+I looked at the three dark birds still working the air.
+
+"They seem busy."
+
+"Then don't ask."
+
+A customer arrived and I stopped being relevant.
+
+I moved to the side of the lane.
+
+There was something satisfying about the whole thing precisely because nobody had assigned it to me.
+
+No specimen jar.
+
+No test square.
+
+No payment.
+
+No one waiting for an answer.
+
+A small seasonal event was happening through the city whether I understood it or not.
+
+The insects emerged from damp places after rain and warmth.
+
+They drank or fed on wet stone, maybe fruit.
+
+Birds ate them.
+
+People covered food and swept husks.
+
+That was already enough to make a world.
+
+It was not enough to make a law.
+
+I kept walking east.
+
+Not far.
+
+That distinction mattered because my shoulders had only just stopped complaining about the paper errand, and the onion bag still swung slightly under my arm.
+
+The market thinned into a broader lane where two low walls bordered a drainage runnel. Water moved slowly along the bottom, shallow and brown from yesterday's rain.
+
+There were more chaffers here.
+
+Hundreds would have been dramatic.
+
+There were maybe sixty visible at once, spread along the walls and air.
+
+Some clung to the damp stone near the water. Others rested in sun. The dark birds had followed them and were now joined by a larger gray bird that hunted by standing in the runnel and snapping at anything foolish enough to land near its feet.
+
+A man in rolled trousers was clearing leaves from a grate with a hooked stick.
+
+He glanced at me.
+
+"Don't stand on that corner."
+
+I looked down.
+
+The stone under my right crutch was dry and flat.
+
+"Why?"
+
+He pointed with the hook.
+
+The corner ahead looked equally ordinary.
+
+"Loose cap."
+
+I shifted my attention.
+
+A square stone covered part of the runnel where it passed under the lane. One corner sat a little higher than the others.
+
+"Thanks."
+
+"People keep stepping there because they watch the hatch."
+
+"Hatch?"
+
+He pointed upward.
+
+The chaffers.
+
+"That what you call it?"
+
+"Today."
+
+I liked him immediately.
+
+I moved around the loose cap with more care than dignity.
+
+"City fixing it?"
+
+"I am city."
+
+"Condolences."
+
+He snorted and went back to the grate.
+
+I stayed near the wall, not blocking him.
+
+"They come every rain?"
+
+"No."
+
+"Warm after rain?"
+
+He stopped hooking leaves long enough to look at the insects.
+
+"Usually when the stone stays wet two nights and then heats quick."
+
+Specific.
+
+Not necessarily true everywhere, but specific.
+
+"You see them come out of the drains?"
+
+"Cracks. Gutter beds. Wall moss. Under caps. Depends where the little shells stuck."
+
+"Shells are left behind?"
+
+"Husks. Sweep them or they turn to paste."
+
+That matched Cala's pile without making the man an authority on insect life.
+
+"Where do they go?"
+
+He shrugged.
+
+"Garden walls. Canal reeds. Anywhere they can make more trouble, I assume."
+
+"You assume?"
+
+"I clear drains."
+
+There it was.
+
+A domain boundary delivered without ceremony.
+
+I watched the gray bird catch another insect.
+
+"Birds know."
+
+"Birds know lunch."
+
+Better.
+
+A woman carrying a basket approached the loose stone corner while looking up at the insects.
+
+The drain worker tapped the raised cap with his hook.
+
+"Other side."
+
+She stepped around it without stopping.
+
+Practiced.
+
+He had probably said that twenty times already.
+
+I looked at the corner again.
+
+The real hazard in front of me was not the unfamiliar magical-looking ecology.
+
+It was a loose stone somebody could trip on while watching it.
+
+I almost laughed.
+
+The worker heard the breath.
+
+"What?"
+
+"Nothing."
 
 "Good."
 
-"You are contributing very little."
+He pulled a wad of leaves from the grate.
 
-"Dinner soon."
+Water sped up around his boots.
 
-"Excellent contribution."
+The chaffers nearest the disturbed water lifted in a pale burst. The gray bird lunged after them and nearly walked into the man's leg.
 
-We went downstairs.
+He nudged it away with the side of his boot.
 
-Tavi had turned the fast boat tile into a house by adding a square around the potato-shaped hull.
+"Thief."
 
-"Boat house?" I asked.
+The bird waited three feet away.
 
-"No. House."
+The moment he stirred another leaf clump, it came back.
 
-"What happened to the boat?"
+Not tame.
 
-He looked at me as if the answer were obvious.
+Not afraid enough.
 
-"Now house."
+A working relationship built entirely from opportunism.
 
-I considered explaining asset conversion.
+"Does it follow you?"
 
-I chose life.
+"This one?"
 
-After dinner, the kitchen needed a lamp earlier than usual because the moved shelf now blocked part of the light from the courtyard door.
+"Yes."
 
-Cala lit one.
+"Since breakfast."
 
-I looked at the small flame.
+"Name?"
 
-Then at the wall.
+"No."
 
-Then thought about a white-gold bar walking through Carrow because a bakery wanted to see seeds on a table.
+The bird caught another chaffer.
 
-Magic in my old imagination had always wanted to be dramatic.
+"It may have named you."
 
-Fireballs.
+"Then it can pay taxes."
 
-Portals.
+I stayed another ten minutes.
 
-Weapons.
+Long enough to see that the chaffers did not all move east. Some rose from the runnel and settled on the same wall. Some vanished over roofs. Some became bird food. One landed on my crutch shaft, walked around it once, and flew away before I could decide whether to be interested.
 
-Impossible towers.
+I did not touch it.
 
-Carrow kept using it to dry walls and brighten workbenches.
+I did not try mana.
 
-I liked that more than I knew how to explain.
+I did not collect a husk.
 
-Upstairs, I put the new scrap beside the horse page instead of replacing it.
+I did not ask the drain worker to become my guide to the hidden insect kingdom beneath Carrow.
 
-The old page was still useful.
+Eventually the onion bag reminded me of its existence by knocking my ribs.
 
-Just full.
+I turned home.
 
-That was different from finished.
+"Wrong corner," the worker called.
 
-I looked at the three copper once before bed.
+I stopped.
 
-Still three.
+I had drifted toward the loose cap again while looking at the gray bird.
 
-Then at the three free scraps.
+"Right."
 
-Also still three.
+I moved around it.
 
-For the first time, the scraps seemed like the better haul.
+He shook his head.
+
+"Every one of you."
+
+"I was specifically warned."
+
+"Worse."
+
+Fair.
+
+The walk back took longer because the market was fuller. I kept my eyes mostly where my crutch tips were going.
+
+Mostly.
+
+Chaffers still moved over the roofs in little pale flashes. The dark birds followed. At the fruit stall, the woman had uncovered half her tray again and was defending it with the reed fan while selling with the other hand.
+
+The city had adapted to a one-day nuisance without forming a committee.
+
+I respected that.
+
+At home Cala was hanging another shirt.
+
+"Onions?"
+
+I lifted the bag.
+
+"Bugs?"
+
+"Also yes."
+
+"What are they?"
+
+I considered everything I had learned.
+
+The names did not even agree.
+
+Gutter chaff.
+
+Chaffers.
+
+Hatch.
+
+The drain worker had given the best conditions, but even he had framed them as what he usually saw.
+
+"Small insects that leave husks in damp cracks, come out sometimes after wet nights and quick warmth, annoy fruit sellers, and get eaten by birds."
+
+Cala waited.
+
+"That's all?"
+
+"That's all I know."
+
+She nodded.
+
+"Fine."
+
+No disappointment.
+
+No demand for a species chart.
+
+She took two onions from the bag.
+
+I looked at her hand.
+
+"Those cost money."
+
+"Household assets?"
+
+I stared.
+
+Lyssa had been talking.
+
+"Apparently my suffering is communal property."
+
+Cala took a third onion.
+
+"This one for soup."
+
+"Whose soup?"
+
+"You'll eat it."
+
+I let go of the bag.
+
+One onion remained.
+
+Upstairs, the seven-legged horse was still under the salt jar.
+
+I put the remaining onion beside it and sat down.
+
+My shoulders were tired but not badly. The repaired heel was still flat. Residual limb comfortable. Right grip tight. Left tip fine.
+
+I turned the horse paper over.
+
+My notes about bulk paper were still there.
+
+I found a blank corner beneath them and wrote:
+
+`CHAFFERS?`
+
+Then, below it:
+
+`WET NIGHTS + FAST WARMTH?`
+
+I looked at the question marks.
+
+Good.
+
+The drain worker had seen a pattern. The onion seller had seen something similar. The fruit seller expected the nuisance to end quickly. That was enough to remember and not enough to promote into fact.
+
+I added:
+
+`BIRDS FOLLOW FOOD.`
+
+Then crossed it out.
+
+Too broad.
+
+Obviously birds followed food sometimes. That was not what I had actually observed.
+
+I wrote instead:
+
+`DARK + GRAY BIRDS ATE THEM TODAY.`
+
+Ugly sentence.
+
+Better evidence.
+
+Lyssa came home while I was still looking at it.
+
+She set her work bag down and noticed the onion.
+
+"One?"
+
+"I bought four."
+
+"Where three?"
+
+"Cala taxed me."
+
+Lyssa nodded as if this were a recognized municipal structure.
+
+Then she saw the other notes.
+
+"You bought bugs?"
+
+"No."
+
+"Good."
+
+"Why would I buy bugs?"
+
+She looked at `BULK IS NOT PROFIT.`
+
+Then at me.
+
+"You learning."
+
+I hated the accuracy of that.
+
+"They came out of the gutters this morning."
+
+"Chaffers?"
+
+I stopped.
+
+"You know them?"
+
+"Yes."
+
+"Of course you do."
+
+She untied her work bag.
+
+"Everybody know them."
+
+"Three people gave me two names and one non-name."
+
+"Still know."
+
+"What do they do?"
+
+"Fly."
+
+"Lyssa."
+
+She smiled and took the last onion.
+
+"Soup."
+
+"That is theft."
+
+"Cala making soup."
+
+"Then why did I bring it upstairs?"
+
+"You make things difficult."
+
+She headed for the door with the onion.
+
+I looked at my notes.
+
+"Do they go to the canal gardens?"
+
+Lyssa stopped.
+
+"Maybe."
+
+"Do they hatch after two wet nights and fast warmth?"
+
+"Maybe."
+
+"Do they drink from wet stone?"
+
+She looked at me as if I had asked whether spoons migrated.
+
+"I don't know."
+
+That was perfect.
+
+"Thank you."
+
+"For what?"
+
+"Not knowing."
+
+"You are strange."
+
+She left with my last onion.
+
+I heard Cala call something downstairs, then Lyssa answer, then Tavi shout, "Fast horse!"
+
+The paper lifted under the salt jar as the window breeze reached it.
+
+Outside, somewhere beyond the courtyard wall, one last dry clicking run started and stopped.
+
+I left the question marks where they were.

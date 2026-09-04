@@ -1,855 +1,1053 @@
 # CHAPTER 289
 
-## THE GOOD STEP
+## THE WARM WALL
 
-The fourth copper survived the night.
+Cala's help turned out to be moving a shelf.
 
-I checked.
+Not repairing it.
 
-This was not because copper was known to migrate while people slept. It was because four had become enough to feel like money and not enough to know what to do with.
+Not measuring it.
 
-That was an irritating range.
+Not diagnosing why the shelf had failed to become a better shelf.
 
-Lyssa was already awake, sitting by the window with one foot tucked under her and a sleeve turned inside out across her lap. She had three pins between her lips.
+Moving it.
 
-I held up one coin.
+I learned this after spending most of the morning waiting for the mysterious after-lunch task Lyssa had warned me about.
 
-She looked at me.
+"From there," Cala said.
 
-I put it down.
+She pointed at the low kitchen shelf against the inner wall.
 
-"Nothing," I said.
+Then she pointed six feet away.
 
-She removed the pins.
+"To there."
+
+I looked at the shelf.
+
+"You summoned a one-legged man with two crutches for furniture moving."
+
+"Olan coming."
+
+"Ah. I'm management."
+
+"No."
+
+Olan arrived carrying nothing and immediately understood the assignment better than I did.
+
+"Empty first," he said.
+
+Cala nodded.
+
+I stared at both of them.
+
+"I had that idea."
+
+"You didn't say it," Olan said.
+
+"Leadership is often invisible."
+
+Cala handed me a stack of bowls.
+
+That was how I became storage.
+
+The shelf held bowls, two jars, a chipped pitcher, a wooden box of spoons, three folded cloths, and one small blue-glazed pot that Cala told me not to drop before I had even touched it.
+
+"I wasn't going to."
 
 "Good."
 
-"You don't even know what I was going to say."
+"You have no faith in me."
 
-"Four money."
+"Correct."
 
-"I could have been discussing metallurgy."
+We emptied the shelf onto the table and bench. Olan lifted one end. Cala took the other.
 
-"You weren't."
+I stood ready to be useful in a way nobody had specified.
 
-I put the coin back with the others.
+The shelf moved away from the wall.
 
-Four copper.
+Cala stopped.
 
-Halei. Maren. Nara. Miri.
+"There."
 
-Different jobs. Different reasons. No plan connecting them except that I had been there and useful enough to get paid.
+The plaster behind it was darker than the rest of the kitchen wall.
 
-That was already more structure than I trusted.
+Not black.
 
-Downstairs, Cala had removed the red thread from the salt-fish jar.
+Not moldy-looking.
 
-Tavi saw me notice.
+Just a broad irregular patch of deeper gray from the floor to about knee height.
 
-"Can open now."
+Olan touched it.
 
-"Did the fish receive legal clearance?"
+"Wet?"
 
-"Yes."
+"Don't," Cala said.
 
-Cala handed him a piece of bread.
+He withdrew his hand.
 
-The fish remained closed anyway.
+I looked at the wall.
 
-Systems were complicated.
+"Why are we moving the shelf?"
 
-I ate, checked the right shoe, settled the crutches under my arms, and went out because I had nowhere I needed to be.
+"That."
 
-That used to feel like failure.
+"You knew it was there?"
 
-Now it mostly felt like a morning.
+"Saw dark under bottom yesterday."
 
-Carrow was busy before I reached the end of the lane.
+I lowered myself carefully onto the nearest stool.
 
-A cart with one blue wheel blocked half the crossing. Two women were arguing over onions. A man carried a ladder horizontally and nearly removed three people from civic life. Somewhere uphill a bell rang twice, stopped, then rang once more as if correcting itself.
+The wall was an interior wall. Courtyard on the other side? No. The other side belonged to the narrow passage between our building and the next one, mostly covered overhead except near the drain end.
 
-I knew the bell.
+Yesterday's rain had been enough to make half of Carrow damp.
 
-Not which hand pulled it, not who maintained the line, not what it cost to replace the bronze, but what it meant in the ordinary sense. Market opening at the upper square.
+A wet wall was not exactly a revelation.
 
-I had known bells like it for most of two lives.
-
-The strange part was that I had once been important enough not to care who kept them ringing.
-
-Now I walked under the ladder.
-
-The man carrying it said, "Head."
-
-"Still attached."
-
-"Barely."
-
-Carrow continued.
-
-I took the long way toward Bell Lane without deciding why. Not to see the carrying light. I passed two pale route tiles without looking twice. One was bright, one dull. Somebody else's morning.
-
-At the next crossing, a delivery boy was trying to get a handcart over a curb stone.
-
-The front wheel hit the edge.
-
-He pulled harder.
-
-The cart did not become more cooperative.
-
-I moved around him.
-
-Then the left side of the cart dropped half an inch.
-
-The boy swore.
+Then I felt warmth on my right shin.
 
 I stopped.
 
-Not because of the swearing.
+The shelf had been against the wall, trapping air. The exposed patch should have felt cooler if it was wet.
 
-It was respectable work.
+Maybe.
 
-The wheel had not broken. The curb stone had moved.
+Instead the air near it felt faintly warm.
 
-One corner of the broad flat stone sat lower than the others, leaving a shallow lip where there should have been a nearly even crossing.
+I leaned closer.
 
-The boy backed up and tried again at an angle.
+"What?" Cala asked.
 
-The cart climbed.
+"Maybe nothing."
 
-"There," he said to nobody.
+"You say that before things."
 
-He kept going.
+"I also say it before nothing. That's why it works."
 
-I looked at the stone.
+I held the back of my hand near the plaster without touching.
 
-Then I looked away.
+Warm.
 
-Not every irregular surface in Carrow required Greg.
+Not hot.
 
-I made it six steps.
+Warmer than the wall beside it.
 
-A woman with a cane reached the same crossing.
+Olan noticed what I was doing.
 
-Her cane tip found the low edge.
-
-She corrected before putting weight through it and stepped around.
-
-She did not fall.
-
-She did not curse.
-
-She did glare at the stone with the familiarity of someone who had already met it.
-
-"Been like that long?" I asked.
-
-She looked at me.
-
-"Three days."
-
-"Ah."
-
-"You fixing?"
+"Hot?"
 
 "No."
 
-"Then move."
+"Warm?"
 
-I moved.
+"A little."
 
-Carrow's elderly remained efficient.
+He leaned down.
 
-I continued down the lane.
+Cala said, "Don't lick it."
 
-The stone stayed behind me.
+Olan looked offended.
 
-Then my right crutch landed on a different paving joint that had been repaired properly years ago, and the contrast bothered me.
+"Why would I lick wall?"
 
-Not the existence of bad paving. I knew bad paving. I had crossed roads in towns where the central engineering principle appeared to be hatred of ankles.
+"I know you."
 
-What bothered me was the crossing.
+I said, "I would like the record to show that I did not consider licking the wall."
 
-It was a deliberate low curb, a place made for wheels, carts, handbarrows, and people who did not want to step over a full-height edge. Somebody had built a useful transition and then one stone had settled enough to make the useful part worse.
+"Yet," Cala said.
 
-Old Greg would have stepped over it.
+The dark patch did not shine. No visible lines ran through it. No hum. No clicking. No insects. No smoke.
 
-Old Greg had two legs and enough strength to treat half the built world as a suggestion.
+I looked toward the kitchen hearth.
 
-Current Greg had opinions about half an inch.
+It was on the opposite wall.
 
-That was not ignorance becoming knowledge.
+"Anything behind this?"
 
-It was indifference becoming personal.
+Cala shook her head.
 
-I turned back.
+"Passage."
 
-The woman with the cane was gone.
+"Neighbor's hearth against it?"
 
-The stone remained.
+"No room there."
 
-I crouched badly.
+Olan said, "Warm pipe?"
 
-There was no elegant way to crouch on one leg with two crutches. There were only versions that ended with dignity surviving.
+I looked at him.
 
-I braced one crutch against the curb, lowered myself enough to see the seam, and immediately discovered that I had no business inspecting street masonry from that angle.
-
-The stone was broad, gray, worn smooth on top. One edge had dropped. Dirt packed the seam. A narrow iron slot sat in the curb face two stones away.
-
-I knew what that was for in broad terms. Lift access. Maintenance crews used slots like it with bars or hooks depending on the street system.
-
-I did not know whether this particular stone shared the same bed, lock, drain channel, or support arrangement as the ones I remembered from other cities.
-
-Regional infrastructure had an annoying habit of being regional.
-
-A voice behind me said, "You lose something?"
-
-I looked up.
-
-A man stood with a bundle of thin boards under one arm. Mid-thirties maybe. Brown apron, shaved head, one eyebrow interrupted by an old pale scar.
-
-"Confidence."
-
-He looked at the stone.
-
-"Step's bad."
-
-"Apparently for three days."
-
-"Four."
-
-"The public record is deteriorating."
-
-He shifted the boards.
-
-"You going to sit there?"
-
-"I am crouching."
-
-"Looks like sitting."
-
-"Cruel distinction."
-
-I pushed myself upright.
-
-The right leg did the work. My left knee and stump stayed clear of the stone. I settled both crutches again.
-
-The man nodded toward the crossing.
-
-"Ward crew marked it."
-
-I looked.
-
-There was a small chalk slash on the curb face.
-
-I had missed it.
-
-"That means scheduled?"
-
-"Means seen."
-
-Better answer.
-
-"Do you know when they fix it?"
+"Do we have warm pipes?"
 
 "No."
 
-He started away.
+"Then probably not."
 
-I said, "Thanks."
+He nodded seriously.
 
-He lifted one board without turning.
+I liked Olan.
 
-That should have ended it.
+Cala put both hands on her hips.
 
-It almost did.
+"Shelf stays there?"
 
-I walked another two lanes, bought nothing, inspected nothing, and successfully resisted asking a lamp seller why one shade frame had five ribs and another had six.
+That was the actual question.
 
-I knew why in the broad sense.
+Not what mysterious force warmed the wall.
 
-Different shape. Different load. Different cloth. Different maker. Possibly different fashion. There was no reason to interrogate a stranger because the reader inside my head wanted exposition.
+Could she put her kitchen shelf back against it?
 
-The reader inside my head was becoming a problem.
+I looked at the dark plaster.
 
-At a narrow food stall I spent ordinary household money Cala had given me for onions.
+"I don't know yet."
 
-Not client copper.
+"Need someone?"
 
-This distinction mattered because otherwise every purchase became a referendum on capital allocation and I would starve while building a very disciplined four-copper empire.
+"Maybe."
 
-The onion seller gave me five small onions and one opinion about rain.
+"Who?"
 
-I paid for only the onions.
+That was harder.
 
-On the way home, the crossing was louder.
+A builder? A landlord? Whoever owned the building? A mason? Someone who knew household wall charms better than I did, which included nearly everyone who knew household wall charms at all.
 
-A two-man handbarrow had stopped beside it. One of the men wore a yellow sash tied over a gray work shirt. The other had a short iron bar in the curb slot.
+I asked, "Has this happened before?"
 
-Ward crew.
+Cala shrugged.
 
-I knew enough to keep out of the way.
+"Shelf always there."
 
-I also knew enough to slow down.
+"Any smell?"
 
-The man with the bar leaned his weight against it. The broad crossing stone lifted slightly at one corner.
+"No."
 
-The yellow-sashed worker shoved a flat wooden wedge under the edge.
+"Smoke?"
 
-No magic.
+"No."
 
-Not yet.
+"Wall crumbling?"
 
-The bar man reset his grip.
+She scraped one fingernail lightly over the dry plaster above the patch. A little dust came away. Nothing dramatic.
 
-"Again."
+"No."
 
-The stone rose another finger width.
+"Water on floor?"
 
-A woman with a basket stepped toward the crossing.
+"No."
 
-Yellow Sash held up one hand.
+I looked down.
 
-"Round."
+The floor at the base of the wall was dry.
 
-She went around without complaint.
+Olan crouched beside me.
 
-I stopped against the wall.
+"Could be sun."
 
-Yellow Sash looked at me.
+"Passage is shaded."
 
-"You waiting?"
+"Yesterday sun?"
 
-"Watching."
+"Still shaded."
 
-"Why?"
+"Magic?"
 
-"Bad habits."
+Cala and I both looked at him.
 
-He accepted that.
+He raised his hands.
 
-The second worker pulled loose grit from beneath the raised edge with a hooked scraper. Then he reached into the handbarrow and took out a small cloth sack.
+"Could be."
 
-I expected sand.
+That was the problem with living in a world where magic existed.
 
-He poured out black grains with dull silver flecks.
+"Could be" became an enormous bucket.
 
-Bed grit.
+I had old-life categories for damp walls, heat transfer, hidden leaks, trapped moisture, bad ventilation, masonry, rot, mold, insects, pipes, electrical faults, none of which mapped cleanly onto a Carrow wall that might also have a charm, a heated stone, a neighboring seal, or some local building practice nobody had bothered to explain to the reincarnated teenager.
 
-I knew the category. Road crews in other places used mixes that packed under weight and could be encouraged to bind or settle with low magic. The exact compositions varied enough that pretending otherwise would be stupid.
+"Let's look outside," I said.
 
-This mix smelled faintly mineral when he spread it.
+The passage was accessible from the courtyard through a narrow side gate I had used maybe twice. It was barely wide enough for me to plant both crutches comfortably without angling one.
 
-Yellow Sash noticed me noticing.
+Cala went first.
 
-"Don't breathe close."
+I followed slowly.
 
-I moved my face farther away.
+Olan came behind and immediately became annoying by asking if I needed him to carry a crutch.
 
-"Good general policy for street powder."
+"Then what would I use?"
 
-"Especially this."
+"Other crutch."
 
-He took a flat tool from the barrow, shaped like a short paddle with a dark stone set into the handle.
+"For both sides?"
 
-That part I recognized too.
+"Take turns."
 
-A tamp charm.
+"You have solved disability."
 
-Common class, many versions.
+"Good."
 
-I had seen camp engineers use heavier cousins to settle temporary footing under bridge plates. I had never cared what city crews used under curb stones because city curb stones had not been my problem.
+The passage smelled of wet stone, old wood, and somebody's lunch from the building next door.
 
-Yellow Sash pressed the paddle flat against the fresh grit.
+The outer face of Cala's kitchen wall was rough stone rather than plaster. Yesterday's rain had left dark seams near the bottom.
 
-The dark stone in the handle gave one faint amber pulse.
+But not where I expected.
 
-The grains shifted.
+The stones directly opposite the warm patch were mostly dry.
 
-Not dramatically.
+Three feet farther down, near a narrow gutter channel, the wall was visibly wet.
 
-They simply stopped looking poured.
+I looked back toward the kitchen through the open side door.
 
-The surface tightened into a level bed.
+"Cala. Where exactly is the patch?"
 
-The other worker scraped one high spot, added another pinch, and Yellow Sash tamped again.
+She stepped inside and knocked twice on the plaster.
 
-Two pulses total.
+The sound came through the wall slightly ahead of me.
 
-Then they lowered the crossing stone.
+Dry stones.
 
-It sat too high.
+I touched one.
 
-"Up," Yellow Sash said.
+Warm.
 
-They lifted it again.
+This time actually touched.
 
-The second worker removed some grit.
+The stone was warmer than the damp stones farther down the passage.
 
-I smiled.
+Olan touched it too.
 
-Magic had failed to abolish measuring.
+"Warm."
 
-This was comforting.
+"Yes."
 
-Yellow Sash saw me smile.
+"Magic."
 
-"What?"
+"Still a bucket."
+
+Cala leaned through the doorway.
+
+"What bucket?"
 
 "Nothing."
 
-"Say."
+A thin line of pale material ran through the mortar between two stones.
 
-"I like that the magic still lets you get it wrong."
+I almost missed it because the mortar itself was light gray. This line was smoother, slightly glassy, and only as wide as a piece of thread.
 
-He stared at me.
+It went down six inches, turned along a mortar joint, then disappeared behind a vertical drain board.
 
-Then he looked at the stone.
+I leaned closer.
 
-"Magic packs. I set."
+"That normal?"
 
-"Exactly."
+Cala came out.
 
-"You road crew?"
+She looked.
 
-"No."
+"Seal line."
 
-"Mason?"
+I looked at her.
 
-"No."
+"You know that?"
 
-"Then why exactly?"
+"Everybody know seal line."
 
-"Former professional user of roads."
+Lyssa had used that sentence about chaffers.
 
-The other worker laughed.
+Carrow was beginning to feel personally organized against me.
 
-Yellow Sash did not.
+"What does it seal?"
 
-They lowered the stone again.
+"Wall."
 
-This time its top sat nearly flush with the adjoining crossing slabs.
+"Thank you."
 
-Yellow Sash ran the flat edge of his paddle across the joint.
+"Water, maybe."
 
-It caught slightly.
+"Maybe?"
 
-"Again."
+She shrugged.
 
-The other worker sighed.
+"Building old."
 
-"It's good."
+Olan said, "My place has blue ones."
 
-"Cart catches."
+"Blue seal lines?"
 
-"Small."
+"By stair."
 
-"Still catches."
-
-They lifted it a third time.
-
-I liked him immediately, which was dangerous because I did not know his name and he was not auditioning to become a recurring character in my life.
-
-The second worker scraped a shallow channel through the packed grit, then added a little material at the opposite side.
-
-Yellow Sash tamped once more.
-
-Third amber pulse.
-
-Stone down.
-
-Paddle across.
-
-Smooth.
-
-He stepped onto it with one boot and shifted his weight.
-
-Then the other worker rolled the empty handbarrow over the crossing.
-
-No catch.
-
-Yellow Sash nodded.
-
-"Good step."
-
-That was apparently the entire acceptance test.
-
-I looked at the chalk slash.
-
-"Does the mark come off now?"
-
-Yellow Sash rubbed it away with his thumb.
-
-"Now."
-
-Simple.
-
-Seen.
-
-Fixed.
-
-Mark gone.
-
-I had spent decades in a world full of magic and somehow the thing that held me there was municipal quality control.
-
-The bar man said, "You done watching?"
-
-"Probably."
-
-"Good."
-
-They loaded the tools.
-
-I asked one question because I had earned at least one through restraint.
-
-"That bed grit local mix?"
-
-Yellow Sash looked at me more carefully.
-
-"South quarry."
-
-"Silver in it?"
-
-"Mica."
-
-"Binding dust?"
-
-"Some."
-
-"Same mix everywhere in Carrow?"
+"Warm?"
 
 "No."
 
-There it was.
+Good.
 
-Broad category familiar. Local implementation not universal.
+One local comparison and immediately less certainty.
 
-I nodded.
+I followed the pale line with my eyes. It vanished behind the drain board, reappeared lower down, then ended at a small square of dull yellow material set into the mortar near ankle height.
 
-"Thanks."
+Not metal exactly.
 
-He pointed at my crutches.
+Ceramic maybe.
 
-"Try it."
+The square was smaller than my palm and marked with three shallow grooves.
 
-I looked at the crossing.
+I had seen household marks before. Feed stones. Seal plates. Shade-lamp pieces. Things people used without giving me a lecture because nobody lectures a nineteen-year-old every time he passes a hinge.
 
-"Professional consultation?"
+I did not know this one.
 
-"Walk."
+"Cala?"
 
-I walked.
+She looked down.
 
-Right crutch first onto the repaired stone.
+"Old seal plate."
 
-Flat.
+"What kind?"
 
-Right foot through.
+"Wall."
 
-Left crutch.
+I closed my eyes.
 
-No lip worth adjusting for.
+"I walked into that."
 
-I turned around.
+Olan laughed.
 
-"Good step."
+"Does it normally get warm?"
 
-The second worker laughed again.
+Cala shook her head.
 
-Yellow Sash had already picked up the handbarrow handles.
+"Don't know. Never touch."
 
-They left.
+That was better.
 
-No names.
+I held my hand near the square.
 
-No appointment.
+Warmer than the stone.
 
-No invitation to the ward yard.
+Not painfully hot.
 
-No revelation that the city had been waiting for my opinion on paving.
+Definitely warm.
 
-A repaired crossing remained behind them.
+The pale line nearest it was warm too.
 
-I stood there for another few seconds.
+I did not touch the grooves.
 
-Then the woman with the cane came back.
+I did not use mana.
 
-Same woman.
+I did not decide that because a magical-looking plate was warm, it had caused the entire wall patch.
 
-She approached from uphill, saw me, saw the stone, and stopped.
+But the correlation was becoming difficult to ignore.
 
-"Fixed?"
+"Who owns the building?" I asked.
 
-"Looks like."
+Cala named a man I had heard mentioned before but never met.
 
-She tested it with her cane.
+"Does he fix things?"
 
-The tip landed squarely.
+She made a face.
 
-She stepped across.
+That answered the legal portion.
+
+"Who fixes walls when he doesn't?"
+
+"Maro."
+
+"Who is Maro?"
+
+"Mason."
+
+"Nearby?"
+
+"Other side of bell lane."
+
+Olan said, "Old man with ear."
+
+I looked at him.
+
+"One ear?"
+
+"Two. One bad."
+
+"That description was unnecessarily alarming."
+
+Cala said, "He comes after lunch sometimes."
+
+"To this building?"
+
+"To bell lane."
+
+"Do you want me to get him?"
+
+Cala looked at the warm square.
+
+"Need?"
+
+I appreciated that she asked.
+
+I hated that I had to answer.
+
+The wall was warm, not burning. No smoke. No smell. No cracking. No visible active mana. The floor was dry. The shelf could stay away from it for now. There was no reason to turn a household oddity into an emergency.
+
+"I think we leave the shelf moved and ask Maro when convenient. If the wall gets hot, smells, smokes, cracks, or starts doing anything new, then don't wait for convenient."
+
+Cala nodded.
 
 "Good."
 
-Then she kept going.
+Olan said, "If it sings?"
 
-No applause.
+I looked at him.
 
-I liked that too.
+"Yes. If the wall sings, get someone."
 
-At home Cala took the onions.
+"What if good song?"
 
-"Five."
+"Especially then."
 
-"That is what I purchased."
+We moved the shelf to the other wall.
 
-"Small."
+That required actual furniture moving.
 
-"That is what you requested."
+Olan and Cala lifted again. I carried the spoon box and the blue pot.
 
-She weighed one in her hand.
+I did not drop either.
 
-"Good."
+History would forget this achievement.
 
-I was receiving a lot of concise performance reviews today.
+By midday the kitchen looked slightly wrong because the shelf was now where a chair had been, the chair was where a basket had been, and the basket had become my problem because nobody knew where to put it.
 
-Tavi was on the floor with two bits of wood laid across each other.
+I put it under the table.
 
-"Bridge," he said.
+Cala moved it immediately.
 
-"For what?"
+Management remained invisible.
 
-He pushed the roof-tile house toward it.
+I went upstairs and considered the three copper on the table.
 
-"House."
+I did not touch them.
 
-"Your house travels?"
+That was becoming an activity in itself.
 
-"Yes."
+Three copper was enough to feel like a beginning and not enough to justify pretending I had a plan.
 
-I decided not to explain zoning.
+I could buy something.
 
-Upstairs, the four copper remained where I had left them.
-
-I did not add anything to them.
-
-I took the cup-note scrap from under the salt jar and found a narrow blank space.
-
-I wrote:
-
-`GOOD STEP = FLUSH ENOUGH CART DOESN'T CATCH.`
-
-Then stopped.
-
-That sounded like I had discovered roads.
-
-I crossed it out.
-
-Underneath I wrote:
-
-`WARD CREW: MARK = SEEN, NOT SCHEDULE.`
-
-That was local information I had actually learned.
-
-Then:
-
-`BED GRIT: SOUTH QUARRY. MICA + SOME BINDING DUST. NOT SAME MIX EVERYWHERE.`
-
-I considered writing about the tamp charm.
-
-I already knew tamp charms existed.
-
-That was not new.
-
-What was new was how this crew used one: pack, check, lift, correct, pack again.
-
-I wrote:
-
-`CHARM PACKS. WORKER SETS.`
-
-That was Yellow Sash's wording, close enough to matter.
-
-I looked at the sentence for a while.
-
-Old Greg had known hundreds of things like tamp charms as equipment categories.
-
-Useful.
-
-Common.
-
-Beneath notice unless one failed during a bridge crossing or somebody forgot to bring one.
-
-I had known roads too.
-
-I had known wards, lamps, cooling vessels, sealed walls, route lights, field kitchens, healing halls, guild desks, supply carts, courier stations, waystones, camp barriers, monster fences, lift plates, drain charms, and a thousand other pieces of a magical world that existed mostly as nouns because other people kept them working.
-
-S-class had not made me ignorant.
-
-It had made ignorance affordable.
-
-That thought landed harder than I expected.
-
-Not because power made people stupid.
-
-Because power let you route around inconvenience.
-
-Bad step?
-
-Step over it.
-
-Heavy door?
-
-Open it harder.
-
-Long road?
-
-Buy a horse, hire a wagon, take a gate, use a better route.
-
-Dim room?
-
-Someone else handled the light.
-
-Broken cup?
-
-Replace it.
-
-Current Greg had four copper from four small jobs and a right shoe I checked every morning because a bad seam mattered.
-
-Half an inch mattered.
-
-A missing groove fill mattered.
-
-Whether a worker said `seen` or `scheduled` mattered.
-
-This life had not made the world more magical.
-
-It had made the magic heavier.
+Tools, maybe.
 
 Material.
 
-Owned by somebody. Maintained by somebody. Paid for somehow. Wrong sometimes.
+Inventory.
 
-I did not write any of that down.
+A partial payment toward something larger.
 
-It sounded too much like a lesson.
+The problem was that every noun became an opportunity if I stared at the coins long enough.
 
-Lyssa came home carrying a folded gray-brown garment over one arm and a paper twist in the other hand.
+I covered them with an empty cup.
 
-Not one of the protected packets.
+Better.
 
-I knew what the paper twist was because she opened it immediately and ate a sugared nut.
+Then I noticed the cup looked like a secret treasure marker.
 
-She offered me one.
+I moved it.
 
-I took it.
+This was not finance.
 
-"Four still?" she asked.
+A knock came from below.
 
-"You are obsessed with my wealth."
+Cala called, "Greg."
 
-"You talk four."
+I leaned toward the door.
 
-"I did not talk four today."
+"Alive."
 
-She looked at the table.
+"Maro."
 
-"You look four."
+Convenient had arrived.
 
-Unfair.
+Maro was not as old as Olan's description had made him sound. Maybe fifty. Broad hands, gray in his beard, left ear slightly folded at the top as if it had lost an argument years ago.
 
-I ate the nut.
+Olan had apparently converted that into a medical biography.
 
-"I watched the ward crew fix a crossing stone."
+Maro carried a short hammer, a narrow iron pick, and a cloth bag dusted white.
 
-"Why?"
+He did not greet me as ruler man, theatre man, magic boy, one-leg, or anything else Carrow had recently tried.
 
-"It was bad."
+He greeted Cala.
 
-"You fix?"
+Excellent.
 
-"No."
+She showed him the dark patch inside first.
 
-"Paid?"
+He touched the plaster with two fingers.
 
-"No."
+Then the dry wall above it.
 
-"Then why?"
+Then he went outside.
 
-I pointed at my left leg.
+I followed.
 
-Or where the lower part of it was not.
+He found the pale seal line and the yellow square immediately.
 
-Lyssa looked at me, then at the crutches.
+"Warm," Cala said.
 
-"Ah."
+"I see."
 
-That was enough explanation.
+I almost asked how he saw warmth.
 
-I showed her the note.
+Then noticed the yellow square had changed color near one groove.
 
-"They used a tamp charm. South-quarry bed grit. Mica, some binding dust. Different mixes in different parts of Carrow apparently."
+Not dramatically. One shallow line was a little darker than the others.
 
-"Mm."
+Had it been that way earlier?
 
-"You knew that?"
+I did not know.
 
-"No."
+I had not recorded it.
 
-"Excellent. Finally."
+Good reminder.
 
-"Don't care."
+Maro pressed the back of one knuckle against the stone beside the plate.
 
-"Less excellent."
+"How long?"
 
-She unfolded the garment on the bed.
+Cala said, "Saw wall yesterday. Warm today."
 
-I recognized the broad category. Coat. Alteration work. Nothing about it required interrogation.
-
-She checked one seam against the window light.
-
-I watched her thumb the cloth flat.
-
-"You use different thread for different seams," I said.
-
-She looked at me.
+"Rain before?"
 
 "Yes."
 
-"I know."
+"Shelf against inside?"
 
-"Then why say?"
+"Yes."
 
-"I am testing a new conversational strategy where I demonstrate existing knowledge instead of demanding yours."
+He nodded.
 
-"Bad strategy."
+I waited.
 
-"Immediate feedback."
+He did not explain.
 
-She smiled and returned to the seam.
+This was intolerable.
 
-I leaned back on my hands.
+"What is it?" I asked.
 
-Downstairs, Tavi's traveling house knocked against his wooden bridge and he shouted something about a river.
+Maro glanced at me.
 
-The four copper stayed on the table.
+"Old dry seal."
 
-The three clean sheets stayed under the other things.
+Cala had called it a wall seal. Maro added dry.
 
-Nobody knocked with a client problem.
+"Keeps water out?"
 
-Miri did not return.
+"Helps move wet."
 
-Pellin remained in South Ovens doing whatever kiln people did when they were not being accused of defective cups.
+That was not the same thing.
 
-No theatre runner came.
+"Move it where?"
 
-No ward worker came back to recruit me into municipal paving.
+He pointed down the mortar line toward the gutter end of the passage.
 
-The day had produced no money, no magic practice, no pressure, and no new obligation.
+"Away."
 
-It had still changed something.
+"How?"
 
-Not the city.
+Maro looked at me for a moment.
 
-My attention.
+"You live here?"
 
-I had spent one life powerful enough to walk over bad steps.
+"Yes."
 
-This one was teaching me to notice who made them good.
+"Then don't chip it."
+
+"That was not my question."
+
+"Better answer."
+
+Cala smiled.
+
+I had found another professional with domain boundaries and no interest in feeding me a textbook.
+
+Maro opened his cloth bag and took out a little lump of pale chalky material. He rubbed it across the mortar line in two places.
+
+The first stayed pale.
+
+The second, nearer the yellow plate, darkened faintly.
+
+"What does that show?"
+
+"Line carrying."
+
+"Mana?"
+
+"Seal."
+
+"Those are not mutually exclusive words."
+
+He looked at Cala.
+
+"He always?"
+
+"Yes."
+
+I was being reviewed by the community.
+
+Maro scraped a tiny amount of mortar beside the plate, not the plate itself. He smelled the dust.
+
+Then he pressed the yellow square again.
+
+"Not broken."
+
+"Then why warm?" Cala asked.
+
+"Working hard."
+
+That was the first answer that changed the room.
+
+Not broken.
+
+Working.
+
+I looked at the dark patch through the doorway.
+
+"Because of the rain?"
+
+Maro shrugged.
+
+"Rain. Wet joint. Shelf holds damp inside. Maybe drain board pushing water wrong."
+
+Three possibilities.
+
+Not one explanation.
+
+"Can you tell which?"
+
+"Not today."
+
+Beautiful.
+
+I liked him too.
+
+"Dangerous?" Cala asked.
+
+Maro shook his head.
+
+"Not now. Keep shelf off. Let wall dry. I come two days. If line cool, good. If still hot, open board."
+
+"Hot or warm?" I asked.
+
+"Hot bad. Warm working."
+
+That sounded like a rule.
+
+I distrusted rules on principle now.
+
+"Always?"
+
+Maro gave me a long look.
+
+"No."
+
+Perfect.
+
+He pointed at the plate.
+
+"This one. This wall. Today. Warm is working. Hot is bad. Cold after wet can mean dead. Cold can also mean dry."
+
+I smiled before I could stop myself.
+
+Maro frowned.
+
+"What?"
+
+"Nothing. That's a very good answer."
+
+"It is wall."
+
+"Exactly."
+
+He charged Cala a small visit fee.
+
+I did not ask the amount.
+
+I was improving.
+
+She paid him.
+
+He told her again to leave the shelf off the wall and said he would return in two days if he was nearby, otherwise she should send Olan.
+
+Olan looked surprised to discover he had become messenger infrastructure.
+
+"Why me?"
+
+"You know where," Cala said.
+
+"Greg know now."
+
+Cala looked at my crutches.
+
+Then at Olan.
+
+"You."
+
+I said, "For once discrimination has benefited me."
+
+Nobody cared.
+
+Maro packed his chalk and pick.
+
+Before he left, I asked one more question.
+
+"Are those common?"
+
+I pointed at the seal plate.
+
+"Old buildings."
+
+"Same kind everywhere?"
+
+"No."
+
+"Do people still make them?"
+
+"Some."
+
+"Do you?"
+
+"Repair."
+
+"Who makes them?"
+
+He was already walking toward the gate.
+
+"People who make seals."
+
+I stared after him.
+
+Olan said, "Good answer."
+
+"I hate this city."
+
+I did not.
+
+That was the problem.
+
+The warm wall stayed warm through the afternoon.
+
+Slightly less, maybe.
+
+I refused to decide based on my hand.
+
+Cala refused to care until Maro came back.
+
+Her position was healthier.
+
+I sat in the courtyard while Tavi moved his roof-tile boat through an imaginary river between the paving stones.
+
+"Water," he said.
+
+"That is a crack."
+
+"River."
+
+"Understood."
+
+The boat reached the drain.
+
+He stopped before putting it in.
+
+Progress existed everywhere if one was desperate enough.
+
+"Greg."
+
+"Yes?"
+
+"Wall magic?"
+
+I looked toward the kitchen.
+
+"Wall seal."
+
+"Magic?"
+
+"Maybe."
+
+"Warm."
+
+"Yes."
+
+"Hot?"
+
+"No."
+
+He nodded.
+
+"Good wall."
+
+I almost corrected him.
+
+Then didn't.
+
+Maro had said not broken. Working hard. That was enough for a child playing boat and not enough for me to write a law.
+
+"Good enough wall," I said.
+
+Tavi accepted this.
+
+Lyssa came home near dusk.
+
+She noticed the kitchen shelf before she noticed me.
+
+"Why there?"
+
+Cala answered from inside.
+
+"Wall warm."
+
+Lyssa put down her bag.
+
+"Seal?"
+
+Of course.
+
+I looked at her.
+
+"Everybody knows?"
+
+"What?"
+
+"Dry seals."
+
+"No."
+
+That surprised me.
+
+"You know this one?"
+
+"I know old walls have things."
+
+Better.
+
+She went into the passage, looked at the yellow plate, and came back without touching it.
+
+"Maro?"
+
+"Already came."
+
+"What say?"
+
+"Working hard. Shelf stays off. He checks in two days if needed."
+
+She nodded.
+
+No fascination.
+
+No fear.
+
+Just household information.
+
+Then she looked at me.
+
+"You touch?"
+
+"The stone. Not the grooves."
+
+"Mana?"
+
+"No."
+
+"Good."
+
+I waited.
+
+"That's all?"
+
+"What you want?"
+
+"Recognition."
+
+"For not touching old seal with mana?"
+
+"When you say it like that, it sounds less heroic."
+
+"Yes."
+
+She went upstairs.
+
+I followed after a minute.
+
+The three copper were still on the table.
+
+So were the three clean gray sheets.
+
+The narrow wrapped packet Lyssa had brought home yesterday was gone from sight. I did not ask where.
+
+The horse paper remained under the salt jar.
+
+I turned it over.
+
+There was almost no blank space left.
+
+Bulk paper.
+
+Chaffers.
+
+Rules and screens.
+
+I found a narrow strip along the bottom and wrote:
+
+`WARM WALL = DRY SEAL WORKING?`
+
+Then below it:
+
+`MARO: THIS WALL, TODAY.`
+
+That mattered.
+
+I considered adding the rain, the shelf, the wet joint, and the drain board.
+
+All possible.
+
+None established.
+
+I left them off.
+
+Lyssa looked over from the bed.
+
+"Horse full."
+
+I turned the page over.
+
+Seven legs.
+
+Still plenty of room on the horse side if I was willing to become a monster.
+
+"I need another scrap."
+
+"Three paper."
+
+"Those are clean sheets."
+
+"Paper is for writing."
+
+"Not like this."
+
+She looked at the back of Tavi's increasingly abused horse.
+
+"True."
+
+I put it under the salt jar again.
+
+Outside, the city had gone quiet in the way it only did for a few minutes between work noise and evening noise.
+
+No chaffer clicking.
+
+No theatre runner at the gate.
+
+No client asking for a ruler.
+
+Downstairs, a wall seal I had not known existed was moving something I could not see through stone I had lived beside for months.
+
+It was not a quest.
+
+It was keeping Cala's kitchen dry.
+
+Maybe.
+
+I left that question mark too.

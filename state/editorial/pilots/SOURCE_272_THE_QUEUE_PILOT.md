@@ -1,12 +1,12 @@
 # NON-CANON EDITORIAL PILOT
 
-Source: Chapter 272 — THE QUEUE
+Source: Chapter 275 — THE QUEUE
 
 Do not treat as authoritative manuscript prose until integrated through the structural pass.
 
 ---
 
-# CHAPTER 272
+# CHAPTER 275
 
 ## THE QUEUE
 
