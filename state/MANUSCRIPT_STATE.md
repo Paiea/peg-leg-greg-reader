@@ -1,10 +1,10 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 332 - **THE HOUSING**.
+- Current exact story endpoint: Chapter 333 - **THE FAR POINT**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249-332 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249-333 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500-4,000 words and clear 2,500 unless explicitly changed.
@@ -15,102 +15,105 @@
 - Apply economy, rhythm/artifact, market-intelligence, and pricing continuity when relevant.
 
 ## Current direction
-- Ch332 cashes in the Ch331 economic ratchet through a deliberate information purchase rather than another acquisition.
-- Greg spends **3 copper** on Mara's housing read for the fixed holdfast and deliberately refuses the immediately available ~2c controlled-load follow-up because that would zero his reserve.
-- Economic principle: five copper made the choice real; spending three does not reset Greg to poverty psychology. End cash is **2c + 0 bits**, with acquired information and a known next question.
-- Holdfast now has more bounded housing information but remains unactivated by Greg and materially unresolved.
-- Oval remains quiet/background.
+- Ch333 reactivates Hessa after a long gap and deliberately changes grammar from economy/artifact/logistics into supervised magic practice.
+- Core craft move: previous `near/middle/far` bookkeeping was too coarse because it mixed at least two axes, target distance and effect magnitude/operation quality.
+- Hessa demonstrates that Greg can produce a tiny clean external effect at a farther target even while farther deliberate shaping remains weak. Distance is likely not one single problem.
+- Do not convert this into sudden ranged competence, power jump, or permission for independent practice.
+- Oval and holdfast remain entirely separate from Hessa session.
 
 ## Money / capital
-- Greg starts Ch332 at 5c + 0 bits and pays Mara exactly **3c** for housing read.
-- Greg ends **2 private copper + 0 bits**.
-- Mara quotes a possible controlled bench behavior observation at **2c if simple**, more if extra hands/load frame required. Greg explicitly declines today rather than spending remaining reserve.
-- This is not a fixed universal test price and no test has occurred.
-- Vale debt active/unresolved. No copper/bit conversion established.
+- Greg remains at **2 private copper + 0 bits** throughout Ch333.
+- No pay, purchase, debt credit, appraisal, or spending.
+- Vale debt remains active/unresolved.
 
 ## Greg / body / equipment
 - Greg nineteen, Bronze, Carrow. Permanent LEFT BKA, knee preserved; right leg intact; two crutches.
-- Holdfast transport problem becomes material: basket/forearm carry interferes with crutches; Lyssa adapts an older woven carrying sling so basket sits flat against Greg's lower back. Mara later warns cloth alone does not protect ring from pressure and recommends rigid slats across basket mouth.
-- Greg obtains two discarded packing slats free after asking and improves carry guard. This is practical transport only, not artifact modification.
-- Holdfast returns home wrapped, high shelf, same orientation, ring sideways, `DO NOT TURN RING` visible.
-- Oval carried but only normal threshold clicks.
+- Hessa explicitly requests `BRING BOTH CRUTCHES / NO OTHER EQUIPMENT`. Greg leaves oval, holdfast, and notes home.
+- Ordinary right-shoulder fatigue is noticed; no injury.
+- Holdfast remains home high shelf, wrapped, ring sideways, `DO NOT TURN RING` visible.
+- Oval remains home/hanging and unrelated to session.
 
-## Fixed holdfast new bounded evidence
-- Existing facts preserved: bought Ch306 exactly 2c; seller demonstrated fixed bench pull; Greg has not turned ring since purchase.
-- Underside primary mark copied in Ch332: **two nested/opposing hooks facing opposite directions with a short vertical cut between**. Mara cannot support maker identity from it; maybe trade family.
-- Rear screw previously thought scratched shows clear tool wear around head. Mara supports that it was turned with a bad/mismatched tool at some point, but cannot tell loosened vs tightened or exact purpose.
-- Primary housing mark predates rear-screw tool wear enough that Mara will not call them same service event.
-- Four exterior fasteners total; only one has obvious bad-tool wear.
-- Thin paper seam check stops earlier near worn rear screw; Mara supports **slight housing/seam distortion** there. Cause unestablished.
-- No obvious exterior heat discoloration.
-- Ring sits in dark collar with narrow accessible gap. Mara can barely see dark stone or glass-composite-like core seat; she sees **no visible crack from accessible angle**, explicitly not certification.
-- Housing construction has four exterior fasteners, separate collar seat, replaceable base plate. Mara supports it as **serviceable older working equipment**, not sealed manufacture.
-- Broad trade/use family supportable only as anchoring / rigging / restraint / load-control neighborhood. Exact function remains unknown.
-- Base wear supports repeated mounting/use. Mara notes somebody considered it worth moving and setting again. This nudges category toward portable/repeatedly mounted fixed working tool, not permanent one-bench installation.
-- Tiny secondary hand-scratched mark near base edge: three vertical strokes with one diagonal through them. Could be tally/owner/boredom; no claim.
-- Mara explicitly would **not open housing yet** because worn fastener + slight distortion mean opening could turn readable problem into broken one.
-- Mara's recommended next information step, if Greg chooses later: controlled load behavior check before service/opening. Owner would operate ring while Mara observes housing under fixture. No test yet.
-- Do not infer safe load, activation mechanism, release behavior, maximum force, defect, hidden power, value, maker, or formal name from this read.
+## Hessa / magic continuity
+- Before Ch333 totals: **36 supervised minimal draws / 32 supervised deliberate shaping attempts / 78 supervised external-effect attempts**.
+- Ch333 adds exactly:
+  - **5 supervised minimal draws**
+  - **9 supervised deliberate shaping attempts**: 3 near-position, 3 middle-position, 3 farther-position
+  - **13 supervised external-effect attempts**: 7 at farther target with one-grain requested movement, 3 middle target, 3 near target
+- New totals: **41 supervised minimal draws / 41 supervised deliberate shaping attempts / 91 supervised external-effect attempts**.
+- Old aggregate distance notes remain historical but are now explicitly recognized as mixing axes and should not be treated as cleanly comparable going forward.
+- Ch333 minimal-draw notes:
+  - first two broadly clean; Hessa notices right shoulder rise on second;
+  - after moving crutches in peripheral view, one later minimal draw shows late correction habit; next draw allowed thinning without corrective interference.
+- Deliberate shaping:
+  - near: first clean, second slight drift, third clean enough;
+  - middle: first fails early, second holds longer, third gives possible edge-lift-like sensation;
+  - farther: first collapses immediately, second reaches farther but smears, third holds fractionally then vanishes. Farther shaping remains weak.
+- External-effect sequence separates **target distance** from **requested effect magnitude**. Hessa places plain ceramic bead at farther mark but asks only one-grain movement toward Greg.
+- Farther-target external attempts:
+  - attempts 1-3 no verified movement;
+  - attempt 4 produces real movement but is not clean because Greg overcorrects after contact;
+  - attempts 5-6 no movement;
+  - attempt 7 produces a clean one-grain-or-less movement. This is the first clean external effect at a farther target under this revised framing.
+- Middle-target external: first clean, second none, third clean enough.
+- Near-target external: first clean, second overstrong at about three grains, third clean.
+- Hessa's teaching point: Greg's `distance problem` is probably multiple problems. Farther target reach for tiny effect can succeed even when sustained farther shaping quality is weak.
+- Hessa also identifies Greg's late-correction habit when he feels a draw/shaping thin. `Do not chase clean result` becomes a useful self-regulation note.
+- Hessa explicitly keeps all outside-session restrictions unchanged. No independent bead work, no outside practice, no restriction change.
+- Next Hessa experiment/appointment remains unselected.
 
-## Mara continuity
-- Mara's prior rates remain: mark read 2c; housing 3c; open seat 4c + materials; registry by page; provenance by hour.
-- Ch332 clarifies housing read scope: accessible exterior housing, visible seams/fasteners, visible core seat without opening, wear/service points, supportable housing-family information. No opening, activation, safety certification, or guaranteed function claim.
-- Separate controlled bench behavior observation can be 2c if simple, variable upward with setup. This is not on prior sign and not a universal artifact-testing tariff.
-- Mara gives free transport safety advice after paid read: rigid guard over ring during body carry. No mentorship/apprenticeship created.
-
-## Magic continuity
-- Totals remain **36 supervised minimal draws / 32 supervised deliberate shaping attempts / 78 supervised external-effect attempts**.
-- Ch313-Ch332 add no Greg magic attempts.
-- Mara inspection tools do not count as Greg magic.
-- Hessa next experiment remains unselected; outside restrictions unchanged.
+## Notes / bookkeeping
+- Greg leaves old notes home for session and writes fresh notes afterward.
+- New notes include:
+  - `FAR TARGET != FAR EFFECT`
+  - `ONE-GRAIN MOVE AT FAR TARGET CLEAN ON 7TH TODAY`
+  - `EARLIER FAR SHAPING STILL WEAK`
+  - `DISTANCE MAY BE MULTIPLE PROBLEMS`
+  - `LATE CORRECTION HABIT WHEN FEELING THIN`
+  - `DO NOT CHASE CLEAN RESULT`
+  - `OLD DISTANCE COUNTS MIXED AXES / KEEP FOR HISTORY / DO NOT PRETEND COMPARABLE`
+- Do not back-rewrite historical totals. Preserve them as prior observation categories while using more precise axes going forward.
 
 ## Recent chapter ledger
 
-### Chapter 330 - THE BACK DOOR
-- Building aftermath, Senna sign/portrait choice, front route reopens. Greg 2c.
-
 ### Chapter 331 - THE MARKER FIELD
-- Antonius field survey work. Greg earns 3c and reaches 5c. Partial old survey-mark recognition, no adjudication.
+- Antonius field work. Greg earns 3c and reaches 5c. Partial old survey-mark recognition.
 
 ### Chapter 332 - THE HOUSING
-- Greg recognizes 5c makes Mara's 3c housing read a genuine choice while preserving reserve.
-- Before travel, Greg documents holdfast visible mark and rear-screw tool wear without turning ring.
-- Transport itself becomes a disability/material problem; Lyssa helps make basket carry workable without occupying crutch hands.
-- Greg pays Mara 3c for housing read.
-- Read supports older serviceable working housing in broad anchoring/rigging/restraint/load-control family, repeated mounting, one badly worked rear fastener, slight local seam distortion, no obvious heat damage, no visible accessible core crack.
-- Mara advises against opening first. Controlled behavior/load observation should precede service/opening.
-- Mara offers possible simple bench observation for 2c; Greg refuses because it would consume remaining reserve.
-- Mara flags basket transport pressure risk; Greg adds free rigid packing slats as guard.
-- Greg returns holdfast home/stored. Ends **2c + 0 bits** with more information and known next question, not economic reset.
-- No activation, injury, sale, new artifact acquisition, debt change, or Greg mana attempt.
+- Greg spends 3c on Mara housing read for holdfast, preserves 2c reserve, delays controlled load test.
 
-## Other live continuity
-- Antonius/Pell marker dispute remains unresolved and does not need immediate follow-up.
-- Pell possible reference page remains weak/delayed.
-- Theatre no standing work guarantee.
-- Building proper seat replacement can remain background.
-- Senna copy remains hers.
+### Chapter 333 - THE FAR POINT
+- Hessa summons Greg for supervised practice after long gap. No artifacts/equipment allowed beyond both crutches.
+- Session separates target distance from effect magnitude and sustained shaping quality.
+- Five minimal draws reveal a late-correction habit when Greg feels thinning.
+- Nine deliberate shaping attempts show near stronger, middle mixed, farther still weak.
+- Thirteen external attempts use same one-grain movement request across farther, middle, and near targets.
+- Greg gets one verified but unclean farther-target movement on attempt 4 and one clean farther-target one-grain movement on attempt 7.
+- Middle and near target work are stronger, but near includes one overstrong three-grain move, reinforcing that closer is not automatically cleaner.
+- Hessa stops the session before Greg can chase the clean far result and keeps all restrictions unchanged.
+- Greg updates totals to **41 / 41 / 91** and explicitly marks old near/middle/far aggregates as mixed-axis history, not directly comparable going forward.
+- End money **2c + 0 bits**. No purchase, debt change, injury, artifact use, or unsupervised magic.
 
 ## Protected uncertainties
-- Holdfast exact identity, maker, date, formal function, safe load, activation/release mechanics, defect status, core condition beyond visible angle, reason for worn screw/distortion, service history, value, repairability remain unestablished.
-- Mara has not opened or activated it.
-- Oval exact identity/mechanics/value remain unestablished.
-- Remaining repair-sweep pieces default mundane/unknown.
+- Greg's true range remains unresolved. One tiny clean farther-target move does not establish combat range, sustained manipulation, larger force, repeatability, or independent control.
+- Whether target distance, effect magnitude, duration, spatial specification, body posture, fatigue, correction habit, or other variables dominate performance remains unestablished.
+- Hessa's next protocol remains unselected.
+- Holdfast exact identity/function/value remains unresolved and delayed.
+- Oval exact identity/mechanics/value remain unresolved and quiet.
 
-## Chapter 333 trailhead
-Follow next actual claim from Ch332/current authority.
+## Chapter 334 trailhead
+Follow next actual claim from Ch333/current authority.
 
-Recent rhythm: outdoor paid field work -> expensive specialist information/owned-object logistics. Avoid another immediate Mara visit, another holdfast test, or another quiet money-accounting chapter.
+Recent rhythm: outdoor field work -> specialist artifact read -> supervised magic practice. Avoid another controlled test chapter immediately, whether Hessa, Mara, or artifact bench work.
 
-Greg is back at **2c + 0 bits**, but unlike before this is a chosen post-investment reserve and he has improved information. Do not narratively reset him to desperation.
+Greg remains **2c + 0 bits**. He has recently invested money into information, then gained a real but bounded magic result. Do not immediately monetize the magic or turn it into a job credential.
 
-The holdfast now has a clear delayed next step: controlled behavior/load observation when Greg has enough reserve to pay without zeroing himself. Let that breathe.
+Strongly favor another rhythm change: theatre/public event, social collision, travel, ordinary work with altered internal confidence, or a live external problem where Greg's changed magical understanding matters only indirectly.
 
-Strongly change rhythm in Ch333. Good candidates include theatre/public performance with different social geometry, Hessa reactivation, travel/field encounter, social collision, or an external opportunity/problem where Greg's recent accumulated tools/relationships matter without becoming another appraisal scene.
+Theatre remains a strong option because it can change social geometry and preserve lived-world accumulation. Hessa should not become a tutorial streak.
 
-The oval can remain quiet. The holdfast should stay home unless a genuinely earned reason requires it. Magic remains 36 / 32 / 78.
+The oval can remain quiet. Holdfast stays home unless genuinely earned. No independent magic practice.
 
-Avoid generic posted job -> competence -> pay repetition immediately after Ch331.
+Magic totals are now **41 minimal / 41 deliberate shaping / 91 external effects**.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
