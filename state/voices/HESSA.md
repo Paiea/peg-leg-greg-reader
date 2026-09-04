@@ -85,6 +85,8 @@ Chapters 131-139 preserve that restraint even after cleaner progress. A clean in
 
 Hessa does not protect a preferred result from a better baseline.
 
+Chapter 176 adds another version of the same restraint. Greg returns from travel with no prohibited independent work, then asks to revisit the external question at a smaller scale. Hessa allows one clean supervised attempt under a better breath-controlled setup. When it produces no external displacement, she stops after one rather than spending more attempts chasing a prettier null or a desired twitch.
+
 ## Information behavior
 
 Hessa may know more than she says because information can contaminate expectation or because Greg does not need the next question yet.
@@ -102,6 +104,7 @@ High-value examples:
 - Chapters 131 and 133: she removes the prepared destination and establishes direction before shaping.
 - Chapter 135: she repeats wristward because it was the first direction-first condition, not because she prefers its result.
 - Chapters 137 and 139: she maps neutral shape geometry so later directional claims can be interpreted against a better starting description.
+- Chapter 176: she makes Greg separate prepared-object behavior, audience interpretation, and his own external magical work before she will accept the question. During the test, Greg notices himself trying to construct the clean result story and stops. Hessa treats that restraint as improved experimental behavior, not magical success.
 
 Independent witnesses and apparatus answer only the question they can actually answer. Copper can support that a mana event changed while Greg reports phenomenology. It does not give Hessa a perfect map of Greg's sensation.
 
@@ -161,17 +164,45 @@ Chapter 139 repeats the baseline question in more detail. The wrist-side boundar
 
 That repeated baseline asymmetry changes the weight of the earlier directional work. The observations remain real reports, but a pre-existing wrist-favored geometry means wrist-side sharpening after instruction carries less evidentiary force than it would from a symmetric baseline. The old tests are weaker, not erased.
 
-Current ceiling by the end of Chapter 139:
-- minimal draw: increasingly repeatable;
-- localized shaping: increasingly repeatable;
+### Chapter 176: smaller external displacement under cleaner controls
+
+Greg returns from the road having obeyed the ban on independent draw, shape, testing, and other prohibited magical work.
+
+His road experience gives him analogies from theatre and prepared objects, but Hessa refuses to let those become one mechanism. She separates:
+- a prepared throw blank whose structure was designed by a maker;
+- a prepared blue-lamp effect that changes light;
+- an audience interpreting that light as cold;
+- Greg's own external magical question.
+
+The operational question becomes whether Greg can produce **a smaller external change than the earlier thread attempts under a cleaner condition**.
+
+Hessa uses two same-sheet folded paper tabs, one target and one control, beneath a glass breath shield. The apparatus is weighted and positions are marked. The target question is small directional displacement, not casting and not proving Greg's theatre analogy.
+
+Before the controlled attempt, Greg notices he is trying to make the result into a clean story: target moves, control does not, Greg did magic. He stops. Hessa explicitly counts noticing and stopping that expectation-performance as improved method behavior.
+
+The controlled external attempt produces no observed displacement. Neither target nor control moves during the attempt. The target trembles only after Greg exhales; breath explains that movement.
+
+Hessa records the null and refuses an immediate repeat. A useful failure is enough for the day. She plans a narrower related question after two days rather than chasing the desired result.
+
+Current exact counts by the end of Chapter 176:
+- **21 successful supervised minimal draws**;
+- **17 successful supervised deliberate shaping attempts**;
+- **4 supervised external-effect attempts**.
+
+Current ceiling by the end of Chapter 176:
+- minimal draw: increasingly repeatable and retained after travel;
+- localized shaping: increasingly repeatable and retained after travel;
 - maintaining draw while altering: increasingly repeatable;
 - RETURN: increasingly repeatable;
 - avoiding broad old response / motor recruitment: increasingly repeatable;
 - direction-first control: **provisionally supported under a narrow self-reported condition, with interpretation weakened by better baseline geometry**;
 - neutral shape may have repeatable asymmetry: **supported as a live possibility, not established cause or anatomy**;
-- external effect: **unestablished**;
+- controlled small external displacement under the Chapter 176 paper-tab setup: **not observed on attempt four**;
+- external effect overall: **unestablished**;
+- spell: **not established**;
 - casting: **not cleared**;
-- Barrier: **not cleared**.
+- Barrier: **not cleared**;
+- independent magical work: **still prohibited**.
 
 ## External-effect threshold
 
@@ -188,11 +219,14 @@ Useful factors include:
 - enough internal control that an external result would be interpretable;
 - an apparatus/question that does not create more ambiguity than it resolves;
 - enough reason to spend another safe attempt on the external question;
-- enough understanding of starting geometry that a reported directional change can be interpreted against baseline.
+- enough understanding of starting geometry that a reported directional change can be interpreted against baseline;
+- enough expectation control that Greg can notice when he is trying to manufacture the desired story and stop before treating that urge as data.
 
 A permission for one external test is not general external-test clearance. It is not casting clearance.
 
 A provisional internal success is not automatically a reason to return to external testing.
+
+A null external attempt is not an automatic reason to repeat immediately. If the condition was clean enough to answer the day's question and expectation is now stronger, stopping may preserve more information than another try.
 
 ## With Greg
 
@@ -210,7 +244,11 @@ Chapter 139 makes that boundary especially clear when Greg considers traveling e
 
 Boring intervals remain part of evidence. Chapter 139 also shows that the interval can expand because ordinary life intervenes. A five- or six-day trip is not automatically a failure of the magical progression. If nothing concerning changes, the supervised work can resume when Greg returns.
 
+Chapter 176 confirms that principle after a much longer road interval. Hessa first checks whether Greg drew, shaped, tested, or did anything prohibited. He did not. She does not punish the gap or restart the progression from zero. His supervised minimal draw and shaping remain available, so the next question can proceed from current evidence.
+
 Hessa may give Greg an assessment artifact while still controlling what it means. She gives him the newer drawing but warns against reconstructing the sensation, turning travel into unrecorded testing, or even physically folding the sheet through the boundary in a way that may contaminate later memory.
+
+Chapter 176 also keeps ordinary work outside her authority. When Greg says he must return to the theatre by four, Hessa treats that as a real constraint: `You have work.` The magic session fits around it rather than consuming his day because the experiment is important.
 
 ## Canon lines / fingerprints
 
@@ -239,9 +277,13 @@ Hessa may give Greg an assessment artifact while still controlling what it means
 - **CANON LINE:** `That your neutral shaped state may have a repeatable asymmetry under this setup.`
 - **CANON LINE:** `I don't control where you travel.`
 - **CANON LINE:** `Go because you want to go.`
+- **CANON LINE:** `We are asking whether you can produce a small external displacement under a cleaner condition than your previous attempts.`
+- **CANON LINE:** `You have work.`
 - **CANON PATTERN:** upgrades the strongest noun only when evidence earns it, then preserves the scope.
 - **CANON PATTERN:** lowers confidence in an exciting result when later baseline information makes another explanation more plausible.
 - **CANON PATTERN:** gives ordinary-life freedom without expanding magical permission.
+- **CANON PATTERN:** can treat Greg noticing his own result-construction impulse as methodological progress without upgrading the magical result.
+- **CANON PATTERN:** a clean null external attempt can be worth stopping on rather than repeating until something moves.
 
 ## Voice tests — NON-CANON
 
@@ -258,6 +300,8 @@ Hessa and Greg share evidence vocabulary because she taught and reinforced it. T
 Hessa and Pessa may both use `No`, `Maybe`, `Good`, and short correction loops. Difference:
 - Hessa: controlled magical/body response, expectation contamination, repeatability, practitioner margin, baseline geometry, progression criteria, apparatus ambiguity, permission;
 - Pessa: physical movement, object load, drill objective, fatigue, integrated use, next embodied adjustment.
+
+Nessa can discuss prepared theatre effects and Greg can bring those observations into Hessa's room, but Hessa does not inherit stagecraft authority. She separates what the prepared object does, what the room/audience does, and what Greg's own magic has actually established.
 
 Other characters should not casually inherit Hessa's full reasoning architecture because the author likes it.
 
@@ -284,6 +328,8 @@ Avoid:
 - converting `provisionally supported under this narrow condition` into general directional mastery;
 - treating a neutral-shape baseline as a directional test;
 - assuming later baseline evidence must either validate or erase earlier observations rather than changing their weight;
-- turning `Go because you want to go` into a generic autonomy slogan detached from the specific boundary of Hessa's authority.
+- turning `Go because you want to go` into a generic autonomy slogan detached from the specific boundary of Hessa's authority;
+- merging prepared-object behavior, audience interpretation, and Greg's own external magical effect into one mechanism merely because Greg sees a useful analogy;
+- repeating a clean null external attempt immediately because a more dramatic answer would be emotionally satisfying.
 
 Hessa is strongest when exactness belongs specifically to the work she is doing.
