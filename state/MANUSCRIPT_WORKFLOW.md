@@ -8,6 +8,8 @@ This file is a compact routing note for any chat, Codex session, or repository p
 - Manuscript engine method: `state/MANUSCRIPT_ENGINE_PLAYBOOK.md`
 - Manuscript state: `state/MANUSCRIPT_STATE.md`
 - Current rhythm / artifact route: `state/RHYTHM_ARTIFACT_ENGINE.md`
+- Artifact information / bargaining logic: `state/ARTIFACT_MARKET_INTELLIGENCE.md`
+- Artifact market-visible pricing logic: `state/ARTIFACT_PRICING_LOGIC.md`
 - Economic progression / price calibration: `state/ECONOMY_CONTINUITY.md`
 - Project authority / sync rules: `state/PROJECT_STATE.md`
 - Chapter index: `state/MANUSCRIPT_CHAPTER_INDEX.md`
@@ -27,9 +29,9 @@ Do not create a new range-stamped running manuscript or chapter-numbered state f
 
 ## Production model: one chapter, one durable transaction
 
-The WRITING UNIT is one complete chapter.
+The WRITING UNIT is one complete new chapter.
 
-For normal accepted forward production, the DEFAULT DURABLE SHIPPING UNIT is also one complete chapter.
+For normal accepted forward production, one complete chapter is also the default durable shipping transaction.
 
 Do not let several finished chapters accumulate only in chat or other temporary working context. Chapter N is not complete merely because prose was drafted. It is complete when the exact prose, relevant living state, next trailhead, and accepted GitHub authority agree.
 
@@ -38,15 +40,16 @@ A normal chapter transaction looks like:
 1. Read current `main`, core manuscript state, `RHYTHM_ARTIFACT_ENGINE.md`, and the exact recent prose edge.
 2. Read the current executable trailhead from `MANUSCRIPT_STATE.md`.
 3. Inspect the last 3–6 chapters for repeated function / emotional amplitude / Greg-role / uncertainty type. If repetition risk is medium or high, the proposed chapter must change meaningful story grammar rather than only nouns.
-4. If the chapter contains a meaningful wage, price, purchase, debt movement, bid, fee, saving goal, acquisition, or money-driven decision, read `ECONOMY_CONTINUITY.md` and calibrate the amount and Greg's reaction against prior anchors and his current economic stage.
-5. Privately identify the light chapter contract, including rhythm intervention, fantasy density, artifact pressure, and economic pull when relevant, then write ONE complete chapter.
-6. Give it a LIGHT drafting pass: clarity, repetition, attribution, paragraph rhythm, continuity, obvious weak prose, rhythm repetition, fantasy density, and economic logic when applicable.
-7. Validate chapter length, title, no-em-dash rule, numerical continuity, protected uncertainty, economic continuity when relevant, and any chapter-specific constraints.
-8. Append the exact accepted prose to the SAME permanent running manuscript.
-9. Update only the living state/index/open-thread files whose answers materially changed.
-10. Put the next executable chapter trailhead in `MANUSCRIPT_STATE.md`.
-11. Commit the complete chapter transaction to `main` when the author has authorized normal forward shipping.
-12. Re-read current `main` and verify the endpoint before reporting success or drafting the next chapter.
+4. If the chapter contains a meaningful artifact exposure, appraisal, negotiation, bid, purchase, seller interaction, provenance judgment, or information-sensitive valuation, read `ARTIFACT_MARKET_INTELLIGENCE.md` and `ARTIFACT_PRICING_LOGIC.md`. Price the object from what the current market can actually observe and credibly know, not from omniscient true value. Obvious demonstrable power should normally already cost real money.
+5. If the chapter contains a meaningful wage, price, purchase, debt movement, bid, fee, saving goal, acquisition, or money-driven decision, read `ECONOMY_CONTINUITY.md` and calibrate the amount and Greg's reaction against prior anchors and his current economic stage.
+6. Privately identify the light chapter contract, including rhythm intervention, fantasy density, artifact pressure, information gap, market-visible value, and economic pull when relevant, then write ONE complete chapter.
+7. Give it a LIGHT drafting pass: clarity, repetition, attribution, paragraph rhythm, continuity, obvious weak prose, rhythm repetition, fantasy density, artifact-market logic, and economic logic when applicable.
+8. Validate chapter length, title, no-em-dash rule, numerical continuity, protected uncertainty, economic continuity when relevant, and any chapter-specific constraints.
+9. Append the exact accepted prose to the SAME permanent running manuscript.
+10. Update only the living state/index/open-thread files whose answers materially changed.
+11. Put the next executable chapter trailhead in `MANUSCRIPT_STATE.md`.
+12. Commit the complete chapter transaction to `main` when the author has authorized normal forward shipping.
+13. Re-read current `main` and verify the endpoint before reporting success or drafting the next chapter.
 
 This creates a hard durability boundary between chapters. A chat may continue immediately into Chapter N+1 after Chapter N is verified, but it does so from the new GitHub authority rather than relying on its own memory.
 
@@ -60,10 +63,25 @@ Its important current rules:
 - when several canon-consistent claims are available, actively favor routes that move Greg toward unusual objects, provenance, markets, sellers, workshops, salvage, collecting, repair, bidding, acquisition, or other high-fantasy material systems;
 - the best major artifacts **rewrite Greg's operating rules**, not merely add a stronger ability;
 - powerful artifacts should often carry severe but playable constraints that change travel, timing, environment, body use, social behavior, tactics, storage, work, or daily planning;
-- major artifacts should generally be expensive by Greg's current standards, while sometimes being dramatically underpriced relative to true capability / future value Greg remembers;
+- major artifacts should generally be expensive by Greg's current standards;
+- obvious, demonstrable artifact value should normally already be reflected in price;
+- Greg's strongest bargains come from **latent value the current market cannot yet see, prove, correctly interpret, authenticate, combine, or care about**, not from sellers ignoring obvious miracles;
+- an artifact can still be expensive in absolute terms while being dramatically cheap relative to what Greg privately knows it can become or accomplish;
 - artifact desire should create a concrete reason Greg wants more capital, better-paying work, reserves, market access, or the ability to act quickly on rare opportunities;
 - Greg should get real wins. Artifact work must not become Hessa-style endless non-results;
 - do not convert this direction into a loot treadmill. Build depth, interactions, history, maintenance, and changing uses as well as new acquisitions.
+
+### Artifact price is an information claim
+
+For a meaningful artifact transaction, the asking price should make sense from the seller's and current market's information state.
+
+Do not use `seller is inexplicably dumb` as the explanation for Greg getting a great deal.
+
+A deep bargain needs a real information gap such as hidden capability, misidentified provenance, misunderstood failure, unknown interaction, future scarcity, unavailable current technique, obscure maker, poor authentication, wrong use case, or a warning history that scares buyers away from value Greg understands differently.
+
+Conversely, if the artifact visibly does something extraordinary and useful, it should usually command an extraordinary-enough price even if both seller and buyer remain ignorant of deeper layers.
+
+Greg may strategically hide what he knows, act less interested than he is, ask around the real question, or avoid demonstrating hidden value. This protects an information advantage. It does not erase value that is already public and obvious.
 
 ### Money is progression, not purse-state shorthand
 
@@ -87,7 +105,7 @@ A fresh Manuscript Engine chat should be able to begin with:
 
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
 
-It must reconstruct the current endpoint, exact edge, constraints, **current rhythm/artifact direction**, and next job from GitHub. If the same chat remains alive, the user may simply say `Continue` or `Next chapter` after a successful chapter transaction.
+It must reconstruct the current endpoint, exact edge, constraints, **current rhythm/artifact direction**, and next job from GitHub. If the same chat remains alive, the user may simply say `Continue` or `Next chapter` after a successful chapter commit.
 
 ## Drafting is not the heavy prose edit
 
@@ -103,6 +121,7 @@ During forward drafting:
 - reject `technically new but functionally the same` chapters when the recent rhythm is already saturated;
 - preserve ordinary life, but do not let `mundane` become a shield for repeated low-voltage chapter grammar;
 - when an artifact appears, require it to change decisions, constraints, economics, or operating rules rather than merely adding power;
+- when an artifact is priced, require the price to reflect visible current-world value while preserving only justified information asymmetry;
 - then KEEP MOVING.
 
 Do not repeatedly stop forward production to perfect every paragraph, mine dozens of old chapters for callbacks, manufacture new social roles, or perform manuscript-wide cadence surgery.
@@ -139,6 +158,7 @@ At minimum verify:
 - NO EM DASHES appear in newly drafted manuscript prose;
 - numerical/canon continuity reflects what actually happened;
 - any meaningful price/wage/reaction fits `ECONOMY_CONTINUITY.md` and does not accidentally reset Greg's economic progression;
+- if a meaningful artifact transaction occurs, the price is rational under the current market's visible/credible knowledge and any bargain has a concrete information-gap explanation;
 - if a major artifact appears, its upside/downside changes behavior or future play rather than functioning as a simple stat upgrade;
 - the chapter does not merely repeat recent story grammar under new nouns when the current rhythm calls for a break;
 - state/index/open-thread changes do not contradict the prose;
@@ -176,7 +196,7 @@ After a chapter is shipped, chat should provide a compact production receipt:
 2. verified word count and em-dash status;
 3. commit SHA / verified endpoint;
 4. one short note about what materially moved;
-5. confirmation that the next chapter trailhead is durable.
+5. confirmation that the next executable trailhead is durable.
 
 A giant chapter-specific re-prompt is not required when that durable trailhead already contains the necessary steering. For human convenience, the generic restart prompt is enough:
 
