@@ -10,6 +10,7 @@ This file is a compact routing note for any chat, Codex session, or repository p
 - Project authority / sync rules: `state/PROJECT_STATE.md`
 - Chapter index: `state/MANUSCRIPT_CHAPTER_INDEX.md`
 - Open threads: `state/OPEN_THREADS.md`
+- Economic progression / price calibration: `state/ECONOMY_CONTINUITY.md`
 
 Do not create a new range-stamped running manuscript or chapter-numbered state file for each push. Update these living files in place.
 
@@ -34,16 +35,25 @@ A normal chapter transaction looks like:
 
 1. Read current `main`, core manuscript state, and the exact recent prose edge.
 2. Read the current executable trailhead from `MANUSCRIPT_STATE.md`.
-3. Privately identify the light chapter contract and write ONE complete chapter.
-4. Give it a LIGHT drafting pass only: clarity, repetition, attribution, paragraph rhythm, continuity, and obvious weak prose.
-5. Validate chapter length, title, no-em-dash rule, numerical continuity, protected uncertainty, and any chapter-specific constraints.
-6. Append the exact accepted prose to the SAME permanent running manuscript.
-7. Update only the living state/index/open-thread files whose answers materially changed.
-8. Put the next executable chapter trailhead in `MANUSCRIPT_STATE.md`.
-9. Commit the complete chapter transaction to `main` when the author has authorized normal forward shipping.
-10. Re-read current `main` and verify the endpoint before reporting success or drafting the next chapter.
+3. If the chapter contains a meaningful wage, price, purchase, debt movement, bid, fee, or money-driven decision, read `ECONOMY_CONTINUITY.md` and calibrate the amount and Greg's reaction against prior anchors and his current economic stage.
+4. Privately identify the light chapter contract and write ONE complete chapter.
+5. Give it a LIGHT drafting pass only: clarity, repetition, attribution, paragraph rhythm, continuity, and obvious weak prose.
+6. Validate chapter length, title, no-em-dash rule, numerical continuity, protected uncertainty, economic continuity when relevant, and any chapter-specific constraints.
+7. Append the exact accepted prose to the SAME permanent running manuscript.
+8. Update only the living state/index/open-thread files whose answers materially changed.
+9. Put the next executable chapter trailhead in `MANUSCRIPT_STATE.md`.
+10. Commit the complete chapter transaction to `main` when the author has authorized normal forward shipping.
+11. Re-read current `main` and verify the endpoint before reporting success or drafting the next chapter.
 
 This creates a hard durability boundary between chapters. A chat may continue immediately into Chapter N+1 after Chapter N is verified, but it does so from the new GitHub authority rather than relying on its own memory.
+
+### Money is progression, not purse-state shorthand
+
+When money materially enters a chapter, distinguish cash on hand from earning capacity, assets, debt, and optionality. Greg may be temporarily cash-light without emotionally resetting to early-book poverty.
+
+Economic progression should generally move upward over long spans through better work, stronger access, accumulated assets, greater ability to refuse bad terms, and increasing resilience. Do not create that progression by inflating every ordinary price or multiplying every wage.
+
+A cheap/common price can become less narratively important as Greg progresses. Larger economic stakes should increasingly come from larger or more specialized goods, contracts, travel, tools, materials, magical items, or obligations rather than making bread and ordinary services scale with him.
 
 ### Deliberate batches
 
@@ -105,6 +115,7 @@ At minimum verify:
 - target chapter length meets the current writing target unless intentionally changed;
 - NO EM DASHES appear in newly drafted manuscript prose;
 - numerical/canon continuity reflects what actually happened;
+- any meaningful price/wage/reaction fits `ECONOMY_CONTINUITY.md` and does not accidentally reset Greg's economic progression;
 - state/index/open-thread changes do not contradict the prose;
 - the next executable trailhead is durable in `MANUSCRIPT_STATE.md`;
 - no stale source overwrote newer GitHub authority.
