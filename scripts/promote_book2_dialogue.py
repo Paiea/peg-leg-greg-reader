@@ -4,6 +4,8 @@
 from __future__ import annotations
 
 import re
+import sys
+from pathlib import Path
 
 try:
     import promote_book1_polish as impl
@@ -46,5 +48,19 @@ def _number_from_heading(text: str) -> int | None:
 impl._number_from_heading = _number_from_heading
 
 
+def _print_heading_diagnostic() -> None:
+    try:
+        index = sys.argv.index("--docx")
+        path = Path(sys.argv[index + 1])
+    except (ValueError, IndexError):
+        return
+    from docx import Document
+    headings = [p.text for p in Document(path).paragraphs if "CHAPTER" in p.text.upper()]
+    print("Book II canonical heading tail:")
+    for heading in headings[-12:]:
+        print(repr(heading))
+
+
 if __name__ == "__main__":
+    _print_heading_diagnostic()
     raise SystemExit(impl.main())
