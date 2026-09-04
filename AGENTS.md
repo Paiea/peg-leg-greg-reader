@@ -47,6 +47,8 @@ Read `state/MANUSCRIPT_ENGINE_PLAYBOOK.md`, `state/MANUSCRIPT_WORKFLOW.md`, `sta
 
 01 is intentionally chat-independent. Previous chat history may help but is never required authority. A fresh worker must reconstruct the current endpoint and next executable chapter from current GitHub state. For normal accepted forward production, treat one complete chapter as one durable transaction: draft, validate, update the permanent manuscript and relevant living state, store the next trailhead in `MANUSCRIPT_STATE.md`, commit, verify current `main`, then advance.
 
+`Queue N Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.` is a valid bounded composition of normal Manuscript Engine transactions. Follow the full queue semantics and limits in `state/MANUSCRIPT_ENGINE_PLAYBOOK.md`: each pass must cross its own durable boundary and re-read the newest GitHub edge before the next pass begins. The queue is disposable execution control, not a second manuscript state system.
+
 If chat history or a prompt claims a chapter exists but GitHub ends earlier, stop forward numbering and recover exact durable prose first if it exists. Never fabricate a missing chapter from summaries or chat residue.
 
 ### Writers' Room / 02
@@ -119,6 +121,7 @@ The long-term goal is that fresh workers reconstruct their role primarily from r
 Minimal fresh-chat starters are intentionally valid:
 
 - `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
+- `Queue 5 Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
 - `Continue Peg-Leg Greg Writers' Room from current GitHub authority.`
 - `Continue Peg-Leg Greg Story Control from current GitHub authority.`
 - `Continue Peg-Leg Greg as 04 — Heavy Prose Editor from current GitHub authority.`
