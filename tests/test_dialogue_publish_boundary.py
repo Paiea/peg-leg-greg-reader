@@ -1,10 +1,14 @@
 from pathlib import Path
+import sys
+import tempfile
 import unittest
 
-from scripts.dialogue_live_entrypoint import _parse_batch_compat
-
-
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
+
+from dialogue_live_entrypoint import _parse_batch_compat
+from promote_recovered_dialogue import apply_patches_to_recovered
+
 WORKFLOW = ROOT / ".github/workflows/dialogue-attribution-live.yml"
 
 
@@ -41,6 +45,47 @@ clear speaker hinge
         self.assertEqual(len(patches), 1)
         self.assertEqual(patches[0].current[-1], '"To arrest the Chancellor."')
         self.assertEqual(patches[0].replacement[-1], 'Lorn said, "To arrest the Chancellor."')
+
+    def test_recovered_promotion_is_chapter_scoped(self):
+        source = '''# RECOVERED
+
+# CHAPTER 156
+## THE ADVOCATE
+
+Before.
+
+"To arrest the Chancellor."
+
+After.
+
+# CHAPTER 157
+## THE TABLE
+
+"To arrest the Chancellor."
+'''
+        batch = '''## Chapter 156 - THE ADVOCATE
+
+### Patch 156-A
+
+Current:
+
+> "To arrest the Chancellor."
+
+Replace with:
+
+> Lorn said, "To arrest the Chancellor."
+
+Reason:
+clear speaker hinge
+'''
+        patch = _parse_batch_compat(batch, "batch.md", 156, 156)[0]
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "recovered.md"
+            path.write_text(source, encoding="utf-8")
+            self.assertTrue(apply_patches_to_recovered(path, [patch], 156, 156))
+            text = path.read_text(encoding="utf-8")
+            self.assertEqual(text.count('Lorn said, "To arrest the Chancellor."'), 1)
+            self.assertEqual(text.count('"To arrest the Chancellor."'), 2)
 
 
 if __name__ == "__main__":
