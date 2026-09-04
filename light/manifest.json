@@ -2,6 +2,342 @@
   "latest": 309,
   "chapters": [
     {
+      "number": 100,
+      "title": "THE COOK",
+      "source": "published",
+      "path": "100.html"
+    },
+    {
+      "number": 101,
+      "title": "THE WAITING MAN",
+      "source": "published",
+      "path": "101.html"
+    },
+    {
+      "number": 102,
+      "title": "THE PIVOT",
+      "source": "published",
+      "path": "102.html"
+    },
+    {
+      "number": 103,
+      "title": "THE SHAPER",
+      "source": "published",
+      "path": "103.html"
+    },
+    {
+      "number": 104,
+      "title": "THE SECOND OPINION",
+      "source": "published",
+      "path": "104.html"
+    },
+    {
+      "number": 105,
+      "title": "THE CONTROL",
+      "source": "published",
+      "path": "105.html"
+    },
+    {
+      "number": 106,
+      "title": "THE RUNNER",
+      "source": "published",
+      "path": "106.html"
+    },
+    {
+      "number": 107,
+      "title": "THE TARGET",
+      "source": "published",
+      "path": "107.html"
+    },
+    {
+      "number": 108,
+      "title": "THE LOSER",
+      "source": "published",
+      "path": "108.html"
+    },
+    {
+      "number": 109,
+      "title": "THE STOPPER",
+      "source": "published",
+      "path": "109.html"
+    },
+    {
+      "number": 110,
+      "title": "THE PARTNER",
+      "source": "published",
+      "path": "110.html"
+    },
+    {
+      "number": 111,
+      "title": "THE BRAKE",
+      "source": "published",
+      "path": "111.html"
+    },
+    {
+      "number": 112,
+      "title": "THE AUDIENCE",
+      "source": "published",
+      "path": "112.html"
+    },
+    {
+      "number": 113,
+      "title": "THE READER",
+      "source": "published",
+      "path": "113.html"
+    },
+    {
+      "number": 114,
+      "title": "THE REVERSER",
+      "source": "published",
+      "path": "114.html"
+    },
+    {
+      "number": 115,
+      "title": "THE RETURNER",
+      "source": "published",
+      "path": "115.html"
+    },
+    {
+      "number": 116,
+      "title": "THE PROMPTER",
+      "source": "published",
+      "path": "116.html"
+    },
+    {
+      "number": 117,
+      "title": "THE REPEAT",
+      "source": "published",
+      "path": "117.html"
+    },
+    {
+      "number": 118,
+      "title": "THE STAND-IN",
+      "source": "published",
+      "path": "118.html"
+    },
+    {
+      "number": 119,
+      "title": "THE SECOND ROUTE",
+      "source": "published",
+      "path": "119.html"
+    },
+    {
+      "number": 120,
+      "title": "THE REPEATER",
+      "source": "published",
+      "path": "120.html"
+    },
+    {
+      "number": 121,
+      "title": "THE REGULAR",
+      "source": "published",
+      "path": "121.html"
+    },
+    {
+      "number": 122,
+      "title": "THE REACHER",
+      "source": "published",
+      "path": "122.html"
+    },
+    {
+      "number": 123,
+      "title": "THE ERRAND",
+      "source": "published",
+      "path": "123.html"
+    },
+    {
+      "number": 124,
+      "title": "THE HORSE",
+      "source": "published",
+      "path": "124.html"
+    },
+    {
+      "number": 125,
+      "title": "THE TEST CASE",
+      "source": "published",
+      "path": "125.html"
+    },
+    {
+      "number": 126,
+      "title": "THE OLD ROAD",
+      "source": "published",
+      "path": "126.html"
+    },
+    {
+      "number": 127,
+      "title": "THE REPEAT",
+      "source": "published",
+      "path": "127.html"
+    },
+    {
+      "number": 128,
+      "title": "THE MESSENGER",
+      "source": "published",
+      "path": "128.html"
+    },
+    {
+      "number": 129,
+      "title": "THE LIMIT",
+      "source": "published",
+      "path": "129.html"
+    },
+    {
+      "number": 130,
+      "title": "THE EXTRA",
+      "source": "published",
+      "path": "130.html"
+    },
+    {
+      "number": 131,
+      "title": "THE DIRECTION",
+      "source": "published",
+      "path": "131.html"
+    },
+    {
+      "number": 132,
+      "title": "THE HOUR",
+      "source": "published",
+      "path": "132.html"
+    },
+    {
+      "number": 133,
+      "title": "THE OTHER WAY",
+      "source": "published",
+      "path": "133.html"
+    },
+    {
+      "number": 134,
+      "title": "THE VOICE",
+      "source": "published",
+      "path": "134.html"
+    },
+    {
+      "number": 135,
+      "title": "THE REPEAT",
+      "source": "published",
+      "path": "135.html"
+    },
+    {
+      "number": 136,
+      "title": "THE OLD VOICE",
+      "source": "published",
+      "path": "136.html"
+    },
+    {
+      "number": 137,
+      "title": "THE SHAPE",
+      "source": "published",
+      "path": "137.html"
+    },
+    {
+      "number": 138,
+      "title": "THE SHOPKEEPER",
+      "source": "published",
+      "path": "138.html"
+    },
+    {
+      "number": 139,
+      "title": "THE BASELINE",
+      "source": "published",
+      "path": "139.html"
+    },
+    {
+      "number": 140,
+      "title": "THE TRAVELER",
+      "source": "published",
+      "path": "140.html"
+    },
+    {
+      "number": 141,
+      "title": "THE PACKER",
+      "source": "published",
+      "path": "141.html"
+    },
+    {
+      "number": 142,
+      "title": "THE PASSENGER",
+      "source": "published",
+      "path": "142.html"
+    },
+    {
+      "number": 143,
+      "title": "THE STOP",
+      "source": "published",
+      "path": "143.html"
+    },
+    {
+      "number": 144,
+      "title": "THE STABLE",
+      "source": "published",
+      "path": "144.html"
+    },
+    {
+      "number": 145,
+      "title": "THE ARRIVAL",
+      "source": "published",
+      "path": "145.html"
+    },
+    {
+      "number": 146,
+      "title": "THE HAND",
+      "source": "published",
+      "path": "146.html"
+    },
+    {
+      "number": 147,
+      "title": "THE REHEARSAL",
+      "source": "published",
+      "path": "147.html"
+    },
+    {
+      "number": 148,
+      "title": "THE ROOF",
+      "source": "published",
+      "path": "148.html"
+    },
+    {
+      "number": 149,
+      "title": "THE AUDIENCE",
+      "source": "published",
+      "path": "149.html"
+    },
+    {
+      "number": 150,
+      "title": "THE WORK",
+      "source": "published",
+      "path": "150.html"
+    },
+    {
+      "number": 151,
+      "title": "THE SHOW",
+      "source": "published",
+      "path": "151.html"
+    },
+    {
+      "number": 152,
+      "title": "THE SECOND SHOW",
+      "source": "published",
+      "path": "152.html"
+    },
+    {
+      "number": 153,
+      "title": "THE MONEY",
+      "source": "published",
+      "path": "153.html"
+    },
+    {
+      "number": 154,
+      "title": "THE VISITOR",
+      "source": "published",
+      "path": "154.html"
+    },
+    {
+      "number": 155,
+      "title": "THE LEAK",
+      "source": "published",
+      "path": "155.html"
+    },
+    {
       "number": 156,
       "title": "THE ADVOCATE",
       "source": "recovered",

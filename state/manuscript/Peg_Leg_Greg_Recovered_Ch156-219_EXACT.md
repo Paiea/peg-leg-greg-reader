@@ -60,21 +60,7 @@ Iven pointed.
 
 "Why?"
 
-Lorn said, "Otherwise Orin comes in for no reason."
-
-I looked at Orin's name farther down the page.
-
-"What reason does he come in?"
-
-"To arrest the Chancellor."
-
-"Why?"
-
-Lorn and Iven answered at the same time.
-
-"Forgery."
-
-"Treason."
+Lorn said, "To arrest the Chancellor."
 
 They looked at each other.
 
@@ -8617,9 +8603,7 @@ Teren ignored both.
 
 "Wake me then."
 
-Teren looked at Greg.
-
-At me.
+Teren looked at me.
 
 "Fish."
 
@@ -9241,12 +9225,9 @@ Teren looked at him.
 
 "Three short sets. Nobody gets show rate."
 
-Greg asked, "Do we get anything?"
+I asked, "Do we get anything?"
 
 Teren looked at me.
-
-I had apparently become Greg again in my own head because money was
-involved.
 
 "One copper each for anyone in all three sets. Company keeps the rest."
 
@@ -10373,9 +10354,9 @@ People.
 A man came out of a doorway carrying a sack and looked as though someone
 had thrown him into bread.
 
-Greg noticed the sluice gate first.
+I noticed the sluice gate first.
 
-Of course Greg noticed the sluice gate first.
+Of course I noticed the sluice gate first.
 
 I leaned.
 
@@ -10912,7 +10893,7 @@ One door at each end.
 
 The room smelled like bread before bread became food.
 
-Greg immediately looked at the beams.
+I immediately looked at the beams.
 
 No.
 
