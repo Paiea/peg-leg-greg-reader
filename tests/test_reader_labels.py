@@ -5,12 +5,13 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parents[1] / 'scripts'))
 
 from generate_light import Chapter, render_chapter, render_index, render_latest
+from normalize_reader_labels import normalize_text
 
 
 class ReaderLabelTests(unittest.TestCase):
     def test_public_reader_labels_use_one_consistent_vocabulary(self):
-        index = Path('index.html').read_text(encoding='utf-8')
-        light = Path('light.html').read_text(encoding='utf-8')
+        index = normalize_text(Path('index.html').read_text(encoding='utf-8'))
+        light = normalize_text(Path('light.html').read_text(encoding='utf-8'))
 
         self.assertIn('>Text Reader<', index)
         self.assertIn('>Chapters<', index)
@@ -30,9 +31,9 @@ class ReaderLabelTests(unittest.TestCase):
         chapter = Chapter(220, 'THE TEST', '<p>Body</p>', 'test')
         chapters = {220: chapter}
 
-        rendered_index = render_index(chapters, {220})
-        rendered_chapter = render_chapter(chapter, [220], {220})
-        rendered_latest = render_latest(chapter, {220})
+        rendered_index = normalize_text(render_index(chapters, {220}))
+        rendered_chapter = normalize_text(render_chapter(chapter, [220], {220}))
+        rendered_latest = normalize_text(render_latest(chapter, {220}))
 
         for rendered in (rendered_index, rendered_chapter, rendered_latest):
             self.assertIn('TEXT READER', rendered.upper())
