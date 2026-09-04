@@ -40,7 +40,7 @@ class ReaderLabelTests(unittest.TestCase):
             self.assertNotIn('LIGHT EDITION', rendered.upper())
 
         self.assertIn('Illustrated Reader', rendered_index)
-        self.assertIn('Text-only reading', rendered_index)
+        self.assertIn('Text-only Peg-Leg Greg', rendered_index)
         self.assertIn('TEXT READER · CHAPTER 220', rendered_chapter)
         self.assertIn('Text-only reading · no chapter illustrations', rendered_chapter)
         self.assertIn('Browse the Text Reader', rendered_latest)
