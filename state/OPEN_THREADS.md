@@ -1,10 +1,10 @@
 # MANUSCRIPT OPEN THREADS
 
 ## Current edge
-- Current exact story endpoint: Chapter 311 - **THE RETURN CART**.
-- Exact Chapters 249-311 are durable checkpoint files and outrank summaries.
+- Current exact story endpoint: Chapter 312 - **THE MARKED THIRD**.
+- Exact Chapters 249-312 are durable checkpoint files and outrank summaries.
 - Permanent running manuscript remains physically materialized through Chapter 248; exact-text integration debt remains.
-- See `MANUSCRIPT_STATE.md` for executable Chapter 312 trailhead.
+- See `MANUSCRIPT_STATE.md` for executable Chapter 313 trailhead.
 
 ## Direction
 - Preserve ordinary lived detail, social accumulation, disability/material reality, humor, work, and independent side-character causality.
@@ -18,10 +18,36 @@
 - Ch310 returns to Lyssa's independent work life. An unnamed load-worker brings a charm-bearing green load vest. Lyssa accepts one-bit cloth work, refuses an offered extra bit for blue-line work, and keeps the professional scope hers.
 - Ch311 restores Sevren as a long-running friend whose courier/road life has continued independently off-page. One already-paid half-day cart seat takes Greg to Three Wells and back without creating work, money, or obligation.
 - Ch311 broadens Greg's lived geography and shows accumulated body competence: cart travel remains tiring, but he plans the seat, secures his crutches, and can pay attention to road/social life rather than managing a crisis.
-- Sevren now takes more east-relay work. His longer-seat possibility is conditional only: Greg says `Ask` if a genuine seat appears. No trip/date/fare is booked.
+- Ch312 independently reactivates Greg's supervised magic through a new target-specification question rather than another distance ladder. One continuous marked strip produces one clean small rotation on attempt 77, bracketed by failures on attempts 76 and 78.
+- Attempt 77 sharpens the question of whether target specification can affect response shape, but does not establish sub-object control, precision, torque, leverage, repeatability, or an applied-use path.
+- Sevren now takes more east-relay work. His longer-seat possibility remains conditional only: Greg says `Ask` if a genuine seat appears. No trip/date/fare is booked.
 - Greg's scarcity remains materially real at one copper + one bit.
 - Antonius's possible future cash-work offer remains conditional only. No actual cash task, rate, timing, standing obligation, weekly cadence, first refusal, or exclusivity exists.
 - Structural boundaries follow actual story movement; Ch300 remains non-structural.
+
+## Ch312 / Hessa / marked third / target specification
+- Hessa independently sends for Greg before breakfast with a note requiring an after-midday session, food first, no attempts beforehand, and the same outside-session restrictions.
+- Ch311 road fatigue is resolved by Ch312 morning: back normal, right thigh normal, residual limb comfortable, hands fine, crutches sound.
+- Hessa's safety check finds no pain, skin issue, pressure, grip/forearm/shoulder problem, or residual-limb concern.
+- Hessa reuses the Ch304 black witness plate, brass arch, four draft telltales, and still bead.
+- New target is **one continuous long narrow paper strip** divided by three black crossmarks into left / center / right marked regions. LEFT/CENTER/RIGHT are on Hessa's page, not written on the strip itself.
+- Distance is explicitly not today's variable. All three attempts remain at near; middle and far floor marks are unused.
+- Still field is ON for all three attempts. Hessa says air is not today's comparison; telltales settle straight before work.
+- Narrow session question: whether **target specification changes the observed response**. One continuous object is used so the test does not assume the marked regions are separate objects.
+- Same direction `away`, same duration, same permitted effort, same body position as practical, three maximum attempts.
+- Attempt 76: near / still ON / specified **left marked region** / away. No observed response. No slide, curl, lift, or rotation. Telltales remain straight.
+- Attempt 77: near / still ON / specified **right marked region** / away. Clean small **rotation**. Right end shifts away from Greg, left end shifts a smaller amount toward Greg, center barely translates.
+- Hessa checks telltales, still bead, table, floor, chair, Greg's right foot/crutches, her own sleeve, then measures both ends before logging the event.
+- Hessa's wording: `Observed small rotation. Right end displaced away relative to left.` She says it is clean enough to log as rotation.
+- Attempt 77 is consistent with target specification possibly affecting response geometry. It does **not** prove target specification matters, and does not establish sub-object control or that Greg can intentionally choose rotation.
+- Attempt 78: same strip reset to original alignment; near / still ON / specified **whole strip** / away. No observed response. No slide, turn, or lift. Telltales remain straight.
+- Hessa selects no next protocol. At the door Greg asks why this question; Hessa answers `Because distance has not explained enough.` This does not establish distance as irrelevant.
+- Greg writes on the existing narrow scrap: `76 LEFT THIRD: NONE`; `77 RIGHT THIRD: CLEAN SMALL ROTATION. RIGHT AWAY / LEFT SLIGHT TOWARD.`; `78 WHOLE STRIP: NONE.`; `TARGET SPECIFICATION MAY AFFECT RESPONSE SHAPE. ONE RESULT ONLY.`; `UNDER STILL FIELD.`; `NOT CONTROL YET.`
+- No clean sheet is used.
+- On the walk home Greg's brain tries to extrapolate to a latch, coin, fixed holdfast, cup, and Lyssa's blue load line. He rejects each as unsupported/not his work: `No blue line. No holdfast. No latch. No cup. Paper first.`
+- At home Lyssa has unrelated dark cloth, explicitly not the green vest. She asks only `Moved?` / `Good?`; Greg answers `One.` / `Interesting.`
+- Lyssa later nudges Greg's right shoe with hers and he nudges back. Exact prose frames it as `Not an apology. Not a lesson. Just contact.` Ch310 is not neatly resolved.
+- No customer pickup, blue-line application, holdfast use, independent Greg magic, money movement, Vale action, theatre contact, ecology encounter, pressure evidence, injury, or standing obligation.
 
 ## Ch311 / Sevren / Three Wells / return cart
 - Three days after Ch310, Sevren finds Greg near a fruit stall. This is an ordinary friendship return, not a summons, job, or emergency.
@@ -51,7 +77,8 @@
 - Relationship texture: Sevren steals Greg's bread, they share easy silence and road stories, Greg says `Good to see you`, Sevren answers `Yeah` and insults Greg's hair. No forced emotional debrief.
 - At home Lyssa asks only `Three Wells?` / `Worth it?`; Greg says yes. No Ch310 argument debrief, load-vest pickup, customer question, or green-vest follow-up.
 - Greg leaves the folded seat cloth near the household door. It is ordinary material and does not guarantee another trip.
-- No Greg job/client/income/spending, Vale action, Hessa contact, Greg mana, theatre contact, ecology encounter, pressure evidence, holdfast use, injury, or standing obligation.
+- Ch312 has no Sevren/Ressa/Three Wells follow-up. The conditional longer-seat possibility remains unchanged.
+- No Greg job/client/income/spending, Vale action, Hessa contact inside Ch311, Greg mana, theatre contact, ecology encounter, pressure evidence, holdfast use, injury, or standing obligation.
 
 ## Ch310 / Lyssa work / uncut line
 - Two mornings after Ch309, Lyssa needs the household table for an apartment customer fitting and tells Greg to move. Cala and Tavi are already out.
@@ -83,8 +110,9 @@
 - When Greg comes down later, Lyssa is already on unrelated work. The load vest remains one job among several rather than becoming a new joint project.
 - Ending remains intentionally imperfect: Greg says he no longer thinks Lyssa should cut it but still thinks he knows what he would try. Lyssa says that was not the question. Final line: `The blue line stayed uncut.`
 - Brown cuff, older protected garment materials, Marra/Jessa routes, and other protected Lyssa work do not advance.
-- Ch311 does not return to the customer, pickup, Jari, blue line, or argument.
-- No Greg client/job/income, Vale action, Hessa contact, theatre contact, ecology encounter, pressure evidence, holdfast use, Greg mana, injury, or standing obligation.
+- Ch311-Ch312 do not return to the customer, pickup, Jari, blue line, or final fit.
+- Ch312's paper rotation does not authorize or establish any blue-line application.
+- No Greg client/job/income, Vale action, theatre contact, ecology encounter, pressure evidence, holdfast use, injury, or standing obligation.
 
 ## Ch309 / charge rain / last chime
 - Cala identifies incoming `Charge rain` before Greg leaves home. Greg already knows the broad hazard category from first-life travel/adventuring.
@@ -113,7 +141,7 @@
 - Greg receives a signed receipt for exactly **one copper debt credit**. Exact remaining debt balance remains unstated.
 - Greg's private purse remains **one copper + one bit**. Debt credit is not cash income.
 - Antonius may send suitable cash work only if a genuine separate task exists and explicit terms are sent. No actual task/rate/timing/schedule/exclusivity exists.
-- Ch309-Ch311 contain no Vale contact or debt movement.
+- Ch309-Ch312 contain no Vale contact or debt movement.
 - Do not promote Antonius's `may` into a promised next cash job.
 
 ## Ch307 / red pot / household evening
@@ -122,7 +150,7 @@
 - Greg burns the onions somewhat but makes acceptable stew. Lyssa returns tired and does not take over.
 - An unnamed girl returns a covered bowl from only `Us`; Lyssa identifies pickled beans. Sender/network unresolved.
 - One dinner does not establish Greg as regular household cook or Tavi minder.
-- Ch308-Ch311 do not turn these details into a cooking/card/neighbor/heat-stone arc.
+- Ch308-Ch312 do not turn these details into a cooking/card/neighbor/heat-stone arc.
 
 ## Fixed holdfast / magical-item acquisition / Ch306
 - Greg deliberately spends two of three private copper on one old fixed holdfast / blind fixed hold.
@@ -134,7 +162,7 @@
 - Safe load, exact duration, cooldown, mechanism, remaining life, stone behavior, relation to later `forty holds`, resale value, recharge/repair, and other technical/value questions remain unknown.
 - Greg pays exactly two private copper, leaving one copper + one bit.
 - Holdfast remains wrapped on high shelf with `DO NOT TURN RING.` No home test/appraisal/resale/repair/dealer route.
-- Ch307-Ch311 leave it untouched. Ch310's upstairs glance does not count as activation/test/plan/payoff; Ch311 leaves it home.
+- Ch307-Ch312 leave it untouched. Ch310's upstairs glance does not count as activation/test/plan/payoff; Ch311 leaves it home; Ch312 explicitly rejects applying the paper result to it.
 
 ## Mirrorhorns / fieldcraft / Ch305
 - Six real mirrorhorns block dye row: four adults, one younger nearly adult, one calf.
@@ -143,27 +171,32 @@
 - Greg's high-confidence first-life rule `Copies mean thinking. One means done thinking.` is behaviorally confirmed when the largest female loses copies near her calf.
 - Copies return, herd accepts corridor, no charge/injury/damage.
 - Greg refuses Renn's request to stay and says he is not a handler.
-- Ch306-Ch311 do not continue the small attention signal or create a handler/advice role.
+- Ch306-Ch312 do not continue the small attention signal or create a handler/advice role.
 
 ## Magic / Hessa / quiet-table protocol
-- Current totals remain **36 supervised minimal draws / 32 deliberate shaping attempts / 75 supervised external-effect attempts**.
-- Near aggregate: **3 clean / 7**.
+- Current totals are **36 supervised minimal draws / 32 deliberate shaping attempts / 78 supervised external-effect attempts**.
+- Near aggregate: **4 clean / 10**. Attempt 77 is the fourth clean near response and is a clean rotation rather than a translation.
 - Middle aggregate: **1 clean / 6 plus one possible edge lift (attempt 68)**.
 - Far aggregate: **0 / 1**.
 - No independent Greg magic outside supervised sessions. Restrictions unchanged.
 - Attempt 73 near/still off: no response.
 - Attempt 74 near/still on: clean small displacement away with telltales quiet.
 - Attempt 75 near/still on: no response.
+- Attempt 76 near/still on/left marked region: no observed response.
+- Attempt 77 near/still on/right marked region: clean small rotation, right end away relative to left.
+- Attempt 78 near/still on/whole strip: no observed response.
 - Still field improves observation, not proven effect.
-- No next Hessa appointment, object, condition, or position selected.
-- Ch305-Ch311 contain no Greg magic. Ch306 holdfast, Ch307 heat stone, Ch309 environmental/item effects, Ch310 load-vest behavior, and Ch311 road/relay item effects are not Greg's draw/shaping/external attempts.
-- Do not automatically repeat still-bead protocol or range testing in Ch312.
+- Target specification may affect response shape, but one clean rotation does not establish control, repeatability, sub-object targeting, torque, leverage, or a targeting law.
+- Hessa has selected no next appointment, object, condition, position, or protocol.
+- Ch305-Ch311 contain no Greg magic. Ch312 adds exactly three supervised external-effect attempts and no draw/shaping attempts.
+- Ch306 holdfast, Ch307 heat stone, Ch309 environmental/item effects, Ch310 load-vest behavior, and Ch311 road/relay item effects are not Greg's draw/shaping/external attempts.
+- Do not automatically repeat the marked-strip or still-bead protocol in Ch313.
 
 ## Small attention signal
 - Renn asks Greg's name and where he learned mirrorhorns. Greg gives only `Greg` and says `good stories`.
 - Renn is not a client, handler contact, Guild contact, pressure contact, or guaranteed recurring character.
 - An unnamed household visitor later asks one practical mirrorhorn question; Cala tells another visitor Greg is not a handler.
-- Ch306-Ch311 do not continue the signal.
+- Ch306-Ch312 do not continue the signal.
 - Treat this as minor neighborhood attention only. It may die out completely.
 
 ## Greg / body / equipment
@@ -175,43 +208,51 @@
 - Ch310 apartment movement is ordinary. Greg rises with right foot planted/left knee clear and uses a crutch hook/slide for the dense test sack rather than a one-handed carry.
 - Ch311 cart travel is physically bounded but longer than ordinary city movement. Greg secures both crutches beneath the bench and uses a folded cloth under left thigh/residual limb to avoid plank-edge pressure.
 - Ressa asks before handing Greg his crutches at Three Wells. Greg boards/dismounts with right foot, hands on frame, left knee clear.
-- End-of-day effects: tired back, mildly stiff right thigh, residual limb warm but not angry. No skin pain, hand trouble, fall, pressure injury, crutch damage, shoe issue, bag damage, stay-bead change, or equipment change.
+- End-of-Ch311 effects: tired back, mildly stiff right thigh, residual limb warm but not angry. No skin pain, hand trouble, fall, pressure injury, crutch damage, shoe issue, bag damage, stay-bead change, or equipment change.
 - Folded seat cloth remains near household door after return; ordinary material only.
+- By Ch312 morning all Ch311 road effects have resolved after sleep. Hessa's check is clean.
+- Ch312 attempts remain seated at near with right foot flat, left knee clear, no leaning/body reach. No pain, fall, pressure injury, residual-limb issue, crutch damage, shoe issue, bag damage, or equipment change.
 
 ## Money / capital / Vale
 - Greg holds **one private copper + one private bit** upstairs.
 - Ch306 spent exactly two private copper on fixed holdfast.
 - Ch308 applies exactly **one copper of debt credit** to Vale. It does not enter Greg's purse.
-- Ch309-Ch311 change neither Greg's purse nor Vale debt.
+- Ch309-Ch312 change neither Greg's purse nor Vale debt.
 - Ch310 unnamed load-vest customer pays Lyssa exactly **one bit** for accepted cloth work. The separately offered extra bit is refused and never becomes payment.
 - Lyssa's received bit remains in her own work box. It is not Greg's or established household money.
 - Ch311 current cart seat and meal cost Greg nothing because the freight/courier arrangement already covers them. Greg receives no wage/reimbursement.
+- Ch312 has no income, spending, reimbursement, debt action, or capital movement.
 - Sevren's anecdotal future longer-seat price is usually one bit when not covered and sometimes free when already covered; no booked fare or universal rule.
 - Vale debt remains active/unresolved; exact remaining balance remains unstated.
 - No copper/bit conversion established.
-- Reduced liquidity should matter naturally. Do not instantly restore it through a conveniently tailored job, appraisal windfall, magical-item flip, Lyssa's customer payment, road opportunity, or authorial reward.
+- Reduced liquidity should matter naturally. Do not instantly restore it through a conveniently tailored job, appraisal windfall, magical-item flip, Lyssa's customer payment, road opportunity, magic success, or authorial reward.
 
 ## Lyssa / garment work
 - Lyssa's independent garment-work life remains active and predates this run.
 - Ch310 shows an apartment customer fitting with a charm-bearing work garment. This is her professional scene, not Greg's job activation.
 - Lyssa accepts ordinary cloth work and refuses to cut/move the glass-blue load line.
 - Lyssa receives one bit for the accepted work and gives pickup as tomorrow before first bell.
-- Final fit/result is not shown. Ch311 does not show or infer pickup, success, failure, refund, or line work.
+- Final fit/result is not shown. Ch311-Ch312 do not show or infer pickup, success, failure, refund, or line work.
+- Ch312's dark roll of cloth is explicitly **not** the green vest and remains unidentified.
 - Lyssa's statement `I do not want every job` establishes her preference/scope here, not a universal rule.
 - Greg's broad load-gear knowledge remains user/field knowledge, not tailoring/charm-seam professional expertise.
 - Brown cuff remains unadvanced/unexplained. No older protected customer/material thread moves.
 - Marra/Jessa routes, Maren supply route, referral history, and older customers remain intact without being activated.
 - Do not convert Greg into Lyssa's courier, manager, alteration analyst, fitting assistant, charm-seam worker, supply optimizer, or partner.
+- Do not use attempt 77 as an excuse to make Greg the blue-line solution.
 
 ## Household
 - Three clean household gray sheets remain.
 - Horse-page reverse remains full.
-- Existing narrow scrap carries Ch304 magic data plus Ch306 holdfast notes.
-- Ch308 Vale debt-credit receipt remains under the narrow scrap. Ch309-Ch311 consume no clean sheet and add no field note.
+- Existing narrow scrap carries Ch304 magic data, Ch306 holdfast notes, and Ch312 marked-strip data.
+- Ch308 Vale debt-credit receipt remains under the narrow scrap. Ch309-Ch312 consume no clean sheet.
 - One private copper + one private bit remain upstairs.
 - Fixed holdfast stays safely on high shelf, wrapped and out of Tavi's reach.
 - Ch311 departure: Cala cleaning greens; Tavi under table; Cala gives Greg two pieces of bread and Greg fills water bottle. Ordinary household support only.
 - Ch311 return: Tavi asleep on folded arms; Lyssa cutting dark cloth. No Ch310 debrief or green-vest question.
+- Ch312 breakfast: Tavi jams one wooden spoon inside another; later the spoons are separated. Comic only.
+- Ch312 return: Cala slices something green; Tavi sleeps under thin blanket; Lyssa works with unidentified dark cloth. No green-vest/customer follow-up.
+- Lyssa and Greg exchange a shoe nudge at Ch312 end. It is contact, not a formal apology or full relationship resolution.
 - Folded seat cloth rests near door after trip. It is ordinary material, not a new specialized equipment purchase.
 - Ch309 house grounding cord/wall-light detail does not advance.
 - Red-pot/heat-stone, card evening, and returned-bowl material remain bounded.
@@ -221,7 +262,7 @@
 ## Theatre / The Blue Window / false corridor
 - Ch301 bounded theatre afternoon stands complete.
 - Rinna said `Tomorrow no`; no standing rehearsal/performance role.
-- Ch302-311 contain no theatre contact.
+- Ch302-312 contain no theatre contact.
 - Ch309 child named Teren is explicitly not identified as theatre Teren.
 - Depth-cloth/dead-edge/Sivi-mask uncertainties remain bounded and separate.
 - Theatre remains available only if independently reactivated, not because it has been quiet.
@@ -232,6 +273,7 @@
 - Ressa is only the carter on this run. No recurring driver relationship established.
 - Three Wells is one observed relay stop, not a new home base, client network, or quest hub.
 - Future longer-seat possibility remains conditional. Greg has only asked Sevren to ask if a genuine seat appears.
+- Ch312 contains no Sevren message, Ressa contact, Three Wells return, fare, road work, or new seat.
 
 ## North Steps / dry bench
 - Ch303 facts stand complete.
@@ -239,7 +281,7 @@
 
 ## Lampwings / low lamps
 - Ch302 facts stand complete.
-- No substantive return through Ch311.
+- No substantive return through Ch312.
 - Exact lampwing ecology and low-lamp custom remain unresolved.
 
 ## Earlier magical ecology
@@ -248,7 +290,7 @@
 - Ch297 kessa jumpers remain separate.
 - Ch302 lampwings remain separate.
 - Ch305 mirrorhorns are not a progression step in a creature sequence.
-- Ch306 acquisition/capital, Ch307 household life, Ch308 Vale debt work, Ch309 magical weather, Ch310 garment/work magic, Ch311 road/social life.
+- Ch306 acquisition/capital, Ch307 household life, Ch308 Vale debt work, Ch309 magical weather, Ch310 garment/work magic, Ch311 road/social life, Ch312 supervised personal-magic testing.
 - Do not build an ecology ledger or creature-of-the-week rhythm.
 
 ## Older live threads
@@ -269,7 +311,7 @@
 - Ch281 return hardware remains unactivated/unvalued; Rell/Maren/Jori appraisal route unresolved.
 
 ## Pressure / protected uncertainty
-- Ch273 Green Coat remains separate/bounded. Older Bren pressure ceiling unchanged. Ch309-Ch311 add no Bren/Vale-threat evidence.
+- Ch273 Green Coat remains separate/bounded. Older Bren pressure ceiling unchanged. Ch309-Ch312 add no Bren/Vale-threat evidence.
 - Weak needle-case mark, Rinna parcel, Lyssa older materials/bundles, Ch246 crate contents, Pell exact return, Vale/Bren link remain unresolved.
 - Collar-facing broader purpose, six wraps, Ch281 flat package, Ch285 narrow wrapped packet unresolved.
 - Ch304 still-bead/witness-plate/telltale mechanism and effect remain bounded.
@@ -286,14 +328,21 @@
 - Greg's load-gear familiarity establishes broad user/field experience and practical intuition, not tailoring/charm-seam professional expertise.
 - Ch311 Three Wells governance/population, relay-house/inn/cart ownership, Ressa/Sevren work relationship, witness-bead mechanism, irrigation-control details, current freight clients, Bell Ford repairer identity, proof-token mechanism, east-relay employer/contracts/wages, route frequency, and exact travel times remain unestablished.
 - Sevren's healed nose-cut cause remains unestablished. The two former east-relay regulars remain unnamed and need not recur.
-- Sevren's future longer-seat possibility is conditional only. Do not auto-promote `Ask` into a booked trip, standing invitation, free-travel entitlement, road apprenticeship, courier job, or Chapter 312 obligation.
+- Sevren's future longer-seat possibility is conditional only. Do not auto-promote `Ask` into a booked trip, standing invitation, free-travel entitlement, road apprenticeship, courier job, or Chapter 313 obligation.
+- Ch312 attempt 77 is one clean observed rotation under still-field/telltale conditions. It does not prove sub-object targeting, target control, spatial resolution, torque, leverage, mechanism, repeatability, or that Greg can choose rotation rather than translation.
+- Ch312 still-field conditions make ordinary room draft less likely as explanation for attempt 77 but do not eliminate all unmeasured confounds. Exact paper properties, crossmark influence, lateral micro-position, and Hessa's numerical measurements remain unestablished.
+- Hessa's `Because distance has not explained enough` means current distance testing has not explained enough. It does not establish distance as irrelevant.
+- Do not extrapolate attempt 77 to the Ch310 blue line, Ch306 holdfast, latches, coins, cups, larger objects, internal parts, or dangerous/applied objects without new authorized evidence.
 
 ## Next
-- Follow Chapter 312 trailhead in `MANUSCRIPT_STATE.md`.
+- Follow Chapter 313 trailhead in `MANUSCRIPT_STATE.md`.
+- Let Ch312 stand. No automatic next-day Hessa session, same marked-strip/right-third repeat, applied-object escalation, torque/leverage training, precision progression, independent testing, or blue-line/holdfast/latch/coin/cup application.
+- Magic is now **36 / 32 / 78**; near **4/10 clean** with attempt 77 a rotation rather than translation; middle **1/6 + possible edge lift**; far **0/1**.
+- Hessa has selected no next protocol.
 - Let Ch311 stand. No automatic longer east-loop trip, next-morning Sevren seat, Ressa return, Three Wells revisit, courier job, road survey, freight problem, or road-creature encounter.
 - Do not investigate witness bead, irrigation stones, relay token, brake bead, Bell Ford bag repair, Sevren's nose scar, blue eggs story, or the two former east-relay workers merely because they appeared.
 - Let Ch310 stand. No automatic customer pickup/final fit, customer return, Jari appearance/investigation/blame, blue-line specialist visit, load-line research/repair/pricing, charm-seam job, or Greg-as-Lyssa-work-partner progression.
-- Do not make Ch312 another argument whose main purpose is to explain or neatly resolve Ch310.
+- Do not make Ch313 another argument whose main purpose is to explain or neatly resolve Ch310.
 - Lyssa's Ch310 one-bit payment remains hers. Greg still has **one private copper + one private bit**.
 - Let Ch309 charge rain stand. No grounding/bell/bakery/courier-shelter/painted-fish/cool-bead/toy-hoop/house-light follow-up.
 - Let Ch308 Vale debt hour stand. No automatic second Vale task, immediate cash job, debt-balance reveal, repayment-plan chapter, `R TO B` investigation, returned-goods mystery, or Bren/Vale escalation.
@@ -301,7 +350,5 @@
 - Let Ch307 household evening stand. No automatic cooking series, Cala-card follow-up, bowl/pickled-bean investigation, heat-stone repair, red-pot technical chapter, or regular Tavi-minding proof.
 - Let the two-copper fixed-holdfast purchase stand. No automatic activation, tailored rescue, appraisal, resale/profit, seller return, second item, dealer loop, or proof-of-purchase chapter.
 - Let Ch305 mirrorhorn encounter stand. No automatic second creature encounter, handler visit, Renn follow-up, or creature-advice queue.
-- Let Ch304 quiet-table session stand. No automatic Hessa/still-bead/range repeat.
-- Magic remains **36 / 32 / 75**; near **3/7 clean**; middle **1/6 + possible edge lift**; far **0/1**.
 - Three clean sheets remain. Lyssa's brown-cuff work and older protected garment materials remain hers and unresolved.
 - Follow the next actual claim rather than rotating available engines by checklist.
