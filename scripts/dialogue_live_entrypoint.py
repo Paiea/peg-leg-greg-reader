@@ -64,6 +64,52 @@ def _parse_batch_compat(content: str, source_file: str, min_chapter: int, max_ch
 impl.Candidate.__lt__ = _candidate_lt
 impl.base._parse_batch = _parse_batch_compat
 
+# Later continuity batches include tiny one-paragraph pronoun fixes that may sit
+# inside a longer live paragraph. Keep the normal strict matcher first, then use
+# a uniquely located substring only for one-paragraph patches. Also treat a
+# repeated generic replacement as already applied only when the old text is gone.
+_original_replace_exact_segment = impl._replace_exact_segment
+
+
+def _replace_exact_segment_compat(article_body, patch):
+    try:
+        return _original_replace_exact_segment(article_body, patch)
+    except RuntimeError as exc:
+        message = str(exc)
+        paragraphs = impl.base._paragraphs(article_body)
+        if len(patch.current) == len(patch.replacement) == 1:
+            current = impl._match_text(patch.current[0])
+            replacement = patch.replacement[0]
+            hits = []
+            for index, node in enumerate(paragraphs):
+                live = impl._match_text(node.text)
+                start = live.find(current)
+                if start >= 0:
+                    hits.append((index, start, start + len(current)))
+            if len(hits) == 1:
+                index, start, end = hits[0]
+                node = paragraphs[index]
+                raw = article_body[node.start:node.end]
+                open_end = raw.find(">") + 1
+                close_start = raw.lower().rfind("</p>")
+                text = node.text
+                styled = impl._style_like(replacement, text)
+                text = text[:start] + styled + text[end:]
+                new_raw = raw[:open_end] + impl.base._html_for_text(text) + raw[close_start:]
+                return article_body[:node.start] + new_raw + article_body[node.end:], "applied"
+            if not hits and "replacement appears" in message:
+                return article_body, "already"
+        if "replacement appears" in message:
+            current_hits = impl._find_sequence(paragraphs, patch.current)
+            if not current_hits:
+                current_hits = impl._find_sequence(paragraphs, patch.current, canonical=True)
+            if not current_hits:
+                return article_body, "already"
+        raise
+
+
+impl._replace_exact_segment = _replace_exact_segment_compat
+
 # The override ledger contains reviewed drift exceptions from earlier publish
 # increments. A later increment should require only overrides inside its own
 # chapter range instead of failing because historical overrides are unused.
