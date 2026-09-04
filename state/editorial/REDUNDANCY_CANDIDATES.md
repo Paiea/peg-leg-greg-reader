@@ -28,17 +28,31 @@ Review status values:
 
 ### Hessa distance / replication cluster
 
-**Chapters:** 190, 195, 206, 213, 230, 234
+**Corrected chapters:** 206, 213, 221, 226, 230, 234
 
-**Status:** FLAGGED
+**Precursor:** Chapter 190 establishes the directional-preference breakthrough that launches the later distance question and remains a full scene.
 
-**Suspected repeated function:** Greg returns to Hessa for controlled testing under changed distance/conditions; setup, attempt, qualification, and bounded conclusion may repeat too closely.
+**Correction to external feedback:** Chapter 195 is not a Hessa testing scene. It is primarily Lyssa / Marra / theatre material that carries an appointment forward. Do not compress it as part of this cluster merely because an external review mislabeled it.
 
-**Potential new value to protect:** exact magic evidence; changed variables; Greg/Hessa relationship movement; any experiment that establishes a genuinely new boundary or changes what later results mean.
+**Status:** REVIEWED — MIXED KEEP / COMPRESS
 
-**Payoff test:** if the repeated testing creates enough expectation that a later break, success, failure, or conceptual shift lands harder, preserve the buildup. If intermediate sessions mostly reconfirm what the reader already knows, compress those confirmations rather than deleting the scientific progression wholesale.
+**KEEP FULL:**
+- **206 — THE SETTER:** introduces the intermediate position and produces genuinely new evidence.
+- **213 — THE COUNTER:** produces the first observed far response and also carries distinct Vale / debt / extortion work.
+- **226 — THE REFERENCE:** uses a predeclared intermediate/far comparison and contains the high-value contaminated attempt where target and control both move. The control changes the interpretation, so the scene earns full dramatic treatment.
 
-**Instruction:** do not decide from subject matter alone. Compare edited dialogue/cadence and exact results before structural action.
+**COMPRESS:**
+- **221 — THE PARTICIPANT:** far response repeats across sessions, but most apparatus/body/protocol beats are now familiar.
+- **230 — THE REPLICATE:** reversed-order replication is meaningful evidence, but does not need another full replay of the same setup.
+- **234 — THE CONDITION:** intermediate-only replication adds useful evidence about unreliability, but the four-attempt block can be carried much more compactly.
+
+**Pilot:** `state/editorial/pilots/HESSA_DISTANCE_REPLICATION_COMPRESSION_221_230_234.md`
+
+**Governing reason:** the experiments are not weak because they are mundane or scientific. The problem is repeated full-scene delivery after the apparatus and method are already known. Keep the sessions where the question or interpretation materially changes. Summarize replication where the primary new value is accumulated evidence.
+
+**Protected outcome:** preserve exact attempt numbers, results, controls, cumulative counts, restrictions, uncertainty, and the ordinary-life / theatre / domestic material surrounding the Guild sessions.
+
+**Target reader effect:** three major full distance/replication scenes rather than six, with the intervening replication still present as believable elapsed scientific work.
 
 ### Bren / lookout extortion resolution
 
