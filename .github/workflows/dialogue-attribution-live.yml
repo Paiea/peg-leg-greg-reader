@@ -9,6 +9,7 @@ on:
       - 'scripts/run_dialogue_live_integration.py'
       - 'scripts/dialogue_live_entrypoint.py'
       - 'state/editorial/dialogue-live-overrides.json'
+      - 'tests/test_dialogue_publish_boundary.py'
       - '.github/workflows/dialogue-attribution-live.yml'
   push:
     branches: [main]
@@ -17,6 +18,7 @@ on:
       - 'scripts/run_dialogue_live_integration.py'
       - 'scripts/dialogue_live_entrypoint.py'
       - 'state/editorial/dialogue-live-overrides.json'
+      - 'tests/test_dialogue_publish_boundary.py'
       - '.github/workflows/dialogue-attribution-live.yml'
   workflow_dispatch:
 
