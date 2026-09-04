@@ -1,0 +1,41 @@
+name: One-off post-renumber state cleanup
+
+on:
+  push:
+    branches:
+      - reader/renumber-after-220-v2
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    if: ${{ contains(github.event.head_commit.message, '[state-cleanup]') && !contains(github.event.head_commit.message, '[state-cleanup-done]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Repair state references
+        run: python scripts/one_off_post_renumber_state_cleanup.py
+      - name: Verify repository
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py'
+          python scripts/verify_light.py 156-219
+          python scripts/verify_light.py current
+          grep -Fq '**Current endpoint:** Chapter 304' state/MANUSCRIPT_CHAPTER_INDEX.md
+          grep -Fq 'Chapter 304 — **THE FALSE DOOR**' state/MANUSCRIPT_STATE.md
+          grep -Fq 'Chapter 304 — **THE FALSE DOOR**' state/OPEN_THREADS.md
+          test -f state/BREN_221_223_CANON.md
+          ! test -f state/BREN_220ABC_CANON.md
+          git diff --check
+      - name: Commit cleanup
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'state: normalize post-renumber chapter references [renumber-done] [state-cleanup-done]'
+          git push
