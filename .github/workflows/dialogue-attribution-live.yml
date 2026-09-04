@@ -7,9 +7,11 @@ on:
       - 'scripts/apply_dialogue_attribution_patches.py'
       - 'scripts/run_dialogue_live_integration.py'
       - 'scripts/dialogue_live_entrypoint.py'
+      - 'scripts/promote_book2_dialogue.py'
       - 'scripts/promote_recovered_dialogue.py'
       - 'state/editorial/dialogue-live-overrides.json'
       - 'tests/test_dialogue_publish_boundary.py'
+      - 'tests/test_promote_book1_polish.py'
       - '.github/workflows/dialogue-attribution-live.yml'
   push:
     branches: [main]
@@ -17,9 +19,11 @@ on:
       - 'scripts/apply_dialogue_attribution_patches.py'
       - 'scripts/run_dialogue_live_integration.py'
       - 'scripts/dialogue_live_entrypoint.py'
+      - 'scripts/promote_book2_dialogue.py'
       - 'scripts/promote_recovered_dialogue.py'
       - 'state/editorial/dialogue-live-overrides.json'
       - 'tests/test_dialogue_publish_boundary.py'
+      - 'tests/test_promote_book1_polish.py'
       - '.github/workflows/dialogue-attribution-live.yml'
   workflow_dispatch:
 
@@ -43,7 +47,7 @@ jobs:
       - name: Apply approved Chapter 100-155 Illustrated changes
         run: python scripts/dialogue_live_entrypoint.py --patch-ref origin/editor/voice-compression-pass --min-chapter 100 --max-chapter 155 --canonicalize-from 999
       - name: Promote Book II reader prose through Chapter 137
-        run: python scripts/promote_book1_polish.py '100-137' --docx state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx
+        run: python scripts/promote_book2_dialogue.py '100-137' --docx state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx
       - name: Promote recovered exact prose through Chapter 163
         run: python scripts/promote_recovered_dialogue.py 156-163 --patch-ref origin/editor/voice-compression-pass --source state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
       - name: Refresh Light Chapters 100-163
