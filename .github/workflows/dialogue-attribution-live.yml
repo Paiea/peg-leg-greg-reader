@@ -1,14 +1,15 @@
 name: Publish dialogue attribution pass
 
-# Integration v5: publish the accepted incremental dialogue/attribution range
-# through Chapter 99 while preserving the Book I / Book II source boundary.
+# Integration v6: publish accepted dialogue/attribution work through Chapter 163.
 on:
   pull_request:
     paths:
       - 'scripts/apply_dialogue_attribution_patches.py'
       - 'scripts/run_dialogue_live_integration.py'
       - 'scripts/dialogue_live_entrypoint.py'
+      - 'scripts/promote_recovered_dialogue.py'
       - 'state/editorial/dialogue-live-overrides.json'
+      - 'tests/test_dialogue_publish_boundary.py'
       - '.github/workflows/dialogue-attribution-live.yml'
   push:
     branches: [main]
@@ -16,7 +17,9 @@ on:
       - 'scripts/apply_dialogue_attribution_patches.py'
       - 'scripts/run_dialogue_live_integration.py'
       - 'scripts/dialogue_live_entrypoint.py'
+      - 'scripts/promote_recovered_dialogue.py'
       - 'state/editorial/dialogue-live-overrides.json'
+      - 'tests/test_dialogue_publish_boundary.py'
       - '.github/workflows/dialogue-attribution-live.yml'
   workflow_dispatch:
 
@@ -24,7 +27,7 @@ permissions:
   contents: write
 
 jobs:
-  integrate-dialogue-through-99:
+  integrate-dialogue-through-163:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -37,43 +40,44 @@ jobs:
         run: git fetch origin editor/voice-compression-pass:refs/remotes/origin/editor/voice-compression-pass
       - name: Install manuscript source-sync dependency
         run: pip install python-docx
-      - name: Apply approved Chapter 81-99 reader changes
-        run: python scripts/dialogue_live_entrypoint.py --patch-ref origin/editor/voice-compression-pass --min-chapter 81 --max-chapter 99 --canonicalize-from 81
-      - name: Promote Book I reader prose through Chapter 82
-        run: python scripts/promote_book1_polish.py '81-82'
-      - name: Promote Book II reader prose through Chapter 99
-        run: python scripts/promote_book1_polish.py '83-99' --docx state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx
+      - name: Apply approved Chapter 100-155 Illustrated changes
+        run: python scripts/dialogue_live_entrypoint.py --patch-ref origin/editor/voice-compression-pass --min-chapter 100 --max-chapter 155 --canonicalize-from 999
+      - name: Promote recovered exact prose through Chapter 163
+        run: python scripts/promote_recovered_dialogue.py 156-163 --patch-ref origin/editor/voice-compression-pass --source state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
+      - name: Refresh Light Chapters 100-163
+        run: python scripts/generate_light.py 100-163
       - name: Validate integration boundary
         run: |
           python -m unittest discover -s tests -v
+          python scripts/verify_light.py 100-163
           git diff --check
-          bad="$(git diff --name-only | grep -Ev '^(chapters/[0-9]{3}\.html|state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map\.docx|state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137\.docx)$' || true)"
+          bad="$(git diff --name-only | grep -Ev '^(chapters/[0-9]{3}\.html|light/[0-9]{3}\.html|light/index\.html|light/manifest\.json|latest\.html|state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT\.md)$' || true)"
           if [ -n "$bad" ]; then
-            echo "Unexpected files changed:"
+            echo "Unexpected generated/source files changed:"
             echo "$bad"
             exit 1
           fi
           python - <<'PY'
           from pathlib import Path
           import re
-          for n in range(81, 100):
+          for n in range(100, 156):
               text = Path(f'chapters/{n:03d}.html').read_text(encoding='utf-8')
               m = re.search(r'<article\s+class="prose"[^>]*>(.*?)</article>', text, re.S | re.I)
               if not m:
                   raise SystemExit(f'missing prose article in chapter {n}')
               if '—' in re.sub(r'<[^>]+>', '', m.group(1)):
                   raise SystemExit(f'em dash in chapter {n} prose')
-          print('Dialogue integration validation passed for Chapters 81-99')
+          print('Illustrated dialogue integration validation passed for Chapters 100-155')
           PY
-      - name: Commit published reader and canonical sources
+      - name: Commit published reader and recovered authority
         if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
         run: |
-          if git diff --quiet -- chapters state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx; then
-            echo 'Dialogue attribution reader prose already published through Chapter 99.'
+          if git diff --quiet -- chapters light latest.html state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md; then
+            echo 'Dialogue attribution reader prose already published through Chapter 163.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add chapters state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx
-          git commit -m 'editorial: publish dialogue attribution pass through chapter 99'
+          git add chapters light latest.html state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
+          git commit -m 'editorial: publish dialogue attribution pass through chapter 163'
           git push
