@@ -3,6 +3,8 @@
 
 from __future__ import annotations
 
+import re
+
 try:
     import promote_book1_polish as impl
 except ModuleNotFoundError:
@@ -19,7 +21,11 @@ def _number_from_heading(text: str) -> int | None:
     match = impl.HEADING_RE.match(text.strip())
     if not match:
         return None
-    token = match.group(1).strip().upper().replace("-", " ")
+    raw = match.group(1).strip().upper()
+    numeric = re.match(r"^(\d+)\b", raw)
+    if numeric:
+        return int(numeric.group(1))
+    token = raw.replace("-", " ")
     parts = token.split()
     if len(parts) < 2 or parts[0] != "ONE" or parts[1] != "HUNDRED":
         return None
