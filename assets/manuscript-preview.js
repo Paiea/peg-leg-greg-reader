@@ -17,21 +17,33 @@
 
   const render = (markdown) => {
     const text = markdown.replace(/\r\n?/g, '\n');
-    const heading = new RegExp(`^# CHAPTER ${chapter}\\s*$`, 'm');
-    const match = heading.exec(text);
-    if (!match) throw new Error(`Chapter ${chapter} is not materialized in the permanent running manuscript.`);
+    const escapedChapter = chapter.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const manuscriptHeading = new RegExp(`^# CHAPTER ${escapedChapter}\\s*$`, 'm');
+    const standaloneHeading = new RegExp(`^# ${escapedChapter}\\s+[—-]\\s+(.+)\\s*$`, 'm');
+    const manuscriptMatch = manuscriptHeading.exec(text);
+    const standaloneMatch = standaloneHeading.exec(text);
 
-    const afterHeading = match.index + match[0].length;
-    const remainder = text.slice(afterHeading);
-    const nextHeading = /^# CHAPTER \d+\s*$/m.exec(remainder);
-    let chunk = nextHeading ? remainder.slice(0, nextHeading.index) : remainder;
-    chunk = chunk.replace(/^-{20,}\s*$/gm, '').trim();
+    let title;
+    let body;
 
-    const titleMatch = /^##\s+(.+)\s*$/m.exec(chunk);
-    if (!titleMatch) throw new Error(`Chapter ${chapter} title could not be read.`);
+    if (manuscriptMatch) {
+      const afterHeading = manuscriptMatch.index + manuscriptMatch[0].length;
+      const remainder = text.slice(afterHeading);
+      const nextHeading = /^# CHAPTER [0-9]+[A-Z]?\s*$/m.exec(remainder);
+      let chunk = nextHeading ? remainder.slice(0, nextHeading.index) : remainder;
+      chunk = chunk.replace(/^-{20,}\s*$/gm, '').trim();
 
-    const title = titleMatch[1].trim();
-    const body = chunk.slice(titleMatch.index + titleMatch[0].length).trim();
+      const titleMatch = /^##\s+(.+)\s*$/m.exec(chunk);
+      if (!titleMatch) throw new Error(`Chapter ${chapter} title could not be read.`);
+      title = titleMatch[1].trim();
+      body = chunk.slice(titleMatch.index + titleMatch[0].length).trim();
+    } else if (standaloneMatch) {
+      title = standaloneMatch[1].trim();
+      body = text.slice(standaloneMatch.index + standaloneMatch[0].length).trim();
+    } else {
+      throw new Error(`Chapter ${chapter} could not be found in its manuscript source.`);
+    }
+
     const blocks = body.split(/\n\s*\n+/).map((block) => block.trim()).filter(Boolean);
 
     if (titleNode) titleNode.textContent = title;
