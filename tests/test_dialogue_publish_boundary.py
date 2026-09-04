@@ -7,6 +7,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from dialogue_live_entrypoint import _parse_batch_compat
+from generate_illustrated import render_chapter as render_illustrated_chapter
+from generate_light import Chapter
 from promote_recovered_dialogue import apply_patches_to_recovered
 
 WORKFLOW = ROOT / ".github/workflows/dialogue-attribution-live.yml"
@@ -15,10 +17,26 @@ WORKFLOW = ROOT / ".github/workflows/dialogue-attribution-live.yml"
 class DialoguePublishBoundaryTests(unittest.TestCase):
     def test_live_workflow_publishes_reviewed_range_through_219(self):
         text = WORKFLOW.read_text(encoding="utf-8")
-        self.assertIn("--min-chapter 164 --max-chapter 219", text)
-        self.assertIn("promote_recovered_dialogue.py", text)
-        self.assertIn("164-219", text)
+        self.assertIn("promote_recovered_dialogue.py 164-219", text)
+        self.assertIn("generate_illustrated.py 156-219", text)
         self.assertIn("generate_light.py 164-219", text)
+        self.assertNotIn("dialogue_live_entrypoint.py --patch-ref origin/editor/voice-compression-pass --min-chapter 164", text)
+
+    def test_generated_illustrated_chapter_keeps_reader_shell_and_navigation(self):
+        chapter = Chapter(177, "THE STAGEHAND", '<p>Backstage work.</p>', "recovered")
+        page = render_illustrated_chapter(chapter, [176, 177, 178], [])
+        self.assertIn('<article class="prose">', page)
+        self.assertIn('Backstage work.', page)
+        self.assertIn('href="176.html"', page)
+        self.assertIn('href="178.html"', page)
+        self.assertIn('href="../light/177.html"', page)
+        self.assertNotIn('<figure class="chapter-art', page)
+
+    def test_generated_illustrated_chapter_uses_available_art_without_requiring_it(self):
+        chapter = Chapter(177, "THE STAGEHAND", '<p>Before.</p>\n<p>After.</p>', "recovered")
+        page = render_illustrated_chapter(chapter, [177], [Path('visual/chapter_art/177/example.webp')])
+        self.assertIn('../visual/chapter_art/177/example.webp', page)
+        self.assertEqual(page.count('<figure class="chapter-art scene-illustration">'), 1)
 
     def test_parser_accepts_patch_heading_and_blockquote_paragraphs(self):
         batch = '''## Chapter 156 - THE ADVOCATE
