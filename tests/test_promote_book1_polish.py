@@ -37,26 +37,11 @@ class PromoteBook1PolishTests(unittest.TestCase):
                 '<article class="prose"><p>New one.</p><p>New two.</p><p>New three.</p></article>',
                 encoding="utf-8",
             )
-
             changed = promote_chapters(docx, chapters, [1])
-
             self.assertTrue(changed)
             reopened = Document(docx)
             text = [p.text for p in reopened.paragraphs]
-            self.assertEqual(
-                text,
-                [
-                    "PEG-LEG GREG",
-                    "CHAPTER ONE\nTHE BOY",
-                    "New one.",
-                    "New two.",
-                    "New three.",
-                    "CHAPTER TWO\nTHE BORROWER",
-                    "Keep this chapter exactly.",
-                    "CHAPTER THREE\nTHE INVESTOR",
-                    "Keep this too.",
-                ],
-            )
+            self.assertEqual(text, ["PEG-LEG GREG", "CHAPTER ONE\nTHE BOY", "New one.", "New two.", "New three.", "CHAPTER TWO\nTHE BORROWER", "Keep this chapter exactly.", "CHAPTER THREE\nTHE INVESTOR", "Keep this too."])
 
     def test_promotes_final_chapter_without_following_heading(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -65,34 +50,21 @@ class PromoteBook1PolishTests(unittest.TestCase):
             chapters = root / "chapters"
             chapters.mkdir()
             self.make_docx(docx)
-            (chapters / "003.html").write_text(
-                '<article class="prose"><p>New final one.</p><p>New final two.</p></article>',
-                encoding="utf-8",
-            )
-
+            (chapters / "003.html").write_text('<article class="prose"><p>New final one.</p><p>New final two.</p></article>', encoding="utf-8")
             changed = promote_chapters(docx, chapters, [3])
-
             self.assertTrue(changed)
             reopened = Document(docx)
             text = [p.text for p in reopened.paragraphs]
-            self.assertEqual(
-                text,
-                [
-                    "PEG-LEG GREG",
-                    "CHAPTER ONE\nTHE BOY",
-                    "Old one.",
-                    "Old two.",
-                    "CHAPTER TWO\nTHE BORROWER",
-                    "Keep this chapter exactly.",
-                    "CHAPTER THREE\nTHE INVESTOR",
-                    "New final one.",
-                    "New final two.",
-                ],
-            )
+            self.assertEqual(text, ["PEG-LEG GREG", "CHAPTER ONE\nTHE BOY", "Old one.", "Old two.", "CHAPTER TWO\nTHE BORROWER", "Keep this chapter exactly.", "CHAPTER THREE\nTHE INVESTOR", "New final one.", "New final two."])
 
     def test_recognizes_ninety_series_heading(self):
         self.assertEqual(_number_from_heading("CHAPTER NINETY\nTHE EXAMPLE"), 90)
         self.assertEqual(_number_from_heading("CHAPTER NINETY-NINE\nTHE EXAMPLE"), 99)
+
+    def test_recognizes_hundred_series_heading(self):
+        self.assertEqual(_number_from_heading("CHAPTER ONE HUNDRED\nTHE EXAMPLE"), 100)
+        self.assertEqual(_number_from_heading("CHAPTER ONE HUNDRED ONE\nTHE EXAMPLE"), 101)
+        self.assertEqual(_number_from_heading("CHAPTER ONE HUNDRED THIRTY-SEVEN\nTHE EXAMPLE"), 137)
 
     def test_rejects_em_dash_in_promoted_prose(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -101,11 +73,7 @@ class PromoteBook1PolishTests(unittest.TestCase):
             chapters = root / "chapters"
             chapters.mkdir()
             self.make_docx(docx)
-            (chapters / "001.html").write_text(
-                '<article class="prose"><p>Bad — dash.</p></article>',
-                encoding="utf-8",
-            )
-
+            (chapters / "001.html").write_text('<article class="prose"><p>Bad — dash.</p></article>', encoding="utf-8")
             with self.assertRaisesRegex(ValueError, "em dash"):
                 promote_chapters(docx, chapters, [1])
 
@@ -116,17 +84,12 @@ class PromoteBook1PolishTests(unittest.TestCase):
             chapters = root / "chapters"
             chapters.mkdir()
             self.make_docx(docx)
-            (chapters / "001.html").write_text(
-                '<article class="prose"><p>New one.</p><p>New two.</p></article>',
-                encoding="utf-8",
-            )
-
+            (chapters / "001.html").write_text('<article class="prose"><p>New one.</p><p>New two.</p></article>', encoding="utf-8")
             self.assertTrue(promote_chapters(docx, chapters, [1]))
             before = docx.stat().st_mtime_ns
             time.sleep(0.02)
             changed = promote_chapters(docx, chapters, [1])
             after = docx.stat().st_mtime_ns
-
             self.assertFalse(changed)
             self.assertEqual(before, after)
 
