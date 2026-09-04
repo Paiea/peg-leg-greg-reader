@@ -116,9 +116,32 @@ Current evidence only supports that the brown-coat man was seen walking toward M
 
 ## Economy
 
-Currency: copper / silver / gold. No conversion rate has been established. Do not invent one.
+Currency families include copper / silver / gold; recent exact prose also uses bits. No durable conversion rate is established. Do not invent one.
 
 Money should remain materially meaningful through wages, purchases, debt, supplies, repairs, food, transport, customer work, and trade without forcing every scene into accounting.
+
+Economic continuity has two simultaneous jobs:
+- keep local prices and wages believable relative to established transactions;
+- let Greg's own economic position visibly progress over long spans.
+
+Those are not the same thing. Progression should not come from inflating every ordinary price. Bread, baths, common food, low-tier services, and ordinary local purchases can stay in familiar cheap bands while Greg becomes more capable of paying them without narrative ceremony.
+
+Greg's economic progression should generally trend upward through stronger earning capacity, better work access, accumulated tools/assets, improved bargaining position, increasing ability to refuse poor-fit work, greater resilience to small losses, and access to larger-value decisions. Temporary low liquidity is allowed. It should not automatically restore early-book emotional poverty.
+
+When a money scene matters, distinguish:
+- cash on hand;
+- earning capacity;
+- durable assets;
+- debt/obligations;
+- economic optionality.
+
+A single purse number does not summarize all five.
+
+As the serial advances, larger stakes should increasingly come from higher-tier goods and decisions: specialist labor, valuable materials, significant tools, travel, contracts, repairs, magical items, deposits/bids when established, and eventually larger denominations if prose earns them. Do not make every later job or object numerically huge.
+
+Recent useful anchors include the one-copper used shoulder bag, two-copper obsolete fixed holdfast, one-copper bounded office labor/debt-credit and later one-copper cash task, bit-level food/bath/theatre transactions, and the special freight-covered/marginal-seat travel deals. Treat special arrangements as special rather than universal market prices.
+
+See `ECONOMY_CONTINUITY.md` for the durable calibration model and current price-anchor discipline.
 
 Lyssa's work has manuscript evidence of cash/material/in-kind exchange, but no universal pricing, barter, tariff, deposit, or client-record system is established.
 
