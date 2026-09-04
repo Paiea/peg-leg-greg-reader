@@ -85,6 +85,28 @@ def _load_scoped_overrides():
 
 impl._load_overrides = _load_scoped_overrides
 
+# The legacy applicator uses --canonicalize-from as both the first chapter looped
+# and the Book I name-map threshold. For Book II increments we need the full
+# requested loop without applying the Book I Pell/Arlo map. A threshold above
+# max-chapter is the explicit sentinel for that mode.
+_requested_canonicalize_from = _arg_int("--canonicalize-from", 1)
+_min_chapter = _arg_int("--min-chapter", 6)
+_max_chapter = _arg_int("--max-chapter", 80)
+_disable_canonicalize = _requested_canonicalize_from > _max_chapter
+if _disable_canonicalize and "--canonicalize-from" in sys.argv:
+    sys.argv[sys.argv.index("--canonicalize-from") + 1] = str(_min_chapter)
+
+_original_apply_to_chapter = impl.base.apply_to_chapter
+
+
+def _apply_with_scope(path, patches, canonicalize):
+    return _original_apply_to_chapter(
+        path, patches, canonicalize=False if _disable_canonicalize else canonicalize
+    )
+
+
+impl.base.apply_to_chapter = _apply_with_scope
+
 
 if __name__ == "__main__":
     raise SystemExit(impl.main())
