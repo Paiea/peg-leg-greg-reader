@@ -79266,10 +79266,9 @@ Morning lost.
 A woman near the mill gate sold hot oat cakes from a covered basket. One
 copper bought two.
 
-Greg had money.
+I had money.
 
-That fact was still strange enough that I stood there for a moment
-deciding whether hot food was worth one copper.
+That fact was still strange enough that I stood there for a moment deciding whether hot food was worth one copper.
 
 Then I bought it.
 
@@ -81039,7 +81038,7 @@ That took longer.
 
 It also held differently.
 
-A man in a leather apron argued with Greg from outside the scene.
+A man in a leather apron argued with me from outside the scene.
 
 "If he paid, he's paid."
 
@@ -81160,7 +81159,7 @@ A woman near the front recognized the piece from the first set.
 When Serra said, "I require a weapon," the woman quietly said,
 "Judgment."
 
-Greg heard her.
+I heard her.
 
 So did Serra.
 
@@ -81180,7 +81179,7 @@ The scene moved.
 
 A little later a man asked what the Sword cost.
 
-Greg said, "Depends who is buying."
+I said, "Depends who is buying."
 
 "Me."
 
@@ -81317,7 +81316,7 @@ It was enough that nobody looked angry about staying.
 
 Teren paid the performers who had worked both sets.
 
-Greg got two copper.
+I got two copper.
 
 Marek got one.
 
@@ -82667,7 +82666,7 @@ She looked at it.
 
 "I can see."
 
-She looked at Greg, then at Marek's crown case, then at the Sword board.
+She looked at me, then at Marek's crown case, then at the Sword board.
 
 "Two wagons?"
 
