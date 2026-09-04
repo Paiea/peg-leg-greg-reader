@@ -41,7 +41,9 @@ def _modern_batch_to_legacy(content: str) -> str:
     lines: list[str] = []
     for raw in content.splitlines():
         line = re.sub(r"^### Patch\b", "### Fix", raw, flags=re.IGNORECASE)
-        if line.startswith("> "):
+        if line.strip().lower() == "later:":
+            line = "..."
+        elif line.startswith("> "):
             value = line[2:].replace("`", "\\`")
             line = f"`{value}`"
         elif line.strip() == ">":
@@ -96,16 +98,8 @@ _disable_canonicalize = _requested_canonicalize_from > _max_chapter
 if _disable_canonicalize and "--canonicalize-from" in sys.argv:
     sys.argv[sys.argv.index("--canonicalize-from") + 1] = str(_min_chapter)
 
-_original_apply_to_chapter = impl.base.apply_to_chapter
-
-
-def _apply_with_scope(path, patches, canonicalize):
-    return _original_apply_to_chapter(
-        path, patches, canonicalize=False if _disable_canonicalize else canonicalize
-    )
-
-
-impl.base.apply_to_chapter = _apply_with_scope
+if _disable_canonicalize:
+    impl.base._canonicalize_article_paragraphs = lambda body: (body, 0)
 
 
 if __name__ == "__main__":
