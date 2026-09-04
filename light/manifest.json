@@ -1,5 +1,5 @@
 {
-  "latest": 325,
+  "latest": 330,
   "chapters": [
     {
       "number": 100,
@@ -1356,6 +1356,36 @@
       "title": "THE NIGHT LINE",
       "source": "checkpoint",
       "path": "325.html"
+    },
+    {
+      "number": 326,
+      "title": "THE LOT",
+      "source": "checkpoint",
+      "path": "326.html"
+    },
+    {
+      "number": 327,
+      "title": "THE LAST DOOR",
+      "source": "checkpoint",
+      "path": "327.html"
+    },
+    {
+      "number": 328,
+      "title": "THE WRONG DOOR",
+      "source": "checkpoint",
+      "path": "328.html"
+    },
+    {
+      "number": 329,
+      "title": "THE WAY OUT",
+      "source": "checkpoint",
+      "path": "329.html"
+    },
+    {
+      "number": 330,
+      "title": "THE BACK DOOR",
+      "source": "checkpoint",
+      "path": "330.html"
     }
   ]
 }
