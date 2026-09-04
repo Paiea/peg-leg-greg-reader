@@ -30,7 +30,7 @@ jobs:
             state/BREN_220ABC_CANON.md \
             state/OPEN_THREADS.md
       - name: Run deterministic renumber migration
-        run: python scripts/one_off_renumber_after_220_v2.py
+        run: python scripts/one_off_renumber_after_220_v3.py
       - name: Regenerate Light edition
         run: |
           python scripts/generate_light.py 156-219
