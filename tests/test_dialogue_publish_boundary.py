@@ -13,12 +13,12 @@ WORKFLOW = ROOT / ".github/workflows/dialogue-attribution-live.yml"
 
 
 class DialoguePublishBoundaryTests(unittest.TestCase):
-    def test_live_workflow_publishes_reviewed_range_through_163(self):
+    def test_live_workflow_publishes_reviewed_range_through_219(self):
         text = WORKFLOW.read_text(encoding="utf-8")
-        self.assertIn("--min-chapter 100 --max-chapter 155", text)
+        self.assertIn("--min-chapter 164 --max-chapter 219", text)
         self.assertIn("promote_recovered_dialogue.py", text)
-        self.assertIn("156-163", text)
-        self.assertIn("generate_light.py 100-163", text)
+        self.assertIn("164-219", text)
+        self.assertIn("generate_light.py 164-219", text)
 
     def test_parser_accepts_patch_heading_and_blockquote_paragraphs(self):
         batch = '''## Chapter 156 - THE ADVOCATE
