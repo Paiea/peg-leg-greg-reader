@@ -2,7 +2,7 @@
 
 This file is a durable forward-writing rule for the Manuscript Engine.
 
-It is not a rigid outline, loot schedule, artifact catalog, or demand that every chapter contain magic. Exact manuscript prose remains authority. The purpose is to keep the serial from mistaking competent repetition for continuity and to make magical artifacts / unusual objects a stronger part of the book's forward identity.
+It is not a rigid outline, loot schedule, artifact catalog, or demand that every chapter contain magic. Exact manuscript prose remains authority. Its purpose is to stop competent repetition from becoming the book's default rhythm and to make magical artifacts / unique objects a strong part of the forward identity.
 
 ## Current author direction
 
@@ -13,13 +13,50 @@ From the current Book 3 edge onward, the manuscript should deliberately move tow
 - magical artifacts and unique objects;
 - acquisition, provenance, bargaining, salvage, auctions, private sellers, old workshops, estate lots, debt lots, surplus, dubious channels, specialists, collectors, and other socially embedded routes to unusual things;
 - artifacts whose capabilities can be genuinely powerful, strange, or rule-changing;
-- meaningful downsides, constraints, activation costs, ugly interfaces, legal/social complications, physical incompatibilities, narrow targeting, dangerous failure modes, or other reasons reasonable people may not want them;
+- meaningful downsides, constraints, activation costs, ugly interfaces, legal/social complications, physical incompatibilities, dangerous failure modes, or other reasons reasonable people may reject them;
 - Greg using old-life experience, systems thinking, theatre craft, physical technique, money judgment, and experimentation to find uses that are not obvious from an item's intended purpose;
-- an eventual idiosyncratic collection whose interest comes from interactions and constraints rather than a clean equipment ladder.
+- an eventual idiosyncratic collection whose interest comes from interactions, constraints, history, and changing use rather than a clean equipment ladder.
 
-Do not wait indefinitely for a perfect organic invitation. The forward engine should **actively favor claims, routes, people, places, jobs, markets, accidents, and pressures that can plausibly expose Greg to unusual objects** when several canon-consistent options are available.
+Do not wait indefinitely for a perfect organic invitation. When several canon-consistent claims are available, the forward engine should **actively favor routes that can expose Greg to unusual objects, higher-value markets, provenance, acquisition pressure, or rule-changing magical systems**.
 
 This is stronger than `artifacts may appear someday` and weaker than `force an artifact into every chapter`.
+
+## Primary artifact test: does it rewrite Greg's operating rules?
+
+The best unique artifacts do not merely add an ability.
+
+They change how Greg has to live, travel, plan, spend, fight, sleep, work, hide, socialize, prepare, or evaluate danger.
+
+A strong artifact should make the reader think:
+
+**Greg can now do something absurdly useful, but the conditions around doing it have changed.**
+
+Author example shape, non-canon:
+
+- an artifact grants extreme healing or regenerative capacity;
+- exposure to strong light burns the user severely;
+- after enough accumulated light damage, regeneration may become unable to keep pace and the user can die;
+- recovery may require darkness, time, stored energy, blood, sleep, shelter, or another bounded condition;
+- the exact implementation is not canon here, but the important design principle is that the artifact would change Greg's routes, day/night choices, clothing, shelter needs, risk calculations, combat behavior, travel timing, and money priorities.
+
+That is a better artifact than `ring gives +20 healing` because it changes the story's operating system.
+
+## Rule-rewrite dimensions
+
+When designing or evaluating a meaningful artifact, ask which rules it rewrites:
+
+- **time:** only usable at night, requires long recovery, limited windows, delayed activation;
+- **space:** cannot cross certain materials, only works in enclosed areas, needs line of sight, fixed radius;
+- **body:** healing, pain, mobility, senses, temperature, hunger, sleep, blood, balance, hands, crutch use;
+- **environment:** light, rain, heat, cold, altitude, magic density, sound, crowds;
+- **social:** visibly marks the user, illegal to possess, creates stigma, attracts specialists, requires secrecy;
+- **economic:** expensive upkeep, consumables, repair, storage, insurance, deposits, replacement parts;
+- **risk:** makes one danger trivial while creating another severe vulnerability;
+- **identity:** changes what Greg can plausibly pretend to be, where he can work, or how people interpret him;
+- **logistics:** carrying, hiding, charging, securing, transporting, activating, maintaining;
+- **tactics:** creates new winning conditions rather than merely bigger output.
+
+A major artifact should usually rewrite more than one dimension.
 
 ## Why this changes the rhythm
 
@@ -30,6 +67,7 @@ A strong artifact can create a new problem shape immediately:
 - a tool that works only while the user cannot move;
 - a barrier that is nearly absolute but tiny;
 - a concealment effect that hides the wrong thing;
+- a regeneration artifact that makes ordinary wounds trivial but sunlight potentially lethal;
 - an object that performs one impossible action but requires absurd setup;
 - a device with a strong effect and terrible recovery time;
 - an obsolete interface Greg understands for reasons current specialists do not;
@@ -39,7 +77,7 @@ A strong artifact can create a new problem shape immediately:
 
 The point is not merely power. The point is **new scene grammar**.
 
-Artifacts can force different kinds of movement, planning, money decisions, social contacts, tests, risks, comedy, travel, arguments, bargaining, theft prevention, storage, maintenance, and tactical thinking. That lets the book stay lived-in while changing its cadence.
+Artifacts can force different movement, planning, money decisions, social contacts, tests, risks, comedy, travel, arguments, bargaining, theft prevention, storage, maintenance, tactical thinking, and even daily schedules. That lets the book stay lived-in while changing cadence.
 
 ## Rhythm-pressure rule
 
@@ -47,7 +85,7 @@ Before drafting a new chapter, inspect the recent run for **function repetition*
 
 Ask:
 
-1. What did each of the last 3-6 chapters fundamentally *do*?
+1. What did each of the last 3-6 chapters fundamentally do?
 2. What emotional amplitude did they occupy: low, medium, high?
 3. What kind of uncertainty drove them: social, procedural, economic, physical, magical, dangerous, investigative, competitive, exploratory?
 4. Did Greg mostly observe, help, work, test, travel, buy, bargain, fail, perform, risk, decide, or endure?
@@ -125,6 +163,60 @@ Not every artifact beat must end in ownership. Acquisition pressure can accumula
 
 But do not repeatedly tease objects without payoff. **Greg should actually acquire and successfully use distinctive things over time.**
 
+## Price and value asymmetry
+
+Meaningful unique artifacts should usually **not be cheap purchases** by Greg's current standards.
+
+They are a major reason for his economic progression to accelerate.
+
+The desired tension is often:
+
+- objectively expensive now;
+- difficult for Greg to finance;
+- potentially large enough to require saving, better work, borrowing, bargaining, selling something, accepting risk, traveling, or foregoing other opportunities;
+- nevertheless **cheap relative to the item's true future value or capability**, which Greg may understand better because of his first life.
+
+Greg may know that:
+
+- a maker becomes legendary later;
+- an obsolete design later proves uniquely useful;
+- a supposedly failed artifact has a hidden application;
+- a current defect is actually the feature he wants;
+- a category becomes enormously valuable later;
+- an item is underpriced because the current market evaluates the wrong use case.
+
+This is asymmetric knowledge, not guaranteed arbitrage.
+
+Current condition, authenticity, chronology, local demand, repairability, legal status, seller knowledge, and Greg's imperfect memory still matter.
+
+But when Greg is confident, let the desire be strong. Sometimes the correct reaction should be:
+
+**I need that. The problem is not whether it is worth the price. The problem is how the hell I get the money before somebody else does.**
+
+## Artifacts should push Greg toward money
+
+Economic ambition should increasingly have a concrete target.
+
+Greg does not need to become generically greedy or obsessed with wealth. He can want money because money buys **optionality and access**:
+
+- a rare artifact before it disappears;
+- entry to an auction;
+- travel to a seller;
+- a deposit;
+- specialist repair;
+- secure storage;
+- replacement consumables;
+- a second artifact that makes the first usable;
+- enough reserve to act immediately when future knowledge produces a genuine opportunity.
+
+This should change his job choices.
+
+A low-paying pleasant task may still be worth doing. But Greg should increasingly notice when a better-paying job, contract, or commercial route materially advances an acquisition goal.
+
+His financial progression should therefore feel motivated by **things he wants to build, buy, test, combine, and become capable of**, not merely by escaping poverty.
+
+Consult `state/ECONOMY_CONTINUITY.md`.
+
 ## The downside must create play, not merely punishment
 
 A downside is good when it creates decisions.
@@ -144,7 +236,10 @@ Better downside design:
 - a social/legal/storage problem rather than only combat weakness;
 - a limitation Greg can mitigate partly but not erase;
 - interaction with Greg's body, crutches, hands, timing, theatre knowledge, allies, or other equipment;
-- an item that remains inconvenient even after it becomes valuable.
+- an item that remains inconvenient even after it becomes valuable;
+- a capability whose downside changes Greg's daily operating assumptions.
+
+The artifact should create a **new lifestyle problem**, not merely a damage number.
 
 ## Greg should get real wins
 
@@ -166,11 +261,9 @@ He can still be wrong. Sellers and specialists can still know more. Provenance c
 
 ## Economy integration
 
-Artifacts are one major reason economic progression needs to rise.
+Do not scale ordinary bread/baths/cheap errands upward. Widen the economic ceiling through:
 
-Do not scale ordinary bread/baths/cheap errands upward. Instead widen the economic ceiling through:
-
-- more expensive objects;
+- expensive artifacts;
 - specialist appraisal/repair;
 - deposits;
 - bids;
@@ -184,8 +277,6 @@ Do not scale ordinary bread/baths/cheap errands upward. Instead widen the econom
 Greg can increasingly treat low-tier ordinary prices casually while still having meaningful financial tension because the things he wants become more ambitious.
 
 This preserves money as story pressure without resetting him to early-book poverty.
-
-Consult `state/ECONOMY_CONTINUITY.md` for economic calibration.
 
 ## Relationship to Hessa / personal magic
 
@@ -234,17 +325,19 @@ Reuse changes meaning when:
 - an old purchase becomes newly valuable;
 - Greg must choose what to carry because he cannot carry everything.
 
-The ideal feeling is not `new loot`. It is **a growing bag of weird tools with history**.
+The ideal feeling is not `new loot`. It is **a growing bag of weird tools with history that changes how Greg lives.**
 
 ## Forward chapter contract addition
 
 Before drafting each chapter, the private light chapter contract must now include:
 
-- **recent rhythm:** the dominant function/amplitude of the last 3-6 chapters;
+- **recent rhythm:** dominant function/amplitude of the last 3-6 chapters;
 - **repetition risk:** whether the proposed chapter changes grammar or only nouns;
 - **rhythm intervention:** what axis changes if repetition risk is medium/high;
 - **artifact pressure:** whether a natural unusual-object/acquisition route is available and, if not used, why another route is stronger;
-- **fantasy density:** whether the chapter feels sufficiently like a magical fantasy world rather than contemporary mundane life with fantasy wallpaper.
+- **fantasy density:** whether the chapter feels sufficiently like a magical fantasy world rather than contemporary mundane life with fantasy wallpaper;
+- **rule rewrite:** if a major artifact is involved, what does it force Greg to do differently beyond having a new ability;
+- **economic pull:** does the chapter create, advance, complicate, or pay off a concrete reason Greg wants more capital?
 
 Do not expose this contract in prose.
 
@@ -256,13 +349,15 @@ After drafting, ask:
 - Does it perform substantially the same function as two recent chapters?
 - Did `ordinary life` become an excuse for low consequence / low fantasy density?
 - If an artifact appears, does it actually change decisions or scene grammar?
+- Does the artifact change Greg's operating rules or merely add power?
 - If a downside appears, is it interesting enough to generate future play?
+- If the artifact is valuable, does its price / acquisition pressure feel proportionate to that value?
 
-If yes to the first three without a strong intentional reason, revise the chapter before shipping.
+If the first three are yes without a strong intentional reason, or the artifact fails the rule-rewrite test, revise before shipping.
 
 ## Current edge instruction
 
-At the Chapter 321 edge, the manuscript has recently accumulated several intentionally quiet, bounded chapters and mini-sequences. That work is not a mistake. It built social/world residue.
+At the Chapter 321 edge, the manuscript has recently accumulated several intentionally quiet, bounded chapters and mini-sequences. That work built useful social/world residue.
 
 But **the rhythm has now earned a deliberate change.**
 
@@ -272,4 +367,4 @@ Strongly prefer opening a materially different rhythm, with magical-artifact / u
 
 The fixed holdfast from Chapter 306 remains a useful existing object, but this direction does not require Chapter 322 to test, appraise, resell, or immediately vindicate that specific item. The route is broader than one holdfast.
 
-The book should begin feeling more unmistakably magical, acquisitive, exploratory, and rule-bending while preserving its accumulated ordinary life, relationships, money logic, and physical reality.
+The book should begin feeling more unmistakably magical, acquisitive, exploratory, economically ambitious, and rule-bending while preserving accumulated ordinary life, relationships, money logic, and physical reality.
