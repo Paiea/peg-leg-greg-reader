@@ -1,5 +1,5 @@
 {
-  "latest": 320,
+  "latest": 323,
   "chapters": [
     {
       "number": 100,
@@ -1326,6 +1326,24 @@
       "title": "THE PORTRAIT",
       "source": "checkpoint",
       "path": "320.html"
+    },
+    {
+      "number": 321,
+      "title": "THE REFEREE",
+      "source": "checkpoint",
+      "path": "321.html"
+    },
+    {
+      "number": 322,
+      "title": "THE BIDDER",
+      "source": "checkpoint",
+      "path": "322.html"
+    },
+    {
+      "number": 323,
+      "title": "THE HELD WEIGHT",
+      "source": "checkpoint",
+      "path": "323.html"
     }
   ]
 }
