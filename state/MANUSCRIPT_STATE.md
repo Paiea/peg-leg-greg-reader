@@ -1,10 +1,10 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 312 - **THE MARKED THIRD**.
+- Current exact story endpoint: Chapter 313 - **THE LANDING**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249-312 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249-313 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500-4,000 words and clear 2,500 unless explicitly changed.
@@ -30,7 +30,9 @@
 - Ch311 broadens Greg's lived geography outside Carrow without creating a road quest, courier job, delivery role, guaranteed future trip, or cash reward.
 - Ch312 independently reactivates Greg's supervised magic through a new target-specification question rather than another distance ladder. Hessa uses one continuous marked strip under the still field and keeps all three attempts at near.
 - Attempt 77 produces one clean small rotation when the right marked third is specified; attempts 76 and 78 produce no observed response. The result sharpens the question of whether target specification can affect response shape without establishing control, sub-object targeting, torque, leverage, or repeatability.
-- Greg's body competence has accumulated: a road cart is still tiring, but he plans the seat, secures his crutches, uses a folded cloth under the left thigh/residual limb, and can spend attention on the road instead of treating every mile as a medical problem.
+- Ch313 deliberately lets the marked-strip result breathe through an ordinary shared-building problem. A tall cupboard jams at the second-floor landing, and the useful solution is to borrow Cala's front room as turning space rather than force the landing geometry.
+- Greg is useful in Ch313 without becoming mover, engineer, or client: he keeps stair traffic out of the load path, helps notice that the room creates missing turn-space, and uses a crutch hook only to flatten a folded threshold mat after the carriers stop. Neris, Cala, two carriers, a blanket, a mat, and the doorway all matter.
+- Greg's body competence has accumulated: a road cart is still tiring, but he plans the seat, secures his crutches, uses a folded cloth under the left thigh/residual limb, and can spend attention on the road instead of treating every mile as a medical problem. Ch313 likewise keeps him out of the cupboard load path and lets his crutch function as a tool without turning his body into a brace.
 - Sevren's longer east-loop possibility remains conditional only. Greg says `Ask` if a longer passenger seat genuinely appears. No seat, date, price, route, or trip is currently booked.
 - Greg's reduced liquidity remains materially real at one copper plus one bit.
 - Ch300 remains only a round number, not a structural milestone. Structural boundaries continue to follow actual story movement only.
@@ -48,6 +50,7 @@
 - Ch310 changes none of Greg's money. The unnamed load-vest customer pays Lyssa exactly **one bit** for the accepted cloth work. The separately offered extra bit for moving/cutting the blue line is refused and never becomes payment.
 - Ch311 changes none of Greg's money or Vale debt. The current Three Wells seat and inn meal are included because the freight/courier cart is already covered; Greg pays no fare and earns no wage.
 - Ch312 has no income, spending, debt credit, reimbursement, purchase, resale, appraisal, or capital action.
+- Ch313 has no income, private spending, household spending, debt credit, reimbursement, purchase, resale, appraisal, or capital action. Neris later brings soup after the move; exact prose treats it as soup rather than payment and creates no service price or obligation.
 - Sevren says a future longer east-loop passenger seat is usually one bit when the passenger portion is not already covered, sometimes nothing when the seat is already paid. This is a conditional anecdotal price for that route situation, not a universal fare or booked purchase.
 - Lyssa's Ch310 received bit remains hers in her work box.
 - Vale debt remains active/unresolved; exact remaining balance remains unstated after the one-copper Ch308 credit.
@@ -72,21 +75,31 @@
 - Greg leaves the folded seat cloth near the household door at chapter end for possible future use. This does not guarantee another trip.
 - By Ch312 morning the Ch311 road fatigue has resolved after sleep: back normal, right thigh normal, residual limb comfortable, hands fine, crutches sound.
 - Hessa's Ch312 safety check finds no pain, skin issue, pressure, grip/forearm/shoulder problem, or residual-limb concern. All three attempts remain seated at near with right foot flat and left knee clear.
-- No fall, pressure injury, residual-limb problem, right-leg issue, shoe damage, crutch damage, bag damage, stay-bead change, or equipment change follows Ch312.
+- Ch313 keeps Greg outside the cupboard's fall/load path. He stands long enough to develop mild palm compression from the grips, without pain; it resolves after sitting and opening/closing his hands.
+- Greg uses the lower curve of the right crutch to hook only a loose threshold-mat edge after the carriers stop. He does not pull, brace, or bear cupboard weight through the crutch.
+- No fall, pressure injury, residual-limb problem, right-leg issue, shoe damage, crutch damage, bag damage, stay-bead change, or equipment change follows Ch312-Ch313.
 
 ## Household / Lyssa / Tavi
 - Three clean household gray sheets remain unused.
 - Horse-page reverse remains full.
-- Existing narrow scrap carries Ch304 magic data plus Ch306 holdfast notes and now Ch312 marked-strip data.
-- Ch308 Vale debt-credit receipt remains stored under the narrow scrap. Ch309-Ch312 consume no clean sheet.
-- Fixed holdfast remains wrapped on the high shelf above Greg's clothes, ring sideways, base on sailcloth, out of Tavi's reach. Warning tag remains `DO NOT TURN RING.` No Ch307-Ch312 activation or handling occurs.
-- Cala's Ch307 card evening, red-pot routine, returned bowl, and heat-stone details remain background life and do not advance in Ch308-Ch312.
+- Existing narrow scrap carries Ch304 magic data plus Ch306 holdfast notes and Ch312 marked-strip data.
+- Ch308 Vale debt-credit receipt remains stored under the narrow scrap. Ch309-Ch313 consume no clean sheet.
+- Fixed holdfast remains wrapped on the high shelf above Greg's clothes, ring sideways, base on sailcloth, out of Tavi's reach. Warning tag remains `DO NOT TURN RING.` No Ch307-Ch313 activation or handling occurs.
+- Cala's Ch307 card evening, red-pot routine, returned bowl, and heat-stone details remain background life and do not advance in Ch308-Ch313.
 - Ch309 household grounding cord/wall-light details remain ordinary background and do not become repair work.
-- Ch310 unnamed load-vest customer / Jari / blue-line work remains Lyssa's bounded job. Ch311-Ch312 do not show the customer's pickup, final fit, satisfaction, or any blue-line follow-up.
+- Ch310 unnamed load-vest customer / Jari / blue-line work remains Lyssa's bounded job. Ch311-Ch313 do not show the customer's pickup, final fit, satisfaction, or any blue-line follow-up.
 - At Ch311 departure Cala is cleaning greens; Tavi is under the table. Cala wraps two pieces of bread and Greg fills his own small water bottle for the road.
 - Lyssa is out when Greg leaves in Ch311 and is cutting unrelated dark cloth when he returns. Greg and Lyssa do not debrief Ch310, and Greg does not ask about the green vest.
 - In Ch312 Lyssa is already gone when Hessa's note arrives. At chapter end she has returned with a dark roll of cloth across her knees, explicitly not the green vest. Greg does not ask what it is.
-- After the session Lyssa asks only `Moved?` / `Good?`; Greg answers `One.` / `Interesting.` Later she nudges Greg's right shoe with hers and he nudges back. Exact prose frames this as `Not an apology. Not a lesson. Just contact.` It does not neatly resolve Ch310.
+- After the Ch312 session Lyssa asks only `Moved?` / `Good?`; Greg answers `One.` / `Interesting.` Later she nudges Greg's right shoe with hers and he nudges back. Exact prose frames this as `Not an apology. Not a lesson. Just contact.` It does not neatly resolve Ch310.
+- Ch313 introduces neighbor **Neris** only as the owner of the tall cupboard moving to an upper room in the building. Her exact floor/room beyond `third`, household, occupation, family, and prior/future relationship with Cala are unestablished.
+- Ch313 cupboard: tall dark wood, two doors, brass latch, rounded feet with dark iron foot plates, dull red door-stay bead above latch, three vertical back straps, and one small pale-green dry plate on the rear lower third. Greg recognizes the broad door-stay and dry-plate categories from ordinary first-life familiarity but does not investigate them.
+- Two unnamed carriers move the cupboard. One unnamed woman above the turn gives unhelpful advice. The second-floor landing geometry blocks a full turn because upper corner meets inner beam while lower foot meets outer rail.
+- Cala refuses removing the outer gallery rail; a nearby blue maintenance seal is observed but not investigated.
+- Cala permits the movers to use the household front room as temporary turning space. Household old floor mat bridges the raised threshold; one cabinet foot briefly folds its edge. Greg hooks the mat flat with his right crutch after the load is stopped.
+- The cupboard reaches the third-floor room. No damage beyond one superficial dark scrape across the household threshold; Cala and Lyssa both assess it as `Fine`. No repair case follows.
+- Neris later brings a large clay bowl of white-bean/greens/pepper soup. Cala says no need; Neris says she is bringing it anyway. The bowl is set by the door for ordinary return the next day. This is not payment, debt, or a new social obligation.
+- Tavi adopts the movers' `Stop` / `I stopped` exchange as a joke. One chapter does not establish a recurring catchphrase requirement.
 - Brown-cuff work and protected garment materials do not advance.
 - Rain shelf works. Front door closer remains repaired/functioning.
 
@@ -200,7 +213,7 @@
 - Sevren says he previously came by Greg's lodging twice, once while Greg was at theatre and once while Cala said Greg was at Guild. No missed message or obligation is created.
 - Sevren is in Carrow that night, leaves east again the next day, expects roughly three days if wheels remain round, then one or maybe two days in Carrow. This is his stated current rhythm, not a permanent guaranteed schedule.
 - Sevren asks whether Greg would want him to ask about a **future longer east-loop passenger seat** if one actually appears. Greg says `Ask.` No seat/date/trip is offered or booked in Ch311.
-- Sevren says a longer seat is usually one bit if the passenger portion must be paid and sometimes free if the seat is already covered. No universal fare rule is established.
+- Sevren says a longer seat is usually one bit if the passenger portion is not already covered and sometimes free if the seat is already covered. No universal fare rule is established.
 - Return freight is four wrapped wicker panels and two sacks smelling strongly of dried mint. Greg does not inspect or handle it.
 - Ordinary road magic remains background: amber brake bead flashes once when Ressa uses the long lever on a rise. No problem or investigation follows.
 - Sevren and Greg's relationship remains distinct: easy silence, bread theft, road stories, dry insults, no forced debrief. Greg eventually says `Good to see you`; Sevren answers `Yeah` and immediately insults Greg's hair.
@@ -226,6 +239,27 @@
 - Later Lyssa nudges Greg's right shoe with hers and he nudges back. Exact prose frames this as `Not an apology. Not a lesson. Just contact.` The Ch310 friction is not neatly resolved.
 - Greg's private purse remains one copper + one bit. Vale debt unchanged. Fixed holdfast untouched. Three clean sheets remain. No client, income, spend, theatre, ecology encounter, pressure evidence, injury, or standing external obligation.
 
+## Chapter 313 - THE LANDING
+- A tall dark cupboard owned by **Neris** arrives at Greg/Cala's building and becomes stuck at the second-floor landing while being moved to a third-floor room.
+- Cupboard broad details: two front doors, brass latch, rounded feet on dark iron plates, dull red stay bead above the latch, three narrow vertical iron straps on the back, and a small pale-green dry plate on the rear lower third.
+- Greg broadly recognizes the door-stay and dry-plate families from first-life material culture. He does not ask tourist questions or investigate maker/mechanism.
+- Two unnamed men are the actual carriers. One unnamed woman above the stair gives mostly unhelpful suggestions. Neris owns the cupboard and participates in decisions.
+- Landing geometry is the actual problem: lifting lower end drives top into inner beam; lowering top drives lower foot into outer gallery rail. Feet appear fixed rather than removable. Neris says door pins are sealed and refuses casual door removal.
+- The nearby outer gallery rail has a blue maintenance seal. Cala refuses rail removal. Exact seal/ownership/maintenance meaning is uninvestigated.
+- Greg first takes a bounded role controlling lower-stair traffic from outside the cupboard's possible fall path. A boy with a basket and later a man with bundled reed wait below.
+- When the carriers need rest, the cupboard is safely settled onto its blanket/padded corner support. Nobody pushes through fatigue.
+- Greg notices that Cala's open front room can provide the missing turn-space. Cala independently agrees `Use room`; the carriers/Neris adopt the plan. This is ordinary geometry, not Greg magic or hidden engineering expertise.
+- Household old floor mat is laid over the raised threshold. Cabinet bottom backs partly into the room, allowing the top to clear the low beam and the cupboard to pivot toward the upper stair.
+- One cabinet foot folds the mat edge under itself. The load is stopped. Greg remains outside the load path and uses the lower curve of his right crutch only to hook the loose mat edge flat; he does not brace, lift, drag, or bear cupboard weight.
+- Cupboard reaches the third-floor room. No injury or major damage. One superficial dark threshold scrape remains; Cala and later Lyssa both assess it as `Fine`, and no repair lane activates.
+- Neris later returns household mat and says `Room good.` One carrier compliments Greg's `Good hook`; no payment, mover role, referral, or standing obligation follows.
+- Neris later brings a large clay bowl of white-bean/greens/pepper soup. Cala refuses need but accepts when Neris insists. The bowl is set by door for ordinary return tomorrow. The soup is not treated as wages or debt.
+- Tavi adopts `Stop` / `I stopped` from the movers as a household joke. This is not guaranteed recurring dialogue.
+- Later Greg takes an ordinary walk. He sees a clicking doorway charm, children moving clay animals on chalk roads, and a cart with suspended blue glass jars; none becomes a case/investigation.
+- Greg briefly notices that the cupboard problem was solved using useful space outside the immediate landing, then explicitly refuses to turn that observation into a new theory of Ch312 target specification. `I let the cupboard remain a cupboard.`
+- Greg's hands show only mild temporary grip compression from prolonged standing; no pain. Right leg and residual limb fine. No equipment damage/change.
+- Greg's private purse remains one copper + one bit. Vale debt unchanged. Fixed holdfast untouched. Magic unchanged. Three clean sheets remain. No client, income, spend, theatre, ecology encounter, pressure evidence, Hessa contact, independent magic, or standing external obligation.
+
 ## Magic continuity
 - Current totals are **36 supervised minimal draws / 32 supervised deliberate shaping attempts / 78 supervised external-effect attempts**.
 - Near aggregate: **4 clean / 10**. Attempt 77 is the fourth clean near response, but it is a clean rotation rather than a clean translation.
@@ -240,8 +274,8 @@
 - Attempt 76 near/still on/left marked region: no observed response.
 - Attempt 77 near/still on/right marked region: clean small rotation, right end away relative to left.
 - Attempt 78 near/still on/whole strip: no observed response.
-- Ch305-Ch311 contain no Greg draw, shaping, external attempt, or independent magic. Ch312 adds exactly three supervised external-effect attempts and no draw/shaping attempts.
-- Ch306 fixed holdfast, Ch307 household heat stone, Ch309 environmental/item charge effects, Ch310 load-vest charm behavior, and Ch311 road/relay item effects do not count as Greg mana use.
+- Ch305-Ch311 contain no Greg draw, shaping, external attempt, or independent magic. Ch312 adds exactly three supervised external-effect attempts and no draw/shaping attempts. Ch313 adds none.
+- Ch306 fixed holdfast, Ch307 household heat stone, Ch309 environmental/item charge effects, Ch310 load-vest charm behavior, Ch311 road/relay item effects, and Ch313 cupboard stay/dry fittings do not count as Greg mana use.
 - Outside-session restrictions remain unchanged.
 - Hessa next experiment/appointment/position/object/condition remains unselected.
 - Do not infer a distance law, hard range limit, reliability curve, dose relationship, still-field effect, target-resolution law, torque ability, leverage principle, or repeatable control from current samples.
@@ -253,11 +287,12 @@
 - Ch302 lampwings remain a separate seasonal magical-ecology event.
 - Ch305 remains the recent encounter where Greg's old dangerous-world fieldcraft is the central solution rather than bounded observation.
 - Mirrorhorns are not established as common in central Carrow. Cala and the gray-braided woman only know of sightings nearer the north road / old lime fields.
-- Ch306-Ch312 contain no mirrorhorn/ecology follow-up. Ch309 is magical weather; Ch310 is garment/work magic; Ch311 is road/social life with ordinary infrastructure; Ch312 is supervised personal-magic testing.
+- Ch306-Ch313 contain no mirrorhorn/ecology follow-up. Ch309 is magical weather; Ch310 is garment/work magic; Ch311 is road/social life with ordinary infrastructure; Ch312 is supervised personal-magic testing; Ch313 is household/building social life with ordinary item magic.
 - Do not turn magical ecology into a creature-of-the-week progression.
 
 ## Other live continuity
-- Ch312 marked-strip target-specification result is now live as a bounded personal-magic question. Hessa has selected no next protocol and no applied-object test is authorized.
+- Ch313 Neris/cupboard/landing move stands as a completed one-off building event. It creates no mover work, engineering role, cupboard repair job, rail-maintenance case, soup-debt, or guaranteed Neris recurrence.
+- Ch312 marked-strip target-specification result is live as a bounded personal-magic question. Hessa has selected no next protocol and no applied-object test is authorized.
 - Ch311 Sevren / Ressa / Three Wells / east-loop possibility stands as a renewed social/road lane, but only the current half-day ride is complete. No longer trip is booked.
 - Ch303 North Steps/dry bench/Noll stands complete.
 - Ch302 lampwing/low-lamp evening stands complete.
@@ -277,10 +312,10 @@
 - Ch287 carrying light stands.
 - Ch286 dry seal remains ordinary resolved maintenance unless independently reactivated.
 - Ch281 return hardware remains unactivated/unvalued. Rell/Maren/Jori appraisal route unresolved.
-- Vale debt remains active/unresolved. Ch308 applies one copper credit; exact remaining balance remains unstated. Ch309-Ch312 do not move it.
+- Vale debt remains active/unresolved. Ch308 applies one copper credit; exact remaining balance remains unstated. Ch309-Ch313 do not move it.
 - Antonius may offer suitable cash work in the future only if an actual task appears; no guaranteed offer exists.
 - Boundary clasp unowned/status unknown.
-- Older Bren/pressure evidence ceiling unchanged. Ch309-Ch312 add no Bren/Vale-threat link or pressure evidence.
+- Older Bren/pressure evidence ceiling unchanged. Ch309-Ch313 add no Bren/Vale-threat link or pressure evidence.
 
 ## Protected uncertainties / do not auto-resolve
 - Existing weak needle-case, Rinna parcel, Lyssa older materials/packets/bundles, Ch246 crate, Pell return, Vale/Bren, collar-facing, six wraps, Ch281 flat package, Ch285 narrow wrapped packet remain protected.
@@ -309,19 +344,25 @@
 - Ch312 still-field/telltale conditions make ordinary room draft less likely as explanation for attempt 77 but do not eliminate all unmeasured confounds. Exact paper properties, crossmark influence, lateral micro-position, and Hessa's numerical measurements remain unestablished.
 - Hessa's statement `Because distance has not explained enough` means only that current distance testing has not explained enough. It does not establish distance as irrelevant.
 - Do not extrapolate attempt 77 to the Ch310 blue line, Ch306 holdfast, latches, coins, cups, larger objects, internal parts, or dangerous/applied objects without new authorized evidence.
+- Ch313 cupboard exact maker/age, red stay-bead mechanism/service life, dry-plate mechanism/service condition, origin/transport history, Neris's brother, movers' employment, blue gallery-rail maintenance seal, third-floor room arrangement, and future cupboard use remain unestablished.
+- Ch313 threshold scrape is explicitly superficial/accepted and should not auto-activate Olan, maintenance, repair, compensation, or landlord/building-authority work.
+- Neris's soup is ordinary neighbor gratitude, not a price precedent or reciprocal obligation. Do not turn it into a regular food-exchange or Neris network merely because it happened.
 - Existing shade-fish/water-list, dry-seal, carrying-light, cooling-cup, ward-road, rain-thread, door-closer, stay-bead, bridges, Nemi/hold-bead, high-line, kessa-jumper, Sivi/mask, and other older uncertainties remain bounded.
 
-## Chapter 313 trailhead
+## Chapter 314 trailhead
 Follow the next actual claim from current authority.
 
-Chapter 312 is a complete Hessa / marked-strip target-specification session. Let attempt 77's rotation, the marked thirds, still-field setup, and sharper targeting question stand without immediate conversion into a breakthrough ladder or applied-magic arc.
+Chapter 313 is a complete Neris / cupboard / landing chapter. Let the cupboard stay upstairs, the threshold scrape stay superficial, the soup stay ordinary neighbor gratitude, and Greg's `room as turning space` observation stay a mundane building solution rather than a disguised magic theorem.
 
-Do **not** automatically make Chapter 313:
-- another next-day Hessa session,
-- a repeat of the same marked strip / right-third rotation test,
+Do **not** automatically make Chapter 314:
+- Neris returning with another object, job, payment, or moving request,
+- a cupboard repair, dry-plate/stay-bead diagnosis, rail-seal investigation, threshold repair, building-accessibility project, or household-moving business,
+- another chapter about Greg using his crutches as improvised tools,
+- another Hessa session,
+- a repeat of the marked-strip / right-third rotation test,
 - an escalation from paper regions to real objects, internal parts, larger objects, torque/leverage exercises, or precision training,
 - Greg testing the effect independently,
-- Greg applying attempt 77 to Lyssa's blue load line, the fixed holdfast, a latch, coin, cup, door, or other practical object,
+- Greg applying attempt 77 to Lyssa's blue load line, the fixed holdfast, a latch, coin, cup, door, cupboard, or other practical object,
 - the longer east-loop trip,
 - Sevren returning immediately with a passenger seat,
 - Ressa becoming Greg's regular driver,
@@ -342,13 +383,13 @@ Do **not** automatically make Chapter 313:
 
 Greg's private liquid money remains **one copper + one bit**. Vale debt has received exactly one copper credit in Ch308; exact remaining balance remains unstated. No copper/bit conversion exists. Lyssa's Ch310 one-bit customer payment remains Lyssa's.
 
-Magic is now **36 / 32 / 78**; near **4/10 clean**, with attempt 77 a clean rotation rather than translation; middle **1/6 clean + one possible edge lift**; far **0/1**. Restrictions unchanged. Hessa has selected no next protocol.
+Magic remains **36 / 32 / 78**; near **4/10 clean**, with attempt 77 a clean rotation rather than translation; middle **1/6 clean + one possible edge lift**; far **0/1**. Restrictions unchanged. Hessa has selected no next protocol.
 
 Three clean household sheets remain. Lyssa's brown-cuff work and older protected garment materials remain hers and unresolved. The fixed holdfast stays safely stored upstairs. Household is stable. Greg is uninjured; crutches, right shoe, bag, front door, rain shelf, and ordinary household equipment function normally. The folded seat cloth near the door remains ordinary household-use material, not new specialized equipment.
 
-Greg has no guaranteed client, Miri return, Pellin visit, Nara follow-up, Hessa appointment, repeat marked-strip test, second far test, still-bead repeat, theatre paper, performance role, North Steps return, Noll meeting, mirrorhorn/handler follow-up, Renn contact, holdfast use/appraisal/resale, salvage-seller return, magical-item dealer route, Vale cash task, second immediate Vale debt task, charge-weather contact, bakery/courier-shelter return, load-vest customer return, Jari contact, charm-seam job, guaranteed Sevren seat, Three Wells return, Ressa contact, courier work, Cala-card invitation, regular Tavi-minding duty, returned-bowl follow-up, Vara/Ren/kite follow-up, Mera/Olan work, Nemi/music follow-up, bridges invitation, high-line/Tess follow-up, Pella/Rusk follow-up, ecology assignment, ward-water contact, shade-fish task, bead replacement, bag follow-up, rain-thread need, Sera/lantern-house visit, Maro follow-up, Maren/Rell/Jori appraisal, clasp hold, Hollen shift, Guild consultation, Savin appointment, civic hearing, Green Coat encounter, or Lyssa-network obligation.
+Greg has no guaranteed client, Miri return, Pellin visit, Nara follow-up, Hessa appointment, repeat marked-strip test, second far test, still-bead repeat, theatre paper, performance role, North Steps return, Noll meeting, mirrorhorn/handler follow-up, Renn contact, holdfast use/appraisal/resale, salvage-seller return, magical-item dealer route, Vale cash task, second immediate Vale debt task, charge-weather contact, bakery/courier-shelter return, load-vest customer return, Jari contact, charm-seam job, guaranteed Sevren seat, Three Wells return, Ressa contact, courier work, Neris job, moving role, Cala-card invitation, regular Tavi-minding duty, returned-bowl follow-up, Vara/Ren/kite follow-up, Mera/Olan work, Nemi/music follow-up, bridges invitation, high-line/Tess follow-up, Pella/Rusk follow-up, ecology assignment, ward-water contact, shade-fish task, bead replacement, bag follow-up, rain-thread need, Sera/lantern-house visit, Maro follow-up, Maren/Rell/Jori appraisal, clasp hold, Hollen shift, Guild consultation, Savin appointment, civic hearing, Green Coat encounter, or Lyssa-network obligation.
 
-Let Chapter 313 follow the next actual claim from household, paid work only if genuinely activated, city/social life, theatre only if independently reactivated, pressure only if genuinely activated, Lyssa's independent work only if naturally intersected again after room to stand, magical ecology/fieldcraft only through a genuinely fresh lived claim, Greg's own magic only if independently activated after this session has room to stand, capital only with actual demand/value, Sevren/road only if a genuinely new independent claim exists, or another ordinary fantasy-world demand.
+Let Chapter 314 follow the next actual claim from household, paid work only if genuinely activated, city/social life, theatre only if independently reactivated, pressure only if genuinely activated, Lyssa's independent work only if naturally intersected again after room to stand, magical ecology/fieldcraft only through a genuinely fresh lived claim, Greg's own magic only if independently activated after the marked-strip result has room to stand, capital only with actual demand/value, Sevren/road only if a genuinely new independent claim exists, or another ordinary fantasy-world demand.
 
 Do not rotate available engines by checklist.
 
