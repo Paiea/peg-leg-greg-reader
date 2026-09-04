@@ -2,6 +2,8 @@
 
 **Current endpoint:** Chapter 248 — THE CONSTANT
 
+**Inserted canon:** Chapters 220A–220C are permanent alphanumeric chapters between 220 and 221. They do not renumber later chapters.
+
 1. **THE BOY**
 2. **THE BORROWER**
 3. **THE INVESTOR**
@@ -222,6 +224,9 @@
 218. **THE PAYER**
 219. **THE PURCHASER**
 220. **THE LANDLORD**
+220A. **THE SHORTAGE**
+220B. **THE OLD MAN**
+220C. **THE ROUTE**
 221. **THE PARTICIPANT**
 222. **THE PROPERTY MAN**
 223. **THE MAINTENANCE MAN**
