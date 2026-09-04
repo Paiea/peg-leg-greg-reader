@@ -403,7 +403,55 @@ GitHub is durable memory.
 `MANUSCRIPT_STATE.md` is the bookmark and steering edge.
 Chat is disposable execution context.
 
-## 20. Failure / recovery mode
+## 20. Bounded queue / chained Continue
+
+The Manuscript Engine may compose its normal atomic `Continue` transaction into a short bounded queue.
+
+Canonical syntax:
+
+`Queue N Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
+
+Interpret this as: execute the normal `Continue` transaction sequentially up to N times. Do not reinterpret N as a chapter count, scene count, word target, or permission to make one giant batch transaction.
+
+Each queued pass must preserve the ordinary durability boundary:
+
+1. read the newest current GitHub authority;
+2. execute one normal `Continue` pass from that authority;
+3. validate the pass according to its lane rules;
+4. write and commit/checkpoint all durable work from that pass;
+5. re-read the new durable GitHub edge;
+6. only then begin the next queued pass from what the previous pass ACTUALLY established.
+
+Pass 2 must not continue from the queue's original starting state. Pass 3 must not continue from pass 1's predicted state. Every pass inherits the newest verified durable edge left by the pass immediately before it.
+
+A queue is bounded autonomy, not permission to run indefinitely.
+
+- Queue 3–5 is the normal useful range.
+- Queue values above 10 are strongly discouraged and should normally be split into fresh bounded runs rather than attempted as one marathon execution.
+- Do not silently transform `Queue 50`, `Queue 100`, `keep going forever`, or equivalent requests into one enormous fragile transaction merely because repeated work appears easy.
+- Prefer several fresh Queue 3–5 runs over one very large queue when the work is long-running.
+
+Quality and durability override requested count. `Queue N` means **up to N trustworthy sequential Continue transactions**, not “reach N at any cost.” Stop the queue at the last verified durable pass if any of the following occurs:
+
+- validation fails;
+- GitHub cannot be written or verified;
+- current authority becomes ambiguous or unsynchronized;
+- exact source needed for the next pass is unavailable;
+- context quality has degraded enough that continuity confidence is no longer trustworthy;
+- the next pass would require inventing missing work, outrunning durable state, or sacrificing completed work to satisfy N.
+
+A failed or interrupted later pass must not erase, overwrite, or invalidate earlier verified passes. The whole reason to queue atomic Continues instead of creating a mega-batch is that completed work remains durable even if the run stops early.
+
+At the end of a queued run, report at minimum:
+
+- `completed X of N` queued passes;
+- the current verified durable endpoint;
+- any reason the queue stopped early;
+- the normal compact restart prompt.
+
+Do not create a second parallel queue state system. The queue itself is disposable execution control. Durable manuscript state remains in the existing manuscript, lane state, commits/checkpoints, and `MANUSCRIPT_STATE.md` trailhead.
+
+## 21. Failure / recovery mode
 
 If exact source prose is unavailable, do not fake it.
 
