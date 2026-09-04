@@ -15,11 +15,12 @@ WORKFLOW = ROOT / ".github/workflows/dialogue-attribution-live.yml"
 
 
 class DialoguePublishBoundaryTests(unittest.TestCase):
-    def test_live_workflow_publishes_reviewed_range_through_219(self):
+    def test_live_workflow_publishes_only_verified_reviewed_range_through_201(self):
         text = WORKFLOW.read_text(encoding="utf-8")
-        self.assertIn("promote_recovered_dialogue.py 164-219", text)
-        self.assertIn("generate_illustrated.py 156-219", text)
-        self.assertIn("generate_light.py 164-219", text)
+        self.assertIn("promote_recovered_dialogue.py 164-201", text)
+        self.assertIn("generate_illustrated.py 156-201", text)
+        self.assertIn("generate_light.py 164-201", text)
+        self.assertNotIn("164-219", text)
         self.assertNotIn("dialogue_live_entrypoint.py --patch-ref origin/editor/voice-compression-pass --min-chapter 164", text)
 
     def test_generated_illustrated_chapter_keeps_reader_shell_and_navigation(self):
