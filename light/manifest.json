@@ -1,5 +1,5 @@
 {
-  "latest": 332,
+  "latest": 336,
   "chapters": [
     {
       "number": 100,
@@ -1398,6 +1398,30 @@
       "title": "THE HOUSING",
       "source": "checkpoint",
       "path": "332.html"
+    },
+    {
+      "number": 333,
+      "title": "THE FAR POINT",
+      "source": "checkpoint",
+      "path": "333.html"
+    },
+    {
+      "number": 334,
+      "title": "HOUSE LEFT",
+      "source": "checkpoint",
+      "path": "334.html"
+    },
+    {
+      "number": 335,
+      "title": "THE BLUE HARNESS",
+      "source": "checkpoint",
+      "path": "335.html"
+    },
+    {
+      "number": 336,
+      "title": "THE BID LINE",
+      "source": "checkpoint",
+      "path": "336.html"
     }
   ]
 }
