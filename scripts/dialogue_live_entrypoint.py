@@ -37,18 +37,38 @@ def _arg_int(name: str, default: int) -> int:
 
 
 def _modern_batch_to_legacy(content: str) -> str:
-    """Normalize accepted newer patch-note syntax for the strict legacy parser."""
+    """Normalize accepted newer patch-note syntax for the strict legacy parser.
+
+    Consecutive Markdown blockquote lines belong to one prose paragraph unless a
+    bare `>` separator appears between them. Folding them here preserves wrapped
+    manuscript paragraphs instead of turning display wrapping into fake paragraph
+    boundaries.
+    """
     lines: list[str] = []
+    quoted_parts: list[str] = []
+
+    def flush_quote() -> None:
+        if not quoted_parts:
+            return
+        value = " ".join(part.strip() for part in quoted_parts).replace("`", "\\`")
+        lines.append(f"`{value}`")
+        quoted_parts.clear()
+
     for raw in content.splitlines():
+        if raw.startswith("> "):
+            quoted_parts.append(raw[2:])
+            continue
+        if raw.strip() == ">":
+            flush_quote()
+            lines.append("")
+            continue
+
+        flush_quote()
         line = re.sub(r"^### Patch\b", "### Fix", raw, flags=re.IGNORECASE)
         if line.strip().lower() == "later:":
             line = "..."
-        elif line.startswith("> "):
-            value = line[2:].replace("`", "\\`")
-            line = f"`{value}`"
-        elif line.strip() == ">":
-            line = ""
         lines.append(line)
+    flush_quote()
     return "\n".join(lines)
 
 
