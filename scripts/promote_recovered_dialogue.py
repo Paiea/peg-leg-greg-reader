@@ -12,6 +12,11 @@ import dialogue_live_entrypoint  # installs modern batch compatibility parser
 
 
 CHAPTER_BOUNDARY_RE = re.compile(r"^# CHAPTER (\d+)\s*$", re.MULTILINE)
+QUOTE_TRANS = str.maketrans({"“": '"', "”": '"', "‘": "'", "’": "'"})
+
+
+def _norm(text: str) -> str:
+    return re.sub(r"\s+", " ", text.translate(QUOTE_TRANS)).strip()
 
 
 def _chapter_spans(text: str) -> dict[int, tuple[int, int]]:
@@ -32,15 +37,17 @@ def _replace_segment(chunk: str, current: tuple[str, ...], replacement: tuple[st
     paragraphs = _paragraphs(chunk)
     width = len(current)
     replacement_width = len(replacement)
+    current_norm = tuple(_norm(value) for value in current)
+    replacement_norm = tuple(_norm(value) for value in replacement)
     current_hits = [
         i for i in range(len(paragraphs) - width + 1)
-        if tuple(paragraphs[i:i + width]) == current
+        if tuple(_norm(value) for value in paragraphs[i:i + width]) == current_norm
     ]
     replacement_hits = [
         i for i in range(len(paragraphs) - replacement_width + 1)
-        if tuple(paragraphs[i:i + replacement_width]) == replacement
+        if tuple(_norm(value) for value in paragraphs[i:i + replacement_width]) == replacement_norm
     ]
-    if len(replacement_hits) == 1 and not current_hits:
+    if replacement_hits and not current_hits:
         return chunk, "already"
     if len(current_hits) != 1:
         raise RuntimeError(f"{label}: expected current text exactly once, found {len(current_hits)}")
