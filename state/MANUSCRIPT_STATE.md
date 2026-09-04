@@ -1,10 +1,10 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 340 - **THE MOVING LINE**.
+- Current exact story endpoint: Chapter 341 - **THE LONG MILE**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249-340 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249-341 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500-4,000 words and clear 2,500 unless explicitly changed.
@@ -15,148 +15,139 @@
 - Apply economy, rhythm/artifact, market-intelligence, and pricing continuity when relevant.
 
 ## Current direction
-- Ch340 returns to Hessa after enough rhythm space and changes the training axis materially: Greg's **own body movement** and a **moving target** are separated from prior target-distance/magnitude work.
-- The chapter remains physical and supervised rather than becoming another artifact/service-calibration scene.
-- Core progression: Greg learns that body motion may contaminate his perception of mana stability, that stable contact phases were easier **today**, and that moving-target work punishes his habit of chasing where the target was.
-- Hessa deliberately leaves one clean future question unanswered: Greg moving while producing an external effect on a stationary target is NOT tested yet.
-- Greg's newer selectivity persists. He leaves oval/rest stone/holdfast home and later does not force unrelated artifacts into the training chapter.
+- Ch341 changes scale/location after Hessa: Greg rides roughly eight miles north toward Moss Ford with Cala's cousin Beren to observe a secondary public route undergoing recurring spatial/landmark distortion locally called **the long mile**.
+- Greg does not solve the phenomenon, claim expert authority, or turn it into an artifact hunt. The chapter is magical ecology/infrastructure experienced through travel, local memory, road procedure, and bounded observation.
+- Practical danger is currently people leaving the packed/marked road because landmarks/fences/distance appear to disagree, not the road directly attacking travelers.
+- Greg's selectivity persists: he chooses to go despite no pay because the phenomenon is genuinely interesting and bounded enough, but he does not leave the road, chase the effect, independently use magic, or treat the oval as navigation authority.
 
 ## Money / capital
-- Greg remains **1 private copper + 0 bits** throughout Ch340.
-- No pay, purchase, debt credit, appraisal, conversion, or new job offer.
-- Possible theatre work from Ch339 remains unconfirmed and unpriced.
+- Greg remains **1 private copper + 0 bits** throughout Ch341.
+- Beren offers ride there/back + lunch, explicitly no pay. Greg accepts knowingly.
+- At end Beren gives household a small sack of his brother's onions, explicitly not payment. No price/value established.
+- Possible theatre work remains unconfirmed/unpriced.
 - Vale debt remains active/unresolved.
 
-## Hessa / South Walk session
-- Hessa note: `GREG / MIDDAY / SOUTH WALK / BOTH CRUTCHES / NO EQUIPMENT / HESSA`, with smaller `WEATHER IF STUPID`.
-- Location: South Walk, a long covered stone arcade on southern edge of an old civic yard, roof overhead, open arches one side, wall other side, light wind/rain possible.
-- Greg brings both crutches and leaves oval/rest stone/holdfast home. Shoulder bag placed against wall during work.
-- Hessa asks body check: ordinary theatre-related shoulder fatigue resolved; right leg fine; left knee fine.
+## New location / Moss Ford secondary route
+- Moss Ford is described as several farms, a mill, a shrine, and enough houses for communal arguments; not established as formal village government or exact population.
+- Secondary public foot/cart route links Moss Ford toward Carrow's north road. Used by farm carts/walkers/mill traffic, especially when lower road floods and by some loads avoiding main-road toll weight. Exact legal/toll regime not further established.
+- Current anomaly began about three days before Ch341 according to Beren.
+- Reported effects: road/landmarks appear geometrically inconsistent; mill stack shifts relative position; creek/drain crossing may arrive earlier/later than expected; road/fence cease appearing parallel; distance to landmarks can stall then collapse; direction/length experience differs by travel direction.
+- No verified missing people, deaths, or injuries. One cart reportedly entered wet ground after driver followed fence rather than road.
+- Road workers had already inspected/staked area and warned against use after dark before Greg arrives.
 
-### Minimal draws
-- Hessa runs **6 supervised minimal draws while Greg walks between chalk marks**.
-- Broad pattern today:
-  - cleaner when both crutches planted / stable contact;
-  - also reasonably clean after right-foot contact;
-  - worse during swing/body transition;
-  - one mid-swing draw breaks almost immediately.
-- Do NOT universalize this. Hessa/Greg explicitly frame it as today's observation.
-- Minimal total moves **41 -> 47**.
+## The long mile / historical continuity
+- Unnamed older woman with empty flatbed first gives Greg local name **long mile**; shrine keeper later identifies her as **Old Nera**. Do not automatically recur her.
+- Nera says her father called it that `when it woke up`; she remembers family stories of prior events but gives no formal mechanism.
+- Her practical inherited rule: stay on packed road, do not follow misleading landmarks/fence, avoid after dark. She crossed safely about quarter hour before Greg/Beren and says her horse did not care.
+- Moss Ford shrine keeper has old book with **two clear entries, maybe three**, last clear event **58 years ago**.
+- Keeper's bounded summary: road-length distortion, landmark disagreement, do not leave marked path, stronger after sunset; one prior event settled within **6 days**, another within **11 days**; possible third may duplicate another entry; cause unagreed.
+- Greg is NOT allowed to read shrine book directly. Keeper provides summary only.
+- Do not invent cause, cycle, trigger, responsible entity, artifact, buried structure, or exact magical classification yet.
 
-### Deliberate shaping
-- Hessa runs **12 supervised deliberate shaping attempts total**.
-- First 9 explore shaping across gait phases:
-  - early failures/smears when Greg treats body motion as mana change;
-  - cleaner when shaping during stable contact;
-  - later one holds through a full body transition without late shove.
-- Final 3 occur while Greg walks past a stationary bead without external effect:
-  - first fails during turn;
-  - second holds through one pass;
-  - third holds while Greg does not visually fixate directly on bead.
-- Deliberate shaping total moves **41 -> 53**.
+## Current road-management procedure
+- Road workers are actively responding, not absent/incompetent.
+- Fresh white stakes/bright cord mark safe packed-road corridor by return trip.
+- Shrine keeper says section expected to close by evening / Carrow side possibly earlier depending cord/work progress. This is current operational decision, not permanent closure.
+- Practical instruction: stay between marks, do not leave packed surface, do not stop inside marked section unless necessary, avoid after dark.
+- Shrine boundary stones are separate infrastructure. Three waist-high stones with small iron roofs and blue thread are described as **boundary witness for shrine ground**, not long-mile monitors. Keeper reports no change. Do not repurpose automatically.
 
-### External effects / moving target
-- Hessa uses same plain white ceramic bead from Ch333, suspended in a tiny cloth loop on a horizontal string with lower guide thread limiting side swing.
-- External task: one-grain-ish movement toward Greg, first stationary, then while Hessa slides bead slowly sideways.
-- Exactly **12 supervised external-effect attempts**:
-  - attempts 1-2 on stationary hanging bead, second clean;
-  - attempts 3-5 on moving bead fail/lag/chase;
-  - attempt 6 predicts too far, no effect;
-  - attempt 7 gets contact but not clean;
-  - attempt 8 clean small movement on moving bead;
-  - attempt 9 fails;
-  - attempt 10 clean enough;
-  - attempt 11 overstrong due late correction/result greed;
-  - attempt 12 follows Greg deliberately skipping a bad-timing pass, then produces clean small movement.
-- External total moves **91 -> 103**.
-- This establishes only that Greg can sometimes produce a small supervised near-range effect on a **slowly moving target**. It does NOT establish combat tracking, broad moving-target competence, range growth, speed tracking, or moving-caster competence.
+## Grass-band observation
+- In low meadow a roughly six-foot-wide diagonal band of grass leans north while wind moves south. Band crosses road.
+- Nera advises not to cross it off-road; she herself crossed on road safely shortly before.
+- Exact relation between grass band and long-mile phenomenon unknown.
+- Greg/Beren cross on packed road without verified immediate harm.
 
-## New magic hypothesis / protected split
-- Greg says body motion + mana perception may be mixed.
-- Hessa proposes alternative: some perceived mana instability may partly be upper-body/body-sensation change rather than field instability.
-- This is a hypothesis, not a conclusion.
-- Clean future question written by Greg: `NO TEST YET: GREG MOVING + EXTERNAL EFFECT`.
-- Hessa deliberately stops before testing that combination.
-- Moving-target lesson: Greg tends to chase where target was and correct behind it. Prediction/timing may matter, but exact targeting model remains unresolved.
-- Hessa continues to train result-greed out of repetitions and stops Greg from chasing clean results.
+## Oval continuity / Ch341 anomaly
+- Greg brings oval because a route anomaly is one of few contexts where its known threshold/retreat behavior may be relevant. He does NOT bring holdfast/rest stone.
+- At old stone posts/gap along road, oval clicks and points back normally as qualifying-threshold behavior.
+- At grass-band road crossing: **no click**, then oval rotates east while Greg/cart remain on road, later drifts east-to-southeast, then eventually turns back toward road behind and gives one click while stationary.
+- This is anomalous and unresolved. It may relate to unstable route geometry, may be failure/confusion, or may be unrelated.
+- Greg explicitly records `DO NOT USE AS NAVIGATION THERE.`
+- On return, Greg keeps oval wrapped rather than watching it, deliberately following marked-road procedure without converting artifact into compass.
+- Do NOT establish danger detection, route finding, long-mile sensing, spatial navigation, prediction, or intelligence from this.
 
-## Magic totals
-- Current exact totals after Ch340: **47 supervised minimal draws / 53 supervised deliberate shaping attempts / 103 supervised external-effect attempts**.
-- No independent practice.
-- Hessa restrictions remain in force.
+## Beren continuity
+- Cala's cousin Beren. Wide face, short beard, broad shoulders. Lives near Moss Ford. Exact age/job/household details unestablished.
+- Has daughter who named loud caged bird **Hush**. Daughter does not appear.
+- Beren's cart wheel wood is fine; split iron rim brace is cracked. Cart remains usable for trip; no failure.
+- Beren seeks Greg because he has heard Greg has looked at old field marks / likes wrong things, not because Greg is formally qualified.
+- Beren does not pay Greg. Provides ride/lunch and later onions from brother as household gift.
+- Beren's brother works/is present at mill and grows onions; name unestablished. Do not infer profession beyond scene.
+- Beren accepts that Greg solves nothing; his thanks are for coming/looking.
 
-## Greg / body / movement
+## Greg / body / travel
 - Greg nineteen, Bronze, Carrow. Permanent LEFT BKA, knee preserved; right leg intact; two crutches.
-- Chapter makes his actual gait mechanics part of supervised magic experimentation without turning disability into symbolic lesson.
-- One ugly crutch/chalk contact occurs during non-magic route pass, no fall/injury.
-- He performs moving practice under supervision only.
+- Rides cart most of roughly eight-mile trip each way. Crutches tied beside him but accessible.
+- Walks bounded sections on packed road. No fall, injury, equipment damage, or independent magic.
+- Ends tired from travel/attention, not injured.
 
-## Hessa string residue
-- Hessa gives Greg a plain piece of white string from the note and says it is partly so he stops treating every object she hands him as instruction.
-- String is ordinary/non-magical as far as established.
-- At home Greg gives Tavi half the string; Tavi adds it to mundane spoon carrier.
-- Do not turn string into hidden artifact.
+## Rural magical ecology
+- Route north shows ordinary rural magical practices without detailed exposition: small white stones on red cord in orchard branches; three copper nails in triangle atop field gate; flat black slab at drainage crossing bending water around it unusually cleanly.
+- Greg broadly recognizes possible categories such as weather wards/boundary discouragement/flow shaping but does not interrogate every implementation.
+- These are setting texture, not established exact functions unless later independently verified.
 
-## Household residue
-- Lyssa jokes that Greg learned walking is harder when he thinks about walking.
-- Cala asks only whether he fell; he did not.
-- Tavi tries to claim string; Greg gives him half and calls keeping half `reserve`.
-- Household remains grounded and does not convert training into dramatic event.
+## Magic continuity
+- Totals remain **47 supervised minimal draws / 53 supervised deliberate shaping attempts / 103 supervised external-effect attempts**.
+- Ch341 adds no Greg magic attempts.
+- Greg moving + external effect remains explicitly untested.
+- Hessa restrictions unchanged.
 
 ## Artifact continuity
-- Oval stays home in Ch340. No special click/event.
-- Rest stone K-14-6 remains boxed, unopened, untested.
-- Holdfast remains shelved, wrapped, ring sideways, warning visible, untested since seller demo.
-- Greg explicitly notices all three are irrelevant to current magic work.
+- Rest stone K-14-6 remains boxed/unopened/untested at home.
+- Holdfast remains shelved/wrapped/ring sideways/unactivated since seller demo.
+- Oval is only artifact carried and gets unresolved route-anomaly behavior above.
+- No acquisition/appraisal/sale in Ch341.
+
+## Household residue
+- Cala knows Beren and tells him to explain whole problem rather than oversell Greg's expertise.
+- Greg returns with a small sack of onions from Beren's brother; Cala is pleased.
+- Tavi continues mundane spoon carrier with Hessa string. At end he loops string around chair, carrier stops when string tightens, and asks for longer string. No magic discovery.
 
 ## Theatre continuity
-- Ch339 possible paid two-evening house-route/late-reset work remains only possible/unconfirmed.
-- No theatre appearance or new offer in Ch340.
+- Possible two-evening paid house-route/late-reset work next week remains possible/unconfirmed. No new theatre contact in Ch341.
 
 ## Recent chapter ledger
 
-### Chapter 338 - THE PUBLIC COUNTER
-- Greg gains narrow East Kiln public-counter access and buys retired rest stone K-14-6 for 1c, preserving 1c reserve. No testing.
-
 ### Chapter 339 - THE SECOND VOICE
-- Theatre uses Greg's crutch contact as a sound-system test condition. Rinna mentions possible future paid house work, unconfirmed. Greg's local reputation grows.
+- Theatre uses Greg as crutch-noise test condition; possible future paid house work mentioned but unconfirmed.
 
 ### Chapter 340 - THE MOVING LINE
-- Hessa moves training to South Walk and separates body motion from moving-target work.
-- 6 walking minimal draws reveal stable-contact phases easier today than swing phases.
-- 12 shaping attempts explore control across gait and visual/peripheral targeting.
-- 12 external attempts on stationary then slowly moving hanging bead produce several bounded clean/clean-enough tiny effects and expose Greg's tendency to chase where target was.
-- Hessa explicitly does NOT test Greg moving + external effect, preserving a clean next experimental question.
-- Totals become **47 / 53 / 103**.
-- Greg gives Tavi half of Hessa's plain string, leaves artifacts untouched, and records only bounded observations.
-- Ends **1c + 0 bits**, no pay, purchase, injury, debt change, or artifact test.
+- Hessa separates Greg body movement from moving-target work. Totals become 47 / 53 / 103. Greg moving + external effect deliberately remains untested.
+
+### Chapter 341 - THE LONG MILE
+- Cala's cousin Beren invites Greg on unpaid ride to Moss Ford to observe a secondary road whose distance/landmarks have begun disagreeing.
+- Greg chooses to go, bringing oval but leaving other artifacts home.
+- Road anomaly is physically/socially real enough that road crews have marked it; main current danger is travelers leaving packed road due misleading geometry.
+- Old Nera supplies inherited local name/rules; shrine keeper supplies bounded historical record summary with prior 6-day/11-day events and last clear occurrence 58 years ago.
+- Grass band leans against wind; exact relation unknown.
+- Oval behaves anomalously at grass-band crossing but Greg refuses to use it as navigation and records uncertainty.
+- Greg solves nothing, returns safely before dusk, and receives onions rather than pay.
+- Ends **1c + 0 bits**, magic unchanged, no injury/acquisition/debt change.
 
 ## Protected uncertainties
-- Whether Greg's perceived movement instability is true mana instability vs body-sensation contamination remains unresolved.
-- Greg moving + external effect remains untested.
-- Moving-target competence remains narrow, slow, near-range, supervised, and inconsistent.
-- Possible theatre paid work remains unconfirmed; rate unknown.
-- Rest stone exact mechanism/release delay/safe system/standalone behavior/value unresolved.
-- Black chit remains narrow public-route access only.
-- Tanner's Cut final repair/old-drain history unresolved.
-- Oval anomalous clicks unresolved.
-- Blue harness buyer/motive/use unknown.
+- Long mile cause, mechanism, exact boundary, trigger, duration of current event, and relation to grass band unknown.
+- Whether current event matches historical entries exactly unknown.
+- Oval anomalous orientation/click relation to long mile unknown.
+- Nera's family stories are oral memory, not formal proof.
+- Shrine book full text unavailable to Greg.
+- Possible theatre paid work remains unconfirmed/rate unknown.
+- Rest stone mechanism/release delay/safe system/standalone behavior/value unresolved.
 - Holdfast exact identity/function/value unresolved.
+- Blue harness buyer/motive/use unknown.
+- Greg moving + external effect untested.
 
-## Chapter 341 trailhead
-Follow next actual claim from Ch340/current authority.
+## Chapter 342 trailhead
+Follow next actual claim from Ch341/current authority.
 
-Recent rhythm: retired-component acquisition -> theatre social/technical use -> supervised moving-body/moving-target magic. Do **not** immediately do another Hessa session, another technical calibration scene, or an artifact test/appraisal.
+Recent rhythm: theatre technical/social -> supervised moving magic -> rural travel/magical ecology. Do not immediately send Greg back to Moss Ford solely to gather more lore, and do not immediately solve the long mile. Let the phenomenon persist in the world without demanding Greg own it.
 
-Greg has **1c + 0 bits**. Possible theatre work remains hypothetical. He now has a clear unanswered magic question but should not chase it independently.
+Greg has **1c + 0 bits**. Possible theatre work remains hypothetical. Magic totals **47 / 53 / 103**. Rest stone and holdfast remain untouched.
 
-Strong next routes: travel/place change, magical ecology, household/relationship collision, a concrete external obligation from existing network, or a materially different work/event scene. A small social consequence of Greg becoming locally remembered is also viable if it changes geometry rather than just offering another bounded task.
+Strong next routes: household/social consequence from a full day away; a concrete paid opportunity from existing network if it changes objective/structure rather than repeating bounded observation; theatre offer can become real if timing feels earned; city response/news about north-road closure can provide residue without another expedition; or a character collision unrelated to artifacts.
 
-Artifact engine can remain background for another chapter. Rest stone should continue breathing unless a genuinely earned external context makes it relevant. Holdfast remains delayed. Oval may stay quiet.
+If long mile returns soon, it should change conditions materially rather than repeat observation. If oval returns, preserve ambiguity.
 
-Greg's newer behavior remains: unfinished questions can remain unfinished without becoming failure. Preserve selectivity while keeping him active.
-
-Magic totals are **47 / 53 / 103**. No independent practice.
+Greg's current progression: he can choose curiosity without needing profit, and can leave a mystery unsolved after observing it responsibly. Preserve that.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
