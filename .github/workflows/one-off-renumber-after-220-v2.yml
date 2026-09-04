@@ -60,7 +60,7 @@ jobs:
           ! test -f state/manuscript/Peg_Leg_Greg_Chapter_220A_EXACT.md
           ! test -f state/manuscript/Peg_Leg_Greg_Chapter_220B_EXACT.md
           ! test -f state/manuscript/Peg_Leg_Greg_Chapter_220C_EXACT.md
-          grep -q 'Current endpoint:** Chapter 304' state/MANUSCRIPT_CHAPTER_INDEX.md
+          grep -Fq '**Current endpoint:** Chapter 304' state/MANUSCRIPT_CHAPTER_INDEX.md
           grep -q 'Chapter 304' latest.html
           git diff --check
       - name: Commit atomic renumber migration
