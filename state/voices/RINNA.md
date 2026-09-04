@@ -10,6 +10,8 @@ Her authority is practical. She does not need to sound ceremonially managerial.
 
 Chapters 159-163 materially extend her from in-building theatre throughput into touring economics. She notices not only what was paid, but what today’s money must become before tomorrow: bread, wheel parts, stable space, tolls, wrapped food, water, lodging, or enough cash to reach the next paid stop.
 
+Chapters 198-200 add an explicit local scheduling lane for Greg. Rinna can establish a default call time, route around uncertain Guild appointments, send earlier when the hall actually needs him, and change tomorrow's call when new information arrives. The schedule is a work boundary and routing tool, not a claim on every hour Greg possesses.
+
 ## Spoken rhythm
 
 Compressed. Often gives Greg only the next necessary fact.
@@ -30,6 +32,12 @@ Useful touring shapes include:
 - `Bring change.` when Greg buys bread with company copper;
 - `Because four days early doesn't pay.` when Greg treats arrival time as separate from route economics;
 - `Food?`, `Stable space?`, `Water?`, and similar terms during a low-cash booking negotiation.
+
+Useful local scheduling shapes include:
+- `Third bell.` as a default call rather than an invitation to arrive at breakfast;
+- `If I need you earlier, I'll send.` when actual need should override speculative availability;
+- `Morning, then.` when a known Guild appointment changes the next day's usable work window;
+- `Come back if you can still work.` when neither Rinna nor Greg can know the post-Guild condition in advance.
 
 She can speak at length when business pressure or procedure genuinely requires it, but ordinary routing should stay efficient.
 
@@ -64,6 +72,8 @@ At the street market, the company can receive a small fee while only people work
 
 Rinna does not need to explain every bucket to Greg unless his action crosses one.
 
+Chapters 191-200 also keep local pay functional rather than symbolic. One ordinary local house can mean one copper; two houses can mean two copper. Front, set, role count, runner mistakes, or schedule compliance do not each become separate pay categories just because Greg can name them.
+
 ## Food and lodging as work resources
 
 Rinna is especially good at converting temporary abundance into future usefulness.
@@ -97,6 +107,23 @@ She can say `Possible` without meaning yes.
 
 A route is not good merely because it is short. A booking is not good merely because it pays something. The useful question is whether the current mix keeps the company solvent and moving.
 
+## Local scheduling / availability
+
+Chapters 198-200 make a previously informal pattern explicit.
+
+Greg has enough recurring work that Rinna can give him a default call rather than letting him hover at the hall all morning in case somebody needs him. The first durable form is:
+- third bell by default;
+- Rinna sends earlier if the theatre actually needs him;
+- Greg reports a Guild summons when possible;
+- a known Guild appointment can move the theatre call to morning;
+- after the Guild, Greg may return if he can still work and Rinna decides he is useful.
+
+This does **not** make Greg salaried, permanently cast, or owned by the company. It makes his availability routable.
+
+The schedule is allowed to change because its purpose is coordination. `Third bell` is not a sacred rule once better information exists. Rinna changing tomorrow to `Morning, then` is the schedule functioning correctly, not breaking.
+
+Do not turn this into formal bureaucracy. The actual system can live on a small slate, a chalk mark beside Greg's name, one default time, and a few compressed exceptions.
+
 ## Humor
 
 Dry by consequence more than performance. She does not need to play Greg's or Marek's game.
@@ -106,7 +133,8 @@ A flat answer can be funnier than a crafted comeback.
 Examples:
 - `No, Gregory. For a private bread collection.` when Greg asks whether company bread is for the company;
 - repeatedly denying Marek access to food already allocated to travel;
-- `You remain expensive.` when Marek insists he remains company.
+- `You remain expensive.` when Marek insists he remains company;
+- writing `Complains` beside Greg's name after he objects to the administrative burden of having a schedule.
 
 Her jokes should still come from work reality.
 
@@ -137,6 +165,8 @@ Examples of shape:
 
 She can learn from ordinary service workers without ceremony. A kitchen answer about what food will spoil tomorrow can become a company provisioning decision immediately.
 
+The same routing principle applies to Greg's Guild work. Rinna does not need Hessa's method or medical reasoning. She needs the practical scheduling consequence: when Greg is unavailable, whether he can return, and whether he can still work.
+
 ## With Greg
 
 She increasingly trusts Greg enough to give compressed instructions, but this should feel like reduced onboarding rather than praise.
@@ -148,7 +178,14 @@ Touring examples:
 - `You remembered.` when he nearly pockets company change but corrects himself;
 - letting him carry simple company errands once he has proven he can keep personal and company money separate.
 
-She may also exploit his availability because the theatre is a workplace and he has proven useful.
+Local examples through Chapters 191-200:
+- assigning roles outright rather than always framing Greg as emergency coverage;
+- sending him away when he arrives before the actual call;
+- giving him a default third-bell schedule once his recurring availability becomes worth coordinating;
+- changing that schedule when a known Guild appointment changes the usable work window;
+- paying by actual house/work rather than rewarding the number of job nouns Greg can list.
+
+She may also exploit his availability because the theatre is a workplace and he has proven useful. The schedule prevents that useful fact from silently becoming all-day ownership.
 
 ## Canon lines / fingerprints
 
@@ -161,10 +198,15 @@ She may also exploit his availability because the theatre is a workplace and he 
 - **CANON LINE:** `Bring change.`
 - **CANON LINE:** `Because four days early doesn't pay.`
 - **CANON LINE:** `You remain expensive.`
+- **CANON LINE:** `Third bell.` as a default local call.
+- **CANON LINE:** `If I need you earlier, I'll send.`
+- **CANON LINE:** `Morning, then.` when known Guild timing changes tomorrow's theatre window.
 - **CANON PATTERN:** converts private-house leftovers and included meals/lodging into reduced future road cost.
 - **CANON PATTERN:** tracks company cash separately from performer pocket money.
 - **CANON PATTERN:** uses Davin's road judgment as an input without pretending to own road engineering.
 - **CANON PATTERN:** can accept a low-cash job when food, floor, collection, route position, and next-stop need make the whole package workable.
+- **CANON PATTERN:** turns recurring availability into a lightweight schedule without converting that schedule into ownership of Greg's whole day.
+- **CANON PATTERN:** changes a schedule when better information arrives because coordination, not ritual, is the point.
 
 ## Voice tests — NON-CANON
 
@@ -183,6 +225,8 @@ Rinna and Teren both negotiate and route company consequence. Difference: Teren 
 
 Rinna and Davin can both talk about road viability. Davin reads the physical road, wheel, load, and hardware. Rinna reads what that physical answer does to timing, food, tolls, and booking feasibility.
 
+Rinna and Hessa can both change Greg's day, but for different reasons. Hessa controls whether and when supervised magic work occurs. Rinna routes theatre availability around that fact without inheriting Hessa's evidence or safety authority.
+
 ## Watch list
 
 Avoid:
@@ -195,4 +239,6 @@ Avoid:
 - treating every in-kind term as automatically good merely because it is free;
 - treating company money as everyone's pocket money;
 - making her a road engineer because she can use Davin's road answer;
-- making her explain the full company budget whenever Greg asks one small money question.
+- making her explain the full company budget whenever Greg asks one small money question;
+- treating `third bell` as immutable once a real scheduling conflict changes tomorrow's usable work window;
+- treating Greg's default call time as a permanent contract, promotion, or ownership of his unscheduled hours.
