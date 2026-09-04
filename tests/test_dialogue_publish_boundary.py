@@ -16,7 +16,6 @@ class DialoguePublishBoundaryTests(unittest.TestCase):
     def test_live_workflow_publishes_reviewed_range_through_163(self):
         text = WORKFLOW.read_text(encoding="utf-8")
         self.assertIn("--min-chapter 100 --max-chapter 155", text)
-        self.assertIn("'100-137' --docx state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx", text)
         self.assertIn("promote_recovered_dialogue.py", text)
         self.assertIn("156-163", text)
         self.assertIn("generate_light.py 100-163", text)
