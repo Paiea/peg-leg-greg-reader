@@ -57,6 +57,40 @@ Progression should show through:
 
 Do not force all of these at once.
 
+## Economic ratchet
+
+Economic progression should have memory.
+
+Once Greg has repeatedly demonstrated that a price tier is ordinary for his current life, later prose should not suddenly treat the same tier as existential unless the story has actually established a meaningful setback.
+
+Think of this as a **soft ratchet**, not a hard mathematical floor.
+
+Examples:
+- If one-copper work has become obtainable and one-copper tools/purchases have already been survivable, a later one-copper choice should usually be framed as value, preference, timing, or liquidity rather than panic.
+- If bits have repeatedly covered food, baths, entertainment, or marginal transport, individual bit-level decisions should often become background unless Greg is deliberately counting because of a specific constraint.
+- If Greg begins receiving multi-copper work or dealing in higher-value tools later, one-copper transactions should become even less narratively heavy.
+
+The ratchet can move backward only when the manuscript establishes a real reason: major debt enforcement, sustained unemployment, loss/theft, expensive injury, household crisis, failed capital purchase, legal seizure, or another concrete economic shock. A purse snapshot alone is not enough.
+
+## Progression needs some absolute movement too
+
+Do not reduce economic growth to psychology only.
+
+Across long enough spans, at least some objective layer should improve unless the story is intentionally in a downturn:
+- average quality of available work;
+- size of credible paid opportunities;
+- frequency/reliability of offers;
+- reserve/buffer;
+- total useful assets;
+- debt-to-earning-pressure ratio;
+- bargaining power;
+- ability to spend on nonessentials;
+- access to larger-value markets, tools, or contracts.
+
+Not every 20–40 chapter window needs a raise. But if hundreds of chapters pass and Greg is still repeatedly living inside the same one-copper crisis logic, the economy has stopped accumulating even if everything else has not.
+
+A good long-run shape is **stair-step accumulation**: plateaus, purchases, temporary dips, recoveries, and occasional new economic tiers.
+
 ## Prices should stay locally coherent while Greg changes
 
 Do not create progression by inflating the whole world around Greg.
@@ -132,6 +166,7 @@ Before giving a price narrative emphasis, ask:
 3. Does paying it block something else specific?
 4. Is the choice important because of money, or because of value/preference/pride/risk?
 5. Would Greg from 100 chapters earlier react differently? If yes, has the prose allowed his economic behavior to progress?
+6. Has this denomination/price tier already become ordinary enough that the economic ratchet should reduce its emotional weight?
 
 A price can matter without producing anxiety.
 
@@ -190,8 +225,9 @@ When a new chapter contains a meaningful price, wage, fee, debt credit, bid, or 
 2. Check this file's recent anchors.
 3. Find at least one comparable prior transaction when practical.
 4. Decide whether the new number is ordinary, favorable, expensive, specialist, subsidized, distressed, bundled, or otherwise context-specific.
-5. Calibrate Greg's reaction against his current economic stage.
-6. Record only materially useful new anchors here or in current state. Do not turn this into an exhaustive accounting ledger.
+5. Calibrate Greg's reaction against his current economic stage and ratchet.
+6. Ask whether the scene should expose a genuinely higher-value tier instead of recycling tiny-stakes scarcity.
+7. Record only materially useful new anchors here or in current state. Do not turn this into an exhaustive accounting ledger.
 
 ## Economic logic pass
 
@@ -203,6 +239,7 @@ Goal:
 - identify transactions whose price category changed without explanation;
 - preserve intentionally unusual deals;
 - strengthen the felt upward progression of Greg's economic life;
+- identify where a later-era transaction should have moved into a larger tier rather than repeating an old small-money beat;
 - avoid rewriting hundreds of scenes into a rigid spreadsheet economy.
 
 Prioritize scenes where money drives behavior. Background prices that create no contradiction can remain untouched.
@@ -212,5 +249,7 @@ Prioritize scenes where money drives behavior. Background prices that create no 
 From Chapter 321 onward, do not use Greg's current `one copper + zero bits` snapshot as shorthand for destitution.
 
 It is a liquidity fact after chosen spending and tied-up capital. It should create selective constraint, not erase earned economic progression.
+
+One copper is currently a **small but real** amount in Greg's economic life, not an automatic crisis amount. Future prose can make a one-copper choice matter when there is a specific reason, but should not rely on the denomination alone to manufacture stakes.
 
 Let future economic improvement emerge naturally through better access, better work, accumulated assets, reduced relative debt pressure, and occasional larger transactions. Do not immediately hand Greg compensatory cash merely to prove the new rule.
