@@ -94,8 +94,11 @@ def _target_lines(patch: Patch) -> list[str]:
     if 'replace after' in lowered:
         anchors = re.findall(r'`([^`]+)`', directive)
         for anchor in reversed(anchors):
-            if anchor in patch.current:
-                idx = patch.current.index(anchor)
+            matching = [idx for idx, line in enumerate(patch.current) if anchor in line]
+            if len(matching) > 1:
+                raise AssertionError(f'{patch.patch_id}: directive anchor {anchor!r} is ambiguous')
+            if len(matching) == 1:
+                idx = matching[0]
                 if idx + 1 < len(patch.current):
                     return patch.current[idx + 1:]
 
