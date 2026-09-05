@@ -98,6 +98,13 @@ class ReaderFrontierTests(unittest.TestCase):
             with self.assertRaisesRegex(AssertionError, 'Illustrated page does not link matching Text chapter'):
                 verify_reader_frontier(root)
 
+    def test_rejects_missing_text_to_illustrated_frontier_link(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.write_frontier(root, text_to_illustrated=False)
+            with self.assertRaisesRegex(AssertionError, 'Text page does not link matching Illustrated chapter'):
+                verify_reader_frontier(root)
+
 
 if __name__ == '__main__':
     unittest.main()
