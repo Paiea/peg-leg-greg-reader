@@ -148,9 +148,10 @@ def render_book_sections(chapter_links: dict[int, str], *, illustrated: bool, op
             )
 
         open_attr = ' open' if is_latest_book else ''
+        current_attr = ' aria-current="true"' if is_latest_book else ''
         rendered.append(
             f'<details class="reader-book"{open_attr}>'
-            f'<summary class="reader-book-summary" id="{book.slug}-heading">'
+            f'<summary class="reader-book-summary" id="{book.slug}-heading"{current_attr}>'
             f'<span class="reader-book-title">{escape(book.numeral)}</span>'
             f'<span class="reader-book-range">{escape(book.range_label(latest))}</span>'
             f'</summary>'
