@@ -11,7 +11,7 @@ from generate_light import Chapter, load_all_sources, selected_numbers
 
 CHAPTERS_DIR = Path("chapters")
 ART_ROOT = Path("visual/chapter_art")
-ART_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}
+ART_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".svg"}
 
 
 def chapter_art(number: int) -> list[Path]:
