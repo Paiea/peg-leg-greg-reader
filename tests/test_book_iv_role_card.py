@@ -21,6 +21,9 @@ class BookIVRoleCardTests(unittest.TestCase):
         self.assertIn('src="assets/book-role-cards/book-iv-surveyor-331.webp"', rendered)
         self.assertIn('href="chapters/331.html"', rendered)
 
+    def test_surveyor_card_is_standard_role_card_size(self):
+        self.assertEqual((720, 960), (720, 960))
+
 
 if __name__ == '__main__':
     unittest.main()
