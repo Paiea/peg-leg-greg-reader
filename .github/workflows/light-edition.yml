@@ -20,12 +20,14 @@ on:
       - 'scripts/reader_sections.py'
       - 'scripts/update_home_contents.py'
       - 'scripts/verify_light.py'
+      - 'scripts/verify_reader_frontier.py'
       - 'scripts/update_reader_navigation.py'
       - 'scripts/update_reader_presentation.py'
       - 'tests/test_*.py'
       - 'assets/reader.css'
       - 'assets/light.css'
       - 'assets/book-contents.css'
+      - 'assets/book-contents-base.css'
       - 'assets/book-role-cards/**'
       - 'assets/light-progress.js'
       - 'assets/light-reader.js'
@@ -72,6 +74,7 @@ jobs:
         run: |
           python scripts/verify_light.py 156-219
           python scripts/verify_light.py current
+          python scripts/verify_reader_frontier.py
           test -f light/156.html
           test -f light/219.html
           test -f light/220.html
@@ -79,7 +82,6 @@ jobs:
           test -f light/manifest.json
           test -f latest.html
           test -f chapters/321.html
-          test -f chapters/343.html
           ! grep -R '<img' light/*.html
           ! grep -R 'Peg_Leg_Greg_Running_Manuscript.md' light/*.html
           ! grep -R 'Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md' light/*.html
@@ -89,18 +91,22 @@ jobs:
           grep -q 'BOOK I' index.html
           grep -q 'BOOK II' index.html
           grep -q 'BOOK III' index.html
+          grep -q 'BOOK IV' index.html
           grep -q 'THE SECOND LIFE' index.html
           grep -q 'THE STAGE DOOR' index.html
           grep -q 'THE COMPANY ROAD' index.html
           grep -q 'THE WORKING COMPANY' index.html
           grep -q 'THE PRICE OF ATTENTION' index.html
+          grep -q 'BEYOND THE DOOR' index.html
           grep -q 'assets/book-contents.css' index.html
           grep -q 'BOOK I' light/index.html
           grep -q 'BOOK II' light/index.html
           grep -q 'BOOK III' light/index.html
+          grep -q 'BOOK IV' light/index.html
           grep -q 'THE STAGE DOOR' light/index.html
           grep -q 'THE WORKING COMPANY' light/index.html
           grep -q 'THE PRICE OF ATTENTION' light/index.html
+          grep -q 'BEYOND THE DOOR' light/index.html
           grep -q '../assets/book-contents.css' light/index.html
           grep -q 'Text Reader' light/index.html
           grep -q 'Illustrated Reader' light/index.html
