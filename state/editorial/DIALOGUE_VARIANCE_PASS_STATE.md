@@ -49,14 +49,14 @@ Other characters may be funny, dry, clever, sarcastic, or terse. The goal is not
 
 ## Sequential coverage ledger
 
-- Chapters **1-45: VARIANCE REVIEWED**
-- Chapters **46-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-50: VARIANCE REVIEWED**
+- Chapters **51-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 46**
+Current sequential variance edge: **Chapter 51**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_041_045.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_046_050.md`
 
 Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_001_005.md`
@@ -68,12 +68,13 @@ Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_031_035.md`
 - `state/editorial/dialogue-variance-pass/BATCH_036_040.md`
 - `state/editorial/dialogue-variance-pass/BATCH_041_045.md`
+- `state/editorial/dialogue-variance-pass/BATCH_046_050.md`
 
 Existing out-of-sequence pilot work:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches remain useful evidence but do not bridge the unreviewed 46-320 gap.
+Those later batches remain useful evidence but do not bridge the unreviewed 51-320 gap.
 
 ## Chapters 1-5 result
 
@@ -147,6 +148,14 @@ Those later batches remain useful evidence but do not bridge the unreviewed 46-3
 - Chapter 44 `THE PATIENT`: **moderate variance patch required**. Hessa remains clean. Holl's commercial tolerance voice is strong, but the late process-redesign exchange gives a first substantial acquaintance too much predicted-question/`No` machinery. Make the boundary about shop time and the actual one-operator test bottleneck.
 - Chapter 45 `THE ESCORT`: **light variance patch required**. Pessa/Merrit/Sova road ecology is healthy. Replace Dorn's first-day `Face said maybe` with a literal boundary around the onion Greg just used as an example.
 
+## Chapters 46-50 result
+
+- Chapter 46 `THE FRIEND`: **moderate variance patch required**. Greg/Jorren chemistry is earned, but replace another generic `face` shortcut with the concrete fact that Greg is counting Jorren's copper. Tam's first substantial meeting should protect the current shoe-work sequence rather than predict Greg's next question.
+- Chapter 47 `THE SECOND`: **no variance change required**. Sevren's route logic, incomplete answers, current-ground decisions, informal messages, and practical uncertainty remain distinct. `Octavia said you stare` is low-resolution secondhand social information, not psychological omniscience.
+- Chapter 48 `THE COMPANION`: **moderate variance patch required**. Lio/Sevren stove work is healthy. Reduce the precision of Lio's secondhand Greg legend and replace one Greg/Sevren predicted-line beat with the actual cleared stair obstruction.
+- Chapter 49 `THE TESTER`: **moderate variance patch required**. Arlo/Greg/Vessa technical collaboration is earned, but Vessa's repeated `No` should yield to concrete glaze-firing capacity and hot-line scheduling where available.
+- Chapter 50 `THE RECORDER`: **light variance patch required**. Thermal-test dialogue is healthy; replace Jorren's final explicit `face` shorthand with the specific observable lapse that Greg stopped hearing the street while staring at soup.
+
 ## High-value watch targets
 
 ### 1. Incidental stranger optimization
@@ -183,7 +192,7 @@ Relationship-owned convergence can increase while cast-wide convergence decrease
 One person learning Greg's tells can be relationship evidence. Everyone learning `the face` becomes project-wide shorthand.
 
 ### 12. Role authority should sound like responsibility, not universal cleverness
-Useful discriminators include clerk/assignment, Edrin/custody, Jorren/feet and fatigue, Octavia/freight, Ressa/intake, Doven/current command problem, Iris/rescue route, healer/symptoms, Arlo/mechanism, Rusk/scope, Etta/worksite objective, Dorrin/grade-price-customer boundary, Holl/sale band and shop time, Pessa/road continuity.
+Useful discriminators include clerk/assignment, Edrin/custody, Jorren/feet and fatigue, Octavia/freight, Ressa/intake, Doven/current command problem, Iris/rescue route, healer/symptoms, Arlo/mechanism, Rusk/scope, Etta/worksite objective, Dorrin/grade-price-customer boundary, Holl/sale band and shop time, Pessa/road continuity, Sevren/route and handoff, Tam/customer use and current craft sequence, Vessa/shop capacity and fabrication.
 
 ### 13. Relationship calibration should have a ramp
 A recurring character may eventually learn Greg's tells and timing. First contact should usually begin with role, request, shared task, or ordinary social uncertainty.
@@ -230,8 +239,6 @@ Arlo's `depends`, Rusk's `No`, Hessa's claim-narrowing, and Jorren's physical co
 ### 27. First-contact perceptiveness should be expensive
 A stranger can notice obvious behavior. They should not instantly possess the same interpretive shorthand as Greg's closest recurring relationships.
 
-Prefer where Greg is standing, what he holds, what he just asked, whether he stopped moving, whether he is staring, and whether he is interrupting the work.
-
 ### 28. Commercial boundaries are a distinct voice engine
 Dorrin and Holl are strongest when protecting transactions, customer information, sale bands, shop time, and product promises. That differs from Hessa's evidence limits and Antonius's exposure/repayment control.
 
@@ -242,7 +249,22 @@ Rusk assigns, Mevi demonstrates, Holl returns to the current test, and Pessa kee
 Repeated short language is not automatically convergence. The question is whether it carries a real decision or merely familiar comic punctuation.
 
 ### 31. Mundane complications create voice for free
-Wrong offices, chickens, storage fees, hot wheels, dogs, pigs, onions, wet cases, and awkward cargo interfaces force people to respond from ordinary priorities. Protect that texture.
+Wrong offices, chickens, storage fees, hot wheels, dogs, pigs, onions, wet cases, awkward cargo interfaces, boots, tables, stoves, and lost gloves force people to respond from ordinary priorities. Protect that texture.
+
+### 32. Secondhand reputation should stay lower resolution than lived relationship
+It is healthy for the city to talk about Greg when he is absent. A new person may hear that he stares, asks too many questions, carries odd objects, or gets involved in strange jobs. That should not automatically grant a precise model of what his expression means or what sentence comes next.
+
+### 33. Dry friendship chemistry can survive removal of shared shorthand
+Jorren and Greg, or Greg and Sevren, can remain fast and funny without relying on `the face`, predictive `No`, or perfect sentence prediction. Concrete habits and shared history are richer.
+
+### 34. Workshop authority is sequencing plus capacity
+Vessa's strongest boundaries are what can safely happen during the current firing, which production variable changed, what the shop is already doing, and when another test fits. Arlo's strongest boundaries are mechanism, fixture, customer use, and next worthwhile test.
+
+### 35. No-change chapters are positive evidence
+A clean chapter should stay clean. Chapter 47 demonstrates that a character can be terse, funny, and competent while still remaining cognitively distinct. Do not patch to meet a quota.
+
+### 36. Mild disagreement can remain unresolved
+Greg and Sevren can disagree about path planning versus solving obstructions as they appear. The story does not need to crown one philosophy. Both methods can contribute to getting the stove downstairs.
 
 ## Guardrails
 
@@ -274,11 +296,11 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 46**.
+Resume sequentially at **Chapter 51**.
 
 Preferred bounded queue: **5 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 46-50**.
+Next intended batch: **Chapters 51-55**.
 
 ## Restart prompt
 
