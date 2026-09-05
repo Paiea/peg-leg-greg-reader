@@ -72,6 +72,11 @@ def verify_reader_frontier(
     if f'href="../chapters/{latest:03d}.html"' not in light_text:
         raise AssertionError('Text page does not link matching Illustrated chapter')
 
+    if 'rel="next"' in illustrated_text:
+        raise AssertionError('Illustrated latest next link should be disabled')
+    if 'rel="next"' in light_text:
+        raise AssertionError('Text latest next link should be disabled')
+
     if latest > 1:
         previous = latest - 1
         expected_previous = f'rel="prev" href="{previous:03d}.html"'
@@ -79,6 +84,20 @@ def verify_reader_frontier(
             raise AssertionError('Illustrated latest previous link is stale')
         if expected_previous not in light_text:
             raise AssertionError('Text latest previous link is stale')
+
+        illustrated_previous_page = root / 'chapters' / f'{previous:03d}.html'
+        text_previous_page = root / 'light' / f'{previous:03d}.html'
+        if not illustrated_previous_page.is_file():
+            raise AssertionError('missing Illustrated penultimate page')
+        if not text_previous_page.is_file():
+            raise AssertionError('missing Text penultimate page')
+        illustrated_previous_text = illustrated_previous_page.read_text(encoding='utf-8')
+        text_previous_text = text_previous_page.read_text(encoding='utf-8')
+        expected_next = f'rel="next" href="{latest:03d}.html"'
+        if expected_next not in illustrated_previous_text:
+            raise AssertionError('Illustrated penultimate next link is stale')
+        if expected_next not in text_previous_text:
+            raise AssertionError('Text penultimate next link is stale')
 
     index_text = (root / 'index.html').read_text(encoding='utf-8')
     light_index_text = (root / 'light' / 'index.html').read_text(encoding='utf-8')
@@ -97,6 +116,13 @@ def verify_reader_frontier(
         raise AssertionError('Illustrated index does not link the latest chapter')
     if f'href="{latest:03d}.html">Read newest · Chapter {latest}' not in light_index_text:
         raise AssertionError('Text index newest-chapter action is stale')
+
+    latest_page = root / 'latest.html'
+    if not latest_page.is_file():
+        raise AssertionError('missing latest landing page')
+    latest_text = latest_page.read_text(encoding='utf-8')
+    if f'href="light/{latest:03d}.html"' not in latest_text or f'Read Chapter {latest}' not in latest_text:
+        raise AssertionError('Latest landing page is stale')
 
     return latest
 
