@@ -5,11 +5,13 @@ import argparse
 import re
 from pathlib import Path
 
-LIGHT_ACTION = '<a class="secondary-action" href="light/index.html">Text Reader</a>'
+TEXT_ACTION = '<a class="secondary-action" href="light/index.html">Text Reader</a>'
+ILLUSTRATED_ACTION = '<a class="secondary-action" href="#books">Illustrated Reader</a>'
+ILLUSTRATIONS_ACTION = '<a class="tertiary-action" href="art.html">Illustrations</a>'
 BEGIN_ACTION = '<a class="start primary-action" href="chapters/001.html">Begin Reading</a>'
-LIGHT_ACTION_RE = re.compile(
-    r'<a class="secondary-action" href="light/index\.html">(?:Read Light|Text Reader)</a>'
-)
+TEXT_ACTION_RE = re.compile(r'<a class="secondary-action" href="light/index\.html">(?:Read Light|Text Reader)</a>')
+LEGACY_CONTENTS_RE = re.compile(r'<a class="secondary-action" href="#(?:chapters|books)">(?:Chapters|Illustrated Reader)</a>')
+ART_RE = re.compile(r'<a class="tertiary-action" href="art\.html">Illustrations</a>')
 
 
 def patch_home(path: Path) -> bool:
@@ -17,11 +19,11 @@ def patch_home(path: Path) -> bool:
     if BEGIN_ACTION not in original:
         raise SystemExit(f'could not find homepage Begin Reading action in {path}')
 
-    # The public-label normalization pass renames the historical "Read Light"
-    # label to "Text Reader". Remove either spelling first so repeated builds are
-    # idempotent instead of appending another link on every run.
-    updated = LIGHT_ACTION_RE.sub('', original)
-    updated = updated.replace(BEGIN_ACTION, BEGIN_ACTION + LIGHT_ACTION, 1)
+    updated = TEXT_ACTION_RE.sub('', original)
+    updated = LEGACY_CONTENTS_RE.sub('', updated)
+    updated = ART_RE.sub('', updated)
+    actions = BEGIN_ACTION + TEXT_ACTION + ILLUSTRATED_ACTION + ILLUSTRATIONS_ACTION
+    updated = updated.replace(BEGIN_ACTION, actions, 1)
 
     if updated == original:
         return False
@@ -30,7 +32,7 @@ def patch_home(path: Path) -> bool:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description='Keep homepage cross-mode reading navigation current.')
+    parser = argparse.ArgumentParser(description='Keep homepage reading-mode navigation current.')
     parser.add_argument('homepage', nargs='?', default='index.html')
     args = parser.parse_args()
     changed = patch_home(Path(args.homepage))
