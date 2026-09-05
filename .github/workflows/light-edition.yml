@@ -120,12 +120,16 @@ jobs:
           grep -q 'Illustrated Reader' light/index.html
           grep -q 'TEXT READER · CHAPTER 220' light/220.html
           grep -q 'Text-only reading · no chapter illustrations' light/220.html
-          if grep -R '#chapters' light/*.html light.html latest.html index.html assets/light-progress.js; then
+          if grep -R '#chapters' light/*.html light.html latest.html index.html assets/light-progress.js assets/light-reader.js; then
             echo 'stale #chapters anchor detected'
             exit 1
           fi
-          if grep -R 'Light Edition' light/*.html light.html latest.html index.html; then
+          if grep -R 'Light Edition' light/*.html light.html latest.html index.html assets/light-reader.js; then
             echo 'stale Light Edition label detected'
+            exit 1
+          fi
+          if grep -E 'Peg-Leg Greg Light| · LIGHT|Light chapter list' assets/light-reader.js; then
+            echo 'stale fallback reader vocabulary detected'
             exit 1
           fi
           if grep -R '>LIGHT<' light/*.html light.html latest.html index.html; then
