@@ -15,6 +15,7 @@ on:
       - 'chapters/*.html'
       - 'index.html'
       - 'scripts/generate_light.py'
+      - 'scripts/generate_illustrated.py'
       - 'scripts/normalize_reader_labels.py'
       - 'scripts/reader_sections.py'
       - 'scripts/update_home_contents.py'
@@ -29,6 +30,7 @@ on:
       - 'assets/light-progress.js'
       - 'assets/light-reader.js'
       - 'visual/book_plates/**'
+      - 'visual/chapter_art/**'
       - 'light.html'
       - '.github/workflows/light-edition.yml'
   workflow_dispatch:
@@ -58,6 +60,8 @@ jobs:
         run: python scripts/generate_light.py 156-219
       - name: Generate current Light range
         run: python scripts/generate_light.py current
+      - name: Generate current Illustrated range
+        run: python scripts/generate_illustrated.py current
       - name: Update illustrated contents and cross-mode navigation
         run: |
           python scripts/update_reader_navigation.py index.html
@@ -74,6 +78,8 @@ jobs:
           test -f light/index.html
           test -f light/manifest.json
           test -f latest.html
+          test -f chapters/321.html
+          test -f chapters/343.html
           ! grep -R '<img' light/*.html
           ! grep -R 'Peg_Leg_Greg_Running_Manuscript.md' light/*.html
           ! grep -R 'Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md' light/*.html
@@ -108,12 +114,12 @@ jobs:
       - name: Commit generated reader presentation derivatives
         if: github.ref == 'refs/heads/main'
         run: |
-          if git diff --quiet -- light light.html latest.html index.html assets/reader.css; then
+          if git diff --quiet -- chapters light light.html latest.html index.html assets/reader.css; then
             echo 'Reader presentation already current.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add light light.html latest.html index.html assets/reader.css
+          git add chapters light light.html latest.html index.html assets/reader.css
           git commit -m 'Refresh reader presentation'
           git push
