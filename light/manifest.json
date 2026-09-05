@@ -1,5 +1,5 @@
 {
-  "latest": 347,
+  "latest": 348,
   "chapters": [
     {
       "number": 100,
@@ -1488,6 +1488,12 @@
       "title": "THE GATE HAND",
       "source": "checkpoint",
       "path": "347.html"
+    },
+    {
+      "number": 348,
+      "title": "THE CLEARER",
+      "source": "checkpoint",
+      "path": "348.html"
     }
   ]
 }
