@@ -6,11 +6,11 @@ Status: **ACTIVE WIP**
 
 Current manuscript scope: **Chapters 1-352**
 
-Current verified editorial review edge: **Chapter 325**
+Current verified editorial review edge: **Chapter 330**
 
-Next exact chapter: **Chapter 326**
+Next exact chapter: **Chapter 331**
 
-Latest durable batch: `state/editorial/dialogue-pass/BATCH_321_325.md`
+Latest durable batch: `state/editorial/dialogue-pass/BATCH_326_330.md`
 
 ## Active goal
 
@@ -105,22 +105,23 @@ Do not claim a chapter is covered until exact source was reviewed and the durabl
 
 ## Coverage ledger
 
-- Chapters **1-325: VERIFIED REVIEWED** through durable batch artifacts.
-- Chapters **326-352: NOT YET REVIEWED** by this pass.
+- Chapters **1-330: VERIFIED REVIEWED** through durable batch artifacts.
+- Chapters **331-352: NOT YET REVIEWED** by this pass.
 - Chapters **1-163** were previously recorded as published dialogue/attribution work on `main` via PR #47 in the older state. Do not assume later staged patches are live merely because their reviews exist.
 - Chapters **202-320** already had durable review artifacts before the dialogue-variance continuation; the old state file incorrectly still pointed to Chapter 202.
 - Chapter **320** is durably recorded in `BATCH_320.md` as no change required under the expanded review rubric.
 - Chapters **321-325** are durably reviewed in `BATCH_321_325.md`.
+- Chapters **326-330** are durably reviewed in `BATCH_326_330.md`.
 
-### Latest 321-325 result
+### Latest 326-330 result
 
-- 321 `THE REFEREE`: **NO CHANGE REQUIRED**. Child speech is clipped for age/game cognition, not Greg contamination.
-- 322 `THE BIDDER`: **NO HARD CHANGE REQUIRED**. Rusk's dryness remains occupationally bounded and does not dominate the scene.
-- 323 `THE HELD WEIGHT`: **VOICE PATCH REQUIRED**. Davin/Jessa/Mera/Greg workplace dialogue shows clear comic-register convergence during active danger. Preserve one post-danger fear-humor release; de-optimize selected procedural volleys.
-- 324 `THE PRICE`: **VOICE PATCH REQUIRED**. Mara Quill legitimately owns precision and limits, but matches Greg's dry counterpunch timing too consistently. Preserve occupationally specific wit while expanding selected answers through assessor/provenance cognition.
-- 325 `THE NIGHT LINE`: **LIGHT VOICE PATCH**. Most crowd dialogue is usefully asymmetrical; Sel should more often answer from procedure/crowd-work experience rather than match Greg's joke timing.
+- 326 `THE LOT`: **DIALOGUE-VARIANCE PATCH REQUIRED**. Preserve household and old-seller dryness; de-optimize the incidental fruit seller so Greg owns the compressed joke.
+- 327 `THE LAST DOOR`: **2 DIALOGUE-VARIANCE PATCHES REQUIRED**. Front clerk and tally-room worker should answer more from routing/ledger procedure and less from perfect Greg-compatible counterpunch timing.
+- 328 `THE WRONG DOOR`: **NO CHANGE REQUIRED**. Nessa/Marek/Jori dryness is relationship- and work-earned, with distinct cognitive ownership underneath similar short line lengths.
+- 329 `THE WAY OUT`: **NO CHANGE REQUIRED**. Emergency pressure suppresses cleverness appropriately and produces differentiated household, fear, and municipal-response speech.
+- 330 `THE BACK DOOR`: **NO CHANGE REQUIRED**. Linewright uncertainty is infrastructure-specific rather than Hessa imitation; Cala's tenant pressure and Senna's visual/business lane remain distinct.
 
-No hard speaker-assignment errors were found in 321-325.
+No hard speaker-assignment errors were found in 326-330.
 
 ## High-value findings to carry forward
 
@@ -134,6 +135,9 @@ No hard speaker-assignment errors were found in 321-325.
 - Hazardous multi-person work with short commands needs heavier attribution when ownership of the physical system is unclear.
 - Stable two-person scenes can stay light once rhythm is established; re-tag after phase changes.
 - Professional jurisdiction, object handling, and scene task often separate voices better than decorative diction.
+- **Incidental-stranger optimization is now a high-value watch target.** One-scene clerks, sellers, couriers, and passersby should not automatically know how to volley with Greg unless their job, state, or personality independently supports it.
+- Shared dryness among recurring characters is acceptable when the underlying engines differ. Nessa stops downstream physical mistakes; Marek preserves social momentum; Greg analyzes the rule.
+- Specialist qualification can resemble Hessa on the surface without being contamination when the professional reference system is different, as with the Chapter 330 linewright's seat/load/bypass reasoning.
 
 ## Identity cautions
 
@@ -145,6 +149,7 @@ Carry forward especially:
 - Earlier unnamed soot-shirt worker and later named male Davin remain separate unless stronger continuity proves otherwise.
 - `SERRA.md`, `SERA.md`, and `SERA_DAIN.md` remain separate authorities unless exact prose proves otherwise.
 - Chapter 323 introduces/names a Kiln cooperative worker **Jessa**. Existing `state/voices/JESSA.md` centers a garment/material-workflow Jessa associated with Lyssa/Marra. Do not apply that page to the Kiln worker or merge the identities without exact continuity evidence.
+- Chapter 330 continues Senna from Chapter 320, but no durable `SENNA.md` exists on this branch. Do not create one solely to satisfy the machinery. If later recurrence adds enough repeated evidence, use Chapters 320 and 330 as the starting observational/business baseline.
 
 ## Voice authority
 
@@ -170,7 +175,7 @@ A chapter counts as reviewed only after:
 
 ## Current trailhead
 
-Resume at **Chapter 326** using exact current-main checkpoint authority.
+Resume at **Chapter 331** using exact current-main checkpoint authority.
 
 Continue forward sequentially through Chapter 352 unless newer exact main authority advances the endpoint first.
 
