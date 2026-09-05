@@ -50,6 +50,15 @@ Reason: test
         self.assertIn('<p>"New."</p>', changed)
         self.assertIn('<p>"Still new."</p>', changed)
 
+    def test_matches_ascii_ledger_quotes_against_curly_reader_quotes(self):
+        html = '<article class="prose"><p>“Old.”</p><p>“Still old.”</p></article>'
+        patch = adv.Patch(21, '21.V1', ['"Old."', '"Still old."'], ['"New."', '"Still new."'], '')
+        changed = adv.apply_patch_to_html(html, patch)
+        self.assertIn('<p>“New.”</p>', changed)
+        self.assertIn('<p>“Still new.”</p>', changed)
+        self.assertNotIn('"New."', changed)
+        self.assertEqual(changed, adv.apply_patch_to_html(changed, patch))
+
     def test_replace_after_anchor_preserves_current_through_anchor(self):
         html = '<article class="prose"><p>"Tell me."</p><p>"Impossible."</p><p>"Good."</p><p>"That one."</p></article>'
         patch = adv.Patch(
