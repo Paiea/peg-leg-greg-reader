@@ -1,5 +1,5 @@
 {
-  "latest": 364,
+  "latest": 365,
   "chapters": [
     {
       "number": 100,
@@ -1590,6 +1590,12 @@
       "title": "THE DEBTOR",
       "source": "checkpoint",
       "path": "364.html"
+    },
+    {
+      "number": 365,
+      "title": "THE PARTNER",
+      "source": "checkpoint",
+      "path": "365.html"
     }
   ]
 }
