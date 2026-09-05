@@ -1,10 +1,10 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 343 - **THE DUE DATE**.
+- Current exact story endpoint: Chapter 344 - **THE QUIET GUEST**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249-343 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249-344 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500-4,000 words and clear 2,500 unless explicitly changed.
@@ -15,145 +15,150 @@
 - Apply economy, rhythm/artifact, market-intelligence, and pricing continuity when relevant.
 
 ## Current direction
-- Ch343 reactivates Vale debt as a concrete economic obligation rather than a crisis or villain beat.
-- Greg receives required account-review notice the morning after first paid theatre shift, waits for scheduled review instead of panic-chasing it, and learns the exact current account position.
-- The chapter changes Greg's economic scale: Vale debt and artifact opportunities now occupy comparable copper magnitudes, making liquidity/opportunity-cost decisions more meaningful.
-- Greg does NOT immediately spend new cash on Mara, an artifact basket, or Vale principal. Selectivity becomes active financial behavior rather than mere delay.
+- Ch344 completes the already-scheduled second theatre house shift but avoids repeating Ch342 crowd management by centering an artifact-bearing patron incident.
+- A patron arrives with a declared/registered **personal privacy clasp** whose active effect makes her face difficult to retain. During act one, the active effect appears to widen into a local sound-loss zone that also removes performance sound for nearby seats.
+- Theatre handles the incident institutionally and narrowly: Rinna sets house conditions, a public-building safety runner documents observed behavior, nobody pretends to know cause, and the owner retains the object inactive with advice to obtain inspection before public reuse.
+- Greg is a bounded witness, not investigator, examiner, detective, or magical authority.
+- The artifact engine expands through **other people's ownership** and aging/condition uncertainty rather than Greg acquiring another object.
 
 ## Money / capital
-- Greg begins and ends Ch343 with **3 private copper + 0 bits**.
-- No cash payment is required or made at Vale review.
-- Current Vale principal-equivalent balance is established as **26 copper equivalent remaining**.
-- Vale clerk states original recorded balance was **32c equivalent**, with **6c equivalent total credits posted** since opening, including Ch308's 1c service credit.
-- No penalty balance currently posted.
-- No fixed cash payment due before next review under current terms.
-- Copper cash payment currently reduces principal one-for-one in copper equivalent.
-- Bit payments, if made, are converted at Vale's posted office rate on payment day. Today's bit rate is NOT stated because Greg is not paying bits. This does NOT establish universal copper/bit conversion.
-- Greg deliberately does not pay 1c merely to reduce psychological discomfort. He records `DECIDE WITH OPPORTUNITY COST.`
-- Second theatre evening is scheduled for later the same day/night as review at 2c if completed, but remains unearned at Ch343 endpoint.
+- Greg begins Ch344 with **3 private copper + 0 bits**.
+- He completes second theatre house-route + late-reset shift and is paid exactly **2c cash after clear**.
+- Greg ends Ch344 with **5 private copper + 0 bits**.
+- No more theatre house nights are currently scheduled. Rinna says if theatre needs him, they will ask. No standing employment.
+- Vale principal-equivalent debt remains exactly **26c** after Ch343 review; Greg makes no payment in Ch344.
+- Mara simple holdfast observation remains 2c if simple. At 5c, Greg recognizes he could pay 2c and still retain 3c reserve, which feels materially more comfortable than doing so at 3c, but he still does not automatically schedule/test that night.
+- No copper/bit conversion newly established.
 
-## Vale account continuity
-- Review notice: `ACCOUNT REVIEW / THIRD DAY / AFTER MIDDAY / BRING RECEIPTS / NO PAYMENT REQUIRED AT REVIEW`.
-- Greg brings Ch308 Vale receipt; clerk verifies 1c service credit is posted and stamps old receipt VERIFIED.
-- Current account remains **service-credit eligible**.
-- Cash payment is accepted but not required under current terms.
-- Greg may request qualifying service opportunities when available. Vale may offer qualifying service.
-- Individual service opportunities may generally be refused unless written offer/original agreement marks them mandatory.
-- Greg has refused no mandatory service as of Ch343.
-- Current default categories read by clerk include death, flight from district without notice, fraudulent identity, refusal of contracted mandatory service when properly scheduled, and failure to attend two consecutive required reviews without arrangement, plus unspecified others not applicable in scene.
-- Greg is **not currently in default**.
-- No penalty pending.
-- Next routine review is **six weeks from Ch343 review date**, unless qualifying account event changes notice timing.
-- Possible earlier notice events include service scheduling, dispute, payment-posting error, default concern, or account transfer.
-- Vale can transfer **servicing rights** to an eligible registered account holder under original agreement. No transfer currently pending.
-- Greg's payment structure cannot be amended without his signature under clerk's reading; servicing holder may change. Do not broaden beyond established wording.
-- Exact original agreement full text remains unread in Ch343. Copy costs: current account summary 1 bit/page; original agreement 4 pages. Greg buys neither.
+## Second theatre shift
+- Existing terms from Ch342 are honored: house route + late reset, 2c after clear.
+- North-secondary closure no longer causes a late-arrival wave. Patrons have adapted via East Cut/lower route and arrive in smaller groups.
+- Routine house work is compressed/backgrounded: route checks, blue lamp, flower-frame pocket, ordinary late couple, child asleep across seats, reset, etc.
+- Greg is better about sitting before shoulder fatigue accumulates heavily. No injury.
+- Second shift concludes normally after artifact incident; Greg signs pay slip and receives 2c.
 
-## New Vale receipt / durable evidence
-- Clerk gives Greg included review slip stamped/initialed with:
-  - `PRINCIPAL EQUIVALENT REMAINING: 26 C`
-  - `NO PENALTY BALANCE POSTED`
-  - `NO FIXED CASH PAYMENT DUE BEFORE NEXT REVIEW`
-- Greg stores this with Vale papers.
-- Greg's narrow-scrap notes:
-  - `VALE REVIEW`
-  - `26 C PRINCIPAL EQUIV REMAINING`
-  - `NO PENALTY CURRENT`
-  - `NO FIXED CASH DUE BEFORE NEXT REVIEW`
-  - `SERVICE CREDIT ELIGIBLE`
-  - `NEXT REVIEW 6 WEEKS UNLESS NOTICE`
-  - `CASH PAYMENT 1 C -> 1 C EQUIV TODAY`
-  - `DECIDE WITH OPPORTUNITY COST.`
-- He explicitly rejects both automatic `PAY IT FAST` and automatic `DON'T PAY CASH` as unsupported strategy.
+## New artifact-bearing patron / privacy clasp
+- Unnamed adult woman, approximately mid-adult age, dark green coat, pale gloves, silver throat clasp shaped like a closed eye.
+- When clasp active, observers can retain clothing/height/age category etc but her **face is difficult to remember/retain** after looking away.
+- On deactivation, face becomes normally memorable. Greg observes long nose, dark brows, small scar near left side of mouth.
+- Registration slip shown at admission describes `personal privacy field`, `low reach`, and `no identity substitution` in Rinna's reading.
+- Theatre does NOT treat registration as guaranteed current condition or blanket permission. Rinna requires deactivation for admission identity/ticket check, then allows reactivation once seated only if field stays local and does not interfere with performance equipment/other patrons.
+- Exact maker, age, price, origin, mechanism, intended range, maintenance history, inspection history, and whether facial-memory effect is exact formal function remain unestablished beyond registration wording/observed behavior.
 
-## Economic progression
-- Greg recognizes 26c is no longer an abstract impossible number. It is close to the 26c opening price of the South Quay Venn Arlo harness and below its 36c sale price.
-- This does NOT mean debt and artifact value are interchangeable or that Greg can afford either. It changes perceived scale.
-- Greg has 3c cash, 26c principal-equivalent debt, possible unearned 2c theatre shift later, and unresolved opportunities.
-- Mara simple holdfast observation remains 2c if simple. Greg delays it specifically because Vale review could change information relevant to spending, then still does not automatically book it after review.
-- At Tool Lane Greg sees another 1c mixed-junk basket from same old no-sign seller and walks away without buying. He does not disclose oval discovery to seller.
-- Preserve cash as option value without making debt meaningless.
+## Artifact incident during act one
+- While clasp active in row five, a rough local area around patron becomes acoustically absent: nearby whispers/chair/clothing noises and stage sound cannot be heard normally inside/through the area from Greg's position.
+- Nearby patrons lean/strain to hear, indicating performance sound is being lost locally.
+- Greg does NOT see the woman activate/touch clasp immediately before widening begins.
+- Rinna reaches patron during scene-change interval. Woman touches clasp; a tiny blue line appears; local sound returns and her face becomes normally memorable again.
+- This supports correlation with deactivation but does NOT prove mechanism or cause of widened sound effect.
+- No flash, heat, smoke, smell, collapse, injury, trapped person, or panic observed.
+- Do NOT establish that sound suppression is hidden intended function, defect, curse, sabotage, environmental interaction, repair error, or aging behavior. Cause remains unknown.
 
-## Vale clerk
-- Unnamed short-gray-haired woman with ink stain on side of thumb handles review.
-- Procedural, dry, competent. No relationship/mentor/rival implication.
-- She keeps ledger facing herself, answers bounded questions, provides included stamp where possible instead of forcing paid copy.
-- Do not auto-recur or name without reason.
+## Building-safety response
+- Rinna removes patron from seat temporarily to side vestibule, not as punishment/arrest.
+- Clasp stays inactive inside a small cloth pouch on table during discussion.
+- An unnamed **public-building safety runner** arrives, identifiable broadly by sash. Not police, not full artifact examiner.
+- Runner asks Greg for observation-only witness statement and explicitly avoids causal claims.
+- Runner documents `observed widened effect` / local sound loss rather than labeling failure/illegal use/cause.
+- Runner states registration describes declared function at registration and does not certify current condition tonight.
+- Runner says house can refuse reactivation on premises. He could hold object under building-safety authority only if active public danger were established; he does **not** establish that here and does not confiscate it.
+- He tags the pouch/incident paperwork and advises inspection before next public-building use.
+- Owner retains artifact inactive.
+- Rinna sets theatre-specific condition: this piece may not reactivate in theatre until owner brings inspection. Do not generalize to all privacy artifacts.
 
-## Theatre continuity
-- Second of two house-route + late-reset evenings is scheduled for **Ch343 night / third night from first shift**, same 2c rate, pay after clear, unless changed/cancelled.
-- Ch343 ends before Greg goes to theatre. No second-shift pay earned yet.
-- Greg intends to eat then go to theatre.
-- Do not retroactively count 2c.
+## Owner continuity / social handling
+- Woman is angry but remains procedurally cooperative.
+- She asks for written house incident copy and receives one.
+- She returns to row five with clasp inactive and watches remainder of show.
+- Near departure she asks Greg whether active effect bothered him before widening. Greg says personally yes, operationally not after admission check.
+- She says most people like not being remembered; Greg says he prefers choosing what he forgets.
+- She briefly reveals clasp `was my mother's`; Greg deliberately does not pursue history. Do not expand provenance automatically.
+- She leaves with object. No automatic recurring relationship/patronage/rivalry.
 
-## North-road / long-mile residue
-- Carrow North Gate board now says: `NORTH SECONDARY CLOSED / DAY TRAVEL VIA EAST CUT / LOWER ROAD / REVIEW PENDING`.
-- Greg observes public speculation about road spirit but does not intervene or return north.
-- Long-mile cause/current status beyond closure/review remains unresolved.
+## Artifact-market / world principles reinforced
+- People other than Greg possess meaningful magical objects in ordinary social contexts.
+- Registration supports legality/declared function/history but does not guarantee current condition.
+- Public institutions can set narrower operating rules than general registration.
+- Observed behavior, declared function, current condition, and mechanism remain separate information layers.
+- Artifact owner remains a person with ordinary motives/history; avoid reducing owners to loot/event containers.
+
+## Theatre staff continuity
+- Rinna: admission/house authority; sets bounded condition; handles patron incident without overclaiming.
+- Nessa: keeps route work going, handles house-right/normal operations while Rinna deals with incident; shares reset.
+- Front-table staff continue normal roles. Young ticket woman handles ticket/identity match. Mustached worker participates in front procedure.
+- Hara/Marek perform normally. Marek misses a cup during show; Hara hands hers over in character, audience laughs. Do not infer script/improv canon beyond this observed recovery.
+- Theatre institution remains distributed and competent.
 
 ## Greg / body / equipment
 - Greg nineteen, Bronze, Carrow. Permanent LEFT BKA, knee preserved; right leg intact; two crutches.
-- Shoulder fatigue from first theatre shift resolves by afternoon after review notice day.
-- No injury, fall, magic attempt, or equipment damage.
-- Greg deliberately removes oval from bag before Vale review because there is no reason to bring it.
+- Better pacing during second shift, sits before shoulder fatigue compounds. No injury/fall/equipment damage.
+- No magic attempt.
+- Oval not materially involved in incident; no anomalous click established.
 
-## Artifact continuity
+## Artifact continuity / Greg-owned objects
 - Rest stone K-14-6 remains boxed/unopened/untested.
 - Holdfast remains shelved/wrapped/ring sideways/unactivated since seller demo.
-- Mara simple controlled holdfast observation remains financially possible at 2c while preserving 1c, but Greg does not schedule/pay/test in Ch343.
-- Oval stays home for Vale review; no anomaly.
-- No artifact acquisition/appraisal/sale.
+- Oval remains separately wrapped/carried utility as usual but has no relevant Ch344 behavior.
+- No Greg artifact acquisition, appraisal, sale, or test.
 
 ## Magic continuity
 - Totals remain **47 supervised minimal draws / 53 supervised deliberate shaping attempts / 103 supervised external-effect attempts**.
-- Ch343 adds no Greg magic attempts.
+- Ch344 adds no Greg magic attempts.
 - Greg moving + external effect remains untested.
 - Hessa restrictions unchanged.
 
 ## Household residue
-- Cala/Lyssa push Greg to distinguish approximate debt knowledge from exact current balance.
-- Household reviews Vale stamped summary after Greg returns. Lyssa asks whether he will pay some; Greg says not today, with no argument/moralizing.
-- Cala's priority before theatre is that Greg eats.
-- Tavi overhears debt talk and asks whether debt can be tied to a chair like spoon carrier. No financial lesson beyond joke.
+- Lyssa is awake after shift. Greg shows total 5c and explains privacy-clasp incident.
+- Lyssa asks first whether anyone was hurt; none were.
+- She asks whether Greg would buy such a clasp; he says absolutely not.
+- Money conversation distinguishes options: Mara, debt, keep reserve. No immediate household pressure to choose.
+
+## Economic progression
+- Greg now has **5c cash / 26c Vale principal equivalent debt**.
+- At 5c, a 2c information purchase no longer reduces him to a 1c floor. This changes comfort/optionality but does not make spending automatic.
+- Closing thought frames money as the most active `artifact` he owns because it rewrites which choices are available, without literal magic claim.
+- Greg records `5 C CASH / 26 C VALE` and `PUBLIC REGISTRATION DID NOT CERTIFY CURRENT CONDITION.`
+- He crosses out overly broad/sentimental formulations instead of canonizing them.
 
 ## Recent chapter ledger
 
-### Chapter 341 - THE LONG MILE
-- Greg observes recurring Moss Ford road distortion responsibly; mystery remains unsolved. Ends 1c.
-
 ### Chapter 342 - THE HOUSE LINE
-- Greg completes first paid front-of-house theatre shift at 2c and ends 3c. Second shift scheduled third night.
+- First paid theatre house shift. North-road rerouting creates crowd compression. Greg earns 2c, reaches 3c.
 
 ### Chapter 343 - THE DUE DATE
-- Vale calls Greg for required account review, explicitly no payment required.
-- Greg learns original recorded balance 32c equivalent, 6c credits posted, **26c principal equivalent remaining**, no current penalty, no fixed cash due before next review, service-credit eligibility intact.
-- Next routine review six weeks away unless qualifying event.
-- No servicing transfer pending; servicing rights are transferable under bounded terms, payment structure not amendable without Greg signature per clerk.
-- Greg does not make cash payment, buy account copy, spend on Mara, or buy another Tool Lane basket.
-- Ends with dinner before scheduled second theatre shift, still **3c + 0 bits**.
-- Magic/artifacts unchanged.
+- Vale review establishes 26c principal-equivalent debt, no current penalty/fixed cash due, service-credit eligibility. Greg retains 3c.
+
+### Chapter 344 - THE QUIET GUEST
+- Second theatre shift proceeds with normal arrivals until patron's registered privacy clasp appears to widen from face-memory privacy into local sound loss during act one.
+- Theatre/public-building response is procedural and evidence-bounded. Object is deactivated, documented, not confiscated; owner retains it with inspection advice and theatre-specific no-reactivation condition.
+- Greg provides observation-only witness statement and does not investigate provenance/cause.
+- Shift completes; Greg earns 2c and reaches **5c + 0 bits**.
+- No further theatre work scheduled. Greg-owned artifacts remain untouched; magic unchanged.
 
 ## Protected uncertainties
-- Full original Vale agreement text and unspecified default categories remain unknown.
-- Future Vale service opportunities, account transfer, and repayment pace unresolved.
-- Second theatre shift not yet completed/paid.
+- Privacy clasp exact mechanism, maker, price, age, intended range, service history, cause of widened sound behavior, whether effects share one mechanism, and future condition all unknown.
+- Owner's mother/provenance beyond one sentence unknown.
+- Building-safety runner identity and broader authority beyond described incident unknown.
+- Full Vale original agreement and future service opportunities unresolved.
 - Long mile cause/current duration/reopening unknown.
 - Oval-long-mile relation unresolved.
-- Rest stone mechanism/release delay/safe system/standalone behavior/value unresolved.
+- Rest stone exact mechanism/release delay/safe system/standalone behavior/value unresolved.
 - Holdfast exact identity/function/value unresolved.
 - Blue harness buyer/motive/use unknown.
 - Greg moving + external effect untested.
 
-## Chapter 344 trailhead
-Follow next actual claim from Ch343/current authority.
+## Chapter 345 trailhead
+Follow next actual claim from Ch344/current authority.
 
-Immediate prose claim: Greg intends to eat and attend the already-scheduled second theatre house shift that night. Because this is an explicit existing obligation, it is a strong route, but **do not repeat Ch342's crowd-management chapter**. If the shift occurs, change the structure/problem substantially or compress routine work and let a different consequence dominate.
+Recent rhythm: debt/account economics -> artifact-bearing public incident during paid work. Do **not** immediately do another theatre scene, another registration incident, or another stranger-artifact malfunction.
 
-Greg begins next chapter at **3c + 0 bits**, with 26c Vale principal-equivalent debt now exact. If second shift completes normally, 2c is due after clear, but do not assume completion/payment before prose earns it.
+Greg now has **5c + 0 bits** and 26c Vale principal-equivalent debt. Mara's 2c simple controlled holdfast observation is comfortably affordable while preserving 3c. That makes artifact investigation more naturally available now, but still not mandatory. If the holdfast lane returns, it should produce real new behavior/information rather than another purely descriptive inspection.
 
-Recent rhythm: rural magical ecology -> public-facing paid work -> debt/account economics. Artifact engine can return soon. Greg now has stronger reason to think about money as allocation among debt, reserve, information, and acquisition rather than simple affordability.
+Rest stone K-14-6 has breathed for multiple chapters and may also re-enter soon, but do not casually test retired industrial magic at home. A safe external comparison/system context remains stronger than improvised household activation.
 
-Do not immediately force holdfast test solely because 2c is available. Rest stone can continue breathing. A materially changed theatre event, character collision, or external magical/social disruption is preferable to another routine competence pass.
+Strong next routes: artifact engine through a deliberate paid information decision; household/social collision; a new work/opportunity notice; Hessa return if enough non-magic space has passed; or long-mile residue changing materially in the city without Greg returning north solely for lore.
+
+Greg's current economic problem is allocation, not survival: debt reduction vs reserve vs information vs acquisition/access. Preserve that.
 
 Magic remains **47 / 53 / 103**. No independent practice.
 
