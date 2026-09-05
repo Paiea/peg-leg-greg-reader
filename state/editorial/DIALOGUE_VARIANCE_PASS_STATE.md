@@ -49,14 +49,14 @@ Other characters may be funny, dry, clever, sarcastic, or terse. The goal is not
 
 ## Sequential coverage ledger
 
-- Chapters **1-30: VARIANCE REVIEWED**
-- Chapters **31-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-35: VARIANCE REVIEWED**
+- Chapters **36-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 31**
+Current sequential variance edge: **Chapter 36**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_026_030.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_031_035.md`
 
 Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_001_005.md`
@@ -65,12 +65,13 @@ Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_016_020.md`
 - `state/editorial/dialogue-variance-pass/BATCH_021_025.md`
 - `state/editorial/dialogue-variance-pass/BATCH_026_030.md`
+- `state/editorial/dialogue-variance-pass/BATCH_031_035.md`
 
 Existing out-of-sequence pilot work:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches remain useful evidence but do not bridge the unreviewed 31-320 gap.
+Those later batches remain useful evidence but do not bridge the unreviewed 36-320 gap.
 
 ## Chapters 1-5 result
 
@@ -119,6 +120,14 @@ Those later batches remain useful evidence but do not bridge the unreviewed 31-3
 - Chapter 28 `THE GUEST`: **light variance patch required**. Emergency lodging and bakery work are healthy. One Brina salt exchange should move from generic insult/counterpunch toward cooking process.
 - Chapter 29 `THE WITNESS`: **light variance patch required**. Remove one repeated predictive `No` from the returning healer. Preserve Kellan/butcher disagreement because their expertise privileges different evidence.
 - Chapter 30 `THE ESCORT`: **no variance change required**. Civilian voices are socially messy and distinct; Greg/Alden perceptiveness is now relationship-earned rather than instant calibration.
+
+## Chapters 31-35 result
+
+- Chapter 31 `THE REPORTER`: **moderate variance patch required**. Rinna's present-work pride is excellent; replace Hessa's generic `face` diagnosis with the specific observed behavior of Greg turning stair work into imagined wall failure.
+- Chapter 32 `THE CONSULTANT`: **light variance patch required**. Edrin's ward/custody voice remains strong; shift one Verran exchange from polished comeback to explicit examination relevance.
+- Chapter 33 `THE ASSESSOR`: **light variance patch required**. Wet-bean assessment is healthy operational voice. Replace two Rusk `No` ladders with scope/action: count sacks and inspect the wet pallet.
+- Chapter 34 `THE HELPER`: **strong variance patch required**. Arlo/Vessa collaboration is excellent, but repeated face-reading and predicted-question machinery should become test-result reporting and mechanical-before-mana sequencing.
+- Chapter 35 `THE FRIEND`: **no variance change required**. Jorren/Nessa/Mara and the Five Roads table form a strong independent social ecosystem; relationship-earned perception remains specific and incomplete.
 
 ## High-value watch targets
 
@@ -174,7 +183,9 @@ For operational characters, an action may carry the voice better than another pe
 - take the practice sword away;
 - lock the ward room;
 - cut off the old medical tag;
-- point someone toward the pump or exit.
+- point someone toward the pump or exit;
+- inspect the pallet instead of refusing to smell the sack;
+- set the regulator beside the hand pump instead of predicting Greg's next joke/question.
 
 This is especially useful when a scene already contains multiple dry speakers.
 
@@ -234,7 +245,8 @@ Prefer role-specific evidence when available:
 - a clerk knows the assignment Greg is trying to re-enter;
 - Edrin knows what Greg tried during the test she administered;
 - Berren notices Greg stopped writing instead of diagnosing an established `face` after one class;
-- Alden notices Greg moved a chair or checked a windowsill because he was actually nearby.
+- Alden notices Greg moved a chair or checked a windowsill because he was actually nearby;
+- Hessa names the exact claim or extrapolation Greg just made instead of diagnosing his expression.
 
 Do not use universal face-reading as the default proof that a competent adult understands Greg.
 
@@ -249,7 +261,9 @@ Useful discriminators:
 - Ressa: need first, intake destination, firsthand report, crowd flow;
 - Doven: report order, current problem, deployment, today versus tomorrow;
 - Iris: threat lane, rescue route, body assignment, usable information;
-- healer: symptoms, treatment, restriction, reassessment.
+- healer: symptoms, treatment, restriction, reassessment;
+- Arlo: mechanism, fixture, test order, material result;
+- Rusk: assignment, loss category, movement, scope.
 
 If all of them instead predict Greg's question and answer with the same joke, the role has disappeared beneath house voice.
 
@@ -277,13 +291,15 @@ A recurring professional knowing Greg is strongest when prior exposure changes w
 - healer checks the wrist tag first;
 - clerk knows which assignment he is asking about;
 - Jorren watches the physical tell relevant to training;
-- Alden notices behavior he personally witnessed.
+- Alden notices behavior he personally witnessed;
+- Hessa remembers the exact overclaim or permission boundary;
+- Arlo knows which test Greg will try to skip toward and controls the sequence.
 
 Repeated predictive `No` jokes are weaker evidence of continuity than changed procedure.
 
 ### 17. Cross-domain disagreement is valuable
 
-Kellan and the butcher are a positive reference. Both can be competent and terse while privileging different evidence. One measures mana and rates; the other reads anatomy and material reality.
+Kellan and the butcher are a positive reference. Arlo and Vessa are another. Competent specialists can privilege different evidence without one becoming the manuscript's designated correct mind.
 
 Do not reconcile every specialist disagreement into one clean authorial answer too quickly.
 
@@ -292,6 +308,24 @@ Do not reconcile every specialist disagreement into one clean authorial answer t
 Marden's mule, Fera/Noll's roof fight, Sava/Osric's sister problem, Leni's wizard questions, and Eda's pear grievance all resist the analytical house register without accents, gimmicks, or forced verbosity.
 
 Protect ordinary irrational attachment, old grievances, literal child logic, and family shorthand.
+
+### 19. Earned familiarity still needs character-specific evidence
+
+Relationship history does not excuse interchangeable perception.
+
+Hessa should recognize Greg through claims, variables, body behavior, and permission-seeking. Arlo should recognize him through test order, touching, mechanism expansion, and workshop risk. Jorren should recognize embodied or ordinary social habits. Alden can recognize a wider range because sustained proximity is itself part of their relationship.
+
+### 20. Present vocation can resist future potential
+
+Rinna is a positive reference. Greg's ability to imagine military, magical, or industrial leverage does not make that leverage the objective ranking of another person's life.
+
+A character may be talented enough for more and still reasonably want to make excellent stairs.
+
+### 21. Independent social ecosystems protect world voice
+
+Chapter 35 is a positive reference. Mara, Jorren, Nessa, customers, game players, relatives, work schedules, chairs, food, and local debts exist without Greg causing them.
+
+When Greg enters a social space, preserve evidence that relationships were already in motion before he arrived.
 
 ## Guardrails
 
@@ -323,11 +357,11 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 31**.
+Resume sequentially at **Chapter 36**.
 
 Preferred bounded queue: **5 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 31-35**.
+Next intended batch: **Chapters 36-40**.
 
 ## Restart prompt
 
