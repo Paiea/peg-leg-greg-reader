@@ -106,7 +106,13 @@ def _render_act(act: ReaderAct, chapter_links: dict[int, str], latest: int, *, o
     )
 
 
-def render_book_sections(chapter_links: dict[int, str], *, illustrated: bool, open_first_act: bool = False) -> str:
+def render_book_sections(
+    chapter_links: dict[int, str],
+    *,
+    illustrated: bool,
+    open_first_act: bool = False,
+    open_latest_book: bool = False,
+) -> str:
     if not chapter_links:
         return ''
 
@@ -127,7 +133,8 @@ def render_book_sections(chapter_links: dict[int, str], *, illustrated: bool, op
                 act,
                 chapter_links,
                 latest,
-                open_act=(is_latest_book and act_index == len(visible_acts) - 1) or (open_first_act and book_index == 0 and act_index == 0),
+                open_act=(open_latest_book and is_latest_book and act_index == len(visible_acts) - 1)
+                or (open_first_act and book_index == 0 and act_index == 0),
             )
             if act_html:
                 acts.append(act_html)
@@ -145,7 +152,7 @@ def render_book_sections(chapter_links: dict[int, str], *, illustrated: bool, op
                 f'</a></figure>'
             )
 
-        open_attr = ' open' if is_latest_book else ''
+        open_attr = ' open' if open_latest_book and is_latest_book else ''
         rendered.append(
             f'<details class="reader-book"{open_attr}>'
             f'<summary class="reader-book-summary" id="{book.slug}-heading">'
