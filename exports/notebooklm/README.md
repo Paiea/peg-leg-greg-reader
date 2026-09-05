@@ -4,7 +4,7 @@ Upload the three `PLG_BOOK_*.md` files in this folder to one NotebookLM notebook
 
 These are deliberately **manuscript-only** sources. Do not add `MANUSCRIPT_STATE`, `STORY_NORTH_STAR`, plot notes, or other project-brain files for the first cold-read experiment.
 
-Current exported endpoint: **Chapter 349**.
+Current exported endpoint: **Chapter 350**.
 
 Suggested first chat prompt:
 
