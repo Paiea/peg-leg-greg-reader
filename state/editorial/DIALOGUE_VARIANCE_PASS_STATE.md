@@ -49,25 +49,26 @@ Other characters may be funny, dry, clever, sarcastic, or terse. The goal is not
 
 ## Sequential coverage ledger
 
-- Chapters **1–15: VARIANCE REVIEWED**
-- Chapters **16–320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1–20: VARIANCE REVIEWED**
+- Chapters **21–320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321–330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331–352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 16**
+Current sequential variance edge: **Chapter 21**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_011_015.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_016_020.md`
 
 Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_001_005.md`
 - `state/editorial/dialogue-variance-pass/BATCH_006_010.md`
 - `state/editorial/dialogue-variance-pass/BATCH_011_015.md`
+- `state/editorial/dialogue-variance-pass/BATCH_016_020.md`
 
 Existing out-of-sequence pilot work:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches remain useful evidence but do not bridge the unreviewed 16–320 gap.
+Those later batches remain useful evidence but do not bridge the unreviewed 21–320 gap.
 
 ## Chapters 1–5 result
 
@@ -92,6 +93,14 @@ Those later batches remain useful evidence but do not bridge the unreviewed 16�
 - Chapter 13 `THE STUDENT`: **strong variance patch required**. Arlo's cognition is excellent, but the surface dialogue repeatedly predicts Greg, fires `No` as a button, and matches Greg's timing. Let fixtures, notebooks, process ownership, test limits, and physical causes do more of the talking.
 - Chapter 14 `THE ESCORT`: **moderate variance patch required**. Jorren largely survives; incidental clerk/Lara lines and one Jorren counter should move toward institutional, repair, and embodied observation rather than instant sarcasm.
 - Chapter 15 `THE OBSERVER`: **light-to-moderate variance patch required**. Preserve Alden's active teasing and initiative, including intentional Greg/Alden convergence when the prose notices it; reduce Jorren's participation in extended joke volleys so he returns to the physical job sooner.
+
+## Chapters 16–20 result
+
+- Chapter 16 `THE TEACHER`: **moderate variance patch required**. Preserve Greg/Alden compatibility and Jorren's physical correction, but reduce Jorren's participation in the shared face-reading/comeback machinery.
+- Chapter 17 `THE INVESTIGATOR`: **light variance patch required**. Greg/Alden convergence is relationship-owned; Nella/Verran work irritation is specific. One early Nella exchange should move toward warehouse custody rather than instant banter.
+- Chapter 18 `THE EXPERIMENTER`: **no variance change required**. Hessa's clippedness is experimental method, stopping condition, and evidence control. The chapter also preserves Greg's productive imperfection well.
+- Chapter 19 `THE BYSTANDER`: **strong variance patch required**. The clerk and Edrin too quickly share predictive `No`, face-reading, and polished rebuttal machinery. Shift the clerk toward assignment/custody and Edrin toward ward state, testing, access, and responsibility.
+- Chapter 20 `THE VOLUNTEER`: **moderate variance patch required**. Jorren's best speech remains physical; reduce prediction-based Greg management. Keep Alden searching for usable alternatives and the quartermaster's genuine safety commands.
 
 ## High-value watch targets
 
@@ -127,7 +136,9 @@ A refusal is strongly character-owned when refusing **is the work**:
 - Hessa stops unsafe magical repetition;
 - Rusk stops assignment creep;
 - Antonius withholds private ledger information;
-- Arlo blocks a risky touch or protects test integrity.
+- Arlo blocks a risky touch or protects test integrity;
+- Edrin keeps an unknown sealed ward under custody;
+- Jorren ends training when footing or fatigue makes the exercise wrong.
 
 The same surface form becomes convergence when it is repeatedly used as a punchline ladder rather than a real decision.
 
@@ -139,7 +150,9 @@ For operational characters, an action may carry the voice better than another pe
 - cover the ledger;
 - take out the rope;
 - return to the bench;
-- point to the damaged part.
+- point to the damaged part;
+- take the practice sword away;
+- lock the ward room.
 
 This is especially useful when a scene already contains multiple dry speakers.
 
@@ -151,10 +164,11 @@ Examples:
 - Arlo names test condition, matched-set risk, winding tension, or the physical cause of a reading.
 - Hessa names channel cost, body state, or stopping condition.
 - Lara names the axle problem and required help.
+- Edrin names fixed Barrier conditions, seal state, pressure behavior, or access limits.
 
 ### 7. Stress modulation
 
-Danger, fatigue, embarrassment, fear, money pressure, attraction, grief, pain, and divided attention should sometimes degrade verbal optimization.
+Danger, fatigue, embarrassment, fear, money pressure, attraction, grief, pain, boredom, and divided attention should sometimes degrade verbal optimization.
 
 ### 8. Relationship-specific rhythm
 
@@ -182,6 +196,31 @@ Do not sprinkle these randomly. Let state and relationship earn them.
 Do not erase every echo.
 
 Greg and Alden can deliberately land on the same line or rhythm when the prose itself recognizes that compatibility as meaningful. The question is whether the convergence is narratively owned and relationship-specific, or merely the default house cadence leaking into everyone.
+
+Relationship-owned convergence can increase while cast-wide convergence decreases. Greg/Alden becoming more compatible is more meaningful if Jorren, Edrin, clerks, specialists, and incidental workers do not all match them at the same frequency.
+
+### 11. Repeated face-reading is a specific watch target
+
+One person learning Greg's tells can be relationship evidence. Everyone learning `the face` becomes project-wide shorthand.
+
+Prefer role-specific evidence when available:
+- Jorren notices Greg stopped watching feet;
+- Antonius notices Greg is turning a possibility into money;
+- Arlo protects a notebook or test setup;
+- a clerk knows the assignment Greg is trying to re-enter;
+- Edrin knows what Greg tried during the test she administered.
+
+Do not use universal face-reading as the default proof that a competent adult understands Greg.
+
+### 12. Role authority should sound like responsibility, not universal cleverness
+
+Useful discriminators:
+- clerk: assignment, custody, schedule, contract;
+- Edrin: seal state, access, test condition, ward responsibility;
+- quartermaster: people out, sacks moved, roof danger;
+- Jorren: feet, distance, fatigue, usable ground.
+
+If all of them instead predict Greg's question and answer with the same joke, the role has disappeared beneath house voice.
 
 ## Guardrails
 
@@ -213,11 +252,11 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 16**.
+Resume sequentially at **Chapter 21**.
 
 Preferred bounded queue: **5 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 16–20**.
+Next intended batch: **Chapters 21–25**.
 
 ## Restart prompt
 
