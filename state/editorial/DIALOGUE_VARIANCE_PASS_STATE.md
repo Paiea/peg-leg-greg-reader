@@ -49,14 +49,14 @@ Other characters may be funny, dry, clever, sarcastic, or terse. The goal is not
 
 ## Sequential coverage ledger
 
-- Chapters **1-50: VARIANCE REVIEWED**
-- Chapters **51-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-55: VARIANCE REVIEWED**
+- Chapters **56-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 51**
+Current sequential variance edge: **Chapter 56**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_046_050.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_051_055.md`
 
 Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_001_005.md`
@@ -69,12 +69,13 @@ Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_036_040.md`
 - `state/editorial/dialogue-variance-pass/BATCH_041_045.md`
 - `state/editorial/dialogue-variance-pass/BATCH_046_050.md`
+- `state/editorial/dialogue-variance-pass/BATCH_051_055.md`
 
 Existing out-of-sequence pilot work:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches remain useful evidence but do not bridge the unreviewed 51-320 gap.
+Those later batches remain useful evidence but do not bridge the unreviewed 56-320 gap.
 
 ## Chapters 1-5 result
 
@@ -156,6 +157,14 @@ Those later batches remain useful evidence but do not bridge the unreviewed 51-3
 - Chapter 49 `THE TESTER`: **moderate variance patch required**. Arlo/Greg/Vessa technical collaboration is earned, but Vessa's repeated `No` should yield to concrete glaze-firing capacity and hot-line scheduling where available.
 - Chapter 50 `THE RECORDER`: **light variance patch required**. Thermal-test dialogue is healthy; replace Jorren's final explicit `face` shorthand with the specific observable lapse that Greg stopped hearing the street while staring at soup.
 
+## Chapters 51-55 result
+
+- Chapter 51 `THE SIGNAL`: **light variance patch required**. Tavin's authority map is strong; replace one first-meeting `do not redesign the road` joke with explicit repair-plan and queue ownership.
+- Chapter 52 `THE SIGNATORY`: **moderate variance patch required**. Guild institutional memory and Hessa's body logic are strong. Replace one generic applause comeback and one under-earned personal-growth diagnosis with paperwork and handoff language.
+- Chapter 53 `THE GUEST`: **moderate variance patch required**. Bathhouse social ecology is healthy. Make the counter worker state a wet-wrap rule/consequence rather than predict Greg personally, and replace Jorren's `face` shorthand with the exact promise and splash sequence.
+- Chapter 54 `THE INTERPRETER`: **no variance change required**. Edrin's terseness is evidence custody, authorization, bounded comparison, and professional judgment. Her hand-based stop is direct physical evidence rather than mind-reading.
+- Chapter 55 `THE EXTRA HAND`: **light variance patch required**. Practice-yard chemistry is mostly earned. Replace one explicit face-reading line with the actual hand switch caused by Greg's blister.
+
 ## High-value watch targets
 
 ### 1. Incidental stranger optimization
@@ -192,7 +201,7 @@ Relationship-owned convergence can increase while cast-wide convergence decrease
 One person learning Greg's tells can be relationship evidence. Everyone learning `the face` becomes project-wide shorthand.
 
 ### 12. Role authority should sound like responsibility, not universal cleverness
-Useful discriminators include clerk/assignment, Edrin/custody, Jorren/feet and fatigue, Octavia/freight, Ressa/intake, Doven/current command problem, Iris/rescue route, healer/symptoms, Arlo/mechanism, Rusk/scope, Etta/worksite objective, Dorrin/grade-price-customer boundary, Holl/sale band and shop time, Pessa/road continuity, Sevren/route and handoff, Tam/customer use and current craft sequence, Vessa/shop capacity and fabrication.
+Useful discriminators include clerk/assignment, Edrin/custody, Jorren/feet and fatigue, Octavia/freight, Ressa/intake, Doven/current command problem, Iris/rescue route, healer/symptoms, Arlo/mechanism, Rusk/scope, Etta/worksite objective, Dorrin/grade-price-customer boundary, Holl/sale band and shop time, Pessa/road continuity, Sevren/route and handoff, Tam/customer use and current craft sequence, Vessa/shop capacity and fabrication, Tavin/authority mapping.
 
 ### 13. Relationship calibration should have a ramp
 A recurring character may eventually learn Greg's tells and timing. First contact should usually begin with role, request, shared task, or ordinary social uncertainty.
@@ -249,7 +258,7 @@ Rusk assigns, Mevi demonstrates, Holl returns to the current test, and Pessa kee
 Repeated short language is not automatically convergence. The question is whether it carries a real decision or merely familiar comic punctuation.
 
 ### 31. Mundane complications create voice for free
-Wrong offices, chickens, storage fees, hot wheels, dogs, pigs, onions, wet cases, awkward cargo interfaces, boots, tables, stoves, and lost gloves force people to respond from ordinary priorities. Protect that texture.
+Wrong offices, chickens, storage fees, hot wheels, dogs, pigs, onions, wet cases, awkward cargo interfaces, boots, tables, stoves, lost gloves, wet wraps, and bad shouted instructions force people to respond from ordinary priorities. Protect that texture.
 
 ### 32. Secondhand reputation should stay lower resolution than lived relationship
 It is healthy for the city to talk about Greg when he is absent. A new person may hear that he stares, asks too many questions, carries odd objects, or gets involved in strange jobs. That should not automatically grant a precise model of what his expression means or what sentence comes next.
@@ -261,10 +270,27 @@ Jorren and Greg, or Greg and Sevren, can remain fast and funny without relying o
 Vessa's strongest boundaries are what can safely happen during the current firing, which production variable changed, what the shop is already doing, and when another test fits. Arlo's strongest boundaries are mechanism, fixture, customer use, and next worthwhile test.
 
 ### 35. No-change chapters are positive evidence
-A clean chapter should stay clean. Chapter 47 demonstrates that a character can be terse, funny, and competent while still remaining cognitively distinct. Do not patch to meet a quota.
+A clean chapter should stay clean. Chapters 47 and 54 demonstrate that a character can be terse, funny, and competent while still remaining cognitively distinct. Do not patch to meet a quota.
 
 ### 36. Mild disagreement can remain unresolved
 Greg and Sevren can disagree about path planning versus solving obstructions as they appear. The story does not need to crown one philosophy. Both methods can contribute to getting the stove downstairs.
+
+### 37. A line should earn its knowledge from the scene
+Before keeping a sharp line, identify how the speaker knows what it claims: direct observation, shared history, institutional records, explicit secondhand information, professional responsibility, or something Greg just said or did.
+
+Unexplained perfect psychological access is a convergence warning even when the line is funny.
+
+### 38. Institutional memory is not personal intimacy
+The Guild can remember Greg through reports and availability notes without every Guild employee knowing his internal habits. Let records create opportunities. Let relationships create intimacy.
+
+### 39. Rules are often better than predictions
+A bathhouse worker can state the wet-wrap rule and replacement cost. A field lead can state who owns repair-plan changes. Authority feels more durable when it names procedure rather than predicting Greg personally.
+
+### 40. Recurring friends should get more specific as familiarity deepens
+Jorren and Alden have earned perceptiveness. That should make their evidence more specific: the exact promise, the hand switch, the stopped attention, the money count, the physical habit. Specificity is stronger friendship texture than generic shorthand.
+
+### 41. Literal `face` is not the same bug as psychological `the face`
+Do not purge the word mechanically. Berren saying `Face` because Greg shaved his beard is literal appearance. The problem is using `face` as universal evidence of hidden intent, the next question, or a whole mental state.
 
 ## Guardrails
 
@@ -296,11 +322,11 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 51**.
+Resume sequentially at **Chapter 56**.
 
 Preferred bounded queue: **5 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 51-55**.
+Next intended batch: **Chapters 56-60**.
 
 ## Restart prompt
 
