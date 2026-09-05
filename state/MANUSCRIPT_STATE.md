@@ -1,17 +1,17 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 378 - **THE USHER**.
+- Current exact story endpoint: Chapter 379 - **THE BROKER**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript physically materialized through Chapter 248.
-- Exact Chapters 249-378 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
+- Exact Chapters 249-379 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
 - Titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
 - Mandatory pre-title question: `Who is Greg being here?`
-- Ch378 answer: Greg is being **an usher**. He covers West House access because Maro injured ankle, manages ordinary audience movement/access needs, adapts safely when a rear aisle lamp is isolated, and becomes eligible for formal paid house-cover call list.
-- Therefore title **THE USHER**.
-- Recent: 374 THE HOST; 375 THE LAMPLIGHTER; 376 THE PASSENGER; 377 THE NEIGHBOR; 378 THE USHER.
+- Ch379 answer: Greg is being **a broker** in the narrow sense of paid information routing. Vale pays him to put a client's bounded handling question in front of Mara, not to appraise or influence the answer. Greg learns the ethical difference between selling routing and treating a relationship as inventory.
+- Therefore title **THE BROKER**.
+- Recent: 375 THE LAMPLIGHTER; 376 THE PASSENGER; 377 THE NEIGHBOR; 378 THE USHER; 379 THE BROKER.
 
 ## Production rules
 - One chapter at a time. Target 2,500-4,000 words and clear 2,500 unless explicitly changed.
@@ -20,120 +20,119 @@
 - Follow next actual claim from prose, not engine rotation.
 - Greg first life reached about 59 and S-class. Familiar fantasy knowledge often invisible; curiosity attaches to local implementation/constraints/cost/failure/specialist practice.
 
-## Chapter 378 - THE USHER
-- Theatre runner asks Greg to cover West House because regular west-gallery usher **Maro** turned/swollen ankle carrying programs. Not badly injured; no fracture established.
-- Nessa's written scope explicitly says:
-  - `NOT ROUTE TEACHING`
-  - `NOT LAMP WORK`
-  - doors / west gallery / late exit
-  - **2c**.
-- Greg accepts known/fair prior house-work rate without needless negotiation.
+## Chapter 379 - THE BROKER
+- Vale asks Greg to route a paid client request to Mara.
+- Client **Orsen Pell**, East Mill Court, bought retired mundane counterframe guide assembly from North Secondary disposal.
+- Assembly contains two stone seats; one transcribed mark **K-14-9**.
+- Client plans disassembly tomorrow due shop-space cost and wants to know whether marked seat creates special handling, registration, or intact-retention requirement before cutting assembly apart.
+- Request explicitly does **not** ask valuation or function certification.
 
-## West House duties / accessibility
-- Nessa assigns:
-  - west gallery entry;
-  - aisle seating / cane-crutch clearance;
-  - late exit after mask scene.
-- Rules:
-  - capacity marks count bodies, not occupied seats;
-  - no standing behind back rail;
-  - keep bags/stools out of aisle;
-  - ask mobility-aid users what support they want; do not decide/grab for them;
-  - hold flow for slower stair if chosen;
-  - offer floor alternative if gallery stair unsuitable/undesired;
-  - after dark mask transition, do not release gallery until aisle lighting confirmed.
-- Greg successfully applies these to several patrons without turning accessibility into personal authority.
-- A cane-using patron chooses slower stair and explicitly says not to touch unless asked. Greg complies. Later she thanks him for not grabbing her.
-- Same patron reports west-gallery stair rail becomes too thick around decorative turn joint to close hand fully. Greg asks permission to pass it on and records exact patron report.
-- Nessa learns Maro had heard similar complaint before but treated it as complaint rather than recordable issue; she tells him to find prior complaints tomorrow. No immediate structural conclusion.
+## Greg/Vale brokerage terms
+- Vale offers Greg:
+  - **1c** if Greg actually delivers request to Mara;
+  - **+2c** if Mara or her referral accepts a paid inspection within client's two-day window;
+  - no payment tied to Mara's conclusion, valuation, client purchase/retention/sale, or outcome;
+  - cash task, **not Vale debt service**.
+- Greg gets referral/referral-success terms written, including referral equivalent.
+- Vale says future work like this may occur when mismatch costs more than Greg's fee, but it is case-by-case, not standing referral desk.
 
-## Rear aisle lamp incident
-- During performance a patron begins coughing and reports smoke smell near west rear landing.
-- Greg initially smells nothing, then faint hot-dust/oil smell. No visible haze.
-- He does not diagnose or panic/evacuate unilaterally; sends for house lead.
-- Jori confirms smell and identifies **west rear aisle lamp feed collar heating**, not flame.
-- Jori isolates rear lamp. Front aisle lamps remain available.
-- Nessa changes late-exit procedure: west gallery holds after mask dark transition until front aisle lamps are fully up **and runner confirms stair landing lit from lower fixture**.
-- Procedure works. No fall/panic/injury.
-- Jori later tags rear fixture out of service. Heat discoloration around feed collar, no flame damage. Replacement/check tomorrow; cause unknown.
-- Greg explicitly records **do not connect to other feed problems without evidence**. Do not merge this with Ch351 outage by convenience.
+## Mara / K-14 family
+- Mara says **K-14 is a yard family, not an artifact class**.
+- K-14-9 could be ordinary seat; K-14-6 could be ordinary seat. Mark alone does not establish active behavior.
+- This does not change K-14-6 evidence already known; it narrows interpretation of mark/family.
+- Greg deliberately does **not** bring his K-14-6 rest stone to this request/inspection and does not center his collection.
+- Mara accepts a bounded inspection:
+  - tomorrow **fifth bell**;
+  - half-bell handling/paper inspection only;
+  - **3c total including travel** paid by client directly to Mara;
+  - assembly accessible;
+  - marked stone remains installed;
+  - purchase/disposal papers present;
+  - no valuation;
+  - no function certification.
+- Client Orsen accepts exact terms before end of day.
+- Greg does **not** attend inspection by default.
 
-## Theatre continuity
-- Mirror-mask scene from Ch375 now in actual performance.
-- Theatre's own replacement shade appears to be functioning; Greg's Three Reeds is **not needed/used**. This reinforces Ch375 as temporary paid need, not institution capture.
-- Actor who paused/breathed before lies kept behavior; audience laughs, suggesting performance choice worked.
+## Brokerage ethics / disclosure
+- Cala asks whether Mara knew Greg's compensation depended partly on her accepting inspection. She did not.
+- Greg recognizes acceptance-contingent bonus creates an incentive even though he did not pressure Mara.
+- He returns and discloses exact Vale terms to Mara.
+- Mara keeps inspection scheduled because payment was not tied to her conclusion/fee and Greg did not pressure schedule.
+- New durable rule from Mara:
+  - if Greg's pay changes based on specialist saying **yes**, disclose before specialist answers;
+  - flat delivery fee matters less, but do not hide if relevant;
+  - avoid result/valuation/purchase-contingent referral incentives;
+  - `FRIENDSHIP IS NOT INVENTORY`.
+- Greg reframes: `DON'T SELL THE PERSON. SELL THE ROUTING.` This is working rule, not universal doctrine.
 
-## Work progression
-- Maro tells Greg theatre needs more house-cover people and notes Greg `doesn't get weird when people need time`; he treats delay as delay rather than problem.
-- Nessa formally offers Greg **house-cover clearance training**:
-  - paid **1c first training half**;
-  - **2c independent house shift after clearance**;
-  - separate call list from route work;
-  - no exclusivity;
-  - calls can be declined, though too many declines means they stop calling;
-  - frequency unknown, higher around festival months.
-- Greg accepts training for **tomorrow third bell afternoon**.
-- This is not guaranteed standing employment yet, but a durable access/earning-capacity improvement.
+## Theatre house-cover training
+- Promised Ch378 training occurs **off-axis** at third bell rather than becoming chapter engine.
+- Nessa covers capacity slate, emergency exits, patron disputes, cash handoff, lost-property procedure, and distinction between house lead vs door-cover authority.
+- No incident/drama.
+- Greg is cleared for **ordinary doors/gallery cover**, but **not cash-box close** and **not emergency house lead**.
+- Training pays **1c**.
+- Greg's name added to theatre house-cover call list. Independent ordinary shifts remain **2c** when called.
+
+## Lyssa third lot / treated weave
+- Lyssa is assembling first heat-cloth sample.
+- Treated weave looks ordinary except faint bronze dullness at angle; this is material appearance, **not established magical behavior**.
+- Lyssa reports weave is stiffer across fold, worse on needle turn, edge wants to crawl under normal tension.
+- Tiny black thread in selvage marks orientation; Marra says treated side must face marked side of fold.
+- Lyssa explicitly does not need to become kitchen specialist to sew supplied spec correctly.
+- Greg does not touch material or take over.
+- Sample acceptance/payment still pending.
 
 ## Economy
-- Greg begins **5c**.
-- West House cover pays **2c**.
-- Greg ends **7c private cash**.
+- Greg begins **7c**.
+- Vale referral task pays total **3c** after Mara accepts/client confirms.
+- Theatre training pays **1c**.
+- Greg ends **11c private cash**.
 - Vale remains **23c principal-equivalent**.
 - Bits unspecified.
-- Step Keeper purchase is not punished into desperation. Greg returns from 5c to 7c through ordinary relationship/reputation-based work.
-- No artifact purchase/spend in Ch378.
-
-## Lyssa third lot
-- Lyssa resolves third-lot decision briefly/off-axis: **accepts**.
-- She adds safeguard: wants **one heat-cloth sample accepted before cutting remaining treated weave**. Marra agrees.
-- So Lyssa will make one sample heat-cloth first; if accepted, proceed with remaining three. Ordinary service-goods portion remains separately structured.
-- No Ch378 payment to Lyssa.
-- Treated weave still not touched by Greg; exact behavior/material properties unresolved.
-
-## Household
-- Brenna completes upstairs floor finish and wardrobe returns original wall. Cala reports dry. House-repair beat closes enough; long-term seal warranty remains.
-- Tavi lies on repaired floor claiming to test it; Greg makes him get up.
+- Client's 3c Mara inspection fee is separate and not Greg's money.
+- Greg is now 1c above pre-Step-Keeper cash while still owning Step Keeper; recovery came from social/work access, not artifact monetization.
 
 ## Magic / artifacts
 - No Greg mana use. Magic remains **59 / 53 / 129**.
-- Step Keeper remains locked/untested.
-- Three Reeds not used.
-- Holdfast/rest stone/oval unchanged and unactivated.
+- Old Ford Step Keeper remains locked/untested.
+- Greg opens chest only to file papers and does not touch housing.
+- Three Reeds, holdfast, K-14-6, oval unchanged/unactivated.
+- Chest crowding remains future storage pressure.
 
 ## Dialogue variance
-- Maro uses defensive, slightly dramatic complaint speech around ankle/gravity/workplace.
-- Nessa remains concise operational authority and is willing to turn patron complaint into documented work.
-- Cane patron speaks directly and asserts her own support preferences.
-- Lyssa remains practical and teases Greg about Hessa-like `good`.
-- Avoid flattening future theatre staff into universal Greg dryness.
+- Vale dry/procedural/economic, but not a Greg clone; his logic centers transaction boundaries.
+- Mara terse specialist boundary-setting.
+- Apprentice **Siv** protects Mara's schedule and insists lunch remains lunch because Mara told Siv to write it. Useful subordinate voice/relationship.
+- Lyssa practical craft language and metaphor (`your asking has elbows`).
+- Cala household/social ethics expressed through questions rather than lecture.
 
 ## Recent role ledger
-- 374 THE HOST
 - 375 THE LAMPLIGHTER
 - 376 THE PASSENGER
 - 377 THE NEIGHBOR
 - 378 THE USHER
+- 379 THE BROKER
 
 ## Protected uncertainties
-- Rear aisle lamp feed-collar cause unresolved; do not connect to Ch351 without evidence.
-- West-gallery stair-rail prior complaints/response unresolved.
-- Greg house-cover clearance outcome/future call frequency unresolved.
-- Maro ankle recovery timing unresolved.
-- Lyssa third-lot outcome/payment unresolved; one heat-cloth sample acceptance pending.
-- Treated-weave exact properties unresolved.
-- Lyssa exact private money unresolved.
+- Orsen/Mara inspection conclusion unresolved. Do not force recurrence unless useful.
+- K-14-9 exact nature unresolved.
+- K-14-6 exact mechanism/system/value remains unresolved; K-14 now confirmed yard family only, not artifact class.
+- Greg future referral/broker work frequency unresolved.
+- Lyssa heat-cloth sample acceptance/outcome/payment unresolved.
+- Treated-weave exact properties beyond handling observations unresolved.
+- Rear aisle lamp feed-collar cause unresolved.
+- West-gallery rail prior complaints/response unresolved.
+- Maro ankle recovery unresolved.
 - Hanging Road reopening decision unresolved.
 - Old Ford Step Keeper exact mechanism/current response/missing mate/value unresolved; remains untested.
 - Bell Ford bridge bells/history unresolved.
-- Sun gnat ecology beyond Rell account unresolved.
 - Three Reeds full mechanism/safe duration/resale unresolved.
 - Holdfast exact function/fixture/safe load/direction/release unresolved.
 - Crawler-case classification/north-batch situation unresolved.
 - Next Hessa axis/timing unresolved.
 - Porter harness authenticity/buckle-pin cost unresolved.
 - Future theatre route drill unresolved.
-- Full Vale agreement/future service opportunities unresolved except current 23c.
+- Full Vale agreement remains except current 23c.
 - Emberwing ecology unresolved.
 - South Cloth committee/final pose unresolved.
 - Marker Nine/North Secondary broader status unresolved.
@@ -141,38 +140,39 @@
 - Blue-hour and sky-ribbon mechanisms unresolved.
 - Ch348 copper-knot unresolved.
 - Ch351 feed-branch cause unresolved.
-- K-14-6 mechanism/system/value unresolved.
 - Oval-long-mile relation unresolved.
 - Privacy-clasp cause/current condition unresolved.
 - Blue harness buyer/motive/use unknown.
 
 ## Continuity issue
-- Ch360 exact prose 1-bit lunch has no established bit source after Ch359 0 bits. Do not silently invent. Ch361-378 avoid Greg bit accounting. Copper exact **7c**.
+- Ch360 exact prose 1-bit lunch has no established bit source after Ch359 0 bits. Do not silently invent. Ch361-379 avoid Greg bit accounting. Copper exact **11c**.
 
-## Chapter 379 trailhead
-Follow next actual claim from Ch378/current authority.
+## Chapter 380 trailhead
+Follow next actual claim from Ch379/current authority.
 
-Recent rhythm: home/social belonging -> **public-facing paid theatre access work + minor infrastructure incident + earning-capacity increase**.
+Recent rhythm: theatre public access work -> **paid information routing / ethics / earning-access expansion**, with promised training handled off-axis.
 
-Do not make Ch379 simply the promised house-cover training unless it develops genuinely new story grammar; training can happen off-axis or be summarized later.
-Do not immediately test Step Keeper just because two chapters have passed.
-Do not repeat theatre emergency/access work again.
-Do not run another Lyssa contract negotiation.
+Do not immediately repeat:
+- another Vale referral/broker task;
+- Mara's Orsen inspection as primary chapter unless result materially changes a larger thread;
+- theatre shift/training;
+- Lyssa contract negotiation;
+- immediate Step Keeper bench-test chapter.
 
-Greg begins **7c cash / 23c Vale / no guaranteed work / exact bits unspecified**.
+Greg begins **11c cash / 23c Vale / no guaranteed next call / exact bits unspecified**.
 Magic remains **59 / 53 / 129**.
-House-cover training scheduled tomorrow third bell, but next chapter does not have to center it.
+Greg now has more optionality than before Step Keeper purchase plus broader earning lanes. Do not reset him into scarcity anxiety over ordinary copper choices.
 
-Strong Ch379 routes:
-- older unresolved person/thread returns with changed circumstances;
-- external/public event away from theatre/house with real consequence;
-- artifact-related access/information without immediately testing Greg's newest object;
-- a larger earning/access opportunity that forces choice about time rather than survival money;
-- relationship collision created by Greg now having several overlapping social/work lanes.
+Strong Ch380 routes:
+- external/public fantasy event with materially different scene grammar;
+- relationship collision/obligation where money cannot solve choice;
+- credible artifact opportunity that is **too expensive even at 11c**, pulling economic ceiling upward without making market stupid;
+- information about an existing artifact through world systems without immediate home lab testing;
+- travel/invitation/task that forces Greg to choose among work, people, and curiosity.
 
-Artifact pressure can re-enter through information, someone else's object, specialist access, or credible expensive opportunity. Collection should feel increasingly connected to world systems, not isolated chest experiments.
+Artifact pressure should now become more materially tempting again. Greg has shown restraint for several chapters and has recovered liquidity. A real desirable object/access opportunity can appear, but avoid simply repeating auction bidding or `walk away because expensive` unless there is a new consequence/route to acquisition.
 
-**MANDATORY TITLE CHECK CH379:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH380:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
