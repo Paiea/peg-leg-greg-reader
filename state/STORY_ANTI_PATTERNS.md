@@ -61,6 +61,13 @@ When the recent rhythm has become repetitive, deliberately change one or more ma
 
 Ordinary life remains valuable. Mundane repetition is still repetition.
 
+### Scene architecture variety
+Do not repeatedly use the same underlying scene engine merely because the surface system changes. In particular, watch for the recurring sequence: Greg encounters an irregularity → questions a competent person → separates evidence → tests the system → makes a bounded conclusion → practical adjustment/payoff.
+
+This remains valid PLG architecture, but consecutive or nearby chapters should not default to it. Vary who has agency, who understands first, whether there is anything to solve, whether Greg is wrong, whether the problem is social/emotional rather than technical, whether someone else resolves it, and whether the scene ends without a clean conclusion.
+
+**New subject matter does not automatically mean a new scene.**
+
 ### Loot treadmill as fake rhythm change
 Do not answer rhythm stagnation by giving Greg a new magical object every few chapters.
 
