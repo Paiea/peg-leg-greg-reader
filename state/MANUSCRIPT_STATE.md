@@ -1,178 +1,223 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 379 - **THE BROKER**.
+- Current exact story endpoint: Chapter 380 - **THE DELEGATE**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript physically materialized through Chapter 248.
-- Exact Chapters 249-379 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
+- Exact Chapters 249-380 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
 - Titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
 - Mandatory pre-title question: `Who is Greg being here?`
-- Ch379 answer: Greg is being **a broker** in the narrow sense of paid information routing. Vale pays him to put a client's bounded handling question in front of Mara, not to appraise or influence the answer. Greg learns the ethical difference between selling routing and treating a relationship as inventory.
-- Therefore title **THE BROKER**.
-- Recent: 375 THE LAMPLIGHTER; 376 THE PASSENGER; 377 THE NEIGHBOR; 378 THE USHER; 379 THE BROKER.
+- Ch380 answer: Greg is being **a delegate**. He leaves Carrow as a bounded passenger/access representative on a three-day road-reopening run, carrying user experience rather than specialist authority. By chapter end the return schedule is broken and his delegated presence in Merecross becomes the doorway into a much longer away-from-home arc.
+- Therefore title **THE DELEGATE**.
+- Recent: 376 THE PASSENGER; 377 THE NEIGHBOR; 378 THE USHER; 379 THE BROKER; 380 THE DELEGATE.
 
-## Production rules
-- One chapter at a time. Target 2,500-4,000 words and clear 2,500 unless explicitly changed.
-- NO EM DASHES in manuscript prose. Greg POV.
-- Exact prose outranks summaries/state/development/chat residue.
-- Follow next actual claim from prose, not engine rotation.
-- Greg first life reached about 59 and S-class. Familiar fantasy knowledge often invisible; curiosity attaches to local implementation/constraints/cost/failure/specialist practice.
+## Directional arc change - away from Carrow
+- User-authorized major direction: it is time for the book to **nudge into adventure** after long Carrow accumulation.
+- The trip is deliberately SET UP as a small **two-night / three-day** work journey but should plausibly expand into an **entire act, potentially near-book-length away-from-Carrow run**.
+- Do NOT rush Greg home after one or two chapters.
+- Carrow remains home and emotional anchor. The new engine is that having a home makes departure/absence/return matter.
+- The away arc should expand world scale organically through roads, towns, inns, local magical infrastructure, markets, specialists, strangers, regional systems, work, danger, artifacts, and relationships.
+- Greg should encounter places where his Carrow reputation means little or nothing.
+- Home continues without him. Cala, Tavi, Lyssa, theatre, Vale, Hessa, etc. do not freeze. Communication has travel time and missed opportunities/obligations can accumulate.
+- Avoid instantly converting this into chosen-one quest, catastrophe railroad, or generic adventuring party. Adventure should grow from infrastructure, travel, work, curiosity, opportunity, local problems, and Greg's decisions.
+- Return should eventually be meaningful, not casually available every dinner.
 
-## Chapter 379 - THE BROKER
-- Vale asks Greg to route a paid client request to Mara.
-- Client **Orsen Pell**, East Mill Court, bought retired mundane counterframe guide assembly from North Secondary disposal.
-- Assembly contains two stone seats; one transcribed mark **K-14-9**.
-- Client plans disassembly tomorrow due shop-space cost and wants to know whether marked seat creates special handling, registration, or intact-retention requirement before cutting assembly apart.
-- Request explicitly does **not** ask valuation or function certification.
+## Chapter 380 - THE DELEGATE
+- Sella offers Greg a road-reopening mixed-load trial run:
+  - Carrow -> Bell Ford day 1;
+  - Bell Ford -> **Merecross** day 2;
+  - scheduled return day 3 if inspection remains clean.
+- Greg is selected because he was a mobility rider on prior Hanging Road reopening inspection and can provide user/work perspective.
+- Merecross transit office also wants a bounded conversation about Carrow public-gallery access practices; Greg is explicitly **not** a specialist/certifier.
+- Pay: travel/meals/beds covered plus **4c** for two travel days + Merecross meeting. Extra duty days if retained for inspection/access work can pay **1c/day**. No extra pay for voluntary leisure stay.
+- Independent normal passenger return from Merecross to Carrow would be material cost, roughly 3c Merecross->Bell Ford plus 1-2c Bell Ford->Carrow under stated normal route context. No universal fare law.
 
-## Greg/Vale brokerage terms
-- Vale offers Greg:
-  - **1c** if Greg actually delivers request to Mara;
-  - **+2c** if Mara or her referral accepts a paid inspection within client's two-day window;
-  - no payment tied to Mara's conclusion, valuation, client purchase/retention/sale, or outcome;
-  - cash task, **not Vale debt service**.
-- Greg gets referral/referral-success terms written, including referral equivalent.
-- Vale says future work like this may occur when mismatch costs more than Greg's fee, but it is case-by-case, not standing referral desk.
+## Travel party
+- Sella travels.
+- Two road crew travel.
+- Driver **Harl**, older woman with white braid, treats horses as coworkers. Left mare Pella; right horse Dorn fears puddles.
+- Bell Ford inspector **Rell Dask**, shaved head, three pens tied to belt. Fast procedural speech, self-interrupting, emphasizes stopping for repeated unexplained body/system responses.
+- Merecross clerk **Pavin** rides from Bell Ford; initially quiet, becomes important when city routing changes.
 
-## Mara / K-14 family
-- Mara says **K-14 is a yard family, not an artifact class**.
-- K-14-9 could be ordinary seat; K-14-6 could be ordinary seat. Mark alone does not establish active behavior.
-- This does not change K-14-6 evidence already known; it narrows interpretation of mark/family.
-- Greg deliberately does **not** bring his K-14-6 rest stone to this request/inspection and does not center his collection.
-- Mara accepts a bounded inspection:
-  - tomorrow **fifth bell**;
-  - half-bell handling/paper inspection only;
-  - **3c total including travel** paid by client directly to Mara;
-  - assembly accessible;
-  - marked stone remains installed;
-  - purchase/disposal papers present;
-  - no valuation;
-  - no function certification.
-- Client Orsen accepts exact terms before end of day.
-- Greg does **not** attend inspection by default.
+## Packing / artifacts
+- Greg deliberately does **not** bring his collection just because he is traveling.
+- Leaves locked at home:
+  - fixed holdfast;
+  - K-14-6 rest stone;
+  - Three Reeds shade unit;
+  - Old Ford Step Keeper.
+- Carries **retreat/last-door oval** because it is already regular light bag equipment, not because he expects use.
+- No artifact activation/testing in Ch380.
+- Cala has household key role only, not artifact instruction/custodianship.
+- Greg uses mundane porter harness for light travel carry. Existing buckle warning remains: replacement buckle not trusted above roughly 10-12 lb until pin changed. Greg keeps load light by estimate.
+- Tavi gives Greg the striped Bell Ford rock so it can `visit`; Greg reluctantly carries it.
 
-## Brokerage ethics / disclosure
-- Cala asks whether Mara knew Greg's compensation depended partly on her accepting inspection. She did not.
-- Greg recognizes acceptance-contingent bonus creates an incentive even though he did not pressure Mara.
-- He returns and discloses exact Vale terms to Mara.
-- Mara keeps inspection scheduled because payment was not tied to her conclusion/fee and Greg did not pressure schedule.
-- New durable rule from Mara:
-  - if Greg's pay changes based on specialist saying **yes**, disclose before specialist answers;
-  - flat delivery fee matters less, but do not hide if relevant;
-  - avoid result/valuation/purchase-contingent referral incentives;
-  - `FRIENDSHIP IS NOT INVENTORY`.
-- Greg reframes: `DON'T SELL THE PERSON. SELL THE ROUTING.` This is working rule, not universal doctrine.
+## Leaving Carrow / relationships
+- Cala supports trip and checks practical details: confirmed ground room, food, return, harness load.
+- Lyssa has been to Merecross once at ~14 because an aunt lived there for half a year. Her bounded memories:
+  - windy;
+  - too many stairs;
+  - river smells sweet near dye quarter and terrible near tanner lane;
+  - large market;
+  - locals think bridge is important;
+  - first food row off south gate has tourist prices.
+- Lyssa tells Greg to go, but quietly asks: **`Just don't disappear.`**
+- Greg promises to **send word if route changes**, not impossible guaranteed return.
+- Lyssa comes to South Gate next morning anyway, gives bread, hugs him, tells him to buy another useless thing `within budget`.
+- Tavi cannot go.
+- Theatre sends Greg his first possible independent 2c house-cover call for two days later. Greg must decline because he will be in Merecross; asks for next available after return. This is first concrete missed Carrow opportunity from travel.
+- Vale warns Merecross Vale office is not authorized to collect Greg's Carrow balance. If anyone claims otherwise, get name/paper. Vale also asks, unpaid, for public North River disposal-board dates if Greg happens to see them.
 
-## Theatre house-cover training
-- Promised Ch378 training occurs **off-axis** at third bell rather than becoming chapter engine.
-- Nessa covers capacity slate, emergency exits, patron disputes, cash handoff, lost-property procedure, and distinction between house lead vs door-cover authority.
-- No incident/drama.
-- Greg is cleared for **ordinary doors/gallery cover**, but **not cash-box close** and **not emergency house lead**.
-- Training pays **1c**.
-- Greg's name added to theatre house-cover call list. Independent ordinary shifts remain **2c** when called.
+## Lyssa work continuity
+- Heat-cloth stitch/fold sample has passed Marra's preliminary seam-spacing/fold-direction check, but full heat-cloth sample still must be completed and returned.
+- Lyssa continues working while Greg travels. Home/work does not freeze.
+- Treated weave exact functional properties remain unresolved.
 
-## Lyssa third lot / treated weave
-- Lyssa is assembling first heat-cloth sample.
-- Treated weave looks ordinary except faint bronze dullness at angle; this is material appearance, **not established magical behavior**.
-- Lyssa reports weave is stiffer across fold, worse on needle turn, edge wants to crawl under normal tension.
-- Tiny black thread in selvage marks orientation; Marra says treated side must face marked side of fold.
-- Lyssa explicitly does not need to become kitchen specialist to sew supplied spec correctly.
-- Greg does not touch material or take over.
-- Sample acceptance/payment still pending.
+## Bell Ford / road observations
+- First travel day remains mostly competent/boring inspection. Greg reports wet-stone shoulder crutch-tip slip on one section and no issue on another.
+- Bell Ford transit house ground room confirmed.
+- Rell Dask procedure: unexplained movement/sound/temperature/light/animal refusal noted; one person's weird report gets noted, two unrelated matching reports trigger stop/look. Do not universalize beyond his inspection practice.
+- West of Bell Ford Greg encounters genuinely local unfamiliarity: pale-trunk trees with red north-side moss, copper-lined drainage cuts, low silver field flags.
+- Rell says silver flags are **windmidge breaks**. Windmidges are tiny flying pests following pressure seams and getting into grain vents; flags disrupt line enough to spread them. Rell explicitly says ask farmer for biology. This is bounded local account.
+- Road crew finds raised marker nail and handles it procedurally. No ancient evil/quest trigger.
+
+## Merecross / bridge closure
+- Merecross is substantially larger than Carrow, split by river, with multiple bridges and large layered market districts.
+- Before arrival, eastbound traffic increases due **South River span closure**.
+- Initial report: downstream pier's **load stones are returning one extra pulse after heavy crossings**, first intermittent then recurring every third/fourth wagon. Vehicle deck closed. Foot deck initially restricted/open because foot loads had not produced extra return.
+- Later same day extra return is reported under pedestrian group; city sounds full closure bells and closes foot deck too.
+- **Cause unknown.** Do not connect to Greg's Step Keeper, K-14 family, Ch351 feed issue, or any other object/system merely because vocabulary overlaps.
+- North ford remains alternate but river is rising from upper rain; if another hand, wagons may close.
+- Center bridge is reduced-load city traffic and not cleared for outbound maintenance convoy.
+- Trial convoy reaches Merecross by north route after roughly four-hour diversion.
+
+## Merecross lodging / accessibility
+- Original contracted ground room at south public house is lost after delay notice/reassignment.
+- North transit annex only has upstairs bunks (22 steps + landing + 12, rail both sides first flight/left only second). Greg could climb but challenges loss as transit-caused accessibility failure rather than proving himself.
+- Pavin agrees and authorizes equivalent ground room up to **4c**.
+- Inns crowded by closure. Greg chooses nearby available ground room priced **5c**, transit covers 4c, Greg voluntarily pays **1c difference** rather than travel six more streets for possible 4c room.
+- This is economic progression: one copper buys convenience after exhausting travel day, not scarcity crisis.
 
 ## Economy
-- Greg begins **7c**.
-- Vale referral task pays total **3c** after Mara accepts/client confirms.
-- Theatre training pays **1c**.
-- Greg ends **11c private cash**.
+- Greg begins **11c**.
+- Ch380 contract's 4c travel/meeting payment is **not yet stated paid**. Do not add until payment occurs.
+- Greg pays **1c personal lodging difference** in Merecross.
+- Greg ends **10c private cash**.
 - Vale remains **23c principal-equivalent**.
 - Bits unspecified.
-- Client's 3c Mara inspection fee is separate and not Greg's money.
-- Greg is now 1c above pre-Step-Keeper cash while still owning Step Keeper; recovery came from social/work access, not artifact monetization.
+- Transit-covered travel/meals/lodging are not Greg cash spend except explicit 1c difference.
 
-## Magic / artifacts
+## Communication / return status
+- Greg sends eastbound transit note before closure worsens:
+  - tells Cala/Lyssa he reached Merecross;
+  - South River wagon span closed;
+  - convoy entered north;
+  - return may delay;
+  - Greg is fine;
+  - transit covering work delay;
+  - will send again when route known;
+  - tells Tavi rock visited Bell Ford.
+- Dispatch leaves east at dawn; information has travel time and may take until following evening or later to reach Carrow.
+- By chapter end South span fully closed, north ford threatened by rising river, outbound convoy not cleared, and **scheduled day-3 return is unlikely**.
+- Greg can theoretically leave independently north via **Alder Basin**, then reconnect east in roughly **4-6 days depending seats**, at his own cost unless transit authorizes alternate return.
+- Lodging remains covered while contracted return unavailable.
+- Greg's exact home date is now **UNKNOWN**.
+
+## Greg emotional movement
+- Leaving Carrow is harder precisely because he has learned staying/belonging.
+- Bell Ford becomes recognizable rather than exotic.
+- Merecross does not know Greg or care about his Carrow reputation. This is both excellent and terrible to him.
+- First-life scale returns: map has directions again, but unlike first life Greg now has a home behind him.
+- Final notebook crosses out `EXPECTED 2 NIGHTS` and writes **`HOME DATE UNKNOWN.`**
+- Greg feels a little fear and interprets it as `Alive good.`
+- Closing identity: `Delegate. / For what, exactly, tomorrow could decide.`
+
+## Magic
 - No Greg mana use. Magic remains **59 / 53 / 129**.
-- Old Ford Step Keeper remains locked/untested.
-- Greg opens chest only to file papers and does not touch housing.
-- Three Reeds, holdfast, K-14-6, oval unchanged/unactivated.
-- Chest crowding remains future storage pressure.
+- Merecross load-stone phenomenon is infrastructure behavior, not Greg magic.
 
 ## Dialogue variance
-- Vale dry/procedural/economic, but not a Greg clone; his logic centers transaction boundaries.
-- Mara terse specialist boundary-setting.
-- Apprentice **Siv** protects Mara's schedule and insists lunch remains lunch because Mara told Siv to write it. Useful subordinate voice/relationship.
-- Lyssa practical craft language and metaphor (`your asking has elbows`).
-- Cala household/social ethics expressed through questions rather than lecture.
+- Harl: older practical driver, talks to horses as coworkers, colorful insults.
+- Rell Dask: fast procedural speech, self-interrupting, risk logic.
+- Pavin: quiet clerk who becomes precise when authority/routing matters.
+- Sella: operational, concise.
+- Lyssa: relationship concern + teasing; not dry-comeback machine.
+- Cala: practical household questions.
 
 ## Recent role ledger
-- 375 THE LAMPLIGHTER
 - 376 THE PASSENGER
 - 377 THE NEIGHBOR
 - 378 THE USHER
 - 379 THE BROKER
+- 380 THE DELEGATE
 
 ## Protected uncertainties
-- Orsen/Mara inspection conclusion unresolved. Do not force recurrence unless useful.
-- K-14-9 exact nature unresolved.
-- K-14-6 exact mechanism/system/value remains unresolved; K-14 now confirmed yard family only, not artifact class.
-- Greg future referral/broker work frequency unresolved.
-- Lyssa heat-cloth sample acceptance/outcome/payment unresolved.
-- Treated-weave exact properties beyond handling observations unresolved.
-- Rear aisle lamp feed-collar cause unresolved.
-- West-gallery rail prior complaints/response unresolved.
-- Maro ankle recovery unresolved.
-- Hanging Road reopening decision unresolved.
-- Old Ford Step Keeper exact mechanism/current response/missing mate/value unresolved; remains untested.
-- Bell Ford bridge bells/history unresolved.
-- Three Reeds full mechanism/safe duration/resale unresolved.
-- Holdfast exact function/fixture/safe load/direction/release unresolved.
+- **Merecross South River span cause and repair timeline unresolved.**
+- Whether north ford closes under rising river unresolved.
+- Greg's return route/date unresolved and should remain unresolved long enough to support major away arc.
+- Merecross access meeting content/outcome/payment unresolved.
+- Whether transit retains Greg for extra duty unresolved.
+- Alder Basin and north/east alternate route specifics unresolved.
+- Load-stone mechanism and relation to local bridge systems unresolved. Do not connect to Step Keeper/K-14 without evidence.
+- Carrow response to Greg's message unresolved due travel time.
+- Theatre next call after Greg's return unresolved.
+- Lyssa full heat-cloth sample acceptance/outcome/payment unresolved.
+- Orsen/Mara K-14-9 inspection conclusion unresolved.
+- K-14-6 exact mechanism/system/value unresolved.
+- Old Ford Step Keeper exact mechanism/current response/missing mate/value unresolved and physically remains in Carrow.
+- Three Reeds full mechanism/safe duration/resale unresolved and remains in Carrow.
+- Holdfast exact function/fixture/safe load/direction/release unresolved and remains in Carrow.
+- Oval-long-mile relation unresolved; oval is with Greg but unactivated.
 - Crawler-case classification/north-batch situation unresolved.
 - Next Hessa axis/timing unresolved.
 - Porter harness authenticity/buckle-pin cost unresolved.
-- Future theatre route drill unresolved.
-- Full Vale agreement remains except current 23c.
+- Vale future work remains case-by-case; balance 23c.
 - Emberwing ecology unresolved.
 - South Cloth committee/final pose unresolved.
 - Marker Nine/North Secondary broader status unresolved.
-- Saret/South Quay future work unresolved.
-- Blue-hour and sky-ribbon mechanisms unresolved.
+- Blue-hour/sky-ribbon mechanisms unresolved.
 - Ch348 copper-knot unresolved.
 - Ch351 feed-branch cause unresolved.
-- Oval-long-mile relation unresolved.
 - Privacy-clasp cause/current condition unresolved.
 - Blue harness buyer/motive/use unknown.
 
 ## Continuity issue
-- Ch360 exact prose 1-bit lunch has no established bit source after Ch359 0 bits. Do not silently invent. Ch361-379 avoid Greg bit accounting. Copper exact **11c**.
+- Ch360 exact prose 1-bit lunch has no established bit source after Ch359 0 bits. Do not silently invent. Ch361-380 avoid Greg bit accounting. Copper exact **10c**.
 
-## Chapter 380 trailhead
-Follow next actual claim from Ch379/current authority.
+## Chapter 381 trailhead
+Follow next actual claim from Ch380/current authority.
 
-Recent rhythm: theatre public access work -> **paid information routing / ethics / earning-access expansion**, with promised training handled off-axis.
+**MAJOR ARC INSTRUCTION:** do not solve bridge and send Greg home. The intended move is a long away-from-Carrow adventure arc, potentially an entire act / near-book-length. The two-night trip was the believable doorway, not the duration.
 
-Do not immediately repeat:
-- another Vale referral/broker task;
-- Mara's Orsen inspection as primary chapter unless result materially changes a larger thread;
-- theatre shift/training;
-- Lyssa contract negotiation;
-- immediate Step Keeper bench-test chapter.
+Greg begins in **Merecross**, **10c cash / 23c Vale / exact bits unspecified**, magic **59 / 53 / 129**. Oval in bag. Other major artifacts are physically back in locked Carrow chest.
 
-Greg begins **11c cash / 23c Vale / no guaranteed next call / exact bits unspecified**.
-Magic remains **59 / 53 / 129**.
-Greg now has more optionality than before Step Keeper purchase plus broader earning lanes. Do not reset him into scarcity anxiety over ordinary copper choices.
+Immediate live claims:
+- first-bell transit reconvening;
+- bounded Merecross access/user-perspective meeting still owed;
+- South River span fully closed after anomalous extra load-stone returns;
+- north ford threatened by rising river;
+- convoy return not cleared;
+- Greg may accept or decline extra local duty;
+- message to home is in transit, not instant.
 
-Strong Ch380 routes:
-- external/public fantasy event with materially different scene grammar;
-- relationship collision/obligation where money cannot solve choice;
-- credible artifact opportunity that is **too expensive even at 11c**, pulling economic ceiling upward without making market stupid;
-- information about an existing artifact through world systems without immediate home lab testing;
-- travel/invitation/task that forces Greg to choose among work, people, and curiosity.
+Do not make Ch381 a technical bridge-diagnosis chapter where Greg becomes engineer. He can witness, route, carry, compare bounded experience, or be pulled into consequences.
+Do not make Step Keeper secretly solve Merecross from hundreds of miles away or through convenient similarity.
+Do not immediately choose Alder Basin merely to prolong trip. Let actual pressures/opportunities generate route.
+Do not spend whole chapter worrying about home. Greg chose to continue. Let curiosity/adventure breathe.
 
-Artifact pressure should now become more materially tempting again. Greg has shown restraint for several chapters and has recovered liquidity. A real desirable object/access opportunity can appear, but avoid simply repeating auction bidding or `walk away because expensive` unless there is a new consequence/route to acquisition.
+Strong arc-development routes:
+- Merecross meeting exposes a regional institution, market, route, artifact ecosystem, or person that creates reason to remain/move onward independent of bridge repair;
+- bridge closure causes rerouted goods/people/problems that collide with Greg's skills and social instincts;
+- Greg meets someone whose agenda travels beyond Merecross;
+- a desirable artifact or specialist opportunity appears at a price/condition requiring larger economic thinking, work, favor, travel, or partnership rather than simple purchase;
+- local magical ecology or infrastructure creates a problem where Greg's old-life competence matters but does not make him omniscient;
+- Greg's absence starts creating meaningful but delayed Carrow consequences through letters, missed calls, money, or relationships.
 
-**MANDATORY TITLE CHECK CH380:** answer `Who is Greg being?` before title. Use THE [ROLE].
+The away arc should gain its own temporary cast and social density rather than feeling like empty road between Carrow scenes.
+
+**MANDATORY TITLE CHECK CH381:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
