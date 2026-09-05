@@ -25,6 +25,15 @@
 - Chapter 300 is explicitly not a structural milestone. Structural boundaries continue to follow actual story movement only.
 - Eventual title-defining leg loss remains flexible long-range architecture, not a countdown.
 
+### New outward-pressure permission
+- Carrow has accumulated enough home texture that the manuscript may now begin naturally noticing credible reasons for Greg to leave the city for sustained travel.
+- This is a **permission / pressure**, not a requirement that Chapter 301 launch the adventure.
+- Favor outward hooks arising from paid work, provenance, materials, a retrieval/escort need, an existing person's obligation, curiosity with practical value, or multiple modest incentives converging.
+- Greg may notice an offer is suspicious and still accept later if his explanation for the hidden risk is reasonable and the reward / access / curiosity / obligation is worth it by his standards.
+- A useful first major adventure may place Greg inside somebody else's emotional or mythic story rather than making him the chosen person or romantic center.
+- Familiar fantasy scaffolding is allowed. A recognizable escort, retrieval, caravan, ruin, hunt, tournament, or dangerous-route frame is not a failure if PLG's existing social, economic, material, and magical logic reshape it.
+- Do not inject gods, universal cosmic rankings, constant rare shifters, or a mythology dump merely because outward adventure is now available.
+
 ## Money / capital
 - Greg still holds **three private client copper** upstairs.
 - Ch300 spends none and earns nothing.
@@ -137,7 +146,9 @@ At chapter end Greg is home after the bench-court outing, uninjured; crutches, s
 
 Greg has no guaranteed client, Miri return, Pellin visit, Nara follow-up, Hessa appointment, second far test, Vara/Ren/kite follow-up, regular Tavi outing, Mera follow-up, Olan lesson, Lyssa delivery task, Nemi/music follow-up, bridges invitation, high-line/Tess follow-up, Pella/Rusk/kessa follow-up, ecology assignment, ward-water contact, shade-fish task, bead replacement, bag follow-up, rain-thread need, Sera follow-up, lantern-house visit, Maro follow-up, theatre call, rehearsal job, referral agreement, Maren/Rell follow-up, Jori appraisal, clasp hold, Hollen shift, Vale meeting, Guild consultation, animal assignment, Savin appointment, civic hearing, Green Coat encounter, or Lyssa-network obligation.
 
-Let Chapter 301 follow the next actual claim from household, paid work only if genuinely activated, city/social life, theatre only if genuinely reactivated, pressure only if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft only through a genuinely fresh lived claim, magical infrastructure only if independently activated, a capital opportunity with actual demand/value, or another ordinary fantasy-world demand.
+**New permission at the edge:** Chapter 301 or later may naturally introduce a small outward-facing fact, person, object, rumor, paid possibility, route, or obligation if the scene independently earns it. The first appearance does not need to become an immediate contract. Greg may dismiss, decline, misunderstand, or simply remember it. Prefer accumulation over a neon quest marker.
+
+Let Chapter 301 follow the next actual claim from household, paid work only if genuinely activated, city/social life, theatre only if genuinely reactivated, pressure only if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft only through a genuinely fresh lived claim, magical infrastructure only if independently activated, a capital opportunity with actual demand/value, another ordinary fantasy-world demand, **or a credible outward-facing opportunity whose first function is to widen the horizon rather than force departure immediately**.
 
 Do not automatically rotate through Vara/Ren/blue horse/lift bead/drift web, Mera/basket/carry tie/Olan, Hessa/near/middle/far, high line/Tess, Pella/Rusk/kessa jumpers, Nemi/music/hold bead, bridges/Vela/Orra/Demin/Sot, shopping/soap/mint, bag/stay bead, shade fish/water list/sun-turn bead, door closer/Sella/Olan, rain shelf/rain thread, Lyssa dark-blue/brown-cuff work, ward paving/tamp charms, Miri/Pellin/cooling cups, Nara/Daro, carrying light/Sera/lantern house, Maro/dry seal, chaffers, paper wholesale, Pavin/Teren, Rell/Maren/Jori, Halei/Trine, Kes/clasp, copperbacks, mask/Sivi, whitewall, scale work, Green Coat/Senn, Savin, Lyssa protected materials, bellthroats, ditchrunners/Edrin, Hollen/Pem, Vale, older pressure, or eventual leg-loss architecture merely because available.
 
