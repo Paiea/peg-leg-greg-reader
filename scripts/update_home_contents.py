@@ -8,7 +8,7 @@ from pathlib import Path
 
 START = '<!-- READER BOOK CONTENTS START -->'
 END = '<!-- READER BOOK CONTENTS END -->'
-TOC_OPEN = '<section aria-labelledby="chapters-heading" class="toc toc-acts" id="chapters">'
+TOC_OPEN = '<section aria-labelledby="books-heading" class="toc toc-acts" id="books">'
 BOOK_CSS = '<link href="assets/book-contents.css" rel="stylesheet"/>'
 
 
@@ -35,8 +35,6 @@ def load_manifest_chapters(path: Path) -> dict[int, str]:
 
 
 def chapter_href(number: int) -> str:
-    # This is the Illustrated Reader contents page. Its chapter grid must stay
-    # in illustrated mode instead of silently routing later chapters to Light.
     return f'chapters/{number:03d}.html'
 
 
@@ -69,18 +67,21 @@ def patch_home_contents(text: str, rendered_books: str) -> str:
         _, after = rest.split(END, 1)
         return before + replacement + after
 
-    start = text.find(TOC_OPEN)
-    if start < 0:
-        raise ValueError('illustrated contents section not found')
-    end = _find_section_end(text, start)
-    return text[:start] + replacement + text[end:]
+    for toc_open in (TOC_OPEN, '<section aria-labelledby="chapters-heading" class="toc toc-acts" id="chapters">'):
+        start = text.find(toc_open)
+        if start >= 0:
+            end = _find_section_end(text, start)
+            return text[:start] + replacement + text[end:]
+    raise ValueError('illustrated contents section not found')
 
 
-def render_home_contents(
-    chapters: dict[int, str],
-    *,
-    illustrated: bool = True,
-) -> str:
+def patch_home_heading(text: str) -> str:
+    text = text.replace('aria-labelledby="chapters-heading" class="home-chapters"', 'aria-labelledby="books-heading" class="home-chapters"', 1)
+    text = text.replace('<p class="home-kicker">Read straight through</p>\n<h2 id="chapters-heading">Chapters</h2>', '<p class="home-kicker">The novel</p>\n<h2 id="books-heading">Books</h2>', 1)
+    return text
+
+
+def render_home_contents(chapters: dict[int, str], *, illustrated: bool = True) -> str:
     from reader_sections import render_book_sections
 
     links = {
@@ -92,7 +93,7 @@ def render_home_contents(
         )
         for number, title in sorted(chapters.items())
     }
-    return render_book_sections(links, illustrated=illustrated, open_first_act=True)
+    return render_book_sections(links, illustrated=illustrated)
 
 
 def main() -> int:
@@ -100,15 +101,12 @@ def main() -> int:
     light_manifest = Path('light/manifest.json')
     index_path = Path('index.html')
 
-    # Preserve the durable early chapter index, then let the generated manifest
-    # extend and refresh it. The handwritten index has historically lagged the
-    # manuscript endpoint, while the manifest is generated from exact authority.
     chapters = parse_chapter_index(chapter_index.read_text(encoding='utf-8'))
     chapters.update(load_manifest_chapters(light_manifest))
 
     original = index_path.read_text(encoding='utf-8')
     rendered = render_home_contents(chapters, illustrated=True)
-    updated = ensure_stylesheet(patch_home_contents(original, rendered))
+    updated = patch_home_heading(ensure_stylesheet(patch_home_contents(original, rendered)))
     if updated != original:
         index_path.write_text(updated, encoding='utf-8')
         print(f'updated illustrated Book/Act contents through Chapter {max(chapters)}')
