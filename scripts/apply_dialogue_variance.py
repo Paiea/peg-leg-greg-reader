@@ -299,9 +299,10 @@ def validate_batch_contract(edge: int, batches: list[Path]) -> list[Patch]:
     patches: list[Patch] = []
     seen_patch_ids: dict[str, str] = {}
     for start, end, path in ranged:
-        batch_patches = parse_batch(path.read_text(encoding='utf-8'))
-        if not batch_patches:
-            raise AssertionError(f'{path.name}: contains no patches')
+        batch_text = path.read_text(encoding='utf-8')
+        if not batch_text.strip():
+            raise AssertionError(f'{path.name}: contains no patches or review content')
+        batch_patches = parse_batch(batch_text)
         for patch in batch_patches:
             if not start <= patch.chapter <= end:
                 raise AssertionError(
