@@ -1,5 +1,5 @@
 {
-  "latest": 377,
+  "latest": 378,
   "chapters": [
     {
       "number": 100,
@@ -1668,6 +1668,12 @@
       "title": "THE NEIGHBOR",
       "source": "checkpoint",
       "path": "377.html"
+    },
+    {
+      "number": 378,
+      "title": "THE USHER",
+      "source": "checkpoint",
+      "path": "378.html"
     }
   ]
 }
