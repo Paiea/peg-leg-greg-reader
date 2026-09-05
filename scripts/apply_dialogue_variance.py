@@ -55,12 +55,19 @@ def parse_batch(text: str) -> list[Patch]:
         section = lines[i + 1:section_end]
         current_idx = next((j for j, line in enumerate(section) if line.strip().lower().startswith('current')), None)
         replace_idx = next((j for j, line in enumerate(section) if line.strip().lower().startswith('replace')), None)
-        if current_idx is not None and replace_idx is not None and replace_idx > current_idx:
-            reason_idx = next((j for j in range(replace_idx + 1, len(section)) if section[j].strip().lower().startswith('reason:')), len(section))
-            current = _code_lines(section[current_idx + 1:replace_idx])
-            replacement = _code_lines(section[replace_idx + 1:reason_idx])
-            if current and replacement:
-                patches.append(Patch(chapter, patch_id, current, replacement, section[replace_idx].strip()))
+        if current_idx is None:
+            raise AssertionError(f'{patch_id}: missing Current section')
+        if replace_idx is None:
+            raise AssertionError(f'{patch_id}: missing Replace section')
+        if replace_idx <= current_idx:
+            raise AssertionError(f'{patch_id}: Replace section must follow Current section')
+        reason_idx = next((j for j in range(replace_idx + 1, len(section)) if section[j].strip().lower().startswith('reason:')), len(section))
+        current = _code_lines(section[current_idx + 1:replace_idx])
+        replacement = _code_lines(section[replace_idx + 1:reason_idx])
+        if not current:
+            raise AssertionError(f'{patch_id}: has no Current prose')
+        if replacement:
+            patches.append(Patch(chapter, patch_id, current, replacement, section[replace_idx].strip()))
         i = section_end
     return patches
 
@@ -246,7 +253,7 @@ def selected_batches(edge: int) -> list[Path]:
     selected: list[Path] = []
     for path in sorted(BATCH_DIR.glob('BATCH_*.md')):
         match = BATCH_NAME_RE.fullmatch(path.name)
-        if match and int(match.group(2)) < edge:
+        if match and int(match.group(1)) < edge:
             selected.append(path)
     return selected
 
@@ -286,6 +293,8 @@ def validate_batch_contract(edge: int, batches: list[Path]) -> list[Patch]:
             )
 
         batch_patches = parse_batch(path.read_text(encoding='utf-8'))
+        if not batch_patches:
+            raise AssertionError(f'{path.name}: contains no patches')
         for patch in batch_patches:
             if not start <= patch.chapter <= end:
                 raise AssertionError(
