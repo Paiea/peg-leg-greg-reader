@@ -72,6 +72,14 @@ def verify_reader_frontier(
     if f'href="../chapters/{latest:03d}.html"' not in light_text:
         raise AssertionError('Text page does not link matching Illustrated chapter')
 
+    if latest > 1:
+        previous = latest - 1
+        expected_previous = f'rel="prev" href="{previous:03d}.html"'
+        if expected_previous not in illustrated_text:
+            raise AssertionError('Illustrated latest previous link is stale')
+        if expected_previous not in light_text:
+            raise AssertionError('Text latest previous link is stale')
+
     index_text = (root / 'index.html').read_text(encoding='utf-8')
     light_index_text = (root / 'light' / 'index.html').read_text(encoding='utf-8')
     expected_book_range = f'Chapters 321–{latest}'
