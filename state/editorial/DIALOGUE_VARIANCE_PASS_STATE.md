@@ -49,14 +49,14 @@ Other characters may be funny, dry, clever, sarcastic, or terse. The goal is not
 
 ## Sequential coverage ledger
 
-- Chapters **1-40: VARIANCE REVIEWED**
-- Chapters **41-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-45: VARIANCE REVIEWED**
+- Chapters **46-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 41**
+Current sequential variance edge: **Chapter 46**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_036_040.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_041_045.md`
 
 Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_001_005.md`
@@ -67,12 +67,13 @@ Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_026_030.md`
 - `state/editorial/dialogue-variance-pass/BATCH_031_035.md`
 - `state/editorial/dialogue-variance-pass/BATCH_036_040.md`
+- `state/editorial/dialogue-variance-pass/BATCH_041_045.md`
 
 Existing out-of-sequence pilot work:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches remain useful evidence but do not bridge the unreviewed 41-320 gap.
+Those later batches remain useful evidence but do not bridge the unreviewed 46-320 gap.
 
 ## Chapters 1-5 result
 
@@ -138,22 +139,30 @@ Those later batches remain useful evidence but do not bridge the unreviewed 41-3
 - Chapter 39 `THE PARTNER`: **light variance patch required**. The rotating spar naturally differentiates speech. Replace one Alden `Face` line with the exact physical tell he exploited: Greg stopped watching his feet.
 - Chapter 40 `THE TESTER`: **strong variance patch required**. Arlo/Vessa workshop cognition is excellent, but face/eyebrow prediction and catchphrase-density remain high. Shift those beats into fixture-first test order, direct conversational evidence, and a concrete processed-kestrin sorting answer.
 
+## Chapters 41-45 result
+
+- Chapter 41 `THE BUYER`: **moderate variance patch required**. Dorrin's trade voice is strong, but an incidental yard worker and one Dorrin beat overuse instant Greg-calibration. Replace psychology prediction with bin safety and transaction evidence.
+- Chapter 42 `THE TROUBLESHOOTER`: **light variance patch required**. Freight-yard role separation is healthy. Replace one incidental Jalen `you look like you didn't` counter with the literal fact that Greg arrived at the wrong site first.
+- Chapter 43 `THE PORTER`: **strong variance patch required**. Labor and Mevi material are excellent; Rusk plus the late Vessa/Arlo scene stack too many comic `No` buttons. Shift toward staffing, inventory/storage classification, material grade, quantity, and visible burden.
+- Chapter 44 `THE PATIENT`: **moderate variance patch required**. Hessa remains clean. Holl's commercial tolerance voice is strong, but the late process-redesign exchange gives a first substantial acquaintance too much predicted-question/`No` machinery. Make the boundary about shop time and the actual one-operator test bottleneck.
+- Chapter 45 `THE ESCORT`: **light variance patch required**. Pessa/Merrit/Sova road ecology is healthy. Replace Dorn's first-day `Face said maybe` with a literal boundary around the onion Greg just used as an example.
+
 ## High-value watch targets
 
 ### 1. Incidental stranger optimization
-One-scene clerks, merchants, couriers, sellers, guards, and passersby should not automatically arrive ready to volley with Greg at full speed.
+One-scene clerks, merchants, couriers, sellers, guards, workers, and passersby should not automatically arrive ready to volley with Greg at full speed.
 
 ### 2. Recurring-character register density
-A recurring character may legitimately be dry. Review density, not mere presence. Arlo and Antonius can both be terse, but they should not repeatedly win the same kind of joke.
+A recurring character may legitimately be dry. Review density, not mere presence.
 
 ### 3. Shared dryness versus shared machinery
 Healthy overlap can come from different engines. High-risk convergence is everybody predicting Greg's question, using the same polished `No`, converting uncertainty into a neat one-liner, or landing the counterpunch before returning to work.
 
 ### 4. Safety `No`, job `No`, and comedy `No`
-Do not purge short refusal mechanically. A refusal is character-owned when refusing is the work. It becomes convergence when used repeatedly as a punchline ladder rather than a real decision.
+Do not purge short refusal mechanically. A refusal is character-owned when refusing is the work. It becomes convergence when used repeatedly as punchline punctuation.
 
 ### 5. Let actions replace rebuttals
-For operational characters, an action may carry the voice better than another perfect line: move the crate, cover the ledger, inspect the pallet, set the regulator beside the hand pump, point to the damaged part, or return to the bench.
+For operational characters, an action may carry the voice better than another perfect line.
 
 ### 6. Specialists may earn longer lines
 A slightly longer specialist answer is not dialogue bloat when it explains the exact variable that matters.
@@ -165,31 +174,31 @@ Danger, fatigue, embarrassment, fear, money pressure, attraction, grief, pain, b
 A person speaking to Greg, a customer, authority, subordinate, lover, friend, or stranger should not sound mechanically identical.
 
 ### 9. Productive imperfection
-Protect occasional overexplaining, awkward wording, missed jokes, bad metaphors, fillers, repeated points, incomplete thoughts, literal answers, defensive qualification, delayed understanding, and silence where a polished comeback would otherwise appear.
+Protect occasional overexplaining, awkward wording, missed jokes, bad metaphors, fillers, repeated points, incomplete thoughts, literal answers, defensive qualification, delayed understanding, and silence.
 
 ### 10. Intentional convergence can be character evidence
-Greg and Alden can deliberately land on the same line or rhythm when the prose recognizes that compatibility as meaningful. Relationship-owned convergence can increase while cast-wide convergence decreases.
+Relationship-owned convergence can increase while cast-wide convergence decreases.
 
 ### 11. Repeated face-reading is a specific watch target
-One person learning Greg's tells can be relationship evidence. Everyone learning `the face` becomes project-wide shorthand. Prefer role-specific evidence when available.
+One person learning Greg's tells can be relationship evidence. Everyone learning `the face` becomes project-wide shorthand.
 
 ### 12. Role authority should sound like responsibility, not universal cleverness
-Useful discriminators include clerk/assignment, Edrin/custody, Jorren/feet and fatigue, Octavia/freight, Ressa/intake, Doven/current command problem, Iris/rescue route, healer/symptoms, Arlo/mechanism, Rusk/scope, Etta/worksite objective.
+Useful discriminators include clerk/assignment, Edrin/custody, Jorren/feet and fatigue, Octavia/freight, Ressa/intake, Doven/current command problem, Iris/rescue route, healer/symptoms, Arlo/mechanism, Rusk/scope, Etta/worksite objective, Dorrin/grade-price-customer boundary, Holl/sale band and shop time, Pessa/road continuity.
 
 ### 13. Relationship calibration should have a ramp
 A recurring character may eventually learn Greg's tells and timing. First contact should usually begin with role, request, shared task, or ordinary social uncertainty.
 
 ### 14. Crowd mess is useful voice ecology
-Do not over-clean crowd and witness speech. Vague landmarks, irrelevant family details, secondhand rumor, frightened repetition, wrong answers, and practical needs make the world feel populated.
+Do not over-clean crowd and witness speech.
 
 ### 15. Stress can create variance without speech gimmicks
 Combat and rescue can naturally narrow language through urgency, repetition, incomplete commands, profession-specific answers, adrenaline, and misunderstanding.
 
 ### 16. Familiarity should change workflow, not merely repeat jokes
-A recurring professional knowing Greg is strongest when prior exposure changes what they do. Repeated predictive `No` jokes are weaker continuity than changed procedure.
+Repeated predictive `No` jokes are weaker continuity than changed procedure.
 
 ### 17. Cross-domain disagreement is valuable
-Kellan/butcher and Arlo/Vessa are positive references. Competent specialists can privilege different evidence without one becoming the manuscript's designated correct mind.
+Competent specialists can privilege different evidence without one becoming the manuscript's designated correct mind.
 
 ### 18. Ordinary family argument is anti-compression texture
 Protect ordinary irrational attachment, old grievances, literal child logic, and family shorthand.
@@ -198,32 +207,42 @@ Protect ordinary irrational attachment, old grievances, literal child logic, and
 Hessa should recognize Greg through claims, variables, body behavior, and permission-seeking. Arlo through test order, touching, mechanism expansion, and workshop risk. Jorren through embodied or ordinary social habits. Alden can recognize a wider range because sustained proximity is itself part of the relationship.
 
 ### 20. Present vocation can resist future potential
-Rinna is a positive reference. Greg's ability to imagine leverage does not make that leverage the objective ranking of another person's life.
+Greg's ability to imagine leverage does not make that leverage the objective ranking of another person's life.
 
 ### 21. Independent social ecosystems protect world voice
-Chapter 35 is a positive reference. People should have routines, family, work schedules, chairs, food, local debts, and relationships that do not originate with Greg.
+People should have routines, family, work schedules, chairs, food, local debts, and relationships that do not originate with Greg.
 
 ### 22. `Face` is now a manuscript-level shortcut
-The question is no longer whether recurring characters have earned perceptiveness. Several have. The problem is using the same label instead of more specific evidence.
-
-Prefer:
-- `you stopped pulling` at a millrace;
-- `you stopped watching my feet` in a spar;
-- `you stopped eating` before a lecture;
-- the exact claim Hessa heard Greg overextend;
-- the exact test Arlo knows Greg wants to skip toward.
+Prefer specific evidence: stopped pulling, stopped eating, stopped watching feet, exact overclaim, exact skipped test, or the object/transaction in front of the person.
 
 ### 23. Physical proximity should produce physical evidence
-People sharing labor or combat with Greg have access to grip, feet, breath, hesitation, gaze, stopped motion, dropped pace, changed stance, and pain behavior. Use those before generic psychological shorthand.
+People sharing labor or combat with Greg have access to grip, feet, breath, hesitation, gaze, stopped motion, dropped pace, changed stance, and pain behavior.
 
 ### 24. Familiarity can anticipate categories without predicting sentences
-Arlo can know Greg will want a magical test. Antonius can know Silas Marris means exposure. Hessa can know a good result will lead to a permission request. They do not need to predict the exact next line.
+A recurring character can know the kind of trouble Greg tends toward without scripting his next line.
 
 ### 25. Worksite nuisance framing is strong voice variance
-Etta treating river lizards as an interruption to gate repair is a positive reference. Different objectives create different speech naturally.
+Different objectives naturally create different speech.
 
 ### 26. Voice fingerprints should not become buttons
-Arlo's `depends`, Rusk's `No`, Hessa's claim-narrowing, and Jorren's physical corrections are tendencies, not macros. If a fingerprint repeats often enough to become expected punctuation, use the underlying cognition instead.
+Arlo's `depends`, Rusk's `No`, Hessa's claim-narrowing, and Jorren's physical corrections are tendencies, not macros.
+
+### 27. First-contact perceptiveness should be expensive
+A stranger can notice obvious behavior. They should not instantly possess the same interpretive shorthand as Greg's closest recurring relationships.
+
+Prefer where Greg is standing, what he holds, what he just asked, whether he stopped moving, whether he is staring, and whether he is interrupting the work.
+
+### 28. Commercial boundaries are a distinct voice engine
+Dorrin and Holl are strongest when protecting transactions, customer information, sale bands, shop time, and product promises. That differs from Hessa's evidence limits and Antonius's exposure/repayment control.
+
+### 29. Worksite correction should often name the next action
+Rusk assigns, Mevi demonstrates, Holl returns to the current test, and Pessa keeps carts moving. Use the next action rather than another clever refusal when possible.
+
+### 30. Repetition can be healthy when the job justifies it
+Repeated short language is not automatically convergence. The question is whether it carries a real decision or merely familiar comic punctuation.
+
+### 31. Mundane complications create voice for free
+Wrong offices, chickens, storage fees, hot wheels, dogs, pigs, onions, wet cases, and awkward cargo interfaces force people to respond from ordinary priorities. Protect that texture.
 
 ## Guardrails
 
@@ -255,11 +274,11 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 41**.
+Resume sequentially at **Chapter 46**.
 
 Preferred bounded queue: **5 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 41-45**.
+Next intended batch: **Chapters 46-50**.
 
 ## Restart prompt
 
