@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - 'reader/**'
+      - 'integration/**'
     paths:
       - 'state/manuscript/Peg_Leg_Greg_Running_Manuscript.md'
       - 'state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md'
@@ -12,6 +13,8 @@ on:
       - 'state/LIGHT_EDITION_STATE.md'
       - 'state/PROJECT_STATE.md'
       - 'state/READER_DESIGN_LAB.md'
+      - 'state/editorial/DIALOGUE_VARIANCE_PASS_STATE.md'
+      - 'state/editorial/dialogue-variance-pass/**'
       - 'chapters/*.html'
       - 'index.html'
       - 'scripts/generate_light.py'
@@ -20,6 +23,7 @@ on:
       - 'scripts/update_home_contents.py'
       - 'scripts/verify_light.py'
       - 'scripts/verify_reader_frontier.py'
+      - 'scripts/apply_dialogue_variance.py'
       - 'scripts/update_reader_navigation.py'
       - 'scripts/update_reader_presentation.py'
       - 'tests/test_*.py'
@@ -59,12 +63,14 @@ jobs:
         run: python scripts/update_home_contents.py
       - name: Test reader tooling
         run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Apply completed dialogue variance
+        run: python scripts/apply_dialogue_variance.py
       - name: Generate recovered Light range
         run: python scripts/generate_light.py 156-219
-      - name: Generate current Light range
-        run: python scripts/generate_light.py current
       - name: Generate current Illustrated range
         run: python scripts/generate_illustrated.py current
+      - name: Generate current Light range
+        run: python scripts/generate_light.py current
       - name: Update illustrated contents and cross-mode navigation
         run: |
           python scripts/update_reader_navigation.py index.html
@@ -74,6 +80,7 @@ jobs:
           python scripts/verify_light.py 156-219
           python scripts/verify_light.py current
           python scripts/verify_reader_frontier.py
+          python scripts/apply_dialogue_variance.py --check
           test -f light/156.html
           test -f light/219.html
           test -f light/220.html
