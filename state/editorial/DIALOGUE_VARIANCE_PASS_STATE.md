@@ -32,14 +32,14 @@ Greg remains the gravitational center of short dry compressed comic reduction. O
 
 ## Sequential coverage ledger
 
-- Chapters **1-120: VARIANCE REVIEWED**
-- Chapters **121-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-125: VARIANCE REVIEWED**
+- Chapters **126-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 121**
+Current sequential variance edge: **Chapter 126**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_116_120.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_121_125.md`
 
 Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_001_005.md`
@@ -66,24 +66,25 @@ Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_106_110.md`
 - `state/editorial/dialogue-variance-pass/BATCH_111_115.md`
 - `state/editorial/dialogue-variance-pass/BATCH_116_120.md`
+- `state/editorial/dialogue-variance-pass/BATCH_121_125.md`
 
 Existing out-of-sequence pilot work:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches remain useful evidence but do not bridge the unreviewed 121-320 gap.
+Those later batches remain useful evidence but do not bridge the unreviewed 126-320 gap.
 
-## Chapters 1-115 result
+## Chapters 1-120 result
 
-Durable chapter-level findings and exact replacement prose remain preserved in the prior sequential batch files `BATCH_001_005.md` through `BATCH_111_115.md`.
+Durable chapter-level findings and exact replacement prose remain preserved in the prior sequential batch files `BATCH_001_005.md` through `BATCH_116_120.md`.
 
-## Chapters 116-120 result
+## Chapters 121-125 result
 
-- Chapter 116 `THE PROMPTER`: **no variance change required**. Lyssa's reads are grounded in accumulated relationship behavior, while the theatre's rough prompting heuristics are productively corrected by Teren's person-specific cue logic.
-- Chapter 117 `THE REPEAT`: **light variance patch required**. Hessa's repeatability logic is strong; replace one `six yeses` face-reading beat with a direct response to Greg's spoken accumulation of evidence.
-- Chapter 118 `THE STAND-IN`: **light variance patch required**. Theatre ecology remains strong; replace one predictive `No / you were about to` recruitment beat with the immediate practical fact that Greg can read and is available.
-- Chapter 119 `THE SECOND ROUTE`: **no variance change required**. Pessa's physical-choice voice is strong; preserve her incorrect prediction about Greg's rope question as useful fallibility and keep her jurisdiction narrowed to `In this yard.`
-- Chapter 120 `THE REPEATER`: **no variance change required**. Hessa keeps related observations separate instead of collapsing them into one score, and the compact dialogue stays tied to specific experimental variables.
+- Chapter 121 `THE REGULAR`: **no variance change required**. Greg becomes a regular through sightlines, chair placement, page holding, prop handling, and stage traffic rather than ceremonial belonging; theatre voices remain locally distinct.
+- Chapter 122 `THE REACHER`: **no variance change required**. Hessa's first bounded external test stays apparatus-first, physically observable, and causally restrained; visible affect does not become hidden-sentence access.
+- Chapter 123 `THE ERRAND`: **no variance change required**. Lyssa's relationship shorthand opens questions rather than replacing Greg's report, and she remains person-level rather than becoming a magical or movement expert. Preserve the unresolved `Aileen` anomaly from attribution authority.
+- Chapter 124 `THE HORSE`: **light variance patch required**. Theatre ecology is strong; replace one generic Teren `the face` beat with scene-specific evidence about Greg inspecting the cloth and the horse illusion still working.
+- Chapter 125 `THE TEST CASE`: **moderate variance patch required**. Paired-thread methodology is strong; replace four surrounding hidden-process/prediction beats with baseline sequencing, current-mark instruction, bounded interpretation, and direct narrowing of the spoken differential claim.
 
 ## High-value watch targets
 
@@ -157,6 +158,11 @@ Durable chapter-level findings and exact replacement prose remain preserved in t
 - Spoken reasoning should outrank face-reading when both are available.
 - Being useful does not require being important. Temporary utility can strengthen social texture without making Greg institutionally central.
 - Productive repetition changes interpretation across attempts rather than merely restating the same conclusion.
+- Relationship shorthand is healthiest when it opens a question instead of replacing the other person's report.
+- Workflow integration can establish belonging without anyone naming belonging.
+- Specialists should prefer current professional consequence over generic protagonist commentary when both are available.
+- Expectation control should usually regulate setup, sequence, target, or interpretation rather than narrating Greg's exact internal optimization.
+- Imperfect art may stop at `works for the scene` where engineering would continue. Protected-object differences can produce radically different stopping conditions without making either character irrational.
 
 ## Guardrails
 
@@ -188,11 +194,11 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 121**.
+Resume sequentially at **Chapter 126**.
 
 Preferred bounded queue: **5 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 121-125**.
+Next intended batch: **Chapters 126-130**.
 
 ## Restart prompt
 
