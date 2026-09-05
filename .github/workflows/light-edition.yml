@@ -120,7 +120,7 @@ jobs:
           grep -q 'Illustrated Reader' light/index.html
           grep -q 'TEXT READER · CHAPTER 220' light/220.html
           grep -q 'Text-only reading · no chapter illustrations' light/220.html
-          if grep -R '#chapters' light/*.html light.html latest.html index.html; then
+          if grep -R '#chapters' light/*.html light.html latest.html index.html assets/light-progress.js; then
             echo 'stale #chapters anchor detected'
             exit 1
           fi
