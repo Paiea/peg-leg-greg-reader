@@ -47,6 +47,32 @@ Read prose aloud mentally. If the rhythm becomes predictable, change the instrum
 
 Favor dialogue that sounds like people doing something to one another, not characters exchanging state summaries. Let people misunderstand, answer sideways, interrupt, revise, refuse the premise, or leave something unsaid.
 
+For scene-level dialogue modulation, use `state/DIALOGUE_VARIANCE_ENGINE.md` alongside relevant recurring-character voice pages.
+
+A character's baseline voice is a center of gravity, not a fixed filter. Relationship, mood, social role, cognitive load, physical pressure, and what else is on the character's mind may bend sentence length, formality, confidence, response speed, humor, and willingness to explain.
+
+Do not randomize for novelty. Preserve recognizable identity while allowing variable performance.
+
+### Productive imperfection
+
+Editing can accidentally optimize everybody into the same competent, concise speaker.
+
+Preserve selective human irregularity when it creates character, comedy, pressure, or relationship texture:
+- sentence restarts;
+- nervous qualification;
+- delayed understanding;
+- bad metaphors;
+- overexplaining;
+- excessive formality;
+- answering the wrong part of a question;
+- telling a story instead of answering;
+- missing a joke;
+- unexpectedly failing to produce the clever line;
+- repeating something because the speaker cares;
+- becoming unusually terse because another concern is occupying them.
+
+Do not add these mechanically. One or two natural irregularities are often enough to keep an exchange from sounding machine-polished.
+
 ### Attribution: clarity first
 
 Use invisible dialogue tags **freely and more aggressively than earlier PLG prose sometimes did**.
@@ -80,6 +106,8 @@ The voice pages are craft authority, not canon. Exact manuscript dialogue outran
 
 Greg's voice is a strength. Do **not** weaken, neutralize, or genericize Greg to make the cast sound different. Move recurring speakers away from Greg through cognition, rhythm, relationship, and information behavior.
 
+Greg is the gravitational center of the project's short dry compressed counterpunch register. Other people may be witty, dry, sarcastic, fast, or funny, but do not distribute Greg's exact comic reduction architecture evenly across the cast.
+
 PLG may retain a shared dry comic sensibility. Shared Carrow colloquial speech, household language, theatre shorthand, and phrases learned from one another are allowed. Distinct voice does not mean maximal contrast.
 
 Differentiate through:
@@ -88,7 +116,9 @@ Differentiate through:
 - whether they pursue an argument, redirect it, refuse it, or let it die;
 - sentence length, hesitation, interruption, revision, silence, and response speed;
 - what they consider evidence, risk, work, humor, intimacy, disrespect, or a finished answer;
-- whether a joke is defensive, playful, impatient, performative, affectionate, accidental, or absent.
+- whether a joke is defensive, playful, impatient, performative, affectionate, accidental, or absent;
+- whether the speaker can actually keep up with Greg's timing;
+- whether relationship or current state makes them more formal, verbose, hesitant, literal, messy, or blunt than usual.
 
 Avoid accents invented after the fact, signature filler words, author-assigned catchphrases, or making everyone more colorful merely to prove variety.
 
@@ -117,6 +147,20 @@ A neighbor may confidently believe glowwings mean rain.
 
 Hessa should remain uniquely Hessa.
 
+### Comic register convergence warning
+
+A separate failure mode is that everybody becomes too good at the short dry comeback.
+
+Do not sharpen every supporting-character line merely because compression improves individual sentences. Sometimes the stronger scene contains:
+- a longer explanation Greg reduces;
+- a bad metaphor Greg cannot resist touching;
+- someone who does not understand the joke;
+- someone who understands it late;
+- someone too formal, nervous, earnest, distracted, angry, or practical to play along;
+- a speaker who keeps talking after Greg thinks the exchange is finished.
+
+If Greg could disappear from a scene and the remaining speakers would preserve almost exactly the same sarcastic cadence, Greg's register may have leaked into the cast.
+
 ### Voice test
 
 Hide the tags from a multi-turn Greg/recurring-character exchange. After several turns, speakers should usually become legible through priorities, rhythm, assumptions, and relationship.
@@ -124,6 +168,8 @@ Hide the tags from a multi-turn Greg/recurring-character exchange. After several
 Then restore the tags wherever clarity benefits.
 
 Ask not only `Who would say this?` but `Why would this person phrase the thought this way instead of Greg's way?`
+
+Also ask: `Why would this person phrase it this way today, to this person, in this mood?`
 
 ## Social texture / group memory
 
@@ -169,7 +215,8 @@ Hunt for:
 - side characters used only for plot delivery;
 - `this was growth` after behavior already proved growth;
 - repeated `not my job / not my profession / not a project` self-explanation;
-- Greg repeatedly narrating that he is not overclaiming after the dialogue/action already shows restraint.
+- Greg repeatedly narrating that he is not overclaiming after the dialogue/action already shows restraint;
+- multiple characters sharing the same compressed sarcastic beat pattern because the editor sharpened everyone toward the same optimum.
 
 Cut the paragraph after the good paragraph when it merely explains why the good paragraph was good.
 
@@ -252,6 +299,10 @@ After a substantial chapter edit ask:
 
 **PEOPLE**: Did the relevant recurring voice pages actually show up in cognition/rhythm rather than catchphrases? Did somebody besides Greg feel alive?
 
+**VARIANCE**: Did relationship, mood, scene pressure, or preoccupation naturally bend speech where appropriate, or did every character perform their baseline perfectly?
+
+**COMEDY**: Is Greg still the gravitational center of compressed dry humor, or did the entire room graduate from the same sarcasm academy?
+
 **ATTRIBUTION**: Could a listener follow who is speaking without visual bookkeeping, especially in 3+ speaker scenes?
 
 **SOCIAL WORLD**: Did anything feel as if it existed before Greg entered and will continue after he leaves?
@@ -272,6 +323,7 @@ If prose became fancier but harder to read, simplify it. If it became cleaner bu
 - verify body/prop/location continuity
 - inspect actual surrounding prose before broad stylistic judgments
 - consult relevant `state/voices/<CHARACTER>.md` for substantial recurring-character dialogue
+- use `state/DIALOGUE_VARIANCE_ENGINE.md` when dialogue variation, relationship modulation, mood, or comic-register separation matters
 - do not silently replace established social history with newly invented cleaner versions
 - do not let voice differentiation reduce dialogue attribution clarity
 
