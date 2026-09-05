@@ -26,6 +26,15 @@ class BookContentsCssTests(unittest.TestCase):
         self.assertNotIn('transition:', css)
         self.assertNotIn('transform:', css)
 
+    def test_book_summaries_are_touchable_and_current_book_is_obvious(self):
+        root = Path(__file__).parents[1] / 'assets'
+        base_css = (root / 'book-contents-base.css').read_text(encoding='utf-8')
+        self.assertIn('min-height: 44px', base_css)
+        self.assertIn('scroll-margin-top: 1rem', base_css)
+        self.assertIn('.reader-book[open] > .reader-book-summary', base_css)
+        self.assertIn('.reader-book-summary[aria-current="true"] .reader-book-title', base_css)
+        self.assertIn('.reader-book-summary:focus-visible', base_css)
+
 
 if __name__ == '__main__':
     unittest.main()
