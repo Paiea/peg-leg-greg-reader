@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import html
+import re
 from pathlib import Path
 
 import generate_light as gl
@@ -24,7 +26,19 @@ def discover_published_chapters(root: Path) -> list[int]:
     return numbers
 
 
-def verify_reader_frontier(root: Path, *, expected_latest: int | None = None) -> int:
+def page_h1(text: str) -> str:
+    match = re.search(r'<h1\b[^>]*>(.*?)</h1>', text, re.I | re.S)
+    if not match:
+        raise AssertionError('missing chapter h1')
+    return html.unescape(re.sub(r'<[^>]+>', '', match.group(1))).strip()
+
+
+def verify_reader_frontier(
+    root: Path,
+    *,
+    expected_latest: int | None = None,
+    expected_title: str | None = None,
+) -> int:
     numbers = discover_published_chapters(root)
     latest = numbers[-1]
     if expected_latest is not None and latest != expected_latest:
@@ -38,6 +52,14 @@ def verify_reader_frontier(root: Path, *, expected_latest: int | None = None) ->
         raise AssertionError(f'missing latest Illustrated page: {illustrated_page}')
     if not light_page.is_file():
         raise AssertionError(f'missing latest Text page: {light_page}')
+
+    illustrated_text = illustrated_page.read_text(encoding='utf-8')
+    if expected_title is not None:
+        illustrated_title = page_h1(illustrated_text)
+        if illustrated_title != expected_title:
+            raise AssertionError(
+                f'Illustrated title mismatch: expected {expected_title!r}, found {illustrated_title!r}'
+            )
 
     index_text = (root / 'index.html').read_text(encoding='utf-8')
     light_index_text = (root / 'light' / 'index.html').read_text(encoding='utf-8')
@@ -65,8 +87,13 @@ def main() -> int:
     if not all_chapters:
         raise SystemExit('no manuscript chapters found')
     manuscript_latest = max(all_chapters)
+    manuscript_title = all_chapters[manuscript_latest].title
     try:
-        latest = verify_reader_frontier(Path('.'), expected_latest=manuscript_latest)
+        latest = verify_reader_frontier(
+            Path('.'),
+            expected_latest=manuscript_latest,
+            expected_title=manuscript_title,
+        )
     except AssertionError as exc:
         raise SystemExit(str(exc)) from exc
     print(f'verified reader frontier through Chapter {latest}')
