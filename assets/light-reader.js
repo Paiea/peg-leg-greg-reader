@@ -10,19 +10,19 @@
   const jumpInput = document.querySelector('#light-chapter');
 
   const params = new URLSearchParams(location.search);
-  const requested = Number.parseInt(params.get('chapter') || '', 10);
+  const requested = Number(params.get('chapter') || '');
   const lightHref = (chapter) => `light.html?chapter=${chapter}`;
   const setStatus = (text) => { if (statusNode) statusNode.textContent = text; };
 
   const parsePublishedIndex = (html) => {
     const doc = new DOMParser().parseFromString(html, 'text/html');
     const chapters = [];
-    doc.querySelectorAll('#chapters a[href*="chapters/"]').forEach((a) => {
+    doc.querySelectorAll('#books a[href*="chapters/"]').forEach((a) => {
       const match = /chapters\/(\d+)\.html/.exec(a.getAttribute('href') || '');
       if (!match) return;
-      const number = Number.parseInt(match[1], 10);
+      const number = Number(match[1]);
       const title = (a.querySelector('.title')?.textContent || '').trim();
-      if (number && title) chapters.push({ number, title });
+      if (Number.isInteger(number) && number > 0 && title) chapters.push({ number, title });
     });
     return chapters.sort((a, b) => a.number - b.number);
   };
@@ -59,7 +59,7 @@
     switchNode.hidden = false;
     const a = document.createElement('a');
     a.href = `chapters/${String(chapter.number).padStart(3, '0')}.html`;
-    a.textContent = 'Read this chapter in the illustrated edition →';
+    a.textContent = 'Illustrated Reader →';
     switchNode.appendChild(a);
   };
 
@@ -67,13 +67,13 @@
     tocNode.hidden = true;
     proseNode.hidden = false;
     bottomNode.hidden = false;
-    numberNode.textContent = `CHAPTER ${chapter.number} · LIGHT`;
+    numberNode.textContent = `TEXT READER · CHAPTER ${chapter.number}`;
     titleNode.textContent = chapter.title;
-    document.title = `Chapter ${chapter.number}: ${chapter.title} — Peg-Leg Greg Light`;
+    document.title = `Chapter ${chapter.number}: ${chapter.title} — Peg-Leg Greg Text Reader`;
     jumpInput.value = chapter.number;
     setNav(chapter, published);
     renderModeSwitch(chapter);
-    setStatus('Text-first edition. Chapter illustrations are intentionally omitted.');
+    setStatus('Text-only reading · no chapter illustrations');
     await renderPublished(chapter);
     try { localStorage.setItem('plg:lastLightChapter', String(chapter.number)); } catch (_) {}
   };
@@ -83,18 +83,18 @@
     proseNode.hidden = true;
     bottomNode.hidden = true;
     if (switchNode) switchNode.hidden = true;
-    numberNode.textContent = 'LIGHT EDITION';
+    numberNode.textContent = 'TEXT READER';
     titleNode.textContent = 'CHAPTER UNAVAILABLE';
-    setStatus(`Chapter ${number} is not available in this reading mode yet. Use the Light chapter list to continue.`);
+    setStatus(`Chapter ${number} is not available in this reading mode yet. Use the Text Reader chapter list to continue.`);
   };
 
   jumpForm?.addEventListener('submit', (event) => {
     event.preventDefault();
-    const number = Number.parseInt(jumpInput.value, 10);
-    if (number > 0) location.href = lightHref(number);
+    const number = Number(jumpInput.value);
+    if (Number.isInteger(number) && number > 0) location.href = lightHref(number);
   });
 
-  if (!requested) {
+  if (!Number.isInteger(requested) || requested < 1) {
     location.replace('light/index.html');
     return;
   }
@@ -110,5 +110,5 @@
       if (!chapter) return showMissing(requested);
       await showChapter(published, chapter);
     })
-    .catch((error) => setStatus(error.message || 'Could not initialize the Light edition.'));
+    .catch((error) => setStatus(error.message || 'Could not initialize the Text Reader.'));
 })();
