@@ -1,10 +1,10 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 344 - **THE QUIET GUEST**.
+- Current exact story endpoint: Chapter 345 - **THE BENCH**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249-344 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249-345 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500-4,000 words and clear 2,500 unless explicitly changed.
@@ -15,152 +15,157 @@
 - Apply economy, rhythm/artifact, market-intelligence, and pricing continuity when relevant.
 
 ## Current direction
-- Ch344 completes the already-scheduled second theatre house shift but avoids repeating Ch342 crowd management by centering an artifact-bearing patron incident.
-- A patron arrives with a declared/registered **personal privacy clasp** whose active effect makes her face difficult to retain. During act one, the active effect appears to widen into a local sound-loss zone that also removes performance sound for nearby seats.
-- Theatre handles the incident institutionally and narrowly: Rinna sets house conditions, a public-building safety runner documents observed behavior, nobody pretends to know cause, and the owner retains the object inactive with advice to obtain inspection before public reuse.
-- Greg is a bounded witness, not investigator, examiner, detective, or magical authority.
-- The artifact engine expands through **other people's ownership** and aging/condition uncertainty rather than Greg acquiring another object.
+- Ch345 deliberately spends money on bounded artifact information. Greg pays Mara's previously quoted 2c simple controlled holdfast observation now that doing so leaves a 3c reserve.
+- The holdfast produces a real but narrow new behavior under controlled conditions. The chapter does NOT identify exact function, certify safe use, open housing, apply load, or turn Mara into universal appraiser.
+- Information narrows hypotheses instead of solving object. Greg learns that a small ring movement produces an internal click plus a localized bench-boundary response without visible base movement.
+- Next meaningful holdfast question likely requires **fixture context**, creating a higher technical/economic tier rather than endless cheap bench checks.
 
 ## Money / capital
-- Greg begins Ch344 with **3 private copper + 0 bits**.
-- He completes second theatre house-route + late-reset shift and is paid exactly **2c cash after clear**.
-- Greg ends Ch344 with **5 private copper + 0 bits**.
-- No more theatre house nights are currently scheduled. Rinna says if theatre needs him, they will ask. No standing employment.
-- Vale principal-equivalent debt remains exactly **26c** after Ch343 review; Greg makes no payment in Ch344.
-- Mara simple holdfast observation remains 2c if simple. At 5c, Greg recognizes he could pay 2c and still retain 3c reserve, which feels materially more comfortable than doing so at 3c, but he still does not automatically schedule/test that night.
-- No copper/bit conversion newly established.
+- Greg begins Ch345 with **5 private copper + 0 bits**.
+- Pays Mara exactly **2c** for simple controlled closed-housing bench observation.
+- Ends Ch345 with **3 private copper + 0 bits**.
+- Vale principal-equivalent debt remains **26c**. No payment/credit change.
+- No new income.
+- No copper/bit conversion established.
+- Spending is framed as deliberate information purchase after reserve improved, not automatic artifact compulsion.
 
-## Second theatre shift
-- Existing terms from Ch342 are honored: house route + late reset, 2c after clear.
-- North-secondary closure no longer causes a late-arrival wave. Patrons have adapted via East Cut/lower route and arrive in smaller groups.
-- Routine house work is compressed/backgrounded: route checks, blue lamp, flower-frame pocket, ordinary late couple, child asleep across seats, reset, etc.
-- Greg is better about sitting before shoulder fatigue accumulates heavily. No injury.
-- Second shift concludes normally after artifact incident; Greg signs pay slip and receives 2c.
+## Holdfast transport / household logistics
+- Holdfast remains awkward to transport with two crutches. It does not fit shoulder bag comfortably.
+- Greg uses shallow household market basket lined with folded cloth, holdfast flat/wrapped, handles loosely tied, basket rigged by short cord to shoulder-bag strap against right hip.
+- Lyssa suggests basket but does not accompany him. Mara later carries basket from public table into work court as part of paid service.
+- No drop, impact, accidental activation, or household damage.
 
-## New artifact-bearing patron / privacy clasp
-- Unnamed adult woman, approximately mid-adult age, dark green coat, pale gloves, silver throat clasp shaped like a closed eye.
-- When clasp active, observers can retain clothing/height/age category etc but her **face is difficult to remember/retain** after looking away.
-- On deactivation, face becomes normally memorable. Greg observes long nose, dark brows, small scar near left side of mouth.
-- Registration slip shown at admission describes `personal privacy field`, `low reach`, and `no identity substitution` in Rinna's reading.
-- Theatre does NOT treat registration as guaranteed current condition or blanket permission. Rinna requires deactivation for admission identity/ticket check, then allows reactivation once seated only if field stays local and does not interfere with performance equipment/other patrons.
-- Exact maker, age, price, origin, mechanism, intended range, maintenance history, inspection history, and whether facial-memory effect is exact formal function remain unestablished beyond registration wording/observed behavior.
+## Mara simple controlled observation
+- Service remains exactly 2c because scope is simple.
+- Work strip scope: `HOLDFAST / CLOSED HOUSING / CONTROLLED BENCH OBSERVATION / NO LOAD CERT / NO OPENING / OWNER PRESENT`.
+- Owner-present notation means Mara does not take custody.
+- Work occurs in ordinary Registry Row work court with open roof slats/stone floor/three benches; other workers present but not involved.
+- Mara's bench has thick wood top and pale stone inset/`bench plate` with thin gray edge line.
+- Bench plate gives known surface and can indicate when **gross force/response leaves plate boundary** by edge-line change. It does NOT measure magnitude or identify source. Which edge reacts first can sometimes provide rough directional clue, not formal measurement.
+- Do not upgrade bench plate into scanner/appraisal device.
 
-## Artifact incident during act one
-- While clasp active in row five, a rough local area around patron becomes acoustically absent: nearby whispers/chair/clothing noises and stage sound cannot be heard normally inside/through the area from Greg's position.
-- Nearby patrons lean/strain to hear, indicating performance sound is being lost locally.
-- Greg does NOT see the woman activate/touch clasp immediately before widening begins.
-- Rinna reaches patron during scene-change interval. Woman touches clasp; a tiny blue line appears; local sound returns and her face becomes normally memorable again.
-- This supports correlation with deactivation but does NOT prove mechanism or cause of widened sound effect.
-- No flash, heat, smoke, smell, collapse, injury, trapped person, or panic observed.
-- Do NOT establish that sound suppression is hidden intended function, defect, curse, sabotage, environmental interaction, repair error, or aging behavior. Cause remains unknown.
+## Holdfast Ch345 exact observations
+- Holdfast begins closed, unactivated, ring sideways, base flat on pale bench plate, surrounded by four small wooden reference blocks not touching it.
+- At rest: no visible response on plate; no movement.
+- Mara uses long non-magical wooden forked rod to rotate ring from outside hand reach.
+- Planned limit: stop at first response or 1/8 turn, whichever comes first.
+- Ring moves **less than 1/8 turn**, gives dry internal scrape then **one internal click**.
+- Mara stops immediately.
+- Bench plate gray edge line darkens only on **near-right section**, then fades after stop.
+- Holdfast base does **not visibly shift** against reference blocks.
+- After response, Mara places known loose items near but not touching holdfast at several observed positions: plain iron washer, rope end, wooden peg, flat iron strip. None visibly move in those observed positions.
+- This does NOT establish broad non-attraction/non-response for those materials under all states.
+- Mara returns ring approximately to original sideways position with forked rod. Dry scrape; **no second click/edge response observed** on return.
+- No load applied. Housing not opened. No direct hand activation.
+- Do NOT infer one-way mechanism, force direction, anchoring target, attachment mode, material preference, safe surface, safe load, or exact function.
 
-## Building-safety response
-- Rinna removes patron from seat temporarily to side vestibule, not as punishment/arrest.
-- Clasp stays inactive inside a small cloth pouch on table during discussion.
-- An unnamed **public-building safety runner** arrives, identifiable broadly by sash. Not police, not full artifact examiner.
-- Runner asks Greg for observation-only witness statement and explicitly avoids causal claims.
-- Runner documents `observed widened effect` / local sound loss rather than labeling failure/illegal use/cause.
-- Runner states registration describes declared function at registration and does not certify current condition tonight.
-- Runner says house can refuse reactivation on premises. He could hold object under building-safety authority only if active public danger were established; he does **not** establish that here and does not confiscate it.
-- He tags the pouch/incident paperwork and advises inspection before next public-building use.
-- Owner retains artifact inactive.
-- Rinna sets theatre-specific condition: this piece may not reactivate in theatre until owner brings inspection. Do not generalize to all privacy artifacts.
+## Holdfast observation record
+Mara's signed/stamped work strip states:
+- `CLOSED HOUSING / VISUAL ONLY BEFORE MOVEMENT`
+- `RING MOVED LESS THAN 1/8 TURN TO FIRST INTERNAL CLICK`
+- `BENCH EDGE RESPONSE: NEAR-RIGHT SECTION DARKENED / FADED AFTER STOP`
+- `NO VISIBLE BASE SHIFT AGAINST REFERENCE BLOCKS`
+- `NO VISIBLE MOVEMENT OF LOOSE WASHER / ROPE END / WOOD PEG / IRON STRIP IN OBSERVED POSITIONS AFTER RESPONSE`
+- `RING RETURNED APPROX ORIGINAL SIDE POSITION / NO SECOND EDGE RESPONSE OBSERVED`
+- `NO LOAD APPLIED`
+- `NO HOUSING OPENED`
+- `NO FUNCTION / SAFE USE / CONDITION CERTIFIED`
+- Greg signs owner line agreeing observation record; Mara signs provider line/stamps work mark. This is NOT registration/certification.
 
-## Owner continuity / social handling
-- Woman is angry but remains procedurally cooperative.
-- She asks for written house incident copy and receives one.
-- She returns to row five with clasp inactive and watches remainder of show.
-- Near departure she asks Greg whether active effect bothered him before widening. Greg says personally yes, operationally not after admission check.
-- She says most people like not being remembered; Greg says he prefers choosing what he forgets.
-- She briefly reveals clasp `was my mother's`; Greg deliberately does not pursue history. Do not expand provenance automatically.
-- She leaves with object. No automatic recurring relationship/patronage/rivalry.
+## Mara bounded interpretation / next tier
+- Mara allows possibilities including internal movement, force into bench, lateral component, housing-distortion asymmetry, ring-position dependence, etc., without selecting one.
+- She explicitly says safe load, safe surface, intended fixture, intended attachment, rated direction, service condition, and release behavior remain unestablished.
+- Her practical instruction remains: **do not use it**.
+- Asked next useful observation, Mara says **fixture context**.
+- Reason: something called a holdfast producing boundary response when ring moves tells less on a loose bench than mounted in family-expected context.
+- Mara does NOT know exact fixture configuration yet.
+- She might be able to determine safe fixture-context work, but **not for 2c** and gives no price because she must first determine whether she can do it safely and whether another specialist is needed.
+- Opening housing might help or might worsen old equipment, especially given distorted seam; no opening scheduled.
 
-## Artifact-market / world principles reinforced
-- People other than Greg possess meaningful magical objects in ordinary social contexts.
-- Registration supports legality/declared function/history but does not guarantee current condition.
-- Public institutions can set narrower operating rules than general registration.
-- Observed behavior, declared function, current condition, and mechanism remain separate information layers.
-- Artifact owner remains a person with ordinary motives/history; avoid reducing owners to loot/event containers.
+## Greg artifact behavior
+- Greg almost asks Mara about rest stone during same visit but deliberately stops. One paid question does not become every artifact he owns.
+- Rest stone remains home/boxed/unopened/untested.
+- Oval remains uninvolved.
+- Holdfast returns home, high shelf, wrapped, ring sideways, out of Tavi reach.
+- Greg's Ch345 narrow-scrap notes:
+  - `HOLDFAST BENCH / 2 C`
+  - `<1/8 RING TURN -> INTERNAL CLICK`
+  - `BENCH EDGE RESPONSE NEAR-RIGHT`
+  - `NO VISIBLE BASE SHIFT`
+  - `RETURN TO SIDE POSITION -> NO SECOND RESPONSE`
+  - `NO LOAD / NO OPEN / NO FUNCTION`
+  - `NEXT USEFUL QUESTION MAY REQUIRE FIXTURE CONTEXT`
+  - `3 C CASH / 26 C VALE`
 
-## Theatre staff continuity
-- Rinna: admission/house authority; sets bounded condition; handles patron incident without overclaiming.
-- Nessa: keeps route work going, handles house-right/normal operations while Rinna deals with incident; shares reset.
-- Front-table staff continue normal roles. Young ticket woman handles ticket/identity match. Mustached worker participates in front procedure.
-- Hara/Marek perform normally. Marek misses a cup during show; Hara hands hers over in character, audience laughs. Do not infer script/improv canon beyond this observed recovery.
-- Theatre institution remains distributed and competent.
+## Information-market principle
+- Ch345 reinforces that paying for good artifact information can legitimately produce **less certainty**, because unsupported explanations are eliminated/narrowed.
+- Greg line to Lyssa: `Because yesterday I could make up ten explanations. Today six of them are worse.`
+- Do not turn this into universal epistemology speech every chapter. It is current artifact-learning progression.
+
+## Registry Row texture
+- Work court is ordinary professional space, not secret vault.
+- Other workers: one sorting ceramic disks into felt-lined trays; one measuring brass tube with black thread. No names/roles/functions established.
+- Outside, Greg sees woman arguing maker mark, courier with three sealed boxes/red route tag, man in blue work sleeves carrying seven-tined fork-like object. These are texture only, not hooks unless later earned.
 
 ## Greg / body / equipment
 - Greg nineteen, Bronze, Carrow. Permanent LEFT BKA, knee preserved; right leg intact; two crutches.
-- Better pacing during second shift, sits before shoulder fatigue compounds. No injury/fall/equipment damage.
-- No magic attempt.
-- Oval not materially involved in incident; no anomalous click established.
-
-## Artifact continuity / Greg-owned objects
-- Rest stone K-14-6 remains boxed/unopened/untested.
-- Holdfast remains shelved/wrapped/ring sideways/unactivated since seller demo.
-- Oval remains separately wrapped/carried utility as usual but has no relevant Ch344 behavior.
-- No Greg artifact acquisition, appraisal, sale, or test.
+- Transport awkward but manageable via basket/strap. No injury/fall/equipment damage.
+- No Greg magic attempt.
 
 ## Magic continuity
 - Totals remain **47 supervised minimal draws / 53 supervised deliberate shaping attempts / 103 supervised external-effect attempts**.
-- Ch344 adds no Greg magic attempts.
+- Ch345 adds no Greg magic attempts.
 - Greg moving + external effect remains untested.
 - Hessa restrictions unchanged.
 
-## Household residue
-- Lyssa is awake after shift. Greg shows total 5c and explains privacy-clasp incident.
-- Lyssa asks first whether anyone was hurt; none were.
-- She asks whether Greg would buy such a clasp; he says absolutely not.
-- Money conversation distinguishes options: Mara, debt, keep reserve. No immediate household pressure to choose.
+## Theatre continuity
+- Two-night house-work job is complete as of Ch344. No further theatre work scheduled.
+- No theatre scene/contact in Ch345.
 
-## Economic progression
-- Greg now has **5c cash / 26c Vale principal equivalent debt**.
-- At 5c, a 2c information purchase no longer reduces him to a 1c floor. This changes comfort/optionality but does not make spending automatic.
-- Closing thought frames money as the most active `artifact` he owns because it rewrites which choices are available, without literal magic claim.
-- Greg records `5 C CASH / 26 C VALE` and `PUBLIC REGISTRATION DID NOT CERTIFY CURRENT CONDITION.`
-- He crosses out overly broad/sentimental formulations instead of canonizing them.
+## Long-mile continuity
+- No new long-mile information in Ch345. Cause/current reopening status unresolved.
 
 ## Recent chapter ledger
-
-### Chapter 342 - THE HOUSE LINE
-- First paid theatre house shift. North-road rerouting creates crowd compression. Greg earns 2c, reaches 3c.
 
 ### Chapter 343 - THE DUE DATE
 - Vale review establishes 26c principal-equivalent debt, no current penalty/fixed cash due, service-credit eligibility. Greg retains 3c.
 
 ### Chapter 344 - THE QUIET GUEST
-- Second theatre shift proceeds with normal arrivals until patron's registered privacy clasp appears to widen from face-memory privacy into local sound loss during act one.
-- Theatre/public-building response is procedural and evidence-bounded. Object is deactivated, documented, not confiscated; owner retains it with inspection advice and theatre-specific no-reactivation condition.
-- Greg provides observation-only witness statement and does not investigate provenance/cause.
-- Shift completes; Greg earns 2c and reaches **5c + 0 bits**.
-- No further theatre work scheduled. Greg-owned artifacts remain untouched; magic unchanged.
+- Second theatre shift includes privacy-clasp widened-effect incident. Greg earns 2c and reaches 5c. No further theatre work scheduled.
+
+### Chapter 345 - THE BENCH
+- Greg pays Mara 2c for previously quoted simple controlled holdfast observation.
+- Less-than-1/8 ring movement produces internal click and localized near-right bench-edge response without visible base shift.
+- Loose washer/rope/wood peg/iron strip show no visible movement in bounded post-response positions.
+- Returning ring to approximate sideways position does not reproduce edge response.
+- No load/opening/function/safe-use certification.
+- Mara says next useful question likely fixture context, a higher service tier with no quote yet.
+- Greg deliberately does not ask about rest stone too.
+- Ends **3c + 0 bits / 26c Vale**, magic unchanged.
 
 ## Protected uncertainties
-- Privacy clasp exact mechanism, maker, price, age, intended range, service history, cause of widened sound behavior, whether effects share one mechanism, and future condition all unknown.
-- Owner's mother/provenance beyond one sentence unknown.
-- Building-safety runner identity and broader authority beyond described incident unknown.
-- Full Vale original agreement and future service opportunities unresolved.
+- Holdfast exact function, intended fixture/attachment, force direction/magnitude/source, safe load/surface, service condition, release behavior, effect of housing distortion, reason return movement lacked response all unknown.
+- Price/scope/specialist needs for fixture-context investigation unknown.
+- Rest stone exact mechanism/release delay/safe system/standalone behavior/value unresolved.
+- Privacy clasp exact cause/current condition unresolved.
+- Full Vale original agreement/future service opportunities unresolved.
 - Long mile cause/current duration/reopening unknown.
 - Oval-long-mile relation unresolved.
-- Rest stone exact mechanism/release delay/safe system/standalone behavior/value unresolved.
-- Holdfast exact identity/function/value unresolved.
 - Blue harness buyer/motive/use unknown.
 - Greg moving + external effect untested.
 
-## Chapter 345 trailhead
-Follow next actual claim from Ch344/current authority.
+## Chapter 346 trailhead
+Follow next actual claim from Ch345/current authority.
 
-Recent rhythm: debt/account economics -> artifact-bearing public incident during paid work. Do **not** immediately do another theatre scene, another registration incident, or another stranger-artifact malfunction.
+Recent rhythm: debt/account economics -> public stranger-artifact incident -> deliberate Greg-owned artifact information purchase. **Do not immediately do another appraisal/bench/registry chapter.** Let the holdfast result breathe. Fixture context is a future technical/economic tier, not tomorrow's automatic purchase.
 
-Greg now has **5c + 0 bits** and 26c Vale principal-equivalent debt. Mara's 2c simple controlled holdfast observation is comfortably affordable while preserving 3c. That makes artifact investigation more naturally available now, but still not mandatory. If the holdfast lane returns, it should produce real new behavior/information rather than another purely descriptive inspection.
+Greg now has **3c + 0 bits**, 26c Vale principal-equivalent debt, no scheduled theatre work, and no immediate cash obligation. He has deliberately spent down from 5c to 3c for information. Avoid convenient replacement income in the very next beat unless it arises from strong existing continuity.
 
-Rest stone K-14-6 has breathed for multiple chapters and may also re-enter soon, but do not casually test retired industrial magic at home. A safe external comparison/system context remains stronger than improvised household activation.
+Strong next routes: Hessa/magic return, household/relationship chapter, materially changed long-mile city residue, character collision, ordinary day with consequence, or a non-artifact opportunity that tests Greg's newer selectivity.
 
-Strong next routes: artifact engine through a deliberate paid information decision; household/social collision; a new work/opportunity notice; Hessa return if enough non-magic space has passed; or long-mile residue changing materially in the city without Greg returning north solely for lore.
+Rest stone has now breathed a long time, but if it returns soon, prefer **safe system/context access** rather than home activation or another generic paid appraisal. Greg nearly asked Mara and chose not to, so preserve that choice for at least a beat.
 
-Greg's current economic problem is allocation, not survival: debt reduction vs reserve vs information vs acquisition/access. Preserve that.
-
-Magic remains **47 / 53 / 103**. No independent practice.
+Magic remains **47 / 53 / 103**. Greg moving + external effect is still the clean outstanding supervised question and can be revisited if Hessa lane returns.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
