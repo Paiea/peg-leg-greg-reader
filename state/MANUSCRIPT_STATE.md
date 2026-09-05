@@ -1,10 +1,10 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 356 - **THE BLUE HOUR**.
+- Current exact story endpoint: Chapter 357 - **THE GOOD COAT**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249-356 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249-357 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500-4,000 words and clear 2,500 unless explicitly changed.
@@ -15,120 +15,85 @@
 - Current forward routing is governed by `MANUSCRIPT_WORKFLOW.md` plus `RHYTHM_ARTIFACT_ENGINE.md`.
 
 ## Current direction
-- Ch353-355 completed a satisfying Three Reeds mini-arc: acquisition -> household consequence -> real capability payoff.
-- Ch356 deliberately changes grammar into a **citywide magical-weather/social-navigation event** where Greg is not the assigned analyst, buyer, worker, tester, or solver.
-- The event reinforces fantasy density through ordinary civic procedure: Carrow has established practices for a recurring blue echo-fog phenomenon, and the city continues functioning without Greg owning the problem.
-- The durable character gain is between Greg and Lyssa: after briefly losing each other in the fog, they establish shared practical shorthand for separation during blue hour.
+- Ch353-355 completed Three Reeds acquisition/consequence/capability mini-arc.
+- Ch356 changed grammar into citywide magical-weather/social navigation and established Greg/Lyssa `MARKED DOOR` shorthand.
+- Ch357 changes grammar again into a **relationship/economic-choice chapter centered on Lyssa's money and desire**, not Greg's artifacts or work.
+- Greg practices not taking over another person's domain. He gives an opinion only when asked, does not ledger Lyssa's finances, and distinguishes `wanting`, `affording`, `worth`, and `buying today`.
+- Lyssa's economic life becomes more legible without being absorbed into Greg's economy model. She has her own reserve needs, work uncertainty, materials/tools, possible vest costs, household contribution, and simple desire to retain cash.
 
 ## Money / capital
-- Greg begins and ends Ch356 with **3 private copper + 0 bits**.
+- Greg begins and ends Ch357 with **3 private copper + 0 bits**.
 - Vale principal-equivalent debt remains **26c**.
-- No income, spending, debt movement, purchase, fee, deposit, gift, loan, or work offer occurs.
-- Ch356 does not refill the 5c Three Reeds spend or convert recent temp-list access into convenient income.
+- Greg spends/earns nothing.
+- Lyssa voluntarily tells Greg she currently has **12c plus some bits**. This is her money, not household pooled cash and not Greg's ledger.
+- No Lyssa purchase occurs in Ch357.
+- Coat prices observed:
+  - dark brown durable treated-wool work coat: **6c**;
+  - dark green fashion-weight coat: **5c**, with 1c alteration quoted if sizing up and taking waist;
+  - charcoal denser-wool coat with better shoulder cut, double pocket facing, high collar, treatment, and minor alteration included: **9c**.
+- Do not infer general clothing price table from one shop.
 
-## Chapter 356 - THE BLUE HOUR
-- Greg and Lyssa are walking toward Marra's green-door work route because Lyssa has cloth to return and a message to deliver. Greg is accompanying her as ordinary shared movement; he is not her courier, manager, or work analyst.
-- East Cloth street bell produces a displaced echo from the wrong direction as pale-blue fog enters the district.
-- Local term: **blue hour**.
-- Greg broadly recognizes the category as echo/sound-bending mana fog from first-life experience but does not know Carrow's local implementation/procedure details.
-- Fog initially stays pale blue, rises from ankle to face height, reduces clarity but does not become full visual blindness.
-- Sound becomes spatially unreliable: existing voices/bells/laughter/names are carried, delayed, bent, or returned from wrong directions. The fog does not establish creation of voices from nothing.
-- Greg hears a Cala-like `Greg` from wrong directions; Lyssa later hears a Jessa-like call from a roped closed alley. Both resist following once they visually check/remember procedure.
+## Chapter 357 - THE GOOD COAT
+- Greg accompanies Lyssa coat shopping after breakfast. This is ordinary shared time; he is not paying or managing purchase.
+- Unnamed older male coat seller wears measuring cord around neck. Competent, low-pressure, practical. Do not auto-recur/name.
+- Brown coat: dark brown wool, clean collar, straight front, four plain buttons, narrow cuff stitching that also reinforces fold; lined through body, half-lined sleeves; treated wool sheds ordinary rain but not long rain; repairable at ordinary cloth shops; standard buttons; enough room for vest under; 6c.
+- Green coat: dark green, fitted waist, angled pockets, brass-colored fasteners, fashion weight, good for dry cold but not long rain; current size binds across back/shoulders for carrying work; size up plus waist alteration would add 1c. Lyssa rejects because she needs to carry/move.
+- Charcoal coat: black-gray/charcoal denser wool, shaped but mobile waist, deep angled pockets, dark horn buttons, high-or-flat collar, better shoulder cut, double pocket facing, treatment included, minor waist/sleeve alteration included if done now; 9c.
+- Lyssa strongly likes charcoal coat but immediately walks away at 9c.
 
-## Carrow blue-hour procedure
-- Shopkeepers and city workers respond quickly and routinely.
-- Side cuts may be blocked with bright yellow rope.
-- Red-vest runners use paired handbell patterns and remain physically visible when giving route instructions.
-- Public notice board states:
-  - `BLUE HOUR`
-  - `MAIN ROUTES OPEN`
-  - `SIDE CUTS CLOSED WHERE ROPED`
-  - `DO NOT FOLLOW VOICES INTO CLOSED LANES`
-  - `VISUAL CONFIRM BEFORE CROSSING CART ROUTES`
-  - `CHILDREN / CONFUSED PERSONS TO MARKED DOORS`
-- Chalk addition: `IF YOU HEAR YOURSELF, IGNORE HIM`
-- Temporary refuge/reunion points use **blue-white square markers** on ordinary participating doors such as shops/shrines.
-- Marked doors are not magical shelters. They provide known waiting points for separated/lost/confused people and coordinate names/messages through runners.
-- Public routine favors visual confirmation, predictable routes, written names, and waiting over chasing voices.
-- Exact civic authority, scientific mechanism, why paired bells seem easier to localize, dark-blue escalation rules, and full seasonal pattern remain unestablished.
+## Lyssa economic/character continuity
+- Lyssa says she has 12c plus some bits.
+- Buying 9c coat would leave her 3c, but Greg explicitly recognizes his 3c comfort level does not define hers.
+- Lyssa's reasons to preserve reserve include possible materials if Marra work expands, replacing good shears, possible load-vest costs, possible household money, or simply wanting to keep money.
+- Do not turn these into scheduled expenses. They are plausible reserve claims, not commitments.
+- Lyssa dislikes framing desire as moral failure. Greg identifies that she is nervous enough about the 9c coat that she is trying to make wanting it itself wrong.
+- Greg says nine is expensive given her own reserve needs, but not because she is `not worth nine`; he immediately avoids turning that into a sentimental speech when Lyssa tells him not to make it a thing.
+- Greg's advice when directly asked: buy neither today. She hates the 6c brown coat, and the 9c charcoal coat is important enough to sleep on. If she still wants it after a few days, she can choose then; if sold, it is sold.
+- Lyssa explicitly connects this to Greg's Ch349 load-lock walkaway and knows he hated losing it but still thinks walking was right.
+- At chapter end Lyssa has not decided whether to return. She asks Greg not to talk if she goes back tomorrow, then says maybe he should come. Preserve uncertainty.
 
-## Greg / Lyssa separation beat
-- At a crowded cart crossing, Greg and Lyssa lose sleeve contact due ordinary pedestrian movement plus fog visibility/sound confusion.
-- Greg initially calls `Lyssa?`, immediately hears his own call displaced from multiple directions, and stops shouting.
-- He chooses the nearest open blue-white marked door, a cooper's doorway, instead of wandering/chasing voices.
-- Cooper records `GREG / LYSSA` and tells Greg to stay unless he visually sees her.
-- Greg hears a near-sounding Lyssa voice but refuses to follow without visual confirmation.
-- Lyssa independently uses another marked door on the opposite side of the crossing.
-- That door sends a runner message: `LYSSA LOOKING FOR GREG / CRUTCHES`.
-- Lyssa later reaches Greg's marked door physically/visually. No injury, panic, rescue, or blame.
-- Both recognize they used the same public procedure independently.
+## Relationship / social accumulation
+- Greg and Lyssa continue ordinary shared walking after Ch356. Blue hour does not make them clingy or fearful.
+- Their conversation shows more mutual awareness of each other's economic habits without merging finances.
+- Greg does not write Lyssa's coat/12c into his notes; he explicitly stops because her money is not his ledger.
+- This is a durable boundary improvement for Greg: interest/advice does not equal ownership of another person's decision.
+- Cala's response to the 9c coat is simply `Good coat?` then `Then maybe.` She does not decide for Lyssa.
+- Tavi objects that charcoal is burned wood, not a color. Child logic only.
 
-## New Greg / Lyssa shorthand
-- Shared rule established:
-  - if separated during blue hour, go to the **nearest open marked door**;
-  - do not chase familiar voices without visual confirmation;
-  - do not shout each other's names unless visually together/necessary because displaced echoes multiply confusion;
-  - if no marked door exists, return to the last place both visually saw each other.
-- Their compact shorthand becomes simply **`MARKED DOOR.`**
-- This is practical relationship accumulation, not a romantic declaration or symbolic vow.
-- Preserve as one of their distinct shared languages born from lived experience.
-
-## Marra / Jessa continuity
-- Greg and Lyssa reach Marra's green door by the longer main-route path because the shortest cut is roped closed.
-- Marra's door itself is participating as a blue-white marked door during the event.
-- Jessa opens door and uses dry local irritation; Marra has two customers plus an unrelated separated boy waiting safely inside.
-- Lyssa delivers cloth/message; Marra replies in work shorthand Greg does not understand. Greg stays out of Lyssa's domain.
-- Separated boy carries a wooden address token; Marra has already sent his name to a nearby marked door. His aunt later retrieves him and affirms he followed their existing rule even while still angry.
-- No new formal roles, prices, work arrangements, or business hierarchy are established.
-
-## Blue-hour clearing
-- A misleading echoed city bell occurs before true route clearing; people correctly do not move based on sound alone.
-- Later red-vest visible runners announce that main routes are clearing while side cuts remain closed until white ropes replace/clear closures.
-- Fog thins from top downward on route home and remains sound-distorting but less convincing.
-- Event resolves enough for normal travel. Exact total duration and district-wide severity remain unstated.
-
-## Household residue
-- Cala asks whether Greg/Lyssa stayed together; they explain brief separation and new marked-door rule without dramatization.
-- Tavi already knows local blue-hour rules and gives a long child-logic explanation including not following wrong voices/dogs and a probably true or embellished story about a child named Kalo following his own whistle to fish street.
-- Do not treat Tavi's anecdote as verified canon beyond Tavi saying it.
-- Household accepts the new `marked door` shorthand as sensible.
+## Greg's Ch357 notes
+- `3 C CASH`
+- `26 C VALE`
+- `WANTING SOMETHING DOES NOT REQUIRE BUYING IT TODAY.`
+- `UNLESS IT IS VERY GOOD.`
+- He does NOT record Lyssa's cash balance or coat price in his personal ledger.
 
 ## Artifact continuity
-- Three Reeds shade unit remains locked at home, inactive, and does not appear in Ch356.
+- Three Reeds remains locked at home, inactive, no appearance/test/use in Ch357.
 - Holdfast/rest stone remain locked and untouched.
-- Oval is not materially used and has no anomaly.
-- No artifact acquisition, test, market interaction, or storage change occurs.
-- Three Reeds capability from Ch355 remains available for later real-scene use, but Ch356 intentionally lets it breathe.
+- Oval not materially used.
+- Greg sees an old leather shoulder guard with metal hinge in shop and deliberately does not inspect it. Texture only, not hook.
 
 ## Magic continuity
-- No Greg mana use or Hessa session in Ch356.
+- No Greg mana use or Hessa session.
 - Exact totals remain **53 supervised minimal draws / 53 supervised deliberate shaping attempts / 115 supervised external-effect attempts**.
 - No independent practice.
-- Greg does not try to analyze blue-hour mana density, echo timing, or handbell mechanics into a personal-magic lesson.
 
 ## Greg / body
-- Greg is nineteen, Bronze, Carrow, permanent LEFT BKA, knee preserved, right leg intact, two crutches.
-- He moves safely through fog/main routes, yields to carts, waits at marked door, and has no fall/injury/residual-limb/crutch problem.
-- Brief impulse to hit unexpected shoulder-touch with crutch is stopped before action when actual Lyssa reaches him from behind. No assault/injury occurs.
-
-## Greg's Ch356 notes
-- `BLUE HOUR`
-- `DO NOT FOLLOW FAMILIAR VOICE WITHOUT VISUAL CONFIRM`
-- `IF SEPARATED: NEAREST OPEN MARKED DOOR`
-- `NO SHOUTING NAMES UNLESS VISIBLE`
-- Greg briefly writes `LYSSA KNOWS SAME RULE`, crosses it out as too formal, and leaves simply:
-  - `MARKED DOOR.`
-- He does not record speculative magical mechanism.
+- Greg nineteen, Bronze, Carrow, permanent LEFT BKA, knee preserved, right leg intact, two crutches.
+- No injury/fall/crutch/residual-limb issue.
+- He is mostly stationary/ordinary walking while Lyssa shops; no body-performance chapter.
 
 ## Recent chapter ledger
-- **352 - THE COUNT:** South Quay one-day count work pays 3c + meal; temp-list access gained. Ends 8c.
 - **353 - THE BAD LANTERN:** Greg buys Three Reeds shade unit for 5c. Ends 3c.
 - **354 - THE HIGH SHELF:** collection forces locked household storage/access rules.
 - **355 - THE BORROWED LAMP:** Three Reeds produces repeatable directional stray-light reduction in controlled theatre-lamp context.
-- **356 - THE BLUE HOUR:** recurring Carrow echo fog bends/displaces familiar voices and rearranges street procedure. Greg/Lyssa briefly separate, independently use marked doors, and establish `MARKED DOOR` as shared emergency shorthand. No money/artifact/magic progression. Ends **3c + 0 bits / 26c Vale**, magic **53 / 53 / 115**.
+- **356 - THE BLUE HOUR:** echo fog changes city movement; Greg/Lyssa establish `MARKED DOOR` shorthand.
+- **357 - THE GOOD COAT:** Lyssa wants a 9c charcoal coat but walks away because it would reduce her 12c reserve to 3c. Greg advises only when asked, does not absorb her finances into his ledger, and the decision remains open. Greg ends **3c + 0 bits / 26c Vale**, magic **53 / 53 / 115**.
 
 ## Protected uncertainties
-- Blue-hour exact magical mechanism, source, citywide boundaries, dark-blue escalation, handbell localization reason, and seasonal predictability remain unestablished.
+- Whether Lyssa returns for/buys the charcoal coat remains unresolved.
+- Whether Marra work expands, shears need replacement, or vest incurs cost remains unresolved.
+- Blue-hour exact magical mechanism/source/escalation remains unresolved.
 - Three Reeds exact model/core condition/radius/strength/shutter behavior/safe duration/rated pair compatibility/mounted behavior remain unresolved.
 - Whether South Quay temp work recurs remains unresolved.
 - Ch348 copper-knot customer/equipment/knot function unresolved.
@@ -142,23 +107,20 @@
 - Full Vale original agreement/future service opportunities unresolved.
 - Blue harness buyer/motive/use unknown.
 
-## Chapter 357 trailhead
-Follow next actual claim from Ch356/current authority.
+## Chapter 358 trailhead
+Follow next actual claim from Ch357/current authority.
 
-Recent rhythm: successful artifact purchase -> household consequence -> artifact capability payoff -> **citywide magical-weather/social navigation event**.
+Recent rhythm: artifact capability payoff -> magical city navigation -> **relationship/economic desire and restraint**.
 
-Do not immediately repeat blue-hour procedure, another city emergency, another Three Reeds test, Hessa session, South Quay count work, market browsing, or household storage talk by checklist.
+Do not automatically resolve Lyssa's coat tomorrow just because chapter ended with possibility. Let her decision remain hers and allow off-page time if useful.
 
-Greg begins with **3c + 0 bits**, **26c Vale principal-equivalent debt**, no guaranteed work, no scheduled theatre work, and no immediate cash obligation.
+Greg begins with **3c + 0 bits**, **26c Vale principal-equivalent debt**, no guaranteed work, no scheduled theatre work, no immediate cash obligation.
 
-Strong next routes include:
-- a relationship/character collision that uses existing social residue but changes a relationship rather than simply adding procedure;
-- an ordinary economic/work choice where 3c liquidity matters but does not instantly refill;
-- a fresh high-fantasy external claim with different physical/social grammar;
-- a bounded return of an older unresolved thread only if current prose creates the claim naturally;
-- an obligation or desire that competes with Greg's acquisition ambition.
+Strong next routes include a fresh physical/high-fantasy claim, a bounded older-thread return that materially changes, an ordinary obligation with consequence, a work opportunity that asks Greg to choose rather than simply refill, or a social collision outside Lyssa/household.
 
-Three Reeds has earned breathing room. When it returns, prefer a **real practical use** in story over another laboratory test.
+Avoid another shopping chapter, artifact test, household money talk, blue-hour event, or immediate Hessa-by-rotation unless current prose earns it.
+
+Three Reeds has now breathed for two chapters after its test. It may return later through real practical use, but do not force it into the next beat.
 
 Magic remains **53 / 53 / 115** with no independent practice.
 
