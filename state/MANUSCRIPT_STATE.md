@@ -1,17 +1,17 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 367 - **THE INSTRUCTOR**.
+- Current exact story endpoint: Chapter 368 - **THE BIDDER**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript physically materialized through Chapter 248.
-- Exact Chapters 249-367 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
+- Exact Chapters 249-368 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
 - **NON-OPTIONAL:** titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
 - Mandatory pre-title question: `Who is Greg being here?`
-- Ch367 answer: Greg is being **an instructor**. Jori hires him specifically to teach three stagehands route discipline under low light. He observes habits, explains a transferable method, adapts drills, corrects errors, and recognizes an old first-life role in a smaller current-life form.
-- Therefore title **THE INSTRUCTOR**, not THE BLACKOUT, THE ROUTE, THE STAGEHANDS, THE GLOW MARKS, etc.
-- Canonical recent: 363 THE NEIGHBOR; 364 THE DEBTOR; 365 THE PARTNER; 366 THE DANCER; 367 THE INSTRUCTOR.
+- Ch368 answer: Greg is being **a bidder**. He enters a real public recovery auction, inspects lots, sets implicit value ceilings, competes twice, stops twice, wins a third mundane lot, and learns that restraint is part of bidding.
+- Therefore title **THE BIDDER**, not THE AUCTION, THE HARNESS, THE DRAFT FINDER, THE RECOVERY SALE, etc.
+- Canonical recent: 364 THE DEBTOR; 365 THE PARTNER; 366 THE DANCER; 367 THE INSTRUCTOR; 368 THE BIDDER.
 
 ## Production rules
 - One chapter at a time. Target 2,500-4,000 words and clear 2,500 unless explicitly changed.
@@ -22,90 +22,105 @@
 - Current forward routing governed by workflow/rhythm-artifact engine/title rule.
 
 ## Current direction
-- Ch367 answers Ch366's nonproductive embodiment with a **leadership/teaching role** rather than more observation/support.
-- Theatre calls Greg for a specific competence grounded in his current body and prior demonstrated light/route attention, not generic protagonist usefulness.
-- Greg is explicitly not theatre safety certifier, rigging specialist, or blackout specialist. Jori owns theatre rules; Nessa owns lamps; Greg teaches route discipline.
-- First-life instructor identity surfaces naturally through doing, without making Greg lecture everyone about former S-class status.
+- Ch368 cashes in the new 10c reserve by making acquisition pressure **real without rewarding Greg with a miraculous artifact bargain**.
+- Greg attends a City Recovery Sale because Sella gives him public notice and says he likes bad objects.
+- He wants two retired magical/service objects, bids rationally, and loses both to buyers with stronger use-context/information.
+- He buys a mundane used porter harness for 1c because it solves current-body carrying geometry better than an exciting unknown artifact.
+- Market remains awake and rational. Greg's information edge is not universal.
 
-## Chapter 367 - THE INSTRUCTOR
-- Jori hires Greg for a bounded two-hour theatre session at **2c**, same day.
-- Purpose: teach three stagehands movement discipline under reduced light after two prior near-collisions last week. No injuries occurred in those incidents; one dropped prop and one person walked into frame while watching glow mark instead of route.
-- Success defined before session: cross marked route under reduced light; stop on lost orientation instead of guessing; communicate obstruction; restart from known point.
-- Empty crossings first, then one light prop each. No speed test. No surprise obstacles.
-- Greg accepts after role/scope clarified.
+## Chapter 368 - THE BIDDER
+- Sella meets Greg accidentally on South Cut and gives him City Recovery Sale notice for North Weigh Yard.
+- Sale categories: unclaimed/retired/damaged service goods; inspection first bell, auction second bell; no powered testing; sold as marked; same-day buyer removal.
+- Sella explains `sold as marked`: yard represents condition card only, not hidden function/remaining service life/compatibility/repair cost.
+- Public lots under silver threshold require no bidder deposit. Payment immediate. Copper/silver/registered yard credit.
+- Cala immediately flags same-day removal/storage. Household chest does not become bigger because Greg has 10c. Greg agrees large purchases do not come upstairs without storage plan.
+- Tavi wants to attend; adults unanimously refuse.
 
-## Theatre training method
-- Greg's core model: before moving, identify **START POINT / NEXT FIXED BOUNDARY / STOP CONDITION**.
-- He explains this comes partly from daily movement with limited left correction and crutches as `infrastructure`, but does not make disability the whole lesson.
-- First full-light observation identifies distinct habits:
-  - Mett moves fast and watches destination.
-  - Brenna moves slower and overprotects around nearby objects.
-  - Olo follows marks too exactly and guesses continuation when mark disappears.
-- Reduced-light route uses weak stored-glow floor/wall tabs. No mechanism deep dive.
-- Greg teaches them to orient to room, not single mark.
-- Props: wooden bowl, rolled cloth, light frame corner.
-- Bowl blocks Mett's low mark; he learns to stop/use fixed floor seam.
-- Brenna carrying frame watches object too much; Greg points out he carries two long objects everywhere and route awareness must lead object protection.
-- Olo correctly stops when lamp angle weakens a glow tab, then finds room boundary before continuing.
-- Known low empty crate is added only after everyone sees it in full light. No surprise obstacle.
-- Communication practice uses existing/approved theatre calls under Jori's authority:
-  - `HOLD` = stop movement/keep position.
-  - `BLOCK` = route segment obstructed, followed by location.
-  - `CLEAR` = stated segment checked/open, not whole room permanently safe.
-- Greg does not invent official theatre vocabulary.
-- Mett once tries to move crate in dark without being told; Greg/Jori stop him because changing map without communicating creates new condition.
-- Final clean sequence is intentionally boring: all three move props, communicate known obstruction, wait for occupied route, stop on weak mark, reorient from fixed boundaries. No collision/drop/speed stunt.
+## Recovery sale mechanics / lots
+- Greg receives bidder paddle **32**. Roughly sixty lots. He walks full room once before touching anything.
+- Lot 12: retired wall indexer, marking core removed, frame true, mount plate included. Estimate 6c. Greg passes. It later sells 7c after office furnishers compete.
+- Lot 17: retired service pressure reservoir, seal drift, residual charge cleared, red cord/no opening. Estimate 4c. Greg refuses despite fascination. Repair shop buys at 5c.
+- Lot 23: three counterweight shoes. Sella's warning stops Greg from romanticizing them. Freight buyer gets at 2c.
+- Lot 38: folding brazier, heat rune removed, ordinary charcoal serviceable. Estimate 2c. Sells 3c. Greg passes.
 
-## New/expanded stagehand voices
-- **Mett:** adult ~25, broad, shaved sides; nervous/defensive overexplainer who assumes `not a test` probably means secret test. Talks frequently, jokes, hates training, tends to rush/fix things.
-- **Brenna:** adult ~late 20s, narrow face; skeptical/practical, more willing to challenge Greg directly, already route-conscious but overprotects carried width.
-- **Olo:** ~17, tall, intentionally quiet; initially resists correction, then adopts method with minimal words. Lands dry line at end: when Greg threatens to charge for phrase, Olo says `You already are.`
-- These are bounded theatre contacts. Do not force future prominence.
-- Nessa remains lamp owner with prickly professional speech. Jori remains procedural authority, not Greg clone.
+## Lot 31: draft-finder array
+- Forearm-length shallow wooden case, brass corners, two leather back loops, six narrow ceramic slats/vanes with blackened metal tongues; originally eight, two missing.
+- Condition card: `RETIRED DRAFT-FINDER ARRAY`; former West Archive stacks; 6/8 vanes; case hinge repaired; passive response observed at intake; calibration unknown; mount straps hardened; no powered testing.
+- Floor clerk clarifies passive response only means intake clerk saw vane movement in airflow without activation source. Yard did not open tongues/test calibration. Retired through archive replacement cycle; marked incomplete at removal; no fault code transferred.
+- Greg can lift case but not remove vanes. No compatible replacements listed.
+- Auction opens 1c. Greg bids 1, another bidder #14 bids 2, Greg 3, bidder 14 bids 4. Greg stops at 3 because 4c is 40% of liquidity for incomplete unknown-calibration tool with no current need.
+- Bidder 14 wins at 4c.
+- Outside she reveals she was buying **six vanes**, not necessarily working array. She recognized same ceramic profile as old archive humidity shutters; father serviced stacks twenty years. If tongues wrong, she bought six decorative strips. Her information/use-context justifies 4c. No name/future subplot established.
 
-## First-life competence residue
-- During instruction Greg recalls first-life teaching: sword grip, mana circulation, field dressing, wet-armor sleep, wyvern spoor, teaching young adventurers bravery is not substitute for map, training recruits who became captains.
-- Some students died anyway. Greg's internal conclusion: teaching does not make people immortal; it removes stupid deaths from pile. Enough.
-- This confirms old instructor competence without exposing first-life biography to current characters.
+## Lot 44: route echo pins
+- Pair of iron pegs with blue glass heads. Retired municipal survey. One clean tone at intake, one intermittent; range/pairing/calibration unknown; no field test.
+- Auction opens 1c. Greg bids 1; bidder #41 in surveyor gray vest bids 2; Greg 3; surveyor immediately 4. Greg stops at 3 rather than spending half cash on uncertain pair.
+- Outside surveyor demonstrates compatible equipment accidentally/incidentally: flicks one purchased glass head; another unit in box at his hip answers. Confirms stronger existing ecosystem/use context. No name/future subplot.
+
+## Lot 52: porter side harness
+- Mundane used leather carrying harness with two adjustable side loops and broad back strap.
+- Condition card: used; stitching sound; one buckle replaced; no load rating represented.
+- Opens 1c. Greg is sole bidder and wins **1c**.
+- Porter near front inspects but does not bid. Market signal noted, not overinterpreted.
+- At bench Greg tests empty fit with permission. One loop initially too low near left hip; shortened. Right-side carry can sit behind elbow line without interfering with right crutch. Left-side geometry more complicated due left BKA/crutch path.
+- Clerk says worn maker stamp looks like old Heddel porter goods but could be copy; Heddel shop closed years ago; ordinary leatherworker can assess stitching/buckle.
+- Greg ends auction with harness and **9c cash**.
+
+## Harness follow-up
+- Cala is relieved Greg did not buy pressure cylinder.
+- Lyssa inspects harness because she sews: leather dry, stitching appears sound, replacement buckle questionable. She agrees 1c is fine.
+- Tavi loses interest immediately when told harness is not magic.
+- Cala-known local leatherworker gives quick no-fee visual assessment: stitching fine for light carry; leather needs oil; replacement buckle not trusted over roughly 10-12 lb until pin changed; side loops were for documents/tools/narrow parcels, not heavy freight. Repair price not established because Greg does not do it today.
+- Greg oils harness with Cala's permission.
+- Tests only with rolled blanket. Right-side carry works better than improvised shoulder-bag strap; weight closer/lower; left-side carry interferes with left crutch on longer swing.
+- No artifact secret emerges. Harness remains mundane useful equipment.
 
 ## Money / economy
-- Greg begins **8c cash** and receives **2c actual copper** from Jori after completed session.
-- Greg ends **10c private cash**.
+- Greg begins **10c**, spends **1c** on porter harness, ends **9c private cash**.
 - Vale remains **23c principal-equivalent**.
-- No bits spent/counting; unresolved Ch360 bit issue remains untouched.
-- Greg notes 10c now feels like **room**, not fortune. Enough that a future interesting object can become a real decision rather than joke. This intentionally raises artifact acquisition pressure without forcing immediate purchase.
-- No future theatre work guaranteed. Jori mentions possible future route drill with Nessa only as hypothetical; Greg says ask when work exists.
+- No Greg bits spent/counting; unresolved Ch360 issue untouched.
+- Greg explicitly considers reserve/debt/current need while bidding.
+- Losing at 4c is framed as successful restraint, not deprivation.
+- Acquisition engine now includes **failed bids and mundane wins**, not only magical ownership.
 
-## Lyssa / household continuity
-- Lyssa's Marra first lot remains in progress. Brown carry-wrap pieces are spread on table when Greg returns. No acceptance/payment yet.
-- Greg does not interfere.
-- Cala/Tavi ordinary household presence continues.
-- Greg sees two delivery boys struggling with a table on way home and deliberately does not instruct strangers. `Not instructor everywhere.` Boundary matters.
+## Artifact market intelligence
+- Chapter reinforces: visible/recognizable service value is priced by informed buyers.
+- Greg does not possess universal artifact-information advantage.
+- Draft-finder buyer knows vane profile and has archive-family knowledge.
+- Echo-pin buyer has compatible survey equipment.
+- Greg's stopping price differs because his use context is weaker.
+- Price is relational to owner/use without turning sellers/buyers stupid.
+- Do not later reinterpret either loss as Greg missing obvious legendary treasure unless exact future evidence genuinely earns it.
 
-## Artifact / magic / body
-- No artifact use/test/purchase/appraisal. Three Reeds breathes after prior payoff. Oval normal carry not involved in session.
+## Artifact / magic
+- Greg buys **no magical artifact**.
+- Existing Three Reeds/holdfast/rest stone/oval remain unchanged and unused.
 - No mana/Hessa. Magic remains **53 / 53 / 115**.
-- Greg's body is functional teaching evidence. No fall/injury/residual-limb issue. Main physical cost is sore throat from instruction rather than crutch strain.
 
-## Greg Ch367 notes
-- `CASH: 10 C`
+## Greg Ch368 notes
+- `CASH: 9 C`
 - `VALE: 23 C`
-- `THEATRE ROUTE SESSION: +2 C`
-- `START POINT`
-- `NEXT FIXED BOUNDARY`
-- `STOP CONDITION`
-- `DO NOT MOVE OBSTRUCTION WITHOUT CALL`
-- Closing identity: `Instructor. / Still knew how.`
+- `RECOVERY SALE`
+- `DRAFT FINDER: STOPPED AT 3 / SOLD 4`
+- `ECHO PINS: STOPPED AT 3 / SOLD 4`
+- `PORTER HARNESS: 1 C`
+- `LIGHT CARRY ONLY UNTIL BUCKLE PIN CHECKED`
+- `RIGHT SIDE BETTER`
+- Closing identity: `Bidder. / Apparently restraint counted too.`
 
 ## Recent role ledger
-- 363 **THE NEIGHBOR:** practical Three Reeds help two doors down.
 - 364 **THE DEBTOR:** Vale service credit, debt 26 -> 23c.
 - 365 **THE PARTNER:** supports Lyssa's work decision without ownership.
 - 366 **THE DANCER:** unnecessary pleasure/current-body dance grammar.
-- 367 **THE INSTRUCTOR:** leads bounded low-light route training for three stagehands, earns 2c to 10c, reconnects with old teaching identity.
+- 367 **THE INSTRUCTOR:** theatre route teaching, earns 2c to 10c.
+- 368 **THE BIDDER:** competes in rational recovery auction, stops at value ceilings twice, buys mundane porter harness 1c, ends 9c.
 
 ## Protected uncertainties
-- Whether future theatre route/prop drill exists unresolved.
+- Whether draft-finder buyer / survey bidder recur unresolved; default no forced recurrence.
+- Draft-finder exact mechanism/current function unresolved.
+- Echo-pin exact range/pairing/function unresolved beyond one buyer's compatible answering unit.
+- Porter harness maker authenticity unresolved; buckle-pin replacement cost unresolved.
+- Whether future theatre route drill exists unresolved.
 - Mett/Brenna/Olo future roles unresolved.
 - Pera recurrence unresolved.
 - Amber rib instrument mechanism/name unresolved.
@@ -131,28 +146,29 @@
 - Blue harness buyer/motive/use unknown.
 
 ## Continuity issue
-- Ch360 exact prose 1-bit lunch has no established bit source after Ch359 0 bits. Do not silently invent. Ch361-367 avoid Greg bit accounting. Copper exact now **10c**.
+- Ch360 exact prose 1-bit lunch has no established bit source after Ch359 0 bits. Do not silently invent. Ch361-368 avoid Greg bit accounting. Copper exact **9c**.
 
-## Chapter 368 trailhead
-Follow next actual claim from Ch367/current authority.
+## Chapter 369 trailhead
+Follow next actual claim from Ch368/current authority.
 
-Recent rhythm: relationship/work support -> nonproductive dance/embodiment -> **teaching/leadership + earned cash**.
+Recent rhythm: dance/embodiment -> teaching/earned cash -> **auction/acquisition choice with two failed magical bids + mundane tool win**.
 
-Do not immediately repeat theatre training, teaching drill, dancing, Lyssa negotiation, Vale, child outing, or another safety-procedure chapter.
-Do not resolve Lyssa first lot immediately unless enough story time naturally passes.
+Do not immediately repeat auction, market browse, artifact shopping, equipment testing, theatre teaching, or another chapter whose main point is Greg's financial restraint.
+Do not turn porter harness into magical artifact. It is mundane equipment.
 
-Greg begins **10c cash / 23c Vale / no guaranteed work / no scheduled Hessa / exact bits unspecified**.
+Greg begins **9c cash / 23c Vale / no guaranteed work / no scheduled Hessa / exact bits unspecified**.
+Porter harness exists as light-carry tool with right-side geometry preferred; buckle pin should be checked before >10-12 lb load.
 
-Artifact pressure is now materially different: 10c reserve means some previously impossible or unserious objects can become real choices. Do not force purchase next chapter merely because state says this. If acquisition appears, price visible value rationally and make Greg choose among reserve/debt/object/access rather than finding magical bargain by protagonist privilege.
+Enough story time can now plausibly pass for Lyssa's four-day first-lot deadline if chapter route wants that consequence, but avoid simply replaying negotiation. The interesting next question would be actual work result / acceptance / changed relationship to labor, not terms again.
 
 Strong next routes:
-- older unresolved artifact/object thread returning through seller/user/provenance rather than laboratory test;
-- external adult social collision unrelated to work instruction;
-- time advance allowing Lyssa first lot consequences after intervening life;
-- fantasy ecology/event where Greg's old-life field knowledge is simply competent rather than investigative;
-- desire-led choice now that Greg has modest reserve.
+- Lyssa first-lot return after time passage, with Greg in a different role than partner/adviser;
+- older unresolved character/thread returning with materially changed information;
+- fantasy ecology/event with consequence unrelated to acquisition;
+- household/social obligation where Greg's new harness matters incidentally rather than as test;
+- Hessa/magic only if actual story pressure earns return after long absence.
 
-**MANDATORY TITLE CHECK CH368:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH369:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 Magic remains **53 / 53 / 115**.
 
