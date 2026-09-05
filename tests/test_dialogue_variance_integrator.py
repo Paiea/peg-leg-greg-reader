@@ -42,6 +42,14 @@ Reason: test
         self.assertNotIn('"Old."', changed)
         self.assertEqual(changed, adv.apply_patch_to_html(changed, patch))
 
+    def test_preserves_unrelated_inline_prose_markup(self):
+        html = '<article class="prose"><p>Before <em>important</em> thought.</p><p>"Old."</p><p>"Still old."</p></article>'
+        patch = adv.Patch(3, '3.V1', ['"Old."', '"Still old."'], ['"New."', '"Still new."'], '')
+        changed = adv.apply_patch_to_html(html, patch)
+        self.assertIn('<p>Before <em>important</em> thought.</p>', changed)
+        self.assertIn('<p>"New."</p>', changed)
+        self.assertIn('<p>"Still new."</p>', changed)
+
     def test_final_line_directive_replaces_only_last_current_line(self):
         html = '<article class="prose"><p>A.</p><p>B.</p><p>C.</p></article>'
         patch = adv.Patch(7, '7.V3', ['A.', 'B.', 'C.'], ['Replacement.'], 'Replace the final Antonius line with:')
