@@ -1,5 +1,5 @@
 {
-  "latest": 352,
+  "latest": 361,
   "chapters": [
     {
       "number": 100,
@@ -1518,6 +1518,60 @@
       "title": "THE COUNT",
       "source": "checkpoint",
       "path": "352.html"
+    },
+    {
+      "number": 353,
+      "title": "THE BAD LANTERN",
+      "source": "checkpoint",
+      "path": "353.html"
+    },
+    {
+      "number": 354,
+      "title": "THE HIGH SHELF",
+      "source": "checkpoint",
+      "path": "354.html"
+    },
+    {
+      "number": 355,
+      "title": "THE BORROWED LAMP",
+      "source": "checkpoint",
+      "path": "355.html"
+    },
+    {
+      "number": 356,
+      "title": "THE BLUE HOUR",
+      "source": "checkpoint",
+      "path": "356.html"
+    },
+    {
+      "number": 357,
+      "title": "THE GOOD COAT",
+      "source": "checkpoint",
+      "path": "357.html"
+    },
+    {
+      "number": 358,
+      "title": "THE HANGING ROAD",
+      "source": "checkpoint",
+      "path": "358.html"
+    },
+    {
+      "number": 359,
+      "title": "THE REFUSAL",
+      "source": "checkpoint",
+      "path": "359.html"
+    },
+    {
+      "number": 360,
+      "title": "THE WRONG TAG",
+      "source": "checkpoint",
+      "path": "360.html"
+    },
+    {
+      "number": 361,
+      "title": "THE MODEL",
+      "source": "checkpoint",
+      "path": "361.html"
     }
   ]
 }
