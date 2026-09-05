@@ -10,3 +10,28 @@
   target.replaceChildren(link);
   target.hidden = false;
 })();
+
+(() => {
+  const home = document.querySelector('main.home');
+  const contents = document.querySelector('#chapters, #books');
+  if (!home || !contents) return;
+  contents.id = 'books';
+  contents.setAttribute('aria-labelledby', 'books-heading');
+  const section = contents.closest('.home-chapters');
+  const kicker = section?.querySelector('.home-section-head .home-kicker');
+  const heading = section?.querySelector('.home-section-head h2');
+  if (kicker) kicker.textContent = 'The novel';
+  if (heading) { heading.id = 'books-heading'; heading.textContent = 'Books'; }
+  document.querySelectorAll('.reader-book[open], .reader-act[open]').forEach(node => node.removeAttribute('open'));
+  const actions = home.querySelector('.home-actions');
+  if (!actions) return;
+  actions.replaceChildren();
+  for (const [label, href, className] of [
+    ['Begin Reading','chapters/001.html','start primary-action'],
+    ['Text Reader','light/index.html','secondary-action'],
+    ['Illustrated Reader','#books','secondary-action'],
+    ['Illustrations','art.html','tertiary-action'],
+  ]) {
+    const link=document.createElement('a'); link.textContent=label; link.href=href; link.className=className; actions.append(link);
+  }
+})();
