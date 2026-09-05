@@ -77,6 +77,9 @@ BOOKS = (
             ReaderAct('ACT I', 'WHAT THINGS COST', 321, 330, 'Money, tools, risk, and opportunity become choices Greg can increasingly make for himself.'),
             ReaderAct('ACT II', 'BEYOND THE DOOR', 331, None, 'Greg’s useful life reaches farther beyond home while strange boundaries begin answering back.'),
         ),
+        'assets/book-role-cards/book-iv-surveyor-331.webp',
+        'The Surveyor, Chapter 331: young bearded Greg on two crutches studying an old boundary marker with a field map, Carrow visible beyond the marker field.',
+        'chapters/331.html',
     ),
 )
 
