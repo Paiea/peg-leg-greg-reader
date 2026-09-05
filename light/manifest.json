@@ -1,5 +1,5 @@
 {
-  "latest": 336,
+  "latest": 343,
   "chapters": [
     {
       "number": 100,
@@ -1422,6 +1422,48 @@
       "title": "THE BID LINE",
       "source": "checkpoint",
       "path": "336.html"
+    },
+    {
+      "number": 337,
+      "title": "THE RED PATH",
+      "source": "checkpoint",
+      "path": "337.html"
+    },
+    {
+      "number": 338,
+      "title": "THE PUBLIC COUNTER",
+      "source": "checkpoint",
+      "path": "338.html"
+    },
+    {
+      "number": 339,
+      "title": "THE SECOND VOICE",
+      "source": "checkpoint",
+      "path": "339.html"
+    },
+    {
+      "number": 340,
+      "title": "THE MOVING LINE",
+      "source": "checkpoint",
+      "path": "340.html"
+    },
+    {
+      "number": 341,
+      "title": "THE LONG MILE",
+      "source": "checkpoint",
+      "path": "341.html"
+    },
+    {
+      "number": 342,
+      "title": "THE HOUSE LINE",
+      "source": "checkpoint",
+      "path": "342.html"
+    },
+    {
+      "number": 343,
+      "title": "THE DUE DATE",
+      "source": "checkpoint",
+      "path": "343.html"
     }
   ]
 }
