@@ -30,14 +30,14 @@ Greg remains the gravitational center of short dry compressed comic reduction. O
 
 ## Sequential coverage ledger
 
-- Chapters **1-145: VARIANCE REVIEWED**
-- Chapters **146-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-155: VARIANCE REVIEWED**
+- Chapters **156-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 146**
+Current sequential variance edge: **Chapter 156**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_136_145.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_146_155.md`
 
 ## Sequential batch authority
 
@@ -71,6 +71,7 @@ Exact chapter-level findings and replacement prose are preserved in:
 - `BATCH_126_130.md`
 - `BATCH_131_135.md`
 - `BATCH_136_145.md`
+- `BATCH_146_155.md`
 
 All paths above are under `state/editorial/dialogue-variance-pass/`.
 
@@ -78,20 +79,20 @@ Existing out-of-sequence pilot evidence remains:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches do not bridge the unreviewed 146-320 gap.
+Those later batches do not bridge the unreviewed 156-320 gap.
 
-## Chapters 136-145 result
+## Chapters 146-155 result
 
-- Chapter 136 `THE OLD VOICE`: **no variance change required**. The servant actor's bad metaphors, rehearsal woman's subjective notes, and Teren's tiny corrections all remain useful because performance is learned through imperfect partner feedback rather than perfect theory. Preserve lodging-keeper female-pronoun corrections from attribution authority.
-- Chapter 137 `THE SHAPE`: **no variance change required**. Hessa's neutral-shape assessment stays geometry- and reporting-owned; longer technical explanations are healthy when the distinction matters.
-- Chapter 138 `THE SHOPKEEPER`: **no variance change required**. Live performance naturally disrupts optimized dialogue; Greg owns the sharpest improvised reduction register while actors adapt to audience and partner changes. Preserve the unresolved earlier-female-soot-shirt versus later-Davin identity distinction.
-- Chapter 139 `THE BASELINE`: **no variance change required**. Hessa lets stronger baseline information weaken prior success and keeps timing, apparatus, and travel authority within observable or professional bounds.
-- Chapter 140 `THE TRAVELER`: **light variance patch required**. Lyssa's broader relationship inference is evidence-backed, but replace one fountain-boy `you're about to solve it / you have that face` routine with direct instruction to leave the visibly watched courier alone.
-- Chapter 141 `THE PACKER`: **no variance change required**. Packing, food, socks, cloth, and loose rehearsal notes give Lyssa an affectionate, practical, socially intuitive register distinct from Greg.
-- Chapter 142 `THE PASSENGER`: **no variance change required**. Fatigue, cramped wagon space, road pressure, incomplete answers, and background absurdity create natural conversational variance.
-- Chapter 143 `THE STOP`: **no variance change required**. Naming reduces attribution load; Davin's rope instruction ends when the task is usable, while Teren's pay discussion broadens under real operating pressure.
-- Chapter 144 `THE STABLE`: **no variance change required**. Stable, costume, sleeping, and hall problems remain distributed and imperfect; misidentification and incomplete explanations are productive social texture.
-- Chapter 145 `THE ARRIVAL`: **no variance change required**. Tour authority stays distributed across Teren, Davin, Nessa, Rinna, Pell, Marek, and others; work repeatedly interrupts Greg's demand for full explanation.
+- Chapter 146 `THE HAND`: **no variance change required**. Crowded hall setup stays distributed across work and social jurisdiction; partial old-company knowledge remains partial instead of becoming convenient exposition.
+- Chapter 147 `THE REHEARSAL`: **no variance change required**. Iven, Teren, Serra, Marek, costume workers, Edda, and Greg retain distinct ways of handling rehearsal failure, privacy, and current work.
+- Chapter 148 `THE ROOF`: **no variance change required**. Incidental town speakers remain low-ambition and scope-limited; local expertise and uncertainty coexist without turning into polished exposition. Preserve the municipal-Mara same-name caution from attribution authority.
+- Chapter 149 `THE AUDIENCE`: **no variance change required**. Open rehearsal supports audience pressure while still allowing stops, resets, object moves, and reruns; successful lines remain possibilities rather than frozen recipes.
+- Chapter 150 `THE WORK`: **no variance change required**. Offstage fatigue, food, cards, costumes, money, and touring history broaden rhythm naturally; Marek and Iven can explain practical work without becoming theorists.
+- Chapter 151 `THE SHOW`: **light variance patch required**. Replace one Iven `I didn't say anything / your face` coat beat with scene-object language: `Coat is not the problem.`
+- Chapter 152 `THE SECOND SHOW`: **no variance change required**. Current audience and partner behavior outrank yesterday's successful bits; tiny partner corrections remain enough.
+- Chapter 153 `THE MONEY`: **light variance patch required**. Replace one Marek `your face` ladder after an old local debt encounter with his own social-history refusal: `Local history.`
+- Chapter 154 `THE VISITOR`: **light variance patch required**. Keep Drell's deliberately unsettling perception because provenance is explicit; replace Davin's generic `your face` wheel beat with `Leave the wheels.`
+- Chapter 155 `THE LEAK`: **no variance change required**. Wet-hall operations keep shared short words tied to distinct objects and authorities; route, storage, roof, costume, and show decisions remain locally owned.
 
 ## High-value watch targets
 
@@ -100,13 +101,16 @@ Those later batches do not bridge the unreviewed 146-320 gap.
 - Recurring-character dryness is allowed; review machinery and density, not mere terseness.
 - Distinguish safety `No`, job `No`, and comedy `No`.
 - Repeated prediction is especially dangerous when stacked among several familiar characters.
+- A repeated phrase can become evidence of its own overdistribution; narration such as `Everyone said that now` is a warning to inspect the mechanism.
 - A wrong prediction can be healthy if the speaker has a plausible basis and the miss demonstrates fallibility.
 - Relationship familiarity should change workflow and sharpen questions, not grant transcript access to Greg's unsaid sentence.
 - Relationship shorthand is healthiest when it opens a question instead of replacing the other person's report.
 - Visible affect is cheaper than hidden reasoning. Seeing excitement, strain, disappointment, or silence is not the same as knowing the exact inference behind it.
 - Prefer current evidence: object placement, stopped movement, spoken argument, gaze target, route choice, body position, damaged equipment, or work history.
+- Current object or jurisdiction often beats generic perception: coat, debt history, wheel, route, apparatus, or current task can carry the exchange.
 - Spoken reasoning should outrank face-reading when both are available.
 - Face-reading can be legitimate when observation is the scene mechanic, such as cards, acting, pain, or visible physical strain.
+- Deliberately unsettling perception still needs provenance. Drell's unusual observation is safer because the text makes his viewing and secondhand information path part of the scene.
 - Expert familiarity should improve the question, not eliminate the need to ask it.
 - Let experts be wrong about Greg sometimes.
 - Specialists should prefer current professional consequence over generic protagonist commentary.
@@ -144,10 +148,12 @@ Those later batches do not bridge the unreviewed 146-320 gap.
 - Schedule and assessment ownership can replace mental-process policing.
 - Performance scenes may legitimately spend more attention on faces and reactions because attention itself is part of the craft evidence.
 - Travel pressure naturally creates variance through fatigue, cramped space, missing information, moving work, meals, ropes, costumes, horses, and bad roads.
+- Live work tolerates partial failure when no downstream beat depends on perfect recovery.
+- Tour ecology protects variance through fatigue, money, weather, work interruption, local crew, transport, audience state, and incomplete information.
 - Bad metaphors can be useful when they belong to the speaker. Partial, weird images may differentiate a character better than precise analysis.
 - Naming can reduce attribution load without increasing exposition.
 - Relationship inference is strongest when the evidence can be listed.
-- Work can interrupt explanation. A knot, needle, wagon, costume, or horse may end a conversation before anyone reaches a polished conclusion.
+- Work can interrupt explanation. A knot, needle, wagon, costume, horse, or wet stage may end a conversation before anyone reaches a polished conclusion.
 - No-change chapters are positive evidence. Do not patch to meet quota.
 
 ## Guardrails
@@ -180,11 +186,11 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 146**.
+Resume sequentially at **Chapter 156**.
 
 Preferred bounded queue: **10 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 146-155**.
+Next intended batch: **Chapters 156-165**.
 
 ## Restart prompt
 
