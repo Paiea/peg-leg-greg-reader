@@ -11,6 +11,8 @@ ROOT = Path(__file__).resolve().parents[1]
 STATE = ROOT / 'state' / 'editorial' / 'DIALOGUE_VARIANCE_PASS_STATE.md'
 BATCH_DIR = ROOT / 'state' / 'editorial' / 'dialogue-variance-pass'
 CHAPTERS = ROOT / 'chapters'
+FIGURE_TOKEN_RE = r'\[\[\[PLG_FIGURE_\d+\]\]\]'
+INLINE_TOKEN_RE = r'\[\[\[PLG_INLINE_\d+\]\]\]'
 
 
 @dataclass(frozen=True)
@@ -63,14 +65,26 @@ def parse_batch(text: str) -> list[Patch]:
     return patches
 
 
-def _plain(inner: str) -> str:
-    if re.search(r'<[^>]+>', inner):
-        raise AssertionError('inline prose markup requires manual integration')
-    return html.unescape(inner)
+def _protect_inline(inner: str, sentinels: dict[str, str], counter: list[int]) -> str:
+    def protect(match: re.Match[str]) -> str:
+        token = f'[[[PLG_INLINE_{counter[0]}]]]'
+        counter[0] += 1
+        sentinels[token] = match.group(0)
+        return token
+
+    protected = re.sub(r'<[^>]+>', protect, inner)
+    return html.unescape(protected)
 
 
-def _pattern(lines: list[str]) -> re.Pattern[str]:
-    return re.compile(r'\s*'.join(re.escape(line) for line in lines), re.S)
+def _sequence_pattern(lines: list[str]) -> re.Pattern[str]:
+    if not lines:
+        raise AssertionError('cannot match empty dialogue sequence')
+    parts = [re.escape(lines[0])]
+    separator = rf'(?:\s|{FIGURE_TOKEN_RE})*'
+    for idx, line in enumerate(lines[1:]):
+        parts.append(rf'(?P<gap{idx}>{separator})')
+        parts.append(re.escape(line))
+    return re.compile(''.join(parts), re.S)
 
 
 def _target_lines(patch: Patch) -> list[str]:
@@ -86,6 +100,28 @@ def _target_lines(patch: Patch) -> list[str]:
     return patch.current
 
 
+def _replacement_with_preserved_gaps(match: re.Match[str], replacement: list[str], target_count: int) -> str:
+    gaps = [match.group(f'gap{i}') for i in range(max(0, target_count - 1))]
+    if len(replacement) == target_count:
+        pieces = [replacement[0]]
+        for idx, line in enumerate(replacement[1:]):
+            pieces.append(gaps[idx])
+            pieces.append(line)
+        return ''.join(pieces)
+
+    figures: list[str] = []
+    for gap in gaps:
+        figures.extend(re.findall(FIGURE_TOKEN_RE, gap))
+    text = '\n\n'.join(replacement)
+    if figures:
+        if len(replacement) > 1:
+            first, rest = text.split('\n\n', 1)
+            text = first + '\n\n' + '\n\n'.join(figures) + '\n\n' + rest
+        else:
+            text += '\n\n' + '\n\n'.join(figures)
+    return text
+
+
 def apply_patch_to_html(page: str, patch: Patch) -> str:
     article_match = re.search(r'(<article\b[^>]*class=["\'][^"\']*\bprose\b[^"\']*["\'][^>]*>)(.*?)(</article>)', page, re.I | re.S)
     if not article_match:
@@ -97,6 +133,7 @@ def apply_patch_to_html(page: str, patch: Patch) -> str:
         raise AssertionError(f'{patch.patch_id}: chapter {patch.chapter} has no prose blocks')
 
     sentinels: dict[str, str] = {}
+    inline_counter = [0]
     plain_blocks: list[str] = []
     for idx, block in enumerate(blocks):
         if block.lower().startswith('<figure'):
@@ -107,13 +144,13 @@ def apply_patch_to_html(page: str, patch: Patch) -> str:
         p = re.match(r'<p\b[^>]*>(.*?)</p>', block, re.I | re.S)
         if not p:
             raise AssertionError(f'{patch.patch_id}: malformed paragraph')
-        plain_blocks.append(_plain(p.group(1)))
+        plain_blocks.append(_protect_inline(p.group(1), sentinels, inline_counter))
 
     stream = '\n\n'.join(plain_blocks)
     target = _target_lines(patch)
-    target_pattern = _pattern(target)
+    target_pattern = _sequence_pattern(target)
     matches = list(target_pattern.finditer(stream))
-    replacement_pattern = _pattern(patch.replacement)
+    replacement_pattern = _sequence_pattern(patch.replacement)
     if not matches:
         if replacement_pattern.search(stream):
             return page
@@ -121,14 +158,21 @@ def apply_patch_to_html(page: str, patch: Patch) -> str:
     if len(matches) != 1:
         raise AssertionError(f'{patch.patch_id}: approved current prose matched {len(matches)} times in chapter {patch.chapter}')
 
-    replacement_text = '\n\n'.join(patch.replacement)
-    stream = target_pattern.sub(lambda _: replacement_text, stream, count=1)
+    stream = target_pattern.sub(
+        lambda match: _replacement_with_preserved_gaps(match, patch.replacement, len(target)),
+        stream,
+        count=1,
+    )
     rebuilt: list[str] = []
     for block in stream.split('\n\n'):
-        if block in sentinels:
+        if block in sentinels and block.startswith('[[[PLG_FIGURE_'):
             rebuilt.append(sentinels[block])
-        else:
-            rebuilt.append(f'<p>{html.escape(block, quote=False)}</p>')
+            continue
+        escaped = html.escape(block, quote=False)
+        for token, original in sentinels.items():
+            if token.startswith('[[[PLG_INLINE_'):
+                escaped = escaped.replace(token, original)
+        rebuilt.append(f'<p>{escaped}</p>')
     new_inner = ''.join(rebuilt)
     return page[:article_match.start(2)] + new_inner + page[article_match.end(2):]
 
