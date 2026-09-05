@@ -41,33 +41,31 @@ class ReaderSectionsTests(unittest.TestCase):
         self.assertEqual(book_four.slug, 'book-iv')
         self.assertEqual(
             [(act.start, act.end, act.title) for act in book_three.acts],
-            [
-                (181, 219, 'THE WORKING COMPANY'),
-                (220, 280, 'THE PRICE OF ATTENTION'),
-                (281, 320, 'THE WIDER LIFE'),
-            ],
+            [(181, 219, 'THE WORKING COMPANY'), (220, 280, 'THE PRICE OF ATTENTION'), (281, 320, 'THE WIDER LIFE')],
         )
         self.assertEqual(
             [(act.start, act.end, act.title) for act in book_four.acts],
-            [
-                (321, 330, 'WHAT THINGS COST'),
-                (331, None, 'BEYOND THE DOOR'),
-            ],
+            [(321, 330, 'WHAT THINGS COST'), (331, None, 'BEYOND THE DOOR')],
         )
 
-    def test_role_card_paths_resolve(self):
+    def test_published_role_card_paths_resolve(self):
         root = Path(__file__).parents[1]
         expected = {
             'assets/book-role-cards/book-i-warrior-005.webp',
             'assets/book-role-cards/book-ii-stagehand-177.webp',
             'assets/book-role-cards/book-iii-magistrate-231.webp',
-            'assets/book-role-cards/book-iv-surveyor-331.webp',
         }
-        for book in BOOKS:
+        for book in BOOKS[:3]:
             self.assertIn(book.card_src, expected)
             path = root / book.card_src
             self.assertTrue(path.is_file(), f'missing role-card asset: {book.card_src}')
             self.assertEqual(webp_size(path), (720, 960))
+
+    def test_book_four_role_card_wiring_is_declared(self):
+        book_four = BOOKS[3]
+        self.assertEqual(book_four.card_src, 'assets/book-role-cards/book-iv-surveyor-331.webp')
+        self.assertEqual(book_four.card_href, 'chapters/331.html')
+        self.assertIn('Surveyor', book_four.card_alt)
 
     def test_light_renderer_has_shared_four_book_hierarchy_without_images(self):
         links = {n: f'<a href="{n:03d}.html">Chapter {n}</a>' for n in range(1, 345)}
