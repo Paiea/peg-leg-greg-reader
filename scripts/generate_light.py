@@ -137,7 +137,7 @@ def chapter_nav(chapter: Chapter, all_numbers: list[int], generated: set[int]) -
 def render_chapter(chapter: Chapter, all_numbers: list[int], generated: set[int]) -> str:
     prev_html, next_html = chapter_nav(chapter, all_numbers, generated)
     illustrated = ''
-    if chapter.number <= 155 and (CHAPTERS_DIR / f'{chapter.number:03d}.html').exists():
+    if (CHAPTERS_DIR / f'{chapter.number:03d}.html').exists():
         illustrated = f'<a class="mode-link" href="../chapters/{chapter.number:03d}.html">Illustrated version</a>'
     return f'''<!doctype html>
 <html lang="en">
