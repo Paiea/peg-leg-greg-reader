@@ -33,16 +33,34 @@
   }
 
   fetch('light/manifest.json', {cache:'no-store'}).then(r => r.ok ? r.json() : null).catch(() => null).then(manifest => {
-    const latest = Number(manifest?.latest);
-    if (Number.isInteger(latest) && requested > latest) {
+    if (!manifest || !Array.isArray(manifest.chapters)) {
       location.replace('light/index.html');
       return;
     }
 
+    const latest = Number(manifest?.latest);
+    const staticNumbers = manifest.chapters
+      .map(chapter => Number(chapter?.number))
+      .filter(number => Number.isInteger(number) && number > 0);
+    if (!Number.isInteger(latest) || staticNumbers.length === 0) {
+      location.replace('light/index.html');
+      return;
+    }
+    if (requested > latest) {
+      location.replace('light/index.html');
+      return;
+    }
+
+    const firstStatic = Math.min(...staticNumbers);
     const expectedPath = `${String(requested).padStart(3, '0')}.html`;
-    const found = manifest?.chapters?.find(chapter => Number(chapter.number) === requested);
+    const found = manifest.chapters.find(chapter => Number(chapter.number) === requested);
     if (found?.path === expectedPath) {
       location.replace(`light/${found.path}`);
+      return;
+    }
+
+    if (requested >= firstStatic) {
+      location.replace('light/index.html');
       return;
     }
 
