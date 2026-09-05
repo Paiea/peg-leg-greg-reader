@@ -274,8 +274,6 @@ def validate_batch_contract(edge: int, batches: list[Path]) -> list[Patch]:
     ranged.sort(key=lambda item: (item[0], item[1], item[2].name))
 
     expected_start = 1
-    patches: list[Patch] = []
-    seen_patch_ids: dict[str, str] = {}
     for start, end, path in ranged:
         if start < expected_start:
             raise AssertionError(
@@ -291,7 +289,16 @@ def validate_batch_contract(edge: int, batches: list[Path]) -> list[Patch]:
             raise AssertionError(
                 f'{path.name}: batch extends beyond reviewed edge {edge}; last reviewed chapter is {edge - 1}'
             )
+        expected_start = end + 1
 
+    if expected_start != edge:
+        raise AssertionError(
+            f'dialogue variance batch gap before reviewed edge {edge}: expected Chapter {expected_start}'
+        )
+
+    patches: list[Patch] = []
+    seen_patch_ids: dict[str, str] = {}
+    for start, end, path in ranged:
         batch_patches = parse_batch(path.read_text(encoding='utf-8'))
         if not batch_patches:
             raise AssertionError(f'{path.name}: contains no patches')
@@ -306,12 +313,6 @@ def validate_batch_contract(edge: int, batches: list[Path]) -> list[Patch]:
                 )
             seen_patch_ids[patch.patch_id] = path.name
         patches.extend(batch_patches)
-        expected_start = end + 1
-
-    if expected_start != edge:
-        raise AssertionError(
-            f'dialogue variance batch gap before reviewed edge {edge}: expected Chapter {expected_start}'
-        )
     return patches
 
 
