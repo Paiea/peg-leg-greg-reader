@@ -47,6 +47,13 @@ class ReaderLabelTests(unittest.TestCase):
         self.assertIn('Text-only reading · no chapter illustrations', rendered_chapter)
         self.assertIn('Browse the Text Reader', rendered_latest)
 
+    def test_reader_label_normalizer_is_retired(self):
+        workflow = Path('.github/workflows/light-edition.yml').read_text(encoding='utf-8')
+        self.assertFalse(Path('scripts/normalize_reader_labels.py').exists())
+        self.assertNotIn('normalize_reader_labels.py', workflow)
+        self.assertNotIn('Normalize public reader labels', workflow)
+        self.assertIn("! grep -R '#chapters' light/*.html light.html latest.html index.html", workflow)
+
 
 if __name__ == '__main__':
     unittest.main()
