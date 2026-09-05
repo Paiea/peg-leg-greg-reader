@@ -1,1 +1,0 @@
-Consolidated into state/visual/BOOK_IV_ROLE_CARD.md; remove after cleanup batch.
