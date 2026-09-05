@@ -1,10 +1,10 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 359 - **THE REFUSAL**.
+- Current exact story endpoint: Chapter 360 - **THE WRONG TAG**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249-359 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249-360 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500-4,000 words and clear 2,500 unless explicitly changed.
@@ -15,86 +15,124 @@
 - Current forward routing is governed by `MANUSCRIPT_WORKFLOW.md` plus `RHYTHM_ARTIFACT_ENGINE.md`.
 
 ## Current direction
-- Ch359 changes grammar into a **real work-choice chapter**. Greg receives a genuinely good three-day South Quay offer, then a competing higher-rate one-morning North Secondary tag-walk offer.
-- The choice is not `good job vs bad job`. Both are legitimate. South Quay offers more total money/certainty and future temp reliability; North offers better pay per time and preserves two-plus days of optionality.
-- Greg cleanly refuses **9c of real offered work** rather than treating every available copper as mandatory. This is an economic progression beat: money matters, but time and optionality now matter too.
-- Refusal has realistic nonmoral consequences. Merren says clean refusal does not penalize temp-list status, but repeated unavailability would naturally make her ask other reliable names first.
-- Greg accepts North Secondary for tomorrow, but the 4c is **not yet earned** and must not be counted as current cash.
+- Ch360 pays off Ch359's explicit work choice. Greg performs the one-morning North Secondary replacement-tag walk and is actually paid **4c**, bringing current cash to **7c**.
+- The job remains distinct from Ch347 gate-hand work and Ch352 South Quay counting: Greg reads physical replacement tags/locations/presence while Saret owns the written list comparison.
+- One mismatch appears at Marker Nine East Base: physical tag says replacement line **D-6**, written list says **D-8**.
+- The mismatch matters operationally but does not become mystery/conspiracy. Route supervisor Pell independently verifies the discrepancy, holds that marker from clearance, and later finds install sheet + physical lot stamp both indicate D-8, making a wrong tag the leading explanation.
+- Greg does not certify the unit, diagnose repair, or convert `probably wrong tag` into technical certainty. The route professionals own follow-up.
+- Ch359's economic trade becomes tangible: Greg has **7c and his afternoon** rather than hypothetical 12c after three future South Quay days.
 
 ## Money / capital
-- Greg begins and ends Ch359 with **3 private copper + 0 bits**.
+- Greg begins Ch360 with **3 private copper + 0 bits**.
+- Completes North Secondary bounded tag-walk and is paid exactly **4c cash** after work-completion sign-off.
+- Greg then spends **1 bit** on an ordinary lunch bowl of lentils, smoked onion, and flatbread.
+- Greg ends Ch360 with **7 private copper** and an unstated reduced bit balance from that 1-bit purchase; because he began with 0 bits in state but pays 1 bit in prose, treat this as a continuity issue requiring correction before downstream bit accounting. Do not invent a bit source from summaries. Exact prose currently contains the lunch purchase and outranks state summary.
 - Vale principal-equivalent debt remains **26c**.
-- No money changes hands in Ch359.
-- South Quay offer: **3 consecutive days**, second bell to late cart, **3c/day + meal**, total potential 9c + meals. Third day may run past dark if west returns arrive late. Greg declines before starting.
-- North Secondary offer: **4c**, tomorrow second bell, ground-route replacement-tag physical read, morning only if clean; may run to midday if not clean. If supervisor expands scope, Greg may refuse or negotiate a new rate.
-- North 4c is scheduled/potential, not current cash.
-- Do not write Greg as having 7c until the work is actually completed and paid.
+- No Vale payment occurs.
+- Do not count declined South Quay 9c as lost cash. It was never earned.
 
-## South Quay / Merren continuity
-- Merren sends a correctly addressed folded blue slip through an unnamed messenger boy.
-- Offer exists because Greg performed Ch352 temp count work well.
-- Three-day consecutive requirement is operational: west returns are stacking, and Merren prefers one counter to learn/hold the count rhythm rather than training two people across the run.
-- Greg asks whether doing the run would improve future temp-call probability; Merren says yes if done well but cannot quantify.
-- Greg asks whether refusing hurts list status; Merren says no for clean refusal. If she asks many times and Greg is never available, she may stop asking him first because scheduling favors availability, not punishment.
-- Merren herself says the 4c North morning is better if Greg does not need South Quay's three-day certainty.
-- Once Greg declines, Merren crosses his name and calls next person. Slot is not held. If North falls through, Greg cannot expect South slot back.
-- No South Quay job, pay, meal, token, or new role occurs in Ch359.
+## Chapter 360 - THE WRONG TAG
+- Greg reports before second bell to North Secondary office after eating breakfast.
+- Route appears healthier but not fully normalized: outer red closure boards gone, yellow route markers remain, white cord marks work lane, three fresh iron housings visible along retaining wall.
+- Saret gives Greg a narrow slate with six physical locations. Saret holds written replacement list.
+- Gray-coated route supervisor **Pell** is introduced. About fifty, broad face, braided silver hair, long black key on cord. No surname/history/future role established.
+- Pell confirms ground route, two short stair sets, dry conditions, and asks Greg to speak up before fatigue if alternate access becomes necessary.
+- Thin red thread in shallow stone grooves marks work boundaries only; it is explicitly non-magical.
+- Pell's rule: if a location cannot be read safely, mark unread and continue. Do not manufacture a clean list through bad access.
 
-## North Secondary / Saret continuity
-- Saret encounters Greg while carrying two short iron tags on cord.
-- Saret offers **replacement tag walk** tomorrow morning after closure work.
-- Purpose: independent physical read against replacement list before day route remains open.
-- Two-person split: Greg reads marker/location/stamped line/physical part present and calls mismatches; Saret calls/checks list. Neither signs repairs.
-- Ground route, some stairs, marked work lane, escort. No climbing.
-- Pay 4c cash for bounded morning assignment if clean; same 4c if ordinary mismatch extends to midday. Scope expansion requires new agreement and can be refused.
-- Saret had already written Greg's name on work list before Greg arrived; would simply cross it out if Greg refused. No coercion.
-- Greg verbally accepts. Report **tomorrow second bell at North office**, eat first.
-- This is a bounded return to North Secondary that materially changes from prior gate-hand work. Do not turn Greg into repair inspector, engineer, or closure investigator.
+## Tag-walk scope
+Greg reads whole physical tag/location/presence; Saret checks list. Neither repairs, diagnoses, or signs technical certification.
 
-## Greg economic development
-- Greg explicitly distinguishes total money from pay-per-time and from optionality.
-- South Quay: more total cash and greater certainty.
-- North: less total cash, better rate, much more free time after.
-- Greg recognizes `time has reserve too`, but does not make that an absolute rule against multi-day commitments.
-- Lyssa summarizes his decision as `So you bought time.` Greg answers `With five copper I never had.`
-- Greg refuses to count tomorrow's 4c as money before earning it, crossing out `+4 C` from current-money notes.
-- Durable concept: not every good offer has to become Greg's life merely because it is good.
+Six locations:
+1. `NORTH ENTRY / WALL THREE`
+   - physical: `N-E-3`, replacement line `A-7`, housing present, two mounting bolts visible.
+   - match.
+2. `CUT TWO / LOW POST`
+   - physical: `C-2-L`, replacement line `B-4`, post present, face plate present.
+   - match.
+3. `OLD DRAIN TURN / INNER FACE`
+   - physical: `O-D-T-9`, replacement line `C-11`, housing present, guard present.
+   - match.
+4. `MARKER NINE / EAST BASE`
+   - physical tag `M-9-E`, replacement line **D-6**, marker/collar present.
+   - written list says **D-8**.
+   - held from clearance.
+5. `BEND FOUR / RAIL SIDE`
+   - physical `B-4-R`, replacement line `F-2`, housing present, guard rail clear.
+   - match.
+6. `UPPER RETURN / GATE FOOT`
+   - physical `U-R-G`, replacement line `G-5`, foot plate present, three anchor points visible.
+   - match.
 
-## Senna continuity
-- Greg happens across Senna drawing an uncooperative dog on East Steps while he is thinking through South Quay offer.
-- Senna is ordinary social residue, not plot oracle or financial adviser.
-- She observes Greg may simply not want to give up three days and distinguishes scheduled/promised things from Greg's `potential things`.
-- Greg develops the optionality thought himself rather than Senna delivering engine doctrine.
-- No portrait transaction, commission, or art-economy progression occurs.
+## Marker Nine mismatch
+- Pell independently reads physical tag as D-6.
+- Initial possibilities stated narrowly: wrong tag, wrong list, or wrong unit.
+- Pell orders work stopped **for this marker only**, tells Greg/Saret to continue other locations, and keeps public-route restriction in place until she knows what was installed.
+- Later, installation sheet says D-8 and physical lot stamp on collar says D-8 while hanging tag still says D-6.
+- Leading bounded inference: wrong tag likely. Pell says `Looks like.`
+- Workers replace/recheck tag independently after Greg/Saret are released.
+- Greg explicitly asks whether unit is probably correct; Pell says probably, but `Not your sign-off.` Greg accepts correction.
+- No cause of earlier North Secondary failure is solved.
+- No sabotage, hidden pattern, fraud, or conspiracy implied.
 
-## Lyssa / household continuity
-- Lyssa and Cala initially think South Quay's 9c/three-day offer sounds good.
-- Greg explains final choice at home. They do not shame or celebrate him excessively.
-- Lyssa's charcoal-coat decision remains unresolved through most of chapter.
-- At end, Lyssa says she **might** return to coat shop after lunch and asks Greg to come, with instruction not to talk/make faces in shop. This does not establish purchase. Do not automatically force resolution next chapter if another claim is stronger.
-- Greg does not ask about coat before Lyssa raises it herself.
+## Route / work completion
+- Pell's completion note:
+  - `6 LOCATIONS VISITED`
+  - `5 MATCH`
+  - `1 TAG/LIST MISMATCH HELD FROM CLEARANCE`
+  - `FOLLOW-UP REQUIRED`
+- Greg and Saret sign only work completion, not repair certification.
+- Greg receives 4c after this sign-off.
+- Saret says he may ask Greg next week if something exists; no job exists yet. Greg refuses to pre-commit to nonexistent work.
+- No standing North Secondary role created.
 
-## Greg's Ch359 notes
-- `SOUTH QUAY OFFER`
-- `3 DAYS / 3 C EACH + MEAL`
-- `DECLINED CLEANLY`
-- `NO LIST PENALTY STATED`
-- `NORTH SECONDARY`
-- `TAG WALK / TOMORROW / SECOND BELL`
-- `4 C / MORNING IF CLEAN`
-- `GROUND ROUTE / MARKED WORK LANE`
-- `SCOPE EXPANSION REQUIRES NEW AGREEMENT`
-- `3 C CASH`
+## Economic progression / time reserve
+- Greg explicitly rejects comparing current 7c to hypothetical 12c from three future South Quay days because those days have not happened.
+- Current reality: **7c and an afternoon**.
+- This preserves Ch359's `time is also reserve` idea without turning it into a maxim against longer work.
+- Greg buys ordinary lunch without survival panic.
+- He does not browse market, inspect Hanging Road, retrieve Three Reeds, or manufacture another productive use for free time.
+- Durable idea: accurate bounded work can be enough; mismatches should not be `fixed` by making paperwork feel clean.
+
+## Greg's Ch360 notes
+- `NORTH SECONDARY / TAG WALK COMPLETE`
+- `6 LOCATIONS`
+- `5 MATCH`
+- `1 MISMATCH`
+- `MARKER 9 EAST BASE`
+- `PHYSICAL TAG D-6 / LIST D-8`
+- `HELD FROM CLEARANCE`
+- `SUPERVISOR FOLLOW-UP`
+- `PAID 4 C`
+- `CASH NOW 7 C`
 - `26 C VALE`
-- Greg writes then crosses out `+4 C` because future pay is not current cash.
-- `TIME IS ALSO RESERVE.`
-- `BUT RENT DOES NOT ACCEPT AFTERNOONS.`
+- Greg crosses out `READING CORRECTLY CAN BE ENOUGH.`
+- Replaces with `DON'T FIX A MISMATCH BY MAKING THE PAPER FEEL BETTER.`
+
+## Lyssa / coat resolution
+- Lyssa independently returns to coat shop while Greg is at/after North work.
+- She buys the charcoal coat from Ch357.
+- Final price she voluntarily tells Greg: **8c + 6 bits**, after waiting and returning; another customer tried it but sleeves were wrong, and seller offers that price with sleeve adjustment only.
+- Do not reconstruct Lyssa's remaining cash unless later exact prose establishes it. Her prior 12c + some bits is private and not Greg's ledger.
+- Coat continuity: charcoal/black-gray denser wool, high-or-flat collar, dark horn buttons, deep pockets, better shoulder cut, sleeve adjustment completed; it fits well.
+- Lyssa is happy with purchase.
+- Greg initially starts asking price, catches himself because her money is not his ledger, and withdraws. She chooses to tell him anyway.
+- Tavi immediately puts both hands in one large pocket and proposes carrying spoon carrier in it; Lyssa rejects.
+- Cala assesses `Good wool.`
+- This resolves coat desire without turning Greg into decision-maker or financier.
+
+## Household / relationship residue
+- Greg does not ask about coat before Lyssa returns.
+- He respects her earlier `no talking/no faces in shop` instruction even after she is home, to comic excess.
+- Their economic boundaries remain separate while mutual awareness grows.
+- Greg notes that South Quay has another counter, North Secondary has professional follow-up, and Carrow continues without him at center.
+- He writes `AFTERNOON USED WELL.` then crosses it out because the afternoon did not need optimization to justify existing.
 
 ## Artifact continuity
 - Three Reeds remains locked at home, inactive, no appearance/test/use.
 - Holdfast/rest stone remain locked and untouched.
 - Oval not materially used.
-- No artifact purchase, test, appraisal, market browse, or storage change.
+- No artifact purchase, appraisal, test, market browse, or storage change.
 
 ## Magic continuity
 - No Greg mana use or Hessa session.
@@ -102,52 +140,56 @@
 - No independent practice.
 
 ## Greg / body
-- Greg nineteen, Bronze, Carrow, permanent LEFT BKA, knee preserved, right leg intact, two crutches.
-- Ordinary city walking only. No injury/fall/crutch/residual-limb issue.
+- Greg is nineteen, Bronze, Carrow, permanent LEFT BKA, knee preserved, right leg intact, two crutches.
+- Handles two short stair sets safely. On second set tells Saret he is slower but fine, honoring Pell's instruction to speak before fatigue becomes problem.
+- No fall, injury, crutch damage, hand issue, residual-limb issue, or lasting fatigue.
 
 ## Recent chapter ledger
-- **355 - THE BORROWED LAMP:** Three Reeds produces repeatable directional stray-light reduction.
 - **356 - THE BLUE HOUR:** echo fog changes city movement; Greg/Lyssa establish `MARKED DOOR` shorthand.
-- **357 - THE GOOD COAT:** Lyssa wants a 9c coat but walks away; decision unresolved.
-- **358 - THE HANGING ROAD:** Greg safely exits a magical bridge lift incident under specialist direction.
-- **359 - THE REFUSAL:** Greg declines a real South Quay 3-day/9c+meal offer for a North Secondary 4c morning tag walk, preserving time/optionality while accepting lower total guaranteed money. No money changes yet. Ends **3c + 0 bits / 26c Vale**, magic **53 / 53 / 115**.
+- **357 - THE GOOD COAT:** Lyssa wants 9c charcoal coat but walks away.
+- **358 - THE HANGING ROAD:** Greg safely exits moving magical bridge under specialist direction.
+- **359 - THE REFUSAL:** Greg declines South Quay 9c/three-day run for North Secondary 4c morning, preserving time.
+- **360 - THE WRONG TAG:** Greg completes North replacement-tag walk; 5/6 locations match, one D-6 vs D-8 mismatch blocks false clearance and is left to route professionals. Greg is paid 4c and reaches **7c**. Lyssa independently buys charcoal coat for 8c + 6 bits. Magic remains **53 / 53 / 115**.
 
 ## Protected uncertainties
-- North Secondary tomorrow work outcome, mismatches, exact replacement work, pay completion, and route status remain unresolved until Ch360+.
-- Whether Lyssa buys charcoal coat remains unresolved.
+- Exact downstream status of Marker Nine after Pell's follow-up remains unresolved beyond likely wrong tag.
+- North Secondary broader underlying failure cause/mechanism/full long-term reopening remains unresolved.
+- Whether Saret has future work next week remains unresolved.
+- South Quay future temp offers after clean refusal remain unresolved.
 - Hanging Road exact failure cause/repair/reopening remains unresolved.
 - Blue-hour exact mechanism/source/escalation remains unresolved.
 - Three Reeds exact model/core condition/radius/strength/shutter behavior/safe duration/rated pair compatibility/mounted behavior remain unresolved.
-- Whether South Quay temp work recurs after this refusal remains unresolved.
 - Ch348 copper-knot customer/equipment/knot function unresolved.
 - Ch351 feed-branch repair cause unresolved.
 - Moving-caster reliability/future axes unresolved.
 - Holdfast exact function/fixture/safe use unresolved.
 - K-14-6 mechanism/intended system/safe mounting/value unresolved.
-- North Secondary underlying earlier failure cause/mechanism/full long-term reopening remains unresolved.
 - Oval-long-mile relation unresolved.
 - Privacy-clasp cause/current condition unresolved.
 - Full Vale original agreement/future service opportunities unresolved.
 - Blue harness buyer/motive/use unknown.
 
-## Chapter 360 trailhead
-Follow next actual claim from Ch359/current authority.
+## Continuity issue to resolve carefully
+- Ch360 exact prose has Greg buy a **1-bit lunch** despite Ch359 ending at `3c + 0 bits` and no bit source occurring in Ch360 before purchase.
+- Exact prose outranks this summary. Do not silently invent change/conversion. Future edit should either remove/alter lunch payment or establish a legitimate bit source/change transaction. Until corrected, avoid asserting Greg's exact bit balance after Ch360.
 
-There is now a **real scheduled obligation**: tomorrow second bell, North Secondary office, replacement-tag physical read with Saret, 4c if bounded work completes. Because this is explicit current prose, it is a strong next claim unless a genuinely stronger immediate event intervenes.
+## Chapter 361 trailhead
+Follow next actual claim from Ch360/current authority.
 
-If Ch360 takes North work:
-- keep it materially distinct from Ch347 gate-hand work and Ch352 South Quay count work;
-- Greg reads physical tags/locations/presence, Saret owns list comparison, neither diagnoses/repairs;
-- a mismatch should matter only if organically useful; do not manufacture conspiracy;
-- pay 4c only after completion;
-- route/closure status may narrow, but do not solve older North Secondary cause by convenience;
-- Greg's choice in Ch359 should feel consequential: he traded 9c certainty for a bounded 4c morning plus retained time.
+Recent rhythm: infrastructure danger -> work/economic choice -> **bounded work execution + one consequential mismatch + coat resolution**.
 
-Recent rhythm: physical infrastructure danger -> **economic/work choice and refusal**. A procedural work chapter is acceptable now because the function is consequence of a choice, but it should contain fresh physical/fantasy texture and not become another spreadsheet-count scene.
+Do not immediately return to North Secondary for the re-read, solve D-6/D-8, create another Saret job, or perform another procedural verification chapter.
 
-Lyssa's possible coat return is also live but secondary. Do not make Greg's North work disappear because coat shopping is easier to write. It can happen off-page, later, or around work depending actual claim.
+Greg begins with **7c current cash**, **26c Vale principal-equivalent debt**, no guaranteed work, no scheduled theatre work, and a free next day unless current prose establishes otherwise. Exact bit balance is temporarily continuity-uncertain because of Ch360 lunch-payment issue.
 
-Three Reeds has had four breathing chapters since test. It may return through a real practical use when earned, not laboratory rotation.
+Strong next routes:
+- a social collision outside household/work bureaucracy;
+- a fresh fantasy claim with different scene grammar;
+- an older unresolved thread that now materially changes;
+- a real practical use for Three Reeds after five breathing chapters, if story context creates a reason rather than another test;
+- a desire/obligation that uses Greg's newly restored 7c reserve without immediately converting it into another purchase.
+
+Avoid another tag/count/list chapter, immediate coat follow-up, immediate market browse, Hessa-by-rotation, or direct North Secondary repair follow-up.
 
 Magic remains **53 / 53 / 115** with no independent practice.
 
