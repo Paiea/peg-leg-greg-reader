@@ -2,6 +2,7 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
@@ -165,6 +166,53 @@ Reason: test
             batches = [self._write_batch(root, 1, 1, first), self._write_batch(root, 2, 2, second)]
             with self.assertRaisesRegex(AssertionError, 'duplicate patch id'):
                 adv.validate_batch_contract(3, batches)
+
+    def test_selected_batches_includes_range_that_straddles_reviewed_edge(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self._write_batch(root, 1, 5)
+            with mock.patch.object(adv, 'BATCH_DIR', root):
+                selected = adv.selected_batches(5)
+            self.assertEqual(['BATCH_001_005.md'], [path.name for path in selected])
+
+    def test_batch_contract_rejects_empty_batch_file(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            batches = [self._write_batch(root, 1, 5)]
+            with self.assertRaisesRegex(AssertionError, 'contains no patches'):
+                adv.validate_batch_contract(6, batches)
+
+    def test_parse_batch_rejects_patch_missing_current_section(self):
+        note = '''## Chapter 3 — THREE
+### Patch 3.V1 — malformed
+Replace with:
+`"New."`
+Reason: test
+'''
+        with self.assertRaisesRegex(AssertionError, 'missing Current'):
+            adv.parse_batch(note)
+
+    def test_parse_batch_rejects_patch_missing_replace_section(self):
+        note = '''## Chapter 3 — THREE
+### Patch 3.V1 — malformed
+Current:
+`"Old."`
+Reason: test
+'''
+        with self.assertRaisesRegex(AssertionError, 'missing Replace'):
+            adv.parse_batch(note)
+
+    def test_parse_batch_rejects_patch_without_current_prose(self):
+        note = '''## Chapter 3 — THREE
+### Patch 3.V1 — malformed
+Current:
+Old prose without code formatting.
+Replace with:
+`"New."`
+Reason: test
+'''
+        with self.assertRaisesRegex(AssertionError, 'has no Current prose'):
+            adv.parse_batch(note)
 
 
 if __name__ == '__main__':
