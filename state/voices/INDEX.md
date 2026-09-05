@@ -8,6 +8,8 @@ This folder exists to answer a practical writing question quickly:
 
 Exact manuscript prose outranks every page here. `CHARACTER_BIBLE.md` owns broader durable character facts. `PROSE_PLAYBOOK.md` owns project-wide craft. These files are focused speech/interaction references.
 
+For dynamic scene-level modulation, also use `state/DIALOGUE_VARIANCE_ENGINE.md`.
+
 ## Use
 
 For a substantial scene involving a recurring character, read that character's page plus the exact recent manuscript context that matters.
@@ -16,7 +18,7 @@ Do **not** read the whole folder every chapter.
 
 Do **not** force a voice page onto a scene when newer prose has clearly evolved the character. Update the page instead.
 
-**These are living pages, not first-pass snapshots.** During later dialogue passes, drafting, or editorial work, add a small amount when exact prose reveals a substantial recurring cadence, register, relationship-specific behavior, professional lens, refusal pattern, humor source, or information habit that future chapters should preserve. Remove or revise guidance when later prose disproves it.
+**These are living pages, not first-pass snapshots.** During later dialogue passes, drafting, or editorial work, add a small amount when exact prose reveals a substantial recurring cadence, register, relationship-specific behavior, professional lens, refusal pattern, humor source, information habit, or state-dependent speech shift that future chapters should preserve. Remove or revise guidance when later prose disproves it.
 
 Do not update a page merely because the character spoke again. Update it when the new evidence changes or sharpens how a future writer should hear the person.
 
@@ -50,6 +52,28 @@ Avoid fake differentiation through:
 - catchphrases assigned by author fiat;
 - one-word gimmicks;
 - everyone becoming more colorful merely because a voice file exists.
+
+## Stable center, variable performance
+
+A voice page defines a center of gravity, not a permanent dialogue setting.
+
+Before treating a baseline tendency as the form a line must take, account for:
+- who the person is speaking to;
+- current social status and role;
+- current mood and cognitive load;
+- what else is on their mind;
+- physical conditions and scene pressure;
+- whether they are trying to impress, conceal, reassure, intimidate, escape, or be understood.
+
+The same person may be terse with a subordinate, overprecise with authority, messy with a friend, unusually formal when threatened, or more verbose when defensive.
+
+Do not assign permanent quirks such as `the rambler`, `the formal one`, or `the bad-metaphor person` and fire them every scene.
+
+Prefer:
+
+**CONSISTENT PERSON, VARIABLE PERFORMANCE.**
+
+See `state/DIALOGUE_VARIANCE_ENGINE.md` for the full runtime model.
 
 ## Shared Carrow speech ecology
 
@@ -123,6 +147,18 @@ A specialist may care about whether a thing works and not care what Greg calls t
 
 Two characters can both say `maybe` and still sound different because one means *I lack evidence*, another means *could be, who cares*, and another means *I haven't decided whether I want to tell you yet*.
 
+## Comic register convergence check
+
+A related failure mode is that everybody becomes equally good at Greg's short dry comeback.
+
+Greg should remain the gravitational center of compressed comic reduction. Other characters may be funny, sarcastic, clever, or dry, but supporting humor should often arise through different mechanisms: overexplaining, bad metaphors, earnestness, delay, formality, nervous qualification, confident wrongness, storytelling, irritation, or refusal to play along.
+
+Do not make every exchange a duel between equally optimized speakers.
+
+A strong diagnostic:
+
+**If Greg could disappear from a scene and the scene would retain almost exactly the same short sarcastic cadence, Greg's register may have leaked into the cast.**
+
 ## Priority recurring roster
 
 Highest-frequency / highest-impact pages:
@@ -175,7 +211,8 @@ When updating a voice page:
 6. keep constructed voice tests clearly non-canon;
 7. when useful, record cadence, register/education, professional vocabulary, and how much explanation the person naturally gives;
 8. allow shared Carrow language and relationship-driven convergence instead of purging every overlap;
-9. revisit existing pages during later manuscript-wide passes when substantial new evidence appears, rather than treating the page created on the first pass as frozen.
+9. revisit existing pages during later manuscript-wide passes when substantial new evidence appears, rather than treating the page created on the first pass as frozen;
+10. record repeated state-dependent shifts when they matter, but do not invent a personality matrix from one unusual scene.
 
 ## Quick editorial test
 
@@ -186,6 +223,8 @@ Instead ask across a multi-turn exchange:
 - Do they use roughly the vocabulary and abstraction level expected from their life and work?
 - Do they finish answers in a characteristic place?
 - Does their humor come from a recognizable place?
+- Does the current relationship change how much they explain, tease, hedge, command, or withhold?
+- Does current mood or pressure plausibly bend their baseline without erasing it?
 - Would swapping several lines with another recurring character subtly change the scene?
 
 Then keep the dialogue tags wherever clarity benefits.
