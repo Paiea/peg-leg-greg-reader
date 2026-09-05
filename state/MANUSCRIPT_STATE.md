@@ -1,17 +1,17 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 373 - **THE RIGGER**.
+- Current exact story endpoint: Chapter 374 - **THE HOST**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript physically materialized through Chapter 248.
-- Exact Chapters 249-373 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
+- Exact Chapters 249-374 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
 - **NON-OPTIONAL:** titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
 - Mandatory pre-title question: `Who is Greg being here?`
-- Ch373 answer: Greg is being **a rigger** in the broad practical/social sense. A household load problem tempts him toward the holdfast, but the real solution is known rigging, accumulated people, restraint geometry, and knowing what not to load.
-- Therefore title **THE RIGGER**.
-- Canonical recent: 369 THE CARRIER; 370 THE STUDENT; 371 THE WITNESS; 372 THE GUIDE; 373 THE RIGGER.
+- Ch374 answer: Greg is being **a host**. He helps make room for Senna and Merren inside the ordinary household, participates in actual leisure/social disclosure, then the dinner spills into a neighborhood response without becoming his operation.
+- Therefore title **THE HOST**.
+- Canonical recent: 370 THE STUDENT; 371 THE WITNESS; 372 THE GUIDE; 373 THE RIGGER; 374 THE HOST.
 
 ## Production rules
 - One chapter at a time. Target 2,500-4,000 words and clear 2,500 unless explicitly changed.
@@ -21,73 +21,111 @@
 - Greg first life reached about 59 and S-class. Familiar fantasy knowledge often invisible; curiosity attaches to local implementation/constraints/cost/failure/specialist practice.
 - Current forward routing governed by workflow/rhythm-artifact engine/title rule.
 
-## Chapter 373 - THE RIGGER
-- An old upstairs wardrobe's front-left foot punches through a softened floorboard and tips toward Lyssa's second-lot work table. Lyssa is uninjured.
-- Twelve cut second-lot apron fronts plus other pieces/work card are at risk, making the consequence material/time/trust rather than melodramatic bodily danger.
-- Cala acknowledges the floorboard had sounded soft previously and she should have moved the wardrobe.
-- Front-left foot goes through; rear-left begins sinking. Later carpenter finds localized old water damage from a long-resolved window leak concentrated in several boards. Visible joist edge is stained but firm under limited probe. Several boards need replacement and wall edge checking before wardrobe returns.
-- Wardrobe ends temporarily upright on bridging planks against opposite wall. Upstairs work table moves downstairs. All stated contract pieces are recovered without stated damage.
+## Chapter 374 - THE HOST
+- Lyssa's previously planned dinner still happens despite upstairs wardrobe/floor disruption.
+- Invited guests: **Senna** and **Merren**. This is intentional social/leisure time, not people arriving because of work/emergency.
+- Household remains visibly lived-in: Lyssa's second-lot cloth temporarily downstairs, Tavi's shoes, Greg's crutches/notes, Cala's ordinary kitchen, upstairs repair disruption.
+- Greg takes stool with folded cushion because six people / five chairs + stool. No injury/problem.
+- Cala serves ordinary rice, fried greens, ginger fish, thin broth. Senna brings nothing because told not to. Merren brings ordinary pickled radish.
+- Greg spends no personal money; any bread errand used household food money handed by Cala. Do not ledger dinner against Greg.
 
-## Rigging / people
-- Jessa arrives with wedges/pry bar/rope and assesses fall line/load.
-- Olin brings two scaffold screw feet + long plank. They build a catch under wardrobe upper rail, not a lift.
-- Initial household rope anchor geometry is poor.
-- Greg considers fixed holdfast because its broad family includes anchoring/rigging/restraint/load control, but broad family is explicitly not safe-use evidence.
-- Cala sends Tavi to Mara Quill with exact bounded message: closed-housing holdfast Mara observed, possible emergency restraint question, no activation yet, furniture load, house floor failure.
-- Mara arrives and rejects holdfast as load anchor because safe load/fixture/direction/surface/release behavior/condition remain unknown.
-- Greg proposes a narrower slack-line/contact-indicator idea. Mara also rejects it because holdfast has never been established as alarm/contact indicator and emergency is not a proper test condition.
-- Durable rule: **REAL NEED DOES NOT ESTABLISH SAFE LOAD.**
-- Mara instead supplies two mundane rated temporary beam dogs. One anchors restraint on exposed newer hall beam from flood repair; second redirects line out of work path.
-- Jessa ties, Olin checks, Mara checks clamp seats. Rope restrains forward travel while wardrobe is unloaded; it does not lift wardrobe upright.
-- Greg contributes side-line geometry/left-rear-foot observation rather than acting as primary lifter with crutches.
+## Dialogue / social variance
+- Lyssa tries a `no work talk for first bowl` rule; it fails naturally because people's work vocab leaks into how they think.
+- Merren overexplains procedural possibilities when Tavi asks whether a cart can lie, successfully talking him into silence. Her dryness/procedure differs from Greg's register.
+- Senna's speech is short while visually observing and longer/stranger when explaining aesthetic judgments.
+- Cala tells a longer house-specific story about prior tenant Neli painting a shelf blue/green because of a belief about flies. Cala is not globally made chatty; the subject is her house/history.
+- Tavi remains associative, literal, argumentative, and socially unfiltered.
+- Avoid engine-aware meta dialogue. Ch374 internally catches a potentially meta thought about everyone being allowed dry responses and explicitly drops it rather than making it manuscript/editor commentary.
 
-## Beam dogs / collection logic
-- Beam dogs are mundane flat iron temporary rigging clamps with toothed jaws and long screw handles, not artifacts.
-- Mara gives rough price context: about **4c each new**, **2-3c each used if teeth good**, depending jaw width/rating.
-- Greg buys none.
-- New useful collection insight: `ACCESS CAN BE PERSON, NOT OWNERSHIP.` This is not anti-ownership doctrine. Greg should still want/buy/use artifacts. It only means not every useful tool needs to live in his collection.
+## Three Claims game / disclosures
+- Household plays `Three Claims`: each person says three claims, two true and one false.
+- Tavi: river false; six eggs and possible `ghost` claim are his child framing. Do not canonize ghost.
+- Senna: magistrate's dog blue is false, but she says she painted magistrate's **goat** blue. Left-wrist roof fall and pear preference are treated as other claims; exact truth structure from game implies roof break and `I hate pears` cannot both be true if dog is false, but Senna later eats three pears, strongly confirming pear-hate false. Preserve exact prose if later needed rather than summarizing all game claims as canon without checking.
+- Merren: has slept outside city wall twice; can whistle loudly through two fingers; was engaged for **11 days**. She refuses story/details of engagement. Do not invent fiancé/cause.
+- Cala: has never been farther than **Bell Ford**; can make six kinds of dumpling; priest-punch claim false.
+- Lyssa: hates dancing is false; at fourteen cut own hair with kitchen knife because mother said no; has slept on roof in summer heat.
+- Greg second-life claims: hates olives; has broken a crutch before Lyssa met him; can sew a button.
+- Senna changes game to one thing nobody present knows:
+  - Senna cannot draw horses from memory.
+  - Merren sings when alone.
+  - Cala once wanted to leave Carrow but declines to explain why.
+  - Lyssa keeps the first bad thing she makes when learning something. Location/details unresolved.
+  - Greg says he likes **being invited places more than he likes going**.
+  - Tavi admits he sometimes pretends to be asleep so Cala carries him; Cala discovers this during game.
+- These disclosures are social texture, not automatic plot hooks. Respect boundaries where characters decline details.
 
-## Holdfast
-- Fixed holdfast is retrieved wrapped from locked chest and staged in hallway.
-- It is never unwrapped, activated, loaded, tested, or used.
-- It returns to locked cedar chest unchanged.
-- Ch373 provides **zero new magical/function evidence** for holdfast.
-- Greg notes `HOLDFAST: NOT USED` and `REAL NEED DOES NOT ESTABLISH SAFE LOAD`.
+## Lyssa charcoal coat continuity
+- Ch374 explicitly establishes Lyssa **did buy the charcoal coat for 9c** sometime after Ch357 and before current chapter.
+- Exact purchase scene/timing/source of funds beyond her private money remains off-page/unresolved unless exact intervening prose establishes it elsewhere.
+- Senna asks if worth it; Lyssa says ask after winter, likes looking at it but that alone is not worth 9c.
+- Do not charge Greg or merge finances.
 
-## Lyssa / household
-- Lyssa's second-lot pieces survive incident without stated material loss. Second lot remains active; no accepted return/payment yet.
-- Eight first-lot loop reworks were completed Ch372, but Ch373 does not state return/acceptance/payment. 1c remains unresolved.
-- Lyssa moves current sewing downstairs temporarily during floor repair.
-- Cala handles house repair cost route; Greg does not ledger it.
+## Sky ribbon / neighborhood response
+- During dessert/evening, a faint **blue-white sky ribbon** appears in/along clouds over west lanes.
+- Ch374 establishes only bounded local observations:
+  - Senna recognizes name `sky ribbon` from seeing one when she was about eight, but cannot give safety expertise.
+  - Certain old/painted/mirror glass signs catch/refract the ribbon into narrow moving pale bands across walls/streets.
+  - Merren knows west lanes sometimes cover mirror signs during sky ribbon because glare can bother horses/cart drivers.
+  - Neighbors independently call to `cover glass` / `west signs`.
+  - One horse shies from stronger glare but handler controls it; no injury stated.
+  - Neighborhood uses sheets/awning scraps/cloth, even one unidentified pair of trousers, to cover reflective signs/windows.
+  - Sky ribbon strengthens briefly, is visibly beautiful, then fades.
+- Mechanism/source/frequency/danger beyond glare remain unresolved. Do not turn it into Blue Hour automatically; no relation established.
+- Greg does not use Three Reeds. He considers it, recognizes sky ribbon is a different unrated source/context, remembers `real need does not establish safe use`, and chooses available mundane sheets instead.
+- This is not another anti-artifact moral. It is simply wrong context for Three Reeds evidence.
 
-## Money / magic
+## Greg / host identity
+- Greg helps with seating, dinner presence, game, then neighborhood sign-covering by holding ladder bases/carrying folded cloth/keeping Tavi out of operation.
+- Senna contributes visual judgment about which painted glass will split glare worst.
+- Merren knows shop owners/spare awning-cloth locations.
+- Cala knows ladder access.
+- Lyssa keeps Tavi/household bounded and later retrieves him when he tries to join.
+- No single hero owns response; accumulated neighborhood knowledge does.
+- Senna asks to be invited again. Lyssa says yes over Greg's `maybe`.
+- Greg later writes:
+  - `DINNER: SENNA / MERREN`
+  - `AGAIN: PROBABLY`
+- Closing identity: `Host. / Apparently.`
+
+## Money / economy
 - Greg begins and ends **9c private cash**.
 - Vale remains **23c principal-equivalent**.
-- Greg earns/spends nothing.
+- Greg earns/spends nothing personally.
 - Greg bit count remains unspecified due Ch360 continuity issue.
-- Magic remains **59 / 53 / 129**. No mana use.
-- Three Reeds, rest stone, oval unchanged. Porter harness not used.
+- Lyssa's private 9c coat purchase is now established but not Greg ledger.
+- Eight-loop 1c rework remains unresolved in Ch374; no return/payment stated.
+- Lyssa second-lot 9c payment remains unearned.
+
+## Magic / artifact / equipment
+- No mana use. Magic remains **59 / 53 / 129**.
+- No artifact activated/tested/bought/sold/appraised/combined.
+- Three Reeds considered but deliberately not used because sky-ribbon source/context unestablished and mundane cover works.
+- Holdfast/rest stone/oval unchanged.
+- Porter harness not materially used.
 
 ## Recent role ledger
-- 369 **THE CARRIER:** mundane harness helps return Lyssa's first lot.
 - 370 **THE STUDENT:** Hessa supervised bounded farther-target work.
 - 371 **THE WITNESS:** Pell Arven wall walk without manufactured memory.
 - 372 **THE GUIDE:** routes Naro's unknown drain find to local specialists.
-- 373 **THE RIGGER:** household load problem solved through known rigging, accumulated people, and refusal to misuse unknown holdfast.
+- 373 **THE RIGGER:** household load problem solved through known rigging/people; holdfast not misused.
+- 374 **THE HOST:** deliberate dinner/leisure with Senna/Merren deepens relationships, then neighborhood sky-ribbon response spills through evening.
 
 ## Protected uncertainties
-- Fixed holdfast exact function/fixture/safe load/direction/release behavior remains unresolved. Ch373 adds no function evidence.
-- Exact floor repair cost/timeline and whether wardrobe returns to original location unresolved.
+- Sky ribbon mechanism/source/frequency/full danger and relation to any other magical-weather event unresolved.
+- Exact truth/details behind Merren's 11-day engagement unresolved and protected by her refusal.
+- Why Cala once wanted to leave Carrow unresolved and protected by her refusal.
+- Lyssa location/details of kept first-bad-made objects unresolved.
+- Exact timing/context of Lyssa charcoal coat purchase unresolved beyond current ownership/9c price.
+- Fixed holdfast exact function/fixture/safe load/direction/release behavior remains unresolved.
+- Exact floor repair cost/timeline and wardrobe return unresolved.
 - Crawler-case biology/magic/engineering classification unresolved.
-- Why old north-batch cases appeared in west upper legacy kiln-rinse line unresolved.
-- Who handled/broke/rejarred crawler cases unresolved.
-- Whether old north batch was fully recovered after spring flush unresolved.
+- Old north-batch crawler appearance/recovery/rejarring unresolved.
 - Lyssa second-lot outcome/acceptance/payment remains unresolved.
 - Whether/when Lyssa's 1c loop-rework payment is made remains unresolved.
 - Lyssa exact private money remains unresolved.
 - Next Hessa axis/timing unresolved.
 - Draft-finder buyer / survey bidder recurrence unresolved; default no forced recurrence.
-- Porter harness maker authenticity and buckle-pin replacement cost unresolved.
+- Porter harness maker authenticity/buckle-pin replacement cost unresolved.
 - Future theatre route drill unresolved.
 - Mett/Brenna/Olo/Pera/Orsen/Ceral/Morrow recurrence unresolved.
 - Full Vale agreement/future service opportunities unresolved except current 23c.
@@ -106,36 +144,36 @@
 - Blue harness buyer/motive/use unknown.
 
 ## Continuity issue
-- Ch360 exact prose 1-bit lunch has no established bit source after Ch359 0 bits. Do not silently invent. Ch361-373 avoid Greg bit accounting. Copper exact **9c**.
+- Ch360 exact prose 1-bit lunch has no established bit source after Ch359 0 bits. Do not silently invent. Ch361-374 avoid Greg bit accounting. Copper exact **9c**.
 
-## Chapter 374 trailhead
-Follow next actual claim from Ch373/current authority.
+## Chapter 375 trailhead
+Follow next actual claim from Ch374/current authority.
 
-Recent rhythm: city memorial -> fantasy infrastructure routing -> **household physical problem / rigging / artifact temptation refused**.
+Recent rhythm: fantasy infrastructure routing -> household rigging problem -> **social dinner/leisure + neighborhood magical-weather response**.
 
 Do not immediately repeat:
-- another household repair/furniture problem,
-- another unknown-object routing chapter,
-- another holdfast almost-test,
-- another chapter whose main payoff is `don't buy/use the thing`,
+- another dinner/party/game chapter,
+- another neighborhood magical-weather response,
+- another `artifact considered but not used` chapter,
+- another household repair problem,
 - another Hessa lesson.
 
 Greg begins **9c cash / 23c Vale / no guaranteed work / exact bits unspecified**.
 Magic remains **59 / 53 / 129**.
-Lyssa's second lot remains active downstairs during floor repair. Eight-loop rework payment still unresolved.
+Lyssa second lot active downstairs. Eight-loop rework payment still unresolved.
 
-Ch373 gives useful collection insight but do not overcorrect into anti-ownership. Greg should still genuinely want, buy, use, and benefit from strange objects over time. `Access can be person` is one tool, not a new moral against collecting.
+Ch374 strengthens relationships with Senna/Merren/Cala/Lyssa/Tavi and establishes Greg can host rather than only be useful. Let that residue persist without immediately replaying same social function.
 
-Strong Ch374 routes:
-- concrete older relationship/thread returns with changed information;
-- work opportunity materially unlike tally/route/teaching and sized to Greg's current higher optionality;
-- social/leisure scene with stronger interpersonal choice/tension;
-- artifact pressure where Greg gets a **real win**, not another refusal, preferably one existing known artifact in genuinely useful use or credible access to desirable item;
-- external fantasy event where current relationships/equipment matter incidentally.
+Strong Ch375 routes:
+- older unresolved character/thread returns with materially changed information;
+- materially different work opportunity that reflects Greg's higher optionality and creates access rather than just wages;
+- **artifact route with a real positive payoff now**. Recent chapters have repeatedly chosen mundane/safer solution. Next artifact-centered scene should, if earned, let an existing artifact genuinely help or put a desirable object within credible reach rather than another refusal;
+- travel/public event/external pressure that changes scene grammar;
+- relationship consequence from accumulated social network without another sit-down leisure chapter.
 
-If artifact route chosen, avoid holdfast next. Three Reeds, K-14-6, or oval can matter if actual scene earns it. No lab-for-lab's-sake.
+If existing artifact used, Three Reeds is eligible only in a context compatible enough with established behavior or with specialist/rated support. K-14-6 or oval can return if actual story need fits. Avoid holdfast next.
 
-**MANDATORY TITLE CHECK CH374:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH375:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
