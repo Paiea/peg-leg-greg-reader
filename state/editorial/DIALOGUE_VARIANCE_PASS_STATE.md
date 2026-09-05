@@ -32,14 +32,14 @@ Greg remains the gravitational center of short dry compressed comic reduction. O
 
 ## Sequential coverage ledger
 
-- Chapters **1-100: VARIANCE REVIEWED**
-- Chapters **101-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-105: VARIANCE REVIEWED**
+- Chapters **106-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 101**
+Current sequential variance edge: **Chapter 106**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_096_100.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_101_105.md`
 
 Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_001_005.md`
@@ -62,24 +62,25 @@ Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_086_090.md`
 - `state/editorial/dialogue-variance-pass/BATCH_091_095.md`
 - `state/editorial/dialogue-variance-pass/BATCH_096_100.md`
+- `state/editorial/dialogue-variance-pass/BATCH_101_105.md`
 
 Existing out-of-sequence pilot work:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches remain useful evidence but do not bridge the unreviewed 101-320 gap.
+Those later batches remain useful evidence but do not bridge the unreviewed 106-320 gap.
 
-## Chapters 1-95 result
+## Chapters 1-100 result
 
-Durable chapter-level findings and exact replacement prose remain preserved in the prior sequential batch files `BATCH_001_005.md` through `BATCH_091_095.md`.
+Durable chapter-level findings and exact replacement prose remain preserved in the prior sequential batch files `BATCH_001_005.md` through `BATCH_096_100.md`.
 
-## Chapters 96-100 result
+## Chapters 101-105 result
 
-- Chapter 96 `THE WITNESS`: **light variance patch required**. Holl/Iris/tester ecology is strong; replace one late hidden-intention redesign joke with Holl protecting the current commercial comparison before paying to change the bench.
-- Chapter 97 `THE VARIABLE`: **no variance change required**. Hessa's compact evidence language remains differentiated because every `No`, `Maybe`, and `Yes` attaches to test permissions, physical state, or what one more observation would actually support.
-- Chapter 98 `THE DRESSER`: **light variance patch required**. Shirt seller, Alden, and Merrin remain distinct. Replace one Jorren `you are about to ask` routine with a deliberately simple social answer about the shirt.
-- Chapter 99 `THE INSTRUMENT`: **moderate variance patch required**. Assessment logic is strong; replace two predictive `No` beats with reactions to the visible blanket and direct statement of the shaping-clearance boundary.
-- Chapter 100 `THE COOK`: **no variance change required**. Keeper refusals are concrete kitchen-safety and household boundaries; Lyssa's visit remains ordinary chosen time rather than interpretive relationship dialogue.
+- Chapter 101 `THE WAITING MAN`: **no variance change required**. Hessa's fatigue boundary is professional self-monitoring rather than generic refusal; Nerin's pile-counting tease is grounded in Greg visibly checking each pile. Preserve old pronoun-continuity repairs.
+- Chapter 102 `THE PIVOT`: **light variance patch required**. Pessa's integrated movement work is strong; replace the opening predictive shield exchange with direct object/drill ownership.
+- Chapter 103 `THE SHAPER`: **moderate variance patch required**. Hessa's evidence ladder is strong; replace two hidden-intention routines with object-first apparatus dialogue and delayed-effect scheduling.
+- Chapter 104 `THE SECOND OPINION`: **no variance change required**. Greg appropriately owns more of the preemptive dry register, while Jorren and Alden remain differentiated by friendship, practical objects, curiosity, access, and challenge.
+- Chapter 105 `THE CONTROL`: **light variance patch required**. Assessment logic is strong; replace the opening towel prediction routine with procedural instruction. Preserve Hessa's later mistaken guess about Greg's real desire as useful anti-omniscience.
 
 ## High-value watch targets
 
@@ -134,6 +135,11 @@ Durable chapter-level findings and exact replacement prose remain preserved in t
 - Repeated `No` is safest when the noun changes. Concrete changing requests create healthy refusal density; repeated hidden-sentence prediction creates flattening.
 - Visible setup can carry the joke. Object placement, body position, tools, food, or damaged equipment often supplies enough evidence without personality interpretation.
 - Underperformance is useful social variance. Plain approval, silence, or a small practical response can be more character-specific than another polished comeback.
+- Let experts be wrong about Greg sometimes. Earned familiarity should improve guesses without making them infallible.
+- Greg should still own the dangerous compressed register. A preemptive `No / you were going to` exchange is less concerning when Greg initiates it than when every supporting character does.
+- Apparatus changes can replace personality commentary. A shield, towel, copper strip, tool, or changed setup often gives the expert enough conversational material without interpreting Greg's mind.
+- Professional self-limitation is voice. Knowing when not to spend judgment, attention, or physical margin can differentiate an expert more strongly than wit.
+- Integrated movement and controlled testing should stay distinct. Pessa may simplify without claiming isolation; Hessa may control conditions to answer a narrow question.
 
 ## Guardrails
 
@@ -165,11 +171,11 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 101**.
+Resume sequentially at **Chapter 106**.
 
 Preferred bounded queue: **5 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 101-105**.
+Next intended batch: **Chapters 106-110**.
 
 ## Restart prompt
 
