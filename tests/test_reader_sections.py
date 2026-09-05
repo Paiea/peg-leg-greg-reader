@@ -64,6 +64,7 @@ class ReaderSectionsTests(unittest.TestCase):
         for book in BOOKS:
             path = root / book.card_src
             self.assertTrue(path.is_file(), f'missing role-card asset: {book.card_src}')
+            self.assertGreater(path.stat().st_size, 50_000, f'role-card asset is suspiciously small: {book.card_src}')
             self.assertEqual(webp_size(path), (720, 960))
 
     def test_role_card_links_stay_inside_their_books(self):
