@@ -40,7 +40,7 @@ class HomeContentsTests(unittest.TestCase):
             self.assertEqual(max(chapters), 346)
             self.assertEqual(chapters[346], 'THE PASSING POINT')
 
-    def test_patch_is_repeatable_and_scoped(self):
+    def test_patch_is_repeatable_scoped_and_migrates_to_books(self):
         source = '<head>x</head><section aria-labelledby="chapters-heading" class="toc toc-acts" id="chapters"><details>old</details></section><footer>keep</footer>'
         body = '<section class="reader-book">BOOK I</section>'
         first = patch_home_contents(source, body)
@@ -49,6 +49,10 @@ class HomeContentsTests(unittest.TestCase):
         self.assertIn('READER BOOK CONTENTS START', first)
         self.assertIn('BOOK I', first)
         self.assertIn('<footer>keep</footer>', first)
+        self.assertIn('aria-labelledby="books-heading"', first)
+        self.assertIn('id="books"', first)
+        self.assertNotIn('chapters-heading', first)
+        self.assertNotIn('id="chapters"', first)
         self.assertNotIn('<details>old</details>', first)
 
     def test_home_renderer_reaches_book_iv_and_stays_illustrated(self):
