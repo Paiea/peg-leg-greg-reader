@@ -101,7 +101,8 @@ class ReaderSectionsTests(unittest.TestCase):
         self.assertEqual(rendered.count('class="reader-book"'), 4)
         self.assertEqual(rendered.count('class="reader-book-summary"'), 4)
         self.assertEqual(rendered.count('<details class="reader-book" open>'), 1)
-        self.assertIn('<details class="reader-book" open><summary class="reader-book-summary"', rendered)
+        self.assertEqual(rendered.count('aria-current="true"'), 1)
+        self.assertIn('<details class="reader-book" open><summary class="reader-book-summary" id="book-iv-heading" aria-current="true">', rendered)
         self.assertIn('Chapters 321–351', rendered)
         self.assertLess(rendered.rindex('BOOK IV'), rendered.rindex('ACT II'))
 
