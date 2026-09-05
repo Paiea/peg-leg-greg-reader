@@ -13,7 +13,8 @@ class ReaderLabelTests(unittest.TestCase):
         light = Path('light.html').read_text(encoding='utf-8')
 
         self.assertIn('>Text Reader<', index)
-        self.assertIn('>Chapters<', index)
+        self.assertIn('>Illustrated Reader<', index)
+        self.assertIn('>Books<', index)
         self.assertIn('href="#books"', index)
         self.assertNotIn('href="#chapters"', index)
         self.assertNotIn('>Read Light<', index)
