@@ -15,6 +15,17 @@
 - Greg's world familiarity remains calibrated: broad lift-bead and weak-deflection families are familiar; Vara/Ren hold local practical knowledge.
 - Chapter 300 is not a structural milestone. Scope restraint remains behavioral.
 
+## Outward adventure pressure — active directional possibility
+- Carrow has enough accumulated home texture that a sustained departure can now be earned without abandoning the ordinary-life engine.
+- This is **not yet a canon contract, destination, client, companion, or departure date**.
+- Allow current and upcoming prose to accumulate outward-facing pressure through paid work, provenance, materials, routes, retrieval/escort needs, rumors, social obligations, travel by another character, or several modest incentives that eventually converge.
+- The first outward-facing beat may be rejected, ignored, misread, postponed, or remembered later. Do not turn every mention of another place into a quest hook.
+- Familiar fantasy structures are allowed. A caravan, escort, retrieval, ruin, hunt, tournament, dangerous road, missing person, artifact market, or monster problem may be used when the actual PLG world reshapes it.
+- Strong first-adventure possibility remains: Greg enters a job whose apparent practical objective hides somebody else's emotional / romantic / mythic conflict. Greg is not required to be the central love interest, chosen person, heir, or object of supernatural attention.
+- Moʻolelo-derived material is non-canon quarry only. Steal deep mechanisms, mutate aggressively, remove Hawaiian surface markers, and expand through PLG's existing world. Recognition by informed readers may remain as faint resonance, never required comprehension.
+- Rare major shapeshifters / uncategorizable entities should remain rare. S-class is not a universal cosmic ranking.
+- Adventure should eventually return residue to Carrow rather than functioning as detachable DLC.
+
 ## Magic / Hessa / range protocol
 - Totals remain **36 supervised minimal draws / 32 deliberate shaping attempts / 72 supervised external-effect attempts**.
 - No independent magic outside supervised sessions Ch281–300. Restrictions unchanged.
@@ -169,3 +180,4 @@
 - Three private client copper and three clean sheets remain.
 - Chapter 300's round number created no structural event; do not create a delayed one merely because 301 follows it.
 - Follow the next actual claim rather than rotating available engines by checklist.
+- Outward pressure is now a legitimate next-direction option, but no specific hook is canon until prose establishes it.
