@@ -138,22 +138,22 @@ def render_chapter(chapter: Chapter, all_numbers: list[int], generated: set[int]
     prev_html, next_html = chapter_nav(chapter, all_numbers, generated)
     illustrated = ''
     if (CHAPTERS_DIR / f'{chapter.number:03d}.html').exists():
-        illustrated = f'<a class="mode-link" href="../chapters/{chapter.number:03d}.html">Illustrated version</a>'
+        illustrated = f'<a class="mode-link" href="../chapters/{chapter.number:03d}.html">Illustrated Reader</a>'
     return f'''<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Peg-Leg Greg Chapter {chapter.number}: {html.escape(chapter.title.title())}, text-first Light edition.">
-<title>Chapter {chapter.number}: {html.escape(chapter.title)} — Peg-Leg Greg Light</title>
+<meta name="description" content="Peg-Leg Greg Chapter {chapter.number}: {html.escape(chapter.title.title())}, Text Reader.">
+<title>Chapter {chapter.number}: {html.escape(chapter.title)} — Peg-Leg Greg Text Reader</title>
 <link rel="stylesheet" href="../assets/reader.css">
 <link rel="stylesheet" href="../assets/light.css">
 </head>
 <body class="light-edition">
-<header class="site-head light-site-head"><a class="site-brand" href="../index.html">PEG-LEG GREG</a><nav class="site-nav" aria-label="Site navigation"><a href="../index.html">HOME</a><a href="../index.html#chapters">ILLUSTRATED</a><a aria-current="page" href="index.html">LIGHT</a><a href="../latest.html">LATEST</a><a href="../art.html">ART</a></nav></header>
+<header class="site-head light-site-head"><a class="site-brand" href="../index.html">PEG-LEG GREG</a><nav class="site-nav" aria-label="Site navigation"><a href="../index.html">HOME</a><a href="../index.html#books">ILLUSTRATED READER</a><a aria-current="page" href="index.html">TEXT READER</a><a href="../latest.html">LATEST</a><a href="../art.html">ART</a></nav></header>
 <main class="light-page">
 <nav class="light-chapter-nav light-chapter-nav-top" aria-label="Chapter navigation">{prev_html}<a href="index.html">Chapters</a>{next_html}</nav>
-<header class="light-chapter-title"><p class="light-kicker">LIGHT EDITION · CHAPTER {chapter.number}</p><h1>{html.escape(chapter.title)}</h1><p class="light-mode-note">Text-first edition · no chapter illustrations</p></header>
+<header class="light-chapter-title"><p class="light-kicker">TEXT READER · CHAPTER {chapter.number}</p><h1>{html.escape(chapter.title)}</h1><p class="light-mode-note">Text-only reading · no chapter illustrations</p></header>
 <article class="prose light-prose">{chapter.prose_html}</article>
 <div class="light-mode-switch">{illustrated}</div>
 <nav class="light-chapter-nav" aria-label="Chapter navigation">{prev_html}<a href="index.html">Chapters</a>{next_html}</nav>
@@ -177,17 +177,17 @@ def render_index(all_chapters: dict[int, Chapter], generated: set[int]) -> str:
     latest_link = f'<a class="primary-action" href="{latest:03d}.html">Read newest · Chapter {latest}</a>' if latest in generated else (f'<a class="primary-action" href="../light.html?chapter={latest}">Read newest · Chapter {latest}</a>' if latest else '')
     return f'''<!doctype html>
 <html lang="en">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Peg-Leg Greg Light edition: fast, text-first chapters without illustrations."><title>Light Edition — Peg-Leg Greg</title><link rel="stylesheet" href="../assets/reader.css"><link rel="stylesheet" href="../assets/light.css"><link rel="stylesheet" href="../assets/book-contents.css"></head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Peg-Leg Greg Text Reader: fast, text-only chapters without illustrations."><title>Text Reader — Peg-Leg Greg</title><link rel="stylesheet" href="../assets/reader.css"><link rel="stylesheet" href="../assets/light.css"><link rel="stylesheet" href="../assets/book-contents.css"></head>
 <body class="light-edition light-toc-page">
-<header class="site-head light-site-head"><a class="site-brand" href="../index.html">PEG-LEG GREG</a><nav class="site-nav" aria-label="Site navigation"><a href="../index.html">HOME</a><a href="../index.html#chapters">ILLUSTRATED</a><a aria-current="page" href="index.html">LIGHT</a><a href="../latest.html">LATEST</a><a href="../art.html">ART</a></nav></header>
-<main class="light-page"><header class="light-hero"><p class="light-kicker">ONE BOOK · TWO READING MODES</p><h1>Light Edition</h1><p>Fast, text-first Peg-Leg Greg with no chapter illustrations. Built for quick loading and uninterrupted reading.</p><div class="light-actions">{latest_link}<a class="secondary-action" href="../index.html#chapters">Illustrated edition</a></div><p class="light-continue" data-light-continue hidden></p></header><section class="light-ranges" aria-label="Light chapter sections">{book_sections}</section></main>
+<header class="site-head light-site-head"><a class="site-brand" href="../index.html">PEG-LEG GREG</a><nav class="site-nav" aria-label="Site navigation"><a href="../index.html">HOME</a><a href="../index.html#books">ILLUSTRATED READER</a><a aria-current="page" href="index.html">TEXT READER</a><a href="../latest.html">LATEST</a><a href="../art.html">ART</a></nav></header>
+<main class="light-page"><header class="light-hero"><p class="light-kicker">ONE BOOK · TWO READING MODES</p><h1>Text Reader</h1><p>Text-only Peg-Leg Greg with no chapter illustrations. Built for quick loading and uninterrupted reading.</p><div class="light-actions">{latest_link}<a class="secondary-action" href="../index.html#books">Illustrated Reader</a></div><p class="light-continue" data-light-continue hidden></p></header><section class="light-ranges" aria-label="Text Reader chapter sections">{book_sections}</section></main>
 <script src="../assets/light-progress.js"></script>
 </body></html>'''
 
 
 def render_latest(chapter: Chapter, generated: set[int]) -> str:
     target = f'light/{chapter.number:03d}.html' if chapter.number in generated else f'light.html?chapter={chapter.number}'
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Newest Peg-Leg Greg chapter."><title>Latest — Peg-Leg Greg</title><link rel="stylesheet" href="assets/reader.css"><link rel="stylesheet" href="assets/light.css"></head><body class="light-edition"><header class="site-head light-site-head"><a class="site-brand" href="index.html">PEG-LEG GREG</a><nav class="site-nav" aria-label="Site navigation"><a href="index.html">HOME</a><a href="index.html#chapters">ILLUSTRATED</a><a href="light/index.html">LIGHT</a><a aria-current="page" href="latest.html">LATEST</a><a href="art.html">ART</a></nav></header><main class="light-page"><section class="latest-card"><p class="light-kicker">CURRENT CHAPTER</p><h1>Chapter {chapter.number}</h1><h2>{html.escape(chapter.title)}</h2><p>The newest chapter in the text-first edition.</p><a class="primary-action" href="{target}">Read Chapter {chapter.number}</a><p><a href="light/index.html">Browse the Light edition</a> · <a href="index.html">Return home</a></p></section></main></body></html>'''
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Newest Peg-Leg Greg chapter."><title>Latest — Peg-Leg Greg</title><link rel="stylesheet" href="assets/reader.css"><link rel="stylesheet" href="assets/light.css"></head><body class="light-edition"><header class="site-head light-site-head"><a class="site-brand" href="index.html">PEG-LEG GREG</a><nav class="site-nav" aria-label="Site navigation"><a href="index.html">HOME</a><a href="index.html#books">ILLUSTRATED READER</a><a href="light/index.html">TEXT READER</a><a aria-current="page" href="latest.html">LATEST</a><a href="art.html">ART</a></nav></header><main class="light-page"><section class="latest-card"><p class="light-kicker">CURRENT CHAPTER</p><h1>Chapter {chapter.number}</h1><h2>{html.escape(chapter.title)}</h2><p>The newest chapter in the Text Reader.</p><a class="primary-action" href="{target}">Read Chapter {chapter.number}</a><p><a href="light/index.html">Browse Text Reader</a> · <a href="index.html">Return home</a></p></section></main></body></html>'''
 
 
 def selected_numbers(spec: str, all_chapters: dict[int, Chapter]) -> list[int]:
