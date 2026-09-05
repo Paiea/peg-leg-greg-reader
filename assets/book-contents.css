@@ -1,27 +1,10 @@
 @import url("book-contents-base.css");
 
-/* Role cards are illustrated artifacts: large enough to read, but still secondary to the novel. */
+/* Illustrated reader keeps role cards as flavor, not as the navigation hierarchy. */
 .reader-book-layout--illustrated {
-  grid-template-columns: minmax(380px, 420px) minmax(0, 1fr);
-  grid-template-areas:
-    "plate heading"
-    "plate acts";
+  grid-template-columns: minmax(230px, 300px) minmax(0, 1fr);
 }
-
-.reader-book-layout--illustrated .reader-book-heading {
-  grid-area: heading;
-}
-
-.reader-book-layout--illustrated .reader-book-plate {
-  grid-area: plate;
-  width: 100%;
-  max-width: 420px;
-}
-
-.reader-book-layout--illustrated .reader-book-acts {
-  grid-area: acts;
-}
-
+.reader-book-layout--illustrated .reader-book-plate { width: 100%; max-width: 300px; }
 .toc a.reader-book-card-link {
   display: block;
   grid-template-columns: none;
@@ -30,7 +13,6 @@
   padding: 0;
   border-bottom: 0;
 }
-
 .reader-book-card-image {
   display: block;
   width: 100%;
@@ -42,30 +24,16 @@
 
 @media (max-width: 700px) {
   .reader-book-layout--illustrated {
-    grid-template-columns: minmax(0, 1fr);
-    grid-template-areas:
-      "heading"
-      "plate"
-      "acts";
-    gap: 1rem;
-    align-items: start;
+    grid-template-columns: minmax(0, 1fr) minmax(72px, 92px);
+    grid-template-areas: "acts plate";
+    gap: .8rem;
   }
-
-  .reader-book-layout--illustrated .reader-book-heading {
-    grid-area: heading;
-    justify-self: stretch;
-    margin: 0;
-  }
-
   .reader-book-layout--illustrated .reader-book-plate {
     grid-area: plate;
-    width: min(85vw, 340px);
-    max-width: 340px;
-    margin: .15rem auto .8rem;
-    justify-self: center;
+    width: 100%;
+    max-width: 92px;
+    margin: .3rem 0 0 auto;
+    justify-self: end;
   }
-
-  .reader-book-layout--illustrated .reader-book-acts {
-    grid-area: acts;
-  }
+  .reader-book-layout--illustrated .reader-book-acts { grid-area: acts; }
 }
