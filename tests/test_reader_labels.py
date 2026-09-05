@@ -56,7 +56,10 @@ class ReaderLabelTests(unittest.TestCase):
         self.assertNotIn('normalize_reader_labels.py', workflow)
         self.assertNotIn('Normalize public reader labels', workflow)
         self.assertNotIn("! grep -R '#chapters'", workflow)
-        self.assertIn("if grep -R '#chapters' light/*.html light.html latest.html index.html; then", workflow)
+        self.assertIn(
+            "if grep -R '#chapters' light/*.html light.html latest.html index.html assets/light-progress.js; then",
+            workflow,
+        )
         self.assertIn("echo 'stale #chapters anchor detected'", workflow)
         self.assertIn('exit 1', workflow)
 
