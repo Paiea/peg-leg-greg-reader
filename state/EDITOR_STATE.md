@@ -8,7 +8,7 @@ Durable operating memory for 04 / Editor. Manuscript canon outranks this file.
 
 Target:
 
-**STRONGER PROSE → BETTER RHYTHM → CLEARER CHARACTER VOICE → CLEANER SCENES → MORE LIFE PER WORD → BETTER LONG-SERIAL MEMORY**
+**STRONGER PROSE -> BETTER RHYTHM -> CLEARER CHARACTER VOICE -> CLEANER SCENES -> MORE LIFE PER WORD -> BETTER LONG-SERIAL MEMORY**
 
 This is not the forward Manuscript Engine. 01 may continue writing while 04 works backward through existing prose.
 
@@ -19,9 +19,10 @@ Read before substantial editing:
 - `state/PROSE_PLAYBOOK.md`
 - this file
 - exact prose being edited plus neighboring chapters
+- relevant `state/voices/<CHARACTER>.md` files when substantial recurring-character dialogue is present
 - `CHARACTER_BIBLE.md`, `SETTING_BIBLE.md`, `PLOT_CONTROL.md`, `OPEN_THREADS.md`, or specialist audits only when the chapter actually needs them
 
-Do not make 04 read every specialist brain for every chapter. Preserve throughput.
+Do not make 04 read every specialist brain or every voice page for every chapter. Preserve throughput.
 
 ## SOURCE / AUTHORITY DISCIPLINE
 
@@ -30,31 +31,80 @@ The heavy editor works on a **living edited manuscript artifact**, not by silent
 Current durable 04 architecture:
 
 1. **Frozen historical heavy-edit checkpoint:** ChatGPT Library artifact `Peg_Leg_Greg_Heavy_Edit.md`.
-   - spans Chapters 138–216
-   - Chapters 138–180 received the active heavy-prose treatment there
+   - spans Chapters 138-216
+   - Chapters 138-180 received the active heavy-prose treatment there
    - Chapter 180 — **THE THIRD MAN** is the final completed heavy-edit chapter in that frozen Library checkpoint
-   - Chapters 181–216 present in the Library file are source prose only unless separately completed in the GitHub continuation
+   - Chapters 181-216 present in the Library file are source prose only unless separately completed in the GitHub continuation
    - Library access is read-only from ordinary 04 workspaces, so do not pretend later edits were saved back into it
 
 2. **Writable durable heavy-edit continuation:** `state/editorial/Peg_Leg_Greg_Heavy_Edit_Continuation.md`.
    - begins with Chapter 181 — **THE CALLER**
    - is the single living writable 04 editorial stream from Chapter 181 forward
-   - Chapters 181–183 are durably heavy-edited there
-   - future heavy-edited chapters must be added to this same file rather than creating chapter-per-file or range-stamped successors
+   - Chapters 181-183 are durably heavy-edited there
+   - future ordinary heavy-edited chapters must be added to this same file rather than creating chapter-per-file or range-stamped successors
 
 3. **Forward manuscript authority remains separate.** Current/newer manuscript canon outranks stale editorial assumptions. Do not silently rewrite the forward Manuscript Engine's running manuscript as an editorial side effect.
 
-For each new 04 chapter, read the prior completed heavy-edited chapter from the current heavy-edit authority, read the target and next source chapters from the frozen Library artifact and/or newer GitHub exact-text authority as appropriate, perform the heavy edit, save it into the same GitHub continuation, verify persistence, then advance this state.
+For each ordinary 04 chapter, read the prior completed heavy-edited chapter from current heavy-edit authority, read the target and next source chapters from exact authority, perform the heavy edit, save it into the same GitHub continuation, verify persistence, then advance this state.
 
-The Library checkpoint remains protected historical work. Do not delete it merely because the GitHub continuation now exists. A future one-time consolidation of Chapters 138–180 into GitHub is allowed only when a clean source transfer is available and explicitly chosen; do not make that a prerequisite for ongoing editing.
+The Library checkpoint remains protected historical work. Do not delete it merely because the GitHub continuation now exists.
 
-Do not create a chapter-per-file or range-stamped heavy-edit sprawl.
+Do not create chapter-per-file or range-stamped heavy-edit sprawl.
+
+## ACTIVE STRUCTURAL WIP — VOICE / COMPRESSION PASS
+
+A separate broad/risky editorial branch is authorized:
+
+`editor/voice-compression-pass`
+
+Design:
+`docs/superpowers/specs/2026-09-02-plg-voice-compression-renumber-design.md`
+
+Plan:
+`docs/superpowers/plans/2026-09-02-plg-voice-compression-renumber-plan.md`
+
+This pass has explicit author permission to:
+- cut heavily within chapters;
+- merge neighboring chapters;
+- delete a chapter whose distinct value is already delivered elsewhere;
+- move a small preserved beat into an adjacent chapter;
+- renumber the manuscript after structural decisions are frozen;
+- substantially rewrite dialogue for character differentiation;
+- increase dialogue attribution for clarity.
+
+This permission is **structural**, not permission to alter canon events/outcomes, relationship status, magic results/counts, money facts, body continuity, threat evidence, or protected uncertainty.
+
+Do not renumber incrementally. Structural decisions must first be frozen in `state/editorial/RECENT_COMPRESSION_MAP_260_299.md`, then migrated atomically with an old->new map and reference audit.
+
+Quiet chapters are not presumed weak. Cut repetition, not ordinary life.
+
+## CHARACTER VOICE AUTHORITY
+
+Operational voice pages live under `state/voices/`.
+
+Read `state/voices/INDEX.md` for rules.
+
+For substantial dialogue involving a recurring speaker, consult that speaker's page plus exact recent prose.
+
+Voice pages do not outrank manuscript evidence and do not create canon.
+
+Key current rule:
+
+**Do not weaken Greg to create contrast. Move recurring characters away from Greg/Hessa through cognition, rhythm, information behavior, relationship, and what they consider a finished answer.**
+
+Shared Carrow colloquial language, household shorthand, theatre vocabulary, and phrases learned from one another remain allowed.
+
+### Dialogue attribution
+
+Tag more relentlessly when clarity benefits.
+
+Prefer simple `said` / `asked` over decorative action beats used only to avoid tags.
+
+In three-or-more-speaker scenes, err toward over-clarity. Distinct voice is not a substitute for attribution.
 
 ## EDITING PERMISSION
 
-This is a **HEAVY PROSE EDIT**, not a light copyedit.
-
-Allowed:
+Ordinary heavy prose editing may:
 - rewrite sentences substantially
 - restructure paragraphs
 - combine or split paragraphs
@@ -70,7 +120,7 @@ Allowed:
 - strengthen already-earned social memory with small continuity-bearing details
 - let side characters own jokes, knowledge, work, irritation, timing, or recovery where the existing scene supports it
 
-Not allowed without explicit author approval:
+Not allowed during ordinary heavy editing without the structural-pass authority above:
 - change plot
 - change scene outcome
 - change characterization
@@ -103,7 +153,7 @@ Preserve genuinely funny, sharp, frightened, interrupted, or emotionally landed 
 
 ### 2. Excess meaning-making
 
-The prose can sometimes know what a scene means too quickly.
+The prose can know what a scene means too quickly.
 
 Cut or rewrite the paragraph after the good paragraph when it merely explains the good paragraph.
 
@@ -112,15 +162,11 @@ Watch for:
 - Greg perfectly translating every correction into a lesson
 - scenes closing on an overly neat thematic summary
 - every mistake becoming growth immediately
+- repeated `this was growth`
+- repeated declarations that a thing is `not my job`, `not my profession`, or `not a project` after Greg's behavior already proves the boundary
 - Lyssa/Hessa/Teren serving as delivery systems for the chapter's meaning
 
-Allow:
-- misunderstanding
-- incomplete interpretation
-- unresolved irritation
-- jokes with no thematic function
-- ordinary days without one clean lesson
-- people being partly wrong
+Allow misunderstanding, incomplete interpretation, unresolved irritation, jokes with no thematic function, ordinary days without one clean lesson, and people being partly wrong.
 
 ### 3. Predictable rhetorical reversals
 
@@ -130,7 +176,7 @@ Watch repeated patterns such as:
 - `Not because... Because...`
 - repeated thesis/counter-thesis paragraph pairs
 
-Keep them when they are genuinely Greg-shaped and effective. Remove the sense that every paragraph was built by the same machine.
+Keep them when genuinely Greg-shaped and effective. Remove the sense that every paragraph was built by the same machine.
 
 ### 4. Over-explained procedure
 
@@ -138,7 +184,28 @@ Magic, work, theatre, sewing, money, travel, and physical mechanics need enough 
 
 Once a procedure is established, compress repeated steps unless the changed variable is the point of the scene.
 
-### 5. Protagonist gravity
+Magic counts/results remain exact even when setup prose compresses.
+
+### 5. Hessa contamination / shared reasoning voice
+
+Hessa's evidence discipline has productively changed Greg. It must not become the natural language of every competent person in Carrow.
+
+Other people may use:
+- intuition
+- trade shorthand
+- inherited rules
+- superstition
+- local sayings
+- confident-but-partial knowledge
+- procedures they cannot explain
+- wrong explanations attached to useful behavior
+- indifference to Greg's distinctions
+
+A practical worker can be careful without sounding methodological.
+
+Consult the relevant `state/voices/` page before rewriting a recurring speaker.
+
+### 6. Protagonist gravity
 
 Other people should:
 - know things Greg missed
@@ -156,8 +223,6 @@ Do not add side-character activity mechanically. Strengthen real footholds alrea
 
 04 has a special advantage over 01: it can see both earlier and later prose.
 
-Use that advantage carefully.
-
 Look across neighboring and later chapters for:
 - relationships that should remember earlier work
 - routes that become automatic
@@ -170,15 +235,13 @@ Look across neighboring and later chapters for:
 
 Preferred shape:
 
-**EVENT → MEMORY → CHANGED BEHAVIOR / OBJECT / RELATIONSHIP → OCCASIONAL RETURN**
+**EVENT -> MEMORY -> CHANGED BEHAVIOR / OBJECT / RELATIONSHIP -> OCCASIONAL RETURN**
 
 Not:
 
-**EVENT → FORCED CALLBACK → CALLBACK → CALLBACK**
+**EVENT -> FORCED CALLBACK -> CALLBACK -> CALLBACK**
 
 Do not retroactively invent cleaner planning than the manuscript actually had.
-
-Specialist archaeology files such as `LYSSA_WORK_NETWORK_AUDIT.md` and `JORI_DAVIN_WORK_RELATIONSHIP_AUDIT.md` may reveal real older footholds. Use them only to locate/protect manuscript-supported continuity. Exact prose remains authority.
 
 ## SOCIAL TEXTURE
 
@@ -186,7 +249,7 @@ Theatre should increasingly feel like a workplace and social organism that exist
 
 Protect differentiated relationship languages.
 
-Examples of the kind of texture worth preserving when already earned:
+Examples of useful established texture:
 - Nessa's object/continuity authority
 - Hara's performer competence and dry peer-level recovery
 - Jori/Davin's overlapping practical work without fixed hierarchy
@@ -210,18 +273,11 @@ Preserve:
 
 Greg can be smart without sounding like he has already written the analysis essay about his own scene.
 
-He can be:
-- petty
-- annoyed
-- wrong longer
-- overconfident
-- embarrassed
-- jealous
-- insecure
-- reluctant
-- irrational about money in scarcity-shaped ways
+He can be petty, annoyed, wrong longer, overconfident, embarrassed, jealous, insecure, reluctant, or irrational about money in scarcity-shaped ways.
 
 Do not insert flaws on schedule. Let mess arise from the person already on the page.
+
+Use `state/voices/GREG.md` as a compression/voice reference, not as a catchphrase generator.
 
 ## BODY / MOBILITY
 
@@ -235,11 +291,13 @@ Physicality should alter routes, carrying, fatigue, balance, crowds, furniture, 
 
 As coworkers become familiar, some accommodations can become automatic rather than repeatedly discussed. That is relationship development, not disability erasure.
 
+Compress repeated `body normal / residual limb comfortable / shoe fine / crutches fine` checklists when nothing changed and the check is not story-relevant. Preserve physical detail when the task creates a new body/equipment constraint.
+
 ## CHAPTER-BOUNDARY PASS
 
 Do not edit chapters as sealed short stories.
 
-For every heavy chapter, inspect at least the adjacent chapters and, when useful, later continuity.
+For every heavy chapter, inspect at least adjacent chapters and, when useful, later continuity.
 
 Watch for:
 - repeated openings
@@ -250,40 +308,57 @@ Watch for:
 - lost object/social continuity
 - repeated exposition of already-known facts
 - identical physical scene geometry
-- cadence that becomes monotonous across several chapters
+- identical `ordinary errand -> odd thing -> ask people -> qualify -> go home` architecture
+
+A strong chapter shape can become a treadmill if repeated too cleanly.
+
+## STRUCTURAL COMPRESSION TEST
+
+For an explicitly authorized structural pass, classify each chapter:
+- **KEEP**
+- **COMPRESS**
+- **MERGE CANDIDATE**
+- **CUT CANDIDATE**
+
+Ask:
+1. What unique event does this chapter contain?
+2. What unique relationship movement remains if world detail is removed?
+3. What unique world/magic information remains if Greg's explanation is removed?
+4. Is the emotional movement distinct from its neighbors?
+5. Is this chapter repeating the same architecture with a different prop?
+6. Could its best 300-800 words live inside a neighboring chapter more strongly?
+7. Would cutting it remove life, or only repetition?
+
+Do not impose universal compression percentages. A good social/leisure chapter may need space. A familiar-procedure chapter may lose 30-45% and improve.
+
+Renumber only after the map is frozen.
 
 ## ONE-CHAPTER WORKFLOW
 
-Default unit: **one chapter at a time**.
+Default ordinary 04 unit remains **one chapter at a time**.
 
 For each chapter:
-1. Read the current heavy-edited prior chapter from the current heavy-edit authority.
-2. Read the target chapter in full from exact source prose.
-3. Read the next chapter enough to avoid breaking transitions/continuity.
-4. Identify 2–5 high-value prose problems before rewriting.
-5. Perform the heavy edit.
-6. Re-read the whole edited chapter for voice/rhythm, not only changed sentences.
-7. Check canon/continuity against stronger authority where relevant.
-8. Verify no em dashes in manuscript prose.
-9. Save the result into `state/editorial/Peg_Leg_Greg_Heavy_Edit_Continuation.md` and re-open it to verify persistence.
-10. Advance the editorial edge in this state only after the durable write is confirmed.
+1. Read prior completed heavy-edited chapter from current heavy-edit authority.
+2. Read target chapter in full from exact source prose.
+3. Read next chapter enough to avoid breaking transitions/continuity.
+4. Read relevant recurring-character voice pages when needed.
+5. Identify 2-5 high-value prose problems before rewriting.
+6. Perform the heavy edit.
+7. Re-read the whole edited chapter for voice/rhythm.
+8. Check canon/continuity against stronger authority where relevant.
+9. Verify no em dashes in manuscript prose.
+10. Save into `state/editorial/Peg_Leg_Greg_Heavy_Edit_Continuation.md` and re-open to verify persistence.
+11. Advance this state only after durable write is confirmed.
 
-Do not stop every paragraph to report. Edit the chapter as prose.
+For the structural 260-299 pass, follow the dedicated branch plan instead of forcing the one-chapter workflow onto pre-audit material.
 
 ## CHECKPOINT CADENCE
 
-GitHub is now the durable writable 04 checkpoint from Chapter 181 forward. Prefer small atomic chapter commits rather than external ZIPs or successor files.
+GitHub is the durable writable 04 checkpoint from Chapter 181 forward. Prefer small atomic commits rather than external ZIPs or successor files.
 
-Every few chapters, or sooner when:
-- canon risk appears
-- a repeated prose weakness is discovered
-- a new longitudinal continuity rule matters
-- user wants inspection
-- source synchronization feels risky
-
-then:
-- verify the living GitHub continuation
-- update `EDITOR_STATE.md`
+Every few chapters, or sooner when canon risk appears, a repeated prose weakness is discovered, a new longitudinal rule matters, the user wants inspection, or source synchronization feels risky:
+- verify durable authority
+- update this file
 - update `PROSE_PLAYBOOK.md` only for genuinely general craft learning
 - verify the next editorial edge
 
@@ -295,7 +370,9 @@ After each chapter ask:
 
 **PROSE** — Does it sound less generated and more deliberately narrated? Did sentence lengths vary? Did fragments regain force?
 
-**PEOPLE** — Did characters sound different from one another? Did anyone besides Greg feel like they had ownership?
+**PEOPLE** — Did the relevant voice pages produce actual character separation? Did anyone besides Greg feel like they had ownership?
+
+**ATTRIBUTION** — Can the reader follow speaker identity without counting lines, especially in 3+ speaker scenes?
 
 **SOCIAL WORLD** — Did the world feel as if it existed before Greg entered and will continue after he leaves?
 
@@ -313,6 +390,7 @@ If prose became cleaner but flatter, put the personality back.
 - NO EM DASHES in manuscript prose
 - preserve canonical names
 - manuscript fact outranks editorial memory
+- relevant voice page + exact prose outrank a stale generalized voice assumption
 - do not silently merge similar unnamed people/objects/jobs
 - do not invent exchange rates or balances
 - do not change magic evidence
@@ -321,6 +399,7 @@ If prose became cleaner but flatter, put the personality back.
 - do not turn Lyssa into wardrobe by convenience
 - do not make Davin Jori's helper or Jori the sole repair authority merely for clean differentiation
 - do not over-service long-serial continuity
+- structural renumbering only through the frozen map/reference-audit process
 
 ## LEGACY EDITORIAL HISTORY
 
@@ -331,22 +410,32 @@ Earlier 04 work included:
 
 That history remains useful but does not define the active mode.
 
-**Active mode is now HEAVY PROSE / LONGITUDINAL EDIT.**
+**Active ordinary mode is HEAVY PROSE / LONGITUDINAL EDIT.**
 
-## CURRENT EDITORIAL EDGE
+**Active broad WIP is the voice/compression structural pass on `editor/voice-compression-pass`.**
+
+## CURRENT ORDINARY EDITORIAL EDGE
 
 **COMPLETED THROUGH CHAPTER 183 — THE WORKER**
 
 **NEXT: CHAPTER 184 — THE RUNNER**
 
-Durable prior chapter authority for the next run: `state/editorial/Peg_Leg_Greg_Heavy_Edit_Continuation.md`.
+Durable prior chapter authority for the next ordinary run: `state/editorial/Peg_Leg_Greg_Heavy_Edit_Continuation.md`.
 
-Chapter 184 remains unedited. Read its exact source prose and Chapter 185 transition before editing.
-
-Chapter 183 performs no magic. The established external result remains narrow and the cumulative counts remain exactly **24 draws / 20 shaping attempts / 9 external-effect attempts**. Greg earns **2 copper** across the afternoon and evening shows, writes the next experimental question `FORWARD? / MY FORWARD OR BOARD FORWARD?`, and does not test it.
+Chapter 184 remains unedited. Chapter 183 performs no magic. The established external result remains narrow and cumulative counts remain exactly **24 draws / 20 shaping attempts / 9 external-effect attempts**. Greg earns **2 copper** across the afternoon and evening shows, writes the next experimental question `FORWARD? / MY FORWARD OR BOARD FORWARD?`, and does not test it.
 
 Do not wait for 01/02/03. 04 can continue independently while respecting newer canon authority.
 
+## CURRENT STRUCTURAL EDITORIAL EDGE
+
+Voice/compression branch initialized.
+
+Voice library foundation is being built under `state/voices/`.
+
+Next structural task after voice-library/routing completion:
+
+**Create `state/editorial/RECENT_COMPRESSION_MAP_260_299.md` from exact Chapters 260-299 before rewriting or renumbering them.**
+
 ## RE-PROMPT [04]
 
-Continue Peg-Leg Greg 04 / Heavy Prose Editor from current GitHub authority. Read `AGENTS.md`, `state/PROJECT_STATE.md`, `state/STORY_NORTH_STAR.md`, `state/PROSE_PLAYBOOK.md`, and `state/EDITOR_STATE.md` first. The frozen Library artifact `Peg_Leg_Greg_Heavy_Edit.md` is protected historical heavy-edit authority through Chapter 180 and remains exact source prose for later chapters where useful; do not try to overwrite it or create successor downloads. The writable durable 04 stream is `state/editorial/Peg_Leg_Greg_Heavy_Edit_Continuation.md`, currently completed through Chapter 183 — THE WORKER. Next is Chapter 184 — THE RUNNER. Read edited Chapter 183 from the GitHub continuation, read Chapter 184 in full from exact manuscript authority, inspect Chapter 185's opening/transition, then perform one substantive heavy-prose edit. Rewrite sentences and paragraph architecture, strengthen dialogue/action beats and interiority, reduce fragment stacks/repetitive rhetorical reversals/redundant meaning-making, and strengthen already-earned social/workplace texture while preserving plot, characterization, canon, scene intent, money, magic, threat, body continuity, chronology, and outcomes. Chapter 183 performs no magic; the established paper-fin result remains narrow and the cumulative counts remain exactly 24/20/9. Preserve Greg's next question `FORWARD? / MY FORWARD OR BOARD FORWARD?` without testing it early. Use no em dashes in manuscript prose. Save Chapter 184 into the SAME GitHub continuation, re-open and verify persistence, then advance `EDITOR_STATE.md` to Chapter 185 only after the write is confirmed. Do not edit Chapter 185 in the same run.
+Continue Peg-Leg Greg 04 / Heavy Prose Editor from current GitHub authority. Read `AGENTS.md`, `state/PROJECT_STATE.md`, `state/STORY_NORTH_STAR.md`, `state/PROSE_PLAYBOOK.md`, `state/EDITOR_STATE.md`, and relevant `state/voices/` pages for recurring speakers. Ordinary heavy-edit authority remains completed through Chapter 183 — THE WORKER, with Chapter 184 next. A separate broad WIP branch `editor/voice-compression-pass` is authorized for the recent structural pass: build/follow `state/editorial/RECENT_COMPRESSION_MAP_260_299.md`, cut repetition aggressively, differentiate recurring voices, tag dialogue more clearly, and preserve canon. Chapter merging/deletion/renumbering is allowed only after the structural map is frozen and must be migrated atomically. Use no em dashes in manuscript prose.

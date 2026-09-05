@@ -20,9 +20,10 @@ Do not rely on a stale chat prompt for current story position.
 - `state/PROJECT_STATE.md` defines repository authority/synchronization rules
 - `state/STORY_NORTH_STAR.md` defines durable artistic direction but is not plot canon
 - lane state files route work but do not outrank exact manuscript evidence
+- `state/voices/` is focused craft authority for recurring-character dialogue and does not outrank exact prose
+- `state/DIALOGUE_VARIANCE_ENGINE.md` is project-wide runtime guidance for relationship-, state-, pressure-, and variance-driven speech modulation
 - external research informs development but is not canon
 - exploratory chat is not canon
-- WIP branches are durable but not accepted `main`
 
 ## Shared development architecture
 
@@ -30,9 +31,9 @@ For narrative development, read `state/DEVELOPMENT_CYCLE.md`.
 
 Primary loop:
 
-**02 Writers' Room: EXPLORE → RESEARCH → SYNTHESIZE**
+**02 Writers' Room: EXPLORE -> RESEARCH -> SYNTHESIZE**
 
-**03 Story Control: INTEGRATE → PRESSURE-TEST → CLASSIFY**
+**03 Story Control: INTEGRATE -> PRESSURE-TEST -> CLASSIFY**
 
 Then repeat while 01 continues forward manuscript production.
 
@@ -43,7 +44,7 @@ Reusable external research belongs in `state/RESEARCH_LEDGER.md`, with sources, 
 ## Lanes
 
 ### Manuscript / 01
-Read `state/MANUSCRIPT_ENGINE_PLAYBOOK.md`, `state/MANUSCRIPT_WORKFLOW.md`, `state/MANUSCRIPT_STATE.md`, `state/OPEN_THREADS.md`, the current manuscript edge, and `state/PROSE_PLAYBOOK.md` when present. Use `state/STORY_NORTH_STAR.md` as durable artistic direction. Consult `state/STORY_ANTI_PATTERNS.md` when a chapter choice risks a known recurring failure mode. Consult character/setting/plot/development files only when useful. Preserve throughput.
+Read `state/MANUSCRIPT_ENGINE_PLAYBOOK.md`, `state/MANUSCRIPT_WORKFLOW.md`, `state/MANUSCRIPT_STATE.md`, `state/OPEN_THREADS.md`, the current manuscript edge, and `state/PROSE_PLAYBOOK.md` when present. Use `state/STORY_NORTH_STAR.md` as durable artistic direction. Consult `state/STORY_ANTI_PATTERNS.md` when a chapter choice risks a known recurring failure mode. For substantial dialogue involving a recurring character, consult that character's page under `state/voices/`; when the scene depends on mood, relationship, social status, or speech variation, also consult `state/DIALOGUE_VARIANCE_ENGINE.md`. Do not read the whole voice folder every chapter. Consult character/setting/plot/development files only when useful. Preserve throughput.
 
 01 is intentionally chat-independent. Previous chat history may help but is never required authority. A fresh worker must reconstruct the current endpoint and next executable chapter from current GitHub state. For normal accepted forward production, treat one complete chapter as one durable transaction: draft, validate, update the permanent manuscript and relevant living state, store the next trailhead in `MANUSCRIPT_STATE.md`, commit, verify current `main`, then advance.
 
@@ -58,10 +59,12 @@ Read current manuscript/state plus `state/STORY_NORTH_STAR.md`, `state/DEVELOPME
 Read current manuscript/state plus `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, `state/STORY_CONTROL_STATE.md`, `state/WRITERS_ROOM_STATE.md`, `state/PLOT_CONTROL.md`, `state/OPEN_THREADS.md`, and relevant research/bibles. Consult `state/STORY_ANTI_PATTERNS.md` when pressure-testing a direction that risks a known recurring failure mode. Pressure-test possibilities against canon/rhythm/long-range direction, classify them, graduate only useful durable residue, and send focused research edges back to 02.
 
 ### Prose / editorial / 04
-Read actual prose plus `state/PROSE_PLAYBOOK.md` and `state/STORY_NORTH_STAR.md`. Consult `state/STORY_ANTI_PATTERNS.md` when an edit risks flattening voice, relationships, evidence discipline, or serial texture. Improve writing and longitudinal social texture without silently changing plot, canon, characterization, scene intent, or outcomes.
+Read actual prose plus `state/PROSE_PLAYBOOK.md`, `state/EDITOR_STATE.md`, and `state/STORY_NORTH_STAR.md`. Consult `state/STORY_ANTI_PATTERNS.md` when an edit risks flattening voice, relationships, evidence discipline, or serial texture. For substantial recurring-character dialogue, read the relevant page under `state/voices/` plus exact manuscript context. When shaping dialogue, also use `state/DIALOGUE_VARIANCE_ENGINE.md` so baseline voice is modulated by relationship, current state, scene pressure, and controlled human variance instead of becoming a fixed gimmick. Improve writing and longitudinal social texture without silently changing plot, canon, characterization, scene intent, or outcomes except when an explicitly authorized structural pass permits chapter merge/cut/renumbering under a frozen structural map.
+
+Dialogue clarity is part of prose quality. Use simple tags freely. In multi-speaker scenes, do not make the reader perform speaker bookkeeping merely because the voices are intended to be distinct.
 
 ### Character
-Read actual manuscript evidence plus `state/CHARACTER_BIBLE.md` and `state/STORY_NORTH_STAR.md`. Update durable character knowledge, relationships, offscreen causality, and anti-flattening constraints, not transcripts.
+Read actual manuscript evidence plus `state/CHARACTER_BIBLE.md`, `state/STORY_NORTH_STAR.md`, and `state/voices/INDEX.md` when dialogue/voice work is involved. Update durable character knowledge, relationships, offscreen causality, and anti-flattening constraints, not transcripts. Update an individual voice page when repeated manuscript evidence changes how that recurring person speaks or processes the world. Use `state/DIALOGUE_VARIANCE_ENGINE.md` to distinguish stable speech center from relationship- and state-dependent performance.
 
 ### Setting / world
 Read actual manuscript evidence plus `state/SETTING_BIBLE.md`, `state/STORY_NORTH_STAR.md`, and relevant research. Deepen lived world through people, work, routes, objects, institutions, commerce, and repeated use rather than lore dumping.
@@ -93,13 +96,15 @@ Use:
 
 Avoid finished work existing only in chat or a mystery local file.
 
+Broad prose compression, chapter merging/deletion, renumbering, and manuscript-wide voice surgery belong on a branch first.
+
 ### GitHub-first handoff
 
 When current project authority is already in GitHub, do not create or request a full repository ZIP merely to move work between chats or agents.
 
 Normal handoff:
 
-**READ CURRENT GITHUB → WORK → VALIDATE → UPDATE DURABLE STATE → COMMIT / MERGE → VERIFY → LEAVE COMPACT TRAILHEAD**
+**READ CURRENT GITHUB -> WORK -> VALIDATE -> UPDATE DURABLE STATE -> COMMIT / MERGE -> VERIFY -> LEAVE COMPACT TRAILHEAD**
 
 Use a small targeted attachment only when required work is intentionally absent from GitHub, such as the living heavy-edit manuscript, a genuinely unique source asset, an exact recovery block, or a user-requested offline archive. Full-project ZIPs are exceptional recovery artifacts, not routine checkpoints.
 
