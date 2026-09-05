@@ -1,18 +1,17 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 365 - **THE PARTNER**.
+- Current exact story endpoint: Chapter 366 - **THE DANCER**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript physically materialized through Chapter 248.
-- Exact Chapters 249-365 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
+- Exact Chapters 249-366 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
 - **NON-OPTIONAL:** titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
 - Mandatory pre-title question: `Who is Greg being here?`
-- Ch365 answer: Greg is being **Lyssa's partner**, specifically the person she asks to stand beside her, hear terms, repeat them accurately, offer advice only when invited, and then leave the decision/work in her ownership.
-- Therefore title **THE PARTNER**, not THE CONTRACT, THE FIRST LOT, THE SEAM, THE SIX COPPER, etc.
-- `Partner` is deliberately relational and bounded, not a declaration of business partnership or new formal romantic status.
-- Canonical recent: 361 THE MODEL; 362 THE LOOKOUT; 363 THE NEIGHBOR; 364 THE DEBTOR; 365 THE PARTNER.
+- Ch366 answer: Greg is being **a dancer**. Not an observer of music, not a disabled spectator, not Lyssa's escort. He physically enters the dance floor, develops movement grammar for his current body, gets disrupted, chooses to continue, and claims the role even badly.
+- Therefore title **THE DANCER**, not THE LANTERN COURT, THE MUSIC, THE STEP, THE AMBER RIBS, etc.
+- Canonical recent: 362 THE LOOKOUT; 363 THE NEIGHBOR; 364 THE DEBTOR; 365 THE PARTNER; 366 THE DANCER.
 
 ## Production rules
 - One chapter at a time. Target 2,500-4,000 words and clear 2,500 unless explicitly changed.
@@ -23,101 +22,82 @@
 - Current forward routing governed by workflow/rhythm-artifact engine/title rule.
 
 ## Current direction
-- Ch365 changes grammar from Vale/debt/procedure into **Lyssa's work opportunity + relationship boundary**.
-- Greg does not take over Lyssa's work, money, negotiation, or ledger.
-- He is useful because Lyssa explicitly asks him to hear terms and later asks his opinion.
-- Relationship accumulation comes from restraint: support without ownership.
+- Ch366 deliberately spends a chapter on **nonproductive adult pleasure and embodiment** after work/debt/negotiation chapters.
+- Lyssa invites Greg to Lantern Court simply to go out and hear music. No contract, work, artifact objective, investigation, or money plan.
+- Greg initially treats outing like terrain/problem, then actually participates.
+- Core move: his old-life knowledge of dancing does not map cleanly onto current body. He and Lyssa improvise a new shared movement grammar rather than recreating a standard step.
+- Chapter gives Greg a role that is physical, social, mildly vulnerable, and unnecessary in the best way.
+
+## Chapter 366 - THE DANCER
+- Lyssa asks Greg to Lantern Court after dinner because she wants to go out. Cala stays home with Tavi.
+- Greg leaves shoulder bag/oval/notebook/artifacts at home. This is intentional. No artifact presence.
+- Lantern Court: widened three-street court around old dry fountain basin; temporary low music platform; roughly forty people; informal music/dancing/food.
+- Five musicians: two hand drums, long-necked string instrument, short brass horn, and wooden rib-like instrument on frame struck with padded sticks.
+- Wooden ribs glow faint amber when struck and sound carries unusually well. Greg notices but does not investigate. No mechanism established.
+- Dancing is informal, variable, mostly pairs/groups with lateral steps/turns/weight shifts; people adapt freely.
+
+## Greg dancing / body continuity
+- Greg has first-life experience with ordinary social dancing from taverns/festivals/weddings/etc., but current body makes standard local lateral step fail.
+- Current anatomy preserved: permanent **LEFT BKA with knee**, no prosthesis, right leg intact, two crutches.
+- Greg cannot simply place a left foot. Lyssa notices without pity and changes shared movement instead of trying to force standard form.
+- Working pattern develops: right-foot step/beat, crutch plant/reset, weight shift, small right-foot pivot; Lyssa travels around/through more of lateral/turn geometry.
+- Crutches become part of rhythm rather than merely obstacle.
+- Greg's hands/forearms/right calf tire faster than expected. He takes wall breaks. No blister/injury/residual-limb issue.
+- During slower dance Lyssa briefly holds Greg's forearm during turn as **contact, not support**.
+- Another young male dancer accidentally backs into/kicks Greg's left crutch, knocking tip sideways. Greg catches balance with right crutch/right foot, no fall/injury/damage.
+- Young man apologizes repeatedly. Greg says he is fine; no fight/public lesson.
+- Greg's heart jumps because body remembers falling. Lyssa notices but does not narrate/pity. She asks `Wall?`; Greg chooses to finish song first, then rests.
+- Final closing piece is mostly sway/beat. Lyssa stands shoulder-to-shoulder with Greg. Greg participates with planted crutch/right-foot beat rather than standard dance.
+
+## Relationship / social texture
+- Lyssa does not drag Greg onto floor. She walks into edge and waits; Greg chooses to follow.
+- She adapts her movement around his actual geometry.
+- She does not overcheck after crutch collision.
+- Greg stays after initially dancing because he genuinely wants to, not merely because Lyssa does.
+- Walk home is slow by mutual choice, not physical incapacity.
+- Greg acknowledges plainly `Yeah` when Lyssa says he danced.
+- Cala's response at home: `Good.`
+
+## New minor social contact: Pera
+- **Pera** introduced as an adult woman Lyssa knows from cloth district; curls tied in yellow cloth. No surname/job/future role established.
+- Pera has deliberately long, associative, overexplaining speech, contrasting Greg/Lyssa dryness.
+- She says she imagined Greg taller because crutches are long, then realizes logic is nonsense; compares it to thinking everyone with broom is tall.
+- Pera says her uncle dances with one leg and a cane and jokes nobody can tell what changed because he was already terrible before losing it.
+- Greg likes her immediately. Lyssa says she has been hiding Pera `for safety` / everyone's.
+- Do not force Pera recurrence just because voice is useful.
 
 ## Money / economy
-- Greg begins/ends **8c private cash**.
+- Greg remains **8c private cash**.
 - Vale remains **23c principal-equivalent**.
-- Exact Greg bit balance still unresolved from Ch360; Greg spends/counts no bits.
-- Lyssa accepts a first bounded finishing lot from Marra:
-  - 12 aprons
-  - 12 sleeve pairs
-  - 8 carry wraps
-  - cut/marked materials supplied by Marra
-  - return in four days
-  - **6c paid on accepted return**
-  - Lyssa supplies own needles/shears/pressing setup
-  - Lyssa reworks her seam errors
-  - Marra owns her own cut/written-mark errors
-  - material defects returned, not substituted
-  - rejected finish requires specific written reason
-  - no delivery penalty passed to Lyssa on first lot
-- Possible second lot if first passes: likely 8-10c depending quantity, but **not promised** and quantity not confirmed.
-- Lyssa chooses one day rear-bench use to learn pace before bringing remaining work home. Bench fee is **2 bits paid by Lyssa today**, separate books, not deducted from 6c. This does not touch Greg's uncertain bit ledger.
-- Lyssa's exact remaining private money must not be reconstructed.
+- Greg spends/counts no bits. Exact bit continuity remains unresolved.
+- Lyssa buys herself a warm drink; price and remaining money intentionally not stated. Greg does not ask/pay.
+- Lyssa first Marra lot remains in progress and unresolved. Ch366 does not advance its completion/payment.
 
-## Chapter 365 - THE PARTNER
-- Lyssa asks Greg to help carry two cloth bundles to Marra because she also has another bundle/sample book. Practical shared transport.
-- On route Lyssa reveals Marra asked her to stay after delivery because larger work may be offered.
-- Lyssa says she may want Greg there to **hear terms, not decide**. If she doesn't want him in room, he leaves. Greg agrees.
-- Marra first checks returned sample work. Brown cloth had deliberately bad/tight seam allowance mark as an undisclosed judgment test.
-- Lyssa pushes back: if Marra wants judgment sample, say so; do not put bad instruction on paid work and see if she catches it.
-- Marra accepts criticism and says next time she will identify judgment sample. Jessa says it is `a little stupid` and jokes to write date down when Marra concedes.
-- This establishes Lyssa as willing to challenge work authority rather than passive apprentice.
+## Artifact / magic
+- Shoulder bag and oval stay home. Three Reeds/holdfast/rest stone remain locked/inactive.
+- No artifact test/use/purchase/appraisal.
+- No Greg mana use/Hessa session.
+- Magic remains **53 / 53 / 115**.
+- Amber rib instrument is ordinary local magical texture only; no investigation/mechanism claim.
 
-## Marra first-lot offer
-- Marra has six-week South Hall kitchen work-goods order: service aprons, sleeve guards, carry wraps, heat-cloths. Not uniforms.
-- First delivery due in ten days; weekly lots after. Marra cannot finish all without dropping regular work.
-- First Lyssa lot excludes heat-cloths because Lyssa does not know edge treatment; Marra approves her saying so.
-- First lot details as economy section above.
-- Marra's reasons for choosing Lyssa: clean finishing, notices cloth before mark, communicates lateness, redoes bad work, enough sense to complain, Jessa full, and Marra does not want to pay shop rate for work not needing shop.
-- Jessa adds Lyssa is less annoying than Fera. Fera remains only a joking comparison; do not force recurrence.
-- Lyssa asks about doing first lot in shop. Four-day rear bench would cost 1c; she declines. Negotiates one-day bench for 2 bits.
-- Lyssa pays 2 bits from her own money.
-- Marra warns future weekly committed lots may have timing terms because Marra herself has delivery penalty, but **first lot does not pass penalty to Lyssa**. Future terms not written and not canonized.
-- Lyssa makes Marra state first-lot terms clearly and asks Greg what he heard.
-- Greg accurately repeats terms. Marra clarifies `my cut or written-mark error`; Hall spec change is separate category handled by Marra. Note added.
-- Lyssa accepts first lot and shakes Marra's hand. Greg does not. Not his deal.
-
-## Lyssa work texture
-- Lyssa initially forgot shears because she thought meeting was only talk. Greg retrieves:
-  - shears in leather sleeve
-  - **yellow** needle roll (blue contains coarse needles per Cala)
-  - small pressing cloth from behind stove
-  - food Cala packs for both
-- Lyssa uses rear bench for first four aprons + four sleeve pairs to learn pace.
-- Her speech while working becomes more muttered/less dry: questions marks, complains, asks Jessa technical shorthand. Continue allowing work/mood to alter register.
-- One old card incorrectly says quarter turn for brown where current practice is half. Jessa flags, Marra corrects card. Explicitly not another hidden test.
-- By end Lyssa estimates full first lot may be ~2.5 days total actual work spread over four if home setup works. Not guaranteed.
-- She says 6c is `good enough to finish first lot`, not endorsement of future lots.
-
-## Relationship continuity
-- Greg's useful role is bounded support.
-- He waits for explicit permission before advice.
-- At lunch Lyssa asks whether he thinks she should have taken first lot. Greg says yes because bounded, materials supplied, meaningful 6c, bench day buys information about pace, first-lot penalty kept off, and she can hate it after four days.
-- Lyssa says Marra also wants cheap finishing. Greg agrees. Lyssa: `that's why I ask you` because he does not make her choose between compliment and math.
-- Greg leaves after lunch instead of staying all afternoon to perform support/surveillance.
-- At home he reports only household-relevant terms, not every negotiation detail.
-- Lyssa thanks him **for not making it yours**.
-- Greg does not enter Lyssa's six-copper job into his money ledger.
-- Notes:
-  - `LYSSA / MARRA FIRST LOT`
-  - `ASK BEFORE ADVICE`
-  - `IF ASKED TO WITNESS TERMS, REPEAT TERMS`
-  - `DO NOT BECOME OWNER OF DECISION`
-- Closing definition of partner: she wanted him beside her while deciding something belonging to her; he stood beside her, then left when she didn't need him.
-
-## Artifact / magic / body
-- No artifact use/test/purchase/appraisal. Three Reeds breathes. Holdfast/rest stone locked. Oval normal carry, uninvolved.
-- No mana/Hessa. Magic remains **53 / 53 / 115**.
-- Greg's body only matters in cloth transport/walkway geometry; no injury/fall/crutch/residual-limb issue.
+## Greg internal residue
+- Final slow piece briefly evokes first-life dancing memories: polished hall, forgotten/dead woman, winter festival in capital changed since then, old boots/two feet/older body.
+- Greg rejects replacement arithmetic. Current experience is not replacement for first life; it is another thing.
+- At end he does **not** open notebook. No lesson needs recording.
+- Closing identity: `Dancer. / Bad one. / Still counted.`
 
 ## Recent role ledger
-- 361 **THE MODEL**: Senna figure/movement study, paid to 8c.
-- 362 **THE LOOKOUT**: Tavi river-kite supervision.
-- 363 **THE NEIGHBOR**: practical Three Reeds help two doors down.
-- 364 **THE DEBTOR**: Vale service credit, debt 26 -> 23c.
-- 365 **THE PARTNER**: supports Lyssa through first larger work negotiation without taking ownership. Greg remains 8c / Vale 23c / magic 53-53-115.
+- 362 **THE LOOKOUT:** Tavi river-kite supervision.
+- 363 **THE NEIGHBOR:** practical Three Reeds help two doors down.
+- 364 **THE DEBTOR:** Vale service credit, debt 26 -> 23c.
+- 365 **THE PARTNER:** supports Lyssa's work decision without ownership.
+- 366 **THE DANCER:** accepts unnecessary pleasure, adapts dance to current body, recovers from minor crutch collision, chooses to keep participating. Greg remains 8c / Vale 23c / magic 53-53-115.
 
 ## Protected uncertainties
-- Whether Lyssa first lot is accepted/paid remains unresolved until return.
-- Whether second lot exists, exact quantity/rate/timing terms unresolved.
-- South Hall exact institution/order scale beyond stated six-week work-goods order unresolved.
-- Marra future delivery penalty terms not passed to Lyssa first lot; future terms unresolved.
-- Lyssa exact private remaining cash/bits unresolved and should remain private unless she states it.
+- Whether Pera recurs unresolved.
+- Amber rib instrument mechanism/name unresolved.
+- Lyssa first lot acceptance/payment unresolved; second lot unresolved.
+- Lyssa exact private money unresolved.
 - Orsen/Ceral/Morrow recurrence unresolved.
 - Full Vale agreement/future service opportunities unresolved except current 23c.
 - Emberwing ecology unresolved.
@@ -138,26 +118,26 @@
 - Blue harness buyer/motive/use unknown.
 
 ## Continuity issue
-- Ch360 exact prose 1-bit lunch has no established bit source after Ch359 0 bits. Do not silently invent. Ch361-365 avoid Greg bit accounting. Copper exact 8c.
+- Ch360 exact prose 1-bit lunch has no established bit source after Ch359 0 bits. Do not silently invent. Ch361-366 avoid Greg bit accounting. Copper exact 8c.
 
-## Chapter 366 trailhead
-Follow next actual claim from Ch365/current authority.
+## Chapter 367 trailhead
+Follow next actual claim from Ch366/current authority.
 
-Recent rhythm: neighbor artifact use -> debt/procedural service -> **relationship/work negotiation with Lyssa**.
+Recent rhythm: debt/service procedure -> relationship/work negotiation -> **nonproductive pleasure + physical/social embodiment**.
 
-Do not immediately resolve Lyssa first lot/payment next chapter unless prose gives a compelling intervening-time reason. Four-day return should have temporal space.
-Do not immediately repeat negotiation, paperwork, counting/reading work, Three Reeds use, child outing, or Vale.
+Do not immediately repeat dancing/date-night grammar, Lyssa work negotiation, Vale, document work, Three Reeds, child outing, or another minor accident proving Greg can recover.
+Do not resolve Lyssa first lot immediately unless enough story time passes naturally.
 
 Greg begins **8c cash / 23c Vale / no guaranteed work / no scheduled Hessa / exact bits unspecified**.
 
 Strong next routes:
-- physically different adult activity where Greg has to participate rather than observe paperwork;
-- older unresolved thread returning with changed stakes;
-- travel/public event/errand that produces new social collision;
-- fantasy pressure with movement/body/tactics but not another infrastructure failure;
-- ordinary desire or invitation that Greg accepts for no productivity reason, if it creates genuinely new relationship texture.
+- older unresolved fantasy thread returning with new information rather than rotation;
+- activity where Greg must lead/teach/mediate rather than observe/support;
+- unusual object/acquisition pressure can re-enter now, but avoid simple market browse and preserve rational pricing;
+- external request from someone who knows Greg for a specific prior competence, creating a different role;
+- time can advance enough to create consequences from existing obligations without montage-summary feel.
 
-**MANDATORY TITLE CHECK CH366:** first answer `Who is Greg being?` Then title THE [ROLE].
+**MANDATORY TITLE CHECK CH367:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 Magic remains **53 / 53 / 115**.
 
