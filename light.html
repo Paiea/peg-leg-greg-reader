@@ -26,13 +26,28 @@
 <script>
 (() => {
   const params = new URLSearchParams(location.search);
-  const requested = Number.parseInt(params.get('chapter') || '', 10);
+  const requested = Number(params.get('chapter') || '');
+  if (!Number.isInteger(requested) || requested < 1) {
+    location.replace('light/index.html');
+    return;
+  }
+
   fetch('light/manifest.json', {cache:'no-store'}).then(r => r.ok ? r.json() : null).catch(() => null).then(manifest => {
-    if (!requested) { location.replace('light/index.html'); return; }
+    const latest = Number(manifest?.latest);
+    if (Number.isInteger(latest) && requested > latest) {
+      location.replace('light/index.html');
+      return;
+    }
+
+    const expectedPath = `${String(requested).padStart(3, '0')}.html`;
     const found = manifest?.chapters?.find(chapter => Number(chapter.number) === requested);
-    if (found?.path) { location.replace(`light/${found.path}`); return; }
+    if (found?.path === expectedPath) {
+      location.replace(`light/${found.path}`);
+      return;
+    }
+
     const script = document.createElement('script');
-    script.src = 'assets/light-reader.js?v=20260831-static-backfill';
+    script.src = 'assets/light-reader.js?v=20260905-books-fallback';
     document.body.appendChild(script);
   });
 })();
