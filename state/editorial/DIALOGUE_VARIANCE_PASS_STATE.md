@@ -49,14 +49,14 @@ Other characters may be funny, dry, clever, sarcastic, or terse. The goal is not
 
 ## Sequential coverage ledger
 
-- Chapters **1-65: VARIANCE REVIEWED**
-- Chapters **66-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-70: VARIANCE REVIEWED**
+- Chapters **71-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 66**
+Current sequential variance edge: **Chapter 71**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_061_065.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_066_070.md`
 
 Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_001_005.md`
@@ -72,24 +72,25 @@ Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_051_055.md`
 - `state/editorial/dialogue-variance-pass/BATCH_056_060.md`
 - `state/editorial/dialogue-variance-pass/BATCH_061_065.md`
+- `state/editorial/dialogue-variance-pass/BATCH_066_070.md`
 
 Existing out-of-sequence pilot work:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches remain useful evidence but do not bridge the unreviewed 66-320 gap.
+Those later batches remain useful evidence but do not bridge the unreviewed 71-320 gap.
 
-## Chapters 1-60 result
+## Chapters 1-65 result
 
-Durable chapter-level findings remain preserved in the prior sequential batch files `BATCH_001_005.md` through `BATCH_056_060.md`. This ledger keeps the sequential authority and current watch rules; exact patch prose remains in those batch artifacts.
+Durable chapter-level findings remain preserved in the prior sequential batch files `BATCH_001_005.md` through `BATCH_061_065.md`. This ledger keeps the sequential authority and current watch rules; exact patch prose remains in those batch artifacts.
 
-## Chapters 61-65 result
+## Chapters 66-70 result
 
-- Chapter 61 `THE INSPECTOR`: **no variance change required**. Pessa/Dorn/Greg remain distinct through decision, physical ground truth, and model-building. Ordinary maintenance history defeats Greg's neat inference without turning anyone into a counterpunch machine.
-- Chapter 62 `THE BACKSTOP`: **strong variance patch required**. River-yard role architecture is excellent, but Hessa and Arlo reuse older predictive machinery before the worksite sequence. Shift Hessa toward recovery methodology and Arlo toward the current regulator result.
-- Chapter 63 `THE BACKSTOP`: **no variance change required**. The suspended-load accident needs heavy attribution, not voice diversification. Stress and bounded responsibility already create distinct speech.
-- Chapter 64 `THE PATIENT`: **no variance change required**. Pain, drugs, clinical uncertainty, and role separation naturally degrade verbal optimization while keeping Sera, Hessa, the healers, and Greg distinct.
-- Chapter 65 `THE WARD`: **light variance patch required**. Medical humor is mostly care-task specific. Replace one Nerin `I didn't say anything / you were thinking` prediction beat with direct bedside intervention around the chamber pot and blanket.
+- Chapter 66 `THE ABSENT`: **no variance change required**. Sera/Nerin rehabilitation, Jorren's ordinary city care, Arlo's workshop friendship, and Hessa's accident-report boundary remain distinct. Jorren's one `face` line is relationship-earned and immediately specifies the actual funeral-like thought pattern.
+- Chapter 67 `THE CLAIMANT`: **light variance patch required**. Sera/Jorren/Ressa are healthy overall. Remove one downstairs-room `I didn't say anything / you were going to` prediction beat and let the actual proposal carry the disagreement.
+- Chapter 68 `THE NOVICE`: **strong variance patch required**. Rehabilitation itself is excellent, but Nerin and Sera reuse the project-wide `face` shortcut three times. Replace those beats with equipment sequencing, stable crutch settings, and the visible three-versus-fourteen stair comparison.
+- Chapter 69 `THE LODGER`: **light variance patch required**. Ordinary disability/logistics texture and Jorren care are strong. Replace one post-cart sentence-prediction exchange with the practical question `Need a stop?` while preserving the specific earned `chamber pot face` joke.
+- Chapter 70 `THE APPLICANT`: **no variance change required**. Greg's changed state creates hesitation while the city continues normally. Keeper, delivery boy, Guild clerk, Pessa, Sera, and Hessa stay anchored to their own responsibilities rather than interpreting Greg for him.
 
 ## High-value watch targets
 
@@ -118,6 +119,11 @@ Durable chapter-level findings remain preserved in the prior sequential batch fi
 - Ongoing investigations can justify topic anticipation without sentence prediction.
 - Medical humor should come from care tasks and uncertainty.
 - Catastrophe benefits from competent lanes.
+- Rehabilitation gives better evidence than expression-reading: grip, crutch settings, thresholds, stair counts, stopped movement, fatigue, and actual body position.
+- Specific embarrassing history can legitimately become relationship shorthand when it names a concrete repeated event rather than a universal personality tell.
+- Practical care often sounds like logistics: move the soup, count the stairs, arrange transport, keep equipment stable, ask whether a stop is needed.
+- Let the world continue without interpreting the protagonist. Jobs, routes, prices, and other people's work should keep moving around Greg.
+- Refusal density is safe when each refusal attaches to a concrete changing request rather than the same predictive joke architecture.
 
 ## Guardrails
 
@@ -149,11 +155,11 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 66**.
+Resume sequentially at **Chapter 71**.
 
 Preferred bounded queue: **5 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 66-70**.
+Next intended batch: **Chapters 71-75**.
 
 ## Restart prompt
 
