@@ -175,12 +175,13 @@ def render_index(all_chapters: dict[int, Chapter], generated: set[int]) -> str:
     book_sections = render_book_sections(chapter_links, illustrated=False, open_first_act=False)
 
     latest_link = f'<a class="primary-action" href="{latest:03d}.html">Read newest · Chapter {latest}</a>' if latest in generated else (f'<a class="primary-action" href="../light.html?chapter={latest}">Read newest · Chapter {latest}</a>' if latest else '')
+    progress_latest = f' data-latest-chapter="{latest}"' if latest is not None else ''
     return f'''<!doctype html>
 <html lang="en">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Peg-Leg Greg Text Reader: fast, text-only chapters without illustrations."><title>Text Reader — Peg-Leg Greg</title><link rel="stylesheet" href="../assets/reader.css"><link rel="stylesheet" href="../assets/light.css"><link rel="stylesheet" href="../assets/book-contents.css"></head>
 <body class="light-edition light-toc-page">
 <header class="site-head light-site-head"><a class="site-brand" href="../index.html">PEG-LEG GREG</a><nav class="site-nav" aria-label="Site navigation"><a href="../index.html">HOME</a><a href="../index.html#books">ILLUSTRATED READER</a><a aria-current="page" href="index.html">TEXT READER</a><a href="../latest.html">LATEST</a><a href="../art.html">ART</a></nav></header>
-<main class="light-page"><header class="light-hero"><p class="light-kicker">ONE BOOK · TWO READING MODES</p><h1>Text Reader</h1><p>Text-only Peg-Leg Greg with no chapter illustrations. Built for quick loading and uninterrupted reading.</p><div class="light-actions">{latest_link}<a class="secondary-action" href="../index.html#books">Illustrated Reader</a></div><p class="light-continue" data-light-continue hidden></p></header><section class="light-ranges" aria-label="Text Reader chapter sections">{book_sections}</section></main>
+<main class="light-page"><header class="light-hero"><p class="light-kicker">ONE BOOK · TWO READING MODES</p><h1>Text Reader</h1><p>Text-only Peg-Leg Greg with no chapter illustrations. Built for quick loading and uninterrupted reading.</p><div class="light-actions">{latest_link}<a class="secondary-action" href="../index.html#books">Illustrated Reader</a></div><p class="light-continue" data-light-continue{progress_latest} hidden></p></header><section class="light-ranges" aria-label="Text Reader chapter sections">{book_sections}</section></main>
 <script src="../assets/light-progress.js"></script>
 </body></html>'''
 
