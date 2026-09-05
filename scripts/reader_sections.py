@@ -137,9 +137,11 @@ def render_book_sections(chapter_links: dict[int, str], *, illustrated: bool, op
         plate = ''
         layout_class = ' reader-book-layout--illustrated' if illustrated else ''
         if illustrated and book.card_src:
+            card_chapter = book.card_href.rsplit('/', 1)[-1].removesuffix('.html')
             plate = (
                 f'<figure class="reader-book-plate">'
-                f'<a class="reader-book-card-link" href="{escape(book.card_href)}">'
+                f'<a class="reader-book-card-link" href="{escape(book.card_href)}" '
+                f'aria-label="Open Chapter {escape(card_chapter)} in the Illustrated Reader">'
                 f'<img class="reader-book-card-image" src="{escape(book.card_src)}" alt="{escape(book.card_alt)}" '
                 f'width="720" height="960" loading="lazy" decoding="async">'
                 f'</a></figure>'
