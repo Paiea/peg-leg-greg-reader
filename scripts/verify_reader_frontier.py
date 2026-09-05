@@ -54,11 +54,17 @@ def verify_reader_frontier(
         raise AssertionError(f'missing latest Text page: {light_page}')
 
     illustrated_text = illustrated_page.read_text(encoding='utf-8')
+    light_text = light_page.read_text(encoding='utf-8')
     if expected_title is not None:
         illustrated_title = page_h1(illustrated_text)
         if illustrated_title != expected_title:
             raise AssertionError(
                 f'Illustrated title mismatch: expected {expected_title!r}, found {illustrated_title!r}'
+            )
+        text_title = page_h1(light_text)
+        if text_title != expected_title:
+            raise AssertionError(
+                f'Text title mismatch: expected {expected_title!r}, found {text_title!r}'
             )
 
     index_text = (root / 'index.html').read_text(encoding='utf-8')
