@@ -49,14 +49,14 @@ Other characters may be funny, dry, clever, sarcastic, or terse. The goal is not
 
 ## Sequential coverage ledger
 
-- Chapters **1-70: VARIANCE REVIEWED**
-- Chapters **71-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-75: VARIANCE REVIEWED**
+- Chapters **76-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 71**
+Current sequential variance edge: **Chapter 76**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_066_070.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_071_075.md`
 
 Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_001_005.md`
@@ -73,24 +73,25 @@ Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_056_060.md`
 - `state/editorial/dialogue-variance-pass/BATCH_061_065.md`
 - `state/editorial/dialogue-variance-pass/BATCH_066_070.md`
+- `state/editorial/dialogue-variance-pass/BATCH_071_075.md`
 
 Existing out-of-sequence pilot work:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches remain useful evidence but do not bridge the unreviewed 71-320 gap.
+Those later batches remain useful evidence but do not bridge the unreviewed 76-320 gap.
 
-## Chapters 1-65 result
+## Chapters 1-70 result
 
-Durable chapter-level findings remain preserved in the prior sequential batch files `BATCH_001_005.md` through `BATCH_061_065.md`. This ledger keeps the sequential authority and current watch rules; exact patch prose remains in those batch artifacts.
+Durable chapter-level findings remain preserved in the prior sequential batch files `BATCH_001_005.md` through `BATCH_066_070.md`. This ledger keeps the sequential authority and current watch rules; exact patch prose remains in those batch artifacts.
 
-## Chapters 66-70 result
+## Chapters 71-75 result
 
-- Chapter 66 `THE ABSENT`: **no variance change required**. Sera/Nerin rehabilitation, Jorren's ordinary city care, Arlo's workshop friendship, and Hessa's accident-report boundary remain distinct. Jorren's one `face` line is relationship-earned and immediately specifies the actual funeral-like thought pattern.
-- Chapter 67 `THE CLAIMANT`: **light variance patch required**. Sera/Jorren/Ressa are healthy overall. Remove one downstairs-room `I didn't say anything / you were going to` prediction beat and let the actual proposal carry the disagreement.
-- Chapter 68 `THE NOVICE`: **strong variance patch required**. Rehabilitation itself is excellent, but Nerin and Sera reuse the project-wide `face` shortcut three times. Replace those beats with equipment sequencing, stable crutch settings, and the visible three-versus-fourteen stair comparison.
-- Chapter 69 `THE LODGER`: **light variance patch required**. Ordinary disability/logistics texture and Jorren care are strong. Replace one post-cart sentence-prediction exchange with the practical question `Need a stop?` while preserving the specific earned `chamber pot face` joke.
-- Chapter 70 `THE APPLICANT`: **no variance change required**. Greg's changed state creates hesitation while the city continues normally. Keeper, delivery boy, Guild clerk, Pessa, Sera, and Hessa stay anchored to their own responsibilities rather than interpreting Greg for him.
+- Chapter 71 `THE COUNTER`: **no variance change required**. Mara Fen's commercial scope, Toma's ordinary imperfection, and Greg's accessibility questions stay distinct without anyone interpreting his emotional meaning for him.
+- Chapter 72 `THE FRIEND`: **no variance change required**. Sevren and Alden are both dry peers but remain differentiated by motive, behavior, and what they want from Greg. Intentional Greg/Alden convergence remains relationship-owned.
+- Chapter 73 `THE TENANT`: **moderate variance patch required**. Keeper/Lerris/Sera/Sevren domain separation is strong; replace two generic `Face` beats with boot-specific craft judgment and Nerin teasing Greg's actual change in stair behavior.
+- Chapter 74 `THE CONSULTANT`: **no variance change required**. Lerris speaks from stair geometry and work; Edrin remains strongly investigative through provenance, evidence boundaries, records access, and unsupported-vs-supported distinctions.
+- Chapter 75 `THE RETURNER`: **light variance patch required**. The staircase return is well differentiated across Sera, Nerin, Jorren, Hessa, Lerris, and the keeper. Replace one Nerin `Face` recurrence with specific teasing about Greg counting stair repetitions.
 
 ## High-value watch targets
 
@@ -124,6 +125,11 @@ Durable chapter-level findings remain preserved in the prior sequential batch fi
 - Practical care often sounds like logistics: move the soup, count the stairs, arrange transport, keep equipment stable, ask whether a stop is needed.
 - Let the world continue without interpreting the protagonist. Jobs, routes, prices, and other people's work should keep moving around Greg.
 - Refusal density is safe when each refusal attaches to a concrete changing request rather than the same predictive joke architecture.
+- Relationship similarity is safe when desire differs. Distinct motive can carry voice even when sentence length overlaps.
+- Professional scope can be a stronger fingerprint than diction. Do not force decorative speech differences when responsibility already separates characters.
+- Teasing should attach to remembered behavior rather than a generic personality-reading token.
+- Let mundane competence stay mundane. Ordinary solutions do not need conversion into revelations or punchline ladders.
+- Significant emotional progress is often stronger when bystanders retain their own jobs, schedules, and priorities.
 
 ## Guardrails
 
@@ -155,11 +161,11 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 71**.
+Resume sequentially at **Chapter 76**.
 
 Preferred bounded queue: **5 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 71-75**.
+Next intended batch: **Chapters 76-80**.
 
 ## Restart prompt
 
