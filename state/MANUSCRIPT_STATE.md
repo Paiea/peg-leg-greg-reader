@@ -1,150 +1,163 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 364 - **THE DEBTOR**.
+- Current exact story endpoint: Chapter 365 - **THE PARTNER**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
-- Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249-364 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
+- Permanent running manuscript physically materialized through Chapter 248.
+- Exact Chapters 249-365 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
-- **NON-OPTIONAL FORWARD RULE:** chapter titles are identity cards. Default grammar is **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES IN THAT CHAPTER**.
-- Before finalizing any title, answer internally: `Who is Greg being here?`
-- Ch364 answer: **Greg is being a debtor actively servicing his own debt.** Therefore title is **THE DEBTOR**, not THE LEDGER, THE CREDIT, THE ANNEX, THE TRANSFER, etc.
-- Roles can be temporary or persistent. Ch364 explicitly notes some roles do not end because a chapter does.
-- Canonical recent titles: 351 THE HOUSEMATE; 352 THE COUNTER; 353 THE COLLECTOR; 354 THE CUSTODIAN; 355 THE EXPERIMENTER; 356 THE WAYFINDER; 357 THE ADVISER; 358 THE PASSENGER; 359 THE FREELANCER; 360 THE READER; 361 THE MODEL; 362 THE LOOKOUT; 363 THE NEIGHBOR; 364 THE DEBTOR.
+- **NON-OPTIONAL:** titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
+- Mandatory pre-title question: `Who is Greg being here?`
+- Ch365 answer: Greg is being **Lyssa's partner**, specifically the person she asks to stand beside her, hear terms, repeat them accurately, offer advice only when invited, and then leave the decision/work in her ownership.
+- Therefore title **THE PARTNER**, not THE CONTRACT, THE FIRST LOT, THE SEAM, THE SIX COPPER, etc.
+- `Partner` is deliberately relational and bounded, not a declaration of business partnership or new formal romantic status.
+- Canonical recent: 361 THE MODEL; 362 THE LOOKOUT; 363 THE NEIGHBOR; 364 THE DEBTOR; 365 THE PARTNER.
 
 ## Production rules
 - One chapter at a time. Target 2,500-4,000 words and clear 2,500 unless explicitly changed.
 - NO EM DASHES in manuscript prose. Greg POV.
 - Exact prose outranks summaries/state/development/chat residue.
 - Follow next actual claim from prose, not engine rotation.
-- Greg first life reached about 59 and S-class. Familiar fantasy knowledge should often remain invisible; curiosity attaches to local implementation, constraints, cost, failure, specialist practice.
-- Current forward routing governed by `MANUSCRIPT_WORKFLOW.md`, `RHYTHM_ARTIFACT_ENGINE.md`, mandatory role-title rule.
+- Greg first life reached about 59 and S-class. Familiar fantasy knowledge often invisible; curiosity attaches to local implementation/constraints/cost/failure/specialist practice.
+- Current forward routing governed by workflow/rhythm-artifact engine/title rule.
 
 ## Current direction
-- Ch364 moves from neighbor/artifact use back to an older durable obligation with materially changed economic context: Vale service credit.
-- Greg is not desperate for immediate cash. He has 8c reserve. He chooses debt reduction because reducing future claim now has distinct value from liquidity.
-- Chapter role is **DEBTOR**, not clerk. Greg temporarily performs document-transfer assistance, but the chapter's actual identity is his relationship to Vale obligation.
-- The debt moves objectively from **26c to 23c principal-equivalent** after completed service credit.
+- Ch365 changes grammar from Vale/debt/procedure into **Lyssa's work opportunity + relationship boundary**.
+- Greg does not take over Lyssa's work, money, negotiation, or ledger.
+- He is useful because Lyssa explicitly asks him to hear terms and later asks his opinion.
+- Relationship accumulation comes from restraint: support without ownership.
 
-## Money / Vale continuity
-- Greg begins and ends Ch364 with **8 private copper cash**.
-- Exact bit balance remains unresolved from Ch360 lunch issue; Ch364 does not spend/count bits.
-- Vale sends a refusible service-credit offer through local baker/Cala: East Ledger Annex, tomorrow third bell, document transfer assistance, seated, expected two hours, **3c principal-equivalent credit**.
-- Greg goes to main Vale office before accepting and clarifies scope/terms.
-- Work: physical document bundle cover marks/page ranges against transfer sheet; keep sequence; mark mismatches/damage for clerk review. No interpretation of account terms, no copying balances, no money handling, no general access to private terms.
-- Expected two working hours. Greg may stop at two unless he agrees extension. Full 3c if supervisor releases completed early. No credit for leaving early unless completed scope recorded.
-- Acceptance does not change next routine review or create future service obligation. Refusal would not have affected standing.
-- Greg accepts.
-- Completes scope at East Ledger Annex under transfer clerk **Orsen**.
-- Service credit posts same day: **3c principal-equivalent**.
-- Clerk confirms current Vale principal-equivalent balance is now exactly **23c** and no other account change posted.
-- Next routine review unchanged.
-- Greg receives stamped receipt and stores it with prior Vale paper.
+## Money / economy
+- Greg begins/ends **8c private cash**.
+- Vale remains **23c principal-equivalent**.
+- Exact Greg bit balance still unresolved from Ch360; Greg spends/counts no bits.
+- Lyssa accepts a first bounded finishing lot from Marra:
+  - 12 aprons
+  - 12 sleeve pairs
+  - 8 carry wraps
+  - cut/marked materials supplied by Marra
+  - return in four days
+  - **6c paid on accepted return**
+  - Lyssa supplies own needles/shears/pressing setup
+  - Lyssa reworks her seam errors
+  - Marra owns her own cut/written-mark errors
+  - material defects returned, not substituted
+  - rejected finish requires specific written reason
+  - no delivery penalty passed to Lyssa on first lot
+- Possible second lot if first passes: likely 8-10c depending quantity, but **not promised** and quantity not confirmed.
+- Lyssa chooses one day rear-bench use to learn pace before bringing remaining work home. Bench fee is **2 bits paid by Lyssa today**, separate books, not deducted from 6c. This does not touch Greg's uncertain bit ledger.
+- Lyssa's exact remaining private money must not be reconstructed.
 
-## Chapter 364 - THE DEBTOR
-- Vale gray slip arrives via corner baker under Cala's loaf. This is ordinary local message routing, not surveillance implication.
-- Greg explicitly checks offer terms before accepting because service credit is part of debt agreement.
-- Main-office clerk explains scope and confirms bounded conditions.
-- East Ledger Annex is old paper/archive building behind court district.
-- Transfer clerk **Orsen** introduced, late-forties-ish, thin hair, sleeves rolled evenly. No surname/history/future role established.
-- Three trays: LEFT SHELF / TRANSFER / HOLD.
-- Greg reads account mark + page range, compares transfer line, moves match to transfer tray. Orsen alone stamps transfer.
-- Hold conditions encountered: one page-range mismatch, one water-damaged bundle, one shelf-code mismatch, one loose binding. Greg does not diagnose or investigate.
-- Orsen uses small square registry stamp with internal blue marking stone. Stamp marks transfer clerk/office/date block and is harder to alter than ink. Registry instruments services it, usually quarterly unless it starts `ghosting`/double-marking. No deeper mechanism established.
-- Greg notices other minor magical office equipment but deliberately does not chase it.
+## Chapter 365 - THE PARTNER
+- Lyssa asks Greg to help carry two cloth bundles to Marra because she also has another bundle/sample book. Practical shared transport.
+- On route Lyssa reveals Marra asked her to stay after delivery because larger work may be offered.
+- Lyssa says she may want Greg there to **hear terms, not decide**. If she doesn't want him in room, he leaves. Greg agrees.
+- Marra first checks returned sample work. Brown cloth had deliberately bad/tight seam allowance mark as an undisclosed judgment test.
+- Lyssa pushes back: if Marra wants judgment sample, say so; do not put bad instruction on paid work and see if she catches it.
+- Marra accepts criticism and says next time she will identify judgment sample. Jessa says it is `a little stupid` and jokes to write date down when Marra concedes.
+- This establishes Lyssa as willing to challenge work authority rather than passive apprentice.
 
-## Mistress Ceral / privacy boundary
-- **Mistress Ceral** introduced as an adult woman in expensive dark-blue outer coat with silver buttons. No title beyond spoken `Mistress`, no surname/history/status established.
-- She asks Orsen for transfer copy for a Morrow account block before transfer closes.
-- Orsen refuses to disclose other account transfer status and routes her through proper front-desk request.
-- She questions Greg's access as service assistant. Orsen says he is authorized only for cover marks/page ranges.
-- Greg stays out of argument and does not inspect private account contents.
-- A later formal request corresponds to one bundle already in HOLD; Orsen routes it to another clerk as `condition hold before request`, not directly to Ceral.
-- Do not infer conspiracy, special relation, wrongdoing, or importance beyond scene. Ceral may never recur.
+## Marra first-lot offer
+- Marra has six-week South Hall kitchen work-goods order: service aprons, sleeve guards, carry wraps, heat-cloths. Not uniforms.
+- First delivery due in ten days; weekly lots after. Marra cannot finish all without dropping regular work.
+- First Lyssa lot excludes heat-cloths because Lyssa does not know edge treatment; Marra approves her saying so.
+- First lot details as economy section above.
+- Marra's reasons for choosing Lyssa: clean finishing, notices cloth before mark, communicates lateness, redoes bad work, enough sense to complain, Jessa full, and Marra does not want to pay shop rate for work not needing shop.
+- Jessa adds Lyssa is less annoying than Fera. Fera remains only a joking comparison; do not force recurrence.
+- Lyssa asks about doing first lot in shop. Four-day rear bench would cost 1c; she declines. Negotiates one-day bench for 2 bits.
+- Lyssa pays 2 bits from her own money.
+- Marra warns future weekly committed lots may have timing terms because Marra herself has delivery penalty, but **first lot does not pass penalty to Lyssa**. Future terms not written and not canonized.
+- Lyssa makes Marra state first-lot terms clearly and asks Greg what he heard.
+- Greg accurately repeats terms. Marra clarifies `my cut or written-mark error`; Hall spec change is separate category handled by Marra. Note added.
+- Lyssa accepts first lot and shakes Marra's hand. Greg does not. Not his deal.
 
-## Dialogue / role texture
-- Orsen is terse/procedural without being Greg clone. His dryness comes from archive process and boundaries.
-- He notices Greg repeatedly looking at magical stamp and permits one bounded question sequence before saying `Greg`, which Greg accepts as stop signal.
-- Lyssa/Cala household speech remains distinct. Tavi asks why have debt if it cannot buy things and later simply advises Greg to `get zero`.
+## Lyssa work texture
+- Lyssa initially forgot shears because she thought meeting was only talk. Greg retrieves:
+  - shears in leather sleeve
+  - **yellow** needle roll (blue contains coarse needles per Cala)
+  - small pressing cloth from behind stove
+  - food Cala packs for both
+- Lyssa uses rear bench for first four aprons + four sleeve pairs to learn pace.
+- Her speech while working becomes more muttered/less dry: questions marks, complains, asks Jessa technical shorthand. Continue allowing work/mood to alter register.
+- One old card incorrectly says quarter turn for brown where current practice is half. Jessa flags, Marra corrects card. Explicitly not another hidden test.
+- By end Lyssa estimates full first lot may be ~2.5 days total actual work spread over four if home setup works. Not guaranteed.
+- She says 6c is `good enough to finish first lot`, not endorsement of future lots.
 
-## Artifact continuity
-- Three Reeds breathes after Ch363 payoff. Locked home, inactive, untouched.
-- Holdfast/rest stone locked/untouched.
-- Oval remains normal shoulder-bag carry but is uninvolved.
-- No artifact test/use/purchase/appraisal.
+## Relationship continuity
+- Greg's useful role is bounded support.
+- He waits for explicit permission before advice.
+- At lunch Lyssa asks whether he thinks she should have taken first lot. Greg says yes because bounded, materials supplied, meaningful 6c, bench day buys information about pace, first-lot penalty kept off, and she can hate it after four days.
+- Lyssa says Marra also wants cheap finishing. Greg agrees. Lyssa: `that's why I ask you` because he does not make her choose between compliment and math.
+- Greg leaves after lunch instead of staying all afternoon to perform support/surveillance.
+- At home he reports only household-relevant terms, not every negotiation detail.
+- Lyssa thanks him **for not making it yours**.
+- Greg does not enter Lyssa's six-copper job into his money ledger.
+- Notes:
+  - `LYSSA / MARRA FIRST LOT`
+  - `ASK BEFORE ADVICE`
+  - `IF ASKED TO WITNESS TERMS, REPEAT TERMS`
+  - `DO NOT BECOME OWNER OF DECISION`
+- Closing definition of partner: she wanted him beside her while deciding something belonging to her; he stood beside her, then left when she didn't need him.
 
-## Magic continuity
-- No Greg mana use or Hessa session.
-- Exact totals remain **53 supervised minimal draws / 53 supervised deliberate shaping attempts / 115 supervised external-effect attempts**.
-- No independent practice.
+## Artifact / magic / body
+- No artifact use/test/purchase/appraisal. Three Reeds breathes. Holdfast/rest stone locked. Oval normal carry, uninvolved.
+- No mana/Hessa. Magic remains **53 / 53 / 115**.
+- Greg's body only matters in cloth transport/walkway geometry; no injury/fall/crutch/residual-limb issue.
 
-## Greg / body
-- Greg nineteen, Bronze, Carrow, permanent LEFT BKA knee preserved, right leg intact, two crutches.
-- Work is seated. He takes a brief standing/stretch break when back/right leg/hands want position change. No injury/fall/crutch/residual-limb issue.
-
-## Greg's Ch364 notes
-- `VALE`
-- `SERVICE CREDIT POSTED: 3 C PRINCIPAL-EQUIVALENT`
-- `CURRENT: 23 C`
-- `CASH: 8 C`
-- `NEXT REVIEW UNCHANGED`
-- `NO FUTURE SERVICE OBLIGATION CREATED`
-- He refuses to turn the work into a grand philosophy in notes.
-
-## Recent chapter ledger using canonical ROLE titles
-- **359 THE FREELANCER:** chooses North morning over South Quay three-day certainty.
-- **360 THE READER:** North tag walk, mismatch held, paid to 7c.
-- **361 THE MODEL:** Senna figure/movement study, paid to 8c.
-- **362 THE LOOKOUT:** supervises Tavi at river-kite run.
-- **363 THE NEIGHBOR:** helps Mevi/Naro with emberwing/light problem using Three Reeds briefly; ordinary tray becomes long-duration answer.
-- **364 THE DEBTOR:** accepts bounded Vale service credit, completes two-hour archive transfer assistance, reduces Vale from **26c to 23c** while keeping **8c cash**.
+## Recent role ledger
+- 361 **THE MODEL**: Senna figure/movement study, paid to 8c.
+- 362 **THE LOOKOUT**: Tavi river-kite supervision.
+- 363 **THE NEIGHBOR**: practical Three Reeds help two doors down.
+- 364 **THE DEBTOR**: Vale service credit, debt 26 -> 23c.
+- 365 **THE PARTNER**: supports Lyssa through first larger work negotiation without taking ownership. Greg remains 8c / Vale 23c / magic 53-53-115.
 
 ## Protected uncertainties
-- Whether Orsen or Ceral recur unresolved; do not force archive subplot.
-- Morrow account identity/contents/status unresolved and not Greg's business.
-- Full Vale original agreement/future service opportunities remain unresolved except current confirmed 23c balance and unchanged review.
-- Emberwing mechanism/ecology unresolved.
+- Whether Lyssa first lot is accepted/paid remains unresolved until return.
+- Whether second lot exists, exact quantity/rate/timing terms unresolved.
+- South Hall exact institution/order scale beyond stated six-week work-goods order unresolved.
+- Marra future delivery penalty terms not passed to Lyssa first lot; future terms unresolved.
+- Lyssa exact private remaining cash/bits unresolved and should remain private unless she states it.
+- Orsen/Ceral/Morrow recurrence unresolved.
+- Full Vale agreement/future service opportunities unresolved except current 23c.
+- Emberwing ecology unresolved.
 - Naro/Mevi/Dera recurrence unresolved.
 - Three Reeds exact model/core/radius/strength/shutter/safe duration/rated pairing/mounted behavior unresolved.
 - South Cloth committee/final pose unresolved.
-- Marker Nine downstream status unresolved.
-- North Secondary broader failure cause/full reopening unresolved.
-- Saret future work unresolved.
-- South Quay future temp offers unresolved.
+- Marker Nine/North Secondary broader status unresolved.
+- Saret/South Quay future work unresolved.
 - Hanging Road cause/repair/reopening unresolved.
 - Blue-hour mechanism/source/escalation unresolved.
-- Ch348 copper-knot thread unresolved.
-- Ch351 feed-branch repair cause unresolved.
-- Moving-caster reliability/future axes unresolved.
+- Ch348 copper-knot unresolved.
+- Ch351 feed-branch cause unresolved.
+- Moving-caster future axes unresolved.
 - Holdfast exact function/fixture/safe use unresolved.
-- K-14-6 mechanism/system/safe mounting/value unresolved.
+- K-14-6 mechanism/system/value unresolved.
 - Oval-long-mile relation unresolved.
 - Privacy-clasp cause/current condition unresolved.
 - Blue harness buyer/motive/use unknown.
 
-## Continuity issue to resolve carefully
-- Ch360 exact prose has Greg buy a 1-bit lunch despite Ch359 ending 0 bits and no bit source before purchase. Do not silently invent source/conversion. Ch361-364 avoid bit accounting. Copper exact at 8c.
+## Continuity issue
+- Ch360 exact prose 1-bit lunch has no established bit source after Ch359 0 bits. Do not silently invent. Ch361-365 avoid Greg bit accounting. Copper exact 8c.
 
-## Chapter 365 trailhead
-Follow next actual claim from Ch364/current authority.
+## Chapter 366 trailhead
+Follow next actual claim from Ch365/current authority.
 
-Recent rhythm: caregiving/public magical ecology -> neighbor practical artifact use -> **adult debt/service obligation with objective economic progress**.
+Recent rhythm: neighbor artifact use -> debt/procedural service -> **relationship/work negotiation with Lyssa**.
 
-Do not immediately repeat Vale office, archives, document comparison, procedural clerk work, Three Reeds use, child outing, or neighbor emergency.
+Do not immediately resolve Lyssa first lot/payment next chapter unless prose gives a compelling intervening-time reason. Four-day return should have temporal space.
+Do not immediately repeat negotiation, paperwork, counting/reading work, Three Reeds use, child outing, or Vale.
 
-Greg begins with **8c cash**, **23c Vale principal-equivalent debt**, no guaranteed/scheduled work, no scheduled Hessa session, exact bit balance unspecified.
-
-The economic ratchet has materially moved: Greg now has 8c reserve AND debt below prior 26c. Do not reset him into one-copper panic. Future choices can involve opportunity cost, reserve, access, larger expenses, or deliberate debt acceleration without making every chapter about money.
+Greg begins **8c cash / 23c Vale / no guaranteed work / no scheduled Hessa / exact bits unspecified**.
 
 Strong next routes:
-- character collision or relationship friction with an existing adult where Greg must embody a fresh social role;
-- travel/district purpose with fantasy texture and consequence;
-- older unresolved thread returning with genuinely new information;
-- Hessa/magic only if actual story claim earns it, not because absent recently;
-- work opportunity with different grammar than reading/counting/paper/procedure.
+- physically different adult activity where Greg has to participate rather than observe paperwork;
+- older unresolved thread returning with changed stakes;
+- travel/public event/errand that produces new social collision;
+- fantasy pressure with movement/body/tactics but not another infrastructure failure;
+- ordinary desire or invitation that Greg accepts for no productivity reason, if it creates genuinely new relationship texture.
 
-**MANDATORY TITLE CHECK FOR CH365:** first answer `Who is Greg being?` Then title **THE [ROLE]**. Do not name the event/object/problem.
+**MANDATORY TITLE CHECK CH366:** first answer `Who is Greg being?` Then title THE [ROLE].
 
 Magic remains **53 / 53 / 115**.
 
