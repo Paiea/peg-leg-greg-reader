@@ -147,6 +147,18 @@ def verify_reader_frontier(
         raise AssertionError('Text manifest chapters field is invalid')
     if any(isinstance(entry, dict) and entry.get('number', 0) > latest for entry in entries):
         raise AssertionError('Text manifest contains chapter beyond published frontier')
+
+    manifest_numbers = sorted(
+        entry.get('number')
+        for entry in entries
+        if isinstance(entry, dict) and isinstance(entry.get('number'), int)
+    )
+    if not manifest_numbers:
+        raise AssertionError('Text manifest chapter range is empty')
+    expected_manifest_numbers = list(range(manifest_numbers[0], latest + 1))
+    if manifest_numbers != expected_manifest_numbers:
+        raise AssertionError('Text manifest chapter range is not contiguous')
+
     frontier_entries = [
         entry for entry in entries
         if isinstance(entry, dict) and entry.get('number') == latest
