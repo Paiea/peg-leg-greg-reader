@@ -21,12 +21,23 @@ def parse_chapter_index(text: str) -> dict[int, str]:
     return chapters
 
 
-def chapter_href(number: int, generated_light: set[int]) -> str:
-    if number <= 155:
-        return f'chapters/{number:03d}.html'
-    if number in generated_light:
-        return f'light/{number:03d}.html'
-    return f'light.html?chapter={number}'
+def load_manifest_chapters(path: Path) -> dict[int, str]:
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text(encoding='utf-8'))
+    chapters: dict[int, str] = {}
+    for item in data.get('chapters', []):
+        number = item.get('number')
+        title = item.get('title')
+        if isinstance(number, int) and isinstance(title, str) and title.strip():
+            chapters[number] = title.strip()
+    return chapters
+
+
+def chapter_href(number: int) -> str:
+    # This is the Illustrated Reader contents page. Its chapter grid must stay
+    # in illustrated mode instead of silently routing later chapters to Light.
+    return f'chapters/{number:03d}.html'
 
 
 def _find_section_end(text: str, start: int) -> int:
@@ -67,7 +78,6 @@ def patch_home_contents(text: str, rendered_books: str) -> str:
 
 def render_home_contents(
     chapters: dict[int, str],
-    generated_light: set[int],
     *,
     illustrated: bool = True,
 ) -> str:
@@ -75,7 +85,7 @@ def render_home_contents(
 
     links = {
         number: (
-            f'<a href="{chapter_href(number, generated_light)}">'
+            f'<a href="{chapter_href(number)}">'
             f'<span class="num">{number:02d}</span>'
             f'<span class="title">{html.escape(title.title())}</span>'
             f'</a>'
@@ -85,26 +95,19 @@ def render_home_contents(
     return render_book_sections(links, illustrated=illustrated, open_first_act=True)
 
 
-def load_generated_light(path: Path) -> set[int]:
-    if not path.exists():
-        return set()
-    data = json.loads(path.read_text(encoding='utf-8'))
-    return {
-        int(item['number'])
-        for item in data.get('chapters', [])
-        if str(item.get('number', '')).isdigit()
-    }
-
-
 def main() -> int:
     chapter_index = Path('state/MANUSCRIPT_CHAPTER_INDEX.md')
     light_manifest = Path('light/manifest.json')
     index_path = Path('index.html')
 
+    # Preserve the durable early chapter index, then let the generated manifest
+    # extend and refresh it. The handwritten index has historically lagged the
+    # manuscript endpoint, while the manifest is generated from exact authority.
     chapters = parse_chapter_index(chapter_index.read_text(encoding='utf-8'))
-    generated_light = load_generated_light(light_manifest)
+    chapters.update(load_manifest_chapters(light_manifest))
+
     original = index_path.read_text(encoding='utf-8')
-    rendered = render_home_contents(chapters, generated_light, illustrated=True)
+    rendered = render_home_contents(chapters, illustrated=True)
     updated = ensure_stylesheet(patch_home_contents(original, rendered))
     if updated != original:
         index_path.write_text(updated, encoding='utf-8')
