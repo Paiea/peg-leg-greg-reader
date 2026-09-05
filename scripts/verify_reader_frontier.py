@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import html
+import json
 import re
 from pathlib import Path
 
@@ -26,11 +27,15 @@ def discover_published_chapters(root: Path) -> list[int]:
     return numbers
 
 
-def page_h1(text: str) -> str:
-    match = re.search(r'<h1\b[^>]*>(.*?)</h1>', text, re.I | re.S)
+def page_tag_text(text: str, tag: str) -> str:
+    match = re.search(fr'<{tag}\b[^>]*>(.*?)</{tag}>', text, re.I | re.S)
     if not match:
-        raise AssertionError('missing chapter h1')
+        raise AssertionError(f'missing chapter {tag}')
     return html.unescape(re.sub(r'<[^>]+>', '', match.group(1))).strip()
+
+
+def page_h1(text: str) -> str:
+    return page_tag_text(text, 'h1')
 
 
 def verify_reader_frontier(
@@ -123,6 +128,38 @@ def verify_reader_frontier(
     latest_text = latest_page.read_text(encoding='utf-8')
     if f'href="light/{latest:03d}.html"' not in latest_text or f'Read Chapter {latest}' not in latest_text:
         raise AssertionError('Latest landing page is stale')
+    if page_h1(latest_text) != f'Chapter {latest}':
+        raise AssertionError('Latest landing chapter number is stale')
+    if expected_title is not None and page_tag_text(latest_text, 'h2') != expected_title:
+        raise AssertionError('Latest landing title is stale')
+
+    manifest_path = root / 'light' / 'manifest.json'
+    if not manifest_path.is_file():
+        raise AssertionError('missing Text manifest')
+    try:
+        manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+    except (json.JSONDecodeError, OSError) as exc:
+        raise AssertionError('invalid Text manifest') from exc
+    if manifest.get('latest') != latest:
+        raise AssertionError('Text manifest latest field is stale')
+    entries = manifest.get('chapters')
+    if not isinstance(entries, list):
+        raise AssertionError('Text manifest chapters field is invalid')
+    if any(isinstance(entry, dict) and entry.get('number', 0) > latest for entry in entries):
+        raise AssertionError('Text manifest contains chapter beyond published frontier')
+    frontier_entries = [
+        entry for entry in entries
+        if isinstance(entry, dict) and entry.get('number') == latest
+    ]
+    if len(frontier_entries) != 1:
+        raise AssertionError('Text manifest frontier entry is stale')
+    frontier_entry = frontier_entries[0]
+    expected_manifest_title = expected_title if expected_title is not None else page_h1(light_text)
+    if (
+        frontier_entry.get('title') != expected_manifest_title
+        or frontier_entry.get('path') != f'{latest:03d}.html'
+    ):
+        raise AssertionError('Text manifest frontier entry is stale')
 
     return latest
 
