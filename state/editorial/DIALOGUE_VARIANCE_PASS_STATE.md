@@ -49,26 +49,27 @@ Other characters may be funny, dry, clever, sarcastic, or terse. The goal is not
 
 ## Sequential coverage ledger
 
-- Chapters **1–20: VARIANCE REVIEWED**
-- Chapters **21–320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1–25: VARIANCE REVIEWED**
+- Chapters **26–320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321–330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331–352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 21**
+Current sequential variance edge: **Chapter 26**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_016_020.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_021_025.md`
 
 Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_001_005.md`
 - `state/editorial/dialogue-variance-pass/BATCH_006_010.md`
 - `state/editorial/dialogue-variance-pass/BATCH_011_015.md`
 - `state/editorial/dialogue-variance-pass/BATCH_016_020.md`
+- `state/editorial/dialogue-variance-pass/BATCH_021_025.md`
 
 Existing out-of-sequence pilot work:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches remain useful evidence but do not bridge the unreviewed 21–320 gap.
+Those later batches remain useful evidence but do not bridge the unreviewed 26–320 gap.
 
 ## Chapters 1–5 result
 
@@ -101,6 +102,14 @@ Those later batches remain useful evidence but do not bridge the unreviewed 21�
 - Chapter 18 `THE EXPERIMENTER`: **no variance change required**. Hessa's clippedness is experimental method, stopping condition, and evidence control. The chapter also preserves Greg's productive imperfection well.
 - Chapter 19 `THE BYSTANDER`: **strong variance patch required**. The clerk and Edrin too quickly share predictive `No`, face-reading, and polished rebuttal machinery. Shift the clerk toward assignment/custody and Edrin toward ward state, testing, access, and responsibility.
 - Chapter 20 `THE VOLUNTEER`: **moderate variance patch required**. Jorren's best speech remains physical; reduce prediction-based Greg management. Keep Alden searching for usable alternatives and the quartermaster's genuine safety commands.
+
+## Chapters 21–25 result
+
+- Chapter 21 `THE TENANT`: **strong variance patch required**. Octavia's freight cognition is excellent once established, but her entrance is too instantly calibrated to Greg. Shift first-contact precision toward allocation fields, route timing, traffic, and actual freight constraints rather than psychological diagnosis and `No` duels.
+- Chapter 22 `THE TRAINEE`: **light variance patch required**. Dema Rusk's clipped training voice is strongly institutional; reduce one clerk prediction and replace Berren's instant `face` diagnosis with observable classroom behavior.
+- Chapter 23 `THE AIDE`: **light variance patch required**. Ressa's intake triage is strong and the refugee crowd provides valuable conversational mess. Simplify one opening stranger counter and return the post-Holm beat to intake work rather than Hessa-compatible `Happy? / No. / Good.` cadence.
+- Chapter 24 `THE PASSENGER`: **no variance change required**. Rusk, Pellor, the toll clerk, Greg, and Alden are all terse for different reasons. The intact-boat/salvage-timber absurdity is transaction-owned rather than generic house sarcasm.
+- Chapter 25 `THE DEFENDER`: **no variance change required**. Combat pressure naturally creates incomplete, repeated, irritated, physically attached speech. The driver, Cal, Alden, and Greg remain distinct under stress.
 
 ## High-value watch targets
 
@@ -165,6 +174,7 @@ Examples:
 - Hessa names channel cost, body state, or stopping condition.
 - Lara names the axle problem and required help.
 - Edrin names fixed Barrier conditions, seal state, pressure behavior, or access limits.
+- Octavia names timing, exclusivity, route state, traffic, storage, floor damage, cargo class, driver, or horse constraints.
 
 ### 7. Stress modulation
 
@@ -208,7 +218,8 @@ Prefer role-specific evidence when available:
 - Antonius notices Greg is turning a possibility into money;
 - Arlo protects a notebook or test setup;
 - a clerk knows the assignment Greg is trying to re-enter;
-- Edrin knows what Greg tried during the test she administered.
+- Edrin knows what Greg tried during the test she administered;
+- Berren notices Greg stopped writing instead of diagnosing an established `face` after one class.
 
 Do not use universal face-reading as the default proof that a competent adult understands Greg.
 
@@ -218,9 +229,29 @@ Useful discriminators:
 - clerk: assignment, custody, schedule, contract;
 - Edrin: seal state, access, test condition, ward responsibility;
 - quartermaster: people out, sacks moved, roof danger;
-- Jorren: feet, distance, fatigue, usable ground.
+- Jorren: feet, distance, fatigue, usable ground;
+- Octavia: timing, allocation, route, cargo, drivers, horses, traffic;
+- Ressa: need first, intake destination, firsthand report, crowd flow.
 
 If all of them instead predict Greg's question and answer with the same joke, the role has disappeared beneath house voice.
+
+### 13. Relationship calibration should have a ramp
+
+A recurring character may eventually learn Greg's tells and conversational timing. First contact should usually begin with the role, request, shared task, or ordinary social uncertainty.
+
+When a stranger immediately diagnoses Greg's psychology, predicts his next question, and knows how to beat his semantic framing, check whether the manuscript has skipped the relationship-development step.
+
+### 14. Crowd mess is useful voice ecology
+
+Do not over-clean crowd and witness speech. Vague landmarks, irrelevant family details, secondhand rumor, frightened repetition, wrong answers, and practical needs competing with information gathering make the world sound populated by people rather than optimized dialogue agents.
+
+Chapter 23 is a positive reference.
+
+### 15. Stress can create variance without speech gimmicks
+
+Chapter 25 is a positive reference. Combat narrows language naturally through urgency, repetition, incomplete commands, profession-specific answers, adrenaline, and misunderstanding.
+
+Do not polish those scenes into elegant tactical banter merely because every sentence can be made cleaner.
 
 ## Guardrails
 
@@ -252,11 +283,11 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 21**.
+Resume sequentially at **Chapter 26**.
 
 Preferred bounded queue: **5 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 21–25**.
+Next intended batch: **Chapters 26–30**.
 
 ## Restart prompt
 
