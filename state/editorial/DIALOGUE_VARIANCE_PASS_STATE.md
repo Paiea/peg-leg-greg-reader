@@ -30,14 +30,14 @@ Greg remains the gravitational center of short dry compressed comic reduction. O
 
 ## Sequential coverage ledger
 
-- Chapters **1-130: VARIANCE REVIEWED**
-- Chapters **131-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-135: VARIANCE REVIEWED**
+- Chapters **136-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 131**
+Current sequential variance edge: **Chapter 136**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_126_130.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_131_135.md`
 
 ## Sequential batch authority
 
@@ -69,6 +69,7 @@ Exact chapter-level findings and replacement prose are preserved in:
 - `BATCH_116_120.md`
 - `BATCH_121_125.md`
 - `BATCH_126_130.md`
+- `BATCH_131_135.md`
 
 All paths above are under `state/editorial/dialogue-variance-pass/`.
 
@@ -76,15 +77,15 @@ Existing out-of-sequence pilot evidence remains:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches do not bridge the unreviewed 131-320 gap.
+Those later batches do not bridge the unreviewed 136-320 gap.
 
-## Chapters 126-130 result
+## Chapters 131-135 result
 
-- Chapter 126 `THE OLD ROAD`: **no variance change required**. Sevren stays current-route-owned while Greg's accurate old-road knowledge remains stale rather than magically wrong; the north invitation is deliberately conditional on load, road, duration, and cart fit.
-- Chapter 127 `THE REPEAT`: **light variance patch required**. Hessa's replication/self-audit logic is strong; replace one generic `your face did` beat with the actual phase boundary that the observed thread movement occurred during shaping, not REACH.
-- Chapter 128 `THE MESSENGER`: **light variance patch required**. Theatre ecology remains strong; replace one Teren `No / you are about to` prediction with direct deferral of the raised-board problem: `Leave the board` / `Then later.`
-- Chapter 129 `THE LIMIT`: **no variance change required**. Hessa parks a noisy apparatus because Greg's safe attempts are finite, calls the changed-direction failure at its exact scope, and does not convert stopping the thread test into a negative magical conclusion.
-- Chapter 130 `THE EXTRA`: **light variance patch required**. Theatre voices remain messy and local; replace one servant-actor inference of `Hessa` from Greg's generic face with the observable fact that Greg visibly hates the word `testing`.
+- Chapter 131 `THE DIRECTION`: **no variance change required**. Hessa stays evidence-bound and procedural; theatre knowledge is explicitly sourced through gossip, while test language distinguishes region, destination, direction, internal report, and external effect.
+- Chapter 132 `THE HOUR`: **no variance change required**. Lyssa's independent work schedule, commercial choices, concrete exclusion boundaries, and ugly-but-functional strap repair keep her relationship voice distinct. Preserve the lodging-keeper female-pronoun correction from attribution authority.
+- Chapter 133 `THE OTHER WAY`: **moderate variance patch required**. The opposite-direction assessment is strong; replace two hidden-process diagnoses with direct reporting rules and the explicit no-magic-day boundary.
+- Chapter 134 `THE VOICE`: **no variance change required**. Acting legitimately uses gaze, faces, timing, attention, and partner response as evidence; messy notes such as `less`, `too grand`, and `don't sell it` are productive professional imperfection. Preserve the lodging-keeper female-pronoun correction from attribution authority.
+- Chapter 135 `THE REPEAT`: **light variance patch required**. The bounded directional upgrade is strong; replace one `you are designing` exchange with direct ownership of the next assessment. Keep Hessa's later wrong guess about voice work affecting Greg's arm as useful fallibility.
 
 ## High-value watch targets
 
@@ -132,6 +133,10 @@ Those later batches do not bridge the unreviewed 131-320 gap.
 - Imperfect art may stop at `works for the scene` where engineering would continue.
 - Deferred maintenance can be character-specific dialogue when the current protected object outranks the repair.
 - A failed apparatus can still produce good evidence. Parking an instrument is not the same as disproving the phenomenon.
+- Social knowledge is safer when provenance stays ordinary and legible: gossip, public work, visible objects, or shared history.
+- Technical rules should usually be stated as rules rather than as proof the expert knows Greg privately considered breaking them.
+- Schedule and assessment ownership can replace mental-process policing.
+- Performance scenes may legitimately spend more attention on faces and reactions because attention itself is part of the craft evidence.
 - No-change chapters are positive evidence. Do not patch to meet quota.
 
 ## Guardrails
@@ -164,11 +169,11 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 131**.
+Resume sequentially at **Chapter 136**.
 
 Preferred bounded queue: **5 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 131-135**.
+Next intended batch: **Chapters 136-140**.
 
 ## Restart prompt
 
