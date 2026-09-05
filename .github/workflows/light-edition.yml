@@ -55,6 +55,8 @@ jobs:
           python-version: '3.12'
       - name: Prepare reader presentation CSS
         run: python scripts/update_reader_presentation.py assets/reader.css
+      - name: Prepare book-first homepage source
+        run: python scripts/update_home_contents.py
       - name: Test reader tooling
         run: python -m unittest discover -s tests -p 'test_*.py'
       - name: Generate recovered Light range
@@ -79,9 +81,18 @@ jobs:
           test -f light/manifest.json
           test -f latest.html
           test -f chapters/321.html
-          ! grep -R '<img' light/*.html
-          ! grep -R 'Peg_Leg_Greg_Running_Manuscript.md' light/*.html
-          ! grep -R 'Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md' light/*.html
+          if grep -R '<img' light/*.html; then
+            echo 'image markup leaked into Text Reader'
+            exit 1
+          fi
+          if grep -R 'Peg_Leg_Greg_Running_Manuscript.md' light/*.html; then
+            echo 'running-manuscript path leaked into Text Reader'
+            exit 1
+          fi
+          if grep -R 'Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md' light/*.html; then
+            echo 'recovered-manuscript path leaked into Text Reader'
+            exit 1
+          fi
           grep -q 'href="220.html"' light/219.html
           grep -q 'href="219.html"' light/220.html
           grep -q 'href="light/index.html">Text Reader</a>' index.html
@@ -109,10 +120,22 @@ jobs:
           grep -q 'Illustrated Reader' light/index.html
           grep -q 'TEXT READER · CHAPTER 220' light/220.html
           grep -q 'Text-only reading · no chapter illustrations' light/220.html
-          ! grep -R '#chapters' light/*.html light.html latest.html index.html
-          ! grep -R 'Light Edition' light/*.html light.html latest.html index.html
-          ! grep -R '>LIGHT<' light/*.html light.html latest.html index.html
-          ! grep -R '>Read Light<' light/*.html light.html latest.html index.html
+          if grep -R '#chapters' light/*.html light.html latest.html index.html; then
+            echo 'stale #chapters anchor detected'
+            exit 1
+          fi
+          if grep -R 'Light Edition' light/*.html light.html latest.html index.html; then
+            echo 'stale Light Edition label detected'
+            exit 1
+          fi
+          if grep -R '>LIGHT<' light/*.html light.html latest.html index.html; then
+            echo 'stale LIGHT navigation label detected'
+            exit 1
+          fi
+          if grep -R '>Read Light<' light/*.html light.html latest.html index.html; then
+            echo 'stale Read Light label detected'
+            exit 1
+          fi
           grep -q 'READER ACT CONTENTS + DESKTOP ART CAPS' assets/reader.css
           git diff --check
       - name: Commit generated reader presentation derivatives
