@@ -12,8 +12,12 @@ on:
       - 'state/LIGHT_EDITION_STATE.md'
       - 'state/PROJECT_STATE.md'
       - 'state/READER_DESIGN_LAB.md'
+      - 'state/DIALOGUE_VARIANCE_ENGINE.md'
+      - 'state/editorial/DIALOGUE_VARIANCE_PASS_STATE.md'
+      - 'state/editorial/dialogue-variance-pass/**'
       - 'chapters/*.html'
       - 'index.html'
+      - 'scripts/apply_dialogue_variance.py'
       - 'scripts/generate_light.py'
       - 'scripts/generate_illustrated.py'
       - 'scripts/reader_sections.py'
@@ -57,6 +61,8 @@ jobs:
         run: python scripts/update_reader_presentation.py assets/reader.css
       - name: Prepare book-first homepage source
         run: python scripts/update_home_contents.py
+      - name: Apply completed dialogue variance
+        run: python scripts/apply_dialogue_variance.py
       - name: Test reader tooling
         run: python -m unittest discover -s tests -p 'test_*.py'
       - name: Generate recovered Light range
@@ -74,6 +80,7 @@ jobs:
           python scripts/verify_light.py 156-219
           python scripts/verify_light.py current
           python scripts/verify_reader_frontier.py
+          python scripts/apply_dialogue_variance.py --check
           test -f light/156.html
           test -f light/219.html
           test -f light/220.html
