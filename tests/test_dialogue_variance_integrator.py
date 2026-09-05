@@ -1,4 +1,5 @@
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -100,6 +101,70 @@ Reason: test
         self.assertIn('<p>B.</p>', changed)
         self.assertIn('<p>Replacement.</p>', changed)
         self.assertNotIn('<p>C.</p>', changed)
+
+    def _write_batch(self, root: Path, start: int, end: int, body: str = '') -> Path:
+        path = root / f'BATCH_{start:03d}_{end:03d}.md'
+        path.write_text(body, encoding='utf-8')
+        return path
+
+    def test_batch_contract_requires_sequential_coverage_to_start_at_one(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            batches = [self._write_batch(root, 6, 10)]
+            with self.assertRaisesRegex(AssertionError, 'start at Chapter 1'):
+                adv.validate_batch_contract(11, batches)
+
+    def test_batch_contract_rejects_gaps_before_reviewed_edge(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            batches = [self._write_batch(root, 1, 5), self._write_batch(root, 11, 15)]
+            with self.assertRaisesRegex(AssertionError, 'gap'):
+                adv.validate_batch_contract(16, batches)
+
+    def test_batch_contract_rejects_overlapping_ranges(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            batches = [self._write_batch(root, 1, 5), self._write_batch(root, 5, 10)]
+            with self.assertRaisesRegex(AssertionError, 'overlap'):
+                adv.validate_batch_contract(11, batches)
+
+    def test_batch_contract_rejects_patch_chapter_outside_filename_range(self):
+        note = '''## Chapter 6 — THE WRONG RANGE
+### Patch 6.V1 — example
+Current:
+`"Old."`
+Replace with:
+`"New."`
+Reason: test
+'''
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            batches = [self._write_batch(root, 1, 5, note)]
+            with self.assertRaisesRegex(AssertionError, 'outside batch range'):
+                adv.validate_batch_contract(6, batches)
+
+    def test_batch_contract_rejects_duplicate_patch_ids(self):
+        first = '''## Chapter 1 — ONE
+### Patch SHARED.V1 — example
+Current:
+`"Old one."`
+Replace with:
+`"New one."`
+Reason: test
+'''
+        second = '''## Chapter 2 — TWO
+### Patch SHARED.V1 — example
+Current:
+`"Old two."`
+Replace with:
+`"New two."`
+Reason: test
+'''
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            batches = [self._write_batch(root, 1, 1, first), self._write_batch(root, 2, 2, second)]
+            with self.assertRaisesRegex(AssertionError, 'duplicate patch id'):
+                adv.validate_batch_contract(3, batches)
 
 
 if __name__ == '__main__':
