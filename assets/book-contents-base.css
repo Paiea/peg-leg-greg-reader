@@ -1,92 +1,60 @@
-/* BOOK / ACT CONTENTS — intentionally small, print-like, and component-scoped. */
+/* BOOK / ACT CONTENTS — book-first navigation for a long serial. */
 .reader-book {
-  margin: 0 0 clamp(3.5rem, 8vw, 5.5rem);
+  margin: 0 0 .85rem;
+  border: 1px solid color-mix(in srgb, var(--line) 78%, transparent);
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--paper) 96%, var(--ink) 4%);
+  overflow: clip;
 }
 
-.reader-book + .reader-book {
-  padding-top: clamp(1.75rem, 4vw, 3rem);
-  border-top: 1px solid var(--line);
-}
+.reader-book + .reader-book { margin-top: .85rem; }
 
-.reader-book-layout--illustrated {
+.reader-book-summary {
   display: grid;
-  grid-template-columns: minmax(150px, 200px) minmax(0, 1fr);
-  gap: clamp(1.75rem, 4vw, 3.25rem);
-  align-items: start;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: .6rem 1rem;
+  align-items: center;
+  padding: 1rem 1.15rem;
+  cursor: pointer;
+  list-style: none;
 }
-
-.reader-book-plate {
-  width: 100%;
-  max-width: 200px;
-  margin: 0;
-}
-
-.reader-book-card-link {
-  display: block;
-  border-radius: 9px;
-  outline-offset: 4px;
-}
-
-.reader-book-card-link:focus-visible {
-  outline: 2px solid currentColor;
-}
-
-.reader-book-heading {
-  margin: 0 0 1.15rem;
-}
+.reader-book-summary::-webkit-details-marker { display: none; }
+.reader-book-summary::after { content: '+'; color: var(--muted); font: 700 1.1rem/1 ui-sans-serif, system-ui, sans-serif; }
+.reader-book[open] > .reader-book-summary::after { content: '−'; }
+.reader-book-summary:focus-visible { outline: 2px solid currentColor; outline-offset: -4px; }
 
 .reader-book-title {
-  margin: 0;
   color: var(--muted);
-  font: 750 .72rem/1.35 ui-sans-serif, system-ui, sans-serif;
+  font: 800 .78rem/1.35 ui-sans-serif, system-ui, sans-serif;
   letter-spacing: .19em;
   text-transform: uppercase;
 }
+.reader-book-range { color: var(--muted); font-size: .82rem; line-height: 1.4; }
 
-.reader-book-range {
-  margin: .3rem 0 0;
-  color: var(--muted);
-  font-size: .88rem;
-  line-height: 1.4;
+.reader-book-layout { padding: 0 1.15rem 1.15rem; }
+.reader-book-layout--illustrated {
+  display: grid;
+  grid-template-columns: minmax(150px, 200px) minmax(0, 1fr);
+  gap: clamp(1.4rem, 3vw, 2.5rem);
+  align-items: start;
 }
-
-.reader-book-acts .reader-act:first-child {
-  border-top-color: color-mix(in srgb, var(--line) 70%, transparent);
-}
-
-.light-ranges .reader-book {
-  margin-bottom: clamp(2.75rem, 7vw, 4.5rem);
-}
+.reader-book-plate { width: 100%; max-width: 200px; margin: 0; }
+.reader-book-card-link { display: block; border-radius: 9px; outline-offset: 4px; }
+.reader-book-card-link:focus-visible { outline: 2px solid currentColor; }
+.reader-book-acts { min-width: 0; }
+.reader-book-acts .reader-act:first-child { border-top-color: color-mix(in srgb, var(--line) 70%, transparent); }
+.light-ranges .reader-book { margin-bottom: .85rem; }
 
 @media (max-width: 700px) {
+  .reader-book-summary { padding: .9rem 1rem; }
+  .reader-book-layout { padding: 0 1rem 1rem; }
   .reader-book-layout--illustrated {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(88px, 112px);
-    grid-template-areas:
-      "heading plate"
-      "acts acts";
-    gap: 1rem 1.15rem;
+    grid-template-columns: minmax(0, 1fr) minmax(76px, 96px);
+    grid-template-areas: "acts plate";
+    gap: .85rem;
     align-items: start;
   }
-
-  .reader-book-layout--illustrated .reader-book-heading {
-    grid-area: heading;
-    align-self: center;
-    margin: 0;
-  }
-
-  .reader-book-layout--illustrated .reader-book-plate {
-    grid-area: plate;
-    width: 100%;
-    max-width: 112px;
-    margin: 0 0 .4rem auto;
-  }
-
-  .reader-book-layout--illustrated .reader-book-acts {
-    grid-area: acts;
-  }
-
-  .reader-book-heading {
-    margin-bottom: .95rem;
-  }
+  .reader-book-layout--illustrated .reader-book-plate { grid-area: plate; max-width: 96px; margin: .3rem 0 0 auto; }
+  .reader-book-layout--illustrated .reader-book-acts { grid-area: acts; }
+  .reader-book-range { font-size: .76rem; }
 }
