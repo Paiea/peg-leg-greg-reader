@@ -30,14 +30,14 @@ Greg remains the gravitational center of short dry compressed comic reduction. O
 
 ## Sequential coverage ledger
 
-- Chapters **1-135: VARIANCE REVIEWED**
-- Chapters **136-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-145: VARIANCE REVIEWED**
+- Chapters **146-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 136**
+Current sequential variance edge: **Chapter 146**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_131_135.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_136_145.md`
 
 ## Sequential batch authority
 
@@ -70,6 +70,7 @@ Exact chapter-level findings and replacement prose are preserved in:
 - `BATCH_121_125.md`
 - `BATCH_126_130.md`
 - `BATCH_131_135.md`
+- `BATCH_136_145.md`
 
 All paths above are under `state/editorial/dialogue-variance-pass/`.
 
@@ -77,15 +78,20 @@ Existing out-of-sequence pilot evidence remains:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches do not bridge the unreviewed 136-320 gap.
+Those later batches do not bridge the unreviewed 146-320 gap.
 
-## Chapters 131-135 result
+## Chapters 136-145 result
 
-- Chapter 131 `THE DIRECTION`: **no variance change required**. Hessa stays evidence-bound and procedural; theatre knowledge is explicitly sourced through gossip, while test language distinguishes region, destination, direction, internal report, and external effect.
-- Chapter 132 `THE HOUR`: **no variance change required**. Lyssa's independent work schedule, commercial choices, concrete exclusion boundaries, and ugly-but-functional strap repair keep her relationship voice distinct. Preserve the lodging-keeper female-pronoun correction from attribution authority.
-- Chapter 133 `THE OTHER WAY`: **moderate variance patch required**. The opposite-direction assessment is strong; replace two hidden-process diagnoses with direct reporting rules and the explicit no-magic-day boundary.
-- Chapter 134 `THE VOICE`: **no variance change required**. Acting legitimately uses gaze, faces, timing, attention, and partner response as evidence; messy notes such as `less`, `too grand`, and `don't sell it` are productive professional imperfection. Preserve the lodging-keeper female-pronoun correction from attribution authority.
-- Chapter 135 `THE REPEAT`: **light variance patch required**. The bounded directional upgrade is strong; replace one `you are designing` exchange with direct ownership of the next assessment. Keep Hessa's later wrong guess about voice work affecting Greg's arm as useful fallibility.
+- Chapter 136 `THE OLD VOICE`: **no variance change required**. The servant actor's bad metaphors, rehearsal woman's subjective notes, and Teren's tiny corrections all remain useful because performance is learned through imperfect partner feedback rather than perfect theory. Preserve lodging-keeper female-pronoun corrections from attribution authority.
+- Chapter 137 `THE SHAPE`: **no variance change required**. Hessa's neutral-shape assessment stays geometry- and reporting-owned; longer technical explanations are healthy when the distinction matters.
+- Chapter 138 `THE SHOPKEEPER`: **no variance change required**. Live performance naturally disrupts optimized dialogue; Greg owns the sharpest improvised reduction register while actors adapt to audience and partner changes. Preserve the unresolved earlier-female-soot-shirt versus later-Davin identity distinction.
+- Chapter 139 `THE BASELINE`: **no variance change required**. Hessa lets stronger baseline information weaken prior success and keeps timing, apparatus, and travel authority within observable or professional bounds.
+- Chapter 140 `THE TRAVELER`: **light variance patch required**. Lyssa's broader relationship inference is evidence-backed, but replace one fountain-boy `you're about to solve it / you have that face` routine with direct instruction to leave the visibly watched courier alone.
+- Chapter 141 `THE PACKER`: **no variance change required**. Packing, food, socks, cloth, and loose rehearsal notes give Lyssa an affectionate, practical, socially intuitive register distinct from Greg.
+- Chapter 142 `THE PASSENGER`: **no variance change required**. Fatigue, cramped wagon space, road pressure, incomplete answers, and background absurdity create natural conversational variance.
+- Chapter 143 `THE STOP`: **no variance change required**. Naming reduces attribution load; Davin's rope instruction ends when the task is usable, while Teren's pay discussion broadens under real operating pressure.
+- Chapter 144 `THE STABLE`: **no variance change required**. Stable, costume, sleeping, and hall problems remain distributed and imperfect; misidentification and incomplete explanations are productive social texture.
+- Chapter 145 `THE ARRIVAL`: **no variance change required**. Tour authority stays distributed across Teren, Davin, Nessa, Rinna, Pell, Marek, and others; work repeatedly interrupts Greg's demand for full explanation.
 
 ## High-value watch targets
 
@@ -112,7 +118,7 @@ Those later batches do not bridge the unreviewed 136-320 gap.
 - A prediction can often become an instruction without losing the joke.
 - Test attention is procedure, not personality. Control gaze/setup/sequence directly when those variables matter.
 - Expectation control should regulate setup, sequence, target, phase, or interpretation rather than narrating Greg's internal optimization.
-- Phase boundaries can replace personality policing: `that happened during shape` is often stronger than `your face is interpreting again`.
+- Phase boundaries can replace personality policing.
 - Apparatus changes can replace personality commentary.
 - A specialist's stopping condition should come from what they protect.
 - Professional self-limitation is voice.
@@ -137,6 +143,11 @@ Those later batches do not bridge the unreviewed 136-320 gap.
 - Technical rules should usually be stated as rules rather than as proof the expert knows Greg privately considered breaking them.
 - Schedule and assessment ownership can replace mental-process policing.
 - Performance scenes may legitimately spend more attention on faces and reactions because attention itself is part of the craft evidence.
+- Travel pressure naturally creates variance through fatigue, cramped space, missing information, moving work, meals, ropes, costumes, horses, and bad roads.
+- Bad metaphors can be useful when they belong to the speaker. Partial, weird images may differentiate a character better than precise analysis.
+- Naming can reduce attribution load without increasing exposition.
+- Relationship inference is strongest when the evidence can be listed.
+- Work can interrupt explanation. A knot, needle, wagon, costume, or horse may end a conversation before anyone reaches a polished conclusion.
 - No-change chapters are positive evidence. Do not patch to meet quota.
 
 ## Guardrails
@@ -169,12 +180,12 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 136**.
+Resume sequentially at **Chapter 146**.
 
-Preferred bounded queue: **5 chapters per batch** unless exact complexity justifies a smaller batch.
+Preferred bounded queue: **10 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 136-140**.
+Next intended batch: **Chapters 146-155**.
 
 ## Restart prompt
 
-`Continue PLG whole-manuscript dialogue + attribution pass from current GitHub authority on editor/voice-compression-pass, using the dialogue variance engine. Treat state/editorial/DIALOGUE_VARIANCE_PASS_STATE.md as the sequential authority and continue from its current edge in bounded 5-chapter batches.`
+`Continue PLG whole-manuscript dialogue + attribution pass from current GitHub authority on editor/voice-compression-pass, using the dialogue variance engine. Treat state/editorial/DIALOGUE_VARIANCE_PASS_STATE.md as the sequential authority and continue from its current edge in bounded 10-chapter batches.`
