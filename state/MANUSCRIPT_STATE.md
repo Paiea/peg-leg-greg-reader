@@ -1,10 +1,10 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 345 - **THE BENCH**.
+- Current exact story endpoint: Chapter 346 - **THE PASSING POINT**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249-345 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249-346 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500-4,000 words and clear 2,500 unless explicitly changed.
@@ -15,157 +15,162 @@
 - Apply economy, rhythm/artifact, market-intelligence, and pricing continuity when relevant.
 
 ## Current direction
-- Ch345 deliberately spends money on bounded artifact information. Greg pays Mara's previously quoted 2c simple controlled holdfast observation now that doing so leaves a 3c reserve.
-- The holdfast produces a real but narrow new behavior under controlled conditions. The chapter does NOT identify exact function, certify safe use, open housing, apply load, or turn Mara into universal appraiser.
-- Information narrows hypotheses instead of solving object. Greg learns that a small ring movement produces an internal click plus a localized bench-boundary response without visible base movement.
-- Next meaningful holdfast question likely requires **fixture context**, creating a higher technical/economic tier rather than endless cheap bench checks.
+- Ch346 returns to Hessa after enough non-magic space and addresses the preserved question from Ch340: **Greg moving + external effect on a stationary target**.
+- The result is intentionally narrow. Greg does NOT gain general moving-caster competence.
+- He produces two clean-enough small supervised near-range external effects on a stationary target while moving through a familiar walking route, out of 12 counted external-effect attempts.
+- Hessa immediately stops after bounded success and refuses to multiply axes into distance/speed/other geometry in same session.
+- Holdfast result from Ch345 is mentioned only as context and is not combined with magic practice.
 
 ## Money / capital
-- Greg begins Ch345 with **5 private copper + 0 bits**.
-- Pays Mara exactly **2c** for simple controlled closed-housing bench observation.
-- Ends Ch345 with **3 private copper + 0 bits**.
-- Vale principal-equivalent debt remains **26c**. No payment/credit change.
-- No new income.
-- No copper/bit conversion established.
-- Spending is framed as deliberate information purchase after reserve improved, not automatic artifact compulsion.
+- Greg remains **3 private copper + 0 bits** throughout Ch346.
+- Vale principal-equivalent debt remains **26c**.
+- No income, spending, payment, debt credit, or price change.
 
-## Holdfast transport / household logistics
-- Holdfast remains awkward to transport with two crutches. It does not fit shoulder bag comfortably.
-- Greg uses shallow household market basket lined with folded cloth, holdfast flat/wrapped, handles loosely tied, basket rigged by short cord to shoulder-bag strap against right hip.
-- Lyssa suggests basket but does not accompany him. Mara later carries basket from public table into work court as part of paid service.
-- No drop, impact, accidental activation, or household damage.
+## Hessa / South Walk session
+- Hessa appears in person at breakfast rather than sending note and takes Greg to South Walk.
+- Greg brings no artifacts. No oval, holdfast, or rest stone.
+- Body check: right leg fine, left knee fine, shoulders/hands fine, sleep adequate, no independent magic since prior session.
+- Hessa uses narrow walking lane with three chalk lines and one stationary bead suspended at shoulder height beside middle line.
 
-## Mara simple controlled observation
-- Service remains exactly 2c because scope is simple.
-- Work strip scope: `HOLDFAST / CLOSED HOUSING / CONTROLLED BENCH OBSERVATION / NO LOAD CERT / NO OPENING / OWNER PRESENT`.
-- Owner-present notation means Mara does not take custody.
-- Work occurs in ordinary Registry Row work court with open roof slats/stone floor/three benches; other workers present but not involved.
-- Mara's bench has thick wood top and pale stone inset/`bench plate` with thin gray edge line.
-- Bench plate gives known surface and can indicate when **gross force/response leaves plate boundary** by edge-line change. It does NOT measure magnitude or identify source. Which edge reacts first can sometimes provide rough directional clue, not formal measurement.
-- Do not upgrade bench plate into scanner/appraisal device.
+### Walking calibration / minimal draws
+- Three initial walking passes with no mana.
+- Greg identifies easiest stable phases **today** as both-crutch plant, then right-foot contact.
+- Exactly **6 supervised minimal draws while walking**:
+  - first two clean during both-crutch plant;
+  - third smeared during swing;
+  - fourth clean enough after right-foot contact;
+  - fifth broke early during transition;
+  - sixth held better than fifth but not clean.
+- Minimal total moves **47 -> 53**.
+- No new deliberate-shaping attempts are counted in Ch346. Deliberate shaping remains **53**.
 
-## Holdfast Ch345 exact observations
-- Holdfast begins closed, unactivated, ring sideways, base flat on pale bench plate, surrounded by four small wooden reference blocks not touching it.
-- At rest: no visible response on plate; no movement.
-- Mara uses long non-magical wooden forked rod to rotate ring from outside hand reach.
-- Planned limit: stop at first response or 1/8 turn, whichever comes first.
-- Ring moves **less than 1/8 turn**, gives dry internal scrape then **one internal click**.
-- Mara stops immediately.
-- Bench plate gray edge line darkens only on **near-right section**, then fades after stop.
-- Holdfast base does **not visibly shift** against reference blocks.
-- After response, Mara places known loose items near but not touching holdfast at several observed positions: plain iron washer, rope end, wooden peg, flat iron strip. None visibly move in those observed positions.
-- This does NOT establish broad non-attraction/non-response for those materials under all states.
-- Mara returns ring approximately to original sideways position with forked rod. Dry scrape; **no second click/edge response observed** on return.
-- No load applied. Housing not opened. No direct hand activation.
-- Do NOT infer one-way mechanism, force direction, anchoring target, attachment mode, material preference, safe surface, safe load, or exact function.
+### Moving Greg + stationary target external effects
+- Stationary bead in cloth loop, no lower guide thread because target itself is not moving and visible swing response is acceptable.
+- Task: small one-grain-ish near-range effect toward Greg while Greg continues walking familiar route past bead.
+- Hessa first requires three no-cast passes to prevent immediate result chasing.
+- Exactly **12 counted supervised external-effect attempts**:
+  - 1: too early, no effect.
+  - 2: late/contact-ish twitch after Greg passes.
+  - 3: Greg aborts before push when shaping feels wrong; still counts as attempt.
+  - 4: bead moves tiny amount while Greg is moving, but effect is not clean because Greg chases with shoulder/late correction.
+  - 5: no effect.
+  - 6: no effect, though shaping remains cleaner through transition; Hessa explicitly separates shaping quality from external success.
+  - Greg skips one bad-timing pass with no draw; skip does NOT count.
+  - 7 actual: clean-enough tiny movement while moving, no late correction.
+  - 8: fails because Greg tries to repeat prior success.
+  - 9: no effect.
+  - 10: contact/not clean, late relative to route.
+  - 11: no effect.
+  - 12: clean small movement, better than attempt 7 but still tiny/near/stationary-target/supervised.
+- External-effect total moves **103 -> 115**.
 
-## Holdfast observation record
-Mara's signed/stamped work strip states:
-- `CLOSED HOUSING / VISUAL ONLY BEFORE MOVEMENT`
-- `RING MOVED LESS THAN 1/8 TURN TO FIRST INTERNAL CLICK`
-- `BENCH EDGE RESPONSE: NEAR-RIGHT SECTION DARKENED / FADED AFTER STOP`
-- `NO VISIBLE BASE SHIFT AGAINST REFERENCE BLOCKS`
-- `NO VISIBLE MOVEMENT OF LOOSE WASHER / ROPE END / WOOD PEG / IRON STRIP IN OBSERVED POSITIONS AFTER RESPONSE`
-- `RING RETURNED APPROX ORIGINAL SIDE POSITION / NO SECOND EDGE RESPONSE OBSERVED`
-- `NO LOAD APPLIED`
-- `NO HOUSING OPENED`
-- `NO FUNCTION / SAFE USE / CONDITION CERTIFIED`
-- Greg signs owner line agreeing observation record; Mara signs provider line/stamps work mark. This is NOT registration/certification.
+## Magic result / protected limits
+- Established only: Greg can **sometimes** produce a small supervised near-range external effect on a stationary target while moving through a familiar walking route.
+- Two clean-enough results out of 12 counted attempts.
+- Do NOT generalize to combat casting, fast movement, running, broad moving-caster competence, moving target while moving caster, range growth, larger magnitude, independent practice, unfamiliar routes, or reliable repeatability.
+- Hessa rejects Greg's broad statement `So now I can cast while moving.`
+- Greg's bounded formulation is accepted.
+- Result greed remains active; Hessa stops session immediately rather than chasing repetition.
 
-## Mara bounded interpretation / next tier
-- Mara allows possibilities including internal movement, force into bench, lateral component, housing-distortion asymmetry, ring-position dependence, etc., without selecting one.
-- She explicitly says safe load, safe surface, intended fixture, intended attachment, rated direction, service condition, and release behavior remain unestablished.
-- Her practical instruction remains: **do not use it**.
-- Asked next useful observation, Mara says **fixture context**.
-- Reason: something called a holdfast producing boundary response when ring moves tells less on a loose bench than mounted in family-expected context.
-- Mara does NOT know exact fixture configuration yet.
-- She might be able to determine safe fixture-context work, but **not for 2c** and gives no price because she must first determine whether she can do it safely and whether another specialist is needed.
-- Opening housing might help or might worsen old equipment, especially given distorted seam; no opening scheduled.
+## New gait/timing observation
+- Clean external results in Ch346 occurred **later in Greg's pass** than the easiest shaping/stable-contact phase observed earlier that same day.
+- This is only a today's pattern, not mechanism.
+- Possible explanations remain open: target-timing geometry, body-transition relation, visual timing, randomness, etc.
+- Hessa explicitly says not to ask why before knowing whether pattern repeats.
+- Greg records: `TODAY: CLEAN EXTERNAL RESULTS OCCURRED LATER IN PASS THAN EASIEST SHAPING PHASE`.
 
-## Greg artifact behavior
-- Greg almost asks Mara about rest stone during same visit but deliberately stops. One paid question does not become every artifact he owns.
-- Rest stone remains home/boxed/unopened/untested.
-- Oval remains uninvolved.
-- Holdfast returns home, high shelf, wrapped, ring sideways, out of Tavi reach.
-- Greg's Ch345 narrow-scrap notes:
-  - `HOLDFAST BENCH / 2 C`
-  - `<1/8 RING TURN -> INTERNAL CLICK`
-  - `BENCH EDGE RESPONSE NEAR-RIGHT`
-  - `NO VISIBLE BASE SHIFT`
-  - `RETURN TO SIDE POSITION -> NO SECOND RESPONSE`
-  - `NO LOAD / NO OPEN / NO FUNCTION`
-  - `NEXT USEFUL QUESTION MAY REQUIRE FIXTURE CONTEXT`
-  - `3 C CASH / 26 C VALE`
+## Future magic axes
+- After magic stops, Hessa has Greg walk past bead at different lateral distances and different speeds **without casting**.
+- Purpose is to expose how those axes also alter route geometry/target timing.
+- Possible next future axis: distance **or** speed, not both, and possibly neither depending next session.
+- No distance/speed external-effect test occurs in Ch346.
 
-## Information-market principle
-- Ch345 reinforces that paying for good artifact information can legitimately produce **less certainty**, because unsupported explanations are eliminated/narrowed.
-- Greg line to Lyssa: `Because yesterday I could make up ten explanations. Today six of them are worse.`
-- Do not turn this into universal epistemology speech every chapter. It is current artifact-learning progression.
+## Magic totals
+- Current exact totals after Ch346: **53 supervised minimal draws / 53 supervised deliberate shaping attempts / 115 supervised external-effect attempts**.
+- No independent practice.
+- Hessa restrictions remain in force.
 
-## Registry Row texture
-- Work court is ordinary professional space, not secret vault.
-- Other workers: one sorting ceramic disks into felt-lined trays; one measuring brass tube with black thread. No names/roles/functions established.
-- Outside, Greg sees woman arguing maker mark, courier with three sealed boxes/red route tag, man in blue work sleeves carrying seven-tined fork-like object. These are texture only, not hooks unless later earned.
+## Holdfast continuity
+- Greg briefly tells Hessa the bounded Ch345 result: <1/8 ring turn, internal click, bench-edge response, no visible base shift, no exact function.
+- Hessa's only instruction: do not combine holdfast/artifact work with magic practice.
+- Holdfast remains home on high shelf, wrapped, ring sideways, unactivated since Mara bench observation.
+- Fixture-context investigation remains future higher-tier question, no quote.
 
-## Greg / body / equipment
+## Artifact continuity
+- Rest stone K-14-6 remains boxed/unopened/untested.
+- Oval remains home/uninvolved.
+- No artifact acquisition/appraisal/sale/test in Ch346.
+
+## Long-mile residue
+- Public board at South Walk now states:
+  - `NORTH SECONDARY`
+  - `DAY PASSAGE REOPENED UNDER MARKED ROUTE`
+  - `NIGHT CLOSURE REMAINS`
+  - `REVIEW CONTINUES`
+- This is a material status change from full closure.
+- Greg reads once and does not volunteer to return north or inspect it.
+- Long-mile cause/mechanism/current duration remain unresolved.
+
+## Greg / body / household
 - Greg nineteen, Bronze, Carrow. Permanent LEFT BKA, knee preserved; right leg intact; two crutches.
-- Transport awkward but manageable via basket/strap. No injury/fall/equipment damage.
-- No Greg magic attempt.
+- No fall/injury/equipment damage.
+- Household debrief remains grounded: Lyssa asks falls/success count; Cala asks paid/spent; Tavi asks if Greg can move spoons while walking and Greg refuses.
+- Greg's answer to `Is that good?` is `It is real.`
 
-## Magic continuity
-- Totals remain **47 supervised minimal draws / 53 supervised deliberate shaping attempts / 103 supervised external-effect attempts**.
-- Ch345 adds no Greg magic attempts.
-- Greg moving + external effect remains untested.
-- Hessa restrictions unchanged.
-
-## Theatre continuity
-- Two-night house-work job is complete as of Ch344. No further theatre work scheduled.
-- No theatre scene/contact in Ch345.
-
-## Long-mile continuity
-- No new long-mile information in Ch345. Cause/current reopening status unresolved.
+## Greg notes at end
+- `53 MINIMAL`
+- `53 DELIBERATE SHAPING`
+- `115 EXTERNAL EFFECT`
+- `MOVING CASTER + STATIONARY TARGET: 12 SUPERVISED ATTEMPTS`
+- `2 CLEAN ENOUGH / SMALL / NEAR RANGE`
+- `DO NOT GENERALIZE`
+- `TODAY: CLEAN EXTERNAL RESULTS OCCURRED LATER IN PASS THAN EASIEST SHAPING PHASE`
+- `NEXT AXIS: MAYBE DISTANCE OR SPEED / NOT BOTH`
+- Cash remains `3 C`; Vale remains `26 C`.
 
 ## Recent chapter ledger
 
-### Chapter 343 - THE DUE DATE
-- Vale review establishes 26c principal-equivalent debt, no current penalty/fixed cash due, service-credit eligibility. Greg retains 3c.
-
 ### Chapter 344 - THE QUIET GUEST
-- Second theatre shift includes privacy-clasp widened-effect incident. Greg earns 2c and reaches 5c. No further theatre work scheduled.
+- Second theatre shift; privacy-clasp widened-effect incident; Greg earns 2c and reaches 5c.
 
 ### Chapter 345 - THE BENCH
-- Greg pays Mara 2c for previously quoted simple controlled holdfast observation.
-- Less-than-1/8 ring movement produces internal click and localized near-right bench-edge response without visible base shift.
-- Loose washer/rope/wood peg/iron strip show no visible movement in bounded post-response positions.
-- Returning ring to approximate sideways position does not reproduce edge response.
-- No load/opening/function/safe-use certification.
-- Mara says next useful question likely fixture context, a higher service tier with no quote yet.
-- Greg deliberately does not ask about rest stone too.
-- Ends **3c + 0 bits / 26c Vale**, magic unchanged.
+- Greg spends 2c on controlled holdfast bench observation; obtains internal click + localized edge response without function resolution; ends 3c.
+
+### Chapter 346 - THE PASSING POINT
+- Hessa tests previously unanswered moving-Greg + stationary-target external-effect question.
+- 6 walking minimal draws move minimal total to 53.
+- 12 moving external-effect attempts produce two clean-enough small near-range results; external total becomes 115.
+- No new deliberate-shaping count; remains 53.
+- Hessa prevents axis multiplication and result chasing.
+- North Secondary reopens for marked daytime passage while night closure remains.
+- Ends **3c + 0 bits / 26c Vale**, artifacts unchanged.
 
 ## Protected uncertainties
-- Holdfast exact function, intended fixture/attachment, force direction/magnitude/source, safe load/surface, service condition, release behavior, effect of housing distortion, reason return movement lacked response all unknown.
-- Price/scope/specialist needs for fixture-context investigation unknown.
-- Rest stone exact mechanism/release delay/safe system/standalone behavior/value unresolved.
-- Privacy clasp exact cause/current condition unresolved.
-- Full Vale original agreement/future service opportunities unresolved.
-- Long mile cause/current duration/reopening unknown.
+- Moving-caster reliability, timing mechanism, speed effects, lateral-distance effects, unfamiliar route effects, moving-target + moving-caster combination all unresolved.
+- Holdfast exact function/fixture/safe use/condition unresolved.
+- Rest stone mechanism/release delay/safe system/standalone behavior/value unresolved.
+- Long mile cause/current duration/full reopening unresolved.
 - Oval-long-mile relation unresolved.
+- Privacy clasp cause/current condition unresolved.
+- Full Vale original agreement/future service opportunities unresolved.
 - Blue harness buyer/motive/use unknown.
-- Greg moving + external effect untested.
 
-## Chapter 346 trailhead
-Follow next actual claim from Ch345/current authority.
+## Chapter 347 trailhead
+Follow next actual claim from Ch346/current authority.
 
-Recent rhythm: debt/account economics -> public stranger-artifact incident -> deliberate Greg-owned artifact information purchase. **Do not immediately do another appraisal/bench/registry chapter.** Let the holdfast result breathe. Fixture context is a future technical/economic tier, not tomorrow's automatic purchase.
+Recent rhythm: deliberate artifact information purchase -> supervised moving-caster magic. Do **not** immediately do another Hessa session or another Registry Row appraisal chapter.
 
-Greg now has **3c + 0 bits**, 26c Vale principal-equivalent debt, no scheduled theatre work, and no immediate cash obligation. He has deliberately spent down from 5c to 3c for information. Avoid convenient replacement income in the very next beat unless it arises from strong existing continuity.
+Greg has **3c + 0 bits**, 26c Vale principal-equivalent debt, no scheduled theatre work, and no immediate cash obligation.
 
-Strong next routes: Hessa/magic return, household/relationship chapter, materially changed long-mile city residue, character collision, ordinary day with consequence, or a non-artifact opportunity that tests Greg's newer selectivity.
+The clean moving-caster question is now partially answered but still very narrow. Let that breathe before testing speed/distance. Do not upgrade competence between sessions.
 
-Rest stone has now breathed a long time, but if it returns soon, prefer **safe system/context access** rather than home activation or another generic paid appraisal. Greg nearly asked Mara and chose not to, so preserve that choice for at least a beat.
+Strong next routes: household/relationship or character collision, a non-artifact work/opportunity beat, materially changed long-mile city consequence, ordinary-life accumulation with real new function, or safe external context that later creates rest-stone opportunity without immediate testing.
 
-Magic remains **47 / 53 / 103**. Greg moving + external effect is still the clean outstanding supervised question and can be revisited if Hessa lane returns.
+Rest stone has breathed long enough that it may return soon, but preserve the rule: no casual home activation and no generic appraisal just because Greg owns it.
+
+Holdfast fixture-context work should remain a future higher-tier project requiring more money/technical setup, not immediate repetition.
+
+Magic remains **53 / 53 / 115**. No independent practice.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
