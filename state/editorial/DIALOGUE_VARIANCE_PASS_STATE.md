@@ -32,14 +32,14 @@ Greg remains the gravitational center of short dry compressed comic reduction. O
 
 ## Sequential coverage ledger
 
-- Chapters **1-105: VARIANCE REVIEWED**
-- Chapters **106-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-110: VARIANCE REVIEWED**
+- Chapters **111-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 106**
+Current sequential variance edge: **Chapter 111**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_101_105.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_106_110.md`
 
 Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_001_005.md`
@@ -63,24 +63,25 @@ Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_091_095.md`
 - `state/editorial/dialogue-variance-pass/BATCH_096_100.md`
 - `state/editorial/dialogue-variance-pass/BATCH_101_105.md`
+- `state/editorial/dialogue-variance-pass/BATCH_106_110.md`
 
 Existing out-of-sequence pilot work:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches remain useful evidence but do not bridge the unreviewed 106-320 gap.
+Those later batches remain useful evidence but do not bridge the unreviewed 111-320 gap.
 
-## Chapters 1-100 result
+## Chapters 1-105 result
 
-Durable chapter-level findings and exact replacement prose remain preserved in the prior sequential batch files `BATCH_001_005.md` through `BATCH_096_100.md`.
+Durable chapter-level findings and exact replacement prose remain preserved in the prior sequential batch files `BATCH_001_005.md` through `BATCH_101_105.md`.
 
-## Chapters 101-105 result
+## Chapters 106-110 result
 
-- Chapter 101 `THE WAITING MAN`: **no variance change required**. Hessa's fatigue boundary is professional self-monitoring rather than generic refusal; Nerin's pile-counting tease is grounded in Greg visibly checking each pile. Preserve old pronoun-continuity repairs.
-- Chapter 102 `THE PIVOT`: **light variance patch required**. Pessa's integrated movement work is strong; replace the opening predictive shield exchange with direct object/drill ownership.
-- Chapter 103 `THE SHAPER`: **moderate variance patch required**. Hessa's evidence ladder is strong; replace two hidden-intention routines with object-first apparatus dialogue and delayed-effect scheduling.
-- Chapter 104 `THE SECOND OPINION`: **no variance change required**. Greg appropriately owns more of the preemptive dry register, while Jorren and Alden remain differentiated by friendship, practical objects, curiosity, access, and challenge.
-- Chapter 105 `THE CONTROL`: **light variance patch required**. Assessment logic is strong; replace the opening towel prediction routine with procedural instruction. Preserve Hessa's later mistaken guess about Greg's real desire as useful anti-omniscience.
+- Chapter 106 `THE RUNNER`: **light variance patch required**. Sevren's route-fit, custody, deadline, and dispatch voice is strong; replace one predicted-disobedience joke with a direct route-safety instruction.
+- Chapter 107 `THE TARGET`: **light variance patch required**. Hessa's changed-question shaping assessment is strong; replace one `it is with you` personality shorthand beat with direct gaze-control procedure.
+- Chapter 108 `THE LOSER`: **no variance change required**. Card-table face-reading is the actual game mechanic, interpretations remain fallible, and Greg appropriately owns the preventive compressed register.
+- Chapter 109 `THE STOPPER`: **no variance change required**. Hessa's compact language stays attached to a new stop-control question, unintended widening, copper response, delayed effects, and bounded interpretation.
+- Chapter 110 `THE PARTNER`: **no variance change required**. Pessa's short commands remain differentiated by changing yard geometry and movement choice; repeated refusal of Alden protects a concrete one-on-one training boundary.
 
 ## High-value watch targets
 
@@ -140,6 +141,10 @@ Durable chapter-level findings and exact replacement prose remain preserved in t
 - Apparatus changes can replace personality commentary. A shield, towel, copper strip, tool, or changed setup often gives the expert enough conversational material without interpreting Greg's mind.
 - Professional self-limitation is voice. Knowing when not to spend judgment, attention, or physical margin can differentiate an expert more strongly than wit.
 - Integrated movement and controlled testing should stay distinct. Pessa may simplify without claiming isolation; Hessa may control conditions to answer a narrow question.
+- A prediction can often become an instruction without losing the joke.
+- Test attention is procedure, not personality. When gaze matters to the task, control gaze directly rather than diagnosing the person.
+- Healthy repeated refusal may protect one concrete boundary across several attempted workarounds.
+- Expert disagreement can leave multiple live explanations rather than manufacturing a final interpretation.
 
 ## Guardrails
 
@@ -171,11 +176,11 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 106**.
+Resume sequentially at **Chapter 111**.
 
 Preferred bounded queue: **5 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 106-110**.
+Next intended batch: **Chapters 111-115**.
 
 ## Restart prompt
 
