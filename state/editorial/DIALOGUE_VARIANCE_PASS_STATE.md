@@ -49,14 +49,14 @@ Other characters may be funny, dry, clever, sarcastic, or terse. The goal is not
 
 ## Sequential coverage ledger
 
-- Chapters **1-35: VARIANCE REVIEWED**
-- Chapters **36-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-40: VARIANCE REVIEWED**
+- Chapters **41-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 36**
+Current sequential variance edge: **Chapter 41**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_031_035.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_036_040.md`
 
 Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_001_005.md`
@@ -66,12 +66,13 @@ Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_021_025.md`
 - `state/editorial/dialogue-variance-pass/BATCH_026_030.md`
 - `state/editorial/dialogue-variance-pass/BATCH_031_035.md`
+- `state/editorial/dialogue-variance-pass/BATCH_036_040.md`
 
 Existing out-of-sequence pilot work:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches remain useful evidence but do not bridge the unreviewed 36-320 gap.
+Those later batches remain useful evidence but do not bridge the unreviewed 41-320 gap.
 
 ## Chapters 1-5 result
 
@@ -129,203 +130,100 @@ Those later batches remain useful evidence but do not bridge the unreviewed 36-3
 - Chapter 34 `THE HELPER`: **strong variance patch required**. Arlo/Vessa collaboration is excellent, but repeated face-reading and predicted-question machinery should become test-result reporting and mechanical-before-mana sequencing.
 - Chapter 35 `THE FRIEND`: **no variance change required**. Jorren/Nessa/Mara and the Five Roads table form a strong independent social ecosystem; relationship-earned perception remains specific and incomplete.
 
+## Chapters 36-40 result
+
+- Chapter 36 `THE COACH`: **light variance patch required**. Berren and Nara are distinct; replace one Alden `face` shortcut with observable behavior when Greg stops eating before an explanation.
+- Chapter 37 `THE LABORER`: **light variance patch required**. Etta/Ossin worksite voice is strong. Replace two Berren `face` references with physical evidence: Greg stops pulling and later simply stares at competent hook work.
+- Chapter 38 `THE PATIENT`: **moderate variance patch required**. Hessa remains strongly procedural. Antonius should infer from Greg's actual condition/response and set an explicit Silas Marris exposure boundary instead of using face-reading and predicted-question machinery.
+- Chapter 39 `THE PARTNER`: **light variance patch required**. The rotating spar naturally differentiates speech. Replace one Alden `Face` line with the exact physical tell he exploited: Greg stopped watching his feet.
+- Chapter 40 `THE TESTER`: **strong variance patch required**. Arlo/Vessa workshop cognition is excellent, but face/eyebrow prediction and catchphrase-density remain high. Shift those beats into fixture-first test order, direct conversational evidence, and a concrete processed-kestrin sorting answer.
+
 ## High-value watch targets
 
 ### 1. Incidental stranger optimization
-
-One-scene clerks, merchants, couriers, sellers, guards, and passersby are high risk. They should not automatically arrive ready to volley with Greg at full speed.
+One-scene clerks, merchants, couriers, sellers, guards, and passersby should not automatically arrive ready to volley with Greg at full speed.
 
 ### 2. Recurring-character register density
-
 A recurring character may legitimately be dry. Review density, not mere presence. Arlo and Antonius can both be terse, but they should not repeatedly win the same kind of joke.
 
 ### 3. Shared dryness versus shared machinery
-
-Do not ask only whether two characters are both dry. Ask whether they repeatedly use the same conversational mechanism.
-
-Healthy overlap:
-- Rusk is short because the assignment is narrow.
-- Antonius is short because he controls scope and information.
-- Arlo is short when the physical object gives a narrow answer.
-- Greg is short because he compresses absurdity into analytical/comic reduction.
-
-High-risk convergence:
-- everybody predicts Greg's question before he asks;
-- everybody answers with the same polished `No` rhythm;
-- everybody converts uncertainty into a neat one-liner;
-- everybody lands a counterpunch before returning to work.
+Healthy overlap can come from different engines. High-risk convergence is everybody predicting Greg's question, using the same polished `No`, converting uncertainty into a neat one-liner, or landing the counterpunch before returning to work.
 
 ### 4. Safety `No`, job `No`, and comedy `No`
-
-Do not purge short refusal mechanically.
-
-A refusal is strongly character-owned when refusing **is the work**:
-- Hessa stops unsafe magical repetition;
-- Rusk stops assignment creep;
-- Antonius withholds private ledger information;
-- Arlo blocks a risky touch or protects test integrity;
-- Edrin keeps an unknown sealed ward under custody;
-- Jorren ends training when footing or fatigue makes the exercise wrong;
-- Iris stops civilians or injured helpers from entering a bad rescue lane;
-- a healer stops casting because the body has already exceeded a safe workload.
-
-The same surface form becomes convergence when it is repeatedly used as a punchline ladder rather than a real decision.
+Do not purge short refusal mechanically. A refusal is character-owned when refusing is the work. It becomes convergence when used repeatedly as a punchline ladder rather than a real decision.
 
 ### 5. Let actions replace rebuttals
-
-For operational characters, an action may carry the voice better than another perfect line:
-- move the crate;
-- shelf the fixture;
-- cover the ledger;
-- take out the rope;
-- return to the bench;
-- point to the damaged part;
-- take the practice sword away;
-- lock the ward room;
-- cut off the old medical tag;
-- point someone toward the pump or exit;
-- inspect the pallet instead of refusing to smell the sack;
-- set the regulator beside the hand pump instead of predicting Greg's next joke/question.
-
-This is especially useful when a scene already contains multiple dry speakers.
+For operational characters, an action may carry the voice better than another perfect line: move the crate, cover the ledger, inspect the pallet, set the regulator beside the hand pump, point to the damaged part, or return to the bench.
 
 ### 6. Specialists may earn longer lines
-
-A slightly longer specialist answer is not dialogue bloat when the line explains the exact variable that matters.
-
-Examples:
-- Arlo names test condition, matched-set risk, winding tension, or the physical cause of a reading.
-- Hessa names channel cost, body state, or stopping condition.
-- Lara names the axle problem and required help.
-- Edrin names fixed Barrier conditions, seal state, pressure behavior, or access limits.
-- Octavia names timing, exclusivity, route state, traffic, storage, floor damage, cargo class, driver, or horse constraints.
-- a healer names casting load, restriction duration, symptoms, or reassessment criteria.
+A slightly longer specialist answer is not dialogue bloat when it explains the exact variable that matters.
 
 ### 7. Stress modulation
-
 Danger, fatigue, embarrassment, fear, money pressure, attraction, grief, pain, boredom, and divided attention should sometimes degrade verbal optimization.
 
 ### 8. Relationship-specific rhythm
-
 A person speaking to Greg, a customer, authority, subordinate, lover, friend, or stranger should not sound mechanically identical.
 
 ### 9. Productive imperfection
-
-Protect occasional:
-- overexplaining;
-- awkward wording;
-- missed jokes;
-- bad metaphors;
-- fillers;
-- repeated points;
-- incomplete thoughts;
-- literal answers;
-- defensive qualification;
-- delayed understanding;
-- silence where a polished comeback would otherwise appear.
-
-Do not sprinkle these randomly. Let state and relationship earn them.
+Protect occasional overexplaining, awkward wording, missed jokes, bad metaphors, fillers, repeated points, incomplete thoughts, literal answers, defensive qualification, delayed understanding, and silence where a polished comeback would otherwise appear.
 
 ### 10. Intentional convergence can be character evidence
-
-Do not erase every echo.
-
-Greg and Alden can deliberately land on the same line or rhythm when the prose itself recognizes that compatibility as meaningful. The question is whether the convergence is narratively owned and relationship-specific, or merely the default house cadence leaking into everyone.
-
-Relationship-owned convergence can increase while cast-wide convergence decreases. Greg/Alden becoming more compatible is more meaningful if Jorren, Edrin, clerks, specialists, and incidental workers do not all match them at the same frequency.
+Greg and Alden can deliberately land on the same line or rhythm when the prose recognizes that compatibility as meaningful. Relationship-owned convergence can increase while cast-wide convergence decreases.
 
 ### 11. Repeated face-reading is a specific watch target
-
-One person learning Greg's tells can be relationship evidence. Everyone learning `the face` becomes project-wide shorthand.
-
-Prefer role-specific evidence when available:
-- Jorren notices Greg stopped watching feet;
-- Antonius notices Greg is turning a possibility into money;
-- Arlo protects a notebook or test setup;
-- a clerk knows the assignment Greg is trying to re-enter;
-- Edrin knows what Greg tried during the test she administered;
-- Berren notices Greg stopped writing instead of diagnosing an established `face` after one class;
-- Alden notices Greg moved a chair or checked a windowsill because he was actually nearby;
-- Hessa names the exact claim or extrapolation Greg just made instead of diagnosing his expression.
-
-Do not use universal face-reading as the default proof that a competent adult understands Greg.
+One person learning Greg's tells can be relationship evidence. Everyone learning `the face` becomes project-wide shorthand. Prefer role-specific evidence when available.
 
 ### 12. Role authority should sound like responsibility, not universal cleverness
-
-Useful discriminators:
-- clerk: assignment, custody, schedule, contract;
-- Edrin: seal state, access, test condition, ward responsibility;
-- quartermaster: people out, sacks moved, roof danger;
-- Jorren: feet, distance, fatigue, usable ground;
-- Octavia: timing, allocation, route, cargo, drivers, horses, traffic;
-- Ressa: need first, intake destination, firsthand report, crowd flow;
-- Doven: report order, current problem, deployment, today versus tomorrow;
-- Iris: threat lane, rescue route, body assignment, usable information;
-- healer: symptoms, treatment, restriction, reassessment;
-- Arlo: mechanism, fixture, test order, material result;
-- Rusk: assignment, loss category, movement, scope.
-
-If all of them instead predict Greg's question and answer with the same joke, the role has disappeared beneath house voice.
+Useful discriminators include clerk/assignment, Edrin/custody, Jorren/feet and fatigue, Octavia/freight, Ressa/intake, Doven/current command problem, Iris/rescue route, healer/symptoms, Arlo/mechanism, Rusk/scope, Etta/worksite objective.
 
 ### 13. Relationship calibration should have a ramp
-
-A recurring character may eventually learn Greg's tells and conversational timing. First contact should usually begin with the role, request, shared task, or ordinary social uncertainty.
-
-When a stranger immediately diagnoses Greg's psychology, predicts his next question, and knows how to beat his semantic framing, check whether the manuscript has skipped the relationship-development step.
+A recurring character may eventually learn Greg's tells and timing. First contact should usually begin with role, request, shared task, or ordinary social uncertainty.
 
 ### 14. Crowd mess is useful voice ecology
-
-Do not over-clean crowd and witness speech. Vague landmarks, irrelevant family details, secondhand rumor, frightened repetition, wrong answers, and practical needs competing with information gathering make the world sound populated by people rather than optimized dialogue agents.
-
-Chapters 23 and 30 are positive references in different registers.
+Do not over-clean crowd and witness speech. Vague landmarks, irrelevant family details, secondhand rumor, frightened repetition, wrong answers, and practical needs make the world feel populated.
 
 ### 15. Stress can create variance without speech gimmicks
-
-Chapters 25 and 27 are positive references. Combat and rescue narrow language naturally through urgency, repetition, incomplete commands, profession-specific answers, adrenaline, and misunderstanding.
-
-Do not polish those scenes into elegant tactical banter merely because every sentence can be made cleaner.
+Combat and rescue can naturally narrow language through urgency, repetition, incomplete commands, profession-specific answers, adrenaline, and misunderstanding.
 
 ### 16. Familiarity should change workflow, not merely repeat jokes
-
-A recurring professional knowing Greg is strongest when prior exposure changes what they do:
-- healer checks the wrist tag first;
-- clerk knows which assignment he is asking about;
-- Jorren watches the physical tell relevant to training;
-- Alden notices behavior he personally witnessed;
-- Hessa remembers the exact overclaim or permission boundary;
-- Arlo knows which test Greg will try to skip toward and controls the sequence.
-
-Repeated predictive `No` jokes are weaker evidence of continuity than changed procedure.
+A recurring professional knowing Greg is strongest when prior exposure changes what they do. Repeated predictive `No` jokes are weaker continuity than changed procedure.
 
 ### 17. Cross-domain disagreement is valuable
-
-Kellan and the butcher are a positive reference. Arlo and Vessa are another. Competent specialists can privilege different evidence without one becoming the manuscript's designated correct mind.
-
-Do not reconcile every specialist disagreement into one clean authorial answer too quickly.
+Kellan/butcher and Arlo/Vessa are positive references. Competent specialists can privilege different evidence without one becoming the manuscript's designated correct mind.
 
 ### 18. Ordinary family argument is anti-compression texture
-
-Marden's mule, Fera/Noll's roof fight, Sava/Osric's sister problem, Leni's wizard questions, and Eda's pear grievance all resist the analytical house register without accents, gimmicks, or forced verbosity.
-
 Protect ordinary irrational attachment, old grievances, literal child logic, and family shorthand.
 
 ### 19. Earned familiarity still needs character-specific evidence
-
-Relationship history does not excuse interchangeable perception.
-
-Hessa should recognize Greg through claims, variables, body behavior, and permission-seeking. Arlo should recognize him through test order, touching, mechanism expansion, and workshop risk. Jorren should recognize embodied or ordinary social habits. Alden can recognize a wider range because sustained proximity is itself part of their relationship.
+Hessa should recognize Greg through claims, variables, body behavior, and permission-seeking. Arlo through test order, touching, mechanism expansion, and workshop risk. Jorren through embodied or ordinary social habits. Alden can recognize a wider range because sustained proximity is itself part of the relationship.
 
 ### 20. Present vocation can resist future potential
-
-Rinna is a positive reference. Greg's ability to imagine military, magical, or industrial leverage does not make that leverage the objective ranking of another person's life.
-
-A character may be talented enough for more and still reasonably want to make excellent stairs.
+Rinna is a positive reference. Greg's ability to imagine leverage does not make that leverage the objective ranking of another person's life.
 
 ### 21. Independent social ecosystems protect world voice
+Chapter 35 is a positive reference. People should have routines, family, work schedules, chairs, food, local debts, and relationships that do not originate with Greg.
 
-Chapter 35 is a positive reference. Mara, Jorren, Nessa, customers, game players, relatives, work schedules, chairs, food, and local debts exist without Greg causing them.
+### 22. `Face` is now a manuscript-level shortcut
+The question is no longer whether recurring characters have earned perceptiveness. Several have. The problem is using the same label instead of more specific evidence.
 
-When Greg enters a social space, preserve evidence that relationships were already in motion before he arrived.
+Prefer:
+- `you stopped pulling` at a millrace;
+- `you stopped watching my feet` in a spar;
+- `you stopped eating` before a lecture;
+- the exact claim Hessa heard Greg overextend;
+- the exact test Arlo knows Greg wants to skip toward.
+
+### 23. Physical proximity should produce physical evidence
+People sharing labor or combat with Greg have access to grip, feet, breath, hesitation, gaze, stopped motion, dropped pace, changed stance, and pain behavior. Use those before generic psychological shorthand.
+
+### 24. Familiarity can anticipate categories without predicting sentences
+Arlo can know Greg will want a magical test. Antonius can know Silas Marris means exposure. Hessa can know a good result will lead to a permission request. They do not need to predict the exact next line.
+
+### 25. Worksite nuisance framing is strong voice variance
+Etta treating river lizards as an interruption to gate repair is a positive reference. Different objectives create different speech naturally.
+
+### 26. Voice fingerprints should not become buttons
+Arlo's `depends`, Rusk's `No`, Hessa's claim-narrowing, and Jorren's physical corrections are tendencies, not macros. If a fingerprint repeats often enough to become expected punctuation, use the underlying cognition instead.
 
 ## Guardrails
 
@@ -357,11 +255,11 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 36**.
+Resume sequentially at **Chapter 41**.
 
 Preferred bounded queue: **5 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 36-40**.
+Next intended batch: **Chapters 41-45**.
 
 ## Restart prompt
 
