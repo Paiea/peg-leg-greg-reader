@@ -47,7 +47,7 @@ class LightProgressLinkTests(unittest.TestCase):
     def test_workflow_guards_progress_asset_against_legacy_chapters_anchor(self):
         workflow = (ROOT / '.github/workflows/light-edition.yml').read_text(encoding='utf-8')
         self.assertIn(
-            "if grep -R '#chapters' light/*.html light.html latest.html index.html assets/light-progress.js; then",
+            "if grep -R '#chapters' light/*.html light.html latest.html index.html assets/light-progress.js assets/light-reader.js; then",
             workflow,
         )
 
