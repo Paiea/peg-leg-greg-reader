@@ -16,7 +16,6 @@ on:
       - 'index.html'
       - 'scripts/generate_light.py'
       - 'scripts/generate_illustrated.py'
-      - 'scripts/normalize_reader_labels.py'
       - 'scripts/reader_sections.py'
       - 'scripts/update_home_contents.py'
       - 'scripts/verify_light.py'
@@ -68,8 +67,6 @@ jobs:
         run: |
           python scripts/update_reader_navigation.py index.html
           python scripts/update_home_contents.py
-      - name: Normalize public reader labels
-        run: python scripts/normalize_reader_labels.py
       - name: Verify Light publishing derivatives
         run: |
           python scripts/verify_light.py 156-219
@@ -112,6 +109,7 @@ jobs:
           grep -q 'Illustrated Reader' light/index.html
           grep -q 'TEXT READER · CHAPTER 220' light/220.html
           grep -q 'Text-only reading · no chapter illustrations' light/220.html
+          ! grep -R '#chapters' light/*.html light.html latest.html index.html
           ! grep -R 'Light Edition' light/*.html light.html latest.html index.html
           ! grep -R '>LIGHT<' light/*.html light.html latest.html index.html
           ! grep -R '>Read Light<' light/*.html light.html latest.html index.html
