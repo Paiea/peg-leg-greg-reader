@@ -13,7 +13,7 @@ ACT_HOME = '''<!doctype html><html><body><div aria-label="Start or explore the b
 
 
 class NavigationPatchTests(unittest.TestCase):
-    def test_adds_light_home_action_once_and_is_idempotent(self):
+    def test_adds_text_reader_home_action_once_and_is_idempotent(self):
         with tempfile.TemporaryDirectory() as td:
             path = Path(td) / 'index.html'
             path.write_text(HOME, encoding='utf-8')
@@ -22,10 +22,27 @@ class NavigationPatchTests(unittest.TestCase):
             second = subprocess.run([sys.executable, str(SCRIPT), str(path)], text=True, capture_output=True)
             self.assertEqual(second.returncode, 0, second.stderr)
             text = path.read_text(encoding='utf-8')
-            self.assertIn('href="light/index.html">Read Light</a>', text)
-            self.assertEqual(text.count('href="light/index.html">Read Light</a>'), 1)
+            self.assertIn('href="light/index.html">Text Reader</a>', text)
+            self.assertEqual(text.count('href="light/index.html">Text Reader</a>'), 1)
             self.assertIn('href="chapters/001.html">Begin Reading</a>', text)
             self.assertIn('href="#chapters">Chapter List</a>', text)
+
+    def test_collapses_historical_reader_link_duplicates(self):
+        with tempfile.TemporaryDirectory() as td:
+            path = Path(td) / 'index.html'
+            duplicated = HOME.replace(
+                '<a class="start primary-action" href="chapters/001.html">Begin Reading</a>',
+                '<a class="start primary-action" href="chapters/001.html">Begin Reading</a>'
+                '<a class="secondary-action" href="light/index.html">Read Light</a>'
+                '<a class="secondary-action" href="light/index.html">Text Reader</a>'
+                '<a class="secondary-action" href="light/index.html">Text Reader</a>',
+            )
+            path.write_text(duplicated, encoding='utf-8')
+            result = subprocess.run([sys.executable, str(SCRIPT), str(path)], text=True, capture_output=True)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            text = path.read_text(encoding='utf-8')
+            self.assertEqual(text.count('href="light/index.html">Text Reader</a>'), 1)
+            self.assertNotIn('>Read Light</a>', text)
 
     def test_preserves_toc_for_dedicated_book_generator(self):
         with tempfile.TemporaryDirectory() as td:
@@ -37,7 +54,7 @@ class NavigationPatchTests(unittest.TestCase):
             self.assertIn('href="chapters/001.html"', text)
             self.assertIn('href="chapters/155.html"', text)
             self.assertNotIn('class="reader-act"', text)
-            self.assertIn('href="light/index.html">Read Light</a>', text)
+            self.assertIn('href="light/index.html">Text Reader</a>', text)
 
     def test_desktop_chapter_images_preserve_intrinsic_width(self):
         css = (ROOT / 'assets/reader.css').read_text(encoding='utf-8')
