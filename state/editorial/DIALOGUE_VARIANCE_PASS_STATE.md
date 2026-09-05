@@ -32,14 +32,14 @@ Greg remains the gravitational center of short dry compressed comic reduction. O
 
 ## Sequential coverage ledger
 
-- Chapters **1-85: VARIANCE REVIEWED**
-- Chapters **86-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-90: VARIANCE REVIEWED**
+- Chapters **91-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 86**
+Current sequential variance edge: **Chapter 91**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_081_085.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_086_090.md`
 
 Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_001_005.md`
@@ -59,24 +59,25 @@ Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_071_075.md`
 - `state/editorial/dialogue-variance-pass/BATCH_076_080.md`
 - `state/editorial/dialogue-variance-pass/BATCH_081_085.md`
+- `state/editorial/dialogue-variance-pass/BATCH_086_090.md`
 
 Existing out-of-sequence pilot work:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches remain useful evidence but do not bridge the unreviewed 86-320 gap.
+Those later batches remain useful evidence but do not bridge the unreviewed 91-320 gap.
 
-## Chapters 1-80 result
+## Chapters 1-85 result
 
-Durable chapter-level findings and exact replacement prose remain preserved in the prior sequential batch files `BATCH_001_005.md` through `BATCH_076_080.md`.
+Durable chapter-level findings and exact replacement prose remain preserved in the prior sequential batch files `BATCH_001_005.md` through `BATCH_081_085.md`.
 
-## Chapters 81-85 result
+## Chapters 86-90 result
 
-- Chapter 81 `THE DEBTOR`: **light variance patch required**. Antonius/Greg commercial differentiation is strong. Replace one generic `Then why face?` beat with Antonius responding to Greg still looking at the crossed ROAD category.
-- Chapter 82 `THE RECONCILER`: **light variance patch required**. Invoice, Nerin, and Lyssa lanes are healthy. Replace the keeper's opening `I didn't / you were going to` loop with teasing grounded in Greg visibly choosing the brown shirt and saving blue for later.
-- Chapter 83 `THE SUITOR`: **light variance patch required**. Date ecology is strong. Replace one early-romance `You have the face` beat at the cup game with Lyssa noticing Greg physically stopped walking.
-- Chapter 84 `THE PASSENGER`: **no variance change required**. Sevren's route/courier competence is clean precisely because he knows what his job requires and openly does not know Greg's medical limits.
-- Chapter 85 `THE ARBITER`: **light variance patch required**. Holl remains strongly commercial. Replace one `You thought it` mind-read with Holl responding to Greg already arguing against blaming Iris from inadequate data.
+- Chapter 86 `THE PLAYER`: **moderate variance patch required**. Preserve Alden/Jorren/Pessa game roles, but stop stacking two predictive refusal routines at the entrance and replace one generic `the face` beat with Jorren responding to Greg visibly turning play into work.
+- Chapter 87 `THE BLUFFER`: **light variance patch required**. Keep card-table face reading because the game explicitly earns it; remove one incidental delivery-boy prediction that gives a stranger instant Greg calibration.
+- Chapter 88 `THE OCCUPANT`: **no variance change required**. Looking and expression language is grounded in rent sums, stairs, shoulders, food, silence, and specific visible behavior.
+- Chapter 89 `THE SUBSTITUTE`: **light variance patch required**. Crowded Guild service ecology is healthy. Replace one Jorren `you were about to` beat with a response to Greg's explicit restraint instead of hidden intention.
+- Chapter 90 `THE BUYER`: **moderate variance patch required**. Furniture seller remains vivid through chair fit, joints, floor space, delivery, and stairs. Replace one stock `you problem` comeback with a shop boundary and ground Nessa's recognition in Greg visibly scanning for Jorren.
 
 ## High-value watch targets
 
@@ -116,6 +117,11 @@ Durable chapter-level findings and exact replacement prose remain preserved in t
 - Explicitly sourced prediction can be social texture, but watch density so secondhand reputation does not become distributed omniscience.
 - Respond to the spoken argument before the hidden intention.
 - Not knowing can be professional competence when the missing information lies outside the character's responsibility.
+- Face-reading can be the subject of a scene when observation is actually the scene's mechanic; judge what was observed and how much the character claims from it.
+- Repeated prediction is especially dangerous when stacked among multiple familiar characters in the same scene.
+- A specialist's funniest line often comes from jurisdiction: shop floor, chair joints, route, bay board, wound restriction, or other owned responsibility.
+- `You looked` is healthy when the object/action is explicit; the weak form is an unspecified face standing in for an exact hidden sentence.
+- Crowded service scenes naturally resist compression because incomplete problems, competing incentives, and local ignorance create useful social friction.
 
 ## Guardrails
 
@@ -147,11 +153,11 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 86**.
+Resume sequentially at **Chapter 91**.
 
 Preferred bounded queue: **5 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 86-90**.
+Next intended batch: **Chapters 91-95**.
 
 ## Restart prompt
 
