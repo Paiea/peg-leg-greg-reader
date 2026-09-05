@@ -44,17 +44,36 @@ def parse_batch(text: str) -> list[Patch]:
             chapter = int(chapter_match.group(1))
             i += 1
             continue
+
+        patch_header = lines[i].startswith('### Patch')
         patch_match = re.match(r'^### Patch\s+([^\s—–-]+)', lines[i])
-        if not patch_match or chapter is None:
+        if patch_header and not patch_match:
+            raise AssertionError(f'malformed Patch header: {lines[i].strip()}')
+        if patch_match and chapter is None:
+            raise AssertionError(f'{patch_match.group(1)}: Patch appears before a Chapter heading')
+        if not patch_match:
             i += 1
             continue
+
         patch_id = patch_match.group(1)
         section_end = i + 1
         while section_end < len(lines) and not lines[section_end].startswith('### ') and not lines[section_end].startswith('## Chapter '):
             section_end += 1
         section = lines[i + 1:section_end]
-        current_idx = next((j for j, line in enumerate(section) if line.strip().lower().startswith('current')), None)
-        replace_idx = next((j for j, line in enumerate(section) if line.strip().lower().startswith('replace')), None)
+        current_indices = [
+            j for j, line in enumerate(section)
+            if line.strip().lower().startswith('current')
+        ]
+        replace_indices = [
+            j for j, line in enumerate(section)
+            if line.strip().lower().startswith('replace')
+        ]
+        if len(current_indices) > 1:
+            raise AssertionError(f'{patch_id}: duplicate Current section')
+        if len(replace_indices) > 1:
+            raise AssertionError(f'{patch_id}: duplicate Replace section')
+        current_idx = current_indices[0] if current_indices else None
+        replace_idx = replace_indices[0] if replace_indices else None
         if current_idx is None:
             raise AssertionError(f'{patch_id}: missing Current section')
         if replace_idx is None:
@@ -66,8 +85,11 @@ def parse_batch(text: str) -> list[Patch]:
         replacement = _code_lines(section[replace_idx + 1:reason_idx])
         if not current:
             raise AssertionError(f'{patch_id}: has no Current prose')
-        if replacement:
-            patches.append(Patch(chapter, patch_id, current, replacement, section[replace_idx].strip()))
+        if not replacement:
+            raise AssertionError(f'{patch_id}: has no replacement prose')
+        if any('—' in line for line in replacement):
+            raise AssertionError(f'{patch_id}: replacement prose contains an em dash')
+        patches.append(Patch(chapter, patch_id, current, replacement, section[replace_idx].strip()))
         i = section_end
     return patches
 

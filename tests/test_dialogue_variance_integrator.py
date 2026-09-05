@@ -214,6 +214,80 @@ Reason: test
         with self.assertRaisesRegex(AssertionError, 'has no Current prose'):
             adv.parse_batch(note)
 
+    def test_parse_batch_rejects_patch_before_chapter_heading(self):
+        note = '''### Patch 3.V1 — orphaned
+Current:
+`"Old."`
+Replace with:
+`"New."`
+Reason: test
+'''
+        with self.assertRaisesRegex(AssertionError, 'before a Chapter heading'):
+            adv.parse_batch(note)
+
+    def test_parse_batch_rejects_malformed_patch_header(self):
+        note = '''## Chapter 3 — THREE
+### Patch — missing id
+Current:
+`"Old."`
+Replace with:
+`"New."`
+Reason: test
+'''
+        with self.assertRaisesRegex(AssertionError, 'malformed Patch header'):
+            adv.parse_batch(note)
+
+    def test_parse_batch_rejects_patch_without_replacement_prose(self):
+        note = '''## Chapter 3 — THREE
+### Patch 3.V1 — malformed
+Current:
+`"Old."`
+Replace with:
+New prose without code formatting.
+Reason: test
+'''
+        with self.assertRaisesRegex(AssertionError, 'has no replacement prose'):
+            adv.parse_batch(note)
+
+    def test_parse_batch_rejects_duplicate_section_markers(self):
+        cases = (
+            ('Current', '''## Chapter 3 — THREE
+### Patch 3.V1 — malformed
+Current:
+`"Old."`
+Current:
+`"Still old."`
+Replace with:
+`"New."`
+Reason: test
+'''),
+            ('Replace', '''## Chapter 3 — THREE
+### Patch 3.V1 — malformed
+Current:
+`"Old."`
+Replace with:
+`"New."`
+Replace with:
+`"Still new."`
+Reason: test
+'''),
+        )
+        for marker, note in cases:
+            with self.subTest(marker=marker), self.assertRaisesRegex(AssertionError, f'duplicate {marker}'):
+                adv.parse_batch(note)
+
+    def test_parse_batch_rejects_em_dash_in_replacement_prose(self):
+        note = '''## Chapter 3 — THREE
+### Patch 3.V1 — malformed
+Current:
+`"Old."`
+Replace with:
+`"New — but forbidden."`
+Reason: test
+'''
+        with self.assertRaisesRegex(AssertionError, 'em dash'):
+            adv.parse_batch(note)
+
 
 if __name__ == '__main__':
     unittest.main()
