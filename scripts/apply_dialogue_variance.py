@@ -88,14 +88,24 @@ def _sequence_pattern(lines: list[str]) -> re.Pattern[str]:
 
 
 def _target_lines(patch: Patch) -> list[str]:
-    directive = patch.directive.lower()
+    directive = patch.directive
+    lowered = directive.lower()
+
+    if 'replace after' in lowered:
+        anchors = re.findall(r'`([^`]+)`', directive)
+        for anchor in reversed(anchors):
+            if anchor in patch.current:
+                idx = patch.current.index(anchor)
+                if idx + 1 < len(patch.current):
+                    return patch.current[idx + 1:]
+
     if patch.replacement and patch.replacement[0] in patch.current:
         idx = patch.current.index(patch.replacement[0])
         if idx > 0:
             return patch.current[idx:]
-    if 'final' in directive and patch.replacement[0] not in patch.current:
+    if 'final' in lowered and patch.replacement[0] not in patch.current:
         return patch.current[-1:]
-    if 'first' in directive and patch.replacement[0] not in patch.current:
+    if 'first' in lowered and patch.replacement[0] not in patch.current:
         return patch.current[:1]
     return patch.current
 
