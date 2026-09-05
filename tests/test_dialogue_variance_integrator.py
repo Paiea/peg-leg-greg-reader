@@ -50,6 +50,22 @@ Reason: test
         self.assertIn('<p>"New."</p>', changed)
         self.assertIn('<p>"Still new."</p>', changed)
 
+    def test_replace_after_anchor_preserves_current_through_anchor(self):
+        html = '<article class="prose"><p>"Tell me."</p><p>"Impossible."</p><p>"Good."</p><p>"That one."</p></article>'
+        patch = adv.Patch(
+            13,
+            '13.V1',
+            ['"Tell me."', '"Impossible."', '"Good."', '"That one."'],
+            ['"Good." Arlo seated the regulator.', '"Then watch the test."'],
+            'Replace after Greg says `Impossible.` with:',
+        )
+        changed = adv.apply_patch_to_html(html, patch)
+        self.assertIn('<p>"Tell me."</p>', changed)
+        self.assertIn('<p>"Impossible."</p>', changed)
+        self.assertIn('<p>"Good." Arlo seated the regulator.</p>', changed)
+        self.assertIn('<p>"Then watch the test."</p>', changed)
+        self.assertNotIn('<p>"That one."</p>', changed)
+
     def test_final_line_directive_replaces_only_last_current_line(self):
         html = '<article class="prose"><p>A.</p><p>B.</p><p>C.</p></article>'
         patch = adv.Patch(7, '7.V3', ['A.', 'B.', 'C.'], ['Replacement.'], 'Replace the final Antonius line with:')
