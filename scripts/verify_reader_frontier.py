@@ -67,6 +67,9 @@ def verify_reader_frontier(
                 f'Text title mismatch: expected {expected_title!r}, found {text_title!r}'
             )
 
+    if f'href="../light/{latest:03d}.html"' not in illustrated_text:
+        raise AssertionError('Illustrated page does not link matching Text chapter')
+
     index_text = (root / 'index.html').read_text(encoding='utf-8')
     light_index_text = (root / 'light' / 'index.html').read_text(encoding='utf-8')
     expected_book_range = f'Chapters 321–{latest}'
