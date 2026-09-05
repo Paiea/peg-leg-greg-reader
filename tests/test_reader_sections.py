@@ -6,6 +6,14 @@ sys.path.insert(0, str(Path(__file__).parents[1] / 'scripts'))
 
 from reader_sections import BOOKS, render_book_sections
 
+SYNTHETIC_LATEST = BOOKS[-1].acts[-1].start + 21
+
+
+def chapter_links(*, illustrated: bool) -> dict[int, str]:
+    if illustrated:
+        return {n: f'<a href="chapters/{n:03d}.html">Chapter {n}</a>' for n in range(1, SYNTHETIC_LATEST + 1)}
+    return {n: f'<a href="{n:03d}.html">Chapter {n}</a>' for n in range(1, SYNTHETIC_LATEST + 1)}
+
 
 def webp_size(path: Path) -> tuple[int, int]:
     data = path.read_bytes()
@@ -83,28 +91,26 @@ class ReaderSectionsTests(unittest.TestCase):
         self.assertIn('Surveyor', book_four.card_alt)
 
     def test_light_renderer_has_shared_four_book_hierarchy_without_images(self):
-        links = {n: f'<a href="{n:03d}.html">Chapter {n}</a>' for n in range(1, 352)}
-        rendered = render_book_sections(links, illustrated=False)
+        rendered = render_book_sections(chapter_links(illustrated=False), illustrated=False)
         for label in ('BOOK I', 'BOOK II', 'BOOK III', 'BOOK IV'):
             self.assertIn(label, rendered)
         self.assertIn('Chapters 181–320', rendered)
         self.assertIn('ACT III · Chapters 281–320', rendered)
         self.assertIn('THE WIDER LIFE', rendered)
-        self.assertIn('Chapters 321–351', rendered)
-        self.assertIn('ACT II · Chapters 331–351', rendered)
+        self.assertIn(f'Chapters 321–{SYNTHETIC_LATEST}', rendered)
+        self.assertIn(f'ACT II · Chapters 331–{SYNTHETIC_LATEST}', rendered)
         self.assertIn('BEYOND THE DOOR', rendered)
         self.assertNotIn('reader-book-card-image', rendered)
         self.assertNotIn('<img', rendered)
 
     def test_books_are_primary_disclosures_and_latest_book_opens(self):
-        links = {n: f'<a href="chapters/{n:03d}.html">Chapter {n}</a>' for n in range(1, 352)}
-        rendered = render_book_sections(links, illustrated=False)
+        rendered = render_book_sections(chapter_links(illustrated=True), illustrated=False)
         self.assertEqual(rendered.count('class="reader-book"'), 4)
         self.assertEqual(rendered.count('class="reader-book-summary"'), 4)
         self.assertEqual(rendered.count('<details class="reader-book" open>'), 1)
         self.assertEqual(rendered.count('aria-current="true"'), 1)
         self.assertIn('<details class="reader-book" open><summary class="reader-book-summary" id="book-iv-heading" aria-current="true">', rendered)
-        self.assertIn('Chapters 321–351', rendered)
+        self.assertIn(f'Chapters 321–{SYNTHETIC_LATEST}', rendered)
         self.assertLess(rendered.rindex('BOOK IV'), rendered.rindex('ACT II'))
 
     def test_book_four_frontier_opens_last_visible_act(self):
@@ -121,8 +127,7 @@ class ReaderSectionsTests(unittest.TestCase):
         self.assertIn('<details class="reader-act" open><summary class="reader-act-summary"><span class="reader-act-kicker">ACT II · Chapters 331–331', rendered_331)
 
     def test_illustrated_renderer_uses_all_four_role_cards_and_illustrated_links(self):
-        links = {n: f'<a href="chapters/{n:03d}.html">Chapter {n}</a>' for n in range(1, 352)}
-        rendered = render_book_sections(links, illustrated=True)
+        rendered = render_book_sections(chapter_links(illustrated=True), illustrated=True)
         self.assertEqual(rendered.count('class="reader-book-card-image"'), 4)
         for src in (
             'assets/book-role-cards/book-i-warrior-005.webp',
@@ -135,7 +140,7 @@ class ReaderSectionsTests(unittest.TestCase):
             self.assertIn(f'href="{href}"', rendered)
         for chapter in ('005', '177', '231', '331'):
             self.assertIn(f'aria-label="Open Chapter {chapter} in the Illustrated Reader"', rendered)
-        self.assertIn('Chapters 321–351', rendered)
+        self.assertIn(f'Chapters 321–{SYNTHETIC_LATEST}', rendered)
         self.assertEqual(rendered.count('<details class="reader-book" open>'), 1)
 
 
