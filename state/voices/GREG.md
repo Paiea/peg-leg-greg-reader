@@ -14,12 +14,16 @@ He is analytical, but he should not sound as though he has already written the e
 
 Greg often answers quickly. He likes short dry counters, literal interpretations, and extending another person's wording one step past usefulness.
 
+This compressed dry counterpunch register is one of Greg's strongest fingerprints and should remain gravitationally Greg-shaped across the manuscript. Other people may be witty, but do not let every competent recurring speaker inherit his exact timing and reduction architecture.
+
 He can also speak in longer runs when:
 - negotiating scope;
 - explaining an old-life category;
 - defending a distinction he actually cares about;
 - getting excited by a system;
-- trying to talk his way around embarrassment.
+- trying to talk his way around embarrassment;
+- deliberately making himself easier to understand;
+- speaking to somebody who did not follow the compressed version.
 
 Do not make every line a one-sentence punchline.
 
@@ -33,7 +37,29 @@ Humor is often:
 - self-directed embarrassment;
 - turning ordinary inconvenience into mock bureaucracy.
 
-He is funniest when somebody else refuses to play along.
+He is funniest when somebody else refuses to play along, misses the joke, takes him literally, answers too earnestly, or makes him explain the joke after the timing has died.
+
+Do not optimize every Greg exchange into two equally sharp people fencing. Sometimes the other person simply cannot keep up with his register.
+
+## State-dependent Greg
+
+Greg should remain recognizable without performing perfect Greg-ness in every scene.
+
+Mood, relationship, and cognitive load can bend the baseline.
+
+He may become:
+- slower and less funny when exhausted;
+- unusually blunt when genuinely angry;
+- more verbose when defending something he cares about;
+- less compressed when reassuring somebody;
+- more foolish or soft with people who have earned that permission;
+- more performatively clever when embarrassed;
+- more careful when speaking upward or when consequences are real;
+- almost humorless when something matters too much to joke through.
+
+The absence of a joke can itself carry weight when Greg normally reaches for one.
+
+Do not randomize him for novelty. Vary within plausible Greg range.
 
 ## Disagreement
 
@@ -109,6 +135,7 @@ Cut or vary when repeated:
 - `Not X. Y.`
 - `X was one thing. Y was another.`
 - repeated declarations that a thing is not his job/project/profession;
-- repeated explicit statements that he is not overclaiming after the scene already demonstrates restraint.
+- repeated explicit statements that he is not overclaiming after the scene already demonstrates restraint;
+- scenes where every other speaker lands equally compressed dry counters and Greg loses his comic gravity.
 
 Greg remains analytical. The edit should remove redundant self-explanation, not his mind.
