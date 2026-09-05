@@ -12,20 +12,7 @@ This is the second-pass dialogue sweep governed by `state/DIALOGUE_VARIANCE_ENGI
 
 It is intentionally separate from the older dialogue/attribution pass.
 
-The older pass answers questions such as:
-- who is speaking;
-- whether tags are clear;
-- whether narrator/referent continuity is broken;
-- whether a recurring character has an identifiable baseline voice.
-
-This pass asks the newer questions:
-- has Greg's compressed dry comic register leaked into the cast;
-- do recurring characters vary naturally by relationship, mood, cognitive load, and scene pressure;
-- are incidental strangers too optimized for banter;
-- do specialists think and speak from their own domain rather than from project-wide analytical house voice;
-- does stress sometimes make people worse, slower, messier, more formal, more repetitive, or less funny;
-- does a short line come from the character or merely from manuscript-wide compression;
-- can a person fail to understand, ignore, overexplain, misread, or answer sideways without the editor sharpening the imperfection away.
+The older pass answers speaker clarity, attribution, referent continuity, and baseline voice questions. This pass asks whether Greg's compressed dry comic register has leaked into the cast, whether relationship/state/scene pressure changes speech naturally, whether strangers are too optimized, whether specialists speak from their own responsibilities, and whether productive imperfection survives editing.
 
 ## Authority layering
 
@@ -39,24 +26,20 @@ A prior dialogue-pass `REVIEWED` marker does **not** count as variance coverage.
 
 ## Core runtime
 
-Use:
-
 **SPOKEN MOMENT = BASE VOICE + RELATIONSHIP + CURRENT STATE + SCENE PRESSURE + SMALL HUMAN VARIANCE**
 
-Greg remains the gravitational center of short dry compressed comic reduction.
-
-Other characters may be funny, dry, clever, sarcastic, or terse. The goal is not to make the cast dull. The goal is to stop the whole city from sharing Greg's exact joke architecture.
+Greg remains the gravitational center of short dry compressed comic reduction. Other characters may be funny, dry, clever, sarcastic, or terse. The goal is asymmetry, not dullness.
 
 ## Sequential coverage ledger
 
-- Chapters **1-80: VARIANCE REVIEWED**
-- Chapters **81-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-85: VARIANCE REVIEWED**
+- Chapters **86-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 81**
+Current sequential variance edge: **Chapter 86**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_076_080.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_081_085.md`
 
 Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_001_005.md`
@@ -75,24 +58,25 @@ Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_066_070.md`
 - `state/editorial/dialogue-variance-pass/BATCH_071_075.md`
 - `state/editorial/dialogue-variance-pass/BATCH_076_080.md`
+- `state/editorial/dialogue-variance-pass/BATCH_081_085.md`
 
 Existing out-of-sequence pilot work:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches remain useful evidence but do not bridge the unreviewed 81-320 gap.
+Those later batches remain useful evidence but do not bridge the unreviewed 86-320 gap.
 
-## Chapters 1-75 result
+## Chapters 1-80 result
 
-Durable chapter-level findings remain preserved in the prior sequential batch files `BATCH_001_005.md` through `BATCH_071_075.md`. This ledger keeps the sequential authority and current watch rules; exact patch prose remains in those batch artifacts.
+Durable chapter-level findings and exact replacement prose remain preserved in the prior sequential batch files `BATCH_001_005.md` through `BATCH_076_080.md`.
 
-## Chapters 76-80 result
+## Chapters 81-85 result
 
-- Chapter 76 `THE DESCENDER`: **no variance change required**. Keeper household practicality, Nerin rehabilitation authority, Tam craft judgment, and Greg's changed body remain distinct without extra voice surgery.
-- Chapter 77 `THE SORTER`: **no variance change required**. Holl remains strongly commercial through bands, piles, throughput, worker usability, error asymmetry, and labor cost despite analytical overlap with Greg.
-- Chapter 78 `THE ARCHIVIST`: **moderate variance patch required**. Merra's archival voice is excellent once work begins, but two first-contact beats give her too much instant Greg calibration. Replace them with archive-specific instruction about supported motive and unit errors.
-- Chapter 79 `THE SPECTATOR`: **no variance change required**. Pessa/Greg/Alden remain cleanly differentiated through embodied training criteria, partial disagreement, challenge appetite, and visible work.
-- Chapter 80 `THE CUSTOMER`: **no variance change required**. Tam, Rima, Lyssa, incidental strangers, and Guild staff stay socially/commercially distinct while Greg is allowed ordinary nineteen-year-old desire and attraction.
+- Chapter 81 `THE DEBTOR`: **light variance patch required**. Antonius/Greg commercial differentiation is strong. Replace one generic `Then why face?` beat with Antonius responding to Greg still looking at the crossed ROAD category.
+- Chapter 82 `THE RECONCILER`: **light variance patch required**. Invoice, Nerin, and Lyssa lanes are healthy. Replace the keeper's opening `I didn't / you were going to` loop with teasing grounded in Greg visibly choosing the brown shirt and saving blue for later.
+- Chapter 83 `THE SUITOR`: **light variance patch required**. Date ecology is strong. Replace one early-romance `You have the face` beat at the cup game with Lyssa noticing Greg physically stopped walking.
+- Chapter 84 `THE PASSENGER`: **no variance change required**. Sevren's route/courier competence is clean precisely because he knows what his job requires and openly does not know Greg's medical limits.
+- Chapter 85 `THE ARBITER`: **light variance patch required**. Holl remains strongly commercial. Replace one `You thought it` mind-read with Holl responding to Greg already arguing against blaming Iris from inadequate data.
 
 ## High-value watch targets
 
@@ -106,7 +90,7 @@ Durable chapter-level findings remain preserved in the prior sequential batch fi
 - Relationship familiarity should change workflow and make evidence more specific, not grant sentence prediction.
 - Voice fingerprints are tendencies, not buttons.
 - First-contact perceptiveness should be expensive.
-- Commercial, medical, workshop, road, freight, custody, training, and financial boundaries should sound like their own responsibilities.
+- Professional scope can be a stronger fingerprint than diction.
 - No-change chapters are positive evidence; do not patch to meet quota.
 - A line should earn its knowledge from direct observation, shared history, records, explicit secondhand information, professional responsibility, or something Greg just said or did.
 - Institutional memory is not personal intimacy.
@@ -114,28 +98,24 @@ Durable chapter-level findings remain preserved in the prior sequential batch fi
 - Shared technical shortness is safe when responsibility remains visible.
 - Changed workflow is stronger relationship evidence than repeated banter.
 - Domain-specific anti-overgeneralization beats personality policing.
-- Ordinary records can carry emotional weight without becoming hero status.
 - Specific teasing beats generic teasing.
 - Attribution density and voice variance are separate problems.
 - Stress should degrade optimization before it erases character.
-- Ongoing investigations can justify topic anticipation without sentence prediction.
-- Medical humor should come from care tasks and uncertainty.
-- Catastrophe benefits from competent lanes.
-- Rehabilitation gives better evidence than expression-reading: grip, crutch settings, thresholds, stair counts, stopped movement, fatigue, and actual body position.
-- Specific embarrassing history can legitimately become relationship shorthand when it names a concrete repeated event rather than a universal personality tell.
-- Practical care often sounds like logistics: move the soup, count the stairs, arrange transport, keep equipment stable, ask whether a stop is needed.
-- Let the world continue without interpreting the protagonist. Jobs, routes, prices, and other people's work should keep moving around Greg.
-- Refusal density is safe when each refusal attaches to a concrete changing request rather than the same predictive joke architecture.
-- Relationship similarity is safe when desire differs. Distinct motive can carry voice even when sentence length overlaps.
-- Professional scope can be a stronger fingerprint than diction. Do not force decorative speech differences when responsibility already separates characters.
-- Teasing should attach to remembered behavior rather than a generic personality-reading token.
-- Let mundane competence stay mundane. Ordinary solutions do not need conversion into revelations or punchline ladders.
-- Significant emotional progress is often stronger when bystanders retain their own jobs, schedules, and priorities.
+- Rehabilitation gives better evidence than expression-reading.
+- Practical care often sounds like logistics.
+- Let the world continue without interpreting the protagonist.
+- Refusal density is safe when each refusal attaches to a concrete changing request.
+- Relationship similarity is safe when desire differs.
+- Let mundane competence stay mundane.
 - Expertise may overlap conceptually without overlapping voice when the protected object differs.
 - First-contact authority should correct the work before correcting the person.
-- Physical rehabilitation creates legitimate repetition when the physical object or condition changes.
-- Incidental strangers benefit from low narrative ambition; they do not all need miniature arcs or Greg interpretation.
-- Let Greg be socially young without converting clothes, attraction, embarrassment, or ordinary desire into a system.
+- Incidental strangers benefit from low narrative ambition.
+- Let Greg be socially young without converting ordinary desire into a system.
+- Established familiarity still benefits from current evidence: crossed categories, visible choices, stopped movement, and spoken arguments should usually outrank generic personality shorthand.
+- Early romance should accumulate its own shorthand slowly through specific observed habits.
+- Explicitly sourced prediction can be social texture, but watch density so secondhand reputation does not become distributed omniscience.
+- Respond to the spoken argument before the hidden intention.
+- Not knowing can be professional competence when the missing information lies outside the character's responsibility.
 
 ## Guardrails
 
@@ -167,11 +147,11 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 81**.
+Resume sequentially at **Chapter 86**.
 
 Preferred bounded queue: **5 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 81-85**.
+Next intended batch: **Chapters 86-90**.
 
 ## Restart prompt
 
