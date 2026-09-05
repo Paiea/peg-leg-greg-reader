@@ -32,14 +32,14 @@ Greg remains the gravitational center of short dry compressed comic reduction. O
 
 ## Sequential coverage ledger
 
-- Chapters **1-90: VARIANCE REVIEWED**
-- Chapters **91-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-95: VARIANCE REVIEWED**
+- Chapters **96-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 91**
+Current sequential variance edge: **Chapter 96**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_086_090.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_091_095.md`
 
 Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_001_005.md`
@@ -60,24 +60,25 @@ Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_076_080.md`
 - `state/editorial/dialogue-variance-pass/BATCH_081_085.md`
 - `state/editorial/dialogue-variance-pass/BATCH_086_090.md`
+- `state/editorial/dialogue-variance-pass/BATCH_091_095.md`
 
 Existing out-of-sequence pilot work:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches remain useful evidence but do not bridge the unreviewed 91-320 gap.
+Those later batches remain useful evidence but do not bridge the unreviewed 96-320 gap.
 
-## Chapters 1-85 result
+## Chapters 1-90 result
 
-Durable chapter-level findings and exact replacement prose remain preserved in the prior sequential batch files `BATCH_001_005.md` through `BATCH_081_085.md`.
+Durable chapter-level findings and exact replacement prose remain preserved in the prior sequential batch files `BATCH_001_005.md` through `BATCH_086_090.md`.
 
-## Chapters 86-90 result
+## Chapters 91-95 result
 
-- Chapter 86 `THE PLAYER`: **moderate variance patch required**. Preserve Alden/Jorren/Pessa game roles, but stop stacking two predictive refusal routines at the entrance and replace one generic `the face` beat with Jorren responding to Greg visibly turning play into work.
-- Chapter 87 `THE BLUFFER`: **light variance patch required**. Keep card-table face reading because the game explicitly earns it; remove one incidental delivery-boy prediction that gives a stranger instant Greg calibration.
-- Chapter 88 `THE OCCUPANT`: **no variance change required**. Looking and expression language is grounded in rent sums, stairs, shoulders, food, silence, and specific visible behavior.
-- Chapter 89 `THE SUBSTITUTE`: **light variance patch required**. Crowded Guild service ecology is healthy. Replace one Jorren `you were about to` beat with a response to Greg's explicit restraint instead of hidden intention.
-- Chapter 90 `THE BUYER`: **moderate variance patch required**. Furniture seller remains vivid through chair fit, joints, floor space, delivery, and stairs. Replace one stock `you problem` comeback with a shop boundary and ground Nessa's recognition in Greg visibly scanning for Jorren.
+- Chapter 91 `THE BEGINNER`: **moderate variance patch required**. Hessa's expectation-control and post-loss magic authority remain strong; replace two hidden-intention mini-wins with corrections grounded in Greg inventorying the table and his own spoken `encouraging` interpretation.
+- Chapter 92 `THE SPECTATOR`: **moderate variance patch required**. Pessa's drill authority is strong; replace sentence prediction and generic face-reading with direct ownership of the drill and rejection of Greg's already-proposed redesign.
+- Chapter 93 `THE HOLDER`: **light variance patch required**. Training ecology is excellent. Replace one eyebrow-reading beat with Pessa simply returning Greg to repetition, which is more specific to her inventory-before-architecture method.
+- Chapter 94 `THE SUBJECT`: **moderate variance patch required**. Hessa's control design remains strong; after Greg's first failed draw, have her ask what changed rather than perfectly infer why he stopped from his face.
+- Chapter 95 `THE TASTER`: **light variance patch required**. Pepper, Jorren downtime, and stall behavior are healthy. Replace one generic `thinking face` beat with Jorren noticing Greg stopped eating and stared into the cup.
 
 ## High-value watch targets
 
@@ -122,6 +123,11 @@ Durable chapter-level findings and exact replacement prose remain preserved in t
 - A specialist's funniest line often comes from jurisdiction: shop floor, chair joints, route, bay board, wound restriction, or other owned responsibility.
 - `You looked` is healthy when the object/action is explicit; the weak form is an unspecified face standing in for an exact hidden sentence.
 - Crowded service scenes naturally resist compression because incomplete problems, competing incentives, and local ignorance create useful social friction.
+- Expert familiarity should improve the question, not eliminate the need to ask it. Hessa and Pessa can use deep history to ask better questions from current evidence without perfectly stating Greg's private explanation first.
+- Procedural authority can replace predictive authority. Owning the test, drill, permission, or stopping condition is often stronger than predicting Greg's next sentence.
+- Repetition can itself be character-specific dialogue. Pessa's `Again` may be more distinctive than a clever read because her method requires physical accumulation before architecture.
+- Physical causes can legitimize expression-reading. Pepper, visible strain, card-table behavior, and an explicitly observed movement may change faces in ways characters can reasonably use.
+- Social support can remain underperformed. A friend does not need specialist curiosity or ceremonial emotion to prove care when a plain `Good` is relationship-true.
 
 ## Guardrails
 
@@ -153,11 +159,11 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 91**.
+Resume sequentially at **Chapter 96**.
 
 Preferred bounded queue: **5 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 91-95**.
+Next intended batch: **Chapters 96-100**.
 
 ## Restart prompt
 
