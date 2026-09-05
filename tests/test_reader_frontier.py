@@ -1,3 +1,4 @@
+import json
 import sys
 import tempfile
 import unittest
@@ -25,6 +26,11 @@ class ReaderFrontierTests(unittest.TestCase):
         illustrated_penultimate_forward_ok: bool = True,
         text_penultimate_forward_ok: bool = True,
         latest_landing_ok: bool = True,
+        latest_landing_number_ok: bool = True,
+        latest_landing_title_ok: bool = True,
+        manifest_latest_ok: bool = True,
+        manifest_entry_ok: bool = True,
+        manifest_future_entry: bool = False,
     ) -> None:
         (root / 'chapters').mkdir()
         (root / 'light').mkdir()
@@ -79,8 +85,30 @@ class ReaderFrontierTests(unittest.TestCase):
             encoding='utf-8',
         )
         latest_target = latest if latest_landing_ok else previous
+        landing_number = latest if latest_landing_number_ok else previous
+        landing_title = text_title if latest_landing_title_ok else 'THE WRONG TITLE'
         (root / 'latest.html').write_text(
+            f'<h1>Chapter {landing_number}</h1><h2>{landing_title}</h2>'
             f'<a class="primary-action" href="light/{latest_target:03d}.html">Read Chapter {latest_target}</a>',
+            encoding='utf-8',
+        )
+        manifest_latest = latest if manifest_latest_ok else previous
+        manifest_entry = {
+            'number': latest,
+            'title': text_title if manifest_entry_ok else 'THE WRONG TITLE',
+            'source': 'manuscript',
+            'path': f'{latest:03d}.html' if manifest_entry_ok else f'{previous:03d}.html',
+        }
+        manifest_chapters = [manifest_entry]
+        if manifest_future_entry:
+            manifest_chapters.append({
+                'number': latest + 1,
+                'title': 'THE FUTURE',
+                'source': 'manuscript',
+                'path': f'{latest + 1:03d}.html',
+            })
+        (root / 'light' / 'manifest.json').write_text(
+            json.dumps({'latest': manifest_latest, 'chapters': manifest_chapters}),
             encoding='utf-8',
         )
 
@@ -182,6 +210,41 @@ class ReaderFrontierTests(unittest.TestCase):
             root = Path(tmp)
             self.write_frontier(root, latest_landing_ok=False)
             with self.assertRaisesRegex(AssertionError, 'Latest landing page is stale'):
+                verify_reader_frontier(root)
+
+    def test_rejects_stale_latest_landing_chapter_number(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.write_frontier(root, latest_landing_number_ok=False)
+            with self.assertRaisesRegex(AssertionError, 'Latest landing chapter number is stale'):
+                verify_reader_frontier(root)
+
+    def test_rejects_stale_latest_landing_title(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.write_frontier(root, latest_landing_title_ok=False)
+            with self.assertRaisesRegex(AssertionError, 'Latest landing title is stale'):
+                verify_reader_frontier(root, expected_title='THE COUNT')
+
+    def test_rejects_stale_manifest_latest_field(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.write_frontier(root, manifest_latest_ok=False)
+            with self.assertRaisesRegex(AssertionError, 'Text manifest latest field is stale'):
+                verify_reader_frontier(root)
+
+    def test_rejects_stale_manifest_frontier_entry(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.write_frontier(root, manifest_entry_ok=False)
+            with self.assertRaisesRegex(AssertionError, 'Text manifest frontier entry is stale'):
+                verify_reader_frontier(root, expected_title='THE COUNT')
+
+    def test_rejects_manifest_entry_beyond_published_frontier(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.write_frontier(root, manifest_future_entry=True)
+            with self.assertRaisesRegex(AssertionError, 'Text manifest contains chapter beyond published frontier'):
                 verify_reader_frontier(root)
 
 
