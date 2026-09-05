@@ -35,6 +35,31 @@ class LightRouterContractTests(unittest.TestCase):
         self.assertIn("script.src = 'assets/light-reader.js", router)
         self.assertLess(router.index('requested > latest'), router.index("script.src = 'assets/light-reader.js"))
 
+    def test_router_derives_first_static_chapter_from_manifest(self):
+        router = self.router()
+        self.assertIn('const staticNumbers = manifest.chapters', router)
+        self.assertIn('const firstStatic = Math.min(...staticNumbers);', router)
+
+    def test_router_fallback_is_limited_to_legacy_chapters(self):
+        router = self.router()
+        self.assertIn('if (requested >= firstStatic)', router)
+        self.assertLess(router.index('if (requested >= firstStatic)'), router.index("script.src = 'assets/light-reader.js"))
+
+    def test_router_rejects_static_manifest_holes_instead_of_masking_them(self):
+        router = self.router()
+        self.assertIn("location.replace('light/index.html');", router)
+        self.assertIn('if (requested >= firstStatic)', router)
+
+    def test_router_rejects_malformed_manifest_metadata(self):
+        router = self.router()
+        self.assertIn("if (!manifest || !Array.isArray(manifest.chapters))", router)
+        self.assertIn('if (!Number.isInteger(latest) || staticNumbers.length === 0)', router)
+
+    def test_frontier_verifier_requires_contiguous_text_manifest_range(self):
+        verifier = (ROOT / 'scripts/verify_reader_frontier.py').read_text(encoding='utf-8')
+        self.assertIn("Text manifest chapter range is not contiguous", verifier)
+        self.assertIn('manifest_numbers = sorted(', verifier)
+
 
 if __name__ == '__main__':
     unittest.main()
