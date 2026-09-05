@@ -27,6 +27,7 @@ class BookContentsCssTests(unittest.TestCase):
         self.assertNotIn('transform:', css)
 
     def test_book_summaries_are_touchable_and_current_book_is_obvious(self):
+        # This test intentionally exercises the shared CSS used by both reader modes.
         root = Path(__file__).parents[1] / 'assets'
         base_css = (root / 'book-contents-base.css').read_text(encoding='utf-8')
         self.assertIn('min-height: 44px', base_css)
