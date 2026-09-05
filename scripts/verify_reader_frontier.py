@@ -69,6 +69,8 @@ def verify_reader_frontier(
 
     if f'href="../light/{latest:03d}.html"' not in illustrated_text:
         raise AssertionError('Illustrated page does not link matching Text chapter')
+    if f'href="../chapters/{latest:03d}.html"' not in light_text:
+        raise AssertionError('Text page does not link matching Illustrated chapter')
 
     index_text = (root / 'index.html').read_text(encoding='utf-8')
     light_index_text = (root / 'light' / 'index.html').read_text(encoding='utf-8')
