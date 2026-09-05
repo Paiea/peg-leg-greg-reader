@@ -1,5 +1,5 @@
 {
-  "latest": 344,
+  "latest": 345,
   "chapters": [
     {
       "number": 100,
@@ -1470,6 +1470,12 @@
       "title": "THE QUIET GUEST",
       "source": "checkpoint",
       "path": "344.html"
+    },
+    {
+      "number": 345,
+      "title": "THE BENCH",
+      "source": "checkpoint",
+      "path": "345.html"
     }
   ]
 }
