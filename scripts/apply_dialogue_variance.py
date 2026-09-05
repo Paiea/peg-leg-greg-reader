@@ -12,7 +12,6 @@ STATE = ROOT / 'state' / 'editorial' / 'DIALOGUE_VARIANCE_PASS_STATE.md'
 BATCH_DIR = ROOT / 'state' / 'editorial' / 'dialogue-variance-pass'
 CHAPTERS = ROOT / 'chapters'
 FIGURE_TOKEN_RE = r'\[\[\[PLG_FIGURE_\d+\]\]\]'
-INLINE_TOKEN_RE = r'\[\[\[PLG_INLINE_\d+\]\]\]'
 
 
 @dataclass(frozen=True)
@@ -76,15 +75,35 @@ def _protect_inline(inner: str, sentinels: dict[str, str], counter: list[int]) -
     return html.unescape(protected)
 
 
+def _literal_pattern(text: str) -> str:
+    parts: list[str] = []
+    for char in text:
+        if char == '"':
+            parts.append('["“”]')
+        elif char == "'":
+            parts.append("['‘’]")
+        else:
+            parts.append(re.escape(char))
+    return ''.join(parts)
+
+
 def _sequence_pattern(lines: list[str]) -> re.Pattern[str]:
     if not lines:
         raise AssertionError('cannot match empty dialogue sequence')
-    parts = [re.escape(lines[0])]
+    parts = [_literal_pattern(lines[0])]
     separator = rf'(?:\s|{FIGURE_TOKEN_RE})*'
     for idx, line in enumerate(lines[1:]):
         parts.append(rf'(?P<gap{idx}>{separator})')
-        parts.append(re.escape(line))
+        parts.append(_literal_pattern(line))
     return re.compile(''.join(parts), re.S)
+
+
+def _reader_typography(text: str, matched: str) -> str:
+    if '“' in matched or '”' in matched:
+        text = re.sub(r'"([^"\n]*)"', lambda m: f'“{m.group(1)}”', text)
+    if '’' in matched:
+        text = re.sub(r"(?<=\w)'(?=\w)", '’', text)
+    return text
 
 
 def _target_lines(patch: Patch) -> list[str]:
@@ -114,10 +133,11 @@ def _target_lines(patch: Patch) -> list[str]:
 
 
 def _replacement_with_preserved_gaps(match: re.Match[str], replacement: list[str], target_count: int) -> str:
+    styled = [_reader_typography(line, match.group(0)) for line in replacement]
     gaps = [match.group(f'gap{i}') for i in range(max(0, target_count - 1))]
-    if len(replacement) == target_count:
-        pieces = [replacement[0]]
-        for idx, line in enumerate(replacement[1:]):
+    if len(styled) == target_count:
+        pieces = [styled[0]]
+        for idx, line in enumerate(styled[1:]):
             pieces.append(gaps[idx])
             pieces.append(line)
         return ''.join(pieces)
@@ -125,9 +145,9 @@ def _replacement_with_preserved_gaps(match: re.Match[str], replacement: list[str
     figures: list[str] = []
     for gap in gaps:
         figures.extend(re.findall(FIGURE_TOKEN_RE, gap))
-    text = '\n\n'.join(replacement)
+    text = '\n\n'.join(styled)
     if figures:
-        if len(replacement) > 1:
+        if len(styled) > 1:
             first, rest = text.split('\n\n', 1)
             text = first + '\n\n' + '\n\n'.join(figures) + '\n\n' + rest
         else:
