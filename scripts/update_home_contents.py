@@ -8,7 +8,8 @@ from pathlib import Path
 
 START = '<!-- READER BOOK CONTENTS START -->'
 END = '<!-- READER BOOK CONTENTS END -->'
-TOC_OPEN = '<section aria-labelledby="chapters-heading" class="toc toc-acts" id="chapters">'
+BOOKS_TOC_OPEN = '<section aria-labelledby="books-heading" class="toc toc-acts" id="books">'
+LEGACY_TOC_OPEN = '<section aria-labelledby="chapters-heading" class="toc toc-acts" id="chapters">'
 BOOK_CSS = '<link href="assets/book-contents.css" rel="stylesheet"/>'
 
 
@@ -62,18 +63,27 @@ def ensure_stylesheet(text: str) -> str:
     return text.replace(reader_css, reader_css + '\n' + BOOK_CSS, 1)
 
 
+def upgrade_home_book_labels(text: str) -> str:
+    text = text.replace('href="#chapters">Chapters</a>', 'href="#books">Illustrated Reader</a>')
+    text = text.replace('aria-labelledby="chapters-heading" class="home-chapters"', 'aria-labelledby="books-heading" class="home-chapters"')
+    text = text.replace('<p class="home-kicker">Read straight through</p>', '<p class="home-kicker">The novel</p>')
+    text = text.replace('<h2 id="chapters-heading">Chapters</h2>', '<h2 id="books-heading">Books</h2>')
+    return text
+
+
 def patch_home_contents(text: str, rendered_books: str) -> str:
-    replacement = f'{START}\n{TOC_OPEN}{rendered_books}</section>\n{END}'
+    replacement = f'{START}\n{BOOKS_TOC_OPEN}{rendered_books}</section>\n{END}'
     if START in text and END in text:
         before, rest = text.split(START, 1)
         _, after = rest.split(END, 1)
-        return before + replacement + after
+        return upgrade_home_book_labels(before + replacement + after)
 
-    start = text.find(TOC_OPEN)
-    if start < 0:
-        raise ValueError('illustrated contents section not found')
-    end = _find_section_end(text, start)
-    return text[:start] + replacement + text[end:]
+    for toc_open in (BOOKS_TOC_OPEN, LEGACY_TOC_OPEN):
+        start = text.find(toc_open)
+        if start >= 0:
+            end = _find_section_end(text, start)
+            return upgrade_home_book_labels(text[:start] + replacement + text[end:])
+    raise ValueError('illustrated contents section not found')
 
 
 def render_home_contents(
