@@ -49,24 +49,25 @@ Other characters may be funny, dry, clever, sarcastic, or terse. The goal is not
 
 ## Sequential coverage ledger
 
-- Chapters **1–10: VARIANCE REVIEWED**
-- Chapters **11–320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1–15: VARIANCE REVIEWED**
+- Chapters **16–320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321–330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331–352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 11**
+Current sequential variance edge: **Chapter 16**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_006_010.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_011_015.md`
 
 Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_001_005.md`
 - `state/editorial/dialogue-variance-pass/BATCH_006_010.md`
+- `state/editorial/dialogue-variance-pass/BATCH_011_015.md`
 
 Existing out-of-sequence pilot work:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches remain useful evidence but do not bridge the unreviewed 11–320 gap.
+Those later batches remain useful evidence but do not bridge the unreviewed 16–320 gap.
 
 ## Chapters 1–5 result
 
@@ -83,6 +84,14 @@ Those later batches remain useful evidence but do not bridge the unreviewed 11�
 - Chapter 8 `THE COLLECTOR`: **light variance patch required**. Rusk's predictive `No` is becoming a repeated comedy button; replace one occurrence with explicit scope language while preserving his operational shortness.
 - Chapter 9 `THE LENDER`: **2 variance patches required**. Preserve Antonius's strong father/cooper/borrower material; reduce the opening `No` ladder and let silence carry more of his control.
 - Chapter 10 `THE APPRAISER`: **strong variance patch required**. Greg, Arlo, and Antonius repeatedly share the same compact counterpunch machinery. Keep domain overlap but shift Arlo toward material/test risk and Antonius toward value/collateral consequence.
+
+## Chapters 11–15 result
+
+- Chapter 11 `THE MAGE`: **light variance patch required**. Hessa's safety `No` remains valid, but one moth volley and one Antonius financial-prediction volley are better converted into body/load and ledger consequence.
+- Chapter 12 `THE RESEARCHER`: **strong variance patch required**. Antonius's underlying ownership/risk voice is good, but repeated spoon/water/lamp/mana `No` ladders turn resource control into house comedy machinery.
+- Chapter 13 `THE STUDENT`: **strong variance patch required**. Arlo's cognition is excellent, but the surface dialogue repeatedly predicts Greg, fires `No` as a button, and matches Greg's timing. Let fixtures, notebooks, process ownership, test limits, and physical causes do more of the talking.
+- Chapter 14 `THE ESCORT`: **moderate variance patch required**. Jorren largely survives; incidental clerk/Lara lines and one Jorren counter should move toward institutional, repair, and embodied observation rather than instant sarcasm.
+- Chapter 15 `THE OBSERVER`: **light-to-moderate variance patch required**. Preserve Alden's active teasing and initiative, including intentional Greg/Alden convergence when the prose notices it; reduce Jorren's participation in extended joke volleys so he returns to the physical job sooner.
 
 ## High-value watch targets
 
@@ -110,15 +119,48 @@ High-risk convergence:
 - everybody converts uncertainty into a neat one-liner;
 - everybody lands a counterpunch before returning to work.
 
-### 4. Stress modulation
+### 4. Safety `No`, job `No`, and comedy `No`
+
+Do not purge short refusal mechanically.
+
+A refusal is strongly character-owned when refusing **is the work**:
+- Hessa stops unsafe magical repetition;
+- Rusk stops assignment creep;
+- Antonius withholds private ledger information;
+- Arlo blocks a risky touch or protects test integrity.
+
+The same surface form becomes convergence when it is repeatedly used as a punchline ladder rather than a real decision.
+
+### 5. Let actions replace rebuttals
+
+For operational characters, an action may carry the voice better than another perfect line:
+- move the crate;
+- shelf the fixture;
+- cover the ledger;
+- take out the rope;
+- return to the bench;
+- point to the damaged part.
+
+This is especially useful when a scene already contains multiple dry speakers.
+
+### 6. Specialists may earn longer lines
+
+A slightly longer specialist answer is not dialogue bloat when the line explains the exact variable that matters.
+
+Examples:
+- Arlo names test condition, matched-set risk, winding tension, or the physical cause of a reading.
+- Hessa names channel cost, body state, or stopping condition.
+- Lara names the axle problem and required help.
+
+### 7. Stress modulation
 
 Danger, fatigue, embarrassment, fear, money pressure, attraction, grief, pain, and divided attention should sometimes degrade verbal optimization.
 
-### 5. Relationship-specific rhythm
+### 8. Relationship-specific rhythm
 
 A person speaking to Greg, a customer, authority, subordinate, lover, friend, or stranger should not sound mechanically identical.
 
-### 6. Productive imperfection
+### 9. Productive imperfection
 
 Protect occasional:
 - overexplaining;
@@ -135,9 +177,11 @@ Protect occasional:
 
 Do not sprinkle these randomly. Let state and relationship earn them.
 
-### 7. Specialists may earn longer lines
+### 10. Intentional convergence can be character evidence
 
-A slightly longer specialist answer is not dialogue bloat when the line explains the exact variable that matters. Arlo saying why he cannot price an active matched set can be more character-specific than `Unknown.` followed by another joke.
+Do not erase every echo.
+
+Greg and Alden can deliberately land on the same line or rhythm when the prose itself recognizes that compatibility as meaningful. The question is whether the convergence is narratively owned and relationship-specific, or merely the default house cadence leaking into everyone.
 
 ## Guardrails
 
@@ -169,11 +213,11 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 11**.
+Resume sequentially at **Chapter 16**.
 
 Preferred bounded queue: **5 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 11–15**.
+Next intended batch: **Chapters 16–20**.
 
 ## Restart prompt
 
