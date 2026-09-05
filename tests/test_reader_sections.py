@@ -47,16 +47,21 @@ class ReaderSectionsTests(unittest.TestCase):
             [(act.start, act.end, act.title) for act in book_four.acts],
             [(321, 330, 'WHAT THINGS COST'), (331, None, 'BEYOND THE DOOR')],
         )
+        self.assertEqual(
+            [book.card_href for book in BOOKS],
+            ['chapters/005.html', 'chapters/177.html', 'chapters/231.html', 'chapters/331.html'],
+        )
 
-    def test_published_role_card_paths_resolve(self):
+    def test_all_four_published_role_card_paths_resolve(self):
         root = Path(__file__).parents[1]
         expected = {
             'assets/book-role-cards/book-i-warrior-005.webp',
             'assets/book-role-cards/book-ii-stagehand-177.webp',
             'assets/book-role-cards/book-iii-magistrate-231.webp',
+            'assets/book-role-cards/book-iv-surveyor-331.webp',
         }
-        for book in BOOKS[:3]:
-            self.assertIn(book.card_src, expected)
+        self.assertEqual({book.card_src for book in BOOKS}, expected)
+        for book in BOOKS:
             path = root / book.card_src
             self.assertTrue(path.is_file(), f'missing role-card asset: {book.card_src}')
             self.assertEqual(webp_size(path), (720, 960))
@@ -68,37 +73,43 @@ class ReaderSectionsTests(unittest.TestCase):
         self.assertIn('Surveyor', book_four.card_alt)
 
     def test_light_renderer_has_shared_four_book_hierarchy_without_images(self):
-        links = {n: f'<a href="{n:03d}.html">Chapter {n}</a>' for n in range(1, 345)}
+        links = {n: f'<a href="{n:03d}.html">Chapter {n}</a>' for n in range(1, 352)}
         rendered = render_book_sections(links, illustrated=False)
         for label in ('BOOK I', 'BOOK II', 'BOOK III', 'BOOK IV'):
             self.assertIn(label, rendered)
         self.assertIn('Chapters 181–320', rendered)
         self.assertIn('ACT III · Chapters 281–320', rendered)
         self.assertIn('THE WIDER LIFE', rendered)
-        self.assertIn('Chapters 321–344', rendered)
-        self.assertIn('ACT II · Chapters 331–344', rendered)
+        self.assertIn('Chapters 321–351', rendered)
+        self.assertIn('ACT II · Chapters 331–351', rendered)
         self.assertIn('BEYOND THE DOOR', rendered)
         self.assertNotIn('reader-book-card-image', rendered)
         self.assertNotIn('<img', rendered)
 
     def test_books_are_primary_disclosures_and_latest_book_opens(self):
-        links = {n: f'<a href="chapters/{n:03d}.html">Chapter {n}</a>' for n in range(1, 345)}
+        links = {n: f'<a href="chapters/{n:03d}.html">Chapter {n}</a>' for n in range(1, 352)}
         rendered = render_book_sections(links, illustrated=False)
         self.assertEqual(rendered.count('class="reader-book"'), 4)
         self.assertEqual(rendered.count('class="reader-book-summary"'), 4)
         self.assertEqual(rendered.count('<details class="reader-book" open>'), 1)
         self.assertIn('<details class="reader-book" open><summary class="reader-book-summary"', rendered)
+        self.assertIn('Chapters 321–351', rendered)
         self.assertLess(rendered.rindex('BOOK IV'), rendered.rindex('ACT II'))
 
-    def test_illustrated_renderer_uses_all_four_role_cards(self):
-        links = {n: f'<a href="chapters/{n:03d}.html">Chapter {n}</a>' for n in range(1, 345)}
+    def test_illustrated_renderer_uses_all_four_role_cards_and_illustrated_links(self):
+        links = {n: f'<a href="chapters/{n:03d}.html">Chapter {n}</a>' for n in range(1, 352)}
         rendered = render_book_sections(links, illustrated=True)
         self.assertEqual(rendered.count('class="reader-book-card-image"'), 4)
-        self.assertIn('src="assets/book-role-cards/book-i-warrior-005.webp"', rendered)
-        self.assertIn('src="assets/book-role-cards/book-ii-stagehand-177.webp"', rendered)
-        self.assertIn('src="assets/book-role-cards/book-iii-magistrate-231.webp"', rendered)
-        self.assertIn('src="assets/book-role-cards/book-iv-surveyor-331.webp"', rendered)
-        self.assertIn('href="chapters/331.html"', rendered)
+        for src in (
+            'assets/book-role-cards/book-i-warrior-005.webp',
+            'assets/book-role-cards/book-ii-stagehand-177.webp',
+            'assets/book-role-cards/book-iii-magistrate-231.webp',
+            'assets/book-role-cards/book-iv-surveyor-331.webp',
+        ):
+            self.assertIn(f'src="{src}"', rendered)
+        for href in ('chapters/005.html', 'chapters/177.html', 'chapters/231.html', 'chapters/331.html'):
+            self.assertIn(f'href="{href}"', rendered)
+        self.assertIn('Chapters 321–351', rendered)
         self.assertEqual(rendered.count('<details class="reader-book" open>'), 1)
 
 
