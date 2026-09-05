@@ -58,7 +58,7 @@ BOOKS = (
         ),
         'assets/book-role-cards/book-ii-stagehand-177.webp',
         'The Stagehand, Chapter 177: young bearded Greg working backstage, framed above the waist with no lower-body or mobility detail visible.',
-        'light/177.html',
+        'chapters/177.html',
     ),
     ReaderBook(
         'BOOK III', 'book-iii', 181, 320,
@@ -69,7 +69,7 @@ BOOKS = (
         ),
         'assets/book-role-cards/book-iii-magistrate-231.webp',
         'The Magistrate, Chapter 231: young bearded Greg inhabiting the theatrical magistrate role at a petitions desk.',
-        'light/231.html',
+        'chapters/231.html',
     ),
     ReaderBook(
         'BOOK IV', 'book-iv', 321, None,
