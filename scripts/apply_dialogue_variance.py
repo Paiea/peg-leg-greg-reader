@@ -12,6 +12,7 @@ STATE = ROOT / 'state' / 'editorial' / 'DIALOGUE_VARIANCE_PASS_STATE.md'
 BATCH_DIR = ROOT / 'state' / 'editorial' / 'dialogue-variance-pass'
 CHAPTERS = ROOT / 'chapters'
 FIGURE_TOKEN_RE = r'\[\[\[PLG_FIGURE_\d+\]\]\]'
+BATCH_NAME_RE = re.compile(r'BATCH_(\d+)_(\d+)\.md')
 
 
 @dataclass(frozen=True)
@@ -244,20 +245,71 @@ def reviewed_edge() -> int:
 def selected_batches(edge: int) -> list[Path]:
     selected: list[Path] = []
     for path in sorted(BATCH_DIR.glob('BATCH_*.md')):
-        match = re.fullmatch(r'BATCH_(\d+)_(\d+)\.md', path.name)
+        match = BATCH_NAME_RE.fullmatch(path.name)
         if match and int(match.group(2)) < edge:
             selected.append(path)
     return selected
 
 
+def validate_batch_contract(edge: int, batches: list[Path]) -> list[Patch]:
+    if not batches:
+        raise AssertionError('no completed sequential dialogue variance batches found')
+
+    ranged: list[tuple[int, int, Path]] = []
+    for path in batches:
+        match = BATCH_NAME_RE.fullmatch(path.name)
+        if not match:
+            raise AssertionError(f'unrecognized dialogue variance batch name: {path.name}')
+        start, end = map(int, match.groups())
+        if start > end:
+            raise AssertionError(f'{path.name}: batch range is reversed')
+        ranged.append((start, end, path))
+    ranged.sort(key=lambda item: (item[0], item[1], item[2].name))
+
+    expected_start = 1
+    patches: list[Patch] = []
+    seen_patch_ids: dict[str, str] = {}
+    for start, end, path in ranged:
+        if start < expected_start:
+            raise AssertionError(
+                f'{path.name}: batch range overlap; expected Chapter {expected_start}, found {start}'
+            )
+        if start > expected_start:
+            if expected_start == 1:
+                raise AssertionError(f'sequential dialogue variance batches must start at Chapter 1, found {start}')
+            raise AssertionError(
+                f'dialogue variance batch gap before {path.name}: expected Chapter {expected_start}, found {start}'
+            )
+        if end >= edge:
+            raise AssertionError(
+                f'{path.name}: batch extends beyond reviewed edge {edge}; last reviewed chapter is {edge - 1}'
+            )
+
+        batch_patches = parse_batch(path.read_text(encoding='utf-8'))
+        for patch in batch_patches:
+            if not start <= patch.chapter <= end:
+                raise AssertionError(
+                    f'{patch.patch_id}: Chapter {patch.chapter} is outside batch range {start}-{end} in {path.name}'
+                )
+            if patch.patch_id in seen_patch_ids:
+                raise AssertionError(
+                    f'duplicate patch id {patch.patch_id}: {seen_patch_ids[patch.patch_id]} and {path.name}'
+                )
+            seen_patch_ids[patch.patch_id] = path.name
+        patches.extend(batch_patches)
+        expected_start = end + 1
+
+    if expected_start != edge:
+        raise AssertionError(
+            f'dialogue variance batch gap before reviewed edge {edge}: expected Chapter {expected_start}'
+        )
+    return patches
+
+
 def integrate(*, write: bool = True) -> tuple[int, int]:
     edge = reviewed_edge()
     batches = selected_batches(edge)
-    if not batches:
-        raise AssertionError('no completed sequential dialogue variance batches found')
-    patches: list[Patch] = []
-    for path in batches:
-        patches.extend(parse_batch(path.read_text(encoding='utf-8')))
+    patches = validate_batch_contract(edge, batches)
 
     changed_chapters = 0
     applied = 0
