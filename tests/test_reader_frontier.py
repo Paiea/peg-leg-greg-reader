@@ -68,6 +68,13 @@ class ReaderFrontierTests(unittest.TestCase):
             with self.assertRaisesRegex(AssertionError, 'Illustrated title mismatch'):
                 verify_reader_frontier(root, expected_title='THE COUNT')
 
+    def test_rejects_latest_text_title_mismatch_with_authority(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.write_frontier(root, text_title='THE WRONG TITLE')
+            with self.assertRaisesRegex(AssertionError, 'Text title mismatch'):
+                verify_reader_frontier(root, expected_title='THE COUNT')
+
 
 if __name__ == '__main__':
     unittest.main()
