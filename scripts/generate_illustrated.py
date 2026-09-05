@@ -47,18 +47,12 @@ def prose_with_art(prose_html: str, art: list[Path], number: int) -> str:
 
 def render_chapter(chapter: Chapter, all_numbers: list[int], art: list[Path]) -> str:
     available = set(all_numbers)
-    previous = chapter.number - 1
-    following = chapter.number + 1
+    previous, following = chapter.number - 1, chapter.number + 1
     prev_link = f'<a rel="prev" href="{previous:03d}.html">← Chapter {previous}</a>' if previous in available else '<span class="is-disabled">← Previous</span>'
     next_link = f'<a rel="next" href="{following:03d}.html">Chapter {following} →</a>' if following in available else '<span class="is-disabled">Next →</span>'
     prose = prose_with_art(chapter.prose_html, art, chapter.number)
-    title = html.escape(chapter.title)
-    title_case = html.escape(chapter.title.title())
-    return f'''<!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta name="description" content="Peg-Leg Greg Chapter {chapter.number}: {title_case}."/><title>Chapter {chapter.number}: {title_case} — Peg-Leg Greg</title><link href="../assets/reader.css" rel="stylesheet"/></head>
-<body><header class="site-head"><a href="../index.html">PEG-LEG GREG</a><nav aria-label="Reader navigation" class="site-nav"><a href="../index.html#chapters">CHAPTERS</a><a href="../light/{chapter.number:03d}.html">TEXT</a><a href="../art.html">ART</a></nav></header>
-<main class="chapter-shell"><nav class="chapter-nav chapter-nav-top" aria-label="Chapter navigation">{prev_link}<a href="../index.html#chapters">Chapters</a>{next_link}</nav><header class="chapter-title"><div class="number">CHAPTER {chapter.number}</div><h1>{title}</h1></header><article class="prose">{prose}</article><nav class="chapter-nav" aria-label="Chapter navigation">{prev_link}<a href="../index.html#chapters">Chapters</a>{next_link}</nav></main>
-<script>try{{localStorage.setItem('plg:lastIllustratedChapter','{chapter.number}')}}catch(e){{}}</script></body></html>'''
+    title, title_case = html.escape(chapter.title), html.escape(chapter.title.title())
+    return f'''<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta name="description" content="Peg-Leg Greg Chapter {chapter.number}: {title_case}."/><title>Chapter {chapter.number}: {title_case} — Peg-Leg Greg</title><link href="../assets/reader.css" rel="stylesheet"/></head><body><header class="site-head"><a href="../index.html">PEG-LEG GREG</a><nav aria-label="Reader navigation" class="site-nav"><a href="../index.html#books">BOOKS</a><a href="../light/{chapter.number:03d}.html">TEXT READER</a><a href="../art.html">ILLUSTRATIONS</a></nav></header><main class="chapter-shell"><nav class="chapter-nav chapter-nav-top" aria-label="Chapter navigation">{prev_link}<a class="toclink" href="../index.html#books">Contents</a>{next_link}</nav><header class="chapter-title"><div class="number">CHAPTER {chapter.number}</div><h1>{title}</h1></header><article class="prose">{prose}</article><nav class="chapter-nav" aria-label="Chapter navigation">{prev_link}<a class="toclink" href="../index.html#books">Contents</a>{next_link}</nav></main><script>try{{localStorage.setItem('plg:lastIllustratedChapter','{chapter.number}')}}catch(e){{}}</script></body></html>'''
 
 
 def main() -> int:
