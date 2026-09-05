@@ -1,10 +1,10 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 347 - **THE GATE HAND**.
+- Current exact story endpoint: Chapter 348 - **THE CLEARER**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249-347 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
+- Exact Chapters 249-348 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
 
 ## Production rules
 - One chapter at a time. Target 2,500-4,000 words and clear 2,500 unless explicitly changed.
@@ -15,115 +15,102 @@
 - Apply economy, rhythm/artifact, market-intelligence, and pricing continuity when relevant.
 
 ## Current direction
-- Ch347 converts the Ch346 North Secondary reopening into a concrete city/work consequence rather than immediate investigation.
-- Greg takes one temporary **day-passage gate-hand** shift at North Secondary. His job is intentionally narrow: check route-tag numbers, call loads, mark IN/CLEAR, and stay out of road operations.
-- The shift pays **2c cash + included meal**. It is not a standing job. Future gate work is board-posted only if needed.
-- The chapter gives the rest-stone thread a safe external-context advance without opening/testing/appraising Greg's K-14-6.
-- Greg observes one broad rest-family unit mounted under a stabilized freight wagon and another different stabilized system later. This establishes that at least some rest-family units operate as mounted system components. It does NOT establish Greg's K-14-6 exact application, compatibility, safe mounting, function, value, or test procedure.
-- Ch347 keeps Hessa/magic completely inactive and does not return to holdfast work.
+- Ch348 deliberately changes grammar after the recent theatre/artifact/magic/gate sequence by bringing pressure home instead of opening another external job, investigation, appraisal, or magic session.
+- Lyssa buys a used folding professional work table with an ordinary low-draw flat-line rail because her existing sewing/alteration work has become inconvenient to keep moving on and off the household dining table.
+- The meaningful change is spatial and relational: Lyssa's work now has a persistent physical footprint in the shared household.
+- Greg helps by clearing/rearranging space and then staying out of her work. He does NOT become her business manager, analyst, customer tracker, assistant, or artifact interpreter.
+- The table is a common professional tool, not a mystery artifact, hidden legendary object, or Greg acquisition opportunity.
+- Hessa/magic, North Secondary, K-14-6, holdfast, and Greg's own artifact inventory all remain inactive in Ch348.
 
 ## Money / capital
-- Greg begins Ch347 with **3 private copper + 0 bits**.
-- North Secondary temporary gate-hand shift pays **2c cash** and includes a meal.
-- Greg ends Ch347 with **5 private copper + 0 bits**.
+- Greg begins and ends Ch348 with **5 private copper + 0 bits**.
 - Vale principal-equivalent debt remains **26c**.
-- No debt payment/credit, artifact purchase, fee, or other spending.
-- One-copper Tool Lane repair-junk basket is passed again. With 5c, Greg's reaction is value-based rather than scarcity-based: it is merely junk, not impossible.
+- No Greg income, spending, debt payment/credit, artifact purchase, fee, or price change.
+- Lyssa bought and paid for the work table herself. Exact price, her cash balance, and broader finances are not established because they are hers.
+- An unnamed customer pays Lyssa for her own work in Ch348, but exact amount is not stated and is not Greg's money.
 
 ## North Secondary / temporary day passage
-- Ch346 public board had reopened North Secondary for marked daytime passage while night closure remained.
-- Ch347 shows the reopening functioning through temporary gate labor and controlled load windows.
-- Greg receives a yellow temporary-work strip through an unnamed woman from two streets over whose brother has also taken gate work. Do not promote her into a recurring contact unless later earned.
-- Work strip scope:
-  - `DAY PASSAGE SUPPORT`
-  - `NORTH SECONDARY`
-  - `MARKED ROUTE ONLY`
-  - `MIDDAY WINDOW`
-  - `CHECK TAG / CALL LOAD / RECORD CLEAR`
-  - `NO ROAD ENTRY`
-  - `TWO COPPER`
-  - `MEAL INCLUDED`
-  - `REPORT EAST GATE SHED`
-- Saret supervises east-gate freight support. Broad-shouldered, bald, brown work vest. No surname/background/standing Greg relationship established.
-- Eda is gate hand two on pedestrian side, round-faced, calm/irritated with repeated rule explanations. No surname/background/standing Greg relationship established.
-- Greg is `gate hand three` for the shift only.
-- Temporary yard uses yellow route cloth on waist-high iron stakes, city barriers, route tags, and controlled passage windows.
-- Greg does not enter the route, touch stakes, move barriers, interpret road marks, inspect cargo/seals, or fix magical equipment.
-
-## Gate-hand procedure / observed road apparatus
-- Greg's sheet has 24 numbered lines; 23 are used by final clear.
-- Freight procedure: check tag against Saret's board, call number/lane, wait for inside caller `receive`, mark IN, send cart, then mark CLEAR only after far caller clears the number.
-- Greg correctly stops one wrong-day tag mismatch and does not mark the failed stabilized load IN.
-- Road-side apparatus visible about forty paces beyond gate: squat three-legged object with dark bowl that normally gives one dull amber pulse before far-side clear.
-- Apparatus ownership: road office. Exact mechanism/function beyond passage-control use remains unestablished.
-
-## Stabilized-load observation / rest-family context
-- Route board hook mark means **stabilized load** and requires different spacing. Exact reason for different spacing remains unknown.
-- Freight tag **126**: four-wheel wagon, two draft animals, stabilized-load hook.
-- Under rear half of wagon is black metal cradle holding gray stone cylinder with shallow groove; Greg recognizes it from older-life experience as broad **rest-unit family**, but not as same model/application as K-14-6.
-- Mounted unit has small brass-tongue indicator and soft three-note chime.
-- During held passage, road bowl gives an abnormal second amber pulse; mounted unit indicator shifts toward the right.
-- Road workers inspect route context without immediate contact; one raises red paddle.
-- Wagon backs one wagon length on Saret's instruction; mounted indicator moves back toward center and road bowl returns to one amber pulse.
-- Passage is denied for that window: `route response under stabilized load`.
-- Saret does NOT establish whether cause is road, wagon, cargo, stabilizer, interaction, or something else.
-- Driver says wagon unit is `green`; transport yard/road office remain separate authorities.
-- Tag receives incident note; no blame/default is assigned to driver; no retry in same window.
-- Later stabilized cart **133** has a different setup: flat black plate with two pale stones and red thread. It passes normally.
-- Therefore Ch347 does NOT establish that stabilized loads are generally unsafe, that rest units cause road response, or that one failed passage identifies mechanism.
+- Ch346 public board reopened North Secondary for marked daytime passage while night closure remained.
+- Ch347 converted that reopening into one temporary gate-hand shift for Greg at 2c cash + included meal.
+- No North Secondary work, road visit, follow-up, transport-yard visit, or route investigation occurs in Ch348.
+- Saret/Eda remain bounded Ch347 temporary-work contacts with no standing Greg relationship established.
+- Tag-126 stabilized-load passage failure remains unresolved and unassigned to road/load/wagon/rest unit.
 
 ## Rest stone K-14-6
-- Greg's K-14-6 remains boxed, unopened, unactivated, and untested throughout Ch347.
-- Greg leaves it home during gate shift.
-- After returning, he brings the **closed box** downstairs only to explain the observed system context, then returns it upstairs closed.
-- Greg explicitly preserves `DO NOT TEST K-14-6 AT HOME`.
-- New durable inference ceiling: Greg has observed **one rest-family unit used as a mounted system component**. This supports seeking safe system context before future testing, not a claim that K-14-6 belongs under a wagon or performs the same role.
-- Do not immediately send Greg to transport yard, Mara, Registry Row, or a generic appraiser solely because of this observation.
+- K-14-6 remains boxed, unopened, unactivated, and untested throughout Ch348.
+- Ch347 established only that Greg has observed **one broad rest-family unit used as a mounted system component** and that another different stabilized system also exists.
+- Useful future prerequisite remains safe context/system understanding before testing.
+- Do not convert this into automatic transport-yard pilgrimage, generic appraisal, home activation, or claim that K-14-6 belongs under a wagon.
 
 ## Holdfast continuity
 - Holdfast remains home on high shelf, wrapped, ring sideways, unactivated since Mara's Ch345 controlled bench observation.
-- Fixture-context investigation remains a future higher-tier project requiring more money/technical setup, not immediate repetition.
-- Ch347 does not carry, inspect, test, appraise, or discuss holdfast.
+- Fixture-context investigation remains a future higher-tier project requiring more money/technical setup.
+- Ch348 does not carry, inspect, test, appraise, or discuss holdfast.
 
 ## Oval continuity
-- Oval is initially in Greg's shoulder bag by habit before work. He removes it because there is no reason to bring it.
-- Oval remains home/uninvolved in Ch347.
+- Oval remains home/uninvolved in Ch348.
 - No oval-long-mile relation established.
 
 ## Magic continuity
-- No mana use or Hessa session in Ch347.
+- No mana use or Hessa session in Ch348.
 - Current exact totals remain **53 supervised minimal draws / 53 supervised deliberate shaping attempts / 115 supervised external-effect attempts**.
 - No independent practice.
 - Ch346 moving-caster result remains narrow: two clean-enough small supervised near-range effects on a stationary target while Greg moved through a familiar walking route, out of 12 counted attempts.
 - Do NOT generalize to combat casting, fast movement, running, broad moving-caster competence, moving target while moving caster, range growth, larger magnitude, independent practice, unfamiliar routes, or reliable repeatability.
-- Future Hessa axis may be distance or speed, not both, and not necessarily next chapter/session.
+- Future Hessa axis may be distance or speed, not both, and not automatically next.
 
-## Greg / body / work fit
+## Ch348 / Lyssa work table
+- Lyssa purchases a used folding professional work table before Ch348 opens; two delivery boys leave it folded in the hallway that morning.
+- Table has dark wood frame, hinged leaves/braces, adjustable threaded feet with brass collars, and a pale stone **flat-line rail** along one long edge.
+- Table plugs into the household wall feed with a braided white cord and flat two-pronged contact.
+- Pressing its brass tab produces a thin pale white-blue straight reference line across the tabletop.
+- Observed function is only straight visual alignment/reference. It does not heat, cut, move thread, or establish any other magical function.
+- Low-draw mark is three tiny dots + one open circle; Cala recognizes this as low draw before Greg does. Do not turn Greg into universal household-magic expert.
+- Household rule: day use is fine; the lamp gets the wall plate after dark if needed.
+- Table folds against the wall when floor space is needed.
+- Used condition: old cuts/needle scratches, darker triangular wood patch at one corner. No provenance/maker mystery is opened.
+
+## Household spatial change
+- Work table's standing/open location is by the front window.
+- Cala's ordinary chair moves to the side wall.
+- Basket moves beneath hooks.
+- Greg's low stool moves upstairs near his bed.
+- New route remains workable for Greg's two-crutch movement after one scrap basket is nudged farther under the work table.
+- Door/window/dining-chair access remain functional.
+- This arrangement is now ordinary household continuity unless later prose changes it.
+
+## Lyssa / work accumulation
+- Lyssa explicitly says she has enough work that moving everything off the dining table twice a day is stupid, but **not enough work for a room**. The work table is the current right-sized threshold.
+- The table did not create her work. It reveals/answers work volume that already existed offscreen.
+- Lyssa sometimes already had customers come to the house before Ch348; Greg simply had not been present for all of it. Do not treat Ch348 as the founding of a home business.
+- Greg realizes the house and Lyssa's work continue while he is elsewhere. This is relationship/world accumulation, not a lesson speech.
+- Lyssa's work remains hers. Do not turn her into Greg's analyst/financial manager, and do not turn Greg into her manager, bookkeeper, referral engine, research partner, or default assistant.
+
+## Ch348 unnamed customer / instrument-case covers
+- One unnamed woman arrives carrying a long narrow brown-cloth-wrapped item.
+- She already has an earlier related piece with Lyssa. Current piece is described as the `other one`.
+- Work appears to be a long dark fabric sleeve/tube or equipment-case cover with stiffened mouth and copper-colored seam knots.
+- Customer says body width should match first piece, but Lyssa measures and finds the body width matches while the mouth turns inward sooner on one side.
+- Customer asks whether Lyssa can fix it **without touching the copper-colored knots**.
+- Lyssa says probably / she thinks so, explicitly because she has not opened it yet.
+- Deadline: customer needs both by fourth day; Lyssa says current one can be done by third day if first fit remains right; customer confirms first fit is right.
+- Exact instrument/equipment type, magical status, knot function, owner identity, broader provenance, and final repair result remain unestablished.
+- Do not convert the copper-colored knots into a Greg investigation or artifact hook merely because they are unusual.
+
+## Greg / body / role
 - Greg nineteen, Bronze, Carrow. Permanent LEFT BKA, knee preserved; right leg intact; two crutches.
-- Saret's gate-hand fit is explicitly stand about twenty minutes / sit ten / repeat; Greg accepts that cadence.
-- No fall, injury, equipment damage, residual-limb issue, shoulder/hand problem, or route entry.
-- Greg's assigned work is numbers and calling, not physical cart handling.
+- No fall, injury, equipment damage, residual-limb issue, shoulder/hand problem, or magic use.
+- Greg does not carry the large work table. Cala and Lyssa move it after the route is cleared.
+- Tavi carries Greg's small stool upstairs with both hands, appropriate to size; no unsafe carrying workaround is invented for Greg.
+- Greg checks the changed room route physically after setup and identifies one minor scrap-basket clearance issue; Lyssa moves it slightly.
+- Greg's final useful role is exactly the chapter title function: clear space, accommodate another person's accumulating life, then get out of the way.
 
 ## Household / relationships
-- Cala routes the temporary-work contact but does not become Greg's employment manager.
-- Lyssa is doing her own gray-cloth work when offer arrives; she tells Greg to go after hearing terms but does not manage the job.
-- Tavi is refused because he would `get clever with carts`; later asks whether cart/road exploded and is disappointed by Greg's actual call phrase.
-- After work, Greg explains only observed rest-unit/route behavior. Lyssa jokingly reuses the prior `know less` logic. Household does not convert into a research team.
-
-## Greg notes at end
-- `NORTH SECONDARY DAY PASSAGE`
-- `MARKED ROUTE / LOAD WINDOWS`
-- `STABILIZED LOADS GET DIFFERENT SPACING`
-- `OBSERVED REST-FAMILY UNIT MOUNTED UNDER WAGON`
-- `SYSTEM INDICATOR MOVED DURING HELD PASSAGE`
-- `WAGON BACKED -> INDICATOR MOVED TOWARD CENTER`
-- `ROAD RESPONSE ALSO CHANGED`
-- `CAUSE NOT ESTABLISHED`
-- `SECOND STABILIZED CART / DIFFERENT UNIT / PASSED NORMAL`
-- Revised broad claim to: `OBSERVED ONE REST-FAMILY UNIT USED AS MOUNTED SYSTEM COMPONENT`
-- `DO NOT TEST K-14-6 AT HOME`
-- `IF REST STONE RETURNS, FIND SAFE CONTEXT BEFORE TEST`
-- Cash: `5 C`; Vale: `26 C`.
+- Cala initially resists losing the front-window chair location but accepts the rearrangement once a workable alternative is found.
+- Cala recognizes the flat-line rail's low-draw mark and negotiates wall-feed priority without Greg mediating.
+- Tavi repeatedly crawls under the table and is repeatedly told out; no injury/event follows.
+- Dinner works with the table folded and the dining table clear of Lyssa's work.
+- Greg almost writes Lyssa's table/flat-line rail into his own narrow scrap notes, then deliberately stops because it is not his inventory.
 
 ## Recent chapter ledger
 
@@ -148,6 +135,13 @@
 - K-14-6 remains closed/untested; new useful rule is safe system context before any future test.
 - Ends **5c + 0 bits / 26c Vale**; magic unchanged **53 / 53 / 115**.
 
+### Chapter 348 - THE CLEARER
+- Lyssa's existing work accumulation becomes materially visible through her purchase of a used folding flat-line work table.
+- Household space is rearranged so her work has a persistent front-window footprint while Greg's movement route remains workable.
+- An unnamed returning customer brings a second related equipment/instrument-case cover; Lyssa handles the work independently and sets a third-day completion target.
+- Greg does not absorb Lyssa's work, customer, tool, or magical-looking seam knots into his own systems.
+- Ends **5c + 0 bits / 26c Vale**; magic unchanged **53 / 53 / 115**; Greg artifacts unchanged.
+
 ## Protected uncertainties
 - Moving-caster reliability, timing mechanism, speed effects, lateral-distance effects, unfamiliar-route effects, moving-target + moving-caster combination all unresolved.
 - Holdfast exact function/fixture/safe use/condition unresolved.
@@ -159,28 +153,36 @@
 - Privacy clasp cause/current condition unresolved.
 - Full Vale original agreement/future service opportunities unresolved.
 - Blue harness buyer/motive/use unknown.
+- Lyssa table exact maker/provenance/price and future service life unestablished; do not make it a mystery artifact.
+- Ch348 customer's identity, equipment/instrument type, copper-knot function, magical status, exact price, and final repair result unestablished.
 
-## Chapter 348 trailhead
-Follow next actual claim from Ch347/current authority.
+## Chapter 349 trailhead
+Follow next actual claim from Ch348/current authority.
 
-Recent rhythm: theatre artifact incident -> paid holdfast information -> supervised moving-caster magic -> temporary city gate work with safe rest-family exposure. Ch347 already converted the road reopening into work and advanced the rest-stone thread without testing it.
+Recent rhythm: paid holdfast information -> supervised moving-caster magic -> temporary North Secondary gate work / rest-family exposure -> household spatial/relationship accumulation through Lyssa's work table.
 
-Do **not** immediately repeat:
-- another North Secondary gate shift;
-- road investigation;
+Ch348 deliberately let Greg's own systems stand still while another person's life accumulated around him. Let that chapter keep its change.
+
+Do **not** immediately repeat or promote:
+- Lyssa work-table shopping/setup;
+- the unnamed customer's third-day pickup/result;
+- copper-knot investigation;
+- Greg joining Lyssa's work as manager/assistant/researcher;
+- another household furniture-rearrangement chapter;
+- another North Secondary gate shift or road investigation;
 - transport-yard questioning;
 - K-14-6 activation/opening/appraisal;
 - Mara/Registry Row follow-up;
 - holdfast fixture-context work;
-- another Hessa session.
+- automatic Hessa session.
 
-Greg has **5c + 0 bits**, 26c Vale principal-equivalent debt, no scheduled theatre work, and no immediate cash obligation. The new 2c is ordinary earned capacity, not a rescue windfall.
+Greg has **5c + 0 bits**, 26c Vale principal-equivalent debt, no scheduled theatre work, and no immediate cash obligation. His recent 2c gate income remains ordinary earned capacity, not rescue money.
 
-Let the gate-hand day stand as its own city/work beat. Strong next routes include a character/household collision with real change, a fresh non-road work or social claim, theatre only if independently reactivated, ordinary-life accumulation with a genuinely different function, or another fantasy/economic opportunity that does not merely continue the same apparatus question.
+The rhythm has now breathed through a true household/relationship chapter. Strong next routes can open outward again: a fresh social collision, a genuinely different paid opportunity, theatre only if independently reactivated, a higher-fantasy/economic encounter with real acquisition pressure, or another external claim that changes Greg's choices rather than merely continuing an existing apparatus question.
 
-Rest stone may return after breathing, but the next useful move now has a clearer prerequisite: **safe context/system understanding before testing**. Do not convert that prerequisite into automatic transport-yard pilgrimage.
+Artifact pressure remains a strong forward route, but do not mistake `artifact pressure` for `test the thing already on the shelf immediately`. A fresh market/object opportunity that creates desire, capital pressure, or a decision can be stronger than another technical session.
 
-Holdfast remains future higher-tier fixture-context work. Magic remains **53 / 53 / 115** with no independent practice.
+Rest stone may return when safe-context/system understanding becomes naturally available. Holdfast remains future higher-tier fixture-context work. Magic remains **53 / 53 / 115** with no independent practice.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
