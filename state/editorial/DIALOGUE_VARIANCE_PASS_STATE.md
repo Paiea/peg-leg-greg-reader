@@ -49,14 +49,14 @@ Other characters may be funny, dry, clever, sarcastic, or terse. The goal is not
 
 ## Sequential coverage ledger
 
-- Chapters **1-75: VARIANCE REVIEWED**
-- Chapters **76-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-80: VARIANCE REVIEWED**
+- Chapters **81-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 76**
+Current sequential variance edge: **Chapter 81**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_071_075.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_076_080.md`
 
 Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_001_005.md`
@@ -74,24 +74,25 @@ Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_061_065.md`
 - `state/editorial/dialogue-variance-pass/BATCH_066_070.md`
 - `state/editorial/dialogue-variance-pass/BATCH_071_075.md`
+- `state/editorial/dialogue-variance-pass/BATCH_076_080.md`
 
 Existing out-of-sequence pilot work:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches remain useful evidence but do not bridge the unreviewed 76-320 gap.
+Those later batches remain useful evidence but do not bridge the unreviewed 81-320 gap.
 
-## Chapters 1-70 result
+## Chapters 1-75 result
 
-Durable chapter-level findings remain preserved in the prior sequential batch files `BATCH_001_005.md` through `BATCH_066_070.md`. This ledger keeps the sequential authority and current watch rules; exact patch prose remains in those batch artifacts.
+Durable chapter-level findings remain preserved in the prior sequential batch files `BATCH_001_005.md` through `BATCH_071_075.md`. This ledger keeps the sequential authority and current watch rules; exact patch prose remains in those batch artifacts.
 
-## Chapters 71-75 result
+## Chapters 76-80 result
 
-- Chapter 71 `THE COUNTER`: **no variance change required**. Mara Fen's commercial scope, Toma's ordinary imperfection, and Greg's accessibility questions stay distinct without anyone interpreting his emotional meaning for him.
-- Chapter 72 `THE FRIEND`: **no variance change required**. Sevren and Alden are both dry peers but remain differentiated by motive, behavior, and what they want from Greg. Intentional Greg/Alden convergence remains relationship-owned.
-- Chapter 73 `THE TENANT`: **moderate variance patch required**. Keeper/Lerris/Sera/Sevren domain separation is strong; replace two generic `Face` beats with boot-specific craft judgment and Nerin teasing Greg's actual change in stair behavior.
-- Chapter 74 `THE CONSULTANT`: **no variance change required**. Lerris speaks from stair geometry and work; Edrin remains strongly investigative through provenance, evidence boundaries, records access, and unsupported-vs-supported distinctions.
-- Chapter 75 `THE RETURNER`: **light variance patch required**. The staircase return is well differentiated across Sera, Nerin, Jorren, Hessa, Lerris, and the keeper. Replace one Nerin `Face` recurrence with specific teasing about Greg counting stair repetitions.
+- Chapter 76 `THE DESCENDER`: **no variance change required**. Keeper household practicality, Nerin rehabilitation authority, Tam craft judgment, and Greg's changed body remain distinct without extra voice surgery.
+- Chapter 77 `THE SORTER`: **no variance change required**. Holl remains strongly commercial through bands, piles, throughput, worker usability, error asymmetry, and labor cost despite analytical overlap with Greg.
+- Chapter 78 `THE ARCHIVIST`: **moderate variance patch required**. Merra's archival voice is excellent once work begins, but two first-contact beats give her too much instant Greg calibration. Replace them with archive-specific instruction about supported motive and unit errors.
+- Chapter 79 `THE SPECTATOR`: **no variance change required**. Pessa/Greg/Alden remain cleanly differentiated through embodied training criteria, partial disagreement, challenge appetite, and visible work.
+- Chapter 80 `THE CUSTOMER`: **no variance change required**. Tam, Rima, Lyssa, incidental strangers, and Guild staff stay socially/commercially distinct while Greg is allowed ordinary nineteen-year-old desire and attraction.
 
 ## High-value watch targets
 
@@ -130,6 +131,11 @@ Durable chapter-level findings remain preserved in the prior sequential batch fi
 - Teasing should attach to remembered behavior rather than a generic personality-reading token.
 - Let mundane competence stay mundane. Ordinary solutions do not need conversion into revelations or punchline ladders.
 - Significant emotional progress is often stronger when bystanders retain their own jobs, schedules, and priorities.
+- Expertise may overlap conceptually without overlapping voice when the protected object differs.
+- First-contact authority should correct the work before correcting the person.
+- Physical rehabilitation creates legitimate repetition when the physical object or condition changes.
+- Incidental strangers benefit from low narrative ambition; they do not all need miniature arcs or Greg interpretation.
+- Let Greg be socially young without converting clothes, attraction, embarrassment, or ordinary desire into a system.
 
 ## Guardrails
 
@@ -161,11 +167,11 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 76**.
+Resume sequentially at **Chapter 81**.
 
 Preferred bounded queue: **5 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 76-80**.
+Next intended batch: **Chapters 81-85**.
 
 ## Restart prompt
 
