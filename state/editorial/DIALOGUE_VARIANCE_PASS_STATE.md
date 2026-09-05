@@ -49,14 +49,14 @@ Other characters may be funny, dry, clever, sarcastic, or terse. The goal is not
 
 ## Sequential coverage ledger
 
-- Chapters **1-55: VARIANCE REVIEWED**
-- Chapters **56-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-60: VARIANCE REVIEWED**
+- Chapters **61-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 56**
+Current sequential variance edge: **Chapter 61**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_051_055.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_056_060.md`
 
 Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_001_005.md`
@@ -70,12 +70,13 @@ Existing sequential batches:
 - `state/editorial/dialogue-variance-pass/BATCH_041_045.md`
 - `state/editorial/dialogue-variance-pass/BATCH_046_050.md`
 - `state/editorial/dialogue-variance-pass/BATCH_051_055.md`
+- `state/editorial/dialogue-variance-pass/BATCH_056_060.md`
 
 Existing out-of-sequence pilot work:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches remain useful evidence but do not bridge the unreviewed 56-320 gap.
+Those later batches remain useful evidence but do not bridge the unreviewed 61-320 gap.
 
 ## Chapters 1-5 result
 
@@ -164,6 +165,14 @@ Those later batches remain useful evidence but do not bridge the unreviewed 56-3
 - Chapter 53 `THE GUEST`: **moderate variance patch required**. Bathhouse social ecology is healthy. Make the counter worker state a wet-wrap rule/consequence rather than predict Greg personally, and replace Jorren's `face` shorthand with the exact promise and splash sequence.
 - Chapter 54 `THE INTERPRETER`: **no variance change required**. Edrin's terseness is evidence custody, authorization, bounded comparison, and professional judgment. Her hand-based stop is direct physical evidence rather than mind-reading.
 - Chapter 55 `THE EXTRA HAND`: **light variance patch required**. Practice-yard chemistry is mostly earned. Replace one explicit face-reading line with the actual hand switch caused by Greg's blister.
+
+## Chapters 56-60 result
+
+- Chapter 56 `THE SPOTTER`: **no variance change required**. Arlo/Maret/Greg technical shortness is earned by distinct responsibilities, and the practice-yard chemistry remains relationship-specific rather than project-wide.
+- Chapter 57 `THE WATCHER`: **no variance change required**. Clerk/Bram/Kell/Greg brevity is role-owned; freight geometry, paddle protocol, and the children's pavement game provide strong independent voice ecology.
+- Chapter 58 `THE REGULAR`: **light variance patch required**. Hessa's medical/magical cognition remains clean, but replace one generic haircut `No / nothing / everyone` volley with a concrete reaction to Greg's changed beard before returning to the examination.
+- Chapter 59 `THE TENANT`: **strong variance patch required**. Ordinary-life and road-prep texture are excellent, but Tam and Antonius fall into repeated prediction/face machinery and Pessa gets one vague `Don't` beat. Replace them with stair-looking, schedule evidence, work-history teasing, and the actual hiring criteria.
+- Chapter 60 `THE SURVEYOR`: **light variance patch required**. Road-work dialogue is healthy. Replace one `don't turn it into religion / you were` prediction beat with Pessa's domain-specific warning that the heuristic belongs in the margin because another road may fail differently.
 
 ## High-value watch targets
 
@@ -258,7 +267,7 @@ Rusk assigns, Mevi demonstrates, Holl returns to the current test, and Pessa kee
 Repeated short language is not automatically convergence. The question is whether it carries a real decision or merely familiar comic punctuation.
 
 ### 31. Mundane complications create voice for free
-Wrong offices, chickens, storage fees, hot wheels, dogs, pigs, onions, wet cases, awkward cargo interfaces, boots, tables, stoves, lost gloves, wet wraps, and bad shouted instructions force people to respond from ordinary priorities. Protect that texture.
+Wrong offices, chickens, storage fees, hot wheels, dogs, pigs, onions, wet cases, awkward cargo interfaces, boots, tables, stoves, lost gloves, wet wraps, bad shouted instructions, freight arches, gloves, culverts, and farm complaints force people to respond from ordinary priorities. Protect that texture.
 
 ### 32. Secondhand reputation should stay lower resolution than lived relationship
 It is healthy for the city to talk about Greg when he is absent. A new person may hear that he stares, asks too many questions, carries odd objects, or gets involved in strange jobs. That should not automatically grant a precise model of what his expression means or what sentence comes next.
@@ -270,7 +279,7 @@ Jorren and Greg, or Greg and Sevren, can remain fast and funny without relying o
 Vessa's strongest boundaries are what can safely happen during the current firing, which production variable changed, what the shop is already doing, and when another test fits. Arlo's strongest boundaries are mechanism, fixture, customer use, and next worthwhile test.
 
 ### 35. No-change chapters are positive evidence
-A clean chapter should stay clean. Chapters 47 and 54 demonstrate that a character can be terse, funny, and competent while still remaining cognitively distinct. Do not patch to meet a quota.
+A clean chapter should stay clean. Chapters 47, 54, 56, and 57 demonstrate that characters can be terse, funny, and competent while still remaining cognitively distinct. Do not patch to meet a quota.
 
 ### 36. Mild disagreement can remain unresolved
 Greg and Sevren can disagree about path planning versus solving obstructions as they appear. The story does not need to crown one philosophy. Both methods can contribute to getting the stove downstairs.
@@ -291,6 +300,21 @@ Jorren and Alden have earned perceptiveness. That should make their evidence mor
 
 ### 41. Literal `face` is not the same bug as psychological `the face`
 Do not purge the word mechanically. Berren saying `Face` because Greg shaved his beard is literal appearance. The problem is using `face` as universal evidence of hidden intent, the next question, or a whole mental state.
+
+### 42. Shared technical shortness is safe when responsibility remains visible
+Do not diversify sentence length merely because several competent people are terse. If Arlo owns mechanism, Maret owns production symptoms, Greg owns listening, Bram owns wagon geometry, Kell owns one sight line, and the clerk owns the gate, the short lines can remain short.
+
+### 43. Changed workflow is stronger relationship evidence than repeated banter
+Antonius offering fixed debt periods, Pessa selecting Greg from work history, and Arlo respecting Greg's sparring plan all show relationship development through what people now do differently.
+
+### 44. Domain-specific anti-overgeneralization beats personality policing
+When Greg tries to universalize a useful idea, correct him from the speaker's domain. Pessa can warn that another road may fail differently; Hessa can name the body/evidence limit; Arlo can name the mechanism or customer constraint.
+
+### 45. Ordinary records can carry emotional weight without becoming hero status
+Greg can care deeply that a work history exists even if the file only says he stops early, writes things down, notices roads, and finishes bounded jobs. Let Greg feel the meaning. Other characters do not need to narrate his growth.
+
+### 46. Specific teasing beats generic teasing
+Tam teasing Greg for looking at the stairs twice and Dorn teasing him for liking a work file are stronger than another `the face` or `you were going to` exchange. More relationship history should usually make jokes more specific, not more interchangeable.
 
 ## Guardrails
 
@@ -322,11 +346,11 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 56**.
+Resume sequentially at **Chapter 61**.
 
 Preferred bounded queue: **5 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 56-60**.
+Next intended batch: **Chapters 61-65**.
 
 ## Restart prompt
 
