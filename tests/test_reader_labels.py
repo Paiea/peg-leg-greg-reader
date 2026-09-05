@@ -14,6 +14,8 @@ class ReaderLabelTests(unittest.TestCase):
 
         self.assertIn('>Text Reader<', index)
         self.assertIn('>Chapters<', index)
+        self.assertIn('href="#books"', index)
+        self.assertNotIn('href="#chapters"', index)
         self.assertNotIn('>Read Light<', index)
         self.assertNotIn('>Chapter List<', index)
 
@@ -47,12 +49,15 @@ class ReaderLabelTests(unittest.TestCase):
         self.assertIn('Text-only reading · no chapter illustrations', rendered_chapter)
         self.assertIn('Browse the Text Reader', rendered_latest)
 
-    def test_reader_label_normalizer_is_retired(self):
+    def test_reader_label_normalizer_is_retired_and_guard_fails_hard(self):
         workflow = Path('.github/workflows/light-edition.yml').read_text(encoding='utf-8')
         self.assertFalse(Path('scripts/normalize_reader_labels.py').exists())
         self.assertNotIn('normalize_reader_labels.py', workflow)
         self.assertNotIn('Normalize public reader labels', workflow)
-        self.assertIn("! grep -R '#chapters' light/*.html light.html latest.html index.html", workflow)
+        self.assertNotIn("! grep -R '#chapters'", workflow)
+        self.assertIn("if grep -R '#chapters' light/*.html light.html latest.html index.html; then", workflow)
+        self.assertIn("echo 'stale #chapters anchor detected'", workflow)
+        self.assertIn('exit 1', workflow)
 
 
 if __name__ == '__main__':
