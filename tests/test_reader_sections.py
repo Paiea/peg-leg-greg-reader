@@ -66,6 +66,15 @@ class ReaderSectionsTests(unittest.TestCase):
             self.assertTrue(path.is_file(), f'missing role-card asset: {book.card_src}')
             self.assertEqual(webp_size(path), (720, 960))
 
+    def test_role_card_links_stay_inside_their_books(self):
+        for book in BOOKS:
+            self.assertTrue(book.card_href.startswith('chapters/'))
+            self.assertTrue(book.card_href.endswith('.html'))
+            chapter = int(Path(book.card_href).stem)
+            self.assertGreaterEqual(chapter, book.start)
+            if book.end is not None:
+                self.assertLessEqual(chapter, book.end)
+
     def test_book_four_role_card_wiring_is_declared(self):
         book_four = BOOKS[3]
         self.assertEqual(book_four.card_src, 'assets/book-role-cards/book-iv-surveyor-331.webp')
@@ -96,6 +105,19 @@ class ReaderSectionsTests(unittest.TestCase):
         self.assertIn('Chapters 321–351', rendered)
         self.assertLess(rendered.rindex('BOOK IV'), rendered.rindex('ACT II'))
 
+    def test_book_four_frontier_opens_last_visible_act(self):
+        links_330 = {n: f'<a href="chapters/{n:03d}.html">Chapter {n}</a>' for n in range(1, 331)}
+        rendered_330 = render_book_sections(links_330, illustrated=False)
+        self.assertIn('ACT I · Chapters 321–330', rendered_330)
+        self.assertNotIn('BEYOND THE DOOR', rendered_330)
+        self.assertIn('<details class="reader-act" open><summary class="reader-act-summary"><span class="reader-act-kicker">ACT I · Chapters 321–330', rendered_330)
+
+        links_331 = {n: f'<a href="chapters/{n:03d}.html">Chapter {n}</a>' for n in range(1, 332)}
+        rendered_331 = render_book_sections(links_331, illustrated=False)
+        self.assertIn('ACT II · Chapters 331–331', rendered_331)
+        self.assertIn('BEYOND THE DOOR', rendered_331)
+        self.assertIn('<details class="reader-act" open><summary class="reader-act-summary"><span class="reader-act-kicker">ACT II · Chapters 331–331', rendered_331)
+
     def test_illustrated_renderer_uses_all_four_role_cards_and_illustrated_links(self):
         links = {n: f'<a href="chapters/{n:03d}.html">Chapter {n}</a>' for n in range(1, 352)}
         rendered = render_book_sections(links, illustrated=True)
@@ -109,6 +131,8 @@ class ReaderSectionsTests(unittest.TestCase):
             self.assertIn(f'src="{src}"', rendered)
         for href in ('chapters/005.html', 'chapters/177.html', 'chapters/231.html', 'chapters/331.html'):
             self.assertIn(f'href="{href}"', rendered)
+        for chapter in ('005', '177', '231', '331'):
+            self.assertIn(f'aria-label="Open Chapter {chapter} in the Illustrated Reader"', rendered)
         self.assertIn('Chapters 321–351', rendered)
         self.assertEqual(rendered.count('<details class="reader-book" open>'), 1)
 
