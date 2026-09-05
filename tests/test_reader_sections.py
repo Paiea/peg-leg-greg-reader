@@ -55,14 +55,15 @@ class ReaderSectionsTests(unittest.TestCase):
             ],
         )
 
-    def test_existing_role_card_paths_still_resolve(self):
+    def test_role_card_paths_resolve(self):
         root = Path(__file__).parents[1]
         expected = {
             'assets/book-role-cards/book-i-warrior-005.webp',
             'assets/book-role-cards/book-ii-stagehand-177.webp',
             'assets/book-role-cards/book-iii-magistrate-231.webp',
+            'assets/book-role-cards/book-iv-surveyor-331.webp',
         }
-        for book in BOOKS[:3]:
+        for book in BOOKS:
             self.assertIn(book.card_src, expected)
             path = root / book.card_src
             self.assertTrue(path.is_file(), f'missing role-card asset: {book.card_src}')
@@ -91,14 +92,15 @@ class ReaderSectionsTests(unittest.TestCase):
         self.assertIn('<details class="reader-book" open><summary class="reader-book-summary"', rendered)
         self.assertLess(rendered.rindex('BOOK IV'), rendered.rindex('ACT II'))
 
-    def test_illustrated_renderer_preserves_existing_role_cards_without_requiring_book_four_art(self):
+    def test_illustrated_renderer_uses_all_four_role_cards(self):
         links = {n: f'<a href="chapters/{n:03d}.html">Chapter {n}</a>' for n in range(1, 345)}
         rendered = render_book_sections(links, illustrated=True)
-        self.assertEqual(rendered.count('class="reader-book-card-image"'), 3)
+        self.assertEqual(rendered.count('class="reader-book-card-image"'), 4)
         self.assertIn('src="assets/book-role-cards/book-i-warrior-005.webp"', rendered)
         self.assertIn('src="assets/book-role-cards/book-ii-stagehand-177.webp"', rendered)
         self.assertIn('src="assets/book-role-cards/book-iii-magistrate-231.webp"', rendered)
-        self.assertIn('BOOK IV', rendered)
+        self.assertIn('src="assets/book-role-cards/book-iv-surveyor-331.webp"', rendered)
+        self.assertIn('href="chapters/331.html"', rendered)
         self.assertEqual(rendered.count('<details class="reader-book" open>'), 1)
 
 
