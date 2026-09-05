@@ -18,12 +18,16 @@ class ReaderFrontierTests(unittest.TestCase):
         text_title: str = 'THE COUNT',
         illustrated_to_text: bool = True,
         text_to_illustrated: bool = True,
+        illustrated_previous_ok: bool = True,
+        text_previous_ok: bool = True,
     ) -> None:
         (root / 'chapters').mkdir()
         (root / 'light').mkdir()
         for number in range(1, latest + 1):
             (root / 'chapters' / f'{number:03d}.html').write_text('chapter', encoding='utf-8')
         previous = latest - 1
+        illustrated_previous = previous if illustrated_previous_ok else previous - 1
+        text_previous = previous if text_previous_ok else previous - 1
         illustrated_mode_link = (
             f'<a href="../light/{latest:03d}.html">TEXT</a>' if illustrated_to_text else ''
         )
@@ -32,13 +36,13 @@ class ReaderFrontierTests(unittest.TestCase):
             if text_to_illustrated else ''
         )
         (root / 'chapters' / f'{latest:03d}.html').write_text(
-            f'<nav><a rel="prev" href="{previous:03d}.html">← Chapter {previous}</a></nav>'
+            f'<nav><a rel="prev" href="{illustrated_previous:03d}.html">← Chapter {illustrated_previous}</a></nav>'
             f'<header class="chapter-title"><h1>{illustrated_title}</h1></header>'
             f'{illustrated_mode_link}',
             encoding='utf-8',
         )
         (root / 'light' / f'{latest:03d}.html').write_text(
-            f'<nav><a rel="prev" href="{previous:03d}.html">← Chapter {previous}</a></nav>'
+            f'<nav><a rel="prev" href="{text_previous:03d}.html">← Chapter {text_previous}</a></nav>'
             f'<header class="light-chapter-title"><h1>{text_title}</h1></header>'
             f'{text_mode_link}',
             encoding='utf-8',
@@ -104,6 +108,18 @@ class ReaderFrontierTests(unittest.TestCase):
             self.write_frontier(root, text_to_illustrated=False)
             with self.assertRaisesRegex(AssertionError, 'Text page does not link matching Illustrated chapter'):
                 verify_reader_frontier(root)
+
+    def test_rejects_stale_previous_navigation_at_frontier(self):
+        cases = (
+            ('Illustrated', {'illustrated_previous_ok': False}, 'Illustrated latest previous link is stale'),
+            ('Text', {'text_previous_ok': False}, 'Text latest previous link is stale'),
+        )
+        for mode, kwargs, message in cases:
+            with self.subTest(mode=mode), tempfile.TemporaryDirectory() as tmp:
+                root = Path(tmp)
+                self.write_frontier(root, **kwargs)
+                with self.assertRaisesRegex(AssertionError, message):
+                    verify_reader_frontier(root)
 
 
 if __name__ == '__main__':
