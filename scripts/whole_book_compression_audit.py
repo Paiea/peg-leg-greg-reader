@@ -9,6 +9,8 @@ import re
 from collections import Counter
 from pathlib import Path
 
+AUDIT_VERSION = 1
+
 TAG_RE = re.compile(r"<[^>]+>")
 SCRIPT_STYLE_RE = re.compile(r"<(script|style)\b.*?</\1>", re.I | re.S)
 WORD_RE = re.compile(r"[A-Za-z][A-Za-z'-]{2,}")
@@ -116,7 +118,7 @@ def audit_chapters(root: Path) -> dict:
         for row in chapters
     ]
     if not chapters:
-        return {"schema_version": 1, "chapter_count": 0, "chapter_metrics": [], "ranked_candidates": [], "repeated_titles": []}
+        return {"schema_version": 1, "audit_version": AUDIT_VERSION, "chapter_count": 0, "chapter_metrics": [], "ranked_candidates": [], "repeated_titles": []}
 
     median_wc = sorted(row["word_count"] for row in chapters)[len(chapters)//2] or 1
     pair_candidates = []
@@ -133,7 +135,6 @@ def audit_chapters(root: Path) -> dict:
         title_same = 1.0 if left["title"].strip().lower() == right["title"].strip().lower() else 0.0
         score = 0.58 * lexical + 0.24 * top_overlap + 0.13 * edge_repeat + 0.05 * title_same
         length_ratio = ((left["word_count"] + right["word_count"]) / 2) / median_wc
-        # Require unusually strong similarity. Repetition is a candidate signal, never an automatic cut.
         if score >= 0.56:
             pair_candidates.append({
                 "start_chapter": left["chapter"],
@@ -149,7 +150,6 @@ def audit_chapters(root: Path) -> dict:
                 "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
             })
 
-    # Collapse consecutive high-similarity pairs into review clusters.
     pair_candidates.sort(key=lambda x: x["start_chapter"])
     clusters = []
     current = None
@@ -196,6 +196,7 @@ def audit_chapters(root: Path) -> dict:
 
     return {
         "schema_version": 1,
+        "audit_version": AUDIT_VERSION,
         "chapter_count": len(chapters),
         "median_word_count": median_wc,
         "chapter_metrics": metrics,
