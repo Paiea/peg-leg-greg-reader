@@ -1,0 +1,48 @@
+name: Structural compression 075-076
+
+on:
+  push:
+    branches: [editor/voice-compression-pass]
+    paths:
+      - 'scripts/apply_structural_compression_075_076.py'
+      - 'tests/test_structural_compression_075_076.py'
+      - 'chapters/075.html'
+      - 'chapters/076.html'
+      - 'state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx'
+      - '.github/workflows/structural-compression-075-076.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  compress:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: editor/voice-compression-pass
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Run focused structural-compression tests
+        run: python -m unittest tests.test_structural_compression_075_076
+      - name: Apply source-safe Book I structural edit
+        run: python scripts/apply_structural_compression_075_076.py --root . --write --manifest state/compression-batches/075-076.json
+      - name: Verify transform is idempotent
+        run: |
+          sha256sum chapters/075.html chapters/076.html state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx > /tmp/075-076-before.sha
+          python scripts/apply_structural_compression_075_076.py --root . --write --manifest /tmp/075-076-second.json
+          sha256sum chapters/075.html chapters/076.html state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx > /tmp/075-076-after.sha
+          diff -u /tmp/075-076-before.sha /tmp/075-076-after.sha
+      - name: Verify DOCX and reader projection agree
+        run: python scripts/apply_structural_compression_075_076.py --root . --verify
+      - name: Commit edited range
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add chapters/075.html chapters/076.html state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx state/compression-batches/075-076.json
+          if [ -n "$(git status --porcelain -- chapters/075.html chapters/076.html state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx state/compression-batches/075-076.json)" ]; then
+            git commit -m 'Compress independence chapters 75 and 76'
+            git push origin HEAD:editor/voice-compression-pass
+          fi
