@@ -65,7 +65,8 @@ def validate_candidate_anchors(candidates: list[dict], chapter_text: dict[int, s
             status = "valid" if matches == 1 else "missing" if matches == 0 else "ambiguous"
             quality_score, quality_issues = _anchor_quality(normalized_anchor, normalized_chapter)
         quality_status = "strong" if quality_score >= BLOCK_THRESHOLD else "weak"
-        should_block = status != "valid" or quality_status == "weak"
+        quality_enforced = bool(candidate.get("anchor_quality_enforced"))
+        should_block = status != "valid" or (quality_enforced and quality_status == "weak")
         report.append({
             "candidate_id": candidate.get("id", ""),
             "chapter": chapter,
@@ -75,6 +76,7 @@ def validate_candidate_anchors(candidates: list[dict], chapter_text: dict[int, s
             "anchor_quality_score": quality_score,
             "anchor_quality_status": quality_status,
             "anchor_quality_issues": quality_issues,
+            "anchor_quality_enforced": quality_enforced,
             "should_block": should_block,
         })
     return report
@@ -109,13 +111,23 @@ def render_anchor_report(report: list[dict]) -> str:
     lines = ["# PEG-LEG GREG — PARAGRAPH ANCHOR REPORT", ""]
     valid = sum(1 for row in report if row["anchor_status"] == "valid")
     weak = sum(1 for row in report if row["anchor_quality_status"] == "weak")
+    enforced_weak = sum(1 for row in report if row["anchor_quality_enforced"] and row["anchor_quality_status"] == "weak")
     blocked = sum(1 for row in report if row["should_block"])
-    lines.extend([f"- Valid exact matches: {valid}", f"- Weak-quality anchors: {weak}", f"- Blocked: {blocked}", ""])
+    lines.extend([
+        f"- Valid exact matches: {valid}",
+        f"- Weak-quality anchors: {weak}",
+        f"- Enforced weak-quality anchors: {enforced_weak}",
+        f"- Blocked: {blocked}",
+        "",
+    ])
     for row in report:
         if not row["should_block"]:
             continue
         issues = ", ".join(row.get("anchor_quality_issues", []))
-        lines.append(f"- Chapter {row.get('chapter')}: {row.get('candidate_id')} — {row['anchor_status']} / {row['anchor_quality_status']} ({row['match_count']} matches; score {row['anchor_quality_score']}; {issues})")
+        lines.append(
+            f"- Chapter {row.get('chapter')}: {row.get('candidate_id')} — {row['anchor_status']} / {row['anchor_quality_status']} "
+            f"({row['match_count']} matches; score {row['anchor_quality_score']}; {issues})"
+        )
     return "\n".join(lines) + "\n"
 
 
@@ -137,7 +149,10 @@ def main() -> None:
     blocked_rows = [row for row in report if row["should_block"]]
     print(f"validated paragraph anchors: {len(report)} candidates, {len(blocked_rows)} blocked, {changed} candidate records updated")
     for row in blocked_rows:
-        print(f"anchor blocked: chapter {row.get('chapter')} {row.get('candidate_id')} {row['anchor_status']}/{row['anchor_quality_status']} score={row['anchor_quality_score']}: {row.get('paragraph_anchor', '')}")
+        print(
+            f"anchor blocked: chapter {row.get('chapter')} {row.get('candidate_id')} "
+            f"{row['anchor_status']}/{row['anchor_quality_status']} score={row['anchor_quality_score']}: {row.get('paragraph_anchor', '')}"
+        )
 
 
 if __name__ == "__main__":
