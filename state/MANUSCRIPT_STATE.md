@@ -1,255 +1,226 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 383 - **THE APPLICANT**.
+- Current exact story endpoint: Chapter 384 - **THE VOLUNTEER**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript physically materialized through Chapter 248.
-- Exact Chapters 249-383 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
+- Exact Chapters 249-384 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
 - Titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
 - Mandatory pre-title question: `Who is Greg being here?`
-- Ch383 answer: Greg is being **an applicant**. He actively puts his name down for Vessa Harn's field-crew trial. He has not been hired and has not committed to the journey itself, but accidental delay has become chosen possibility.
-- Therefore title **THE APPLICANT**.
-- Recent: 379 THE BROKER; 380 THE DELEGATE; 381 THE VISITOR; 382 THE OUTSIDER; 383 THE APPLICANT.
+- Ch384 answer: Greg is being **a volunteer**. On his deliberately unscheduled day he helps during an ordinary-but-dangerous cart accident because he is present, not because he is paid, contracted, uniquely chosen, or trying to prove himself.
+- Therefore title **THE VOLUNTEER**.
+- Recent: 380 THE DELEGATE; 381 THE VISITOR; 382 THE OUTSIDER; 383 THE APPLICANT; 384 THE VOLUNTEER.
 
 ## Major arc direction - away from Carrow
 - User-authorized long away-from-Carrow adventure arc, potentially entire act / near-book-length.
 - Do NOT solve bridge and send Greg home soon.
-- Ch383 is the first explicit active choice toward farther travel: Greg files for the River Survey trial.
-- This is **TRY**, not guaranteed hire and not yet **GO**.
-- Carrow remains emotionally active through delayed letters rather than cutting away from away-arc momentum.
+- Ch384 gives Merecross more physical/magical/social texture before formal field trial.
+- Greg remains trial applicant; field job not guaranteed.
 
-## Chapter 383 - THE APPLICANT
+## Chapter 384 - THE VOLUNTEER
 
-### Greg chooses to try
-- Greg wakes already knowing he will put his name down for field-crew trial.
-- He writes home **before** applying, honoring Lyssa's `Just don't disappear` boundary.
-- Letter states:
-  - trial, not job;
-  - trial in two days;
-  - if hired, departure morning after first Glasswake night;
-  - route Alder Basin / North Glass Cut / West Locks, then Merecross;
-  - notice 10-14 days, may run longer if return stalls;
-  - pay 6c departure +2c/completed field day starting day4;
-  - meals/bedroll/Merecross return covered;
-  - mostly cart, some skiff, short uneven foot sections, no ladders on this route;
-  - Greg will not lie about what he can do;
-  - tells Lyssa he is telling her before doing it;
-  - Tavi's rock is fine and not contributing rent.
+### Honest travel packing
+- Greg uses free day to construct realistic personal travel load rather than artificially light trial setup.
+- Initial overpack includes accidental inn spoon, which he returns.
+- Working load categories:
+  - right-side porter harness: notebook, repair wrap, spare shirt, soap, small mundane pieces;
+  - shoulder bag: Carrow letters, wrapped oval, Tavi's Bell Ford rock, immediate papers;
+  - money on body;
+  - water to be filled for travel/trial as appropriate.
+- Greg notices shoulder-bag weight can interfere with left-side crutch rhythm and redistributes rather than pretending.
+- Most artifact collection remains correctly locked in Carrow. Only oval is with Greg.
 
-### Carrow letter arrives
-- Pavin has delayed packet from Carrow, sent after Greg's earlier messages arrived.
-- Cala:
-  - house fine;
-  - floor finished;
-  - wardrobe back;
-  - Tavi tried asking to come before Greg's warning arrived;
-  - says do not worry about them because away, but do not be stupid because that means they don't worry;
-  - if Greg goes farther, send route/who with if possible;
-  - `Eat.`
-- Tavi:
-  - rock is Greg's responsibility because traveling;
-  - `BRING IT BACK. ALSO YOU.`
-- Lyssa:
-  - hates Greg is farther than expected;
-  - says if he comes home only to prove he would, she will be angry;
-  - if he goes farther without telling her, angrier;
-  - `If something changes, tell me. If you choose something, tell me that too. There is a difference.`
-  - her heat-cloth sample **passed**;
-  - Marra accepted prior lot and Lyssa **took the third lot**;
-  - Lyssa misses Greg;
-  - tells him to see the `stupid river light`;
-  - `Come back when you come back.`
-  - warns not to buy a 28c thing because sad.
-- Explanation for Lyssa knowing 28c: Vale received Greg's disposal-board information, inferred kind of market nearby, and Lyssa asked price after Vale told her not to.
-- This letter supports rather than commands Greg's choice.
+### South Merecross / ring game
+- Greg deliberately explores older south lanes, not market/Survey/Civic.
+- Houses lean inward, open curb drains, overhead laundry bridges, unexplained painted fish on every third door.
+- Children play wooden-ring peg game in small square.
+- Rules: near peg 1, far peg 2, middle peg 0 but grants another throw. Local child claim that founder was drunk is unverified.
+- Greg loses to 7-year-old **Rima**, who throws sideways and screams before ring lands.
+- This is ordinary local life before magical pressure interrupts.
 
-### Transit
-- South span still closed.
-- Engineers doing unloaded return mapping, no outcome yet.
-- North ford remains foot-open / vehicle-closed at current endpoint.
-- Center bridge restrictions unchanged.
-- No contracted east convoy for at least tomorrow.
-- Transit lodging remains conditional coverage until contracted return available/alternate authorized.
-- If Greg is hired and voluntarily remains after return becomes available, transit lodging does not become cash credit and may cease. Written determination needed before crew roll if status overlaps.
+### Glass run / drain light
+- Metal drain grates begin low humming, felt through Greg's crutch tips.
+- Locals call **Glass run** and move to street edges/walls rather than panic.
+- White chalk threshold marks are **records of where shine crossed afterward**, not wards/protection.
+- Pale light travels uphill along gutter water and then splits around fountain.
+- One branch remains gutter; another follows apparently wet paving seam toward bakery and rises ~2 feet vertically through damp wall seam before fading.
+- Adults keep child from approaching.
+- Event lasts roughly a minute, then grates stop humming.
+- Drain Office arrives with green aprons, measuring cord, black tray with dull sand used for mundane moisture comparison.
+- Greg gives bounded witness account:
+  - split at fountain base;
+  - corrects orientation to southwest toward bakery;
+  - speed described roughly faster than walking/slower than running;
+  - cannot confirm whether light crossed dry stone because seam looked wet.
+- Drain workers accept uncertainty. Uphill branch is logged, not solved.
+- Dema later says first Glass runs often reveal wet seams/old reflective drain residue; uphill bakery-wall branch unusual enough for logging. She does not know mechanism.
+- Glass runs usually not dangerous, though trapped light near metal can sometimes heat; ordinary trip/fall from staring is also risk.
+- Still pre-Glasswake, not catastrophe.
 
-### River Survey application
-- Greg explicitly says yes to **trial**, not job.
-- Application records:
-  - Carrow residence;
-  - Cala household first emergency contact, Lyssa person to notify;
-  - left below-knee amputation, two crutches, right leg intact, no current wound, uneven-ground speed surface-dependent, can state limits;
-  - one small oval, uncertain threshold/retreat-related behavior, unrated, no intended field use, partial paper notes.
-- Vessa asks why carry oval. Greg says it has shown enough threshold-related behavior he prefers having it but not enough to obey blindly.
-- Vessa: bring wrapped to trial, do not activate. She has not approved it for route.
-- Trial remains **first bell day after tomorrow**.
-- Greg must eat first and bring **normal travel carry**, excluding crew-issued food/bedroll, rather than artificially empty bag.
-- 8lb trial record case is separate.
-- Porter harness may be used because normal equipment; existing buckle caution remains roughly 10-12lb, so Greg must keep harness load below that.
+### Cart accident / voluntary help
+- Festival delivery cart loses rear wheel after axle pin shears crossing lane hump.
+- Three crates of mirror lantern panes lean against rope side; one rope slips.
+- Horse frightened but held.
+- Porter foot trapped between fallen crate and curb.
+- Greg does not attempt unsafe two-handed lift while on crutches.
+- He offers to brace rope.
+- Before using stone bollard, Greg asks whether it is a cart tie post; driver confirms yes. No invented anchor rating from appearance alone.
+- Greg routes rope around tie post and uses porter harness/body to keep crate stack from shifting farther while others lever trapped crate.
+- First lift slips and rope snaps tight. Harness takes brief dynamic load; Greg's crutch tips skid ~half inch.
+- Greg explicitly says **stop**, asks others to reset his position, then resumes after right crutch reset.
+- Second attempt uses lever block; porter freed.
+- Porter foot bloody but toes move; healer summoned. No fake diagnosis.
+- Mirror-pane crates remain intact; cart damaged.
+- Greg is not unique savior, just one useful person among locals.
+- No pay/contract.
 
-### Kel Toren / crew yard
-- **Kel Toren** introduced in person:
-  - mid-40s maybe;
-  - wide face;
-  - hair tied in three short knots;
-  - driver/boat hand;
-  - currently arguing with Vessa about cart wheel becoming insufficiently round under load.
-- Crew yard case marks are crew-specific, not universal:
-  - blue lids gauges;
-  - black river-light;
-  - red repair;
-  - plain wood food/camp.
+### Harness consequence / Baret Oss
+- Dynamic cart brace means Greg refuses to assume porter harness is still normal trial equipment merely because it looks intact.
+- Dema pushes him to ask specialist rather than self-certify.
+- **Baret Oss**:
+  - narrow harness shop two lanes east;
+  - beard split into two braids;
+  - tends to address harness before people;
+  - bad metaphor: carry load and shock load are `cousins who hate each other`.
+- Baret inspection:
+  - replacement buckle has no visible set;
+  - stitching has not walked;
+  - possible hair of leather stretch, could predate incident;
+  - cannot certify whole harness because he did not make original repair/does not know leather.
+- Offers replace buckle + sister strap for **2c**, completed last bell.
+- Explicit limitation: reinforces known weak point, does NOT convert harness to rescue equipment.
+- Greg pays because trial/travel reliability is legitimate use of money.
+- Greg **16c -> 14c** without wallet melodrama.
+- At pickup:
+  - heavier ordinary brass buckle;
+  - sister strip along stressed section;
+  - Baret states carry use only, not climbing/rescue/anchor/proof Greg can catch cart;
+  - Greg repeats `Carry use only.`
+  - post-repair walk with shop weights: 6lb stable, 8lb stable; Baret stops there because no reason to test more.
+- Do NOT infer rating above tested carry context.
 
-### Maro update
-- Storage bin is missing corner seal and contains same old mirror-flake type as flake found in lantern frame.
-- Storage contamination is now **likely**, not certain.
-- Crucially, lantern frames rotated again next morning with **no flake found**.
-- Therefore flake should NOT be treated as sole cause.
-- Maro still refuses prediction of strong Glasswake from limited pre-pull evidence.
+### Dema relationship
+- Dema encounters Greg after accident, checks whether he is actually injured rather than accepting joke.
+- Greg reports no injury, only pressure stripe/harness concern.
+- Dema knows three harness specialists and routes him to Baret.
+- Key distinction in dialogue:
+  - Dema asks if Greg is volunteering for carts now.
+  - Greg: no, he helped.
+  - Dema: `Different.`
+- Merecross relationship density continues without making Dema constant companion.
 
-### Sori Vale introduced
-- **Sori Vale**, explicitly no relation established to Greg's Vale:
-  - young woman ~25;
-  - temples shaved, rest hair tied high;
-  - handles lock records, permits, route copies, sample custody, and prevents Dask Renn inventing abbreviations;
-  - says Greg's field sheet would be raw record while she keeps record legally attached to reality afterward.
-- Sori has longer/messier speech when asked what she likes:
-  - likes travel mornings;
-  - hates wet paper;
-  - likes functioning locks;
-  - hates supervisors treating permits as suggestions;
-  - loves North Glass Cut except shoes;
-  - dislikes Alder Basin mosquitoes;
-  - West Locks food `has no opinion about itself`.
-- Her failure modes for record hands:
-  - trying to look useful instead of being useful;
-  - carrying unasked things;
-  - touching tags;
-  - guessing spellings;
-  - writing later from memory because embarrassed;
-  - saying yes when they didn't hear;
-  - wandering ahead;
-  - acting like general support means junior surveyor.
-- Physical/social advice: ask for skiff-transfer help before current, cart stop before vomiting, ten breaths after slope rather than `I'm fine` until useless.
-- Away work is boring more than dangerous until suddenly not; bring one thing to read, not six.
-- Vessa snores, according to Sori.
-
-### Glasswake pre-pull strengthens
-- Merecross afternoon gains subtle silver-blue bands under awnings moving wrong direction for sky reflection.
-- Children chase light; shops hang darker cloth behind mirror displays.
-- River surface shows pale threadlike light apparently moving upstream while water flows down.
-- Barge shadow has bright underside edge.
-- This is still **pre-pull**, not full Glasswake.
-- Greg follows Lyssa's letter and goes to see `stupid river light`.
-- No catastrophe.
-
-### Night Rest observed without paid demo
-- Tessa Vorn's Night Rest remains ask **28c**.
-- During stronger pre-pull, its cloudy glass center displays a thin pale line while sitting unset on shelf.
-- Greg witnesses line slowly shift/tilt over roughly ten breaths.
-- Tessa says ordinary week it does not show unset line; seller claim for baseline, but current weird display is directly witnessed.
-- Tessa calls this why locals dislike old North Channel aids during Glasswake: they `start answering river instead of user`, explicitly poetic/nontechnical phrasing.
-- Price remains 28c because visitor interest can rise during festival. Earlier possible 22c after festival remains contingent on unsold inventory.
-- Another buyer asks 24c; Tessa holds 28 and buyer leaves.
-- Greg does not bid or pay demo. Cash remains 16c.
-- Greg notices field-crew earnings could eventually make Night Rest affordable, but object may sell; world does not reserve it for him.
-
-### Civic work choice
-- Iven offers second walkthrough at West Steps tomorrow afternoon, same 2c, different local partner.
-- Greg **declines for now** because he needs honest packing/rest before trial and no longer lets every extra 2c automatically own his time.
-- This is economic/optionality progression, not disdain for money.
+### Rest / leisure
+- Greg intentionally spends part of afternoon doing almost nothing productive under awning.
+- Reads terrible serialized pamphlet about noblewoman secretly becoming swordmaster despite cover showing her holding sword.
+- Considers stealing pamphlet, remembers accidental spoon, does not. Joke only.
+- This honors Sori's advice that away work is often boring and to bring one thing to read.
 
 ## Economy
 - Greg begins **16c**.
-- No income/spend in Ch383.
-- Ends **16c private cash**.
+- Pays **2c** to Baret Oss for replacement buckle + sister strap.
+- Ends **14c private cash**.
 - Vale remains **23c principal-equivalent**.
 - Bits unspecified.
-- Lyssa third-lot financial terms remain those established earlier; Ch383 confirms she accepted third lot after heat sample passed but does not state new payment yet.
+- No income.
+- No Night Rest purchase.
+- Greg's willingness to spend 2c on reliability without crisis reflects upward economic optionality.
 
 ## Magic / artifacts
 - Greg uses no mana. Magic remains **59 / 53 / 129**.
-- Oval in bag, unactivated, declared on application, route eligibility unresolved.
+- Oval remains wrapped/unactivated in shoulder bag, trial route approval unresolved.
 - Holdfast/K-14-6/Three Reeds/Step Keeper remain locked in Carrow.
-- Night Rest behavior during pre-pull directly observed but mechanism/current ordinary behavior still unresolved.
+- Glass run is Merecross river/drain magical ecology, not Greg artifact interaction.
+- No Night Rest scene in Ch384.
 
 ## Greg internal movement
-- Key distinction from Lyssa letter: change vs choice.
-- Greg recognizes first-life anonymity in Merecross, but unlike first life, things now follow him: letters, people, obligations, Tavi's rock.
-- Notebook:
-  - `APPLICATION: FILED`
-  - `TRIAL: DAY AFTER TOMORROW, FIRST BELL`
-  - `FIELD JOB: NOT YET MINE`
-  - copies `COME BACK WHEN YOU COME BACK.`
-  - `CHOICE MADE TODAY: TRY.`
-- Closing: `Applicant. / For once, I had applied to somewhere farther away.`
+- Greg experiences usefulness without contract/pay/status.
+- He explicitly stops during dangerous brace when footing shifts and asks for reset rather than performing toughness.
+- He spends money to restore equipment reliability before trial.
+- Notebook ends with trial reminders:
+  - first bell;
+  - eat first;
+  - normal load;
+  - oval wrapped;
+  - say when he needs ten breaths.
+- Closing: `Volunteer. / Tomorrow somebody got to decide whether I was useful on purpose.`
 
 ## Dialogue variance
-- Cala: practical blunt care in letter.
-- Lyssa: emotionally direct, longer letter voice, distinguishes choice from circumstance.
-- Tavi: child-practical concise letter.
-- Vessa: direct requirements.
-- Kel: practical mechanical argument.
-- Maro: soft epistemic caution.
-- Sori: initially literal/records-focused, then longer messy opinionated speech.
-- Tessa: seller logic.
+- Rima/children: blunt, socially fearless child logic.
+- Trapped porter: fear-driven repetitive messy speech about needing all toes.
+- Dema: practical, corrective, socially confident.
+- Baret: specialist speech, metaphor, bounded certification.
+- Drain workers: procedural without overclaiming.
 
 ## Recent role ledger
-- 379 THE BROKER
 - 380 THE DELEGATE
 - 381 THE VISITOR
 - 382 THE OUTSIDER
 - 383 THE APPLICANT
+- 384 THE VOLUNTEER
 
 ## Protected uncertainties
-- Field job NOT guaranteed. Greg only has trial slot.
+- Field job NOT guaranteed. Trial is **tomorrow first bell**.
 - Trial outcome unresolved.
-- Field slot could still be denied.
 - Oval route approval unresolved.
-- Greg's honest travel packing/load unresolved.
-- Transit return status after current minimum hold unresolved.
-- South span cause/repair unresolved.
-- North ford remains foot-open at endpoint; future unresolved.
+- Harness is repaired for ordinary carry and walked at 6/8lb, not certified rescue/climbing/anchor/dynamic load.
+- Cart axle-pin failure cause beyond shear at lane hump unresolved; do not make conspiracy.
+- Porter exact injury outcome unresolved beyond freed/alive/toe movement/healer summoned.
+- Glass run uphill branch mechanism unresolved.
 - Glasswake exact onset/strength unresolved.
-- Mirror-flake contamination likely but not certain; not sole cause of frame rotation.
-- Night Rest current pre-pull behavior witnessed, but ordinary behavior/mechanism/value unresolved.
+- Transit/bridge status not updated in Ch384; prior status remains last authority.
+- Night Rest remains 28c ask last known; current availability next chapter must not be assumed without scene.
 - Carrow next communication unresolved.
-- Lyssa third-lot work/payment progression unresolved beyond acceptance.
 - All older protected artifact/Carrow threads remain unresolved unless exact authority says otherwise.
 
 ## Continuity issue
-- Ch360 exact prose 1-bit lunch has no established bit source after Ch359 0 bits. Do not silently invent. Ch361-383 avoid Greg bit accounting. Copper exact **16c**.
+- Ch360 exact prose 1-bit lunch has no established bit source after Ch359 0 bits. Do not silently invent. Ch361-384 avoid Greg bit accounting. Copper exact **14c**.
 
-## Chapter 384 trailhead
-Follow next actual claim from Ch383/current authority.
+## Chapter 385 trailhead
+Follow next actual claim from Ch384/current authority.
 
-Greg begins Merecross with **16c cash / 23c Vale / bits unspecified**, magic **59 / 53 / 129**.
+Greg begins with **14c cash / 23c Vale / bits unspecified**, magic **59 / 53 / 129**.
 
-Timeline:
-- tomorrow = day before field trial;
-- field trial = following morning first bell;
-- Glasswake first night still several days away;
-- planned field departure morning after first Glasswake night if hired and route priority unchanged.
+**Field trial is now tomorrow / next chapter natural pressure.** Do not delay it again unless a truly material interruption occurs.
 
-Greg has deliberately declined second Civic walkthrough for tomorrow afternoon so he can pack/rest/use day intentionally. Do not immediately reverse that just to fill scene.
+Trial should feel like actual job-fit assessment, not heroic obstacle course:
+- eat first;
+- normal personal travel load;
+- repaired porter harness, ordinary carry only;
+- 8lb record case separate;
+- read/copy accuracy;
+- instruction repeat-back;
+- yard route/uneven surfaces;
+- cart transfer;
+- likely simulated or dockside skiff-transfer mechanics if Vessa considers relevant, but do not invent requirements beyond established authority casually;
+- Greg should state limits/ask for reset rather than perform invulnerability.
 
-Strong Ch384 need: vary grammar before the formal trial. Greg can prepare honestly, explore a different part of Merecross, interact socially with crew/Dema/Tessa, or encounter closure/festival pressure that tests judgment without becoming trial itself.
+Oval:
+- bring wrapped with partial notes as instructed;
+- Vessa must decide whether it can travel if Greg is hired;
+- no convenient activation/test just because present.
 
-Potentially useful: Greg should determine what normal personal travel load actually looks like and confront the fact that he left most artifact collection/home comforts behind. Packing can be a component, not whole chapter.
+Crew:
+- Vessa, Maro, Sori, Kel established.
+- **Dask Renn** not yet properly introduced and can naturally appear during trial.
+- Let crew evaluate Greg differently. Not everyone needs to like him immediately.
 
-Could introduce a more physical/adventure-flavored event at street/river/market scale, especially as pre-pull strengthens, provided it does not become catastrophe or make Greg uniquely necessary. He can act competently as one person among locals.
+Outcome:
+- Greg can plausibly pass, fail, receive conditional acceptance, or be one of multiple applicants. User direction strongly favors adventure arc, so engine should move toward departure, but **earn it** and preserve credible constraints.
+- If accepted, do not necessarily depart immediately. Glasswake first night still comes before planned departure, giving several days for Merecross/festival/crew preparation and possibly changing route pressure.
 
-Do not rush trial one day early.
-Do not guarantee hire.
-Do not buy Night Rest.
-Do not solve bridge.
-Do not turn chapter into another institutional meeting/audit.
-Do not make every away chapter about accessibility.
+Avoid:
+- superhero physical test;
+- everyone impressed by Greg;
+- accessibility lecture;
+- artifact test lab;
+- another random accident before trial;
+- bridge resolution.
 
-The away arc now has momentum. Let Merecross become fun, strange, physical, social, and magical before Greg leaves it.
+The stronger movement now is Greg entering a real traveling crew with its own habits, frictions, jokes, competence, and hierarchy.
 
-**MANDATORY TITLE CHECK CH384:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH385:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
