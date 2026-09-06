@@ -1,5 +1,5 @@
 {
-  "latest": 384,
+  "latest": 385,
   "chapters": [
     {
       "number": 100,
@@ -1710,6 +1710,12 @@
       "title": "THE VOLUNTEER",
       "source": "checkpoint",
       "path": "384.html"
+    },
+    {
+      "number": 385,
+      "title": "THE CANDIDATE",
+      "source": "checkpoint",
+      "path": "385.html"
     }
   ]
 }
