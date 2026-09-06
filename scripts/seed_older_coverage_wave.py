@@ -28,6 +28,7 @@ WAVE = [
         "spoiler_level": "low",
         "status": "prompt_ready",
         "paragraph_anchor": "After dark, Nessa worked on the chewed mounting cloth by firelight until she decided firelight was making the color worse and stopped.",
+        "anchor_quality_enforced": True,
         "framing_preference": "above_waist",
         "view_angle": "three_quarter",
         "pose_family": "repair_work",
@@ -49,6 +50,7 @@ WAVE = [
         "spoiler_level": "low",
         "status": "prompt_ready",
         "paragraph_anchor": "Fields on both sides of the road had been divided with rope, stakes, painted boards, and people holding sticks.",
+        "anchor_quality_enforced": True,
         "framing_preference": "above_waist",
         "camera_angle": "wide_environmental",
         "pose_family": "arrival_observation",
@@ -70,6 +72,7 @@ WAVE = [
         "spoiler_level": "low",
         "status": "prompt_ready",
         "paragraph_anchor": "For several seconds the performance became a crowd making a lane.",
+        "anchor_quality_enforced": True,
         "framing_preference": "above_waist",
         "view_angle": "side_three_quarter",
         "pose_family": "performance_interruption",
@@ -91,6 +94,7 @@ WAVE = [
         "spoiler_level": "low",
         "status": "prompt_ready",
         "paragraph_anchor": "Marek walked onto the west platform while the fourth speaker was still leaving it.",
+        "anchor_quality_enforced": True,
         "framing_preference": "above_waist",
         "view_angle": "over_shoulder",
         "pose_family": "stage_handoff",
@@ -112,6 +116,7 @@ WAVE = [
         "spoiler_level": "low",
         "status": "prompt_ready",
         "paragraph_anchor": "Then a cart with two goats tied behind it joined after us and became our problem because one goat kept trying to eat the rear wagon rope.",
+        "anchor_quality_enforced": True,
         "framing_preference": "above_waist",
         "view_angle": "three_quarter",
         "pose_family": "roadside_problem_solving",
@@ -128,15 +133,20 @@ def apply_seed_wave(candidates: list[dict]) -> tuple[list[dict], int]:
 
     for candidate_id, anchor in ANCHOR_REPAIRS.items():
         record = by_id.get(candidate_id)
-        if record and record.get("paragraph_anchor") != anchor:
+        if record:
+            before = json.dumps(record, sort_keys=True)
             record["paragraph_anchor"] = anchor
-            record.pop("anchor_status", None)
-            record.pop("anchor_match_count", None)
-            record.pop("anchor_quality_status", None)
-            record.pop("anchor_quality_score", None)
-            record.pop("anchor_blocked", None)
-            record["status"] = "prompt_ready"
-            changed += 1
+            record["anchor_quality_enforced"] = True
+            if record.get("paragraph_anchor") != anchor:
+                record["paragraph_anchor"] = anchor
+            if before != json.dumps(record, sort_keys=True):
+                record.pop("anchor_status", None)
+                record.pop("anchor_match_count", None)
+                record.pop("anchor_quality_status", None)
+                record.pop("anchor_quality_score", None)
+                record.pop("anchor_blocked", None)
+                record["status"] = "prompt_ready"
+                changed += 1
 
     for seeded in WAVE:
         existing = by_id.get(seeded["id"])
@@ -145,12 +155,29 @@ def apply_seed_wave(candidates: list[dict]) -> tuple[list[dict], int]:
             by_id[seeded["id"]] = updated[-1]
             changed += 1
         else:
-            preserved = {key: existing[key] for key in ("anchor_status", "anchor_match_count", "anchor_quality_status", "anchor_quality_score") if key in existing}
+            preserved = {
+                key: existing[key]
+                for key in ("anchor_status", "anchor_match_count", "anchor_quality_status", "anchor_quality_score")
+                if key in existing
+            }
             if any(existing.get(key) != value for key, value in seeded.items()):
                 existing.clear()
                 existing.update(deepcopy(seeded))
                 existing.update(preserved)
                 changed += 1
+
+    for record in updated:
+        chapter = record.get("chapter")
+        if isinstance(chapter, int) and 156 <= chapter <= 170 and not record.get("anchor_quality_enforced"):
+            record["anchor_quality_enforced"] = True
+            record.pop("anchor_status", None)
+            record.pop("anchor_match_count", None)
+            record.pop("anchor_quality_status", None)
+            record.pop("anchor_quality_score", None)
+            record.pop("anchor_blocked", None)
+            if record.get("status") == "candidate":
+                record["status"] = "prompt_ready"
+            changed += 1
 
     updated.sort(key=lambda record: (record.get("chapter", 999999), record.get("id", "")))
     return updated, changed
