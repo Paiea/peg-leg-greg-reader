@@ -7,6 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from dialogue_live_entrypoint import _parse_batch_compat
+from dialogue_ownership import scan_paragraphs
 from generate_illustrated import render_chapter as render_illustrated_chapter
 from generate_light import Chapter
 from promote_recovered_dialogue import apply_patches_to_recovered
@@ -149,6 +150,33 @@ clear speaker hinge
             text = path.read_text(encoding="utf-8")
             self.assertEqual(text.count('Lorn said, "To arrest the Chancellor."'), 1)
             self.assertEqual(text.count('"To arrest the Chancellor."'), 2)
+
+    def test_dialogue_ownership_flags_possible_speaker_switch_inside_one_paragraph(self):
+        paragraphs = [
+            '"To what?"',
+            '"Your age." He smiled. "How old did you expect me to be?"',
+            '"Richer."',
+        ]
+        candidates = scan_paragraphs(paragraphs)
+        self.assertTrue(any(
+            item.rule == "possible_multi_speaker_paragraph"
+            and item.paragraph_index == 1
+            for item in candidates
+        ))
+
+    def test_dialogue_ownership_flags_action_after_untagged_dialogue_for_review(self):
+        paragraphs = ['"Doing what?" Rusk pointed at the sack.']
+        candidates = scan_paragraphs(paragraphs)
+        self.assertTrue(any(
+            item.rule == "untagged_dialogue_followed_by_action"
+            and item.paragraph_index == 0
+            for item in candidates
+        ))
+
+    def test_dialogue_ownership_does_not_flag_explicit_simple_attribution(self):
+        paragraphs = ['"Doing what?" I asked.']
+        candidates = scan_paragraphs(paragraphs)
+        self.assertEqual(candidates, [])
 
 
 if __name__ == "__main__":
