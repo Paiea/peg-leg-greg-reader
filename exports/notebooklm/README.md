@@ -1,10 +1,16 @@
 # Peg-Leg Greg — NotebookLM Sources
 
-Upload the three `PLG_BOOK_*.md` files in this folder to one NotebookLM notebook.
+Upload the `PLG_BOOK_*.md` files in this folder to one NotebookLM notebook.
+
+Books I and II are whole-Book sources. Book III onward is split by the current Act structure so individual uploads stay manageable as the manuscript grows.
+
+`PLG_STRUCTURE_MAP.md` is optional. Add it when you want NotebookLM to know the intended Book/Act boundaries explicitly. Leave it out for a completely blind structural read.
 
 These are deliberately **manuscript-only** sources. Do not add `MANUSCRIPT_STATE`, `STORY_NORTH_STAR`, plot notes, or other project-brain files for the first cold-read experiment.
 
 Current exported endpoint: **Chapter 484**.
+
+Current manuscript source files: **9**.
 
 Suggested first chat prompt:
 
