@@ -52,7 +52,6 @@ def infer_speakers(paras: list[str]) -> list[tuple[str | None, int | None]]:
 
 
 def quote_map(p: str) -> tuple[list[bool], list[int]]:
-    """Return outside-quote flags and positions immediately after closing quotes."""
     outside = [True] * len(p)
     closing_starts: list[int] = []
     inside = False
@@ -146,11 +145,16 @@ def self_test() -> None:
         ('"Too boring." He stayed in the next hand.', 'GREG', 0, '"Too boring." </p><p>He stayed in the next hand.'),
         ('"Excellent," I said. He looked concerned.', 'GREG', 0, '"Excellent," I said. </p><p>He looked concerned.'),
         ('Jorren said, "Old man." I stared at him. He laughed.', 'OTHER', 0, 'Jorren said, "Old man." </p><p>I stared at him. </p><p>He laughed.'),
-        ('Antonius looked at me long enough that I said, "What?"', 'GREG', 36, 'Antonius looked at me long enough that </p><p>I said, "What?"'),
     ]
     for raw, sp, anchor, expected in cases:
         got, _ = transform_paragraph(raw, sp, anchor)
         assert got == expected, (raw, got, expected)
+
+    raw = 'Antonius looked at me long enough that I said, "What?"'
+    anchor = raw.index('I said')
+    got, _ = transform_paragraph(raw, 'GREG', anchor)
+    expected = 'Antonius looked at me long enough that </p><p>I said, "What?"'
+    assert got == expected, (raw, got, expected)
     print('self-test passed')
 
 
