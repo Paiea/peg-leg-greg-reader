@@ -17,6 +17,9 @@
     "49": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
     "57": {"showcase": false, "reason": "redundant_progression"},
     "66": {"showcase": false, "reason": "bridge_not_needed"},
-    "73": {"showcase": false, "reason": "bridge_not_needed"}
+    "73": {"showcase": false, "reason": "bridge_not_needed"},
+    "85": {"showcase": false, "reason": "redundant_progression"},
+    "87": {"showcase": false, "reason": "redundant_progression"},
+    "89": {"showcase": false, "reason": "redundant_progression"}
   }
 }
