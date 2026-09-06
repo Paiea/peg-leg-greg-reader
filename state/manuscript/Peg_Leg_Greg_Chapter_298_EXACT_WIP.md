@@ -1,6 +1,6 @@
 # CHAPTER 298
 
-## THE FAR MARK
+## THE SUBJECT
 
 I went to the Guild to ask permission to fail farther away.
 

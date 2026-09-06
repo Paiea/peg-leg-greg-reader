@@ -1,6 +1,6 @@
 # CHAPTER 288
 
-## THE RED THREAD
+## THE TESTER
 
 Lyssa left a red thread on the table.
 

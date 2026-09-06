@@ -1,6 +1,6 @@
 # CHAPTER 337
 
-## THE RED PATH
+## THE SHOPPER
 
 The next morning, Cala sent me to buy onions.
 

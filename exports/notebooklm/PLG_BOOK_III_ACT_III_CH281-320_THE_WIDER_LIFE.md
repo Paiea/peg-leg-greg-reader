@@ -6,7 +6,7 @@
 
 # CHAPTER 281
 
-## THE SHARE
+## THE CONSULTANT
 
 The next person who offered me money wanted me to refuse it.
 
@@ -2332,7 +2332,7 @@ She threw the stocking at me.
 
 # CHAPTER 283
 
-## THE WHOLESALE DOOR
+## THE BUYER
 
 The next morning I went looking for paper and accidentally found economics.
 
@@ -3168,7 +3168,7 @@ I kept it.
 
 # CHAPTER 284
 
-## THE WRONG CORNER
+## THE OBSERVER
 
 The seven-legged horse stayed on the table for two days because I could not decide whether throwing it away would count as discouraging innovation.
 
@@ -4266,7 +4266,7 @@ I left the question marks where they were.
 
 # CHAPTER 285
 
-## THE SHORT MEASURE
+## THE MEASURER
 
 The next morning the chaffers were mostly gone.
 
@@ -5498,7 +5498,7 @@ That seemed like enough.
 
 # CHAPTER 286
 
-## THE WARM WALL
+## THE INSPECTOR
 
 Cala's help turned out to be moving a shelf.
 
@@ -6552,7 +6552,7 @@ I left that question mark too.
 
 # CHAPTER 287
 
-## THE CARRYING LIGHT
+## THE OBSERVER
 
 The next morning I needed a new piece of paper.
 
@@ -7350,7 +7350,7 @@ For the first time, the scraps seemed like the better haul.
 
 # CHAPTER 288
 
-## THE RED THREAD
+## THE TESTER
 
 Lyssa left a red thread on the table.
 
@@ -8324,7 +8324,7 @@ That might have been the most reliable magic I saw all day.
 
 # CHAPTER 289
 
-## THE GOOD STEP
+## THE OBSERVER
 
 The fourth copper survived the night.
 
@@ -9180,7 +9180,7 @@ This one was teaching me to notice who made them good.
 
 # CHAPTER 290
 
-## THE RAIN SHELF
+## THE COMPANION
 
 It rained before breakfast.
 
@@ -10026,7 +10026,7 @@ For once, knowing the price of something did not make me want to own it.
 
 # CHAPTER 291
 
-## THE DOOR WEIGHT
+## THE TROUBLESHOOTER
 
 The front door tried to eat my crutch.
 
@@ -10860,7 +10860,7 @@ Not every useful thing I knew had to become mine.
 
 # CHAPTER 292
 
-## THE SHADE LINE
+## THE OBSERVER
 
 The fish moved when the sun did.
 
@@ -12540,7 +12540,7 @@ I had just finally bought myself a third hand.
 
 # CHAPTER 294
 
-## THE USUAL
+## THE SHOPPER
 
 Cala's shopping note contained four words and one number.
 
@@ -13552,7 +13552,7 @@ That might have been what knowing the usual was for.
 
 # CHAPTER 295
 
-## THE OPEN SEAT
+## THE PLAYER
 
 The first person to offer me a chair in Carrow did it because somebody else had abandoned it.
 
@@ -14594,7 +14594,7 @@ It had made room for one game, then filled the chair again.
 
 # CHAPTER 296
 
-## THE HELD NOTE
+## THE SINGER
 
 The song reached me before the people did.
 
@@ -15724,7 +15724,7 @@ For once, knowing where the second line went was enough.
 
 # CHAPTER 297
 
-## THE HIGH LINE
+## THE OBSERVER
 
 The first thing to fall out of the sky was a sock.
 
@@ -17120,7 +17120,7 @@ Enough to recognize it.
 
 # CHAPTER 298
 
-## THE FAR MARK
+## THE SUBJECT
 
 I went to the Guild to ask permission to fail farther away.
 
@@ -18334,7 +18334,7 @@ That was enough to make it real.
 
 # CHAPTER 299
 
-## THE OTHER HANDLE
+## THE COURIER
 
 The basket arrived before breakfast and immediately became my problem by being too useful.
 
@@ -19524,7 +19524,7 @@ And sometimes the useful thing was simply knowing which handle was yours.
 
 # CHAPTER 300
 
-## THE BLUE HORSE
+## THE MINDER
 
 After Mera left with Lyssa's cloth, Tavi discovered that the room was too small for his ambitions.
 
@@ -20276,7 +20276,7 @@ That seemed sufficient.
 
 # CHAPTER 301
 
-## THE FALSE DOOR
+## THE TESTER
 
 The theatre sent paper instead of Lenn.
 
@@ -20988,7 +20988,7 @@ The pay had not.
 
 # CHAPTER 302
 
-## THE LOW LAMPS
+## THE COMPANION
 
 Lyssa asked me to go for a walk after I had already decided not to.
 
@@ -21894,7 +21894,7 @@ That was all.
 
 # CHAPTER 303
 
-## THE DRY BENCH
+## THE BATHER
 
 The problem with a good evening was that eventually you had to wash it off.
 
@@ -22884,7 +22884,7 @@ The change was sufficient.
 
 # CHAPTER 304
 
-## THE QUIET TABLE
+## THE SUBJECT
 
 Hessa's note arrived while I was sorting beans.
 
@@ -24256,7 +24256,7 @@ For now, that was better.
 
 # CHAPTER 305
 
-## THE CLEAR LANE
+## THE GUIDE
 
 The first mirrorhorn I ever saw nearly got me killed because I drew a sword.
 
@@ -25688,7 +25688,7 @@ The road outside stayed clear.
 
 # CHAPTER 306
 
-## THE BAD TOOL
+## THE BUYER
 
 Three copper had been enough money to make me curious.
 
@@ -26900,7 +26900,7 @@ For now, that was enough.
 
 # CHAPTER 307
 
-## THE RED POT
+## THE COOK
 
 The holdfast remained on the high shelf all morning. For two copper, it was excellent at not helping.
 
@@ -27432,7 +27432,7 @@ I had no answer for that.
 
 # CHAPTER 308
 
-## THE DEBT HOUR
+## THE DEBTOR
 
 The note arrived while I was eating the last of yesterday's bread.
 
@@ -28572,7 +28572,7 @@ For now.
 
 # CHAPTER 309
 
-## THE LAST CHIME
+## THE BYSTANDER
 
 The sky looked wrong before breakfast finished.
 
@@ -29636,7 +29636,7 @@ Good enough.
 
 # CHAPTER 310
 
-## THE UNCUT LINE
+## THE INTERLOPER
 
 Two mornings after the charge rain, Lyssa told me to move.
 
@@ -30642,7 +30642,7 @@ The blue line stayed uncut.
 
 # CHAPTER 311
 
-## THE RETURN CART
+## THE PASSENGER
 
 Sevren found me three days later because apparently he still knew how.
 
@@ -31836,7 +31836,7 @@ Outside, a cart rolled past toward somewhere else.
 
 # CHAPTER 312
 
-## THE MARKED THIRD
+## THE SUBJECT
 
 Hessa's note arrived before breakfast.
 
@@ -33208,7 +33208,7 @@ For once, I did not try to move it.
 
 # CHAPTER 313
 
-## THE LANDING
+## THE LOOKOUT
 
 The cupboard arrived sideways.
 
@@ -34444,7 +34444,7 @@ The cupboard stayed upstairs.
 
 # CHAPTER 314
 
-## THE DRY HOUR
+## THE WATER BEARER
 
 The water stopped while I was washing one spoon.
 
@@ -35552,7 +35552,7 @@ Then I drank a cup of water because spite was not hydration.
 
 # CHAPTER 315
 
-## THE TRUE STORY
+## THE STORYTELLER
 
 The first lie was about a chicken.
 
@@ -36394,7 +36394,7 @@ Surely I could invent one decent chicken.
 
 # CHAPTER 316
 
-## THE EAST SEAT
+## THE PASSENGER
 
 Sevren arrived with a seat and terrible timing.
 
@@ -37150,7 +37150,7 @@ Tomorrow I would hear whether it had anything worth saying.
 
 # CHAPTER 317
 
-## THE SINGING BRIDGE
+## THE PASSENGER
 
 The bridge did not sing until somebody lied to it.
 
@@ -37928,7 +37928,7 @@ The bridge was doing its job.
 
 # CHAPTER 318
 
-## THE EMPTY PEG
+## THE PASSENGER
 
 The problem with the return trip was that somebody else had not returned.
 
@@ -38600,7 +38600,7 @@ Tomorrow we would go home.
 
 # CHAPTER 319
 
-## THE MISSED COIN
+## THE RETURNER
 
 I came home poorer than I left and discovered I had missed a chance to become less poor.
 
@@ -39380,7 +39380,7 @@ It also seemed like living.
 
 # CHAPTER 320
 
-## THE PORTRAIT
+## THE MODEL
 
 The woman drawing me had forgotten my left foot.
 

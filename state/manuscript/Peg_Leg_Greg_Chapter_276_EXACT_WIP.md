@@ -1,6 +1,6 @@
 # CHAPTER 276
 
-## THE MASK
+## THE MASKED GUEST
 
 The theatre sent Lenn before breakfast was finished.
 

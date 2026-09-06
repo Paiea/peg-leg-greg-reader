@@ -1,6 +1,6 @@
 # CHAPTER 303
 
-## THE DRY BENCH
+## THE BATHER
 
 The problem with a good evening was that eventually you had to wash it off.
 

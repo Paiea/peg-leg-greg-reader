@@ -1,6 +1,6 @@
 # CHAPTER 324
 
-## THE PRICE
+## THE INQUIRER
 
 Mara Quill charged two copper to tell you she did not know.
 

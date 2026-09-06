@@ -1,6 +1,6 @@
 # CHAPTER 341
 
-## THE LONG MILE
+## THE INVESTIGATOR
 
 Cala's cousin arrived with a cart, a cracked wheel rim, and a problem that lived eight miles outside Carrow.
 

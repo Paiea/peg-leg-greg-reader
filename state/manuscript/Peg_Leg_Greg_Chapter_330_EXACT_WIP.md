@@ -1,6 +1,6 @@
 # CHAPTER 330
 
-## THE BACK DOOR
+## THE RESIDENT
 
 For three days, our front door became decorative.
 

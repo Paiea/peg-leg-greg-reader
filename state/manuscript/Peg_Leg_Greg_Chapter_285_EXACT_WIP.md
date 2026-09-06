@@ -1,6 +1,6 @@
 # CHAPTER 285
 
-## THE SHORT MEASURE
+## THE MEASURER
 
 The next morning the chaffers were mostly gone.
 

@@ -1,6 +1,6 @@
 # CHAPTER 289
 
-## THE GOOD STEP
+## THE OBSERVER
 
 The fourth copper survived the night.
 
