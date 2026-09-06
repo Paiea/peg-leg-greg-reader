@@ -43,18 +43,20 @@ class RoadCompressionTest(unittest.TestCase):
 
         out60 = transform_chapter_paragraphs(60, ch60)
         out61 = transform_chapter_paragraphs(61, ch61)
+        text60 = "\n".join(out60)
+        text61 = "\n".join(out61)
 
-        self.assertNotIn("OLD FARMER ARGUMENT LOOP", out60)
-        self.assertNotIn("OLD PRIVATE DRAIN PROCEDURE LOOP", out60)
-        self.assertIn("Maps remembered one version. Ground remembered more.", out60)
-        self.assertIn("Roads don't care about narrative.", out60)
-        self.assertIn("The next farm spur was where I became useful.", out60)
+        self.assertNotIn("OLD FARMER ARGUMENT LOOP", text60)
+        self.assertNotIn("OLD PRIVATE DRAIN PROCEDURE LOOP", text60)
+        self.assertIn("Maps remembered one version. Ground remembered more.", text60)
+        self.assertIn("Roads don't care about narrative.", text60)
+        self.assertIn("The next farm spur was where I became useful.", text60)
 
-        self.assertNotIn("OLD REPROBE TRAFFIC CONTROL LOOP", out61)
-        self.assertNotIn("OLD SECOND CONSEQUENCE PLUS CHANGE LESSON", out61)
-        self.assertIn("The paired culvert from yesterday had changed more.", out61)
-        self.assertIn("DO NOT CLEAR WITHOUT OPENING / ASSESSING STRUCTURE", out61)
-        self.assertIn("Pond overflow", out61)
+        self.assertNotIn("OLD REPROBE TRAFFIC CONTROL LOOP", text61)
+        self.assertNotIn("OLD SECOND CONSEQUENCE PLUS CHANGE LESSON", text61)
+        self.assertIn("The paired culvert from yesterday had changed more.", text61)
+        self.assertIn("DO NOT CLEAR WITHOUT OPENING / ASSESSING STRUCTURE", text61)
+        self.assertIn("Pond overflow", text61)
 
         self.assertNotEqual(out60, out61)
 
