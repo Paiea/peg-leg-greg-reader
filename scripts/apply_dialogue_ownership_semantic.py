@@ -12,8 +12,15 @@ ACTION = r'(?:looked|smiled|laughed|nodded|frowned|shrugged|leaned|stood|sat|tur
 STALE_ARLO_BLOCK_OLD = '<p>"What?" Antonius asked.</p><p>"Nothing," I said.</p><p>"You keep looking at me," Antonius said.</p><p>"I have a memorable-face problem," I said.</p><p>"Your face?" Antonius asked.</p><p>"Other people\'s." Antonius held out his hand.</p><p>"You\'ve been staring at my hands for five minutes," Arlo said.</p>'
 STALE_ARLO_BLOCK_NEW = '<p>"What?" Arlo asked.</p><p>"Nothing," I said.</p><p>"You keep looking at me," Arlo said.</p><p>"I have a memorable-face problem," I said.</p><p>"Your face?" Arlo asked.</p><p>"Other people\'s."</p><p>Arlo held out his hand.</p><p>"You\'ve been staring at my hands for five minutes," Arlo said.</p>'
 FINAL_EXACT = {
-    11: ('<p>"Difference?" Rusk turned toward the stairs.</p>', '<p>"Difference?"</p><p>Rusk turned toward the stairs.</p>'),
-    13: ('<p>"Of course." I laughed.</p>', '<p>"Of course."</p><p>I laughed.</p>'),
+    11: [
+        ('<p>"Difference?" Rusk turned toward the stairs.</p>', '<p>"Difference?"</p><p>Rusk turned toward the stairs.</p>'),
+        ('<p>"Fragile?" He stared at me.</p>', '<p>"Fragile?"</p><p>He stared at me.</p>'),
+        ('<p>"No." I looked at the cart. Barrier. Small. Momentary. Could brace the lower edge while I changed grip. Useful? Barely. Necessary?</p>', '<p>"No."</p><p>I looked at the cart. Barrier. Small. Momentary. Could brace the lower edge while I changed grip. Useful? Barely. Necessary?</p>'),
+    ],
+    13: [
+        ('<p>"Of course." I laughed.</p>', '<p>"Of course."</p><p>I laughed.</p>'),
+        ('<p>"Of course." I laughed. </p>', '<p>"Of course."</p><p>I laughed. </p>'),
+    ],
 }
 
 
@@ -223,8 +230,7 @@ def main() -> int:
             new = '<p>I jumped once. That was childish. I did it again. The floorboards creaked.</p><p>A voice from the other side of the wall shouted, "Some of us are sleeping!"</p><p>I knew that voice. Or thought I did. I froze.'
             if old in text:
                 text = text.replace(old, new, 1)
-        if n in FINAL_EXACT:
-            old, new = FINAL_EXACT[n]
+        for old, new in FINAL_EXACT.get(n, []):
             if old in text:
                 text = text.replace(old, new, 1)
         new_text, count = transform_html(text)
