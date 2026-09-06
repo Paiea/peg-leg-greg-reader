@@ -1,6 +1,7 @@
 import unittest
 
 from scripts.dialogue_ownership_engine import quoted_spans, split_paragraph
+from scripts.apply_dialogue_ownership_novel import _transform_markdown_body
 
 
 class DialogueOwnershipNovelTests(unittest.TestCase):
@@ -64,6 +65,12 @@ class DialogueOwnershipNovelTests(unittest.TestCase):
         before = quoted_spans(text)
         after = quoted_spans(' '.join(split_paragraph(text)))
         self.assertEqual(after, before)
+
+    def test_markdown_emphasis_block_is_not_rewritten(self):
+        text = '**The theatre sent somebody by for you once. He said, "Again?" like this was my fault. I told him no. He left.**'
+        transformed, splits = _transform_markdown_body(text)
+        self.assertEqual(transformed, text)
+        self.assertEqual(splits, 0)
 
 
 if __name__ == '__main__':
