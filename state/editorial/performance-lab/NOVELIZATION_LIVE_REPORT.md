@@ -49,3 +49,7 @@ This report authorizes only these validated candidate changes. It does not autho
 ## Conservative attribution hardening
 
 PASS. Novel prose was re-anchored for instantaneous first-read speaker recognition. Ordinary `said` / `asked` tags are intentionally repeated after narration, action beats, and speaker changes. An action beat is allowed to carry attribution only when the acting character is unquestionably the speaker in that same paragraph. The changed spans do not rely on another character's separate action to imply who spoke.
+
+## Seam audit
+
+PASS. Entry and exit seams around all three surviving replacements were reread against their untouched neighboring prose. The cleanup removes one redundant same-paragraph Antonius tag, explicitly re-anchors the dialogue immediately after replacement spans, and repairs an Arlo/Greg handoff where `"I know," I said.` incorrectly broke the alternating speaker pattern. No scene facts or outcomes changed.
