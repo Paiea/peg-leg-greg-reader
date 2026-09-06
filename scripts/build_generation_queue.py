@@ -54,11 +54,12 @@ def _reference_selection_notes(selected: list[dict]) -> str:
     parts: list[str] = []
     for reference in selected:
         reasons = ", ".join(reference.get("reasons", [])) or "baseline reference"
-        penalties = reference.get("penalties", [])
-        suffix = f"; penalties: {', '.join(penalties)}" if penalties else ""
+        penalties = list(reference.get("penalties", [])) + list(reference.get("diversity_notes", []))
+        suffix = f"; penalties/selection notes: {', '.join(penalties)}" if penalties else ""
+        selection_score = reference.get("selection_score", reference.get("score", 0))
         parts.append(
             f"{reference.get('character', '')}: {reference.get('asset', '')} "
-            f"(score {reference.get('score', 0)}; {reasons}{suffix})"
+            f"(base {reference.get('score', 0)}, selected {selection_score}; {reasons}{suffix})"
         )
     return " | ".join(parts)
 
@@ -93,10 +94,18 @@ def build_generation_queue(
             if greg_in_frame
             else "Match recurring characters to supplied reference assets and appearance notes while preserving the shared PLG visual language."
         )
+        scene_tags = list(candidate.get("scene_tags", []))
+        scene_context = {
+            "location": candidate.get("location", ""),
+            "mood": candidate.get("mood", ""),
+            "scene_tags": scene_tags,
+        }
         selected_references = select_character_references(
             character_references,
             characters,
             framing_preference=framing_preference,
+            scene_context=scene_context,
+            diversity_aware=True,
         )
         character_assets = [reference["asset"] for reference in selected_references]
         character_notes = _appearance_notes(characters, character_references)
@@ -114,12 +123,15 @@ def build_generation_queue(
                 "characters": characters,
                 "location": candidate.get("location", ""),
                 "mood": candidate.get("mood", ""),
+                "scene_tags": scene_tags,
                 "style_family": candidate.get("style_family", DEFAULT_STYLE_FAMILY),
                 "framing_preference": framing_preference,
+                "camera_angle": candidate.get("camera_angle", ""),
+                "pose_family": candidate.get("pose_family", ""),
                 "character_reference_assets": character_assets,
                 "selected_character_references": selected_references,
                 "character_reference_scores": {
-                    reference["asset"]: reference["score"] for reference in selected_references
+                    reference["asset"]: reference["selection_score"] for reference in selected_references
                 },
                 "reference_selection_notes": _reference_selection_notes(selected_references),
                 "character_appearance_notes": character_notes,
