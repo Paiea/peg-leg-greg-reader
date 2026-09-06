@@ -1,0 +1,101 @@
+name: Economy normalization one-shot
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/apply_economy_normalization_live.py'
+      - '.github/workflows/economy-normalization-one-shot.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: economy-normalization-one-shot
+  cancel-in-progress: false
+
+jobs:
+  normalize-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Apply exact economy normalization replacements
+        run: python scripts/apply_economy_normalization_live.py
+      - name: Run reader tooling tests
+        run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Regenerate current illustrated and text readers
+        run: |
+          python scripts/generate_illustrated.py current
+          python scripts/generate_light.py current
+          python scripts/update_reader_navigation.py index.html
+          python scripts/update_home_contents.py
+      - name: Verify generated reader
+        run: |
+          python scripts/verify_light.py current
+          python scripts/verify_reader_frontier.py
+          grep -q '2S / HALF DAY' chapters/471.html
+          grep -q 'Forty-eight silver' chapters/473.html
+          grep -q 'Two-silver commission pending' chapters/474.html
+          grep -q 'five silver' chapters/475.html
+          grep -q 'sold eleven silver' chapters/476.html
+          grep -q 'Final completed price: 8s' chapters/484.html
+          grep -q '6S ON ACCEPTED START PLAN' chapters/485.html
+          grep -q 'Still twelve silver' chapters/486.html
+          grep -q 'ONE GOLD. SIX SILVER.' chapters/487.html
+          grep -q '9 SILVER ON ACCEPTED CLOSE RECORD' chapters/490.html
+          grep -q 'I did not expect you to pay it.' chapters/491.html
+          grep -q 'Vale.s interest had done the rest' chapters/010.html
+          grep -q '2S / HALF DAY' light/471.html
+          grep -q 'Forty-eight silver' light/473.html
+          grep -q 'Final completed price: 8s' light/484.html
+          grep -q '6S ON ACCEPTED START PLAN' light/485.html
+          grep -q 'Still twelve silver' light/486.html
+          grep -q 'ONE GOLD. SIX SILVER.' light/487.html
+          grep -q '9 SILVER ON ACCEPTED CLOSE RECORD' light/490.html
+          grep -q 'I did not expect you to pay it.' light/491.html
+          grep -q 'Vale.s interest had done the rest' light/010.html
+          if grep -n '—' state/manuscript/Peg_Leg_Greg_Chapter_{471,472,473,474,475,476,484,485,486}_EXACT_WIP.md; then
+            echo 'em dash found in normalized manuscript prose'
+            exit 1
+          fi
+          git diff --check
+      - name: Commit normalized sources and reader derivatives
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add state/manuscript/Peg_Leg_Greg_Chapter_471_EXACT_WIP.md \
+                  state/manuscript/Peg_Leg_Greg_Chapter_472_EXACT_WIP.md \
+                  state/manuscript/Peg_Leg_Greg_Chapter_473_EXACT_WIP.md \
+                  state/manuscript/Peg_Leg_Greg_Chapter_474_EXACT_WIP.md \
+                  state/manuscript/Peg_Leg_Greg_Chapter_475_EXACT_WIP.md \
+                  state/manuscript/Peg_Leg_Greg_Chapter_476_EXACT_WIP.md \
+                  state/manuscript/Peg_Leg_Greg_Chapter_484_EXACT_WIP.md \
+                  state/manuscript/Peg_Leg_Greg_Chapter_485_EXACT_WIP.md \
+                  state/manuscript/Peg_Leg_Greg_Chapter_486_EXACT_WIP.md \
+                  chapters light index.html light.html latest.html
+          if git diff --cached --quiet; then
+            echo 'No normalization changes to commit.'
+            exit 0
+          fi
+          git commit -m 'Normalize economic scale across reader chapters'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo 'Normalization commit conflicted with current main.'
+              exit 1
+            fi
+            git push origin HEAD:main && exit 0
+            echo "Main moved during normalization push (attempt ${attempt}/3); retrying."
+            sleep $((attempt * 2))
+          done
+          echo 'Normalization push lost the main race after 3 attempts.'
+          exit 1
