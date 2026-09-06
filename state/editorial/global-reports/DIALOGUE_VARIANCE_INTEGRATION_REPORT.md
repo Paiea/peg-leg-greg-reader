@@ -1,44 +1,45 @@
 # Dialogue Variance Integration Report
 
 - Patch authority: `origin/editor/voice-compression-pass`
-- Replay scope: Chapters 21-30
-- Attribution manifests parsed: 22 patches
-- Variance manifests parsed: 13 patches
+- Replay scope: Chapters 31-40
+- Attribution manifests parsed: 23 patches
+- Variance manifests parsed: 15 patches
 - Durable files changed: 0
 
 ## Results
 
 | Pass | Applied | Already live | Stale | Ambiguous |
 | --- | ---: | ---: | ---: | ---: |
-| Attribution | 0 | 0 | 22 | 0 |
-| Variance | 0 | 13 | 0 | 0 |
+| Attribution | 0 | 0 | 23 | 0 |
+| Variance | 0 | 15 | 0 | 0 |
 
 ## Durable files changed
 
 
 ## Skipped stale/ambiguous edits
 
-- Chapter 21 `Fix 21.1 - mud cancels distance work` (attribution, `state/editorial/dialogue-pass/BATCH_020_022.md`): **STALE** — state/editorial/dialogue-pass/BATCH_020_022.md Fix 21.1 - mud cancels distance work: expected current text exactly once in chapter 21, found 0
-- Chapter 21 `Fix 21.2 - coins exercise explanation` (attribution, `state/editorial/dialogue-pass/BATCH_020_022.md`): **STALE** — state/editorial/dialogue-pass/BATCH_020_022.md Fix 21.2 - coins exercise explanation: expected current text exactly once in chapter 21, found 0
-- Chapter 21 `Fix 21.3 - Greg makes the space problem larger` (attribution, `state/editorial/dialogue-pass/BATCH_020_022.md`): **STALE** — state/editorial/dialogue-pass/BATCH_020_022.md Fix 21.3 - Greg makes the space problem larger: expected current text exactly once in chapter 21, found 0
-- Chapter 22 `Fix 22.1 - get off the road / backtrack setup` (attribution, `state/editorial/dialogue-pass/BATCH_020_022.md`): **STALE** — state/editorial/dialogue-pass/BATCH_020_022.md Fix 22.1 - get off the road / backtrack setup: expected current text exactly once in chapter 22, found 0
-- Chapter 23 `Fix 23.1 - arriving at the blue table` (attribution, `state/editorial/dialogue-pass/BATCH_023_026.md`): **STALE** — state/editorial/dialogue-pass/BATCH_023_026.md Fix 23.1 - arriving at the blue table: expected current text exactly once in chapter 23, found 0
-- Chapter 23 `Fix 23.2 - Ressa's intake priorities` (attribution, `state/editorial/dialogue-pass/BATCH_023_026.md`): **STALE** — state/editorial/dialogue-pass/BATCH_023_026.md Fix 23.2 - Ressa's intake priorities: expected current text exactly once in chapter 23, found 0
-- Chapter 24 `Fix 24.1 - Rusk recruits both men` (attribution, `state/editorial/dialogue-pass/BATCH_023_026.md`): **STALE** — state/editorial/dialogue-pass/BATCH_023_026.md Fix 24.1 - Rusk recruits both men: expected current text exactly once in chapter 24, found 0
-- Chapter 24 `Fix 24.2 - inside the boat / Pellor enters` (attribution, `state/editorial/dialogue-pass/BATCH_023_026.md`): **STALE** — state/editorial/dialogue-pass/BATCH_023_026.md Fix 24.2 - inside the boat / Pellor enters [segment 1]: expected current text exactly once in chapter 24, found 0
-- Chapter 24 `Fix 24.3 - salvage-timber toll exchange` (attribution, `state/editorial/dialogue-pass/BATCH_023_026.md`): **STALE** — state/editorial/dialogue-pass/BATCH_023_026.md Fix 24.3 - salvage-timber toll exchange: expected current text exactly once in chapter 24, found 0
-- Chapter 25 `Fix 25.1 - confidence count` (attribution, `state/editorial/dialogue-pass/BATCH_023_026.md`): **STALE** — state/editorial/dialogue-pass/BATCH_023_026.md Fix 25.1 - confidence count: expected current text exactly once in chapter 25, found 0
-- Chapter 25 `Fix 25.2 - Cal wants to pursue` (attribution, `state/editorial/dialogue-pass/BATCH_023_026.md`): **STALE** — state/editorial/dialogue-pass/BATCH_023_026.md Fix 25.2 - Cal wants to pursue: expected current text exactly once in chapter 25, found 0
-- Chapter 25 `Fix 25.3 - repair under pressure` (attribution, `state/editorial/dialogue-pass/BATCH_023_026.md`): **STALE** — state/editorial/dialogue-pass/BATCH_023_026.md Fix 25.3 - repair under pressure: expected current text exactly once in chapter 25, found 0
-- Chapter 26 `Fix 26.1 - healer / Alden interruption` (attribution, `state/editorial/dialogue-pass/BATCH_023_026.md`): **STALE** — state/editorial/dialogue-pass/BATCH_023_026.md Fix 26.1 - healer / Alden interruption: expected current text exactly once in chapter 26, found 0
-- Chapter 26 `Fix 26.2 - Doven, Nemi, and Alden on the dead creatures` (attribution, `state/editorial/dialogue-pass/BATCH_023_026.md`): **STALE** — state/editorial/dialogue-pass/BATCH_023_026.md Fix 26.2 - Doven, Nemi, and Alden on the dead creatures: expected current text exactly once in chapter 26, found 0
-- Chapter 26 `Fix 26.3 - define today's problem` (attribution, `state/editorial/dialogue-pass/BATCH_023_026.md`): **STALE** — state/editorial/dialogue-pass/BATCH_023_026.md Fix 26.3 - define today's problem [segment 1]: expected current text exactly once in chapter 26, found 0
-- Chapter 27 `Fix 27.1 - Senn at the barricade` (attribution, `state/editorial/dialogue-pass/BATCH_027_030.md`): **STALE** — state/editorial/dialogue-pass/BATCH_027_030.md Fix 27.1 - Senn at the barricade: expected current text exactly once in chapter 27, found 0
-- Chapter 27 `Fix 27.2 - Jory after the roof attack` (attribution, `state/editorial/dialogue-pass/BATCH_027_030.md`): **STALE** — state/editorial/dialogue-pass/BATCH_027_030.md Fix 27.2 - Jory after the roof attack: expected current text exactly once in chapter 27, found 0
-- Chapter 27 `Fix 27.3 - Iris assigns the rescue roles` (attribution, `state/editorial/dialogue-pass/BATCH_027_030.md`): **STALE** — state/editorial/dialogue-pass/BATCH_027_030.md Fix 27.3 - Iris assigns the rescue roles: expected current text exactly once in chapter 27, found 0
-- Chapter 29 `Fix 29.1 - mage and butcher disagreement` (attribution, `state/editorial/dialogue-pass/BATCH_027_030.md`): **STALE** — state/editorial/dialogue-pass/BATCH_027_030.md Fix 29.1 - mage and butcher disagreement: expected current text exactly once in chapter 29, found 0
-- Chapter 29 `Fix 29.2 - Kellan introduces himself` (attribution, `state/editorial/dialogue-pass/BATCH_027_030.md`): **STALE** — state/editorial/dialogue-pass/BATCH_027_030.md Fix 29.2 - Kellan introduces himself: expected current text exactly once in chapter 29, found 0
-- Chapter 30 `Fix 30.1 - Sava checks the bread conversation` (attribution, `state/editorial/dialogue-pass/BATCH_027_030.md`): **STALE** — state/editorial/dialogue-pass/BATCH_027_030.md Fix 30.1 - Sava checks the bread conversation: expected current text exactly once in chapter 30, found 0
-- Chapter 30 `Fix 30.2 - Osric tries to leave` (attribution, `state/editorial/dialogue-pass/BATCH_027_030.md`): **STALE** — state/editorial/dialogue-pass/BATCH_027_030.md Fix 30.2 - Osric tries to leave: expected current text exactly once in chapter 30, found 0
+- Chapter 31 `Fix 31.1 - Rinna's work scale` (attribution, `state/editorial/dialogue-pass/BATCH_031_035.md`): **STALE** — state/editorial/dialogue-pass/BATCH_031_035.md Fix 31.1 - Rinna's work scale: expected current text exactly once in chapter 31, found 0
+- Chapter 31 `Fix 31.2 - Rinna rejects Greg's imagined wall career` (attribution, `state/editorial/dialogue-pass/BATCH_031_035.md`): **STALE** — state/editorial/dialogue-pass/BATCH_031_035.md Fix 31.2 - Rinna rejects Greg's imagined wall career: expected current text exactly once in chapter 31, found 0
+- Chapter 32 `Fix 32.1 - Verran asks to leave` (attribution, `state/editorial/dialogue-pass/BATCH_031_035.md`): **STALE** — state/editorial/dialogue-pass/BATCH_031_035.md Fix 32.1 - Verran asks to leave: expected current text exactly once in chapter 32, found 0
+- Chapter 32 `Fix 32.2 - invoice warning` (attribution, `state/editorial/dialogue-pass/BATCH_031_035.md`): **STALE** — state/editorial/dialogue-pass/BATCH_031_035.md Fix 32.2 - invoice warning: expected current text exactly once in chapter 32, found 0
+- Chapter 33 `Fix 33.1 - pigeon sack` (attribution, `state/editorial/dialogue-pass/BATCH_031_035.md`): **STALE** — state/editorial/dialogue-pass/BATCH_031_035.md Fix 33.1 - pigeon sack: expected current text exactly once in chapter 33, found 0
+- Chapter 33 `Fix 33.2 - Antonius asks Rusk whether he disagrees` (attribution, `state/editorial/dialogue-pass/BATCH_031_035.md`): **STALE** — state/editorial/dialogue-pass/BATCH_031_035.md Fix 33.2 - Antonius asks Rusk whether he disagrees: expected current text exactly once in chapter 33, found 0
+- Chapter 34 `Fix 34.1 - fourth fixture argument` (attribution, `state/editorial/dialogue-pass/BATCH_031_035.md`): **STALE** — state/editorial/dialogue-pass/BATCH_031_035.md Fix 34.1 - fourth fixture argument: expected current text exactly once in chapter 34, found 0
+- Chapter 34 `Fix 34.2 - regulator purpose / owner reason` (attribution, `state/editorial/dialogue-pass/BATCH_031_035.md`): **STALE** — state/editorial/dialogue-pass/BATCH_031_035.md Fix 34.2 - regulator purpose / owner reason [segment 1]: expected current text exactly once in chapter 34, found 0
+- Chapter 35 `Fix 35.1 - Greg meets Nessa` (attribution, `state/editorial/dialogue-pass/BATCH_031_035.md`): **STALE** — state/editorial/dialogue-pass/BATCH_031_035.md Fix 35.1 - Greg meets Nessa: expected current text exactly once in chapter 35, found 0
+- Chapter 35 `Fix 35.2 - laundry basket explanation` (attribution, `state/editorial/dialogue-pass/BATCH_031_035.md`): **STALE** — state/editorial/dialogue-pass/BATCH_031_035.md Fix 35.2 - laundry basket explanation: expected current text exactly once in chapter 35, found 0
+- Chapter 35 `Fix 35.3 - game intervention` (attribution, `state/editorial/dialogue-pass/BATCH_031_035.md`): **STALE** — state/editorial/dialogue-pass/BATCH_031_035.md Fix 35.3 - game intervention: expected current text exactly once in chapter 35, found 0
+- Chapter 36 `Fix 36.1 - Berren checks Greg's restriction` (attribution, `state/editorial/dialogue-pass/BATCH_036_041.md`): **STALE** — state/editorial/dialogue-pass/BATCH_036_041.md Fix 36.1 - Berren checks Greg's restriction: expected current text exactly once in chapter 36, found 0
+- Chapter 36 `Fix 36.2 - Berren's sister and the room key` (attribution, `state/editorial/dialogue-pass/BATCH_036_041.md`): **STALE** — state/editorial/dialogue-pass/BATCH_036_041.md Fix 36.2 - Berren's sister and the room key: expected current text exactly once in chapter 36, found 0
+- Chapter 36 `Fix 36.3 - Nara's bakery command` (attribution, `state/editorial/dialogue-pass/BATCH_036_041.md`): **STALE** — state/editorial/dialogue-pass/BATCH_036_041.md Fix 36.3 - Nara's bakery command: expected current text exactly once in chapter 36, found 0
+- Chapter 36 `Fix 36.4 - contract invitation` (attribution, `state/editorial/dialogue-pass/BATCH_036_041.md`): **STALE** — state/editorial/dialogue-pass/BATCH_036_041.md Fix 36.4 - contract invitation [segment 1]: expected current text exactly once in chapter 36, found 0
+- Chapter 37 `Fix 37.1 - Etta establishes worksite authority` (attribution, `state/editorial/dialogue-pass/BATCH_036_041.md`): **STALE** — state/editorial/dialogue-pass/BATCH_036_041.md Fix 37.1 - Etta establishes worksite authority: expected current text exactly once in chapter 37, found 0
+- Chapter 37 `Fix 37.2 - lizard nuisance versus adventurer threat` (attribution, `state/editorial/dialogue-pass/BATCH_036_041.md`): **STALE** — state/editorial/dialogue-pass/BATCH_036_041.md Fix 37.2 - lizard nuisance versus adventurer threat: expected current text exactly once in chapter 37, found 0
+- Chapter 39 `Fix 39.1 - spar rules` (attribution, `state/editorial/dialogue-pass/BATCH_036_041.md`): **STALE** — state/editorial/dialogue-pass/BATCH_036_041.md Fix 39.1 - spar rules [segment 1]: expected current text exactly once in chapter 39, found 0
+- Chapter 39 `Fix 39.2 - double touch` (attribution, `state/editorial/dialogue-pass/BATCH_036_041.md`): **STALE** — state/editorial/dialogue-pass/BATCH_036_041.md Fix 39.2 - double touch: expected current text exactly once in chapter 39, found 0
+- Chapter 39 `Fix 39.3 - Berren's foot reopens` (attribution, `state/editorial/dialogue-pass/BATCH_036_041.md`): **STALE** — state/editorial/dialogue-pass/BATCH_036_041.md Fix 39.3 - Berren's foot reopens: expected current text exactly once in chapter 39, found 0
+- Chapter 40 `Fix 40.1 - angry lamp customer` (attribution, `state/editorial/dialogue-pass/BATCH_036_041.md`): **STALE** — state/editorial/dialogue-pass/BATCH_036_041.md Fix 40.1 - angry lamp customer: expected current text exactly once in chapter 40, found 0
+- Chapter 40 `Fix 40.2 - Vessa and Arlo on why he built it` (attribution, `state/editorial/dialogue-pass/BATCH_036_041.md`): **STALE** — state/editorial/dialogue-pass/BATCH_036_041.md Fix 40.2 - Vessa and Arlo on why he built it: expected current text exactly once in chapter 40, found 0
+- Chapter 40 `Fix 40.3 - supply-chain synthesis` (attribution, `state/editorial/dialogue-pass/BATCH_036_041.md`): **STALE** — state/editorial/dialogue-pass/BATCH_036_041.md Fix 40.3 - supply-chain synthesis: expected current text exactly once in chapter 40, found 0
 
 Stale or ambiguous edits were deliberately not applied. Exact current manuscript authority wins.
