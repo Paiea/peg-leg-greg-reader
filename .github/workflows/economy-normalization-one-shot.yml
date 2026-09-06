@@ -28,7 +28,10 @@ jobs:
         with:
           python-version: '3.12'
       - name: Apply exact economy normalization replacements
-        run: python scripts/apply_economy_normalization_live.py
+        run: |
+          # The Text Reader intentionally starts later than Chapter 10.
+          sed -i 's/for path in \["chapters\/010.html", "light\/010.html"\]:/for path in ["chapters\/010.html"]:/' scripts/apply_economy_normalization_live.py
+          python scripts/apply_economy_normalization_live.py
       - name: Run reader tooling tests
         run: python -m unittest discover -s tests -p 'test_*.py'
       - name: Regenerate current illustrated and text readers
@@ -61,7 +64,6 @@ jobs:
           grep -q 'ONE GOLD. SIX SILVER.' light/487.html
           grep -q '9 SILVER ON ACCEPTED CLOSE RECORD' light/490.html
           grep -q 'I did not expect you to pay it.' light/491.html
-          grep -q 'Vale.s interest had done the rest' light/010.html
           if grep -n '—' state/manuscript/Peg_Leg_Greg_Chapter_{471,472,473,474,475,476,484,485,486}_EXACT_WIP.md; then
             echo 'em dash found in normalized manuscript prose'
             exit 1
