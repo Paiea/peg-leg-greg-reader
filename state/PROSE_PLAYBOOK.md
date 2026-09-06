@@ -55,6 +55,20 @@ Favor dialogue that sounds like people doing something to one another, not chara
 
 Use invisible dialogue tags freely when speaker clarity benefits. Prefer simple **said** and **asked**. Do not avoid attribution merely to make dialogue look cleaner. Action beats should earn themselves by adding timing, behavior, physical information, or relationship texture, not merely substitute for **said**. In multi-speaker scenes, err slightly toward clarity. Do not tag every line when a two-person exchange is already effortless to follow, but never make the reader perform speaker bookkeeping for the sake of taglessness.
 
+### Dialogue paragraph ownership
+
+A foreign action beat must never function as attribution for the current speaker.
+
+If an untagged spoken line could be read as belonging to the person performing the attached action, explicitly tag the actual speaker with a simple attribution such as **said** or **asked**. Do not make the reader discover who spoke only after realizing that the attached action belongs to somebody else.
+
+If spoken ownership changes to another character, start that character's spoken turn in a new paragraph. Do not bridge two speakers through one character's smile, look, nod, movement, or other action inside a single dialogue paragraph.
+
+Another character's reaction may remain close to an explicitly owned spoken line when the result is effortless to read, but the reaction must not serve as false attribution. A correct speaker tag is usually better than inserting a decorative gesture merely to avoid **said**.
+
+Do not solve this mechanically by splitting every line into a one-sentence paragraph. Use the smallest repair that makes conversational geography effortless: tag the actual speaker, separate a real speaker change, or do both when needed.
+
+For manuscript-wide ownership review, use `state/editorial/DIALOGUE_OWNERSHIP_PASS.md`. `publishing/showcase_chapters.json` controls which chapters receive the current showcase repair pass; hidden chapters remain canon.
+
 Prefer specific immediate thought over generalized explanation. Do not repeatedly explain an emotion the scene already demonstrates.
 
 Let other people make the best joke, solve the practical problem, know context Greg missed, or continue talking after his contribution is finished. The world should not behave as though it knows Greg is the protagonist.
@@ -207,6 +221,9 @@ If the prose became fancier but harder to read, simplify it. If it became cleane
 - verify numbers/counts/debt facts against state when relevant
 - verify body/prop/location continuity
 - inspect actual surrounding prose before broad stylistic judgments
+- never let another character's action function as false attribution for an untagged speaker
+- when spoken ownership changes, give the new speaker a new dialogue paragraph
+- do not mechanically create tiny paragraphs when a simple correct speaker tag solves the problem
 - do not silently replace established social history with newly invented cleaner versions
 
 ## Living craft memory
