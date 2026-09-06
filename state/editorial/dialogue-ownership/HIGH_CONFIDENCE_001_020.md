@@ -4,8 +4,8 @@ Dry-run semantic manifest. No manuscript files are changed by this script.
 Speaker inference uses explicit attribution when available and adjacent-turn alternation only when a paragraph begins with dialogue.
 Only independent physical/reaction beats from the opposite owner are surfaced.
 
-Total high-confidence paragraphs: 3
-Counts: 001=0, 002=0, 003=0, 004=0, 005=0, 006=0, 007=0, 008=0, 009=0, 010=0, 011=2, 012=0, 013=1, 014=0, 015=0, 016=0, 017=0, 018=0, 019=0, 020=0
+Total high-confidence paragraphs: 0
+Counts: 001=0, 002=0, 003=0, 004=0, 005=0, 006=0, 007=0, 008=0, 009=0, 010=0, 011=0, 012=0, 013=0, 014=0, 015=0, 016=0, 017=0, 018=0, 019=0, 020=0
 
 ## Chapter 001 (0 repairs)
 
@@ -27,23 +27,11 @@ Counts: 001=0, 002=0, 003=0, 004=0, 005=0, 006=0, 007=0, 008=0, 009=0, 010=0, 01
 
 ## Chapter 010 (0 repairs)
 
-## Chapter 011 (2 repairs)
-
-### P150 speaker=GREG
-- CURR: "Fragile?" He stared at me.
-- SPLIT BEFORE OTHER: He stared at me.
-
-### P157 speaker=OTHER
-- CURR: "No." I looked at the cart. Barrier. Small. Momentary. Could brace the lower edge while I changed grip. Useful? Barely. Necessary?
-- SPLIT BEFORE GREG: I looked at the cart. Barrier. Small. Momentary. Could brace the lower edge while I changed grip. Useful? Barely. Necessary?
+## Chapter 011 (0 repairs)
 
 ## Chapter 012 (0 repairs)
 
-## Chapter 013 (1 repairs)
-
-### P611 speaker=OTHER
-- CURR: "Of course." I laughed.
-- SPLIT BEFORE GREG: I laughed.
+## Chapter 013 (0 repairs)
 
 ## Chapter 014 (0 repairs)
 

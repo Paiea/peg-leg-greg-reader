@@ -3,8 +3,8 @@
 Generated review surface only. This file does not authorize automatic manuscript mutation.
 A candidate means dialogue and another character-shaped beat coexist in one paragraph. Human semantic review decides whether ownership actually changes.
 
-Total focused candidates: 284
-Counts: 001=11, 002=1, 003=21, 004=0, 005=10, 006=20, 007=22, 008=24, 009=30, 010=42, 011=25, 012=29, 013=41, 014=6, 015=2, 016=0, 017=0, 018=0, 019=0, 020=0
+Total focused candidates: 281
+Counts: 001=11, 002=1, 003=21, 004=0, 005=10, 006=20, 007=22, 008=24, 009=30, 010=42, 011=23, 012=29, 013=40, 014=6, 015=2, 016=0, 017=0, 018=0, 019=0, 020=0
 
 ## Chapter 001 (11 candidates)
 
@@ -931,7 +931,7 @@ Counts: 001=11, 002=1, 003=21, 004=0, 005=10, 006=20, 007=22, 008=24, 009=30, 01
 - CURR: "Excellent. Somewhere between." He found paper. I smiled.
 - NEXT: There it was again. A problem with edges. Two days of Arlo's time. Six silver, perhaps. A gauge. A workshop. No question about what Greg should become. No new career. No build. Just:
 
-## Chapter 011 (25 candidates)
+## Chapter 011 (23 candidates)
 
 ### P54
 - PREV: "Against what?"
@@ -958,102 +958,92 @@ Counts: 001=11, 002=1, 003=21, 004=0, 005=10, 006=20, 007=22, 008=24, 009=30, 01
 - CURR: "Those." I inspected them.
 - NEXT: "Any reactive residue?"
 
-### P150
-- PREV: "No."
-- CURR: "Fragile?" He stared at me.
-- NEXT: "Glass."
-
-### P157
-- PREV: Hessa had said tomorrow maybe. Today was tomorrow. Technically. I put the crate down. The assistant said, "Problem?"
-- CURR: "No." I looked at the cart. Barrier. Small. Momentary. Could brace the lower edge while I changed grip. Useful? Barely. Necessary?
-- NEXT: No.
-
-### P195
+### P197
 - PREV: "How much?"
 - CURR: "Oil." Antonius looked at Rusk. Rusk said, "Magic." Antonius looked back at me.
 - NEXT: "You did magic?"
 
-### P208
+### P210
 - PREV: Antonius handed me another paper.
 - CURR: "Good." He handed me another paper.
 - NEXT: I looked at it.
 
-### P240
+### P242
 - PREV: "That's exactly what you'd say."
 - CURR: "I'm paying you for work I asked you to do outside the labor attached to your debt." I considered. Simple. Suspiciously simple.
 - NEXT: "You want me to give it to Arlo."
 
-### P263
+### P265
 - PREV: "No."
 - CURR: "Then how much?" Arlo glared.
 - NEXT: I smiled. He had walked into that.
 
-### P283
+### P285
 - PREV: I sat on the edge of his worktable. Arlo immediately shoved me off.
 - CURR: "Chair." I took the chair.
 - NEXT: "The gauge has value in your hands," I said. "Not mine. If you can learn from it, we both learn whether the thing I bought is actually worth anything. You lose two days. I cover two days."
 
-### P346
+### P348
 - PREV: Her eyes dropped to my right hand. There was no mark. Still she knew.
 - CURR: "Show me." I held it out. She pressed the wrist. Waited. Her mouth tightened.
 - NEXT: "Idiot."
 
-### P357
+### P359
 - PREV: I had reduced the Barrier size but given it a job. Different load. I knew that. Old Greg knew that. Present Greg had apparently decided smaller meant cheaper in all dimensions. It did not.
 - CURR: "Interesting," I said. Hessa slapped my hand.
 - NEXT: "Ow."
 
-### P362
+### P364
 - PREV: "Leave."
 - CURR: "No." She stared.
 - NEXT: I sat on the mat.
 
-### P403
+### P405
 - PREV: "Fine."
 - CURR: I gathered mana. Slower today. Strain. Not damage. Important. Thread. Palm. This time I did not imagine a shield. That word was part of the problem. Shield implied purpose before shape. I imagined a boundary. A circle no wider than a copper coin. Plane. Thin. Do not compress more than necessary. Hessa said, "Slow." I slowed. The mana wanted to spread. Habit from training.
 - NEXT: I kept it small. Release. A tiny distortion appeared above my palm. It was almost invisible. I grinned.
 
-### P425
+### P427
 - PREV: "Very specific."
 - CURR: "No sword with Barrier." I had not thought of that yet. Now I had. She saw it happen.
 - NEXT: "Fuck."
 
-### P538
+### P540
 - PREV: "Lesson is over."
 - CURR: "Yes." I stood. Then noticed the cup on her shelf. Small clay cup. I smiled.
 - NEXT: Hessa followed my eyes.
 
-### P552
+### P554
 - PREV: "No."
 - CURR: "Then?" She flicked it. The coin spun through the air.
 - NEXT: "Put the Barrier where it will pass."
 
-### P580
+### P582
 - PREV: The possibilities arrived all at once. Too many. Beautiful. Dangerous. Hessa saw my face.
 - CURR: "Greg." I looked at her.
 - NEXT: "One thing," she said.
 
-### P603
+### P605
 - PREV: "You have more."
 - CURR: "Because I don't use it as magical targets." I followed him toward the desk.
 - NEXT: "I can redirect a coin."
 
-### P609
+### P611
 - PREV: "Do you understand what that means?"
 - CURR: "That you can protect yourself from very poor assassins." I stopped.
 - NEXT: He kept walking.
 
-### P623
+### P625
 - PREV: "Change what?"
 - CURR: "Direction. Contact. Timing. Maybe pressure later. If I make it small enough and place it correctly, I don't need enough mana to overpower the whole force." Antonius considered. Unlike Hessa, he did not care about magical orthodoxy. Unlike Arlo, he did not care how the mechanism worked. He asked, "Useful?"
 - NEXT: "Eventually."
 
-### P632
+### P634
 - PREV: He opened his ledger. I should have left. Instead
 - CURR: I said, "Do you have anything magical that needs moving?" His pen stopped. Slowly.
 - NEXT: "No."
 
-### P647
+### P649
 - PREV: I considered the glass crate.
 - CURR: "Somewhat." Antonius returned to his ledger. Then said, "The salvager came back." Everything in me changed. I hated that he noticed.
 - NEXT: "The gauntlet?"
@@ -1205,7 +1195,7 @@ Counts: 001=11, 002=1, 003=21, 004=0, 005=10, 006=20, 007=22, 008=24, 009=30, 01
 - CURR: "No." I shoved my hands into my pockets.
 - NEXT: "This is unreasonable."
 
-## Chapter 013 (41 candidates)
+## Chapter 013 (40 candidates)
 
 ### P10
 - PREV: "Impossible."
@@ -1322,92 +1312,87 @@ Counts: 001=11, 002=1, 003=21, 004=0, 005=10, 006=20, 007=22, 008=24, 009=30, 01
 - CURR: "Why me?" I looked at the cup.
 - NEXT: "Because you asked the right question."
 
-### P611
-- PREV: "Less than you'd think."
-- CURR: "Of course." I laughed.
-- NEXT: She did not.
-
-### P651
+### P652
 - PREV: "Same."
 - CURR: "No." She sat back.
 - NEXT: "If you're telling the truth, your biggest problem is not that you're weak."
 
-### P660
+### P661
 - PREV: "Recovery."
 - CURR: "No." I frowned.
 - NEXT: She tapped my forehead.
 
-### P706
+### P707
 - PREV: "I could read it."
 - CURR: "That's not what I asked." I thought back. The lettering. Had I known the script? I remembered the word. Not the letters. That was bad.
 - NEXT: "I don't remember."
 
-### P710
+### P711
 - PREV: "Yes."
 - CURR: "Where did you find it?" I hesitated.
 - NEXT: "Late-life expedition."
 
-### P733
+### P734
 - PREV: "What lists?"
 - CURR: "What I know. What I think I know. What I can verify." Hessa stared at me. Then laughed. This one was real. Small.
 - NEXT: "You woke up forty years younger and made categories."
 
-### P737
+### P738
 - PREV: "You're an idiot."
 - CURR: "I've heard." She looked at the cup again.
 - NEXT: "Good categories."
 
-### P753
+### P754
 - PREV: "Why?"
 - CURR: "Because I brought him a calibration set from a failed artificer whose work becomes historically important." Hessa stared.
 - NEXT: "That sentence is why I regret asking."
 
-### P755
+### P756
 - PREV: "That sentence is why I regret asking."
 - CURR: "Yes." She held out her hand. I gave her the regulator. She turned it over.
 - NEXT: "Does it work?"
 
-### P760
+### P761
 - PREV: "I don't know."
 - CURR: "Good." I frowned.
 - NEXT: "Everyone keeps saying that."
 
-### P806
+### P807
 - PREV: I looked back again.
 - CURR: "Do not touch any relics." I considered the wording.
 - NEXT: "Unknown relics?"
 
-### P823
+### P824
 - PREV: "I wasn't coming to you today."
 - CURR: "You said third bell." I searched memory. Today. Third bell. Sword. Fuck.
 - NEXT: "Correct." Jorren tossed me a wooden sword. I caught it. Barely.
 
-### P824
+### P825
 - PREV: "You said third bell." I searched memory. Today. Third bell. Sword. Fuck.
 - CURR: "Correct." Jorren tossed me a wooden sword. I caught it. Barely.
 - NEXT: He smiled.
 
-### P831
+### P832
 - PREV: I followed.
 - CURR: "What did you learn?" I looked at the sword. At my hand. At the young wrist beneath it. Then I smiled.
 - NEXT: "Apparently I don't know how to use this." Jorren stopped.
 
-### P832
+### P833
 - PREV: "What did you learn?" I looked at the sword. At my hand. At the young wrist beneath it. Then I smiled.
 - CURR: "Apparently I don't know how to use this." Jorren stopped.
 - NEXT: "Finally." I hit him with the practice sword. He blocked it. Then hit me in the ribs. Hard. I folded.
 
-### P833
+### P834
 - PREV: "Apparently I don't know how to use this." Jorren stopped.
 - CURR: "Finally." I hit him with the practice sword. He blocked it. Then hit me in the ribs. Hard. I folded.
 - NEXT: "Still an asshole," I wheezed.
 
-### P834
+### P835
 - PREV: "Finally." I hit him with the practice sword. He blocked it. Then hit me in the ribs. Hard. I folded.
 - CURR: "Still an asshole," I wheezed.
 - NEXT: "That you know." He was right. Useful.
 
-### P835
+### P836
 - PREV: "Still an asshole," I wheezed.
 - CURR: "That you know." He was right. Useful.
 - NEXT: We started again.
