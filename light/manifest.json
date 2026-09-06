@@ -1,5 +1,5 @@
 {
-  "latest": 459,
+  "latest": 460,
   "chapters": [
     {
       "number": 100,
@@ -2160,6 +2160,12 @@
       "title": "THE CONTRACTOR",
       "source": "checkpoint",
       "path": "459.html"
+    },
+    {
+      "number": 460,
+      "title": "THE TRAILBLAZER",
+      "source": "checkpoint",
+      "path": "460.html"
     }
   ]
 }
