@@ -41,6 +41,36 @@ def extract_prose_paragraphs(document: str) -> list[str]:
     ]
 
 
+def build_full_review_markdown(root: Path, start: int, end: int) -> str:
+    """Return every prose paragraph in a chapter range, one review line each."""
+    if start < 1 or end < start:
+        raise ValueError(f'invalid review range: {start}-{end}')
+    root = root.resolve()
+    chapters_dir = root / 'chapters'
+    lines = [
+        '# PLG Full Dialogue Ownership Review Packet',
+        '',
+        f'- Canonical range: Chapters {start:03d}-{end:03d}',
+        '- Derived review surface only. Canonical chapter HTML remains authority.',
+        '- Every prose paragraph is present, including paragraphs the scanner did not flag.',
+        '',
+    ]
+    for chapter in range(start, end + 1):
+        path = chapters_dir / f'{chapter:03d}.html'
+        if not path.exists():
+            raise ValueError(f'missing canonical chapter: {path}')
+        paragraphs = extract_prose_paragraphs(path.read_text(encoding='utf-8'))
+        lines.extend([
+            f'## Canon Chapter {chapter:03d}',
+            '',
+        ])
+        for index, paragraph in enumerate(paragraphs, start=1):
+            review_text = paragraph.replace('\\', '\\\\').replace('\n', '\\n')
+            lines.append(f'P{index:04d} | {review_text}')
+        lines.append('')
+    return '\n'.join(lines).rstrip() + '\n'
+
+
 def _canonical_numbers(chapters_dir: Path) -> list[int]:
     numbers: list[int] = []
     for path in chapters_dir.glob('*.html'):
@@ -158,6 +188,9 @@ def main() -> int:
         type=Path,
         default=Path('state/editorial/dialogue-ownership-pass/CANDIDATES.md'),
     )
+    parser.add_argument('--review-start', type=int)
+    parser.add_argument('--review-end', type=int)
+    parser.add_argument('--review-markdown', type=Path)
     args = parser.parse_args()
 
     root = args.root.resolve()
@@ -167,6 +200,20 @@ def main() -> int:
 
     report = audit_chapters(root, manifest)
     write_reports(report, json_path, md_path)
+
+    if any(value is not None for value in (args.review_start, args.review_end, args.review_markdown)):
+        if None in (args.review_start, args.review_end, args.review_markdown):
+            parser.error('--review-start, --review-end, and --review-markdown must be supplied together')
+        review_path = args.review_markdown
+        if not review_path.is_absolute():
+            review_path = root / review_path
+        review_path.parent.mkdir(parents=True, exist_ok=True)
+        review_path.write_text(
+            build_full_review_markdown(root, args.review_start, args.review_end),
+            encoding='utf-8',
+        )
+        print(f'full review packet: chapters {args.review_start:03d}-{args.review_end:03d} -> {review_path}')
+
     print(
         f'dialogue ownership audit: {report["candidate_count"]} candidates across '
         f'{report["visible_chapters"]} visible chapters; '
