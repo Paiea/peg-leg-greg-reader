@@ -17,25 +17,33 @@ ACCEPTED_STATUSES = {"approved", "live"}
 def detect_characters(record: dict, catalog: dict[str, dict]) -> tuple[list[str], str]:
     known = list(catalog)
     explicit = record.get("characters")
-    if isinstance(explicit, list):
-        characters = [name for name in explicit if isinstance(name, str) and name in catalog]
-        if characters:
-            return characters, "explicit"
+    explicit_found = [
+        name for name in explicit
+        if isinstance(name, str) and name in catalog
+    ] if isinstance(explicit, list) else []
 
     text = " ".join(
         value
         for value in (record.get("alt_text", ""), record.get("caption", ""), record.get("notes", ""))
         if isinstance(value, str)
     )
-    if not text.strip():
-        return [], ""
+    text_found: list[str] = []
+    if text.strip():
+        for character in known:
+            pattern = r"(?<![\w'-])" + re.escape(character) + r"(?![\w'-])"
+            if re.search(pattern, text, flags=re.IGNORECASE):
+                text_found.append(character)
 
-    found: list[str] = []
-    for character in known:
-        pattern = r"(?<![\w'-])" + re.escape(character) + r"(?![\w'-])"
-        if re.search(pattern, text, flags=re.IGNORECASE):
-            found.append(character)
-    return found, "text_metadata" if found else ""
+    found = [character for character in known if character in explicit_found or character in text_found]
+    if not found:
+        return [], ""
+    if explicit_found and text_found:
+        source = "explicit+text_metadata"
+    elif explicit_found:
+        source = "explicit"
+    else:
+        source = "text_metadata"
+    return found, source
 
 
 def tag_registry_characters(registry: list[dict], catalog: dict[str, dict]) -> tuple[list[dict], int]:
@@ -49,7 +57,7 @@ def tag_registry_characters(registry: list[dict], catalog: dict[str, dict]) -> t
                 new["characters"] = characters
                 new["character_tag_source"] = source
                 changed += 1
-            elif characters and not new.get("character_tag_source"):
+            elif characters and new.get("character_tag_source") != source:
                 new["character_tag_source"] = source
                 changed += 1
         updated.append(new)

@@ -16,7 +16,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch001-a23cb95b20",
@@ -35,7 +35,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch001-488fab1ae4",
@@ -54,7 +54,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch002-64667f7afe",
@@ -73,7 +73,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "pose_family": "moving",
     "metadata_backfill_source": "strong_text_metadata"
   },
@@ -92,9 +92,10 @@
     "prompt_pack": "legacy/imported",
     "notes": "Imported from pre-registry live reader markup. Existing placement remains generator-managed.",
     "characters": [
-      "Greg"
+      "Greg",
+      "Pell"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch002-f83690534d",
@@ -113,7 +114,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch002-66a256415d",
@@ -132,7 +133,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "street"
     ],
@@ -153,9 +154,10 @@
     "prompt_pack": "legacy/imported",
     "notes": "Imported from pre-registry live reader markup. Existing placement remains generator-managed.",
     "characters": [
-      "Greg"
+      "Greg",
+      "Pell"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "workshop"
     ],
@@ -176,9 +178,10 @@
     "prompt_pack": "legacy/imported",
     "notes": "Imported from pre-registry live reader markup. Existing placement remains generator-managed.",
     "characters": [
-      "Greg"
+      "Greg",
+      "Pell"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch003-66d76a40c0",
@@ -195,9 +198,10 @@
     "prompt_pack": "legacy/imported",
     "notes": "Imported from pre-registry live reader markup. Existing placement remains generator-managed.",
     "characters": [
-      "Greg"
+      "Greg",
+      "Pell"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch004-9f2f9143f5",
@@ -366,7 +370,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch008-5ba431c42c",
@@ -1180,7 +1184,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch029-8820e04863",
@@ -1259,7 +1263,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch032-04ace3b80c",
@@ -1533,7 +1537,7 @@
     "characters": [
       "Pell"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "workshop"
     ],
@@ -1691,7 +1695,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "travel"
     ],
@@ -1729,7 +1733,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch047-34fcd4e4bf",
@@ -1853,7 +1857,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch051-f5019cee64",
@@ -1872,7 +1876,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch051-0051b8d52f",
@@ -1921,7 +1925,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch053-20464e6d09",
@@ -1955,7 +1959,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch054-e4ee9fce00",
@@ -1989,7 +1993,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch055-9ccbc4ad23",
@@ -2023,7 +2027,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch056-d829a0b4ca",
@@ -2057,7 +2061,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "pose_family": "working",
     "metadata_backfill_source": "strong_text_metadata"
   },
@@ -2123,7 +2127,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch059-cb60bad201",
@@ -2157,7 +2161,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch060-2ba56f1731",
@@ -2191,7 +2195,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "travel"
     ],
@@ -2214,7 +2218,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "travel"
     ],
@@ -2267,7 +2271,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "mill"
     ],
@@ -2365,7 +2369,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch066-e661d63fa6",
@@ -2459,7 +2463,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch069-415533b589",
@@ -2673,7 +2677,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch076-1add158338",
@@ -2737,7 +2741,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "pose_family": "working",
     "metadata_backfill_source": "strong_text_metadata"
   },
@@ -2803,7 +2807,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "pose_family": "working",
     "metadata_backfill_source": "strong_text_metadata"
   },
@@ -2839,7 +2843,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch081-9e93b05c34",
@@ -2903,7 +2907,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "pose_family": "working",
     "metadata_backfill_source": "strong_text_metadata"
   },
@@ -2925,7 +2929,7 @@
       "Greg",
       "Lyssa"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch083-0632d89c93",
@@ -2944,7 +2948,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch083-484c3b5c4b",
@@ -2963,7 +2967,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "pose_family": "moving",
     "scene_tags": [
       "market"
@@ -2988,7 +2992,7 @@
       "Greg",
       "Lyssa"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "market"
     ],
@@ -3011,7 +3015,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "travel"
     ],
@@ -3049,7 +3053,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "travel"
     ],
@@ -3072,7 +3076,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "pose_family": "working",
     "metadata_backfill_source": "strong_text_metadata"
   },
@@ -3093,7 +3097,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "pose_family": "working",
     "metadata_backfill_source": "strong_text_metadata"
   },
@@ -3129,7 +3133,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch086-7ceb7b9e23",
@@ -3148,7 +3152,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "pose_family": "moving",
     "metadata_backfill_source": "strong_text_metadata"
   },
@@ -3199,7 +3203,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch088-0db536ea3e",
@@ -3219,7 +3223,7 @@
       "Greg",
       "Lyssa"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch088-020dc572e0",
@@ -3239,7 +3243,7 @@
       "Greg",
       "Lyssa"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch088-07d9da6a72",
@@ -3258,7 +3262,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch089-4bb21ed73b",
@@ -3292,7 +3296,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch090-91255ee1be",
@@ -3326,7 +3330,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "pose_family": "seated",
     "metadata_backfill_source": "strong_text_metadata"
   },
@@ -3347,7 +3351,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch091-60aa9a2be3",
@@ -3366,7 +3370,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch091-a0cac3a61b",
@@ -3385,7 +3389,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch092-6d2832b60d",
@@ -3419,7 +3423,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch093-17e9385b71",
@@ -3453,7 +3457,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch094-5e8cbde262",
@@ -3472,7 +3476,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch094-76f6e06c7a",
@@ -3491,7 +3495,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch095-5bbee581a4",
@@ -3510,7 +3514,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "pose_family": "standing",
     "metadata_backfill_source": "strong_text_metadata"
   },
@@ -3531,7 +3535,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "pose_family": "seated",
     "metadata_backfill_source": "strong_text_metadata"
   },
@@ -3552,7 +3556,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "pose_family": "seated",
     "metadata_backfill_source": "strong_text_metadata"
   },
@@ -3573,7 +3577,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "pose_family": "working",
     "metadata_backfill_source": "strong_text_metadata"
   },
@@ -3609,7 +3613,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch097-e759b6e03a",
@@ -3628,7 +3632,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch097-0ee51e9e3e",
@@ -3647,7 +3651,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch097-089b7b666b",
@@ -3666,7 +3670,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch098-8482eac75f",
@@ -3730,7 +3734,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch100-1635ae40a0",
@@ -3749,7 +3753,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "pose_family": "working",
     "metadata_backfill_source": "strong_text_metadata"
   },
@@ -3770,7 +3774,7 @@
     "characters": [
       "Lyssa"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch100-74679ad1ab",
@@ -3790,7 +3794,7 @@
       "Greg",
       "Lyssa"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch101-3c06982d24",
@@ -3809,7 +3813,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch101-6786d70ae2",
@@ -3828,7 +3832,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch102-b0ee822ced",
@@ -3847,7 +3851,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch102-a1867e4008",
@@ -3866,7 +3870,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "pose_family": "working",
     "metadata_backfill_source": "strong_text_metadata"
   },
@@ -3902,7 +3906,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch104-47858581a3",
@@ -3921,7 +3925,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch104-d5fce3ed6b",
@@ -3940,7 +3944,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "pose_family": "standing",
     "metadata_backfill_source": "strong_text_metadata"
   },
@@ -3961,7 +3965,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch105-3ccffb00bf",
@@ -3980,7 +3984,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch106-ba23d9c639",
@@ -3999,7 +4003,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch106-9fcf3fa2f0",
@@ -4018,7 +4022,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "street"
     ],
@@ -4086,7 +4090,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch109-8464f96d33",
@@ -4120,7 +4124,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch110-d996ef4cba",
@@ -4139,7 +4143,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch110-80bfa28926",
@@ -4203,7 +4207,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "backstage"
     ],
@@ -4226,7 +4230,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "backstage",
       "stage"
@@ -4265,7 +4269,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch114-08b05bdbcf",
@@ -4329,7 +4333,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "theatre"
     ],
@@ -4352,7 +4356,7 @@
     "characters": [
       "Lyssa"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "theatre"
     ],
@@ -4375,7 +4379,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "stage"
     ],
@@ -4413,7 +4417,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch118-a4b1e50249",
@@ -4432,7 +4436,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "stage"
     ],
@@ -4455,7 +4459,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "stage"
     ],
@@ -4478,7 +4482,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch119-682b84c2e1",
@@ -4527,7 +4531,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch121-7ef16c50ee",
@@ -4546,7 +4550,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "theatre"
     ],
@@ -4569,7 +4573,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch121-e8ae4a7c3b",
@@ -4588,7 +4592,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch122-f7908dcc36",
@@ -4653,7 +4657,7 @@
       "Greg",
       "Lyssa"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "market"
     ],
@@ -4691,7 +4695,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "theatre"
     ],
@@ -4729,7 +4733,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch126-102305c567",
@@ -4748,7 +4752,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "pose_family": "working",
     "metadata_backfill_source": "strong_text_metadata"
   },
@@ -4799,7 +4803,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch128-cbecba00f9",
@@ -4818,7 +4822,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "stage"
     ],
@@ -4901,7 +4905,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch131-f0a7d19e67",
@@ -4966,7 +4970,7 @@
       "Greg",
       "Lyssa"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch133-cf60201193",
@@ -4985,7 +4989,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "theatre"
     ],
@@ -5008,7 +5012,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch135-786b9d33f1",
@@ -5027,7 +5031,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "stage"
     ],
@@ -5050,7 +5054,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata",
+    "character_tag_source": "explicit+text_metadata",
     "scene_tags": [
       "stage"
     ],
@@ -5073,7 +5077,7 @@
     "characters": [
       "Greg"
     ],
-    "character_tag_source": "text_metadata"
+    "character_tag_source": "explicit+text_metadata"
   },
   {
     "id": "legacy-ch138-d96dc4a057",

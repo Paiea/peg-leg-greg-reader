@@ -1,115 +1,128 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 434 - **THE GO-BETWEEN**.
-- Exact Chapters 249-434 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays.
-- **Chapter 432 naming correction:** `state/manuscript/Peg_Leg_Greg_Chapter_432_CORRECTION.md` overrides the duplicate-prone forewoman name in the original checkpoint. The north-slope road forewoman is **Rika Dorn**, not Nessa Vale. There is no Sori/Vale relation beat.
+- Current exact story endpoint: Chapter 439 - **THE COMPANION**.
+- Exact Chapters 249-439 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays.
+- Chapter 432 naming correction remains active: north-slope road forewoman is **Rika Dorn**, not Nessa Vale.
 
 ## Current location / arc
-- Greg, Sori, Dask, and Maro remain in **Merehook** by voluntary self-funded travel.
-- Outer Works contract is complete and closed. Duskport return was intentionally missed.
-- This is genuine away-arc movement with no employer/quest/prophecy forcing continuation.
-- Carrow remains home and communication continues with travel delay.
+- Greg and Dask have voluntarily traveled **Merehook -> Lerrin** on the north coast.
+- Maro departed independently toward east salt farms.
+- Sori remained independently in Merehook for at least one more archive day.
+- Four-person road party has organically fragmented without conflict/tragedy.
+- Greg has **no return ticket** and remains deliberately away from Carrow.
 
-## Chapter 434 - THE GO-BETWEEN
+## Chapter 439 - THE COMPANION
 
 ### Title / role
-- Ch434 answer: Greg is being **a go-between**.
-- He does not arbitrate or become local legal authority. He asks bounded questions that help Hara, Corren, Sori, Maro, and buyer-side actors connect pieces of a process they each only partially control.
-- Therefore title **THE GO-BETWEEN**.
-- Recent: 430 THE RECORDER; 431 THE INSPECTOR; 432 THE PASSENGER; 433 THE VISITOR; 434 THE GO-BETWEEN.
+- Greg is **THE COMPANION**.
+- He is no longer simply part of a four-person travel unit. He and Dask choose the same next road independently, creating a more specific temporary companionship.
+- Core realization: a companion is someone whose road overlaps because both want what is ahead, not because a party assignment requires cohesion.
 
-## Hara Quill / coastal-measure dispute
-- Maro returns from lower gate with copied current freight-conversion table and effective date.
-- Current posted table technically supports converting Hara's North Reach dry class B crate into Merehook handling class C, causing the **3c surcharge**.
-- However footer includes transition exception:
-  - consignments contracted before effective date may be assessed under prior handling class;
-  - requires dated freight agreement or seller's sealed order;
-  - **market office review required**.
-- Hara has a sealed buyer order dated before rule effective date.
-- This creates a legitimate possible exception, but does **not** let Corren waive fee himself because he is custody clerk, not review clerk.
+## Maro departure
+- East salt-farm freight cart leaves Merehook first bell.
+- Passenger bench fare **1c**; Greg considers but does not take it.
+- Maro asks Greg directly if he is coming; Greg says **not today**.
+- Maro leaves with small pack and may return in two days or continue east; no promise.
+- Goodbye remains light and ordinary; goat tries to eat Maro's sleeve.
 
-## Provisional security workaround
-- Greg asks one bounded process question: can custody hold the disputed money as security without treating it as the fee?
-- Corren identifies existing **provisional security** process.
-- Requirements:
-  - dispute slip;
-  - custody seal;
-  - review-clerk countersign next business opening;
-  - seller posts full disputed amount plus **1c security**.
-- Hara posts **4c total**:
-  - 3c disputed amount;
-  - 1c security.
-- If she wins review, all 4c return.
-- If she loses, 3c becomes fee and 1c returns.
-- This is not free relief: Hara is left with only ~3c liquid until buyer payment, while cart hire/food still exist.
-- Greg does **not** pay any of Hara's charge from his own money.
+## Greg / Dask route choice
+- Lerrin coach departs Merehook third bell, **3c passenger fare**.
+- Dask confirms he wants Lerrin due old beacon works.
+- Greg considers east/south/stay/north and chooses **north**.
+- Greg buys own Lerrin seat **44c -> 41c**.
+- Dask pays own fare.
+- Ticket has no return leg.
 
-## Buyer / timing problem remains separate
-- Buyer owes Hara **28c on delivery to ship scale**.
-- Market-office review will occur later, so security solves custody release only, not buyer/tide timing.
-- A market runner is sent to lower harbor for buyer representative at cost **1 bit** paid by Hara.
-- Buyer clerk is approaching on a bad knee/cane and cannot reach gate by ordinary close without accommodation.
-- Custody supervisor **Sel Ordan** authorizes only a **10-minute gate extension** because buyer representative was summoned before close.
-- He also clarifies Hara can meet buyer clerk uphill and return with signed buyer authority rather than requiring the buyer clerk physically at gate.
-- Hara runs to meet buyer representative.
-- Buyer clerk arrives/signs authority accepting release into bonded cart custody and allowing ship-scale confirmation first thing before loading.
-- Ship captain will wait **one bell** only if cargo physically reaches lower yard before dawn; tide still controls afterward.
-- Hara must still pay expected **2c cart hire** plus **1-bit night surcharge**.
-- Crate leaves custody into bonded night-cart chain.
+## Sori divergence
+- Sori remains in Merehook working customs archive transition circulars.
+- She may leave next morning but does not commit to following Greg.
+- She gives Greg a current Merehook coastal-measure circular in case later freight disputes recur.
+- She explicitly supports Greg going north: if he only chooses routes preserving easy return, he is taking long errands rather than truly choosing road.
+- Brief hug; asks Greg to send note when he knows where he is.
+- She warns Dask not to let Greg buy a broken beacon; Dask says it depends on price.
 
-## Outcome / unresolved costs
-- Hara's crate is **moving**, not fully solved.
-- Her 4c remains tied pending review.
-- Dawn delivery/ship scale still must happen.
-- Buyer can still reject if delivery issue arises.
-- Rule may still be badly noticed/transitioned.
-- Corren still has bond exposure if paperwork mishandled.
-- No party is made whole.
-- This is partial procedural relief with real cost, not clean loophole victory.
+## Lot 67 carry consequence
+- Greg does **not** perform another experiment with Road Response Kit.
+- He performs a carry/packing check:
+  - brass clamp frame wrapped in shirt;
+  - flexible tongue protected between notebook boards;
+  - bead track secured to prevent chatter;
+  - nonstandard jaw wrapped separately.
+- Tool adds noticeable but manageable pack weight and changes pack arrangement.
+- Artifact ownership immediately affects travel grammar through carrying/maintenance burden.
+- Sticky fourth mark remains unresolved.
 
-## Character/social movement
-- Hara Quill remains angry/principled but economically exposed; better laugh returns once crate moves.
-- Corren Dey remains precise/defensive custody clerk whose personal bond matters; not villain.
-- Sel Ordan is concise custody supervisor who grants bounded extension based on existing condition, not favoritism.
-- Buyer clerk: gray braid, ironwood cane, blunt about Merehook stairs; prioritizes tide/ship schedule.
-- Sori asks/answers only bounded contract/invoice questions and catches Greg's recurring `employment shoulders`.
-- Maro provides copied table because he genuinely wanted lower-gate/bird route; does not become clerk.
-- Dask arrives late from instrument lane with cracked tide index and treats administrative suspense as another system.
+## Merehook -> Lerrin road
+- Coach: long narrow six-bench body, rear cargo rack, two horses, canvas roof.
+- Driver offers Greg front bench as easier access; no elaborate accessibility system.
+- Trial limb stays wrapped because unfamiliar coach/road day is not appropriate proof setting.
+- Other passengers include:
+  - old man with two blue shore-hen cages;
+  - young gray-coated woman carrying sealed fragile glass case;
+  - mother + boy **Tenn**;
+  - broad sleeping man.
+- Tenn asks about wrapped trial limb and accepts simple `leg` answer without tragedy/inspiration framing.
 
-## Greg role / mindset
-- Greg helps by connecting questions and people rather than owning decision or paying problem away.
-- He explicitly recognizes some problems are clocks/distance/schedules rather than missing information.
-- He and Sori choose **not to chase Hara downhill** because it is not their race.
-- Core realization: helping does not require owning the ending.
-- Greg later records a private concise note because dispute is interesting, then deliberately stops writing.
+## North-coast infrastructure
+- Terrain shifts from Merehook's stacked saltstone shelves to dark grass over black rock, sea left/hills right, constant crosswind, wind-shaped trees.
+- Road uses short stone **wind forks** with metal tops:
+  - older ones passive;
+  - newer lightly charged versions carry warning tone farther;
+  - used to warn when crosswind becomes unsafe for high carts.
+- Regional solution differs from Merehook wind bowls while addressing similar hazard.
 
-## Merehook artifact pressure
-- After market close Greg again sees retired **cliff-line keeper / no cert** at **6c**.
-- Potential uses occur to him: harness, crutch-load experiments, future limb load testing.
-- He still does **not buy it**.
-- Seller does not lower price.
-- Greg's explicit logic: `wanting is not accounting.`
-- Old throat-glass wind bowls continue to fascinate him; upper-ridge bowls sing in sequence before gust reaches lane.
-- No artifact purchase Ch434.
+## Fourth Ridge delay / road friction
+- Kerren Fold stop: six houses, inn, smithy, three wind walls.
+- Road notice warns `NORTH FORK CROSSWIND / WATCH FOURTH RIDGE`.
+- At fourth ridge:
+  - first fork hums low;
+  - second louder;
+  - third sheltered/silent;
+  - fourth high thin tone.
+- Driver stops immediately, chocks coach, waits rather than forcing passage.
+- Delay about **40 minutes total** including conservative five-minute wait after tones fall.
+- Dask notices differing exposure/timing but Greg refuses to unpack Lot 67 during live road wait; no premature field experiment.
+- Gray-coated passenger's glass case remains intact; contents unspecified beyond fragile glass samples.
+
+## Lerrin arrival / beacon network
+- Near dusk, coast shows repeating signal lights before town itself becomes visible:
+  - white;
+  - amber;
+  - green;
+  - farther north red.
+- **Lerrin** is smaller/longer than Merehook, along narrow bay with low black roofs and multiple stone towers.
+- Outer head contains a **field/network of beacon infrastructure**, not one lighthouse:
+  - short pylons;
+  - mirrored frames;
+  - colored lamps;
+  - two tall masts with suspended glass drums.
+- Gate board identifies:
+  - Coastal Beacon District / South Head;
+  - packet office lower bay;
+  - Bellweather Road north gate;
+  - Old Merrow packet third & sixth day;
+  - Vey packet second & fifth day;
+  - Harrow Cape weather permitting.
+- This opens multiple future routes without forcing one.
+
+## Lerrin lodging / economy
+- Greg pays **1c** cheapest bunk at **South Lamp House**: **41c -> 40c**.
+- Dask pays own lodging.
+- Greg sends delayed-route note south using bits for postage:
+  `Lerrin. North coast. Dask with me. Maro east salt farms. Sori stayed Merehook one more day. Bought one retired timing demonstrator at Survey auction for 5c. Still have leg trial build. Fine. Not heading home yet. - Greg`
+- Ends **40c cash / 23c Vale / bits unspecified**.
+- 20c limb deposit remains paid toward 1 silver + 18c travel-work limb.
 
 ## Trial limb / body
-- No trial-limb wear Ch434.
-- Skin normal; no reason to force nighttime wear for artificial progress.
-- Trial build remains Hark & Venn shop property, unfinished, medium foot.
-- Crutches remain primary and sound.
-- No new injury.
-
-## Economy
-- Greg begins/ends **50c cash / 23c Vale / bits unspecified**.
-- No Greg copper spending Ch434.
-- 20c limb deposit remains paid toward 1 silver + 18c quote.
-- Hara's 4c provisional security and one-bit runner/night costs are **Hara's**, not Greg's.
-- Greg continues protecting capital for limb + road optionality.
+- No trial-limb wear Ch439.
+- Trial build remains wrapped/shop property/unfinished/medium foot.
+- Crutches primary and sound.
+- No injury during road delay/travel.
 
 ## Magic
 - Protocol remains **59 minimal / 53 shaping / 135 external attempts**.
-- No deliberate magic Ch434.
+- No deliberate magic Ch439.
 - No S-class/locked-mode activation.
 
 ## Current inventory
@@ -121,46 +134,52 @@ Greg carries:
 5. porter harness / repair kit / crutch wrap;
 6. Hark & Venn road-test limb build, shop property, medium foot;
 7. personal notebook;
-8. Outer Works close chit.
+8. Outer Works close chit;
+9. Road Response Kit / Lot 67, owned, unverified comparative timing demonstrator, sticky fourth mark;
+10. current Merehook coastal-measure circular from Sori.
+
+## Companion status
+- Greg + Dask are currently together in Lerrin because both independently chose north route.
+- This is **not** a permanent party contract.
+- Maro east; Sori Merehook; future reconnection uncertain.
+- Dask finds public **South Head walk tomorrow second bell** and old south relay housing display; repair yard is not public.
 
 ## Protected uncertainties
-- Greg ends Ch434 at Merehook lodging after market close.
-- Cash **50c**, Vale **23c**, bits unspecified.
+- Greg ends Ch439 at South Lamp House in Lerrin.
+- Cash **40c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 135**.
+- Lot 67 still uncharacterized beyond auction test; sticky fourth mark unresolved.
 - Trial limb unfinished/shop property.
-- Hara's crate left custody in bonded night-cart chain; dawn delivery remains pending.
-- Hara's **4c provisional security remains tied pending review**.
-- Whether transition exception ultimately applies is unresolved.
-- Old Tide Eye observatory remains unvisited.
-- Greg has not bought cliff-line keeper or throat glass.
-- Merehook remains current exploration base.
-- Rika Dorn is corrected Ch432 forewoman name. Do not use Nessa Vale.
+- Maro route east uncertain after salt farms.
+- Sori route uncertain after archive day.
+- Greg/Dask next movement beyond Lerrin unchosen.
+- Public South Head walk tomorrow second bell is available, not mandatory.
+- North/packet routes now visible but not chosen.
 
-## Chapter 435 trailhead
-Follow next actual claim from Ch434/current authority.
+## Chapter 440 trailhead
+Follow next actual claim from Ch439/current authority.
 
-Greg begins **50c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**, in Merehook next morning.
+Greg begins **40c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**, at **South Lamp House, Lerrin**, with Dask.
 
-Strong immediate movement:
-- Shift away from the Hara dispute enough to avoid turning Merehook into legal-office serial. A brief consequence/update is welcome, but exploration should now widen again.
-- **Old Tide Eye observatory** is the strongest next claim. Determine what `closed` actually means today and let Dask's interest pay off.
-- Merehook should reveal magical/scientific regional infrastructure distinct from Duskport/Carrow.
-- Wind bowls / throat glass / tide instruments / cliff ecology / old survey systems are live material.
-- Greg remains visitor. He can ask, observe, perhaps participate in a bounded demonstration, but do not hand him a new employment contract immediately.
-- Artifact pressure can sharpen if Greg sees a genuinely rule-changing object or retired instrument, but pricing must remain rational and money pressure real.
-- Maro's glass-gull/salt-cliff interest should get independent movement too.
-- Sori should have her own reason to care about local measure/market/observatory data rather than simply following Greg.
-- Trial limb optional only if stable terrain/task makes it useful.
+Strong movement:
+- Let Lerrin establish its own identity quickly through active beacon infrastructure, not another full museum/tour chapter.
+- South Head public walk second bell is a natural hook, but something operational/human should happen around it so Greg is not merely sightseeing.
+- Beacon system can create new scene grammar around signaling, timing, line-of-sight, weather, false/late signals, maintenance, and trust between stations.
+- Lot 67 now has an organic future relevance to timing, but **do not immediately solve a beacon emergency with uncharacterized auction scrap**. It can be characterized safely in low stakes if opportunity arises.
+- Greg has spent several chapters without deliberate magic. A bounded low-stakes attempt may become appropriate soon, especially after Lot 67 characterization, but no obligation in Ch440.
+- Trial limb has rested several days and can return on stable Lerrin ground if ordinary task warrants it.
+- Geographic expansion remains priority. Lerrin should eventually create a real next-route pull toward Bellweather, Vey, Old Merrow, Harrow Cape, or another locally grounded destination.
+- Greg and Dask should continue sounding socially distinct; Dask can drive beacon curiosity.
 
 Avoid:
-- another full chapter of appeal paperwork;
-- instant Hara full refund with no process;
-- free observatory access just because protagonist;
-- generic lore tour with no scene consequence;
-- forced job offer;
-- buying the 6c cliff-line keeper merely because it has been shown twice.
+- another static technical lecture;
+- instant beacon-master respect;
+- letting Greg repair institutional beacon system on arrival;
+- magic breakthrough from Lot 67 without characterization;
+- immediate reunion with Sori/Maro;
+- forgetting cash/limb capital pressure.
 
-**MANDATORY TITLE CHECK CH435:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH440:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`

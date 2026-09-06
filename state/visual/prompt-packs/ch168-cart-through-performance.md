@@ -1,30 +1,30 @@
-# Illustration Prompt Pack — ch164-kest-pig-sign
+# Illustration Prompt Pack — ch168-cart-through-performance
 
-**Chapter:** 164 — THE PROSPECTOR
+**Chapter:** 168 — THE PITCHMAN
 **Kind:** `chapter_illustration`
 **Fit target:** `exact`
 **Spoiler level:** `low`
-**Paragraph anchor:** Below that, someone had written: NO PIGS IN EAST YARD.
+**Paragraph anchor:** For several seconds the performance became a crowd making a lane.
 
 ## Scene brief
 
-The company reaches Kest on the day before market, passing a roadside sign that says MARKET TOMORROW and NO PIGS IN EAST YARD while a pig stands visibly in the east yard anyway.
+During the north-arcade performance, a loading cart forces the actors and audience to break formation and make a lane through the show before the scene resumes as if this is normal.
 
 ## Visual hook
 
-A dry comic town-arrival image: the painted KEST sign and NO PIGS IN EAST YARD notice in clear view, market pens beyond it, and one completely unbothered pig violating the rule.
+A fair cart cutting directly through the improvised performance lane while Marek, Serra, Greg-as-Sword, and the audience peel aside around cheese stalls, columns, wind, and loading traffic.
 
 ## Prompt construction
 
 ### GENERATION METADATA
 - Framing: `above_waist`
-- View angle: `choose_non_repetitive_scene_angle`
-- Pose family: `arrival_observation`
-- Scene tags: town, market, livestock, travel, comedy
+- View angle: `side_three_quarter`
+- Pose family: `performance_interruption`
+- Scene tags: fair, performance, cart, crowd, arcade, comedy, theatre
 - Preserve these metadata values into the generation queue and registry when the generated asset is intaked. They are continuity/diversity guidance, not permission to contradict the manuscript.
 
 ### SUBJECT + ACTION
-Characters: Greg, Marek. Show them doing the physical action implied by the scene rather than posing for a portrait.
+Characters: Greg, Marek, Serra. Show them doing the physical action implied by the scene rather than posing for a portrait.
 
 ### CAMERA
 Choose a composition that avoids default centered eye-level two-person staging. Rotate wide/medium/close and camera height to suit the scene while honoring the declared framing/view-angle guidance above.
@@ -33,13 +33,13 @@ Choose a composition that avoids default centered eye-level two-person staging. 
 Use a meaningful prop, doorway, furniture edge, fabric, stage object, cart, hand, crutch, or other manuscript-supported foreground shape when useful.
 
 ### ENVIRONMENTAL MOVEMENT
-Location: western edge of Kest before market day. Mood: dryly comic, observant, travel-worn. Use posture, clothing, traffic, weather, smoke, fabric, doors, sightlines, or work activity to create directional energy.
+Location: north arcade at Dast fair. Mood: kinetic, comic, improvisational. Use posture, clothing, traffic, weather, smoke, fabric, doors, sightlines, or work activity to create directional energy.
 
 ### EYE PATH
 Design where the eye enters, how motion carries it, and where it lands. Quiet scenes should still have directional flow unless deliberate stillness is the point.
 
 ### MANUSCRIPT DETAILS
-Stay inside this scene summary and hook. Do not invent plot facts beyond the candidate. Visual hook: A dry comic town-arrival image: the painted KEST sign and NO PIGS IN EAST YARD notice in clear view, market pens beyond it, and one completely unbothered pig violating the rule.
+Stay inside this scene summary and hook. Do not invent plot facts beyond the candidate. Visual hook: A fair cart cutting directly through the improvised performance lane while Marek, Serra, Greg-as-Sword, and the audience peel aside around cheese stalls, columns, wind, and loading traffic.
 
 ### CONTINUITY
 - Preserve manuscript-established age, body, clothing, props, and setting details.
@@ -51,6 +51,6 @@ Stay inside this scene summary and hook. Do not invent plot facts beyond the can
 
 ## Output target
 
-- Prompt pack: `state/visual/prompt-packs/ch164-kest-pig-sign.md`
-- Suggested asset id: `ch164-kest-pig-sign-v1`
-- Suggested live chapter folder: `visual/chapter_art/164/`
+- Prompt pack: `state/visual/prompt-packs/ch168-cart-through-performance.md`
+- Suggested asset id: `ch168-cart-through-performance-v1`
+- Suggested live chapter folder: `visual/chapter_art/168/`
