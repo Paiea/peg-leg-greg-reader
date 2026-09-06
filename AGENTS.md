@@ -75,6 +75,8 @@ Read current manuscript/state plus `state/STORY_NORTH_STAR.md`, `state/DEVELOPME
 ### Prose / editorial / 04
 Read actual prose plus `state/PROSE_PLAYBOOK.md` and `state/STORY_NORTH_STAR.md`. Consult `state/STORY_ANTI_PATTERNS.md` when an edit risks flattening voice, relationships, evidence discipline, or serial texture. Improve writing and longitudinal social texture without silently changing plot, canon, characterization, scene intent, or outcomes.
 
+`state/GENERAL_EDITOR_STATE.md` is preserved on demand as **REFERENCE / CASE LAW** for the completed Chapters 1–5 moderate-polish batch, its Level 1–3 craft boundary, continuity repairs, and the Book 1 source-promotion path. It is not a separate active lane or sequential queue. Route current prose/editorial work through 04 unless another current specialist pass explicitly owns the task.
+
 For an explicitly authorized **structural compression pass**, current illustrations, illustration candidates, chapter numbers, and paragraph anchors are advisory production state only. Do not preserve weak/redundant prose, a redundant scene, or an old chapter boundary merely because art exists or is planned there. If a visually strong beat still earns its place, preserve the beat because the story needs it, not because the art system does. Visual candidates are reconciled after the manuscript edit.
 
 ### Character
@@ -145,7 +147,6 @@ Minimal fresh-chat starters are intentionally valid:
 - `Continue Peg-Leg Greg Story Control from current GitHub authority.`
 - `Continue Peg-Leg Greg as 04 — Heavy Prose Editor from current GitHub authority.`
 - `Continue Peg-Leg Greg as 05 — Visual Production / Image Lab from current GitHub authority.`
-- `Continue Peg-Leg Greg as 06 — Manuscript Polish / General Editor from current GitHub authority.`
 - `Continue Peg-Leg Greg Reader / UI from current GitHub authority.`
 
 Do not paste a giant lane prompt into every replacement chat unless a genuinely new requirement is not yet represented in GitHub. When a lane's operating rules are durable in repo state, the short starter is preferred.
