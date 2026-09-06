@@ -5,9 +5,9 @@
     {
       "code": "stale_chapter_index",
       "index_endpoint": 248,
-      "manuscript_endpoint": 434,
+      "manuscript_endpoint": 439,
       "message": "The legacy chapter index trails current manuscript authority and must not drive compression or publication rebuilds.",
-      "stale_by": 186
+      "stale_by": 191
     },
     {
       "code": "numeric_dependencies",
@@ -16,25 +16,25 @@
         "docs": 11,
         "metadata": 4948,
         "other": 52,
-        "reader": 5930,
-        "script": 356,
-        "state": 5337
+        "reader": 6010,
+        "script": 390,
+        "state": 5649
       },
       "counts_by_kind": {
-        "asset_name": 2873,
-        "chapter_art_path": 2290,
-        "chapter_field": 1528,
-        "chapter_text": 6868,
+        "asset_name": 3018,
+        "chapter_art_path": 2434,
+        "chapter_field": 1555,
+        "chapter_text": 6963,
         "checkpoint_name": 4,
         "reader_query": 101,
-        "reader_slug": 3048
+        "reader_slug": 3063
       },
       "counts_by_risk": {
-        "hard": 6971,
-        "soft": 9741
+        "hard": 7157,
+        "soft": 9981
       },
       "message": "Chapter numbers remain embedded across repository surfaces and require resolver or migration handling before renumbering.",
-      "reference_count": 16712
+      "reference_count": 17138
     }
   ],
   "overall_status": "NEEDS_MIGRATION",
@@ -44,7 +44,7 @@
       "message": "Whole-book structural mapping and hotspot audit are safe because they do not mutate prose, numbering, URLs, or art."
     },
     {
-      "chapter_count": 434,
+      "chapter_count": 439,
       "code": "stable_identity_inventory",
       "message": "Stable IDs can be generated for current discovered chapter authority without renumbering the book."
     }
@@ -52,11 +52,11 @@
   "schema_version": 1,
   "summary": {
     "blocker_count": 0,
-    "dependency_references": 16712,
-    "manuscript_endpoint": 434,
+    "dependency_references": 17138,
+    "manuscript_endpoint": 439,
     "migration_item_count": 2,
-    "reader_chapter_count": 434,
-    "registry_chapters": 434,
+    "reader_chapter_count": 439,
+    "registry_chapters": 439,
     "safe_item_count": 2
   }
 }

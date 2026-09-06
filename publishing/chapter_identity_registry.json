@@ -434,6 +434,11 @@
     "chapters/432.html",
     "chapters/433.html",
     "chapters/434.html",
+    "chapters/435.html",
+    "chapters/436.html",
+    "chapters/437.html",
+    "chapters/438.html",
+    "chapters/439.html",
     "light/100.html",
     "light/101.html",
     "light/102.html",
@@ -769,6 +774,11 @@
     "light/432.html",
     "light/433.html",
     "light/434.html",
+    "light/435.html",
+    "light/436.html",
+    "light/437.html",
+    "light/438.html",
+    "light/439.html",
     "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
     "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
     "state/manuscript/Peg_Leg_Greg_Book2_Ch83-92_light_ship_edited.docx",
@@ -961,6 +971,11 @@
     "state/manuscript/Peg_Leg_Greg_Chapter_432_EXACT_WIP.md",
     "state/manuscript/Peg_Leg_Greg_Chapter_433_EXACT_WIP.md",
     "state/manuscript/Peg_Leg_Greg_Chapter_434_EXACT_WIP.md",
+    "state/manuscript/Peg_Leg_Greg_Chapter_435_EXACT_WIP.md",
+    "state/manuscript/Peg_Leg_Greg_Chapter_436_EXACT_WIP.md",
+    "state/manuscript/Peg_Leg_Greg_Chapter_437_EXACT_WIP.md",
+    "state/manuscript/Peg_Leg_Greg_Chapter_438_EXACT_WIP.md",
+    "state/manuscript/Peg_Leg_Greg_Chapter_439_EXACT_WIP.md",
     "state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md",
     "state/manuscript/Peg_Leg_Greg_Running_Manuscript.md",
     "state/manuscript/Peg_Leg_Greg_Running_Manuscript_Ch138-152.md",
@@ -13443,18 +13458,158 @@
       ],
       "source_path": "state/manuscript/Peg_Leg_Greg_Chapter_434_EXACT_WIP.md",
       "status": "active"
+    },
+    {
+      "act": "act-ii",
+      "book": "book-iii",
+      "chapter_id": "plg-ch-000435",
+      "current_display_number": 435,
+      "current_title": "THE ONLOOKER",
+      "illustration_refs": [],
+      "legacy_slugs": [
+        "chapters/435.html",
+        "light/435.html"
+      ],
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_Chapter_435_EXACT_WIP.md",
+      "manuscript_source_kind": "exact_checkpoint",
+      "manuscript_source_priority": 1000000,
+      "merged_into": null,
+      "notes": "",
+      "origin_chapter_number": 435,
+      "public_slug": "chapters/435.html",
+      "reader_pages": [
+        "chapters/435.html",
+        "light/435.html"
+      ],
+      "source_chapter_ids": [
+        "plg-ch-000435"
+      ],
+      "source_path": "state/manuscript/Peg_Leg_Greg_Chapter_435_EXACT_WIP.md",
+      "status": "active"
+    },
+    {
+      "act": "act-ii",
+      "book": "book-iii",
+      "chapter_id": "plg-ch-000436",
+      "current_display_number": 436,
+      "current_title": "THE PROSPECTOR",
+      "illustration_refs": [],
+      "legacy_slugs": [
+        "chapters/436.html",
+        "light/436.html"
+      ],
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_Chapter_436_EXACT_WIP.md",
+      "manuscript_source_kind": "exact_checkpoint",
+      "manuscript_source_priority": 1000000,
+      "merged_into": null,
+      "notes": "",
+      "origin_chapter_number": 436,
+      "public_slug": "chapters/436.html",
+      "reader_pages": [
+        "chapters/436.html",
+        "light/436.html"
+      ],
+      "source_chapter_ids": [
+        "plg-ch-000436"
+      ],
+      "source_path": "state/manuscript/Peg_Leg_Greg_Chapter_436_EXACT_WIP.md",
+      "status": "active"
+    },
+    {
+      "act": "act-ii",
+      "book": "book-iii",
+      "chapter_id": "plg-ch-000437",
+      "current_display_number": 437,
+      "current_title": "THE DECIDER",
+      "illustration_refs": [],
+      "legacy_slugs": [
+        "chapters/437.html",
+        "light/437.html"
+      ],
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_Chapter_437_EXACT_WIP.md",
+      "manuscript_source_kind": "exact_checkpoint",
+      "manuscript_source_priority": 1000000,
+      "merged_into": null,
+      "notes": "",
+      "origin_chapter_number": 437,
+      "public_slug": "chapters/437.html",
+      "reader_pages": [
+        "chapters/437.html",
+        "light/437.html"
+      ],
+      "source_chapter_ids": [
+        "plg-ch-000437"
+      ],
+      "source_path": "state/manuscript/Peg_Leg_Greg_Chapter_437_EXACT_WIP.md",
+      "status": "active"
+    },
+    {
+      "act": "act-ii",
+      "book": "book-iii",
+      "chapter_id": "plg-ch-000438",
+      "current_display_number": 438,
+      "current_title": "THE BIDDER",
+      "illustration_refs": [],
+      "legacy_slugs": [
+        "chapters/438.html",
+        "light/438.html"
+      ],
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_Chapter_438_EXACT_WIP.md",
+      "manuscript_source_kind": "exact_checkpoint",
+      "manuscript_source_priority": 1000000,
+      "merged_into": null,
+      "notes": "",
+      "origin_chapter_number": 438,
+      "public_slug": "chapters/438.html",
+      "reader_pages": [
+        "chapters/438.html",
+        "light/438.html"
+      ],
+      "source_chapter_ids": [
+        "plg-ch-000438"
+      ],
+      "source_path": "state/manuscript/Peg_Leg_Greg_Chapter_438_EXACT_WIP.md",
+      "status": "active"
+    },
+    {
+      "act": "act-ii",
+      "book": "book-iii",
+      "chapter_id": "plg-ch-000439",
+      "current_display_number": 439,
+      "current_title": "THE COMPANION",
+      "illustration_refs": [],
+      "legacy_slugs": [
+        "chapters/439.html",
+        "light/439.html"
+      ],
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_Chapter_439_EXACT_WIP.md",
+      "manuscript_source_kind": "exact_checkpoint",
+      "manuscript_source_priority": 1000000,
+      "merged_into": null,
+      "notes": "",
+      "origin_chapter_number": 439,
+      "public_slug": "chapters/439.html",
+      "reader_pages": [
+        "chapters/439.html",
+        "light/439.html"
+      ],
+      "source_chapter_ids": [
+        "plg-ch-000439"
+      ],
+      "source_path": "state/manuscript/Peg_Leg_Greg_Chapter_439_EXACT_WIP.md",
+      "status": "active"
     }
   ],
   "diagnostics": {
     "authority_conflicts": [],
     "chapter_index_endpoint": 248,
-    "chapter_index_stale_by": 186,
+    "chapter_index_stale_by": 191,
     "chapter_index_title_mismatches": [],
-    "manuscript_chapter_count": 434,
-    "manuscript_endpoint": 434,
+    "manuscript_chapter_count": 439,
+    "manuscript_endpoint": 439,
     "manuscript_gaps": [],
     "manuscript_only_chapters": [],
-    "reader_chapter_count": 434,
+    "reader_chapter_count": 439,
     "reader_only_chapters": []
   },
   "schema_version": 2,
