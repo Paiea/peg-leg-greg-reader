@@ -16,10 +16,10 @@ class DialogueOwnershipNovelTests(unittest.TestCase):
         )
 
     def test_distinguishes_named_women(self):
-        text = 'Sella folded her arms. "No." Hessa sighed. "Fine."'
+        text = 'Sella folded her arms. "No." Hessa looked away. "Fine."'
         self.assertEqual(
             split_paragraph(text),
-            ['Sella folded her arms. "No."', 'Hessa sighed. "Fine."'],
+            ['Sella folded her arms. "No."', 'Hessa looked away. "Fine."'],
         )
 
     def test_keeps_unambiguous_same_owner_pronoun(self):
