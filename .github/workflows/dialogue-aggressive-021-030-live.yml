@@ -1,0 +1,83 @@
+name: Publish aggressive dialogue ownership 021-030
+
+on:
+  push:
+    branches:
+      - integration/aggressive-dialogue-021-030-live
+    paths:
+      - '.github/workflows/dialogue-aggressive-021-030-live.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  replay-and-validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch approved dialogue authority
+        run: git fetch origin editor/voice-compression-pass:refs/remotes/origin/editor/voice-compression-pass
+      - name: Run focused integration tests
+        run: python -m unittest tests.test_dialogue_variance_integration -v
+      - name: Replay exact approved patches through Chapter 30 only
+        run: python scripts/dialogue_variance_integration.py --patch-ref origin/editor/voice-compression-pass --min-chapter 21 --max-chapter 30 --write
+      - name: Apply semantic ownership boundaries
+        run: python scripts/apply_dialogue_ownership_semantic.py --start 21 --end 30
+      - name: Enforce bounded file scope
+        run: |
+          python - <<'PY'
+          import subprocess
+          allowed = {f'chapters/{n:03d}.html' for n in range(21, 31)} | {
+              'state/editorial/global-reports/DIALOGUE_VARIANCE_INTEGRATION_REPORT.md',
+              '.github/workflows/dialogue-aggressive-021-030-live.yml',
+          }
+          changed = set(subprocess.check_output(['git','diff','--name-only','HEAD'], text=True).splitlines())
+          extra = changed - allowed
+          if extra:
+              raise SystemExit('unexpected rollout files: ' + ', '.join(sorted(extra)))
+          print('bounded diff passed:', len(changed), 'working-tree files')
+          PY
+      - name: Validate repository after replay
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py' -v
+          git diff --check
+          python scripts/verify_reader_frontier.py
+      - name: Validate changed chapter prose
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          import subprocess
+          changed = set(subprocess.check_output(['git','diff','--name-only','HEAD'], text=True).splitlines())
+          for n in range(21, 31):
+              p = Path('chapters') / f'{n:03d}.html'
+              if str(p) not in changed:
+                  continue
+              text = p.read_text(encoding='utf-8')
+              m = re.search(r'<article\s+class="prose"[^>]*>(.*?)</article>', text, re.S|re.I)
+              if not m:
+                  raise SystemExit(f'missing prose article: {p}')
+              prose = re.sub(r'<[^>]+>', '', m.group(1))
+              if '—' in prose:
+                  raise SystemExit(f'em dash in manuscript prose: {p}')
+          print('changed chapter prose validation passed')
+          PY
+      - name: Commit validated baseline
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add chapters/021.html chapters/022.html chapters/023.html chapters/024.html chapters/025.html chapters/026.html chapters/027.html chapters/028.html chapters/029.html chapters/030.html state/editorial/global-reports/DIALOGUE_VARIANCE_INTEGRATION_REPORT.md
+          if git diff --cached --quiet; then
+            echo "No Chapter 21-30 dialogue changes to commit."
+            exit 0
+          fi
+          git commit -m "Apply dialogue ownership baseline through chapter 30"
+          git push origin HEAD:integration/aggressive-dialogue-021-030-live
