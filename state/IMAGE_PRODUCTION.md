@@ -60,6 +60,10 @@ Rules:
 - a later unique fix may restore a previously anchor-blocked candidate to `prompt_ready`
 - `build_generation_queue.py` also refuses any `anchor_blocked` candidate as defense in depth
 
+Exact-match validation is universal. The active older-backfill lane may additionally set `anchor_quality_enforced: true`. For those candidates, the validator also scores anchor distinctiveness and blocks weak placement text before generation. Current weak signals include very short anchors, short pronoun-led anchors, and anchors with too few distinctive content tokens inside the chapter. A line can therefore be unique but still be too flimsy for durable automated placement.
+
+Use the stricter quality gate on bounded backfill work we control rather than retroactively changing unrelated historical candidate semantics. When the quality gate catches a weak anchor, replace it with stronger nearby manuscript text. Do not lower the threshold merely to restore a packet count.
+
 `state/visual/PARAGRAPH_ANCHOR_REPORT.md` is the compact audit surface. **Fix the candidate anchor rather than weakening the validator.** Generation should not proceed for a scene that cannot be placed safely later.
 
 ## Registry-first rule
@@ -68,7 +72,7 @@ New illustration work should enter through `state/visual/ILLUSTRATION_REGISTRY.j
 
 For newly generated art, preserve generation metadata into the registry when known: required characters, style family, framing preference, camera angle, pose family, and scene tags. This gives accepted art enough structure to become a useful future character reference without reopening the original generation queue.
 
-Accepted legacy art may not have those fields. `tag_registry_characters.py` can infer cataloged character names conservatively from accepted art's alt text/caption/notes. It must not invent characters that are not explicitly named or already carried from generation metadata.
+Accepted legacy art may not have those fields. `tag_registry_characters.py` can infer cataloged character names conservatively from accepted art's alt text/caption/notes. It must not invent characters that are not explicitly named or already carried from generation metadata. Existing explicit character tags and text-derived names are unioned so an older record tagged only `Greg` does not suppress a clearly named `Pell`, `Nessa`, `Marek`, `Serra`, or `Iven` in the same accepted-art metadata.
 
 `backfill_tagged_registry_metadata.py` may then add coarse visual metadata only when accepted-art text metadata contains strong evidence, for example explicit `three-quarter`, `profile`, `working`, `writing`, `seated`, `backstage`, `market`, `mill`, or similar labels. It must preserve existing metadata and skip uncertain view/pose claims instead of guessing.
 
@@ -127,12 +131,16 @@ Reference quality is scored mechanically. Current signals include:
 - shared `sketch-ink-paint` style receives a bonus
 - hand-curated anchors remain strong baseline references
 - strong face/style anchors may receive explicit bonuses
+- accepted-art metadata that explicitly names the target character receives an identity-evidence bonus
+- a single-character accepted image may receive an additional identity-anchor bonus
 - normal Greg generation rewards `above_waist` references
 - full-body/lower-body Greg references are penalized when the requested framing is above waist
 - scene-tag overlap can reward a useful context match
 - non-production statuses are heavily penalized
 
-Automated promotion uses a minimum quality threshold and keeps only a compact top set per character. **Do not automatically accumulate every accepted panel featuring Greg.** A flooded reference pool is worse than a small trustworthy one.
+The identity-evidence bonus is metadata-grounded, not image vision. Automation may know that an accepted illustration explicitly names Pell, Nessa, Marek, Serra, or Iven; it does **not** thereby know that the face is beautifully rendered. `strong_face` remains a curated signal unless actual image review explicitly establishes it.
+
+Automated promotion uses a minimum quality threshold and keeps only a compact top set per character. **Do not automatically accumulate every accepted panel featuring Greg.** A flooded reference pool is worse than a small trustworthy one. The promotion pass may inspect many eligible accepted records, but only the strongest compact retained set per character should feed generation.
 
 `audit_character_references.py` reports stale/bad continuity metadata, including missing assets, duplicate assets, structured references pointing at missing or non-approved/non-live registry records, missing appearance notes, and Greg references explicitly tagged as lower-body-heavy without an above-waist anchor.
 
@@ -168,9 +176,28 @@ For Greg, prompt packs repeat the above-waist default unless the specific candid
 
 For an active older backfill wave, also generate a **bounded packet** such as `state/visual/GENERATION_PACKET_156_160.md`. A bounded packet deliberately includes only one small chapter band and carries deterministic output targets, paragraph anchors, selected continuity references, reference rationale, and an approval checklist. Finish/review that band before widening the production wave.
 
+The current older-backfill lane also maintains `state/visual/GENERATION_PACKET_161_165.md` as the second bounded handoff. Both bands are generated from the same queue contract, so deterministic targets, selected references, rationale, and approval checks stay consistent rather than being hand-maintained.
+
+`state/visual/BOUNDED_PRODUCTION_REVIEW_156_160.md` is the execution/review router for the first bounded band. It joins candidate, generation-queue, and registry state and reports the real current production state for each candidate: `ready_to_generate`, `generated_awaiting_approval`, `approved_unpublished`, `live`, `rejected_retryable`, `blocked_anchor`, or `not_ready`. A rejected attempt remains retryable when candidate authority still permits another deterministic generation.
+
+The bounded production review must not pretend that a pixel exists merely because a prompt packet exists. `ready_to_generate` means the prompt pack, deterministic target, anchor, and continuity context are ready for an image-generation handoff. It does not mean an image has already been generated or approved.
+
 `state/visual/ILLUSTRATION_APPROVAL_PACKET.md` is the human-facing review surface for assets currently in `generated` status. It provides explicit approve/reject templates without changing approval authority.
 
 These packet files are derivatives. The registry, candidate ledger, prompt packs, manuscript, and visual bible remain the durable authorities beneath them.
+
+## Older backfill wave seeding
+
+`scripts/seed_older_coverage_wave.py` is the deterministic bridge for the currently reviewed older coverage band. It may repair known weak anchors and add manuscript-grounded prompt-ready candidates only after the exact chapter prose has been read.
+
+Current seeded coverage extends through Chapters **166–170**. The five nominated beats are:
+- Chapter 166: Nessa repairing the goat-chewed mounting cloth by firelight while Pell helps
+- Chapter 167: the Dast harvest-fair traffic/routing problem before the town properly appears
+- Chapter 168: a loading cart forcing a lane directly through the north-arcade performance
+- Chapter 169: Marek taking a tiny west-platform opening between grain speeches
+- Chapter 170: Pell repeatedly moving the rear wagon rope away from a determined goat in the bridge queue
+
+All five preserve the normal Greg `above_waist` framing default because lower-body state is not the point of those scenes.
 
 ## 5x5 contact-sheet default
 

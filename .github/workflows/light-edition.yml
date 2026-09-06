@@ -26,6 +26,8 @@ on:
       - 'state/visual/PARAGRAPH_ANCHOR_REPORT.md'
       - 'state/visual/GENERATION_PACKET.md'
       - 'state/visual/GENERATION_PACKET_156_160.md'
+      - 'state/visual/GENERATION_PACKET_161_165.md'
+      - 'state/visual/BOUNDED_PRODUCTION_REVIEW_156_160.md'
       - 'state/visual/ILLUSTRATION_APPROVAL_PACKET.md'
       - 'chapters/*.html'
       - 'index.html'
@@ -40,10 +42,12 @@ on:
       - 'scripts/update_reader_presentation.py'
       - 'scripts/illustration_state.py'
       - 'scripts/import_legacy_illustrations.py'
+      - 'scripts/seed_older_coverage_wave.py'
       - 'scripts/validate_paragraph_anchors.py'
       - 'scripts/build_generation_queue.py'
       - 'scripts/build_generation_packet.py'
       - 'scripts/build_bounded_generation_packet.py'
+      - 'scripts/review_bounded_production.py'
       - 'scripts/build_approval_packet.py'
       - 'scripts/sync_scene_candidate_status.py'
       - 'scripts/score_character_references.py'
@@ -102,6 +106,7 @@ jobs:
       - name: Process illustration production state
         run: |
           python scripts/import_legacy_illustrations.py
+          python scripts/seed_older_coverage_wave.py
           python scripts/tag_registry_characters.py
           python scripts/backfill_tagged_registry_metadata.py
           python scripts/backfill_character_reference_metadata.py
@@ -124,6 +129,7 @@ jobs:
           python scripts/update_home_contents.py
       - name: Refresh illustration production state
         run: |
+          python scripts/seed_older_coverage_wave.py
           python scripts/validate_paragraph_anchors.py
           python scripts/build_illustration_backlog.py
           python scripts/build_prompt_packs.py
@@ -136,6 +142,8 @@ jobs:
           python scripts/build_generation_queue.py
           python scripts/build_generation_packet.py
           python scripts/build_bounded_generation_packet.py --start 156 --end 160
+          python scripts/build_bounded_generation_packet.py --start 161 --end 165 --output state/visual/GENERATION_PACKET_161_165.md
+          python scripts/review_bounded_production.py --start 156 --end 160
           python scripts/build_approval_packet.py
           python scripts/report_illustration_coverage.py --strict
       - name: Verify Light publishing derivatives
@@ -161,6 +169,8 @@ jobs:
           test -f state/visual/PARAGRAPH_ANCHOR_REPORT.md
           test -f state/visual/GENERATION_PACKET.md
           test -f state/visual/GENERATION_PACKET_156_160.md
+          test -f state/visual/GENERATION_PACKET_161_165.md
+          test -f state/visual/BOUNDED_PRODUCTION_REVIEW_156_160.md
           test -f state/visual/ILLUSTRATION_APPROVAL_PACKET.md
           test -f state/visual/ILLUSTRATION_BACKLOG.md
           test -f state/visual/ILLUSTRATION_COVERAGE.md
@@ -228,13 +238,13 @@ jobs:
       - name: Commit generated reader presentation derivatives
         if: github.ref == 'refs/heads/main'
         run: |
-          if git diff --quiet -- chapters light light.html latest.html index.html assets/reader.css state/visual/SCENE_CANDIDATES.json state/visual/ILLUSTRATION_REGISTRY.json state/visual/GENERATION_QUEUE.json state/visual/GENERATION_PACKET.md state/visual/GENERATION_PACKET_156_160.md state/visual/ILLUSTRATION_APPROVAL_PACKET.md state/visual/CHARACTER_VISUAL_REFERENCES.json state/visual/CHARACTER_REFERENCE_AUDIT.md state/visual/CHARACTER_CONTINUITY_REPORT.md state/visual/PARAGRAPH_ANCHOR_REPORT.md state/visual/ILLUSTRATION_BACKLOG.md state/visual/ILLUSTRATION_COVERAGE.md state/visual/prompt-packs; then
+          if git diff --quiet -- chapters light light.html latest.html index.html assets/reader.css state/visual/SCENE_CANDIDATES.json state/visual/ILLUSTRATION_REGISTRY.json state/visual/GENERATION_QUEUE.json state/visual/GENERATION_PACKET.md state/visual/GENERATION_PACKET_156_160.md state/visual/GENERATION_PACKET_161_165.md state/visual/BOUNDED_PRODUCTION_REVIEW_156_160.md state/visual/ILLUSTRATION_APPROVAL_PACKET.md state/visual/CHARACTER_VISUAL_REFERENCES.json state/visual/CHARACTER_REFERENCE_AUDIT.md state/visual/CHARACTER_CONTINUITY_REPORT.md state/visual/PARAGRAPH_ANCHOR_REPORT.md state/visual/ILLUSTRATION_BACKLOG.md state/visual/ILLUSTRATION_COVERAGE.md state/visual/prompt-packs; then
             echo 'Reader and illustration production derivatives already current.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add chapters light light.html latest.html index.html assets/reader.css state/visual/SCENE_CANDIDATES.json state/visual/ILLUSTRATION_REGISTRY.json state/visual/GENERATION_QUEUE.json state/visual/GENERATION_PACKET.md state/visual/GENERATION_PACKET_156_160.md state/visual/ILLUSTRATION_APPROVAL_PACKET.md state/visual/CHARACTER_VISUAL_REFERENCES.json state/visual/CHARACTER_REFERENCE_AUDIT.md state/visual/CHARACTER_CONTINUITY_REPORT.md state/visual/PARAGRAPH_ANCHOR_REPORT.md state/visual/ILLUSTRATION_BACKLOG.md state/visual/ILLUSTRATION_COVERAGE.md state/visual/prompt-packs
+          git add chapters light light.html latest.html index.html assets/reader.css state/visual/SCENE_CANDIDATES.json state/visual/ILLUSTRATION_REGISTRY.json state/visual/GENERATION_QUEUE.json state/visual/GENERATION_PACKET.md state/visual/GENERATION_PACKET_156_160.md state/visual/GENERATION_PACKET_161_165.md state/visual/BOUNDED_PRODUCTION_REVIEW_156_160.md state/visual/ILLUSTRATION_APPROVAL_PACKET.md state/visual/CHARACTER_VISUAL_REFERENCES.json state/visual/CHARACTER_REFERENCE_AUDIT.md state/visual/CHARACTER_CONTINUITY_REPORT.md state/visual/PARAGRAPH_ANCHOR_REPORT.md state/visual/ILLUSTRATION_BACKLOG.md state/visual/ILLUSTRATION_COVERAGE.md state/visual/prompt-packs
           git commit -m 'Refresh reader presentation'
           for attempt in 1 2 3; do
             git fetch origin main

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 import sys
 from copy import deepcopy
 from pathlib import Path
@@ -30,16 +31,30 @@ def _record_characters(record: dict, catalog: dict[str, dict]) -> list[str]:
     return [character for character in catalog if character.lower() in text]
 
 
-def _reference_from_registry(record: dict) -> dict | None:
+def _identity_explicit(record: dict, character: str) -> bool:
+    text = " ".join(
+        value for value in [record.get("alt_text", ""), record.get("caption", "")]
+        if isinstance(value, str)
+    )
+    pattern = r"(?<![\w'-])" + re.escape(character) + r"(?![\w'-])"
+    return bool(re.search(pattern, text, flags=re.IGNORECASE))
+
+
+def _reference_from_registry(record: dict, character: str) -> dict | None:
     asset = record.get("live_asset") or record.get("source_asset")
     if not isinstance(asset, str) or not asset.strip():
         return None
     tags: list[str] = []
-    framing = record.get("framing_preference")
+    framing = record.get("framing_preference") or record.get("framing")
     if framing == "above_waist":
         tags.append("above_waist")
     elif framing in {"full_body", "lower_body_visible"}:
         tags.append(str(framing))
+    if _identity_explicit(record, character):
+        tags.append("identity_explicit")
+    characters = [name for name in record.get("characters", []) if isinstance(name, str)]
+    if characters == [character]:
+        tags.append("single_character_anchor")
     return {
         "asset": asset.strip(),
         "registry_id": record.get("id", ""),
@@ -47,7 +62,7 @@ def _reference_from_registry(record: dict) -> dict | None:
         "approved_fit": record.get("approved_fit", ""),
         "style_family": record.get("style_family", ""),
         "framing_preference": framing or "",
-        "view_angle": record.get("camera_angle", ""),
+        "view_angle": record.get("view_angle") or record.get("camera_angle", ""),
         "pose_family": record.get("pose_family", ""),
         "scene_tags": list(record.get("scene_tags", [])),
         "tags": tags,
@@ -70,10 +85,10 @@ def promote_character_references(
     for record in registry:
         if record.get("status") not in {"approved", "live"}:
             continue
-        reference = _reference_from_registry(record)
-        if not reference:
-            continue
         for character in _record_characters(record, updated):
+            reference = _reference_from_registry(record, character)
+            if not reference:
+                continue
             character_record = updated[character]
             existing_assets = {
                 asset for asset in character_record.get("reference_assets", []) if isinstance(asset, str)
@@ -94,7 +109,10 @@ def promote_character_references(
         references = [ref for ref in character_record.get("references", []) if isinstance(ref, dict)]
         framing = "above_waist" if character == "Greg" else "scene_appropriate"
         references.sort(
-            key=lambda ref: -score_reference(ref, character, framing_preference=framing)["score"]
+            key=lambda ref: (
+                -score_reference(ref, character, framing_preference=framing)["score"],
+                ref.get("asset", ""),
+            )
         )
         character_record["references"] = references[: max(max_auto_references_per_character, 0)]
 
