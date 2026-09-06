@@ -1,103 +1,109 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 440 - **THE LOOKOUT**.
-- Exact Chapters 249-440 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays.
+- Current exact story endpoint: Chapter 441 - **THE SAILOR**.
+- Exact Chapters 249-441 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays.
 - Chapter 432 naming correction remains active: north-slope road forewoman is **Rika Dorn**, not Nessa Vale.
 
 ## Current location / arc
-- Greg and Dask remain in **Lerrin** on the north coast after one full operational day.
-- Maro remains on his independent east-salt-farm route; Sori remains on her independent Merehook/archive route unless later changed.
-- Greg and Dask may now split again: Dask leans Bellweather; Greg is undecided between Bellweather road and packet travel.
-- No return ticket, employer, quest, or prophecy forces direction.
+- Greg has split from Dask and traveled by packet from **Lerrin toward Old Merrow**.
+- Dask independently took the **Bellweather** coach.
+- Greg is currently aboard packet **Narrow Gull**, anchored in Old Merrow's outer lee because harbor chain gate failed to lower and rain arrived.
+- He is physically at Old Merrow but has **not docked/entered town yet**.
+- No return ticket, employer, quest, or prophecy forces route.
 
-## Chapter 440 - THE LOOKOUT
+## Chapter 441 - THE SAILOR
 
 ### Title / role
-- Greg is **THE LOOKOUT**.
-- He spends the chapter watching Lerrin's beacon network operate under uncertainty, recognizing what he does and does not know, and observing a real departure decision without assuming authority.
-- He notices timing/failure patterns but refuses to turn himself or Lot 67 into a city diagnostic tool.
+- Greg is **THE SAILOR** in the bounded sense of choosing water travel and adapting to packet life as a passenger, not claiming maritime expertise.
+- He deliberately chooses Old Merrow packet because he wants the sea, despite higher fare and Dask choosing another route.
 
-## Lerrin identity / public South Head
-- Lerrin wakes in signal colors and operates with color/shutter conventions at multiple civic levels.
-- Public South Head walk costs **2 bits each**; Greg and Dask pay bits only.
-- Public rules include `DO NOT SHOUT SIGNAL COLORS AS JOKE`, implying prior misuse.
-- South Head is a working field/network rather than single lighthouse:
-  - stone pylons;
-  - mirrors;
-  - colored lamps/shutters;
-  - charged/noncharged generations;
-  - suspended glass drums;
-  - protected conduits/wire channels.
-- Old South Relay display shows hybrid generations rather than one clean replacement system.
+## Departure choices
+- Harrow Cape route is closed at dawn due north swell; recheck tomorrow.
+- Bellweather coach remains **2c** second bell.
+- Old Merrow packet remains **4c** third bell.
+- Dask chooses Bellweather and departs independently.
+- Greg chooses Old Merrow packet and pays **4c: 39c -> 35c**.
+- No social injury from split.
 
-## Vey packet / beacon uncertainty conflict
-- During public walk, north line begins amber/white disagreement and South Head closes public path on two-bell signal.
-- Vey packet is already loaded and approaching tide-window deadline.
-- Human conflict:
-  - captain wants departure before tide/draft window closes;
-  - beacon duty officer cannot certify ordinary passenger terms while **North Nine return line is intermittent**;
-  - passengers bought network-confirmed passage, not ad hoc local-risk passage;
-  - perishables/mail/passenger delay all have real costs.
-- No villain/corrupt operator.
-- Captain understands system but faces economic/tide pressure.
-- Duty officer refuses to lower two-clean-return standard simply because delay is expensive.
+## Dask split
+- Dask leaves with his own pack/tourist tide index/questions.
+- Greg jokes about broken beacon purchase.
+- Dask continues defending Lot 67 terminology (`uncharacterized artifact` / `retired comparative demonstrator`) against Greg's `five-copper liar` label.
+- Their companionship is allowed to end/change naturally rather than being preserved by title inertia.
 
-## Manual optical confirmation
-- South Head orders manual optical confirmation via **Bellweather Seven -> North Nine**.
-- First attempt returns amber/incomplete.
-- Later two clean white/green returns are obtained.
-- Duty officer then certifies corridor green under normal terms.
-- Packet departs with only a few minutes before safe draft threshold.
-- Captain personally helps an older cane passenger board, preserving human complexity.
-- Greg/Dask remain observers; nobody asks Greg to solve network.
+## Packet / accessibility
+- Packet: **Narrow Gull**, two masts, low black cargo-capable hull, aft passenger deck.
+- Ticket clerk directs Greg to lower boarding gate because cargo ramp is less steep than upper gangplank.
+- Greg explicitly keeps trial limb wrapped because it is shop property/not for wet deck.
+- Deckhand allows Greg to board slowly under own power; does not grab him.
+- Crutches remain primary and are poor tools on moving deck, so Greg stays seated appropriately.
 
-## Lot 67 discipline / characterization
-- Dask recognizes beacon problem involves timing, but Greg explicitly refuses to unpack/use uncharacterized Lot 67 for live institutional decision.
-- Later in a sheltered low-stakes setting Greg and Dask perform controlled characterization.
-- Road Response Kit same-person immediate-trigger baseline, 10 repetitions:
-  - **8/10 below one mark**;
-  - **2/10 false long readings near fourth-mark hesitation**.
-- This demonstrates sticky fourth-mark failure can produce spurious long delays independent of human reaction.
-- Human-response comparisons therefore remain **unreliable for body/magic conclusions until failure isolated**.
-- Greg does not oil/disassemble track because material compatibility still unknown.
-- Updated tool note:
-  `Lot 67 characterization, Lerrin sheltered table. Manual same-person immediate trigger: 8/10 below one mark, 2/10 false long near fourth-mark hesitation. Comparative human-response readings unreliable until sticky-track failure isolated. Do not use for body/magic conclusions yet.`
+## Sea travel identity / ecology
+- Sea motion is materially different from coach travel: roll/yaw/up-down and constant corrections.
+- Route passes basalt **South Tooth** and uses lee route due north swell.
+- Greg sees **glassbacks**: long translucent-backed marine creatures that follow charge lines and can be problematic for nets; packet noise keeps them less relevant.
+- Magical ecology is observed without taxonomy certainty.
 
-## Trial limb / ordinary use
-- Trial leg returns after several rest days, indoors at South Lamp House.
-- **20-minute** wear on flat wood.
-- Primary task: standing two-handed pack rearrangement because Lot 67 changes load organization.
-- Minimal walking, ~8 flat steps total.
-- Hip fatigue around 15 min; turn quality degrades around 18 min; Greg stops at 20.
-- Mild upper and lower-front pink clear by 20-minute check; no pain/injury.
-- Trial build remains Hark & Venn shop property, unfinished, medium foot.
-- This creates small system interaction: owned artifact creates packing burden; trial limb frees hands to handle it.
+## Ship operations / restraint
+- Captain safety rule: stay out of red working lane, obey sit/move orders, use leeward rail if sick.
+- Lamp-glass crate shifts during swell; crew handles it.
+- Greg notices lashing/pressure change but does not deploy HT-LP-4 or intervene because nobody asks and crew owns problem.
+- Reinforces competence as restraint around owned tools.
+- Packet has mounted **wake shear plate**, a bronze three-groove/bead instrument indicating cross-current disagreement under hull.
+- Crew description: tells captain how `rude` water is being; accurate enough to know when to stop being clever.
+- Captain takes a half-bell detour when shear reading disagrees with apparent calm, despite trader complaint.
+
+## Old Merrow first image
+- Old Merrow is a green-black island with pale stone harbor and terraces climbing hill.
+- Ridge holds a giant fork-like membrane instrument called a **rain tongue**.
+- Rain tongue does **not call rain**; it sounds a low chest-felt note when wet wind crosses east ridge to summon cistern crews.
+- This gives Old Merrow distinct water-management/weather infrastructure.
+
+## Harbor chain failure / immediate pressure
+- Narrow Gull reaches harbor but cannot dock because underwater harbor chain gate remains raised.
+- Dock shows black signal, then alternating white/black indicating manual-release jam / uncertainty about west clutch.
+- Harbor workers are visibly working capstan mechanism and sending runner inland.
+- Captain refuses to risk hull crossing raised chain.
+- Returning to Lerrin is unattractive due swell; rain approaches.
+- Captain chooses **outer lee anchorage** to wait for chain/weather rather than force docking.
+- Rain arrives hard; island becomes obscured.
+- Greg remains passenger and does not attempt to solve harbor machinery from boat.
+
+## Vessa Orm / human cost
+- Older passenger with covered goat basket is **Vessa Orm**.
+- During dock delay she develops familiar breathing trouble and asks Greg for her own regular medicine.
+- She explicitly instructs **three drops under tongue**, says she has taken it for 12 years.
+- Greg administers exactly her stated dose because her hands shake, then immediately informs deckhand.
+- No diagnosis/doctor role.
+- Breathing eases somewhat over several minutes; not declared cured.
+- Deckhand remains aware.
+- Delay therefore has concrete human cost without turning into catastrophe.
+
+## Nickname spread
+- Vessa recognizes Greg as **Peg-Leg Greg** because Merehook bread seller is her niece.
+- This provides a plausible narrow social-network path for nickname spread across towns/boat routes.
+- Greg still protests he does not have peg; `future-proof` callback.
+- Keep nickname organic, not fame.
 
 ## Economy
-- Greg begins **40c cash / 23c Vale / bits unspecified**.
-- South Head public walk uses bits only.
-- Pays **1c** for another South Lamp House bunk: **40c -> 39c**.
-- Food/postage use bits only.
-- Ends **39c cash / 23c Vale / bits unspecified**.
+- Greg begins **39c cash / 23c Vale / bits unspecified**.
+- Old Merrow packet **-4c -> 35c**.
+- No other copper spending recorded Ch441.
+- Ends **35c cash / 23c Vale / bits unspecified**.
 - 20c limb deposit remains paid toward 1 silver + 18c travel-work limb quote.
 
-## Lerrin route options
-Packet/road board after Vey departure:
-- **Old Merrow packet** tomorrow third bell: **4c**; island town; ~half-day if sea kind.
-- **Bellweather Road coach** tomorrow second bell: **2c**; about five bells; beacon relay town.
-- **Harrow Cape**: weather hold / check dawn; farther rough crossing.
-- Vey packet for current day departed; future cycle remains later.
-- Greg asks practical price/distance questions but does not choose by chapter end.
-- Dask leans **Bellweather** because Bellweather Seven has public lower relay room and old line-delay drum display.
-- Greg may prefer water/Old Merrow instead.
-- Dask explicitly says **`We can split.`** Greg agrees without social injury.
+## Trial limb / body
+- Trial build remains wrapped/shop property/unfinished/medium foot.
+- No wear on wet/moving packet deck.
+- Crutches primary; no injury.
+- Sea motion makes mobility limits materially relevant without spectacle.
 
 ## Magic
 - Protocol remains **59 minimal / 53 shaping / 135 external attempts**.
-- No deliberate Greg magic Ch440.
-- Lot 67 remains unsuitable for magic/body conclusions until sticky-track failure is isolated.
+- No deliberate magic Ch441.
 - No S-class/locked-mode activation.
+- Lot 67 remains packed/unfixed.
 
 ## Current inventory
 Greg carries:
@@ -109,53 +115,46 @@ Greg carries:
 6. Hark & Venn road-test limb build, shop property, medium foot;
 7. personal notebook;
 8. Outer Works close chit;
-9. Road Response Kit / Lot 67, owned, sticky fourth-mark false-long failure characterized but not fixed;
+9. Road Response Kit / Lot 67, owned, sticky fourth-mark false-long failure unresolved;
 10. current Merehook coastal-measure circular from Sori.
 
-## Character / craft movement
-- Dask shows restraint: recognizes timing relevance without insisting auction tool should diagnose beacon network.
-- Greg increasingly practices authority boundaries even when tools/experience make a problem interesting.
-- Lerrin's operating culture differs from Merehook: distributed stations, line-of-sight relay, colored corridor states, tide-linked transport choices.
-- Companion fragmentation becomes normal rather than dramatic.
-
 ## Protected uncertainties
-- Greg ends Ch440 at South Lamp House, Lerrin.
-- Cash **39c**, Vale **23c**, bits unspecified.
+- Greg ends Ch441 aboard Narrow Gull at outer lee anchorage outside Old Merrow harbor in hard rain.
+- Harbor chain gate remains raised/jammed; west clutch status uncertain.
+- Greg has not entered Old Merrow yet.
+- Vessa's breathing has eased somewhat after her own medicine; deckhand aware; no diagnosis.
+- Cash **35c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 135**.
-- Lot 67 sticky fourth-mark failure remains unresolved; tool not ready for body/magic inference.
-- Trial limb healthy after 20-min indoor packing task.
-- Greg has not chosen Bellweather vs Old Merrow vs Harrow Cape/wait/stay.
-- Dask leans Bellweather but can travel independently.
-- No new news from Maro/Sori in Ch440.
+- Dask is en route/at Bellweather depending timing; no message yet.
+- Maro/Sori status unchanged/unknown.
+- Trial limb unfinished/shop property.
+- Lot 67 remains unreliable near fourth mark.
 
-## Chapter 441 trailhead
-Follow next actual claim from Ch440/current authority.
+## Chapter 442 trailhead
+Follow next actual claim from Ch441/current authority.
 
-Greg begins **39c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**, at South Lamp House in Lerrin on a morning with competing departure clocks:
-- Bellweather coach second bell, **2c**;
-- Old Merrow packet third bell, **4c**;
-- Harrow Cape weather status checked at dawn.
+Greg begins **35c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**, aboard Narrow Gull anchored outside Old Merrow in rain.
 
 Strong movement:
-- **Choose and move.** Lerrin has delivered enough operational identity; avoid another holding day unless weather creates genuinely stronger reason.
-- Greg and Dask may split. Do not preserve companionship merely because Ch439 named it.
-- If Greg chooses Old Merrow/water, make sea travel materially different from road travel and respect trial-limb/crutch boarding realities.
-- If Bellweather, do not make it another pure beacon museum. New social/geographic pressure must appear.
-- Harrow Cape can become a stronger adventure option only if dawn weather makes it real and cost/logistics are established.
-- Pay fare explicitly.
-- Lot 67 should remain packed unless low-stakes maintenance expertise naturally appears; do not fix it by coincidence.
-- Deliberate magic is now available after a long quiet stretch, but only if scene naturally supports a bounded low-stakes attempt independent of faulty timing conclusions.
-- Keep road widening away from Carrow.
+- Resolve enough of harbor-chain situation to move story, but do not make Greg the instant mechanic.
+- Vessa's breathing can create urgency if delay continues, but avoid melodramatic medical crisis. Crew/captain/local harbor authority should own transport/safety decisions.
+- Old Merrow should become a real place once Greg lands: terraces, cistern/water systems, rain tongues, island economy, packet dependence.
+- A human problem can emerge from why chain failed, who bears delay cost, or another local pressure, but avoid repeating exact Lerrin `procedure vs departure` structure.
+- Greg has now separated from all three original companions. Let solo travel alter social texture: strangers can matter more, and nobody automatically translates local systems for him.
+- Greg may form temporary connection with Vessa or another passenger, but avoid instant party replacement.
+- Deliberate magic remains available if an organic low-stakes opportunity appears after landing; no need to force.
+- Trial limb should stay off wet/unstable surfaces; stable indoor/island terrace use later is possible.
+- Keep geographic expansion moving. Old Merrow should offer a route/problem/opportunity that Greg could not have encountered in Carrow/Duskport/Merehook/Lerrin.
 
 Avoid:
-- another day of sightseeing in Lerrin;
-- forcing Greg/Dask same route;
-- instant fix for Lot 67;
-- random combat;
-- free packet/coach travel;
-- returning south by default.
+- Greg fixing chain from packet;
+- severe medical melodrama;
+- immediate reunion with Dask/Sori/Maro;
+- another signal-system chapter identical to Lerrin;
+- free money/artifact;
+- forgetting Greg paid 4c and now has 35c.
 
-**MANDATORY TITLE CHECK CH441:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH442:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
