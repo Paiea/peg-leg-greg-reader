@@ -1,9 +1,18 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+from pathlib import Path
 import re
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from scripts import apply_dialogue_ownership_semantic as base
+
+# Keep the older detector's verbs, then add concrete reaction/action verbs
+# encountered by the 001-020 pilot. This remains an ownership detector, not a
+# general prose parser.
+REWRITE_ACTION = base.ACTION[:-1] + r'|drummed|glared|denied)'
 
 
 def action_events(p: str) -> list[tuple[int, str]]:
@@ -21,7 +30,7 @@ def action_events(p: str) -> list[tuple[int, str]]:
         r'|The\s+[a-z]+(?:\s+[a-z]+){0,2}'
         r'(?:\s+(?:with|in|at|by|from|near|behind|beside|under|over)\s+(?:the\s+)?[a-z]+(?:\s+[a-z]+){0,2})?'
     )
-    subj_re = re.compile(rf'({actor})\s+({base.ACTION})\b')
+    subj_re = re.compile(rf'({actor})\s+({REWRITE_ACTION})\b')
     events: list[tuple[int, str]] = []
     for pos in sorted(starts):
         if pos >= len(p) or not outside[pos]:
