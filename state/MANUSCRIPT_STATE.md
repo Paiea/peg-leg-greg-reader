@@ -1,139 +1,136 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 446 - **THE INVESTOR**.
-- Exact Chapters 249-446 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays.
+- Current exact story endpoint: Chapter 447 - **THE ARBITER**.
+- Exact Chapters 249-447 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays.
 - Chapter 432 naming correction remains active: north-slope road forewoman is **Rika Dorn**, not Nessa Vale.
 
 ## Current location / arc
-- Greg has taken the **4c North Ferry from Ternhaven to Dorrin** in the Kelp Isles.
+- Greg remains in **Dorrin, Kelp Isles**, now after a second substantive day.
 - He is fully solo in day-to-day travel.
-- Dorrin is now a real temporary stopping point with work, lodging, markets, and farther route options; Greg has not decided whether to stay briefly or continue north/outward.
-- No return ticket, employer, quest, or prophecy forces direction.
+- Dorrin has become materially tempting because Greg can earn money there and his evidence-discipline skills have direct market value.
+- Outer Isles mixed ferry is expected next day (fourth day); north mainland ferry remains sixth day at **6c**.
+- No onward ticket purchased and no return date.
 
-## Chapter 446 - THE INVESTOR
+## Chapter 447 - THE ARBITER
 
 ### Title / role
-- Greg is **THE INVESTOR** in a personal/opportunity-cost sense, not as a business owner.
-- He explicitly decides to spend current capital on geographic/knowledge optionality, knowing travel competes with fitted-limb money.
-- Closing logic: spending now because future options may be worth more, while accepting he may gain little beyond experience.
+- Greg is **THE ARBITER**, intentionally imperfectly: he does not make the final commercial decision, but people repeatedly use his bounded notes as neutral ground while incompatible interests collide.
+- Closing reflection explicitly narrows title: Dorr, Ira, and Nara each make their own decisions; Greg `kept facts from pretending they were choices`.
 
-## Dorrin decision / economy
-- Greg begins **25c cash / 23c Vale / bits unspecified** at North Ferry hamlet.
-- Tide check is good and Dorrin ferry runs at third ring.
-- Greg lists reasons to go vs turn south and recognizes southbound return would be responsible, not failure.
-- He nevertheless chooses Dorrin because he wants the new route/kelp economy and because nobody is waiting there.
-- Pays **4c ferry: 25c -> 21c**.
-- Dorrin cheap net-loft bunk costs **1c: 21c -> 20c**.
-- Later earns **3c** from a seated half-shift dry-rack tag sort: **20c -> 23c**.
-- Ends **23c cash / 23c Vale / bits unspecified**.
-- Food uses bits only.
-- 20c limb deposit remains paid toward 1 silver + 18c travel-work limb quote.
+## Work board / disputed-lot job
+- First-ring board has no repeat tag-sort chair, preventing immediate repetitive work loop.
+- Greg takes **RED QUAY / DISPUTED LOT HOLD / TWO WITNESSES / 3C / REPORT TO ASSESSOR**.
+- Job is seated/low-mobility enough and uses writing/observation.
+- Nara Kesh is assessor on dispute; temporary recurrence, not companion.
+- Second paid witness is **Fenn Rusk**, a literal/serious tally worker.
+- Greg and Fenn are instructed not to touch/alter/wash/trim/separate the held kelp lot and to record approaches.
 
-## Ferry / Kelp Isles geography
-- Ferry is **Low Lantern**: wide shallow hull, two square sails, lattice cargo racks, six ceramic bleed pots.
-- Cargo includes wet kelp, dry rope bundles, charge-warning crocks, crab cages, one unlabelled brass-corner crate.
-- Kelp Isles read as marine agricultural infrastructure rather than isolated scenic islands:
-  - kelp fields in long bands;
-  - floating marker lanes;
-  - stakes/net corridors;
-  - farm/work boats moving like carts on roads;
-  - low islands and pile-built workyards.
-- Lane markers:
-  - blue ordinary;
-  - white shallow draft;
-  - yellow high-bleed / charge-restricted water.
-- Low Lantern adjusts bleed-pot ceramic collars in yellow lanes; blue seams brighten while compass stone flicker settles.
-- Greg observes but does not claim exact mechanism.
+## Dorr Venn / Ira Molt charge-grade dispute
+- Seller/lease grower: **Dorr Venn**, South Hook beds, 12 years.
+- Buyer: **Ira Molt**, operates charge-processing vats.
+- Lot passed dock strip as **yellow** but failed house cup as **red**.
+- Critical distinction: dock strip measures surface bleed response; house cup measures retained charge after compression. They do not measure the same property, so disagreement does not prove either instrument broken.
+- Both initial cup samples were from outer material, creating legitimate representativeness problem.
+- Dorr states outer fronds took charged spray during south crossing, potentially explaining elevated retained charge; plausible but not independently established.
+- Interior remains untested unless bundle is opened.
 
-## Nara Kesh
-- Temporary ferry passenger **Nara Kesh**, an assessor, gives bounded local context.
-- Voice is terse/messy: describes her job as assessing `everything wet people argue is kelp`.
-- She explains Dorrin outer bleed works and notes useful charge may go to ceramic cells, sink stone, or be sold wet to buyers willing to handle problems.
-- She is not established as companion or standing relationship.
+## Contract / incompatible interests
+- Disputed-grade contract protects intake weight for one bell.
+- After that:
+  1. seller may authorize interior sample; if lot passes, intake weight remains pricing basis;
+  2. seller may refuse and lot remains isolation/red grade for removal/regrading at seller cost;
+  3. buyer may accept at red terms.
+- Ira cannot operationally accept red because one bleed bank is offline for ceramic relining and her isolation berth is occupied.
+- Dorr needs sale because his **nine-person South Hook crew share is due that night**.
+- Opening bundle for sampling changes commercial condition and can create handling loss even if it passes.
+- Ira agrees to accept a re-tied, interior-sampled yellow lot only with **1c handling deduction**, because disturbed wet kelp dries/handles worse for her current vat workflow.
+- Dorr objects that he should not bear buyer's bleed-bank problem; Ira argues the deduction follows his lot's red readings and disturbance.
+- Correct procedure does not make outcome fair to everyone.
 
-## Dorrin identity
-- Dorrin is a cluster of roughly five low islands connected by bridges, floating lanes, ferry slips, drying platforms, and market/work infrastructure.
-- Central market has large green-black roof; lattice towers with blue glass regulate/indicate basin charge conditions.
-- Entry is metered by a **charge gate** so loaded kelp boats do not bunch inside when basin bleed balance is high.
-- Dorrin sensory identity: racks, ceramic bells, winches, vent hisses, lot calls, salt/iodine/smoke/vinegar/wet rope/hot clay.
-- Public signage includes charge-goods declaration and owner-paid test fee for unmarked wet kelp.
+## Greg's bounded contribution
+- Nara asks Greg to state only what is actually known.
+- Greg summarizes:
+  - dock strip yellow;
+  - two outer cup samples red;
+  - instruments measure different properties;
+  - both cup samples outer material;
+  - interior unknown;
+  - seller spray explanation plausible but unverified;
+  - contract options/clock.
+- Greg records Dorr's spray claim explicitly as seller explanation, not fact.
+- No carried artifact solves dispute:
+  - HT-LP-4 wrong quantity;
+  - WS-F/9 wrong function;
+  - line quietener irrelevant;
+  - Lot 67 timing irrelevant;
+  - Greg does not improvise magic.
+- Greg asks whether handling deduction can be reassigned, but contract only requires invoice reduction; neither side is obligated to compromise.
+- No clever fourth option removes the value conflict.
 
-## Dorrin work / first earnings on road
-- Greg notices public work board because cash is down to 21c.
-- Rejects jobs requiring wet footing/strong back/fast feet despite higher pay.
-- Chooses **dry rack tag sort / seated okay / 3c half shift** at **Rusk & Mere Charge House**.
-- Supervisor **Peth Orin** is clipped/practical, warns mistakes on red tags cost more than Greg earns and not to guess.
-- Tag grades:
-  - white ordinary food;
-  - blue utility fiber;
-  - yellow residual charged;
-  - red isolation;
-  - black rejection/downgrade after retest.
-- Greg sorts/flags duplicate and missing sequence tags, handles a black-over-blue downgrade correctly after asking, and completes half shift.
-- Earns **3c** legitimately, with no protagonist bonus or sudden high-paying job.
-- Peth says board first ring if he wants another chair; `maybe` does not reserve one.
-- This is first recent away-arc moment where road creates small earning capacity rather than only consuming cash.
+## Resolution / residue
+- Dorr ultimately authorizes interior sample, max one handweight, immediate re-tie, and accepts 1c deduction if interior passes.
+- Two interior samples test **yellow**.
+- Nara classifies lot **yellow with handling note / outer-surface red readings / interior two-sample yellow**.
+- Ira accepts with 1c handling deduction.
+- Dorr loses 1c but completes sale and can pay crew.
+- Ira receives usable lot without taking unknown red risk.
+- Dorr remains angry; system is functional, not perfectly fair.
+- Greg receives no moral victory and no share of commercial outcome.
 
-## Dorrin market / artifact pressure
-- Greg sees multiple kelp-derived goods:
-  - food sheets;
-  - rope fiber;
-  - charge gel;
-  - conductive braid;
-  - storm-scorched artificer fronds;
-  - flexible kelp glass.
-- Kelp glass sample costs **6c**; Greg does not buy.
-- Retired bleed clips cost **2c each**; Greg does not buy.
-- Most compelling item is a **Residual Field Witness**, old Dorrin drying-house disk, asking **9c**:
-  - palm-sized gray disk with four grooves on cork;
-  - records strongest directional charge crossing surface since reset by groove darkening;
-  - warm salt wash reset;
-  - record persists days dry / hours wet;
+## Earnings / assessor possibility
+- Greg is paid agreed **3c** for witness work: **23c -> 26c**.
+- Nara tells Greg he could do assessor-clerk work.
+- Rough pay: **4-6c/day if attached to yard**, more if licensed.
+- License requires training, exams, sponsorship, and **months**, making it a real career path rather than instant side-quest upgrade.
+- Greg laughs because respectability/career possibility is unexpectedly threatening/interesting.
+- No job contract accepted.
+
+## Residual Field Witness temptation
+- Market disk is still available; seller starts at prior 7c, then offers **6c**.
+- Greg evaluates it as a real passive directional-charge witness that could complement existing tools.
+- Additional bounded details:
+  - one groove darkens slower when wet;
+  - seller cannot quantify how much slower;
   - no absolute calibration;
-  - old drying-house use was lane comparison.
-- Seller offers **7c tomorrow** after seeing Greg hesitate.
-- Greg still refuses because cash/leg/return constraints matter and existing inventory is already substantial.
-- Item can remain future temptation if still plausible; do not guarantee availability.
+  - provenance: old Nine Rack drying house;
+  - retired when lane strips became easier/cheaper to train workers on, not necessarily because disk failed.
+- Greg counteroffers **5c**, seller holds 6c and later calls `five and a half` as Greg leaves; no currency conversion is established/used.
+- Greg ultimately **does not buy** because he does not currently have enough concrete need to justify capital burn.
+- Pera Menn's `bid like worker` logic remains active.
 
-## Lot 67
-- Road Response Kit remains provisionally repaired from Mera Tonn service.
-- No new timing tests Ch446.
-- It is carried safely to Dorrin.
-- Still not authorized for body/magic inference.
+## Economy
+- Begins **23c cash / 23c Vale / bits unspecified**.
+- Witness job **+3c -> 26c**.
+- Net-loft bunk **-1c -> 25c**.
+- Food uses bits only.
+- Ends **25c cash / 23c Vale / bits unspecified**.
+- 20c limb deposit remains paid toward 1 silver + 18c travel-work limb quote.
+- Greg sends home note explicitly reporting **25c cash / 23c Vale** and joking that he resisted a six-copper artifact.
 
 ## Trial limb / body
-- Trial build stays wrapped during ferry/wet deck and is not used for boarding.
-- At dry Dorrin net loft Greg uses it for **24 minutes** on flat boards for a real two-handed repacking task.
-- Roughly 12 total steps, mostly standing/transfers.
-- Greg notices turn planning feels less consciously effortful until fatigue, a meaningful body-map adaptation rather than speed miracle.
-- Hip fatigue begins ~18 min; one sloppy pivot around 22 min leads Greg to stop walking and finish standing only.
-- Mild upper pink + faint lower-front line both clear by 20-minute check; no pain/injury.
-- Logged:
-  `Dorrin loft. 24 min dry flat board. Mostly standing/repack. ~12 total steps. Turn planning less conscious until fatigue. Mild upper pink + faint lower-front line, both clear by 20. Stop before gait degrades next time.`
-- Trial build remains Hark & Venn shop property, unfinished, medium foot.
-- Core benefit remains **more hands**, not restoration.
+- No trial-limb wear Ch447 after prior 24-minute session.
+- Trial build remains wrapped/resting, Hark & Venn shop property, unfinished, medium foot.
+- Crutches primary and sound.
 
-## Magic
+## Lot 67 / magic
+- Lot 67 remains provisionally improved after Mera Tonn repair; no new tests Ch447.
+- Still not authorized for body/magic inference.
 - Protocol remains **59 minimal / 53 shaping / 136 external attempts**.
-- No deliberate magic Ch446.
-- External 136 remains last clean result.
-- Lot 67 not used for magic timing.
+- No deliberate magic Ch447.
 
-## Outward route options from Dorrin
-Copied route options include:
-- **Outer Kelp Isles / fourth day / freight-passenger mixed / ask basin master**.
-- **North mainland / sixth day / 6c**.
-- **Ternhaven return / daily if tide / 4c**.
-- **Storm Shelf work boats / contract crews only**.
-- Greg does not choose an onward route by chapter end.
+## Nickname spread
+- Dorr's worker recognizes `Peg-Leg Greg` through a cousin on Ternhaven.
+- Spread remains narrow route/island gossip, not fame.
+- Dorr jokes Greg has `enough leg to make nickname inconvenient`.
 
-## Social / thematic movement
-- Nobody in Dorrin cares that Greg crossed half the region to arrive.
-- Road is becoming more than empty space away from home: new places can provide work, routine, lodging, temptation, and reasons to stay.
-- Greg recognizes this as more dangerous/interesting than destiny because ordinary life can catch him.
-- Carrow remains home; Duskport still holds unfinished limb/deposit and known relationships/obligations.
-- Dorrin is not replacement home, but it demonstrates Greg could build temporary life elsewhere.
+## Home / social continuity
+- Greg sends note home:
+  `Dorrin, Kelp Isles. Working small jobs. 25c cash, 23c Vale. Trial build fine. No return date yet. Dask went Bellweather. Maro salt farms. Sori last Merehook. Fine. - Greg`
+  plus:
+  `Did not buy six-copper artifact. Please praise restraint.`
+- Carrow remains home; Greg imagines Cala/Tavi/Lyssa reactions.
+- No immediate reply due travel time.
 
 ## Current inventory
 Greg carries:
@@ -149,39 +146,41 @@ Greg carries:
 10. current Merehook coastal-measure circular from Sori.
 
 ## Protected uncertainties
-- Greg ends Ch446 at cheap **net loft in Dorrin**.
-- Cash **23c**, Vale **23c**, bits unspecified.
+- Greg ends Ch447 at cheap net loft in **Dorrin**.
+- Cash **25c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 136**.
-- Trial limb healthy after 24-min dry-loft use.
-- Greg may check first-ring work board but has no reserved chair/job.
-- Residual Field Witness may still be available tomorrow for 7c, but Greg has not bought/committed.
-- North mainland route exists at 6c on sixth day; outer-isles mixed ferry exists fourth day; no ticket/commitment.
-- No current companion and no new news from Dask/Sori/Maro.
+- Trial limb rested/healthy/wrapped.
+- No job reserved for tomorrow.
+- Residual Field Witness remains unbought; availability/price tomorrow not guaranteed.
+- Outer Isles mixed ferry is expected next day; north mainland ferry sixth day **6c**; no ticket.
+- Greg has a plausible assessor-clerk career route in Dorrin but has accepted nothing.
+- No current companion and no new incoming news from Dask/Sori/Maro/home yet.
 
-## Chapter 447 trailhead
-Follow next actual claim from Ch446/current authority.
+## Chapter 448 trailhead
+Follow next actual claim from Ch447/current authority.
 
-Greg begins **23c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 136**, in **Dorrin** the next morning.
+Greg begins **25c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 136**, in **Dorrin** on the fourth day.
 
 Strong movement:
-- Dorrin has enough pull to justify at least one substantive day, but avoid turning it immediately into another long static local-work loop.
-- First-ring work board can matter because Greg needs money, but work should expose a new layer of Dorrin's charge economy, social conflict, or route pressure rather than repeat tag sorting unchanged.
-- Residual Field Witness is a real temptation at 7c if still available, but do not force purchase. Greg should evaluate it against 23c cash, leg capital, return cost, and existing tools.
-- A human conflict with incompatible urgent wants would fit Dorrin well: charge-grade disputes, unsafe lot acceptance, work allocation, ferry/market liability, or who eats a loss when measurement is uncertain. Avoid making one clever question solve everything.
-- Greg can be useful through evidence discipline, but procedure should not automatically produce a happy answer.
-- Trial limb should probably rest after 24-minute wear unless stable/light use is truly warranted.
-- Lot 67 can undergo another controlled reliability pass when there is a legitimate reference/trigger setup, but do not use it for body/magic conclusions yet.
-- Geographic expansion remains alive. Dorrin should eventually force a stay-vs-north-mainland/outer-isles decision under money pressure.
+- Dorrin has now delivered work, market temptation, industrial magic, and a real human dispute. Do not simply repeat another paid claim-sorting job.
+- **Outer Isles mixed ferry today** is the strongest geographic movement if conditions/price make sense. Establish actual fare/conditions before purchase. It can expose stranger, rougher kelp infrastructure than central Dorrin.
+- Alternatively, a substantive Dorrin event should materially change Greg's route/capital/body options rather than another local-work loop.
+- North mainland remains sixth day at 6c and can remain a later branch.
+- Cash has recovered slightly to 25c, but continued outward travel still competes with limb capital. No convenient big payday.
+- Trial limb is rested and can return on stable/dry terrain for ordinary two-handed function. Keep wet boats/decks conservative.
+- Lot 67 can undergo a further controlled non-magic reliability test if a legitimate timing reference becomes available, but no need to force it.
+- Magic has rested several chapters since external 136. A bounded attempt may become appropriate if scene provides clean conditions, but no acceleration obligation.
+- Let solo Greg's social world remain porous: temporary people can recur or matter, but no automatic party.
 
 Avoid:
-- another identical seated tag-sort chapter;
-- buying the 7c witness just because it is interesting;
-- sudden lucrative payday;
+- another assessor dispute immediately;
+- another identical market artifact temptation scene;
+- buying Residual Field Witness by inertia;
 - permanent companion;
-- sudden magic acceleration;
-- treating Dorrin as generic harbor market.
+- sudden lucrative employment;
+- generic monster encounter just because action is due.
 
-**MANDATORY TITLE CHECK CH447:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH448:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
