@@ -4,7 +4,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from scripts.apply_dialogue_ownership_rewrite import action_events, cleanup_local_dialogue, transform_paragraph
+from scripts.apply_dialogue_ownership_rewrite import action_events, cleanup_local_dialogue, transform_paragraph, transform_html
 
 
 def main() -> int:
@@ -19,6 +19,13 @@ def main() -> int:
     got, _ = transform_paragraph('"At nineteen?" I shrugged. He drummed two fingers on the desk.', 'OTHER', 0)
     expected = '"At nineteen?" </p><p>I shrugged. </p><p>He drummed two fingers on the desk.'
     assert got == expected, (got, expected)
+
+    # Chapter 21+ authority uses typographic curly quotes. Ownership splitting must
+    # treat them exactly like straight dialogue quotes instead of silently skipping them.
+    curly = '<article class="prose"><p>I said, “I have another exercise.” Jorren looked suspicious.</p></article>'
+    got, count = transform_html(curly)
+    expected = '<article class="prose"><p>I said, “I have another exercise.” </p><p>Jorren looked suspicious.</p></article>'
+    assert got == expected and count >= 1, (got, count, expected)
 
     cases = {
         '<p>"If I had an answer you\'d believe, I wouldn\'t need your money." He denied the large loan. Of course he did.</p>': '<p>"If I had an answer you\'d believe, I wouldn\'t need your money."</p><p>He denied the large loan. Of course he did.</p>',
