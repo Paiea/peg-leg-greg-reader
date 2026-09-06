@@ -13,7 +13,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from generate_light import Chapter, load_all_sources, selected_numbers
-from showcase import ShowcaseMap, build_showcase_map, load_showcase_manifest
+from showcase import ShowcaseMap, build_identity_showcase_map, build_showcase_map, load_showcase_manifest
 from scripts.illustration_state import load_registry
 
 CHAPTERS_DIR = Path("chapters")
@@ -123,10 +123,22 @@ def live_registry_for_chapter(registry: list[dict], number: int) -> dict[str, di
 
 def render_chapter(
     chapter: Chapter,
-    art: list[Path],
-    showcase: ShowcaseMap,
+    numbers_or_art: list[int] | list[Path],
+    art_or_showcase: list[Path] | ShowcaseMap,
     registry_by_asset: dict[str, dict] | None = None,
 ) -> str:
+    """Render a chapter with Showcase support while preserving the legacy call shape.
+
+    New call: render_chapter(chapter, art, showcase, registry)
+    Legacy call: render_chapter(chapter, all_numbers, art, registry)
+    """
+    if isinstance(art_or_showcase, ShowcaseMap):
+        art = numbers_or_art
+        showcase = art_or_showcase
+    else:
+        showcase = build_identity_showcase_map([int(number) for number in numbers_or_art])
+        art = art_or_showcase
+
     display_number = showcase.showcase_number(chapter.number)
     if display_number is None:
         raise ValueError(f"canonical chapter {chapter.number} is hidden from showcase")
