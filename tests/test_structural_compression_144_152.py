@@ -2,11 +2,12 @@ import unittest
 
 from scripts.apply_structural_compression_144_152 import (
     apply_transformations,
+    apply_transformations_144_148,
     replace_between,
     replace_paragraph_range,
 )
 
-# This focused suite is also the execution trigger for the first compression wave.
+# Focused regression coverage for the first structural-compression batch.
 
 
 class StructuralCompressionHelpersTest(unittest.TestCase):
@@ -43,6 +44,45 @@ class StructuralCompressionHelpersTest(unittest.TestCase):
                 "End cue.",
                 "X",
             )
+
+    def test_wave_two_tightens_144_147_and_preserves_148(self):
+        docs = {
+            144: (
+                '<article class="prose"><p>Before.</p>'
+                '<p>My stall needed almost nothing. That was suspicious. OLD BODY SETUP</p>'
+                '<p>I ignored them only long enough to finish standing, then stopped ignoring them. Tired. Expected. OLD</p>'
+                '<p>Horse girl remains.</p></article>'
+            ),
+            145: (
+                '<article class="prose"><p>Before road.</p>'
+                '<p>After an hour, I said, "What happened with the hall?" OLD QUESTIONS</p>'
+                '<p>Pell said, "Greg."</p><p>"What?"</p><p>"I\'m trying not to stab myself."</p>'
+                '<p>After road.</p></article>'
+            ),
+            146: (
+                '<article class="prose"><p>The kitchen was not a kitchen. OLD LOGISTICS</p>'
+                '<p>This was harder than work.</p>'
+                '<p>I found Pell in a dressing room. Keep this.</p></article>'
+            ),
+            147: (
+                '<article class="prose"><p>I went to work. Then I missed my entrance. OLD REHEARSAL LOOP</p>'
+                '<p>It was mediocre. That was all. Not secretly good. Not almost there. Mediocre. OLD</p>'
+                '<p>Serra crossed behind me carrying the wooden crown. Keep this.</p></article>'
+            ),
+            148: '<article class="prose"><p>Roof chapter remains exact.</p></article>',
+        }
+        once = apply_transformations_144_148(docs)
+        twice = apply_transformations_144_148(once)
+        self.assertEqual(once, twice)
+        self.assertIn("Tired judgment was still judgment.", once[144])
+        self.assertIn("Teren will tell you if it changes you.", once[145])
+        self.assertIn("LIAR", once[146])
+        self.assertIn("waiting for ghosts", once[147])
+        self.assertNotIn("OLD BODY SETUP", once[144])
+        self.assertNotIn("OLD QUESTIONS", once[145])
+        self.assertNotIn("OLD LOGISTICS", once[146])
+        self.assertNotIn("OLD REHEARSAL LOOP", once[147])
+        self.assertEqual(once[148], docs[148])
 
     def test_wave_one_is_idempotent_and_skips_legacy_150(self):
         docs = {
