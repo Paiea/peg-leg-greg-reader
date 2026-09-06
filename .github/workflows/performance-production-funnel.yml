@@ -1,40 +1,70 @@
 name: PERFORMANCE Production Funnel
 
-# Branch-only production runner for the approved canon 027-075 batch.
 on:
   push:
     branches:
+      - main
       - editor/performance-production-funnel
     paths:
-      - 'state/editorial/performance-production/batch-027-075.json'
+      - 'state/editorial/performance-production/**'
+      - 'state/editorial/performance-roundtrip/**'
       - 'scripts/performance_production_funnel.py'
+      - 'scripts/performance_roundtrip_references.py'
       - 'tests/test_performance_production_funnel.py'
       - 'tests/test_performance_production_ir.py'
       - 'tests/test_performance_production_workflow.py'
       - '.github/workflows/performance-production-funnel.yml'
   workflow_dispatch:
+    inputs:
+      apply_legacy_batch:
+        description: 'Apply the preserved 027-075 PERFORMANCE batch to canon after all validation passes'
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
 
 jobs:
-  apply:
+  validate:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v7
         with:
-          ref: editor/performance-production-funnel
           fetch-depth: 0
       - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
+
       - name: Run focused PERFORMANCE compiler tests
         run: python -m unittest tests.test_performance_production_funnel tests.test_performance_production_ir tests.test_performance_production_workflow -v
-      - name: Validate production batch
+
+      - name: Smoke compile one canon chapter to disposable state
+        run: python scripts/performance_production_funnel.py --compile-chapter 7 --output-root /tmp/performance-compiler-smoke
+
+      - name: Validate preserved production batch
         run: python scripts/performance_production_funnel.py --batch state/editorial/performance-production/batch-027-075.json
+
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+
+      - name: Validate existing PERFORMANCE archives
+        run: python scripts/performance_roundtrip_references.py --check
+
+      - name: Validate Showcase
+        run: python scripts/project_check.py showcase
+
+      - name: Verify validation path leaves repository clean
+        run: |
+          git diff --check
+          test -z "$(git status --porcelain)"
+
       - name: Apply earned PERFORMANCE survivors
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.apply_legacy_batch }}
         run: python scripts/performance_production_funnel.py --batch state/editorial/performance-production/batch-027-075.json --apply
+
       - name: Verify bounded generated diff
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.apply_legacy_batch }}
         run: |
           changed="$(git diff --name-only)"
           printf '%s\n' "$changed"
@@ -44,22 +74,24 @@ jobs:
           test -n "$(printf '%s\n' "$changed" | grep '^chapters/074.html$')"
           test -z "$(printf '%s\n' "$changed" | grep '^chapters/' | grep -Ev '^chapters/(040|054|074)\.html$' || true)"
           git diff --check
+
       - name: Verify no em dash in generated prose
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.apply_legacy_batch }}
         run: |
           python - <<'PY'
           from pathlib import Path
+          from scripts.performance_production_funnel import extract_paragraphs
+
           for chapter in (40, 54, 74):
-              text = Path(f'chapters/{chapter:03d}.html').read_text(encoding='utf-8')
-              if '—' in text:
-                  raise SystemExit(f'em dash found in chapters/{chapter:03d}.html')
+              page = Path(f'chapters/{chapter:03d}.html').read_text(encoding='utf-8')
+              prose = '\n'.join(extract_paragraphs(page))
+              if '—' in prose:
+                  raise SystemExit(f'em dash found in generated prose for chapters/{chapter:03d}.html')
+          print('Generated prose em-dash check passed.')
           PY
-      - name: Run repository unit tests
-        run: python -m unittest discover -s tests -p 'test_*.py'
-      - name: Validate existing PERFORMANCE archives
-        run: python scripts/performance_roundtrip_references.py --check
-      - name: Validate Showcase
-        run: python scripts/project_check.py showcase
+
       - name: Commit generated prose
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.apply_legacy_batch }}
         run: |
           if git diff --quiet; then
             echo 'No generated prose changes.'
@@ -69,4 +101,4 @@ jobs:
           git config user.email 'actions@users.noreply.github.com'
           git add chapters/040.html chapters/054.html chapters/074.html
           git commit -m 'Apply PERFORMANCE production batch 027-075'
-          git push origin HEAD:editor/performance-production-funnel
+          git push origin HEAD:${GITHUB_REF_NAME}
