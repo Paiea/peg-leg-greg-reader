@@ -1,112 +1,99 @@
 # CURRENT NUMERIC OVERLAY
 
-Status: **ACTIVE UNTIL ECONOMY NORMALIZATION COMPLETES**
+Status: **ACTIVE NORMALIZED LATE-CHAIN AUTHORITY**
 
-This overlay prevents forward manuscript generation from treating recent nominal copper figures as final economic authority before the historical Vale/silver audit is reconciled.
+This overlay prevents forward manuscript generation from falling back to the obsolete copper-compressed late economy.
 
-## What remains canonically true
-
-The following recent story facts remain structurally authoritative:
+## Structurally locked facts
 
 - Greg's earning power has improved materially.
-- Greg has completed bounded coordination/organizer work successfully enough to earn references.
-- Greg has begun earning through judgment, coordination, contracting, and transaction leverage rather than only low-paid labor.
-- Greg verified his Vale obligation before paying it.
-- Greg made a meaningful partial payment while preserving working capital.
-- Later improved earnings made the remaining Vale obligation small enough relative to his current capacity that he could clear it without emptying himself.
-- The Vale account is closed after that payment sequence.
-- Greg and Antonius's relationship changes after closure; Ch491's drinking scene remains valid.
+- Greg earns through judgment, coordination, brokerage, contracting, and transaction leverage in addition to ordinary cheap labor.
+- Greg verified the Vale obligation before paying it.
+- Greg made a large partial payment while preserving working capital.
+- Improved earnings later let him clear the entire remaining Vale obligation without returning to survival poverty.
+- Vale is **CLOSED** after that sequence.
+- Greg and Antonius's relationship changes materially after full repayment.
 - Hark & Venn remains a separate work-limb obligation with no current payment due before final acceptance unless terms change.
-- The next progression phase should move beyond debt identity toward capital, ownership, artifacts, body infrastructure, and larger earning opportunities.
 
-## What is provisional
+## Superseded late numbers
 
-Until the historical economy audit finishes, do **not** treat the following recent nominal figures as locked normalized canon:
+Do **not** use these as normalized authority anymore:
 
-- the recent **23c** Vale balance;
-- the **12c** partial repayment;
-- the later **11c** final Vale balance;
-- the exact **21c / 24c / 32c / 35c** purse snapshots that depend on those values;
-- the **14c** one-day contract as a permanently calibrated benchmark for Greg's current earning ceiling;
-- the current **10c / 30c** reserve milestones as final long-term economic scale anchors;
-- any recent prose implication that clearing roughly two dozen copper represents the resolution of Greg's entire ancient Vale financial history.
+- 23c Vale balance;
+- 12c partial repayment;
+- 11c final Vale balance;
+- 21c / 24c / 32c / 35c dependent purse snapshots;
+- 14c as Greg's major current one-day commercial benchmark;
+- 10c / 30c as current long-term reserve milestones.
 
-These may survive, scale upward, or be reframed depending on the completed ledger.
+These remain historical draft artifacts until their exact checkpoint prose is patched.
 
-## Early authority that must constrain normalization
+## Active normalized Vale authority
 
-Exact early reader prose already establishes:
+- Final reconciled collectible face balance: **1 gold, 6 silver**.
+- No friendship discount, settlement reduction, or interest waiver for Greg.
+- Antonius did not expect Greg to pay every accrued interest line cleanly in cash. His lending model values the leverage relationship.
+- Greg repays the entire 1g6s anyway.
+- Ch487 first payment target: **18 silver**.
+- Remaining gold-denominated balance stays on Vale's ledger rather than being translated into a fake silver equivalent in narration.
+- Ch490 uses a licensed moneychanger / merchant-bank conversion to prepare the exact mixed coin needed for final payoff without publishing a universal exchange rate.
+- Final receipt remains **PAID / BALANCE ZERO**.
+- Forward post-Ch491 reserve target: approximately **12 silver plus ordinary copper/bits**.
 
-### Chapter 2
-- Greg approaches Antonius because Arwick's test costs **6 silver**.
-- Antonius ultimately provides a multi-silver loan.
-- The loan supports shale, testing, food, and guild fees.
-- Terms include high short-term interest and creditor labor if Greg fails.
+## Active late earning normalization
 
-### Chapter 3
-- Greg pays Arwick **6 silver** for testing.
-- Silver already functions as active working capital.
+- Ch471 transfer-seal witness: **2s**.
+- Ch473 controlled-export gray freight: tens-of-silver transaction; Greg **12s + ride**; driver **4s risk premium** above normal day rate.
+- Ch474 completed reed-glass sourcing/introduction: **2s**.
+- Ch475 urgent heavy-yard coordination: **5s**.
+- Ch484 sway-shoe brokerage: **8s-scale transaction**, Greg fee **2s**.
+- Ch485-486 South Road organizer term: **18s total**, split **6s start + 12s completion**.
+- Ch488 theatre rehearsal: keep **1c** token/social pay.
+- Ch490 West Market urgent one-day receiving contract: **9s**.
 
-### Chapters 4-6
-- Greg earns and loses silver through gambling.
-- Greg spends silver on training, gear, research, and other uses.
-- Greg takes additional Vale advances.
-- His problem becomes leverage and cash discipline, not inability to encounter silver.
-- Creditor labor is used because the debt has grown faster than his liquid ability to clear it.
+These are direct late-chain correction overlays until every affected exact checkpoint is rewritten.
 
-### Chapter 7
-- Greg identifies the Tere master gauge as potentially worth **40 gold or more** to the right buyer.
-- Antonius and Greg settle on **5 silver** seller financing, due end of week.
-- Greg cannot personally use the object and does not yet have the specialist buyer, so the gold value is theoretical/market-specific rather than liquid.
+## Early Tere / Vale continuity
 
-### Chapter 8+
-- Greg continues operating around silver-scale Vale receivables and debt structures.
+- Ch7 Tere negotiated principal remains **5s**.
+- Ch10's later **10s** statement is normalized as the financed amount having already grown under Vale's brutal terms, not a new purchase price.
+- Greg's old **40g+ right-buyer estimate** remains a live value anchor, not guaranteed liquidity.
+- The final 1g6s Vale debt is painful but still tiny relative to a successful high-end Tere monetization.
 
-## Value / risk compensation overlay
+## Compensation rule
 
-Forward compensation must now obey `PAY_VALUE_RISK_ENGINE.md`.
+Forward compensation obeys `PAY_VALUE_RISK_ENGINE.md` and `RECENT_CHAIN_PATCH_MAP.md`.
 
-The central rule is:
+Core rule:
 
-**A job is priced by the value, scarcity, urgency, responsibility, capital, and risk involved, not by how little cash Greg happens to have.**
+**A job is priced by value, scarcity, urgency, responsibility, capital, and risk, not by Greg's current purse.**
 
 Therefore:
-
-- cheap manual or interchangeable work may still pay copper;
-- socially meaningful theatre/support pay may remain tiny without being a financial milestone;
-- specialist judgment, appraisal, brokerage, management, and coordination should rise with the value they affect;
-- once Greg's contribution protects or moves silver/gold-scale value, tiny copper pay requires a concrete explanation;
-- serious criminal/gray work must include a real risk premium unless coercion, desperation, access, information, or another non-cash benefit explains underpayment;
-- meaningful illicit logistics can plausibly pay in tens of silver;
-- **30s+ is a plausible band for serious high-exposure work, not a universal minimum**;
-- gold-scale compensation becomes plausible for major contraband, rare artifacts, dangerous routes, or organized operations when the underlying value/risk supports it;
-- no fixed copper/silver/gold conversion is established by this overlay.
+- cheap manual/interchangeable work may still pay copper;
+- theatre/social/token pay may stay tiny without becoming financial progression;
+- trusted specialist/commercial work should commonly reach silver;
+- leverage, serious management, gray-market risk, and high-value brokerage can reach tens of silver;
+- 30s+ is plausible for serious high-exposure work when the underlying transaction supports it;
+- gold-scale compensation is reserved for genuinely large underlying value, major contraband, rare artifacts, or ownership/capital outcomes;
+- no fixed denomination conversion is established.
 
 ## Forward-generation rule
 
-Until normalization completes:
+From Chapter 492 onward:
 
-- Do not write Chapter 492+ around exact current purse arithmetic unless the scene absolutely requires it.
-- Prefer relative language such as reserve, working capital, affordable, expensive, substantial, tied-up, or above/below current comfort when exact amount is not necessary.
-- Do not create another debt or repayment beat to compensate for the uncertainty.
-- Do not reopen Vale socially or contractually; closure remains structurally true.
-- Do not let a 1c-3c payment function as a financial progression milestone.
-- If a paid opportunity appears, calibrate it against the broader earning ladder, `PAY_VALUE_RISK_ENGINE.md`, and early silver-active authority, not merely against the provisional recent purse.
-- Ask what Greg is actually being paid for: body, time, scarce judgment, access, coordination, capital, discretion, risk, or some combination.
-- If Greg accepts work below his current economic tier, establish the non-cash reason or opportunity tradeoff.
-- For illegal work, explicitly test whether the compensation justifies arrest/seizure/retaliation risk against Greg's legal alternatives.
-- Artifacts may now plausibly require meaningful silver-scale capital or financing without that automatically implying ruin.
-- Small ordinary spending should increasingly disappear into background unless it affects a specific choice.
+- Treat Greg as **silver-scale liquid and commercially stronger**, not copper-poor.
+- Current forward purse is approximately **12s plus ordinary copper/bits**.
+- Do not resurrect Vale debt.
+- Do not let 1c-3c payments function as major financial milestones.
+- Preserve cheap work when the work itself is cheap or socially motivated.
+- If Greg accepts work below his economic tier, establish the non-cash reason, access value, friendship reason, or opportunity tradeoff.
+- For illegal work, explicitly test whether compensation justifies seizure/arrest/reputation risk against Greg's legal alternatives.
+- Artifacts may now require meaningful silver-scale capital without implying ruin.
+- Small ordinary spending should increasingly remain background unless it affects a real choice.
+- Greg can still waste money. Higher income should allow higher-quality financial stupidity rather than turning him into a sterile saver.
 
-## Resolution condition
+## Remaining patch debt
 
-This overlay may be retired only when:
+The economic model is now normalized, but several older exact checkpoint files still contain superseded copper figures.
 
-1. the early Vale ledger is traced through its actual settlement/rollover point;
-2. the later Vale account is identified as either separate or continuous;
-3. recent Ch487/490/491 amounts are normalized consistently;
-4. current reserve/liquidity anchors are recalibrated;
-5. representative earnings eras, especially later gray/criminal work, are calibrated against the value/risk engine;
-6. `MANUSCRIPT_STATE.md`, `ECONOMY_CONTINUITY.md`, and `PROGRESSION_ENGINE.md` are updated to the normalized numbers.
-
-Until then, **story shape is locked; nominal scale is provisional.**
+Patch them in bounded dependency-aware passes. Until each file is rewritten, this overlay outranks its obsolete nominal figures while preserving its story events, causality, relationships, and authority boundaries.
