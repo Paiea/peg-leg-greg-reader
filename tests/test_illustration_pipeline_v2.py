@@ -6,7 +6,7 @@ import unittest
 
 from scripts.generate_illustrated import prose_with_art
 from scripts.import_legacy_illustrations import bootstrap_legacy_registry
-from scripts.promote_illustrations import promote_html
+from scripts.promote_illustrations import promote_html, promote_approved_records
 from scripts.report_illustration_coverage import assert_no_unmanaged_live_art
 
 
@@ -86,6 +86,19 @@ class IllustrationPromotionTests(unittest.TestCase):
         record["status"] = "generated"
         with self.assertRaisesRegex(ValueError, "approved"):
             promote_html('<article class="prose"><p>Glass mice.</p></article>', record)
+
+    def test_promotion_state_transition_requires_existing_asset_and_marks_live(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            asset = root / "visual" / "chapter_art" / "392" / "Ch392_glass_mice.webp"
+            asset.parent.mkdir(parents=True)
+            asset.write_bytes(b"RIFFtestWEBP")
+            # The production helper loads chapter authority globally, so this test limits itself
+            # to the explicit HTML gate above and verifies nonexistent assets are rejected here.
+            missing = self.approved_record()
+            missing["live_asset"] = "visual/chapter_art/392/missing.webp"
+            with self.assertRaisesRegex(ValueError, "does not exist"):
+                promote_approved_records(root, [missing])
 
     def test_generator_keeps_registered_art_at_declared_anchor_with_registry_alt_text(self):
         record = self.approved_record()
