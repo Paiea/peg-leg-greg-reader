@@ -14,6 +14,7 @@ PATHS = {
 ARTICLE_RE = re.compile(r'(<article class="prose(?: light-prose)?">)(.*?)(</article>)', re.I | re.S)
 P_RE = re.compile(r'<p(?:\s[^>]*)?>(.*?)</p>', re.I | re.S)
 TAG_RE = re.compile(r'<[^>]+>')
+HALL_BOUNDARY = "At the hall, Rinna was standing just inside the front doors with a small slate in one hand and a piece of chalk in the other."
 
 
 def norm(s):
@@ -75,6 +76,15 @@ CH198_GUARD = [
 ]
 
 
+def collapse_hall_boundary(out):
+    cleaned = []
+    for paragraph in out:
+        if paragraph == HALL_BOUNDARY and cleaned and cleaned[-1] == HALL_BOUNDARY:
+            continue
+        cleaned.append(paragraph)
+    return cleaned
+
+
 def transform_paragraphs(number, paragraphs):
     out = list(paragraphs)
     if number == 197:
@@ -97,7 +107,7 @@ def transform_paragraphs(number, paragraphs):
         if any('OLD_MORNING_AND_STREET_LOOP' in p for p in out):
             out = repl(out, 'Lyssa was gone before I woke.', 'Until the Guild sends for you, third bell.', CH198_MORNING + ['Until the Guild sends for you, third bell.'])
         elif not any('Carrow remained fully staffed.' in p for p in out):
-            out = repl(out, 'Lyssa was gone before I woke.', 'At the hall, Rinna was standing just inside the front doors', CH198_MORNING + ['At the hall, Rinna was standing just inside the front doors with a small slate in one hand and a piece of chalk in the other.'])
+            out = repl(out, 'Lyssa was gone before I woke.', 'At the hall, Rinna was standing just inside the front doors', CH198_MORNING + [HALL_BOUNDARY])
 
         if any('OLD_BENCH_AND_BOARD_LOOP' in p for p in out):
             out = repl(out, 'I had been scheduled.', 'Teren looked directly at me.', ['I had been scheduled.'] + CH198_BOARD)
@@ -111,6 +121,8 @@ def transform_paragraphs(number, paragraphs):
 
         if any('OLD_REHEARSAL_PROCEDURE_LOOP' in p for p in out):
             out = repl(out, 'Rehearsal took eleven minutes.', 'The guard worked.', ['Rehearsal took eleven minutes.'])
+
+        out = collapse_hall_boundary(out)
     else:
         raise ValueError(number)
     return out
@@ -159,6 +171,8 @@ def verify(root):
                 raise AssertionError(f'{number} missing protected cue {cue!r}')
         if texts[0] != texts[1]:
             raise AssertionError(f'{number} illustrated/text prose diverged')
+        if number == 198 and any(text.count(HALL_BOUNDARY) != 1 for text in texts):
+            raise AssertionError('198 generated hall boundary must appear exactly once')
     print('197-198 illustrated/text prose agree and protected beats survive')
 
 
