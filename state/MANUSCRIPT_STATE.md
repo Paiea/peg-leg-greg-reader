@@ -1,263 +1,253 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 405 - **THE EARNER**.
+- Current exact story endpoint: Chapter 406 - **THE CONTRACTOR**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript physically materialized through Chapter 248.
-- Exact Chapters 249-405 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
+- Exact Chapters 249-406 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
 - Titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
-- Ch405 answer: Greg is being **an earner**. He gets paid for accumulated field labor, feels the shift from scarcity to optionality, refuses immediate impulse buys, and reaches a market large enough to give money a forward direction.
-- Therefore title **THE EARNER**.
-- Recent: 401 THE WITNESS; 402 THE SHOPPER; 403 THE OBSERVER; 404 THE COMPARER; 405 THE EARNER.
+- Ch406 answer: Greg is being **a contractor**. He accepts separate local Dock Eight work after the regional survey obligation pauses, performs bounded industrial inspection/operator work, gets paid directly, and ends in Sable Quay with real freedom to choose what happens next.
+- Therefore title **THE CONTRACTOR**.
+- Recent: 402 THE SHOPPER; 403 THE OBSERVER; 404 THE COMPARER; 405 THE EARNER; 406 THE CONTRACTOR.
 
 ## Major arc direction - away from Carrow
 - Long away-from-Carrow adventure arc remains active.
-- Crew leaves **Bellweather Crossing** and reaches **Sable Quay**, a much larger lower-Lume trade basin and survey hub.
+- Crew remains at **Sable Quay** after White Span/Bellweather/Glassmouth work reaches a natural pause.
 - Traveling core intact: **Vessa Harn, Maro Pell, Sori Vale, Dask Renn, Kel Toren, Greg**.
-- Sable Quay is materially larger than prior stops: multiple bridges, cargo cranes, warehouses, ferry/traffic systems, guild district, major market streets, survey annex.
-- Crew delivers White Span/Bellweather comparison records to **Lower Lume Survey Annex**.
-- Annex clerk **Nema Vos** notes a possible but not equivalent local issue at **Glassmouth Reach**, ~2 miles east: several ferry captains reported unusual dawn glare this week, potentially ordinary due lower water level.
-- Crew elects to remain one night in Sable Quay and may assist with Glassmouth dawn observation if annex confirms.
-- Keep geographic expansion active. Do not route back toward Carrow yet unless later authority earns it.
+- Lower Lume Survey Annex has **no mandatory next task** at Ch406 endpoint.
+- Crew can remain Quay up to two nights at reduced survey lodging rate, take westbound route back toward Bellweather/Merecross network, accept new posted work, or continue independently downriver.
+- New destination seed on public route board: **river packet to Duskport - daily**.
+- Greg explicitly feels that continuing now would be his choice rather than work pushing him. This is a major away-arc transition. Do not route home by default.
 
-## Chapter 405 - THE EARNER
+## Chapter 406 - THE CONTRACTOR
 
-### Bellweather pay settlement
-- Bellweather paperwork completes in morning.
-- Pera Lonn settles Greg's previously accrued extension pay:
-  - 4 completed payable field days;
-  - 2c each;
-  - **8c total**.
-- Greg counts/receives all 8c.
-- Cash changes **13c -> 21c**.
+### Glassmouth closes ordinary/local
+- Morning at Dockhouse Seven.
+- Annex message says **Glassmouth Reach dawn glare reproduced under low-water channel angle**.
+- East marker visibility restored after resetting shading panel; worn hinge pin had shifted it two notches.
+- No outside witness needed; report closed local.
+- This cleanly prevents every glare report becoming White Span anomaly.
+
+### New short local contract
+- Nema Vos offers unrelated local work at **Dock Eight / Blackglass Cut**.
+- Three retired transfer/load frames are moving to salvage auction next day.
+- One frame failed inspection last week; same-lot cousin retired alongside it for caution.
+- Dock wants external pre-salvage function record to distinguish dead iron/restricted-use/serviceable parts.
+- Separate from Survey route pay.
+- Base pay **3c per approved external hand**.
+- Greg can earn **4c** if he also performs controlled unloaded-motion operator test under yard lead.
+- Liability/safety:
+  - Dock retains equipment liability;
+  - no live cargo;
+  - no suspended human load;
+  - no climbing;
+  - no magical intervention unless explicitly requested/written;
+  - yard lead controls sequence.
+- Greg, Kel, Sori, Vessa accept. Maro/Dask do not participate.
+
+### Dock Eight / Bran Tey
+- Dock Eight industrial transfer yard at Blackglass Cut.
+- Yard lead **Bran Tey**:
+  - large man;
+  - beard shaved except jaw stripe;
+  - folded left ear;
+  - extremely terse practical speech.
+- Three frames:
+  - **A** older replacement lot BK-12;
+  - **B** failed unit, lot BK-17;
+  - **C** same lot BK-17, retired precautionarily.
+- B's known loaded failure: lateral swing collar re-centered ~5 counts instead of 2; one jaw held briefly after opposite-line unload; crate twisted, no injury.
+
+### Inspection findings
+- Visual first, no touching until isolated.
+- A:
+  - surface rust lower left foot;
+  - clean collar;
+  - one newer stop pin.
+- B:
+  - more wear;
+  - narrow bright crescent on right jaw inner face;
+  - scratches around center spring housing;
+  - not interpreted beyond observation initially.
+- C:
+  - visually better;
+  - same lot BK-17;
+  - left guide measured slightly low, a hair over one line.
+
+### Unloaded motion tests
+- Frame A:
+  - clean re-centering within expected count;
+  - jaw behavior clean.
+- Frame B:
+  - unloaded re-centering ~3.5-4 counts;
+  - right-jaw brief hesitation repeats;
+  - matches failure tendency in weaker unloaded form;
+  - explicitly not written as same severity as loaded event.
+- Frame C:
+  - standard cycles mostly clean;
+  - Kel requests midpoint side-arm condition due low guide.
+  - Under midpoint condition, intermittent tiny hitch near center appears on 2 of 3 runs, absent on third.
+  - System isolated before guard opened.
+  - Thin gray grease/grit buildup found on lower edge of left guide roller.
+  - After cleaning, repeated midpoint cycles show no hitch.
+- Bran's auction disposition for C: **serviceable unloaded after cleaning, restricted pending loaded shop recertification; same-lot note retained**.
+- This is maintenance/inspection competence, not magical insight.
+
+### Greg controlled operator add-on
+- Bran offers Greg controlled unloaded-motion operator role for extra copper.
+- Ground control, waist-high lever, emergency stop beside hand, Bran at shoulder.
+- Greg checks shoulder/hand and accepts.
+- Uses current-body stance/crutch geometry deliberately for stable lever operation.
+- Runs three clean cycles under instruction.
+- No magic, no locked mode.
+- Bran signs Greg for **4c total** instead of 3c.
+
+### Contract pay / economy ratchet
+- Dock cashier pays immediately.
+- Greg receives **4c**.
+- Cash changes **21c -> 25c**.
 - Vale remains **23c principal-equivalent**.
-- This is earned labor money, not windfall.
-- Greg feels the distinction: prices that ended conversation at 13c become questions at 21c, not automatic yeses.
+- This is first moment where Greg's exact liquid copper exceeds Vale principal-equivalent, but Vale is still an active obligation and not assumed immediately dischargeable by purse dump.
+- Greg feels less cornered, not rich.
+- Kel/Sori/Vessa receive their own 3c side-work pay but their personal balances are not tracked.
+- Greg buys dock noodles in bits; copper remains 25c; bits unspecified.
 
-### East road / commercial scale-up
-- Crew leaves Bellweather before second bell toward Sable Quay, ~11 miles east.
-- East road is broader commercial infrastructure:
-  - packed gravel;
-  - stone drainage;
-  - frequent docks/loading ramps/warehouses;
-  - flatboats and cargo traffic;
-  - maintained mile markers.
-- Greg's shoulder/right hand continue improving; low ache returns only after extended travel.
-- No locked mode, no deliberate magic.
+### Sable Quay status transition
+- Nema records contract completion.
+- Regional Survey status after Glassmouth closure:
+  - no mandatory next assignment;
+  - White Span packet accepted;
+  - Bellweather comparison accepted;
+  - Glassmouth closed local.
+- Crew may:
+  - remain Sable Quay up to two nights at reduced survey lodging rate, personal food;
+  - take westbound courier toward Bellweather/Merecross network;
+  - accept new work if posted;
+  - continue independently downriver with no assignment coverage.
+- This creates true agency rather than another automatic extension.
 
-### Mile-nine freight-control delay
-- Active east embankment work narrows road to controlled single lane.
-- Control lead **Tess Arlo**:
-  - practical traffic speech;
-  - mule batch delay 35-45 min depending westbound priority/stone train.
-- Foot crews can pass immediately; mules/cases cannot.
-- Crew splits pragmatically:
-  - **Kel** stays with mules/cases;
-  - Tess countersigns hold;
-  - **Sori** carries seal numbers/records forward;
-  - Vessa/Maro/Sori/Dask/Greg continue on foot.
-- This is logistics, not danger.
-- Workers use mundane/magical hybrid infrastructure, including small brass level flashing green when stone sits true; Greg notices but does not chase/buy.
+### Salvage auction pressure
+- Dock Eight salvage auction tomorrow morning includes frames A/B/C and stripped parts.
+- Public viewing before bell two.
+- Frame B collar likely repair-only lot; C may stay whole; A likely restricted operational.
+- Individual parts may sell cheaply depending auction, with no guaranteed price. Nema estimates anywhere ~5c to 50c depending lot/bidders.
+- Greg now has special informational advantage because he personally observed exact frame conditions/tests.
+- This is legitimate market-information asymmetry, not magic appraisal.
+- No purchase yet.
 
-### Sable Quay arrival
-- Sable Quay appears as wide trade basin with:
-  - multiple bridges;
-  - crane fields;
-  - warehouses/offices/inns/guild signs;
-  - floating docks/cargo lanes;
-  - tax arch for road freight;
-  - very high commercial/social noise.
-- Scale jump is deliberate: Greg reaches market where expensive things actually live.
-
-### Lower Lume Survey Annex / Nema Vos
-- Annex sign: **TRAFFIC / SIGHT / FLOW / INCIDENT RECORDS**.
-- Clerk **Nema Vos**:
-  - ~30;
-  - dark curls tied high;
-  - sleeves rolled;
-  - six pencils behind one ear;
-  - fast, competent, enjoys a little chaos.
-- Nema accepts White Span/Bellweather packet and asks disciplined questions:
-  - six consecutive White Span mornings;
-  - two outside-witness mornings;
-  - calm broad band vs choppy sheltered patch;
-  - no Bellweather comparable record in 42 surviving indexed years;
-  - cause unknown;
-  - no established tie to upstream signal anomalies.
-- Nema explicitly agrees not to connect without reason.
-- Annex can either close regional extension at Quay or continue lower-Lume if evidence justifies.
-
-### Glassmouth Reach seed
-- Nema says there may be a modest comparison reason:
-  - **Glassmouth Reach**, ~2 miles east of Quay basin;
-  - 3 ferry captains this week reported strong unusual dawn glare obscuring channel marks for seconds;
-  - not wrong-direction sunrise;
-  - not multi-minute band;
-  - water level recently dropped ~4 inches, so ordinary geometry is plausible.
-- Annex is already checking tomorrow.
-- Crew's outside eyes could help if still in Quay.
-- This remains optional and explicitly may be ordinary.
-
-### Mirror guild / market pressure
-- Nema tells crew mirror guild is two streets north.
-- Vessa grants one bell of personal time while waiting for Kel/cases.
-- Greg accompanies Dask to guild instead of immediately going market.
-- Guild display establishes higher price ceiling:
-  - fog sight plate new 18c;
-  - lampside ghost checker 11c;
-  - silver-back field mirror 9c;
-  - split-angle calibration pair 27c;
-  - river dawn plate blue-back 34c.
-- This makes 21c meaningful but clearly not rich.
-
-### Elya Senn / PF-3 temptation
-- Guild worker **Elya Senn**:
-  - 40s;
-  - shaved head;
-  - silver dust in cuffs;
-  - practical pricing/repair knowledge.
-- Greg finds used **PF-3 parallax finder**:
-  - brass housing;
-  - three rotating glass slits;
-  - used grade C;
-  - **10c**;
-  - fault: center detent slips under vibration.
-- New price equivalent ~36c per Elya.
-- Repair estimates:
-  - spring only 2-4c;
-  - worn ring channel 6-9c;
-  - bent axle = not worth repair.
-- Bench stable, vibration fault confirmed, axle appears straight, no field guarantee.
-- Greg can imagine many uses and **does not buy it**.
-- Elya explicitly notes 10c feels cheap only compared with 36c new; Greg recognizes this anchoring trap.
-- Dask also wants it; Greg uses `your face` on Dask, paying back recurring joke.
-
-### Cases / lodging / Quay decision
-- Kel arrives near third bell with mules/cases; delay ~42 minutes due stone train.
-- Cases/seals intact; annex countersigns delivery.
-- Crew chooses to stay one night in Quay rather than immediately close/return.
-- Lodging at **Dockhouse Seven** under survey rate; two rooms, three beds each.
-- Food personal unless assigned overnight work.
-- Greg buys hot meat bun for **1 bit**; no copper conversion invented; copper remains 21c.
-
-### Sable Quay market ceiling
-- Greg later walks market with Sori mostly to look.
-- Market is streets/districts, not a few tables:
-  - tool row;
-  - river row;
-  - salvage row;
-  - textile court;
-  - spice lane;
-  - auction yard;
-  - licensed used magical hardware.
-- Prices frequently 40c, 60c, 120c, silver, even one gold-tagged locked case.
-- This correctly widens world price ceiling rather than making ordinary goods globally more expensive.
-- Greg sees retired dock-crane **load-share collar** for **48c** with known-use/failure notes and cannot afford it.
-- Instead of frustration, this gives money direction: access, options, future yes.
-- Greg buys nothing else.
-
-### Greg economic/internal movement
-- Important new framing:
-  - 21c is useful, not wealth;
-  - Vale 23c still active;
-  - earned cash expands questions/options;
-  - larger markets reveal higher tiers rather than resetting Greg to poverty.
-- Greg is pleased the pay came from useful field work over time.
-- He increasingly sees money as access to tools, travel, repair, markets, and choices.
-- He does not feel need to go home merely to protect the money; earning makes road feel longer.
+### Duskport route seed
+- Public route board includes:
+  - Bellweather West;
+  - South Locks;
+  - Sable Lower Docks;
+  - East Marsh Road;
+  - **River Packet to Duskport - Daily**.
+- Duskport is only a destination seed; no details established yet.
+- Sori notices Greg looking and says he is `getting farther away`.
+- Greg says `Maybe.`
+- Closing emotional shift: road no longer asks anything from Greg, so further travel would be a chosen act rather than assignment inertia.
 
 ## Economy
-- Greg begins **13c cash**, 8c accrued unpaid.
-- Receives **8c field pay** at Bellweather.
-- Cash becomes **21c**.
-- Buys hot meat bun for **1 bit**; bits remain unspecified.
-- Ends **21c cash**, bits unspecified.
-- Vale remains **23c principal-equivalent**.
-- No large purchase despite PF-3 temptation.
+- Greg begins **21c cash / 23c Vale / bits unspecified**.
+- Receives **4c Dock Eight contract pay**.
+- Ends **25c cash / 23c Vale / bits unspecified**.
+- Buys breakfast/food/noodles in bits only; no copper conversion invented.
+- No artifact purchase.
+- PF-3 parallax finder remains at guild for 10c.
+- Dock salvage auction tomorrow may create rational acquisition opportunity but no price/outcome established.
 
 ## Magic / artifacts
 - Protocol remains **59 minimal / 53 shaping / 135 external attempts**.
-- Greg performs **no deliberate magic** in Ch405.
-- WS-F/9 slate current reader remains with Greg.
-- Line quietener remains packed.
-- PF-3 parallax finder is **not purchased**; remains guild inventory at Sable Quay, used grade C, 10c.
-- 48c load-share collar is **not purchased**; licensed salvage inventory.
+- Greg performs **no deliberate magic** in Ch406.
+- Quietener remains packed/unused.
+- WS-F/9 current reader remains with Greg/unused this chapter.
+- PF-3 remains unpurchased.
+- Dock Eight frames/collars are industrial infrastructure/salvage inventory, not Greg property.
 - Tavi rock remains with Greg.
 - Repaired right crutch remains sound.
 - Oval remains sealed Merecross Survey custody.
 - Holdfast/K-14-6/Three Reeds/Step Keeper remain locked Carrow.
 
 ## Greg physical state
-- Shoulder/right hand now mostly recovered but not erased:
-  - low ache after long walking;
-  - hand mostly normal;
-  - no new injury.
-- Current-body travel competence continues normalizing.
+- Shoulder/right hand mostly recovered.
+- High arm lift still gives low reminder; hard final grip squeeze slightly noticeable early morning.
+- Controlled lever work tolerated cleanly.
+- No new injury.
+
+## Greg social/internal movement
+- Greg now has meaningful liquidity and real freedom at same time.
+- Work is beginning to generate side-contract opportunities beyond original Survey route.
+- He experiences `available` rather than unemployed when mandatory work pauses.
+- Having **25c vs 23c Vale** changes psychological optionality without erasing debt.
+- He recognizes artifact/auction temptation is more dangerous when he actually has information and enough money to act.
+- Choosing to continue farther would now be genuinely his.
 
 ## Dialogue variance
-- Pera Lonn: paperwork-first settlement, tells Greg not to trust bureaucracy.
-- Tess Arlo: terse traffic-control pragmatism.
-- Nema Vos: fast, high-competence annex clerk with six pencils and deliberate anti-overconnection discipline.
-- Elya Senn: guild specialist, rational used-tool pricing, warns about clever-tool anchoring.
-- Sori: money arithmetic/face-reading teasing, accompanies Greg through market.
-- Kel: logistics/cases, wants non-pear food.
-- Dask: mirror guild fixation but obeys operational order.
+- Nema Vos: fast, mischievous competence; correctly separates Glassmouth local fix from White Span.
+- Bran Tey: ultra-terse yard lead, practical/safety-first, no decorative speech.
+- Sori: money tracking / face-reading / legal and record discipline; side-work competent.
+- Kel: practical load-handling eye catches C's low guide and requests midpoint condition.
+- Vessa: distinguishes crew assignment from personal side work and preserves safety boundaries.
+- Dask: excluded from Dock Eight because he asks too many moving-machinery questions; spends time elsewhere, returns with guild pamphlets but no purchase.
+- Maro: stays out of industrial contract, preserving role variance.
 
 ## Recent role ledger
-- 401 THE WITNESS
 - 402 THE SHOPPER
 - 403 THE OBSERVER
 - 404 THE COMPARER
 - 405 THE EARNER
+- 406 THE CONTRACTOR
 
 ## Protected uncertainties
-- Crew ends Ch405 lodged at **Sable Quay**, one night planned.
-- Greg cash exact **21c**, Vale **23c**, bits unspecified after 1-bit food spend.
+- Crew ends Ch406 at **Sable Quay**, no mandatory next Survey task.
+- Greg cash exact **25c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 135**.
-- White Span phenomenon remains unexplained.
-- Bellweather provides negative historical comparison.
-- Glassmouth Reach unusual dawn glare is a new but explicitly non-equivalent local issue; may be ordinary geometry from lower water.
-- Annex may request/accept outside eyes tomorrow, but not guaranteed major extension.
-- PF-3 remains for sale at 10c; Greg did not buy.
-- Large Sable Quay market establishes higher economic ceiling.
+- White Span phenomenon unresolved.
+- Glassmouth glare closed as local ordinary low-water/shading-panel issue.
+- Dock Eight salvage auction tomorrow is live opportunity, outcome unknown.
+- Greg has legitimate firsthand condition knowledge on Frames A/B/C.
+- PF-3 still available at 10c unless market changes; not purchased.
+- Duskport is a new route-board destination only; no canon details yet.
 - Quietener and WS-F/9 remain bounded tools.
-- Shoulder/hand mostly recovered, low ache after long travel.
+- Shoulder/hand mostly recovered.
 - Full current-life high-end magical/combat ceiling remains unrevealed.
 - Home communication remains delayed.
 - All older protected artifact/Carrow threads remain unresolved unless exact authority changes them.
 
-## Chapter 406 trailhead
-Follow next actual claim from Ch405/current authority.
+## Chapter 407 trailhead
+Follow next actual claim from Ch406/current authority.
 
-Greg begins **21c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**.
+Greg begins **25c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**.
 
 Physical/timeline:
-- evening/night at **Sable Quay**, Dockhouse Seven;
-- optional Glassmouth dawn observation may happen next morning if annex confirms;
-- mirror guild / major market nearby;
-- PF-3 parallax finder still available for 10c but not purchased;
-- shoulder/right hand mostly recovered;
-- repaired crutch sound;
-- quietener + WS-F/9 packed.
+- afternoon/evening at **Sable Quay**;
+- no mandatory Survey assignment;
+- Dock Eight salvage auction tomorrow morning, public viewing before bell two;
+- PF-3 parallax finder still potentially available for 10c;
+- Duskport packet departs daily, schedule/cost unknown;
+- reduced survey lodging available up to two nights, personal food;
+- shoulder/right hand mostly recovered; repaired crutch sound.
 
 Strong movement:
-- Avoid turning Quay into pure shopping/catalog chapters. Sable Quay should generate social/commercial/work/external pressure.
-- If Glassmouth dawn occurs, make it short and distinct from White Span; likely ordinary or partially ordinary evidence is acceptable.
-- Greg's 21c should alter behavior via optionality, not force purchase.
-- A meaningful artifact acquisition can happen later if price/use/downside justify it; PF-3 remains a live temptation but no obligation.
-- Quay can offer temporary paid work, larger contract, transport choice, auction, salvage lot, specialist service, or a new route east/downriver.
-- Keep away arc moving and varied.
-- Consider a stronger rhythm break soon after several observation/comparison chapters, though not necessarily combat immediately.
+- This is a genuine choice point. Do not immediately hand Greg another mandatory assignment unless earned.
+- Salvage auction is a strong next move because Greg has real informational advantage from inspection. He can attend without necessarily buying.
+- If he buys, price/use/downside must remain rational and should change options, not become loot treadmill.
+- Duskport can become next expansion route, but first establish schedule/cost/reason organically.
+- Greg's 25c should feel materially different from earlier scarcity, while 23c Vale still matters.
+- PF-3 remains a competing option, useful for forcing tradeoffs if needed.
+- Consider allowing Greg to choose road/river travel for curiosity/opportunity rather than work compulsion.
+- Rhythm can now move toward market/auction/transport/social pressure, with action later when organic.
 
 Avoid:
-- another long archive/mirror lecture;
-- immediate impulsive PF-3 purchase without new reason;
-- anomaly unification;
+- making Glassmouth secretly connected after closure;
+- instant huge artifact purchase solely because cash > debt;
+- another archive/observation chapter;
+- turning Duskport into chosen-one quest destination;
 - immediate Carrow return.
 
-**MANDATORY TITLE CHECK CH406:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH407:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
