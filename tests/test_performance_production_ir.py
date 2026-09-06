@@ -1,4 +1,9 @@
+import contextlib
+import io
+import json
+import tempfile
 import unittest
+from pathlib import Path
 
 from scripts import performance_production_funnel as funnel
 
@@ -134,6 +139,151 @@ class PerformanceProductionIRTests(unittest.TestCase):
     def test_unknown_view_fails_closed(self):
         with self.assertRaisesRegex(ValueError, "unknown scene view"):
             funnel.render_scene_view(self._scene(), "everything")
+
+    def test_every_scene_can_carry_screenplay_without_a_screen_gate(self):
+        scene = self._scene()
+        updated = funnel.set_screenplay_result(
+            scene,
+            "GREG: Five silver?\nANTONIUS [returns to broom]: End of week.",
+            compiler="screenplay/v1",
+            dependency_hash="perf-dep",
+        )
+        self.assertEqual("generated_output", updated["screenplay"]["kind"])
+        self.assertIn("GREG: Five silver?", updated["screenplay"]["content"])
+        self.assertEqual("screenplay/v1", updated["dependencies"]["screenplay"]["compiler"])
+        self.assertNotIn("screen", updated)
+        funnel.validate_scene_record(updated)
+
+    def test_source_win_is_valid_after_screenplay_generation(self):
+        scene = funnel.set_screenplay_result(
+            self._scene(),
+            "GREG: Five silver?",
+            compiler="screenplay/v1",
+            dependency_hash="perf-dep",
+        )
+        updated = funnel.set_comparison_result(
+            scene,
+            {"verdict": "source_win", "reason": "The source already performs the negotiation through action."},
+            compiler="comparison/v1",
+            dependency_hash="screenplay-dep",
+        )
+        self.assertEqual("source_win", updated["comparison"]["verdict"])
+        funnel.validate_scene_record(updated)
+
+    def test_performance_candidate_requires_bounded_possible_win(self):
+        with self.assertRaisesRegex(ValueError, "possible_wins"):
+            funnel.set_comparison_result(
+                self._scene(),
+                {"verdict": "performance_candidate", "possible_wins": []},
+                compiler="comparison/v1",
+                dependency_hash="dep",
+            )
+        candidate = funnel.set_comparison_result(
+            self._scene(),
+            {
+                "verdict": "performance_candidate",
+                "possible_wins": [{
+                    "surface": "dialogue",
+                    "problem": "repeated verbal confirmation",
+                    "performed_advantage": "physical action carries the distinction",
+                    "source_span": ["Greg lifted the box.", "Antonius returned to the broom."],
+                }],
+            },
+            compiler="comparison/v1",
+            dependency_hash="dep",
+        )
+        self.assertEqual("performance_candidate", candidate["comparison"]["verdict"])
+
+    def test_comparison_rejects_unknown_verdict(self):
+        with self.assertRaisesRegex(ValueError, "verdict"):
+            funnel.set_comparison_result(
+                self._scene(),
+                {"verdict": "rewrite_everything"},
+                compiler="comparison/v1",
+                dependency_hash="dep",
+            )
+
+    def test_recompile_unchanged_scene_preserves_valid_expensive_layers(self):
+        page = '<article class="prose"><p>Greg lifted the box.</p></article>'
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            funnel.write_compiled_chapter(7, page, root)
+            scene_path = root / "007" / "s010.json"
+            scene = json.loads(scene_path.read_text(encoding="utf-8"))
+            scene["semantic"] = {
+                "active_task": {"value": "sort the storeroom", "kind": "inferred", "confidence": 0.9, "compiler": "scene-semantic/v1"}
+            }
+            scene["screenplay"] = {"kind": "generated_output", "content": "GREG [lifts box].", "compiler": "screenplay/v1"}
+            scene["dependencies"]["semantic"] = {"source_hash": scene["source"]["hash"], "compiler": "scene-semantic/v1"}
+            scene["dependencies"]["screenplay"] = {"dependency_hash": "screenplay-dep", "compiler": "screenplay/v1"}
+            scene_path.write_text(json.dumps(scene), encoding="utf-8")
+
+            funnel.write_compiled_chapter(7, page, root)
+            rebuilt = json.loads(scene_path.read_text(encoding="utf-8"))
+            self.assertIn("semantic", rebuilt)
+            self.assertIn("screenplay", rebuilt)
+            self.assertEqual("sort the storeroom", rebuilt["semantic"]["active_task"]["value"])
+
+    def test_recompile_changed_scene_drops_stale_expensive_layers(self):
+        first = '<article class="prose"><p>Greg lifted the box.</p></article>'
+        changed = '<article class="prose"><p>Greg dropped the box.</p></article>'
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            funnel.write_compiled_chapter(7, first, root)
+            scene_path = root / "007" / "s010.json"
+            scene = json.loads(scene_path.read_text(encoding="utf-8"))
+            scene["semantic"] = {"active_task": {"value": "lift box", "kind": "inferred", "confidence": 0.9, "compiler": "scene-semantic/v1"}}
+            scene_path.write_text(json.dumps(scene), encoding="utf-8")
+
+            funnel.write_compiled_chapter(7, changed, root)
+            rebuilt = json.loads(scene_path.read_text(encoding="utf-8"))
+            self.assertNotIn("semantic", rebuilt)
+
+    def test_compile_chapter_cli_writes_deterministic_scene_cache(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp_root = Path(tmp)
+            chapter_root = tmp_root / "chapters"
+            output_root = tmp_root / "compiled"
+            chapter_root.mkdir()
+            (chapter_root / "007.html").write_text('<article class="prose"><p>Greg lifted the box.</p></article>', encoding="utf-8")
+            stdout = io.StringIO()
+            with contextlib.redirect_stdout(stdout):
+                result = funnel.main([
+                    "--compile-chapter", "7",
+                    "--chapter-root", str(chapter_root),
+                    "--output-root", str(output_root),
+                ])
+            self.assertEqual(0, result)
+            self.assertTrue((output_root / "007" / "manifest.json").exists())
+            payload = json.loads(stdout.getvalue())
+            self.assertEqual(1, payload["scene_count"])
+
+    def test_view_cli_emits_narrow_ai_packet(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            output_root = Path(tmp)
+            page = '<article class="prose"><p>Greg lifted the box.</p></article>'
+            funnel.write_compiled_chapter(7, page, output_root)
+            stdout = io.StringIO()
+            with contextlib.redirect_stdout(stdout):
+                result = funnel.main([
+                    "--view", "dialogue",
+                    "--scene", "007.s010",
+                    "--output-root", str(output_root),
+                ])
+            self.assertEqual(0, result)
+            payload = json.loads(stdout.getvalue())
+            self.assertEqual("007.s010", payload["scene_id"])
+            self.assertNotIn("paragraphs", str(payload))
+
+    def test_successful_roundtrip_anchors_are_addressable_in_compiled_scenes(self):
+        for chapter in (7, 13, 18):
+            page = (funnel.ROOT / "chapters" / f"{chapter:03d}.html").read_text(encoding="utf-8")
+            lock = json.loads((funnel.ROOT / "state" / "editorial" / "performance-roundtrip" / f"{chapter:03d}" / "source.lock.json").read_text(encoding="utf-8"))
+            scenes = funnel.segment_chapter(page, chapter)
+            scene_texts = [" ".join(scene["source"]["paragraphs"]) for scene in scenes]
+            for anchor in lock["result_scene_anchors"]:
+                matches = [text for text in scene_texts if anchor in text]
+                self.assertEqual(1, len(matches), f"chapter {chapter} anchor should resolve to one compiled scene")
 
 
 if __name__ == "__main__":
