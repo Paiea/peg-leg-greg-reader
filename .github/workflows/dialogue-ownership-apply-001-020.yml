@@ -29,8 +29,12 @@ jobs:
         run: |
           mkdir -p /tmp/dialogue-before
           cp chapters/{001..020}.html /tmp/dialogue-before/
-      - name: Apply semantic ownership boundaries
-        run: python scripts/apply_dialogue_ownership_semantic.py --start 1 --end 20
+      - name: Apply semantic ownership boundaries to convergence
+        run: |
+          for pass in 1 2 3 4; do
+            echo "=== semantic ownership pass $pass ==="
+            python scripts/apply_dialogue_ownership_semantic.py --start 1 --end 20
+          done
       - name: Verify prose preservation and HTML structure
         run: |
           python - <<'PY'
@@ -80,5 +84,5 @@ jobs:
             echo 'No changes to commit.'
             exit 0
           fi
-          git commit -m 'Apply semantic dialogue ownership cleanup through chapter 20'
+          git commit -m 'Converge semantic dialogue ownership cleanup through chapter 20'
           git push
