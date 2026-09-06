@@ -72,18 +72,39 @@ BOOKS = (
         'chapters/231.html',
     ),
     ReaderBook(
-        'BOOK IV', 'book-iv', 321, None,
+        'BOOK IV', 'book-iv', 321, 440,
         (
             ReaderAct('ACT I', 'WHAT THINGS COST', 321, 330, 'Money, tools, risk, and opportunity become choices Greg can increasingly make for himself.'),
-            ReaderAct('ACT II', 'BEYOND THE DOOR', 331, None, 'Greg’s useful life reaches farther beyond home while strange boundaries begin answering back.'),
+            ReaderAct('ACT II', 'BEYOND THE DOOR', 331, 388, 'Paid outside-city work becomes repeatable life as Greg’s competence travels through routes, survey, field systems, jobs, and people.'),
+            ReaderAct('ACT III', 'THE FARTHER ROAD', 389, 440, 'Greg stops merely taking jobs beyond Carrow and begins inhabiting a genuinely wider regional life.'),
         ),
         'assets/book-role-cards/book-iv-surveyor-331.webp',
         'The Surveyor, Chapter 331: young bearded Greg on two crutches studying an old boundary marker with a field map, Carrow visible beyond the marker field.',
         'chapters/331.html',
     ),
+    ReaderBook(
+        'BOOK V', 'book-v', 441, None,
+        (
+            ReaderAct('ACT I', 'THE LONGER REACH', 441, None, 'Greg’s accumulated competence, money, relationships, and freedom of movement begin reaching farther than the structures that first contained his second life.'),
+        ),
+        'assets/book-role-cards/book-v-investor-446.webp',
+        'The Investor, Chapter 446: young bearded Greg at a harbor desk weighing ferry fares, routes, and money against the wider life those choices can buy.',
+        'chapters/446.html',
+    ),
 )
 
 ACTS = tuple(act for book in BOOKS for act in book.acts)
+
+
+def book_and_act_for_chapter(number: int) -> tuple[ReaderBook, ReaderAct]:
+    books = [book for book in BOOKS if book.start <= number and (book.end is None or number <= book.end)]
+    if len(books) != 1:
+        raise ValueError(f'chapter {number} belongs to {len(books)} Books')
+    book = books[0]
+    acts = [act for act in book.acts if act.start <= number and (act.end is None or number <= act.end)]
+    if len(acts) != 1:
+        raise ValueError(f'chapter {number} belongs to {len(acts)} Acts in {book.numeral}')
+    return book, acts[0]
 
 
 def _render_act(act: ReaderAct, chapter_links: dict[int, str], latest: int, *, open_act: bool) -> str:
