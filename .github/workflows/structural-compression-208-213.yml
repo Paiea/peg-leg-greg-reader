@@ -1,0 +1,82 @@
+name: Structural compression 208-213
+
+on:
+  push:
+    branches:
+      - editor/voice-compression-pass
+    paths:
+      - 'scripts/apply_structural_compression_208_213.py'
+      - 'tests/test_structural_compression_208_213.py'
+      - '.github/workflows/structural-compression-208-213.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: structural-compression-208-213
+  cancel-in-progress: true
+
+jobs:
+  compress:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: editor/voice-compression-pass
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Run focused structural-compression tests
+        run: python -m unittest tests.test_structural_compression_208_213
+      - name: Apply approved structural edit
+        run: python scripts/apply_structural_compression_208_213.py
+      - name: Verify transform is idempotent
+        run: python scripts/apply_structural_compression_208_213.py --check
+      - name: Verify evidence spine and boundary
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          for base in ('chapters', 'light'):
+              pages = {n: Path(base, f'{n}.html').read_text(encoding='utf-8') for n in range(208, 214)}
+              assert 'STRUCTURAL-COMPRESSION-208-213:208' in pages[208]
+              assert 'STRUCTURAL-COMPRESSION-208-213:209' in pages[209]
+              assert 'STRUCTURAL-COMPRESSION-208-213:210' in pages[210]
+              assert 'STRUCTURAL-COMPRESSION-208-213:211' in pages[211]
+              assert 'data-structural-status="merged"' in pages[212]
+              assert 'STRUCTURAL-COMPRESSION-208-213:213' in pages[213]
+              assert 'left glove' in pages[211].lower()
+              assert 'small share' in pages[211].lower()
+              assert 'first amount tests whether payment is easier than refusal' in pages[213].lower()
+              if base == 'light':
+                  assert 'rel="next" href="213.html"' in pages[211]
+                  assert 'rel="prev" href="211.html"' in pages[213]
+          ch214 = Path('chapters/214.html').read_text(encoding='utf-8')
+          assert 'PIN RETURNED.' in ch214
+          assert 'MESSAGE IN BREN' in ch214
+          PY
+          git diff --check
+      - name: Commit edited range
+        run: |
+          TRACKED='chapters/208.html chapters/209.html chapters/210.html chapters/211.html chapters/212.html chapters/213.html light/208.html light/209.html light/210.html light/211.html light/212.html light/213.html state/compression-batches/208-213.json'
+          if [ -z "$(git status --porcelain -- $TRACKED)" ]; then
+            echo 'Structural compression batch already applied.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add $TRACKED
+          git commit -m 'Compress Bren pressure sequence 208 through 213'
+          for attempt in 1 2 3; do
+            git fetch origin editor/voice-compression-pass
+            if ! git rebase origin/editor/voice-compression-pass; then
+              git rebase --abort || true
+              echo 'Structural compression commit conflicted with editor branch.'
+              exit 1
+            fi
+            git push origin HEAD:editor/voice-compression-pass && exit 0
+            sleep $((attempt * 2))
+          done
+          exit 1
