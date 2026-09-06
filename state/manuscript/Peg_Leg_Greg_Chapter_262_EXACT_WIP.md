@@ -242,15 +242,9 @@ I waited.
 
 Lyssa looked at me.
 
-"Don't."
+"Your customer-confirmation process has expanded into a complete wardrobe review," I said.
 
-"I haven't said anything."
-
-"You're going to."
-
-"I was only going to say that your customer-confirmation process has expanded into a complete wardrobe review."
-
-"Don't."
+"It needed to."
 
 "Fine."
 

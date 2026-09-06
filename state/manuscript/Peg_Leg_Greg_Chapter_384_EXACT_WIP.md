@@ -688,9 +688,9 @@ Dema nodded.
 
 "Yes."
 
-"You were going to inspect it yourself and call that enough."
+"Then don't stop at your own inspection."
 
-"Possibly."
+"I was considering it."
 
 "Don't."
 

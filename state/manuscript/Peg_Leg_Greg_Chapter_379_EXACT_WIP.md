@@ -300,15 +300,7 @@ Open windows, two apprentices sorting tags.
 
 She saw me.
 
-"No."
-
-"I haven't asked."
-
-"Your face asked."
-
-Lyssa was right.
-
-My face needed regulation.
+"If this is yours, no."
 
 "Paid request. Not mine."
 

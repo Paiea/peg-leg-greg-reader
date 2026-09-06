@@ -614,15 +614,9 @@ Two.
 
 "Thank you."
 
-"Tomorrow no."
+"Tomorrow?"
 
-I blinked.
-
-"I had not asked."
-
-"You were about to."
-
-I was.
+"No."
 
 Rinna pointed toward the side passage.
 

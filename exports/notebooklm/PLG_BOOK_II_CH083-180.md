@@ -69255,23 +69255,11 @@ Iven appeared in debtor clothes.
 
 No coat again.
 
-"Don't."
+"The coat is gone."
 
-"I haven't said anything."
+"I see that."
 
-"You were looking at my coat."
-
-"You don't have one."
-
-"Exactly."
-
-"Why are you telling me not to ask about something you don't have?"
-
-"Because now you're going to."
-
-"I wasn't."
-
-"You are now."
+"Good. Then I don't have to explain whose problem it became."
 
 Fuck him.
 
@@ -71003,16 +70991,13 @@ This was acceptable.
 
 The dress had graduated.
 
-Rinna counted coins into two piles, moved three from one to the other,
-then covered both when Marek came near.
+Rinna counted coins into two piles, moved three from one to the other, then covered both when Marek came near.
 
-"I wasn't."
+"Do not make me count these again."
 
-"You were."
+"I wasn't touching them."
 
-"I was walking."
-
-"Elsewhere."
+"You don't have to touch money to interrupt counting."
 
 He walked elsewhere.
 
@@ -72095,15 +72080,11 @@ I looked at the join between the stone and brick.
 
 Teren, riding ahead, turned in his seat.
 
-"No."
+"We're not stopping for the wall."
 
-"I didn't say anything."
+"I was looking."
 
-"You leaned."
-
-"I looked."
-
-"Same thing."
+"Look fast."
 
 The gatekeeper knew we were coming.
 
@@ -74773,7 +74754,7 @@ the candle.
 
 "Thank you."
 
-"No."
+"It was bothering me."
 
 Orin came in last.
 
@@ -80373,17 +80354,13 @@ My bowl was enough.
 
 Marek ate his, then stood beside the pot until Rinna noticed.
 
-"No."
+Rinna covered the pot.
+
+"Breakfast is finished."
 
 "I haven't asked."
 
-"You leaned."
-
-I looked at Iven.
-
-He looked at me.
-
-Apparently leaning had become legally binding.
+"Then we're done."
 
 Davin had already moved the wagons closer to the south side of town
 before most of us finished eating. The long iron-cornered box rode where
@@ -87687,13 +87664,11 @@ Harel's face changed.
 
 Marek smiled.
 
-Harel said, "No."
+Harel said, "The speeches stay where they are. I've already moved them twice for the musicians."
 
-"I said nothing."
+"I hadn't proposed anything."
 
-"You looked."
-
-Greg had apparently not invented leaning.
+"Then we agree."
 
 The musicians arrived while we were still in the hall.
 
@@ -89719,17 +89694,13 @@ I sat near her.
 
 She looked at me.
 
-"No."
-
-"I didn't ask."
-
-"You were going to."
+"Lamp?"
 
 "Yes."
 
 She sighed.
 
-"Get the lamp."
+"Get it."
 
 I did.
 
@@ -91334,15 +91305,15 @@ I watched.
 
 He noticed.
 
-"No."
-
-"I didn't ask."
-
-"You were going to."
+"Courier seal. I only use it."
 
 "How does it know it's closed?"
 
 "It doesn't."
+
+"What does it know?"
+
+"I don't know. I carry letters."
 
 That was interesting.
 
@@ -92622,23 +92593,11 @@ I turned my head toward the direction of the hall.
 
 Lyssa caught my sleeve.
 
-"No."
+"Finish eating before you go anywhere."
 
-"What?"
+"I wasn't going anywhere."
 
-"You are not going to chase your own reply across Carrow."
-
-"I wasn't."
-
-"You looked."
-
-"I looked at a building."
-
-"You can't see it from here."
-
-"I looked in its direction."
-
-"Eat."
+"Good."
 
 I ate.
 
@@ -93364,13 +93323,9 @@ Hessa looked at the metal again.
 
 Then at me.
 
-"No."
+"Specific question."
 
-"I haven't asked it yet."
-
-"I know."
-
-"That's unfair."
+"I'm getting there."
 
 "Ask it."
 
@@ -93751,15 +93706,11 @@ She stood.
 
 I looked toward the shelf with the suspended-thread apparatus.
 
-Hessa said, "No."
-
-"I didn't say anything."
-
-"You looked at it."
+Hessa said, "Not the threads."
 
 "I can look."
 
-"Not at that."
+"You can look while we use something better."
 
 She moved past the shelf and opened a low cabinet.
 
@@ -97455,11 +97406,7 @@ She moved the three boxes to the far shelf.
 
 "I wasn't going to."
 
-"You were looking."
-
-"I look at things."
-
-"I know."
+"Good."
 
 The apparatus from the last session was not on the table.
 

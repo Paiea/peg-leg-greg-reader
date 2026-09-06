@@ -558,15 +558,13 @@ Drainage walk stayed on packed shoulder south/east, no ditch entry.
 
 "Yes."
 
-"And if Halen asks you to carry staff, no."
+"And Halen, don't hand him the staff."
 
 Halen said, "I wasn't going to."
 
 Enna looked at him.
 
-"You were thinking it."
-
-He was.
+"Good. Keep it that way."
 
 Trial build on.
 

@@ -96,17 +96,15 @@ Carrying basket plus two crutches.
 
 I looked at Lyssa.
 
-She looked at me.
+She looked at the basket, then my right crutch.
 
-"No."
+"Not from the crutch."
 
-"I didn't ask."
+"I was considering it."
 
-"Your face did."
+"It'll swing."
 
-"My face is private."
-
-"Buy a clasp."
+"I need to know how badly."
 
 Cruel.
 

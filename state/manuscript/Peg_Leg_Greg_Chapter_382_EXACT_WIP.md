@@ -970,13 +970,11 @@ She glanced disk.
 
 "Vessa Harn crew?"
 
-"She won't let you substitute private tool for assigned reference."
+"She won't let private tools replace assigned reference."
 
-"Didn't ask."
+"I was asking whether her crew uses them at all."
 
-"You were going to."
-
-Maybe.
+"Then ask her."
 
 "Would owning one be useful outside survey?"
 

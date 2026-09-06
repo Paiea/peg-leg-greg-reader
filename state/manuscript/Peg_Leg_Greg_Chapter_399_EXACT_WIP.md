@@ -1052,11 +1052,11 @@ Dask turned.
 
 Holl looked at him.
 
-"No."
+"No relation that I know."
 
-"I didn't ask."
+"I hadn't asked yet."
 
-"You were going to."
+"You turned around."
 
 Dask closed mouth.
 

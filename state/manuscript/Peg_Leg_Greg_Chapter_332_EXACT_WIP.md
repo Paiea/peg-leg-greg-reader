@@ -292,23 +292,15 @@ Dangerous combination.
 
 She looked at the basket, then at me.
 
-"No."
+"Loose strap won't work."
 
-"I haven't asked."
-
-"You want me to make that carryable."
-
-"I want to borrow a strap."
+"I was going to ask to borrow one."
 
 "For the thing with the ring you're not supposed to turn."
 
 "Correct."
 
-"No loose strap."
-
-"Why?"
-
-"Because it'll swing."
+"It'll swing."
 
 I knew that.
 

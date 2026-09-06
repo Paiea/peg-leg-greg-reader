@@ -170,9 +170,9 @@ Lyssa watched the experiment.
 
 "Smaller."
 
-"I was about to say that."
+"That was my next conclusion."
 
-"No."
+"Eventually."
 
 She untied the bundle and divided the sheets from the towels.
 

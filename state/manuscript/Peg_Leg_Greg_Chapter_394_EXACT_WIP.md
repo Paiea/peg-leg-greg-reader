@@ -764,15 +764,9 @@ A place named Fen sounded promising.
 
 Vessa saw me looking.
 
-"No."
+"Not our route."
 
-"I didn't ask."
-
-"Your face did."
-
-Again.
-
-Everybody hated my face.
+"I know."
 
 "Return route?"
 

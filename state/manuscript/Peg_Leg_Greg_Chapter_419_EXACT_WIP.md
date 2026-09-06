@@ -540,7 +540,7 @@ Sori elbowed him.
 
 "I'm not interrupting."
 
-"Your face is interrupting."
+"You are whispering her explanation."
 
 Good line.
 
@@ -584,7 +584,7 @@ Sori looked at him.
 
 "I didn't say anything."
 
-"Your soul did."
+"That noise did."
 
 I laughed.
 

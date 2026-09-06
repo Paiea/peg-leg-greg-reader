@@ -452,15 +452,11 @@ I watched from the footbridge.
 
 Sevren watched me watching.
 
-"No."
+"No bridge office."
 
 "I am standing."
 
-"Your face is asking questions."
-
-"My face has rights."
-
-"Not here."
+"Keep it that way."
 
 The worker returned.
 

@@ -66,17 +66,9 @@ Same thing sometimes.
 
 Mira looked at me before leaving.
 
-"If your mother gets word about boy, packet office posts notices from upriver."
+"If you want word about the boy, packet office posts notices from upriver."
 
-"Tessa isn't my mother."
-
-She stared.
-
-"I know."
-
-"Right."
-
-"You have face."
+"Good to know."
 
 Fucking face had traveled thirty miles and developed reputation.
 

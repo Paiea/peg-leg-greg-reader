@@ -632,11 +632,9 @@ I looked.
 
 She caught look.
 
-"No."
+"No shell today."
 
-"I didn't ask."
-
-"Your face did."
+"I know."
 
 Everyone had face theory.
 

@@ -404,17 +404,13 @@ Pella had shoulder yoke hanging nearby.
 
 I looked at it.
 
-She said, "No."
+Pella followed my look.
 
-"I didn't ask."
+"Bad match with crutches. Needs both hands clear at the turns."
 
-"You looked."
+"One bucket at a time."
 
-"People keep accusing my face."
-
-"Face guilty."
-
-One bucket at time.
+"Yes."
 
 Six trips.
 

@@ -952,9 +952,9 @@ Antonius folded his hands on the table.
 
 "If Vale offers you a cash task, it will be separate from debt credit. You may accept or refuse. I will not convert a debt-credit task into cash after the fact because you prefer the purse."
 
-"I wasn't going to ask."
+"Separate lanes."
 
-"You were thinking about asking."
+"Yes."
 
 "Hostile office."
 

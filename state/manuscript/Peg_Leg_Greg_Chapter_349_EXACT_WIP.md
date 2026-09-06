@@ -803,15 +803,11 @@ She smiled.
 
 Cruel.
 
-"Deposit?"
+"Could they hold it?"
 
-I looked at her.
+"With a deposit."
 
-"How did you know there was a deposit?"
-
-"Because your face is worse than eighteen copper."
-
-Terrible intimacy.
+"How much?"
 
 "Four. Three days. Nonrefundable."
 

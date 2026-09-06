@@ -78,7 +78,7 @@ Vessa checked positions.
 
 Same as yesterday where possible.
 
-Greg witness post.
+I took witness post.
 
 Dask sight/timing.
 
@@ -206,7 +206,7 @@ Not answer.
 
 Dask's pencil moved.
 
-Greg brain moved too.
+My brain moved too.
 
 Calm patch.
 
@@ -726,7 +726,7 @@ This made meal better.
 
 After dinner Hedda poured tiny finger of pear brandy for herself, none for us unless paid.
 
-Greg did not buy alcohol.
+I did not buy alcohol.
 
 Mostly because shoulder and dawn schedule.
 

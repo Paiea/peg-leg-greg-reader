@@ -24,15 +24,7 @@ Pella stood by wagon with coffee punishment in one hand.
 
 "Wasn't planning to."
 
-She looked at me.
-
-"You look exactly like planning to."
-
-Again with face.
-
-"Everyone here judges my face."
-
-"Face keeps confessing."
+"Good. Keep it that way."
 
 Kel climbed driver's bench.
 
@@ -84,13 +76,11 @@ I liked it immediately.
 
 Bad sign.
 
-Vessa said, "Greg."
+Vessa said, "Eyes on route."
 
-"I'm not doing anything."
+"They are."
 
-"Your face."
-
-Fuck all of them.
+"Keep them there."
 
 Approach office was small stone box wedged between West Three and Four.
 

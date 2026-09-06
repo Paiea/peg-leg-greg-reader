@@ -204,13 +204,11 @@ She pointed with a pear.
 
 "Thank you."
 
-"Don't touch that basket."
+"Keep your hands off that basket."
 
-"I wasn't."
+I looked at both hands on my crutches.
 
-"You looked."
-
-Carrow merchants had developed preemptive law.
+"Excellent timing."
 
 I went past cloth.
 

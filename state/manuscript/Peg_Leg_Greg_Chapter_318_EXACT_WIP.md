@@ -114,13 +114,11 @@ The clicking basket clicked.
 
 I looked at it.
 
-Sevren said, "No."
+Sevren said, "Not your basket."
 
-"I said nothing."
+"I was looking."
 
-"Your face."
-
-"My face has been persecuted this entire trip."
+"Look quietly."
 
 Daro climbed back onto the front board.
 

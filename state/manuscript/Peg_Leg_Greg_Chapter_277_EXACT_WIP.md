@@ -68,9 +68,9 @@ She turned.
 
 "I haven't said anything."
 
-"Your face did."
+"You stopped walking."
 
-"My face is innocent."
+"I was eating onions."
 
 "Mask yesterday. Shop today. Bad pattern."
 

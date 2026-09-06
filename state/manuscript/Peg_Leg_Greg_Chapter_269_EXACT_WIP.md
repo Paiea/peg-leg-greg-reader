@@ -386,7 +386,7 @@ Savin noticed.
 
 "I didn't ask."
 
-"Face did."
+"You watched them twice."
 
 "How do they know?"
 
@@ -456,11 +456,7 @@ Then set it aside again.
 
 "I saw."
 
-"You were about to ask."
-
-"My face?"
-
-"Loud."
+"Then wait."
 
 I folded my arms.
 

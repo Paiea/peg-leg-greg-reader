@@ -170,17 +170,13 @@ Thirty.
 
 Carrow got farther away without moving.
 
-Sori watched my face.
+Sori watched me look at the route board.
 
-"Don't."
-
-"You don't know what I'm thinking."
-
-"Duskport."
+"Duskport?"
 
 "Maybe."
 
-"Market."
+"Market?"
 
 "Probably."
 
