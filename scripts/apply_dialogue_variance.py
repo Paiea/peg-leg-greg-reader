@@ -37,11 +37,18 @@ def parse_batch(text: str) -> list[Patch]:
     lines = text.replace('\r\n', '\n').replace('\r', '\n').split('\n')
     patches: list[Patch] = []
     chapter: int | None = None
+    seen_chapters: set[int] = set()
     i = 0
     while i < len(lines):
+        chapter_header = lines[i].startswith('## Chapter')
         chapter_match = re.match(r'^## Chapter\s+(\d+)\b', lines[i])
+        if chapter_header and not chapter_match:
+            raise AssertionError(f'malformed Chapter heading: {lines[i].strip()}')
         if chapter_match:
             chapter = int(chapter_match.group(1))
+            if chapter in seen_chapters:
+                raise AssertionError(f'duplicate Chapter {chapter} section')
+            seen_chapters.add(chapter)
             i += 1
             continue
 
@@ -80,16 +87,31 @@ def parse_batch(text: str) -> list[Patch]:
             raise AssertionError(f'{patch_id}: missing Replace section')
         if replace_idx <= current_idx:
             raise AssertionError(f'{patch_id}: Replace section must follow Current section')
-        reason_idx = next((j for j in range(replace_idx + 1, len(section)) if section[j].strip().lower().startswith('reason:')), len(section))
+        reason_indices = [
+            j for j in range(replace_idx + 1, len(section))
+            if section[j].strip().lower().startswith('reason:')
+        ]
+        if not reason_indices:
+            raise AssertionError(f'{patch_id}: missing Reason section')
+        reason_idx = reason_indices[0]
+        reason_head = section[reason_idx].split(':', 1)[1].strip()
+        reason_tail = [line.strip() for line in section[reason_idx + 1:] if line.strip()]
+        if not reason_head and not reason_tail:
+            raise AssertionError(f'{patch_id}: Reason section is empty')
         current = _code_lines(section[current_idx + 1:replace_idx])
         replacement = _code_lines(section[replace_idx + 1:reason_idx])
         if not current:
             raise AssertionError(f'{patch_id}: has no Current prose')
         if not replacement:
             raise AssertionError(f'{patch_id}: has no replacement prose')
+        if '...' in replacement:
+            raise AssertionError(f'{patch_id}: replacement contains ambiguous ellipsis marker')
         if any('—' in line for line in replacement):
             raise AssertionError(f'{patch_id}: replacement prose contains an em dash')
-        patches.append(Patch(chapter, patch_id, current, replacement, section[replace_idx].strip()))
+        patch = Patch(chapter, patch_id, current, replacement, section[replace_idx].strip())
+        if patch.replacement == _target_lines(patch):
+            raise AssertionError(f'{patch_id}: replacement is a no-op')
+        patches.append(patch)
         i = section_end
     return patches
 
