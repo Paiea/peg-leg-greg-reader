@@ -1,0 +1,1802 @@
+{
+  "blocked_before_structural_editing": [
+    {
+      "code": "authority_conflicts",
+      "conflicts": [
+        {
+          "candidates": [
+            {
+              "chapter_number": 83,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SUITOR"
+            },
+            {
+              "chapter_number": 83,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-92_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SUITOR"
+            },
+            {
+              "chapter_number": 83,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-97_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SUITOR"
+            },
+            {
+              "chapter_number": 83,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SUITOR"
+            },
+            {
+              "chapter_number": 83,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "I had one day to prepare for a date. This was too much time. If Lyssa had said, Come now, I would have gone. Crutches. Blue shirt. Hair doing whatever it wanted. Done. Instead I had a full day in which to become stupid."
+            }
+          ],
+          "chapter_number": 83,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 84,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE PASSENGER"
+            },
+            {
+              "chapter_number": 84,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-92_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE PASSENGER"
+            },
+            {
+              "chapter_number": 84,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-97_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE PASSENGER"
+            },
+            {
+              "chapter_number": 84,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE PASSENGER"
+            },
+            {
+              "chapter_number": 84,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "The horse had fallen over during the night."
+            }
+          ],
+          "chapter_number": 84,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 85,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE ARBITER"
+            },
+            {
+              "chapter_number": 85,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE ARBITER"
+            },
+            {
+              "chapter_number": 85,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-92_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE ARBITER"
+            },
+            {
+              "chapter_number": 85,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-97_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE ARBITER"
+            },
+            {
+              "chapter_number": 85,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE ARBITER"
+            },
+            {
+              "chapter_number": 85,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "My leg objected to the north road before breakfast."
+            }
+          ],
+          "chapter_number": 85,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 86,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE PLAYER"
+            },
+            {
+              "chapter_number": 86,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE PLAYER"
+            },
+            {
+              "chapter_number": 86,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-92_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE PLAYER"
+            },
+            {
+              "chapter_number": 86,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-97_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE PLAYER"
+            },
+            {
+              "chapter_number": 86,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE PLAYER"
+            },
+            {
+              "chapter_number": 86,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "The blank page lasted until nearly noon."
+            }
+          ],
+          "chapter_number": 86,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 87,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE BLUFFER"
+            },
+            {
+              "chapter_number": 87,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE BLUFFER"
+            },
+            {
+              "chapter_number": 87,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-92_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE BLUFFER"
+            },
+            {
+              "chapter_number": 87,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-97_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE BLUFFER"
+            },
+            {
+              "chapter_number": 87,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE BLUFFER"
+            },
+            {
+              "chapter_number": 87,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "My right shoulder objected to breakfast."
+            }
+          ],
+          "chapter_number": 87,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 88,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE OCCUPANT"
+            },
+            {
+              "chapter_number": 88,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE OCCUPANT"
+            },
+            {
+              "chapter_number": 88,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-92_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE OCCUPANT"
+            },
+            {
+              "chapter_number": 88,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-97_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE OCCUPANT"
+            },
+            {
+              "chapter_number": 88,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE OCCUPANT"
+            },
+            {
+              "chapter_number": 88,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "The keeper asked whether I still wanted my room."
+            }
+          ],
+          "chapter_number": 88,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 89,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SUBSTITUTE"
+            },
+            {
+              "chapter_number": 89,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SUBSTITUTE"
+            },
+            {
+              "chapter_number": 89,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-92_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SUBSTITUTE"
+            },
+            {
+              "chapter_number": 89,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-97_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SUBSTITUTE"
+            },
+            {
+              "chapter_number": 89,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SUBSTITUTE"
+            },
+            {
+              "chapter_number": 89,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "Rent took less time than deciding to pay rent."
+            }
+          ],
+          "chapter_number": 89,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 90,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE BUYER"
+            },
+            {
+              "chapter_number": 90,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE BUYER"
+            },
+            {
+              "chapter_number": 90,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-92_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE BUYER"
+            },
+            {
+              "chapter_number": 90,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-97_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE BUYER"
+            },
+            {
+              "chapter_number": 90,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE BUYER"
+            },
+            {
+              "chapter_number": 90,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "I wanted a chair."
+            }
+          ],
+          "chapter_number": 90,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 91,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE BEGINNER"
+            },
+            {
+              "chapter_number": 91,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE BEGINNER"
+            },
+            {
+              "chapter_number": 91,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-92_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE BEGINNER"
+            },
+            {
+              "chapter_number": 91,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-97_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE BEGINNER"
+            },
+            {
+              "chapter_number": 91,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE BEGINNER"
+            },
+            {
+              "chapter_number": 91,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "Hessa sent for me the next morning."
+            }
+          ],
+          "chapter_number": 91,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 92,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SPECTATOR"
+            },
+            {
+              "chapter_number": 92,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SPECTATOR"
+            },
+            {
+              "chapter_number": 92,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-92_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SPECTATOR"
+            },
+            {
+              "chapter_number": 92,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-97_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SPECTATOR"
+            },
+            {
+              "chapter_number": 92,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SPECTATOR"
+            },
+            {
+              "chapter_number": 92,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "I lasted until noon before becoming unbearable."
+            }
+          ],
+          "chapter_number": 92,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 93,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE HOLDER"
+            },
+            {
+              "chapter_number": 93,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE HOLDER"
+            },
+            {
+              "chapter_number": 93,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-97_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE HOLDER"
+            },
+            {
+              "chapter_number": 93,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE HOLDER"
+            },
+            {
+              "chapter_number": 93,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "Pessa made me hold the shield."
+            }
+          ],
+          "chapter_number": 93,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 94,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SUBJECT"
+            },
+            {
+              "chapter_number": 94,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SUBJECT"
+            },
+            {
+              "chapter_number": 94,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-97_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SUBJECT"
+            },
+            {
+              "chapter_number": 94,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SUBJECT"
+            },
+            {
+              "chapter_number": 94,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "My hands were fine."
+            }
+          ],
+          "chapter_number": 94,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 95,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE TASTER"
+            },
+            {
+              "chapter_number": 95,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE TASTER"
+            },
+            {
+              "chapter_number": 95,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-97_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE TASTER"
+            },
+            {
+              "chapter_number": 95,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE TASTER"
+            },
+            {
+              "chapter_number": 95,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "Pessa listened to my report with the expression of someone receiving weather."
+            }
+          ],
+          "chapter_number": 95,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 96,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE WITNESS"
+            },
+            {
+              "chapter_number": 96,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE WITNESS"
+            },
+            {
+              "chapter_number": 96,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-97_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE WITNESS"
+            },
+            {
+              "chapter_number": 96,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE WITNESS"
+            },
+            {
+              "chapter_number": 96,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "Holl found me before Hessa did."
+            }
+          ],
+          "chapter_number": 96,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 97,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE VARIABLE"
+            },
+            {
+              "chapter_number": 97,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE VARIABLE"
+            },
+            {
+              "chapter_number": 97,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-97_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE VARIABLE"
+            },
+            {
+              "chapter_number": 97,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE VARIABLE"
+            },
+            {
+              "chapter_number": 97,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "Hessa did not ask about Holl."
+            }
+          ],
+          "chapter_number": 97,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 98,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE DRESSER"
+            },
+            {
+              "chapter_number": 98,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE DRESSER"
+            },
+            {
+              "chapter_number": 98,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE DRESSER"
+            },
+            {
+              "chapter_number": 98,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "The next morning, I did not go to Hessa."
+            }
+          ],
+          "chapter_number": 98,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 99,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE INSTRUMENT"
+            },
+            {
+              "chapter_number": 99,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE INSTRUMENT"
+            },
+            {
+              "chapter_number": 99,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE INSTRUMENT"
+            },
+            {
+              "chapter_number": 99,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "My leg was normal in the morning."
+            }
+          ],
+          "chapter_number": 99,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 100,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE COOK"
+            },
+            {
+              "chapter_number": 100,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE COOK"
+            },
+            {
+              "chapter_number": 100,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE COOK"
+            }
+          ],
+          "chapter_number": 100,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 101,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE WAITING MAN"
+            },
+            {
+              "chapter_number": 101,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE WAITING MAN"
+            },
+            {
+              "chapter_number": 101,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE WAITING MAN"
+            }
+          ],
+          "chapter_number": 101,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 102,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE PIVOT"
+            },
+            {
+              "chapter_number": 102,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE PIVOT"
+            },
+            {
+              "chapter_number": 102,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE PIVOT"
+            }
+          ],
+          "chapter_number": 102,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 103,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SHAPER"
+            },
+            {
+              "chapter_number": 103,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SHAPER"
+            },
+            {
+              "chapter_number": 103,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SHAPER"
+            }
+          ],
+          "chapter_number": 103,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 104,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SECOND OPINION"
+            },
+            {
+              "chapter_number": 104,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SECOND OPINION"
+            },
+            {
+              "chapter_number": 104,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SECOND OPINION"
+            }
+          ],
+          "chapter_number": 104,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 105,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE CONTROL"
+            },
+            {
+              "chapter_number": 105,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE CONTROL"
+            },
+            {
+              "chapter_number": 105,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE CONTROL"
+            }
+          ],
+          "chapter_number": 105,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 106,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE RUNNER"
+            },
+            {
+              "chapter_number": 106,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE RUNNER"
+            },
+            {
+              "chapter_number": 106,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE RUNNER"
+            }
+          ],
+          "chapter_number": 106,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 107,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE TARGET"
+            },
+            {
+              "chapter_number": 107,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE TARGET"
+            },
+            {
+              "chapter_number": 107,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE TARGET"
+            }
+          ],
+          "chapter_number": 107,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 108,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE LOSER"
+            },
+            {
+              "chapter_number": 108,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE LOSER"
+            },
+            {
+              "chapter_number": 108,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE LOSER"
+            }
+          ],
+          "chapter_number": 108,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 109,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE STOPPER"
+            },
+            {
+              "chapter_number": 109,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE STOPPER"
+            },
+            {
+              "chapter_number": 109,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE STOPPER"
+            }
+          ],
+          "chapter_number": 109,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 110,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE PARTNER"
+            },
+            {
+              "chapter_number": 110,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE PARTNER"
+            },
+            {
+              "chapter_number": 110,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE PARTNER"
+            }
+          ],
+          "chapter_number": 110,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 111,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE BRAKE"
+            },
+            {
+              "chapter_number": 111,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE BRAKE"
+            },
+            {
+              "chapter_number": 111,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE BRAKE"
+            }
+          ],
+          "chapter_number": 111,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 112,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE AUDIENCE"
+            },
+            {
+              "chapter_number": 112,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE AUDIENCE"
+            },
+            {
+              "chapter_number": 112,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE AUDIENCE"
+            }
+          ],
+          "chapter_number": 112,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 113,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE READER"
+            },
+            {
+              "chapter_number": 113,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE READER"
+            },
+            {
+              "chapter_number": 113,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE READER"
+            }
+          ],
+          "chapter_number": 113,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 114,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE REVERSER"
+            },
+            {
+              "chapter_number": 114,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE REVERSER"
+            }
+          ],
+          "chapter_number": 114,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 115,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE RETURNER"
+            },
+            {
+              "chapter_number": 115,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE RETURNER"
+            }
+          ],
+          "chapter_number": 115,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 116,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE PROMPTER"
+            },
+            {
+              "chapter_number": 116,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE PROMPTER"
+            }
+          ],
+          "chapter_number": 116,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 117,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE REPEAT"
+            },
+            {
+              "chapter_number": 117,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE REPEAT"
+            }
+          ],
+          "chapter_number": 117,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 118,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE STAND-IN"
+            },
+            {
+              "chapter_number": 118,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE STAND-IN"
+            }
+          ],
+          "chapter_number": 118,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 119,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SECOND ROUTE"
+            },
+            {
+              "chapter_number": 119,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE SECOND ROUTE"
+            }
+          ],
+          "chapter_number": 119,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 120,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE REPEATER"
+            },
+            {
+              "chapter_number": 120,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE REPEATER"
+            }
+          ],
+          "chapter_number": 120,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 121,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE REGULAR"
+            },
+            {
+              "chapter_number": 121,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE REGULAR"
+            }
+          ],
+          "chapter_number": 121,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 122,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE REACHER"
+            },
+            {
+              "chapter_number": 122,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE REACHER"
+            }
+          ],
+          "chapter_number": 122,
+          "top_priority": 70
+        },
+        {
+          "candidates": [
+            {
+              "chapter_number": 123,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-123.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE ERRAND"
+            },
+            {
+              "chapter_number": 123,
+              "path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+              "source_kind": "book_docx",
+              "source_priority": 70,
+              "title": "THE ERRAND"
+            }
+          ],
+          "chapter_number": 123,
+          "top_priority": 70
+        }
+      ],
+      "message": "More than one top-priority source claims the same chapter. Resolve authority before structural editing."
+    }
+  ],
+  "interpretation": "SAFE_NOW items may proceed without structural mutation. NEEDS_MIGRATION items do not block read-only audit, but must be handled before renumber publication. BLOCKED items must be resolved before merge/cut execution.",
+  "needs_migration": [
+    {
+      "code": "stale_chapter_index",
+      "index_endpoint": 248,
+      "manuscript_endpoint": 434,
+      "message": "The legacy chapter index trails current manuscript authority and must not drive compression or publication rebuilds.",
+      "stale_by": 186
+    },
+    {
+      "code": "chapter_index_title_mismatches",
+      "message": "Legacy chapter-index titles disagree with higher manuscript authority for some chapters.",
+      "mismatches": [
+        {
+          "authority_title": "The Boy",
+          "chapter_number": 1,
+          "index_title": "THE BOY"
+        },
+        {
+          "authority_title": "The Borrower",
+          "chapter_number": 2,
+          "index_title": "THE BORROWER"
+        },
+        {
+          "authority_title": "The Investor",
+          "chapter_number": 3,
+          "index_title": "THE INVESTOR"
+        },
+        {
+          "authority_title": "The Expert",
+          "chapter_number": 4,
+          "index_title": "THE EXPERT"
+        },
+        {
+          "authority_title": "The Warrior",
+          "chapter_number": 5,
+          "index_title": "THE WARRIOR"
+        },
+        {
+          "authority_title": "The Laborer",
+          "chapter_number": 6,
+          "index_title": "THE LABORER"
+        },
+        {
+          "authority_title": "The Owner",
+          "chapter_number": 7,
+          "index_title": "THE OWNER"
+        },
+        {
+          "authority_title": "The Collector",
+          "chapter_number": 8,
+          "index_title": "THE COLLECTOR"
+        },
+        {
+          "authority_title": "The Lender",
+          "chapter_number": 9,
+          "index_title": "THE LENDER"
+        },
+        {
+          "authority_title": "The Appraiser",
+          "chapter_number": 10,
+          "index_title": "THE APPRAISER"
+        },
+        {
+          "authority_title": "The Mage",
+          "chapter_number": 11,
+          "index_title": "THE MAGE"
+        },
+        {
+          "authority_title": "A spoon is an underrated investigative instrument. It is terrible at cutting. Mediocre at prying. Excellent at making the person who gave it to you feel safer than he should. I turned Antonius's spoon over in my hand.",
+          "chapter_number": 12,
+          "index_title": "THE RESEARCHER"
+        },
+        {
+          "authority_title": "Arlo had improved the regulator without me. I disliked this for almost three seconds. Then I remembered that was the point. He stood at the far end of his workbench with six ceramic housings arranged in a row. Same clay. Same copper contacts. Same little etched channel running around the waist. If I had seen them a month ago, I would have called them identical.",
+          "chapter_number": 13,
+          "index_title": "THE STUDENT"
+        },
+        {
+          "authority_title": "Jorren hit me in the ribs three more times before he decided I was learning.",
+          "chapter_number": 14,
+          "index_title": "THE ESCORT"
+        },
+        {
+          "authority_title": "The turnip man was innocent.",
+          "chapter_number": 15,
+          "index_title": "THE OBSERVER"
+        },
+        {
+          "authority_title": "Jorren answered the question the next morning.",
+          "chapter_number": 16,
+          "index_title": "THE TEACHER"
+        },
+        {
+          "authority_title": "I read the contract.",
+          "chapter_number": 17,
+          "index_title": "THE INVESTIGATOR"
+        },
+        {
+          "authority_title": "Hessa had beans.",
+          "chapter_number": 18,
+          "index_title": "THE EXPERIMENTER"
+        },
+        {
+          "authority_title": "The guild had put my sacks behind a locked door.",
+          "chapter_number": 19,
+          "index_title": "THE BYSTANDER"
+        },
+        {
+          "authority_title": "Jorren hit me before I could apologize. This was efficient. I had arrived at the yard late enough that the afternoon shadows had moved noticeably and early enough that Jorren had not yet decided to leave. He stood in the packed dirt with two wooden swords, one in each hand. He threw one at me. I caught it badly. He hit me with the other.",
+          "chapter_number": 20,
+          "index_title": "THE VOLUNTEER"
+        },
+        {
+          "authority_title": "The yard was still mud. Not wet dirt. Mud. There was a difference, and Jorren made me demonstrate it by stepping into the guild yard, planting my right foot, and nearly sitting down without permission. He watched from beneath the arcade.",
+          "chapter_number": 21,
+          "index_title": "THE TENANT"
+        },
+        {
+          "authority_title": "The guild gave me a free seat because Merek Verran was a liar. This was not how they described it. The ink-thumbed clerk called it a hazard adjustment.",
+          "chapter_number": 22,
+          "index_title": "THE TRAINEE"
+        },
+        {
+          "authority_title": "North Gate had too many shoes.",
+          "chapter_number": 23,
+          "index_title": "THE AIDE"
+        },
+        {
+          "authority_title": "The last place on the Darrowmere list was gone by morning. Alden blamed me.",
+          "chapter_number": 24,
+          "index_title": "THE PASSENGER"
+        },
+        {
+          "authority_title": "The first creature came over the wall sideways.",
+          "chapter_number": 25,
+          "index_title": "THE DEFENDER"
+        },
+        {
+          "authority_title": "The healer took my shirt. Not metaphorically. She cut it off.",
+          "chapter_number": 26,
+          "index_title": "THE PATIENT"
+        },
+        {
+          "authority_title": "Senn was faster than she looked. That was inconvenient. She had a broom, work shoes, and thirty-one goats behind a closed gate. None of those things suggested speed. She disappeared around the corner before Cal and I reached it.",
+          "chapter_number": 27,
+          "index_title": "THE RESCUER"
+        },
+        {
+          "authority_title": "Darrowmere charged refugees for soup. One copper. I learned this because Alden had no copper.",
+          "chapter_number": 28,
+          "index_title": "THE GUEST"
+        },
+        {
+          "authority_title": "The bread remained gone. I checked. That was the first mistake of the morning. Not checking the sill. Caring. The outer ledge held flour dust, two black crumbs, and a streak that might have been butter if butter had survived the night, rain, birds, insects, and my imagination. No footprints. No claw marks. No note. No useful evidence. I closed the window.",
+          "chapter_number": 29,
+          "index_title": "THE WITNESS"
+        },
+        {
+          "authority_title": "The smallest girl decided I was a disappointing wizard. This took six miles. At first she asked questions. Then she tested.",
+          "chapter_number": 30,
+          "index_title": "THE ESCORT"
+        },
+        {
+          "authority_title": "Alden bought the scarf. This was objectionable for several reasons. First, I did not owe him one. Second, he paid three copper for it. Third, it was red. Not the same red. Darker. That should not have mattered. It did.",
+          "chapter_number": 31,
+          "index_title": "THE REPORTER"
+        },
+        {
+          "authority_title": "South Canal smelled exactly the same. This was reassuring. Wet rope. Grain dust. Canal water. Horse piss. Somebody frying onions badly. Darrowmere had not improved the district. I crossed the towpath with Edrin\u2019s note in my pocket and the LIMITED CASTING tag still on my wrist. A barge slid beneath the nearest crane while two men argued about whose responsibility a rope had become. Neither looked at the sky. Neither asked whether monsters were coming.",
+          "chapter_number": 32,
+          "index_title": "THE CONSULTANT"
+        },
+        {
+          "authority_title": "The west storehouse had acquired a hole. Not a dramatic hole. No fire. No blood. No creature. A section of roof tile had failed above the rear loading bay, taken two battens with it, and deposited rainwater onto forty-three sacks of dried beans. This was apparently my problem. Rusk stood beneath the damage with a clipboard. He looked at my wrist.",
+          "chapter_number": 33,
+          "index_title": "THE ASSESSOR"
+        },
+        {
+          "authority_title": "Arlo was not testing my regulator. He was using it to hold up a shelf.",
+          "chapter_number": 34,
+          "index_title": "THE HELPER"
+        },
+        {
+          "authority_title": "The drink was worse after the third swallow. That seemed backwards. Jorren watched me discover this.",
+          "chapter_number": 35,
+          "index_title": "THE FRIEND"
+        },
+        {
+          "authority_title": "Berren looked better standing up than he had in my head. This was because my head had been working from RETURNED. MINOR INJURY, which could mean anything from a bruised wrist to an adventurer refusing to admit his foot was gone. His foot was present. Good start. The boot was not.",
+          "chapter_number": 36,
+          "index_title": "THE COACH"
+        },
+        {
+          "authority_title": "I decided at noon. This was later than Berren wanted and earlier than Antonius would have respected. The decision itself was not difficult. Four copper. Meal. Half a day. Possible river lizards. The difficulty was admitting that none of those explained why I wanted to go.",
+          "chapter_number": 37,
+          "index_title": "THE LABORER"
+        },
+        {
+          "authority_title": "The four copper lasted until dinner. This was not because I spent four copper. I spent one. The other three remained in my pocket while I sat on the edge of my bed and stared at my hands. Blisters. Two on the right. One on the left. Small. Ordinary. Embarrassing.",
+          "chapter_number": 38,
+          "index_title": "THE PATIENT"
+        },
+        {
+          "authority_title": "My hands were better. Not good. Better. The right blister had flattened overnight. The left one had become tender in a way that suggested it wanted attention and would resent receiving it. My ribs were quiet until I twisted. My channels were quiet until I used them. Alden arrived before I finished breakfast. Berren arrived after. This told me everything important about both men.",
+          "chapter_number": 39,
+          "index_title": "THE PARTNER"
+        },
+        {
+          "authority_title": "Dinner was fish stew. I did not ask what fish. This was growth. Or cowardice. The stew had potatoes, onions, something green, and enough salt to make the water afterward necessary rather than optional. I ate two bowls, went upstairs, checked my hands, checked my ribs, checked my channels, and did not check anything else. No sinkstone notes. No manufacturing list. No Arlo.",
+          "chapter_number": 40,
+          "index_title": "THE TESTER"
+        },
+        {
+          "authority_title": "I did not go to Dorrin Stone first thing. This was because I had become wise. Also because it rained. Mostly rain. Not Darrowmere rain. City rain. Steady enough to turn the street outside my lodging into brown water and make everyone with somewhere to be reconsider how urgently they needed to be there.",
+          "chapter_number": 41,
+          "index_title": "THE BUYER"
+        },
+        {
+          "authority_title": "Arlo did not get the rocks. This was because someone else wanted me first. The knock came before breakfast. Not urgent knocking. Three times. Pause. Two. Professional. I opened the door. A boy in a brown coat held a folded note and looked annoyed that I had required stairs.",
+          "chapter_number": 42,
+          "index_title": "THE TROUBLESHOOTER"
+        },
+        {
+          "authority_title": "The rocks had to move. This became true before anything else. Not because they mattered. Because the lodging keeper had raised the price.",
+          "chapter_number": 43,
+          "index_title": "THE PORTER"
+        },
+        {
+          "authority_title": "I woke because my right hand was numb. This was alarming for approximately one second. Then I discovered I had slept on it. Less alarming. I rolled onto my back and waited for sensation to return. Pins. Needles. Pain. Good. My shoulders remembered yesterday. My back remembered yesterday more. Carrying sacks used muscles fighting did not. Or used them differently. Old Greg had known this.",
+          "chapter_number": 44,
+          "index_title": "THE PATIENT"
+        },
+        {
+          "authority_title": "First light was a lie. There was light. Nothing about it felt first. The west gate was already open enough for carts, bakers were already selling yesterday's bread as today's breakfast, and someone had been arguing with a mule long enough to lose. I arrived with two boiled eggs in my coat pocket. Prepared. Professional. One cracked when I sat on it.",
+          "chapter_number": 45,
+          "index_title": "THE ESCORT"
+        },
+        {
+          "authority_title": "The next morning I had four copper and no appointment. This was dangerous. Appointments made decisions. No appointment meant Bale. Kett. Varo. Arlo. Guild. Antonius. Jorren. Alden. Hessa in two days, assuming no symptoms. Breakfast. Breakfast won because it was closest.",
+          "chapter_number": 46,
+          "index_title": "THE FRIEND"
+        },
+        {
+          "authority_title": "The beer cost one copper. This became important in the morning. I had one copper. One. Old Greg had owned property. Probably. Present Greg had breakfast money. Maybe. I ate at the lodging house because the cook would put breakfast against tomorrow if I asked. I did not ask. Pride was expensive.",
+          "chapter_number": 47,
+          "index_title": "THE SECOND"
+        },
+        {
+          "authority_title": "Lio lived above a cooper. This became obvious before Sevren said anything because the stairwell smelled like wet oak, old beer, and heat. The stove was on the third floor. Of course.",
+          "chapter_number": 48,
+          "index_title": "THE COMPANION"
+        },
+        {
+          "authority_title": "The next morning, Sevren went north. I went to Arlo. This was not because Sevren went north. Probably. The regulator was still wrapped in cloth beside my bed. Six washers. Notes. Cold test. Orientation test. Vibration test still owed. Arlo had asked for mechanical vibration specifically. Not mana. Good. I ate before leaving. No dramatic accounting. Also good. The workshop door was open.",
+          "chapter_number": 49,
+          "index_title": "THE TESTER"
+        },
+        {
+          "authority_title": "I arrived at Arlo's at the second bell. The door was already open. That meant Arlo was working. It did not mean he was waiting for me. Better distinction. Vessa was outside with a bucket of broken ceramic. She saw me.",
+          "chapter_number": 50,
+          "index_title": "THE RECORDER"
+        },
+        {
+          "authority_title": "The blister was worse in the morning. Not dramatically. It had simply become more interested in existing. I found it while buttoning my shirt. A tender spot at the base of my thumb, skin lifted and pale at the edge. I pressed it once. Bad decision. I stopped pressing it.",
+          "chapter_number": 51,
+          "index_title": "THE SIGNAL"
+        },
+        {
+          "authority_title": "I went back to the Guild the next morning because I had left the route report there. This was not urgent. I knew that. I went anyway. The field desk was quieter than yesterday. A different clerk sat behind it, a woman with ink on the side of her hand and a stack of folded route sheets beside her. She looked up.",
+          "chapter_number": 52,
+          "index_title": "THE SIGNATORY"
+        },
+        {
+          "authority_title": "The Guest",
+          "chapter_number": 53,
+          "index_title": "THE GUEST"
+        },
+        {
+          "authority_title": "The Interpreter",
+          "chapter_number": 54,
+          "index_title": "THE INTERPRETER"
+        },
+        {
+          "authority_title": "The Extra Hand",
+          "chapter_number": 55,
+          "index_title": "THE EXTRA HAND"
+        },
+        {
+          "authority_title": "The Spotter",
+          "chapter_number": 56,
+          "index_title": "THE SPOTTER"
+        },
+        {
+          "authority_title": "The Watcher",
+          "chapter_number": 57,
+          "index_title": "THE WATCHER"
+        },
+        {
+          "authority_title": "The Regular",
+          "chapter_number": 58,
+          "index_title": "THE REGULAR"
+        },
+        {
+          "authority_title": "The Tenant",
+          "chapter_number": 59,
+          "index_title": "THE TENANT"
+        },
+        {
+          "authority_title": "The Surveyor",
+          "chapter_number": 60,
+          "index_title": "THE SURVEYOR"
+        },
+        {
+          "authority_title": "The Inspector",
+          "chapter_number": 61,
+          "index_title": "THE INSPECTOR"
+        },
+        {
+          "authority_title": "The Backstop",
+          "chapter_number": 62,
+          "index_title": "THE BACKSTOP"
+        },
+        {
+          "authority_title": "The Backstop",
+          "chapter_number": 63,
+          "index_title": "THE BACKSTOP"
+        },
+        {
+          "authority_title": "The Patient",
+          "chapter_number": 64,
+          "index_title": "THE PATIENT"
+        },
+        {
+          "authority_title": "The Ward",
+          "chapter_number": 65,
+          "index_title": "THE WARD"
+        },
+        {
+          "authority_title": "The Absent",
+          "chapter_number": 66,
+          "index_title": "THE ABSENT"
+        },
+        {
+          "authority_title": "The Claimant",
+          "chapter_number": 67,
+          "index_title": "THE CLAIMANT"
+        },
+        {
+          "authority_title": "The Novice",
+          "chapter_number": 68,
+          "index_title": "THE NOVICE"
+        },
+        {
+          "authority_title": "The Lodger",
+          "chapter_number": 69,
+          "index_title": "THE LODGER"
+        },
+        {
+          "authority_title": "The Applicant",
+          "chapter_number": 70,
+          "index_title": "THE APPLICANT"
+        },
+        {
+          "authority_title": "The Counter",
+          "chapter_number": 71,
+          "index_title": "THE COUNTER"
+        },
+        {
+          "authority_title": "The Friend",
+          "chapter_number": 72,
+          "index_title": "THE FRIEND"
+        },
+        {
+          "authority_title": "The Tenant",
+          "chapter_number": 73,
+          "index_title": "THE TENANT"
+        },
+        {
+          "authority_title": "The Consultant",
+          "chapter_number": 74,
+          "index_title": "THE CONSULTANT"
+        },
+        {
+          "authority_title": "The Returner",
+          "chapter_number": 75,
+          "index_title": "THE RETURNER"
+        },
+        {
+          "authority_title": "The Descender",
+          "chapter_number": 76,
+          "index_title": "THE DESCENDER"
+        },
+        {
+          "authority_title": "The Sorter",
+          "chapter_number": 77,
+          "index_title": "THE SORTER"
+        },
+        {
+          "authority_title": "The Archivist",
+          "chapter_number": 78,
+          "index_title": "THE ARCHIVIST"
+        },
+        {
+          "authority_title": "The Spectator",
+          "chapter_number": 79,
+          "index_title": "THE SPECTATOR"
+        },
+        {
+          "authority_title": "The Customer",
+          "chapter_number": 80,
+          "index_title": "THE CUSTOMER"
+        },
+        {
+          "authority_title": "The Debtor",
+          "chapter_number": 81,
+          "index_title": "THE DEBTOR"
+        },
+        {
+          "authority_title": "The Reconciler",
+          "chapter_number": 82,
+          "index_title": "THE RECONCILER"
+        }
+      ]
+    },
+    {
+      "code": "numeric_dependencies",
+      "counts_by_file_category": {
+        "art": 78,
+        "docs": 11,
+        "metadata": 4948,
+        "other": 52,
+        "reader": 5930,
+        "script": 351,
+        "state": 5337
+      },
+      "counts_by_kind": {
+        "asset_name": 2873,
+        "chapter_art_path": 2290,
+        "chapter_field": 1528,
+        "chapter_text": 6863,
+        "checkpoint_name": 4,
+        "reader_query": 101,
+        "reader_slug": 3048
+      },
+      "counts_by_risk": {
+        "hard": 6971,
+        "soft": 9736
+      },
+      "message": "Chapter numbers remain embedded across repository surfaces and require resolver or migration handling before renumbering.",
+      "reference_count": 16707
+    }
+  ],
+  "overall_status": "BLOCKED",
+  "safe_now": [
+    {
+      "code": "read_only_audit",
+      "message": "Whole-book structural mapping and hotspot audit are safe because they do not mutate prose, numbering, URLs, or art."
+    },
+    {
+      "chapter_count": 434,
+      "code": "stable_identity_inventory",
+      "message": "Stable IDs can be generated for current discovered chapter authority without renumbering the book."
+    }
+  ],
+  "schema_version": 1,
+  "summary": {
+    "blocker_count": 1,
+    "dependency_references": 16707,
+    "manuscript_endpoint": 434,
+    "migration_item_count": 3,
+    "reader_chapter_count": 434,
+    "registry_chapters": 434,
+    "safe_item_count": 2
+  }
+}
