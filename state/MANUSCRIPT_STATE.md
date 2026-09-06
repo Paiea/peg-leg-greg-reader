@@ -1,131 +1,97 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 461 - **THE SURVIVOR**.
-- Exact Chapters 249-461 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
+- Current exact story endpoint: Chapter 462 - **THE PATHFINDER**.
+- Exact Chapters 249-462 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
 
 ## Active correction overlays
-These corrections outrank older exact checkpoint spellings and must be applied during manuscript integration and all future references.
+- Ch432 forewoman: **Rika Dorn**, not Nessa Vale.
+- Lakeward/Morrow cleanup remains active: **Jonah Sol, Garrick Sol, Helena Sol, Ada, June, Celia Brohm, Elias Mercer, Sabine Orlow, Danton Pike, Judith Fen, Walter Ardin, Owen Senn** replace the drifted/reused names recorded in prior checkpoints.
+- Ch460 editorial naming-cleanup meta passage remains omitted during integration.
 
-### Existing protected correction
-- Chapter 432 north-slope road forewoman: **Rika Dorn**, not Nessa Vale.
+## Naming guardrail
+Before any new named character: check `BOOK1_NAME_REGISTRY_CH82.md` and current state for exact/TTS/syllable/surname collision. Temporary people do not automatically need names. Do not narrate editorial naming cleanup inside Greg POV.
 
-### Lakeward / Morrow naming cleanup
-- Ch458 onward **Perrin Sol -> Jonah Sol**.
-- Ch458 onward **Teren Sol -> Garrick Sol**.
-- Ch459 onward **Sera Sol -> Helena Sol**.
-- Ch459 onward sisters **Lio / Mina -> Ada / June**.
-- Ch458 Lakeward water clerk **Aven Rusk -> Celia Brohm**.
-- Ch458 Glass Heron pilot **Rian Kett -> Elias Mercer**.
-- Ch459 crate-pad supervisor **Hala Renn -> Sabine Orlow**.
-- Ch459 Morrow cart driver **Nemi Cross -> Danton Pike**.
-- Ch456 Signal House keeper **Mara Fen -> Judith Fen**.
-- Ch453 Bell Store supervisor **Pell Ardin -> Walter Ardin**.
-- Ch453 dust-moth courier **Toma Senn -> Owen Senn**.
+## Durable workflow addition: periodic action pressure
+- `MANUSCRIPT_WORKFLOW.md` now explicitly requires a 3–6 chapter action-rhythm check.
+- PLG is not action every chapter, but long physically safe runs should create pressure toward an organic action scene.
+- Action may come from terrain/weather/environmental magic, dangerous work/infrastructure, magical ecology, human conflict, rescue/pursuit/accident, or earned combat.
+- Actual fighting is allowed and should recur occasionally when earned.
+- Greg's old S-class recognition/timing/positioning can surface sharply under danger while current body/rank remain hard constraints.
+- Vary action grammar. Do not solve every rhythm dip with falling rocks, loose animals, or random monsters.
+- Action should leave residue in injury, information, route, resources, relationships, confidence, or future choices.
+- After substantial action, quieter consequence/recovery is allowed. This is rhythm pressure, not quota.
 
-### Ch460 prose cleanup overlay
-- Omit the brief internal/meta naming-cleanup passage beginning `That name was new.` and ending `same small sack of syllables.` It is editorial scaffolding, not story-world prose.
+## Current quest / location
+- Mirror Spring contract remains active.
+- Route: **Morrow -> White Reed -> Sleeping Stone -> Three Sisters Hollow -> Mirror Spring**.
+- Ch462 ends with Greg camping in **Three Sisters Hollow**, alone, after reaching the contractual Three Sisters threshold and discovering the old lower bench is genuinely cut.
+- Mirror Spring remains beyond the current route problem and has not been reached.
 
-## Naming guardrail going forward
-Before introducing any named character, especially temporary road/quest NPCs:
-1. Check `BOOK1_NAME_REGISTRY_CH82.md` and current state for exact reuse.
-2. Check first syllable, ending, TTS similarity, surname reuse, and nearby social context.
-3. Prefer a wider natural naming palette over repeated short fantasy forms.
-4. Established family surnames are not generic surname stock.
-5. Temporary NPCs do not all need names.
-6. Prefer names easy to distinguish aloud.
-7. Do not perform naming commentary inside Greg's narration.
+## Chapter 462 - THE PATHFINDER
 
-## Current location / quest
-- Greg is alone on the old Morrow story-route toward **Mirror Spring**.
-- Quest route: **Morrow -> White Reed -> Sleeping Stone -> Three Sisters Hollow -> Mirror Spring**.
-- Objective remains route/water observations plus, if safely possible, a valid sealed district supplemental spring sample.
-- Ch461 ends with Greg sheltering overnight at **Sleeping Stone** after a terrain-action sequence and shoulder impact.
-- Next major place is **Three Sisters Hollow**.
+### Shoulder / morning decision
+- Greg's right shoulder is improved after Sleeping Stone night but remains bruised and painful, especially overhead.
+- Gradual seated and standing crutch-load tests are stable with ache but no sharp catch.
+- He explicitly refuses to continue merely because turning back would feel like failure; he continues because shoulder is functional, weather is dry enough, supplies are sufficient, and Three Sisters remains a plausible next assessment point.
+- Trial limb remains wrapped/unused on rough route.
 
-## Chapter 461 - THE SURVIVOR
+### Sleeping Stone -> Three Sisters route finding
+- Above Sleeping Stone, route becomes briefly easier and physically uneventful, allowing shoulder/body arithmetic to matter.
+- Garrick's route memory says: `keep water wall until wall turns inward; cross hollow where sisters show together.`
+- Story-memory says: `When three sisters share one shadow, leave the old water and walk between them.`
+- Old water wall ends at a pale gravel fan and two possible tracks.
+- Greg backs to last certain point rather than guessing forward.
+- Haze later reveals the three basalt spires farther north; the upper track is the better-supported route because the Sisters show together from it and an old squared stone suggests prior infrastructure.
+- Story and practical route memory overlap but are not treated as identical instructions.
 
-### Role / title
-- Greg is **THE SURVIVOR** because the old route produces its first serious terrain failure and he survives primarily through positioning, restraint, and one emergency magic deflection rather than athletic heroics.
+## Three Sisters Hollow
+- Three Sisters are three tall narrow basalt fins above a broad hollow with grass, stone, and old slide scars.
+- Greg reaches the contractual **Three Sisters threshold**.
+- Old lower bench condition: first portion intact, middle portion **gone/cut through by slide scar**, opposite bench resumes roughly across the gap.
+- Loose north-face upper track is visible and remains explicit **NO-GO** under Garrick's warning. Greg does not use it.
+- Reaching Three Sisters with useful unsafe-route notes means the contract's 4c fallback is now plausibly earned if he returns.
+- Greg notices that this money incentive could bias safety judgment and deliberately brackets it.
 
-## Split oak / route finding
-- Greg finds the split oak alive only in part: one trunk gray/dead, one carrying a few yellowing leaves.
-- He correctly rejects the washed charcoal-cut branch and stays with the old water wall/right-hand route.
-- A recent-looking three-stone stack and uncertain possible tread impressions mark the charcoal branch mouth; Greg records them as deliberate/recent-looking but does not infer who placed them or why.
-- Old channel alternates between dry and damp sections; no continuous surface flow/source connection claimed.
+## Southern lower bypass discovery
+- Safe survey of the hollow reveals old stone steps at the southern side descending beneath trees.
+- Steps lead to an old retaining shelf below the slide toe, not the warned north-face upper track.
+- Several branches along descent were deliberately cut relatively recently; some cut leaves remain partly green. Identity/timing/purpose unknown.
+- Shelf reaches a narrow running stream emerging through/near broken old stone infrastructure below the bench line.
+- This water is **not** claimed to be Mirror Spring water; source relationship remains unknown.
+- A weathered plank crossing exists but is cracked and rejected.
+- A broader shallow ford exists a short distance south.
 
-## Active slide / action scene
-- Before Sleeping Stone, an approximately twenty-foot earth/root slide has erased the old trail.
-- Greg scouts from stable edge and hears hollow stone/load noises.
-- Upper root mat releases while he is still near the edge, causing a second movement of dirt, roots, and stone.
-- Greg cannot run, so old S-class judgment compresses the problem into positioning:
-  - lower center;
-  - use old channel wall as cover;
-  - retreat toward a thicker wall section rather than downhill on crutches.
-- A large flat slab strikes and partially collapses the thinner channel wall section he had been using.
-- A smaller stone fragment comes over the wall toward his head/face line.
+## Ford test / pressure beat
+- Greg tests the shallow ford conservatively with crutches.
+- Water initially appears around ankle depth with visible bottom and stable first placements.
+- Mid-test, a brief stronger water pulse pushes harder against crutch shafts and raises water around his right ankle.
+- Greg freezes, lowers center, waits, then backs out along the same route after the pulse eases.
+- No fall, no injury, no magic.
+- Cause of pulse unknown. Greg records timing/weather/observed change only.
+- This is a smaller pressure beat following Ch461's substantial action, not another full action centerpiece.
 
-## Emergency magic / external 139
-- Greg uses magic reflexively in genuine danger, not as a laboratory attempt.
-- **External 139:** one close-range emergency deflection of moving stone fragment.
-- The fragment visibly changes laterally enough to miss head/face line and clips Greg's right shoulder instead before striking dirt.
-- No measurement, no repeat, no precision claim.
-- Plausible interpretations remain open: need/adrenaline narrowed intent; moving-object deflection may require less than moving static object; lucky geometry may have contributed.
-- Greg explicitly refuses to theorize aggressively or repeat-test afterward.
-- Protocol advances to **59 minimal / 53 shaping / 139 external**.
+## Story-memory / shared shadow
+- Later-day sun angle causes the three spire shadows to touch across the hollow near the southern descent mouth.
+- Greg notes the old phrase `three sisters share one shadow` may encode time/season/position or route visibility rather than literal magic.
+- This is explicitly **not established** and may be coincidence.
+- It reinforces the quest's moʻolelo-like structural principle: durable image can preserve practical place/time knowledge imperfectly.
 
-## Injury / body consequences
-- Greg is unharmed in head/neck/chest/right leg/residual limb.
-- Right shoulder takes the fragment impact.
-- Shoulder remains functional and load-bearing but painful, especially overhead.
-- No obvious deformity; bruise begins forming by Sleeping Stone.
-- Crutches remain visually intact, tips/shafts functional.
-- Trial limb remains wrapped/unused and intact.
-- Sample bottle remains sealed, empty, padded, and intact.
-- Greg acknowledges he made an error by stepping onto the edge after hearing load warning; old experience does not excuse overconfidence.
-
-## Route decision after slide
-- Greg does **not** cross the active slide face.
-- He rests, checks shoulder, and seriously considers returning to White Reed.
-- He identifies a rooted uphill bypass beginning well before the slide scar and proceeds conditionally rather than to prove toughness.
-- Bypass is physically ugly: slow root-assisted climbing, sitting, moving pack separately at points, no dignity optimization.
-- Shoulder remains painful but does not worsen materially during bypass.
-- Above slide crown Greg finds two squared stone anchor blocks with heavily rusted iron loops; records them as possible old route/channel maintenance infrastructure, function unknown.
-- Old exposed wire from Ch460 may be related but this is **not** established and should not become instant conspiracy.
-
-## Water observation after bypass
-- Beyond the slide, old channel contains a thin ribbon of actual surface water running downhill.
-- Greg does not sample/taste it or infer source connection.
-- Possible local seep/disturbed-slope/branch contribution remains open.
-- District sample bottle remains reserved for Mirror Spring/source procedure.
-
-## Sleeping Stone
-- Greg reaches **Sleeping Stone** by late day.
-- It is a long black slab over shallow shelter, rounded like a shoulder/back under blanket, so the story name corresponds strongly to visible geography.
-- Downhill/lower face is mossed; upper face drier.
-- A small seep issues from an uphill crack behind overhang.
-- Story-memory therefore matches a real persistent wet micro-site, but Greg does not infer why or connect it directly to Mirror Spring.
-- Human-use traces show Sleeping Stone has been used more recently than Garrick's nine-year route memory might imply:
-  - old soot/fire ring;
-  - relatively clean cut orchard twine in back corner;
-  - confused/undatable foot traffic.
-- No person is present and no new NPC is named.
-
-## Camp / timing
-- Greg chooses to stop at Sleeping Stone rather than push farther after action/injury/bypass.
-- First quest night in an unsold/noncommercial shelter.
-- Food/water/blanket supply remain sufficient but finite within the employer's three-day plan.
-- East wind reaches the overhang weakly, partially matching story-memory that Sleeping Stone is dry except under east wind.
-- Next-day go/no-go depends partly on overnight shoulder condition.
-
-## Economy / tools
+## Camp / decision
+- Greg chooses a dry shallow rock lip in Three Sisters Hollow as second quest-night shelter rather than forcing a crossing or retreating all the way to Sleeping Stone before dark.
+- No fire.
+- Shoulder bruise is darker but load-bearing remains stable after rest; no obvious new swelling.
+- District bottle remains sealed/empty/intact.
+- Magic remains **59 / 53 / 139**; emergency 139 is not retested.
+- Lot 67 remains packed.
+- Trial limb remains wrapped.
 - Cash unchanged **12c / 23c Vale / bits unspecified**.
-- Temporary 10c floor remains active.
-- Trial limb no wear Ch461; healthy/wrapped.
-- Crutches primary and functional.
-- Lot 67 remains packed/unused.
-- District sample bottle remains sealed/empty/intact.
-- Jonah's loaned water flask remains with Greg.
+
+## Time / supply pressure
+- Day 1: Morrow -> White Reed -> Sleeping Stone.
+- Day 2: Sleeping Stone -> Three Sisters Hollow.
+- Employer supplied nominal three-day food. Greg has not exhausted it, but a full Mirror Spring push plus return now exceeds the original casual two-day memory and pressures the three-day plan.
+- Continuing requires a changed plan rather than simply walking harder.
 
 ## Current inventory
 Greg carries:
@@ -145,53 +111,49 @@ Greg carries:
 14. Jonah's ordinary water flask, to return.
 
 ## Protected uncertainties
-- Greg ends Ch461 **under Sleeping Stone**, alone.
+- Greg ends Ch462 alone at **Three Sisters Hollow**.
 - Cash **12c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 139**.
-- Right shoulder bruised/painful but currently functional; overnight condition unknown.
-- Slide below Sleeping Stone remains active/unsafe to cross directly; Greg bypassed it uphill on rooted terrain.
-- Two rusted anchor blocks above slide have unknown original function.
-- Thin old-channel surface water beyond slide has unknown source.
-- Sleeping Stone seep/moss confirm local persistent moisture only, not Mirror Spring condition.
-- Recent-ish orchard twine indicates some later human use of shelter, identity/timing unknown.
-- Three Sisters lower bench remains unknown; loose north-face upper track remains explicit no-go if lower bench is cut.
-- Mirror Spring condition unknown.
-- No permanent companion.
+- Right shoulder improved from Ch461 morning but remains bruised/painful; tomorrow condition unknown.
+- Lower bench is cut/gone through middle.
+- North-face upper track remains explicit no-go and unused.
+- Southern old stone descent/lower shelf is real and shows recent branch cutting, but current user/maintainer unknown.
+- Cracked plank rejected.
+- Shallow southern ford experienced one brief stronger pulse; cause and repeatability unknown.
+- Running stream below bench has unknown relationship to Mirror Spring.
+- Mirror Spring condition/source cause remains unknown.
+- District bottle remains sealed/empty.
+- No permanent companion and no new named NPC Ch462.
 
-## Adventure mandate
-- Continue the Mirror Spring quest as a real multi-chapter adventure.
-- User explicitly wants periodic additional action. Action should arise from terrain, magic ecology, human conflict, or route consequences rather than generic random monsters.
-- Greg's old S-class competence should increasingly matter in genuine danger, but current body, pain, rank, and mobility remain limiting.
-- Do not let every danger become a magic showcase. Emergency 139 was useful and costly enough to stand on its own.
-- Story-place memory and present terrain should continue to agree imperfectly rather than reenact legend exactly.
+## Chapter 463 trailhead
+Follow next actual claim from Ch462/current authority.
 
-## Chapter 462 trailhead
-Follow next actual claim from Ch461/current authority.
-
-Greg begins **12c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**, under **Sleeping Stone** after first quest night.
+Greg begins **12c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**, at Three Sisters Hollow on quest morning Day 3.
 
 Strong movement:
-- First check shoulder function after sleep. If materially worse, turning back must remain a legitimate possibility.
-- If functional enough, move toward **Three Sisters Hollow**. Do not skip its approach or landslide context.
-- Sleeping Stone's recent orchard twine/human-use trace may matter later, but do not immediately introduce a mystery stranger unless earned.
-- The old route should become more isolated and less maintained above Sleeping Stone.
-- Three Sisters is the contractual threshold where useful unsafe-route information can still earn 4c. That makes the go/no-go decision economically and ethically real.
-- The lower bench condition must be assessed honestly. If cut, the loose north-face upper track remains explicit no-go unless entirely new safe information materially changes that, which should be difficult.
-- Mirror Spring should still not be solved in Ch462 unless story movement overwhelmingly earns it.
-- Emergency external 139 should not be immediately repeated as a test.
-- Trial limb probably remains wrapped on rough route; shoulder pain may change crutch strategy and pacing.
-- Consider a different kind of pressure next: water/weather/magical ecology/human trace rather than another rockslide.
+- Recheck shoulder and observe the southern ford before committing.
+- The 4c fallback is now legitimately available if Greg turns back with useful notes. That makes any choice to continue more meaningful because he can safely get paid by leaving.
+- Recent branch cuts suggest somebody has used/cleared the lower bypass recently. Treat as evidence, not guaranteed safety.
+- If ford is lower/stable and return margin remains credible, Greg may make a bounded crossing and determine whether lower shelf rejoins the old route toward Mirror Spring.
+- If conditions remain unstable or shoulder worsens, turning back is a real, non-cowardly outcome.
+- Continuing should cost something: time, food margin, body reserve, route certainty, or eventual return difficulty. Do not hand-wave the three-day supply clock.
+- Mirror Spring may become reachable in Ch463 or later if earned, but do not collapse discovery, sample, cause interpretation, and return consequences into one chapter.
+- The next substantial action scene does **not** need to happen immediately because Ch461 just supplied one and Ch462 supplied a smaller ford-pressure beat. Use the new workflow pressure over future chapters rather than quota-firing now.
+- If a human trace becomes a human encounter, check name registry first and only name them if they materially matter.
+- Lot 67 remains packed unless a real comparative timing problem arises.
+- Magic remains available in genuine need but do not schedule external 140.
 
 Avoid:
-- another immediate landslide/action beat of the same type;
-- casual healing/reset of shoulder;
-- generic monster attack solely for excitement;
-- surprise permanent companion;
-- literal proof that story is perfectly true;
-- source solution before route/Three Sisters earns it;
-- new named NPC unless the person truly matters.
+- using the forbidden north-face route;
+- pretending the recent cuts prove safety;
+- sudden healing of shoulder;
+- free resupply;
+- random monster just because action directive exists;
+- literal story reenactment;
+- immediate proof of water theft;
+- resolving the entire quest before return/social consequences.
 
-**MANDATORY TITLE CHECK CH462:** answer `Who is Greg being?` before title. Use THE [ROLE]. Check title history before use.
+**MANDATORY TITLE CHECK CH463:** answer `Who is Greg being?` before title. Use THE [ROLE] and check title history.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
