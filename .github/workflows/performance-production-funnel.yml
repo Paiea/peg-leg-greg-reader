@@ -10,6 +10,7 @@ on:
       - 'scripts/performance_production_funnel.py'
       - 'tests/test_performance_production_funnel.py'
       - 'tests/test_performance_production_ir.py'
+      - 'tests/test_performance_production_workflow.py'
       - '.github/workflows/performance-production-funnel.yml'
   workflow_dispatch:
 
@@ -28,7 +29,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Run focused PERFORMANCE compiler tests
-        run: python -m unittest tests.test_performance_production_funnel tests.test_performance_production_ir -v
+        run: python -m unittest tests.test_performance_production_funnel tests.test_performance_production_ir tests.test_performance_production_workflow -v
       - name: Validate production batch
         run: python scripts/performance_production_funnel.py --batch state/editorial/performance-production/batch-027-075.json
       - name: Apply earned PERFORMANCE survivors
