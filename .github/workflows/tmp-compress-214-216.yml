@@ -25,7 +25,7 @@ jobs:
           SURFACES = [Path('chapters'), Path('light')]
 
           def prose(html):
-              m = re.search(r'<article class="prose"[^>]*>(.*?)</article>', html, re.S)
+              m = re.search(r'<article class="(?:prose|chapter-prose)"[^>]*>(.*?)</article>', html, re.S)
               if not m: raise AssertionError('missing prose article')
               return re.sub(r'<br>\s*', ' ', m.group(1))
 
@@ -42,7 +42,6 @@ jobs:
 
           stats = {}
           for surface in SURFACES:
-              # Chapter 214: keep the actual Bren escalation, cut repeated setup and procedural theatre work.
               p = surface / '214.html'
               old = p.read_text(encoding='utf-8')
               new = replace_between(
@@ -68,12 +67,14 @@ jobs:
               p.write_text(new, encoding='utf-8')
               stats[str(p)] = {'before': words(prose(old)), 'after': words(prose(new))}
 
-              # Chapter 215: its useful state moves into 216; the chapter boundary no longer earns itself.
               p = surface / '215.html'
               old = p.read_text(encoding='utf-8')
+              def merged_article(match):
+                  cls = match.group(1)
+                  return f'<article class="{cls}" data-structural-status="merged"><p>This legacy chapter address is retained during structural editing. Its surviving story material has been merged into Chapter 216 under stable manuscript identity.</p></article>'
               merged = re.sub(
-                  r'<article class="prose">.*?</article>',
-                  '<article class="prose" data-structural-status="merged"><p>This legacy chapter address is retained during structural editing. Its surviving story material has been merged into Chapter 216 under stable manuscript identity.</p></article>',
+                  r'<article class="(prose|chapter-prose)">.*?</article>',
+                  merged_article,
                   old,
                   count=1,
                   flags=re.S,
@@ -82,7 +83,6 @@ jobs:
               p.write_text(merged, encoding='utf-8')
               stats[str(p)] = {'before': words(prose(old)), 'after': words(prose(merged))}
 
-              # Chapter 216: absorb the only useful 215 state and get to the distinctive wedding quickly.
               p = surface / '216.html'
               old = p.read_text(encoding='utf-8')
               new = replace_between(
@@ -107,7 +107,6 @@ jobs:
               p.write_text(new, encoding='utf-8')
               stats[str(p)] = {'before': words(prose(old)), 'after': words(prose(new))}
 
-          # Cross-surface and protected-beat verification.
           for n in (214, 215, 216):
               a = prose((ROOT/'chapters'/f'{n}.html').read_text(encoding='utf-8'))
               b = prose((ROOT/'light'/f'{n}.html').read_text(encoding='utf-8'))
