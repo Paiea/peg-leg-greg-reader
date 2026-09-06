@@ -1,8 +1,8 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 489 - **THE TIMER**.
-- Exact Chapters 249-489 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
+- Current exact story endpoint: Chapter 490 - **THE CONTRACTOR**.
+- Exact Chapters 249-490 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
 - Permanent running-manuscript consolidation still has known integration debt; do not reconstruct missing exact text from summaries.
 
 ## Active correction overlays
@@ -12,179 +12,201 @@
 
 ## Current progression direction
 - `state/PROGRESSION_ENGINE.md` remains authoritative for earning power / capital progression.
-- Current economic method increasingly favors **brokerage / arbitrage / coordination / management / eventual ownership**, not endless small-job accumulation.
+- Current economic method increasingly favors **brokerage / arbitrage / coordination / management / contracting / eventual ownership**, not endless small-job accumulation.
 - Ch484 proves Greg can move a **1 silver + 2c** transaction without owning inventory.
 - Ch485-486 prove he can accept and complete bounded organizer responsibility across multiple competent crews while preserving specialist authority.
 - Ch486 pushed Greg over the old 30c liquid-reserve milestone at **32c cash**.
-- Ch487 activated debt closure carefully: Greg verified Vale and Hark & Venn first, paid 12c to Vale, and preserved reserve/working capital.
-- Ch488 deliberately changed grammar and let theatre exist as theatre. Greg worked as an actor for a half-day rehearsal rather than as coordinator, broker, prompt substitute, or financial problem-solver.
-- Ch489 returns to Hessa's magic lane after sufficient breathing room and narrows the next experimental problem to timing/response latency without granting practical capability.
-- Debt closure remains active as progression but should breathe. Vale can remain at 11c until later surplus makes clearing it genuinely casual.
+- Ch487 verified Vale/Hark & Venn, paid Vale materially, and preserved reserve.
+- Ch488 lets theatre exist as theatre and Greg as an imperfect actor.
+- Ch489 advances controlled external-magic protocol without granting practical capability.
+- Ch490 corrects the debt pacing problem: Greg's improved earning power produces **14c in one day**, and the remaining **11c Vale debt disappears as an ordinary line item** afterward rather than consuming another long repayment arc.
+- Vale debt closure is now complete. Do not resurrect it, replace it with imaginary obligations, or make debt freedom a morality theme.
+- The next economic ratchet should increasingly ask what Greg can coordinate, contract, own, or finance at larger scale rather than how many tiny jobs he can stack.
 
 ## Current financial / body / magic state
-- Greg ends Ch489 **home in Carrow**.
-- Cash **21c**.
-- Vale balance remains **11c**.
-- Bits remain unspecified after ordinary small spending, including roasted beans.
-- Greg's **10c survival floor** remains active.
-- Vale terms remain flexible: cash accepted; pre-agreed work credit can reduce account; no fixed installment; no schedule penalty; surplus payment preferred over repayment that makes Greg unable to work.
+- Greg ends Ch490 **home in Carrow**.
+- Cash **24c**.
+- Vale balance **0c / CLOSED**.
+- Bits remain unspecified after ordinary food/apple spending.
+- Greg's **10c survival floor** remains active, leaving **14c above floor**.
+- Reed-glass introduction fee remains paid/closed.
 - Work-limb quote remains **1 silver + 18c** with the existing **20c deposit received/applied**.
 - Nothing is currently scheduled due to Hark & Venn before final acceptance unless terms later change.
+- Final balance remains due on final acceptance unless shop/customer agree otherwise.
+- Early Hark & Venn payment currently changes only account balance, not production timing/material priority/fit schedule.
 - Hark & Venn still holds trial socket / temporary ash shaft / medium test foot; Greg has liner at home.
-- Protocol is now **59 / 53 / 159** after twelve supervised external attempts in Ch489.
+- Protocol remains **59 minimal / 53 shaping / 159 external**.
 - Greg remains on two crutches outside supervised fitting use.
-- Low magic-session fatigue plus ordinary city/body fatigue only; no new injury or skin break.
-- No independent testing is authorized.
+- Ch490 produces ordinary crutch/shoulder/hand work fatigue only. No new injury or skin break.
+- No magic attempts occur in Ch490.
 
 ## Recent live lanes
 
-### South Road organizer term
-- Four-day organizer term is complete and fully paid: **14c total** across Ch485-486.
-- Field office can support a narrow future reference: **four-day organizer term completed with accepted records**.
-- No permanent job, guaranteed repeat work, crew ownership, hiring authority, or future organizer pipeline is established.
-
 ### Vale / debt closure
-- Ch487 verified Vale at 23c, paid 12c, and reduced balance to **11c**.
-- Greg does not pay Vale in Ch488 or Ch489.
-- Do not force another debt-payment scene merely because the remaining balance is smaller.
-- Do not invent other debts. Verify first.
+- Ch487 verified Vale at 23c and paid 12c, reducing balance to 11c.
+- Ch488-489 left that 11c alone while Greg preserved working capital.
+- Ch490 begins at 21c cash / 11c Vale, pays Greg 14c for a one-day coordination contract, temporarily moving cash to **35c**.
+- Greg then verifies Vale is still exactly **11c**, pays it in full, and receives a **PAID / BALANCE ZERO** receipt.
+- Cash after closure is **24c**.
+- Vale debt is complete. Antonius remains a person/relationship/business contact, not a debt mechanic.
 
 ### Hark & Venn / work limb
 - Existing quote remains **1s18c**; 20c deposit is applied.
 - No current storage fee, new fitting fee, approved price change, or payment due is established.
 - Final balance is due on final acceptance unless another agreement is made.
-- Early payment currently changes only account balance, not production timing/material priority/fit schedule.
 - Work limb is not finished or presented for final acceptance.
+- Do not pay early merely because Vale is gone.
+- Hark & Venn should re-enter only through real shop word, fit request, completion/presentation, or another material change.
+
+### Hessa / magic
+- Protocol remains **59 / 53 / 159**.
+- Ch482 established only candidate moving-target sensitivity.
+- Ch489 added twelve supervised moving-shuttle attempts using early/middle/late timing windows and travel-relative right direction.
+- Ch489 net: **2 clean / 2 unclear / 8 no-clean**.
+- Early: 1 clean / 1 unclear / 2 no-clean across four attempts.
+- Middle: 1 clean / 1 unclear / 3 no-clean across five attempts.
+- Late: 0 clean / 0 unclear / 3 no-clean across three attempts.
+- No optimal timing window is established.
+- Travel-relative framing remains plausible but unproven.
+- Motion remains only a candidate condition.
+- Greg's own response latency is now an identified confound; possible future fixed cue/bell/mechanical cue/second observer remains uncommitted.
+- No practical interruption/deflection capability, sub-object control, useful force, people-targeting, or independent testing is established.
+- Hessa's **NO INDEPENDENT TESTING** restriction remains active.
 
 ### Theatre
-- **Renn is back** and recovered enough to resume prompt-side work.
+- Renn is back and recovered enough for prompt-side work.
 - Pell is currently sick but remains Harrow unless later exact prose changes that.
 - Nella remains a stronger actor than Greg.
-- Ch488's craft correction remains active: another person's timing and pause are not Greg's to optimize for them.
-- No permanent Harrow replacement or new acting contract is established.
+- Ch488's acting correction remains active: another person's timing/pause is not Greg's to optimize for them.
+- Greg earned 1c for a half-day rehearsal in Ch488, but theatre should not become a disguised primary economic engine.
 
-### Provenance / market
+### South Road / contracting reputation
+- Four-day South Road organizer term is complete and fully paid: **14c total** across Ch485-486.
+- Field office's narrow accepted reference is: **Completed organizer term with accepted daily records.**
+- Ch490 uses that reference once as a bridge. A West Market receiving house received three candidate names from the field office and chose Greg because he was physically closest, not because a permanent pipeline exists.
+- South Road still does not guarantee repeat work, hiring authority, crew ownership, or a permanent organizer post.
+
+### Provenance / market / artifacts
 - Greg's Road Response Kit remains legally **OPEN DISPOSAL**; old survey calibration marks are voided and do not certify current accuracy.
 - Provenance/title-release knowledge matters only when real transaction uncertainty makes it valuable.
 - North Freight has no standing obligation to send Greg more work.
 - Cross Street seller's fifth weak/unclear-chain sway shoe remains outside Greg's scope.
+- Stillhook remains Elian's; magical-displacement behavior, deeper provenance, repairability, maker/generation, and Elian's profession/use remain unresolved.
+- Artifact pressure can re-enter naturally through a real object/market/repair/salvage opportunity, but Greg should not be handed a consolation stillhook replacement.
 
-## Chapter 489 - THE TIMER
+## Chapter 490 - THE CONTRACTOR
 
 ### Role / title
-- Greg is **THE TIMER** because the chapter tests whether when he attempts the external effect changes visible response, then reveals that Greg's own response latency is part of the measurement problem.
-- Repository title search found no current `THE TIMER` collision before drafting.
+- Greg is **THE CONTRACTOR** because he accepts a one-day paid coordination contract directly rather than merely filling a shift or serving as an informal helper.
+- Repository title search found no current `THE CONTRACTOR` collision before drafting.
 
-### Starting authority
-- Greg begins Ch489 at **21c cash / 11c Vale / bits unspecified**, protocol **59 / 53 / 147**.
-- No independent attempts, emergencies, or noticed accidental magic occurred after Ch482 and before the supervised Ch489 session.
-- Hessa's prior candidate remains: **moving target / fixed track / known baseline**, with timing/reference comparisons later.
-- Ch482 authority remains narrow: two clean moving-target deviations in eight supervised external attempts, one unclear faster trial, two rest trials with no visible response, and remaining moving trials with no clean response.
-- Motion therefore remains only a candidate variable, not an established rule.
+### Contract origin / anti-destiny boundary
+- The South Road field office sends Greg the narrow accepted-term reference.
+- A separate West Market receiving house has an ill dispatch clerk and requests one-day coordination coverage.
+- The field office supplied three candidate names; Greg is chosen because he is the closest available candidate, not because the world has generated a protagonist-only job pipeline.
+- Contract terms are explicit:
+  - three inbound wagons;
+  - two receiving crews;
+  - one certified scale;
+  - receiving closes at sixth bell;
+  - **14c on accepted close record**;
+  - no start payment;
+  - no future work guarantee.
 
-### Timing-window protocol
-- Hessa uses the same shallow wooden track, the same poor-rolling wooden shuttle with central metal washer, charcoal edge, and padded stop.
-- Three nominal timing windows are marked: early / middle / late.
-- Hessa uses randomized cards and announces the requested timing window only after the shuttle starts moving, deliberately preventing Greg from settling into a predictable rotating block.
-- The randomized spoken cue introduces **Greg response latency** as a real confound; Hessa accepts that rather than pretending the design is cleaner than it is.
-- Direction target is **right of travel**, not room-right.
-- Track is reversed for one block so the same travel-relative direction maps to the opposite room direction.
-- External attempts advance **148-159**. Minimal/shaping counts remain unchanged.
+### Greg's authority remains bounded
+- Receiving master owns acceptance/rejection and late-arrival receiving decisions.
+- Scale clerk owns certified scale/weight state.
+- Cooper lead owns cask containment/safety assessment.
+- Warehouse lead owns storage placement.
+- Crew leads own unload method and crew deployment.
+- Greg owns arrival order, approved bay assignment, crew notice, scale queue, handoff timestamps, and current-state board.
+- Greg does not inspect seals as specialist, certify weights, declare casks safe, reject goods, or seize crew authority.
 
-### Exact Ch489 external results
-- **148** early: no visible response.
-- **149** late: no visible response.
-- **150** middle: unclear; end position within bad-wheel baseline spread.
-- **151** middle: no visible response.
-- Track reversed.
-- **152** early / right-of-travel: clean visible lateral deviation.
-- **153** late: no visible response.
-- **154** middle: no visible response.
-- **155** early: unclear; transient angle change cannot be separated cleanly from known wobble.
-- Track returned to original orientation.
-- **156** late: no visible response.
-- **157** middle: clean visible lateral deviation.
-- **158** early: no visible response.
-- **159** middle: no visible response.
-- Net Ch489 result: **2 clean / 2 unclear / 8 no-clean** across twelve moving-target attempts.
-- By nominal window:
-  - early: **1 clean / 1 unclear / 2 no-clean** across four attempts;
-  - middle: **1 clean / 1 unclear / 3 no-clean** across five attempts;
-  - late: **0 clean / 0 unclear / 3 no-clean** across three attempts.
-- Late therefore looks worse in this tiny sample, but no optimal timing window is established.
+### Live receiving problem
+- Three ordinary-commercial loads arrive: North kiln pigment, East cloth rolls, South lamp oil.
+- Cloth arrives before pigment despite plan assumptions and uses an alternate workable bay after crew/receiving approval.
+- Pigment later uses certified scale and Crew One splits labor by its own lead's decision.
+- Oil arrives with one replacement-hoop cask whose manifest weight does not match the certified scale.
+- Receiving master and cooper lead inspect/hold that cask; Greg does not certify it.
+- Greg keeps the disputed cask from blocking the certified scale so the other oil casks can clear before cellar/yard timing closes.
+- A runner returns with corrected depot paperwork showing the manifest gross belonged to the rejected original cask.
+- Corrected paperwork and actual certified scale state align within accepted tolerance; receiving master accepts the cask after cooper recheck.
+- Greg's close record is accepted before sixth bell.
+- Receiving master corrects Greg's phrase **"incorrect manifest"** to **"held pending discrepancy review"** because the error was not established at the moment of hold.
+- The chapter preserves the core evidence discipline: operational records describe what was established when, not what later turned out to be true.
 
-### Reference-direction boundary
-- One clean response occurs with the track reversed, so the effect does not disappear merely because room direction flips.
-- This keeps **travel-relative reference** plausible but does not prove it.
-- Hessa explicitly separates travel-relative direction from the old Ch312 marked-strip sub-object question.
-- Ch312 authority remains narrow: 76 left-region no response; 77 right-region one clean small rotation; 78 whole strip no response.
-- Ch489 clean right-of-travel responses do **not** establish sub-object targeting, chosen-part control, useful force, stopping, practical mass, people-targeting, reliability, or safe application.
+### Income / scale correction
+- Greg earns the exact **14c** contract fee in one day.
+- Cash moves **21c -> 35c** before debt payment.
+- This is intentionally a meaningful scale jump relative to prior 1c theatre labor and the four-day 14c South Road term.
+- The higher fee is justified by one-day urgency, multiple inbound loads, constrained receiving window, and the receiving house's much larger downside if its internal coordination fails.
+- Greg does not own the goods and does not receive a percentage of cargo value.
+- No permanent contract pipeline is created.
 
-### Response-latency confound
-- After magic attempts, Hessa runs simple non-magic cue-response checks with a wooden peg.
-- Greg's response timing varies and he begins anticipating cues; Hessa changes peg location and separates visual/auditory attention enough to demonstrate that Greg's own reaction timing is not fixed.
-- These non-magic checks do not alter protocol counts.
-- Candidate next experiment should isolate **Greg response latency / cue delivery** before trying to explain late-window underperformance as a magic property.
-- Possible future tools include a fixed bell, mechanical cue, or second observer, but none is committed as the next protocol yet.
-
-### Current magic claim
-- Protocol ends **59 minimal / 53 shaping / 159 external**.
-- Across Ch489's twelve supervised moving-shuttle attempts: two clean visible lateral deviations, two unclear, eight no-clean.
-- Late window has no clean result in only three attempts; sample is too small for strong timing claims.
-- Travel-relative framing remains plausible but unproven.
-- Motion remains only a candidate condition because no new rest comparison occurs in Ch489.
-- Better protocol is not the same as better ability.
-- No practical interruption/deflection capability is established.
-- Hessa's **NO INDEPENDENT TESTING** restriction remains unchanged.
-- Emergency use remains Greg's own judgment/risk; Ch489 does not turn supervised evidence into permission.
+### Vale closure
+- Vale office is close enough to Greg's route home that he stops without turning repayment into another dedicated chapter arc.
+- Greg does not need Antonius to negotiate or approve payment.
+- Clerk verifies the balance is still exactly **11c**.
+- Greg pays **11c** from the 14c just earned.
+- Vale account is stamped **PAID / BALANCE ZERO**.
+- Antonius's response is simply **"Good."**
+- Cash becomes **24c**.
+- Greg still retains the 10c floor plus 14c above it.
+- Durable contrast: the debt that once required three ledgers and a symbolic 1c payment becomes an ordinary stop after a better-paying day.
+- This is scale, not redemption, morality, or a debt-free identity.
 
 ### Ordinary/home close
-- Greg notices himself timing pedestrians on the way home and deliberately redirects attention rather than turning the city into an unauthorized experiment.
-- He buys roasted beans with bits because he is hungry.
-- Lyssa jokingly reduces the session to Greg being early, late, and wrong sometimes; she compares it to theatre because he misses cues in both.
-- Greg helps hold cloth for Lyssa without trying to optimize her process, and asks for a reset when his shoulder needs one.
-- No income, debt payment, artifact acquisition, limb update, or theatre advancement occurs in Ch489.
+- Greg buys sour apples with bits for Lyssa.
+- Lyssa hears he earned 14c and understands from the 24c remaining that Vale is now zero.
+- Her response is also simply **"Good."**
+- Greg writes only:
+  - **VALE: 0. CLOSED.**
+  - **Cash 24c. Keep floor.**
+- No Hark & Venn payment follows.
+- No new debt audit follows.
+- Greg and Lyssa return to their long-running argument over whether working bad thread is the same as good thread.
 
 ## Protected uncertainties / live residue
-- Greg ends Ch489 **home in Carrow at 21c cash / 11c Vale / bits unspecified**.
-- Vale remains a real explicit debt with flexible terms; no next payment date is established.
+- Greg ends Ch490 **home in Carrow at 24c cash / 0c Vale / bits unspecified**.
+- Vale debt is closed. Do not resurrect it.
 - Work-limb final socket is not finished; Hark & Venn has trial hardware and Greg has liner.
 - Hark & Venn quote/payment terms remain as established in Ch487; no current payment due.
 - Protocol **59 / 53 / 159**.
-- Moving-target sensitivity, timing-window effects, and travel-relative reference are all still candidate conditions only.
+- Moving-target sensitivity, timing effects, travel-relative reference, and response-latency issues remain candidate/experimental only.
 - No independent magic testing is authorized.
 - Renn is back at theatre.
-- Pell is currently sick but remains Harrow; no replacement casting has occurred.
-- Nella remains a stronger actor than Greg.
+- Pell remains Harrow unless later prose changes it.
 - Stillhook remains Elian's; no instant replacement.
-- Ch473 marked Three Rays freight lot remains with freight owner unless newer exact prose changes it later. No enforcement consequence has occurred. Greg still has not disclosed the Ch473 illegal freight to Lyssa.
+- Ch473 marked Three Rays freight lot remains with freight owner unless newer exact prose changes that later. No enforcement consequence has occurred. Greg still has not disclosed Ch473 illegal freight to Lyssa.
 - Morrow and other pending lanes remain unresolved unless later authority naturally moves them.
+- West Market receiving house has no standing obligation to hire Greg again.
 - No permanent companion.
 
-## Chapter 490 trailhead
-Greg begins **21c cash / 11c Vale / bits unspecified**, protocol **59 / 53 / 159**, home in Carrow.
+## Chapter 491 trailhead
+Greg begins **24c cash / 0c Vale / bits unspecified**, protocol **59 / 53 / 159**, home in Carrow.
 
 Strong movement:
-- Change grammar again. Do not immediately run another Hessa timing session. Let the latency/cue problem sit until Hessa designs the next controlled protocol.
-- Vale can remain 11c. Another repayment should wait for genuine surplus rather than becoming ritual.
-- Hark & Venn remains offscreen until real word, completion, or another fit request.
-- Theatre just had a full acting chapter in Ch488 and should not immediately repeat the same Harrow rehearsal shape.
-- Artifact pressure has now been quiet long enough that a real market encounter, unusual object, repair/salvage opportunity, or information asymmetry could re-enter naturally, but do not hand Greg a replacement stillhook on demand.
-- A paid opportunity is welcome if it reflects growing leverage/reputation, but no automatic deal pipeline exists.
-- Ordinary relationship/social/body life remains valid movement if it creates genuine residue rather than serving as filler.
-- Ch489's useful magic lesson is narrow: better experimental resolution can make the claim smaller, not larger.
+- Vale is done. Stop spending narrative oxygen on the old 23c account.
+- Preserve the economic ratchet. Greg can still take small work when life calls for it, but the primary progression engine should increasingly favor **larger contracts, silver-scale transactions, coordination leverage, ownership, capital deployment, and distinctive opportunities**.
+- Do not immediately repeat another receiving-yard coordination contract.
+- Hark & Venn can now become the next major real financial/body obligation only when the shop actually reaches a fit/completion/payment stage. Do not prepay for symbolism.
+- Artifact pressure has been quiet long enough to re-enter naturally. Greg now has 14c above his floor, plus materially better references/earning capacity, so an artifact or capital opportunity can hurt without requiring a poverty reset.
+- Hessa's next cue/latency protocol should wait until a real designed session rather than follow immediately after Ch489.
+- Theatre and Lyssa remain independent life lanes.
+- Ch473 gray freight remains unresolved and should surface only through natural records/witnesses/counterparties or Greg's own disclosure.
+- Ordinary life remains valid movement, but do not use it to stall financial/body/artifact progression indefinitely.
 
 Avoid:
-- another immediate Hessa session;
-- another immediate debt-payment chapter;
+- resurrecting Vale debt;
+- inventing replacement debts;
+- another same-shape coordination contract immediately;
 - paying Hark & Venn early with no benefit;
-- treating 21c as poverty reset;
-- suddenly granting practical deflection;
-- conflating travel-right with right-region sub-object control;
-- resolving Vale + limb + theatre + Ch473 together;
+- treating 24c as poverty reset;
+- instant stillhook replacement;
+- practical deflection upgrade without evidence;
 - strategic manifesto repetition.
 
-**MANDATORY TITLE CHECK CH490:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
+**MANDATORY TITLE CHECK CH491:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
