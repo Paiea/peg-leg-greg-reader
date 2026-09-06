@@ -21,6 +21,10 @@ class LightEditionWorkflowContractTests(unittest.TestCase):
     def test_reader_build_has_hard_timeout(self):
         self.assertIn('timeout-minutes: 15', self.text)
 
+    def test_reader_publish_does_not_replay_legacy_dialogue_edits(self):
+        self.assertNotIn('python scripts/apply_dialogue_variance.py', self.text)
+        self.assertNotIn('Apply completed dialogue variance', self.text)
+
     def test_generated_commit_uses_canonical_actions_bot_email(self):
         self.assertIn(
             "git config user.email '41898282+github-actions[bot]@users.noreply.github.com'",
