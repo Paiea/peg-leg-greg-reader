@@ -57,17 +57,34 @@ def summarize_coverage(
     unmanaged_live_art: int = 0,
 ) -> dict[str, int]:
     counts = list(chapter_image_counts.values())
+    candidate_chapters = {
+        record.get("chapter")
+        for record in candidates
+        if record.get("status") in {"candidate", "prompt_ready"} and isinstance(record.get("chapter"), int)
+    }
+    registry_pipeline_chapters = {
+        record.get("chapter")
+        for record in registry
+        if record.get("status") in {"generated", "approved", "live"} and isinstance(record.get("chapter"), int)
+    }
+    pipeline_chapters = candidate_chapters | registry_pipeline_chapters
+    zero_art_chapters = {chapter for chapter, count in chapter_image_counts.items() if count == 0}
     return {
         "frontier": max(chapter_image_counts, default=0),
         "total_chapters": len(counts),
         "illustrated_chapters": sum(1 for count in counts if count > 0),
-        "zero_art": sum(1 for count in counts if count == 0),
+        "zero_art": len(zero_art_chapters),
         "one_art": sum(1 for count in counts if count == 1),
         "two_art": sum(1 for count in counts if count == 2),
         "three_plus_art": sum(1 for count in counts if count >= 3),
+        "candidate_unbriefed": sum(1 for record in candidates if record.get("status") == "candidate"),
+        "prompt_ready": sum(1 for record in candidates if record.get("status") == "prompt_ready"),
+        "generated_awaiting_approval": sum(1 for record in registry if record.get("status") == "generated"),
         "approved_unpublished": sum(1 for record in registry if record.get("status") == "approved"),
+        "rejected": sum(1 for record in registry if record.get("status") == "rejected"),
         "queued_candidates": sum(1 for record in candidates if record.get("status") in {"candidate", "prompt_ready"}),
         "registry_live": sum(1 for record in registry if record.get("status") == "live"),
+        "zero_art_without_candidate": len(zero_art_chapters - pipeline_chapters),
         "unmanaged_live_art": unmanaged_live_art,
     }
 
@@ -90,8 +107,12 @@ def render_coverage_report(summary: dict[str, int]) -> str:
             "",
             "## Production queue",
             "",
-            f"- Queued scene candidates: {summary['queued_candidates']}",
+            f"- Candidate, needs prompt pack: {summary['candidate_unbriefed']}",
+            f"- Prompt ready / generation ready: {summary['prompt_ready']}",
+            f"- Generated, awaiting approval: {summary['generated_awaiting_approval']}",
             f"- Approved but unpublished: {summary['approved_unpublished']}",
+            f"- Rejected generation attempts: {summary['rejected']}",
+            f"- Zero-art chapters with no active candidate: {summary['zero_art_without_candidate']}",
             f"- Registry live records: {summary['registry_live']}",
             "",
             "## Migration status",
