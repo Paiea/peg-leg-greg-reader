@@ -53,3 +53,7 @@ PASS. Novel prose was re-anchored for instantaneous first-read speaker recogniti
 ## Seam audit
 
 PASS. Entry and exit seams around all three surviving replacements were reread against their untouched neighboring prose. The cleanup removes one redundant same-paragraph Antonius tag, explicitly re-anchors the dialogue immediately after replacement spans, and repairs an Arlo/Greg handoff where `"I know," I said.` incorrectly broke the alternating speaker pattern. No scene facts or outcomes changed.
+
+## Showcase handoff seam repair
+
+PASS. The displayed Chapter 2 -> 3 handoff skips canon 003, so canon 004 now re-establishes the shale-test antecedent in one sentence before Greg reasons from the result. The repair preserves the hidden-canon facts: the sixth disk first beat the control, later tests reached closer to twenty percent, and the project remained promising rather than proven. No hidden chapter is restored and no scene outcome changes.
