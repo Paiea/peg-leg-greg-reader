@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "batch": "217-218",
+  "status": "applied",
+  "strength": "aggressive-on-repeated-function-and-fragmentation",
+  "stable_id_actions": {
+    "plg-ch-000217": {
+      "status": "merged",
+      "surviving_beats": [
+        "plg-ch-000218"
+      ],
+      "legacy_path": "217.html",
+      "display_renumbering": "deferred"
+    },
+    "plg-ch-000218": {
+      "status": "active",
+      "action": "absorbed_debt_setup_and_kettle_surveillance_escalation_then_compressed_vale_and_bren_one_copper_contrast"
+    }
+  },
+  "illustration_policy": "advisory hold; no prose or boundary protected by art state",
+  "protected": {
+    "217_to_218": [
+      "button-fold debt joke and Greg assigning one copper to Future Greg",
+      "Greg asks Antonius for the real balance and cash-payment rules",
+      "Copper Kettle watcher returns and asks about payment amount and money movement",
+      "Rinna keeps evidence bounded and responds with boring operational discipline",
+      "Greg does not collapse the watcher into confirmed Bren"
+    ],
+    "218": [
+      "Antonius ledger makes the debt finite rather than abstract",
+      "one-copper legitimate repayment receives an actual receipt",
+      "Antonius refuses to budget Greg into uselessness",
+      "Bren personally returns and asks for one copper",
+      "Rinna says no without negotiating",
+      "Greg deliberately refuses to inflate himself with another bluff",
+      "Bren confirms knowledge of the Copper Kettle without over-confirming the surveillance chain",
+      "theatre continues after the threat",
+      "Rinna tells Greg to keep the next copper for food",
+      "Lyssa explicitly recognizes same amount, different moral arithmetic"
+    ]
+  },
+  "cuts": [
+    "repeated Hessa/no-note status checks",
+    "repeated cart-pin and chalk inspections",
+    "duplicated uncertainty inventories around the brown-coat watcher",
+    "secondary repertory audience bits that repeated already-established live-theatre adaptability",
+    "step-by-step Vale message delivery logistics",
+    "extended copper identity bookkeeping",
+    "duplicated post-event threat debrief questions"
+  ],
+  "result": "Two adjacent setup/payoff chapters now function as one escalating chapter organized around one copper: earned value, legitimate debt, extortion, and Greg learning when not to perform importance."
+}
