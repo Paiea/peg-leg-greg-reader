@@ -1,112 +1,116 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 442 - **THE STRANGER**.
-- Exact Chapters 249-442 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays.
+- Current exact story endpoint: Chapter 443 - **THE WAYFARER**.
+- Exact Chapters 249-443 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays.
 - Chapter 432 naming correction remains active: north-slope road forewoman is **Rika Dorn**, not Nessa Vale.
 
 ## Current location / arc
-- Greg is now physically ashore in **Old Merrow** after Narrow Gull passengers were tendered over the harbor chain obstruction.
-- Dask remains independently on the Bellweather route; Maro east; Sori previously in Merehook/archive lane.
-- Greg is fully solo in day-to-day travel for the first time in this away arc.
+- Greg has crossed Old Merrow island from east harbor toward **West Bay** by ridge cart, walking/trial-limb segment, and water-crew cart.
+- He is fully solo in day-to-day travel.
+- He has reached **West Bay**, a small west-side harbor settlement, and is considering next-day packet travel to **Ternhaven**.
 - No return ticket, employer, quest, or prophecy forces direction.
 
-## Chapter 442 - THE STRANGER
+## Chapter 443 - THE WAYFARER
 
 ### Title / role
-- Greg is **THE STRANGER**.
-- The chapter centers on entering a place where nobody automatically knows his role, companions are absent, and he has to learn systems without built-in translators.
-- Core closing frame: `Stranger meant nobody knew what I was useful for. That was freeing. Also inconvenient. Good.`
+- Greg is **THE WAYFARER**.
+- He does not know the larger route in advance; he keeps choosing the next practical segment under his own power and budget.
+- Closing frame: `Wayfarer. Not because I knew way. Because I kept taking one.`
 
-## Harbor chain resolution / local ownership
-- Harbor chain gate remains raised through hard rain because **west clutch shear pin failed**.
-- Narrow Gull does not force passage and captain does not attempt unsafe crossing.
-- Harbor activates **passenger tender** workaround while cargo remains aboard.
-- Greg and Vessa are placed in first tender because of mobility/breathing concerns, not protagonist status.
-- Transfer uses lower lee side; Greg chooses seated transfer between vessels, keeps crutches, accepts one shoulder steadying only after consent.
-- Greg does **not** fix chain or diagnose mechanism from packet.
+## Harbor chain consequence
+- Dry shear-witness result posts next morning:
+  - west clutch shear pin failure was **rated/design-intended**;
+  - no early-crack indication;
+  - alignment inspection can remain routine rather than emergency.
+- Chain dispute contracts back into spare-stock/maintenance policy; Greg does not stay for it.
 
-## Vessa Orm
-- Vessa's breathing continues to improve after her own regular medicine; deckhand checks her twice.
-- She remains irritable and functional, not melodramatically ill.
-- She asks Greg for limited help only when hill + goat basket make it practical.
-- Greg points to paid harbor porter cart rather than carrying her goat basket badly himself.
-- Vessa pays her own **1c porter fare**.
-- They separate after third terrace; no instant replacement-party bond.
-- Vessa thanks Greg for administering her drops; nickname callback remains narrow/social.
+## Old Merrow route pull / ridge cart
+- Route board establishes:
+  - ridge cart first/fourth ring, **1c**;
+  - serves West Catch / upper farms / quarry split;
+  - West Bay foot road dry-weather only;
+  - West Bay -> **Ternhaven** packet next day third ring, **3c if running**.
+- Greg chooses fourth-ring ridge cart rather than exhausting himself climbing.
+- Pays **1c: 34c -> 33c**.
+- Freight-cart passengers are ordinary local riders; no new companion forms.
+- Driver warns right side axle rides worse and later directs Greg onto upper farm road because rain-channel path is slippery.
 
-## Old Merrow infrastructure / identity
-- Old Merrow is organized around **rain capture and cistern management**:
-  - roofs feed gutters;
-  - gutters feed stone channels;
-  - channels cross lanes under grates into wall cisterns;
-  - road/step geometry directs runoff;
-  - ceramic cistern markers encode access/status.
-- Rain tongue gives ridge wet-wind warning that triggers cistern/spillway crew behavior.
-- Blue marker = public draw; white private; yellow restricted during low reserve; red-mark spouts are wash water.
-- Greg initially misreads `third ring` on a sign as terrace rather than bell ring, reinforcing stranger status.
-
-## Chain failure specifics / human maintenance problem
-- Harbor board posts exact failure:
-  - **CHAIN HOUSE WEST CLUTCH / SHEAR PIN FAILED**;
-  - replacement pin requested from upper mill;
-  - passenger tender active;
-  - cargo held until mechanical clearance.
-- Failure is maintenance/economic rather than mystery/corruption.
-- Last spare shear pin was consumed in spring storm.
-- Replacement procurement was delayed by small-batch forge surcharge and budget/purchase constraints.
-- Chain committee fisherman and mechanic disagree over who should have ensured spare stock, with both having bounded reasons.
-- Replacement arrives and chain drops by evening.
-- Narrow Gull enters and cargo unloading resumes.
-
-## Designed shear / evidence ring
-- Broken shear pin is a designed sacrificial weak point.
-- Pin includes **dark ceramic shear-witness ring**.
-- Harbor mechanic explains ring can distinguish rated-shear failure from premature crack/misalignment after drying; wet state darkens everything so conclusion waits until next day.
-- If pin failed at rated shear, routine replacement may be enough; early crack would require alignment inspection.
-- Greg observes but does not turn into mechanic/report writer.
-
-## Old Merrow market / artifact restraint
-- Greg sees local **leak singer**:
-  - small clay disk with blue center;
-  - porous salt clay + charged reed bead;
-  - whistles on clean-wall seep behind cistern wall;
-  - can be refreshed by freshwater soak when salt clogs;
-  - costs **3c**.
-- It superficially fits environmental-warning problem category, but local cistern worker **Rell Aster** warns it performs poorly as generic travel detector because wet noisy environments create misleading behavior.
-- Seller openly admits he was thinking sale, not ship use.
-- Greg **does not buy**.
-- This reinforces problem-first procurement discipline after auction win.
-
-## Rell Aster
-- Upper cistern worker, wet from rain work, blunt/messy practical speech.
-- Complains about West catch mud/grate maintenance and says tools cannot fix people who refuse maintenance.
-- Gives Greg marker-color information and bakery-loft warning.
-- No quest or standing relationship established.
-
-## Lodging / economy
-- Greg chooses bakery loft for **1c**.
-- Cash **35c -> 34c**.
-- Food uses bits only.
-- Ends **34c cash / 23c Vale / bits unspecified**.
-- 20c limb deposit remains paid toward 1 silver + 18c travel-work limb quote.
+## Island interior identity
+- From ridge, Greg sees Old Merrow's water system as many linked catch systems rather than one network:
+  - roof/lane/farm catch;
+  - overflow moving downhill;
+  - terrace-by-terrace water borrowing and release.
+- Upper ridge farms use stone walls, bent low trees, mesh-covered terraces, and crop plots.
+- Local boy gets off one ring early and has to re-board, reinforcing that stranger mistakes are not unique to Greg.
 
 ## Trial limb / body
-- Trial build remains dry/wrapped during wet harbor/terrace day.
-- Greg considers indoor wear at night but declines because packet transfer + hill travel already taxed body.
-- Rest is treated as valid progression choice.
-- Crutches remain primary; no injury.
+- Trial build used on dry upper ridge farm road for about **22 minutes**.
+- Surface: packed dry stone, mostly level.
+- Crutches remain light/primary rather than abandoned.
+- Greg performs ordinary two-handed pack-strap adjustment while standing.
+- Uses crutches for shallow cross-drain rather than unsupported step-over.
+- Stops at planned marker nine rather than failure.
+- Post-wear:
+  - mild hip fatigue;
+  - mild upper pink;
+  - no lower-front mark;
+  - pink clears within 20 minutes;
+  - no pain/injury.
+- Trial build remains Hark & Venn shop property, unfinished, medium foot.
 
-## Lot 67 / artifact handling
-- Greg only checks Road Response Kit for moisture; it remains dry.
-- No new timing experiments.
-- Sticky fourth-mark false-long failure remains unresolved.
-- Tool stays out of harbor-chain decision.
+## Deliberate magic returns
+- Greg performs first deliberate magic after long quiet stretch under low-stakes sheltered conditions.
+- Uses a **dead dry bean leaf** on flat stone behind wall with minimal wind by hand check.
+- Does **not** use Lot 67 or make timing claims.
+- First setup produces ambiguous leaf-edge lift and is discarded as evidence.
+- Second setup produces visible slide of roughly **half a finger** at about **1 pace**.
+- Logged as **external attempt 136**.
+- Exact note:
+  `External 136. Dead dry bean leaf, sheltered wall, ~1 pace. Minimal wind by hand check. Visible slide ~half finger after directed pressure. No timing measurement. Do not generalize.`
+- This is a small clean current-body competence result, not rank/breakthrough/range claim.
+- Protocol becomes **59 minimal / 53 shaping / 136 external attempts**.
+- Greg deliberately does not repeat ten times just because training brain wants volume; road movement wins.
 
-## Magic
-- Protocol remains **59 minimal / 53 shaping / 135 external attempts**.
-- No deliberate magic Ch442.
-- No S-class/locked-mode activation.
+## West Catch / route friction
+- West slope contains large stepped catch basins and reed-bed settling infrastructure distinct from east-town cisterns.
+- Yesterday's rain damaged one upper basin/breach and closed the main path below basin six due mud slide.
+- Water-crew woman with red staff/yellow sash gives Greg options:
+  - longer farm contour path (~1.5 bells for Greg);
+  - crew cart after sixth ring if space, **2 bits** to West Bay.
+- Greg waits for cart rather than proving endurance after trial-limb wear.
+- Pays bits only; copper unchanged.
+- Greg remains outside work lane and does not join basin repair.
+
+## West Bay
+- West Bay is a small west-side harbor with roughly thirty roofs, one pier, fish shed, long bunk house, extensive rain barrels.
+- Route board:
+  - **TERNHAVEN / THIRD RING / 3C / WEATHER CHECK SECOND**;
+  - south return Old Merrow cart first ring / 1c;
+  - **KELP ISLES / NORTH SKIFF / CARGO ONLY**.
+- Kelp Isles becomes a new visible but currently passenger-inaccessible route possibility.
+- Greg pays **1c** West Bay bunk: **33c -> 32c**.
+- Food uses bits only.
+
+## Solo social texture
+- Greg spends day among temporary strangers without forming replacement party.
+- Bunk-house water worker only asks whether Greg is from Duskport, accepts `Carrow first. Duskport recently`, and does not demand backstory.
+- Greg experiences freedom/inconvenience of nobody knowing his role.
+
+## Economy
+- Begins **34c cash / 23c Vale / bits unspecified**.
+- Ridge cart **-1c -> 33c**.
+- Water-crew cart costs 2 bits only.
+- West Bay bunk **-1c -> 32c**.
+- Ends **32c cash / 23c Vale / bits unspecified**.
+- 20c limb deposit remains paid toward 1 silver + 18c travel-work limb quote.
+- Greg explicitly recognizes continued road is eating capital.
+
+## Artifact handling
+- Road Response Kit remains dry/packed/unfixed; no new test.
+- Existing leak singer remains unpurchased.
+- Greg buys no new artifact.
+- Artifact pressure appears through carrying/maintenance and procurement restraint rather than shopping.
 
 ## Current inventory
 Greg carries:
@@ -122,45 +126,40 @@ Greg carries:
 10. current Merehook coastal-measure circular from Sori.
 
 ## Protected uncertainties
-- Greg ends Ch442 at bakery loft in Old Merrow.
-- Cash **34c**, Vale **23c**, bits unspecified.
-- Protocol **59 / 53 / 135**.
-- Harbor chain is operational again after replacement shear pin, but witness-ring evaluation waits until dry next day.
-- Greg has no companion currently with him.
-- Vessa is homeward/with daughter route; no ongoing obligation.
-- Rell Aster is local cistern worker, not quest giver.
-- Trial limb unfinished/shop property.
+- Greg ends Ch443 at West Bay bunk house on Old Merrow's west side.
+- Cash **32c**, Vale **23c**, bits unspecified.
+- Protocol **59 / 53 / 136**.
+- Trial limb healthy after ~22-min dry ridge wear.
+- Ternhaven packet is expected next day third ring for 3c **if weather permits**, with weather check at second ring; ticket not purchased yet.
+- Kelp Isles north skiff is cargo only; no passenger route established.
+- Greg has no current companion.
+- No new news from Dask/Sori/Maro.
 - Lot 67 remains unreliable near fourth mark.
-- Greg has not chosen next Old Merrow route.
 
-## Chapter 443 trailhead
-Follow next actual claim from Ch442/current authority.
+## Chapter 444 trailhead
+Follow next actual claim from Ch443/current authority.
 
-Greg begins **34c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**, in Old Merrow morning after rain/chain repair.
+Greg begins **32c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 136**, at West Bay morning before weather check for the **3c Ternhaven packet**.
 
 Strong movement:
-- Old Merrow now needs a **distinct next-route pull**, not another day of wandering market/cistern exposition.
-- Candidate directions already visible:
-  - upper ridge farms;
-  - west rain-catch system;
-  - inland quarry road;
-  - future packet routes after harbor normalizes.
-- The dry shear-witness result can provide a brief consequence update, but do not let chain become whole new engineering arc.
-- Solo travel should continue changing Greg's social experience: he may choose to join a public cart, work crew, guided route, or just travel among strangers, but no automatic party replacement.
-- Greg has been magic-quiet for many chapters. A **bounded low-stakes deliberate attempt** is now available if scene naturally supports one, especially independent of faulty Lot 67 timing conclusions.
-- Trial limb has rested; stable dry terrace/indoor/ridge task can support another use if ordinary function warrants it.
-- Artifact engine should stay present through use/maintenance/problem-solving rather than another purchase spree.
-- Keep away arc widening geographically and socially.
+- Determine whether Ternhaven packet runs and, if so, choose/pay/move rather than spending another whole chapter on Old Merrow.
+- If weather blocks packet, create a materially different alternative or pressure rather than simple waiting.
+- Ternhaven should be genuinely new geography/social grammar, not another harbor clone.
+- Kelp Isles cargo-only route can remain background temptation unless a legitimate passenger/work mechanism appears later; do not invent free passage.
+- Greg is now solo and cash has fallen to 32c. Road cost should increasingly matter against limb capital without forcing immediate retreat.
+- External 136 is a clean small result. Do **not** turn one half-finger leaf slide into sudden magical acceleration. A later repeatability pass can happen, but not necessarily next chapter.
+- Trial limb does not need consecutive-day testing after 22-minute ridge wear; recovery is valid.
+- Keep artifact engine present through actual use/maintenance when organic.
 
 Avoid:
-- another full chain-maintenance chapter;
-- immediate convenient high-paying job;
-- new permanent companion;
-- free local artifact;
-- magic breakthrough tied to faulty timing tool;
-- returning toward Carrow/Duskport by default.
+- another full Old Merrow water-infrastructure tour;
+- immediate permanent companion;
+- free boat passage;
+- sudden magic jump;
+- spending new artifact money;
+- returning south by default.
 
-**MANDATORY TITLE CHECK CH443:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH444:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
