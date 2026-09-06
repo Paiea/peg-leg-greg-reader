@@ -48,6 +48,31 @@ class BookOneAuthorityCoverageTests(unittest.TestCase):
             self.assertEqual(by_number[82]["source_kind"], "authoritative_docx")
             self.assertEqual(by_number[82]["title"], "THE RECONCILER")
 
+    def test_concatenated_number_and_title_from_real_book1_format_are_split(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            manuscript = root / "state/manuscript"
+            manuscript.mkdir(parents=True)
+            write_minimal_docx(
+                manuscript / "Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+                [
+                    "CHAPTER FIFTY-THREETHE GUEST",
+                    "Body prose.",
+                    "CHAPTER SIXTY-FIVETHE WARD",
+                    "Body prose.",
+                    "CHAPTER EIGHTY-TWOTHE RECONCILER",
+                    "Body prose.",
+                ],
+            )
+
+            report = discover_manuscript_chapters(root)
+            by_number = {row["chapter_number"]: row for row in report["chapters"]}
+
+            self.assertEqual(by_number[53]["title"], "THE GUEST")
+            self.assertEqual(by_number[65]["title"], "THE WARD")
+            self.assertEqual(by_number[82]["title"], "THE RECONCILER")
+            self.assertTrue(all(row["source_kind"] == "authoritative_docx" for row in by_number.values()))
+
 
 if __name__ == "__main__":
     unittest.main()
