@@ -130,8 +130,6 @@ def _normalize_actor(actor: str) -> str:
     if raw.startswith("The "):
         return "DESC:" + re.sub(r"\s+", " ", raw.lower())
     if raw and raw[0].isupper():
-        # Prefer the first given/proper name as the stable identity. This keeps
-        # `Antonius Vale` compatible with later `Antonius` beats.
         return f"NAME:{raw.split()[0]}"
     return "UNKNOWN"
 
@@ -142,12 +140,10 @@ def _speech_owner(text: str) -> str | None:
     verbs = "|".join(sorted(SPEECH_VERBS, key=len, reverse=True))
     actor = rf"(?P<actor>{ACTOR_PATTERN})"
 
-    # Dialogue followed by attribution: "No," Sella said.
     after = re.search(rf'"\s*{actor}\s+(?:{verbs})\b', text)
     if after:
         return _normalize_actor(after.group("actor"))
 
-    # Attribution followed by dialogue: Sella said, "No."
     before = re.search(rf'\b{actor}\s+(?:{verbs})\b[^"\n]*"', text)
     if before:
         return _normalize_actor(before.group("actor"))
@@ -158,6 +154,14 @@ def _subject_owner(text: str) -> str | None:
     outside = re.sub(r'"(?:[^"\\]|\\.)*"', '', text).strip()
     if not outside:
         return None
+
+    # First-person interior/action beats belong to Greg even when the verb is
+    # not in the finite action vocabulary. This catches reactions such as
+    # `I knew`, `I named`, and `My heart kicked` without guessing about other
+    # characters.
+    if re.match(r"^(?:I|My)\b", outside):
+        return "GREG"
+
     verbs = "|".join(sorted(ACTION_VERBS | SPEECH_VERBS, key=len, reverse=True))
     actor = rf"(?P<actor>{ACTOR_PATTERN})"
     match = re.match(rf"^{actor}\s+(?:{verbs})\b", outside)
@@ -187,14 +191,9 @@ def _compatible(current: str | None, incoming: str | None, *, incoming_explicit:
     if incoming.startswith("PRONOUN:"):
         if current == "GREG":
             return False
-        # Third-person pronouns may continue an explicitly established
-        # non-Greg owner. Splitting every `He` after `Antonius said` would make
-        # the book artificially choppy.
         return current.startswith(("NAME:", "DESC:", "PRONOUN:"))
 
     if current.startswith("PRONOUN:") and incoming_explicit:
-        # An explicit identity after an unresolved pronoun is a safer place to
-        # begin a new paragraph than to guess they are the same person.
         return False
 
     return False
@@ -225,9 +224,6 @@ def split_paragraph(text: str) -> list[str]:
     for beat in beats:
         owner = beat.owner
 
-        # Pure quoted dialogue after an established action/speaker belongs to
-        # that owner. At paragraph start it remains unknown until evidence
-        # arrives, and we split rather than attach it to a later actor blindly.
         if owner is None and beat.text.startswith('"') and current_owner is not None:
             owner = current_owner
 
@@ -238,8 +234,6 @@ def split_paragraph(text: str) -> list[str]:
 
         should_split = False
         if current_owner is None and owner is not None:
-            # Unknown opening dialogue followed by a clear reactor is exactly
-            # the risky pattern that created false attribution in the reader.
             should_split = True
         elif not _compatible(current_owner, owner, incoming_explicit=beat.explicit):
             should_split = True
@@ -258,7 +252,6 @@ def split_paragraph(text: str) -> list[str]:
 
     result = [" ".join(parts).strip() for parts in groups if any(part.strip() for part in parts)]
 
-    # Automated ownership work must never alter quoted dialogue wording.
     if quoted_spans(" ".join(result)) != quoted_spans(original):
         raise ValueError("dialogue changed while splitting paragraph")
     return result
@@ -267,8 +260,9 @@ def split_paragraph(text: str) -> list[str]:
 def explicit_owners(text: str) -> list[str]:
     """Return distinct explicit owners found in dialogue-bearing sentence beats."""
     owners: list[str] = []
-    for start, end in _beat_ranges(text.strip()):
-        owner, explicit = _beat_owner(text.strip()[start:end].strip())
+    stripped = text.strip()
+    for start, end in _beat_ranges(stripped):
+        owner, explicit = _beat_owner(stripped[start:end].strip())
         if owner and explicit and owner not in owners:
             owners.append(owner)
     return owners
