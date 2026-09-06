@@ -54,9 +54,33 @@ Once legacy live art has been imported, CI may tighten from migration reporting 
 
 `state/visual/GENERATION_QUEUE.json` is the machine-ready handoff for actual image generation.
 
-Each queue record should be self-sufficient enough that a visual worker does not need to reopen the candidate ledger merely to understand the shot. Carry forward the scene summary, visual hook, required characters, location, mood, spoiler level, fit target, paragraph anchor, prompt-pack path, deterministic target asset, and current illustration coverage count.
+Each queue record should be self-sufficient enough that a visual worker does not need to reopen the candidate ledger merely to understand the shot. Carry forward the scene summary, visual hook, required characters, location, mood, spoiler level, fit target, paragraph anchor, prompt-pack path, deterministic target asset, current illustration coverage count, style family, framing preference, character reference assets, character appearance notes, and continuity notes.
 
 The queue remains a derivative. Candidate and manuscript authority still outrank it.
+
+## Continuity-aware generation
+
+`state/visual/CHARACTER_VISUAL_REFERENCES.json` is the compact reusable appearance/reference catalog for generation. It is visual-production guidance, not story canon. Manuscript evidence and `VISUAL_BIBLE.md` still outrank it.
+
+For recurring characters:
+- reuse accepted live artwork as reference assets when a trustworthy reference exists
+- carry written appearance notes even when no single canonical image exists yet
+- do not freeze unsupported facial details merely to make generations identical
+- promote stronger accepted reference assets into the catalog when they become clearly useful
+
+For **Greg**, default normal chapter illustrations to **above-waist / chest-up / medium framing** unless lower-body visibility is materially important to the manuscript moment. This reduces unnecessary body-state contradictions and keeps generation focused on the face, hands, work, expression, and relationship action that usually matter more.
+
+Do not solve lower-body continuity by inventing a peg leg, prosthetic, crutch state, injury state, or anatomy detail that the scene does not require. When lower-body state actually matters, read the exact chapter and use the correct period-specific manuscript evidence.
+
+Shared default style remains **SKETCH + INK + PAINT**. Character reference assets should improve continuity without flattening camera, gesture, lighting, expression, or composition variety.
+
+## Generation and approval packets
+
+`state/visual/GENERATION_PACKET.md` is the disposable human-facing view of the next production batch. It is generated from the already coverage-prioritized queue and should normally show the next 25 ready shots with continuity context and deterministic output paths.
+
+`state/visual/ILLUSTRATION_APPROVAL_PACKET.md` is the human-facing review surface for assets currently in `generated` status. It provides explicit approve/reject templates without changing approval authority.
+
+These packet files are derivatives. The registry, candidate ledger, prompt packs, manuscript, and visual bible remain the durable authorities beneath them.
 
 ## 5x5 contact-sheet default
 
@@ -70,7 +94,7 @@ Production can run in waves of 3–5 sheets. A longer ambition of roughly 20 she
 2. identify next 25 highest-value coverage slots from the generated backlog
 3. read authoritative manuscript scenes and candidate briefs
 4. select distinct visual moments
-5. construct panel prompts using `VISUAL_BIBLE.md` and generated prompt packs
+5. construct panel prompts using `VISUAL_BIBLE.md`, character visual references, and generated prompt packs
 6. generate 5x5 sheet
 7. review cells with loose KEEP/RETRY standard
 8. crop KEEP panels deterministically
@@ -91,6 +115,8 @@ Avoid generating 25 variants of people standing face-to-face.
 
 Across a sheet, vary distance, camera height, direction of travel, number of people, foreground presence, interior/exterior, quiet/action, stage/backstage/audience, and lighting/weather where supported.
 
+The Greg above-waist default is a continuity safeguard, not an excuse for repeated passport-photo composition. Use over-shoulder, profile, three-quarter, foreground obstruction, hands/work surfaces, high/low camera, entering/leaving frame, and environmental staging while keeping unnecessary lower-body state out of frame.
+
 ## Manifest / registry
 
 Retain deterministic mapping between candidate, prompt pack, sheet, panel number, chapter, manuscript moment, KEEP/RETRY, output filename, insertion location/paragraph anchor, and useful notes.
@@ -105,7 +131,7 @@ Generated assets do not become live merely because the file exists.
 - `decision: approve` requires the normal fit judgment, alt text, and optional caption
 - `decision: reject` requires a short reason and marks that generation attempt rejected without publishing it
 
-Rejected attempts remain useful production history. A rejection must not block a later deterministic version of the same scene candidate.
+Rejected attempts remain useful production history. A rejection must not block a later deterministic version of the same scene candidate. Candidate-status synchronization therefore records the rejected attempt while leaving that prompt-ready scene retryable.
 
 ## Integration
 
@@ -134,7 +160,12 @@ Coverage should expose not only image counts but production state. Distinguish:
 - rejected generation attempts
 - zero-art chapters with no active candidate at all
 
-That last number is the real scene-discovery debt. It tells the next visual worker whether to generate, approve, integrate, or go back to the manuscript and nominate worthwhile moments.
+Also expose short actionable chapter previews for:
+- zero-art chapters that still need scene discovery
+- prompt-ready chapters ready for generation
+- chapters with generated assets waiting for approval
+
+That last view converts the report from a scoreboard into a routing surface: the next worker can immediately tell whether to discover scenes, generate, review, or integrate.
 
 ## After each wave
 
