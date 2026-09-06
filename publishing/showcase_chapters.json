@@ -25,6 +25,8 @@
     "97": {"showcase": false, "reason": "redundant_progression"},
     "101": {"showcase": false, "reason": "bridge_not_needed"},
     "102": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
-    "108": {"showcase": false, "reason": "low_consequence_mundane"}
+    "108": {"showcase": false, "reason": "low_consequence_mundane"},
+    "113": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
+    "119": {"showcase": false, "reason": "superseded_by_stronger_chapter"}
   }
 }
