@@ -40,7 +40,7 @@ Scene candidates are production metadata, not canon. A candidate may be regenera
 
 ## 2. Illustration registry
 
-`state/visual/ILLUSTRATION_REGISTRY.json` is the single source of truth for accepted and in-flight illustration records. Every promoted reader image must have a registry record.
+`state/visual/ILLUSTRATION_REGISTRY.json` is the single source of truth for new accepted and in-flight illustration records. Every image promoted through the new pipeline must have a registry record.
 
 Each record includes:
 
@@ -61,9 +61,17 @@ Each record includes:
 
 Only records with `status: approved` may be promoted. Promotion changes status to `live` after the reader update succeeds.
 
+### Legacy bootstrap rule
+
+The current Illustrated Reader already contains accepted art created before this registry existed. V1 does **not** delete, replace, or fail those images simply because they lack registry records. Coverage reporting inventories them as unmanaged legacy migration debt.
+
+New work is registry-first immediately. A later bootstrap-import phase will register existing accepted live assets; after that migration reaches parity, CI may tighten to require every live chapter-art path to have a registry record.
+
 ## 3. Scene harvesting
 
-`scripts/extract_scene_candidates.py` reads manuscript authority and produces candidate suggestions without editing prose. Initial automation is heuristic and conservative. It should prefer:
+V1 uses a **manuscript-engine handoff** rather than automatic prose mining: after a chapter is durably accepted, the manuscript lane may nominate 0–2 genuinely visual moments directly into `SCENE_CANDIDATES.json`. This nomination is optional and must never block forward writing throughput.
+
+The engine should prefer:
 
 - physical action or work
 - entrances/exits and directional movement
@@ -74,7 +82,7 @@ Only records with `status: approved` may be promoted. Promotion changes status t
 - visually legible reveals
 - moments with strong camera opportunities
 
-The script outputs suggestions for review; it does not auto-approve them.
+A later phase may add `scripts/extract_scene_candidates.py` as a conservative heuristic assistant, but automatic extraction must remain suggestion-only and must never edit prose or auto-approve art targets.
 
 ## 4. Backlog
 
@@ -113,42 +121,45 @@ Prompt packs support generation consistency but remain editable production brief
 
 ## 6. Promotion into the reader
 
-`scripts/promote_illustrations.py` is the only automated promotion path. It:
+`scripts/promote_illustrations.py` is the intended automated promotion path for the next phase. It will:
 
-1. validates registry records marked `approved`
-2. verifies source and destination paths
-3. inserts or updates chapter image markup only at the declared natural anchor
-4. updates `art.html` where applicable
-5. preserves prose byte-for-byte outside image markup
-6. marks records `live` only after successful writes
-7. refuses ambiguous anchors or missing metadata instead of guessing
+1. validate registry records marked `approved`
+2. verify source and destination paths
+3. insert or update chapter image markup only at the declared natural anchor
+4. update `art.html` where applicable
+5. preserve prose byte-for-byte outside image markup
+6. mark records `live` only after successful writes
+7. refuse ambiguous anchors or missing metadata instead of guessing
 
 The Text Reader remains image-free.
+
+Binary asset promotion is deliberately deferred until the V1 metadata/control plane is proven on `main`.
 
 ## 7. Coverage report and CI
 
 `scripts/report_illustration_coverage.py` writes `state/visual/ILLUSTRATION_COVERAGE.md` with:
 
-- live manuscript frontier
+- live reader frontier
 - illustrated chapter count
 - zero/one/two/three+ image chapter counts
 - approved-but-unpublished count
 - queued candidate count
-- role/act/book card completeness
+- registry-live count
+- unmanaged legacy live-art count
 
-Tests must reject:
+V1 tests must reject:
 
-- a live image missing from the registry
 - a registry `live_asset` that does not exist
-- approved/live art without alt text
+- approved/live registry art without alt text
 - duplicate registry ids
-- a live chapter image path not represented in the registry
+- invalid scene/registry state
 - Text Reader image leakage
-- promotion that changes prose outside image markup
+
+V1 reports, rather than rejects, legacy live image paths that have not yet been bootstrap-imported into the registry. After bootstrap migration, reader-to-registry parity becomes a strict CI contract.
 
 ## 8. Manuscript integration policy
 
-The Manuscript Engine may nominate strong visual moments as sidecar scene candidates after a chapter is durably accepted. It must not insert production tags into canonical prose. Candidate extraction may run later in batch form, so forward manuscript throughput is not blocked by art production.
+The Manuscript Engine may nominate strong visual moments as sidecar scene candidates after a chapter is durably accepted. It must not insert production tags into canonical prose. Candidate nomination may also run later in batch form, so forward manuscript throughput is not blocked by art production.
 
 A chapter does not need an illustration candidate if no scene is visually worthwhile. The system should prefer fewer useful candidates over mechanically tagging every chapter.
 
@@ -163,6 +174,7 @@ This preserves artistic judgment while making backlog, naming, continuity, and r
 - A fresh worker can answer what art is missing from repository state alone.
 - A manuscript chapter can nominate one or more strong scenes without altering prose.
 - A reviewed candidate can become a deterministic prompt pack.
-- An approved image can be promoted once and wired into all required reader surfaces.
-- CI catches broken/missing image paths and registry drift.
+- Existing accepted legacy art is measured rather than destroyed during migration.
+- New art enters a registry-first control plane.
+- CI catches broken registry state and reports reader coverage debt.
 - The system scales while the manuscript continues advancing independently.
