@@ -5,7 +5,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parents[1] / 'scripts'))
 
-from build_notebooklm_export import build_readable_chunks, validate_readable_chunks
+from build_notebooklm_export import (
+    build_readable_chunks,
+    html_chapter_to_readable,
+    validate_readable_chunks,
+)
 
 
 class ManuscriptReadableTests(unittest.TestCase):
@@ -34,6 +38,17 @@ class ManuscriptReadableTests(unittest.TestCase):
             second.write_text(second.read_text(encoding='utf-8') + '\nCHAPTER 2\nTITLE 2\n\nBody 2.\n', encoding='utf-8')
             with self.assertRaisesRegex(ValueError, 'coverage/order mismatch'):
                 validate_readable_chunks(out, expected_numbers=[1, 2, 3])
+
+    def test_html_extraction_uses_canonical_id_not_showcase_shell_number(self):
+        html = '''<!doctype html><html><body>
+        <header class="chapter-title"><div class="number">CHAPTER 73</div><h1>THE BEGINNER</h1></header>
+        <article class="prose"><p>First line.</p><figure><img alt="art words" src="x.png"/></figure><p>Second line.<br/>Third line.</p></article>
+        </body></html>'''
+        readable = html_chapter_to_readable(html, canonical_number=91)
+        self.assertTrue(readable.startswith('CHAPTER 91\nTHE BEGINNER\n\n'))
+        self.assertIn('First line.\n\nSecond line.\nThird line.\n', readable)
+        self.assertNotIn('CHAPTER 73', readable)
+        self.assertNotIn('art words', readable)
 
 
 if __name__ == '__main__':
