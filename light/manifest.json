@@ -1,5 +1,5 @@
 {
-  "latest": 485,
+  "latest": 486,
   "chapters": [
     {
       "number": 100,
@@ -2316,6 +2316,12 @@
       "title": "THE ORGANIZER",
       "source": "checkpoint",
       "path": "485.html"
+    },
+    {
+      "number": 486,
+      "title": "THE COORDINATOR",
+      "source": "checkpoint",
+      "path": "486.html"
     }
   ]
 }
