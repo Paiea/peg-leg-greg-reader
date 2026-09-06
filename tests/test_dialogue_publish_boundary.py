@@ -189,6 +189,11 @@ clear speaker hinge
         candidates = scan_paragraphs(paragraphs)
         self.assertEqual(candidates, [])
 
+    def test_dialogue_ownership_does_not_treat_adjectival_fragment_as_character_action(self):
+        paragraphs = ['"Fine." Good enough.']
+        candidates = scan_paragraphs(paragraphs)
+        self.assertEqual(candidates, [])
+
     def test_dialogue_ownership_does_not_flag_explicit_simple_attribution(self):
         paragraphs = ['"Doing what?" I asked.']
         candidates = scan_paragraphs(paragraphs)
