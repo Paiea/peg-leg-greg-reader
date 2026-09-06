@@ -1,0 +1,67 @@
+name: PERFORMANCE Production Funnel
+
+on:
+  push:
+    branches:
+      - editor/performance-production-funnel
+    paths:
+      - 'state/editorial/performance-production/batch-027-075.json'
+      - 'scripts/performance_production_funnel.py'
+      - 'tests/test_performance_production_funnel.py'
+      - '.github/workflows/performance-production-funnel.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: editor/performance-production-funnel
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Validate production batch
+        run: python scripts/performance_production_funnel.py --batch state/editorial/performance-production/batch-027-075.json
+      - name: Apply earned PERFORMANCE survivors
+        run: python scripts/performance_production_funnel.py --batch state/editorial/performance-production/batch-027-075.json --apply
+      - name: Verify bounded generated diff
+        run: |
+          changed="$(git diff --name-only)"
+          printf '%s\n' "$changed"
+          test "$(printf '%s\n' "$changed" | grep -c '^chapters/')" -eq 3
+          test -n "$(printf '%s\n' "$changed" | grep '^chapters/040.html$')"
+          test -n "$(printf '%s\n' "$changed" | grep '^chapters/054.html$')"
+          test -n "$(printf '%s\n' "$changed" | grep '^chapters/074.html$')"
+          test -z "$(printf '%s\n' "$changed" | grep '^chapters/' | grep -Ev '^chapters/(040|054|074)\.html$' || true)"
+          git diff --check
+      - name: Verify no em dash in generated prose
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          for chapter in (40, 54, 74):
+              text = Path(f'chapters/{chapter:03d}.html').read_text(encoding='utf-8')
+              if '—' in text:
+                  raise SystemExit(f'em dash found in chapters/{chapter:03d}.html')
+          PY
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Validate existing PERFORMANCE archives
+        run: python scripts/performance_roundtrip_references.py --check
+      - name: Validate Showcase
+        run: python scripts/project_check.py showcase
+      - name: Commit generated prose
+        run: |
+          if git diff --quiet; then
+            echo 'No generated prose changes.'
+            exit 0
+          fi
+          git config user.name 'PLG PERFORMANCE Funnel'
+          git config user.email 'actions@users.noreply.github.com'
+          git add chapters/040.html chapters/054.html chapters/074.html
+          git commit -m 'Apply PERFORMANCE production batch 027-075'
+          git push origin HEAD:editor/performance-production-funnel
