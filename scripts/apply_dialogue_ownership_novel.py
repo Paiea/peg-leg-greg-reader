@@ -6,11 +6,15 @@ import argparse
 from collections import defaultdict
 from pathlib import Path
 import re
+import sys
+
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 from scripts.dialogue_ownership_engine import quoted_spans, split_paragraph
 
 
-ROOT = Path(__file__).resolve().parents[1]
 CHAPTERS_DIR = ROOT / "chapters"
 MANUSCRIPT_DIR = ROOT / "state" / "manuscript"
 RECOVERED = MANUSCRIPT_DIR / "Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md"
@@ -90,8 +94,6 @@ def transform_html(path: Path) -> tuple[bool, int]:
     def replace_paragraph(match: re.Match[str]) -> str:
         nonlocal split_count
         content = match.group(1)
-        # Inline markup needs a richer parser. Leave it for the audit rather
-        # than risking damage to formatting or anchors.
         if "<" in content or '"' not in content:
             return match.group(0)
         pieces = split_paragraph(content)
