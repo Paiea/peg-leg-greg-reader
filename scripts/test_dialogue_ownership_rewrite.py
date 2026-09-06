@@ -27,6 +27,14 @@ def main() -> int:
     expected = '<article class="prose"><p>I said, “I have another exercise.” </p><p>Jorren looked suspicious.</p></article>'
     assert got == expected and count >= 1, (got, count, expected)
 
+    # Multi-character scenes must not collapse every non-Greg actor into one owner.
+    # Alden's line and Jorren's reaction belong to different people even though both
+    # are "OTHER" relative to Greg.
+    multi = '<article class="prose"><p>Alden said, “Coins.” Jorren looked at him.</p></article>'
+    got, count = transform_html(multi)
+    expected = '<article class="prose"><p>Alden said, “Coins.” </p><p>Jorren looked at him.</p></article>'
+    assert got == expected and count >= 1, (got, count, expected)
+
     cases = {
         '<p>"If I had an answer you\'d believe, I wouldn\'t need your money." He denied the large loan. Of course he did.</p>': '<p>"If I had an answer you\'d believe, I wouldn\'t need your money."</p><p>He denied the large loan. Of course he did.</p>',
         '<p>She stopped. "Do I know you?" I knew her future immediately.</p>': '<p>She stopped. "Do I know you?"</p><p>I knew her future immediately.</p>',
