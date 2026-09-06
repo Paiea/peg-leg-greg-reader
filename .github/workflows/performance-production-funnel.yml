@@ -1,5 +1,6 @@
 name: PERFORMANCE Production Funnel
 
+# Branch-only production runner for the approved canon 027-075 batch.
 on:
   push:
     branches:
