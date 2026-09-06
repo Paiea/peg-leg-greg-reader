@@ -2,19 +2,27 @@
 from __future__ import annotations
 
 import argparse
+import re
 from pathlib import Path
 
-LIGHT_ACTION = '<a class="secondary-action" href="light/index.html">Read Light</a>'
+LIGHT_ACTION = '<a class="secondary-action" href="light/index.html">Text Reader</a>'
 BEGIN_ACTION = '<a class="start primary-action" href="chapters/001.html">Begin Reading</a>'
+LIGHT_ACTION_RE = re.compile(
+    r'<a class="secondary-action" href="light/index\.html">(?:Read Light|Text Reader)</a>'
+)
 
 
 def patch_home(path: Path) -> bool:
     original = path.read_text(encoding='utf-8')
-    updated = original
-    if LIGHT_ACTION not in updated:
-        if BEGIN_ACTION not in updated:
-            raise SystemExit(f'could not find homepage Begin Reading action in {path}')
-        updated = updated.replace(BEGIN_ACTION, BEGIN_ACTION + LIGHT_ACTION, 1)
+    if BEGIN_ACTION not in original:
+        raise SystemExit(f'could not find homepage Begin Reading action in {path}')
+
+    # The public-label normalization pass renames the historical "Read Light"
+    # label to "Text Reader". Remove either spelling first so repeated builds are
+    # idempotent instead of appending another link on every run.
+    updated = LIGHT_ACTION_RE.sub('', original)
+    updated = updated.replace(BEGIN_ACTION, BEGIN_ACTION + LIGHT_ACTION, 1)
+
     if updated == original:
         return False
     path.write_text(updated, encoding='utf-8')

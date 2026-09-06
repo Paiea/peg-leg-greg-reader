@@ -1,158 +1,166 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 300 — **THE BLUE HORSE**.
-- Book 1 Chapters 1–82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
-- Permanent running manuscript is physically materialized through Chapter 248.
-- Exact Chapters 249–300 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains. Never reconstruct exact prose from summaries.
+- Current exact story endpoint: Chapter 434 - **THE GO-BETWEEN**.
+- Exact Chapters 249-434 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays.
+- **Chapter 432 naming correction:** `state/manuscript/Peg_Leg_Greg_Chapter_432_CORRECTION.md` overrides the duplicate-prone forewoman name in the original checkpoint. The north-slope road forewoman is **Rika Dorn**, not Nessa Vale. There is no Sori/Vale relation beat.
 
-## Production rules
-- One chapter at a time. Target 2,500–4,000 words and clear 2,500 unless explicitly changed.
-- NO EM DASHES in manuscript prose. Greg POV.
-- Exact prose outranks summaries/state/development/chat residue.
-- Follow the next actual claim created by prose. Do not rotate live engines by checklist.
-- Structural boundaries follow story movement, not predetermined counts.
-- Reader ignorance is not Greg ignorance. Greg's first life reached roughly fifty-nine and S-class. Ordinary fantasy-world familiarity should usually remain invisible; curiosity attaches to local implementation, labor, constraints, failure, cost, or specialist practice.
+## Current location / arc
+- Greg, Sori, Dask, and Maro remain in **Merehook** by voluntary self-funded travel.
+- Outer Works contract is complete and closed. Duskport return was intentionally missed.
+- This is genuine away-arc movement with no employer/quest/prophecy forcing continuation.
+- Carrow remains home and communication continues with travel delay.
 
-## Direction
-- Preserve ordinary lived texture, social accumulation, disability/material reality, humor, work, and independent side-character lives.
-- Magical ecology / fieldcraft remains a strong forward push without creature-of-the-week structure, but not every chapter must service it.
-- Ch298 personal magic remains established background evidence. Ch299 neighborhood logistics/repair stands complete.
-- Ch300 follows a fresh household caregiving claim rather than using the round chapter number as plot pressure. Greg supervises Tavi at an ordinary neighborhood play court where common child-scale magical infrastructure and kite hardware are simply part of city life.
-- The chapter expands fantasy texture through use rather than tourist exposition: Greg already knows broad lift-bead and weak-deflection families; Vara and Ren know the local kite practice better.
-- Tavi/Greg household trust advances behaviorally through a bounded outing and practical supervision, not a speech about belonging.
-- Scope restraint remains behavioral. Greg helps stop a loose kite line, but does not take over the kite, repair it, study the court ward, or create a childcare role from one outing.
-- Chapter 300 is explicitly not a structural milestone. Structural boundaries continue to follow actual story movement only.
-- Eventual title-defining leg loss remains flexible long-range architecture, not a countdown.
+## Chapter 434 - THE GO-BETWEEN
 
-### New outward-pressure permission
-- Carrow has accumulated enough home texture that the manuscript may now begin naturally noticing credible reasons for Greg to leave the city for sustained travel.
-- This is a **permission / pressure**, not a requirement that Chapter 301 launch the adventure.
-- Favor outward hooks arising from paid work, provenance, materials, a retrieval/escort need, an existing person's obligation, curiosity with practical value, or multiple modest incentives converging.
-- Greg may notice an offer is suspicious and still accept later if his explanation for the hidden risk is reasonable and the reward / access / curiosity / obligation is worth it by his standards.
-- A useful first major adventure may place Greg inside somebody else's emotional or mythic story rather than making him the chosen person or romantic center.
-- Familiar fantasy scaffolding is allowed. A recognizable escort, retrieval, caravan, ruin, hunt, tournament, or dangerous-route frame is not a failure if PLG's existing social, economic, material, and magical logic reshape it.
-- Do not inject gods, universal cosmic rankings, constant rare shifters, or a mythology dump merely because outward adventure is now available.
+### Title / role
+- Ch434 answer: Greg is being **a go-between**.
+- He does not arbitrate or become local legal authority. He asks bounded questions that help Hara, Corren, Sori, Maro, and buyer-side actors connect pieces of a process they each only partially control.
+- Therefore title **THE GO-BETWEEN**.
+- Recent: 430 THE RECORDER; 431 THE INSPECTOR; 432 THE PASSENGER; 433 THE VISITOR; 434 THE GO-BETWEEN.
 
-## Money / capital
-- Greg still holds **three private client copper** upstairs.
-- Ch300 spends none and earns nothing.
-- No household money is carried or spent in Ch300.
-- Ch299 two-egg payment already ended in household food; no further barter value established.
-- No copper/bit conversion established.
-- Ch293 one-copper bag remains Greg's first and only spend from the original four private client copper.
+## Hara Quill / coastal-measure dispute
+- Maro returns from lower gate with copied current freight-conversion table and effective date.
+- Current posted table technically supports converting Hara's North Reach dry class B crate into Merehook handling class C, causing the **3c surcharge**.
+- However footer includes transition exception:
+  - consignments contracted before effective date may be assessed under prior handling class;
+  - requires dated freight agreement or seller's sealed order;
+  - **market office review required**.
+- Hara has a sealed buyer order dated before rule effective date.
+- This creates a legitimate possible exception, but does **not** let Corren waive fee himself because he is custody clerk, not review clerk.
 
-## Greg / body / equipment
-- Greg is nineteen in second life, Bronze, Carrow. Permanent LEFT BKA, knee preserved; right leg intact; two crutches.
-- Existing crutch repairs and Ch269 right-shoe repair remain sound.
-- Ch293 used brown leather shoulder bag functions normally and carries only existing charcoal/narrow scrap during the outing.
-- Greg cannot normally hold Tavi's hand while moving with two crutches; Cala's bench-court plan uses quiet lanes, `wall side`, corner stops, and Greg sitting beside the only low gate so supervision does not depend on chasing.
-- Greg walks two quiet lanes with Tavi, sits and rises from the court bench with right foot/bench support and left knee clear, and returns home without body issue.
-- During the kite snag, Greg plants his right crutch tip on the loose main line to stop the spool feeding toward the gate, then releases it once Ren regains the spool. No crutch damage or balance incident.
-- Vara notices Greg's right crutch grip has drifted into the bench-side walking path; Greg moves it closer. This is a local practical correction, not new equipment.
-- No pain, fall, pressure injury, residual-limb issue, shoe issue, bag issue, or equipment change.
+## Provisional security workaround
+- Greg asks one bounded process question: can custody hold the disputed money as security without treating it as the fee?
+- Corren identifies existing **provisional security** process.
+- Requirements:
+  - dispute slip;
+  - custody seal;
+  - review-clerk countersign next business opening;
+  - seller posts full disputed amount plus **1c security**.
+- Hara posts **4c total**:
+  - 3c disputed amount;
+  - 1c security.
+- If she wins review, all 4c return.
+- If she loses, 3c becomes fee and 1c returns.
+- This is not free relief: Hara is left with only ~3c liquid until buyer payment, while cart hire/food still exist.
+- Greg does **not** pay any of Hara's charge from his own money.
 
-## Household / Lyssa / Tavi
-- Three clean household gray sheets remain unused.
-- Three private client copper remain upstairs.
-- Horse-page reverse remains full; Ch300 uses public blue chalk on the bench-court wall, not household paper.
-- Existing narrow scrap remains in Greg's bag; he adds no Ch300 notes.
-- After Mera collects Lyssa's Ch299 finished pieces, Lyssa returns upstairs to the brown cuff. Ch300 does not establish customer, deadline, alteration, price, or completion movement for the brown cuff.
-- Cala asks Greg to take restless Tavi to `bench court`, not market, and specifically tells him to sit by the gate. She gives Tavi the route rules `wall side` and `stop corners`.
-- Tavi follows those rules well enough for the outing and stops at corners on the return without prompting. Cala's first debrief question is whether he ran; Greg reports no.
-- Tavi becomes fascinated by Ren's blue horse kite, is allowed to hold a separate red tail loop rather than the main line, later draws a blue chalk `horse`, and returns home telling an inaccurate comic version in which `Greg pole`/`Greg horse tree` feature prominently.
-- Lyssa washes Tavi's chalk-blue hands and does not turn the outing into a larger discussion.
-- No standing Greg childcare assignment, regular bench-court schedule, or new household role is established.
-- Rain shelf works. Front door closer remains repaired/functioning.
+## Buyer / timing problem remains separate
+- Buyer owes Hara **28c on delivery to ship scale**.
+- Market-office review will occur later, so security solves custody release only, not buyer/tide timing.
+- A market runner is sent to lower harbor for buyer representative at cost **1 bit** paid by Hara.
+- Buyer clerk is approaching on a bad knee/cane and cannot reach gate by ordinary close without accommodation.
+- Custody supervisor **Sel Ordan** authorizes only a **10-minute gate extension** because buyer representative was summoned before close.
+- He also clarifies Hara can meet buyer clerk uphill and return with signed buyer authority rather than requiring the buyer clerk physically at gate.
+- Hara runs to meet buyer representative.
+- Buyer clerk arrives/signs authority accepting release into bonded cart custody and allowing ship-scale confirmation first thing before loading.
+- Ship captain will wait **one bell** only if cargo physically reaches lower yard before dawn; tide still controls afterward.
+- Hara must still pay expected **2c cart hire** plus **1-bit night surcharge**.
+- Crate leaves custody into bonded night-cart chain.
 
-## Chapter 300 — THE BLUE HORSE
-- Ch300 begins after Mera leaves with Lyssa's cloth. Tavi is restless/running through the household room; Cala assigns Greg one bounded outing to bench court.
-- Bench court is two quiet lanes away, enclosed on three sides by old brick with a low iron gate on the fourth, benches along the walls, a rain tree, packed earth, and neighborhood children at play.
-- Greg's supervision strategy is physical and ordinary: Tavi walks wall side, stops at corners, and Greg sits beside the gate where Tavi cannot leave without passing close to him.
-- Vara, an older woman shelling peas on the gate bench, knows Cala and recognizes Greg. Greg only then learns her name. Do not infer a prior close relationship.
-- Ren, roughly ten or eleven by Greg's estimate, is flying a badly painted blue horse kite. He is a neighborhood child, not a guaranteed recurring contact.
-- The kite has a small old brass lift bead below its first cross spar. It flashes pale gold when the nose dips and helps the cloth recover air. Greg recognizes the broad family from first-life survey, messenger, and camp-signal kites, but does not inspect mechanism/charge.
-- Four short roof-corner posts support a faint amber drift web above the court. When the kite approaches the edge, the web briefly shows honey-colored and nudges it inward. Greg recognizes the broad weak-deflection purpose; exact construction, ownership, maintenance, limits, and mechanism are unestablished.
-- Ren lets Tavi hold a separate plain red tail loop while Ren retains the main spool.
-- Vara corrects Greg's bench position because one crutch grip projects into the walking path; Greg adjusts it.
-- In a westward gust the blue horse slides along the drift web, drops, clips the rain tree, and the spool jumps from Ren's hand toward the gate.
-- Greg tells Tavi `Stay`; Tavi freezes. Greg pins the loose line with his right crutch tip long enough for Ren to recover the spool, then releases it. This is a tiny practical intervention, not a rescue role.
-- Kite remains snagged in a low rain-tree branch. Ren's pulling worsens tension; Vara tells him to stop. An unnamed girl supplies a forked branch and helps Ren lift the kite free. Greg does not retrieve it with his crutch despite Ren joking that he has a `pole`.
-- Tavi catches the falling tail/cloth against his chest without damage after being told not to squeeze it.
-- Vara inspects the kite: `Bead fine. Knot slipped.` She recenters the bead and reties the stop knot with two turns rather than the prior one because `today` has west wind; yesterday did not. This is bounded local kite practice, not a universal magical or knot rule.
-- Ren relaunches successfully on the third try after ordinary child interference. Tavi again holds the tail loop and later chooses blue chalk to draw a highly abstract `horse` on the court wall.
-- Greg and Vara sit together without creating a new obligation. Vara says Tavi listens, then clarifies `To Cala`; Greg agrees.
-- Greg reflects briefly that small public/play magic can matter through ordinary use even though it is unimpressive beside first-life high-power magic, but does not make notes or a theory from it.
-- On the walk home Tavi continues stopping at corners. His retelling falsely assigns Greg responsibility for putting the horse in the tree and turns Greg's crutch into `Greg pole`.
-- Cala asks only whether Tavi ran. Lyssa reacts to the blue chalk and comic story, then washes Tavi's hands.
-- Final beat explicitly refuses milestone logic: no bell, Guild note, client, or event marks Chapter 300; only the badly painted blue horse flew.
-- Core change: Greg is trusted with one ordinary child-supervision task and handles it using learned household rules, community geometry, and his actual body, while child-scale magic becomes part of the lived fantasy texture.
-- No income, spending, Greg mana, Hessa contact, client, theatre contact, pressure evidence, Vale contact, debt payment, clasp action, return-hardware action, ecology assignment, music follow-up, bridge follow-up, high-line follow-up, basket/Olan follow-up, or new standing obligation.
+## Outcome / unresolved costs
+- Hara's crate is **moving**, not fully solved.
+- Her 4c remains tied pending review.
+- Dawn delivery/ship scale still must happen.
+- Buyer can still reject if delivery issue arises.
+- Rule may still be badly noticed/transitioned.
+- Corren still has bond exposure if paperwork mishandled.
+- No party is made whole.
+- This is partial procedural relief with real cost, not clean loophole victory.
 
-## Magic continuity
-- Totals remain **36 supervised minimal draws / 32 supervised deliberate shaping attempts / 72 supervised external-effect attempts**.
-- Established near aggregate remains **2 clean / 4**.
-- Established middle aggregate remains **1 clean / 6 plus one prior possible edge-lift event (attempt 68)**.
-- Established far aggregate remains **0 / 1**.
-- Ch300 includes no Greg draw, shaping, external attempt, or independent magic.
-- Lift bead and drift web are ordinary external magic belonging to the kite/court and do not affect Greg totals.
-- Outside-session restrictions unchanged. Hessa next experiment/appointment/position/material unselected.
-- Do not infer a distance law, hard range limit, reliability curve, or dose-response relationship from current Greg samples.
+## Character/social movement
+- Hara Quill remains angry/principled but economically exposed; better laugh returns once crate moves.
+- Corren Dey remains precise/defensive custody clerk whose personal bond matters; not villain.
+- Sel Ordan is concise custody supervisor who grants bounded extension based on existing condition, not favoritism.
+- Buyer clerk: gray braid, ironwood cane, blunt about Merehook stairs; prioritizes tide/ship schedule.
+- Sori asks/answers only bounded contract/invoice questions and catches Greg's recurring `employment shoulders`.
+- Maro provides copied table because he genuinely wanted lower-gate/bird route; does not become clerk.
+- Dask arrives late from instrument lane with cracked tide index and treats administrative suspense as another system.
 
-## Other live continuity
-- Ch299 Mera basket/Olan carry-tie/Lyssa delivery stands complete; Ch300 begins after Mera leaves and does not reopen it.
-- Ch298 far test stands; Ch299–300 do not return to Hessa/range work.
-- Ch297 high line/Tess and Pella/Rusk/kessa jumpers stand; no return.
-- Ch296 Nemi/held-note experience stands; no music follow-up.
-- Ch295 bridges/open-seat experience stands; no return.
-- Ch294 shopping errand stands complete.
-- Ch293 bag functions normally.
-- Ch292 shade fish/east-wall trough stand; no return.
-- Ch291 front door stands repaired and opens cleanly.
-- Ch290 rain shelf works.
-- Ch289 ward crossing stands repaired.
-- Ch288 Miri/cooling-cup result stands; Pellin remains only `Pellin kiln` in South Ovens and is not Pell absent evidence.
-- Ch287 carrying light stands.
-- Ch286 dry seal remains ordinary resolved maintenance unless independently reactivated.
-- Ch284 chaffer hatch remains over/quiet.
-- Ch281 return hardware remains unactivated/unvalued. Rell/Maren/Jori unresolved.
-- Ch276/282 theatre facts stand. Ch283–300 no theatre contact.
-- Vale debt active/unresolved; exact balance unstated.
-- Boundary clasp unowned/status unknown.
-- Older pressure evidence ceiling unchanged. Ch300 adds none.
+## Greg role / mindset
+- Greg helps by connecting questions and people rather than owning decision or paying problem away.
+- He explicitly recognizes some problems are clocks/distance/schedules rather than missing information.
+- He and Sori choose **not to chase Hara downhill** because it is not their race.
+- Core realization: helping does not require owning the ending.
+- Greg later records a private concise note because dispute is interesting, then deliberately stops writing.
 
-## Protected uncertainties / do not auto-resolve
-- Existing weak needle-case, Rinna parcel, Lyssa older materials/packets/bundles, Ch246 crate, Pell return, Vale/Bren, collar-facing, six wraps, Ch281 flat package, Ch285 narrow wrapped packet remain protected.
-- Magic range uncertainties from Ch298 remain unchanged.
-- Ch299 Mera basket/carry-tie uncertainties remain bounded.
-- Bench court: exact formal ownership, maintenance, age, gate status/repair responsibility, who installed/maintains the drift web, its exact force/height/limits/charge, and whether Vara has any formal role are unknown.
-- Blue horse kite: maker/owner beyond Ren currently flying it, age, lift-bead maker/charge/lifespan/mechanism, exact knot family, and whether two-turn west-wind practice generalizes beyond Vara/Ren's kite are unknown.
-- Vara and Ren are ordinary one-scene neighborhood contacts unless later prose independently reactivates them. Do not make Vara a mentor/childcare authority for Greg or Ren a standing Tavi friend by summary fiat.
-- Do not turn one successful Tavi outing into automatic babysitting duty, a daily bench-court routine, or proof Greg can safely supervise Tavi in every setting.
-- Existing shade-fish/water-list, dry-seal, carrying-light, cooling-cup, ward-road, rain-thread, door-closer, stay-bead, bridges, Nemi/hold-bead, high-line, and kessa-jumper uncertainties remain bounded.
+## Merehook artifact pressure
+- After market close Greg again sees retired **cliff-line keeper / no cert** at **6c**.
+- Potential uses occur to him: harness, crutch-load experiments, future limb load testing.
+- He still does **not buy it**.
+- Seller does not lower price.
+- Greg's explicit logic: `wanting is not accounting.`
+- Old throat-glass wind bowls continue to fascinate him; upper-ridge bowls sing in sequence before gust reaches lane.
+- No artifact purchase Ch434.
 
-## Chapter 301 trailhead
-Follow the next actual claim from current authority.
+## Trial limb / body
+- No trial-limb wear Ch434.
+- Skin normal; no reason to force nighttime wear for artificial progress.
+- Trial build remains Hark & Venn shop property, unfinished, medium foot.
+- Crutches remain primary and sound.
+- No new injury.
 
-Chapter 300 is a complete bounded Tavi/bench-court outing. Let Vara, Ren, the blue horse kite, the lift bead, the drift web, Tavi's chalk horse, and the `Greg pole` version of events stand. Do not automatically return to the court tomorrow, make Vara a childcare mentor, give Tavi a kite, investigate the drift web, repair the kite, or create a regular Greg/Tavi outing schedule.
+## Economy
+- Greg begins/ends **50c cash / 23c Vale / bits unspecified**.
+- No Greg copper spending Ch434.
+- 20c limb deposit remains paid toward 1 silver + 18c quote.
+- Hara's 4c provisional security and one-bit runner/night costs are **Hara's**, not Greg's.
+- Greg continues protecting capital for limb + road optionality.
 
-Chapter 300's round number created no structural event. Do not compensate in Chapter 301 with a delayed milestone, climax, act break, prophecy, danger spike, retrospective, or meta celebration. Structure follows actual story movement.
+## Magic
+- Protocol remains **59 minimal / 53 shaping / 135 external attempts**.
+- No deliberate magic Ch434.
+- No S-class/locked-mode activation.
 
-Ch298 magic also stands. Totals remain **36 / 32 / 72**; near **2/4 clean**; middle **1/6 clean + one possible edge lift**; far **0/1**. No Hessa appointment or next experiment is selected.
+## Current inventory
+Greg carries:
+1. retired line quietener;
+2. WS-F/9 current reader;
+3. HT-LP-4 load tile;
+4. Tavi striped rock;
+5. porter harness / repair kit / crutch wrap;
+6. Hark & Venn road-test limb build, shop property, medium foot;
+7. personal notebook;
+8. Outer Works close chit.
 
-Three private client copper remain upstairs. Three clean sheets remain. Greg earned/spent nothing in Ch300.
+## Protected uncertainties
+- Greg ends Ch434 at Merehook lodging after market close.
+- Cash **50c**, Vale **23c**, bits unspecified.
+- Protocol **59 / 53 / 135**.
+- Trial limb unfinished/shop property.
+- Hara's crate left custody in bonded night-cart chain; dawn delivery remains pending.
+- Hara's **4c provisional security remains tied pending review**.
+- Whether transition exception ultimately applies is unresolved.
+- Old Tide Eye observatory remains unvisited.
+- Greg has not bought cliff-line keeper or throat glass.
+- Merehook remains current exploration base.
+- Rika Dorn is corrected Ch432 forewoman name. Do not use Nessa Vale.
 
-At chapter end Greg is home after the bench-court outing, uninjured; crutches, shoe, bag, front door, and rain shelf are functioning; Lyssa's brown-cuff work remains hers and unadvanced by Greg; no new external obligation exists.
+## Chapter 435 trailhead
+Follow next actual claim from Ch434/current authority.
 
-Greg has no guaranteed client, Miri return, Pellin visit, Nara follow-up, Hessa appointment, second far test, Vara/Ren/kite follow-up, regular Tavi outing, Mera follow-up, Olan lesson, Lyssa delivery task, Nemi/music follow-up, bridges invitation, high-line/Tess follow-up, Pella/Rusk/kessa follow-up, ecology assignment, ward-water contact, shade-fish task, bead replacement, bag follow-up, rain-thread need, Sera follow-up, lantern-house visit, Maro follow-up, theatre call, rehearsal job, referral agreement, Maren/Rell follow-up, Jori appraisal, clasp hold, Hollen shift, Vale meeting, Guild consultation, animal assignment, Savin appointment, civic hearing, Green Coat encounter, or Lyssa-network obligation.
+Greg begins **50c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**, in Merehook next morning.
 
-**New permission at the edge:** Chapter 301 or later may naturally introduce a small outward-facing fact, person, object, rumor, paid possibility, route, or obligation if the scene independently earns it. The first appearance does not need to become an immediate contract. Greg may dismiss, decline, misunderstand, or simply remember it. Prefer accumulation over a neon quest marker.
+Strong immediate movement:
+- Shift away from the Hara dispute enough to avoid turning Merehook into legal-office serial. A brief consequence/update is welcome, but exploration should now widen again.
+- **Old Tide Eye observatory** is the strongest next claim. Determine what `closed` actually means today and let Dask's interest pay off.
+- Merehook should reveal magical/scientific regional infrastructure distinct from Duskport/Carrow.
+- Wind bowls / throat glass / tide instruments / cliff ecology / old survey systems are live material.
+- Greg remains visitor. He can ask, observe, perhaps participate in a bounded demonstration, but do not hand him a new employment contract immediately.
+- Artifact pressure can sharpen if Greg sees a genuinely rule-changing object or retired instrument, but pricing must remain rational and money pressure real.
+- Maro's glass-gull/salt-cliff interest should get independent movement too.
+- Sori should have her own reason to care about local measure/market/observatory data rather than simply following Greg.
+- Trial limb optional only if stable terrain/task makes it useful.
 
-Let Chapter 301 follow the next actual claim from household, paid work only if genuinely activated, city/social life, theatre only if genuinely reactivated, pressure only if genuinely activated, Lyssa's independent work if naturally intersected, magical ecology/fieldcraft only through a genuinely fresh lived claim, magical infrastructure only if independently activated, a capital opportunity with actual demand/value, another ordinary fantasy-world demand, **or a credible outward-facing opportunity whose first function is to widen the horizon rather than force departure immediately**.
+Avoid:
+- another full chapter of appeal paperwork;
+- instant Hara full refund with no process;
+- free observatory access just because protagonist;
+- generic lore tour with no scene consequence;
+- forced job offer;
+- buying the 6c cliff-line keeper merely because it has been shown twice.
 
-Do not automatically rotate through Vara/Ren/blue horse/lift bead/drift web, Mera/basket/carry tie/Olan, Hessa/near/middle/far, high line/Tess, Pella/Rusk/kessa jumpers, Nemi/music/hold bead, bridges/Vela/Orra/Demin/Sot, shopping/soap/mint, bag/stay bead, shade fish/water list/sun-turn bead, door closer/Sella/Olan, rain shelf/rain thread, Lyssa dark-blue/brown-cuff work, ward paving/tamp charms, Miri/Pellin/cooling cups, Nara/Daro, carrying light/Sera/lantern house, Maro/dry seal, chaffers, paper wholesale, Pavin/Teren, Rell/Maren/Jori, Halei/Trine, Kes/clasp, copperbacks, mask/Sivi, whitewall, scale work, Green Coat/Senn, Savin, Lyssa protected materials, bellthroats, ditchrunners/Edrin, Hollen/Pem, Vale, older pressure, or eventual leg-loss architecture merely because available.
-
-Write ONE complete Chapter 301, target 2,500–4,000 words and clear 2,500, Greg POV, zero em dashes. Validate it, update durable exact prose/state, and leave the Chapter 302 trailhead from what actually happened.
+**MANDATORY TITLE CHECK CH435:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`

@@ -1,0 +1,87 @@
+name: Publish dialogue attribution pass
+
+# Integration v10: keep accepted recovered dialogue through Chapter 201 and extend the Illustrated Reader through Chapter 320 from exact current manuscript authority.
+on:
+  pull_request:
+    paths:
+      - 'scripts/dialogue_live_entrypoint.py'
+      - 'scripts/promote_recovered_dialogue.py'
+      - 'scripts/generate_illustrated.py'
+      - 'tests/test_dialogue_publish_boundary.py'
+      - '.github/workflows/dialogue-attribution-live.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/dialogue_live_entrypoint.py'
+      - 'scripts/promote_recovered_dialogue.py'
+      - 'scripts/generate_illustrated.py'
+      - 'tests/test_dialogue_publish_boundary.py'
+      - '.github/workflows/dialogue-attribution-live.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish-illustrated-through-320:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch durable editorial patch authority
+        run: git fetch origin editor/voice-compression-pass:refs/remotes/origin/editor/voice-compression-pass
+      - name: Install manuscript source-sync dependency
+        run: pip install python-docx
+      - name: Promote Chapters 164-167
+        run: python scripts/promote_recovered_dialogue.py 164-167 --patch-ref origin/editor/voice-compression-pass --source state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
+      - name: Promote Chapters 168-172
+        run: python scripts/promote_recovered_dialogue.py 168-172 --patch-ref origin/editor/voice-compression-pass --source state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
+      - name: Promote Chapters 173-177
+        run: python scripts/promote_recovered_dialogue.py 173-177 --patch-ref origin/editor/voice-compression-pass --source state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
+      - name: Promote Chapters 178-182
+        run: python scripts/promote_recovered_dialogue.py 178-182 --patch-ref origin/editor/voice-compression-pass --source state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
+      - name: Promote Chapters 183-187
+        run: python scripts/promote_recovered_dialogue.py 183-187 --patch-ref origin/editor/voice-compression-pass --source state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
+      - name: Promote Chapters 188-192
+        run: python scripts/promote_recovered_dialogue.py 188-192 --patch-ref origin/editor/voice-compression-pass --source state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
+      - name: Promote Chapters 193-197
+        run: python scripts/promote_recovered_dialogue.py 193-197 --patch-ref origin/editor/voice-compression-pass --source state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
+      - name: Promote Chapters 198-201
+        run: python scripts/promote_recovered_dialogue.py 198-201 --patch-ref origin/editor/voice-compression-pass --source state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
+      - name: Extend Illustrated Reader through Chapter 320
+        run: python scripts/generate_illustrated.py 156-320
+      - name: Validate publication boundary
+        run: |
+          python -m unittest discover -s tests -v
+          git diff --check
+          bad="$(git diff --name-only | grep -Ev '^(chapters/[0-9]{3}\.html|state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT\.md)$' || true)"
+          if [ -n "$bad" ]; then echo "Unexpected changed files:"; echo "$bad"; exit 1; fi
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          for n in range(156, 321):
+              path = Path(f'chapters/{n:03d}.html')
+              if not path.exists(): raise SystemExit(f'missing Illustrated Reader chapter {n}')
+              text = path.read_text(encoding='utf-8')
+              m = re.search(r'<article\s+class="prose"[^>]*>(.*?)</article>', text, re.S | re.I)
+              if not m: raise SystemExit(f'missing prose article in chapter {n}')
+              if '—' in re.sub(r'<[^>]+>', '', m.group(1)): raise SystemExit(f'em dash in chapter {n} prose')
+          print('Illustrated Reader validation passed for Chapters 156-320')
+          PY
+      - name: Commit published illustrated reader and recovered authority
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+        run: |
+          if git diff --quiet -- chapters state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md; then
+            echo 'Illustrated Reader already published through Chapter 320.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add chapters state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md
+          git commit -m 'reader: publish Illustrated Reader through chapter 320'
+          git pull --rebase origin main
+          git push

@@ -60,21 +60,7 @@ Iven pointed.
 
 "Why?"
 
-Lorn said, "Otherwise Orin comes in for no reason."
-
-I looked at Orin's name farther down the page.
-
-"What reason does he come in?"
-
-"To arrest the Chancellor."
-
-"Why?"
-
-Lorn and Iven answered at the same time.
-
-"Forgery."
-
-"Treason."
+Lorn said, "To arrest the Chancellor."
 
 They looked at each other.
 
@@ -8617,9 +8603,7 @@ Teren ignored both.
 
 "Wake me then."
 
-Teren looked at Greg.
-
-At me.
+Teren looked at me.
 
 "Fish."
 
@@ -9241,12 +9225,9 @@ Teren looked at him.
 
 "Three short sets. Nobody gets show rate."
 
-Greg asked, "Do we get anything?"
+I asked, "Do we get anything?"
 
 Teren looked at me.
-
-I had apparently become Greg again in my own head because money was
-involved.
 
 "One copper each for anyone in all three sets. Company keeps the rest."
 
@@ -10373,9 +10354,9 @@ People.
 A man came out of a doorway carrying a sack and looked as though someone
 had thrown him into bread.
 
-Greg noticed the sluice gate first.
+I noticed the sluice gate first.
 
-Of course Greg noticed the sluice gate first.
+Of course I noticed the sluice gate first.
 
 I leaned.
 
@@ -10912,7 +10893,7 @@ One door at each end.
 
 The room smelled like bread before bread became food.
 
-Greg immediately looked at the beams.
+I immediately looked at the beams.
 
 No.
 
@@ -11895,10 +11876,9 @@ Morning lost.
 A woman near the mill gate sold hot oat cakes from a covered basket. One
 copper bought two.
 
-Greg had money.
+I had money.
 
-That fact was still strange enough that I stood there for a moment
-deciding whether hot food was worth one copper.
+That fact was still strange enough that I stood there for a moment deciding whether hot food was worth one copper.
 
 Then I bought it.
 
@@ -13668,7 +13648,7 @@ That took longer.
 
 It also held differently.
 
-A man in a leather apron argued with Greg from outside the scene.
+A man in a leather apron argued with me from outside the scene.
 
 "If he paid, he's paid."
 
@@ -13789,7 +13769,7 @@ A woman near the front recognized the piece from the first set.
 When Serra said, "I require a weapon," the woman quietly said,
 "Judgment."
 
-Greg heard her.
+I heard her.
 
 So did Serra.
 
@@ -13809,7 +13789,7 @@ The scene moved.
 
 A little later a man asked what the Sword cost.
 
-Greg said, "Depends who is buying."
+I said, "Depends who is buying."
 
 "Me."
 
@@ -13946,7 +13926,7 @@ It was enough that nobody looked angry about staying.
 
 Teren paid the performers who had worked both sets.
 
-Greg got two copper.
+I got two copper.
 
 Marek got one.
 
@@ -15296,7 +15276,7 @@ She looked at it.
 
 "I can see."
 
-She looked at Greg, then at Marek's crown case, then at the Sword board.
+She looked at me, then at Marek's crown case, then at the Sword board.
 
 "Two wagons?"
 

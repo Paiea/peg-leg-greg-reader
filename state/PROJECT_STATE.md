@@ -134,12 +134,13 @@ Permanent forward path:
 
 Do NOT create a new range-stamped running manuscript for each forward chapter/pass.
 
-Current recorded story endpoint is Chapter 248 — **THE CONSTANT**. Always verify `MANUSCRIPT_STATE.md` / running manuscript before using this number if newer work exists.
+The **current exact story endpoint is owned by `MANUSCRIPT_STATE.md` plus exact manuscript/checkpoint files. Do not cache a chapter number in this project-level state.** Read the current owner whenever the endpoint matters.
 
 Repository exact-text availability:
 - illustrated/static prose through Chapter 155 — **THE LEAK**
 - recovered exact Chapters 156–219 in `state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md`
-- Chapter 220+ forward prose in `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`
+- permanent running manuscript physically materialized through Chapter 248 in `state/manuscript/Peg_Leg_Greg_Running_Manuscript.md`
+- exact Chapter 249–current forward prose in durable checkpoint files under `state/manuscript/`; `MANUSCRIPT_STATE.md` owns the current endpoint and synchronization status
 
 The recovered 156–219 block has not yet been consolidated into the permanent running manuscript. Do not reconstruct or rewrite it from summaries.
 

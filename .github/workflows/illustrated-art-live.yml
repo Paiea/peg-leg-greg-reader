@@ -1,0 +1,41 @@
+name: Illustrated art live
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'visual/chapter_art/**'
+      - 'scripts/generate_illustrated.py'
+      - '.github/workflows/illustrated-art-live.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rebuild touched illustrated chapters
+        run: |
+          python scripts/generate_illustrated.py 266-268
+          python scripts/generate_illustrated.py 271-272
+          python scripts/generate_illustrated.py 302-303
+          python scripts/generate_illustrated.py 320-320
+      - name: Commit generated reader pages
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add chapters/266.html chapters/267.html chapters/268.html chapters/271.html chapters/272.html chapters/302.html chapters/303.html chapters/320.html
+          if git diff --cached --quiet; then
+            echo 'No illustrated reader changes.'
+          else
+            git commit -m 'reader: place new chapter illustrations'
+            git push
+          fi

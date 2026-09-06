@@ -1,0 +1,293 @@
+import sys
+import tempfile
+import unittest
+from pathlib import Path
+from unittest import mock
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / 'scripts'))
+
+import apply_dialogue_variance as adv
+
+
+class DialogueVarianceIntegratorTests(unittest.TestCase):
+    def test_parses_current_and_replace_patch(self):
+        note = '''## Chapter 3 — THE INVESTOR
+### Patch 3.V1 — example
+Current:
+
+`"Old."`
+
+`"Still old."`
+
+Replace with:
+
+`"New."`
+
+`"Still new."`
+
+Reason: test
+'''
+        patches = adv.parse_batch(note)
+        self.assertEqual(1, len(patches))
+        self.assertEqual(3, patches[0].chapter)
+        self.assertEqual(['"Old."', '"Still old."'], patches[0].current)
+        self.assertEqual(['"New."', '"Still new."'], patches[0].replacement)
+
+    def test_applies_patch_without_removing_figure_and_is_idempotent(self):
+        html = '<article class="prose"><p>Before.</p><p>"Old."</p><figure><img src="x.png"/></figure><p>"Still old." After.</p></article>'
+        patch = adv.Patch(3, '3.V1', ['"Old."', '"Still old."'], ['"New."', '"Still new."'], '')
+        changed = adv.apply_patch_to_html(html, patch)
+        self.assertIn('<figure><img src="x.png"/></figure>', changed)
+        self.assertIn('"New."', changed)
+        self.assertIn('"Still new." After.', changed)
+        self.assertNotIn('"Old."', changed)
+        self.assertEqual(changed, adv.apply_patch_to_html(changed, patch))
+
+    def test_preserves_unrelated_inline_prose_markup(self):
+        html = '<article class="prose"><p>Before <em>important</em> thought.</p><p>"Old."</p><p>"Still old."</p></article>'
+        patch = adv.Patch(3, '3.V1', ['"Old."', '"Still old."'], ['"New."', '"Still new."'], '')
+        changed = adv.apply_patch_to_html(html, patch)
+        self.assertIn('<p>Before <em>important</em> thought.</p>', changed)
+        self.assertIn('<p>"New."</p>', changed)
+        self.assertIn('<p>"Still new."</p>', changed)
+
+    def test_ledger_ellipsis_bridges_unchanged_current_prose(self):
+        html = '<article class="prose"><p>Alden turned.</p><p>He had one of the leather balls in his right hand.</p><p>"Greg."</p><p>"No."</p><p>"Coward."</p></article>'
+        patch = adv.Patch(
+            86,
+            '86.V1',
+            ['Alden turned.', '...', '"Greg."', '"No."', '"Coward."'],
+            ['Alden turned.', 'He had one of the leather balls in his right hand.', '"Greg."', '"Play?"', '"No."'],
+            'Replace the Alden portion with:',
+        )
+        changed = adv.apply_patch_to_html(html, patch)
+        self.assertIn('<p>Alden turned.</p>', changed)
+        self.assertIn('<p>He had one of the leather balls in his right hand.</p>', changed)
+        self.assertIn('<p>"Greg."</p>', changed)
+        self.assertIn('<p>"Play?"</p>', changed)
+        self.assertNotIn('<p>"Coward."</p>', changed)
+        self.assertEqual(changed, adv.apply_patch_to_html(changed, patch))
+
+    def test_matches_ascii_ledger_quotes_against_curly_reader_quotes(self):
+        html = '<article class="prose"><p>“Old.”</p><p>“Still old.”</p></article>'
+        patch = adv.Patch(21, '21.V1', ['"Old."', '"Still old."'], ['"New."', '"Still new."'], '')
+        changed = adv.apply_patch_to_html(html, patch)
+        self.assertIn('<p>“New.”</p>', changed)
+        self.assertIn('<p>“Still new.”</p>', changed)
+        self.assertNotIn('"New."', changed)
+        self.assertEqual(changed, adv.apply_patch_to_html(changed, patch))
+
+    def test_replace_after_anchor_preserves_current_through_anchor(self):
+        html = '<article class="prose"><p>"Tell me."</p><p>"Impossible."</p><p>"Good."</p><p>"That one."</p></article>'
+        patch = adv.Patch(
+            13,
+            '13.V1',
+            ['"Tell me."', '"Impossible."', '"Good."', '"That one."'],
+            ['"Good." Arlo seated the regulator.', '"Then watch the test."'],
+            'Replace after Greg says `Impossible.` with:',
+        )
+        changed = adv.apply_patch_to_html(html, patch)
+        self.assertIn('<p>"Tell me."</p>', changed)
+        self.assertIn('<p>"Impossible."</p>', changed)
+        self.assertIn('<p>"Good." Arlo seated the regulator.</p>', changed)
+        self.assertIn('<p>"Then watch the test."</p>', changed)
+        self.assertNotIn('<p>"That one."</p>', changed)
+
+    def test_final_line_directive_replaces_only_last_current_line(self):
+        html = '<article class="prose"><p>A.</p><p>B.</p><p>C.</p></article>'
+        patch = adv.Patch(7, '7.V3', ['A.', 'B.', 'C.'], ['Replacement.'], 'Replace the final Antonius line with:')
+        changed = adv.apply_patch_to_html(html, patch)
+        self.assertIn('<p>A.</p>', changed)
+        self.assertIn('<p>B.</p>', changed)
+        self.assertIn('<p>Replacement.</p>', changed)
+        self.assertNotIn('<p>C.</p>', changed)
+
+    def _write_batch(self, root: Path, start: int, end: int, body: str = '') -> Path:
+        path = root / f'BATCH_{start:03d}_{end:03d}.md'
+        path.write_text(body, encoding='utf-8')
+        return path
+
+    def test_batch_contract_requires_sequential_coverage_to_start_at_one(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            batches = [self._write_batch(root, 6, 10)]
+            with self.assertRaisesRegex(AssertionError, 'start at Chapter 1'):
+                adv.validate_batch_contract(11, batches)
+
+    def test_batch_contract_rejects_gaps_before_reviewed_edge(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            batches = [self._write_batch(root, 1, 5), self._write_batch(root, 11, 15)]
+            with self.assertRaisesRegex(AssertionError, 'gap'):
+                adv.validate_batch_contract(16, batches)
+
+    def test_batch_contract_rejects_overlapping_ranges(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            batches = [self._write_batch(root, 1, 5), self._write_batch(root, 5, 10)]
+            with self.assertRaisesRegex(AssertionError, 'overlap'):
+                adv.validate_batch_contract(11, batches)
+
+    def test_batch_contract_rejects_patch_chapter_outside_filename_range(self):
+        note = '''## Chapter 6 — THE WRONG RANGE
+### Patch 6.V1 — example
+Current:
+`"Old."`
+Replace with:
+`"New."`
+Reason: test
+'''
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            batches = [self._write_batch(root, 1, 5, note)]
+            with self.assertRaisesRegex(AssertionError, 'outside batch range'):
+                adv.validate_batch_contract(6, batches)
+
+    def test_batch_contract_rejects_duplicate_patch_ids(self):
+        first = '''## Chapter 1 — ONE
+### Patch SHARED.V1 — example
+Current:
+`"Old one."`
+Replace with:
+`"New one."`
+Reason: test
+'''
+        second = '''## Chapter 2 — TWO
+### Patch SHARED.V1 — example
+Current:
+`"Old two."`
+Replace with:
+`"New two."`
+Reason: test
+'''
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            batches = [self._write_batch(root, 1, 1, first), self._write_batch(root, 2, 2, second)]
+            with self.assertRaisesRegex(AssertionError, 'duplicate patch id'):
+                adv.validate_batch_contract(3, batches)
+
+    def test_selected_batches_includes_range_that_straddles_reviewed_edge(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self._write_batch(root, 1, 5)
+            with mock.patch.object(adv, 'BATCH_DIR', root):
+                selected = adv.selected_batches(5)
+            self.assertEqual(['BATCH_001_005.md'], [path.name for path in selected])
+
+    def test_batch_contract_rejects_empty_batch_file(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            batches = [self._write_batch(root, 1, 5)]
+            with self.assertRaisesRegex(AssertionError, 'contains no patches'):
+                adv.validate_batch_contract(6, batches)
+
+    def test_parse_batch_rejects_patch_missing_current_section(self):
+        note = '''## Chapter 3 — THREE
+### Patch 3.V1 — malformed
+Replace with:
+`"New."`
+Reason: test
+'''
+        with self.assertRaisesRegex(AssertionError, 'missing Current'):
+            adv.parse_batch(note)
+
+    def test_parse_batch_rejects_patch_missing_replace_section(self):
+        note = '''## Chapter 3 — THREE
+### Patch 3.V1 — malformed
+Current:
+`"Old."`
+Reason: test
+'''
+        with self.assertRaisesRegex(AssertionError, 'missing Replace'):
+            adv.parse_batch(note)
+
+    def test_parse_batch_rejects_patch_without_current_prose(self):
+        note = '''## Chapter 3 — THREE
+### Patch 3.V1 — malformed
+Current:
+Old prose without code formatting.
+Replace with:
+`"New."`
+Reason: test
+'''
+        with self.assertRaisesRegex(AssertionError, 'has no Current prose'):
+            adv.parse_batch(note)
+
+    def test_parse_batch_rejects_patch_before_chapter_heading(self):
+        note = '''### Patch 3.V1 — orphaned
+Current:
+`"Old."`
+Replace with:
+`"New."`
+Reason: test
+'''
+        with self.assertRaisesRegex(AssertionError, 'before a Chapter heading'):
+            adv.parse_batch(note)
+
+    def test_parse_batch_rejects_malformed_patch_header(self):
+        note = '''## Chapter 3 — THREE
+### Patch — missing id
+Current:
+`"Old."`
+Replace with:
+`"New."`
+Reason: test
+'''
+        with self.assertRaisesRegex(AssertionError, 'malformed Patch header'):
+            adv.parse_batch(note)
+
+    def test_parse_batch_rejects_patch_without_replacement_prose(self):
+        note = '''## Chapter 3 — THREE
+### Patch 3.V1 — malformed
+Current:
+`"Old."`
+Replace with:
+New prose without code formatting.
+Reason: test
+'''
+        with self.assertRaisesRegex(AssertionError, 'has no replacement prose'):
+            adv.parse_batch(note)
+
+    def test_parse_batch_rejects_duplicate_section_markers(self):
+        cases = (
+            ('Current', '''## Chapter 3 — THREE
+### Patch 3.V1 — malformed
+Current:
+`"Old."`
+Current:
+`"Still old."`
+Replace with:
+`"New."`
+Reason: test
+'''),
+            ('Replace', '''## Chapter 3 — THREE
+### Patch 3.V1 — malformed
+Current:
+`"Old."`
+Replace with:
+`"New."`
+Replace with:
+`"Still new."`
+Reason: test
+'''),
+        )
+        for marker, note in cases:
+            with self.subTest(marker=marker), self.assertRaisesRegex(AssertionError, f'duplicate {marker}'):
+                adv.parse_batch(note)
+
+    def test_parse_batch_rejects_em_dash_in_replacement_prose(self):
+        note = '''## Chapter 3 — THREE
+### Patch 3.V1 — malformed
+Current:
+`"Old."`
+Replace with:
+`"New — but forbidden."`
+Reason: test
+'''
+        with self.assertRaisesRegex(AssertionError, 'em dash'):
+            adv.parse_batch(note)
+
+
+if __name__ == '__main__':
+    unittest.main()

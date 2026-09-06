@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - 'reader/**'
+      - 'integration/**'
     paths:
       - 'state/manuscript/Peg_Leg_Greg_Running_Manuscript.md'
       - 'state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md'
@@ -12,22 +13,62 @@ on:
       - 'state/LIGHT_EDITION_STATE.md'
       - 'state/PROJECT_STATE.md'
       - 'state/READER_DESIGN_LAB.md'
+      - 'state/IMAGE_PRODUCTION.md'
+      - 'state/editorial/DIALOGUE_VARIANCE_PASS_STATE.md'
+      - 'state/editorial/dialogue-variance-pass/**'
+      - 'state/visual/SCENE_CANDIDATES.json'
+      - 'state/visual/ILLUSTRATION_REGISTRY.json'
+      - 'state/visual/ILLUSTRATION_APPROVALS.json'
+      - 'state/visual/GENERATION_QUEUE.json'
+      - 'state/visual/CHARACTER_VISUAL_REFERENCES.json'
+      - 'state/visual/CHARACTER_REFERENCE_AUDIT.md'
+      - 'state/visual/CHARACTER_CONTINUITY_REPORT.md'
+      - 'state/visual/PARAGRAPH_ANCHOR_REPORT.md'
+      - 'state/visual/GENERATION_PACKET.md'
+      - 'state/visual/GENERATION_PACKET_156_160.md'
+      - 'state/visual/ILLUSTRATION_APPROVAL_PACKET.md'
       - 'chapters/*.html'
       - 'index.html'
       - 'scripts/generate_light.py'
+      - 'scripts/generate_illustrated.py'
       - 'scripts/reader_sections.py'
       - 'scripts/update_home_contents.py'
       - 'scripts/verify_light.py'
+      - 'scripts/verify_reader_frontier.py'
+      - 'scripts/apply_dialogue_variance.py'
       - 'scripts/update_reader_navigation.py'
       - 'scripts/update_reader_presentation.py'
+      - 'scripts/illustration_state.py'
+      - 'scripts/import_legacy_illustrations.py'
+      - 'scripts/validate_paragraph_anchors.py'
+      - 'scripts/build_generation_queue.py'
+      - 'scripts/build_generation_packet.py'
+      - 'scripts/build_bounded_generation_packet.py'
+      - 'scripts/build_approval_packet.py'
+      - 'scripts/sync_scene_candidate_status.py'
+      - 'scripts/score_character_references.py'
+      - 'scripts/backfill_character_reference_metadata.py'
+      - 'scripts/backfill_tagged_registry_metadata.py'
+      - 'scripts/promote_character_references.py'
+      - 'scripts/audit_character_references.py'
+      - 'scripts/tag_registry_characters.py'
+      - 'scripts/build_character_continuity_report.py'
+      - 'scripts/intake_generated_illustrations.py'
+      - 'scripts/apply_illustration_approvals.py'
+      - 'scripts/promote_illustrations.py'
+      - 'scripts/build_illustration_backlog.py'
+      - 'scripts/build_prompt_packs.py'
+      - 'scripts/report_illustration_coverage.py'
       - 'tests/test_*.py'
       - 'assets/reader.css'
       - 'assets/light.css'
       - 'assets/book-contents.css'
+      - 'assets/book-contents-base.css'
       - 'assets/book-role-cards/**'
       - 'assets/light-progress.js'
       - 'assets/light-reader.js'
       - 'visual/book_plates/**'
+      - 'visual/chapter_art/**'
       - 'light.html'
       - '.github/workflows/light-edition.yml'
   workflow_dispatch:
@@ -42,68 +83,169 @@ concurrency:
 jobs:
   build-light:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
       - name: Prepare reader presentation CSS
         run: python scripts/update_reader_presentation.py assets/reader.css
+      - name: Prepare book-first homepage source
+        run: python scripts/update_home_contents.py
       - name: Test reader tooling
         run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Apply completed dialogue variance
+        run: python scripts/apply_dialogue_variance.py
+      - name: Process illustration production state
+        run: |
+          python scripts/import_legacy_illustrations.py
+          python scripts/tag_registry_characters.py
+          python scripts/backfill_tagged_registry_metadata.py
+          python scripts/backfill_character_reference_metadata.py
+          python scripts/validate_paragraph_anchors.py
+          python scripts/build_generation_queue.py
+          python scripts/intake_generated_illustrations.py
+          python scripts/apply_illustration_approvals.py
+          python scripts/promote_illustrations.py
+          python scripts/sync_scene_candidate_status.py
+          python scripts/promote_character_references.py
       - name: Generate recovered Light range
         run: python scripts/generate_light.py 156-219
+      - name: Generate current Illustrated range
+        run: python scripts/generate_illustrated.py current
       - name: Generate current Light range
         run: python scripts/generate_light.py current
       - name: Update illustrated contents and cross-mode navigation
         run: |
           python scripts/update_reader_navigation.py index.html
           python scripts/update_home_contents.py
+      - name: Refresh illustration production state
+        run: |
+          python scripts/validate_paragraph_anchors.py
+          python scripts/build_illustration_backlog.py
+          python scripts/build_prompt_packs.py
+          python scripts/tag_registry_characters.py
+          python scripts/backfill_tagged_registry_metadata.py
+          python scripts/backfill_character_reference_metadata.py
+          python scripts/promote_character_references.py
+          python scripts/audit_character_references.py
+          python scripts/build_character_continuity_report.py
+          python scripts/build_generation_queue.py
+          python scripts/build_generation_packet.py
+          python scripts/build_bounded_generation_packet.py --start 156 --end 160
+          python scripts/build_approval_packet.py
+          python scripts/report_illustration_coverage.py --strict
       - name: Verify Light publishing derivatives
         run: |
           python scripts/verify_light.py 156-219
           python scripts/verify_light.py current
+          python scripts/verify_reader_frontier.py
+          python scripts/apply_dialogue_variance.py --check
           test -f light/156.html
           test -f light/219.html
           test -f light/220.html
           test -f light/index.html
           test -f light/manifest.json
           test -f latest.html
-          ! grep -R '<img' light/*.html
-          ! grep -R 'Peg_Leg_Greg_Running_Manuscript.md' light/*.html
-          ! grep -R 'Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md' light/*.html
+          test -f chapters/321.html
+          test -f state/visual/SCENE_CANDIDATES.json
+          test -f state/visual/ILLUSTRATION_REGISTRY.json
+          test -f state/visual/ILLUSTRATION_APPROVALS.json
+          test -f state/visual/GENERATION_QUEUE.json
+          test -f state/visual/CHARACTER_VISUAL_REFERENCES.json
+          test -f state/visual/CHARACTER_REFERENCE_AUDIT.md
+          test -f state/visual/CHARACTER_CONTINUITY_REPORT.md
+          test -f state/visual/PARAGRAPH_ANCHOR_REPORT.md
+          test -f state/visual/GENERATION_PACKET.md
+          test -f state/visual/GENERATION_PACKET_156_160.md
+          test -f state/visual/ILLUSTRATION_APPROVAL_PACKET.md
+          test -f state/visual/ILLUSTRATION_BACKLOG.md
+          test -f state/visual/ILLUSTRATION_COVERAGE.md
+          if grep -R '<img' light/*.html; then
+            echo 'image markup leaked into Text Reader'
+            exit 1
+          fi
+          if grep -R 'Peg_Leg_Greg_Running_Manuscript.md' light/*.html; then
+            echo 'running-manuscript path leaked into Text Reader'
+            exit 1
+          fi
+          if grep -R 'Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md' light/*.html; then
+            echo 'recovered-manuscript path leaked into Text Reader'
+            exit 1
+          fi
           grep -q 'href="220.html"' light/219.html
           grep -q 'href="219.html"' light/220.html
-          grep -q 'href="light/index.html">Read Light</a>' index.html
+          grep -q 'href="light/index.html">Text Reader</a>' index.html
           grep -q 'BOOK I' index.html
           grep -q 'BOOK II' index.html
           grep -q 'BOOK III' index.html
+          grep -q 'BOOK IV' index.html
           grep -q 'THE SECOND LIFE' index.html
           grep -q 'THE STAGE DOOR' index.html
           grep -q 'THE COMPANY ROAD' index.html
           grep -q 'THE WORKING COMPANY' index.html
           grep -q 'THE PRICE OF ATTENTION' index.html
+          grep -q 'BEYOND THE DOOR' index.html
           grep -q 'assets/book-contents.css' index.html
           grep -q 'BOOK I' light/index.html
           grep -q 'BOOK II' light/index.html
           grep -q 'BOOK III' light/index.html
+          grep -q 'BOOK IV' light/index.html
           grep -q 'THE STAGE DOOR' light/index.html
           grep -q 'THE WORKING COMPANY' light/index.html
           grep -q 'THE PRICE OF ATTENTION' light/index.html
+          grep -q 'BEYOND THE DOOR' light/index.html
           grep -q '../assets/book-contents.css' light/index.html
+          grep -q 'Text Reader' light/index.html
+          grep -q 'Illustrated Reader' light/index.html
+          grep -q 'TEXT READER · CHAPTER 220' light/220.html
+          grep -q 'Text-only reading · no chapter illustrations' light/220.html
+          if grep -R '#chapters' light/*.html light.html latest.html index.html assets/light-progress.js assets/light-reader.js; then
+            echo 'stale #chapters anchor detected'
+            exit 1
+          fi
+          if grep -R 'Light Edition' light/*.html light.html latest.html index.html assets/light-reader.js; then
+            echo 'stale Light Edition label detected'
+            exit 1
+          fi
+          if grep -E 'Peg-Leg Greg Light| · LIGHT|Light chapter list' assets/light-reader.js; then
+            echo 'stale fallback reader vocabulary detected'
+            exit 1
+          fi
+          if grep -R '>LIGHT<' light/*.html light.html latest.html index.html; then
+            echo 'stale LIGHT navigation label detected'
+            exit 1
+          fi
+          if grep -R '>Read Light<' light/*.html light.html latest.html index.html; then
+            echo 'stale Read Light label detected'
+            exit 1
+          fi
           grep -q 'READER ACT CONTENTS + DESKTOP ART CAPS' assets/reader.css
           git diff --check
       - name: Commit generated reader presentation derivatives
         if: github.ref == 'refs/heads/main'
         run: |
-          if git diff --quiet -- light latest.html index.html assets/reader.css; then
-            echo 'Reader presentation already current.'
+          if git diff --quiet -- chapters light light.html latest.html index.html assets/reader.css state/visual/SCENE_CANDIDATES.json state/visual/ILLUSTRATION_REGISTRY.json state/visual/GENERATION_QUEUE.json state/visual/GENERATION_PACKET.md state/visual/GENERATION_PACKET_156_160.md state/visual/ILLUSTRATION_APPROVAL_PACKET.md state/visual/CHARACTER_VISUAL_REFERENCES.json state/visual/CHARACTER_REFERENCE_AUDIT.md state/visual/CHARACTER_CONTINUITY_REPORT.md state/visual/PARAGRAPH_ANCHOR_REPORT.md state/visual/ILLUSTRATION_BACKLOG.md state/visual/ILLUSTRATION_COVERAGE.md state/visual/prompt-packs; then
+            echo 'Reader and illustration production derivatives already current.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add light latest.html index.html assets/reader.css
+          git add chapters light light.html latest.html index.html assets/reader.css state/visual/SCENE_CANDIDATES.json state/visual/ILLUSTRATION_REGISTRY.json state/visual/GENERATION_QUEUE.json state/visual/GENERATION_PACKET.md state/visual/GENERATION_PACKET_156_160.md state/visual/ILLUSTRATION_APPROVAL_PACKET.md state/visual/CHARACTER_VISUAL_REFERENCES.json state/visual/CHARACTER_REFERENCE_AUDIT.md state/visual/CHARACTER_CONTINUITY_REPORT.md state/visual/PARAGRAPH_ANCHOR_REPORT.md state/visual/ILLUSTRATION_BACKLOG.md state/visual/ILLUSTRATION_COVERAGE.md state/visual/prompt-packs
           git commit -m 'Refresh reader presentation'
-          git push
+          for attempt in 1 2 3; do
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo 'Generated reader commit conflicted with current main.'
+              exit 1
+            fi
+            git push origin HEAD:main && exit 0
+            echo "Main moved during generated reader push (attempt ${attempt}/3); retrying."
+            sleep $((attempt * 2))
+          done
+          echo 'Generated reader push lost the main race after 3 attempts.'
+          exit 1

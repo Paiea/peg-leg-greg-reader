@@ -1,0 +1,45 @@
+name: Promote Book 1 polish
+
+on:
+  workflow_dispatch:
+    inputs:
+      chapter_range:
+        description: 'Inclusive Book 1 chapter range, e.g. 1-5'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Book 1 promotion dependency
+        run: pip install python-docx
+      - name: Test promotion tool
+        run: python -m unittest tests.test_promote_book1_polish -v
+      - name: Promote approved reader prose into canonical Book 1
+        run: python scripts/promote_book1_polish.py '${{ inputs.chapter_range }}'
+      - name: Verify bounded source change
+        run: |
+          changed="$(git diff --name-only)"
+          test "$changed" = "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx"
+          git diff --check
+      - name: Commit canonical Book 1 source
+        run: |
+          if git diff --quiet -- state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx; then
+            echo 'Canonical Book 1 already matches the requested reader range.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx
+          git commit -m "Promote Book 1 polish ${{ inputs.chapter_range }}"
+          git push
