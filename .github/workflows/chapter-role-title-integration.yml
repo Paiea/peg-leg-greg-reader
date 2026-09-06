@@ -1,0 +1,72 @@
+name: Integrate chapter role titles
+
+on:
+  push:
+    branches:
+      - editor/chapter-title-role-integration
+    paths:
+      - 'scripts/apply_chapter_role_titles.py'
+      - 'tests/test_chapter_role_title_integration.py'
+      - '.github/workflows/chapter-role-title-integration.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: chapter-role-title-integration
+  cancel-in-progress: true
+
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install DOCX dependency
+        run: pip install python-docx
+      - name: Test title integration tool
+        run: python -m unittest tests.test_chapter_role_title_integration -v
+      - name: Fetch approved audit authority
+        run: git fetch origin editor/chapter-title-role-audit-batch-001:refs/remotes/origin/editor/chapter-title-role-audit-batch-001
+      - name: Apply approved role titles
+        run: python scripts/apply_chapter_role_titles.py --apply
+      - name: Bring approved audit ledger into integration branch
+        run: git checkout origin/editor/chapter-title-role-audit-batch-001 -- state/CHAPTER_TITLE_ROLE_AUDIT.md state/chapter-title-role-audit
+      - name: Regenerate reader derivatives
+        run: |
+          python scripts/generate_light.py 156-219
+          python scripts/generate_illustrated.py current
+          python scripts/generate_light.py current
+          python scripts/update_reader_navigation.py index.html
+          python scripts/update_home_contents.py
+      - name: Refresh NotebookLM sources
+        run: python scripts/build_notebooklm_export.py
+      - name: Verify approved role titles
+        run: |
+          python scripts/apply_chapter_role_titles.py --verify
+          grep -qi '<h1>THE WARRIOR</h1>' chapters/005.html
+          grep -qi '<h1>THE STAGEHAND</h1>' chapters/177.html
+          grep -qi '<h1>THE MAGISTRATE</h1>' chapters/231.html
+          grep -qi '<h1>THE SURVEYOR</h1>' chapters/331.html
+          grep -qi '<h1>THE INVESTOR</h1>' chapters/446.html
+          grep -qi 'The Surveyor' scripts/reader_sections.py
+          git diff --check
+      - name: Test reader tooling
+        run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Commit title integration
+        run: |
+          if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
+            echo 'No integration changes to commit.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add state/manuscript state/MANUSCRIPT_CHAPTER_INDEX.md state/CHAPTER_TITLE_ROLE_AUDIT.md state/chapter-title-role-audit chapters light index.html light.html latest.html exports/notebooklm
+          git commit -m 'Normalize chapter titles to Greg roles'
+          git push origin HEAD:editor/chapter-title-role-integration
