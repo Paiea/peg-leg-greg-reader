@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - integration/dialogue-ownership-live-001-020
+      - integration/dialogue-ownership-rewrite-001-020
     paths:
       - .github/workflows/dialogue-ownership-live-001-020.yml
       - scripts/apply_dialogue_ownership_semantic.py
+      - scripts/test_dialogue_ownership_rewrite.py
   workflow_dispatch:
 
 permissions:
@@ -18,13 +20,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: integration/dialogue-ownership-live-001-020
+          ref: ${{ github.ref_name }}
           fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - name: Regression examples
-        run: python scripts/apply_dialogue_ownership_semantic.py --self-test
+        run: |
+          python scripts/apply_dialogue_ownership_semantic.py --self-test
+          python scripts/test_dialogue_ownership_rewrite.py
       - name: Snapshot original chapters
         run: |
           mkdir -p /tmp/dialogue-before
@@ -76,4 +80,4 @@ jobs:
           git commit -m 'Publish semantic dialogue ownership cleanup through chapter 20'
           git push
 
-# trigger clean current-main transplant
+# trigger current-main dialogue rewrite test
