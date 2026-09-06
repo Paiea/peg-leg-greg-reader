@@ -1,6 +1,11 @@
+import subprocess
+import sys
+from pathlib import Path
 import unittest
 
 from scripts.build_illustration_backlog import build_backlog, render_backlog
+
+ROOT = Path(__file__).resolve().parents[1]
 
 
 class IllustrationBacklogTests(unittest.TestCase):
@@ -66,6 +71,22 @@ class IllustrationBacklogTests(unittest.TestCase):
         text = render_backlog(backlog)
         for fragment in ("scene-a", "Chapter 60", "high", "close_enough", "0 image"):
             self.assertIn(fragment, text)
+
+    def test_illustration_scripts_run_as_direct_cli_entry_points(self):
+        for relative_path in (
+            "scripts/build_illustration_backlog.py",
+            "scripts/build_prompt_packs.py",
+            "scripts/report_illustration_coverage.py",
+        ):
+            with self.subTest(script=relative_path):
+                result = subprocess.run(
+                    [sys.executable, relative_path],
+                    cwd=ROOT,
+                    capture_output=True,
+                    text=True,
+                    check=False,
+                )
+                self.assertEqual(result.returncode, 0, msg=result.stderr)
 
 
 if __name__ == "__main__":
