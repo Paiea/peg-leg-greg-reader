@@ -1,109 +1,115 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 433 - **THE VISITOR**.
-- Exact Chapters 249-433 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays.
+- Current exact story endpoint: Chapter 434 - **THE GO-BETWEEN**.
+- Exact Chapters 249-434 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays.
 - **Chapter 432 naming correction:** `state/manuscript/Peg_Leg_Greg_Chapter_432_CORRECTION.md` overrides the duplicate-prone forewoman name in the original checkpoint. The north-slope road forewoman is **Rika Dorn**, not Nessa Vale. There is no Sori/Vale relation beat.
 
 ## Current location / arc
-- Greg, Sori, Dask, and Maro have reached **Merehook** by voluntary self-funded travel.
+- Greg, Sori, Dask, and Maro remain in **Merehook** by voluntary self-funded travel.
 - Outer Works contract is complete and closed. Duskport return was intentionally missed.
-- This is now genuine away-arc movement with no employer/quest/prophecy forcing continuation.
+- This is genuine away-arc movement with no employer/quest/prophecy forcing continuation.
 - Carrow remains home and communication continues with travel delay.
 
-## Chapter 433 - THE VISITOR
+## Chapter 434 - THE GO-BETWEEN
 
-### Fen Crossing departure
-- Greg sends a short Carrow update before leaving Fen Crossing. Post costs **2 bits**, copper unchanged.
-- Letter says Outer Works finished clean, trial leg still trial, they are going Merehook, and explicitly honors Lyssa's `do not turn uncertainty into disappearance` instruction.
-- Tavi note says glass gulls are not actually glass.
-- Four Merehook coach seats remain available.
-- Greg pays **2c** Fen Crossing -> Merehook fare: **54c -> 52c**.
-- Sori/Dask/Maro each pay their own fare.
+### Title / role
+- Ch434 answer: Greg is being **a go-between**.
+- He does not arbitrate or become local legal authority. He asks bounded questions that help Hara, Corren, Sori, Maro, and buyer-side actors connect pieces of a process they each only partially control.
+- Therefore title **THE GO-BETWEEN**.
+- Recent: 430 THE RECORDER; 431 THE INSPECTOR; 432 THE PASSENGER; 433 THE VISITOR; 434 THE GO-BETWEEN.
 
-### Road to Merehook
-- Driver **Pellin**, ~60, white mustache/cloudy eye, explains Old Tide Eye observatory is `closed` in a bureaucratically complicated sense:
-  - lower gallery public some days;
-  - upper instrument room coastal survey office;
-  - some instruments university-owned;
-  - old lens ownership/maintenance disputed.
-- Salt cliffs become dominant geography.
-- Glass gulls have translucent/mica-like outer flight feathers; protected nesting shelves make collecting wild feathers illegal/fined.
-- Long Salt road station gives first clear view of Merehook.
-- Merehook is vertically built: lower harbor, middle shelf town/markets, upper ridge roads.
-- Switchback roads use **wind bowls**:
-  - bronze bowls that signal crosswind by tone;
-  - older examples use `throat glass` and sing earlier;
-  - newer plain bronze versions are cheaper/more durable.
-- Greg is immediately interested in old throat-glass versions but does not acquire one.
+## Hara Quill / coastal-measure dispute
+- Maro returns from lower gate with copied current freight-conversion table and effective date.
+- Current posted table technically supports converting Hara's North Reach dry class B crate into Merehook handling class C, causing the **3c surcharge**.
+- However footer includes transition exception:
+  - consignments contracted before effective date may be assessed under prior handling class;
+  - requires dated freight agreement or seller's sealed order;
+  - **market office review required**.
+- Hara has a sealed buyer order dated before rule effective date.
+- This creates a legitimate possible exception, but does **not** let Corren waive fee himself because he is custody clerk, not review clerk.
 
-### Merehook arrival / lodging
-- Coach reaches Merehook middle shelf after sixth bell.
-- Greg pays **2c** for cheap floor bunk with blanket: **52c -> 50c**.
-- Sori chooses 3c bed/wash-basin lodging independently.
-- Dask chooses cheap lodging.
-- Maro buys one legal glass-gull feather for 1 bit and chooses cheap lodging.
-- Cargo ramps between terraces incidentally help Greg navigate stairs-heavy town on crutches.
+## Provisional security workaround
+- Greg asks one bounded process question: can custody hold the disputed money as security without treating it as the fee?
+- Corren identifies existing **provisional security** process.
+- Requirements:
+  - dispute slip;
+  - custody seal;
+  - review-clerk countersign next business opening;
+  - seller posts full disputed amount plus **1c security**.
+- Hara posts **4c total**:
+  - 3c disputed amount;
+  - 1c security.
+- If she wins review, all 4c return.
+- If she loses, 3c becomes fee and 1c returns.
+- This is not free relief: Hara is left with only ~3c liquid until buyer payment, while cart hire/food still exist.
+- Greg does **not** pay any of Hara's charge from his own money.
 
-## Market / artifact pressure
-- Merehook middle market includes food, salt/mineral, marine goods, and old-instrument lanes.
-- Old wind-bowl throat-glass inserts sell around **4c each** because road office still buys replacements. Greg does not buy.
-- Dask buys a cracked/decorative old brass tide index for **2 bits**, continuing his dubious optics/instrument collection.
-- Greg finds retired **CLIFF LINE KEEPER / NO CERT**:
-  - small black iron hinged frame + oval ceramic pad;
-  - old cliff safety-line threshold witness;
-  - ceramic darkens if line exceeds fixed pull threshold;
-  - heat reset;
-  - marked `12H` local pull class;
-  - retired because newer tags show ranges and ceramic can crack if overheated;
-  - seller asks **6c** and cannot demonstrate at stall;
-  - seller's pricing rationale: replacement ceramic ~3c, frame ~2c, plus margin.
-- Greg **does not buy**. This preserves rational artifact pricing and limb-money tension.
-- HT-LP-4 remains in Greg inventory and is conceptually a cousin to this tool, but no forced use.
+## Buyer / timing problem remains separate
+- Buyer owes Hara **28c on delivery to ship scale**.
+- Market-office review will occur later, so security solves custody release only, not buyer/tide timing.
+- A market runner is sent to lower harbor for buyer representative at cost **1 bit** paid by Hara.
+- Buyer clerk is approaching on a bad knee/cane and cannot reach gate by ordinary close without accommodation.
+- Custody supervisor **Sel Ordan** authorizes only a **10-minute gate extension** because buyer representative was summoned before close.
+- He also clarifies Hara can meet buyer clerk uphill and return with signed buyer authority rather than requiring the buyer clerk physically at gate.
+- Hara runs to meet buyer representative.
+- Buyer clerk arrives/signs authority accepting release into bonded cart custody and allowing ship-scale confirmation first thing before loading.
+- Ship captain will wait **one bell** only if cargo physically reaches lower yard before dawn; tide still controls afterward.
+- Hara must still pay expected **2c cart hire** plus **1-bit night surcharge**.
+- Crate leaves custody into bonded night-cart chain.
 
-## First Merehook human collision
-- Saltstone cutter **Hara Quill** argues with market custody clerk **Corren Dey** over a sealed crate.
-- Hara's invoice says **North Reach dry freight weight, class B**.
-- Merehook market converted it to lower-coast measure after weighing, pushing crate into a higher handling-fee band.
-- Hara says rule changed last month and was posted at lower gate; she entered upper road and did not see it.
-- Corren says market rule applies regardless of entry road and his custody role requires fee before release.
-- Extra fee: **3c**.
-- Buyer owes Hara **28c on delivery**; buyer's ship leaves next morning; Hara already paid cutting crew.
-- Hara could pay 3c to protect 28c, but objects because repeatedly paying an improperly/poorly-noticed fee would normalize the rule.
-- Corren cannot casually waive 3c because undercharged releases come out of his bond account and ad hoc waiver would create its own bad incentive.
-- Appeal clerk has effectively deferred Hara until tomorrow, which may be too late for ship.
-- Sori answers only bounded question: invoice does say North Reach dry freight class B; she does **not** claim Merehook conversion is lawful/unlawful without table.
-- This is intentionally a `what should happen` conflict where factual clarification may not eliminate painful choice.
-- Market office closes seventh bell, less than half bell from scene.
-- Corren says posted conversion table is at lower gate.
-- Maro independently volunteers to go look because it is downhill and near birds. Greg asks whether he actually wants to, preserving companion agency.
-- **Problem unresolved at Ch433 end.**
+## Outcome / unresolved costs
+- Hara's crate is **moving**, not fully solved.
+- Her 4c remains tied pending review.
+- Dawn delivery/ship scale still must happen.
+- Buyer can still reject if delivery issue arises.
+- Rule may still be badly noticed/transitioned.
+- Corren still has bond exposure if paperwork mishandled.
+- No party is made whole.
+- This is partial procedural relief with real cost, not clean loophole victory.
+
+## Character/social movement
+- Hara Quill remains angry/principled but economically exposed; better laugh returns once crate moves.
+- Corren Dey remains precise/defensive custody clerk whose personal bond matters; not villain.
+- Sel Ordan is concise custody supervisor who grants bounded extension based on existing condition, not favoritism.
+- Buyer clerk: gray braid, ironwood cane, blunt about Merehook stairs; prioritizes tide/ship schedule.
+- Sori asks/answers only bounded contract/invoice questions and catches Greg's recurring `employment shoulders`.
+- Maro provides copied table because he genuinely wanted lower-gate/bird route; does not become clerk.
+- Dask arrives late from instrument lane with cracked tide index and treats administrative suspense as another system.
 
 ## Greg role / mindset
-- Title answer: Greg is **THE VISITOR**.
-- He has no contract, authority, or local claim. Merehook owes him nothing.
-- He enjoys that status and initially resists becoming employed by every problem he sees.
-- He still asks one bounded question once Hara/Corren dispute becomes concrete.
-- Greg is increasingly capable of choosing when to engage rather than reflexively owning every system problem.
+- Greg helps by connecting questions and people rather than owning decision or paying problem away.
+- He explicitly recognizes some problems are clocks/distance/schedules rather than missing information.
+- He and Sori choose **not to chase Hara downhill** because it is not their race.
+- Core realization: helping does not require owning the ending.
+- Greg later records a private concise note because dispute is interesting, then deliberately stops writing.
+
+## Merehook artifact pressure
+- After market close Greg again sees retired **cliff-line keeper / no cert** at **6c**.
+- Potential uses occur to him: harness, crutch-load experiments, future limb load testing.
+- He still does **not buy it**.
+- Seller does not lower price.
+- Greg's explicit logic: `wanting is not accounting.`
+- Old throat-glass wind bowls continue to fascinate him; upper-ridge bowls sing in sequence before gust reaches lane.
+- No artifact purchase Ch434.
 
 ## Trial limb / body
-- No trial-limb wear Ch433. Coach travel + new-town navigation are enough; no need to force prosthetic beat.
+- No trial-limb wear Ch434.
+- Skin normal; no reason to force nighttime wear for artificial progress.
 - Trial build remains Hark & Venn shop property, unfinished, medium foot.
 - Crutches remain primary and sound.
 - No new injury.
 
 ## Economy
-- Greg begins **54c cash / 23c Vale / bits unspecified**.
-- Fen post: 2 bits only.
-- Merehook fare: 2c -> 52c.
-- Merehook cheap bunk: 2c -> **50c**.
-- Ends **50c cash / 23c Vale / bits unspecified**.
+- Greg begins/ends **50c cash / 23c Vale / bits unspecified**.
+- No Greg copper spending Ch434.
 - 20c limb deposit remains paid toward 1 silver + 18c quote.
-- No Greg artifact purchase.
+- Hara's 4c provisional security and one-bit runner/night costs are **Hara's**, not Greg's.
+- Greg continues protecting capital for limb + road optionality.
 
 ## Magic
 - Protocol remains **59 minimal / 53 shaping / 135 external attempts**.
-- No deliberate magic Ch433.
+- No deliberate magic Ch434.
 - No S-class/locked-mode activation.
 
 ## Current inventory
@@ -117,49 +123,44 @@ Greg carries:
 7. personal notebook;
 8. Outer Works close chit.
 
-## Dialogue variance
-- Pellin: older driver who answers simple questions with regional bureaucratic stories.
-- Sori: practical, catches Greg's `employment shoulders`, answers bounded invoice question precisely.
-- Dask: instrument obsession continues through cheap broken tide index; literal/logistical speech.
-- Maro: sparse ecology interest, buys legal feather, volunteers for lower-gate table because he actually wants downhill/bird route.
-- Hara Quill: angry, economically exposed, principled about bad fee becoming normalized.
-- Corren Dey: defensive custody clerk with personal bond exposure; not villain-coded.
-
 ## Protected uncertainties
-- Greg ends Ch433 in Merehook middle/lower market near Hara/Corren dispute.
+- Greg ends Ch434 at Merehook lodging after market close.
 - Cash **50c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 135**.
 - Trial limb unfinished/shop property.
-- Hara's crate remains held; 3c fee unpaid at chapter end.
-- Buyer's ship leaves next morning.
-- Appeal timing may be too late.
-- Lower-gate conversion table has not yet been checked.
-- Old Tide Eye observatory not yet visited.
-- Greg has not bought cliff line keeper or throat glass.
-- Rika Dorn is the corrected Ch432 road forewoman name. Do not use Nessa Vale.
+- Hara's crate left custody in bonded night-cart chain; dawn delivery remains pending.
+- Hara's **4c provisional security remains tied pending review**.
+- Whether transition exception ultimately applies is unresolved.
+- Old Tide Eye observatory remains unvisited.
+- Greg has not bought cliff-line keeper or throat glass.
+- Merehook remains current exploration base.
+- Rika Dorn is corrected Ch432 forewoman name. Do not use Nessa Vale.
 
-## Chapter 434 trailhead
-Follow next actual claim from Ch433/current authority.
+## Chapter 435 trailhead
+Follow next actual claim from Ch434/current authority.
 
-Greg begins **50c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**, in Merehook with less than half bell before market office closes.
+Greg begins **50c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**, in Merehook next morning.
 
 Strong immediate movement:
-- Let Maro check the lower-gate posting if he chooses while Greg/Sori/Hara/Corren handle only what is actually in front of them.
-- The conversion table may clarify whether the clerk applied the current posted rule correctly, but **do not let one factual lookup automatically solve the normative problem**.
-- If the rule is technically correct but badly noticed/transitioned, Hara still faces pay-now-vs-principle; Corren still faces bond liability; office/appeal timing remains unfair.
-- A temporary under-protest payment, bond, split liability, buyer intervention, market supervisor, or missed ship are all possible, but any solution should cost someone something.
-- Greg should not simply pay Hara's 3c as protagonist generosity unless a much stronger reason emerges. His money has real limb/road value.
-- Merehook exploration should continue around/after conflict. Observatory, salt cliffs, wind bowls, artifact market remain live.
-- Do not turn Greg into local legal expert after two hours in town.
+- Shift away from the Hara dispute enough to avoid turning Merehook into legal-office serial. A brief consequence/update is welcome, but exploration should now widen again.
+- **Old Tide Eye observatory** is the strongest next claim. Determine what `closed` actually means today and let Dask's interest pay off.
+- Merehook should reveal magical/scientific regional infrastructure distinct from Duskport/Carrow.
+- Wind bowls / throat glass / tide instruments / cliff ecology / old survey systems are live material.
+- Greg remains visitor. He can ask, observe, perhaps participate in a bounded demonstration, but do not hand him a new employment contract immediately.
+- Artifact pressure can sharpen if Greg sees a genuinely rule-changing object or retired instrument, but pricing must remain rational and money pressure real.
+- Maro's glass-gull/salt-cliff interest should get independent movement too.
+- Sori should have her own reason to care about local measure/market/observatory data rather than simply following Greg.
+- Trial limb optional only if stable terrain/task makes it useful.
 
 Avoid:
-- clean clever loophole that makes everyone whole;
-- corrupt-clerk reveal by default;
-- free artifact bargain;
-- immediate new job contract;
-- forgetting Greg is a visitor.
+- another full chapter of appeal paperwork;
+- instant Hara full refund with no process;
+- free observatory access just because protagonist;
+- generic lore tour with no scene consequence;
+- forced job offer;
+- buying the 6c cliff-line keeper merely because it has been shown twice.
 
-**MANDATORY TITLE CHECK CH434:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH435:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
