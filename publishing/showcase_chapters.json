@@ -109,6 +109,7 @@
     "402": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
     "419": {"showcase": false, "reason": "bridge_not_needed"},
     "430": {"showcase": false, "reason": "bridge_not_needed"},
-    "437": {"showcase": false, "reason": "bridge_not_needed"}
+    "437": {"showcase": false, "reason": "bridge_not_needed"},
+    "442": {"showcase": false, "reason": "bridge_not_needed"}
   }
 }
