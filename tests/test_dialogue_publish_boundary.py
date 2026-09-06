@@ -184,6 +184,11 @@ clear speaker hinge
             for item in candidates
         ))
 
+    def test_dialogue_ownership_does_not_mistake_noun_phrase_speech_tag_for_action(self):
+        paragraphs = ['"Running?" the smith asked.']
+        candidates = scan_paragraphs(paragraphs)
+        self.assertEqual(candidates, [])
+
     def test_dialogue_ownership_does_not_flag_explicit_simple_attribution(self):
         paragraphs = ['"Doing what?" I asked.']
         candidates = scan_paragraphs(paragraphs)
