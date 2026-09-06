@@ -36,6 +36,7 @@
     "137": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
     "144": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
     "147": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
-    "150": {"showcase": false, "reason": "bridge_not_needed"}
+    "150": {"showcase": false, "reason": "bridge_not_needed"},
+    "152": {"showcase": false, "reason": "superseded_by_stronger_chapter"}
   }
 }
