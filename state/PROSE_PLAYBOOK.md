@@ -77,16 +77,27 @@ Do not add these mechanically. One or two natural irregularities are often enoug
 
 Use invisible dialogue tags **freely and more aggressively than earlier PLG prose sometimes did**.
 
+PLG intentionally prefers slight over-attribution to even one moment of speaker or action-owner confusion. A repeated `said` or `asked` is cheaper than a reader backtrack.
+
 Prefer simple `said` and `asked`.
 
 Do not avoid attribution merely to make dialogue look cleaner. Do not insert a decorative shrug, nod, look, smile, or hand motion solely to avoid `said`.
+
+Apply the aggressive ownership mode in `state/DIALOGUE_VARIANCE_ENGINE.md`:
+
+1. **Re-anchor aggressively.** Name or tag the speaker after interiority, meaningful narration, subject shifts, speaker returns, and whenever a three-or-more-speaker exchange risks requiring turn-counting.
+2. **One dramatic owner per paragraph.** A speaker's paragraph should not silently carry another person's reaction or movement. Split mixed-owner blocks even when the grammar is technically understandable.
+3. **Allow orientation prose to grow locally.** One to three plain orienting sentences or beats may be added around good dialogue to establish who is facing whom, who owns an object/task, who a question targets, or who reacts. Observable orientation is preferred over invented emotion.
+4. **Decompress packed dialogue before rewriting it.** Preserve good spoken lines, split the block, restore tags, then add only the scaffolding needed. Do not strip those clarity additions later merely to recover word count.
+5. **Use a cold-read ownership gate.** Every substantial exchange must be followable at normal speed without reconstructing who spoke, moved, looked, laughed, or answered. Three-or-more-speaker scenes and Greg-interiority interruptions get the strictest check.
 
 Rules of thumb:
 - two-person exchanges may run untagged when sequence and voice remain effortless;
 - after an interruption, movement beat, paragraph of interiority, or subject shift, re-tag sooner than feels stylistically necessary if ambiguity is possible;
 - in scenes with **three or more speakers**, err toward over-clarity rather than forcing the reader to count alternating lines;
 - when two characters have deliberately similar local/workplace diction, tags matter even more;
-- distinct voice is never a substitute for attribution.
+- distinct voice is never a substitute for attribution;
+- local clarity expansion is not bloat when it removes reader bookkeeping.
 
 Action beats should earn themselves through timing, posture, work, avoidance, interruption, physical information, or relationship texture.
 
@@ -333,6 +344,7 @@ If prose became fancier but harder to read, simplify it. If it became cleaner bu
 - use `state/DIALOGUE_VARIANCE_ENGINE.md` when dialogue variation, relationship modulation, mood, or comic-register separation matters
 - do not silently replace established social history with newly invented cleaner versions
 - do not let voice differentiation reduce dialogue attribution clarity
+- do not remove tags or orientation prose added by aggressive ownership mode merely to reduce word count
 
 ## Living craft memory
 
