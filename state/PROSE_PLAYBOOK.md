@@ -67,6 +67,8 @@ Another character's reaction may remain close to an explicitly owned spoken line
 
 Do not solve this mechanically by splitting every line into a one-sentence paragraph. Use the smallest repair that makes conversational geography effortless: tag the actual speaker, separate a real speaker change, or do both when needed.
 
+The inverse matters too. When an action and adjacent dialogue clearly belong to the **same character** and form one continuous beat, they should normally share a paragraph. If an earlier safety cleanup split them apart, recombine them when doing so improves flow and does not erase a meaningful pause, turn, interior beat, or attention shift. Speaker clarity outranks consolidation: if same-owner status is uncertain, leave the beats separate and review them rather than guessing.
+
 For manuscript-wide ownership review, use `state/editorial/DIALOGUE_OWNERSHIP_PASS.md`. `publishing/showcase_chapters.json` controls which chapters receive the current showcase repair pass; hidden chapters remain canon.
 
 Prefer specific immediate thought over generalized explanation. Do not repeatedly explain an emotion the scene already demonstrates.
@@ -223,6 +225,7 @@ If the prose became fancier but harder to read, simplify it. If it became cleane
 - inspect actual surrounding prose before broad stylistic judgments
 - never let another character's action function as false attribution for an untagged speaker
 - when spoken ownership changes, give the new speaker a new dialogue paragraph
+- when adjacent action and dialogue clearly belong to one character and one beat, prefer one paragraph unless a meaningful pause or shift earns separation
 - do not mechanically create tiny paragraphs when a simple correct speaker tag solves the problem
 - do not silently replace established social history with newly invented cleaner versions
 
