@@ -99,11 +99,11 @@ def transform_paragraphs(number, paragraphs):
 
     elif number == 184:
         if any('OLD_BREAKFAST_AND_PARCEL_LOOP' in p for p in out):
-            out = repl(out, 'Lyssa asked me for a favor before I had finished chewing.', 'That was my second warning.', CH184_BREAKFAST + ['That was my second warning.'])
+            out = repl(out, 'Lyssa asked me for a favor before I had finished chewing.', 'That was my second warning.', CH184_BREAKFAST)
         elif not any('the day had quietly converted me' in p for p in out) and not any('It seemed manageable.' == p for p in out):
             raise ValueError('chapter 184 authority does not match expected pre-compression opening')
         elif not any('a theatre call before noon' in p for p in out):
-            out = repl(out, 'Lyssa asked me for a favor before I had finished chewing.', 'That was my second warning.', CH184_BREAKFAST + ['That was my second warning.'])
+            out = repl(out, 'Lyssa asked me for a favor before I had finished chewing.', 'That was my second warning.', CH184_BREAKFAST)
 
         if any('OLD_MARRA_SEN_MARRA_LOOP' in p for p in out):
             out = repl(out, "Marra's was not on the way to East Market Hall.", 'By the time I reached East Market Hall, my palm hurt', CH184_ERRAND)
@@ -156,7 +156,7 @@ def verify(root):
         ],
         184: [
             'Lyssa asked me for a favor',
-            'The Petition ran that afternoon.',
+            'The Petition ran that afternoon',
             'For almost an hour, I forgot I had any magic at all.',
             'I left for the south market after my piece.',
         ],
