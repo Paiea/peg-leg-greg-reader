@@ -5,6 +5,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parents[1] / 'scripts'))
 
 from generate_light import Chapter, render_index
+from showcase import build_showcase_map
 
 
 class LightIndexTests(unittest.TestCase):
@@ -13,7 +14,13 @@ class LightIndexTests(unittest.TestCase):
             n: Chapter(n, f'THE CHAPTER {n}', '<p>Body</p>', 'test')
             for n in range(1, 243)
         }
-        rendered = render_index(chapters, set(chapters))
+        showcase = build_showcase_map(list(chapters), {
+            'version': 1,
+            'mode': 'whole_chapter_only',
+            'default': 'visible',
+            'chapters': {},
+        })
+        rendered = render_index(chapters, set(chapters), showcase)
         self.assertIn('BOOK I', rendered)
         self.assertIn('BOOK II', rendered)
         self.assertIn('BOOK III', rendered)

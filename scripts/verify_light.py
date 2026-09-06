@@ -8,6 +8,7 @@ import sys
 from pathlib import Path
 
 import generate_light as gl
+from showcase import build_showcase_map, load_showcase_manifest
 
 
 def fail(message: str) -> None:
@@ -34,7 +35,13 @@ def expected_href(number: int, generated: set[int]) -> str:
 
 def verify(spec: str) -> int:
     all_chapters = gl.load_all_sources()
-    wanted = gl.selected_numbers(spec, all_chapters)
+    showcase = build_showcase_map(
+        sorted(all_chapters),
+        load_showcase_manifest(gl.SHOWCASE_MANIFEST),
+    )
+    requested = gl.selected_numbers(spec, all_chapters)
+    wanted = [number for number in requested if showcase.showcase_number(number) is not None]
+
     manifest_path = Path('light/manifest.json')
     if not manifest_path.exists():
         fail('missing light/manifest.json')
@@ -45,20 +52,26 @@ def verify(spec: str) -> int:
         fail('duplicate chapter number in Light manifest')
     generated = set(numbers)
 
+    hidden_in_manifest = sorted(
+        number for number in generated
+        if showcase.showcase_number(number) is None
+    )
+    if hidden_in_manifest:
+        fail(f'hidden canonical chapters leaked into Light manifest: {hidden_in_manifest[:12]}')
+
     numeric_pages = {
         int(path.stem)
         for path in Path('light').glob('[0-9][0-9][0-9].html')
         if path.stem.isdigit()
     }
-    orphans = sorted(numeric_pages - generated)
-    if orphans:
-        fail(f'orphan generated Light pages: {orphans[:12]}')
+    unknown_pages = sorted(numeric_pages - set(all_chapters))
+    if unknown_pages:
+        fail(f'orphan generated Light pages: {unknown_pages[:12]}')
 
     missing = [n for n in wanted if n not in generated]
     if missing:
         fail(f'missing generated Light chapters: {missing[:12]}')
 
-    available = set(all_chapters)
     for number in wanted:
         chapter = all_chapters[number]
         path = Path('light') / f'{number:03d}.html'
@@ -77,29 +90,42 @@ def verify(spec: str) -> int:
         if 'href="../index.html"' not in text or 'href="index.html"' not in text:
             fail(f'Chapter {number}: HOME or TOC link missing')
 
-        previous_number = number - 1
-        next_number = number + 1
-        if previous_number in available:
+        previous_number = showcase.previous_visible(number)
+        next_number = showcase.next_visible(number)
+        if previous_number is not None:
             if f'href="{expected_href(previous_number, generated)}"' not in text:
-                fail(f'Chapter {number}: previous link mismatch')
+                fail(f'Chapter {number}: previous showcase link mismatch')
+            previous_display = showcase.showcase_number(previous_number)
+            if f'Chapter {previous_display}</a>' not in text:
+                fail(f'Chapter {number}: previous showcase label mismatch')
         elif 'rel="prev"' in text:
-            fail(f'Chapter {number}: previous link skips missing chapter {previous_number}')
-        if next_number in available:
+            fail(f'Chapter {number}: previous link crosses a showcase boundary or authority gap')
+        if next_number is not None:
             if f'href="{expected_href(next_number, generated)}"' not in text:
-                fail(f'Chapter {number}: next link mismatch')
+                fail(f'Chapter {number}: next showcase link mismatch')
+            next_display = showcase.showcase_number(next_number)
+            if f'Chapter {next_display} →</a>' not in text:
+                fail(f'Chapter {number}: next showcase label mismatch')
         elif 'rel="next"' in text:
-            fail(f'Chapter {number}: next link skips missing chapter {next_number}')
+            fail(f'Chapter {number}: next link crosses a showcase boundary or authority gap')
 
-    latest = max(all_chapters) if all_chapters else None
+    visible = [number for number in showcase.visible_canon if number in all_chapters]
+    latest = visible[-1] if visible else None
+    latest_display = showcase.showcase_number(latest) if latest is not None else None
     if manifest.get('latest') != latest:
         fail(f'manifest latest mismatch: expected {latest}, found {manifest.get("latest")}')
+    if manifest.get('latest_showcase') not in {None, latest_display}:
+        fail(
+            f'manifest latest_showcase mismatch: expected {latest_display}, '
+            f'found {manifest.get("latest_showcase")}'
+        )
     if latest is not None:
         latest_html = Path('latest.html').read_text(encoding='utf-8')
         target = f'light/{latest:03d}.html' if latest in generated else f'light.html?chapter={latest}'
         if f'href="{target}"' not in latest_html:
-            fail('latest.html does not point to current endpoint')
+            fail('latest.html does not point to current showcase endpoint')
 
-    print(f'verified {len(wanted)} Light chapters for {spec}')
+    print(f'verified {len(wanted)} showcase Light chapters for {spec}')
     return 0
 
 

@@ -6,6 +6,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 
 from generate_light import Chapter, render_index
+from showcase import build_identity_showcase_map
 
 
 class LightProgressLinkTests(unittest.TestCase):
@@ -38,7 +39,7 @@ class LightProgressLinkTests(unittest.TestCase):
             n: Chapter(n, f'THE CHAPTER {n}', '<p>Body</p>', 'test')
             for n in range(1, 243)
         }
-        rendered = render_index(chapters, set(chapters))
+        rendered = render_index(chapters, set(chapters), build_identity_showcase_map(list(chapters)))
         self.assertIn(
             '<p class="light-continue" data-light-continue data-latest-chapter="242" hidden>',
             rendered,
