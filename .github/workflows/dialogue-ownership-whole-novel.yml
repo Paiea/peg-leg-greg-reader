@@ -17,12 +17,76 @@ permissions:
   contents: write
 
 jobs:
-  test:
+  apply:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Install Book 1 promotion dependency
+        run: pip install python-docx
       - name: Identity-aware ownership regressions
         run: python -m unittest tests.test_dialogue_ownership_novel -v
+      - name: Configure batch commits
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Apply canon in 25-chapter batches
+        run: |
+          frontier="$(python - <<'PY'
+          from scripts.apply_dialogue_ownership_novel import active_source_map
+          print(max(active_source_map()))
+          PY
+          )"
+          echo "Canon frontier: ${frontier}"
+          start=1
+          while [ "$start" -le "$frontier" ]; do
+            end=$((start + 24))
+            if [ "$end" -gt "$frontier" ]; then end="$frontier"; fi
+            python scripts/apply_dialogue_ownership_novel.py --start "$start" --end "$end"
+            git diff --check
+            git add chapters state/manuscript
+            if ! git diff --cached --quiet; then
+              git commit -m "Dialogue ownership chapters ${start}-${end}"
+            fi
+            start=$((end + 1))
+          done
+      - name: Promote Book 1 reader polish to canonical DOCX
+        run: |
+          python scripts/promote_book1_polish.py 1-82
+          git diff --check
+          git add state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx
+          if ! git diff --cached --quiet; then
+            git commit -m 'Promote dialogue ownership into canonical Book 1'
+          fi
+      - name: Regenerate source-derived Illustrated Reader ranges
+        run: |
+          python scripts/generate_illustrated.py 156-219
+          python scripts/generate_illustrated.py current
+      - name: Audit whole canon after convergence
+        run: python scripts/validate_dialogue_ownership_novel.py
+      - name: Run repository tests
+        run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Verify and commit generated derivatives
+        run: |
+          git diff --check
+          git add chapters state/editorial/dialogue-ownership-pass/WHOLE_NOVEL_REPORT.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'Regenerate reader after whole-novel dialogue ownership pass'
+          fi
+      - name: Verify clean bounded result
+        run: |
+          if ! git diff --quiet; then
+            echo 'Unexpected uncommitted changes remain:'
+            git status --short
+            exit 1
+          fi
+          python scripts/validate_dialogue_ownership_novel.py
+          git diff --check
+      - name: Push validated whole-novel pass
+        run: git push origin HEAD:${{ github.ref_name }}
