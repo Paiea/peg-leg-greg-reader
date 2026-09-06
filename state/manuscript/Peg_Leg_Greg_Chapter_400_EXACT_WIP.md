@@ -734,17 +734,13 @@ Orren looked at her.
 
 "Tomorrow afternoon."
 
-Greg suffered quietly.
+I suffered quietly.
 
-Vessa caught face.
+Vessa said, "Tomorrow is not today."
 
-"No."
+"I know."
 
-"Again, didn't ask."
-
-"Your face is filing requests."
-
-Everybody hated face.
+"Good."
 
 We got rear annex.
 

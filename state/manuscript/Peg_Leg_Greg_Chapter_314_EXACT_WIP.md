@@ -427,9 +427,9 @@ His mother picked it up and put it inside her basket.
 
 "I wasn't."
 
-"You were thinking."
+"Good."
 
-This was a powerful accusation.
+The cup went into her basket.
 
 The older man ahead of me shifted his yoke.
 

@@ -1865,23 +1865,11 @@ Iven appeared in debtor clothes.
 
 No coat again.
 
-"Don't."
+"The coat is gone."
 
-"I haven't said anything."
+"I see that."
 
-"You were looking at my coat."
-
-"You don't have one."
-
-"Exactly."
-
-"Why are you telling me not to ask about something you don't have?"
-
-"Because now you're going to."
-
-"I wasn't."
-
-"You are now."
+"Good. Then I don't have to explain whose problem it became."
 
 Fuck him.
 
@@ -3613,16 +3601,13 @@ This was acceptable.
 
 The dress had graduated.
 
-Rinna counted coins into two piles, moved three from one to the other,
-then covered both when Marek came near.
+Rinna counted coins into two piles, moved three from one to the other, then covered both when Marek came near.
 
-"I wasn't."
+"Do not make me count these again."
 
-"You were."
+"I wasn't touching them."
 
-"I was walking."
-
-"Elsewhere."
+"You don't have to touch money to interrupt counting."
 
 He walked elsewhere.
 
@@ -4705,15 +4690,11 @@ I looked at the join between the stone and brick.
 
 Teren, riding ahead, turned in his seat.
 
-"No."
+"We're not stopping for the wall."
 
-"I didn't say anything."
+"I was looking."
 
-"You leaned."
-
-"I looked."
-
-"Same thing."
+"Look fast."
 
 The gatekeeper knew we were coming.
 
@@ -7383,7 +7364,7 @@ the candle.
 
 "Thank you."
 
-"No."
+"It was bothering me."
 
 Orin came in last.
 
@@ -12983,17 +12964,13 @@ My bowl was enough.
 
 Marek ate his, then stood beside the pot until Rinna noticed.
 
-"No."
+Rinna covered the pot.
+
+"Breakfast is finished."
 
 "I haven't asked."
 
-"You leaned."
-
-I looked at Iven.
-
-He looked at me.
-
-Apparently leaning had become legally binding.
+"Then we're done."
 
 Davin had already moved the wagons closer to the south side of town
 before most of us finished eating. The long iron-cornered box rode where
@@ -20297,13 +20274,11 @@ Harel's face changed.
 
 Marek smiled.
 
-Harel said, "No."
+Harel said, "The speeches stay where they are. I've already moved them twice for the musicians."
 
-"I said nothing."
+"I hadn't proposed anything."
 
-"You looked."
-
-Greg had apparently not invented leaning.
+"Then we agree."
 
 The musicians arrived while we were still in the hall.
 
@@ -22329,17 +22304,13 @@ I sat near her.
 
 She looked at me.
 
-"No."
-
-"I didn't ask."
-
-"You were going to."
+"Lamp?"
 
 "Yes."
 
 She sighed.
 
-"Get the lamp."
+"Get it."
 
 I did.
 
@@ -23944,15 +23915,15 @@ I watched.
 
 He noticed.
 
-"No."
-
-"I didn't ask."
-
-"You were going to."
+"Courier seal. I only use it."
 
 "How does it know it's closed?"
 
 "It doesn't."
+
+"What does it know?"
+
+"I don't know. I carry letters."
 
 That was interesting.
 
@@ -25232,23 +25203,11 @@ I turned my head toward the direction of the hall.
 
 Lyssa caught my sleeve.
 
-"No."
+"Finish eating before you go anywhere."
 
-"What?"
+"I wasn't going anywhere."
 
-"You are not going to chase your own reply across Carrow."
-
-"I wasn't."
-
-"You looked."
-
-"I looked at a building."
-
-"You can't see it from here."
-
-"I looked in its direction."
-
-"Eat."
+"Good."
 
 I ate.
 
@@ -25974,13 +25933,9 @@ Hessa looked at the metal again.
 
 Then at me.
 
-"No."
+"Specific question."
 
-"I haven't asked it yet."
-
-"I know."
-
-"That's unfair."
+"I'm getting there."
 
 "Ask it."
 
@@ -26361,15 +26316,11 @@ She stood.
 
 I looked toward the shelf with the suspended-thread apparatus.
 
-Hessa said, "No."
-
-"I didn't say anything."
-
-"You looked at it."
+Hessa said, "Not the threads."
 
 "I can look."
 
-"Not at that."
+"You can look while we use something better."
 
 She moved past the shelf and opened a low cabinet.
 
@@ -30065,11 +30016,7 @@ She moved the three boxes to the far shelf.
 
 "I wasn't going to."
 
-"You were looking."
-
-"I look at things."
-
-"I know."
+"Good."
 
 The apparatus from the last session was not on the table.
 
@@ -34958,13 +34905,9 @@ Nessa was kneeling beside it with the broken foot in her lap.
 
 "Don't lift it."
 
-"I wasn't."
-
-"You were about to."
-
 "I was going to look."
 
-"Look lower."
+"Then look lower."
 
 I sat on the floor.
 
@@ -38313,13 +38256,9 @@ That was not necessarily good.
 
 "Wait."
 
-"I didn't ask."
+"For Hessa?"
 
-"You were going to."
-
-"I hate when people do that."
-
-"Sit."
+"Yes. Sit."
 
 I sat.
 
@@ -46953,21 +46892,13 @@ That was a useful question.
 
 I considered going to the hall immediately.
 
-Lyssa saw that too.
+"I should check the hall."
 
-"No."
+Lyssa said, "Not at breakfast because somebody might need you at supper."
 
-"What?"
+"I need to know when."
 
-"Don't go there at breakfast because somebody might need you at supper."
-
-"I wasn't."
-
-"You were."
-
-"I was thinking."
-
-"Poorly."
+"Then ask when you're actually going."
 
 She stood, put the folded paper into the pocket of her skirt, and took
 one onion.
@@ -47358,9 +47289,9 @@ his pocket.
 
 "Mine."
 
-"I wasn't asking to have it."
+"I was asking what kind."
 
-"You looked."
+"Still mine."
 
 I hated everyone.
 
@@ -49537,19 +49468,13 @@ I looked at the brown cloth.
 
 It was brown.
 
-Jessa said, "Don't."
+"What does warm brown mean?"
 
-"I didn't say anything."
+Jessa said, "Not this one."
 
-"You were going to."
+"That doesn't answer the question."
 
-"I was going to ask what warm brown means."
-
-"Exactly."
-
-"What does it mean?"
-
-"No."
+"It answers the cloth."
 
 The woman in green laughed again.
 
@@ -49686,9 +49611,9 @@ The woman in green said, "He's more like a shelf."
 
 "Thank you."
 
-"That wasn't praise."
+"You shouldn't."
 
-I was beginning to suspect this entire city had agreed on one sentence.
+Apparently shelves were not aspirational.
 
 Lyssa had one more stop.
 
@@ -51772,17 +51697,9 @@ Lyssa noticed.
 
 "Nothing."
 
-"Good."
+"Then leave the cup alone."
 
-"Everyone keeps saying that."
-
-"Because you keep checking."
-
-"I didn't check."
-
-"You looked."
-
-"That is different."
+"I did."
 
 She kissed the side of my head on the way past.
 
@@ -54246,11 +54163,7 @@ I looked at the door.
 
 "I know."
 
-"You looked."
-
-"I am allowed to look at doors."
-
-"Not like that."
+"Then eat."
 
 "I have a schedule."
 
@@ -54279,19 +54192,13 @@ I looked at the sleeve.
 
 It looked like a sleeve.
 
-Lyssa looked at me.
+"It looks the same."
 
-"Don't."
+"It isn't."
 
-"I didn't say anything."
+"It looks good."
 
-"You were going to."
-
-"I was going to say it looks good."
-
-"No, you weren't."
-
-"I could have."
+"That isn't the problem."
 
 She bit the thread and set the sleeve aside.
 
@@ -54720,11 +54627,11 @@ The father looked confused.
 
 "I was going to say that."
 
-"No, you weren't."
+"Then say it before I do."
 
 "I was thinking it."
 
-"That costs nothing."
+"Thinking sells nothing."
 
 They bought four.
 
@@ -58097,19 +58004,13 @@ I stopped.
 
 "Whose is that?"
 
-"No," Rinna said from behind me.
+"Havel," Rinna said from behind me. "Nobody uses it."
 
 I turned.
 
-"I didn't ask to use it."
+"I only asked whose it was."
 
-"You were about to."
-
-"I asked whose it was."
-
-"Also no."
-
-Davin said, "Havel."
+Davin said, "Sample."
 
 "The tomorrow Havel?"
 
@@ -60616,27 +60517,15 @@ The cap had bent during travel.
 
 I picked up the other three and started putting them away.
 
-"Not that one," he said.
+Davin held up the bent tin.
 
-I stopped.
-
-"This one?"
-
-"That one."
+"Leave this one."
 
 "The one you're holding?"
 
 "Yes."
 
-"Then why did you say not that one?"
-
-"Because you were looking at it."
-
-I looked at the tin in his hands.
-
-"I was looking at the shelf."
-
-"Good."
+"Good system."
 
 I put the three good tins away.
 
@@ -62439,20 +62328,15 @@ This seemed healthy preparation for Guild work.
 
 Davin came in carrying a small wooden brace.
 
-He fitted it under the edge of the King platform, pressed once, then
-stood.
+He fitted it under the edge of the King platform, pressed once, then stood.
 
 I watched.
 
-He looked at me.
+"Leave the brace," he said.
 
-"I didn't move."
+"I wasn't touching it."
 
-"You were thinking."
-
-"I am allowed."
-
-"Not about that."
+"Good."
 
 He walked away.
 
@@ -63860,15 +63744,11 @@ Then she moved two of them.
 
 "Why?"
 
-"Because you put them in the wrong order."
+"Performance order."
 
 "I used the order you handed them to me."
 
-"That was not the performance order."
-
-"You knew I was going to do that."
-
-"Yes."
+"I handed them to you. I did not schedule them."
 
 This was Nessa's final act before abandoning us.
 
@@ -66622,23 +66502,15 @@ I leaned on the table.
 
 "So where does Bren stay?"
 
-"No," Rinna said.
+"We don't know," Rinna said.
 
-"I was asking."
+"Should we find out?"
 
-"No."
+"Not by you going looking."
 
 "I didn't say I was going."
 
-"You were about to."
-
-"I was about to ask."
-
-"You did."
-
-"That proves nothing."
-
-"It proves enough."
+"Good. Keep it that way."
 
 Nessa picked up her bundle.
 
@@ -67814,22 +67686,15 @@ Rinna said, "No."
 
 "It is the answer you need."
 
-Davin found a short piece of hard wood in his box and began shaving it
-down.
+Davin found a short piece of hard wood in his box and began shaving it down.
 
 I watched.
 
-He looked at me.
-
-"No."
+"Leave the knife," he said.
 
 "I'm not touching it."
 
-"You were thinking."
-
-"That has not been prohibited."
-
-"Yet."
+"Good."
 
 He went back to the replacement pin.
 
@@ -69039,15 +68904,9 @@ Talla scratched the side of her nose.
 
 I liked Talla.
 
-Rinna looked at me before I could speak.
+Rinna said, "That is all."
 
-"No."
-
-"I didn't ask anything."
-
-"You were about to."
-
-"I was going to ask where he stays."
+"Do we know where he stays?"
 
 "No."
 
@@ -70113,20 +69972,6 @@ I hated that I could hear him saying it.
 
 "Probably."
 
-She looked at me.
-
-I looked at her.
-
-"No."
-
-"I didn't say anything."
-
-"You did with your face."
-
-"I was thinking about carts."
-
-"Exactly."
-
 "Vale has carts."
 
 "So does half Carrow."
@@ -70431,11 +70276,9 @@ The woman snorted.
 
 She shifted the basket.
 
-"No one came to me. Before you ask."
+"No one came to me."
 
-"I wasn't."
-
-"You were."
+Rinna nodded. "Good."
 
 I liked her.
 
@@ -71608,17 +71451,17 @@ that money moved through people before it moved through ledgers.
 
 Or maybe I was cheating because I already knew.
 
-"Do not invent relevance," Antonius said.
+"Do not make it relevant before it is," Antonius said.
 
 I blinked.
 
 "What?"
 
-"You are doing something with your face."
+"Half a name. One story. Leave it there."
 
-"I hate that everyone can see my face."
+"That sounds like advice."
 
-"Then acquire a better one."
+"It is accounting."
 
 I left.
 
@@ -72537,15 +72380,11 @@ Pell watched.
 
 Marek stopped.
 
-"No."
+"Leave the hat alone."
 
-"I didn't say anything."
+"I didn't touch it."
 
-"You were thinking."
-
-"I do that."
-
-"Not with the hat."
+"Keep that record."
 
 Marek carried it backstage.
 
@@ -72826,13 +72665,9 @@ Pell moved first.
 
 "One copper."
 
-"Don't," Rinna said.
+"The boy earned it," Rinna said.
 
-"I wasn't touching it."
-
-"You were thinking."
-
-Marek, from backstage, said, "That defense has failed today."
+Pell sighed.
 
 Rinna waited a few breaths before opening the door again.
 
@@ -76377,21 +76212,9 @@ Rinna shut the door.
 
 Nobody spoke for a moment.
 
-Then Pell said, "So."
+Then Pell said, "Money?"
 
 Rinna turned.
-
-"No."
-
-"I didn't ask."
-
-"You were going to."
-
-"I might have had a different question."
-
-"No."
-
-Pell looked offended by predictive management.
 
 I said, "That's not just the cart."
 
@@ -78154,14 +77977,6 @@ I looked at it.
 
 She saw.
 
-"Don't."
-
-"I didn't say anything."
-
-"You have the money face."
-
-"Apparently everyone knows it."
-
 "Keep that one."
 
 "Why?"
@@ -78433,11 +78248,7 @@ Lyssa had been correct.
 
 Antonius had also been correct, which was more irritating.
 
-"You have the face again," Lyssa said.
-
-"What face?"
-
-"The one where you're trying to spend money without moving."
+"You're doing the numbers again," Lyssa said.
 
 "I'm eating."
 

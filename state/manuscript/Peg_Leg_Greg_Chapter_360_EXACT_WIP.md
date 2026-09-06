@@ -712,15 +712,11 @@ Cala said, "She went out."
 
 I looked at her.
 
-Cala looked at me.
-
-"Don't."
+"She'll tell you herself."
 
 "I didn't ask."
 
-"Your face."
-
-Everyone had become tyrant about face.
+"Then we're done."
 
 Tavi was on floor building spoon carrier again.
 

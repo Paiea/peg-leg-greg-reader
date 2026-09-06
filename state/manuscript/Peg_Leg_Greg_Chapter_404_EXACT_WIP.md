@@ -378,7 +378,7 @@ Dask looked personally attacked.
 
 "I haven't."
 
-"You have face."
+"Good. Keep it that way."
 
 I liked Bellweather.
 
@@ -724,7 +724,7 @@ Sori looked at me.
 
 "I wasn't."
 
-"Your face."
+"You stopped looking at the mirror when she said eight copper."
 
 Fuck everyone knowing my face.
 

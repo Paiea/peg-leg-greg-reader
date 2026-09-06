@@ -40,17 +40,11 @@ I knew that kind of weight.
 
 "A lamp."
 
-I looked at her.
+I looked at the case.
 
-She looked at me.
+"House-left aisle," Nessa said.
 
-"No," she said.
-
-"I didn't say anything."
-
-"Your face did."
-
-This was becoming a problem.
+"Why is that here?"
 
 Lyssa came in from the back room carrying folded cloth.
 

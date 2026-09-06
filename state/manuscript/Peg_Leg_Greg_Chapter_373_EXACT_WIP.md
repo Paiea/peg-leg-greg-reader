@@ -216,25 +216,15 @@ Bad word.
 
 I hated maybe around load.
 
-Cala saw face.
+I looked toward the locked chest.
+
+Cala saw it.
 
 "No."
-
-"I didn't say anything."
-
-"You thought chest."
 
 Lyssa looked between us.
 
 "Absolutely not."
-
-"I also said nothing."
-
-"Your artifact face is different."
-
-Apparently I had artifact face.
-
-Unfortunate.
 
 "Holdfast broad family includes anchoring, rigging, restraint, load control."
 

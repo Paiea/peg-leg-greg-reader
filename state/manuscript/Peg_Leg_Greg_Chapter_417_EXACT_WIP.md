@@ -72,7 +72,7 @@ Sori smiled into tea.
 
 "I didn't say anything."
 
-"Your face did."
+"You stared after him."
 
 Fuck face.
 

@@ -232,7 +232,7 @@ Nema looked at him.
 
 "No."
 
-"Everyone has face today."
+"That was an enthusiastic good."
 
 Sori made sound like victory.
 
@@ -400,9 +400,9 @@ Sori looked directly at me.
 
 "I know."
 
-"Your face."
+"Then don't count it yet."
 
-"Fuck my face."
+"I wasn't."
 
 Blackglass Cut was two bridges south and one freight tram east.
 
@@ -1101,11 +1101,11 @@ Nema added, "One thing. Dock salvage auction tomorrow morning includes the three
 
 My attention shifted.
 
-Sori said, "No."
+Sori said, "You heard auction."
 
-"Again, haven't said anything."
+"Yes."
 
-"Face."
+"That's all I needed."
 
 Nema continued deliberately, evil now.
 

@@ -18,15 +18,13 @@ I stopped chewing.
 
 Sori saw.
 
-"No."
+"Finish lunch before you shop."
 
 "I haven't said anything."
 
-"Your face did."
+"You stopped chewing."
 
-"My face is private."
-
-"Not that face."
+"Temporary condition."
 
 Mella pointed spoon at me.
 
@@ -272,9 +270,9 @@ Kel found me near cooper.
 
 "I am."
 
-"She said specifically because you were going to ask if the road counted."
+"She means buildings, not the road."
 
-I was.
+I looked at him.
 
 "Oppressive leadership."
 

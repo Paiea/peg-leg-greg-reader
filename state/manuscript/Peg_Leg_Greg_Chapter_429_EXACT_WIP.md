@@ -622,19 +622,15 @@ Beyond depot, signpost.
 
 I looked too long.
 
-Enna said, "Don't."
+Enna said, "Don't plan past the contract yet."
 
-"What?"
+"I wasn't."
 
-"You're making face."
+"You looked too long."
 
-"What face?"
+"That proves nothing."
 
-"Road face."
-
-"I don't have road face."
-
-"You absolutely do."
+"Good."
 
 Interesting.
 

@@ -328,7 +328,7 @@ Different orientation.
 
 I knew enough old-life construction to understand why.
 
-Did not need Greg wonder.
+I did not need to wonder.
 
 Just wrote.
 
@@ -466,9 +466,7 @@ Halen inspected.
 
 Toll inspected.
 
-Second pass?
-
-Jorren asked with face only.
+Jorren looked from the repaired shoulder to the test wagon.
 
 Enna said, "No."
 
@@ -582,7 +580,7 @@ Culvert mouth, partly choked yesterday, started backing water.
 
 One worker stood knee-deep clearing wrack from upstream side.
 
-Not Greg.
+Not me.
 
 Obviously.
 
@@ -702,7 +700,7 @@ No injury reported.
 
 Tool bag caught before water entry.
 
-No Greg heroics.
+No heroics from me.
 
 Good.
 

@@ -464,17 +464,13 @@ The seller said, "Eighteen."
 
 "I remember."
 
-"No cheaper after demonstration."
+"Demonstration didn't lower it."
 
-"I did not ask."
+"Cruel."
 
-"You were about to."
+"It worked."
 
-"I was thinking about asking."
-
-"That counts."
-
-Hostile market telepathy.
+Hostile market logic.
 
 A voice behind me said, "Let me see it under load."
 

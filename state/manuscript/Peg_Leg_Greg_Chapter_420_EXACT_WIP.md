@@ -1272,13 +1272,13 @@ Still.
 
 Tomorrow.
 
-Nali watched face.
+Nali watched me stop.
 
 "Don't get dramatic."
 
 "I wasn't."
 
-"You were about to."
+"You stopped walking."
 
 Masta infection too.
 

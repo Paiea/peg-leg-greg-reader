@@ -1962,17 +1962,9 @@ The front door stood open. Rinna's table had moved a little farther back from it
 
 I noticed.
 
-Rinna noticed me noticing.
+"Cash box moved."
 
-"No," she said.
-
-"I didn't ask."
-
-"You were about to."
-
-"I was going to compliment the table."
-
-"Do that silently."
+"Yes."
 
 I looked toward the stage instead.
 
@@ -9629,13 +9621,7 @@ I looked at Marra.
 
 Marra did not look at me.
 
-"Do not ask."
-
-"I wasn't."
-
-Jessa made a sound that suggested neither of us believed me.
-
-She picked up her bundle.
+Jessa picked up her bundle.
 
 "West?"
 
@@ -10395,15 +10381,9 @@ I leaned back.
 
 "That is almost interesting."
 
-"Do not improve it."
-
-"I wasn't."
-
-"You were about to."
-
-Fair.
-
 She tapped the order page.
+
+"Do not improve it."
 
 "It was written before you arrived. Four external attempts if the apparatus and your body remain usable. No additional attempt because a result is inconvenient. No changing order because one condition responds."
 
@@ -21672,25 +21652,15 @@ I smiled.
 
 She noticed.
 
-"Don't."
-
-"I said nothing."
-
-"You were about to."
-
-Apparently everyone in Carrow had learned this technique.
+"One clean FAR response," she said.
 
 "FAR moved."
-
-"Yes."
-
-"Clean."
 
 "Under the current apparatus, yes."
 
 "Again."
 
-"No."
+"One attempt remains."
 
 "I meant the fact."
 
@@ -28698,11 +28668,7 @@ The barber looked at the father.
 
 The father said, "Don't ask me."
 
-"I wasn't."
-
-"You looked."
-
-"That is not asking."
+The barber looked back at the young man.
 
 The young man sat.
 

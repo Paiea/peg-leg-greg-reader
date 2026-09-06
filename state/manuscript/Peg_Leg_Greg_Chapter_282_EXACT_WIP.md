@@ -390,11 +390,7 @@ Pavin looked at me.
 
 I had expected the correction to belong to me.
 
-That expectation was apparently visible because Teren said, "You are not the only person rehearsing."
-
-"I didn't say anything."
-
-"Your face did."
+Teren said, "You are not the only person rehearsing. Stop looking relieved."
 
 Pavin leaned back.
 
