@@ -51,9 +51,49 @@ class Beat:
     explicit: bool
 
 
+def quote_structure_safe(text: str) -> bool:
+    """Return False when double-quote structure is unbalanced or malformed.
+
+    The reader contains a few song/quotation fragments whose opening quote lives
+    in a previous paragraph. Those paragraphs must be audit-only: even when a
+    later, valid dialogue pair is present, automatic sentence splitting can
+    mistake punctuation before the dangling closer for prose boundaries.
+    """
+    mode: str | None = None
+    escaped = False
+
+    for char in text:
+        if mode == "straight":
+            if escaped:
+                escaped = False
+                continue
+            if char == "\\":
+                escaped = True
+                continue
+            if char == '"':
+                mode = None
+            continue
+
+        if mode == "smart":
+            if char == '“':
+                return False
+            if char == '”':
+                mode = None
+            continue
+
+        if char == '"':
+            mode = "straight"
+        elif char == '“':
+            mode = "smart"
+        elif char == '”':
+            return False
+
+    return mode is None
+
+
 def has_dialogue(text: str) -> bool:
-    """Return True only when a complete straight or smart quote span exists."""
-    return bool(quoted_spans(text))
+    """Return True only when quote structure is safe and a full span exists."""
+    return quote_structure_safe(text) and bool(quoted_spans(text))
 
 
 def quoted_spans(text: str) -> list[str]:
@@ -180,12 +220,10 @@ def _speech_owner(text: str) -> str | None:
     actor = rf"(?P<actor>{ACTOR_PATTERN})"
     adverbs = r"(?:[a-z]+ly\s+){0,2}"
 
-    # Dialogue followed by attribution: “No,” Sella said.
     after = re.search(rf'["”]\s*{actor}\s+{adverbs}(?:{verbs})\b', text)
     if after:
         return _normalize_actor(after.group("actor"))
 
-    # Attribution followed by dialogue: Sella eventually said, “No.”
     before = re.search(rf'\b{actor}\s+{adverbs}(?:{verbs})\b[^"“\n]*["“]', text)
     if before:
         return _normalize_actor(before.group("actor"))
