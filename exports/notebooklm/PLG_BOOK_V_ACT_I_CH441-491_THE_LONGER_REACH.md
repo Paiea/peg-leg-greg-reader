@@ -51973,17 +51973,25 @@ Lyssa read it while standing because sitting had apparently become optional in h
 
 She handed it back.
 
-Twenty-one copper.
+I had real silver now.
 
-Eleven Vale.
+Not rich.
 
-Bits unspecified.
+Not safe forever.
 
-Ten floor.
+Enough that I no longer needed to count every copper like it had emotional significance.
 
-Magic fifty-nine, fifty-three, one-fifty-nine.
+Vale still existed.
 
-Hark & Venn nothing due.
+That mattered more.
+
+Eighteen silver had already gone into that account.
+
+The remaining balance still sat on Antonius's ledger in mixed gold and silver terms I was deliberately not converting in my head because currency conversion was a real market activity, not a personality trait.
+
+Magic remained fifty-nine, fifty-three, one-fifty-nine.
+
+Hark & Venn had nothing due.
 
 One boring reference.
 
@@ -51995,7 +52003,7 @@ Not theatre.
 
 Different clothes.
 
-Merchant-house badge on shoulder, but no need to learn institution through heraldry.
+Merchant-house badge on shoulder.
 
 "Greg?"
 
@@ -52021,15 +52029,21 @@ He handed me a note.
 
 **REFERENCE REQUIRED**
 
-**14 COPPER ON ACCEPTED CLOSE RECORD**
+**9 SILVER ON ACCEPTED CLOSE RECORD**
 
 I read twice.
 
-Fourteen.
+Nine silver.
 
 One day.
 
-That was more than theatre wanted from me in many days and exactly the kind of number that made old instincts stand up too quickly.
+That was not theatre money.
+
+That was not clerical side work.
+
+That was a house deciding a day of coordinated failure would cost it enough to pay for prevention.
+
+Good.
 
 "Why me?"
 
@@ -52051,7 +52065,7 @@ He blinked.
 
 "Loading, scale acceptance, storage placement, damaged goods, late arrival. Who decides each?"
 
-He looked at note like maybe answers would appear if shamed.
+He looked at note like answers might appear if threatened.
 
 "Receiving master."
 
@@ -52063,7 +52077,7 @@ Bad word.
 
 "Take me there."
 
-West market receiving house occupied a broad yard behind two warehouses and one narrow office that looked structurally offended by paperwork.
+West Market receiving house occupied a broad yard behind two warehouses and one narrow office that looked structurally offended by paperwork.
 
 Three marked wagon bays.
 
@@ -52085,9 +52099,7 @@ A woman at yard board saw my crutches, saw note, and said, "You're the field boy
 
 She almost smiled.
 
-No name needed yet.
-
-She was receiving master.
+Receiving master.
 
 Good.
 
@@ -52117,15 +52129,17 @@ East cloth rolls.
 
 South lamp oil.
 
-Not artifacts.
-
-Not secret freight.
-
 Normal commerce.
 
-The house had one certified scale because East cloth did not require full weight certification but pigment and oil did.
+That mattered.
 
-Two receiving crews.
+No artifacts.
+
+No contraband.
+
+No reason for the day to become interesting except commerce was perfectly capable of doing that alone.
+
+The house had one certified scale because cloth did not require full weight certification if seals matched, while pigment and oil did.
 
 Crew One handled dry goods.
 
@@ -52137,21 +52151,29 @@ Dry room west.
 
 Cloth rack upper.
 
-Oil cellar rear, accessible only through lower ramp.
+Oil cellar rear through lower ramp.
 
 Simple.
 
-Then she explained current problem.
+Then she explained current problem quickly enough to become weather.
 
-Poorly.
+Pigment due before third bell.
 
-Very quickly.
+Cloth due at third.
 
-"Pigment is due before third bell but its seller keeps sending drivers who think 'before third' means somewhere in the emotional region of noon. Cloth is due at third and can unload without scale if seals match the manifest, unless seals don't match, then it waits. Oil is due between third and fourth, must cross certified scale before cellar, and cannot sit in south lane after fifth because cooper team uses that lane for outgoing empties. Crew One is six today, Crew Two is four because two are out, and if pigment arrives after cloth but before oil I do not care which one looks more expensive, oil gets scale priority because the cellar window closes first."
+Oil between third and fourth.
+
+Oil had scale priority once physically present because cellar window closed first.
+
+South lane had to be clear by fifth for cooper empties.
+
+Crew One had six.
+
+Crew Two had four because two were out.
 
 I waited.
 
-She breathed.
+She stopped.
 
 "Again slowly."
 
@@ -52161,13 +52183,11 @@ She stared.
 
 "Yes. I organize facts after receiving them."
 
-Good enough.
-
 Second version was better.
 
 I wrote.
 
-Then asked authority.
+Then authority.
 
 "Scale certification?"
 
@@ -52175,11 +52195,11 @@ Then asked authority.
 
 "Seal mismatch?"
 
-"Receiving master. Me."
+"Me."
 
 "Damaged cask?"
 
-"Cooper lead for containment, me for acceptance."
+"Cooper lead for containment. Me for acceptance."
 
 "Storage placement?"
 
@@ -52191,7 +52211,7 @@ Then asked authority.
 
 "Late wagon?"
 
-"Me if still accepting. Office manager if contract penalty question."
+"Me if receiving remains open. Office manager if penalty question."
 
 Good.
 
@@ -52199,7 +52219,7 @@ My authority:
 
 arrival order.
 
-bay assignment within approved uses.
+approved bay assignment.
 
 crew notice.
 
@@ -52213,67 +52233,59 @@ Nothing about rejecting goods.
 
 Nothing about opening sealed cloth.
 
-Nothing about deciding whether leaking oil was safe.
+Nothing about deciding whether oil was safe.
 
 Good.
 
-"Why fourteen?"
+"Why nine silver?"
 
 Receiving master looked at me.
 
-"Because our dispatch clerk is sick and the house has three deliveries worth more than your fee by enough that I do not care."
-
-"Useful."
-
-"And because if oil misses cellar window we pay overnight yard hold."
+"Because our dispatch clerk is sick and the house has three deliveries worth enough that I do not care about nine silver if the yard closes cleanly."
 
 There.
 
-Real friction.
+Real scale.
 
-"How much hold?"
+"And because?"
 
-"Not your problem."
+She narrowed eyes.
 
-Correct.
+"And because if oil misses cellar window we pay hold, crew time, and probably a seller argument I do not want."
 
-"Accepted close record means?"
+"Useful."
 
-"All three lots either received into assigned storage or rejected/held under my written decision, with arrival, scale, crew, and handoff recorded. If a wagon never arrives, you don't fail because seller failed. You fail if it arrives and we lose it in our own yard."
+"Do not make me price my own headache for you."
 
-Excellent.
+"Fair."
+
+Accepted close record meant all three lots either received into assigned storage or held/rejected under receiving-master decision, with arrival, scale, crew, and handoff recorded.
+
+If seller failed to arrive, not my failure.
+
+If load arrived and house lost it inside its own yard, potentially mine.
+
+Good distinction.
 
 I signed.
-
-Not employee shift.
-
-Contract.
-
-One day.
-
-Fourteen copper on accepted close.
 
 No start payment.
 
 No guarantee of future work.
 
-Good.
+Nine silver on accepted close.
 
-I looked at yard.
+First obvious problem:
 
-First thing wrong was obvious.
+Board had contract windows.
 
-Board had wagon names.
+No live expected times.
 
-No current expected times.
+South Road had already taught me scheduled state and actual state were different animals.
 
-Only contract windows.
+"Runner contact for all three?"
 
-South Road had taught me that scheduled state and actual state were different animals.
-
-"Do we have runner contact with all three?"
-
-"Pigment seller, yes. Cloth house, yes. Oil carrier, yes."
+"Yes."
 
 "Current estimates?"
 
@@ -52282,8 +52294,6 @@ South Road had taught me that scheduled state and actual state were different an
 "Let's get them."
 
 Receiving master sent runners.
-
-I did not.
 
 Her people.
 
@@ -52297,45 +52307,19 @@ I made three columns.
 
 **YARD STATE**
 
-Simple enough that nobody could confuse them.
-
-Probably.
-
 Pigment runner returned first.
 
-"North kiln wagon left before first bell. Axle check at Tanner turn. Driver says maybe half bell."
+Left before first bell. Axle check at Tanner turn. Maybe half bell.
 
-I wrote.
+Cloth loaded, waiting city gate clearance.
 
-Cloth:
-
-"Loaded. Waiting for city gate clearance. No problem reported."
-
-Oil:
-
-"Carrier delayed one wagon because two casks had bad hoops. Replacement casks loaded. Leaving south depot now."
+Oil delayed because two casks had bad hoops and replacements were being loaded.
 
 Important.
 
 Oil later than planned.
 
-Maybe still inside window.
-
-I updated.
-
-Receiving master read.
-
-"Scale priority stays pigment if it arrives first."
-
-"Until?"
-
-"Until oil is physically here."
-
-Good.
-
-No abstract priority war.
-
-Actual objects.
+Maybe still fine.
 
 Third bell approached.
 
@@ -52345,113 +52329,81 @@ Cloth did.
 
 Of course.
 
-Cloth wagon entered east gate with eight sealed rolls, manifest, and driver who began explaining immediately.
+Cloth driver entered east gate already talking.
 
-"I was told bay two, but bay two has handbarrows, and I can wait, obviously I can wait, except gate clerk wrote arrival at two bells and three quarters and if your yard writes third bell my house will say I lost time here, which I did, but not because of your people, mostly because the fish cart at south crossing had decided turning was a spiritual exercise."
+"I was told bay two, but bay two has handbarrows, and I can wait, obviously I can wait, except gate clerk wrote arrival before third and if your yard writes third my house says I lost time here, which I did, but mostly because the fish cart at south crossing had decided turning was a spiritual exercise."
 
 Long speech.
 
 Good.
 
-I looked at arrival clock.
-
-Two bells, three quarters by yard mark.
-
-"Recorded."
+"Arrival recorded. Bay not yet."
 
 He stopped.
 
-"Recorded what?"
-
-"Arrival. Bay not yet."
-
 "Oh."
 
-Crew One lead checked cloth seals against manifest.
+Crew One lead checked seals.
 
 Matched.
 
-No scale needed.
+No scale.
 
-Bay two had handbarrows because someone had staged them there for pigment unloading.
+Bay two had barrows staged for pigment.
 
 Current plan assumed pigment first.
 
 Reality disagreed.
 
-"Who owns barrows?" I asked.
-
-"Dry-room crew," Crew One lead said.
-
 "Can cloth use bay one?"
 
-"Yes."
+Crew lead said yes.
 
-"Any reason not?"
+Less direct to rack.
 
-"Less direct to rack."
+Still workable.
 
-"Still workable?"
+Receiving master approved.
 
-"Yes."
-
-"Then bay one cloth?"
-
-Receiving master nodded.
-
-I recorded approval.
-
-Crew lead ran unload.
-
-Not me.
+I recorded.
 
 Cloth moved.
 
-Good.
+Halfway through second roll, pigment arrived.
 
-Halfway through second roll, pigment wagon arrived.
+Scale free.
 
-Now one scale.
-
-Pigment required scale.
-
-Oil not here yet.
+Oil absent.
 
 Easy.
 
-Scale clerk took pigment.
+Crew One split itself.
 
-Crew One was already on cloth.
+Not me.
 
-Could they split?
+Two finish cloth.
 
-Crew lead decided.
-
-"Two finish cloth. Four pigment."
-
-Fine.
+Four pigment.
 
 I updated board.
 
-Then oil runner came back.
+Oil runner returned.
 
-"South carrier at cooper crossing. Driver says fifth cask strap slipped. No leak. They stopped to reset."
+Carrier at cooper crossing.
 
-"Estimate?"
+Fifth cask strap slipped.
 
-"Quarter bell maybe."
+No leak.
 
-Receiving master looked.
+Quarter bell maybe.
 
-"Still fine."
+Receiving master said still fine.
 
 I wrote.
 
-Pigment scale finished.
+Pigment cleared scale.
 
 Warehouse lead assigned west dry room.
-
-Crew One moved pigment.
 
 Cloth finished.
 
@@ -52461,7 +52413,7 @@ Everything looked competent.
 
 Danger.
 
-Oil arrived at fourth bell minus a little.
+Oil arrived just before fourth bell.
 
 Five casks.
 
@@ -52469,15 +52421,11 @@ Crew Two ready.
 
 Scale clear.
 
-Good.
-
 Then driver said, "One cask hoop was replaced after depot manifest."
 
 Receiving master stopped.
 
 "Which?"
-
-Driver pointed.
 
 Third cask.
 
@@ -52495,7 +52443,7 @@ Receiving master and cooper lead did.
 
 Cooper lead spoke slowly.
 
-"Hoop is new. Head is dry. No active seep. Plate intact. I want it rolled separately and watched after scale."
+"Hoop new. Head dry. No active seep. Plate intact. Roll separately. Watch after scale."
 
 Receiving master accepted conditional handling.
 
@@ -52505,7 +52453,7 @@ I recorded.
 
 Scale clerk weighed first two.
 
-Third cask reached platform.
+Third reached platform.
 
 Scale clerk frowned.
 
@@ -52513,13 +52461,7 @@ Scale clerk frowned.
 
 There.
 
-Not giant difference.
-
-Enough.
-
-Driver immediately talked.
-
-"Replacement cask was topped from the rejected one, and depot clerk may have copied gross from old cask because they were doing two things at once and one of those things involved me being told to hurry."
+Driver immediately explained replacement cask had been topped from rejected one, depot clerk may have copied gross from old cask, everyone was hurrying, and apparently responsibility could be diluted by sentence length.
 
 Receiving master held up hand.
 
@@ -52527,47 +52469,33 @@ Receiving master held up hand.
 
 Good.
 
-She looked at scale clerk.
+Difference mattered.
 
-"Difference?"
+Not giant.
 
-He gave number.
+Enough.
 
-No conversion needed.
+Cooper lead confirmed no leak.
 
-She looked at cooper lead.
+Receiving master could isolate.
 
-"Any leak?"
+Decision:
 
-"No."
+third cask to hold bay three.
 
-"Can we isolate?"
+remaining two scale now.
 
-"Yes."
+That was her decision.
 
-"Then third cask hold bay three. Remaining two scale now."
+My lane was preventing disputed cask from occupying the one certified scale while paperwork argument happened.
 
-There.
-
-Decision.
-
-Not Greg.
-
-I changed queue.
-
-If we let disputed cask occupy scale while paperwork argument happened, remaining oil missed cellar window.
-
-That was my lane.
-
-"Move disputed cask to bay three under cooper hold. Scale four and five now. Driver stays available for manifest correction."
+"Move disputed cask to bay three under cooper hold. Scale four and five. Driver stays available."
 
 Receiving master nodded.
 
-Crew Two lead nodded.
+Crew lead nodded.
 
-They did it.
-
-Fourth cask.
+Fourth.
 
 Fifth.
 
@@ -52581,21 +52509,15 @@ The disputed third sat in bay three looking exactly like a barrel.
 
 Commerce.
 
-Driver wanted to go find depot clerk.
+Driver wanted to find depot clerk.
 
-Receiving master said no.
+Receiving master sent runner instead and kept driver with load.
 
-"Runner goes. You stay with load."
+He argued long enough to become weather.
 
-He argued.
+I let her own that too.
 
-Long enough to become weather.
-
-I let receiving master own that too.
-
-Runner left with weight discrepancy note.
-
-We had maybe bell and half before receiving close.
+By fifth bell:
 
 Pigment stored.
 
@@ -52605,27 +52527,21 @@ Four oil casks stored.
 
 One held.
 
-Contract could still close if receiving master made written hold decision.
+South lane clear for cooper empties.
 
-But she wanted corrected manifest if possible.
+Contract could close with written hold decision if correction never arrived.
 
-Fine.
-
-At fifth bell, cooper empties needed south lane.
-
-Bay three was not south lane.
+Receiving master still wanted corrected manifest.
 
 Good.
 
-No conflict.
-
-At fifth and quarter, runner returned with depot clerk note.
+Fifth and quarter, runner returned.
 
 Original manifest gross belonged rejected cask.
 
 Replacement cask had been topped lower.
 
-Corrected gross matched scale within accepted tolerance.
+Corrected gross matched certified scale within accepted tolerance.
 
 Scale clerk checked.
 
@@ -52637,7 +52553,7 @@ Still dry.
 
 "Accept."
 
-Third cask returned to scale only because corrected paperwork and actual weight now agreed.
+Third cask returned to scale because corrected paper and actual weight now agreed.
 
 Then cellar.
 
@@ -52647,7 +52563,7 @@ Not dramatic.
 
 Good work rarely was.
 
-I assembled close record:
+I assembled close record.
 
 Cloth arrival.
 
@@ -52657,7 +52573,7 @@ No scale.
 
 Crew One.
 
-Upper rack handoff.
+Upper rack.
 
 Pigment arrival.
 
@@ -52665,19 +52581,19 @@ Scale.
 
 Crew split approved by lead.
 
-West dry room handoff.
+West dry room.
 
 Oil arrival.
 
 Casks one, two, four, five cleared and stored.
 
-Cask three held for manifest discrepancy.
+Cask three held pending discrepancy.
 
 Replacement-hoop condition.
 
 Corrected depot note.
 
-Rescale/acceptance.
+Scale acceptance.
 
 Cellar handoff.
 
@@ -52711,21 +52627,23 @@ She signed.
 
 Accepted close record.
 
-Then office clerk counted fourteen copper onto table.
+Office clerk counted nine silver onto table.
 
-Fourteen.
+Nine.
 
 One day.
 
-I stared for maybe too long.
+I stared for less time than I would have months ago.
 
-Clerk said, "Problem?"
+Still enough that clerk noticed.
+
+"Problem?"
 
 "No."
 
 Receiving master said, "You expected less."
 
-"I expected fourteen. I am adjusting to fourteen existing."
+"I expected nine. I am adjusting to nine existing."
 
 "Do it outside."
 
@@ -52733,33 +52651,107 @@ Good.
 
 I took money.
 
-Twenty-one became thirty-five.
-
-That was the number.
-
-Thirty-five.
-
 Not wealth.
 
-But eleven Vale suddenly looked stupid.
+Not new permanent baseline.
 
-That was useful.
+A strong urgent contract.
 
-I did not immediately become emotional.
+But enough that Vale became a different kind of problem.
 
-I became hungry.
+Not tiny.
 
-Bought a meat pie with bits.
+Not gone.
+
+Possible.
+
+That was new.
+
+I bought a meat pie with bits.
 
 Then walked west.
+
+Not directly to Vale.
+
+First to a licensed moneychanger near merchant hall.
+
+Important distinction.
+
+I had silver.
+
+Vale's remaining account was recorded across gold and silver.
+
+I was not going to invent a universal exchange rate because I happened to be protagonist.
+
+Moneychanger had current board, spread, fee, and enough boredom to make this normal.
+
+"Need mixed payment," I said.
+
+"Amount?"
+
+I showed Vale account copy and the eighteen-silver credit receipt.
+
+He read.
+
+Looked at me.
+
+"Vale."
+
+"Unfortunately."
+
+"Closing?"
+
+"Yes."
+
+That changed his attention slightly.
+
+Not impressed.
+
+Specific.
+
+He calculated using current house exchange.
+
+I did not memorize rate.
+
+I cared about output.
+
+He told me how much silver I needed to surrender to receive exact remaining mixed coin, less his fee.
+
+I checked arithmetic on his written slip.
+
+Then checked again.
+
+No secret rate lesson.
+
+No worldbuilding lecture.
+
+Just a transaction.
+
+I had enough.
+
+More importantly, after exchange I would still have operating reserve.
+
+Not early-book poverty.
+
+Not empty.
+
+Enough silver remained that food, fare, records, tools, and ordinary mistakes stayed possible.
+
+I made exchange.
+
+He counted exact mixed coin into one pouch.
+
+Returned silver change into another.
+
+I did not like how heavy first pouch felt.
+
+That was probably healthy.
 
 Vale office was almost on route home.
 
 Almost.
 
-Close enough that choosing it did not require chapter.
-
-I went in.
+Close enough that choosing it did not require another chapter.
 
 Front clerk looked up.
 
@@ -52773,35 +52765,49 @@ That felt new.
 
 "What do you need?"
 
-"Current Vale balance. Gregory account."
-
-She knew.
-
-Of course she knew.
+"Current account after last credit. Exact."
 
 Ledger came.
 
-Eleven copper.
+Same history.
 
-No new entry.
+Same eighteen-silver payment.
 
-No surprise fee.
+No new fee.
 
-No schedule.
+No surprise interest invented between visits beyond what contract already established.
 
-Same.
+I compared moneychanger slip to Vale balance.
 
-I counted eleven from the fourteen I had just been paid.
+Matched.
 
-Put them on counter.
+I put pouch on counter.
 
 "Close it."
 
-Clerk counted.
+Clerk looked at amount.
 
-Eleven.
+Then me.
 
-Wrote receipt.
+"All?"
+
+"All."
+
+She counted.
+
+Once.
+
+Twice.
+
+Called second clerk.
+
+Third count.
+
+Good.
+
+Large enough to deserve boring redundancy.
+
+Then she wrote receipt.
 
 Stamped account.
 
@@ -52815,145 +52821,139 @@ No storm.
 
 No revelation.
 
-No Antonius emerging from office to applaud personal development.
+No morality.
 
-Just zero.
+One ugly contract completed exactly as written.
 
-He did emerge anyway because universe disliked restraint.
+Antonius emerged anyway because universe disliked restraint.
 
 He saw receipt.
 
-"Done?"
+Then the empty account line.
+
+Then me.
+
+He stopped.
+
+That was more reaction than usual.
+
+"Done?" I asked.
 
 "Apparently."
 
-"Good."
+"You sound surprised."
 
-"That's all?"
-
-"What else?"
-
-"I don't know. You've been annoying me about this debt for a long time."
-
-"You were annoying before debt."
-
-"True."
-
-He looked at remaining money in my hand.
-
-"How much left?"
-
-"Twenty-four."
-
-"Good."
+"I am."
 
 There.
 
-Twenty-four cash.
+Better than applause.
 
-Zero Vale.
+"You thought I'd keep paying forever."
 
-Ten floor still intact.
+"I thought account would remain useful longer."
 
-Fourteen above.
+"Leash."
 
-And the old debt that had once required three ledgers and one copper ceremony was gone because I had earned fourteen in a day and happened to pass office.
+"If you insist."
 
-That was scale.
+"I do."
 
-Not morality.
+He looked at change pouch in my hand.
 
-Not redemption.
+"How much did you keep?"
 
-Arithmetic.
+"Enough."
 
-Antonius said, "Do you need work?"
+"Number."
 
-I almost laughed.
+"About twelve silver plus ordinary copper and bits after food and exchange fee."
 
-"Not today."
+He nodded once.
 
 "Good."
 
-"Why good?"
+"That is all?"
 
-"Because I am busy."
+"What else?"
 
-Distinct.
+"I just paid one gold six silver worth of terrible decisions."
 
-I folded zero-balance receipt into notebook.
+"You made the decisions."
 
-Then left.
+"True."
 
-The walk home made the day feel more real than the receipt did.
+"And paid them."
 
-Fourteen copper had come from keeping current state across people who already knew their own jobs. My shoulders had paid for it in smaller currency. Left hand felt fine. Right palm had the familiar crutch pressure. Nothing alarming. I stopped once under an awning, shifted weight, flexed fingers, and kept going.
+"Also true."
 
-No new body lesson.
+He looked at receipt again.
 
-No heroic endurance.
+"That part I did not expect."
 
-Just work leaving residue where work usually did.
+I smiled.
 
-That mattered because earning more could not quietly become permission to ignore the body carrying me between contracts.
+"There. Confetti."
 
-Outside, I considered whether clearing debt meant I should celebrate.
+"No."
 
-Food maybe.
+Consistent.
 
-Drink maybe.
+"Need work?" he asked.
 
-Artifact stall definitely dangerous.
+Old question.
 
-No.
+Different shape.
 
-I bought apples with bits because Lyssa liked the sour ones when they were cheap.
+I thought.
 
-That was celebration enough.
+"Not today."
 
-Home was quiet when I arrived.
+He nodded.
 
-Lyssa came later with thread in hair.
+No offense.
 
-Not intentionally.
+No reminder that I owed him.
 
-Probably.
+Because I did not.
 
-I put apples on table.
+I left.
 
-She looked at them.
+Outside, city remained offensively normal.
 
-"Who died?"
+Cart wheel squeaked.
 
-"No one."
+Someone argued about onions.
 
-"Then why apples?"
+A dog stole something flat and bread-shaped.
 
-"I made fourteen copper."
+I stood under awning because right palm had started complaining about crutch pressure.
 
-She stopped.
+Not injury.
 
-"Today?"
+Ordinary work fatigue.
 
-"Yes."
+I shifted weight.
 
-"Doing what?"
+Flexed fingers.
 
-"Keeping three wagons from becoming one argument."
+Waited.
 
-"That sounds like you."
+Earning more did not turn shoulder or hands into abstract concepts.
 
-"One barrel tried."
+Good.
 
-She sat.
+On way home I bought sour apples with bits because Lyssa liked sour things for reasons I considered hostile.
 
-"How much now?"
+At home she saw pouch first.
 
-"Twenty-four."
+Then apples.
+
+"How much?"
+
+"About twelve silver left, plus smaller coin."
 
 She looked at me.
-
-Then understood.
 
 "Vale?"
 
@@ -52961,143 +52961,71 @@ Then understood.
 
 Pause.
 
-Her pause.
+"All?"
 
-I let it exist.
+"All."
 
-Longer than three seconds.
-
-Growth.
-
-She smiled.
+Another pause.
 
 "Good."
 
-"That is all?"
+Apparently everybody in my life had conspired around one word.
 
-She stared.
+I put apples down.
 
-I laughed.
-
-"Antonius said same thing."
-
-"Do you want a parade?"
-
-"Apparently."
-
-"No."
-
-Cruel city.
-
-I gave her apple.
-
-She bit it.
+She bit one.
 
 Made face.
 
-"Too sour."
+"Too sour?"
 
-"You like sour."
+"Good."
 
-"Not punishment."
+"You're all sick."
 
-Important distinction.
+She offered me bite.
 
-I ate mine.
+I refused because growth.
 
-Worse.
+Later I opened notebook.
 
-We suffered together.
+Old pages had too much copper in them.
 
-After a while Lyssa asked, "Does this mean you stop talking about Vale?"
+Old thresholds.
 
-"I can talk about Antonius."
+Old tiny numbers treated like mountains because at the time they were mountains.
 
-"No."
+I did not erase them.
 
-"His chair remains uneven."
+Context mattered.
 
-"No."
+I wrote:
 
-"His filing system has improved."
+**VALE: 0. CLOSED. FULL.**
 
-"Greg."
+Then:
 
-"Fine."
+**Reserve: about 12s + ordinary copper/bits. Keep operating room.**
 
-Debt gone.
+Then stopped.
 
-Friend remained.
+No new debt audit.
 
-Annoying man remained.
+No attempt to optimize every obligation before sleep.
 
-Good.
+Hark & Venn would matter when work limb actually moved.
 
-I took zero-balance receipt out once more.
+Magic would matter when Hessa had designed next protocol.
 
-Not because I doubted it.
+Theatre would exist whether profitable or not.
 
-Because old numbers deserved seeing when they changed.
-
-Twenty-three had become eleven.
-
-Eleven became zero.
-
-The number had occupied more of my life than its final size deserved.
-
-Still.
-
-Done now.
-
-I wrote only:
-
-**VALE: 0. CLOSED.**
-
-Then beneath it:
-
-**Cash 24c. Keep floor.**
-
-No speech.
-
-No plan to pay Hark & Venn early.
-
-Nothing due there.
-
-No imaginary debt audit.
-
-No new category.
-
-Just one line gone.
-
-That made notebook look better.
-
-Lyssa leaned over.
-
-"You're smiling at paper."
-
-"Paper earned it."
-
-"Did you earn it?"
-
-"Fourteen copper."
-
-"Then buy better thread."
-
-I looked at bad thread spool.
-
-Still held.
-
-"Working bad thread."
-
-"Not same as good."
-
-There it was.
+Lyssa was still going to argue about thread.
 
 Some obligations disappeared.
 
 Some arguments were permanent.
 
-I could live with both.
+That seemed healthy.
 
 # CHAPTER 491
 
