@@ -1,0 +1,46 @@
+name: Diagnose dialogue ownership 041-050
+
+on:
+  push:
+    branches:
+      - integration/aggressive-dialogue-041-050-live
+    paths:
+      - '.github/workflows/diagnose-dialogue-041-050.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Print strict-checker paragraphs with neighbors
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import html
+          import re
+
+          targets = {
+              41: [27, 211],
+              42: [316],
+              45: [100, 154, 215, 218, 270],
+              46: [276],
+              48: [95, 151, 158],
+          }
+          p_re = re.compile(r'<p\b[^>]*>(.*?)</p>', re.I | re.S)
+          tag_re = re.compile(r'<[^>]+>')
+          for chapter_no, indices in targets.items():
+              text = Path('chapters', f'{chapter_no:03d}.html').read_text(encoding='utf-8')
+              article = text.split('<article class="prose">', 1)[1].split('</article>', 1)[0]
+              paragraphs = [html.unescape(tag_re.sub('', m.group(1))).replace('\xa0', ' ').strip() for m in p_re.finditer(article)]
+              paragraphs = [p for p in paragraphs if p]
+              for index in indices:
+                  print(f'===== CHAPTER {chapter_no} TARGET {index} =====')
+                  for j in range(max(1, index-2), min(len(paragraphs), index+2)+1):
+                      marker = '>>' if j == index else '  '
+                      print(f'{marker} P{j}: {paragraphs[j-1]}')
+                  print('===== END =====')
+          PY
