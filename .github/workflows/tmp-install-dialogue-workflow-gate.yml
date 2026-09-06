@@ -1,0 +1,48 @@
+name: Install dialogue ownership workflow gate
+
+on:
+  push:
+    branches:
+      - integration/dialogue-ownership-generation-contract
+    paths:
+      - 'scripts/_install_dialogue_workflow_gate.py'
+      - '.github/workflows/tmp-install-dialogue-workflow-gate.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: integration/dialogue-ownership-generation-contract
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Patch Light workflow gate
+        run: python scripts/_install_dialogue_workflow_gate.py
+      - name: Verify order and clean installer
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          text = Path('.github/workflows/light-edition.yml').read_text(encoding='utf-8')
+          test = text.index('Test reader tooling')
+          gate = text.index('Validate latest dialogue ownership')
+          production = text.index('Process illustration production state')
+          generation = text.index('Generate recovered Light range')
+          assert test < gate < production < generation
+          PY
+          rm scripts/_install_dialogue_workflow_gate.py
+          rm .github/workflows/tmp-install-dialogue-workflow-gate.yml
+          git diff --check
+      - name: Commit workflow gate
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'Backstop reader builds with dialogue ownership'
+          git push origin HEAD:integration/dialogue-ownership-generation-contract
