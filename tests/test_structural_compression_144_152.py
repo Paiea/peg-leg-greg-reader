@@ -77,7 +77,7 @@ class StructuralCompressionHelpersTest(unittest.TestCase):
         self.assertIn("Tired judgment was still judgment.", once[144])
         self.assertIn("Teren will tell you if it changes you.", once[145])
         self.assertIn("LIAR", once[146])
-        self.assertIn("waiting for ghosts", once[147])
+        self.assertIn("Waiting for ghosts", once[147])
         self.assertNotIn("OLD BODY SETUP", once[144])
         self.assertNotIn("OLD QUESTIONS", once[145])
         self.assertNotIn("OLD LOGISTICS", once[146])
