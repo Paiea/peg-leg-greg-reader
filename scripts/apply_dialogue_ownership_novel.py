@@ -99,6 +99,19 @@ def transform_html(path: Path) -> tuple[bool, int]:
         pieces = split_paragraph(content)
         if len(pieces) <= 1:
             return match.group(0)
+
+        reconstructed = " ".join(pieces)
+        if _flat_space(reconstructed) != _flat_space(content):
+            raise ValueError(
+                "paragraph text changed while splitting "
+                f"{path}: before={content!r} after_parts={pieces!r}"
+            )
+        if quoted_spans(reconstructed) != quoted_spans(content):
+            raise ValueError(
+                "paragraph dialogue changed while splitting "
+                f"{path}: before={content!r} after_parts={pieces!r}"
+            )
+
         split_count += len(pieces) - 1
         return "".join(f"<p>{piece}</p>" for piece in pieces)
 
