@@ -70,11 +70,11 @@ class IllustrationPromotionTests(unittest.TestCase):
         updated = promote_html(source, self.approved_record())
         expected_prefix = '<article class="prose"><p>Before.</p>\n<p>Glass mice.</p>'
         self.assertTrue(updated.startswith(expected_prefix))
-        self.assertIn('class="chapter-art"', updated)
+        self.assertIn('class="chapter-art scene-illustration"', updated)
         self.assertIn('../visual/chapter_art/392/Ch392_glass_mice.webp', updated)
         self.assertIn('alt="Three gray glass mice with faint blue-white teeth investigate the camp food box while Greg watches from beside the fire ring."', updated)
         self.assertTrue(updated.endswith('\n<p>After.</p></article>'))
-        self.assertEqual(updated.count('class="chapter-art"'), 1)
+        self.assertEqual(updated.count('class="chapter-art scene-illustration"'), 1)
 
     def test_promotion_refuses_ambiguous_anchor(self):
         source = '<article class="prose"><p>Glass mice.</p><p>Other.</p><p>Glass mice.</p></article>'
@@ -93,8 +93,6 @@ class IllustrationPromotionTests(unittest.TestCase):
             asset = root / "visual" / "chapter_art" / "392" / "Ch392_glass_mice.webp"
             asset.parent.mkdir(parents=True)
             asset.write_bytes(b"RIFFtestWEBP")
-            # The production helper loads chapter authority globally, so this test limits itself
-            # to the explicit HTML gate above and verifies nonexistent assets are rejected here.
             missing = self.approved_record()
             missing["live_asset"] = "visual/chapter_art/392/missing.webp"
             with self.assertRaisesRegex(ValueError, "does not exist"):
