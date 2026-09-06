@@ -88,6 +88,11 @@
     "299": {"showcase": false, "reason": "redundant_progression"},
     "302": {"showcase": false, "reason": "low_consequence_mundane"},
     "307": {"showcase": false, "reason": "low_consequence_mundane"},
-    "309": {"showcase": false, "reason": "redundant_progression"}
+    "309": {"showcase": false, "reason": "redundant_progression"},
+    "311": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
+    "313": {"showcase": false, "reason": "redundant_progression"},
+    "314": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
+    "315": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
+    "318": {"showcase": false, "reason": "bridge_not_needed"}
   }
 }
