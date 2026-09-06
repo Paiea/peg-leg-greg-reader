@@ -1,0 +1,28 @@
+name: Dialogue ownership whole novel
+
+on:
+  push:
+    branches:
+      - editor/dialogue-ownership-whole-novel
+    paths:
+      - state/editorial/DIALOGUE_OWNERSHIP_ENGINE.md
+      - scripts/dialogue_ownership_engine.py
+      - scripts/apply_dialogue_ownership_novel.py
+      - scripts/validate_dialogue_ownership_novel.py
+      - tests/test_dialogue_ownership_novel.py
+      - .github/workflows/dialogue-ownership-whole-novel.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Identity-aware ownership regressions
+        run: python -m unittest tests.test_dialogue_ownership_novel -v
