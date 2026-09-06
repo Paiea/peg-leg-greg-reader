@@ -28,7 +28,8 @@ class WorkerRunnerCompressionTest(unittest.TestCase):
             "OLD_WRONG_HOOKS_LOOP",
             "Teren was onstage.",
             "The Petition ran that afternoon.",
-            "I got my goat back.",
+            "OLD_FAMILIAR_SHOW_LOOP",
+            "For almost an hour, I forgot I had any.",
             "I left for the south market after my piece.",
         ]
 
@@ -41,11 +42,17 @@ class WorkerRunnerCompressionTest(unittest.TestCase):
         self.assertIn("The afternoon problem was not the children.", out183)
         self.assertIn("The Miller's Son was next.", out183)
 
-        for marker in ("OLD_BREAKFAST_AND_PARCEL_LOOP", "OLD_MARRA_SEN_MARRA_LOOP", "OLD_WRONG_HOOKS_LOOP"):
+        for marker in (
+            "OLD_BREAKFAST_AND_PARCEL_LOOP",
+            "OLD_MARRA_SEN_MARRA_LOOP",
+            "OLD_WRONG_HOOKS_LOOP",
+            "OLD_FAMILIAR_SHOW_LOOP",
+        ):
             self.assertNotIn(marker, out184)
         self.assertIn("Lyssa asked me for a favor", out184)
         self.assertIn("By the time I reached East Market Hall", out184)
         self.assertIn("The Petition ran that afternoon.", out184)
+        self.assertIn("For almost an hour, I forgot I had any.", out184)
         self.assertIn("I left for the south market after my piece.", out184)
 
 
