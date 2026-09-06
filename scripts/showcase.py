@@ -14,6 +14,12 @@ SUPPORTED_REASONS = {
     'other',
 }
 ALLOWED_ENTRY_FIELDS = {'showcase', 'reason'}
+DEFAULT_MANIFEST = {
+    'version': 1,
+    'mode': 'whole_chapter_only',
+    'default': 'visible',
+    'chapters': {},
+}
 
 
 @dataclass(frozen=True)
@@ -21,6 +27,7 @@ class ShowcaseMap:
     visible_canon: tuple[int, ...]
     _canon_to_showcase: dict[int, int]
     _index_by_canon: dict[int, int]
+    _canonical_set: frozenset[int]
 
     def showcase_number(self, canon: int) -> int | None:
         return self._canon_to_showcase.get(canon)
@@ -29,13 +36,19 @@ class ShowcaseMap:
         index = self._index_by_canon.get(canon)
         if index is None or index == 0:
             return None
-        return self.visible_canon[index - 1]
+        previous = self.visible_canon[index - 1]
+        if any(number not in self._canonical_set for number in range(previous + 1, canon)):
+            return None
+        return previous
 
     def next_visible(self, canon: int) -> int | None:
         index = self._index_by_canon.get(canon)
         if index is None or index + 1 >= len(self.visible_canon):
             return None
-        return self.visible_canon[index + 1]
+        following = self.visible_canon[index + 1]
+        if any(number not in self._canonical_set for number in range(canon + 1, following)):
+            return None
+        return following
 
 
 def _validate_manifest_shape(data: dict) -> None:
@@ -50,6 +63,13 @@ def _validate_manifest_shape(data: dict) -> None:
 
 
 def load_showcase_manifest(path: Path) -> dict:
+    if not path.exists():
+        return {
+            'version': DEFAULT_MANIFEST['version'],
+            'mode': DEFAULT_MANIFEST['mode'],
+            'default': DEFAULT_MANIFEST['default'],
+            'chapters': {},
+        }
     data = json.loads(path.read_text(encoding='utf-8'))
     if not isinstance(data, dict):
         raise ValueError('showcase manifest must be an object')
@@ -93,4 +113,4 @@ def build_showcase_map(canonical_numbers: list[int], manifest: dict) -> Showcase
     visible = tuple(number for number in canonical if overrides.get(number, default_visible))
     canon_to_showcase = {canon: idx for idx, canon in enumerate(visible, start=1)}
     index_by_canon = {canon: idx for idx, canon in enumerate(visible)}
-    return ShowcaseMap(visible, canon_to_showcase, index_by_canon)
+    return ShowcaseMap(visible, canon_to_showcase, index_by_canon, frozenset(canonical_set))
