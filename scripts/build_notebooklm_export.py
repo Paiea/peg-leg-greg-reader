@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
-"""Build manuscript-only Peg-Leg Greg sources for NotebookLM.
+"""Build manuscript-only Peg-Leg Greg sources for NotebookLM and editorial reading.
 
 The export follows repository manuscript authority for prose and the reader
 Book/Act map for structural boundaries.
 
-Books I and II remain single files. Book III onward exports one file per Act
-so large later Books stay comfortably uploadable to NotebookLM.
+Books I and II remain single NotebookLM files. Book III onward exports one
+file per Act so large later Books stay comfortably uploadable to NotebookLM.
+The editorial read surface is split into small canonical chapter windows for
+cheap exact-prose retrieval by workers.
 
 No state, planning, summaries, or authorial-direction files are included in
 the manuscript sources. A small optional structure map is emitted separately.
@@ -16,6 +18,7 @@ from __future__ import annotations
 import re
 import sys
 import zipfile
+from html.parser import HTMLParser
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
@@ -24,12 +27,109 @@ from reader_sections import BOOKS
 ROOT = Path(__file__).resolve().parents[1]
 M = ROOT / "state" / "manuscript"
 OUT = ROOT / "exports" / "notebooklm"
+READABLE_OUT = ROOT / "state" / "manuscript-readable"
+CHAPTERS = ROOT / "chapters"
+READABLE_CHUNK_SIZE = 10
+STATIC_EXACT_LAST = 155
 
 BOOK1_DOCX = M / "Peg_Leg_Greg_authoritative_ch82_final_name_map.docx"
 BOOK2_DOCX = M / "Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx"
 CH138_155 = M / "Peg_Leg_Greg_Running_Manuscript_Ch138-155.md"
 CH156_219 = M / "Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md"
 CH220_248 = M / "Peg_Leg_Greg_Running_Manuscript.md"
+
+CHAPTER_BOUNDARY = re.compile(r"(?im)^(?:#{1,6}\s*)?CHAPTER\s+(\d+)\b.*$")
+READABLE_HEADER = (
+    "# DERIVED EDITORIAL READ SURFACE\n\n"
+    "**NON-AUTHORITATIVE. GENERATED FROM CURRENT MANUSCRIPT AUTHORITY. DO NOT EDIT.**\n\n"
+)
+
+
+class _CanonicalChapterHTMLParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.in_h1 = False
+        self.in_prose = False
+        self.figure_depth = 0
+        self.in_paragraph = False
+        self.title_parts: list[str] = []
+        self.paragraph_parts: list[str] = []
+        self.paragraphs: list[str] = []
+
+    @staticmethod
+    def _classes(attrs: list[tuple[str, str | None]]) -> set[str]:
+        for name, value in attrs:
+            if name == "class" and value:
+                return set(value.split())
+        return set()
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag == "h1":
+            self.in_h1 = True
+        if tag == "article" and "prose" in self._classes(attrs):
+            self.in_prose = True
+            return
+        if not self.in_prose:
+            return
+        if tag == "figure":
+            self.figure_depth += 1
+            return
+        if self.figure_depth:
+            return
+        if tag == "p":
+            self.in_paragraph = True
+            self.paragraph_parts = []
+        elif tag == "br" and self.in_paragraph:
+            self.paragraph_parts.append("\n")
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "h1":
+            self.in_h1 = False
+        if not self.in_prose:
+            return
+        if tag == "figure" and self.figure_depth:
+            self.figure_depth -= 1
+            return
+        if self.figure_depth:
+            return
+        if tag == "p" and self.in_paragraph:
+            self.paragraphs.append("".join(self.paragraph_parts))
+            self.paragraph_parts = []
+            self.in_paragraph = False
+        elif tag == "article":
+            self.in_prose = False
+
+    def handle_data(self, data: str) -> None:
+        if self.in_h1:
+            self.title_parts.append(data)
+        if self.in_prose and not self.figure_depth and self.in_paragraph:
+            self.paragraph_parts.append(data)
+
+
+def html_chapter_to_readable(html: str, canonical_number: int) -> str:
+    parser = _CanonicalChapterHTMLParser()
+    parser.feed(html)
+    parser.close()
+    title = "".join(parser.title_parts).strip()
+    if not title:
+        raise ValueError(f"Canonical Chapter {canonical_number} has no title")
+    if not parser.paragraphs:
+        raise ValueError(f"Canonical Chapter {canonical_number} has no prose paragraphs")
+    body = "\n\n".join(parser.paragraphs)
+    return f"CHAPTER {canonical_number}\n{title}\n\n{body}\n"
+
+
+def static_exact_chapters(first: int = 1, last: int = STATIC_EXACT_LAST) -> dict[int, str]:
+    chapters: dict[int, str] = {}
+    for number in range(first, last + 1):
+        path = CHAPTERS / f"{number:03d}.html"
+        if not path.exists():
+            raise ValueError(f"Missing canonical static Chapter {number}: {path.relative_to(ROOT)}")
+        chapters[number] = html_chapter_to_readable(
+            path.read_text(encoding="utf-8"),
+            canonical_number=number,
+        )
+    return chapters
 
 
 def docx_to_text(path: Path) -> str:
@@ -61,6 +161,79 @@ def slice_chapters(text: str, first: int, after_last: int | None = None) -> str:
     start = chapter_start(text, first)
     end = chapter_start(text, after_last) if after_last is not None else len(text)
     return text[start:end].strip() + "\n"
+
+
+def split_chapters_exact(text: str) -> dict[int, str]:
+    matches = list(CHAPTER_BOUNDARY.finditer(text))
+    if not matches:
+        raise ValueError("No chapter boundaries found")
+    chapters: dict[int, str] = {}
+    order: list[int] = []
+    for index, match in enumerate(matches):
+        number = int(match.group(1))
+        if number in chapters:
+            raise ValueError(f"Duplicate Chapter {number} in assembled manuscript")
+        end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
+        chapters[number] = text[match.start():end].rstrip() + "\n"
+        order.append(number)
+    expected = list(range(order[0], order[-1] + 1))
+    if order != expected:
+        raise ValueError(f"Manuscript chapter coverage/order mismatch: expected {expected[0]}-{expected[-1]}, got {order}")
+    return chapters
+
+
+def join_exact_ranges(texts: list[str]) -> dict[int, str]:
+    joined: dict[int, str] = {}
+    for text in texts:
+        current = split_chapters_exact(text)
+        overlap = set(joined).intersection(current)
+        if overlap:
+            raise ValueError(f"Duplicate chapters across exact authority ranges: {sorted(overlap)}")
+        joined.update(current)
+    numbers = list(joined)
+    if numbers and numbers != list(range(numbers[0], numbers[-1] + 1)):
+        raise ValueError(f"Exact authority range coverage/order mismatch: got {numbers}")
+    return joined
+
+
+def build_readable_chunks(chapters: dict[int, str], out: Path, chunk_size: int = READABLE_CHUNK_SIZE) -> list[Path]:
+    if chunk_size <= 0:
+        raise ValueError("chunk_size must be positive")
+    numbers = list(chapters)
+    if numbers != sorted(numbers) or len(numbers) != len(set(numbers)):
+        raise ValueError("chapters must be supplied once in canonical order")
+    if numbers and numbers != list(range(numbers[0], numbers[-1] + 1)):
+        raise ValueError("chapters must be contiguous")
+
+    out.mkdir(parents=True, exist_ok=True)
+    for path in out.glob("[0-9][0-9][0-9]-[0-9][0-9][0-9].md"):
+        path.unlink()
+
+    paths: list[Path] = []
+    for offset in range(0, len(numbers), chunk_size):
+        window = numbers[offset:offset + chunk_size]
+        first, last = window[0], window[-1]
+        path = out / f"{first:03d}-{last:03d}.md"
+        body = "\n".join(chapters[number].rstrip() for number in window) + "\n"
+        path.write_text(
+            READABLE_HEADER
+            + f"Canonical chapters: **{first}–{last}**. Canonical chapter IDs and titles follow below.\n\n---\n\n"
+            + body,
+            encoding="utf-8",
+        )
+        paths.append(path)
+    return paths
+
+
+def validate_readable_chunks(out: Path, expected_numbers: list[int]) -> None:
+    found: list[int] = []
+    for path in sorted(out.glob("[0-9][0-9][0-9]-[0-9][0-9][0-9].md")):
+        text = path.read_text(encoding="utf-8")
+        if "NON-AUTHORITATIVE" not in text or "DO NOT EDIT" not in text:
+            raise ValueError(f"Readable chunk missing derived warning: {path.name}")
+        found.extend(int(match.group(1)) for match in CHAPTER_BOUNDARY.finditer(text))
+    if found != expected_numbers:
+        raise ValueError(f"Readable chunk coverage/order mismatch: expected {expected_numbers}, got {found}")
 
 
 def checkpoint_number(path: Path) -> int | None:
@@ -150,6 +323,16 @@ def main() -> int:
         checkpoints.strip(),
     ]) + "\n"
 
+    readable_chapters = static_exact_chapters()
+    late_readable = join_exact_ranges([recovered, running, checkpoints])
+    readable_chapters.update(late_readable)
+    expected_numbers = list(range(1, latest + 1))
+    if list(readable_chapters) != expected_numbers:
+        raise ValueError(
+            f"Assembled manuscript coverage/order mismatch: expected 1-{latest}, "
+            f"got {list(readable_chapters)}"
+        )
+
     OUT.mkdir(parents=True, exist_ok=True)
     clean_generated_sources()
 
@@ -177,6 +360,8 @@ def main() -> int:
             )
 
     write_structure_map(latest)
+    readable_paths = build_readable_chunks(readable_chapters, READABLE_OUT)
+    validate_readable_chunks(READABLE_OUT, expected_numbers)
 
     source_files = sorted(OUT.glob("PLG_BOOK_*.md"))
     (OUT / "README.md").write_text(f"""# Peg-Leg Greg — NotebookLM Sources
@@ -210,6 +395,7 @@ Suggested first chat prompt:
     for path in source_files:
         print(f"{path.relative_to(ROOT)}: {path.stat().st_size:,} bytes")
     print((OUT / "PLG_STRUCTURE_MAP.md").relative_to(ROOT))
+    print(f"Built {len(readable_paths)} editorial read chunks through Chapter {latest}")
     return 0
 
 
