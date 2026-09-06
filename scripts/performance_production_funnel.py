@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import html
 import json
 from pathlib import Path
@@ -10,7 +11,18 @@ import re
 ROOT = Path(__file__).resolve().parents[1]
 ARTICLE_RE = re.compile(r'(<article\s+class="prose"[^>]*>)(.*?)(</article>)', re.S | re.I)
 P_RE = re.compile(r'<p\b[^>]*>.*?</p>', re.S | re.I)
+SCENE_BREAK_RE = re.compile(r'<hr\b[^>]*>', re.I)
 TAG_RE = re.compile(r'<[^>]+>')
+DIALOGUE_RE = re.compile(r'(?:“([^”]+)”|"([^"]+)")', re.S)
+MONEY_RE = re.compile(r"\b(?:\d+|one|two|three|four|five|six|seven|eight|nine|ten)\s+(?:copper|silver|gold)\b", re.I)
+CAPITALIZED_RE = re.compile(r"\b[A-Z][A-Za-z'’-]*\b")
+WORD_RE = re.compile(r"\b[A-Za-z][A-Za-z'’-]*\b")
+SENTENCE_RE = re.compile(r"[^.!?]+[.!?]+|[^.!?]+$")
+ACTION_WORDS = {
+    "lifted", "moved", "picked", "set", "turned", "walked", "reached", "tapped",
+    "shook", "opened", "closed", "held", "placed", "wrote", "swept", "sweeping",
+    "rotated", "pointed", "pushed", "pulled", "sat", "stood", "crossed", "carried",
+}
 
 
 def next_visible_chapters(manifest: dict, *, after_chapter: int, count: int, max_chapter: int) -> list[int]:
@@ -28,6 +40,98 @@ def next_visible_chapters(manifest: dict, *, after_chapter: int, count: int, max
 
 def _nonempty_text(value: object) -> bool:
     return isinstance(value, str) and bool(value.strip())
+
+
+def _plain(fragment_html: str) -> str:
+    text = html.unescape(TAG_RE.sub("", fragment_html)).replace("\xa0", " ")
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def extract_paragraphs(page: str) -> list[str]:
+    article = ARTICLE_RE.search(page)
+    if not article:
+        return []
+    return [_plain(match.group(0)) for match in P_RE.finditer(article.group(2)) if _plain(match.group(0))]
+
+
+def source_fingerprint(paragraphs: list[str]) -> str:
+    normalized = "\n".join(re.sub(r"\s+", " ", paragraph).strip() for paragraph in paragraphs)
+    return hashlib.sha256(normalized.encode("utf-8")).hexdigest()
+
+
+def _dialogue_spans(text: str) -> list[str]:
+    spans: list[str] = []
+    for match in DIALOGUE_RE.finditer(text):
+        spans.append(next(group for group in match.groups() if group is not None))
+    return spans
+
+
+def build_mechanical_ir(scene: dict) -> dict:
+    source = scene.get("source") if isinstance(scene, dict) else None
+    paragraphs = source.get("paragraphs") if isinstance(source, dict) else None
+    if not isinstance(paragraphs, list) or not all(isinstance(value, str) for value in paragraphs):
+        raise ValueError("scene source paragraphs must be a list of strings")
+
+    text = "\n".join(paragraphs)
+    words = WORD_RE.findall(text)
+    dialogue = _dialogue_spans(text)
+    dialogue_words = sum(len(WORD_RE.findall(span)) for span in dialogue)
+    sentence_count = sum(len(SENTENCE_RE.findall(paragraph)) for paragraph in paragraphs)
+    action_word_hits = sum(1 for word in words if word.lower() in ACTION_WORDS)
+    capitalized = sorted(set(CAPITALIZED_RE.findall(text)))
+    money_mentions = [re.sub(r"\s+", " ", match.group(0)).lower() for match in MONEY_RE.finditer(text)]
+
+    return {
+        "paragraph_count": len(paragraphs),
+        "sentence_count": sentence_count,
+        "word_count": len(words),
+        "dialogue_turns": len(dialogue),
+        "dialogue_word_count": dialogue_words,
+        "dialogue_ratio": round(dialogue_words / len(words), 4) if words else 0.0,
+        "question_count": text.count("?"),
+        "money_mentions": money_mentions,
+        "capitalized_tokens": capitalized,
+        "action_word_hits": action_word_hits,
+    }
+
+
+def segment_chapter(page: str, chapter: int, previous_manifest: dict | None = None) -> list[dict]:
+    del previous_manifest  # Stable-ID reconciliation is added by the cache layer, not the first parser pass.
+    if not isinstance(chapter, int) or chapter < 1:
+        raise ValueError("chapter must be a positive integer")
+    article = ARTICLE_RE.search(page)
+    if not article:
+        raise ValueError("missing article.prose")
+
+    body = article.group(2)
+    raw_segments = SCENE_BREAK_RE.split(body)
+    scenes: list[dict] = []
+    paragraph_cursor = 1
+    for raw_segment in raw_segments:
+        paragraphs = [_plain(match.group(0)) for match in P_RE.finditer(raw_segment)]
+        paragraphs = [paragraph for paragraph in paragraphs if paragraph]
+        if not paragraphs:
+            continue
+        scene_number = (len(scenes) + 1) * 10
+        scene_id = f"{chapter:03d}.s{scene_number:03d}"
+        start = paragraph_cursor
+        end = paragraph_cursor + len(paragraphs) - 1
+        source = {
+            "chapter": chapter,
+            "paragraphs": paragraphs,
+            "paragraph_span": [start, end],
+            "start_anchor": paragraphs[0],
+            "end_anchor": paragraphs[-1],
+            "hash": source_fingerprint(paragraphs),
+        }
+        scene = {"scene_id": scene_id, "source": source}
+        scene["mechanical"] = build_mechanical_ir(scene)
+        scenes.append(scene)
+        paragraph_cursor = end + 1
+
+    if not scenes:
+        raise ValueError("article.prose contains no readable paragraphs")
+    return scenes
 
 
 def validate_record(record: dict) -> None:
@@ -89,11 +193,6 @@ def validate_batch(batch: dict) -> None:
         raise ValueError("batch coverage must include every scope chapter exactly once")
     for record in records:
         validate_record(record)
-
-
-def _plain(paragraph_html: str) -> str:
-    text = html.unescape(TAG_RE.sub("", paragraph_html)).replace("\xa0", " ")
-    return re.sub(r"\s+", " ", text).strip()
 
 
 def _render_paragraph(text: str) -> str:
