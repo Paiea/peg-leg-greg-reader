@@ -1,8 +1,16 @@
 # PEG-LEG GREG — GENERAL EDITOR STATE
 
-Updated: 2026-08-31 HST
+Updated: 2026-09-06 HST
 
-## Lane
+## Status
+
+**REFERENCE / CASE LAW — RETIRED FROM ACTIVE ROUTING**
+
+This file preserves the completed 06 moderate-polish experiment, its craft boundary, continuity repairs, and the Book 1 source-promotion path. It is not a live sequential queue.
+
+Current prose/editorial work routes through 04 / Editor unless another current specialist pass explicitly owns the task. Do not delete this file merely because 06 no longer appears as a front-door lane: its completed evidence and source-promotion provenance remain useful on demand.
+
+## Historical lane
 
 06 — MANUSCRIPT POLISH / GENERAL EDITOR
 
@@ -16,13 +24,15 @@ Use Level 1–3 edits only. Stop before Level 4 and flag substantial rewrites fo
 
 Preserve voice, scene order, scene outcomes, ordinary-life texture, relationship residue, humor, and canon. Do not use em dashes in manuscript prose.
 
-## Current authority
+## Historical authority at completion
 
-Fresh `main` authority for the completed first batch is commit `128208fb38a125f96cf90c2b18030f992ef01894`, with the forward Manuscript Engine at Chapter 238 — THE SEALER.
+Fresh `main` authority for the completed first batch was commit `128208fb38a125f96cf90c2b18030f992ef01894`, with the forward Manuscript Engine then at Chapter 238 — THE SEALER.
 
-Heavy Prose Editor authority remains complete through Chapter 183, with Chapter 184 next. This front-book moderate-polish lane does not overlap that completed heavy-edit range.
+Heavy Prose Editor authority was then complete through Chapter 183, with Chapter 184 next. This front-book moderate-polish lane did not overlap that completed heavy-edit range.
 
-## Current polish edge
+These recorded edges are provenance, not current routing state. Read current project/editor authority for present work.
+
+## Completed polish boundary
 
 POLISH COMPLETE AND SOURCE-SYNCHRONIZED:
 
@@ -40,9 +50,7 @@ PR:
 
 `#34 — General polish: Chapters 1-5`
 
-Next sequential range:
-
-- Chapters 6–10
+There is **no active next sequential range** for 06. A future worker needing moderate-polish precedent should consult this file as case law, then route current execution through 04 or the current specialist owner rather than resuming Chapters 6–10 automatically.
 
 ## Editorial character of first batch
 
@@ -105,4 +113,4 @@ Final validation after the idempotence repair:
 - publishing/navigation checks: passed
 - generated reader presentation: current
 
-For future Book 1 batches, edit the bounded reader prose, verify it, then promote the accepted range into the canonical DOCX before merge. Do not merge HTML-only Book 1 polish.
+For future Book 1 batches that use this historical promotion path, edit the bounded reader prose, verify it, then promote the accepted range into the canonical DOCX before merge. Do not merge HTML-only Book 1 polish.
