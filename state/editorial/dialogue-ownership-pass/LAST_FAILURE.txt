@@ -1,75 +1,15 @@
 Canon frontier: 491
 === DIALOGUE OWNERSHIP BATCH 1-25 ===
-dialogue ownership 1-25: changed 14 chapters, inserted 354 paragraph boundaries: 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
-[editor/dialogue-ownership-whole-novel 21edf142] Dialogue ownership chapters 1-25
- 14 files changed, 14 insertions(+), 14 deletions(-)
-=== DIALOGUE OWNERSHIP BATCH 26-50 ===
-dialogue ownership 26-50: no changes
-=== DIALOGUE OWNERSHIP BATCH 51-75 ===
-dialogue ownership 51-75: no changes
-=== DIALOGUE OWNERSHIP BATCH 76-100 ===
-dialogue ownership 76-100: no changes
-=== DIALOGUE OWNERSHIP BATCH 101-125 ===
-dialogue ownership 101-125: no changes
-=== DIALOGUE OWNERSHIP BATCH 126-150 ===
-dialogue ownership 126-150: changed 10 chapters, inserted 247 paragraph boundaries: 138, 140, 142, 143, 144, 145, 146, 147, 148, 149
-[editor/dialogue-ownership-whole-novel 6d535f16] Dialogue ownership chapters 126-150
- 10 files changed, 10 insertions(+), 10 deletions(-)
-=== DIALOGUE OWNERSHIP BATCH 151-175 ===
-dialogue ownership 151-175: changed 5 chapters, inserted 166 paragraph boundaries: 151, 152, 153, 154, 155
-[editor/dialogue-ownership-whole-novel f8f3be51] Dialogue ownership chapters 151-175
- 5 files changed, 5 insertions(+), 5 deletions(-)
-=== DIALOGUE OWNERSHIP BATCH 176-200 ===
-dialogue ownership 176-200: changed 1 chapters, inserted 1 paragraph boundaries: 183
-[editor/dialogue-ownership-whole-novel 4c499299] Dialogue ownership chapters 176-200
- 1 file changed, 3 insertions(+), 1 deletion(-)
-=== DIALOGUE OWNERSHIP BATCH 201-225 ===
-dialogue ownership 201-225: changed 2 chapters, inserted 3 paragraph boundaries: 221, 223
-[editor/dialogue-ownership-whole-novel 26c789f1] Dialogue ownership chapters 201-225
- 1 file changed, 8 insertions(+), 2 deletions(-)
-=== DIALOGUE OWNERSHIP BATCH 226-250 ===
-dialogue ownership 226-250: no changes
-=== DIALOGUE OWNERSHIP BATCH 251-275 ===
-dialogue ownership 251-275: changed 2 chapters, inserted 2 paragraph boundaries: 251, 270
-[editor/dialogue-ownership-whole-novel 92761206] Dialogue ownership chapters 251-275
- 2 files changed, 6 insertions(+), 2 deletions(-)
-=== DIALOGUE OWNERSHIP BATCH 276-300 ===
-dialogue ownership 276-300: changed 1 chapters, inserted 1 paragraph boundaries: 297
-[editor/dialogue-ownership-whole-novel 37f85cb5] Dialogue ownership chapters 276-300
- 1 file changed, 3 insertions(+), 1 deletion(-)
-=== DIALOGUE OWNERSHIP BATCH 301-325 ===
-dialogue ownership 301-325: changed 1 chapters, inserted 1 paragraph boundaries: 307
-[editor/dialogue-ownership-whole-novel 384593cd] Dialogue ownership chapters 301-325
- 1 file changed, 3 insertions(+), 1 deletion(-)
-=== DIALOGUE OWNERSHIP BATCH 326-350 ===
-dialogue ownership 326-350: no changes
-=== DIALOGUE OWNERSHIP BATCH 351-375 ===
-dialogue ownership 351-375: changed 1 chapters, inserted 1 paragraph boundaries: 371
-[editor/dialogue-ownership-whole-novel 641dd3a6] Dialogue ownership chapters 351-375
- 1 file changed, 3 insertions(+), 1 deletion(-)
-=== DIALOGUE OWNERSHIP BATCH 376-400 ===
-dialogue ownership 376-400: changed 1 chapters, inserted 1 paragraph boundaries: 378
-[editor/dialogue-ownership-whole-novel bba5162d] Dialogue ownership chapters 376-400
- 1 file changed, 3 insertions(+), 1 deletion(-)
-=== DIALOGUE OWNERSHIP BATCH 401-425 ===
-dialogue ownership 401-425: changed 1 chapters, inserted 1 paragraph boundaries: 407
-[editor/dialogue-ownership-whole-novel 7a24aac8] Dialogue ownership chapters 401-425
- 1 file changed, 3 insertions(+), 1 deletion(-)
-=== DIALOGUE OWNERSHIP BATCH 426-450 ===
-dialogue ownership 426-450: no changes
-=== DIALOGUE OWNERSHIP BATCH 451-475 ===
-dialogue ownership 451-475: no changes
-=== DIALOGUE OWNERSHIP BATCH 476-491 ===
 Traceback (most recent call last):
-  File "/home/runner/work/peg-leg-greg-reader/peg-leg-greg-reader/scripts/apply_dialogue_ownership_novel.py", line 231, in <module>
+  File "/home/runner/work/peg-leg-greg-reader/peg-leg-greg-reader/scripts/apply_dialogue_ownership_novel.py", line 240, in <module>
     raise SystemExit(main())
                      ^^^^^^
-  File "/home/runner/work/peg-leg-greg-reader/peg-leg-greg-reader/scripts/apply_dialogue_ownership_novel.py", line 217, in main
+  File "/home/runner/work/peg-leg-greg-reader/peg-leg-greg-reader/scripts/apply_dialogue_ownership_novel.py", line 226, in main
     changed, splits, frontier = apply_range(args.start, end)
                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/peg-leg-greg-reader/peg-leg-greg-reader/scripts/apply_dialogue_ownership_novel.py", line 199, in apply_range
-    path_changed, splits = transform_markdown(path, numbers)
-                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/peg-leg-greg-reader/peg-leg-greg-reader/scripts/apply_dialogue_ownership_novel.py", line 164, in transform_markdown
-    raise ValueError(f"text changed beyond paragraph whitespace in {path}")
-ValueError: text changed beyond paragraph whitespace in /home/runner/work/peg-leg-greg-reader/peg-leg-greg-reader/state/manuscript/Peg_Leg_Greg_Chapter_478_EXACT_WIP.md
+  File "/home/runner/work/peg-leg-greg-reader/peg-leg-greg-reader/scripts/apply_dialogue_ownership_novel.py", line 203, in apply_range
+    did_change, splits = transform_html(path)
+                         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/peg-leg-greg-reader/peg-leg-greg-reader/scripts/apply_dialogue_ownership_novel.py", line 109, in transform_html
+    raise ValueError(f"prose text changed while splitting {path}")
+ValueError: prose text changed while splitting /home/runner/work/peg-leg-greg-reader/peg-leg-greg-reader/chapters/023.html
