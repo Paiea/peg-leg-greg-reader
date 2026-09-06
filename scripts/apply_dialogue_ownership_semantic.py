@@ -27,20 +27,39 @@ def begins_dialogue(p: str) -> bool:
     return p.lstrip().startswith('"')
 
 
+def last_narrative_action_owner(p: str) -> str | None:
+    """Infer who owns the last clear action beat in a non-dialogue paragraph."""
+    pattern = re.compile(rf'(?:(?<=^)|(?<=[.!?])\s+)(I|He|She|They|[A-Z][a-z]+)\s+({ACTION})\b', re.M)
+    matches = list(pattern.finditer(p))
+    if not matches:
+        return None
+    return 'GREG' if matches[-1].group(1) == 'I' else 'OTHER'
+
+
 def infer_speakers(paras: list[str]) -> list[tuple[str | None, int | None]]:
-    result = []
+    result: list[tuple[str | None, int | None]] = []
     last_sp: str | None = None
     last_dialogue = False
+    previous_para = ''
     for p in paras:
         has_dialogue = '"' in p
         sp, anchor = explicit_speaker(p) if has_dialogue else (None, None)
-        if has_dialogue and sp is None and begins_dialogue(p) and last_dialogue and last_sp:
-            sp = 'OTHER' if last_sp == 'GREG' else 'GREG'
+
+        if has_dialogue and sp is None and begins_dialogue(p):
+            if last_dialogue and last_sp:
+                # Consecutive untagged dialogue turns normally alternate.
+                sp = 'OTHER' if last_sp == 'GREG' else 'GREG'
+            else:
+                # A fresh untagged exchange is anchored by the immediately preceding
+                # visible action beat. If there is no such anchor, first-person POV
+                # defaults to Greg as the speaker.
+                sp = last_narrative_action_owner(previous_para) or 'GREG'
             anchor = p.find('"')
         elif has_dialogue and sp is not None:
             first_q = p.find('"')
             if first_q >= 0 and (anchor is None or first_q < anchor):
                 anchor = first_q
+
         result.append((sp, anchor))
         if has_dialogue:
             if sp:
@@ -48,6 +67,7 @@ def infer_speakers(paras: list[str]) -> list[tuple[str | None, int | None]]:
             last_dialogue = True
         else:
             last_dialogue = False
+        previous_para = p
     return result
 
 
@@ -149,6 +169,14 @@ def self_test() -> None:
     for raw, sp, anchor, expected in cases:
         got, _ = transform_paragraph(raw, sp, anchor)
         assert got == expected, (raw, got, expected)
+
+    # New dialogue runs inherit the immediately preceding visible action owner.
+    paras = ['The smith looked at me.', '"You buying it?"', '"Yes."']
+    inferred = infer_speakers(paras)
+    assert inferred[1][0] == 'OTHER' and inferred[2][0] == 'GREG', inferred
+    paras = ['I looked at the sack.', '"What is this?"', '"Flour."', '"Doing what?" Rusk pointed at the sack.']
+    inferred = infer_speakers(paras)
+    assert [x[0] for x in inferred[1:]] == ['GREG', 'OTHER', 'GREG'], inferred
 
     raw = 'Antonius looked at me long enough that I said, "What?"'
     anchor = raw.index('I said')
