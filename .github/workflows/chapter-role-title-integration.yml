@@ -6,7 +6,9 @@ on:
       - editor/chapter-title-role-integration
     paths:
       - 'scripts/apply_chapter_role_titles.py'
+      - 'scripts/docx_chapter_heading.py'
       - 'tests/test_chapter_role_title_integration.py'
+      - 'tests/test_docx_chapter_heading.py'
       - '.github/workflows/chapter-role-title-integration.yml'
   workflow_dispatch:
 
@@ -31,7 +33,9 @@ jobs:
       - name: Install DOCX dependency
         run: pip install python-docx
       - name: Test title integration tool
-        run: python -m unittest tests.test_chapter_role_title_integration -v
+        run: |
+          python -m unittest tests.test_chapter_role_title_integration -v
+          python -m unittest tests.test_docx_chapter_heading -v
       - name: Fetch approved audit authority
         run: git fetch origin editor/chapter-title-role-audit-batch-001:refs/remotes/origin/editor/chapter-title-role-audit-batch-001
       - name: Repair missing Chapter 51 canonical title
@@ -54,6 +58,22 @@ jobs:
               break
           else:
               raise SystemExit('Could not find CHAPTER FIFTY-ONE in Book I authority')
+          PY
+      - name: Use hundred-safe DOCX chapter parser
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('scripts/apply_chapter_role_titles.py')
+          text = path.read_text(encoding='utf-8')
+          old = '''def _docx_number(text: str) -> int | None:\n    from scripts.promote_book1_polish import _number_from_heading\n\n    return _number_from_heading(text)\n'''
+          new = '''def _docx_number(text: str) -> int | None:\n    from scripts.docx_chapter_heading import number_from_heading\n\n    return number_from_heading(text)\n'''
+          if old in text:
+              path.write_text(text.replace(old, new, 1), encoding='utf-8')
+              print('Patched title integration to hundred-safe DOCX parser')
+          elif new in text:
+              print('Hundred-safe DOCX parser already wired')
+          else:
+              raise SystemExit('Could not locate _docx_number implementation to patch safely')
           PY
       - name: Apply approved role titles
         run: PYTHONPATH=. python scripts/apply_chapter_role_titles.py --apply
@@ -88,6 +108,6 @@ jobs:
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add state/manuscript state/MANUSCRIPT_CHAPTER_INDEX.md state/CHAPTER_TITLE_ROLE_AUDIT.md state/chapter-title-role-audit chapters light index.html light.html latest.html exports/notebooklm
+          git add scripts/apply_chapter_role_titles.py scripts/docx_chapter_heading.py tests/test_chapter_role_title_integration.py tests/test_docx_chapter_heading.py .github/workflows/chapter-role-title-integration.yml state/manuscript state/MANUSCRIPT_CHAPTER_INDEX.md state/CHAPTER_TITLE_ROLE_AUDIT.md state/chapter-title-role-audit chapters light index.html light.html latest.html exports/notebooklm
           git commit -m 'Normalize chapter titles to Greg roles'
           git push origin HEAD:editor/chapter-title-role-integration
