@@ -1,6 +1,13 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import html
+import re
+
+ARTICLE_RE = re.compile(r'(<article\s+class="prose"[^>]*>)(.*?)(</article>)', re.S | re.I)
+P_RE = re.compile(r'<p\b[^>]*>.*?</p>', re.S | re.I)
+TAG_RE = re.compile(r'<[^>]+>')
+
 
 def next_visible_chapters(
     manifest: dict,
@@ -24,3 +31,114 @@ def next_visible_chapters(
             break
 
     return selected
+
+
+def _nonempty_text(value: object) -> bool:
+    return isinstance(value, str) and bool(value.strip())
+
+
+def validate_record(record: dict) -> None:
+    chapter = record.get("chapter")
+    if not isinstance(chapter, int) or chapter < 1:
+        raise ValueError("chapter must be a positive integer")
+
+    verdict = record.get("verdict")
+    if verdict not in {"source_win", "change_survives"}:
+        raise ValueError("verdict must be source_win or change_survives")
+
+    screen = record.get("screen")
+    if not isinstance(screen, dict):
+        raise ValueError("screen is required")
+    if screen.get("decision") not in {"source_win", "deep_review"}:
+        raise ValueError("screen decision must be source_win or deep_review")
+    if not isinstance(screen.get("signals"), list):
+        raise ValueError("screen signals must be a list")
+    if not _nonempty_text(screen.get("reason")):
+        raise ValueError("screen reason is required")
+
+    if verdict == "source_win":
+        if screen.get("decision") != "source_win":
+            raise ValueError("source_win verdict requires source_win screen decision")
+        return
+
+    if screen.get("decision") != "deep_review":
+        raise ValueError("change_survives verdict requires deep_review screen decision")
+
+    for field in ("dramatic", "performance", "screenplay", "comparison"):
+        if not _nonempty_text(record.get(field)):
+            raise ValueError(f"{field} is required for a surviving change")
+
+    patches = record.get("patches")
+    if not isinstance(patches, list) or not patches:
+        raise ValueError("patches are required for a surviving change")
+
+    for index, patch in enumerate(patches):
+        if not isinstance(patch, dict):
+            raise ValueError(f"patch {index} must be an object")
+        for field in ("start", "end", "rationale"):
+            if not _nonempty_text(patch.get(field)):
+                raise ValueError(f"patch {index} {field} is required")
+        replacement = patch.get("replacement")
+        if not isinstance(replacement, list) or not replacement or not all(
+            _nonempty_text(line) for line in replacement
+        ):
+            raise ValueError(f"patch {index} replacement must contain prose paragraphs")
+        if any("—" in line for line in replacement):
+            raise ValueError(f"patch {index} replacement contains an em dash")
+
+
+def _plain(paragraph_html: str) -> str:
+    text = html.unescape(TAG_RE.sub("", paragraph_html)).replace("\xa0", " ")
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def _render_paragraph(text: str) -> str:
+    if "—" in text:
+        raise ValueError("replacement contains an em dash")
+    return f"<p>{html.escape(text, quote=True)}</p>"
+
+
+def _replace_paragraph_span(page: str, patch: dict) -> str:
+    article = ARTICLE_RE.search(page)
+    if not article:
+        raise ValueError("missing article.prose")
+
+    body = article.group(2)
+    paragraphs = list(P_RE.finditer(body))
+    plain = [_plain(match.group(0)) for match in paragraphs]
+    start = re.sub(r"\s+", " ", patch["start"]).strip()
+    end = re.sub(r"\s+", " ", patch["end"]).strip()
+
+    starts = [index for index, value in enumerate(plain) if value == start]
+    if len(starts) != 1:
+        raise ValueError(f"start boundary matched {len(starts)} times: {patch['start']!r}")
+    start_index = starts[0]
+
+    ends = [
+        index
+        for index, value in enumerate(plain)
+        if index >= start_index and value == end
+    ]
+    if len(ends) != 1:
+        raise ValueError(f"end boundary matched {len(ends)} times after start: {patch['end']!r}")
+    end_index = ends[0]
+
+    rendered = "".join(_render_paragraph(text) for text in patch["replacement"])
+    body = (
+        body[: paragraphs[start_index].start()]
+        + rendered
+        + body[paragraphs[end_index].end() :]
+    )
+    return page[: article.start(2)] + body + page[article.end(2) :]
+
+
+def apply_record(page: str, record: dict) -> str:
+    """Apply one validated survivor record, failing closed on drift or ambiguity."""
+    validate_record(record)
+    if record["verdict"] == "source_win":
+        return page
+
+    updated = page
+    for patch in record["patches"]:
+        updated = _replace_paragraph_span(updated, patch)
+    return updated
