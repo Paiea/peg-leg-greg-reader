@@ -8,6 +8,7 @@ sys.path.insert(0, str(Path(__file__).parents[1] / 'scripts'))
 from build_notebooklm_export import (
     build_readable_chunks,
     html_chapter_to_readable,
+    join_exact_ranges,
     validate_readable_chunks,
 )
 
@@ -49,6 +50,13 @@ class ManuscriptReadableTests(unittest.TestCase):
         self.assertIn('First line.\n\nSecond line.\nThird line.\n', readable)
         self.assertNotIn('CHAPTER 73', readable)
         self.assertNotIn('art words', readable)
+
+    def test_exact_ranges_join_without_cross_file_boundary_lookup(self):
+        recovered = 'CHAPTER 156\nA\n\nOne.\n\nCHAPTER 157\nB\n\nTwo.\n'
+        running = 'CHAPTER 158\nC\n\nThree.\n\nCHAPTER 159\nD\n\nFour.\n'
+        joined = join_exact_ranges([recovered, running])
+        self.assertEqual(list(joined), [156, 157, 158, 159])
+        self.assertEqual(joined[157], 'CHAPTER 157\nB\n\nTwo.\n')
 
 
 if __name__ == '__main__':
