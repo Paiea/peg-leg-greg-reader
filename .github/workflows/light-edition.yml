@@ -39,7 +39,6 @@ on:
       - 'scripts/update_home_contents.py'
       - 'scripts/verify_light.py'
       - 'scripts/verify_reader_frontier.py'
-      - 'scripts/apply_dialogue_variance.py'
       - 'scripts/update_reader_navigation.py'
       - 'scripts/update_reader_presentation.py'
       - 'scripts/illustration_state.py'
@@ -104,8 +103,6 @@ jobs:
         run: python scripts/update_home_contents.py
       - name: Test reader tooling
         run: python -m unittest discover -s tests -p 'test_*.py'
-      - name: Apply completed dialogue variance
-        run: python scripts/apply_dialogue_variance.py
       - name: Process illustration production state
         run: |
           python scripts/import_legacy_illustrations.py
@@ -160,7 +157,6 @@ jobs:
           python scripts/verify_light.py 156-219
           python scripts/verify_light.py current
           python scripts/verify_reader_frontier.py
-          python scripts/apply_dialogue_variance.py --check
           test -f light/156.html
           test -f light/219.html
           test -f light/220.html
@@ -168,6 +164,7 @@ jobs:
           test -f light/manifest.json
           test -f latest.html
           test -f chapters/321.html
+          test -f assets/book-role-cards/book-v-investor-446-q80.webp
           test -f state/visual/SCENE_CANDIDATES.json
           test -f state/visual/ILLUSTRATION_REGISTRY.json
           test -f state/visual/ILLUSTRATION_APPROVALS.json
@@ -204,21 +201,28 @@ jobs:
           grep -q 'BOOK II' index.html
           grep -q 'BOOK III' index.html
           grep -q 'BOOK IV' index.html
+          grep -q 'BOOK V' index.html
           grep -q 'THE SECOND LIFE' index.html
           grep -q 'THE STAGE DOOR' index.html
           grep -q 'THE COMPANY ROAD' index.html
           grep -q 'THE WORKING COMPANY' index.html
           grep -q 'THE PRICE OF ATTENTION' index.html
           grep -q 'BEYOND THE DOOR' index.html
+          grep -q 'THE FARTHER ROAD' index.html
+          grep -q 'THE LONGER REACH' index.html
+          grep -q 'book-v-investor-446-q80.webp' index.html
           grep -q 'assets/book-contents.css' index.html
           grep -q 'BOOK I' light/index.html
           grep -q 'BOOK II' light/index.html
           grep -q 'BOOK III' light/index.html
           grep -q 'BOOK IV' light/index.html
+          grep -q 'BOOK V' light/index.html
           grep -q 'THE STAGE DOOR' light/index.html
           grep -q 'THE WORKING COMPANY' light/index.html
           grep -q 'THE PRICE OF ATTENTION' light/index.html
           grep -q 'BEYOND THE DOOR' light/index.html
+          grep -q 'THE FARTHER ROAD' light/index.html
+          grep -q 'THE LONGER REACH' light/index.html
           grep -q '../assets/book-contents.css' light/index.html
           grep -q 'Text Reader' light/index.html
           grep -q 'Illustrated Reader' light/index.html

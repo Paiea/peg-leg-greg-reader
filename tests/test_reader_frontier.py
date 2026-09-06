@@ -6,6 +6,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parents[1] / 'scripts'))
 
+from reader_sections import book_and_act_for_chapter
 from verify_reader_frontier import discover_published_chapters, verify_reader_frontier
 
 
@@ -76,12 +77,16 @@ class ReaderFrontierTests(unittest.TestCase):
             f'{text_mode_link}',
             encoding='utf-8',
         )
+        current_book, current_act = book_and_act_for_chapter(latest)
+        book_range = current_book.range_label(latest)
+        act_range = f'{current_act.numeral} · {current_act.range_label(latest)}'
+        structure_text = f'{current_book.numeral} {book_range} {act_range} {current_act.title}'
         (root / 'index.html').write_text(
-            f'BOOK IV Chapters 321–{latest} ACT II · Chapters 331–{latest} href="chapters/{latest:03d}.html"',
+            f'{structure_text} href="chapters/{latest:03d}.html"',
             encoding='utf-8',
         )
         (root / 'light' / 'index.html').write_text(
-            f'BOOK IV Chapters 321–{latest} ACT II · Chapters 331–{latest} href="{latest:03d}.html">Read newest · Chapter {latest}',
+            f'{structure_text} href="{latest:03d}.html">Read newest · Chapter {latest}',
             encoding='utf-8',
         )
         latest_target = latest if latest_landing_ok else previous
@@ -136,6 +141,12 @@ class ReaderFrontierTests(unittest.TestCase):
             root = Path(tmp)
             self.write_frontier(root)
             self.assertEqual(verify_reader_frontier(root), 352)
+
+    def test_public_indexes_follow_book_v_frontier(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.write_frontier(root, latest=476, illustrated_title='THE BIDDER', text_title='THE BIDDER')
+            self.assertEqual(verify_reader_frontier(root, expected_title='THE BIDDER'), 476)
 
     def test_rejects_latest_illustrated_title_mismatch_with_authority(self):
         with tempfile.TemporaryDirectory() as tmp:
