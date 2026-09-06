@@ -1,0 +1,28 @@
+{
+  "manuscript": {
+    "ref": "35055180a116cf7a0dfd4a1fa94704c2c5b0bd40",
+    "files": {
+      "chapters/002.html": "0db288df4459bae2da3edd8a169602799abba94d",
+      "chapters/007.html": "70f79b2b11940cbadeb970c1e8cf39c7294fdb66",
+      "chapters/013.html": "181a2b52326c3b190aa5ae6f9ee8967e4d206715",
+      "chapters/016.html": "819ce699336e89cb69efe19094b7bf52bfec4d3a",
+      "chapters/018.html": "30538e320c31db744212e4c22922b0f0fe860975"
+    }
+  },
+  "performance_authority": {
+    "ref": "53bdca55a71f4d04be35580a238fd2fe985567a7",
+    "files": {
+      "state/DIALOGUE_VARIANCE_ENGINE.md": "03b22f5376538de2998f5f97610f99cb0f79cbb1",
+      "state/DIALOGUE_VARIANCE_PERFORMANCE_LAYER.md": "363d244718f64511d43a43ae0e26226f8a7f6029",
+      "state/voices/EARLY_BOOK_I_PERFORMANCE_MATRIX.md": "319f8887eb46d8dfc3bf1dbf223480cfa1d24286",
+      "state/voices/GREG.md": "81cf04a3bdb0514872590abe7d6136e4c951c19f",
+      "state/voices/ANTONIUS.md": "1a4b49660cd8c96e38704c2c0f2f08e4db6d9f07",
+      "state/voices/ARLO.md": "d2e7624590b74f3c92122df737d94e973e3371b9",
+      "state/voices/JORREN.md": "2b14c0506f5b459b08a409fa85a3116340097453",
+      "state/voices/ALDEN.md": "a0a5968584490db6708b1bd48bce1b319da31e99",
+      "state/voices/HESSA.md": "5b16bbcdedd076218cde25d9d37bc611047d6e26",
+      "state/editorial/dialogue-variance-pass/EXCHANGE_RHYTHM_GATE.md": "f00d439c1e5218318efcff5a8614ec7c758f22bc",
+      "state/editorial/dialogue-variance-pass/PERFORMANCE_CALIBRATION_VISIBLE_001_020.md": "3bf17896ebcf9cb3116b63967fdd7142aa2d712b"
+    }
+  }
+}
