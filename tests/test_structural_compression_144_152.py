@@ -3,6 +3,7 @@ import unittest
 from scripts.apply_structural_compression_144_152 import (
     apply_transformations,
     replace_between,
+    replace_paragraph_range,
 )
 
 # This focused suite is also the execution trigger for the first compression wave.
@@ -20,12 +21,39 @@ class StructuralCompressionHelpersTest(unittest.TestCase):
         with self.assertRaises(ValueError):
             replace_between("nothing here", "START", "END", "NEW")
 
+    def test_replace_paragraph_range_uses_unique_cues_not_full_paragraph_bytes(self):
+        text = (
+            '<article class="prose">'
+            '<p>Before.</p>'
+            '<p>Start cue. Extra wording that may drift.</p>'
+            '<figure>art may disappear</figure>'
+            '<p>Middle material.</p>'
+            '<p>More drift. End cue.</p>'
+            '<p>After.</p>'
+            '</article>'
+        )
+        self.assertEqual(
+            replace_paragraph_range(text, "Start cue.", "End cue.", "<p>Compressed.</p>"),
+            '<article class="prose"><p>Before.</p><p>Compressed.</p><p>After.</p></article>',
+        )
+        with self.assertRaises(ValueError):
+            replace_paragraph_range(
+                '<p>Start cue.</p><p>Start cue. Again.</p><p>End cue.</p>',
+                "Start cue.",
+                "End cue.",
+                "X",
+            )
+
     def test_wave_one_is_idempotent_and_skips_legacy_150(self):
         docs = {
             149: (
                 '<a rel="next" href="150.html">Chapter 150</a>'
                 '<article class="prose"><p>We went opposite directions. That felt appropriate. OLD</p>'
-                '<p>I went to the wing. The house had grown. Maybe forty now. People entered without ceremony. Some paid something at the front. Some apparently did not. A woman came in, saw someone she knew, crossed two rows to sit beside her, and immediately began talking. This was not an audience. It was a town temporarily facing the same direction. Teren stood in the center aisle.</p>'
+                '<p>I went to the wing. The house had grown. Maybe forty now. People entered without ceremony. '
+                'Some paid something at the front. Some apparently did not. A woman came in, saw someone she knew, '
+                'crossed two rows to sit beside her, and immediately began talking. This was not an audience. '
+                'It was a town temporarily facing the same direction. Teren stood in the center aisle.</p>'
+                '<p>"Start with the road scene."</p>'
                 '</article>'
             ),
             150: '<article class="prose"><p>River House had six rooms</p></article>',
