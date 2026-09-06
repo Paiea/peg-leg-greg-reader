@@ -110,6 +110,9 @@
     "419": {"showcase": false, "reason": "bridge_not_needed"},
     "430": {"showcase": false, "reason": "bridge_not_needed"},
     "437": {"showcase": false, "reason": "bridge_not_needed"},
-    "442": {"showcase": false, "reason": "bridge_not_needed"}
+    "442": {"showcase": false, "reason": "bridge_not_needed"},
+    "451": {"showcase": false, "reason": "bridge_not_needed"},
+    "455": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
+    "457": {"showcase": false, "reason": "superseded_by_stronger_chapter"}
   }
 }
