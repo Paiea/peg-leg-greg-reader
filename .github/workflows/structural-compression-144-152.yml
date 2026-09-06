@@ -40,35 +40,39 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           for base in ('chapters', 'light'):
-              p149 = Path(base, '149.html').read_text(encoding='utf-8')
-              p150 = Path(base, '150.html').read_text(encoding='utf-8')
-              p151 = Path(base, '151.html').read_text(encoding='utf-8')
-              p152 = Path(base, '152.html').read_text(encoding='utf-8')
-              assert 'STRUCTURAL-COMPRESSION-144-152:149-BRIDGE' in p149
-              assert 'data-structural-status="merged"' in p150
-              assert 'STRUCTURAL-COMPRESSION-144-152:151-INTRO' in p151
-              assert 'STRUCTURAL-COMPRESSION-144-152:152-RESET' in p152
+              pages = {n: Path(base, f'{n}.html').read_text(encoding='utf-8') for n in range(144, 153)}
+              assert 'STRUCTURAL-COMPRESSION-144-152:144-TIGHTEN' in pages[144]
+              assert 'STRUCTURAL-COMPRESSION-144-152:145-TIGHTEN' in pages[145]
+              assert 'STRUCTURAL-COMPRESSION-144-152:146-TIGHTEN' in pages[146]
+              assert 'STRUCTURAL-COMPRESSION-144-152:147-TIGHTEN' in pages[147]
+              assert 'LIAR' in pages[146] and 'WHICH ONE?' in pages[146]
+              assert 'waiting for ghosts' in pages[147]
+              assert 'STRUCTURAL-COMPRESSION-144-152:149-BRIDGE' in pages[149]
+              assert 'data-structural-status="merged"' in pages[150]
+              assert 'STRUCTURAL-COMPRESSION-144-152:151-INTRO' in pages[151]
+              assert 'STRUCTURAL-COMPRESSION-144-152:152-RESET' in pages[152]
               if base == 'light':
-                  assert 'rel="next" href="151.html"' in p149
-                  assert 'rel="prev" href="149.html"' in p151
+                  assert 'rel="next" href="151.html"' in pages[149]
+                  assert 'rel="prev" href="149.html"' in pages[151]
           ch153 = Path('chapters/153.html').read_text(encoding='utf-8')
           ch154 = Path('chapters/154.html').read_text(encoding='utf-8')
           assert 'Roof' in ch153
           assert 'Lucan Drell' in ch154
           assert 'Between shows' in ch154 or 'between shows' in ch154 or 'Twice' in ch154
           PY
+          git diff --quiet -- chapters/148.html light/148.html
           git diff --check
       - name: Commit edited range
         run: |
-          TRACKED='chapters/149.html chapters/150.html chapters/151.html chapters/152.html light/149.html light/150.html light/151.html light/152.html state/compression-batches/144-152-wave1.json'
+          TRACKED='chapters/144.html chapters/145.html chapters/146.html chapters/147.html chapters/148.html chapters/149.html chapters/150.html chapters/151.html chapters/152.html light/144.html light/145.html light/146.html light/147.html light/148.html light/149.html light/150.html light/151.html light/152.html state/compression-batches/144-152-wave1.json'
           if [ -z "$(git status --porcelain -- $TRACKED)" ]; then
-            echo 'Structural compression wave already applied.'
+            echo 'Structural compression batch already applied.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add $TRACKED
-          git commit -m 'Compress first tour performance sequence'
+          git commit -m 'Compress chapters 144 through 152'
           for attempt in 1 2 3; do
             git fetch origin editor/voice-compression-pass
             if ! git rebase origin/editor/voice-compression-pass; then
