@@ -3,258 +3,132 @@
 This file records the author-approved shift from reactive accumulation toward deliberate rebuilding.
 
 ## Core turn
-
 Greg has spent a long stretch surviving, working, adapting, traveling, learning, and letting useful opportunities pull him forward. That remains part of his personality and the book's lived-in texture, but it is no longer enough by itself.
 
-He has now experienced enough distance, danger, money pressure, body limitation, artifact exposure, and social conflict to recognize a harder truth:
+He does not want to remain weak, broke, under-equipped, and dependent on whatever opportunity happens to be nearby.
 
-**he does not want to remain weak, broke, under-equipped, and dependent on whatever opportunity happens to be nearby.**
+He once became an S-class, god-tier support specialist. That history should exert forward pressure again.
 
-He once became an S-class, god-tier support specialist. That history should begin exerting forward pressure again.
-
-This is NOT an instant power-up mandate.
-It IS a planning mandate.
-
-Greg begins intentionally rebuilding his support capacity in this life.
+This is not an instant power-up mandate. It is a planning and leverage mandate.
 
 ## Highest-leverage focus
-
 The six audits are not six equal priorities.
 
-Greg should periodically ask:
+Greg periodically asks:
 
 **Which single bottleneck, if improved now, creates the most options across the other lanes?**
 
-Then he should deliberately concentrate there for a meaningful stretch rather than trying to optimize body, magic, money, tools, information, and people equally every chapter.
+Then he concentrates there for a meaningful stretch.
 
-The chosen leverage point can change as circumstances change.
+Current focus remains **EARNING POWER / CAPITAL**, but Ch472 materially refines the method.
 
-Examples:
-- money / earning power can unlock mobility, artifacts, travel, paid expertise, training time, reserves, and opportunity capture;
-- one exceptional relationship or old-life reunion could unlock knowledge, trust, access, money, power, or institutional leverage at once;
-- finishing the work limb could dramatically alter mobility, hands, work categories, combat/support options, and earning ceiling;
-- a reliable support-magic technique could change what work/adventure roles Greg can safely fill;
-- one system-changing artifact could reshape several capacities at once;
-- a reputation breakthrough could make higher-value work and better contacts self-reinforcing.
+### Ch472 correction: earning power is not wage progression
+Greg recognizes that moving from 2c labor to 5c, 7c, or 8c day contracts is healthy progression but still fundamentally selling time.
 
-Do not force a supposedly optimal lane when Greg lacks a credible way to act on it. A hypothetical reunion with someone from his old life may have enormous leverage, but Greg cannot build a serious plan around a convenient coincidence. He may remain alert to those opportunities while choosing a more controllable current bottleneck.
+His earlier-life economy and artifact experience included silver-scale and even claimed gold-scale value. The exact truth/value of old claims remains governed by manuscript authority, but Greg should not psychologically treat silver as mythical merely because recent road life has been copper-heavy.
 
-At the current Lakeward edge after Ch470, the author-approved near-term leverage focus is:
+The next economic tier is:
 
-**EARNING POWER / CAPITAL.**
+**THINK IN SILVER.**
 
-Reason:
-- Greg is sitting on only a 10c survival reserve;
-- the work-limb balance is still large;
-- artifact opportunities can appear and disappear before he can act;
-- better travel, paid specialists, training time, equipment, lodging, and information all consume money;
-- his recent experience shows that he can create more value than 1-3c day labor, but the market does not yet reliably pay him for it;
-- increasing earning ceiling is more useful than merely increasing hours worked.
+This does not mean instantly possessing silver or refusing copper. It means seeking situations where the total value being moved, protected, coordinated, sourced, or traded is silver-scale, even if Greg's first commission/cut remains copper.
 
-Near-term objective is therefore not `earn 30c by any means.`
+Near-term economic leverage should increasingly favor:
+- brokerage;
+- commissions;
+- arbitrage / market mismatch;
+- sourcing;
+- introductions;
+- information advantages;
+- ownership/resale once capital can survive risk;
+- organizing/managing people where coordination creates value;
+- higher-value specialist judgment;
+- reputation that creates deal flow.
 
-It is:
+Day labor and bounded field contracts remain valid when they buy survival, references, route access, information, or a bridge into higher leverage. They should not become the permanent ceiling.
 
-**turn existing real accomplishments into proof, references, reputation, and work categories that pay materially more.**
+## Arbitrage fit
+Arbitrage is unusually compatible with Greg's old support mind.
 
-The 30c liquid target remains a first capital milestone, not the deeper goal.
+Support already trained him to notice mismatches:
+- one person has a resource another needs;
+- one market values provenance while another values function;
+- one specialist has information another lacks;
+- one place has surplus while another has scarcity;
+- one artifact is weak alone but valuable in a system;
+- timing, transport, trust, information, and coordination can create spreads.
 
-Once earning power stops being the clearest bottleneck, Greg should reassess rather than worship money forever.
+Greg does not become omniscient merchant genius. He should be wrong sometimes, ask specifications, learn transport costs, encounter competition, discover hidden quality constraints, and sometimes walk away.
+
+Deep bargains still require real information gaps. Obvious value is priced in.
+
+## People as leverage
+Greg is probably better at managing capable people than he initially gives himself credit for.
+
+His old S-class support role required coordination of specialists, resource allocation, timing, positioning, communication, contingency, and knowing when to let stronger specialists do their jobs.
+
+That does not automatically make him a modern business manager or guild boss. But he should stop dismissing organizer, broker, coordinator, expedition-support, crew-management, and network-building roles as outside his competence.
+
+People are not RPG units or resources. Management works only with consent, incentives, trust, scope, and reciprocal value.
+
+A strong future Greg may create more value by arranging five competent people correctly than by personally doing five jobs.
 
 ## What support means
-
 Do not reduce support to healing or buffs.
 
-At Greg's highest level, support meant making the whole situation unfair in his side's favor through combinations of:
+At Greg's highest level, support meant making the whole situation unfair in his side's favor through information, positioning, timing, resource allocation, tools, preparation, coordination, protection, reducing failure modes, creating options, improving specialists, and knowing when not to interfere.
 
-- information and early warning;
-- positioning and movement;
-- battlefield / worksite control;
-- route and retreat planning;
-- timing;
-- resource allocation;
-- tools and artifacts;
-- environmental use;
-- preparation;
-- coordination;
-- protection;
-- reducing other people's failure modes;
-- creating options before crisis;
-- making stronger specialists able to do their jobs better;
-- knowing when not to interfere.
+His current body and magic are far below his old peak, but the support mindset can return first.
 
-His current body and magic are far below his old peak, but the underlying support mindset can return before the raw power does.
+## Six capacities
+### BODY
+Finish the fitted work-limb arc; rebuild conditioning; treat mobility/hands as option multipliers; preserve disability reality.
 
-## The six audits
+### MAGIC
+Move from occasional effects toward reliable support-useful interruption, deflection, stabilization, positioning, signaling, concealment, and time creation. Hessa/specialists still own safety/evidence where appropriate.
 
-Greg should periodically reassess six capacities. These are not chapter quotas. They are a durable strategic lens.
+### MONEY
+Stop treating endless 1–3c jobs as satisfying progression by themselves. Build capital and earning leverage. The 10c floor is survival, not success. The 30c liquid target remains a first reserve milestone, but silver-scale thinking now outranks merely grinding to 30c.
 
-### 1. BODY
-Questions:
-- What can the current body actually do now?
-- What still consumes both hands because of crutches?
-- What does the trial work limb change?
-- Where are endurance, shoulder, balance, carry, standing, climbing, and recovery limiting him?
-- What training can improve without pretending the amputation disappears?
+### TOOLS / ARTIFACTS
+Build an idiosyncratic support kit. Buy capability, not merely history. Major acquisitions require capital, information advantage, work, or sacrifice.
 
-Direction:
-- finish the fitted work-limb arc;
-- deliberately rebuild conditioning and movement competence;
-- make three-body-arrangement thinking explicit: old two-leg body, current crutch baseline, future fitted-limb + crutch hybrid;
-- mobility gains should unlock options, not erase disability.
+### INFORMATION
+Treat routes, markets, archives, prices, specifications, specialists, letters, and field notes as compounding support infrastructure.
 
-### 2. MAGIC
-Current protocol counts remain authoritative.
-
-Questions:
-- What can Greg reliably do rather than occasionally do?
-- Which effects have practical support value before combat power?
-- Can old S-class training logic improve learning rate without skipping evidence?
-- Which abilities would protect, reposition, interrupt, stabilize, signal, conceal, or create time?
-
-Direction:
-- Greg should begin choosing some training goals instead of only accepting whatever test comes next;
-- Hessa/specialists still own safety and evidence where appropriate;
-- emergency competence can reveal direction, but must not become instant generalized mastery;
-- support usefulness may emerge before large raw output.
-
-### 3. MONEY
-Greg does not like living at subsistence / near-poverty levels.
-
-Questions:
-- What is his current liquidity?
-- What is protected for the work limb?
-- What is his earning ceiling right now?
-- Which kinds of work pay materially better because of his unusual judgment, field reliability, route competence, artifact knowledge, theatre craft, or support skill?
-- What capital level would let him buy rare opportunities rather than merely admire them?
-
-Direction:
-- preserve ordinary economic realism;
-- stop treating endless 1–3c jobs as satisfying progression by themselves;
-- Greg should actively seek higher-value work, contracts, arbitrage/information advantages, artifact opportunities, and relationships that increase earning capacity;
-- money equals optionality, equipment, travel, training, reserves, and ability to act on rare finds;
-- the 10c floor can eventually be replaced by a more ambitious reserve structure rather than remaining permanent poverty psychology.
-
-### 4. TOOLS / ARTIFACTS
-Questions:
-- What does Greg already own?
-- Which items are dead weight, niche, complementary, or potentially system-changing?
-- What capability gaps could an artifact close?
-- Which object would change operating rules rather than add a small stat?
-
-Direction:
-- build an idiosyncratic support kit over time;
-- seek interactions among old and new items;
-- favor tools for timing, route confirmation, information, concealment, stabilization, positioning, signaling, environmental leverage, and contingency;
-- keep market pricing rational;
-- major acquisitions should often require capital, work, information advantage, or sacrifice.
-
-### 5. INFORMATION
-Questions:
-- What does Greg know?
-- What does he only suspect?
-- Which specialists, archives, markets, roads, institutions, and local stories give him leverage?
-- Where does he lack maps, contacts, historical records, training texts, or current measurements?
-
-Direction:
-- treat information networks as support infrastructure;
-- archives, route knowledge, reputation, field notes, letters, and specialists should become compounding assets;
-- Greg's evidence discipline remains a strength, but he must also learn when decisions cannot wait for perfect evidence.
-
-### 6. PEOPLE / SUPPORT NETWORK
-Greg should explicitly audit who is actually around him and what each relationship can and cannot provide.
-
-Do not turn friends into RPG party slots.
-
-Questions:
-- Who trusts Greg?
-- Who will answer a letter?
-- Who has expertise he lacks?
-- Who can offer work, lodging, information, introductions, equipment, medical/fitting help, magic supervision, commercial access, theatre access, or honest disagreement?
-- Who expects something from Greg in return?
-- Which relationships are deep, which are situational, and which exist only because he happened to pass through?
-
-Direction:
-- rebuild support socially as well as magically;
-- Greg should become better at maintaining a network while traveling instead of treating every town as disposable;
-- letters, favors, referrals, reputation, paid expertise, recurring specialists, and reciprocal obligations should compound;
-- avoid generic permanent adventuring party unless earned;
-- the strongest network should feel like many distinct relationships, not followers.
+### PEOPLE / NETWORK
+Maintain distinct reciprocal relationships. Learn who can answer what, introduce whom, verify which work, offer what expertise, and expect what in return. Build constellation, not entourage.
 
 ## Strategic posture
-
-Greg should increasingly ask:
+Greg increasingly asks:
 
 **What am I building toward?**
 
-and, when several plausible routes exist:
+**Which move has the highest leverage right now?**
 
-**Which one has the highest leverage right now?**
+**Am I selling my time when I could be selling judgment, connection, coordination, risk, or ownership?**
 
-Not every chapter needs a plan scene. But future choices should increasingly reflect his answer.
+He can still go with the flow. He now has filters.
 
-He can still go with the flow when life produces something interesting.
-The difference is that he now has filters.
+## Current near-term direction after Ch472
+- Leverage focus: **earning power/capital**.
+- Method: shift from wage ladder toward **brokerage/arbitrage/coordination**.
+- First live arbitrage lead: Lakeward buyer seeks six matched dry reed-glass bundles for lamp-house shutters, with commission for a qualifying introduction and better fee if landed price beats current north-shore quote materially.
+- Possible inland source lead: old **East Fen Glassyard** near/east of **Cinder Cross**, current status unknown.
+- Secondary Cinder Cross lead: tool house seeks retired route hardware without paying unsupported Sunroad folklore premium.
+- Greg should seek a way east that does more than consume 5c fare: work passage, shared transport, route task, commission-linked travel, or another legitimate multi-purpose move.
+- A private seasonal-field-crew organizer notice also makes Greg reconsider his own management ability. Do not force this exact job, but preserve management/coordination as a serious leverage lane.
+- Do not turn Greg instantly into a rich trader. First prove he can source, connect, negotiate, or coordinate one meaningful deal.
+- Once he has capital, ownership/resale risk can increase.
 
-A useful opportunity should be judged partly by whether it improves:
+## Tone
+Greg's realization should not invalidate the copper years. The copper slog kept him alive, taught him the world, built routes, proof, relationships, and judgment. The correction is that he had begun treating a healthy rebuilding phase as a permanent economic identity.
 
-- mobility;
-- reliable magic;
-- earning power;
-- capital;
-- tool/artifact capability;
-- information access;
-- network strength;
-- reputation;
-- survival margin;
-- future options.
+Controlled ambition:
 
-## Near-term priorities
-
-At the current Lakeward edge, the leverage focus is **earning power / capital**, with supporting subgoals:
-
-1. convert Mirror Spring completion and Sunroad hazard reporting into verifiable field references;
-2. use those references to unlock a higher-paying work category rather than merely taking more low-value day labor;
-3. build toward the 30c liquid milestone while protecting the 10c survival reserve;
-4. finish the work-limb funding path because mobility/hands are a major next multiplier;
-5. keep Three Rays / artifacts subordinate to capability and capital rather than collecting for its own sake;
-6. wait for Hessa/Hark & Venn/Sori replies rather than inventing instant answers;
-7. remain alert for genuinely higher-leverage opportunities, including old-life people or rare artifacts, without depending on coincidence.
-
-## Tone / characterization
-
-Greg's dissatisfaction should be real.
-
-He can admit:
-- being broke is getting old;
-- being physically limited is frustrating;
-- knowing what S-class competence felt like makes current weakness harder to tolerate;
-- survival and adaptation are accomplishments, but he does not want adaptation to become permanent surrender of ambition.
-
-Do not turn this into self-pity or macho denial of disability.
-
-The strongest version is controlled ambition:
-
-**I know how far away I am. I also know I have climbed farther before. Start building.**
+**I proved I can survive on copper. I do not need to prove it forever.**
 
 ## Progression pacing
+The rebuild should compound over books/acts through body use, fitted limb, reliable support magic, better tools, larger reserves, silver-scale transactions, stronger market access, reputation, network depth, management/coordination, and eventually scenes where other capable people are substantially better because Greg is present.
 
-The rebuild should become visible over books/acts through compounding gains:
-
-- better body use;
-- fitted limb;
-- stronger conditioning;
-- more reliable support magic;
-- better tools;
-- an increasingly coherent artifact kit;
-- higher-paying work;
-- larger reserves;
-- better market access;
-- stronger reputation;
-- richer information network;
-- more people who know what Greg is good for;
-- eventually, moments where other capable people are substantially better because Greg is present.
-
-The end goal is not `Greg gets his old character sheet back.`
-
-The end goal is Greg becoming a formidable support specialist again in a way shaped by this life, this body, these relationships, these tools, and everything he learned after the reset.
+The end goal is not Greg getting his old character sheet back. It is Greg becoming formidable again in a way shaped by this life.
