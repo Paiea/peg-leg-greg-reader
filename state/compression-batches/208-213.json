@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "batch": "208-213",
+  "status": "applied",
+  "strength": "aggressive-on-repetition",
+  "stable_id_actions": {
+    "plg-ch-000208": {
+      "status": "active",
+      "action": "tightened_threat_aftermath"
+    },
+    "plg-ch-000209": {
+      "status": "active",
+      "action": "tightened_bren_rumor_and_bounds"
+    },
+    "plg-ch-000210": {
+      "status": "active",
+      "action": "preserved_pin_discovery_tightened_post_repair_logistics"
+    },
+    "plg-ch-000211": {
+      "status": "active",
+      "action": "preserved_talla_corroboration_tightened_unknowns"
+    },
+    "plg-ch-000212": {
+      "status": "merged",
+      "surviving_beats": [
+        "plg-ch-000213"
+      ],
+      "legacy_path": "212.html",
+      "display_renumbering": "deferred"
+    },
+    "plg-ch-000213": {
+      "status": "active",
+      "action": "absorbed_vale_setup_tightened_accounting_procedure"
+    }
+  },
+  "illustration_policy": "advisory_hold; story structure outranks art anchors",
+  "stats": {
+    "chapters/208.html": {
+      "before_words": 2844,
+      "after_words": 2389,
+      "delta_words": -455
+    },
+    "chapters/209.html": {
+      "before_words": 2699,
+      "after_words": 2481,
+      "delta_words": -218
+    },
+    "chapters/210.html": {
+      "before_words": 2633,
+      "after_words": 2296,
+      "delta_words": -337
+    },
+    "chapters/211.html": {
+      "before_words": 2535,
+      "after_words": 2490,
+      "delta_words": -45
+    },
+    "chapters/212.html": {
+      "before_words": 2547,
+      "after_words": 18,
+      "delta_words": -2529
+    },
+    "chapters/213.html": {
+      "before_words": 2940,
+      "after_words": 2437,
+      "delta_words": -503
+    },
+    "light/208.html": {
+      "before_words": 2864,
+      "after_words": 2409,
+      "delta_words": -455
+    },
+    "light/209.html": {
+      "before_words": 2719,
+      "after_words": 2501,
+      "delta_words": -218
+    },
+    "light/210.html": {
+      "before_words": 2653,
+      "after_words": 2316,
+      "delta_words": -337
+    },
+    "light/211.html": {
+      "before_words": 2555,
+      "after_words": 2510,
+      "delta_words": -45
+    },
+    "light/212.html": {
+      "before_words": 2567,
+      "after_words": 20,
+      "delta_words": -2547
+    },
+    "light/213.html": {
+      "before_words": 2960,
+      "after_words": 2457,
+      "delta_words": -503
+    }
+  }
+}

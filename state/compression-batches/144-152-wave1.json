@@ -1,0 +1,144 @@
+{
+  "schema_version": 3,
+  "batch": "144-152",
+  "status": "applied",
+  "strength": "moderate/aggressive-on-repetition",
+  "selector": "unique-paragraph-cues",
+  "stable_id_actions": {
+    "plg-ch-000144": {
+      "status": "active",
+      "action": "tightened_sleep_body_procedure"
+    },
+    "plg-ch-000145": {
+      "status": "active",
+      "action": "tightened_repeated_hall_questions"
+    },
+    "plg-ch-000146": {
+      "status": "active",
+      "action": "tightened_backstage_logistics"
+    },
+    "plg-ch-000147": {
+      "status": "active",
+      "action": "tightened_rehearsal_failure_loop"
+    },
+    "plg-ch-000148": {
+      "status": "active",
+      "action": "preserved_exact_roof_investigation"
+    },
+    "plg-ch-000149": {
+      "status": "active",
+      "action": "tightened_and_absorbed_work_bridge"
+    },
+    "plg-ch-000150": {
+      "status": "merged",
+      "surviving_beats": [
+        "plg-ch-000149",
+        "plg-ch-000151"
+      ],
+      "legacy_path": "150.html",
+      "display_renumbering": "deferred"
+    },
+    "plg-ch-000151": {
+      "status": "active",
+      "action": "tightened_first_show"
+    },
+    "plg-ch-000152": {
+      "status": "active",
+      "action": "tightened_second_show_reset"
+    }
+  },
+  "illustration_policy": "advisory_hold; structural prose decisions outrank existing art anchors",
+  "stats": {
+    "chapters/144.html": {
+      "before_words": 4017,
+      "after_words": 3871,
+      "delta_words": -146
+    },
+    "chapters/145.html": {
+      "before_words": 3090,
+      "after_words": 2999,
+      "delta_words": -91
+    },
+    "chapters/146.html": {
+      "before_words": 2811,
+      "after_words": 2386,
+      "delta_words": -425
+    },
+    "chapters/147.html": {
+      "before_words": 2759,
+      "after_words": 2435,
+      "delta_words": -324
+    },
+    "chapters/148.html": {
+      "before_words": 3715,
+      "after_words": 3715,
+      "delta_words": 0
+    },
+    "chapters/149.html": {
+      "before_words": 3412,
+      "after_words": 3548,
+      "delta_words": 136
+    },
+    "chapters/150.html": {
+      "before_words": 2388,
+      "after_words": 25,
+      "delta_words": -2363
+    },
+    "chapters/151.html": {
+      "before_words": 2104,
+      "after_words": 2021,
+      "delta_words": -83
+    },
+    "chapters/152.html": {
+      "before_words": 2344,
+      "after_words": 1641,
+      "delta_words": -703
+    },
+    "light/144.html": {
+      "before_words": 4017,
+      "after_words": 3871,
+      "delta_words": -146
+    },
+    "light/145.html": {
+      "before_words": 3090,
+      "after_words": 2999,
+      "delta_words": -91
+    },
+    "light/146.html": {
+      "before_words": 2811,
+      "after_words": 2386,
+      "delta_words": -425
+    },
+    "light/147.html": {
+      "before_words": 2759,
+      "after_words": 2435,
+      "delta_words": -324
+    },
+    "light/148.html": {
+      "before_words": 3715,
+      "after_words": 3715,
+      "delta_words": 0
+    },
+    "light/149.html": {
+      "before_words": 3412,
+      "after_words": 3548,
+      "delta_words": 136
+    },
+    "light/150.html": {
+      "before_words": 2388,
+      "after_words": 25,
+      "delta_words": -2363
+    },
+    "light/151.html": {
+      "before_words": 2104,
+      "after_words": 2021,
+      "delta_words": -83
+    },
+    "light/152.html": {
+      "before_words": 2344,
+      "after_words": 1641,
+      "delta_words": -703
+    }
+  },
+  "source_commit": "8fa5afbcc4256f659531b5bb84691cd5ad85da08"
+}
