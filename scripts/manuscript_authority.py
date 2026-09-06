@@ -2,8 +2,8 @@
 """Discover current chapter authority across the whole Peg-Leg Greg manuscript.
 
 This module is intentionally read-only. It reconciles heterogeneous manuscript sources
-without trusting the stale chapter index as authority. Exact checkpoint files outrank the
-running manuscript, recovered exact blocks, book DOCX files, and reader fallbacks.
+without trusting the stale chapter index as authority. Exact checkpoint files outrank
+recovered exact blocks, running manuscripts, book snapshots, and reader fallbacks.
 """
 
 from __future__ import annotations
@@ -12,7 +12,7 @@ import argparse
 import json
 import re
 import zipfile
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 from xml.etree import ElementTree
 
@@ -25,6 +25,7 @@ HTML_TITLE = re.compile(r"<title>\s*Chapter\s+(\d+)\s*:\s*(.+?)\s+[—-]\s+Peg-L
 HTML_H1 = re.compile(r"<h1[^>]*>(.*?)</h1>", re.I | re.S)
 TAG = re.compile(r"<[^>]+>")
 CHECKPOINT_NAME = re.compile(r"Peg_Leg_Greg_Chapter_(\d+)_EXACT_WIP\.md$", re.I)
+RANGE_END = re.compile(r"Ch\d+-(\d+)", re.I)
 
 ONES = ["", "ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN", "EIGHT", "NINE"]
 TEENS = {
@@ -65,6 +66,30 @@ def clean_title(value: str | None) -> str | None:
     value = TAG.sub("", value)
     value = re.sub(r"[*_`]+", "", value).strip()
     return value or None
+
+
+def normalize_title(value: str | None) -> str | None:
+    value = clean_title(value)
+    if value is None:
+        return None
+    return re.sub(r"\s+", " ", value).strip().casefold()
+
+
+def looks_like_title(value: str) -> bool:
+    """Reject prose paragraphs when older DOCX files place body text after a heading."""
+    value = clean_title(value) or ""
+    if not value or len(value) > 100 or len(value.split()) > 12:
+        return False
+    if value.endswith((".", "!", "?", ";")):
+        return False
+    words = [word.strip("'\"()[]{}:,-") for word in value.split()]
+    words = [word for word in words if word]
+    if not words:
+        return False
+    return value.isupper() or all(
+        word[0].isupper() or word.lower() in {"a", "an", "and", "as", "at", "for", "in", "of", "on", "or", "the", "to"}
+        for word in words
+    )
 
 
 def parse_markdown_chapters(path: Path) -> list[tuple[int, str | None]]:
@@ -118,7 +143,7 @@ def parse_docx_chapters(path: Path) -> list[tuple[int, str | None]]:
             continue
         if title is None and index + 1 < len(paragraphs):
             next_text = paragraphs[index + 1].strip()
-            if not next_text.upper().startswith("CHAPTER "):
+            if not next_text.upper().startswith("CHAPTER ") and looks_like_title(next_text):
                 title = clean_title(next_text)
         chapters.append((number, title))
     return chapters
@@ -136,23 +161,37 @@ def parse_reader_page(path: Path) -> tuple[int, str | None] | None:
     return number, clean_title(h1.group(1) if h1 else None)
 
 
+def range_end(name: str) -> int:
+    match = RANGE_END.search(name)
+    return int(match.group(1)) if match else 0
+
+
 def source_kind(path: Path, root: Path) -> tuple[str, int] | None:
     relative = path.relative_to(root).as_posix()
     name = path.name
+    lowered = name.lower()
+    end = range_end(name)
+
     if CHECKPOINT_NAME.fullmatch(name):
-        return "exact_checkpoint", 100
+        return "exact_checkpoint", 1_000_000
+    if "recovered" in lowered and "exact" in lowered and path.suffix.lower() == ".md":
+        return "recovered_exact", 950_000 + end
     if name == "Peg_Leg_Greg_Running_Manuscript.md":
-        return "running_manuscript", 90
-    if "Recovered" in name and "EXACT" in name and path.suffix.lower() == ".md":
-        return "recovered_exact", 80
-    if name == "Peg_Leg_Greg_authoritative_ch82_final_name_map.docx":
-        return "authoritative_docx", 75
+        return "running_manuscript", 900_000
+    if lowered.startswith("peg_leg_greg_running_manuscript_ch") and path.suffix.lower() == ".md":
+        return "running_snapshot", 850_000 + end
+    if path.suffix.lower() == ".docx" and "authoritative" in lowered:
+        return "authoritative_docx", 800_000 + end
+    if path.suffix.lower() == ".docx" and "_manuscript_ch" in lowered:
+        return "book_manuscript_snapshot", 750_000 + end
+    if path.suffix.lower() == ".docx" and "light_ship" in lowered:
+        return "book_light_snapshot", 700_000 + end
     if path.suffix.lower() == ".docx" and path.parent.name == "manuscript":
-        return "book_docx", 70
+        return "book_docx", 650_000 + end
     if relative.startswith("light/") and path.suffix.lower() == ".html":
-        return "light_reader_fallback", 40
+        return "light_reader_fallback", 400_000
     if relative.startswith("chapters/") and path.suffix.lower() == ".html":
-        return "illustrated_reader_fallback", 35
+        return "illustrated_reader_fallback", 350_000
     return None
 
 
@@ -166,12 +205,7 @@ def _parse_source(path: Path) -> list[tuple[int, str | None]]:
 
 
 def candidate_rows(root: Path) -> list[dict]:
-    """Collect authority candidates without letting generated reader pages extend canon.
-
-    Reader pages are fallback evidence only. They may fill a missing chapter inside the
-    endpoint already established by manuscript-native sources, but a stray published page
-    beyond that endpoint must remain a reader mismatch rather than becoming manuscript canon.
-    """
+    """Collect authority candidates without letting generated reader pages extend canon."""
     native_candidates: list[dict] = []
     reader_candidates: list[dict] = []
     manuscript_root = root / "state/manuscript"
@@ -219,8 +253,6 @@ def candidate_rows(root: Path) -> list[dict]:
                 "source_priority": priority,
             })
 
-    # A reader-only legacy repository can still be inventoried if no manuscript-native
-    # source exists at all. Once native authority exists, it alone defines the endpoint.
     return native_candidates + reader_candidates if native_candidates else reader_candidates
 
 
@@ -246,14 +278,20 @@ def discover_manuscript_chapters(root: Path) -> dict:
         rows = sorted(grouped[number], key=lambda row: (-row["source_priority"], row["path"]))
         top_priority = rows[0]["source_priority"]
         top = [row for row in rows if row["source_priority"] == top_priority]
-        top_signatures = {(row["path"], row.get("title")) for row in top}
-        if len(top_signatures) > 1:
+        top_titles = {normalize_title(row.get("title")) for row in top if normalize_title(row.get("title"))}
+        if len(top_titles) > 1:
             authority_conflicts.append({
                 "chapter_number": number,
                 "top_priority": top_priority,
                 "candidates": top,
             })
         canonical = rows[0].copy()
+        if canonical.get("title") is None:
+            title_source = next((row for row in rows[1:] if row.get("title")), None)
+            if title_source:
+                canonical["title"] = title_source["title"]
+                canonical["title_source_path"] = title_source["path"]
+                canonical["title_source_kind"] = title_source["source_kind"]
         canonical["alternate_sources"] = [
             {key: row[key] for key in ("path", "source_kind", "source_priority", "title")}
             for row in rows[1:]
@@ -269,15 +307,17 @@ def discover_manuscript_chapters(root: Path) -> dict:
     canonical_by_number = {row["chapter_number"]: row for row in chapters}
     for number, title in index_titles.items():
         canonical = canonical_by_number.get(number)
-        if canonical and canonical.get("title") and title and canonical["title"] != title:
+        authority_title = canonical.get("title") if canonical else None
+        if authority_title and title and normalize_title(authority_title) != normalize_title(title):
             index_title_mismatches.append({
                 "chapter_number": number,
                 "index_title": title,
-                "authority_title": canonical["title"],
+                "authority_title": authority_title,
             })
 
+    source_kind_counts = Counter(row["source_kind"] for row in chapters)
     return {
-        "schema_version": 1,
+        "schema_version": 2,
         "source": "whole_book_current_checkout",
         "endpoint": endpoint,
         "chapter_count": len(chapters),
@@ -287,6 +327,7 @@ def discover_manuscript_chapters(root: Path) -> dict:
         "chapter_index_endpoint": index_endpoint,
         "chapter_index_stale_by": stale_by,
         "chapter_index_title_mismatches": index_title_mismatches,
+        "canonical_source_kind_counts": dict(sorted(source_kind_counts.items())),
         "source_files": sorted({row["path"] for row in candidates}),
     }
 
