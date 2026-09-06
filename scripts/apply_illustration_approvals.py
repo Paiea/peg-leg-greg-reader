@@ -28,6 +28,32 @@ def apply_approvals(registry: list[dict], approvals: list[dict]) -> tuple[list[d
         asset = approval.get("asset")
         if not isinstance(asset, str) or not asset.strip():
             raise ValueError(f"illustration approval {candidate_id} requires asset")
+
+        matches = [record for record in updated if record.get("candidate_id") == candidate_id]
+        if not matches:
+            raise ValueError(f"illustration approval {candidate_id} has no generated registry record")
+        exact = [record for record in matches if record.get("source_asset") == asset]
+        if not exact:
+            raise ValueError(f"illustration approval {candidate_id} asset does not match generated asset")
+        record = exact[0]
+        if record.get("status") in {"approved", "live", "rejected"}:
+            continue
+        if record.get("status") != "generated":
+            raise ValueError(f"illustration approval {candidate_id} requires generated status, found {record.get('status')!r}")
+
+        decision = approval.get("decision", "approve")
+        if decision == "reject":
+            reason = approval.get("reason", "")
+            if not isinstance(reason, str) or not reason.strip():
+                raise ValueError(f"illustration rejection {candidate_id} requires reason")
+            record["status"] = "rejected"
+            record["live_asset"] = ""
+            record["notes"] = f"Rejected: {reason.strip()}"
+            changed += 1
+            continue
+        if decision != "approve":
+            raise ValueError(f"illustration approval {candidate_id} has invalid decision: {decision!r}")
+
         approved_fit = approval.get("approved_fit")
         if approved_fit not in FIT_TARGETS:
             raise ValueError(f"illustration approval {candidate_id} has invalid approved_fit: {approved_fit!r}")
@@ -38,17 +64,6 @@ def apply_approvals(registry: list[dict], approvals: list[dict]) -> tuple[list[d
         if not isinstance(caption, str):
             raise ValueError(f"illustration approval {candidate_id} caption must be text")
 
-        matches = [record for record in updated if record.get("candidate_id") == candidate_id]
-        if not matches:
-            raise ValueError(f"illustration approval {candidate_id} has no generated registry record")
-        exact = [record for record in matches if record.get("source_asset") == asset]
-        if not exact:
-            raise ValueError(f"illustration approval {candidate_id} asset does not match generated asset")
-        record = exact[0]
-        if record.get("status") in {"approved", "live"}:
-            continue
-        if record.get("status") != "generated":
-            raise ValueError(f"illustration approval {candidate_id} requires generated status, found {record.get('status')!r}")
         record["status"] = "approved"
         record["live_asset"] = asset
         record["approved_fit"] = approved_fit
@@ -66,10 +81,10 @@ def main() -> None:
     registry = load_registry(REGISTRY_PATH)
     updated, changed = apply_approvals(registry, approvals)
     if not changed:
-        print("no generated illustrations awaiting explicit approval")
+        print("no generated illustrations awaiting explicit decisions")
         return
     REGISTRY_PATH.write_text(json.dumps(updated, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"approved {changed} generated illustration assets")
+    print(f"applied {changed} illustration approval decisions")
 
 
 if __name__ == "__main__":
