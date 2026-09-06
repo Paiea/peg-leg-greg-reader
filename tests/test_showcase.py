@@ -70,12 +70,15 @@ class ShowcaseTests(unittest.TestCase):
                 'chapters': {'9': {'showcase': False, 'reason': 'pacing'}},
             })
 
-    def test_missing_manifest_defaults_to_visible_for_backward_compatible_builds(self):
+    def test_missing_manifest_preserves_legacy_canonical_display_numbers(self):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / 'showcase.json'
             manifest = load_showcase_manifest(path)
+            mapping = build_showcase_map([220, 221], manifest)
             self.assertEqual(manifest['default'], 'visible')
             self.assertEqual(manifest['chapters'], {})
+            self.assertEqual(mapping.showcase_number(220), 220)
+            self.assertEqual(mapping.showcase_number(221), 221)
 
     def test_loader_rejects_bad_mode(self):
         with tempfile.TemporaryDirectory() as tmp:
