@@ -107,18 +107,35 @@ def book_and_act_for_chapter(number: int) -> tuple[ReaderBook, ReaderAct]:
     return book, acts[0]
 
 
-def _render_act(act: ReaderAct, chapter_links: dict[int, str], latest: int, *, open_act: bool) -> str:
+def _range_label(numbers: list[int], display_numbers: dict[int, int] | None, fallback: str) -> str:
+    if not numbers or display_numbers is None:
+        return fallback
+    first = display_numbers[numbers[0]]
+    last = display_numbers[numbers[-1]]
+    return f'Chapters {first}–{last}'
+
+
+def _render_act(
+    act: ReaderAct,
+    chapter_links: dict[int, str],
+    latest: int,
+    *,
+    open_act: bool,
+    display_numbers: dict[int, int] | None = None,
+) -> str:
     end = act.effective_end(latest)
     if end < act.start:
         return ''
-    links = [chapter_links[n] for n in range(act.start, end + 1) if n in chapter_links]
+    visible_numbers = [n for n in range(act.start, end + 1) if n in chapter_links]
+    links = [chapter_links[n] for n in visible_numbers]
     if not links:
         return ''
+    range_label = _range_label(visible_numbers, display_numbers, act.range_label(latest))
     open_attr = ' open' if open_act else ''
     return (
         f'<details class="reader-act"{open_attr}>'
         f'<summary class="reader-act-summary">'
-        f'<span class="reader-act-kicker">{escape(act.numeral)} · {escape(act.range_label(latest))}</span>'
+        f'<span class="reader-act-kicker">{escape(act.numeral)} · {escape(range_label)}</span>'
         f'<span class="reader-act-title">{escape(act.title)}</span>'
         f'</summary>'
         f'<p class="reader-act-deck">{escape(act.deck)}</p>'
@@ -127,7 +144,13 @@ def _render_act(act: ReaderAct, chapter_links: dict[int, str], latest: int, *, o
     )
 
 
-def render_book_sections(chapter_links: dict[int, str], *, illustrated: bool, open_first_act: bool = False) -> str:
+def render_book_sections(
+    chapter_links: dict[int, str],
+    *,
+    illustrated: bool,
+    open_first_act: bool = False,
+    display_numbers: dict[int, int] | None = None,
+) -> str:
     if not chapter_links:
         return ''
 
@@ -149,11 +172,20 @@ def render_book_sections(chapter_links: dict[int, str], *, illustrated: bool, op
                 chapter_links,
                 latest,
                 open_act=(is_latest_book and act_index == len(visible_acts) - 1) or (open_first_act and book_index == 0 and act_index == 0),
+                display_numbers=display_numbers,
             )
             if act_html:
                 acts.append(act_html)
         if not acts:
             continue
+
+        book_end = book.effective_end(latest)
+        book_visible_numbers = [
+            n for n in chapter_links
+            if book.start <= n <= book_end
+        ]
+        book_visible_numbers.sort()
+        book_range_label = _range_label(book_visible_numbers, display_numbers, book.range_label(latest))
 
         plate = ''
         layout_class = ' reader-book-layout--illustrated' if illustrated else ''
@@ -174,7 +206,7 @@ def render_book_sections(chapter_links: dict[int, str], *, illustrated: bool, op
             f'<details class="reader-book"{open_attr}>'
             f'<summary class="reader-book-summary" id="{book.slug}-heading"{current_attr}>'
             f'<span class="reader-book-title">{escape(book.numeral)}</span>'
-            f'<span class="reader-book-range">{escape(book.range_label(latest))}</span>'
+            f'<span class="reader-book-range">{escape(book_range_label)}</span>'
             f'</summary>'
             f'<div class="reader-book-layout{layout_class}">'
             f'{plate}<div class="reader-book-acts">{"".join(acts)}</div>'
@@ -184,14 +216,25 @@ def render_book_sections(chapter_links: dict[int, str], *, illustrated: bool, op
     return ''.join(rendered)
 
 
-def render_act_details(chapter_links: dict[int, str], *, open_first: bool = False) -> str:
+def render_act_details(
+    chapter_links: dict[int, str],
+    *,
+    open_first: bool = False,
+    display_numbers: dict[int, int] | None = None,
+) -> str:
     if not chapter_links:
         return ''
     latest = max(chapter_links)
     rendered: list[str] = []
     first_rendered = True
     for act in ACTS:
-        act_html = _render_act(act, chapter_links, latest, open_act=open_first and first_rendered)
+        act_html = _render_act(
+            act,
+            chapter_links,
+            latest,
+            open_act=open_first and first_rendered,
+            display_numbers=display_numbers,
+        )
         if not act_html:
             continue
         rendered.append(act_html)
