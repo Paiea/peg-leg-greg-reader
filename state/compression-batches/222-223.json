@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "batch": "222-223",
+  "status": "applied",
+  "strength": "aggressive-on-repeated-function-and-fragmentation",
+  "illustration_policy": "advisory hold; no prose or chapter boundary protected by art state",
+  "chapters": {
+    "plg-ch-000222": {
+      "status": "merged",
+      "surviving_beat_target": "plg-ch-000223",
+      "legacy_path": "222.html",
+      "display_renumbering": "deferred"
+    },
+    "plg-ch-000223": {
+      "status": "active",
+      "action": "absorbed property-runner integration and compressed cart-surveillance escalation"
+    }
+  },
+  "protected_beats": {
+    "222_to_223": [
+      "Lyssa thread errand and Maren payoff",
+      "Rinna moves cash box and ledger visibility without dramatizing it",
+      "striped umbrella comedy and Greg's limited umbrella authority",
+      "Greg recognizes prop order without needing instruction",
+      "parcel mistake and receipt-timing acting correction",
+      "company members clear Greg's crutch path without making accommodation a scene",
+      "crutch tip softness begins before replacement"
+    ],
+    "223": [
+      "Lyssa tells Greg to replace the failing crutch tip",
+      "repairer identifies asymmetric wear and replaces one tip",
+      "Greg pays for maintenance without turning the copper into a moral crisis",
+      "Jori discovers cracked cart brace without overclaiming when it happened",
+      "cart repairer reports questions about late-show departure and usual driver",
+      "brown-coat description remains consistent with prior reports but not confirmed identical",
+      "Rinna records bounded evidence and tells suppliers not to disclose theatre routines",
+      "Greg recognizes progression from asking where money sits to asking how things move",
+      "Lyssa notes that their people are hearing the questions before they become action"
+    ]
+  },
+  "cuts": [
+    "extended prop-by-prop performance transcription",
+    "secondary audience-business showing already established theatre competence",
+    "duplicate rehearsal correction in Chapter 223 that repeated actor-route awareness",
+    "full witness interrogation inventory where narrower questions preserved the evidence boundary",
+    "repeated cart and threat debrief loops",
+    "procedural retelling of routine theatre setup and cleanup"
+  ],
+  "result": "Two adjacent theatre-work chapters now function as one maintenance chapter: Greg becomes ordinary company infrastructure, maintains the equipment that keeps him mobile, and learns that operational security is another form of maintenance as outside questioning shifts from money location to movement patterns."
+}
