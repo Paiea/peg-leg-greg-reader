@@ -1,0 +1,108 @@
+name: Validate dialogue variance integration
+
+on:
+  push:
+    branches:
+      - editor/dialogue-variance-integration
+    paths:
+      - 'scripts/dialogue_variance_integration.py'
+      - 'tests/test_dialogue_variance_integration.py'
+      - '.github/workflows/dialogue-variance-integration.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  validate-integration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch approved editorial manifests
+        run: git fetch origin editor/voice-compression-pass:refs/remotes/origin/editor/voice-compression-pass
+      - name: Run focused integration tests
+        run: python -m unittest tests.test_dialogue_variance_integration -v
+      - name: Replay still-valid approved edits into durable authority
+        run: python scripts/dialogue_variance_integration.py --patch-ref origin/editor/voice-compression-pass --max-chapter 430 --write
+      - name: Regenerate reader surfaces from durable manuscript authority
+        run: |
+          python scripts/generate_illustrated.py 156-219
+          python scripts/generate_illustrated.py current
+          python scripts/generate_light.py 156-219
+          python scripts/generate_light.py current
+      - name: Validate manuscript and reader output
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py' -v
+          git diff --check
+          python scripts/verify_reader_frontier.py
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          import sys
+
+          sys.path.insert(0, 'scripts')
+          import dialogue_variance_integration as dvi
+
+          for path in sorted(Path('chapters').glob('[0-9][0-9][0-9].html')):
+              text = path.read_text(encoding='utf-8')
+              match = re.search(r'<article\s+class="prose"[^>]*>(.*?)</article>', text, re.S | re.I)
+              if not match:
+                  raise SystemExit(f'missing prose article: {path}')
+              prose = re.sub(r'<[^>]+>', '', match.group(1))
+              if '—' in prose:
+                  raise SystemExit(f'em dash in manuscript prose: {path}')
+
+          _, variance_patches = dvi.load_approved_patches(
+              'origin/editor/voice-compression-pass', 1, 430
+          )
+          unapplied_repairs = []
+          stale_repairs = 0
+          for patch in variance_patches:
+              if not re.fullmatch(r'\d+\.R\d+', patch.label):
+                  continue
+              chapter_path = Path('chapters') / f'{patch.chapter:03d}.html'
+              if not chapter_path.exists():
+                  continue
+              page = chapter_path.read_text(encoding='utf-8')
+              stats = {'attribution': dvi.Stats(), 'variance': dvi.Stats()}
+              conflicts = []
+              updated = dvi.apply_patches_to_html(page, [patch], stats, conflicts)
+              if updated != page:
+                  unapplied_repairs.append(f'Chapter {patch.chapter} {patch.label}')
+              elif conflicts:
+                  stale_repairs += 1
+          if unapplied_repairs:
+              raise SystemExit('approved first-person/referent repairs still applicable after replay: ' + ', '.join(unapplied_repairs))
+          print(f'No-em-dash check passed; targeted repair check passed with {stale_repairs} stale repairs safely skipped.')
+          PY
+      - name: Capture integration diff for review
+        if: always()
+        run: |
+          mkdir -p /tmp/dialogue-integration-review
+          git diff --stat > /tmp/dialogue-integration-review/diff-stat.txt
+          git diff > /tmp/dialogue-integration-review/integration.diff
+          cp state/editorial/global-reports/DIALOGUE_VARIANCE_INTEGRATION_REPORT.md /tmp/dialogue-integration-review/report.md 2>/dev/null || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: dialogue-variance-integration-review
+          path: /tmp/dialogue-integration-review
+          retention-days: 7
+      - name: Commit validated manuscript integration
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No generated dialogue integration changes to commit."
+            exit 0
+          fi
+          git commit -m "Ship approved dialogue variance integration"
+          git push origin HEAD:editor/dialogue-variance-integration
