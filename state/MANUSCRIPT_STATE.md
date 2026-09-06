@@ -1,228 +1,263 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 404 - **THE COMPARER**.
+- Current exact story endpoint: Chapter 405 - **THE EARNER**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript physically materialized through Chapter 248.
-- Exact Chapters 249-404 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
+- Exact Chapters 249-405 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
 - Titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
-- Ch404 answer: Greg is being **a comparer**. He reaches Bellweather, uses forty-two years of indexed ordinary mirror/navigation failures and surviving infrastructure to compare White Span against a broader baseline, narrowing the mystery without pretending to solve it.
-- Therefore title **THE COMPARER**.
-- Recent: 400 THE SOJOURNER; 401 THE WITNESS; 402 THE SHOPPER; 403 THE OBSERVER; 404 THE COMPARER.
+- Ch405 answer: Greg is being **an earner**. He gets paid for accumulated field labor, feels the shift from scarcity to optionality, refuses immediate impulse buys, and reaches a market large enough to give money a forward direction.
+- Therefore title **THE EARNER**.
+- Recent: 401 THE WITNESS; 402 THE SHOPPER; 403 THE OBSERVER; 404 THE COMPARER; 405 THE EARNER.
 
 ## Major arc direction - away from Carrow
 - Long away-from-Carrow adventure arc remains active.
-- Crew reaches **Bellweather Crossing** from Low Fen Orchard and completes useful comparative archive/infrastructure work without repeating another dawn observation.
+- Crew leaves **Bellweather Crossing** and reaches **Sable Quay**, a much larger lower-Lume trade basin and survey hub.
 - Traveling core intact: **Vessa Harn, Maro Pell, Sori Vale, Dask Renn, Kel Toren, Greg**.
-- Bellweather comparison does not reproduce or historically document a White-Span-like persistent wrong-direction river sunrise.
-- New optional extension authorized east to **Sable Quay**, ~11 miles, with likely overnight at **Rill House** or camp depending pace.
-- Operational rationale: deliver White Span/Bellweather comparison records to Sable Quay survey annex; Quay handles lower-Lume traffic and broader sight-system archive.
-- Crew chooses east. Do not route back toward Carrow.
+- Sable Quay is materially larger than prior stops: multiple bridges, cargo cranes, warehouses, ferry/traffic systems, guild district, major market streets, survey annex.
+- Crew delivers White Span/Bellweather comparison records to **Lower Lume Survey Annex**.
+- Annex clerk **Nema Vos** notes a possible but not equivalent local issue at **Glassmouth Reach**, ~2 miles east: several ferry captains reported unusual dawn glare this week, potentially ordinary due lower water level.
+- Crew elects to remain one night in Sable Quay and may assist with Glassmouth dawn observation if annex confirms.
+- Keep geographic expansion active. Do not route back toward Carrow yet unless later authority earns it.
 
-## Chapter 404 - THE COMPARER
+## Chapter 405 - THE EARNER
 
-### Low Fen departure / recovery
-- Hedda Morn wakes crew by striking spoon against pot.
-- Breakfast heavily pear-based.
-- Greg shoulder stiff on waking but better than Greyhook; hand only complains at hard final squeeze; no new injury.
-- Repaired right crutch remains solid.
-- Crew leaves first bell.
-- Bellweather road stays close to Lume; no wrong reflection observed during normal morning travel.
-- Greg explicitly treats boring/normal reflection as useful data.
+### Bellweather pay settlement
+- Bellweather paperwork completes in morning.
+- Pera Lonn settles Greg's previously accrued extension pay:
+  - 4 completed payable field days;
+  - 2c each;
+  - **8c total**.
+- Greg counts/receives all 8c.
+- Cash changes **13c -> 21c**.
+- Vale remains **23c principal-equivalent**.
+- This is earned labor money, not windfall.
+- Greg feels the distinction: prices that ended conversation at 13c become questions at 21c, not automatic yeses.
 
-### Bellweather sight infrastructure
-- Old river sight posts become frequent on approach: stone uprights, iron frames, blackened oval plates; one repurposed for laundry.
-- Maro explains old Bellweather dawn/fog navigation:
-  - before cheap bank lamps;
-  - sight plates caught dawn/lamp to provide alignment in fog.
-- Bellweather Crossing is a larger, long river town with active bridge/ferry/boat culture.
-- Main modern crossing: iron-and-stone bridge, 3 broad arches.
-- Upstream old crossing remains: 2 massive stone piers with no deck, each carrying tall fan arrays of silvered plates.
+### East road / commercial scale-up
+- Crew leaves Bellweather before second bell toward Sable Quay, ~11 miles east.
+- East road is broader commercial infrastructure:
+  - packed gravel;
+  - stone drainage;
+  - frequent docks/loading ramps/warehouses;
+  - flatboats and cargo traffic;
+  - maintained mile markers.
+- Greg's shoulder/right hand continue improving; low ache returns only after extended travel.
+- No locked mode, no deliberate magic.
 
-### Pera Lonn
-- Bellweather road clerk **Pera Lonn** introduced:
-  - short;
-  - round glasses;
-  - blue ink stripe down left sleeve;
-  - procedural/dry.
-- Regional fight gossip now claims Greg fought/killed ~15 dogs; Greg corrects and refuses inflation.
-- Pera routes crew to archive first, keeper after lunch; explicitly no touching old arrays without keeper.
+### Mile-nine freight-control delay
+- Active east embankment work narrows road to controlled single lane.
+- Control lead **Tess Arlo**:
+  - practical traffic speech;
+  - mule batch delay 35-45 min depending westbound priority/stone train.
+- Foot crews can pass immediately; mules/cases cannot.
+- Crew splits pragmatically:
+  - **Kel** stays with mules/cases;
+  - Tess countersigns hold;
+  - **Sori** carries seal numbers/records forward;
+  - Vessa/Maro/Sori/Dask/Greg continue on foot.
+- This is logistics, not danger.
+- Workers use mundane/magical hybrid infrastructure, including small brass level flashing green when stone sits true; Greg notices but does not chase/buy.
 
-### Olden Marr / 42-year archive baseline
-- Bellweather archivist **Olden Marr**:
-  - ~70;
-  - narrow;
-  - white hair tied red;
-  - fingerless gloves;
-  - immediate line: `Do not call them magic mirrors.`
-- Archive retains **42 years** of surviving dawn-sight records; earlier records lost in ferry-office fire.
-- Indexed categories include visibility, mirror faults, fog, glare, false lamp, sun alignment, boat incidents.
-- Historical normal failure modes include:
-  - morning glare;
-  - fog doubling lamps;
-  - ice causing split highlights;
-  - cracked/bent/dirty plates;
-  - gull residue/bird shit.
-- One 23-year-old note says `SOUTH ARRAY SHOWED TWO DAWNS. CLEANED GULL RESIDUE. RESOLVED.` This is ordinary contamination, not White Span match.
-- No indexed record in surviving 42 years of:
-  - persistent multi-minute west-facing sunrise reflection on river matching White Span;
-  - bridge shadow failing to extinguish comparable false river reflection;
-  - recurring calm-water west band of same type.
-- This does NOT prove phenomenon never occurred, only that no comparable event is recorded.
-- Bellweather therefore provides useful negative/comparison evidence: White Span may be local, new, geometry-dependent, or simply absent here historically.
+### Sable Quay arrival
+- Sable Quay appears as wide trade basin with:
+  - multiple bridges;
+  - crane fields;
+  - warehouses/offices/inns/guild signs;
+  - floating docks/cargo lanes;
+  - tax arch for road freight;
+  - very high commercial/social noise.
+- Scale jump is deliberate: Greg reaches market where expensive things actually live.
 
-### Bellweather geometry / mirror treatment
-- Lume geometry differs:
-  - White Span river ~east-southeast;
-  - Bellweather crossing on long north-south bend before east turn.
-- Old mirror arrays faced southeast/southwest for different navigation jobs.
-- Morning plates used blue-black backing; lamp plates red-brown; same-family silver wash, different backing to reduce glare.
-- Dask's directional-treatment curiosity is partly validated, but Maro continues calling them `mirror` to resist mystical inflation.
+### Lower Lume Survey Annex / Nema Vos
+- Annex sign: **TRAFFIC / SIGHT / FLOW / INCIDENT RECORDS**.
+- Clerk **Nema Vos**:
+  - ~30;
+  - dark curls tied high;
+  - sleeves rolled;
+  - six pencils behind one ear;
+  - fast, competent, enjoys a little chaos.
+- Nema accepts White Span/Bellweather packet and asks disciplined questions:
+  - six consecutive White Span mornings;
+  - two outside-witness mornings;
+  - calm broad band vs choppy sheltered patch;
+  - no Bellweather comparable record in 42 surviving indexed years;
+  - cause unknown;
+  - no established tie to upstream signal anomalies.
+- Nema explicitly agrees not to connect without reason.
+- Annex can either close regional extension at Quay or continue lower-Lume if evidence justifies.
 
-### Jori Pell / surviving north array
-- Keeper **Jori Pell** introduced:
-  - ~27;
-  - thick black hair;
-  - one gold tooth;
-  - maintenance satchel.
-- Jori Pell and Maro Pell explicitly state **no relation established** despite surname.
-- North pier has **6 serviceable plates**, south pier 9 but south access closed due dropped wrench/ladder issue.
-- Plates:
-  - oval, ~forearm length;
-  - smoked silver face;
-  - dark blue-black back;
-  - limited rotation/tilt;
-  - viewing hood cuts side glare;
-  - brass foot mark fixes observer position.
-- Demonstration shows sharp viewing-angle dependence through ordinary geometry/hood.
-- Jori says silver wash takes charge during making and backing takes some; once made, ferry workers treat it mostly as a plate/mirror.
-- Known healthy-plate failures: cracks can double, bends shift, backing peel ghosts, fog misleads.
-- No claim mirrors explain White Span bridge-shadow behavior.
+### Glassmouth Reach seed
+- Nema says there may be a modest comparison reason:
+  - **Glassmouth Reach**, ~2 miles east of Quay basin;
+  - 3 ferry captains this week reported strong unusual dawn glare obscuring channel marks for seconds;
+  - not wrong-direction sunrise;
+  - not multi-minute band;
+  - water level recently dropped ~4 inches, so ordinary geometry is plausible.
+- Annex is already checking tomorrow.
+- Crew's outside eyes could help if still in Quay.
+- This remains optional and explicitly may be ordinary.
 
-### Field-pay clarification
-- Pera receives regional pay clarification.
-- Original route terms remain active through authorized extension:
-  - departure 6c already paid Ch389;
-  - **2c per completed field day starting day 4**;
-  - extension did not void terms.
-- Bellweather slip says **3 additional paid field days accrued through yesterday = 6c**, not yet settled.
-- Completion of Ch404 workday adds another 2c, making **8c accrued total**, payable next morning if Vessa signs completion.
-- Pera says Bellweather can settle extension pay next morning; Vessa chooses local settlement.
-- IMPORTANT: Greg has **not yet received** this 8c at Ch404 endpoint. Cash remains 13c until actual payment.
+### Mirror guild / market pressure
+- Nema tells crew mirror guild is two streets north.
+- Vessa grants one bell of personal time while waiting for Kel/cases.
+- Greg accompanies Dask to guild instead of immediately going market.
+- Guild display establishes higher price ceiling:
+  - fog sight plate new 18c;
+  - lampside ghost checker 11c;
+  - silver-back field mirror 9c;
+  - split-angle calibration pair 27c;
+  - river dawn plate blue-back 34c.
+- This makes 21c meaningful but clearly not rich.
 
-### Bellweather evening / food
-- Vessa closes workday fifth bell; Pera signs local completion; Sori copies pay note.
-- Lodging above old ferry tavern covered by assignment; dinner not included.
-- Tavern board prices food in bits.
-- Greg buys stew+bread in **bits**, exact bit amount paid per board = 2 bits, but copper remains unchanged and no conversion is invented.
-- Greg copper exact remains 13c; bits now remain unspecified after this spend.
+### Elya Senn / PF-3 temptation
+- Guild worker **Elya Senn**:
+  - 40s;
+  - shaved head;
+  - silver dust in cuffs;
+  - practical pricing/repair knowledge.
+- Greg finds used **PF-3 parallax finder**:
+  - brass housing;
+  - three rotating glass slits;
+  - used grade C;
+  - **10c**;
+  - fault: center detent slips under vibration.
+- New price equivalent ~36c per Elya.
+- Repair estimates:
+  - spring only 2-4c;
+  - worn ring channel 6-9c;
+  - bent axle = not worth repair.
+- Bench stable, vibration fault confirmed, axle appears straight, no field guarantee.
+- Greg can imagine many uses and **does not buy it**.
+- Elya explicitly notes 10c feels cheap only compared with 36c new; Greg recognizes this anchoring trap.
+- Dask also wants it; Greg uses `your face` on Dask, paying back recurring joke.
 
-### Next route - Sable Quay
-- Regional office offers:
-  1. south via old ferry road toward Merecross network, not direct Carrow;
-  2. continue east to **Sable Quay**.
-- Sable Quay:
-  - ~11 miles east;
-  - Lume widens into trade basin;
-  - survey annex handles lower-Lume traffic and broader sight-system archive;
-  - mirror guild exists there per Olden;
-  - likely overnight at **Rill House** or camp depending pace.
-- Operational rationale is record delivery/comparison, not quest/chosen-one mission.
-- Crew chooses east.
-- Greg notes tomorrow's expected pay could raise cash **13c -> 21c** if actually settled.
-- Vale remains 23c.
-- Sori correctly warns not to spend unpaid money.
+### Cases / lodging / Quay decision
+- Kel arrives near third bell with mules/cases; delay ~42 minutes due stone train.
+- Cases/seals intact; annex countersigns delivery.
+- Crew chooses to stay one night in Quay rather than immediately close/return.
+- Lodging at **Dockhouse Seven** under survey rate; two rooms, three beds each.
+- Food personal unless assigned overnight work.
+- Greg buys hot meat bun for **1 bit**; no copper conversion invented; copper remains 21c.
+
+### Sable Quay market ceiling
+- Greg later walks market with Sori mostly to look.
+- Market is streets/districts, not a few tables:
+  - tool row;
+  - river row;
+  - salvage row;
+  - textile court;
+  - spice lane;
+  - auction yard;
+  - licensed used magical hardware.
+- Prices frequently 40c, 60c, 120c, silver, even one gold-tagged locked case.
+- This correctly widens world price ceiling rather than making ordinary goods globally more expensive.
+- Greg sees retired dock-crane **load-share collar** for **48c** with known-use/failure notes and cannot afford it.
+- Instead of frustration, this gives money direction: access, options, future yes.
+- Greg buys nothing else.
+
+### Greg economic/internal movement
+- Important new framing:
+  - 21c is useful, not wealth;
+  - Vale 23c still active;
+  - earned cash expands questions/options;
+  - larger markets reveal higher tiers rather than resetting Greg to poverty.
+- Greg is pleased the pay came from useful field work over time.
+- He increasingly sees money as access to tools, travel, repair, markets, and choices.
+- He does not feel need to go home merely to protect the money; earning makes road feel longer.
 
 ## Economy
-- Greg begins **13c private cash**.
-- Buys tavern stew+bread for **2 bits**; do not convert.
-- Ends **13c private cash**, bits unspecified after spend.
+- Greg begins **13c cash**, 8c accrued unpaid.
+- Receives **8c field pay** at Bellweather.
+- Cash becomes **21c**.
+- Buys hot meat bun for **1 bit**; bits remain unspecified.
+- Ends **21c cash**, bits unspecified.
 - Vale remains **23c principal-equivalent**.
-- **8c field pay accrued but unpaid** at endpoint.
-- If Bellweather settlement occurs next morning, then and only then cash becomes **21c**.
+- No large purchase despite PF-3 temptation.
 
 ## Magic / artifacts
 - Protocol remains **59 minimal / 53 shaping / 135 external attempts**.
-- Greg performs **no deliberate magic** in Ch404.
-- WS-F/9 plate remains packed; no need to use it during Bellweather comparison.
-- Line quietener remains packed/unused.
-- Old Bellweather river mirrors are infrastructure, not Greg property/acquisition.
+- Greg performs **no deliberate magic** in Ch405.
+- WS-F/9 slate current reader remains with Greg.
+- Line quietener remains packed.
+- PF-3 parallax finder is **not purchased**; remains guild inventory at Sable Quay, used grade C, 10c.
+- 48c load-share collar is **not purchased**; licensed salvage inventory.
 - Tavi rock remains with Greg.
 - Repaired right crutch remains sound.
 - Oval remains sealed Merecross Survey custody.
 - Holdfast/K-14-6/Three Reeds/Step Keeper remain locked Carrow.
 
-## Greg social/internal movement
-- Greg increasingly values negative evidence and normal failure catalogs.
-- Comparison makes mystery smaller without making it less interesting.
-- He recognizes good tools do not demand use merely because owned.
-- Economy begins ratcheting upward through actual field labor: expected 8c settlement materially expands optionality without making Greg rich.
-- Greg chooses Sable Quay/east, continuing map expansion.
+## Greg physical state
+- Shoulder/right hand now mostly recovered but not erased:
+  - low ache after long walking;
+  - hand mostly normal;
+  - no new injury.
+- Current-body travel competence continues normalizing.
 
 ## Dialogue variance
-- Hedda Morn: blunt literal orchard logic.
-- Pera Lonn: procedural/dry, gossip then immediate work switch.
-- Olden Marr: archivist precision, rewards Dask for distinguishing no record from no occurrence.
-- Jori Pell: ferry-maintenance pragmatism; aggressively anti-invention.
-- Maro: repeated `mirror` refrain against Dask's terminology inflation.
-- Sori: money awareness, pay arithmetic, face-reading teasing.
-- Dask: technical curiosity but respects touch/permission boundaries.
+- Pera Lonn: paperwork-first settlement, tells Greg not to trust bureaucracy.
+- Tess Arlo: terse traffic-control pragmatism.
+- Nema Vos: fast, high-competence annex clerk with six pencils and deliberate anti-overconnection discipline.
+- Elya Senn: guild specialist, rational used-tool pricing, warns about clever-tool anchoring.
+- Sori: money arithmetic/face-reading teasing, accompanies Greg through market.
+- Kel: logistics/cases, wants non-pear food.
+- Dask: mirror guild fixation but obeys operational order.
 
 ## Recent role ledger
-- 400 THE SOJOURNER
 - 401 THE WITNESS
 - 402 THE SHOPPER
 - 403 THE OBSERVER
 - 404 THE COMPARER
+- 405 THE EARNER
 
 ## Protected uncertainties
-- Crew ends Ch404 at **Bellweather Crossing** lodging, planning east to Sable Quay.
-- Greg cash **13c**, Vale **23c**, bits unspecified after 2-bit dinner spend.
-- **8c accrued field pay unpaid**, expected settlement next morning if paperwork completes.
+- Crew ends Ch405 lodged at **Sable Quay**, one night planned.
+- Greg cash exact **21c**, Vale **23c**, bits unspecified after 1-bit food spend.
 - Protocol **59 / 53 / 135**.
-- Bellweather surviving 42-year archive has no recorded White-Span-like persistent wrong-direction river sunrise; absence is evidence, not proof of impossibility.
 - White Span phenomenon remains unexplained.
-- Bellweather mirror infrastructure uses charged manufacturing/silver/backing but is not established as cause/key.
-- Sable Quay mirror guild/annex is next comparison opportunity, not guaranteed answer.
-- Quietener and WS-F/9 remain normal bounded tools.
-- Shoulder/hand improving but not fully healed.
+- Bellweather provides negative historical comparison.
+- Glassmouth Reach unusual dawn glare is a new but explicitly non-equivalent local issue; may be ordinary geometry from lower water.
+- Annex may request/accept outside eyes tomorrow, but not guaranteed major extension.
+- PF-3 remains for sale at 10c; Greg did not buy.
+- Large Sable Quay market establishes higher economic ceiling.
+- Quietener and WS-F/9 remain bounded tools.
+- Shoulder/hand mostly recovered, low ache after long travel.
 - Full current-life high-end magical/combat ceiling remains unrevealed.
 - Home communication remains delayed.
 - All older protected artifact/Carrow threads remain unresolved unless exact authority changes them.
 
-## Chapter 405 trailhead
-Follow next actual claim from Ch404/current authority.
+## Chapter 406 trailhead
+Follow next actual claim from Ch405/current authority.
 
-Greg begins **13c cash / 23c Vale / bits unspecified**, with **8c accrued unpaid field pay**, protocol **59 / 53 / 135**.
+Greg begins **21c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**.
 
 Physical/timeline:
-- morning at **Bellweather Crossing**;
-- Bellweather can settle 8c extension pay if Vessa/local paperwork completes;
-- Sable Quay ~11 miles east;
-- likely overnight Rill House or camp;
-- shoulder/right hand mildly sore but improving;
+- evening/night at **Sable Quay**, Dockhouse Seven;
+- optional Glassmouth dawn observation may happen next morning if annex confirms;
+- mirror guild / major market nearby;
+- PF-3 parallax finder still available for 10c but not purchased;
+- shoulder/right hand mostly recovered;
 - repaired crutch sound;
 - quietener + WS-F/9 packed.
 
 Strong movement:
-- Actually settle pay if paperwork follows. Then Greg cash becomes 21c. Let increased optionality register without instant shopping spree.
-- Move east promptly. Bellweather has done its comparative function.
-- Sable Quay should represent another scale jump: trade basin, larger traffic, survey annex, specialist/mirror guild access, perhaps meaningful artifact-market pressure.
-- Do not make whole Ch405 another archive scene. Travel can carry new commercial/social/external pressure.
-- Greg may start thinking differently with 21c, but Vale 23c still exists and artifacts can exceed his liquidity.
-- A route complication, work opportunity, transport choice, or noncombat external pressure could vary rhythm.
-- Keep away arc moving.
+- Avoid turning Quay into pure shopping/catalog chapters. Sable Quay should generate social/commercial/work/external pressure.
+- If Glassmouth dawn occurs, make it short and distinct from White Span; likely ordinary or partially ordinary evidence is acceptable.
+- Greg's 21c should alter behavior via optionality, not force purchase.
+- A meaningful artifact acquisition can happen later if price/use/downside justify it; PF-3 remains a live temptation but no obligation.
+- Quay can offer temporary paid work, larger contract, transport choice, auction, salvage lot, specialist service, or a new route east/downriver.
+- Keep away arc moving and varied.
+- Consider a stronger rhythm break soon after several observation/comparison chapters, though not necessarily combat immediately.
 
 Avoid:
-- spending unpaid money before settlement;
-- immediate giant artifact purchase solely because cash rises;
-- another mirror lecture chapter;
-- instant anomaly solution;
+- another long archive/mirror lecture;
+- immediate impulsive PF-3 purchase without new reason;
+- anomaly unification;
 - immediate Carrow return.
 
-**MANDATORY TITLE CHECK CH405:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH406:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
