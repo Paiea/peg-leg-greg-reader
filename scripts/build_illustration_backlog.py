@@ -1,11 +1,15 @@
 from __future__ import annotations
 
 import re
+import sys
 from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 from scripts.illustration_state import load_registry, load_scene_candidates
 
-ROOT = Path(__file__).resolve().parents[1]
 CANDIDATES_PATH = ROOT / "state" / "visual" / "SCENE_CANDIDATES.json"
 REGISTRY_PATH = ROOT / "state" / "visual" / "ILLUSTRATION_REGISTRY.json"
 OUTPUT_PATH = ROOT / "state" / "visual" / "ILLUSTRATION_BACKLOG.md"
