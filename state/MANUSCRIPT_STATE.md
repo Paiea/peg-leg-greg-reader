@@ -1,8 +1,8 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 484 - **THE INTERMEDIARY**.
-- Exact Chapters 249-484 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
+- Current exact story endpoint: Chapter 485 - **THE ORGANIZER**.
+- Exact Chapters 249-485 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
 - Permanent running-manuscript consolidation still has known integration debt; do not reconstruct missing exact text from summaries.
 
 ## Active correction overlays
@@ -10,202 +10,187 @@
 - Lakeward/Morrow cleanup remains active: **Jonah Sol, Garrick Sol, Helena Sol, Ada, June, Celia Brohm, Elias Mercer, Sabine Orlow, Danton Pike, Judith Fen, Walter Ardin, Owen Senn** replace drifted/reused names recorded in prior checkpoints.
 - Ch460 editorial naming-cleanup meta passage remains omitted during integration.
 
-## Naming guardrail
-Before any new named character: check `BOOK1_NAME_REGISTRY_CH82.md` and current state for exact/TTS/syllable/surname collision. Temporary people do not automatically need names.
-
-## Durable progression / leverage mandate
-- `state/PROGRESSION_ENGINE.md` owns the current earning-power/capital route, legal/gray-market arbitrage guidance, management/coordination leverage, artifact pressure, and author-approved debt-closure progression rule.
+## Current progression direction
+- `state/PROGRESSION_ENGINE.md` remains authoritative for the earning-power/capital route.
+- Current method is increasingly **brokerage / arbitrage / coordination / management / eventual ownership**, not endless small-job accumulation.
 - Ch474 proves Greg can move silver-scale value without owning inventory.
-- Ch475 proves Greg can create value by coordinating specialists without stealing their expertise.
+- Ch475 proves Greg can coordinate specialists without stealing their expertise.
 - Ch476 proves artifact markets can outrun Greg's safe deployable capital.
-- Ch477 proves ordinary travel can be worth purchasing and closes the East Fen/Lakeward brokerage fee.
-- Ch478 restores home/relationship pressure through Lyssa's independent letter.
-- Ch479 completes the return to Carrow.
-- Ch480 advances the work-limb fit/final-prep lane while leaving payment timing uninvented.
-- Ch481 reactivates theatre as a paid, intrinsically valuable Carrow lane.
-- Ch482 reactivates Hessa/magic while narrowing the actual evidence claim.
-- Ch483 adds **provenance / title-release / trust** as a distinct market-information layer and establishes that verification creates economic value only when it reduces uncertainty blocking a real transaction.
-- Ch484 converts that information into a completed **silver-scale transaction** without Greg owning inventory. Greg earns a copper commission by connecting buyer and seller, narrowing title friction, protecting specialist authority, and restructuring a failed all-at-once sale into a staged transaction.
-- Current focus remains **earning power / capital**, increasingly through brokerage, arbitrage, coordination, information, trust, management, and eventual ownership rather than endless small-job accumulation.
-- When liquidity genuinely scales, verify actual obligations before clearing them. Preserve reserve/working capital and do not turn gifts/favors/support into debt.
+- Ch477 proves ordinary travel can rationally be purchased.
+- Ch483 adds title-release/provenance/trust as a separate market-information layer.
+- Ch484 completes a **1 silver + 2c** transaction while Greg owns none of the goods; Greg earns 3c for connection, scope, verification routing, conflict disclosure, and commercial restructuring.
+- Ch485 moves the leverage engine from transactions into **people / operational coordination**. Greg accepts a bounded four-day organizer term covering three already-contracted South Road field crews. He does not hire, fire, set wages, supervise fieldcraft, inspect tools, or own safety decisions.
+- Debt closure remains premature at current liquidity. If the current organizer term later completes and materially lifts liquidity, verify actual outstanding obligations before paying anything.
 
 ## Current financial / body / magic state
-- Greg ends Ch484 **home in Carrow**.
-- Cash **18c** after earning a **3c seller-paid commission** on the North Freight sway-shoe transaction.
-- Vale **23c**.
-- Bits unspecified. Seller reimbursed agreed public-record inspection/copy bits during the transaction.
-- 10c survival floor active; **8c above floor**.
+- Greg ends Ch485 **home in Carrow** after the first South Road organizer day.
+- Cash **22c** after receiving the contract's **4c accepted-start-plan payment**.
+- Vale **23c** remains unresolved.
+- Bits unspecified.
+- 10c survival floor active; **12c currently above floor**.
+- A further **10c organizer completion fee is NOT earned yet**. It is contingent on completing the remaining three days and having the required daily organizer records accepted.
 - Reed-glass introduction fee remains paid/closed.
 - Work-limb deposit remains **20c paid toward the established 1 silver + 18c quote**.
 - Existing Hark & Venn quote remains unchanged. No new due date, installment amount, pickup-payment term, or completion date is established.
 - Protocol remains **59 / 53 / 147**.
 - Greg remains on two crutches outside supervised fitting use.
 - Hark & Venn still holds the trial socket / temporary ash shaft / medium test foot for final-prep comparison; Greg has the liner at home.
-- Shoulder remains improved; no new injury or skin break.
-- No magic attempts occur in Ch484.
+- Shoulder/right leg/hands end Ch485 with ordinary workday fatigue only; no new injury or skin break.
+- No magic attempts occur in Ch485.
 
-## Recent carryover
+## Recent live lanes
+
 ### Work limb
-- Ch480 established current residual-limb shape/volume changed enough that the older front correction should not simply be copied into final work.
+- Ch480 established that current residual-limb shape/volume changed enough that the older front correction should not simply be copied into final work.
 - Hark & Venn reviewed the current trial fit under the existing work order with no added payment for that review.
 - Work priority remains usable hands as well as mobility.
-- Shop keeps the trial hardware while final-socket prep proceeds offscreen; Greg waits for real word or another fit request.
+- Shop keeps trial hardware while final-socket prep proceeds offscreen; Greg waits for real word or another fit request.
 
 ### Theatre
 - Ch481 resolved the old theatre visitor narrowly as a prompt-side substitute request because Renn was sick.
 - Greg handled cue/state/entrance/light-support work without taking heavy, fly, trap, stair-running, or solo scene-shift authority.
-- He earned 3c and enjoyed that the rehearsal itself improved.
+- Rinna is now a narrow employment reference for Greg: she confirms bounded theatre support, current instructions, unclear-authority questions, cues/entrances/prop-state handoffs/light work, and explicitly does NOT certify fieldcraft, hiring, safety inspection, or outside crew supervision.
 - Renn may or may not be back; repeat theatre work is not guaranteed.
 
 ### Hessa / magic
 - Ch482 advanced external attempts from **139 to 147** through eight supervised moving-shuttle trials.
 - Net controlled result remains **2 clean visible moving-target deviations / 8 attempts**, **1 unclear faster trial**, **2 rest trials with no visible response**, remaining moving trials no clean response.
-- Motion is only a candidate variable. Timing, attention, track vibration, target construction, random variation, or other explanations remain live.
+- Motion remains only a candidate variable. No practical interruption/deflection capability is established.
 - Hessa has a candidate future protocol: **moving target / fixed track / known baseline**, with timing/reference comparisons later.
-- No practical interruption/deflection capability is established.
 - No independent magic testing is authorized. Emergency use remains Greg's own judgment/risk, not Hessa clearance.
 
-### Provenance / release
-- Ch483 separates at least five questions: what an object is; what it does; who owns it / whether official title was released; what story/provenance says; what market will pay.
-- Sori's Merehook archive work independently produced a packet of transition circulars. Sori is not an artifact specialist, lawyer, customs official, appraiser, or Greg's research assistant by default.
-- Carrow local broad release terms established in Ch483: **ACTIVE HOLD / OFFICE TRANSFER / OPEN DISPOSAL / MATERIAL SCRAP / RESTRICTED RETENTION**.
+### Provenance / release / Road Response Kit
+- Ch483 separates what an object is, what it does, title/release status, story/provenance, and market price.
 - Greg's existing Road Response Kit is confirmed **OPEN DISPOSAL**, privately transferable, sold as-is, with old official survey calibration marks voided. Those old marks do not certify current accuracy.
-- Antonius established the useful filter: verification creates value when a real buyer and seller are blocked by uncertainty Greg can reduce. Verification alone is not a business.
-- Trust/recognized authority remains a bottleneck.
+- Sori's Merehook archive packet remains useful information but Sori is not an artifact specialist, lawyer, customs official, appraiser, or Greg's research assistant by default.
+- Antonius established that verification creates value only when a real buyer and seller are blocked by uncertainty Greg can reduce. Trust/recognized authority remains a bottleneck.
 
-## Chapter 484 - THE INTERMEDIARY
+### North Freight transaction / Ch484
+- Cross Street Surplus seller's four receipt-matched sway shoes were confirmed **OPEN DISPOSAL / LOT 31**, with service authority voided by three-punch lower-seal strike; sold as-is; no current load certification; private transfer permitted.
+- Buyer mechanic owned bench-function judgment.
+- The fourth unit initially failed because of a bent latch. Greg restructured the deal into three accepted units now plus a fourth conditional on repair/pass before deadline.
+- Fourth later passed twice. Completed transaction value **1 silver + 2c**. Greg received **3c seller-paid commission**.
+- Greg owns none of the sway shoes.
+- Seller's fifth weak/unclear-chain shoe remains unsold and outside Greg's scope.
+- North Freight has no standing obligation to hire Greg or send more deals.
+
+## Chapter 485 - THE ORGANIZER
 
 ### Role / title
-- Greg is **THE INTERMEDIARY** because he sits between an existing seller and buyer, does not own the goods, and creates value by aligning paper, scope, testing authority, price structure, timing, and incentives.
-- Repository title search found no current `THE INTERMEDIARY` collision before drafting.
+- Greg is **THE ORGANIZER** because he accepts responsibility for shared operational state across three existing crews without pretending to own their labor or specialist authority.
+- Repository search found no current `THE ORGANIZER` collision before drafting.
 
-### Buyer / seller / goods
-- Greg notices two independent North Market notices:
-  - North Freight Yard seeks **4 old-pattern yard sway shoes**, accepts old district pattern, requires **open disposal or clean private chain**, does **not** require current load rating, does require buyer-side bench function, and posts an offer up to **1 silver + 2 copper for four**.
-  - Cross Street Surplus offers **5 old yard shoes** with district marks for **1 silver + 6 copper, no split**.
-- Greg does not buy inventory.
-- The seller has a South Warehouse disposal receipt covering exactly **four** same-lot sway shoes. A fifth, slightly different weak unit came through the seller's brother with an old rail cart and has no clean paper established.
-- Greg deliberately excludes the fifth from his initial scope rather than smuggling a weak-chain unit into a clean transaction.
-- Seller remains unnamed and one-off in Ch484 unless later prose naturally reuses her.
-- North Freight quartermaster and buyer mechanic remain unnamed role-based people unless later naming becomes necessary.
+### South Road organizer notice reactivated
+- The old Ch472 notice remains the source: **PRIVATE HOUSE REQUIRES THREE SEASONAL FIELD CREWS / SOUTH ROAD / ORGANIZER FEE AVAILABLE / REFERENCES REQUIRED**.
+- Ch485 establishes the current inquiry point as **South Road Field Office / Lower Gate / third bell to fifth**.
+- The field office already has three seasonal crews contracted. Greg does NOT recruit them.
+- Approximate combined workforce is around twenty depending on day; exact worker count varies.
+- Work is seasonal drainage / late-cut cleanup before the wet turn: ditch clearing, cut brush, old-stake pull, access-path reset, bundling. Organizer owns no crop judgment.
 
-### Greg's commission / conflicts
-- Greg negotiates a written seller-paid commission:
-  - **3c** if the four receipt-matched units ultimately complete at **1s2c**;
-  - **4c** if completed price reaches **1s3c or more**;
-  - seller covers agreed public-record bits;
-  - no fee if no completed sale;
-  - fifth shoe excluded unless separately agreed.
-- Greg discloses this fee structure to the buyer, including the fact that he has an incentive toward a higher price.
-- This does not make him a licensed/certified broker or fiduciary. It demonstrates basic conflict disclosure and bounded scope.
+### Authority boundaries
+- Crew leads own their crews and ordinary work method.
+- House field steward owns field readiness, weather/section holds, and can stop any section.
+- House tool keeper owns tool issue/condition decisions.
+- Field office owns pay disputes and contract administration.
+- House carts / contracted wagon own transport execution; organizer tracks and routes them but is not automatically a driver.
+- Greg owns shared schedule, arrival/contact state, section assignment routing, relevant delay records, communication, and handoff alignment.
+- He does not hire, fire, set wages, inspect tools, certify field safety, or override crew-lead fieldcraft.
 
-### Provenance friction
-- The South Warehouse receipt says disposal but does not itself establish the exact status of old district marks to the buyer's ledger standard.
-- The four matched units carry a district oval with three lower-edge punch marks.
-- Greg does not guess what those punches mean.
-- A public docket lookup establishes:
-  - **SOUTH WAREHOUSE / OPEN DISPOSAL / LOT 31**
-  - **FOUR SWAY SHOES**
-  - **SERVICE AUTHORITY VOIDED BY THREE-PUNCH LOWER-SEAL STRIKE**
-  - **SOLD AS-IS / NO CURRENT LOAD CERTIFICATION**
-  - **PRIVATE TRANSFER PERMITTED**
-- Provenance/title friction is therefore cleared for exactly the four receipt-matched units.
-- The fifth weak/unclear-chain shoe remains excluded and unresolved.
+### References
+- Greg deliberately gets narrow references rather than asking friends to call him generally competent.
+- **Rinna** confirms bounded theatre support under changing rehearsal conditions, current-instruction tracking, unclear-authority questions, cues/entrances/prop-state handoffs/light work; she explicitly excludes fieldcraft/hiring/safety/outside crew supervision.
+- **Antonius Vale** confirms Greg's detailed records, improved term-reading, distinction between observation and preferred explanation when forced, and that he has honored agreed reporting/credit terms to date; he explicitly does not certify field competence, hiring judgment, solvency, or future performance.
+- The field office independently verifies both references before issuing the working packet.
 
-### Function authority / failed first close
-- Buyer mechanic owns bench-function judgment. Greg does not certify mechanism, safety, current load rating, or repair.
-- First two units pass the buyer's practical damping bench check.
-- Third unit squeals because of dirt/old grease; after seller-approved cleaning it functions weakly enough for buyer mechanic to mark **WEAK / FUNCTIONAL**.
-- Fourth unit fails because one jaw does not fully close due a bent latch.
-- Buyer mechanic says repair is probably simple but explicitly does not count that as a pass.
-- The original four-unit transaction therefore does **not** close at first test.
-- Greg earns **zero** at that point.
+### Organizer contract
+- Four-day term.
+- **4c** payable on accepted start plan plus confirmed crew/transport contacts.
+- **10c** payable only on completion of the four-day handoff if required daily organizer records are accepted.
+- No completion fee if Greg abandons term after start without house release.
+- House covers authorized message / record / local-cart costs.
+- No hidden worker-wage liability or attendance guarantee is established.
+- House may release Greg for material organizer failure; if released after accepted start plan, current prose establishes only that he keeps the accepted-plan payment, not any completion fee.
+- Total possible fee is 14c, but only 4c is earned through Ch485.
 
-### Commercial restructure
-- Buyer needs four before the next loading frame goes live on the sixth day; exact same-day possession is not required.
-- Greg proposes separating the commercial structure rather than pretending the failed fourth already passes:
-  - North Freight buys the three currently accepted units for **1 silver**.
-  - Fourth remains seller's property while repaired.
-  - Buyer conditionally agrees to buy fourth for **2c** only if it later passes the same buyer-side bench test before the deadline.
-  - No obligation exists to buy a failed fourth.
-  - No seller penalty is invented beyond losing the conditional second payment.
-- Greg's own commission remains contingent on the fourth completing and total deal reaching the agreed threshold.
+### Interview / limitations
+- Greg is explicitly **not the first-choice organizer**. The spring-turn organizer is north with family; another applicant wants hiring authority the house refuses to give.
+- Greg makes mistakes in scenario testing:
+  - initially assumes he can reassign tools; corrected because tool keeper owns issue;
+  - initially moves a crew away from a closed section without checking alternate readiness; corrected.
+- Useful answers include starting independent work when one crew is late, routing safety/no-water decisions to field steward, and checking the written wagon route/contract rather than arguing from memory.
+- His useful short pitch is: **I think I can keep three competent crews from waiting on the same cart.**
 
-### Final completion / money
-- Seller repairs the fourth unit offscreen. Exact repairer identity is unestablished and unimportant.
-- On return, buyer mechanic tests the fourth twice and marks **PASS / CURRENT BENCH ONLY / NO LOAD CERT**.
-- Buyer pays the final **2c**, bringing the completed transaction to **1 silver + 2 copper**.
-- Seller then pays Greg **3c** under the written commission agreement.
-- Greg cash moves **15c -> 18c**.
-- Greg owns none of the sway shoes before, during, or after the transaction.
-- No artifact enters Greg's kit.
+### Crew texture
+- North crew lead is terse/practical and mainly wants early warning when carts fail rather than impossible promises that carts will never fail.
+- Middle crew lead speaks in long, overexplained runs and has strong memory of prior bad logistics, including refusal to let euphemistic language turn wet-spoil uphill hauling into something lighter than it is.
+- Lower crew lead speaks more formally, states first-day six / possible second-day eight, requires two listed long-handled ditch hooks for lower-drainage work, and prefers reassignment before unsafe/improper substitution.
+- These speech patterns are current one-chapter texture, not rigid permanent gimmicks unless later prose reinforces them.
 
-### Durable economic lesson
-- Ch484 is intentionally not framed as another 3c day-labor chapter even though Greg's fee is 3c.
-- The underlying value moved is silver-scale.
-- Greg's contribution is connection + scope + title verification routing + conflict disclosure + commercial restructuring + patience until actual close.
-- Specialist boundaries remain explicit:
-  - records office owns title/release record;
-  - buyer mechanic owns bench-function judgment;
-  - seller owns repair;
-  - buyer and seller own price decisions;
-  - Greg owns the connection, scope, and transaction structure he actually negotiated.
-- Greg records: **Do not confuse facilitating with certifying.**
-- Greg recognizes that a market gap is only valuable when something real is stuck in it.
-- No automatic repeat deal or client pipeline is created.
-- Seller offers to discuss the fifth weak/unclear-chain shoe afterward; Greg refuses because buyer needed clean chain and the fifth still lacks it.
+### Day-one plan / reality change
+- Dusk before start: North ditch READY; Middle access line READY; Lower drainage cut HOLD due high water, recheck first light.
+- Greg writes a branched plan rather than pretending all three sections will start as originally assumed.
+- If lower cut remains closed, field steward may put Lower crew on North spoil bundling or Middle south-edge old-stake pull depending actual readiness; Lower lead retains work-method authority.
+- Cart A carries water/meal. Cart B carries tools/spoil baskets. Contract wagon is afternoon lower-turnout brush haul only if lower work actually starts.
+- First light keeps Lower drainage on HOLD.
+- Cart B is delayed by an axle-pin break. North and Middle can start with personal/available hand tools; Lower crew can start authorized Middle south-edge stake pull with its own pry bars.
+- Cart A arrives with yesterday's route sheet showing Lower first, conflicting with Greg's accepted plan. Greg routes the discrepancy back to field office, which issues an amended route. He does not treat the driver as wrong for following the older valid sheet.
+- Cart B later arrives after repair; tool keeper checks/releases it.
+- Lower drainage does not open until fifth bell, too late for productive same-day reassignment there.
+- Crew leads and field steward remain the people deciding actual field method/readiness.
+
+### Payment / end state
+- Field office accepts Greg's start plan and pays the contractual **4c**.
+- Cash moves **18c -> 22c**.
+- Office catches two record-quality misses: Greg omitted the Cart A route-correction time and omitted who approved Lower crew's alternate assignment. He fixes both.
+- Completion fee remains unearned.
+- Greg writes a day-one actual-state record rather than a victory summary.
+- Durable management insight is narrow: **plan is shared current version until reality changes; keep authority attached to the person who can actually decide.**
+- Greg does not count the future 10c as current cash.
 
 ## Protected uncertainties / live residue
-- Greg ends Ch484 **home in Carrow** at **18c cash / 23c Vale / bits unspecified**.
+- Greg ends Ch485 **home in Carrow at 22c cash / 23c Vale / bits unspecified**.
+- 10c survival floor leaves **12c currently deployable** without crossing floor.
+- The organizer term has **three days remaining** and a possible but unearned **10c completion fee**.
+- Completion would put Greg above the old 30c liquid reserve milestone if no intervening copper spending occurs, but do not count that money before it is paid and do not assume completion.
+- Debt closure is still inactive in Ch485. If liquidity later rises materially, verify each real liability against exact authority before paying anything.
 - Protocol **59 / 53 / 147**.
-- 10c survival floor leaves **8c currently deployable** without crossing floor, numerically matching the ceiling Greg had at the Ch476 stillhook auction but arising from a different economic path.
-- Moving-target sensitivity remains only a candidate magic condition.
-- No independent magic testing is authorized.
-- Work-limb final socket is not finished; Hark & Venn has trial hardware and Greg has the liner.
-- Existing limb quote remains unchanged; no new payment schedule, due date, pickup date, or balance timing is established.
-- Renn may or may not have returned to theatre; repeat work is not guaranteed.
-- Sori remains part of the Merehook/Anchor's End social network; exact later location after her Merehook archive work remains unestablished unless newer prose says otherwise.
-- Road Response Kit remains Greg's legally open-disposal property; old official calibration marks were voided and do not certify present accuracy.
-- Stillhook remains Elian's; magical-displacement behavior, maker/generation, repairability, and Elian's profession/use remain unverified.
-- Cross Street seller's fifth yard shoe remains weak/unclear-chain and unsold unless newer exact prose changes it later.
-- North Freight has no standing obligation to hire Greg or send him more deals.
-- East Fen Fenwright lower-draft problem remains unresolved and nonessential to the completed glass deal.
-- Ch473 marked Three Rays freight lot remains with freight owner unless newer exact prose changes that later.
-- No enforcement consequence from Ch473 has occurred.
-- Greg has not yet disclosed the Ch473 illegal freight to Lyssa.
-- Morrow, South Road organizer lead, Vale lane, and other pending lanes remain unresolved unless later authority moves them.
-- Debt closure remains inactive at current liquidity.
+- Moving-target sensitivity remains only a candidate magic condition; no independent testing.
+- Work-limb final socket is not finished; Hark & Venn has trial hardware and Greg has the liner. Existing quote/payment timing remains unchanged/uninvented.
+- Renn status remains unverified.
+- Stillhook remains Elian's; no instant replacement.
+- Ch473 marked Three Rays freight lot remains with freight owner unless newer exact prose changes it later. No enforcement consequence has occurred. Greg still has not disclosed the Ch473 illegal freight to Lyssa.
+- Morrow and other pending lanes remain unresolved unless later authority naturally moves them.
 - No permanent companion.
 
-## Chapter 485 trailhead
-Follow the next actual claim from Ch484/current authority and `state/PROGRESSION_ENGINE.md`.
+## Chapter 486 trailhead
+Follow the active South Road organizer term from current exact authority unless a genuinely stronger intervening claim arrives.
 
-Greg begins **18c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 147**, **home in Carrow**. He has now completed two distinct silver-scale-value moves without owning the underlying inventory: East Fen/Lakeward reed-glass introduction and North Freight sway-shoe intermediation.
+Greg begins **22c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 147**, with **three organizer days remaining** and a contingent **10c completion fee** not yet earned.
 
 Strong movement:
-- Change grammar again. Do not immediately run another buyer/seller paperwork deal.
-- Let Ch484's transaction stand long enough to feel like a new capability rather than a formula.
-- Management/organizer leverage is increasingly attractive because Greg's recent progression shows he can define scope, coordinate specialists, expose conflicts, and keep authority where it belongs.
-- The South Road organizer lead is therefore a strong possible next lane **if current timing naturally reactivates it**, but do not force it merely because the engine wants management.
-- A home/theatre/body/relationship consequence can also interrupt the economic lane if it has actual claim and different scene grammar.
-- Hark & Venn remains offscreen until real word or another fit request.
-- Hessa's moving-target candidate protocol remains live but should not immediately repeat Ch482.
-- Greg at 18c is not wealthy. His safe deployable copper above the 10c floor is 8c. Debt closure remains premature.
-- Ch473 gray freight can remain successful/unresolved. If it surfaces, use natural records, witnesses, counterparties, or Greg's chosen disclosure rather than moral punishment.
+- Ch486 should not replay the application/interview/reference setup. Greg already has the job.
+- Compress routine organizer repetitions. Use one materially different coordination problem that tests whether Greg can manage changing state across capable people without becoming their boss or stealing field expertise.
+- A useful pressure could come from attendance variance, transport conflict, section readiness, provisioning, contradictory instructions, a crew lead protecting workers from bad scope, or house priorities changing mid-term. Choose what the actual prose supports rather than stacking all of them.
+- Greg can make a real management mistake. Let another competent person correct him if appropriate.
+- Keep labor consent/incentives/scope visible. People are not units.
+- Do not automatically finish all three remaining days in exhaustive procedural detail. Compression is welcome if nothing earns scene space.
+- If the four-day term completes, pay only the exact contracted 10c after accepted records. Then reassess liquidity/debt closure from actual cash state, preserving reserve.
+- Hark & Venn remains offscreen until real word.
+- Hessa should not intrude merely because magic is available.
+- Theatre can remain background social continuity but should not steal the active contract unless real causality demands it.
+- Ch473 can remain unresolved; no automatic punishment.
 
 Avoid:
-- another immediate provenance lookup;
-- another same-shape broker transaction;
-- buying the fifth sway shoe or an instant stillhook replacement;
-- pretending one 3c commission makes Greg a professional broker with automatic deal flow;
-- another immediate Hessa session;
-- another same-function theatre substitute shift;
-- resolving South Road + Vale + Morrow + Ch473 together;
-- treating 18c as wealth or poverty reset;
-- debt-payoff checklist behavior;
+- repeating another full paperwork/broker chapter;
+- Greg becoming a field expert;
+- Greg issuing tools or safety judgments outside authority;
+- effortless perfect management;
+- counting the 10c before completion;
+- immediate debt-payoff checklist;
+- resolving organizer + limb + Hessa + Vale + Ch473 at once;
 - another strategic manifesto.
 
-**MANDATORY TITLE CHECK CH485:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
+**MANDATORY TITLE CHECK CH486:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
