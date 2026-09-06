@@ -48,6 +48,32 @@ class PerformanceProductionFunnelTests(unittest.TestCase):
         }
         funnel.validate_record(record)
 
+    def test_deep_review_can_still_end_in_source_win(self):
+        record = {
+            "chapter": 28,
+            "verdict": "source_win",
+            "screen": {
+                "decision": "deep_review",
+                "signals": ["rhythm"],
+                "reason": "The exchange looked too polished on the cheap screen.",
+            },
+            "comparison": "The source already resolves the pressure through the active task, so the candidate adds staging without improving the scene.",
+        }
+        funnel.validate_record(record)
+
+    def test_deep_review_source_win_requires_comparison(self):
+        record = {
+            "chapter": 28,
+            "verdict": "source_win",
+            "screen": {
+                "decision": "deep_review",
+                "signals": ["rhythm"],
+                "reason": "The exchange looked too polished on the cheap screen.",
+            },
+        }
+        with self.assertRaisesRegex(ValueError, "comparison"):
+            funnel.validate_record(record)
+
     def test_surviving_change_requires_deep_roundtrip_evidence(self):
         record = {
             "chapter": 28,
@@ -61,6 +87,34 @@ class PerformanceProductionFunnelTests(unittest.TestCase):
         }
         with self.assertRaisesRegex(ValueError, "dramatic"):
             funnel.validate_record(record)
+
+    def test_validate_batch_requires_exact_scope_coverage_once(self):
+        batch = {
+            "schema": "performance_production_batch/v1",
+            "source_authority": "abc123",
+            "scope": [27, 28],
+            "records": [
+                {
+                    "chapter": 27,
+                    "verdict": "source_win",
+                    "screen": {"decision": "source_win", "signals": [], "reason": "Healthy."},
+                },
+                {
+                    "chapter": 28,
+                    "verdict": "source_win",
+                    "screen": {"decision": "source_win", "signals": [], "reason": "Healthy."},
+                },
+            ],
+        }
+        funnel.validate_batch(batch)
+
+        missing = {**batch, "records": batch["records"][:1]}
+        with self.assertRaisesRegex(ValueError, "coverage"):
+            funnel.validate_batch(missing)
+
+        duplicate = {**batch, "records": [batch["records"][0], batch["records"][0]]}
+        with self.assertRaisesRegex(ValueError, "coverage"):
+            funnel.validate_batch(duplicate)
 
     def test_apply_record_replaces_exact_paragraph_span(self):
         page = (
