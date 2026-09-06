@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "batch": "250-251",
+  "status": "applied",
+  "strength": "aggressive-on-repetition-preserve-distinct-role-progression",
+  "source_authority": "reader chapter prose with synchronized text-reader projection",
+  "stable_id_actions": {
+    "plg-ch-000250": {
+      "status": "active",
+      "action": "tightened_emergency_substitution"
+    },
+    "plg-ch-000251": {
+      "status": "active",
+      "action": "tightened_understudy_to_performance"
+    }
+  },
+  "illustration_policy": "advisory hold; art does not protect redundant prose or boundaries",
+  "stats": {
+    "chapters/250.html": {
+      "before_words": 3459,
+      "after_words": 3376,
+      "delta_words": -83
+    },
+    "light/250.html": {
+      "before_words": 3459,
+      "after_words": 3376,
+      "delta_words": -83
+    },
+    "chapters/251.html": {
+      "before_words": 2882,
+      "after_words": 2515,
+      "delta_words": -367
+    },
+    "light/251.html": {
+      "before_words": 2882,
+      "after_words": 2515,
+      "delta_words": -367
+    }
+  },
+  "protected": {
+    "250": [
+      "Pell sickness trigger",
+      "Greg moved from Steward to Uncle",
+      "Marek inherits Steward",
+      "crutch/stool staging adaptation"
+    ],
+    "251": [
+      "Lyssa cue practice",
+      "table memory vs embodied performance",
+      "wrong-line recovery",
+      "stopping is worse",
+      "Greg stops copying Pell"
+    ]
+  }
+}
