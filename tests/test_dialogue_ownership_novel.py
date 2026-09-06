@@ -80,6 +80,11 @@ class DialogueOwnershipNovelTests(unittest.TestCase):
         self.assertEqual(after_parts, ['Sava said, “No.”', 'Everyone looked at her.', 'Sava pointed at Osric.'])
         self.assertEqual(quoted_spans(' '.join(after_parts)), before)
 
+    def test_unbalanced_cross_paragraph_quote_is_protected(self):
+        text = 'don’t go east beneath..." They lost the rest and replaced it with laughter. An old man snapped at them.'
+        self.assertEqual(split_paragraph(text), [text])
+        self.assertEqual(quoted_spans(text), [])
+
     def test_markdown_emphasis_block_is_not_rewritten(self):
         text = '**The theatre sent somebody by for you once. He said, "Again?" like this was my fault. I told him no. He left.**'
         transformed, splits = _transform_markdown_body(text)
