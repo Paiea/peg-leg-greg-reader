@@ -20,14 +20,14 @@ Greg remains the gravitational center of short dry compressed comic reduction. O
 
 ## Sequential coverage ledger
 
-- Chapters **1-275: VARIANCE REVIEWED**
-- Chapters **276-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-285: VARIANCE REVIEWED**
+- Chapters **286-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 276**
+Current sequential variance edge: **Chapter 286**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_266_275.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_276_285.md`
 
 ## Sequential batch authority
 
@@ -76,32 +76,32 @@ Sequential artifacts now run through:
 - `BATCH_246_255.md`
 - `BATCH_256_265.md`
 - `BATCH_266_275.md`
+- `BATCH_276_285.md`
 
 Existing out-of-sequence pilot evidence remains:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches do not bridge the unreviewed 276-320 gap.
+Those later batches do not bridge the unreviewed 286-320 gap.
 
-## Chapters 266-275 result
+## Chapters 276-285 result
 
-- Chapter 266 `THE RUNNER`: **no variance change required**. Edrin/Tessa/Greg keep report, road, and old-life expertise separate.
-- Chapter 267 `THE ERRAND`: **no variance change required**. Nerin, Jessa, and Mara remain transactional/socially distinct; optional errand scope stays real.
-- Chapter 268 `THE CALLER`: **no variance change required**. Lenn teaches routing, Hara owns cue timing, Marek supplies current scene history, and Iven owns the actual bellthroats.
-- Chapter 269 `THE COBBLER`: **moderate variance patch required**. Replace two branded face/prediction beats with visible sustained attention and repair-timing authority.
-- Chapter 270 `THE WATCHMAN`: **no variance change required**. Orin/Tolan/Nessa keep casual-work, folk-belief, and local copperback knowledge separate.
-- Chapter 271 `THE DISTANCE`: **no variance change required**. Hessa's broader paper-square test remains permission/evidence driven without overclaiming range or generalized object moving.
-- Chapter 272 `THE QUEUE`: **no variance change required**. Public-water knowledge, worker authority, neighborhood logistics, and Vela's delivery route remain distinct.
-- Chapter 273 `THE WITNESS`: **no variance change required**. Green Coat purchases convenience; Senn values bounded testimony; Lyssa remains person-centered.
-- Chapter 274 `THE READER`: **light variance patch required**. Remove a random fruit seller's `I wasn't / you looked` ladder and keep the basket boundary physical.
-- Chapter 275 `THE SCRAPER`: **no variance change required**. Greg's rimeweb knowledge is bounded against Mella's local building authority; the potato inference is earned by visible handling.
+- Chapter 276 `THE MASK`: **no variance change required**. Sivi's lamp/mask jurisdiction and specific Marek coworker knowledge remain distinct from generic prediction machinery.
+- Chapter 277 `THE APPRAISER`: **light variance patch required**. Replace Lyssa's generic `your face did` with the visible fact that Greg stopped walking to stare at the clasp.
+- Chapter 278 `THE CLIENT`: **no variance change required**. Jori's paid appraisal caution remains scope/evidence driven rather than Hessa imitation.
+- Chapter 279 `THE FINDER`: **light variance patch required**. Replace an incidental cabbage seller's `you have a face` joke with transaction-state impatience.
+- Chapter 280 `THE REPEAT`: **no variance change required**. Hessa's middle-distance repeat remains predeclared, evidence-bounded, and explicit about Greg's changing urge to compensate.
+- Chapter 281 `THE SHARE`: **no variance change required**. Rell's repair/property authority stays distinct from Greg's emerging consultation scope.
+- Chapter 282 `THE SCENE PARTNER`: **light variance patch required**. Replace `I didn't say anything / your face did` with a specific visible rehearsal-state correction: `Stop looking relieved.`
+- Chapter 283 `THE WHOLESALE DOOR`: **no variance change required**. Wholesale and retail staff remain transaction/routing specific and do not indulge Greg's business theorizing.
+- Chapter 284 `THE WRONG CORNER`: **no variance change required**. Local chaffer knowledge remains partial, inconsistent, and ordinary; visible hand movement justifies Cala's correction to Tavi.
+- Chapter 285 `THE SHORT MEASURE`: **no variance change required**. Nara/Daro conflict remains productive family/work messiness; `You brought ruler man` is physically grounded, not predictive.
 
 Batch totals:
 
-- Variance patches: **3**, across Chapters **269, 274**.
-- Moderate chapters: **269**.
-- Light chapters: **274**.
-- No-variance-change chapters: **266, 267, 268, 270, 271, 272, 273, 275**.
+- Variance patches: **3**, across Chapters **277, 279, 282**.
+- Light chapters: **277, 279, 282**.
+- No-variance-change chapters: **276, 278, 280, 281, 283, 284, 285**.
 - Prior attribution/name/referent authority preserved.
 - New dialogue-attribution speaker-clarity repairs surfaced: **0**.
 - New name/referent repairs surfaced: **0**.
@@ -113,32 +113,33 @@ Batch totals:
 
 - Greg owns the highest density of compressed dry counterpunches. Supporting characters may be funny, dry, clever, or terse without inheriting his reduction architecture.
 - Repeated `No / I didn't say / you were about to`, `you were thinking`, generic `you looked`, and generic `your face` ladders have a high burden after manuscript-wide overdistribution.
-- Consecutive prediction beats deserve a higher burden. Background and first-contact characters especially should not inherit branded prediction/argument architecture merely because the exchange is funny.
+- Background and first-contact characters especially should not inherit branded prediction/argument architecture merely because the exchange is funny.
+- Consecutive prediction beats deserve a higher burden.
 - Wrong predictions can be healthy when the miss is visible and demonstrates fallibility. Greg's own overprediction is especially useful when another person explicitly corrects him.
-- Visible sustained attention can replace `your face`. If Greg watches an object through repeated cycles, a worker can say so literally.
-- Low-stakes inference remains healthy when the physical behavior is strong. Pulling out, wiping, smelling, and studying a potato can reasonably make Olan think Greg might eat it.
-- Visible affect is cheaper than hidden reasoning. Body/face observation is especially legitimate when the body is part of an apparatus or attention itself is the craft variable.
+- Visible sustained attention or visible stopping can replace `your face`. If Greg watches an object through repeated cycles, stops walking, stops chewing, reaches, leans, or physically handles something, a worker or partner can name the action.
+- Visible affect can be named specifically. `Stop looking relieved` is stronger than `your face did` when relief is the actual observable rehearsal-state problem.
+- Low-stakes inference remains healthy when physical behavior is strong.
 - Relationship familiarity should alter workflow and sharpen questions, not grant transcript access. Stable cognition should vary in surface performance.
-- Let Greg actually say the systems joke. Lyssa is often strongest when her answer returns to the concrete work rather than proving she knew the joke already.
+- Specific coworker prediction can remain when it has provenance and a concrete work temptation, as with Sivi/Marek and the one-crutch cross.
+- A family dispute can justify anticipatory refusal when the disputed object and hired inspector arrive together. Physical context can make the inference obvious.
+- Let Greg actually say the systems joke. Lyssa is often strongest when her answer returns to concrete work rather than proving she knew the joke already.
 - Phrase/catchphrase ownership matters. A visitor may enter a running joke through explicit history without inheriting mind-reading.
-- Prefer current evidence, object, role, rule, schedule, contract, damaged equipment, route, body position, records, or work history over generic personality commentary.
-- Material timing can replace predicted questions. A cobbler who has just retested a seam can say `Then wait` instead of proving she knows the question Greg has not asked.
-- Merchandise boundaries should stay merchandise boundaries. Background sellers do not need psychological banter to protect a basket.
-- Direct handling rules and object custody are often stronger than personality reads.
-- Predeclared procedure is stronger than predicted intention. Written order, schedule, apparatus, and test rules can constrain Greg without mind-reading.
-- Information-discipline voices defend thresholds for different reasons: Antonius ledger, Rinna known/unknown, Hessa apparatus/evidence, Senn testimony, Deni procedure, Toma physical comparison.
-- Distributed expertise protects Greg's competence. Independent corroboration and local jurisdiction make his knowledge feel more credible, not less.
-- Greg may possess old-life expertise while current-city routing, law, custody, pricing, maintenance, or procedure belongs to local people.
-- Shared caution is not automatically Hessa voice. Edrin, Savin, Senn, Deni, Toma, Mella, and Hessa all bound claims for different operational reasons.
+- Incidental merchants should joke from transaction state, merchandise, queue, route, or price rather than generic psychology.
+- Prefer current evidence, object, role, rule, schedule, contract, damaged equipment, route, body position, records, or work history over personality commentary.
+- Material timing can replace predicted questions. Direct handling rules and object custody are often stronger than personality reads.
+- Predeclared procedure is stronger than predicted intention.
+- Information-discipline voices defend thresholds for different reasons: Antonius ledger, Rinna known/unknown, Hessa apparatus/evidence, Senn testimony, Deni procedure, Toma physical comparison, Jori appraisal scope.
+- Distributed expertise protects Greg's competence. Greg may possess old-life expertise while current-city routing, law, custody, pricing, maintenance, appraisal, or procedure belongs to local people.
+- Shared caution is not automatically Hessa voice.
 - First-contact professional scope is stronger than instant Greg calibration.
-- Craft anticipation remains legitimate when character knowledge, gaze, cue timing, or scene continuity is the actual variable.
+- Craft anticipation remains legitimate when character knowledge, gaze, cue timing, scene continuity, or rehearsal state is the actual variable.
 - Work continuing can replace curiosity policing. Other people's jobs may simply continue without explaining themselves to Greg.
 - Messy systems protect voice. Exceptions may arrive only when encountered; real work need not front-load every rule.
 - Repeated work words such as `Wait`, `Good`, `No`, and `Less` remain healthy when current object and jurisdiction keep changing what they mean.
 - Do not optimize away bad metaphors, incomplete explanations, wrong guesses, local disagreement, silence, awkwardness, or underperformance when they belong to the speaker.
-- Threat, civic, or magical pressure does not justify universal mind-reading.
+- Threat, civic, commercial, or magical pressure does not justify universal mind-reading.
 - Hessa asks before explaining, narrows nouns, records before interpreting, and stops when the current question is answered or apparatus/body no longer justifies more attempts.
-- Rejecting a spoken speculative claim is not predictive dialogue. Hessa may say `Do not` after Greg has actually voiced the bad inference.
+- Rejecting a spoken speculative claim is not predictive dialogue.
 - Do not upgrade a response into reliability, range, generalized object moving, casting, or Barrier clearance without exact evidence.
 - Attribution density and voice variance are separate problems. Prior accepted name/pronoun/referent repairs remain owned by `state/editorial/dialogue-pass/`.
 - `Evin` remains source-settled where prior batches corrected `EvIn` drift.
@@ -159,11 +160,11 @@ A chapter counts as variance-reviewed only after exact prose is read, prior attr
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 276**.
+Resume sequentially at **Chapter 286**.
 
 Preferred bounded queue: **10 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 276-285**.
+Next intended batch: **Chapters 286-295**.
 
 ## Restart prompt
 
