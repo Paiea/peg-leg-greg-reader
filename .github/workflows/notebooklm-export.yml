@@ -9,27 +9,33 @@ on:
       - 'scripts/build_notebooklm_export.py'
       - 'scripts/reader_sections.py'
       - '.github/workflows/notebooklm-export.yml'
+  pull_request:
+    paths:
+      - 'state/manuscript/**'
+      - 'scripts/build_notebooklm_export.py'
+      - 'scripts/reader_sections.py'
+      - 'tests/test_manuscript_readable.py'
+      - '.github/workflows/notebooklm-export.yml'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: notebooklm-export-main
+  group: notebooklm-export-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
-          ref: main
-          fetch-depth: 0
-      - uses: actions/setup-python@v5
+          fetch-depth: 1
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
-      - name: Build manuscript-only sources
+      - name: Build manuscript-only sources and editorial read surface
         run: python scripts/build_notebooklm_export.py
       - name: Validate structured output
         run: |
@@ -46,19 +52,25 @@ jobs:
           ! ls exports/notebooklm/PLG_BOOK_III_CH181-*.md 2>/dev/null
           grep -q 'CHAPTER 220' exports/notebooklm/PLG_BOOK_III_ACT_II_CH220-280_THE_PRICE_OF_ATTENTION.md
           grep -q 'CHAPTER 441' exports/notebooklm/PLG_BOOK_V_ACT_I_CH441-*_THE_LONGER_REACH.md
-      - name: Commit refreshed export
+          test -s state/manuscript-readable/001-010.md
+          test -s state/manuscript-readable/091-100.md
+          grep -q 'NON-AUTHORITATIVE' state/manuscript-readable/091-100.md
+          grep -q 'CHAPTER 91' state/manuscript-readable/091-100.md
+          grep -q 'CHAPTER 100' state/manuscript-readable/091-100.md
+      - name: Commit refreshed generated manuscript surfaces
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
-          if git diff --quiet -- exports/notebooklm && [ -z "$(git ls-files --others --exclude-standard exports/notebooklm)" ]; then
-            echo 'NotebookLM export already current.'
+          if git diff --quiet -- exports/notebooklm state/manuscript-readable && [ -z "$(git ls-files --others --exclude-standard exports/notebooklm state/manuscript-readable)" ]; then
+            echo 'Generated manuscript surfaces already current.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add exports/notebooklm
-          git commit -m 'Refresh NotebookLM manuscript export'
+          git add exports/notebooklm state/manuscript-readable
+          git commit -m 'Refresh generated manuscript surfaces'
           git pull --rebase origin main
           python scripts/build_notebooklm_export.py
-          git add exports/notebooklm
+          git add exports/notebooklm state/manuscript-readable
           if ! git diff --cached --quiet; then
             git commit --amend --no-edit
           fi

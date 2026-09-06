@@ -8,6 +8,7 @@ from pathlib import Path
 
 import generate_light as gl
 from reader_sections import book_and_act_for_chapter
+from showcase import ShowcaseMap, build_showcase_map, load_showcase_manifest
 
 
 def discover_published_chapters(root: Path) -> list[int]:
@@ -39,6 +40,15 @@ def page_h1(text: str) -> str:
     return page_tag_text(text, 'h1')
 
 
+def _range_label(showcase: ShowcaseMap, start: int, end: int) -> str:
+    visible = [number for number in showcase.visible_canon if start <= number <= end]
+    if not visible:
+        raise AssertionError(f'no Showcase chapters in canonical range {start}-{end}')
+    first = showcase.showcase_number(visible[0])
+    last = showcase.showcase_number(visible[-1])
+    return f'Chapters {first}–{last}'
+
+
 def verify_reader_frontier(
     root: Path,
     *,
@@ -46,22 +56,31 @@ def verify_reader_frontier(
     expected_title: str | None = None,
 ) -> int:
     numbers = discover_published_chapters(root)
-    latest = numbers[-1]
-    if expected_latest is not None and latest != expected_latest:
+    canonical_latest = numbers[-1]
+    if expected_latest is not None and canonical_latest != expected_latest:
         raise AssertionError(
-            f'Illustrated frontier mismatch: published {latest}, manuscript authority {expected_latest}'
+            f'Illustrated frontier mismatch: published {canonical_latest}, manuscript authority {expected_latest}'
         )
+
+    showcase = build_showcase_map(
+        numbers,
+        load_showcase_manifest(root / 'publishing' / 'showcase_chapters.json'),
+    )
+    if not showcase.visible_canon:
+        raise AssertionError('Showcase has no visible published chapters')
+    latest = showcase.visible_canon[-1]
+    latest_display = showcase.showcase_number(latest)
 
     illustrated_page = root / 'chapters' / f'{latest:03d}.html'
     light_page = root / 'light' / f'{latest:03d}.html'
     if not illustrated_page.is_file():
-        raise AssertionError(f'missing latest Illustrated page: {illustrated_page}')
+        raise AssertionError(f'missing latest Showcase Illustrated page: {illustrated_page}')
     if not light_page.is_file():
-        raise AssertionError(f'missing latest Text page: {light_page}')
+        raise AssertionError(f'missing latest Showcase Text page: {light_page}')
 
     illustrated_text = illustrated_page.read_text(encoding='utf-8')
     light_text = light_page.read_text(encoding='utf-8')
-    if expected_title is not None:
+    if expected_title is not None and latest == canonical_latest:
         illustrated_title = page_h1(illustrated_text)
         if illustrated_title != expected_title:
             raise AssertionError(
@@ -83,8 +102,8 @@ def verify_reader_frontier(
     if 'rel="next"' in light_text:
         raise AssertionError('Text latest next link should be disabled')
 
-    if latest > 1:
-        previous = latest - 1
+    previous = showcase.previous_visible(latest)
+    if previous is not None:
         expected_previous = f'rel="prev" href="{previous:03d}.html"'
         if expected_previous not in illustrated_text:
             raise AssertionError('Illustrated latest previous link is stale')
@@ -94,9 +113,9 @@ def verify_reader_frontier(
         illustrated_previous_page = root / 'chapters' / f'{previous:03d}.html'
         text_previous_page = root / 'light' / f'{previous:03d}.html'
         if not illustrated_previous_page.is_file():
-            raise AssertionError('missing Illustrated penultimate page')
+            raise AssertionError('missing Illustrated previous Showcase page')
         if not text_previous_page.is_file():
-            raise AssertionError('missing Text penultimate page')
+            raise AssertionError('missing Text previous Showcase page')
         illustrated_previous_text = illustrated_previous_page.read_text(encoding='utf-8')
         text_previous_text = text_previous_page.read_text(encoding='utf-8')
         expected_next = f'rel="next" href="{latest:03d}.html"'
@@ -104,6 +123,8 @@ def verify_reader_frontier(
             raise AssertionError('Illustrated penultimate next link is stale')
         if expected_next not in text_previous_text:
             raise AssertionError('Text penultimate next link is stale')
+    elif 'rel="prev"' in illustrated_text or 'rel="prev"' in light_text:
+        raise AssertionError('latest Showcase page has unexpected previous link')
 
     index_text = (root / 'index.html').read_text(encoding='utf-8')
     light_index_text = (root / 'light' / 'index.html').read_text(encoding='utf-8')
@@ -111,8 +132,11 @@ def verify_reader_frontier(
         current_book, current_act = book_and_act_for_chapter(latest)
     except ValueError as exc:
         raise AssertionError(str(exc)) from exc
-    expected_book_range = current_book.range_label(latest)
-    expected_act_range = f'{current_act.numeral} · {current_act.range_label(latest)}'
+
+    book_end = current_book.effective_end(latest)
+    act_end = current_act.effective_end(latest)
+    expected_book_range = _range_label(showcase, current_book.start, book_end)
+    expected_act_range = f'{current_act.numeral} · {_range_label(showcase, current_act.start, act_end)}'
 
     for label, text in (('Illustrated index', index_text), ('Text index', light_index_text)):
         if current_book.numeral not in text:
@@ -125,20 +149,24 @@ def verify_reader_frontier(
             raise AssertionError(f'{label} is missing current Act title {current_act.title}')
 
     if f'href="chapters/{latest:03d}.html"' not in index_text:
-        raise AssertionError('Illustrated index does not link the latest chapter')
-    if f'href="{latest:03d}.html">Read newest · Chapter {latest}' not in light_index_text:
-        raise AssertionError('Text index newest-chapter action is stale')
+        raise AssertionError('Illustrated index does not link the latest Showcase chapter')
+    if f'href="{latest:03d}.html">Read newest · Chapter {latest_display}' not in light_index_text:
+        raise AssertionError('Text index newest-Showcase action is stale')
 
     latest_page = root / 'latest.html'
     if not latest_page.is_file():
         raise AssertionError('missing latest landing page')
     latest_text = latest_page.read_text(encoding='utf-8')
-    if f'href="light/{latest:03d}.html"' not in latest_text or f'Read Chapter {latest}' not in latest_text:
+    if (
+        f'href="light/{latest:03d}.html"' not in latest_text
+        or f'Read Chapter {latest_display}' not in latest_text
+    ):
         raise AssertionError('Latest landing page is stale')
-    if page_h1(latest_text) != f'Chapter {latest}':
+    if page_h1(latest_text) != f'Chapter {latest_display}':
         raise AssertionError('Latest landing chapter number is stale')
-    if expected_title is not None and page_tag_text(latest_text, 'h2') != expected_title:
-        raise AssertionError('Latest landing title is stale')
+    if expected_title is not None and latest == canonical_latest:
+        if page_tag_text(latest_text, 'h2') != expected_title:
+            raise AssertionError('Latest landing title is stale')
 
     manifest_path = root / 'light' / 'manifest.json'
     if not manifest_path.is_file():
@@ -149,10 +177,12 @@ def verify_reader_frontier(
         raise AssertionError('invalid Text manifest') from exc
     if manifest.get('latest') != latest:
         raise AssertionError('Text manifest latest field is stale')
+    if manifest.get('latest_showcase') not in {None, latest_display}:
+        raise AssertionError('Text manifest latest_showcase field is stale')
     entries = manifest.get('chapters')
     if not isinstance(entries, list):
         raise AssertionError('Text manifest chapters field is invalid')
-    if any(isinstance(entry, dict) and entry.get('number', 0) > latest for entry in entries):
+    if any(isinstance(entry, dict) and entry.get('number', 0) > canonical_latest for entry in entries):
         raise AssertionError('Text manifest contains chapter beyond published frontier')
 
     manifest_numbers = sorted(
@@ -162,9 +192,12 @@ def verify_reader_frontier(
     )
     if not manifest_numbers:
         raise AssertionError('Text manifest chapter range is empty')
-    expected_manifest_numbers = list(range(manifest_numbers[0], latest + 1))
+    expected_manifest_numbers = [
+        number for number in showcase.visible_canon
+        if manifest_numbers[0] <= number <= latest
+    ]
     if manifest_numbers != expected_manifest_numbers:
-        raise AssertionError('Text manifest chapter range is not contiguous')
+        raise AssertionError('Text manifest chapter range is not contiguous with Showcase visibility')
 
     frontier_entries = [
         entry for entry in entries
@@ -173,14 +206,15 @@ def verify_reader_frontier(
     if len(frontier_entries) != 1:
         raise AssertionError('Text manifest frontier entry is stale')
     frontier_entry = frontier_entries[0]
-    expected_manifest_title = expected_title if expected_title is not None else page_h1(light_text)
+    expected_manifest_title = expected_title if expected_title is not None and latest == canonical_latest else page_h1(light_text)
     if (
         frontier_entry.get('title') != expected_manifest_title
         or frontier_entry.get('path') != f'{latest:03d}.html'
+        or frontier_entry.get('showcase_number', latest_display) != latest_display
     ):
         raise AssertionError('Text manifest frontier entry is stale')
 
-    return latest
+    return canonical_latest
 
 
 def main() -> int:
@@ -190,14 +224,14 @@ def main() -> int:
     manuscript_latest = max(all_chapters)
     manuscript_title = all_chapters[manuscript_latest].title
     try:
-        latest = verify_reader_frontier(
+        canonical_latest = verify_reader_frontier(
             Path('.'),
             expected_latest=manuscript_latest,
             expected_title=manuscript_title,
         )
     except AssertionError as exc:
         raise SystemExit(str(exc)) from exc
-    print(f'verified reader frontier through Chapter {latest}')
+    print(f'verified canonical reader frontier through Chapter {canonical_latest} and Showcase public frontier')
     return 0
 
 

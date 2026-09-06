@@ -1,6 +1,6 @@
 # CHAPTER 306
 
-## THE BAD TOOL
+## THE BUYER
 
 Three copper had been enough money to make me curious.
 

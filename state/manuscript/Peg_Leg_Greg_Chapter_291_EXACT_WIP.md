@@ -1,6 +1,6 @@
 # CHAPTER 291
 
-## THE DOOR WEIGHT
+## THE TROUBLESHOOTER
 
 The front door tried to eat my crutch.
 

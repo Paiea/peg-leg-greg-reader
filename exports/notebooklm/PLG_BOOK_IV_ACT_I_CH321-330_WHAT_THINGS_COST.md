@@ -2142,7 +2142,7 @@ For the first time in several days, I had something more expensive to think abou
 
 # CHAPTER 323
 
-## THE HELD WEIGHT
+## THE MESSENGER
 
 The slab stopped falling three inches above a man's hand.
 
@@ -3048,7 +3048,7 @@ I liked that better.
 
 # CHAPTER 324
 
-## THE PRICE
+## THE INQUIRER
 
 Mara Quill charged two copper to tell you she did not know.
 
@@ -3790,7 +3790,7 @@ I needed to stop arriving with exactly enough for none of them.
 
 # CHAPTER 325
 
-## THE NIGHT LINE
+## THE LINE HAND
 
 The job paid two copper because nobody wanted to stand in the square after dark and tell strangers where not to stand.
 
@@ -4672,7 +4672,7 @@ Three was enough to make the next question different.
 
 # CHAPTER 326
 
-## THE LOT
+## THE BUYER
 
 Three copper bought me the right to make a bad decision with confidence.
 
@@ -5742,7 +5742,7 @@ Because for one copper, I had finally bought something worth finding out.
 
 # CHAPTER 327
 
-## THE LAST DOOR
+## THE TESTER
 
 The thing clicked every time I went through a door.
 
@@ -6710,7 +6710,7 @@ The second made it survivable.
 
 # CHAPTER 328
 
-## THE WRONG DOOR
+## THE ROUTE TESTER
 
 The problem with knowing which door was behind you was that sometimes the door behind you was the problem.
 
@@ -7738,7 +7738,7 @@ Or the way out.
 
 # CHAPTER 329
 
-## THE WAY OUT
+## THE EVACUEE
 
 The scream came from downstairs.
 
@@ -8724,7 +8724,7 @@ For now.
 
 # CHAPTER 330
 
-## THE BACK DOOR
+## THE RESIDENT
 
 For three days, our front door became decorative.
 

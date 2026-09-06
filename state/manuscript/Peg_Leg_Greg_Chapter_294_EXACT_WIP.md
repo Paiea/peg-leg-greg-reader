@@ -1,6 +1,6 @@
 # CHAPTER 294
 
-## THE USUAL
+## THE SHOPPER
 
 Cala's shopping note contained four words and one number.
 

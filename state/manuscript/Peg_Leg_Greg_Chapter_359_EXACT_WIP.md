@@ -1,6 +1,6 @@
 # CHAPTER 359
 
-## THE REFUSAL
+## THE FREE AGENT
 
 The first real offer I got from South Quay was worse than no offer.
 

@@ -1,6 +1,6 @@
 # CHAPTER 332
 
-## THE HOUSING
+## THE CLIENT
 
 Five copper was enough money to become irresponsible in more interesting ways.
 

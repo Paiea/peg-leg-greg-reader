@@ -1,6 +1,6 @@
 # CHAPTER 357
 
-## THE GOOD COAT
+## THE ADVISER
 
 Lyssa wanted a coat.
 

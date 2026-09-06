@@ -2,13 +2,13 @@
 
 ## THE BIDDER
 
-Eighteen copper was enough to buy something stupid.
+Thirteen silver was enough to buy something stupid.
 
 That was different from being enough to buy anything I wanted.
 
 Important distinction.
 
-I had eighteen copper in my purse, twenty-three still sitting with Vale, a five-copper reed-glass commission somewhere west of me in the dangerous metaphysical state called probably, and one Tool House reference proving I could tell people not to stand under eleven hundred units of iron.
+I had twelve copper and thirteen silver in my purse, Vale still open, a two-silver reed-glass commission somewhere west of me in the dangerous metaphysical state called probably, and one Tool House reference proving I could tell people not to stand under eleven hundred units of iron.
 
 Progress.
 
@@ -104,7 +104,7 @@ The tag read:
 
 **NO CURRENT BODY-RATED CERTIFICATE**
 
-**OPEN 4C**
+**OPEN 4S**
 
 I stopped.
 
@@ -274,15 +274,15 @@ No proof the two working plates still met original load rating.
 
 Seller made no claim beyond demonstration.
 
-Four copper opening.
+Four silver opening.
 
 I could afford four.
 
-I could afford eight without crossing ten-copper floor.
+I could afford eight without crossing my five-silver operating floor.
 
-Eight was not one silver.
+Eight silver was not gold.
 
-Eight was also not nothing.
+Eight silver was also not nothing.
 
 More importantly, the object did not deserve eight merely because I had eight available.
 
@@ -404,7 +404,7 @@ The bolt stopped two feet away and fell.
 
 Everyone made appropriate noises.
 
-Tag opened at one silver.
+Tag opened at one gold.
 
 Of course it did.
 
@@ -588,17 +588,17 @@ Most things did.
 
 I sat against wall.
 
-Eighteen copper.
+Thirteen silver plus ordinary copper.
 
-Ten floor.
+Five-silver operating floor.
 
-Five pending.
+Two silver pending.
 
-Twenty-three Vale.
+Vale still open.
 
 Work-limb deposit already sunk.
 
-Stillhook opening four.
+Stillhook opening four silver.
 
 Unknown repair.
 
@@ -646,7 +646,7 @@ Auctioneer read sheet.
 
 No poetry.
 
-"Road survey stillhook. Two live plates. One failed. No current body certification. Demonstrated only to posted test. Opening four copper."
+"Road survey stillhook. Two live plates. One failed. No current body certification. Demonstrated only to posted test. Opening four silver."
 
 Silence for half breath.
 
@@ -668,7 +668,7 @@ Good.
 
 Now price had information.
 
-At six, two people wanted current visible utility.
+At six silver, two people wanted current visible utility.
 
 Not just me.
 
@@ -676,11 +676,11 @@ Auctioneer looked around.
 
 I had planned ceiling.
 
-Eight.
+Eight silver.
 
 Not because eight was value.
 
-Because eight was maximum I could deploy without crossing floor, and artifact was not worth violating reserve on uncertain memory.
+Because eight silver was maximum I could deploy without crossing floor, and artifact was not worth violating reserve on uncertain memory.
 
 Those were different ceilings.
 
@@ -690,7 +690,7 @@ My available risk was not.
 
 I raised hand.
 
-"Seven."
+"Seven silver."
 
 The woman in back looked at me.
 
@@ -700,9 +700,9 @@ Evaluating.
 
 Auctioneer pointed.
 
-"Seven."
+"Seven silver."
 
-Man from viewing said, "Eight."
+Man from viewing said, "Eight silver."
 
 There went ceiling.
 
@@ -716,13 +716,13 @@ I did nothing.
 
 Auctioneer called eight once.
 
-The woman in back said, "Nine."
+The woman in back said, "Nine silver."
 
 Interesting.
 
 Man frowned.
 
-"Ten."
+"Ten silver."
 
 No.
 
@@ -738,15 +738,15 @@ Auctioneer called ten.
 
 Woman hesitated.
 
-Then: "Eleven."
+Then: "Eleven silver."
 
 The man stopped.
 
-Eleven.
+Eleven silver.
 
 More than I could spend while preserving floor.
 
-Also still below obvious new barrier-plate tier, whatever silver meant relative to copper.
+Also still below the obvious one-gold barrier-plate tier.
 
 Damaged survey gear with two useful axes had a market.
 
@@ -764,7 +764,7 @@ Auctioneer called.
 
 No higher bid.
 
-Sold eleven copper.
+Sold eleven silver.
 
 I felt stupid.
 
@@ -810,9 +810,9 @@ Good.
 
 I liked her immediately and distrusted that.
 
-"Why eleven?"
+"Why eleven silver?"
 
-"Because two working plates are worth eight to me, hook assembly two, and I can gamble one on ceramic."
+"Because two working plates are worth eight silver to me, hook assembly two, and I can gamble one on ceramic."
 
 That was clean enough to hurt.
 
@@ -982,7 +982,7 @@ At Tool House, the buyer looked up from crate slate.
 
 I leaned against counter.
 
-"Stillhook sold eleven."
+"Stillhook sold eleven silver."
 
 He grunted.
 
@@ -992,7 +992,7 @@ He grunted.
 
 "What did you bid?"
 
-"Seven."
+"Seven silver."
 
 He looked at me.
 
@@ -1076,7 +1076,7 @@ Better.
 
 **Visible:** two-axis lateral hold relative fixed anchor. thumb-held activation. third plate dead. narrow angle. rebound if released under tension. no current body cert.
 
-**Market:** opened 4c, sold 11c. Multiple bidders. Broken does not mean worthless.
+**Market:** opened 4s, sold 11s. Multiple bidders. Broken does not mean worthless.
 
 **Recognition:** class familiar from later-life use. Third-Line mark maybe. Exact generation unknown. Possible later nonphysical-displacement use remembered, NOT established for this unit/class.
 

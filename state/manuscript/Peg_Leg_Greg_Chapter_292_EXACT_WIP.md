@@ -1,6 +1,6 @@
 # CHAPTER 292
 
-## THE SHADE LINE
+## THE OBSERVER
 
 The fish moved when the sun did.
 

@@ -4,7 +4,7 @@
 
 The legal way to Cinder Cross cost five copper.
 
-The illegal way paid six.
+The illegal way paid enough silver to make the risk an actual decision.
 
 That was not how the morning started.
 
@@ -12,7 +12,7 @@ The morning started with me standing at Lakeward east freight board pretending I
 
 Fifteen copper.
 
-Twenty-three with Vale.
+Vale still open.
 
 Ten-copper floor.
 
@@ -152,7 +152,7 @@ There.
 
 "Sale price?"
 
-"One silver for the whole mixed load if he takes it as listed."
+"Forty-eight silver for the whole mixed load if he takes it as listed."
 
 There it was.
 
@@ -318,11 +318,11 @@ I liked him.
 
 She swore.
 
-Then said, "One copper extra if it clears."
+Then said, "Two silver extra if it clears."
 
-He said, "Two."
+He said, "Four."
 
-"One."
+"Three."
 
 "Then take your own wagon."
 
@@ -330,7 +330,7 @@ She looked at me as if this were my fault.
 
 It was a little.
 
-"One and six bits."
+"Four silver."
 
 He considered.
 
@@ -342,7 +342,7 @@ Now my turn.
 
 "What are you offering me?"
 
-"Ride east. Three copper if buyer takes full load."
+"Ride east. Six silver if buyer takes full load."
 
 "No."
 
@@ -354,21 +354,21 @@ Driver laughed.
 
 She did not.
 
-"Four."
+"Eight."
 
-"Six."
+"Twelve."
 
 "Absolutely not."
 
-"Your sale is one silver and misses window if you wait legal release. I am not asking percentage because we don't have a conversion I trust and I'm not pretending we do. Six copper plus ride if buyer accepts full load. Two copper plus ride if he rejects route lots but takes remainder because my screening helped preserve sale. Zero if I materially misrepresent what I know."
+"Your sale is forty-eight silver and misses window if you wait legal release. Twelve silver plus ride if buyer accepts full load. Eight silver plus ride if he rejects the marked route lot but takes the remainder because my screening helps preserve the sale. Zero if I materially misrepresent what I know."
 
-"Four full. One partial."
+"Ten full. Six partial."
 
-"Five full. Two partial."
+"Twelve full. Eight partial."
 
 She looked at driver.
 
-He said, "Pay him five so we can leave."
+He said, "Pay him twelve so we can leave."
 
 "Nobody asked you."
 
@@ -376,7 +376,7 @@ He said, "Pay him five so we can leave."
 
 Support network forming beautifully.
 
-"Five," she said. "Ride included."
+"Twelve full. Eight partial," she said. "Ride included."
 
 "And I do not lie about provenance to buyer."
 
@@ -410,9 +410,9 @@ Knowingly illegal.
 
 Morally acceptable enough by my current information.
 
-Five copper upside.
+Twelve silver upside if the whole load cleared.
 
-Free five-copper ride.
+Ride included.
 
 Potential confiscation, fine, charge, damaged relationship with Lakeward road offices.
 
@@ -548,9 +548,9 @@ No one asked about pre-merger export release.
 
 We rolled through.
 
-Five copper saved.
+Five copper fare avoided.
 
-Five copper potentially earned.
+Twelve silver potentially earned.
 
 No lightning bolt from ethics.
 
@@ -688,7 +688,7 @@ Professionally.
 
 Then he looked at seller.
 
-"One silver was for clean paper."
+"Forty-eight silver was for clean paper."
 
 Ah.
 
@@ -776,21 +776,21 @@ The marked Three Rays lot stayed with seller, still sealed after inspection? It 
 
 So not full-load acceptance.
 
-My contract said two copper if buyer rejected route lots but took remainder because my screening helped preserve sale.
+My contract said eight silver if buyer rejected the marked route lot but took the remainder because my screening helped preserve the sale.
 
 That was what happened.
 
-Two copper.
+Eight silver.
 
-Plus free ride worth five.
+Plus the ride.
 
-Not five cash.
+Not the full twelve.
 
 Not nothing.
 
-Freight woman paid two.
+Freight woman paid eight silver.
 
-Fifteen to seventeen.
+My copper purse stayed fifteen.
 
 Then buyer stopped me before I left.
 
@@ -864,11 +864,11 @@ Dangerous sentence.
 
 I went to Cinder Cross lodging board.
 
-One copper floor.
+One copper lodging.
 
-Seventeen to sixteen.
+Fifteen to fourteen copper.
 
-Still six above survival floor after arriving east.
+Eight silver stayed eight silver.
 
 If I had taken normal cart, I would have arrived with ten.
 
@@ -910,9 +910,9 @@ Clean lots sold.
 
 Marked route lot rejected pending paper or discount.
 
-My fee: 2c + transport.
+My fee: 8s + transport.
 
-Cash: 17 before lodging, 16 after.
+Cash: 8s + 14c after lodging.
 
 Then:
 
@@ -956,9 +956,9 @@ One road.
 
 Two markets.
 
-Six copper better than legal baseline.
+Five copper of fare avoided and eight silver earned on a legally exposed transaction.
 
-Silver-scale goods beginning to move around me.
+The scale had changed.
 
 This felt less like climbing a ladder.
 

@@ -1,6 +1,6 @@
 # CHAPTER 334
 
-## HOUSE LEFT
+## THE SPECTATOR
 
 Theatre looked different when nobody wanted me to move anything.
 

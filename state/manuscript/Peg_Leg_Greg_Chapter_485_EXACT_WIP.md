@@ -22,15 +22,11 @@ No promise that the work still existed.
 
 Just enough persistence to make pretending I had not copied it weeks ago embarrassing.
 
-I had eighteen copper.
+I had a mixed purse now: ordinary copper for daily life and enough silver that tiny jobs no longer defined the whole problem.
 
-Twenty-three with Vale.
+Vale still open.
 
 Bits unspecified.
-
-Ten floor.
-
-Eight above it.
 
 Magic fifty-nine, fifty-three, one-forty-seven.
 
@@ -208,7 +204,7 @@ He read it.
 
 "Narrower thing. Written agreements. Scope. Money. Whether I do what I said after I sign."
 
-"You owe me twenty-three copper."
+"You still have an active account with me."
 
 "Excellent evidence of ongoing relationship."
 
@@ -362,21 +358,19 @@ She slid a sheet across table.
 
 **ORGANIZER TERM / FOUR DAYS**
 
-**4C ON ACCEPTED START PLAN + CONFIRMED CREW/TRANSPORT CONTACTS**
+**6S ON ACCEPTED START PLAN + CONFIRMED CREW/TRANSPORT CONTACTS**
 
-**10C ON COMPLETION OF FOUR-DAY HANDOFF IF ALL DAILY ORGANIZER RECORDS ACCEPTED**
+**12S ON COMPLETION OF FOUR-DAY HANDOFF IF ALL DAILY ORGANIZER RECORDS ACCEPTED**
 
 **NO COMPLETION FEE IF ORGANIZER ABANDONS TERM WITHOUT HOUSE RELEASE**
 
 **HOUSE COVERS AUTHORIZED MESSAGE / RECORD / LOCAL CART COSTS**
 
-Fourteen copper total.
+Eighteen silver total.
 
 I read again.
 
-Not silver.
-
-Still more than a seven-copper day.
+Actually silver.
 
 More importantly, I was not being paid to clear a ditch.
 
@@ -414,7 +408,7 @@ She looked at me.
 
 "How much?"
 
-"Twenty-three copper."
+"I haven't reconciled the whole account recently. Enough that I should."
 
 "Does this job require you to front house expenses?"
 
@@ -516,7 +510,7 @@ Interesting.
 
 "So?"
 
-"You can have provisional term if references verify today. Start plan due by first bell tomorrow. If plan accepted, four copper. If first morning goes badly enough, house can release you and you keep only accepted-plan payment."
+"You can have provisional term if references verify today. Start plan due by first bell tomorrow. If plan accepted, six silver. If first morning goes badly enough, house can release you and you keep only accepted-plan payment."
 
 "Fair."
 
@@ -804,19 +798,15 @@ I enjoyed that too much.
 
 "How much?"
 
-"Four copper if they accept start plan. Ten more after four-day handoff if records accepted."
+"Six silver if they accept start plan. Twelve more after four-day handoff if records accepted."
 
 She did math with face.
 
-"Fourteen."
+"Eighteen silver."
 
 "Yes."
 
-"You have eighteen."
-
-"Yes."
-
-"So if you don't ruin crops you get thirty-two."
+"And if you don't ruin crops, the term actually matters."
 
 I looked at her.
 
@@ -826,9 +816,9 @@ I looked at her.
 
 I did.
 
-Thirty-two.
+Eighteen silver total.
 
-Above the thirty-copper reserve target I had been circling for months.
+A different tier from the copper jobs I had been stacking.
 
 If.
 
@@ -836,7 +826,7 @@ Not mine yet.
 
 Important.
 
-"Four first," I said.
+"Six first," I said.
 
 "Good."
 
@@ -1080,19 +1070,17 @@ Marked in three places.
 
 "Accepted."
 
-Four copper on table.
+Six silver on table.
 
 There.
 
 Not completion.
 
-Not fourteen.
+Not eighteen.
 
-Four.
+Six.
 
 I counted once.
-
-Eighteen to twenty-two.
 
 She said, "Your actual-arrival record is missing Cart A route correction time."
 
@@ -1136,13 +1124,11 @@ Safer.
 
 "Good."
 
-I put four copper away.
+I put six silver away.
 
-Twenty-two.
+Operating reserve intact.
 
-Ten floor.
-
-Twelve above it.
+Twelve more silver still conditional.
 
 Closer.
 
@@ -1238,15 +1224,13 @@ Her work had its own schedule.
 
 Good.
 
-I put four new copper beside the rest.
+I put six new silver beside the rest.
 
-Twenty-two.
-
-Not thirty-two.
+Not eighteen silver for the term.
 
 Not yet.
 
-Ten completion copper sat in someone else's future obligation, contingent on three more days and acceptable records.
+Twelve completion silver sat in someone else's future obligation, contingent on three more days and acceptable records.
 
 I did not count it.
 

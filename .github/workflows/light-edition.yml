@@ -14,6 +14,8 @@ on:
       - 'state/PROJECT_STATE.md'
       - 'state/READER_DESIGN_LAB.md'
       - 'state/IMAGE_PRODUCTION.md'
+      - 'state/SHOWCASE_CANON.md'
+      - 'publishing/showcase_chapters.json'
       - 'state/editorial/DIALOGUE_VARIANCE_PASS_STATE.md'
       - 'state/editorial/dialogue-variance-pass/**'
       - 'state/visual/SCENE_CANDIDATES.json'
@@ -33,6 +35,7 @@ on:
       - 'state/visual/ILLUSTRATION_APPROVAL_PACKET.md'
       - 'chapters/*.html'
       - 'index.html'
+      - 'scripts/showcase.py'
       - 'scripts/generate_light.py'
       - 'scripts/generate_illustrated.py'
       - 'scripts/reader_sections.py'
@@ -40,6 +43,8 @@ on:
       - 'scripts/verify_light.py'
       - 'scripts/verify_reader_frontier.py'
       - 'scripts/update_reader_navigation.py'
+      - 'scripts/update_showcase_chapter_shells.py'
+      - 'scripts/cleanup_showcase_light.py'
       - 'scripts/update_reader_presentation.py'
       - 'scripts/illustration_state.py'
       - 'scripts/illustration_edit_hold.py'
@@ -128,8 +133,10 @@ jobs:
         run: python scripts/generate_illustrated.py current
       - name: Generate current Light range
         run: python scripts/generate_light.py current
-      - name: Update illustrated contents and cross-mode navigation
+      - name: Apply Showcase publishing layer
         run: |
+          python scripts/cleanup_showcase_light.py
+          python scripts/update_showcase_chapter_shells.py
           python scripts/update_reader_navigation.py index.html
           python scripts/update_home_contents.py
       - name: Refresh illustration production state
@@ -152,8 +159,9 @@ jobs:
           python scripts/review_bounded_production.py --start 156 --end 160
           python scripts/build_approval_packet.py
           python scripts/report_illustration_coverage.py --strict
-      - name: Verify Light publishing derivatives
+      - name: Verify Showcase publishing derivatives
         run: |
+          python scripts/project_check.py showcase
           python scripts/verify_light.py 156-219
           python scripts/verify_light.py current
           python scripts/verify_reader_frontier.py
@@ -194,8 +202,6 @@ jobs:
             echo 'recovered-manuscript path leaked into Text Reader'
             exit 1
           fi
-          grep -q 'href="220.html"' light/219.html
-          grep -q 'href="219.html"' light/220.html
           grep -q 'href="light/index.html">Text Reader</a>' index.html
           grep -q 'BOOK I' index.html
           grep -q 'BOOK II' index.html
@@ -226,7 +232,6 @@ jobs:
           grep -q '../assets/book-contents.css' light/index.html
           grep -q 'Text Reader' light/index.html
           grep -q 'Illustrated Reader' light/index.html
-          grep -q 'TEXT READER · CHAPTER 220' light/220.html
           grep -q 'Text-only reading · no chapter illustrations' light/220.html
           if grep -R '#chapters' light/*.html light.html latest.html index.html assets/light-progress.js assets/light-reader.js; then
             echo 'stale #chapters anchor detected'

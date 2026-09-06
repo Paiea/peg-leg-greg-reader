@@ -24,6 +24,21 @@ Do not rely on a stale chat prompt for current story position.
 - exploratory chat is not canon
 - WIP branches are durable but not accepted `main`
 
+## Full Canon vs Showcase
+
+Peg-Leg Greg has one story canon and a separate reader-facing curation layer.
+
+- Full canonical manuscript chronology remains story authority even when a chapter is hidden from the public reading sequence.
+- `publishing/showcase_chapters.json` controls only whole-chapter showcase visibility. It does not delete, de-canonize, rewrite, merge, or move manuscript events.
+- Manuscript, Writers' Room, Story Control, character, setting, continuity, economy, and editorial workers must reason from **Full Canon**, including hidden showcase chapters.
+- Reader / UI and publishing workers consume the **Showcase** sequence for public chapter lists, display numbering, and previous/next navigation.
+- Canonical chapter IDs, source filenames, art registry references, and continuity references never renumber to match showcase numbering.
+- Artwork stays attached to canonical chapter IDs. Hiding a chapter does not retire its art.
+- Curation is whole-chapter only. Never add scene, paragraph, or prose-range hiding to the showcase manifest.
+- Validate showcase state with `python scripts/project_check.py showcase`.
+
+The showcase may become substantially shorter than Full Canon. That is intentional. Hidden chapters still happened.
+
 ## Shared development architecture
 
 For narrative development, read `state/DEVELOPMENT_CYCLE.md`.
@@ -80,10 +95,10 @@ Read `state/VISUAL_BIBLE.md` and `state/IMAGE_PRODUCTION.md`, then actual manusc
 If `state/visual/PRODUCTION_HOLD.json` says an active `structural_edit_hold`, do **not** generate new art or automatically promote approved art into reader prose. Preserve scene-candidate intent, treat chapter/title/paragraph-anchor placement as provisional, and use `state/visual/ILLUSTRATION_RECONCILIATION_REPORT.md` after the structural edit to explicitly remap, retire, or replace drifted candidates before production resumes.
 
 ### Reader / UI
-Read `state/READER_DESIGN_LAB.md`, visual guidance, current reader files, and current project authority. Use a branch for broad changes. Never rewrite prose as a presentation side effect.
+Read `state/READER_DESIGN_LAB.md`, visual guidance, current reader files, and current project authority. Use a branch for broad changes. Never rewrite prose as a presentation side effect. When showcase curation is active, use `publishing/showcase_chapters.json` and generated showcase numbering for public ordering while preserving canonical file paths and art identity.
 
 ### Publishing / repository integration
-Prefer small legible commits. Reconcile in favor of newer authority. Never restore stale whole-file versions over newer work.
+Prefer small legible commits. Reconcile in favor of newer authority. Never restore stale whole-file versions over newer work. Showcase curation changes public presentation only; never apply a showcase hide decision as a manuscript deletion.
 
 ## GitHub workflow
 

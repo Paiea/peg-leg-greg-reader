@@ -148,7 +148,7 @@ Correct.
 
 Completion fee lived in future.
 
-Twenty-two copper remained twenty-two.
+The six-silver start payment stayed in reserve with the rest of my working money.
 
 Third day started clean.
 
@@ -648,7 +648,7 @@ Day three record accepted.
 
 Still no completion money.
 
-Twenty-two.
+Six silver from the start term was already real. Twelve more remained conditional.
 
 That night Lyssa was home before me.
 
@@ -946,7 +946,7 @@ There.
 
 “Completion fee?”
 
-“Still ten copper.”
+“Still twelve silver.”
 
 “Important question.”
 
@@ -954,7 +954,7 @@ She opened cash box.
 
 Counted.
 
-Ten copper.
+Twelve silver.
 
 Put it on table.
 
@@ -964,15 +964,13 @@ Not because I distrusted her.
 
 Because money deserved witnesses.
 
-Ten.
-
-Cash twenty-two to thirty-two.
+Twelve.
 
 No conversion.
 
 No celebration.
 
-Just thirty-two copper.
+Just an eighteen-silver organizer term completed exactly as written.
 
 She said, “You did adequately.”
 
@@ -1046,7 +1044,7 @@ Good.
 
 The work had still happened.
 
-At home I put ten copper on table.
+At home I put twelve silver on table.
 
 Lyssa looked at it.
 
@@ -1054,19 +1052,15 @@ Then me.
 
 “How much?”
 
-“Ten.”
+“Twelve.”
 
 “For today?”
 
-“For finishing four-day organizer term.”
+“Completion half. Eighteen silver for the four-day organizer term total.”
 
 “That sounds better.”
 
 “It is.”
-
-“How much now?”
-
-“Thirty-two cash.”
 
 She stopped with cup halfway to mouth.
 
@@ -1080,17 +1074,13 @@ Just noticed.
 
 “Right.”
 
-Twenty-three copper still owed.
+Vale still existed.
 
 There it was.
 
-For the first time, that number did not feel larger than my entire life.
+For the first time, the existence of that account did not feel larger than my entire life.
 
-Twenty-three owed.
-
-Thirty-two cash.
-
-Ten floor.
+I had enough independent earning power to stop guessing what I owed and finally reconcile the whole ugly thing.
 
 Work limb still existed.
 
@@ -1102,7 +1092,7 @@ Food existed.
 
 Tomorrow existed.
 
-Thirty-two did not mean twenty-three was free to leave.
+The silver did not mean Vale was free to leave.
 
 It meant I could finally look at old numbers without assuming every answer was no.
 
@@ -1174,11 +1164,11 @@ No artifact.
 
 No sudden opportunity.
 
-Thirty-two copper.
+Eighteen silver earned across the organizer term.
 
-Twenty-three Vale.
+Vale still open and due for reconciliation.
 
-Ten floor.
+Operating reserve intact.
 
 A completed organizer reference folded with my papers.
 

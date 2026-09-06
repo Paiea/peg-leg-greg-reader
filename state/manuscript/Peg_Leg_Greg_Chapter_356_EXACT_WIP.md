@@ -1,6 +1,6 @@
 # CHAPTER 356
 
-## THE BLUE HOUR
+## THE COMPANION
 
 The fog came in speaking with other people's voices.
 

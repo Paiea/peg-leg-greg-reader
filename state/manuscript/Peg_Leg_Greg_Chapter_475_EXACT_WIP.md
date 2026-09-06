@@ -14,11 +14,11 @@ Cinder Cross Tool House opened before breakfast had finished becoming breakfast.
 
 The front doors were still barred when I arrived, but the yard gate stood open because freight apparently had different religious beliefs about morning.
 
-I had fourteen copper.
+I had twelve copper and eight silver.
 
-Twenty-three still with Vale.
+Vale still open.
 
-Five copper possibly traveling toward me from Lakeward if six bundles of reed glass survived a road, an inspection, and at least one person with authority finding a reason to be difficult.
+Two silver possibly traveling toward me from Lakeward if six bundles of reed glass survived a road, an inspection, and at least one person with authority finding a reason to be difficult.
 
 I did not count it.
 
@@ -212,7 +212,7 @@ Silence.
 
 Important question.
 
-Buyer said, "Two copper."
+Buyer said, "Three silver."
 
 I laughed.
 
@@ -226,11 +226,11 @@ He did not.
 
 "It makes your shoulder less relevant."
 
-"Three copper."
+"Five silver."
 
-"Two."
+"Three."
 
-"If the long frame clears west bay before second bell and nothing gets put in the wrong place, four."
+"If the long frame clears west bay before second bell and nothing gets put in the wrong place, five."
 
 He squinted.
 
@@ -250,9 +250,9 @@ Buyer looked at him.
 
 Then me.
 
-"Three if everything clears."
+"Four if everything clears."
 
-"Four if frame clears west bay and receiving record closes before second bell. Two if we finish later but clean."
+"Five if frame clears west bay and receiving record closes before second bell. Three if we finish later but clean."
 
 The broad South Chain woman barked a laugh.
 
@@ -262,7 +262,7 @@ The broad South Chain woman barked a laugh.
 
 She did not.
 
-"Four," buyer said. "No injuries."
+"Five," buyer said. "No injuries."
 
 "That's not a fee condition. That's a baseline."
 
@@ -958,11 +958,11 @@ Nobody applauded.
 
 Excellent.
 
-Buyer gave me four copper.
+Buyer counted five silver into my hand.
 
-Fourteen to eighteen.
+I still had twelve copper. Silver moved from eight to thirteen.
 
-I counted because transaction required counting, not because eighteen copper had become a spiritual condition.
+I counted because transaction required counting, not because thirteen silver had become a spiritual condition.
 
 He said, "You didn't do much."
 
@@ -986,7 +986,7 @@ He said, "You didn't do much."
 
 He glared.
 
-"Then why did I pay you four?"
+"Then why did I pay you five silver?"
 
 I looked across yard.
 
@@ -1270,9 +1270,9 @@ Different.
 
 Better.
 
-Not because eighteen was a bigger emotion.
+Not because thirteen silver was a bigger emotion.
 
-Because it had stopped being the only number that mattered.
+Because the purse had stopped being the only number that mattered.
 
 I had cash.
 

@@ -10,7 +10,7 @@ It had not become a goat shed.
 
 It had become three sheds, two kilns, one leaning drying house, and a yard full of cut reed frames that looked like somebody had tried to build a fence out of bad decisions.
 
-I stood at the west gate with sixteen copper, twenty-three still with Vale, one Lakeward specification, and exactly enough confidence to be irritating.
+I stood at the west gate with fourteen copper, eight silver, Vale still open, one Lakeward specification folded inside notebook, and exactly enough confidence to be irritating.
 
 A woman in a leather apron looked at me through the gate.
 
@@ -734,7 +734,7 @@ Now I was taking bounded risk.
 
 One copper.
 
-Potential five-copper commission if landed terms beat north quote materially.
+Potential two-silver commission if landed terms beat north quote materially.
 
 Also market relationship.
 
@@ -914,7 +914,7 @@ Worth it.
 
 Message:
 
-**EAST FEN CAN OFFER 6 FUNCTIONALLY MATCHED BUNDLES SUBJECT FINAL THIRD-DAY PASS. 4 DRY PASS NOW. 2 COLOR-REJECT OVERAGE CURRENTLY DRYING, COLOR ONLY OUTSIDE PRIOR CUSTOMER PREFERENCE. EARLIEST CINDER FOURTH MORNING. COVERED SLAT BACKHAUL AVAILABLE SAME MORNING. SELLER ASK + CARRIER QUOTE ATTACHED. I HAVE NOT COMMITTED BUYER OR SELLER. CONFIRM WHETHER LANDED TERMS QUALIFY 3C OR 5C INTRODUCTION CONDITION IF FINAL INSPECTION PASSES.**
+**EAST FEN CAN OFFER 6 FUNCTIONALLY MATCHED BUNDLES SUBJECT FINAL THIRD-DAY PASS. 4 DRY PASS NOW. 2 COLOR-REJECT OVERAGE CURRENTLY DRYING, COLOR ONLY OUTSIDE PRIOR CUSTOMER PREFERENCE. EARLIEST CINDER FOURTH MORNING. COVERED SLAT BACKHAUL AVAILABLE SAME MORNING. SELLER ASK + CARRIER QUOTE ATTACHED. I HAVE NOT COMMITTED BUYER OR SELLER. CONFIRM WHETHER LANDED TERMS QUALIFY 1S OR 2S INTRODUCTION CONDITION IF FINAL INSPECTION PASSES.**
 
 Then I waited.
 
@@ -1146,11 +1146,11 @@ Let capable people do their jobs.
 
 The wagon left.
 
-I had fourteen copper.
+I had twelve copper and eight silver.
 
-Five-copper commission pending, not earned yet.
+Two-silver commission pending, not earned yet.
 
-Twenty-three with Vale.
+Vale still open.
 
 Bits unspecified.
 

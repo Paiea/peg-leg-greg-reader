@@ -6,6 +6,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SCRIPT = ROOT / 'scripts' / 'update_reader_navigation.py'
+sys.path.insert(0, str(ROOT / 'scripts'))
+from update_reader_navigation import patch_home
 
 HOME = '''<!doctype html><html><body><div aria-label="Start or explore the book" class="home-actions"><a class="start primary-action" href="chapters/001.html">Begin Reading</a><a class="secondary-action" href="#chapters">Chapter List</a><a class="tertiary-action" href="art.html">Illustrations</a></div></body></html>'''
 
@@ -26,6 +28,16 @@ class NavigationPatchTests(unittest.TestCase):
             self.assertEqual(text.count('href="light/index.html">Text Reader</a>'), 1)
             self.assertIn('href="chapters/001.html">Begin Reading</a>', text)
             self.assertIn('href="#chapters">Chapter List</a>', text)
+
+    def test_begin_reading_can_move_to_first_visible_canonical_chapter(self):
+        with tempfile.TemporaryDirectory() as td:
+            path = Path(td) / 'index.html'
+            path.write_text(HOME, encoding='utf-8')
+            changed = patch_home(path, begin_canon=2)
+            self.assertTrue(changed)
+            text = path.read_text(encoding='utf-8')
+            self.assertIn('href="chapters/002.html">Begin Reading</a>', text)
+            self.assertNotIn('href="chapters/001.html">Begin Reading</a>', text)
 
     def test_collapses_historical_reader_link_duplicates(self):
         with tempfile.TemporaryDirectory() as td:

@@ -1,6 +1,6 @@
 # CHAPTER 304
 
-## THE QUIET TABLE
+## THE SUBJECT
 
 Hessa's note arrived while I was sorting beans.
 

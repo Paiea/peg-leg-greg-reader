@@ -1,6 +1,6 @@
 # CHAPTER 301
 
-## THE FALSE DOOR
+## THE TESTER
 
 The theatre sent paper instead of Lenn.
 
