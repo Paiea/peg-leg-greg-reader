@@ -38,21 +38,21 @@ Status: `CLEAN` on first ownership read.
 No cross-character dialogue/action ownership violation found in the inspected prose. The off-wall neighbor line remains structurally clear because the neighbor's speech is self-contained and Greg's reaction begins after it in narration.
 
 ### Chapter 2 — THE BORROWER
-Status: `PATCHED` pending manuscript write.
+Status: `PATCHED` and re-fetched from branch after write.
 
-Clear ownership violations identified:
+Repairs shipped to `chapters/002.html`:
 
-1. Greg says `"Your age."` and Antonius's smile plus reply remain in Greg's paragraph.
-   - Repair: end Greg's paragraph after `"Your age."`; begin Antonius's paragraph with the smile and his reply.
+1. Greg's `"How much for a cart?"` no longer shares a paragraph with the stall owner's reaction and reply.
+2. The stall owner's `"Two silver."` no longer shares a paragraph with Greg's internal reaction.
+3. Greg's `"Your age."` no longer carries Antonius's smile and reply.
+4. Antonius's `"How much?"` no longer carries Greg naming the number plus the scarred man's reaction.
+5. Greg's `"If I had an answer you'd believe..."` no longer carries Antonius denying the loan.
+6. Greg's `"Fine."` no longer carries Antonius counting silver.
+7. Antonius's `"Eight days, Greg."` no longer carries Greg picking up the coins.
+8. Sella's `"Do I know you?"` no longer carries Greg's future-memory narration.
+9. Greg's `"You," I said.` no longer carries Sella staring and Greg smiling in one mixed-owner paragraph.
 
-2. Greg says `"Fine."` and Antonius immediately counts silver in the same paragraph.
-   - Repair: end Greg's paragraph after `"Fine."`; begin Antonius's action in a new paragraph.
-
-3. Antonius says `"Eight days, Greg."` and Greg's `I picked them up` remains in Antonius's paragraph.
-   - Repair: move Greg's action to a new paragraph.
-
-4. Greg says `"You," I said.` and Sella's `She stared.` remains in Greg's paragraph.
-   - Repair: move Sella's reaction to a new paragraph; Greg's following smile may remain with Greg only if separated from Sella's beat.
+No dialogue wording, canon fact, transaction fact, or scene outcome changed in these repairs.
 
 ### Chapter 3 — THE INVESTOR
 Status: `REVIEW` with multiple confirmed early hits.
