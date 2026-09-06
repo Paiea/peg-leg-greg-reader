@@ -17,24 +17,24 @@
   "illustration_policy": "advisory hold; art does not protect redundant prose or chapter boundaries",
   "stats": {
     "chapters/197.html": {
-      "before_words": 2694,
+      "before_words": 1860,
       "after_words": 1860,
-      "delta_words": -834
+      "delta_words": 0
     },
     "light/197.html": {
-      "before_words": 2694,
+      "before_words": 1860,
       "after_words": 1860,
-      "delta_words": -834
+      "delta_words": 0
     },
     "chapters/198.html": {
-      "before_words": 3431,
-      "after_words": 2829,
-      "delta_words": -602
+      "before_words": 2829,
+      "after_words": 2803,
+      "delta_words": -26
     },
     "light/198.html": {
-      "before_words": 3431,
-      "after_words": 2829,
-      "delta_words": -602
+      "before_words": 2829,
+      "after_words": 2803,
+      "delta_words": -26
     }
   },
   "protected": {
