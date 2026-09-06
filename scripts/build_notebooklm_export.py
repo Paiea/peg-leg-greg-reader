@@ -182,6 +182,20 @@ def split_chapters_exact(text: str) -> dict[int, str]:
     return chapters
 
 
+def join_exact_ranges(texts: list[str]) -> dict[int, str]:
+    joined: dict[int, str] = {}
+    for text in texts:
+        current = split_chapters_exact(text)
+        overlap = set(joined).intersection(current)
+        if overlap:
+            raise ValueError(f"Duplicate chapters across exact authority ranges: {sorted(overlap)}")
+        joined.update(current)
+    numbers = list(joined)
+    if numbers and numbers != list(range(numbers[0], numbers[-1] + 1)):
+        raise ValueError(f"Exact authority range coverage/order mismatch: got {numbers}")
+    return joined
+
+
 def build_readable_chunks(chapters: dict[int, str], out: Path, chunk_size: int = READABLE_CHUNK_SIZE) -> list[Path]:
     if chunk_size <= 0:
         raise ValueError("chunk_size must be positive")
@@ -310,12 +324,7 @@ def main() -> int:
     ]) + "\n"
 
     readable_chapters = static_exact_chapters()
-    readable_late_text = "\n\n".join([
-        slice_chapters(recovered, 156, 220).strip(),
-        slice_chapters(running, 220).strip(),
-        checkpoints.strip(),
-    ]) + "\n"
-    late_readable = split_chapters_exact(readable_late_text)
+    late_readable = join_exact_ranges([recovered, running, checkpoints])
     readable_chapters.update(late_readable)
     expected_numbers = list(range(1, latest + 1))
     if list(readable_chapters) != expected_numbers:
