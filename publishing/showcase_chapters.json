@@ -22,6 +22,10 @@
     "20": {
       "showcase": false,
       "reason": "low_consequence_mundane"
+    },
+    "21": {
+      "showcase": false,
+      "reason": "redundant_progression"
     }
   }
 }
