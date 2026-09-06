@@ -27,6 +27,8 @@
     "102": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
     "108": {"showcase": false, "reason": "low_consequence_mundane"},
     "113": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
-    "119": {"showcase": false, "reason": "superseded_by_stronger_chapter"}
+    "119": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
+    "127": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
+    "130": {"showcase": false, "reason": "redundant_progression"}
   }
 }
