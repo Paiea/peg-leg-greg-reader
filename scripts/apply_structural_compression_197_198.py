@@ -90,7 +90,7 @@ def transform_paragraphs(number, paragraphs):
 
         if any('OLD_REPAIR_AND_LUNCH_LOOP' in p for p in out):
             out = repl(out, 'Nobody respected them.', 'The afternoon changed something.', ['Nobody respected them.'] + CH197_REPAIR)
-        elif not any('The repair required less philosophy than my inspection of it.' in p for p in out):
+        elif not any('dismissed us when it behaved like a door.' in p for p in out):
             out = repl(out, 'The rest of the morning was less theatrical.', 'At midday Hara arrived', CH197_REPAIR)
 
     elif number == 198:
