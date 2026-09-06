@@ -17,6 +17,50 @@ It IS a planning mandate.
 
 Greg begins intentionally rebuilding his support capacity in this life.
 
+## Highest-leverage focus
+
+The six audits are not six equal priorities.
+
+Greg should periodically ask:
+
+**Which single bottleneck, if improved now, creates the most options across the other lanes?**
+
+Then he should deliberately concentrate there for a meaningful stretch rather than trying to optimize body, magic, money, tools, information, and people equally every chapter.
+
+The chosen leverage point can change as circumstances change.
+
+Examples:
+- money / earning power can unlock mobility, artifacts, travel, paid expertise, training time, reserves, and opportunity capture;
+- one exceptional relationship or old-life reunion could unlock knowledge, trust, access, money, power, or institutional leverage at once;
+- finishing the work limb could dramatically alter mobility, hands, work categories, combat/support options, and earning ceiling;
+- a reliable support-magic technique could change what work/adventure roles Greg can safely fill;
+- one system-changing artifact could reshape several capacities at once;
+- a reputation breakthrough could make higher-value work and better contacts self-reinforcing.
+
+Do not force a supposedly optimal lane when Greg lacks a credible way to act on it. A hypothetical reunion with someone from his old life may have enormous leverage, but Greg cannot build a serious plan around a convenient coincidence. He may remain alert to those opportunities while choosing a more controllable current bottleneck.
+
+At the current Lakeward edge after Ch470, the author-approved near-term leverage focus is:
+
+**EARNING POWER / CAPITAL.**
+
+Reason:
+- Greg is sitting on only a 10c survival reserve;
+- the work-limb balance is still large;
+- artifact opportunities can appear and disappear before he can act;
+- better travel, paid specialists, training time, equipment, lodging, and information all consume money;
+- his recent experience shows that he can create more value than 1-3c day labor, but the market does not yet reliably pay him for it;
+- increasing earning ceiling is more useful than merely increasing hours worked.
+
+Near-term objective is therefore not `earn 30c by any means.`
+
+It is:
+
+**turn existing real accomplishments into proof, references, reputation, and work categories that pay materially more.**
+
+The 30c liquid target remains a first capital milestone, not the deeper goal.
+
+Once earning power stops being the clearest bottleneck, Greg should reassess rather than worship money forever.
+
 ## What support means
 
 Do not reduce support to healing or buffs.
@@ -143,6 +187,10 @@ Greg should increasingly ask:
 
 **What am I building toward?**
 
+and, when several plausible routes exist:
+
+**Which one has the highest leverage right now?**
+
 Not every chapter needs a plan scene. But future choices should increasingly reflect his answer.
 
 He can still go with the flow when life produces something interesting.
@@ -163,15 +211,15 @@ A useful opportunity should be judged partly by whether it improves:
 
 ## Near-term priorities
 
-At the current Sunroad / Lakeward edge, a plausible priority stack is:
+At the current Lakeward edge, the leverage focus is **earning power / capital**, with supporting subgoals:
 
-1. finish the current Three Rays information thread enough to know whether the 9c half-wheel or related roadwork material deserves investment;
-2. protect shoulder recovery and resume sensible trial-limb progression when stable;
-3. reconstruct the work-limb funding gap and identify higher-value earning paths rather than endless tiny jobs;
-4. define one or two deliberate magic/support training objectives from current evidence, not vague `get stronger` ambition;
-5. inventory current tools/artifacts and identify missing support functions;
-6. audit current people/contacts by actual relationship and reciprocal value;
-7. choose the next road partly for progression leverage, not only novelty.
+1. convert Mirror Spring completion and Sunroad hazard reporting into verifiable field references;
+2. use those references to unlock a higher-paying work category rather than merely taking more low-value day labor;
+3. build toward the 30c liquid milestone while protecting the 10c survival reserve;
+4. finish the work-limb funding path because mobility/hands are a major next multiplier;
+5. keep Three Rays / artifacts subordinate to capability and capital rather than collecting for its own sake;
+6. wait for Hessa/Hark & Venn/Sori replies rather than inventing instant answers;
+7. remain alert for genuinely higher-leverage opportunities, including old-life people or rare artifacts, without depending on coincidence.
 
 ## Tone / characterization
 
