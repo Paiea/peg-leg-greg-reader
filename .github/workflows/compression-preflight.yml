@@ -13,6 +13,7 @@ on:
       - 'tests/test_compression_tooling.py'
       - 'tests/test_dependency_scan_scope.py'
       - 'tests/test_manuscript_authority_ranking.py'
+      - 'tests/test_book1_authority_coverage.py'
       - 'state/manuscript/**'
       - 'state/MANUSCRIPT_CHAPTER_INDEX.md'
       - 'chapters/**'
@@ -39,7 +40,7 @@ jobs:
           python-version: '3.12'
 
       - name: Run compression tooling tests
-        run: python -m unittest tests.test_compression_tooling tests.test_dependency_scan_scope tests.test_manuscript_authority_ranking
+        run: python -m unittest tests.test_compression_tooling tests.test_dependency_scan_scope tests.test_manuscript_authority_ranking tests.test_book1_authority_coverage
 
       - name: Generate stable chapter registry
         run: python scripts/chapter_registry.py --root . --output publishing/chapter_identity_registry.json
