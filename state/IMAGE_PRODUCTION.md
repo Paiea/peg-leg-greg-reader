@@ -47,6 +47,21 @@ Do **not** mechanically nominate every chapter. Zero good candidates is better t
 
 The visual-production lane turns candidates into `ILLUSTRATION_BACKLOG.md` and deterministic prompt packs. Image generation and final approval remain explicit production actions.
 
+## Paragraph-anchor validation gate
+
+`validate_paragraph_anchors.py` checks scene-candidate paragraph anchors against the current generated chapter HTML before a candidate is allowed into the generation queue.
+
+Rules:
+- normalize harmless HTML tags/entities/whitespace before matching
+- a valid anchor must match exactly once in the current chapter text
+- zero matches is `missing`
+- more than one match is `ambiguous`
+- missing/ambiguous anchors set `anchor_blocked: true` and move a prompt-ready candidate back to `candidate`
+- a later unique fix may restore a previously anchor-blocked candidate to `prompt_ready`
+- `build_generation_queue.py` also refuses any `anchor_blocked` candidate as defense in depth
+
+`state/visual/PARAGRAPH_ANCHOR_REPORT.md` is the compact audit surface. **Fix the candidate anchor rather than weakening the validator.** Generation should not proceed for a scene that cannot be placed safely later.
+
 ## Registry-first rule
 
 New illustration work should enter through `state/visual/ILLUSTRATION_REGISTRY.json` before it becomes live reader art. The registry is the durable source of truth for candidate linkage, prompt pack, status, alt text, source asset, live asset, fit quality, and useful visual-continuity metadata.
@@ -54,6 +69,8 @@ New illustration work should enter through `state/visual/ILLUSTRATION_REGISTRY.j
 For newly generated art, preserve generation metadata into the registry when known: required characters, style family, framing preference, camera angle, pose family, and scene tags. This gives accepted art enough structure to become a useful future character reference without reopening the original generation queue.
 
 Accepted legacy art may not have those fields. `tag_registry_characters.py` can infer cataloged character names conservatively from accepted art's alt text/caption/notes. It must not invent characters that are not explicitly named or already carried from generation metadata.
+
+`backfill_tagged_registry_metadata.py` may then add coarse visual metadata only when accepted-art text metadata contains strong evidence, for example explicit `three-quarter`, `profile`, `working`, `writing`, `seated`, `backstage`, `market`, `mill`, or similar labels. It must preserve existing metadata and skip uncertain view/pose claims instead of guessing.
 
 Existing accepted reader art predates this system. Until it is bootstrap-imported, the coverage report records those images as **unmanaged legacy migration debt**, not as a publishing failure. Do not delete or replace legacy art merely to make the registry cleaner.
 
@@ -76,6 +93,8 @@ For recurring characters:
 - carry written appearance notes even when no single canonical image exists yet
 - do not freeze unsupported facial details merely to make generations identical
 - promote stronger accepted reference assets into the catalog when they become clearly useful
+
+The catalog may include recurring characters before they have a trustworthy promoted reference asset. In that case, use conservative written continuity notes and let later accepted art earn promotion. **Do not invent a canonical face simply because the production packet wants one.**
 
 For **Greg**, default normal chapter illustrations to **above-waist / chest-up / medium framing** unless lower-body visibility is materially important to the manuscript moment. This reduces unnecessary body-state contradictions and keeps generation focused on the face, hands, work, expression, and relationship action that usually matter more.
 
@@ -147,6 +166,8 @@ For Greg, prompt packs repeat the above-waist default unless the specific candid
 
 `state/visual/GENERATION_PACKET.md` is the disposable human-facing view of the next production batch. It is generated from the already coverage-prioritized queue and should normally show the next 25 ready shots with continuity context, selected-reference scores/rationale, and deterministic output paths.
 
+For an active older backfill wave, also generate a **bounded packet** such as `state/visual/GENERATION_PACKET_156_160.md`. A bounded packet deliberately includes only one small chapter band and carries deterministic output targets, paragraph anchors, selected continuity references, reference rationale, and an approval checklist. Finish/review that band before widening the production wave.
+
 `state/visual/ILLUSTRATION_APPROVAL_PACKET.md` is the human-facing review surface for assets currently in `generated` status. It provides explicit approve/reject templates without changing approval authority.
 
 These packet files are derivatives. The registry, candidate ledger, prompt packs, manuscript, and visual bible remain the durable authorities beneath them.
@@ -162,17 +183,18 @@ Production can run in waves of 3–5 sheets. A longer ambition of roughly 20 she
 1. inspect actual current reader image counts
 2. identify next 25 highest-value coverage slots from the generated backlog
 3. read authoritative manuscript scenes and candidate briefs
-4. select distinct visual moments
-5. construct panel prompts using `VISUAL_BIBLE.md`, scored character visual references, and generated prompt packs
-6. generate 5x5 sheet
-7. review cells with loose KEEP/RETRY standard
-8. crop KEEP panels deterministically
-9. record/update registry mapping and known visual metadata
-10. integration skips RETRY
-11. place KEEP art at a natural paragraph break
-12. verify chapter path, image path, aspect ratio, continuity, alt text, and mobile presentation
-13. update coverage, character-reference, audit, and continuity-report state
-14. repeat
+4. validate paragraph anchors before generation readiness
+5. select distinct visual moments
+6. construct panel prompts using `VISUAL_BIBLE.md`, scored character visual references, and generated prompt packs
+7. generate 5x5 sheet
+8. review cells with loose KEEP/RETRY standard
+9. crop KEEP panels deterministically
+10. record/update registry mapping and known visual metadata
+11. integration skips RETRY
+12. place KEEP art at a natural paragraph break
+13. verify chapter path, image path, aspect ratio, continuity, alt text, and mobile presentation
+14. update coverage, character-reference, audit, anchor, and continuity-report state
+15. repeat
 
 ## Panel selection
 
@@ -240,6 +262,6 @@ That last view converts the report from a scoreboard into a routing surface: the
 
 ## After each wave
 
-Report panels generated, KEEP/RETRY, chapters improved, zero/one/two/three+ image counts when available, approved-but-unpublished count, unmanaged legacy migration debt, character-reference audit issues, character-continuity diversity gaps, major continuity problems, and next 25 slots.
+Report panels generated, KEEP/RETRY, chapters improved, zero/one/two/three+ image counts when available, approved-but-unpublished count, unmanaged legacy migration debt, character-reference audit issues, paragraph-anchor issues, character-continuity diversity gaps, major continuity problems, and next 25 slots.
 
 Leave a fresh-worker handshake that points back to GitHub state rather than embedding batch history.

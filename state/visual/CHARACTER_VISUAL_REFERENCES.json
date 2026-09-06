@@ -9,30 +9,15 @@
     "reference_metadata": {
       "visual/homepage/peg-leg-greg-homepage-frontispiece.png": {
         "pose_family": "portrait_anchor",
-        "scene_tags": [
-          "frontispiece",
-          "portrait"
-        ],
-        "tags": [
-          "curated",
-          "strong_face",
-          "style_anchor"
-        ],
+        "scene_tags": ["frontispiece", "portrait"],
+        "tags": ["curated", "strong_face", "style_anchor"],
         "style_family": "sketch-ink-paint",
         "metadata_source": "curated_backfill"
       },
       "assets/book-role-cards/book-i-warrior-005.webp": {
         "pose_family": "role_card",
-        "scene_tags": [
-          "role_card",
-          "warrior",
-          "character_anchor"
-        ],
-        "tags": [
-          "curated",
-          "strong_face",
-          "style_anchor"
-        ],
+        "scene_tags": ["role_card", "warrior", "character_anchor"],
+        "tags": ["curated", "strong_face", "style_anchor"],
         "style_family": "sketch-ink-paint",
         "metadata_source": "curated_backfill"
       },
@@ -40,17 +25,8 @@
         "framing": "above_waist",
         "view_angle": "three_quarter",
         "pose_family": "working",
-        "scene_tags": [
-          "backstage",
-          "theatre",
-          "work"
-        ],
-        "tags": [
-          "curated",
-          "above_waist",
-          "strong_face",
-          "style_anchor"
-        ],
+        "scene_tags": ["backstage", "theatre", "work"],
+        "tags": ["curated", "above_waist", "strong_face", "style_anchor"],
         "style_family": "sketch-ink-paint",
         "metadata_source": "curated_backfill"
       }
@@ -59,6 +35,31 @@
   },
   "Lyssa": {
     "appearance_notes": "Black woman; tall relative to Greg; thin/lithe build; natural Afro-textured hair. Do not invent unsupported precise facial features as fixed canon. Preserve recognizable continuity with accepted live art when a stronger reference asset is promoted.",
+    "reference_assets": [],
+    "references": []
+  },
+  "Nessa": {
+    "appearance_notes": "Recurring theatre-company wardrobe/costume worker. Preserve recognizable continuity with accepted art, especially her practical work presence and costume-handling scenes. Do not invent unsupported precise facial features as fixed canon.",
+    "reference_assets": [],
+    "references": []
+  },
+  "Marek": {
+    "appearance_notes": "Recurring theatre-company actor often associated with the King role. Preserve recognizable continuity with accepted art and distinguish stage-role presentation from ordinary travel/offstage presentation. Do not invent unsupported precise facial features as fixed canon.",
+    "reference_assets": [],
+    "references": []
+  },
+  "Serra": {
+    "appearance_notes": "Recurring theatre-company actor associated with the Princess role. Preserve recognizable continuity with accepted art while allowing clear stage/offstage clothing and expression changes. Do not invent unsupported precise facial features as fixed canon.",
+    "reference_assets": [],
+    "references": []
+  },
+  "Iven": {
+    "appearance_notes": "Recurring theatre-company actor. Preserve recognizable continuity with accepted art across rehearsal, performance, road, and lodging scenes. Do not invent unsupported precise facial features as fixed canon.",
+    "reference_assets": [],
+    "references": []
+  },
+  "Pell": {
+    "appearance_notes": "Recurring theatre-company member closely associated with props, packing, and practical stage work. Preserve recognizable continuity with accepted art and his hands-on working presence. Do not invent unsupported precise facial features as fixed canon.",
     "reference_assets": [],
     "references": []
   }
