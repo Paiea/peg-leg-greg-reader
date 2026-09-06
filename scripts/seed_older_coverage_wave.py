@@ -10,6 +10,7 @@ CANDIDATES_PATH = ROOT / "state" / "visual" / "SCENE_CANDIDATES.json"
 ANCHOR_REPAIRS = {
     "ch158-letter-lyssa": "The paper seller sanded the letter, folded it, tied it, and wrote CARROW on the outside.",
     "ch159-fish-rescue": "We found the fish wedged behind a support where someone had pushed it with a boot.",
+    "ch164-kest-pig-sign": "Below that, someone had written: NO PIGS IN EAST YARD.",
 }
 
 WAVE = [
@@ -137,8 +138,6 @@ def apply_seed_wave(candidates: list[dict]) -> tuple[list[dict], int]:
             before = json.dumps(record, sort_keys=True)
             record["paragraph_anchor"] = anchor
             record["anchor_quality_enforced"] = True
-            if record.get("paragraph_anchor") != anchor:
-                record["paragraph_anchor"] = anchor
             if before != json.dumps(record, sort_keys=True):
                 record.pop("anchor_status", None)
                 record.pop("anchor_match_count", None)
