@@ -1,121 +1,158 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 429 - **THE SCRIBE**.
+- Current exact story endpoint: Chapter 430 - **THE RECORDER**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript physically materialized through Chapter 248.
-- Exact Chapters 249-429 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
+- Exact Chapters 249-430 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
 - Titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
-- Ch429 answer: Greg is being **a scribe**. He carries the master observation ledger through the decisive north section, records observations, authority, logistics, and uncertainty without converting handwriting into ownership of the decision.
-- Therefore title **THE SCRIBE**.
-- Recent: 425 THE PEDESTRIAN; 426 THE SCOUT; 427 THE TRAVELER; 428 THE WITNESS; 429 THE SCRIBE.
+- Ch430 answer: Greg is being **a recorder**. He tracks repair sequence, traffic authority, weather, work hazard, water behavior, and temporary load permissions through a day where evidence keeps changing what can happen next, without becoming engineer or policy owner.
+- Therefore title **THE RECORDER**.
+- Recent: 426 THE SCOUT; 427 THE TRAVELER; 428 THE WITNESS; 429 THE SCRIBE; 430 THE RECORDER.
 
-## Major arc direction - North Reach reached
-- Greg/Outer Works physically reach **North Reach Depot** before sunset Ch429.
-- Duskport is now behind them by a full route day.
-- Road beyond depot explicitly continues:
-  - **Merehook 2 days**
-  - **Upland Fork 3 days**
-- Merehook now has two organic party-interest hooks:
-  - Dask learns it has an old tide observatory;
-  - Maro knows of salt cliffs.
-- No decision to continue beyond contract yet.
+## Major arc direction - North Reach field day 2 complete
+- Greg remains at North Reach after completing **field day 2 of minimum 3**.
+- Duskport return wagon remains available only after contract conclusion; no return decision made.
+- Merehook remains **2 days beyond North Reach**, Upland Fork 3 days, still uncommitted.
+- Geographic expansion remains active while contract work has real local consequence.
 
-## Chapter 429 - THE SCRIBE
+## Chapter 430 - THE RECORDER
 
-### Section Three / benchmark evidence
-- Section Three is north stone shoulder where marsh narrows against low black ridge.
-- B-seven visibly leans east; west base has hairline separation and south mortar patch.
-- Halen explicitly agrees **B-seven moved**. Guild was correct on that bounded claim.
-- Halen rejects leap from `benchmark moved` to `road is fine`.
-- Two stronger rock controls used:
-  - R-three iron pin in exposed black stone;
-  - R-four quarry-face reference.
-- Halen repeats lines from both.
-- Result:
-  - B-seven useless for elevation comparison;
-  - R-three/R-four agree acceptably;
-  - relative to archived quarry-face tie, north road crown appears **~2-3 fingers lower**;
-  - archive sketch/current notch geometry increase confidence that some real road lowering occurred here;
-  - still not enough to call whole causeway failed.
-- Halen recommends against unrestricted heavy freight until loaded response observed.
+### First-light Section Three opening
+- Crib crew opens the Section Three north shoulder at first light before hard rain.
+- Greg uses crutches only; trial limb remains wrapped because worksite edge/mud makes shell use pointless and unsafe.
+- Crib foreman introduced: **Toll Venn**, no family relation assumed/proven.
+- Under patched road course:
+  - old transverse crib timber;
+  - newer repair blocks over older black marsh clay;
+  - one crib member split along grain;
+  - fill washed out into a dark pocket roughly arm width initially, later exposed wider along shoulder;
+  - water visible below.
+- Toll identifies both split timber and missing/slumped fill as real local structural problem.
+- This confirms Section Three has actual local failure mechanism, not merely bad benchmark.
 
-## Section Three loaded pass
-- Enna refuses Jorren's proposed class-ten loaded lead fuel wagon as first test.
-- Uses verified **class-eight test wagon** instead.
-- Greg assigned fixed ridge-side observation position.
-- At north crack:
-  - left rear wheel visibly sinks a small amount;
-  - short deep **stone grind** heard;
-  - driver stops on own initiative;
-  - crack visibly extends beyond pre-pass chalk by roughly **2 fingers**.
-- Greg records time, axle class, wheel position, sound, stop, visible crack extension. No causal/safe/failed language.
-- Halen orders wagon forward off section rather than reversing over same edge.
-- After inspection Halen recommends:
-  - heavy freight hold continues;
-  - no repeat class-eight at Section Three until shoulder opened/inspected.
-- Enna interim traffic order:
-  - single **class-six local carts** allowed;
+## Temporary Section Three repair
+- Toll says temporary crib repair can be made before hard rain if weather holds.
+- Repair sequence:
+  - surface stones removed;
+  - temporary jack set on ridge-side bearing plate;
+  - load lifted minimally;
+  - new crib timber inserted with correct grain orientation;
+  - split member sistered;
+  - angular stone fill repacked into washout pocket;
+  - smaller lock stone added;
+  - two temporary load-spread planks placed under road course.
+- Greg records order/times/directing authority only; does not claim engineering insight.
+- Toll estimates temporary repair can carry toward class eight design intent but prefers testing at class seven and limiting until settled.
+
+## Class-seven workaround emerges
+- Jorren explains Carrier Guild can break part of fuel convoy into smaller **class-seven flatbeds/road drums**.
+- This cannot move full convoy economically but can move roughly a third of load in first run.
+- Jorren offers guild to absorb transfer labor if temporary class-seven passage is allowed; depot pays normal freight.
+- Motivation remains mixed and explicit: transfer costs less than leaving six loaded tank wagons idle south.
+- Tera accepts logic without turning it into friendship.
+
+## Section Three test after repair
+- Verified class-seven test wagon crosses repaired Section Three at walking pace.
+- Observed:
+  - small compression sound;
+  - no stone grind;
+  - no visible crack extension;
+  - load-spread plank flexes slightly;
+  - crib remains in place.
+- Halen/Toll inspect afterward.
+- Temporary recommendation:
+  - class-seven restricted passage possible at Section Three;
+  - one wagon at a time;
   - walking pace;
-  - one at a time;
-  - no passing at Section Three;
-  - spotter present pending inspection.
+  - no stopping on repair;
+  - inspect shoulder after every third class-seven heavy pass and after any grind/visible movement;
+  - suspend if rain hardens or water rises into repair zone;
+  - no class eight+.
+- Section Two still blocks route, so fuel not yet released.
 
-## Human conflict / clinic oil
-- Tera wants clinic/school traffic protected.
-- Clinic oil is bundled with guild fuel convoy.
-- Jorren points out clinic drums can be broken out into class-six carts even though full fuel convoy cannot economically be broken down.
-- Cost dispute becomes explicit:
-  - Tera rejects extra village charge for local haul;
-  - Jorren says convoy fuel rate assumes convoy delivery and break-load costs labor/delay;
-  - neither owns road problem cleanly.
-- Jorren voluntarily offers:
-  - guild moves clinic drums to south post **without surcharge**;
-  - releases **one guild light team free** for local haul after convoy parks.
-- Tera says village can find second team.
-- This gets clinic oil moving but **does not solve main fuel convoy problem**.
-- Preserve this as partial social repair, not tidy compromise.
+## Section Two drainage + timber work
+- Rain strengthens while crew moves to Section Two old timber culvert.
+- Toll probes previously dull member and finds local rot pocket; sister repair is feasible same day if weather permits.
+- Partially choked east culvert backs water during work.
+- Greg records upstream water rise on marked stake.
+- When worker clears storm wrack, blockage releases suddenly and brown water surges through culvert.
+- One worker loses footing while withdrawing from under-road plank, dropping one leg into channel.
+- Toll grabs worker harness; second worker anchors Toll. No injury.
+- Greg does **not** rush into person rescue; he uses crutch tip to hook/secure sliding tool-bag strap before it enters channel.
+- Organic action beat demonstrates competent body use without heroics/S-class mode.
+- Greg records event as work-condition incident without unnecessary worker name because no injury and name not needed in master observation ledger.
 
-## Causeway status after Ch429
-- Section One: repeat wheel dip/low timber knock + uncertain historical mismatch; drainage partly choked.
-- Section Two: dull timber point + standing water; local shoring/crib work possible.
-- Section Three: stronger evidence of actual road lowering + class-eight crack extension under monitored pass.
-- Heavy freight remains held.
-- Class-six local traffic remains possible under controlled conditions at Section Three.
-- Fuel convoy remains south of restricted zone.
-- North Reach depot steward now reports **~1.75 days fuel reserve at normal burn**.
-- Rain forecast after midday next day.
-- Crib crew due first light to open/inspect Section Three shoulder.
+## Drainage evidence materially narrows uncertainty
+- After wrack release, upstream water level falls **more than 3 fingers in ~10 minutes**.
+- Halen concludes Section Two standing-water loading was at least partly maintenance blockage, not solely road settlement.
+- Rot timber remains independently real.
+- This creates another multiple-truth result:
+  - maintenance failure affected water load;
+  - local structural deterioration also exists.
+- Jorren starts catching himself before saying `so road fine`, showing field learning without making him converted or passive.
+
+## Section Two temporary repair + test
+- Toll sisters rotted member and adds temporary bearing plate.
+- Rain is approaching hard band by ~fifth bell.
+- Verified class-seven test wagon crosses Section Two:
+  - no dull knock;
+  - one normal timber report;
+  - no visible shoulder change.
+- Enna/Halen permit temporary class-seven passage through Sections Two and Three under restrictions, while Section One remains passable at seven under walking pace observation.
+
+## Fuel / local traffic consequence
+- Jorren dispatches transfer plan south.
+- Before hard rain suspension, **two class-seven transferred fuel loads successfully cross north**.
+- Third load is held south when hard rain arrives around fifth bell.
+- This is intentionally partial success:
+  - main heavy convoy still cannot pass;
+  - expensive break-load strategy used;
+  - local/class-seven movement depends on temporary repairs/weather;
+  - hard rain closes window quickly.
+- Clinic oil plan from prior day remains viable; clinic/local traffic not abandoned.
+- North Reach depot imposes/continues restricted burn.
+- After two fuel loads arrive, steward recalculates reserve at roughly **2.4 days** under restricted burn.
+- They have bought time, not solved infrastructure.
+
+## Human conflict / social texture
+- Tera challenges Halen after he makes an overly broad maintenance/funding remark; Halen admits the comment was outside his jurisdiction and says `Fair.`
+- Jorren and Tera continue bargaining around transfer labor/local haul without becoming allies.
+- Jorren's recurring pressure is now clearly commercial + service continuity, not villainy.
+- Enna remains strict about who owns decisions and when weather suspends traffic.
+- Partial cooperation occurs because interests overlap, not because conflict disappears.
 
 ## Greg contract / pay
-- Greg carries master observation ledger through most of first full field day.
-- Enna reviews ledger at North Reach and approves work.
-- Greg earns **5c** for completed master-ledger day.
-- Cash **43c -> 48c**.
+- Greg carries master ledger through full field day 2.
+- Enna reviews and approves records, including separation of personal sensation/irrelevant names from operational observation.
+- Greg earns **5c**.
+- Cash **48c -> 53c**.
 - Vale remains **23c**.
-- Day 1 of minimum 3 field days complete.
-- Day 2 starts next morning with shoulder opening/inspection.
-- Master ledger remains Greg assignment unless he `becomes stupid overnight.`
+- Minimum contract status: **2 of 3 full field days complete**.
+- Day 3 plan:
+  - post-rain inspection of temporary repairs;
+  - determine whether class-seven temporary corridor survives;
+  - if full day completed, minimum contract obligation complete;
+  - if road unstable, extension up to 2 more days remains possible.
 
 ## Trial limb / physical state
-- No evening wear Ch429.
-- Greg correctly treats Masta's 30-minute evening allowance as maximum, not quota.
-- Reason: left hip/general fatigue after morning 26-minute wear + full field day/crutch use.
-- He records: `Evening wear: not used. General fatigue after field day. No skin concern. Preserve next-day quality.`
-- Trial build remains wrapped, shop property, medium foot.
-- No skin problem reported after morning pinkness cleared.
+- No trial-limb wear Ch430.
+- Reason: unstable/muddy worksite, hard-rain day, full field fatigue; wearing it would add noise/risk rather than useful data.
+- Greg records: `Road day two. No trial wear. Surface wet / worksite unstable / full-day fatigue. Skin normal.`
+- This is progress by restraint, not regression.
+- Trial build remains dry/wrapped, shop property, medium foot.
 - Crutches remain primary.
-- This is continued baseline-not-verdict maturity rather than regression.
+- Left BKA skin normal; no new injury.
 
 ## Economy
-- Greg ends **48c cash / 23c Vale / bits unspecified**.
-- 20c limb deposit already paid.
-- Travel-work limb quote remains 1 silver + 18c, no conversion invented.
-- Greg notices money wants to become leg while road wants to become road. Both can be true.
+- Greg ends **53c cash / 23c Vale / bits unspecified**.
+- 20c limb deposit remains paid.
+- Travel-work limb quote remains **1 silver + 18c**, no universal conversion invented.
+- Greg notes different ledgers: road pays him, costs guild transfer labor, costs villages time, and buys North Reach fuel time.
 
-## Artifact/equipment inventory
+## Artifact / equipment inventory
 Greg carries:
 1. retired line quietener;
 2. WS-F/9 current reader;
@@ -123,90 +160,90 @@ Greg carries:
 4. Tavi striped rock;
 5. porter harness / repair kit / crutch wrap;
 6. Hark & Venn road-test limb build, shop property, medium foot;
-7. Outer Works loaned field supplies/master ledger.
-- No artifact use/purchase Ch429.
+7. Outer Works loaned bedroll/ledger cover/pencils/chalk/folding rule/master ledger.
+- No artifact use/purchase Ch430.
 
 ## Magic
 - Protocol remains **59 minimal / 53 shaping / 135 external attempts**.
-- No deliberate magic Ch429.
+- No deliberate magic Ch430.
 - No S-class/locked-mode activation.
 
-## Companions / North Reach
-- Sori/Dask/Maro arrive as passengers and lodge at **Reed Lamp** across from Outer Works bunkhouse.
-- Greg bunks with Outer Works.
-- Dask is interested that benchmark and road can both have moved; learns Merehook has old tide observatory.
-- Maro identifies Merehook salt cliffs as interesting.
-- Sori remains contract-aware and does not force onward decision.
-- Companions do not become staff.
+## North Reach / companions
+- Sori/Dask/Maro remain passengers/independent.
+- Dask has obtained Merehook tide-observatory public-gallery schedule; next public day is not immediate.
+- Maro knows Merehook has salt cliffs with nesting glass gulls.
+- Neither pushes immediate departure before contract is done.
+- Sori's response to `road temporarily class seven` is appropriately skeptical of any premature `fixed` claim.
 
-## Greg mindset / social movement
-- Greg keeps personal crutch-vibration sensation as side note labeled non-instrumental rather than elevating it to evidence.
-- Core boundary: names/authority matter; Greg's handwriting does not make traffic order his decision.
-- He chooses not to spend optional evening limb wear simply because available.
-- North Reach sign triggers obvious `road face`; Enna notices Greg staring at onward route.
-- Greg recognizes unfinished things can coexist: limb unpaid, causeway unresolved, fuel south, rain coming, Merehook ahead.
+## Greg mindset / action
+- Baseline-not-verdict mindset shows in choosing no trial-limb wear because conditions are bad rather than treating wear as required progress.
+- During culvert surge Greg uses current body/crutches efficiently and correctly prioritizes actual person rescue already being handled, catching only the sliding tool bag he can safely affect.
+- `Useful` remains better target than dramatic.
+- Greg increasingly sees systems as multiple simultaneous ledgers rather than one winner/loser result.
 
 ## Dialogue variance
-- Halen: long professional precision, repeats measurements, rejects simplification, dry hostility to one-number demands.
-- Jorren: increasingly human commercial urgency, honest frustration, partial voluntary concession for clinic oil.
-- Tera: sharp local-interest pressure, refuses to pretend shared facts equal political alignment.
-- Enna: concise authority, acknowledges correct procedure can still be convenient/painful.
-- Sori: contract reality, short social reading.
-- Dask: delighted by multiple simultaneously true technical problems.
-- Maro: sparse sensory/geographic curiosity.
+- Toll Venn: practical foreman, terse craft confidence, blunt jokes, not same register as Greg despite some dryness.
+- Halen: technical precision with occasional social misstep; capable of admitting when mouth outruns jurisdiction.
+- Jorren: impatient, learns procedural language reluctantly, honest about cost motive.
+- Tera: sharp local political/accountability voice, refuses policy convenience.
+- Enna: concise authority, operational/weather boundaries.
+- Sori: skeptical compression, catches false `fixed` framing.
 
 ## Recent role ledger
-- 425 THE PEDESTRIAN
 - 426 THE SCOUT
 - 427 THE TRAVELER
 - 428 THE WITNESS
 - 429 THE SCRIBE
+- 430 THE RECORDER
 
 ## Protected uncertainties
-- Greg ends Ch429 at North Reach Depot/Reed Lamp vicinity.
-- Cash **48c**, Vale **23c**, bits unspecified.
+- Greg ends Ch430 at North Reach after hard-rain return.
+- Cash **53c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 135**.
 - Greg does not own finished work limb.
-- Trial build remains shop property; no evening wear Ch429.
-- Day 1/3 minimum field days complete; master ledger active.
-- Heavy freight held.
-- Section Three shoulder needs opening/inspection first light.
-- Rain forecast after midday.
-- North Reach fuel reserve ~1.75 days at normal burn.
-- Clinic oil partial transfer plan exists; outcome not yet confirmed.
-- Main fuel convoy remains south.
-- B-seven moved, but real road lowering also has stronger independent evidence.
-- Merehook 2 days beyond North Reach; Upland Fork 3 days. No onward commitment yet.
-- Venn flex 1/3 used, 2 remain back in Duskport without penalty.
+- Trial build remains shop property; no wear Ch430.
+- Field days complete: **2/3 minimum**.
+- Temporary class-seven corridor worked before hard rain, but durability after rain unknown.
+- No class eight+ permitted.
+- Two transferred fuel loads reached North Reach; third held south.
+- Fuel reserve now roughly **2.4 days under restricted burn**.
+- Section Three has real split crib + washout pocket under repaired shoulder.
+- Section Two has real rot member + drainage blockage contribution.
+- Hard rain may damage/alter temporary repairs overnight.
+- Day 3 begins with post-rain inspection.
+- Contract may end after full day 3 if stable enough, or extend up to 2 more days.
+- Return wagon to Duskport would be available following morning if contract ends.
+- Merehook remains 2 days away and uncommitted.
 
-## Chapter 430 trailhead
-Follow next actual claim from Ch429/current authority.
+## Chapter 431 trailhead
+Follow next actual claim from Ch430/current authority.
 
-Greg begins **48c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**, at North Reach for field day 2.
+Greg begins **53c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**, at North Reach for field day 3 / minimum-contract completion day.
 
 Immediate promise:
-- First-light **Section Three shoulder opening/inspection** with crib crew.
-- Rain after midday creates clock pressure.
-- Fuel reserve ~1.75 days makes policy/logistics consequences immediate.
+- Post-hard-rain inspection of Sections Two and Three before reopening temporary class-seven traffic.
+- Determine whether crib/shoring survived and whether third fuel transfer can move.
+- Minimum 3-day contract can complete if Greg works full day cleanly.
 
 Strong movement:
-- Expose what is physically under Section Three. Let evidence materially change options, but not necessarily produce perfect answer.
-- A practical repair/workaround may emerge: shoring, load spreading, partial transfer, smaller wagons, restricted axle class, alternate route, or some combination. Cost/time should matter.
-- Greg remains ledger/observation hand, not engineer/survey authority.
-- Consider actual work hazard/action if excavation/road edge/marsh/weather creates organic pressure. Greg can physically contribute within current body limits.
-- If trial limb used, only on stable safe surfaces and only if it serves life/work; no need to use it.
-- North Reach should feel like a place with people whose lives are affected by fuel restriction, not just depot backdrop.
-- Merehook seed can remain background until contract movement creates room.
+- Let rain aftermath change something materially. Avoid simply repeating yesterday's tests.
+- One repair may hold while another reveals new weakness, or weather may expose a different route/logistics option.
+- Human choice should remain: when temporary infrastructure is good enough to use under scarcity, who bears risk/cost?
+- Greg can now be somewhat more socially trusted in ledger role but still not authority.
+- Consider whether contract extension is actually needed. Do not automatically extend just to keep them there.
+- By end of Ch431, it would be useful to know whether minimum contract concludes and whether Greg/party have a genuine choice between Duskport return and continuing north.
+- Merehook can begin turning from signpost into real option if earned.
+- Trial-limb wear optional only if dry/stable and useful; no obligation.
 
 Avoid:
-- magical road repair;
-- Greg inventing engineering solution everyone missed;
-- full clean resolution in first hour;
-- villainizing guild/villagers/Works;
-- another measurement-only chapter without consequence;
-- forcing prosthetic beat.
+- perfect permanent road fix;
+- instant all-clear heavy convoy;
+- Greg becoming engineer;
+- magic shortcut;
+- forced extension without story reason;
+- immediate decision to Merehook before contract status is known.
 
-**MANDATORY TITLE CHECK CH430:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH431:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
