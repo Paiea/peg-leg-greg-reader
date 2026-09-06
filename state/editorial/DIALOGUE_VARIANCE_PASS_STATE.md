@@ -20,14 +20,14 @@ Greg remains the gravitational center of short dry compressed comic reduction. O
 
 ## Sequential coverage ledger
 
-- Chapters **1-305: VARIANCE REVIEWED**
-- Chapters **306-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-315: VARIANCE REVIEWED**
+- Chapters **316-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 306**
+Current sequential variance edge: **Chapter 316**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_296_305.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_306_315.md`
 
 ## Sequential batch authority
 
@@ -79,31 +79,32 @@ Sequential artifacts now run through:
 - `BATCH_276_285.md`
 - `BATCH_286_295.md`
 - `BATCH_296_305.md`
+- `BATCH_306_315.md`
 
 Existing out-of-sequence pilot evidence remains:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches do not bridge the unreviewed 306-320 gap.
+Those later batches do not bridge the unreviewed 316-320 gap.
 
-## Chapters 296-305 result
+## Chapters 306-315 result
 
-- Chapter 296 `THE HELD NOTE`: **no variance change required**. Shared song improvisation legitimately compresses cadence while Nemi, the potter, the boy, passersby, and Greg remain behaviorally distinct.
-- Chapter 297 `THE HIGH LINE`: **no variance change required**. Mara/Ovi maintenance conflict, neighborhood recognition, and Pella/Rusk seed-sorting disagreement remain locally grounded.
-- Chapter 298 `THE FAR MARK`: **no variance change required**. Hessa's technical anticipation stays narrowly tied to the exact samples Greg has just recited and her established evidence discipline.
-- Chapter 299 `THE OTHER HANDLE`: **no variance change required**. Olan's opening `No` is a visible-basket repair response; material attachment authority remains distinct from Greg's broader category knowledge.
-- Chapter 300 `THE BLUE HORSE`: **no variance change required**. Childcare geometry, kite ownership, and community correction remain differentiated; Greg's own preemptive `No` is grounded in Ren visibly looking at the crutch as a pole.
-- Chapter 301 `THE FALSE DOOR`: **light variance patch required**. Replace Rinna's post-pay `Tomorrow no / I had not asked / You were about to` ladder by having Greg ask `Tomorrow?` and Rinna answer from schedule authority.
-- Chapter 302 `THE LOW LAMPS`: **no variance change required**. Lyssa's chosen evening, visible food temptation, prior local relationships, and relationship-specific teasing stay distinct from generic prediction machinery.
-- Chapter 303 `THE DRY BENCH`: **no variance change required**. Bathhouse routing, patron banter, and accessibility infrastructure remain ordinary and speaker-specific.
-- Chapter 304 `THE QUIET TABLE`: **no variance change required**. Hessa's still-field protocol sharpens observation rather than rewarding success or turning terseness into style.
-- Chapter 305 `THE CLEAR LANE`: **no variance change required**. Greg owns mirrorhorn behavior from real first-life experience while local people retain watch, route, cart, lamp, shop, and household authority.
+- Chapter 306 `THE BAD TOOL`: **no variance change required**. Salvage seller authority remains exact-object, test-practice, and risk-ceiling grounded; Greg's future-use knowledge does not erase current-unit uncertainty.
+- Chapter 307 `THE RED POT`: **no variance change required**. Cala/Lyssa household familiarity and Tavi repetition stay distinct from Greg's broader category knowledge.
+- Chapter 308 `THE DEBT HOUR`: **light variance patch required**. Replace Antonius's `I wasn't going to ask / You were thinking about asking` ladder with `Separate lanes / Yes`, keeping the contract boundary in Antonius's actual operation-first authority.
+- Chapter 309 `THE LAST CHIME`: **no variance change required**. Charge-rain shelter dialogue remains object/procedure owned; immediate safety commands are grounded in visible action.
+- Chapter 310 `THE UNCUT LINE`: **no variance change required**. Lyssa's customer boundary and refusal to sell blue-line work remain a positive identity choice rather than lack of competence.
+- Chapter 311 `THE RETURN CART`: **no variance change required**. Sevren's road-shaped friendship teasing and Ressa's cart procedure remain distinct; specific relationship face-reading is earned.
+- Chapter 312 `THE MARKED THIRD`: **no variance change required**. Hessa's noun discipline and protocol keep sub-object targeting claims narrow; the right-third rotation remains observation, not established control.
+- Chapter 313 `THE LANDING`: **no variance change required**. Crowded furniture dialogue stays differentiated by physical position and responsibility; `Stop / I am stopped` spreads through active work and later imitation rather than generic voice convergence.
+- Chapter 314 `THE DRY HOUR`: **light variance patch required**. Remove an incidental parent's `I wasn't / You were thinking` ladder after a dropped cup; the physical boundary and parent action already carry the beat.
+- Chapter 315 `THE TRUE STORY`: **no variance change required**. Tea-stall lie-game cadence is legitimate shared-game compression; participants retain distinct lie styles and game behavior.
 
 Batch totals:
 
-- Variance patches: **1**, in Chapter **301**.
-- Light chapters: **301**.
-- No-variance-change chapters: **296, 297, 298, 299, 300, 302, 303, 304, 305**.
+- Variance patches: **2**, in Chapters **308** and **314**.
+- Light chapters: **308, 314**.
+- No-variance-change chapters: **306, 307, 309, 310, 311, 312, 313, 315**.
 - Prior attribution/name/referent authority preserved.
 - New dialogue-attribution speaker-clarity repairs surfaced: **0**.
 - New name/referent repairs surfaced: **0**.
@@ -116,38 +117,44 @@ Batch totals:
 - Greg owns the highest density of compressed dry counterpunches. Supporting characters may be funny, dry, clever, sarcastic, or terse without inheriting his reduction architecture.
 - Repeated `No / I didn't say / you were about to`, `you were thinking`, generic `you looked`, and generic `your face` ladders have a high burden after manuscript-wide overdistribution.
 - Background and first-contact characters especially should not inherit branded prediction/argument architecture merely because the exchange is funny.
+- Background parent-child speech has the same convergence burden as background merchant speech. Physical action and ordinary authority are often enough.
 - Consecutive prediction beats deserve a higher burden.
 - Wrong predictions can be healthy when the miss is visible and demonstrates fallibility. Greg's own overprediction is especially useful when another person explicitly corrects him.
 - Visible sustained attention, stopping, reaching, leaning, handling, or affect can replace generic `your face` shorthand when that physical fact is what another person actually observes.
 - Stable cognition with changed wording is positive variance evidence. Lyssa may recognize the same Greg behavior repeatedly without using one branded phrase every time.
-- Relationship familiarity should alter workflow and sharpen questions, not grant transcript access. Specific coworker/family predictions can remain when provenance and current physical context make the inference ordinary.
+- Relationship familiarity should alter workflow and sharpen questions, not grant transcript access. Specific coworker/family/friend predictions can remain when provenance and current physical context make the inference ordinary.
+- Specific friendship face-reading can remain when it names a durable relationship pattern rather than generic hidden thought. Sevren's `bad mattress into a lesson` read is the model.
 - Object-specific preemption can be ordinary care or custody rather than mind-reading. A fragile pot, rain-thread groove, damaged tool, broken basket, or protected prop can justify a direct warning.
 - A visible object can itself be the question when role history makes the interaction obvious.
 - Let Greg actually say the systems or scheduling question when another character's authority is strongest in the answer.
 - Scheduling authority should use scheduling language. Rinna should route tomorrow's work rather than prove she knew Greg's unsaid question.
+- Scope discipline should use scope language. Antonius should separate debt credit from cash work rather than prove he knew Greg's unsaid question.
 - Phrase/catchphrase ownership matters. A visitor may enter a running joke through explicit history without inheriting mind-reading.
 - Incidental merchants should joke from transaction state, merchandise, queue, route, price, or repeated customer history rather than generic psychology.
 - Customer-memory and neighborhood-recognition expertise are real social lanes when provenance is explicit.
 - Prefer current evidence, object, role, rule, schedule, contract, damaged equipment, route, body position, records, or work history over personality commentary.
-- Material timing, direct handling rules, and object custody are often stronger than predicted questions.
+- Material timing, direct handling rules, object custody, and visible safety conditions are often stronger than predicted questions.
+- Incidental safety commands are healthiest when the danger is already physical: reaching toward a singing bead, lifting a cracked jug, touching a live line, or entering a load path.
 - Predeclared procedure is stronger than predicted intention.
-- Information-discipline voices defend thresholds for different reasons: Antonius ledger, Rinna known/unknown and schedule, Hessa apparatus/evidence, Senn testimony, Deni procedure, Toma physical comparison, Jori appraisal scope.
+- Information-discipline voices defend thresholds for different reasons: Antonius ledger/contract, Rinna known/unknown and schedule, Hessa apparatus/evidence, Senn testimony, Deni procedure, Toma physical comparison, Jori appraisal scope.
 - Distributed expertise protects Greg's competence. Greg may possess old-life expertise while current-city routing, law, custody, pricing, maintenance, appraisal, infrastructure, or procedure belongs to local people.
+- Professional refusal can be a positive identity choice. Knowing enough to work around a component does not require selling work on that component.
 - Higher stakes do not require broader dialogue authority. Greg can temporarily own mirrorhorn behavior while locals retain the lane.
 - Shared caution is not automatically Hessa voice.
 - First-contact professional scope is stronger than instant Greg calibration.
 - Craft anticipation remains legitimate when character knowledge, gaze, cue timing, scene continuity, or rehearsal state is the actual variable.
-- Shared game, performance, and song-improvisation pressure can legitimately compress speech. Check whether rule ownership, strategy, temperament, and off-task identities remain distinct.
+- Shared game, performance, song-improvisation, and lie-game pressure can legitimately compress speech. Check whether rule ownership, strategy, temperament, and off-task identities remain distinct.
 - Specific technical face-reading can remain when the exact inference is narrow, immediately evidenced, and domain-bound.
+- Work-family phrases can spread through direct imitation without becoming generic voice if the manuscript shows where the phrase came from.
 - Operational compression remains healthy when the stopping point is owned.
 - Work continuing can replace curiosity policing. Other people's jobs may simply continue without explaining themselves to Greg.
 - Messy systems protect voice. Exceptions may arrive only when encountered; real work need not front-load every rule.
 - Repeated work words such as `Wait`, `Good`, `No`, `Again`, and `Less` remain healthy when current object and jurisdiction keep changing what they mean.
 - Do not optimize away bad metaphors, incomplete explanations, wrong guesses, local disagreement, silence, awkwardness, underperformance, or practical underexplanation when they belong to the speaker.
-- Threat, civic, commercial, domestic, magical, or animal danger does not justify universal mind-reading.
+- Threat, civic, commercial, domestic, magical, animal, or infrastructure pressure does not justify universal mind-reading.
 - Hessa asks before explaining, narrows nouns, records before interpreting, and stops when the current question is answered or apparatus/body no longer justifies more attempts.
 - Rejecting a spoken speculative claim is not predictive dialogue.
-- Do not upgrade a response into reliability, range, generalized object moving, casting, or Barrier clearance without exact evidence.
+- Do not upgrade a response into reliability, range, generalized object moving, casting, control, or Barrier clearance without exact evidence.
 - Attribution density and voice variance are separate problems. Prior accepted name/pronoun/referent repairs remain owned by `state/editorial/dialogue-pass/`.
 - `Evin` remains source-settled where prior batches corrected `EvIn` drift.
 - Same-name characters remain separate unless exact continuity proves otherwise.
@@ -167,11 +174,11 @@ A chapter counts as variance-reviewed only after exact prose is read, prior attr
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 306**.
+Resume sequentially at **Chapter 316**.
 
 Preferred bounded queue: **10 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 306-315**.
+Next intended batch: **Chapters 316-320** to close the remaining sequential gap before the existing 321-330 pilot block.
 
 ## Restart prompt
 
