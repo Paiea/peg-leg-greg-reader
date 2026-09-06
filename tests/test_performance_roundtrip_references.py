@@ -157,6 +157,8 @@ class PerformanceRoundtripReferenceTests(unittest.TestCase):
     def test_generation_queue_can_carry_fresh_performance_reference_without_changing_candidate_authority(self) -> None:
         fresh = load_visual_reference(7, archive_root=ARCHIVE_ROOT, chapter_root=CHAPTER_ROOT)
         self.assertIsNotNone(fresh)
+        assert fresh is not None
+        self.assertIn("Antonius picked up the broom.", fresh["scene_anchors"])
         queue = build_generation_queue(
             [self._candidate()],
             [],
@@ -168,6 +170,25 @@ class PerformanceRoundtripReferenceTests(unittest.TestCase):
         self.assertEqual(queue[0]["performance_reference"], fresh)
         self.assertEqual(queue[0]["characters"], ["Greg", "Antonius"])
         self.assertEqual(queue[0]["paragraph_anchor"], "Antonius picked up the broom.")
+        self.assertEqual(queue[0]["status"], "generation_ready")
+
+    def test_generation_queue_does_not_attach_same_chapter_reference_to_unrelated_scene(self) -> None:
+        fresh = load_visual_reference(7, archive_root=ARCHIVE_ROOT, chapter_root=CHAPTER_ROOT)
+        self.assertIsNotNone(fresh)
+        candidate = self._candidate()
+        candidate["id"] = "ch007-red-scarf"
+        candidate["scene_summary"] = "Greg finds a red scarf after the storeroom negotiation."
+        candidate["visual_hook"] = "A quiet memory beat around a worthless object."
+        candidate["paragraph_anchor"] = "At the bottom of the last crate I found a small red scarf."
+        queue = build_generation_queue(
+            [candidate],
+            [],
+            chapter_image_counts={7: 0},
+            character_references={},
+            performance_references={7: fresh},
+        )
+        self.assertEqual(len(queue), 1)
+        self.assertNotIn("performance_reference", queue[0])
         self.assertEqual(queue[0]["status"], "generation_ready")
 
     def test_generation_queue_remains_independent_when_performance_reference_is_missing(self) -> None:
