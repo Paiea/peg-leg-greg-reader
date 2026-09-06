@@ -15,6 +15,8 @@ on:
       - 'state/READER_DESIGN_LAB.md'
       - 'state/editorial/DIALOGUE_VARIANCE_PASS_STATE.md'
       - 'state/editorial/dialogue-variance-pass/**'
+      - 'state/visual/SCENE_CANDIDATES.json'
+      - 'state/visual/ILLUSTRATION_REGISTRY.json'
       - 'chapters/*.html'
       - 'index.html'
       - 'scripts/generate_light.py'
@@ -26,6 +28,10 @@ on:
       - 'scripts/apply_dialogue_variance.py'
       - 'scripts/update_reader_navigation.py'
       - 'scripts/update_reader_presentation.py'
+      - 'scripts/illustration_state.py'
+      - 'scripts/build_illustration_backlog.py'
+      - 'scripts/build_prompt_packs.py'
+      - 'scripts/report_illustration_coverage.py'
       - 'tests/test_*.py'
       - 'assets/reader.css'
       - 'assets/light.css'
@@ -76,6 +82,11 @@ jobs:
         run: |
           python scripts/update_reader_navigation.py index.html
           python scripts/update_home_contents.py
+      - name: Refresh illustration production state
+        run: |
+          python scripts/build_illustration_backlog.py
+          python scripts/build_prompt_packs.py
+          python scripts/report_illustration_coverage.py
       - name: Verify Light publishing derivatives
         run: |
           python scripts/verify_light.py 156-219
@@ -89,6 +100,10 @@ jobs:
           test -f light/manifest.json
           test -f latest.html
           test -f chapters/321.html
+          test -f state/visual/SCENE_CANDIDATES.json
+          test -f state/visual/ILLUSTRATION_REGISTRY.json
+          test -f state/visual/ILLUSTRATION_BACKLOG.md
+          test -f state/visual/ILLUSTRATION_COVERAGE.md
           if grep -R '<img' light/*.html; then
             echo 'image markup leaked into Text Reader'
             exit 1
@@ -153,13 +168,13 @@ jobs:
       - name: Commit generated reader presentation derivatives
         if: github.ref == 'refs/heads/main'
         run: |
-          if git diff --quiet -- chapters light light.html latest.html index.html assets/reader.css; then
-            echo 'Reader presentation already current.'
+          if git diff --quiet -- chapters light light.html latest.html index.html assets/reader.css state/visual/ILLUSTRATION_BACKLOG.md state/visual/ILLUSTRATION_COVERAGE.md state/visual/prompt-packs; then
+            echo 'Reader and illustration production derivatives already current.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add chapters light light.html latest.html index.html assets/reader.css
+          git add chapters light light.html latest.html index.html assets/reader.css state/visual/ILLUSTRATION_BACKLOG.md state/visual/ILLUSTRATION_COVERAGE.md state/visual/prompt-packs
           git commit -m 'Refresh reader presentation'
           for attempt in 1 2 3; do
             git fetch origin main
