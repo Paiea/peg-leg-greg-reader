@@ -85,6 +85,11 @@ class DialogueOwnershipNovelTests(unittest.TestCase):
         self.assertEqual(split_paragraph(text), [text])
         self.assertEqual(quoted_spans(text), [])
 
+    def test_dangling_smart_close_with_later_valid_dialogue_is_protected(self):
+        text = 'ring the bell and bar the hall...” Different words. Same four notes. I listened. Alden said, “Tomorrow?” He did not mean training. I looked at the blank line.'
+        self.assertEqual(split_paragraph(text), [text])
+        self.assertEqual(quoted_spans(text), ['“Tomorrow?”'])
+
     def test_markdown_emphasis_block_is_not_rewritten(self):
         text = '**The theatre sent somebody by for you once. He said, "Again?" like this was my fault. I told him no. He left.**'
         transformed, splits = _transform_markdown_body(text)
