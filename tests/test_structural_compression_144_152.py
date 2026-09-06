@@ -25,7 +25,7 @@ class StructuralCompressionHelpersTest(unittest.TestCase):
             149: (
                 '<a rel="next" href="150.html">Chapter 150</a>'
                 '<article class="prose"><p>We went opposite directions. That felt appropriate. OLD</p>'
-                '<p>I went to the wing. The house had grown. Maybe forty now. People entered without ceremony. Some paid something at the front. Some apparently did not. A woman came in, saw someone she knew, crossed two rows to sit beside her, and immediately began talking. This was not an audience. It was a town temporarily facing the same direction.</p>'
+                '<p>I went to the wing. The house had grown. Maybe forty now. People entered without ceremony. Some paid something at the front. Some apparently did not. A woman came in, saw someone she knew, crossed two rows to sit beside her, and immediately began talking. This was not an audience. It was a town temporarily facing the same direction. Teren stood in the center aisle.</p>'
                 '</article>'
             ),
             150: '<article class="prose"><p>River House had six rooms</p></article>',
