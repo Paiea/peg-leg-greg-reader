@@ -40,6 +40,9 @@
     "152": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
     "164": {"showcase": false, "reason": "bridge_not_needed"},
     "166": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
-    "180": {"showcase": false, "reason": "redundant_progression"}
+    "180": {"showcase": false, "reason": "redundant_progression"},
+    "184": {"showcase": false, "reason": "redundant_progression"},
+    "185": {"showcase": false, "reason": "redundant_progression"},
+    "187": {"showcase": false, "reason": "redundant_progression"}
   }
 }
