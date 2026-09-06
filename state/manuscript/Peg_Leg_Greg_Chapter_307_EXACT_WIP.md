@@ -56,7 +56,9 @@ I corrected myself. "I understand the theory of stew."
 
 "Red pot on left stone. Ear to wall."
 
-The pot had two short side handles. I looked at them. "Both ears exist."
+The pot had two short side handles.
+
+I looked at them. "Both ears exist."
 
 "The cracked one."
 
@@ -352,7 +354,9 @@ Lyssa did too.
 
 Tavi did not. He ate bread instead and dipped it into the broth until the bread stopped being structurally honest.
 
-Halfway through supper, somebody knocked. Tavi immediately said, "Cala."
+Halfway through supper, somebody knocked.
+
+Tavi immediately said, "Cala."
 
 It was not Cala.
 
