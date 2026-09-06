@@ -1,160 +1,112 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 435 - **THE ONLOOKER**.
-- Exact Chapters 249-435 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays.
-- **Chapter 432 naming correction:** `state/manuscript/Peg_Leg_Greg_Chapter_432_CORRECTION.md` overrides the duplicate-prone forewoman name in the original checkpoint. The north-slope road forewoman is **Rika Dorn**, not Nessa Vale. There is no Sori/Vale relation beat.
+- Current exact story endpoint: Chapter 436 - **THE PROSPECTOR**.
+- Exact Chapters 249-436 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays.
+- Chapter 432 naming correction remains active: north-slope road forewoman is **Rika Dorn**, not Nessa Vale.
 
 ## Current location / arc
 - Greg, Sori, Dask, and Maro remain in **Merehook** by voluntary self-funded travel.
-- Outer Works contract is complete and closed. Duskport return was intentionally missed.
-- Away arc remains self-directed: no employer/quest/prophecy forcing continuation.
-- Carrow remains home and communication continues with travel delay.
+- No employer/quest/prophecy forces itinerary.
+- Auction is now **2 days away** from Ch436 morning; Dask lecture is next day fifth bell.
+- Greg pays only current-night lodging, deliberately avoiding prepaying future curiosity.
 
-## Chapter 435 - THE ONLOOKER
+## Chapter 436 - THE PROSPECTOR
 
 ### Title / role
-- Ch435 answer: Greg is being **an onlooker**.
-- He watches Old Tide Eye's systems, local warning behavior, artifact displays, gull ecology, and Merehook habits without needing to own, fix, buy, or operate them.
-- Therefore title **THE ONLOOKER**.
-- Recent: 431 THE INSPECTOR; 432 THE PASSENGER; 433 THE VISITOR; 434 THE GO-BETWEEN; 435 THE ONLOOKER.
+- Greg is **THE PROSPECTOR**.
+- He prospects for money/opportunity and learns to evaluate artifact access by the problem solved rather than object fascination.
+- Closing frame: `Prospecting wasn't finding treasure. Mostly deciding which holes not to dig.`
 
-## Hara Quill brief consequence
-- Morning word: Hara's crate reached lower yard before dawn, buyer authority held, cargo was accepted and loaded.
-- Later Hara personally confirms buyer paid full **28c**.
-- Her **4c provisional security remains held** because market appeal review is still pending until next day.
-- Hara problem is therefore improved but not cleanly resolved.
-- No additional Greg involvement beyond receiving update.
+## Merehook short work / Menn Coil
+- Greg checks morning short-work board rather than accepting a convenient formal job.
+- Rejects work requiring two hands/stair scraping; takes a half-day **line-tag sorting** chit at **Menn Coil**, upper shelf east.
+- **Pera Menn** introduced: shaved head, three brass ear rings, blunt rope-house proprietor/supervisor.
+- Work is seated and compatible with crutches/body.
+- Four bins: keep / scrap / Survey return / unknown.
+- Pera's key rule: ask rather than invent; wrong bins cost her more than Greg earns.
+- Greg sees retired load-witness ceramic, line hardware, throat-glass inserts, etc., but does not pocket/buy anything.
+- Old triggered 8H ceramic shows layered dark crescents; old units drift after repeated heat resets.
+- One apparently intact throat-glass insert remains `unknown` because response marks are missing and it cannot be tested there.
 
-## Old Tide Eye observatory
-- Old Tide Eye sits on a ridge spur above Merehook middle shelf.
-- Public lower gallery open second-fifth bell; upper instrument floor remains survey-office-only; cliff walk closed during nesting.
-- Entry lower gallery costs **1 bit per person**; Greg pays his own bit, copper unchanged.
-- Observatory architecture:
-  - round white stone base;
-  - green copper roof;
-  - three narrow towers;
-  - one black-glass slit tower;
-  - one brass-ring cage tower;
-  - one partially broken/retired tower.
-- Lower gallery is a working/historical hybrid, not pure museum.
-- Central brass grate covers old pressure shaft descending into cliff sea chamber.
+## Wind incident / bounded action
+- Shelf-gust alarm sounds three short tones while Greg works.
+- Workers shutter cliff opening.
+- An old chipped throat-glass wind bowl warns imperfectly: tone rises early then cuts out before gust; newer bronze bowl continues.
+- Strong gust swings a large hanging rope coil off peg toward worker **Torl**.
+- Greg sees movement first and yells `Down!`; Torl ducks.
+- Greg sidesteps badly on crutches, right tip slips slightly on hemp dust, but he recovers against rack without injury.
+- Pera chocks rolling coil.
+- Greg is useful through awareness, not heroic rescue.
+- Pera notes chipped old bowl `warned badly`; Greg recognizes useful-error logic from observatory.
 
-## Orla Fen / observatory voice
-- Observatory lower-gallery attendant **Orla Fen** introduced.
-- She is practical, technically literate, dry without becoming Greg-clone.
-- She immediately identifies Dask's 2-bit cracked tide index as a **Gull & Son tourist decorative copy**, not real survey instrument.
-- Dask discovers tiny manufacturer stamp under dirt and chooses to keep liking it anyway.
-- Orla's framing: if he likes it, it was worth the 2 bits. This preserves Dask's cheap-object characterization without making him stupid.
+## Pay / work quality
+- Greg makes 3 sorting errors out of many:
+  - hidden Survey crest under corrosion;
+  - tiny current maker mark;
+  - counterfeit old reseller green slash.
+- Pera pays **3c** on transparent scale:
+  - 4c no wrong;
+  - 3c Greg result;
+  - 2c five wrong;
+  - 1c thief tier before dismissal logic.
+- Cash **50c -> 53c**.
+- This is bounded earned money, not convenient windfall.
 
-## Second Tide Eye / hybrid magical-scientific infrastructure
-- Major retired gallery instrument: **SECOND TIDE EYE, 114 YEARS SERVICE / PRESSURE-LENS / LONG SWELL COMPARATOR**.
-- Structure:
-  - cliff shaft connects to sea chamber below;
-  - water/pressure column drives ring mechanically;
-  - thick tideglass lens bends light against fixed shore-star references;
-  - shore-star plate is charged;
-  - ring compensation uses springs.
-- It is `dead` institutionally because ownership split blocks restoration:
-  - university owns ring;
-  - Coastal Survey owns stand;
-  - Merehook owns floor;
-  - lens ownership disputed under donor-deed wording.
-- This is bureaucracy affecting magical infrastructure without making anyone cartoonishly evil.
+## Auction intelligence
+- Pera explains:
+  - some scrap/unknown items feed Survey surplus process;
+  - public inspection one bell before auction;
+  - passive mechanical items may be testable with clerk permission;
+  - powered items generally not;
+  - charged glass cannot be handled without bond;
+  - Survey bundles useful small objects with junk because paperwork dislikes tiny lots.
+- Pera advice: **bid like worker, not collector. Decide what problem you are buying a solution for before bell starts.**
+- Greg still has not committed to attending auction.
 
-## Useful-error system
-- Public old comparator still moves and shows a **~2-mark west-swell rise**.
-- Upper modern instrument confirms ~1.5 marks.
-- Orla explains old comparator exaggerates when cliff chamber warms after east wind.
-- Important rule: old system is retained because its **known error pattern sometimes gives earlier warning**, though never enough for certification alone.
-- Observatory combines:
-  - old comparator;
-  - upper modern reading;
-  - harbor wind bowls;
-  - outer buoy line when functioning;
-  - actual visible water.
-- Result: only a small west-stair caution tag is issued, no harbor closure.
-- Within ~20 min lower west stair visibly begins taking more spray, validating bounded warning behavior.
-- Greg's core note: **old systems survive when their errors are useful.**
-
-## Merehook measure history / Sori interest
-- Gallery contains three brass historical/reference standards:
-  - Lower Coast Wet Handling;
-  - Merehook Shelf Freight;
-  - North Reach Dry Freight.
-- Orla explains these emerged from different trades standardizing at different times.
-- Historical gallery conversion card is itself ~3 years old and labeled `historical reference` in small text, irritating Sori.
-- Sori later checks current conversion information around town and finds inconsistency:
-  - harbor customs has current table correctly;
-  - market pamphlet still carries old footer;
-  - coach yard uses abbreviated table without transition note;
-  - observatory displays historical table with tiny labeling.
-- She explicitly does **not** decide to fix Merehook, though says she may write a letter.
-- This gives Sori independent local interest rather than follower status.
-
-## Maro / glass-gull payoff
-- Public/service-ramp accommodation lets Greg reach observatory terrace without using twelve-step public stair; no secret upper access is granted.
-- Maro gets close view of protected nesting glass gulls.
-- Glass gull outer flight feathers are translucent/mineral-sheened, not literal glass.
-- Nest material includes shiny **salt silk** stolen from cliff spiders.
-- Maro later visits legal lower-cliff overlook and sees web but no cliff spider.
-- Maro buys no additional feather; existing one remains enough.
-
-## Crosswind delay witness / artifact-route expansion
-- Terrace collection includes retired **CROSSWIND DELAY WITNESS / MODEL C-2**:
-  - brass frame;
-  - two milky disks;
-  - black stone delay bead;
-  - former North Cliff Road instrument;
-  - compared gust arrival at lower/upper sensor points;
-  - bead indicated delay between trigger times;
-  - useful for knowing how fast a gust front climbed road.
-- Retired because exposed wire run broke repeatedly in storms; newer road uses independent bowls + bell relay, less precise but more maintainable.
-- Observatory collection unit is **not for sale**.
-- Orla reveals Coastal Survey holds a **public surplus auction in two days**, after offices claim useful pieces. Retired road instruments/buoy parts/damaged bowls/calibration scrap may appear.
-- This creates a legitimate future artifact-market opportunity without guarantee/free access.
-
-## Delay bead training unit
-- Lower gallery shop sells working but incomplete **DELAY BEAD FRAME / TRAINING UNIT** for **7c**.
-- Characteristics:
-  - manual trigger sockets;
-  - measures delay between two triggered events;
-  - no remote sensors;
-  - no certified field housing;
-  - no wires/sensor pair.
-- Greg sees possible uses:
-  - timing magic attempt onset/end;
-  - load onset/release;
-  - gait timing;
-  - warning delays.
-- But 7c would reduce cash 50 -> 43 and does not solve missing sensors.
-- Greg **does not buy**.
-- Dask also considers it and stops himself.
-- Core Greg note: **Useful is not same as worth buying.**
-
-## Existing artifact pressure
-- Cliff-line keeper remains available in prior market context at 6c; still not purchased.
-- Old wind-bowl throat glass remains interesting; damaged inserts ~2c in observatory shop, replacement-grade prior market examples ~4c.
-- Greg buys **no artifacts Ch435**.
-- Rational pricing + capital pressure continue.
+## Companion independence
+- Sori checks measure information independently and sends **one letter** after making three drafts; she does not take on city reform.
+- Maro uses opened cliff path, sees one palm-width cliff spider, and receives a legal loose salt-silk strand from warden fence.
+- Dask prepares two pages of questions for next-day fifth-bell university lecture; Greg warns lecture is not interrogation.
+- All have independent reasons to remain at least through next day, but no shared mandatory itinerary.
 
 ## Trial limb / body
-- No trial-limb wear Ch435.
-- Observatory service ramp allows crutch access to public terrace; trial leg remains wrapped at lodging.
-- Crutches remain primary/sound.
-- No new injury.
+- Greg uses trial build **25 minutes** on stable Merehook middle-shelf packed stone/cargo ramps.
+- Ordinary task: buy soap and carry a small paper parcel to lodging.
+- On final flat stretch he bundles crutches and completes **14 unsupported carry steps**, stopping when gait degrades rather than waiting for pain/failure.
+- Post-wear:
+  - mild upper pink;
+  - faint lower-front line;
+  - both clear within 20 minutes;
+  - mild expected fatigue, no pain/injury.
 - Trial build remains Hark & Venn shop property, unfinished, medium foot.
+- Crutches remain primary.
 
 ## Economy
-- Greg begins/ends **50c cash / 23c Vale / bits unspecified**.
-- Observatory admission + lunch use bits only; copper unchanged.
-- No artifact purchase.
-- 20c limb deposit remains paid toward 1 silver + 18c travel-work limb.
+- Starts **50c cash / 23c Vale**.
+- Half-day Menn Coil work **+3c -> 53c**.
+- Pays current-night cheap bunk **-2c -> 51c**.
+- Food/soap use bits; copper unchanged beyond above.
+- Ends **51c cash / 23c Vale / bits unspecified**.
+- 20c limb deposit remains paid toward 1 silver + 18c quote.
+- Greg explicitly recognizes staying/auction/road all compete with limb capital.
+
+## Artifact pressure / procurement logic
+- Greg buys no artifacts.
+- Cliff-line keeper remains 6c; seller still refuses discount.
+- Delay training frame remains 7c at observatory shop.
+- Greg writes a **problem list**, not object wish list:
+  1. measure timing between two events without trusting internal count;
+  2. passive load witness where he cannot watch continuously;
+  3. warning before environmental change reaches him;
+  4. mobility that frees hands.
+- Fourth problem already has known expensive solution: fitted travel-work limb.
+- Core shift: **don't buy object; buy solved problem.**
+- Dask calls this a procurement framework; Greg denies it.
 
 ## Magic
 - Protocol remains **59 minimal / 53 shaping / 135 external attempts**.
-- No deliberate Greg magic Ch435.
-- Observatory charged shore-star infrastructure is environmental/world magic, not Greg attempt.
+- No deliberate magic Ch436.
 - No S-class/locked-mode activation.
 
 ## Current inventory
@@ -168,51 +120,41 @@ Greg carries:
 7. personal notebook;
 8. Outer Works close chit.
 
-## Character movement / independent interests
-- Dask: observatory interest pays off strongly; learns tourist-copy lesson; finds university annex lecture on **tidal harmonics and cliff-chamber lag** next day fifth bell.
-- Maro: cliff ecology/glass gull/salt silk route.
-- Sori: current measure-system inconsistencies; may write letter but does not become city reformer.
-- Greg: fascinated by infrastructure/artifacts but practices not-buying and not-owning.
-- Party separates during afternoon for different interests and regroups naturally.
-
 ## Protected uncertainties
-- Greg ends Ch435 at Merehook lodging.
-- Cash **50c**, Vale **23c**, bits unspecified.
+- Greg ends Ch436 at Merehook lodging.
+- Cash **51c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 135**.
-- Trial limb unfinished/shop property.
-- Hara received 28c buyer payment; her 4c security still held pending appeal review.
-- Old Tide Eye upper floor remains closed to public.
-- Coastal Survey surplus auction is in **2 days**; no promise they remain/attend yet.
-- Dask found a public university annex lecture next day fifth bell.
-- Greg has not bought delay frame, cliff-line keeper, throat glass, or other new artifact.
-- Merehook remains current exploration base.
-- Rika Dorn remains corrected Ch432 forewoman name.
+- Trial limb remains unfinished/shop property; 25-min wear clean enough with transient marks.
+- Hara's 4c appeal security status not revisited Ch436.
+- Dask lecture next day fifth bell.
+- Coastal Survey surplus auction remains following day; party has **not committed** to staying through it.
+- Greg has not bought delay frame, cliff-line keeper, throat glass, or new artifact.
+- Pera Menn/Menn Coil now known as possible short-work source but no standing employment arrangement exists.
 
-## Chapter 436 trailhead
-Follow next actual claim from Ch435/current authority.
+## Chapter 437 trailhead
+Follow next actual claim from Ch436/current authority.
 
-Greg begins **50c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**, in Merehook with no obligation forcing itinerary.
+Greg begins **51c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**, in Merehook next morning.
 
 Strong movement:
-- Merehook should continue feeling like an active place, but avoid another pure tour chapter.
-- A real choice now exists: leave, stay for Dask's lecture tomorrow, stay two days for surplus auction, pursue cliff ecology, or let a new human/event pressure interrupt plans.
-- Do not automatically stay just because auction exists. Money/lodging/time should matter.
-- Consider giving Greg a reason to earn money or confront opportunity cost if he wants both continued travel and artifact access, but avoid immediate convenient job offer.
-- A public event, cliff-weather incident, market/seller collision, or local social problem could add stronger rhythm.
-- Artifact pressure may now shift from `interesting object` toward `how do I fund access without eating limb money?`
-- Dask/Maro/Sori should each retain independent reasons/limits around staying.
-- Trial limb can return if an ordinary stable task makes sense, but no obligation.
-- Action/fighting is available if organically created by cliff/weather/ecology, not random encounter.
+- Dask's fifth-bell **tidal harmonics / cliff-chamber lag lecture** is a promised event, but chapter should not become another pure lecture/tour. Use day before it for independent movement, decision pressure, or a stronger event.
+- Greg must decide whether staying through next day's auction is worth another night's lodging + food + delayed road.
+- Artifact pressure should continue through problem-first procurement, not shopping fever.
+- Greg can seek another bounded earning opportunity only if organic; do not make every day a job chapter.
+- Consider human/social pressure or action around cliff weather, harbor operations, auction preview logistics, Hara appeal result, or another person's urgent want.
+- If lecture occurs in chapter, let Dask drive engagement and allow Greg to extract one useful idea rather than dominating questions.
+- Trial limb does not need another test immediately after 25-minute wear; recovery/rest is valid.
+- Merehook should continue expanding but begin pointing toward what comes **after** Merehook as well.
 
 Avoid:
-- buying 7c training frame immediately;
-- free auction windfall;
-- another full chapter of museum explanation;
-- instant employment contract;
-- forcing all four companions to want identical itinerary;
-- cleanly solving Hara appeal offscreen unless brief realistic update later.
+- automatic auction attendance;
+- convenient high-paying work;
+- buying current artifacts before auction decision;
+- another museum exposition chapter;
+- making Greg solve local institutions;
+- forcing combat.
 
-**MANDATORY TITLE CHECK CH436:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH437:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
