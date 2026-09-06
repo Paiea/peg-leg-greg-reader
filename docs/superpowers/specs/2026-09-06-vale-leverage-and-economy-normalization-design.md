@@ -117,6 +117,19 @@ Where Chapter 10 currently says Greg will own it once he produces **10s**, norma
 
 This turns an error into character-consistent financial damage.
 
+### Tere gauge value anchor
+
+Greg's early **40g+ right-buyer estimate** remains an active economic anchor.
+
+That estimate is not immediate cash and should not be treated as guaranteed sale value.
+
+But it matters structurally: if the gauge can plausibly monetize anywhere near that scale later, then a Vale debt around one or two gold is painful without being remotely equivalent to Greg's total latent asset upside.
+
+This creates useful continuity:
+- Greg can be cash-poor while carrying something potentially very valuable;
+- Vale can feel oppressive because Greg lacks liquidity and discipline;
+- later monetization can dwarf the old debt without retconning the debt into triviality.
+
 ### Late verification
 
 The late Vale verification should reveal **one collectible face balance**: the ugly nominal amount after principal, advances, fees, labor credits, payments, and accumulated interest are all reconciled.
@@ -131,7 +144,9 @@ Antonius can agree without cruelty.
 
 The exact normalized amount should be chosen only after the representative later earnings are normalized, so that Greg can plausibly repay it in full over the existing late sequence without an economic reset.
 
-Target shape: **high tens of silver**, not pocket copper and not a number so large that closure requires rewriting the plot.
+Target shape: roughly **1g to 2g**, not pocket copper and not merely high tens of silver.
+
+Do not convert that target into silver using an invented exchange rate.
 
 ### Why full repayment is interesting
 
@@ -249,7 +264,7 @@ Preferred prose changes are concentrated at:
    - adjust Greg's reaction only where the old copper-scale reaction becomes wrong.
 
 3. **Late Vale verification / full repayment**
-   - reveal absurd but collectible face balance;
+   - reveal absurd but collectible face balance around the 1g-2g scale;
    - have Greg recognize his own stupidity/arrogance;
    - make clear Antonius did not really expect every interest line to be paid;
    - have Greg insist on clearing the entire amount anyway;
@@ -261,6 +276,11 @@ Preferred prose changes are concentrated at:
    - preserve structure;
    - strengthen Antonius's impressed calibration lightly;
    - preserve understated tone.
+
+5. **Later Tere monetization**
+   - when the manuscript naturally circles back to selling or otherwise monetizing the Tere gauge, preserve the earlier 40g+ right-buyer anchor as a possibility rather than a guaranteed quote;
+   - the sale should demonstrate that Greg's historic liquidity crisis and his latent asset value were different things;
+   - do not make the Tere sale exist only to pay Vale, since Vale should already be closed by then under the current story shape unless later patching intentionally changes timing.
 
 ## Non-goals
 
@@ -286,9 +306,10 @@ The repaired manuscript should make all of these simultaneously believable:
 - Antonius still plausibly helps people and invests in them.
 - Antonius benefits from keeping borrowers in orbit.
 - Antonius does not expect most risky borrowers to pay every accrued interest line in cash.
-- Greg's running Vale balance becomes large without requiring a new plot.
+- Greg's running Vale balance reaches roughly **1g-2g** without requiring a new plot.
 - Greg eventually pays the **full** reconciled face balance anyway.
 - Antonius is genuinely impressed because Greg does something the lending model was not designed to require.
 - the final closure means freedom from leverage, not triumph over pocket change.
+- the Tere gauge can remain plausibly worth vastly more than the debt to the right buyer.
 - later skilled/high-risk work visibly pays more than early manual labor.
 - silver becomes normal operating money, tens of silver become leverage/risk money, and gold remains a higher tier.
