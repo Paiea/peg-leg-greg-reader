@@ -1,288 +1,264 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 395 - **THE FIGHTER**.
+- Current exact story endpoint: Chapter 396 - **THE PATIENT**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript physically materialized through Chapter 248.
-- Exact Chapters 249-395 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
+- Exact Chapters 249-396 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
 - Titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
-- Ch395 answer: Greg is being **a fighter**. Evidence at Three Posts escalates into a real reed-hound rescue. Vessa explicitly tells Greg to `Lock in`; Greg directs the crew under pressure, fights physically with his crutches/current body, uses one ambiguous field magic attempt, and gets three station staff out alive.
-- Therefore title **THE FIGHTER**.
-- Recent: 391 THE FOLLOWER; 392 THE CAMPER; 393 THE RECORDER; 394 THE PRACTITIONER; 395 THE FIGHTER.
+- Ch396 answer: Greg is being **a patient** in both senses. He accepts physical aftermath, lets others evaluate/help him, practices restraint after yesterday's fight, and delays decisions/purchases until evidence/body justify them.
+- Therefore title **THE PATIENT**.
+- Recent: 392 THE CAMPER; 393 THE RECORDER; 394 THE PRACTITIONER; 395 THE FIGHTER; 396 THE PATIENT.
 
 ## Major arc direction - away from Carrow
 - Long away-from-Carrow adventure arc remains active and desired, potentially act/near-book length.
-- Crew remains at **Three Posts station** overnight after rescue/fight, awaiting relief/medical cart for injured station staff.
+- Crew leaves Three Posts after relief arrives and moves ~6 local miles north to **Lark Spur**, a dry-ridge junction/relay stop with station, stable, repair yard, two inn-like sheds, and small market tables.
 - Traveling core intact: **Vessa Harn, Maro Pell, Sori Vale, Dask Renn, Kel Toren, Greg**.
-- Vessa intends to continue north after relief arrives and Pellin is stable.
-- Harrow Fen remains possible later market/relay destination, especially return route.
+- Next route board is open toward **Greyhook Rise**, then upper return beds beyond.
+- Harrow Fen remains a likely future market/relay stop, especially return route.
 - Keep geographic expansion active. Do not route back toward Carrow.
 
 ## Durable Greg character rule - reserve / normal mode / locked-in mode
 - Greg likes being viewed as competent but normally does not operate at maximum output because he knows he usually does not need to.
 - Baseline Greg remains comfortable/capable/observant/adaptive, willing to iterate and leave output on table.
 - First-life S-class history remains psychological reserve / retirement fund, not literal stored power.
-- Ch395 provides first strong expedition demonstration of **locked-in Greg under actual danger**:
-  - Vessa explicitly says `Lock in` after a human scream converts ambiguous missing-staff evidence into time-sensitive danger;
-  - Greg's cognition narrows rapidly into people/terrain/threat/resources/roles;
-  - he uses specialists instead of replacing them;
-  - gives concise movement/tactical assignments;
-  - accepts Vessa's command boundary: Greg directs movement, Vessa owns abort;
-  - remains capable of uncertainty (`probably`, not omniscience);
-  - after fight, Vessa deliberately tells him `Down`, and switching off is harder than switching on.
-- Locked-in mode is NOT magic and does not erase current-body limits. Greg's shoulder/right hand take real cost from fighting.
-- Full current-life high-end magical/combat ceiling remains unrevealed. Ch395 is an `oh` competence reveal, not S-class power restoration.
-- `Enough` remains durable: exact amount required. Ch395 temporarily reaches point where normal enough stops being enough, so Greg spends more of himself.
+- Ch395 established first strong expedition lock-in under danger. Ch396 establishes the equally important opposite: **competence includes accepting aftermath, rest, help, and slower pace**.
+- Greg's current body has learned things first-life body never needed: crutch angles, one-foot pivots, asymmetric load, ground feedback, and how to protect one real foot. Do not attribute all present competence to dead first-life Greg.
+- Current nineteen-year-old Greg has earned body-specific expertise.
+- Locked mode does not invalidate later rest. Crew now sees that Greg can be tactically formidable and still ask for ten breaths, reduce pace, shift load, or accept Kel stabilizing terrain.
+- `Enough` remains durable: exact amount required, not mediocrity. Ch396 expands that into **waiting can be competence**.
 
-## Chapter 395 - THE FIGHTER
+## Chapter 396 - THE PATIENT
 
-### Record first / mundane evidence
-- Greg obeys Vessa's Ch394 instruction and records before escalating.
-- Inside station observations expanded:
-  - warm kettle;
-  - open door;
-  - tipped chair;
-  - unfinished ledger;
-  - three cups (two used, one clean);
-  - limited mud;
-  - dark reddish-brown smear beside table leg, source initially unknown.
-- Sori/Maro correctly refuse to call smear blood; Greg records bounded description.
-- Prior ledger shows:
-  - first west tone at third bell +19, arm three no visible response;
-  - second tone at +31;
-  - half-written line follows.
-- Sori identifies assigned station staff:
-  - keeper **Noll Senn**;
-  - assistant **Vara Tesh**;
-  - road hand **Pellin Or**.
-- Kel/Maro inspect only first bounded area.
-- Kel concludes 3, maybe 4 people moved north; one heel drag suggests someone not lifting right foot, not necessarily body drag.
-- Empty station-issue knife sheath found near north reeds.
+### Morning physical aftermath
+- Morning after reed-hound fight hurts more than prior night.
+- Greg inventories:
+  - right shoulder painful, especially sideways/backward motion;
+  - right palm/forearm stiff/sore;
+  - left side fine;
+  - right foot fine.
+- Vessa palpates/assesses shoulder informally.
+- Relief/medical cart arrived after dark.
+- Med hand **Jessa Ril** introduced:
+  - broad wrists, gray hair tied tight;
+  - direct tone, treats everyone between her and bandages as obstacle.
+- Jessa assessment:
+  - bruised soft tissue / possible strain;
+  - no obvious break;
+  - no obvious joint displacement;
+  - no numbness/neck pain;
+  - grip weakness appears pain-limited.
+- Advice:
+  - reduce load that day;
+  - cool wrap initially, warm later if swelling stays low;
+  - if pain climbs instead of settles, stop being clever.
+- Greg receives cool clay wrap on shoulder.
+- Do NOT instantly heal him next chapter.
 
-### Escalation / lock-in trigger
-- A distant human scream sounds north and cuts short.
-- This is the evidence threshold.
-- Vessa looks at Greg and explicitly says **`Lock in.`**
-- Greg's reserve opens cognitively, not as a magic power-up.
-- Greg immediately inventories:
-  - three missing;
-  - one impaired gait possibility;
-  - empty sheath;
-  - fresh reeds;
-  - scream north;
-  - crew six + mule;
-  - unknown threat;
-  - marsh terrain;
-  - missing local map knowledge.
-- He therefore delegates to local/specialist competence:
-  - Maro identifies fastest safe wider line;
-  - Kel finds/uses station reach pole;
-  - Sori keeps missing identities separate;
-  - Dask rear/counts tones initially, later animals;
-  - Vessa retains abort authority.
-- Greg rejects station pole for himself because six-foot pole + crutches is awkward; keeps crutches/knife/body.
+### Crutch damage inspection
+- Right crutch has four tooth grooves along upper shaft, one deeper.
+- Dask initially has crutch across knees for inspection; Greg asks permission issue, Dask immediately hands it back. Small growth.
+- Greg/Kel inspect:
+  - no visible crack;
+  - shaft rolls without wobble;
+  - metal cuff fine;
+  - tip seated;
+  - hand grip tight.
+- Kel calls deepest mark surface bite based on wood knowledge, not formal crutch certification.
+- Vessa orders no fighting/hard leverage with it that day.
+- Function remains usable but preserve damage residue.
 
-### First contact / station staff
-- Crew finds:
-  - Noll Senn on ground with right ankle tangled in old line and bloodied left forearm;
-  - Vara Tesh behind low stone marker with broken pole;
-  - Pellin still missing in reeds.
-- Three adult reed hounds visible initially, possibly more later.
-- These are ordinary regional predators escalated by injury/flight/opportunity, not monsters/chosen-one threat.
-- Greg uses voice to pull predator attention cheaply before closing.
-- Tactical group initially Greg/Kel/Maro forward, Vessa/Sori/Dask support.
+### Three Posts staff disposition
+- Pellin stable overnight but injured enough for evacuation to **Harrow Fen infirmary**.
+- Jessa's line: Pellin is supposed to `keep leg`, not finish north line today.
+- Noll stays at Three Posts with replacement keeper **Beren Holt**.
+- Vara stays half day for incident handoff, may ride south if shoulder worsens.
+- All three survive.
+- No victory ceremony.
 
-### Greg physical fight - current body / old timing
-- Greg fights with **crutches as actual weapons/tools**, grounded in current one-leg body:
-  - first hound slips inside Kel's pole reach toward Greg;
-  - Greg plants left crutch and thrusts right crutch metal cuff into shoulder rather than broad swing;
-  - turns with impact instead of absorbing it straight;
-  - uses right-foot pivot/current-body adaptation rather than relying on missing left step;
-  - drops crutch tip behind foreleg to disrupt line;
-  - Kel pole drives animal away.
-- Against second hound near Noll:
-  - Greg jabs shoulder rather than moving head;
-  - hound bites crutch shaft;
-  - Greg briefly uses committed bite as mechanical handle by rotating shaft to break jaw alignment;
-  - strikes muzzle/forearm and creates space for Noll to crawl free.
-- Fighting style demonstrates veteran decision quality, targeting/line control/timing rather than raw current strength.
-- Greg's heart initially barely accelerates; old timing delays fear until later.
+### Crew processing Greg's fight competence
+- Dask asks one useful technical question about Greg changing right crutch from support to thrust without falling.
+- Greg explains stable triangle: left crutch + right foot already carried enough; right crutch was lightly loaded.
+- Dask asks whether exact load known; Greg says no, felt it.
+- Important internal distinction:
+  - partly first-life habit;
+  - partly **current-body habit**.
+- Greg recognizes this body taught him skills first-life body never needed.
+- Dask is relieved there is no secret transferable equation.
+- Sori jokes he would marry an equation.
 
-### Ambiguous practical magic under pressure
-- Third hound bursts from reeds toward Vara's back while Greg/Kel/Maro cannot physically reach in time.
-- Greg makes **one deliberate external attempt** aimed not at moving entire hound but at shifting front paw at plant.
-- Paw lands wrong by inches; hound's shoulder dips and leap clips stone marker rather than Vara.
-- Vessa then strikes animal with pole.
-- Causation deliberately unresolved:
-  - could be Greg;
-  - could be mud;
-  - could be animal motion.
-- Dask literally yells `No claim!` during fight.
-- Greg later records this as an **attempt, success unknown**.
-- External ledger increments **134 -> 135**.
-- Durable protocol now **59 minimal / 53 shaping / 135 external attempts**.
-- Do NOT convert this to proof Greg can affect large living targets reliably.
+### North route from Three Posts
+- Beren reports:
+  - Three Posts -> **Lark Spur** open;
+  - upper return-bed road wet but usable on foot/pack mule;
+  - no wagon until Lark Spur;
+  - signal frames between stations operating **manually** because false tones remain unreliable;
+  - two raised runs, one bog bridge, return-bed ridge;
+  - halfway stone shed;
+  - Lark Spur station bunks available if not consumed by freight crew.
+- Travelers may hear false tones but should not obey without local/manual confirmation.
+- Vessa continues north after first bell.
 
-### Pellin rescue / deeper reed fight
-- Vara identifies Pellin as dragged/fallen into north reeds after hounds pressed them.
-- Vessa authorizes bounded 30-pace search first, then reassess.
-- Greg assigns Kel/Sori with Noll/Vara; Dask rear animal count; Maro/Vessa/Greg enter reeds.
-- Pellin found alive ~20 paces in, half in shallow drainage cut, torn/bloodied leg, gripping root.
-- One hound watches from opposite bank; additional barking begins on crew side.
-- Vessa applies compression/bandage while Greg/Maro guard.
-- Greg recognizes carrying Pellin through reeds while pressed is bad; goal becomes breaking hound pressure first.
+### Pellin departure / Harrow Fen pull
+- Pellin leaves south toward Harrow Fen in medical cart with Jessa.
+- Greg has momentary pull toward Harrow Fen market/civilization/artifact possibilities, but also wants north road.
+- This reinforces genuine expansion appetite rather than homesick-only travel.
 
-### More serious locked-in fight
-- Vessa asks if Greg can make hounds break. Greg says **`Probably`**, preserving uncertainty.
-- Greg gives knife to Maro because he needs both crutches.
-- Uses crutches as support + lever/staff-half.
-- First close hound:
-  - Greg steps **toward** burst, thrusts crutch under jaw to lift head;
-  - Maro strikes flank with knife pommel;
-  - Greg pivots on right foot around planted left crutch and shoulder-checks animal off line;
-  - shoulder takes real pain/cost.
-- Second hound targets planted right leg:
-  - Greg offers crutch shaft;
-  - animal bites;
-  - Greg uses committed jaw/shaft as handle to turn head;
-  - Maro strikes hindquarter;
-  - Greg kicks mud into face after release.
-- Greg calls for coordinated **noise** once group can become unattractive target; Maro/Vessa clang iron/stone while Greg yells.
-- One hound still commits; Greg lands a real short crutch strike to side of skull then chest thrust, causing it to flee. Others withdraw.
-- Crew **does not chase**.
-- No hound confirmed killed.
+### Travel with real injury adjustments
+- Greg initially objects when entire crew slows for him; Vessa refuses to split group.
+- Practical adjustments:
+  - harness/shoulder bag shifted to unload right shoulder;
+  - Kel carries record case for first run;
+  - Greg shortens right-crutch plants;
+  - pace reduced ~10% qualitatively (do not over-measure unless needed).
+- Dask is told not to quantify slowdown aloud; visibly suffers.
+- Upper return beds landscape:
+  - wide shallow mostly dry basins;
+  - cracked pale clay;
+  - low stone ridges;
+  - black iron stakes with small glass cups, some empty, some containing dull silver liquid.
+- Maro identifies cups simply as old return samplers and stops Dask from overexplaining.
+- On timber run Greg's hand worsens before shoulder; he calls **10 breaths** and crew stops without treating it as contradiction to yesterday's competence.
 
-### Extraction / body cost
-- Pellin stabilized enough for assisted extraction.
-- Greg leads ground placement out because crutch use makes him attentive to deceptive soft patches/root placements.
-- All three station staff recovered alive:
-  - Noll forearm injury + ankle tangle;
-  - Vara bruised shoulder, no bite;
-  - Pellin significant torn/bloodied lower leg, non-arterial by observation, requires medical support.
-- Greg's right hand shakes from impact; shoulder hurts; later heart pounds after switch-down.
-- Crutch shaft has tooth grooves. Greg is annoyed because crutches are expensive.
-- Current body sends real invoice; competence does not erase Bronze physical limits.
+### Manual signal redundancy
+- Around third mile crew passes manual signal team:
+  - one woman on lever;
+  - one man with sighting glass.
+- One low mast tone sounds; they do **nothing** until visual confirmation and green paddle, then move lever.
+- Dask is delighted by `good redundancy`.
+- Local update:
+  - false tones continue intermittently west/south;
+  - no unexplained physical gate movements confirmed north of Three Posts;
+  - arm drift reported at two stations with different orientations;
+  - Harrow Fen maintenance team working circuit.
+- Do not combine anomalies into conspiracy without evidence.
 
-### Switch-down / Vessa evaluation
-- Dask reports 4 hounds observed total, possibly 5 depending identity of opposite-bank animal.
-- Vessa touches Greg's uninjured shoulder and says **`Down.`**
-- Greg consciously exits locked mode; this is harder than switching on.
-- Normal voice returns with `I hate dogs`; Maro points out he liked them yesterday.
-- Sori/Dask visibly recalculate Greg after seeing mode; Kel less surprised.
-- Vessa later checks Greg's shoulder, likely bruise/no obvious dislocation.
-- Vessa tells Greg:
-  - he locked when asked;
-  - gave orders inside her command;
-  - most were good;
-  - stepping toward first hound in reeds was riskier than necessary even if it changed timing.
-- Vessa identifies mode from outside: Greg gets quieter/faster and stops asking questions he already knows how to bound.
-- Greg calls it `old work`, clarifies not magic.
-- Greg says current body cannot cash every check old brain writes.
-- Vessa calls mode **useful**.
+### Halfway shed / Sori conversation
+- Crew lunches at stone shed.
+- Greg pain/swelling stable, not worsening.
+- Sori privately tells Greg: **`You scared me yesterday.`**
+- She clarifies not because he was violent; everyone fought. Because he changed.
+- Her observation: Greg `stopped spending words`; people became `pieces` / Greg corrects to `variables`, realizes that is not reassuring.
+- Greg says this is why he does not live in locked mode.
+- He confirms crew members remain people even while reduced operationally.
+- Sori says it was still unsettling.
+- Sori noticed Greg looked annoyed when Vessa said `Down`; Greg explains not angry at Vessa, but irritated that world became slow/complex again.
+- Locked mode makes world simpler. Normal mode brings back nuance, people, feelings, pain, etc.
+- Conversation remains unresolved-but-better, not sentimental repair.
 
-### Mundane explanation for station abandonment
-- Missing-staff mystery resolves without conspiracy:
-  - Noll heard second west tone;
-  - arm three moved hard north then stopped west of rest;
-  - Noll/Vara went outside;
-  - Pellin saw reed hounds near signal-rope anchor and tried to drive them off because they were worrying something in grass;
-  - hound lunged, Pellin ran;
-  - Noll/Vara followed to help;
-  - Pellin slipped off shelf;
-  - Noll tangled foot in dropped old signal line;
-  - Vara used broken marker pole against hounds.
-- Dark station smear = reed dye from Vara's wet glove.
-- Tipped chair = Noll hit it while leaving.
-- Warm kettle = tea.
-- False tones/arm movement remain **separate unresolved infrastructure problem**.
-- This avoids converting every anomaly into one conspiracy.
+### Bog bridge / accepting help
+- Bog bridge is chain of floating timber rectangles between stone anchors.
+- Greg can cross but shoulder limits enthusiasm.
+- Kel goes ahead and stabilizes panels with boot without needing explicit ask.
+- Greg accepts help without pride conflict.
+- Small silver fish jumps onto panel; Greg nudges it back with crutch tip. No ledger entry/joke about progress.
+- This beat reinforces yesterday's fighter and today's assisted traveler can both be true.
 
-### Statements / aftermath
-- Sori takes statements.
-- Greg accurately records:
-  - crutch strikes;
-  - mud thrown into animal face;
-  - one external attempt with success unknown;
-  - Vessa authorized lock-in but not every individual tactic.
-- Dask accepts attempt classification immediately; external count 135.
-- Kel later finds dropped station knife near Noll's original position.
-- Dask/Noll inspect signal frame from ground; Maro checks hound activity from safe shelf.
+### Lark Spur arrival
+- Marsh thins into dry ridge with white-barked **glass birch** (not literal glass; Dask still says so, crew collectively preempts him).
+- Lark Spur is more than station, less than town:
+  - road junction;
+  - stable;
+  - two inn/shed businesses;
+  - repair yard;
+  - signal tower;
+  - small market tables under patched awnings.
+- Vessa permits one hour after station check if bunks secured/route board clean.
+- Greg is openly delighted.
 
-### Overnight delay / crew processing
-- Route north delays overnight because Pellin needs medical/relief support.
-- Vessa sends relief/medical cart request from nearest north maintenance post, expected after dark if road clear.
-- Vessa intends to continue next day if relief arrives and Pellin stable.
-- Greg eats station stew left-handed due sore right hand.
-- Crew asks about fighting choices:
-  - Greg explains first strike targeted larger shoulder/change of line before damage;
-  - Kel understands why thrust rather than swing;
-  - Greg explains using hound's committed bite on crutch shaft as a `handle`, upsetting Sori;
-  - Maro prefers pot-lid technique.
-- Closing: not a monster hunt/quest. Crew found people, protected them, and fighting happened between those two things.
-- Greg reflects on **Bronze body / old timing / one leg / two crutches / enough for today**.
+### Elden Marr / bunks
+- Station clerk **Elden Marr**:
+  - thin;
+  - silver spectacles;
+  - vest too nice for ridge dust;
+  - acts like landlord.
+- Claims Survey priority gets 4 bunks and 2 floor places despite assignment covering six sleeping places.
+- Sori takes over negotiation.
+- Result: crew gets six bunks after ~20 minutes.
+- Greg wisely leaves this war to specialist.
+
+### Lark Spur artifact-market seed
+- Route north open next day toward **Greyhook Rise**, then upper return beds.
+- Manual signal confirmation remains active.
+- Small market includes old brass fittings, weather charms, food, station hardware.
+- Greg stops at retired hardware table run by ~16-year-old seller with chin scar / ancient-disappointment expression.
+- Interesting object:
+  - palm-sized brass **line quietener**;
+  - three notches;
+  - faded black-slash retirement mark;
+  - handwritten label: dampens false/echo tone on short copper runs;
+  - price **8c**.
+- Seller explains why retired:
+  - it also makes true weak tones quieter;
+  - district stopped using after a missed flood warning ~12 years ago.
+- Old stamped maintenance card supports short-copper-run use only, not universal.
+- Visible utility + real downside justify price.
+- Current false-tone context makes object especially tempting, but Greg recognizes this can inflate perceived relevance.
+- Seller offers to hold until morning for **1 bit**. Greg declines because bits remain unspecified and he does not need a hold.
+- Greg does **not** buy the 8c line quietener in Ch396.
+- Preserve object/seller as possible Ch397 decision if rational.
 
 ## Economy
 - Greg begins **23c private cash**.
-- No spend/income in Ch395.
+- No copper spend/income in Ch396.
 - Ends **23c private cash**.
 - Vale remains **23c principal-equivalent**.
 - Bits unspecified.
-- Assignment continues to cover travel/meals/lodging.
+- No hold fee paid.
+- Assignment covers meals/lodging/travel.
 
 ## Magic / artifacts
-- Protocol ledger now **59 minimal / 53 shaping / 135 external attempts**.
-- Ch395 one field external attempt:
-  - moving living target front paw at plant;
-  - unknown effective distance in fast fight, short-to-moderate local range;
-  - intended tiny sideways disruption only, not whole-body movement;
-  - observed paw misplant/shoulder dip/leap deflection;
-  - causation ambiguous due mud/animal motion;
-  - counted as attempt, NOT success.
-- No other deliberate magic.
-- Full high-end magical combat expression remains unrevealed.
+- Protocol ledger remains **59 minimal / 53 shaping / 135 external attempts**.
+- Greg performs **no deliberate magic** in Ch396.
+- Ch395 ambiguous paw attempt remains ambiguous.
+- No further controlled practice due injury/travel.
+- Line quietener is seller inventory, not Greg's.
 - Oval remains sealed Merecross Survey custody.
 - Holdfast/K-14-6/Three Reeds/Step Keeper remain locked Carrow.
 - Tavi rock remains with Greg.
 
 ## Greg social/internal movement
-- First substantial current-life physical fight in away arc shows Greg's S-class history through **decision quality and timing**, not stats.
-- Greg accepts Vessa's command hierarchy even while directing tactics.
-- He protects specialists by assigning according to strengths and keeping Sori/Dask out of unnecessary close contact.
-- Greg does not chase fleeing predators or seek fight for identity.
-- Locked mode impresses/reframes him socially, especially for Sori/Dask.
-- Current-body cost prevents competence porn from becoming consequence-free.
-- Normal Greg returns after Vessa says `Down`.
+- Action leaves residue.
+- Greg is physically limited but not helpless.
+- He accepts medical evaluation, cool wrap, load redistribution, slower pace, Kel's bridge help.
+- He explicitly recognizes current-life body expertise as his own earned competence, not merely residue of first-life S-class self.
+- Crew perception shifts:
+  - Sori is unsettled by locked mode but understands why Greg avoids living there;
+  - Dask becomes more disciplined around permission and asks a real body-mechanics question;
+  - Kel treats Greg as capable while practically helping;
+  - Vessa keeps command and protects group cohesion.
+- Greg practices patience with body, evidence, social recalibration, and artifact temptation.
 
 ## Dialogue variance
-- Vessa: concise command language, explicitly authorizes lock-in and retains abort authority; afterward gives blunt tactical critique.
-- Maro: terrain/ecology partner in fight, responds quickly to tactical calls, uses knife pommel/noise rather than becoming warrior clone.
-- Kel: reach weapon/transport practicality, understands Greg's line-control logic afterward.
-- Sori: keeps identities/statements clean, reacts socially to Greg's unsettling tactical explanations.
-- Dask: evidence discipline survives combat (`No claim!`), later classifies ambiguous magic correctly.
-- Station staff speech: frightened/profane/practical, not polished.
+- Jessa Ril: medically practical, sharp, no patience for clever injured people.
+- Beren Holt: local station shorthand / route practicality.
+- Elden Marr: petty lodging bureaucrat / landlord energy.
+- Lark Spur hardware seller: young but dry, unimpressed, concise market logic.
+- Sori: more personal and unsettled than usual in halfway-shed conversation.
+- Dask: technical curiosity moderated by growing consent/evidence discipline.
+- Vessa: minimal command, refuses needless crew split, no praise loop.
 
 ## Recent role ledger
-- 391 THE FOLLOWER
 - 392 THE CAMPER
 - 393 THE RECORDER
 - 394 THE PRACTITIONER
 - 395 THE FIGHTER
+- 396 THE PATIENT
 
 ## Protected uncertainties
-- Crew remains at Three Posts overnight awaiting relief/medical cart.
-- Pellin injured but alive; exact medical prognosis unresolved.
-- Noll/Vara alive with lesser injuries.
-- Reed hounds withdrew; no hunt planned; exact number 4-5 uncertain.
-- No hound confirmed dead.
-- Three Posts false west tones / arm-three movement remain unresolved and **not caused by hound event** by current evidence.
-- North-station arm-two anomaly and West Locks false tones remain unresolved; do not automatically merge.
-- Ch395 external paw-disruption attempt is ambiguous, not proof of living-target control.
-- Greg's locked-in cognition is now openly witnessed by crew and recognized by Vessa as useful.
-- Full current-life locked-in magical ceiling remains unrevealed.
-- Greg shoulder/right hand sore after fight; preserve short-term physical residue next chapter.
-- Crutch shaft has tooth grooves; function not stated damaged. Inspect if relevant before hard travel.
+- Crew ends Ch396 at **Lark Spur**, six bunks secured, route north open toward Greyhook Rise.
+- Greg right shoulder/right palm/forearm remain sore; no instant healing.
+- Right crutch tooth grooves remain, no visible crack/wobble at Ch396 inspection.
+- Pellin is en route to Harrow Fen infirmary, stable enough for transport; prognosis unresolved.
+- Noll remains Three Posts; Vara handoff status beyond half day unresolved.
+- Reed hounds withdrew, no revenge/hunt thread established.
+- False tones remain unresolved; manual confirmation mitigates risk.
+- Arm drift at multiple stations remains observation, not unified cause.
+- Lark Spur 8c line quietener remains available only if not sold; not reserved.
+- Full current-life high-end magical/combat ceiling remains unrevealed.
+- Greg's locked-in cognition is now known to crew, but should remain rare.
 - Harrow Fen remains future possible market/relay stop.
 - Oval remains sealed Merecross; cold-response meaning unresolved.
 - Home communication remains delayed.
@@ -291,40 +267,39 @@
 ## Continuity issue
 - Ch360 1-bit lunch source remains unresolved. Do not invent. Copper exact **23c**.
 
-## Chapter 396 trailhead
-Follow next actual claim from Ch395/current authority.
+## Chapter 397 trailhead
+Follow next actual claim from Ch396/current authority.
 
 Greg begins **23c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**.
 
 Physical/timeline:
-- evening/overnight at Three Posts after reed-hound rescue;
-- Greg right hand/shoulder sore, crutch shaft tooth-marked;
-- station staff recovered alive; Pellin needs medical/relief support;
-- relief cart expected after dark if road clear;
-- Vessa intends to continue north next day if relief arrives/Pellin stable;
-- unresolved false tones/arm-three movement still station-system issue.
+- evening at **Lark Spur**;
+- six bunks secured;
+- one-hour market window mostly/fully used;
+- route board open toward **Greyhook Rise**, then upper return beds;
+- Greg shoulder/right hand still sore, cool-wrap/low-load guidance active;
+- 8c retired line quietener may still be on seller table by morning but is not reserved.
 
 Strong movement:
-- Let action leave residue. Do not make Greg physically fresh next morning.
-- Give crew/station staff a little social aftermath without turning whole chapter into congratulations.
-- Continue north once relief allows. Adventure should keep moving.
-- The locked-in reveal should change how Sori/Dask/Maro/Kel/Vessa perceive/use Greg, but do not have everyone worship him. Vessa already identified one risky tactical choice.
-- Greg may inspect/repair crutch damage or meet someone who can; avoid making every gear issue artifact plot.
-- Keep false-tone system bounded unless new evidence actually matters.
-- Greg should not immediately seek another fight or magic stunt.
-- Consider a new landscape/problem after Three Posts so action is followed by expansion rather than another fight immediately.
-- Harrow Fen remains plausible later market route, but current route north should continue unless credible operational reason changes it.
+- Continue north. Do not stall in Lark Spur for multiple chapters unless a genuinely new function emerges.
+- Let Greg decide whether line quietener is worth 8c only if evidence/utility supports it. It is not a bargain-bin plot key; downside is real and visible.
+- Physical recovery should improve gradually, not vanish.
+- Use new dry-ridge/upper-return geography and keep world widening.
+- Crew social recalibration after Ch395 should appear in small choices, not speeches every chapter.
+- Locked mode should not recur immediately. Let its rarity preserve force.
+- Practical magic can rest for at least a beat after fight/practice cluster.
+- A new artifact, specialist, traveler, regional work system, or materially different external pressure is welcome.
+- Greyhook Rise should feel unlike Alder Basin / Locks / marsh stations.
 
 Avoid:
-- victory lap;
-- instant healing;
-- hound revenge pack;
-- declaring Greg secretly S-class in current stats;
-- making Vessa subordinate to Greg;
-- turning ambiguous magic attempt into confirmed success;
+- immediate second fight;
+- instant shoulder recovery;
+- making line quietener secretly solve entire false-tone network;
+- turning Sori fear into melodrama;
+- having everyone treat Greg as commander now;
 - immediate Carrow return.
 
-**MANDATORY TITLE CHECK CH396:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH397:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
