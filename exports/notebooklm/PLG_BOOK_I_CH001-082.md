@@ -49373,93 +49373,13 @@ Dorn said, “Farmer owns a wagon.”
 
 Pessa smiled. Barely. The first complaint was not wagon-breaking. It was annoying. A farm approach crossed a shallow roadside ditch through a stone-lined culvert. Water had eaten a channel along the outer shoulder where the culvert outlet met softer ground. Two feet long. Maybe three inches deep.
 
-One wagon wheel could catch it if the driver aimed badly. The farmer was waiting. Of course. Older man. Red face. Hat too small.
+The farmer was waiting, red-faced and certain he had lost half the road. The road remained mostly present. One empty cart passed while I read his complaint, which at least proved Pessa's first useful distinction: passable was not the same as comfortable, and an empty cart did not answer for a loaded one.
 
-“You see it.”
+Dorn found the softness local to the washed edge. The culvert itself was mostly clear, with only a little straw caught at the mouth. I recorded the useful facts: passable, local shoulder wash, soft edge, minor debris, loaded-cart clearance not observed.
 
-Pessa climbed down.
+When the farmer asked when we were fixing it, Pessa marked the stone blue and told him not today. He pointed out that we had tools. Dorn held up the probe. “This is a stick.”
 
-“I see something.”
-
-“Lost half the road.”
-
-We all looked at the road. The road remained mostly present. Dorn took the probe. Pessa walked the shoulder. I checked the packet.
-
-Complaint:
-
-SOUTH EDGE COLLAPSING
-CARTS CANNOT PASS
-
-Carts were passing. One passed while I read it. The farmer pointed.
-
-“That one's empty.”
-
-Good information. Pessa said, “When did it start?”
-
-“After rain.”
-
-“Which rain?”
-
-“The rain.”
-
-There had been several. Dorn pushed the probe into the shoulder. Firm. Again closer to the wash. Softer.
-
-“Edge only.”
-
-Pessa nodded. I crouched near the outlet. Water stain. Silt. Grass bent downstream. The culvert mouth itself was mostly clear. Mostly. A branch had caught two handfuls of straw against the lower edge. Not blocked. Restriction maybe ten percent.
-
-I wrote:
-
-REPORTED: CARTS CANNOT PASS
-OBSERVED: PASSABLE
-OUTLET SHOULDER WASH ~2 FT
-SOFT EDGE LOCAL
-CULVERT MINOR DEBRIS
-LOADED CART CLEARANCE NOT OBSERVED
-
-Pessa read.
-
-“Good.”
-
-I pointed at her. She ignored me. The farmer said, “When are you fixing it?” Pessa took blue chalk and marked the stone at the culvert.
-
-“Not today,” Pessa said.
-
-“You're here,” the farmer said.
-
-“Yes.”
-
-“You have tools,” he said.
-
-Dorn held up the probe.
-
-“This is a stick,” Dorn said.
-
-“I can see that.”
-
-“Then we're making progress.”
-
-Pessa said, “We'll mark priority. Crew comes later.” The farmer looked at me.
-
-“You're Guild.”
-
-“Yes.”
-
-“Can you fill it?”
-
-“No.”
-
-“You're standing there.”
-
-“Yes.”
-
-This was apparently evidence.
-
-“We're inspecting.”
-
-“I need it fixed.”
-
-“I understand.”
+The farmer remained dissatisfied. The road remained functional. We moved on.
 
 That was dangerous phrasing. Did I? I understood what he wanted. Not necessarily what he needed. Pessa said, “Next.” We left. No repair. The farmer remained dissatisfied. The road remained functional. Good. Second site was not on the complaint list. Pessa stopped the wagon herself. I had been looking at a fence. Bad. Dorn had been looking at the road. Better.
 
@@ -49529,77 +49449,17 @@ Annoying. Correct.
 
 I wrote:
 
-UNREPORTED ACTIVE SEEP
-LIKELY OLD DRAINAGE CUT
-SHOULDER THIN LOCAL
-CURRENT WHEEL TRACK CLEAR
-RED
+UNREPORTED ACTIVE SEEP LIKELY OLD DRAINAGE CUT SHOULDER THIN LOCAL CURRENT WHEEL TRACK CLEAR RED
 
 Pessa added:
 
 CHECK AFTER NEXT HEAVY RAIN
 
-Important. Not just condition. Change. We moved on. By midmorning, I understood why Pessa liked road work. Not roads. Difference. The complaints were stories. The map was a story. The road was what remained after water, wheels, stone, repairs, neglect, animals, weather, and people argued with the stories. At the third site, the complaint said standing water. There was none. The farmer's wife met us with her arms folded.
+At the third site, the complaint said standing water. There was none. The farmer's sons had dug a fresh trench from the road ditch through the farm edge, and the road now drained perfectly well into somebody else's problem.
 
-“It drains now.”
+We followed the improvised cut into a farm drain, then a larger ditch that disappeared under a hedge. “Where does that go?” Dorn asked. The farmer's wife pointed toward Merek's land. Merek did not know.
 
-Pessa said, “What changed?”
-
-“My sons dug it.”
-
-Pessa closed her eyes.
-
-“Where?”
-
-The woman pointed. A fresh trench cut from the road ditch through the farm edge. Not deep. Effective. Probably. Dorn walked it. I looked at Pessa.
-
-“No repair,” I said.
-
-She looked at me.
-
-“This is not our repair.”
-
-“Still.”
-
-The woman said, “It works.” Pessa said, “Until it sends road water into your lower field.”
-
-“It already goes there.”
-
-“Where after?”
-
-The woman pointed farther. Another ditch. Maybe. Pessa walked. We followed. The improvised cut joined a farm drain, which joined a larger ditch, which disappeared under a hedge. Dorn said, “Where does that go?” The woman said, “Merek's.”
-
-“Does Merek know?”
-
-“No.”
-
-Good. Infrastructure diplomacy. Pessa wrote something.
-
-“What priority?” I asked.
-
-“White.”
-
-“Why not blue?”
-
-“Road problem is solved.”
-
-“Potential downstream problem.”
-
-“Not Guild road yet.”
-
-Yet. Important.
-
-“Do we tell Merek?”
-
-“Yes.”
-
-“Us?”
-
-“Farmer.”
-
-The woman frowned. Pessa handed her a note.
-
-“Tell him before next rain.”
+Pessa marked the road problem white because it was currently solved, then handed the woman a note for the downstream farm before the next rain. I wrote the part that could change a decision: PRIVATE CUT DIVERTS ROAD WATER. OWNER TO NOTIFY DOWNSTREAM FARM.
 
 She took it. No argument. Maybe because Pessa had the road face. I needed a road face. Probably not. We ate beside a low wall near noon. Bread. Cheese. Dried meat. Apple. Dorn had boiled eggs. Pessa had something wrapped in leaves. No one shared. Professional boundaries. The horse grazed. The wheel did not squeak while stopped. Excellent. I flexed my hand.
 
@@ -49649,8 +49509,7 @@ Second site. She kept almost everything. Third.
 
 She crossed out half my drainage description and wrote:
 
-PRIVATE CUT DIVERTS ROAD WATER
-OWNER TO NOTIFY DOWNSTREAM FARM
+PRIVATE CUT DIVERTS ROAD WATER OWNER TO NOTIFY DOWNSTREAM FARM
 
 Cleaner. I did not like it. Therefore probably better.
 
@@ -49722,9 +49581,7 @@ We walked. The bridge deck had shallow wheel wear. No fresh cracks. Mortar patch
 
 I wrote:
 
-BRIDGE SERVICEABLE
-WEST MORTAR PATCH HOLDING
-UPSTREAM BRANCH MINOR
+BRIDGE SERVICEABLE WEST MORTAR PATCH HOLDING UPSTREAM BRANCH MINOR
 
 Then paused. Pessa watched.
 
@@ -49948,69 +49805,9 @@ The first farm complaint from yesterday looked almost exactly the same. The red-
 
 We moved. The old drainage cut did not look the same. Yesterday, water had appeared from beneath grass in a narrow seep. Today, it ran. Not fast. Enough to make a visible thread down the ditch. Pessa stopped twenty yards before it. Dorn got down with the probe. I took the board. No one told me. Good. Yesterday's red mark remained on the roadside stone.
 
-The wheel track was still clear. The wet shoulder was wider. Dorn probed from firm ground inward.
+The wheel track was still clear, but overnight rain had widened the wet shoulder. Dorn found only four inches of cover where yesterday there had been six to eight, and the outer edge had softened enough that he told Pessa not to put the wagon there.
 
-“Same cover here.”
-
-Another point.
-
-“Less.”
-
-“How much?” Pessa asked.
-
-“Four inches.”
-
-Yesterday six to eight. I wrote. Pessa walked uphill along the buried line. I watched water. The visible flow pulsed. Not rhythmically. More, less, more.
-
-“Source changing?” I asked.
-
-Pessa looked back.
-
-“Maybe.”
-
-I followed the line uphill with my eyes. Field runoff? No obvious channel. Rain infiltration through the old drain? Probably. The old stones beneath the shoulder carried water toward the ditch. Yesterday's model still fit. Mostly. Dorn pushed the probe near the outer edge. It sank deeper than before. He pulled it out. Mud coated the lower half.
-
-“Don't put the wagon here.”
-
-Pessa said, “Wasn't planning to.” A farm cart approached from behind us. Empty. I stepped into the road and raised a hand. Driver stopped. No argument.
-
-“Inspection.”
-
-He nodded. Pessa looked at the shoulder. Then at the cart.
-
-“Let him through center.”
-
-I moved our wagon farther ahead with Dorn. Not me driving. Dorn. Correct. The cart passed on the firm center. Nothing happened. Pessa crouched near the wet edge.
-
-“Priority changes,” Pessa said.
-
-“Red already,” I said.
-
-“Red can become different red,” she said.
-
-Annoying.
-
-“What changes?”
-
-“Crew size. Material. Whether they need traffic control.”
-
-I wrote that down. She saw.
-
-“Not all of it.”
-
-I crossed out traffic control. She shook her head. I put it back. Dorn laughed. Pessa said, “Mark: active water, shoulder cover reduced after overnight rain, keep loaded wheels center until repair.”
-
-“Temporary restriction?”
-
-“Yes.”
-
-“Closure?”
-
-“No.”
-
-“Who tells farms?”
-
-“Guild notice.”
+We held an approaching farm cart to the firm center and let it through. Nothing happened, which was the point. The site was still red, but now the crew note changed: active water, reduced cover after rain, loaded wheels center until repair. No closure. No repair by us.
 
 Good. Bounded. We marked it. No repair. Moved. The paired culvert from yesterday had changed more. One opening still flowed. The buried opening still did not. But water now stood upstream in a broad shallow pool where yesterday there had been only damp ground. Not over road. Yet. Dorn whistled. Pessa said nothing. We walked. The working culvert carried hard. Brown water.
 
@@ -50122,12 +49919,7 @@ It had. For three years. Until maybe now. Pessa asked more. No one died. No cons
 
 I wrote:
 
-BURIED CULVERT INTENTIONALLY FILLED AFTER PARTIAL COLLAPSE ~3 YRS AGO
-UNRECORDED FARM REPAIR
-DO NOT CLEAR WITHOUT OPENING / ASSESSING STRUCTURE
-ACTIVE CULVERT CARRYING FULL FLOW
-FILL SATURATED AFTER RAIN
-LIMIT LOADED TRAFFIC TO CENTER UNTIL CREW
+BURIED CULVERT INTENTIONALLY FILLED AFTER PARTIAL COLLAPSE ~3 YRS AGO UNRECORDED FARM REPAIR DO NOT CLEAR WITHOUT OPENING / ASSESSING STRUCTURE ACTIVE CULVERT CARRYING FULL FLOW FILL SATURATED AFTER RAIN LIMIT LOADED TRAFFIC TO CENTER UNTIL CREW
 
 Pessa read it.
 
@@ -50165,75 +49957,13 @@ Pessa nodded.
 
 The map had not caught up. I wrote less now.
 
-OLD MAP LINE OBSOLETE
-ACTIVE CROSSING 20 FT SOUTH
-FUNCTIONAL
+OLD MAP LINE OBSOLETE ACTIVE CROSSING 20 FT SOUTH FUNCTIONAL
 
 Pessa did not edit it. Victory. At the second farm spur, a woman wanted us to inspect a barn threshold. We did not. At the third, a boy asked whether Dorn's probe was a spear. Dorn said yes. Pessa said no. The boy believed Dorn. Consequences unknown.
 
-Near noon we reached a long downhill section where the outer shoulder had washed in three shallow scallops. Visible. Ugly. Passable. Pessa stopped.
+Near noon we reached a long downhill section where overnight rain had cut three shallow scallops into the outer shoulder. The damage was fresh but the wheel track remained well inside it, and the road carried little traffic.
 
-“Walk.”
-
-We did. Dorn probed. I compared map notes. Last season: OUTER EDGE SOFT AFTER HEAVY RAIN. Current: three erosion pockets. Wheel track still two feet inside.
-
-“Blue?” I asked.
-
-Pessa said, “What do you think?”
-
-“Blue if stable. Red if moving fast.”
-
-“How do you know?”
-
-I looked uphill. Water marks. Each scallop had a narrow runnel feeding it from the road crown. Not much. Fresh gravel at the edges. Recent. Overnight rain had moved some material.
-
-“Changed last night.”
-
-“Yes.”
-
-“Red?”
-
-“No.”
-
-I frowned.
-
-“Why?”
-
-“Traffic.”
-
-“What about it?”
-
-“How much?”
-
-I looked at tracks. Few. Mostly light. One wagon. Maybe two.
-
-“Low.”
-
-“Consequence?”
-
-“Shoulder loss eventually.”
-
-“Today?”
-
-“Low.”
-
-“Change?”
-
-“Moderate.”
-
-“Blue.”
-
-There. I had weighted change too heavily. Reasonably. Pessa corrected.
-
-“Unless more rain.”
-
-“Yes.”
-
-“Then?”
-
-“Recheck.”
-
-“Good.”
+I weighted the visible change too heavily and called it red. Pessa made me include consequence. Low traffic, low immediate consequence, moderate change: blue, unless more rain changed the answer. It was yesterday's lesson with one variable moved, which was enough to prove the shortcut was not the rule.
 
 Dorn said, “Drink.” We ate lunch under a tree. The ground was damp. I sat on my bag. Pessa ate bread and dried fruit. Dorn had eggs again.
 
@@ -63577,191 +63307,21 @@ She opened the door wider. I went through. Petty victory. Outside, morning traff
 
 Five minutes. I was irritated enough to consider starting without it. Then remembered six blocks. No. The driver apologized. I said fine. Actual fine. Progress was becoming tedious. At Guild I passed the contract board. A posting for canal tally.
 
-Another for warehouse night watch. A Copper carrying rope took one. I kept moving. No job today. Sera looked at the wound. Minimal drainage. No heat. No spreading redness. The questionable margin remained viable. Swelling down from two days ago.
+Another warehouse night-watch posting was already being taken when I passed the board. I kept moving. No job today. Sera's wound check was boring in the useful way: minimal drainage, no heat, no spreading redness, swelling down, questionable margin still viable.
 
-“Good.”
+The sharp spot was still sharp. The numb patch was still numb. Phantom ankle had chosen outward today. Actual knee remained straight. Body maps were stupid.
 
-“There it is.”
+The rail was finished, so Sera moved the goal from seven steps to a home attempt. First she made me do seven up and down twice. The first ascent almost felt easy. The second did not. Fatigue arrived on schedule.
 
-“What?”
+On the second descent my thigh trembled, so she made me practice the useful failure case instead of pretending it would not happen: turn toward the rail, keep the residual limb clear, sit on a step, then stand again with rail, crutch, and right leg.
 
-“Everyone says good.”
-
-“Would you prefer infected?”
-
-“No.”
-
-“Then good.”
-
-Fair. She pressed along the end. Sharp spot still sharp. Numb patch still numb. Phantom ankle currently felt twisted outward. Actual knee straight. Body maps were stupid.
-
-“Rail finished?”
-
-“Yes.”
-
-“Want to try?”
-
-There.
-
-“Yes.”
-
-“Here first.”
-
-Of course.
-
-“Seven?”
-
-“Seven twice.”
-
-I looked at her.
-
-“Twice?”
-
-“Up and down. Rest. Again.”
-
-“That is twenty-eight stair movements.”
-
-“Look at you doing arithmetic.”
-
-“Fourteen home is also twenty-eight if I come back down.”
-
-“Not today.”
-
-Right. Goal was room. Not commute. Nerin joined us.
-
-“Face.”
-
-“I haven't made one.”
-
-“You did when she said twice.”
-
-“That's just my face.”
-
-“Unfortunate.”
-
-Seven steps. Rail. One crutch. Right foot. Up. The first ascent felt almost easy. That was dangerous. Not dangerous. Encouraging. Stop dramatizing. At the top my right thigh burned but did not shake. Rest. Down. Still harder.
-
-The phantom foot wanted a lower step that did not exist for it. I paused at step four. Rail. Crutch. Right foot. Actual contacts. Continue. Bottom. Sit. Three minutes. Again. Second ascent harder immediately. There. Fatigue.
-
-Step five felt like yesterday's seven. Step six required more arm. Seven. Top. I breathed. Nerin said nothing. Good. Down. At step three my right thigh trembled. Small. Enough. I stopped. Sera said, “Sit on the step.”
-
-“What?”
-
-“Practice.”
-
-Ah. She showed me how to turn carefully toward rail, lower with control, keep residual limb clear, sit sideways enough not to trap the crutch. Awkward. I sat on step three. This was deeply undignified. Also useful.
-
-“What if I need to do this at home?”
-
-“Then you sit.”
-
-“People need stairs.”
-
-“Stairs do not care.”
-
-I hated that. We practiced standing from the step. Rail. Crutch. Right leg. Hard. Possible. Then down. At bottom my arms shook. Not badly. Real. Sera looked.
-
-Sera said, “Home attempt this afternoon if swelling remains controlled.”
-
-I stopped.
-
-“Today?”
-
-“Yes.”
+At the bottom my arms shook. Sera looked once and said, “Home attempt this afternoon if swelling remains controlled.”
 
 “Fourteen?”
 
-“With rail. With spotter. One ascent. You stay upstairs afterward.”
+“With rail. With a spotter. One ascent. You stay upstairs afterward.”
 
-My chest did something.
-
-“Descent?”
-
-“Not today unless necessary.”
-
-“So I get there and become trapped.”
-
-“You get there and remain in your room until tomorrow.”
-
-“My room.”
-
-“Yes.”
-
-There.
-
-“Who spots?”
-
-“Nerin can come if Guild allows.”
-
-Nerin said, “I have patients.” Right. Life.
-
-“Hessa may be available,” Sera said. “Or someone competent after instruction.”
-
-“Jorren?”
-
-Sera made a face.
-
-“Competent.”
-
-“Rude.”
-
-“Can he follow instructions?”
-
-“Yes.”
-
-“Will he?”
-
-“Probably.”
-
-“Bad answer.”
-
-“Sevren?”
-
-“Same.”
-
-“Alden?”
-
-She looked at me.
-
-“No.”
-
-“Why?”
-
-“Because I have met Alden.”
-
-Fair.
-
-“Keeper?”
-
-“Could.”
-
-Sera thought.
-
-“I would prefer someone who can physically control your belt or trunk if you lose balance.”
-
-“Jorren.”
-
-“Then bring Jorren here first or have Nerin instruct him at lodging.”
-
-“Can you come?”
-
-“No.”
-
-Good. She had work. No special procession.
-
-“Wound check tomorrow?”
-
-“Yes.”
-
-“Then descent tomorrow?”
-
-“If today goes well and morning wound remains stable.”
-
-“So room tonight.”
-
-“Possibly.”
-
-Possibly. Terrible word. I loved it.
+There. My room. Descent could wait until tomorrow if the wound stayed quiet. The goal was not proving I could commute. It was getting back to the room without turning one good climb into three bad ones.
 
 *
 
@@ -63917,7 +63477,9 @@ Terrible. She looked at Jorren.
 
 “No.”
 
-Hessa showed him. Not by making me climb. "Belt. One step below and slightly behind on ascent. Do not pull unless he actually loses balance. Do not stand directly behind where he could fall onto you. Do not grab the crutches. Do not improvise." Jorren listened. Actually listened. Good. Keeper stood at bottom. Not because committee. Because it was her staircase and we were blocking it.
+Hessa showed Jorren the part that mattered: one step below and slightly behind, hand at my belt only if I actually lost balance, never grab the crutch, never improvise.
+
+Jorren listened. Actually listened. Good.
 
 “Ready?”
 
@@ -64465,9 +64027,7 @@ HOLL: WHAT DECISION SHOULD FAST TEST ENABLE?
 
 Under it:
 
-RAW ACCEPT?
-TREATMENT ADJUST?
-FINAL SORT?
+RAW ACCEPT? TREATMENT ADJUST? FINAL SORT?
 
 Three possibilities. Could be others. Of course. No exhaustive list. I closed notebook before making one. Then I looked at the stairs through open door. Fourteen down tomorrow. Different skill. Harder. I was afraid. There. Simple. Not of losing another leg. Not exactly. Of falling. Of wound opening.
 
@@ -64513,77 +64073,13 @@ There it was again. She smiled. I threw a piece of crust at her. Missed. She lef
 
 *
 
-Nerin arrived with a satchel and used the new rail. Everyone used the rail. Dela had gotten value immediately. He came into my room breathing normally. Show-off.
+Nerin arrived with a satchel and used the new rail. Everyone used the rail. Show-off. He unwrapped the limb and confirmed what I could mostly see: swelling back toward baseline, incision intact, no new drainage, no heat, no spreading redness, margin still viable.
 
-“Morning.”
-
-“Swelling is down.”
-
-“I'll decide.”
-
-“You can look from there.”
-
-“I can also leave.”
-
-“Fine.”
-
-He unwrapped. The room smelled faintly medicinal. I watched his face. No reaction. Good.
-
-“Back toward baseline,” he said.
-
-“How far?”
-
-“Enough.”
-
-“Enough for what?”
-
-“Inspection.”
-
-“Nerin.”
-
-He grinned.
-
-“Incision intact. No new drainage. No heat. No spreading redness. Margin still looks viable.”
-
-“Stairs?” I asked.
-
-“Sera says one controlled descent if you feel as good after dressing and breakfast as you do now,” Nerin said.
-
-“I already ate.”
-
-“Then dressing.”
-
-“I am dressed.”
-
-He looked at my trousers. Right.
-
-“Medical dressing.”
-
-“Language is badly designed.”
-
-“Yes.”
-
-He rewrapped.
+Sera's instruction through him was simple. One controlled descent if I still felt this good after the rewrap. No Guild trip required. No repeated stairs because I had discovered stairs existed.
 
 “Spotter?”
 
-“Jorren if available.”
-
-“He works.”
-
-“Then someone else.”
-
-“Keeper?”
-
-“Could, if she can follow instructions and control your belt.”
-
-“She can control everyone.”
-
-“Good.”
-
-“Hessa?”
-
-“Working.”
+“Jorren if available. Keeper if she can follow instructions and control your belt. Hessa is working.”
 
 “Alden?”
 
@@ -64595,23 +64091,7 @@ He rewrapped.
 
 Fair.
 
-“What if I get to landing and can't continue?”
-
-“Sit.”
-
-“On landing?”
-
-“Yes.”
-
-“What if before landing?”
-
-“Sit on a step using the technique Sera showed you.”
-
-“What if I can't stand again?”
-
-“Wait. Get help. You are not being chased.”
-
-This was an important structural feature of stairs.
+If I tired before the landing, I sat on a step. If I could not stand again, I waited and got help. I was not being chased. Apparently this was an important structural feature of stairs.
 
 “What if phantom foot goes first?”
 
@@ -64619,31 +64099,7 @@ This was an important structural feature of stairs.
 
 “Excellent medical science.”
 
-“You know the sequence.”
-
-Rail. Crutch. Right foot. Down. The order still felt wrong. My body wanted left foot down first because that was how stairs worked. Had worked. Would not.
-
-“Do I need Guild after?”
-
-“No.”
-
-“Holl?”
-
-Nerin looked at me.
-
-“Who?”
-
-“Nothing.”
-
-“Then probably no.”
-
-Fair.
-
-“Tomorrow?”
-
-“Depends on today.”
-
-Of course.
+Rail. Crutch. Right foot. Down. The order still felt wrong because my body remembered a left foot that was no longer available for the job.
 
 *
 
@@ -64655,17 +64111,15 @@ Below that:
 
 DON'T FALL. I DON'T HAVE TIME.
 
-Friendship. The keeper volunteered.
-
-“I've moved sacks heavier than you.”
+The keeper volunteered. “I've moved sacks heavier than you.”
 
 “I am not a sack.”
 
 “You complain more.”
 
-She tied her apron tighter. Nerin had left instructions. Position below and slightly behind. Hand at belt only if needed. Do not grab crutch. Do not pull unless I lost balance. Keeper listened once.
+Nerin had left the same short instructions: below and slightly behind, belt only if needed, do not grab the crutch, do not pull unless I actually lost balance.
 
-“Simple.”
+“Simple,” she said.
 
 “That is what Jorren said.”
 
@@ -64801,9 +64255,7 @@ HOLL.
 
 WHAT DECISION SHOULD FAST TEST ENABLE?
 
-RAW ACCEPT?
-TREATMENT ADJUST?
-FINAL SORT?
+RAW ACCEPT? TREATMENT ADJUST? FINAL SORT?
 
 I had wanted to go yesterday. Could go today. No. I had just descended fourteen stairs and used the privy. My arms knew. Tomorrow maybe. But I could think. Dangerous distinction. I drew three columns. Not sinkstone. General testing.
 
@@ -64969,12 +64421,7 @@ Good. He copied names. Then left. No cards. Work. Fine. I felt better. Annoying.
 
 After Sevren left, I tried to nap. Could not. The storage room was too warm. The kitchen too loud. Upstairs had been quieter. Of course. I had spent days wanting downstairs access and now immediately missed upstairs. Human beings were badly designed.
 
-I took current notebook to kitchen. The second pear was still there. I ate it. Then I wrote a list titled THINGS UPSTAIRS. Mirror.
-Brown notebook.
-Clean shirt.
-Calendar.
-Wooden horse.
-Sword. Sword was upstairs. Right. Did I need sword downstairs? No. Did I want it? Maybe. Could ask someone. No need.
+I took current notebook to kitchen. The second pear was still there. I ate it. Then I wrote a list titled THINGS UPSTAIRS. Mirror. Brown notebook. Clean shirt. Calendar. Wooden horse. Sword. Sword was upstairs. Right. Did I need sword downstairs? No. Did I want it? Maybe. Could ask someone. No need.
 
 The list became ridiculous quickly. Everything could migrate every time I moved, or I could stop treating each floor as a permanent relocation. There. I crossed out title.
 
@@ -65126,9 +64573,7 @@ I did not go look. Not because afraid. Partly because afraid. Also because it wa
 
 Then I returned to notebook. A Guild runner came near fourth bell. I saw the colors through front window and immediately assumed work. Wrong. Note from Sera.
 
-NO SECOND STAIR TRIP TODAY.
-WOUND CHECK TOMORROW MORNING.
-IF NO INCREASED DRAINAGE/HEAT/REDNESS, MAY PRACTICE ONE ASCENT AFTER.
+NO SECOND STAIR TRIP TODAY. WOUND CHECK TOMORROW MORNING. IF NO INCREASED DRAINAGE/HEAT/REDNESS, MAY PRACTICE ONE ASCENT AFTER.
 
 Clear. Good. I read it twice. One ascent tomorrow. Not tonight. Storage room tonight. I looked at stairs. My room upstairs. Bed. Window. Privacy. Then storage cot. Kitchen near. Privy near. Front door near. Different advantages. I could be angry. Was. A little.
 
@@ -65288,8 +64733,7 @@ Different than before. The ceiling had not changed. The room had not changed. I 
 
 Below:
 
-SERA MORNING.
-MAYBE ONE ASCENT AFTER.
+SERA MORNING. MAYBE ONE ASCENT AFTER.
 
 Then:
 
