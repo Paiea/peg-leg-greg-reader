@@ -73,5 +73,34 @@ class PerformanceProductionFunnelTests(unittest.TestCase):
             self.assertEqual('<article class="prose"><p>Keep.</p></article>',(root/"027.html").read_text(encoding="utf-8"))
             self.assertIn("New first.",(root/"028.html").read_text(encoding="utf-8"))
 
+    def test_segment_chapter_splits_explicit_hr_and_uses_spaced_scene_ids(self):
+        page = '<article class="prose"><p>Greg lifted the box.</p><p>"Five silver?" Antonius asked.</p><hr><p>Later, Hessa moved the tray.</p></article>'
+        scenes = funnel.segment_chapter(page, 214)
+        self.assertEqual(["214.s010", "214.s020"], [scene["scene_id"] for scene in scenes])
+        self.assertEqual(2, scenes[0]["mechanical"]["paragraph_count"])
+        self.assertEqual(1, scenes[0]["mechanical"]["dialogue_turns"])
+        self.assertIn("five silver", scenes[0]["mechanical"]["money_mentions"])
+        self.assertTrue(scenes[0]["source"]["hash"])
+
+    def test_segment_chapter_falls_back_to_one_scene_without_explicit_break(self):
+        page = '<article class="prose"><p>Greg lifted the box.</p><p>Antonius watched.</p></article>'
+        scenes = funnel.segment_chapter(page, 7)
+        self.assertEqual(["007.s010"], [scene["scene_id"] for scene in scenes])
+        self.assertEqual(["Greg lifted the box.", "Antonius watched."], scenes[0]["source"]["paragraphs"])
+
+    def test_mechanical_ir_collects_reusable_cheap_signals_without_semantic_claims(self):
+        scene = {
+            "scene_id": "007.s010",
+            "source": {"paragraphs": ["Greg lifted the box.", '"Five silver?" Antonius asked.', "Antonius turned and opened the door."]},
+        }
+        mechanical = funnel.build_mechanical_ir(scene)
+        self.assertEqual(3, mechanical["paragraph_count"])
+        self.assertEqual(1, mechanical["question_count"])
+        self.assertEqual(1, mechanical["dialogue_turns"])
+        self.assertIn("five silver", mechanical["money_mentions"])
+        self.assertIn("Greg", mechanical["capitalized_tokens"])
+        self.assertGreaterEqual(mechanical["action_word_hits"], 3)
+        self.assertNotIn("goal", mechanical)
+
 
 if __name__ == "__main__": unittest.main()
