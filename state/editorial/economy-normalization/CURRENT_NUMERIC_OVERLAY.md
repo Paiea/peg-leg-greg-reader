@@ -62,6 +62,26 @@ Exact early reader prose already establishes:
 ### Chapter 8+
 - Greg continues operating around silver-scale Vale receivables and debt structures.
 
+## Value / risk compensation overlay
+
+Forward compensation must now obey `PAY_VALUE_RISK_ENGINE.md`.
+
+The central rule is:
+
+**A job is priced by the value, scarcity, urgency, responsibility, capital, and risk involved, not by how little cash Greg happens to have.**
+
+Therefore:
+
+- cheap manual or interchangeable work may still pay copper;
+- socially meaningful theatre/support pay may remain tiny without being a financial milestone;
+- specialist judgment, appraisal, brokerage, management, and coordination should rise with the value they affect;
+- once Greg's contribution protects or moves silver/gold-scale value, tiny copper pay requires a concrete explanation;
+- serious criminal/gray work must include a real risk premium unless coercion, desperation, access, information, or another non-cash benefit explains underpayment;
+- meaningful illicit logistics can plausibly pay in tens of silver;
+- **30s+ is a plausible band for serious high-exposure work, not a universal minimum**;
+- gold-scale compensation becomes plausible for major contraband, rare artifacts, dangerous routes, or organized operations when the underlying value/risk supports it;
+- no fixed copper/silver/gold conversion is established by this overlay.
+
 ## Forward-generation rule
 
 Until normalization completes:
@@ -71,7 +91,10 @@ Until normalization completes:
 - Do not create another debt or repayment beat to compensate for the uncertainty.
 - Do not reopen Vale socially or contractually; closure remains structurally true.
 - Do not let a 1c-3c payment function as a financial progression milestone.
-- If a paid opportunity appears, calibrate it against the broader earning ladder and early silver-active authority, not merely against the provisional recent purse.
+- If a paid opportunity appears, calibrate it against the broader earning ladder, `PAY_VALUE_RISK_ENGINE.md`, and early silver-active authority, not merely against the provisional recent purse.
+- Ask what Greg is actually being paid for: body, time, scarce judgment, access, coordination, capital, discretion, risk, or some combination.
+- If Greg accepts work below his current economic tier, establish the non-cash reason or opportunity tradeoff.
+- For illegal work, explicitly test whether the compensation justifies arrest/seizure/retaliation risk against Greg's legal alternatives.
 - Artifacts may now plausibly require meaningful silver-scale capital or financing without that automatically implying ruin.
 - Small ordinary spending should increasingly disappear into background unless it affects a specific choice.
 
@@ -83,6 +106,7 @@ This overlay may be retired only when:
 2. the later Vale account is identified as either separate or continuous;
 3. recent Ch487/490/491 amounts are normalized consistently;
 4. current reserve/liquidity anchors are recalibrated;
-5. `MANUSCRIPT_STATE.md`, `ECONOMY_CONTINUITY.md`, and `PROGRESSION_ENGINE.md` are updated to the normalized numbers.
+5. representative earnings eras, especially later gray/criminal work, are calibrated against the value/risk engine;
+6. `MANUSCRIPT_STATE.md`, `ECONOMY_CONTINUITY.md`, and `PROGRESSION_ENGINE.md` are updated to the normalized numbers.
 
 Until then, **story shape is locked; nominal scale is provisional.**
