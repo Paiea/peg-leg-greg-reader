@@ -17,6 +17,14 @@ def replace_once(text: str, old: str, new: str) -> str:
     return text.replace(old, new, 1)
 
 
+def clean_004(text: str) -> str:
+    return replace_once(
+        text,
+        '<p>The room did not object. The shale project had become the most dangerous kind of thing: promising. Failure would have been cleaner. If Arlo had looked at the sixth disk and said no, useless, wrong, then the project could die with dignity. Instead we had a twenty-percent improvement, a path toward better tests, and no idea whether the final product would take two weeks or two years.</p>',
+        '<p>The room did not object. The shale project had become the most dangerous kind of thing: promising. The sixth disk had barely beaten the control; by the end of the night, Arlo\'s best result was closer to twenty percent. Failure would have been cleaner. If that result had collapsed on replication, the project could die with dignity. Instead we had a path toward better tests, and no idea whether the final product would take two weeks or two years.</p>',
+    )
+
+
 def clean_007(text: str) -> str:
     text = replace_once(
         text,
@@ -56,15 +64,19 @@ def clean_018(text: str) -> str:
 
 def update_report() -> None:
     text = REPORT.read_text(encoding="utf-8")
-    marker = "## Seam audit"
+    marker = "## Showcase handoff seam repair"
     if marker in text:
         return
-    addition = '''\n## Seam audit\n\nPASS. Entry and exit seams around all three surviving replacements were reread against their untouched neighboring prose. The cleanup removes one redundant same-paragraph Antonius tag, explicitly re-anchors the dialogue immediately after replacement spans, and repairs an Arlo/Greg handoff where `"I know," I said.` incorrectly broke the alternating speaker pattern. No scene facts or outcomes changed.\n'''
+    addition = '''\n## Showcase handoff seam repair\n\nPASS. The displayed Chapter 2 -> 3 handoff skips canon 003, so canon 004 now re-establishes the shale-test antecedent in one sentence before Greg reasons from the result. The repair preserves the hidden-canon facts: the sixth disk first beat the control, later tests reached closer to twenty percent, and the project remained promising rather than proven. No hidden chapter is restored and no scene outcome changes.\n'''
     REPORT.write_text(text.rstrip() + "\n" + addition, encoding="utf-8")
 
 
 def validate() -> None:
     checks = {
+        "chapters/004.html": (
+            "The sixth disk had barely beaten the control; by the end of the night, Arlo's best result was closer to twenty percent.",
+            "If that result had collapsed on replication, the project could die with dignity.",
+        ),
         "chapters/007.html": (
             'Antonius nudged the box with two fingers. "Bent precision scrap. Failed artificer. Nobody wanted it. Toss it."',
             '"Why was that under a chair?" I asked.',
@@ -98,6 +110,7 @@ def validate() -> None:
 
 def run(write: bool) -> None:
     cleaners = {
+        "chapters/004.html": clean_004,
         "chapters/007.html": clean_007,
         "chapters/013.html": clean_013,
         "chapters/018.html": clean_018,
@@ -114,7 +127,7 @@ def run(write: bool) -> None:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Clean entry/exit seams around bounded PERFORMANCE novelization scenes.")
+    parser = argparse.ArgumentParser(description="Clean entry/exit seams around bounded PERFORMANCE novelization scenes and Showcase handoffs.")
     parser.add_argument("--write", action="store_true")
     args = parser.parse_args()
     run(args.write)
