@@ -456,7 +456,7 @@ Antonius looked at me.
 
 There.
 
-Apparently everyone had been reading my engine.
+Apparently everyone had developed the same irritating instinct.
 
 "That was already plan."
 
