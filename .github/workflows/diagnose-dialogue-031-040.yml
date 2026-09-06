@@ -16,38 +16,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - name: Print full strict-checker paragraphs
+      - name: Print Chapter 38 ownership seam
         run: |
           python - <<'PY'
           from pathlib import Path
           import html
           import re
-
-          targets = {
-              31: [63, 157, 188, 317],
-              32: [135, 143, 177, 286],
-              34: [111],
-              35: [27, 173, 243, 329],
-              36: [99, 522],
-              37: [29, 50],
-              38: [23, 153],
-              39: [28, 103],
-          }
+          text = Path('chapters/038.html').read_text(encoding='utf-8')
+          article = text.split('<article class="prose">', 1)[1].split('</article>', 1)[0]
           p_re = re.compile(r'<p\b[^>]*>(.*?)</p>', re.I | re.S)
           tag_re = re.compile(r'<[^>]+>')
-          for chapter_no, indices in targets.items():
-              text = Path('chapters', f'{chapter_no:03d}.html').read_text(encoding='utf-8')
-              article = text.split('<article class="prose">', 1)[1].split('</article>', 1)[0]
-              paragraphs = [
-                  html.unescape(tag_re.sub('', m.group(1))).replace('\xa0', ' ').strip()
-                  for m in p_re.finditer(article)
-              ]
-              paragraphs = [p for p in paragraphs if p]
-              for index in indices:
-                  print(f'=== CHAPTER {chapter_no} PARAGRAPH {index} ===')
-                  print(paragraphs[index - 1])
-                  print('=== END ===')
+          paragraphs = [html.unescape(tag_re.sub('', m.group(1))).replace('\xa0', ' ').strip() for m in p_re.finditer(article)]
+          paragraphs = [p for p in paragraphs if p]
+          for index in range(150, 156):
+              print(f'=== CHAPTER 38 PARAGRAPH {index} ===')
+              print(paragraphs[index - 1])
+              print('=== END ===')
           PY
