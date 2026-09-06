@@ -81,7 +81,7 @@ def transform_paragraphs(number, paragraphs):
         if any('OLD_MORNING_CHECK_LOOP' in p for p in out):
             out = repl(out, 'My wrist was stiff in the morning.', 'At the hall, Rinna was counting tickets that did not yet belong to anyone.', CH197_MORNING)
         elif not any('Three days of mystery had produced an edge treatment.' in p for p in out):
-            out = repl(out, 'My wrist was stiff in the morning.', 'At the hall, Rinna was counting tickets that did not yet belong to anyone.', CH197_MORNING)
+            out = repl(out, 'My wrist was stiff in the morning.', 'The board was short.', CH197_MORNING)
 
         if any('OLD_ROLE_INTERROGATION_LOOP' in p for p in out):
             out = repl(out, 'At the hall, Rinna was counting tickets that did not yet belong to anyone.', 'I liked the petitioner.', ['At the hall, Rinna was counting tickets that did not yet belong to anyone.'] + CH197_ROLE)
