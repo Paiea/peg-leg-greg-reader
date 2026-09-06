@@ -30,7 +30,13 @@ def intake_generated_assets(root: Path, queue: list[dict], registry: list[dict])
                 "chapter": item["chapter"],
                 "kind": item["kind"],
                 "status": "generated",
-                "style_family": "sketch-ink-paint",
+                "style_family": item.get("style_family", "sketch-ink-paint"),
+                "framing_preference": item.get("framing_preference", "scene_appropriate"),
+                "camera_angle": item.get("camera_angle", ""),
+                "pose_family": item.get("pose_family", ""),
+                "scene_tags": list(item.get("scene_tags", [])),
+                "characters": list(item.get("characters", [])),
+                "character_tag_source": "generation_queue" if item.get("characters") else "",
                 "source_asset": target_asset,
                 "live_asset": "",
                 "caption": "",
@@ -38,6 +44,7 @@ def intake_generated_assets(root: Path, queue: list[dict], registry: list[dict])
                 "approved_fit": item["fit_target"],
                 "prompt_pack": item["prompt_pack"],
                 "paragraph_anchor": item.get("paragraph_anchor", ""),
+                "reference_selection_notes": item.get("reference_selection_notes", ""),
                 "notes": "Auto-intaked from deterministic generation queue. Requires explicit approval before reader promotion.",
             }
         )
