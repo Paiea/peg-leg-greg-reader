@@ -4,7 +4,7 @@ Branch: `editor/voice-compression-pass`
 
 Status: **ACTIVE WIP**
 
-Current manuscript authority: **Chapters 1-429** on `main` per `state/MANUSCRIPT_STATE.md`.
+Current manuscript authority: **Chapters 1-431** on `main` per `state/MANUSCRIPT_STATE.md`.
 
 ## Purpose
 
@@ -20,22 +20,22 @@ Greg remains the gravitational center of short dry compressed comic reduction. S
 
 ## Sequential coverage ledger
 
-- Chapters **1-422: VARIANCE REVIEWED**
-- Chapters **423-429: NOT YET VARIANCE REVIEWED**
+- Chapters **1-430: VARIANCE REVIEWED**
+- Chapter **431: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 423**
+Current sequential variance edge: **Chapter 431**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_413_422.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_423_430.md`
 
 Preferred bounded queue: **10 chapters** unless endpoint or exact complexity requires a smaller closing batch.
 
-Next intended batch: **Chapters 423-429** unless `main` advances before the next run.
+Next intended batch: start at **Chapter 431** and include up to 10 sequential chapters available on current `main` at the next continuation.
 
 ## Sequential batch authority
 
 Exact chapter-level findings and replacement proposals are preserved under `state/editorial/dialogue-variance-pass/`.
 
-Sequential artifacts run through:
+Sequential artifacts currently run through:
 
 - `BATCH_001_005.md`
 - `BATCH_006_010.md`
@@ -93,31 +93,29 @@ Sequential artifacts run through:
 - `BATCH_393_402.md`
 - `BATCH_403_412.md`
 - `BATCH_413_422.md`
+- `BATCH_423_430.md`
 
 Chapters **321-330** were variance-reviewed earlier as pilot/continuation work under `state/editorial/dialogue-pass/BATCH_321_325.md` and `BATCH_326_330.md`; every earlier gap is closed, so the reviewed span is contiguous.
 
-## Chapters 413-422 result
+## Chapters 423-430 result
 
-- **413 THE DRINKER:** light, 1 variance patch; 1 first-person POV repair. Let Sori answer Dask's spoken inland-comparison proposal instead of his face. Return one plain external `Greg` line to first person.
-- **414 THE RETAINER:** no variance change; 1 first-person/referent repair in narratorial paraphrase of employment terms. Worksite voices remain strongly role-separated.
-- **415 THE FITTING:** no change. Masta's craft/body authority, gait correction, material limits, price language, and stopping conditions remain distinct. Immediate behavior-based prediction is earned.
-- **416 THE BREAKER:** no change. Strong positive model for terse ensemble speech under live pressure: Tavren, Nali, Jerr, Perr, ecology staff, and Greg compress differently because responsibility remains distinct.
-- **417 THE EARNER:** light, 1 variance patch. Replace Sori's generic face read after the nickname with the visible fact that Greg stared after Pell. Kett and Lera Morn remain strong contrasting registers.
-- **418 THE CLIENT:** moderate, 2 variance patches; 1 first-person/referent repair. Ground Masta's deposit inference in purse/timing and bite marks rather than universal face-reading. Ossa Pell remains strong specialist uncertainty.
-- **419 THE TOURIST:** moderate, 2 variance patches. Replace two Dask face/soul reads with his actual whispered explanation and audible reaction. Companion interests remain strong anti-convergence evidence.
-- **420 THE BIDDER:** light, 1 variance patch. Use Greg's visible stop after trial-shell news rather than predicted drama. Auction market correctly resists protagonist gravity.
-- **421 THE STUDENT:** no change. Masta's student/craft authority and Greg's productive incompetence on a new mobility tool are both strong.
-- **422 THE TEMP:** light, 1 variance patch. Let Masta state the no-shell craft boundary directly rather than reusing `your face did`. Harl, Hessa, Tavren, Nali, and the home-letter material remain distinct.
+- **423 THE PATIENT:** no variance change. Masta's visible-affect reading after Greg stands six seconds is earned; companion rhythms remain distinct.
+- **424 THE WALKER:** no variance change. Strong craft/student differentiation, productive fatigue, and deliberately poor new-tool performance.
+- **425 THE PEDESTRIAN:** no variance change. Public affect observations are grounded in visible behavior; companion/street humor stays character-specific.
+- **426 THE SCOUT:** no variance change. Tavren, Enna, Masta, Maro, Dask, and Sori all enter the road decision through different concerns. Greg's face-joke inversion on Dask remains Greg-owned and visibly/spokenly earned.
+- **427 THE TRAVELER:** no variance change. Masta's road-test rules and Halen/Jorren/Enna briefing voices are strongly role-owned.
+- **428 THE WITNESS:** light, 1 variance patch. Replace Enna's exact `you were thinking it` with a direct field boundary to Halen.
+- **429 THE SCRIBE:** light, 1 variance patch. Replace quickly acquired `road face` shorthand with Greg's visible lingering on the Merehook sign plus Enna's contract boundary.
+- **430 THE RECORDER:** light, 1 variance patch; 3 first-person/referent repairs. Replace `asked with face only` with visible gaze between repair and wagon; return three plain external Greg self-references to first person.
 
 Batch totals:
 
-- Dialogue-variance patches: **8**, across Chapters **413, 417, 418, 419, 420, 422**.
-- Moderate variance chapters: **418, 419**.
-- Light variance chapters: **413, 417, 420, 422**.
-- No-variance-change chapters: **414, 415, 416, 421**.
-- New hard first-person POV/referent repairs: **3**, across Chapters **413, 414, 418**.
+- Dialogue-variance patches: **3**, across Chapters **428, 429, 430**.
+- Light variance chapters: **428, 429, 430**.
+- No-variance-change chapters: **423, 424, 425, 426, 427**.
+- New hard first-person POV/referent repairs: **3**, all in Chapter **430**.
 - New dialogue-attribution speaker-clarity repairs beyond POV/referent drift: **0**.
-- New canonical name repairs: **0**.
+- New canonical-name repairs: **0**.
 - Structural changes: **0**.
 - Canon outcome changes: **0**.
 - Em dashes introduced in proposed replacement prose: **0**.
@@ -131,40 +129,43 @@ Batch totals:
 - Wrong predictions are healthy when the miss is visible and corrected.
 - Let assumptions be correctable instead of telepathically correct.
 - **Spoken evidence beats facial transcript.** If a person actually states the plan, theory, comparison, or enthusiasm, answer the spoken thing.
-- **Visible interruption and attention shift are enough.** Stopping, staring, turning, reaching, chewing interruption, route-board focus, money handling, object handling, or changed work pace can carry social inference.
+- **Visible interruption and attention shift are enough.** Stopping, staring, turning, reaching, chewing interruption, route-board focus, money handling, object handling, changed work pace, or looking between relevant objects can carry social inference.
+- **Visible affect after a meaningful result can remain.** Seeing Greg stare at his hands, bread, a limb, or a result is different from knowing the exact sentence he has not spoken.
 - **Earned relationship shorthand may remain broad.** Sori may recognize Greg's market, math, work, or emotional modes after accumulated history, but should not infer exact hidden purchases or sentences solely from his face.
-- **Greg may own the branded inversion.** A deliberate Greg `No / I didn't say anything / your face` reversal can remain when another character's visible behavior earns it.
-- **Craft authority can replace face shorthand.** Masta can state wear schedule, cite purse/timing, name bite marks, pressure, gait, skin, fit, or stopping conditions directly.
+- **Short acquaintance should not instantly create named relationship categories.** `Road face` is too mature a shorthand for Enna after only brief field acquaintance when visible sign attention already does the work.
+- **Greg may own the branded inversion.** A deliberate Greg `No / I didn't say anything / your face` reversal can remain when another character's visible or spoken behavior earns it.
+- **Authority language is stronger than thought prediction.** Enna can state a field boundary; Masta can state wear schedule; Halen can state survey limits; Toll can state timber/load limits.
+- **Craft authority can replace face shorthand.** Masta can cite wear schedule, purse/timing, bite marks, pressure, gait, skin, fit, or stopping conditions directly.
 - Scheduling authority should use scheduling language. Scope authority should use scope language. Experiment authority should use protocol language. Market authority should use price/condition. Field authority should use route/load/custody/hazard/pace/stopping-point language.
-- Equipment identity is stronger than generic face-reading. Specialists should name the object, route, tool, material, line, case, permit, load, bench, signal, or procedure they own.
-- **Terse ensemble speech is not convergence when responsibility stays distinct.** Chapter 416 is a protected positive model: pressure compresses everyone, but Tavren, Nali, Jerr, Perr, ecology staff, and Greg remain functionally different speakers.
-- **Formal speech remains valuable variance.** Lera Morn's formal security questioning contrasts with Kett's blunt work register without needing caricature.
-- Long speech should be caused by state and role, not assigned as a gimmick. Protect grievance rants, specialist explanation, nervous overexplaining, exhausted muttering, and failed compression when speaker/context earns it.
-- Kett's hook explanation is a positive model: Greg asks, Kett resists giving a speech, then provides blunt practical lived detail.
-- Serious specialist uncertainty is voice. Ossa Pell protects expertise boundaries through decompression behavior, `expert or prophet`, and refusal to invent value or timing.
+- Equipment identity is stronger than generic face-reading. Specialists should name the object, route, tool, material, line, case, permit, load, bench, signal, procedure, benchmark, crib, or axle class they own.
+- **Terse ensemble speech is not convergence when responsibility stays distinct.** High-pressure harbor and road chapters are protected positive models.
+- **Formal speech remains valuable variance.** Bureaucratic or security precision can contrast with blunt craft speech without becoming caricature.
+- Long speech should be caused by state and role, not assigned as a gimmick. Protect grievance rants, specialist explanation, nervous overexplaining, exhausted muttering, field argument, and failed compression when earned.
+- Serious specialist uncertainty is voice. Expertise should narrow claims without making every cautious professional sound alike.
 - Pressure can change sentence length or remove speech entirely. Hand signals, sharp safety commands, or silence under live hazard are legitimate state variance.
 - Greg's S-class/locked mode may compress dramatically under actual need without becoming his default social voice.
 - Following is a competence state. Greg may rely on local experts without becoming clueless.
 - Professional underexplanation can be voice when responsibility and stopping point are clear.
-- Local testimony should remain socially messy. Contradiction, correction, insult, memory error, and silence can be useful evidence of distinct people.
-- Institutional conflict is major voice variance. Route, family, quarantine, hearing, limbcraft, recovery, custody, salvage cost, security, labor, auction, and evidence rules create different speech pressures.
+- Local testimony and institutional dispute should remain socially messy. Contradiction, correction, insult, memory error, cost pressure, political pressure, and silence can be useful evidence of distinct people.
+- **Institutional conflict is major voice variance.** Route, village, carrier, survey, recovery, limbcraft, custody, labor, auction, fuel, and road-maintenance systems create different speech pressures.
 - Procedure can be correct and emotionally insufficient. Do not force every conflict into villain/therapist roles.
-- **Productive imperfection stays protected.** Greg can make tally errors, walk badly in a trial shell, or need correction without shame ceremony. Specialists can make small operational errors and recover.
-- **Markets should resist protagonist gravity.** Greg may want a tool badly, set a ceiling, lose to rational buyers, and buy only the narrower item that clears his actual price.
+- **Productive imperfection stays protected.** Greg can make tally errors, walk badly in a trial shell, stop early, or need correction without shame ceremony. Specialists and workers can make small operational errors and recover.
+- **Productive restraint is also voice.** Greg choosing not to use the trial limb on bad surfaces is competence, not passivity.
+- Markets and institutions should resist protagonist gravity. Greg can want something, lose, wait, follow local authority, and remain competent.
 - Serious chapters need room to stay serious. Do not add comedy merely to prove variance.
 - Shared caution is not automatically Hessa voice. Motive/reference system matters.
-- Distributed expertise protects Greg's competence: old-life categories can coexist with current-region routing, law, custody, pricing, maintenance, body craft, infrastructure, procedure, weather, ferry, harbor, and industrial authority belonging to others.
-- Independent supporting-character life is structural variance. Their work, money, family, tools, schedules, fatigue, mistakes, rivalries, and obligations should continue whether Greg is present or not.
+- Distributed expertise protects Greg's competence: old-life categories can coexist with current-region routing, law, custody, pricing, maintenance, body craft, infrastructure, procedure, weather, ferry, harbor, road, survey, and industrial authority belonging to others.
+- Independent supporting-character life is structural variance. Their work, money, family, tools, schedules, fatigue, mistakes, rivalries, obligations, curiosity, and travel motives should continue whether Greg is present or not.
 - Repeated work words such as `Wait`, `Good`, `No`, `Again`, `Hold`, `Clear`, and `Less` are healthy when object and jurisdiction change their meaning.
 - Higher stakes do not grant universal mind-reading.
 - Rejecting a spoken speculative claim is not predictive dialogue.
-- Do not upgrade evidence into reliability, range, generalized magic, artifact function, safe load, value, route cause, mechanism, species cause, or discrepancy cause without exact support.
-- **Post-production first-person drift remains a dedicated attribution/referent target.** Plain external narration such as `Greg wanted`, `Greg understood`, `Greg suffered`, `Greg brain moved`, role-list self-reference, or third-person paraphrase of Greg's own obligations is a regression in first-person narration.
+- Do not upgrade evidence into reliability, range, generalized magic, artifact function, safe load, value, route cause, mechanism, species cause, settlement cause, or discrepancy cause without exact support.
+- **Post-production first-person drift remains a dedicated attribution/referent target.** Plain external narration such as `Greg wanted`, `Greg understood`, `Greg suffered`, `Greg brain moved`, `Not Greg`, `No Greg heroics`, role-list self-reference, or third-person paraphrase of Greg's own obligations is a regression in first-person narration.
 - Deliberate self-label constructions such as `Old Greg brain`, `Locked Greg`, or `Normal Greg` are not automatically POV defects when clearly functioning as Greg's internal categorization.
-- First-person drift continues to decrease but is not gone: Chapters 413-422 contain three hard slips across 413, 414, and 418.
+- First-person drift is now sparse but not gone: Chapters 423-430 contain three hard slips, all in 430.
 - Attribution density and voice variance are separate problems. Preserve earlier accepted attribution/referent authority.
 - `Evin` remains source-settled where earlier work corrected `EvIn` drift.
-- Same-name characters remain separate unless exact continuity proves otherwise. Repeated Vale/Pell/Rell/Toren/Nessa/Morn/Arlo names are not destiny evidence.
+- Same-name characters remain separate unless exact continuity proves otherwise. Repeated Vale/Pell/Rell/Toren/Nessa/Morn/Arlo/Venn/Ro names are not destiny evidence.
 - No-change chapters are positive evidence. Do not patch to meet quota.
 
 ## Guardrails
@@ -181,11 +182,11 @@ A chapter counts as variance-reviewed only after exact prose is read, prior auth
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 423**.
+Resume sequentially at **Chapter 431**.
 
-Current manuscript authority reaches **Chapter 429**.
+Current manuscript authority reaches **Chapter 431**.
 
-Next intended bounded closing batch: **Chapters 423-429**, unless `main` advances before the next continuation. If `main` advances, continue from Chapter 423 with a maximum 10-chapter bounded batch.
+Next intended bounded batch begins **Chapter 431** and expands sequentially up to 10 chapters if `main` advances before the next continuation.
 
 ## Restart prompt
 
