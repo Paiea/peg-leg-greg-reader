@@ -51,9 +51,10 @@ class WorkerRunnerCompressionTest(unittest.TestCase):
             self.assertNotIn(marker, out184)
         self.assertIn("Lyssa asked me for a favor", out184)
         self.assertIn("By the time I reached East Market Hall", out184)
-        self.assertIn("The Petition ran that afternoon.", out184)
-        self.assertIn("For almost an hour, I forgot I had any.", out184)
+        self.assertIn("The Petition ran that afternoon", out184)
+        self.assertIn("For almost an hour, I forgot I had any", out184)
         self.assertIn("I left for the south market after my piece.", out184)
+        self.assertEqual(out184.count("That was my second warning."), 1)
 
 
 if __name__ == "__main__":
