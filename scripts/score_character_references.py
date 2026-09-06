@@ -72,10 +72,11 @@ def score_reference(
         reasons.append("style anchor")
 
     if character == "Greg" and framing_preference == "above_waist":
-        if "above_waist" in tags:
+        framing = reference.get("framing")
+        if "above_waist" in tags or framing == "above_waist":
             score += 20
             reasons.append("above-waist Greg continuity")
-        if tags & {"full_body", "lower_body_visible"} and "above_waist" not in tags:
+        if (tags & {"full_body", "lower_body_visible"} or framing in {"full_body", "lower_body_visible"}) and "above_waist" not in tags:
             score -= 30
             penalties.append("lower-body mismatch")
 
@@ -101,16 +102,26 @@ def score_reference(
 def _normalized_references(character_record: dict) -> list[dict]:
     references: list[dict] = []
     seen: set[str] = set()
+    reference_metadata = character_record.get("reference_metadata", {})
+    if not isinstance(reference_metadata, dict):
+        reference_metadata = {}
 
     for asset in character_record.get("reference_assets", []):
         if not isinstance(asset, str) or not asset.strip() or asset in seen:
             continue
         seen.add(asset)
+        metadata = reference_metadata.get(asset, {})
+        if not isinstance(metadata, dict):
+            metadata = {}
+        tags = list(metadata.get("tags", []))
+        if "curated" not in tags:
+            tags.append("curated")
         references.append({
             "asset": asset,
             "status": "manual",
-            "tags": ["curated"],
             "source": "manual",
+            **metadata,
+            "tags": tags,
         })
 
     for reference in character_record.get("references", []):
