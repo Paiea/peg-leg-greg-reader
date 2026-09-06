@@ -189,12 +189,13 @@ def render_book_sections(
 
         plate = ''
         layout_class = ' reader-book-layout--illustrated' if illustrated else ''
-        if illustrated and book.card_src:
-            card_chapter = book.card_href.rsplit('/', 1)[-1].removesuffix('.html')
+        card_chapter = int(book.card_href.rsplit('/', 1)[-1].removesuffix('.html')) if book.card_href else None
+        card_is_visible = display_numbers is None or card_chapter in chapter_links
+        if illustrated and book.card_src and card_is_visible:
             plate = (
                 f'<figure class="reader-book-plate">'
                 f'<a class="reader-book-card-link" href="{escape(book.card_href)}" '
-                f'aria-label="Open Chapter {escape(card_chapter)} in the Illustrated Reader">'
+                f'aria-label="Open Chapter {card_chapter:03d} in the Illustrated Reader">'
                 f'<img class="reader-book-card-image" src="{escape(book.card_src)}" alt="{escape(book.card_alt)}" '
                 f'width="720" height="960" loading="lazy" decoding="async">'
                 f'</a></figure>'
