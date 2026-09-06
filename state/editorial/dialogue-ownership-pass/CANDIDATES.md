@@ -4,45 +4,9 @@
 - Canonical chapters: 491
 - Visible showcase chapters: 439
 - Hidden canon chapters skipped: 52
-- Review candidates: 203
+- Review candidates: 148
 
 This is a candidate queue, not a prose verdict. Exact local context decides whether a flagged action belongs to the speaker or creates false attribution.
-
-## Canon 2 / Showcase 2 / Paragraph 43
-
-- Rule: `possible_multi_speaker_paragraph`
-- Confidence: `review-high`
-- Fingerprint: `152888445ca8ebb7d8e9`
-
-Previous:
-
-> "To what?"
-
-Candidate:
-
-> "Your age." He smiled. "How old did you expect me to be?"
-
-Following:
-
-> "Richer."
-
-## Canon 2 / Showcase 2 / Paragraph 75
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `051df77ecb6bc0a8ee4e`
-
-Previous:
-
-> "Eight."
-
-Candidate:
-
-> "Fine." He counted silver onto the desk. I should have felt relief. Instead I felt acceleration. I knew that feeling. Hubris putting on its boots.
-
-Following:
-
-> "If you run," Antonius said, "I find you."
 
 ## Canon 4 / Showcase 3 / Paragraph 60
 
@@ -62,60 +26,6 @@ Following:
 
 > Ugly. Effective.
 
-## Canon 4 / Showcase 3 / Paragraph 85
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `19756f21d6fcbfe3eeae`
-
-Previous:
-
-> "Different?"
-
-Candidate:
-
-> "For me? Apparently." She glanced at my stack.
-
-Following:
-
-> "You came in small."
-
-## Canon 5 / Showcase 4 / Paragraph 76
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `f568a3f58d90eab14ec0`
-
-Previous:
-
-> "Gambling."
-
-Candidate:
-
-> "Income." He looked up.
-
-Following:
-
-> "You're very good at naming things."
-
-## Canon 5 / Showcase 4 / Paragraph 157
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `13ed52221741a6e760c9`
-
-Previous:
-
-> "You think your problem is the game."
-
-Candidate:
-
-> "It was a gambling loss." He pushed the ledger toward me.
-
-Following:
-
-> "Your problem is you think being able to explain a mistake means you can afford it." I stared at him. That was annoyingly good.
-
 ## Canon 7 / Showcase 5 / Paragraph 10
 
 - Rule: `untagged_dialogue_followed_by_action`
@@ -134,25 +44,7 @@ Following:
 
 > "No?"
 
-## Canon 7 / Showcase 5 / Paragraph 57
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `ebe8bb73d8592481ae57`
-
-Previous:
-
-> "It is legally."
-
-Candidate:
-
-> "That's not the same thing." Antonius considered me.
-
-Following:
-
-> "Interesting opinion from a man whose labor I legally own."
-
-## Canon 7 / Showcase 5 / Paragraph 59
+## Canon 7 / Showcase 5 / Paragraph 60
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -170,7 +62,7 @@ Following:
 
 > The room began separating itself in my head. Not physically. Categories. Recoverable collateral. Unsellable collateral. Broken inventory. Records. Tools. Goods nobody remembered. Things Antonius kept because throwing away something once valued felt like admitting the loan behind it had gone bad. Maybe. That last one was inference. Check. I picked up a brass fitting.
 
-## Canon 7 / Showcase 5 / Paragraph 69
+## Canon 7 / Showcase 5 / Paragraph 70
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -188,7 +80,7 @@ Following:
 
 > "Discard."
 
-## Canon 7 / Showcase 5 / Paragraph 106
+## Canon 7 / Showcase 5 / Paragraph 107
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -206,7 +98,7 @@ Following:
 
 > Three teeth. Where had I seen it? Think. Not enough information yet. But the workmanship was wrong for scrap. Tiny grooves. Matched steps. Reference surfaces rather than moving parts. Precision. Old precision.
 
-## Canon 7 / Showcase 5 / Paragraph 116
+## Canon 7 / Showcase 5 / Paragraph 117
 
 - Rule: `possible_multi_speaker_paragraph`
 - Confidence: `review-high`
@@ -224,25 +116,7 @@ Following:
 
 > There. Three silver. I could afford that eventually. I could have gotten it free thirty seconds ago. This was already one of the worst negotiations of my second life.
 
-## Canon 7 / Showcase 5 / Paragraph 140
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `e4f6209f44b7ba5eb9a2`
-
-Previous:
-
-> "So you want to pay three silver for something useless to you."
-
-Candidate:
-
-> "I want to pay three silver for something worth forty gold to somebody else. That's called trade. You should look into it." Antonius smiled. I should not have smiled back.
-
-Following:
-
-> "Three silver," I said. "We agreed."
-
-## Canon 7 / Showcase 5 / Paragraph 147
+## Canon 7 / Showcase 5 / Paragraph 149
 
 - Rule: `possible_multi_speaker_paragraph`
 - Confidence: `review-high`
@@ -260,61 +134,7 @@ Following:
 
 > "It means something to someone."
 
-## Canon 7 / Showcase 5 / Paragraph 153
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `8c519c64424d58ccc555`
-
-Previous:
-
-> "Names."
-
-Candidate:
-
-> "Not enough information yet." He laughed. I hated him.
-
-Following:
-
-> "Five silver," Antonius said.
-
-## Canon 7 / Showcase 5 / Paragraph 163
-
-- Rule: `possible_multi_speaker_paragraph`
-- Confidence: `review-high`
-- Fingerprint: `1ba10d463837aa1b246e`
-
-Previous:
-
-> "Five and I don't throw it away while you're arguing." I stared at him. He stared back.
-
-Candidate:
-
-> "Fine. Five." He put the box on the keep shelf and wrote my name on a scrap tucked beneath it. I pointed. "That's mine."
-
-Following:
-
-> "When you pay five silver."
-
-## Canon 7 / Showcase 5 / Paragraph 173
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `5b4c7f44d2c58afe2c2b`
-
-Previous:
-
-> "Because, Greg, until thirty seconds ago it was trash."
-
-Candidate:
-
-> "Stop saying that." He went back to sweeping. I stared at the Tere gauge.
-
-Following:
-
-> Forty gold. Maybe more. More than the visible contents of this warehouse put together, if my memory was right. And almost completely useless to me until I found one of the tiny number of people who understood why. That was the important distinction. Value was not the same as usefulness. I returned to work. Twenty minutes later I found a cracked wooden case containing six green glass cylinders. My pulse jumped again. Antonius glanced over.
-
-## Canon 7 / Showcase 5 / Paragraph 176
+## Canon 7 / Showcase 5 / Paragraph 182
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -332,25 +152,7 @@ Following:
 
 > The cylinders were cloudy. Each had a metal cap. No mark. I picked one up. Future alchemical storage? Early pressure vessels? Mana cells?
 
-## Canon 7 / Showcase 5 / Paragraph 203
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `899c7a4b0704645cf364`
-
-Previous:
-
-> "Sometimes."
-
-Candidate:
-
-> "Was that a test?" He stopped.
-
-Following:
-
-> The room had become noticeably brighter as we cleared the small window. Dust floated in the beam between us. Antonius rested both hands on the broom.
-
-## Canon 7 / Showcase 5 / Paragraph 220
+## Canon 7 / Showcase 5 / Paragraph 227
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -368,25 +170,7 @@ Following:
 
 > "That came from a man named Orlan Tere."
 
-## Canon 7 / Showcase 5 / Paragraph 242
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `cbe0078e11f1d40ceba6`
-
-Previous:
-
-> "Sold."
-
-Candidate:
-
-> "To whom?" He smiled. I hated him.
-
-Following:
-
-> "Ledger."
-
-## Canon 7 / Showcase 5 / Paragraph 298
+## Canon 7 / Showcase 5 / Paragraph 306
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -404,7 +188,7 @@ Following:
 
 > The cabinet nearly crushed my fingers.
 
-## Canon 7 / Showcase 5 / Paragraph 303
+## Canon 7 / Showcase 5 / Paragraph 311
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -422,7 +206,7 @@ Following:
 
 > "Yes."
 
-## Canon 7 / Showcase 5 / Paragraph 307
+## Canon 7 / Showcase 5 / Paragraph 315
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -440,25 +224,7 @@ Following:
 
 > There was no clever answer waiting. That bothered me.
 
-## Canon 7 / Showcase 5 / Paragraph 319
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `a239a14fea7870765aaf`
-
-Previous:
-
-> "No."
-
-Candidate:
-
-> "Antonius." He walked back into the room. I followed.
-
-Following:
-
-> "You know what everything in your operation does," I said.
-
-## Canon 7 / Showcase 5 / Paragraph 332
+## Canon 7 / Showcase 5 / Paragraph 341
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -476,7 +242,7 @@ Following:
 
 > "Because it's my business."
 
-## Canon 7 / Showcase 5 / Paragraph 340
+## Canon 7 / Showcase 5 / Paragraph 349
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -494,7 +260,7 @@ Following:
 
 > We found lunch in the front office. Bread. Cheese. Pickled onions. Antonius ate at the clerk's desk because the clerk had gone out. I expected him to have better food. Why? Future Antonius had been rich. Present Antonius had flour. Again. Tower. Bricks. I bit into the bread.
 
-## Canon 7 / Showcase 5 / Paragraph 348
+## Canon 7 / Showcase 5 / Paragraph 357
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -512,7 +278,7 @@ Following:
 
 > "Why?"
 
-## Canon 7 / Showcase 5 / Paragraph 355
+## Canon 7 / Showcase 5 / Paragraph 364
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -530,7 +296,7 @@ Following:
 
 > "That's upsetting."
 
-## Canon 7 / Showcase 5 / Paragraph 367
+## Canon 7 / Showcase 5 / Paragraph 376
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -548,7 +314,7 @@ Following:
 
 > That answer worked on most people because people were polite around dead parents. Antonius was not most people.
 
-## Canon 7 / Showcase 5 / Paragraph 372
+## Canon 7 / Showcase 5 / Paragraph 381
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -566,7 +332,7 @@ Following:
 
 > Good.
 
-## Canon 7 / Showcase 5 / Paragraph 387
+## Canon 7 / Showcase 5 / Paragraph 396
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -584,7 +350,7 @@ Following:
 
 > Then he looked at me for a long moment. Not interrogation. Indexing. I knew the feeling.
 
-## Canon 7 / Showcase 5 / Paragraph 404
+## Canon 7 / Showcase 5 / Paragraph 413
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -602,7 +368,7 @@ Following:
 
 > "You don't know."
 
-## Canon 7 / Showcase 5 / Paragraph 416
+## Canon 7 / Showcase 5 / Paragraph 425
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -620,7 +386,7 @@ Following:
 
 > "More than you."
 
-## Canon 7 / Showcase 5 / Paragraph 432
+## Canon 7 / Showcase 5 / Paragraph 441
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -637,114 +403,6 @@ Candidate:
 Following:
 
 > "That's it?"
-
-## Canon 7 / Showcase 5 / Paragraph 452
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `dd42ff3f24eaa9b0a4e3`
-
-Previous:
-
-> Then stopped. Why? No reason. No future value. No technical use. No opportunity. I wanted it. That was different.
-
-Candidate:
-
-> "Can I have this?" Antonius looked at the scarf.
-
-Following:
-
-> "Why?"
-
-## Canon 7 / Showcase 5 / Paragraph 454
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `1d5ac9a83e4514e1e20e`
-
-Previous:
-
-> "Why?"
-
-Candidate:
-
-> "I don't know." He waited. I did not invent one.
-
-Following:
-
-> "I just want it."
-
-## Canon 7 / Showcase 5 / Paragraph 477
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `ebc8588b29619c60758a`
-
-Previous:
-
-> "Maybe."
-
-Candidate:
-
-> "I passed." Antonius looked at me.
-
-Following:
-
-> "Did you?"
-
-## Canon 7 / Showcase 5 / Paragraph 491
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `f3309cc6f2b8e2161252`
-
-Previous:
-
-> "Home." I had never considered that Antonius Vale had a home. That was stupid. Of course he did.
-
-Candidate:
-
-> "Where?" He stopped.
-
-Following:
-
-> "Why?"
-
-## Canon 7 / Showcase 5 / Paragraph 500
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `e2919181baa271fe8f3b`
-
-Previous:
-
-> "Go away."
-
-Candidate:
-
-> "That's not a no." He walked faster. I laughed.
-
-Following:
-
-> "Sunrise tomorrow?" He raised one hand without turning.
-
-## Canon 7 / Showcase 5 / Paragraph 501
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `e323a990f1d49e140aa6`
-
-Previous:
-
-> "That's not a no." He walked faster. I laughed.
-
-Candidate:
-
-> "Sunrise tomorrow?" He raised one hand without turning.
-
-Following:
-
-> "Ask Rusk."
 
 ## Canon 9 / Showcase 6 / Paragraph 43
 
@@ -872,43 +530,7 @@ Following:
 
 > "Why would I?"
 
-## Canon 9 / Showcase 6 / Paragraph 186
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `743ba0b044e6217b0ef4`
-
-Previous:
-
-> "Who?" Antonius asked.
-
-Candidate:
-
-> "I don't know." Antonius looked at Dena.
-
-Following:
-
-> "Vale," Dena said.
-
-## Canon 9 / Showcase 6 / Paragraph 213
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `539f2dedffa111ae8e75`
-
-Previous:
-
-> Dena looked at me. The nephew looked at me. Antonius looked at me. I continued because apparently I enjoyed danger.
-
-Candidate:
-
-> "Assuming he's better." Antonius nodded.
-
-Following:
-
-> "Is he?" I looked at the nephew. He straightened. He wanted to impress me now.
-
-## Canon 9 / Showcase 6 / Paragraph 237
+## Canon 9 / Showcase 6 / Paragraph 239
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -926,43 +548,7 @@ Following:
 
 > There. He wanted ownership. Did he want responsibility? Different.
 
-## Canon 9 / Showcase 6 / Paragraph 257
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `5ec34d0e8a087095994c`
-
-Previous:
-
-> Bad.
-
-Candidate:
-
-> "Three from him. Five from you?" Antonius smiled slightly.
-
-Following:
-
-> "That's eight."
-
-## Canon 9 / Showcase 6 / Paragraph 277
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `76eb83f0656cf9156fcd`
-
-Previous:
-
-> Not my problem to solve. His. He had asked what I thought.
-
-Candidate:
-
-> "Then I think the boy is probably worth lending to, but the purchase price may be the bad part of the deal." Antonius nodded.
-
-Following:
-
-> "Why?"
-
-## Canon 9 / Showcase 6 / Paragraph 298
+## Canon 9 / Showcase 6 / Paragraph 302
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -980,7 +566,7 @@ Following:
 
 > We walked. Three more stops. A cobbler who did not need money but knew a tanner who did. A widow Antonius paid two silver. That stopped me. She did not sign anything. No interest. No ledger that I saw. Antonius gave her two silver and took a small wrapped parcel. Outside, I asked.
 
-## Canon 9 / Showcase 6 / Paragraph 320
+## Canon 9 / Showcase 6 / Paragraph 324
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -998,43 +584,7 @@ Following:
 
 > "Do you know what cheese costs?"
 
-## Canon 9 / Showcase 6 / Paragraph 330
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `fe7462a54b8ead119274`
-
-Previous:
-
-> Why does he do that? Then watch. This was apparently much easier for me. That was probably insulting. At the tannery, Antonius refused a loan. The tanner was furious. Good shop. Good demand. Needed money for hides. On paper, similar to the cooper. I waited until we were outside.
-
-Candidate:
-
-> "Why no?" Antonius looked pleased.
-
-Following:
-
-> Not because I asked. Because I had waited.
-
-## Canon 9 / Showcase 6 / Paragraph 405
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `d99982b2367dc5d88336`
-
-Previous:
-
-> "Everyone thinks they have judgment."
-
-Candidate:
-
-> "Yours is specific." He kept walking. I followed.
-
-Following:
-
-> "You distinguish temporary failure from structural failure." He chewed.
-
-## Canon 9 / Showcase 6 / Paragraph 432
+## Canon 9 / Showcase 6 / Paragraph 438
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1052,7 +602,7 @@ Following:
 
 > "Power." I thought about late-life Greg.
 
-## Canon 9 / Showcase 6 / Paragraph 462
+## Canon 9 / Showcase 6 / Paragraph 468
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1070,25 +620,7 @@ Following:
 
 > Good.
 
-## Canon 9 / Showcase 6 / Paragraph 470
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `ef9aaf5b719ed898901c`
-
-Previous:
-
-> "No."
-
-Candidate:
-
-> "Then what?" Antonius sighed.
-
-Following:
-
-> "You need everyone to secretly want a kingdom."
-
-## Canon 9 / Showcase 6 / Paragraph 490
+## Canon 9 / Showcase 6 / Paragraph 497
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1106,7 +638,7 @@ Following:
 
 > Small smile. Loose shoulders. Young idiot. It happened automatically. Antonius's eyes narrowed. Worse. He had seen the change. Interesting.
 
-## Canon 9 / Showcase 6 / Paragraph 524
+## Canon 9 / Showcase 6 / Paragraph 531
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1124,7 +656,7 @@ Following:
 
 > "No." I pointed at it.
 
-## Canon 9 / Showcase 6 / Paragraph 534
+## Canon 9 / Showcase 6 / Paragraph 541
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1142,25 +674,7 @@ Following:
 
 > "What?"
 
-## Canon 9 / Showcase 6 / Paragraph 538
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `171bed06ca7189a1b13e`
-
-Previous:
-
-> "Of course."
-
-Candidate:
-
-> "Why did you lend to me?" Rusk stopped laughing. Antonius leaned back.
-
-Following:
-
-> There. I had wanted to ask all day. Not because I wanted reassurance. Maybe a little. Because I had now seen enough to know I did not fit his normal decisions. At the time, I had been nineteen. Bronze. No stable income. No collateral worth mentioning. Pitching garbage rock based on a half-remembered future application I could barely explain. Then I had gambled with borrowed money. Objectively, Greg was a terrible borrower. Antonius looked at me for a long moment.
-
-## Canon 9 / Showcase 6 / Paragraph 544
+## Canon 9 / Showcase 6 / Paragraph 552
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1178,25 +692,7 @@ Following:
 
 > "You asked for too much."
 
-## Canon 9 / Showcase 6 / Paragraph 562
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `89bed6c7fa9b07eded89`
-
-Previous:
-
-> "It was." Rusk said, "Still is."
-
-Candidate:
-
-> "Fuck you, Rusk." Antonius smiled.
-
-Following:
-
-> "You were wrong about half of it."
-
-## Canon 9 / Showcase 6 / Paragraph 569
+## Canon 9 / Showcase 6 / Paragraph 578
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1214,7 +710,7 @@ Following:
 
 > "You correct fast."
 
-## Canon 9 / Showcase 6 / Paragraph 574
+## Canon 9 / Showcase 6 / Paragraph 583
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1232,7 +728,7 @@ Following:
 
 > "You were interesting."
 
-## Canon 9 / Showcase 6 / Paragraph 581
+## Canon 9 / Showcase 6 / Paragraph 590
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1250,79 +746,7 @@ Following:
 
 > Conversation over. I stayed.
 
-## Canon 9 / Showcase 6 / Paragraph 585
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `cb2b318c696ba9dc41b4`
-
-Previous:
-
-> "No."
-
-Candidate:
-
-> "What are you trying to make?" Antonius looked up again.
-
-Following:
-
-> "Money."
-
-## Canon 9 / Showcase 6 / Paragraph 590
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `a0e03e87c022b7c97071`
-
-Previous:
-
-> "I mean with all of this." I gestured around the warehouse.
-
-Candidate:
-
-> "Loans. Storage. Merchants. Routes. People owing you. People you owe. What does it become?" He frowned.
-
-Following:
-
-> "I don't know."
-
-## Canon 9 / Showcase 6 / Paragraph 600
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `0b68574e899bfa903790`
-
-Previous:
-
-> Almost. At the door I stopped.
-
-Candidate:
-
-> "Antonius." He sighed.
-
-Following:
-
-> "What?"
-
-## Canon 9 / Showcase 6 / Paragraph 602
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `c484386743e85c4d4508`
-
-Previous:
-
-> "What?"
-
-Candidate:
-
-> "You should keep track of why you say no." He frowned.
-
-Following:
-
-> "To loans."
-
-## Canon 9 / Showcase 6 / Paragraph 605
+## Canon 9 / Showcase 6 / Paragraph 618
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1340,7 +764,7 @@ Following:
 
 > "You already remember patterns. Son wants out. Hidden lender. Bad order. Temporary shortage. Structural problem. Write the reason when you refuse. Six months later, see whether you were right." Antonius stared. I felt the branches trying to come.
 
-## Canon 9 / Showcase 6 / Paragraph 606
+## Canon 9 / Showcase 6 / Paragraph 619
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1358,25 +782,7 @@ Following:
 
 > Categories. Default models. Industry risk. Borrower types. Information network.
 
-## Canon 10 / Showcase 7 / Paragraph 11
-
-- Rule: `possible_multi_speaker_paragraph`
-- Confidence: `review-high`
-- Fingerprint: `725bff57038651293af3`
-
-Previous:
-
-> "It's nearly noon." I looked toward the window. It was, in fact, nearly noon.
-
-Candidate:
-
-> "That's worse." Arlo touched one of the wrist stones with the end of a wooden pick. "Don't."
-
-Following:
-
-> "I wasn't going to touch it."
-
-## Canon 10 / Showcase 7 / Paragraph 20
+## Canon 10 / Showcase 7 / Paragraph 21
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1394,7 +800,7 @@ Following:
 
 > "One number first."
 
-## Canon 10 / Showcase 7 / Paragraph 24
+## Canon 10 / Showcase 7 / Paragraph 25
 
 - Rule: `possible_multi_speaker_paragraph`
 - Confidence: `review-high`
@@ -1412,25 +818,7 @@ Following:
 
 > "Who is he?" I asked.
 
-## Canon 10 / Showcase 7 / Paragraph 31
-
-- Rule: `possible_multi_speaker_paragraph`
-- Confidence: `review-high`
-- Fingerprint: `1c82b0c39cf588a21067`
-
-Previous:
-
-> "Everyone is a liar."
-
-Candidate:
-
-> "Useful. What kind?" Antonius considered me. "Salvager."
-
-Following:
-
-> "Dungeon?"
-
-## Canon 10 / Showcase 7 / Paragraph 56
+## Canon 10 / Showcase 7 / Paragraph 58
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1448,25 +836,7 @@ Following:
 
 > Arlo set the copper rod down.
 
-## Canon 10 / Showcase 7 / Paragraph 62
-
-- Rule: `possible_multi_speaker_paragraph`
-- Confidence: `review-high`
-- Fingerprint: `27e086165462a3dd02e9`
-
-Previous:
-
-> "To nineteen?" Antonius asked.
-
-Candidate:
-
-> "Repeatedly." Arlo frowned. I pointed at the gauntlet. "Can we make it do something?"
-
-Following:
-
-> "Eventually."
-
-## Canon 10 / Showcase 7 / Paragraph 90
+## Canon 10 / Showcase 7 / Paragraph 94
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1484,7 +854,7 @@ Following:
 
 > That was new. A week ago I would have spent the whole appraisal trying to prove I knew more than Arlo. Today I was interested in why Antonius had chosen six gold as the question. Not whether the gauntlet was valuable. Whether it was useful as security. Different. I looked back at the object.
 
-## Canon 10 / Showcase 7 / Paragraph 95
+## Canon 10 / Showcase 7 / Paragraph 99
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1502,7 +872,7 @@ Following:
 
 > Antonius's eyes narrowed. I continued.
 
-## Canon 10 / Showcase 7 / Paragraph 97
+## Canon 10 / Showcase 7 / Paragraph 101
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1520,7 +890,7 @@ Following:
 
 > "Expedition."
 
-## Canon 10 / Showcase 7 / Paragraph 110
+## Canon 10 / Showcase 7 / Paragraph 114
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1538,7 +908,7 @@ Following:
 
 > "Four gold."
 
-## Canon 10 / Showcase 7 / Paragraph 129
+## Canon 10 / Showcase 7 / Paragraph 133
 
 - Rule: `possible_multi_speaker_paragraph`
 - Confidence: `review-high`
@@ -1556,7 +926,7 @@ Following:
 
 > "Mana?"
 
-## Canon 10 / Showcase 7 / Paragraph 132
+## Canon 10 / Showcase 7 / Paragraph 136
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1574,7 +944,7 @@ Following:
 
 > "Hm." Arlo slowly moved the rod.
 
-## Canon 10 / Showcase 7 / Paragraph 188
+## Canon 10 / Showcase 7 / Paragraph 192
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1592,7 +962,7 @@ Following:
 
 > "Why not?" he asked.
 
-## Canon 10 / Showcase 7 / Paragraph 190
+## Canon 10 / Showcase 7 / Paragraph 194
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1610,7 +980,7 @@ Following:
 
 > Then nodded. Antonius noticed. I noticed Antonius noticing. This was becoming ridiculous.
 
-## Canon 10 / Showcase 7 / Paragraph 209
+## Canon 10 / Showcase 7 / Paragraph 213
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1628,25 +998,7 @@ Following:
 
 > This was fun. That was dangerous. I knew that now. Not enough to stop. Enough to notice. Arlo found a maker's mark beneath the wrist clasp. Not a symbol. Letters. Very small. He cleaned them with oil.
 
-## Canon 10 / Showcase 7 / Paragraph 226
-
-- Rule: `possible_multi_speaker_paragraph`
-- Confidence: `review-high`
-- Fingerprint: `9eda8addfd986c443200`
-
-Previous:
-
-> Kelvar. Kelven. Maybe I was manufacturing familiarity because I wanted the object to matter. Important. I opened my eyes.
-
-Candidate:
-
-> "Not enough information yet." Antonius smiled. Arlo said, "Good." I frowned. "Why good?"
-
-Following:
-
-> "You didn't invent an answer."
-
-## Canon 10 / Showcase 7 / Paragraph 230
+## Canon 10 / Showcase 7 / Paragraph 237
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1664,7 +1016,7 @@ Following:
 
 > "I've heard Kelva."
 
-## Canon 10 / Showcase 7 / Paragraph 241
+## Canon 10 / Showcase 7 / Paragraph 248
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1682,7 +1034,7 @@ Following:
 
 > "Can either of you tell me whether I should lend six gold against it?"
 
-## Canon 10 / Showcase 7 / Paragraph 247
+## Canon 10 / Showcase 7 / Paragraph 254
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1700,7 +1052,7 @@ Following:
 
 > "How?" I looked at the gauntlet. Then at Arlo.
 
-## Canon 10 / Showcase 7 / Paragraph 249
+## Canon 10 / Showcase 7 / Paragraph 256
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1718,7 +1070,7 @@ Following:
 
 > "Workshop marks. Kelva. Find specialty."
 
-## Canon 10 / Showcase 7 / Paragraph 301
+## Canon 10 / Showcase 7 / Paragraph 308
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1736,7 +1088,7 @@ Following:
 
 > "Because he wants to buy it."
 
-## Canon 10 / Showcase 7 / Paragraph 325
+## Canon 10 / Showcase 7 / Paragraph 332
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1754,7 +1106,7 @@ Following:
 
 > Careful.
 
-## Canon 10 / Showcase 7 / Paragraph 333
+## Canon 10 / Showcase 7 / Paragraph 340
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1772,7 +1124,7 @@ Following:
 
 > Not pity.
 
-## Canon 10 / Showcase 7 / Paragraph 339
+## Canon 10 / Showcase 7 / Paragraph 346
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1790,25 +1142,7 @@ Following:
 
 > "Six?"
 
-## Canon 10 / Showcase 7 / Paragraph 341
-
-- Rule: `possible_multi_speaker_paragraph`
-- Confidence: `review-high`
-- Fingerprint: `5d392caea0bc28f2ec32`
-
-Previous:
-
-> "Six?"
-
-Candidate:
-
-> "Five." Arlo raised an eyebrow. Antonius said, "Why five?"
-
-Following:
-
-> "Because he asked for six."
-
-## Canon 10 / Showcase 7 / Paragraph 351
+## Canon 10 / Showcase 7 / Paragraph 360
 
 - Rule: `possible_multi_speaker_paragraph`
 - Confidence: `review-high`
@@ -1826,61 +1160,7 @@ Following:
 
 > "He's learning," Antonius said.
 
-## Canon 10 / Showcase 7 / Paragraph 355
-
-- Rule: `possible_multi_speaker_paragraph`
-- Confidence: `review-high`
-- Fingerprint: `a16e32245bf4173ca975`
-
-Previous:
-
-> "Not emotionally."
-
-Candidate:
-
-> "Fuck you." Antonius stood and took the gauntlet. Arlo immediately said, "Careful." Antonius froze.
-
-Following:
-
-> Slowly.
-
-## Canon 10 / Showcase 7 / Paragraph 358
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `f347f1ee31a310048d21`
-
-Previous:
-
-> "Why?"
-
-Candidate:
-
-> "Because I don't know what the wrist stones do." Antonius looked at the object in his hands. Then at Arlo. Then very carefully put it down. I laughed so hard I had to sit. Antonius waited. I tried to stop.
-
-Following:
-
-> Failed.
-
-## Canon 10 / Showcase 7 / Paragraph 364
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `7ee5ae571cd426b50fef`
-
-Previous:
-
-> "Five gold," he said. "Expedition share first claim. Gauntlet secondary. Subject to the artificer's three-gold offer remaining open." I wiped my eyes.
-
-Candidate:
-
-> "Good." Antonius pointed at me.
-
-Following:
-
-> "You are not coming." I stopped laughing.
-
-## Canon 10 / Showcase 7 / Paragraph 389
+## Canon 10 / Showcase 7 / Paragraph 403
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1898,7 +1178,7 @@ Following:
 
 > Meeting over. I stayed seated. He looked at me.
 
-## Canon 10 / Showcase 7 / Paragraph 399
+## Canon 10 / Showcase 7 / Paragraph 413
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1916,7 +1196,7 @@ Following:
 
 > Good.
 
-## Canon 10 / Showcase 7 / Paragraph 413
+## Canon 10 / Showcase 7 / Paragraph 427
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1934,7 +1214,7 @@ Following:
 
 > "For the appraisal."
 
-## Canon 10 / Showcase 7 / Paragraph 417
+## Canon 10 / Showcase 7 / Paragraph 431
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1952,7 +1232,7 @@ Following:
 
 > "I wanted to know what I was buying." I waited.
 
-## Canon 10 / Showcase 7 / Paragraph 438
+## Canon 10 / Showcase 7 / Paragraph 452
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1970,7 +1250,7 @@ Following:
 
 > Mana conditioning remained humiliating. There was no dignified way to describe sitting cross-legged while trying to persuade a body to notice something my mind remembered as obvious. Mana had once been everywhere. Not metaphorically. I had felt it in rooms, people, spells, stone, weather, bad enchantments, good enchantments, wounds, monsters, and the peculiar pressure behind the eyes that meant somebody nearby was doing something clever and probably irresponsible.
 
-## Canon 10 / Showcase 7 / Paragraph 480
+## Canon 10 / Showcase 7 / Paragraph 494
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -1988,7 +1268,7 @@ Following:
 
 > Wrong.
 
-## Canon 10 / Showcase 7 / Paragraph 498
+## Canon 10 / Showcase 7 / Paragraph 512
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2006,7 +1286,7 @@ Following:
 
 > "Barrier?" I looked at her.
 
-## Canon 10 / Showcase 7 / Paragraph 554
+## Canon 10 / Showcase 7 / Paragraph 568
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2024,7 +1304,7 @@ Following:
 
 > "Good." I stared.
 
-## Canon 10 / Showcase 7 / Paragraph 560
+## Canon 10 / Showcase 7 / Paragraph 574
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2042,7 +1322,7 @@ Following:
 
 > "The Tere box."
 
-## Canon 10 / Showcase 7 / Paragraph 570
+## Canon 10 / Showcase 7 / Paragraph 584
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2060,7 +1340,7 @@ Following:
 
 > Two rods. Tiny square plates. Three-tooth mark. Arlo stopped joking. That was satisfying. He lifted one rod. Carefully. Turned it.
 
-## Canon 10 / Showcase 7 / Paragraph 577
+## Canon 10 / Showcase 7 / Paragraph 591
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2078,7 +1358,7 @@ Following:
 
 > "Orlan Tere?"
 
-## Canon 10 / Showcase 7 / Paragraph 581
+## Canon 10 / Showcase 7 / Paragraph 595
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2096,7 +1376,7 @@ Following:
 
 > "Fuck."
 
-## Canon 10 / Showcase 7 / Paragraph 586
+## Canon 10 / Showcase 7 / Paragraph 600
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2114,7 +1394,7 @@ Following:
 
 > "I know that."
 
-## Canon 10 / Showcase 7 / Paragraph 603
+## Canon 10 / Showcase 7 / Paragraph 617
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2132,7 +1412,7 @@ Following:
 
 > "Arlo."
 
-## Canon 10 / Showcase 7 / Paragraph 610
+## Canon 10 / Showcase 7 / Paragraph 624
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2150,7 +1430,7 @@ Following:
 
 > "This is a reference set."
 
-## Canon 10 / Showcase 7 / Paragraph 620
+## Canon 10 / Showcase 7 / Paragraph 634
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2168,7 +1448,7 @@ Following:
 
 > "Keep it that way." I stared.
 
-## Canon 10 / Showcase 7 / Paragraph 622
+## Canon 10 / Showcase 7 / Paragraph 636
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2186,7 +1466,7 @@ Following:
 
 > Not happily.
 
-## Canon 10 / Showcase 7 / Paragraph 628
+## Canon 10 / Showcase 7 / Paragraph 642
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2204,7 +1484,7 @@ Following:
 
 > "More than I can pay."
 
-## Canon 10 / Showcase 7 / Paragraph 640
+## Canon 10 / Showcase 7 / Paragraph 654
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2222,7 +1502,7 @@ Following:
 
 > "Better regulators."
 
-## Canon 10 / Showcase 7 / Paragraph 656
+## Canon 10 / Showcase 7 / Paragraph 670
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2240,7 +1520,7 @@ Following:
 
 > "What do you need from me?" Arlo frowned.
 
-## Canon 10 / Showcase 7 / Paragraph 657
+## Canon 10 / Showcase 7 / Paragraph 671
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2258,7 +1538,7 @@ Following:
 
 > That was not the question he expected.
 
-## Canon 10 / Showcase 7 / Paragraph 667
+## Canon 10 / Showcase 7 / Paragraph 681
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2276,7 +1556,7 @@ Following:
 
 > Not dramatically. Arlo was not dramatic. His stillness was smaller. More expensive.
 
-## Canon 10 / Showcase 7 / Paragraph 683
+## Canon 10 / Showcase 7 / Paragraph 697
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2294,7 +1574,7 @@ Following:
 
 > "Time."
 
-## Canon 10 / Showcase 7 / Paragraph 701
+## Canon 10 / Showcase 7 / Paragraph 715
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2312,7 +1592,7 @@ Following:
 
 > "Less."
 
-## Canon 10 / Showcase 7 / Paragraph 708
+## Canon 10 / Showcase 7 / Paragraph 722
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2330,43 +1610,7 @@ Following:
 
 > Then remembered I did not have six silver.
 
-## Canon 11 / Showcase 8 / Paragraph 27
-
-- Rule: `possible_multi_speaker_paragraph`
-- Confidence: `review-high`
-- Fingerprint: `9797e02f27f8f19d52d2`
-
-Previous:
-
-> "Who?"
-
-Candidate:
-
-> "Usually me." Hessa stared. I wiped sweat from my forehead. "How bad?"
-
-Following:
-
-> "The Barrier?"
-
-## Canon 11 / Showcase 8 / Paragraph 45
-
-- Rule: `possible_multi_speaker_paragraph`
-- Confidence: `review-high`
-- Fingerprint: `665a70d5e51e11f0a4b5`
-
-Previous:
-
-> "Against what?"
-
-Candidate:
-
-> "Momentum." She laughed. I disliked how often people laughed when I used that word. Hessa sat opposite me. "Tell me what you did."
-
-Following:
-
-> "Cast Barrier."
-
-## Canon 11 / Showcase 8 / Paragraph 79
+## Canon 11 / Showcase 8 / Paragraph 83
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2384,25 +1628,7 @@ Following:
 
 > "Because it is a Barrier."
 
-## Canon 11 / Showcase 8 / Paragraph 85
-
-- Rule: `possible_multi_speaker_paragraph`
-- Confidence: `review-high`
-- Fingerprint: `247c573977bd0fc6cb35`
-
-Previous:
-
-> "That is the purpose."
-
-Candidate:
-
-> "That's one purpose." Hessa stared at me for several seconds. Then she stood. "Go home."
-
-Following:
-
-> "You're ending early."
-
-## Canon 11 / Showcase 8 / Paragraph 102
+## Canon 11 / Showcase 8 / Paragraph 107
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2420,7 +1646,7 @@ Following:
 
 > "Work." I took it. The paper contained an address and two words.
 
-## Canon 11 / Showcase 8 / Paragraph 105
+## Canon 11 / Showcase 8 / Paragraph 110
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2438,7 +1664,7 @@ Following:
 
 > "From whom?"
 
-## Canon 11 / Showcase 8 / Paragraph 112
+## Canon 11 / Showcase 8 / Paragraph 117
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2456,7 +1682,7 @@ Following:
 
 > "Wait." He stopped. I held up one finger.
 
-## Canon 11 / Showcase 8 / Paragraph 113
+## Canon 11 / Showcase 8 / Paragraph 118
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2474,7 +1700,7 @@ Following:
 
 > "Yesterday I cast Barrier." Rusk looked at the finger. Then at me.
 
-## Canon 11 / Showcase 8 / Paragraph 114
+## Canon 11 / Showcase 8 / Paragraph 119
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2492,7 +1718,7 @@ Following:
 
 > "Congratulations."
 
-## Canon 11 / Showcase 8 / Paragraph 131
+## Canon 11 / Showcase 8 / Paragraph 136
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2510,7 +1736,7 @@ Following:
 
 > "Glass."
 
-## Canon 11 / Showcase 8 / Paragraph 159
+## Canon 11 / Showcase 8 / Paragraph 164
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2528,25 +1754,7 @@ Following:
 
 > "You told me you cast Barrier, then I sent you to move something heavy. You're Greg."
 
-## Canon 11 / Showcase 8 / Paragraph 173
-
-- Rule: `possible_multi_speaker_paragraph`
-- Confidence: `review-high`
-- Fingerprint: `f135a5e7509ecd72eb45`
-
-Previous:
-
-> "How much?"
-
-Candidate:
-
-> "Oil." Antonius looked at Rusk. Rusk said, "Magic." Antonius looked back at me.
-
-Following:
-
-> "You did magic?"
-
-## Canon 11 / Showcase 8 / Paragraph 181
+## Canon 11 / Showcase 8 / Paragraph 188
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2564,7 +1772,7 @@ Following:
 
 > "Keep it out of the ledger until it pays for something."
 
-## Canon 11 / Showcase 8 / Paragraph 185
+## Canon 11 / Showcase 8 / Paragraph 192
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2582,7 +1790,7 @@ Following:
 
 > "What's this?"
 
-## Canon 11 / Showcase 8 / Paragraph 191
+## Canon 11 / Showcase 8 / Paragraph 198
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2600,25 +1808,7 @@ Following:
 
 > "No?"
 
-## Canon 11 / Showcase 8 / Paragraph 217
-
-- Rule: `possible_multi_speaker_paragraph`
-- Confidence: `review-high`
-- Fingerprint: `2abf74bc441396b6aeb1`
-
-Previous:
-
-> Lie. Maybe. Not enough information. I took the six silver.
-
-Candidate:
-
-> "Thank you." Antonius blinked. Rusk looked over. I frowned. "What?"
-
-Following:
-
-> "Nothing," Antonius said.
-
-## Canon 11 / Showcase 8 / Paragraph 221
+## Canon 11 / Showcase 8 / Paragraph 230
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2636,7 +1826,7 @@ Following:
 
 > "Fuck both of you."
 
-## Canon 11 / Showcase 8 / Paragraph 258
+## Canon 11 / Showcase 8 / Paragraph 267
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2654,7 +1844,7 @@ Following:
 
 > "Where did you get them?"
 
-## Canon 11 / Showcase 8 / Paragraph 268
+## Canon 11 / Showcase 8 / Paragraph 277
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2672,7 +1862,7 @@ Following:
 
 > "The gauntlet?"
 
-## Canon 11 / Showcase 8 / Paragraph 274
+## Canon 11 / Showcase 8 / Paragraph 283
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2690,25 +1880,7 @@ Following:
 
 > "One day."
 
-## Canon 11 / Showcase 8 / Paragraph 288
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `2189d97b159c24ed2d05`
-
-Previous:
-
-> Reasonable.
-
-Candidate:
-
-> "Fine." He took three silver. Pushed three back. I looked at them.
-
-Following:
-
-> "Keep it."
-
-## Canon 11 / Showcase 8 / Paragraph 323
+## Canon 11 / Showcase 8 / Paragraph 333
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2726,7 +1898,7 @@ Following:
 
 > "I'm not casting."
 
-## Canon 11 / Showcase 8 / Paragraph 345
+## Canon 11 / Showcase 8 / Paragraph 355
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2744,7 +1916,7 @@ Following:
 
 > "You are going to do this whether I help."
 
-## Canon 11 / Showcase 8 / Paragraph 357
+## Canon 11 / Showcase 8 / Paragraph 367
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2762,7 +1934,7 @@ Following:
 
 > "Fine."
 
-## Canon 11 / Showcase 8 / Paragraph 421
+## Canon 11 / Showcase 8 / Paragraph 431
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2780,25 +1952,7 @@ Following:
 
 > "Twenty."
 
-## Canon 11 / Showcase 8 / Paragraph 429
-
-- Rule: `possible_multi_speaker_paragraph`
-- Confidence: `review-high`
-- Fingerprint: `d9bc953ea31319929355`
-
-Previous:
-
-> "A week."
-
-Candidate:
-
-> "Excellent." Arlo frowned. "Why excellent?"
-
-Following:
-
-> "Because now you have a problem."
-
-## Canon 11 / Showcase 8 / Paragraph 432
+## Canon 11 / Showcase 8 / Paragraph 443
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2816,7 +1970,7 @@ Following:
 
 > "What?"
 
-## Canon 11 / Showcase 8 / Paragraph 443
+## Canon 11 / Showcase 8 / Paragraph 454
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2834,7 +1988,7 @@ Following:
 
 > "One regulator," I said. He looked at me.
 
-## Canon 11 / Showcase 8 / Paragraph 451
+## Canon 11 / Showcase 8 / Paragraph 462
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2852,7 +2006,7 @@ Following:
 
 > "You're annoying," he said.
 
-## Canon 11 / Showcase 8 / Paragraph 453
+## Canon 11 / Showcase 8 / Paragraph 464
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2870,7 +2024,7 @@ Following:
 
 > "One."
 
-## Canon 11 / Showcase 8 / Paragraph 468
+## Canon 11 / Showcase 8 / Paragraph 479
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2888,7 +2042,7 @@ Following:
 
 > "Again tomorrow," she said.
 
-## Canon 11 / Showcase 8 / Paragraph 525
+## Canon 11 / Showcase 8 / Paragraph 536
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2906,7 +2060,7 @@ Following:
 
 > "Antonius."
 
-## Canon 11 / Showcase 8 / Paragraph 545
+## Canon 11 / Showcase 8 / Paragraph 556
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2924,7 +2078,7 @@ Following:
 
 > "I'm serious."
 
-## Canon 11 / Showcase 8 / Paragraph 548
+## Canon 11 / Showcase 8 / Paragraph 559
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2942,25 +2096,7 @@ Following:
 
 > "It can change it."
 
-## Canon 11 / Showcase 8 / Paragraph 551
-
-- Rule: `possible_multi_speaker_paragraph`
-- Confidence: `review-high`
-- Fingerprint: `942b54b9da741cff4539`
-
-Previous:
-
-> "Change what?"
-
-Candidate:
-
-> "Direction. Contact. Timing. Maybe pressure later. If I make it small enough and place it correctly, I don't need enough mana to overpower the whole force." Antonius considered. Unlike Hessa, he did not care about magical orthodoxy. Unlike Arlo, he did not care how the mechanism worked. He asked, "Useful?"
-
-Following:
-
-> "Eventually."
-
-## Canon 11 / Showcase 8 / Paragraph 555
+## Canon 11 / Showcase 8 / Paragraph 567
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -2978,43 +2114,7 @@ Following:
 
 > "Growth."
 
-## Canon 11 / Showcase 8 / Paragraph 557
-
-- Rule: `possible_multi_speaker_paragraph`
-- Confidence: `review-high`
-- Fingerprint: `864af03159ed28bfe5c2`
-
-Previous:
-
-> "Growth."
-
-Candidate:
-
-> "Fuck you." He opened his ledger. I should have left. Instead I said, "Do you have anything magical that needs moving?" His pen stopped. Slowly.
-
-Following:
-
-> "No."
-
-## Canon 11 / Showcase 8 / Paragraph 571
-
-- Rule: `possible_multi_speaker_paragraph`
-- Confidence: `review-high`
-- Fingerprint: `9964b9c0c8497e116fa2`
-
-Previous:
-
-> "Is it?" I considered the glass crate.
-
-Candidate:
-
-> "Somewhat." Antonius returned to his ledger. Then said, "The salvager came back." Everything in me changed. I hated that he noticed.
-
-Following:
-
-> "The gauntlet?"
-
-## Canon 11 / Showcase 8 / Paragraph 589
+## Canon 11 / Showcase 8 / Paragraph 606
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3032,7 +2132,7 @@ Following:
 
 > "Recently." I leaned closer. Green crystal. Black veins. Mana-active? I could not feel enough to know. Smell? Faint mineral. Sharp. A memory stirred. Cave resin?
 
-## Canon 11 / Showcase 8 / Paragraph 616
+## Canon 11 / Showcase 8 / Paragraph 633
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3050,25 +2150,7 @@ Following:
 
 > "A spoon."
 
-## Canon 13 / Showcase 9 / Paragraph 49
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `c626599c4f4ed7369b53`
-
-Previous:
-
-> "Yes."
-
-Candidate:
-
-> "Good." He set the frame on a shelf. I looked at the six regulators.
-
-Following:
-
-> "What changed?"
-
-## Canon 13 / Showcase 9 / Paragraph 71
+## Canon 13 / Showcase 9 / Paragraph 72
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3086,7 +2168,7 @@ Following:
 
 > "I changed the clay. Then the winding. Then the firing. Then the etch. Then I had no idea which thing mattered."
 
-## Canon 13 / Showcase 9 / Paragraph 79
+## Canon 13 / Showcase 9 / Paragraph 80
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3104,7 +2186,7 @@ Following:
 
 > "I was changing the object because the object was wrong."
 
-## Canon 13 / Showcase 9 / Paragraph 100
+## Canon 13 / Showcase 9 / Paragraph 101
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3122,79 +2204,7 @@ Following:
 
 > "So I stopped making regulators."
 
-## Canon 13 / Showcase 9 / Paragraph 124
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `6703b2dfd5bab5868661`
-
-Previous:
-
-> "Changed nothing except winding tension."
-
-Candidate:
-
-> "How did you control it?" He pointed at another object. A stick. A spool. A hanging weight. I stared. Arlo became defensive.
-
-Following:
-
-> "It's temporary."
-
-## Canon 13 / Showcase 9 / Paragraph 148
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `b9ad92818657c7539cef`
-
-Previous:
-
-> "I know." I looked at the six regulators.
-
-Candidate:
-
-> "Which variable next?" Arlo smiled. Not because he needed my answer. Because he already had one.
-
-Following:
-
-> "Firing."
-
-## Canon 13 / Showcase 9 / Paragraph 209
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `6f3241b294472865b75e`
-
-Previous:
-
-> "What?"
-
-Candidate:
-
-> "I should not put precision equipment loose beside coins." Arlo stared.
-
-Following:
-
-> "Growth."
-
-## Canon 13 / Showcase 9 / Paragraph 228
-
-- Rule: `untagged_dialogue_followed_by_action`
-- Confidence: `review`
-- Fingerprint: `543a8709999ab8e14921`
-
-Previous:
-
-> Unfortunately, that was becoming difficult to dispute. Hessa had three cups on the floor when I arrived. Not drinking cups. Practice cups. Wooden. Cheap. One upside down. One on its side. One upright. I stopped in the doorway.
-
-Candidate:
-
-> "No." Hessa looked up.
-
-Following:
-
-> "No what?"
-
-## Canon 13 / Showcase 9 / Paragraph 236
+## Canon 13 / Showcase 9 / Paragraph 241
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3212,7 +2222,7 @@ Following:
 
 > "Sit." I sat. I did not take the regulator out. This was discipline. Hessa looked at my pocket.
 
-## Canon 13 / Showcase 9 / Paragraph 244
+## Canon 13 / Showcase 9 / Paragraph 249
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3230,7 +2240,7 @@ Following:
 
 > "Barrier."
 
-## Canon 13 / Showcase 9 / Paragraph 264
+## Canon 13 / Showcase 9 / Paragraph 269
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3248,7 +2258,7 @@ Following:
 
 > "Fine." I set the cup down.
 
-## Canon 13 / Showcase 9 / Paragraph 301
+## Canon 13 / Showcase 9 / Paragraph 306
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3266,7 +2276,7 @@ Following:
 
 > No.
 
-## Canon 13 / Showcase 9 / Paragraph 346
+## Canon 13 / Showcase 9 / Paragraph 351
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3284,7 +2294,7 @@ Following:
 
 > "Sorry. Good."
 
-## Canon 13 / Showcase 9 / Paragraph 350
+## Canon 13 / Showcase 9 / Paragraph 355
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3302,7 +2312,7 @@ Following:
 
 > "Yes."
 
-## Canon 13 / Showcase 9 / Paragraph 365
+## Canon 13 / Showcase 9 / Paragraph 370
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3320,7 +2330,7 @@ Following:
 
 > "Several?"
 
-## Canon 13 / Showcase 9 / Paragraph 386
+## Canon 13 / Showcase 9 / Paragraph 391
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3338,7 +2348,7 @@ Following:
 
 > "What?"
 
-## Canon 13 / Showcase 9 / Paragraph 426
+## Canon 13 / Showcase 9 / Paragraph 431
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3356,7 +2366,7 @@ Following:
 
 > "To me?"
 
-## Canon 13 / Showcase 9 / Paragraph 432
+## Canon 13 / Showcase 9 / Paragraph 437
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3374,7 +2384,7 @@ Following:
 
 > "At least you know that."
 
-## Canon 13 / Showcase 9 / Paragraph 467
+## Canon 13 / Showcase 9 / Paragraph 472
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3392,7 +2402,7 @@ Following:
 
 > "Fuck you."
 
-## Canon 13 / Showcase 9 / Paragraph 469
+## Canon 13 / Showcase 9 / Paragraph 474
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3410,7 +2420,7 @@ Following:
 
 > "Hessa."
 
-## Canon 13 / Showcase 9 / Paragraph 481
+## Canon 13 / Showcase 9 / Paragraph 486
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3428,7 +2438,7 @@ Following:
 
 > "Like what?"
 
-## Canon 13 / Showcase 9 / Paragraph 486
+## Canon 13 / Showcase 9 / Paragraph 491
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3446,7 +2456,7 @@ Following:
 
 > "Do not make jokes."
 
-## Canon 13 / Showcase 9 / Paragraph 497
+## Canon 13 / Showcase 9 / Paragraph 502
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3464,7 +2474,7 @@ Following:
 
 > "Something."
 
-## Canon 13 / Showcase 9 / Paragraph 508
+## Canon 13 / Showcase 9 / Paragraph 513
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3482,7 +2492,7 @@ Following:
 
 > "Why?"
 
-## Canon 13 / Showcase 9 / Paragraph 526
+## Canon 13 / Showcase 9 / Paragraph 531
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3500,7 +2510,7 @@ Following:
 
 > "Nearly sixty."
 
-## Canon 13 / Showcase 9 / Paragraph 581
+## Canon 13 / Showcase 9 / Paragraph 586
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3518,7 +2528,7 @@ Following:
 
 > "If you're telling the truth, your biggest problem is not that you're weak."
 
-## Canon 13 / Showcase 9 / Paragraph 600
+## Canon 13 / Showcase 9 / Paragraph 605
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3536,7 +2546,7 @@ Following:
 
 > "Learn this spell."
 
-## Canon 13 / Showcase 9 / Paragraph 604
+## Canon 13 / Showcase 9 / Paragraph 609
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3554,7 +2564,7 @@ Following:
 
 > "You do not know this Barrier."
 
-## Canon 13 / Showcase 9 / Paragraph 655
+## Canon 13 / Showcase 9 / Paragraph 660
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3572,7 +2582,7 @@ Following:
 
 > "You woke up forty years younger and made categories."
 
-## Canon 13 / Showcase 9 / Paragraph 659
+## Canon 13 / Showcase 9 / Paragraph 664
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3590,7 +2600,7 @@ Following:
 
 > "Good categories."
 
-## Canon 13 / Showcase 9 / Paragraph 675
+## Canon 13 / Showcase 9 / Paragraph 680
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3608,7 +2618,7 @@ Following:
 
 > "That sentence is why I regret asking."
 
-## Canon 13 / Showcase 9 / Paragraph 677
+## Canon 13 / Showcase 9 / Paragraph 682
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3626,7 +2636,7 @@ Following:
 
 > "Does it work?"
 
-## Canon 13 / Showcase 9 / Paragraph 741
+## Canon 13 / Showcase 9 / Paragraph 746
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`
@@ -3644,7 +2654,7 @@ Following:
 
 > "What did you learn?" I looked at the sword. At my hand. At the young wrist beneath it. Then I smiled.
 
-## Canon 13 / Showcase 9 / Paragraph 743
+## Canon 13 / Showcase 9 / Paragraph 748
 
 - Rule: `untagged_dialogue_followed_by_action`
 - Confidence: `review`

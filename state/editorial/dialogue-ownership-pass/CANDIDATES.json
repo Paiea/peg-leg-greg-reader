@@ -5,38 +5,16 @@
   "canonical_chapters": 491,
   "visible_chapters": 439,
   "hidden_chapters": 52,
-  "candidate_count": 203,
+  "candidate_count": 148,
   "candidate_counts_by_rule": {
-    "possible_multi_speaker_paragraph": 22,
-    "untagged_dialogue_followed_by_action": 181
+    "possible_multi_speaker_paragraph": 5,
+    "untagged_dialogue_followed_by_action": 143
   },
   "candidate_counts_by_confidence": {
-    "review": 181,
-    "review-high": 22
+    "review": 143,
+    "review-high": 5
   },
   "candidates": [
-    {
-      "canonical_chapter": 2,
-      "showcase_chapter": 2,
-      "paragraph_index": 43,
-      "rule": "possible_multi_speaker_paragraph",
-      "confidence": "review-high",
-      "previous": "\"To what?\"",
-      "current": "\"Your age.\" He smiled. \"How old did you expect me to be?\"",
-      "following": "\"Richer.\"",
-      "fingerprint": "152888445ca8ebb7d8e9"
-    },
-    {
-      "canonical_chapter": 2,
-      "showcase_chapter": 2,
-      "paragraph_index": 75,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"Eight.\"",
-      "current": "\"Fine.\" He counted silver onto the desk. I should have felt relief. Instead I felt acceleration. I knew that feeling. Hubris putting on its boots.",
-      "following": "\"If you run,\" Antonius said, \"I find you.\"",
-      "fingerprint": "051df77ecb6bc0a8ee4e"
-    },
     {
       "canonical_chapter": 4,
       "showcase_chapter": 3,
@@ -47,39 +25,6 @@
       "current": "\"Too boring.\" He stayed in the next hand three raises longer than he should have.",
       "following": "Ugly. Effective.",
       "fingerprint": "4e2b9d1ed70ad3a335da"
-    },
-    {
-      "canonical_chapter": 4,
-      "showcase_chapter": 3,
-      "paragraph_index": 85,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"Different?\"",
-      "current": "\"For me? Apparently.\" She glanced at my stack.",
-      "following": "\"You came in small.\"",
-      "fingerprint": "19756f21d6fcbfe3eeae"
-    },
-    {
-      "canonical_chapter": 5,
-      "showcase_chapter": 4,
-      "paragraph_index": 76,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"Gambling.\"",
-      "current": "\"Income.\" He looked up.",
-      "following": "\"You're very good at naming things.\"",
-      "fingerprint": "f568a3f58d90eab14ec0"
-    },
-    {
-      "canonical_chapter": 5,
-      "showcase_chapter": 4,
-      "paragraph_index": 157,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"You think your problem is the game.\"",
-      "current": "\"It was a gambling loss.\" He pushed the ledger toward me.",
-      "following": "\"Your problem is you think being able to explain a mistake means you can afford it.\" I stared at him. That was annoyingly good.",
-      "fingerprint": "13ed52221741a6e760c9"
     },
     {
       "canonical_chapter": 7,
@@ -95,18 +40,7 @@
     {
       "canonical_chapter": 7,
       "showcase_chapter": 5,
-      "paragraph_index": 57,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"It is legally.\"",
-      "current": "\"That's not the same thing.\" Antonius considered me.",
-      "following": "\"Interesting opinion from a man whose labor I legally own.\"",
-      "fingerprint": "ebe8bb73d8592481ae57"
-    },
-    {
-      "canonical_chapter": 7,
-      "showcase_chapter": 5,
-      "paragraph_index": 59,
+      "paragraph_index": 60,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Interesting opinion from a man whose labor I legally own.\"",
@@ -117,7 +51,7 @@
     {
       "canonical_chapter": 7,
       "showcase_chapter": 5,
-      "paragraph_index": 69,
+      "paragraph_index": 70,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Foundry waste.\"",
@@ -128,7 +62,7 @@
     {
       "canonical_chapter": 7,
       "showcase_chapter": 5,
-      "paragraph_index": 106,
+      "paragraph_index": 107,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"It was implied.\"",
@@ -139,7 +73,7 @@
     {
       "canonical_chapter": 7,
       "showcase_chapter": 5,
-      "paragraph_index": 116,
+      "paragraph_index": 117,
       "rule": "possible_multi_speaker_paragraph",
       "confidence": "review-high",
       "previous": "\"But it's extremely valuable.\"",
@@ -150,18 +84,7 @@
     {
       "canonical_chapter": 7,
       "showcase_chapter": 5,
-      "paragraph_index": 140,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"So you want to pay three silver for something useless to you.\"",
-      "current": "\"I want to pay three silver for something worth forty gold to somebody else. That's called trade. You should look into it.\" Antonius smiled. I should not have smiled back.",
-      "following": "\"Three silver,\" I said. \"We agreed.\"",
-      "fingerprint": "e4f6209f44b7ba5eb9a2"
-    },
-    {
-      "canonical_chapter": 7,
-      "showcase_chapter": 5,
-      "paragraph_index": 147,
+      "paragraph_index": 149,
       "rule": "possible_multi_speaker_paragraph",
       "confidence": "review-high",
       "previous": "\"Neither is yours.\"",
@@ -172,40 +95,7 @@
     {
       "canonical_chapter": 7,
       "showcase_chapter": 5,
-      "paragraph_index": 153,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"Names.\"",
-      "current": "\"Not enough information yet.\" He laughed. I hated him.",
-      "following": "\"Five silver,\" Antonius said.",
-      "fingerprint": "8c519c64424d58ccc555"
-    },
-    {
-      "canonical_chapter": 7,
-      "showcase_chapter": 5,
-      "paragraph_index": 163,
-      "rule": "possible_multi_speaker_paragraph",
-      "confidence": "review-high",
-      "previous": "\"Five and I don't throw it away while you're arguing.\" I stared at him. He stared back.",
-      "current": "\"Fine. Five.\" He put the box on the keep shelf and wrote my name on a scrap tucked beneath it. I pointed. \"That's mine.\"",
-      "following": "\"When you pay five silver.\"",
-      "fingerprint": "1ba10d463837aa1b246e"
-    },
-    {
-      "canonical_chapter": 7,
-      "showcase_chapter": 5,
-      "paragraph_index": 173,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"Because, Greg, until thirty seconds ago it was trash.\"",
-      "current": "\"Stop saying that.\" He went back to sweeping. I stared at the Tere gauge.",
-      "following": "Forty gold. Maybe more. More than the visible contents of this warehouse put together, if my memory was right. And almost completely useless to me until I found one of the tiny number of people who understood why. That was the important distinction. Value was not the same as usefulness. I returned to work. Twenty minutes later I found a cracked wooden case containing six green glass cylinders. My pulse jumped again. Antonius glanced over.",
-      "fingerprint": "5b4c7f44d2c58afe2c2b"
-    },
-    {
-      "canonical_chapter": 7,
-      "showcase_chapter": 5,
-      "paragraph_index": 176,
+      "paragraph_index": 182,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Trash.\"",
@@ -216,18 +106,7 @@
     {
       "canonical_chapter": 7,
       "showcase_chapter": 5,
-      "paragraph_index": 203,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"Sometimes.\"",
-      "current": "\"Was that a test?\" He stopped.",
-      "following": "The room had become noticeably brighter as we cleared the small window. Dust floated in the beam between us. Antonius rested both hands on the broom.",
-      "fingerprint": "899c7a4b0704645cf364"
-    },
-    {
-      "canonical_chapter": 7,
-      "showcase_chapter": 5,
-      "paragraph_index": 220,
+      "paragraph_index": 227,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Greg.\"",
@@ -238,18 +117,7 @@
     {
       "canonical_chapter": 7,
       "showcase_chapter": 5,
-      "paragraph_index": 242,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"Sold.\"",
-      "current": "\"To whom?\" He smiled. I hated him.",
-      "following": "\"Ledger.\"",
-      "fingerprint": "cbe0078e11f1d40ceba6"
-    },
-    {
-      "canonical_chapter": 7,
-      "showcase_chapter": 5,
-      "paragraph_index": 298,
+      "paragraph_index": 306,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"By furniture?\"",
@@ -260,7 +128,7 @@
     {
       "canonical_chapter": 7,
       "showcase_chapter": 5,
-      "paragraph_index": 303,
+      "paragraph_index": 311,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Why?\"",
@@ -271,7 +139,7 @@
     {
       "canonical_chapter": 7,
       "showcase_chapter": 5,
-      "paragraph_index": 307,
+      "paragraph_index": 315,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"I understood the sentence.\"",
@@ -282,18 +150,7 @@
     {
       "canonical_chapter": 7,
       "showcase_chapter": 5,
-      "paragraph_index": 319,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"No.\"",
-      "current": "\"Antonius.\" He walked back into the room. I followed.",
-      "following": "\"You know what everything in your operation does,\" I said.",
-      "fingerprint": "a239a14fea7870765aaf"
-    },
-    {
-      "canonical_chapter": 7,
-      "showcase_chapter": 5,
-      "paragraph_index": 332,
+      "paragraph_index": 341,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Most.\"",
@@ -304,7 +161,7 @@
     {
       "canonical_chapter": 7,
       "showcase_chapter": 5,
-      "paragraph_index": 340,
+      "paragraph_index": 349,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Metaphor face.\"",
@@ -315,7 +172,7 @@
     {
       "canonical_chapter": 7,
       "showcase_chapter": 5,
-      "paragraph_index": 348,
+      "paragraph_index": 357,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"You're nineteen?\"",
@@ -326,7 +183,7 @@
     {
       "canonical_chapter": 7,
       "showcase_chapter": 5,
-      "paragraph_index": 355,
+      "paragraph_index": 364,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Twenty-three?\"",
@@ -337,7 +194,7 @@
     {
       "canonical_chapter": 7,
       "showcase_chapter": 5,
-      "paragraph_index": 367,
+      "paragraph_index": 376,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "Not yet. I could lie. Easy. Hard childhood. Older companions. Military upbringing. Dead parents. Some of it even true. Instead I shrugged.",
@@ -348,7 +205,7 @@
     {
       "canonical_chapter": 7,
       "showcase_chapter": 5,
-      "paragraph_index": 372,
+      "paragraph_index": 381,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"The truth would be novel.\"",
@@ -359,7 +216,7 @@
     {
       "canonical_chapter": 7,
       "showcase_chapter": 5,
-      "paragraph_index": 387,
+      "paragraph_index": 396,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"And then you panic over copper.\"",
@@ -370,7 +227,7 @@
     {
       "canonical_chapter": 7,
       "showcase_chapter": 5,
-      "paragraph_index": 404,
+      "paragraph_index": 413,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Merchant?\"",
@@ -381,7 +238,7 @@
     {
       "canonical_chapter": 7,
       "showcase_chapter": 5,
-      "paragraph_index": 416,
+      "paragraph_index": 425,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"That's why I have money.\" I looked around the cheap office.",
@@ -392,79 +249,13 @@
     {
       "canonical_chapter": 7,
       "showcase_chapter": 5,
-      "paragraph_index": 432,
+      "paragraph_index": 441,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"One.\"",
       "current": "\"Fine. Keep.\" He put it on the shelf. I blinked.",
       "following": "\"That's it?\"",
       "fingerprint": "b58680099e45058cab34"
-    },
-    {
-      "canonical_chapter": 7,
-      "showcase_chapter": 5,
-      "paragraph_index": 452,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "Then stopped. Why? No reason. No future value. No technical use. No opportunity. I wanted it. That was different.",
-      "current": "\"Can I have this?\" Antonius looked at the scarf.",
-      "following": "\"Why?\"",
-      "fingerprint": "dd42ff3f24eaa9b0a4e3"
-    },
-    {
-      "canonical_chapter": 7,
-      "showcase_chapter": 5,
-      "paragraph_index": 454,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"Why?\"",
-      "current": "\"I don't know.\" He waited. I did not invent one.",
-      "following": "\"I just want it.\"",
-      "fingerprint": "1d5ac9a83e4514e1e20e"
-    },
-    {
-      "canonical_chapter": 7,
-      "showcase_chapter": 5,
-      "paragraph_index": 477,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"Maybe.\"",
-      "current": "\"I passed.\" Antonius looked at me.",
-      "following": "\"Did you?\"",
-      "fingerprint": "ebc8588b29619c60758a"
-    },
-    {
-      "canonical_chapter": 7,
-      "showcase_chapter": 5,
-      "paragraph_index": 491,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"Home.\" I had never considered that Antonius Vale had a home. That was stupid. Of course he did.",
-      "current": "\"Where?\" He stopped.",
-      "following": "\"Why?\"",
-      "fingerprint": "f3309cc6f2b8e2161252"
-    },
-    {
-      "canonical_chapter": 7,
-      "showcase_chapter": 5,
-      "paragraph_index": 500,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"Go away.\"",
-      "current": "\"That's not a no.\" He walked faster. I laughed.",
-      "following": "\"Sunrise tomorrow?\" He raised one hand without turning.",
-      "fingerprint": "e2919181baa271fe8f3b"
-    },
-    {
-      "canonical_chapter": 7,
-      "showcase_chapter": 5,
-      "paragraph_index": 501,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"That's not a no.\" He walked faster. I laughed.",
-      "current": "\"Sunrise tomorrow?\" He raised one hand without turning.",
-      "following": "\"Ask Rusk.\"",
-      "fingerprint": "e323a990f1d49e140aa6"
     },
     {
       "canonical_chapter": 9,
@@ -546,29 +337,7 @@
     {
       "canonical_chapter": 9,
       "showcase_chapter": 6,
-      "paragraph_index": 186,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"Who?\" Antonius asked.",
-      "current": "\"I don't know.\" Antonius looked at Dena.",
-      "following": "\"Vale,\" Dena said.",
-      "fingerprint": "743ba0b044e6217b0ef4"
-    },
-    {
-      "canonical_chapter": 9,
-      "showcase_chapter": 6,
-      "paragraph_index": 213,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "Dena looked at me. The nephew looked at me. Antonius looked at me. I continued because apparently I enjoyed danger.",
-      "current": "\"Assuming he's better.\" Antonius nodded.",
-      "following": "\"Is he?\" I looked at the nephew. He straightened. He wanted to impress me now.",
-      "fingerprint": "539f2dedffa111ae8e75"
-    },
-    {
-      "canonical_chapter": 9,
-      "showcase_chapter": 6,
-      "paragraph_index": 237,
+      "paragraph_index": 239,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Partner.\"",
@@ -579,29 +348,7 @@
     {
       "canonical_chapter": 9,
       "showcase_chapter": 6,
-      "paragraph_index": 257,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "Bad.",
-      "current": "\"Three from him. Five from you?\" Antonius smiled slightly.",
-      "following": "\"That's eight.\"",
-      "fingerprint": "5ec34d0e8a087095994c"
-    },
-    {
-      "canonical_chapter": 9,
-      "showcase_chapter": 6,
-      "paragraph_index": 277,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "Not my problem to solve. His. He had asked what I thought.",
-      "current": "\"Then I think the boy is probably worth lending to, but the purchase price may be the bad part of the deal.\" Antonius nodded.",
-      "following": "\"Why?\"",
-      "fingerprint": "76eb83f0656cf9156fcd"
-    },
-    {
-      "canonical_chapter": 9,
-      "showcase_chapter": 6,
-      "paragraph_index": 298,
+      "paragraph_index": 302,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Maybe.\"",
@@ -612,7 +359,7 @@
     {
       "canonical_chapter": 9,
       "showcase_chapter": 6,
-      "paragraph_index": 320,
+      "paragraph_index": 324,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"It's for six wheels.\"",
@@ -623,29 +370,7 @@
     {
       "canonical_chapter": 9,
       "showcase_chapter": 6,
-      "paragraph_index": 330,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "Why does he do that? Then watch. This was apparently much easier for me. That was probably insulting. At the tannery, Antonius refused a loan. The tanner was furious. Good shop. Good demand. Needed money for hides. On paper, similar to the cooper. I waited until we were outside.",
-      "current": "\"Why no?\" Antonius looked pleased.",
-      "following": "Not because I asked. Because I had waited.",
-      "fingerprint": "fe7462a54b8ead119274"
-    },
-    {
-      "canonical_chapter": 9,
-      "showcase_chapter": 6,
-      "paragraph_index": 405,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"Everyone thinks they have judgment.\"",
-      "current": "\"Yours is specific.\" He kept walking. I followed.",
-      "following": "\"You distinguish temporary failure from structural failure.\" He chewed.",
-      "fingerprint": "d99982b2367dc5d88336"
-    },
-    {
-      "canonical_chapter": 9,
-      "showcase_chapter": 6,
-      "paragraph_index": 432,
+      "paragraph_index": 438,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Especially then.\"",
@@ -656,7 +381,7 @@
     {
       "canonical_chapter": 9,
       "showcase_chapter": 6,
-      "paragraph_index": 462,
+      "paragraph_index": 468,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"No.\"",
@@ -667,18 +392,7 @@
     {
       "canonical_chapter": 9,
       "showcase_chapter": 6,
-      "paragraph_index": 470,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"No.\"",
-      "current": "\"Then what?\" Antonius sighed.",
-      "following": "\"You need everyone to secretly want a kingdom.\"",
-      "fingerprint": "ef9aaf5b719ed898901c"
-    },
-    {
-      "canonical_chapter": 9,
-      "showcase_chapter": 6,
-      "paragraph_index": 490,
+      "paragraph_index": 497,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Terrible recovery.\"",
@@ -689,7 +403,7 @@
     {
       "canonical_chapter": 9,
       "showcase_chapter": 6,
-      "paragraph_index": 524,
+      "paragraph_index": 531,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Still alive.\"",
@@ -700,7 +414,7 @@
     {
       "canonical_chapter": 9,
       "showcase_chapter": 6,
-      "paragraph_index": 534,
+      "paragraph_index": 541,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"There isn't one.\"",
@@ -711,18 +425,7 @@
     {
       "canonical_chapter": 9,
       "showcase_chapter": 6,
-      "paragraph_index": 538,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"Of course.\"",
-      "current": "\"Why did you lend to me?\" Rusk stopped laughing. Antonius leaned back.",
-      "following": "There. I had wanted to ask all day. Not because I wanted reassurance. Maybe a little. Because I had now seen enough to know I did not fit his normal decisions. At the time, I had been nineteen. Bronze. No stable income. No collateral worth mentioning. Pitching garbage rock based on a half-remembered future application I could barely explain. Then I had gambled with borrowed money. Objectively, Greg was a terrible borrower. Antonius looked at me for a long moment.",
-      "fingerprint": "171bed06ca7189a1b13e"
-    },
-    {
-      "canonical_chapter": 9,
-      "showcase_chapter": 6,
-      "paragraph_index": 544,
+      "paragraph_index": 552,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"That's not always good.\"",
@@ -733,18 +436,7 @@
     {
       "canonical_chapter": 9,
       "showcase_chapter": 6,
-      "paragraph_index": 562,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"It was.\" Rusk said, \"Still is.\"",
-      "current": "\"Fuck you, Rusk.\" Antonius smiled.",
-      "following": "\"You were wrong about half of it.\"",
-      "fingerprint": "89bed6c7fa9b07eded89"
-    },
-    {
-      "canonical_chapter": 9,
-      "showcase_chapter": 6,
-      "paragraph_index": 569,
+      "paragraph_index": 578,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Is this going somewhere?\"",
@@ -755,7 +447,7 @@
     {
       "canonical_chapter": 9,
       "showcase_chapter": 6,
-      "paragraph_index": 574,
+      "paragraph_index": 583,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Partly.\"",
@@ -766,7 +458,7 @@
     {
       "canonical_chapter": 9,
       "showcase_chapter": 6,
-      "paragraph_index": 581,
+      "paragraph_index": 590,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Still paying.\"",
@@ -777,51 +469,7 @@
     {
       "canonical_chapter": 9,
       "showcase_chapter": 6,
-      "paragraph_index": 585,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"No.\"",
-      "current": "\"What are you trying to make?\" Antonius looked up again.",
-      "following": "\"Money.\"",
-      "fingerprint": "cb2b318c696ba9dc41b4"
-    },
-    {
-      "canonical_chapter": 9,
-      "showcase_chapter": 6,
-      "paragraph_index": 590,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"I mean with all of this.\" I gestured around the warehouse.",
-      "current": "\"Loans. Storage. Merchants. Routes. People owing you. People you owe. What does it become?\" He frowned.",
-      "following": "\"I don't know.\"",
-      "fingerprint": "a0e03e87c022b7c97071"
-    },
-    {
-      "canonical_chapter": 9,
-      "showcase_chapter": 6,
-      "paragraph_index": 600,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "Almost. At the door I stopped.",
-      "current": "\"Antonius.\" He sighed.",
-      "following": "\"What?\"",
-      "fingerprint": "0b68574e899bfa903790"
-    },
-    {
-      "canonical_chapter": 9,
-      "showcase_chapter": 6,
-      "paragraph_index": 602,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"What?\"",
-      "current": "\"You should keep track of why you say no.\" He frowned.",
-      "following": "\"To loans.\"",
-      "fingerprint": "c484386743e85c4d4508"
-    },
-    {
-      "canonical_chapter": 9,
-      "showcase_chapter": 6,
-      "paragraph_index": 605,
+      "paragraph_index": 618,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"I know what you meant.\"",
@@ -832,7 +480,7 @@
     {
       "canonical_chapter": 9,
       "showcase_chapter": 6,
-      "paragraph_index": 606,
+      "paragraph_index": 619,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Not just who defaults. Why you refused them. Then check later.\" Rusk looked interested. Antonius did not react. I continued.",
@@ -843,18 +491,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 11,
-      "rule": "possible_multi_speaker_paragraph",
-      "confidence": "review-high",
-      "previous": "\"It's nearly noon.\" I looked toward the window. It was, in fact, nearly noon.",
-      "current": "\"That's worse.\" Arlo touched one of the wrist stones with the end of a wooden pick. \"Don't.\"",
-      "following": "\"I wasn't going to touch it.\"",
-      "fingerprint": "725bff57038651293af3"
-    },
-    {
-      "canonical_chapter": 10,
-      "showcase_chapter": 7,
-      "paragraph_index": 20,
+      "paragraph_index": 21,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "I did.",
@@ -865,7 +502,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 24,
+      "paragraph_index": 25,
       "rule": "possible_multi_speaker_paragraph",
       "confidence": "review-high",
       "previous": "\"Not until I know what still works.\"",
@@ -876,18 +513,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 31,
-      "rule": "possible_multi_speaker_paragraph",
-      "confidence": "review-high",
-      "previous": "\"Everyone is a liar.\"",
-      "current": "\"Useful. What kind?\" Antonius considered me. \"Salvager.\"",
-      "following": "\"Dungeon?\"",
-      "fingerprint": "1c82b0c39cf588a21067"
-    },
-    {
-      "canonical_chapter": 10,
-      "showcase_chapter": 7,
-      "paragraph_index": 56,
+      "paragraph_index": 58,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"How?\" I thought.",
@@ -898,18 +524,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 62,
-      "rule": "possible_multi_speaker_paragraph",
-      "confidence": "review-high",
-      "previous": "\"To nineteen?\" Antonius asked.",
-      "current": "\"Repeatedly.\" Arlo frowned. I pointed at the gauntlet. \"Can we make it do something?\"",
-      "following": "\"Eventually.\"",
-      "fingerprint": "27e086165462a3dd02e9"
-    },
-    {
-      "canonical_chapter": 10,
-      "showcase_chapter": 7,
-      "paragraph_index": 90,
+      "paragraph_index": 94,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Very observant.\"",
@@ -920,7 +535,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 95,
+      "paragraph_index": 99,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"To whether this is worth six?\"",
@@ -931,7 +546,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 97,
+      "paragraph_index": 101,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "Antonius's eyes narrowed. I continued.",
@@ -942,7 +557,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 110,
+      "paragraph_index": 114,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"The object.\"",
@@ -953,7 +568,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 129,
+      "paragraph_index": 133,
       "rule": "possible_multi_speaker_paragraph",
       "confidence": "review-high",
       "previous": "\"No.\"",
@@ -964,7 +579,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 132,
+      "paragraph_index": 136,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"What else?\"",
@@ -975,7 +590,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 188,
+      "paragraph_index": 192,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Maybe if I remove one.\"",
@@ -986,7 +601,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 190,
+      "paragraph_index": 194,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Why not?\" he asked.",
@@ -997,7 +612,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 209,
+      "paragraph_index": 213,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Depends what the sleeve did.\"",
@@ -1008,18 +623,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 226,
-      "rule": "possible_multi_speaker_paragraph",
-      "confidence": "review-high",
-      "previous": "Kelvar. Kelven. Maybe I was manufacturing familiarity because I wanted the object to matter. Important. I opened my eyes.",
-      "current": "\"Not enough information yet.\" Antonius smiled. Arlo said, \"Good.\" I frowned. \"Why good?\"",
-      "following": "\"You didn't invent an answer.\"",
-      "fingerprint": "9eda8addfd986c443200"
-    },
-    {
-      "canonical_chapter": 10,
-      "showcase_chapter": 7,
-      "paragraph_index": 230,
+      "paragraph_index": 237,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "Both men looked at me.",
@@ -1030,7 +634,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 241,
+      "paragraph_index": 248,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"If I remembered, I'd have said it.\"",
@@ -1041,7 +645,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 247,
+      "paragraph_index": 254,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Yours sounded defeated.\"",
@@ -1052,7 +656,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 249,
+      "paragraph_index": 256,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"How?\" I looked at the gauntlet. Then at Arlo.",
@@ -1063,7 +667,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 301,
+      "paragraph_index": 308,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Yes.\"",
@@ -1074,7 +678,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 325,
+      "paragraph_index": 332,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"The borrower has repaid you twice. One late payment had a verifiable external cause. He already has four gold committed, so he has something to lose. A competent artificer with an incentive to undervalue this still offered three gold and claims eight to fifteen if complete. Even if he's lying downward, the object has a market. Even if he's lying upward because he wants the borrower to sell, his three-gold offer establishes a floor unless he's willing to withdraw it.\" Antonius said, \"He might.\"",
@@ -1085,7 +689,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 333,
+      "paragraph_index": 340,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"I have the gauntlet.\"",
@@ -1096,7 +700,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 339,
+      "paragraph_index": 346,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "Not mine. I looked at Antonius.",
@@ -1107,18 +711,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 341,
-      "rule": "possible_multi_speaker_paragraph",
-      "confidence": "review-high",
-      "previous": "\"Six?\"",
-      "current": "\"Five.\" Arlo raised an eyebrow. Antonius said, \"Why five?\"",
-      "following": "\"Because he asked for six.\"",
-      "fingerprint": "5d392caea0bc28f2ec32"
-    },
-    {
-      "canonical_chapter": 10,
-      "showcase_chapter": 7,
-      "paragraph_index": 351,
+      "paragraph_index": 360,
       "rule": "possible_multi_speaker_paragraph",
       "confidence": "review-high",
       "previous": "\"Maybe.\"",
@@ -1129,40 +722,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 355,
-      "rule": "possible_multi_speaker_paragraph",
-      "confidence": "review-high",
-      "previous": "\"Not emotionally.\"",
-      "current": "\"Fuck you.\" Antonius stood and took the gauntlet. Arlo immediately said, \"Careful.\" Antonius froze.",
-      "following": "Slowly.",
-      "fingerprint": "a16e32245bf4173ca975"
-    },
-    {
-      "canonical_chapter": 10,
-      "showcase_chapter": 7,
-      "paragraph_index": 358,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"Why?\"",
-      "current": "\"Because I don't know what the wrist stones do.\" Antonius looked at the object in his hands. Then at Arlo. Then very carefully put it down. I laughed so hard I had to sit. Antonius waited. I tried to stop.",
-      "following": "Failed.",
-      "fingerprint": "f347f1ee31a310048d21"
-    },
-    {
-      "canonical_chapter": 10,
-      "showcase_chapter": 7,
-      "paragraph_index": 364,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"Five gold,\" he said. \"Expedition share first claim. Gauntlet secondary. Subject to the artificer's three-gold offer remaining open.\" I wiped my eyes.",
-      "current": "\"Good.\" Antonius pointed at me.",
-      "following": "\"You are not coming.\" I stopped laughing.",
-      "fingerprint": "7ee5ae571cd426b50fef"
-    },
-    {
-      "canonical_chapter": 10,
-      "showcase_chapter": 7,
-      "paragraph_index": 389,
+      "paragraph_index": 403,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"I don't have a workshop.\"",
@@ -1173,7 +733,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 399,
+      "paragraph_index": 413,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"When you pay.\"",
@@ -1184,7 +744,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 413,
+      "paragraph_index": 427,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "At the door I stopped. Not because of the dungeon. Mostly.",
@@ -1195,7 +755,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 417,
+      "paragraph_index": 431,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Arlo knows the object.\"",
@@ -1206,7 +766,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 438,
+      "paragraph_index": 452,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"It was on my floor.\"",
@@ -1217,7 +777,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 480,
+      "paragraph_index": 494,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"You barely have channels.\"",
@@ -1228,7 +788,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 498,
+      "paragraph_index": 512,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Useful.\"",
@@ -1239,7 +799,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 554,
+      "paragraph_index": 568,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Yes.\"",
@@ -1250,7 +810,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 560,
+      "paragraph_index": 574,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Don't make it strange.\"",
@@ -1261,7 +821,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 570,
+      "paragraph_index": 584,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Today?\"",
@@ -1272,7 +832,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 577,
+      "paragraph_index": 591,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"You said Tere.\"",
@@ -1283,7 +843,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 581,
+      "paragraph_index": 595,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"You're sure?\"",
@@ -1294,7 +854,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 586,
+      "paragraph_index": 600,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Do you know what this is?\"",
@@ -1305,7 +865,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 603,
+      "paragraph_index": 617,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "Possibly more. Arlo was breathing differently. I noticed.",
@@ -1316,7 +876,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 610,
+      "paragraph_index": 624,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Obviously.\"",
@@ -1327,7 +887,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 620,
+      "paragraph_index": 634,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Who else?\"",
@@ -1338,7 +898,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 622,
+      "paragraph_index": 636,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Keep it that way.\" I stared.",
@@ -1349,7 +909,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 628,
+      "paragraph_index": 642,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "There. I leaned forward.",
@@ -1360,7 +920,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 640,
+      "paragraph_index": 654,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"It's useful.\"",
@@ -1371,7 +931,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 656,
+      "paragraph_index": 670,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Good.\"",
@@ -1382,7 +942,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 657,
+      "paragraph_index": 671,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Mostly.\" He laughed. I put both hands on the table.",
@@ -1393,7 +953,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 667,
+      "paragraph_index": 681,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Then what?\" I looked at the box. Then at Arlo.",
@@ -1404,7 +964,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 683,
+      "paragraph_index": 697,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"For what?\"",
@@ -1415,7 +975,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 701,
+      "paragraph_index": 715,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"No.\"",
@@ -1426,7 +986,7 @@
     {
       "canonical_chapter": 10,
       "showcase_chapter": 7,
-      "paragraph_index": 708,
+      "paragraph_index": 722,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "There.",
@@ -1437,29 +997,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 27,
-      "rule": "possible_multi_speaker_paragraph",
-      "confidence": "review-high",
-      "previous": "\"Who?\"",
-      "current": "\"Usually me.\" Hessa stared. I wiped sweat from my forehead. \"How bad?\"",
-      "following": "\"The Barrier?\"",
-      "fingerprint": "9797e02f27f8f19d52d2"
-    },
-    {
-      "canonical_chapter": 11,
-      "showcase_chapter": 8,
-      "paragraph_index": 45,
-      "rule": "possible_multi_speaker_paragraph",
-      "confidence": "review-high",
-      "previous": "\"Against what?\"",
-      "current": "\"Momentum.\" She laughed. I disliked how often people laughed when I used that word. Hessa sat opposite me. \"Tell me what you did.\"",
-      "following": "\"Cast Barrier.\"",
-      "fingerprint": "665a70d5e51e11f0a4b5"
-    },
-    {
-      "canonical_chapter": 11,
-      "showcase_chapter": 8,
-      "paragraph_index": 79,
+      "paragraph_index": 83,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Bigger.\"",
@@ -1470,18 +1008,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 85,
-      "rule": "possible_multi_speaker_paragraph",
-      "confidence": "review-high",
-      "previous": "\"That is the purpose.\"",
-      "current": "\"That's one purpose.\" Hessa stared at me for several seconds. Then she stood. \"Go home.\"",
-      "following": "\"You're ending early.\"",
-      "fingerprint": "247c573977bd0fc6cb35"
-    },
-    {
-      "canonical_chapter": 11,
-      "showcase_chapter": 8,
-      "paragraph_index": 102,
+      "paragraph_index": 107,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"You look constipated.\"",
@@ -1492,7 +1019,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 105,
+      "paragraph_index": 110,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "PICK UP.",
@@ -1503,7 +1030,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 112,
+      "paragraph_index": 117,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Antonius is busy.\"",
@@ -1514,7 +1041,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 113,
+      "paragraph_index": 118,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Difference?\" Rusk turned toward the stairs.",
@@ -1525,7 +1052,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 114,
+      "paragraph_index": 119,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Wait.\" He stopped. I held up one finger.",
@@ -1536,7 +1063,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 131,
+      "paragraph_index": 136,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"No.\"",
@@ -1547,7 +1074,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 159,
+      "paragraph_index": 164,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Did you do magic with the boxes?\" I stopped.",
@@ -1558,18 +1085,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 173,
-      "rule": "possible_multi_speaker_paragraph",
-      "confidence": "review-high",
-      "previous": "\"How much?\"",
-      "current": "\"Oil.\" Antonius looked at Rusk. Rusk said, \"Magic.\" Antonius looked back at me.",
-      "following": "\"You did magic?\"",
-      "fingerprint": "f135a5e7509ecd72eb45"
-    },
-    {
-      "canonical_chapter": 11,
-      "showcase_chapter": 8,
-      "paragraph_index": 181,
+      "paragraph_index": 188,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Then why are you smiling?\"",
@@ -1580,7 +1096,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 185,
+      "paragraph_index": 192,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "Antonius handed me another paper.",
@@ -1591,7 +1107,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 191,
+      "paragraph_index": 198,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"The gauntlet appraisal.\"",
@@ -1602,18 +1118,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 217,
-      "rule": "possible_multi_speaker_paragraph",
-      "confidence": "review-high",
-      "previous": "Lie. Maybe. Not enough information. I took the six silver.",
-      "current": "\"Thank you.\" Antonius blinked. Rusk looked over. I frowned. \"What?\"",
-      "following": "\"Nothing,\" Antonius said.",
-      "fingerprint": "2abf74bc441396b6aeb1"
-    },
-    {
-      "canonical_chapter": 11,
-      "showcase_chapter": 8,
-      "paragraph_index": 221,
+      "paragraph_index": 230,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"You said thank you.\"",
@@ -1624,7 +1129,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 258,
+      "paragraph_index": 267,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"I was trying to get you out.\"",
@@ -1635,7 +1140,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 268,
+      "paragraph_index": 277,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"What work?\"",
@@ -1646,7 +1151,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 274,
+      "paragraph_index": 283,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Does Antonius know that?\"",
@@ -1657,18 +1162,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 288,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "Reasonable.",
-      "current": "\"Fine.\" He took three silver. Pushed three back. I looked at them.",
-      "following": "\"Keep it.\"",
-      "fingerprint": "2189d97b159c24ed2d05"
-    },
-    {
-      "canonical_chapter": 11,
-      "showcase_chapter": 8,
-      "paragraph_index": 323,
+      "paragraph_index": 333,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Leave.\"",
@@ -1679,7 +1173,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 345,
+      "paragraph_index": 355,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"No.\"",
@@ -1690,7 +1184,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 357,
+      "paragraph_index": 367,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Good.\"",
@@ -1701,7 +1195,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 421,
+      "paragraph_index": 431,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Enough.\"",
@@ -1712,18 +1206,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 429,
-      "rule": "possible_multi_speaker_paragraph",
-      "confidence": "review-high",
-      "previous": "\"A week.\"",
-      "current": "\"Excellent.\" Arlo frowned. \"Why excellent?\"",
-      "following": "\"Because now you have a problem.\"",
-      "fingerprint": "d9bc953ea31319929355"
-    },
-    {
-      "canonical_chapter": 11,
-      "showcase_chapter": 8,
-      "paragraph_index": 432,
+      "paragraph_index": 443,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"I had problems before you.\"",
@@ -1734,7 +1217,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 443,
+      "paragraph_index": 454,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"The firing temperatures...\"",
@@ -1745,7 +1228,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 451,
+      "paragraph_index": 462,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"The gauge itself could be incomplete.\"",
@@ -1756,7 +1239,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 453,
+      "paragraph_index": 464,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"You're annoying,\" he said.",
@@ -1767,7 +1250,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 468,
+      "paragraph_index": 479,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Leave.\"",
@@ -1778,7 +1261,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 525,
+      "paragraph_index": 536,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"They are rent.\"",
@@ -1789,7 +1272,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 545,
+      "paragraph_index": 556,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"You've been practicing.\"",
@@ -1800,7 +1283,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 548,
+      "paragraph_index": 559,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"That's concerning.\"",
@@ -1811,18 +1294,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 551,
-      "rule": "possible_multi_speaker_paragraph",
-      "confidence": "review-high",
-      "previous": "\"Change what?\"",
-      "current": "\"Direction. Contact. Timing. Maybe pressure later. If I make it small enough and place it correctly, I don't need enough mana to overpower the whole force.\" Antonius considered. Unlike Hessa, he did not care about magical orthodoxy. Unlike Arlo, he did not care how the mechanism worked. He asked, \"Useful?\"",
-      "following": "\"Eventually.\"",
-      "fingerprint": "942b54b9da741cff4539"
-    },
-    {
-      "canonical_chapter": 11,
-      "showcase_chapter": 8,
-      "paragraph_index": 555,
+      "paragraph_index": 567,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "I paused. Good question. Weeks? Months? Combat application required speed I did not have. Reliable placement. Casting under stress. Mana reserve. Body coordination. A lot.",
@@ -1833,29 +1305,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 557,
-      "rule": "possible_multi_speaker_paragraph",
-      "confidence": "review-high",
-      "previous": "\"Growth.\"",
-      "current": "\"Fuck you.\" He opened his ledger. I should have left. Instead I said, \"Do you have anything magical that needs moving?\" His pen stopped. Slowly.",
-      "following": "\"No.\"",
-      "fingerprint": "864af03159ed28bfe5c2"
-    },
-    {
-      "canonical_chapter": 11,
-      "showcase_chapter": 8,
-      "paragraph_index": 571,
-      "rule": "possible_multi_speaker_paragraph",
-      "confidence": "review-high",
-      "previous": "\"Is it?\" I considered the glass crate.",
-      "current": "\"Somewhat.\" Antonius returned to his ledger. Then said, \"The salvager came back.\" Everything in me changed. I hated that he noticed.",
-      "following": "\"The gauntlet?\"",
-      "fingerprint": "9964b9c0c8497e116fa2"
-    },
-    {
-      "canonical_chapter": 11,
-      "showcase_chapter": 8,
-      "paragraph_index": 589,
+      "paragraph_index": 606,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"You're the expert.\"",
@@ -1866,7 +1316,7 @@
     {
       "canonical_chapter": 11,
       "showcase_chapter": 8,
-      "paragraph_index": 616,
+      "paragraph_index": 633,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"No.\" I looked at the material again. Then at him.",
@@ -1877,18 +1327,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 49,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"Yes.\"",
-      "current": "\"Good.\" He set the frame on a shelf. I looked at the six regulators.",
-      "following": "\"What changed?\"",
-      "fingerprint": "c626599c4f4ed7369b53"
-    },
-    {
-      "canonical_chapter": 13,
-      "showcase_chapter": 9,
-      "paragraph_index": 71,
+      "paragraph_index": 72,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Good story.\"",
@@ -1899,7 +1338,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 79,
+      "paragraph_index": 80,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"They didn't have information. That's the point.\"",
@@ -1910,7 +1349,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 100,
+      "paragraph_index": 101,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"No, you're not.\"",
@@ -1921,51 +1360,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 124,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"Changed nothing except winding tension.\"",
-      "current": "\"How did you control it?\" He pointed at another object. A stick. A spool. A hanging weight. I stared. Arlo became defensive.",
-      "following": "\"It's temporary.\"",
-      "fingerprint": "6703b2dfd5bab5868661"
-    },
-    {
-      "canonical_chapter": 13,
-      "showcase_chapter": 9,
-      "paragraph_index": 148,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"I know.\" I looked at the six regulators.",
-      "current": "\"Which variable next?\" Arlo smiled. Not because he needed my answer. Because he already had one.",
-      "following": "\"Firing.\"",
-      "fingerprint": "b9ad92818657c7539cef"
-    },
-    {
-      "canonical_chapter": 13,
-      "showcase_chapter": 9,
-      "paragraph_index": 209,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "\"What?\"",
-      "current": "\"I should not put precision equipment loose beside coins.\" Arlo stared.",
-      "following": "\"Growth.\"",
-      "fingerprint": "6f3241b294472865b75e"
-    },
-    {
-      "canonical_chapter": 13,
-      "showcase_chapter": 9,
-      "paragraph_index": 228,
-      "rule": "untagged_dialogue_followed_by_action",
-      "confidence": "review",
-      "previous": "Unfortunately, that was becoming difficult to dispute. Hessa had three cups on the floor when I arrived. Not drinking cups. Practice cups. Wooden. Cheap. One upside down. One on its side. One upright. I stopped in the doorway.",
-      "current": "\"No.\" Hessa looked up.",
-      "following": "\"No what?\"",
-      "fingerprint": "543a8709999ab8e14921"
-    },
-    {
-      "canonical_chapter": 13,
-      "showcase_chapter": 9,
-      "paragraph_index": 236,
+      "paragraph_index": 241,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"You've known me for weeks.\"",
@@ -1976,7 +1371,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 244,
+      "paragraph_index": 249,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Who?\"",
@@ -1987,7 +1382,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 264,
+      "paragraph_index": 269,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Potentially.\"",
@@ -1998,7 +1393,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 301,
+      "paragraph_index": 306,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"There were never marks.\"",
@@ -2009,7 +1404,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 346,
+      "paragraph_index": 351,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"I don't know.\"",
@@ -2020,7 +1415,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 350,
+      "paragraph_index": 355,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "Third. The Barrier formed. A heartbeat. Gone. The cup stayed still. My wrist warmed. Not pain. Warmth. Hessa reached for it.",
@@ -2031,7 +1426,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 365,
+      "paragraph_index": 370,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Greg.\"",
@@ -2042,7 +1437,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 386,
+      "paragraph_index": 391,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Problems?\"",
@@ -2053,7 +1448,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 426,
+      "paragraph_index": 431,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "The question surprised me. Not because the answer was difficult. Because she asked it without fear. Professional. Direct. I thought about it.",
@@ -2064,7 +1459,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 432,
+      "paragraph_index": 437,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"To yourself?\"",
@@ -2075,7 +1470,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 467,
+      "paragraph_index": 472,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"That's not a number.\"",
@@ -2086,7 +1481,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 469,
+      "paragraph_index": 474,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Fuck you.\"",
@@ -2097,7 +1492,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 481,
+      "paragraph_index": 486,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Yes.\"",
@@ -2108,7 +1503,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 486,
+      "paragraph_index": 491,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Carrow is not the size of a kingdom.\"",
@@ -2119,7 +1514,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 497,
+      "paragraph_index": 502,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"What happened?\" I thought of the Chronoclast. Cold metal. Wrongness. Then this room. Not this room. My old room. Young body. No back pain.",
@@ -2130,7 +1525,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 508,
+      "paragraph_index": 513,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"When?\"",
@@ -2141,7 +1536,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 526,
+      "paragraph_index": 531,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "I could have given her a polished answer. Because she had protected my channels. Because she constrained me. Because she had demonstrated judgment. Because she did not flatter me. All true. Not the whole thing.",
@@ -2152,7 +1547,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 581,
+      "paragraph_index": 586,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Same.\"",
@@ -2163,7 +1558,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 600,
+      "paragraph_index": 605,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"It is today.\" I leaned back against the wall.",
@@ -2174,7 +1569,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 604,
+      "paragraph_index": 609,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"No. A fifty-eight-year-old man knows Barrier.\" I opened my mouth. Closed it.",
@@ -2185,7 +1580,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 655,
+      "paragraph_index": 660,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"What lists?\"",
@@ -2196,7 +1591,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 659,
+      "paragraph_index": 664,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"You're an idiot.\"",
@@ -2207,7 +1602,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 675,
+      "paragraph_index": 680,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"Why?\"",
@@ -2218,7 +1613,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 677,
+      "paragraph_index": 682,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"That sentence is why I regret asking.\"",
@@ -2229,7 +1624,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 741,
+      "paragraph_index": 746,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"I've had an educational morning.\"",
@@ -2240,7 +1635,7 @@
     {
       "canonical_chapter": 13,
       "showcase_chapter": 9,
-      "paragraph_index": 743,
+      "paragraph_index": 748,
       "rule": "untagged_dialogue_followed_by_action",
       "confidence": "review",
       "previous": "\"What did you learn?\" I looked at the sword. At my hand. At the young wrist beneath it. Then I smiled.",
