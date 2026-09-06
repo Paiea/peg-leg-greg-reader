@@ -98,6 +98,8 @@
     "330": {"showcase": false, "reason": "bridge_not_needed"},
     "337": {"showcase": false, "reason": "bridge_not_needed"},
     "339": {"showcase": false, "reason": "redundant_progression"},
-    "344": {"showcase": false, "reason": "bridge_not_needed"}
+    "344": {"showcase": false, "reason": "bridge_not_needed"},
+    "351": {"showcase": false, "reason": "low_consequence_mundane"},
+    "358": {"showcase": false, "reason": "bridge_not_needed"}
   }
 }
