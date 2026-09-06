@@ -2,7 +2,7 @@
 
 Authority snapshot: `68eefac318f86b799973e9bcffb21d9c2690255f`
 
-Status: audit only. No manuscript title changes are applied by this file.
+Status: **frozen audit complete through Chapter 488**. Audit only. No manuscript title changes are applied by this file or the batch ledgers.
 
 ## Rule
 
@@ -18,17 +18,36 @@ This pass is deliberately narrow. It does **not** rename a title merely because 
 
 Human-facing title style should use standard title case, such as `The Boy`, `The Surveyor`, and `The Investor`.
 
+## Frozen audit totals
+
+| Span | KEEP | RENAME | RETIRED ADDRESS |
+| --- | ---: | ---: | ---: |
+| 1-80 | 76 | 4 | 0 |
+| 81-120 | 35 | 5 | 0 |
+| 121-160 | 17 | 22 | 1 |
+| 161-200 | 38 | 2 | 0 |
+| 201-240 | 34 | 6 | 0 |
+| 241-280 | 33 | 7 | 0 |
+| 281-320 | 2 | 38 | 0 |
+| 321-360 | 7 | 33 | 0 |
+| 361-400 | 40 | 0 | 0 |
+| 401-440 | 39 | 1 | 0 |
+| 441-488 | 48 | 0 | 0 |
+| **TOTAL** | **369** | **118** | **1** |
+
+The drift is not uniform. It concentrates heavily in Chapters **121-160** and especially **281-360**. Chapters **361-440** are almost entirely role-clean, and frozen Book V **441-488 is 48/48 KEEP**.
+
 ## Batch 001 - Chapters 1-40
 
 | Ch | Current title | Decision | Proposed title | Confidence | Audit note |
 | ---: | --- | --- | --- | --- | --- |
 | 1 | The Boy | KEEP |  | high | Identity/role. |
-| 2 | The Patient | KEEP |  | high | Literal patient role. |
+| 2 | The Borrower | KEEP |  | high | Exact frozen authority: Greg deliberately borrows silver from Antonius and accepts the eight-day debt terms. |
 | 3 | The Investor | KEEP |  | high | Greg is actually investing/speculating with his own limited capital. Later reuse does not invalidate it. |
 | 4 | The Expert | KEEP |  | high | Embodied expertise role. |
 | 5 | The Warrior | KEEP |  | high | Explicit warrior identity. Strong role-card anchor. |
 | 6 | The Laborer | KEEP |  | high | Literal labor role. |
-| 7 | The Owner | RENAME | The Claimant | medium | `Owner` is mainly Antonius's role in the chapter. Greg is closer to asserting/establishing a claim to something of value. Recheck before application. |
+| 7 | The Owner | RENAME | The Buyer | high | Exact frozen prose confirms Antonius is the current owner of the Tere gauge while Greg negotiates a five-silver seller-financed purchase. Greg's clean role is buyer, not owner. |
 | 8 | The Collector | KEEP |  | high | Literal collection role. |
 | 9 | The Lender | RENAME | The Underwriter | high | Antonius lends the money. Greg evaluates borrower purpose, risk, structure, and viability. |
 | 10 | The Appraiser | KEEP |  | high | Literal appraisal role. |
@@ -92,7 +111,7 @@ Human-facing title style should use standard title case, such as `The Boy`, `The
 | 63 | The Backstop | KEEP |  | high | Same real job-role during the mill-frame transfer. Duplication is allowed. |
 | 64 | The Patient | KEEP |  | high | Literal trauma patient role. |
 | 65 | The Ward | KEEP |  | high | Greg is literally a ward/patient under institutional care and dependent on the infirmary. |
-| 66 | The Absent | RENAME | The Convalescent | medium-high | `Absent` names a condition relative to the work/city, not a person-role. Greg is actively convalescing and relearning standing while normal work continues without him. |
+| 66 | The Absent | RENAME | The Convalescent | medium-high | `Absent` names a condition relative to work/city rather than a person-role. Greg is actively convalescing and relearning standing while ordinary work continues without him. |
 | 67 | The Claimant | KEEP |  | high | Greg is materially asserting what he can return to, where he can live, and what responsibility belongs to him after the accident. |
 | 68 | The Novice | KEEP |  | high | He is explicitly a beginner again with crutches and one-legged mobility. |
 | 69 | The Lodger | KEEP |  | high | Literal temporary lodging role in the downstairs room. |
@@ -110,21 +129,10 @@ Human-facing title style should use standard title case, such as `The Boy`, `The
 
 ## Confirmed rename candidates through Chapter 80
 
-### Chapter 7 - The Owner -> The Claimant
-
-The title names a real role, but that role is primarily Antonius's in the chapter. Greg's active posture is closer to establishing a claim to usable/recoverable value. This remains provisional because Chapter 67 already uses `The Claimant`, but duplication itself is not disqualifying.
-
-### Chapter 9 - The Lender -> The Underwriter
-
-Antonius is the lender. Greg's actual role is evaluating borrower purpose, risk, and whether the loan structure makes sense.
-
-### Chapter 51 - The Signal -> The Signalman
-
-`The Signal` is not a person-role. Greg's actual job is to serve as the human signal interface between the repair crew and traffic, holding stop/clear markers and translating changing road conditions into movement control.
-
-### Chapter 66 - The Absent -> The Convalescent
-
-`The Absent` names Greg's absence from work and ordinary city participation rather than a role he inhabits. The chapter itself is active recovery: standing practice, absence from jobs, reading the accident report, and learning what his body can do now. `The Convalescent` is a clean embodied identity.
+- 7: `The Owner` -> `The Buyer`
+- 9: `The Lender` -> `The Underwriter`
+- 51: `The Signal` -> `The Signalman`
+- 66: `The Absent` -> `The Convalescent`
 
 ## Priority role-card anchor checks
 
@@ -134,6 +142,32 @@ Antonius is the lender. Greg's actual role is evaluating borrower purpose, risk,
 - **Ch331 - The Marker Field:** RENAME -> **The Surveyor**, high. The current title names the field/problem. Exact prose has Greg doing literal boundary-survey work, and the established role-card art already depicts this identity.
 - **Ch446 - The Investor:** KEEP, high.
 
+## Confidence cleanup
+
+The low/medium rename cases were exact-read before closing the frozen audit:
+
+- Ch7 sharpened from provisional `The Claimant` to **The Buyer**, high.
+- Ch150 is **not a rename candidate**. It is a structural-edit legacy address whose surviving story material is already merged into 149/151.
+- Ch157 `The Table` -> **The Player**, high after exact performance read.
+- Ch356 `The Blue Hour` -> **The Companion**, high after exact fog/relationship read.
+
+No low or plain-medium rename proposal remains unresolved. Several **medium-high** proposals remain intentionally flagged in their batch files for one final wording check immediately before application: 126, 143, 145, 335, 336, 337, 341, 351, 352, 354, 355, 359, and 360.
+
+## Batch ledgers
+
+Detailed chapter-by-chapter decisions live under `state/chapter-title-role-audit/`:
+
+- `BATCH_081_120.md`
+- `BATCH_121_160.md`
+- `BATCH_161_200.md`
+- `BATCH_201_240.md`
+- `BATCH_241_280.md`
+- `BATCH_281_320.md`
+- `BATCH_321_360.md`
+- `BATCH_361_400.md`
+- `BATCH_401_440.md`
+- `BATCH_441_488.md`
+
 ## Application constraints for later
 
 1. Do not change manuscript titles during this audit phase.
@@ -141,5 +175,7 @@ Antonius is the lender. Greg's actual role is evaluating borrower purpose, risk,
 3. Keep broad or generic titles if they still clearly name a Greg-role.
 4. Rename only non-role titles or titles whose role materially belongs to someone else.
 5. Do not invent fake occupational nouns merely to satisfy the pattern.
-6. When renames are approved, update manuscript authority first, then regenerate reader, manifests, NotebookLM exports, metadata, and role-card labels from authority.
-7. Chapter 331 should become `The Surveyor` when the rename phase is approved.
+6. Treat Chapter 150 as structural cleanup, not as a normal rename.
+7. Re-read the 13 medium-high wording candidates immediately before application.
+8. When renames are approved, update manuscript authority first, then regenerate reader, manifests, NotebookLM exports, metadata, and role-card labels from authority.
+9. Chapter 331 should become `The Surveyor` when the rename phase is approved.
