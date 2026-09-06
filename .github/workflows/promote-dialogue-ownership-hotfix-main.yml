@@ -40,8 +40,8 @@ jobs:
             chapters/007.html chapters/009.html chapters/010.html chapters/011.html chapters/013.html
       - name: Verify promoted reader files
         run: |
-          git diff --check
-          bad="$(git diff --name-only | grep -Ev '^chapters/(002|003|004|005|007|009|010|011|013)\.html$' || true)"
+          git diff --cached --check
+          bad="$(git diff --cached --name-only | grep -Ev '^chapters/(002|003|004|005|007|009|010|011|013)\.html$' || true)"
           if [ -n "$bad" ]; then
             echo 'Unexpected changed files:'
             echo "$bad"
@@ -67,13 +67,12 @@ jobs:
           PY
       - name: Commit and push live reader hotfix
         run: |
-          if git diff --quiet -- chapters; then
+          if git diff --cached --quiet -- chapters; then
             echo 'Main already contains the hotfix.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add chapters/002.html chapters/003.html chapters/004.html chapters/005.html chapters/007.html chapters/009.html chapters/010.html chapters/011.html chapters/013.html
           git commit -m 'reader: hotfix dialogue ownership through chapter 14'
           git pull --rebase origin main
           git push origin HEAD:main
