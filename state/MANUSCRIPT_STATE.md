@@ -1,126 +1,106 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 459 - **THE CONTRACTOR**.
-- Exact Chapters 249-459 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays.
-- Chapter 432 naming correction remains active: north-slope road forewoman is **Rika Dorn**, not Nessa Vale.
+- Current exact story endpoint: Chapter 460 - **THE TRAILBLAZER**.
+- Exact Chapters 249-460 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
 
-## Current location / arc
-- Greg has moved **Lakeward East -> Morrow Orchard** and has now formally accepted the first substantial quest-shaped field contract of the away arc.
-- Objective: follow the old place-memory route **Morrow -> White Reed -> Sleeping Stone -> Three Sisters Hollow -> Mirror Spring**, return useful route/water observations, and if safely possible return a properly sealed district supplemental spring sample.
-- The road is no longer merely transportation. Beginning Ch460, the route itself becomes the adventure problem.
-- Greg remains solo beyond a short first segment: Perrin Sol will guide only from Morrow to White Reed, then return to graft-house obligations.
+## Active correction overlays
+These corrections outrank older exact checkpoint spellings and must be applied during manuscript integration and all future references.
 
-## Chapter 459 - THE CONTRACTOR
+### Existing protected correction
+- Chapter 432 north-slope road forewoman: **Rika Dorn**, not Nessa Vale.
 
-### Title / role
-- Greg is **THE CONTRACTOR**: he turns a potential quest into a bounded paid field job with explicit scope, evidence limits, turnaround conditions, supplies, and failure terms.
-- He is not hero/chosen one/district authority.
+### Lakeward / Morrow naming cleanup
+A name audit against `state/BOOK1_NAME_REGISTRY_CH82.md` found that recent road chapters drifted back into protected/repeated clusters. Do not extend those collisions.
+- Ch458 onward **Perrin Sol -> Jonah Sol**. `Perrin` is already a protected Book 1 name.
+- Ch458 onward **Teren Sol -> Garrick Sol**.
+- Ch459 onward **Sera Sol -> Helena Sol**. Avoid extending the Sera cluster around Sera Dain.
+- Ch459 onward sisters **Lio / Mina -> Ada / June**. `Lio` is already protected; `Mina` is too visually/aurally close to Mira for this new family.
+- Ch458 Lakeward water clerk **Aven Rusk -> Celia Brohm**. Rusk is an established recurring family/name and should not be casually reused.
+- Ch458 Glass Heron pilot **Rian Kett -> Elias Mercer**. Avoid reusing Kett from Kett Arlo.
+- Ch459 crate-pad supervisor **Hala Renn -> Sabine Orlow**.
+- Ch459 Morrow cart driver **Nemi Cross -> Danton Pike**. `Nemi` is already protected through Nemi Caul.
+- Ch456 Signal House keeper **Mara Fen -> Judith Fen**. Mara is already protected through Mara Venn.
+- Ch453 Bell Store supervisor **Pell Ardin -> Walter Ardin**. `Pell` was specifically retired as a Book 1 collision.
+- Ch453 dust-moth courier **Toma Senn -> Owen Senn** to reduce the Tam/Tavin/Toma sound cluster.
 
-## Lakeward cash restoration
-- Greg begins **10c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 138**, exactly at his self-imposed floor.
-- He completes a brief **Glass Return Crate Pad / 2c / one ring** job before considering unknown-route travel.
-- Work is bounded crate padding/obvious split tagging, not repair.
-- Earns **+2c: 10c -> 12c**.
-- Trial limb stays wrapped; Greg saves skin/body margin for potential field travel.
+### Ch460 prose cleanup overlay
+- In the Ch460 exact checkpoint, omit the brief internal/meta naming-cleanup passage beginning `That name was new.` and ending `same small sack of syllables.` It is editorial scaffolding, not story-world prose. The surrounding scene reads directly from Jonah placing the flasks to his spoken line `Mine. You give it back at White Reed.`
 
-## Perrin / Morrow travel
-- Greg meets Perrin at east cart stand and insists on hearing terms directly from Teren rather than relying on Perrin's summary.
-- Perrin admits his grandfather's version of the old story differs: Teren says Iria `found where water went`, not necessarily that she cleared the spring.
-- Perrin's constraints remain real: mother/two younger sisters, stressed orchard rows, graft-house apprenticeship; several days away could cost placement.
-- Morrow cart costs 2c. Teren has not yet personally guaranteed it when Greg boards, so Greg pays his own fare **12c -> 10c**, treating it as deliberate information cost.
-- After hiring, Teren reimburses the 2c, restoring **10c -> 12c**.
+## Naming guardrail going forward
+Before introducing any named character, especially temporary road/quest NPCs:
+1. Check `BOOK1_NAME_REGISTRY_CH82.md` and current state for exact reuse.
+2. Check first syllable, ending, TTS similarity, surname reuse, and nearby social context.
+3. Prefer a wider natural naming palette over repeated short fantasy forms such as Nessa/Nara/Nemi/Perrin/Teren/Renn/Rusk.
+4. Established family surnames are not generic surname stock.
+5. Temporary NPCs do not all need names. If a person will not recur or matter, role description can be cleaner.
+6. Prefer names that are easy to distinguish aloud. The manuscript is often consumed through read-aloud.
+7. Do not perform naming commentary inside Greg's narration. Naming cleanup is editorial/state work only.
 
-## Morrow Orchard
-- Morrow is a cluster of family orchard holdings around shared lower channels, packing shed, graft house, and drying yard, not one private farm.
-- Roadside channel flow visibly thins approaching Morrow, but Greg does not infer cause from appearance.
-- Lower cooperative gauge board shows one-day local readings **6.2 -> 5.8 -> 5.5** across the day; Greg records only that this gauge declined today, not a broader causal trend.
-- Lower Row Four shows stress/smaller fruit according to Perrin, but Perrin also names other plausible contributors including heat, root issues, and dense fruit set after prior hail loss.
+## Current location / quest
+- Greg has accepted the Morrow lower-channel cooperative field contract and has begun the old route toward **Mirror Spring**.
+- Objective remains: route/water observations plus, if safely possible, a valid sealed district supplemental spring sample.
+- Quest route: **Morrow -> White Reed -> Sleeping Stone -> Three Sisters Hollow -> Mirror Spring**.
+- Ch460 ends **above White Reed on the old path, beyond the first rise**, moving toward the split oak / Sleeping Stone.
+- Greg is now alone. Jonah Sol guided only Morrow -> White Reed and correctly returned to his graft-house obligations.
 
-## Teren Sol
-- Teren is older, physically capable in upper body but has a bad wrapped knee and cannot currently take Three Sisters safely.
-- He initially reacts skeptically to Greg's crutches/missing foot and asks whether Greg can walk Three Sisters. Greg answers honestly: `Don't know.`
-- Teren confirms reported pay but initially prices supplies from his nine-year-old memory of a two-day route despite a six-year-old landslide.
-- Greg forces current planning rather than accepting nostalgic estimate; Teren expands food to three days and gives explicit unsafe terrain information.
-- Known route constraints from Teren:
-  - White Reed ford usually shallow but can rise after rain;
-  - Sleeping Stone has an overhang/shelter;
-  - Three Sisters lower bench may be damaged/cut by landslide;
-  - do **not** climb the loose north-face upper track if lower bench is cut;
-  - no permanent people beyond White Reed keeper; Mirror Spring catch house abandoned.
-- Teren's agenda is mixed: he urgently wants source information, but also wants the old path remembered as evidence that water existed before modern measuring-box bureaucracy.
-- Greg explicitly separates those jobs: evidence vs vindication.
+## Chapter 460 - THE TRAILBLAZER
 
-## Perrin/Teren human conflict
-- Perrin directly challenges Teren for treating `walk the old path` as both water investigation and argument about cultural memory.
-- Perrin says his mother needs to know whether water is present/what changed, not whether the old path deserves recognition.
-- Teren responds that memory is not decoration and that Perrin/mother learned the channels through older embodied route knowledge.
-- Neither is made fully wrong.
-- This is a durable human-conflict lane for the quest: old route/story has practical/social value, but urgent orchard loss can make heritage arguments feel like obstruction.
+### Departure / sample chain
+- District runner delivers padded sample bottle and form first ring.
+- Morrow cooperative already posted the 1c bottle deposit.
+- Greg reads/signs handling rules: record collector/route/fill point/conditions/seal; do not contaminate bottle; do not alter source to obtain sample.
+- Cash unchanged **12c / 23c Vale / bits unspecified**.
+- Protocol unchanged **59 minimal / 53 shaping / 138 external**.
 
-## Contract terms
-Written private cooperative field contract:
-- route: **Morrow -> White Reed -> Sleeping Stone -> Three Sisters -> Mirror Spring where safely passable**;
-- return route-condition notes + water observations;
-- **12c** if valid district supplemental source sample returned with completed seal form;
-- **8c** if source reached and useful route notes returned but valid sample cannot be completed;
-- **4c** if Three Sisters is reached and continuation is unsafe under agreed conditions, with useful route notes;
-- Lakeward->Morrow 2c fare reimbursed upon hire;
-- three days food + blanket roll supplied;
-- district bottle deposit supplied by employer;
-- no authority to alter gates, clear source, move markers, enter closed private channels, or represent district;
-- earlier return for injury/weather/route loss/equipment failure is allowed but has no guaranteed field pay below Three Sisters beyond reimbursed fare/supplies used in good faith.
-- Teren does **not** advance wages.
+### Morrow -> White Reed
+- Greg uses crutches, keeps trial limb wrapped to save skin/body margin for unknown terrain.
+- Jonah Sol guides only the maintained orchard/farm-track segment.
+- Water visibly increases uphill but Greg refuses to infer cause.
+- Shared split-gate chalk readings are copied without accusation or causal interpretation.
+- Maintained orchard infrastructure thins into older walls, feral/abandoned fruit trees, and finally White Reed basin.
 
-## Route / place-memory navigation
-- Teren's hand copy and Lakeward archive sequence agree on named places but differ/omit exact current distances.
-- Practical landmarks:
-  - **White Reed**: pale reed bed at channel fork;
-  - **Sleeping Stone**: long dark slab over path, shaped like a back under blanket;
-  - **Three Sisters**: three narrow stone spires visible from lower hollow;
-  - **Mirror Spring**: black-stone catch wall below white cliff seam.
-- Story/place names function as inherited navigation and water memory without being treated as automatically literal magic.
-- Teren shows Greg a small black pebble his father said came from Mirror Spring. Teren does **not** give it to Greg. It is family memory object, not quest token/relic.
-- Teren says the route is how families remembered `water didn't start at our gate.`
+## White Reed
+- Keeper is **Mabel Crowe**, a blunt older local with long memory of the route and water behavior.
+- White Reed is a pale/silver reed basin at a channel fork with keeper house and a maintained footbridge downstream of the historical ford.
+- Historical ford is mid-shin on Jonah and has rounded green-film stone, poor crutch footing.
+- Greg deliberately uses the maintained bridge rather than reenacting the old story route literally.
+- This establishes a key quest rule: **the place-memory matters; historical footsteps are not commandments.**
+- Mabel tracks three informal mud-water holes each morning. Current substrate remains wetter than the visible low channel suggests, but lower than last week.
+- Mabel explains local story-language that `water hides here` as practical shorthand for old gravel/subsurface sideways movement, not proof of magic.
+- White Reed receives water through multiple possible paths: side seeps, rain shelf, fog drip, old channels, and some Mirror-source contribution. Strong source condition would not automatically prove strong Morrow delivery.
+- Greg records bounded observations only.
 
-## Sera Sol / family stakes
-- Perrin's mother **Sera Sol** wants water but does not want Greg hurt because Teren treats old stories as maps.
-- She explicitly tells Greg to turn around if Three Sisters is unsafe and notes Perrin would blame himself if Greg were injured after bringing him.
-- Sera asks what a strong spring would prove. Greg carefully limits it to source condition at observation point, not automatic proof of upper-gate wrongdoing.
-- Sera's line: `Gods, my father hired a sentence.`
-- She feeds Greg dinner as ordinary hospitality, not equipment/wage windfall.
-- Perrin's younger sisters **Lio** and **Mina** meet Greg and ask about crutches/Peg-Leg nickname.
+## Jonah's choice
+- Jonah considers continuing toward Sleeping Stone because he remembers part of the route.
+- Greg does not order him home; he correctly acknowledges it is Jonah's decision while making clear the contract does not require him and Greg is not asking.
+- Jonah weighs family, graft-house placement, grandfather approval, and route memory, then chooses to return.
+- No permanent party forms.
+- Jonah lends Greg a water flask because Mabel can refill Jonah's for return; ordinary practical loan only.
+- Jonah's nine-year-old memory and Mabel's more recent but incomplete route knowledge are recorded separately rather than blended.
 
-## Preparation
-- Employer supplies modest three-day food, blanket roll, route copy, and district sample-bottle deposit.
-- District bottle itself arrives Morrow first ring next morning with runner; Greg has not yet received it at chapter end.
-- Current weather board: ridge fog morning, dry day, east wind late, no rain watch; Three Sisters conditions remain unknown.
-- Perrin can guide **only Morrow -> White Reed** next morning, then must return for graft-house work; Teren agrees to cover Perrin's missed half if needed.
-- Greg refuses to pretend Perrin remembers beyond White Reed well enough to guide farther.
-- Trial limb remains carried/wrapped. Plan: crutches primary on unknown old path; possible trial-limb use only on clearly dry stable stretches. No Ch459 wear.
-- No new/free expensive gear.
+## Old path / first adventure obstacle
+- Beyond White Reed the route becomes narrow dirt/root trail beside a partly buried old stone water channel.
+- Greg climbs under his own effort with crutches and loaded pack, using conservative body mechanics and scheduled rests. At one steep patch he sits/scoots rather than forcing standing technique.
+- After first rise, White Reed/keeper house are no longer visible and practical isolation begins.
+- Old channel is dry on surface but damp/mossed at bottom; no source connection inferred.
+- Greg hears deliberate stone movement uphill and moves to a wider refuge beside channel wall.
+- A local six-legged shelf grazer appears with old thin wire caught/trailing from a rear leg.
+- Greg recognizes broad grazer behavior from prior-life experience but does not claim exact local species expertise.
+- He does not attempt a rescue, improvise a weapon, or use magic.
+- When the animal panics and moves across the narrow trail, Greg uses experienced positioning: he does not retreat straight downhill on crutches; he drops his center/sits behind the channel wall and yields the path.
+- Animal passes, breaks loose from a caught branch, and continues uphill dragging some wire. Greg is unharmed; gear/sample bottle intact.
+- Greg records the exposed old wire as an entanglement hazard and notes the wider refuge point. Wire's original function remains unknown.
+- This is the first quest-route action beat: materially consequential terrain/animal hazard, not a generic monster attack.
 
-## Economy
-- Starts 10c.
-- Glass crate-pad work +2 -> 12c.
-- Morrow cart -2 -> 10c.
-- Hiring reimbursement +2 -> **12c**.
-- Employer lodging in packing-shed loft Ch459 night; no lodging charge because Greg is now hired field worker.
+## Economy / body / tools
 - Ends **12c cash / 23c Vale / bits unspecified**.
-- Temporary **10c floor** remains active; 2c discretionary.
-- 20c limb deposit remains paid toward 1 silver + 18c work-limb quote.
-
-## Trial limb / Lot 67 / magic
-- Trial limb rests Ch459; healthy/wrapped.
-- Lot 67 remains packed, comparative-only with prior 60/60 immediate + 25/25 delayed trials.
-- No deliberate magic Ch459. Protocol remains **59 minimal / 53 shaping / 138 external**.
-- Greg explicitly saves attention rather than forcing a pre-quest magic test.
-
-## Home note
-Greg leaves for morning post run:
-`Lakeward east, then Morrow Orchard. I took a short field contract. Lower orchard channels are running low. Old local story preserves a real route through White Reed, Sleeping Stone, Three Sisters Hollow, to Mirror Spring. District confirms places/source exist but old path is unmaintained and landslide affected Three Sisters. I'm being paid to return route/water observations and, if possible, a sealed supplemental spring sample. This does not make me district authority and sample will not prove cause by itself. Three days food supplied. Perrin Sol takes me only to White Reed, then returns to work. Cash 12c, Vale 23c. Ten floor intact. Trial build healthy. - Greg`
-plus:
-`This is an actual adventure now, which was more charming when theoretical.`
+- Temporary 10c floor remains active.
+- Trial limb no wear Ch460; healthy/wrapped.
+- Crutches primary.
+- Lot 67 remains packed/unused.
+- No deliberate magic; protocol remains **59 / 53 / 138**.
+- District bottle remains sealed/empty/intact.
 
 ## Current inventory
 Greg carries:
@@ -135,63 +115,59 @@ Greg carries:
 9. Road Response Kit / Lot 67, comparative only;
 10. current Merehook coastal-measure circular from Sori;
 11. Morrow route copy;
-12. three-day employer food + blanket roll;
-13. district sample bottle pending morning delivery.
+12. remaining three-day employer food + blanket roll;
+13. district sample bottle/form, sealed empty and intact;
+14. Jonah's ordinary water flask, to return.
 
 ## Protected uncertainties
-- Greg ends Ch459 in **Morrow packing-shed loft**, night before departure.
+- Greg ends Ch460 alone on old path **above White Reed, beyond first rise**, moving toward split oak / Sleeping Stone.
 - Cash **12c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 138**.
-- Temporary 10c floor remains active.
-- Mirror Spring contract is accepted and written.
-- District bottle has not yet arrived; expected first ring.
-- Perrin guides only to White Reed, then returns.
-- White Reed current ford condition unknown.
-- Old path beyond White Reed current condition unknown.
-- Three Sisters lower bench current condition unknown; loose north-face upper track is explicit no-go if bench is cut.
-- Mirror Spring/source condition unknown.
-- Trial limb healthy/rested/wrapped.
-- No current permanent companion.
+- White Reed shows wet substrate despite low visible channel, but cause is not established.
+- Current Sleeping Stone condition unknown.
+- Split oak reportedly stood last spring.
+- Charcoal-cut branch is washed and should be avoided.
+- Three Sisters lower bench remains unknown; loose north-face upper track remains explicit no-go if lower bench is cut.
+- Mirror Spring condition unknown.
+- No permanent companion.
+- Shelf grazer departed uphill with some old wire trailing; do not force it to recur unless organic.
 
 ## Adventure mandate
-- This is now an **actual multi-chapter quest/adventure spine**, not a reason to rush to Mirror Spring next chapter.
-- Let the route occupy real story time: preparation/departure, White Reed, Sleeping Stone, Three Sisters, source approach, Mirror Spring, return, and consequences can each earn space as story demands.
-- Hawaiian/moʻolelo-like structural influence remains through place-memory, water/land reciprocity, named route markers, story carrying practical geography, intergenerational memory, and community obligations.
-- Do not copy sacred Hawaiian figures/rituals or make story automatically literally true.
-- Adventure should now contain more than movement: terrain, decisions, danger, human stakes, discovery, magic ecology, artifacts/tools, Greg's body/competence, and costly choices.
-- Actual action/fighting may arise organically during this quest. Do not force generic monsters, but do not keep the entire quest procedurally safe either.
-- Greg's old S-class experience should increasingly matter when danger genuinely arrives, while current Bronze/body limits remain real.
+- Continue treating this as a real multi-chapter quest, not a commute with scenic stops.
+- Named places should carry accumulated story-memory and current physical reality, sometimes agreeing and sometimes diverging.
+- Hawaiian/moʻolelo-like structural influence stays at the level of place-memory, water/land reciprocity, intergenerational route knowledge, social obligation, and story as practical archive. Do not borrow sacred figures/rituals as costume.
+- Increase adventure through terrain, discovery, risk, choices, magic ecology, body constraints, and eventually meaningful action/fighting when earned.
+- Greg's old S-class competence can surface sharply in genuine danger while current body/rank remains limiting.
 
-## Chapter 460 trailhead
-Follow next actual claim from Ch459/current authority.
+## Chapter 461 trailhead
+Follow next actual claim from Ch460/current authority.
 
-Greg begins **12c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 138**, at **Morrow Orchard** before first-ring departure.
+Greg begins **12c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 138**, alone above White Reed.
 
 Strong movement:
-- District runner should deliver sealed sample bottle/form first. Preserve chain procedure and employer-paid 1c deposit.
-- Perrin guides Greg from Morrow to **White Reed** only. This segment can establish orchard water geography and the difference between maintained farm track and old story path.
-- Do not rush through White Reed, Sleeping Stone, and Three Sisters in one chapter. **White Reed should earn actual scene weight.**
-- Give White Reed a keeper/person/local condition if useful. The story said wet soil in a dry year; current reality may rhyme, contradict, or complicate that memory without proving legend.
-- The old route begins after White Reed. Let Greg make a meaningful go/no-go assessment based on body, ford/path condition, weather, and local information.
-- Perrin should return to his own obligations rather than becoming companion.
-- Trial limb may be useful on dry stable maintained farm track, but crutches remain primary once old path/ford/rough terrain begins.
-- The first quest chapter should feel materially more adventurous than recent town work chapters: distance under his own effort, terrain, uncertainty, isolation beginning, and at least one consequential obstacle/discovery.
-- Do not solve water cause yet.
-- No requirement to reach Sleeping Stone in Ch460; reaching/clearing White Reed and entering old path can be enough if scenes have weight.
-- Lot 67 remains packed unless real timing question appears.
-- Magic may remain at 138 or get one organic use/attempt if terrain/danger creates genuine reason. Do not perform laboratory test in middle of quest.
+- Find/verify the split oak using Jonah/Mabel evidence of different ages.
+- Avoid the washed charcoal-cut branch.
+- **Sleeping Stone should be the next major place**, but reaching it should require actual route finding and physical effort.
+- Let story-memory and present terrain disagree in at least one useful way. Do not simply check off legend beats.
+- Old exposed wire may indicate forgotten infrastructure, but do not turn it instantly into mystery conspiracy.
+- Greg has three-day supply constraint and should track time/body/water.
+- Trial limb can remain wrapped on rough trail. If a stable dry plateau appears, use is optional, not obligatory.
+- The next obstacle should differ from the shelf-grazer beat. Favor route loss, weather, terrain, magical ecology, or an unexpected human trace over another animal encounter.
+- Sleeping Stone can provide shelter, old markings, water sign, or evidence that route was maintained more recently than claimed, but do not reveal Mirror Spring answer yet.
+- Lot 67 stays packed unless a real comparative timing need appears.
+- Magic may occur only if useful/organic, not as a scheduled test.
 
 Avoid:
-- Perrin joining whole quest;
-- Teren secretly knowing exact answer;
-- sample bottle becoming magical detector;
-- easy paved path;
-- instant proof upper families stole water;
-- legend exactly reenacting itself beat for beat;
-- generic random monster solely to make chapter exciting;
-- casual violation of explicit Three Sisters no-go.
+- another new named NPC unless the person truly matters;
+- names from protected/repeated clusters;
+- Jonah secretly following Greg;
+- another random creature encounter immediately;
+- easy path straight to Sleeping Stone;
+- proving the legend literally true;
+- source solution before Three Sisters/Mirror Spring;
+- turning Greg into local water expert.
 
-**MANDATORY TITLE CHECK CH460:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH461:** answer `Who is Greg being?` before title. Use THE [ROLE]. Check title history before use.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
