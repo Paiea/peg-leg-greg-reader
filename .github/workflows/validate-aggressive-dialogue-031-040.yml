@@ -52,7 +52,7 @@ jobs:
           python scripts/test_dialogue_ownership_rewrite.py
           python -m unittest tests.test_dialogue_variance_integration -v
       - name: Run strict ownership checker
-        run: python scripts/dialogue_ownership_check.py --start 31 --end 40 --strict
+        run: python scripts/dialogue_ownership_check.py --range 31-40 --strict
       - name: Verify Chapter 31 semantic ownership repair
         run: |
           python - <<'PY'
