@@ -5,9 +5,9 @@ Status: **APPROVED / ACTIVE**
 Governing authority: `state/DIALOGUE_VARIANCE_ENGINE.md`
 Project-wide prose mirror: `state/PROSE_PLAYBOOK.md`
 
-Purpose: eliminate reader backtracking caused by ambiguous speaker, addressee, action, reaction, pronoun, object/task, interruption, scene-reset, reported-speech, identity-label, or paragraph ownership. PLG intentionally prefers slight over-attribution and modest local scaffolding expansion over elegant ambiguity.
+Purpose: eliminate reader backtracking caused by ambiguous speaker, addressee, action, reaction, pronoun, object/task, interruption, scene-reset, reported-speech, identity-label, audio/TTS, silence, overlap, pre-line action, or paragraph ownership. PLG intentionally prefers slight over-attribution and modest local scaffolding expansion over elegant ambiguity.
 
-These fifteen updates are active for all future dialogue/variance review and any later reader-facing dialogue polish.
+These twenty updates are active for all future dialogue/variance review and any later reader-facing dialogue polish.
 
 ## 1. Forced re-anchor cadence
 
@@ -97,6 +97,42 @@ Within an active scene, do not rotate labels for the same person merely for styl
 
 Once named, prefer the name at ownership points. Use role labels when the role matters, not just to avoid repeating the name. Stable repeated labels are cheaper than making the reader wonder whether `Nessa`, `the clerk`, and `the woman` are different people.
 
+## 16. Audio and TTS ownership gate
+
+Dialogue must remain understandable when visual paragraph boundaries are unavailable.
+
+Mentally flatten substantial exchanges into spoken audio. If a listener would need the page to recover the speaker, add a tag or name. Short replies, narration/interiority interruptions, reported speech, scene resets, and cast changes get extra scrutiny.
+
+The target is zero speaker reconstruction in audio as well as on the page.
+
+## 17. Silence and nonresponse ownership
+
+Silence is still a response beat. When several people could plausibly be expected to answer, identify whose silence, refusal to engage, continued work, look, or other nonresponse matters.
+
+If someone else answers into that silence, anchor the new speaker explicitly. Name the owner of the nonresponse without inventing motive.
+
+## 18. Overlap and crosstalk ownership
+
+Simultaneous speech may remain socially messy but must not become anonymous.
+
+Establish who is overlapping before or with the lines, anchor the person who wins the floor when the overlap resolves, and re-anchor after Greg interiority interrupts crosstalk.
+
+Preserve social chaos. Remove ownership chaos.
+
+## 19. Pre-line action ownership integrity
+
+A paragraph-opening action strongly implies that the next quoted line belongs to the actor.
+
+If the actor is also the speaker, the beat may serve as attribution when unmistakable. If the actor is not the speaker, separate the beats or explicitly tag the real speaker. Do not let one person's action visually counterfeit ownership of another person's dialogue.
+
+## 20. Two-person speaker-map expiry after long gaps
+
+Two-person dialogue is not permanently self-attributing.
+
+After a full paragraph of interiority/narration, several sentences of action or object work, meaningful silence, a topic reset, reported speech, or any gap that would make TTS ownership inferential, explicitly re-anchor the first returning speaker.
+
+Do not tag every two-person line. Re-anchor when the reader or listener has reasonably stopped carrying the turn map.
+
 ## Repair priority
 
 1. Preserve canon and scene outcome.
@@ -105,11 +141,13 @@ Once named, prefer the name at ownership points. Use role labels when the role m
 4. Add plain `said` / `asked` attribution.
 5. Clarify the addressee when necessary.
 6. Repeat a name/role instead of relying on a colliding pronoun or rotating identity label.
-7. Anchor interruptions, resumptions, and post-reset first speakers.
-8. Add observable orientation scaffolding.
-9. Restore cast/object/task continuity where it carries the exchange.
-10. Separate present speech from reported/quoted speech layers.
-11. Rewrite the smallest necessary spoken wording only if the rebuilt block still fails.
+7. Anchor interruptions, resumptions, overlap resolution, silence ownership, and post-reset first speakers.
+8. Protect pre-line action ownership so an action beat never counterfeits the next speaker.
+9. Add observable orientation scaffolding.
+10. Restore cast/object/task continuity where it carries the exchange.
+11. Separate present speech from reported/quoted speech layers.
+12. Re-run the exchange mentally as audio/TTS and add any anchor lost when visual layout disappears.
+13. Rewrite the smallest necessary spoken wording only if the rebuilt block still fails.
 
 ## Anti-regression rules
 
@@ -119,6 +157,11 @@ Once named, prefer the name at ownership points. Use role labels when the role m
 - Do not vary tags for decoration.
 - Distinct voice is not a substitute for attribution.
 - Short dry lines do not get special permission to remain anonymous.
+- Visual paragraphing alone is not sufficient when the audio/TTS version becomes ambiguous.
+- Silence and nonresponse need a clear owner when multiple people could be expected to answer.
+- Crosstalk can be messy without being anonymous.
+- A pre-line action beat must not imply the wrong speaker.
+- Two-person turn maps expire after meaningful narrative gaps.
 - Do not use invented gestures solely to avoid a tag.
 - Do not rely on punctuation alone to carry interruption ownership.
 - Do not assume a pre-reset speaker map survives a scene/time/location or long-action reset.
@@ -126,8 +169,8 @@ Once named, prefer the name at ownership points. Use role labels when the role m
 - Do not compress a repaired dialogue block during the same clarity pass.
 - Do not classify added ownership scaffolding as redundant prose solely because it repeats a name, addressee, object, spatial fact, or local cast fact.
 - A silent or off-focus character should not reappear as a ghost speaker.
-- The reader should never have to reread a line to discover who spoke, who was addressed, who interrupted, who resumed, who moved, who reacted, who is being quoted, or who currently owns the object/task driving the exchange.
+- The reader should never have to reread or mentally replay a line to discover who spoke, who was addressed, who interrupted, who resumed, who stayed silent, who overlapped, who moved, who reacted, who is being quoted, or who currently owns the object/task driving the exchange.
 
 ## Future-pass instruction
 
-When continuing the whole-manuscript dialogue/variance pass, apply all fifteen rules automatically. A chapter may receive a deliberate no-change verdict only after the cold-read ownership gate passes under this full aggressive mode.
+When continuing the whole-manuscript dialogue/variance pass, apply all twenty rules automatically. A chapter may receive a deliberate no-change verdict only after both the visual cold-read ownership gate and the audio/TTS ownership gate pass under this full aggressive mode.

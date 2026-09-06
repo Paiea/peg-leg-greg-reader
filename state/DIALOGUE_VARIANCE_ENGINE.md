@@ -429,6 +429,67 @@ Within an active scene:
 
 Repeated identity labels are cheaper than identity uncertainty.
 
+### Update 16: audio and TTS ownership gate
+
+Visual paragraphing can make an exchange look clearer than it sounds. PLG is often consumed through read-aloud/TTS, so dialogue ownership must survive without relying on blank lines or visual indentation.
+
+For substantial dialogue, mentally flatten the paragraph layout and test the spoken sequence:
+- if the listener would need the page to know who spoke, add a tag or name;
+- one-word and very short replies get extra scrutiny because audio removes visual turn cues;
+- after narration, interiority, reported speech, scene resets, or cast changes, re-anchor sooner when the spoken sequence could blur;
+- do not treat paragraph separation alone as sufficient attribution in an exchange that becomes ambiguous when heard.
+
+The target is **zero speaker reconstruction in audio as well as on the page**.
+
+### Update 17: silence and nonresponse ownership
+
+Silence is still a response beat and needs an owner when several people could plausibly be expected to answer.
+
+When a question, request, accusation, instruction, or offer produces silence, refusal to engage, continued work, a look, or another nonverbal response:
+- identify the person whose nonresponse matters if more than one candidate exists;
+- do not write bare `No answer` or `Silence` when the addressee could be unclear;
+- if another person answers into that silence, anchor the new speaker explicitly;
+- if the silence itself changes who holds the conversational floor, make that transition legible.
+
+Do not explain the emotion unless canon supports it. Name the ownership of the nonresponse, not an invented motive.
+
+### Update 18: overlap and crosstalk ownership
+
+Simultaneous or overlapping speech may stay messy, but it must not become anonymous.
+
+When two or more people speak at once, call across one another, or answer the same prompt:
+- establish who is overlapping before or with the lines;
+- do not stack bare quotations and explain afterward that they were simultaneous;
+- if one voice wins the floor, anchor that person when the overlap resolves;
+- if Greg's interior reaction lands during crosstalk, re-anchor the next external speaker afterward.
+
+Preserve social chaos. Remove ownership chaos.
+
+### Update 19: pre-line action ownership integrity
+
+A paragraph-opening action beat strongly implies that the next quoted line belongs to the same person. Do not exploit that expectation accidentally.
+
+When an action beat appears immediately before dialogue:
+- if the actor is also the speaker, the action may serve as attribution when unmistakable;
+- if the actor is not the speaker, separate the beats or explicitly tag the actual speaker before the quote can inherit the wrong owner;
+- do not place one person's look, shrug, movement, laugh, or object handling directly before another person's anonymous dialogue in the same paragraph;
+- if several people act before the line, name the speaker explicitly.
+
+A useful action beat should clarify ownership, never counterfeit it.
+
+### Update 20: two-person speaker-map expiry after long gaps
+
+Two-person dialogue is not automatically safe forever. The speaker map can expire after enough narration, interiority, physical work, or silence.
+
+Even with only two active people, explicitly re-anchor the first returning speaker after:
+- a full paragraph of Greg interiority or substantial narration;
+- several sentences of action or object-focused work that shift attention away from turn-taking;
+- a meaningful silence, pause, or topic reset;
+- a reported-speech block or other temporary second voice layer;
+- any gap where the audio/TTS version would force the listener to infer who resumed.
+
+Do not tag every two-person line. Re-anchor when the reader or listener has reasonably stopped carrying the turn map.
+
 ## Voice-page maintenance
 
 When a recurring character has enough manuscript evidence, their voice page may record:
