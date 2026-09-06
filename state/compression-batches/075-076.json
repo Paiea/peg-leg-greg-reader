@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "batch": "075-076",
+  "status": "applied",
+  "strength": "aggressive-on-repetition-preserve-distinct-independence-milestones",
+  "source_authority": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+  "stable_id_actions": {
+    "plg-ch-000075": {
+      "status": "active",
+      "action": "tightened_return_to_room"
+    },
+    "plg-ch-000076": {
+      "status": "active",
+      "action": "tightened_return_to_ground_floor_world"
+    }
+  },
+  "illustration_policy": "advisory hold; art does not protect redundant prose or chapter boundaries",
+  "stats": {
+    "chapters/075.html": {
+      "before_words": 3611,
+      "after_words": 3277,
+      "delta_words": -334
+    },
+    "chapters/076.html": {
+      "before_words": 3433,
+      "after_words": 3318,
+      "delta_words": -115
+    }
+  },
+  "protected": {
+    "75": [
+      "finished rail",
+      "home fourteen-step ascent",
+      "landing pivot",
+      "return to own room"
+    ],
+    "76": [
+      "first controlled descent",
+      "phantom-foot hazard",
+      "step rest",
+      "privy independence",
+      "ground-floor spontaneity and mobility asymmetry"
+    ]
+  }
+}

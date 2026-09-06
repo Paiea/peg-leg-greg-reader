@@ -1,0 +1,45 @@
+name: Structural compression 060-061 seam repair
+
+on:
+  push:
+    branches: [editor/voice-compression-pass]
+    paths:
+      - 'scripts/repair_structural_compression_060_061.py'
+      - 'tests/test_structural_compression_060_061_seams.py'
+      - '.github/workflows/structural-compression-060-061-seam-repair.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: editor/voice-compression-pass
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Run seam regression test
+        run: python -m unittest tests.test_structural_compression_060_061_seams
+      - name: Repair source and reader seams
+        run: python scripts/repair_structural_compression_060_061.py --root . --write
+      - name: Verify repair is idempotent
+        run: |
+          sha256sum chapters/060.html chapters/061.html state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx > /tmp/first.sha256
+          python scripts/repair_structural_compression_060_061.py --root . --write
+          sha256sum chapters/060.html chapters/061.html state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx > /tmp/second.sha256
+          diff -u /tmp/first.sha256 /tmp/second.sha256
+      - name: Verify repaired source
+        run: python scripts/repair_structural_compression_060_061.py --root . --verify
+      - name: Commit repaired seams
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add chapters/060.html chapters/061.html state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx
+          if [ -n "$(git status --porcelain -- chapters/060.html chapters/061.html state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx)" ]; then
+            git commit -m 'Repair road compression transition seams'
+            git push origin HEAD:editor/voice-compression-pass
+          fi

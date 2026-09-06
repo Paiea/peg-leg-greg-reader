@@ -52,34 +52,6 @@ Theatre must remain intrinsically worthwhile as people, work, art, failure, craf
 ### Plot swallowing ordinary life
 Danger, magic, mystery, and reputation should collide with food, wages, customers, rehearsal, errands, fatigue, sex, household work, broken objects, weather, routes, and schedules rather than replacing them.
 
-### Rhythm stagnation disguised as novelty
-A chapter can contain new people, a new errand, a new neighborhood object, or a new joke and still perform the same story function as the previous several chapters.
-
-Do not defend a low-voltage run merely by saying each individual situation is technically new. Inspect the last 3–6 chapters for repeated emotional amplitude, Greg-role, uncertainty type, resolution shape, and practical/social function.
-
-When the recent rhythm has become repetitive, deliberately change one or more major axes: stakes, fantasy density, location scale, objective type, social geometry, economic magnitude, physical demand, uncertainty, consequence durability, or Greg's agency.
-
-Ordinary life remains valuable. Mundane repetition is still repetition.
-
-### Scene architecture variety
-Do not repeatedly use the same underlying scene engine merely because the surface system changes. In particular, watch for the recurring sequence: Greg encounters an irregularity → questions a competent person → separates evidence → tests the system → makes a bounded conclusion → practical adjustment/payoff.
-
-This remains valid PLG architecture, but consecutive or nearby chapters should not default to it. Vary who has agency, who understands first, whether there is anything to solve, whether Greg is wrong, whether the problem is social/emotional rather than technical, whether someone else resolves it, and whether the scene ends without a clean conclusion.
-
-**New subject matter does not automatically mean a new scene.**
-
-### Loot treadmill as fake rhythm change
-Do not answer rhythm stagnation by giving Greg a new magical object every few chapters.
-
-Magical artifacts / unique items are now a strong forward route because they can create new scene grammar, economics, constraints, and combinations. They should not become disposable upgrades or a checklist of increasingly stronger loot.
-
-Prefer objects with history, provenance, ugly constraints, meaningful downsides, maintenance, storage, social consequences, and multiple uses discovered over time. Reuse can be a rhythm change when the same object behaves differently under a new constraint or combines with another tool.
-
-### Artifact downside as punishment tax
-Do not make artifact drawbacks generic pain, random failure, simple stat penalties, or arbitrary curses that exist only to stop Greg from being effective.
-
-A strong downside creates decisions and alternative uses. It can be severe, but should be understandable enough that Greg and other people can reason around it without instantly eliminating it.
-
 ## Continuity / serial anti-patterns
 
 ### Callback parade
@@ -120,12 +92,6 @@ Keep Greg's body materially present through activity-specific geometry and cost 
 ### Money as RPG abstraction or morality meter
 Material improvement may stick. Debt and scarcity may remain real. Do not invent unsupported exact balances/conversions or make every ordinary purchase prove virtue or irresponsibility.
 
-### Economic reset from a light purse
-Do not treat low cash-on-hand as automatic evidence that Greg has returned to early-book poverty. Liquidity, earning capacity, assets, obligations, and optionality are distinct. Once a price tier has become ordinary/survivable, prose needs a concrete setback before making that same tier existential again.
-
-### World-price inflation as progression
-Do not make bread, baths, local errands, and ordinary low-tier services steadily more expensive just because Greg's story is progressing. Widen the economic ceiling through better work, specialist services, tools, artifacts, capital purchases, larger contracts, bids, travel, and higher-value markets.
-
 ## Use test
 
 When something feels exciting but suspiciously easy, ask:
@@ -138,7 +104,5 @@ When something feels exciting but suspiciously easy, ask:
 6. Is this genuinely changed continuity, or just a callback?
 7. Am I adding machinery when existing material could converge?
 8. Would the scene be stronger if it trusted the reader and stopped earlier?
-9. Does this chapter change the recent rhythm, or only swap in new nouns?
-10. If an artifact is involved, does it create new decisions and future play rather than merely increasing power?
 
 If none of these traps apply, move on. Do not use this file to create fear of writing or to sand away useful surprise.

@@ -1,0 +1,2880 @@
+{
+  "schema_version": 1,
+  "audit_version": 1,
+  "chapter_count": 445,
+  "median_word_count": 2735,
+  "chapter_metrics": [
+    {
+      "chapter": 1,
+      "chapter_id": "plg-ch-000001",
+      "title": "Chapter 1",
+      "word_count": 4237
+    },
+    {
+      "chapter": 2,
+      "chapter_id": "plg-ch-000002",
+      "title": "Chapter 2",
+      "word_count": 1862
+    },
+    {
+      "chapter": 3,
+      "chapter_id": "plg-ch-000003",
+      "title": "Chapter 3",
+      "word_count": 5296
+    },
+    {
+      "chapter": 4,
+      "chapter_id": "plg-ch-000004",
+      "title": "Chapter 4",
+      "word_count": 2755
+    },
+    {
+      "chapter": 5,
+      "chapter_id": "plg-ch-000005",
+      "title": "Chapter 5",
+      "word_count": 4101
+    },
+    {
+      "chapter": 6,
+      "chapter_id": "plg-ch-000006",
+      "title": "Chapter 6",
+      "word_count": 4112
+    },
+    {
+      "chapter": 7,
+      "chapter_id": "plg-ch-000007",
+      "title": "Chapter 7",
+      "word_count": 5079
+    },
+    {
+      "chapter": 8,
+      "chapter_id": "plg-ch-000008",
+      "title": "Chapter 8",
+      "word_count": 4101
+    },
+    {
+      "chapter": 9,
+      "chapter_id": "plg-ch-000009",
+      "title": "Chapter 9",
+      "word_count": 4915
+    },
+    {
+      "chapter": 10,
+      "chapter_id": "plg-ch-000010",
+      "title": "Chapter 10",
+      "word_count": 5701
+    },
+    {
+      "chapter": 11,
+      "chapter_id": "plg-ch-000011",
+      "title": "Chapter 11",
+      "word_count": 5071
+    },
+    {
+      "chapter": 12,
+      "chapter_id": "plg-ch-000012",
+      "title": "Chapter 12",
+      "word_count": 5501
+    },
+    {
+      "chapter": 13,
+      "chapter_id": "plg-ch-000013",
+      "title": "Chapter 13",
+      "word_count": 4744
+    },
+    {
+      "chapter": 14,
+      "chapter_id": "plg-ch-000014",
+      "title": "Chapter 14",
+      "word_count": 4566
+    },
+    {
+      "chapter": 15,
+      "chapter_id": "plg-ch-000015",
+      "title": "Chapter 15",
+      "word_count": 3037
+    },
+    {
+      "chapter": 16,
+      "chapter_id": "plg-ch-000016",
+      "title": "Chapter 16",
+      "word_count": 3562
+    },
+    {
+      "chapter": 17,
+      "chapter_id": "plg-ch-000017",
+      "title": "Chapter 17",
+      "word_count": 5149
+    },
+    {
+      "chapter": 18,
+      "chapter_id": "plg-ch-000018",
+      "title": "Chapter 18",
+      "word_count": 3052
+    },
+    {
+      "chapter": 19,
+      "chapter_id": "plg-ch-000019",
+      "title": "Chapter 19",
+      "word_count": 3115
+    },
+    {
+      "chapter": 20,
+      "chapter_id": "plg-ch-000020",
+      "title": "Chapter 20",
+      "word_count": 3026
+    },
+    {
+      "chapter": 21,
+      "chapter_id": "plg-ch-000021",
+      "title": "Chapter 21",
+      "word_count": 2609
+    },
+    {
+      "chapter": 22,
+      "chapter_id": "plg-ch-000022",
+      "title": "Chapter 22",
+      "word_count": 3444
+    },
+    {
+      "chapter": 23,
+      "chapter_id": "plg-ch-000023",
+      "title": "Chapter 23",
+      "word_count": 2776
+    },
+    {
+      "chapter": 24,
+      "chapter_id": "plg-ch-000024",
+      "title": "Chapter 24",
+      "word_count": 2643
+    },
+    {
+      "chapter": 25,
+      "chapter_id": "plg-ch-000025",
+      "title": "Chapter 25",
+      "word_count": 3042
+    },
+    {
+      "chapter": 26,
+      "chapter_id": "plg-ch-000026",
+      "title": "Chapter 26",
+      "word_count": 2678
+    },
+    {
+      "chapter": 27,
+      "chapter_id": "plg-ch-000027",
+      "title": "Chapter 27",
+      "word_count": 2735
+    },
+    {
+      "chapter": 28,
+      "chapter_id": "plg-ch-000028",
+      "title": "Chapter 28",
+      "word_count": 2149
+    },
+    {
+      "chapter": 29,
+      "chapter_id": "plg-ch-000029",
+      "title": "Chapter 29",
+      "word_count": 2279
+    },
+    {
+      "chapter": 30,
+      "chapter_id": "plg-ch-000030",
+      "title": "Chapter 30",
+      "word_count": 2115
+    },
+    {
+      "chapter": 31,
+      "chapter_id": "plg-ch-000031",
+      "title": "Chapter 31",
+      "word_count": 2318
+    },
+    {
+      "chapter": 32,
+      "chapter_id": "plg-ch-000032",
+      "title": "Chapter 32",
+      "word_count": 3690
+    },
+    {
+      "chapter": 33,
+      "chapter_id": "plg-ch-000033",
+      "title": "Chapter 33",
+      "word_count": 3524
+    },
+    {
+      "chapter": 34,
+      "chapter_id": "plg-ch-000034",
+      "title": "Chapter 34",
+      "word_count": 2780
+    },
+    {
+      "chapter": 35,
+      "chapter_id": "plg-ch-000035",
+      "title": "Chapter 35",
+      "word_count": 3247
+    },
+    {
+      "chapter": 36,
+      "chapter_id": "plg-ch-000036",
+      "title": "Chapter 36",
+      "word_count": 3457
+    },
+    {
+      "chapter": 37,
+      "chapter_id": "plg-ch-000037",
+      "title": "Chapter 37",
+      "word_count": 3007
+    },
+    {
+      "chapter": 38,
+      "chapter_id": "plg-ch-000038",
+      "title": "Chapter 38",
+      "word_count": 2326
+    },
+    {
+      "chapter": 39,
+      "chapter_id": "plg-ch-000039",
+      "title": "Chapter 39",
+      "word_count": 3254
+    },
+    {
+      "chapter": 40,
+      "chapter_id": "plg-ch-000040",
+      "title": "Chapter 40",
+      "word_count": 2303
+    },
+    {
+      "chapter": 41,
+      "chapter_id": "plg-ch-000041",
+      "title": "Chapter 41",
+      "word_count": 3011
+    },
+    {
+      "chapter": 42,
+      "chapter_id": "plg-ch-000042",
+      "title": "Chapter 42",
+      "word_count": 2600
+    },
+    {
+      "chapter": 43,
+      "chapter_id": "plg-ch-000043",
+      "title": "Chapter 43",
+      "word_count": 2130
+    },
+    {
+      "chapter": 44,
+      "chapter_id": "plg-ch-000044",
+      "title": "Chapter 44",
+      "word_count": 2317
+    },
+    {
+      "chapter": 45,
+      "chapter_id": "plg-ch-000045",
+      "title": "Chapter 45",
+      "word_count": 2883
+    },
+    {
+      "chapter": 46,
+      "chapter_id": "plg-ch-000046",
+      "title": "Chapter 46",
+      "word_count": 2707
+    },
+    {
+      "chapter": 47,
+      "chapter_id": "plg-ch-000047",
+      "title": "Chapter 47",
+      "word_count": 2270
+    },
+    {
+      "chapter": 48,
+      "chapter_id": "plg-ch-000048",
+      "title": "Chapter 48",
+      "word_count": 2692
+    },
+    {
+      "chapter": 49,
+      "chapter_id": "plg-ch-000049",
+      "title": "Chapter 49",
+      "word_count": 2068
+    },
+    {
+      "chapter": 50,
+      "chapter_id": "plg-ch-000050",
+      "title": "Chapter 50",
+      "word_count": 1442
+    },
+    {
+      "chapter": 51,
+      "chapter_id": "plg-ch-000051",
+      "title": "Chapter 51",
+      "word_count": 2132
+    },
+    {
+      "chapter": 52,
+      "chapter_id": "plg-ch-000052",
+      "title": "Chapter 52",
+      "word_count": 2039
+    },
+    {
+      "chapter": 53,
+      "chapter_id": "plg-ch-000053",
+      "title": "Chapter 53",
+      "word_count": 3594
+    },
+    {
+      "chapter": 54,
+      "chapter_id": "plg-ch-000054",
+      "title": "Chapter 54",
+      "word_count": 3710
+    },
+    {
+      "chapter": 55,
+      "chapter_id": "plg-ch-000055",
+      "title": "Chapter 55",
+      "word_count": 3108
+    },
+    {
+      "chapter": 56,
+      "chapter_id": "plg-ch-000056",
+      "title": "Chapter 56",
+      "word_count": 3004
+    },
+    {
+      "chapter": 57,
+      "chapter_id": "plg-ch-000057",
+      "title": "Chapter 57",
+      "word_count": 3011
+    },
+    {
+      "chapter": 58,
+      "chapter_id": "plg-ch-000058",
+      "title": "Chapter 58",
+      "word_count": 2743
+    },
+    {
+      "chapter": 59,
+      "chapter_id": "plg-ch-000059",
+      "title": "Chapter 59",
+      "word_count": 2824
+    },
+    {
+      "chapter": 60,
+      "chapter_id": "plg-ch-000060",
+      "title": "Chapter 60",
+      "word_count": 2496
+    },
+    {
+      "chapter": 61,
+      "chapter_id": "plg-ch-000061",
+      "title": "Chapter 61",
+      "word_count": 3016
+    },
+    {
+      "chapter": 62,
+      "chapter_id": "plg-ch-000062",
+      "title": "Chapter 62",
+      "word_count": 2933
+    },
+    {
+      "chapter": 63,
+      "chapter_id": "plg-ch-000063",
+      "title": "Chapter 63",
+      "word_count": 3428
+    },
+    {
+      "chapter": 64,
+      "chapter_id": "plg-ch-000064",
+      "title": "Chapter 64",
+      "word_count": 3138
+    },
+    {
+      "chapter": 65,
+      "chapter_id": "plg-ch-000065",
+      "title": "Chapter 65",
+      "word_count": 3213
+    },
+    {
+      "chapter": 66,
+      "chapter_id": "plg-ch-000066",
+      "title": "Chapter 66",
+      "word_count": 3083
+    },
+    {
+      "chapter": 67,
+      "chapter_id": "plg-ch-000067",
+      "title": "Chapter 67",
+      "word_count": 3608
+    },
+    {
+      "chapter": 68,
+      "chapter_id": "plg-ch-000068",
+      "title": "Chapter 68",
+      "word_count": 2875
+    },
+    {
+      "chapter": 69,
+      "chapter_id": "plg-ch-000069",
+      "title": "Chapter 69",
+      "word_count": 3501
+    },
+    {
+      "chapter": 70,
+      "chapter_id": "plg-ch-000070",
+      "title": "Chapter 70",
+      "word_count": 3590
+    },
+    {
+      "chapter": 71,
+      "chapter_id": "plg-ch-000071",
+      "title": "Chapter 71",
+      "word_count": 3238
+    },
+    {
+      "chapter": 72,
+      "chapter_id": "plg-ch-000072",
+      "title": "Chapter 72",
+      "word_count": 3569
+    },
+    {
+      "chapter": 73,
+      "chapter_id": "plg-ch-000073",
+      "title": "Chapter 73",
+      "word_count": 3009
+    },
+    {
+      "chapter": 74,
+      "chapter_id": "plg-ch-000074",
+      "title": "Chapter 74",
+      "word_count": 3130
+    },
+    {
+      "chapter": 75,
+      "chapter_id": "plg-ch-000075",
+      "title": "Chapter 75",
+      "word_count": 3647
+    },
+    {
+      "chapter": 76,
+      "chapter_id": "plg-ch-000076",
+      "title": "Chapter 76",
+      "word_count": 3463
+    },
+    {
+      "chapter": 77,
+      "chapter_id": "plg-ch-000077",
+      "title": "Chapter 77",
+      "word_count": 3558
+    },
+    {
+      "chapter": 78,
+      "chapter_id": "plg-ch-000078",
+      "title": "Chapter 78",
+      "word_count": 3561
+    },
+    {
+      "chapter": 79,
+      "chapter_id": "plg-ch-000079",
+      "title": "Chapter 79",
+      "word_count": 3471
+    },
+    {
+      "chapter": 80,
+      "chapter_id": "plg-ch-000080",
+      "title": "Chapter 80",
+      "word_count": 3476
+    },
+    {
+      "chapter": 81,
+      "chapter_id": "plg-ch-000081",
+      "title": "Chapter 81",
+      "word_count": 3527
+    },
+    {
+      "chapter": 82,
+      "chapter_id": "plg-ch-000082",
+      "title": "Chapter 82",
+      "word_count": 3501
+    },
+    {
+      "chapter": 83,
+      "chapter_id": "plg-ch-000083",
+      "title": "Chapter 83",
+      "word_count": 3834
+    },
+    {
+      "chapter": 84,
+      "chapter_id": "plg-ch-000084",
+      "title": "Chapter 84",
+      "word_count": 2945
+    },
+    {
+      "chapter": 85,
+      "chapter_id": "plg-ch-000085",
+      "title": "Chapter 85",
+      "word_count": 2621
+    },
+    {
+      "chapter": 86,
+      "chapter_id": "plg-ch-000086",
+      "title": "Chapter 86",
+      "word_count": 2919
+    },
+    {
+      "chapter": 87,
+      "chapter_id": "plg-ch-000087",
+      "title": "Chapter 87",
+      "word_count": 2966
+    },
+    {
+      "chapter": 88,
+      "chapter_id": "plg-ch-000088",
+      "title": "Chapter 88",
+      "word_count": 2479
+    },
+    {
+      "chapter": 89,
+      "chapter_id": "plg-ch-000089",
+      "title": "Chapter 89",
+      "word_count": 2844
+    },
+    {
+      "chapter": 90,
+      "chapter_id": "plg-ch-000090",
+      "title": "Chapter 90",
+      "word_count": 2401
+    },
+    {
+      "chapter": 91,
+      "chapter_id": "plg-ch-000091",
+      "title": "Chapter 91",
+      "word_count": 2118
+    },
+    {
+      "chapter": 92,
+      "chapter_id": "plg-ch-000092",
+      "title": "Chapter 92",
+      "word_count": 1893
+    },
+    {
+      "chapter": 93,
+      "chapter_id": "plg-ch-000093",
+      "title": "Chapter 93",
+      "word_count": 1775
+    },
+    {
+      "chapter": 94,
+      "chapter_id": "plg-ch-000094",
+      "title": "Chapter 94",
+      "word_count": 1999
+    },
+    {
+      "chapter": 95,
+      "chapter_id": "plg-ch-000095",
+      "title": "Chapter 95",
+      "word_count": 1799
+    },
+    {
+      "chapter": 96,
+      "chapter_id": "plg-ch-000096",
+      "title": "Chapter 96",
+      "word_count": 1929
+    },
+    {
+      "chapter": 97,
+      "chapter_id": "plg-ch-000097",
+      "title": "Chapter 97",
+      "word_count": 1601
+    },
+    {
+      "chapter": 98,
+      "chapter_id": "plg-ch-000098",
+      "title": "Chapter 98",
+      "word_count": 1627
+    },
+    {
+      "chapter": 99,
+      "chapter_id": "plg-ch-000099",
+      "title": "Chapter 99",
+      "word_count": 1656
+    },
+    {
+      "chapter": 100,
+      "chapter_id": "plg-ch-000100",
+      "title": "Chapter 100",
+      "word_count": 1907
+    },
+    {
+      "chapter": 101,
+      "chapter_id": "plg-ch-000101",
+      "title": "Chapter 101",
+      "word_count": 1633
+    },
+    {
+      "chapter": 102,
+      "chapter_id": "plg-ch-000102",
+      "title": "Chapter 102",
+      "word_count": 1910
+    },
+    {
+      "chapter": 103,
+      "chapter_id": "plg-ch-000103",
+      "title": "Chapter 103",
+      "word_count": 1639
+    },
+    {
+      "chapter": 104,
+      "chapter_id": "plg-ch-000104",
+      "title": "Chapter 104",
+      "word_count": 2772
+    },
+    {
+      "chapter": 105,
+      "chapter_id": "plg-ch-000105",
+      "title": "Chapter 105",
+      "word_count": 2648
+    },
+    {
+      "chapter": 106,
+      "chapter_id": "plg-ch-000106",
+      "title": "Chapter 106",
+      "word_count": 3049
+    },
+    {
+      "chapter": 107,
+      "chapter_id": "plg-ch-000107",
+      "title": "Chapter 107",
+      "word_count": 2781
+    },
+    {
+      "chapter": 108,
+      "chapter_id": "plg-ch-000108",
+      "title": "Chapter 108",
+      "word_count": 2639
+    },
+    {
+      "chapter": 109,
+      "chapter_id": "plg-ch-000109",
+      "title": "Chapter 109",
+      "word_count": 2560
+    },
+    {
+      "chapter": 110,
+      "chapter_id": "plg-ch-000110",
+      "title": "Chapter 110",
+      "word_count": 2551
+    },
+    {
+      "chapter": 111,
+      "chapter_id": "plg-ch-000111",
+      "title": "Chapter 111",
+      "word_count": 1617
+    },
+    {
+      "chapter": 112,
+      "chapter_id": "plg-ch-000112",
+      "title": "Chapter 112",
+      "word_count": 3110
+    },
+    {
+      "chapter": 113,
+      "chapter_id": "plg-ch-000113",
+      "title": "Chapter 113",
+      "word_count": 2530
+    },
+    {
+      "chapter": 114,
+      "chapter_id": "plg-ch-000114",
+      "title": "Chapter 114",
+      "word_count": 2628
+    },
+    {
+      "chapter": 115,
+      "chapter_id": "plg-ch-000115",
+      "title": "Chapter 115",
+      "word_count": 2611
+    },
+    {
+      "chapter": 116,
+      "chapter_id": "plg-ch-000116",
+      "title": "Chapter 116",
+      "word_count": 2517
+    },
+    {
+      "chapter": 117,
+      "chapter_id": "plg-ch-000117",
+      "title": "Chapter 117",
+      "word_count": 2513
+    },
+    {
+      "chapter": 118,
+      "chapter_id": "plg-ch-000118",
+      "title": "Chapter 118",
+      "word_count": 2519
+    },
+    {
+      "chapter": 119,
+      "chapter_id": "plg-ch-000119",
+      "title": "Chapter 119",
+      "word_count": 2549
+    },
+    {
+      "chapter": 120,
+      "chapter_id": "plg-ch-000120",
+      "title": "Chapter 120",
+      "word_count": 2580
+    },
+    {
+      "chapter": 121,
+      "chapter_id": "plg-ch-000121",
+      "title": "Chapter 121",
+      "word_count": 2586
+    },
+    {
+      "chapter": 122,
+      "chapter_id": "plg-ch-000122",
+      "title": "Chapter 122",
+      "word_count": 2594
+    },
+    {
+      "chapter": 123,
+      "chapter_id": "plg-ch-000123",
+      "title": "Chapter 123",
+      "word_count": 2618
+    },
+    {
+      "chapter": 124,
+      "chapter_id": "plg-ch-000124",
+      "title": "Chapter 124",
+      "word_count": 2660
+    },
+    {
+      "chapter": 125,
+      "chapter_id": "plg-ch-000125",
+      "title": "Chapter 125",
+      "word_count": 2701
+    },
+    {
+      "chapter": 126,
+      "chapter_id": "plg-ch-000126",
+      "title": "Chapter 126",
+      "word_count": 2548
+    },
+    {
+      "chapter": 127,
+      "chapter_id": "plg-ch-000127",
+      "title": "Chapter 127",
+      "word_count": 2526
+    },
+    {
+      "chapter": 128,
+      "chapter_id": "plg-ch-000128",
+      "title": "Chapter 128",
+      "word_count": 2533
+    },
+    {
+      "chapter": 129,
+      "chapter_id": "plg-ch-000129",
+      "title": "Chapter 129",
+      "word_count": 2587
+    },
+    {
+      "chapter": 130,
+      "chapter_id": "plg-ch-000130",
+      "title": "Chapter 130",
+      "word_count": 2503
+    },
+    {
+      "chapter": 131,
+      "chapter_id": "plg-ch-000131",
+      "title": "Chapter 131",
+      "word_count": 2558
+    },
+    {
+      "chapter": 132,
+      "chapter_id": "plg-ch-000132",
+      "title": "Chapter 132",
+      "word_count": 2557
+    },
+    {
+      "chapter": 133,
+      "chapter_id": "plg-ch-000133",
+      "title": "Chapter 133",
+      "word_count": 2544
+    },
+    {
+      "chapter": 134,
+      "chapter_id": "plg-ch-000134",
+      "title": "Chapter 134",
+      "word_count": 2606
+    },
+    {
+      "chapter": 135,
+      "chapter_id": "plg-ch-000135",
+      "title": "Chapter 135",
+      "word_count": 2520
+    },
+    {
+      "chapter": 136,
+      "chapter_id": "plg-ch-000136",
+      "title": "Chapter 136",
+      "word_count": 2571
+    },
+    {
+      "chapter": 137,
+      "chapter_id": "plg-ch-000137",
+      "title": "Chapter 137",
+      "word_count": 1604
+    },
+    {
+      "chapter": 138,
+      "chapter_id": "plg-ch-000138",
+      "title": "Chapter 138",
+      "word_count": 2979
+    },
+    {
+      "chapter": 139,
+      "chapter_id": "plg-ch-000139",
+      "title": "Chapter 139",
+      "word_count": 2906
+    },
+    {
+      "chapter": 140,
+      "chapter_id": "plg-ch-000140",
+      "title": "Chapter 140",
+      "word_count": 3082
+    },
+    {
+      "chapter": 141,
+      "chapter_id": "plg-ch-000141",
+      "title": "Chapter 141",
+      "word_count": 2006
+    },
+    {
+      "chapter": 142,
+      "chapter_id": "plg-ch-000142",
+      "title": "Chapter 142",
+      "word_count": 2645
+    },
+    {
+      "chapter": 143,
+      "chapter_id": "plg-ch-000143",
+      "title": "Chapter 143",
+      "word_count": 4086
+    },
+    {
+      "chapter": 144,
+      "chapter_id": "plg-ch-000144",
+      "title": "Chapter 144",
+      "word_count": 4039
+    },
+    {
+      "chapter": 145,
+      "chapter_id": "plg-ch-000145",
+      "title": "Chapter 145",
+      "word_count": 3112
+    },
+    {
+      "chapter": 146,
+      "chapter_id": "plg-ch-000146",
+      "title": "Chapter 146",
+      "word_count": 2833
+    },
+    {
+      "chapter": 147,
+      "chapter_id": "plg-ch-000147",
+      "title": "Chapter 147",
+      "word_count": 2781
+    },
+    {
+      "chapter": 148,
+      "chapter_id": "plg-ch-000148",
+      "title": "Chapter 148",
+      "word_count": 3737
+    },
+    {
+      "chapter": 149,
+      "chapter_id": "plg-ch-000149",
+      "title": "Chapter 149",
+      "word_count": 3434
+    },
+    {
+      "chapter": 150,
+      "chapter_id": "plg-ch-000150",
+      "title": "Chapter 150",
+      "word_count": 2410
+    },
+    {
+      "chapter": 151,
+      "chapter_id": "plg-ch-000151",
+      "title": "Chapter 151",
+      "word_count": 2126
+    },
+    {
+      "chapter": 152,
+      "chapter_id": "plg-ch-000152",
+      "title": "Chapter 152",
+      "word_count": 2368
+    },
+    {
+      "chapter": 153,
+      "chapter_id": "plg-ch-000153",
+      "title": "Chapter 153",
+      "word_count": 2701
+    },
+    {
+      "chapter": 154,
+      "chapter_id": "plg-ch-000154",
+      "title": "Chapter 154",
+      "word_count": 2929
+    },
+    {
+      "chapter": 155,
+      "chapter_id": "plg-ch-000155",
+      "title": "Chapter 155",
+      "word_count": 3644
+    },
+    {
+      "chapter": 156,
+      "chapter_id": "plg-ch-000156",
+      "title": "Chapter 156",
+      "word_count": 3430
+    },
+    {
+      "chapter": 157,
+      "chapter_id": "plg-ch-000157",
+      "title": "Chapter 157",
+      "word_count": 2944
+    },
+    {
+      "chapter": 158,
+      "chapter_id": "plg-ch-000158",
+      "title": "Chapter 158",
+      "word_count": 2893
+    },
+    {
+      "chapter": 159,
+      "chapter_id": "plg-ch-000159",
+      "title": "Chapter 159",
+      "word_count": 3395
+    },
+    {
+      "chapter": 160,
+      "chapter_id": "plg-ch-000160",
+      "title": "Chapter 160",
+      "word_count": 3021
+    },
+    {
+      "chapter": 161,
+      "chapter_id": "plg-ch-000161",
+      "title": "Chapter 161",
+      "word_count": 3248
+    },
+    {
+      "chapter": 162,
+      "chapter_id": "plg-ch-000162",
+      "title": "Chapter 162",
+      "word_count": 3503
+    },
+    {
+      "chapter": 163,
+      "chapter_id": "plg-ch-000163",
+      "title": "Chapter 163",
+      "word_count": 3183
+    },
+    {
+      "chapter": 164,
+      "chapter_id": "plg-ch-000164",
+      "title": "Chapter 164",
+      "word_count": 2597
+    },
+    {
+      "chapter": 165,
+      "chapter_id": "plg-ch-000165",
+      "title": "Chapter 165",
+      "word_count": 3063
+    },
+    {
+      "chapter": 166,
+      "chapter_id": "plg-ch-000166",
+      "title": "Chapter 166",
+      "word_count": 2730
+    },
+    {
+      "chapter": 167,
+      "chapter_id": "plg-ch-000167",
+      "title": "Chapter 167",
+      "word_count": 2753
+    },
+    {
+      "chapter": 168,
+      "chapter_id": "plg-ch-000168",
+      "title": "Chapter 168",
+      "word_count": 3068
+    },
+    {
+      "chapter": 169,
+      "chapter_id": "plg-ch-000169",
+      "title": "Chapter 169",
+      "word_count": 3078
+    },
+    {
+      "chapter": 170,
+      "chapter_id": "plg-ch-000170",
+      "title": "Chapter 170",
+      "word_count": 2944
+    },
+    {
+      "chapter": 171,
+      "chapter_id": "plg-ch-000171",
+      "title": "Chapter 171",
+      "word_count": 3211
+    },
+    {
+      "chapter": 172,
+      "chapter_id": "plg-ch-000172",
+      "title": "Chapter 172",
+      "word_count": 2960
+    },
+    {
+      "chapter": 173,
+      "chapter_id": "plg-ch-000173",
+      "title": "Chapter 173",
+      "word_count": 2619
+    },
+    {
+      "chapter": 174,
+      "chapter_id": "plg-ch-000174",
+      "title": "Chapter 174",
+      "word_count": 2559
+    },
+    {
+      "chapter": 175,
+      "chapter_id": "plg-ch-000175",
+      "title": "Chapter 175",
+      "word_count": 2660
+    },
+    {
+      "chapter": 176,
+      "chapter_id": "plg-ch-000176",
+      "title": "Chapter 176",
+      "word_count": 3291
+    },
+    {
+      "chapter": 177,
+      "chapter_id": "plg-ch-000177",
+      "title": "Chapter 177",
+      "word_count": 2738
+    },
+    {
+      "chapter": 178,
+      "chapter_id": "plg-ch-000178",
+      "title": "Chapter 178",
+      "word_count": 2698
+    },
+    {
+      "chapter": 179,
+      "chapter_id": "plg-ch-000179",
+      "title": "Chapter 179",
+      "word_count": 2552
+    },
+    {
+      "chapter": 180,
+      "chapter_id": "plg-ch-000180",
+      "title": "Chapter 180",
+      "word_count": 2694
+    },
+    {
+      "chapter": 181,
+      "chapter_id": "plg-ch-000181",
+      "title": "Chapter 181",
+      "word_count": 2661
+    },
+    {
+      "chapter": 182,
+      "chapter_id": "plg-ch-000182",
+      "title": "Chapter 182",
+      "word_count": 3048
+    },
+    {
+      "chapter": 183,
+      "chapter_id": "plg-ch-000183",
+      "title": "Chapter 183",
+      "word_count": 2892
+    },
+    {
+      "chapter": 184,
+      "chapter_id": "plg-ch-000184",
+      "title": "Chapter 184",
+      "word_count": 2594
+    },
+    {
+      "chapter": 185,
+      "chapter_id": "plg-ch-000185",
+      "title": "Chapter 185",
+      "word_count": 2935
+    },
+    {
+      "chapter": 186,
+      "chapter_id": "plg-ch-000186",
+      "title": "Chapter 186",
+      "word_count": 2949
+    },
+    {
+      "chapter": 187,
+      "chapter_id": "plg-ch-000187",
+      "title": "Chapter 187",
+      "word_count": 2870
+    },
+    {
+      "chapter": 188,
+      "chapter_id": "plg-ch-000188",
+      "title": "Chapter 188",
+      "word_count": 3025
+    },
+    {
+      "chapter": 189,
+      "chapter_id": "plg-ch-000189",
+      "title": "Chapter 189",
+      "word_count": 2962
+    },
+    {
+      "chapter": 190,
+      "chapter_id": "plg-ch-000190",
+      "title": "Chapter 190",
+      "word_count": 3028
+    },
+    {
+      "chapter": 191,
+      "chapter_id": "plg-ch-000191",
+      "title": "Chapter 191",
+      "word_count": 3077
+    },
+    {
+      "chapter": 192,
+      "chapter_id": "plg-ch-000192",
+      "title": "Chapter 192",
+      "word_count": 2728
+    },
+    {
+      "chapter": 193,
+      "chapter_id": "plg-ch-000193",
+      "title": "Chapter 193",
+      "word_count": 3015
+    },
+    {
+      "chapter": 194,
+      "chapter_id": "plg-ch-000194",
+      "title": "Chapter 194",
+      "word_count": 2839
+    },
+    {
+      "chapter": 195,
+      "chapter_id": "plg-ch-000195",
+      "title": "Chapter 195",
+      "word_count": 2671
+    },
+    {
+      "chapter": 196,
+      "chapter_id": "plg-ch-000196",
+      "title": "Chapter 196",
+      "word_count": 2982
+    },
+    {
+      "chapter": 197,
+      "chapter_id": "plg-ch-000197",
+      "title": "Chapter 197",
+      "word_count": 2733
+    },
+    {
+      "chapter": 198,
+      "chapter_id": "plg-ch-000198",
+      "title": "Chapter 198",
+      "word_count": 3470
+    },
+    {
+      "chapter": 199,
+      "chapter_id": "plg-ch-000199",
+      "title": "Chapter 199",
+      "word_count": 3452
+    },
+    {
+      "chapter": 200,
+      "chapter_id": "plg-ch-000200",
+      "title": "Chapter 200",
+      "word_count": 3349
+    },
+    {
+      "chapter": 201,
+      "chapter_id": "plg-ch-000201",
+      "title": "Chapter 201",
+      "word_count": 2793
+    },
+    {
+      "chapter": 202,
+      "chapter_id": "plg-ch-000202",
+      "title": "Chapter 202",
+      "word_count": 2989
+    },
+    {
+      "chapter": 203,
+      "chapter_id": "plg-ch-000203",
+      "title": "Chapter 203",
+      "word_count": 3255
+    },
+    {
+      "chapter": 204,
+      "chapter_id": "plg-ch-000204",
+      "title": "Chapter 204",
+      "word_count": 2520
+    },
+    {
+      "chapter": 205,
+      "chapter_id": "plg-ch-000205",
+      "title": "Chapter 205",
+      "word_count": 2648
+    },
+    {
+      "chapter": 206,
+      "chapter_id": "plg-ch-000206",
+      "title": "Chapter 206",
+      "word_count": 3086
+    },
+    {
+      "chapter": 207,
+      "chapter_id": "plg-ch-000207",
+      "title": "Chapter 207",
+      "word_count": 3289
+    },
+    {
+      "chapter": 208,
+      "chapter_id": "plg-ch-000208",
+      "title": "Chapter 208",
+      "word_count": 2843
+    },
+    {
+      "chapter": 209,
+      "chapter_id": "plg-ch-000209",
+      "title": "Chapter 209",
+      "word_count": 2702
+    },
+    {
+      "chapter": 210,
+      "chapter_id": "plg-ch-000210",
+      "title": "Chapter 210",
+      "word_count": 2636
+    },
+    {
+      "chapter": 211,
+      "chapter_id": "plg-ch-000211",
+      "title": "Chapter 211",
+      "word_count": 2540
+    },
+    {
+      "chapter": 212,
+      "chapter_id": "plg-ch-000212",
+      "title": "Chapter 212",
+      "word_count": 2550
+    },
+    {
+      "chapter": 213,
+      "chapter_id": "plg-ch-000213",
+      "title": "Chapter 213",
+      "word_count": 2939
+    },
+    {
+      "chapter": 214,
+      "chapter_id": "plg-ch-000214",
+      "title": "Chapter 214",
+      "word_count": 2898
+    },
+    {
+      "chapter": 215,
+      "chapter_id": "plg-ch-000215",
+      "title": "Chapter 215",
+      "word_count": 2538
+    },
+    {
+      "chapter": 216,
+      "chapter_id": "plg-ch-000216",
+      "title": "Chapter 216",
+      "word_count": 3115
+    },
+    {
+      "chapter": 217,
+      "chapter_id": "plg-ch-000217",
+      "title": "Chapter 217",
+      "word_count": 2698
+    },
+    {
+      "chapter": 218,
+      "chapter_id": "plg-ch-000218",
+      "title": "Chapter 218",
+      "word_count": 2915
+    },
+    {
+      "chapter": 219,
+      "chapter_id": "plg-ch-000219",
+      "title": "Chapter 219",
+      "word_count": 2888
+    },
+    {
+      "chapter": 220,
+      "chapter_id": "plg-ch-000220",
+      "title": "Chapter 220",
+      "word_count": 2697
+    },
+    {
+      "chapter": 221,
+      "chapter_id": "plg-ch-000221",
+      "title": "Chapter 221",
+      "word_count": 2817
+    },
+    {
+      "chapter": 222,
+      "chapter_id": "plg-ch-000222",
+      "title": "Chapter 222",
+      "word_count": 3193
+    },
+    {
+      "chapter": 223,
+      "chapter_id": "plg-ch-000223",
+      "title": "Chapter 223",
+      "word_count": 2739
+    },
+    {
+      "chapter": 224,
+      "chapter_id": "plg-ch-000224",
+      "title": "Chapter 224",
+      "word_count": 2872
+    },
+    {
+      "chapter": 225,
+      "chapter_id": "plg-ch-000225",
+      "title": "Chapter 225",
+      "word_count": 3435
+    },
+    {
+      "chapter": 226,
+      "chapter_id": "plg-ch-000226",
+      "title": "Chapter 226",
+      "word_count": 3513
+    },
+    {
+      "chapter": 227,
+      "chapter_id": "plg-ch-000227",
+      "title": "Chapter 227",
+      "word_count": 3601
+    },
+    {
+      "chapter": 228,
+      "chapter_id": "plg-ch-000228",
+      "title": "Chapter 228",
+      "word_count": 3738
+    },
+    {
+      "chapter": 229,
+      "chapter_id": "plg-ch-000229",
+      "title": "Chapter 229",
+      "word_count": 2841
+    },
+    {
+      "chapter": 230,
+      "chapter_id": "plg-ch-000230",
+      "title": "Chapter 230",
+      "word_count": 2868
+    },
+    {
+      "chapter": 231,
+      "chapter_id": "plg-ch-000231",
+      "title": "Chapter 231",
+      "word_count": 3547
+    },
+    {
+      "chapter": 232,
+      "chapter_id": "plg-ch-000232",
+      "title": "Chapter 232",
+      "word_count": 2921
+    },
+    {
+      "chapter": 233,
+      "chapter_id": "plg-ch-000233",
+      "title": "Chapter 233",
+      "word_count": 2583
+    },
+    {
+      "chapter": 234,
+      "chapter_id": "plg-ch-000234",
+      "title": "Chapter 234",
+      "word_count": 2639
+    },
+    {
+      "chapter": 235,
+      "chapter_id": "plg-ch-000235",
+      "title": "Chapter 235",
+      "word_count": 2824
+    },
+    {
+      "chapter": 236,
+      "chapter_id": "plg-ch-000236",
+      "title": "Chapter 236",
+      "word_count": 2680
+    },
+    {
+      "chapter": 237,
+      "chapter_id": "plg-ch-000237",
+      "title": "Chapter 237",
+      "word_count": 2866
+    },
+    {
+      "chapter": 238,
+      "chapter_id": "plg-ch-000238",
+      "title": "Chapter 238",
+      "word_count": 2687
+    },
+    {
+      "chapter": 239,
+      "chapter_id": "plg-ch-000239",
+      "title": "Chapter 239",
+      "word_count": 2651
+    },
+    {
+      "chapter": 240,
+      "chapter_id": "plg-ch-000240",
+      "title": "Chapter 240",
+      "word_count": 2523
+    },
+    {
+      "chapter": 241,
+      "chapter_id": "plg-ch-000241",
+      "title": "Chapter 241",
+      "word_count": 3000
+    },
+    {
+      "chapter": 242,
+      "chapter_id": "plg-ch-000242",
+      "title": "Chapter 242",
+      "word_count": 2549
+    },
+    {
+      "chapter": 243,
+      "chapter_id": "plg-ch-000243",
+      "title": "Chapter 243",
+      "word_count": 3254
+    },
+    {
+      "chapter": 244,
+      "chapter_id": "plg-ch-000244",
+      "title": "Chapter 244",
+      "word_count": 2750
+    },
+    {
+      "chapter": 245,
+      "chapter_id": "plg-ch-000245",
+      "title": "Chapter 245",
+      "word_count": 2690
+    },
+    {
+      "chapter": 246,
+      "chapter_id": "plg-ch-000246",
+      "title": "Chapter 246",
+      "word_count": 2633
+    },
+    {
+      "chapter": 247,
+      "chapter_id": "plg-ch-000247",
+      "title": "Chapter 247",
+      "word_count": 3541
+    },
+    {
+      "chapter": 248,
+      "chapter_id": "plg-ch-000248",
+      "title": "Chapter 248",
+      "word_count": 2957
+    },
+    {
+      "chapter": 249,
+      "chapter_id": "plg-ch-000249",
+      "title": "Chapter 249",
+      "word_count": 3425
+    },
+    {
+      "chapter": 250,
+      "chapter_id": "plg-ch-000250",
+      "title": "Chapter 250",
+      "word_count": 3489
+    },
+    {
+      "chapter": 251,
+      "chapter_id": "plg-ch-000251",
+      "title": "Chapter 251",
+      "word_count": 2912
+    },
+    {
+      "chapter": 252,
+      "chapter_id": "plg-ch-000252",
+      "title": "Chapter 252",
+      "word_count": 3242
+    },
+    {
+      "chapter": 253,
+      "chapter_id": "plg-ch-000253",
+      "title": "Chapter 253",
+      "word_count": 3309
+    },
+    {
+      "chapter": 254,
+      "chapter_id": "plg-ch-000254",
+      "title": "Chapter 254",
+      "word_count": 3871
+    },
+    {
+      "chapter": 255,
+      "chapter_id": "plg-ch-000255",
+      "title": "Chapter 255",
+      "word_count": 3155
+    },
+    {
+      "chapter": 256,
+      "chapter_id": "plg-ch-000256",
+      "title": "Chapter 256",
+      "word_count": 2921
+    },
+    {
+      "chapter": 257,
+      "chapter_id": "plg-ch-000257",
+      "title": "Chapter 257",
+      "word_count": 2799
+    },
+    {
+      "chapter": 258,
+      "chapter_id": "plg-ch-000258",
+      "title": "Chapter 258",
+      "word_count": 3286
+    },
+    {
+      "chapter": 259,
+      "chapter_id": "plg-ch-000259",
+      "title": "Chapter 259",
+      "word_count": 3153
+    },
+    {
+      "chapter": 260,
+      "chapter_id": "plg-ch-000260",
+      "title": "Chapter 260",
+      "word_count": 2738
+    },
+    {
+      "chapter": 261,
+      "chapter_id": "plg-ch-000261",
+      "title": "Chapter 261",
+      "word_count": 2685
+    },
+    {
+      "chapter": 262,
+      "chapter_id": "plg-ch-000262",
+      "title": "Chapter 262",
+      "word_count": 2959
+    },
+    {
+      "chapter": 263,
+      "chapter_id": "plg-ch-000263",
+      "title": "Chapter 263",
+      "word_count": 2861
+    },
+    {
+      "chapter": 264,
+      "chapter_id": "plg-ch-000264",
+      "title": "Chapter 264",
+      "word_count": 2599
+    },
+    {
+      "chapter": 265,
+      "chapter_id": "plg-ch-000265",
+      "title": "Chapter 265",
+      "word_count": 2556
+    },
+    {
+      "chapter": 266,
+      "chapter_id": "plg-ch-000266",
+      "title": "Chapter 266",
+      "word_count": 3190
+    },
+    {
+      "chapter": 267,
+      "chapter_id": "plg-ch-000267",
+      "title": "Chapter 267",
+      "word_count": 2868
+    },
+    {
+      "chapter": 268,
+      "chapter_id": "plg-ch-000268",
+      "title": "Chapter 268",
+      "word_count": 3100
+    },
+    {
+      "chapter": 269,
+      "chapter_id": "plg-ch-000269",
+      "title": "Chapter 269",
+      "word_count": 2679
+    },
+    {
+      "chapter": 270,
+      "chapter_id": "plg-ch-000270",
+      "title": "Chapter 270",
+      "word_count": 2200
+    },
+    {
+      "chapter": 271,
+      "chapter_id": "plg-ch-000271",
+      "title": "Chapter 271",
+      "word_count": 2763
+    },
+    {
+      "chapter": 272,
+      "chapter_id": "plg-ch-000272",
+      "title": "Chapter 272",
+      "word_count": 2749
+    },
+    {
+      "chapter": 273,
+      "chapter_id": "plg-ch-000273",
+      "title": "Chapter 273",
+      "word_count": 2458
+    },
+    {
+      "chapter": 274,
+      "chapter_id": "plg-ch-000274",
+      "title": "Chapter 274",
+      "word_count": 2921
+    },
+    {
+      "chapter": 275,
+      "chapter_id": "plg-ch-000275",
+      "title": "Chapter 275",
+      "word_count": 3006
+    },
+    {
+      "chapter": 276,
+      "chapter_id": "plg-ch-000276",
+      "title": "Chapter 276",
+      "word_count": 2988
+    },
+    {
+      "chapter": 277,
+      "chapter_id": "plg-ch-000277",
+      "title": "Chapter 277",
+      "word_count": 3402
+    },
+    {
+      "chapter": 278,
+      "chapter_id": "plg-ch-000278",
+      "title": "Chapter 278",
+      "word_count": 3586
+    },
+    {
+      "chapter": 279,
+      "chapter_id": "plg-ch-000279",
+      "title": "Chapter 279",
+      "word_count": 4463
+    },
+    {
+      "chapter": 280,
+      "chapter_id": "plg-ch-000280",
+      "title": "Chapter 280",
+      "word_count": 2366
+    },
+    {
+      "chapter": 281,
+      "chapter_id": "plg-ch-000281",
+      "title": "Chapter 281",
+      "word_count": 4086
+    },
+    {
+      "chapter": 282,
+      "chapter_id": "plg-ch-000282",
+      "title": "Chapter 282",
+      "word_count": 2994
+    },
+    {
+      "chapter": 283,
+      "chapter_id": "plg-ch-000283",
+      "title": "Chapter 283",
+      "word_count": 2426
+    },
+    {
+      "chapter": 284,
+      "chapter_id": "plg-ch-000284",
+      "title": "Chapter 284",
+      "word_count": 3454
+    },
+    {
+      "chapter": 285,
+      "chapter_id": "plg-ch-000285",
+      "title": "Chapter 285",
+      "word_count": 3734
+    },
+    {
+      "chapter": 286,
+      "chapter_id": "plg-ch-000286",
+      "title": "Chapter 286",
+      "word_count": 3032
+    },
+    {
+      "chapter": 287,
+      "chapter_id": "plg-ch-000287",
+      "title": "Chapter 287",
+      "word_count": 2390
+    },
+    {
+      "chapter": 288,
+      "chapter_id": "plg-ch-000288",
+      "title": "Chapter 288",
+      "word_count": 2775
+    },
+    {
+      "chapter": 289,
+      "chapter_id": "plg-ch-000289",
+      "title": "Chapter 289",
+      "word_count": 2944
+    },
+    {
+      "chapter": 290,
+      "chapter_id": "plg-ch-000290",
+      "title": "Chapter 290",
+      "word_count": 2449
+    },
+    {
+      "chapter": 291,
+      "chapter_id": "plg-ch-000291",
+      "title": "Chapter 291",
+      "word_count": 2649
+    },
+    {
+      "chapter": 292,
+      "chapter_id": "plg-ch-000292",
+      "title": "Chapter 292",
+      "word_count": 2140
+    },
+    {
+      "chapter": 293,
+      "chapter_id": "plg-ch-000293",
+      "title": "Chapter 293",
+      "word_count": 2769
+    },
+    {
+      "chapter": 294,
+      "chapter_id": "plg-ch-000294",
+      "title": "Chapter 294",
+      "word_count": 2644
+    },
+    {
+      "chapter": 295,
+      "chapter_id": "plg-ch-000295",
+      "title": "Chapter 295",
+      "word_count": 2671
+    },
+    {
+      "chapter": 296,
+      "chapter_id": "plg-ch-000296",
+      "title": "Chapter 296",
+      "word_count": 2967
+    },
+    {
+      "chapter": 297,
+      "chapter_id": "plg-ch-000297",
+      "title": "Chapter 297",
+      "word_count": 3756
+    },
+    {
+      "chapter": 298,
+      "chapter_id": "plg-ch-000298",
+      "title": "Chapter 298",
+      "word_count": 2637
+    },
+    {
+      "chapter": 299,
+      "chapter_id": "plg-ch-000299",
+      "title": "Chapter 299",
+      "word_count": 3547
+    },
+    {
+      "chapter": 300,
+      "chapter_id": "plg-ch-000300",
+      "title": "Chapter 300",
+      "word_count": 2946
+    },
+    {
+      "chapter": 301,
+      "chapter_id": "plg-ch-000301",
+      "title": "Chapter 301",
+      "word_count": 2807
+    },
+    {
+      "chapter": 302,
+      "chapter_id": "plg-ch-000302",
+      "title": "Chapter 302",
+      "word_count": 2842
+    },
+    {
+      "chapter": 303,
+      "chapter_id": "plg-ch-000303",
+      "title": "Chapter 303",
+      "word_count": 2852
+    },
+    {
+      "chapter": 304,
+      "chapter_id": "plg-ch-000304",
+      "title": "Chapter 304",
+      "word_count": 3032
+    },
+    {
+      "chapter": 305,
+      "chapter_id": "plg-ch-000305",
+      "title": "Chapter 305",
+      "word_count": 3873
+    },
+    {
+      "chapter": 306,
+      "chapter_id": "plg-ch-000306",
+      "title": "Chapter 306",
+      "word_count": 3566
+    },
+    {
+      "chapter": 307,
+      "chapter_id": "plg-ch-000307",
+      "title": "Chapter 307",
+      "word_count": 2602
+    },
+    {
+      "chapter": 308,
+      "chapter_id": "plg-ch-000308",
+      "title": "Chapter 308",
+      "word_count": 2868
+    },
+    {
+      "chapter": 309,
+      "chapter_id": "plg-ch-000309",
+      "title": "Chapter 309",
+      "word_count": 3555
+    },
+    {
+      "chapter": 310,
+      "chapter_id": "plg-ch-000310",
+      "title": "Chapter 310",
+      "word_count": 3241
+    },
+    {
+      "chapter": 311,
+      "chapter_id": "plg-ch-000311",
+      "title": "Chapter 311",
+      "word_count": 3140
+    },
+    {
+      "chapter": 312,
+      "chapter_id": "plg-ch-000312",
+      "title": "Chapter 312",
+      "word_count": 2841
+    },
+    {
+      "chapter": 313,
+      "chapter_id": "plg-ch-000313",
+      "title": "Chapter 313",
+      "word_count": 3312
+    },
+    {
+      "chapter": 314,
+      "chapter_id": "plg-ch-000314",
+      "title": "Chapter 314",
+      "word_count": 2664
+    },
+    {
+      "chapter": 315,
+      "chapter_id": "plg-ch-000315",
+      "title": "Chapter 315",
+      "word_count": 2252
+    },
+    {
+      "chapter": 316,
+      "chapter_id": "plg-ch-000316",
+      "title": "Chapter 316",
+      "word_count": 1873
+    },
+    {
+      "chapter": 317,
+      "chapter_id": "plg-ch-000317",
+      "title": "Chapter 317",
+      "word_count": 1894
+    },
+    {
+      "chapter": 318,
+      "chapter_id": "plg-ch-000318",
+      "title": "Chapter 318",
+      "word_count": 1498
+    },
+    {
+      "chapter": 319,
+      "chapter_id": "plg-ch-000319",
+      "title": "Chapter 319",
+      "word_count": 1780
+    },
+    {
+      "chapter": 320,
+      "chapter_id": "plg-ch-000320",
+      "title": "Chapter 320",
+      "word_count": 3137
+    },
+    {
+      "chapter": 321,
+      "chapter_id": "plg-ch-000321",
+      "title": "Chapter 321",
+      "word_count": 2986
+    },
+    {
+      "chapter": 322,
+      "chapter_id": "plg-ch-000322",
+      "title": "Chapter 322",
+      "word_count": 2898
+    },
+    {
+      "chapter": 323,
+      "chapter_id": "plg-ch-000323",
+      "title": "Chapter 323",
+      "word_count": 2681
+    },
+    {
+      "chapter": 324,
+      "chapter_id": "plg-ch-000324",
+      "title": "Chapter 324",
+      "word_count": 2141
+    },
+    {
+      "chapter": 325,
+      "chapter_id": "plg-ch-000325",
+      "title": "Chapter 325",
+      "word_count": 2723
+    },
+    {
+      "chapter": 326,
+      "chapter_id": "plg-ch-000326",
+      "title": "Chapter 326",
+      "word_count": 2916
+    },
+    {
+      "chapter": 327,
+      "chapter_id": "plg-ch-000327",
+      "title": "Chapter 327",
+      "word_count": 2450
+    },
+    {
+      "chapter": 328,
+      "chapter_id": "plg-ch-000328",
+      "title": "Chapter 328",
+      "word_count": 2651
+    },
+    {
+      "chapter": 329,
+      "chapter_id": "plg-ch-000329",
+      "title": "Chapter 329",
+      "word_count": 2469
+    },
+    {
+      "chapter": 330,
+      "chapter_id": "plg-ch-000330",
+      "title": "Chapter 330",
+      "word_count": 2583
+    },
+    {
+      "chapter": 331,
+      "chapter_id": "plg-ch-000331",
+      "title": "Chapter 331",
+      "word_count": 2829
+    },
+    {
+      "chapter": 332,
+      "chapter_id": "plg-ch-000332",
+      "title": "Chapter 332",
+      "word_count": 2888
+    },
+    {
+      "chapter": 333,
+      "chapter_id": "plg-ch-000333",
+      "title": "Chapter 333",
+      "word_count": 1872
+    },
+    {
+      "chapter": 334,
+      "chapter_id": "plg-ch-000334",
+      "title": "Chapter 334",
+      "word_count": 2960
+    },
+    {
+      "chapter": 335,
+      "chapter_id": "plg-ch-000335",
+      "title": "Chapter 335",
+      "word_count": 2927
+    },
+    {
+      "chapter": 336,
+      "chapter_id": "plg-ch-000336",
+      "title": "Chapter 336",
+      "word_count": 2202
+    },
+    {
+      "chapter": 337,
+      "chapter_id": "plg-ch-000337",
+      "title": "Chapter 337",
+      "word_count": 1991
+    },
+    {
+      "chapter": 338,
+      "chapter_id": "plg-ch-000338",
+      "title": "Chapter 338",
+      "word_count": 3347
+    },
+    {
+      "chapter": 339,
+      "chapter_id": "plg-ch-000339",
+      "title": "Chapter 339",
+      "word_count": 2230
+    },
+    {
+      "chapter": 340,
+      "chapter_id": "plg-ch-000340",
+      "title": "Chapter 340",
+      "word_count": 2513
+    },
+    {
+      "chapter": 341,
+      "chapter_id": "plg-ch-000341",
+      "title": "Chapter 341",
+      "word_count": 3097
+    },
+    {
+      "chapter": 342,
+      "chapter_id": "plg-ch-000342",
+      "title": "Chapter 342",
+      "word_count": 2657
+    },
+    {
+      "chapter": 343,
+      "chapter_id": "plg-ch-000343",
+      "title": "Chapter 343",
+      "word_count": 2105
+    },
+    {
+      "chapter": 344,
+      "chapter_id": "plg-ch-000344",
+      "title": "Chapter 344",
+      "word_count": 2677
+    },
+    {
+      "chapter": 345,
+      "chapter_id": "plg-ch-000345",
+      "title": "Chapter 345",
+      "word_count": 2321
+    },
+    {
+      "chapter": 346,
+      "chapter_id": "plg-ch-000346",
+      "title": "Chapter 346",
+      "word_count": 1533
+    },
+    {
+      "chapter": 347,
+      "chapter_id": "plg-ch-000347",
+      "title": "Chapter 347",
+      "word_count": 3157
+    },
+    {
+      "chapter": 348,
+      "chapter_id": "plg-ch-000348",
+      "title": "Chapter 348",
+      "word_count": 2720
+    },
+    {
+      "chapter": 349,
+      "chapter_id": "plg-ch-000349",
+      "title": "Chapter 349",
+      "word_count": 2290
+    },
+    {
+      "chapter": 350,
+      "chapter_id": "plg-ch-000350",
+      "title": "Chapter 350",
+      "word_count": 2592
+    },
+    {
+      "chapter": 351,
+      "chapter_id": "plg-ch-000351",
+      "title": "Chapter 351",
+      "word_count": 2084
+    },
+    {
+      "chapter": 352,
+      "chapter_id": "plg-ch-000352",
+      "title": "Chapter 352",
+      "word_count": 2500
+    },
+    {
+      "chapter": 353,
+      "chapter_id": "plg-ch-000353",
+      "title": "Chapter 353",
+      "word_count": 2116
+    },
+    {
+      "chapter": 354,
+      "chapter_id": "plg-ch-000354",
+      "title": "Chapter 354",
+      "word_count": 2959
+    },
+    {
+      "chapter": 355,
+      "chapter_id": "plg-ch-000355",
+      "title": "Chapter 355",
+      "word_count": 2548
+    },
+    {
+      "chapter": 356,
+      "chapter_id": "plg-ch-000356",
+      "title": "Chapter 356",
+      "word_count": 2463
+    },
+    {
+      "chapter": 357,
+      "chapter_id": "plg-ch-000357",
+      "title": "Chapter 357",
+      "word_count": 1892
+    },
+    {
+      "chapter": 358,
+      "chapter_id": "plg-ch-000358",
+      "title": "Chapter 358",
+      "word_count": 2382
+    },
+    {
+      "chapter": 359,
+      "chapter_id": "plg-ch-000359",
+      "title": "Chapter 359",
+      "word_count": 2333
+    },
+    {
+      "chapter": 360,
+      "chapter_id": "plg-ch-000360",
+      "title": "Chapter 360",
+      "word_count": 2124
+    },
+    {
+      "chapter": 361,
+      "chapter_id": "plg-ch-000361",
+      "title": "Chapter 361",
+      "word_count": 2615
+    },
+    {
+      "chapter": 362,
+      "chapter_id": "plg-ch-000362",
+      "title": "Chapter 362",
+      "word_count": 3168
+    },
+    {
+      "chapter": 363,
+      "chapter_id": "plg-ch-000363",
+      "title": "Chapter 363",
+      "word_count": 2782
+    },
+    {
+      "chapter": 364,
+      "chapter_id": "plg-ch-000364",
+      "title": "Chapter 364",
+      "word_count": 2123
+    },
+    {
+      "chapter": 365,
+      "chapter_id": "plg-ch-000365",
+      "title": "Chapter 365",
+      "word_count": 2789
+    },
+    {
+      "chapter": 366,
+      "chapter_id": "plg-ch-000366",
+      "title": "Chapter 366",
+      "word_count": 2048
+    },
+    {
+      "chapter": 367,
+      "chapter_id": "plg-ch-000367",
+      "title": "Chapter 367",
+      "word_count": 2545
+    },
+    {
+      "chapter": 368,
+      "chapter_id": "plg-ch-000368",
+      "title": "Chapter 368",
+      "word_count": 2628
+    },
+    {
+      "chapter": 369,
+      "chapter_id": "plg-ch-000369",
+      "title": "Chapter 369",
+      "word_count": 2776
+    },
+    {
+      "chapter": 370,
+      "chapter_id": "plg-ch-000370",
+      "title": "Chapter 370",
+      "word_count": 2549
+    },
+    {
+      "chapter": 371,
+      "chapter_id": "plg-ch-000371",
+      "title": "Chapter 371",
+      "word_count": 3014
+    },
+    {
+      "chapter": 372,
+      "chapter_id": "plg-ch-000372",
+      "title": "Chapter 372",
+      "word_count": 2950
+    },
+    {
+      "chapter": 373,
+      "chapter_id": "plg-ch-000373",
+      "title": "Chapter 373",
+      "word_count": 2871
+    },
+    {
+      "chapter": 374,
+      "chapter_id": "plg-ch-000374",
+      "title": "Chapter 374",
+      "word_count": 3068
+    },
+    {
+      "chapter": 375,
+      "chapter_id": "plg-ch-000375",
+      "title": "Chapter 375",
+      "word_count": 2310
+    },
+    {
+      "chapter": 376,
+      "chapter_id": "plg-ch-000376",
+      "title": "Chapter 376",
+      "word_count": 3072
+    },
+    {
+      "chapter": 377,
+      "chapter_id": "plg-ch-000377",
+      "title": "Chapter 377",
+      "word_count": 2291
+    },
+    {
+      "chapter": 378,
+      "chapter_id": "plg-ch-000378",
+      "title": "Chapter 378",
+      "word_count": 2321
+    },
+    {
+      "chapter": 379,
+      "chapter_id": "plg-ch-000379",
+      "title": "Chapter 379",
+      "word_count": 2355
+    },
+    {
+      "chapter": 380,
+      "chapter_id": "plg-ch-000380",
+      "title": "Chapter 380",
+      "word_count": 4048
+    },
+    {
+      "chapter": 381,
+      "chapter_id": "plg-ch-000381",
+      "title": "Chapter 381",
+      "word_count": 3126
+    },
+    {
+      "chapter": 382,
+      "chapter_id": "plg-ch-000382",
+      "title": "Chapter 382",
+      "word_count": 2934
+    },
+    {
+      "chapter": 383,
+      "chapter_id": "plg-ch-000383",
+      "title": "Chapter 383",
+      "word_count": 2466
+    },
+    {
+      "chapter": 384,
+      "chapter_id": "plg-ch-000384",
+      "title": "Chapter 384",
+      "word_count": 2109
+    },
+    {
+      "chapter": 385,
+      "chapter_id": "plg-ch-000385",
+      "title": "Chapter 385",
+      "word_count": 3271
+    },
+    {
+      "chapter": 386,
+      "chapter_id": "plg-ch-000386",
+      "title": "Chapter 386",
+      "word_count": 2933
+    },
+    {
+      "chapter": 387,
+      "chapter_id": "plg-ch-000387",
+      "title": "Chapter 387",
+      "word_count": 2304
+    },
+    {
+      "chapter": 388,
+      "chapter_id": "plg-ch-000388",
+      "title": "Chapter 388",
+      "word_count": 3561
+    },
+    {
+      "chapter": 389,
+      "chapter_id": "plg-ch-000389",
+      "title": "Chapter 389",
+      "word_count": 2638
+    },
+    {
+      "chapter": 390,
+      "chapter_id": "plg-ch-000390",
+      "title": "Chapter 390",
+      "word_count": 2707
+    },
+    {
+      "chapter": 391,
+      "chapter_id": "plg-ch-000391",
+      "title": "Chapter 391",
+      "word_count": 3395
+    },
+    {
+      "chapter": 392,
+      "chapter_id": "plg-ch-000392",
+      "title": "Chapter 392",
+      "word_count": 2359
+    },
+    {
+      "chapter": 393,
+      "chapter_id": "plg-ch-000393",
+      "title": "Chapter 393",
+      "word_count": 2177
+    },
+    {
+      "chapter": 394,
+      "chapter_id": "plg-ch-000394",
+      "title": "Chapter 394",
+      "word_count": 1872
+    },
+    {
+      "chapter": 395,
+      "chapter_id": "plg-ch-000395",
+      "title": "Chapter 395",
+      "word_count": 2980
+    },
+    {
+      "chapter": 396,
+      "chapter_id": "plg-ch-000396",
+      "title": "Chapter 396",
+      "word_count": 2217
+    },
+    {
+      "chapter": 397,
+      "chapter_id": "plg-ch-000397",
+      "title": "Chapter 397",
+      "word_count": 2129
+    },
+    {
+      "chapter": 398,
+      "chapter_id": "plg-ch-000398",
+      "title": "Chapter 398",
+      "word_count": 2031
+    },
+    {
+      "chapter": 399,
+      "chapter_id": "plg-ch-000399",
+      "title": "Chapter 399",
+      "word_count": 2860
+    },
+    {
+      "chapter": 400,
+      "chapter_id": "plg-ch-000400",
+      "title": "Chapter 400",
+      "word_count": 2127
+    },
+    {
+      "chapter": 401,
+      "chapter_id": "plg-ch-000401",
+      "title": "Chapter 401",
+      "word_count": 2524
+    },
+    {
+      "chapter": 402,
+      "chapter_id": "plg-ch-000402",
+      "title": "Chapter 402",
+      "word_count": 2601
+    },
+    {
+      "chapter": 403,
+      "chapter_id": "plg-ch-000403",
+      "title": "Chapter 403",
+      "word_count": 1815
+    },
+    {
+      "chapter": 404,
+      "chapter_id": "plg-ch-000404",
+      "title": "Chapter 404",
+      "word_count": 2343
+    },
+    {
+      "chapter": 405,
+      "chapter_id": "plg-ch-000405",
+      "title": "Chapter 405",
+      "word_count": 2540
+    },
+    {
+      "chapter": 406,
+      "chapter_id": "plg-ch-000406",
+      "title": "Chapter 406",
+      "word_count": 2701
+    },
+    {
+      "chapter": 407,
+      "chapter_id": "plg-ch-000407",
+      "title": "Chapter 407",
+      "word_count": 2461
+    },
+    {
+      "chapter": 408,
+      "chapter_id": "plg-ch-000408",
+      "title": "Chapter 408",
+      "word_count": 2643
+    },
+    {
+      "chapter": 409,
+      "chapter_id": "plg-ch-000409",
+      "title": "Chapter 409",
+      "word_count": 2625
+    },
+    {
+      "chapter": 410,
+      "chapter_id": "plg-ch-000410",
+      "title": "Chapter 410",
+      "word_count": 2516
+    },
+    {
+      "chapter": 411,
+      "chapter_id": "plg-ch-000411",
+      "title": "Chapter 411",
+      "word_count": 2453
+    },
+    {
+      "chapter": 412,
+      "chapter_id": "plg-ch-000412",
+      "title": "Chapter 412",
+      "word_count": 2549
+    },
+    {
+      "chapter": 413,
+      "chapter_id": "plg-ch-000413",
+      "title": "Chapter 413",
+      "word_count": 2645
+    },
+    {
+      "chapter": 414,
+      "chapter_id": "plg-ch-000414",
+      "title": "Chapter 414",
+      "word_count": 2103
+    },
+    {
+      "chapter": 415,
+      "chapter_id": "plg-ch-000415",
+      "title": "Chapter 415",
+      "word_count": 2040
+    },
+    {
+      "chapter": 416,
+      "chapter_id": "plg-ch-000416",
+      "title": "Chapter 416",
+      "word_count": 2622
+    },
+    {
+      "chapter": 417,
+      "chapter_id": "plg-ch-000417",
+      "title": "Chapter 417",
+      "word_count": 1879
+    },
+    {
+      "chapter": 418,
+      "chapter_id": "plg-ch-000418",
+      "title": "Chapter 418",
+      "word_count": 1757
+    },
+    {
+      "chapter": 419,
+      "chapter_id": "plg-ch-000419",
+      "title": "Chapter 419",
+      "word_count": 2065
+    },
+    {
+      "chapter": 420,
+      "chapter_id": "plg-ch-000420",
+      "title": "Chapter 420",
+      "word_count": 2554
+    },
+    {
+      "chapter": 421,
+      "chapter_id": "plg-ch-000421",
+      "title": "Chapter 421",
+      "word_count": 1839
+    },
+    {
+      "chapter": 422,
+      "chapter_id": "plg-ch-000422",
+      "title": "Chapter 422",
+      "word_count": 1964
+    },
+    {
+      "chapter": 423,
+      "chapter_id": "plg-ch-000423",
+      "title": "Chapter 423",
+      "word_count": 1775
+    },
+    {
+      "chapter": 424,
+      "chapter_id": "plg-ch-000424",
+      "title": "Chapter 424",
+      "word_count": 1705
+    },
+    {
+      "chapter": 425,
+      "chapter_id": "plg-ch-000425",
+      "title": "Chapter 425",
+      "word_count": 1854
+    },
+    {
+      "chapter": 426,
+      "chapter_id": "plg-ch-000426",
+      "title": "Chapter 426",
+      "word_count": 2292
+    },
+    {
+      "chapter": 427,
+      "chapter_id": "plg-ch-000427",
+      "title": "Chapter 427",
+      "word_count": 1925
+    },
+    {
+      "chapter": 428,
+      "chapter_id": "plg-ch-000428",
+      "title": "Chapter 428",
+      "word_count": 2048
+    },
+    {
+      "chapter": 429,
+      "chapter_id": "plg-ch-000429",
+      "title": "Chapter 429",
+      "word_count": 1915
+    },
+    {
+      "chapter": 430,
+      "chapter_id": "plg-ch-000430",
+      "title": "Chapter 430",
+      "word_count": 2225
+    },
+    {
+      "chapter": 431,
+      "chapter_id": "plg-ch-000431",
+      "title": "Chapter 431",
+      "word_count": 2002
+    },
+    {
+      "chapter": 432,
+      "chapter_id": "plg-ch-000432",
+      "title": "Chapter 432",
+      "word_count": 2040
+    },
+    {
+      "chapter": 433,
+      "chapter_id": "plg-ch-000433",
+      "title": "Chapter 433",
+      "word_count": 2341
+    },
+    {
+      "chapter": 434,
+      "chapter_id": "plg-ch-000434",
+      "title": "Chapter 434",
+      "word_count": 1833
+    },
+    {
+      "chapter": 435,
+      "chapter_id": "plg-ch-000435",
+      "title": "Chapter 435",
+      "word_count": 2423
+    },
+    {
+      "chapter": 436,
+      "chapter_id": "plg-ch-000436",
+      "title": "Chapter 436",
+      "word_count": 1669
+    },
+    {
+      "chapter": 437,
+      "chapter_id": "plg-ch-000437",
+      "title": "Chapter 437",
+      "word_count": 1789
+    },
+    {
+      "chapter": 438,
+      "chapter_id": "plg-ch-000438",
+      "title": "Chapter 438",
+      "word_count": 2143
+    },
+    {
+      "chapter": 439,
+      "chapter_id": "plg-ch-000439",
+      "title": "Chapter 439",
+      "word_count": 1856
+    },
+    {
+      "chapter": 440,
+      "chapter_id": "plg-ch-000440",
+      "title": "Chapter 440",
+      "word_count": 2098
+    },
+    {
+      "chapter": 441,
+      "chapter_id": "plg-ch-000441",
+      "title": "Chapter 441",
+      "word_count": 1761
+    },
+    {
+      "chapter": 442,
+      "chapter_id": "plg-ch-000442",
+      "title": "Chapter 442",
+      "word_count": 1886
+    },
+    {
+      "chapter": 443,
+      "chapter_id": "plg-ch-000443",
+      "title": "Chapter 443",
+      "word_count": 1644
+    },
+    {
+      "chapter": 444,
+      "chapter_id": "plg-ch-000444",
+      "title": "Chapter 444",
+      "word_count": 2474
+    },
+    {
+      "chapter": 445,
+      "chapter_id": "plg-ch-000445",
+      "title": "Chapter 445",
+      "word_count": 1836
+    }
+  ],
+  "ranked_candidates": [
+    {
+      "start_chapter": 75,
+      "end_chapter": 76,
+      "chapter_ids": [
+        "plg-ch-000075",
+        "plg-ch-000076"
+      ],
+      "titles": [
+        "Chapter 75",
+        "Chapter 76"
+      ],
+      "score": 0.6596,
+      "mean_length_vs_median": 1.3,
+      "suggested_action": "TIGHTEN_REVIEW",
+      "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
+      "rank": 1,
+      "confidence": "LOW"
+    },
+    {
+      "start_chapter": 60,
+      "end_chapter": 61,
+      "chapter_ids": [
+        "plg-ch-000060",
+        "plg-ch-000061"
+      ],
+      "titles": [
+        "Chapter 60",
+        "Chapter 61"
+      ],
+      "score": 0.6143,
+      "mean_length_vs_median": 1.008,
+      "suggested_action": "REVIEW",
+      "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
+      "rank": 2,
+      "confidence": "LOW"
+    },
+    {
+      "start_chapter": 250,
+      "end_chapter": 251,
+      "chapter_ids": [
+        "plg-ch-000250",
+        "plg-ch-000251"
+      ],
+      "titles": [
+        "Chapter 250",
+        "Chapter 251"
+      ],
+      "score": 0.6055,
+      "mean_length_vs_median": 1.17,
+      "suggested_action": "TIGHTEN_REVIEW",
+      "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
+      "rank": 3,
+      "confidence": "LOW"
+    },
+    {
+      "start_chapter": 159,
+      "end_chapter": 160,
+      "chapter_ids": [
+        "plg-ch-000159",
+        "plg-ch-000160"
+      ],
+      "titles": [
+        "Chapter 159",
+        "Chapter 160"
+      ],
+      "score": 0.6044,
+      "mean_length_vs_median": 1.173,
+      "suggested_action": "TIGHTEN_REVIEW",
+      "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
+      "rank": 4,
+      "confidence": "LOW"
+    },
+    {
+      "start_chapter": 327,
+      "end_chapter": 328,
+      "chapter_ids": [
+        "plg-ch-000327",
+        "plg-ch-000328"
+      ],
+      "titles": [
+        "Chapter 327",
+        "Chapter 328"
+      ],
+      "score": 0.5986,
+      "mean_length_vs_median": 0.933,
+      "suggested_action": "REVIEW",
+      "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
+      "rank": 5,
+      "confidence": "LOW"
+    },
+    {
+      "start_chapter": 151,
+      "end_chapter": 152,
+      "chapter_ids": [
+        "plg-ch-000151",
+        "plg-ch-000152"
+      ],
+      "titles": [
+        "Chapter 151",
+        "Chapter 152"
+      ],
+      "score": 0.5881,
+      "mean_length_vs_median": 0.822,
+      "suggested_action": "REVIEW",
+      "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
+      "rank": 6,
+      "confidence": "LOW"
+    },
+    {
+      "start_chapter": 207,
+      "end_chapter": 208,
+      "chapter_ids": [
+        "plg-ch-000207",
+        "plg-ch-000208"
+      ],
+      "titles": [
+        "Chapter 207",
+        "Chapter 208"
+      ],
+      "score": 0.586,
+      "mean_length_vs_median": 1.121,
+      "suggested_action": "REVIEW",
+      "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
+      "rank": 7,
+      "confidence": "LOW"
+    },
+    {
+      "start_chapter": 161,
+      "end_chapter": 162,
+      "chapter_ids": [
+        "plg-ch-000161",
+        "plg-ch-000162"
+      ],
+      "titles": [
+        "Chapter 161",
+        "Chapter 162"
+      ],
+      "score": 0.5799,
+      "mean_length_vs_median": 1.234,
+      "suggested_action": "REVIEW",
+      "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
+      "rank": 8,
+      "confidence": "LOW"
+    },
+    {
+      "start_chapter": 197,
+      "end_chapter": 198,
+      "chapter_ids": [
+        "plg-ch-000197",
+        "plg-ch-000198"
+      ],
+      "titles": [
+        "Chapter 197",
+        "Chapter 198"
+      ],
+      "score": 0.5795,
+      "mean_length_vs_median": 1.134,
+      "suggested_action": "REVIEW",
+      "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
+      "rank": 9,
+      "confidence": "LOW"
+    },
+    {
+      "start_chapter": 144,
+      "end_chapter": 145,
+      "chapter_ids": [
+        "plg-ch-000144",
+        "plg-ch-000145"
+      ],
+      "titles": [
+        "Chapter 144",
+        "Chapter 145"
+      ],
+      "score": 0.572,
+      "mean_length_vs_median": 1.307,
+      "suggested_action": "REVIEW",
+      "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
+      "rank": 10,
+      "confidence": "LOW"
+    },
+    {
+      "start_chapter": 149,
+      "end_chapter": 150,
+      "chapter_ids": [
+        "plg-ch-000149",
+        "plg-ch-000150"
+      ],
+      "titles": [
+        "Chapter 149",
+        "Chapter 150"
+      ],
+      "score": 0.5688,
+      "mean_length_vs_median": 1.068,
+      "suggested_action": "REVIEW",
+      "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
+      "rank": 11,
+      "confidence": "LOW"
+    }
+  ],
+  "repeated_titles": [],
+  "method_note": "Automated ranking detects textual/scene-language repetition only. It is a triage layer for human structural review, not authority to cut, merge, or renumber."
+}

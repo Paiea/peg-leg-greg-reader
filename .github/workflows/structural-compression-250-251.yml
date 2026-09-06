@@ -1,0 +1,49 @@
+name: Structural compression 250-251
+
+on:
+  push:
+    branches: [editor/voice-compression-pass]
+    paths:
+      - 'scripts/apply_structural_compression_250_251.py'
+      - 'tests/test_structural_compression_250_251.py'
+      - 'chapters/250.html'
+      - 'chapters/251.html'
+      - 'light/250.html'
+      - 'light/251.html'
+      - '.github/workflows/structural-compression-250-251.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  compress:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: editor/voice-compression-pass
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Run focused structural-compression tests
+        run: python -m unittest tests.test_structural_compression_250_251
+      - name: Apply structural edit to both reader surfaces
+        run: python scripts/apply_structural_compression_250_251.py --root . --write --manifest state/compression-batches/250-251.json
+      - name: Verify idempotence
+        run: |
+          sha256sum chapters/250.html chapters/251.html light/250.html light/251.html > /tmp/before.sha
+          python scripts/apply_structural_compression_250_251.py --root . --write --manifest /tmp/250-251-second.json
+          sha256sum chapters/250.html chapters/251.html light/250.html light/251.html > /tmp/after.sha
+          diff -u /tmp/before.sha /tmp/after.sha
+      - name: Verify reader surfaces agree
+        run: python scripts/apply_structural_compression_250_251.py --root . --verify
+      - name: Commit edited range
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add chapters/250.html chapters/251.html light/250.html light/251.html state/compression-batches/250-251.json
+          if [ -n "$(git status --porcelain -- chapters/250.html chapters/251.html light/250.html light/251.html state/compression-batches/250-251.json)" ]; then
+            git commit -m 'Compress substitute and understudy chapters 250 and 251'
+            git push origin HEAD:editor/voice-compression-pass
+          fi

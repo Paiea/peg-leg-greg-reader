@@ -1,0 +1,65 @@
+name: Compression Preflight
+
+on:
+  push:
+    branches:
+      - editor/voice-compression-pass
+    paths:
+      - '.github/workflows/compression-preflight.yml'
+      - 'scripts/chapter_registry.py'
+      - 'scripts/chapter_dependency_scan.py'
+      - 'scripts/compression_readiness.py'
+      - 'scripts/manuscript_authority.py'
+      - 'tests/test_compression_tooling.py'
+      - 'tests/test_dependency_scan_scope.py'
+      - 'tests/test_manuscript_authority_ranking.py'
+      - 'tests/test_book1_authority_coverage.py'
+      - 'state/manuscript/**'
+      - 'state/MANUSCRIPT_CHAPTER_INDEX.md'
+      - 'chapters/**'
+      - 'light/**'
+      - 'publishing/chapter_art_coverage.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out editor branch
+        uses: actions/checkout@v4
+        with:
+          ref: editor/voice-compression-pass
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run compression tooling tests
+        run: python -m unittest tests.test_compression_tooling tests.test_dependency_scan_scope tests.test_manuscript_authority_ranking tests.test_book1_authority_coverage
+
+      - name: Generate stable chapter registry
+        run: python scripts/chapter_registry.py --root . --output publishing/chapter_identity_registry.json
+
+      - name: Generate chapter dependency report
+        run: python scripts/chapter_dependency_scan.py --root . --output publishing/chapter_dependency_report.json
+
+      - name: Generate compression readiness report
+        run: python scripts/compression_readiness.py --root . --output publishing/compression_readiness.json
+
+      - name: Commit generated preflight reports
+        run: |
+          REPORTS='publishing/chapter_identity_registry.json publishing/chapter_dependency_report.json publishing/compression_readiness.json'
+          if [ -z "$(git status --porcelain -- $REPORTS)" ]; then
+            echo 'Preflight reports already current.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add $REPORTS
+          git commit -m 'Refresh whole-book compression preflight reports'
+          git push origin HEAD:editor/voice-compression-pass

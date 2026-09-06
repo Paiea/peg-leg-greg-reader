@@ -1,0 +1,49 @@
+name: Structural compression 197-198
+
+on:
+  push:
+    branches: [editor/voice-compression-pass]
+    paths:
+      - 'scripts/apply_structural_compression_197_198.py'
+      - 'tests/test_structural_compression_197_198.py'
+      - 'chapters/197.html'
+      - 'chapters/198.html'
+      - 'light/197.html'
+      - 'light/198.html'
+      - '.github/workflows/structural-compression-197-198.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  compress:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: editor/voice-compression-pass
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Run focused structural-compression tests
+        run: python -m unittest tests.test_structural_compression_197_198
+      - name: Apply structural edit to both reader surfaces
+        run: python scripts/apply_structural_compression_197_198.py --root . --write --manifest state/compression-batches/197-198.json
+      - name: Verify idempotence
+        run: |
+          sha256sum chapters/197.html chapters/198.html light/197.html light/198.html > /tmp/before.sha
+          python scripts/apply_structural_compression_197_198.py --root . --write --manifest /tmp/197-198-second.json
+          sha256sum chapters/197.html chapters/198.html light/197.html light/198.html > /tmp/after.sha
+          diff -u /tmp/before.sha /tmp/after.sha
+      - name: Verify reader surfaces agree
+        run: python scripts/apply_structural_compression_197_198.py --root . --verify
+      - name: Commit edited range
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add chapters/197.html chapters/198.html light/197.html light/198.html state/compression-batches/197-198.json
+          if [ -n "$(git status --porcelain -- chapters/197.html chapters/198.html light/197.html light/198.html state/compression-batches/197-198.json)" ]; then
+            git commit -m 'Compress petitioner and guard chapters 197 and 198'
+            git push origin HEAD:editor/voice-compression-pass
+          fi
