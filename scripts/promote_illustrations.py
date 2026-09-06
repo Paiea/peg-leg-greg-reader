@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import html
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -42,13 +43,15 @@ def promote_html(source: str, record: dict) -> str:
     anchor = record.get("paragraph_anchor")
     if not isinstance(anchor, str) or not anchor.strip():
         raise ValueError(f"illustration {record.get('id', '<unknown>')} requires paragraph_anchor")
-    target = f"<p>{html.escape(anchor.strip(), quote=False)}</p>"
-    count = source.count(target)
-    if count != 1:
+    escaped_anchor = html.escape(anchor.strip(), quote=False)
+    pattern = re.compile(r"<p>\s*" + re.escape(escaped_anchor) + r"\s*</p>")
+    matches = list(pattern.finditer(source))
+    if len(matches) != 1:
         raise ValueError(
-            f"illustration {record.get('id', '<unknown>')} paragraph anchor must occur exactly once; found {count}: {anchor!r}"
+            f"illustration {record.get('id', '<unknown>')} paragraph anchor must occur exactly once; found {len(matches)}: {anchor!r}"
         )
-    return source.replace(target, target + "\n" + figure_markup(record), 1)
+    match = matches[0]
+    return source[: match.end()] + "\n" + figure_markup(record) + source[match.end() :]
 
 
 def promote_approved_records(root: Path, registry: list[dict]) -> tuple[list[dict], int]:
