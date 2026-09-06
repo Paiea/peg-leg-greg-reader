@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "batch": "197-198",
+  "status": "applied",
+  "strength": "aggressive-on-repeated-theatre-procedure-preserve-distinct-state-changes",
+  "source_authority": "reader chapter prose with synchronized text-reader projection",
+  "stable_id_actions": {
+    "plg-ch-000197": {
+      "status": "active",
+      "action": "tightened_petitioner_role_flexibility"
+    },
+    "plg-ch-000198": {
+      "status": "active",
+      "action": "tightened_regular_schedule_and_guard_adaptation"
+    }
+  },
+  "illustration_policy": "advisory hold; art does not protect redundant prose or chapter boundaries",
+  "stats": {
+    "chapters/197.html": {
+      "before_words": 2694,
+      "after_words": 1860,
+      "delta_words": -834
+    },
+    "light/197.html": {
+      "before_words": 2694,
+      "after_words": 1860,
+      "delta_words": -834
+    },
+    "chapters/198.html": {
+      "before_words": 3431,
+      "after_words": 2803,
+      "delta_words": -628
+    },
+    "light/198.html": {
+      "before_words": 3431,
+      "after_words": 2803,
+      "delta_words": -628
+    }
+  },
+  "protected": {
+    "197": [
+      "Lyssa relationship texture",
+      "Petitioner role remains a distinct live-performance beat",
+      "Greg asks for the correct version instead of assuming",
+      "wrist limitation changes how Greg shares set-work load",
+      "Hara and Sellen lunch material remains outside the compressed repair block"
+    ],
+    "198": [
+      "Rinna formalizes third-bell regularity",
+      "schedule is immediately shown to be adaptable",
+      "Guard role remains distinct from Petitioner",
+      "obsolete chicken-line version check survives",
+      "costume is adapted around Greg crutch use",
+      "actual Guard rehearsal remains intact"
+    ]
+  }
+}
