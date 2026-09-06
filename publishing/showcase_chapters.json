@@ -33,6 +33,9 @@
     "131": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
     "132": {"showcase": false, "reason": "redundant_progression"},
     "134": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
-    "137": {"showcase": false, "reason": "superseded_by_stronger_chapter"}
+    "137": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
+    "144": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
+    "147": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
+    "150": {"showcase": false, "reason": "bridge_not_needed"}
   }
 }
