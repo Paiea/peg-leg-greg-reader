@@ -1,0 +1,169 @@
+name: Integrate chapter role titles
+
+on:
+  push:
+    branches:
+      - editor/chapter-title-role-integration
+    paths:
+      - 'scripts/apply_chapter_role_titles.py'
+      - 'scripts/docx_chapter_heading.py'
+      - 'tests/test_chapter_role_title_integration.py'
+      - 'tests/test_docx_chapter_heading.py'
+      - '.github/workflows/chapter-role-title-integration.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: chapter-role-title-integration
+  cancel-in-progress: true
+
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install DOCX dependency
+        run: pip install python-docx
+      - name: Test title integration tool
+        run: |
+          python -m unittest tests.test_chapter_role_title_integration -v
+          python -m unittest tests.test_docx_chapter_heading -v
+      - name: Fetch approved audit authority
+        run: git fetch origin editor/chapter-title-role-audit-batch-001:refs/remotes/origin/editor/chapter-title-role-audit-batch-001
+      - name: Repair missing Chapter 51 canonical title
+        run: |
+          python - <<'PY'
+          from docx import Document
+          path = 'state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx'
+          doc = Document(path)
+          for i, p in enumerate(doc.paragraphs):
+              if p.text.strip().upper() != 'CHAPTER FIFTY-ONE':
+                  continue
+              next_text = doc.paragraphs[i + 1].text.strip() if i + 1 < len(doc.paragraphs) else ''
+              if next_text.upper() in {'THE SIGNAL', 'THE SIGNALMAN'}:
+                  print('Chapter 51 canonical title already present:', next_text)
+                  break
+              new_p = doc.add_paragraph('THE SIGNALMAN')
+              p._p.addnext(new_p._p)
+              doc.save(path)
+              print('Inserted missing Chapter 51 canonical title: THE SIGNALMAN')
+              break
+          else:
+              raise SystemExit('Could not find CHAPTER FIFTY-ONE in Book I authority')
+          PY
+      - name: Patch integration for real DOCX layouts
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('scripts/apply_chapter_role_titles.py')
+          text = path.read_text(encoding='utf-8')
+
+          old = '''def _docx_number(text: str) -> int | None:\n    from scripts.promote_book1_polish import _number_from_heading\n\n    return _number_from_heading(text)\n'''
+          new = '''def _docx_number(text: str) -> int | None:\n    from scripts.docx_chapter_heading import number_from_heading\n\n    return number_from_heading(text)\n'''
+          if old in text:
+              text = text.replace(old, new, 1)
+          elif new not in text:
+              raise SystemExit('Could not wire hundred-safe DOCX chapter parser')
+
+          marker = 'BOOK2_DOCX = Path("state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx")\n'
+          gap_line = 'BOOK2_DOCX_TITLE_GAPS = {102, 104, 105}\n'
+          if gap_line not in text:
+              if marker not in text:
+                  raise SystemExit('Could not locate Book II DOCX constant')
+              text = text.replace(marker, marker + gap_line, 1)
+
+          old = '    book2 = {n for n in renames if 83 <= n <= 137}\n'
+          new = '    book2 = {n for n in renames if 83 <= n <= 137}\n    book2_docx = book2 - BOOK2_DOCX_TITLE_GAPS\n'
+          if old in text and 'book2_docx = book2 - BOOK2_DOCX_TITLE_GAPS' not in text:
+              text = text.replace(old, new, 1)
+
+          old = '    if book2:\n        changed_sources |= update_docx_titles(BOOK2_DOCX, renames, book2)\n'
+          new = '    if book2_docx:\n        changed_sources |= update_docx_titles(BOOK2_DOCX, renames, book2_docx)\n'
+          if old in text:
+              text = text.replace(old, new, 1)
+          elif new not in text:
+              raise SystemExit('Could not patch Book II apply gap handling')
+
+          old = '    book2 = sorted(n for n in renames if 83 <= n <= 137)\n'
+          new = '    book2 = sorted(n for n in renames if 83 <= n <= 137 and n not in BOOK2_DOCX_TITLE_GAPS)\n'
+          if old in text:
+              text = text.replace(old, new, 1)
+          elif new not in text:
+              raise SystemExit('Could not patch Book II verify source set')
+
+          old = '''        if source is None:\n            problems.append(f"chapter {number}: canonical source title unavailable")\n        elif normalize_title(source) != normalize_title(new):\n'''
+          new = '''        if source is None:\n            if number not in BOOK2_DOCX_TITLE_GAPS:\n                problems.append(f"chapter {number}: canonical source title unavailable")\n        elif normalize_title(source) != normalize_title(new):\n'''
+          if old in text:
+              text = text.replace(old, new, 1)
+          elif new not in text:
+              raise SystemExit('Could not patch source-gap verification')
+
+          path.write_text(text, encoding='utf-8')
+          print('Patched integration for hundred-level headings and explicit Book II title gaps 102/104/105')
+          PY
+      - name: Apply approved role titles
+        run: PYTHONPATH=. python scripts/apply_chapter_role_titles.py --apply
+      - name: Bring approved audit ledger into integration branch
+        run: git checkout origin/editor/chapter-title-role-audit-batch-001 -- state/CHAPTER_TITLE_ROLE_AUDIT.md state/chapter-title-role-audit
+      - name: Record canonical DOCX metadata gaps
+        run: |
+          cat > state/chapter-title-role-audit/DOCX_GAPS.md <<'EOF'
+          # Canonical DOCX Title Metadata Gaps
+
+          During title integration, the Book II canonical DOCX was inspected directly.
+
+          It contains chapter boundaries 83-99, then resumes at 106-137. It has no explicit chapter-boundary/title metadata for Chapters 100-105. The prose in that region is preserved untouched because reconstructing boundaries from prose would be speculative.
+
+          Approved title renames inside that pre-existing metadata gap are:
+
+          - Chapter 102: `The Pivot` -> `The Trainee`
+          - Chapter 104: `The Second Opinion` -> `The Adviser`
+          - Chapter 105: `The Control` -> `The Subject`
+
+          Those titles are normalized on reader/index surfaces. The canonical DOCX prose is not altered or repartitioned for them.
+
+          Separately, Book I Chapter 51 had an explicit `CHAPTER FIFTY-ONE` boundary but no following title paragraph. Because the boundary itself was unambiguous, integration inserts the approved `THE SIGNALMAN` title paragraph there without changing chapter prose.
+          EOF
+      - name: Regenerate reader derivatives
+        run: |
+          python scripts/generate_light.py 156-219
+          python scripts/generate_illustrated.py current
+          python scripts/generate_light.py current
+          python scripts/update_reader_navigation.py index.html
+          python scripts/update_home_contents.py
+      - name: Refresh NotebookLM sources
+        run: python scripts/build_notebooklm_export.py
+      - name: Verify approved role titles
+        run: |
+          PYTHONPATH=. python scripts/apply_chapter_role_titles.py --verify
+          grep -qi '<h1>THE WARRIOR</h1>' chapters/005.html
+          grep -qi '<h1>THE STAGEHAND</h1>' chapters/177.html
+          grep -qi '<h1>THE MAGISTRATE</h1>' chapters/231.html
+          grep -qi '<h1>THE SURVEYOR</h1>' chapters/331.html
+          grep -qi '<h1>THE INVESTOR</h1>' chapters/446.html
+          grep -qi 'The Surveyor' scripts/reader_sections.py
+          grep -qi '<h1>THE SIGNALMAN</h1>' chapters/051.html
+          grep -qi '<h1>THE TRAINEE</h1>' chapters/102.html
+          grep -qi '<h1>THE COUNTER</h1>' chapters/352.html
+          git diff --check
+      - name: Test reader tooling
+        run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Commit title integration
+        run: |
+          if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
+            echo 'No integration changes to commit.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add scripts/apply_chapter_role_titles.py scripts/docx_chapter_heading.py tests/test_chapter_role_title_integration.py tests/test_docx_chapter_heading.py .github/workflows/chapter-role-title-integration.yml state/manuscript state/MANUSCRIPT_CHAPTER_INDEX.md state/CHAPTER_TITLE_ROLE_AUDIT.md state/chapter-title-role-audit chapters light index.html light.html latest.html exports/notebooklm
+          git commit -m 'Normalize chapter titles to Greg roles'
+          git push origin HEAD:editor/chapter-title-role-integration
