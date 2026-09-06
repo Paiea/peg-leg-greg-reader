@@ -1,0 +1,116 @@
+name: PERFORMANCE novelization live experiment
+
+on:
+  push:
+    branches:
+      - experiment/performance-novelization-live
+    paths:
+      - 'scripts/apply_performance_novelization_experiment.py'
+      - 'scripts/run_performance_novelization_experiment.py'
+      - 'scripts/harden_performance_novelization_attribution.py'
+      - 'scripts/clean_performance_novelization_seams.py'
+      - 'tests/test_performance_novelization_experiment.py'
+      - '.github/workflows/performance-novelization-live.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  novelize-validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Focused experiment tests
+        run: python -m unittest tests.test_performance_novelization_experiment -v
+      - name: Harden dialogue attribution on preserved novelization
+        run: python scripts/harden_performance_novelization_attribution.py --write
+      - name: Clean replacement seams
+        run: python scripts/clean_performance_novelization_seams.py --write
+      - name: Validate repository and reader
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py' -v
+          git diff --check
+          python scripts/verify_reader_frontier.py
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          for number in (4, 7, 13, 18):
+              path = Path('chapters') / f'{number:03d}.html'
+              page = path.read_text(encoding='utf-8')
+              m = re.search(r'<article\s+class="prose"[^>]*>(.*?)</article>', page, re.S | re.I)
+              if not m:
+                  raise SystemExit(f'missing prose article: {path}')
+              if '—' in re.sub(r'<[^>]+>', '', m.group(1)):
+                  raise SystemExit(f'em dash in prose: {path}')
+          required = {
+              4: (
+                  "The sixth disk had barely beaten the control; by the end of the night, Arlo's best result was closer to twenty percent.",
+                  "If that result had collapsed on replication, the project could die with dignity.",
+              ),
+              7: (
+                  '"Trash," Antonius said.',
+                  '"How valuable?" Antonius asked.',
+                  '"End of week," Antonius said.',
+                  '"Why was that under a chair?" I asked.',
+              ),
+              13: (
+                  '"Again," I said.',
+                  '"Six runs answered this test," Arlo said.',
+                  '"I stopped holding the wire," Arlo said.',
+                  '"What did the tensioner do?" I asked.',
+                  '"I know," Arlo said.',
+                  '"Firing," Arlo said.',
+              ),
+              18: (
+                  '"Move it," Hessa said.',
+                  '"What changed?" Hessa asked.',
+                  '"Nineteen casts," Hessa said.',
+                  '"Tell me what you learned," Hessa said.',
+                  '"Brief structures cost less," I said.',
+                  '"Do they?" Hessa asked.',
+              ),
+          }
+          for number, anchors in required.items():
+              page = (Path('chapters') / f'{number:03d}.html').read_text(encoding='utf-8')
+              for anchor in anchors:
+                  if anchor not in page:
+                      raise SystemExit(f'missing conservative attribution/seam anchor in chapter {number}: {anchor}')
+          bad = '<p>"But real."</p><p>"I know," I said.</p>'
+          if bad in (Path('chapters') / '013.html').read_text(encoding='utf-8'):
+              raise SystemExit('incorrect Greg attribution remains at Arlo seam')
+          print('Target no-em-dash, attribution, and seam checks passed.')
+          PY
+      - name: Verify bounded prose diff
+        run: |
+          python - <<'PY'
+          import subprocess
+          allowed = {
+              'chapters/004.html',
+              'chapters/007.html',
+              'chapters/013.html',
+              'chapters/018.html',
+              'state/editorial/performance-lab/NOVELIZATION_LIVE_REPORT.md',
+          }
+          changed = set(subprocess.check_output(['git', 'diff', '--name-only'], text=True).split())
+          extra = changed - allowed
+          if extra:
+              raise SystemExit('unexpected generated/modified files: ' + ', '.join(sorted(extra)))
+          if 'chapters/004.html' not in changed:
+              raise SystemExit('expected Showcase seam repair missing: chapters/004.html')
+          print('Bounded diff passed:', ', '.join(sorted(changed)))
+          PY
+      - name: Commit validated candidate prose
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "418982+github-actions[bot]@users.noreply.github.com"
+          git add chapters/004.html chapters/007.html chapters/013.html chapters/018.html state/editorial/performance-lab/NOVELIZATION_LIVE_REPORT.md
+          git commit -m "Repair Showcase shale seam"
+          git push origin HEAD:experiment/performance-novelization-live

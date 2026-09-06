@@ -1,0 +1,64 @@
+name: PERFORMANCE novelization final prose polish
+
+on:
+  push:
+    branches:
+      - experiment/performance-novelization-live
+    paths:
+      - 'scripts/polish_performance_novelization_candidate.py'
+      - '.github/workflows/performance-novelization-polish.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  polish-validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply exact final prose polish
+        run: python scripts/polish_performance_novelization_candidate.py
+      - name: Validate repository and reader
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py' -v
+          git diff --check
+          python scripts/verify_reader_frontier.py
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          for number in (7, 13, 18):
+              path = Path('chapters') / f'{number:03d}.html'
+              page = path.read_text(encoding='utf-8')
+              m = re.search(r'<article\s+class="prose"[^>]*>(.*?)</article>', page, re.S | re.I)
+              if not m:
+                  raise SystemExit(f'missing prose article: {path}')
+              prose = re.sub(r'<[^>]+>', '', m.group(1))
+              if '—' in prose:
+                  raise SystemExit(f'em dash in prose: {path}')
+          print('Target no-em-dash check passed.')
+          PY
+      - name: Verify polish diff is only intended prose
+        run: |
+          python - <<'PY'
+          import subprocess
+          changed = set(subprocess.check_output(['git', 'diff', '--name-only'], text=True).split())
+          expected = {'chapters/007.html', 'chapters/018.html'}
+          if changed != expected:
+              raise SystemExit(f'expected polish diff {sorted(expected)}, got {sorted(changed)}')
+          print('Final prose polish bounded diff passed.')
+          PY
+      - name: Commit validated final polish
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add chapters/007.html chapters/018.html
+          git commit -m "Polish bounded PERFORMANCE novelization prose"
+          git pull --rebase origin experiment/performance-novelization-live
+          git push origin HEAD:experiment/performance-novelization-live
