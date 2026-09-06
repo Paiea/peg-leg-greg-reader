@@ -1,0 +1,49 @@
+name: Dialogue ownership pass
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - editor/voice-compression-pass
+    paths:
+      - scripts/dialogue_ownership_pass.py
+      - .github/workflows/dialogue-ownership-pass.yml
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: editor/voice-compression-pass
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply bounded ownership cleanup
+        run: python scripts/dialogue_ownership_pass.py --start 1 --end 20
+      - name: Verify chapter files remain present
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          for n in range(1, 21):
+              p = Path('chapters') / f'{n:03d}.html'
+              text = p.read_text(encoding='utf-8')
+              assert '<article class="prose">' in text, p
+              assert '</article>' in text, p
+              assert '—' not in text[text.index('<article class="prose">'):text.index('</article>')], f'em dash in prose: {p}'
+          print('verified chapters 001-020')
+          PY
+      - name: Commit reader-visible changes
+        run: |
+          if git diff --quiet -- chapters/001.html chapters/002.html chapters/003.html chapters/004.html chapters/005.html chapters/006.html chapters/007.html chapters/008.html chapters/009.html chapters/010.html chapters/011.html chapters/012.html chapters/013.html chapters/014.html chapters/015.html chapters/016.html chapters/017.html chapters/018.html chapters/019.html chapters/020.html; then
+            echo 'No chapter changes to commit.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add chapters/001.html chapters/002.html chapters/003.html chapters/004.html chapters/005.html chapters/006.html chapters/007.html chapters/008.html chapters/009.html chapters/010.html chapters/011.html chapters/012.html chapters/013.html chapters/014.html chapters/015.html chapters/016.html chapters/017.html chapters/018.html chapters/019.html chapters/020.html
+          git commit -m 'Apply dialogue ownership cleanup through chapter 20'
+          git push
