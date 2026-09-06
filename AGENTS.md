@@ -60,6 +60,8 @@ Read current manuscript/state plus `state/STORY_NORTH_STAR.md`, `state/DEVELOPME
 ### Prose / editorial / 04
 Read actual prose plus `state/PROSE_PLAYBOOK.md` and `state/STORY_NORTH_STAR.md`. Consult `state/STORY_ANTI_PATTERNS.md` when an edit risks flattening voice, relationships, evidence discipline, or serial texture. Improve writing and longitudinal social texture without silently changing plot, canon, characterization, scene intent, or outcomes.
 
+For an explicitly authorized **structural compression pass**, current illustrations, illustration candidates, chapter numbers, and paragraph anchors are advisory production state only. Do not preserve weak/redundant prose, a redundant scene, or an old chapter boundary merely because art exists or is planned there. If a visually strong beat still earns its place, preserve the beat because the story needs it, not because the art system does. Visual candidates are reconciled after the manuscript edit.
+
 ### Character
 Read actual manuscript evidence plus `state/CHARACTER_BIBLE.md` and `state/STORY_NORTH_STAR.md`. Update durable character knowledge, relationships, offscreen causality, and anti-flattening constraints, not transcripts.
 
@@ -74,6 +76,8 @@ Read current manuscript/state plus `state/PLOT_CONTROL.md` and `state/OPEN_THREA
 
 ### Visual production
 Read `state/VISUAL_BIBLE.md` and `state/IMAGE_PRODUCTION.md`, then actual manuscript scenes and reader coverage. Coverage first; integrate only accepted art.
+
+If `state/visual/PRODUCTION_HOLD.json` says an active `structural_edit_hold`, do **not** generate new art or automatically promote approved art into reader prose. Preserve scene-candidate intent, treat chapter/title/paragraph-anchor placement as provisional, and use `state/visual/ILLUSTRATION_RECONCILIATION_REPORT.md` after the structural edit to explicitly remap, retire, or replace drifted candidates before production resumes.
 
 ### Reader / UI
 Read `state/READER_DESIGN_LAB.md`, visual guidance, current reader files, and current project authority. Use a branch for broad changes. Never rewrite prose as a presentation side effect.
