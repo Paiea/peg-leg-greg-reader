@@ -22,85 +22,108 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Apply exact ownership-boundary repairs
+      - name: Apply exact visible-text ownership repairs
         run: |
           python - <<'PY'
           from pathlib import Path
+          import html
+          import re
 
           repairs = {
               31: [
-                  ('<p>I held up my LIMITED CASTING tag. The clerk said, “Functional enough.”</p>',
-                   '<p>I held up my LIMITED CASTING tag.</p><p>The clerk said, “Functional enough.”</p>'),
-                  ('<p>She looked at Hessa. Hessa looked at me. The woman said, “Why would I do a wall?” There it was.</p>',
-                   '<p>She looked at Hessa.</p><p>Hessa looked at me.</p><p>The woman said, “Why would I do a wall?”</p><p>There it was.</p>'),
-                  ('<p>Hessa said, “Yes.” Traitor. The woman smiled.</p>',
-                   '<p>Hessa said, “Yes.”</p><p>Traitor.</p><p>The woman smiled.</p>'),
-                  ('<p>I read it twice. Alden was somewhere getting his sword repaired and finding Berren. Antonius had work waiting without urgency. Hessa had told me not to experiment. Darrowmere samples had reached Edrin. And the South Canal sacks, which had nearly gotten people killed before any monsters existed, were finally open. There. The world had chosen. I folded the note. The clerk said, “Going?”</p>',
-                   '<p>I read it twice. Alden was somewhere getting his sword repaired and finding Berren. Antonius had work waiting without urgency. Hessa had told me not to experiment. Darrowmere samples had reached Edrin. And the South Canal sacks, which had nearly gotten people killed before any monsters existed, were finally open. There. The world had chosen. I folded the note.</p><p>The clerk said, “Going?”</p>'),
+                  ('I held up my LIMITED CASTING tag. The clerk said, “Functional enough.”',
+                   ['I held up my LIMITED CASTING tag.', 'The clerk said, “Functional enough.”']),
+                  ('She looked at Hessa. Hessa looked at me. The woman said, “Why would I do a wall?” There it was.',
+                   ['She looked at Hessa.', 'Hessa looked at me.', 'The woman said, “Why would I do a wall?”', 'There it was.']),
+                  ('Hessa said, “Yes.” Traitor. The woman smiled.',
+                   ['Hessa said, “Yes.”', 'Traitor.', 'The woman smiled.']),
+                  ('I read it twice. Alden was somewhere getting his sword repaired and finding Berren. Antonius had work waiting without urgency. Hessa had told me not to experiment. Darrowmere samples had reached Edrin. And the South Canal sacks, which had nearly gotten people killed before any monsters existed, were finally open. There. The world had chosen. I folded the note. The clerk said, “Going?”',
+                   ['I read it twice. Alden was somewhere getting his sword repaired and finding Berren. Antonius had work waiting without urgency. Hessa had told me not to experiment. Darrowmere samples had reached Edrin. And the South Canal sacks, which had nearly gotten people killed before any monsters existed, were finally open. There. The world had chosen. I folded the note.', 'The clerk said, “Going?”']),
               ],
               32: [
-                  ('<p>I asked, “Where did the sacks come from?” Nobody answered. Not because nobody knew. I looked at Nella.</p>',
-                   '<p>I asked, “Where did the sacks come from?”</p><p>Nobody answered. Not because nobody knew. I looked at Nella.</p>'),
-                  ('<p>The constable straightened. Verran said, “Nella.” She ignored him.</p>',
-                   '<p>The constable straightened.</p><p>Verran said, “Nella.”</p><p>She ignored him.</p>'),
-                  ('<p>Verran said, “Private.” The constable said, “Not anymore.” Verran’s jaw moved. Nella said, “Storage credit.”</p>',
-                   '<p>Verran said, “Private.”</p><p>The constable said, “Not anymore.”</p><p>Verran’s jaw moved.</p><p>Nella said, “Storage credit.”</p>'),
-                  ('<p>He looked at the constable. The constable said, “You can answer or not. It will be in the statement either way.” Verran laughed once without humor.</p>',
-                   '<p>He looked at the constable.</p><p>The constable said, “You can answer or not. It will be in the statement either way.”</p><p>Verran laughed once without humor.</p>'),
+                  ('I asked, “Where did the sacks come from?” Nobody answered. Not because nobody knew. I looked at Nella.',
+                   ['I asked, “Where did the sacks come from?”', 'Nobody answered. Not because nobody knew. I looked at Nella.']),
+                  ('The constable straightened. Verran said, “Nella.” She ignored him.',
+                   ['The constable straightened.', 'Verran said, “Nella.”', 'She ignored him.']),
+                  ('Verran said, “Private.” The constable said, “Not anymore.” Verran’s jaw moved. Nella said, “Storage credit.”',
+                   ['Verran said, “Private.”', 'The constable said, “Not anymore.”', 'Verran’s jaw moved.', 'Nella said, “Storage credit.”']),
+                  ('He looked at the constable. The constable said, “You can answer or not. It will be in the statement either way.” Verran laughed once without humor.',
+                   ['He looked at the constable.', 'The constable said, “You can answer or not. It will be in the statement either way.”', 'Verran laughed once without humor.']),
               ],
               34: [
-                  ('<p>I nearly asked why she had loosened the first bolt after tightening it. Did not. She was working. Arlo said, “Greg.”</p>',
-                   '<p>I nearly asked why she had loosened the first bolt after tightening it. Did not. She was working.</p><p>Arlo said, “Greg.”</p>'),
+                  ('I nearly asked why she had loosened the first bolt after tightening it. Did not. She was working. Arlo said, “Greg.”',
+                   ['I nearly asked why she had loosened the first bolt after tightening it. Did not. She was working.', 'Arlo said, “Greg.”']),
               ],
               35: [
-                  ('<p>I stopped. Jorren grinned. The woman said, “Everybody owes Vale.”</p>',
-                   '<p>I stopped.</p><p>Jorren grinned.</p><p>The woman said, “Everybody owes Vale.”</p>'),
-                  ('<p>Jorren said that immediately. The man said, “One copper.”</p>',
-                   '<p>Jorren said that immediately.</p><p>The man said, “One copper.”</p>'),
-                  ('<p>She left. The Five Roads man disappeared. Mara brought Jorren water without being asked. He looked offended. She said, “You work tomorrow.” He drank it. Again. Existing life. Jorren had routines here. People knew his schedule. People knew which chair Nessa claimed. Mara knew when to stop pouring him beer. I had entered it. Not created it.</p>',
-                   '<p>She left. The Five Roads man disappeared.</p><p>Mara brought Jorren water without being asked.</p><p>He looked offended.</p><p>She said, “You work tomorrow.”</p><p>He drank it.</p><p>Again. Existing life. Jorren had routines here. People knew his schedule. People knew which chair Nessa claimed. Mara knew when to stop pouring him beer. I had entered it. Not created it.</p>'),
-                  ('<p>Reasonable. A male voice from an upstairs window shouted, “Jorren, you owe me four copper.” I looked at him. He looked at the window.</p>',
-                   '<p>Reasonable.</p><p>A male voice from an upstairs window shouted, “Jorren, you owe me four copper.”</p><p>I looked at him.</p><p>He looked at the window.</p>'),
+                  ('I stopped. Jorren grinned. The woman said, “Everybody owes Vale.”',
+                   ['I stopped.', 'Jorren grinned.', 'The woman said, “Everybody owes Vale.”']),
+                  ('Jorren said that immediately. The man said, “One copper.”',
+                   ['Jorren said that immediately.', 'The man said, “One copper.”']),
+                  ('She left. The Five Roads man disappeared. Mara brought Jorren water without being asked. He looked offended. She said, “You work tomorrow.” He drank it. Again. Existing life. Jorren had routines here. People knew his schedule. People knew which chair Nessa claimed. Mara knew when to stop pouring him beer. I had entered it. Not created it.',
+                   ['She left. The Five Roads man disappeared.', 'Mara brought Jorren water without being asked.', 'He looked offended.', 'She said, “You work tomorrow.”', 'He drank it.', 'Again. Existing life. Jorren had routines here. People knew his schedule. People knew which chair Nessa claimed. Mara knew when to stop pouring him beer. I had entered it. Not created it.']),
+                  ('Reasonable. A male voice from an upstairs window shouted, “Jorren, you owe me four copper.” I looked at him. He looked at the window.',
+                   ['Reasonable.', 'A male voice from an upstairs window shouted, “Jorren, you owe me four copper.”', 'I looked at him.', 'He looked at the window.']),
               ],
               36: [
-                  ('<p>Berren said, “I am sitting.” He was standing. She pointed at the bench. He sat. I liked her immediately. Not because she controlled him. Because she did not seem interested in whether she controlled him. She had bread to cut. Alden said, “This is Nara.”</p>',
-                   '<p>Berren said, “I am sitting.” He was standing.</p><p>She pointed at the bench.</p><p>He sat.</p><p>I liked her immediately. Not because she controlled him. Because she did not seem interested in whether she controlled him. She had bread to cut.</p><p>Alden said, “This is Nara.”</p>'),
-                  ('<p>Alden said, “Day after.” I wanted tomorrow. My body wanted tomorrow. My mind had already started building rounds. Bad sign.</p>',
-                   '<p>Alden said, “Day after.”</p><p>I wanted tomorrow. My body wanted tomorrow. My mind had already started building rounds. Bad sign.</p>'),
+                  ('Berren said, “I am sitting.” He was standing. She pointed at the bench. He sat. I liked her immediately. Not because she controlled him. Because she did not seem interested in whether she controlled him. She had bread to cut. Alden said, “This is Nara.”',
+                   ['Berren said, “I am sitting.” He was standing.', 'She pointed at the bench.', 'He sat.', 'I liked her immediately. Not because she controlled him. Because she did not seem interested in whether she controlled him. She had bread to cut.', 'Alden said, “This is Nara.”']),
+                  ('Alden said, “Day after.” I wanted tomorrow. My body wanted tomorrow. My mind had already started building rounds. Bad sign.',
+                   ['Alden said, “Day after.”', 'I wanted tomorrow. My body wanted tomorrow. My mind had already started building rounds. Bad sign.']),
               ],
               37: [
-                  ('<p>The clerk said, “Initial.” I initialed beside the false signature. Now it was my mistake. Better. We left through the west gate just after noon with a mill worker named Ossin and a handcart full of rope, two shovels, a pry bar, three hooked poles, and enough bread to make the contract’s meal clause technically true.</p>',
-                   '<p>The clerk said, “Initial.”</p><p>I initialed beside the false signature. Now it was my mistake. Better. We left through the west gate just after noon with a mill worker named Ossin and a handcart full of rope, two shovels, a pry bar, three hooked poles, and enough bread to make the contract’s meal clause technically true.</p>'),
-                  ('<p>He held his hands about two feet apart. Berren looked disappointed. I liked him less for three seconds. The woman said, “You kill anything that comes out. Mostly you pull rubbish.”</p>',
-                   '<p>He held his hands about two feet apart.</p><p>Berren looked disappointed.</p><p>I liked him less for three seconds.</p><p>The woman said, “You kill anything that comes out. Mostly you pull rubbish.”</p>'),
+                  ('The clerk said, “Initial.” I initialed beside the false signature. Now it was my mistake. Better. We left through the west gate just after noon with a mill worker named Ossin and a handcart full of rope, two shovels, a pry bar, three hooked poles, and enough bread to make the contract’s meal clause technically true.',
+                   ['The clerk said, “Initial.”', 'I initialed beside the false signature. Now it was my mistake. Better. We left through the west gate just after noon with a mill worker named Ossin and a handcart full of rope, two shovels, a pry bar, three hooked poles, and enough bread to make the contract’s meal clause technically true.']),
+                  ('He held his hands about two feet apart. Berren looked disappointed. I liked him less for three seconds. The woman said, “You kill anything that comes out. Mostly you pull rubbish.”',
+                   ['He held his hands about two feet apart.', 'Berren looked disappointed.', 'I liked him less for three seconds.', 'The woman said, “You kill anything that comes out. Mostly you pull rubbish.”']),
               ],
               38: [
-                  ('<p>Hessa said, “Again.” He breathed. Focused. A faint warmth appeared against my face. Not visible. Barely there. The boy smiled. Then lost it.</p>',
-                   '<p>Hessa said, “Again.”</p><p>He breathed. Focused. A faint warmth appeared against my face. Not visible. Barely there. The boy smiled. Then lost it.</p>'),
-                  ('<p>I did. No questions. That felt strange enough that I noticed. Downstairs I helped Jalen move two crates because</p><p>he asked. Not Antonius work. No pay. One crate was heavy. My hands objected. I adjusted grip. Used forearms. Bad. Still got it moved. Jalen said, “You’re the bean man.”</p>',
-                   '<p>I did. No questions. That felt strange enough that I noticed. Downstairs I helped Jalen move two crates because he asked. Not Antonius work. No pay. One crate was heavy. My hands objected. I adjusted grip. Used forearms. Bad. Still got it moved.</p><p>Jalen said, “You’re the bean man.”</p>'),
+                  ('Hessa said, “Again.” He breathed. Focused. A faint warmth appeared against my face. Not visible. Barely there. The boy smiled. Then lost it.',
+                   ['Hessa said, “Again.”', 'He breathed. Focused. A faint warmth appeared against my face. Not visible. Barely there. The boy smiled. Then lost it.']),
+                  ('I did. No questions. That felt strange enough that I noticed. Downstairs I helped Jalen move two crates because',
+                   ['I did. No questions. That felt strange enough that I noticed. Downstairs I helped Jalen move two crates because he asked. Not Antonius work. No pay. One crate was heavy. My hands objected. I adjusted grip. Used forearms. Bad. Still got it moved.']),
+                  ('he asked. Not Antonius work. No pay. One crate was heavy. My hands objected. I adjusted grip. Used forearms. Bad. Still got it moved. Jalen said, “You’re the bean man.”',
+                   ['Jalen said, “You’re the bean man.”']),
               ],
               39: [
-                  ('<p>Alden claimed a narrow strip near the rear wall. Not claimed. Asked. A Guild attendant looked at our weapons, looked at Berren’s foot, and said, “Light.” Alden said, “Light.” Berren said nothing. Good. We used blunted practice swords. My repaired real sword stayed belted at the wall. That mattered more than expected. The practice blade felt wrong. Weight close. Balance not. Grip thicker.</p>',
-                   '<p>Alden claimed a narrow strip near the rear wall. Not claimed. Asked.</p><p>A Guild attendant looked at our weapons, looked at Berren’s foot, and said, “Light.”</p><p>Alden said, “Light.”</p><p>Berren said nothing.</p><p>Good. We used blunted practice swords. My repaired real sword stayed belted at the wall. That mattered more than expected. The practice blade felt wrong. Weight close. Balance not. Grip thicker.</p>'),
-                  ('<p>Berren said, “Greg.” Good. Third. Alden changed rhythm. Slow first. Then fast. I recognized it. He had learned that from someone else.</p>',
-                   '<p>Berren said, “Greg.”</p><p>Good. Third.</p><p>Alden changed rhythm. Slow first. Then fast.</p><p>I recognized it. He had learned that from someone else.</p>'),
+                  ('Alden claimed a narrow strip near the rear wall. Not claimed. Asked. A Guild attendant looked at our weapons, looked at Berren’s foot, and said, “Light.” Alden said, “Light.” Berren said nothing. Good. We used blunted practice swords. My repaired real sword stayed belted at the wall. That mattered more than expected. The practice blade felt wrong. Weight close. Balance not. Grip thicker.',
+                   ['Alden claimed a narrow strip near the rear wall. Not claimed. Asked.', 'A Guild attendant looked at our weapons, looked at Berren’s foot, and said, “Light.”', 'Alden said, “Light.”', 'Berren said nothing.', 'Good. We used blunted practice swords. My repaired real sword stayed belted at the wall. That mattered more than expected. The practice blade felt wrong. Weight close. Balance not. Grip thicker.']),
+                  ('Berren said, “Greg.” Good. Third. Alden changed rhythm. Slow first. Then fast. I recognized it. He had learned that from someone else.',
+                   ['Berren said, “Greg.”', 'Good. Third.', 'Alden changed rhythm. Slow first. Then fast.', 'I recognized it. He had learned that from someone else.']),
               ],
           }
+
+          p_re = re.compile(r'<p\b[^>]*>(.*?)</p>', re.I | re.S)
+          tag_re = re.compile(r'<[^>]+>')
+
+          def norm(s: str) -> str:
+              return re.sub(r'\s+', ' ', html.unescape(s).replace('\xa0', ' ')).strip()
+
+          def flat_prose(text: str) -> str:
+              article = text.split('<article class="prose">', 1)[1].split('</article>', 1)[0]
+              return norm(tag_re.sub(' ', article))
 
           changed = []
           for chapter, items in repairs.items():
               path = Path('chapters') / f'{chapter:03d}.html'
               text = path.read_text(encoding='utf-8')
-              before = text
-              for old, new in items:
-                  count = text.count(old)
-                  if count != 1:
-                      raise SystemExit(f'{path}: expected exactly one match, got {count}: {old[:100]}')
-                  text = text.replace(old, new, 1)
-              if text != before:
-                  path.write_text(text, encoding='utf-8')
-                  changed.append(str(path))
+              original_flat = flat_prose(text)
+              for old_visible, new_paras in items:
+                  matches = []
+                  for m in p_re.finditer(text):
+                      inner = m.group(1)
+                      if norm(tag_re.sub('', inner)) == norm(old_visible):
+                          matches.append((m, inner))
+                  if len(matches) != 1:
+                      raise SystemExit(f'{path}: expected one visible-text match, got {len(matches)}: {old_visible[:100]}')
+                  m, inner = matches[0]
+                  if tag_re.search(inner):
+                      raise SystemExit(f'{path}: targeted paragraph unexpectedly contains inline markup: {old_visible[:100]}')
+                  replacement = ''.join(f'<p>{part}</p>' for part in new_paras)
+                  text = text[:m.start()] + replacement + text[m.end():]
+              if flat_prose(text) != original_flat:
+                  raise SystemExit(f'{path}: ownership repair changed normalized prose text')
+              path.write_text(text, encoding='utf-8')
+              changed.append(str(path))
           print('repaired:', ', '.join(changed))
           PY
       - name: Strict ownership checker must clear
