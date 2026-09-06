@@ -15,12 +15,6 @@ import re
 
 
 QUOTE_RE = re.compile(r'["“](.*?)["”]')
-ACTION_SUBJECT_RE = re.compile(
-    r"^\s*(?P<subject>"
-    r"(?:The|the|A|a|An|an)\s+[a-z][A-Za-z'’\-]*(?:\s+[a-z][A-Za-z'’\-]*)?"
-    r"|He|She|They|[A-Z][A-Za-z'’\-]+"
-    r")\s+(?P<verb>[a-z][A-Za-z'’\-]*)\b"
-)
 SPEECH_VERBS = {
     "said",
     "asked",
@@ -113,6 +107,13 @@ ACTION_VERBS = {
     "swore",
     "considered",
 }
+_ACTION_PATTERN = "|".join(sorted(map(re.escape, ACTION_VERBS), key=len, reverse=True))
+ACTION_SUBJECT_RE = re.compile(
+    r"^\s*(?P<subject>"
+    r"(?:The|the|A|a|An|an)\s+[a-z][A-Za-z'’\-]*(?:\s+[a-z][A-Za-z'’\-]*)?"
+    r"|He|She|They|[A-Z][A-Za-z'’\-]+"
+    r")\s+(?P<verb>" + _ACTION_PATTERN + r")\b"
+)
 
 
 @dataclass(frozen=True)
@@ -135,8 +136,7 @@ def _third_person_action(text: str) -> re.Match[str] | None:
     match = ACTION_SUBJECT_RE.match(text)
     if not match:
         return None
-    verb = match.group("verb").lower()
-    if verb in SPEECH_VERBS or verb not in ACTION_VERBS:
+    if match.group("verb").lower() in SPEECH_VERBS:
         return None
     return match
 
