@@ -1,0 +1,74 @@
+{
+  "schema_version": 2,
+  "batch": "144-152-wave1",
+  "status": "applied",
+  "strength": "moderate/aggressive-on-repetition",
+  "selector": "unique-paragraph-cues",
+  "stable_id_actions": {
+    "plg-ch-000149": {
+      "status": "active",
+      "action": "tightened_and_absorbed_work_bridge"
+    },
+    "plg-ch-000150": {
+      "status": "merged",
+      "surviving_beats": [
+        "plg-ch-000149",
+        "plg-ch-000151"
+      ],
+      "legacy_path": "150.html",
+      "display_renumbering": "deferred"
+    },
+    "plg-ch-000151": {
+      "status": "active",
+      "action": "tightened_first_show"
+    },
+    "plg-ch-000152": {
+      "status": "active",
+      "action": "tightened_second_show_reset"
+    }
+  },
+  "illustration_policy": "advisory_hold; removed prose may orphan old chapter-art anchors pending later art migration",
+  "stats": {
+    "chapters/149.html": {
+      "before_words": 3412,
+      "after_words": 3548,
+      "delta_words": 136
+    },
+    "chapters/150.html": {
+      "before_words": 2388,
+      "after_words": 25,
+      "delta_words": -2363
+    },
+    "chapters/151.html": {
+      "before_words": 2104,
+      "after_words": 2021,
+      "delta_words": -83
+    },
+    "chapters/152.html": {
+      "before_words": 2344,
+      "after_words": 1641,
+      "delta_words": -703
+    },
+    "light/149.html": {
+      "before_words": 3412,
+      "after_words": 3548,
+      "delta_words": 136
+    },
+    "light/150.html": {
+      "before_words": 2388,
+      "after_words": 25,
+      "delta_words": -2363
+    },
+    "light/151.html": {
+      "before_words": 2104,
+      "after_words": 2021,
+      "delta_words": -83
+    },
+    "light/152.html": {
+      "before_words": 2344,
+      "after_words": 1641,
+      "delta_words": -703
+    }
+  },
+  "source_commit": "c3601e25a2862f4131cc90c5ebafcaec85060251"
+}
