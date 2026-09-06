@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "batch": "060-061",
+  "status": "applied",
+  "strength": "aggressive-on-repetition-preserve-distinct-functions",
+  "source_authority": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+  "stable_id_actions": {
+    "plg-ch-000060": {
+      "status": "active",
+      "action": "tightened_day_one_field_grammar"
+    },
+    "plg-ch-000061": {
+      "status": "active",
+      "action": "tightened_day_two_changed_conditions"
+    }
+  },
+  "illustration_policy": "advisory_hold; story structure outranks art anchors",
+  "stats": {
+    "chapters/060.html": {
+      "before_words": 2475,
+      "after_words": 2218,
+      "delta_words": -257
+    },
+    "chapters/061.html": {
+      "before_words": 2993,
+      "after_words": 2747,
+      "delta_words": -246
+    }
+  },
+  "protected": {
+    "60": [
+      "old drain discovery",
+      "bridge anti-narrative beat",
+      "hay-wagon intervention",
+      "first consequence-plus-change lesson"
+    ],
+    "61": [
+      "rain changes model",
+      "unrecorded farm repair",
+      "do-not-clear reversal",
+      "pond-overflow mistake"
+    ]
+  }
+}
