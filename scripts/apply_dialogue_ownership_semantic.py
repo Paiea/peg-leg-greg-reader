@@ -11,6 +11,10 @@ ACTION = r'(?:looked|smiled|laughed|nodded|frowned|shrugged|leaned|stood|sat|tur
 
 STALE_ARLO_BLOCK_OLD = '<p>"What?" Antonius asked.</p><p>"Nothing," I said.</p><p>"You keep looking at me," Antonius said.</p><p>"I have a memorable-face problem," I said.</p><p>"Your face?" Antonius asked.</p><p>"Other people\'s." Antonius held out his hand.</p><p>"You\'ve been staring at my hands for five minutes," Arlo said.</p>'
 STALE_ARLO_BLOCK_NEW = '<p>"What?" Arlo asked.</p><p>"Nothing," I said.</p><p>"You keep looking at me," Arlo said.</p><p>"I have a memorable-face problem," I said.</p><p>"Your face?" Arlo asked.</p><p>"Other people\'s."</p><p>Arlo held out his hand.</p><p>"You\'ve been staring at my hands for five minutes," Arlo said.</p>'
+FINAL_EXACT = {
+    11: ('<p>"Difference?" Rusk turned toward the stairs.</p>', '<p>"Difference?"</p><p>Rusk turned toward the stairs.</p>'),
+    13: ('<p>"Of course." I laughed.</p>', '<p>"Of course."</p><p>I laughed.</p>'),
+}
 
 
 def explicit_speaker(p: str) -> tuple[str | None, int | None]:
@@ -217,6 +221,10 @@ def main() -> int:
         if n == 1:
             old = '<p>I jumped once. That was childish. I did it again. The floorboards creaked. A voice from the other side of the wall shouted, "Some of us are sleeping!" I knew that voice. Or thought I did. I froze.'
             new = '<p>I jumped once. That was childish. I did it again. The floorboards creaked.</p><p>A voice from the other side of the wall shouted, "Some of us are sleeping!"</p><p>I knew that voice. Or thought I did. I froze.'
+            if old in text:
+                text = text.replace(old, new, 1)
+        if n in FINAL_EXACT:
+            old, new = FINAL_EXACT[n]
             if old in text:
                 text = text.replace(old, new, 1)
         new_text, count = transform_html(text)
