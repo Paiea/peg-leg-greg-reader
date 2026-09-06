@@ -1,5 +1,5 @@
 {
-  "latest": 402,
+  "latest": 403,
   "chapters": [
     {
       "number": 100,
@@ -1818,6 +1818,12 @@
       "title": "THE SHOPPER",
       "source": "checkpoint",
       "path": "402.html"
+    },
+    {
+      "number": 403,
+      "title": "THE OBSERVER",
+      "source": "checkpoint",
+      "path": "403.html"
     }
   ]
 }
