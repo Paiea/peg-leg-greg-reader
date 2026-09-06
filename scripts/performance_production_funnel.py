@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import copy
 import hashlib
 import html
 import json
@@ -31,6 +32,9 @@ COMPILER_VERSIONS = {
     "screenplay": "screenplay/v1",
     "comparison": "comparison/v1",
 }
+CLAIM_KINDS = {"observed", "inferred", "locked_derived"}
+CLAIM_RANK = {"inferred": 1, "locked_derived": 2, "observed": 3}
+VIEW_NAMES = {"performance", "dialogue", "continuity", "illustration", "comparison"}
 
 
 def next_visible_chapters(manifest: dict, *, after_chapter: int, count: int, max_chapter: int) -> list[int]:
@@ -284,6 +288,134 @@ def cache_status(
         "semantic_valid": semantic_valid,
         "performance_valid": performance_valid,
     }
+
+
+def validate_claim(claim: dict) -> None:
+    if not isinstance(claim, dict) or "value" not in claim:
+        raise ValueError("claim value is required")
+    kind = claim.get("kind")
+    if kind not in CLAIM_KINDS:
+        raise ValueError(f"claim kind must be one of {sorted(CLAIM_KINDS)}")
+    confidence = claim.get("confidence")
+    if confidence is not None and (
+        isinstance(confidence, bool) or not isinstance(confidence, (int, float)) or not 0 <= confidence <= 1
+    ):
+        raise ValueError("claim confidence must be between 0 and 1")
+    if kind == "inferred":
+        if confidence is None:
+            raise ValueError("inferred claim confidence is required")
+        if not _nonempty_text(claim.get("compiler")):
+            raise ValueError("inferred claim compiler is required")
+    if kind == "locked_derived" and not _nonempty_text(claim.get("compiler")):
+        raise ValueError("locked_derived claim compiler is required")
+
+
+def merge_derived_layer(
+    scene_record: dict,
+    layer: str,
+    payload: dict,
+    *,
+    compiler: str,
+    dependency_hash: str,
+) -> dict:
+    if layer not in {"semantic", "performance"}:
+        raise ValueError("derived layer must be semantic or performance")
+    if not isinstance(payload, dict):
+        raise ValueError("derived layer payload must be an object")
+    if not _nonempty_text(compiler) or not _nonempty_text(dependency_hash):
+        raise ValueError("compiler and dependency_hash are required")
+    updated = copy.deepcopy(scene_record)
+    current = updated.get(layer)
+    if not isinstance(current, dict):
+        current = {}
+        updated[layer] = current
+    conflicts = updated.get("semantic_conflicts")
+    if not isinstance(conflicts, list):
+        conflicts = []
+        updated["semantic_conflicts"] = conflicts
+
+    for field, candidate in payload.items():
+        validate_claim(candidate)
+        existing = current.get(field)
+        if existing is None:
+            current[field] = copy.deepcopy(candidate)
+            continue
+        validate_claim(existing)
+        if existing.get("value") == candidate.get("value"):
+            if CLAIM_RANK[candidate["kind"]] > CLAIM_RANK[existing["kind"]]:
+                current[field] = copy.deepcopy(candidate)
+            continue
+        if CLAIM_RANK[candidate["kind"]] > CLAIM_RANK[existing["kind"]]:
+            current[field] = copy.deepcopy(candidate)
+            continue
+        conflicts.append({
+            "field": f"{layer}.{field}",
+            "previous": copy.deepcopy(existing),
+            "candidate": copy.deepcopy(candidate),
+            "status": "semantic_conflict",
+        })
+
+    dependencies = updated.get("dependencies")
+    if not isinstance(dependencies, dict):
+        dependencies = {}
+        updated["dependencies"] = dependencies
+    dependencies[layer] = {"dependency_hash": dependency_hash, "compiler": compiler}
+    return updated
+
+
+def _source_pointer(scene_record: dict) -> dict:
+    source = scene_record.get("source")
+    if not isinstance(source, dict):
+        return {}
+    return {
+        key: copy.deepcopy(source[key])
+        for key in ("hash", "chapter", "paragraph_span", "start_anchor", "end_anchor")
+        if key in source
+    }
+
+
+def _pick(mapping: object, fields: tuple[str, ...]) -> dict:
+    if not isinstance(mapping, dict):
+        return {}
+    return {field: copy.deepcopy(mapping[field]) for field in fields if field in mapping}
+
+
+def render_scene_view(scene_record: dict, view: str) -> dict:
+    if view not in VIEW_NAMES:
+        raise ValueError(f"unknown scene view: {view}")
+    source = _source_pointer(scene_record)
+    mechanical = scene_record.get("mechanical", {})
+    semantic = scene_record.get("semantic", {})
+    result: dict = {"scene_id": scene_record.get("scene_id"), "source": source}
+
+    if view == "performance":
+        result["mechanical"] = _pick(mechanical, ("dialogue_turns", "dialogue_ratio", "question_count", "action_word_hits", "capitalized_tokens"))
+        result["semantic"] = _pick(semantic, ("active_task", "characters", "state_in", "state_out", "relationship_pressure", "required_outcome", "must_not_drift", "location", "physical_state"))
+        if isinstance(scene_record.get("performance"), dict):
+            result["performance"] = copy.deepcopy(scene_record["performance"])
+    elif view == "dialogue":
+        result["mechanical"] = _pick(mechanical, ("dialogue_turns", "dialogue_word_count", "dialogue_ratio", "question_count", "capitalized_tokens", "action_word_hits"))
+        result["semantic"] = _pick(semantic, ("characters", "relationship_pressure", "dialogue_mode", "voice_separation", "social_register", "emotional_state"))
+        if isinstance(scene_record.get("performance"), dict):
+            result["performance"] = copy.deepcopy(scene_record["performance"])
+    elif view == "continuity":
+        result["mechanical"] = _pick(mechanical, ("money_mentions", "capitalized_tokens"))
+        result["semantic"] = _pick(semantic, ("continuity", "state_in", "state_out", "relationship_pressure", "required_outcome", "must_not_drift", "location", "objects"))
+    elif view == "illustration":
+        result["mechanical"] = _pick(mechanical, ("capitalized_tokens", "action_word_hits"))
+        result["semantic"] = _pick(semantic, ("characters", "location", "objects", "active_task", "physical_state", "scene_turn", "required_outcome"))
+        if isinstance(scene_record.get("performance"), dict):
+            result["performance"] = copy.deepcopy(scene_record["performance"])
+    else:  # comparison
+        result["mechanical"] = _pick(mechanical, ("dialogue_turns", "dialogue_ratio", "question_count", "action_word_hits"))
+        result["semantic"] = _pick(semantic, ("source_strengths", "compression_pressure", "performance_opportunity", "relationship_pressure", "required_outcome", "must_not_drift"))
+        if isinstance(scene_record.get("performance"), dict):
+            result["performance"] = copy.deepcopy(scene_record["performance"])
+        if "screenplay" in scene_record:
+            result["screenplay"] = copy.deepcopy(scene_record["screenplay"])
+        if "comparison" in scene_record:
+            result["comparison"] = copy.deepcopy(scene_record["comparison"])
+    return result
 
 
 def _write_json(path: Path, value: object) -> None:
