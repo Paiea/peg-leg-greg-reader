@@ -3,7 +3,7 @@
 Generated review surface only. This file does not authorize automatic manuscript mutation.
 Review semantic paragraph ownership: when speech/action ownership changes character, split the paragraph.
 
-Total dialogue paragraphs surfaced: 5960
+Total dialogue paragraphs surfaced: 5959
 
 ## Chapter 001
 
@@ -549,1649 +549,1644 @@ Total dialogue paragraphs surfaced: 5960
 ### P16
 - PREV: I turned and looked at his workshop. He was right. Arwick Works was currently a room with ambitions. One bench. Two kilns, one of which looked old enough to remember monarchy. Shelves crowded with lamp regulators, cracked ceramic housings, brass fittings, wire, powdered reagents, and several objects I could not identify despite having lived through the next forty years. That pleased me. Not everything needed to become a memory.
 - CURR: "How much do you need?" I asked.
-- NEXT: "For a test? A bucket," Arlo said.
+- NEXT: "For a test? A bucket," Arlo said. I looked at the cart. The carter looked at me.
 
 ### P17
 - PREV: "How much do you need?" I asked.
-- CURR: "For a test? A bucket," Arlo said.
-- NEXT: I looked at the cart. The carter looked at me.
+- CURR: "For a test? A bucket," Arlo said. I looked at the cart. The carter looked at me.
+- NEXT: "Take the rest back," I told the carter.
 
-### P19
-- PREV: I looked at the cart. The carter looked at me.
+### P18
+- PREV: "For a test? A bucket," Arlo said. I looked at the cart. The carter looked at me.
 - CURR: "Take the rest back," I told the carter.
 - NEXT: "Paid delivery," the carter said.
 
-### P20
+### P19
 - PREV: "Take the rest back," I told the carter.
 - CURR: "Paid delivery," the carter said.
 - NEXT: "I know," I said.
 
-### P21
+### P20
 - PREV: "Paid delivery," the carter said.
 - CURR: "I know," I said.
 - NEXT: "Delivery goes one way," he said.
 
-### P22
+### P21
 - PREV: "I know," I said.
 - CURR: "Delivery goes one way," he said.
 - NEXT: "Of course it does," I said.
 
-### P23
+### P22
 - PREV: "Delivery goes one way," he said.
 - CURR: "Of course it does," I said.
 - NEXT: Arlo folded his arms. I paid for the lesson. By the time the shale was stacked badly beside his rear wall, my elegant investment thesis had acquired hauling fees, storage problems, and a man named Hobb who charged three copper to move something I had just paid someone else to move. I wrote that down too.
 
-### P28
+### P27
 - PREV: Arlo read over my shoulder.
 - CURR: "Are you writing lessons?" Arlo asked.
 - NEXT: "I'm preventing myself from becoming stupid twice," I said.
 
-### P29
+### P28
 - PREV: "Are you writing lessons?" Arlo asked.
 - CURR: "I'm preventing myself from becoming stupid twice," I said.
 - NEXT: "Does that work?" Arlo asked.
 
-### P30
+### P29
 - PREV: "I'm preventing myself from becoming stupid twice," I said.
 - CURR: "Does that work?" Arlo asked.
 - NEXT: "Historically? No," I said.
 
-### P31
+### P30
 - PREV: "Does that work?" Arlo asked.
 - CURR: "Historically? No," I said.
 - NEXT: Arlo gave me the look again. People had several for me already: nineteen-year-old talking like an old man, Bronze adventurer knowing too much outside his profession, stranger staring at a face as if searching for something behind it. Arlo had developed his own. Brilliant or insane, with growing evidence for both.
 
-### P33
+### P32
 - PREV: Arlo gave me the look again. People had several for me already: nineteen-year-old talking like an old man, Bronze adventurer knowing too much outside his profession, stranger staring at a face as if searching for something behind it. Arlo had developed his own. Brilliant or insane, with growing evidence for both.
 - CURR: "Six silver," he said.
 - NEXT: "For the test," I said.
 
-### P34
+### P33
 - PREV: "Six silver," he said.
 - CURR: "For the test," I said.
 - NEXT: "For my time," Arlo corrected.
 
-### P35
+### P34
 - PREV: "For the test," I said.
 - CURR: "For my time," Arlo corrected.
 - NEXT: "You said six yesterday," I said.
 
-### P36
+### P35
 - PREV: "For my time," Arlo corrected.
 - CURR: "You said six yesterday," I said.
 - NEXT: "Six for my time. Same as yesterday," Arlo said.
 
-### P37
+### P36
 - PREV: "You said six yesterday," I said.
 - CURR: "Six for my time. Same as yesterday," Arlo said.
 - NEXT: I counted the coins onto his bench. It hurt. That was useful. In my old life, by the end, six silver had been invisible. I had spent more than that on wine I did not particularly like because someone important had selected the bottle. Now I watched each coin leave my hand. Capital had weight again. So did mistakes. Arlo picked up a shale chip. "Tell me exactly what you think this does." I almost told him. Not the whole truth. The future was not a truth I could hand him. But I nearly gave him the answer as I remembered it. Then I stopped, because I did not remember the answer. I remembered filter housings. I remembered the Arwick stamp.
 
-### P38
+### P37
 - PREV: "Six for my time. Same as yesterday," Arlo said.
 - CURR: I counted the coins onto his bench. It hurt. That was useful. In my old life, by the end, six silver had been invisible. I had spent more than that on wine I did not particularly like because someone important had selected the bottle. Now I watched each coin leave my hand. Capital had weight again. So did mistakes. Arlo picked up a shale chip. "Tell me exactly what you think this does." I almost told him. Not the whole truth. The future was not a truth I could hand him. But I nearly gave him the answer as I remembered it. Then I stopped, because I did not remember the answer. I remembered filter housings. I remembered the Arwick stamp.
 - NEXT: The loan agreement folded inside my coat seemed suddenly heavier. I touched it to make sure it was still there, then wondered why. Antonius did not need the paper to remember I owed him. I did. The document was less a contract than a physical reminder that every clever idea currently had a clock attached to it.
 
-### P42
+### P41
 - PREV: I pulled the memory apart anyway. Who had been talking? Workshop or banquet? Was the speaker an artificer or merely somebody repeating the explanation badly? Had the useful property been binding residue, or resisting it? The more I pushed, the less trustworthy the detail became. Good. Better to discover that at a bench than after betting the rest of the loan.
 - CURR: "What?" Arlo asked.
 - NEXT: "I was about to pretend I knew more than I do."
 
-### P43
+### P42
 - PREV: "What?" Arlo asked.
 - CURR: "I was about to pretend I knew more than I do."
 - NEXT: Arlo looked at the shale chip in my hand.
 
-### P45
+### P44
 - PREV: Arlo looked at the shale chip in my hand.
 - CURR: "Then start with what you actually know." He waited. I picked up a chip.
 - NEXT: "I think the trace mana is the useful part. Powdered. Suspended in a ceramic mix or laid as a layer. Heat activates something. Maybe the structure changes. Maybe it just exposes more surface."
 
-### P46
+### P45
 - PREV: "Then start with what you actually know." He waited. I picked up a chip.
 - CURR: "I think the trace mana is the useful part. Powdered. Suspended in a ceramic mix or laid as a layer. Heat activates something. Maybe the structure changes. Maybe it just exposes more surface."
 - NEXT: "Those are different mechanisms."
 
-### P47
+### P46
 - PREV: "I think the trace mana is the useful part. Powdered. Suspended in a ceramic mix or laid as a layer. Heat activates something. Maybe the structure changes. Maybe it just exposes more surface."
 - CURR: "Those are different mechanisms."
 - NEXT: "Yes," I said.
 
-### P48
+### P47
 - PREV: "Those are different mechanisms."
 - CURR: "Yes," I said.
 - NEXT: "Which one?"
 
-### P49
+### P48
 - PREV: "Yes," I said.
 - CURR: "Which one?"
 - NEXT: "I don't know."
 
-### P50
+### P49
 - PREV: "Which one?"
 - CURR: "I don't know."
 - NEXT: Arlo's expression flattened. I pointed at him. "That is why you're being paid."
 
-### P51
+### P50
 - PREV: "I don't know."
 - CURR: Arlo's expression flattened. I pointed at him. "That is why you're being paid."
 - NEXT: "No. I'm being paid to test a hypothesis."
 
-### P52
+### P51
 - PREV: Arlo's expression flattened. I pointed at him. "That is why you're being paid."
 - CURR: "No. I'm being paid to test a hypothesis."
 - NEXT: "Excellent. We have several."
 
-### P53
+### P52
 - PREV: "No. I'm being paid to test a hypothesis."
 - CURR: "Excellent. We have several."
 - NEXT: Arlo shook his head.
 
-### P55
+### P54
 - PREV: Arlo shook his head.
 - CURR: "You have guesses. Give me the one you want tested first."
 - NEXT: He muttered something about adventurers and began working. I stayed. Arlo objected. I stayed anyway, not because I needed to supervise him, but because I needed to see what the present knew. That distinction mattered within the first hour. Arlo ground the shale much finer than I expected. He washed part of it. Heated another portion dry. Mixed samples into two cheap clay bodies and one better ceramic paste. He kept notes in a narrow hand and labeled everything. I understood perhaps half of what he was doing. That bothered me more than it should have.
 
-### P59
+### P58
 - PREV: That was closer to support than I wanted to admit. I had planned around artificers, healers, scouts, and killers for decades. I knew enough about their disciplines to coordinate them. Enough was dangerous. It was very easy to mistake knowing what an expert needed for being the expert.
-- CURR: "What?" Arlo asked.
+- CURR: "What?" Antonius asked.
 - NEXT: "Nothing," I said.
 
-### P60
-- PREV: "What?" Arlo asked.
+### P59
+- PREV: "What?" Antonius asked.
 - CURR: "Nothing," I said.
-- NEXT: "You keep looking at me," Arlo said.
+- NEXT: "You keep looking at me," Antonius said.
 
-### P61
+### P60
 - PREV: "Nothing," I said.
-- CURR: "You keep looking at me," Arlo said.
+- CURR: "You keep looking at me," Antonius said.
 - NEXT: "I have a memorable-face problem," I said.
 
-### P62
-- PREV: "You keep looking at me," Arlo said.
+### P61
+- PREV: "You keep looking at me," Antonius said.
 - CURR: "I have a memorable-face problem," I said.
-- NEXT: "Your face?" Arlo asked.
+- NEXT: "Your face?" Antonius asked.
+
+### P62
+- PREV: "I have a memorable-face problem," I said.
+- CURR: "Your face?" Antonius asked.
+- NEXT: "Other people's." Antonius held out his hand.
 
 ### P63
-- PREV: "I have a memorable-face problem," I said.
-- CURR: "Your face?" Arlo asked.
-- NEXT: "Other people's."
+- PREV: "Your face?" Antonius asked.
+- CURR: "Other people's." Antonius held out his hand.
+- NEXT: "You've been staring at my hands for five minutes," Arlo said.
 
 ### P64
-- PREV: "Your face?" Arlo asked.
-- CURR: "Other people's."
-- NEXT: Arlo held out his hand.
-
-### P66
-- PREV: Arlo held out his hand.
+- PREV: "Other people's." Antonius held out his hand.
 - CURR: "You've been staring at my hands for five minutes," Arlo said.
 - NEXT: "I was trying to remember someone," I said.
 
-### P67
+### P65
 - PREV: "You've been staring at my hands for five minutes," Arlo said.
 - CURR: "I was trying to remember someone," I said.
 - NEXT: True, but incomplete. I was trying to decide whether Arlo belonged on the list in my head. If his surname really became the Arwick mark I remembered, this cramped workshop was the beginning of something. If not, he was still the man doing the work in front of me.
 
-### P69
+### P67
 - PREV: True, but incomplete. I was trying to decide whether Arlo belonged on the list in my head. If his surname really became the Arwick mark I remembered, this cramped workshop was the beginning of something. If not, he was still the man doing the work in front of me.
 - CURR: "Me?" Arlo asked.
-- NEXT: "Possibly," I said.
+- NEXT: "Possibly," I said. He set the cup down.
 
-### P70
+### P68
 - PREV: "Me?" Arlo asked.
-- CURR: "Possibly," I said.
-- NEXT: He set the cup down.
+- CURR: "Possibly," I said. He set the cup down.
+- NEXT: "That's unsettling," Arlo said.
 
-### P72
-- PREV: He set the cup down.
+### P69
+- PREV: "Possibly," I said. He set the cup down.
 - CURR: "That's unsettling," Arlo said.
 - NEXT: "Yes," I said.
 
-### P73
+### P70
 - PREV: "That's unsettling," Arlo said.
 - CURR: "Yes," I said.
 - NEXT: "Do you do that with everyone?" Arlo asked.
 
-### P74
+### P71
 - PREV: "Yes," I said.
 - CURR: "Do you do that with everyone?" Arlo asked.
 - NEXT: "Currently," I said.
 
-### P75
+### P72
 - PREV: "Do you do that with everyone?" Arlo asked.
 - CURR: "Currently," I said.
-- NEXT: "Why?" Arlo asked.
+- NEXT: "Why?" Arlo asked. I considered telling him that one day his surname might be stamped on equipment used across three kingdoms. Instead I said, "I was away from Carrow a long time."
 
-### P76
+### P73
 - PREV: "Currently," I said.
-- CURR: "Why?" Arlo asked.
-- NEXT: I considered telling him that one day his surname might be stamped on equipment used across three kingdoms. Instead I said, "I was away from Carrow a long time."
-
-### P77
-- PREV: "Why?" Arlo asked.
-- CURR: I considered telling him that one day his surname might be stamped on equipment used across three kingdoms. Instead I said, "I was away from Carrow a long time."
+- CURR: "Why?" Arlo asked. I considered telling him that one day his surname might be stamped on equipment used across three kingdoms. Instead I said, "I was away from Carrow a long time."
 - NEXT: "You're nineteen," Arlo said.
 
-### P78
-- PREV: I considered telling him that one day his surname might be stamped on equipment used across three kingdoms. Instead I said, "I was away from Carrow a long time."
+### P74
+- PREV: "Why?" Arlo asked. I considered telling him that one day his surname might be stamped on equipment used across three kingdoms. Instead I said, "I was away from Carrow a long time."
 - CURR: "You're nineteen," Arlo said.
 - NEXT: "Emotionally," I said.
 
-### P79
+### P75
 - PREV: "You're nineteen," Arlo said.
 - CURR: "Emotionally," I said.
 - NEXT: Arlo stared. I smiled. He returned to the kiln. By afternoon, the first samples had failed. One cracked. One warped. One smelled terrible. The fourth did absolutely nothing interesting. I watched Arlo scratch a line through it.
 
-### P81
+### P77
 - PREV: Arlo stared. I smiled. He returned to the kiln. By afternoon, the first samples had failed. One cracked. One warped. One smelled terrible. The fourth did absolutely nothing interesting. I watched Arlo scratch a line through it.
 - CURR: "Again," I said.
 - NEXT: "You paid for one test," Arlo said.
 
-### P82
+### P78
 - PREV: "Again," I said.
 - CURR: "You paid for one test," Arlo said.
 - NEXT: "I paid for your time," I said.
 
-### P83
+### P79
 - PREV: "You paid for one test," Arlo said.
 - CURR: "I paid for your time," I said.
 - NEXT: "You paid for six silver of my time," Arlo said.
 
-### P84
+### P80
 - PREV: "I paid for your time," I said.
 - CURR: "You paid for six silver of my time," Arlo said.
 - NEXT: "How much time remains?" I asked.
 
-### P85
+### P81
 - PREV: "You paid for six silver of my time," Arlo said.
 - CURR: "How much time remains?" I asked.
 - NEXT: He looked at the window. "Enough to tell you this was a bad idea." I felt the first real pinch of fear. Not panic. Arithmetic. Antonius's money sat in my pocket becoming smaller. The shale was supposed to matter. I knew that. No. I thought I knew that. I went outside. The alley behind the cooper smelled like wet wood and horse piss. I leaned against the wall and closed my eyes. Filter housing. White ceramic. Blue maker's stamp.
 
-### P86
+### P82
 - PREV: "How much time remains?" I asked.
 - CURR: He looked at the window. "Enough to tell you this was a bad idea." I felt the first real pinch of fear. Not panic. Arithmetic. Antonius's money sat in my pocket becoming smaller. The shale was supposed to matter. I knew that. No. I thought I knew that. I went outside. The alley behind the cooper smelled like wet wood and horse piss. I leaned against the wall and closed my eyes. Filter housing. White ceramic. Blue maker's stamp.
 - NEXT: ARWICK.
 
-### P88
+### P84
 - PREV: ARWICK.
 - CURR: Was it Kestrin shale? I searched. A banquet thirty years later. Someone talking beside me while I watched a duchess lie badly about a border dispute. Wrong memory. Workshop. Smoke. A woman with burned fingertips. Not Arlo. Arwick. Was her name Arwick? I could hear myself saying, "Use the old Kestrin mix." Maybe. Or "Don't use the old Kestrin mix." Fuck. Memory offered confidence without subtitles. I opened my eyes. This was exactly the trap. I had remembered the outcome and reconstructed the cause. The reconstruction was good enough to interest Arlo. That did not make it true. I could lose the loan. Fine. I could work it off.
 - NEXT: One bad memory did not erase forty years. It did change what I was allowed to buy with them. Memory could generate leads. Arlo's bench got to decide which ones survived.
 
-### P90
+### P86
 - PREV: One bad memory did not erase forty years. It did change what I was allowed to buy with them. Memory could generate leads. Arlo's bench got to decide which ones survived.
 - CURR: "Greg," Arlo said. Arlo stood in the doorway.
 - NEXT: "What?" I asked.
 
-### P91
+### P87
 - PREV: "Greg," Arlo said. Arlo stood in the doorway.
 - CURR: "What?" I asked.
 - NEXT: "Come look," he said.
 
-### P92
+### P88
 - PREV: "What?" I asked.
 - CURR: "Come look," he said.
 - NEXT: The fifth sample had not worked either. The sixth had. Not dramatically. No glow. No miraculous transformation. Arlo had run a cheap alchemical wash through a porous ceramic disk containing a small percentage of powdered shale. The liquid collected below was clearer than the control. Barely. But measurably. Arlo ran it again. Same result. He stopped talking. That was when I knew we had something.
 
-### P95
+### P91
 - PREV: I stared at the disk and remembered another successful test from much later in life. Different project. Different people. We had celebrated the first positive result for an entire night and discovered the next morning that it came from contamination in the measuring vessel. I had learned two things: never celebrate before replication, and never let Daro choose the celebratory liquor. Daro. Was Daro alive now? Almost certainly. Where? No idea. I nearly wrote his name down before remembering I was standing in Arlo's workshop and had no paper in my hand.
 - CURR: "How good?" I asked.
 - NEXT: "Not good," Arlo said.
 
-### P96
+### P92
 - PREV: "How good?" I asked.
 - CURR: "Not good," Arlo said.
 - NEXT: "Better?" I asked.
 
-### P97
+### P93
 - PREV: "Not good," Arlo said.
 - CURR: "Better?" I asked.
 - NEXT: "Yes," Arlo said.
 
-### P98
+### P94
 - PREV: "Better?" I asked.
 - CURR: "Yes," Arlo said.
 - NEXT: "How much better?" I asked.
 
-### P99
+### P95
 - PREV: "Yes," Arlo said.
 - CURR: "How much better?" I asked.
 - NEXT: "I need proper measures," Arlo said.
 
-### P100
+### P96
 - PREV: "How much better?" I asked.
 - CURR: "I need proper measures," Arlo said.
 - NEXT: "Guess," I said.
 
-### P101
+### P97
 - PREV: "I need proper measures," Arlo said.
 - CURR: "Guess," I said.
 - NEXT: "I don't guess," Arlo said.
 
-### P102
+### P98
 - PREV: "Guess," I said.
 - CURR: "I don't guess," Arlo said.
-- NEXT: "Everyone guesses. Professionals write the guess down," I said.
+- NEXT: "Everyone guesses. Professionals write the guess down," I said. He glared at me.
 
-### P103
+### P99
 - PREV: "I don't guess," Arlo said.
-- CURR: "Everyone guesses. Professionals write the guess down," I said.
-- NEXT: He glared at me.
+- CURR: "Everyone guesses. Professionals write the guess down," I said. He glared at me.
+- NEXT: "Ten percent?" I asked.
 
-### P105
-- PREV: He glared at me.
+### P100
+- PREV: "Everyone guesses. Professionals write the guess down," I said. He glared at me.
 - CURR: "Ten percent?" I asked.
 - NEXT: My heart kicked. Ten percent was enough. Not for the future product I remembered. Not yet. Enough for proof. Arlo looked at the disk. Then at the shale. Then at me.
 
-### P107
+### P102
 - PREV: My heart kicked. Ten percent was enough. Not for the future product I remembered. Not yet. Enough for proof. Arlo looked at the disk. Then at the shale. Then at me.
-- CURR: "Where did you get this idea?" Arlo asked.
-- NEXT: I smiled.
+- CURR: "Where did you get this idea?" Arlo asked. I smiled. He did not.
+- NEXT: "Greg," Arlo said.
 
-### P110
-- PREV: He did not.
+### P103
+- PREV: "Where did you get this idea?" Arlo asked. I smiled. He did not.
 - CURR: "Greg," Arlo said.
 - NEXT: Arlo Arwick. Lamp repairer. Small workshop. Good hands. Careful notes. Future surname, maybe. I still did not know whether he became rich, whether somebody inherited the name, or whether I was remembering the wrong Arwick entirely. What did I owe the man in front of me if my memory had pointed me toward work he had not found yet? Inconvenient question. I answered a different one.
 
-### P112
+### P105
 - PREV: Arlo Arwick. Lamp repairer. Small workshop. Good hands. Careful notes. Future surname, maybe. I still did not know whether he became rich, whether somebody inherited the name, or whether I was remembering the wrong Arwick entirely. What did I owe the man in front of me if my memory had pointed me toward work he had not found yet? Inconvenient question. I answered a different one.
 - CURR: "How quickly can you improve it?" I asked.
 - NEXT: Arlo's mouth tightened.
 
-### P114
+### P107
 - PREV: Arlo's mouth tightened.
 - CURR: "That's not what I asked," Arlo said.
 - NEXT: "I know," I said.
 
-### P115
+### P108
 - PREV: "That's not what I asked," Arlo said.
 - CURR: "I know," I said.
 - NEXT: "Where did you get the idea?"
 
-### P116
+### P109
 - PREV: "I know," I said.
 - CURR: "Where did you get the idea?"
 - NEXT: "From something I saw a long time ago," I said.
 
-### P117
+### P110
 - PREV: "Where did you get the idea?"
 - CURR: "From something I saw a long time ago," I said.
 - NEXT: "You were a child a long time ago," Arlo said.
 
-### P118
+### P111
 - PREV: "From something I saw a long time ago," I said.
 - CURR: "You were a child a long time ago," Arlo said.
 - NEXT: "I was very observant," I said.
 
-### P119
+### P112
 - PREV: "You were a child a long time ago," Arlo said.
 - CURR: "I was very observant," I said.
-- NEXT: "Greg," Arlo said.
+- NEXT: "Greg," Arlo said. I leaned over the bench.
 
-### P120
+### P113
 - PREV: "I was very observant," I said.
-- CURR: "Greg," Arlo said.
-- NEXT: I leaned over the bench.
+- CURR: "Greg," Arlo said. I leaned over the bench.
+- NEXT: "If I tell you I don't have an answer you will believe, will you stop asking?" I asked.
 
-### P122
-- PREV: I leaned over the bench.
+### P114
+- PREV: "Greg," Arlo said. I leaned over the bench.
 - CURR: "If I tell you I don't have an answer you will believe, will you stop asking?" I asked.
 - NEXT: "No," Arlo said.
 
-### P123
+### P115
 - PREV: "If I tell you I don't have an answer you will believe, will you stop asking?" I asked.
 - CURR: "No," Arlo said.
-- NEXT: "Then we've discovered another stable property," I said.
+- NEXT: "Then we've discovered another stable property," I said. He should have thrown me out. Instead he looked back at the sample. Curiosity beat suspicion, for now.
 
-### P124
+### P116
 - PREV: "No," Arlo said.
-- CURR: "Then we've discovered another stable property," I said.
-- NEXT: He should have thrown me out. Instead he looked back at the sample. Curiosity beat suspicion, for now.
+- CURR: "Then we've discovered another stable property," I said. He should have thrown me out. Instead he looked back at the sample. Curiosity beat suspicion, for now.
+- NEXT: Useful. I hated how quickly the word appeared.
 
-### P128
+### P119
 - PREV: Interested, I corrected. Better.
 - CURR: "What do you need?" I asked.
 - NEXT: "Better clay. Controlled heat. Different ratios. Proper test reagents," Arlo said.
 
-### P129
+### P120
 - PREV: "What do you need?" I asked.
 - CURR: "Better clay. Controlled heat. Different ratios. Proper test reagents," Arlo said.
-- NEXT: "Cost?" I asked.
+- NEXT: "Cost?" I asked. He named a number. I swore. Arlo smiled for the first time all afternoon.
 
-### P130
+### P121
 - PREV: "Better clay. Controlled heat. Different ratios. Proper test reagents," Arlo said.
-- CURR: "Cost?" I asked.
-- NEXT: He named a number.
+- CURR: "Cost?" I asked. He named a number. I swore. Arlo smiled for the first time all afternoon.
+- NEXT: "You wanted research."
 
-### P134
-- PREV: Arlo smiled for the first time all afternoon.
+### P122
+- PREV: "Cost?" I asked. He named a number. I swore. Arlo smiled for the first time all afternoon.
 - CURR: "You wanted research."
 - NEXT: "I wanted profitable research."
 
-### P135
+### P123
 - PREV: "You wanted research."
 - CURR: "I wanted profitable research."
 - NEXT: "Those are different."
 
-### P136
+### P124
 - PREV: "I wanted profitable research."
 - CURR: "Those are different."
 - NEXT: "Apparently."
 
-### P137
+### P125
 - PREV: "Those are different."
 - CURR: "Apparently."
 - NEXT: I checked the remaining silver. I could fund it. Barely. Then I would have almost nothing left. The sensible move was to take the weak positive result back to Antonius and ask for more capital. The better move was to improve the result first. The Greg move was to do both while pretending there was no distinction.
 
-### P139
+### P127
 - PREV: I checked the remaining silver. I could fund it. Barely. Then I would have almost nothing left. The sensible move was to take the weak positive result back to Antonius and ask for more capital. The better move was to improve the result first. The Greg move was to do both while pretending there was no distinction.
 - CURR: "I need a written statement," I said.
 - NEXT: Arlo frowned. "Of what?"
 
-### P140
+### P128
 - PREV: "I need a written statement," I said.
 - CURR: Arlo frowned. "Of what?"
 - NEXT: "What we tested. What happened. Your estimate that further trials are justified," I said.
 
-### P141
+### P129
 - PREV: Arlo frowned. "Of what?"
 - CURR: "What we tested. What happened. Your estimate that further trials are justified," I said.
 - NEXT: "I'm not putting my name on your sales pitch," Arlo said.
 
-### P142
+### P130
 - PREV: "What we tested. What happened. Your estimate that further trials are justified," I said.
 - CURR: "I'm not putting my name on your sales pitch," Arlo said.
 - NEXT: "Not a sales pitch. A technical observation," I said.
 
-### P143
+### P131
 - PREV: "I'm not putting my name on your sales pitch," Arlo said.
 - CURR: "Not a sales pitch. A technical observation," I said.
 - NEXT: "For whom?" Arlo asked.
 
-### P144
+### P132
 - PREV: "Not a sales pitch. A technical observation," I said.
 - CURR: "For whom?" Arlo asked.
 - NEXT: "A lender," I said.
 
-### P145
+### P133
 - PREV: "For whom?" Arlo asked.
 - CURR: "A lender," I said.
 - NEXT: "You borrowed the money?" Arlo asked.
 
-### P146
+### P134
 - PREV: "A lender," I said.
 - CURR: "You borrowed the money?" Arlo asked.
 - NEXT: "Obviously," I said. Arlo stared at me.
 
-### P147
+### P135
 - PREV: "You borrowed the money?" Arlo asked.
 - CURR: "Obviously," I said. Arlo stared at me.
 - NEXT: "How much?" Arlo asked.
 
-### P148
+### P136
 - PREV: "Obviously," I said. Arlo stared at me.
 - CURR: "How much?" Arlo asked.
 - NEXT: "Enough," I said.
 
-### P149
+### P137
 - PREV: "How much?" Arlo asked.
 - CURR: "Enough," I said.
 - NEXT: "From who?" Arlo asked.
 
-### P150
+### P138
 - PREV: "Enough," I said.
 - CURR: "From who?" Arlo asked.
-- NEXT: "Antonius Vale," I said.
+- NEXT: "Antonius Vale," I said. He put both hands on the bench.
 
-### P151
+### P139
 - PREV: "From who?" Arlo asked.
-- CURR: "Antonius Vale," I said.
-- NEXT: He put both hands on the bench.
+- CURR: "Antonius Vale," I said. He put both hands on the bench.
+- NEXT: "You borrowed from Vale to buy garbage."
 
-### P153
-- PREV: He put both hands on the bench.
+### P140
+- PREV: "Antonius Vale," I said. He put both hands on the bench.
 - CURR: "You borrowed from Vale to buy garbage."
 - NEXT: "When you say it like that, it sounds irresponsible," I said.
 
-### P154
+### P141
 - PREV: "You borrowed from Vale to buy garbage."
 - CURR: "When you say it like that, it sounds irresponsible," I said.
 - NEXT: "It is irresponsible," Arlo said.
 
-### P155
+### P142
 - PREV: "When you say it like that, it sounds irresponsible," I said.
 - CURR: "It is irresponsible," Arlo said.
 - NEXT: "Then say it more quietly," I said.
 
-### P156
+### P143
 - PREV: "It is irresponsible," Arlo said.
 - CURR: "Then say it more quietly," I said.
 - NEXT: Arlo walked to the other side of the workshop and stood there. I watched him think and felt the roles assembling anyway. Cautious artificer. Technical credibility. Future manufacturer. Partner. Asset. No. Arlo. A person named Arlo who wanted his work to remain his.
 
-### P159
+### P146
 - PREV: I had always been good at turning people into roles because roles were easier to arrange than people. Arlo was especially tempting because his surname already occupied some unknown place in my future.
 - CURR: "If I write anything, it says exactly what happened. No claims. No projections."
 - NEXT: "Perfect," I said.
 
-### P160
+### P147
 - PREV: "If I write anything, it says exactly what happened. No claims. No projections."
 - CURR: "Perfect," I said.
 - NEXT: "And my name stays attached to the work," Arlo said.
 
-### P161
+### P148
 - PREV: "Perfect," I said.
 - CURR: "And my name stays attached to the work," Arlo said.
 - NEXT: That surprised me, mostly because nineteen-year-old Greg would have tried to own the idea. Old Greg knew better. Mostly.
 
-### P163
+### P150
 - PREV: That surprised me, mostly because nineteen-year-old Greg would have tried to own the idea. Old Greg knew better. Mostly.
 - CURR: "Yes," I said.
 - NEXT: Arlo narrowed his eyes. "That easy?"
 
-### P164
+### P151
 - PREV: "Yes," I said.
 - CURR: Arlo narrowed his eyes. "That easy?"
 - NEXT: "No. I'm growing," I said.
 
-### P165
+### P152
 - PREV: Arlo narrowed his eyes. "That easy?"
 - CURR: "No. I'm growing," I said.
 - NEXT: "Into what?" Arlo asked.
 
-### P166
+### P153
 - PREV: "No. I'm growing," I said.
 - CURR: "Into what?" Arlo asked.
 - NEXT: "Unclear," I said.
 
-### P167
+### P154
 - PREV: "Into what?" Arlo asked.
 - CURR: "Unclear," I said.
 - NEXT: He wrote the statement. I took it to Antonius before sunset. His storage-room office still had the ham. The scarred man from yesterday was there too; his name, I learned, was Rusk. Nothing surfaced when I searched for him. On the walk over I rehearsed the argument three ways, then caught myself rehearsing for the Antonius I remembered rather than the one I had actually met.
 
-### P170
+### P157
 - PREV: So I changed the plan. Give him the evidence. Let him ask. Watch what present Antonius cared about. Yesterday I had been a Bronze adventurer selling confidence. Today I had Arlo's name on a test that had produced a measurable effect. Not a business. Evidence.
 - CURR: Antonius looked at me long enough that I said, "What?"
 - NEXT: "You keep looking at people like that?"
 
-### P171
+### P158
 - PREV: Antonius looked at me long enough that I said, "What?"
 - CURR: "You keep looking at people like that?"
 - NEXT: "I have a memorable-face problem."
 
-### P172
+### P159
 - PREV: "You keep looking at people like that?"
 - CURR: "I have a memorable-face problem."
 - NEXT: "Your face?"
 
-### P173
+### P160
 - PREV: "I have a memorable-face problem."
 - CURR: "Your face?"
 - NEXT: "Other people's." He held out his hand. I gave him Arlo's note.
 
-### P174
+### P161
 - PREV: "Your face?"
 - CURR: "Other people's." He held out his hand. I gave him Arlo's note.
 - NEXT: He read it twice.
 
-### P176
+### P163
 - PREV: He read it twice.
 - CURR: "Ten percent."
 - NEXT: "Approximately."
 
-### P177
+### P164
 - PREV: "Ten percent."
 - CURR: "Approximately."
 - NEXT: "Meaning?"
 
-### P178
+### P165
 - PREV: "Approximately."
 - CURR: "Meaning?"
 - NEXT: "Meaning it worked badly."
 
-### P179
+### P166
 - PREV: "Meaning?"
 - CURR: "Meaning it worked badly."
 - NEXT: Jorren laughed. Antonius looked at me. "And you came here proud."
 
-### P180
+### P167
 - PREV: "Meaning it worked badly."
 - CURR: Jorren laughed. Antonius looked at me. "And you came here proud."
 - NEXT: "I came here early."
 
-### P181
+### P168
 - PREV: Jorren laughed. Antonius looked at me. "And you came here proud."
 - CURR: "I came here early."
 - NEXT: "What do you want?"
 
-### P182
+### P169
 - PREV: "I came here early."
 - CURR: "What do you want?"
 - NEXT: "The rest of the loan I asked for."
 
-### P183
+### P170
 - PREV: "What do you want?"
 - CURR: "The rest of the loan I asked for."
 - NEXT: "No," Antonius said.
 
-### P184
+### P171
 - PREV: "The rest of the loan I asked for."
 - CURR: "No," Antonius said.
 - NEXT: "Half."
 
-### P185
+### P172
 - PREV: "No," Antonius said.
 - CURR: "Half."
 - NEXT: "No," Antonius said.
 
-### P186
+### P173
 - PREV: "Half."
 - CURR: "No," Antonius said.
 - NEXT: "A quarter."
 
-### P187
+### P174
 - PREV: "No," Antonius said.
 - CURR: "A quarter."
-- NEXT: "No," Antonius said.
+- NEXT: "No," Antonius said. I sat back.
 
-### P188
+### P175
 - PREV: "A quarter."
-- CURR: "No," Antonius said.
-- NEXT: I sat back.
+- CURR: "No," Antonius said. I sat back.
+- NEXT: "You're being difficult."
 
-### P190
-- PREV: I sat back.
+### P176
+- PREV: "No," Antonius said. I sat back.
 - CURR: "You're being difficult."
 - NEXT: "I gave an unsecured loan to a Bronze adventurer yesterday. Today he returned with a piece of paper saying his garbage is slightly less useless than expected."
 
-### P191
+### P177
 - PREV: "You're being difficult."
 - CURR: "I gave an unsecured loan to a Bronze adventurer yesterday. Today he returned with a piece of paper saying his garbage is slightly less useless than expected."
 - NEXT: "That is a cruel summary of scientific progress." Antonius slid the paper back.
 
-### P192
+### P178
 - PREV: "I gave an unsecured loan to a Bronze adventurer yesterday. Today he returned with a piece of paper saying his garbage is slightly less useless than expected."
 - CURR: "That is a cruel summary of scientific progress." Antonius slid the paper back.
 - NEXT: "You owe me."
 
-### P193
+### P179
 - PREV: "That is a cruel summary of scientific progress." Antonius slid the paper back.
 - CURR: "You owe me."
 - NEXT: "I know," I said.
 
-### P194
+### P180
 - PREV: "You owe me."
 - CURR: "I know," I said.
 - NEXT: "Then why would I increase my exposure?"
 
-### P195
+### P181
 - PREV: "I know," I said.
 - CURR: "Then why would I increase my exposure?"
 - NEXT: "Because yesterday you were lending against me. Today you're lending against evidence."
 
-### P196
+### P182
 - PREV: "Then why would I increase my exposure?"
 - CURR: "Because yesterday you were lending against me. Today you're lending against evidence."
 - NEXT: "Bad evidence."
 
-### P197
+### P183
 - PREV: "Because yesterday you were lending against me. Today you're lending against evidence."
 - CURR: "Bad evidence."
 - NEXT: "Better than no evidence." He almost smiled. I leaned forward.
 
-### P198
+### P184
 - PREV: "Bad evidence."
 - CURR: "Better than no evidence." He almost smiled. I leaned forward.
 - NEXT: "And because if you don't, I'll find someone else."
 
-### P199
+### P185
 - PREV: "Better than no evidence." He almost smiled. I leaned forward.
 - CURR: "And because if you don't, I'll find someone else."
 - NEXT: Jorren stopped laughing. Antonius did smile then.
 
-### P201
+### P187
 - PREV: Jorren stopped laughing. Antonius did smile then.
 - CURR: "You think you can?"
 - NEXT: "Yes," I said.
 
-### P202
+### P188
 - PREV: "You think you can?"
 - CURR: "Yes," I said.
 - NEXT: Could I? Probably. Maybe. There were merchants. Guild factors. Alchemists. Arlo himself if I could convince him to risk his workshop. I did not know their current names. I did know how money behaved around opportunity. That was enough to make the threat credible to me. Antonius studied my face.
 
-### P204
+### P190
 - PREV: Could I? Probably. Maybe. There were merchants. Guild factors. Alchemists. Arlo himself if I could convince him to risk his workshop. I did not know their current names. I did know how money behaved around opportunity. That was enough to make the threat credible to me. Antonius studied my face.
 - CURR: "Who?"
 - NEXT: "I don't know yet."
 
-### P205
+### P191
 - PREV: "Who?"
 - CURR: "I don't know yet."
 - NEXT: Jorren barked a laugh. Antonius's smile widened.
 
-### P207
+### P193
 - PREV: Jorren barked a laugh. Antonius's smile widened.
 - CURR: "At least you're an honest liar."
 - NEXT: "I've had practice."
 
-### P208
+### P194
 - PREV: "At least you're an honest liar."
 - CURR: "I've had practice."
 - NEXT: "At nineteen?" I shrugged. He drummed two fingers on the desk.
 
-### P209
+### P195
 - PREV: "I've had practice."
 - CURR: "At nineteen?" I shrugged. He drummed two fingers on the desk.
 - NEXT: "What is the actual play?"
 
-### P210
+### P196
 - PREV: "At nineteen?" I shrugged. He drummed two fingers on the desk.
 - CURR: "What is the actual play?"
 - NEXT: There. Not the loan. The play. I liked him more for asking. Yesterday the shale had been remembered garbage. Now it was a weak result, a technical witness, and a reason to ask for another round of capital. That was enough.
 
-### P212
+### P198
 - PREV: There. Not the loan. The play. I liked him more for asking. Yesterday the shale had been remembered garbage. Now it was a weak result, a technical witness, and a reason to ask for another round of capital. That was enough.
 - CURR: "We prove the filtration effect. If it's material, we secure supply before anyone cares. Arlo develops the process. We sell the process, manufacture the filters, or license both depending on capital."
 - NEXT: "We."
 
-### P213
+### P199
 - PREV: "We prove the filtration effect. If it's material, we secure supply before anyone cares. Arlo develops the process. We sell the process, manufacture the filters, or license both depending on capital."
 - CURR: "We."
 - NEXT: "Whoever pays."
 
-### P214
+### P200
 - PREV: "We."
 - CURR: "Whoever pays."
 - NEXT: "You've already promised Arwick a share?"
 
-### P215
+### P201
 - PREV: "Whoever pays."
 - CURR: "You've already promised Arwick a share?"
 - NEXT: "His name stays on the work."
 
-### P216
+### P202
 - PREV: "You've already promised Arwick a share?"
 - CURR: "His name stays on the work."
 - NEXT: "That's not a share."
 
-### P217
+### P203
 - PREV: "His name stays on the work."
 - CURR: "That's not a share."
 - NEXT: No. It wasn't. I disliked that Antonius noticed.
 
-### P219
+### P205
 - PREV: No. It wasn't. I disliked that Antonius noticed.
 - CURR: "What does he get?" Antonius asked.
 - NEXT: "I haven't decided."
 
-### P220
+### P206
 - PREV: "What does he get?" Antonius asked.
 - CURR: "I haven't decided."
 - NEXT: "Has he?"
 
-### P221
+### P207
 - PREV: "I haven't decided."
 - CURR: "Has he?"
 - NEXT: "No," I said.
 
-### P222
+### P208
 - PREV: "Has he?"
 - CURR: "No," I said.
 - NEXT: "Then you're not partners."
 
-### P223
+### P209
 - PREV: "No," I said.
 - CURR: "Then you're not partners."
 - NEXT: "I didn't say we were." Antonius leaned back. For a moment I saw the older man inside him. Or projected him there.
 
-### P224
+### P210
 - PREV: "Then you're not partners."
 - CURR: "I didn't say we were." Antonius leaned back. For a moment I saw the older man inside him. Or projected him there.
 - NEXT: "How much do you think the idea is worth?" he asked. I nearly answered with the future. A fortune. Wrong. Today it was worth one weak test and a cart of garbage.
 
-### P225
+### P211
 - PREV: "I didn't say we were." Antonius leaned back. For a moment I saw the older man inside him. Or projected him there.
 - CURR: "How much do you think the idea is worth?" he asked. I nearly answered with the future. A fortune. Wrong. Today it was worth one weak test and a cart of garbage.
 - NEXT: "Nothing yet." Antonius nodded.
 
-### P226
+### P212
 - PREV: "How much do you think the idea is worth?" he asked. I nearly answered with the future. A fortune. Wrong. Today it was worth one weak test and a cart of garbage.
 - CURR: "Nothing yet." Antonius nodded.
 - NEXT: "Good." He opened the cabinet. Not the full amount. More than I expected.
 
-### P227
+### P213
 - PREV: "Nothing yet." Antonius nodded.
 - CURR: "Good." He opened the cabinet. Not the full amount. More than I expected.
 - NEXT: "I want first refusal on financing," he said.
 
-### P228
+### P214
 - PREV: "Good." He opened the cabinet. Not the full amount. More than I expected.
 - CURR: "I want first refusal on financing," he said.
 - NEXT: "Limited."
 
-### P229
+### P215
 - PREV: "I want first refusal on financing," he said.
 - CURR: "Limited."
 - NEXT: "First refusal."
 
-### P230
+### P216
 - PREV: "Limited."
 - CURR: "First refusal."
 - NEXT: "For thirty days."
 
-### P231
+### P217
 - PREV: "First refusal."
 - CURR: "For thirty days."
 - NEXT: "Six months."
 
-### P232
+### P218
 - PREV: "For thirty days."
 - CURR: "Six months."
 - NEXT: "Two."
 
-### P233
+### P219
 - PREV: "Six months."
 - CURR: "Two."
 - NEXT: "Four."
 
-### P234
+### P220
 - PREV: "Two."
 - CURR: "Four."
 - NEXT: "Three."
 
-### P235
+### P221
 - PREV: "Four."
 - CURR: "Three."
 - NEXT: "Fine."
 
-### P236
+### P222
 - PREV: "Three."
 - CURR: "Fine."
 - NEXT: "And if you sell the process during that period without offering it to me first, the debt doubles."
 
-### P237
+### P223
 - PREV: "Fine."
 - CURR: "And if you sell the process during that period without offering it to me first, the debt doubles."
 - NEXT: "That's predatory," I said.
 
-### P238
+### P224
 - PREV: "And if you sell the process during that period without offering it to me first, the debt doubles."
 - CURR: "That's predatory," I said.
 - NEXT: "Yes," Antonius said.
 
-### P239
+### P225
 - PREV: "That's predatory," I said.
 - CURR: "Yes," Antonius said.
 - NEXT: "Good. I was worried you were losing your touch," I said.
 
-### P240
+### P226
 - PREV: "Yes," Antonius said.
 - CURR: "Good. I was worried you were losing your touch," I said.
 - NEXT: His eyes narrowed again. I needed to stop doing that. He pushed the silver across. The shale might eventually solve the money problem. It would not solve my body. In my first life I had spent six more years pretending the sword was going to make me exceptional. I had no interest in repeating that delay.
 
-### P242
+### P228
 - PREV: His eyes narrowed again. I needed to stop doing that. He pushed the silver across. The shale might eventually solve the money problem. It would not solve my body. In my first life I had spent six more years pretending the sword was going to make me exceptional. I had no interest in repeating that delay.
 - CURR: "What do you know about mana conditioning?"
 - NEXT: That question surprised him.
 
-### P244
+### P230
 - PREV: That question surprised him.
 - CURR: "Nothing," Antonius said.
 - NEXT: "Who in Carrow does?"
 
-### P245
+### P231
 - PREV: "Nothing," Antonius said.
 - CURR: "Who in Carrow does?"
 - NEXT: "Guild."
 
-### P246
+### P232
 - PREV: "Who in Carrow does?"
 - CURR: "Guild."
 - NEXT: "Anyone better?"
 
-### P247
+### P233
 - PREV: "Guild."
 - CURR: "Anyone better?"
 - NEXT: "Why?" Antonius asked.
 
-### P248
+### P234
 - PREV: "Anyone better?"
 - CURR: "Why?" Antonius asked.
 - NEXT: "I want to learn magic."
 
-### P249
+### P235
 - PREV: "Why?" Antonius asked.
 - CURR: "I want to learn magic."
 - NEXT: Jorren looked at my sword. Antonius looked at my Bronze plate.
 
-### P251
+### P237
 - PREV: Jorren looked at my sword. Antonius looked at my Bronze plate.
 - CURR: "You're a warrior."
 - NEXT: "Allegedly."
 
-### P252
+### P238
 - PREV: "You're a warrior."
 - CURR: "Allegedly."
 - NEXT: "You cast?"
 
-### P253
+### P239
 - PREV: "Allegedly."
 - CURR: "You cast?"
 - NEXT: "No," I said.
 
-### P254
+### P240
 - PREV: "You cast?"
 - CURR: "No," I said.
 - NEXT: "Then why now?"
 
-### P255
+### P241
 - PREV: "No," I said.
 - CURR: "Then why now?"
 - NEXT: Because six years from now a sexual fad would accidentally reveal that I had wasted my youth.
 
-### P257
+### P243
 - PREV: Because six years from now a sexual fad would accidentally reveal that I had wasted my youth.
 - CURR: "Career development." Antonius laughed. Actually laughed. That was new.
 - NEXT: "Go to the guild," he said. "Ask for Hessa Marr."
 
-### P258
+### P244
 - PREV: "Career development." Antonius laughed. Actually laughed. That was new.
 - CURR: "Go to the guild," he said. "Ask for Hessa Marr."
 - NEXT: The name hit. Hessa. I went still. Antonius noticed. Of course he did.
 
-### P260
+### P246
 - PREV: The name hit. Hessa. I went still. Antonius noticed. Of course he did.
 - CURR: "You know her?"
 - NEXT: Did I? Old woman. White braid. Cane. No. Instructor. Barrier. Someone yelling at me. Not Hessa. Maybe. I could see a funeral. Whose?
 
-### P262
+### P248
 - PREV: Did I? Old woman. White braid. Cane. No. Instructor. Barrier. Someone yelling at me. Not Hessa. Maybe. I could see a funeral. Whose?
 - CURR: "Hessa Marr," Antonius repeated. I searched harder. That only made it worse. There was something there. A memory with no label.
 - NEXT: "I know the name."
 
-### P263
+### P249
 - PREV: "Hessa Marr," Antonius repeated. I searched harder. That only made it worse. There was something there. A memory with no label.
 - CURR: "I know the name."
 - NEXT: "From?" I looked at him.
 
-### P264
+### P250
 - PREV: "I know the name."
 - CURR: "From?" I looked at him.
 - NEXT: "Unreliable people."
 
-### P265
+### P251
 - PREV: "From?" I looked at him.
 - CURR: "Unreliable people."
 - NEXT: Jorren groaned. Antonius waved me out. I left with more borrowed silver and a name that would not stop scratching at the inside of my skull. The guild was busiest at dusk. Parties returning. Contracts closing. Healers complaining. Porters weighing salvage. The smell of sweat, oil, wet leather, cheap stew, and minor triumph. Home. That word arrived before I could stop it. For most of my first life, guild halls had been home. Not this one. All of them. The noise settled something in me. Then Sella saw me.
 
-### P269
+### P255
 - PREV: That was happening constantly now. Noise became people. Smells became campaigns. A laugh could turn into a dead friend until I looked over and found a stranger. I had wanted forty years of experience back. Apparently it came without a search function.
 - CURR: "You."
 - NEXT: "Me."
 
-### P270
+### P256
 - PREV: "You."
 - CURR: "Me."
 - NEXT: She was behind the counter now. That felt wrong. Later Sella had possessed an office, three assistants, and the terrifying ability to make veteran captains apologize for forms they had not yet failed to file. Now she was sorting contract slips.
 
-### P272
+### P258
 - PREV: She was behind the counter now. That felt wrong. Later Sella had possessed an office, three assistants, and the terrifying ability to make veteran captains apologize for forms they had not yet failed to file. Now she was sorting contract slips.
 - CURR: "What do you want?" she asked.
 - NEXT: "Hessa Marr." Sella stopped. That was not encouraging.
 
-### P273
+### P259
 - PREV: "What do you want?" she asked.
 - CURR: "Hessa Marr." Sella stopped. That was not encouraging.
 - NEXT: "What?" I asked.
 
-### P274
+### P260
 - PREV: "Hessa Marr." Sella stopped. That was not encouraging.
 - CURR: "What?" I asked.
 - NEXT: "I was told to ask for Hessa Marr."
 
-### P275
+### P261
 - PREV: "What?" I asked.
 - CURR: "I was told to ask for Hessa Marr."
 - NEXT: "Who told you?"
 
-### P276
+### P262
 - PREV: "I was told to ask for Hessa Marr."
 - CURR: "Who told you?"
 - NEXT: "Vale."
 
-### P277
+### P263
 - PREV: "Who told you?"
 - CURR: "Vale."
 - NEXT: Her expression worsened.
 
-### P279
+### P265
 - PREV: Her expression worsened.
 - CURR: "Of course."
 - NEXT: "Do you know him?"
 
-### P280
+### P266
 - PREV: "Of course."
 - CURR: "Do you know him?"
 - NEXT: "Everybody knows him."
 
-### P281
+### P267
 - PREV: "Do you know him?"
 - CURR: "Everybody knows him."
 - NEXT: Not yet, I thought. I leaned closer.
 
-### P283
+### P269
 - PREV: Not yet, I thought. I leaned closer.
 - CURR: "How well?" Sella leaned away.
 - NEXT: "There. You're doing it again."
 
-### P284
+### P270
 - PREV: "How well?" Sella leaned away.
 - CURR: "There. You're doing it again."
 - NEXT: "What?" I asked.
 
-### P285
+### P271
 - PREV: "There. You're doing it again."
 - CURR: "What?" I asked.
 - NEXT: "Looking at me like you're trying to remember where you buried me."
 
-### P286
+### P272
 - PREV: "What?" I asked.
 - CURR: "Looking at me like you're trying to remember where you buried me."
 - NEXT: "That is disturbingly specific."
 
-### P287
+### P273
 - PREV: "Looking at me like you're trying to remember where you buried me."
 - CURR: "That is disturbingly specific."
 - NEXT: "Who are you?"
 
-### P288
+### P274
 - PREV: "That is disturbingly specific."
 - CURR: "Who are you?"
 - NEXT: "Greg," I said.
 
-### P289
+### P275
 - PREV: "Who are you?"
 - CURR: "Greg," I said.
 - NEXT: "I know your name."
 
-### P290
+### P276
 - PREV: "Greg," I said.
 - CURR: "I know your name."
 - NEXT: "Progress."
 
-### P291
+### P277
 - PREV: "I know your name."
 - CURR: "Progress."
 - NEXT: She did not smile. I looked at her and tried, deliberately this time, not to search the future. Sella now. Young clerk. Ink on her fingers again. Hair pinned badly because she had probably redone it during shift. A small burn on her wrist. Tired. Annoyed. Competent enough that three people had asked her questions while we were speaking and she answered all three without losing my thread. That was useful information too.
 
-### P293
+### P279
 - PREV: She did not smile. I looked at her and tried, deliberately this time, not to search the future. Sella now. Young clerk. Ink on her fingers again. Hair pinned badly because she had probably redone it during shift. A small burn on her wrist. Tired. Annoyed. Competent enough that three people had asked her questions while we were speaking and she answered all three without losing my thread. That was useful information too.
 - CURR: "Hessa?" I asked.
 - NEXT: "Training annex. Basement."
 
-### P294
+### P280
 - PREV: "Hessa?" I asked.
 - CURR: "Training annex. Basement."
 - NEXT: "Thank you."
 
-### P295
+### P281
 - PREV: "Training annex. Basement."
 - CURR: "Thank you."
-- NEXT: "Greg," Sella said.
+- NEXT: "Greg," Sella said. I turned.
 
-### P296
+### P282
 - PREV: "Thank you."
-- CURR: "Greg," Sella said.
-- NEXT: I turned.
+- CURR: "Greg," Sella said. I turned.
+- NEXT: "If Vale sent you, don't sign anything without reading it." I smiled.
 
-### P298
-- PREV: I turned.
+### P283
+- PREV: "Greg," Sella said. I turned.
 - CURR: "If Vale sent you, don't sign anything without reading it." I smiled.
 - NEXT: "I never do."
 
-### P299
+### P284
 - PREV: "If Vale sent you, don't sign anything without reading it." I smiled.
 - CURR: "I never do."
 - NEXT: "You look exactly like someone who does."
 
-### P300
+### P285
 - PREV: "I never do."
 - CURR: "You look exactly like someone who does."
 - NEXT: Fair. The training annex had six practice rooms. Hessa Marr occupied the smallest. I knew her when I saw her. Not personally. Historically. That was different. Hessa Marr had written the Marr Primer. No. Had she? The primer was Marr. H. Marr. I had used it later when retraining a noble's son whose tutors had filled his head with expensive nonsense. I had complained about it. What had I complained about? Too conservative. Excellent foundations. Terrible diagrams. I smiled. Hessa looked up from a ledger. She was perhaps forty. Broad face. Hair tied in a knot. Sleeves rolled to the elbow. No cane. Of course no cane.
 
-### P303
+### P288
 - PREV: I did not remember Hessa as a beloved mentor. I remembered Marr attached to foundational instruction, and Antonius had independently sent me to her. Good enough to test. I needed her to tell me what this nineteen-year-old body actually had and what it lacked.
 - CURR: "Can I help you?" I stared. She sighed.
 - NEXT: "Is there something on my face?"
 
-### P304
+### P289
 - PREV: "Can I help you?" I stared. She sighed.
 - CURR: "Is there something on my face?"
 - NEXT: "No," I said.
 
-### P305
+### P290
 - PREV: "Is there something on my face?"
 - CURR: "No," I said.
 - NEXT: "Then stop."
 
-### P306
+### P291
 - PREV: "No," I said.
 - CURR: "Then stop."
 - NEXT: "Sorry." I sat opposite her.
 
-### P307
+### P292
 - PREV: "Then stop."
 - CURR: "Sorry." I sat opposite her.
 - NEXT: "Antonius Vale said you teach mana conditioning."
 
-### P308
+### P293
 - PREV: "Sorry." I sat opposite her.
 - CURR: "Antonius Vale said you teach mana conditioning."
 - NEXT: "Vale sends me people he wants injured."
 
-### P309
+### P294
 - PREV: "Antonius Vale said you teach mana conditioning."
 - CURR: "Vale sends me people he wants injured."
 - NEXT: "Comforting."
 
-### P310
+### P295
 - PREV: "Vale sends me people he wants injured."
 - CURR: "Comforting."
 - NEXT: "What do you want?"
 
-### P311
+### P296
 - PREV: "Comforting."
 - CURR: "What do you want?"
 - NEXT: "To learn."
 
-### P312
+### P297
 - PREV: "What do you want?"
 - CURR: "To learn."
 - NEXT: "Magic?"
 
-### P313
+### P298
 - PREV: "To learn."
 - CURR: "Magic?"
 - NEXT: "Eventually."
 
-### P314
+### P299
 - PREV: "Magic?"
 - CURR: "Eventually."
 - NEXT: "Have you tested?"
 
-### P315
+### P300
 - PREV: "Eventually."
 - CURR: "Have you tested?"
 - NEXT: "No," I said.
 
-### P316
+### P301
 - PREV: "Have you tested?"
 - CURR: "No," I said.
 - NEXT: "Why not?"
 
-### P317
+### P302
 - PREV: "No," I said.
 - CURR: "Why not?"
 - NEXT: "I was busy being wrong about my career." Hessa looked at the sword on my hip.
 
-### P318
+### P303
 - PREV: "Why not?"
 - CURR: "I was busy being wrong about my career." Hessa looked at the sword on my hip.
 - NEXT: "Warrior?"
 
-### P319
+### P304
 - PREV: "I was busy being wrong about my career." Hessa looked at the sword on my hip.
 - CURR: "Warrior?"
 - NEXT: "Allegedly." She held out her hand.
 
-### P320
+### P305
 - PREV: "Warrior?"
 - CURR: "Allegedly." She held out her hand.
 - NEXT: "Token." I gave her the Bronze plate. She checked it.
 
-### P321
+### P306
 - PREV: "Allegedly." She held out her hand.
 - CURR: "Token." I gave her the Bronze plate. She checked it.
 - NEXT: "Two years registered."
 
-### P322
+### P307
 - PREV: "Token." I gave her the Bronze plate. She checked it.
 - CURR: "Two years registered."
 - NEXT: That answered a question I had not thought to ask. Two years. Seventeen. I had joined at seventeen. Yes. That felt right. Another piece clicked into place. Hessa pushed the token back.
 
-### P324
+### P309
 - PREV: That answered a question I had not thought to ask. Two years. Seventeen. I had joined at seventeen. Yes. That felt right. Another piece clicked into place. Hessa pushed the token back.
 - CURR: "You've been active?"
 - NEXT: "Enough," I said.
 
-### P325
+### P310
 - PREV: "You've been active?"
 - CURR: "Enough," I said.
 - NEXT: "Injuries?"
 
-### P326
+### P311
 - PREV: "Enough," I said.
 - CURR: "Injuries?"
 - NEXT: "Not currently."
 
-### P327
+### P312
 - PREV: "Injuries?"
 - CURR: "Not currently."
 - NEXT: "Mana exposure?"
 
-### P328
+### P313
 - PREV: "Not currently."
 - CURR: "Mana exposure?"
 - NEXT: "Dungeons."
 
-### P329
+### P314
 - PREV: "Mana exposure?"
 - CURR: "Dungeons."
 - NEXT: "Formal channel work?"
 
-### P330
+### P315
 - PREV: "Dungeons."
 - CURR: "Formal channel work?"
 - NEXT: "No," I said.
 
-### P331
+### P316
 - PREV: "Formal channel work?"
 - CURR: "No," I said.
 - NEXT: "Spell attempts?"
 
-### P332
+### P317
 - PREV: "No," I said.
 - CURR: "Spell attempts?"
 - NEXT: "One."
 
-### P333
+### P318
 - PREV: "Spell attempts?"
 - CURR: "One."
 - NEXT: Her eyes sharpened.
 
-### P335
+### P320
 - PREV: Her eyes sharpened.
 - CURR: "When?"
 - NEXT: "This morning."
 
-### P336
+### P321
 - PREV: "When?"
 - CURR: "This morning."
 - NEXT: "What spell?"
 
-### P337
+### P322
 - PREV: "This morning."
 - CURR: "What spell?"
 - NEXT: "Barrier."
 
-### P338
+### P323
 - PREV: "What spell?"
 - CURR: "Barrier."
 - NEXT: "Without conditioning?"
 
-### P339
+### P324
 - PREV: "Barrier."
 - CURR: "Without conditioning?"
 - NEXT: "Yes," I said.
 
-### P340
+### P325
 - PREV: "Without conditioning?"
 - CURR: "Yes," I said.
 - NEXT: "Why?" Hessa asked.
 
-### P341
+### P326
 - PREV: "Yes," I said.
 - CURR: "Why?" Hessa asked.
 - NEXT: "Optimism."
 
-### P342
+### P327
 - PREV: "Why?" Hessa asked.
 - CURR: "Optimism."
 - NEXT: "Result?"
 
-### P343
+### P328
 - PREV: "Optimism."
 - CURR: "Result?"
 - NEXT: "Headache. Tingling hand."
 
-### P344
+### P329
 - PREV: "Result?"
 - CURR: "Headache. Tingling hand."
 - NEXT: "Good."
 
-### P345
+### P330
 - PREV: "Headache. Tingling hand."
 - CURR: "Good."
 - NEXT: "Good?"
 
-### P346
+### P331
 - PREV: "Good."
 - CURR: "Good?"
 - NEXT: "You didn't rupture anything."
 
-### P347
+### P332
 - PREV: "Good?"
 - CURR: "You didn't rupture anything."
 - NEXT: "Excellent standard." She stood.
 
-### P348
+### P333
 - PREV: "You didn't rupture anything."
 - CURR: "Excellent standard." She stood.
 - NEXT: "Come here."
 
-### P349
+### P334
 - PREV: "Excellent standard." She stood.
 - CURR: "Come here."
 - NEXT: The test was humiliating. Not because it hurt. Because I knew exactly what she was testing and my body failed every expectation my mind supplied. Mana response. Poor. Channel definition. Almost nonexistent. Reservoir. Small. Control. Interesting. Hessa repeated that one.
 
-### P353
+### P338
 - PREV: For one stupid instant I wanted to tell her who I became. Not because it would help. Because I wanted the room corrected. I wanted the hierarchy restored. I wanted her to understand that the boy failing a beginner's exercise had once stood among seven S-class adventurers in the world. The impulse was so childish that I almost laughed. There he was. Greg. Still desperate for the audience to know when he was impressive.
 - CURR: "Again," I said. I did. She watched my hand.
 - NEXT: "Again," I said.
 
-### P354
+### P339
 - PREV: "Again," I said. I did. She watched my hand.
 - CURR: "Again," I said.
 - NEXT: Third time.
 
-### P356
+### P341
 - PREV: Third time.
 - CURR: "What?" I asked.
 - NEXT: "Who taught you?"
 
-### P357
+### P342
 - PREV: "What?" I asked.
 - CURR: "Who taught you?"
 - NEXT: "No one."
 
-### P358
+### P343
 - PREV: "Who taught you?"
 - CURR: "No one."
 - NEXT: "Don't lie."
 
-### P359
+### P344
 - PREV: "No one."
 - CURR: "Don't lie."
 - NEXT: "I'm not."
 
-### P360
+### P345
 - PREV: "Don't lie."
 - CURR: "I'm not."
 - NEXT: "You adjusted."
 
-### P361
+### P346
 - PREV: "I'm not."
 - CURR: "You adjusted."
 - NEXT: "Yes," I said.
 
-### P362
+### P347
 - PREV: "You adjusted."
 - CURR: "Yes," I said.
 - NEXT: "How?"
 
-### P363
+### P348
 - PREV: "Yes," I said.
 - CURR: "How?"
 - NEXT: "You told me what was wrong."
 
-### P364
+### P349
 - PREV: "How?"
 - CURR: "You told me what was wrong."
 - NEXT: "I told you the sensation was collapsing toward the thumb."
 
-### P365
+### P350
 - PREV: "You told me what was wrong."
 - CURR: "I told you the sensation was collapsing toward the thumb."
 - NEXT: "Yes," I said.
 
-### P366
+### P351
 - PREV: "I told you the sensation was collapsing toward the thumb."
 - CURR: "Yes," I said.
 - NEXT: "Most beginners don't know what that means." I almost said, It was obvious. That sentence had cost me years the first time. So I shut my mouth. Hessa noticed that too.
 
-### P367
+### P352
 - PREV: "Yes," I said.
 - CURR: "Most beginners don't know what that means." I almost said, It was obvious. That sentence had cost me years the first time. So I shut my mouth. Hessa noticed that too.
 - NEXT: "What were you going to say?"
 
-### P368
+### P353
 - PREV: "Most beginners don't know what that means." I almost said, It was obvious. That sentence had cost me years the first time. So I shut my mouth. Hessa noticed that too.
 - CURR: "What were you going to say?"
 - NEXT: "Nothing useful."
 
-### P369
+### P354
 - PREV: "What were you going to say?"
 - CURR: "Nothing useful."
 - NEXT: "Again," I said.
 
-### P370
+### P355
 - PREV: "Nothing useful."
 - CURR: "Again," I said.
 - NEXT: We repeated the exercise. My capacity was terrible. My control was not. Not good. Not yet. But the shape was there. The old mind inside a young magical body. Hessa sat down.
 
-### P372
+### P357
 - PREV: We repeated the exercise. My capacity was terrible. My control was not. Not good. Not yet. But the shape was there. The old mind inside a young magical body. Hessa sat down.
 - CURR: "You're strange."
 - NEXT: "I've had a productive day."
 
-### P373
+### P358
 - PREV: "You're strange."
 - CURR: "I've had a productive day."
 - NEXT: "You cannot cast Barrier."
 
-### P374
+### P359
 - PREV: "I've had a productive day."
 - CURR: "You cannot cast Barrier."
 - NEXT: "I know," I said.
 
-### P375
+### P360
 - PREV: "You cannot cast Barrier."
 - CURR: "I know," I said.
 - NEXT: "You may be able to in a few months." I stared at her.
 
-### P376
+### P361
 - PREV: "I know," I said.
 - CURR: "You may be able to in a few months." I stared at her.
 - NEXT: Months.
 
-### P381
+### P366
 - PREV: Months. My plan changed while she was still speaking.
 - CURR: "What if I train every day?"
 - NEXT: "Then you'll injure yourself."
 
-### P382
+### P367
 - PREV: "What if I train every day?"
 - CURR: "Then you'll injure yourself."
 - NEXT: "Twice a day?"
 
-### P383
+### P368
 - PREV: "Then you'll injure yourself."
 - CURR: "Twice a day?"
 - NEXT: "Did you hear me?"
 
-### P384
+### P369
 - PREV: "Twice a day?"
 - CURR: "Did you hear me?"
 - NEXT: "Yes," I said.
 
-### P385
+### P370
 - PREV: "Did you hear me?"
 - CURR: "Yes," I said.
 - NEXT: "No, you heard words." I smiled. Hessa did not. Good instructor.
 
-### P386
+### P371
 - PREV: "Yes," I said.
 - CURR: "No, you heard words." I smiled. Hessa did not. Good instructor.
 - NEXT: "What is the fastest safe progression?" I asked.
 
-### P387
+### P372
 - PREV: "No, you heard words." I smiled. Hessa did not. Good instructor.
 - CURR: "What is the fastest safe progression?" I asked.
 - NEXT: "Why?" Hessa asked.
 
-### P388
+### P373
 - PREV: "What is the fastest safe progression?" I asked.
 - CURR: "Why?" Hessa asked.
 - NEXT: "I dislike waiting."
 
-### P389
+### P374
 - PREV: "Why?" Hessa asked.
 - CURR: "I dislike waiting."
 - NEXT: "That is not a reason."
 
-### P390
+### P375
 - PREV: "I dislike waiting."
 - CURR: "That is not a reason."
 - NEXT: "It has governed most of civilization."
 
-### P391
+### P376
 - PREV: "That is not a reason."
 - CURR: "It has governed most of civilization."
 - NEXT: "Three sessions a week. Daily breath work. Dungeon exposure counts, but only if you're not exhausted. Nutrition."
 
-### P392
+### P377
 - PREV: "It has governed most of civilization."
 - CURR: "Three sessions a week. Daily breath work. Dungeon exposure counts, but only if you're not exhausted. Nutrition."
 - NEXT: "Four sessions."
 
-### P393
+### P378
 - PREV: "Three sessions a week. Daily breath work. Dungeon exposure counts, but only if you're not exhausted. Nutrition."
 - CURR: "Four sessions."
 - NEXT: "Three."
 
-### P394
+### P379
 - PREV: "Four sessions."
 - CURR: "Three."
 - NEXT: "I'll pay."
 
-### P395
+### P380
 - PREV: "Three."
 - CURR: "I'll pay."
 - NEXT: "Then you can pay for three."
 
-### P396
+### P381
 - PREV: "I'll pay."
 - CURR: "Then you can pay for three."
 - NEXT: "You're difficult."
 
-### P397
+### P382
 - PREV: "Then you can pay for three."
 - CURR: "You're difficult."
 - NEXT: "So I've been told."
 
-### P398
+### P383
 - PREV: "You're difficult."
 - CURR: "So I've been told."
 - NEXT: I thought of the silver in my coat. Research. Debt. Training. Food. I had wanted capital because capital bought time. Now every use of it competed with another.
 
-### P400
+### P385
 - PREV: I thought of the silver in my coat. Research. Debt. Training. Food. I had wanted capital because capital bought time. Now every use of it competed with another.
 - CURR: "Three," I said.
 - NEXT: Hessa named the fee. I winced. She smiled. Apparently everyone enjoyed this part. I paid for the first week. When I returned to Arlo's workshop, it was dark. He was still there. Three new disks sat beside the kiln.
 
-### P402
+### P387
 - PREV: Hessa named the fee. I winced. She smiled. Apparently everyone enjoyed this part. I paid for the first week. When I returned to Arlo's workshop, it was dark. He was still there. Three new disks sat beside the kiln.
 - CURR: "You're late," he said.
 - NEXT: "You missed me."
 
-### P403
+### P388
 - PREV: "You're late," he said.
 - CURR: "You missed me."
 - NEXT: "No," Arlo said.
 
-### P404
+### P389
 - PREV: "You missed me."
 - CURR: "No," Arlo said.
 - NEXT: "Results?"
 
-### P405
+### P390
 - PREV: "No," Arlo said.
 - CURR: "Results?"
 - NEXT: "Better."
 
-### P406
+### P391
 - PREV: "Results?"
 - CURR: "Better."
 - NEXT: That word hit harder than it should have. Arlo showed me. Not ten percent. Closer to twenty. Still crude. Still inconsistent.
 
-### P410
+### P395
 - PREV: I laughed. Arlo did not. Then he did, a little. I looked at the disks, the shale, the notes, Arlo's tired face, and my mind began moving. Supply. Tests. Ownership. Guild salvage contracts. Manufacturing. Licensing. Antonius. Arwick. How much could I secure before anyone else noticed? How fast could Arlo improve it? Who did I need? Who could I cut out? The thoughts came cleanly. Comfortably. Arlo was saying something. I had stopped listening.
-- CURR: "Greg," Arlo said.
-- NEXT: I looked up.
+- CURR: "Greg," Arlo said. I looked up.
+- NEXT: "What?" I asked.
 
-### P412
-- PREV: I looked up.
+### P396
+- PREV: "Greg," Arlo said. I looked up.
 - CURR: "What?" I asked.
 - NEXT: "I said if this becomes something, I'm not your employee." I blinked. Had I said something aloud? Apparently my face had.
 
-### P413
+### P397
 - PREV: "What?" I asked.
 - CURR: "I said if this becomes something, I'm not your employee." I blinked. Had I said something aloud? Apparently my face had.
 - NEXT: "I didn't say you were."
 
-### P414
+### P398
 - PREV: "I said if this becomes something, I'm not your employee." I blinked. Had I said something aloud? Apparently my face had.
 - CURR: "I didn't say you were."
 - NEXT: "You looked at my workshop like you were measuring it." I glanced around. I had been.
 
-### P415
+### P399
 - PREV: "I didn't say you were."
 - CURR: "You looked at my workshop like you were measuring it." I glanced around. I had been.
 - NEXT: "Sorry."
 
-### P416
+### P400
 - PREV: "You looked at my workshop like you were measuring it." I glanced around. I had been.
 - CURR: "Sorry."
 - NEXT: "No, you're not."
 
-### P417
+### P401
 - PREV: "Sorry."
 - CURR: "No, you're not."
 - NEXT: "If we continue, we decide terms before the next round."
 
-### P418
+### P402
 - PREV: "No, you're not."
 - CURR: "If we continue, we decide terms before the next round."
 - NEXT: My first instinct was irritation. My second was respect. My third was calculation.
 
-### P421
+### P405
 - PREV: Dangerous. Useful. Person. I exhaled.
 - CURR: "All right."
 - NEXT: "All right?"
 
-### P422
+### P406
 - PREV: "All right."
 - CURR: "All right?"
 - NEXT: "Tomorrow. We write terms." Arlo looked suspicious.
 
-### P423
+### P407
 - PREV: "All right?"
 - CURR: "Tomorrow. We write terms." Arlo looked suspicious.
 - NEXT: "Fair terms."
 
-### P424
+### P408
 - PREV: "Tomorrow. We write terms." Arlo looked suspicious.
 - CURR: "Fair terms."
 - NEXT: More suspicious.
 
-### P426
+### P410
 - PREV: More suspicious.
 - CURR: "I know what fair means."
 - NEXT: "Do you?"
 
-### P427
+### P411
 - PREV: "I know what fair means."
 - CURR: "Do you?"
 - NEXT: That landed somewhere old. Faces. People I had pushed because I could. People I had made stronger. People I had made useful. People who had thanked me and hated me, sometimes in the same conversation. I looked at Arlo. Not Arwick Works. Not a stamp on a future filter. Arlo, in a rented room, after spending his entire day testing my stupid idea because curiosity had gotten its teeth into him.
 
-### P429
+### P413
 - PREV: That landed somewhere old. Faces. People I had pushed because I could. People I had made stronger. People I had made useful. People who had thanked me and hated me, sometimes in the same conversation. I looked at Arlo. Not Arwick Works. Not a stamp on a future filter. Arlo, in a rented room, after spending his entire day testing my stupid idea because curiosity had gotten its teeth into him.
 - CURR: "Yes," I said.
 - NEXT: Then, because the truth deserved precision:
 
-### P431
+### P415
 - PREV: Then, because the truth deserved precision:
 - CURR: "I think I do." Arlo nodded slowly.
 - NEXT: "Tomorrow."
 
-### P432
+### P416
 - PREV: "I think I do." Arlo nodded slowly.
 - CURR: "Tomorrow."
 - NEXT: I left. Carrow was dark and wet, lanterns reflected in the street. I had begun the day with three copper. I ended it in debt to a future crime lord, financially entangled with an artificer whose future I only half remembered, enrolled in magical conditioning six years ahead of schedule, and carrying a technical result that might become valuable if my memory had not lied about everything around it. A sensible person would have called that unstable. I called it momentum.
@@ -2291,94 +2286,94 @@ Total dialogue paragraphs surfaced: 5960
 ### P60
 - PREV: The patterns changed as people changed. Red-nose's tell shifted after drinking. Dock Coat got reckless when behind. Merchant Apprentice protected profit. Fake Silver could be pushed by disrespect. I used that once.
 - CURR: "Too rich for you?" he asked when I folded.
-- NEXT: "Too boring."
+- NEXT: "Too boring." He stayed in the next hand three raises longer than he should have.
 
 ### P61
 - PREV: "Too rich for you?" he asked when I folded.
-- CURR: "Too boring."
-- NEXT: He stayed in the next hand three raises longer than he should have.
+- CURR: "Too boring." He stayed in the next hand three raises longer than he should have.
+- NEXT: Ugly. Effective.
 
-### P68
+### P67
 - PREV: I stood. Not toward the door. Toward the back table. The game was Crown and Knives. That was more complicated. Good. Hidden cards. Shared cards. Betting rounds. Enough structure that observation mattered more. A man with silver rings looked up.
 - CURR: "Seat's expensive."
 - NEXT: "How expensive?"
 
-### P69
+### P68
 - PREV: "Seat's expensive."
 - CURR: "How expensive?"
 - NEXT: He named the buy-in. I had it. I should leave. Food secured. Training secured. Debt safer. Leave. I sat down. Apparently forty years of surviving my own decisions had taught me many things except how to stop at enough. The first hour went badly. These players lied with intention. They manufactured tells. One woman touched her necklace when bluffing for three hands, then used the same motion with a real hand to punish anyone who had noticed. I paid for that. A thin man named Osric talked constantly. I assumed distraction. Wrong. He talked more when thinking because silence made him uncomfortable.
 
-### P74
+### P73
 - PREV: That thought belonged to old Greg too. The room sharpened. I stopped trying to win money and started trying to understand them. Osric's silences. Necklace woman's false tells layered over real ones. Ring man's habit of staring at the player he wanted to challenge. Fourth player, older woman named Senna, had almost nothing visible. I watched her too hard. She noticed.
 - CURR: "You planning to marry me?" Senna asked.
 - NEXT: "Not yet."
 
-### P75
+### P74
 - PREV: "You planning to marry me?" Senna asked.
 - CURR: "Not yet."
 - NEXT: "Then stop looking at me like that."
 
-### P76
+### P75
 - PREV: "Not yet."
 - CURR: "Then stop looking at me like that."
 - NEXT: "I'm learning."
 
-### P77
+### P76
 - PREV: "Then stop looking at me like that."
 - CURR: "I'm learning."
 - NEXT: "Learn quieter."
 
-### P78
+### P77
 - PREV: "I'm learning."
 - CURR: "Learn quieter."
 - NEXT: The table laughed. I smiled. She did not.
 
-### P81
+### P80
 - PREV: Senna was the best player. Present-important, not future-important. I watched her hands. Nothing. Breathing. Nothing. Eyes. Minimal. Bet sizing. There. Not a tell. A preference. She hated inefficient bets. When somebody distorted a small pot with an irrational raise, she became more conservative even with good hands. Not fear, disgust. She disliked bad structure. I tested it and lost. Wrong. She had known I was testing. Her eyes flicked to me afterward. Tiny smile. Oh. I liked her. Dangerous in a completely different way.
 - CURR: "Again," I said.
 - NEXT: By midnight I had recovered the losses and pushed slightly above my first-table winnings. Enough. The cards had priced something I could actually sell now: attention. Fast models of specific people. No future knowledge. No expert needed to verify me. Just a buy-in and a room full of decisions.
 
-### P84
+### P83
 - PREV: I stood. This time toward the door. Senna looked up.
 - CURR: "Running?"
 - NEXT: "Stopping."
 
-### P85
+### P84
 - PREV: "Running?"
 - CURR: "Stopping."
 - NEXT: "Different?"
 
-### P86
+### P85
 - PREV: "Stopping."
 - CURR: "Different?"
-- NEXT: "For me? Apparently."
+- NEXT: "For me? Apparently." She glanced at my stack.
+
+### P86
+- PREV: "Different?"
+- CURR: "For me? Apparently." She glanced at my stack.
+- NEXT: "You came in small."
 
 ### P87
-- PREV: "Different?"
-- CURR: "For me? Apparently."
-- NEXT: She glanced at my stack.
-
-### P89
-- PREV: She glanced at my stack.
+- PREV: "For me? Apparently." She glanced at my stack.
 - CURR: "You came in small."
 - NEXT: "Yes."
 
-### P90
+### P88
 - PREV: "You came in small."
 - CURR: "Yes."
-- NEXT: "You leave small."
+- NEXT: "You leave small." I looked at the coins. Old calibration rose again. Small. She was right. And wrong.
 
-### P91
+### P89
 - PREV: "Yes."
-- CURR: "You leave small."
-- NEXT: I looked at the coins. Old calibration rose again. Small. She was right. And wrong.
+- CURR: "You leave small." I looked at the coins. Old calibration rose again. Small. She was right. And wrong.
+- NEXT: "Not to me," I said.
 
-### P93
-- PREV: I looked at the coins. Old calibration rose again. Small. She was right. And wrong.
+### P90
+- PREV: "You leave small." I looked at the coins. Old calibration rose again. Small. She was right. And wrong.
 - CURR: "Not to me," I said.
 - NEXT: Outside, the night air felt colder. I walked home with the coins heavy in my pocket. A few silver. Nothing to old Greg. Training, food, and time to this one. Both calibrations were still in my head.
 
-### P98
+### P95
 - PREV: That sounded excellent until I remembered why I was gambling in the first place: my first high-upside project had nearly eaten the rest of my money.
 - CURR: "Right."
 - NEXT: Present Greg needed rules. Old Greg preferred judgment. Rules were what you gave people whose judgment you did not trust. Apparently I qualified. At the room, I wrote:
@@ -2423,579 +2418,579 @@ Total dialogue paragraphs surfaced: 5960
 ### P39
 - PREV: "You're Bronze."
 - CURR: "So are you."
-- NEXT: "That's not what I meant."
+- NEXT: "That's not what I meant." I liked him slightly more for that. We went again. I won the next exchange. Lost the next two.
 
 ### P40
 - PREV: "So are you."
-- CURR: "That's not what I meant."
-- NEXT: I liked him slightly more for that. We went again. I won the next exchange. Lost the next two.
+- CURR: "That's not what I meant." I liked him slightly more for that. We went again. I won the next exchange. Lost the next two.
+- NEXT: Won another. Then lost badly because my foot dragged half a beat behind the decision. Jorren's practice sword hit my ribs. I went down. The sand was warm. I lay there staring upward. My mind had known exactly what to do. My body had simply declined. That was old. I had just forgotten it. Jorren offered a hand.
 
-### P43
+### P42
 - PREV: Won another. Then lost badly because my foot dragged half a beat behind the decision. Jorren's practice sword hit my ribs. I went down. The sand was warm. I lay there staring upward. My mind had known exactly what to do. My body had simply declined. That was old. I had just forgotten it. Jorren offered a hand.
 - CURR: "You all right?"
-- NEXT: "Excellent," I said.
+- NEXT: "Excellent," I said. He looked concerned.
+
+### P43
+- PREV: "You all right?"
+- CURR: "Excellent," I said. He looked concerned.
+- NEXT: "I'm fine."
 
 ### P44
-- PREV: "You all right?"
-- CURR: "Excellent," I said.
-- NEXT: He looked concerned.
-
-### P46
-- PREV: He looked concerned.
+- PREV: "Excellent," I said. He looked concerned.
 - CURR: "I'm fine."
 - NEXT: That was more believable. I took his hand. He pulled me up.
 
-### P48
+### P46
 - PREV: That was more believable. I took his hand. He pulled me up.
 - CURR: "You're weird."
 - NEXT: "I've heard that."
 
-### P49
+### P47
 - PREV: "You're weird."
 - CURR: "I've heard that."
 - NEXT: Jorren said, "You fight like an old man." I stared at him. He laughed.
 
-### P50
+### P48
 - PREV: "I've heard that."
 - CURR: Jorren said, "You fight like an old man." I stared at him. He laughed.
 - NEXT: "Not slow. Just... you know."
 
-### P51
+### P49
 - PREV: Jorren said, "You fight like an old man." I stared at him. He laughed.
 - CURR: "Not slow. Just... you know."
 - NEXT: "Like you already know what I'm going to do."
 
-### P52
+### P50
 - PREV: "Not slow. Just... you know."
 - CURR: "Like you already know what I'm going to do."
 - NEXT: Oh. That was interesting.
 
-### P54
+### P52
 - PREV: Oh. That was interesting.
-- CURR: I said, "Again."
-- NEXT: He looked at my breathing.
+- CURR: I said, "Again." He looked at my breathing.
+- NEXT: "Maybe tomorrow."
 
-### P56
-- PREV: He looked at my breathing.
+### P53
+- PREV: I said, "Again." He looked at my breathing.
 - CURR: "Maybe tomorrow."
 - NEXT: I disliked him again. On the walk back, my ribs hurt. My legs hurt. My shoulder hurt. I felt fantastic. I added another training session the next day. That cost money.
 
-### P63
+### P60
 - PREV: Still fine. Annoying. Recoverable. I had Hessa money set aside. Except I had spent part of it on the second sword lesson. Not all. Some. The distinction felt important until I counted. I stared at the coins.
 - CURR: "That's inconvenient." I could win it back. That was the worst sentence I had thought all week. I knew it immediately. I went gambling the next night anyway. I won. I paid Hessa. I bought food.
 - NEXT: I put more money into Arlo because one of his tests had improved again and stopping now seemed idiotic. Then I found a set of used vambraces at a price I considered absurdly low. They were absurdly low. I bought them. Good purchase. Still money. A week became a pattern. Win. Spend. Invest. Train. Lose. Win. Borrow against what I expected to win. That last part happened quietly. Antonius made it easy. Of course he did.
 
-### P65
+### P62
 - PREV: I put more money into Arlo because one of his tests had improved again and stopping now seemed idiotic. Then I found a set of used vambraces at a price I considered absurdly low. They were absurdly low. I bought them. Good purchase. Still money. A week became a pattern. Win. Spend. Invest. Train. Lose. Win. Borrow against what I expected to win. That last part happened quietly. Antonius made it easy. Of course he did.
 - CURR: "You've been paying on time," Antonius said.
 - NEXT: "I told you I would."
 
-### P66
+### P63
 - PREV: "You've been paying on time," Antonius said.
 - CURR: "I told you I would."
 - NEXT: "You've also been borrowing again."
 
-### P67
+### P64
 - PREV: "I told you I would."
 - CURR: "You've also been borrowing again."
 - NEXT: "Capital efficiency."
 
-### P68
+### P65
 - PREV: "You've also been borrowing again."
 - CURR: "Capital efficiency."
 - NEXT: "Is that what we're calling it?"
 
-### P69
+### P66
 - PREV: "Capital efficiency."
 - CURR: "Is that what we're calling it?"
 - NEXT: "Do you have a better term?"
 
-### P70
+### P67
 - PREV: "Is that what we're calling it?"
 - CURR: "Do you have a better term?"
-- NEXT: "Compulsion."
+- NEXT: "Compulsion." I smiled. He did not.
 
-### P71
+### P68
 - PREV: "Do you have a better term?"
-- CURR: "Compulsion."
-- NEXT: I smiled.
+- CURR: "Compulsion." I smiled. He did not.
+- NEXT: That should have mattered more. We sat in the same back room where he had first decided I was worth risking money on. The room looked smaller now. Or I felt larger. Dangerous distinction. Antonius tapped the ledger.
 
-### P75
+### P70
 - PREV: That should have mattered more. We sat in the same back room where he had first decided I was worth risking money on. The room looked smaller now. Or I felt larger. Dangerous distinction. Antonius tapped the ledger.
 - CURR: "Shale."
 - NEXT: "Long-term."
 
-### P76
+### P71
 - PREV: "Shale."
 - CURR: "Long-term."
 - NEXT: "Magic training."
 
-### P77
+### P72
 - PREV: "Long-term."
 - CURR: "Magic training."
 - NEXT: "Investment."
 
-### P78
+### P73
 - PREV: "Magic training."
 - CURR: "Investment."
 - NEXT: "Sword instruction."
 
-### P79
+### P74
 - PREV: "Investment."
 - CURR: "Sword instruction."
 - NEXT: "Also investment."
 
-### P80
+### P75
 - PREV: "Sword instruction."
 - CURR: "Also investment."
 - NEXT: "Gambling."
 
-### P81
+### P76
 - PREV: "Also investment."
 - CURR: "Gambling."
-- NEXT: "Income."
+- NEXT: "Income." He looked up.
 
-### P82
+### P77
 - PREV: "Gambling."
-- CURR: "Income."
-- NEXT: He looked up.
+- CURR: "Income." He looked up.
+- NEXT: "You're very good at naming things."
 
-### P84
-- PREV: He looked up.
+### P78
+- PREV: "Income." He looked up.
 - CURR: "You're very good at naming things."
 - NEXT: "I've had practice."
 
-### P85
+### P79
 - PREV: "You're very good at naming things."
 - CURR: "I've had practice."
 - NEXT: "Are you good at any of them?"
 
-### P86
+### P80
 - PREV: "I've had practice."
 - CURR: "Are you good at any of them?"
 - NEXT: That irritated me. Which meant it was a good question.
 
-### P88
+### P82
 - PREV: That irritated me. Which meant it was a good question.
 - CURR: "Yes."
-- NEXT: "Which?"
+- NEXT: "Which?" I opened my mouth.
 
-### P89
+### P83
 - PREV: "Yes."
-- CURR: "Which?"
-- NEXT: I opened my mouth.
+- CURR: "Which?" I opened my mouth.
+- NEXT: People. Gambling. Learning. Strategy. Swordsmanship, potentially. Magic, eventually. Investing, once properly capitalized. The answer became less impressive the longer it took. When nobody told me what problem to solve, I generated enough problems to occupy a committee.
 
-### P93
+### P86
 - PREV: Antonius noticed. Of course he did.
 - CURR: "Several," I said.
 - NEXT: That got the smallest smile.
 
-### P95
+### P88
 - PREV: That got the smallest smile.
 - CURR: "That's what worries me."
 - NEXT: "I can service the debt."
 
-### P96
+### P89
 - PREV: "That's what worries me."
 - CURR: "I can service the debt."
 - NEXT: "You can service today's debt."
 
-### P97
+### P90
 - PREV: "I can service the debt."
 - CURR: "You can service today's debt."
 - NEXT: "Same thing." I disliked how quickly he said it. He turned the ledger toward me.
 
-### P98
+### P91
 - PREV: "You can service today's debt."
 - CURR: "Same thing." I disliked how quickly he said it. He turned the ledger toward me.
 - NEXT: Numbers. Actual numbers. I hated actual numbers when they disagreed with conceptual numbers. My original loan. Interest. Second advance. Third. Payments. Another advance. Fees. The sword instructor I had paid through a guild note because I had been short that afternoon. Arlo's material order. A gambling stake Antonius's man had covered when I arrived without enough coin because I knew the table was good. I stared at that one.
 
-### P100
+### P93
 - PREV: Numbers. Actual numbers. I hated actual numbers when they disagreed with conceptual numbers. My original loan. Interest. Second advance. Third. Payments. Another advance. Fees. The sword instructor I had paid through a guild note because I had been short that afternoon. Arlo's material order. A gambling stake Antonius's man had covered when I arrived without enough coin because I knew the table was good. I stared at that one.
 - CURR: "I borrowed to gamble?"
 - NEXT: "You told Rusk it was working capital."
 
-### P101
+### P94
 - PREV: "I borrowed to gamble?"
 - CURR: "You told Rusk it was working capital."
-- NEXT: I said, "It was."
+- NEXT: I said, "It was." Antonius leaned back.
 
-### P102
+### P95
 - PREV: "You told Rusk it was working capital."
-- CURR: I said, "It was."
-- NEXT: Antonius leaned back.
+- CURR: I said, "It was." Antonius leaned back.
+- NEXT: "You're very good at naming things."
 
-### P104
-- PREV: Antonius leaned back.
+### P96
+- PREV: I said, "It was." Antonius leaned back.
 - CURR: "You're very good at naming things."
 - NEXT: Right.
 
-### P107
+### P99
 - PREV: I counted mentally. Then again. The debt was not catastrophic. Not yet. But it had grown. More importantly, I did not have the money to clear it. I had assets. Sort of. A promising material project. Training. A good sword. Used vambraces. Skills. Potential. None of those were coins. Antonius preferred coins. Reasonable.
-- CURR: "When is the next payment?" I asked.
-- NEXT: He told me.
+- CURR: "When is the next payment?" I asked. He told me.
+- NEXT: Soon. I nodded.
 
-### P110
+### P101
 - PREV: Soon. I nodded.
 - CURR: "I can make that."
 - NEXT: "I know."
 
-### P111
+### P102
 - PREV: "I can make that."
 - CURR: "I know."
 - NEXT: That surprised me. Antonius folded his hands.
 
-### P113
+### P104
 - PREV: That surprised me. Antonius folded his hands.
 - CURR: "The question is what you do after."
 - NEXT: "Continue."
 
-### P114
+### P105
 - PREV: "The question is what you do after."
 - CURR: "Continue."
 - NEXT: "Of course."
 
-### P115
+### P106
 - PREV: "Continue."
 - CURR: "Of course."
 - NEXT: "What would you suggest?"
 
-### P116
+### P107
 - PREV: "Of course."
 - CURR: "What would you suggest?"
-- NEXT: "Stop borrowing."
+- NEXT: "Stop borrowing." I laughed. He did not.
 
-### P117
+### P108
 - PREV: "What would you suggest?"
-- CURR: "Stop borrowing."
-- NEXT: I laughed.
+- CURR: "Stop borrowing." I laughed. He did not.
+- NEXT: "Oh."
 
-### P120
-- PREV: He did not.
+### P109
+- PREV: "Stop borrowing." I laughed. He did not.
 - CURR: "Oh."
 - NEXT: "Pay me. Gamble with your own money. Train with your own money. Buy garbage rocks with your own money."
 
-### P121
+### P110
 - PREV: "Oh."
 - CURR: "Pay me. Gamble with your own money. Train with your own money. Buy garbage rocks with your own money."
 - NEXT: "Kestrin shale."
 
-### P122
+### P111
 - PREV: "Pay me. Gamble with your own money. Train with your own money. Buy garbage rocks with your own money."
 - CURR: "Kestrin shale."
 - NEXT: "Garbage rocks."
 
-### P123
+### P112
 - PREV: "Kestrin shale."
 - CURR: "Garbage rocks."
 - NEXT: "It's going to matter."
 
-### P124
+### P113
 - PREV: "Garbage rocks."
 - CURR: "It's going to matter."
 - NEXT: "Maybe."
 
-### P125
+### P114
 - PREV: "It's going to matter."
 - CURR: "Maybe."
 - NEXT: "It will."
 
-### P126
+### P115
 - PREV: "Maybe."
 - CURR: "It will."
 - NEXT: "Then it can matter slowly."
 
-### P127
+### P116
 - PREV: "It will."
 - CURR: "Then it can matter slowly."
 - NEXT: That was almost exactly what I had told myself. I resented him for stealing it.
 
-### P129
+### P118
 - PREV: That was almost exactly what I had told myself. I resented him for stealing it.
 - CURR: "I need speed."
 - NEXT: "Why?"
 
-### P130
+### P119
 - PREV: "I need speed."
 - CURR: "Why?"
 - NEXT: The answer was obvious. Because I had already lost forty years once. Because every month I wasted was a month I could have compressed. Because somewhere ahead were wars, collapses, dungeons, people I had failed, people I could reach earlier, mistakes I could prevent, opportunities that would disappear if I arrived late. Because being nineteen again did not feel like having extra time. It felt like being behind. I said none of that.
 
-### P132
+### P121
 - PREV: The answer was obvious. Because I had already lost forty years once. Because every month I wasted was a month I could have compressed. Because somewhere ahead were wars, collapses, dungeons, people I had failed, people I could reach earlier, mistakes I could prevent, opportunities that would disappear if I arrived late. Because being nineteen again did not feel like having extra time. It felt like being behind. I said none of that.
-- CURR: I said, "I have plans."
-- NEXT: Antonius watched me.
+- CURR: I said, "I have plans." Antonius watched me.
+- NEXT: "Everyone with debt has plans." I left irritated.
 
-### P134
-- PREV: Antonius watched me.
+### P122
+- PREV: I said, "I have plans." Antonius watched me.
 - CURR: "Everyone with debt has plans." I left irritated.
 - NEXT: Pay this amount. By this time. Stop inventing twelve reasons the debt was strategically interesting. I was much less comfortable with a smaller board. That irritation lasted until Hessa made me hold a mana response for four breaths instead of three. Then I forgot Antonius entirely.
 
-### P138
+### P126
 - PREV: Young. Alive. Moving. So I trained. The Silver instructor was unavailable. Jorren was there. He grinned when he saw me.
 - CURR: "Old man."
 - NEXT: "Statue."
 
-### P139
+### P127
 - PREV: "Old man."
 - CURR: "Statue."
 - NEXT: "You plant your feet."
 
-### P140
+### P128
 - PREV: "Statue."
 - CURR: "You plant your feet."
 - NEXT: "Fuck you."
 
-### P141
+### P129
 - PREV: "You plant your feet."
 - CURR: "Fuck you."
 - NEXT: "See? Emotional too."
 
-### P142
+### P130
 - PREV: "Fuck you."
 - CURR: "See? Emotional too."
 - NEXT: We sparred. I was better. Noticeably. That was all the evidence I needed. My timing had improved. My body was catching up. Not quickly enough, but catching. I baited his heavy right twice. Punished it twice. The third time he adjusted. I adjusted back.
 
-### P148
+### P136
 - PREV: Pivot. Drive through. Perfect. Except my leg did not move. For half a heartbeat the movement existed perfectly in my head and nowhere else. My mind had already completed the step. My exhausted leg had not. Jorren hit me in the chest. I landed on my back hard enough to knock the breath out of me. I stared at the sky and felt offended by biology.
 - CURR: "Greg?" Jorren asked.
-- NEXT: "Fine," I wheezed.
+- NEXT: "Fine," I wheezed. He leaned over me.
 
-### P149
+### P137
 - PREV: "Greg?" Jorren asked.
-- CURR: "Fine," I wheezed.
-- NEXT: He leaned over me.
+- CURR: "Fine," I wheezed. He leaned over me.
+- NEXT: "Excellent," I added. He continued staring.
 
-### P151
-- PREV: He leaned over me.
-- CURR: "Excellent," I added.
-- NEXT: He continued staring.
+### P138
+- PREV: "Fine," I wheezed. He leaned over me.
+- CURR: "Excellent," I added. He continued staring.
+- NEXT: "That means yes."
 
-### P153
-- PREV: He continued staring.
+### P139
+- PREV: "Excellent," I added. He continued staring.
 - CURR: "That means yes."
 - NEXT: Warrior Greg did not stay in the sand because his legs were tired. That was exactly the sort of stupid sentence Warrior Greg believed. I believed it too. I went home exhausted. I should have slept. Instead I counted money.
 
-### P159
+### P145
 - PREV: That should have been the exit. Instead I saw the line. The second player protected large pots. The third attacked weakness. The lucky idiot was overconfident. I could turn them against each other. I stayed. An hour later, I owed the table. Not much. Enough. I signed a note. Sensible? Probably not. I walked outside. Rusk was waiting. Antonius's man. Large. Quiet. I had met him twice. He looked at me. I looked at him.
 - CURR: "That's efficient," I said.
 - NEXT: "Antonius wants to see you."
 
-### P160
+### P146
 - PREV: "That's efficient," I said.
 - CURR: "Antonius wants to see you."
 - NEXT: I asked, "Now?" Rusk looked at the sky.
 
-### P161
+### P147
 - PREV: "Antonius wants to see you."
 - CURR: I asked, "Now?" Rusk looked at the sky.
-- NEXT: "Do you have another appointment?"
+- NEXT: "Do you have another appointment?" I considered lying. He knew I did not. People-reading worked both ways.
 
-### P162
+### P148
 - PREV: I asked, "Now?" Rusk looked at the sky.
-- CURR: "Do you have another appointment?"
-- NEXT: I considered lying. He knew I did not. People-reading worked both ways.
+- CURR: "Do you have another appointment?" I considered lying. He knew I did not. People-reading worked both ways.
+- NEXT: I said, "Reasonable." Antonius had the new note before I arrived. Of course he did. He placed it beside the ledger. Did not speak. I sat.
 
-### P164
-- PREV: I considered lying. He knew I did not. People-reading worked both ways.
-- CURR: I said, "Reasonable."
-- NEXT: Antonius had the new note before I arrived. Of course he did. He placed it beside the ledger. Did not speak. I sat.
+### P149
+- PREV: "Do you have another appointment?" I considered lying. He knew I did not. People-reading worked both ways.
+- CURR: I said, "Reasonable." Antonius had the new note before I arrived. Of course he did. He placed it beside the ledger. Did not speak. I sat.
+- NEXT: Also did not speak. That lasted longer than I liked. Finally I said, "Temporary." Antonius nodded.
 
-### P166
-- PREV: Antonius had the new note before I arrived. Of course he did. He placed it beside the ledger. Did not speak. I sat.
+### P150
+- PREV: I said, "Reasonable." Antonius had the new note before I arrived. Of course he did. He placed it beside the ledger. Did not speak. I sat.
 - CURR: Also did not speak. That lasted longer than I liked. Finally I said, "Temporary." Antonius nodded.
 - NEXT: "Winnable."
 
-### P167
+### P151
 - PREV: Also did not speak. That lasted longer than I liked. Finally I said, "Temporary." Antonius nodded.
 - CURR: "Winnable."
 - NEXT: Another nod.
 
-### P169
+### P153
 - PREV: Another nod.
 - CURR: "I know what I did wrong."
 - NEXT: That got him.
 
-### P171
+### P155
 - PREV: That got him.
 - CURR: "I stayed after the table changed." I frowned.
 - NEXT: "That's exactly what happened."
 
-### P172
+### P156
 - PREV: "I stayed after the table changed." I frowned.
 - CURR: "That's exactly what happened."
 - NEXT: "You think your problem is the game."
 
-### P173
+### P157
 - PREV: "That's exactly what happened."
 - CURR: "You think your problem is the game."
 - NEXT: "It was a gambling loss." He pushed the ledger toward me.
 
-### P174
+### P158
 - PREV: "You think your problem is the game."
 - CURR: "It was a gambling loss." He pushed the ledger toward me.
 - NEXT: "Your problem is you think being able to explain a mistake means you can afford it." I stared at him. That was annoyingly good.
 
-### P175
+### P159
 - PREV: "It was a gambling loss." He pushed the ledger toward me.
 - CURR: "Your problem is you think being able to explain a mistake means you can afford it." I stared at him. That was annoyingly good.
 - NEXT: "I can make the payment."
 
-### P176
+### P160
 - PREV: "Your problem is you think being able to explain a mistake means you can afford it." I stared at him. That was annoyingly good.
 - CURR: "I can make the payment."
-- NEXT: "Tomorrow?"
+- NEXT: "Tomorrow?" I calculated.
 
-### P177
+### P161
 - PREV: "I can make the payment."
-- CURR: "Tomorrow?"
-- NEXT: I calculated.
+- CURR: "Tomorrow?" I calculated.
+- NEXT: Maybe. He saw the calculation.
 
-### P180
+### P163
 - PREV: Maybe. He saw the calculation.
 - CURR: "No," Antonius said.
 - NEXT: "I didn't answer."
 
-### P181
+### P164
 - PREV: "No," Antonius said.
 - CURR: "I didn't answer."
 - NEXT: "You did."
 
-### P182
+### P165
 - PREV: "I didn't answer."
 - CURR: "You did."
 - NEXT: I looked at the ledger again. There were too many numbers now. Not enormous numbers. That was the humiliating part. I had once moved sums that would make this entire room look like pocket change. Now a few silver in the wrong direction had become a man across a desk deciding what happened to my week. I hated it. I hated him a little. Mostly I hated the scale. Antonius tapped the note.
 
-### P184
+### P167
 - PREV: I looked at the ledger again. There were too many numbers now. Not enormous numbers. That was the humiliating part. I had once moved sums that would make this entire room look like pocket change. Now a few silver in the wrong direction had become a man across a desk deciding what happened to my week. I hated it. I hated him a little. Mostly I hated the scale. Antonius tapped the note.
 - CURR: "You'll work it." I looked up.
 - NEXT: "You heard me."
 
-### P185
+### P168
 - PREV: "You'll work it." I looked up.
 - CURR: "You heard me."
 - NEXT: "I can gamble it back."
 
-### P186
+### P169
 - PREV: "You heard me."
 - CURR: "I can gamble it back."
 - NEXT: "I know."
 
-### P187
+### P170
 - PREV: "I can gamble it back."
 - CURR: "I know."
 - NEXT: That stopped me. Antonius leaned forward.
 
-### P189
+### P172
 - PREV: That stopped me. Antonius leaned forward.
 - CURR: "That's why you're not going to." I laughed once. He did not.
 - NEXT: "You don't get to decide whether I gamble."
 
-### P190
+### P173
 - PREV: "That's why you're not going to." I laughed once. He did not.
 - CURR: "You don't get to decide whether I gamble."
 - NEXT: "I decide what happens when you owe me money you cannot pay."
 
-### P191
+### P174
 - PREV: "You don't get to decide whether I gamble."
 - CURR: "I decide what happens when you owe me money you cannot pay."
 - NEXT: "I can pay."
 
-### P192
+### P175
 - PREV: "I decide what happens when you owe me money you cannot pay."
 - CURR: "I can pay."
 - NEXT: "Not tonight."
 
-### P193
+### P176
 - PREV: "I can pay."
 - CURR: "Not tonight."
 - NEXT: Silence. There it was. The contract. Creditor labor. I remembered the phrase because I had considered it almost funny when I signed. Eight days. Thirty-five percent. If I defaulted, labor at Antonius's direction until the balance was satisfied. At the time I had been thinking about future industries. Now I was thinking about hauling crates.
 
-### P195
+### P178
 - PREV: Silence. There it was. The contract. Creditor labor. I remembered the phrase because I had considered it almost funny when I signed. Eight days. Thirty-five percent. If I defaulted, labor at Antonius's direction until the balance was satisfied. At the time I had been thinking about future industries. Now I was thinking about hauling crates.
 - CURR: "Excellent," I said. Antonius smiled.
 - NEXT: There was no warmth in it.
 
-### P197
+### P180
 - PREV: There was no warmth in it.
 - CURR: "Tomorrow morning."
 - NEXT: "What am I doing?"
 
-### P198
+### P181
 - PREV: "Tomorrow morning."
 - CURR: "What am I doing?"
 - NEXT: "Whatever I need."
 
-### P199
+### P182
 - PREV: "What am I doing?"
 - CURR: "Whatever I need."
 - NEXT: "I have training."
 
-### P200
+### P183
 - PREV: "Whatever I need."
 - CURR: "I have training."
 - NEXT: "Move it."
 
-### P201
+### P184
 - PREV: "I have training."
 - CURR: "Move it."
 - NEXT: "Hessa doesn't move."
 
-### P202
+### P185
 - PREV: "Move it."
 - CURR: "Hessa doesn't move."
 - NEXT: "Then pay me." I looked at the ledger.
 
-### P203
+### P186
 - PREV: "Hessa doesn't move."
 - CURR: "Then pay me." I looked at the ledger.
 - NEXT: Could not. Not without borrowing. From him. That seemed structurally unsound. Antonius watched the realization arrive.
 
-### P205
+### P188
 - PREV: Could not. Not without borrowing. From him. That seemed structurally unsound. Antonius watched the realization arrive.
 - CURR: "You wanted capital," he said. "Now you get to learn what it costs." I wanted to tell him I already knew. I had financed expeditions.
 - NEXT: Negotiated credit. Built ventures. Watched kingdoms borrow against tax years that had not happened yet. I understood debt. Conceptually. Apparently conceptually was doing a lot of work in my second life. I stood.
 
-### P207
+### P190
 - PREV: Negotiated credit. Built ventures. Watched kingdoms borrow against tax years that had not happened yet. I understood debt. Conceptually. Apparently conceptually was doing a lot of work in my second life. I stood.
 - CURR: "How long?"
 - NEXT: "Until I trust the numbers again."
 
-### P208
+### P191
 - PREV: "How long?"
 - CURR: "Until I trust the numbers again."
 - NEXT: "That's not a number."
 
-### P209
+### P192
 - PREV: "Until I trust the numbers again."
 - CURR: "That's not a number."
 - NEXT: "I dislike you."
 
-### P210
+### P193
 - PREV: "That's not a number."
 - CURR: "I dislike you."
 - NEXT: "I can live with that." I walked to the door.
 
-### P211
+### P194
 - PREV: "I dislike you."
 - CURR: "I can live with that." I walked to the door.
-- NEXT: Antonius said, "Greg."
+- NEXT: Antonius said, "Greg." I turned. He looked at the sword at my hip.
 
-### P212
+### P195
 - PREV: "I can live with that." I walked to the door.
-- CURR: Antonius said, "Greg."
-- NEXT: I turned. He looked at the sword at my hip.
+- CURR: Antonius said, "Greg." I turned. He looked at the sword at my hip.
+- NEXT: "Nice sword." I looked down at it. The sixth sword.
 
-### P214
-- PREV: I turned. He looked at the sword at my hip.
-- CURR: "Nice sword."
-- NEXT: I looked down at it. The sixth sword.
+### P196
+- PREV: Antonius said, "Greg." I turned. He looked at the sword at my hip.
+- CURR: "Nice sword." I looked down at it. The sixth sword.
+- NEXT: Beautiful balance. Excellent purchase. Investment in accelerated martial development. I had bought it with money I did not have. For the first time, it looked expensive.
 
-### P217
+### P198
 - PREV: Beautiful balance. Excellent purchase. Investment in accelerated martial development. I had bought it with money I did not have. For the first time, it looked expensive.
 - CURR: "Fuck you," I said. Antonius laughed.
 - NEXT: Outside, I started walking home. My legs hurt from training. My ribs hurt from Jorren. My hand still held the faint memory of mana. The sword moved comfortably at my hip. Both legs worked. For now, everything worked. That was the problem. Cards. Memory. Investments. Bodies. People. Me.
 
-### P223
+### P204
 - PREV: Debtors. Information. Access. Useful became leverage. Leverage became options. I smiled, remembered what Antonius had just said, and let the smile fade. Mostly.
 - CURR: "Still," I said.
 - NEXT: And kept walking.
@@ -3760,824 +3755,824 @@ Total dialogue paragraphs surfaced: 5960
 ### P208
 - PREV: "It works," he said.
 - CURR: "It leaks."
-- NEXT: "How much?" Antonius asked.
+- NEXT: "How much?" Antonius asked. I told him. He looked at the missing quantity. Then at me.
 
 ### P209
 - PREV: "It leaks."
-- CURR: "How much?" Antonius asked.
-- NEXT: I told him. He looked at the missing quantity. Then at me.
+- CURR: "How much?" Antonius asked. I told him. He looked at the missing quantity. Then at me.
+- NEXT: "That's not much."
 
-### P211
-- PREV: I told him. He looked at the missing quantity. Then at me.
+### P210
+- PREV: "How much?" Antonius asked. I told him. He looked at the missing quantity. Then at me.
 - CURR: "That's not much."
 - NEXT: "No."
 
-### P212
+### P211
 - PREV: "That's not much."
 - CURR: "No."
 - NEXT: "So why do you care?" I opened my mouth.
 
-### P213
+### P212
 - PREV: "No."
 - CURR: "So why do you care?" I opened my mouth.
 - NEXT: Stopped. Because it was wrong. Because I could see the fix. Because once the problem had edges, leaving it ugly felt physically irritating.
 
-### P215
+### P214
 - PREV: Stopped. Because it was wrong. Because I could see the fix. Because once the problem had edges, leaving it ugly felt physically irritating.
 - CURR: "I don't know."
 - NEXT: That was honest. Antonius's expression changed slightly. Interesting. Not softer. More attentive.
 
-### P217
+### P216
 - PREV: That was honest. Antonius's expression changed slightly. Interesting. Not softer. More attentive.
 - CURR: "Show me."
 - NEXT: So I did. Not the grand version. I had already imagined the grand version. Standardized receiving. Route coding. Inventory zones. Loss tracking. Supplier comparisons. Delivery-time records. Credit risk tied to merchant reliability. Once I started thinking about Antonius's operation, the branches were multiplying again. I wanted to tell him all of it. I nearly did. Then I remembered yesterday's cart.
 
-### P220
+### P219
 - PREV: One problem. Show the token system. I showed him. Antonius asked three questions. Good questions. One exposed a weakness immediately.
 - CURR: "What stops someone moving the marker without taking the item?" I stared at the tokens.
 - NEXT: "Nothing."
 
-### P221
+### P220
 - PREV: "What stops someone moving the marker without taking the item?" I stared at the tokens.
 - CURR: "Nothing."
 - NEXT: "So your perfect system is theft with decoration."
 
-### P222
+### P221
 - PREV: "Nothing."
 - CURR: "So your perfect system is theft with decoration."
 - NEXT: "It's not perfect."
 
-### P223
+### P222
 - PREV: "So your perfect system is theft with decoration."
 - CURR: "It's not perfect."
 - NEXT: "Yesterday you would have told me it was."
 
-### P224
+### P223
 - PREV: "It's not perfect."
 - CURR: "Yesterday you would have told me it was."
 - NEXT: That irritated me because yesterday I might have. I adjusted. Token attached to the storage position. Clerk moves it when recording. Not laborer. Still imperfect.
 
-### P228
+### P227
 - PREV: Antonius watched me rebuild it.
 - CURR: "You do this a lot?" he asked.
 - NEXT: "What?"
 
-### P229
+### P228
 - PREV: "You do this a lot?" he asked.
 - CURR: "What?"
 - NEXT: "Turn one thing into six things."
 
-### P230
+### P229
 - PREV: "What?"
 - CURR: "Turn one thing into six things."
 - NEXT: "I improved your inventory."
 
-### P231
+### P230
 - PREV: "Turn one thing into six things."
 - CURR: "I improved your inventory."
 - NEXT: "You reorganized a cart, found a leak, moved my grain, bought chalk, annoyed my clerk, and now you're redesigning the shelf because I told you to count boxes."
 
-### P232
+### P231
 - PREV: "I improved your inventory."
 - CURR: "You reorganized a cart, found a leak, moved my grain, bought chalk, annoyed my clerk, and now you're redesigning the shelf because I told you to count boxes."
 - NEXT: "When you say it like that, it sounds productive."
 
-### P233
+### P232
 - PREV: "You reorganized a cart, found a leak, moved my grain, bought chalk, annoyed my clerk, and now you're redesigning the shelf because I told you to count boxes."
 - CURR: "When you say it like that, it sounds productive."
 - NEXT: "It sounds exhausting."
 
-### P234
+### P233
 - PREV: "When you say it like that, it sounds productive."
 - CURR: "It sounds exhausting."
 - NEXT: "For you?"
 
-### P235
+### P234
 - PREV: "It sounds exhausting."
 - CURR: "For you?"
 - NEXT: "For everyone." I smiled. He did too.
 
-### P236
+### P235
 - PREV: "For you?"
 - CURR: "For everyone." I smiled. He did too.
 - NEXT: Not trusting. Definitely not friendly. Curious. That was more useful.
 
-### P238
+### P237
 - PREV: Not trusting. Definitely not friendly. Curious. That was more useful.
 - CURR: "Collections tomorrow?" I asked.
 - NEXT: "No."
 
-### P239
+### P238
 - PREV: "Collections tomorrow?" I asked.
 - CURR: "No."
 - NEXT: "Why?"
 
-### P240
+### P239
 - PREV: "No."
 - CURR: "Why?"
 - NEXT: "Because you want to."
 
-### P241
+### P240
 - PREV: "Why?"
 - CURR: "Because you want to."
 - NEXT: "You're going to run out of unpleasant work." Antonius looked around the warehouse.
 
-### P242
+### P241
 - PREV: "Because you want to."
 - CURR: "You're going to run out of unpleasant work." Antonius looked around the warehouse.
 - NEXT: "No, Greg. I'm really not."
 
-### P243
+### P242
 - PREV: "You're going to run out of unpleasant work." Antonius looked around the warehouse.
 - CURR: "No, Greg. I'm really not."
 - NEXT: The third day he put me on a cart with Rusk and told us to collect overdue rent from three storage tenants. I pointed at him.
 
-### P245
+### P244
 - PREV: The third day he put me on a cart with Rusk and told us to collect overdue rent from three storage tenants. I pointed at him.
 - CURR: "This is collections."
 - NEXT: "Rent."
 
-### P246
+### P245
 - PREV: "This is collections."
 - CURR: "Rent."
 - NEXT: "Debt."
 
-### P247
+### P246
 - PREV: "Rent."
 - CURR: "Debt."
 - NEXT: "Boxes with doors."
 
-### P248
+### P247
 - PREV: "Debt."
 - CURR: "Boxes with doors."
 - NEXT: "You're cheating."
 
-### P249
+### P248
 - PREV: "Boxes with doors."
 - CURR: "You're cheating."
 - NEXT: "Get in the cart." I did.
 
-### P250
+### P249
 - PREV: "You're cheating."
 - CURR: "Get in the cart." I did.
 - NEXT: The first tenant paid. The second did not. Rusk knocked. A man opened the door. Thin. Tired. Hands stained blue. Dyer.
 
-### P260
+### P259
 - PREV: Young apprentice. Bandaged hand. The man's eyes kept moving toward the back shelf. Not the apprentice. The shelf. Inventory. He had product. Why not sell? Maybe unsellable. Maybe committed. Maybe worth more later. Maybe stolen. My brain branched. I let it. Constraint first. Collect rent.
 - CURR: "What's on the shelf?" I asked. The man looked at me.
 - NEXT: "Nothing."
 
-### P261
+### P260
 - PREV: "What's on the shelf?" I asked. The man looked at me.
 - CURR: "Nothing."
 - NEXT: Lie.
 
-### P263
+### P262
 - PREV: Lie.
 - CURR: "Excellent," I said. Rusk sighed.
 - NEXT: "What?" the tenant asked.
 
-### P264
+### P263
 - PREV: "Excellent," I said. Rusk sighed.
 - CURR: "What?" the tenant asked.
 - NEXT: "Nothing is usually easier to sell."
 
-### P265
+### P264
 - PREV: "What?" the tenant asked.
 - CURR: "Nothing is usually easier to sell."
 - NEXT: "Who the fuck are you?"
 
-### P266
+### P265
 - PREV: "Nothing is usually easier to sell."
 - CURR: "Who the fuck are you?"
 - NEXT: I said, "Currently? Rent collection." Rusk made a sound that might have been a cough. I stepped slightly sideways so I could see the bundles.
 
-### P267
+### P266
 - PREV: "Who the fuck are you?"
 - CURR: I said, "Currently? Rent collection." Rusk made a sound that might have been a cough. I stepped slightly sideways so I could see the bundles.
 - NEXT: Dyed cloth. Deep blue. Good color. Expensive? Maybe. I knew nothing about cloth. Important. Do not become a textile expert because you saw blue.
 
-### P269
+### P268
 - PREV: Dyed cloth. Deep blue. Good color. Expensive? Maybe. I knew nothing about cloth. Important. Do not become a textile expert because you saw blue.
 - CURR: "What are you waiting for?" I asked. The man said nothing.
 - NEXT: "Buyer?"
 
-### P270
+### P269
 - PREV: "What are you waiting for?" I asked. The man said nothing.
 - CURR: "Buyer?"
 - NEXT: His face changed. There.
 
-### P272
+### P271
 - PREV: His face changed. There.
 - CURR: "Buyer is late," I said.
 - NEXT: "No."
 
-### P273
+### P272
 - PREV: "Buyer is late," I said.
 - CURR: "No."
 - NEXT: "Then you're late."
 
-### P274
+### P273
 - PREV: "No."
 - CURR: "Then you're late."
 - NEXT: Silence. Rusk looked at me now. The man rubbed his thumb against his palm. Anxiety.
 
-### P276
+### P275
 - PREV: Silence. Rusk looked at me now. The man rubbed his thumb against his palm. Anxiety.
 - CURR: "How late?"
 - NEXT: "Two days."
 
-### P277
+### P276
 - PREV: "How late?"
 - CURR: "Two days."
 - NEXT: "How much do they owe you?"
 
-### P278
+### P277
 - PREV: "Two days."
 - CURR: "How much do they owe you?"
 - NEXT: "That's none of your business."
 
-### P279
+### P278
 - PREV: "How much do they owe you?"
 - CURR: "That's none of your business."
 - NEXT: "Correct. Your rent is our business. Your buyer is currently standing between those two things." He stared. I could become threatening Greg.
 
-### P280
+### P279
 - PREV: "That's none of your business."
 - CURR: "Correct. Your rent is our business. Your buyer is currently standing between those two things." He stared. I could become threatening Greg.
 - NEXT: Easy. Rusk was already doing that by existing. Not needed. I could become sympathetic Greg. Maybe. The man wanted dignity more than sympathy. Different role. Businessman. Fine. I straightened slightly. Changed my voice. Not much. Enough.
 
-### P282
+### P281
 - PREV: Easy. Rusk was already doing that by existing. Not needed. I could become sympathetic Greg. Maybe. The man wanted dignity more than sympathy. Different role. Businessman. Fine. I straightened slightly. Changed my voice. Not much. Enough.
 - CURR: "Your problem isn't that you can't pay. Your problem is that your cash is trapped in cloth for forty-eight hours."
 - NEXT: His eyes narrowed.
 
-### P285
+### P284
 - PREV: Good.
 - CURR: I said, "Rusk's problem is that Antonius is owed today." Rusk said nothing.
 - NEXT: Excellent support.
 
-### P287
+### P286
 - PREV: Excellent support.
 - CURR: "So solve both. Partial now. Written date for the rest. Something held against it if the buyer fails."
 - NEXT: The tenant looked at Rusk. Rusk looked at me. I had just invented terms on Antonius's behalf. Potential issue. Rusk said, "What security?" Good man. The tenant looked back at the cloth. Of course. We took two bundles under seal. Not ownership. Security. He paid part. Signed the remainder for three days. On the cart, Rusk drove in silence. I waited. Finally he said, "Antonius said two days."
 
-### P288
+### P287
 - PREV: "So solve both. Partial now. Written date for the rest. Something held against it if the buyer fails."
 - CURR: The tenant looked at Rusk. Rusk looked at me. I had just invented terms on Antonius's behalf. Potential issue. Rusk said, "What security?" Good man. The tenant looked back at the cloth. Of course. We took two bundles under seal. Not ownership. Security. He paid part. Signed the remainder for three days. On the cart, Rusk drove in silence. I waited. Finally he said, "Antonius said two days."
 - NEXT: "Three was better."
 
-### P289
+### P288
 - PREV: The tenant looked at Rusk. Rusk looked at me. I had just invented terms on Antonius's behalf. Potential issue. Rusk said, "What security?" Good man. The tenant looked back at the cloth. Of course. We took two bundles under seal. Not ownership. Security. He paid part. Signed the remainder for three days. On the cart, Rusk drove in silence. I waited. Finally he said, "Antonius said two days."
 - CURR: "Three was better."
 - NEXT: "He said two."
 
-### P290
+### P289
 - PREV: "Three was better."
 - CURR: "He said two."
 - NEXT: "He would rather get paid."
 
-### P291
+### P290
 - PREV: "He said two."
 - CURR: "He would rather get paid."
 - NEXT: "You know that?"
 
-### P292
+### P291
 - PREV: "He would rather get paid."
 - CURR: "You know that?"
 - NEXT: "Yes."
 
-### P293
+### P292
 - PREV: "You know that?"
 - CURR: "Yes."
 - NEXT: "How?"
 
-### P294
+### P293
 - PREV: "Yes."
 - CURR: "How?"
 - NEXT: Future Antonius?
 
-### P298
+### P297
 - PREV: Present Antonius. Flour pays. Small losses matter. He was not a thug pretending to be a financier. He was a financier willing to use thugs. Different thing.
 - CURR: I said, "He asks about systems before punishment." Rusk looked at me. Then back at the road.
 - NEXT: "Sometimes."
 
-### P299
+### P298
 - PREV: I said, "He asks about systems before punishment." Rusk looked at me. Then back at the road.
 - CURR: "Sometimes."
 - NEXT: Good.
 
-### P303
+### P302
 - PREV: I stared. Rusk watched.
 - CURR: "You know what you're looking at?"
 - NEXT: "No." He laughed.
 
-### P304
+### P303
 - PREV: "You know what you're looking at?"
 - CURR: "No." He laughed.
 - NEXT: "Finally."
 
-### P305
+### P304
 - PREV: "No." He laughed.
 - CURR: "Finally."
 - NEXT: "Give me a moment." I looked harder.
 
-### P306
+### P305
 - PREV: "Finally."
 - CURR: "Give me a moment." I looked harder.
 - NEXT: Still nothing. Future knowledge? Tenant name meant nothing. Trade? Metal fittings. Destination possibilities? Too many. I could construct a theory. Several, actually. That was the problem.
 
-### P308
+### P307
 - PREV: Still nothing. Future knowledge? Tenant name meant nothing. Trade? Metal fittings. Destination possibilities? Too many. I could construct a theory. Several, actually. That was the problem.
 - CURR: "He left," I said. Rusk nodded.
 - NEXT: "Brilliant."
 
-### P309
+### P308
 - PREV: "He left," I said. Rusk nodded.
 - CURR: "Brilliant."
 - NEXT: "Thank you."
 
-### P310
+### P309
 - PREV: "Brilliant."
 - CURR: "Thank you."
 - NEXT: "Where?"
 
-### P311
+### P310
 - PREV: "Thank you."
 - CURR: "Where?"
 - NEXT: "No idea."
 
-### P312
+### P311
 - PREV: "Where?"
 - CURR: "No idea."
 - NEXT: "More brilliant." I stood.
 
-### P313
+### P312
 - PREV: "No idea."
 - CURR: "More brilliant." I stood.
 - NEXT: That failure bothered me more than it should have. There were no useful constraints. No person to read. No process to inspect. Just absence. Open field. My brain produced possibilities. Dock. South gate. Another lender. Family. Fraud. Fire. Caravan. None were worth anything. I hated it. Rusk noticed.
 
-### P315
+### P314
 - PREV: That failure bothered me more than it should have. There were no useful constraints. No person to read. No process to inspect. Just absence. Open field. My brain produced possibilities. Dock. South gate. Another lender. Family. Fraud. Fire. Caravan. None were worth anything. I hated it. Rusk noticed.
 - CURR: "You really don't know."
 - NEXT: "No."
 
-### P316
+### P315
 - PREV: "You really don't know."
 - CURR: "No."
 - NEXT: "Thought you knew everything."
 
-### P317
+### P316
 - PREV: "No."
 - CURR: "Thought you knew everything."
 - NEXT: "I know an alarming amount."
 
-### P318
+### P317
 - PREV: "Thought you knew everything."
 - CURR: "I know an alarming amount."
 - NEXT: "Not this."
 
-### P319
+### P318
 - PREV: "I know an alarming amount."
 - CURR: "Not this."
 - NEXT: "Not enough information yet." He grinned.
 
-### P320
+### P319
 - PREV: "Not this."
 - CURR: "Not enough information yet." He grinned.
 - NEXT: Apparently that phrase sounded exactly as defensive as it was. Back at the warehouse, Antonius listened to Rusk's report. First tenant paid. Second restructured. Third gone. Antonius looked at the sealed cloth. Then at me.
 
-### P322
+### P321
 - PREV: Apparently that phrase sounded exactly as defensive as it was. Back at the warehouse, Antonius listened to Rusk's report. First tenant paid. Second restructured. Third gone. Antonius looked at the sealed cloth. Then at me.
 - CURR: "You took collateral."
 - NEXT: "Temporarily."
 
-### P323
+### P322
 - PREV: "You took collateral."
 - CURR: "Temporarily."
 - NEXT: "You extended him an extra day."
 
-### P324
+### P323
 - PREV: "Temporarily."
 - CURR: "You extended him an extra day."
 - NEXT: "Yes."
 
-### P325
+### P324
 - PREV: "You extended him an extra day."
 - CURR: "Yes."
 - NEXT: "Without asking."
 
-### P326
+### P325
 - PREV: "Yes."
 - CURR: "Without asking."
 - NEXT: "Also yes."
 
-### P327
+### P326
 - PREV: "Without asking."
 - CURR: "Also yes."
 - NEXT: "You enjoy being employed?"
 
-### P328
+### P327
 - PREV: "Also yes."
 - CURR: "You enjoy being employed?"
 - NEXT: "Not particularly."
 
-### P329
+### P328
 - PREV: "You enjoy being employed?"
 - CURR: "Not particularly."
 - NEXT: "Interesting strategy."
 
-### P330
+### P329
 - PREV: "Not particularly."
 - CURR: "Interesting strategy."
 - NEXT: "He'll pay."
 
-### P331
+### P330
 - PREV: "Interesting strategy."
 - CURR: "He'll pay."
 - NEXT: "Maybe."
 
-### P332
+### P331
 - PREV: "He'll pay."
 - CURR: "Maybe."
 - NEXT: "He will."
 
-### P333
+### P332
 - PREV: "Maybe."
 - CURR: "He will."
 - NEXT: "Future knowledge?"
 
-### P334
+### P333
 - PREV: "He will."
 - CURR: "Future knowledge?"
 - NEXT: "No."
 
-### P335
+### P334
 - PREV: "Future knowledge?"
 - CURR: "No."
 - NEXT: That answer came quickly. Antonius noticed.
 
-### P337
+### P336
 - PREV: That answer came quickly. Antonius noticed.
 - CURR: "Then what?"
 - NEXT: "He was protecting the cloth more than he was afraid of Rusk. He has a buyer. The buyer is late. He hates owing us because it makes him look weak, not because he intends to run. He'll pay." Antonius looked at Rusk. Rusk shrugged.
 
-### P338
+### P337
 - PREV: "Then what?"
 - CURR: "He was protecting the cloth more than he was afraid of Rusk. He has a buyer. The buyer is late. He hates owing us because it makes him look weak, not because he intends to run. He'll pay." Antonius looked at Rusk. Rusk shrugged.
 - NEXT: "Sounded right," Rusk said. Antonius looked back at me.
 
-### P339
+### P338
 - PREV: "He was protecting the cloth more than he was afraid of Rusk. He has a buyer. The buyer is late. He hates owing us because it makes him look weak, not because he intends to run. He'll pay." Antonius looked at Rusk. Rusk shrugged.
 - CURR: "Sounded right," Rusk said. Antonius looked back at me.
 - NEXT: "And the third?"
 
-### P340
+### P339
 - PREV: "Sounded right," Rusk said. Antonius looked back at me.
 - CURR: "And the third?"
 - NEXT: "Gone."
 
-### P341
+### P340
 - PREV: "And the third?"
 - CURR: "Gone."
 - NEXT: "Where?"
 
-### P342
+### P341
 - PREV: "Gone."
 - CURR: "Where?"
 - NEXT: "No idea." He waited. I hated him.
 
-### P343
+### P342
 - PREV: "Where?"
 - CURR: "No idea." He waited. I hated him.
 - NEXT: "No idea," I repeated. Antonius smiled.
 
-### P344
+### P343
 - PREV: "No idea." He waited. I hated him.
 - CURR: "No idea," I repeated. Antonius smiled.
 - NEXT: "That hurt."
 
-### P345
+### P344
 - PREV: "No idea," I repeated. Antonius smiled.
 - CURR: "That hurt."
 - NEXT: "Deeply."
 
-### P346
+### P345
 - PREV: "That hurt."
 - CURR: "Deeply."
 - NEXT: "Good."
 
-### P347
+### P346
 - PREV: "Deeply."
 - CURR: "Good."
 - NEXT: "Why?"
 
-### P348
+### P347
 - PREV: "Good."
 - CURR: "Why?"
 - NEXT: "Because I was starting to wonder if you believed your own bullshit."
 
-### P349
+### P348
 - PREV: "Why?"
 - CURR: "Because I was starting to wonder if you believed your own bullshit."
 - NEXT: "I believe most of it."
 
-### P350
+### P349
 - PREV: "Because I was starting to wonder if you believed your own bullshit."
 - CURR: "I believe most of it."
 - NEXT: "I know."
 
-### P351
+### P350
 - PREV: "I believe most of it."
 - CURR: "I know."
 - NEXT: There was amusement again. But something else now. Assessment. He was indexing me. I recognized it because I did the same thing to everyone. Debtor? Gambler? Problem? Asset? Person? I almost laughed. There I was doing it again. Antonius leaned back.
 
-### P353
+### P352
 - PREV: There was amusement again. But something else now. Assessment. He was indexing me. I recognized it because I did the same thing to everyone. Debtor? Gambler? Problem? Asset? Person? I almost laughed. There I was doing it again. Antonius leaned back.
 - CURR: "You don't take this seriously."
 - NEXT: "I take debt seriously."
 
-### P354
+### P353
 - PREV: "You don't take this seriously."
 - CURR: "I take debt seriously."
 - NEXT: "No, you don't."
 
-### P355
+### P354
 - PREV: "I take debt seriously."
 - CURR: "No, you don't."
 - NEXT: "I am literally working it off."
 
-### P356
+### P355
 - PREV: "No, you don't."
 - CURR: "I am literally working it off."
 - NEXT: "Because I made you."
 
-### P357
+### P356
 - PREV: "I am literally working it off."
 - CURR: "Because I made you."
 - NEXT: "That seems unnecessarily semantic."
 
-### P358
+### P357
 - PREV: "Because I made you."
 - CURR: "That seems unnecessarily semantic."
 - NEXT: "You think this is temporary."
 
-### P359
+### P358
 - PREV: "That seems unnecessarily semantic."
 - CURR: "You think this is temporary."
 - NEXT: "It is."
 
-### P360
+### P359
 - PREV: "You think this is temporary."
 - CURR: "It is."
 - NEXT: "Everything is temporary."
 
-### P361
+### P360
 - PREV: "It is."
 - CURR: "Everything is temporary."
 - NEXT: "That's unusually philosophical for a loan shark."
 
-### P362
+### P361
 - PREV: "Everything is temporary."
 - CURR: "That's unusually philosophical for a loan shark."
 - NEXT: "I'm not a loan shark." I looked around. He looked around too.
 
-### P363
+### P362
 - PREV: "That's unusually philosophical for a loan shark."
 - CURR: "I'm not a loan shark." I looked around. He looked around too.
 - NEXT: "What are you?"
 
-### P364
+### P363
 - PREV: "I'm not a loan shark." I looked around. He looked around too.
 - CURR: "What are you?"
 - NEXT: "I lend money."
 
-### P365
+### P364
 - PREV: "What are you?"
 - CURR: "I lend money."
 - NEXT: "At thirty-five percent."
 
-### P366
+### P365
 - PREV: "I lend money."
 - CURR: "At thirty-five percent."
 - NEXT: "To people banks won't touch."
 
-### P367
+### P366
 - PREV: "At thirty-five percent."
 - CURR: "To people banks won't touch."
 - NEXT: "And take their labor when they fail."
 
-### P368
+### P367
 - PREV: "To people banks won't touch."
 - CURR: "And take their labor when they fail."
 - NEXT: "Sometimes."
 
-### P369
+### P368
 - PREV: "And take their labor when they fail."
 - CURR: "Sometimes."
 - NEXT: "Loan shark."
 
-### P370
+### P369
 - PREV: "Sometimes."
 - CURR: "Loan shark."
 - NEXT: "Fine." He waved it away.
 
-### P371
+### P370
 - PREV: "Loan shark."
 - CURR: "Fine." He waved it away.
 - NEXT: "But you think you're passing through." I did.
 
-### P372
+### P371
 - PREV: "Fine." He waved it away.
 - CURR: "But you think you're passing through." I did.
 - NEXT: Obviously. A few weeks. Maybe months. Get mana online. Stabilize income. Build capital. Arlo develops the shale. Warrior training accelerates. Then larger moves. Antonius's warehouse was a temporary constraint. Antonius watched all of that happen on my face.
 
-### P374
+### P373
 - PREV: Obviously. A few weeks. Maybe months. Get mana online. Stabilize income. Build capital. Arlo develops the shale. Warrior training accelerates. Then larger moves. Antonius's warehouse was a temporary constraint. Antonius watched all of that happen on my face.
 - CURR: "You do," he said.
 - NEXT: "I have plans." He started laughing.
 
-### P375
+### P374
 - PREV: "You do," he said.
 - CURR: "I have plans." He started laughing.
 - NEXT: Again.
 
-### P377
+### P376
 - PREV: Again.
 - CURR: "What?"
 - NEXT: "Nothing."
 
-### P378
+### P377
 - PREV: "What?"
 - CURR: "Nothing."
 - NEXT: "That's twice you've laughed at my plans."
 
-### P379
+### P378
 - PREV: "Nothing."
 - CURR: "That's twice you've laughed at my plans."
 - NEXT: "I haven't heard them."
 
-### P380
+### P379
 - PREV: "That's twice you've laughed at my plans."
 - CURR: "I haven't heard them."
 - NEXT: "Then why are you laughing?"
 
-### P381
+### P380
 - PREV: "I haven't heard them."
 - CURR: "Then why are you laughing?"
 - NEXT: "Because every time something goes wrong, you make the plan bigger." I opened my mouth.
 
-### P382
+### P381
 - PREV: "Then why are you laughing?"
 - CURR: "Because every time something goes wrong, you make the plan bigger." I opened my mouth.
 - NEXT: Closed it. Substantially fair. Antonius tapped the ledger.
 
-### P384
+### P383
 - PREV: Closed it. Substantially fair. Antonius tapped the ledger.
 - CURR: "You owed me money. Simple problem."
 - NEXT: "I am solving it."
 
-### P385
+### P384
 - PREV: "You owed me money. Simple problem."
 - CURR: "I am solving it."
 - NEXT: "You started a materials venture, became a gambler, hired a magic instructor, bought a sword, started training as a warrior, and somehow redesigned my warehouse."
 
-### P386
+### P385
 - PREV: "I am solving it."
 - CURR: "You started a materials venture, became a gambler, hired a magic instructor, bought a sword, started training as a warrior, and somehow redesigned my warehouse."
 - NEXT: "When you summarize it badly, yes."
 
-### P387
+### P386
 - PREV: "You started a materials venture, became a gambler, hired a magic instructor, bought a sword, started training as a warrior, and somehow redesigned my warehouse."
 - CURR: "When you summarize it badly, yes."
 - NEXT: "How would you summarize it?" I thought.
 
-### P388
+### P387
 - PREV: "When you summarize it badly, yes."
 - CURR: "How would you summarize it?" I thought.
 - NEXT: "Momentum," I said. Antonius laughed so hard Rusk came in to see what happened. I waited.
 
-### P389
+### P388
 - PREV: "How would you summarize it?" I thought.
 - CURR: "Momentum," I said. Antonius laughed so hard Rusk came in to see what happened. I waited.
 - NEXT: Eventually Antonius recovered.
 
-### P391
+### P390
 - PREV: Eventually Antonius recovered.
 - CURR: "Greg."
 - NEXT: "Yes?"
 
-### P392
+### P391
 - PREV: "Greg."
 - CURR: "Yes?"
 - NEXT: "Tomorrow you're cleaning the back storeroom." I stared at him.
 
-### P393
+### P392
 - PREV: "Yes?"
 - CURR: "Tomorrow you're cleaning the back storeroom." I stared at him.
 - NEXT: "That's beneath me."
 
-### P394
+### P393
 - PREV: "Tomorrow you're cleaning the back storeroom." I stared at him.
 - CURR: "That's beneath me."
 - NEXT: "I know."
 
-### P395
+### P394
 - PREV: "That's beneath me."
 - CURR: "I know."
 - NEXT: "I could do collections."
 
-### P396
+### P395
 - PREV: "I know."
 - CURR: "I could do collections."
 - NEXT: "I know."
 
-### P397
+### P396
 - PREV: "I could do collections."
 - CURR: "I know."
 - NEXT: "Inventory."
 
-### P398
+### P397
 - PREV: "I know."
 - CURR: "Inventory."
 - NEXT: "No."
 
-### P399
+### P398
 - PREV: "Inventory."
 - CURR: "No."
 - NEXT: "Routes."
 
-### P400
+### P399
 - PREV: "No."
 - CURR: "Routes."
 - NEXT: "No."
 
-### P401
+### P400
 - PREV: "Routes."
 - CURR: "No."
 - NEXT: I said, "Let me look at your debtor book." Antonius stopped smiling.
 
-### P402
+### P401
 - PREV: "No."
 - CURR: I said, "Let me look at your debtor book." Antonius stopped smiling.
 - NEXT: "Absolutely not."
 
-### P403
+### P402
 - PREV: I said, "Let me look at your debtor book." Antonius stopped smiling.
 - CURR: "Absolutely not."
 - NEXT: "I could probably identify..."
 
-### P404
+### P403
 - PREV: "Absolutely not."
 - CURR: "I could probably identify..."
 - NEXT: "Storeroom."
 
-### P405
+### P404
 - PREV: "I could probably identify..."
 - CURR: "Storeroom."
 - NEXT: "You're wasting me."
 
-### P406
+### P405
 - PREV: "Storeroom."
 - CURR: "You're wasting me."
 - NEXT: That brought the smile back.
 
-### P408
+### P407
 - PREV: That brought the smile back.
 - CURR: "Maybe." He stood.
 - NEXT: Conversation over. I went to the door.
 
-### P410
+### P409
 - PREV: Conversation over. I went to the door.
 - CURR: Antonius said, "Greg." I turned. He was still looking at me with that strange evaluative expression.
 - NEXT: Not trust. Not yet. Something closer to entertainment with potential returns.
 
-### P412
+### P411
 - PREV: Not trust. Not yet. Something closer to entertainment with potential returns.
 - CURR: "Don't leave," he said. I frowned.
 - NEXT: "Tomorrow?"
 
-### P413
+### P412
 - PREV: "Don't leave," he said. I frowned.
 - CURR: "Tomorrow?"
 - NEXT: "Carrow."
 
-### P414
+### P413
 - PREV: "Tomorrow?"
 - CURR: "Carrow."
 - NEXT: That was different. I looked at him.
 
-### P416
+### P415
 - PREV: That was different. I looked at him.
 - CURR: "Why?" He shrugged.
 - NEXT: "I want to see what you do."
 
-### P417
+### P416
 - PREV: "Why?" He shrugged.
 - CURR: "I want to see what you do."
 - NEXT: For once, I had no immediate answer. Antonius smiled.
 
-### P419
+### P418
 - PREV: For once, I had no immediate answer. Antonius smiled.
 - CURR: "Back storeroom. Sunrise." I left.
 - NEXT: On the walk home, I should have been angry about the storeroom. I was. I was also thinking about Antonius. Not future Antonius. This one.
@@ -5946,685 +5941,685 @@ Total dialogue paragraphs surfaced: 5960
 
 ### P343
 - PREV: We found lunch in the front office. Bread. Cheese. Pickled onions. Antonius ate at the clerk's desk because the clerk had gone out. I expected him to have better food. Why? Future Antonius had been rich. Present Antonius had flour. Again. Tower. Bricks. I bit into the bread.
-- CURR: "How old are you?" Antonius asked.
-- NEXT: I looked up.
+- CURR: "How old are you?" Antonius asked. I looked up.
+- NEXT: There it was.
 
-### P346
+### P345
 - PREV: There it was.
 - CURR: "Nineteen."
 - NEXT: "No." I nearly choked.
 
-### P347
+### P346
 - PREV: "Nineteen."
 - CURR: "No." I nearly choked.
 - NEXT: "What?"
 
-### P348
+### P347
 - PREV: "No." I nearly choked.
 - CURR: "What?"
 - NEXT: "You're nineteen?"
 
-### P349
+### P348
 - PREV: "What?"
 - CURR: "You're nineteen?"
 - NEXT: "Yes." He stared. I stared back.
 
-### P350
+### P349
 - PREV: "You're nineteen?"
 - CURR: "Yes." He stared. I stared back.
 - NEXT: "Why?"
 
-### P351
+### P350
 - PREV: "Yes." He stared. I stared back.
 - CURR: "Why?"
 - NEXT: "I thought older."
 
-### P352
+### P351
 - PREV: "Why?"
 - CURR: "I thought older."
 - NEXT: "Thank you."
 
-### P353
+### P352
 - PREV: "I thought older."
 - CURR: "Thank you."
 - NEXT: "That wasn't praise."
 
-### P354
+### P353
 - PREV: "Thank you."
 - CURR: "That wasn't praise."
 - NEXT: "Then fuck you."
 
-### P355
+### P354
 - PREV: "That wasn't praise."
 - CURR: "Then fuck you."
 - NEXT: "Twenty-three?"
 
-### P356
+### P355
 - PREV: "Then fuck you."
 - CURR: "Twenty-three?"
 - NEXT: "Nineteen." He leaned back.
 
-### P357
+### P356
 - PREV: "Twenty-three?"
 - CURR: "Nineteen." He leaned back.
 - NEXT: "That's upsetting."
 
-### P358
+### P357
 - PREV: "Nineteen." He leaned back.
 - CURR: "That's upsetting."
 - NEXT: "Imagine how I feel."
 
-### P359
+### P358
 - PREV: "That's upsetting."
 - CURR: "Imagine how I feel."
 - NEXT: Wrong answer. His eyes sharpened. I took another bite. He waited. I chewed.
 
-### P361
+### P360
 - PREV: Wrong answer. His eyes sharpened. I took another bite. He waited. I chewed.
 - CURR: "Why would you feel anything?" he asked.
 - NEXT: "Because nineteen is a terrible age."
 
-### P362
+### P361
 - PREV: "Why would you feel anything?" he asked.
 - CURR: "Because nineteen is a terrible age."
 - NEXT: "You say that like you've done it before." I swallowed.
 
-### P363
+### P362
 - PREV: "Because nineteen is a terrible age."
 - CURR: "You say that like you've done it before." I swallowed.
 - NEXT: "Everyone has been younger."
 
-### P364
+### P363
 - PREV: "You say that like you've done it before." I swallowed.
 - CURR: "Everyone has been younger."
 - NEXT: "Not everyone talks about it like a disease they recovered from."
 
-### P365
+### P364
 - PREV: "Everyone has been younger."
 - CURR: "Not everyone talks about it like a disease they recovered from."
 - NEXT: Interesting. Dangerous?
 
-### P369
+### P368
 - PREV: Not yet. I could lie. Easy. Hard childhood. Older companions. Military upbringing. Dead parents. Some of it even true. Instead I shrugged.
 - CURR: "I had to grow up early." Antonius watched me.
 - NEXT: That answer worked on most people because people were polite around dead parents. Antonius was not most people.
 
-### P371
+### P370
 - PREV: That answer worked on most people because people were polite around dead parents. Antonius was not most people.
 - CURR: "That's not it." I smiled.
 - NEXT: "What do you want me to say?"
 
-### P372
+### P371
 - PREV: "That's not it." I smiled.
 - CURR: "What do you want me to say?"
 - NEXT: "The truth would be novel."
 
-### P373
+### P372
 - PREV: "What do you want me to say?"
 - CURR: "The truth would be novel."
 - NEXT: "From a lender?" He smiled back.
 
-### P374
+### P373
 - PREV: "The truth would be novel."
 - CURR: "From a lender?" He smiled back.
 - NEXT: Good.
 
-### P377
+### P376
 - PREV: Deflection accepted. Not believed. Different thing. He ate an onion.
 - CURR: "You're strange with money."
 - NEXT: "I've noticed."
 
-### P378
+### P377
 - PREV: "You're strange with money."
 - CURR: "I've noticed."
 - NEXT: "You spend like you expect more."
 
-### P379
+### P378
 - PREV: "I've noticed."
 - CURR: "You spend like you expect more."
 - NEXT: "I can make more."
 
-### P380
+### P379
 - PREV: "You spend like you expect more."
 - CURR: "I can make more."
 - NEXT: "You lose like you've lost more before." I said nothing.
 
-### P381
+### P380
 - PREV: "I can make more."
 - CURR: "You lose like you've lost more before." I said nothing.
 - NEXT: "You talk about businesses like you've watched them fail."
 
-### P382
+### P381
 - PREV: "You lose like you've lost more before." I said nothing.
 - CURR: "You talk about businesses like you've watched them fail."
 - NEXT: "I've watched businesses fail."
 
-### P383
+### P382
 - PREV: "You talk about businesses like you've watched them fail."
 - CURR: "I've watched businesses fail."
 - NEXT: "At nineteen."
 
-### P384
+### P383
 - PREV: "I've watched businesses fail."
 - CURR: "At nineteen."
 - NEXT: "Carrow is educational."
 
-### P385
+### P384
 - PREV: "At nineteen."
 - CURR: "Carrow is educational."
 - NEXT: "You don't get impressed by amounts that should impress you."
 
-### P386
+### P385
 - PREV: "Carrow is educational."
 - CURR: "You don't get impressed by amounts that should impress you."
 - NEXT: "That's because your interest rates are obscene."
 
-### P387
+### P386
 - PREV: "You don't get impressed by amounts that should impress you."
 - CURR: "That's because your interest rates are obscene."
 - NEXT: "And then you panic over copper."
 
-### P388
+### P387
 - PREV: "That's because your interest rates are obscene."
 - CURR: "And then you panic over copper."
 - NEXT: "Copper is currently offensive." He laughed quietly.
 
-### P389
+### P388
 - PREV: "And then you panic over copper."
 - CURR: "Copper is currently offensive." He laughed quietly.
 - NEXT: Then he looked at me for a long moment. Not interrogation. Indexing. I knew the feeling.
 
-### P391
+### P390
 - PREV: Then he looked at me for a long moment. Not interrogation. Indexing. I knew the feeling.
 - CURR: "What are you?" he asked.
 - NEXT: That was a dangerous question only if I treated it like one.
 
-### P393
+### P392
 - PREV: That was a dangerous question only if I treated it like one.
 - CURR: "Currently?" He groaned. I smiled.
 - NEXT: "Laborer."
 
-### P394
+### P393
 - PREV: "Currently?" He groaned. I smiled.
 - CURR: "Laborer."
 - NEXT: "Bad one."
 
-### P395
+### P394
 - PREV: "Laborer."
 - CURR: "Bad one."
 - NEXT: "Improving rapidly."
 
-### P396
+### P395
 - PREV: "Bad one."
 - CURR: "Improving rapidly."
 - NEXT: "Debtor."
 
-### P397
+### P396
 - PREV: "Improving rapidly."
 - CURR: "Debtor."
 - NEXT: "Temporary."
 
-### P398
+### P397
 - PREV: "Debtor."
 - CURR: "Temporary."
 - NEXT: "Gambler."
 
-### P399
+### P398
 - PREV: "Temporary."
 - CURR: "Gambler."
 - NEXT: "Selective."
 
-### P400
+### P399
 - PREV: "Gambler."
 - CURR: "Selective."
 - NEXT: "Warrior?"
 
-### P401
+### P400
 - PREV: "Selective."
 - CURR: "Warrior?"
 - NEXT: "Again, potentially."
 
-### P402
+### P401
 - PREV: "Warrior?"
 - CURR: "Again, potentially."
 - NEXT: "Mage?"
 
-### P403
+### P402
 - PREV: "Again, potentially."
 - CURR: "Mage?"
 - NEXT: "Eventually."
 
-### P404
+### P403
 - PREV: "Mage?"
 - CURR: "Eventually."
 - NEXT: "Merchant?"
 
-### P405
+### P404
 - PREV: "Eventually."
 - CURR: "Merchant?"
 - NEXT: "Maybe." He shook his head.
 
-### P406
+### P405
 - PREV: "Merchant?"
 - CURR: "Maybe." He shook his head.
 - NEXT: "You don't know."
 
-### P407
+### P406
 - PREV: "Maybe." He shook his head.
 - CURR: "You don't know."
 - NEXT: "Know what?"
 
-### P408
+### P407
 - PREV: "You don't know."
 - CURR: "Know what?"
 - NEXT: "What you are." I almost answered immediately. Of course I knew.
 
-### P409
+### P408
 - PREV: "Know what?"
 - CURR: "What you are." I almost answered immediately. Of course I knew.
 - NEXT: Greg. Support mage. S-class. One of seven. Warrior before that. Leader. Manipulator, if we were being impolite. Dead man. Young man. Borrower. Investor. Expert. Laborer. The answers crowded each other. Antonius tore bread in half.
 
-### P411
+### P410
 - PREV: Greg. Support mage. S-class. One of seven. Warrior before that. Leader. Manipulator, if we were being impolite. Dead man. Young man. Borrower. Investor. Expert. Laborer. The answers crowded each other. Antonius tore bread in half.
 - CURR: "You keep trying jobs like coats." I stared at him. That was uncomfortably close.
 - NEXT: "Some coats fit."
 
-### P412
+### P411
 - PREV: "You keep trying jobs like coats." I stared at him. That was uncomfortably close.
 - CURR: "Some coats fit."
 - NEXT: "You buy all of them."
 
-### P413
+### P412
 - PREV: "Some coats fit."
 - CURR: "You buy all of them."
 - NEXT: "Options are useful."
 
-### P414
+### P413
 - PREV: "You buy all of them."
 - CURR: "Options are useful."
 - NEXT: "Options cost money."
 
-### P415
+### P414
 - PREV: "Options are useful."
 - CURR: "Options cost money."
 - NEXT: "Everything costs money with you."
 
-### P416
+### P415
 - PREV: "Options cost money."
 - CURR: "Everything costs money with you."
 - NEXT: "That's why I have money." I looked around the cheap office.
 
-### P417
+### P416
 - PREV: "Everything costs money with you."
 - CURR: "That's why I have money." I looked around the cheap office.
 - NEXT: "Do you?" He smiled.
 
-### P418
+### P417
 - PREV: "That's why I have money." I looked around the cheap office.
 - CURR: "Do you?" He smiled.
 - NEXT: "More than you."
 
-### P419
+### P418
 - PREV: "Do you?" He smiled.
 - CURR: "More than you."
 - NEXT: Fair. After lunch we went back. The room was almost manageable now. Floor visible. Shelves separated. Discard pile enormous. Keep pile smaller. My uncertain pile had been reduced from twenty-seven items to nine. Antonius had forced me to choose. Not verbally. He simply kept asking:
 
-### P421
+### P420
 - PREV: Fair. After lunch we went back. The room was almost manageable now. Floor visible. Shelves separated. Discard pile enormous. Keep pile smaller. My uncertain pile had been reduced from twenty-seven items to nine. Antonius had forced me to choose. Not verbally. He simply kept asking:
 - CURR: "Why?"
 - NEXT: If I had an answer grounded in something, it stayed. If my answer began with "maybe someday," he threw it away. This was barbaric. Also efficient. We reached the last shelf. Three objects. A cracked brass compass. A bundle of narrow iron stakes. A leather case with a broken clasp. Compass first. Needle dead. Trash. Stakes. Could be survey equipment. Could be tent pegs.
 
-### P422
+### P421
 - PREV: "Why?"
 - CURR: If I had an answer grounded in something, it stayed. If my answer began with "maybe someday," he threw it away. This was barbaric. Also efficient. We reached the last shelf. Three objects. A cracked brass compass. A bundle of narrow iron stakes. A leather case with a broken clasp. Compass first. Needle dead. Trash. Stakes. Could be survey equipment. Could be tent pegs.
 - NEXT: No mark. Trash. Leather case. I opened it. Inside was a set of delicate steel instruments. Calipers. Tiny files. A hand drill. Two shapes I did not recognize. Good quality. Old.
 
-### P424
+### P423
 - PREV: No mark. Trash. Leather case. I opened it. Inside was a set of delicate steel instruments. Calipers. Tiny files. A hand drill. Two shapes I did not recognize. Good quality. Old.
 - CURR: "Keep," I said.
 - NEXT: "Why?"
 
-### P425
+### P424
 - PREV: "Keep," I said.
 - CURR: "Why?"
 - NEXT: "Precision tools."
 
-### P426
+### P425
 - PREV: "Why?"
 - CURR: "Precision tools."
 - NEXT: "Broken set."
 
-### P427
+### P426
 - PREV: "Precision tools."
 - CURR: "Broken set."
 - NEXT: "Still tools."
 
-### P428
+### P427
 - PREV: "Broken set."
 - CURR: "Still tools."
 - NEXT: "Value?"
 
-### P429
+### P428
 - PREV: "Still tools."
 - CURR: "Value?"
 - NEXT: "Maybe three silver."
 
-### P430
+### P429
 - PREV: "Value?"
 - CURR: "Maybe three silver."
 - NEXT: "One."
 
-### P431
+### P430
 - PREV: "Maybe three silver."
 - CURR: "One."
 - NEXT: "Two."
 
-### P432
+### P431
 - PREV: "One."
 - CURR: "Two."
 - NEXT: "One."
 
-### P433
+### P432
 - PREV: "Two."
 - CURR: "One."
 - NEXT: "Fine. Keep." He put it on the shelf. I blinked.
 
-### P434
+### P433
 - PREV: "One."
 - CURR: "Fine. Keep." He put it on the shelf. I blinked.
 - NEXT: "That's it?"
 
-### P435
+### P434
 - PREV: "Fine. Keep." He put it on the shelf. I blinked.
 - CURR: "That's it?"
 - NEXT: "What?"
 
-### P436
+### P435
 - PREV: "That's it?"
 - CURR: "What?"
 - NEXT: "No argument?"
 
-### P437
+### P436
 - PREV: "What?"
 - CURR: "No argument?"
 - NEXT: "You gave a reason."
 
-### P438
+### P437
 - PREV: "No argument?"
 - CURR: "You gave a reason."
 - NEXT: I looked at the case. Then at the gray Tere box. Then at the enormous discard pile. The test had not been whether I knew the future. It had not even been whether I found the valuable thing. It was whether I could stop. That realization annoyed me enough that I did not share it. Antonius looked at me. Metaphor face. I deliberately made my face stupid. He laughed.
 
-### P440
+### P439
 - PREV: I looked at the case. Then at the gray Tere box. Then at the enormous discard pile. The test had not been whether I knew the future. It had not even been whether I found the valuable thing. It was whether I could stop. That realization annoyed me enough that I did not share it. Antonius looked at me. Metaphor face. I deliberately made my face stupid. He laughed.
 - CURR: "Fuck you."
 - NEXT: "Didn't say anything."
 
-### P441
+### P440
 - PREV: "Fuck you."
 - CURR: "Didn't say anything."
 - NEXT: "You were going to."
 
-### P442
+### P441
 - PREV: "Didn't say anything."
 - CURR: "You were going to."
 - NEXT: "No."
 
-### P443
+### P442
 - PREV: "You were going to."
 - CURR: "No."
 - NEXT: "Liar."
 
-### P444
+### P443
 - PREV: "No."
 - CURR: "Liar."
 - NEXT: "Lender."
 
-### P445
+### P444
 - PREV: "Liar."
 - CURR: "Lender."
 - NEXT: We carried the discard outside. Some would be burned. Metal sold by weight. Glass separated. Wood salvaged where possible. Even Antonius's trash had categories once it left the room. Of course it did. At the bottom of the last crate I found a small red scarf. Cheap. Faded. No value. I held it. Memory came without permission. A woman laughing on a balcony forty years from now. Not this scarf. Not even the same shade. Just red cloth. I could not remember her name immediately.
 
-### P450
+### P449
 - PREV: Mira had black hair. This woman was... Gone. The memory dissolved. I stood there holding someone else's worthless scarf and thinking about a woman who had been dead for years and might currently be twelve. Or forty. Or not born. I had no idea.
 - CURR: "Greg?"
 - NEXT: Antonius. I looked up.
 
-### P452
+### P451
 - PREV: Antonius. I looked up.
-- CURR: "Trash," I said.
-- NEXT: He held out the discard sack. I almost put it in.
+- CURR: "Trash," I said. He held out the discard sack. I almost put it in.
+- NEXT: Then stopped. Why? No reason. No future value. No technical use. No opportunity. I wanted it. That was different.
 
-### P455
+### P453
 - PREV: Then stopped. Why? No reason. No future value. No technical use. No opportunity. I wanted it. That was different.
 - CURR: "Can I have this?" Antonius looked at the scarf.
 - NEXT: "Why?"
 
-### P456
+### P454
 - PREV: "Can I have this?" Antonius looked at the scarf.
 - CURR: "Why?"
 - NEXT: "I don't know." He waited. I did not invent one.
 
-### P457
+### P455
 - PREV: "Why?"
 - CURR: "I don't know." He waited. I did not invent one.
 - NEXT: "I just want it."
 
-### P458
+### P456
 - PREV: "I don't know." He waited. I did not invent one.
 - CURR: "I just want it."
 - NEXT: Something in his face shifted.
 
-### P460
+### P458
 - PREV: Something in his face shifted.
 - CURR: "Take it." I put it in my pocket.
 - NEXT: No ledger. No two silver. No joke. We finished near dusk. An entire day. Gone. No gambling. No sword training. No Arlo. Hessa missed. That last one was bad. I would have to explain. She would say I chose the debt. She would be correct. I hated that in advance. Antonius locked the storeroom. I stood in the hall, dusty, tired, and weirdly satisfied. The room was clean. That should not have mattered.
 
-### P463
+### P461
 - PREV: It did. One room. One constraint. Finished. My brain immediately tried to expand. Inventory system. Collateral valuation. Storage rotation. Old debtor review. Orlan Tere. Arlo needed to see the box. Could Tere still be in Carrow? Could we find him? If his workshop failed because the market was too early, could I... Stop. I actually stopped. That was new. Antonius noticed.
 - CURR: "What?"
 - NEXT: "Nothing."
 
-### P464
+### P462
 - PREV: "What?"
 - CURR: "Nothing."
 - NEXT: "You had a thought."
 
-### P465
+### P463
 - PREV: "Nothing."
 - CURR: "You had a thought."
 - NEXT: "I have many."
 
-### P466
+### P464
 - PREV: "You had a thought."
 - CURR: "I have many."
 - NEXT: "And killed one."
 
-### P467
+### P465
 - PREV: "I have many."
 - CURR: "And killed one."
 - NEXT: "Postponed."
 
-### P468
+### P466
 - PREV: "And killed one."
 - CURR: "Postponed."
 - NEXT: "Of course." He locked the front office. I pointed toward the storeroom.
 
-### P469
+### P467
 - PREV: "Postponed."
 - CURR: "Of course." He locked the front office. I pointed toward the storeroom.
 - NEXT: "The Tere box."
 
-### P470
+### P468
 - PREV: "Of course." He locked the front office. I pointed toward the storeroom.
 - CURR: "The Tere box."
 - NEXT: "Two silver."
 
-### P471
+### P469
 - PREV: "The Tere box."
 - CURR: "Two silver."
 - NEXT: "I know."
 
-### P472
+### P470
 - PREV: "Two silver."
 - CURR: "I know."
 - NEXT: "End of week."
 
-### P473
+### P471
 - PREV: "I know."
 - CURR: "End of week."
 - NEXT: "I know."
 
-### P474
+### P472
 - PREV: "End of week."
 - CURR: "I know."
 - NEXT: "If it's trash, I'm still keeping the silver."
 
-### P475
+### P473
 - PREV: "I know."
 - CURR: "If it's trash, I'm still keeping the silver."
 - NEXT: "It isn't."
 
-### P476
+### P474
 - PREV: "If it's trash, I'm still keeping the silver."
 - CURR: "It isn't."
 - NEXT: "Maybe." I smiled.
 
-### P477
+### P475
 - PREV: "It isn't."
 - CURR: "Maybe." I smiled.
 - NEXT: "You tested me."
 
-### P478
+### P476
 - PREV: "Maybe." I smiled.
 - CURR: "You tested me."
 - NEXT: "Maybe."
 
-### P479
+### P477
 - PREV: "You tested me."
 - CURR: "Maybe."
 - NEXT: "I passed." Antonius looked at me.
 
-### P480
+### P478
 - PREV: "Maybe."
 - CURR: "I passed." Antonius looked at me.
 - NEXT: "Did you?"
 
-### P481
+### P479
 - PREV: "I passed." Antonius looked at me.
 - CURR: "Did you?"
 - NEXT: "I found the valuable thing."
 
-### P482
+### P480
 - PREV: "Did you?"
 - CURR: "I found the valuable thing."
 - NEXT: "You found a thing you think will become valuable."
 
-### P483
+### P481
 - PREV: "I found the valuable thing."
 - CURR: "You found a thing you think will become valuable."
 - NEXT: "Close enough."
 
-### P484
+### P482
 - PREV: "You found a thing you think will become valuable."
 - CURR: "Close enough."
 - NEXT: "You also tried to save rotten wood."
 
-### P485
+### P483
 - PREV: "Close enough."
 - CURR: "You also tried to save rotten wood."
 - NEXT: "That was early in the process."
 
-### P486
+### P484
 - PREV: "You also tried to save rotten wood."
 - CURR: "That was early in the process."
 - NEXT: "And dye cartridges."
 
-### P487
+### P485
 - PREV: "That was early in the process."
 - CURR: "And dye cartridges."
 - NEXT: "I threw those away."
 
-### P488
+### P486
 - PREV: "And dye cartridges."
 - CURR: "I threw those away."
 - NEXT: "Eventually."
 
-### P489
+### P487
 - PREV: "I threw those away."
 - CURR: "Eventually."
 - NEXT: "Passed."
 
-### P490
+### P488
 - PREV: "Eventually."
 - CURR: "Passed."
 - NEXT: He shook his head. But he was smiling. We stepped outside. The evening air felt cool after the storeroom. Antonius locked the door. I watched him check it twice. Future Antonius had people for this. Present Antonius checked his own lock. I wondered when that changed. I wondered whether it should. Then I wondered whether that was any of my business. Then I wondered whether knowing the answer could make me money. There I was. Antonius started walking.
 
-### P492
+### P490
 - PREV: He shook his head. But he was smiling. We stepped outside. The evening air felt cool after the storeroom. Antonius locked the door. I watched him check it twice. Future Antonius had people for this. Present Antonius checked his own lock. I wondered when that changed. I wondered whether it should. Then I wondered whether that was any of my business. Then I wondered whether knowing the answer could make me money. There I was. Antonius started walking.
 - CURR: "Where are you going?"
 - NEXT: "Home." I had never considered that Antonius Vale had a home. That was stupid. Of course he did.
 
-### P493
+### P491
 - PREV: "Where are you going?"
 - CURR: "Home." I had never considered that Antonius Vale had a home. That was stupid. Of course he did.
 - NEXT: "Where?" He stopped.
 
-### P494
+### P492
 - PREV: "Home." I had never considered that Antonius Vale had a home. That was stupid. Of course he did.
 - CURR: "Where?" He stopped.
 - NEXT: "Why?"
 
-### P495
+### P493
 - PREV: "Where?" He stopped.
 - CURR: "Why?"
 - NEXT: "No reason."
 
-### P496
+### P494
 - PREV: "Why?"
 - CURR: "No reason."
 - NEXT: "Good night, Greg."
 
-### P497
+### P495
 - PREV: "No reason."
 - CURR: "Good night, Greg."
 - NEXT: "Do you have a wife?"
 
-### P498
+### P496
 - PREV: "Good night, Greg."
 - CURR: "Do you have a wife?"
 - NEXT: His face went completely blank. Interesting.
 
-### P500
+### P498
 - PREV: His face went completely blank. Interesting.
 - CURR: "Good night, Greg."
 - NEXT: "Children?"
 
-### P501
+### P499
 - PREV: "Good night, Greg."
 - CURR: "Children?"
 - NEXT: "Go away."
 
-### P502
+### P500
 - PREV: "Children?"
 - CURR: "Go away."
 - NEXT: "That's not a no." He walked faster. I laughed.
 
-### P503
+### P501
 - PREV: "Go away."
 - CURR: "That's not a no." He walked faster. I laughed.
 - NEXT: "Sunrise tomorrow?" He raised one hand without turning.
 
-### P504
+### P502
 - PREV: "That's not a no." He walked faster. I laughed.
 - CURR: "Sunrise tomorrow?" He raised one hand without turning.
 - NEXT: "Ask Rusk."
 
-### P505
+### P503
 - PREV: "Sunrise tomorrow?" He raised one hand without turning.
 - CURR: "Ask Rusk."
 - NEXT: That meant yes. Probably. I stood alone outside the warehouse. My hand found the red scarf in my pocket. Worthless. The gray box waited inside. Potentially extremely valuable. Two objects.
 
-### P509
+### P507
 - PREV: Convince him. Break her. Make this party work. Constraints. I had been very good at constraints. Give me an empty life and apparently I borrowed money, started three careers, bought a sword, gambled, invested in garbage rocks, and argued with a loan shark about warped wood. I laughed. Alone.
 - CURR: "Excellent."
 - NEXT: A passerby looked at me strangely. Reasonable. I started home. Tomorrow would have a problem. I found that comforting. That was probably something I should worry about. Later.
@@ -6969,1654 +6964,1654 @@ Total dialogue paragraphs surfaced: 5960
 ### P91
 - PREV: "Does he always do this?"
 - CURR: "Unfortunately."
-- NEXT: "How late?" I asked.
+- NEXT: "How late?" I asked. She crossed her arms.
 
 ### P92
 - PREV: "Unfortunately."
-- CURR: "How late?" I asked.
-- NEXT: She crossed her arms.
+- CURR: "How late?" I asked. She crossed her arms.
+- NEXT: "We owe Vale. Not my customers."
 
-### P94
-- PREV: She crossed her arms.
+### P93
+- PREV: "How late?" I asked. She crossed her arms.
 - CURR: "We owe Vale. Not my customers."
 - NEXT: "Your customer currently owes Antonius by proxy."
 
-### P95
+### P94
 - PREV: "We owe Vale. Not my customers."
 - CURR: "Your customer currently owes Antonius by proxy."
 - NEXT: "Greg," Rusk said.
 
-### P96
+### P95
 - PREV: "Your customer currently owes Antonius by proxy."
 - CURR: "Greg," Rusk said.
 - NEXT: "Money."
 
-### P97
+### P96
 - PREV: "Greg," Rusk said.
 - CURR: "Money."
 - NEXT: "I am discussing money."
 
-### P98
+### P97
 - PREV: "Money."
 - CURR: "I am discussing money."
 - NEXT: "Collect it."
 
-### P99
+### P98
 - PREV: "I am discussing money."
 - CURR: "Collect it."
 - NEXT: Selka looked between us. Then laughed once despite herself. Useful. People were easier after they laughed. Usually. Sometimes laughter meant they had decided to stab you. Context.
 
-### P101
+### P100
 - PREV: Selka looked between us. Then laughed once despite herself. Useful. People were easier after they laughed. Usually. Sometimes laughter meant they had decided to stab you. Context.
 - CURR: "Three days," Selka said.
-- NEXT: "Buyer is three days late?" I asked.
+- NEXT: "Buyer is three days late?" I asked. She nodded.
+
+### P101
+- PREV: "Three days," Selka said.
+- CURR: "Buyer is three days late?" I asked. She nodded.
+- NEXT: "How much?" I asked.
 
 ### P102
-- PREV: "Three days," Selka said.
-- CURR: "Buyer is three days late?" I asked.
-- NEXT: She nodded.
-
-### P104
-- PREV: She nodded.
+- PREV: "Buyer is three days late?" I asked. She nodded.
 - CURR: "How much?" I asked.
 - NEXT: "No," Selka said.
 
-### P105
+### P103
 - PREV: "How much?" I asked.
 - CURR: "No," Selka said.
 - NEXT: "More than nine silver?" I asked.
 
-### P106
+### P104
 - PREV: "No," Selka said.
 - CURR: "More than nine silver?" I asked.
 - NEXT: Silence.
 
-### P109
+### P107
 - PREV: Yes.
 - CURR: "How much more?" I asked.
 - NEXT: "Greg," Rusk said again.
 
-### P110
+### P108
 - PREV: "How much more?" I asked.
 - CURR: "Greg," Rusk said again.
 - NEXT: Fine. Constraint. Nine silver, three copper. Collect. I looked at the shelves.
 
-### P112
+### P110
 - PREV: Fine. Constraint. Nine silver, three copper. Collect. I looked at the shelves.
 - CURR: "If you sold enough stock today, could you pay?"
 - NEXT: Selka's jaw tightened.
 
-### P114
+### P112
 - PREV: Selka's jaw tightened.
 - CURR: "At what price?"
 - NEXT: Ah. There. Not cannot sell. Will not sell.
 
-### P116
+### P114
 - PREV: Ah. There. Not cannot sell. Will not sell.
 - CURR: "Bad market?"
 - NEXT: "No."
 
-### P117
+### P115
 - PREV: "Bad market?"
 - CURR: "No."
 - NEXT: "Then why?"
 
-### P118
+### P116
 - PREV: "No."
 - CURR: "Then why?"
 - NEXT: "Because that cloth is already sold."
 
-### P119
+### P117
 - PREV: "Then why?"
 - CURR: "Because that cloth is already sold."
 - NEXT: "To the late buyer."
 
-### P120
+### P118
 - PREV: "Because that cloth is already sold."
 - CURR: "To the late buyer."
 - NEXT: "Some."
 
-### P121
+### P119
 - PREV: "To the late buyer."
 - CURR: "Some."
 - NEXT: "And the rest?" She looked at me as if deciding how much irritation I was worth.
 
-### P122
+### P120
 - PREV: "Some."
 - CURR: "And the rest?" She looked at me as if deciding how much irritation I was worth.
 - NEXT: "Orders."
 
-### P123
+### P121
 - PREV: "And the rest?" She looked at me as if deciding how much irritation I was worth.
 - CURR: "Orders."
 - NEXT: "Deposits?"
 
-### P124
+### P122
 - PREV: "Orders."
 - CURR: "Deposits?"
 - NEXT: "Yes."
 
-### P125
+### P123
 - PREV: "Deposits?"
 - CURR: "Yes."
 - NEXT: "So selling it twice would create a larger problem."
 
-### P126
+### P124
 - PREV: "Yes."
 - CURR: "So selling it twice would create a larger problem."
 - NEXT: "Congratulations."
 
-### P127
+### P125
 - PREV: "So selling it twice would create a larger problem."
 - CURR: "Congratulations."
 - NEXT: "Thank you." Rusk shifted beside me. He was getting impatient. I could feel it.
 
-### P128
+### P126
 - PREV: "Congratulations."
 - CURR: "Thank you." Rusk shifted beside me. He was getting impatient. I could feel it.
 - NEXT: Nine silver. Today. Selka had receivables. Inventory committed. Two looms, one idle. Why idle? I looked again.
 
-### P130
+### P128
 - PREV: Nine silver. Today. Selka had receivables. Inventory committed. Two looms, one idle. Why idle? I looked again.
 - CURR: "Where's your second weaver?"
 - NEXT: Her face closed. Not worker. Family?
 
-### P132
+### P130
 - PREV: Her face closed. Not worker. Family?
 - CURR: "Hand."
 - NEXT: She nodded toward the back. A young man sat on a stool near a washbasin. I had missed him because the shelves blocked most of his body. His right hand was wrapped. Burn? Cut? Crushed fingers? He saw me looking and raised the bandaged hand.
 
-### P134
+### P132
 - PREV: She nodded toward the back. A young man sat on a stool near a washbasin. I had missed him because the shelves blocked most of his body. His right hand was wrapped. Burn? Cut? Crushed fingers? He saw me looking and raised the bandaged hand.
 - CURR: "Shuttle split."
 - NEXT: Selka said, "My brother." There. Production loss. Late buyer. Cash trapped. One worker down. The business was not collapsing. It had been hit from three directions at once. My mind opened. Replace labor. Short-term subcontracting. Sell receivable. Discount invoice. Collateralize finished goods. Renegotiate supplier. Advance against buyer. Use Antonius as factoring,
 
-### P135
+### P133
 - PREV: "Shuttle split."
 - CURR: Selka said, "My brother." There. Production loss. Late buyer. Cash trapped. One worker down. The business was not collapsing. It had been hit from three directions at once. My mind opened. Replace labor. Short-term subcontracting. Sell receivable. Discount invoice. Collateralize finished goods. Renegotiate supplier. Advance against buyer. Use Antonius as factoring,
 - NEXT: No.
 
-### P138
+### P136
 - PREV: Too many. Nine silver. Today.
 - CURR: "What can you pay now?" I asked.
 - NEXT: Selka looked annoyed by the question.
 
-### P140
+### P138
 - PREV: Selka looked annoyed by the question.
 - CURR: "Three," Selka said.
 - NEXT: "Silver?" I asked.
 
-### P141
+### P139
 - PREV: "Three," Selka said.
 - CURR: "Silver?" I asked.
 - NEXT: "Yes," Selka said.
 
-### P142
+### P140
 - PREV: "Silver?" I asked.
 - CURR: "Yes," Selka said.
 - NEXT: "Nine," Rusk said.
 
-### P143
+### P141
 - PREV: "Yes," Selka said.
 - CURR: "Nine," Rusk said.
 - NEXT: "I heard you," I said.
 
-### P144
+### P142
 - PREV: "Nine," Rusk said.
 - CURR: "I heard you," I said.
 - NEXT: "Then collect nine," Rusk said.
 
-### P145
+### P143
 - PREV: "I heard you," I said.
 - CURR: "Then collect nine," Rusk said.
 - NEXT: "She doesn't have nine," I said.
 
-### P146
+### P144
 - PREV: "Then collect nine," Rusk said.
 - CURR: "She doesn't have nine," I said.
 - NEXT: "Not our problem," Rusk said.
 
-### P147
+### P145
 - PREV: "She doesn't have nine," I said.
 - CURR: "Not our problem," Rusk said.
 - NEXT: That phrase. Not our problem. I looked at him. He looked back. He was not being cruel. Not exactly. His job had edges. Collect the amount. My brain wanted to widen the edges until they contained the whole workshop. That was the trap. One problem. Nine silver. Today. What assets could bridge six? Finished cloth was committed. Tools?
 
-### P151
+### P149
 - PREV: Loom? Too destructive. Receivable? Maybe.
 - CURR: "Who is the buyer?"
 - NEXT: Selka hesitated.
 
-### P153
+### P151
 - PREV: Selka hesitated.
 - CURR: "Jast."
 - NEXT: "Who is Jast?" I asked.
 
-### P154
+### P152
 - PREV: "Jast."
 - CURR: "Who is Jast?" I asked.
 - NEXT: "Merchant," Selka said.
 
-### P155
+### P153
 - PREV: "Who is Jast?" I asked.
 - CURR: "Merchant," Selka said.
 - NEXT: "I know him," Rusk said.
 
-### P156
+### P154
 - PREV: "Merchant," Selka said.
 - CURR: "I know him," Rusk said.
 - NEXT: Good.
 
-### P158
+### P156
 - PREV: Good.
 - CURR: "Does he pay?" I asked. Rusk shrugged.
 - NEXT: "Eventually," Rusk said.
 
-### P159
+### P157
 - PREV: "Does he pay?" I asked. Rusk shrugged.
 - CURR: "Eventually," Rusk said.
 - NEXT: "How eventually?" I asked.
 
-### P160
+### P158
 - PREV: "Eventually," Rusk said.
 - CURR: "How eventually?" I asked.
 - NEXT: "Depends who asks," Rusk said.
 
-### P161
+### P159
 - PREV: "How eventually?" I asked.
 - CURR: "Depends who asks," Rusk said.
 - NEXT: Interesting.
 
-### P163
+### P161
 - PREV: Interesting.
 - CURR: "How much does he owe her?" I asked.
 - NEXT: "Fourteen," Selka said. There. Enough.
 
-### P164
+### P162
 - PREV: "How much does he owe her?" I asked.
 - CURR: "Fourteen," Selka said. There. Enough.
 - NEXT: "Due three days ago."
 
-### P165
+### P163
 - PREV: "Fourteen," Selka said. There. Enough.
 - CURR: "Due three days ago."
 - NEXT: "Yes."
 
-### P166
+### P164
 - PREV: "Due three days ago."
 - CURR: "Yes."
 - NEXT: "Written?" She pointed toward a ledger.
 
-### P167
+### P165
 - PREV: "Yes."
 - CURR: "Written?" She pointed toward a ledger.
 - NEXT: "Greg," Rusk warned. I held up a hand.
 
-### P168
+### P166
 - PREV: "Written?" She pointed toward a ledger.
 - CURR: "Greg," Rusk warned. I held up a hand.
 - NEXT: "One minute." He looked like he wanted to break the hand. I went to the ledger. Selka blocked me.
 
-### P169
+### P167
 - PREV: "Greg," Rusk warned. I held up a hand.
 - CURR: "One minute." He looked like he wanted to break the hand. I went to the ledger. Selka blocked me.
 - NEXT: Reasonable.
 
-### P171
+### P169
 - PREV: Reasonable.
 - CURR: "Show Rusk." She did. He read the entry.
 - NEXT: Fourteen silver. Delivery accepted. Payment due. Signed.
 
-### P175
+### P173
 - PREV: I looked at Rusk.
 - CURR: "Antonius buys debts?"
 - NEXT: "No."
 
-### P176
+### P174
 - PREV: "Antonius buys debts?"
 - CURR: "No."
 - NEXT: "He lends against them?"
 
-### P177
+### P175
 - PREV: "No."
 - CURR: "He lends against them?"
 - NEXT: "Sometimes."
 
-### P178
+### P176
 - PREV: "He lends against them?"
 - CURR: "Sometimes."
 - NEXT: "At what rate?"
 
-### P179
+### P177
 - PREV: "Sometimes."
 - CURR: "At what rate?"
 - NEXT: Rusk's eyes narrowed.
 
-### P181
+### P179
 - PREV: Rusk's eyes narrowed.
 - CURR: "No."
 - NEXT: "Useful answer."
 
-### P182
+### P180
 - PREV: "No."
 - CURR: "Useful answer."
 - NEXT: "You're not lending Antonius's money."
 
-### P183
+### P181
 - PREV: "Useful answer."
 - CURR: "You're not lending Antonius's money."
 - NEXT: "I haven't proposed anything."
 
-### P184
+### P182
 - PREV: "You're not lending Antonius's money."
 - CURR: "I haven't proposed anything."
 - NEXT: "You have the face."
 
-### P185
+### P183
 - PREV: "I haven't proposed anything."
 - CURR: "You have the face."
 - NEXT: Everyone knew my faces now. Unfortunate. Selka watched us.
 
-### P187
+### P185
 - PREV: Everyone knew my faces now. Unfortunate. Selka watched us.
 - CURR: "What are you proposing?"
 - NEXT: Good question. I did not know yet. That was fine. Think smaller. Antonius was owed nine. Selka was owed fourteen by someone Rusk knew. Could we collect from Jast instead? Assignment? Maybe not legally transferable without paperwork. But Rusk could accompany.
 
-### P191
+### P189
 - PREV: Today. We could take Selka's receivable as collateral against an extension. Antonius would still be owed. Risk shifts. Would Antonius accept? Probably if the debtor was stronger than Selka. Was Jast stronger? Rusk knew him.
 - CURR: "Would you rather be owed fourteen by Jast or six by her?" Rusk stared.
 - NEXT: "Neither. I'd rather have nine."
 
-### P192
+### P190
 - PREV: "Would you rather be owed fourteen by Jast or six by her?" Rusk stared.
 - CURR: "Neither. I'd rather have nine."
 - NEXT: "That wasn't the question."
 
-### P193
+### P191
 - PREV: "Neither. I'd rather have nine."
 - CURR: "That wasn't the question."
 - NEXT: "Antonius is owed nine."
 
-### P194
+### P192
 - PREV: "That wasn't the question."
 - CURR: "Antonius is owed nine."
 - NEXT: "Three now. Six secured by fourteen."
 
-### P195
+### P193
 - PREV: "Antonius is owed nine."
 - CURR: "Three now. Six secured by fourteen."
 - NEXT: "You're doing it."
 
-### P196
+### P194
 - PREV: "Three now. Six secured by fourteen."
 - CURR: "You're doing it."
 - NEXT: "Doing what?"
 
-### P197
+### P195
 - PREV: "You're doing it."
 - CURR: "Doing what?"
 - NEXT: "Making the problem bigger." I stopped. He was right. I looked at Selka. Three silver now.
 
-### P198
+### P196
 - PREV: "Doing what?"
 - CURR: "Making the problem bigger." I stopped. He was right. I looked at Selka. Three silver now.
 - NEXT: Six missing. What could produce six today without damaging her business? The answer might simply be nothing. I hated that. Constraints did not guarantee elegant solutions. Sometimes the wall was a wall. Selka said, quieter, "I can sell one order."
 
-### P199
+### P197
 - PREV: "Making the problem bigger." I stopped. He was right. I looked at Selka. Three silver now.
 - CURR: Six missing. What could produce six today without damaging her business? The answer might simply be nothing. I hated that. Constraints did not guarantee elegant solutions. Sometimes the wall was a wall. Selka said, quieter, "I can sell one order."
-- NEXT: "No," I said.
+- NEXT: "No," I said. She looked at me.
 
-### P200
+### P198
 - PREV: Six missing. What could produce six today without damaging her business? The answer might simply be nothing. I hated that. Constraints did not guarantee elegant solutions. Sometimes the wall was a wall. Selka said, quieter, "I can sell one order."
-- CURR: "No," I said.
-- NEXT: She looked at me.
+- CURR: "No," I said. She looked at me.
+- NEXT: "If you break a prepaid order, you convert one late payment into two angry customers."
 
-### P202
-- PREV: She looked at me.
+### P199
+- PREV: "No," I said. She looked at me.
 - CURR: "If you break a prepaid order, you convert one late payment into two angry customers."
 - NEXT: "Then what?" I looked at the idle loom. Could I weave?
 
-### P203
+### P200
 - PREV: "If you break a prepaid order, you convert one late payment into two angry customers."
 - CURR: "Then what?" I looked at the idle loom. Could I weave?
 - NEXT: No.
 
-### P207
+### P204
 - PREV: Rusk glanced at the idle loom.
 - CURR: "We are not becoming weavers."
 - NEXT: "I didn't ask."
 
-### P208
+### P205
 - PREV: "We are not becoming weavers."
 - CURR: "I didn't ask."
 - NEXT: "Good."
 
-### P209
+### P206
 - PREV: "I didn't ask."
 - CURR: "Good."
 - NEXT: Fair. Could the brother work one-handed? Probably poorly. Could someone else? Hire labor. Costs money. Could I find a weaver today? Maybe. Not six silver today. Stop solving her business. Money. I looked at the cloth on the active loom.
 
-### P211
+### P208
 - PREV: Fair. Could the brother work one-handed? Probably poorly. Could someone else? Hire labor. Costs money. Could I find a weaver today? Maybe. Not six silver today. Stop solving her business. Money. I looked at the cloth on the active loom.
 - CURR: "What's that worth unfinished?"
 - NEXT: Selka frowned.
 
-### P213
+### P210
 - PREV: Selka frowned.
 - CURR: "Why?"
 - NEXT: "Answer."
 
-### P214
+### P211
 - PREV: "Why?"
 - CURR: "Answer."
 - NEXT: "Maybe eight."
 
-### P215
+### P212
 - PREV: "Answer."
 - CURR: "Maybe eight."
 - NEXT: "Finished?"
 
-### P216
+### P213
 - PREV: "Maybe eight."
 - CURR: "Finished?"
 - NEXT: "Twelve. Fourteen if the dye holds."
 
-### P217
+### P214
 - PREV: "Finished?"
 - CURR: "Twelve. Fourteen if the dye holds."
 - NEXT: "How long to finish?"
 
-### P218
+### P215
 - PREV: "Twelve. Fourteen if the dye holds."
 - CURR: "How long to finish?"
 - NEXT: "Day and a half."
 
-### P219
+### P216
 - PREV: "How long to finish?"
 - CURR: "Day and a half."
 - NEXT: "With him?" She glanced at her brother.
 
-### P220
+### P217
 - PREV: "Day and a half."
 - CURR: "With him?" She glanced at her brother.
 - NEXT: "Two days."
 
-### P221
+### P218
 - PREV: "With him?" She glanced at her brother.
 - CURR: "Two days."
 - NEXT: There. Collateral that increased in value if left with the debtor. Interesting.
 
-### P223
+### P220
 - PREV: There. Collateral that increased in value if left with the debtor. Interesting.
 - CURR: "We take a lien on that piece," I said.
 - NEXT: "A what?" Rusk asked.
 
-### P224
+### P221
 - PREV: "We take a lien on that piece," I said.
 - CURR: "A what?" Rusk asked.
 - NEXT: "Security. Not possession," I said.
 
-### P225
+### P222
 - PREV: "A what?" Rusk asked.
 - CURR: "Security. Not possession," I said.
 - NEXT: "I know what a lien is," Rusk said.
 
-### P226
+### P223
 - PREV: "Security. Not possession," I said.
 - CURR: "I know what a lien is," Rusk said.
 - NEXT: "Excellent," I said.
 
-### P227
+### P224
 - PREV: "I know what a lien is," Rusk said.
 - CURR: "Excellent," I said.
 - NEXT: "Antonius said collect," Rusk said.
 
-### P228
+### P225
 - PREV: "Excellent," I said.
 - CURR: "Antonius said collect," Rusk said.
 - NEXT: "Three silver collected. Six secured against cloth worth at least eight unfinished and twelve finished. Due in three days, same day Jast should have paid or shortly after. If she defaults, Antonius takes the cloth."
 
-### P229
+### P226
 - PREV: "Antonius said collect," Rusk said.
 - CURR: "Three silver collected. Six secured against cloth worth at least eight unfinished and twelve finished. Due in three days, same day Jast should have paid or shortly after. If she defaults, Antonius takes the cloth."
 - NEXT: Selka's face changed. Anger.
 
-### P231
+### P228
 - PREV: Selka's face changed. Anger.
 - CURR: "You don't take it now," Selka said.
 - NEXT: "No," I said.
 
-### P232
+### P229
 - PREV: "You don't take it now," Selka said.
 - CURR: "No," I said.
-- NEXT: "Greg," Rusk said.
+- NEXT: "Greg," Rusk said. I ignored him.
 
-### P233
+### P230
 - PREV: "No," I said.
-- CURR: "Greg," Rusk said.
-- NEXT: I ignored him.
+- CURR: "Greg," Rusk said. I ignored him.
+- NEXT: "You finish it. You keep working. You get your buyer money. Antonius gets paid. If you don't pay, he takes this piece, not the committed stock."
 
-### P235
-- PREV: I ignored him.
+### P231
+- PREV: "Greg," Rusk said. I ignored him.
 - CURR: "You finish it. You keep working. You get your buyer money. Antonius gets paid. If you don't pay, he takes this piece, not the committed stock."
 - NEXT: Selka looked at the blue cloth. Her brother looked at her. Rusk looked at me. I could feel the mistake potential. I was negotiating terms without authority. Again. That part was becoming a habit.
 
-### P237
+### P233
 - PREV: Selka looked at the blue cloth. Her brother looked at her. Rusk looked at me. I could feel the mistake potential. I was negotiating terms without authority. Again. That part was becoming a habit.
 - CURR: "Three days," Selka said.
 - NEXT: "Two," Rusk said. She shook her head.
 
-### P238
+### P234
 - PREV: "Three days," Selka said.
 - CURR: "Two," Rusk said. She shook her head.
 - NEXT: "Jast said tomorrow."
 
-### P239
+### P235
 - PREV: "Two," Rusk said. She shook her head.
 - CURR: "Jast said tomorrow."
 - NEXT: "Which means maybe two," Rusk said.
 
-### P240
+### P236
 - PREV: "Jast said tomorrow."
 - CURR: "Which means maybe two," Rusk said.
 - NEXT: Good.
 
-### P243
+### P239
 - PREV: He was participating.
 - CURR: "Two days," I said. "Three silver now. Six plus whatever Antonius decides the extension costs."
 - NEXT: Selka's eyes narrowed.
 
-### P245
+### P241
 - PREV: Selka's eyes narrowed.
 - CURR: "How much?" I looked at Rusk. He smiled.
 - NEXT: Bastard.
 
-### P247
+### P243
 - PREV: Bastard.
 - CURR: "Not my money," he said.
 - NEXT: Correct. I nearly invented a rate. Stopped.
 
-### P249
+### P245
 - PREV: Correct. I nearly invented a rate. Stopped.
 - CURR: "Antonius decides."
 - NEXT: That felt unpleasantly mature. Selka considered. Then nodded. We wrote it. Rusk knew the language. I did not. Another useful distinction. I understood the structure. He understood the actual agreement. We took three silver. No cloth. No broken orders. No loom. Outside, I felt excellent. Rusk did not.
 
-### P251
+### P247
 - PREV: That felt unpleasantly mature. Selka considered. Then nodded. We wrote it. Rusk knew the language. I did not. Another useful distinction. I understood the structure. He understood the actual agreement. We took three silver. No cloth. No broken orders. No loom. Outside, I felt excellent. Rusk did not.
 - CURR: "You lent his money."
 - NEXT: "I secured his existing loan."
 
-### P252
+### P248
 - PREV: "You lent his money."
 - CURR: "I secured his existing loan."
 - NEXT: "You extended it."
 
-### P253
+### P249
 - PREV: "I secured his existing loan."
 - CURR: "You extended it."
 - NEXT: "By two days."
 
-### P254
+### P250
 - PREV: "You extended it."
 - CURR: "By two days."
 - NEXT: "Without asking."
 
-### P255
+### P251
 - PREV: "By two days."
 - CURR: "Without asking."
 - NEXT: "With collateral."
 
-### P256
+### P252
 - PREV: "Without asking."
 - CURR: "With collateral."
 - NEXT: "Without asking."
 
-### P257
+### P253
 - PREV: "With collateral."
 - CURR: "Without asking."
 - NEXT: "He'll like it." Rusk looked at me.
 
-### P258
+### P254
 - PREV: "Without asking."
 - CURR: "He'll like it." Rusk looked at me.
 - NEXT: "That's what worries me."
 
-### P259
+### P255
 - PREV: "He'll like it." Rusk looked at me.
 - CURR: "That's what worries me."
 - NEXT: We walked toward the third address. I looked back once. Merren. The name still bothered me. I would check later. Not now. That was growth. Possibly. The third debtor lived above a cooper's shop. His name was Dav Ors. He owed Antonius five silver. The door was locked. Rusk knocked. Nothing. Again. Nothing. Neighbor said Dav had left yesterday with a pack. Destination unknown.
 
-### P262
+### P258
 - PREV: No collateral. No person. No problem with edges. Just absence. I hated it immediately.
 - CURR: "Dock?" I asked. Rusk shrugged.
 - NEXT: "South gate?"
 
-### P263
+### P259
 - PREV: "Dock?" I asked. Rusk shrugged.
 - CURR: "South gate?"
 - NEXT: "Maybe."
 
-### P264
+### P260
 - PREV: "South gate?"
 - CURR: "Maybe."
 - NEXT: "Family?"
 
-### P265
+### P261
 - PREV: "Maybe."
 - CURR: "Family?"
 - NEXT: "No idea."
 
-### P266
+### P262
 - PREV: "Family?"
 - CURR: "No idea."
 - NEXT: "Trade?"
 
-### P267
+### P263
 - PREV: "No idea."
 - CURR: "Trade?"
 - NEXT: "Broker."
 
-### P268
+### P264
 - PREV: "Trade?"
 - CURR: "Broker."
 - NEXT: "Of what?"
 
-### P269
+### P265
 - PREV: "Broker."
 - CURR: "Of what?"
 - NEXT: "Whatever pays."
 
-### P270
+### P266
 - PREV: "Of what?"
 - CURR: "Whatever pays."
 - NEXT: Useless. My brain generated twelve paths. Check inns. Gate records. Carters. Guild. Dock. Other lenders. Mistress. Family. Gambling rooms. Pawnshops. None had priority. No constraints. I stood in the hallway. Rusk smiled.
 
-### P272
+### P268
 - PREV: Useless. My brain generated twelve paths. Check inns. Gate records. Carters. Guild. Dock. Other lenders. Mistress. Family. Gambling rooms. Pawnshops. None had priority. No constraints. I stood in the hallway. Rusk smiled.
 - CURR: "What?"
 - NEXT: "Nothing."
 
-### P273
+### P269
 - PREV: "What?"
 - CURR: "Nothing."
 - NEXT: "You look unhappy."
 
-### P274
+### P270
 - PREV: "Nothing."
 - CURR: "You look unhappy."
 - NEXT: "I am thinking."
 
-### P275
+### P271
 - PREV: "You look unhappy."
 - CURR: "I am thinking."
 - NEXT: "You're lost."
 
-### P276
+### P272
 - PREV: "I am thinking."
 - CURR: "You're lost."
 - NEXT: "I am not lost."
 
-### P277
+### P273
 - PREV: "You're lost."
 - CURR: "I am not lost."
 - NEXT: "Where is he?"
 
-### P278
+### P274
 - PREV: "I am not lost."
 - CURR: "Where is he?"
 - NEXT: "Not enough information yet." Rusk laughed. I hated Rusk.
 
-### P279
+### P275
 - PREV: "Where is he?"
 - CURR: "Not enough information yet." Rusk laughed. I hated Rusk.
 - NEXT: We searched the room after the landlord opened it. Legally? Probably. I did not ask. Nothing useful. A cup. Blanket. Two shirts. Old receipts. No hidden ledger. No dramatic clue. No conveniently dropped map. People were inconsiderate. I found a torn scrap with a merchant seal. My pulse rose. Then Rusk identified it as a fishmonger receipt. I put it down.
 
-### P281
+### P277
 - PREV: We searched the room after the landlord opened it. Legally? Probably. I did not ask. Nothing useful. A cup. Blanket. Two shirts. Old receipts. No hidden ledger. No dramatic clue. No conveniently dropped map. People were inconsiderate. I found a torn scrap with a merchant seal. My pulse rose. Then Rusk identified it as a fishmonger receipt. I put it down.
 - CURR: "Extremely valuable?" he asked.
 - NEXT: "Fuck you."
 
-### P282
+### P278
 - PREV: "Extremely valuable?" he asked.
 - CURR: "Fuck you."
 - NEXT: We left with nothing. That failure stayed with me all the way back. Not because five silver mattered more than the Merren account. Because I could not get purchase on it. No person to read. No system visible. No bounded problem. Only possibilities. I could feel myself wanting to spend the rest of the day finding Dav Ors simply because the uncertainty offended me. That would be stupid.
 
-### P287
+### P283
 - PREV: Antonius had asked for money. We had failed to collect five. Report it. Move on. I disliked this lesson and therefore suspected it might be useful. Antonius was at the warehouse when we returned. He looked at Rusk. Rusk put the coins on the desk.
 - CURR: "First: three silver, balance promised in two days." Antonius nodded.
 - NEXT: "Second?" Antonius asked.
 
-### P288
+### P284
 - PREV: "First: three silver, balance promised in two days." Antonius nodded.
 - CURR: "Second?" Antonius asked.
 - NEXT: "Three silver," Rusk said. Antonius looked at the list.
 
-### P289
+### P285
 - PREV: "Second?" Antonius asked.
 - CURR: "Three silver," Rusk said. Antonius looked at the list.
 - NEXT: "She owes nine."
 
-### P290
+### P286
 - PREV: "Three silver," Rusk said. Antonius looked at the list.
 - CURR: "She owes nine."
 - NEXT: "Yes," Rusk said.
 
-### P291
+### P287
 - PREV: "She owes nine."
 - CURR: "Yes," Rusk said.
 - NEXT: His eyes moved to me. I smiled. He closed his eyes.
 
-### P293
+### P289
 - PREV: His eyes moved to me. I smiled. He closed his eyes.
 - CURR: "Greg."
 - NEXT: "Before you react," I said.
 
-### P294
+### P290
 - PREV: "Greg."
 - CURR: "Before you react," I said.
 - NEXT: "No," Antonius said.
 
-### P295
+### P291
 - PREV: "Before you react," I said.
 - CURR: "No," Antonius said.
 - NEXT: "You don't know what happened."
 
-### P296
+### P292
 - PREV: "No," Antonius said.
 - CURR: "You don't know what happened."
 - NEXT: "I know your face." Rusk leaned against the wall.
 
-### P297
+### P293
 - PREV: "You don't know what happened."
 - CURR: "I know your face." Rusk leaned against the wall.
 - NEXT: Traitor. Antonius opened his eyes.
 
-### P299
+### P295
 - PREV: Traitor. Antonius opened his eyes.
 - CURR: "What did he do?" Antonius asked.
 - NEXT: "Lent your money," Rusk said.
 
-### P300
+### P296
 - PREV: "What did he do?" Antonius asked.
 - CURR: "Lent your money," Rusk said.
 - NEXT: "I did not lend anything," I said. Antonius looked at me.
 
-### P301
+### P297
 - PREV: "Lent your money," Rusk said.
 - CURR: "I did not lend anything," I said. Antonius looked at me.
 - NEXT: "What did you do?" Antonius asked.
 
-### P302
+### P298
 - PREV: "I did not lend anything," I said. Antonius looked at me.
 - CURR: "What did you do?" Antonius asked.
 - NEXT: "Collected three, secured the remaining six against an unfinished cloth order worth at least eight as-is and likely twelve to fourteen finished, extended two days, with extension terms to be set by you."
 
-### P303
+### P299
 - PREV: "What did you do?" Antonius asked.
 - CURR: "Collected three, secured the remaining six against an unfinished cloth order worth at least eight as-is and likely twelve to fourteen finished, extended two days, with extension terms to be set by you."
 - NEXT: Silence. Antonius looked at Rusk. Rusk nodded.
 
-### P305
+### P301
 - PREV: Silence. Antonius looked at Rusk. Rusk nodded.
 - CURR: "That's what he did." Antonius looked back at me.
 - NEXT: "You extended my loan."
 
-### P306
+### P302
 - PREV: "That's what he did." Antonius looked back at me.
 - CURR: "You extended my loan."
 - NEXT: "Technically the loan was already extended by her inability to pay."
 
-### P307
+### P303
 - PREV: "You extended my loan."
 - CURR: "Technically the loan was already extended by her inability to pay."
 - NEXT: "No."
 
-### P308
+### P304
 - PREV: "Technically the loan was already extended by her inability to pay."
 - CURR: "No."
 - NEXT: "Practically."
 
-### P309
+### P305
 - PREV: "No."
 - CURR: "Practically."
 - NEXT: "No."
 
-### P310
+### P306
 - PREV: "Practically."
 - CURR: "No."
 - NEXT: "Economically."
 
-### P311
+### P307
 - PREV: "No."
 - CURR: "Economically."
 - NEXT: "Greg."
 
-### P312
+### P308
 - PREV: "Economically."
 - CURR: "Greg."
 - NEXT: "Fine." He rubbed his face.
 
-### P313
+### P309
 - PREV: "Greg."
 - CURR: "Fine." He rubbed his face.
 - NEXT: "Why?"
 
-### P314
+### P310
 - PREV: "Fine." He rubbed his face.
 - CURR: "Why?"
 - NEXT: "Because taking the cloth she had available would force her to break prepaid orders. Taking the loom damages production. The unfinished piece isn't committed, appreciates with labor she supplies, and covers the balance. Her buyer owes her fourteen and is three days late."
 
-### P315
+### P311
 - PREV: "Why?"
 - CURR: "Because taking the cloth she had available would force her to break prepaid orders. Taking the loom damages production. The unfinished piece isn't committed, appreciates with labor she supplies, and covers the balance. Her buyer owes her fourteen and is three days late."
 - NEXT: "Who?"
 
-### P316
+### P312
 - PREV: "Because taking the cloth she had available would force her to break prepaid orders. Taking the loom damages production. The unfinished piece isn't committed, appreciates with labor she supplies, and covers the balance. Her buyer owes her fourteen and is three days late."
 - CURR: "Who?"
 - NEXT: "Jast."
 
-### P317
+### P313
 - PREV: "Who?"
 - CURR: "Jast."
 - NEXT: Antonius's hand stopped.
 
-### P319
+### P315
 - PREV: Antonius's hand stopped.
 - CURR: "You know Jast?" I asked.
 - NEXT: "Yes."
 
-### P320
+### P316
 - PREV: "You know Jast?" I asked.
 - CURR: "Yes."
 - NEXT: "Does he pay?"
 
-### P321
+### P317
 - PREV: "Yes."
 - CURR: "Does he pay?"
 - NEXT: "Eventually." Rusk made a small sound. I pointed at him.
 
-### P322
+### P318
 - PREV: "Does he pay?"
 - CURR: "Eventually." Rusk made a small sound. I pointed at him.
 - NEXT: "See?" Antonius ignored me.
 
-### P323
+### P319
 - PREV: "Eventually." Rusk made a small sound. I pointed at him.
 - CURR: "See?" Antonius ignored me.
 - NEXT: "How long?" Antonius asked.
 
-### P324
+### P320
 - PREV: "See?" Antonius ignored me.
 - CURR: "How long?" Antonius asked.
 - NEXT: "Two days," I said.
 
-### P325
+### P321
 - PREV: "How long?" Antonius asked.
 - CURR: "Two days," I said.
 - NEXT: "She offered three."
 
-### P326
+### P322
 - PREV: "Two days," I said.
 - CURR: "She offered three."
 - NEXT: "Rusk got two." Antonius looked at Rusk. Rusk shrugged.
 
-### P327
+### P323
 - PREV: "She offered three."
 - CURR: "Rusk got two." Antonius looked at Rusk. Rusk shrugged.
 - NEXT: "I was there," Rusk said.
 
-### P328
+### P324
 - PREV: "Rusk got two." Antonius looked at Rusk. Rusk shrugged.
 - CURR: "I was there," Rusk said.
 - NEXT: "That's reassuring," Antonius said.
 
-### P329
+### P325
 - PREV: "I was there," Rusk said.
 - CURR: "That's reassuring," Antonius said.
 - NEXT: "It should be," Rusk said. Antonius looked at the agreement.
 
-### P330
+### P326
 - PREV: "That's reassuring," Antonius said.
 - CURR: "It should be," Rusk said. Antonius looked at the agreement.
 - NEXT: Read it. Again. Then set it down.
 
-### P332
+### P328
 - PREV: Read it. Again. Then set it down.
 - CURR: "Interest?"
 - NEXT: "Yours to decide."
 
-### P333
+### P329
 - PREV: "Interest?"
 - CURR: "Yours to decide."
 - NEXT: His eyes came up. That surprised him.
 
-### P337
+### P333
 - PREV: I was learning. Slowly. Painfully.
 - CURR: "Why didn't you set it?"
 - NEXT: "Not my money." Rusk laughed. Antonius looked at him.
 
-### P338
+### P334
 - PREV: "Why didn't you set it?"
 - CURR: "Not my money." Rusk laughed. Antonius looked at him.
 - NEXT: "He said that?"
 
-### P339
+### P335
 - PREV: "Not my money." Rusk laughed. Antonius looked at him.
 - CURR: "He said that?"
 - NEXT: "Eventually."
 
-### P340
+### P336
 - PREV: "He said that?"
 - CURR: "Eventually."
 - NEXT: "Progress."
 
-### P341
+### P337
 - PREV: "Eventually."
 - CURR: "Progress."
 - NEXT: "I thought so." I disliked both of them. Antonius tapped the paper.
 
-### P342
+### P338
 - PREV: "Progress."
 - CURR: "I thought so." I disliked both of them. Antonius tapped the paper.
 - NEXT: "You still changed my terms without permission."
 
-### P343
+### P339
 - PREV: "I thought so." I disliked both of them. Antonius tapped the paper.
 - CURR: "You still changed my terms without permission."
 - NEXT: "Yes."
 
-### P344
+### P340
 - PREV: "You still changed my terms without permission."
 - CURR: "Yes."
 - NEXT: "Don't."
 
-### P345
+### P341
 - PREV: "Yes."
 - CURR: "Don't."
 - NEXT: "Even when, "
 
-### P346
+### P342
 - PREV: "Don't."
 - CURR: "Even when, "
 - NEXT: "Don't." I opened my mouth. He raised one finger.
 
-### P347
+### P343
 - PREV: "Even when, "
 - CURR: "Don't." I opened my mouth. He raised one finger.
 - NEXT: Constraint. Don't. I closed it. Antonius watched that happen. Interesting.
 
-### P349
+### P345
 - PREV: Constraint. Don't. I closed it. Antonius watched that happen. Interesting.
 - CURR: "Third?" he asked.
 - NEXT: "Gone," Rusk said.
 
-### P350
+### P346
 - PREV: "Third?" he asked.
 - CURR: "Gone," Rusk said.
 - NEXT: Antonius's expression changed.
 
-### P352
+### P348
 - PREV: Antonius's expression changed.
 - CURR: "Ors?"
 - NEXT: "Yesterday."
 
-### P353
+### P349
 - PREV: "Ors?"
 - CURR: "Yesterday."
 - NEXT: "Where?"
 
-### P354
+### P350
 - PREV: "Yesterday."
 - CURR: "Where?"
 - NEXT: "No idea." Antonius looked at me. I hated what came next.
 
-### P355
+### P351
 - PREV: "Where?"
 - CURR: "No idea." Antonius looked at me. I hated what came next.
-- NEXT: "No idea," I said.
+- NEXT: "No idea," I said. He smiled.
 
-### P356
+### P352
 - PREV: "No idea." Antonius looked at me. I hated what came next.
-- CURR: "No idea," I said.
-- NEXT: He smiled.
+- CURR: "No idea," I said. He smiled.
+- NEXT: "Good."
 
-### P358
-- PREV: He smiled.
+### P353
+- PREV: "No idea," I said. He smiled.
 - CURR: "Good."
 - NEXT: "Why does everyone enjoy that?"
 
-### P359
+### P354
 - PREV: "Good."
 - CURR: "Why does everyone enjoy that?"
 - NEXT: "Because it happens so rarely."
 
-### P360
+### P355
 - PREV: "Why does everyone enjoy that?"
 - CURR: "Because it happens so rarely."
 - NEXT: "I say I don't know things."
 
-### P361
+### P356
 - PREV: "Because it happens so rarely."
 - CURR: "I say I don't know things."
 - NEXT: "No. You say 'not enough information yet.'"
 
-### P362
+### P357
 - PREV: "I say I don't know things."
 - CURR: "No. You say 'not enough information yet.'"
 - NEXT: "That's more accurate."
 
-### P363
+### P358
 - PREV: "No. You say 'not enough information yet.'"
 - CURR: "That's more accurate."
 - NEXT: "It's longer."
 
-### P364
+### P359
 - PREV: "That's more accurate."
 - CURR: "It's longer."
 - NEXT: "Accuracy often is." Antonius leaned back.
 
-### P365
+### P360
 - PREV: "It's longer."
 - CURR: "Accuracy often is." Antonius leaned back.
 - NEXT: "What did you find?"
 
-### P366
+### P361
 - PREV: "Accuracy often is." Antonius leaned back.
 - CURR: "What did you find?"
 - NEXT: "Nothing useful."
 
-### P367
+### P362
 - PREV: "What did you find?"
 - CURR: "Nothing useful."
 - NEXT: "Where would you look?"
 
-### P368
+### P363
 - PREV: "Nothing useful."
 - CURR: "Where would you look?"
 - NEXT: There. Open field. I felt the branches. Dock. Gates. Carters. Other creditors. Guild. Associates. Merchants. Pawnshops. Gambling rooms. Maybe Antonius expected an answer. I could give him six. Instead I said, "Depends what finding him is worth." Antonius went still. Rusk looked at me. I continued.
 
-### P369
+### P364
 - PREV: "Where would you look?"
 - CURR: There. Open field. I felt the branches. Dock. Gates. Carters. Other creditors. Guild. Associates. Merchants. Pawnshops. Gambling rooms. Maybe Antonius expected an answer. I could give him six. Instead I said, "Depends what finding him is worth." Antonius went still. Rusk looked at me. I continued.
 - NEXT: "He owes five silver. I could spend two days finding him and cost you more than five silver in labor while ignoring other work. Unless there's a reason he matters beyond the debt, I'd flag him, tell your people to watch the obvious exits and places he uses, and stop."
 
-### P370
+### P365
 - PREV: There. Open field. I felt the branches. Dock. Gates. Carters. Other creditors. Guild. Associates. Merchants. Pawnshops. Gambling rooms. Maybe Antonius expected an answer. I could give him six. Instead I said, "Depends what finding him is worth." Antonius went still. Rusk looked at me. I continued.
 - CURR: "He owes five silver. I could spend two days finding him and cost you more than five silver in labor while ignoring other work. Unless there's a reason he matters beyond the debt, I'd flag him, tell your people to watch the obvious exits and places he uses, and stop."
 - NEXT: Antonius's face became unreadable. That was annoying.
 
-### P372
+### P367
 - PREV: Antonius's face became unreadable. That was annoying.
 - CURR: "What?" I asked.
 - NEXT: "Nothing."
 
-### P373
+### P368
 - PREV: "What?" I asked.
 - CURR: "Nothing."
 - NEXT: "That was the right answer."
 
-### P374
+### P369
 - PREV: "Nothing."
 - CURR: "That was the right answer."
 - NEXT: "Was it?"
 
-### P375
+### P370
 - PREV: "That was the right answer."
 - CURR: "Was it?"
 - NEXT: "Yes."
 
-### P376
+### P371
 - PREV: "Was it?"
 - CURR: "Yes."
 - NEXT: "Then why ask?"
 
-### P377
+### P372
 - PREV: "Yes."
 - CURR: "Then why ask?"
 - NEXT: "Because yesterday you would have spent two days finding him." I thought about it.
 
-### P378
+### P373
 - PREV: "Then why ask?"
 - CURR: "Because yesterday you would have spent two days finding him." I thought about it.
 - NEXT: "Probably."
 
-### P379
+### P374
 - PREV: "Because yesterday you would have spent two days finding him." I thought about it.
 - CURR: "Probably."
 - NEXT: "Why?"
 
-### P380
+### P375
 - PREV: "Probably."
 - CURR: "Why?"
 - NEXT: "Because he left."
 
-### P381
+### P376
 - PREV: "Why?"
 - CURR: "Because he left."
 - NEXT: "That's not a reason."
 
-### P382
+### P377
 - PREV: "Because he left."
 - CURR: "That's not a reason."
 - NEXT: "It feels like one." Antonius smiled.
 
-### P383
+### P378
 - PREV: "That's not a reason."
 - CURR: "It feels like one." Antonius smiled.
 - NEXT: "That's your problem."
 
-### P384
+### P379
 - PREV: "It feels like one." Antonius smiled.
 - CURR: "That's your problem."
 - NEXT: "One of them." He looked down at the Merren agreement again. Then at the three silver.
 
-### P385
+### P380
 - PREV: "That's your problem."
 - CURR: "One of them." He looked down at the Merren agreement again. Then at the three silver.
 - NEXT: "You collected less than I sent you for."
 
-### P386
+### P381
 - PREV: "One of them." He looked down at the Merren agreement again. Then at the three silver.
 - CURR: "You collected less than I sent you for."
 - NEXT: "Yes."
 
-### P387
+### P382
 - PREV: "You collected less than I sent you for."
 - CURR: "Yes."
 - NEXT: "You changed terms."
 
-### P388
+### P383
 - PREV: "Yes."
 - CURR: "You changed terms."
 - NEXT: "Yes."
 
-### P389
+### P384
 - PREV: "You changed terms."
 - CURR: "Yes."
 - NEXT: "You failed to find Ors."
 
-### P390
+### P385
 - PREV: "Yes."
 - CURR: "You failed to find Ors."
 - NEXT: "Yes."
 
-### P391
+### P386
 - PREV: "You failed to find Ors."
 - CURR: "Yes."
 - NEXT: "So." He waited. I knew what he wanted.
 
-### P392
+### P387
 - PREV: "Yes."
 - CURR: "So." He waited. I knew what he wanted.
 - NEXT: "You want me to say I failed."
 
-### P393
+### P388
 - PREV: "So." He waited. I knew what he wanted.
 - CURR: "You want me to say I failed."
 - NEXT: "I want to know what you think." I looked at the coins. First debtor: partial payment, likely fine. Merren: partial plus secured extension.
 
-### P394
+### P389
 - PREV: "You want me to say I failed."
 - CURR: "I want to know what you think." I looked at the coins. First debtor: partial payment, likely fine. Merren: partial plus secured extension.
 - NEXT: Ors: gone. Numerically? Bad day. Structurally? Maybe good.
 
-### P396
+### P391
 - PREV: Ors: gone. Numerically? Bad day. Structurally? Maybe good.
 - CURR: "I think we preserved a debtor who is worth more operating than liquidated, collected what was available without damaging her ability to pay the rest, and didn't waste a day chasing five silver because my pride dislikes unanswered questions." Rusk looked at me. Antonius looked at me. I added, "So obviously I was magnificent." Antonius laughed.
 - NEXT: Good.
 
-### P398
+### P393
 - PREV: Good.
 - CURR: Tension released. Mostly. Then he said, "Merren." I looked at him.
 - NEXT: "What about her?"
 
-### P399
+### P394
 - PREV: Tension released. Mostly. Then he said, "Merren." I looked at him.
 - CURR: "What about her?"
 - NEXT: "You reacted to the name." Rusk had told him.
 
-### P400
+### P395
 - PREV: "What about her?"
 - CURR: "You reacted to the name." Rusk had told him.
 - NEXT: Traitor.
 
-### P402
+### P397
 - PREV: Traitor.
 - CURR: "I've heard it."
 - NEXT: "Where?"
 
-### P403
+### P398
 - PREV: "I've heard it."
 - CURR: "Where?"
 - NEXT: "Can't remember."
 
-### P404
+### P399
 - PREV: "Where?"
 - CURR: "Can't remember."
 - NEXT: "Useful."
 
-### P405
+### P400
 - PREV: "Can't remember."
 - CURR: "Useful."
 - NEXT: "It will come back."
 
-### P406
+### P401
 - PREV: "Useful."
 - CURR: "It will come back."
 - NEXT: "Maybe."
 
-### P407
+### P402
 - PREV: "It will come back."
 - CURR: "Maybe."
 - NEXT: That word from Antonius was becoming irritating. Maybe. He had learned exactly where to put it. I leaned against the desk.
 
-### P409
+### P404
 - PREV: That word from Antonius was becoming irritating. Maybe. He had learned exactly where to put it. I leaned against the desk.
 - CURR: "What do you know about her?"
 - NEXT: "Good weaver. Bad at collecting what she's owed. Better at cloth than business."
 
-### P410
+### P405
 - PREV: "What do you know about her?"
 - CURR: "Good weaver. Bad at collecting what she's owed. Better at cloth than business."
 - NEXT: "Family?"
 
-### P411
+### P406
 - PREV: "Good weaver. Bad at collecting what she's owed. Better at cloth than business."
 - CURR: "Family?"
 - NEXT: "Brother. Mother outside the city."
 
-### P412
+### P407
 - PREV: "Family?"
 - CURR: "Brother. Mother outside the city."
 - NEXT: "How long here?"
 
-### P413
+### P408
 - PREV: "Brother. Mother outside the city."
 - CURR: "How long here?"
 - NEXT: "Seven years."
 
-### P414
+### P409
 - PREV: "How long here?"
 - CURR: "Seven years."
 - NEXT: "Any children?" Antonius stared.
 
-### P415
+### P410
 - PREV: "Seven years."
 - CURR: "Any children?" Antonius stared.
 - NEXT: "What?"
 
-### P416
+### P411
 - PREV: "Any children?" Antonius stared.
 - CURR: "What?"
 - NEXT: "Could matter."
 
-### P417
+### P412
 - PREV: "What?"
 - CURR: "Could matter."
 - NEXT: "To what?" I did not know.
 
-### P418
+### P413
 - PREV: "Could matter."
 - CURR: "To what?" I did not know.
 - NEXT: Future Merren. Maybe the famous name belonged to a child. Maybe apprentice. Maybe company purchaser. Maybe Selka herself.
 
-### P420
+### P415
 - PREV: Future Merren. Maybe the famous name belonged to a child. Maybe apprentice. Maybe company purchaser. Maybe Selka herself.
 - CURR: "I don't know." Antonius smiled again. I regretted everything.
 - NEXT: "How much do you remember about people?" he asked.
 
-### P421
+### P416
 - PREV: "I don't know." Antonius smiled again. I regretted everything.
 - CURR: "How much do you remember about people?" he asked.
 - NEXT: My body went still before my face did. Danger. Not because he knew. Because the question was too close to a different question.
 
-### P423
+### P418
 - PREV: My body went still before my face did. Danger. Not because he knew. Because the question was too close to a different question.
 - CURR: "What does that mean?"
 - NEXT: "You hear names and act like somebody rang a bell in another room."
 
-### P424
+### P419
 - PREV: "What does that mean?"
 - CURR: "You hear names and act like somebody rang a bell in another room."
 - NEXT: That was an excellent description. I disliked him for it.
 
-### P426
+### P421
 - PREV: That was an excellent description. I disliked him for it.
 - CURR: "Good memory."
 - NEXT: "No."
 
-### P427
+### P422
 - PREV: "Good memory."
 - CURR: "No."
 - NEXT: "No?"
 
-### P428
+### P423
 - PREV: "No."
 - CURR: "No?"
 - NEXT: "You have a terrible memory."
 
-### P429
+### P424
 - PREV: "No?"
 - CURR: "You have a terrible memory."
 - NEXT: "Selective."
 
-### P430
+### P425
 - PREV: "You have a terrible memory."
 - CURR: "Selective."
 - NEXT: "You forgot Toma's name twice."
 
-### P431
+### P426
 - PREV: "Selective."
 - CURR: "You forgot Toma's name twice."
 - NEXT: "I did not."
 
-### P432
+### P427
 - PREV: "You forgot Toma's name twice."
 - CURR: "I did not."
 - NEXT: "You called him Tomas yesterday."
 
-### P433
+### P428
 - PREV: "I did not."
 - CURR: "You called him Tomas yesterday."
 - NEXT: Fuck.
 
-### P435
+### P430
 - PREV: Fuck.
 - CURR: "Close."
 - NEXT: "You remember things that haven't happened to you and forget things that happened yesterday."
 
-### P436
+### P431
 - PREV: "Close."
 - CURR: "You remember things that haven't happened to you and forget things that happened yesterday."
 - NEXT: Silence. Rusk looked between us. Antonius smiled slightly. Not accusation. Curiosity. I could feel the opening. Lie. I stepped into it.
 
-### P438
+### P433
 - PREV: Silence. Rusk looked between us. Antonius smiled slightly. Not accusation. Curiosity. I could feel the opening. Lie. I stepped into it.
 - CURR: "I remember things that matter."
 - NEXT: Antonius's smile faded.
 
-### P440
+### P435
 - PREV: Antonius's smile faded.
 - CURR: "How do you know what matters?"
 - NEXT: That was the question. Not how do you know the future. How do you know what matters? Because I had lived long enough to watch importance reveal itself. Because late-life Greg had met thousands of people. Tens of thousands? Names. Faces. Kings. Guildmasters. Warriors. Mages. Merchants. Priests. Criminals. Lovers. Enemies. People who saved my life. People whose lives I ruined. Most were gone from my memory except in pieces. And yet Antonius Vale remained.
 
-### P445
+### P440
 - PREV: If I remembered Antonius after forty years of wars and dungeons and lovers and funerals and mistakes, Antonius had been good. Powerful. Dangerous. Useful. Something. And if I remembered the name while forgetting half of what the man actually did, perhaps he had mattered even more than the fragments suggested. Present Antonius was watching me. I had been silent too long.
-- CURR: "Pattern recognition," I said.
-- NEXT: He waited.
+- CURR: "Pattern recognition," I said. He waited.
+- NEXT: "That's bullshit."
 
-### P447
-- PREV: He waited.
+### P441
+- PREV: "Pattern recognition," I said. He waited.
 - CURR: "That's bullshit."
 - NEXT: "Mostly." Rusk laughed. Antonius did not. He looked at me for another moment, then let it go. That was almost worse.
 
-### P448
+### P442
 - PREV: "That's bullshit."
 - CURR: "Mostly." Rusk laughed. Antonius did not. He looked at me for another moment, then let it go. That was almost worse.
 - NEXT: "Tomorrow," he said, "you're with me." I blinked.
 
-### P449
+### P443
 - PREV: "Mostly." Rusk laughed. Antonius did not. He looked at me for another moment, then let it go. That was almost worse.
 - CURR: "Tomorrow," he said, "you're with me." I blinked.
 - NEXT: "Doing what?"
 
-### P450
+### P444
 - PREV: "Tomorrow," he said, "you're with me." I blinked.
 - CURR: "Doing what?"
 - NEXT: "Work."
 
-### P451
+### P445
 - PREV: "Doing what?"
 - CURR: "Work."
 - NEXT: "What kind?"
 
-### P452
+### P446
 - PREV: "Work."
 - CURR: "What kind?"
 - NEXT: "Mine."
 
-### P453
+### P447
 - PREV: "What kind?"
 - CURR: "Mine."
 - NEXT: "That is deliberately vague."
 
-### P454
+### P448
 - PREV: "Mine."
 - CURR: "That is deliberately vague."
 - NEXT: "Yes."
 
-### P455
+### P449
 - PREV: "That is deliberately vague."
 - CURR: "Yes."
 - NEXT: "Collections?"
 
-### P456
+### P450
 - PREV: "Yes."
 - CURR: "Collections?"
 - NEXT: "No."
 
-### P457
+### P451
 - PREV: "Collections?"
 - CURR: "No."
 - NEXT: "Loans?"
 
-### P458
+### P452
 - PREV: "No."
 - CURR: "Loans?"
 - NEXT: "Maybe."
 
-### P459
+### P453
 - PREV: "Loans?"
 - CURR: "Maybe."
 - NEXT: "Warehouse?"
 
-### P460
+### P454
 - PREV: "Maybe."
 - CURR: "Warehouse?"
 - NEXT: "Maybe."
 
-### P461
+### P455
 - PREV: "Warehouse?"
 - CURR: "Maybe."
 - NEXT: "Meeting someone?"
 
-### P462
+### P456
 - PREV: "Maybe."
 - CURR: "Meeting someone?"
 - NEXT: "Greg."
 
-### P463
+### P457
 - PREV: "Meeting someone?"
 - CURR: "Greg."
 - NEXT: "What?"
 
-### P464
+### P458
 - PREV: "Greg."
 - CURR: "What?"
 - NEXT: "Tomorrow." I hated surprises.
 
-### P465
+### P459
 - PREV: "What?"
 - CURR: "Tomorrow." I hated surprises.
 - NEXT: Actually, no. I hated other people's surprises. My own were excellent.
 
-### P467
+### P461
 - PREV: Actually, no. I hated other people's surprises. My own were excellent.
 - CURR: "Fine." Antonius looked at Rusk.
 - NEXT: "Take the cloth agreement to Sella." I straightened.
 
-### P468
+### P462
 - PREV: "Fine." Antonius looked at Rusk.
 - CURR: "Take the cloth agreement to Sella." I straightened.
 - NEXT: "Sella?"
 
-### P469
+### P463
 - PREV: "Take the cloth agreement to Sella." I straightened.
 - CURR: "Sella?"
 - NEXT: "Guild clerk."
 
-### P470
+### P464
 - PREV: "Sella?"
 - CURR: "Guild clerk."
 - NEXT: "I know who she is."
 
-### P471
+### P465
 - PREV: "Guild clerk."
 - CURR: "I know who she is."
 - NEXT: His eyes moved back to me.
 
-### P475
+### P469
 - PREV: Too fast.
 - CURR: "Why Sella?"
 - NEXT: "Witness."
 
-### P476
+### P470
 - PREV: "Why Sella?"
 - CURR: "Witness."
 - NEXT: "She handles private debt?"
 
-### P477
+### P471
 - PREV: "Witness."
 - CURR: "She handles private debt?"
 - NEXT: "Sometimes."
 
-### P478
+### P472
 - PREV: "She handles private debt?"
 - CURR: "Sometimes."
 - NEXT: Future Sella again. Institutional importance. Rules. Records. Systems. I wanted to go. Antonius saw that.
 
-### P480
+### P474
 - PREV: Future Sella again. Institutional importance. Rules. Records. Systems. I wanted to go. Antonius saw that.
 - CURR: "No."
 - NEXT: "I didn't ask."
 
-### P481
+### P475
 - PREV: "No."
 - CURR: "I didn't ask."
 - NEXT: "You were going to."
 
-### P482
+### P476
 - PREV: "I didn't ask."
 - CURR: "You were going to."
 - NEXT: "I could learn, "
 
-### P483
+### P477
 - PREV: "You were going to."
 - CURR: "I could learn, "
 - NEXT: "No."
 
-### P484
+### P478
 - PREV: "I could learn, "
 - CURR: "No."
 - NEXT: "You're wasting, " He pointed toward the door. I left. Rusk followed.
 
-### P485
+### P479
 - PREV: "No."
 - CURR: "You're wasting, " He pointed toward the door. I left. Rusk followed.
 - NEXT: Outside, I looked back through the warehouse window. Antonius was already reading something else. Work. Always work. I thought about Merren. Then Sella. Then Orlan Tere. Then Antonius.
 
-### P488
+### P482
 - PREV: Names surviving where details did not. Maybe memory was not merely unreliable. Maybe it was weighted. Not by what had been objectively important. By what had mattered to me. That was worse. Because then forgetting someone meant nothing simple. And remembering Antonius meant something I did not yet understand. I walked three streets before realizing Rusk was still beside me.
 - CURR: "Why are you following me?"
 - NEXT: "I'm going this way."
 
-### P489
+### P483
 - PREV: "Why are you following me?"
 - CURR: "I'm going this way."
 - NEXT: "Oh." He looked at me.
 
-### P490
+### P484
 - PREV: "I'm going this way."
 - CURR: "Oh." He looked at me.
 - NEXT: "You really do disappear."
 
-### P491
+### P485
 - PREV: "Oh." He looked at me.
 - CURR: "You really do disappear."
 - NEXT: "What?"
 
-### P492
+### P486
 - PREV: "You really do disappear."
 - CURR: "What?"
 - NEXT: "In your head."
 
-### P493
+### P487
 - PREV: "What?"
 - CURR: "In your head."
 - NEXT: "I was thinking."
 
-### P494
+### P488
 - PREV: "In your head."
 - CURR: "I was thinking."
 - NEXT: "You stopped avoiding carts." I looked behind us. A carter had apparently sworn at me. I had not heard him.
 
-### P495
+### P489
 - PREV: "I was thinking."
 - CURR: "You stopped avoiding carts." I looked behind us. A carter had apparently sworn at me. I had not heard him.
 - NEXT: "Reasonable." Rusk shook his head. At the next corner he turned away.
 
-### P496
+### P490
 - PREV: "You stopped avoiding carts." I looked behind us. A carter had apparently sworn at me. I had not heard him.
 - CURR: "Reasonable." Rusk shook his head. At the next corner he turned away.
 - NEXT: "Merren pays in two days," I called. He raised a hand.
 
-### P497
+### P491
 - PREV: "Reasonable." Rusk shook his head. At the next corner he turned away.
 - CURR: "Merren pays in two days," I called. He raised a hand.
 - NEXT: "If she doesn't?"
 
-### P498
+### P492
 - PREV: "Merren pays in two days," I called. He raised a hand.
 - CURR: "If she doesn't?"
 - NEXT: "She will." He stopped.
 
-### P499
+### P493
 - PREV: "If she doesn't?"
 - CURR: "She will." He stopped.
 - NEXT: Looked back. I corrected myself.
 
-### P501
+### P495
 - PREV: Looked back. I corrected myself.
 - CURR: "Probably." Rusk smiled.
 - NEXT: Progress. I went to Hessa. Late. Again. She looked at me.
 
-### P503
+### P497
 - PREV: Progress. I went to Hessa. Late. Again. She looked at me.
 - CURR: "No."
 - NEXT: "What?"
 
-### P504
+### P498
 - PREV: "No."
 - CURR: "What?"
 - NEXT: "You have the face."
 
-### P505
+### P499
 - PREV: "What?"
 - CURR: "You have the face."
 - NEXT: Everyone. Everyone knew the fucking face.
 
-### P507
+### P501
 - PREV: Everyone. Everyone knew the fucking face.
 - CURR: "What face?"
 - NEXT: "The one where your body is here and you are somewhere else."
 
-### P508
+### P502
 - PREV: "What face?"
 - CURR: "The one where your body is here and you are somewhere else."
 - NEXT: That stopped me. Rusk had just said almost the same thing. I looked down at my hands. Dust in the creases from the warehouse. Ink on one finger from Selka's agreement. A shallow sword blister reopening near my thumb. Three different lives on one hand.
 
-### P510
+### P504
 - PREV: That stopped me. Rusk had just said almost the same thing. I looked down at my hands. Dust in the creases from the warehouse. Ink on one finger from Selka's agreement. A shallow sword blister reopening near my thumb. Three different lives on one hand.
 - CURR: "Greg." I looked up. Hessa pointed to the mat.
 - NEXT: "Here."
 
-### P511
+### P505
 - PREV: "Greg." I looked up. Hessa pointed to the mat.
 - CURR: "Here."
 - NEXT: One word. Constraint. I stepped onto the mat. Breathed. For the next hour, I was only the student. That was easier. Afterward I went home instead of gambling. That was harder. I sat on the bed. The room was still cheap. My sword leaned against the wall. My notes covered the table.
 
-### P534
+### P528
 - PREV: I stared.
 - CURR: "Fuck."
 - NEXT: Crossed out the extra R again. Then went to bed.
@@ -10295,895 +10290,895 @@ Total dialogue paragraphs surfaced: 5960
 
 ### P417
 - PREV: That made him stop. People moved around us. A cart rattled past. Somebody shouted about onions. Antonius looked at me. Not amused now. I continued.
-- CURR: "If the risk is legible, you price it. If the failure is temporary, you bridge it. If the business is good but the timing is bad, you lend. If the business is bad, you don't. If the person lies, the price rises because the unknown part gets bigger." Antonius said nothing.
-- NEXT: I felt the urge to make it larger.
+- CURR: "If the risk is legible, you price it. If the failure is temporary, you bridge it. If the business is good but the timing is bad, you lend. If the business is bad, you don't. If the person lies, the price rises because the unknown part gets bigger." Antonius said nothing. I felt the urge to make it larger.
+- NEXT: Network. Information advantage. Cross-industry exposure. Future political leverage. Claims becoming influence. Don't. One problem. One person.
 
-### P420
+### P419
 - PREV: Network. Information advantage. Cross-industry exposure. Future political leverage. Claims becoming influence. Don't. One problem. One person.
 - CURR: "What?" I asked.
 - NEXT: "Nothing."
 
-### P421
+### P420
 - PREV: "What?" I asked.
 - CURR: "Nothing."
 - NEXT: "That's my line."
 
-### P422
+### P421
 - PREV: "Nothing."
 - CURR: "That's my line."
 - NEXT: "It's a useful line."
 
-### P423
+### P422
 - PREV: "That's my line."
 - CURR: "It's a useful line."
 - NEXT: "You know I'm right."
 
-### P424
+### P423
 - PREV: "It's a useful line."
 - CURR: "You know I'm right."
 - NEXT: "I know you're nineteen."
 
-### P425
+### P424
 - PREV: "You know I'm right."
 - CURR: "I know you're nineteen."
 - NEXT: "Unrelated."
 
-### P426
+### P425
 - PREV: "I know you're nineteen."
 - CURR: "Unrelated."
 - NEXT: "Very related."
 
-### P427
+### P426
 - PREV: "Unrelated."
 - CURR: "Very related."
 - NEXT: We resumed walking. After a while he said, "My father thought borrowers were people who failed." I waited.
 
-### P428
+### P427
 - PREV: "Very related."
 - CURR: We resumed walking. After a while he said, "My father thought borrowers were people who failed." I waited.
 - NEXT: "He liked them ashamed."
 
-### P429
+### P428
 - PREV: We resumed walking. After a while he said, "My father thought borrowers were people who failed." I waited.
 - CURR: "He liked them ashamed."
 - NEXT: That was more than Antonius usually gave me. I did not interrupt.
 
-### P431
+### P430
 - PREV: That was more than Antonius usually gave me. I did not interrupt.
 - CURR: "He'd sit behind a desk. Make them explain. Make them ask twice. If they couldn't pay, he'd take something."
 - NEXT: "Even if taking it made repayment harder."
 
-### P432
+### P431
 - PREV: "He'd sit behind a desk. Make them explain. Make them ask twice. If they couldn't pay, he'd take something."
 - CURR: "Even if taking it made repayment harder."
 - NEXT: "Especially then."
 
-### P433
+### P432
 - PREV: "Even if taking it made repayment harder."
 - CURR: "Especially then."
 - NEXT: "Why?" Antonius shrugged.
 
-### P434
+### P433
 - PREV: "Especially then."
 - CURR: "Why?" Antonius shrugged.
 - NEXT: "Power." I thought about late-life Greg.
 
-### P435
+### P434
 - PREV: "Why?" Antonius shrugged.
 - CURR: "Power." I thought about late-life Greg.
 - NEXT: Uncomfortable. Not now. Antonius.
 
-### P437
+### P436
 - PREV: Uncomfortable. Not now. Antonius.
 - CURR: "So you did the opposite."
 - NEXT: "No."
 
-### P438
+### P437
 - PREV: "So you did the opposite."
 - CURR: "No."
 - NEXT: "No?"
 
-### P439
+### P438
 - PREV: "No."
 - CURR: "No?"
 - NEXT: "I learned why he made money."
 
-### P440
+### P439
 - PREV: "No?"
 - CURR: "I learned why he made money."
 - NEXT: "And?"
 
-### P441
+### P440
 - PREV: "I learned why he made money."
 - CURR: "And?"
 - NEXT: "People need money." I laughed. He smiled.
 
-### P442
+### P441
 - PREV: "And?"
 - CURR: "People need money." I laughed. He smiled.
 - NEXT: "That's it?"
 
-### P443
+### P442
 - PREV: "People need money." I laughed. He smiled.
 - CURR: "That's it?"
 - NEXT: "Mostly."
 
-### P444
+### P443
 - PREV: "That's it?"
 - CURR: "Mostly."
 - NEXT: "You built an entire philosophy around supply and demand."
 
-### P445
+### P444
 - PREV: "Mostly."
 - CURR: "You built an entire philosophy around supply and demand."
 - NEXT: "I lend money, Greg."
 
-### P446
+### P445
 - PREV: "You built an entire philosophy around supply and demand."
 - CURR: "I lend money, Greg."
 - NEXT: There was something refreshing about how often Antonius refused the grand version of himself. Maybe because he had not become grand yet. Maybe because nobody becomes grand while doing the thing. They just do Tuesday. Then enough Tuesdays happen and someone writes a history.
 
-### P448
+### P447
 - PREV: There was something refreshing about how often Antonius refused the grand version of himself. Maybe because he had not become grand yet. Maybe because nobody becomes grand while doing the thing. They just do Tuesday. Then enough Tuesdays happen and someone writes a history.
 - CURR: "What do you want?" I asked. Antonius looked at me.
 - NEXT: "Today?"
 
-### P449
+### P448
 - PREV: "What do you want?" I asked. Antonius looked at me.
 - CURR: "Today?"
 - NEXT: "No. Eventually."
 
-### P450
+### P449
 - PREV: "Today?"
 - CURR: "No. Eventually."
 - NEXT: "Money."
 
-### P451
+### P450
 - PREV: "No. Eventually."
 - CURR: "Money."
 - NEXT: "How much?"
 
-### P452
+### P451
 - PREV: "Money."
 - CURR: "How much?"
 - NEXT: "More."
 
-### P453
+### P452
 - PREV: "How much?"
 - CURR: "More."
 - NEXT: "That's not an amount."
 
-### P454
+### P453
 - PREV: "More."
 - CURR: "That's not an amount."
 - NEXT: "It's enough of one."
 
-### P455
+### P454
 - PREV: "That's not an amount."
 - CURR: "It's enough of one."
 - NEXT: "Why?"
 
-### P456
+### P455
 - PREV: "It's enough of one."
 - CURR: "Why?"
 - NEXT: "So I can lend more." I frowned.
 
-### P457
+### P456
 - PREV: "Why?"
 - CURR: "So I can lend more." I frowned.
 - NEXT: "That's circular."
 
-### P458
+### P457
 - PREV: "So I can lend more." I frowned.
 - CURR: "That's circular."
 - NEXT: "Most businesses are."
 
-### P459
+### P458
 - PREV: "That's circular."
 - CURR: "Most businesses are."
 - NEXT: "No estate?"
 
-### P460
+### P459
 - PREV: "Most businesses are."
 - CURR: "No estate?"
 - NEXT: "Maybe."
 
-### P461
+### P460
 - PREV: "No estate?"
 - CURR: "Maybe."
 - NEXT: "Title?"
 
-### P462
+### P461
 - PREV: "Maybe."
 - CURR: "Title?"
 - NEXT: "No."
 
-### P463
+### P462
 - PREV: "Title?"
 - CURR: "No."
 - NEXT: "Political office?" He looked genuinely disgusted.
 
-### P464
+### P463
 - PREV: "No."
 - CURR: "Political office?" He looked genuinely disgusted.
 - NEXT: Good.
 
-### P466
+### P465
 - PREV: Good.
 - CURR: "Guild seat?"
 - NEXT: "No."
 
-### P467
+### P466
 - PREV: "Guild seat?"
 - CURR: "No."
 - NEXT: "Ships?"
 
-### P468
+### P467
 - PREV: "No."
 - CURR: "Ships?"
 - NEXT: "No."
 
-### P469
+### P468
 - PREV: "Ships?"
 - CURR: "No."
 - NEXT: "Factories?"
 
-### P470
+### P469
 - PREV: "No."
 - CURR: "Factories?"
 - NEXT: "No."
 
-### P471
+### P470
 - PREV: "Factories?"
 - CURR: "No."
 - NEXT: "Then what?" Antonius sighed.
 
-### P472
+### P471
 - PREV: "No."
 - CURR: "Then what?" Antonius sighed.
 - NEXT: "You need everyone to secretly want a kingdom."
 
-### P473
+### P472
 - PREV: "Then what?" Antonius sighed.
 - CURR: "You need everyone to secretly want a kingdom."
 - NEXT: "No. I need you to want something."
 
-### P474
+### P473
 - PREV: "You need everyone to secretly want a kingdom."
 - CURR: "No. I need you to want something."
 - NEXT: "I want options."
 
-### P475
+### P474
 - PREV: "No. I need you to want something."
 - CURR: "I want options."
 - NEXT: That shut me up. Options. There it was. Not my version. His. Capital meant he could say yes. Warehouse meant he could take collateral others couldn't. Relationships meant he could evaluate people banks could not. Information meant he could price uncertainty. Every successful loan created more capital, more information, more people, more possible yeses. He did not want the industries. He wanted the ability to move between them.
 
-### P478
+### P477
 - PREV: I laughed. Antonius frowned.
 - CURR: "What?"
 - NEXT: "Nothing."
 
-### P479
+### P478
 - PREV: "What?"
 - CURR: "Nothing."
 - NEXT: "Greg."
 
-### P480
+### P479
 - PREV: "Nothing."
 - CURR: "Greg."
 - NEXT: "You like options."
 
-### P481
+### P480
 - PREV: "Greg."
 - CURR: "You like options."
 - NEXT: "Yes."
 
-### P482
+### P481
 - PREV: "You like options."
 - CURR: "Yes."
 - NEXT: "That's why I remember you."
 
-### P483
+### P482
 - PREV: "Yes."
 - CURR: "That's why I remember you."
 - NEXT: Silence. Fuck. Too far. Antonius's face changed.
 
-### P485
+### P484
 - PREV: Silence. Fuck. Too far. Antonius's face changed.
 - CURR: "Remember me?" I bit the inside of my cheek.
 - NEXT: "Remember your type."
 
-### P486
+### P485
 - PREV: "Remember me?" I bit the inside of my cheek.
 - CURR: "Remember your type."
 - NEXT: "My type."
 
-### P487
+### P486
 - PREV: "Remember your type."
 - CURR: "My type."
 - NEXT: "Annoying men with ledgers."
 
-### P488
+### P487
 - PREV: "My type."
 - CURR: "Annoying men with ledgers."
 - NEXT: "Good recovery."
 
-### P489
+### P488
 - PREV: "Annoying men with ledgers."
 - CURR: "Good recovery."
 - NEXT: "Thank you."
 
-### P490
+### P489
 - PREV: "Good recovery."
 - CURR: "Thank you."
 - NEXT: "Terrible recovery."
 
-### P491
+### P490
 - PREV: "Thank you."
 - CURR: "Terrible recovery."
 - NEXT: "Still." He watched me. I became harmless Greg.
 
-### P492
+### P491
 - PREV: "Terrible recovery."
 - CURR: "Still." He watched me. I became harmless Greg.
 - NEXT: Small smile. Loose shoulders. Young idiot. It happened automatically. Antonius's eyes narrowed. Worse. He had seen the change. Interesting.
 
-### P494
+### P493
 - PREV: Small smile. Loose shoulders. Young idiot. It happened automatically. Antonius's eyes narrowed. Worse. He had seen the change. Interesting.
 - CURR: "Don't do that," he said.
 - NEXT: "What?"
 
-### P495
+### P494
 - PREV: "Don't do that," he said.
 - CURR: "What?"
 - NEXT: "That."
 
-### P496
+### P495
 - PREV: "What?"
 - CURR: "That."
 - NEXT: "I didn't do anything."
 
-### P497
+### P496
 - PREV: "That."
 - CURR: "I didn't do anything."
 - NEXT: "You became younger."
 
-### P498
+### P497
 - PREV: "I didn't do anything."
 - CURR: "You became younger."
 - NEXT: Cold. Not fear. Recognition. He had seen it. Not regression. The role. I laughed. Wrong laugh. He kept looking. I stopped.
 
-### P500
+### P499
 - PREV: Cold. Not fear. Recognition. He had seen it. Not regression. The role. I laughed. Wrong laugh. He kept looking. I stopped.
 - CURR: "Useful habit," I said.
 - NEXT: "For what?"
 
-### P501
+### P500
 - PREV: "Useful habit," I said.
 - CURR: "For what?"
 - NEXT: "People."
 
-### P502
+### P501
 - PREV: "For what?"
 - CURR: "People."
 - NEXT: "Which people?"
 
-### P503
+### P502
 - PREV: "People."
 - CURR: "Which people?"
 - NEXT: "Most."
 
-### P504
+### P503
 - PREV: "Which people?"
 - CURR: "Most."
 - NEXT: "How old are you?"
 
-### P505
+### P504
 - PREV: "Most."
 - CURR: "How old are you?"
 - NEXT: "Nineteen."
 
-### P506
+### P505
 - PREV: "How old are you?"
 - CURR: "Nineteen."
 - NEXT: "No."
 
-### P507
+### P506
 - PREV: "Nineteen."
 - CURR: "No."
 - NEXT: "We've done this."
 
-### P508
+### P507
 - PREV: "No."
 - CURR: "We've done this."
 - NEXT: "Yes."
 
-### P509
+### P508
 - PREV: "We've done this."
 - CURR: "Yes."
 - NEXT: "And I still don't like the answer."
 
-### P510
+### P509
 - PREV: "Yes."
 - CURR: "And I still don't like the answer."
 - NEXT: "Imagine how I feel."
 
-### P511
+### P510
 - PREV: "And I still don't like the answer."
 - CURR: "Imagine how I feel."
 - NEXT: His eyes sharpened again. I sighed.
 
-### P513
+### P512
 - PREV: His eyes sharpened again. I sighed.
 - CURR: "That was a joke."
 - NEXT: "Was it?"
 
-### P514
+### P513
 - PREV: "That was a joke."
 - CURR: "Was it?"
 - NEXT: "Mostly."
 
-### P515
+### P514
 - PREV: "Was it?"
 - CURR: "Mostly."
 - NEXT: There was his word. He laughed.
 
-### P519
-- PREV: We kept walking. The afternoon became less interesting externally. Paperwork. A warehouse inspection. A conversation with a carter about wheel repairs. Antonius asked me to shut up during two meetings.
-- CURR: I succeeded during one. During the other I asked why a merchant was borrowing short-term money to buy goods he would not sell for four months. Antonius kicked my boot. Afterward he said, "Seasonal."
+### P517
+- PREV: Good.
+- CURR: We kept walking. The afternoon became less interesting externally. Paperwork. A warehouse inspection. A conversation with a carter about wheel repairs. Antonius asked me to shut up during two meetings. I succeeded during one. During the other I asked why a merchant was borrowing short-term money to buy goods he would not sell for four months. Antonius kicked my boot. Afterward he said, "Seasonal."
 - NEXT: "I know that now."
 
-### P520
-- PREV: I succeeded during one. During the other I asked why a merchant was borrowing short-term money to buy goods he would not sell for four months. Antonius kicked my boot. Afterward he said, "Seasonal."
+### P518
+- PREV: We kept walking. The afternoon became less interesting externally. Paperwork. A warehouse inspection. A conversation with a carter about wheel repairs. Antonius asked me to shut up during two meetings. I succeeded during one. During the other I asked why a merchant was borrowing short-term money to buy goods he would not sell for four months. Antonius kicked my boot. Afterward he said, "Seasonal."
 - CURR: "I know that now."
 - NEXT: "You could have known it quietly."
 
-### P521
+### P519
 - PREV: "I know that now."
 - CURR: "You could have known it quietly."
 - NEXT: "Less efficient."
 
-### P522
+### P520
 - PREV: "You could have known it quietly."
 - CURR: "Less efficient."
 - NEXT: "For whom?"
 
-### P523
+### P521
 - PREV: "Less efficient."
 - CURR: "For whom?"
 - NEXT: Fair. But something had shifted. I was no longer trying to impress Antonius. That was new. I wanted to understand him. Different impulse. Cleaner. Questions became less performative when I did not need the answer to prove something about Greg. At one point I realized I had gone almost an hour without thinking about my build. No warrior plan. No Barrier timeline. No gambling bankroll.
 
-### P526
+### P524
 - PREV: No shale. No Tere gauge. No question of whether I was wasting my second life. Just Antonius. Borrower. Business. Risk. Why? I felt oddly good. Then I thought about feeling good. Ruined it. At dusk we returned to the warehouse. Rusk was there. He looked at me.
 - CURR: "Still alive."
 - NEXT: "Antonius is surprisingly safe." Antonius put the small ledger on his desk.
 
-### P527
+### P525
 - PREV: "Still alive."
 - CURR: "Antonius is surprisingly safe." Antonius put the small ledger on his desk.
 - NEXT: "No." I pointed at it.
 
-### P528
+### P526
 - PREV: "Antonius is surprisingly safe." Antonius put the small ledger on his desk.
 - CURR: "No." I pointed at it.
 - NEXT: "After an entire day, I deserve one page."
 
-### P529
+### P527
 - PREV: "No." I pointed at it.
 - CURR: "After an entire day, I deserve one page."
 - NEXT: "No."
 
-### P530
+### P528
 - PREV: "After an entire day, I deserve one page."
 - CURR: "No."
 - NEXT: "Half."
 
-### P531
+### P529
 - PREV: "No."
 - CURR: "Half."
 - NEXT: "No."
 
-### P532
+### P530
 - PREV: "Half."
 - CURR: "No."
 - NEXT: "Index?"
 
-### P533
+### P531
 - PREV: "No."
 - CURR: "Index?"
 - NEXT: "No."
 
-### P534
+### P532
 - PREV: "Index?"
 - CURR: "No."
 - NEXT: "Table of contents?"
 
-### P535
+### P533
 - PREV: "No."
 - CURR: "Table of contents?"
 - NEXT: "There isn't one."
 
-### P536
+### P534
 - PREV: "Table of contents?"
 - CURR: "There isn't one."
 - NEXT: "That's poor organization." Rusk laughed. Antonius sat. I did not leave. He looked up.
 
-### P537
+### P535
 - PREV: "There isn't one."
 - CURR: "That's poor organization." Rusk laughed. Antonius sat. I did not leave. He looked up.
 - NEXT: "What?"
 
-### P538
+### P536
 - PREV: "That's poor organization." Rusk laughed. Antonius sat. I did not leave. He looked up.
 - CURR: "What?"
 - NEXT: "I have a question."
 
-### P539
+### P537
 - PREV: "What?"
 - CURR: "I have a question."
 - NEXT: "Of course."
 
-### P540
+### P538
 - PREV: "I have a question."
 - CURR: "Of course."
 - NEXT: "Why did you lend to me?" Rusk stopped laughing. Antonius leaned back.
 
-### P541
+### P539
 - PREV: "Of course."
 - CURR: "Why did you lend to me?" Rusk stopped laughing. Antonius leaned back.
 - NEXT: There. I had wanted to ask all day. Not because I wanted reassurance. Maybe a little. Because I had now seen enough to know I did not fit his normal decisions. At the time, I had been nineteen. Bronze. No stable income. No collateral worth mentioning. Pitching garbage rock based on a half-remembered future application I could barely explain. Then I had gambled with borrowed money. Objectively, Greg was a terrible borrower. Antonius looked at me for a long moment.
 
-### P543
+### P541
 - PREV: There. I had wanted to ask all day. Not because I wanted reassurance. Maybe a little. Because I had now seen enough to know I did not fit his normal decisions. At the time, I had been nineteen. Bronze. No stable income. No collateral worth mentioning. Pitching garbage rock based on a half-remembered future application I could barely explain. Then I had gambled with borrowed money. Objectively, Greg was a terrible borrower. Antonius looked at me for a long moment.
 - CURR: "You had an answer."
 - NEXT: "For what?"
 
-### P544
+### P542
 - PREV: "You had an answer."
 - CURR: "For what?"
 - NEXT: "Every objection."
 
-### P545
+### P543
 - PREV: "For what?"
 - CURR: "Every objection."
 - NEXT: "That's not always good."
 
-### P546
+### P544
 - PREV: "Every objection."
 - CURR: "That's not always good."
 - NEXT: "I know that now." Rusk laughed again. Antonius ignored him.
 
-### P547
+### P545
 - PREV: "That's not always good."
 - CURR: "I know that now." Rusk laughed again. Antonius ignored him.
 - NEXT: "You asked for too much."
 
-### P548
+### P546
 - PREV: "I know that now." Rusk laughed again. Antonius ignored him.
 - CURR: "You asked for too much."
 - NEXT: "I remember."
 
-### P549
+### P547
 - PREV: "You asked for too much."
 - CURR: "I remember."
 - NEXT: "You weren't embarrassed."
 
-### P550
+### P548
 - PREV: "I remember."
 - CURR: "You weren't embarrassed."
 - NEXT: "I was internally."
 
-### P551
+### P549
 - PREV: "You weren't embarrassed."
 - CURR: "I was internally."
 - NEXT: "No."
 
-### P552
+### P550
 - PREV: "I was internally."
 - CURR: "No."
 - NEXT: Fair.
 
-### P554
+### P552
 - PREV: Fair.
 - CURR: "You didn't act like someone asking permission."
 - NEXT: That surprised me.
 
-### P556
+### P554
 - PREV: That surprised me.
 - CURR: "What did I act like?"
 - NEXT: "Like I was missing something." I stared. Antonius continued.
 
-### P557
+### P555
 - PREV: "What did I act like?"
 - CURR: "Like I was missing something." I stared. Antonius continued.
 - NEXT: "You walked in asking for money like the money was the least interesting part."
 
-### P558
+### P556
 - PREV: "Like I was missing something." I stared. Antonius continued.
 - CURR: "You walked in asking for money like the money was the least interesting part."
 - NEXT: That was probably true.
 
-### P560
+### P558
 - PREV: That was probably true.
 - CURR: "You thought you had found a thing. Maybe you had. Maybe not. But you weren't selling me the rock."
 - NEXT: "What was I selling?"
 
-### P561
+### P559
 - PREV: "You thought you had found a thing. Maybe you had. Maybe not. But you weren't selling me the rock."
 - CURR: "What was I selling?"
 - NEXT: "You." I grimaced.
 
-### P562
+### P560
 - PREV: "What was I selling?"
 - CURR: "You." I grimaced.
 - NEXT: "That sounds terrible."
 
-### P563
+### P561
 - PREV: "You." I grimaced.
 - CURR: "That sounds terrible."
 - NEXT: "It was." Rusk said, "Still is."
 
-### P564
+### P562
 - PREV: "That sounds terrible."
 - CURR: "It was." Rusk said, "Still is."
 - NEXT: "Fuck you, Rusk." Antonius smiled.
 
-### P565
+### P563
 - PREV: "It was." Rusk said, "Still is."
 - CURR: "Fuck you, Rusk." Antonius smiled.
 - NEXT: "You were wrong about half of it."
 
-### P566
+### P564
 - PREV: "Fuck you, Rusk." Antonius smiled.
 - CURR: "You were wrong about half of it."
 - NEXT: "Less than half."
 
-### P567
+### P565
 - PREV: "You were wrong about half of it."
 - CURR: "Less than half."
 - NEXT: "More."
 
-### P568
+### P566
 - PREV: "Less than half."
 - CURR: "More."
 - NEXT: "Debatable."
 
-### P569
+### P567
 - PREV: "More."
 - CURR: "Debatable."
 - NEXT: "You keep being wrong." I crossed my arms.
 
-### P570
+### P568
 - PREV: "Debatable."
 - CURR: "You keep being wrong." I crossed my arms.
 - NEXT: "Is this going somewhere?"
 
-### P571
+### P569
 - PREV: "You keep being wrong." I crossed my arms.
 - CURR: "Is this going somewhere?"
 - NEXT: "Yes." He tapped the desk.
 
-### P572
+### P570
 - PREV: "Is this going somewhere?"
 - CURR: "Yes." He tapped the desk.
 - NEXT: "You correct fast."
 
-### P573
+### P571
 - PREV: "Yes." He tapped the desk.
 - CURR: "You correct fast."
 - NEXT: Silence. Hessa had said something similar. Arlo too, in different words. Once somebody showed me the mistake, I rarely made exactly that mistake again. I made exciting new ones.
 
-### P575
+### P573
 - PREV: Silence. Hessa had said something similar. Arlo too, in different words. Once somebody showed me the mistake, I rarely made exactly that mistake again. I made exciting new ones.
 - CURR: "That's why?" I asked.
 - NEXT: "Partly."
 
-### P576
+### P574
 - PREV: "That's why?" I asked.
 - CURR: "Partly."
 - NEXT: "What else?" Antonius shrugged.
 
-### P577
+### P575
 - PREV: "Partly."
 - CURR: "What else?" Antonius shrugged.
 - NEXT: "You were interesting."
 
-### P578
+### P576
 - PREV: "What else?" Antonius shrugged.
 - CURR: "You were interesting."
 - NEXT: That should not have pleased me. It did.
 
-### P580
+### P578
 - PREV: That should not have pleased me. It did.
 - CURR: "Terrible lending standard."
 - NEXT: "You're paying."
 
-### P581
+### P579
 - PREV: "Terrible lending standard."
 - CURR: "You're paying."
 - NEXT: "Through forced labor."
 
-### P582
+### P580
 - PREV: "You're paying."
 - CURR: "Through forced labor."
 - NEXT: "Still paying."
 
-### P583
+### P581
 - PREV: "Through forced labor."
 - CURR: "Still paying."
 - NEXT: "Fair." He opened the ledger.
 
-### P584
+### P582
 - PREV: "Still paying."
 - CURR: "Fair." He opened the ledger.
 - NEXT: Conversation over. I stayed.
 
-### P586
+### P584
 - PREV: Conversation over. I stayed.
 - CURR: "One more."
 - NEXT: "No."
 
-### P587
+### P585
 - PREV: "One more."
 - CURR: "No."
 - NEXT: "What are you trying to make?" Antonius looked up again.
 
-### P588
+### P586
 - PREV: "No."
 - CURR: "What are you trying to make?" Antonius looked up again.
 - NEXT: "Money."
 
-### P589
+### P587
 - PREV: "What are you trying to make?" Antonius looked up again.
 - CURR: "Money."
 - NEXT: "No."
 
-### P590
+### P588
 - PREV: "Money."
 - CURR: "No."
 - NEXT: "Greg."
 
-### P591
+### P589
 - PREV: "No."
 - CURR: "Greg."
 - NEXT: "I mean with all of this." I gestured around the warehouse.
 
-### P592
+### P590
 - PREV: "Greg."
 - CURR: "I mean with all of this." I gestured around the warehouse.
 - NEXT: "Loans. Storage. Merchants. Routes. People owing you. People you owe. What does it become?" He frowned.
 
-### P593
+### P591
 - PREV: "I mean with all of this." I gestured around the warehouse.
 - CURR: "Loans. Storage. Merchants. Routes. People owing you. People you owe. What does it become?" He frowned.
 - NEXT: "I don't know."
 
-### P594
+### P592
 - PREV: "Loans. Storage. Merchants. Routes. People owing you. People you owe. What does it become?" He frowned.
 - CURR: "I don't know."
 - NEXT: There. No embarrassment. No elaborate answer. Just don't know. That was interesting. I knew what it became. Sort of. Power. Reach. A name S-class Greg remembered forty years later. But Antonius did not know. Of course he didn't. He was living forward. I had spent days being angry that I could not perfectly reconstruct my own future path while Antonius was building his without knowing there was a path at all. Maybe that was normal.
 
-### P597
+### P595
 - PREV: Uncomfortable thought. I looked around again. Warehouse. Flour. Bad shelves. Debtors. Cheese. A cooper who needed wood. A boat share Antonius might finance. Selka Merren's cloth. Orlan Tere's worthless forty-gold gauge. Little pieces. Future Antonius had not appeared from a plan called BECOME ANTONIUS VALE. He had kept making decisions. Good ones, apparently. Enough of them.
-- CURR: "What?" Antonius asked.
-- NEXT: I realized I was smiling.
+- CURR: "What?" Antonius asked. I realized I was smiling.
+- NEXT: "Nothing."
 
-### P599
-- PREV: I realized I was smiling.
+### P596
+- PREV: "What?" Antonius asked. I realized I was smiling.
 - CURR: "Nothing."
 - NEXT: "Metaphor face."
 
-### P600
+### P597
 - PREV: "Nothing."
 - CURR: "Metaphor face."
 - NEXT: "Probably."
 
-### P601
+### P598
 - PREV: "Metaphor face."
 - CURR: "Probably."
 - NEXT: "Go home." I did.
 
-### P602
+### P599
 - PREV: "Probably."
 - CURR: "Go home." I did.
 - NEXT: Almost. At the door I stopped.
 
-### P604
+### P601
 - PREV: Almost. At the door I stopped.
 - CURR: "Antonius." He sighed.
 - NEXT: "What?"
 
-### P605
+### P602
 - PREV: "Antonius." He sighed.
 - CURR: "What?"
 - NEXT: "You should keep track of why you say no." He frowned.
 
-### P606
+### P603
 - PREV: "What?"
 - CURR: "You should keep track of why you say no." He frowned.
 - NEXT: "To loans."
 
-### P607
+### P604
 - PREV: "You should keep track of why you say no." He frowned.
 - CURR: "To loans."
 - NEXT: "I know what you meant."
 
-### P608
+### P605
 - PREV: "To loans."
 - CURR: "I know what you meant."
 - NEXT: "Not just who defaults. Why you refused them. Then check later." Rusk looked interested. Antonius did not react. I continued.
 
-### P609
+### P606
 - PREV: "I know what you meant."
 - CURR: "Not just who defaults. Why you refused them. Then check later." Rusk looked interested. Antonius did not react. I continued.
 - NEXT: "You already remember patterns. Son wants out. Hidden lender. Bad order. Temporary shortage. Structural problem. Write the reason when you refuse. Six months later, see whether you were right." Antonius stared. I felt the branches trying to come.
 
-### P610
+### P607
 - PREV: "Not just who defaults. Why you refused them. Then check later." Rusk looked interested. Antonius did not react. I continued.
 - CURR: "You already remember patterns. Son wants out. Hidden lender. Bad order. Temporary shortage. Structural problem. Write the reason when you refuse. Six months later, see whether you were right." Antonius stared. I felt the branches trying to come.
 - NEXT: Categories. Default models. Industry risk. Borrower types. Information network.
 
-### P614
+### P611
 - PREV: Stop. One suggestion.
 - CURR: "Why?" he asked.
 - NEXT: "Because right now your judgment lives in your head."
 
-### P615
+### P612
 - PREV: "Why?" he asked.
 - CURR: "Because right now your judgment lives in your head."
 - NEXT: "So?"
 
-### P616
+### P613
 - PREV: "Because right now your judgment lives in your head."
 - CURR: "So?"
 - NEXT: "So you can't tell which part of it is actually good."
 
-### P617
+### P614
 - PREV: "So?"
 - CURR: "So you can't tell which part of it is actually good."
 - NEXT: That landed. I knew it did. Not because of future knowledge. Because Antonius looked at the small ledger. Just once. Then back at me.
 
-### P619
+### P616
 - PREV: That landed. I knew it did. Not because of future knowledge. Because Antonius looked at the small ledger. Just once. Then back at me.
 - CURR: "You done?"
 - NEXT: "Yes."
 
-### P620
+### P617
 - PREV: "You done?"
 - CURR: "Yes."
 - NEXT: "Actually?" I considered.
 
-### P621
+### P618
 - PREV: "Yes."
 - CURR: "Actually?" I considered.
 - NEXT: "Mostly."
 
-### P622
+### P619
 - PREV: "Actually?" I considered.
 - CURR: "Mostly."
 - NEXT: "Go." I left.
 
-### P623
+### P620
 - PREV: "Mostly."
 - CURR: "Go." I left.
 - NEXT: Outside, I felt the familiar rush. I could build the system. Obviously. Loan categories. Outcome tracking. Risk weights. Information confidence. Collateral liquidity. Borrower behavior.
 
-### P627
+### P624
 - PREV: Not mine. That was strange. I could see ten ways to improve Antonius. They were clearer than the ten ways I had been trying to improve myself. Maybe because Antonius already existed as a constraint. He wanted options. He had limited capital. He was good at reading temporary failure. He had a warehouse. He had Rusk. He had a growing network. There. Pieces. With myself, every piece kept changing because I kept changing the question. I stopped in the street.
 - CURR: "Oh."
 - NEXT: A woman carrying onions walked around me.
 
-### P629
+### P626
 - PREV: A woman carrying onions walked around me.
 - CURR: "Idiot," she muttered.
 - NEXT: "Possibly." I turned back toward the warehouse.
 
-### P630
+### P627
 - PREV: "Idiot," she muttered.
 - CURR: "Possibly." I turned back toward the warehouse.
 - NEXT: No.
 
-### P647
+### P644
 - PREV: Simple. Useful. Not my life. I leaned back. This had taken ten minutes. Ten. I had spent days trying to decide what Greg should become. Antonius took ten minutes. I laughed.
 - CURR: "Fuck."
 - NEXT: There was something deeply unfair about being better at other people. Then again, that had always been true. I just had not phrased it that way. Support. Parties. Lovers. Enemies. Give me someone else and I could see the missing piece. Give me myself and apparently I bought every coat in the shop. I looked at the page.
@@ -12453,1869 +12448,1869 @@ Total dialogue paragraphs surfaced: 5960
 ### P296
 - PREV: Good.
 - CURR: "Did he price it?"
-- NEXT: "Eight to fifteen gold depending on completeness," Antonius said.
+- NEXT: "Eight to fifteen gold depending on completeness," Antonius said. I stared at him.
 
 ### P297
 - PREV: "Did he price it?"
-- CURR: "Eight to fifteen gold depending on completeness," Antonius said.
-- NEXT: I stared at him.
+- CURR: "Eight to fifteen gold depending on completeness," Antonius said. I stared at him.
+- NEXT: "You had an appraisal."
 
-### P299
-- PREV: I stared at him.
+### P298
+- PREV: "Eight to fifteen gold depending on completeness," Antonius said. I stared at him.
 - CURR: "You had an appraisal."
 - NEXT: "I had his appraisal."
 
-### P300
+### P299
 - PREV: "You had an appraisal."
 - CURR: "I had his appraisal."
 - NEXT: "And you called us."
 
-### P301
+### P300
 - PREV: "I had his appraisal."
 - CURR: "And you called us."
 - NEXT: "Yes."
 
-### P302
+### P301
 - PREV: "And you called us."
 - CURR: "Yes."
 - NEXT: "Why?" Antonius looked at me.
 
-### P303
+### P302
 - PREV: "Yes."
 - CURR: "Why?" Antonius looked at me.
 - NEXT: "Because he wants to buy it."
 
-### P304
+### P303
 - PREV: "Why?" Antonius looked at me.
 - CURR: "Because he wants to buy it."
 - NEXT: Ah. Arlo laughed. I did too. There was Antonius. The artificer had a conflict. Not useless information. Weighted information.
 
-### P306
+### P305
 - PREV: Ah. Arlo laughed. I did too. There was Antonius. The artificer had a conflict. Not useless information. Weighted information.
 - CURR: "How much did he offer?" Arlo asked.
 - NEXT: "Three."
 
-### P307
+### P306
 - PREV: "How much did he offer?" Arlo asked.
 - CURR: "Three."
 - NEXT: "Then he thinks it's worth more than three."
 
-### P308
+### P307
 - PREV: "Three."
 - CURR: "Then he thinks it's worth more than three."
 - NEXT: "Obviously."
 
-### P309
+### P308
 - PREV: "Then he thinks it's worth more than three."
 - CURR: "Obviously."
 - NEXT: "Could still be worth four."
 
-### P310
+### P309
 - PREV: "Obviously."
 - CURR: "Could still be worth four."
 - NEXT: "Yes."
 
-### P311
+### P310
 - PREV: "Could still be worth four."
 - CURR: "Yes."
 - NEXT: I looked at the gauntlet. Seller says twelve. Interested artificer says eight to fifteen, offers three. Loan request six. Antonius needs enough collateral protection, not maximum resale. Borrower has repayment history. Expedition itself may pay. The object is backup. Different question.
 
-### P313
+### P312
 - PREV: I looked at the gauntlet. Seller says twelve. Interested artificer says eight to fifteen, offers three. Loan request six. Antonius needs enough collateral protection, not maximum resale. Borrower has repayment history. Expedition itself may pay. The object is backup. Different question.
 - CURR: "Six is probably safe," I said. Arlo looked at me. Antonius said, "Probably."
 - NEXT: "Yes."
 
-### P314
+### P313
 - PREV: "Six is probably safe," I said. Arlo looked at me. Antonius said, "Probably."
 - CURR: "Yes."
 - NEXT: "You don't know what it does."
 
-### P315
+### P314
 - PREV: "Yes."
 - CURR: "You don't know what it does."
 - NEXT: "No."
 
-### P316
+### P315
 - PREV: "You don't know what it does."
 - CURR: "No."
 - NEXT: "You don't know whether it works."
 
-### P317
+### P316
 - PREV: "No."
 - CURR: "You don't know whether it works."
 - NEXT: "No."
 
-### P318
+### P317
 - PREV: "You don't know whether it works."
 - CURR: "No."
 - NEXT: "You don't know whether it's complete."
 
-### P319
+### P318
 - PREV: "No."
 - CURR: "You don't know whether it's complete."
 - NEXT: "No."
 
-### P320
+### P319
 - PREV: "You don't know whether it's complete."
 - CURR: "No."
 - NEXT: "Excellent appraisal."
 
-### P321
+### P320
 - PREV: "No."
 - CURR: "Excellent appraisal."
 - NEXT: "I'm not appraising the gauntlet."
 
-### P322
+### P321
 - PREV: "Excellent appraisal."
 - CURR: "I'm not appraising the gauntlet."
 - NEXT: Silence. I pointed at Antonius's ledger.
 
-### P324
+### P323
 - PREV: Silence. I pointed at Antonius's ledger.
 - CURR: "I'm appraising the loan."
 - NEXT: That got him. Not visibly much. A slight change around the eyes. Arlo leaned back. I continued.
 
-### P326
+### P325
 - PREV: That got him. Not visibly much. A slight change around the eyes. Arlo leaned back. I continued.
 - CURR: "The borrower has repaid you twice. One late payment had a verifiable external cause. He already has four gold committed, so he has something to lose. A competent artificer with an incentive to undervalue this still offered three gold and claims eight to fifteen if complete. Even if he's lying downward, the object has a market. Even if he's lying upward because he wants the borrower to sell, his three-gold offer establishes a floor unless he's willing to withdraw it." Antonius said, "He might."
 - NEXT: "Then call him on it before lending." Arlo smiled. I was enjoying myself.
 
-### P327
+### P326
 - PREV: "The borrower has repaid you twice. One late payment had a verifiable external cause. He already has four gold committed, so he has something to lose. A competent artificer with an incentive to undervalue this still offered three gold and claims eight to fifteen if complete. Even if he's lying downward, the object has a market. Even if he's lying upward because he wants the borrower to sell, his three-gold offer establishes a floor unless he's willing to withdraw it." Antonius said, "He might."
 - CURR: "Then call him on it before lending." Arlo smiled. I was enjoying myself.
 - NEXT: Careful.
 
-### P329
+### P328
 - PREV: Careful.
 - CURR: "Also," I said, "don't lend six against the gauntlet alone." Antonius waited.
 - NEXT: "Take a claim on his expedition share until repayment." Arlo made a small approving sound. Antonius did not.
 
-### P330
+### P329
 - PREV: "Also," I said, "don't lend six against the gauntlet alone." Antonius waited.
 - CURR: "Take a claim on his expedition share until repayment." Arlo made a small approving sound. Antonius did not.
 - NEXT: "Why?"
 
-### P331
+### P330
 - PREV: "Take a claim on his expedition share until repayment." Arlo made a small approving sound. Antonius did not.
 - CURR: "Why?"
 - NEXT: "Because that's what the money is for. If the expedition succeeds, you get paid from the thing you financed. If it fails and he comes back, you have the gauntlet. If he doesn't come back..." I stopped.
 
-### P332
+### P331
 - PREV: "Why?"
 - CURR: "Because that's what the money is for. If the expedition succeeds, you get paid from the thing you financed. If it fails and he comes back, you have the gauntlet. If he doesn't come back..." I stopped.
 - NEXT: That happened. Adventuring. Normal. Present Greg had been away from it long enough that the sentence felt colder than it should. Antonius finished it.
 
-### P334
+### P333
 - PREV: That happened. Adventuring. Normal. Present Greg had been away from it long enough that the sentence felt colder than it should. Antonius finished it.
 - CURR: "I have the gauntlet."
 - NEXT: "Yes." Arlo looked at me.
 
-### P335
+### P334
 - PREV: "I have the gauntlet."
 - CURR: "Yes." Arlo looked at me.
 - NEXT: Not pity.
 
-### P341
+### P340
 - PREV: Not mine. I looked at Antonius.
 - CURR: "That's my answer." He tapped the desk.
 - NEXT: "Six?"
 
-### P342
+### P341
 - PREV: "That's my answer." He tapped the desk.
 - CURR: "Six?"
 - NEXT: "Five." Arlo raised an eyebrow. Antonius said, "Why five?"
 
-### P343
+### P342
 - PREV: "Six?"
 - CURR: "Five." Arlo raised an eyebrow. Antonius said, "Why five?"
 - NEXT: "Because he asked for six."
 
-### P344
+### P343
 - PREV: "Five." Arlo raised an eyebrow. Antonius said, "Why five?"
 - CURR: "Because he asked for six."
 - NEXT: "Brilliant."
 
-### P345
+### P344
 - PREV: "Because he asked for six."
 - CURR: "Brilliant."
 - NEXT: "Because if he needs exactly six and has no flexibility, I want to know why. Five forces him to show whether the budget is real or padded."
 
-### P346
+### P345
 - PREV: "Brilliant."
 - CURR: "Because if he needs exactly six and has no flexibility, I want to know why. Five forces him to show whether the budget is real or padded."
 - NEXT: Antonius's mouth twitched.
 
-### P348
+### P347
 - PREV: Antonius's mouth twitched.
 - CURR: "That's annoying."
 - NEXT: "Thank you."
 
-### P349
+### P348
 - PREV: "That's annoying."
 - CURR: "Thank you."
 - NEXT: "And if he walks?"
 
-### P350
+### P349
 - PREV: "Thank you."
 - CURR: "And if he walks?"
 - NEXT: "Then he had another option or the expedition wasn't worth bridging."
 
-### P351
+### P350
 - PREV: "And if he walks?"
 - CURR: "Then he had another option or the expedition wasn't worth bridging."
 - NEXT: "Maybe."
 
-### P352
+### P351
 - PREV: "Then he had another option or the expedition wasn't worth bridging."
 - CURR: "Maybe."
 - NEXT: "Maybe." Arlo looked between us. "You're becoming unbearable in the same direction."
 
-### P353
+### P352
 - PREV: "Maybe."
 - CURR: "Maybe." Arlo looked between us. "You're becoming unbearable in the same direction."
 - NEXT: "He's learning," Antonius said.
 
-### P354
+### P353
 - PREV: "Maybe." Arlo looked between us. "You're becoming unbearable in the same direction."
 - CURR: "He's learning," Antonius said.
 - NEXT: "I am older than him."
 
-### P355
+### P354
 - PREV: "He's learning," Antonius said.
 - CURR: "I am older than him."
 - NEXT: "Not emotionally."
 
-### P356
+### P355
 - PREV: "I am older than him."
 - CURR: "Not emotionally."
 - NEXT: "Fuck you." Antonius stood and took the gauntlet. Arlo immediately said, "Careful." Antonius froze.
 
-### P357
+### P356
 - PREV: "Not emotionally."
 - CURR: "Fuck you." Antonius stood and took the gauntlet. Arlo immediately said, "Careful." Antonius froze.
 - NEXT: Slowly.
 
-### P359
+### P358
 - PREV: Slowly.
 - CURR: "Why?"
 - NEXT: "Because I don't know what the wrist stones do." Antonius looked at the object in his hands. Then at Arlo. Then very carefully put it down. I laughed so hard I had to sit. Antonius waited. I tried to stop.
 
-### P360
+### P359
 - PREV: "Why?"
 - CURR: "Because I don't know what the wrist stones do." Antonius looked at the object in his hands. Then at Arlo. Then very carefully put it down. I laughed so hard I had to sit. Antonius waited. I tried to stop.
 - NEXT: Failed.
 
-### P362
+### P361
 - PREV: Failed.
 - CURR: "Dead man's hand," I managed.
 - NEXT: "He's alive."
 
-### P363
+### P362
 - PREV: "Dead man's hand," I managed.
 - CURR: "He's alive."
 - NEXT: "Not after you activate that." Arlo was laughing now too. Antonius looked at both of us with the expression of a man reconsidering every decision that had led to this room.
 
-### P364
+### P363
 - PREV: "He's alive."
 - CURR: "Not after you activate that." Arlo was laughing now too. Antonius looked at both of us with the expression of a man reconsidering every decision that had led to this room.
 - NEXT: "Five gold," he said. "Expedition share first claim. Gauntlet secondary. Subject to the artificer's three-gold offer remaining open." I wiped my eyes.
 
-### P365
+### P364
 - PREV: "Not after you activate that." Arlo was laughing now too. Antonius looked at both of us with the expression of a man reconsidering every decision that had led to this room.
 - CURR: "Five gold," he said. "Expedition share first claim. Gauntlet secondary. Subject to the artificer's three-gold offer remaining open." I wiped my eyes.
 - NEXT: "Good." Antonius pointed at me.
 
-### P366
+### P365
 - PREV: "Five gold," he said. "Expedition share first claim. Gauntlet secondary. Subject to the artificer's three-gold offer remaining open." I wiped my eyes.
 - CURR: "Good." Antonius pointed at me.
 - NEXT: "You are not coming." I stopped laughing.
 
-### P367
+### P366
 - PREV: "Good." Antonius pointed at me.
 - CURR: "You are not coming." I stopped laughing.
 - NEXT: "What?"
 
-### P368
+### P367
 - PREV: "You are not coming." I stopped laughing.
 - CURR: "What?"
 - NEXT: "I know that face too."
 
-### P369
+### P368
 - PREV: "What?"
 - CURR: "I know that face too."
 - NEXT: "I didn't ask."
 
-### P370
+### P369
 - PREV: "I know that face too."
 - CURR: "I didn't ask."
 - NEXT: "You were going to."
 
-### P371
+### P370
 - PREV: "I didn't ask."
 - CURR: "You were going to."
 - NEXT: "I don't even know where they're going."
 
-### P372
+### P371
 - PREV: "You were going to."
 - CURR: "I don't even know where they're going."
 - NEXT: "No."
 
-### P373
+### P372
 - PREV: "I don't even know where they're going."
 - CURR: "No."
 - NEXT: "What dungeon?"
 
-### P374
+### P373
 - PREV: "No."
 - CURR: "What dungeon?"
 - NEXT: "No."
 
-### P375
+### P374
 - PREV: "What dungeon?"
 - CURR: "No."
 - NEXT: "Is it a dungeon?"
 
-### P376
+### P375
 - PREV: "No."
 - CURR: "Is it a dungeon?"
 - NEXT: "No."
 
-### P377
+### P376
 - PREV: "Is it a dungeon?"
 - CURR: "No."
 - NEXT: "That means yes."
 
-### P378
+### P377
 - PREV: "No."
 - CURR: "That means yes."
 - NEXT: "It means no."
 
-### P379
+### P378
 - PREV: "That means yes."
 - CURR: "It means no."
 - NEXT: "Who else is in the party?"
 
-### P380
+### P379
 - PREV: "It means no."
 - CURR: "Who else is in the party?"
 - NEXT: "No."
 
-### P381
+### P380
 - PREV: "Who else is in the party?"
 - CURR: "No."
 - NEXT: "Arlo, tell him this is relevant to the collateral." Arlo packed his tools.
 
-### P382
+### P381
 - PREV: "No."
 - CURR: "Arlo, tell him this is relevant to the collateral." Arlo packed his tools.
 - NEXT: "It isn't."
 
-### P383
+### P382
 - PREV: "Arlo, tell him this is relevant to the collateral." Arlo packed his tools.
 - CURR: "It isn't."
 - NEXT: "Traitor."
 
-### P384
+### P383
 - PREV: "It isn't."
 - CURR: "Traitor."
 - NEXT: "I have work."
 
-### P385
+### P384
 - PREV: "Traitor."
 - CURR: "I have work."
 - NEXT: "You always have work."
 
-### P386
+### P385
 - PREV: "I have work."
 - CURR: "You always have work."
 - NEXT: "That's why my workshop has a roof."
 
-### P387
+### P386
 - PREV: "You always have work."
 - CURR: "That's why my workshop has a roof."
 - NEXT: "Parts of it."
 
-### P388
+### P387
 - PREV: "That's why my workshop has a roof."
 - CURR: "Parts of it."
 - NEXT: "More than your workshop."
 
-### P389
+### P388
 - PREV: "Parts of it."
 - CURR: "More than your workshop."
 - NEXT: "I don't have a workshop."
 
-### P390
+### P389
 - PREV: "More than your workshop."
 - CURR: "I don't have a workshop."
 - NEXT: "Exactly." Antonius picked up his ledger.
 
-### P391
+### P390
 - PREV: "I don't have a workshop."
 - CURR: "Exactly." Antonius picked up his ledger.
 - NEXT: Meeting over. I stayed seated. He looked at me.
 
-### P393
+### P392
 - PREV: Meeting over. I stayed seated. He looked at me.
 - CURR: "What?"
 - NEXT: "The Tere gauge."
 
-### P394
+### P393
 - PREV: "What?"
 - CURR: "The Tere gauge."
 - NEXT: "No."
 
-### P395
+### P394
 - PREV: "The Tere gauge."
 - CURR: "No."
 - NEXT: "That's unrelated."
 
-### P396
+### P395
 - PREV: "No."
 - CURR: "That's unrelated."
 - NEXT: "Then why bring it up?"
 
-### P397
+### P396
 - PREV: "That's unrelated."
 - CURR: "Then why bring it up?"
 - NEXT: "Because Arlo is here." Arlo said, "I am not helping you steal it."
 
-### P398
+### P397
 - PREV: "Then why bring it up?"
 - CURR: "Because Arlo is here." Arlo said, "I am not helping you steal it."
 - NEXT: "It's mine."
 
-### P399
+### P398
 - PREV: "Because Arlo is here." Arlo said, "I am not helping you steal it."
 - CURR: "It's mine."
 - NEXT: "When you pay."
 
-### P400
+### P399
 - PREV: "It's mine."
 - CURR: "When you pay."
 - NEXT: "I need you to inspect it." Arlo paused. Antonius looked annoyed.
 
-### P401
+### P400
 - PREV: "When you pay."
 - CURR: "I need you to inspect it." Arlo paused. Antonius looked annoyed.
 - NEXT: Good.
 
-### P403
+### P402
 - PREV: Good.
 - CURR: "Later," Arlo said.
 - NEXT: "Today?"
 
-### P404
+### P403
 - PREV: "Later," Arlo said.
 - CURR: "Today?"
 - NEXT: "Later."
 
-### P405
+### P404
 - PREV: "Today?"
 - CURR: "Later."
 - NEXT: "Specific."
 
-### P406
+### P405
 - PREV: "Later."
 - CURR: "Specific."
 - NEXT: "After I work."
 
-### P407
+### P406
 - PREV: "Specific."
 - CURR: "After I work."
 - NEXT: "What time?"
 
-### P408
+### P407
 - PREV: "After I work."
 - CURR: "What time?"
 - NEXT: "Greg."
 
-### P409
+### P408
 - PREV: "What time?"
 - CURR: "Greg."
 - NEXT: That was Antonius. I looked at him. He pointed toward the door.
 
-### P411
+### P410
 - PREV: That was Antonius. I looked at him. He pointed toward the door.
 - CURR: "Go."
 - NEXT: "I have Hessa."
 
-### P412
+### P411
 - PREV: "Go."
 - CURR: "I have Hessa."
 - NEXT: "Then go." I stood.
 
-### P413
+### P412
 - PREV: "I have Hessa."
 - CURR: "Then go." I stood.
 - NEXT: At the door I stopped. Not because of the dungeon. Mostly.
 
-### P415
+### P414
 - PREV: At the door I stopped. Not because of the dungeon. Mostly.
 - CURR: "Why did you call me?" Antonius frowned.
 - NEXT: "For the appraisal."
 
-### P416
+### P415
 - PREV: "Why did you call me?" Antonius frowned.
 - CURR: "For the appraisal."
 - NEXT: "You had Arlo."
 
-### P417
+### P416
 - PREV: "For the appraisal."
 - CURR: "You had Arlo."
 - NEXT: "Arlo knows the object."
 
-### P418
+### P417
 - PREV: "You had Arlo."
 - CURR: "Arlo knows the object."
 - NEXT: "And?" Antonius looked at the gauntlet. Then at me.
 
-### P419
+### P418
 - PREV: "Arlo knows the object."
 - CURR: "And?" Antonius looked at the gauntlet. Then at me.
 - NEXT: "I wanted to know what I was buying." I waited.
 
-### P420
+### P419
 - PREV: "And?" Antonius looked at the gauntlet. Then at me.
 - CURR: "I wanted to know what I was buying." I waited.
 - NEXT: "That's the same thing."
 
-### P421
+### P420
 - PREV: "I wanted to know what I was buying." I waited.
 - CURR: "That's the same thing."
 - NEXT: "No," Antonius said. "Apparently it isn't."
 
-### P422
+### P421
 - PREV: "That's the same thing."
 - CURR: "No," Antonius said. "Apparently it isn't."
 - NEXT: That pleased me more than it should have. I left before I ruined it. Hessa was not impressed by my morning.
 
-### P424
+### P423
 - PREV: That pleased me more than it should have. I left before I ruined it. Hessa was not impressed by my morning.
 - CURR: "You were late."
 - NEXT: "Eight minutes."
 
-### P425
+### P424
 - PREV: "You were late."
 - CURR: "Eight minutes."
 - NEXT: "Nine."
 
-### P426
+### P425
 - PREV: "Eight minutes."
 - CURR: "Nine."
 - NEXT: "Did you count?"
 
-### P427
+### P426
 - PREV: "Nine."
 - CURR: "Did you count?"
 - NEXT: "Yes."
 
-### P428
+### P427
 - PREV: "Did you count?"
 - CURR: "Yes."
 - NEXT: "Why?"
 
-### P429
+### P428
 - PREV: "Yes."
 - CURR: "Why?"
 - NEXT: "Because you are always late by an amount you call almost on time." I put my sword down.
 
-### P430
+### P429
 - PREV: "Why?"
 - CURR: "Because you are always late by an amount you call almost on time." I put my sword down.
-- NEXT: "No sword today," Hessa said.
+- NEXT: "No sword today," Hessa said. I looked at her.
+
+### P430
+- PREV: "Because you are always late by an amount you call almost on time." I put my sword down.
+- CURR: "No sword today," Hessa said. I looked at her.
+- NEXT: "Why?"
 
 ### P431
-- PREV: "Because you are always late by an amount you call almost on time." I put my sword down.
-- CURR: "No sword today," Hessa said.
-- NEXT: I looked at her.
-
-### P433
-- PREV: I looked at her.
+- PREV: "No sword today," Hessa said. I looked at her.
 - CURR: "Why?"
 - NEXT: "Mana."
 
-### P434
+### P432
 - PREV: "Why?"
 - CURR: "Mana."
 - NEXT: "Excellent."
 
-### P435
+### P433
 - PREV: "Mana."
 - CURR: "Excellent."
 - NEXT: "You say that when you're about to make me regret something."
 
-### P436
+### P434
 - PREV: "Excellent."
 - CURR: "You say that when you're about to make me regret something."
 - NEXT: "I say it when developments are excellent."
 
-### P437
+### P435
 - PREV: "You say that when you're about to make me regret something."
 - CURR: "I say it when developments are excellent."
 - NEXT: "You said it when you vomited."
 
-### P438
+### P436
 - PREV: "I say it when developments are excellent."
 - CURR: "You said it when you vomited."
 - NEXT: "That was educational."
 
-### P439
+### P437
 - PREV: "You said it when you vomited."
 - CURR: "That was educational."
 - NEXT: "It was on my floor."
 
-### P440
+### P438
 - PREV: "That was educational."
 - CURR: "It was on my floor."
 - NEXT: "Also educational." Hessa pointed to the mat. I sat.
 
-### P441
+### P439
 - PREV: "It was on my floor."
 - CURR: "Also educational." Hessa pointed to the mat. I sat.
 - NEXT: Mana conditioning remained humiliating. There was no dignified way to describe sitting cross-legged while trying to persuade a body to notice something my mind remembered as obvious. Mana had once been everywhere. Not metaphorically. I had felt it in rooms, people, spells, stone, weather, bad enchantments, good enchantments, wounds, monsters, and the peculiar pressure behind the eyes that meant somebody nearby was doing something clever and probably irresponsible.
 
-### P443
+### P441
 - PREV: Mana conditioning remained humiliating. There was no dignified way to describe sitting cross-legged while trying to persuade a body to notice something my mind remembered as obvious. Mana had once been everywhere. Not metaphorically. I had felt it in rooms, people, spells, stone, weather, bad enchantments, good enchantments, wounds, monsters, and the peculiar pressure behind the eyes that meant somebody nearby was doing something clever and probably irresponsible.
 - CURR: Now? Mostly nothing. A warmth sometimes. A thread. A pressure that disappeared when I chased it. Hessa said, "Four counts."
 - NEXT: "I can do five."
 
-### P444
+### P442
 - PREV: Now? Mostly nothing. A warmth sometimes. A thread. A pressure that disappeared when I chased it. Hessa said, "Four counts."
 - CURR: "I can do five."
 - NEXT: "Four."
 
-### P445
+### P443
 - PREV: "I can do five."
 - CURR: "Four."
 - NEXT: "I did five yesterday."
 
-### P446
+### P444
 - PREV: "Four."
 - CURR: "I did five yesterday."
 - NEXT: "You failed five yesterday."
 
-### P447
+### P445
 - PREV: "I did five yesterday."
 - CURR: "You failed five yesterday."
 - NEXT: "I reached five."
 
-### P448
+### P446
 - PREV: "You failed five yesterday."
 - CURR: "I reached five."
 - NEXT: "And lost the channel."
 
-### P449
+### P447
 - PREV: "I reached five."
 - CURR: "And lost the channel."
 - NEXT: "After five."
 
-### P450
+### P448
 - PREV: "And lost the channel."
 - CURR: "After five."
 - NEXT: "Which means?"
 
-### P451
+### P449
 - PREV: "After five."
 - CURR: "Which means?"
 - NEXT: "Five."
 
-### P452
+### P450
 - PREV: "Which means?"
 - CURR: "Five."
 - NEXT: "Four."
 
-### P453
+### P451
 - PREV: "Five."
 - CURR: "Four."
 - NEXT: Constraint. I hated how often other people improved my life by refusing to negotiate. I breathed. Four counts in. Hold. Not the lungs. Below.
 
-### P457
+### P455
 - PREV: That was old-language thinking. Hessa had explained this. Do not reach for the old sensation. Build the present one. I corrected. Again. Warmth. Thin. There. I held it. One. Two. Three. Four. Release. Again. By the sixth cycle, sweat had formed along my spine. Ridiculous. I had once reinforced three people simultaneously while maintaining two layered Barriers and arguing with a duke.
 - CURR: Probably. Maybe it had been two people. The duke was definite. He had been an asshole. Focus. Four. Release. Hessa said, "Again." I did. Something changed. Small. The warmth did not disappear on release. It lingered. Not much. A filament. I went still. Hessa said, "Don't chase it."
 - NEXT: "I know."
 
-### P458
+### P456
 - PREV: Probably. Maybe it had been two people. The duke was definite. He had been an asshole. Focus. Four. Release. Hessa said, "Again." I did. Something changed. Small. The warmth did not disappear on release. It lingered. Not much. A filament. I went still. Hessa said, "Don't chase it."
 - CURR: "I know."
 - NEXT: "You are chasing it."
 
-### P459
+### P457
 - PREV: "I know."
 - CURR: "You are chasing it."
 - NEXT: "I am observing aggressively."
 
-### P460
+### P458
 - PREV: "You are chasing it."
 - CURR: "I am observing aggressively."
 - NEXT: "Greg."
 
-### P461
+### P459
 - PREV: "I am observing aggressively."
 - CURR: "Greg."
 - NEXT: Fine. I relaxed. The filament remained. My heart started beating harder. That did not help.
 
-### P463
+### P461
 - PREV: Fine. I relaxed. The filament remained. My heart started beating harder. That did not help.
-- CURR: "Again," Hessa said.
-- NEXT: I breathed.
+- CURR: "Again," Hessa said. I breathed.
+- NEXT: Four. Hold. This time the thread widened. Not power. Path. A remembered road being rebuilt one stone at a time. I knew where it wanted to go. That was the dangerous part. Old Greg knew. Young body did not. I could force,
 
-### P468
+### P465
 - PREV: Hessa would hit me. Possibly deserved. I followed the exercise. Release. The thread remained. Hessa leaned closer.
 - CURR: "Again."
 - NEXT: Her voice had changed. That frightened me more than shouting would have. I breathed. Four. The mana gathered. Tiny. Embarrassing. Mine. I opened my eyes. Hessa said, "Don't."
 
-### P469
+### P466
 - PREV: "Again."
 - CURR: Her voice had changed. That frightened me more than shouting would have. I breathed. Four. The mana gathered. Tiny. Embarrassing. Mine. I opened my eyes. Hessa said, "Don't."
 - NEXT: "I need to see."
 
-### P470
+### P467
 - PREV: Her voice had changed. That frightened me more than shouting would have. I breathed. Four. The mana gathered. Tiny. Embarrassing. Mine. I opened my eyes. Hessa said, "Don't."
 - CURR: "I need to see."
 - NEXT: "You need to hold."
 
-### P471
+### P468
 - PREV: "I need to see."
 - CURR: "You need to hold."
 - NEXT: "I can do both."
 
-### P472
+### P469
 - PREV: "You need to hold."
 - CURR: "I can do both."
 - NEXT: "That sentence has caused most of your problems."
 
-### P473
+### P470
 - PREV: "I can do both."
 - CURR: "That sentence has caused most of your problems."
 - NEXT: Fair. I closed them. Hold. The shape came to me before I invited it. Barrier. Not the spell. The idea of the spell. Plane. Boundary.
 
-### P476
+### P473
 - PREV: No.
 - CURR: Too much. Hessa had told me not to cast. I was not casting. I was remembering. Different. Probably. The mana moved. Hessa said, very sharply, "Greg." I stopped. The thread collapsed. Pain flashed behind my eyes. I opened them. Hessa was furious. Also excited. Mostly furious.
 - NEXT: "What did you do?"
 
-### P477
+### P474
 - PREV: Too much. Hessa had told me not to cast. I was not casting. I was remembering. Different. Probably. The mana moved. Hessa said, very sharply, "Greg." I stopped. The thread collapsed. Pain flashed behind my eyes. I opened them. Hessa was furious. Also excited. Mostly furious.
 - CURR: "What did you do?"
 - NEXT: "Nothing."
 
-### P478
+### P475
 - PREV: "What did you do?"
 - CURR: "Nothing."
 - NEXT: "Wrong answer."
 
-### P479
+### P476
 - PREV: "Nothing."
 - CURR: "Wrong answer."
 - NEXT: "I shaped."
 
-### P480
+### P477
 - PREV: "Wrong answer."
 - CURR: "I shaped."
 - NEXT: "I told you not to."
 
-### P481
+### P478
 - PREV: "I shaped."
 - CURR: "I told you not to."
 - NEXT: "I barely shaped."
 
-### P482
+### P479
 - PREV: "I told you not to."
 - CURR: "I barely shaped."
 - NEXT: "You barely have channels."
 
-### P483
+### P480
 - PREV: "I barely shaped."
 - CURR: "You barely have channels."
 - NEXT: "That's why barely seemed appropriate." She stared at me. I smiled.
 
-### P484
+### P481
 - PREV: "You barely have channels."
 - CURR: "That's why barely seemed appropriate." She stared at me. I smiled.
 - NEXT: Wrong.
 
-### P486
+### P483
 - PREV: Wrong.
 - CURR: "Do it again," she said. I blinked.
 - NEXT: "What?"
 
-### P487
+### P484
 - PREV: "Do it again," she said. I blinked.
 - CURR: "What?"
 - NEXT: "Not the shape. The channel."
 
-### P488
+### P485
 - PREV: "What?"
 - CURR: "Not the shape. The channel."
 - NEXT: "Oh." I sat straighter.
 
-### P489
+### P486
 - PREV: "Not the shape. The channel."
 - CURR: "Oh." I sat straighter.
 - NEXT: Again. Four counts. Warmth. Thread. Hold. Release. Again. It came easier. Not easy. Easier. After three cycles Hessa held up one hand.
 
-### P491
+### P488
 - PREV: Again. Four counts. Warmth. Thread. Hold. Release. Again. It came easier. Not easy. Easier. After three cycles Hessa held up one hand.
 - CURR: "Enough."
 - NEXT: "I can continue."
 
-### P492
+### P489
 - PREV: "Enough."
 - CURR: "I can continue."
 - NEXT: "No."
 
-### P493
+### P490
 - PREV: "I can continue."
 - CURR: "No."
 - NEXT: "I feel fine."
 
-### P494
+### P491
 - PREV: "No."
 - CURR: "I feel fine."
 - NEXT: "That's because you don't know what damaged feels like yet."
 
-### P495
+### P492
 - PREV: "I feel fine."
 - CURR: "That's because you don't know what damaged feels like yet."
 - NEXT: "I know exactly what mana damage feels like."
 
-### P496
+### P493
 - PREV: "That's because you don't know what damaged feels like yet."
 - CURR: "I know exactly what mana damage feels like."
 - NEXT: Silence. Fuck. Hessa's eyes narrowed. I corrected.
 
-### P498
+### P495
 - PREV: Silence. Fuck. Hessa's eyes narrowed. I corrected.
 - CURR: "I've seen it."
 - NEXT: "On whom?"
 
-### P499
+### P496
 - PREV: "I've seen it."
 - CURR: "On whom?"
 - NEXT: "People."
 
-### P500
+### P497
 - PREV: "On whom?"
 - CURR: "People."
 - NEXT: "Useful."
 
-### P501
+### P498
 - PREV: "People."
 - CURR: "Useful."
 - NEXT: "Very." She sat opposite me.
 
-### P502
+### P499
 - PREV: "Useful."
 - CURR: "Very." She sat opposite me.
 - NEXT: "Barrier?" I looked at her.
 
-### P503
+### P500
 - PREV: "Very." She sat opposite me.
 - CURR: "Barrier?" I looked at her.
 - NEXT: "What?"
 
-### P504
+### P501
 - PREV: "Barrier?" I looked at her.
 - CURR: "What?"
 - NEXT: "The shape." I could lie.
 
-### P505
+### P502
 - PREV: "What?"
 - CURR: "The shape." I could lie.
 - NEXT: There was no point.
 
-### P507
+### P504
 - PREV: There was no point.
 - CURR: "Yes."
 - NEXT: "Why Barrier?"
 
-### P508
+### P505
 - PREV: "Yes."
 - CURR: "Why Barrier?"
 - NEXT: That question was so large it almost became funny. Because it was the first spell. Because sex. Because embarrassment. Because survival. Because decades later I had built things with Barrier that would have made the idiot who taught me laugh until he pissed himself. Because it had become the language my magic thought in. Because somewhere between crude contraception and S-class support work, a cheap defensive spell had turned into part of my hands.
 
-### P510
+### P507
 - PREV: That question was so large it almost became funny. Because it was the first spell. Because sex. Because embarrassment. Because survival. Because decades later I had built things with Barrier that would have made the idiot who taught me laugh until he pissed himself. Because it had become the language my magic thought in. Because somewhere between crude contraception and S-class support work, a cheap defensive spell had turned into part of my hands.
 - CURR: "Familiar," I said. Hessa waited.
 - NEXT: "That's all?"
 
-### P511
+### P508
 - PREV: "Familiar," I said. Hessa waited.
 - CURR: "That's all?"
 - NEXT: "No."
 
-### P512
+### P509
 - PREV: "That's all?"
 - CURR: "No."
 - NEXT: "Then?" I smiled.
 
-### P513
+### P510
 - PREV: "No."
 - CURR: "Then?" I smiled.
 - NEXT: "Long story."
 
-### P514
+### P511
 - PREV: "Then?" I smiled.
 - CURR: "Long story."
 - NEXT: "I charge by the lesson."
 
-### P515
+### P512
 - PREV: "Long story."
 - CURR: "I charge by the lesson."
 - NEXT: "Then you can't afford it." She threw a cloth at me. I caught it.
 
-### P516
+### P513
 - PREV: "I charge by the lesson."
 - CURR: "Then you can't afford it." She threw a cloth at me. I caught it.
 - NEXT: "Go home."
 
-### P517
+### P514
 - PREV: "Then you can't afford it." She threw a cloth at me. I caught it.
 - CURR: "Go home."
 - NEXT: "We have time."
 
-### P518
+### P515
 - PREV: "Go home."
 - CURR: "We have time."
 - NEXT: "You are done."
 
-### P519
+### P516
 - PREV: "We have time."
 - CURR: "You are done."
 - NEXT: "I could practice control."
 
-### P520
+### P517
 - PREV: "You are done."
 - CURR: "I could practice control."
 - NEXT: "You could damage yourself and explain afterward why it was reasonable." I thought of Antonius. Your problem is you think being able to explain a mistake means you can afford it.
 
-### P521
+### P518
 - PREV: "I could practice control."
 - CURR: "You could damage yourself and explain afterward why it was reasonable." I thought of Antonius. Your problem is you think being able to explain a mistake means you can afford it.
 - NEXT: Annoying. People were collaborating against me without meeting.
 
-### P523
+### P520
 - PREV: Annoying. People were collaborating against me without meeting.
 - CURR: "Reasonable," I said. Hessa smiled.
 - NEXT: I hated that too. Outside, the afternoon had gone gold around the rooftops. I should have gone home. Instead I walked toward Arlo's workshop. This was not disobedience. Hessa had said go home. Arlo's workshop was on the way if I took an objectively terrible route. I arrived to find him arguing with a metal plate.
 
-### P525
+### P522
 - PREV: I hated that too. Outside, the afternoon had gone gold around the rooftops. I should have gone home. Instead I walked toward Arlo's workshop. This was not disobedience. Hessa had said go home. Arlo's workshop was on the way if I took an objectively terrible route. I arrived to find him arguing with a metal plate.
 - CURR: "Busy?" I asked.
 - NEXT: "Yes."
 
-### P526
+### P523
 - PREV: "Busy?" I asked.
 - CURR: "Yes."
 - NEXT: "Excellent."
 
-### P527
+### P524
 - PREV: "Yes."
 - CURR: "Excellent."
 - NEXT: "No." I stepped inside.
 
-### P528
+### P525
 - PREV: "Excellent."
 - CURR: "No." I stepped inside.
 - NEXT: The workshop smelled of hot metal, oil, stone dust, and something acidic enough that I decided breathing shallowly was prudent. Arlo pointed toward a stool.
 
-### P530
+### P527
 - PREV: The workshop smelled of hot metal, oil, stone dust, and something acidic enough that I decided breathing shallowly was prudent. Arlo pointed toward a stool.
 - CURR: "Sit." I sat. He kept working.
 - NEXT: Five minutes passed. I managed four without speaking.
 
-### P532
+### P529
 - PREV: Five minutes passed. I managed four without speaking.
 - CURR: "Kelva," I said. Arlo did not look up.
 - NEXT: "South workshop."
 
-### P533
+### P530
 - PREV: "Kelva," I said. Arlo did not look up.
 - CURR: "South workshop."
 - NEXT: "You remembered?"
 
-### P534
+### P531
 - PREV: "South workshop."
 - CURR: "You remembered?"
 - NEXT: "Registry copy. I checked." I stood. He pointed at the stool. I sat.
 
-### P535
+### P532
 - PREV: "You remembered?"
 - CURR: "Registry copy. I checked." I stood. He pointed at the stool. I sat.
 - NEXT: "What specialty?"
 
-### P536
+### P533
 - PREV: "Registry copy. I checked." I stood. He pointed at the stool. I sat.
 - CURR: "What specialty?"
 - NEXT: "Handling tools."
 
-### P537
+### P534
 - PREV: "What specialty?"
 - CURR: "Handling tools."
 - NEXT: My skin prickled.
 
-### P539
+### P536
 - PREV: My skin prickled.
 - CURR: "For?"
 - NEXT: "Live arrays. Unstable cores. Ward maintenance. Some alchemical work." I smiled. Arlo looked over.
 
-### P540
+### P537
 - PREV: "For?"
 - CURR: "Live arrays. Unstable cores. Ward maintenance. Some alchemical work." I smiled. Arlo looked over.
 - NEXT: "You guessed."
 
-### P541
+### P538
 - PREV: "Live arrays. Unstable cores. Ward maintenance. Some alchemical work." I smiled. Arlo looked over.
 - CURR: "You guessed."
 - NEXT: "I remembered approximately."
 
-### P542
+### P539
 - PREV: "You guessed."
 - CURR: "I remembered approximately."
 - NEXT: "You guessed."
 
-### P543
+### P540
 - PREV: "I remembered approximately."
 - CURR: "You guessed."
 - NEXT: "History vindicates confidence."
 
-### P544
+### P541
 - PREV: "You guessed."
 - CURR: "History vindicates confidence."
 - NEXT: "No."
 
-### P545
+### P542
 - PREV: "History vindicates confidence."
 - CURR: "No."
 - NEXT: "Value?"
 
-### P546
+### P543
 - PREV: "No."
 - CURR: "Value?"
 - NEXT: "Complete? Depends."
 
-### P547
+### P544
 - PREV: "Value?"
 - CURR: "Complete? Depends."
 - NEXT: "That word again."
 
-### P548
+### P545
 - PREV: "Complete? Depends."
 - CURR: "That word again."
 - NEXT: "Specialist tool. Small market."
 
-### P549
+### P546
 - PREV: "That word again."
 - CURR: "Specialist tool. Small market."
 - NEXT: "How small?"
 
-### P550
+### P547
 - PREV: "Specialist tool. Small market."
 - CURR: "How small?"
 - NEXT: "Very."
 
-### P551
+### P548
 - PREV: "How small?"
 - CURR: "Very."
 - NEXT: "How valuable?"
 
-### P552
+### P549
 - PREV: "Very."
 - CURR: "How valuable?"
 - NEXT: "To the right person? Ten gold, maybe twenty if the stones are original and the missing sleeve can be reproduced."
 
-### P553
+### P550
 - PREV: "How valuable?"
 - CURR: "To the right person? Ten gold, maybe twenty if the stones are original and the missing sleeve can be reproduced."
 - NEXT: Antonius's five-gold loan was safe. Probably.
 
-### P556
+### P553
 - PREV: Good.
 - CURR: "And the borrower wanted six."
 - NEXT: "Yes."
 
-### P557
+### P554
 - PREV: "And the borrower wanted six."
 - CURR: "Yes."
 - NEXT: "Antonius lent five." Arlo nodded.
 
-### P558
+### P555
 - PREV: "Yes."
 - CURR: "Antonius lent five." Arlo nodded.
 - NEXT: "Good." I stared.
 
-### P559
+### P556
 - PREV: "Antonius lent five." Arlo nodded.
 - CURR: "Good." I stared.
 - NEXT: "What?"
 
-### P560
+### P557
 - PREV: "Good." I stared.
 - CURR: "What?"
 - NEXT: "Nothing."
 
-### P561
+### P558
 - PREV: "What?"
 - CURR: "Nothing."
 - NEXT: "You said good."
 
-### P562
+### P559
 - PREV: "Nothing."
 - CURR: "You said good."
 - NEXT: "Don't make it strange."
 
-### P563
+### P560
 - PREV: "You said good."
 - CURR: "Don't make it strange."
 - NEXT: "Too late." He put down his tool.
 
-### P564
+### P561
 - PREV: "Don't make it strange."
 - CURR: "Too late." He put down his tool.
 - NEXT: "The Tere box."
 
-### P565
+### P562
 - PREV: "Too late." He put down his tool.
 - CURR: "The Tere box."
 - NEXT: Finally. I produced the little wooden box from my coat. Antonius had let me take it under the deeply offensive condition that Arlo sign a receipt acknowledging temporary possession. Arlo read the receipt.
 
-### P567
+### P564
 - PREV: Finally. I produced the little wooden box from my coat. Antonius had let me take it under the deeply offensive condition that Arlo sign a receipt acknowledging temporary possession. Arlo read the receipt.
 - CURR: "Ten silver?"
 - NEXT: "Extortion."
 
-### P568
+### P565
 - PREV: "Ten silver?"
 - CURR: "Extortion."
 - NEXT: "You told him forty gold."
 
-### P569
+### P566
 - PREV: "Extortion."
 - CURR: "You told him forty gold."
 - NEXT: "I was being honest."
 
-### P570
+### P567
 - PREV: "You told him forty gold."
 - CURR: "I was being honest."
 - NEXT: "That was your first mistake."
 
-### P571
+### P568
 - PREV: "I was being honest."
 - CURR: "That was your first mistake."
 - NEXT: "Not my first."
 
-### P572
+### P569
 - PREV: "That was your first mistake."
 - CURR: "Not my first."
 - NEXT: "Today?"
 
-### P573
+### P570
 - PREV: "Not my first."
 - CURR: "Today?"
 - NEXT: "Probably." He opened the box. The gray hook.
 
-### P574
+### P571
 - PREV: "Today?"
 - CURR: "Probably." He opened the box. The gray hook.
 - NEXT: Two rods. Tiny square plates. Three-tooth mark. Arlo stopped joking. That was satisfying. He lifted one rod. Carefully. Turned it.
 
-### P576
+### P573
 - PREV: Two rods. Tiny square plates. Three-tooth mark. Arlo stopped joking. That was satisfying. He lifted one rod. Carefully. Turned it.
 - CURR: "Where did you say this came from?"
 - NEXT: "Orlan Tere."
 
-### P577
+### P574
 - PREV: "Where did you say this came from?"
 - CURR: "Orlan Tere."
 - NEXT: "You didn't say that."
 
-### P578
+### P575
 - PREV: "Orlan Tere."
 - CURR: "You didn't say that."
 - NEXT: "I did."
 
-### P579
+### P576
 - PREV: "You didn't say that."
 - CURR: "I did."
 - NEXT: "You said Tere."
 
-### P580
+### P577
 - PREV: "I did."
 - CURR: "You said Tere."
 - NEXT: "Same number of useful syllables." Arlo looked at me.
 
-### P581
+### P578
 - PREV: "You said Tere."
 - CURR: "Same number of useful syllables." Arlo looked at me.
 - NEXT: "Orlan Tere?"
 
-### P582
+### P579
 - PREV: "Same number of useful syllables." Arlo looked at me.
 - CURR: "Orlan Tere?"
 - NEXT: "Yes."
 
-### P583
+### P580
 - PREV: "Orlan Tere?"
 - CURR: "Yes."
 - NEXT: "You're sure?"
 
-### P584
+### P581
 - PREV: "Yes."
 - CURR: "You're sure?"
 - NEXT: "Antonius had the debtor record." Arlo set the rod down.
 
-### P585
+### P582
 - PREV: "You're sure?"
 - CURR: "Antonius had the debtor record." Arlo set the rod down.
 - NEXT: "Fuck."
 
-### P586
+### P583
 - PREV: "Antonius had the debtor record." Arlo set the rod down.
 - CURR: "Fuck."
 - NEXT: There. That was the reaction ten silver deserved.
 
-### P588
+### P585
 - PREV: There. That was the reaction ten silver deserved.
 - CURR: "What?"
 - NEXT: "Do you know what this is?"
 
-### P589
+### P586
 - PREV: "What?"
 - CURR: "Do you know what this is?"
 - NEXT: "Calibration gauge." Arlo looked offended.
 
-### P590
+### P587
 - PREV: "Do you know what this is?"
 - CURR: "Calibration gauge." Arlo looked offended.
 - NEXT: "I know that."
 
-### P591
+### P588
 - PREV: "Calibration gauge." Arlo looked offended.
 - CURR: "I know that."
 - NEXT: "Then why ask?"
 
-### P592
+### P589
 - PREV: "I know that."
 - CURR: "Then why ask?"
 - NEXT: "Which gauge?" I paused.
 
-### P593
+### P590
 - PREV: "Then why ask?"
 - CURR: "Which gauge?" I paused.
 - NEXT: "Mana regulation."
 
-### P594
+### P591
 - PREV: "Which gauge?" I paused.
 - CURR: "Mana regulation."
 - NEXT: "That's not specific."
 
-### P595
+### P592
 - PREV: "Mana regulation."
 - CURR: "That's not specific."
 - NEXT: "Precision mana regulation."
 
-### P596
+### P593
 - PREV: "That's not specific."
 - CURR: "Precision mana regulation."
 - NEXT: "Still not." I hated experts. Arlo arranged the pieces.
 
-### P597
+### P594
 - PREV: "Precision mana regulation."
 - CURR: "Still not." I hated experts. Arlo arranged the pieces.
 - NEXT: "The hook isn't a hook."
 
-### P598
+### P595
 - PREV: "Still not." I hated experts. Arlo arranged the pieces.
 - CURR: "The hook isn't a hook."
 - NEXT: "I knew that."
 
-### P599
+### P596
 - PREV: "The hook isn't a hook."
 - CURR: "I knew that."
 - NEXT: "No, you didn't."
 
-### P600
+### P597
 - PREV: "I knew that."
 - CURR: "No, you didn't."
 - NEXT: "I suspected."
 
-### P601
+### P598
 - PREV: "No, you didn't."
 - CURR: "I suspected."
 - NEXT: "It's a bridge."
 
-### P602
+### P599
 - PREV: "I suspected."
 - CURR: "It's a bridge."
 - NEXT: "For?"
 
-### P603
+### P600
 - PREV: "It's a bridge."
 - CURR: "For?"
 - NEXT: "Comparing flow across two channels."
 
-### P604
+### P601
 - PREV: "For?"
 - CURR: "Comparing flow across two channels."
 - NEXT: There. Something clicked. Not memory. Function. The square plates were not parts. Standards. Known resistances. Known tolerances. You could test a regulator against them. Not make magic. Measure it. That was why the niche value was absurd. A master artificer could use this to calibrate other tools. A workshop could standardize output. A specialist could reproduce work reliably instead of trusting feel. Forty gold suddenly seemed less stupid.
 
-### P607
+### P604
 - PREV: Possibly more. Arlo was breathing differently. I noticed.
 - CURR: "How valuable?" He did not answer.
 - NEXT: "Arlo."
 
-### P608
+### P605
 - PREV: "How valuable?" He did not answer.
 - CURR: "Arlo."
 - NEXT: "Shut up."
 
-### P609
+### P606
 - PREV: "Arlo."
 - CURR: "Shut up."
 - NEXT: "That's not a number." He examined the smallest plate.
 
-### P610
+### P607
 - PREV: "Shut up."
 - CURR: "That's not a number." He examined the smallest plate.
 - NEXT: Then another.
 
-### P612
+### P609
 - PREV: Then another.
 - CURR: "These aren't all the same alloy."
 - NEXT: "Obviously."
 
-### P613
+### P610
 - PREV: "These aren't all the same alloy."
 - CURR: "Obviously."
 - NEXT: "No. Greg." He looked at me.
 
-### P614
+### P611
 - PREV: "Obviously."
 - CURR: "No. Greg." He looked at me.
 - NEXT: "This is a reference set."
 
-### P615
+### P612
 - PREV: "No. Greg." He looked at me.
 - CURR: "This is a reference set."
 - NEXT: "Yes."
 
-### P616
+### P613
 - PREV: "This is a reference set."
 - CURR: "Yes."
 - NEXT: "Do you understand what that means?"
 
-### P617
+### P614
 - PREV: "Yes."
 - CURR: "Do you understand what that means?"
 - NEXT: "Enough to have ruined my negotiation."
 
-### P618
+### P615
 - PREV: "Do you understand what that means?"
 - CURR: "Enough to have ruined my negotiation."
 - NEXT: "Who else knows you have it?"
 
-### P619
+### P616
 - PREV: "Enough to have ruined my negotiation."
 - CURR: "Who else knows you have it?"
 - NEXT: "Antonius."
 
-### P620
+### P617
 - PREV: "Who else knows you have it?"
 - CURR: "Antonius."
 - NEXT: "Who else?"
 
-### P621
+### P618
 - PREV: "Antonius."
 - CURR: "Who else?"
 - NEXT: "Rusk, probably."
 
-### P622
+### P619
 - PREV: "Who else?"
 - CURR: "Rusk, probably."
 - NEXT: "Who else?"
 
-### P623
+### P620
 - PREV: "Rusk, probably."
 - CURR: "Who else?"
 - NEXT: "No one." Arlo closed the box.
 
-### P624
+### P621
 - PREV: "Who else?"
 - CURR: "No one." Arlo closed the box.
 - NEXT: "Keep it that way." I stared.
 
-### P625
+### P622
 - PREV: "No one." Arlo closed the box.
 - CURR: "Keep it that way." I stared.
 - NEXT: "Forty?" He laughed.
 
-### P626
+### P623
 - PREV: "Keep it that way." I stared.
 - CURR: "Forty?" He laughed.
 - NEXT: Not happily.
 
-### P628
+### P625
 - PREV: Not happily.
 - CURR: "To most people? Scrap."
 - NEXT: "Yes."
 
-### P629
+### P626
 - PREV: "To most people? Scrap."
 - CURR: "Yes."
 - NEXT: "To me?"
 
-### P630
+### P627
 - PREV: "Yes."
 - CURR: "To me?"
 - NEXT: There. I leaned forward.
 
-### P632
+### P629
 - PREV: There. I leaned forward.
 - CURR: "How much?" Arlo looked at the box.
 - NEXT: "More than I can pay."
 
-### P633
+### P630
 - PREV: "How much?" Arlo looked at the box.
 - CURR: "More than I can pay."
 - NEXT: That was not a number. It was better. For one stupid second, old calibration returned. Gold had once been logistics. Payroll. Equipment. Political favors. Emergency spell components. Numbers large enough that forty gold barely registered in some rooms. Now ten silver was difficult. And sitting between us was a piece of trash that could be worth more than Antonius's visible warehouse to exactly the right handful of people. Not to me.
 
-### P636
+### P633
 - PREV: That mattered. I could not eat it. Could not cast with it. Could not swing it. Could not pay Hessa with its theoretical value unless I sold it. And selling it to the wrong person would be stupid. The value lived in someone else's hands. Arlo's, perhaps. I looked at him. He was still staring at the box. Not greed. Possibility. I knew that face. Mine probably looked worse.
 - CURR: "What could you do with it?" Arlo answered immediately.
 - NEXT: Then stopped. Interesting.
 
-### P638
+### P635
 - PREV: Then stopped. Interesting.
 - CURR: "What?"
 - NEXT: "No."
 
-### P639
+### P636
 - PREV: "What?"
 - CURR: "No."
 - NEXT: "Arlo."
 
-### P640
+### P637
 - PREV: "No."
 - CURR: "Arlo."
 - NEXT: "No."
 
-### P641
+### P638
 - PREV: "Arlo."
 - CURR: "No."
 - NEXT: "That's Antonius's word."
 
-### P642
+### P639
 - PREV: "No."
 - CURR: "That's Antonius's word."
 - NEXT: "It's useful."
 
-### P643
+### P640
 - PREV: "That's Antonius's word."
 - CURR: "It's useful."
 - NEXT: "What could you do?" He leaned back.
 
-### P644
+### P641
 - PREV: "It's useful."
 - CURR: "What could you do?" He leaned back.
 - NEXT: "Better regulators."
 
-### P645
+### P642
 - PREV: "What could you do?" He leaned back.
 - CURR: "Better regulators."
 - NEXT: "How much better?"
 
-### P646
+### P643
 - PREV: "Better regulators."
 - CURR: "How much better?"
 - NEXT: "I don't know."
 
-### P647
+### P644
 - PREV: "How much better?"
 - CURR: "I don't know."
 - NEXT: "Approximately."
 
-### P648
+### P645
 - PREV: "I don't know."
 - CURR: "Approximately."
 - NEXT: "No."
 
-### P649
+### P646
 - PREV: "Approximately."
 - CURR: "No."
 - NEXT: "Not enough information yet?" He glared. I smiled.
 
-### P650
+### P647
 - PREV: "No."
 - CURR: "Not enough information yet?" He glared. I smiled.
 - NEXT: Then he said, "Consistent." The word was quiet. I stopped smiling. There it was. Not stronger. Consistent. Arlo's shale work had already shown me how much of early artificing lived in hands, habits, batches, intuition, tiny corrections nobody wrote down. A reference set changed that. Maybe. If genuine. If complete enough. If Arlo knew how to use it. If we did not destroy it learning.
 
-### P651
+### P648
 - PREV: "Not enough information yet?" He glared. I smiled.
 - CURR: Then he said, "Consistent." The word was quiet. I stopped smiling. There it was. Not stronger. Consistent. Arlo's shale work had already shown me how much of early artificing lived in hands, habits, batches, intuition, tiny corrections nobody wrote down. A reference set changed that. Maybe. If genuine. If complete enough. If Arlo knew how to use it. If we did not destroy it learning.
 - NEXT: Branches. So many. Arwick Works. Future manufacturing. Standards. Scale. My mind opened like a door in a storm. Arlo. Antonius. Capital. Shale ceramics. Regulators. Calibration service. Sell access, not object. License,
 
-### P655
+### P652
 - PREV: I stopped. Arlo noticed.
 - CURR: "What?"
 - NEXT: "Nothing."
 
-### P656
+### P653
 - PREV: "What?"
 - CURR: "Nothing."
 - NEXT: "You had the face."
 
-### P657
+### P654
 - PREV: "Nothing."
 - CURR: "You had the face."
 - NEXT: "I killed it."
 
-### P658
+### P655
 - PREV: "You had the face."
 - CURR: "I killed it."
 - NEXT: "Good."
 
-### P659
+### P656
 - PREV: "I killed it."
 - CURR: "Good."
 - NEXT: "Mostly." He laughed. I put both hands on the table.
 
-### P660
+### P657
 - PREV: "Good."
 - CURR: "Mostly." He laughed. I put both hands on the table.
 - NEXT: "What do you need from me?" Arlo frowned.
 
-### P661
+### P658
 - PREV: "Mostly." He laughed. I put both hands on the table.
 - CURR: "What do you need from me?" Arlo frowned.
 - NEXT: That was not the question he expected.
 
-### P664
+### P661
 - PREV: Good.
 - CURR: "Nothing."
 - NEXT: "Wrong."
 
-### P665
+### P662
 - PREV: "Nothing."
 - CURR: "Wrong."
 - NEXT: "It's your gauge."
 
-### P666
+### P663
 - PREV: "Wrong."
 - CURR: "It's your gauge."
 - NEXT: "Exactly. And it is useless to me."
 
-### P667
+### P664
 - PREV: "It's your gauge."
 - CURR: "Exactly. And it is useless to me."
 - NEXT: "Sell it."
 
-### P668
+### P665
 - PREV: "Exactly. And it is useless to me."
 - CURR: "Sell it."
 - NEXT: "No."
 
-### P669
+### P666
 - PREV: "Sell it."
 - CURR: "No."
 - NEXT: "Then what?" I looked at the box. Then at Arlo.
 
-### P670
+### P667
 - PREV: "No."
 - CURR: "Then what?" I looked at the box. Then at Arlo.
 - NEXT: "Use it." He went still.
 
-### P671
+### P668
 - PREV: "Then what?" I looked at the box. Then at Arlo.
 - CURR: "Use it." He went still.
 - NEXT: Not dramatically. Arlo was not dramatic. His stillness was smaller. More expensive.
 
-### P673
+### P670
 - PREV: Not dramatically. Arlo was not dramatic. His stillness was smaller. More expensive.
 - CURR: "Greg."
 - NEXT: "I didn't say take it."
 
-### P674
+### P671
 - PREV: "Greg."
 - CURR: "I didn't say take it."
 - NEXT: "Good."
 
-### P675
+### P672
 - PREV: "I didn't say take it."
 - CURR: "Good."
 - NEXT: "I said use it."
 
-### P676
+### P673
 - PREV: "Good."
 - CURR: "I said use it."
 - NEXT: "Why?"
 
-### P677
+### P674
 - PREV: "I said use it."
 - CURR: "Why?"
 - NEXT: Because Arwick mattered. Because I remembered the name. Because future workshops stamped ARWICK on things important people trusted. Because maybe this was one of the bricks. Because I was better at seeing Arlo's next step than my own. Because the object was worth more in his hands than mine. Too many answers. I chose the present one.
 
-### P679
+### P676
 - PREV: Because Arwick mattered. Because I remembered the name. Because future workshops stamped ARWICK on things important people trusted. Because maybe this was one of the bricks. Because I was better at seeing Arlo's next step than my own. Because the object was worth more in his hands than mine. Too many answers. I chose the present one.
 - CURR: "Because you're the only artificer I know who understands why it's valuable."
 - NEXT: "That's a terrible reason."
 
-### P680
+### P677
 - PREV: "Because you're the only artificer I know who understands why it's valuable."
 - CURR: "That's a terrible reason."
 - NEXT: "It's the reason available."
 
-### P681
+### P678
 - PREV: "That's a terrible reason."
 - CURR: "It's the reason available."
 - NEXT: "You barely know me."
 
-### P682
+### P679
 - PREV: "It's the reason available."
 - CURR: "You barely know me."
 - NEXT: "I know your work."
 
-### P683
+### P680
 - PREV: "You barely know me."
 - CURR: "I know your work."
 - NEXT: "You know three weeks of my work."
 
-### P684
+### P681
 - PREV: "I know your work."
 - CURR: "You know three weeks of my work."
 - NEXT: "How much do you need?"
 
-### P685
+### P682
 - PREV: "You know three weeks of my work."
 - CURR: "How much do you need?"
 - NEXT: "For what?"
 
-### P686
+### P683
 - PREV: "How much do you need?"
 - CURR: "For what?"
 - NEXT: "To test it without damaging it." Arlo looked at me for a long moment. Then at the box.
 
-### P687
+### P684
 - PREV: "For what?"
 - CURR: "To test it without damaging it." Arlo looked at me for a long moment. Then at the box.
 - NEXT: "Time."
 
-### P688
+### P685
 - PREV: "To test it without damaging it." Arlo looked at me for a long moment. Then at the box.
 - CURR: "Time."
 - NEXT: "I have debt."
 
-### P689
+### P686
 - PREV: "Time."
 - CURR: "I have debt."
 - NEXT: "Not your time."
 
-### P690
+### P687
 - PREV: "I have debt."
 - CURR: "Not your time."
 - NEXT: "Oh."
 
-### P691
+### P688
 - PREV: "Not your time."
 - CURR: "Oh."
 - NEXT: "Mine."
 
-### P692
+### P689
 - PREV: "Oh."
 - CURR: "Mine."
 - NEXT: That was harder. He had orders. Shale experiments. Actual customers. A roof with ambitions.
 
-### P694
+### P691
 - PREV: That was harder. He had orders. Shale experiments. Actual customers. A roof with ambitions.
 - CURR: "How much?"
 - NEXT: "Two days."
 
-### P695
+### P692
 - PREV: "How much?"
 - CURR: "Two days."
 - NEXT: "That's not money."
 
-### P696
+### P693
 - PREV: "Two days."
 - CURR: "That's not money."
 - NEXT: "It is to me."
 
-### P697
+### P694
 - PREV: "That's not money."
 - CURR: "It is to me."
 - NEXT: Right.
 
-### P700
+### P697
 - PREV: I thought of Antonius. What has to be true for repayment to happen? Different problem. What has to be true for Arlo to use the gauge? He needs two days he cannot afford to spend. So the bottleneck was not the gauge. It was Arlo's time. Clean.
 - CURR: "How much do your next two days earn?"
 - NEXT: Arlo's eyes narrowed.
 
-### P702
+### P699
 - PREV: Arlo's eyes narrowed.
 - CURR: "No."
 - NEXT: "Approximately."
 
-### P703
+### P700
 - PREV: "No."
 - CURR: "Approximately."
 - NEXT: "No."
 
-### P704
+### P701
 - PREV: "Approximately."
 - CURR: "No."
 - NEXT: "One gold?" He laughed.
 
-### P705
+### P702
 - PREV: "No."
 - CURR: "One gold?" He laughed.
 - NEXT: "Less."
 
-### P706
+### P703
 - PREV: "One gold?" He laughed.
 - CURR: "Less."
 - NEXT: "Half?"
 
-### P707
+### P704
 - PREV: "Less."
 - CURR: "Half?"
 - NEXT: "Greg."
 
-### P708
+### P705
 - PREV: "Half?"
 - CURR: "Greg."
 - NEXT: "Six silver?"
 
-### P709
+### P706
 - PREV: "Greg."
 - CURR: "Six silver?"
 - NEXT: "Maybe."
 
-### P710
+### P707
 - PREV: "Six silver?"
 - CURR: "Maybe."
 - NEXT: There.
 
-### P712
+### P709
 - PREV: There.
 - CURR: "I'll cover six." He stared. I stared back.
 - NEXT: Then remembered I did not have six silver.
 
-### P716
+### P713
 - PREV: Arlo's face changed as he watched me remember.
 - CURR: "You don't have six silver."
 - NEXT: "Not currently."
 
-### P717
+### P714
 - PREV: "You don't have six silver."
 - CURR: "Not currently."
 - NEXT: "Get out."
 
-### P718
+### P715
 - PREV: "Not currently."
 - CURR: "Get out."
 - NEXT: "I can."
 
-### P719
+### P716
 - PREV: "Get out."
 - CURR: "I can."
 - NEXT: "No."
 
-### P720
+### P717
 - PREV: "I can."
 - CURR: "No."
 - NEXT: "Antonius, "
 
-### P721
+### P718
 - PREV: "No."
 - CURR: "Antonius, "
 - NEXT: "No."
 
-### P722
+### P719
 - PREV: "Antonius, "
 - CURR: "No."
 - NEXT: "Not borrow."
 
-### P723
+### P720
 - PREV: "No."
 - CURR: "Not borrow."
 - NEXT: "That sentence was going to become borrow."
 
-### P724
+### P721
 - PREV: "Not borrow."
 - CURR: "That sentence was going to become borrow."
 - NEXT: "I was going to say structure."
 
-### P725
+### P722
 - PREV: "That sentence was going to become borrow."
 - CURR: "I was going to say structure."
 - NEXT: "Out." I laughed.
 
-### P726
+### P723
 - PREV: "I was going to say structure."
 - CURR: "Out." I laughed.
 - NEXT: "Fine." I picked up the box. Arlo put one hand on it. I looked at his hand. He looked at mine.
 
-### P727
+### P724
 - PREV: "Out." I laughed.
 - CURR: "Fine." I picked up the box. Arlo put one hand on it. I looked at his hand. He looked at mine.
 - NEXT: "Leave it," he said.
 
-### P728
+### P725
 - PREV: "Fine." I picked up the box. Arlo put one hand on it. I looked at his hand. He looked at mine.
 - CURR: "Leave it," he said.
 - NEXT: "Receipt."
 
-### P729
+### P726
 - PREV: "Leave it," he said.
 - CURR: "Receipt."
 - NEXT: "Fine."
 
-### P730
+### P727
 - PREV: "Receipt."
 - CURR: "Fine."
 - NEXT: "Signed."
 
-### P731
+### P728
 - PREV: "Fine."
 - CURR: "Signed."
 - NEXT: "Fine."
 
-### P732
+### P729
 - PREV: "Signed."
 - CURR: "Fine."
 - NEXT: "Value acknowledged."
 
-### P733
+### P730
 - PREV: "Fine."
 - CURR: "Value acknowledged."
 - NEXT: "Fuck you."
 
-### P734
+### P731
 - PREV: "Value acknowledged."
 - CURR: "Fuck you."
 - NEXT: "Ten silver replacement value would be insulting."
 
-### P735
+### P732
 - PREV: "Fuck you."
 - CURR: "Ten silver replacement value would be insulting."
 - NEXT: "Forty gold would be insane."
 
-### P736
+### P733
 - PREV: "Ten silver replacement value would be insulting."
 - CURR: "Forty gold would be insane."
 - NEXT: "Excellent. Somewhere between." He found paper. I smiled.
 
-### P737
+### P734
 - PREV: "Forty gold would be insane."
 - CURR: "Excellent. Somewhere between." He found paper. I smiled.
 - NEXT: There it was again. A problem with edges. Two days of Arlo's time. Six silver, perhaps. A gauge. A workshop. No question about what Greg should become. No new career. No build. Just:
 
-### P743
+### P740
 - PREV: Hessa. Barrier. Arlo. Six silver. Tomorrow. I started home. Then stopped. Six silver. I knew exactly where I could make six silver tonight. The Crown and Knives. I stood in the street for a long moment.
 - CURR: "No."
 - NEXT: A man passing beside me looked over. I ignored him. Six silver. Cards. People. Easy. Probably.
 
-### P747
+### P744
 - PREV: I kept walking. Twenty steps. Thirty. At forty, I turned around.
 - CURR: "Fuck."
 - NEXT: Then turned around again. Home. Constraint. Home. I made it three streets before realizing I was laughing. Being responsible was exhausting.
@@ -15909,1125 +15904,1125 @@ Total dialogue paragraphs surfaced: 5960
 
 ### P364
 - PREV: One heartbeat. Two. It vanished. I exhaled. No headache. Wrist warm. Not painful. Hessa checked.
-- CURR: "Again?" I asked.
-- NEXT: She considered.
+- CURR: "Again?" I asked. She considered.
+- NEXT: "Once."
 
-### P366
-- PREV: She considered.
+### P365
+- PREV: "Again?" I asked. She considered.
 - CURR: "Once."
 - NEXT: Second attempt failed. Nothing formed. I frowned.
 
-### P368
+### P367
 - PREV: Second attempt failed. Nothing formed. I frowned.
 - CURR: "Again."
 - NEXT: "No."
 
-### P369
+### P368
 - PREV: "Again."
 - CURR: "No."
 - NEXT: "That one didn't count."
 
-### P370
+### P369
 - PREV: "No."
 - CURR: "That one didn't count."
 - NEXT: "It used mana."
 
-### P371
+### P370
 - PREV: "That one didn't count."
 - CURR: "It used mana."
 - NEXT: "It did not produce a spell."
 
-### P372
+### P371
 - PREV: "It used mana."
 - CURR: "It did not produce a spell."
 - NEXT: "Your body does not care about your scoring system."
 
-### P373
+### P372
 - PREV: "It did not produce a spell."
 - CURR: "Your body does not care about your scoring system."
 - NEXT: "Poor design."
 
-### P374
+### P373
 - PREV: "Your body does not care about your scoring system."
 - CURR: "Poor design."
 - NEXT: "Tomorrow." I stood. Hessa pointed at me.
 
-### P375
+### P374
 - PREV: "Poor design."
 - CURR: "Tomorrow." I stood. Hessa pointed at me.
 - NEXT: "No crates."
 
-### P376
+### P375
 - PREV: "Tomorrow." I stood. Hessa pointed at me.
 - CURR: "No crates."
 - NEXT: "Specific."
 
-### P377
+### P376
 - PREV: "No crates."
 - CURR: "Specific."
 - NEXT: "No testing against objects."
 
-### P378
+### P377
 - PREV: "Specific."
 - CURR: "No testing against objects."
 - NEXT: "Very specific."
 
-### P379
+### P378
 - PREV: "No testing against objects."
 - CURR: "Very specific."
 - NEXT: "No sword with Barrier." I had not thought of that yet. Now I had. She saw it happen.
 
-### P380
+### P379
 - PREV: "Very specific."
 - CURR: "No sword with Barrier." I had not thought of that yet. Now I had. She saw it happen.
 - NEXT: "Fuck."
 
-### P381
+### P380
 - PREV: "No sword with Barrier." I had not thought of that yet. Now I had. She saw it happen.
 - CURR: "Fuck."
 - NEXT: "Your fault."
 
-### P382
+### P381
 - PREV: "Fuck."
 - CURR: "Your fault."
 - NEXT: "Go."
 
-### P383
+### P382
 - PREV: "Your fault."
 - CURR: "Go."
 - NEXT: I went to sword practice. Without Barrier. Mostly because Hessa had now made the idea so attractive that I needed to prove I could resist it. Jorren was there. He had become less irritating as I became more capable of hitting him. Correlation, perhaps. We sparred. No magic. He still beat me. Not easily. That mattered. The first time we had fought, my mind had been several exchanges ahead and my body several years behind. Now the gap had narrowed by perhaps an inch.
 
-### P389
+### P388
 - PREV: I swore. He stepped back.
 - CURR: "You had something."
 - NEXT: "I had several things."
 
-### P390
+### P389
 - PREV: "You had something."
 - CURR: "I had several things."
 - NEXT: "Then why didn't you do them?"
 
-### P391
+### P390
 - PREV: "I had several things."
 - CURR: "Then why didn't you do them?"
 - NEXT: "Budget."
 
-### P392
+### P391
 - PREV: "Then why didn't you do them?"
 - CURR: "Budget."
 - NEXT: He laughed. We reset. Second time I simplified sooner. No imaginary magic. No future body. Just sword. He still won. But it took longer. Afterward Jorren tossed me a cloth.
 
-### P394
+### P393
 - PREV: He laughed. We reset. Second time I simplified sooner. No imaginary magic. No future body. Just sword. He still won. But it took longer. Afterward Jorren tossed me a cloth.
 - CURR: "You look less old."
 - NEXT: "Thank you."
 
-### P395
+### P394
 - PREV: "You look less old."
 - CURR: "Thank you."
 - NEXT: "Still old."
 
-### P396
+### P395
 - PREV: "Thank you."
 - CURR: "Still old."
 - NEXT: "Fuck you."
 
-### P397
+### P396
 - PREV: "Still old."
 - CURR: "Fuck you."
 - NEXT: He grinned. I sat against the wall, breathing hard. Mana training in the morning would have made this worse. Crate experiment had made mana worse. Sword training made everything tired. Three systems drawing from one nineteen-year-old body. Old Greg had forgotten what recovery felt like when there was not enough of it.
 
-### P402
+### P401
 - PREV: Not the gauge. His tools. The Tere reference set sat in the center on clean cloth. Arlo had made three new brackets, a measuring frame, and something that looked like a tiny metal gallows. I stared.
 - CURR: "You were waiting."
 - NEXT: "No."
 
-### P403
+### P402
 - PREV: "You were waiting."
 - CURR: "No."
 - NEXT: "You built all this."
 
-### P404
+### P403
 - PREV: "No."
 - CURR: "You built all this."
 - NEXT: "I work."
 
-### P405
+### P404
 - PREV: "You built all this."
 - CURR: "I work."
 - NEXT: "Before sunrise?"
 
-### P406
+### P405
 - PREV: "I work."
 - CURR: "Before sunrise?"
 - NEXT: "I couldn't sleep."
 
-### P407
+### P406
 - PREV: "Before sunrise?"
 - CURR: "I couldn't sleep."
 - NEXT: There. Possibility. I knew that feeling. I did not say so. Arlo pointed to a chair. "Sit there."
 
-### P408
+### P407
 - PREV: "I couldn't sleep."
 - CURR: There. Possibility. I knew that feeling. I did not say so. Arlo pointed to a chair. "Sit there."
 - NEXT: "Why?"
 
-### P409
+### P408
 - PREV: There. Possibility. I knew that feeling. I did not say so. Arlo pointed to a chair. "Sit there."
 - CURR: "Why?"
 - NEXT: "If you touch anything, I want distance."
 
-### P410
+### P409
 - PREV: "Why?"
 - CURR: "If you touch anything, I want distance."
 - NEXT: I sat. He spent the morning testing. It was beautiful. Not visually. Visually it was two men staring at pieces of metal while one occasionally swore. But the logic emerged. The Tere plates provided known resistance values. The bridge compared flow. Arlo could pass a tiny controlled mana current through one of his regulators, compare its behavior against a reference plate, adjust, repeat.
 
-### P412
+### P411
 - PREV: I sat. He spent the morning testing. It was beautiful. Not visually. Visually it was two men staring at pieces of metal while one occasionally swore. But the logic emerged. The Tere plates provided known resistance values. The bridge compared flow. Arlo could pass a tiny controlled mana current through one of his regulators, compare its behavior against a reference plate, adjust, repeat.
 - CURR: The first regulator was off. The second was off differently. The third was nearly right. That was the problem. Arlo's regulators were good because Arlo was good. But "good" wandered. One day slightly high. One day slightly low. Temperature. Material batch. His hands. His mood. His breakfast, probably. The gauge did not care. By midday Arlo had three regulators behaving within a much narrower range than his normal work.
 - NEXT: He stared at them. I stared too.
 
-### P414
+### P413
 - PREV: He stared at them. I stared too.
 - CURR: "Consistent," I said. Arlo did not answer.
 - NEXT: "That's what you wanted."
 
-### P415
+### P414
 - PREV: "Consistent," I said. Arlo did not answer.
 - CURR: "That's what you wanted."
 - NEXT: "I know."
 
-### P416
+### P415
 - PREV: "That's what you wanted."
 - CURR: "I know."
 - NEXT: "How much better?"
 
-### P417
+### P416
 - PREV: "I know."
 - CURR: "How much better?"
 - NEXT: "Shut up."
 
-### P418
+### P417
 - PREV: "How much better?"
 - CURR: "Shut up."
 - NEXT: "Arlo."
 
-### P419
+### P418
 - PREV: "Shut up."
 - CURR: "Arlo."
 - NEXT: "I need more tests."
 
-### P420
+### P419
 - PREV: "Arlo."
 - CURR: "I need more tests."
 - NEXT: "How many?"
 
-### P421
+### P420
 - PREV: "I need more tests."
 - CURR: "How many?"
 - NEXT: "Enough."
 
-### P422
+### P421
 - PREV: "How many?"
 - CURR: "Enough."
 - NEXT: "That's not a number." He looked at me. I smiled. He looked back at the regulators.
 
-### P423
+### P422
 - PREV: "Enough."
 - CURR: "That's not a number." He looked at me. I smiled. He looked back at the regulators.
 - NEXT: "Twenty."
 
-### P424
+### P423
 - PREV: "That's not a number." He looked at me. I smiled. He looked back at the regulators.
 - CURR: "Twenty."
 - NEXT: "Today?"
 
-### P425
+### P424
 - PREV: "Twenty."
 - CURR: "Today?"
 - NEXT: "No."
 
-### P426
+### P425
 - PREV: "Today?"
 - CURR: "No."
 - NEXT: "Tomorrow?"
 
-### P427
+### P426
 - PREV: "No."
 - CURR: "Tomorrow?"
 - NEXT: "No."
 
-### P428
+### P427
 - PREV: "Tomorrow?"
 - CURR: "No."
 - NEXT: "How long?"
 
-### P429
+### P428
 - PREV: "No."
 - CURR: "How long?"
 - NEXT: "A week."
 
-### P430
+### P429
 - PREV: "How long?"
 - CURR: "A week."
 - NEXT: "Excellent." Arlo frowned. "Why excellent?"
 
-### P431
+### P430
 - PREV: "A week."
 - CURR: "Excellent." Arlo frowned. "Why excellent?"
 - NEXT: "Because now you have a problem."
 
-### P432
+### P431
 - PREV: "Excellent." Arlo frowned. "Why excellent?"
 - CURR: "Because now you have a problem."
 - NEXT: "I had problems before you."
 
-### P433
+### P432
 - PREV: "Because now you have a problem."
 - CURR: "I had problems before you."
 - NEXT: "Not this one." He laughed despite himself. Then his face changed. Not joy. Worry. I knew that too.
 
-### P434
+### P433
 - PREV: "I had problems before you."
 - CURR: "Not this one." He laughed despite himself. Then his face changed. Not joy. Worry. I knew that too.
 - NEXT: "What?"
 
-### P435
+### P434
 - PREV: "Not this one." He laughed despite himself. Then his face changed. Not joy. Worry. I knew that too.
 - CURR: "What?"
 - NEXT: "If this works."
 
-### P436
+### P435
 - PREV: "What?"
 - CURR: "If this works."
 - NEXT: "Yes?"
 
-### P437
+### P436
 - PREV: "If this works."
 - CURR: "Yes?"
 - NEXT: "My old jigs are wrong."
 
-### P438
+### P437
 - PREV: "Yes?"
 - CURR: "My old jigs are wrong."
 - NEXT: "Some."
 
-### P439
+### P438
 - PREV: "My old jigs are wrong."
 - CURR: "Some."
 - NEXT: "My regulator molds may be wrong."
 
-### P440
+### P439
 - PREV: "Some."
 - CURR: "My regulator molds may be wrong."
 - NEXT: "Some."
 
-### P441
+### P440
 - PREV: "My regulator molds may be wrong."
 - CURR: "Some."
 - NEXT: "The shale mix changes response."
 
-### P442
+### P441
 - PREV: "Some."
 - CURR: "The shale mix changes response."
 - NEXT: "Probably."
 
-### P443
+### P442
 - PREV: "The shale mix changes response."
 - CURR: "Probably."
 - NEXT: "The firing temperatures..."
 
-### P444
+### P443
 - PREV: "Probably."
 - CURR: "The firing temperatures..."
 - NEXT: "Arlo." He stopped. Interesting. His board had opened. Branches. I recognized it because I lived there. For once I was standing outside.
 
-### P445
+### P444
 - PREV: "The firing temperatures..."
 - CURR: "Arlo." He stopped. Interesting. His board had opened. Branches. I recognized it because I lived there. For once I was standing outside.
-- NEXT: "One regulator," I said.
+- NEXT: "One regulator," I said. He looked at me.
+
+### P445
+- PREV: "Arlo." He stopped. Interesting. His board had opened. Branches. I recognized it because I lived there. For once I was standing outside.
+- CURR: "One regulator," I said. He looked at me.
+- NEXT: "Make one exactly repeatable."
 
 ### P446
-- PREV: "Arlo." He stopped. Interesting. His board had opened. Branches. I recognized it because I lived there. For once I was standing outside.
-- CURR: "One regulator," I said.
-- NEXT: He looked at me.
-
-### P448
-- PREV: He looked at me.
+- PREV: "One regulator," I said. He looked at me.
 - CURR: "Make one exactly repeatable."
 - NEXT: "I need to know..."
 
-### P449
+### P447
 - PREV: "Make one exactly repeatable."
 - CURR: "I need to know..."
 - NEXT: "One."
 
-### P450
+### P448
 - PREV: "I need to know..."
 - CURR: "One."
 - NEXT: "The material..."
 
-### P451
+### P449
 - PREV: "One."
 - CURR: "The material..."
 - NEXT: "One."
 
-### P452
+### P450
 - PREV: "The material..."
 - CURR: "One."
 - NEXT: "The gauge itself could be incomplete."
 
-### P453
+### P451
 - PREV: "One."
 - CURR: "The gauge itself could be incomplete."
 - NEXT: "Then learn that while making one." Arlo stared at me. I enjoyed this far too much.
 
-### P454
+### P452
 - PREV: "The gauge itself could be incomplete."
 - CURR: "Then learn that while making one." Arlo stared at me. I enjoyed this far too much.
 - NEXT: "You're annoying," he said.
 
-### P455
+### P453
 - PREV: "Then learn that while making one." Arlo stared at me. I enjoyed this far too much.
 - CURR: "You're annoying," he said.
 - NEXT: "I have excellent teachers." He looked at the Tere set. Then at one regulator.
 
-### P456
+### P454
 - PREV: "You're annoying," he said.
 - CURR: "I have excellent teachers." He looked at the Tere set. Then at one regulator.
 - NEXT: "One."
 
-### P457
+### P455
 - PREV: "I have excellent teachers." He looked at the Tere set. Then at one regulator.
 - CURR: "One."
 - NEXT: "Good."
 
-### P458
+### P456
 - PREV: "One."
 - CURR: "Good."
 - NEXT: I leaned back. That had been easy. Suspiciously easy. Not the artificing. Arlo. His problem had edges once I gave them back to him. I almost thought about what that implied regarding myself.
 
-### P462
+### P460
 - PREV: Later. Hessa. I left Arlo before I could create a manufacturing company. At Hessa's, she checked my wrist first.
 - CURR: "Better."
 - NEXT: "Barrier?"
 
-### P463
+### P461
 - PREV: "Better."
 - CURR: "Barrier?"
 - NEXT: "One."
 
-### P464
+### P462
 - PREV: "Barrier?"
 - CURR: "One."
 - NEXT: "Two."
 
-### P465
+### P463
 - PREV: "One."
 - CURR: "Two."
 - NEXT: "One."
 
-### P466
+### P464
 - PREV: "Two."
 - CURR: "One."
 - NEXT: "One successful?"
 
-### P467
+### P465
 - PREV: "One."
 - CURR: "One successful?"
 - NEXT: "One attempt."
 
-### P468
+### P466
 - PREV: "One successful?"
 - CURR: "One attempt."
 - NEXT: "Extortion."
 
-### P469
+### P467
 - PREV: "One attempt."
 - CURR: "Extortion."
 - NEXT: "Leave."
 
-### P470
+### P468
 - PREV: "Extortion."
 - CURR: "Leave."
 - NEXT: "One." She smiled. I sat. Gather. Thread. Palm. Coin. Boundary. Release. Nothing. I waited. Hessa said nothing. Failure. Mana spent. Not much. I breathed.
 
-### P471
+### P469
 - PREV: "Leave."
 - CURR: "One." She smiled. I sat. Gather. Thread. Palm. Coin. Boundary. Release. Nothing. I waited. Hessa said nothing. Failure. Mana spent. Not much. I breathed.
 - NEXT: "Again tomorrow," she said.
 
-### P472
+### P470
 - PREV: "One." She smiled. I sat. Gather. Thread. Palm. Coin. Boundary. Release. Nothing. I waited. Hessa said nothing. Failure. Mana spent. Not much. I breathed.
 - CURR: "Again tomorrow," she said.
 - NEXT: "No."
 
-### P473
+### P471
 - PREV: "Again tomorrow," she said.
 - CURR: "No."
 - NEXT: Her expression hardened. I held up a hand.
 
-### P475
+### P473
 - PREV: Her expression hardened. I held up a hand.
 - CURR: "Not arguing."
 - NEXT: That surprised both of us. I closed my eyes. What happened? Yesterday I had formed it. Today no. Mana amount? Similar. Shape? Similar. Fatigue?
 
-### P479
+### P477
 - PREV: Intent. Yesterday I wanted a tiny Barrier. Today I wanted success. Different. That was stupid. Also possibly real. Magic was full of stupid things that became real because minds were involved.
 - CURR: "What are you doing?" Hessa asked.
 - NEXT: "Thinking."
 
-### P480
+### P478
 - PREV: "What are you doing?" Hessa asked.
 - CURR: "Thinking."
 - NEXT: "Lesson is over."
 
-### P481
+### P479
 - PREV: "Thinking."
 - CURR: "Lesson is over."
 - NEXT: "Yes." I stood. Then noticed the cup on her shelf. Small clay cup. I smiled. Hessa followed my eyes.
 
-### P482
+### P480
 - PREV: "Lesson is over."
 - CURR: "Yes." I stood. Then noticed the cup on her shelf. Small clay cup. I smiled. Hessa followed my eyes.
 - NEXT: "No."
 
-### P483
+### P481
 - PREV: "Yes." I stood. Then noticed the cup on her shelf. Small clay cup. I smiled. Hessa followed my eyes.
 - CURR: "No."
 - NEXT: "I didn't say anything."
 
-### P484
+### P482
 - PREV: "No."
 - CURR: "I didn't say anything."
 - NEXT: "No."
 
-### P485
+### P483
 - PREV: "I didn't say anything."
 - CURR: "No."
 - NEXT: "I am leaving."
 
-### P486
+### P484
 - PREV: "No."
 - CURR: "I am leaving."
 - NEXT: "Good."
 
-### P487
+### P485
 - PREV: "I am leaving."
 - CURR: "Good."
 - NEXT: I left. I came back the next day. Failed. Next day. Formed it. Half heartbeat. No pain. Next day. Failed. Next. Formed. Two heartbeats. The progress was insulting. I loved it. A week after my first Barrier, Hessa placed a copper coin on a stool. I looked at her.
 
-### P489
+### P487
 - PREV: I left. I came back the next day. Failed. Next day. Formed it. Half heartbeat. No pain. Next day. Failed. Next. Formed. Two heartbeats. The progress was insulting. I loved it. A week after my first Barrier, Hessa placed a copper coin on a stool. I looked at her.
 - CURR: "What's that?"
 - NEXT: "Your enemy."
 
-### P490
+### P488
 - PREV: "What's that?"
 - CURR: "Your enemy."
 - NEXT: "I've fought worse."
 
-### P491
+### P489
 - PREV: "Your enemy."
 - CURR: "I've fought worse."
 - NEXT: "Barrier."
 
-### P492
+### P490
 - PREV: "I've fought worse."
 - CURR: "Barrier."
 - NEXT: "Against the coin?"
 
-### P493
+### P491
 - PREV: "Barrier."
 - CURR: "Against the coin?"
 - NEXT: "No."
 
-### P494
+### P492
 - PREV: "Against the coin?"
 - CURR: "No."
 - NEXT: "Then?" She flicked it. The coin spun through the air.
 
-### P495
+### P493
 - PREV: "No."
 - CURR: "Then?" She flicked it. The coin spun through the air.
 - NEXT: "Put the Barrier where it will pass." I stared.
 
-### P496
+### P494
 - PREV: "Then?" She flicked it. The coin spun through the air.
 - CURR: "Put the Barrier where it will pass." I stared.
 - NEXT: "Moving placement."
 
-### P497
+### P495
 - PREV: "Put the Barrier where it will pass." I stared.
 - CURR: "Moving placement."
 - NEXT: "Yes."
 
-### P498
+### P496
 - PREV: "Moving placement."
 - CURR: "Yes."
 - NEXT: "Why?"
 
-### P499
+### P497
 - PREV: "Yes."
 - CURR: "Why?"
 - NEXT: "You keep asking for small." I smiled. Hessa immediately regretted everything.
 
-### P500
+### P498
 - PREV: "Why?"
 - CURR: "You keep asking for small." I smiled. Hessa immediately regretted everything.
 - NEXT: "One attempt."
 
-### P501
+### P499
 - PREV: "You keep asking for small." I smiled. Hessa immediately regretted everything.
 - CURR: "One attempt."
 - NEXT: "Reasonable."
 
-### P502
+### P500
 - PREV: "One attempt."
 - CURR: "Reasonable."
 - NEXT: She flicked the coin again. I watched the arc. Too fast. Not actually fast. My current casting was slow. Old Greg could have formed Barrier between thought and impact. Young Greg needed gathering, shaping, release. The coin hit the floor.
 
-### P504
+### P502
 - PREV: She flicked the coin again. I watched the arc. Too fast. Not actually fast. My current casting was slow. Old Greg could have formed Barrier between thought and impact. Young Greg needed gathering, shaping, release. The coin hit the floor.
 - CURR: "Again," I said. Hessa picked it up. Second toss. I started before release. Cheating.
 - NEXT: Good.
 
-### P507
+### P505
 - PREV: Gather. Shape. Place. Barrier appeared six inches too low. Coin passed over it.
 - CURR: "Again."
 - NEXT: "No."
 
-### P508
+### P506
 - PREV: "Again."
 - CURR: "No."
 - NEXT: "That wasn't load."
 
-### P509
+### P507
 - PREV: "No."
 - CURR: "That wasn't load."
 - NEXT: "It was mana."
 
-### P510
+### P508
 - PREV: "That wasn't load."
 - CURR: "It was mana."
 - NEXT: "Tomorrow?"
 
-### P511
+### P509
 - PREV: "It was mana."
 - CURR: "Tomorrow?"
 - NEXT: "Tomorrow."
 
-### P512
+### P510
 - PREV: "Tomorrow?"
 - CURR: "Tomorrow."
 - NEXT: The next day I missed. The next I clipped the edge. The Barrier vanished when the coin touched it. The coin changed direction. Barely. It landed perhaps a foot left of where it should have. I stared. Hessa stared. I started laughing.
 
-### P514
+### P512
 - PREV: The next day I missed. The next I clipped the edge. The Barrier vanished when the coin touched it. The coin changed direction. Barely. It landed perhaps a foot left of where it should have. I stared. Hessa stared. I started laughing.
 - CURR: "Again," I said. Hessa smiled this time.
 - NEXT: "No."
 
-### P515
+### P513
 - PREV: "Again," I said. Hessa smiled this time.
 - CURR: "No."
 - NEXT: I looked at the coin on the floor. The Barrier had not stopped it. Had not needed to. That was the thing. A shield thought in absolutes. Stop. Block. Hold. But a tiny plane at the right angle did not need enough strength to stop a force. Only enough to alter it. A sword tip. A foot. A thrown knife. A spell line. A falling vial. A stream of liquid. A fucking coin.
 
-### P518
+### P516
 - PREV: The possibilities arrived all at once. Too many. Beautiful. Dangerous. Hessa saw my face.
 - CURR: "Greg." I looked at her.
 - NEXT: "One thing," she said.
 
-### P519
+### P517
 - PREV: "Greg." I looked at her.
 - CURR: "One thing," she said.
 - NEXT: "What?"
 
-### P520
+### P518
 - PREV: "One thing," she said.
 - CURR: "What?"
 - NEXT: "Pick one thing." I breathed. The room came back. Coin. Tiny Barrier. Angle.
 
-### P521
+### P519
 - PREV: "What?"
 - CURR: "Pick one thing." I breathed. The room came back. Coin. Tiny Barrier. Angle.
 - NEXT: "Again tomorrow," I said. Hessa nodded. That evening Antonius found me at the warehouse with six copper coins lined across a table. He looked at them. Then at me.
 
-### P522
+### P520
 - PREV: "Pick one thing." I breathed. The room came back. Coin. Tiny Barrier. Angle.
 - CURR: "Again tomorrow," I said. Hessa nodded. That evening Antonius found me at the warehouse with six copper coins lined across a table. He looked at them. Then at me.
 - NEXT: "What are you doing?"
 
-### P523
+### P521
 - PREV: "Again tomorrow," I said. Hessa nodded. That evening Antonius found me at the warehouse with six copper coins lined across a table. He looked at them. Then at me.
 - CURR: "What are you doing?"
 - NEXT: "Nothing."
 
-### P524
+### P522
 - PREV: "What are you doing?"
 - CURR: "Nothing."
 - NEXT: "Why are my coins in a line?"
 
-### P525
+### P523
 - PREV: "Nothing."
 - CURR: "Why are my coins in a line?"
 - NEXT: "Research."
 
-### P526
+### P524
 - PREV: "Why are my coins in a line?"
 - CURR: "Research."
 - NEXT: "They are rent."
 
-### P527
+### P525
 - PREV: "Research."
 - CURR: "They are rent."
 - NEXT: "Temporary research." He picked them up.
 
-### P528
+### P526
 - PREV: "They are rent."
 - CURR: "Temporary research." He picked them up.
 - NEXT: "Antonius."
 
-### P529
+### P527
 - PREV: "Temporary research." He picked them up.
 - CURR: "Antonius."
 - NEXT: "No."
 
-### P530
+### P528
 - PREV: "Antonius."
 - CURR: "No."
 - NEXT: "I need targets."
 
-### P531
+### P529
 - PREV: "No."
 - CURR: "I need targets."
 - NEXT: "Use your own money."
 
-### P532
+### P530
 - PREV: "I need targets."
 - CURR: "Use your own money."
 - NEXT: "That's economically irresponsible."
 
-### P533
+### P531
 - PREV: "Use your own money."
 - CURR: "That's economically irresponsible."
 - NEXT: "How?"
 
-### P534
+### P532
 - PREV: "That's economically irresponsible."
 - CURR: "How?"
 - NEXT: "Mine is scarce."
 
-### P535
+### P533
 - PREV: "How?"
 - CURR: "Mine is scarce."
 - NEXT: "So is mine."
 
-### P536
+### P534
 - PREV: "Mine is scarce."
 - CURR: "So is mine."
 - NEXT: "You have more."
 
-### P537
+### P535
 - PREV: "So is mine."
 - CURR: "You have more."
 - NEXT: "Because I don't use it as magical targets." I followed him toward the desk.
 
-### P538
+### P536
 - PREV: "You have more."
 - CURR: "Because I don't use it as magical targets." I followed him toward the desk.
 - NEXT: "I can redirect a coin."
 
-### P539
+### P537
 - PREV: "Because I don't use it as magical targets." I followed him toward the desk.
 - CURR: "I can redirect a coin."
 - NEXT: "Congratulations."
 
-### P540
+### P538
 - PREV: "I can redirect a coin."
 - CURR: "Congratulations."
 - NEXT: "With Barrier."
 
-### P541
+### P539
 - PREV: "Congratulations."
 - CURR: "With Barrier."
 - NEXT: "Still congratulations."
 
-### P542
+### P540
 - PREV: "With Barrier."
 - CURR: "Still congratulations."
 - NEXT: "Do you understand what that means?"
 
-### P543
+### P541
 - PREV: "Still congratulations."
 - CURR: "Do you understand what that means?"
 - NEXT: "That you can protect yourself from very poor assassins." I stopped. He kept walking.
 
-### P544
+### P542
 - PREV: "Do you understand what that means?"
 - CURR: "That you can protect yourself from very poor assassins." I stopped. He kept walking.
 - NEXT: "That was funny."
 
-### P545
+### P543
 - PREV: "That you can protect yourself from very poor assassins." I stopped. He kept walking.
 - CURR: "That was funny."
 - NEXT: "I know."
 
-### P546
+### P544
 - PREV: "That was funny."
 - CURR: "I know."
 - NEXT: "You've been practicing."
 
-### P547
+### P545
 - PREV: "I know."
 - CURR: "You've been practicing."
 - NEXT: "Being around you is corrosive." He sat. I leaned on the desk.
 
-### P548
+### P546
 - PREV: "You've been practicing."
 - CURR: "Being around you is corrosive." He sat. I leaned on the desk.
 - NEXT: "I'm serious."
 
-### P549
+### P547
 - PREV: "Being around you is corrosive." He sat. I leaned on the desk.
 - CURR: "I'm serious."
 - NEXT: "That's concerning."
 
-### P550
+### P548
 - PREV: "I'm serious."
 - CURR: "That's concerning."
 - NEXT: "The Barrier doesn't need to stop something." Antonius looked up.
 
-### P551
+### P549
 - PREV: "That's concerning."
 - CURR: "The Barrier doesn't need to stop something." Antonius looked up.
 - NEXT: "It can change it."
 
-### P552
+### P550
 - PREV: "The Barrier doesn't need to stop something." Antonius looked up.
 - CURR: "It can change it."
 - NEXT: "Change what?"
 
-### P553
+### P551
 - PREV: "It can change it."
 - CURR: "Change what?"
 - NEXT: "Direction. Contact. Timing. Maybe pressure later. If I make it small enough and place it correctly, I don't need enough mana to overpower the whole force." Antonius considered. Unlike Hessa, he did not care about magical orthodoxy. Unlike Arlo, he did not care how the mechanism worked. He asked, "Useful?"
 
-### P554
+### P552
 - PREV: "Change what?"
 - CURR: "Direction. Contact. Timing. Maybe pressure later. If I make it small enough and place it correctly, I don't need enough mana to overpower the whole force." Antonius considered. Unlike Hessa, he did not care about magical orthodoxy. Unlike Arlo, he did not care how the mechanism worked. He asked, "Useful?"
 - NEXT: "Eventually."
 
-### P555
+### P553
 - PREV: "Direction. Contact. Timing. Maybe pressure later. If I make it small enough and place it correctly, I don't need enough mana to overpower the whole force." Antonius considered. Unlike Hessa, he did not care about magical orthodoxy. Unlike Arlo, he did not care how the mechanism worked. He asked, "Useful?"
 - CURR: "Eventually."
 - NEXT: "How eventually?"
 
-### P556
+### P554
 - PREV: "Eventually."
 - CURR: "How eventually?"
 - NEXT: I paused. Good question. Weeks? Months? Combat application required speed I did not have. Reliable placement. Casting under stress. Mana reserve. Body coordination. A lot.
 
-### P558
+### P556
 - PREV: I paused. Good question. Weeks? Months? Combat application required speed I did not have. Reliable placement. Casting under stress. Mana reserve. Body coordination. A lot.
 - CURR: "Not tomorrow." Antonius smiled.
 - NEXT: "Growth."
 
-### P559
+### P557
 - PREV: "Not tomorrow." Antonius smiled.
 - CURR: "Growth."
 - NEXT: "Fuck you." He opened his ledger. I should have left. Instead I said, "Do you have anything magical that needs moving?" His pen stopped. Slowly.
 
-### P560
+### P558
 - PREV: "Growth."
 - CURR: "Fuck you." He opened his ledger. I should have left. Instead I said, "Do you have anything magical that needs moving?" His pen stopped. Slowly.
 - NEXT: "No."
 
-### P561
+### P559
 - PREV: "Fuck you." He opened his ledger. I should have left. Instead I said, "Do you have anything magical that needs moving?" His pen stopped. Slowly.
 - CURR: "No."
 - NEXT: "Something fragile?"
 
-### P562
+### P560
 - PREV: "No."
 - CURR: "Something fragile?"
 - NEXT: "No."
 
-### P563
+### P561
 - PREV: "Something fragile?"
 - CURR: "No."
 - NEXT: "Dangerous?"
 
-### P564
+### P562
 - PREV: "No."
 - CURR: "Dangerous?"
 - NEXT: "No."
 
-### P565
+### P563
 - PREV: "Dangerous?"
 - CURR: "No."
 - NEXT: "Something where touching it is bad?"
 
-### P566
+### P564
 - PREV: "No."
 - CURR: "Something where touching it is bad?"
 - NEXT: "No."
 
-### P567
+### P565
 - PREV: "Something where touching it is bad?"
 - CURR: "No."
 - NEXT: "You're not thinking."
 
-### P568
+### P566
 - PREV: "No."
 - CURR: "You're not thinking."
 - NEXT: "I'm actively refusing to think."
 
-### P569
+### P567
 - PREV: "You're not thinking."
 - CURR: "I'm actively refusing to think."
 - NEXT: "Why?"
 
-### P570
+### P568
 - PREV: "I'm actively refusing to think."
 - CURR: "Why?"
 - NEXT: "Because if I give you a problem, you'll test a spell you learned last week on property I own."
 
-### P571
+### P569
 - PREV: "Why?"
 - CURR: "Because if I give you a problem, you'll test a spell you learned last week on property I own."
 - NEXT: "That's unfair."
 
-### P572
+### P570
 - PREV: "Because if I give you a problem, you'll test a spell you learned last week on property I own."
 - CURR: "That's unfair."
 - NEXT: "Is it?" I considered the glass crate.
 
-### P573
+### P571
 - PREV: "That's unfair."
 - CURR: "Is it?" I considered the glass crate.
 - NEXT: "Somewhat." Antonius returned to his ledger. Then said, "The salvager came back." Everything in me changed. I hated that he noticed.
 
-### P574
+### P572
 - PREV: "Is it?" I considered the glass crate.
 - CURR: "Somewhat." Antonius returned to his ledger. Then said, "The salvager came back." Everything in me changed. I hated that he noticed.
 - NEXT: "The gauntlet?"
 
-### P575
+### P573
 - PREV: "Somewhat." Antonius returned to his ledger. Then said, "The salvager came back." Everything in me changed. I hated that he noticed.
 - CURR: "The gauntlet?"
 - NEXT: "Still mine."
 
-### P576
+### P574
 - PREV: "The gauntlet?"
 - CURR: "Still mine."
 - NEXT: "So expedition failed?"
 
-### P577
+### P575
 - PREV: "Still mine."
 - CURR: "So expedition failed?"
 - NEXT: "No."
 
-### P578
+### P576
 - PREV: "So expedition failed?"
 - CURR: "No."
 - NEXT: "Then?"
 
-### P579
+### P577
 - PREV: "No."
 - CURR: "Then?"
 - NEXT: "He repaid three gold."
 
-### P580
+### P578
 - PREV: "Then?"
 - CURR: "He repaid three gold."
 - NEXT: "Already?"
 
-### P581
+### P579
 - PREV: "He repaid three gold."
 - CURR: "Already?"
 - NEXT: "Partial."
 
-### P582
+### P580
 - PREV: "Already?"
 - CURR: "Partial."
 - NEXT: "What did they find?"
 
-### P583
+### P581
 - PREV: "Partial."
 - CURR: "What did they find?"
 - NEXT: "No."
 
-### P584
+### P582
 - PREV: "What did they find?"
 - CURR: "No."
 - NEXT: "Antonius."
 
-### P585
+### P583
 - PREV: "No."
 - CURR: "Antonius."
 - NEXT: He looked at me. I could hear the dungeon in the word. Not literally. Memory did that. Stone corridors. Wet rope. Torch smoke. Mana pressure. Someone breathing too loudly because they were scared. The particular silence parties developed before opening a door nobody trusted. I had missed it. That realization arrived cleanly enough to hurt. Not the danger. Not even the fighting.
 
-### P588
+### P586
 - PREV: The problem. A dungeon was a machine built out of constraints: bad information, limited supplies, terrain, monsters, time, people. Every room asked a question and punished bad answers. Of course I missed it.
 - CURR: "What did they find?" I asked again.
 - NEXT: Antonius watched me. Then he reached into a drawer and put something on the desk. A lump of translucent green material, rough as broken glass and veined with black. I did not touch it. Progress.
 
-### P590
+### P588
 - PREV: Antonius watched me. Then he reached into a drawer and put something on the desk. A lump of translucent green material, rough as broken glass and veined with black. I did not touch it. Progress.
 - CURR: "What is that?"
 - NEXT: "You're the expert."
 
-### P591
+### P589
 - PREV: "What is that?"
 - CURR: "You're the expert."
 - NEXT: "I have never claimed that." Antonius stared.
 
-### P592
+### P590
 - PREV: "You're the expert."
 - CURR: "I have never claimed that." Antonius stared.
 - NEXT: "Recently." I leaned closer. Green crystal. Black veins. Mana-active? I could not feel enough to know. Smell? Faint mineral. Sharp. A memory stirred. Cave resin?
 
-### P593
+### P591
 - PREV: "I have never claimed that." Antonius stared.
 - CURR: "Recently." I leaned closer. Green crystal. Black veins. Mana-active? I could not feel enough to know. Smell? Faint mineral. Sharp. A memory stirred. Cave resin?
 - NEXT: No.
 
-### P597
+### P595
 - PREV: No.
 - CURR: "Where?"
 - NEXT: "No."
 
-### P598
+### P596
 - PREV: "Where?"
 - CURR: "No."
 - NEXT: "From the expedition?"
 
-### P599
+### P597
 - PREV: "No."
 - CURR: "From the expedition?"
 - NEXT: "Yes."
 
-### P600
+### P598
 - PREV: "From the expedition?"
 - CURR: "Yes."
 - NEXT: "Value?"
 
-### P601
+### P599
 - PREV: "Yes."
 - CURR: "Value?"
 - NEXT: "That's what I want to know." I laughed. There it was. Next problem. Not Greg. Not Barrier. Not future. A thing on a table. A bounded question. I sat.
 
-### P602
+### P600
 - PREV: "Value?"
 - CURR: "That's what I want to know." I laughed. There it was. Next problem. Not Greg. Not Barrier. Not future. A thing on a table. A bounded question. I sat.
 - NEXT: "Get Arlo." Antonius said, "He's busy."
 
-### P603
+### P601
 - PREV: "That's what I want to know." I laughed. There it was. Next problem. Not Greg. Not Barrier. Not future. A thing on a table. A bounded question. I sat.
 - CURR: "Get Arlo." Antonius said, "He's busy."
 - NEXT: "Then get me a knife."
 
-### P604
+### P602
 - PREV: "Get Arlo." Antonius said, "He's busy."
 - CURR: "Then get me a knife."
 - NEXT: "No."
 
-### P605
+### P603
 - PREV: "Then get me a knife."
 - CURR: "No."
 - NEXT: "Why?"
 
-### P606
+### P604
 - PREV: "No."
 - CURR: "Why?"
 - NEXT: "You just learned magic."
 
-### P607
+### P605
 - PREV: "Why?"
 - CURR: "You just learned magic."
 - NEXT: "Unrelated."
 
-### P608
+### P606
 - PREV: "You just learned magic."
 - CURR: "Unrelated."
 - NEXT: "That is never true with you."
 
-### P609
+### P607
 - PREV: "Unrelated."
 - CURR: "That is never true with you."
 - NEXT: I looked at the green material. The black veins looked almost organic. Not stone. Maybe hardened secretion. Maybe alchemical. Maybe useless. Maybe dangerous. My mind reached. Memory. Smell. Texture. A healer's tent. Someone grinding green shards. A woman saying not the black part. Who? Why? I leaned closer. Antonius said, "Greg."
 
-### P610
+### P608
 - PREV: "That is never true with you."
 - CURR: I looked at the green material. The black veins looked almost organic. Not stone. Maybe hardened secretion. Maybe alchemical. Maybe useless. Maybe dangerous. My mind reached. Memory. Smell. Texture. A healer's tent. Someone grinding green shards. A woman saying not the black part. Who? Why? I leaned closer. Antonius said, "Greg."
 - NEXT: "I know."
 
-### P611
+### P609
 - PREV: I looked at the green material. The black veins looked almost organic. Not stone. Maybe hardened secretion. Maybe alchemical. Maybe useless. Maybe dangerous. My mind reached. Memory. Smell. Texture. A healer's tent. Someone grinding green shards. A woman saying not the black part. Who? Why? I leaned closer. Antonius said, "Greg."
 - CURR: "I know."
 - NEXT: "Do you?"
 
-### P612
+### P610
 - PREV: "I know."
 - CURR: "Do you?"
 - NEXT: "No."
 
-### P613
+### P611
 - PREV: "Do you?"
 - CURR: "No."
 - NEXT: That came out before I could replace it. Antonius smiled. I frowned.
 
-### P615
+### P613
 - PREV: That came out before I could replace it. Antonius smiled. I frowned.
 - CURR: "Don't."
 - NEXT: "Didn't say anything."
 
-### P616
+### P614
 - PREV: "Don't."
 - CURR: "Didn't say anything."
 - NEXT: "Knife."
 
-### P617
+### P615
 - PREV: "Didn't say anything."
 - CURR: "Knife."
 - NEXT: "No." I looked at the material again. Then at him.
 
-### P618
+### P616
 - PREV: "Knife."
 - CURR: "No." I looked at the material again. Then at him.
 - NEXT: "What can I use?" Antonius considered. He opened a drawer. Took out a spoon. Put it on the desk. I stared.
 
-### P619
+### P617
 - PREV: "No." I looked at the material again. Then at him.
 - CURR: "What can I use?" Antonius considered. He opened a drawer. Took out a spoon. Put it on the desk. I stared.
 - NEXT: "A spoon."
 
-### P620
+### P618
 - PREV: "What can I use?" Antonius considered. He opened a drawer. Took out a spoon. Put it on the desk. I stared.
 - CURR: "A spoon."
 - NEXT: "My spoon."
 
-### P621
+### P619
 - PREV: "A spoon."
 - CURR: "My spoon."
 - NEXT: "You have a knife."
 
-### P622
+### P620
 - PREV: "My spoon."
 - CURR: "You have a knife."
 - NEXT: "I like my knife."
 
-### P623
+### P621
 - PREV: "You have a knife."
 - CURR: "I like my knife."
 - NEXT: "Reasonable."
 
-### P624
+### P622
 - PREV: "I like my knife."
 - CURR: "Reasonable."
 - NEXT: I picked up the spoon. The green shard waited. Somewhere inside my wrist, the faint rebuilt channel felt warm from a week's worth of terrible little Barriers. Not enough for anything impressive. Enough to make me curious. That was usually where trouble began. I smiled. Antonius sighed.
 
-### P626
+### P624
 - PREV: I picked up the spoon. The green shard waited. Somewhere inside my wrist, the faint rebuilt channel felt warm from a week's worth of terrible little Barriers. Not enough for anything impressive. Enough to make me curious. That was usually where trouble began. I smiled. Antonius sighed.
 - CURR: "Excellent," I said.
 - NEXT: 
@@ -19346,615 +19341,615 @@ Total dialogue paragraphs surfaced: 5960
 
 ### P552
 - PREV: A thin layer separated.
-- CURR: "Again," I said.
-- NEXT: She did. The green peeled away from one black vein in a translucent flake. Corven leaned closer. Antonius did not. He had learned about dust. I wrote:
+- CURR: "Again," I said. She did. The green peeled away from one black vein in a translucent flake. Corven leaned closer. Antonius did not. He had learned about dust. I wrote:
+- NEXT: WATER - SURFACE SOFTENS? BOUNDARY RELEASES.
 
-### P556
+### P555
 - PREV: Nera corrected me.
 - CURR: "Not softens."
 - NEXT: "What?"
 
-### P557
+### P556
 - PREV: "Not softens."
 - CURR: "What?"
 - NEXT: "Feels the same."
 
-### P558
+### P557
 - PREV: "What?"
 - CURR: "Feels the same."
 - NEXT: "Then lubricates?"
 
-### P559
+### P558
 - PREV: "Feels the same."
 - CURR: "Then lubricates?"
 - NEXT: "Maybe."
 
-### P560
+### P559
 - PREV: "Then lubricates?"
 - CURR: "Maybe."
 - NEXT: "Swells?"
 
-### P561
+### P560
 - PREV: "Maybe."
 - CURR: "Swells?"
 - NEXT: "Maybe."
 
-### P562
+### P561
 - PREV: "Swells?"
 - CURR: "Maybe."
 - NEXT: "Reaction?"
 
-### P563
+### P562
 - PREV: "Maybe."
 - CURR: "Reaction?"
 - NEXT: "Maybe." I looked at her.
 
-### P564
+### P563
 - PREV: "Reaction?"
 - CURR: "Maybe." I looked at her.
 - NEXT: "You are enjoying this."
 
-### P565
+### P564
 - PREV: "Maybe." I looked at her.
 - CURR: "You are enjoying this."
 - NEXT: "Two gold for the process."
 
-### P566
+### P565
 - PREV: "You are enjoying this."
 - CURR: "Two gold for the process."
 - NEXT: "We haven't bought it."
 
-### P567
+### P566
 - PREV: "Two gold for the process."
 - CURR: "We haven't bought it."
 - NEXT: "You will."
 
-### P568
+### P567
 - PREV: "We haven't bought it."
 - CURR: "You will."
 - NEXT: Antonius said, "Keep testing." The vinegar did almost nothing useful. A light hammer tap fractured the green unpredictably. A second shattered a piece and made Nera swear at Corven. We stopped that. Screens were useless at the current size. Then I noticed something. The black veins were not just structurally different. Water collected along them. Not much. A thin dark line.
 
-### P569
+### P568
 - PREV: "You will."
 - CURR: Antonius said, "Keep testing." The vinegar did almost nothing useful. A light hammer tap fractured the green unpredictably. A second shattered a piece and made Nera swear at Corven. We stopped that. Screens were useless at the current size. Then I noticed something. The black veins were not just structurally different. Water collected along them. Not much. A thin dark line.
 - NEXT: Surface tension? Texture? I moved closer.
 
-### P571
+### P570
 - PREV: Surface tension? Texture? I moved closer.
 - CURR: "Can I use the spoon?"
 - NEXT: Nera looked at the spoon.
 
-### P573
+### P572
 - PREV: Nera looked at the spoon.
 - CURR: "To do what?"
 - NEXT: "Press the green beside the vein. Not the black."
 
-### P574
+### P573
 - PREV: "To do what?"
 - CURR: "Press the green beside the vein. Not the black."
 - NEXT: "Why?"
 
-### P575
+### P574
 - PREV: "Press the green beside the vein. Not the black."
 - CURR: "Why?"
 - NEXT: "I want to see whether the boundary fails under sideways pressure." She considered. Then handed me gloves. Antonius said, "No mana."
 
-### P576
+### P575
 - PREV: "Why?"
 - CURR: "I want to see whether the boundary fails under sideways pressure." She considered. Then handed me gloves. Antonius said, "No mana."
 - NEXT: "I know."
 
-### P577
+### P576
 - PREV: "I want to see whether the boundary fails under sideways pressure." She considered. Then handed me gloves. Antonius said, "No mana."
 - CURR: "I know."
 - NEXT: I pressed. Nothing. More. The spoon slipped. The shard rotated. I stopped. Wrong angle. I repositioned it. The old version of me would have solved this with magic. Tiny Barrier. Perfectly placed. Pressure exactly where needed. Current me had a spoon.
 
-### P581
+### P580
 - PREV: I pressed again, not down. Across. A thin green flake popped away. Everyone stopped. I stared. Nera picked up the flake with tongs. Mostly clean. Tiny black trace at one edge.
 - CURR: "Again," she said.
 - NEXT: I smiled. Antonius sighed. We spent the next hour discovering that I had not invented anything miraculous. Side pressure along a wet boundary worked sometimes. Not always. Thicker black veins released more cleanly. Fine branching contamination remained difficult. The material varied. Of course it varied. Real materials hated elegant theories. Still. By midday we had three piles.
 
-### P584
+### P583
 - PREV: Clean enough green. Questionable green. Black-heavy waste. Nera weighed them. Then weighed the original sample.
 - CURR: "Thirty-eight percent clean on first pass."
 - NEXT: Corven frowned.
 
-### P586
+### P585
 - PREV: Corven frowned.
 - CURR: "That's bad?"
 - NEXT: "That's honest," Nera said.
 
-### P587
+### P586
 - PREV: "That's bad?"
 - CURR: "That's honest," Nera said.
 - NEXT: "Second pass on questionable?"
 
-### P588
+### P587
 - PREV: "That's honest," Nera said.
 - CURR: "Second pass on questionable?"
 - NEXT: "Maybe another twenty."
 
-### P589
+### P588
 - PREV: "Second pass on questionable?"
 - CURR: "Maybe another twenty."
 - NEXT: "Labor?"
 
-### P590
+### P589
 - PREV: "Maybe another twenty."
 - CURR: "Labor?"
 - NEXT: "Too much by hand." I looked at the spoon. Shape. Pressure. Boundary. Repeatability. A tool could do this. Not Arlo. I looked away. Antonius caught it.
 
-### P591
+### P590
 - PREV: "Labor?"
 - CURR: "Too much by hand." I looked at the spoon. Shape. Pressure. Boundary. Repeatability. A tool could do this. Not Arlo. I looked away. Antonius caught it.
 - NEXT: "What?"
 
-### P592
+### P591
 - PREV: "Too much by hand." I looked at the spoon. Shape. Pressure. Boundary. Repeatability. A tool could do this. Not Arlo. I looked away. Antonius caught it.
 - CURR: "What?"
 - NEXT: "Nothing."
 
-### P593
+### P592
 - PREV: "What?"
 - CURR: "Nothing."
 - NEXT: "Greg."
 
-### P594
+### P593
 - PREV: "Nothing."
 - CURR: "Greg."
 - NEXT: "A clamp."
 
-### P595
+### P594
 - PREV: "Greg."
 - CURR: "A clamp."
 - NEXT: Nera looked over.
 
-### P597
+### P596
 - PREV: Nera looked over.
 - CURR: "Explain."
 - NEXT: "Not a machine. A hand tool. Two shaped jaws. Hold the wet piece. Apply sideways pressure along the growth boundary. More controlled than hammering. Faster than a spoon."
 
-### P598
+### P597
 - PREV: "Explain."
 - CURR: "Not a machine. A hand tool. Two shaped jaws. Hold the wet piece. Apply sideways pressure along the growth boundary. More controlled than hammering. Faster than a spoon."
 - NEXT: Corven said, "Can you make one?"
 
-### P599
+### P598
 - PREV: "Not a machine. A hand tool. Two shaped jaws. Hold the wet piece. Apply sideways pressure along the growth boundary. More controlled than hammering. Faster than a spoon."
 - CURR: Corven said, "Can you make one?"
 - NEXT: "No." Antonius smiled. I pointed at him.
 
-### P600
+### P599
 - PREV: Corven said, "Can you make one?"
 - CURR: "No." Antonius smiled. I pointed at him.
 - NEXT: "Do not."
 
-### P601
+### P600
 - PREV: "No." Antonius smiled. I pointed at him.
 - CURR: "Do not."
 - NEXT: "You know someone."
 
-### P602
+### P601
 - PREV: "Do not."
 - CURR: "You know someone."
 - NEXT: "I know several people."
 
-### P603
+### P602
 - PREV: "You know someone."
 - CURR: "I know several people."
 - NEXT: "Arlo."
 
-### P604
+### P603
 - PREV: "I know several people."
 - CURR: "Arlo."
 - NEXT: "He's busy."
 
-### P605
+### P604
 - PREV: "Arlo."
 - CURR: "He's busy."
 - NEXT: That surprised Antonius.
 
-### P609
+### P608
 - PREV: I meant it. Arlo had a regulator. A reference set. A problem already narrowed. I was not going to arrive with poisonous green rocks and a new industry because my brain had discovered another door. Not today.
 - CURR: "Any competent toolmaker," I said. "It's a clamp."
 - NEXT: Nera nodded slowly.
 
-### P611
+### P610
 - PREV: Nera nodded slowly.
 - CURR: "Wood first."
 - NEXT: "Exactly."
 
-### P612
+### P611
 - PREV: "Wood first."
 - CURR: "Exactly."
 - NEXT: "Different jaw shapes."
 
-### P613
+### P612
 - PREV: "Exactly."
 - CURR: "Different jaw shapes."
 - NEXT: "Exactly."
 
-### P614
+### P613
 - PREV: "Different jaw shapes."
 - CURR: "Exactly."
 - NEXT: "Replaceable inserts." I stopped. That was better.
 
-### P615
+### P614
 - PREV: "Exactly."
 - CURR: "Replaceable inserts." I stopped. That was better.
 - NEXT: "Yes." She smiled. I liked her less. Antonius said, "Cost?" Nera looked at Corven.
 
-### P616
+### P615
 - PREV: "Replaceable inserts." I stopped. That was better.
 - CURR: "Yes." She smiled. I liked her less. Antonius said, "Cost?" Nera looked at Corven.
 - NEXT: "To develop?"
 
-### P617
+### P616
 - PREV: "Yes." She smiled. I liked her less. Antonius said, "Cost?" Nera looked at Corven.
 - CURR: "To develop?"
 - NEXT: "To know whether this can become worth doing." She thought.
 
-### P618
+### P617
 - PREV: "To develop?"
 - CURR: "To know whether this can become worth doing." She thought.
 - NEXT: "Another day."
 
-### P619
+### P618
 - PREV: "To know whether this can become worth doing." She thought.
 - CURR: "Another day."
 - NEXT: "Money."
 
-### P620
+### P619
 - PREV: "Another day."
 - CURR: "Money."
 - NEXT: "One gold."
 
-### P621
+### P620
 - PREV: "Money."
 - CURR: "One gold."
 - NEXT: "No."
 
-### P622
+### P621
 - PREV: "One gold."
 - CURR: "No."
 - NEXT: "Then use spoons." I held mine up.
 
-### P623
+### P622
 - PREV: "No."
 - CURR: "Then use spoons." I held mine up.
 - NEXT: "Scalable."
 
-### P624
+### P623
 - PREV: "Then use spoons." I held mine up.
 - CURR: "Scalable."
 - NEXT: No one laughed. Philistines. Antonius negotiated her to seven silver plus first right to buy a small batch at a fixed price. Corven agreed to provide material. Nera agreed to document handling. I agreed to nothing. That was the victory. I stood in the yard with green residue on my gloves, a page full of notes, and absolutely no ownership in a new vairglass processing venture.
 
-### P627
+### P626
 - PREV: It felt unnatural. Antonius took the notes.
 - CURR: "Good."
 - NEXT: "I wrote them."
 
-### P628
+### P627
 - PREV: "Good."
 - CURR: "I wrote them."
 - NEXT: "I know."
 
-### P629
+### P628
 - PREV: "I wrote them."
 - CURR: "I know."
 - NEXT: "Those are mine."
 
-### P630
+### P629
 - PREV: "I know."
 - CURR: "Those are mine."
 - NEXT: "You were working for me."
 
-### P631
+### P630
 - PREV: "Those are mine."
 - CURR: "You were working for me."
 - NEXT: "Copies." He considered.
 
-### P632
+### P631
 - PREV: "You were working for me."
 - CURR: "Copies." He considered.
 - NEXT: "Fine."
 
-### P633
+### P632
 - PREV: "Copies." He considered.
 - CURR: "Fine."
 - NEXT: Growth. I smiled. He frowned.
 
-### P635
+### P634
 - PREV: Growth. I smiled. He frowned.
 - CURR: "Don't."
 - NEXT: We walked back toward his warehouse. For three streets, I managed not to mention the dungeon. Then I failed.
 
-### P637
+### P636
 - PREV: We walked back toward his warehouse. For three streets, I managed not to mention the dungeon. Then I failed.
 - CURR: "How dangerous was it?"
 - NEXT: "No."
 
-### P638
+### P637
 - PREV: "How dangerous was it?"
 - CURR: "No."
 - NEXT: "Corven went in and came out."
 
-### P639
+### P638
 - PREV: "No."
 - CURR: "Corven went in and came out."
 - NEXT: "No."
 
-### P640
+### P639
 - PREV: "Corven went in and came out."
 - CURR: "No."
 - NEXT: "That's evidence."
 
-### P641
+### P640
 - PREV: "No."
 - CURR: "That's evidence."
 - NEXT: "It's evidence that Corven came out."
 
-### P642
+### P641
 - PREV: "That's evidence."
 - CURR: "It's evidence that Corven came out."
 - NEXT: "Party size?"
 
-### P643
+### P642
 - PREV: "It's evidence that Corven came out."
 - CURR: "Party size?"
 - NEXT: "No."
 
-### P644
+### P643
 - PREV: "Party size?"
 - CURR: "No."
 - NEXT: "Depth?"
 
-### P645
+### P644
 - PREV: "No."
 - CURR: "Depth?"
 - NEXT: "No."
 
-### P646
+### P645
 - PREV: "Depth?"
 - CURR: "No."
 - NEXT: "Monster profile?"
 
-### P647
+### P646
 - PREV: "No."
 - CURR: "Monster profile?"
 - NEXT: "No."
 
-### P648
+### P647
 - PREV: "Monster profile?"
 - CURR: "No."
 - NEXT: "Mana density?"
 
-### P649
+### P648
 - PREV: "No."
 - CURR: "Mana density?"
 - NEXT: "No."
 
-### P650
+### P649
 - PREV: "Mana density?"
 - CURR: "No."
 - NEXT: "Traps?"
 
-### P651
+### P650
 - PREV: "No."
 - CURR: "Traps?"
 - NEXT: "No."
 
-### P652
+### P651
 - PREV: "Traps?"
 - CURR: "No."
 - NEXT: "Architecture?"
 
-### P653
+### P652
 - PREV: "No."
 - CURR: "Architecture?"
 - NEXT: "No."
 
-### P654
+### P653
 - PREV: "Architecture?"
 - CURR: "No."
 - NEXT: "How far from Carrow?"
 
-### P655
+### P654
 - PREV: "No."
 - CURR: "How far from Carrow?"
 - NEXT: "No." I shoved my hands into my pockets.
 
-### P656
+### P655
 - PREV: "How far from Carrow?"
 - CURR: "No." I shoved my hands into my pockets.
 - NEXT: "This is unreasonable."
 
-### P657
+### P656
 - PREV: "No." I shoved my hands into my pockets.
 - CURR: "This is unreasonable."
 - NEXT: "You are not going."
 
-### P658
+### P657
 - PREV: "This is unreasonable."
 - CURR: "You are not going."
 - NEXT: "I know."
 
-### P659
+### P658
 - PREV: "You are not going."
 - CURR: "I know."
 - NEXT: "You say that like you're planning around the sentence."
 
-### P660
+### P659
 - PREV: "I know."
 - CURR: "You say that like you're planning around the sentence."
 - NEXT: "I'm gathering information."
 
-### P661
+### P660
 - PREV: "You say that like you're planning around the sentence."
 - CURR: "I'm gathering information."
 - NEXT: "For what?"
 
-### P662
+### P661
 - PREV: "I'm gathering information."
 - CURR: "For what?"
 - NEXT: Good question. I almost answered automatically. Future. Preparation. Opportunity. Training. But those were category words. Not reasons. What would I do with the information today? Nothing. What could I do with it? Obsess. Design. Spend money. Recruit people. Distract Arlo. Annoy Hessa. Probably attempt to accelerate my body into a dungeon before it was ready.
 
-### P665
+### P664
 - PREV: I hated the clarity.
 - CURR: "Nothing," I said. Antonius looked at me.
 - NEXT: "What?"
 
-### P666
+### P665
 - PREV: "Nothing," I said. Antonius looked at me.
 - CURR: "What?"
 - NEXT: "Nothing."
 
-### P667
+### P666
 - PREV: "What?"
 - CURR: "Nothing."
 - NEXT: "That's new."
 
-### P668
+### P667
 - PREV: "Nothing."
 - CURR: "That's new."
 - NEXT: "Fuck you."
 
-### P669
+### P668
 - PREV: "That's new."
 - CURR: "Fuck you."
 - NEXT: We kept walking. At the warehouse, Corven's sacks were being transferred into rigid bins under Nera's handling instructions. Slowly. No panic. No dust. A problem had become a process. I liked that. Antonius stopped beside the first sealed bin.
 
-### P671
+### P670
 - PREV: We kept walking. At the warehouse, Corven's sacks were being transferred into rigid bins under Nera's handling instructions. Slowly. No panic. No dust. A problem had become a process. I liked that. Antonius stopped beside the first sealed bin.
 - CURR: "How much do you think it's worth?"
 - NEXT: "The vairglass?"
 
-### P672
+### P671
 - PREV: "How much do you think it's worth?"
 - CURR: "The vairglass?"
 - NEXT: "All of it."
 
-### P673
+### P672
 - PREV: "The vairglass?"
 - CURR: "All of it."
 - NEXT: I considered. Old Greg would have multiplied clean yield by retail price and produced a number impressive enough to make everyone stupid. Current Greg had been learning. Against his will.
 
-### P675
+### P674
 - PREV: I considered. Old Greg would have multiplied clean yield by retail price and produced a number impressive enough to make everyone stupid. Current Greg had been learning. Against his will.
 - CURR: "Unknown." Antonius nodded. I hated that too.
 - NEXT: "Raw material has a floor if Nera buys it. Better value if separation works. But we don't know yield across the whole lot, labor, buyer depth, transport, spoilage, whether the chamber is repeatable, or whether Corven can safely recover more."
 
-### P676
+### P675
 - PREV: "Unknown." Antonius nodded. I hated that too.
 - CURR: "Raw material has a floor if Nera buys it. Better value if separation works. But we don't know yield across the whole lot, labor, buyer depth, transport, spoilage, whether the chamber is repeatable, or whether Corven can safely recover more."
 - NEXT: "Good."
 
-### P677
+### P676
 - PREV: "Raw material has a floor if Nera buys it. Better value if separation works. But we don't know yield across the whole lot, labor, buyer depth, transport, spoilage, whether the chamber is repeatable, or whether Corven can safely recover more."
 - CURR: "Good."
 - NEXT: "Stop sounding pleased."
 
-### P678
+### P677
 - PREV: "Good."
 - CURR: "Stop sounding pleased."
 - NEXT: "Why?"
 
-### P679
+### P678
 - PREV: "Stop sounding pleased."
 - CURR: "Why?"
 - NEXT: "Because I miss when you thought I was an idiot."
 
-### P680
+### P679
 - PREV: "Why?"
 - CURR: "Because I miss when you thought I was an idiot."
 - NEXT: "I still think you're an idiot."
 
-### P681
+### P680
 - PREV: "Because I miss when you thought I was an idiot."
 - CURR: "I still think you're an idiot."
 - NEXT: "Professionally."
 
-### P682
+### P681
 - PREV: "I still think you're an idiot."
 - CURR: "Professionally."
 - NEXT: "Professionally, you're occasionally useful."
 
-### P683
+### P682
 - PREV: "Professionally."
 - CURR: "Professionally, you're occasionally useful."
 - NEXT: There it was. Not praise.
 
-### P688
+### P687
 - PREV: Forty years from now, I would know this material well enough to forget where I learned it. Knowledge in my first life had accumulated until it felt like mine, even though almost none of it had begun with me. Someone had taught me. Someone had tested. Someone had gotten sick. Someone had written the handling rule.
 - CURR: I had returned with the result and mistaken it for possession. Uncomfortable. Useful. I said, "I want to go." Antonius did not ask where.
 - NEXT: "No."
 
-### P689
+### P688
 - PREV: I had returned with the result and mistaken it for possession. Uncomfortable. Useful. I said, "I want to go." Antonius did not ask where.
 - CURR: "No."
 - NEXT: "Eventually."
 
-### P690
+### P689
 - PREV: "No."
 - CURR: "Eventually."
 - NEXT: "Maybe."
 
-### P691
+### P690
 - PREV: "Eventually."
 - CURR: "Maybe."
 - NEXT: That was different. I looked at him. He looked back.
 
-### P693
+### P692
 - PREV: That was different. I looked at him. He looked back.
 - CURR: "What?"
 - NEXT: "You said maybe."
 
-### P694
+### P693
 - PREV: "What?"
 - CURR: "You said maybe."
 - NEXT: "I regret it."
 
-### P695
+### P694
 - PREV: "You said maybe."
 - CURR: "I regret it."
 - NEXT: "Too late."
 
-### P696
+### P695
 - PREV: "I regret it."
 - CURR: "Too late."
 - NEXT: "Greg."
 
-### P697
+### P696
 - PREV: "Too late."
 - CURR: "Greg."
 - NEXT: "Eventually."
 
-### P698
+### P697
 - PREV: "Greg."
 - CURR: "Eventually."
 - NEXT: "When you can go into a warehouse without trying to cast magic at poison."
 
-### P699
+### P698
 - PREV: "Eventually."
 - CURR: "When you can go into a warehouse without trying to cast magic at poison."
 - NEXT: "I did not cast magic at poison."
 
-### P700
+### P699
 - PREV: "When you can go into a warehouse without trying to cast magic at poison."
 - CURR: "I did not cast magic at poison."
 - NEXT: "Because I stopped you."
 
-### P701
+### P700
 - PREV: "I did not cast magic at poison."
 - CURR: "Because I stopped you."
 - NEXT: "Still counts."
 
-### P702
+### P701
 - PREV: "Because I stopped you."
 - CURR: "Still counts."
 - NEXT: "No."
 
-### P703
+### P702
 - PREV: "Still counts."
 - CURR: "No."
 - NEXT: I grinned. He went inside. I stayed beside the bin for another moment. Dungeon. Not yet. That hurt less than it had yesterday. Not because I wanted it less. Because for once, not yet had edges. Mana. Body. Barrier. Judgment. A party I did not have. Skills I remembered but could not yet perform. There were things between me and the dungeon.
