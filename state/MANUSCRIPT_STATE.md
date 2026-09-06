@@ -1,8 +1,8 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 477 - **THE WAYFARER**.
-- Exact Chapters 249-477 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
+- Current exact story endpoint: Chapter 478 - **THE CORRESPONDENT**.
+- Exact Chapters 249-478 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
 - Permanent running-manuscript consolidation still has known integration debt; do not reconstruct missing exact text from summaries.
 
 ## Active correction overlays
@@ -15,145 +15,109 @@ Before any new named character: check `BOOK1_NAME_REGISTRY_CH82.md` and current 
 
 ## Durable progression / leverage mandate
 - `state/PROGRESSION_ENGINE.md` includes legal/gray-market arbitrage guidance and the author-approved debt-closure progression rule.
-- Current leverage focus remains **earning power / capital**, with brokerage, arbitrage, coordination, management, eventual ownership, and selective ordinary spending all available.
+- Current leverage focus remains **earning power / capital**, with brokerage, arbitrage, coordination, management, eventual ownership, selective ordinary spending, and artifact-capital pressure all available.
 - Ch474 proves Greg can move silver-scale value without owning inventory.
 - Ch475 proves Greg can create value by coordinating specialists without stealing their expertise.
-- Ch476 proves artifact markets can outrun Greg's safe deployable capital and that losing a good object can be the correct economic result.
-- Ch477 adds an economic-ratchet behavior: Greg can pay a normal 5c travel fare when time, body load, and location value justify it instead of forcing every trip into a work optimization.
+- Ch476 proves artifact markets can outrun Greg's safe deployable capital and that losing a good object can be correct.
+- Ch477 proves Greg can pay normal travel cost when time/body/location value justify it and closes the first East Fen/Lakeward brokerage fee.
+- Ch478 shifts toward belonging/relationship residue: Lyssa's independent life continues while Greg is away, and home now pulls him back without requiring a crisis or quest ending.
 - When liquidity genuinely scales, verify actual obligations before clearing them. Preserve reserve/working capital, distinguish debt from gifts/favors/support, and treat the work limb as evolving infrastructure.
 
-## Chapter 477 - THE WAYFARER
+## Current financial / body / magic state
+- Greg ends Ch478 in **Lakeward**.
+- Cash **18c**.
+- Vale **23c**.
+- Bits remain unspecified after ordinary breakfast, washhouse, thread, food, postage, and a one-bit seat hold.
+- 10c survival floor remains active.
+- Reed-glass introduction fee is **paid/closed**.
+- 20c work-limb deposit remains paid toward the **1 silver + 18c quote**. Remaining schedule/terms are still unverified and must not be invented.
+- Protocol remains **59 / 53 / 139**.
+- Greg remains on two crutches; no trial-limb wear in Ch478.
+- Shoulder continues improving; no new injury.
+- No magic tests in Ch478.
+
+## Chapter 478 - THE CORRESPONDENT
 
 ### Role / title
-- Greg is **THE WAYFARER** because he chooses ordinary paid westward travel, lets the road/system carry him instead of converting the trip into a hustle, and returns to Lakeward with both economic and informational residue.
-- Repository title search found no prior `THE WAYFARER` collision before drafting.
+- Greg is **THE CORRESPONDENT** because the chapter is driven by receiving and answering Lyssa's letter, not by a job, market solve, artifact bid, or road emergency.
+- Repository title search found no current collision before drafting.
 
-## Starting state
-- Greg begins in **Cinder Cross** at **18c cash / 23c Vale / bits unspecified**.
-- Protocol **59 / 53 / 139**.
-- 10c survival floor active.
-- Reed-glass introduction commission **5c pending** at chapter start.
-- Bracken final-hazard reference exact wording pending at chapter start.
-- Stillhook remains owned by Elian; no follow-up/test result arrives.
+### Lyssa letter / home residue
+- A physically plausible Lyssa letter reaches Greg at the Lakeward post after his earlier poor routing note.
+- Lyssa's voice remains independent, materially grounded, and not Greg-like. Her letter focuses on work, thread/customer nonsense, household objects, people continuing around her, and the practical problem of Greg giving useless travel locations.
+- Lyssa explicitly says she is fine in a bounded way: busy, sleeping enough, ate yesterday, and nobody has threatened her. Greg does not turn this into diagnosis.
+- Lyssa reports her work continuing with **Jessa** and **Marra** present in their own social/work lane. Jessa suggests charging people for changing their minds; Marra jokes that Lyssa would become rich and unbearable; Lyssa redirects the unbearable joke to Greg.
+- Greg's cracked bad cup remains on the high shelf because Lyssa chose not to throw it away. This is ordinary household residue, not a magical object or formal symbol.
+- **Cala** borrowed and returned the small uneven chair without Lyssa having to ask this time. No new obligation or subplot follows.
+- Someone from the theatre came by once looking for Greg; Lyssa only told him Greg was east. Exact purpose remains unknown. No urgent theatre summons is established.
+- One sealed **Hark & Venn** note addressed to Greg is physically at home with his papers. Lyssa did not open it and Greg does not ask her to transcribe it. Exact contents remain unknown.
+- Lyssa asks for a useful location rather than an itinerary and writes: **I miss you. This is not permission to become dramatic.**
+- Greg recognizes that home has accumulated several meanings at once: his things, Lyssa, work that can find him, and people who notice when he leaves badly routed information.
 
-## Ordinary travel as progression
-- Cinder Cross public road fare to Lakeward remains **5c**.
-- Greg pays the fare directly rather than seeking freight work, gray passage, or another attached job.
-- Cash **18c -> 13c** on departure, still above the 10c floor.
-- This is not framed as recklessness or crisis. The fare buys time, reduced shoulder/right-leg load, and return to useful westward lanes.
-- Greg explicitly recognizes that travel can be worth buying when its time/body/location value exceeds the fare.
+### Greg's reply
+- Greg writes Lyssa from Lakeward and says he is going home the next morning.
+- He tells her the six reed-glass bundles passed and he got paid.
+- He tells her he lost an auction for a broken artifact because another bidder could safely spend more, and that this was correct even though he hated it.
+- He tells her about the High Cinder charge-ground failure only at the level that wardens fixed it while passengers waited and nobody died.
+- He says **I miss you too**, then mirrors her tone with **Do not become dramatic about this.**
+- He explicitly tells her to leave the Hark & Venn note sealed until he gets home.
+- His reply gives a concrete location/route: Lakeward now, first-bell Carrow route tomorrow.
+- Greg knowingly sends the letter even though he may reach home before it. The point is that Lyssa asked for a useful note, not that postal timing maximizes efficiency.
 
-## High Cinder charge-weather road system
-- The public cart uses two chestnut road striders with dull copper braid and ceramic beads worked through their tack/mane area.
-- Driver establishes local safety procedure: during High Cinder weather-bell warnings, exposed metal stays down, passengers do not touch lit grounding braid, and driver/road-warden instructions control movement.
-- High Cinder roadside infrastructure includes dark cinderstone markers with mixed functions; some capped posts bleed ridge charge into ground.
-- During the trip, silver-threaded `charge grass` behavior and roof weather bells indicate a charged weather condition despite mostly clear sky.
-- One capped roadside marker fails to drain normally, creating a visible gap in the local charge pattern.
-- Driver moves the cart into a purpose-built grounded layby and stops rather than pushing through.
-- Two passenger road workers disagree narrowly over whether the failure is cap-side or ground-side; neither is treated as automatically correct.
-- Road wardens arrive on a small road skiff with a blue-pulsing caged device.
-- Using wooden tools and ceramic-interrupted temporary grounding chain, wardens determine the **ground is open** and install a temporary ground spike.
-- The temporary ground successfully draws charge and relights the failed post through at least two observed cycles before traffic resumes.
-- Exact magical mechanism, infrastructure history, charge thresholds, device identity, and broader regional rules remain unestablished beyond observed behavior.
-- Greg does not intervene, test magic, claim expertise, or turn the road failure into a commercial lead.
+### Westbound return setup
+- Lakeward board lists a Carrow-bound route leaving at first bell the next morning.
+- Two seats remain when Greg asks.
+- Greg pays **one bit** to hold a seat until dusk.
+- No copper fare is paid yet; fare is due on boarding and exact fare is not established in Ch478.
+- Expected travel time is long enough that, if normal, Greg should reach home after one full road day and part of another. No teleport-like return.
+- Ch478 ends before departure. Greg remains in Lakeward overnight.
 
-## Dialogue / social texture
-- Temporary passengers remain unnamed.
-- One young male passenger talks in long, overexplained runs about family/room logistics, deliberately differing from Greg's short dry register.
-- Two road workers have distinct interaction: one explains too much; the other repeatedly tries to stop him and keeps claims narrower.
-- Driver is practical and owns cart authority. Road wardens own the repair response.
-- No one becomes Greg's new companion or recurring contact automatically.
+### Ordinary Lakeward day
+- Greg deliberately does not convert the free day into a deal, source hunt, or artifact chase.
+- He uses the public washhouse, cleans clothes/body, notices a loose shirt seam, buys ordinary repair thread in bits, and chooses not to badly repair it before seeing Lyssa.
+- He watches ordinary dock magic: a blue-glass brake bead on a pulley frame darkens when a load swings too quickly. Workers adjust without incident; Greg does not investigate or claim expertise.
+- No new artifact opportunity or commercial lead is created.
 
-## Bracken final hazard reference
-- On arrival in Lakeward, Greg receives the requested Bracken notice.
-- Exact usable wording:
-  - prior hazard report was received before west-access temporary closure;
-  - subsequent ridge inspection confirmed continued closure pending repair;
-  - notice certifies **report timing and receipt only**.
-- This does **not** certify that Greg correctly diagnosed the hazard or prove a broader road-safety expertise claim.
-
-## Reed-glass commission closes
-- Lakeward merchant hall notice confirms **six bundles received / six accepted to contract specification**.
-- The **5c introduction fee becomes payable** only after this acceptance.
-- Greg collects the full **5c** at the hall desk.
-- Cash **13c -> 18c**.
-- The buyer notes the two cosmetically ugly bundles still passed because color was irrelevant to her functional specification.
-- Buyer says future East Fen purchases can be direct through Orin/contact rather than requiring Greg for every repeat order.
-- This closes the first transaction cleanly without pretending one successful brokerage introduction creates permanent recurring income.
-- Buyer may contact Greg if another source problem appears; no guaranteed work is established.
-
-## Economy
-- Starts **18c cash / 23c Vale / bits unspecified**.
-- Public Cinder -> Lakeward fare: **-5c -> 13c**.
-- Accepted reed-glass introduction commission: **+5c -> 18c**.
-- Bit-level viewing/food/bunk/postage remain ordinary and exact bit balance unspecified.
-- Ends **18c cash / 23c Vale / bits unspecified**.
-- 10c floor remains active; 8c above floor.
-- Reed-glass commission is now **closed/paid**, not pending.
-- 30c milestone remains secondary to silver-scale leverage and deployable-capital growth.
-- 20c work-limb deposit remains paid toward the 1 silver + 18c quote; no remaining schedule/terms are invented.
-- Debt-closure progression remains inactive at this liquidity. No Vale payment or other obligation payoff occurs.
-
-## Body / magic / tools
-- Greg remains on two crutches; no trial-limb wear.
-- Shoulder continues improving and benefits from a seated travel day.
-- Right leg avoids a full overland crutch-travel load.
-- No magic tests; protocol remains **59 / 53 / 139**.
-- No artifact acquisition or sale.
-- Stillhook remains Elian's.
-- Tool House vane-bracket resemblance remains information only.
-- Lot67 unused.
-
-## Location / active residues
-- Greg ends Ch477 in **Lakeward**, lodged for the night after collecting the glass fee.
-- Bracken timing/reference paper is now in Greg's notebook.
-- East Fen / Lakeward first brokerage transaction is complete.
-- East Fen remains a potentially useful source relationship, but repeat purchases can now bypass Greg.
-- South-road organizer notice remains copied/unapplied from Cinder; distance does not erase it, but do not force immediate return.
-- Hark & Venn / work-limb, Hessa, Sori, home, Morrow direct completion, and other westward lanes remain available only when timing/current authority supports them.
-- Sunroad west access remains closed pending repair.
-- No enforcement consequence has yet occurred from Ch473 gray freight.
-- No permanent companion.
-
-## Protected uncertainties
+## Protected uncertainties / live residue
+- Greg ends Ch478 in **Lakeward**, with a first-bell Carrow seat held for the next morning.
 - Cash **18c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 139**.
-- Stillhook magical-displacement behavior remains unverified.
-- Exact stillhook maker/generation/repairability and Elian's profession/use remain unverified.
-- High Cinder charge-weather mechanism and warden equipment details remain narrow observations only.
+- Hark & Venn note exists at home but exact contents, due terms, fitting status, payment schedule, pickup timing, and remaining work-limb obligations remain **unverified**.
+- Theatre visitor purpose remains unknown.
+- Hessa, Sori, Morrow, South Road organizer lead, and other pending lanes remain unresolved unless later authority moves them.
+- Stillhook remains Elian's; magical-displacement behavior, maker/generation, repairability, and Elian's profession/use remain unverified.
+- High Cinder charge-weather mechanism remains narrow observation only.
 - East Fen Fenwright lower-draft problem remains unresolved and nonessential to the completed glass deal.
 - Ch473 marked Three Rays freight lot remains with freight owner unless newer exact prose changes that later.
 - No enforcement consequence from Ch473 has occurred.
-- Work-limb remaining balance schedule/terms remain unverified.
-- Vale exact broader payment terms remain governed by exact canon; do not infer from the 23c balance alone.
+- Debt-closure progression remains inactive at current liquidity.
+- No permanent companion.
 
-## Chapter 478 trailhead
-Follow the next actual claim from Ch477/current authority and `state/PROGRESSION_ENGINE.md`.
+## Chapter 479 trailhead
+Follow the next actual claim from Ch478/current authority and `state/PROGRESSION_ENGINE.md`.
 
-Greg begins **18c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**, in **Lakeward**. Reed-glass fee is paid and closed. Bracken final reference is now physically in his notebook. The recent sequence has changed grammar repeatedly: gray freight -> sourcing -> coordination -> artifact auction -> magical-road travel.
+Greg begins **18c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**, in **Lakeward**, with a held first-bell Carrow seat. Lyssa's letter has made the return home emotionally concrete, and a sealed Hark & Venn note is waiting among Greg's papers at home.
 
 Strong movement:
-- Do not immediately repeat another road interruption or commercial sourcing beat.
-- Lakeward now creates a plausible pause/return hinge toward **home, Hark & Venn/work-limb, Hessa/magic, Sori/artifact information, or another older relationship/obligation**, depending on actual timing and exact authority.
-- The work limb has gained new strategic meaning through hand economy, but before any payment/pickup/adjustment scene **verify exact current limb terms and outstanding balance against manuscript authority**. Do not invent due dates or remaining installments.
-- A meaningful return toward home can carry accumulated contrast: Greg has more money, references, routes, and leverage than when he left, without requiring a victory speech.
-- If a new artifact opportunity appears, avoid compensating Greg for the lost stillhook with an easy substitute. The market should remain competitive and information-sensitive.
-- If a letter/reply arrives, preserve physical timing and sender independence; do not make every pending thread answer at once.
-- Current economic behavior supports paying ordinary travel/lodging costs when useful. Do not reset him into penny panic merely because cash remains 18c.
-- Debt closure still waits for a genuinely larger liquidity/capacity jump. Verify real obligations before paying anything.
-- Keep action pressure variable. Ch477 had environmental magical tension; Ch478 may be quieter if it carries meaningful relationship/body/material residue.
+- The natural next move is the actual return west/home, but do not make it another Ch477-style magical road-interruption chapter unless a genuinely different route consequence earns it.
+- Travel may compress if nothing important happens. The emotional/material payoff is arrival, accumulated contrast, and the fact that home continued without Greg.
+- On arrival, **do not immediately open every pending lane at once**. Lyssa/home should get room to breathe before Hessa, theatre, Vale, Sori, Morrow, South Road, or artifact business crowd the chapter.
+- The Hark & Venn note may be opened once Greg is physically home. Before any limb payment/pickup/adjustment, verify the exact note wording and prior limb authority. Do not infer due dates or balances from the quote alone.
+- Preserve Lyssa as independent: she has work, customers, Jessa/Marra, household irritation, and her own day. Greg's return should enter her life rather than freeze it.
+- Economic progression remains intact. Greg can pay normal travel/lodging/food costs when useful without penny panic, but 18c still does not justify debt-clearing behavior.
+- Keep the artifact route alive without forcing immediate replacement for the lost stillhook.
 
 Avoid:
-- another charge-weather road incident immediately;
-- another `Greg asks the right market question and gets paid` chapter;
-- automatic Elian/stillhook follow-up;
-- work-limb payment or pickup without verified terms;
+- another long travel-infrastructure emergency immediately;
+- turning the homecoming into a victory speech or financial audit;
+- Lyssa becoming Greg's secretary/analyst;
+- opening Hark & Venn, theatre, Hessa, Vale, Sori, and Morrow all in one chapter;
+- work-limb payment/pickup without exact verified terms;
 - treating 18c as poverty or wealth;
 - debt-payoff checklist behavior;
-- resolving Hessa, Hark & Venn, Sori, home, Morrow, and South Road all at once;
 - another strategic manifesto.
 
-**MANDATORY TITLE CHECK CH478:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
+**MANDATORY TITLE CHECK CH479:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
