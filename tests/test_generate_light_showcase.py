@@ -5,7 +5,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parents[1] / 'scripts'))
 
-from generate_light import Chapter, chapter_nav, clean_numeric_pages, render_chapter, render_index
+from cleanup_showcase_light import clean_numeric_pages
+from generate_light import Chapter, chapter_nav, render_chapter, render_index
 from showcase import build_showcase_map
 
 
