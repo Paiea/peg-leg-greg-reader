@@ -28,12 +28,24 @@ def begins_dialogue(p: str) -> bool:
 
 
 def last_narrative_action_owner(p: str) -> str | None:
-    """Infer who owns the last clear action beat in a non-dialogue paragraph."""
-    pattern = re.compile(rf'(?:(?<=^)|(?<=[.!?])\s+)(I|He|She|They|[A-Z][a-z]+)\s+({ACTION})\b', re.M)
-    matches = list(pattern.finditer(p))
-    if not matches:
+    """Infer the owner of the last clear action beat in a narrative paragraph."""
+    starts = [0]
+    starts.extend(m.end() for m in re.finditer(r'[.!?]\s+', p))
+    events: list[tuple[int, str]] = []
+    greg_re = re.compile(rf'I\s+({ACTION})\b')
+    other_re = re.compile(rf'(?:He|She|They|[A-Z][a-z]+|The\s+[a-z]+(?:\s+[a-z]+)?)\s+({ACTION})\b')
+    for pos in starts:
+        while pos < len(p) and p[pos].isspace():
+            pos += 1
+        gm = greg_re.match(p, pos)
+        om = other_re.match(p, pos)
+        if gm:
+            events.append((gm.start(), 'GREG'))
+        elif om:
+            events.append((om.start(), 'OTHER'))
+    if not events:
         return None
-    return 'GREG' if matches[-1].group(1) == 'I' else 'OTHER'
+    return events[-1][1]
 
 
 def infer_speakers(paras: list[str]) -> list[tuple[str | None, int | None]]:
@@ -47,12 +59,8 @@ def infer_speakers(paras: list[str]) -> list[tuple[str | None, int | None]]:
 
         if has_dialogue and sp is None and begins_dialogue(p):
             if last_dialogue and last_sp:
-                # Consecutive untagged dialogue turns normally alternate.
                 sp = 'OTHER' if last_sp == 'GREG' else 'GREG'
             else:
-                # A fresh untagged exchange is anchored by the immediately preceding
-                # visible action beat. If there is no such anchor, first-person POV
-                # defaults to Greg as the speaker.
                 sp = last_narrative_action_owner(previous_para) or 'GREG'
             anchor = p.find('"')
         elif has_dialogue and sp is not None:
@@ -170,13 +178,15 @@ def self_test() -> None:
         got, _ = transform_paragraph(raw, sp, anchor)
         assert got == expected, (raw, got, expected)
 
-    # New dialogue runs inherit the immediately preceding visible action owner.
     paras = ['The smith looked at me.', '"You buying it?"', '"Yes."']
     inferred = infer_speakers(paras)
     assert inferred[1][0] == 'OTHER' and inferred[2][0] == 'GREG', inferred
     paras = ['I looked at the sack.', '"What is this?"', '"Flour."', '"Doing what?" Rusk pointed at the sack.']
     inferred = infer_speakers(paras)
     assert [x[0] for x in inferred[1:]] == ['GREG', 'OTHER', 'GREG'], inferred
+    paras = ['I stood. Senna looked up.', '"Running?"', '"Stopping."', '"Different?"', '"For me? Apparently." She glanced at my stack.']
+    inferred = infer_speakers(paras)
+    assert [x[0] for x in inferred[1:]] == ['OTHER', 'GREG', 'OTHER', 'GREG'], inferred
 
     raw = 'Antonius looked at me long enough that I said, "What?"'
     anchor = raw.index('I said')
