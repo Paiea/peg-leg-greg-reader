@@ -8,6 +8,7 @@ on:
       - 'scripts/apply_performance_novelization_experiment.py'
       - 'scripts/run_performance_novelization_experiment.py'
       - 'scripts/harden_performance_novelization_attribution.py'
+      - 'scripts/clean_performance_novelization_seams.py'
       - 'tests/test_performance_novelization_experiment.py'
       - '.github/workflows/performance-novelization-live.yml'
   workflow_dispatch:
@@ -30,6 +31,8 @@ jobs:
         run: python -m unittest tests.test_performance_novelization_experiment -v
       - name: Harden dialogue attribution on preserved novelization
         run: python scripts/harden_performance_novelization_attribution.py --write
+      - name: Clean replacement seams
+        run: python scripts/clean_performance_novelization_seams.py --write
       - name: Validate repository and reader
         run: |
           python -m unittest discover -s tests -p 'test_*.py' -v
@@ -47,16 +50,38 @@ jobs:
               if '—' in re.sub(r'<[^>]+>', '', m.group(1)):
                   raise SystemExit(f'em dash in prose: {path}')
           required = {
-              7: ('"Trash," Antonius said.', '"How valuable?" Antonius asked.', '"End of week," Antonius said.'),
-              13: ('"Again," I said.', '"Six runs answered this test," Arlo said.', '"I stopped holding the wire," Arlo said.'),
-              18: ('"Move it," Hessa said.', '"What changed?" Hessa asked.', '"Nineteen casts," Hessa said.', '"Tell me what you learned," Hessa said.'),
+              7: (
+                  '"Trash," Antonius said.',
+                  '"How valuable?" Antonius asked.',
+                  '"End of week," Antonius said.',
+                  '"Why was that under a chair?" I asked.',
+              ),
+              13: (
+                  '"Again," I said.',
+                  '"Six runs answered this test," Arlo said.',
+                  '"I stopped holding the wire," Arlo said.',
+                  '"What did the tensioner do?" I asked.',
+                  '"I know," Arlo said.',
+                  '"Firing," Arlo said.',
+              ),
+              18: (
+                  '"Move it," Hessa said.',
+                  '"What changed?" Hessa asked.',
+                  '"Nineteen casts," Hessa said.',
+                  '"Tell me what you learned," Hessa said.',
+                  '"Brief structures cost less," I said.',
+                  '"Do they?" Hessa asked.',
+              ),
           }
           for number, anchors in required.items():
               page = (Path('chapters') / f'{number:03d}.html').read_text(encoding='utf-8')
               for anchor in anchors:
                   if anchor not in page:
-                      raise SystemExit(f'missing conservative attribution anchor in chapter {number}: {anchor}')
-          print('Target no-em-dash and attribution checks passed.')
+                      raise SystemExit(f'missing conservative attribution/seam anchor in chapter {number}: {anchor}')
+          bad = '<p>"But real."</p><p>"I know," I said.</p>'
+          if bad in (Path('chapters') / '013.html').read_text(encoding='utf-8'):
+              raise SystemExit('incorrect Greg attribution remains at Arlo seam')
+          print('Target no-em-dash, attribution, and seam checks passed.')
           PY
       - name: Verify bounded prose diff
         run: |
@@ -83,5 +108,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "418982+github-actions[bot]@users.noreply.github.com"
           git add chapters/007.html chapters/013.html chapters/018.html state/editorial/performance-lab/NOVELIZATION_LIVE_REPORT.md
-          git commit -m "Harden bounded PERFORMANCE novelization attribution"
+          git commit -m "Clean bounded PERFORMANCE novelization seams"
           git push origin HEAD:experiment/performance-novelization-live
