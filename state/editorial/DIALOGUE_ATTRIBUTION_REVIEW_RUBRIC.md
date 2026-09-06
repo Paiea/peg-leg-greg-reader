@@ -4,6 +4,31 @@ Exact manuscript prose outranks this file.
 
 This rubric extends the existing whole-manuscript dialogue + attribution pass. It does **not** turn the pass into structural compression or a general prose rewrite. `NO CHANGE REQUIRED` remains a successful verdict.
 
+## Hard dialogue-ownership invariant
+
+A paragraph containing spoken dialogue belongs to that speaker for attribution purposes.
+
+When Character A speaks, an independent physical action, expression, observation, reaction, or movement performed by Character B must not remain attached to Character A's dialogue paragraph when doing so can make the reader momentarily assign the dialogue to the wrong person.
+
+Default repair order:
+1. **Paragraph break first.** Move Character B's independent beat into a new paragraph without rewriting prose.
+2. If Character B immediately speaks, keep Character B's action and dialogue together in Character B's paragraph.
+3. Add or simplify a dialogue tag only when the paragraph break alone does not restore clear ownership.
+4. Rewrite wording only when paragraph separation and ordinary attribution cannot resolve the ambiguity.
+
+Examples of violations:
+- Greg dialogue followed in the same paragraph by `Antonius smiled.`
+- Antonius dialogue followed in the same paragraph by `I picked up the coins.`
+- Greg dialogue followed in the same paragraph by `She stared.` when `she` is another character.
+
+This is primarily a **readability/correctness repair**, not an invitation to polish the surrounding prose.
+
+During the whole-manuscript pass, also flag stronger attribution failures exposed by this rule, including:
+- a dialogue tag naming a character who is not present in the scene;
+- a reaction beat whose pronoun resolves to the wrong character;
+- a paragraph whose action ownership makes the speaker genuinely ambiguous;
+- a stale character name left behind after a scene or dialogue rewrite.
+
 ## Five added checks
 
 ### 1. Jurisdiction check
@@ -79,6 +104,11 @@ For every batch, record:
 4. structural concerns observed but explicitly parked;
 5. one high-value craft finding if the batch teaches something durable.
 
+For the ownership pass specifically, record chapter status as:
+- `CLEAN` — no ownership violation found;
+- `PATCHED` — clear ownership violation repaired;
+- `REVIEW` — likely violation requires wider scene context before changing prose.
+
 Never manufacture a patch to justify the pass.
 
 ## Current macro finding
@@ -89,5 +119,7 @@ The next-order risk is therefore less `Can I tell who spoke?` and more:
 - Is Greg pulling the scene toward himself unnecessarily?
 - Is a mundane chapter changing the underlying experience?
 - Is dialogue explaining what action already proved?
+
+The reader-discovered early-manuscript risk is now additionally explicit: **paragraph ownership can lie even when every sentence is grammatical.** A wrong-owner action beat can make a reader backtrack before they consciously know why.
 
 Use those questions without broadening this pass into structural editing.
