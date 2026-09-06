@@ -1,0 +1,81 @@
+name: Structural compression 144-152
+
+on:
+  push:
+    branches:
+      - editor/voice-compression-pass
+    paths:
+      - 'scripts/apply_structural_compression_144_152.py'
+      - 'tests/test_structural_compression_144_152.py'
+      - '.github/workflows/structural-compression-144-152.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: structural-compression-144-152
+  cancel-in-progress: true
+
+jobs:
+  compress:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: editor/voice-compression-pass
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Run focused structural-compression tests
+        run: python -m unittest tests.test_structural_compression_144_152
+      - name: Apply approved structural edit
+        run: python scripts/apply_structural_compression_144_152.py
+      - name: Verify transform is idempotent
+        run: python scripts/apply_structural_compression_144_152.py --check
+      - name: Verify edited sequence and protected callbacks
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          for base in ('chapters', 'light'):
+              p149 = Path(base, '149.html').read_text(encoding='utf-8')
+              p150 = Path(base, '150.html').read_text(encoding='utf-8')
+              p151 = Path(base, '151.html').read_text(encoding='utf-8')
+              p152 = Path(base, '152.html').read_text(encoding='utf-8')
+              assert 'STRUCTURAL-COMPRESSION-144-152:149-BRIDGE' in p149
+              assert 'data-structural-status="merged"' in p150
+              assert 'STRUCTURAL-COMPRESSION-144-152:151-INTRO' in p151
+              assert 'STRUCTURAL-COMPRESSION-144-152:152-RESET' in p152
+              if base == 'light':
+                  assert 'rel="next" href="151.html"' in p149
+                  assert 'rel="prev" href="149.html"' in p151
+          ch153 = Path('chapters/153.html').read_text(encoding='utf-8')
+          ch154 = Path('chapters/154.html').read_text(encoding='utf-8')
+          assert 'Roof' in ch153
+          assert 'Lucan Drell' in ch154
+          assert 'Between shows' in ch154 or 'between shows' in ch154 or 'Twice' in ch154
+          PY
+          git diff --check
+      - name: Commit edited range
+        run: |
+          if [ -z "$(git status --porcelain -- chapters/149.html chapters/150.html chapters/151.html chapters/152.html light/149.html light/150.html light/151.html light/152.html state/compression-batches/144-152-wave1.json)" ]; then
+            echo 'Structural compression wave already applied.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add chapters/149.html chapters/150.html chapters/151.html chapters/152.html light/149.html light/150.html light/151.html light/152.html state/compression-batches/144-152-wave1.json
+          git commit -m 'Compress first tour performance sequence'
+          for attempt in 1 2 3; do
+            git fetch origin editor/voice-compression-pass
+            if ! git rebase origin/editor/voice-compression-pass; then
+              git rebase --abort || true
+              echo 'Structural compression commit conflicted with editor branch.'
+              exit 1
+            fi
+            git push origin HEAD:editor/voice-compression-pass && exit 0
+            sleep $((attempt * 2))
+          done
+          exit 1
