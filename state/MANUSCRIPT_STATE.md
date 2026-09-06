@@ -1,106 +1,88 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 454 - **THE EARNER**.
-- Exact Chapters 249-454 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays.
+- Current exact story endpoint: Chapter 455 - **THE SHEPHERD**.
+- Exact Chapters 249-455 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays.
 - Chapter 432 naming correction remains active: north-slope road forewoman is **Rika Dorn**, not Nessa Vale.
 
 ## Current location / arc
-- Greg has traveled **High Shelf -> Mere Ridge** after earning enough to keep his self-imposed 10c trip floor intact.
-- Mere Ridge is a small windy inland saddle settlement with sheep, stone houses, an old signal house, two inns, a smithy/store/road office, and route splits toward **Crown Vale** and **Larken Lake**.
+- Greg remains at **Mere Ridge** for a second night.
+- He has not fully committed onward yet, but has paid a **2c hold deposit** on an eastbound **Larken Lake** seat; the hold expires second ring next day and requires **3c remaining balance** before departure.
+- **Crown Vale** remains a real cheaper alternative at 4c, with mills/wool market/valley coach connections.
+- **Larken Lake** costs 5c total and offers lake-ferry and north-shore route connections, making it the stronger macro-direction if Greg can keep enough buffer.
 - Greg remains fully solo.
-- He ends with **14c cash**, only 4c above his 10c floor, so further travel again requires earning first unless he explicitly revises the rule.
 
-## Chapter 454 - THE EARNER
+## Chapter 455 - THE SHEPHERD
 
 ### Title / role
-- Greg is **THE EARNER** because he deliberately earns enough money before continuing north, instead of burning through the 10c floor.
-- Closing joke: he earns 3c, spends 3c, ends farther north with essentially the same financial problem.
+- Greg is **THE SHEPHERD** ironically: he does not herd sheep himself, but works the counting/return gate while actual shepherds handle the flock.
 
-## High Shelf Bell Store work
-- High Shelf work board offers multiple options; Greg chooses **BELL STORE / RESONANCE FLAG FOLD + CASE PACK / 3C HALF / DRY BENCH / CAREFUL HANDS**.
-- Supervisor is **Pell Ardin**, precise and cautious.
-- Pell explicitly defines task as nontechnical: inspect returned signal flags for tears/stiffness/obvious contamination, fold by stripe, pack numbered cases, question-tag anything uncertain.
-- Greg is told not to classify contamination or improvise cleaning.
-- One wrong-bin black-striped return is caught because Greg asks instead of silently correcting one item; Pell notes systems hate undocumented helpful people.
-- A separate Cut Four lost-return-tone event occurs during shift; Bell Store issues spare signal cases/hearing wraps/question kit. Greg does not investigate or assume field authority.
+## Mere Ridge wool-count work
+- Greg begins **14c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 138**.
+- He takes **WOOL COUNT / LOWER PEN / 2C / HALF** rather than repeating prior industrial work.
+- Supervisor **Noll Tere** explains bundle-cord system:
+  - blue = East Fence flock;
+  - red = lower wash;
+  - yellow = hill flock;
+  - green = buyer hold, not flock, and outranks flock for stacking.
+- Greg counts bundles, checks attached storm-bead braids, question-tags missing/cracked sets, and does not grade fleece or decide bead condition.
 
-## Trial limb / body
-- Trial limb had a full rest day after Ch452 use and returns for useful ordinary work on dry stable Bell Store stone floor.
-- Wear: **24 minutes**.
-- Empty case carry: **4 steps out + 4 return**.
-- Foot-placement planning becomes quiet by ~15 minutes while Greg focuses on stripe alignment/task.
-- Hip fatigue ~20; mild heat ~24; Greg stops standing rather than chasing prior 27-28 minute durations.
-- Skin: faint lower-front line clears by 20; upper pink mostly clears by 20 and fully by 30; no pain/injury.
-- Logged:
-  `High Shelf Bell Store. 24 min dry stone. Flag fold/case pack. Empty case carry 4 steps out + 4 return. Foot placement quiet by ~15. Hip fatigue 20. Mild heat 24. Stopped. Lower-front clear 20. Upper mostly clear 20, clear 30. No pain.`
-- Trial build remains Hark & Venn shop property, unfinished, medium foot.
+## Fence breach / return gate
+- A breach opens at East Fence: two or three posts down, roughly thirteen sheep out.
+- Greg correctly declines sheep-chasing work but is reassigned to a stable stone-packed return table.
+- His bounded job becomes recording returning sheep by visible storm-bead braid color / existing chalk mark, without deciding ownership.
+- Final return count: **13 sheep**:
+  - twelve East Fence blue;
+  - one yellow hill-flock sheep;
+  - four show storm-bead clicking after exposure;
+  - one lacks bead braid.
+- No injuries.
 
-## Earnings / Mere Ridge decision
-- Greg begins **15c cash / 23c Vale / bits unspecified**.
-- Bell Store work pays **+3c: 15c -> 18c**.
-- North Cut Road cart to Mere Ridge costs **3c** and is open with frost shade above marker 6.
-- Greg buys fare only after earning enough to preserve buffer: **18c -> 15c**.
-- Trial limb stays wrapped for cart travel; crutches primary.
+## Retired signal-wire residue
+- Four returned sheep show clicking storm beads inconsistent with current ordinary weather.
+- Shepherd **Hessa Pell** isolates them and avoids overclaiming cause.
+- Signal keeper **Mara Fen** checks the breach area.
+- Cause is later bounded as an old **retired east signal wire** fallen onto stone after frost, still taking a small residual charge from a connected post cap.
+- Keeper isolates the cap; fence crew reroutes around the spot.
+- The event is inconvenient infrastructure residue, not a dramatic magical hazard.
 
-## High Shelf -> Mere Ridge road texture
-- Mere Ridge vehicle is a covered high-wheel cart driven by **Iven Ro**.
-- Other temporary passengers include a shepherd woman, wool-comb boy, and jar carrier; no party forms.
-- North Cut Road is thinner/quieter than High Shelf, with sheep, frost shade, road split around a soft freight shoulder, and less centralized infrastructure.
-- Shepherd **Hessa Pell** explains glass **storm beads** braided into sheep neck wool; they click when fleece charge gets high, a practical livestock-weather warning.
-- Greg does not force a family connection despite repeated surname Pell.
+## Earnings / economy
+- Noll pays the original wool-count **2c** plus **1c extra** for the return-gate record after the breach extends the work.
+- **14c -> 17c**.
+- Greg then pays **2c hold deposit** on a Larken Lake seat: **17c -> 15c**.
+- Pays another **1c Ridge Cot loft**: **15c -> 14c**.
+- Ends **14c cash / 23c Vale / bits unspecified**.
+- Temporary **10c trip floor** remains active, leaving 4c above floor.
+- Larken hold is optionality, not full fare; abandoning it loses the 2c deposit.
 
-## Mere Ridge identity
-- Mere Ridge is a small saddle settlement with:
-  - sheep and ridge weather;
-  - stone houses;
-  - an old signal house with three roof arms;
-  - two inns;
-  - smithy/store/road office.
-- Lodging:
-  - Wind Lamb floor 2c;
-  - Ridge Cot shared loft 1c.
-- Greg chooses Ridge Cot: **15c -> 14c**.
-- Food/postage use bits only.
+## Route differentiation
+- Mere Ridge board now clearly separates the two main choices:
+  - **Crown Vale / 4c / eleventh day first ring / road open** with wool market, mill road, south-valley coach connections.
+  - **Larken Lake / 5c total / tenth day third ring / weather hold lifted** with resumed lake-ferry connections and a north-shore route board.
+- Greg provisionally chooses the Larken direction because it opens a genuinely different inland lake network, but does not pretend the cheaper Crown Vale route is fake.
+- He still needs the remaining **3c Larken balance** before departure.
 
-## New route split
-- Mere Ridge road board:
-  - **South / High Shelf / next cart eleventh day / 3c**;
-  - **Northwest / Crown Vale / 4c / road open**;
-  - **East / Larken Lake / 5c / weather hold possible / depart tenth day**.
-- Lake country now has concrete destination name **Larken Lake**.
-- At 14c cash, neither Crown Vale nor Larken Lake is comfortably affordable while preserving lodging and the 10c floor.
-- Greg explicitly decides **money first again**; no onward ticket purchased.
-- Local next-day work options include wool count, road-office weather-return copy, shearing-shed tool tags, and signal-house cleaning with stairs.
-- Old Signal House has a 1-bit public viewing slot at second bell, weather permitting.
+## Old Signal House public viewing
+- Greg spends **1 bit** on public viewing at Old Signal House; copper total unchanged.
+- Keeper Mara Fen explains old ridge system:
+  - mechanical roof-arm positions transmitted visible signal;
+  - lightly charged wire confirmation provided redundancy if weather interfered.
+- Old east line was retired when lake-road sealed glass posts replaced it.
+- A roof/post-cap connection was never fully removed because full refit was delayed.
+- New sealed glass posts localize failures better but require direct inspection; old wired system transmitted farther but could leave network residue.
+- Removing old wire is administratively expensive because two road districts dispute maintenance responsibility, while salvage ownership becomes clear when money appears.
+- Greg does not investigate or solve that broader issue.
 
-## Magic
-- After long rest since external attempt 136, Greg performs two safe bounded external attempts in a sheltered inn-wall setup using dry wool tufts.
-- **External 137:** tuft trembles; possible residual air/wind; discarded as ambiguous.
-- **External 138:** deeper shelter, about one pace, visible shift about one finger-width, no felt gust; logged as bounded positive.
-- Greg stops after second attempt; no acceleration/breakthrough/rank claim.
-- Protocol advances to **59 minimal / 53 shaping / 138 external attempts**.
-- Lot 67 is not used in this magic test.
-
-## Lot 67
-- No new Lot 67 testing Ch454.
-- Remains **60/60 clean immediate-manual + 25/25 clean delayed public-bench trials**.
-- Comparative use only; no seconds/body/magic calibration.
+## Trial limb / Lot 67 / magic
+- Trial limb rests all Ch455 after prior 24-minute wear. Remains healthy/wrapped, Hark & Venn shop property.
+- No Lot 67 testing. It remains **60/60 clean immediate-manual + 25/25 clean delayed public-bench trials**, comparative only.
+- No deliberate magic Ch455. Protocol remains **59 minimal / 53 shaping / 138 external**.
 
 ## Home note
 Greg sends:
-`Mere Ridge. Earned 3c folding/packing quarry signal flags, then paid 3c north cart. Cash 14c, Vale 23c. Trial build 24 min dry work use, fine. Ten floor intact. Roads now split toward Crown Vale or Larken Lake. No ticket yet. - Greg`
+`Mere Ridge, still. Earned 3c total doing wool count and return-gate recording after a fence breach. Thirteen sheep got out; four picked up charge from an old retired signal wire that wasn't fully disconnected. Nobody hurt. Cash 14c, Vale 23c after a 2c hold on Larken Lake seat and another 1c loft. Hold expires tomorrow second ring. Need 3c balance if I go. Ten floor intact. - Greg`
 plus:
-`Adventure remains mostly accounting with scenery.`
-
-## Economy
-- Begins **15c cash / 23c Vale / bits unspecified**.
-- Bell Store work **+3c -> 18c**.
-- Mere Ridge cart **-3c -> 15c**.
-- Ridge Cot loft **-1c -> 14c**.
-- Ends **14c cash / 23c Vale / bits unspecified**.
-- Temporary **10c trip floor** remains active, leaving 4c discretionary.
-- 20c limb deposit remains paid toward 1 silver + 18c travel-work limb quote.
+`Crown Vale is cheaper. Larken Lake has north-shore ferry connections. I picked the lake seat provisionally because apparently I enjoy making transportation decisions with insufficient money.`
 
 ## Current inventory
 Greg carries:
@@ -113,43 +95,46 @@ Greg carries:
 7. personal notebook;
 8. Outer Works close chit;
 9. Road Response Kit / Lot 67, 60/60 clean immediate-manual + 25/25 clean delayed bench trials, comparative only;
-10. current Merehook coastal-measure circular from Sori.
+10. current Merehook coastal-measure circular from Sori;
+11. Larken Lake seat hold: 2c deposit paid, 3c balance due before tenth-day third-ring departure, hold expires second ring.
 
 ## Protected uncertainties
-- Greg ends Ch454 at **Ridge Cot, Mere Ridge**.
+- Greg ends Ch455 at **Ridge Cot, Mere Ridge**.
 - Cash **14c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 138**.
 - Temporary 10c floor remains active.
-- No ticket purchased toward Crown Vale or Larken Lake.
-- Crown Vale fare 4c; Larken Lake fare 5c, weather hold possible.
-- Trial limb healthy after 24-min dry-stone work session.
-- Lot 67 remains comparative-only and unused on magic/body timing.
+- Larken Lake is only provisionally held, not fully paid.
+- 3c Larken balance remains due before departure; Crown Vale remains available at 4c later.
+- Trial limb rested Ch455.
+- Lot 67 unchanged.
 - No current companion and no new incoming news from Dask/Sori/Maro/home.
 
-## Chapter 455 trailhead
-Follow next actual claim from Ch454/current authority.
+## Chapter 456 trailhead
+Follow next actual claim from Ch455/current authority.
 
-Greg begins **14c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 138**, at **Mere Ridge**.
+Greg begins **14c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 138**, at **Mere Ridge** the morning his Larken hold expires second ring.
 
 Strong movement:
-- Money first remains the immediate pressure. Greg has only 4c above his 10c floor, so Crown Vale (4c) and Larken Lake (5c) both require another earning decision if he intends to preserve lodging/emergency margin.
-- Do not repeat Bell Store or Moth House work. Mere Ridge should expose a distinctly rural/ridge function: wool, storm-bead handling, road-weather returns, old signal infrastructure, sheep movement, or another local need.
-- The 1-bit public Old Signal House viewing can provide interesting historical/technical texture, but should not consume the whole chapter.
-- Greg's external magic just advanced to 138 with one bounded positive. Do not immediately accelerate further; let it rest.
-- Trial limb should probably rest after 24-minute wear unless there is a compelling stable dry reason.
-- **Larken Lake** is the stronger macro-direction if Greg can earn enough because it breaks further from coast/quarry grammar into lake country. Crown Vale remains a credible alternative and should not be treated as fake option.
-- Let route choice depend on actual work/economy/weather/social pull rather than arbitrary novelty.
-- No artifact-shopping binge; 14c is too thin.
+- The immediate clock is real: earn enough to pay the remaining **3c Larken balance** without making the 10c floor meaningless, or deliberately abandon the 2c deposit.
+- Signal House lower-clean work at 2c is plausible but not guaranteed; if used, make it reveal something new about old/new signal systems rather than another generic cleaning chapter.
+- A different rural job is also fine if it meaningfully affects route, money, or body.
+- If Greg earns at least 2c, paying the remaining 3c leaves 13c, enough to preserve a thin but real buffer above floor.
+- If he reaches Larken Lake this chapter, lake country should feel immediately distinct from ridge/quarry/coast: water scale, ferries, shore settlements, lake-specific magical infrastructure, and new route geometry.
+- Do not rush through Larken as merely another board stop.
+- Trial limb has now rested a full day and can return on stable dry terrain if useful.
+- Magic remains rested at 59/53/138; no need to test again yet.
+- Lot 67 should remain packed unless a genuine timing question appears.
 
 Avoid:
-- spending below the 10c floor casually;
-- another generic paper-copy chapter unless the job exposes new route/weather consequences;
-- immediate repeated magic testing;
+- giving Greg free fare or refunding the hold without cause;
+- casual floor violation;
+- another sheep problem immediately;
 - permanent companion;
-- instant lucrative rural work;
-- generic monster attack.
+- instant lucrative work;
+- generic monster attack;
+- turning the signal-wire residue into a major conspiracy.
 
-**MANDATORY TITLE CHECK CH455:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH456:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
