@@ -1140,7 +1140,9 @@ Tavi knew cup.
 
 We each contributed according to training.
 
-"Pella called them silverbacks," I said. "Rusk called them flickers."
+"Pella called them silverbacks," I said.
+
+"Rusk called them flickers."
 
 Cala said, "Flickers."
 
