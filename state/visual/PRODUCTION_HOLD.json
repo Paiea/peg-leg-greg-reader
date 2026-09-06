@@ -1,0 +1,9 @@
+{
+  "active": true,
+  "mode": "structural_edit_hold",
+  "generation_allowed": false,
+  "reason": "Manuscript compression may merge, cut, renumber, or materially rewrite chapters and invalidate current illustration placement anchors.",
+  "preserve_candidate_intent": true,
+  "automatic_candidate_remap": false,
+  "resume_condition": "After the structural compression pass, regenerate reader chapters, run illustration reconciliation, explicitly remap or retire drifted candidates, revalidate anchors, then disable this hold before new generation or promotion."
+}

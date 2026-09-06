@@ -61,6 +61,8 @@ Read actual prose plus `state/PROSE_PLAYBOOK.md`, `state/EDITOR_STATE.md`, and `
 
 Dialogue clarity is part of prose quality. Use simple tags freely. In multi-speaker scenes, do not make the reader perform speaker bookkeeping merely because the voices are intended to be distinct.
 
+For an explicitly authorized **structural compression pass**, current illustrations, illustration candidates, chapter numbers, and paragraph anchors are advisory production state only. Do not preserve weak/redundant prose, a redundant scene, or an old chapter boundary merely because art exists or is planned there. If a visually strong beat still earns its place, preserve the beat because the story needs it, not because the art system does. Visual candidates are reconciled after the manuscript edit.
+
 ### Character
 Read actual manuscript evidence plus `state/CHARACTER_BIBLE.md`, `state/STORY_NORTH_STAR.md`, and `state/voices/INDEX.md` when dialogue/voice work is involved. Update durable character knowledge, relationships, offscreen causality, and anti-flattening constraints, not transcripts. Update an individual voice page when repeated manuscript evidence changes how that recurring person speaks or processes the world. Use `state/DIALOGUE_VARIANCE_ENGINE.md` to distinguish stable speech center from relationship- and state-dependent performance.
 
@@ -75,6 +77,8 @@ Read current manuscript/state plus `state/PLOT_CONTROL.md` and `state/OPEN_THREA
 
 ### Visual production
 Read `state/VISUAL_BIBLE.md` and `state/IMAGE_PRODUCTION.md`, then actual manuscript scenes and reader coverage. Coverage first; integrate only accepted art.
+
+If `state/visual/PRODUCTION_HOLD.json` says an active `structural_edit_hold`, do **not** generate new art or automatically promote approved art into reader prose. Preserve scene-candidate intent, treat chapter/title/paragraph-anchor placement as provisional, and use `state/visual/ILLUSTRATION_RECONCILIATION_REPORT.md` after the structural edit to explicitly remap, retire, or replace drifted candidates before production resumes.
 
 ### Reader / UI
 Read `state/READER_DESIGN_LAB.md`, visual guidance, current reader files, and current project authority. Use a branch for broad changes. Never rewrite prose as a presentation side effect.
