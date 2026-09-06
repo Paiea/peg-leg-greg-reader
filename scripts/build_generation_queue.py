@@ -12,6 +12,7 @@ if str(ROOT) not in sys.path:
 from scripts.build_illustration_backlog import count_chapter_images
 from scripts.illustration_edit_hold import edit_hold_active, load_hold
 from scripts.illustration_state import load_registry, load_scene_candidates
+from scripts.performance_roundtrip_references import load_visual_references
 from scripts.score_character_references import select_character_references
 
 CANDIDATES_PATH = ROOT / "state" / "visual" / "SCENE_CANDIDATES.json"
@@ -71,11 +72,13 @@ def build_generation_queue(
     chapter_image_counts: dict[int, int] | None = None,
     character_references: dict[str, dict] | None = None,
     production_hold: dict | None = None,
+    performance_references: dict[int, dict] | None = None,
 ) -> list[dict]:
     if edit_hold_active(production_hold):
         return []
 
     character_references = character_references or {}
+    performance_references = performance_references or {}
     active = {
         record.get("candidate_id")
         for record in registry
@@ -119,41 +122,43 @@ def build_generation_queue(
         )
         character_assets = [reference["asset"] for reference in selected_references]
         character_notes = _appearance_notes(characters, character_references)
-        queue.append(
-            {
-                "candidate_id": candidate_id,
-                "chapter": candidate["chapter"],
-                "chapter_title": candidate["chapter_title"],
-                "kind": candidate["kind"],
-                "priority": candidate["priority"],
-                "fit_target": candidate["fit_target"],
-                "spoiler_level": candidate["spoiler_level"],
-                "scene_summary": candidate["scene_summary"],
-                "visual_hook": candidate["visual_hook"],
-                "characters": characters,
-                "location": candidate.get("location", ""),
-                "mood": candidate.get("mood", ""),
-                "scene_tags": scene_tags,
-                "style_family": candidate.get("style_family", DEFAULT_STYLE_FAMILY),
-                "framing_preference": framing_preference,
-                "camera_angle": candidate.get("camera_angle", ""),
-                "pose_family": candidate.get("pose_family", ""),
-                "character_reference_assets": character_assets,
-                "selected_character_references": selected_references,
-                "character_reference_scores": {
-                    reference["asset"]: reference["selection_score"] for reference in selected_references
-                },
-                "reference_selection_notes": _reference_selection_notes(selected_references),
-                "character_appearance_notes": character_notes,
-                "continuity_notes": continuity_notes,
-                "prompt_pack": f"state/visual/prompt-packs/{candidate_id}.md",
-                "paragraph_anchor": candidate.get("paragraph_anchor", ""),
-                "anchor_status": candidate.get("anchor_status", ""),
-                "target_asset": target_asset,
-                "coverage_before": coverage_before,
-                "status": "generation_ready",
-            }
-        )
+        record = {
+            "candidate_id": candidate_id,
+            "chapter": candidate["chapter"],
+            "chapter_title": candidate["chapter_title"],
+            "kind": candidate["kind"],
+            "priority": candidate["priority"],
+            "fit_target": candidate["fit_target"],
+            "spoiler_level": candidate["spoiler_level"],
+            "scene_summary": candidate["scene_summary"],
+            "visual_hook": candidate["visual_hook"],
+            "characters": characters,
+            "location": candidate.get("location", ""),
+            "mood": candidate.get("mood", ""),
+            "scene_tags": scene_tags,
+            "style_family": candidate.get("style_family", DEFAULT_STYLE_FAMILY),
+            "framing_preference": framing_preference,
+            "camera_angle": candidate.get("camera_angle", ""),
+            "pose_family": candidate.get("pose_family", ""),
+            "character_reference_assets": character_assets,
+            "selected_character_references": selected_references,
+            "character_reference_scores": {
+                reference["asset"]: reference["selection_score"] for reference in selected_references
+            },
+            "reference_selection_notes": _reference_selection_notes(selected_references),
+            "character_appearance_notes": character_notes,
+            "continuity_notes": continuity_notes,
+            "prompt_pack": f"state/visual/prompt-packs/{candidate_id}.md",
+            "paragraph_anchor": candidate.get("paragraph_anchor", ""),
+            "anchor_status": candidate.get("anchor_status", ""),
+            "target_asset": target_asset,
+            "coverage_before": coverage_before,
+            "status": "generation_ready",
+        }
+        performance_reference = performance_references.get(candidate["chapter"])
+        if performance_reference:
+            record["performance_reference"] = performance_reference
+        queue.append(record)
     rank = {"high": 0, "medium": 1, "low": 2}
 
     def sort_key(record: dict) -> tuple:
@@ -171,6 +176,11 @@ def main() -> None:
     character_references = json.loads(CHARACTER_REFERENCES_PATH.read_text(encoding="utf-8")) if CHARACTER_REFERENCES_PATH.exists() else {}
     if not isinstance(character_references, dict):
         raise ValueError("character visual references must be a JSON object")
+    performance_references = load_visual_references(
+        int(candidate["chapter"])
+        for candidate in candidates
+        if isinstance(candidate.get("chapter"), int)
+    )
     production_hold = load_hold()
     queue = build_generation_queue(
         candidates,
@@ -178,6 +188,7 @@ def main() -> None:
         chapter_image_counts=image_counts,
         character_references=character_references,
         production_hold=production_hold,
+        performance_references=performance_references,
     )
     text = json.dumps(queue, indent=2, ensure_ascii=False) + "\n"
     previous = OUTPUT_PATH.read_text(encoding="utf-8") if OUTPUT_PATH.exists() else None
