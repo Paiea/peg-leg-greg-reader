@@ -106,8 +106,13 @@ def main() -> None:
     report_text = render_anchor_report(report)
     if not REPORT_PATH.exists() or REPORT_PATH.read_text(encoding="utf-8") != report_text:
         REPORT_PATH.write_text(report_text, encoding="utf-8")
-    blocked = sum(1 for row in report if row["anchor_status"] != "valid")
-    print(f"validated paragraph anchors: {len(report)} candidates, {blocked} blocked, {changed} candidate records updated")
+    blocked_rows = [row for row in report if row["anchor_status"] != "valid"]
+    print(f"validated paragraph anchors: {len(report)} candidates, {len(blocked_rows)} blocked, {changed} candidate records updated")
+    for row in blocked_rows:
+        print(
+            f"anchor blocked: chapter {row.get('chapter')} {row.get('candidate_id')} "
+            f"{row['anchor_status']} ({row['match_count']} matches): {row.get('paragraph_anchor', '')}"
+        )
 
 
 if __name__ == "__main__":
