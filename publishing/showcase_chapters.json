@@ -105,6 +105,7 @@
     "372": {"showcase": false, "reason": "redundant_progression"},
     "377": {"showcase": false, "reason": "bridge_not_needed"},
     "382": {"showcase": false, "reason": "bridge_not_needed"},
-    "384": {"showcase": false, "reason": "superseded_by_stronger_chapter"}
+    "384": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
+    "402": {"showcase": false, "reason": "superseded_by_stronger_chapter"}
   }
 }
