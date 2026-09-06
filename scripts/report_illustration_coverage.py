@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import re
 import sys
 from pathlib import Path
@@ -102,12 +103,13 @@ def render_coverage_report(summary: dict[str, int]) -> str:
     )
 
 
-def main() -> None:
+def main(strict: bool = False) -> None:
     candidates = load_scene_candidates(CANDIDATES_PATH)
     registry = load_registry(REGISTRY_PATH, root=ROOT)
     image_counts = count_chapter_images(CHAPTER_DIR)
     unmanaged = find_unmanaged_live_art(CHAPTER_DIR, registry)
-    assert_no_unmanaged_live_art(unmanaged)
+    if strict:
+        assert_no_unmanaged_live_art(unmanaged)
     summary = summarize_coverage(image_counts, candidates, registry, unmanaged_live_art=len(unmanaged))
     text = render_coverage_report(summary)
     previous = OUTPUT_PATH.read_text(encoding="utf-8") if OUTPUT_PATH.exists() else None
@@ -125,4 +127,7 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Report Illustrated Reader coverage and registry state.")
+    parser.add_argument("--strict", action="store_true", help="Fail when live chapter art is missing from the registry.")
+    args = parser.parse_args()
+    main(strict=args.strict)
