@@ -10,6 +10,8 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+from chapter_dependency_scan import scan_dependencies
+from chapter_registry import build_registry
 from project_audit import (
     CHAPTER_HEADING,
     chapter_art_coverage,
@@ -112,10 +114,46 @@ def assets_check(root: Path) -> tuple[dict, bool]:
     return payload, not any(errors.values())
 
 
+def compression_check(root: Path) -> tuple[dict, bool]:
+    """Inventory the current reader's stable-ID migration surface without mutating files."""
+    try:
+        registry = build_registry(root)
+        dependencies = scan_dependencies(root)
+    except (OSError, ValueError, json.JSONDecodeError) as exc:
+        payload = {
+            "check": "compression",
+            "errors": {"readiness_error": str(exc)},
+            "warnings": {},
+        }
+        return payload, False
+
+    chapters = registry.get("chapters", [])
+    illustrated = sum(bool(row.get("illustration_refs")) for row in chapters)
+    numeric_refs = dependencies.get("reference_count", 0)
+    warnings = {
+        "numeric_chapter_dependencies": numeric_refs,
+        "note": (
+            "Registry currently reflects generated static reader chapter pages. "
+            "Extend discovery to complete manuscript authority before executing structural compression."
+        ),
+    }
+    payload = {
+        "check": "compression",
+        "registry_chapters": len(chapters),
+        "illustrated_registry_chapters": illustrated,
+        "dependency_chapters": dependencies.get("chapters_with_dependencies", 0),
+        "dependency_references": numeric_refs,
+        "errors": {},
+        "warnings": warnings,
+    }
+    return payload, True
+
+
 CHECKS = {
     "manuscript": manuscript_check,
     "reader": reader_check,
     "assets": assets_check,
+    "compression": compression_check,
 }
 
 
