@@ -56,7 +56,47 @@ jobs:
               after = Path('chapters', name).read_text(encoding='utf-8')
               assert '<p></p>' not in after, f'empty paragraph: {name}'
               assert flat_prose(after) == flat_prose(before), f'ownership rewrite changed prose text: {name}'
-          print('verified exact prose preservation for 031-040')
+          print('verified exact prose preservation for mechanical rewrite 031-040')
+          PY
+      - name: Apply reviewed Chapter 31 ownership repairs
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('chapters/031.html')
+          text = path.read_text(encoding='utf-8')
+          repairs = [
+              ('“Facing. Steps. Corners. Sometimes lettering if the carver is behind,” Rinna said.', '“Facing. Steps. Corners. Sometimes lettering if the carver is behind,” the woman said.'),
+              ('“Sometimes,” Rinna said.', '“Sometimes,” she said.'),
+              ('Hessa turned a page in her ledger. The woman said, </p><p>“I make stairs,” Rinna said.', 'Hessa turned a page in her ledger.</p><p>“I make stairs,” the woman said.'),
+              ('“No, I make good stairs,” Rinna said.', '“No, I make good stairs,” she said.'),
+              ('She moved the stone block Ressa had used.', 'She moved the stone block Rinna had used.'),
+          ]
+          for old, new in repairs:
+              count = text.count(old)
+              if count != 1:
+                  raise SystemExit(f'Chapter 31 repair expected exactly once, found {count}: {old}')
+              text = text.replace(old, new, 1)
+          path.write_text(text, encoding='utf-8')
+          print('applied 5 reviewed Chapter 31 ownership/name repairs')
+          PY
+      - name: Verify Chapter 31 name reveal remains in POV order
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          text = Path('chapters/031.html').read_text(encoding='utf-8')
+          marker = '“What’s your name?”'
+          if marker not in text:
+              raise SystemExit('missing Rinna name-reveal marker')
+          before, after = text.split(marker, 1)
+          if 'Rinna said' in before:
+              raise SystemExit('Rinna is explicitly named in attribution before Greg learns her name')
+          if 'The woman said, </p>' in text:
+              raise SystemExit('dangling woman attribution remains')
+          if 'Ressa had used' in text:
+              raise SystemExit('stale Ressa name remains on stone block reference')
+          if 'Rinna had used' not in after:
+              raise SystemExit('post-reveal Rinna reference missing')
+          print('Chapter 31 POV/name-order checks passed')
           PY
       - name: Enforce bounded file scope
         run: |
