@@ -168,15 +168,93 @@ If Greg says he is paying the account, Antonius takes the money and closes it.
 
 ## Late relationship consequence
 
-Chapter 491's drinking scene remains structurally correct and becomes stronger under this model.
+Chapter 491's drinking scene remains structurally recognizable but should be **lightly rewritten in flavor and emphasis** under this model.
 
-Before closure, jokes with Antonius always have an account underneath them.
+Before closure, jokes with Antonius always had an account underneath them.
 
 After closure, Greg can ask **"Drink?"** with no ledger reason.
 
-Antonius is allowed to be quietly impressed that the overconfident idiot who took absurd financing actually paid the entire compounded account.
+But the changed economy adds a second layer: Antonius is now sitting across from one of the rare borrowers who actually paid the entire grotesque, interest-heavy account that Antonius expected to function mostly as a durable leash.
 
-The relationship remains acquaintance / friend-adjacent, not suddenly intimate.
+That should change the conversation in several ways without turning it into a new exposition chapter.
+
+### Antonius's posture in the drink scene
+
+Antonius should be:
+- more genuinely curious about what Greg has been doing;
+- more impressed by Greg's independent earning power;
+- mildly amused that Greg understood the financing and still buried himself in it;
+- willing to admit, dryly, that he did not expect Greg to pay every last interest line;
+- more willing to treat Greg as a commercially credible adult rather than a financed stray;
+- still understated, practical, dry, and non-therapeutic.
+
+Do not have Antonius congratulate Greg like a proud father.
+
+Do not make him apologize for the loan terms.
+
+Do not make him confess that the debt was secretly fake.
+
+He wrote the terms deliberately. Greg paid them deliberately.
+
+### Greg's posture in the drink scene
+
+Greg should be able to laugh at his own early financial arrogance.
+
+The debrief of the last few months can now carry a stronger economic throughline:
+- Greg used to think silver was small because old-life money instincts were absurd;
+- young Greg repeatedly spent expected future income before it existed;
+- later Greg learned not merely to save, but to create enough value that the size of his opportunities changed;
+- paying Vale in full is evidence of that change, not the entire point of it.
+
+Greg does not need to become proud of thrift.
+
+He can remain someone who wastes money, buys strange things, and takes risks. The progression is that his earning power, judgment, and capital access are finally beginning to outrun his stupidity.
+
+### The debrief itself
+
+Keep the existing broad debrief subjects:
+- eastern road travel;
+- Lakeward / Morrow / Merehook;
+- glass sourcing;
+- Stillhook loss;
+- Hark & Venn;
+- Hessa's magic protocol;
+- theatre;
+- South Road;
+- later contracting.
+
+But tune Antonius's reactions around **scale and value** more than the old tiny-copper framing.
+
+He should care less about whether Greg earned a specific small amount and more about:
+- what kind of work Greg can now get;
+- what size of transactions he can affect;
+- whether the work is repeatable;
+- whether Greg is still underpricing himself;
+- whether Greg is confusing one strong contract with a permanent baseline;
+- whether Greg is finally learning to distinguish liquidity from actual economic position.
+
+### Strong drink-scene contrast
+
+The scene should allow this contrast to exist quietly:
+
+Greg once accepted brutal financing because he thought, essentially, **I'll just make more money.**
+
+Months later, he finally did become capable of making more money.
+
+It just took much longer, cost much more, and required becoming useful in ways young Greg had not yet earned.
+
+That makes Antonius's interest in Greg feel earned.
+
+### Tere subtext
+
+Do not force the Tere gauge into the drink scene as a new plot event, but Antonius can plausibly remember that Greg once financed a strange object for 5s while claiming it might be worth 40g+.
+
+If referenced, it should sharpen the joke:
+- Greg was simultaneously reckless and potentially right;
+- the problem was never merely that he bought something expensive;
+- the problem was buying valuable/speculative things with terrible financing before he had the liquidity to survive his own confidence.
+
+Do not sell the gauge in Chapter 491 unless later manuscript design deliberately chooses that path.
 
 ## Broader compensation normalization
 
@@ -273,9 +351,13 @@ Preferred prose changes are concentrated at:
    - Antonius takes the money rather than waiving it.
 
 4. **Chapter 491 relationship scene**
-   - preserve structure;
-   - strengthen Antonius's impressed calibration lightly;
-   - preserve understated tone.
+   - preserve the drinking setup and broad debrief subjects;
+   - materially adjust the flavor of the conversation around full repayment, Greg's newly demonstrated earning scale, and Antonius's changed respect;
+   - let Antonius admit dryly that he did not expect full interest repayment;
+   - let Greg self-own his early financial arrogance;
+   - make Antonius probe repeatability, transaction size, and whether Greg still underprices himself;
+   - preserve the nonproductive tavern tail where they keep talking after useful subjects run out;
+   - preserve understated acquaintance / friend-adjacent tone.
 
 5. **Later Tere monetization**
    - when the manuscript naturally circles back to selling or otherwise monetizing the Tere gauge, preserve the earlier 40g+ right-buyer anchor as a possibility rather than a guaranteed quote;
@@ -310,6 +392,7 @@ The repaired manuscript should make all of these simultaneously believable:
 - Greg eventually pays the **full** reconciled face balance anyway.
 - Antonius is genuinely impressed because Greg does something the lending model was not designed to require.
 - the final closure means freedom from leverage, not triumph over pocket change.
+- Chapter 491 feels meaningfully different because Antonius now sees Greg as someone who fully escaped a leverage structure rather than merely closing a tiny account.
 - the Tere gauge can remain plausibly worth vastly more than the debt to the right buyer.
 - later skilled/high-risk work visibly pays more than early manual labor.
 - silver becomes normal operating money, tens of silver become leverage/risk money, and gold remains a higher tier.
