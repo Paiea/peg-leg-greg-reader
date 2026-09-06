@@ -1,5 +1,5 @@
 {
-  "latest": 405,
+  "latest": 406,
   "chapters": [
     {
       "number": 100,
@@ -1836,6 +1836,12 @@
       "title": "THE EARNER",
       "source": "checkpoint",
       "path": "405.html"
+    },
+    {
+      "number": 406,
+      "title": "THE CONTRACTOR",
+      "source": "checkpoint",
+      "path": "406.html"
     }
   ]
 }
