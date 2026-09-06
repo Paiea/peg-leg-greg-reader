@@ -26,6 +26,10 @@ def _normalize_live_src(src: str) -> str:
     return src.lstrip("./")
 
 
+def _preview(values: list[int]) -> str:
+    return ", ".join(str(value) for value in values) if values else "none"
+
+
 def find_unmanaged_live_art(chapter_dir: Path, registry: list[dict]) -> list[str]:
     registered = {
         record.get("live_asset", "")
@@ -55,7 +59,7 @@ def summarize_coverage(
     candidates: list[dict],
     registry: list[dict],
     unmanaged_live_art: int = 0,
-) -> dict[str, int]:
+) -> dict[str, int | list[int]]:
     counts = list(chapter_image_counts.values())
     candidate_chapters = {
         record.get("chapter")
@@ -69,6 +73,21 @@ def summarize_coverage(
     }
     pipeline_chapters = candidate_chapters | registry_pipeline_chapters
     zero_art_chapters = {chapter for chapter, count in chapter_image_counts.items() if count == 0}
+    zero_art_without_candidate = sorted(zero_art_chapters - pipeline_chapters)
+    prompt_ready_chapters = sorted(
+        {
+            record.get("chapter")
+            for record in candidates
+            if record.get("status") == "prompt_ready" and isinstance(record.get("chapter"), int)
+        }
+    )
+    generated_waiting_chapters = sorted(
+        {
+            record.get("chapter")
+            for record in registry
+            if record.get("status") == "generated" and isinstance(record.get("chapter"), int)
+        }
+    )
     return {
         "frontier": max(chapter_image_counts, default=0),
         "total_chapters": len(counts),
@@ -84,12 +103,15 @@ def summarize_coverage(
         "rejected": sum(1 for record in registry if record.get("status") == "rejected"),
         "queued_candidates": sum(1 for record in candidates if record.get("status") in {"candidate", "prompt_ready"}),
         "registry_live": sum(1 for record in registry if record.get("status") == "live"),
-        "zero_art_without_candidate": len(zero_art_chapters - pipeline_chapters),
+        "zero_art_without_candidate": len(zero_art_without_candidate),
+        "top_zero_art_without_candidate": zero_art_without_candidate[:10],
+        "top_prompt_ready_chapters": prompt_ready_chapters[:10],
+        "top_generated_waiting_chapters": generated_waiting_chapters[:10],
         "unmanaged_live_art": unmanaged_live_art,
     }
 
 
-def render_coverage_report(summary: dict[str, int]) -> str:
+def render_coverage_report(summary: dict[str, int | list[int]]) -> str:
     return "\n".join(
         [
             "# PEG-LEG GREG — ILLUSTRATION COVERAGE",
@@ -114,6 +136,12 @@ def render_coverage_report(summary: dict[str, int]) -> str:
             f"- Rejected generation attempts: {summary['rejected']}",
             f"- Zero-art chapters with no active candidate: {summary['zero_art_without_candidate']}",
             f"- Registry live records: {summary['registry_live']}",
+            "",
+            "## Next actionable chapters",
+            "",
+            f"- Need scene candidates: {_preview(summary['top_zero_art_without_candidate'])}",
+            f"- Ready to generate: {_preview(summary['top_prompt_ready_chapters'])}",
+            f"- Waiting for image approval: {_preview(summary['top_generated_waiting_chapters'])}",
             "",
             "## Migration status",
             "",
