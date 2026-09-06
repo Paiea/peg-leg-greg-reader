@@ -15,6 +15,8 @@ Priority order:
 4. chapters needing a second/third image
 5. replacements only when materially better
 
+Generation queues should preserve this coverage order mechanically. When prompt-ready candidates compete, lower current chapter image count outranks candidate priority; candidate priority then breaks ties. This keeps a dramatic newer chapter from repeatedly jumping ahead of an older chapter that still has no art at all.
+
 ## Manuscript scene-candidate handoff
 
 After a chapter is durably accepted, the Manuscript Engine **may nominate 0–2 genuinely visual moments** for later illustration. This is optional and nonblocking. Do not slow chapter throughput merely to invent an art target.
@@ -47,6 +49,14 @@ New illustration work should enter through `state/visual/ILLUSTRATION_REGISTRY.j
 Existing accepted reader art predates this system. Until it is bootstrap-imported, the coverage report records those images as **unmanaged legacy migration debt**, not as a publishing failure. Do not delete or replace legacy art merely to make the registry cleaner.
 
 Once legacy live art has been imported, CI may tighten from migration reporting to strict reader↔registry parity.
+
+## Generation queue contract
+
+`state/visual/GENERATION_QUEUE.json` is the machine-ready handoff for actual image generation.
+
+Each queue record should be self-sufficient enough that a visual worker does not need to reopen the candidate ledger merely to understand the shot. Carry forward the scene summary, visual hook, required characters, location, mood, spoiler level, fit target, paragraph anchor, prompt-pack path, deterministic target asset, and current illustration coverage count.
+
+The queue remains a derivative. Candidate and manuscript authority still outrank it.
 
 ## 5x5 contact-sheet default
 
@@ -87,12 +97,24 @@ Retain deterministic mapping between candidate, prompt pack, sheet, panel number
 
 Development contact sheets remain DEVELOPMENT until accepted panels are promoted.
 
+## Approval ledger
+
+Generated assets do not become live merely because the file exists.
+
+`state/visual/ILLUSTRATION_APPROVALS.json` records an explicit decision for the generated asset:
+- `decision: approve` requires the normal fit judgment, alt text, and optional caption
+- `decision: reject` requires a short reason and marks that generation attempt rejected without publishing it
+
+Rejected attempts remain useful production history. A rejection must not block a later deterministic version of the same scene candidate.
+
 ## Integration
 
 Preferred art path convention where compatible with current repo:
 `visual/chapter_art/CCC/ChCCC_<batch-or-role>_<panel>.jpg`
 
 Do not overwrite unrelated art. Do not delete old art first. Add coverage; replace only clearly wrong or materially inferior work.
+
+Paragraph anchors remain safety boundaries. Automated placement may tolerate harmless HTML whitespace around the exact anchor, but it must still refuse missing or ambiguous anchors rather than guessing where art belongs or rewriting prose.
 
 ## Quality threshold
 
@@ -101,6 +123,18 @@ Production-first. Accept normal variation in facial proportions, rendering detai
 ## Reader sizing
 
 Low-resolution art should display at sensible intrinsic size. Stronger/high-resolution feature art may display larger. Mixed fidelity is intentional. No universal full bleed.
+
+## Coverage report
+
+Coverage should expose not only image counts but production state. Distinguish:
+- candidate exists but still needs a prompt pack
+- prompt ready / generation ready
+- generated and awaiting approval
+- approved but unpublished
+- rejected generation attempts
+- zero-art chapters with no active candidate at all
+
+That last number is the real scene-discovery debt. It tells the next visual worker whether to generate, approve, integrate, or go back to the manuscript and nominate worthwhile moments.
 
 ## After each wave
 
