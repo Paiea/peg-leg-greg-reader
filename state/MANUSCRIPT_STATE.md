@@ -1,206 +1,248 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 419 - **THE TOURIST**.
+- Current exact story endpoint: Chapter 420 - **THE BIDDER**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript physically materialized through Chapter 248.
-- Exact Chapters 249-419 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
+- Exact Chapters 249-420 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
 - Titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
-- Ch419 answer: Greg is being **a tourist**. With no guaranteed morning assignment, he deliberately spends part of a Duskport day following Sori/Maro/Dask through fish market, tidal storage arches, and mirror district before answering a bounded Venn transfer call. He experiences the city as a place rather than only employment/invoices.
-- Therefore title **THE TOURIST**.
-- Recent: 415 THE FITTING; 416 THE BREAKER; 417 THE EARNER; 418 THE CLIENT; 419 THE TOURIST.
+- Ch420 answer: Greg is being **a bidder**. He enters a real Duskport surplus auction, wants useful equipment badly, sets ceilings before emotion can move them, bids selectively, walks away from the object he wants most when market price outruns his finances, and acquires one modest diagnostic tool at a fair price.
+- Therefore title **THE BIDDER**.
+- Recent: 416 THE BREAKER; 417 THE EARNER; 418 THE CLIENT; 419 THE TOURIST; 420 THE BIDDER.
 
 ## Major arc direction - Duskport / work toward limb
 - Greg remains in **Duskport**, self-directed.
-- Venn Marine Recovery open temporary block still has **2 nominal days remaining**, because Ch419 was not a full block day; Greg performed a separate bounded 2c storm-heart transfer after being on call.
+- Venn Marine Recovery open temporary block still has **2 nominal full days remaining** after Ch420, because auction day itself was not a full Venn block day.
 - Greg has paid **20c deposit** for Masta Venn travel-work limb.
-- Greg still **does not have peg/work limb**.
-- Trial shell expected roughly **~2 days / day-after-next if materials/body/shop conditions cooperate**, based on Masta's approximate timeline. Do not make this exact promise.
-- Duskport social/cultural exploration now expands beyond work: fish market, tidal storage arches/sea view, mirror district/public demonstration.
+- Greg still **does not have peg/work limb yet**.
+- **First trial shell is ready tomorrow after work if swelling/skin condition are acceptable.** This is not finished leg.
+- User-directed future mindset unlock remains protected for sustained successful use, not shell fitting.
 
-## Chapter 419 - THE TOURIST
+## Chapter 420 - THE BIDDER
 
-### Party independent Duskport life
-- Dask buys a cheap one-bit souvenir mirror with `DUSKPORT` burned crooked on back; it has no magical/special function.
-- Maro has a shell necklace and wants to visit so-called sea caves for salt moss.
-- Sori buys fried dough and wants fish market.
-- This deliberately gives companions independent interests rather than making them Greg-job satellites.
-- Sori points out Greg has mostly seen employment routes rather than city itself.
-- Greg agrees that if East Hook has no assignment, he will be a tourist.
+### Auction setup
+- Greg/Sori/Maro/Dask attend old customs-hall auction promised in Ch419.
+- Auction specializes in retired harbor optics, survey instruments, load markers, signal plates, inspection frames, and municipal surplus.
+- Sori writes `LEG BEFORE JUNK` on Greg's lot sheet.
+- Greg insists these are tools, not junk.
+- Actual buyers include surveyors, dock foremen, ship personnel, collectors, and optics specialists, preventing bargain-bin protagonist market logic.
 
-### East Hook status
-- Morning Venn board:
-  - Merry Wake specialist hold;
-  - South Chain dive crew only;
-  - North Pier structural authority.
-- Tavren has no Greg assignment until maybe third bell.
-- Possible Tideglass storm-heart custody transfer would pay **2c** if it happens.
-- Greg arranges to leave word at Anchor's End and return within half bell if summoned.
-- This preserves work optionality without making him wait idle for uncertain pay.
+## Important auction lots
+### Lot 19 - six retired harbor load witnesses
+- Six glass-strip load witnesses in case:
+  - 4 verified responsive;
+  - 1 intermittent;
+  - 1 untested due hairline backing chip.
+- Used to preserve visible strain direction briefly after load releases.
+- One green-thread/brass-center unit shows slightly different two-color/off-axis behavior during demonstration.
+- Dask only recognizes possible Tideglass-adjacent construction family, not exact function.
+- Market notices visible difference too.
+- Estimate **4c-8c**.
+- Greg decides a **9c ceiling**, bids 9c, then stops immediately at 10c.
+- Lot sells **12c** to another buyer.
+- Greg gets no secret bargain and accepts market-visible utility is correctly priced.
 
-## Duskport fish market
-- Three covered streets near inner basin.
-- Fish on ice/salt/smoke; crabs, eels, shellfish, fish-eye soup stall, blue translucent fish carving.
-- Greg spends **1 bit** on pepper-smoked fish skewer; copper unchanged, bits remain unspecified.
-- Adapted work remains ordinary background:
-  - fish cutter missing two fingers uses wooden board guide;
-  - porter with rigid peg uses leather apron loop to hang basket while opening doors.
-- Porter tells Greg first peg means he will `hate stairs` in a different way, reinforcing practical user culture without speechifying.
+### Lot 27 - old harbor parallax comparator
+- Black brass frame with:
+  - 2 narrow viewing windows;
+  - sliding center vane;
+  - aged gray membranes;
+  - polished leather grip.
+- Listing: functional movement response verified, range/calibration unknown, maker unknown, retired private estate.
+- Estimate **12c-20c**.
+- Dask recognizes design family as pre-standard dual-line comparator using membrane differential, not exact maker/model.
+- Practical function:
+  - compares apparent shift between two sight lines;
+  - common shift yields little response;
+  - relative shift creates membrane differential.
+- Greg immediately sees broad uses in fieldwork, structures, combat observation, artifact testing, and fixed-vs-moving reference problems.
+- This is the object Greg **wants badly**.
+- Because he has only 33c, limb balance remains huge, Vale exists, and fitting expenses/food/lodging/return matter, he precommits **8c ceiling** before auction.
+- Auction opens above Greg ceiling; multiple rational buyers bid.
+- Lot sells **21c** to woman with multiple brass lenses.
+- Greg does not chase.
+- Important competence beat: **wanting does not become buying**.
+- Greg is angry that his ceiling was correct, not regretful that market cheated him.
 
-## Tidal storage arches / sea
-- Maro's `sea caves` are actually old tidal storage arches cut into black cliff south of inner harbor; locals market them as caves because tourists pay more.
-- Salt moss grows in upper cracks; Maro takes tiny sample only after asking keeper.
-- Greg sees open sea without basin/crane framing.
-- First-life ocean familiarity does not erase second-life emotional freshness.
-- Greg automatically refuses wet algae steps on crutches, correctly, then notices future limb may change some possibility boundaries without making unsafe terrain safe.
-- Future mindset unlock remains anticipatory, not yet realized.
-- Greg reflects on distance from Carrow and absence of home reply: he can choose road faster than loved ones can answer the choice.
+### Lot 31 - pocket tide prism
+- Current-direction indicator, low sensitivity, expired calibration, cracked case, basic response verified.
+- Estimate **2c-4c**.
+- Greg declines because WS-F/9 already overlaps enough that purchase would be redundant rather than collection depth.
+- Sells **3c**.
 
-## Mirror district
-- District includes glassworkers, silverers, lens grinders, survey suppliers, decorative workshops.
-- Dask becomes visibly happy/absorbed, stopping at placards/windows.
-- Public guild demonstration uses ordinary optics, not magic:
-  - three standing mirrors around shallow black basin;
-  - shows displacement/doubling/absence by observer position/alignment;
-  - old harbor sight plate with two viewing zones/one frame;
-  - modern cleaner version shown.
-- Dask pre-explains demonstration under breath; Sori tells him to let demonstrator have her job.
-- PF-3 remains in Elya's shop, likely still ~10c; Dask does not buy it.
+### Lot 36 - HT-LP-4 last-peak load tile
+- Broad ceramic tile with bronze back.
+- Stamped **HT-LP-4**.
+- Retired Harbor Tension last-peak series 4.
+- Function:
+  - records strongest sustained load since reset;
+  - displays dark crescent toward peak pressure edge;
+  - slow reset ~15 minutes;
+  - one peak only, no event history;
+  - no mount;
+  - not certified precision.
+- Estimate **1c-3c**.
+- Greg sets **2c ceiling** and wins at **2c**.
+- This is a real acquisition but not hidden miracle or bargain.
+- Tavren later confirms **2c is fair market** and explains it is useful for rough diagnosis, hates sharp impact, slow reset, not certified work.
+- Greg sees possible uses for:
+  - rough brace/load diagnostics;
+  - crutch repair testing;
+  - pack frames;
+  - artifact test frames;
+  - specialists-approved temporary observation.
+- Acquisition deepens tool collection without loot treadmill.
 
-## Storm-heart custody transfer
-- Venn runner finds Greg at mirror demonstration after third bell.
-- Greg reports within agreed half bell.
-- Transfer pays **2c** and is records-only.
-- Storm-heart locker remains in pressure cradle, active-state unknown.
-- Ossa Pell sets transport constraints:
-  - no stair drops;
-  - no wheel impact above curb-lip class;
-  - stop if pulse <4 breaths;
-  - stop if warm-two becomes hot-one;
-  - do not rotate/open.
-- Cleared cart route blocked by fruit wagon broken axle.
-- North lane has unacceptable cobble rises; south alley has four steps.
-- Greg asks whether cradle can be hand-carried level, then stops before designing rigging.
-- Tideglass porters already have proper carry bars for this contingency.
-- City/specialists solve city problem; Greg does not need to invent everything.
-- Transfer completes before sixth bell:
-  - pulse never below 5 breaths;
-  - temp stays warm-two;
-  - no rotation;
-  - no excessive impact.
-- Custody transfers to Tideglass pressure room.
-- Ossa calls it `Unremarkable`; Greg agrees best kind.
-
-## Mobility pressure
-- During narrow-door transfer, Hessa needs someone to hold upper door leaf while cradle clears.
-- Tavren does it because Greg's hands are occupied by crutches.
-- This is a small, non-melodramatic reminder of why Greg wants work limb.
-- No mindset unlock yet. No peg yet.
+### Lot 42 - unknown three-foot black oval
+- Black oval with 3 brass feet.
+- Response to low charge verified; purpose unconfirmed; estate lot; estimate **6c-12c**.
+- Under charge one foot rotates slightly toward north side of bench.
+- Greg has only **pattern familiarity**, vaguely connecting shape to old field-leveling/reference families from first life.
+- Dask does not know it.
+- Greg recognizes this could hide real information gap, but evidence is too weak to justify spending.
+- Collector buys at **5c** after lowered opening.
+- Greg does **not bid**.
+- Important artifact-market rule: information gaps create possibility, not automatic protagonist bargains.
 
 ## Economy
-- Greg begins **31c cash / 23c Vale / bits unspecified**.
-- Fish skewer costs 1 bit; copper unchanged.
-- Venn/Tideglass bounded transfer pays **2c**.
-- Cash **31c -> 33c**.
-- Vale remains **23c**.
-- Deposit already paid.
-- Ends **33c cash / 23c Vale / bits unspecified**.
+- Greg begins **33c cash / 23c Vale / bits unspecified**.
+- Buys HT-LP-4 load tile for **2c**.
+- Ends **31c cash / 23c Vale / bits unspecified**.
+- Limb deposit remains already paid.
+- No Venn pay in Ch420.
+- Maro buys 3 brass specimen clips for 1 bit from post-auction table; Dask/Sori buy nothing tracked in copper.
 
-## Auction seed / artifact pressure
-- After transfer, Dask brings notice of next-day auction featuring **retired survey and harbor optics**, plus load markers.
-- Greg initially refuses, then agrees to **viewing only** because companions want to attend and viewing is free.
-- No purchase/bid yet.
-- This is strong next-chapter artifact/acquisition pressure while Greg has reduced liquidity and a large limb balance.
-- Preserve rational bidding/ceiling behavior. Do not force purchase just because auction exists.
+## Artifact inventory - new
+Greg now carries:
+1. retired line quietener, bought Ch397 8c;
+2. WS-F/9 retired slate current reader, bought Ch402 1c incl two-renewal paste;
+3. **HT-LP-4 retired Harbor Tension last-peak load tile, bought Ch420 2c**.
+- HT-LP-4 limitations: one strongest sustained load since reset, slow ~15m reset, no mount, not certified precision, dislikes sharp impact.
+- No hidden additional function/provenance established.
+
+## Auction / money psychology
+- Greg explicitly distinguishes:
+  - market-visible value;
+  - what he personally wants;
+  - what he can responsibly pay now.
+- He sets ceilings before bidding and honors them.
+- He walks away from load witnesses at 10c after max 9c.
+- He does not enter parallax comparator bidding because opening already exceeds max 8c.
+- The comparator selling at 21c reinforces Greg's desire for higher earning ceiling and capital accumulation.
+- Greg briefly dislikes wealthy buyer but recognizes money is capability, not morality.
+- This supports artifact engine without making Greg either miserly or financially stupid.
+
+## Masta / trial-shell progression
+- After auction Greg stops at East Hook.
+- Tavren confirms HT-LP-4 identity/basic use and fair price.
+- Tavren says next day likely full Merry Wake work if Tideglass clears lower-cabin corridor; otherwise quay intake.
+- Nali relays Masta's runner message:
+  - **trial shell ready tomorrow after work if swelling normal**;
+  - Greg should arrive washed and not bleeding.
+- Trial shell remains:
+  - not finished leg;
+  - likely first awkward rail steps;
+  - pressure-zone feedback/adjustment;
+  - body/gait retraining beginning.
+- User-directed mental `equation changed` moment remains **future**, after sustained successful use rather than merely seeing/strapping first shell.
 
 ## Peg-Leg Greg nickname
-- Recurs only once organically in Ch419.
-- Kett Arlo passes Greg in evening and shouts `Peg-Leg!`, asks if working tomorrow, warns auction is worse than beer and tells him not to buy junk.
-- Nickname remains local affectionate joke, not universal title yet.
+- Pell lightly asks whether auction bundle means Greg bought leg.
+- Greg answers `Tile.`
+- Pell jokes this is worse.
+- Nickname does not dominate chapter.
 
-## Magic / artifacts
+## Magic
 - Protocol remains **59 minimal / 53 shaping / 135 external attempts**.
-- No deliberate Greg magic.
-- Quietener / WS-F/9 packed/unused.
-- Storm-heart locker transferred to Tideglass custody, not Greg property.
-- No artifact purchase.
+- No deliberate Greg magic in Ch420.
+- Quietener/WS-F/9 unused.
+- No magical progression from auction.
 
 ## Greg physical state
 - Left BKA stable.
 - Crutches sound.
 - No peg yet.
 - No new injury.
-- Existing habitual left unloading/pelvic asymmetry remains.
+- Carrying HT-LP-4 immediately creates small carrying awkwardness and reinforces why freeing hands matters.
 
 ## Greg social/internal movement
-- Greg allows himself to experience Duskport without monetizing every hour.
-- He notices he had converted city into a series of invoices.
-- Party gains separate interests and shared leisure texture.
-- Distance/home ache remains without forcing immediate return.
-- Greg counts purse once at night, not compulsively twice; 33c is known and accepted.
-- He remains tempted by tomorrow's auction while understanding limb balance is much larger priority.
+- Greg experiences genuine frustration/desire rather than detached market analysis.
+- Sori does not congratulate restraint theatrically; she notes Greg looks angry and lets that be true.
+- Dask successfully refrains from buying optics and offers technical context without universal expertise.
+- Maro remains quieter and buys specimen clips relevant to his own interest.
+- Greg realizes tomorrow now has different emotional shape because first custom shell physically exists somewhere in Masta's shop.
+- Closing concept: **tomorrow the equation gets its first new variable**.
 
 ## Dialogue variance
-- Dask: technical enthusiasm, souvenir mirror defensiveness, happy mirror-district absorption.
-- Sori: practical/social pressure, calls out Greg's employment-only city experience, continues sharp but not uniformly dry.
-- Maro: quiet independent curiosity about coastal herbs/salt moss.
-- Tavren: no-drama on-call work terms.
-- Ossa: dry specialist constraints, anti-improvisation.
-- Kett: one-line nickname/work/auction teasing.
+- Sori: financial guardrail without parenting Greg; sharp auction banter.
+- Dask: design-family recognition, technical temptation, but capable restraint.
+- Maro: low-key observer, specimen-interest lane.
+- Tavren: practical confirmation of load-tile use/value.
+- Nali: blunt relay of fitting appointment, no sentimentality.
 
 ## Recent role ledger
-- 415 THE FITTING
 - 416 THE BREAKER
 - 417 THE EARNER
 - 418 THE CLIENT
 - 419 THE TOURIST
+- 420 THE BIDDER
 
 ## Protected uncertainties
-- Greg ends Ch419 at Anchor's End in Duskport.
-- Greg cash exact **33c**, Vale **23c**, bits unspecified.
+- Greg ends Ch420 at Anchor's End in Duskport.
+- Greg cash exact **31c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 135**.
 - Greg still **does not have peg/work limb**.
 - 20c deposit paid.
-- Trial shell expected approximately day-after-next if conditions cooperate, not guaranteed.
+- **Trial shell ready tomorrow after work if swelling/skin normal.**
 - Two nominal full Venn block days remain.
-- Auction viewing next day planned with Sori/Maro/Dask.
-- PF-3 still unpurchased.
-- Storm-heart locker now Tideglass custody; value/ownership/opening unresolved.
-- Nickname remains lightly spreading.
+- Next Venn day likely Merry Wake if Tideglass clearance holds, otherwise quay intake.
+- HT-LP-4 is now Greg property.
+- Parallax comparator was not acquired; sold 21c.
+- Load-witness case not acquired; sold 12c.
+- Unknown three-foot oval not acquired; sold 5c.
+- Storm-heart locker remains Tideglass custody.
 - No home reply yet.
-- South Chain underwater chain repair unresolved.
-- Merry Wake remains active under specialist constraints.
-- Serr courier chest missing.
-- Pella Ro exact recovery unknown.
-- Sel Marr descendant petition unresolved.
-- Tessa/Oren unresolved.
+- Nickname remains lightly local.
 
-## Chapter 420 trailhead
-Follow next actual claim from Ch419/current authority.
+## Chapter 421 trailhead
+Follow next actual claim from Ch420/current authority.
 
-Greg begins **33c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**.
+Greg begins **31c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**.
+
+Physical/timeline:
+- next Duskport day;
+- likely full Venn assignment;
+- **after work, Masta trial-shell appointment if Greg's residual limb remains healthy**;
+- no peg/work limb yet at chapter start;
+- left BKA stable; crutches sound;
+- HT-LP-4 newly carried.
 
 Strong movement:
-- Auction viewing is the clearest immediate promise. Fulfill it rather than dodging.
-- Greg has low enough liquidity that acquisition pressure should hurt. He can pre-set ceilings or deliberately walk away.
-- Retired survey/harbor optics + load markers can connect to Greg's growing weird-tool collection without handing him obvious bargain.
-- Let companions want different lots/reasons; auction should not orbit Greg alone.
-- It is acceptable for Greg to buy nothing if that is the stronger competence/economic beat, but there should be at least one object he genuinely wants.
-- Venn work can interrupt or follow if organically timed, but do not make every leisure scene immediately become emergency.
-- Trial shell remains roughly another day away after Ch420 if shop schedule holds. Do not jump to finished leg.
-- Nickname can rest this chapter unless naturally useful.
-- Home reply remains due eventually, but no need to force into auction chapter.
+- Fulfill trial-shell promise in Ch421 unless real story movement gives credible delay. Do not stall artificially.
+- Chapter can begin with work, but do not spend so much time at Venn that fitting becomes tag scene.
+- First trial shell should be awkward and physically revealing:
+  - pressure distribution;
+  - wrong habitual pelvic read;
+  - right-side overwork;
+  - rail dependence;
+  - initial gait may be worse than crutches;
+  - skin checks and adjustment matter.
+- Let Greg get at least one emotionally meaningful moment of having both hands available while standing, but **do not trigger full user-directed mindset unlock yet** unless sustained movement evidence genuinely earns it.
+- First shell may establish what final hardware/foot/stay choices need to change.
+- Actual finished work limb can arrive after further adjustment/payment/material stages, not instantly.
+- HT-LP-4 can be tested later; do not force it into fitting unless Masta independently finds it useful.
+- Keep money/balance unresolved. Greg still owes large remaining limb balance.
 
 Avoid:
-- miraculous underpriced major artifact;
-- spending limb money stupidly solely for plot;
-- universal appraisal;
-- instant peg;
-- another storm-heart transfer chapter.
+- instant graceful walking;
+- final peg completed in one fitting;
+- S-class switch;
+- magical leg behavior;
+- injury melodrama purely to delay fitting.
 
-**MANDATORY TITLE CHECK CH420:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH421:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
