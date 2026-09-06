@@ -1,232 +1,278 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 410 - **THE PROSPECT**.
+- Current exact story endpoint: Chapter 411 - **THE HAND**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript physically materialized through Chapter 248.
-- Exact Chapters 249-410 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
+- Exact Chapters 249-411 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
 - Titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
-- Ch410 answer: Greg is being **a prospect** in both senses. He arrives in Duskport as a free traveler with possibilities, then discovers a serious mobility prospect: a properly fitted work/travel peg that could return use of his hands and alter how he moves through the world. He cannot afford it, so he becomes a prospective worker at Venn Marine Recovery.
-- Therefore title **THE PROSPECT**.
-- Recent: 406 THE CONTRACTOR; 407 THE BIDDER; 408 THE MEDIATOR; 409 THE COMPANION; 410 THE PROSPECT.
+- Ch411 answer: Greg is being **a hand**. He arrives at Venn Marine Recovery not as client or tourist but as a temporary yard hand, proves useful through bounded condition-record work, and signs a three-day trial while beginning to earn seriously toward a work/travel leg.
+- Therefore title **THE HAND**.
+- Recent: 407 THE BIDDER; 408 THE MEDIATOR; 409 THE COMPANION; 410 THE PROSPECT; 411 THE HAND.
 
-## Major arc direction - away from Carrow
-- Greg/Maro/Sori/Dask arrive in **Duskport** and disembark Bright Gull.
-- Vessa/Kel remain Sable Quay.
-- No mandatory Survey assignment.
-- Duskport is now active setting: major lower-river/coastal city, seawall, shipyards, drydocks, chandlers, workshops, large port economy, visible sea.
-- Greg chooses a new self-directed economic/mobility objective rather than immediately returning west.
-- Human-conflict pressure remains durable but does not need to dominate every chapter.
+## Major arc direction - Duskport / chosen work
+- Greg is now in **Duskport**, self-directed and not on mandatory Survey assignment.
+- He has chosen to pursue work at **Venn Marine Recovery** specifically because a fitted work/travel limb is a meaningful mobility target he cannot currently afford.
+- Duskport harbor economy is now explicitly large/specialized enough to sustain multiple limbwrights, brace makers, injury funds, adapted workers, and marine-specific prosthetic craft.
+- This should remain lived-in background infrastructure, not a one-time exposition fact.
+- Marine recovery opens multi-chapter route involving wrecks, salvage custody, worker danger, ownership disputes, coastal magical hardware, and real paid value.
 
-## Chapter 410 - THE PROSPECT
+## Chapter 411 - THE HAND
 
-### Arrival / unresolved other lives
-- Bright Gull docks south quay **8 minutes before second bell**.
-- Harven Coil disembarks immediately for daughter's hearing. Outcome remains unknown.
-- Harven remembers Mira's quarantine-runner request before leaving.
-- Mira Sol disembarks with breeding birds for quarantine. Outcome remains unknown.
-- Tessa/Oren outcome remains unknown; Mira notes upriver notices can eventually post through packet office but no convenient resolution arrives.
-- Captain Iven gives Greg practical westbound return info: Bright Gull normally returns next afternoon unless freight changes. Return route exists but Greg does not take it.
+### East Hook / harbor injury ecology
+- Greg/Sori/Maro reach **East Hook** and Venn Marine Recovery.
+- Yard environment:
+  - recovery barges;
+  - diving tender;
+  - cranes;
+  - winches;
+  - chain;
+  - quarantine/isolation pen;
+  - wet industrial harbor conditions.
+- Greg notices enough workers with amputations/braces/hooks that missing limbs stop reading as singular exception:
+  - worker with right work hook;
+  - woman on short rigid peg;
+  - older diver with full-leg brace;
+  - worker missing fingers;
+  - condition lead on articulated marine below-knee limb.
+- Core worldbuilding conclusion: specialty limb shops exist here because **harbor work recurrently injures people and Duskport is large enough to support specialized repair/adaptation industries**.
 
-### Duskport texture / lodging
-- Duskport south quay is socially/logistically dense: porters, carts, rope sellers, customs runners, fishmongers, sailors, message children, multiple languages, salt/tar/fish/smoke.
-- Greg/Maro/Sori/Dask prioritize lodging before sightseeing.
-- Lodge at **Anchor's End**:
-  - beds 1c;
-  - floor 4 bits;
-  - `NO FIGHTING INSIDE` sign;
-  - innkeeper **Pell Varo**;
-  - loft has 12 wide stairs with rails both sides;
-  - Greg gets bed near stair at same price.
-- Greg pays **1c**, cash **22c -> 21c**.
-- Bag secured; crutches remain with him.
+## Durable Duskport limbcraft / harbor-specialty logic
+- User explicitly requested explanation for why a specialty shop makes sense by harbor.
+- Duskport now has a coherent local ecosystem:
+  - shipyard/harbor injuries from rope crush, capstans, cranes, cargo, wrecks, propellers, dock crush, storm damage, cold-route frostbite, infection after cuts;
+  - improved clinics reduce some amputations compared with earlier periods, but enough still occur to sustain specialization;
+  - sailors/dockers/salvagers also **come to Duskport after injuries elsewhere** because the city has specialists and employers accustomed to adapted workers;
+  - marine work limbs require wet grip, drainage, salt-resistant fittings, durable sockets, deck-angle stability, ladder/rope-work considerations;
+  - harbor guilds / injury pools / mutual funds may partially support fittings depending circumstances.
+- Nali says Duskport has:
+  - **3 limbwright shops she trusts**;
+  - 2 she would not trust;
+  - 1 brace guild;
+  - shipyard clinic;
+  - sailors' mutual fund;
+  - dockers' injury pool;
+  - divers' burial fund;
+  - charity focused mainly on children's braces.
+- Specialization by shop:
+  - **Hark & Venn**: working limbs, sailors/dockers/salvagers/mill hands, wet-work practical fittings;
+  - **South Arch**: higher-end articulated city legs / noble children;
+  - **Brine Street**: cheap pegs and quick repairs.
+- Key Nali framing: **`Losing limb? Still bad day. Getting fitted? Tuesday.`**
+- This normalizes adaptation without trivializing injury.
+- Harbor system can be both grim and humane: it creates injuries, but also supports adapted work, specialized craft, modified jobs, and funding structures.
 
-### Sea / Duskport magic infrastructure
-- Greg reaches seawall and sees sea directly for first time in second life.
-- First-life familiarity does not erase current-life emotional response.
-- Duskport working magic examples:
-  - blue seam-lines pushing drydock seep water toward drains;
-  - charged wind-vane fins correcting dock cranes;
-  - warehouse threshold flashing dull green for sealed cargo.
-- Ocean/port should remain distinct new scene grammar, not just larger river town.
+## Venn Marine Recovery / Tavren Venn
+- Masta's brother is now canonically named **Tavren Venn**.
+- He runs **Venn Marine Recovery**.
+- Mid-50s, broad chest, gray tied hair, missing top third right ear, terse/practical.
+- He asks Greg what Masta promised; Greg truthfully says nothing.
+- Greg presents actual limits:
+  - records/field condition;
+  - some load/mechanical experience;
+  - temporary Survey experience;
+  - Bronze magic but not expert;
+  - can swim but not current setup in working water;
+  - not harbor-qualified rigging;
+  - can record ownership marks but does not know local codes;
+  - no universal appraisal claims.
+- Tavren values these bounded answers.
 
-## Major new mobility / title-defining leg direction
-- User explicitly requested a conversation/nudge toward Greg getting a **peg leg / work limb** that would improve mobility, with cost high enough that he cannot simply buy it and must become serious/provide value/work for it over multiple chapters.
-- This is now a durable forward objective.
-- Greg notices **Hark & Venn - BRACES / ARTICULATED SUPPORTS / WORK LIMBS / MARINE FITTINGS** near seawall.
-- Maro simply asks whether Greg has ever tried a peg; Greg has not in current life. First life had intact leg.
-- Core realization: crutches are highly adapted and useful but rent both hands. A fitted work leg could restore carrying/standing options and change work/travel/fight/social scene grammar.
-- Peg/work limb is **not a cure or replacement for crutches**. It is another tool and option.
+## Nali / marine limb embodiment
+- Condition lead **Nali** introduced:
+  - ~40;
+  - short black curls;
+  - left BKA;
+  - articulated marine work limb with broad split foot, salt-dark fittings, waxed-canvas socket, side stay;
+  - carries clipboard + pry bar because both hands free.
+- Her working limb makes Greg's target concrete in real harbor use.
+- Nali says her limb cost more than Masta's quoted travel limb; employer paid part after her wreck.
+- Harbor guild/injury support may contribute depending how/where injury occurred and documentation.
 
-### Masta Venn / limbwright
-- **Masta Venn** introduced:
-  - ~60;
-  - dark skin;
-  - short white hair;
-  - missing 3 fingers left hand;
-  - experienced limbwright;
-  - professional, direct, asks permission before touching stump/knee.
-- She assesses Greg's healed left BKA, knee range, skin, hip/control, standing line.
-- Greg's answer to `What do you want?`: **`More hands.`**
-- Masta approves framing: not speed first, but ability to stand/carry/use hands.
-- She says work limb can help, but gait training/skin tolerance matter; crutches remain necessary.
-- Key line: **`Limb is tool, not miracle.`**
-- Some days stump says no; some terrain says no; stairs remain difficult.
-
-### Established limb pricing
-- Basic rigid dock peg:
-  - leather socket;
-  - no articulated ankle;
-  - ordinary wood;
-  - flat-yard/indoor short-duration work;
-  - 3 fittings + gait-rail sessions;
-  - **84 copper**.
-- Proper travel work limb:
-  - split foot;
-  - replaceable sole;
-  - better wet grip;
-  - side stay;
-  - adjustable socket;
-  - **1 silver + 18 copper**.
-- Marine drainage/salt-resistant version starts **1 silver + 36 copper**.
-- Articulated ankle / charged balance assist higher still; no exact price established.
-- IMPORTANT: **No universal silver/copper conversion is established. Do not invent one.** The silver denomination itself makes clear Greg's 21c is insufficient.
-- Masta does not recommend charged balance assist for first limb.
-
-### Fitting/payment logic
-- Travel-leg fitting likely **8-12 days** if Greg stays local and stump behaves; longer if not.
-- Travel-leg deposit **20c** to reserve slot; balance due before final hardware leaves shop.
-- Greg technically has 21c and could place deposit, but would be left with 1c for lodging/food/travel/Vale. He correctly refuses.
-- Masta explicitly approves refusal: she wants clients who can eat between fittings.
-- Used socket not sensible because sockets are body-specific.
-- Masta has salvage feet but neither fits Greg's load well; she refuses to make cheaper/worse limb just to close sale.
-- Local payment plans require guild guarantor; Greg is not local.
-
-## New work route - Venn Marine Recovery
-- Greg asks about work trade/earning path.
-- Masta's brother **Hark Venn** runs **Venn Marine Recovery** at East Hook.
-- Shop name Hark & Venn is historical; original Hark died 12 years ago. Brother's given name being Hark is NOT established; exact prose says brother is also Venn and shop sign stayed because changing costs money. Do not accidentally rename him Hark as a given name unless later exact authority establishes it. The recovery business contact is Masta's brother; his personal first name remains **unestablished**.
-- Venn Marine Recovery does:
-  - salvage diving;
-  - wreck lift;
-  - quay recovery.
-- Their condition clerk left ~2 weeks ago to marry someone in Gullhaven, not dead.
-- Condition-clerk work includes logging recovered hardware before teardown:
-  - salt exposure;
-  - charge residue;
-  - deformation;
+## Greg's paid half-day trial
+- Tavren offers **half-day paid trial**:
+  - 2c if records clean/useful enough not to redo;
+  - 1c if partially useful but mostly needs rebuild;
+  - 0 if Greg lies, touches quarantined hardware, or substitutes cleverness for asking.
+- Greg accepts.
+- Works under Nali.
+- Four recovered objects in yellow-rope pen:
+  - A iron cargo latch assembly;
+  - B brass/wood signal housing with cracked faceplate;
+  - C black ceramic cylinder in copper cage;
+  - D articulated chain with 3 pale glass inserts.
+- Condition forms include:
+  - recovery location/depth;
+  - diver clearance;
+  - biological clearance;
   - ownership marks;
-  - whether object is safe to touch;
-  - whether object should remain isolated until qualified specialist arrives.
-- Greg's Survey/load/records experience may be relevant.
-- Masta does NOT formally guarantee/referral-hire him. She says tell brother Masta said Greg knows enough to answer questions without pretending.
-- Pay is **not yet established**. Brother decides.
-- This is strong next-chapter work route and should take multiple chapters if Greg earns toward limb.
+  - material;
+  - deformation/corrosion;
+  - charge-screen result;
+  - leak/heat/motion;
+  - handling class/disposition.
 
-## Durable peg-leg progression rule
-- Greg now **wants a fitted work/travel leg badly**.
-- Do not give it immediately.
-- Do not make price collapse for protagonist convenience.
-- Do not solve through random gift/charity/windfall unless later story genuinely earns it.
-- Let Greg work seriously for several chapters, providing visible real value.
-- Work should exploit his strengths without making him universally superior:
-  - old-life systems/field judgment;
-  - current Survey records discipline;
-  - artifact/hardware curiosity;
-  - load/mechanical reasoning;
-  - ability to recognize limits and call specialists;
-  - occasional locked-in output when stakes truly justify it.
-- Marine recovery can introduce action, underwater/coastal magical ecology, wrecks, salvage rights, ownership disputes, artifact markets, worker danger, and human conflicts over recovered property.
-- Earnings should be meaningful and can accumulate toward deposit/full price, but preserve Duskport living costs and Vale obligation.
-- Fitting itself should later require adaptation/training and may temporarily make Greg worse at movement before better.
-- Work leg should change scene grammar, not erase BKA or crutches.
-- This is a natural route toward the **Peg-Leg Greg** title identity, but do not overannounce destiny/meta-title in prose.
+### Trial findings / competence
+- A:
+  - ownership stamp partly obscured;
+  - Greg records only visible characters, brackets uncertainty, does not infer full code.
+- B:
+  - faceplate shifts due rack vibration;
+  - Greg stops before interior becomes accidentally exposed;
+  - portable charge screen green front/left, faint amber right;
+  - Nali repeats and confirms localized residual response;
+  - no opening, specialist later.
+- C:
+  - portable screen position three gives **mechanical hum without lamp response**;
+  - Greg backs off and does not claim source;
+  - specialist **Torrin Glass** checks;
+  - likely resonance between cage and screening-fork frequency, not established stored charge;
+  - still isolated until dry because stored charge below threshold not excluded.
+- D:
+  - two different ownership stamps appear;
+  - Greg does not assume repair/reused chain/mixed assembly without join inspection authority;
+  - records both stamps and positions, no ownership conclusion.
+- Greg's strength remains disciplined condition recording and calling specialists, not universal artifact insight.
+
+## Pay / three-day trial route
+- Tavren reviews Greg's forms and tests his reasoning on A/B/D.
+- Nali independently agrees with Greg's bounded handling.
+- Tavren pays full **2c trial pay**.
+- Greg cash **21c -> 23c**.
+- Tavren offers **three-day temporary yard-hand trial** beginning next morning.
+- No guaranteed hours beyond posted recovery.
+- Pay structure:
+  - **3c** full useful records day;
+  - **4c** if also assigned shore-side load tally and does not slow riggers;
+  - **5c** if Nali signs both plus evening custody inventory.
+- Add-ons are assigned/signed, not automatic.
+- Yard covers assigned protective gear.
+- Restrictions:
+  - no diving;
+  - no live-load riding;
+  - no unsupervised charge handling;
+  - no salvage claim merely because Greg notices value.
+- Tavren warns Greg not to lie from desperation and not to work hungry to save faster.
+
+## Next recovery job - Merry Wake
+- Next morning before first bell: wreck lift outside breakwater.
+- Wreck: old coastal courier **Merry Wake**, sank ~8 years ago.
+- Owner finally sold salvage rights after insurance dispute.
+- Planned recovery:
+  - 2 cargo-room safes;
+  - steering hardware;
+  - loose fittings as available.
+- Contract exclusions:
+  - personal effects go separate custody;
+  - **temple cargo stays underwater until temple observer arrives**;
+  - ownership/custody marks matter.
+- This is strong route for future human conflict: salvager rights vs owners/families/temple/custody/value can disagree even when procedure clear.
+- Merry Wake work may last ~3 days if weather holds, followed by East Hook quay-collapse work and future harbor recoveries.
+
+## Durable peg-leg progression
+- Greg still strongly wants fitted travel work limb at **1 silver + 18c**.
+- Basic dock peg 84c; marine version starts 1 silver + 36c.
+- No universal silver/copper conversion.
+- No deposit paid.
+- Greg is now actively earning toward target via multi-day work.
+- Do not accelerate to purchase immediately.
+- Living costs and Vale obligation remain real.
+- Work leg should eventually expand scene grammar by returning hands/standing/carrying options without erasing crutches or BKA.
+- Nali demonstrates practical future state rather than fantasy cure.
 
 ## Economy
-- Greg begins **22c cash / 23c Vale / bits unspecified**.
-- Anchor's End bed costs **1c**.
-- Ends **21c cash / 23c Vale / bits unspecified**.
-- No limb deposit paid.
-- Travel work limb target price **1 silver + 18c**; marine version **1 silver + 36c**; basic dock peg **84c**.
-- Greg cannot currently afford any proper option.
+- Greg begins **21c cash / 23c Vale / bits unspecified**.
+- Trial pays **+2c**.
+- Food during waiting paid in bits only.
+- Ends **23c cash / 23c Vale / bits unspecified**.
+- No limb deposit.
+- No artifact purchase.
 
 ## Magic / artifacts
 - Protocol remains **59 minimal / 53 shaping / 135 external attempts**.
-- No deliberate magic in Ch410.
-- Quietener/WS-F/9 remain packed.
+- No deliberate Greg magic.
+- Quietener / WS-F/9 packed, unused.
+- No recovered yard object becomes Greg property.
+- C resonance does not establish magical function/value.
 - Tavi rock remains with Greg.
-- PF-3 remains unpurchased.
 - Repaired right crutch remains sound.
 
-## Greg physical state
-- Left BKA confirmed healed enough for Masta to consider fitting.
-- Good knee range/control and no routine skin breakdown established in quick assessment.
-- Shoulder/right hand near-normal.
-- No new injury.
-- Current crutch competence remains real and should not be demeaned merely because work leg is attractive.
-
 ## Greg social/internal movement
-- Greg recognizes he wants limb not for symbolic completion but for **more hands / more options**.
-- He sees a woman using fitted below-knee work limb to carry crate with both hands, making benefit concrete.
-- Price being beyond reach turns desire into target rather than despair.
-- Closing internal movement: `Not enough meant target.` / `I knew what to do with expensive. Become worth more.`
-- Greg chooses East Hook/Venn Marine Recovery over pure sightseeing.
+- Greg's serious-money target changes behavior: he chooses work immediately and accepts being evaluated.
+- He likes recovery condition work because it fits his brain without requiring him to pretend expertise.
+- Harbor specialization reframes his missing leg socially: not unique, not trivial, simply one kind of body the port already knows how to work around.
+- Greg sees that repeated injury has produced specialization, mutual support, adapted employment, and craft competence.
+- Closing movement: peg remains impossible today but **less impossible than yesterday**.
 
 ## Dialogue variance
-- Masta Venn: direct craft authority, practical, no false promises, refuses cheap bad work, profanity used as worker realism.
-- Sori: initially pushes Greg to ask, then becomes serious when deposit arithmetic would leave him nearly broke; no constant teasing during meaningful money decision.
-- Maro: simple practical nudge `Could help`, then follows East Hook route.
-- Dask: useful technical list about fit variables, then goes separately to mirror guild after Sori releases him from group.
-- Pell Varo: dry innkeeper humor.
+- Tavren Venn: terse employer logic, distrusts desperation/overclaiming, values bounded answers.
+- Nali: practical expert worker, dry, confident, normalized amputee/marine-work perspective.
+- Torrin Glass: annoyed specialist, quick technical separation of resonance vs stored charge.
+- Sori: legal/contract eyes, quieter around injury infrastructure, still tracks money.
+- Maro: understated observer, lets work carry scene.
+
+## Recent role ledger
+- 407 THE BIDDER
+- 408 THE MEDIATOR
+- 409 THE COMPANION
+- 410 THE PROSPECT
+- 411 THE HAND
 
 ## Protected uncertainties
-- Greg ends Ch410 **walking toward East Hook / Venn Marine Recovery** with Sori and Maro. Dask goes west to mirror guild and plans to meet Anchor's End that night.
-- Greg cash **21c**, Vale **23c**, bits unspecified.
+- Greg ends Ch411 in Duskport with **three-day Venn Marine Recovery trial signed**.
+- First full day starts before first bell at Merry Wake wreck recovery.
+- Greg cash **23c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 135**.
 - No limb purchased/deposit paid.
-- Recovery-yard pay not established.
-- Recovery-yard brother's personal first name not established; do not call him Hark solely from business name.
+- Tavren Venn now canonically established as Masta's brother and recovery-yard owner.
+- Dask remains separate at mirror guild during much of Ch411, expected Anchor's End reunion later.
 - Harven hearing outcome unknown.
 - Mira quarantine outcome unknown.
 - Tessa/Oren outcome unknown.
 - No home reply yet.
 - No mandatory Survey assignment.
 
-## Chapter 411 trailhead
-Follow next actual claim from Ch410/current authority.
+## Chapter 412 trailhead
+Follow next actual claim from Ch411/current authority.
 
-Greg begins **21c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**.
+Greg begins **23c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**.
 
 Physical/timeline:
-- same Duskport morning/early day;
-- Greg/Sori/Maro walking east toward **Venn Marine Recovery**, East Hook;
-- Dask separately visiting mirror guild, reunion expected Anchor's End tonight;
-- Greg now strongly wants travel work limb priced **1 silver + 18c**;
-- no deposit paid;
-- current limb/crutch state stable.
+- evening/night Duskport after paid half-day trial;
+- Anchor's End lodging already paid for current night;
+- next morning before first bell report East Hook for **Merry Wake** recovery;
+- three-day temporary yard-hand trial active;
+- shoulder/right hand near-normal; repaired crutch sound;
+- left BKA stable.
 
 Strong movement:
-- Reach Venn Marine Recovery promptly. Do not spend whole chapter discussing peg again.
-- Let Greg ask for work and be evaluated. Employer should have own standards, skepticism, workload, and problems.
-- Do NOT hand Greg high pay merely because protagonist. He should demonstrate value.
-- Strong first work could be bounded paid trial or same-day condition-record test on recovered hardware.
-- Marine recovery should immediately feel different from Survey: salt, salvage custody, wreck damage, ownership marks, workers/divers, wet magical hardware, uncertain hazards.
-- Human conflict can enter through salvage ownership/value/safety disagreements, but not every beat needs moral dilemma.
-- Greg's serious-money target should alter behavior: he may choose work over leisure and become more focused, but preserve normal humor/social life.
-- Establish realistic pay structure only when employer does.
-- If Greg performs well, let path toward several chapters of paid recovery work become credible.
+- Start Merry Wake work promptly next chapter. Do not spend another full chapter on job setup.
+- Marine recovery should feel physically/socially different from Survey:
+  - breakwater/sea motion;
+  - divers/riggers;
+  - wet salvage;
+  - custody boundaries;
+  - ownership marks;
+  - uncertain damaged hardware;
+  - shore-side load/tally work.
+- Let Greg earn add-on pay only if he genuinely performs extra assigned value.
+- Temple-cargo exclusion / personal-effects custody can create human disagreement where correct procedure does not satisfy everyone.
+- Preserve specialist competence. Greg should not outshine divers/riggers at their own craft.
+- Harbor limb ecosystem should remain visible naturally through workers, adaptations, funding, fittings, not repeated lectures.
+- The peg-leg target should stay motivational background while actual work remains interesting on its own.
+- Action/danger can emerge organically from recovery work if earned.
 
 Avoid:
-- free peg;
-- sudden price discount;
-- employer instantly declaring Greg genius;
-- giant payday in first hour;
-- universal artifact appraisal;
-- making Duskport only a job site with no city life.
+- immediate peg deposit/purchase;
+- giant payday;
+- universal appraisal;
+- instant treasure haul;
+- treating Nali's limb as perfect/no-cost mobility;
+- making harbor disability culture sentimental or inspirational-porn-like.
 
-**MANDATORY TITLE CHECK CH411:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH412:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
