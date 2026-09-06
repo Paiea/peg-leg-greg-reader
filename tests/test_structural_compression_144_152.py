@@ -31,7 +31,8 @@ class StructuralCompressionHelpersTest(unittest.TestCase):
             150: '<article class="prose"><p>River House had six rooms</p></article>',
             151: (
                 '<a rel="prev" href="150.html">Chapter 150</a>'
-                '<article class="prose"><p>The rest of the show happened around me. OLD</p>'
+                '<article class="prose"><p>Then listened. Serra\'s line came. Not the line I expected. OLD OPENING</p>'
+                '<p>The rest of the show happened around me. Not to me. That was different. OLD</p>'
                 '<p>A local worker dragged the broken pieces off during the next entrance. No one mentioned it again.</p>'
                 '</article>'
             ),
@@ -50,6 +51,7 @@ class StructuralCompressionHelpersTest(unittest.TestCase):
         self.assertIn("That's the work.", once[149])
         self.assertIn("Don't do the dead uncle.", once[152])
         self.assertNotIn("OLD RESET", once[152])
+        self.assertIn("I listened.", once[151])
 
 
 if __name__ == "__main__":
