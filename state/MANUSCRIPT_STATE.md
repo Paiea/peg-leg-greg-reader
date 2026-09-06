@@ -1,8 +1,8 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 462 - **THE PATHFINDER**.
-- Exact Chapters 249-462 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
+- Current exact story endpoint: Chapter 463 - **THE CROSSER**.
+- Exact Chapters 249-463 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
 
 ## Active correction overlays
 - Ch432 forewoman: **Rika Dorn**, not Nessa Vale.
@@ -12,86 +12,142 @@
 ## Naming guardrail
 Before any new named character: check `BOOK1_NAME_REGISTRY_CH82.md` and current state for exact/TTS/syllable/surname collision. Temporary people do not automatically need names. Do not narrate editorial naming cleanup inside Greg POV.
 
-## Durable workflow addition: periodic action pressure
-- `MANUSCRIPT_WORKFLOW.md` now explicitly requires a 3–6 chapter action-rhythm check.
-- PLG is not action every chapter, but long physically safe runs should create pressure toward an organic action scene.
-- Action may come from terrain/weather/environmental magic, dangerous work/infrastructure, magical ecology, human conflict, rescue/pursuit/accident, or earned combat.
-- Actual fighting is allowed and should recur occasionally when earned.
-- Greg's old S-class recognition/timing/positioning can surface sharply under danger while current body/rank remain hard constraints.
-- Vary action grammar. Do not solve every rhythm dip with falling rocks, loose animals, or random monsters.
-- Action should leave residue in injury, information, route, resources, relationships, confidence, or future choices.
-- After substantial action, quieter consequence/recovery is allowed. This is rhythm pressure, not quota.
+## Durable workflow: periodic action pressure
+- `MANUSCRIPT_WORKFLOW.md` contains the current 3–6 chapter action-rhythm check.
+- Do not quota-fire action. Favor organic physical urgency after long safe stretches.
+- Action can come from terrain, weather, infrastructure, magical ecology, human conflict, rescue, pursuit, accident, or earned combat.
+- Vary action grammar and preserve residue.
 
 ## Current quest / location
 - Mirror Spring contract remains active.
 - Route: **Morrow -> White Reed -> Sleeping Stone -> Three Sisters Hollow -> Mirror Spring**.
-- Ch462 ends with Greg camping in **Three Sisters Hollow**, alone, after reaching the contractual Three Sisters threshold and discovering the old lower bench is genuinely cut.
-- Mirror Spring remains beyond the current route problem and has not been reached.
+- Ch463 ends with Greg sheltering in an **old dry maintenance hut below/near Mirror Spring**, after successfully crossing the Three Sisters southern lower bypass and reaching the spring.
+- Greg now possesses a **sealed supplemental Mirror Spring sample**.
+- The return journey and social interpretation of the evidence remain unresolved.
 
-## Chapter 462 - THE PATHFINDER
+## Chapter 463 - THE CROSSER
 
-### Shoulder / morning decision
-- Greg's right shoulder is improved after Sleeping Stone night but remains bruised and painful, especially overhead.
-- Gradual seated and standing crutch-load tests are stable with ache but no sharp catch.
-- He explicitly refuses to continue merely because turning back would feel like failure; he continues because shoulder is functional, weather is dry enough, supplies are sufficient, and Three Sisters remains a plausible next assessment point.
-- Trial limb remains wrapped/unused on rough route.
+### Role / title
+- Greg is **THE CROSSER** because he crosses the uncertain southern ford and the broken Three Sisters route, reaches Mirror Spring, and discovers the harder crossing ahead is social: carrying evidence back through people who want different conclusions.
 
-### Sleeping Stone -> Three Sisters route finding
-- Above Sleeping Stone, route becomes briefly easier and physically uneventful, allowing shoulder/body arithmetic to matter.
-- Garrick's route memory says: `keep water wall until wall turns inward; cross hollow where sisters show together.`
-- Story-memory says: `When three sisters share one shadow, leave the old water and walk between them.`
-- Old water wall ends at a pale gravel fan and two possible tracks.
-- Greg backs to last certain point rather than guessing forward.
-- Haze later reveals the three basalt spires farther north; the upper track is the better-supported route because the Sisters show together from it and an old squared stone suggests prior infrastructure.
-- Story and practical route memory overlap but are not treated as identical instructions.
+## Morning at Three Sisters
+- Greg begins **12c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**.
+- Right shoulder remains bruised/painful but load-bearing; no sharp deterioration.
+- Greg watches the southern ford for roughly one bell before committing. Water is somewhat lower than the previous day and no abrupt pulse appears during observation.
+- Remaining food is explicitly divided into travel and emergency portions; the nominal three-day supply is now under real pressure.
+- Trial limb remains wrapped/unused; crutches primary.
 
-## Three Sisters Hollow
-- Three Sisters are three tall narrow basalt fins above a broad hollow with grass, stone, and old slide scars.
-- Greg reaches the contractual **Three Sisters threshold**.
-- Old lower bench condition: first portion intact, middle portion **gone/cut through by slide scar**, opposite bench resumes roughly across the gap.
-- Loose north-face upper track is visible and remains explicit **NO-GO** under Garrick's warning. Greg does not use it.
-- Reaching Three Sisters with useful unsafe-route notes means the contract's 4c fallback is now plausibly earned if he returns.
-- Greg notices that this money incentive could bias safety judgment and deliberately brackets it.
+## Southern ford crossing
+- Greg crosses the shallow southern ford under explicit rules: one crutch at a time, no trial limb, reverse if water rises materially or shoulder sharpens.
+- Mid-crossing the right crutch slips slightly on algae; Greg corrects through experienced low-center positioning and left-crutch load, with a brief shoulder pain spike but no fall.
+- Water rises gradually a little during crossing but does not produce the prior abrupt pulse.
+- Greg completes crossing successfully, then records conditions without inferring cause.
+- No magic used. Protocol remains **59 / 53 / 139**.
 
-## Southern lower bypass discovery
-- Safe survey of the hollow reveals old stone steps at the southern side descending beneath trees.
-- Steps lead to an old retaining shelf below the slide toe, not the warned north-face upper track.
-- Several branches along descent were deliberately cut relatively recently; some cut leaves remain partly green. Identity/timing/purpose unknown.
-- Shelf reaches a narrow running stream emerging through/near broken old stone infrastructure below the bench line.
-- This water is **not** claimed to be Mirror Spring water; source relationship remains unknown.
-- A weathered plank crossing exists but is cracked and rejected.
-- A broader shallow ford exists a short distance south.
+## Lower bypass / route rejoin
+- Recent branch cuts and tied vegetation continue along the southern lower shelf.
+- The lower shelf curves below the Three Sisters slide scar, outside the warned loose north-face upper route.
+- Old stone steps climb from the lower shelf to the **opposite intact portion of the old lower bench**.
+- This confirms a current passable lower bypass exists under some conditions.
+- Greg does not mark or alter the route because he lacks authority.
+- Passing Three Sisters moves him beyond the 4c fallback threshold toward the 8c/12c source terms.
 
-## Ford test / pressure beat
-- Greg tests the shallow ford conservatively with crutches.
-- Water initially appears around ankle depth with visible bottom and stable first placements.
-- Mid-test, a brief stronger water pulse pushes harder against crutch shafts and raises water around his right ankle.
-- Greg freezes, lowers center, waits, then backs out along the same route after the pulse eases.
-- No fall, no injury, no magic.
-- Cause of pulse unknown. Greg records timing/weather/observed change only.
-- This is a smaller pressure beat following Ch461's substantial action, not another full action centerpiece.
+## Human maintenance traces beyond Three Sisters
+- Beyond the rejoin, Greg sees recent leaf clearing/tool scrape in a side channel and a small ambiguous wooden marker with shallow/deep cuts.
+- He records these as current/recent human maintenance evidence without assigning ownership or purpose.
+- No new person is introduced until Mirror Spring.
 
-## Story-memory / shared shadow
-- Later-day sun angle causes the three spire shadows to touch across the hollow near the southern descent mouth.
-- Greg notes the old phrase `three sisters share one shadow` may encode time/season/position or route visibility rather than literal magic.
-- This is explicitly **not established** and may be coincidence.
-- It reinforces the quest's moʻolelo-like structural principle: durable image can preserve practical place/time knowledge imperfectly.
+## Mirror Spring arrival
+- White cliff seam from Garrick's route memory becomes visible before arrival.
+- Mirror Spring is a real black-stone catch wall under pale cliff seam, with:
+  - one main center spring outflow;
+  - two side seeps, left visually stronger than right;
+  - a catch basin feeding lower stone channels.
+- Water is visibly present/flowing, but Greg has no calibrated normal and does **not** conclude source flow is normal.
+- No giant root/stone blockage is visible. The old story is therefore not literally reenacted.
 
-## Camp / decision
-- Greg chooses a dry shallow rock lip in Three Sisters Hollow as second quest-night shelter rather than forcing a crossing or retreating all the way to Sleeping Stone before dark.
-- No fire.
-- Shoulder bruise is darker but load-bearing remains stable after rest; no obvious new swelling.
-- District bottle remains sealed/empty/intact.
-- Magic remains **59 / 53 / 139**; emergency 139 is not retested.
-- Lot 67 remains packed.
-- Trial limb remains wrapped.
+## Current spring infrastructure
+- Recent human-use traces exist at spring: overlapping tread-like marks, new fiber cord, hand shovel.
+- A newer wooden **secondary diversion flap** sits below the basin, currently half closed, directing some water toward an east branch.
+- Greg does not touch or alter it because contract explicitly prohibits gate changes.
+- Higher wet/stain line on main channel stone suggests prior higher water, but timing is unknown.
+- No owner sign is visible.
+
+## District sample
+- Greg uses the district bottle at the main center outflow immediately below the lip, avoiding basin/stone contact.
+- Bottle is filled, capped, and sealed successfully.
+- Recorded conditions include:
+  - main visible flow present;
+  - left/right side seep difference by eye only;
+  - newer east diversion flap half closed;
+  - recent human-use traces;
+  - no gate changes;
+  - no witness available.
+- The sample is supplemental evidence only and does not establish cause or flow rate.
+- Contract's 12c condition is now potentially achievable **if the sample survives return and district accepts chain procedure**.
+
+## Ridge grower encounter
+- A middle-aged upper-ridge grower arrives carrying cut brush/pruning blade.
+- He is **not named in Ch463** because his identity is not yet needed and the naming guardrail applies.
+- He immediately worries Morrow will interpret the newer flap as improper diversion.
+- He claims:
+  - east branch feeds a ridge nursery and fire cistern;
+  - this diversion has existed for years;
+  - current flap is a replacement after spring thaw;
+  - current diversion is less than roughly a quarter by old share marks;
+  - Lakeward office has a written schedule;
+  - spring seems about one share-mark lower than the same time last year.
+- Greg records all of this explicitly as **claims**, not established fact.
+
+## Oral/local knowledge conflict
+- The grower objects that writing `not personally recorded` makes him look unreliable to clerks.
+- Greg refuses to erase uncertainty but asks how the grower actually knows.
+- Grower points to seasonal moss-color behavior near the catch wall as his practical comparison basis.
+- Greg records that basis as local experiential evidence, not calibrated measurement.
+- This sharpens the quest's human problem: procedural precision protects truth but can also discount forms of local knowledge that are real yet poorly formalized.
+
+## Southern bypass explanation
+- Grower confirms ridge people have used the southern lower shelf after the slide because the upper route is dangerous.
+- He says an upper-route incident killed a mule two years ago.
+- He characterizes the lower shelf as **water-maintenance access**, not a general public road.
+- He says stream pulses can occur because upper seep/rock pockets fill and spill, especially after fog; Greg records this as plausible local explanation, not proven mechanism.
+- This provides a non-mystical explanation candidate for the prior ford pulse without fully closing uncertainty.
+
+## Return timing / hut
+- Grower warns lower shelf crossing can worsen later in day as seep behavior changes and suggests leaving before late light if returning.
+- Because Greg has already spent much of the day reaching/source-working and shoulder is accumulating pain, he chooses **not** to rush a late return crossing.
+- Grower points out an old dry maintenance hut roughly half-bell below spring.
+- Hut is ownerless/common water-crew shelter, roof mostly functional, no food/resupply.
+- Greg uses it for the night.
+
+## Food / body / tools
+- Greg's remaining food is now tight: enough for dinner, morning, and a small emergency portion after that. He cannot linger.
+- Right shoulder remains bruised/painful but functional; pack removal at hut gives meaningful relief.
+- Trial limb remains wrapped/unused.
+- Crutches intact.
+- Lot 67 remains packed; Greg considers pulse timing but correctly declines because no repeatable interval/reference problem is established.
+- Magic remains **59 / 53 / 139**.
 - Cash unchanged **12c / 23c Vale / bits unspecified**.
 
-## Time / supply pressure
-- Day 1: Morrow -> White Reed -> Sleeping Stone.
-- Day 2: Sleeping Stone -> Three Sisters Hollow.
-- Employer supplied nominal three-day food. Greg has not exhausted it, but a full Mirror Spring push plus return now exceeds the original casual two-day memory and pressures the three-day plan.
-- Continuing requires a changed plan rather than simply walking harder.
+## Evidence / interpretation state
+Greg writes separate sections:
+
+### What this does NOT prove
+- visible spring flow does not prove normal flow;
+- newer east diversion flap does not prove improper diversion;
+- ridge grower's `less than quarter` is an estimate, not measured volume;
+- claimed written schedule must be checked in Lakeward;
+- one-mark-low seasonal comparison is memory supported by moss-band practice, not calibrated record;
+- losses between source and Morrow remain possible;
+- upper orchard gates remain a separate question;
+- White Reed subsurface behavior remains separate.
+
+### What changed
+- Greg now has a sealed Mirror Spring source sample;
+- a passable southern lower route exists under some conditions;
+- upper-ridge people actively maintain/access the spring;
+- source is not obviously blocked like the old story version;
+- active diversion infrastructure exists with disputed social meaning.
 
 ## Current inventory
 Greg carries:
@@ -106,54 +162,53 @@ Greg carries:
 9. Road Response Kit / Lot 67, comparative only;
 10. current Merehook coastal-measure circular from Sori;
 11. Morrow route copy;
-12. remaining employer food + blanket roll;
-13. district sample bottle/form, sealed empty and intact;
+12. very limited remaining employer food + blanket roll;
+13. **district Mirror Spring sample bottle/form, filled and sealed**;
 14. Jonah's ordinary water flask, to return.
 
 ## Protected uncertainties
-- Greg ends Ch462 alone at **Three Sisters Hollow**.
+- Greg ends Ch463 in the old dry maintenance hut near/below Mirror Spring.
 - Cash **12c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 139**.
-- Right shoulder improved from Ch461 morning but remains bruised/painful; tomorrow condition unknown.
-- Lower bench is cut/gone through middle.
-- North-face upper track remains explicit no-go and unused.
-- Southern old stone descent/lower shelf is real and shows recent branch cutting, but current user/maintainer unknown.
-- Cracked plank rejected.
-- Shallow southern ford experienced one brief stronger pulse; cause and repeatability unknown.
-- Running stream below bench has unknown relationship to Mirror Spring.
-- Mirror Spring condition/source cause remains unknown.
-- District bottle remains sealed/empty.
-- No permanent companion and no new named NPC Ch462.
+- Right shoulder remains bruised/painful but functional; morning return condition unknown.
+- Mirror Spring visibly flows, but normal flow rate is unknown.
+- Right seep appears weaker than left by eye only.
+- New east diversion flap is half closed; authority/schedule/actual share remain unverified.
+- Ridge grower's claims remain unverified except for directly visible infrastructure/moss band.
+- Lower bypass is passable under current observed conditions but not a guaranteed safe public route.
+- Stream pulse mechanism remains a local explanation, not proven.
+- District sample is full/sealed/intact but not yet accepted.
+- Food margin is tight. Greg cannot safely linger.
+- No permanent companion.
 
-## Chapter 463 trailhead
-Follow next actual claim from Ch462/current authority.
+## Chapter 464 trailhead
+Follow next actual claim from Ch463/current authority.
 
-Greg begins **12c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**, at Three Sisters Hollow on quest morning Day 3.
+Greg begins **12c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**, at the dry maintenance hut near Mirror Spring on return morning.
 
 Strong movement:
-- Recheck shoulder and observe the southern ford before committing.
-- The 4c fallback is now legitimately available if Greg turns back with useful notes. That makes any choice to continue more meaningful because he can safely get paid by leaving.
-- Recent branch cuts suggest somebody has used/cleared the lower bypass recently. Treat as evidence, not guaranteed safety.
-- If ford is lower/stable and return margin remains credible, Greg may make a bounded crossing and determine whether lower shelf rejoins the old route toward Mirror Spring.
-- If conditions remain unstable or shoulder worsens, turning back is a real, non-cowardly outcome.
-- Continuing should cost something: time, food margin, body reserve, route certainty, or eventual return difficulty. Do not hand-wave the three-day supply clock.
-- Mirror Spring may become reachable in Ch463 or later if earned, but do not collapse discovery, sample, cause interpretation, and return consequences into one chapter.
-- The next substantial action scene does **not** need to happen immediately because Ch461 just supplied one and Ch462 supplied a smaller ford-pressure beat. Use the new workflow pressure over future chapters rather than quota-firing now.
-- If a human trace becomes a human encounter, check name registry first and only name them if they materially matter.
-- Lot 67 remains packed unless a real comparative timing problem arises.
-- Magic remains available in genuine need but do not schedule external 140.
+- Return now matters as much as discovery. The sample only has value if it reaches district intact with chain notes.
+- Food margin is thin. Greg should leave early unless shoulder materially prevents it.
+- Reassess ford/lower shelf conditions. Morning may be better, but do not assume.
+- The unnamed ridge grower may recur if materially useful; if he becomes recurring or needs identity, check the name registry before naming him.
+- The return should not simply rewind the outbound chapters. Use changed knowledge: Greg now understands the southern bypass, knows where slide risk is, and carries socially explosive evidence.
+- Consider whether another person/group on the route, a route closure, weather shift, or orchard-side development changes the return grammar. Do not force action immediately after recent pressure.
+- Preserve that the evidence does not choose a winner. Morrow, Garrick, Helena, Jonah, ridge growers, and district may all interpret the same observations differently.
+- The 12c contract payout remains conditional until sample/notes are accepted. Do not pay Greg early.
+- Shoulder injury should continue to matter.
+- Magic can remain at 139 unless genuine danger creates need. No scheduled external test.
+- Lot 67 remains packed unless a real timing problem emerges.
 
 Avoid:
-- using the forbidden north-face route;
-- pretending the recent cuts prove safety;
-- sudden healing of shoulder;
-- free resupply;
-- random monster just because action directive exists;
-- literal story reenactment;
-- immediate proof of water theft;
-- resolving the entire quest before return/social consequences.
+- effortless same-day teleport-like return;
+- instant district ruling;
+- making the ridge grower obviously villainous;
+- turning the diversion flap into proof of theft;
+- forgetting food/sample-chain pressure;
+- introducing unnecessary named NPCs;
+- resolving Morrow water allocation cleanly in one conversation.
 
-**MANDATORY TITLE CHECK CH463:** answer `Who is Greg being?` before title. Use THE [ROLE] and check title history.
+**MANDATORY TITLE CHECK CH464:** answer `Who is Greg being?` before title. Use THE [ROLE] and check title history.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
