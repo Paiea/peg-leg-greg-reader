@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "batch": "221",
+  "status": "applied",
+  "strength": "aggressive-internal-procedure-compression",
+  "stable_id_actions": {
+    "plg-ch-000221": {
+      "status": "active",
+      "action": "retained_far-response-milestone_while_compressing_experiment-transcript_and_duplicate-threat-checks"
+    }
+  },
+  "illustration_policy": "advisory hold; no prose or boundary protected by art state",
+  "protected": [
+    "Lyssa finds Hessa note and reinforces eat-first rule",
+    "ordinary theatre work before Guild session",
+    "far-response test structure remains bounded and supervised",
+    "attempt 35 no response",
+    "attempt 36 far response observed with control unchanged",
+    "attempt 37 no response",
+    "Hessa refuses to call result range or reliability",
+    "Greg increasingly understands evidence language",
+    "Rinna contrasts magical novelty with ordinary usefulness",
+    "Lyssa specifically-good debrief"
+  ],
+  "cut_or_compressed": [
+    "repeated apparatus setup checks",
+    "full symptom interrogation transcript",
+    "rest-period microprocedure",
+    "duplicated count restatement",
+    "extended return-to-theatre paperwork movement",
+    "repeated no-news threat inventory",
+    "secondary rehearsal observation after Guild"
+  ]
+}
