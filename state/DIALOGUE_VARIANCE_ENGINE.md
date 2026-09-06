@@ -369,6 +369,66 @@ When a relevant object or task changes hands:
 
 This is not inventory narration. Only track objects, positions, and tasks that are carrying dialogue logic.
 
+### Update 11: interruption and resumption anchoring
+
+Interruptions are ownership hazards because the reader must track both the interrupter and the abandoned speaker.
+
+When one character cuts another off or takes the floor unexpectedly:
+- explicitly anchor the interrupter unless the physical action already makes ownership impossible to miss;
+- if the original speaker resumes after the interruption, re-anchor them rather than assuming the reader preserved the old turn map;
+- if the interruption causes a third person to respond, anchor that third person too;
+- do not rely on punctuation alone to carry who interrupted whom.
+
+The goal is to make the floor change visible, not merely grammatical.
+
+### Update 12: collective-reaction discipline
+
+Collective reactions such as `they laughed`, `everyone looked`, `the room went quiet`, or `several people answered` are safe only when the reaction is genuinely collective and no later dialogue depends on one specific person's participation.
+
+When an individual reaction matters to the next spoken turn:
+- name that person at the reaction point;
+- split the individual beat from the group beat if both matter;
+- do not let a collective noun hide which person is about to speak, disagree, move, or take the task.
+
+A group may remain a group. Do not individualize every crowd beat. Individualize only where ownership logic depends on it.
+
+### Update 13: scene and beat reset anchoring
+
+A prior speaker map expires after a meaningful narrative reset.
+
+After a scene break, location shift, time jump, long descriptive/action passage, or other substantial non-dialogue beat:
+- re-establish the first speaker explicitly;
+- re-establish the addressee or local cast if several people are present and the reset changed focus;
+- do not assume the reader remembers who had the conversational floor before the reset;
+- if the same exchange resumes after the reset, treat it as a fresh local dialogue block for ownership purposes.
+
+This may require only one plain tag or orientation sentence.
+
+### Update 14: reported and quoted speech separation
+
+PLG sometimes contains one character reporting what another person said, believed, ordered, warned, or promised. That creates two speech layers: the present speaker and the reported source.
+
+Keep those layers visibly separate:
+- anchor who is speaking now before introducing the reported speech;
+- name the reported source when more than one candidate exists;
+- avoid nested or bare quotation structures that make the reader solve which voice belongs to which layer;
+- paraphrase reported wording when exact quotation adds ownership confusion without adding value;
+- when the prose returns from the report to the present conversation, re-anchor the present speaker or next respondent if the transition is not effortless.
+
+A reader should never confuse the person recounting the line with the person who originally said it.
+
+### Update 15: stable local identity labels
+
+Do not create accidental cast inflation by rotating labels for the same person merely for stylistic variety.
+
+Within an active scene:
+- once a named character is introduced, prefer that name consistently at ownership points;
+- use a role label such as `the clerk`, `the guard`, or `the repairer` when the role itself is relevant, not simply to avoid repeating the name;
+- do not cycle among `Nessa`, `the clerk`, `the woman`, and similar labels if that makes the reader briefly wonder whether a new person entered;
+- when multiple people share a role or similar name, choose one stable disambiguating label and keep it until the scene changes enough to reset.
+
+Repeated identity labels are cheaper than identity uncertainty.
+
 ## Voice-page maintenance
 
 When a recurring character has enough manuscript evidence, their voice page may record:
