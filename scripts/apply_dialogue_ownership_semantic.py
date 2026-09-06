@@ -7,7 +7,7 @@ from pathlib import Path
 
 PARA_RE = re.compile(r'<p>(.*?)</p>', re.S)
 SPEECH = r'(?:said|asked|answered|replied|added|muttered|continued|told|called|shouted|whispered|yelled|said again|asked again)'
-ACTION = r'(?:looked|smiled|laughed|nodded|frowned|shrugged|leaned|stood|sat|turned|stared|watched|pointed|held|took|picked|pushed|pulled|crossed|sighed|blinked|froze|stopped|waited|moved|walked|stepped|glanced|tapped|reached|opened|closed|followed|started|kept|put|set|folded|unfolded|lifted|lowered|handed|offered|touched|checked|tilted|shook|raised|dropped|waved|grinned|winced|flinched|paused|breathed|exhaled|inhaled|rubbed|scratched|shifted|backed|came|went|left|returned|approached|grabbed|caught|released|gestured|did|named|swore|considered)'
+ACTION = r'(?:looked|smiled|laughed|nodded|frowned|shrugged|leaned|stood|sat|turned|stared|watched|pointed|held|took|picked|pushed|pulled|crossed|sighed|blinked|froze|stopped|waited|moved|walked|stepped|glanced|tapped|reached|opened|closed|followed|started|stayed|kept|put|set|folded|unfolded|lifted|lowered|handed|offered|touched|checked|counted|tilted|shook|raised|dropped|waved|grinned|winced|flinched|paused|breathed|exhaled|inhaled|rubbed|scratched|shifted|backed|came|went|left|returned|approached|grabbed|caught|released|gestured|did|named|swore|considered)'
 
 STALE_ARLO_BLOCK_OLD = '<p>"What?" Antonius asked.</p><p>"Nothing," I said.</p><p>"You keep looking at me," Antonius said.</p><p>"I have a memorable-face problem," I said.</p><p>"Your face?" Antonius asked.</p><p>"Other people\'s." Antonius held out his hand.</p><p>"You\'ve been staring at my hands for five minutes," Arlo said.</p>'
 STALE_ARLO_BLOCK_NEW = '<p>"What?" Arlo asked.</p><p>"Nothing," I said.</p><p>"You keep looking at me," Arlo said.</p><p>"I have a memorable-face problem," I said.</p><p>"Your face?" Arlo asked.</p><p>"Other people\'s."</p><p>Arlo held out his hand.</p><p>"You\'ve been staring at my hands for five minutes," Arlo said.</p>'
@@ -76,14 +76,9 @@ def next_nonspace(p: str, pos: int) -> int:
 def action_events(p: str) -> list[tuple[int, str]]:
     outside, closing_starts = quote_map(p)
     starts = {0}
-
-    # A new narrative sentence outside dialogue can begin a new owner beat.
     for i, ch in enumerate(p):
         if ch in '.!?' and outside[i]:
             starts.add(next_nonspace(p, i + 1))
-
-    # A beat immediately after a closing quote must also be considered even
-    # when the punctuation that ended the spoken sentence was inside the quote.
     for pos in closing_starts:
         starts.add(next_nonspace(p, pos))
 
@@ -95,7 +90,6 @@ def action_events(p: str) -> list[tuple[int, str]]:
         m = subj_re.match(p, pos)
         if not m:
             continue
-        # The whole matched action starter must be outside dialogue.
         if not all(outside[j] for j in range(m.start(), min(m.end(), len(outside)))):
             continue
         owner = 'GREG' if m.group(1) == 'I' else 'OTHER'
@@ -149,6 +143,7 @@ def transform_html(text: str) -> tuple[str, int]:
 def self_test() -> None:
     cases = [
         ('"Fine." He counted silver.', 'GREG', 0, '"Fine." </p><p>He counted silver.'),
+        ('"Too boring." He stayed in the next hand.', 'GREG', 0, '"Too boring." </p><p>He stayed in the next hand.'),
         ('"Excellent," I said. He looked concerned.', 'GREG', 0, '"Excellent," I said. </p><p>He looked concerned.'),
         ('Jorren said, "Old man." I stared at him. He laughed.', 'OTHER', 0, 'Jorren said, "Old man." </p><p>I stared at him. </p><p>He laughed.'),
         ('Antonius looked at me long enough that I said, "What?"', 'GREG', 36, 'Antonius looked at me long enough that </p><p>I said, "What?"'),
