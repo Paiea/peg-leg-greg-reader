@@ -175,6 +175,15 @@ clear speaker hinge
             for item in candidates
         ))
 
+    def test_dialogue_ownership_flags_noun_phrase_actor_after_untagged_dialogue(self):
+        paragraphs = ['"Running?" The smith looked at me.']
+        candidates = scan_paragraphs(paragraphs)
+        self.assertTrue(any(
+            item.rule == "untagged_dialogue_followed_by_action"
+            and item.paragraph_index == 0
+            for item in candidates
+        ))
+
     def test_dialogue_ownership_does_not_flag_explicit_simple_attribution(self):
         paragraphs = ['"Doing what?" I asked.']
         candidates = scan_paragraphs(paragraphs)
