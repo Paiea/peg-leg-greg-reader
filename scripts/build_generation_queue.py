@@ -10,6 +10,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from scripts.build_illustration_backlog import count_chapter_images
+from scripts.illustration_edit_hold import edit_hold_active, load_hold
 from scripts.illustration_state import load_registry, load_scene_candidates
 from scripts.score_character_references import select_character_references
 
@@ -69,7 +70,11 @@ def build_generation_queue(
     registry: list[dict],
     chapter_image_counts: dict[int, int] | None = None,
     character_references: dict[str, dict] | None = None,
+    production_hold: dict | None = None,
 ) -> list[dict]:
+    if edit_hold_active(production_hold):
+        return []
+
     character_references = character_references or {}
     active = {
         record.get("candidate_id")
@@ -166,19 +171,27 @@ def main() -> None:
     character_references = json.loads(CHARACTER_REFERENCES_PATH.read_text(encoding="utf-8")) if CHARACTER_REFERENCES_PATH.exists() else {}
     if not isinstance(character_references, dict):
         raise ValueError("character visual references must be a JSON object")
+    production_hold = load_hold()
     queue = build_generation_queue(
         candidates,
         registry,
         chapter_image_counts=image_counts,
         character_references=character_references,
+        production_hold=production_hold,
     )
     text = json.dumps(queue, indent=2, ensure_ascii=False) + "\n"
     previous = OUTPUT_PATH.read_text(encoding="utf-8") if OUTPUT_PATH.exists() else None
     if previous == text:
-        print(f"generation queue already current: {len(queue)} ready")
+        if edit_hold_active(production_hold):
+            print("generation queue already current: structural-edit hold active; 0 ready")
+        else:
+            print(f"generation queue already current: {len(queue)} ready")
         return
     OUTPUT_PATH.write_text(text, encoding="utf-8")
-    print(f"wrote generation queue: {len(queue)} ready")
+    if edit_hold_active(production_hold):
+        print("wrote generation queue: structural-edit hold active; 0 ready")
+    else:
+        print(f"wrote generation queue: {len(queue)} ready")
 
 
 if __name__ == "__main__":
