@@ -213,6 +213,33 @@ First ask whether the speaker should:
 
 Preserve speed and readability. Productive imperfection should create personhood, comedy, pressure, or relationship texture.
 
+## Attribution clarity bias
+
+**Clarity outranks elegance, tag minimization, and stylistic variety.**
+
+PLG explicitly prefers slight over-attribution to even momentary speaker or action ownership ambiguity.
+
+`said` and `asked` are allowed to repeat. They are functional reading scaffolding and usually become invisible once the reader trusts them. Do not remove or vary a clear `said`/`asked` tag merely because it repeats nearby.
+
+When reviewing or rewriting dialogue:
+- if a reader could briefly wonder who spoke, add or preserve an explicit attribution;
+- if an action or reaction could visually attach to the wrong speaker, split the paragraph or name the owner;
+- in three-or-more-speaker exchanges, bias toward more explicit tags rather than relying on turn-taking inference;
+- after Greg's first-person interior beat interrupts an exchange, re-establish the next external speaker whenever ownership is not effortless;
+- prefer plain `said`/`asked` over decorative speech verbs, invented gestures, or action-beat substitution whose main purpose is avoiding a repeated tag;
+- do not merge paragraphs or remove tags simply to make the page look less repetitive;
+- reduce attribution only when speaker, action, reaction, and paragraph ownership remain unmistakable at normal reading speed.
+
+Do **not** "beautify" a clear exchange by stripping attribution for elegance. A repeated tag is a smaller defect than a single backtrack.
+
+The test is experiential:
+
+**Can a reader move through the exchange at normal speed without reconstructing who owns the moment?**
+
+If not, over-attribute.
+
+This clarity bias is separate from voice variance. A scene may have excellent voice differentiation and still need explicit tags. Conversely, explicit tags do not excuse flattened character voice.
+
 ## Voice-page maintenance
 
 When a recurring character has enough manuscript evidence, their voice page may record:
