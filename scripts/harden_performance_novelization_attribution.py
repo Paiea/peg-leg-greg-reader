@@ -34,7 +34,7 @@ def harden_007(text: str) -> str:
     )
     replacements = (
         ('<p>"Trash," he said.</p>', '<p>"Trash," Antonius said.</p>', 1),
-        ('<p>"No."</p>', '<p>"No," I said.</p>', 1),
+        ('<p>"No."</p>', '<p>"No," I said.</p>', 2),
         (
             '<p>He nudged the box with two fingers. "Bent precision scrap. Failed artificer. Nobody wanted it. Toss it."</p>',
             '<p>Antonius nudged the box with two fingers. "Bent precision scrap. Failed artificer. Nobody wanted it. Toss it," Antonius said.</p>',
