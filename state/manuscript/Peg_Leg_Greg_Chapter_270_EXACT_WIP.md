@@ -884,7 +884,9 @@ She did not.
 
 Or pretended not to.
 
-"Copperbacks," I said. "Nessa says Orin had them last year. Damaged tied jar covers. Local woman named Pera called them copperbacks too. They used tin boxes, swept, bitterleaf. Nessa doesn't know what actually solved it."
+"Copperbacks," I said.
+
+"Nessa says Orin had them last year. Damaged tied jar covers. Local woman named Pera called them copperbacks too. They used tin boxes, swept, bitterleaf. Nessa doesn't know what actually solved it."
 
 Lyssa cut the cheese.
 

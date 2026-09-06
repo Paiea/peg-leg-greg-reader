@@ -310,7 +310,9 @@ Scene two.
 
 We set.
 
-Hara arrived while Nessa was checking the cups. She took one look at me in the Uncle's chair and said, "Still alive."
+Hara arrived while Nessa was checking the cups.
+
+She took one look at me in the Uncle's chair and said, "Still alive."
 
 "Pell or me?"
 
