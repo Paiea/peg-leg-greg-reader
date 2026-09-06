@@ -55,12 +55,220 @@
         "metadata_source": "curated_backfill"
       }
     },
-    "references": []
+    "references": [
+      {
+        "asset": "visual/chapter_art/001/v28_c01_s01_the-mirror.png",
+        "registry_id": "legacy-ch001-6f1a4767b4",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [],
+        "tags": [
+          "identity_explicit",
+          "single_character_anchor"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 70
+      },
+      {
+        "asset": "visual/chapter_art/001/v28_c01_s02_bronze-younger-carrow.png",
+        "registry_id": "legacy-ch001-a23cb95b20",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [],
+        "tags": [
+          "identity_explicit",
+          "single_character_anchor"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 70
+      },
+      {
+        "asset": "visual/chapter_art/001/v28_c01_s03_know-think-check.png",
+        "registry_id": "legacy-ch001-488fab1ae4",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [],
+        "tags": [
+          "identity_explicit",
+          "single_character_anchor"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 70
+      },
+      {
+        "asset": "visual/chapter_art/002/v28_c02_s01_carrow-street-memory.png",
+        "registry_id": "legacy-ch002-64667f7afe",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "moving",
+        "scene_tags": [],
+        "tags": [
+          "identity_explicit",
+          "single_character_anchor"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 70
+      },
+      {
+        "asset": "visual/chapter_art/002/v28_c02_s03_eight-days-antonius.png",
+        "registry_id": "legacy-ch002-f83690534d",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [],
+        "tags": [
+          "identity_explicit",
+          "single_character_anchor"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 70
+      },
+      {
+        "asset": "visual/chapter_art/002/v28_c02_s04_sella-collision.png",
+        "registry_id": "legacy-ch002-66a256415d",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [
+          "street"
+        ],
+        "tags": [
+          "identity_explicit",
+          "single_character_anchor"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 70
+      }
+    ]
   },
   "Lyssa": {
     "appearance_notes": "Black woman; tall relative to Greg; thin/lithe build; natural Afro-textured hair. Do not invent unsupported precise facial features as fixed canon. Preserve recognizable continuity with accepted live art when a stronger reference asset is promoted.",
     "reference_assets": [],
-    "references": []
+    "references": [
+      {
+        "asset": "visual/chapter_art/100/Ch100_Lyssa-Arm-and-Crutch.png",
+        "registry_id": "legacy-ch100-52e7609429",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [],
+        "tags": [
+          "identity_explicit",
+          "single_character_anchor"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 70
+      },
+      {
+        "asset": "visual/chapter_art/116/Ch116_Lyssa-Cheek-Kiss.png",
+        "registry_id": "legacy-ch116-beae7970ff",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [
+          "theatre"
+        ],
+        "tags": [
+          "identity_explicit",
+          "single_character_anchor"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 70
+      },
+      {
+        "asset": "visual/chapter_art/083/Ch83_Date-Kiss.png",
+        "registry_id": "legacy-ch083-c373971fa5",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [],
+        "tags": [
+          "identity_explicit"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 62
+      },
+      {
+        "asset": "visual/chapter_art/083/Ch83_Night-Market-with-Lyssa.png",
+        "registry_id": "legacy-ch083-085cc632a3",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [
+          "market"
+        ],
+        "tags": [
+          "identity_explicit"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 62
+      },
+      {
+        "asset": "visual/chapter_art/088/Ch88_Fried-Dough-Upstairs.png",
+        "registry_id": "legacy-ch088-0db536ea3e",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [],
+        "tags": [
+          "identity_explicit"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 62
+      },
+      {
+        "asset": "visual/chapter_art/088/Ch88_Lyssa-in-Gregs-Room.png",
+        "registry_id": "legacy-ch088-020dc572e0",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [],
+        "tags": [
+          "identity_explicit"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 62
+      }
+    ]
   },
   "Nessa": {
     "appearance_notes": "Recurring theatre-company wardrobe/costume worker. Preserve recognizable continuity with accepted art, especially her practical work presence and costume-handling scenes. Do not invent unsupported precise facial features as fixed canon.",
@@ -85,6 +293,92 @@
   "Pell": {
     "appearance_notes": "Recurring theatre-company member closely associated with props, packing, and practical stage work. Preserve recognizable continuity with accepted art and his hands-on working presence. Do not invent unsupported precise facial features as fixed canon.",
     "reference_assets": [],
-    "references": []
+    "references": [
+      {
+        "asset": "visual/chapter_art/040/v45_c40_pell-vessa-workshop.png",
+        "registry_id": "legacy-ch040-1ec90d8456",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [
+          "workshop"
+        ],
+        "tags": [
+          "identity_explicit",
+          "single_character_anchor"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 70
+      },
+      {
+        "asset": "visual/chapter_art/002/v28_c02_s02_pell-takes-interest.png",
+        "registry_id": "legacy-ch002-29f618d4b8",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [],
+        "tags": [
+          "identity_explicit"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 62
+      },
+      {
+        "asset": "visual/chapter_art/003/v28_c03_s01_cart-too-much-shale.png",
+        "registry_id": "legacy-ch003-ff9ee06df3",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [
+          "workshop"
+        ],
+        "tags": [
+          "identity_explicit"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 62
+      },
+      {
+        "asset": "visual/chapter_art/003/v28_c03_s02_sixth-disk.png",
+        "registry_id": "legacy-ch003-1c74009f36",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [],
+        "tags": [
+          "identity_explicit"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 62
+      },
+      {
+        "asset": "visual/chapter_art/003/v28_c03_s03_pell-asks-where.png",
+        "registry_id": "legacy-ch003-66d76a40c0",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [],
+        "tags": [
+          "identity_explicit"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 62
+      }
+    ]
   }
 }

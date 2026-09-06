@@ -102,6 +102,56 @@ Generated from manuscript-informed scene candidates plus current Illustrated Rea
 - **Visual hook:** Greg-as-Sword and Serra mid-performance in a packed livestock market while a goat tugs the mounting cloth from behind, with baskets, onlookers, onions, and the collection bowl making the street-show chaos legible.
 - **Scene:** During the crowded market Sword set, a goat reaches through the sheep fence behind Greg and bites the bottom of the mounting cloth while Serra keeps feeding him lines and the crowd notices the theft before he does.
 
+## Chapter 166 — THE ROADHAND
+
+- **Candidate:** `ch166-firelight-cloth`
+- **Kind:** `chapter_illustration`
+- **Priority:** `high`
+- **Current coverage:** 0 images
+- **Fit target:** `exact`
+- **Visual hook:** Nessa working the damaged mounting cloth in warm firelight with Pell holding the corner, road camp and sleeping wagons behind them, while Greg watches from the edge of the work circle.
+- **Scene:** At the road camp after Kest, Nessa repairs the goat-chewed mounting cloth by firelight while Pell holds the damaged corner and the rest of the company settles into an ordinary no-performance night.
+
+## Chapter 167 — THE APPLICANT
+
+- **Candidate:** `ch167-dast-arrival-traffic`
+- **Kind:** `chapter_illustration`
+- **Priority:** `high`
+- **Current coverage:** 0 images
+- **Fit target:** `exact`
+- **Visual hook:** Greg and the company wagon entering a chaotic fair-routing landscape of rope lanes, painted signs, carts, workers with sticks, livestock, and improvised directions before Dast itself is visible.
+- **Scene:** Before the company can even see Dast properly, the harvest fair announces itself as a traffic problem: fields divided by rope and stakes, temporary signs, packed wagons, and workers redirecting everyone through multiple contradictory easts.
+
+## Chapter 168 — THE PITCHMAN
+
+- **Candidate:** `ch168-cart-through-performance`
+- **Kind:** `chapter_illustration`
+- **Priority:** `high`
+- **Current coverage:** 0 images
+- **Fit target:** `exact`
+- **Visual hook:** A fair cart cutting directly through the improvised performance lane while Marek, Serra, Greg-as-Sword, and the audience peel aside around cheese stalls, columns, wind, and loading traffic.
+- **Scene:** During the north-arcade performance, a loading cart forces the actors and audience to break formation and make a lane through the show before the scene resumes as if this is normal.
+
+## Chapter 169 — THE STANDBY
+
+- **Candidate:** `ch169-standby-platform`
+- **Kind:** `chapter_illustration`
+- **Priority:** `high`
+- **Current coverage:** 0 images
+- **Fit target:** `exact`
+- **Visual hook:** A compressed fair-stage handoff: Marek stepping onto the west platform, Serra and Iven ready behind him, an annoyed grain speaker waiting at the stairs, and Greg off to the side with the collection bowl.
+- **Scene:** Bellan suddenly gives the company a tiny opening between grain speeches, so Marek walks onto the west platform while the previous speaker is still leaving and the next speaker waits beside the stairs.
+
+## Chapter 170 — THE CHASER
+
+- **Candidate:** `ch170-goat-rope-queue`
+- **Kind:** `chapter_illustration`
+- **Priority:** `high`
+- **Current coverage:** 0 images
+- **Fit target:** `exact`
+- **Visual hook:** Pell shifting the company wagon rope while a stubborn goat stretches after it again, with Greg watching, wagons queued toward the intact bridge, and repair workers carrying long rail timbers ahead.
+- **Scene:** While the company waits in a bridge-repair queue, a goat tied behind the next cart repeatedly follows Pell's attempts to move the rear wagon rope out of reach.
+
 ## Chapter 390 — THE PASSENGER
 
 - **Candidate:** `ch390-root-drag`

@@ -1,30 +1,30 @@
-# Illustration Prompt Pack — ch158-letter-lyssa
+# Illustration Prompt Pack — ch169-standby-platform
 
-**Chapter:** 158 — THE RETURNER
+**Chapter:** 169 — THE STANDBY
 **Kind:** `chapter_illustration`
 **Fit target:** `exact`
 **Spoiler level:** `low`
-**Paragraph anchor:** The paper seller sanded the letter, folded it, tied it, and wrote CARROW on the outside.
+**Paragraph anchor:** Marek walked onto the west platform while the fourth speaker was still leaving it.
 
 ## Scene brief
 
-With several free hours in town, Greg sits at a market writing table and writes a letter to Lyssa, surrounded by paper, stalls, wet streets, buttons, and the ordinary bustle of the square.
+Bellan suddenly gives the company a tiny opening between grain speeches, so Marek walks onto the west platform while the previous speaker is still leaving and the next speaker waits beside the stairs.
 
 ## Visual hook
 
-An intimate over-shoulder market-writing scene: Greg at a small public writing table with folded paper, ink, wet-town market life behind him, and the quiet weight of the letter to Lyssa.
+A compressed fair-stage handoff: Marek stepping onto the west platform, Serra and Iven ready behind him, an annoyed grain speaker waiting at the stairs, and Greg off to the side with the collection bowl.
 
 ## Prompt construction
 
 ### GENERATION METADATA
 - Framing: `above_waist`
 - View angle: `over_shoulder`
-- Pose family: `writing_seated`
-- Scene tags: market, letter, daylight, quiet, ordinary_life
+- Pose family: `stage_handoff`
+- Scene tags: fair, platform, performance, standby, crowd, theatre
 - Preserve these metadata values into the generation queue and registry when the generated asset is intaked. They are continuity/diversity guidance, not permission to contradict the manuscript.
 
 ### SUBJECT + ACTION
-Characters: Greg. Show them doing the physical action implied by the scene rather than posing for a portrait.
+Characters: Greg, Marek, Serra, Iven. Show them doing the physical action implied by the scene rather than posing for a portrait.
 
 ### CAMERA
 Choose a composition that avoids default centered eye-level two-person staging. Rotate wide/medium/close and camera height to suit the scene while honoring the declared framing/view-angle guidance above.
@@ -33,13 +33,13 @@ Choose a composition that avoids default centered eye-level two-person staging. 
 Use a meaningful prop, doorway, furniture edge, fabric, stage object, cart, hand, crutch, or other manuscript-supported foreground shape when useful.
 
 ### ENVIRONMENTAL MOVEMENT
-Location: narrow market square after rain. Mood: quiet, affectionate, ordinary-life warmth. Use posture, clothing, traffic, weather, smoke, fabric, doors, sightlines, or work activity to create directional energy.
+Location: west platform at Dast fair. Mood: compressed, opportunistic, funny, professional. Use posture, clothing, traffic, weather, smoke, fabric, doors, sightlines, or work activity to create directional energy.
 
 ### EYE PATH
 Design where the eye enters, how motion carries it, and where it lands. Quiet scenes should still have directional flow unless deliberate stillness is the point.
 
 ### MANUSCRIPT DETAILS
-Stay inside this scene summary and hook. Do not invent plot facts beyond the candidate. Visual hook: An intimate over-shoulder market-writing scene: Greg at a small public writing table with folded paper, ink, wet-town market life behind him, and the quiet weight of the letter to Lyssa.
+Stay inside this scene summary and hook. Do not invent plot facts beyond the candidate. Visual hook: A compressed fair-stage handoff: Marek stepping onto the west platform, Serra and Iven ready behind him, an annoyed grain speaker waiting at the stairs, and Greg off to the side with the collection bowl.
 
 ### CONTINUITY
 - Preserve manuscript-established age, body, clothing, props, and setting details.
@@ -51,6 +51,6 @@ Stay inside this scene summary and hook. Do not invent plot facts beyond the can
 
 ## Output target
 
-- Prompt pack: `state/visual/prompt-packs/ch158-letter-lyssa.md`
-- Suggested asset id: `ch158-letter-lyssa-v1`
-- Suggested live chapter folder: `visual/chapter_art/158/`
+- Prompt pack: `state/visual/prompt-packs/ch169-standby-platform.md`
+- Suggested asset id: `ch169-standby-platform-v1`
+- Suggested live chapter folder: `visual/chapter_art/169/`

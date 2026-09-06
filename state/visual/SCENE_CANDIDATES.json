@@ -28,8 +28,11 @@
       "prop"
     ],
     "notes": "Coverage backfill for an older zero-art chapter. Keep Greg above waist; the visual point is the staging solution, not lower-body state.",
+    "anchor_quality_enforced": true,
     "anchor_status": "valid",
-    "anchor_match_count": 1
+    "anchor_match_count": 1,
+    "anchor_quality_score": 75,
+    "anchor_quality_status": "strong"
   },
   {
     "id": "ch157-two-swords",
@@ -60,8 +63,11 @@
       "prop"
     ],
     "notes": "Use composition to make the duplicate-sword joke clear without needing unnecessary lower-body detail on Greg.",
+    "anchor_quality_enforced": true,
     "anchor_status": "valid",
-    "anchor_match_count": 1
+    "anchor_match_count": 1,
+    "anchor_quality_score": 100,
+    "anchor_quality_status": "strong"
   },
   {
     "id": "ch158-letter-lyssa",
@@ -79,7 +85,7 @@
     "fit_target": "exact",
     "spoiler_level": "low",
     "status": "prompt_ready",
-    "paragraph_anchor": "I bought paper.",
+    "paragraph_anchor": "The paper seller sanded the letter, folded it, tied it, and wrote CARROW on the outside.",
     "framing_preference": "above_waist",
     "view_angle": "over_shoulder",
     "pose_family": "writing_seated",
@@ -91,8 +97,11 @@
       "ordinary_life"
     ],
     "notes": "Useful quieter coverage beat that preserves Greg continuity while varying away from performance poses.",
+    "anchor_quality_enforced": true,
     "anchor_status": "valid",
-    "anchor_match_count": 1
+    "anchor_match_count": 1,
+    "anchor_quality_score": 100,
+    "anchor_quality_status": "strong"
   },
   {
     "id": "ch159-fish-rescue",
@@ -111,7 +120,7 @@
     "fit_target": "exact",
     "spoiler_level": "low",
     "status": "prompt_ready",
-    "paragraph_anchor": "He was under the stage.",
+    "paragraph_anchor": "We found the fish wedged behind a support where someone had pushed it with a boot.",
     "framing_preference": "above_waist",
     "view_angle": "through_foreground_supports",
     "pose_family": "reaching_retrieval",
@@ -123,8 +132,11 @@
       "work"
     ],
     "notes": "Let stage beams and clutter create composition. Greg can stay above waist while Pell and the fish carry the physical joke.",
+    "anchor_quality_enforced": true,
     "anchor_status": "valid",
-    "anchor_match_count": 1
+    "anchor_match_count": 1,
+    "anchor_quality_score": 100,
+    "anchor_quality_status": "strong"
   },
   {
     "id": "ch160-fish-twitch",
@@ -156,8 +168,11 @@
       "theatre"
     ],
     "notes": "Keep the fish and facial reactions central. Greg's lower body is not needed to sell the beat.",
+    "anchor_quality_enforced": true,
     "anchor_status": "valid",
-    "anchor_match_count": 1
+    "anchor_match_count": 1,
+    "anchor_quality_score": 75,
+    "anchor_quality_status": "strong"
   },
   {
     "id": "ch161-useful-packing",
@@ -190,8 +205,11 @@
       "comedy"
     ],
     "notes": "Keep Greg above waist and let the pile of objects and surrounding work sell the joke instead of exposing unnecessary lower-body state.",
+    "anchor_quality_enforced": true,
     "anchor_status": "valid",
-    "anchor_match_count": 1
+    "anchor_match_count": 1,
+    "anchor_quality_score": 100,
+    "anchor_quality_status": "strong"
   },
   {
     "id": "ch162-market-awakens",
@@ -221,8 +239,11 @@
       "ordinary_life"
     ],
     "notes": "Use Greg as a stable foreground identity anchor while the market carries most of the visual energy.",
+    "anchor_quality_enforced": true,
     "anchor_status": "valid",
-    "anchor_match_count": 1
+    "anchor_match_count": 1,
+    "anchor_quality_score": 100,
+    "anchor_quality_status": "strong"
   },
   {
     "id": "ch163-mill-arrival",
@@ -254,8 +275,11 @@
       "work"
     ],
     "notes": "Let infrastructure dominate the composition. Greg can remain above waist in the foreground while the mill supplies scale and movement.",
+    "anchor_quality_enforced": true,
     "anchor_status": "valid",
-    "anchor_match_count": 1
+    "anchor_match_count": 1,
+    "anchor_quality_score": 100,
+    "anchor_quality_status": "strong"
   },
   {
     "id": "ch164-kest-pig-sign",
@@ -274,7 +298,7 @@
     "fit_target": "exact",
     "spoiler_level": "low",
     "status": "prompt_ready",
-    "paragraph_anchor": "A pig stood in the east yard.",
+    "paragraph_anchor": "Below that, someone had written: NO PIGS IN EAST YARD.",
     "framing_preference": "above_waist",
     "camera_angle": "sign_foreground_wide",
     "pose_family": "arrival_observation",
@@ -286,8 +310,11 @@
       "comedy"
     ],
     "notes": "Keep the sign and pig readable at a glance. Greg's lower body is not needed for the visual joke.",
+    "anchor_quality_enforced": true,
     "anchor_status": "valid",
-    "anchor_match_count": 1
+    "anchor_match_count": 1,
+    "anchor_quality_score": 75,
+    "anchor_quality_status": "strong"
   },
   {
     "id": "ch165-goat-theft",
@@ -319,8 +346,199 @@
       "theatre"
     ],
     "notes": "Frame Greg above waist while keeping the goat, cloth, Serra, and crowd reaction readable. The joke does not require lower-body state.",
+    "anchor_quality_enforced": true,
     "anchor_status": "valid",
-    "anchor_match_count": 1
+    "anchor_match_count": 1,
+    "anchor_quality_score": 100,
+    "anchor_quality_status": "strong"
+  },
+  {
+    "id": "ch166-firelight-cloth",
+    "chapter": 166,
+    "chapter_title": "THE ROADHAND",
+    "scene_summary": "At the road camp after Kest, Nessa repairs the goat-chewed mounting cloth by firelight while Pell holds the damaged corner and the rest of the company settles into an ordinary no-performance night.",
+    "visual_hook": "Nessa working the damaged mounting cloth in warm firelight with Pell holding the corner, road camp and sleeping wagons behind them, while Greg watches from the edge of the work circle.",
+    "characters": [
+      "Greg",
+      "Nessa",
+      "Pell"
+    ],
+    "location": "roadside camp beside the company wagons",
+    "mood": "quiet work, dry comedy, road-worn warmth",
+    "priority": "high",
+    "kind": "chapter_illustration",
+    "fit_target": "exact",
+    "spoiler_level": "low",
+    "status": "prompt_ready",
+    "paragraph_anchor": "After dark, Nessa worked on the chewed mounting cloth by firelight until she decided firelight was making the color worse and stopped.",
+    "anchor_quality_enforced": true,
+    "framing_preference": "above_waist",
+    "view_angle": "three_quarter",
+    "pose_family": "repair_work",
+    "scene_tags": [
+      "road_camp",
+      "costume",
+      "repair",
+      "work",
+      "firelight",
+      "travel"
+    ],
+    "notes": "Keep Greg peripheral/above waist. The image is about accumulated company work and the damaged cloth, not lower-body state.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1,
+    "anchor_quality_score": 100,
+    "anchor_quality_status": "strong"
+  },
+  {
+    "id": "ch167-dast-arrival-traffic",
+    "chapter": 167,
+    "chapter_title": "THE APPLICANT",
+    "scene_summary": "Before the company can even see Dast properly, the harvest fair announces itself as a traffic problem: fields divided by rope and stakes, temporary signs, packed wagons, and workers redirecting everyone through multiple contradictory easts.",
+    "visual_hook": "Greg and the company wagon entering a chaotic fair-routing landscape of rope lanes, painted signs, carts, workers with sticks, livestock, and improvised directions before Dast itself is visible.",
+    "characters": [
+      "Greg",
+      "Marek",
+      "Davin"
+    ],
+    "location": "approach fields outside Dast harvest fair",
+    "mood": "busy, comic, overwhelming but practical",
+    "priority": "high",
+    "kind": "chapter_illustration",
+    "fit_target": "exact",
+    "spoiler_level": "low",
+    "status": "prompt_ready",
+    "paragraph_anchor": "Fields on both sides of the road had been divided with rope, stakes, painted boards, and people holding sticks.",
+    "anchor_quality_enforced": true,
+    "framing_preference": "above_waist",
+    "camera_angle": "wide_environmental",
+    "pose_family": "arrival_observation",
+    "scene_tags": [
+      "fair",
+      "traffic",
+      "wagon",
+      "crowd",
+      "arrival",
+      "travel"
+    ],
+    "notes": "Use Greg as a recognizable foreground anchor while the fair logistics carry the composition.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1,
+    "anchor_quality_score": 100,
+    "anchor_quality_status": "strong"
+  },
+  {
+    "id": "ch168-cart-through-performance",
+    "chapter": 168,
+    "chapter_title": "THE PITCHMAN",
+    "scene_summary": "During the north-arcade performance, a loading cart forces the actors and audience to break formation and make a lane through the show before the scene resumes as if this is normal.",
+    "visual_hook": "A fair cart cutting directly through the improvised performance lane while Marek, Serra, Greg-as-Sword, and the audience peel aside around cheese stalls, columns, wind, and loading traffic.",
+    "characters": [
+      "Greg",
+      "Marek",
+      "Serra"
+    ],
+    "location": "north arcade at Dast fair",
+    "mood": "kinetic, comic, improvisational",
+    "priority": "high",
+    "kind": "chapter_illustration",
+    "fit_target": "exact",
+    "spoiler_level": "low",
+    "status": "prompt_ready",
+    "paragraph_anchor": "For several seconds the performance became a crowd making a lane.",
+    "anchor_quality_enforced": true,
+    "framing_preference": "above_waist",
+    "view_angle": "side_three_quarter",
+    "pose_family": "performance_interruption",
+    "scene_tags": [
+      "fair",
+      "performance",
+      "cart",
+      "crowd",
+      "arcade",
+      "comedy",
+      "theatre"
+    ],
+    "notes": "Frame Greg above waist on/near the Sword board; the cart and crowd geometry sell the scene.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1,
+    "anchor_quality_score": 100,
+    "anchor_quality_status": "strong"
+  },
+  {
+    "id": "ch169-standby-platform",
+    "chapter": 169,
+    "chapter_title": "THE STANDBY",
+    "scene_summary": "Bellan suddenly gives the company a tiny opening between grain speeches, so Marek walks onto the west platform while the previous speaker is still leaving and the next speaker waits beside the stairs.",
+    "visual_hook": "A compressed fair-stage handoff: Marek stepping onto the west platform, Serra and Iven ready behind him, an annoyed grain speaker waiting at the stairs, and Greg off to the side with the collection bowl.",
+    "characters": [
+      "Greg",
+      "Marek",
+      "Serra",
+      "Iven"
+    ],
+    "location": "west platform at Dast fair",
+    "mood": "compressed, opportunistic, funny, professional",
+    "priority": "high",
+    "kind": "chapter_illustration",
+    "fit_target": "exact",
+    "spoiler_level": "low",
+    "status": "prompt_ready",
+    "paragraph_anchor": "Marek walked onto the west platform while the fourth speaker was still leaving it.",
+    "anchor_quality_enforced": true,
+    "framing_preference": "above_waist",
+    "view_angle": "over_shoulder",
+    "pose_family": "stage_handoff",
+    "scene_tags": [
+      "fair",
+      "platform",
+      "performance",
+      "standby",
+      "crowd",
+      "theatre"
+    ],
+    "notes": "Greg can remain above waist at the collection edge; prioritize the stage handoff and cramped schedule joke.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1,
+    "anchor_quality_score": 75,
+    "anchor_quality_status": "strong"
+  },
+  {
+    "id": "ch170-goat-rope-queue",
+    "chapter": 170,
+    "chapter_title": "THE CHASER",
+    "scene_summary": "While the company waits in a bridge-repair queue, a goat tied behind the next cart repeatedly follows Pell's attempts to move the rear wagon rope out of reach.",
+    "visual_hook": "Pell shifting the company wagon rope while a stubborn goat stretches after it again, with Greg watching, wagons queued toward the intact bridge, and repair workers carrying long rail timbers ahead.",
+    "characters": [
+      "Greg",
+      "Pell"
+    ],
+    "location": "wagon queue at a stone bridge under rail repair",
+    "mood": "ordinary-road comedy, patient, lived-in",
+    "priority": "high",
+    "kind": "chapter_illustration",
+    "fit_target": "exact",
+    "spoiler_level": "low",
+    "status": "prompt_ready",
+    "paragraph_anchor": "Then a cart with two goats tied behind it joined after us and became our problem because one goat kept trying to eat the rear wagon rope.",
+    "anchor_quality_enforced": true,
+    "framing_preference": "above_waist",
+    "view_angle": "three_quarter",
+    "pose_family": "roadside_problem_solving",
+    "scene_tags": [
+      "bridge",
+      "queue",
+      "wagon",
+      "goat",
+      "road",
+      "work",
+      "comedy",
+      "travel"
+    ],
+    "notes": "Keep Greg above waist; Pell, the rope, goat, wagons, and bridge-repair activity carry the physical action.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1,
+    "anchor_quality_score": 100,
+    "anchor_quality_status": "strong"
   },
   {
     "id": "ch390-root-drag",
@@ -346,7 +564,9 @@
     "paragraph_anchor": "Maro took narrow brass disk from black case.",
     "notes": "Strong environment, object action, and directional mystery without requiring a major reveal.",
     "anchor_status": "valid",
-    "anchor_match_count": 1
+    "anchor_match_count": 1,
+    "anchor_quality_score": 75,
+    "anchor_quality_status": "strong"
   },
   {
     "id": "ch391-nessa-arrival",
@@ -368,7 +588,9 @@
     "paragraph_anchor": "She carried a three-pronged brass fork almost as long as my forearm and looked furious at architecture.",
     "notes": "Character entrance with a strong prop and distinctive silhouette.",
     "anchor_status": "valid",
-    "anchor_match_count": 1
+    "anchor_match_count": 1,
+    "anchor_quality_score": 100,
+    "anchor_quality_status": "strong"
   },
   {
     "id": "ch391-ropewalk",
@@ -392,7 +614,9 @@
     "paragraph_anchor": "Second turned to open iron grate.",
     "notes": "Excellent disability-aware movement scene and an opportunity for a strong high-angle or low-angle composition.",
     "anchor_status": "valid",
-    "anchor_match_count": 1
+    "anchor_match_count": 1,
+    "anchor_quality_score": 55,
+    "anchor_quality_status": "weak"
   },
   {
     "id": "ch392-glass-mice",
@@ -413,7 +637,9 @@
     "paragraph_anchor": "Glass mice.",
     "notes": "Compact creature scene with strong lighting and immediate visual identity.",
     "anchor_status": "valid",
-    "anchor_match_count": 1
+    "anchor_match_count": 1,
+    "anchor_quality_score": 15,
+    "anchor_quality_status": "weak"
   },
   {
     "id": "ch392-reed-hounds",
@@ -435,7 +661,60 @@
     "paragraph_anchor": "Reed hound.",
     "notes": "Creature reveal with clean foreground-background staging and strong moonlight potential.",
     "anchor_status": "valid",
-    "anchor_match_count": 1
+    "anchor_match_count": 1,
+    "anchor_quality_score": 15,
+    "anchor_quality_status": "weak"
+  },
+  {
+    "id": "ch393-custody-tag",
+    "chapter": 393,
+    "chapter_title": "THE RECORDER",
+    "scene_summary": "A loose brass custody tag slides toward the freight cradle grate and Greg deliberately gives it a tiny external push, changing its angle just enough for it to strike the raised case corner instead of falling through.",
+    "visual_hook": "Close action shot of a small brass tag skidding toward an iron grate, black case corner in frame, Greg braced on crutches nearby, and the tag visibly changing path at the last instant.",
+    "characters": [
+      "Greg",
+      "Sori",
+      "Vessa"
+    ],
+    "location": "West Five north freight cradle",
+    "mood": "tense, precise, understated",
+    "priority": "high",
+    "kind": "chapter_illustration",
+    "fit_target": "exact",
+    "spoiler_level": "medium",
+    "status": "prompt_ready",
+    "paragraph_anchor": "The brass tag changed angle.",
+    "notes": "Small but important action beat. Keep the effect subtle rather than turning it into flashy magic.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1,
+    "anchor_quality_score": 80,
+    "anchor_quality_status": "strong"
+  },
+  {
+    "id": "ch393-floor-shine",
+    "chapter": 393,
+    "chapter_title": "THE RECORDER",
+    "scene_summary": "Inside the east gallery, a maintenance shade cloth covers part of the lock wall and floor while pale light moves faintly beneath it and workers keep the survey party to the inner edge without allowing contact.",
+    "visual_hook": "Stone lock corridor, yellow chalk boundary, hanging maintenance cloth, and dim pale light glowing through the fabric like moonlight under a bedsheet while the party passes carefully.",
+    "characters": [
+      "Greg",
+      "Dask",
+      "Maro",
+      "Vessa"
+    ],
+    "location": "West Locks east gallery",
+    "mood": "eerie, restrained, procedural",
+    "priority": "high",
+    "kind": "chapter_illustration",
+    "fit_target": "exact",
+    "spoiler_level": "low",
+    "status": "prompt_ready",
+    "paragraph_anchor": "Under cloth, pale light moved faintly.",
+    "notes": "Quiet supernatural/environmental image with strong contrast and a clear no-contact boundary.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1,
+    "anchor_quality_score": 55,
+    "anchor_quality_status": "weak"
   },
   {
     "id": "ch393-west-locks",
@@ -461,79 +740,9 @@
     "paragraph_anchor": "West Locks appeared properly ten minutes later.",
     "notes": "Large-scale infrastructure shot that expands the visual world instead of centering a conversation.",
     "anchor_status": "valid",
-    "anchor_match_count": 1
-  },
-  {
-    "id": "ch393-floor-shine",
-    "chapter": 393,
-    "chapter_title": "THE RECORDER",
-    "scene_summary": "Inside the east gallery, a maintenance shade cloth covers part of the lock wall and floor while pale light moves faintly beneath it and workers keep the survey party to the inner edge without allowing contact.",
-    "visual_hook": "Stone lock corridor, yellow chalk boundary, hanging maintenance cloth, and dim pale light glowing through the fabric like moonlight under a bedsheet while the party passes carefully.",
-    "characters": [
-      "Greg",
-      "Dask",
-      "Maro",
-      "Vessa"
-    ],
-    "location": "West Locks east gallery",
-    "mood": "eerie, restrained, procedural",
-    "priority": "high",
-    "kind": "chapter_illustration",
-    "fit_target": "exact",
-    "spoiler_level": "low",
-    "status": "prompt_ready",
-    "paragraph_anchor": "Under cloth, pale light moved faintly.",
-    "notes": "Quiet supernatural/environmental image with strong contrast and a clear no-contact boundary.",
-    "anchor_status": "valid",
-    "anchor_match_count": 1
-  },
-  {
-    "id": "ch393-custody-tag",
-    "chapter": 393,
-    "chapter_title": "THE RECORDER",
-    "scene_summary": "A loose brass custody tag slides toward the freight cradle grate and Greg deliberately gives it a tiny external push, changing its angle just enough for it to strike the raised case corner instead of falling through.",
-    "visual_hook": "Close action shot of a small brass tag skidding toward an iron grate, black case corner in frame, Greg braced on crutches nearby, and the tag visibly changing path at the last instant.",
-    "characters": [
-      "Greg",
-      "Sori",
-      "Vessa"
-    ],
-    "location": "West Five north freight cradle",
-    "mood": "tense, precise, understated",
-    "priority": "high",
-    "kind": "chapter_illustration",
-    "fit_target": "exact",
-    "spoiler_level": "medium",
-    "status": "prompt_ready",
-    "paragraph_anchor": "The brass tag changed angle.",
-    "notes": "Small but important action beat. Keep the effect subtle rather than turning it into flashy magic.",
-    "anchor_status": "valid",
-    "anchor_match_count": 1
-  },
-  {
-    "id": "ch394-mast-creep",
-    "chapter": 394,
-    "chapter_title": "THE PRACTITIONER",
-    "scene_summary": "At the north station mast, a white thread tied to arm two blows with the south wind while the heavy black arm itself slowly creeps west in the wrong direction as Dask measures and Maro checks with his brass disk.",
-    "visual_hook": "Three-armed black signal mast on a stone plinth, one white thread streaming with the wind while its arm creeps against it, Dask measuring and Maro holding a brass disk below.",
-    "characters": [
-      "Greg",
-      "Dask",
-      "Maro",
-      "Vessa",
-      "Rett"
-    ],
-    "location": "North station mast yard",
-    "mood": "observational, uncanny, wind-swept",
-    "priority": "high",
-    "kind": "chapter_illustration",
-    "fit_target": "exact",
-    "spoiler_level": "low",
-    "status": "prompt_ready",
-    "paragraph_anchor": "Arm itself crept west.",
-    "notes": "Good movement-vs-movement composition where the thread and mast arm visibly disagree.",
-    "anchor_status": "valid",
-    "anchor_match_count": 1
+    "anchor_match_count": 1,
+    "anchor_quality_score": 55,
+    "anchor_quality_status": "weak"
   },
   {
     "id": "ch394-brass-washer",
@@ -559,6 +768,35 @@
     "paragraph_anchor": "Washer moved.",
     "notes": "A restrained progress image. Emphasize measurement, posture, and witness attention rather than visual effects.",
     "anchor_status": "valid",
-    "anchor_match_count": 1
+    "anchor_match_count": 1,
+    "anchor_quality_score": 15,
+    "anchor_quality_status": "weak"
+  },
+  {
+    "id": "ch394-mast-creep",
+    "chapter": 394,
+    "chapter_title": "THE PRACTITIONER",
+    "scene_summary": "At the north station mast, a white thread tied to arm two blows with the south wind while the heavy black arm itself slowly creeps west in the wrong direction as Dask measures and Maro checks with his brass disk.",
+    "visual_hook": "Three-armed black signal mast on a stone plinth, one white thread streaming with the wind while its arm creeps against it, Dask measuring and Maro holding a brass disk below.",
+    "characters": [
+      "Greg",
+      "Dask",
+      "Maro",
+      "Vessa",
+      "Rett"
+    ],
+    "location": "North station mast yard",
+    "mood": "observational, uncanny, wind-swept",
+    "priority": "high",
+    "kind": "chapter_illustration",
+    "fit_target": "exact",
+    "spoiler_level": "low",
+    "status": "prompt_ready",
+    "paragraph_anchor": "Arm itself crept west.",
+    "notes": "Good movement-vs-movement composition where the thread and mast arm visibly disagree.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1,
+    "anchor_quality_score": 15,
+    "anchor_quality_status": "weak"
   }
 ]

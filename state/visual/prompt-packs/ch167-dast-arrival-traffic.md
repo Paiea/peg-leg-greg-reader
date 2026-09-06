@@ -1,18 +1,18 @@
-# Illustration Prompt Pack — ch164-kest-pig-sign
+# Illustration Prompt Pack — ch167-dast-arrival-traffic
 
-**Chapter:** 164 — THE PROSPECTOR
+**Chapter:** 167 — THE APPLICANT
 **Kind:** `chapter_illustration`
 **Fit target:** `exact`
 **Spoiler level:** `low`
-**Paragraph anchor:** Below that, someone had written: NO PIGS IN EAST YARD.
+**Paragraph anchor:** Fields on both sides of the road had been divided with rope, stakes, painted boards, and people holding sticks.
 
 ## Scene brief
 
-The company reaches Kest on the day before market, passing a roadside sign that says MARKET TOMORROW and NO PIGS IN EAST YARD while a pig stands visibly in the east yard anyway.
+Before the company can even see Dast properly, the harvest fair announces itself as a traffic problem: fields divided by rope and stakes, temporary signs, packed wagons, and workers redirecting everyone through multiple contradictory easts.
 
 ## Visual hook
 
-A dry comic town-arrival image: the painted KEST sign and NO PIGS IN EAST YARD notice in clear view, market pens beyond it, and one completely unbothered pig violating the rule.
+Greg and the company wagon entering a chaotic fair-routing landscape of rope lanes, painted signs, carts, workers with sticks, livestock, and improvised directions before Dast itself is visible.
 
 ## Prompt construction
 
@@ -20,11 +20,11 @@ A dry comic town-arrival image: the painted KEST sign and NO PIGS IN EAST YARD n
 - Framing: `above_waist`
 - View angle: `choose_non_repetitive_scene_angle`
 - Pose family: `arrival_observation`
-- Scene tags: town, market, livestock, travel, comedy
+- Scene tags: fair, traffic, wagon, crowd, arrival, travel
 - Preserve these metadata values into the generation queue and registry when the generated asset is intaked. They are continuity/diversity guidance, not permission to contradict the manuscript.
 
 ### SUBJECT + ACTION
-Characters: Greg, Marek. Show them doing the physical action implied by the scene rather than posing for a portrait.
+Characters: Greg, Marek, Davin. Show them doing the physical action implied by the scene rather than posing for a portrait.
 
 ### CAMERA
 Choose a composition that avoids default centered eye-level two-person staging. Rotate wide/medium/close and camera height to suit the scene while honoring the declared framing/view-angle guidance above.
@@ -33,13 +33,13 @@ Choose a composition that avoids default centered eye-level two-person staging. 
 Use a meaningful prop, doorway, furniture edge, fabric, stage object, cart, hand, crutch, or other manuscript-supported foreground shape when useful.
 
 ### ENVIRONMENTAL MOVEMENT
-Location: western edge of Kest before market day. Mood: dryly comic, observant, travel-worn. Use posture, clothing, traffic, weather, smoke, fabric, doors, sightlines, or work activity to create directional energy.
+Location: approach fields outside Dast harvest fair. Mood: busy, comic, overwhelming but practical. Use posture, clothing, traffic, weather, smoke, fabric, doors, sightlines, or work activity to create directional energy.
 
 ### EYE PATH
 Design where the eye enters, how motion carries it, and where it lands. Quiet scenes should still have directional flow unless deliberate stillness is the point.
 
 ### MANUSCRIPT DETAILS
-Stay inside this scene summary and hook. Do not invent plot facts beyond the candidate. Visual hook: A dry comic town-arrival image: the painted KEST sign and NO PIGS IN EAST YARD notice in clear view, market pens beyond it, and one completely unbothered pig violating the rule.
+Stay inside this scene summary and hook. Do not invent plot facts beyond the candidate. Visual hook: Greg and the company wagon entering a chaotic fair-routing landscape of rope lanes, painted signs, carts, workers with sticks, livestock, and improvised directions before Dast itself is visible.
 
 ### CONTINUITY
 - Preserve manuscript-established age, body, clothing, props, and setting details.
@@ -51,6 +51,6 @@ Stay inside this scene summary and hook. Do not invent plot facts beyond the can
 
 ## Output target
 
-- Prompt pack: `state/visual/prompt-packs/ch164-kest-pig-sign.md`
-- Suggested asset id: `ch164-kest-pig-sign-v1`
-- Suggested live chapter folder: `visual/chapter_art/164/`
+- Prompt pack: `state/visual/prompt-packs/ch167-dast-arrival-traffic.md`
+- Suggested asset id: `ch167-dast-arrival-traffic-v1`
+- Suggested live chapter folder: `visual/chapter_art/167/`

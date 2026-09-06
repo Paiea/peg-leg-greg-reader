@@ -454,7 +454,7 @@
     },
     "continuity_notes": "Keep style consistent with accepted PLG artwork. Prefer above-waist Greg framing and avoid unnecessary lower-body visibility unless the manuscript moment materially requires it. Match recurring characters to supplied reference assets and appearance notes.",
     "prompt_pack": "state/visual/prompt-packs/ch158-letter-lyssa.md",
-    "paragraph_anchor": "I bought paper.",
+    "paragraph_anchor": "The paper seller sanded the letter, folded it, tied it, and wrote CARROW on the outside.",
     "anchor_status": "valid",
     "target_asset": "visual/chapter_art/158/ch158-letter-lyssa-v1.webp",
     "coverage_before": 0,
@@ -490,7 +490,10 @@
     "character_reference_assets": [
       "assets/book-role-cards/book-ii-stagehand-177.webp",
       "assets/book-role-cards/book-i-warrior-005.webp",
-      "visual/homepage/peg-leg-greg-homepage-frontispiece.png"
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
+      "visual/chapter_art/040/v45_c40_pell-vessa-workshop.png",
+      "visual/chapter_art/002/v28_c02_s02_pell-takes-interest.png",
+      "visual/chapter_art/003/v28_c03_s01_cart-too-much-shale.png"
     ],
     "selected_character_references": [
       {
@@ -596,21 +599,120 @@
         "diversity_adjustment": 0,
         "diversity_notes": [],
         "selection_score": 83
+      },
+      {
+        "character": "Pell",
+        "asset": "visual/chapter_art/040/v45_c40_pell-vessa-workshop.png",
+        "registry_id": "legacy-ch040-1ec90d8456",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [
+          "workshop"
+        ],
+        "tags": [
+          "identity_explicit",
+          "single_character_anchor"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 70,
+        "score": 70,
+        "reasons": [
+          "live",
+          "close-enough fit",
+          "character named in accepted-art metadata",
+          "single-character identity anchor"
+        ],
+        "penalties": [
+          "legacy style"
+        ],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 70
+      },
+      {
+        "character": "Pell",
+        "asset": "visual/chapter_art/002/v28_c02_s02_pell-takes-interest.png",
+        "registry_id": "legacy-ch002-29f618d4b8",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [],
+        "tags": [
+          "identity_explicit"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 62,
+        "score": 62,
+        "reasons": [
+          "live",
+          "close-enough fit",
+          "character named in accepted-art metadata"
+        ],
+        "penalties": [
+          "legacy style"
+        ],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 62
+      },
+      {
+        "character": "Pell",
+        "asset": "visual/chapter_art/003/v28_c03_s01_cart-too-much-shale.png",
+        "registry_id": "legacy-ch003-ff9ee06df3",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [
+          "workshop"
+        ],
+        "tags": [
+          "identity_explicit"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 62,
+        "score": 62,
+        "reasons": [
+          "live",
+          "close-enough fit",
+          "character named in accepted-art metadata"
+        ],
+        "penalties": [
+          "legacy style"
+        ],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 62
       }
     ],
     "character_reference_scores": {
       "assets/book-role-cards/book-ii-stagehand-177.webp": 123,
       "assets/book-role-cards/book-i-warrior-005.webp": 83,
-      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83,
+      "visual/chapter_art/040/v45_c40_pell-vessa-workshop.png": 70,
+      "visual/chapter_art/002/v28_c02_s02_pell-takes-interest.png": 62,
+      "visual/chapter_art/003/v28_c03_s01_cart-too-much-shale.png": 62
     },
-    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 123, selected 123; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity, scene context match) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor)",
+    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 123, selected 123; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity, scene context match) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Pell: visual/chapter_art/040/v45_c40_pell-vessa-workshop.png (base 70, selected 70; live, close-enough fit, character named in accepted-art metadata, single-character identity anchor; penalties/selection notes: legacy style) | Pell: visual/chapter_art/002/v28_c02_s02_pell-takes-interest.png (base 62, selected 62; live, close-enough fit, character named in accepted-art metadata; penalties/selection notes: legacy style) | Pell: visual/chapter_art/003/v28_c03_s01_cart-too-much-shale.png (base 62, selected 62; live, close-enough fit, character named in accepted-art metadata; penalties/selection notes: legacy style)",
     "character_appearance_notes": {
       "Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility.",
       "Pell": "Recurring theatre-company member closely associated with props, packing, and practical stage work. Preserve recognizable continuity with accepted art and his hands-on working presence. Do not invent unsupported precise facial features as fixed canon."
     },
     "continuity_notes": "Keep style consistent with accepted PLG artwork. Prefer above-waist Greg framing and avoid unnecessary lower-body visibility unless the manuscript moment materially requires it. Match recurring characters to supplied reference assets and appearance notes.",
     "prompt_pack": "state/visual/prompt-packs/ch159-fish-rescue.md",
-    "paragraph_anchor": "He was under the stage.",
+    "paragraph_anchor": "We found the fish wedged behind a support where someone had pushed it with a boot.",
     "anchor_status": "valid",
     "target_asset": "visual/chapter_art/159/ch159-fish-rescue-v1.webp",
     "coverage_before": 0,
@@ -804,7 +906,10 @@
     "character_reference_assets": [
       "assets/book-role-cards/book-ii-stagehand-177.webp",
       "assets/book-role-cards/book-i-warrior-005.webp",
-      "visual/homepage/peg-leg-greg-homepage-frontispiece.png"
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
+      "visual/chapter_art/040/v45_c40_pell-vessa-workshop.png",
+      "visual/chapter_art/002/v28_c02_s02_pell-takes-interest.png",
+      "visual/chapter_art/003/v28_c03_s01_cart-too-much-shale.png"
     ],
     "selected_character_references": [
       {
@@ -908,14 +1013,113 @@
         "diversity_adjustment": 0,
         "diversity_notes": [],
         "selection_score": 83
+      },
+      {
+        "character": "Pell",
+        "asset": "visual/chapter_art/040/v45_c40_pell-vessa-workshop.png",
+        "registry_id": "legacy-ch040-1ec90d8456",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [
+          "workshop"
+        ],
+        "tags": [
+          "identity_explicit",
+          "single_character_anchor"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 70,
+        "score": 70,
+        "reasons": [
+          "live",
+          "close-enough fit",
+          "character named in accepted-art metadata",
+          "single-character identity anchor"
+        ],
+        "penalties": [
+          "legacy style"
+        ],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 70
+      },
+      {
+        "character": "Pell",
+        "asset": "visual/chapter_art/002/v28_c02_s02_pell-takes-interest.png",
+        "registry_id": "legacy-ch002-29f618d4b8",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [],
+        "tags": [
+          "identity_explicit"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 62,
+        "score": 62,
+        "reasons": [
+          "live",
+          "close-enough fit",
+          "character named in accepted-art metadata"
+        ],
+        "penalties": [
+          "legacy style"
+        ],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 62
+      },
+      {
+        "character": "Pell",
+        "asset": "visual/chapter_art/003/v28_c03_s01_cart-too-much-shale.png",
+        "registry_id": "legacy-ch003-ff9ee06df3",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [
+          "workshop"
+        ],
+        "tags": [
+          "identity_explicit"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 62,
+        "score": 62,
+        "reasons": [
+          "live",
+          "close-enough fit",
+          "character named in accepted-art metadata"
+        ],
+        "penalties": [
+          "legacy style"
+        ],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 62
       }
     ],
     "character_reference_scores": {
       "assets/book-role-cards/book-ii-stagehand-177.webp": 113,
       "assets/book-role-cards/book-i-warrior-005.webp": 83,
-      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83,
+      "visual/chapter_art/040/v45_c40_pell-vessa-workshop.png": 70,
+      "visual/chapter_art/002/v28_c02_s02_pell-takes-interest.png": 62,
+      "visual/chapter_art/003/v28_c03_s01_cart-too-much-shale.png": 62
     },
-    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 113, selected 113; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity, scene context match) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor)",
+    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 113, selected 113; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity, scene context match) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Pell: visual/chapter_art/040/v45_c40_pell-vessa-workshop.png (base 70, selected 70; live, close-enough fit, character named in accepted-art metadata, single-character identity anchor; penalties/selection notes: legacy style) | Pell: visual/chapter_art/002/v28_c02_s02_pell-takes-interest.png (base 62, selected 62; live, close-enough fit, character named in accepted-art metadata; penalties/selection notes: legacy style) | Pell: visual/chapter_art/003/v28_c03_s01_cart-too-much-shale.png (base 62, selected 62; live, close-enough fit, character named in accepted-art metadata; penalties/selection notes: legacy style)",
     "character_appearance_notes": {
       "Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility.",
       "Nessa": "Recurring theatre-company wardrobe/costume worker. Preserve recognizable continuity with accepted art, especially her practical work presence and costume-handling scenes. Do not invent unsupported precise facial features as fixed canon.",
@@ -1377,7 +1581,7 @@
     },
     "continuity_notes": "Keep style consistent with accepted PLG artwork. Prefer above-waist Greg framing and avoid unnecessary lower-body visibility unless the manuscript moment materially requires it. Match recurring characters to supplied reference assets and appearance notes.",
     "prompt_pack": "state/visual/prompt-packs/ch164-kest-pig-sign.md",
-    "paragraph_anchor": "A pig stood in the east yard.",
+    "paragraph_anchor": "Below that, someone had written: NO PIGS IN EAST YARD.",
     "anchor_status": "valid",
     "target_asset": "visual/chapter_art/164/ch164-kest-pig-sign-v1.webp",
     "coverage_before": 0,
@@ -1535,6 +1739,994 @@
     "paragraph_anchor": "Then a goat put its head through the fence behind me and bit the bottom corner of the mounting cloth.",
     "anchor_status": "valid",
     "target_asset": "visual/chapter_art/165/ch165-goat-theft-v1.webp",
+    "coverage_before": 0,
+    "status": "generation_ready"
+  },
+  {
+    "candidate_id": "ch166-firelight-cloth",
+    "chapter": 166,
+    "chapter_title": "THE ROADHAND",
+    "kind": "chapter_illustration",
+    "priority": "high",
+    "fit_target": "exact",
+    "spoiler_level": "low",
+    "scene_summary": "At the road camp after Kest, Nessa repairs the goat-chewed mounting cloth by firelight while Pell holds the damaged corner and the rest of the company settles into an ordinary no-performance night.",
+    "visual_hook": "Nessa working the damaged mounting cloth in warm firelight with Pell holding the corner, road camp and sleeping wagons behind them, while Greg watches from the edge of the work circle.",
+    "characters": [
+      "Greg",
+      "Nessa",
+      "Pell"
+    ],
+    "location": "roadside camp beside the company wagons",
+    "mood": "quiet work, dry comedy, road-worn warmth",
+    "scene_tags": [
+      "road_camp",
+      "costume",
+      "repair",
+      "work",
+      "firelight",
+      "travel"
+    ],
+    "style_family": "sketch-ink-paint",
+    "framing_preference": "above_waist",
+    "camera_angle": "",
+    "pose_family": "repair_work",
+    "character_reference_assets": [
+      "assets/book-role-cards/book-ii-stagehand-177.webp",
+      "assets/book-role-cards/book-i-warrior-005.webp",
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
+      "visual/chapter_art/040/v45_c40_pell-vessa-workshop.png",
+      "visual/chapter_art/002/v28_c02_s02_pell-takes-interest.png",
+      "visual/chapter_art/003/v28_c03_s01_cart-too-much-shale.png"
+    ],
+    "selected_character_references": [
+      {
+        "character": "Greg",
+        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
+        "status": "manual",
+        "source": "manual",
+        "framing": "above_waist",
+        "view_angle": "three_quarter",
+        "pose_family": "working",
+        "scene_tags": [
+          "backstage",
+          "theatre",
+          "work"
+        ],
+        "tags": [
+          "curated",
+          "above_waist",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 113,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor",
+          "above-waist Greg continuity",
+          "scene context match"
+        ],
+        "penalties": [],
+        "scene_matches": [
+          "work"
+        ],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 113
+      },
+      {
+        "character": "Greg",
+        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
+        "status": "manual",
+        "source": "manual",
+        "pose_family": "role_card",
+        "scene_tags": [
+          "role_card",
+          "warrior",
+          "character_anchor"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
+        ],
+        "penalties": [],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 83
+      },
+      {
+        "character": "Greg",
+        "asset": "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
+        "status": "manual",
+        "source": "manual",
+        "pose_family": "portrait_anchor",
+        "scene_tags": [
+          "frontispiece",
+          "portrait"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
+        ],
+        "penalties": [],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 83
+      },
+      {
+        "character": "Pell",
+        "asset": "visual/chapter_art/040/v45_c40_pell-vessa-workshop.png",
+        "registry_id": "legacy-ch040-1ec90d8456",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [
+          "workshop"
+        ],
+        "tags": [
+          "identity_explicit",
+          "single_character_anchor"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 70,
+        "score": 70,
+        "reasons": [
+          "live",
+          "close-enough fit",
+          "character named in accepted-art metadata",
+          "single-character identity anchor"
+        ],
+        "penalties": [
+          "legacy style"
+        ],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 70
+      },
+      {
+        "character": "Pell",
+        "asset": "visual/chapter_art/002/v28_c02_s02_pell-takes-interest.png",
+        "registry_id": "legacy-ch002-29f618d4b8",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [],
+        "tags": [
+          "identity_explicit"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 62,
+        "score": 62,
+        "reasons": [
+          "live",
+          "close-enough fit",
+          "character named in accepted-art metadata"
+        ],
+        "penalties": [
+          "legacy style"
+        ],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 62
+      },
+      {
+        "character": "Pell",
+        "asset": "visual/chapter_art/003/v28_c03_s01_cart-too-much-shale.png",
+        "registry_id": "legacy-ch003-ff9ee06df3",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [
+          "workshop"
+        ],
+        "tags": [
+          "identity_explicit"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 62,
+        "score": 62,
+        "reasons": [
+          "live",
+          "close-enough fit",
+          "character named in accepted-art metadata"
+        ],
+        "penalties": [
+          "legacy style"
+        ],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 62
+      }
+    ],
+    "character_reference_scores": {
+      "assets/book-role-cards/book-ii-stagehand-177.webp": 113,
+      "assets/book-role-cards/book-i-warrior-005.webp": 83,
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83,
+      "visual/chapter_art/040/v45_c40_pell-vessa-workshop.png": 70,
+      "visual/chapter_art/002/v28_c02_s02_pell-takes-interest.png": 62,
+      "visual/chapter_art/003/v28_c03_s01_cart-too-much-shale.png": 62
+    },
+    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 113, selected 113; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity, scene context match) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Pell: visual/chapter_art/040/v45_c40_pell-vessa-workshop.png (base 70, selected 70; live, close-enough fit, character named in accepted-art metadata, single-character identity anchor; penalties/selection notes: legacy style) | Pell: visual/chapter_art/002/v28_c02_s02_pell-takes-interest.png (base 62, selected 62; live, close-enough fit, character named in accepted-art metadata; penalties/selection notes: legacy style) | Pell: visual/chapter_art/003/v28_c03_s01_cart-too-much-shale.png (base 62, selected 62; live, close-enough fit, character named in accepted-art metadata; penalties/selection notes: legacy style)",
+    "character_appearance_notes": {
+      "Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility.",
+      "Nessa": "Recurring theatre-company wardrobe/costume worker. Preserve recognizable continuity with accepted art, especially her practical work presence and costume-handling scenes. Do not invent unsupported precise facial features as fixed canon.",
+      "Pell": "Recurring theatre-company member closely associated with props, packing, and practical stage work. Preserve recognizable continuity with accepted art and his hands-on working presence. Do not invent unsupported precise facial features as fixed canon."
+    },
+    "continuity_notes": "Keep style consistent with accepted PLG artwork. Prefer above-waist Greg framing and avoid unnecessary lower-body visibility unless the manuscript moment materially requires it. Match recurring characters to supplied reference assets and appearance notes.",
+    "prompt_pack": "state/visual/prompt-packs/ch166-firelight-cloth.md",
+    "paragraph_anchor": "After dark, Nessa worked on the chewed mounting cloth by firelight until she decided firelight was making the color worse and stopped.",
+    "anchor_status": "valid",
+    "target_asset": "visual/chapter_art/166/ch166-firelight-cloth-v1.webp",
+    "coverage_before": 0,
+    "status": "generation_ready"
+  },
+  {
+    "candidate_id": "ch167-dast-arrival-traffic",
+    "chapter": 167,
+    "chapter_title": "THE APPLICANT",
+    "kind": "chapter_illustration",
+    "priority": "high",
+    "fit_target": "exact",
+    "spoiler_level": "low",
+    "scene_summary": "Before the company can even see Dast properly, the harvest fair announces itself as a traffic problem: fields divided by rope and stakes, temporary signs, packed wagons, and workers redirecting everyone through multiple contradictory easts.",
+    "visual_hook": "Greg and the company wagon entering a chaotic fair-routing landscape of rope lanes, painted signs, carts, workers with sticks, livestock, and improvised directions before Dast itself is visible.",
+    "characters": [
+      "Greg",
+      "Marek",
+      "Davin"
+    ],
+    "location": "approach fields outside Dast harvest fair",
+    "mood": "busy, comic, overwhelming but practical",
+    "scene_tags": [
+      "fair",
+      "traffic",
+      "wagon",
+      "crowd",
+      "arrival",
+      "travel"
+    ],
+    "style_family": "sketch-ink-paint",
+    "framing_preference": "above_waist",
+    "camera_angle": "wide_environmental",
+    "pose_family": "arrival_observation",
+    "character_reference_assets": [
+      "assets/book-role-cards/book-ii-stagehand-177.webp",
+      "assets/book-role-cards/book-i-warrior-005.webp",
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png"
+    ],
+    "selected_character_references": [
+      {
+        "character": "Greg",
+        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
+        "status": "manual",
+        "source": "manual",
+        "framing": "above_waist",
+        "view_angle": "three_quarter",
+        "pose_family": "working",
+        "scene_tags": [
+          "backstage",
+          "theatre",
+          "work"
+        ],
+        "tags": [
+          "curated",
+          "above_waist",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 103,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor",
+          "above-waist Greg continuity"
+        ],
+        "penalties": [],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 103
+      },
+      {
+        "character": "Greg",
+        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
+        "status": "manual",
+        "source": "manual",
+        "pose_family": "role_card",
+        "scene_tags": [
+          "role_card",
+          "warrior",
+          "character_anchor"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
+        ],
+        "penalties": [],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 83
+      },
+      {
+        "character": "Greg",
+        "asset": "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
+        "status": "manual",
+        "source": "manual",
+        "pose_family": "portrait_anchor",
+        "scene_tags": [
+          "frontispiece",
+          "portrait"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
+        ],
+        "penalties": [],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 83
+      }
+    ],
+    "character_reference_scores": {
+      "assets/book-role-cards/book-ii-stagehand-177.webp": 103,
+      "assets/book-role-cards/book-i-warrior-005.webp": 83,
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83
+    },
+    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 103, selected 103; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor)",
+    "character_appearance_notes": {
+      "Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility.",
+      "Marek": "Recurring theatre-company actor often associated with the King role. Preserve recognizable continuity with accepted art and distinguish stage-role presentation from ordinary travel/offstage presentation. Do not invent unsupported precise facial features as fixed canon."
+    },
+    "continuity_notes": "Keep style consistent with accepted PLG artwork. Prefer above-waist Greg framing and avoid unnecessary lower-body visibility unless the manuscript moment materially requires it. Match recurring characters to supplied reference assets and appearance notes.",
+    "prompt_pack": "state/visual/prompt-packs/ch167-dast-arrival-traffic.md",
+    "paragraph_anchor": "Fields on both sides of the road had been divided with rope, stakes, painted boards, and people holding sticks.",
+    "anchor_status": "valid",
+    "target_asset": "visual/chapter_art/167/ch167-dast-arrival-traffic-v1.webp",
+    "coverage_before": 0,
+    "status": "generation_ready"
+  },
+  {
+    "candidate_id": "ch168-cart-through-performance",
+    "chapter": 168,
+    "chapter_title": "THE PITCHMAN",
+    "kind": "chapter_illustration",
+    "priority": "high",
+    "fit_target": "exact",
+    "spoiler_level": "low",
+    "scene_summary": "During the north-arcade performance, a loading cart forces the actors and audience to break formation and make a lane through the show before the scene resumes as if this is normal.",
+    "visual_hook": "A fair cart cutting directly through the improvised performance lane while Marek, Serra, Greg-as-Sword, and the audience peel aside around cheese stalls, columns, wind, and loading traffic.",
+    "characters": [
+      "Greg",
+      "Marek",
+      "Serra"
+    ],
+    "location": "north arcade at Dast fair",
+    "mood": "kinetic, comic, improvisational",
+    "scene_tags": [
+      "fair",
+      "performance",
+      "cart",
+      "crowd",
+      "arcade",
+      "comedy",
+      "theatre"
+    ],
+    "style_family": "sketch-ink-paint",
+    "framing_preference": "above_waist",
+    "camera_angle": "",
+    "pose_family": "performance_interruption",
+    "character_reference_assets": [
+      "assets/book-role-cards/book-ii-stagehand-177.webp",
+      "assets/book-role-cards/book-i-warrior-005.webp",
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png"
+    ],
+    "selected_character_references": [
+      {
+        "character": "Greg",
+        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
+        "status": "manual",
+        "source": "manual",
+        "framing": "above_waist",
+        "view_angle": "three_quarter",
+        "pose_family": "working",
+        "scene_tags": [
+          "backstage",
+          "theatre",
+          "work"
+        ],
+        "tags": [
+          "curated",
+          "above_waist",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 113,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor",
+          "above-waist Greg continuity",
+          "scene context match"
+        ],
+        "penalties": [],
+        "scene_matches": [
+          "theatre"
+        ],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 113
+      },
+      {
+        "character": "Greg",
+        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
+        "status": "manual",
+        "source": "manual",
+        "pose_family": "role_card",
+        "scene_tags": [
+          "role_card",
+          "warrior",
+          "character_anchor"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
+        ],
+        "penalties": [],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 83
+      },
+      {
+        "character": "Greg",
+        "asset": "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
+        "status": "manual",
+        "source": "manual",
+        "pose_family": "portrait_anchor",
+        "scene_tags": [
+          "frontispiece",
+          "portrait"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
+        ],
+        "penalties": [],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 83
+      }
+    ],
+    "character_reference_scores": {
+      "assets/book-role-cards/book-ii-stagehand-177.webp": 113,
+      "assets/book-role-cards/book-i-warrior-005.webp": 83,
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83
+    },
+    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 113, selected 113; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity, scene context match) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor)",
+    "character_appearance_notes": {
+      "Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility.",
+      "Marek": "Recurring theatre-company actor often associated with the King role. Preserve recognizable continuity with accepted art and distinguish stage-role presentation from ordinary travel/offstage presentation. Do not invent unsupported precise facial features as fixed canon.",
+      "Serra": "Recurring theatre-company actor associated with the Princess role. Preserve recognizable continuity with accepted art while allowing clear stage/offstage clothing and expression changes. Do not invent unsupported precise facial features as fixed canon."
+    },
+    "continuity_notes": "Keep style consistent with accepted PLG artwork. Prefer above-waist Greg framing and avoid unnecessary lower-body visibility unless the manuscript moment materially requires it. Match recurring characters to supplied reference assets and appearance notes.",
+    "prompt_pack": "state/visual/prompt-packs/ch168-cart-through-performance.md",
+    "paragraph_anchor": "For several seconds the performance became a crowd making a lane.",
+    "anchor_status": "valid",
+    "target_asset": "visual/chapter_art/168/ch168-cart-through-performance-v1.webp",
+    "coverage_before": 0,
+    "status": "generation_ready"
+  },
+  {
+    "candidate_id": "ch169-standby-platform",
+    "chapter": 169,
+    "chapter_title": "THE STANDBY",
+    "kind": "chapter_illustration",
+    "priority": "high",
+    "fit_target": "exact",
+    "spoiler_level": "low",
+    "scene_summary": "Bellan suddenly gives the company a tiny opening between grain speeches, so Marek walks onto the west platform while the previous speaker is still leaving and the next speaker waits beside the stairs.",
+    "visual_hook": "A compressed fair-stage handoff: Marek stepping onto the west platform, Serra and Iven ready behind him, an annoyed grain speaker waiting at the stairs, and Greg off to the side with the collection bowl.",
+    "characters": [
+      "Greg",
+      "Marek",
+      "Serra",
+      "Iven"
+    ],
+    "location": "west platform at Dast fair",
+    "mood": "compressed, opportunistic, funny, professional",
+    "scene_tags": [
+      "fair",
+      "platform",
+      "performance",
+      "standby",
+      "crowd",
+      "theatre"
+    ],
+    "style_family": "sketch-ink-paint",
+    "framing_preference": "above_waist",
+    "camera_angle": "",
+    "pose_family": "stage_handoff",
+    "character_reference_assets": [
+      "assets/book-role-cards/book-ii-stagehand-177.webp",
+      "assets/book-role-cards/book-i-warrior-005.webp",
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png"
+    ],
+    "selected_character_references": [
+      {
+        "character": "Greg",
+        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
+        "status": "manual",
+        "source": "manual",
+        "framing": "above_waist",
+        "view_angle": "three_quarter",
+        "pose_family": "working",
+        "scene_tags": [
+          "backstage",
+          "theatre",
+          "work"
+        ],
+        "tags": [
+          "curated",
+          "above_waist",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 113,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor",
+          "above-waist Greg continuity",
+          "scene context match"
+        ],
+        "penalties": [],
+        "scene_matches": [
+          "theatre"
+        ],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 113
+      },
+      {
+        "character": "Greg",
+        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
+        "status": "manual",
+        "source": "manual",
+        "pose_family": "role_card",
+        "scene_tags": [
+          "role_card",
+          "warrior",
+          "character_anchor"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
+        ],
+        "penalties": [],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 83
+      },
+      {
+        "character": "Greg",
+        "asset": "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
+        "status": "manual",
+        "source": "manual",
+        "pose_family": "portrait_anchor",
+        "scene_tags": [
+          "frontispiece",
+          "portrait"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
+        ],
+        "penalties": [],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 83
+      }
+    ],
+    "character_reference_scores": {
+      "assets/book-role-cards/book-ii-stagehand-177.webp": 113,
+      "assets/book-role-cards/book-i-warrior-005.webp": 83,
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83
+    },
+    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 113, selected 113; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity, scene context match) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor)",
+    "character_appearance_notes": {
+      "Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility.",
+      "Marek": "Recurring theatre-company actor often associated with the King role. Preserve recognizable continuity with accepted art and distinguish stage-role presentation from ordinary travel/offstage presentation. Do not invent unsupported precise facial features as fixed canon.",
+      "Serra": "Recurring theatre-company actor associated with the Princess role. Preserve recognizable continuity with accepted art while allowing clear stage/offstage clothing and expression changes. Do not invent unsupported precise facial features as fixed canon.",
+      "Iven": "Recurring theatre-company actor. Preserve recognizable continuity with accepted art across rehearsal, performance, road, and lodging scenes. Do not invent unsupported precise facial features as fixed canon."
+    },
+    "continuity_notes": "Keep style consistent with accepted PLG artwork. Prefer above-waist Greg framing and avoid unnecessary lower-body visibility unless the manuscript moment materially requires it. Match recurring characters to supplied reference assets and appearance notes.",
+    "prompt_pack": "state/visual/prompt-packs/ch169-standby-platform.md",
+    "paragraph_anchor": "Marek walked onto the west platform while the fourth speaker was still leaving it.",
+    "anchor_status": "valid",
+    "target_asset": "visual/chapter_art/169/ch169-standby-platform-v1.webp",
+    "coverage_before": 0,
+    "status": "generation_ready"
+  },
+  {
+    "candidate_id": "ch170-goat-rope-queue",
+    "chapter": 170,
+    "chapter_title": "THE CHASER",
+    "kind": "chapter_illustration",
+    "priority": "high",
+    "fit_target": "exact",
+    "spoiler_level": "low",
+    "scene_summary": "While the company waits in a bridge-repair queue, a goat tied behind the next cart repeatedly follows Pell's attempts to move the rear wagon rope out of reach.",
+    "visual_hook": "Pell shifting the company wagon rope while a stubborn goat stretches after it again, with Greg watching, wagons queued toward the intact bridge, and repair workers carrying long rail timbers ahead.",
+    "characters": [
+      "Greg",
+      "Pell"
+    ],
+    "location": "wagon queue at a stone bridge under rail repair",
+    "mood": "ordinary-road comedy, patient, lived-in",
+    "scene_tags": [
+      "bridge",
+      "queue",
+      "wagon",
+      "goat",
+      "road",
+      "work",
+      "comedy",
+      "travel"
+    ],
+    "style_family": "sketch-ink-paint",
+    "framing_preference": "above_waist",
+    "camera_angle": "",
+    "pose_family": "roadside_problem_solving",
+    "character_reference_assets": [
+      "assets/book-role-cards/book-ii-stagehand-177.webp",
+      "assets/book-role-cards/book-i-warrior-005.webp",
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
+      "visual/chapter_art/040/v45_c40_pell-vessa-workshop.png",
+      "visual/chapter_art/002/v28_c02_s02_pell-takes-interest.png",
+      "visual/chapter_art/003/v28_c03_s01_cart-too-much-shale.png"
+    ],
+    "selected_character_references": [
+      {
+        "character": "Greg",
+        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
+        "status": "manual",
+        "source": "manual",
+        "framing": "above_waist",
+        "view_angle": "three_quarter",
+        "pose_family": "working",
+        "scene_tags": [
+          "backstage",
+          "theatre",
+          "work"
+        ],
+        "tags": [
+          "curated",
+          "above_waist",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 113,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor",
+          "above-waist Greg continuity",
+          "scene context match"
+        ],
+        "penalties": [],
+        "scene_matches": [
+          "work"
+        ],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 113
+      },
+      {
+        "character": "Greg",
+        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
+        "status": "manual",
+        "source": "manual",
+        "pose_family": "role_card",
+        "scene_tags": [
+          "role_card",
+          "warrior",
+          "character_anchor"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
+        ],
+        "penalties": [],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 83
+      },
+      {
+        "character": "Greg",
+        "asset": "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
+        "status": "manual",
+        "source": "manual",
+        "pose_family": "portrait_anchor",
+        "scene_tags": [
+          "frontispiece",
+          "portrait"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
+        ],
+        "penalties": [],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 83
+      },
+      {
+        "character": "Pell",
+        "asset": "visual/chapter_art/040/v45_c40_pell-vessa-workshop.png",
+        "registry_id": "legacy-ch040-1ec90d8456",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [
+          "workshop"
+        ],
+        "tags": [
+          "identity_explicit",
+          "single_character_anchor"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 70,
+        "score": 70,
+        "reasons": [
+          "live",
+          "close-enough fit",
+          "character named in accepted-art metadata",
+          "single-character identity anchor"
+        ],
+        "penalties": [
+          "legacy style"
+        ],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 70
+      },
+      {
+        "character": "Pell",
+        "asset": "visual/chapter_art/002/v28_c02_s02_pell-takes-interest.png",
+        "registry_id": "legacy-ch002-29f618d4b8",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [],
+        "tags": [
+          "identity_explicit"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 62,
+        "score": 62,
+        "reasons": [
+          "live",
+          "close-enough fit",
+          "character named in accepted-art metadata"
+        ],
+        "penalties": [
+          "legacy style"
+        ],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 62
+      },
+      {
+        "character": "Pell",
+        "asset": "visual/chapter_art/003/v28_c03_s01_cart-too-much-shale.png",
+        "registry_id": "legacy-ch003-ff9ee06df3",
+        "status": "live",
+        "approved_fit": "close_enough",
+        "style_family": "legacy-import",
+        "framing_preference": "",
+        "view_angle": "",
+        "pose_family": "",
+        "scene_tags": [
+          "workshop"
+        ],
+        "tags": [
+          "identity_explicit"
+        ],
+        "source": "auto-promoted",
+        "quality_score": 62,
+        "score": 62,
+        "reasons": [
+          "live",
+          "close-enough fit",
+          "character named in accepted-art metadata"
+        ],
+        "penalties": [
+          "legacy style"
+        ],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 62
+      }
+    ],
+    "character_reference_scores": {
+      "assets/book-role-cards/book-ii-stagehand-177.webp": 113,
+      "assets/book-role-cards/book-i-warrior-005.webp": 83,
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83,
+      "visual/chapter_art/040/v45_c40_pell-vessa-workshop.png": 70,
+      "visual/chapter_art/002/v28_c02_s02_pell-takes-interest.png": 62,
+      "visual/chapter_art/003/v28_c03_s01_cart-too-much-shale.png": 62
+    },
+    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 113, selected 113; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity, scene context match) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Pell: visual/chapter_art/040/v45_c40_pell-vessa-workshop.png (base 70, selected 70; live, close-enough fit, character named in accepted-art metadata, single-character identity anchor; penalties/selection notes: legacy style) | Pell: visual/chapter_art/002/v28_c02_s02_pell-takes-interest.png (base 62, selected 62; live, close-enough fit, character named in accepted-art metadata; penalties/selection notes: legacy style) | Pell: visual/chapter_art/003/v28_c03_s01_cart-too-much-shale.png (base 62, selected 62; live, close-enough fit, character named in accepted-art metadata; penalties/selection notes: legacy style)",
+    "character_appearance_notes": {
+      "Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility.",
+      "Pell": "Recurring theatre-company member closely associated with props, packing, and practical stage work. Preserve recognizable continuity with accepted art and his hands-on working presence. Do not invent unsupported precise facial features as fixed canon."
+    },
+    "continuity_notes": "Keep style consistent with accepted PLG artwork. Prefer above-waist Greg framing and avoid unnecessary lower-body visibility unless the manuscript moment materially requires it. Match recurring characters to supplied reference assets and appearance notes.",
+    "prompt_pack": "state/visual/prompt-packs/ch170-goat-rope-queue.md",
+    "paragraph_anchor": "Then a cart with two goats tied behind it joined after us and became our problem because one goat kept trying to eat the rear wagon rope.",
+    "anchor_status": "valid",
+    "target_asset": "visual/chapter_art/170/ch170-goat-rope-queue-v1.webp",
     "coverage_before": 0,
     "status": "generation_ready"
   },
