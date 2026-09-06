@@ -1,5 +1,5 @@
 {
-  "latest": 433,
+  "latest": 434,
   "chapters": [
     {
       "number": 100,
@@ -2004,6 +2004,12 @@
       "title": "THE VISITOR",
       "source": "checkpoint",
       "path": "433.html"
+    },
+    {
+      "number": 434,
+      "title": "THE GO-BETWEEN",
+      "source": "checkpoint",
+      "path": "434.html"
     }
   ]
 }
