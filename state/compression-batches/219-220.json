@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "batch": "219-220",
+  "status": "applied",
+  "strength": "aggressive-on-repeated-function-and-fragmentation",
+  "stable_id_actions": {
+    "plg-ch-000219": {
+      "status": "merged",
+      "surviving_beats": ["plg-ch-000220"],
+      "legacy_path": "219.html",
+      "display_renumbering": "deferred"
+    },
+    "plg-ch-000220": {
+      "status": "active",
+      "action": "absorbed_supplier-pressure-and-tightened-brown-coat-escalation"
+    }
+  },
+  "illustration_policy": "advisory hold; no prose or boundary protected by art state",
+  "protected": [
+    "Lyssa and Greg money texture after Vale payment",
+    "Olin supplier interference",
+    "Rinna buys oil despite pressure",
+    "Greg fronts one recorded company copper",
+    "oil man nickname",
+    "brown-coat man returns asking about cash and money storage",
+    "Olin gives no answers",
+    "boy sees man walking toward Mason's Cut but not entering",
+    "Rinna preserves bounded evidence",
+    "Greg does not pursue the man",
+    "Landlord role and Teren's one-word timing lesson"
+  ],
+  "cuts": [
+    "repeated Hessa-status inventory",
+    "repeated cart/chalk checks",
+    "duplicate supplier interrogation procedure",
+    "secondary repertory material not needed for escalation",
+    "repeated uncertainty inventories",
+    "duplicate home debriefing"
+  ]
+}
