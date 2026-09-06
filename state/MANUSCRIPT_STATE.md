@@ -1,220 +1,243 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 398 - **THE REPAIRMAN**.
+- Current exact story endpoint: Chapter 399 - **THE CROSSER**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript physically materialized through Chapter 248.
-- Exact Chapters 249-398 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
+- Exact Chapters 249-399 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
 - Titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
-- Ch398 answer: Greg is being **a repairman** in the broad identity sense. He does not personally repair every object; he spends the day keeping useful things useful: body, crutch, artifact, judgment, and restraint.
-- Therefore title **THE REPAIRMAN**.
-- Recent: 394 THE PRACTITIONER; 395 THE FIGHTER; 396 THE PATIENT; 397 THE CUSTOMER; 398 THE REPAIRMAN.
+- Ch399 answer: Greg is being **a crosser**. He physically crosses North Reach with current-body skill and restraint, then chooses to keep crossing the larger map north rather than treating the ridge as endpoint.
+- Therefore title **THE CROSSER**.
+- Recent: 395 THE FIGHTER; 396 THE PATIENT; 397 THE CUSTOMER; 398 THE REPAIRMAN; 399 THE CROSSER.
 
 ## Major arc direction - away from Carrow
 - Long away-from-Carrow adventure arc remains active and desired, potentially act/near-book length.
-- Crew remains at **Greyhook Rise** under North Reach weather hold.
+- Crew successfully crosses **North Reach** from Greyhook Rise during a green weather window and reaches **North Reach Station** on the north side.
 - Traveling core intact: **Vessa Harn, Maro Pell, Sori Vale, Dask Renn, Kel Toren, Greg**.
-- Greyhook is a wind-exposed work ridge with freight anchors/chains, three wind towers, repair sheds, route board, bunks, and limited worker market.
-- North Reach crossing may open at dawn/first bell if all tower strips agree for a full half bell.
-- Planned next movement: Greyhook crown -> North Reach shelf, ~1.75 miles exposed, anchor chain every ~30 paces, two wind shelters, one stair descent; no wagons. Mule line runs separate lower shelf.
+- New geography opens into high basin of dark grass/white stone ribs with **Lume River** farther north.
+- North Reach Station lead **Ira Fen** offers/authorizes operational extension because regional conditions justify continued observation.
+- Planned forward route if accepted: **North Reach Station -> Kettle Vale (~halfway) -> White Span / Lume River (~12 miles total road from station)**.
+- Crew chooses to continue north. Greg explicitly says `Then north.`
 - Keep geographic expansion active. Do not route back toward Carrow.
 
 ## Durable Greg character rule - reserve / normal mode / locked-in mode
 - Greg likes being viewed as competent but normally does not operate at maximum output because he usually does not need to.
 - First-life S-class history remains psychological reserve / retirement fund, not literal stored power.
-- Ch395 established first serious lock-in; Ch396 aftermath/patience; Ch397 ordinary buying judgment; Ch398 maintenance/repair competence and restraint.
-- Greg's current-body expertise remains his own earned competence.
-- `Enough` remains durable. Ch398 applies it through maintenance: not everything useful needs replacing or upgrading; sometimes keeping the current system sound is the correct move.
-- Locked mode does not recur in Ch398.
+- Ch395 serious lock-in remains last major spend of that mode.
+- Ch399 uses **current-body competence**, not locked mode:
+  - gust management with crutch triangle;
+  - allowing one crutch to unload briefly rather than panic-snatching for ground;
+  - shortening stride in upward curling gusts;
+  - choosing sideways stair descent based on shoulder/body constraints;
+  - taking full ten-breath recovery when Vessa orders it.
+- Greg recognizes first-life options but filters them through current-body reality without resentment spiral.
+- `Enough` remains durable.
 
-## Chapter 398 - THE REPAIRMAN
+## Chapter 399 - THE CROSSER
 
-### Rusk / crutch repair
-- Greg goes to Greyhook repair yard and meets **Rusk**:
-  - weathered older repair worker;
-  - short white beard;
-  - two missing fingertips left hand;
-  - practical craft speech.
-- Rusk inspects right crutch only after Greg hands it over.
-- Findings:
-  - deepest hound tooth groove penetrated finish, not working depth;
-  - wood shaft sound;
-  - no visible structural failure;
-  - hand grip/cuff/tip sound.
-- Repair plan:
-  - shallow resin fill in bite grooves;
-  - narrow reinforcement wrap around deepest mark;
-  - reseal shaft;
-  - no structural splice/replacement needed.
-- Because damage occurred during assignment field incident, Vessa classifies reasonable standard repair as assignment-covered.
-- **Greg spends no copper on repair.**
-- Rusk's line: avoid hitting dogs for two days; `plans attract dogs.`
-- After curing, Greg tests plant/weight/forward/back/twist. No creak/give; feels sound.
-- Crutch remains visibly repaired with dark resin + ~4-inch reinforcement wrap. Preserve residue.
+### Weather window opens
+- Greyhook tower 3 turns green before breakfast; all three towers remain green for required half bell.
+- Aven Ro opens North Reach route after half-bell agreement.
+- Crew conducts load/body checks.
+- Greg morning condition:
+  - shoulder improved but still sore, especially high/side lift;
+  - grip sore but functional;
+  - no numbness/new swelling;
+  - repaired right crutch plants/twists/weights soundly.
+- Vessa accepts Greg's `still probably` crossing assessment because nothing worsened.
 
-### Greyhook weather/work culture
-- Weather hold functions as active work environment, not idle waiting:
-  - freight crews card-play under chain awning;
-  - mule handlers argue salt blocks;
-  - tower operators inspect cloth strips, vanes, weighted cords;
-  - everything loose is tied because wind constantly works against people.
-- Aven Ro announces North Reach remains held because tower strips disagree.
-- Earliest window moves to morning.
-- Wind remains a real operational system, not decorative weather.
+### Crew prep / wind culture
+- Kel wears weighted scarf; Sori mocks it until gust hits her, then asks seller location.
+- Dask ties individual pencils to coat with small cords; Greg calls it `what fear looks like in a pencil`.
+- Quietener remains wrapped in Greg's bag with maintenance card/leads; no use/testing.
+- Green cloth route tags issued; north gate counts tags rather than faces.
+- Cases travel separately via lower mule shelf; crew carries personal loads + compact record case.
 
-### Quietener ownership / Dask consent growth
-- Dask brings Greg's newly bought line quietener still wrapped after Sori gives him Greg's bag.
-- He does not unwrap it.
-- Greg establishes possession/consent boundary.
-- Dask asks rather than assumes when later wanting to touch/inspect.
-- Crew does not ask Greg to re-enact fight or lock in for entertainment.
+### North Reach crossing grammar
+- North Reach is a narrow red-black ridge with large drops west/east.
+- Maintained path varies ~5-12 feet wide.
+- Heavy emergency anchor chains/posts roughly every ~30 paces; not ordinary railing.
+- Two stone wind shelters + exposed 23-step stair descent.
+- Route command order starts Maro, Kel, Greg, Sori, Dask, Vessa with spacing.
+- Wind strips sound away; conversation becomes difficult/impossible on exposed sections.
+- Greg handles first strong gust by keeping low stable triangle, letting right crutch unload briefly, then resetting rather than overcorrecting.
+- This is explicitly current-life/body expertise.
 
-### Tala Venn / bench authorization
-- Greyhook has a retired signal-hardware bench because local wind towers use short copper runs to local click boxes.
-- Yard foreman **Tala Venn** introduced:
-  - small, ~50;
-  - leather cap;
-  - one eye watering from wind;
-  - angry at tower-three west vane/lower weight setup;
-  - blunt craft authority.
-- Tala reads maintenance card and identifies quietener as old **West Locks pattern** from tiny district stamp.
-- She authorizes **bench-only** test:
-  - Bench 3;
-  - short copper;
-  - mechanical tone source;
-  - no field light;
-  - no active relay;
-  - no live line.
-- She calls quietener a `bad bell helper`; Dask hates the simplification.
+### Shelter one / gust front
+- Shelter one provides dramatic sound reduction but no supernatural effect.
+- Crew rests/waters.
+- Two isolated chain-bell rings indicate gust front passing Greyhook crown, not stop alarm.
+- Vessa waits two extra minutes for visible dust front to pass rather than racing window.
 
-### Quietener bench results
-- Bench setup:
-  - two pegs;
-  - copper line;
-  - mechanical striker box;
-  - receiving/listening plate;
-  - adjustable echo branch/loop.
-- Baseline with exaggerated short-delay echo produces strong main click + weaker delayed tick.
-- Quietener inserted using Greg's short bench leads:
-  - main signal remains audible;
-  - short-delay echo strongly reduced / nearly absent.
-- Tala then lowers main strike strength to demonstrate known downside:
-  - weak true strike becomes barely audible with quietener;
-  - confirms plate does not know `truth`, only signal shape/strength.
-- Longer-delay echo condition:
-  - quietener dampens it less than short-delay echo in one bench condition.
-- This is **new bounded evidence**, not universal law.
-- Dask wants large matrix of additional runs; Tala refuses because bench is for work.
-- Durable quietener evidence now:
-  - still performs basic intended retired function on short copper bench;
-  - strongly damps short-delay echo in demonstrated setup;
-  - also damps weak true signal significantly;
-  - one longer-delay echo was reduced less;
-  - no live-line behavior tested;
-  - no field-light/return-light/reactive-case/magic interaction claims.
+### Stair descent / physical residue
+- Next section has upward-curling gusts that unpredictably lighten crutch tips.
+- At exposed 23-step stair, Greg rejects several old-life fast descent options because current shoulder/body make them poor choices.
+- Chooses sideways descent toward wall:
+  - right foot down;
+  - left crutch lower;
+  - right crutch same level until transfer;
+  - slow/stable.
+- Right crutch skips ~0.5 inch on upward gust but catches stair lip; Greg freezes/reset/continues.
+- At bottom Greg asks six breaths; Vessa orders ten; Greg takes all ten.
+- Shoulder is used/sore but no new injury.
 
-### Artifact/collection logic
-- Greg likes quietener more after seeing its downside because constraint makes it interesting.
-- Tala says Greg `bought a problem`; Greg agrees.
-- Internal collection logic sharpened:
-  - interesting tools are often problems with shape;
-  - artifacts should have constraints and alter decisions, not just add power.
-- Greg wraps quietener after test and keeps ownership notes himself while allowing Dask to copy bench observations.
+### Shelter two / Roads workers
+- Shelter two occupied by two Roads workers repairing broken wind-strip frame.
+- Dask looks at frame, then asks permission before touching; owner says no; he accepts. Consent growth preserved.
+- Regional gossip has exaggerated Three Posts fight (`killed six/eight`); Greg corrects: killed none.
+- Roads worker reports:
+  - stronger crosswind after marker 40;
+  - one loose chain between 52-53, flagged blue, do not use;
+  - no significant debris, only `small grit. Nothing with ambition.`
+- Crew proceeds after bounded weather check.
 
-### Greyhook small market / restraint
-- Greyhook evening worker market includes:
-  - wind goggles;
-  - leather tie loops;
-  - weighted cloak hems;
-  - reinforced hook gloves;
-  - dried meat;
-  - eye oil;
-  - bent signal vanes as decoration.
-- Greg wants a bent signal vane decoration but buys nothing.
-- Kel buys weighted scarf; Sori mocks him until wind hits her, then wants seller location.
-- Greg remains at **15c**.
+### Dead-air pocket near marker 55
+- Final section has very strong even wind and hand-signal communication.
+- At marker ~47 wind briefly shifts east for ~3 breaths; no claim.
+- Crew avoids flagged loose chain 52-53.
+- At marker **55**, wind stops **completely for ~4 breaths** in exposed terrain:
+  - coats fall;
+  - scarf hangs dead;
+  - dust drops;
+  - crew stops automatically;
+  - no bell/alarm.
+- Wind returns from west sharply.
+- Vessa orders continued movement rather than investigation mid-ridge.
+- At north gate, worker **Holl Renn** says Reach gets `dead pockets` where wind folds wrong around stone:
+  - usually 1-2 breaths;
+  - 4 breaths longer, worth logging;
+  - tower crews record them;
+  - calls it weather, mechanism not resolved.
+- Do NOT automatically connect to false tones or magic.
+- Dask/Holl share surname; Holl preemptively says `No` before Dask can ask. No relation established.
 
-### Physical recovery / current state
-- Greg shoulder still sore; sitting can make it stiff.
-- He accepts Sori's arm for a few steps while one crutch is curing.
-- No pride spiral.
-- At chapter end shoulder is improving but not healed.
-- Vessa asks whether he can do North Reach crossing if weather opens.
-- Greg answers `probably`, conditional on morning shoulder reassessment.
-- Green-window crossing does **not** require one hand continuously on chain; emergency chain only.
-- Greg agrees to say no if probably becomes no.
+### North gate / basin expansion
+- Crew reaches north gate safely; all six green tags counted.
+- Greg shoulder now used/sore, hand sore, no new injury; repaired crutch remains sound.
+- North side geography:
+  - high basin;
+  - dark grass;
+  - white stone ribs;
+  - broad visible wind sheets;
+  - distant silver horizontal feature = Lume River region;
+  - low blue hills beyond.
+- Greg reflects that Carrow/Merecross/Bell Ford/Alder Basin/West Locks/Three Posts/Lark Spur/Greyhook are accumulating rather than replacing home.
+- Explicit emotional continuity: he wanted a door that did not lead home before dinner; world has obliged.
 
-### North Reach weather procedure
-- Greyhook has three wind towers with large slatted arms/weighted strips.
-- Crossing opens only when all tower strips agree for a full half bell.
-- Ch398 evening check:
-  - tower 1 green;
-  - tower 2 green;
-  - tower 3 red, then green;
-  - insufficient stable agreement.
-- Route remains held overnight.
-- Morning first-bell readiness requested because window may open at dawn.
+### Cases / North Reach Station
+- Mule cases arrive **48 minutes later** per Dask; no damage, one dusty seal, custody checked.
+- Crew descends ~0.5 mile to North Reach Station behind long white stone windbreak.
+- Station features:
+  - 2 bunkhouses;
+  - stable;
+  - signal mast;
+  - survey office;
+  - public cookhouse;
+  - proper bath facility.
+- Bath pricing:
+  - basic wash assignment/road crew covered;
+  - **hot basin 1c personal**.
+- Greg immediately wants hot bath due shoulder/hand/crossing.
+- Vessa requires briefing first, then bath.
+- **No bath purchase yet within Ch399**, so cash remains 15c at endpoint.
+
+### Ira Fen / new extension
+- North Reach Station lead **Ira Fen** introduced:
+  - thin woman;
+  - silver chin-length hair;
+  - ink on three fingers;
+  - speech sounds pre-edited/precise.
+- Ira logs 4-breath dead pocket as common enough but long enough to record.
+- Ira states Merecross requested observational continuity through North Reach, with discretion for extension if regional conditions justify.
+- Ira says they do.
+- She distinguishes regional observations without prematurely connecting:
+  - false tones West Locks;
+  - Three Posts arm drift;
+  - Greyhook dead pockets longer than seasonal average;
+  - **North basin has a different problem**.
+- Dask starts to connect; Ira says `Don't connect them yet.`
+
+### Lume River / wrong sunrise reflection
+- New north-basin phenomenon:
+  - **Lume River**;
+  - north road crosses at **White Span**;
+  - for **four mornings**, calm river has reflected sunrise from the **wrong direction** for several minutes;
+  - physical sun remains east;
+  - reflection appears west-facing on calm water;
+  - no observed heat change;
+  - no known navigation effect;
+  - local ferrymen hate it.
+- Treat as bounded observation, not proven relation to other anomalies.
+- White Span ~12 miles by road from North Reach Station.
+- **Kettle Vale** is halfway settlement; reachable next day if leaving first bell; White Span following day.
+
+### Crew chooses north
+- Ira offers two operational options:
+  1. remain North Reach one day for observations;
+  2. continue under extension along basin route.
+- Crew responses:
+  - Kel: road open;
+  - Maro: hasn't seen Lume in years;
+  - Sori: custody okay if station stamps extension;
+  - Dask wants river observation;
+  - Greg chooses continuation.
+- Greg's final priority joke: `Bath first.` Then when Vessa asks `Then?`, Greg answers **`Then north.`**
+- Chapter closes on identity: one ridge crossing becomes willingness to cross larger map.
 
 ## Economy
 - Greg begins **15c private cash**.
-- Crutch repair assignment-covered.
-- No purchases in Ch398.
+- No purchases completed in Ch399.
 - Ends **15c private cash**.
 - Vale remains **23c principal-equivalent**.
 - Bits unspecified.
-- Assignment covers travel/meals/lodging/standard field-damage repair.
+- Greg intends to buy **1c hot basin** after briefing, but purchase has not yet occurred in exact prose. Do not deduct until it happens.
 
 ## Magic / artifacts
 - Protocol ledger remains **59 minimal / 53 shaping / 135 external attempts**.
-- Greg performs **no deliberate magic** in Ch398.
-- Greg-owned line quietener:
-  - brass, palm-sized, 3 notches, black-slash retirement mark;
-  - West Locks pattern confirmed by tiny district stamp;
-  - known intended use: damp false/echo tone on short copper runs;
-  - known dangerous downside: can also suppress true weak tones;
-  - bench evidence Ch398 as above;
-  - personal hardware, not Survey field equipment;
-  - no live-line use without local line-owner authorization.
-- Right crutch now repaired/reinforced; not artifact.
-- Old hook/storm token near prior cart remains not Greg's.
+- Greg performs **no deliberate magic** in Ch399.
+- Line quietener remains wrapped/personal/bench-tested only; no live use.
+- Repaired right crutch remains structurally sound, visibly resin-filled/reinforced.
+- North Reach dead-air pocket is observed environmental phenomenon, not Greg artifact/magic.
 - Oval remains sealed Merecross Survey custody.
 - Holdfast/K-14-6/Three Reeds/Step Keeper remain locked Carrow.
 - Tavi rock remains with Greg.
 
 ## Greg social/internal movement
-- Ch398 returns Greg fully to normal mode after fight cluster.
-- Crew respects fight reveal without worship or performance requests.
-- Greg accepts repair expertise and help instead of replacing sound gear or proving self-sufficiency.
-- Artifact ownership begins creating maintenance/storage/testing discipline.
-- Greg increasingly enjoys collecting **bounded problems**, not generic upgrades.
+- Greg's competence is quiet and bodily, not lock-in spectacle.
+- He accepts ten breaths when ordered and does not hide shoulder cost.
+- Crew trusts him enough not to narrate every successful movement.
+- Greg's emotional map expands: new places accumulate without diminishing Carrow as home.
+- He actively chooses farther travel under legitimate assignment extension.
 
 ## Dialogue variance
-- Rusk: craft-worker brevity, practical metaphor/judgment.
-- Tala Venn: irritated foreman speech, blunt simplification, hard bench boundaries.
-- Aven Ro: loud operational declarations about weather hold.
-- Dask: still compulsive but increasingly consent-aware; wants experimental matrices.
-- Sori: ordinary teasing/support, offers arm without ceremony.
-- Kel: practical worker taste, buys weighted scarf.
+- Aven Ro: shouted operational declarations, no celebration until procedure complete.
+- Sori/Kel: scarf teasing with ordinary travel intimacy.
+- Dask: technical compulsions but growing discipline/consent; pencils literally tied down.
+- Maro: sparse terrain guidance + bad pastry lie.
+- Roads workers: practical regional speech; fight gossip exaggeration.
+- Holl Renn: dry route-worker dismissal; `weather` as enough-for-breakfast explanation.
+- Ira Fen: concise, pre-edited epistemic/operational precision; explicitly prevents premature connection.
 
 ## Recent role ledger
-- 394 THE PRACTITIONER
 - 395 THE FIGHTER
 - 396 THE PATIENT
 - 397 THE CUSTOMER
 - 398 THE REPAIRMAN
+- 399 THE CROSSER
 
 ## Protected uncertainties
-- Crew ends Ch398 at **Greyhook Rise** overnight under weather hold.
-- North Reach weather window may open at dawn/first bell, but not guaranteed.
-- Greg shoulder/right hand improving but still not fully healed.
-- Right crutch repaired/reinforced, functionally sound by bench/plant test; preserve visible repair.
-- Line quietener bench evidence is bounded; it does NOT solve false-tone network.
-- False tones/arm drift remain unresolved regional infrastructure phenomena.
-- Lower freight tunnel remains closed for collapse inspection unless later authority updates.
-- West shelf mule line remains cargo-oriented lower option.
-- Regional Three Posts fight gossip may continue unevenly but should not become fame loop.
+- Crew ends Ch399 at **North Reach Station**, not Greyhook.
+- North Reach crossed safely; weather behind may change independently.
+- 4-breath dead-air pocket near marker55 logged; mechanism unresolved.
+- Greg shoulder/right hand still sore after crossing, no new injury.
+- Repaired right crutch remains sound.
+- Greg intends 1c hot bath but has **not yet paid**; cash exact remains 15c.
+- Lume River wrong-direction sunrise reflection has occurred 4 mornings, several minutes, calm water, no heat/nav effect observed; cause unresolved.
+- Do NOT automatically merge Lume reflection with false tones/arm drift/dead pockets.
+- Crew chooses extension north toward Kettle Vale/White Span.
+- Line quietener remains unused on live infrastructure.
 - Full current-life high-end magical/combat ceiling remains unrevealed.
 - Harrow Fen remains future possible market/relay stop.
 - Oval remains sealed Merecross; cold-response meaning unresolved.
@@ -224,38 +247,39 @@
 ## Continuity issue
 - Ch360 1-bit lunch source remains unresolved. Do not invent. Copper exact **15c**.
 
-## Chapter 399 trailhead
-Follow next actual claim from Ch398/current authority.
+## Chapter 400 trailhead
+Follow next actual claim from Ch399/current authority.
 
 Greg begins **15c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**.
 
 Physical/timeline:
-- overnight / dawn at **Greyhook Rise**;
-- North Reach crossing may open first bell if all three tower strips agree for half bell;
-- crew ready to move immediately if window opens;
-- Greg shoulder/right hand still mildly sore, reassess before crossing;
-- repaired right crutch sound but visibly reinforced;
-- quietener wrapped, owned, bench-tested only.
+- daytime at **North Reach Station** after successful ridge crossing;
+- extension north chosen but likely station stamp/logistics needed;
+- Greg intends to purchase **1c hot basin** after briefing;
+- shoulder/right hand still sore, crossing has used them;
+- repaired right crutch sound;
+- quietener wrapped in bag.
 
 Strong movement:
-- If weather window opens, **cross North Reach early**. Do not spend another full chapter in Greyhook unless weather genuinely creates a new function.
-- Make exposed wind crossing materially different from prior Glass Cut/ropewalk/marsh routes: gust timing, body lean, anchor chains as emergency infrastructure, wind shelters, sound stripped away, load discipline.
-- Greg should use current-body competence and ordinary caution, not locked mode.
-- Physical recovery should continue gradually.
-- Quietener can stay packed unless local authorized use naturally arises; no need to force it.
-- Push into a genuinely new north-side geography or settlement after crossing if chapter room permits.
-- A new external problem can occur, but avoid another combat beat immediately.
-- Keep crew social texture alive in small choices.
+- Chapter 400 is a natural milestone. It does NOT need fireworks solely because number is round, but it can carry a satisfying sense of scale/earned distance.
+- Let Greg actually take the bath if next claim follows; deduct 1c only when paid. Ordinary-life pleasure matters.
+- Handle extension paperwork/logistics efficiently, then move toward **Kettle Vale** if timeline permits. Avoid spending full chapter at station unless new function emerges.
+- High basin should have new road grammar: dark grass, white stone ribs, long sightlines, wind sheets, Lume River drawing nearer.
+- Wrong-direction sunrise reflection should remain a destination/observation, not immediate explanation.
+- Crew now feels like a route crew. Let small habits carry without repeating all old jokes.
+- Physical recovery should continue, perhaps hot soak genuinely helps stiffness but does not heal injury instantly.
+- Greg may think about distance/home because Ch400 and map expansion make it organic, but do not become meta about chapter number.
+- Artifact/money choice can occur if earned, but no need to force.
 
 Avoid:
 - another fight immediately;
 - instant shoulder recovery;
-- weather chosen-one spectacle;
-- Greg becoming expedition commander by default;
-- quietener solving regional anomaly;
+- premature anomaly unification;
+- chosen-one framing;
+- turning round chapter number into in-world event;
 - immediate Carrow return.
 
-**MANDATORY TITLE CHECK CH399:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH400:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
