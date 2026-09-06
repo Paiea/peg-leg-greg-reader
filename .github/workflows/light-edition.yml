@@ -42,6 +42,7 @@ on:
       - 'scripts/build_approval_packet.py'
       - 'scripts/sync_scene_candidate_status.py'
       - 'scripts/score_character_references.py'
+      - 'scripts/backfill_character_reference_metadata.py'
       - 'scripts/promote_character_references.py'
       - 'scripts/audit_character_references.py'
       - 'scripts/tag_registry_characters.py'
@@ -95,6 +96,7 @@ jobs:
       - name: Process illustration production state
         run: |
           python scripts/import_legacy_illustrations.py
+          python scripts/backfill_character_reference_metadata.py
           python scripts/build_generation_queue.py
           python scripts/intake_generated_illustrations.py
           python scripts/apply_illustration_approvals.py
@@ -116,6 +118,7 @@ jobs:
         run: |
           python scripts/build_illustration_backlog.py
           python scripts/build_prompt_packs.py
+          python scripts/backfill_character_reference_metadata.py
           python scripts/tag_registry_characters.py
           python scripts/promote_character_references.py
           python scripts/audit_character_references.py
