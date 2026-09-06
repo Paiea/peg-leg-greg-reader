@@ -1,0 +1,49 @@
+name: Whole Book Compression Audit
+
+on:
+  push:
+    branches:
+      - editor/voice-compression-pass
+    paths:
+      - 'scripts/whole_book_compression_audit.py'
+      - 'tests/test_whole_book_compression_audit.py'
+      - 'chapters/**'
+      - 'publishing/chapter_identity_registry.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out audit branch
+        uses: actions/checkout@v4
+        with:
+          ref: editor/voice-compression-pass
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run audit tests
+        run: python -m unittest tests.test_whole_book_compression_audit
+
+      - name: Generate whole-book compression triage
+        run: python scripts/whole_book_compression_audit.py --root . --output publishing/whole_book_compression_audit.json
+
+      - name: Commit generated audit
+        run: |
+          REPORT='publishing/whole_book_compression_audit.json'
+          if [ -z "$(git status --porcelain -- $REPORT)" ]; then
+            echo 'Whole-book audit already current.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add $REPORT
+          git commit -m 'Refresh whole-book compression audit'
+          git push origin HEAD:editor/voice-compression-pass
