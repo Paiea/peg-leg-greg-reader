@@ -1,0 +1,56 @@
+name: Validate Showcase Canon
+
+on:
+  push:
+    branches:
+      - main
+      - 'reader/**'
+      - 'integration/**'
+      - 'publishing/**'
+    paths:
+      - 'publishing/showcase_chapters.json'
+      - 'scripts/showcase.py'
+      - 'scripts/generate_light.py'
+      - 'scripts/generate_illustrated.py'
+      - 'scripts/verify_light.py'
+      - 'scripts/reader_sections.py'
+      - 'scripts/update_home_contents.py'
+      - 'scripts/update_reader_navigation.py'
+      - 'scripts/project_check.py'
+      - 'tests/test_*.py'
+      - 'state/SHOWCASE_CANON.md'
+      - 'AGENTS.md'
+      - '.github/workflows/showcase-canon.yml'
+  pull_request:
+    paths:
+      - 'publishing/showcase_chapters.json'
+      - 'scripts/showcase.py'
+      - 'scripts/generate_light.py'
+      - 'scripts/generate_illustrated.py'
+      - 'scripts/verify_light.py'
+      - 'scripts/reader_sections.py'
+      - 'scripts/update_home_contents.py'
+      - 'scripts/update_reader_navigation.py'
+      - 'scripts/project_check.py'
+      - 'tests/test_*.py'
+      - 'state/SHOWCASE_CANON.md'
+      - 'AGENTS.md'
+      - '.github/workflows/showcase-canon.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Run repository unit tests
+        run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Validate Showcase manifest
+        run: python scripts/project_check.py showcase
