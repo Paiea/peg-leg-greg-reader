@@ -167,3 +167,5 @@ jobs:
           git add scripts/apply_chapter_role_titles.py scripts/docx_chapter_heading.py tests/test_chapter_role_title_integration.py tests/test_docx_chapter_heading.py .github/workflows/chapter-role-title-integration.yml state/manuscript state/MANUSCRIPT_CHAPTER_INDEX.md state/CHAPTER_TITLE_ROLE_AUDIT.md state/chapter-title-role-audit chapters light index.html light.html latest.html exports/notebooklm
           git commit -m 'Normalize chapter titles to Greg roles'
           git push origin HEAD:editor/chapter-title-role-integration
+
+# final rerun trigger
