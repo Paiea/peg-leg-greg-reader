@@ -4,9 +4,12 @@ on:
   push:
     branches:
       - integration/dialogue-ownership-live-001-020
+      - integration/dialogue-ownership-rewrite-001-020-current
     paths:
       - .github/workflows/dialogue-ownership-live-001-020.yml
       - scripts/apply_dialogue_ownership_semantic.py
+      - scripts/apply_dialogue_ownership_rewrite.py
+      - scripts/test_dialogue_ownership_rewrite.py
   workflow_dispatch:
 
 permissions:
@@ -18,21 +21,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: integration/dialogue-ownership-live-001-020
+          ref: ${{ github.ref_name }}
           fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - name: Regression examples
-        run: python scripts/apply_dialogue_ownership_semantic.py --self-test
+        run: |
+          python scripts/apply_dialogue_ownership_semantic.py --self-test
+          python scripts/test_dialogue_ownership_rewrite.py
       - name: Snapshot original chapters
         run: |
           mkdir -p /tmp/dialogue-before
           cp chapters/{001..020}.html /tmp/dialogue-before/
-      - name: Apply semantic ownership boundaries to convergence
+      - name: Apply ownership rewrite boundaries to convergence
         run: |
           for pass in 1 2 3 4; do
-            python scripts/apply_dialogue_ownership_semantic.py --start 1 --end 20
+            python scripts/apply_dialogue_ownership_rewrite.py --start 1 --end 20
           done
       - name: Verify prose preservation and HTML structure
         run: |
@@ -73,7 +78,5 @@ jobs:
             echo 'No changes to commit.'
             exit 0
           fi
-          git commit -m 'Publish semantic dialogue ownership cleanup through chapter 20'
+          git commit -m 'Publish dialogue ownership rewrite cleanup through chapter 20'
           git push
-
-# trigger clean current-main transplant
