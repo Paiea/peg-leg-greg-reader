@@ -170,12 +170,16 @@ def load_visual_reference(
     if reference is None:
         return None
     visual_reference = reference.get("visual_reference")
+    anchors = reference.get("result_scene_anchors")
     if not isinstance(visual_reference, dict) or not visual_reference:
+        return None
+    if not isinstance(anchors, list) or not anchors:
         return None
     return {
         "archive_path": reference["archive_path"],
         "chapter": chapter,
         "displayed_showcase_chapter": reference.get("displayed_showcase_chapter"),
+        "scene_anchors": list(anchors),
         "visual_reference": visual_reference,
     }
 
