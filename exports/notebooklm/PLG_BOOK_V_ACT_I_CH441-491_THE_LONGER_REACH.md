@@ -30031,11 +30031,11 @@ License or two references.
 
 One card:
 
-**TRANSFER SEAL WITNESS / EAST LANDING / 5C / HALF DAY / ONE DISTRICT FIELD REFERENCE / NO APPRAISAL AUTHORITY**
+**TRANSFER SEAL WITNESS / EAST LANDING / 2S / HALF DAY / ONE DISTRICT FIELD REFERENCE / NO APPRAISAL AUTHORITY**
 
 There.
 
-Five copper.
+Two silver.
 
 Half day.
 
@@ -30349,11 +30349,11 @@ The landing officer signed my completion slip.
 
 **TRANSFER SEAL WITNESS COMPLETED. RECORD ACCEPTED. NO SEAL BREAK DURING TRANSFER. ONE CRATE MOVED UNDER DISCREPANCY HOLD.**
 
-Five copper.
+Two silver.
 
-Ten to fifteen.
+My copper purse stayed ten.
 
-Still below thirty.
+The silver sat beside it as working capital.
 
 But purse was not the important part.
 
@@ -30431,11 +30431,11 @@ I did not write that down.
 
 Some jokes deserved mercy.
 
-Late afternoon, I had fifteen copper again.
+Late afternoon, I had ten copper and two silver.
 
-Five above floor.
+The old copper floor still existed.
 
-Same place I'd been before returning Lakeward archive.
+The new money sat above it in a different tier.
 
 If I judged only purse, today looked like repair work on my own bad financial decisions.
 
@@ -30539,15 +30539,15 @@ Morrow completion request sent.
 
 Bracken hazard timing notation secured, final pending.
 
-Transfer seal witness completed, +5c.
+Transfer seal witness completed, +2s.
 
 Second field verification secured.
 
 7c bonded discrepancy review application submitted.
 
-Cash 15c.
+Cash 10c + 2s.
 
-Thirty target unchanged.
+Reserve target now needs silver-scale recalibration.
 
 Then one last line.
 
@@ -30599,7 +30599,7 @@ That was the thought I woke up with.
 
 Not because seven copper was bad money.
 
-Yesterday five copper for half a day had felt like proof that I could climb out of the one-copper, two-copper sludge I'd been treating as normal.
+Yesterday two silver for half a day had felt like proof that trusted work could finally move above the one-copper, two-copper sludge I'd been treating as normal.
 
 Seven was better.
 
@@ -31455,7 +31455,7 @@ I just wasn't interested in proving it forever.
 
 The legal way to Cinder Cross cost five copper.
 
-The illegal way paid six.
+The illegal way paid enough silver to make the risk an actual decision.
 
 That was not how the morning started.
 
@@ -31463,7 +31463,7 @@ The morning started with me standing at Lakeward east freight board pretending I
 
 Fifteen copper.
 
-Twenty-three with Vale.
+Vale still open.
 
 Ten-copper floor.
 
@@ -31603,7 +31603,7 @@ There.
 
 "Sale price?"
 
-"One silver for the whole mixed load if he takes it as listed."
+"Forty-eight silver for the whole mixed load if he takes it as listed."
 
 There it was.
 
@@ -31769,11 +31769,11 @@ I liked him.
 
 She swore.
 
-Then said, "One copper extra if it clears."
+Then said, "Two silver extra if it clears."
 
-He said, "Two."
+He said, "Four."
 
-"One."
+"Three."
 
 "Then take your own wagon."
 
@@ -31781,7 +31781,7 @@ She looked at me as if this were my fault.
 
 It was a little.
 
-"One and six bits."
+"Four silver."
 
 He considered.
 
@@ -31793,7 +31793,7 @@ Now my turn.
 
 "What are you offering me?"
 
-"Ride east. Three copper if buyer takes full load."
+"Ride east. Six silver if buyer takes full load."
 
 "No."
 
@@ -31805,21 +31805,21 @@ Driver laughed.
 
 She did not.
 
-"Four."
+"Eight."
 
-"Six."
+"Twelve."
 
 "Absolutely not."
 
-"Your sale is one silver and misses window if you wait legal release. I am not asking percentage because we don't have a conversion I trust and I'm not pretending we do. Six copper plus ride if buyer accepts full load. Two copper plus ride if he rejects route lots but takes remainder because my screening helped preserve sale. Zero if I materially misrepresent what I know."
+"Your sale is forty-eight silver and misses window if you wait legal release. Twelve silver plus ride if buyer accepts full load. Eight silver plus ride if he rejects the marked route lot but takes the remainder because my screening helps preserve the sale. Zero if I materially misrepresent what I know."
 
-"Four full. One partial."
+"Ten full. Six partial."
 
-"Five full. Two partial."
+"Twelve full. Eight partial."
 
 She looked at driver.
 
-He said, "Pay him five so we can leave."
+He said, "Pay him twelve so we can leave."
 
 "Nobody asked you."
 
@@ -31827,7 +31827,7 @@ He said, "Pay him five so we can leave."
 
 Support network forming beautifully.
 
-"Five," she said. "Ride included."
+"Twelve full. Eight partial," she said. "Ride included."
 
 "And I do not lie about provenance to buyer."
 
@@ -31861,9 +31861,9 @@ Knowingly illegal.
 
 Morally acceptable enough by my current information.
 
-Five copper upside.
+Twelve silver upside if the whole load cleared.
 
-Free five-copper ride.
+Ride included.
 
 Potential confiscation, fine, charge, damaged relationship with Lakeward road offices.
 
@@ -31999,9 +31999,9 @@ No one asked about pre-merger export release.
 
 We rolled through.
 
-Five copper saved.
+Five copper fare avoided.
 
-Five copper potentially earned.
+Twelve silver potentially earned.
 
 No lightning bolt from ethics.
 
@@ -32139,7 +32139,7 @@ Professionally.
 
 Then he looked at seller.
 
-"One silver was for clean paper."
+"Forty-eight silver was for clean paper."
 
 Ah.
 
@@ -32227,21 +32227,21 @@ The marked Three Rays lot stayed with seller, still sealed after inspection? It 
 
 So not full-load acceptance.
 
-My contract said two copper if buyer rejected route lots but took remainder because my screening helped preserve sale.
+My contract said eight silver if buyer rejected the marked route lot but took the remainder because my screening helped preserve the sale.
 
 That was what happened.
 
-Two copper.
+Eight silver.
 
-Plus free ride worth five.
+Plus the ride.
 
-Not five cash.
+Not the full twelve.
 
 Not nothing.
 
-Freight woman paid two.
+Freight woman paid eight silver.
 
-Fifteen to seventeen.
+My copper purse stayed fifteen.
 
 Then buyer stopped me before I left.
 
@@ -32315,11 +32315,11 @@ Dangerous sentence.
 
 I went to Cinder Cross lodging board.
 
-One copper floor.
+One copper lodging.
 
-Seventeen to sixteen.
+Fifteen to fourteen copper.
 
-Still six above survival floor after arriving east.
+Eight silver stayed eight silver.
 
 If I had taken normal cart, I would have arrived with ten.
 
@@ -32361,9 +32361,9 @@ Clean lots sold.
 
 Marked route lot rejected pending paper or discount.
 
-My fee: 2c + transport.
+My fee: 8s + transport.
 
-Cash: 17 before lodging, 16 after.
+Cash: 8s + 14c after lodging.
 
 Then:
 
@@ -32407,9 +32407,9 @@ One road.
 
 Two markets.
 
-Six copper better than legal baseline.
+Five copper of fare avoided and eight silver earned on a legally exposed transaction.
 
-Silver-scale goods beginning to move around me.
+The scale had changed.
 
 This felt less like climbing a ladder.
 
@@ -32429,7 +32429,7 @@ It had not become a goat shed.
 
 It had become three sheds, two kilns, one leaning drying house, and a yard full of cut reed frames that looked like somebody had tried to build a fence out of bad decisions.
 
-I stood at the west gate with sixteen copper, twenty-three still with Vale, one Lakeward specification, and exactly enough confidence to be irritating.
+I stood at the west gate with fourteen copper, eight silver, Vale still open, one Lakeward specification folded inside notebook, and exactly enough confidence to be irritating.
 
 A woman in a leather apron looked at me through the gate.
 
@@ -33153,7 +33153,7 @@ Now I was taking bounded risk.
 
 One copper.
 
-Potential five-copper commission if landed terms beat north quote materially.
+Potential two-silver commission if landed terms beat north quote materially.
 
 Also market relationship.
 
@@ -33333,7 +33333,7 @@ Worth it.
 
 Message:
 
-**EAST FEN CAN OFFER 6 FUNCTIONALLY MATCHED BUNDLES SUBJECT FINAL THIRD-DAY PASS. 4 DRY PASS NOW. 2 COLOR-REJECT OVERAGE CURRENTLY DRYING, COLOR ONLY OUTSIDE PRIOR CUSTOMER PREFERENCE. EARLIEST CINDER FOURTH MORNING. COVERED SLAT BACKHAUL AVAILABLE SAME MORNING. SELLER ASK + CARRIER QUOTE ATTACHED. I HAVE NOT COMMITTED BUYER OR SELLER. CONFIRM WHETHER LANDED TERMS QUALIFY 3C OR 5C INTRODUCTION CONDITION IF FINAL INSPECTION PASSES.**
+**EAST FEN CAN OFFER 6 FUNCTIONALLY MATCHED BUNDLES SUBJECT FINAL THIRD-DAY PASS. 4 DRY PASS NOW. 2 COLOR-REJECT OVERAGE CURRENTLY DRYING, COLOR ONLY OUTSIDE PRIOR CUSTOMER PREFERENCE. EARLIEST CINDER FOURTH MORNING. COVERED SLAT BACKHAUL AVAILABLE SAME MORNING. SELLER ASK + CARRIER QUOTE ATTACHED. I HAVE NOT COMMITTED BUYER OR SELLER. CONFIRM WHETHER LANDED TERMS QUALIFY 1S OR 2S INTRODUCTION CONDITION IF FINAL INSPECTION PASSES.**
 
 Then I waited.
 
@@ -33565,11 +33565,11 @@ Let capable people do their jobs.
 
 The wagon left.
 
-I had fourteen copper.
+I had twelve copper and eight silver.
 
-Five-copper commission pending, not earned yet.
+Two-silver commission pending, not earned yet.
 
-Twenty-three with Vale.
+Vale still open.
 
 Bits unspecified.
 
@@ -33737,11 +33737,11 @@ Cinder Cross Tool House opened before breakfast had finished becoming breakfast.
 
 The front doors were still barred when I arrived, but the yard gate stood open because freight apparently had different religious beliefs about morning.
 
-I had fourteen copper.
+I had twelve copper and eight silver.
 
-Twenty-three still with Vale.
+Vale still open.
 
-Five copper possibly traveling toward me from Lakeward if six bundles of reed glass survived a road, an inspection, and at least one person with authority finding a reason to be difficult.
+Two silver possibly traveling toward me from Lakeward if six bundles of reed glass survived a road, an inspection, and at least one person with authority finding a reason to be difficult.
 
 I did not count it.
 
@@ -33935,7 +33935,7 @@ Silence.
 
 Important question.
 
-Buyer said, "Two copper."
+Buyer said, "Three silver."
 
 I laughed.
 
@@ -33949,11 +33949,11 @@ He did not.
 
 "It makes your shoulder less relevant."
 
-"Three copper."
+"Five silver."
 
-"Two."
+"Three."
 
-"If the long frame clears west bay before second bell and nothing gets put in the wrong place, four."
+"If the long frame clears west bay before second bell and nothing gets put in the wrong place, five."
 
 He squinted.
 
@@ -33973,9 +33973,9 @@ Buyer looked at him.
 
 Then me.
 
-"Three if everything clears."
+"Four if everything clears."
 
-"Four if frame clears west bay and receiving record closes before second bell. Two if we finish later but clean."
+"Five if frame clears west bay and receiving record closes before second bell. Three if we finish later but clean."
 
 The broad South Chain woman barked a laugh.
 
@@ -33985,7 +33985,7 @@ The broad South Chain woman barked a laugh.
 
 She did not.
 
-"Four," buyer said. "No injuries."
+"Five," buyer said. "No injuries."
 
 "That's not a fee condition. That's a baseline."
 
@@ -34681,11 +34681,11 @@ Nobody applauded.
 
 Excellent.
 
-Buyer gave me four copper.
+Buyer counted five silver into my hand.
 
-Fourteen to eighteen.
+I still had twelve copper. Silver moved from eight to thirteen.
 
-I counted because transaction required counting, not because eighteen copper had become a spiritual condition.
+I counted because transaction required counting, not because thirteen silver had become a spiritual condition.
 
 He said, "You didn't do much."
 
@@ -34709,7 +34709,7 @@ He said, "You didn't do much."
 
 He glared.
 
-"Then why did I pay you four?"
+"Then why did I pay you five silver?"
 
 I looked across yard.
 
@@ -34993,9 +34993,9 @@ Different.
 
 Better.
 
-Not because eighteen was a bigger emotion.
+Not because thirteen silver was a bigger emotion.
 
-Because it had stopped being the only number that mattered.
+Because the purse had stopped being the only number that mattered.
 
 I had cash.
 
@@ -35057,13 +35057,13 @@ There was work to price.
 
 ## THE BIDDER
 
-Eighteen copper was enough to buy something stupid.
+Thirteen silver was enough to buy something stupid.
 
 That was different from being enough to buy anything I wanted.
 
 Important distinction.
 
-I had eighteen copper in my purse, twenty-three still sitting with Vale, a five-copper reed-glass commission somewhere west of me in the dangerous metaphysical state called probably, and one Tool House reference proving I could tell people not to stand under eleven hundred units of iron.
+I had twelve copper and thirteen silver in my purse, Vale still open, a two-silver reed-glass commission somewhere west of me in the dangerous metaphysical state called probably, and one Tool House reference proving I could tell people not to stand under eleven hundred units of iron.
 
 Progress.
 
@@ -35159,7 +35159,7 @@ The tag read:
 
 **NO CURRENT BODY-RATED CERTIFICATE**
 
-**OPEN 4C**
+**OPEN 4S**
 
 I stopped.
 
@@ -35329,15 +35329,15 @@ No proof the two working plates still met original load rating.
 
 Seller made no claim beyond demonstration.
 
-Four copper opening.
+Four silver opening.
 
 I could afford four.
 
-I could afford eight without crossing ten-copper floor.
+I could afford eight without crossing my five-silver operating floor.
 
-Eight was not one silver.
+Eight silver was not gold.
 
-Eight was also not nothing.
+Eight silver was also not nothing.
 
 More importantly, the object did not deserve eight merely because I had eight available.
 
@@ -35459,7 +35459,7 @@ The bolt stopped two feet away and fell.
 
 Everyone made appropriate noises.
 
-Tag opened at one silver.
+Tag opened at one gold.
 
 Of course it did.
 
@@ -35643,17 +35643,17 @@ Most things did.
 
 I sat against wall.
 
-Eighteen copper.
+Thirteen silver plus ordinary copper.
 
-Ten floor.
+Five-silver operating floor.
 
-Five pending.
+Two silver pending.
 
-Twenty-three Vale.
+Vale still open.
 
 Work-limb deposit already sunk.
 
-Stillhook opening four.
+Stillhook opening four silver.
 
 Unknown repair.
 
@@ -35701,7 +35701,7 @@ Auctioneer read sheet.
 
 No poetry.
 
-"Road survey stillhook. Two live plates. One failed. No current body certification. Demonstrated only to posted test. Opening four copper."
+"Road survey stillhook. Two live plates. One failed. No current body certification. Demonstrated only to posted test. Opening four silver."
 
 Silence for half breath.
 
@@ -35723,7 +35723,7 @@ Good.
 
 Now price had information.
 
-At six, two people wanted current visible utility.
+At six silver, two people wanted current visible utility.
 
 Not just me.
 
@@ -35731,11 +35731,11 @@ Auctioneer looked around.
 
 I had planned ceiling.
 
-Eight.
+Eight silver.
 
 Not because eight was value.
 
-Because eight was maximum I could deploy without crossing floor, and artifact was not worth violating reserve on uncertain memory.
+Because eight silver was maximum I could deploy without crossing floor, and artifact was not worth violating reserve on uncertain memory.
 
 Those were different ceilings.
 
@@ -35745,7 +35745,7 @@ My available risk was not.
 
 I raised hand.
 
-"Seven."
+"Seven silver."
 
 The woman in back looked at me.
 
@@ -35755,9 +35755,9 @@ Evaluating.
 
 Auctioneer pointed.
 
-"Seven."
+"Seven silver."
 
-Man from viewing said, "Eight."
+Man from viewing said, "Eight silver."
 
 There went ceiling.
 
@@ -35771,13 +35771,13 @@ I did nothing.
 
 Auctioneer called eight once.
 
-The woman in back said, "Nine."
+The woman in back said, "Nine silver."
 
 Interesting.
 
 Man frowned.
 
-"Ten."
+"Ten silver."
 
 No.
 
@@ -35793,15 +35793,15 @@ Auctioneer called ten.
 
 Woman hesitated.
 
-Then: "Eleven."
+Then: "Eleven silver."
 
 The man stopped.
 
-Eleven.
+Eleven silver.
 
 More than I could spend while preserving floor.
 
-Also still below obvious new barrier-plate tier, whatever silver meant relative to copper.
+Also still below the obvious one-gold barrier-plate tier.
 
 Damaged survey gear with two useful axes had a market.
 
@@ -35819,7 +35819,7 @@ Auctioneer called.
 
 No higher bid.
 
-Sold eleven copper.
+Sold eleven silver.
 
 I felt stupid.
 
@@ -35865,9 +35865,9 @@ Good.
 
 I liked her immediately and distrusted that.
 
-"Why eleven?"
+"Why eleven silver?"
 
-"Because two working plates are worth eight to me, hook assembly two, and I can gamble one on ceramic."
+"Because two working plates are worth eight silver to me, hook assembly two, and I can gamble one on ceramic."
 
 That was clean enough to hurt.
 
@@ -36037,7 +36037,7 @@ At Tool House, the buyer looked up from crate slate.
 
 I leaned against counter.
 
-"Stillhook sold eleven."
+"Stillhook sold eleven silver."
 
 He grunted.
 
@@ -36047,7 +36047,7 @@ He grunted.
 
 "What did you bid?"
 
-"Seven."
+"Seven silver."
 
 He looked at me.
 
@@ -36131,7 +36131,7 @@ Better.
 
 **Visible:** two-axis lateral hold relative fixed anchor. thumb-held activation. third plate dead. narrow angle. rebound if released under tension. no current body cert.
 
-**Market:** opened 4c, sold 11c. Multiple bidders. Broken does not mean worthless.
+**Market:** opened 4s, sold 11s. Multiple bidders. Broken does not mean worthless.
 
 **Recognition:** class familiar from later-life use. Third-Line mark maybe. Exact generation unknown. Possible later nonphysical-displacement use remembered, NOT established for this unit/class.
 
@@ -44533,7 +44533,7 @@ Most ordinary.
 
 Then:
 
-**NORTH FREIGHT YARD SEEKS 4 YARD SWAY SHOES / OLD DISTRICT PATTERN ACCEPTABLE / OPEN DISPOSAL OR CLEAN PRIVATE CHAIN REQUIRED / CURRENT LOAD RATING NOT REQUIRED / BENCH FUNCTION MUST PASS / OFFER TO 1S 2C FOR FOUR**
+**NORTH FREIGHT YARD SEEKS 4 YARD SWAY SHOES / OLD DISTRICT PATTERN ACCEPTABLE / OPEN DISPOSAL OR CLEAN PRIVATE CHAIN REQUIRED / CURRENT LOAD RATING NOT REQUIRED / BENCH FUNCTION MUST PASS / OFFER TO 8S FOR FOUR**
 
 I stopped.
 
@@ -44557,7 +44557,7 @@ I copied notice.
 
 Then saw another one three rows lower.
 
-**CROSS STREET SURPLUS / 5 OLD YARD SHOES / DISTRICT MARKS / SELL LOT / 1S 6C / NO SPLIT**
+**CROSS STREET SURPLUS / 5 OLD YARD SHOES / DISTRICT MARKS / SELL LOT / 10S / NO SPLIT**
 
 I stared.
 
@@ -44583,9 +44583,9 @@ Paper gap likely existed.
 
 Function gap existed.
 
-And I had fifteen copper.
+And I had enough silver to buy the seller lot if I wanted to be stupid.
 
-Which was not enough to buy seller lot without violating every intelligent thought I had possessed this month.
+That was no longer the same thing as having a reason to own it.
 
 Good.
 
@@ -44781,11 +44781,11 @@ Good.
 
 Real transaction.
 
-"Four copper if I bring a buyer who completes at at least one silver two copper for the four receipt-matched shoes."
+"Two silver if I bring a buyer who completes at eight silver or more for the four receipt-matched shoes."
 
 Her eyes narrowed.
 
-"Four copper?"
+"Two silver?"
 
 "Only if sale completes."
 
@@ -44803,13 +44803,13 @@ I liked that.
 
 She looked at my copied buyer notice.
 
-"Three."
+"One."
 
-"Four."
+"Two."
 
-"Three and one bit for copying."
+"One silver and one bit for copying."
 
-"Four. You keep fifth."
+"Two silver. You keep fifth."
 
 "Why would I keep worst one?"
 
@@ -44835,11 +44835,11 @@ She stared long enough that I wondered whether I had become annoying professiona
 
 Probably.
 
-"Four if they pay one silver three," she said.
+"Two if they pay nine silver," she said.
 
-"Four if they pay one silver two or more."
+"Two if they pay eight silver or more."
 
-"Three if one-two. Four if one-three."
+"One if eight. Two if nine."
 
 I thought.
 
@@ -44855,7 +44855,7 @@ But buyer should know I am paid by seller.
 
 Important.
 
-"Fine. Three if completed at one silver two. Four if one silver three or more. You pay records bits if we need them."
+"Fine. Two silver if completed at eight silver or more. You pay records bits if we need them."
 
 She nodded.
 
@@ -44867,7 +44867,7 @@ Good seller.
 
 We wrote:
 
-**Greg introduction / transaction assist. Seller pays 3c if four receipt-matched sway shoes sell for at least 1s2c. Seller pays 4c if completed price at least 1s3c. Seller covers agreed public-record copy/inspection bits. No fee if no completed sale. Fifth shoe excluded unless separately agreed.**
+**Greg introduction / transaction assist. Seller pays 2s if four receipt-matched sway shoes sell for at least 8s. Seller covers agreed public-record copy/inspection bits. No fee if no completed sale. Fifth shoe excluded unless separately agreed.**
 
 She signed.
 
@@ -44995,7 +44995,7 @@ Fine.
 
 "Paid by who?"
 
-"Seller. Three copper if sale completes at one silver two. Four if one silver three or more."
+"Seller. Two silver if sale completes at eight silver or more."
 
 His face changed.
 
@@ -45015,9 +45015,9 @@ Not warm.
 
 But fair.
 
-"Good. Then I want one silver one."
+"Good. Then I want seven silver."
 
-"Your posted offer says to one silver two."
+"Your posted offer says to eight silver."
 
 "To."
 
@@ -45283,15 +45283,15 @@ This was where intermediary could become liar.
 
 I did not.
 
-Quartermaster said, "Three at nine copper."
+Quartermaster said, "Three at five silver."
 
 Seller said, "No."
 
 I stayed quiet.
 
-"Nine each?" she asked.
+"Five each?" she asked.
 
-"Nine total."
+"Five total."
 
 "Get bent."
 
@@ -45301,7 +45301,7 @@ He pointed at failed fourth.
 
 "I'm buying three useful shoes and one future repair if I take four."
 
-"You're not taking four at nine."
+"You're not taking four at five silver."
 
 "Then no deal."
 
@@ -45369,17 +45369,17 @@ Buyer impatient.
 
 Good.
 
-She said, "One silver four for all four, fourth delivered functioning before sixth day."
+She said, "Nine silver for all four, fourth delivered functioning before sixth day."
 
 Quartermaster laughed.
 
 "No."
 
-"Your notice says to one-two."
+"Your notice says to eight."
 
 "For four passing now."
 
-"Then one-two with fourth later."
+"Then eight with fourth later."
 
 He considered.
 
@@ -45391,7 +45391,7 @@ Mechanic said, "Latch is probably simple."
 
 Quartermaster looked at seller.
 
-"One silver one. Three now. Fourth after pass. No fourth by sixth day, three copper withheld."
+"Seven silver. Three now. Fourth after pass. One silver held until the fourth passes."
 
 Seller snapped, "Withheld from what? You already cut price."
 
@@ -45425,29 +45425,29 @@ Seller frowned.
 
 "Your decision."
 
-Quartermaster said, "One silver for three. Two copper for fourth after pass."
+Quartermaster said, "Six silver for three. Two silver for fourth after pass."
 
 Seller looked.
 
-"One silver one for three. One copper fourth."
+"Seven for three. One for fourth."
 
 "No."
 
-"One silver for three. Two for fourth. You collect fourth only when it passes here."
+"Six for three. Two for fourth. You collect the fourth only when it passes here."
 
 Seller thought.
 
-That recreated buyer's posted one silver two total.
+That recreated buyer's posted eight-silver total.
 
 But delayed fourth risk on seller.
 
-My commission agreement: completed sale reaches one silver two or more.
+My commission agreement: completed sale reaches eight silver or more.
 
 Partial three sale did not complete my condition.
 
 Good.
 
-I said, "My fee only if fourth completes and total reaches one silver two."
+I said, "My fee only if fourth completes and total reaches eight silver."
 
 Seller glared.
 
@@ -45459,11 +45459,11 @@ She accepted.
 
 Written.
 
-North Freight Yard bought three now for one silver.
+North Freight Yard bought three now for six silver.
 
 Fourth remained seller's.
 
-Conditional: buyer would buy fourth for two copper if it passed same bench before sixth-day frame deadline.
+Conditional: buyer would buy fourth for two silver if it passed same bench before sixth-day frame deadline.
 
 No obligation to buy failed fourth.
 
@@ -45511,37 +45511,35 @@ Damped.
 
 He marked **PASS / CURRENT BENCH ONLY / NO LOAD CERT**.
 
-Quartermaster paid two copper.
+Quartermaster paid two silver.
 
-Total deal: one silver + two copper.
+Total deal: eight silver.
 
-Seller paid me three copper under agreement.
-
-Fifteen to eighteen.
+Seller paid me two silver under agreement.
 
 There.
 
-Three copper.
+Two silver.
 
-Again.
+Not a day-labor fee.
 
-But not a three-copper day job.
+A commission.
 
 I had not sold day.
 
 I had connected existing demand and supply, narrowed title uncertainty, protected buyer's test authority, helped restructure a failed four-unit sale into staged transaction, and waited to get paid until actual friction cleared.
 
-Still three copper.
+Still bounded.
 
 Different engine.
 
 Seller counted my coins.
 
-"Three."
+"Two silver."
 
 "Yes."
 
-"You should have taken two."
+"You should have taken one."
 
 "No."
 
@@ -45620,9 +45618,9 @@ I wrote notebook:
 **Resolved: open-disposal docket + three-punch void strike**
 **Friction 2: 1 of 4 failed bench due latch**
 **Resolved commercially, not technically: 3 sold now, 4th conditional after repair/pass**
-**Final completed price: 1s2c**
-**My fee: 3c**
-**Cash 15 -> 18**
+**Final completed price: 8s**
+**My fee: 2s**
+**Silver +2s; ordinary copper unchanged**
 **I owned none of it.**
 
 Then:
@@ -45778,15 +45776,11 @@ No promise that the work still existed.
 
 Just enough persistence to make pretending I had not copied it weeks ago embarrassing.
 
-I had eighteen copper.
+I had a mixed purse now: ordinary copper for daily life and enough silver that tiny jobs no longer defined the whole problem.
 
-Twenty-three with Vale.
+Vale still open.
 
 Bits unspecified.
-
-Ten floor.
-
-Eight above it.
 
 Magic fifty-nine, fifty-three, one-forty-seven.
 
@@ -45964,7 +45958,7 @@ He read it.
 
 "Narrower thing. Written agreements. Scope. Money. Whether I do what I said after I sign."
 
-"You owe me twenty-three copper."
+"You still have an active account with me."
 
 "Excellent evidence of ongoing relationship."
 
@@ -46118,21 +46112,19 @@ She slid a sheet across table.
 
 **ORGANIZER TERM / FOUR DAYS**
 
-**4C ON ACCEPTED START PLAN + CONFIRMED CREW/TRANSPORT CONTACTS**
+**6S ON ACCEPTED START PLAN + CONFIRMED CREW/TRANSPORT CONTACTS**
 
-**10C ON COMPLETION OF FOUR-DAY HANDOFF IF ALL DAILY ORGANIZER RECORDS ACCEPTED**
+**12S ON COMPLETION OF FOUR-DAY HANDOFF IF ALL DAILY ORGANIZER RECORDS ACCEPTED**
 
 **NO COMPLETION FEE IF ORGANIZER ABANDONS TERM WITHOUT HOUSE RELEASE**
 
 **HOUSE COVERS AUTHORIZED MESSAGE / RECORD / LOCAL CART COSTS**
 
-Fourteen copper total.
+Eighteen silver total.
 
 I read again.
 
-Not silver.
-
-Still more than a seven-copper day.
+Actually silver.
 
 More importantly, I was not being paid to clear a ditch.
 
@@ -46170,7 +46162,7 @@ She looked at me.
 
 "How much?"
 
-"Twenty-three copper."
+"I haven't reconciled the whole account recently. Enough that I should."
 
 "Does this job require you to front house expenses?"
 
@@ -46272,7 +46264,7 @@ Interesting.
 
 "So?"
 
-"You can have provisional term if references verify today. Start plan due by first bell tomorrow. If plan accepted, four copper. If first morning goes badly enough, house can release you and you keep only accepted-plan payment."
+"You can have provisional term if references verify today. Start plan due by first bell tomorrow. If plan accepted, six silver. If first morning goes badly enough, house can release you and you keep only accepted-plan payment."
 
 "Fair."
 
@@ -46560,19 +46552,15 @@ I enjoyed that too much.
 
 "How much?"
 
-"Four copper if they accept start plan. Ten more after four-day handoff if records accepted."
+"Six silver if they accept start plan. Twelve more after four-day handoff if records accepted."
 
 She did math with face.
 
-"Fourteen."
+"Eighteen silver."
 
 "Yes."
 
-"You have eighteen."
-
-"Yes."
-
-"So if you don't ruin crops you get thirty-two."
+"And if you don't ruin crops, the term actually matters."
 
 I looked at her.
 
@@ -46582,9 +46570,9 @@ I looked at her.
 
 I did.
 
-Thirty-two.
+Eighteen silver total.
 
-Above the thirty-copper reserve target I had been circling for months.
+A different tier from the copper jobs I had been stacking.
 
 If.
 
@@ -46592,7 +46580,7 @@ Not mine yet.
 
 Important.
 
-"Four first," I said.
+"Six first," I said.
 
 "Good."
 
@@ -46836,19 +46824,17 @@ Marked in three places.
 
 "Accepted."
 
-Four copper on table.
+Six silver on table.
 
 There.
 
 Not completion.
 
-Not fourteen.
+Not eighteen.
 
-Four.
+Six.
 
 I counted once.
-
-Eighteen to twenty-two.
 
 She said, "Your actual-arrival record is missing Cart A route correction time."
 
@@ -46892,13 +46878,11 @@ Safer.
 
 "Good."
 
-I put four copper away.
+I put six silver away.
 
-Twenty-two.
+Operating reserve intact.
 
-Ten floor.
-
-Twelve above it.
+Twelve more silver still conditional.
 
 Closer.
 
@@ -46994,15 +46978,13 @@ Her work had its own schedule.
 
 Good.
 
-I put four new copper beside the rest.
+I put six new silver beside the rest.
 
-Twenty-two.
-
-Not thirty-two.
+Not eighteen silver for the term.
 
 Not yet.
 
-Ten completion copper sat in someone else's future obligation, contingent on three more days and acceptable records.
+Twelve completion silver sat in someone else's future obligation, contingent on three more days and acceptable records.
 
 I did not count it.
 
@@ -47180,7 +47162,7 @@ Correct.
 
 Completion fee lived in future.
 
-Twenty-two copper remained twenty-two.
+The six-silver start payment stayed in reserve with the rest of my working money.
 
 Third day started clean.
 
@@ -47680,7 +47662,7 @@ Day three record accepted.
 
 Still no completion money.
 
-Twenty-two.
+Six silver from the start term was already real. Twelve more remained conditional.
 
 That night Lyssa was home before me.
 
@@ -47978,7 +47960,7 @@ There.
 
 “Completion fee?”
 
-“Still ten copper.”
+“Still twelve silver.”
 
 “Important question.”
 
@@ -47986,7 +47968,7 @@ She opened cash box.
 
 Counted.
 
-Ten copper.
+Twelve silver.
 
 Put it on table.
 
@@ -47996,15 +47978,13 @@ Not because I distrusted her.
 
 Because money deserved witnesses.
 
-Ten.
-
-Cash twenty-two to thirty-two.
+Twelve.
 
 No conversion.
 
 No celebration.
 
-Just thirty-two copper.
+Just an eighteen-silver organizer term completed exactly as written.
 
 She said, “You did adequately.”
 
@@ -48078,7 +48058,7 @@ Good.
 
 The work had still happened.
 
-At home I put ten copper on table.
+At home I put twelve silver on table.
 
 Lyssa looked at it.
 
@@ -48086,19 +48066,15 @@ Then me.
 
 “How much?”
 
-“Ten.”
+“Twelve.”
 
 “For today?”
 
-“For finishing four-day organizer term.”
+“Completion half. Eighteen silver for the four-day organizer term total.”
 
 “That sounds better.”
 
 “It is.”
-
-“How much now?”
-
-“Thirty-two cash.”
 
 She stopped with cup halfway to mouth.
 
@@ -48112,17 +48088,13 @@ Just noticed.
 
 “Right.”
 
-Twenty-three copper still owed.
+Vale still existed.
 
 There it was.
 
-For the first time, that number did not feel larger than my entire life.
+For the first time, the existence of that account did not feel larger than my entire life.
 
-Twenty-three owed.
-
-Thirty-two cash.
-
-Ten floor.
+I had enough independent earning power to stop guessing what I owed and finally reconcile the whole ugly thing.
 
 Work limb still existed.
 
@@ -48134,7 +48106,7 @@ Food existed.
 
 Tomorrow existed.
 
-Thirty-two did not mean twenty-three was free to leave.
+The silver did not mean Vale was free to leave.
 
 It meant I could finally look at old numbers without assuming every answer was no.
 
@@ -48206,11 +48178,11 @@ No artifact.
 
 No sudden opportunity.
 
-Thirty-two copper.
+Eighteen silver earned across the organizer term.
 
-Twenty-three Vale.
+Vale still open and due for reconciliation.
 
-Ten floor.
+Operating reserve intact.
 
 A completed organizer reference folded with my papers.
 
