@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "authority": "derived_editorial_reference",
+  "canon_authority": false,
+  "canon_chapter": 7,
+  "source_path": "chapters/007.html",
+  "source_chapter_blob": "70f79b2b11940cbadeb970c1e8cf39c7294fdb66",
+  "source_authority_commit": "35055180a116cf7a0dfd4a1fa94704c2c5b0bd40",
+  "displayed_showcase_chapter": 5,
+  "performance_lab_commit": "48bf312924c5d1d6836587e9cb3e21f3944a4d43",
+  "performance_lab_scene": "state/editorial/performance-lab/scenes/ch007-antonius-storeroom",
+  "resulting_canon_commit": "fb703c47db1e682ea32f45da5e5bb89b319c4c93",
+  "result_scene_anchors": [
+    "Antonius stopped. Fuck. He came back and picked up the gray frame himself.",
+    "Antonius set the frame on the keep shelf, wrote my name on a scrap, and tucked it beneath the box.",
+    "Antonius picked up the broom.",
+    "The negotiation was over. He was sweeping again. Offensive."
+  ],
+  "visual_reference": {
+    "characters": ["Greg", "Antonius"],
+    "location": "Antonius storeroom",
+    "active_task": "Antonius is cleaning and sorting the storeroom while Greg evaluates a gray Tere reference set.",
+    "props": ["gray Tere reference set", "wooden box", "keep shelf", "name scrap", "broom"],
+    "physical_beats": [
+      "Antonius initially treats the box as cleanup debris and keeps moving toward discard.",
+      "Greg's value claim makes Antonius stop, return, and pick up the frame himself.",
+      "Antonius places the frame on the keep shelf and writes Greg's name beneath it.",
+      "Antonius ends the negotiation physically by returning to the broom."
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "authority": "derived_editorial_reference",
+  "canon_authority": false,
+  "canon_chapter": 13,
+  "source_path": "chapters/013.html",
+  "source_chapter_blob": "181a2b52326c3b190aa5ae6f9ee8967e4d206715",
+  "source_authority_commit": "35055180a116cf7a0dfd4a1fa94704c2c5b0bd40",
+  "displayed_showcase_chapter": 9,
+  "performance_lab_commit": "48bf312924c5d1d6836587e9cb3e21f3944a4d43",
+  "performance_lab_scene": "state/editorial/performance-lab/scenes/ch013-arlo-workshop",
+  "resulting_canon_commit": "fb703c47db1e682ea32f45da5e5bb89b319c4c93",
+  "result_scene_anchors": [
+    "Arlo lifted the testing frame off the bench and put it on the shelf. I experienced actual pain.",
+    "Arlo slid the notebook closer to himself.",
+    "Arlo took a cracked regulator from beneath the bench. The copper winding had darkened.",
+    "He opened the notebook to a page of readings and turned that page toward me without surrendering the rest of the notes.",
+    "Arlo pointed at another object beside the mandrel. A stick. A spool. A hanging weight.",
+    "Arlo laughed once despite himself, then reached for the next regulator."
+  ],
+  "visual_reference": {
+    "characters": ["Greg", "Arlo"],
+    "location": "Arlo workshop",
+    "active_task": "Arlo is testing regulators and showing only the process evidence needed to explain a two-day result.",
+    "props": ["six regulators", "Tere reference set", "wooden testing fixture", "notebook", "cracked regulator", "spool", "string", "hanging weight"],
+    "physical_beats": [
+      "Arlo shelves the testing fixture to end Greg's demand for another run.",
+      "Arlo pulls the notebook closer to protect process ownership.",
+      "Arlo puts a cracked failed regulator between them and later reveals only the relevant notebook page.",
+      "Arlo points Greg to the crude stick, spool, string, and hanging-weight tension control.",
+      "Arlo laughs once at Greg's tensioner joke, then returns to the next regulator instead of extending the bit."
+    ]
+  }
+}

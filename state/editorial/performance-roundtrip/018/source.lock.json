@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "authority": "derived_editorial_reference",
+  "canon_authority": false,
+  "canon_chapter": 18,
+  "source_path": "chapters/018.html",
+  "source_chapter_blob": "30538e320c31db744212e4c22922b0f0fe860975",
+  "source_authority_commit": "35055180a116cf7a0dfd4a1fa94704c2c5b0bd40",
+  "displayed_showcase_chapter": 14,
+  "performance_lab_commit": "48bf312924c5d1d6836587e9cb3e21f3944a4d43",
+  "performance_lab_scene": "state/editorial/performance-lab/scenes/ch018-hessa-beans",
+  "resulting_canon_commit": "fb703c47db1e682ea32f45da5e5bb89b319c4c93",
+  "result_scene_anchors": [
+    "Hessa watched it fall, reached into the bowl, and put a fresh bean on the same spot before I could bend to retrieve the first.",
+    "Hessa stopped reaching for beans.",
+    "Hessa tapped the bean once with a fingertip.",
+    "Hessa reached across the table and covered the bowl with the cloth.",
+    "\"Nineteen casts,\" Hessa said.",
+    "Hessa left the bowl covered."
+  ],
+  "visual_reference": {
+    "characters": ["Greg", "Hessa"],
+    "location": "Hessa's rooms",
+    "active_task": "Hessa runs a bounded Barrier bean exercise while Greg tries to turn a narrow result into a larger theory.",
+    "props": ["table", "bowl of beans", "empty bowl", "cloth"],
+    "physical_beats": [
+      "Hessa replaces the first fallen bean with a fresh one before Greg can retrieve it.",
+      "Hessa stops supplying new beans when Greg finally pauses on his own.",
+      "Hessa taps the bean to redirect Greg from Barrier theory back to the exercise.",
+      "Hessa ends access to further attempts by covering the bowl with the cloth.",
+      "Hessa states the nineteen-cast count and leaves the bowl covered."
+    ]
+  }
+}
