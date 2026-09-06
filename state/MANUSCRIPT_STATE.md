@@ -1,8 +1,8 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 480 - **THE WEARER**.
-- Exact Chapters 249-480 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
+- Current exact story endpoint: Chapter 481 - **THE SUBSTITUTE**.
+- Exact Chapters 249-481 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
 - Permanent running-manuscript consolidation still has known integration debt; do not reconstruct missing exact text from summaries.
 
 ## Active correction overlays
@@ -14,131 +14,133 @@
 Before any new named character: check `BOOK1_NAME_REGISTRY_CH82.md` and current state for exact/TTS/syllable/surname collision. Temporary people do not automatically need names.
 
 ## Durable progression / leverage mandate
-- `state/PROGRESSION_ENGINE.md` includes legal/gray-market arbitrage guidance and the author-approved debt-closure progression rule.
-- Current leverage focus remains **earning power / capital**, with brokerage, arbitrage, coordination, management, eventual ownership, selective ordinary spending, and artifact-capital pressure all available.
+- `state/PROGRESSION_ENGINE.md` includes the current earning-power/capital route, legal/gray-market arbitrage guidance, management/coordination leverage, artifact pressure, and the author-approved debt-closure progression rule.
 - Ch474 proves Greg can move silver-scale value without owning inventory.
 - Ch475 proves Greg can create value by coordinating specialists without stealing their expertise.
-- Ch476 proves artifact markets can outrun Greg's safe deployable capital and that losing a good object can be correct.
-- Ch477 proves Greg can pay normal travel cost when time/body/location value justify it and closes the first East Fen/Lakeward brokerage fee.
-- Ch478 restores relationship/home pressure through Lyssa's independent letter and physically routes Greg home.
-- Ch479 completes the return and reinforces belonging through accumulated household/work/social residue.
-- Ch480 materially advances the work-limb/body lane without inventing a new payment schedule: current fit data supersedes the older front correction for final-socket prep, while the existing quoted work order remains unchanged.
-- When liquidity genuinely scales, verify actual obligations before clearing them. Preserve reserve/working capital, distinguish debt from gifts/favors/support, and treat the work limb as evolving infrastructure.
+- Ch476 proves artifact markets can outrun Greg's safe deployable capital.
+- Ch477 proves ordinary travel can be worth purchasing and closes the East Fen/Lakeward brokerage fee.
+- Ch478 restores home/relationship pressure through Lyssa's independent letter.
+- Ch479 completes the return to Carrow.
+- Ch480 advances the work-limb fit/final-prep lane while leaving payment timing uninvented.
+- Ch481 reactivates theatre as a paid, intrinsically valuable Carrow lane and proves Greg can do useful backstage support work in his current body without pretending heavy-stagehand capacity.
+- When liquidity genuinely scales, verify actual obligations before clearing them. Preserve reserve/working capital and do not turn gifts/favors/support into debt.
 
 ## Current financial / body / magic state
-- Greg ends Ch480 **home in Carrow**.
-- Cash **12c**.
+- Greg ends Ch481 **home in Carrow**.
+- Cash **15c** after earning **3c** for a full prompt-side theatre substitute call.
 - Vale **23c**.
-- Bits unspecified after ordinary food and local small purchases.
-- 10c survival floor active; **2c above floor**.
+- Bits unspecified.
+- 10c survival floor active; **5c above floor**.
 - Reed-glass introduction fee remains paid/closed.
 - Work-limb deposit remains **20c paid toward the established 1 silver + 18c quote**.
-- Ch480 Hark & Venn review explicitly says **existing quote unchanged** and **no additional payment requested for this review**.
-- No new due date, installment amount, final balance schedule, or pickup-payment term is established.
+- Existing Hark & Venn quote remains unchanged. No new due date, installment amount, pickup-payment term, or completion date is established.
 - Protocol remains **59 / 53 / 139**.
 - Greg remains on two crutches outside supervised fitting use.
-- Shoulder continues improving; no new injury or skin break.
-- No magic tests in Ch480.
+- Hark & Venn currently holds the trial socket / temporary ash shaft / medium test foot for final-prep comparison; Greg has the liner at home.
+- Shoulder is improved; Ch481 produces ordinary fatigue only, no new injury or skin break.
+- No magic tests in Ch481.
 
-## Chapter 480 - THE WEARER
+## Chapter 480 carryover
+- Hark & Venn reviewed the current trial fit under the existing work order with no additional payment requested for that review.
+- Current residual-limb shape/volume changed enough that the older front correction should not simply be copied into final work.
+- Supervised wear stayed bounded; mild contact pink faded, with no heat/pain/open skin.
+- Work priority remains usable hands rather than distance alone.
+- Shop keeps the trial hardware while final-socket prep proceeds offscreen; Greg waits for word or another temporary-fit request.
+
+## Chapter 481 - THE SUBSTITUTE
 
 ### Role / title
-- Greg is **THE WEARER** because the chapter centers on using the trial work limb as equipment under specialist supervision, learning what his current body actually does with it, and allowing the shop to revise the fit before final work.
-- Repository search found no current `THE WEARER` collision before drafting.
+- Greg is **THE SUBSTITUTE** because he fills a bounded prompt-side theatre absence for one rehearsal/evening call rather than returning as permanent stage staff or taking over the room.
+- Repository title search found no current `THE SUBSTITUTE` collision before drafting.
 
-### Hark & Venn note
-Greg opens the sealed note at home. Exact new note content establishes:
-- return for fit review before final socket work;
-- bring current trial components, liner, and wear notes;
-- existing quote unchanged;
-- no additional payment requested for this review;
-- do not increase unsupervised wear merely because travel sessions were tolerated.
+### Theatre visitor resolved narrowly
+- The previously unresolved theatre visitor lane resolves as a practical staffing request.
+- The same unnamed theatre man returns after Greg is home and asks him to substitute because **Renn**, a prompt-side support worker Greg knows by role, is sick enough to send word instead of arriving.
+- Renn is not converted into a close friend or major character.
+- No emergency, plot summons, combat training, or mystical theatre purpose is established.
 
-This resolves the sealed-note uncertainty without inventing prior financial terms.
+### Scope / authority / pay
+- Work requested: prompt-side rehearsal reset, entrance holds, prop-table state, cue-copy maintenance, and light scene-change support.
+- Explicitly not Greg's job: fly rail, heavy load work, trap work, repeated stair running, or solo heavy scene shifts.
+- Stage lead owns calls; prop mistress owns props until handoff; fly crew owns fly work.
+- Greg is paid **3c** if he stays through evening close, **2c** if released before supper.
+- Staff pot is included if he stays through supper.
+- He stays through evening and receives the full **3c**.
+- Cash **12c -> 15c**.
+- This is useful skilled work, but it is not reframed as silver-scale leverage or permanent employment.
 
-### Fit review
-- Greg brings the current trial socket, liner, temporary ash shaft, medium test foot, and wear notebook to Hark & Venn.
-- An unnamed female fitter conducts the review; no new staff name/title/ownership hierarchy is established.
-- She reads the relevant wear log rather than Greg narrating a generalized success story.
-- Current residual-limb volume/shape differs enough from the older fit that the previous front correction should not be copied unchanged into final work.
-- The fitter removes/replaces temporary padding and adjusts upper-inside contact for the supervised trial.
-- No catastrophic fit problem is found.
-- Greg shows no sharp pressure, no heat, no skin opening, and only mild pink contact that fades after removal.
+### Current-body theatre work
+- Greg arrives on two crutches with no trial-limb hardware available because Hark & Venn has it.
+- He replaces an unsuitable high prompt stool with a lower chair and asks for a clear route between prompt position and prop table.
+- A loose cable is properly rerouted rather than merely kicked aside.
+- Greg does not carry the bench, climb fly stairs, hide his crutches, or prove independence by moving small furniture unsafely.
+- When a narrow side table needs moving, another hand moves it and Greg resets papers afterward.
+- His current contribution is information/state alignment, cue tracking, entrances, physical marks, safe small actions, and noticing failures before they become larger problems.
+- Physical end state: shoulders/hands/right leg tired from a full workday but not injured; residual limb ordinary; no trial wear.
 
-### Load pattern / hands priority
-- During rail walking, Greg shortens the right side despite no established length mismatch.
-- Fitter interprets this narrowly as a learned protective load pattern, not proof of an equipment-length error.
-- Greg practices controlled weight transfer and short stepping rather than trying to think his way through it.
-- Work-order priority remains **usable hands**, not distance alone.
-- Greg performs a very small two-hand tray task only within rail reach and under fitter control.
-- This reinforces the strategic value of a finished limb for standing tasks, carrying, doors, ledgers, lamps, and one-hand artifacts without granting unsupported capability.
-- Greg privately remembers the lost stillhook's one-hand activation constraint but does not claim this limb is ready for such use.
+### Rehearsal / theatre intrinsic value
+- The rehearsal's operational state has drifted in several small ways: changed entrance order, sticking door two, bench timing, bell cue seven, missing lantern, prop positions, and outdated individual memories of yesterday's version.
+- Greg's job is not to solve theatre globally. He helps current cue copy and current physical room match.
+- He misses bell seven once because he is genuinely watching Nella's performance, takes responsibility, and corrects it on the next run.
+- Nella's revised early stage presence makes the scene better theatrically: she is already onstage mending while pretending not to listen before others acknowledge her.
+- Theatre remains valuable as theatre, not as covert tactical curriculum.
 
-### Current supervised wear result
-- Total supervised trial wear in Ch480: approximately **15 minutes**.
-- Temporary adjustments improve fit enough for bounded standing/short movement.
-- Upper-inside pink contact fades after removal; no heat or pain established.
-- No final clearance is granted.
-- No independent increased wear is authorized.
+### Dialogue variance
+- An actor at supper speaks in a long, overexplained run about emotional timing and the widow's-garden line rather than using Greg-style clipped sarcasm.
+- Stage lead is terse and practical.
+- Temporary theatre hands and wardrobe workers remain role-based unless naming becomes necessary later.
+- A pinned cuff creates a tiny preventable hazard; Greg notices it, wardrobe fixes it, and nothing larger comes from it.
 
-### Final-socket progression
-- Hark & Venn keeps the **trial socket / temporary shaft / test foot** because current measurements should inform final-socket preparation and the shop wants the trial hardware available for comparison.
-- Greg takes the liner home and must keep it clean for the next visit.
-- Fitter describes the next stage as **prep**, not a finished limb.
-- No pickup date is established.
-- No guaranteed completion date is established.
-- No new payment is due in Ch480.
-- Greg waits for the shop to send word or request another temporary fit.
-- This is real progress even though the trial equipment is temporarily less available to Greg at home.
+### Renn / possible repeat work
+- Stage lead says Renn may be back the next day.
+- If Renn remains out, Greg may be asked again; Greg only says to send word home.
+- No guaranteed recurring income, permanent theatre post, or replacement of Renn is established.
 
-### Lyssa / ordinary residue
-- Lyssa remains in her own work/material register and does not become Greg's medical analyst.
-- She notices that Greg moves differently when tired but explicitly does not turn that into a report or diagnosis.
-- She asks whether the fit hurts; Greg says no; she leaves it there.
-- Household/work continuity continues, including Lyssa's ongoing clothing work and the previously established cracked cup / loose clothing residue.
+### Lyssa / home residue
+- Lyssa remains busy with her own customers/work and is the one who had earlier told theatre Greg was east.
+- At the end of Ch481 she correctly notices Greg had fun before he admits that rehearsal improved.
+- Their household interaction stays ordinary and playful; Lyssa is not turned into Greg's manager or analyst.
 
 ## Protected uncertainties / live residue
-- Greg ends Ch480 **home in Carrow**.
-- Cash **12c**, Vale **23c**, bits unspecified.
+- Greg ends Ch481 **home in Carrow** at **15c cash / 23c Vale / bits unspecified**.
 - Protocol **59 / 53 / 139**.
-- Work-limb final socket is **not finished**.
-- Hark & Venn keeps trial socket/temporary shaft/test foot for final-prep comparison; Greg has liner at home.
-- Existing quote is unchanged; no new payment schedule, due date, pickup date, or balance timing is established.
-- Theatre visitor purpose from Lyssa's earlier letter remains unknown.
-- Hessa, Sori, Morrow, South Road organizer lead, and other pending lanes remain unresolved unless later authority moves them.
+- Work-limb final socket is not finished; Hark & Venn has trial hardware and Greg has the liner.
+- Existing limb quote remains unchanged; no new payment schedule, due date, pickup date, or balance timing is established.
+- Renn may or may not return to theatre next day; repeat work is not guaranteed.
+- Hessa, Sori, Morrow, South Road organizer lead, Vale lane, and other pending lanes remain unresolved unless later authority moves them.
 - Stillhook remains Elian's; magical-displacement behavior, maker/generation, repairability, and Elian's profession/use remain unverified.
 - East Fen Fenwright lower-draft problem remains unresolved and nonessential to the completed glass deal.
 - Ch473 marked Three Rays freight lot remains with freight owner unless newer exact prose changes that later.
 - No enforcement consequence from Ch473 has occurred.
 - Greg has not yet disclosed the Ch473 illegal freight to Lyssa; no permanent concealment arc is established.
-- Debt-closure progression remains inactive at current liquidity.
+- Debt closure remains inactive at current liquidity.
 - No permanent companion.
 
-## Chapter 481 trailhead
-Follow the next actual claim from Ch480/current authority and `state/PROGRESSION_ENGINE.md`.
+## Chapter 482 trailhead
+Follow the next actual claim from Ch481/current authority and `state/PROGRESSION_ENGINE.md`.
 
-Greg begins **12c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**, **home in Carrow**. Hark & Venn now has the trial socket/shaft/test foot for final-prep comparison; Greg has the liner. The shop will send word or request another temporary fit. No new payment is due or scheduled.
+Greg begins **15c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**, **home in Carrow**. Hark & Venn is working offscreen. Theatre may send word only if Renn is still out; do not assume repeat work.
 
 Strong movement:
-- Do not repeat another fitting chapter immediately. Let Hark & Venn work offscreen until a real shop note arrives.
-- One older Carrow lane can now re-enter naturally: theatre visitor, Hessa, Sori, Vale, Morrow, ordinary household/work, or a new earning-capital move that grows from existing access.
-- Greg is at **12c**, only 2c above the survival floor, but this is not an early-book poverty reset. His earning capacity, references, market knowledge, and leverage remain materially better than before.
-- A concrete paid opportunity can matter now, especially if it uses accumulated references/coordination rather than restarting 1c survival work as the main engine.
-- Artifact pressure remains active long-range. Do not compensate for the lost stillhook with an easy replacement.
-- Hessa/magic is available if timing supports it, but preserve protocol/evidence discipline and do not make the new limb progress magically unlock magic utility.
-- If the Ch473 illegal freight becomes relevant socially or legally, let it arise through natural records/witnesses/conversation rather than author punishment.
-- Debt closure still waits for genuinely stronger liquidity/capacity.
+- Change grammar again. Do not simply run another prompt-side theatre shift unless Renn's absence produces a meaningfully different consequence.
+- Hessa/magic is now a strong available axis if exact timing/current authority supports it, especially because recent chapters have leaned body/home/theatre and protocol has remained static at 59 / 53 / 139.
+- Sori/artifact information is also available, but do not compensate Greg for losing the stillhook with an easy substitute.
+- A paid Carrow opportunity may still matter, but avoid resetting to repetitive small-job accumulation as the primary engine. Greg's longer-term leverage route remains brokerage/arbitrage/coordination/management/ownership.
+- The work-limb should stay offscreen until Hark & Venn sends real word or needs another fit.
+- Greg is financially above floor again at 15c, but still nowhere near a safe debt-closure event.
+- Theatre can remain an ongoing social/work home lane without consuming every chapter.
+- If the Ch473 illegal freight becomes relevant, let it arise naturally through records, witnesses, or chosen disclosure rather than automatic punishment.
 
 Avoid:
 - another limb fitting immediately;
-- inventing a Hark & Venn completion date or payment schedule;
-- treating 12c as economic reset;
-- resolving theatre + Hessa + Vale + Sori + Morrow together;
-- instant replacement artifact;
+- another theatre reset chapter with the same function;
+- instant stillhook replacement;
+- resolving Hessa + Sori + Vale + Morrow together;
+- treating 15c as wealth or poverty reset;
 - debt-payoff checklist behavior;
 - another strategic manifesto.
 
-**MANDATORY TITLE CHECK CH481:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
+**MANDATORY TITLE CHECK CH482:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
