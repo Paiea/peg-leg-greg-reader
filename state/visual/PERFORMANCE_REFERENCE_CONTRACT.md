@@ -17,6 +17,8 @@ Use `scripts.performance_roundtrip_references.load_visual_reference()` or `load_
 
 Do not read an archive's `visual_reference` directly without freshness validation. The helper returns visual evidence only when the scene-local final-prose anchors still match current canonical prose exactly once.
 
+The read helper also exposes those validated `scene_anchors`. They are routing evidence, not canon of their own.
+
 When a reference is missing or stale, treat it as absent.
 
 ## Generation queue
@@ -29,6 +31,7 @@ When a reference is missing or stale, treat it as absent.
     "archive_path": "state/editorial/performance-roundtrip/007",
     "chapter": 7,
     "displayed_showcase_chapter": 5,
+    "scene_anchors": ["Antonius picked up the broom."],
     "visual_reference": {
       "characters": ["Greg", "Antonius"],
       "location": "Antonius storeroom",
@@ -40,7 +43,11 @@ When a reference is missing or stale, treat it as absent.
 }
 ```
 
-This field is read-only guidance. It must not automatically replace or mutate:
+Queue attachment is deliberately **scene-local**, not merely chapter-local. A queue candidate receives the reference only when its own validated paragraph anchor exactly matches one of the successful scene's validated final-prose anchors after harmless text normalization. A different scene later in the same chapter receives no PERFORMANCE reference.
+
+This conservative routing applies to the machine-ready generation queue. Earlier scene-selection or editorial tools may still read the fresh archive directly when deciding whether the archived performed scene itself is visually useful.
+
+The field is read-only guidance. It must not automatically replace or mutate:
 
 - candidate characters
 - candidate location
