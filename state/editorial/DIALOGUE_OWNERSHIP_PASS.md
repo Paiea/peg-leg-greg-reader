@@ -32,8 +32,10 @@ Rules:
 6. In three-plus-speaker scenes, prefer explicit clarity over line-count bookkeeping.
 7. Do not solve attribution by inventing decorative shrugs, looks, nods, or gestures. Prefer `said` / `asked` when a tag is what the sentence needs.
 8. Do not mechanically split every dialogue line into its own paragraph. Paragraph breaks are a tool, not the default repair.
-9. Do not rewrite dialogue payload, voice, canon, scene outcome, money, magic, body continuity, or relationship state merely to fix attribution.
-10. Hard prose rule remains: **NO EM DASHES.**
+9. When dialogue and an adjacent action clearly belong to the **same character** and form one continuous beat, they should normally share a paragraph. Recombine earlier safety splits when doing so improves flow without reintroducing ownership ambiguity.
+10. Same-owner recombination is secondary to attribution correctness. If ownership is not provable from local context, leave the beats separate and escalate for review rather than guessing.
+11. Do not rewrite dialogue payload, voice, canon, scene outcome, money, magic, body continuity, or relationship state merely to fix attribution.
+12. Hard prose rule remains: **NO EM DASHES.**
 
 ## Scope
 
@@ -75,11 +77,27 @@ Before:
 
 The Greg turn and Antonius turn should not remain one dialogue paragraph. Give Antonius's action / speech its own ownership surface.
 
-### C. Preserve already-clear prose
+### C. Recombine a same-owner safety split
+
+If an earlier cleanup produced:
+
+`Rusk pointed at the sack.`
+
+`"That one," Rusk said.`
+
+and both beats clearly belong to Rusk as one continuous response, prefer the cleaner shape:
+
+`Rusk pointed at the sack. "That one," he said.`
+
+or another locally natural same-owner arrangement.
+
+Do this only when speaker ownership is already clear. Do not merge across a true conversational turn, interior beat, meaningful pause, or attention shift merely to reduce paragraph count.
+
+### D. Preserve already-clear prose
 
 Do not add tags to every alternating line. Do not create one-sentence paragraph stacks merely to satisfy a mechanical rule. A clear exchange should remain light.
 
-### D. Escalate semantic ambiguity
+### E. Escalate semantic ambiguity
 
 If the actual speaker cannot be proven from the local context, do not guess. Record the candidate for review with neighboring paragraphs.
 
@@ -106,6 +124,8 @@ Initial candidate classes:
 - `multi_speaker_scene_retag`: local speaker density / interruption creates an attribution-risk candidate;
 - `reader_reported`: exact reader-found defects manually promoted into the audit even if heuristics miss them.
 
+Same-owner recombination should **not** be driven by a broad automatic merge heuristic. It is a secondary semantic review performed when a candidate or neighboring paragraph shows an obvious earlier safety split. A narrowly provable same-owner helper may be added later only with failing regression tests first.
+
 False positives are acceptable in the candidate report. Automatic manuscript rewriting from heuristics is not.
 
 ## Cheap-review surface
@@ -119,8 +139,11 @@ A worker classifies each candidate:
 - `FIX_TAG`
 - `FIX_PARAGRAPH`
 - `FIX_BOTH`
+- `FIX_COMBINE`
 - `CLEAR_ALREADY`
 - `NEEDS_CONTEXT`
+
+`FIX_COMBINE` is used only for a clearly same-owner split that can be recombined without losing a meaningful beat.
 
 Only exact reviewed replacements become manuscript patches.
 
@@ -160,6 +183,8 @@ Automated validation should be conservative:
 - reject newly introduced high-confidence ownership regressions or require explicit review;
 - never silently rewrite prose during publishing.
 
+Same-owner paragraph consolidation is a prose-quality preference, not a CI failure condition. CI should prevent ownership ambiguity, not force stylistic merging.
+
 ## Separate but related tic
 
 Reaction shorthand such as `considered me`, `studied me`, `looked at me`, and similar face/reaction beats may be audited while reading candidates, but they are **not automatically dialogue-ownership defects**.
@@ -186,11 +211,12 @@ The pass is complete only when:
 2. showcase-aware audit tooling exists and is tested;
 3. currently visible Chapters 1-491 have been reviewed against the stronger ownership standard, not merely the older attribution standard;
 4. approved exact patches have been applied to current manuscript/reader authority;
-5. hidden chapters are recorded as intentionally skipped by showcase state;
-6. remaining ambiguous candidates are explicitly dispositioned rather than silently ignored;
-7. future publishing/manuscript validation catches new ownership regressions;
-8. a final sampled read across early, middle, late, two-speaker, multi-speaker, and dialogue-heavy chapters confirms conversational geography is effortless.
+5. obvious same-owner safety splits encountered during review have been recombined where that improves prose without weakening clarity;
+6. hidden chapters are recorded as intentionally skipped by showcase state;
+7. remaining ambiguous candidates are explicitly dispositioned rather than silently ignored;
+8. future publishing/manuscript validation catches new ownership regressions;
+9. a final sampled read across early, middle, late, two-speaker, multi-speaker, and dialogue-heavy chapters confirms conversational geography is effortless and paragraphing is not needlessly choppy.
 
 ## Restart prompt
 
-`Continue PLG whole-showcase dialogue ownership pass from current GitHub authority on editor/dialogue-ownership-pass. Read state/editorial/DIALOGUE_OWNERSHIP_PASS.md first, consume publishing/showcase_chapters.json for visibility, preserve exact dialogue payload/canon, and continue from the durable candidate/patch edge.`
+`Continue PLG whole-showcase dialogue ownership pass from current GitHub authority on editor/dialogue-ownership-pass. Read state/editorial/DIALOGUE_OWNERSHIP_PASS.md first, consume publishing/showcase_chapters.json for visibility, preserve exact dialogue payload/canon, prioritize wrong-owner attribution fixes, recombine only clearly same-owner safety splits, and continue from the durable candidate/patch edge.`
