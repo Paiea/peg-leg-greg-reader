@@ -28,9 +28,7 @@ jobs:
           python-version: '3.12'
       - name: Focused experiment tests
         run: python -m unittest tests.test_performance_novelization_experiment -v
-      - name: Apply exact surviving novelization patches
-        run: python scripts/run_performance_novelization_experiment.py --write
-      - name: Harden dialogue attribution
+      - name: Harden dialogue attribution on preserved novelization
         run: python scripts/harden_performance_novelization_attribution.py --write
       - name: Validate repository and reader
         run: |
