@@ -77,29 +77,34 @@ def validate_reference(
             "reasons": ["reference archive does not exist"],
         }
 
-    lock, reasons = _load_lock(reference_dir)
+    lock, lock_reasons = _load_lock(reference_dir)
     if lock is None:
         return {
             "chapter": chapter,
             "archive_path": _display_archive_path(reference_dir),
-            "status": "stale",
-            "reasons": reasons,
+            "status": "malformed",
+            "reasons": lock_reasons,
         }
+
+    malformed_reasons: list[str] = []
+    stale_reasons: list[str] = []
 
     missing_files = sorted(name for name in REQUIRED_FILES if not (reference_dir / name).exists())
     if missing_files:
-        reasons.append(f"missing required archive files: {', '.join(missing_files)}")
+        malformed_reasons.append(f"missing required archive files: {', '.join(missing_files)}")
 
+    if lock.get("schema_version") != 1:
+        malformed_reasons.append("schema_version must equal 1")
     if lock.get("authority") != "derived_editorial_reference":
-        reasons.append("authority must be derived_editorial_reference")
+        malformed_reasons.append("authority must be derived_editorial_reference")
     if lock.get("canon_authority") is not False:
-        reasons.append("canon_authority must be false")
+        malformed_reasons.append("canon_authority must be false")
     if lock.get("canon_chapter") != chapter:
-        reasons.append(f"canon_chapter must equal {chapter}")
+        malformed_reasons.append(f"canon_chapter must equal {chapter}")
 
     anchors = lock.get("result_scene_anchors")
     if not isinstance(anchors, list) or not anchors or not all(isinstance(anchor, str) and anchor.strip() for anchor in anchors):
-        reasons.append("result_scene_anchors must be a non-empty list of strings")
+        malformed_reasons.append("result_scene_anchors must be a non-empty list of strings")
         anchors = []
 
     source_path = lock.get("source_path")
@@ -107,32 +112,39 @@ def validate_reference(
         chapter_path = chapter_root / Path(source_path).name
     else:
         chapter_path = chapter_root / f"{chapter:03d}.html"
-        reasons.append("source_path must identify the canonical chapter file")
+        malformed_reasons.append("source_path must identify the canonical chapter file")
 
     if not chapter_path.exists():
-        reasons.append(f"canonical chapter missing: {chapter_path.name}")
+        stale_reasons.append(f"canonical chapter missing: {chapter_path.name}")
     else:
         try:
             prose = extract_prose(chapter_path.read_text(encoding="utf-8"))
         except OSError as exc:
             prose = ""
-            reasons.append(f"could not read canonical chapter: {exc}")
+            stale_reasons.append(f"could not read canonical chapter: {exc}")
         if not prose:
-            reasons.append("canonical chapter has no readable article.prose")
+            stale_reasons.append("canonical chapter has no readable article.prose")
         else:
             for anchor in anchors:
                 normalized_anchor = normalize_text(anchor)
                 count = prose.count(normalized_anchor)
                 if count != 1:
-                    reasons.append(
+                    stale_reasons.append(
                         f"scene anchor match count is {count}, expected 1: {normalized_anchor[:120]}"
                     )
+
+    if malformed_reasons:
+        status = "malformed"
+    elif stale_reasons:
+        status = "stale"
+    else:
+        status = "fresh"
 
     return {
         "chapter": chapter,
         "archive_path": _display_archive_path(reference_dir),
-        "status": "stale" if reasons else "fresh",
-        "reasons": reasons,
+        "status": status,
+        "reasons": malformed_reasons + stale_reasons,
     }
 
 
@@ -227,9 +239,19 @@ def main() -> None:
         parser.error("--check is required")
 
     results = check_all()
-    stale = [result for result in results if result["status"] != "fresh"]
-    print(json.dumps({"references": results, "stale_count": len(stale)}, indent=2))
-    if stale:
+    stale = [result for result in results if result["status"] == "stale"]
+    malformed = [result for result in results if result["status"] == "malformed"]
+    print(
+        json.dumps(
+            {
+                "references": results,
+                "stale_count": len(stale),
+                "malformed_count": len(malformed),
+            },
+            indent=2,
+        )
+    )
+    if stale or malformed:
         raise SystemExit(1)
 
 
