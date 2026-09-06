@@ -1,255 +1,212 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 391 - **THE FOLLOWER**.
+- Current exact story endpoint: Chapter 392 - **THE CAMPER**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript physically materialized through Chapter 248.
-- Exact Chapters 249-391 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
+- Exact Chapters 249-392 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
 - Titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
-- Ch391 answer: Greg is being **a follower**. He follows local route specialists through unfamiliar industrial infrastructure and North Glass Cut, obeys bounded authority, uses his body honestly, and does not spend his higher-output reserve merely because he can imagine doing more.
-- Therefore title **THE FOLLOWER**.
-- Recent: 387 THE CREWMATE; 388 THE WATCHMAN; 389 THE TRAVELER; 390 THE PASSENGER; 391 THE FOLLOWER.
+- Ch392 answer: Greg is being **a camper**. He travels ordinary road, makes camp with the crew, takes watch, handles tiny wildlife rather than grand threats, and experiences one night away as accumulated life rather than interruption.
+- Therefore title **THE CAMPER**.
+- Recent: 388 THE WATCHMAN; 389 THE TRAVELER; 390 THE PASSENGER; 391 THE FOLLOWER; 392 THE CAMPER.
 
 ## Major arc direction - away from Carrow
 - Long away-from-Carrow adventure arc remains active and desired, potentially act/near-book length.
-- Greg and River Survey crew have now crossed **Alder Basin's upper works route and North Glass Cut**.
-- Traveling core remains **Vessa Harn, Maro Pell, Sori Vale, Dask Renn, Kel Toren, Greg**.
-- Crew is currently on the **north side of North Glass Cut**, at the Cut north yard, preparing to take wagon toward **West Locks road camp**.
-- Route behind them may temporarily close due Four-C isolation. Do not turn this into immediate return pressure; keep forward geographic expansion active.
+- Crew has crossed North Glass Cut and reached **West Locks road camp**.
+- Traveling core remains Vessa Harn, Maro Pell, Sori Vale, Dask Renn, Kel Toren, Greg.
+- Next movement is into **West Locks** via east gallery / cargo handling, then marsh-shelf road toward Mile Reed / north station if route holds.
+- Route behind through North Glass Cut may remain temporarily closed due Four-C isolation. Do not use this as immediate return pressure.
 
 ## Durable Greg character rule - reserve / normal mode / locked-in mode
 - Greg likes being viewed as competent but does not normally operate at maximum output because he knows he usually does not need to.
 - Baseline Greg is comfortable, capable, observant, adaptive, willing to iterate/make mistakes, and sometimes intentionally leaves output on table.
-- His first-life S-class history functions psychologically as **reserve / retirement fund / fat bank account**:
+- First-life S-class history functions psychologically as **reserve / retirement fund / fat bank account**:
   - not literal stored power;
   - proof he was once extremely capable;
-  - proof that growth paths exist;
-  - confidence that if life becomes expensive enough, he can train harder, narrow study, increase repetitions, build reliable effects/combinations, fix/work around body limitations, and climb aggressively.
-- He does not assume he can become exactly the same man/body/build as first life, but believes he can become **enough of a version of him** to meet serious need.
-- This reserve gives him safety to live normally instead of squeezing every day until it screams.
-- Distinct rarer **locked-in / dialed-in mode**:
-  - immediate high-output cognition/operation rooted in S-class habits;
-  - fast prioritization, sequencing, tactical judgment, learning, iteration;
-  - can create an `oh` reaction from others/readers;
-  - mentally/socially expensive and not healthy as permanent lifestyle;
-  - does not erase Bronze rank, one-leg body, fatigue, mana limits, missing tools, incomplete local knowledge, or specialist authority.
-- Vessa knows this mode exists and may ask Greg to `lock in` when genuinely needed.
-- Power/combat analogue is related but distinct. Full current-life combat/magic expression has NOT yet been shown. Preserve it for rarer high-payoff moments.
-- Contrast remains essential: normal comfortable Greg dominates page time.
+  - proof growth paths exist;
+  - confidence that if life becomes expensive enough he can train harder, narrow study, increase repetitions, build reliable effects/combinations, fix/work around body limitations, and climb aggressively.
+- He does not assume exact restoration of first-life self but believes he can become enough of a version of him to meet serious need.
+- Reserve gives him safety to live normally rather than optimize constantly.
+- Distinct rarer locked-in/dialed-in mode remains immediate high-output S-class cognition/operation. Preserve for earned `oh` moments.
+- It does not erase Bronze rank, left BKA, fatigue, mana limits, missing tools, incomplete local knowledge, or specialist authority.
+- Full current-life combat/magic expression remains unrevealed.
+- Ch392 adds a useful internal formulation: **enough is not mediocrity; enough can be the exact amount required. Reserve stays reserve until enough stops being enough.**
 
-## Chapter 390 carry-forward
-- Greg arrived Alder Basin after skiff travel through root-drag river condition.
-- Root-drag exact mechanism unresolved; brief left-crutch shaft vibration under one breath occurred mid-channel without water contact, cause unresolved.
-- Fresh Alder Basin industrial incident:
-  - WEST SHELF SETTLING POOL 4 return-lime slurry release;
-  - secondary channel closed below green posts;
-  - valve seat failure under review;
-  - no drinking draw/wading/netting;
-  - old retired glass-lock **Four-C** could affect North Glass Cut access.
-- Hara Venn market contact introduced:
-  - return-lime surplus nail 2c, documented but inconsistent beyond ~10 paces;
-  - brass pressure-seam tongue 3c, workshop claim only;
-  - marsh-light cage 7c, undocumented/tourist-priced.
-- Greg bought nothing.
-- Cash remained 23c; Vale 23c.
+## Chapter 392 - THE CAMPER
 
-## Chapter 391 - THE FOLLOWER
+### Road north / marker 32 washout
+- Crew takes freight wagon north from North Glass Cut.
+- Wagon suspension is rough; crew banter deepens.
+- Regional road differs from Alder Basin/Cut: dry low pine, pale stone, small farms, black marker posts with white ceramic caps called old flood return marks.
+- Post-Glasswake residue remains minor but visible:
+  - wagon ruts shine when shadow crosses;
+  - fence nail blinks blue once;
+  - puddle reflects wagon several seconds after wagon leaves.
+- Marker 32 washout has signed uphill orchard detour.
+- Kel checks wagon width/margin; passengers walk tight bends while he drives.
+- Fallen apple branch blocks inner side; local farmer arrives with saw and handles it.
+- Greg does not intervene merely because he could move/cut branch.
+- Farmer says washout predates Glasswake by two nights, preventing lazy magic causation.
+- Kel gives farmer half dried pear after help.
 
-### Field reader / Four-C result
-- Alder Basin field reader **Nessa** returns before dawn:
-  - short woman, gray scarf, black hair, waxed coat;
-  - one boot splattered with dried return-lime;
-  - carries long three-pronged brass fork field tool;
-  - already knows Dask and dislikes his measurement pedantry.
-- Four-C has **taken partial charge**:
-  - enough to hold lower secondary channel;
-  - not enough to trigger full spill gate;
-  - old reference plate left quadrant responds, center does not;
-  - Nessa refuses fake percentage in formal report; `partial charge` is official description.
-- Main lower North Glass Cut approach remains closed until Four-C bleeds below threshold or Works isolates old face; timing uncertain, maybe midday or longer.
+### Ordinary travel
+- Story permits almost an hour where nothing significant happens.
+- Greg gets bored enough to count ceramic caps, loses count at 27.
+- Dask offers to give him something measurable to count; Greg rejects this as worse.
+- Maro naps openly in wagon, widening crew humanity.
+- First outer West Locks relay tower appears: tall narrow tower with three horizontal arms and motionless white strips despite wind. Crew does not stop because it belongs Locks maintenance, not current assignment.
 
-### Alternate upper route
-- Nessa identifies authorized **dry ropewalk** from Shelf Two to North Glass Cut marker 6.
-- Route avoids slurry channel.
-- Requirements/conditions:
-  - west trestle morning check passed;
-  - no cart after Shelf Two;
-  - pack mule to Shelf Two;
-  - hand carry thereafter;
-  - Works freight cage can move sealed cases across first span;
-  - open-grate sections;
-  - one narrow switchback ~3 feet / slightly less at repair bulge;
-  - stair runs 15 and 28 steps with rails;
-  - timber/iron grate/stone surfaces;
-  - some post-wake rail-shadow/edge doubling but less severe than west stairs.
-- Vessa orders **first-bell departure** through upper route rather than waiting all morning.
-- This moves story forward while respecting local industrial systems.
+### West Locks road camp / Pella Dorn
+- Camp is modest:
+  - 3 roofed platforms;
+  - stone fire ring;
+  - hand pump;
+  - 2 privies;
+  - survey lockbox hut;
+  - flat wagon ground.
+- Locks not yet visible but deep mechanical knocks can be heard/felt beyond hills.
+- Camp keeper **Pella Dorn** introduced:
+  - shaved sides, long braid;
+  - one thumb missing at first joint;
+  - blunt practical humor.
+- Pella gives record hand dry platform because prior record hand ruined three days of paper under drip.
+- Camp rules:
+  - test pump before use;
+  - no dish washing in drainage trough;
+  - food in iron box after dark due **glass mice**;
+  - no open flame after second night bell in east wind due possible lock vapor;
+  - do not sleep against white marker stones because they become cold, `usually` only cold.
+- Glass mice are locally ordinary mice that eat glass salts, have faintly glowing teeth, and steal soap. Exact magical taxonomy not established/needed.
 
-### Hara nail not purchased
-- Greg explicitly notes the 2c Hara return-lime nail would be redundant compared with Nessa's calibrated field tool, official notices, and route expertise.
-- He does not go back to buy it.
-- Preserve Hara and inventory as possible future market thread, but nothing acquired.
+### Camp labor / crew accumulation
+- Vessa assigns:
+  - Kel wagon/mule;
+  - Sori food inventory;
+  - Dask equipment check;
+  - Maro evening light read;
+  - Greg water + sleeping platforms.
+- Greg makes six one-bucket pump trips rather than over-optimizing with shoulder yoke. Pella preemptively tells him no when he looks at it.
+- Sori moves Dask's precisely placed bedroll while he is away as `environmental awareness` test; he angrily moves it back.
+- Kel cooks competent beans/smoked meat/onion/greens; Maro chops; Greg cuts bread seated; Dask is banned from portion calculation.
+- Crew begins feeling like people sharing route life rather than institutional coworkers.
 
-### Alder Basin upper works travel
-- Crew takes mule cart to Shelf Two; mule named **Porridge**.
-- Basin industrial terraces widen setting:
-  - settling pools, kiln roofs, long open sheds, overhead pipes, ceramic tags.
-- Nessa explains local Basin Works tag system:
-  - blue edge = water;
-  - white edge = return-lime;
-  - red corner = pressure assist;
-  - black slash = retired but physically present.
-- Four-C should have black-slash tags, though many old tags are missing because structure predates standardization.
-- Greg reports prior crutch vibration accurately; Nessa offers possible mundane/return-line/noise explanations without overclaiming.
+### West Locks status
+- Pella reports:
+  - West Three running slow;
+  - West Four closed for tooth replacement;
+  - West Five cargo only;
+  - foot route via east gallery;
+  - two false gate tones last night, one in morning, no physical gate movement observed;
+  - east gallery floor shine at dawn, gone by noon;
+  - no black pockets seen;
+  - road north after Locks open;
+  - marsh shelf wet;
+  - two wagons passed;
+  - reports of reed hounds near Mile Reed.
+- Reed hounds are not literal reed constructs: long-legged tan marsh dogs hunting rats/small deer, sometimes following camps for scraps; usually shy.
 
-### Spill channel / Four-C glimpse
-- Green-post closed channel carries white-gray return-lime runoff.
-- Works crews manage incident with poles/buckets/frame equipment.
-- Four-C is visible only at distance as old stone arch/metal face with faint pale sheen on one side.
-- Greg wants closer look but obeys closure and keeps moving.
-- `Follower` identity is explicit: follow the person who knows where floor is instead of solving unknown industrial system.
+### Watch assignments / glass mice
+- Watches: Kel first, Greg second, Maro third, Vessa fourth. Sori/Dask off due dawn custody/gauge duties.
+- During Greg's second watch:
+  - sees 3 glass mice with pale blue-white glowing incisors;
+  - one repeatedly tries grease-collared food-box leg;
+  - another goes for soap;
+  - Greg scares them with light crutch tap;
+  - they return from another side;
+  - Greg moves soap higher.
+- No spell, no combat. Greg jokes internally that S-class legacy survives defeating mice with noise/logistics.
 
-### Ropewalk / freight-cage logistics
-- Upper ropewalk runs along basin wall over channels/industrial yards.
-- Freight cages operate on counterweighted cable system.
-- Rule sign prohibits passengers with reflective/reactive field cases; cargo only, max 180 lb.
-- Cases cross separately while people walk.
-- Greg adapts to open iron grate by shorter, angled crutch plants so tips do not enter openings.
-- Dask times Greg and jokes that coworker and moving object can both be true; Sori tells him not to inventory Greg.
-- First 15-step run completed without issue.
+### Reed hounds / night watch
+- Greg notices mule attention and soft east-side footfalls.
+- Three young reed hounds appear at moonlight edge.
+- Greg's old habits quietly supply distance/angle/mule/sleeping crew/food/wind information, but he does not fully lock in.
+- Says `No` to first hound; throws small stone into dirt between them, not at animal; hounds retreat but remain interested.
+- Maro wakes and confirms likely young hounds; warns not to feed or they may follow wagon.
+- Maro drives them off with one pot-lid clang.
+- Greg jokes this is advanced river-light technique / S-class prerequisite.
+- One hound later returns farther away and leaves when Maro merely lifts lid, showing animal learning.
 
-### Freight cage delay
-- Whole cargo cage stops when wet counterweight catch fails to seat fully.
-- Cage brake stable; repair worker climbs tower and resets/test-cycles mechanism.
-- Greg consciously does NOT lock in or try to solve it because competent repair worker is already handling stable problem.
-- This reinforces reserve rule: capacity exists, but no need to spend it.
-- Nessa asks if Greg always this calm; Greg says `I know what panic costs.`
+### Greg / Maro night conversation
+- Maro stays awake into Greg's watch.
+- Greg says he misses home but does **not want to go back yet**.
+- Maro says his home is `home-ish` near Alder Basin west shelf.
+- Maro gives rarer longer personal speech:
+  - when younger he thought leaving meant choosing somewhere else;
+  - after leaving/returning/leaving, places do not care about categories;
+  - one can belong somewhere and still be gone;
+  - hate a place and know every drain;
+  - love people and not want their street today.
+- Greg teases him for sounding rehearsed; Maro regrets talking.
+- Greg reframes `enough`: not mediocre/settling, but exact amount required. Reserve stays reserve until enough stops being enough.
 
-### Narrow switchback / 28-step run
-- Greg stops before ~3-foot switchback and solves mobility geometry normally:
-  - shoulder bag to front;
-  - one crutch through;
-  - right-foot pivot;
-  - body rotation;
-  - second crutch;
-  - one backward plant;
-  - rotate through.
-- Nessa notes this resembles porter technique for long poles.
-- At 28-step run, Greg pauses briefly around step 12 to reset hand/rhythm, then finishes.
-- Requests **12 breaths** at top and actually takes all 12 despite being able to move around breath 9.
-- Physical honesty remains normal behavior, not failure.
-
-### North Glass Cut arrival
-- Cut is a narrow river passage through pale dark-veined stone with natural/worked shelves, old glass waste glittering in seams, maintained west path, and post-Glasswake afterimage.
-- East shelf edges visibly double and shift; visual edge displacement is real route hazard.
-- Nessa's authority ends at **marker 6**.
-- Local route reader **Toren Ash** takes over.
-- Coincidental name overlap with Kel Toren produces no relation; Toren Ash says grandmother lied, making exchange messier rather than clean dry-comeback cloning.
-
-### Toren Ash route briefing
-- Markers 6-8 normal.
-- 9-14 elevated afterimage from east shelf.
-- Stay maintained west path; do not follow apparent upper edge.
-- Marker 11 loose outer post flagged/not load-bearing.
-- Marker 13 wet seep below slip threshold at last check.
-- Marker 14 intermittent side flare from reflective waste shelf.
-- If flare arrives: stop/facing wall until clear.
-- No black pockets observed since dawn, not proof none exist.
-
-### Crossing active Cut
-- Greg uses contact-first crutch/foot placement and trusts pressure over misleading light.
-- At marker 9, crutch shadow itself doubles/lag-shifts; unpleasant but manageable.
-- At marker 10, Toren calls side flare; whole crew faces west wall until white-green peripheral flash passes.
-- Marker 13 wet seep crossed one at a time under Toren test; Greg ignores displaced visual band and uses contact.
-- No heroics; specialists retain authority.
-
-### Marker 14 retired repeater
-- Old hand-sized wall plate with black-slash retired tag begins ticking after years dormant.
-- Toren identifies it as retired return repeater/indicator, not active face.
-- Sequence: **1 / 2 / 1**, repeating around ~7 observer breaths between sequence starts.
-- Dask records; Greg begins bounded observer timing as normal job competence.
-- Possible explanation only: Four-C partial charge may be propagating along old return line. Not confirmed.
-- Toren line-bells Cut office for authority.
-- Works response: Four-C is bleeding into old return line; west branch expected, Cut repeater not expected.
-- They plan isolation.
-- Crew gets roughly **20-minute window** to clear marker 14 and reach north yard before branch isolation; if isolation fails, Cut may close.
-
-### Twenty-minute movement window
-- Vessa asks Greg only whether he can make pace.
-- Greg checks body and says yes if terrain remains similar, with commitment to report changes.
-- No explicit `lock in` request; Greg remains normal work mode.
-- Crew moves faster but safely.
-- Greg handles markers 15-20, short stairs, bridge plank, incline.
-- On long incline shoulders burn; Greg completes climb then asks for **6 breaths** in side bay while cases continue ~20 yards. Vessa allows it without stopping whole crew.
-- They cross north yard gate before closure/isolation completes.
-- Line bells indicate branch isolation starting behind them; gate later closes procedurally pending confirmation.
-- Vessa checks timing: crew is **4 minutes inside the window**.
-- Dask almost argues timing definition, then stops himself; social growth.
-
-### North side / forward road
-- Toren Ash confirms:
-  - crew is north side;
-  - Cut may reopen later if isolation holds;
-  - if not, return this way may not be available soon;
-  - West Locks route open as of first bell;
-  - freight road has washout at marker 32 with signed wagon detour.
-- Toren tells Greg he did fine and specifically affirms contact-first approach.
-- Greg values being seen as competent but does not turn route into performance proof.
-- Crew eats at north yard; Vessa sets next move: wagon to **West Locks road camp**, likely overnight before locks.
+### Morning / next route
+- Dask grinds teeth loudly in sleep; Kel lies that they glow.
+- Pella's coffee substitute tastes like burnt root/punishment.
+- Morning route:
+  - West Three slow;
+  - Four closed;
+  - Five cargo only;
+  - crew takes **east gallery on foot**;
+  - cases through West Five freight cradle;
+  - regroup north landing;
+  - then marsh shelf road / Mile Reed / north station by evening if pace holds.
+- Camp packs. Glass mice have eaten tiny corner of empty salt-packet label, personally offending Sori.
+- Closing emphasizes accumulated travel intimacy: Greg now knows Dask grinds teeth, Kel cooks, Sori laughs hardest at threats to Dask, Maro gets philosophical when overtired, and Vessa drinks terrible coffee without reacting.
+- One night away feels like **route**, not interruption.
 
 ## Economy
 - Greg begins **23c private cash**.
-- No spend/income in Ch391.
+- No spend/income in Ch392.
 - Ends **23c private cash**.
 - Vale remains **23c principal-equivalent**.
 - Bits unspecified.
-- Survey travel/meals/lodging remain assignment-covered under established terms.
-- No artifact purchase.
+- Assignment covers travel/camp food/lodging.
 
 ## Magic / artifacts
 - Protocol ledger remains **59 minimal / 53 shaping / 129 external attempts** plus one separate practical external-transfer milestone from Ch385.
-- Greg performs no deliberate magic in Ch391.
-- Four-C partial-charge + marker-14 repeater behavior are local industrial magical-infrastructure events, not Greg artifact effects.
-- Four-C current condition remains partially known, exact mechanics unresolved.
+- Greg performs no deliberate magic in Ch392.
+- Minor post-Glasswake road residue remains observational only.
+- Outer relay tower motionless strips are not investigated.
+- White marker stones' cold behavior remains local camp warning, not explained.
+- Glass mice glowing teeth are local ecology, mechanism not established.
 - Oval remains sealed Merecross Survey custody.
 - Holdfast/K-14-6/Three Reeds/Step Keeper remain locked Carrow.
 - Tavi rock remains with Greg.
 
 ## Greg social/internal movement
-- Ch391 reinforces that Greg's reserve lets him **choose not to lead**.
-- He follows Nessa, Toren, Vessa, route procedures, and his own body.
-- He repeatedly has opportunities to over-intervene and declines when specialists/system already own the problem.
-- The locked-in part of him leans forward when marker-14 window narrows, but he does not fully spend it because ordinary disciplined work is enough.
-- Greg still enjoys being seen as competent; Toren's simple `You did fine` matters.
-- Closing frame: no need to spend reserve just to prove account balance. Road north waits.
+- Normal Greg remains dominant.
+- He repeatedly lets local people solve their own problems.
+- Old S-class habits surface quietly on watch as automatic threat geometry, but he does not need full switch for young hounds.
+- Greg explicitly misses home while choosing not to return yet.
+- Crew belonging begins accumulating rapidly through camp labor, meals, sleeping habits, watch, teasing, and shared inconvenience.
 
 ## Dialogue variance
-- Nessa: blunt field-reader speech, irritated by bad infrastructure and Dask's precision obsession, uses practical distinctions.
-- Toren Ash: local route-reader speech, slightly odd personal tangents (`grandmother lied`) rather than Greg-style dryness.
-- Dask: measurement compulsions, but shows tiny growth by dropping one timing argument.
-- Sori: procedural policing + sharper teasing.
-- Kel: transport complaints/practicality.
-- Vessa: scope, pace, and route command.
-- Maro: bounded magical-infrastructure interpretation.
+- Pella Dorn: blunt camp-keeper speech, practical threats, enjoys `usually` as survival word.
+- Maro: normally bounded/quiet but becomes longer and unexpectedly philosophical when overtired.
+- Dask: measurement compulsion and genuine offense at unmeasured consensus.
+- Sori: procedural teasing and sharper laughter.
+- Kel: practical transport/cooking competence, lies casually about Dask's glowing teeth.
+- Vessa: assignment and route command, minimal commentary.
 
 ## Recent role ledger
-- 387 THE CREWMATE
 - 388 THE WATCHMAN
 - 389 THE TRAVELER
 - 390 THE PASSENGER
 - 391 THE FOLLOWER
+- 392 THE CAMPER
 
 ## Protected uncertainties
-- Crew is north of North Glass Cut and preparing for West Locks road camp.
-- Four-C partial charge is established, but exact charge fraction/mechanics unresolved.
-- Old return line unexpectedly reached marker-14 retired repeater; why Cut branch carried response is unresolved.
-- Branch isolation began; final success/longer Cut closure unresolved after crew crossed.
+- Crew is at West Locks road camp at chapter end, packed for morning movement.
+- West Three slow; West Four closed tooth replacement; West Five cargo only; east gallery foot route currently planned.
+- False gate tones occurred but no physical movement observed; cause unresolved.
+- East gallery floor shine occurred dawn prior, gone by noon; cause unresolved.
+- Marsh shelf wet; reed hounds reported near Mile Reed and 3 young hounds visited camp, no attack.
+- North Glass Cut/Four-C branch isolation final status unresolved behind crew.
 - Return through Cut may be unavailable temporarily.
-- West Locks route currently open as of first-bell information, but road washout detour at marker 32 exists.
-- Root-drag mechanism and Greg left-crutch vibration from Ch390 remain unresolved.
-- Hara Venn inventory remains hers; Greg bought nothing.
+- Outer relay tower's motionless strips not investigated.
+- Glass mice/white marker stone mechanisms unresolved.
 - Full current-life locked-in combat/magic expression still not shown.
 - Greg's S-class reserve remains psychological/skill-path confidence, not literal stored power.
 - Oval remains sealed Merecross; cold-response meaning unresolved.
@@ -259,44 +216,39 @@
 ## Continuity issue
 - Ch360 1-bit lunch source remains unresolved. Do not invent. Copper exact **23c**.
 
-## Chapter 392 trailhead
-Follow next actual claim from Ch391/current authority.
+## Chapter 393 trailhead
+Follow next actual claim from Ch392/current authority.
 
 Greg begins **23c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 129** plus one practical-transfer milestone.
 
-Physical location:
-- North Glass Cut north yard;
-- with Vessa/Maro/Sori/Dask/Kel;
-- waiting freight wagon / preparing to take West Locks road;
-- route behind may be temporarily closed due Four-C isolation;
-- West Locks route open at last report with marker-32 washout detour;
-- likely overnight at West Locks road camp before locks.
+Physical/timeline:
+- dawn/early morning at West Locks road camp;
+- crew packed;
+- short wagon run to Locks approach;
+- east gallery on foot;
+- cases via West Five freight cradle;
+- regroup north landing;
+- then marsh shelf / Mile Reed / north station by evening if route holds.
 
 Strong movement:
-- Keep going forward. New road/camp/West Locks geography should arrive quickly.
-- Do not turn Four-C into long backtracking cleanup plot. It can affect return later.
-- Let field travel now mix ordinary road/camp life with new regional magical infrastructure, strangers, artifact pressure, and occasional danger.
-- Greg normal mode remains default. Do not force another locked-in showcase immediately.
-- However, pressure can continue accumulating toward a later genuine `oh` S-class mode moment.
-- Crew relationships should deepen outside institutional settings: wagon habits, camp labor, fatigue, food, disagreement, humor, who sleeps badly, who takes watch, etc.
-- Artifact acquisition remains welcome when rational and consequence-bearing, but no convenience loot.
-- West Locks should feel materially different from Alder Basin and Merecross.
-
-Potential:
-- marker-32 washout creates route detour through smaller settlement/work camp;
-- road encounter with another survey/works crew;
-- first camp-night social fracture or trust beat;
-- regional monster/ecology pressure that locals understand, setting groundwork for later Greg combat reveal without spending it yet;
-- first sight of West Locks machinery/infrastructure at distance.
+- Enter West Locks early. Make Locks feel materially/magically distinct rather than another office/catwalk reskin.
+- Use active water-control infrastructure, gate machinery, old magical systems, workers, freight, strange acoustic/reflective behavior.
+- The false gate tones/floor shine can matter without becoming catastrophe.
+- Continue forward after Locks if chapter room permits. Marsh shelf should feel like another biome/route grammar.
+- Crew relationships now have camp residue; use it naturally, not by repeating every joke.
+- Normal Greg remains default. Pressure can accumulate toward later locked-in payoff, but do not spend it merely because Locks are impressive.
+- A small practical magic success is permissible if organically useful, but not mandatory and not another giant breakthrough.
+- Artifact pressure/acquisition can arise from local infrastructure, retired components, salvage, road trade, or specialists, but price visible utility rationally.
 
 Avoid:
+- returning to Four-C cleanup;
 - immediate Carrow return;
-- making Four-C secretly about Greg/oval;
-- instant major power-up;
-- Greg supplanting Vessa/Maro/Kel specialists;
-- generic quest-party banter detached from work.
+- making reed hounds major monster fight without escalation/evidence;
+- turning West Locks into chosen-one event;
+- Greg instantly understanding unknown machinery;
+- another whole chapter that is only waiting.
 
-**MANDATORY TITLE CHECK CH392:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH393:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
