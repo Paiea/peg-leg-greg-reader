@@ -5,6 +5,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
+from scripts.build_generation_queue import build_generation_queue
 from scripts.performance_roundtrip_references import (
     load_reference,
     load_visual_reference,
@@ -59,6 +60,25 @@ class PerformanceRoundtripReferenceTests(unittest.TestCase):
             encoding="utf-8",
         )
         return archive_root, chapter_root
+
+    def _candidate(self) -> dict:
+        return {
+            "id": "ch007-performance-test",
+            "chapter": 7,
+            "chapter_title": "The Buyer",
+            "kind": "chapter_illustration",
+            "priority": "medium",
+            "fit_target": "exact",
+            "spoiler_level": "low",
+            "scene_summary": "Antonius ends a negotiation by returning to work.",
+            "visual_hook": "The broom becomes the physical final word.",
+            "characters": ["Greg", "Antonius"],
+            "location": "storeroom",
+            "mood": "dry practical tension",
+            "scene_tags": ["storeroom", "work"],
+            "paragraph_anchor": "Antonius picked up the broom.",
+            "status": "prompt_ready",
+        }
 
     def test_missing_reference_is_optional(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -133,6 +153,34 @@ class PerformanceRoundtripReferenceTests(unittest.TestCase):
     def test_source_wins_do_not_get_heavy_archive_by_default(self) -> None:
         self.assertFalse((ARCHIVE_ROOT / "002").exists())
         self.assertFalse((ARCHIVE_ROOT / "016").exists())
+
+    def test_generation_queue_can_carry_fresh_performance_reference_without_changing_candidate_authority(self) -> None:
+        fresh = load_visual_reference(7, archive_root=ARCHIVE_ROOT, chapter_root=CHAPTER_ROOT)
+        self.assertIsNotNone(fresh)
+        queue = build_generation_queue(
+            [self._candidate()],
+            [],
+            chapter_image_counts={7: 0},
+            character_references={},
+            performance_references={7: fresh},
+        )
+        self.assertEqual(len(queue), 1)
+        self.assertEqual(queue[0]["performance_reference"], fresh)
+        self.assertEqual(queue[0]["characters"], ["Greg", "Antonius"])
+        self.assertEqual(queue[0]["paragraph_anchor"], "Antonius picked up the broom.")
+        self.assertEqual(queue[0]["status"], "generation_ready")
+
+    def test_generation_queue_remains_independent_when_performance_reference_is_missing(self) -> None:
+        queue = build_generation_queue(
+            [self._candidate()],
+            [],
+            chapter_image_counts={7: 0},
+            character_references={},
+            performance_references={},
+        )
+        self.assertEqual(len(queue), 1)
+        self.assertNotIn("performance_reference", queue[0])
+        self.assertEqual(queue[0]["status"], "generation_ready")
 
 
 if __name__ == "__main__":
