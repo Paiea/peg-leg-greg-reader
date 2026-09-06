@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "batch": "214-216",
+  "status": "applied",
+  "strength": "aggressive-on-repeated-function-and-fragmentation",
+  "stable_id_actions": {
+    "plg-ch-000214": {
+      "status": "active",
+      "action": "tightened_pin_return_escalation_and_threat_intrusion_into_performance"
+    },
+    "plg-ch-000215": {
+      "status": "merged",
+      "surviving_beats": [
+        "plg-ch-000216"
+      ],
+      "legacy_path": "215.html",
+      "display_renumbering": "deferred"
+    },
+    "plg-ch-000216": {
+      "status": "active",
+      "action": "absorbed_wedding_job_setup_and_tightened_money_travel_staging_procedure"
+    }
+  },
+  "illustration_policy": "advisory hold; no prose or boundary protected by art state",
+  "protected": {
+    "214": [
+      "returned original cart pin",
+      "bounded evidence language",
+      "Rinna sends no reply",
+      "Greg realizes bluff changed his role",
+      "pin memory disrupts Brother performance",
+      "Lyssa relationship debrief"
+    ],
+    "215_to_216": [
+      "Copper Kettle wedding job",
+      "minimum gear",
+      "cart stays home",
+      "payment privacy",
+      "company moves together"
+    ],
+    "216": [
+      "wedding audience texture",
+      "support-post adaptation",
+      "server collision and Beer first",
+      "Hara/Marek live interruption recovery",
+      "Greg learns moving audience geometry"
+    ]
+  },
+  "stats": {
+    "chapters/214.html": {
+      "before": 2861,
+      "after": 1586,
+      "delta": -1275
+    },
+    "chapters/215.html": {
+      "before": 2501,
+      "after": 23,
+      "delta": -2478
+    },
+    "chapters/216.html": {
+      "before": 3085,
+      "after": 2319,
+      "delta": -766
+    },
+    "light/214.html": {
+      "before": 2861,
+      "after": 1586,
+      "delta": -1275
+    },
+    "light/215.html": {
+      "before": 2501,
+      "after": 23,
+      "delta": -2478
+    },
+    "light/216.html": {
+      "before": 3085,
+      "after": 2319,
+      "delta": -766
+    }
+  }
+}
