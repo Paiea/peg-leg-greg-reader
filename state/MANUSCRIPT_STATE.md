@@ -1,8 +1,8 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 465 - **THE WITNESS**.
-- Exact Chapters 249-465 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
+- Current exact story endpoint: Chapter 466 - **THE SEEKER**.
+- Exact Chapters 249-466 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
 
 ## Active correction overlays
 - Ch432 forewoman: **Rika Dorn**, not Nessa Vale.
@@ -18,162 +18,140 @@ Before any new named character: check `BOOK1_NAME_REGISTRY_CH82.md` and current 
 - Action can come from terrain, weather, infrastructure, magical ecology, human conflict, rescue, pursuit, accident, or earned combat.
 - Vary action grammar and preserve residue.
 
-## Quest status
-- The first full Mirror Spring quest-shaped field contract is **field-complete and paid** in Ch465.
-- Greg successfully traveled Morrow -> White Reed -> Sleeping Stone -> Three Sisters -> Mirror Spring and returned to Morrow with useful route observations and a valid sealed supplemental spring sample.
-- The sample has been accepted into district transport for Lakeward analysis; analysis and final water dispute remain unresolved.
-- The quest produced a real adventure arc without cleanly solving the community problem.
+## Current arc
+- The Mirror Spring field contract is complete and paid. Its water-policy consequences remain in background and should not dominate immediate forward motion.
+- Greg has consciously chosen to continue farther east rather than turn home.
+- Ch466 opens a different adventure grammar centered on **old roadwork artifacts, provenance, route-memory technology, and curiosity-driven travel**.
+- New live route: **Lakeward -> Bracken Vale -> possible Sunroad Cut investigation**.
 
-## Chapter 465 - THE WITNESS
+## Chapter 466 - THE SEEKER
 
 ### Role / title
-- Greg is **THE WITNESS**: he delivers bounded observations into a room where every faction wants those observations to justify a larger conclusion.
-- Title search found no prior `THE WITNESS` collision before drafting.
+- Greg is **THE SEEKER** because, for the first time in the away arc, he chooses a road mainly because he wants to know what is there rather than because a contract or obligation forces him.
+- Title search found no prior `THE SEEKER` collision before drafting.
 
-## White Reed -> Morrow
-- Greg wakes with right shoulder stiff/bruised but load-bearing; overhead movement still poor.
-- Mabel feeds him breakfast and gives him a bread heel under the existing practical route-copy exchange, not as a new resupply windfall.
-- Greg returns to Morrow by maintained road with sample filled/sealed/intact.
-- Trial limb remains wrapped; crutches primary.
-
-## District chain acceptance / contract payout
-- A Lakeward district examiner is present in Morrow after runners reached district. She remains **unnamed** in Ch465 to honor naming guardrail.
-- She verifies bottle number, wax/cap, fill location, no witness at sampling, and no post-fill handling.
-- District accepts the sample **for transport to Lakeward**. This does not mean analysis is complete.
-- Examiner reads contract literally: valid district supplemental sample returned with completed seal form is enough for field pay; analysis was not a payout condition.
-- Garrick pays Greg the full **12c contract amount**.
-- Cash changes **12c -> 24c**. Vale remains **23c**. Bits unspecified.
-- Temporary 10c floor remains active but Greg now has **14c above it**, restoring meaningful route optionality.
-
-## Field statement
-Greg gives route and source observations in bounded order:
-- White Reed / Sleeping Stone / slide/rooted bypass;
-- Three Sisters lower bench cut;
-- north-face upper route unused/no-go;
-- southern stone descent and lower maintenance shelf;
-- cracked plank rejected;
-- shallow ford conditions/pulse history;
-- recent branch cutting;
-- route rejoin;
-- Mirror Spring visible main flow and side seeps;
-- no calibrated normal flow;
-- newer east diversion flap half closed during observation;
-- upper-ridge grower's claims clearly labeled as claims.
-
-## Story-memory conflict
-- Garrick takes the successful route as vindication that old place-memory was right.
-- Greg grants that the inherited route memory was **materially useful** but refuses to treat that as proof every attached causal explanation is true.
-- Helena explicitly catches both sides selecting only the sentence they prefer.
-- This preserves old/story knowledge as valuable without making it infallible.
-
-## Lakeward share schedule
-- District examiner brings a Lakeward schedule copy because a runner reached the office before dawn.
-- Mirror east branch is formally authorized as a **seasonal nursery and fire-reserve draw**.
-- Written maximum is **one quarter of marked catch division under ordinary condition**.
-- Drought restriction can alter shares, but the examiner lacks authority in this room to declare restriction.
-- Fire reserve can create emergency-safety considerations; fruit loss alone is not written as emergency safety under the stated rule.
-- The upper-ridge grower's claim that the east branch was not simply illicit theft is therefore materially strengthened, but actual current share/flow still requires verification.
-
-## Morrow gate conflict
-- Garrick personally admits he ordered Morrow's **one-notch lower exchange-gate reduction** while Greg was away.
-- His reason: lower orchard fruit loss and older local practice of changing water quickly when trees suffered.
-- District examiner distinguishes reason from authority and says the shared-water agreement remains active.
-- Garrick's older world relied more on direct knowledge of who lived uphill and what each channel fed; examiner points out that current participants no longer necessarily possess that social knowledge.
-- This is a key thematic finding: paper did not merely replace wise local knowledge; some local social density also eroded, making informal improvisation more dangerous.
-
-## Human stakes / no clean answer
-- North-channel workers say the east branch feeds a nursery and then a fire cistern reserve; reported cistern level was about two-thirds the prior morning and is recorded on a nursery board.
-- Morrow lower growers are actively losing fruit.
-- Nursery stock also supports Morrow grafting/replacement needs, so north and south are economically entangled.
-- No painless setting exists.
-- Examiner can order **no further changes pending review** and can recommend restoring the prior exchange setting, but lacks immediate field authority for a broader drought-share ruling.
-
-## Greg's recommendation
-- Garrick asks Greg directly what he would do.
-- Greg refuses neither judgment nor authority distinction.
-- He recommends:
-  1. no further closure/change;
-  2. restore the one Morrow notch to the known prior setting while district checks current flows and fire/nursery consequence;
-  3. do **not** interpret this as a ruling that north is entitled to more water or that Morrow's loss is unimportant.
-- Greg explicitly acknowledges restoring the notch may worsen Row Four fruit loss.
-- Key position: if a painless setting existed, the room would not be necessary.
-
-## Temporary next action
-- Helena pushes a one-day evidence-building compromise:
-  - restore the one notch;
-  - district checks current readings;
-  - Morrow counts fresh Row Four fruit drop by row;
-  - north sends nursery/fire-cistern board reading;
-  - then argue restriction with actual current information.
-- Garrick reluctantly agrees: **one notch back until tomorrow's reading**.
-- This is not a final resolution or clean win.
-- Some fruit may drop while people measure; north risk may or may not materially change.
-
-## Greg / Jonah adventure beat
-- Jonah asks whether Greg liked the trip.
-- Greg initially hedges, then answers **yes**.
-- He recognizes he liked not knowing exactly what each day would require, not because danger itself was good but because distance changed the questions and exposed systems he did not yet understand.
-- This is an important adventure-progression beat: the away arc is no longer merely something happening to Greg. He has begun to want the next unknown road.
-
-## Quest residue / route note
-- District gives Greg a receipt proving sample accepted into transport; keep until file closes.
-- Greg fulfills Mabel's promised exchange by making a route-only copy with date/observed conditions/no guarantee. Jonah will carry it to White Reed.
-- Garrick remains angry/tired but not villainized.
-- Helena remains active and increasingly important as practical bridge between orchard stakes and legible evidence.
-- District analysis/current readings remain pending.
-
-## Economy / body / magic / tools
-- Cash **24c / 23c Vale / bits unspecified**.
-- Temporary 10c floor active; 14c above floor.
-- 20c limb deposit remains paid toward 1 silver + 18c work-limb quote.
-- Right shoulder still bruised/painful; standing through meeting worsens throbbing but no new injury.
+## Morrow departure
+- Greg begins **24c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**.
+- Right shoulder remains bruised but is modestly improving; crutch load remains stable, overhead movement still poor.
 - Trial limb remains wrapped/unused.
-- Protocol remains **59 minimal / 53 shaping / 139 external**.
+- Morrow continues counting fruit and waiting on district readings; Greg deliberately does not re-enter the water dispute because his contract is finished.
+- Garrick gives a small tired acknowledgment rather than another argument.
+- Helena provides ordinary departure breakfast; Jonah takes Mabel's promised route-note copy to White Reed and asks Greg to return sometime.
+
+## Morrow -> Lakeward economics
+- Greg pays **2c** for maintained-road cart back to Lakeward: 24c -> 22c.
+- He chooses a **2c Glass Yard bunk** rather than the absolute cheapest floor: 22c -> 20c.
+- This is a small but real progression signal: he has enough liquidity to make modest comfort/route choices without immediately hunting a bench job.
+- Temporary 10c floor remains active.
+
+## Home note
+Greg posts:
+`Morrow job done. Reached Mirror Spring by old route through White Reed, Sleeping Stone, and Three Sisters. Route partly broken but a lower maintenance bypass still exists under some conditions. Brought sealed sample back. District accepted it for transport. Water dispute not solved. Contract paid 12c. Cash now 20c after travel and bunk, Vale 23c. Shoulder bruised from route accident but improving. Trial build healthy, not used on rough path. Not heading home yet. I liked the trip more than I expected. - Greg`
+- Postage uses bits only.
+- The admission `I liked the trip more than I expected` is durable emotional progression.
+
+## Lakeward artifact market / Three Rays
+- Greg can now browse artifact stalls without first needing immediate wage income.
+- He encounters an unnamed seller with an incomplete **brass half-wheel road device**:
+  - three slots;
+  - one cloudy glass strip;
+  - fine inner tooth track;
+  - stamped mark of **three short lines over a circle**;
+  - estate provenance from east ridge cartman's family;
+  - seller asks **9c**;
+  - salvage floor is materially visible (brass + old glass + intact teeth), so price is not seller stupidity.
+- Seller calls it a `road memory frame` based on estate labeling but does not claim verified function.
+
+## Echo Step / Sunwheel Roadworks
+- A second unnamed specialist seller has an incomplete black stone disk labeled **ECHO STEP / INCOMPLETE / NO PAIR / 18C**.
+- It bears the same three-lines-over-circle maker mark.
+- Seller identifies the school as **Sunwheel Roadworks** in Lakeward catalogs, locally called **Three Rays**.
+- Old Three Rays systems reportedly included paired stones, route disks/strips, or reader frames used on old east roads.
+- The orphan disk alone has no known useful response; price reflects collector/maker value and uncracked body, not hidden miracle.
+- Complete matched route systems reportedly sell for **silver-level prices**, with one remembered complete example selling for roughly **two silver and change** after demonstrating some form of route-position confirmation.
+- Exact capabilities remain uncertain and may vary by generation/maker.
+
+## Sunroad Cut lead
+- Greg pays **1 bit** for specific market information.
+- Lead: old **Sunroad Cut**, east of Lakeward beyond the **Bracken Vale** road split.
+- Modern traffic goes south around the ridge.
+- Old bridge washed out years ago; upper road is reportedly partly walkable from the west according to collectors/road hobbyists.
+- Three Rays pieces are still sometimes found there.
+- Old saying/story fragment: **`Sunroad never lost a traveler who kept three shadows.`**
+- Possible meanings remain open:
+  - timing/shadow-based route instruction;
+  - relation to Three Rays maker symbol;
+  - later romantic folklore after infrastructure decline;
+  - coincidence.
+- Do not treat saying as literal artifact instruction yet.
+
+## Artifact decision / economic pull
+- Greg returns to the 9c half-wheel after learning more.
+- At current cash 20c, buying it would leave only 11c, one copper above his floor.
+- Evidence is still too weak to justify the purchase despite strong curiosity.
+- Greg correctly **does not buy it**.
+- This is a real progression win: he wants the object but protects liquidity and chooses to seek better information first.
+- Notebook:
+  - `Three Rays / Sunwheel Roadworks. Old east-road school. Matching route systems collector-valued. Half-wheel possible marker reader, incomplete, 9c. Echo Step orphan disk 18c. Complete sets reportedly silver+. Sunroad Cut east past Bracken Vale split; old bridge washed, upper road partly walkable from west per collector traffic. Saying: Sunroad never lost a traveler who kept three shadows. Meaning unknown.`
+  - `Do not buy incomplete hardware just because it has a story.`
+  - `But maybe go look at road.`
+
+## Next route commitment
+- Lakeward board offers **Bracken Vale / 4c cart / morning**.
+- Greg buys the morning seat: **20c -> 16c**.
+- Temporary 10c floor remains active with 6c above it.
+- This route choice is voluntary and curiosity-driven rather than contract-driven.
+- Weather: dry tomorrow, early east-ridge fog, no rain watch.
+
+## Body / magic / tools
+- Shoulder continues improving but is not healed.
+- Trial limb is unwrapped only for inspection; dry/intact, no wear Ch466.
+- Magic remains **59 / 53 / 139**; Greg deliberately does not turn emergency 139 into scheduled homework.
 - Lot 67 remains packed/unused.
-- Greg sleeps in Morrow packing-shed loft after contract completion because Helena frames it as hospitality after he returned injured carrying their bottle; no lodging charge.
+- Existing road/artifact tools remain carried.
 
 ## Protected uncertainties
-- Greg ends Ch465 at **Morrow Orchard**, after the field contract has been paid.
-- Cash **24c**, Vale **23c**, bits unspecified.
+- Greg ends Ch466 at **Lakeward Glass Yard bunk**, with a paid morning cart seat to **Bracken Vale**.
+- Cash **16c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 139**.
-- Sample is no longer in Greg's possession; it is accepted into district transport to Lakeward.
-- Sample analysis remains unknown.
-- Current actual Mirror flow rate remains unknown.
-- Intermediate channel-loss location/cause remains unknown.
-- One-notch Morrow gate change is being restored temporarily pending readings, not permanently adjudicated.
-- East diversion is authorized under ordinary seasonal schedule up to written share, but actual current draw and any drought restriction remain unresolved.
-- Shoulder remains sore.
+- Shoulder bruised but improving.
+- Trial limb healthy/wrapped.
+- Half-wheel road device remains unpurchased at Lakeward stall for 9c.
+- Echo Step orphan disk remains unpurchased at 18c.
+- Three Rays/Sunwheel Roadworks exact system functions remain uncertain.
+- Sunroad Cut current condition unknown beyond market hearsay: bridge washed, upper road partly walkable from west.
+- No contract/job attached to Sunroad Cut.
 - No permanent companion.
 
-## Chapter 466 trailhead
-Follow next actual claim from Ch465/current authority.
+## Chapter 467 trailhead
+Follow next actual claim from Ch466/current authority.
 
-Greg begins **24c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**, at Morrow Orchard after his first substantial away-arc quest has been field-completed and paid.
+Greg begins **16c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**, at Lakeward before morning departure to **Bracken Vale**.
 
 Strong movement:
-- Do **not** immediately turn Ch466 into another Morrow committee chapter. The human conflict can continue in background and through later consequences, but Greg's direct field contract is done.
-- Give the completed quest a little residue and then **open the next adventure door**. Greg now has enough cash to choose movement without first doing a tiny bench job.
-- Lakeward is the natural near-term return because district sample/readings and broader routes converge there, but Greg does not have to sit and await final analysis.
-- Preserve his new internal admission: he liked the adventure. Let that subtly alter route selection. When presented with a safe/direct route and a stranger/more interesting route, he may now consciously value the latter if cost/risk are reasonable.
-- The Hawaiian/moʻolelo-like adventure progression should continue through place-memory, named landscapes, reciprocal land/water obligations, stories preserving practical geography, and regional tales that can point toward real journeys without requiring literal myth reenactment.
-- Look for the next story/place claim that can pull Greg farther from Carrow and into a larger quest, ideally with a different grammar than water investigation.
-- Artifacts remain a strong route. A future quest may involve a unique object, old infrastructure, provenance, retrieval, repair, or a place whose story points toward material evidence.
-- Periodic action-pressure workflow remains active. Ch465 was socially intense and recent Ch461 had major physical action, so Ch466 need not force action immediately.
-- Shoulder needs recovery. Trial limb can remain rested until stable dry use is sensible.
-- Greg's 24c gives route optionality but is still nowhere near the 1 silver + 18c limb balance; money ambition remains alive.
-- Consider a home note after reaching Lakeward or when post access is convenient, especially because this was his first real multi-day quest.
+- Take the paid Bracken Vale cart. Let the next chapter materially move east rather than return to Lakeward market immediately.
+- Greg is following curiosity, possible artifact provenance, and an old road story. Preserve this as a different adventure grammar from Mirror Spring's paid water contract.
+- Bracken Vale should have its own identity and should not merely be a transfer sign.
+- Verify what locals actually know about Sunroad Cut, Three Rays/Sunwheel pieces, the washed bridge, and the `three shadows` saying. Story versions may disagree.
+- Avoid buying a guide/party instantly. Greg may seek route knowledge, maps, road workers, collectors, or locals, but he remains solo unless story earns otherwise.
+- The 9c half-wheel can remain a motivating missed object. Do not conveniently reserve it for Greg or make seller hold it.
+- Artifact progression should remain economically real. If Sunroad Cut contains recoverable Three Rays material, obvious intact valuable pieces should not simply lie on road unclaimed without explanation.
+- Strong explanations for remaining material could include inaccessible sections, dangerous terrain, misidentified/incomplete pieces, legal salvage ambiguity, flood burial, route closure, collector competition, or pieces whose value depends on matching/interpretation.
+- Consider whether the old road itself once used artifacts to encode position, timing, fog navigation, or route confirmation. Do not reveal full system too quickly.
+- `three shadows` may rhyme with the previous Three Sisters shadow lesson, but avoid making every old story use identical mechanism.
+- Shoulder recovery should continue. Trial limb may return only on stable dry terrain if sensible.
+- Periodic action pressure is active, but Ch467 may emphasize discovery/travel unless an organic road hazard arises.
+- Greg now has only 6c above floor after prepaid seat, so another major purchase requires either more income, deliberate floor revision, or stronger value evidence.
 
 Avoid:
-- resolving the entire Morrow dispute next morning;
-- sending Greg directly home because quest finished;
-- immediately accepting an identical second water-sampling job;
-- chosen-one escalation;
-- a free powerful artifact;
-- forgetting shoulder recovery;
-- unnecessary named NPCs;
-- turning his new taste for adventure into recklessness.
+- finding a complete two-silver artifact sitting free beside road;
+- chosen-one artifact recognition;
+- another immediate community water dispute;
+- instant full explanation of Three Rays technology;
+- needless named NPC proliferation;
+- forgetting that Greg consciously chose this road because he wanted the unknown.
 
-**MANDATORY TITLE CHECK CH466:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
+**MANDATORY TITLE CHECK CH467:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
