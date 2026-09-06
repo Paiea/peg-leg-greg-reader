@@ -3,7 +3,7 @@ name: Integrate chapter role titles
 on:
   push:
     branches:
-      - editor/chapter-title-role-integration
+      - editor/chapter-title-role-integration-current
     paths:
       - 'scripts/apply_chapter_role_titles.py'
       - 'scripts/docx_chapter_heading.py'
@@ -16,7 +16,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: chapter-role-title-integration
+  group: chapter-role-title-integration-current
   cancel-in-progress: true
 
 jobs:
@@ -166,4 +166,4 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add scripts/apply_chapter_role_titles.py scripts/docx_chapter_heading.py tests/test_chapter_role_title_integration.py tests/test_docx_chapter_heading.py .github/workflows/chapter-role-title-integration.yml state/manuscript state/MANUSCRIPT_CHAPTER_INDEX.md state/CHAPTER_TITLE_ROLE_AUDIT.md state/chapter-title-role-audit chapters light index.html light.html latest.html exports/notebooklm
           git commit -m 'Normalize chapter titles to Greg roles'
-          git push origin HEAD:editor/chapter-title-role-integration
+          git push origin HEAD:editor/chapter-title-role-integration-current
