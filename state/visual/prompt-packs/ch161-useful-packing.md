@@ -1,30 +1,30 @@
-# Illustration Prompt Pack — ch160-fish-twitch
+# Illustration Prompt Pack — ch161-useful-packing
 
-**Chapter:** 160 — THE SWORD
+**Chapter:** 161 — THE PLAYER
 **Kind:** `chapter_illustration`
 **Fit target:** `exact`
 **Spoiler level:** `low`
-**Paragraph anchor:** The fish had done more work than I had.
+**Paragraph anchor:** Eventually I ended up beside the rear wheel holding the fish, my own bag, and a bundle of cloth that did not belong to me.
 
 ## Scene brief
 
-During the improvised private performance, Marek holds the wooden fish toward Greg-as-Sword and asks him to cut it; Greg says it is already dead, then the spring-loaded fish twitches at exactly the right moment and breaks the room.
+During pack-out from the estate, Greg ends up beside the wagon rear wheel holding Pell's wooden fish, his own bag, and an unexplained bundle of cloth while Nessa keeps redirecting him out of the working lanes.
 
 ## Visual hook
 
-Marek holding the painted wooden fish toward Greg as it unexpectedly twitches, Serra and the private audience reacting around them, all in the close polished salon performance space.
+Greg crowded with the ridiculous fish, bag, and cloth bundle beside a wagon while Nessa passes with costume bundles and practical pack-out traffic moves around them.
 
 ## Prompt construction
 
 ### GENERATION METADATA
 - Framing: `above_waist`
 - View angle: `three_quarter`
-- Pose family: `performance_reaction`
-- Scene tags: private_performance, salon, comedy, prop, theatre
+- Pose family: `loaded_hands_work`
+- Scene tags: packing, wagon, travel, prop, work, comedy
 - Preserve these metadata values into the generation queue and registry when the generated asset is intaked. They are continuity/diversity guidance, not permission to contradict the manuscript.
 
 ### SUBJECT + ACTION
-Characters: Greg, Marek, Serra. Show them doing the physical action implied by the scene rather than posing for a portrait.
+Characters: Greg, Nessa, Pell. Show them doing the physical action implied by the scene rather than posing for a portrait.
 
 ### CAMERA
 Choose a composition that avoids default centered eye-level two-person staging. Rotate wide/medium/close and camera height to suit the scene while honoring the declared framing/view-angle guidance above.
@@ -33,13 +33,13 @@ Choose a composition that avoids default centered eye-level two-person staging. 
 Use a meaningful prop, doorway, furniture edge, fabric, stage object, cart, hand, crutch, or other manuscript-supported foreground shape when useful.
 
 ### ENVIRONMENTAL MOVEMENT
-Location: Lady Merra's private salon performance. Mood: comic, intimate, improvisational. Use posture, clothing, traffic, weather, smoke, fabric, doors, sightlines, or work activity to create directional energy.
+Location: estate carriage bay during company pack-out. Mood: busy, comic, increasingly competent. Use posture, clothing, traffic, weather, smoke, fabric, doors, sightlines, or work activity to create directional energy.
 
 ### EYE PATH
 Design where the eye enters, how motion carries it, and where it lands. Quiet scenes should still have directional flow unless deliberate stillness is the point.
 
 ### MANUSCRIPT DETAILS
-Stay inside this scene summary and hook. Do not invent plot facts beyond the candidate. Visual hook: Marek holding the painted wooden fish toward Greg as it unexpectedly twitches, Serra and the private audience reacting around them, all in the close polished salon performance space.
+Stay inside this scene summary and hook. Do not invent plot facts beyond the candidate. Visual hook: Greg crowded with the ridiculous fish, bag, and cloth bundle beside a wagon while Nessa passes with costume bundles and practical pack-out traffic moves around them.
 
 ### CONTINUITY
 - Preserve manuscript-established age, body, clothing, props, and setting details.
@@ -51,6 +51,6 @@ Stay inside this scene summary and hook. Do not invent plot facts beyond the can
 
 ## Output target
 
-- Prompt pack: `state/visual/prompt-packs/ch160-fish-twitch.md`
-- Suggested asset id: `ch160-fish-twitch-v1`
-- Suggested live chapter folder: `visual/chapter_art/160/`
+- Prompt pack: `state/visual/prompt-packs/ch161-useful-packing.md`
+- Suggested asset id: `ch161-useful-packing-v1`
+- Suggested live chapter folder: `visual/chapter_art/161/`

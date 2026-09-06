@@ -4,7 +4,7 @@
 **Kind:** `chapter_illustration`
 **Fit target:** `exact`
 **Spoiler level:** `low`
-**Paragraph anchor:** Pell was under the stage.
+**Paragraph anchor:** He was under the stage.
 
 ## Scene brief
 

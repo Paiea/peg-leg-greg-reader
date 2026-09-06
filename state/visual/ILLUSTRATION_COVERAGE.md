@@ -14,17 +14,17 @@
 ## Production queue
 
 - Candidate, needs prompt pack: 0
-- Prompt ready / generation ready: 15
+- Prompt ready / generation ready: 20
 - Generated, awaiting approval: 0
 - Approved but unpublished: 0
 - Rejected generation attempts: 0
-- Zero-art chapters with no active candidate: 259
+- Zero-art chapters with no active candidate: 254
 - Registry live records: 357
 
 ## Next actionable chapters
 
-- Need scene candidates: 161, 162, 163, 164, 165, 166, 167, 168, 169, 170
-- Ready to generate: 156, 157, 158, 159, 160, 390, 391, 392, 393, 394
+- Need scene candidates: 166, 167, 168, 169, 170, 171, 172, 173, 174, 175
+- Ready to generate: 156, 157, 158, 159, 160, 161, 162, 163, 164, 165
 - Waiting for image approval: none
 
 ## Migration status

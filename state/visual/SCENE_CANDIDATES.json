@@ -5,7 +5,11 @@
     "chapter_title": "THE ADVOCATE",
     "scene_summary": "Greg cannot carry the forged order while using both crutches, so Nessa solves the staging problem by taking the document and shoving it inside the front of his Advocate coat while Iven watches.",
     "visual_hook": "A practical backstage fix centered on hands, paper, coat, and crutches: Nessa briskly tucking the forged order into Greg's coat while Greg reacts and Iven stands nearby.",
-    "characters": ["Greg", "Nessa", "Iven"],
+    "characters": [
+      "Greg",
+      "Nessa",
+      "Iven"
+    ],
     "location": "theatre stage/backstage during rehearsal",
     "mood": "practical, dryly comic, busy",
     "priority": "high",
@@ -17,8 +21,15 @@
     "framing_preference": "above_waist",
     "view_angle": "three_quarter",
     "pose_family": "working_handoff",
-    "scene_tags": ["backstage", "theatre", "work", "prop"],
-    "notes": "Coverage backfill for an older zero-art chapter. Keep Greg above waist; the visual point is the staging solution, not lower-body state."
+    "scene_tags": [
+      "backstage",
+      "theatre",
+      "work",
+      "prop"
+    ],
+    "notes": "Coverage backfill for an older zero-art chapter. Keep Greg above waist; the visual point is the staging solution, not lower-body state.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1
   },
   {
     "id": "ch157-two-swords",
@@ -26,7 +37,11 @@
     "chapter_title": "THE TABLE",
     "scene_summary": "During the Sword scene, Marek accidentally enters carrying the actual prop sword while Greg is already mounted as the talking Sword, leaving Serra to face two swords in the same scene for one horrible comic beat.",
     "visual_hook": "Serra between Greg-as-Sword and Marek holding a second prop sword, with the audience-facing stage geometry making the accidental duplication instantly readable.",
-    "characters": ["Greg", "Serra", "Marek"],
+    "characters": [
+      "Greg",
+      "Serra",
+      "Marek"
+    ],
     "location": "small theatre stage",
     "mood": "comic, improvised, precarious",
     "priority": "high",
@@ -38,8 +53,15 @@
     "framing_preference": "above_waist",
     "view_angle": "over_shoulder",
     "pose_family": "performance_prop",
-    "scene_tags": ["stage", "theatre", "comedy", "prop"],
-    "notes": "Use composition to make the duplicate-sword joke clear without needing unnecessary lower-body detail on Greg."
+    "scene_tags": [
+      "stage",
+      "theatre",
+      "comedy",
+      "prop"
+    ],
+    "notes": "Use composition to make the duplicate-sword joke clear without needing unnecessary lower-body detail on Greg.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1
   },
   {
     "id": "ch158-letter-lyssa",
@@ -47,7 +69,9 @@
     "chapter_title": "THE RETURNER",
     "scene_summary": "With several free hours in town, Greg sits at a market writing table and writes a letter to Lyssa, surrounded by paper, stalls, wet streets, buttons, and the ordinary bustle of the square.",
     "visual_hook": "An intimate over-shoulder market-writing scene: Greg at a small public writing table with folded paper, ink, wet-town market life behind him, and the quiet weight of the letter to Lyssa.",
-    "characters": ["Greg"],
+    "characters": [
+      "Greg"
+    ],
     "location": "narrow market square after rain",
     "mood": "quiet, affectionate, ordinary-life warmth",
     "priority": "high",
@@ -59,8 +83,16 @@
     "framing_preference": "above_waist",
     "view_angle": "over_shoulder",
     "pose_family": "writing_seated",
-    "scene_tags": ["market", "letter", "daylight", "quiet", "ordinary_life"],
-    "notes": "Useful quieter coverage beat that preserves Greg continuity while varying away from performance poses."
+    "scene_tags": [
+      "market",
+      "letter",
+      "daylight",
+      "quiet",
+      "ordinary_life"
+    ],
+    "notes": "Useful quieter coverage beat that preserves Greg continuity while varying away from performance poses.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1
   },
   {
     "id": "ch159-fish-rescue",
@@ -68,7 +100,10 @@
     "chapter_title": "THE PRIVATE PLAYER",
     "scene_summary": "While the company packs to leave town, Greg finds Pell under the stage searching for the spring-loaded wooden fish, which has been wedged behind a support and must apparently be rescued because it belongs to the company.",
     "visual_hook": "A cramped low backstage view through stage supports: Pell reaching for the ridiculous wooden fish while Greg leans into the space, departure clutter and prop chaos around them.",
-    "characters": ["Greg", "Pell"],
+    "characters": [
+      "Greg",
+      "Pell"
+    ],
     "location": "under the theatre stage during pack-out",
     "mood": "comic, cramped, affectionate chaos",
     "priority": "high",
@@ -80,8 +115,16 @@
     "framing_preference": "above_waist",
     "view_angle": "through_foreground_supports",
     "pose_family": "reaching_retrieval",
-    "scene_tags": ["backstage", "departure", "prop", "comedy", "work"],
-    "notes": "Let stage beams and clutter create composition. Greg can stay above waist while Pell and the fish carry the physical joke."
+    "scene_tags": [
+      "backstage",
+      "departure",
+      "prop",
+      "comedy",
+      "work"
+    ],
+    "notes": "Let stage beams and clutter create composition. Greg can stay above waist while Pell and the fish carry the physical joke.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1
   },
   {
     "id": "ch160-fish-twitch",
@@ -89,7 +132,11 @@
     "chapter_title": "THE SWORD",
     "scene_summary": "During the improvised private performance, Marek holds the wooden fish toward Greg-as-Sword and asks him to cut it; Greg says it is already dead, then the spring-loaded fish twitches at exactly the right moment and breaks the room.",
     "visual_hook": "Marek holding the painted wooden fish toward Greg as it unexpectedly twitches, Serra and the private audience reacting around them, all in the close polished salon performance space.",
-    "characters": ["Greg", "Marek", "Serra"],
+    "characters": [
+      "Greg",
+      "Marek",
+      "Serra"
+    ],
     "location": "Lady Merra's private salon performance",
     "mood": "comic, intimate, improvisational",
     "priority": "high",
@@ -101,8 +148,16 @@
     "framing_preference": "above_waist",
     "view_angle": "three_quarter",
     "pose_family": "performance_reaction",
-    "scene_tags": ["private_performance", "salon", "comedy", "prop", "theatre"],
-    "notes": "Keep the fish and facial reactions central. Greg's lower body is not needed to sell the beat."
+    "scene_tags": [
+      "private_performance",
+      "salon",
+      "comedy",
+      "prop",
+      "theatre"
+    ],
+    "notes": "Keep the fish and facial reactions central. Greg's lower body is not needed to sell the beat.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1
   },
   {
     "id": "ch161-useful-packing",
@@ -110,7 +165,11 @@
     "chapter_title": "THE PLAYER",
     "scene_summary": "During pack-out from the estate, Greg ends up beside the wagon rear wheel holding Pell's wooden fish, his own bag, and an unexplained bundle of cloth while Nessa keeps redirecting him out of the working lanes.",
     "visual_hook": "Greg crowded with the ridiculous fish, bag, and cloth bundle beside a wagon while Nessa passes with costume bundles and practical pack-out traffic moves around them.",
-    "characters": ["Greg", "Nessa", "Pell"],
+    "characters": [
+      "Greg",
+      "Nessa",
+      "Pell"
+    ],
     "location": "estate carriage bay during company pack-out",
     "mood": "busy, comic, increasingly competent",
     "priority": "high",
@@ -122,8 +181,17 @@
     "framing_preference": "above_waist",
     "view_angle": "three_quarter",
     "pose_family": "loaded_hands_work",
-    "scene_tags": ["packing", "wagon", "travel", "prop", "work", "comedy"],
-    "notes": "Keep Greg above waist and let the pile of objects and surrounding work sell the joke instead of exposing unnecessary lower-body state."
+    "scene_tags": [
+      "packing",
+      "wagon",
+      "travel",
+      "prop",
+      "work",
+      "comedy"
+    ],
+    "notes": "Keep Greg above waist and let the pile of objects and surrounding work sell the joke instead of exposing unnecessary lower-body state.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1
   },
   {
     "id": "ch162-market-awakens",
@@ -131,7 +199,9 @@
     "chapter_title": "THE STREET PLAYER",
     "scene_summary": "After the company clears the warehouse, Greg eats breakfast at the edge of the square while the morning market rapidly assembles around him with carts, awnings, fish trays, chickens, smoke, and shouting vendors.",
     "visual_hook": "Greg in the foreground with bread or apple as an empty village square transforms into a dense working market behind him, full of carts, awnings, fish, chickens, and low sausage smoke.",
-    "characters": ["Greg"],
+    "characters": [
+      "Greg"
+    ],
     "location": "village market square at morning setup",
     "mood": "observant, lively, ordinary-life bustle",
     "priority": "high",
@@ -143,8 +213,16 @@
     "framing_preference": "above_waist",
     "camera_angle": "eye_level_wide",
     "pose_family": "observing_market",
-    "scene_tags": ["market", "street", "crowd", "travel", "ordinary_life"],
-    "notes": "Use Greg as a stable foreground identity anchor while the market carries most of the visual energy."
+    "scene_tags": [
+      "market",
+      "street",
+      "crowd",
+      "travel",
+      "ordinary_life"
+    ],
+    "notes": "Use Greg as a stable foreground identity anchor while the market carries most of the visual energy.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1
   },
   {
     "id": "ch163-mill-arrival",
@@ -152,7 +230,10 @@
     "chapter_title": "THE MILL PLAYER",
     "scene_summary": "The company reaches a working riverside mill where a stone channel drives a broad spray-darkened wheel, grain wagons crowd the bridge, and flour dust coats roofs, carts, workers, and yard edges.",
     "visual_hook": "A strong environmental arrival shot with Greg in the foreground looking toward the sluice and dark waterwheel while flour-dusted workers and grain wagons make the mill feel fully operational.",
-    "characters": ["Greg", "Teren"],
+    "characters": [
+      "Greg",
+      "Teren"
+    ],
     "location": "working riverside mill settlement",
     "mood": "industrial, noisy, fascinated",
     "priority": "high",
@@ -164,8 +245,17 @@
     "framing_preference": "above_waist",
     "camera_angle": "wide_establishing",
     "pose_family": "arrival_observation",
-    "scene_tags": ["mill", "industrial", "river", "arrival", "travel", "work"],
-    "notes": "Let infrastructure dominate the composition. Greg can remain above waist in the foreground while the mill supplies scale and movement."
+    "scene_tags": [
+      "mill",
+      "industrial",
+      "river",
+      "arrival",
+      "travel",
+      "work"
+    ],
+    "notes": "Let infrastructure dominate the composition. Greg can remain above waist in the foreground while the mill supplies scale and movement.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1
   },
   {
     "id": "ch164-kest-pig-sign",
@@ -173,7 +263,10 @@
     "chapter_title": "THE PROSPECTOR",
     "scene_summary": "The company reaches Kest on the day before market, passing a roadside sign that says MARKET TOMORROW and NO PIGS IN EAST YARD while a pig stands visibly in the east yard anyway.",
     "visual_hook": "A dry comic town-arrival image: the painted KEST sign and NO PIGS IN EAST YARD notice in clear view, market pens beyond it, and one completely unbothered pig violating the rule.",
-    "characters": ["Greg", "Marek"],
+    "characters": [
+      "Greg",
+      "Marek"
+    ],
     "location": "western edge of Kest before market day",
     "mood": "dryly comic, observant, travel-worn",
     "priority": "high",
@@ -185,8 +278,16 @@
     "framing_preference": "above_waist",
     "camera_angle": "sign_foreground_wide",
     "pose_family": "arrival_observation",
-    "scene_tags": ["town", "market", "livestock", "travel", "comedy"],
-    "notes": "Keep the sign and pig readable at a glance. Greg's lower body is not needed for the visual joke."
+    "scene_tags": [
+      "town",
+      "market",
+      "livestock",
+      "travel",
+      "comedy"
+    ],
+    "notes": "Keep the sign and pig readable at a glance. Greg's lower body is not needed for the visual joke.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1
   },
   {
     "id": "ch165-goat-theft",
@@ -194,7 +295,10 @@
     "chapter_title": "THE DRAW",
     "scene_summary": "During the crowded market Sword set, a goat reaches through the sheep fence behind Greg and bites the bottom of the mounting cloth while Serra keeps feeding him lines and the crowd notices the theft before he does.",
     "visual_hook": "Greg-as-Sword and Serra mid-performance in a packed livestock market while a goat tugs the mounting cloth from behind, with baskets, onlookers, onions, and the collection bowl making the street-show chaos legible.",
-    "characters": ["Greg", "Serra"],
+    "characters": [
+      "Greg",
+      "Serra"
+    ],
     "location": "Kest south market edge beside livestock pens",
     "mood": "comic, crowded, improvisational",
     "priority": "high",
@@ -206,8 +310,17 @@
     "framing_preference": "above_waist",
     "view_angle": "side_three_quarter",
     "pose_family": "mounted_performance",
-    "scene_tags": ["market", "performance", "livestock", "comedy", "crowd", "theatre"],
-    "notes": "Frame Greg above waist while keeping the goat, cloth, Serra, and crowd reaction readable. The joke does not require lower-body state."
+    "scene_tags": [
+      "market",
+      "performance",
+      "livestock",
+      "comedy",
+      "crowd",
+      "theatre"
+    ],
+    "notes": "Frame Greg above waist while keeping the goat, cloth, Serra, and crowd reaction readable. The joke does not require lower-body state.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1
   },
   {
     "id": "ch390-root-drag",
@@ -215,7 +328,14 @@
     "chapter_title": "THE PASSENGER",
     "scene_summary": "Greg's boat party reaches a strange drag in the Alder Basin channel where flattened reeds point upstream, two skiffs wait nearby, and Maro tests the water with a narrow brass disk.",
     "visual_hook": "A narrow reed channel, two waiting skiffs, flattened reeds pointing the wrong way, an irritated goat, and Maro suspending a brass disk over dark water while Greg watches from the boat.",
-    "characters": ["Greg", "Maro", "Kel", "Vessa", "Dask", "Sori"],
+    "characters": [
+      "Greg",
+      "Maro",
+      "Kel",
+      "Vessa",
+      "Dask",
+      "Sori"
+    ],
     "location": "Alder Basin reed channel",
     "mood": "watchful, strange, practical",
     "priority": "high",
@@ -224,7 +344,9 @@
     "spoiler_level": "low",
     "status": "prompt_ready",
     "paragraph_anchor": "Maro took narrow brass disk from black case.",
-    "notes": "Strong environment, object action, and directional mystery without requiring a major reveal."
+    "notes": "Strong environment, object action, and directional mystery without requiring a major reveal.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1
   },
   {
     "id": "ch391-nessa-arrival",
@@ -232,7 +354,10 @@
     "chapter_title": "THE FOLLOWER",
     "scene_summary": "Before dawn, Nessa arrives at camp in a gray scarf and waxed coat, one boot whitened with slurry, carrying a three-pronged brass fork and looking personally offended by the basin's construction.",
     "visual_hook": "Cold pre-dawn camp light, travel-worn Nessa with a long three-pronged brass instrument, pale slurry on one boot, and Greg meeting her beside the camp gear.",
-    "characters": ["Greg", "Nessa"],
+    "characters": [
+      "Greg",
+      "Nessa"
+    ],
     "location": "Alder Basin camp before dawn",
     "mood": "dryly comic, tired, purposeful",
     "priority": "high",
@@ -241,7 +366,9 @@
     "spoiler_level": "low",
     "status": "prompt_ready",
     "paragraph_anchor": "She carried a three-pronged brass fork almost as long as my forearm and looked furious at architecture.",
-    "notes": "Character entrance with a strong prop and distinctive silhouette."
+    "notes": "Character entrance with a strong prop and distinctive silhouette.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1
   },
   {
     "id": "ch391-ropewalk",
@@ -249,7 +376,12 @@
     "chapter_title": "THE FOLLOWER",
     "scene_summary": "Greg and the others cross the elevated basin ropewalk, a long timber-and-iron wall route with freight cages and open iron grating that forces Greg to place his crutches carefully.",
     "visual_hook": "High industrial catwalk over the basin, open iron grate under Greg's crutches, freight cages and counterweights nearby, with the route stretching far into the distance.",
-    "characters": ["Greg", "Nessa", "Dask", "Sori"],
+    "characters": [
+      "Greg",
+      "Nessa",
+      "Dask",
+      "Sori"
+    ],
     "location": "Alder Basin elevated ropewalk",
     "mood": "exposed, mechanical, focused",
     "priority": "high",
@@ -258,7 +390,9 @@
     "spoiler_level": "low",
     "status": "prompt_ready",
     "paragraph_anchor": "Second turned to open iron grate.",
-    "notes": "Excellent disability-aware movement scene and an opportunity for a strong high-angle or low-angle composition."
+    "notes": "Excellent disability-aware movement scene and an opportunity for a strong high-angle or low-angle composition.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1
   },
   {
     "id": "ch392-glass-mice",
@@ -266,7 +400,9 @@
     "chapter_title": "THE CAMPER",
     "scene_summary": "At night, tiny gray Glasswake mice with faint blue-white incisors investigate the camp food box while Greg notices them from beside the fire ring.",
     "visual_hook": "Small gray mice at the food box, their teeth glowing faint blue-white in the dark, low firelight, camp clutter, and Greg watching with a crutch within reach.",
-    "characters": ["Greg"],
+    "characters": [
+      "Greg"
+    ],
     "location": "Alder Basin camp at night",
     "mood": "quiet, eerie, slightly funny",
     "priority": "high",
@@ -275,7 +411,9 @@
     "spoiler_level": "low",
     "status": "prompt_ready",
     "paragraph_anchor": "Glass mice.",
-    "notes": "Compact creature scene with strong lighting and immediate visual identity."
+    "notes": "Compact creature scene with strong lighting and immediate visual identity.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1
   },
   {
     "id": "ch392-reed-hounds",
@@ -283,7 +421,10 @@
     "chapter_title": "THE CAMPER",
     "scene_summary": "A tan, long-legged reed hound appears at the edge of moonlight beyond the drainage while Greg watches from camp, with more shapes implied in the reeds and Maro ready to drive them off with noise.",
     "visual_hook": "A narrow-chested, dog-like silhouette on too-long legs at the moonlit reed edge, dark drainage water between it and camp, Greg watching from the foreground.",
-    "characters": ["Greg", "Maro"],
+    "characters": [
+      "Greg",
+      "Maro"
+    ],
     "location": "Alder Basin camp drainage and reed edge",
     "mood": "tense, nocturnal, uncanny",
     "priority": "high",
@@ -292,7 +433,9 @@
     "spoiler_level": "low",
     "status": "prompt_ready",
     "paragraph_anchor": "Reed hound.",
-    "notes": "Creature reveal with clean foreground-background staging and strong moonlight potential."
+    "notes": "Creature reveal with clean foreground-background staging and strong moonlight potential.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1
   },
   {
     "id": "ch393-west-locks",
@@ -300,7 +443,14 @@
     "chapter_title": "THE RECORDER",
     "scene_summary": "Greg's party reaches West Locks, a three-channel lock system cut through pale stone hills with house-tall gates, black iron teeth, stacked walkways, counterweight towers, cranes, and water held at visibly different levels.",
     "visual_hook": "A huge working lock complex with pale masonry, black iron gate teeth, multiple water levels, freight cranes, white signal strips, and Greg's party arriving small against the machinery.",
-    "characters": ["Greg", "Vessa", "Dask", "Sori", "Maro", "Kel"],
+    "characters": [
+      "Greg",
+      "Vessa",
+      "Dask",
+      "Sori",
+      "Maro",
+      "Kel"
+    ],
     "location": "West Locks approach",
     "mood": "industrial, kinetic, slightly overwhelming",
     "priority": "high",
@@ -309,7 +459,9 @@
     "spoiler_level": "low",
     "status": "prompt_ready",
     "paragraph_anchor": "West Locks appeared properly ten minutes later.",
-    "notes": "Large-scale infrastructure shot that expands the visual world instead of centering a conversation."
+    "notes": "Large-scale infrastructure shot that expands the visual world instead of centering a conversation.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1
   },
   {
     "id": "ch393-floor-shine",
@@ -317,7 +469,12 @@
     "chapter_title": "THE RECORDER",
     "scene_summary": "Inside the east gallery, a maintenance shade cloth covers part of the lock wall and floor while pale light moves faintly beneath it and workers keep the survey party to the inner edge without allowing contact.",
     "visual_hook": "Stone lock corridor, yellow chalk boundary, hanging maintenance cloth, and dim pale light glowing through the fabric like moonlight under a bedsheet while the party passes carefully.",
-    "characters": ["Greg", "Dask", "Maro", "Vessa"],
+    "characters": [
+      "Greg",
+      "Dask",
+      "Maro",
+      "Vessa"
+    ],
     "location": "West Locks east gallery",
     "mood": "eerie, restrained, procedural",
     "priority": "high",
@@ -326,7 +483,9 @@
     "spoiler_level": "low",
     "status": "prompt_ready",
     "paragraph_anchor": "Under cloth, pale light moved faintly.",
-    "notes": "Quiet supernatural/environmental image with strong contrast and a clear no-contact boundary."
+    "notes": "Quiet supernatural/environmental image with strong contrast and a clear no-contact boundary.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1
   },
   {
     "id": "ch393-custody-tag",
@@ -334,7 +493,11 @@
     "chapter_title": "THE RECORDER",
     "scene_summary": "A loose brass custody tag slides toward the freight cradle grate and Greg deliberately gives it a tiny external push, changing its angle just enough for it to strike the raised case corner instead of falling through.",
     "visual_hook": "Close action shot of a small brass tag skidding toward an iron grate, black case corner in frame, Greg braced on crutches nearby, and the tag visibly changing path at the last instant.",
-    "characters": ["Greg", "Sori", "Vessa"],
+    "characters": [
+      "Greg",
+      "Sori",
+      "Vessa"
+    ],
     "location": "West Five north freight cradle",
     "mood": "tense, precise, understated",
     "priority": "high",
@@ -343,7 +506,9 @@
     "spoiler_level": "medium",
     "status": "prompt_ready",
     "paragraph_anchor": "The brass tag changed angle.",
-    "notes": "Small but important action beat. Keep the effect subtle rather than turning it into flashy magic."
+    "notes": "Small but important action beat. Keep the effect subtle rather than turning it into flashy magic.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1
   },
   {
     "id": "ch394-mast-creep",
@@ -351,7 +516,13 @@
     "chapter_title": "THE PRACTITIONER",
     "scene_summary": "At the north station mast, a white thread tied to arm two blows with the south wind while the heavy black arm itself slowly creeps west in the wrong direction as Dask measures and Maro checks with his brass disk.",
     "visual_hook": "Three-armed black signal mast on a stone plinth, one white thread streaming with the wind while its arm creeps against it, Dask measuring and Maro holding a brass disk below.",
-    "characters": ["Greg", "Dask", "Maro", "Vessa", "Rett"],
+    "characters": [
+      "Greg",
+      "Dask",
+      "Maro",
+      "Vessa",
+      "Rett"
+    ],
     "location": "North station mast yard",
     "mood": "observational, uncanny, wind-swept",
     "priority": "high",
@@ -360,7 +531,9 @@
     "spoiler_level": "low",
     "status": "prompt_ready",
     "paragraph_anchor": "Arm itself crept west.",
-    "notes": "Good movement-vs-movement composition where the thread and mast arm visibly disagree."
+    "notes": "Good movement-vs-movement composition where the thread and mast arm visibly disagree.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1
   },
   {
     "id": "ch394-brass-washer",
@@ -368,7 +541,14 @@
     "chapter_title": "THE PRACTITIONER",
     "scene_summary": "Behind the station, Greg sits beside his crutches facing a brass washer on a smooth board while Dask marks measurements and the others watch a controlled test; on the third attempt the washer moves cleanly to the right.",
     "visual_hook": "Low, intimate experiment scene with Greg seated, crutches laid beside him, a tiny brass washer on a marked board in the foreground, Dask crouched with measurements, and the group watching without spectacle.",
-    "characters": ["Greg", "Dask", "Vessa", "Maro", "Sori", "Kel"],
+    "characters": [
+      "Greg",
+      "Dask",
+      "Vessa",
+      "Maro",
+      "Sori",
+      "Kel"
+    ],
     "location": "Packed dirt behind north station",
     "mood": "focused, intimate, quietly exciting",
     "priority": "high",
@@ -377,6 +557,8 @@
     "spoiler_level": "medium",
     "status": "prompt_ready",
     "paragraph_anchor": "Washer moved.",
-    "notes": "A restrained progress image. Emphasize measurement, posture, and witness attention rather than visual effects."
+    "notes": "A restrained progress image. Emphasize measurement, posture, and witness attention rather than visual effects.",
+    "anchor_status": "valid",
+    "anchor_match_count": 1
   }
 ]

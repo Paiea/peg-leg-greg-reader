@@ -52,6 +52,56 @@ Generated from manuscript-informed scene candidates plus current Illustrated Rea
 - **Visual hook:** Marek holding the painted wooden fish toward Greg as it unexpectedly twitches, Serra and the private audience reacting around them, all in the close polished salon performance space.
 - **Scene:** During the improvised private performance, Marek holds the wooden fish toward Greg-as-Sword and asks him to cut it; Greg says it is already dead, then the spring-loaded fish twitches at exactly the right moment and breaks the room.
 
+## Chapter 161 — THE PLAYER
+
+- **Candidate:** `ch161-useful-packing`
+- **Kind:** `chapter_illustration`
+- **Priority:** `high`
+- **Current coverage:** 0 images
+- **Fit target:** `exact`
+- **Visual hook:** Greg crowded with the ridiculous fish, bag, and cloth bundle beside a wagon while Nessa passes with costume bundles and practical pack-out traffic moves around them.
+- **Scene:** During pack-out from the estate, Greg ends up beside the wagon rear wheel holding Pell's wooden fish, his own bag, and an unexplained bundle of cloth while Nessa keeps redirecting him out of the working lanes.
+
+## Chapter 162 — THE STREET PLAYER
+
+- **Candidate:** `ch162-market-awakens`
+- **Kind:** `chapter_illustration`
+- **Priority:** `high`
+- **Current coverage:** 0 images
+- **Fit target:** `exact`
+- **Visual hook:** Greg in the foreground with bread or apple as an empty village square transforms into a dense working market behind him, full of carts, awnings, fish, chickens, and low sausage smoke.
+- **Scene:** After the company clears the warehouse, Greg eats breakfast at the edge of the square while the morning market rapidly assembles around him with carts, awnings, fish trays, chickens, smoke, and shouting vendors.
+
+## Chapter 163 — THE MILL PLAYER
+
+- **Candidate:** `ch163-mill-arrival`
+- **Kind:** `chapter_illustration`
+- **Priority:** `high`
+- **Current coverage:** 0 images
+- **Fit target:** `exact`
+- **Visual hook:** A strong environmental arrival shot with Greg in the foreground looking toward the sluice and dark waterwheel while flour-dusted workers and grain wagons make the mill feel fully operational.
+- **Scene:** The company reaches a working riverside mill where a stone channel drives a broad spray-darkened wheel, grain wagons crowd the bridge, and flour dust coats roofs, carts, workers, and yard edges.
+
+## Chapter 164 — THE PROSPECTOR
+
+- **Candidate:** `ch164-kest-pig-sign`
+- **Kind:** `chapter_illustration`
+- **Priority:** `high`
+- **Current coverage:** 0 images
+- **Fit target:** `exact`
+- **Visual hook:** A dry comic town-arrival image: the painted KEST sign and NO PIGS IN EAST YARD notice in clear view, market pens beyond it, and one completely unbothered pig violating the rule.
+- **Scene:** The company reaches Kest on the day before market, passing a roadside sign that says MARKET TOMORROW and NO PIGS IN EAST YARD while a pig stands visibly in the east yard anyway.
+
+## Chapter 165 — THE DRAW
+
+- **Candidate:** `ch165-goat-theft`
+- **Kind:** `chapter_illustration`
+- **Priority:** `high`
+- **Current coverage:** 0 images
+- **Fit target:** `exact`
+- **Visual hook:** Greg-as-Sword and Serra mid-performance in a packed livestock market while a goat tugs the mounting cloth from behind, with baskets, onlookers, onions, and the collection bowl making the street-show chaos legible.
+- **Scene:** During the crowded market Sword set, a goat reaches through the sheep fence behind Greg and bites the bottom of the mounting cloth while Serra keeps feeding him lines and the crowd notices the theft before he does.
+
 ## Chapter 390 — THE PASSENGER
 
 - **Candidate:** `ch390-root-drag`
