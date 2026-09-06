@@ -1,125 +1,117 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 444 - **THE CASTAWAY**.
-- Exact Chapters 249-444 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays.
+- Current exact story endpoint: Chapter 445 - **THE DRIFTER**.
+- Exact Chapters 249-445 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays.
 - Chapter 432 naming correction remains active: north-slope road forewoman is **Rika Dorn**, not Nessa Vale.
 
 ## Current location / arc
-- Greg traveled **West Bay, Old Merrow -> Ternhaven**, but cross-swell forced landing at **East Cove** rather than main harbor village.
-- Salt Mouth footbridge washout blocks the normal 3-mile shore route; Greg is overnighting in East Cove transit shelter.
-- Greg remains fully solo in travel, though temporary strangers matter around him.
+- Greg has moved out of East Cove and crossed Ternhaven from the main harbor area to **North Ferry hamlet**.
+- He remains fully solo in day-to-day travel.
+- Dorrin/Kelp Isles passenger ferry is a real next-day option at **4c**, but Greg has not purchased it yet.
 - No return ticket, employer, quest, or prophecy forces direction.
 
-## Chapter 444 - THE CASTAWAY
+## Chapter 445 - THE DRIFTER
 
 ### Title / role
-- Greg is **THE CASTAWAY**, deliberately in a comic/bounded sense: he has roof, food, money, and a transport problem, but Ternhaven deposited him on the wrong side of itself.
-- Closing frame acknowledges title exaggeration: `Castaway was too dramatic for someone with roof, food, money, and scheduled transport problem. Still. I had bought ticket to Ternhaven. Ternhaven had deposited me on wrong side of itself. Close enough. For tonight.`
+- Greg is **THE DRIFTER**, with an intentional tension: the title sounds passive, but Greg realizes the current is not choosing for him. He keeps paying for direction.
+- Closing thought: `Drifter sounded passive. Like current did choosing. Wasn't true. I kept paying for direction. Maybe that was worse. Maybe better. Ask tomorrow.`
 
-## West Bay -> Ternhaven
-- Weather board at second ring says Ternhaven packet **runs**, with moderate west swell and landing subject to East Cove.
-- Greg buys **3c** ticket: **32c -> 29c**.
-- Packet is **Moss Finch**, smaller than Narrow Gull: one mast, broad belly, ~8 passengers.
-- Trial limb stays wrapped; Greg boards by crutches on steep but dry ramp.
-- Deckhand takes pack only after asking.
-- Greg explicitly notices cash decline from 58c at North Reach to 29c now; travel is materially consuming limb capital.
+## East Cove departure / Salt Mouth
+- Morning swell drops enough for **East Cove -> main harbor village shore boat**, fare **1c**.
+- Salt Mouth footbridge remains fully closed; workers are beginning repair via pole skiff/lumber logistics.
+- Greg does not participate in bridge repair.
+- Orric appears briefly with aunt, healthy; missing-child thread closes without turning Greg into local coordinator.
+- Greg pays **1c: 29c -> 28c**.
 
-## Sea / ecology / correction
-- Route crosses kelp-mat water.
-- Greg sees a small silver many-legged **kelp runner** moving over floating kelp; local teen says it is a bug and edible.
-- Greg mistakenly thinks about propeller fouling before remembering Moss Finch is sail-driven; deckhand explains kelp can foul rudder pintle/hide driftwood.
-- This reinforces old-life competence needing local-technology correction rather than generic ignorance.
+## Ternhaven main-harbor identity
+- Main harbor village is a low, wind-shaped industrial kelp town with:
+  - wet kelp drying racks;
+  - boilers;
+  - black ropes/bundles;
+  - drainage/tide channels;
+  - shell roads/boardwalks;
+  - little white **drain paddles** that show whether channels are pulling seaward (green) or sea is pushing inward (black).
+- Local operating philosophy is not stopping water but **negotiating with it**.
+- Kelp sheds use tide rhythm operationally, lifting lower bundles when channels reverse.
 
-## East Cove diversion
-- Ternhaven is a low, long, green island rather than cliff/ridge geography.
-- Main harbor displays red surf flag; captain diverts to **East Cove**.
-- East Cove is a beach landing with shore boats, low landing stage, shed/smokehouse/huts, not full harbor.
-- Greg uses seated packet-to-shore-boat transfer with crew assistance after consent.
-- Shore landing uses a narrow cargo plank to dry sand, useful to flour sacks and Greg alike.
+## Kelp charge-processing
+- Drying racks use low-cost blue stones that **bleed charge out of kelp**.
+- Some kelp carries charge from storms/deep lines/glassbacks/etc.; exact source varies.
+- Red tester strips are used for charge grading.
+- High-charge kelp is isolated for **battery vats at Dorrin**, while ordinary food kelp cannot safely carry that much charge.
+- This makes Dorrin/Kelp Isles a real industrial/magical-economic pull rather than a name on a route board.
 
-## Salt Mouth route failure
-- Normal East Cove -> main harbor village shore track is about **3 miles**.
-- **Salt Mouth** tidal channel footbridge lost two timber spans in morning surge; later remaining abutment shifts, so crossing is fully closed.
-- Inland reed-flat detour is about **5 miles** and has no cart road.
-- Shore boats cannot safely run coast while swell remains high.
-- Greg immediately chooses East Cove transit shelter rather than attempting five-mile wet-reed detour on crutches/trial limb.
-- Transit shelter is emergency public roof/wood floor, no beds/no charge; this is infrastructure, not protagonist free lodging.
-- Other passengers make independent choices: flour woman/carpenter/couple attempt inland detour; crab girl and old fisherman stay.
-
-## Ternhaven route geography
-- East Cove wall map shows:
-  - main harbor village northeast;
-  - East Cove southeast;
-  - Salt Mouth between;
-  - Reed Common;
-  - Low Fern Fields;
-  - South Light;
-  - Old Salt Road;
-  - **North Ferry**.
-- North Ferry points toward **Kelp Isles**.
-- Local shore worker says passenger ferry can run from north side to outer Kelp Isles / main kelp market at **Dorrin**, usually about **4c**, tide-dependent.
-- Greg must first reach harbor village/north road; no immediate/free access.
-
-## Lio Pell
-- Teenage crab carrier/passenger is **Lio Pell**.
-- No relation to Pell Varo established; when Greg asks, she has never heard of him.
-- This intentionally allows surname repetition without forced family-tree coincidence.
-- Lio carries white crabs with blue joints; green glow under belly indicates warm eggs, ordinary local magical biology.
-- She remains local stranger, not new party member.
-
-## Lot 67 characterization
-- Dry transit shed provides low-stakes chance to investigate Road Response Kit without body/magic claims.
-- Greg tests **manual immediate reference only**.
-- 10 level-orientation runs: 2 false long hangs near mark 4.
-- Rotates frame 180 degrees on same table; 10 more runs: 2 false long hangs near mark 4.
-- On bad runs Greg visibly sees bead pause between marks 3-4 before snapping forward.
-- New bounded inference: likely **track/bead friction**, not trigger or table slope; exact cause not yet isolated.
-- Greg does **not disassemble** unfamiliar artifact.
-- Logged:
-  `Lot 67. Manual immediate reference only. Dry level shed. 20 runs, 4 false long hangs near mark 4. Orientation reversal did not remove. Visible bead pause between 3-4 on bad runs. Suspect track/bead friction, not trigger. Do not disassemble yet.`
-- Still not valid for body/magic timing conclusions.
-
-## Body / trial limb
-- No trial-limb wear Ch444.
-- Greg explicitly declines wearing it in dry shed because there is no useful task; avoids turning every stable floor into training lab.
-- Instead repairs salt-stiffened crutch grip wrap.
-- Trial build remains Hark & Venn shop property, unfinished, medium foot.
-
-## Orric missing-child event / human pressure
-- Late afternoon runner arrives from inland: **Orric**, ~10, red cap/green vest, missing after going toward crab traps near Salt Mouth.
-- Orric is a local child who knows flats, increasing concern rather than making him helpless.
-- Shore worker prevents Lio from joining search despite her local knowledge because tide is turning and worker refuses to create another missing person.
-- Greg asks what he can do safely from shelter.
-- Worker assigns him to keep **sighting log** because he can write and remain stationary.
-- Greg creates columns for reported time / seen time / place / direction / source / confidence.
-- He explicitly keeps possibilities separate from sightings rather than merging stories under pressure.
-- Reports include uncertain/irrelevant sightings; old fisherman eventually recalls seeing child-sized red cap seated on reed islet south of Salt Mouth about quarter bell before packet landing.
-- Because there is no trapper access there at high tide, local workers treat this as testable lead, not certainty.
-- Searchers reach reed islet by shallow pole-skiff route as tide falls.
-- Orric is found **alive, muddy, walking**.
-- He had gone toward crab traps before bridge closure, became cut off by tide, climbed higher reed islet, and waited.
-- No villain/catastrophe. Local knowledge helped him survive; lack of communication made location uncertain.
-- Fisherman's imperfect sighting mattered because Greg kept it bounded enough to test.
-- Greg receives no pay and no official role from event.
+## Lot 67 legitimate repair
+- Greg finds local repair stall run by **Mera Tonn**, specializing in clocks/tide counters/drying timers/small mechanicals.
+- Mera charges:
+  - 1 bit external inspection;
+  - 2 bits to open/close with proper tool;
+  - repair quoted after diagnosis.
+- Greg gives bounded prior evidence: intermittent false fourth-mark hangs under manual immediate trigger, orientation-independent, visible bead pause.
+- Mera opens tool properly and finds **two interacting defects**:
+  - a small burr on guide lip near mark 4;
+  - faint flat on one side of black stone bead.
+- Burr catches bead flat when alignment coincides, explaining intermittent false long reading.
+- Repair options:
+  - dress burr + reorient bead **1c**;
+  - ideal replacement bead ~3c but correct size not currently available.
+- Greg pays **1c** for conservative repair: **28c -> 27c**.
+- Mera dresses burr minimally and rotates bead; no replacement/free miracle.
+- Post-service test:
+  - 40 manual immediate runs;
+  - **0 false fourth-mark hangs**;
+  - one run slightly above mark 1.
+- Repair is explicitly provisional, not proof of full reliability.
+- New note:
+  `Ternhaven, Mera Tonn. Opened with proper tool. Burr at guide lip near mark 4 + faint bead flat. Burr dressed, bead reoriented. Post-service manual immediate: 40 runs, 0 false fourth-mark hangs; one slightly >1 mark. Provisional improvement only. Continue characterization before body/magic use.`
+- Lot 67 still should not be used for body/magic conclusions without further characterization under relevant triggering conditions.
 
 ## Nickname spread
-- Orric recognizes `Peg-Leg Greg` through **Aunt Vessa**, continuing narrow island social-network spread.
-- Greg still protests trial build belongs to shop.
-- Nickname remains joke/social residue, not fame title.
+- Mera recognizes `Peg-Leg Greg` through Vessa -> Mera's sister, continuing narrow social gossip network rather than broad fame.
+- Mera notes Greg still has no peg and calls branding bad.
 
-## Economy
-- Begins **32c cash / 23c Vale / bits unspecified**.
-- Ternhaven packet **-3c -> 29c**.
-- Transit shelter no charge.
-- Smoked fish uses bits only.
-- Ends **29c cash / 23c Vale / bits unspecified**.
-- 20c limb deposit remains paid toward 1 silver + 18c travel-work limb quote.
+## Route economics / cash pressure
+- Greg explicitly models likely cost if continuing north:
+  - current 27c after repair;
+  - north-road cart 1c;
+  - north ferry bunk ~1c;
+  - Dorrin ferry next day 4c;
+  - projected ~21c after those costs.
+- He recognizes continued road increasingly competes with fitted-limb capital.
+- Turning south remains available and not framed as failure, but he still does not want it.
+
+## North-road move
+- Greg chooses north-road cart at fifth ring, fare **1c: 27c -> 26c**.
+- Cart carries dried kelp bales/workers/ceramic paddles; no new companion forms.
+- Crosses **Low Fern Fields**, where silver-underleaf ferns flash in wind.
+- Black posts with hanging glass threads gather dew charge used to restart drying stones after long rain.
+- Local worker rejects `free power` framing because posts/thread/cleaning/storm loss/theft/waiting all cost.
+
+## North Ferry hamlet / Kelp Isles pull
+- North Ferry hamlet has ~12 roofs and one long pier into kelp water.
+- Board:
+  - **DORRIN / THIRD RING / 4C / TIDE CHECK SECOND**;
+  - outer-isles freight, ask master;
+  - mainland return fifth day.
+- Greg pays **1c** bunk: **26c -> 25c**.
+- Ends **25c cash / 23c Vale / bits unspecified**.
+- Dorrin ticket is **not purchased**.
+- Kelp ferry boats use wide shallow hulls with lattice frames to drain kelp underway.
+- Ceramic **bleed pots** with blue-lit seams keep high-charge kelp from interfering with compass stones.
+- This reinforces Dorrin/kelp industry as a distinct future engine.
+
+## Trial limb / body
+- No trial-limb wear Ch445.
+- Packet/shore transfer, main-harbor crutch mileage, and north-road cart provide enough body load.
+- Trial build remains Hark & Venn shop property, unfinished, medium foot.
+- Crutches remain primary and sound.
 
 ## Magic
 - Protocol remains **59 minimal / 53 shaping / 136 external attempts**.
-- No deliberate magic Ch444.
-- External 136 remains last clean small result; no acceleration.
+- No deliberate magic Ch445.
+- External 136 remains last clean result.
+- Lot 67 repair does not authorize magic timing use yet.
 
 ## Current inventory
 Greg carries:
@@ -131,47 +123,43 @@ Greg carries:
 6. Hark & Venn road-test limb build, shop property, medium foot;
 7. personal notebook;
 8. Outer Works close chit;
-9. Road Response Kit / Lot 67, owned, now suspected track/bead friction causing fourth-mark false-long hangs;
+9. Road Response Kit / Lot 67, owned, burr dressed/bead reoriented, provisionally improved but not yet validated for body/magic inference;
 10. current Merehook coastal-measure circular from Sori.
 
 ## Protected uncertainties
-- Greg ends Ch444 sleeping/settling in East Cove transit shelter on Ternhaven.
-- Cash **29c**, Vale **23c**, bits unspecified.
+- Greg ends Ch445 at **North Ferry hamlet, Ternhaven**.
+- Cash **25c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 136**.
-- Salt Mouth bridge remains fully closed.
-- Shore swell still prevents normal coast boat by evening; next-day conditions unknown.
-- Orric found safe; no ongoing rescue.
-- Greg has not reached main Ternhaven harbor village.
-- North Ferry to Kelp Isles/Dorrin exists as a future route but no ticket/commitment.
-- Trial limb healthy/rested and wrapped.
-- Lot 67 remains unreliable for timing conclusions, though failure localized toward track/bead friction.
-- No new news from Dask/Sori/Maro.
+- Dorrin ferry is expected next day third ring for **4c**, tide check second; ticket not purchased.
+- Greg has not chosen Dorrin vs turn south/stay.
+- Trial limb rested/wrapped/healthy.
+- Lot 67 repair appears promising across 40 manual immediate runs but remains provisional and not validated for body/magic use.
+- No current companion and no new news from Dask/Sori/Maro.
 
-## Chapter 445 trailhead
-Follow next actual claim from Ch444/current authority.
+## Chapter 446 trailhead
+Follow next actual claim from Ch445/current authority.
 
-Greg begins **29c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 136**, at **East Cove, Ternhaven**, next morning.
+Greg begins **25c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 136**, at **North Ferry hamlet, Ternhaven**, before second-ring tide check for the **4c Dorrin ferry**.
 
 Strong movement:
-- Resolve transport out of East Cove and get Greg into broader Ternhaven geography rather than repeating another stranded day.
-- Salt Mouth bridge can remain damaged; temporary local adaptation (shore boat if swell drops, pole route, repaired span, or another paid/legitimate option) should move people without Greg fixing bridge.
-- Orric thread is complete enough; brief aftermath okay, but do not turn Greg into search coordinator.
-- Ternhaven needs a distinct economic/social identity beyond transit trouble. Kelp, crabs, low fern fields, tidal routes, ferry dependence, or another local system can carry it.
-- North Ferry/Kelp Isles/Dorrin is a strong geographic pull, but Greg's cash is now **29c** and ferry is ~4c, so continued expansion should visibly compete with limb capital.
-- Greg is solo. Temporary acquaintances may recur naturally, but no automatic companion.
-- Lot 67 may be repaired/cleaned only if Greg gains legitimate knowledge/tool access; do not handwave sticky track away.
-- Trial limb is rested and can be used on stable dry terrain for ordinary function if useful.
-- External magic does not need immediate repetition.
+- Force the Dorrin decision under real cash pressure. If Greg goes, pay 4c explicitly and let 21c cash feel meaningful.
+- Kelp Isles/Dorrin should be genuinely distinct geography and industrial magic economy: charge-rich kelp, battery vats, bleed pots, tide-dependent ferry logic, perhaps floating/low islands.
+- If ferry is blocked, provide a materially different pressure/choice, not another generic waiting day.
+- Greg is solo. Keep temporary stranger interactions meaningful but avoid instant permanent companion.
+- Lot 67 now has a legitimate provisional repair. A later controlled comparison can resume, but do not jump directly to magic conclusions.
+- Trial limb has rested and may be useful on stable ferry-town/dock surfaces if ordinary function warrants it; wet decks remain a bad setting.
+- Road cost versus limb money is becoming a major live tension. Do not erase it with convenient payday.
+- Artifact/economic expansion can deepen in Dorrin if Greg goes, but avoid immediate buying spree.
 
 Avoid:
-- another missing-person/search chapter;
-- Greg fixing Salt Mouth bridge;
-- free Kelp Isles passage;
-- instant Lot 67 repair without expertise;
-- new permanent companion;
-- returning south by default.
+- free Dorrin passage;
+- sudden high-paying work;
+- instant full validation of Lot 67;
+- sudden magic acceleration;
+- permanent new companion;
+- returning south by default merely because cash is lower.
 
-**MANDATORY TITLE CHECK CH445:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH446:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
