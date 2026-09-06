@@ -39,5 +39,51 @@ jobs:
       - name: Verify prose preservation and HTML structure
         run: |
           python - <<'PY'
-          from pathlib import import Path
+          from pathlib import Path
+          import re
+
+          def article(text):
+              return text.split('<article class="prose">', 1)[1].split('</article>', 1)[0]
+
+          def flat_prose(text):
+              prose = article(text)
+              prose = prose.replace('</p><p>', ' ')
+              prose = prose.replace('<p>', '').replace('</p>', '')
+              return re.sub(r'\s+', ' ', prose).strip()
+
+          stale_old = ('"What?" Antonius asked. "Nothing," I said. "You keep looking at me," Antonius said. '
+                       '"I have a memorable-face problem," I said. "Your face?" Antonius asked. '
+                       '"Other people\'s." Antonius held out his hand. '
+                       '"You\'ve been staring at my hands for five minutes," Arlo said.')
+          stale_new = ('"What?" Arlo asked. "Nothing," I said. "You keep looking at me," Arlo said. '
+                       '"I have a memorable-face problem," I said. "Your face?" Arlo asked. '
+                       '"Other people\'s." Arlo held out his hand. '
+                       '"You\'ve been staring at my hands for five minutes," Arlo said.')
+
+          for n in range(1, 21):
+              name = f'{n:03d}.html'
+              before = Path('/tmp/dialogue-before', name).read_text(encoding='utf-8')
+              after = Path('chapters', name).read_text(encoding='utf-8')
+              assert '<article class="prose">' in after and '</article>' in after, name
+              assert '<p></p>' not in after, f'empty paragraph: {name}'
+              expected = flat_prose(before)
+              if n == 3:
+                  expected = expected.replace(stale_old, stale_new)
+              assert flat_prose(after) == expected, f'prose text changed beyond approved attribution repair: {name}'
+          print('verified prose preservation for chapters 001-020')
           PY
+      - name: Refresh semantic review manifests
+        run: |
+          python scripts/dialogue_ownership_candidates.py
+          python scripts/dialogue_ownership_semantic.py
+      - name: Commit reader-visible ownership cleanup
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add chapters/{001..020}.html state/editorial/dialogue-ownership/CANDIDATES_001_020.md state/editorial/dialogue-ownership/HIGH_CONFIDENCE_001_020.md
+          if git diff --cached --quiet; then
+            echo 'No changes to commit.'
+            exit 0
+          fi
+          git commit -m 'Converge semantic dialogue ownership cleanup through chapter 20'
+          git push
