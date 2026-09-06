@@ -12,7 +12,7 @@ if str(ROOT) not in sys.path:
 from scripts.build_illustration_backlog import count_chapter_images
 from scripts.illustration_edit_hold import edit_hold_active, load_hold
 from scripts.illustration_state import load_registry, load_scene_candidates
-from scripts.performance_roundtrip_references import load_visual_references
+from scripts.performance_roundtrip_references import load_visual_references, normalize_text
 from scripts.score_character_references import select_character_references
 
 CANDIDATES_PATH = ROOT / "state" / "visual" / "SCENE_CANDIDATES.json"
@@ -64,6 +64,27 @@ def _reference_selection_notes(selected: list[dict]) -> str:
             f"(base {reference.get('score', 0)}, selected {selection_score}; {reasons}{suffix})"
         )
     return " | ".join(parts)
+
+
+def _performance_reference_for_candidate(candidate: dict, performance_references: dict[int, dict]) -> dict | None:
+    reference = performance_references.get(candidate.get("chapter"))
+    if not reference:
+        return None
+    candidate_anchor = candidate.get("paragraph_anchor")
+    scene_anchors = reference.get("scene_anchors")
+    if not isinstance(candidate_anchor, str) or not candidate_anchor.strip():
+        return None
+    if not isinstance(scene_anchors, list) or not scene_anchors:
+        return None
+    normalized_candidate = normalize_text(candidate_anchor)
+    normalized_scene_anchors = {
+        normalize_text(anchor)
+        for anchor in scene_anchors
+        if isinstance(anchor, str) and anchor.strip()
+    }
+    if normalized_candidate not in normalized_scene_anchors:
+        return None
+    return reference
 
 
 def build_generation_queue(
@@ -155,7 +176,7 @@ def build_generation_queue(
             "coverage_before": coverage_before,
             "status": "generation_ready",
         }
-        performance_reference = performance_references.get(candidate["chapter"])
+        performance_reference = _performance_reference_for_candidate(candidate, performance_references)
         if performance_reference:
             record["performance_reference"] = performance_reference
         queue.append(record)
