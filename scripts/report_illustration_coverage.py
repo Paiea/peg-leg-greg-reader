@@ -107,6 +107,7 @@ def main() -> None:
     registry = load_registry(REGISTRY_PATH, root=ROOT)
     image_counts = count_chapter_images(CHAPTER_DIR)
     unmanaged = find_unmanaged_live_art(CHAPTER_DIR, registry)
+    assert_no_unmanaged_live_art(unmanaged)
     summary = summarize_coverage(image_counts, candidates, registry, unmanaged_live_art=len(unmanaged))
     text = render_coverage_report(summary)
     previous = OUTPUT_PATH.read_text(encoding="utf-8") if OUTPUT_PATH.exists() else None
