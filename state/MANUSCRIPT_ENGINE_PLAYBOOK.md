@@ -424,3 +424,24 @@ If chat history, a prompt, or a user recollection claims Chapter N exists but cu
 Prefer an explicit synchronization gap over invented continuity.
 
 Nothing counts as a completed forward chapter until it crossed the durable GitHub boundary.
+
+## 21. Structural compression mode
+
+Structural manuscript compression is a dedicated mode, not an extension of ordinary light/heavy prose editing.
+
+When the author requests compression, read:
+- `state/COMPRESSION_ENGINE.md` for editorial classification and preservation rules;
+- `state/STRUCTURAL_COMPRESSION_WORKFLOW.md` for map-first execution and safety gates;
+- `prompts/MANUSCRIPT_COMPRESSION_PASS.md` for the reusable invocation.
+
+Ordinary drafting and prose passes must not casually delete, merge, relocate, or renumber chapters.
+
+Structural compression begins only from current/frozen manuscript authority. If the same range is still being rewritten by the active editor pass, finish or freeze that work first.
+
+Phase 1 is structural mapping only. No prose rewrite, chapter deletion, merge execution, or renumbering occurs until the author has reviewed and approved the map.
+
+Default compression strength is MODERATE. Optimize for fewer repeated dramatic functions, not fewer chapters. Preserve quiet material when it provides unique social, emotional, atmospheric, material, or world value.
+
+Convenient invocation:
+
+`Run PLG compression map for Chapters [START]-[END] at moderate strength from current GitHub authority.`
