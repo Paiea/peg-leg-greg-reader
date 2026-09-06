@@ -1,8 +1,8 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 488 - **THE ACTOR**.
-- Exact Chapters 249-488 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
+- Current exact story endpoint: Chapter 489 - **THE TIMER**.
+- Exact Chapters 249-489 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
 - Permanent running-manuscript consolidation still has known integration debt; do not reconstruct missing exact text from summaries.
 
 ## Active correction overlays
@@ -17,23 +17,24 @@
 - Ch485-486 prove he can accept and complete bounded organizer responsibility across multiple competent crews while preserving specialist authority.
 - Ch486 pushed Greg over the old 30c liquid-reserve milestone at **32c cash**.
 - Ch487 activated debt closure carefully: Greg verified Vale and Hark & Venn first, paid 12c to Vale, and preserved reserve/working capital.
-- Ch488 deliberately changes grammar and lets theatre exist as theatre. Greg works as an actor for a half-day rehearsal rather than as coordinator, broker, prompt substitute, or financial problem-solver.
-- Debt closure remains active as progression but should now breathe. Vale can remain at 11c until later surplus makes clearing it genuinely casual.
+- Ch488 deliberately changed grammar and let theatre exist as theatre. Greg worked as an actor for a half-day rehearsal rather than as coordinator, broker, prompt substitute, or financial problem-solver.
+- Ch489 returns to Hessa's magic lane after sufficient breathing room and narrows the next experimental problem to timing/response latency without granting practical capability.
+- Debt closure remains active as progression but should breathe. Vale can remain at 11c until later surplus makes clearing it genuinely casual.
 
 ## Current financial / body / magic state
-- Greg ends Ch488 **home in Carrow**.
-- Cash **21c** after receiving **1c** for a paid half-day theatre rehearsal.
+- Greg ends Ch489 **home in Carrow**.
+- Cash **21c**.
 - Vale balance remains **11c**.
-- Bits remain unspecified after small ordinary spending, including hot bread.
+- Bits remain unspecified after ordinary small spending, including roasted beans.
 - Greg's **10c survival floor** remains active.
 - Vale terms remain flexible: cash accepted; pre-agreed work credit can reduce account; no fixed installment; no schedule penalty; surplus payment preferred over repayment that makes Greg unable to work.
 - Work-limb quote remains **1 silver + 18c** with the existing **20c deposit received/applied**.
 - Nothing is currently scheduled due to Hark & Venn before final acceptance unless terms later change.
 - Hark & Venn still holds trial socket / temporary ash shaft / medium test foot; Greg has liner at home.
-- Protocol remains **59 / 53 / 147**.
+- Protocol is now **59 / 53 / 159** after twelve supervised external attempts in Ch489.
 - Greg remains on two crutches outside supervised fitting use.
-- Ordinary rehearsal/city fatigue only; no new injury or skin break.
-- No magic attempts occur in Ch488.
+- Low magic-session fatigue plus ordinary city/body fatigue only; no new injury or skin break.
+- No independent testing is authorized.
 
 ## Recent live lanes
 
@@ -44,7 +45,7 @@
 
 ### Vale / debt closure
 - Ch487 verified Vale at 23c, paid 12c, and reduced balance to **11c**.
-- Greg does not pay Vale again in Ch488.
+- Greg does not pay Vale in Ch488 or Ch489.
 - Do not force another debt-payment scene merely because the remaining balance is smaller.
 - Do not invent other debts. Verify first.
 
@@ -55,11 +56,12 @@
 - Early payment currently changes only account balance, not production timing/material priority/fit schedule.
 - Work limb is not finished or presented for final acceptance.
 
-### Hessa / magic
-- Protocol remains **59 minimal / 53 shaping / 147 external**.
-- Ch482 moving-target sensitivity remains only a candidate condition.
-- No practical interruption/deflection capability is established.
-- No independent testing is authorized.
+### Theatre
+- **Renn is back** and recovered enough to resume prompt-side work.
+- Pell is currently sick but remains Harrow unless later exact prose changes that.
+- Nella remains a stronger actor than Greg.
+- Ch488's craft correction remains active: another person's timing and pause are not Greg's to optimize for them.
+- No permanent Harrow replacement or new acting contract is established.
 
 ### Provenance / market
 - Greg's Road Response Kit remains legally **OPEN DISPOSAL**; old survey calibration marks are voided and do not certify current accuracy.
@@ -67,67 +69,90 @@
 - North Freight has no standing obligation to send Greg more work.
 - Cross Street seller's fifth weak/unclear-chain sway shoe remains outside Greg's scope.
 
-## Chapter 488 - THE ACTOR
+## Chapter 489 - THE TIMER
 
 ### Role / title
-- Greg is **THE ACTOR** because he spends the chapter actually rehearsing a dramatic role rather than managing theatre from outside the scene.
-- Repository title search found no current `THE ACTOR` collision before drafting.
+- Greg is **THE TIMER** because the chapter tests whether when he attempts the external effect changes visible response, then reveals that Greg's own response latency is part of the measurement problem.
+- Repository title search found no current `THE TIMER` collision before drafting.
 
-### Theatre status
-- A theatre runner calls Greg in because **Pell is sick** and Nella needs a scene partner for the second half of the current play.
-- Greg is **not** replacing Pell permanently. Pell remains Harrow unless later exact prose changes that.
-- **Renn is back** and recovered enough to resume prompt-side work. This resolves Renn's previously unknown status narrowly and casually.
-- Nella remains a stronger actor than Greg.
-- Rinna retains rehearsal authority.
+### Starting authority
+- Greg begins Ch489 at **21c cash / 11c Vale / bits unspecified**, protocol **59 / 53 / 147**.
+- No independent attempts, emergencies, or noticed accidental magic occurred after Ch482 and before the supervised Ch489 session.
+- Hessa's prior candidate remains: **moving target / fixed track / known baseline**, with timing/reference comparisons later.
+- Ch482 authority remains narrow: two clean moving-target deviations in eight supervised external attempts, one unclear faster trial, two rest trials with no visible response, and remaining moving trials with no clean response.
+- Motion therefore remains only a candidate variable, not an established rule.
 
-### Harrow / Mara rehearsal
-- Greg reads/acts **Harrow**, Nella plays **Mara Vale**. This Mara Vale is a play character and is not established as related to Antonius Vale.
-- Harrow returned home after six years, outwardly because his father is ill but actually because his river-company employment/finances collapsed.
-- Greg initially performs lines as if presenting good writing to the audience rather than living inside Harrow's immediate problem.
-- Rinna repeatedly corrects him for signaling clever lines before they land.
-- Nella identifies that Greg rushes Mara's emotional pauses and says: **"My pause belongs to me."**
-- Greg learns not to optimize another actor's timing for them simply because his support instinct wants the scene to move.
-- This is an acting-craft correction, not a strategic manifesto.
+### Timing-window protocol
+- Hessa uses the same shallow wooden track, the same poor-rolling wooden shuttle with central metal washer, charcoal edge, and padded stop.
+- Three nominal timing windows are marked: early / middle / late.
+- Hessa uses randomized cards and announces the requested timing window only after the shuttle starts moving, deliberately preventing Greg from settling into a predictable rotating block.
+- The randomized spoken cue introduces **Greg response latency** as a real confound; Hessa accepts that rather than pretending the design is cleaner than it is.
+- Direction target is **right of travel**, not room-right.
+- Track is reversed for one block so the same travel-relative direction maps to the opposite room direction.
+- External attempts advance **148-159**. Minimal/shaping counts remain unchanged.
 
-### Body / blocking
-- Greg rehearses on two crutches with no trial limb.
-- Original Harrow blocking requires more crossing than Greg can comfortably execute while holding pages and using a crutch.
-- Rinna authorizes a rehearsal-only adaptation rather than pretending the body constraint does not exist.
-- Greg uses a chair, reduced crossing, and later remains seated after Harrow's lie, which changes the scene's power geometry without being declared universally better than Pell's blocking.
-- The adjustment is explicitly **for today**, not a permanent rewrite of the production.
+### Exact Ch489 external results
+- **148** early: no visible response.
+- **149** late: no visible response.
+- **150** middle: unclear; end position within bad-wheel baseline spread.
+- **151** middle: no visible response.
+- Track reversed.
+- **152** early / right-of-travel: clean visible lateral deviation.
+- **153** late: no visible response.
+- **154** middle: no visible response.
+- **155** early: unclear; transient angle change cannot be separated cleanly from known wobble.
+- Track returned to original orientation.
+- **156** late: no visible response.
+- **157** middle: clean visible lateral deviation.
+- **158** early: no visible response.
+- **159** middle: no visible response.
+- Net Ch489 result: **2 clean / 2 unclear / 8 no-clean** across twelve moving-target attempts.
+- By nominal window:
+  - early: **1 clean / 1 unclear / 2 no-clean** across four attempts;
+  - middle: **1 clean / 1 unclear / 3 no-clean** across five attempts;
+  - late: **0 clean / 0 unclear / 3 no-clean** across three attempts.
+- Late therefore looks worse in this tiny sample, but no optimal timing window is established.
 
-### Acting limitations
-- Greg forgets a line and requires Renn's prompt.
-- He says Harrow's lie too smoothly, then overcorrects into excessive hesitation before finding a more believable middle.
-- He smiles because he appreciates a good dramatic trap even though Harrow is losing.
-- He laughs at one of Mara's strong lines and must be reminded that the audience can enjoy it while Harrow cannot.
-- Greg improves during repeated runs but does not become secretly brilliant.
-- Pell remains the better Harrow.
-- Nella's verdict is that Greg gets **less bad**.
+### Reference-direction boundary
+- One clean response occurs with the track reversed, so the effect does not disappear merely because room direction flips.
+- This keeps **travel-relative reference** plausible but does not prove it.
+- Hessa explicitly separates travel-relative direction from the old Ch312 marked-strip sub-object question.
+- Ch312 authority remains narrow: 76 left-region no response; 77 right-region one clean small rotation; 78 whole strip no response.
+- Ch489 clean right-of-travel responses do **not** establish sub-object targeting, chosen-part control, useful force, stopping, practical mass, people-targeting, reliability, or safe application.
 
-### Theatre labor / money
-- Rinna pays Greg **1c** for the half-day rehearsal even though Greg initially treats the informal call as if it might not count as paid work.
-- Rinna's correction is simple: **"You worked half day."**
-- Cash moves **20c -> 21c**.
-- No Vale payment occurs.
-- No new debt is created.
-- No permanent acting role or replacement contract is created.
+### Response-latency confound
+- After magic attempts, Hessa runs simple non-magic cue-response checks with a wooden peg.
+- Greg's response timing varies and he begins anticipating cues; Hessa changes peg location and separates visual/auditory attention enough to demonstrate that Greg's own reaction timing is not fixed.
+- These non-magic checks do not alter protocol counts.
+- Candidate next experiment should isolate **Greg response latency / cue delivery** before trying to explain late-window underperformance as a magic property.
+- Possible future tools include a fixed bell, mechanical cue, or second observer, but none is committed as the next protocol yet.
 
-### Home / ordinary-life close
-- Greg buys hot bread with bits because it is hot, not because he has just earned money.
-- Lyssa finds him trying Harrow's line while repairing his shirt with the previously rejected bad thread.
-- The thread still holds but Lyssa maintains that **working bad thread is not the same as good thread**.
-- Greg tells Lyssa Nella said her pause belongs to her. Lyssa immediately agrees and says Greg talks during pauses.
-- Greg tries to honor a deliberate silence and lasts only about three seconds before asking "What?"; Lyssa laughs.
-- Theatre remains intrinsically valuable social/craft life rather than a covert progression apparatus.
+### Current magic claim
+- Protocol ends **59 minimal / 53 shaping / 159 external**.
+- Across Ch489's twelve supervised moving-shuttle attempts: two clean visible lateral deviations, two unclear, eight no-clean.
+- Late window has no clean result in only three attempts; sample is too small for strong timing claims.
+- Travel-relative framing remains plausible but unproven.
+- Motion remains only a candidate condition because no new rest comparison occurs in Ch489.
+- Better protocol is not the same as better ability.
+- No practical interruption/deflection capability is established.
+- Hessa's **NO INDEPENDENT TESTING** restriction remains unchanged.
+- Emergency use remains Greg's own judgment/risk; Ch489 does not turn supervised evidence into permission.
+
+### Ordinary/home close
+- Greg notices himself timing pedestrians on the way home and deliberately redirects attention rather than turning the city into an unauthorized experiment.
+- He buys roasted beans with bits because he is hungry.
+- Lyssa jokingly reduces the session to Greg being early, late, and wrong sometimes; she compares it to theatre because he misses cues in both.
+- Greg helps hold cloth for Lyssa without trying to optimize her process, and asks for a reset when his shoulder needs one.
+- No income, debt payment, artifact acquisition, limb update, or theatre advancement occurs in Ch489.
 
 ## Protected uncertainties / live residue
-- Greg ends Ch488 **home in Carrow at 21c cash / 11c Vale / bits unspecified**.
+- Greg ends Ch489 **home in Carrow at 21c cash / 11c Vale / bits unspecified**.
 - Vale remains a real explicit debt with flexible terms; no next payment date is established.
 - Work-limb final socket is not finished; Hark & Venn has trial hardware and Greg has liner.
 - Hark & Venn quote/payment terms remain as established in Ch487; no current payment due.
-- Protocol **59 / 53 / 147**.
-- Moving-target magic remains only a candidate condition; no independent testing.
+- Protocol **59 / 53 / 159**.
+- Moving-target sensitivity, timing-window effects, and travel-relative reference are all still candidate conditions only.
+- No independent magic testing is authorized.
 - Renn is back at theatre.
 - Pell is currently sick but remains Harrow; no replacement casting has occurred.
 - Nella remains a stronger actor than Greg.
@@ -136,29 +161,30 @@
 - Morrow and other pending lanes remain unresolved unless later authority naturally moves them.
 - No permanent companion.
 
-## Chapter 489 trailhead
-Greg begins **21c cash / 11c Vale / bits unspecified**, protocol **59 / 53 / 147**, home in Carrow.
+## Chapter 490 trailhead
+Greg begins **21c cash / 11c Vale / bits unspecified**, protocol **59 / 53 / 159**, home in Carrow.
 
 Strong movement:
-- Change grammar again if possible. Ch488 has given theatre a full craft/social chapter; do not immediately repeat another Harrow rehearsal unless Pell's illness creates a materially different production problem.
+- Change grammar again. Do not immediately run another Hessa timing session. Let the latency/cue problem sit until Hessa designs the next controlled protocol.
 - Vale can remain 11c. Another repayment should wait for genuine surplus rather than becoming ritual.
 - Hark & Venn remains offscreen until real word, completion, or another fit request.
-- Hessa's moving-target candidate protocol has had enough breathing room that a later return is viable, but do not force it if a stronger social/economic/body claim appears first.
-- A paid opportunity remains welcome if it reflects Greg's growing reputation/leverage, but no automatic pipeline exists.
-- Artifact pressure can re-enter through a real market encounter, information asymmetry, or a distinctive object, but do not hand Greg a replacement stillhook merely because the lane has been quiet.
-- Ordinary life can carry a chapter if it creates genuine relationship/social/body movement.
-- Preserve the recent acting correction: Greg's support instinct is useful, but other people's timing, expertise, and pauses belong to them.
+- Theatre just had a full acting chapter in Ch488 and should not immediately repeat the same Harrow rehearsal shape.
+- Artifact pressure has now been quiet long enough that a real market encounter, unusual object, repair/salvage opportunity, or information asymmetry could re-enter naturally, but do not hand Greg a replacement stillhook on demand.
+- A paid opportunity is welcome if it reflects growing leverage/reputation, but no automatic deal pipeline exists.
+- Ordinary relationship/social/body life remains valid movement if it creates genuine residue rather than serving as filler.
+- Ch489's useful magic lesson is narrow: better experimental resolution can make the claim smaller, not larger.
 
 Avoid:
+- another immediate Hessa session;
 - another immediate debt-payment chapter;
-- another same-shape theatre rehearsal;
 - paying Hark & Venn early with no benefit;
 - treating 21c as poverty reset;
-- making Greg suddenly excellent at acting;
-- resolving Vale + limb + Hessa + theatre + Ch473 together;
+- suddenly granting practical deflection;
+- conflating travel-right with right-region sub-object control;
+- resolving Vale + limb + theatre + Ch473 together;
 - strategic manifesto repetition.
 
-**MANDATORY TITLE CHECK CH489:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
+**MANDATORY TITLE CHECK CH490:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
