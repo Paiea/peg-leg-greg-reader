@@ -19,6 +19,9 @@ on:
       - 'state/visual/ILLUSTRATION_REGISTRY.json'
       - 'state/visual/ILLUSTRATION_APPROVALS.json'
       - 'state/visual/GENERATION_QUEUE.json'
+      - 'state/visual/CHARACTER_VISUAL_REFERENCES.json'
+      - 'state/visual/GENERATION_PACKET.md'
+      - 'state/visual/ILLUSTRATION_APPROVAL_PACKET.md'
       - 'chapters/*.html'
       - 'index.html'
       - 'scripts/generate_light.py'
@@ -33,6 +36,9 @@ on:
       - 'scripts/illustration_state.py'
       - 'scripts/import_legacy_illustrations.py'
       - 'scripts/build_generation_queue.py'
+      - 'scripts/build_generation_packet.py'
+      - 'scripts/build_approval_packet.py'
+      - 'scripts/sync_scene_candidate_status.py'
       - 'scripts/intake_generated_illustrations.py'
       - 'scripts/apply_illustration_approvals.py'
       - 'scripts/promote_illustrations.py'
@@ -86,6 +92,7 @@ jobs:
           python scripts/intake_generated_illustrations.py
           python scripts/apply_illustration_approvals.py
           python scripts/promote_illustrations.py
+          python scripts/sync_scene_candidate_status.py
       - name: Generate recovered Light range
         run: python scripts/generate_light.py 156-219
       - name: Generate current Illustrated range
@@ -101,6 +108,8 @@ jobs:
           python scripts/build_illustration_backlog.py
           python scripts/build_prompt_packs.py
           python scripts/build_generation_queue.py
+          python scripts/build_generation_packet.py
+          python scripts/build_approval_packet.py
           python scripts/report_illustration_coverage.py --strict
       - name: Verify Light publishing derivatives
         run: |
@@ -119,6 +128,9 @@ jobs:
           test -f state/visual/ILLUSTRATION_REGISTRY.json
           test -f state/visual/ILLUSTRATION_APPROVALS.json
           test -f state/visual/GENERATION_QUEUE.json
+          test -f state/visual/CHARACTER_VISUAL_REFERENCES.json
+          test -f state/visual/GENERATION_PACKET.md
+          test -f state/visual/ILLUSTRATION_APPROVAL_PACKET.md
           test -f state/visual/ILLUSTRATION_BACKLOG.md
           test -f state/visual/ILLUSTRATION_COVERAGE.md
           if grep -R '<img' light/*.html; then
@@ -185,13 +197,13 @@ jobs:
       - name: Commit generated reader presentation derivatives
         if: github.ref == 'refs/heads/main'
         run: |
-          if git diff --quiet -- chapters light light.html latest.html index.html assets/reader.css state/visual/ILLUSTRATION_REGISTRY.json state/visual/GENERATION_QUEUE.json state/visual/ILLUSTRATION_BACKLOG.md state/visual/ILLUSTRATION_COVERAGE.md state/visual/prompt-packs; then
+          if git diff --quiet -- chapters light light.html latest.html index.html assets/reader.css state/visual/SCENE_CANDIDATES.json state/visual/ILLUSTRATION_REGISTRY.json state/visual/GENERATION_QUEUE.json state/visual/GENERATION_PACKET.md state/visual/ILLUSTRATION_APPROVAL_PACKET.md state/visual/ILLUSTRATION_BACKLOG.md state/visual/ILLUSTRATION_COVERAGE.md state/visual/prompt-packs; then
             echo 'Reader and illustration production derivatives already current.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add chapters light light.html latest.html index.html assets/reader.css state/visual/ILLUSTRATION_REGISTRY.json state/visual/GENERATION_QUEUE.json state/visual/ILLUSTRATION_BACKLOG.md state/visual/ILLUSTRATION_COVERAGE.md state/visual/prompt-packs
+          git add chapters light light.html latest.html index.html assets/reader.css state/visual/SCENE_CANDIDATES.json state/visual/ILLUSTRATION_REGISTRY.json state/visual/GENERATION_QUEUE.json state/visual/GENERATION_PACKET.md state/visual/ILLUSTRATION_APPROVAL_PACKET.md state/visual/ILLUSTRATION_BACKLOG.md state/visual/ILLUSTRATION_COVERAGE.md state/visual/prompt-packs
           git commit -m 'Refresh reader presentation'
           for attempt in 1 2 3; do
             git fetch origin main

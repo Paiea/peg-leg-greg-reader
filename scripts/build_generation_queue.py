@@ -14,10 +14,17 @@ from scripts.illustration_state import load_registry, load_scene_candidates
 
 CANDIDATES_PATH = ROOT / "state" / "visual" / "SCENE_CANDIDATES.json"
 REGISTRY_PATH = ROOT / "state" / "visual" / "ILLUSTRATION_REGISTRY.json"
+CHARACTER_REFERENCES_PATH = ROOT / "state" / "visual" / "CHARACTER_VISUAL_REFERENCES.json"
 OUTPUT_PATH = ROOT / "state" / "visual" / "GENERATION_QUEUE.json"
 CHAPTER_DIR = ROOT / "chapters"
 ACTIVE_STATUSES = {"generated", "approved", "live"}
 VERSION_RE = re.compile(r"-v(\d+)$")
+DEFAULT_STYLE_FAMILY = "sketch-ink-paint"
+DEFAULT_GREG_FRAMING = "above_waist"
+DEFAULT_GREG_CONTINUITY = (
+    "Keep style consistent with accepted PLG artwork. Prefer above-waist Greg framing and avoid unnecessary lower-body visibility "
+    "unless the manuscript moment materially requires it. Match recurring characters to supplied reference assets and appearance notes."
+)
 
 
 def _next_version(candidate_id: str, registry: list[dict]) -> int:
@@ -31,11 +38,27 @@ def _next_version(candidate_id: str, registry: list[dict]) -> int:
     return max(versions, default=0) + 1
 
 
+def _character_metadata(characters: list[str], character_references: dict[str, dict]) -> tuple[list[str], dict[str, str]]:
+    assets: list[str] = []
+    appearance_notes: dict[str, str] = {}
+    for character in characters:
+        reference = character_references.get(character, {})
+        notes = reference.get("appearance_notes", "")
+        if isinstance(notes, str) and notes.strip():
+            appearance_notes[character] = notes.strip()
+        for asset in reference.get("reference_assets", []):
+            if isinstance(asset, str) and asset.strip() and asset not in assets:
+                assets.append(asset.strip())
+    return assets, appearance_notes
+
+
 def build_generation_queue(
     candidates: list[dict],
     registry: list[dict],
     chapter_image_counts: dict[int, int] | None = None,
+    character_references: dict[str, dict] | None = None,
 ) -> list[dict]:
+    character_references = character_references or {}
     active = {
         record.get("candidate_id")
         for record in registry
@@ -51,6 +74,11 @@ def build_generation_queue(
         version = _next_version(candidate_id, registry)
         target_asset = f"visual/chapter_art/{candidate['chapter']:03d}/{candidate_id}-v{version}.webp"
         coverage_before = chapter_image_counts.get(candidate["chapter"], 0) if chapter_image_counts is not None else None
+        characters = list(candidate.get("characters", []))
+        character_assets, character_notes = _character_metadata(characters, character_references)
+        greg_in_frame = "Greg" in characters
+        framing_preference = candidate.get("framing_preference") or (DEFAULT_GREG_FRAMING if greg_in_frame else "scene_appropriate")
+        continuity_notes = candidate.get("continuity_notes") or (DEFAULT_GREG_CONTINUITY if greg_in_frame else "Match recurring characters to supplied reference assets and appearance notes while preserving the shared PLG visual language.")
         queue.append(
             {
                 "candidate_id": candidate_id,
@@ -62,9 +90,14 @@ def build_generation_queue(
                 "spoiler_level": candidate["spoiler_level"],
                 "scene_summary": candidate["scene_summary"],
                 "visual_hook": candidate["visual_hook"],
-                "characters": list(candidate.get("characters", [])),
+                "characters": characters,
                 "location": candidate.get("location", ""),
                 "mood": candidate.get("mood", ""),
+                "style_family": candidate.get("style_family", DEFAULT_STYLE_FAMILY),
+                "framing_preference": framing_preference,
+                "character_reference_assets": character_assets,
+                "character_appearance_notes": character_notes,
+                "continuity_notes": continuity_notes,
                 "prompt_pack": f"state/visual/prompt-packs/{candidate_id}.md",
                 "paragraph_anchor": candidate.get("paragraph_anchor", ""),
                 "target_asset": target_asset,
@@ -86,7 +119,15 @@ def main() -> None:
     candidates = load_scene_candidates(CANDIDATES_PATH)
     registry = load_registry(REGISTRY_PATH)
     image_counts = count_chapter_images(CHAPTER_DIR)
-    queue = build_generation_queue(candidates, registry, chapter_image_counts=image_counts)
+    character_references = json.loads(CHARACTER_REFERENCES_PATH.read_text(encoding="utf-8")) if CHARACTER_REFERENCES_PATH.exists() else {}
+    if not isinstance(character_references, dict):
+        raise ValueError("character visual references must be a JSON object")
+    queue = build_generation_queue(
+        candidates,
+        registry,
+        chapter_image_counts=image_counts,
+        character_references=character_references,
+    )
     text = json.dumps(queue, indent=2, ensure_ascii=False) + "\n"
     previous = OUTPUT_PATH.read_text(encoding="utf-8") if OUTPUT_PATH.exists() else None
     if previous == text:
