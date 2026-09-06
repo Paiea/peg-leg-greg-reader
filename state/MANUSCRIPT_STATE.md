@@ -1,213 +1,268 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 423 - **THE PATIENT**.
+- Current exact story endpoint: Chapter 424 - **THE WALKER**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript physically materialized through Chapter 248.
-- Exact Chapters 249-423 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
+- Exact Chapters 249-424 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
 - Titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
-- Ch423 answer: Greg is being **a patient** in both bodily and behavioral sense. He deliberately declines paid work to protect fitting quality, waits through a restless day, returns for a second supervised shell session, and accepts slow measurable improvement instead of forcing a faster result.
-- Therefore title **THE PATIENT**.
-- Recent: 419 THE TOURIST; 420 THE BIDDER; 421 THE STUDENT; 422 THE TEMP; 423 THE PATIENT.
+- Ch424 answer: Greg is being **a walker**. He returns to real Venn work, tests the shell under tired-body conditions, progresses from rails into Masta's courtyard, and completes three ugly but real steps while carrying a small box and bundling his crutches in one hand.
+- Therefore title **THE WALKER**.
+- Recent: 420 THE BIDDER; 421 THE STUDENT; 422 THE TEMP; 423 THE PATIENT; 424 THE WALKER.
 
 ## Major arc direction - Duskport / work toward limb
 - Greg remains in **Duskport**, self-directed.
-- Original Venn block complete; new three-day flex arrangement active with no minimum attendance.
-- Greg deliberately skips paid work in Ch423 to protect fitting energy/body quality, proving money target does not own him.
+- New three-day flex Venn arrangement active; **1 flex day used in Ch424, 2 remain**.
 - 20c deposit paid toward Masta Venn travel-work limb.
-- First trial-shell session Ch421; no-shell recovery Ch422; **second supervised trial-shell session completed Ch423**.
-- Greg still does not own or take home a finished peg/work limb.
-- Trial build remains at Hark & Venn.
-- Next stage may be third supervised session, then possibly controlled shop-to-courtyard/flat-route trial with crutches if skin and don/doff competence stay good.
-- Full user-directed `equation changed` mindset unlock is still protected for sustained practical movement, but Ch423 provides first meaningful precursor: standing hands-free becomes measured/repeatable rather than a one-second novelty.
+- First shell session Ch421; recovery day Ch422; second shell Ch423; **third tired-body supervised shell + first courtyard movement Ch424**.
+- Greg still does not own or take home finished peg/work limb.
+- Trial shell remains at Hark & Venn.
+- If skin remains clean, Masta plans a **one-hour flat-route outside trial next day at fourth bell**.
+- Full user-directed mindset unlock is beginning to emerge in small credible form because movement now changes planning, but this is NOT S-class switch/power restoration and not finished mobility.
 
-## Chapter 423 - THE PATIENT
+## Chapter 424 - THE WALKER
 
-### Morning / choosing not to work
-- Greg wakes with healthy residual limb:
-  - no heat;
+### Venn flex work / tired-body test setup
+- Greg begins **39c cash / 23c Vale / bits unspecified**.
+- He intentionally works before fitting because Masta wants tired/yard-volume evidence, not rested-only success.
+- Venn assignment: **North Pier brace release / load check / condition**.
+- Same authority boundaries:
+  - Meren Cole structural authority;
+  - Sesh Om rigging;
+  - Nali condition;
+  - Greg records/load sequence.
+- North Pier warehouse temporary braces now permit one recovery corridor.
+
+### Jase Kerrin / ice cabinet outcome
+- Previously trapped second ice cabinet is finally accessible and recovered first because hazard/access now allow it.
+- Cabinet condition:
+  - copper binding green;
+  - lower corner crushed;
+  - swollen door seal.
+- Jase has shifted from urgent anger to wanting certainty.
+- Cabinet opened later in condition bay.
+- Upper trays clearly spoiled; lower sealed tins require food inspector for any salvage determination.
+- Jase acknowledges likely ~30c-scale loss without melodrama.
+- This gives consequence to earlier no-clean-answer safety choice without retroactively making delay wrong.
+
+## HT-LP-4 first real use
+- During brace load check one structural screw gauge is unavailable due cracked glass.
+- Greg proposes his **HT-LP-4 last-peak load tile** only as extra observation, not certified clearance.
+- Nali and Meren explicitly preserve limits:
+  - not certified;
+  - slow reset ~15 min;
+  - one peak only;
+  - bad under sharp impact.
+- Tile placed under a **secondary brace shoe**, not primary load path.
+- During test pull crescent darkens toward seaward edge.
+- Meren cross-checks chalk witness line and functioning adjacent gauge.
+- Result is consistent with slight seaward load bias.
+- Meren orders one wedge reseated before next lift.
+- Important artifact/tool engine result: tool finds a real job because job exists; it provides bounded confirmation, not magical diagnosis.
+
+## Pay / economy
+- Greg earns **4c** assigned load/tally day.
+- Cash **39c -> 43c**.
+- Vale remains **23c**.
+- 20c deposit remains paid toward total 1 silver + 18c quote.
+- No new purchase.
+
+## Third supervised shell session - tired-body data
+- After full yard day, Greg reports Hark & Venn.
+- Residual limb:
+  - warm/tired but healthy;
   - no open skin;
-  - no angry pressure line;
-  - left hip still mildly sore;
-  - right calf soreness improving.
-- Greg sends Carrow reply at first bell and physically watches courier pouch tied, preserving communication/accountability.
-- On way toward East Hook he decides **not to work today** because second shell session matters and he wants rested-body fitting data.
-- Sori challenges whether he truly believes one missed 3-4c day will not make limb disappear; Greg says he believes it `less`, but enough.
-- East Hook board has possible jobs, but Tavren accepts no-work choice without penalty under flex terms.
-- New flex arrangement functions as promised.
-- Nali reaction is simple `Good`, no parade/inspirational framing.
+  - no angry old pressure lines;
+  - volume above rested session but below first full-day fitting.
+- Masta treats this as useful operating range.
+- Shell/test changes:
+  - narrower temporary foot than prior rectangular block;
+  - shallow split groove;
+  - not final foot, only geometry test.
+- Greg dons shell himself.
+- First strap initially too loose; he notices shell shift after standing, sits, and corrects it without Masta telling him.
+- This is evidence of learning don/doff/fit awareness, not independence yet.
 
-## Rested-body day / city life
-- Greg resists labor exchange and magic training because both would defeat purpose of rested fitting data.
-- Buys soap for 1 bit; copper unchanged.
-- Has right shoe checked because outer heel wear is noticeable under crutch gait.
-- Cobbler says current wear is normal enough for crutch pattern and asks Greg to return after gait changes because shoe wear may change too.
-- Maro has independent salt-moss experiment: wants to see whether live salt moss roots and may sell once to a north-coast herbalist, not become full merchant.
-- Dask/Sori/Maro continue separate city interests.
-- Greg experiences restlessness because task normally explains waiting.
+### Rail progression
+- Pelvis level is still effortful but Greg can now locate it more reliably.
+- Left step shorter.
+- Right knee no longer automatically locks every step.
+- Foot contact quieter.
+- Turns remain poor.
+- Masta catches shoulder compensation and makes Greg repeat bad turn honestly before adjusting rear strap.
+- Durable instruction remains **walk honestly**.
 
-## Second supervised trial-shell session
-- Masta checks skin before fitting and confirms healthy/rested volume.
-- Greg tells her he skipped work for clean data.
-- Masta says that is reasonable once but warns not to become precious: later fittings must also test tired/yard volume because real use must work across range.
-- Adjusted shell differences from Ch421:
-  - upper lateral edge slightly trimmed;
-  - posterior relief deeper;
-  - support post still rotated inward;
-  - thin leather added to outer fore edge of test foot.
-- Donning feels more obvious/easier path, though not looser.
+## First courtyard movement
+- Masta advances Greg from rail room into flat shop courtyard.
+- Nali appears as experienced-user second observer because Masta asked her to.
+- Courtyard:
+  - ~20 paces;
+  - flat stone;
+  - one shallow drain channel;
+  - rail only first half.
+- Greg crosses shallow drain deliberately with shell, showing terrain is still something to parse rather than automatic.
+- At end of rail he uses crutches with **light contact** rather than full body suspension for several steps.
+- Pattern degrades after fatigue:
+  - left foot slap returns;
+  - right knee locks;
+  - Greg loads right crutch harder.
+- Masta stops immediately and has him rest/check skin instead of pushing endurance.
 
-### Improved body awareness, still beginner gait
-- Greg automatically shifts too much load right, notices before Masta cues it, then waits for permission before correcting because he is learning distinction between hiding new error and testing known correction.
-- Pelvis level still feels wrong, but less wrong than first session.
-- Initial left step still too long; foot slap remains but reduced.
-- Right knee still locks from distrust of left-side loading.
-- Masta explicitly makes Greg repeat 3 bad steps without fixing them so she can see pattern.
-- Strap adjustment reduces right-knee desperation and improves flatter left-foot contact.
-- Turning remains poor because Greg's crutch-era pivot/swing habit conflicts with shell sequence.
-- First turn catches test foot; no fall; subsequent turns improve slightly.
-- Durable rule remains **walk honestly**.
+## First loaded three-step practical movement
+- After shorter controlled pass, Masta has Greg stand mid-courtyard.
+- He bundles both crutches in **right hand**.
+- Masta gives him a small wooden box ~5 lb in left hand.
+- Both hands are occupied by objects that are **not supporting his body**.
+- Greg takes **3 slow ugly steps**:
+  - left;
+  - right;
+  - left.
+- He does not fall.
+- He does not repeat because Masta ends test.
+- This is the first practical moving example of future limb changing work grammar, beyond static hands-free standing.
+- It is still supervised, tiny-distance, trial-shell use and not street mobility.
 
-## Hands-free standing progression
-- Greg reaches:
-  - ~5 clean hands-free seconds first set;
-  - ~4 second set with wobble;
-  - ~6 clean-ish seconds third set.
-- Masta stops him before he converts clean time into ugly endurance.
-- This is still standing only, not hands-free walking.
-- Six seconds matters because it feels like a **position**, not a trick.
-- Greg can now imagine standing work without translating everything through crutches first.
-- No full transformation yet.
+## Skin / hardware findings
+- Post-courtyard skin:
+  - upper edge light pink;
+  - lower-front faint mark returns;
+  - no open skin;
+  - no heat;
+  - no numbness.
+- Narrower test foot appears better for Greg's current step, but final width not chosen.
+- Reinforced side stay is becoming **less likely** if lateral load keeps improving with alignment.
+- Potential benefit of no reinforced stay: lighter and perhaps cheaper, but **no quote change promised yet**.
+- Masta plans next-day fourth-bell outside trial if morning and pre-trial skin remain clean.
 
-## Pressure / hardware evidence
-- End-of-session skin:
-  - upper lateral edge light pink but safe;
-  - posterior line gone;
-  - new lower-front pressure point appears, not painful.
-- Cause unresolved among shorter-step loading / strap / foot angle; Masta marks for repeat instead of pretending certainty.
-- Masta shows two possible future foot blanks:
-  - broader/rectangular for standing/dock stability;
-  - narrower/slight split groove for uneven ground and easier roll.
-- Greg likes narrower travel-oriented option; Masta refuses to choose based on idea alone and wants gait evidence.
-- Wet grip possible on both with different tread.
-- Reinforced side stay remains **maybe**:
-  - if lateral load keeps improving with alignment, no stay = lighter/cheaper;
-  - if lateral load returns under yard volume, add stay.
-- Quote remains unchanged for now; no new exact surcharge established.
-
-## Trial-build next stage
-- Greg does **not** take shell home Ch423.
-- Masta says after a third supervised session, if skin stays boring and Greg can don/doff correctly, he may get:
-  - controlled shop-to-courtyard trial;
-  - then possibly **one-hour outside trial**;
-  - with crutches;
-  - flat route;
+## Next stage - one-hour outside trial
+- Masta instruction:
+  - morning self skin check;
+  - Greg may work or not;
+  - report fourth bell;
+  - if skin clean, **one-hour flat-route outside trial**;
+  - crutches required;
   - return to shop.
-- Finished leg still later.
-- Final balance due before finished hardware leaves shop; deposit covers material commitment and current fitting work.
-- No universal silver/copper conversion invented.
-
-## Economy
-- Greg begins and ends **39c cash / 23c Vale / bits unspecified**.
-- He deliberately earns **0c** Ch423.
-- Buys soap for 1 bit only; copper unchanged.
-- 20c limb deposit remains paid toward total 1 silver + 18c quote.
-- Important internal movement: choosing not to earn one day feels uncomfortable but not catastrophic.
+- Trial shell still remains at Hark & Venn overnight.
+- Finished limb still later and final balance remains due before finished hardware leaves shop.
 
 ## Artifact inventory
-Greg currently carries:
+Greg carries:
 1. retired line quietener, bought Ch397 8c;
 2. WS-F/9 retired slate current reader, bought Ch402 1c incl two-renewal paste;
 3. HT-LP-4 retired Harbor Tension last-peak load tile, bought Ch420 2c.
-- HT-LP-4 remains unused in Ch423.
+- HT-LP-4 now has first validated bounded use at North Pier.
 
 ## Magic
 - Protocol remains **59 minimal / 53 shaping / 135 external attempts**.
-- Greg deliberately does not use fitting-rest day for magic training.
+- No deliberate Greg magic Ch424.
 - No S-class/locked-mode activation.
-- Future mobility mindset change remains nonmagical in origin.
+- Mobility/mindset progression remains nonmagical in origin.
 
 ## Greg physical state
-- Left BKA skin healthy through second trial session.
-- Left hip mild soreness, improving.
-- Right calf soreness improving.
-- New lower-front light pressure mark after shell session, not painful/open.
-- Crutches remain faster/familiar and are used normally outside shop.
+- Left BKA healthy after tired-body third session.
+- Mild expected upper-edge pinkness/lower-front faint mark, no injury.
+- Crutches remain faster and more practical for ordinary city travel right now.
+- Trial shell remains slower/less reliable than crutches.
 - No new injury.
 
 ## Peg-Leg Greg nickname
-- One fruit seller calls Greg `Peg-Leg` while he circles block before fitting.
-- After session, Greg answers `Six seconds` when teased about still no peg, which nobody understands. Joke remains primarily Greg's internal milestone.
-- Nickname stays light/local.
+- Pell asks `Peg-Leg?` when Greg returns; Greg answers `Three steps.`
+- Nickname remains affectionate/local and not universal.
 
-## Greg social/internal movement
-- Greg chooses fitting progress over one paid day without spiraling into poverty panic.
-- He accepts waiting/rest as part of work on body.
-- Six hands-free seconds changes internal category slightly:
-  - before, standing without crutches belonged to old-life/impossible categories;
-  - now it is measured and repeatable, though brief.
-- Key answer to Sori: shell feels **`Less impossible.`**
-- Dask immediately calculates 1 to 6 seconds as 500% increase, ruining solemnity.
-- Closing idea: Greg has **not** reached full `equation changed` moment, but he has stopped treating unknown as zero.
-- Planning begins naturally around future progression: courtyard, flat street, carrying while standing, eventually both hands while moving.
+## Greg social/internal movement - first small equation click
+- Sori asks how courtyard movement felt.
+- Greg answers **`Useful.`**
+- Key development:
+  - Ch421 = one-second hands-free novelty;
+  - Ch423 = repeatable hands-free standing becomes a position;
+  - Ch424 = three loaded steps make new mobility a **function**, not just a posture.
+- Greg catches himself planning future actions by function:
+  - door;
+  - counter;
+  - carry cup;
+  - standing at stall with both hands;
+  - moving while holding notebook.
+- His internal question changes from:
+  - `Can I walk like before?`
+  - or `Can this replace crutches?`
+  to:
+  - **`What can I do now that I could not do yesterday?`**
+- This is the first small genuine `equation changed` click:
+  - not all at once;
+  - not S-class;
+  - not old body restored;
+  - one term becomes nonzero;
+  - possibility becomes inventory.
+- Full broader mindset unlock can deepen with actual one-hour city trial and eventual finished limb.
 
 ## Dialogue variance
-- Sori: reflective financial challenge and restrained emotional support.
-- Tavren: flex arrangement honored without guilt/manipulation.
-- Nali: blunt validation, no celebration.
-- Masta: teacher/craft authority, distinguishes rested data from real-world tired data and stops clean progress before ugly compensation.
-- Maro: independent salt-moss project and longer warm conversational register.
-- Dask: technical percentage joke and process curiosity.
+- Tavren: terse, tells Greg to `go be bad at walking` after work.
+- Nali: experienced-user boundary, warns Greg not to prove a point and serves as second observer.
+- Masta: teacher/craft authority, refuses repetition after meaningful data, tests donning honesty and courtyard function.
+- Jase Kerrin: quieter, resigned commercial loss rather than repeating earlier urgency.
+- Dask: labels three-step box movement `functionally loaded bipedal transfer`; Greg rejects phrase.
+- Sori: quietly asks how it felt and accepts `Useful` without forcing emotional speech.
 
 ## Recent role ledger
-- 419 THE TOURIST
 - 420 THE BIDDER
 - 421 THE STUDENT
 - 422 THE TEMP
 - 423 THE PATIENT
+- 424 THE WALKER
 
 ## Protected uncertainties
-- Greg ends Ch423 at Anchor's End in Duskport.
-- Greg cash exact **39c**, Vale **23c**, bits unspecified.
+- Greg ends Ch424 at Anchor's End in Duskport.
+- Greg cash exact **43c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 135**.
 - Greg still does not own/wear a finished peg/work limb.
 - 20c deposit paid.
-- Second trial-shell session complete; shell remains at Hark & Venn.
-- Skin safe with one light new lower-front pressure point to recheck.
-- Third supervised session / controlled courtyard or eventual one-hour outside trial possible next, timing not exact.
-- New three-day flex Venn arrangement active; no days used in Ch423.
-- Home reply sent from Duskport at first bell.
-- HT-LP-4 remains Greg property and unused.
+- Trial shell remains at Hark & Venn.
+- Third supervised session complete; first courtyard and 3-step loaded movement complete.
+- Next-day one-hour flat-route outside trial planned at fourth bell if skin clean.
+- Venn flex arrangement: 1 of 3 days used, 2 remain.
+- HT-LP-4 now has bounded validated job use.
+- Home reply sent, no newer Carrow response yet.
 - Storm-heart locker remains Tideglass custody.
-- Merry Wake remains active.
-- Nickname remains lightly local.
+- Merry Wake active.
+- Nickname lightly local.
 
-## Chapter 424 trailhead
-Follow next actual claim from Ch423/current authority.
+## Chapter 425 trailhead
+Follow next actual claim from Ch424/current authority.
 
-Greg begins **39c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**.
+Greg begins **43c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**.
 
 Strong movement:
-- Do not make Ch424 another entire rail-room fitting chapter unless new evidence materially changes process.
-- Greg can return to Venn flex work, labor exchange, artifact/tool testing, or broader Duskport movement while shell rests/gets adjusted.
-- Next fitting should probably test **tired/yard volume**, because Masta explicitly wants range rather than rested-only success.
-- A strong route is: Greg works a real day, then third session tests whether gains survive fatigue. If successful enough, controlled courtyard/flat-route trial can begin.
-- First practical outside movement with trial build is approaching and may justify a **small real `equation changed` click**, but full mindset unlock should come only if Greg can actually use both hands/mobility in a sustained meaningful way.
-- Remaining balance still matters. Greg has 39c and large silver-denomination obligation before finished hardware leaves shop.
-- Venn flex arrangement should remain optional, not permanent.
-- Artifact/tool engine remains available; HT-LP-4 can enter a job only if genuinely useful rather than forced.
+- Fulfill one-hour outside trial promise in Ch425 unless skin gives credible reason not to.
+- Morning can include light work/rest choice, but do not bury outside trial under another full work chapter.
+- Outside trial should remain controlled:
+  - flat route;
+  - crutches with him;
+  - perhaps shop -> market/block -> shop;
+  - stop/check skin;
+  - moments where crutches are carried/light-contact rather than discarded.
+- This is the right place for user-directed mindset shift to deepen because real city function can change planning.
+- Let Greg discover both upside and downside:
+  - easier standing/carrying/door use;
+  - slower gait than crutches;
+  - concentration cost;
+  - fatigue;
+  - curb/cobble problems;
+  - socket pressure changes over hour.
+- A meaningful `Peg-Leg Greg` joke may land especially well once he is physically seen using trial build, but do not make nickname universal overnight.
+- Do not give finished hardware yet solely because outside trial succeeds.
+- Remaining balance still substantial.
 
 Avoid:
-- finished leg instantly;
-- hands-free street walking immediately;
+- instantly abandoning crutches;
+- running/fighting gracefully on trial shell;
+- finished leg same day;
 - S-class switch;
 - magical prosthetic behavior;
-- turning six seconds standing into exaggerated mobility claim;
-- guilt for skipped work.
+- treating 3 courtyard steps as proof of full mobility.
 
-**MANDATORY TITLE CHECK CH424:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH425:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
