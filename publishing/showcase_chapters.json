@@ -16,6 +16,7 @@
     "48": {"showcase": false, "reason": "low_consequence_mundane"},
     "49": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
     "57": {"showcase": false, "reason": "redundant_progression"},
-    "66": {"showcase": false, "reason": "bridge_not_needed"}
+    "66": {"showcase": false, "reason": "bridge_not_needed"},
+    "73": {"showcase": false, "reason": "bridge_not_needed"}
   }
 }
