@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import bisect
 import json
 import re
 from collections import Counter, defaultdict
@@ -51,6 +52,15 @@ def file_category(relative: str, suffix: str) -> str:
     return "other"
 
 
+def newline_offsets(text: str) -> list[int]:
+    """Return newline offsets once so match-to-line lookup stays logarithmic."""
+    return [index for index, char in enumerate(text) if char == "\n"]
+
+
+def line_number(offsets: list[int], character_offset: int) -> int:
+    return bisect.bisect_left(offsets, character_offset) + 1
+
+
 def scan_dependencies(root: Path) -> dict:
     root = root.resolve()
     by_chapter: dict[str, list[dict]] = defaultdict(list)
@@ -71,10 +81,11 @@ def scan_dependencies(root: Path) -> dict:
             continue
         scanned += 1
         category = file_category(relative, path.suffix.lower())
+        offsets = newline_offsets(text)
         for kind, pattern, risk in PATTERNS:
             for match in pattern.finditer(text):
                 number = str(int(match.group(1)))
-                line = text.count("\n", 0, match.start()) + 1
+                line = line_number(offsets, match.start())
                 item = {
                     "kind": kind,
                     "risk": risk,
