@@ -157,6 +157,33 @@ Treat routes, markets, archives, prices, specifications, specialists, letters, a
 ### PEOPLE / NETWORK
 Maintain distinct reciprocal relationships. Learn who can answer what, introduce whom, verify which work, offer what expertise, and expect what in return. Build constellation, not entourage.
 
+## Debt closure as progression
+When Greg's earning power and liquidity materially scale upward, accumulated financial drag should begin disappearing instead of remaining permanent background pressure.
+
+Before paying anything, verify the obligation against current exact manuscript authority. Do not invent or resurrect debts merely to create a payoff scene.
+
+Clear only real outstanding liabilities such as:
+- explicit debt balances;
+- borrowed money still contractually owed;
+- unpaid equipment or specialist costs;
+- advances or installment arrangements;
+- remaining work-limb / peg-leg balances;
+- other explicit contractual obligations still alive in canon.
+
+Do **not** convert friendship, gifts, meals, favors, generosity, emotional support, household care, or informal reciprocal help into financial debt after the fact.
+
+Preferred order when practical:
+1. verify and clear genuine outstanding liabilities;
+2. preserve a meaningful reserve / working-capital buffer;
+3. improve essential body / mobility / tools infrastructure;
+4. deploy remaining capital toward higher-leverage opportunities.
+
+Debt freedom is not a morality lesson and Greg should not empty himself merely to become debt-free. Reserve and optionality matter. Something that once dominated several chapters may later disappear almost casually as a line item when his scale changes. Use that contrast to demonstrate progression rather than exposition.
+
+The work limb should evolve with Greg's capacity. Once money/access/specialist relationships support it, stop treating mobility equipment as one desperate one-time purchase. Where canon supports it, Greg may clear remaining balance, commission adjustments, improve fit, replace worn components, acquire backups, or fund later iterations. Mobility equipment is infrastructure and a continuing system, not a completed quest item.
+
+Do not build a `financial checklist chapter`. Fold closure into errands, returns, negotiations, purchases, specialist visits, household scenes, and other ongoing consequences. The emotional payoff is that old constraints which once controlled Greg's life become solvable without consuming the whole story.
+
 ## Strategic posture
 Greg increasingly asks:
 
