@@ -1,0 +1,194 @@
+name: Apply strict dialogue ownership 041-050
+
+on:
+  push:
+    branches:
+      - integration/aggressive-dialogue-041-050-live
+    paths:
+      - '.github/workflows/apply-dialogue-ownership-041-050.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  repair-and-validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply exact visible-text ownership repairs
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import html
+          import re
+
+          repairs = {
+              41: [
+                  ('Easy. I looked. Raw varied wildly. Color. Veins. Porosity. Some almost smooth. Some crumbly. Sorted looked less variable. Not identical. Closer. A man with a shovel said, “Don’t climb in.”',
+                   ['Easy. I looked. Raw varied wildly. Color. Veins. Porosity. Some almost smooth. Some crumbly. Sorted looked less variable. Not identical. Closer.', 'A man with a shovel said, “Don’t climb in.”']),
+                  ('Dorrin said, “Second stack, not first. First is Brin order.” The worker left. Her attention moved with him. Conversation over. I could feel it. One more question. No.',
+                   ['Dorrin said, “Second stack, not first. First is Brin order.”', 'The worker left.', 'Her attention moved with him.', 'Conversation over. I could feel it. One more question. No.']),
+              ],
+              42: [
+                  ('Rusk said, “We can do that.” She looked at him.',
+                   ['Rusk said, “We can do that.”', 'She looked at him.']),
+              ],
+              45: [
+                  ('There was a farmhouse maybe two hundred yards through the orchard. Smoke. Someone home. Alden said, “I\'ll tell them.” He crossed the ditch. Pessa said, “I\'ll keep carts.”',
+                   ['There was a farmhouse maybe two hundred yards through the orchard. Smoke. Someone home.', 'Alden said, “I\'ll tell them.” He crossed the ditch.', 'Pessa said, “I\'ll keep carts.”']),
+                  ('Alden said, “For now.” We finished lunch. The orchard destination was not an orchard. It was several. West Orchard Cooperative. Three farms sharing a storage barn, oil shed, repair yard, and seasonal labor. The tool crates went to the barn. Lamp oil to a stone-sided shed thirty yards away. Different recipients. Of course. Merrit knew. Sova knew.',
+                   ['Alden said, “For now.”', 'We finished lunch. The orchard destination was not an orchard. It was several. West Orchard Cooperative. Three farms sharing a storage barn, oil shed, repair yard, and seasonal labor. The tool crates went to the barn. Lamp oil to a stone-sided shed thirty yards away. Different recipients. Of course. Merrit knew. Sova knew.']),
+                  ('Manifest said fourteen. Cenn said, “I ordered fourteen.”',
+                   ['Manifest said fourteen.', 'Cenn said, “I ordered fourteen.”']),
+                  ('She nodded. Tool cart crossed. Oil cart now empty except packing and returns. Lighter. Crossed. No drama. At west gate, Pessa went directly to road clerk. Not me. She asked for Oren. The clerk said Oren was eating. Pessa said, “Then get him after.” She reported bridge brace movement and increased debris. Clerk wrote it down. Maybe Oren would care. Maybe Mal would have too.',
+                   ['She nodded.', 'Tool cart crossed. Oil cart now empty except packing and returns. Lighter. Crossed. No drama.', 'At west gate, Pessa went directly to road clerk.', 'Not me.', 'She asked for Oren.', 'The clerk said Oren was eating.', 'Pessa said, “Then get him after.” She reported bridge brace movement and increased debris.', 'Clerk wrote it down.', 'Maybe Oren would care. Maybe Mal would have too.']),
+              ],
+              46: [
+                  ('Not name. The woman asked Jorren if dock job finished. He said yes. She said her brother needed two men at river stairs next week. Jorren said maybe. No Greg. World. After soup, Tam said, “Your friend stares.” Jorren said, “Yes.”',
+                   ['Not name.', 'The woman asked Jorren if dock job finished.', 'He said yes.', 'She said her brother needed two men at river stairs next week.', 'Jorren said maybe.', 'No Greg. World. After soup,', 'Tam said, “Your friend stares.”', 'Jorren said, “Yes.”']),
+              ],
+              48: [
+                  ('I hated this. Lio said, “Window.”',
+                   ['I hated this.', 'Lio said, “Window.”']),
+                  ('Right. More body space. Simpler. Lio called down, “Mara!” The door opened. A woman in a nightshirt looked at three men and a stove.',
+                   ['Right. More body space. Simpler.', 'Lio called down, “Mara!”', 'The door opened. A woman in a nightshirt looked at three men and a stove.']),
+                  ('Sevren said, “Two.” She looked at him.',
+                   ['Sevren said, “Two.”', 'She looked at him.']),
+              ],
+          }
+
+          # One old dialogue-tag split requires joining adjacent paragraphs before
+          # the ordinary ownership splits are applied.
+          seam = {
+              45: (
+                  '“Grease washed?”',
+                  'Alden asked. Merrit said, “Maybe.” He pulled the cap. Checked. Pessa found a flat place. Dorn brought a jack. Not Guild hook. Cart jack.',
+                  ['“Grease washed?” Alden asked.', 'Merrit said, “Maybe.” He pulled the cap. Checked.', 'Pessa found a flat place.', 'Dorn brought a jack. Not Guild hook. Cart jack.'],
+              )
+          }
+
+          p_re = re.compile(r'<p\b[^>]*>(.*?)</p>', re.I | re.S)
+          tag_re = re.compile(r'<[^>]+>')
+
+          def norm(s: str) -> str:
+              return re.sub(r'\s+', ' ', html.unescape(s).replace('\xa0', ' ')).strip()
+
+          def flat_prose(text: str) -> str:
+              article = text.split('<article class="prose">', 1)[1].split('</article>', 1)[0]
+              return norm(tag_re.sub(' ', article))
+
+          def paragraph_matches(text: str, visible: str):
+              out = []
+              for m in p_re.finditer(text):
+                  inner = m.group(1)
+                  if norm(tag_re.sub('', inner)) == norm(visible):
+                      out.append((m, inner))
+              return out
+
+          changed = []
+          chapters = sorted(set(repairs) | set(seam))
+          for chapter in chapters:
+              path = Path('chapters') / f'{chapter:03d}.html'
+              text = path.read_text(encoding='utf-8')
+              original_flat = flat_prose(text)
+
+              if chapter in seam:
+                  first_visible, second_visible, new_paras = seam[chapter]
+                  first = paragraph_matches(text, first_visible)
+                  second = paragraph_matches(text, second_visible)
+                  if len(first) != 1 or len(second) != 1:
+                      raise SystemExit(f'{path}: split-tag seam did not match exactly once')
+                  m1, inner1 = first[0]
+                  m2, inner2 = second[0]
+                  if tag_re.search(inner1) or tag_re.search(inner2):
+                      raise SystemExit(f'{path}: split-tag seam unexpectedly contains inline markup')
+                  between = text[m1.end():m2.start()]
+                  if between.strip():
+                      raise SystemExit(f'{path}: split-tag seam paragraphs are not adjacent')
+                  replacement = ''.join(f'<p>{part}</p>' for part in new_paras)
+                  text = text[:m1.start()] + replacement + text[m2.end():]
+
+              for old_visible, new_paras in repairs.get(chapter, []):
+                  matches = paragraph_matches(text, old_visible)
+                  if len(matches) != 1:
+                      raise SystemExit(f'{path}: expected one visible-text match, got {len(matches)}: {old_visible[:100]}')
+                  m, inner = matches[0]
+                  if tag_re.search(inner):
+                      raise SystemExit(f'{path}: targeted paragraph unexpectedly contains inline markup: {old_visible[:100]}')
+                  replacement = ''.join(f'<p>{part}</p>' for part in new_paras)
+                  text = text[:m.start()] + replacement + text[m.end():]
+
+              if flat_prose(text) != original_flat:
+                  raise SystemExit(f'{path}: ownership repairs changed normalized prose text')
+              path.write_text(text, encoding='utf-8')
+              changed.append(str(path))
+          print('repaired:', ', '.join(changed))
+          PY
+      - name: Strict ownership checker must clear
+        run: python scripts/dialogue_ownership_check.py --range 41-50 --strict
+      - name: Verify Chapter 45 split-tag repair
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          text = Path('chapters/045.html').read_text(encoding='utf-8')
+          assert '<p>“Grease washed?” Alden asked.</p>' in text
+          assert '<p>Alden asked. Merrit said,' not in text
+          print('Chapter 45 split-tag repair passed')
+          PY
+      - name: Verify rewrite is idempotent after human repairs
+        run: |
+          mkdir -p /tmp/dialogue-after-human
+          cp chapters/{041..050}.html /tmp/dialogue-after-human/
+          for pass in 1 2 3 4; do
+            python scripts/apply_dialogue_ownership_rewrite.py --start 41 --end 50
+          done
+          python - <<'PY'
+          from pathlib import Path
+          for n in range(41, 51):
+              name = f'{n:03d}.html'
+              before = Path('/tmp/dialogue-after-human', name).read_text(encoding='utf-8')
+              after = Path('chapters', name).read_text(encoding='utf-8')
+              if before != after:
+                  raise SystemExit(f'ownership rewrite still changes {name}')
+          print('ownership rewrite idempotent after human repairs')
+          PY
+      - name: Full repository validation
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py' -v
+          git diff --check
+          python scripts/verify_reader_frontier.py
+      - name: Validate changed prose surfaces
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          for n in range(41, 51):
+              p = Path('chapters') / f'{n:03d}.html'
+              text = p.read_text(encoding='utf-8')
+              article = text.split('<article class="prose">', 1)[1].split('</article>', 1)[0]
+              if '<p></p>' in article:
+                  raise SystemExit(f'empty paragraph: {p}')
+              prose = re.sub(r'<[^>]+>', '', article)
+              if '—' in prose:
+                  raise SystemExit(f'em dash in prose: {p}')
+          print('prose validation passed')
+          PY
+      - name: Commit validated human ownership repairs
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add chapters/041.html chapters/042.html chapters/045.html chapters/046.html chapters/048.html
+          if git diff --cached --quiet; then
+            echo 'No manuscript ownership repairs to commit.'
+            exit 0
+          fi
+          git commit -m "Resolve strict dialogue ownership through chapter 50"
+          git push origin HEAD:integration/aggressive-dialogue-041-050-live
