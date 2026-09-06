@@ -1,5 +1,5 @@
 {
-  "latest": 467,
+  "latest": 491,
   "chapters": [
     {
       "number": 100,
@@ -2208,6 +2208,150 @@
       "title": "THE PROSPECTOR",
       "source": "checkpoint",
       "path": "467.html"
+    },
+    {
+      "number": 468,
+      "title": "THE EXPLORER",
+      "source": "checkpoint",
+      "path": "468.html"
+    },
+    {
+      "number": 469,
+      "title": "THE ARCHITECT",
+      "source": "checkpoint",
+      "path": "469.html"
+    },
+    {
+      "number": 470,
+      "title": "THE CALIBRATOR",
+      "source": "checkpoint",
+      "path": "470.html"
+    },
+    {
+      "number": 471,
+      "title": "THE STRATEGIST",
+      "source": "checkpoint",
+      "path": "471.html"
+    },
+    {
+      "number": 472,
+      "title": "THE BROKER",
+      "source": "checkpoint",
+      "path": "472.html"
+    },
+    {
+      "number": 473,
+      "title": "THE FIXER",
+      "source": "checkpoint",
+      "path": "473.html"
+    },
+    {
+      "number": 474,
+      "title": "THE SOURCER",
+      "source": "checkpoint",
+      "path": "474.html"
+    },
+    {
+      "number": 475,
+      "title": "THE COORDINATOR",
+      "source": "checkpoint",
+      "path": "475.html"
+    },
+    {
+      "number": 476,
+      "title": "THE BIDDER",
+      "source": "checkpoint",
+      "path": "476.html"
+    },
+    {
+      "number": 477,
+      "title": "THE WAYFARER",
+      "source": "checkpoint",
+      "path": "477.html"
+    },
+    {
+      "number": 478,
+      "title": "THE CORRESPONDENT",
+      "source": "checkpoint",
+      "path": "478.html"
+    },
+    {
+      "number": 479,
+      "title": "THE HOMECOMER",
+      "source": "checkpoint",
+      "path": "479.html"
+    },
+    {
+      "number": 480,
+      "title": "THE WEARER",
+      "source": "checkpoint",
+      "path": "480.html"
+    },
+    {
+      "number": 481,
+      "title": "THE SUBSTITUTE",
+      "source": "checkpoint",
+      "path": "481.html"
+    },
+    {
+      "number": 482,
+      "title": "THE INTERRUPTER",
+      "source": "checkpoint",
+      "path": "482.html"
+    },
+    {
+      "number": 483,
+      "title": "THE VERIFIER",
+      "source": "checkpoint",
+      "path": "483.html"
+    },
+    {
+      "number": 484,
+      "title": "THE INTERMEDIARY",
+      "source": "checkpoint",
+      "path": "484.html"
+    },
+    {
+      "number": 485,
+      "title": "THE ORGANIZER",
+      "source": "checkpoint",
+      "path": "485.html"
+    },
+    {
+      "number": 486,
+      "title": "THE COORDINATOR",
+      "source": "checkpoint",
+      "path": "486.html"
+    },
+    {
+      "number": 487,
+      "title": "THE REPAYER",
+      "source": "checkpoint",
+      "path": "487.html"
+    },
+    {
+      "number": 488,
+      "title": "THE ACTOR",
+      "source": "checkpoint",
+      "path": "488.html"
+    },
+    {
+      "number": 489,
+      "title": "THE TIMER",
+      "source": "checkpoint",
+      "path": "489.html"
+    },
+    {
+      "number": 490,
+      "title": "THE CONTRACTOR",
+      "source": "checkpoint",
+      "path": "490.html"
+    },
+    {
+      "number": 491,
+      "title": "THE ACQUAINTANCE",
+      "source": "checkpoint",
+      "path": "491.html"
     }
   ]
 }

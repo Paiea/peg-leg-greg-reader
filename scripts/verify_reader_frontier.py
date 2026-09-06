@@ -7,6 +7,7 @@ import re
 from pathlib import Path
 
 import generate_light as gl
+from reader_sections import book_and_act_for_chapter
 
 
 def discover_published_chapters(root: Path) -> list[int]:
@@ -106,16 +107,22 @@ def verify_reader_frontier(
 
     index_text = (root / 'index.html').read_text(encoding='utf-8')
     light_index_text = (root / 'light' / 'index.html').read_text(encoding='utf-8')
-    expected_book_range = f'Chapters 321–{latest}'
-    expected_act_range = f'ACT II · Chapters 331–{latest}'
+    try:
+        current_book, current_act = book_and_act_for_chapter(latest)
+    except ValueError as exc:
+        raise AssertionError(str(exc)) from exc
+    expected_book_range = current_book.range_label(latest)
+    expected_act_range = f'{current_act.numeral} · {current_act.range_label(latest)}'
 
     for label, text in (('Illustrated index', index_text), ('Text index', light_index_text)):
-        if 'BOOK IV' not in text:
-            raise AssertionError(f'{label} is missing BOOK IV')
+        if current_book.numeral not in text:
+            raise AssertionError(f'{label} is missing current {current_book.numeral}')
         if expected_book_range not in text:
-            raise AssertionError(f'{label} is missing current Book IV range {expected_book_range}')
-        if latest >= 331 and expected_act_range not in text:
-            raise AssertionError(f'{label} is missing current Act II range {expected_act_range}')
+            raise AssertionError(f'{label} is missing current Book range {expected_book_range}')
+        if expected_act_range not in text:
+            raise AssertionError(f'{label} is missing current Act range {expected_act_range}')
+        if current_act.title not in text:
+            raise AssertionError(f'{label} is missing current Act title {current_act.title}')
 
     if f'href="chapters/{latest:03d}.html"' not in index_text:
         raise AssertionError('Illustrated index does not link the latest chapter')

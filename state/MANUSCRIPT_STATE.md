@@ -1,8 +1,8 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 480 - **THE WEARER**.
-- Exact Chapters 249-480 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
+- Current exact story endpoint: Chapter 491 - **THE ACQUAINTANCE**.
+- Exact Chapters 249-491 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
 - Permanent running-manuscript consolidation still has known integration debt; do not reconstruct missing exact text from summaries.
 
 ## Active correction overlays
@@ -10,135 +10,204 @@
 - Lakeward/Morrow cleanup remains active: **Jonah Sol, Garrick Sol, Helena Sol, Ada, June, Celia Brohm, Elias Mercer, Sabine Orlow, Danton Pike, Judith Fen, Walter Ardin, Owen Senn** replace drifted/reused names recorded in prior checkpoints.
 - Ch460 editorial naming-cleanup meta passage remains omitted during integration.
 
-## Naming guardrail
-Before any new named character: check `BOOK1_NAME_REGISTRY_CH82.md` and current state for exact/TTS/syllable/surname collision. Temporary people do not automatically need names.
-
-## Durable progression / leverage mandate
-- `state/PROGRESSION_ENGINE.md` includes legal/gray-market arbitrage guidance and the author-approved debt-closure progression rule.
-- Current leverage focus remains **earning power / capital**, with brokerage, arbitrage, coordination, management, eventual ownership, selective ordinary spending, and artifact-capital pressure all available.
-- Ch474 proves Greg can move silver-scale value without owning inventory.
-- Ch475 proves Greg can create value by coordinating specialists without stealing their expertise.
-- Ch476 proves artifact markets can outrun Greg's safe deployable capital and that losing a good object can be correct.
-- Ch477 proves Greg can pay normal travel cost when time/body/location value justify it and closes the first East Fen/Lakeward brokerage fee.
-- Ch478 restores relationship/home pressure through Lyssa's independent letter and physically routes Greg home.
-- Ch479 completes the return and reinforces belonging through accumulated household/work/social residue.
-- Ch480 materially advances the work-limb/body lane without inventing a new payment schedule: current fit data supersedes the older front correction for final-socket prep, while the existing quoted work order remains unchanged.
-- When liquidity genuinely scales, verify actual obligations before clearing them. Preserve reserve/working capital, distinguish debt from gifts/favors/support, and treat the work limb as evolving infrastructure.
+## Current progression direction
+- `state/PROGRESSION_ENGINE.md` remains authoritative for earning power / capital progression.
+- Current economic method increasingly favors **brokerage / arbitrage / coordination / management / contracting / eventual ownership**, not endless small-job accumulation.
+- Ch484 proves Greg can move a **1 silver + 2c** transaction without owning inventory.
+- Ch485-486 prove he can complete bounded organizer responsibility across multiple competent crews while preserving specialist authority.
+- Ch486 pushed Greg over the old 30c liquid-reserve milestone at **32c cash**.
+- Ch487 verified Vale/Hark & Venn, paid Vale materially, and preserved reserve.
+- Ch488 lets theatre exist as theatre and Greg as an imperfect actor.
+- Ch489 advances controlled external-magic protocol without granting practical capability.
+- Ch490 corrects debt pacing: Greg earns **14c in one day**, clears the remaining **11c Vale debt** on the way home, and still ends with 24c.
+- Vale debt closure is complete. Do not resurrect it, replace it with imaginary obligations, or make debt freedom a morality theme.
+- Ch491 deliberately pauses transaction/progression pressure and lets the closed debt change a relationship instead: Greg and Antonius Vale share drinks as acquaintances without debtor/creditor pressure underneath the conversation.
+- The next economic ratchet should increasingly ask what Greg can coordinate, contract, own, or finance at larger scale rather than how many tiny jobs he can stack.
 
 ## Current financial / body / magic state
-- Greg ends Ch480 **home in Carrow**.
-- Cash **12c**.
-- Vale **23c**.
-- Bits unspecified after ordinary food and local small purchases.
-- 10c survival floor active; **2c above floor**.
+- Greg ends Ch491 **home in Carrow**.
+- Cash **24c**.
+- Vale balance **0c / CLOSED**.
+- Bits remain unspecified after ordinary food/drink spending.
+- Greg's **10c survival floor** remains active, leaving **14c above floor**.
 - Reed-glass introduction fee remains paid/closed.
-- Work-limb deposit remains **20c paid toward the established 1 silver + 18c quote**.
-- Ch480 Hark & Venn review explicitly says **existing quote unchanged** and **no additional payment requested for this review**.
-- No new due date, installment amount, final balance schedule, or pickup-payment term is established.
-- Protocol remains **59 / 53 / 139**.
+- Work-limb quote remains **1 silver + 18c** with the existing **20c deposit received/applied**.
+- Nothing is currently scheduled due to Hark & Venn before final acceptance unless terms later change.
+- Final balance remains due on final acceptance unless shop/customer agree otherwise.
+- Early Hark & Venn payment currently changes only account balance, not production timing/material priority/fit schedule.
+- Hark & Venn still holds trial socket / temporary ash shaft / medium test foot; Greg has liner at home.
+- Protocol remains **59 minimal / 53 shaping / 159 external**.
 - Greg remains on two crutches outside supervised fitting use.
-- Shoulder continues improving; no new injury or skin break.
-- No magic tests in Ch480.
+- Ch491 includes mild alcohol-related reduction in precision and ordinary crutch fatigue only; Greg notices it, accepts water after two small beers, and walks home more slowly. No injury or skin break.
+- No magic attempts occur in Ch491.
 
-## Chapter 480 - THE WEARER
+## Recent live lanes
+
+### Vale / Antonius
+- Vale debt is **0c / CLOSED** as of Ch490.
+- Antonius remains a person, business contact, possible reference/source of market perspective, and now a socially available acquaintance. He is not a debt mechanic anymore.
+- Ch491 establishes that Greg can return to Vale with no account purpose, ask Antonius out for a drink, and be accepted socially.
+- Greg and Antonius share two small dark beers at **North Cut**, a quiet Carrow tavern Antonius already knows.
+- Greg pays only for shared food with bits after Antonius covers the second round; this does not create debt or obligation.
+- Their relationship should remain understated. They are acquaintance / friend-adjacent, not suddenly intimate best friends.
+- Antonius's social voice remains dry, economical, practical, and not therapeutic. He listens, corrects, jokes selectively, and does not turn Greg's debrief into counseling.
+
+### Hark & Venn / work limb
+- Existing quote remains **1s18c**; 20c deposit is applied.
+- No current storage fee, new fitting fee, approved price change, or payment due is established.
+- Final balance is due on final acceptance unless another agreement is made.
+- Work limb is not finished or presented for final acceptance.
+- Do not pay early merely because Vale is gone.
+- Hark & Venn should re-enter only through real shop word, fit request, completion/presentation, or another material change.
+
+### Hessa / magic
+- Protocol remains **59 / 53 / 159**.
+- Ch482 established only candidate moving-target sensitivity.
+- Ch489 added twelve supervised moving-shuttle attempts using early/middle/late timing windows and travel-relative right direction.
+- Ch489 net: **2 clean / 2 unclear / 8 no-clean**.
+- Early: 1 clean / 1 unclear / 2 no-clean across four attempts.
+- Middle: 1 clean / 1 unclear / 3 no-clean across five attempts.
+- Late: 0 clean / 0 unclear / 3 no-clean across three attempts.
+- No optimal timing window is established.
+- Travel-relative framing remains plausible but unproven.
+- Motion remains only a candidate condition.
+- Greg's own response latency is now an identified confound; possible future fixed cue/bell/mechanical cue/second observer remains uncommitted.
+- No practical interruption/deflection capability, sub-object control, useful force, people-targeting, or independent testing is established.
+- Hessa's **NO INDEPENDENT TESTING** restriction remains active.
+
+### Theatre
+- Renn is back and recovered enough for prompt-side work.
+- Pell is currently sick but remains Harrow unless later exact prose changes that.
+- Nella remains a stronger actor than Greg.
+- Ch488's acting correction remains active: another person's timing/pause is not Greg's to optimize for them.
+- Greg earned 1c for a half-day rehearsal in Ch488, but theatre should not become a disguised primary economic engine.
+
+### South Road / contracting reputation
+- Four-day South Road organizer term is complete and fully paid: **14c total** across Ch485-486.
+- Field office's narrow accepted reference remains: **Completed organizer term with accepted daily records.**
+- Ch490 uses that reference once as a bridge to a separate West Market receiving-house one-day contract.
+- West Market paid **14c** on accepted close record for three inbound wagons / two receiving crews / one certified scale / sixth-bell close.
+- Greg's authority remained coordination only; receiving master, scale clerk, cooper lead, warehouse lead, and crew leads retained specialist authority.
+- West Market has no standing obligation to hire Greg again.
+- South Road does not guarantee repeat work, hiring authority, crew ownership, or a permanent organizer post.
+
+### Provenance / market / artifacts
+- Greg's Road Response Kit remains legally **OPEN DISPOSAL**; old survey calibration marks are voided and do not certify current accuracy.
+- Provenance/title-release knowledge matters only when real transaction uncertainty makes it valuable.
+- North Freight has no standing obligation to send Greg more work.
+- Cross Street seller's fifth weak/unclear-chain sway shoe remains outside Greg's scope.
+- Stillhook remains Elian's; magical-displacement behavior, deeper provenance, repairability, maker/generation, and Elian's profession/use remain unresolved.
+- Artifact pressure can re-enter naturally through a real object/market/repair/salvage opportunity, but Greg should not be handed a consolation stillhook replacement.
+
+## Chapter 490 - THE CONTRACTOR carryover
+- Greg begins Ch490 at 21c cash / 11c Vale.
+- A West Market receiving house selects Greg from three field-office candidates partly because he is physically closest, not because of a protagonist-only pipeline.
+- One-day contract pays **14c on accepted close record**.
+- Greg coordinates three ordinary-commercial loads: kiln pigment, cloth rolls, and lamp oil.
+- One replacement-hoop oil cask has a manifest weight mismatch.
+- Cooper lead owns containment/safety, scale clerk owns certified weight, receiving master owns acceptance, and Greg keeps the disputed cask from blocking the scale while corrected paperwork is obtained.
+- Receiving master corrects Greg's wording from **incorrect manifest** to **held pending discrepancy review** because the error was not yet established at hold time.
+- Greg earns **14c**, moving cash **21c -> 35c**.
+- Greg stops at Vale on the way home, verifies the remaining balance is exactly 11c, pays it in full, and receives **PAID / BALANCE ZERO**.
+- Cash becomes **24c**.
+- Vale is permanently closed as a debt lane.
+
+## Chapter 491 - THE ACQUAINTANCE
 
 ### Role / title
-- Greg is **THE WEARER** because the chapter centers on using the trial work limb as equipment under specialist supervision, learning what his current body actually does with it, and allowing the shop to revise the fit before final work.
-- Repository search found no current `THE WEARER` collision before drafting.
+- Greg is **THE ACQUAINTANCE** because the newly closed Vale debt lets him approach Antonius socially rather than through obligation, work, repayment, or market advice.
+- Repository title search found no current `THE ACQUAINTANCE` collision before drafting.
 
-### Hark & Venn note
-Greg opens the sealed note at home. Exact new note content establishes:
-- return for fit review before final socket work;
-- bring current trial components, liner, and wear notes;
-- existing quote unchanged;
-- no additional payment requested for this review;
-- do not increase unsupervised wear merely because travel sessions were tolerated.
+### Drinking setup
+- The day after closing Vale, Greg returns to the office with no payment, account, or appointment purpose.
+- He asks Antonius simply: **"Drink?"**
+- Antonius accepts after work and takes Greg to **North Cut**, a quiet Carrow tavern he already knows.
+- Antonius orders dark beer; Greg copies the choice rather than pretending beer expertise.
+- Greg has two small beers, notices the effect on precision, accepts water instead of a third, and walks home carefully on two crutches.
+- Drinking remains ordinary social texture, not a glamourized binge or a new coping habit.
 
-This resolves the sealed-note uncertainty without inventing prior financial terms.
+### Last-few-months debrief
+Greg gives Antonius the messy compressed version of recent months rather than a heroic recap. Topics include:
+- eastward travel, wet roads, lodging, freight, Lakeward, Morrow, Merehook, and Sori choosing archive work;
+- the glass deal and Greg's realization that connecting specialists can create value without pretending to own their expertise;
+- losing Stillhook at auction because eight deployable copper was not enough;
+- returning to Carrow and discovering that Lyssa, theatre, Hessa, Vale, and everyone else kept moving while he was gone;
+- Hark & Venn, the work-limb process, hands/standing/skin priorities, and not treating pain tolerance as engineering;
+- Hessa's current external protocol at 159 and the discovery that Greg's own response latency contaminates timing experiments;
+- theatre prompt work and acting badly enough to improve, including Nella's **"My pause belongs to me"** correction;
+- South Road's organizer term, including Greg's provisioning-count mistake and his more serious failure to notify Lower when a shared wagon priority changed;
+- the West Market one-day contract and the held oil-cask discrepancy that ultimately produced 14c.
 
-### Fit review
-- Greg brings the current trial socket, liner, temporary ash shaft, medium test foot, and wear notebook to Hark & Venn.
-- An unnamed female fitter conducts the review; no new staff name/title/ownership hierarchy is established.
-- She reads the relevant wear log rather than Greg narrating a generalized success story.
-- Current residual-limb volume/shape differs enough from the older fit that the previous front correction should not be copied unchanged into final work.
-- The fitter removes/replaces temporary padding and adjusts upper-inside contact for the supervised trial.
-- No catastrophic fit problem is found.
-- Greg shows no sharp pressure, no heat, no skin opening, and only mild pink contact that fades after removal.
+### Antonius perspective
+- Antonius refuses inflated interpretations and repeatedly compresses Greg's story toward practical claims.
+- He is pleased Greg did not overbid on Stillhook simply because Greg wanted it.
+- He identifies the old Vale debt problem as primarily an **earning-power problem**, not a morality problem: at the beginning 23c was large; at the end 11c was not.
+- Antonius's durable line: **"Do not become moral about paying debt. Become better at producing surplus."**
+- Antonius says he expected Greg eventually to repay because Greg hated owing him but also kept returning instead of disappearing.
+- When Greg asks why Antonius originally lent/helped, Antonius answers narrowly: **Greg was trying to stay operational, and that mattered.**
+- Greg thanks him even though the account is paid; Antonius accepts without making the exchange sentimental.
 
-### Load pattern / hands priority
-- During rail walking, Greg shortens the right side despite no established length mismatch.
-- Fitter interprets this narrowly as a learned protective load pattern, not proof of an equipment-length error.
-- Greg practices controlled weight transfer and short stepping rather than trying to think his way through it.
-- Work-order priority remains **usable hands**, not distance alone.
-- Greg performs a very small two-hand tray task only within rail reach and under fitter control.
-- This reinforces the strategic value of a finished limb for standing tasks, carrying, doors, ledgers, lamps, and one-hand artifacts without granting unsupported capability.
-- Greg privately remembers the lost stillhook's one-hand activation constraint but does not claim this limb is ready for such use.
+### Social texture / relationship change
+- After the useful debrief runs out, they stay and talk about stupid things: Antonius's allegedly level chair, ledger ink, a warehouse cat named **Tariff**, Lyssa's bad-thread argument, theatre, and weather.
+- The conversation intentionally becomes non-useful. No job, contract, debt, strategy, or lesson needs to result.
+- Greg recognizes that the absence of a ledger underneath every joke changes the relationship materially.
+- They are not declared best friends. Greg privately settles on **acquaintance / friend-adjacent** and leaves it unnamed in-world.
+- Antonius warns Greg not to treat one 14c urgent contract as his new guaranteed baseline.
+- Greg loosely references that he will probably do "one illegal thing" in coming months, then retreats to calling it a figure of speech. Antonius notices but does not interrogate. This does **not** disclose Ch473.
+- Antonius simply advises: **"Try fewer illegal things."**
 
-### Current supervised wear result
-- Total supervised trial wear in Ch480: approximately **15 minutes**.
-- Temporary adjustments improve fit enough for bounded standing/short movement.
-- Upper-inside pink contact fades after removal; no heat or pain established.
-- No final clearance is granted.
-- No independent increased wear is authorized.
-
-### Final-socket progression
-- Hark & Venn keeps the **trial socket / temporary shaft / test foot** because current measurements should inform final-socket preparation and the shop wants the trial hardware available for comparison.
-- Greg takes the liner home and must keep it clean for the next visit.
-- Fitter describes the next stage as **prep**, not a finished limb.
-- No pickup date is established.
-- No guaranteed completion date is established.
-- No new payment is due in Ch480.
-- Greg waits for the shop to send word or request another temporary fit.
-- This is real progress even though the trial equipment is temporarily less available to Greg at home.
-
-### Lyssa / ordinary residue
-- Lyssa remains in her own work/material register and does not become Greg's medical analyst.
-- She notices that Greg moves differently when tired but explicitly does not turn that into a report or diagnosis.
-- She asks whether the fit hurts; Greg says no; she leaves it there.
-- Household/work continuity continues, including Lyssa's ongoing clothing work and the previously established cracked cup / loose clothing residue.
+### Home close
+- Lyssa immediately notices Greg has been drinking because his gait/precision is slightly altered.
+- She is surprised Greg and Antonius went drinking voluntarily.
+- Greg says they talked about the last few months.
+- Lyssa leaves a pause open; Greg manages four or five seconds before speaking, a small callback to Ch488 rather than a new lesson.
+- End state remains **24c cash / 0c Vale / bits unspecified / 59-53-159 / work limb not ready**.
+- No new contract, artifact, debt, magic attempt, or Hark & Venn update occurs.
 
 ## Protected uncertainties / live residue
-- Greg ends Ch480 **home in Carrow**.
-- Cash **12c**, Vale **23c**, bits unspecified.
-- Protocol **59 / 53 / 139**.
-- Work-limb final socket is **not finished**.
-- Hark & Venn keeps trial socket/temporary shaft/test foot for final-prep comparison; Greg has liner at home.
-- Existing quote is unchanged; no new payment schedule, due date, pickup date, or balance timing is established.
-- Theatre visitor purpose from Lyssa's earlier letter remains unknown.
-- Hessa, Sori, Morrow, South Road organizer lead, and other pending lanes remain unresolved unless later authority moves them.
-- Stillhook remains Elian's; magical-displacement behavior, maker/generation, repairability, and Elian's profession/use remain unverified.
-- East Fen Fenwright lower-draft problem remains unresolved and nonessential to the completed glass deal.
-- Ch473 marked Three Rays freight lot remains with freight owner unless newer exact prose changes that later.
-- No enforcement consequence from Ch473 has occurred.
-- Greg has not yet disclosed the Ch473 illegal freight to Lyssa; no permanent concealment arc is established.
-- Debt-closure progression remains inactive at current liquidity.
+- Greg ends Ch491 **home in Carrow at 24c cash / 0c Vale / bits unspecified**.
+- Vale debt is closed. Do not resurrect it.
+- Antonius is now socially available as an acquaintance/business contact, but no permanent drinking routine, close friendship, partnership, or employment relationship is established.
+- Work-limb final socket is not finished; Hark & Venn has trial hardware and Greg has liner.
+- Hark & Venn quote/payment terms remain as established in Ch487; no current payment due.
+- Protocol **59 / 53 / 159**.
+- Moving-target sensitivity, timing effects, travel-relative reference, and response-latency issues remain candidate/experimental only.
+- No independent magic testing is authorized.
+- Renn is back at theatre.
+- Pell remains Harrow unless later prose changes it.
+- Stillhook remains Elian's; no instant replacement.
+- Ch473 marked Three Rays freight lot remains with freight owner unless newer exact prose changes that later. No enforcement consequence has occurred. Greg still has not disclosed Ch473 illegal freight to Lyssa or Antonius.
+- Morrow and other pending lanes remain unresolved unless later authority naturally moves them.
+- West Market receiving house has no standing obligation to hire Greg again.
 - No permanent companion.
 
-## Chapter 481 trailhead
-Follow the next actual claim from Ch480/current authority and `state/PROGRESSION_ENGINE.md`.
-
-Greg begins **12c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**, **home in Carrow**. Hark & Venn now has the trial socket/shaft/test foot for final-prep comparison; Greg has the liner. The shop will send word or request another temporary fit. No new payment is due or scheduled.
+## Chapter 492 trailhead
+Greg begins **24c cash / 0c Vale / bits unspecified**, protocol **59 / 53 / 159**, home in Carrow.
 
 Strong movement:
-- Do not repeat another fitting chapter immediately. Let Hark & Venn work offscreen until a real shop note arrives.
-- One older Carrow lane can now re-enter naturally: theatre visitor, Hessa, Sori, Vale, Morrow, ordinary household/work, or a new earning-capital move that grows from existing access.
-- Greg is at **12c**, only 2c above the survival floor, but this is not an early-book poverty reset. His earning capacity, references, market knowledge, and leverage remain materially better than before.
-- A concrete paid opportunity can matter now, especially if it uses accumulated references/coordination rather than restarting 1c survival work as the main engine.
-- Artifact pressure remains active long-range. Do not compensate for the lost stillhook with an easy replacement.
-- Hessa/magic is available if timing supports it, but preserve protocol/evidence discipline and do not make the new limb progress magically unlock magic utility.
-- If the Ch473 illegal freight becomes relevant socially or legally, let it arise through natural records/witnesses/conversation rather than author punishment.
-- Debt closure still waits for genuinely stronger liquidity/capacity.
+- Do not immediately repeat another Antonius drinking/debrief chapter. Let the relationship change become background social availability.
+- Vale is done. Stop spending narrative oxygen on the old debt except rare contrast when genuinely useful.
+- Preserve the economic ratchet. Greg can take small work when life calls for it, but primary progression should increasingly favor **larger contracts, silver-scale transactions, ownership, capital deployment, and distinctive opportunities**.
+- Hark & Venn can become the next major real financial/body obligation only when the shop actually reaches a fit/completion/payment stage. Do not prepay for symbolism.
+- Artifact pressure has been quiet long enough to re-enter naturally. Greg has 14c above floor and better earning references, so an artifact/capital opportunity can hurt without requiring poverty reset.
+- Hessa's next cue/latency protocol should wait until a real designed session rather than following immediately after Ch489.
+- Theatre, Lyssa, Sori, Antonius, and other people should continue having independent lives rather than existing only when Greg needs progression.
+- Ch473 gray freight remains unresolved and should surface only through natural records/witnesses/counterparties or Greg's own disclosure.
+- Ordinary life remains valid movement, but do not use it to stall body/artifact/capital progression indefinitely.
 
 Avoid:
-- another limb fitting immediately;
-- inventing a Hark & Venn completion date or payment schedule;
-- treating 12c as economic reset;
-- resolving theatre + Hessa + Vale + Sori + Morrow together;
-- instant replacement artifact;
-- debt-payoff checklist behavior;
-- another strategic manifesto.
+- resurrecting Vale debt;
+- another immediate Antonius drinking chapter;
+- making Antonius suddenly Greg's therapist or best friend;
+- inventing replacement debts;
+- another same-shape coordination contract immediately;
+- paying Hark & Venn early with no benefit;
+- treating 24c as poverty reset;
+- instant stillhook replacement;
+- practical deflection upgrade without evidence;
+- strategic manifesto repetition.
 
-**MANDATORY TITLE CHECK CH481:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
+**MANDATORY TITLE CHECK CH492:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`

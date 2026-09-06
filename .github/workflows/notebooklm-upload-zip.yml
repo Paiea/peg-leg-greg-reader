@@ -1,0 +1,69 @@
+name: Package NotebookLM upload ZIP
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'exports/notebooklm/*.md'
+      - '.github/workflows/notebooklm-upload-zip.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: notebooklm-upload-zip-main
+  cancel-in-progress: true
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Build upload ZIP
+        run: |
+          set -euo pipefail
+          cd exports/notebooklm
+          rm -f PLG_NOTEBOOKLM_UPLOAD.zip
+          mapfile -t sources < <(printf '%s\n' PLG_BOOK_*.md | sort)
+          test "${#sources[@]}" -gt 0
+          test -s PLG_STRUCTURE_MAP.md
+          test -s README.md
+          zip -9 -j PLG_NOTEBOOKLM_UPLOAD.zip "${sources[@]}" PLG_STRUCTURE_MAP.md README.md
+
+      - name: Validate upload ZIP
+        run: |
+          set -euo pipefail
+          test -s exports/notebooklm/PLG_NOTEBOOKLM_UPLOAD.zip
+          unzip -t exports/notebooklm/PLG_NOTEBOOKLM_UPLOAD.zip
+          unzip -l exports/notebooklm/PLG_NOTEBOOKLM_UPLOAD.zip | grep -q 'PLG_BOOK_I_CH001-082.md'
+          unzip -l exports/notebooklm/PLG_NOTEBOOKLM_UPLOAD.zip | grep -q 'PLG_STRUCTURE_MAP.md'
+          unzip -l exports/notebooklm/PLG_NOTEBOOKLM_UPLOAD.zip | grep -q 'README.md'
+
+      - name: Commit refreshed ZIP
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- exports/notebooklm/PLG_NOTEBOOKLM_UPLOAD.zip && git ls-files --error-unmatch exports/notebooklm/PLG_NOTEBOOKLM_UPLOAD.zip >/dev/null 2>&1; then
+            echo 'NotebookLM upload ZIP already current.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add exports/notebooklm/PLG_NOTEBOOKLM_UPLOAD.zip
+          git commit -m 'Refresh NotebookLM upload ZIP'
+          git pull --rebase origin main
+          cd exports/notebooklm
+          rm -f PLG_NOTEBOOKLM_UPLOAD.zip
+          mapfile -t sources < <(printf '%s\n' PLG_BOOK_*.md | sort)
+          zip -9 -j PLG_NOTEBOOKLM_UPLOAD.zip "${sources[@]}" PLG_STRUCTURE_MAP.md README.md
+          cd ../..
+          git add exports/notebooklm/PLG_NOTEBOOKLM_UPLOAD.zip
+          if ! git diff --cached --quiet; then
+            git commit --amend --no-edit
+          fi
+          git push origin HEAD:main
