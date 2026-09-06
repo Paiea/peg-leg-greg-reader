@@ -19,6 +19,32 @@ Generation queues should preserve this coverage order mechanically. When prompt-
 
 When the zero-art list is large, backfill it in bounded older-first waves. A useful default is **five older zero-art chapters per iteration**: read the exact chapter prose, nominate one genuinely visual prompt-ready scene per chapter, then let normal queue sorting move those older chapters ahead of newer zero-art work. Do not auto-invent scene briefs from titles alone.
 
+## Structural-edit / compression hold
+
+`state/visual/PRODUCTION_HOLD.json` is the global safety switch for periods when manuscript structure is intentionally unstable. When it contains an active `structural_edit_hold`, the book is allowed to change shape before the illustration system catches up.
+
+While the hold is active:
+- **do not generate new illustration assets** from the queue
+- `build_generation_queue.py` intentionally emits an empty queue
+- do not automatically promote approved art into reader prose
+- preserve existing registry history, character references, scene summaries, visual hooks, prompt work, and candidate IDs
+- treat chapter number, chapter title, deterministic chapter-art path, and paragraph anchor as provisional placement metadata
+- treat the candidate ID plus its scene summary / visual hook as the durable semantic identity of the visual idea
+- do not mutate candidates merely to make them fit a changing manuscript
+
+Most important editorial rule: **the manuscript does not owe the art system survival.** A structural editor may cut a redundant scene, merge chapters, move a beat, renumber chapters, or rewrite an anchor even when current art or an art candidate points there. Never preserve weak prose or an old chapter boundary merely because illustration work exists. If the visual beat survives because the story still needs it, reconcile the art afterward. If the beat was cut, retire the candidate afterward.
+
+`scripts/illustration_edit_hold.py` writes `state/visual/ILLUSTRATION_RECONCILIATION_REPORT.md`. The report compares current candidate anchors against current chapter prose and classifies each candidate without guessing:
+- `stable`: old chapter + anchor still match exactly once
+- `anchor_drift`: source chapter still exists but old anchor no longer matches
+- `anchor_ambiguous`: old anchor now matches more than once
+- `chapter_missing`: the old source chapter no longer exists at that number
+- `no_anchor`: candidate had no placement anchor to compare
+
+The reconciler **never auto-reassigns a candidate to another chapter**, even when identical text appears elsewhere. Structural edits can merge or duplicate text in ways that make automatic relocation unsafe. A worker must re-read the surviving manuscript beat and explicitly choose one of three outcomes: remap the candidate, retire it because the beat was cut, or replace it because the old visual idea no longer earns production.
+
+Resume illustration production only after the structural edit is accepted, reader chapter surfaces are regenerated, the reconciliation report has been reviewed, drifted candidates have been explicitly resolved, paragraph anchors have been revalidated, and `PRODUCTION_HOLD.json` is intentionally disabled. Do not turn off the hold merely because the compression branch exists; use accepted manuscript authority.
+
 ## Manuscript scene-candidate handoff
 
 After a chapter is durably accepted, the Manuscript Engine **may nominate 0–2 genuinely visual moments** for later illustration. This is optional and nonblocking. Do not slow chapter throughput merely to invent an art target.
