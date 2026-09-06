@@ -2914,13 +2914,9 @@ Nessa was kneeling beside it with the broken foot in her lap.
 
 "Don't lift it."
 
-"I wasn't."
-
-"You were about to."
-
 "I was going to look."
 
-"Look lower."
+"Then look lower."
 
 I sat on the floor.
 
@@ -6269,13 +6265,9 @@ That was not necessarily good.
 
 "Wait."
 
-"I didn't ask."
+"For Hessa?"
 
-"You were going to."
-
-"I hate when people do that."
-
-"Sit."
+"Yes. Sit."
 
 I sat.
 
@@ -14909,21 +14901,13 @@ That was a useful question.
 
 I considered going to the hall immediately.
 
-Lyssa saw that too.
+"I should check the hall."
 
-"No."
+Lyssa said, "Not at breakfast because somebody might need you at supper."
 
-"What?"
+"I need to know when."
 
-"Don't go there at breakfast because somebody might need you at supper."
-
-"I wasn't."
-
-"You were."
-
-"I was thinking."
-
-"Poorly."
+"Then ask when you're actually going."
 
 She stood, put the folded paper into the pocket of her skirt, and took
 one onion.
@@ -15314,9 +15298,9 @@ his pocket.
 
 "Mine."
 
-"I wasn't asking to have it."
+"I was asking what kind."
 
-"You looked."
+"Still mine."
 
 I hated everyone.
 
@@ -17493,19 +17477,13 @@ I looked at the brown cloth.
 
 It was brown.
 
-Jessa said, "Don't."
+"What does warm brown mean?"
 
-"I didn't say anything."
+Jessa said, "Not this one."
 
-"You were going to."
+"That doesn't answer the question."
 
-"I was going to ask what warm brown means."
-
-"Exactly."
-
-"What does it mean?"
-
-"No."
+"It answers the cloth."
 
 The woman in green laughed again.
 
@@ -17642,9 +17620,9 @@ The woman in green said, "He's more like a shelf."
 
 "Thank you."
 
-"That wasn't praise."
+"You shouldn't."
 
-I was beginning to suspect this entire city had agreed on one sentence.
+Apparently shelves were not aspirational.
 
 Lyssa had one more stop.
 
@@ -19728,17 +19706,9 @@ Lyssa noticed.
 
 "Nothing."
 
-"Good."
+"Then leave the cup alone."
 
-"Everyone keeps saying that."
-
-"Because you keep checking."
-
-"I didn't check."
-
-"You looked."
-
-"That is different."
+"I did."
 
 She kissed the side of my head on the way past.
 
@@ -22202,11 +22172,7 @@ I looked at the door.
 
 "I know."
 
-"You looked."
-
-"I am allowed to look at doors."
-
-"Not like that."
+"Then eat."
 
 "I have a schedule."
 
@@ -22235,19 +22201,13 @@ I looked at the sleeve.
 
 It looked like a sleeve.
 
-Lyssa looked at me.
+"It looks the same."
 
-"Don't."
+"It isn't."
 
-"I didn't say anything."
+"It looks good."
 
-"You were going to."
-
-"I was going to say it looks good."
-
-"No, you weren't."
-
-"I could have."
+"That isn't the problem."
 
 She bit the thread and set the sleeve aside.
 
@@ -22676,11 +22636,11 @@ The father looked confused.
 
 "I was going to say that."
 
-"No, you weren't."
+"Then say it before I do."
 
 "I was thinking it."
 
-"That costs nothing."
+"Thinking sells nothing."
 
 They bought four.
 
@@ -26053,19 +26013,13 @@ I stopped.
 
 "Whose is that?"
 
-"No," Rinna said from behind me.
+"Havel," Rinna said from behind me. "Nobody uses it."
 
 I turned.
 
-"I didn't ask to use it."
+"I only asked whose it was."
 
-"You were about to."
-
-"I asked whose it was."
-
-"Also no."
-
-Davin said, "Havel."
+Davin said, "Sample."
 
 "The tomorrow Havel?"
 
@@ -28572,27 +28526,15 @@ The cap had bent during travel.
 
 I picked up the other three and started putting them away.
 
-"Not that one," he said.
+Davin held up the bent tin.
 
-I stopped.
-
-"This one?"
-
-"That one."
+"Leave this one."
 
 "The one you're holding?"
 
 "Yes."
 
-"Then why did you say not that one?"
-
-"Because you were looking at it."
-
-I looked at the tin in his hands.
-
-"I was looking at the shelf."
-
-"Good."
+"Good system."
 
 I put the three good tins away.
 
@@ -30395,20 +30337,15 @@ This seemed healthy preparation for Guild work.
 
 Davin came in carrying a small wooden brace.
 
-He fitted it under the edge of the King platform, pressed once, then
-stood.
+He fitted it under the edge of the King platform, pressed once, then stood.
 
 I watched.
 
-He looked at me.
+"Leave the brace," he said.
 
-"I didn't move."
+"I wasn't touching it."
 
-"You were thinking."
-
-"I am allowed."
-
-"Not about that."
+"Good."
 
 He walked away.
 
@@ -31816,15 +31753,11 @@ Then she moved two of them.
 
 "Why?"
 
-"Because you put them in the wrong order."
+"Performance order."
 
 "I used the order you handed them to me."
 
-"That was not the performance order."
-
-"You knew I was going to do that."
-
-"Yes."
+"I handed them to you. I did not schedule them."
 
 This was Nessa's final act before abandoning us.
 
@@ -34578,23 +34511,15 @@ I leaned on the table.
 
 "So where does Bren stay?"
 
-"No," Rinna said.
+"We don't know," Rinna said.
 
-"I was asking."
+"Should we find out?"
 
-"No."
+"Not by you going looking."
 
 "I didn't say I was going."
 
-"You were about to."
-
-"I was about to ask."
-
-"You did."
-
-"That proves nothing."
-
-"It proves enough."
+"Good. Keep it that way."
 
 Nessa picked up her bundle.
 
@@ -35770,22 +35695,15 @@ Rinna said, "No."
 
 "It is the answer you need."
 
-Davin found a short piece of hard wood in his box and began shaving it
-down.
+Davin found a short piece of hard wood in his box and began shaving it down.
 
 I watched.
 
-He looked at me.
-
-"No."
+"Leave the knife," he said.
 
 "I'm not touching it."
 
-"You were thinking."
-
-"That has not been prohibited."
-
-"Yet."
+"Good."
 
 He went back to the replacement pin.
 
@@ -36995,15 +36913,9 @@ Talla scratched the side of her nose.
 
 I liked Talla.
 
-Rinna looked at me before I could speak.
+Rinna said, "That is all."
 
-"No."
-
-"I didn't ask anything."
-
-"You were about to."
-
-"I was going to ask where he stays."
+"Do we know where he stays?"
 
 "No."
 
@@ -38069,20 +37981,6 @@ I hated that I could hear him saying it.
 
 "Probably."
 
-She looked at me.
-
-I looked at her.
-
-"No."
-
-"I didn't say anything."
-
-"You did with your face."
-
-"I was thinking about carts."
-
-"Exactly."
-
 "Vale has carts."
 
 "So does half Carrow."
@@ -38387,11 +38285,9 @@ The woman snorted.
 
 She shifted the basket.
 
-"No one came to me. Before you ask."
+"No one came to me."
 
-"I wasn't."
-
-"You were."
+Rinna nodded. "Good."
 
 I liked her.
 
@@ -39564,17 +39460,17 @@ that money moved through people before it moved through ledgers.
 
 Or maybe I was cheating because I already knew.
 
-"Do not invent relevance," Antonius said.
+"Do not make it relevant before it is," Antonius said.
 
 I blinked.
 
 "What?"
 
-"You are doing something with your face."
+"Half a name. One story. Leave it there."
 
-"I hate that everyone can see my face."
+"That sounds like advice."
 
-"Then acquire a better one."
+"It is accounting."
 
 I left.
 
@@ -40493,15 +40389,11 @@ Pell watched.
 
 Marek stopped.
 
-"No."
+"Leave the hat alone."
 
-"I didn't say anything."
+"I didn't touch it."
 
-"You were thinking."
-
-"I do that."
-
-"Not with the hat."
+"Keep that record."
 
 Marek carried it backstage.
 
@@ -40782,13 +40674,9 @@ Pell moved first.
 
 "One copper."
 
-"Don't," Rinna said.
+"The boy earned it," Rinna said.
 
-"I wasn't touching it."
-
-"You were thinking."
-
-Marek, from backstage, said, "That defense has failed today."
+Pell sighed.
 
 Rinna waited a few breaths before opening the door again.
 
@@ -44333,21 +44221,9 @@ Rinna shut the door.
 
 Nobody spoke for a moment.
 
-Then Pell said, "So."
+Then Pell said, "Money?"
 
 Rinna turned.
-
-"No."
-
-"I didn't ask."
-
-"You were going to."
-
-"I might have had a different question."
-
-"No."
-
-Pell looked offended by predictive management.
 
 I said, "That's not just the cart."
 
@@ -46110,14 +45986,6 @@ I looked at it.
 
 She saw.
 
-"Don't."
-
-"I didn't say anything."
-
-"You have the money face."
-
-"Apparently everyone knows it."
-
 "Keep that one."
 
 "Why?"
@@ -46389,11 +46257,7 @@ Lyssa had been correct.
 
 Antonius had also been correct, which was more irritating.
 
-"You have the face again," Lyssa said.
-
-"What face?"
-
-"The one where you're trying to spend money without moving."
+"You're doing the numbers again," Lyssa said.
 
 "I'm eating."
 
@@ -49546,17 +49410,9 @@ The front door stood open. Rinna's table had moved a little farther back from it
 
 I noticed.
 
-Rinna noticed me noticing.
+"Cash box moved."
 
-"No," she said.
-
-"I didn't ask."
-
-"You were about to."
-
-"I was going to compliment the table."
-
-"Do that silently."
+"Yes."
 
 I looked toward the stage instead.
 
@@ -57213,13 +57069,7 @@ I looked at Marra.
 
 Marra did not look at me.
 
-"Do not ask."
-
-"I wasn't."
-
-Jessa made a sound that suggested neither of us believed me.
-
-She picked up her bundle.
+Jessa picked up her bundle.
 
 "West?"
 
@@ -57979,15 +57829,9 @@ I leaned back.
 
 "That is almost interesting."
 
-"Do not improve it."
-
-"I wasn't."
-
-"You were about to."
-
-Fair.
-
 She tapped the order page.
+
+"Do not improve it."
 
 "It was written before you arrived. Four external attempts if the apparatus and your body remain usable. No additional attempt because a result is inconvenient. No changing order because one condition responds."
 
@@ -69256,25 +69100,15 @@ I smiled.
 
 She noticed.
 
-"Don't."
-
-"I said nothing."
-
-"You were about to."
-
-Apparently everyone in Carrow had learned this technique.
+"One clean FAR response," she said.
 
 "FAR moved."
-
-"Yes."
-
-"Clean."
 
 "Under the current apparatus, yes."
 
 "Again."
 
-"No."
+"One attempt remains."
 
 "I meant the fact."
 
@@ -76282,11 +76116,7 @@ The barber looked at the father.
 
 The father said, "Don't ask me."
 
-"I wasn't."
-
-"You looked."
-
-"That is not asking."
+The barber looked back at the young man.
 
 The young man sat.
 
@@ -79871,11 +79701,7 @@ I knew that much immediately.
 
 Teren saw me look.
 
-"Don't solve props."
-
-"I wasn't."
-
-"You were."
+"Uncle."
 
 "I was appreciating continuity."
 
@@ -82083,9 +81909,9 @@ Lyssa watched the experiment.
 
 "Smaller."
 
-"I was about to say that."
+"That was my next conclusion."
 
-"No."
+"Eventually."
 
 She untied the bundle and divided the sheets from the towels.
 
@@ -93495,15 +93321,9 @@ I waited.
 
 Lyssa looked at me.
 
-"Don't."
+"Your customer-confirmation process has expanded into a complete wardrobe review," I said.
 
-"I haven't said anything."
-
-"You're going to."
-
-"I was only going to say that your customer-confirmation process has expanded into a complete wardrobe review."
-
-"Don't."
+"It needed to."
 
 "Fine."
 
@@ -94445,13 +94265,9 @@ Lyssa closed the door.
 
 I looked at her.
 
-She looked at me.
+"Your legal practice is getting efficient," I said.
 
-"Do not."
-
-"I was going to compliment your legal practice."
-
-"Don't."
+"It's a coat."
 
 "Fine."
 
@@ -95896,9 +95712,9 @@ Lyssa glanced at the two dark work pieces folded near her bag.
 
 "Good."
 
-Mara looked at me before I could react.
+Mara looked at me.
 
-"Don't."
+"There. She said it again."
 
 I pointed at her.
 
@@ -101320,7 +101136,7 @@ Savin noticed.
 
 "I didn't ask."
 
-"Face did."
+"You watched them twice."
 
 "How do they know?"
 
@@ -101390,11 +101206,7 @@ Then set it aside again.
 
 "I saw."
 
-"You were about to ask."
-
-"My face?"
-
-"Loud."
+"Then wait."
 
 I folded my arms.
 
@@ -106562,13 +106374,11 @@ She pointed with a pear.
 
 "Thank you."
 
-"Don't touch that basket."
+"Keep your hands off that basket."
 
-"I wasn't."
+I looked at both hands on my crutches.
 
-"You looked."
-
-Carrow merchants had developed preemptive law.
+"Excellent timing."
 
 I went past cloth.
 
@@ -109720,9 +109530,9 @@ She turned.
 
 "I haven't said anything."
 
-"Your face did."
+"You stopped walking."
 
-"My face is innocent."
+"I was eating onions."
 
 "Mask yesterday. Shop today. Bad pattern."
 
@@ -112170,13 +111980,11 @@ I stopped.
 
 The cabbage woman saw me stop.
 
-"Don't."
+"Buy your cabbage before you adopt his problem."
 
-"I haven't done anything."
+"I already paid."
 
-"You have a face."
-
-Apparently Lyssa had trained the whole city.
+"Then leave with it."
 
 The cord seller crushed the insect under the heel of a wooden block.
 
@@ -116590,11 +116398,7 @@ Pavin looked at me.
 
 I had expected the correction to belong to me.
 
-That expectation was apparently visible because Teren said, "You are not the only person rehearsing."
-
-"I didn't say anything."
-
-"Your face did."
+Teren said, "You are not the only person rehearsing. Stop looking relieved."
 
 Pavin leaned back.
 
@@ -135728,15 +135532,9 @@ Two.
 
 "Thank you."
 
-"Tomorrow no."
+"Tomorrow?"
 
-I blinked.
-
-"I had not asked."
-
-"You were about to."
-
-I was.
+"No."
 
 Rinna pointed toward the side passage.
 
@@ -143228,9 +143026,9 @@ Antonius folded his hands on the table.
 
 "If Vale offers you a cash task, it will be separate from debt credit. You may accept or refuse. I will not convert a debt-credit task into cash after the fact because you prefer the purse."
 
-"I wasn't going to ask."
+"Separate lanes."
 
-"You were thinking about asking."
+"Yes."
 
 "Hostile office."
 
@@ -149715,9 +149513,9 @@ His mother picked it up and put it inside her basket.
 
 "I wasn't."
 
-"You were thinking."
+"Good."
 
-This was a powerful accusation.
+The cup went into her basket.
 
 The older man ahead of me shifted his yoke.
 
@@ -152446,15 +152244,11 @@ I watched from the footbridge.
 
 Sevren watched me watching.
 
-"No."
+"No bridge office."
 
 "I am standing."
 
-"Your face is asking questions."
-
-"My face has rights."
-
-"Not here."
+"Keep it that way."
 
 The worker returned.
 
@@ -152890,13 +152684,11 @@ The clicking basket clicked.
 
 I looked at it.
 
-Sevren said, "No."
+Sevren said, "Not your basket."
 
-"I said nothing."
+"I was looking."
 
-"Your face."
-
-"My face has been persecuted this entire trip."
+"Look quietly."
 
 Daro climbed back onto the front board.
 
@@ -166756,23 +166548,15 @@ Dangerous combination.
 
 She looked at the basket, then at me.
 
-"No."
+"Loose strap won't work."
 
-"I haven't asked."
-
-"You want me to make that carryable."
-
-"I want to borrow a strap."
+"I was going to ask to borrow one."
 
 "For the thing with the ring you're not supposed to turn."
 
 "Correct."
 
-"No loose strap."
-
-"Why?"
-
-"Because it'll swing."
+"It'll swing."
 
 I knew that.
 
@@ -175708,15 +175492,9 @@ Could I move while affecting a stationary target?
 
 Everything in me wanted the answer immediately.
 
-Hessa watched me want it.
+I looked at Hessa.
 
-"No," she said.
-
-"I didn't ask."
-
-"You were about to."
-
-"Maybe."
+"One attempt?"
 
 "No."
 
@@ -180476,17 +180254,15 @@ Carrying basket plus two crutches.
 
 I looked at Lyssa.
 
-She looked at me.
+She looked at the basket, then my right crutch.
 
-"No."
+"Not from the crutch."
 
-"I didn't ask."
+"I was considering it."
 
-"Your face did."
+"It'll swing."
 
-"My face is private."
-
-"Buy a clasp."
+"I need to know how badly."
 
 Cruel.
 
@@ -183147,21 +182923,13 @@ This analogy was disgusting.
 
 I kept it.
 
-Saret saw me looking toward road.
+Saret saw me looking toward the road.
 
-"Don't."
-
-"I am eating."
-
-"You're thinking."
-
-"Hostile workplace."
-
-"Whatever happened with one twenty-six is not yours."
+"One twenty-six belongs to road office now."
 
 "I know."
 
-"Good."
+"Then eat."
 
 I bit bread.
 
@@ -185775,15 +185543,11 @@ She smiled.
 
 Cruel.
 
-"Deposit?"
+"Could they hold it?"
 
-I looked at her.
+"With a deposit."
 
-"How did you know there was a deposit?"
-
-"Because your face is worse than eighteen copper."
-
-Terrible intimacy.
+"How much?"
 
 "Four. Three days. Nonrefundable."
 
@@ -186419,17 +186183,13 @@ The seller said, "Eighteen."
 
 "I remember."
 
-"No cheaper after demonstration."
+"Demonstration didn't lower it."
 
-"I did not ask."
+"Cruel."
 
-"You were about to."
+"It worked."
 
-"I was thinking about asking."
-
-"That counts."
-
-Hostile market telepathy.
+Hostile market logic.
 
 A voice behind me said, "Let me see it under load."
 
@@ -190554,11 +190314,7 @@ Then she stopped at the door.
 
 "I was going to say that."
 
-"No, you were not."
-
-"I was going to think it."
-
-"Find somewhere safe before dinner."
+"Too late. Find somewhere safe before dinner."
 
 She left.
 
@@ -191372,17 +191128,11 @@ I knew that kind of weight.
 
 "A lamp."
 
-I looked at her.
+I looked at the case.
 
-She looked at me.
+"House-left aisle," Nessa said.
 
-"No," she said.
-
-"I didn't say anything."
-
-"Your face did."
-
-This was becoming a problem.
+"Why is that here?"
 
 Lyssa came in from the back room carrying folded cloth.
 
@@ -196968,15 +196718,11 @@ Cala said, "She went out."
 
 I looked at her.
 
-Cala looked at me.
-
-"Don't."
+"She'll tell you herself."
 
 "I didn't ask."
 
-"Your face."
-
-Everyone had become tyrant about face.
+"Then we're done."
 
 Tavi was on floor building spoon carrier again.
 
@@ -204518,11 +204264,9 @@ This was flattering until I met stagehands.
 
 We stood inside theatre side door while rain tapped roof hard enough to make conversation private.
 
-"You said that before I said anything."
+"That is a worrying opening."
 
-"Your face did."
-
-Apparently face remained traitor across districts.
+"We had two near collisions last week."
 
 "What am I teaching?"
 
@@ -206876,15 +206620,13 @@ Then the bundles.
 
 Then me again.
 
-"No."
+"One."
 
-"I haven't said anything."
+"Harness has two side loops."
 
-"Your face has."
+"One bundle."
 
-"My face is innocent."
-
-"Your face bought an old harness yesterday and has been waiting for excuse."
+"Hostile to equipment ambition."
 
 That was unfair.
 
@@ -212380,25 +212122,15 @@ Bad word.
 
 I hated maybe around load.
 
-Cala saw face.
+I looked toward the locked chest.
+
+Cala saw it.
 
 "No."
-
-"I didn't say anything."
-
-"You thought chest."
 
 Lyssa looked between us.
 
 "Absolutely not."
-
-"I also said nothing."
-
-"Your artifact face is different."
-
-Apparently I had artifact face.
-
-Unfortunate.
 
 "Holdfast broad family includes anchoring, rigging, restraint, load control."
 
@@ -219541,15 +219273,7 @@ Open windows, two apprentices sorting tags.
 
 She saw me.
 
-"No."
-
-"I haven't asked."
-
-"Your face asked."
-
-Lyssa was right.
-
-My face needed regulation.
+"If this is yours, no."
 
 "Paid request. Not mine."
 
@@ -224149,13 +223873,11 @@ She glanced disk.
 
 "Vessa Harn crew?"
 
-"She won't let you substitute private tool for assigned reference."
+"She won't let private tools replace assigned reference."
 
-"Didn't ask."
+"I was asking whether her crew uses them at all."
 
-"You were going to."
-
-Maybe.
+"Then ask her."
 
 "Would owning one be useful outside survey?"
 
@@ -225864,9 +225586,9 @@ Dema nodded.
 
 "Yes."
 
-"You were going to inspect it yourself and call that enough."
+"Then don't stop at your own inspection."
 
-"Possibly."
+"I was considering it."
 
 "Don't."
 
@@ -232602,21 +232324,13 @@ Thin pale seams moved under brown-green water, usually near shade.
 
 Every so often one climbed reed stalk for few inches and vanished.
 
-Maro noticed me noticing.
+Maro noticed me watching.
 
 "Residue."
 
 "I wasn't asking."
 
-"You were making asking face."
-
-"I have face for that?"
-
-Sori without looking up said, "Yes."
-
-Dask said, "Very pronounced."
-
-Traitors.
+"Didn't say you were."
 
 Maro pointed toward next bend.
 
@@ -235627,17 +235341,13 @@ Pella had shoulder yoke hanging nearby.
 
 I looked at it.
 
-She said, "No."
+Pella followed my look.
 
-"I didn't ask."
+"Bad match with crutches. Needs both hands clear at the turns."
 
-"You looked."
+"One bucket at a time."
 
-"People keep accusing my face."
-
-"Face guilty."
-
-One bucket at time.
+"Yes."
 
 Six trips.
 
@@ -236335,15 +236045,7 @@ Pella stood by wagon with coffee punishment in one hand.
 
 "Wasn't planning to."
 
-She looked at me.
-
-"You look exactly like planning to."
-
-Again with face.
-
-"Everyone here judges my face."
-
-"Face keeps confessing."
+"Good. Keep it that way."
 
 Kel climbed driver's bench.
 
@@ -236395,13 +236097,11 @@ I liked it immediately.
 
 Bad sign.
 
-Vessa said, "Greg."
+Vessa said, "Eyes on route."
 
-"I'm not doing anything."
+"They are."
 
-"Your face."
-
-Fuck all of them.
+"Keep them there."
 
 Approach office was small stone box wedged between West Three and Four.
 
@@ -238065,15 +237765,9 @@ A place named Fen sounded promising.
 
 Vessa saw me looking.
 
-"No."
+"Not our route."
 
-"I didn't ask."
-
-"Your face did."
-
-Again.
-
-Everybody hated my face.
+"I know."
 
 "Return route?"
 
@@ -243988,11 +243682,11 @@ Dask turned.
 
 Holl looked at him.
 
-"No."
+"No relation that I know."
 
-"I didn't ask."
+"I hadn't asked yet."
 
-"You were going to."
+"You turned around."
 
 Dask closed mouth.
 
@@ -245038,17 +244732,13 @@ Orren looked at her.
 
 "Tomorrow afternoon."
 
-Greg suffered quietly.
+I suffered quietly.
 
-Vessa caught face.
+Vessa said, "Tomorrow is not today."
 
-"No."
+"I know."
 
-"Again, didn't ask."
-
-"Your face is filing requests."
-
-Everybody hated face.
+"Good."
 
 We got rear annex.
 
@@ -246322,15 +246012,13 @@ I stopped chewing.
 
 Sori saw.
 
-"No."
+"Finish lunch before you shop."
 
 "I haven't said anything."
 
-"Your face did."
+"You stopped chewing."
 
-"My face is private."
-
-"Not that face."
+"Temporary condition."
 
 Mella pointed spoon at me.
 
@@ -246576,9 +246264,9 @@ Kel found me near cooper.
 
 "I am."
 
-"She said specifically because you were going to ask if the road counted."
+"She means buildings, not the road."
 
-I was.
+I looked at him.
 
 "Oppressive leadership."
 
@@ -247550,7 +247238,7 @@ Vessa checked positions.
 
 Same as yesterday where possible.
 
-Greg witness post.
+I took witness post.
 
 Dask sight/timing.
 
@@ -247678,7 +247366,7 @@ Not answer.
 
 Dask's pencil moved.
 
-Greg brain moved too.
+My brain moved too.
 
 Calm patch.
 
@@ -248198,7 +247886,7 @@ This made meal better.
 
 After dinner Hedda poured tiny finger of pear brandy for herself, none for us unless paid.
 
-Greg did not buy alcohol.
+I did not buy alcohol.
 
 Mostly because shoulder and dawn schedule.
 
@@ -248636,7 +248324,7 @@ Dask looked personally attacked.
 
 "I haven't."
 
-"You have face."
+"Good. Keep it that way."
 
 I liked Bellweather.
 
@@ -248982,7 +248670,7 @@ Sori looked at me.
 
 "I wasn't."
 
-"Your face."
+"You stopped looking at the mirror when she said eight copper."
 
 Fuck everyone knowing my face.
 
@@ -249340,13 +249028,13 @@ Close enough to annoy me.
 
 Not close enough to matter.
 
-Sori watched my face.
+Sori watched me put the pouch away.
 
 "Don't."
 
 "Again, haven't said anything."
 
-"Trade basin. Twenty-one copper. Your face is planning crimes."
+"Trade basin. Twenty-one copper. Finish the road first."
 
 "Purchases."
 
@@ -249528,13 +249216,11 @@ One maybe rail or freight-only.
 
 Dask stopped walking.
 
-Sori said, "Don't."
+Sori said, "Walk."
 
-"I haven't."
+"I am."
 
-"Your face."
-
-Apparently contagion.
+"Not currently."
 
 Maro shaded eyes.
 
@@ -250608,7 +250294,7 @@ Nema looked at him.
 
 "No."
 
-"Everyone has face today."
+"That was an enthusiastic good."
 
 Sori made sound like victory.
 
@@ -250776,9 +250462,9 @@ Sori looked directly at me.
 
 "I know."
 
-"Your face."
+"Then don't count it yet."
 
-"Fuck my face."
+"I wasn't."
 
 Blackglass Cut was two bridges south and one freight tram east.
 
@@ -251477,11 +251163,11 @@ Nema added, "One thing. Dock salvage auction tomorrow morning includes the three
 
 My attention shifted.
 
-Sori said, "No."
+Sori said, "You heard auction."
 
-"Again, haven't said anything."
+"Yes."
 
-"Face."
+"That's all I needed."
 
 Nema continued deliberately, evil now.
 
@@ -251811,17 +251497,13 @@ Thirty.
 
 Carrow got farther away without moving.
 
-Sori watched my face.
+Sori watched me look at the route board.
 
-"Don't."
-
-"You don't know what I'm thinking."
-
-"Duskport."
+"Duskport?"
 
 "Maybe."
 
-"Market."
+"Market?"
 
 "Probably."
 
@@ -255119,17 +254801,9 @@ Same thing sometimes.
 
 Mira looked at me before leaving.
 
-"If your mother gets word about boy, packet office posts notices from upriver."
+"If you want word about the boy, packet office posts notices from upriver."
 
-"Tessa isn't my mother."
-
-She stared.
-
-"I know."
-
-"Right."
-
-"You have face."
+"Good to know."
 
 Fucking face had traveled thirty miles and developed reputation.
 
@@ -259277,7 +258951,7 @@ Sori pointed at him.
 
 "I didn't say I was."
 
-"Your face did."
+"You just proposed inland comparison."
 
 I laughed.
 
@@ -262971,7 +262645,7 @@ Sori smiled into tea.
 
 "I didn't say anything."
 
-"Your face did."
+"You stared after him."
 
 Fuck face.
 
@@ -263947,17 +263621,15 @@ She saw me.
 
 Then purse.
 
-Then face.
-
 "No."
 
 "I didn't say anything."
 
-"You came before work with money face."
+"You came before work carrying your purse."
 
-"Apparently everyone reads face now."
+"That proves nothing."
 
-"Harbor literacy."
+"Before first bell?"
 
 I put twenty copper on bench.
 
@@ -264041,9 +263713,9 @@ Maybe.
 
 "One time."
 
-"You have face."
+"You still have bite marks on the crutch."
 
-Fuck face.
+Fair.
 
 She pushed receipt to me.
 
@@ -265271,7 +264943,7 @@ Sori elbowed him.
 
 "I'm not interrupting."
 
-"Your face is interrupting."
+"You are whispering her explanation."
 
 Good line.
 
@@ -265315,7 +264987,7 @@ Sori looked at him.
 
 "I didn't say anything."
 
-"Your soul did."
+"That noise did."
 
 I laughed.
 
@@ -267037,13 +266709,13 @@ Still.
 
 Tomorrow.
 
-Nali watched face.
+Nali watched me stop.
 
 "Don't get dramatic."
 
 "I wasn't."
 
-"You were about to."
+"You stopped walking."
 
 Masta infection too.
 
@@ -268793,11 +268465,9 @@ I looked.
 
 She caught look.
 
-"No."
+"No shell today."
 
-"I didn't ask."
-
-"Your face did."
+"I know."
 
 Everyone had face theory.
 
@@ -274739,15 +274409,13 @@ Drainage walk stayed on packed shoulder south/east, no ditch entry.
 
 "Yes."
 
-"And if Halen asks you to carry staff, no."
+"And Halen, don't hand him the staff."
 
 Halen said, "I wasn't going to."
 
 Enna looked at him.
 
-"You were thinking it."
-
-He was.
+"Good. Keep it that way."
 
 Trial build on.
 
@@ -275787,19 +275455,15 @@ Beyond depot, signpost.
 
 I looked too long.
 
-Enna said, "Don't."
+Enna said, "Don't plan past the contract yet."
 
-"What?"
+"I wasn't."
 
-"You're making face."
+"You looked too long."
 
-"What face?"
+"That proves nothing."
 
-"Road face."
-
-"I don't have road face."
-
-"You absolutely do."
+"Good."
 
 Interesting.
 
@@ -276397,7 +276061,7 @@ Different orientation.
 
 I knew enough old-life construction to understand why.
 
-Did not need Greg wonder.
+I did not need to wonder.
 
 Just wrote.
 
@@ -276535,9 +276199,7 @@ Halen inspected.
 
 Toll inspected.
 
-Second pass?
-
-Jorren asked with face only.
+Jorren looked from the repaired shoulder to the test wagon.
 
 Enna said, "No."
 
@@ -276651,7 +276313,7 @@ Culvert mouth, partly choked yesterday, started backing water.
 
 One worker stood knee-deep clearing wrack from upstream side.
 
-Not Greg.
+Not me.
 
 Obviously.
 
@@ -276771,7 +276433,7 @@ No injury reported.
 
 Tool bag caught before water entry.
 
-No Greg heroics.
+No heroics from me.
 
 Good.
 
