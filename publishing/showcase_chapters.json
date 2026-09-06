@@ -58,6 +58,13 @@
     "232": {"showcase": false, "reason": "redundant_progression"},
     "233": {"showcase": false, "reason": "redundant_progression"},
     "234": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
-    "237": {"showcase": false, "reason": "redundant_progression"}
+    "237": {"showcase": false, "reason": "redundant_progression"},
+    "241": {"showcase": false, "reason": "redundant_progression"},
+    "242": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
+    "243": {"showcase": false, "reason": "low_consequence_mundane"},
+    "244": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
+    "245": {"showcase": false, "reason": "redundant_progression"},
+    "246": {"showcase": false, "reason": "low_consequence_mundane"},
+    "247": {"showcase": false, "reason": "low_consequence_mundane"}
   }
 }
