@@ -1,171 +1,232 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 409 - **THE COMPANION**.
+- Current exact story endpoint: Chapter 410 - **THE PROSPECT**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript physically materialized through Chapter 248.
-- Exact Chapters 249-409 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
+- Exact Chapters 249-410 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
 - Titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
-- Ch409 answer: Greg is being **a companion**. He spends the packet night among strangers whose urgent lives collide, helps Harven clarify a possible paid-priority option, then accepts that even a willing payer cannot ethically displace emergency bank-repair freight. He stays beside people rather than solving them.
-- Therefore title **THE COMPANION**.
-- Recent: 405 THE EARNER; 406 THE CONTRACTOR; 407 THE BIDDER; 408 THE MEDIATOR; 409 THE COMPANION.
+- Ch410 answer: Greg is being **a prospect** in both senses. He arrives in Duskport as a free traveler with possibilities, then discovers a serious mobility prospect: a properly fitted work/travel peg that could return use of his hands and alter how he moves through the world. He cannot afford it, so he becomes a prospective worker at Venn Marine Recovery.
+- Therefore title **THE PROSPECT**.
+- Recent: 406 THE CONTRACTOR; 407 THE BIDDER; 408 THE MEDIATOR; 409 THE COMPANION; 410 THE PROSPECT.
 
 ## Major arc direction - away from Carrow
-- Greg/Maro/Sori/Dask remain aboard **Bright Gull**, now approaching **Duskport** next morning.
+- Greg/Maro/Sori/Dask arrive in **Duskport** and disembark Bright Gull.
 - Vessa/Kel remain Sable Quay.
-- Duskport is revealed as a major lower-river/coastal city with cranes, tall warehouses, coastal ships, long waterfront market canopy, green-tiled temple roof, smoke stacks, and visible **sea** beyond basin mouth.
-- Continue chosen travel. Greg is not on mandatory Survey assignment.
-- Human-conflict pressure remains durable: people can want incompatible things badly enough that better information does not create a clean moral answer.
+- No mandatory Survey assignment.
+- Duskport is now active setting: major lower-river/coastal city, seawall, shipyards, drydocks, chandlers, workshops, large port economy, visible sea.
+- Greg chooses a new self-directed economic/mobility objective rather than immediately returning west.
+- Human-conflict pressure remains durable but does not need to dominate every chapter.
 
-## Chapter 409 - THE COMPANION
+## Chapter 410 - THE PROSPECT
 
-### Packet night / Gate Nine
-- Bright Gull continues overnight after Mile House.
-- Deck life includes benches, snoring, children, cargo-chain noise, lower-river lights, open-water roll, sleeping with crutches/bag secured.
-- Tessa's empty seat remains visible; Oren outcome still unknown.
-- Bright Gull reaches **Gate Nine** queue at night.
+### Arrival / unresolved other lives
+- Bright Gull docks south quay **8 minutes before second bell**.
+- Harven Coil disembarks immediately for daughter's hearing. Outcome remains unknown.
+- Harven remembers Mira's quarantine-runner request before leaving.
+- Mira Sol disembarks with breeding birds for quarantine. Outcome remains unknown.
+- Tessa/Oren outcome remains unknown; Mira notes upriver notices can eventually post through packet office but no convenient resolution arrives.
+- Captain Iven gives Greg practical westbound return info: Bright Gull normally returns next afternoon unless freight changes. Return route exists but Greg does not take it.
 
-### Harven Coil / daughter hearing
-- Gray-coat father named **Harven Coil**.
-- Daughter is **19**.
-- Hearing at Duskport second bell concerns appeal of:
-  - work-ban order;
-  - six-month labor levy.
-- Underlying incident:
-  - dock foreman grabbed her apprentice by throat;
-  - she struck foreman, broke nose;
-  - foreman fell and lost two teeth;
-  - apprentice supports her account;
-  - three workers claim not to have seen.
-- Counsel has Harven's written statement, so his presence may not change ruling, but he desperately wants daughter to look up and see him there.
-- This makes his want emotional/personal, not merely procedural leverage.
+### Duskport texture / lodging
+- Duskport south quay is socially/logistically dense: porters, carts, rope sellers, customs runners, fishmongers, sailors, message children, multiple languages, salt/tar/fish/smoke.
+- Greg/Maro/Sori/Dask prioritize lodging before sightseeing.
+- Lodge at **Anchor's End**:
+  - beds 1c;
+  - floor 4 bits;
+  - `NO FIGHTING INSIDE` sign;
+  - innkeeper **Pell Varo**;
+  - loft has 12 wide stairs with rails both sides;
+  - Greg gets bed near stair at same price.
+- Greg pays **1c**, cash **22c -> 21c**.
+- Bag secured; crutches remain with him.
 
-### Mira Sol / competing need
-- Bird trader named **Mira Sol**.
-- Carries long-necked gray breeding birds.
-- Quarantine timing matters because they represent ~6 months breeding, contract deposit, and sister's farm debt.
-- Harven dismisses them as `birds`, then apologizes.
-- Mira later acknowledges her quarantine closes third bell and can potentially send arrival notice by runner if needed.
-- Their competing needs remain real; neither is villain.
+### Sea / Duskport magic infrastructure
+- Greg reaches seawall and sees sea directly for first time in second life.
+- First-life familiarity does not erase current-life emotional response.
+- Duskport working magic examples:
+  - blue seam-lines pushing drydock seep water toward drains;
+  - charged wind-vane fins correcting dock cranes;
+  - warehouse threshold flashing dull green for sealed cargo.
+- Ocean/port should remain distinct new scene grammar, not just larger river town.
 
-### Paid priority option / another no-clean-answer
-- Harven asks Greg to help get gate priority.
-- Greg does not immediately repeat `I don't know enough`; instead asks for actual priority economics/procedure.
-- Rell explains:
-  - after-hours packet priority likely **2-4c**, maybe **6c** if freight queue tight;
-  - normally discretionary passenger-originated priority creates manifest surcharge, freight heavier share;
-  - captains face company review for excessive discretionary passes.
-- Greg asks whether a passenger can voluntarily cover cost without forcing surcharge.
-- Technically possible if packet master approves and freight contract unaffected.
-- Harven decides clearly: he will personally pay up to **6c**, despite it leaving him barely funded after arrival.
-- Sori tests whether this would hurt his own ability to afford Duskport needs; Harven knowingly accepts cost.
-- Greg's formulation to Iven: **`Question was mine. Choice is his.`**
+## Major new mobility / title-defining leg direction
+- User explicitly requested a conversation/nudge toward Greg getting a **peg leg / work limb** that would improve mobility, with cost high enough that he cannot simply buy it and must become serious/provide value/work for it over multiple chapters.
+- This is now a durable forward objective.
+- Greg notices **Hark & Venn - BRACES / ARTICULATED SUPPORTS / WORK LIMBS / MARINE FITTINGS** near seawall.
+- Maro simply asks whether Greg has ever tried a peg; Greg has not in current life. First life had intact leg.
+- Core realization: crutches are highly adapted and useful but rent both hands. A fitted work leg could restore carrying/standing options and change work/travel/fight/social scene grammar.
+- Peg/work limb is **not a cure or replacement for crutches**. It is another tool and option.
 
-### Iven refuses for third-party reason
-- Captain Iven still refuses to request priority.
-- Reason: current queued **stone convoy carries emergency bank-repair material**; paid priority would move Bright Gull ahead of it if accepted.
-- Therefore Harven's willingness to pay does not settle conflict.
-- The moral cost now includes people not even aboard packet who may depend on bank repair.
-- Iven is neither cold nor automatically correct; she makes route-responsibility choice under incomplete downstream consequences.
-- Harven is furious at world more than captain.
-- Queue ultimately clears after ~19 minutes without priority purchase.
+### Masta Venn / limbwright
+- **Masta Venn** introduced:
+  - ~60;
+  - dark skin;
+  - short white hair;
+  - missing 3 fingers left hand;
+  - experienced limbwright;
+  - professional, direct, asks permission before touching stump/knee.
+- She assesses Greg's healed left BKA, knee range, skin, hip/control, standing line.
+- Greg's answer to `What do you want?`: **`More hands.`**
+- Masta approves framing: not speed first, but ability to stand/carry/use hands.
+- She says work limb can help, but gait training/skin tolerance matter; crutches remain necessary.
+- Key line: **`Limb is tool, not miracle.`**
+- Some days stump says no; some terrain says no; stairs remain difficult.
 
-### Greg/Sori growth
-- Sori identifies Greg tendency to search for missing information until a no-villain option appears.
-- Greg recognizes some problems remain painful after all relevant facts improve.
-- Durable distinction:
-  - better questions can expand options;
-  - evidence can prevent false claims;
-  - but values still require choices;
-  - sometimes every available option hurts somebody.
-- Greg does not abandon procedural honesty; he is learning companionship/choice after procedure runs out.
+### Established limb pricing
+- Basic rigid dock peg:
+  - leather socket;
+  - no articulated ankle;
+  - ordinary wood;
+  - flat-yard/indoor short-duration work;
+  - 3 fittings + gait-rail sessions;
+  - **84 copper**.
+- Proper travel work limb:
+  - split foot;
+  - replaceable sole;
+  - better wet grip;
+  - side stay;
+  - adjustable socket;
+  - **1 silver + 18 copper**.
+- Marine drainage/salt-resistant version starts **1 silver + 36 copper**.
+- Articulated ankle / charged balance assist higher still; no exact price established.
+- IMPORTANT: **No universal silver/copper conversion is established. Do not invent one.** The silver denomination itself makes clear Greg's 21c is insufficient.
+- Masta does not recommend charged balance assist for first limb.
 
-### Harven/Mira small social repair
-- Mira silently gives Harven tea after gate.
-- By morning Harven offers to use a known court runner near south gate to send Mira's quarantine office arrival notice if he makes hearing.
-- Mira accepts with insult/humor.
-- People can disagree fiercely without remaining enemies.
+### Fitting/payment logic
+- Travel-leg fitting likely **8-12 days** if Greg stays local and stump behaves; longer if not.
+- Travel-leg deposit **20c** to reserve slot; balance due before final hardware leaves shop.
+- Greg technically has 21c and could place deposit, but would be left with 1c for lodging/food/travel/Vale. He correctly refuses.
+- Masta explicitly approves refusal: she wants clients who can eat between fittings.
+- Used socket not sensible because sockets are body-specific.
+- Masta has salvage feet but neither fits Greg's load well; she refuses to make cheaper/worse limb just to close sale.
+- Local payment plans require guild guarantor; Greg is not local.
 
-### Duskport approach
-- Bright Gull expected Duskport outer basin in ~1 bell by morning.
-- Harven still has chance at second-bell hearing; outcome not yet known.
-- Mira still has chance at third-bell quarantine; outcome not yet known.
-- Duskport reveal:
-  - major crane fields;
-  - tall warehouses;
-  - coastal ships beyond river packets;
-  - dense waterfront roofs;
-  - green-tiled temple roof;
-  - long market canopy;
-  - sea visible gray-blue beyond basin mouth.
-- Greg's second-life first sight of sea lands emotionally despite first-life familiarity.
-- Dask immediately mentions Duskport mirror district, preserving voice.
+## New work route - Venn Marine Recovery
+- Greg asks about work trade/earning path.
+- Masta's brother **Hark Venn** runs **Venn Marine Recovery** at East Hook.
+- Shop name Hark & Venn is historical; original Hark died 12 years ago. Brother's given name being Hark is NOT established; exact prose says brother is also Venn and shop sign stayed because changing costs money. Do not accidentally rename him Hark as a given name unless later exact authority establishes it. The recovery business contact is Masta's brother; his personal first name remains **unestablished**.
+- Venn Marine Recovery does:
+  - salvage diving;
+  - wreck lift;
+  - quay recovery.
+- Their condition clerk left ~2 weeks ago to marry someone in Gullhaven, not dead.
+- Condition-clerk work includes logging recovered hardware before teardown:
+  - salt exposure;
+  - charge residue;
+  - deformation;
+  - ownership marks;
+  - whether object is safe to touch;
+  - whether object should remain isolated until qualified specialist arrives.
+- Greg's Survey/load/records experience may be relevant.
+- Masta does NOT formally guarantee/referral-hire him. She says tell brother Masta said Greg knows enough to answer questions without pretending.
+- Pay is **not yet established**. Brother decides.
+- This is strong next-chapter work route and should take multiple chapters if Greg earns toward limb.
 
-## Durable human-conflict rule
-- Keep introducing somebody else's story with urgent human wants.
-- Do not make each conflict solvable through one clever workaround.
-- Correct procedure may distribute responsibility but not erase harm.
-- Greg should increasingly face situations where:
-  - multiple people are individually reasonable;
-  - facts narrow but do not decide values;
-  - no option protects everyone;
-  - emotional residue remains after competent action.
-- Allow occasional social repair/solidarity without converting conflict into tidy win.
+## Durable peg-leg progression rule
+- Greg now **wants a fitted work/travel leg badly**.
+- Do not give it immediately.
+- Do not make price collapse for protagonist convenience.
+- Do not solve through random gift/charity/windfall unless later story genuinely earns it.
+- Let Greg work seriously for several chapters, providing visible real value.
+- Work should exploit his strengths without making him universally superior:
+  - old-life systems/field judgment;
+  - current Survey records discipline;
+  - artifact/hardware curiosity;
+  - load/mechanical reasoning;
+  - ability to recognize limits and call specialists;
+  - occasional locked-in output when stakes truly justify it.
+- Marine recovery can introduce action, underwater/coastal magical ecology, wrecks, salvage rights, ownership disputes, artifact markets, worker danger, and human conflicts over recovered property.
+- Earnings should be meaningful and can accumulate toward deposit/full price, but preserve Duskport living costs and Vale obligation.
+- Fitting itself should later require adaptation/training and may temporarily make Greg worse at movement before better.
+- Work leg should change scene grammar, not erase BKA or crutches.
+- This is a natural route toward the **Peg-Leg Greg** title identity, but do not overannounce destiny/meta-title in prose.
 
 ## Economy
 - Greg begins **22c cash / 23c Vale / bits unspecified**.
-- No Greg copper spend in Ch409.
-- Ends **22c cash / 23c Vale / bits unspecified**.
+- Anchor's End bed costs **1c**.
+- Ends **21c cash / 23c Vale / bits unspecified**.
+- No limb deposit paid.
+- Travel work limb target price **1 silver + 18c**; marine version **1 silver + 36c**; basic dock peg **84c**.
+- Greg cannot currently afford any proper option.
 
 ## Magic / artifacts
 - Protocol remains **59 minimal / 53 shaping / 135 external attempts**.
-- No deliberate magic.
-- Quietener/WS-F/9 packed and unused.
-- PF-3 remains unpurchased.
+- No deliberate magic in Ch410.
+- Quietener/WS-F/9 remain packed.
 - Tavi rock remains with Greg.
+- PF-3 remains unpurchased.
 - Repaired right crutch remains sound.
 
+## Greg physical state
+- Left BKA confirmed healed enough for Masta to consider fitting.
+- Good knee range/control and no routine skin breakdown established in quick assessment.
+- Shoulder/right hand near-normal.
+- No new injury.
+- Current crutch competence remains real and should not be demeaned merely because work leg is attractive.
+
+## Greg social/internal movement
+- Greg recognizes he wants limb not for symbolic completion but for **more hands / more options**.
+- He sees a woman using fitted below-knee work limb to carry crate with both hands, making benefit concrete.
+- Price being beyond reach turns desire into target rather than despair.
+- Closing internal movement: `Not enough meant target.` / `I knew what to do with expensive. Become worth more.`
+- Greg chooses East Hook/Venn Marine Recovery over pure sightseeing.
+
+## Dialogue variance
+- Masta Venn: direct craft authority, practical, no false promises, refuses cheap bad work, profanity used as worker realism.
+- Sori: initially pushes Greg to ask, then becomes serious when deposit arithmetic would leave him nearly broke; no constant teasing during meaningful money decision.
+- Maro: simple practical nudge `Could help`, then follows East Hook route.
+- Dask: useful technical list about fit variables, then goes separately to mirror guild after Sori releases him from group.
+- Pell Varo: dry innkeeper humor.
+
 ## Protected uncertainties
+- Greg ends Ch410 **walking toward East Hook / Venn Marine Recovery** with Sori and Maro. Dask goes west to mirror guild and plans to meet Anchor's End that night.
+- Greg cash **21c**, Vale **23c**, bits unspecified.
+- Protocol **59 / 53 / 135**.
+- No limb purchased/deposit paid.
+- Recovery-yard pay not established.
+- Recovery-yard brother's personal first name not established; do not call him Hark solely from business name.
+- Harven hearing outcome unknown.
+- Mira quarantine outcome unknown.
 - Tessa/Oren outcome unknown.
-- Harven daughter's hearing outcome unknown; Bright Gull is ~12 minutes off schedule by dawn but still has a chance.
-- Mira quarantine/contract outcome unknown.
 - No home reply yet.
 - No mandatory Survey assignment.
-- Duskport details beyond approach remain open.
-- Greg cash **22c**, Vale **23c**, protocol **59 / 53 / 135**.
 
-## Chapter 410 trailhead
-Follow next actual claim from Ch409/current authority.
+## Chapter 411 trailhead
+Follow next actual claim from Ch410/current authority.
 
-Greg begins **22c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**.
+Greg begins **21c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**.
 
 Physical/timeline:
-- morning aboard Bright Gull entering **Duskport outer basin**;
-- south quay first, north quay after;
-- Harven needs second-bell hearing;
-- Mira needs third-bell quarantine;
-- Greg/Maro/Sori/Dask arriving with no mandatory assignment;
-- shoulder/hand near-normal; repaired crutch sound.
+- same Duskport morning/early day;
+- Greg/Sori/Maro walking east toward **Venn Marine Recovery**, East Hook;
+- Dask separately visiting mirror guild, reunion expected Anchor's End tonight;
+- Greg now strongly wants travel work limb priced **1 silver + 18c**;
+- no deposit paid;
+- current limb/crutch state stable.
 
 Strong movement:
-- Actually dock and enter Duskport. Avoid delaying arrival.
-- Let Harven/Mira outcomes remain partly outside Greg's control. Greg may help with a small practical handoff, but do not turn him into fixer of everyone.
-- Duskport should feel coastal and socially denser than Sable Quay.
-- Human wants/conflict should continue as ambient pressure, not every scene a moral seminar.
-- Greg can choose where to go first now that nobody owns his itinerary.
-- Strong options: cheap lodging decision, market orientation, sea encounter, a person seeking help, a work/transport offer, an artifact market with higher ceiling, or another person's conflict that Greg cannot reduce to procedure.
-- Do not immediately resolve Tessa/Oren by convenient message.
-- Do not hand Greg a mandatory quest.
+- Reach Venn Marine Recovery promptly. Do not spend whole chapter discussing peg again.
+- Let Greg ask for work and be evaluated. Employer should have own standards, skepticism, workload, and problems.
+- Do NOT hand Greg high pay merely because protagonist. He should demonstrate value.
+- Strong first work could be bounded paid trial or same-day condition-record test on recovered hardware.
+- Marine recovery should immediately feel different from Survey: salt, salvage custody, wreck damage, ownership marks, workers/divers, wet magical hardware, uncertain hazards.
+- Human conflict can enter through salvage ownership/value/safety disagreements, but not every beat needs moral dilemma.
+- Greg's serious-money target should alter behavior: he may choose work over leisure and become more focused, but preserve normal humor/social life.
+- Establish realistic pay structure only when employer does.
+- If Greg performs well, let path toward several chapters of paid recovery work become credible.
 
 Avoid:
-- exposition dump for Duskport;
-- instant clean resolution of Harven/Mira/Tessa;
-- another archive-only chapter;
-- immediate return west.
+- free peg;
+- sudden price discount;
+- employer instantly declaring Greg genius;
+- giant payday in first hour;
+- universal artifact appraisal;
+- making Duskport only a job site with no city life.
 
-**MANDATORY TITLE CHECK CH410:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH411:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
