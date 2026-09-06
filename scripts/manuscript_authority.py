@@ -128,18 +128,21 @@ def parse_docx_chapters(path: Path) -> list[tuple[int, str | None]]:
         upper = text.upper()
         if not upper.startswith("CHAPTER "):
             continue
-        tail = upper[len("CHAPTER "):].strip()
+        raw_tail = text[len("CHAPTER "):].strip()
+        tail = raw_tail.upper()
         number: int | None = None
         title: str | None = None
-        numeric = re.match(r"(\d+)\b\s*(?:[—:-]\s*(.*))?$", text[len("CHAPTER "):].strip(), re.I)
+
+        numeric = re.match(r"(\d+)(.*)$", raw_tail, re.I)
         if numeric:
             number = int(numeric.group(1))
-            title = clean_title(numeric.group(2))
+            remainder = re.sub(r"^[\s—:-]+", "", numeric.group(2)).strip()
+            title = clean_title(remainder)
         else:
             for words, candidate in NUMBER_WORD_PREFIXES:
-                if tail == words or tail.startswith(words + " ") or tail.startswith(words + " —") or tail.startswith(words + " -") or tail.startswith(words + ":"):
+                if tail.startswith(words):
                     number = candidate
-                    remainder = text[len("CHAPTER ") + len(words):].strip()
+                    remainder = raw_tail[len(words):].strip()
                     remainder = re.sub(r"^[—:-]+\s*", "", remainder)
                     title = clean_title(remainder)
                     break
