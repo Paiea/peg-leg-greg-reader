@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from scripts.dialogue_ownership_engine import quoted_spans, split_paragraph
+from scripts.dialogue_ownership_engine import has_dialogue, quoted_spans, split_paragraph
 
 
 CHAPTERS_DIR = ROOT / "chapters"
@@ -94,7 +94,7 @@ def transform_html(path: Path) -> tuple[bool, int]:
     def replace_paragraph(match: re.Match[str]) -> str:
         nonlocal split_count
         content = match.group(1)
-        if "<" in content or '"' not in content:
+        if "<" in content or not has_dialogue(content):
             return match.group(0)
         pieces = split_paragraph(content)
         if len(pieces) <= 1:
@@ -122,7 +122,7 @@ def _transform_markdown_body(body: str) -> tuple[str, int]:
     for index in range(0, len(pieces), 2):
         block = pieces[index]
         stripped = block.strip()
-        if not stripped or '"' not in stripped:
+        if not stripped or not has_dialogue(stripped):
             continue
         # Formatted Markdown needs a markup-aware transformer. Leave it intact
         # and surface it through audit rather than moving emphasis/link/code
@@ -131,7 +131,6 @@ def _transform_markdown_body(body: str) -> tuple[str, int]:
             "**" in stripped
             or "__" in stripped
             or "`" in stripped
-            or "](“ in stripped
             or "](" in stripped
         )
         if stripped.startswith("#") or "\n" in stripped or "<" in stripped or has_markdown_markup:
