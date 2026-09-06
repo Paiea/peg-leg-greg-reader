@@ -766,7 +766,9 @@ No authority voice.
 
 Almost.
 
-"I'm staying Quay one more night," she said. "Annex asked if I'd review a route form this afternoon. Personal choice, not crew order."
+"I'm staying Quay one more night," she said.
+
+"Annex asked if I'd review a route form this afternoon. Personal choice, not crew order."
 
 Kel said, "I'll stay. Dock work tomorrow maybe."
 
