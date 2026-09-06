@@ -270,6 +270,7 @@ It may not:
 - resolve intentionally unresolved questions;
 - turn Greg's interpretation into objective truth;
 - make another character infer hidden internal state without earned evidence;
+- emit non-POV interiority as an observable thought/narration beat without explicit Dramatic Script authorization;
 - force internal state to become visible simply because PERFORMANCE has access to it.
 
 PERFORMANCE knows more about internal state than the other characters are automatically allowed to know.
@@ -289,11 +290,13 @@ Content.
 CHARACTER -> ADDRESSEE [DIALOGUE]
 "Content."
 
-CHARACTER [THOUGHT]
+POV CHARACTER [THOUGHT]
 Content.
 ```
 
 Use named owners. Avoid ambiguous pronouns when ownership could be unclear.
+
+`[THOUGHT]` is POV-authorized interiority, normally Greg in PLG. A non-POV character's private state may exist in the temporary performance frame and may causally shape visible behavior, but it must not become a thought beat unless the Dramatic Script explicitly authorizes that interior access.
 
 Optional exchange-level markers may be used only when materially useful:
 
@@ -485,7 +488,7 @@ Classify each scene:
 
 The system earns a novelization experiment only if the five-scene set shows clear value rather than isolated novelty.
 
-Recommended promotion threshold for the spike:
+Recommended promotion threshold for the first lab:
 
 - zero dramatic-truth failures;
 - at least three scenes `CLEARLY STRONGER`;
@@ -581,7 +584,7 @@ The experiment is complete when:
 1. All five selected current scenes have a compact Dramatic Script fixture.
 2. Ownership is locked only where ownership itself matters.
 3. Each scene receives temporary performance frames only for materially active characters.
-4. Each scene produces an explicit performed script with clear dialogue/action/thought ownership.
+4. Each scene produces an explicit performed script with clear dialogue/action/POV-thought ownership.
 5. The performed script preserves all locked dramatic truth.
 6. Claimed material state bends pass the Behavioral Realization Gate.
 7. Existing exchange-rhythm/swap logic can be applied to the performed script without converting it back into prose.
