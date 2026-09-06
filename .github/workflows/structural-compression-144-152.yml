@@ -29,6 +29,37 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
+      - name: Normalize structural scene anchors
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          script = Path('scripts/apply_structural_compression_144_152.py')
+          s = script.read_text(encoding='utf-8')
+          s2 = re.sub(
+              r'AUDIENCE_SETUP_END = \(.*?\)\n\nSHOW_MONTAGE_START',
+              'AUDIENCE_SETUP_END = \'<p>"Start with the road scene."</p>\'\n\nSHOW_MONTAGE_START',
+              s,
+              count=1,
+              flags=re.S,
+          )
+          old_tail = 'This was not an audience so much as a town temporarily facing the same direction.</p>"""'
+          new_tail = 'This was not an audience so much as a town temporarily facing the same direction.</p><p>Teren stood in the center aisle.</p><p>"Start with the road scene."</p>"""'
+          if old_tail in s2:
+              s2 = s2.replace(old_tail, new_tail, 1)
+          elif new_tail not in s2:
+              raise SystemExit('Could not normalize Chapter 149 replacement tail')
+          script.write_text(s2, encoding='utf-8')
+
+          test = Path('tests/test_structural_compression_144_152.py')
+          t = test.read_text(encoding='utf-8')
+          fixture_tail = "It was a town temporarily facing the same direction. Teren stood in the center aisle.</p>'"
+          fixture_new = "It was a town temporarily facing the same direction. Teren stood in the center aisle.</p>'\n                '<p>\"Start with the road scene.\"</p>'"
+          if fixture_tail in t and '<p>\"Start with the road scene.\"</p>' not in t:
+              t = t.replace(fixture_tail, fixture_new, 1)
+          test.write_text(t, encoding='utf-8')
+          PY
       - name: Run focused structural-compression tests
         run: python -m unittest tests.test_structural_compression_144_152
       - name: Apply approved structural edit
@@ -60,13 +91,14 @@ jobs:
           git diff --check
       - name: Commit edited range
         run: |
-          if [ -z "$(git status --porcelain -- chapters/149.html chapters/150.html chapters/151.html chapters/152.html light/149.html light/150.html light/151.html light/152.html state/compression-batches/144-152-wave1.json)" ]; then
+          TRACKED='scripts/apply_structural_compression_144_152.py tests/test_structural_compression_144_152.py chapters/149.html chapters/150.html chapters/151.html chapters/152.html light/149.html light/150.html light/151.html light/152.html state/compression-batches/144-152-wave1.json'
+          if [ -z "$(git status --porcelain -- $TRACKED)" ]; then
             echo 'Structural compression wave already applied.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add chapters/149.html chapters/150.html chapters/151.html chapters/152.html light/149.html light/150.html light/151.html light/152.html state/compression-batches/144-152-wave1.json
+          git add $TRACKED
           git commit -m 'Compress first tour performance sequence'
           for attempt in 1 2 3; do
             git fetch origin editor/voice-compression-pass
