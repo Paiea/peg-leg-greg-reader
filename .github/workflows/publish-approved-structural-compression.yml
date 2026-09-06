@@ -31,7 +31,7 @@ jobs:
         run: |
           python /tmp/plg-compression/apply_060_061.py --root . --write --manifest state/compression-batches/060-061.json
           python /tmp/plg-compression/apply_075_076.py --root . --write --manifest state/compression-batches/075-076.json
-          python /tmp/plg-compression/apply_144_152.py --root . --write --manifest state/compression-batches/144-152-wave1.json
+          python /tmp/plg-compression/apply_144_152.py --root .
           python /tmp/plg-compression/apply_183_184.py --root . --write --manifest state/compression-batches/183-184.json
           python /tmp/plg-compression/apply_197_198.py --root . --write --manifest state/compression-batches/197-198.json
           python /tmp/plg-compression/apply_208_213.py --root . --write --manifest state/compression-batches/208-213.json
@@ -40,7 +40,7 @@ jobs:
         run: |
           python /tmp/plg-compression/apply_060_061.py --root . --verify
           python /tmp/plg-compression/apply_075_076.py --root . --verify
-          python /tmp/plg-compression/apply_144_152.py --root . --verify
+          python /tmp/plg-compression/apply_144_152.py --root . --check
           python /tmp/plg-compression/apply_183_184.py --root . --verify
           python /tmp/plg-compression/apply_197_198.py --root . --verify
           python /tmp/plg-compression/apply_208_213.py --root . --verify
