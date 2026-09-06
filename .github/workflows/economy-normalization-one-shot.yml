@@ -31,6 +31,8 @@ jobs:
         run: |
           # The Text Reader intentionally starts later than Chapter 10.
           sed -i 's/for path in \["chapters\/010.html", "light\/010.html"\]:/for path in ["chapters\/010.html"]:/' scripts/apply_economy_normalization_live.py
+          # Align the queued Ch474 replacement with the exact checkpoint wording.
+          sed -i 's/one Lakeward specification folded inside notebook/one Lakeward specification/' scripts/apply_economy_normalization_live.py
           python scripts/apply_economy_normalization_live.py
       - name: Run reader tooling tests
         run: python -m unittest discover -s tests -p 'test_*.py'
