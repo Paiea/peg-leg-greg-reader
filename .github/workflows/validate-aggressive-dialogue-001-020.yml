@@ -1,0 +1,72 @@
+name: Validate aggressive dialogue 001-020
+
+on:
+  push:
+    branches:
+      - integration/aggressive-dialogue-001-020-final-refresh
+    paths:
+      - '.github/workflows/validate-aggressive-dialogue-001-020.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch main
+        run: git fetch origin main
+      - name: Enforce bounded diff scope
+        run: |
+          python - <<'PY'
+          import subprocess
+          allowed = {
+              'chapters/003.html','chapters/005.html','chapters/006.html','chapters/007.html',
+              'chapters/008.html','chapters/009.html','chapters/010.html','chapters/011.html',
+              'chapters/012.html','chapters/013.html','chapters/014.html','chapters/016.html',
+              'chapters/017.html','chapters/019.html','chapters/020.html',
+              'state/editorial/global-reports/DIALOGUE_VARIANCE_INTEGRATION_REPORT.md',
+              '.github/workflows/validate-aggressive-dialogue-001-020.yml',
+          }
+          changed = set(subprocess.check_output(['git','diff','--name-only','origin/main...HEAD'], text=True).splitlines())
+          extra = changed - allowed
+          missing = {p for p in allowed if not p.startswith('.github/')} - changed
+          if extra:
+              raise SystemExit('unexpected files in rollout: ' + ', '.join(sorted(extra)))
+          if missing:
+              raise SystemExit('expected rollout files missing: ' + ', '.join(sorted(missing)))
+          print('bounded diff passed:', len(changed), 'files including temporary workflow')
+          PY
+      - name: Focused dialogue integration tests
+        run: python -m unittest tests.test_dialogue_variance_integration -v
+      - name: Full repository tests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Diff check
+        run: git diff --check origin/main...HEAD
+      - name: Reader frontier verification
+        run: python scripts/verify_reader_frontier.py
+      - name: Validate changed chapter prose
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          chapters = [3,5,6,7,8,9,10,11,12,13,14,16,17,19,20]
+          for n in chapters:
+              p = Path('chapters') / f'{n:03d}.html'
+              text = p.read_text(encoding='utf-8')
+              m = re.search(r'<article\s+class="prose"[^>]*>(.*?)</article>', text, re.S|re.I)
+              if not m:
+                  raise SystemExit(f'missing prose article: {p}')
+              prose = re.sub(r'<[^>]+>', '', m.group(1))
+              if '—' in prose:
+                  raise SystemExit(f'em dash in manuscript prose: {p}')
+          print('changed chapter prose validation passed')
+          PY
