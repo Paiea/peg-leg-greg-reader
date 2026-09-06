@@ -29,7 +29,7 @@ AUDIENCE_SETUP_END = (
     "<p>I went to the wing. The house had grown. Maybe forty now. People entered without ceremony. "
     "Some paid something at the front. Some apparently did not. A woman came in, saw someone she knew, "
     "crossed two rows to sit beside her, and immediately began talking. This was not an audience. "
-    "It was a town temporarily facing the same direction.</p>"
+    "It was a town temporarily facing the same direction. Teren stood in the center aisle.</p>"
 )
 
 SHOW_MONTAGE_START = "<p>The rest of the show happened around me. Not to me. That was different."
@@ -103,8 +103,6 @@ def _transform_149(text: str) -> str:
 def _transform_150(text: str) -> str:
     if MERGED_ATTR not in text:
         text = replace_article(text, LEGACY_150_BODY)
-    text = text.replace('rel="prev" href="149.html"', 'rel="prev" href="149.html"')
-    text = text.replace('rel="next" href="151.html"', 'rel="next" href="151.html"')
     return text
 
 
