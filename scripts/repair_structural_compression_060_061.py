@@ -4,7 +4,6 @@
 from __future__ import annotations
 
 import argparse
-import copy
 import html
 import re
 import tempfile
@@ -12,14 +11,24 @@ import zipfile
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
-from scripts.apply_structural_compression_060_061 import (
-    DOCX_REL,
-    HTML_PATHS,
-    W_NS,
-    _set_paragraph_text,
-    chapter_number_from_heading,
-    p_text,
-)
+try:
+    from scripts.apply_structural_compression_060_061 import (
+        DOCX_REL,
+        HTML_PATHS,
+        W_NS,
+        _set_paragraph_text,
+        chapter_number_from_heading,
+        p_text,
+    )
+except ModuleNotFoundError:
+    from apply_structural_compression_060_061 import (
+        DOCX_REL,
+        HTML_PATHS,
+        W_NS,
+        _set_paragraph_text,
+        chapter_number_from_heading,
+        p_text,
+    )
 
 P_RE = re.compile(r"<p(?:\s[^>]*)?>(.*?)</p>", re.I | re.S)
 TAG_RE = re.compile(r"<[^>]+>")
