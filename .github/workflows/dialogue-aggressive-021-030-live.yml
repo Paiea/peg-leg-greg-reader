@@ -24,12 +24,41 @@ jobs:
           python-version: '3.12'
       - name: Fetch approved dialogue authority
         run: git fetch origin editor/voice-compression-pass:refs/remotes/origin/editor/voice-compression-pass
-      - name: Run focused integration tests
-        run: python -m unittest tests.test_dialogue_variance_integration -v
+      - name: Run focused ownership and integration tests
+        run: |
+          python scripts/apply_dialogue_ownership_semantic.py --self-test
+          python scripts/test_dialogue_ownership_rewrite.py
+          python -m unittest tests.test_dialogue_variance_integration -v
       - name: Replay exact approved patches through Chapter 30 only
         run: python scripts/dialogue_variance_integration.py --patch-ref origin/editor/voice-compression-pass --min-chapter 21 --max-chapter 30 --write
-      - name: Apply semantic ownership boundaries
-        run: python scripts/apply_dialogue_ownership_semantic.py --start 21 --end 30
+      - name: Snapshot prose after approved replay
+        run: |
+          mkdir -p /tmp/dialogue-before
+          cp chapters/{021..030}.html /tmp/dialogue-before/
+      - name: Apply ownership rewrite boundaries to convergence
+        run: |
+          for pass in 1 2 3 4; do
+            python scripts/apply_dialogue_ownership_rewrite.py --start 21 --end 30
+          done
+      - name: Verify rewrite preserved exact prose text
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          def article(text):
+              return text.split('<article class="prose">', 1)[1].split('</article>', 1)[0]
+          def flat_prose(text):
+              prose = article(text).replace('</p><p>', ' ').replace('<p>', '').replace('</p>', '')
+              return re.sub(r'\s+', ' ', prose).strip()
+          for n in range(21, 31):
+              name = f'{n:03d}.html'
+              before = Path('/tmp/dialogue-before', name).read_text(encoding='utf-8')
+              after = Path('chapters', name).read_text(encoding='utf-8')
+              assert '<article class="prose">' in after and '</article>' in after, name
+              assert '<p></p>' not in after, f'empty paragraph: {name}'
+              assert flat_prose(after) == flat_prose(before), f'ownership rewrite changed prose text: {name}'
+          print('verified ownership rewrite preserved exact prose text for chapters 021-030')
+          PY
       - name: Enforce bounded file scope
         run: |
           python - <<'PY'
@@ -79,5 +108,5 @@ jobs:
             echo "No Chapter 21-30 dialogue changes to commit."
             exit 0
           fi
-          git commit -m "Apply dialogue ownership baseline through chapter 30"
+          git commit -m "Apply ownership rewrite through chapter 30"
           git push origin HEAD:integration/aggressive-dialogue-021-030-live
