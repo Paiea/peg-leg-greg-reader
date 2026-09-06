@@ -18,6 +18,7 @@ def select_generation_batch(queue: list[dict], limit: int = 25) -> list[dict]:
 def render_generation_packet(records: Iterable[dict]) -> str:
     lines = ["# PEG-LEG GREG — GENERATION PACKET", ""]
     for record in records:
+        selected = record.get("selected_character_references", [])
         lines.extend(
             [
                 f"## Chapter {record['chapter']:03d} — {record.get('chapter_title', '')}",
@@ -32,7 +33,9 @@ def render_generation_packet(records: Iterable[dict]) -> str:
                 f"- Location: {record.get('location', '')}",
                 f"- Mood: {record.get('mood', '')}",
                 f"- Character reference assets: {json.dumps(record.get('character_reference_assets', []), ensure_ascii=False)}",
+                f"- Selected character references: {json.dumps(selected, ensure_ascii=False)}",
                 f"- Character appearance notes: {json.dumps(record.get('character_appearance_notes', {}), ensure_ascii=False)}",
+                f"- Reference selection rationale: {record.get('reference_selection_notes', '')}",
                 f"- Continuity notes: {record.get('continuity_notes', '')}",
                 f"- Prompt pack: {record['prompt_pack']}",
                 f"- Target asset: {record['target_asset']}",

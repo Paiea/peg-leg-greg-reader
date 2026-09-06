@@ -11,6 +11,7 @@ if str(ROOT) not in sys.path:
 
 from scripts.build_illustration_backlog import count_chapter_images
 from scripts.illustration_state import load_registry, load_scene_candidates
+from scripts.score_character_references import select_character_references
 
 CANDIDATES_PATH = ROOT / "state" / "visual" / "SCENE_CANDIDATES.json"
 REGISTRY_PATH = ROOT / "state" / "visual" / "ILLUSTRATION_REGISTRY.json"
@@ -38,18 +39,28 @@ def _next_version(candidate_id: str, registry: list[dict]) -> int:
     return max(versions, default=0) + 1
 
 
-def _character_metadata(characters: list[str], character_references: dict[str, dict]) -> tuple[list[str], dict[str, str]]:
-    assets: list[str] = []
-    appearance_notes: dict[str, str] = {}
+def _appearance_notes(characters: list[str], character_references: dict[str, dict]) -> dict[str, str]:
+    notes: dict[str, str] = {}
     for character in characters:
-        reference = character_references.get(character, {})
-        notes = reference.get("appearance_notes", "")
-        if isinstance(notes, str) and notes.strip():
-            appearance_notes[character] = notes.strip()
-        for asset in reference.get("reference_assets", []):
-            if isinstance(asset, str) and asset.strip() and asset not in assets:
-                assets.append(asset.strip())
-    return assets, appearance_notes
+        value = character_references.get(character, {}).get("appearance_notes", "")
+        if isinstance(value, str) and value.strip():
+            notes[character] = value.strip()
+    return notes
+
+
+def _reference_selection_notes(selected: list[dict]) -> str:
+    if not selected:
+        return "No visual reference asset selected; use written appearance notes and manuscript evidence."
+    parts: list[str] = []
+    for reference in selected:
+        reasons = ", ".join(reference.get("reasons", [])) or "baseline reference"
+        penalties = reference.get("penalties", [])
+        suffix = f"; penalties: {', '.join(penalties)}" if penalties else ""
+        parts.append(
+            f"{reference.get('character', '')}: {reference.get('asset', '')} "
+            f"(score {reference.get('score', 0)}; {reasons}{suffix})"
+        )
+    return " | ".join(parts)
 
 
 def build_generation_queue(
@@ -75,10 +86,20 @@ def build_generation_queue(
         target_asset = f"visual/chapter_art/{candidate['chapter']:03d}/{candidate_id}-v{version}.webp"
         coverage_before = chapter_image_counts.get(candidate["chapter"], 0) if chapter_image_counts is not None else None
         characters = list(candidate.get("characters", []))
-        character_assets, character_notes = _character_metadata(characters, character_references)
         greg_in_frame = "Greg" in characters
         framing_preference = candidate.get("framing_preference") or (DEFAULT_GREG_FRAMING if greg_in_frame else "scene_appropriate")
-        continuity_notes = candidate.get("continuity_notes") or (DEFAULT_GREG_CONTINUITY if greg_in_frame else "Match recurring characters to supplied reference assets and appearance notes while preserving the shared PLG visual language.")
+        continuity_notes = candidate.get("continuity_notes") or (
+            DEFAULT_GREG_CONTINUITY
+            if greg_in_frame
+            else "Match recurring characters to supplied reference assets and appearance notes while preserving the shared PLG visual language."
+        )
+        selected_references = select_character_references(
+            character_references,
+            characters,
+            framing_preference=framing_preference,
+        )
+        character_assets = [reference["asset"] for reference in selected_references]
+        character_notes = _appearance_notes(characters, character_references)
         queue.append(
             {
                 "candidate_id": candidate_id,
@@ -96,6 +117,11 @@ def build_generation_queue(
                 "style_family": candidate.get("style_family", DEFAULT_STYLE_FAMILY),
                 "framing_preference": framing_preference,
                 "character_reference_assets": character_assets,
+                "selected_character_references": selected_references,
+                "character_reference_scores": {
+                    reference["asset"]: reference["score"] for reference in selected_references
+                },
+                "reference_selection_notes": _reference_selection_notes(selected_references),
                 "character_appearance_notes": character_notes,
                 "continuity_notes": continuity_notes,
                 "prompt_pack": f"state/visual/prompt-packs/{candidate_id}.md",
