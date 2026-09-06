@@ -1,125 +1,106 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 453 - **THE CLIMBER**.
-- Exact Chapters 249-453 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays.
+- Current exact story endpoint: Chapter 454 - **THE EARNER**.
+- Exact Chapters 249-454 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays.
 - Chapter 432 naming correction remains active: north-slope road forewoman is **Rika Dorn**, not Nessa Vale.
 
 ## Current location / arc
-- Greg has traveled **Grey Post -> High Shelf** on his already-paid coach ticket.
-- High Shelf is a cold quarry/cutting district on higher inland shelf terrain, no longer visually tied to the sea.
-- Greg remains fully solo; temporary coach contacts disperse into their own work.
-- Cash remains constrained but recovered slightly through ordinary work: **15c**, with the self-imposed **10c trip floor** active.
-- A farther north route to **Mere Ridge** now exists at **3c**, but Greg has not purchased it.
+- Greg has traveled **High Shelf -> Mere Ridge** after earning enough to keep his self-imposed 10c trip floor intact.
+- Mere Ridge is a small windy inland saddle settlement with sheep, stone houses, an old signal house, two inns, a smithy/store/road office, and route splits toward **Crown Vale** and **Larken Lake**.
+- Greg remains fully solo.
+- He ends with **14c cash**, only 4c above his 10c floor, so further travel again requires earning first unless he explicitly revises the rule.
 
-## Chapter 453 - THE CLIMBER
+## Chapter 454 - THE EARNER
 
 ### Title / role
-- Greg is **THE CLIMBER**, mostly because the road/coach physically climbs from Grey Post into High Shelf rather than because Greg personally hikes the grade.
-- Closing joke acknowledges the title is technically generous because Greg climbed mostly while seated in a coach.
+- Greg is **THE EARNER** because he deliberately earns enough money before continuing north, instead of burning through the 10c floor.
+- Closing joke: he earns 3c, spends 3c, ends farther north with essentially the same financial problem.
 
-## Grey Post -> High Shelf
-- Eighth-day second-ring High Shelf coach runs as scheduled under cold/clear conditions.
-- Greg begins **14c cash / 23c Vale / bits unspecified**, with ticket already paid.
-- Driver is **Rell Tann**.
-- Temporary passengers:
-  - older quarry cutter;
-  - **Toma Senn**, young man delivering dust moths;
-  - map-carrying woman.
-- Nobody forms a party and nobody knows Greg.
-- Trial limb stays wrapped; crutches primary.
-
-## Shelf Road / frost / resonance freight
-- Road climbs sustained shelf steps; sea disappears behind lower ridges, marking a real inland geographic shift.
-- Frost pockets begin around Stone Mouth and spread across road above marker 22.
-- Rell uses rear drag shoe and rough shoulder where possible; road speed slows appropriately.
-- At marker 25, an uphill freight cart has slid backward on frost and is safely chocked.
-- Freight carries pale **low-grade resonance stone** blocks with black seams.
-- Workers unload two blocks to reduce cart weight for grade restart.
-- One roller skates on frost and a block tilts; trained workers use chock/bar/rope and reset with sand/rough mat. Nobody injured.
-- Greg instinctively rises but correctly recognizes he has no useful role in icy resonance-block rigging and sits back down.
-- He does not turn old-life physical competence into local certification.
-
-## Dust moths / magical occupational safety
-- Toma explains **dust moths** react to certain active resonance stone dust; wing/body behavior changes in a test hood.
-- They are not precise instruments, but useful enough to warn workers against breathing dangerous active dust.
-- High Shelf requires hearing wraps beyond blue-line active cutting zones and posts daily resonance hours.
-- High Shelf cutting frames use bells/glass strips around active cuts; exact full mechanism remains unclaimed.
-
-## High Shelf arrival / lodging
-- High Shelf is a terraced gray-rock cutting district with quarry faces, stone-cart grooves/haul infrastructure, bells/glass strips, smoke torn sideways by wind.
-- Entry rules:
-  - public lower terrace;
-  - active cuts permit-only;
-  - resonance hours posted daily;
-  - hearing wraps required beyond blue line.
-- Lodging:
-  - Cutter House floor 2c;
-  - Old Scale Shed bunk 1c, no heat after second bell.
-- Greg chooses Old Scale Shed: **14c -> 13c**.
-
-## Moth House job
-- Work board includes strong-back quarry work Greg declines, lower-scale paper sorting, dangerous bell walk, and **MOTH HOUSE / CAGE WASH / 2C / WATER + BRUSH / SEATED BENCH**.
-- Greg takes Moth House work because it is physically appropriate and materially different from ledger copying.
-- Supervisor is **Della Orr**.
-- Greg asks about using trial limb but decides against consecutive-day wear after Ch452's 27-minute session; uses crutches/seated bench instead.
-- Empty moth cages are washed with warm water/stiff brush; no charged solvent and no touching occupied cages.
-
-## Cut Six shutdown
-- During work, Cut Six begins scheduled resonance cycle.
-- A sealed east-face dust sample arrives because field moths moved wall-side.
-- Della tests fresh sample in hood; moths immediately press away from sample.
-- She signals stop; Cut Six resonance bells cease and cycle aborts.
-- Second fresh sample produces same response.
-- Foreman objects because seam map predicted low activity and closure costs half shift.
-- Della notes new-batch moths passed iron control that morning; map does not override two fresh active samples.
-- She allows possibility of west-side work only if yard separately clears airflow/blue-line separation.
-- Greg does not solve or arbitrate this. He continues cage work and observes a functional safety system imposing real production cost.
-- Toma asks whether Greg's timing demonstrator can time resonance; Greg immediately says **no**, because Lot 67 is uncertified/environmentally uncharacterized and cycle length does not establish dust safety.
-- Della approves his restraint.
-
-## Earnings / economy
-- Greg completes Moth House work and earns **2c: 13c -> 15c**.
-- Food/postage use bits only.
-- Ends **15c cash / 23c Vale / bits unspecified**.
-- Temporary **10c trip floor** remains active, leaving 5c discretionary.
-- 20c limb deposit remains paid toward 1 silver + 18c travel-work limb quote.
-- Greg deliberately avoids retired quarry-indicator stall because five discretionary copper is too thin for artifact shopping.
-
-## Next geography
-- High Shelf route board:
-  - **North Cut Road / Mere Ridge / 3c / carts when clear**;
-  - West Quarry / contract only;
-  - Old Glass Pass / closed after first frost;
-  - Grey Post south / 5c / tenth day.
-- Mere Ridge reportedly has sheep, stone, ridge weather, old signal house, and a couple inns.
-- North road splits beyond Mere Ridge:
-  - one branch toward **Crown Vale** (place-name/valley, not person);
-  - another bends east toward **lake country**.
-- Greg has not bought Mere Ridge fare.
-- At 15c, a 3c fare would leave 12c before lodging, dangerously close to floor; Greg recognizes he should earn first if continuing.
+## High Shelf Bell Store work
+- High Shelf work board offers multiple options; Greg chooses **BELL STORE / RESONANCE FLAG FOLD + CASE PACK / 3C HALF / DRY BENCH / CAREFUL HANDS**.
+- Supervisor is **Pell Ardin**, precise and cautious.
+- Pell explicitly defines task as nontechnical: inspect returned signal flags for tears/stiffness/obvious contamination, fold by stripe, pack numbered cases, question-tag anything uncertain.
+- Greg is told not to classify contamination or improvise cleaning.
+- One wrong-bin black-striped return is caught because Greg asks instead of silently correcting one item; Pell notes systems hate undocumented helpful people.
+- A separate Cut Four lost-return-tone event occurs during shift; Bell Store issues spare signal cases/hearing wraps/question kit. Greg does not investigate or assume field authority.
 
 ## Trial limb / body
-- No trial-limb wear Ch453.
-- Greg explicitly considers but declines consecutive-day use after Ch452 27-minute session.
-- Trial build remains healthy/wrapped, Hark & Venn shop property, unfinished, medium foot.
+- Trial limb had a full rest day after Ch452 use and returns for useful ordinary work on dry stable Bell Store stone floor.
+- Wear: **24 minutes**.
+- Empty case carry: **4 steps out + 4 return**.
+- Foot-placement planning becomes quiet by ~15 minutes while Greg focuses on stripe alignment/task.
+- Hip fatigue ~20; mild heat ~24; Greg stops standing rather than chasing prior 27-28 minute durations.
+- Skin: faint lower-front line clears by 20; upper pink mostly clears by 20 and fully by 30; no pain/injury.
+- Logged:
+  `High Shelf Bell Store. 24 min dry stone. Flag fold/case pack. Empty case carry 4 steps out + 4 return. Foot placement quiet by ~15. Hip fatigue 20. Mild heat 24. Stopped. Lower-front clear 20. Upper mostly clear 20, clear 30. No pain.`
+- Trial build remains Hark & Venn shop property, unfinished, medium foot.
 
-## Lot 67
-- No new tests Ch453.
-- Remains **60/60 clean immediate-manual + 25/25 clean delayed public-bench trials**.
-- Comparative delayed-use lane established; no seconds/body/magic calibration.
-- Greg explicitly refuses Toma's suggestion that it could time quarry resonance safety.
+## Earnings / Mere Ridge decision
+- Greg begins **15c cash / 23c Vale / bits unspecified**.
+- Bell Store work pays **+3c: 15c -> 18c**.
+- North Cut Road cart to Mere Ridge costs **3c** and is open with frost shade above marker 6.
+- Greg buys fare only after earning enough to preserve buffer: **18c -> 15c**.
+- Trial limb stays wrapped for cart travel; crutches primary.
+
+## High Shelf -> Mere Ridge road texture
+- Mere Ridge vehicle is a covered high-wheel cart driven by **Iven Ro**.
+- Other temporary passengers include a shepherd woman, wool-comb boy, and jar carrier; no party forms.
+- North Cut Road is thinner/quieter than High Shelf, with sheep, frost shade, road split around a soft freight shoulder, and less centralized infrastructure.
+- Shepherd **Hessa Pell** explains glass **storm beads** braided into sheep neck wool; they click when fleece charge gets high, a practical livestock-weather warning.
+- Greg does not force a family connection despite repeated surname Pell.
+
+## Mere Ridge identity
+- Mere Ridge is a small saddle settlement with:
+  - sheep and ridge weather;
+  - stone houses;
+  - an old signal house with three roof arms;
+  - two inns;
+  - smithy/store/road office.
+- Lodging:
+  - Wind Lamb floor 2c;
+  - Ridge Cot shared loft 1c.
+- Greg chooses Ridge Cot: **15c -> 14c**.
+- Food/postage use bits only.
+
+## New route split
+- Mere Ridge road board:
+  - **South / High Shelf / next cart eleventh day / 3c**;
+  - **Northwest / Crown Vale / 4c / road open**;
+  - **East / Larken Lake / 5c / weather hold possible / depart tenth day**.
+- Lake country now has concrete destination name **Larken Lake**.
+- At 14c cash, neither Crown Vale nor Larken Lake is comfortably affordable while preserving lodging and the 10c floor.
+- Greg explicitly decides **money first again**; no onward ticket purchased.
+- Local next-day work options include wool count, road-office weather-return copy, shearing-shed tool tags, and signal-house cleaning with stairs.
+- Old Signal House has a 1-bit public viewing slot at second bell, weather permitting.
 
 ## Magic
-- Protocol remains **59 minimal / 53 shaping / 136 external attempts**.
-- No deliberate magic Ch453.
-- Greg declines to manufacture a test merely because he has gone several chapters without one.
+- After long rest since external attempt 136, Greg performs two safe bounded external attempts in a sheltered inn-wall setup using dry wool tufts.
+- **External 137:** tuft trembles; possible residual air/wind; discarded as ambiguous.
+- **External 138:** deeper shelter, about one pace, visible shift about one finger-width, no felt gust; logged as bounded positive.
+- Greg stops after second attempt; no acceleration/breakthrough/rank claim.
+- Protocol advances to **59 minimal / 53 shaping / 138 external attempts**.
+- Lot 67 is not used in this magic test.
+
+## Lot 67
+- No new Lot 67 testing Ch454.
+- Remains **60/60 clean immediate-manual + 25/25 clean delayed public-bench trials**.
+- Comparative use only; no seconds/body/magic calibration.
 
 ## Home note
 Greg sends:
-`High Shelf. Colder. Quarry district. Cash 15c, Vale 23c. Earned 2c washing dust-moth cages. They use moths to flag active resonance dust before cutting. One cut shut down today after two samples reacted. Trial build stayed wrapped. Ten floor intact. - Greg`
+`Mere Ridge. Earned 3c folding/packing quarry signal flags, then paid 3c north cart. Cash 14c, Vale 23c. Trial build 24 min dry work use, fine. Ten floor intact. Roads now split toward Crown Vale or Larken Lake. No ticket yet. - Greg`
 plus:
-`There is apparently a place called Mere Ridge farther north for 3c. I have not bought ticket. This sentence is for accountability.`
+`Adventure remains mostly accounting with scenery.`
+
+## Economy
+- Begins **15c cash / 23c Vale / bits unspecified**.
+- Bell Store work **+3c -> 18c**.
+- Mere Ridge cart **-3c -> 15c**.
+- Ridge Cot loft **-1c -> 14c**.
+- Ends **14c cash / 23c Vale / bits unspecified**.
+- Temporary **10c trip floor** remains active, leaving 4c discretionary.
+- 20c limb deposit remains paid toward 1 silver + 18c travel-work limb quote.
 
 ## Current inventory
 Greg carries:
@@ -135,42 +116,40 @@ Greg carries:
 10. current Merehook coastal-measure circular from Sori.
 
 ## Protected uncertainties
-- Greg ends Ch453 at **Old Scale Shed, High Shelf**.
-- Cash **15c**, Vale **23c**, bits unspecified.
-- Protocol **59 / 53 / 136**.
+- Greg ends Ch454 at **Ridge Cot, Mere Ridge**.
+- Cash **14c**, Vale **23c**, bits unspecified.
+- Protocol **59 / 53 / 138**.
 - Temporary 10c floor remains active.
-- No ticket purchased beyond High Shelf.
-- Mere Ridge fare is 3c when carts run; road conditions next day unknown.
-- Grey Post south coach is listed tenth day at 5c.
-- Trial limb healthy/rested/wrapped after no wear Ch453.
-- Lot 67 remains characterized only for comparative delayed intervals under prior Grey Post bench conditions.
+- No ticket purchased toward Crown Vale or Larken Lake.
+- Crown Vale fare 4c; Larken Lake fare 5c, weather hold possible.
+- Trial limb healthy after 24-min dry-stone work session.
+- Lot 67 remains comparative-only and unused on magic/body timing.
 - No current companion and no new incoming news from Dask/Sori/Maro/home.
 
-## Chapter 454 trailhead
-Follow next actual claim from Ch453/current authority.
+## Chapter 455 trailhead
+Follow next actual claim from Ch454/current authority.
 
-Greg begins **15c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 136**, at **High Shelf**.
+Greg begins **14c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 138**, at **Mere Ridge**.
 
 Strong movement:
-- Money first. Greg has only 5c above his 10c floor, so continued north travel should require another modest earning decision or an explicit choice to violate/revise the floor for a strong reason.
-- Do not simply repeat Moth House cage washing. A different High Shelf work function can expose quarry/resonance infrastructure or a human relationship/problem.
-- Trial limb has now had a rest day and can return on stable dry terrain for useful ordinary two-handed work, within conservative wear/skin limits.
-- **Mere Ridge at 3c** is the strongest geographic next pull if Greg earns enough to preserve meaningful buffer. It should remain voluntary.
-- Lake-country branch beyond Mere Ridge is a valuable new macro-direction, but do not rush through Mere Ridge merely to reach it.
-- Cut Six shutdown may have brief residue, but Greg should not become quarry safety investigator.
-- Lot 67 should rest unless a genuine timing question arises; no repeat instrument-testing chapter.
-- Magic remains 59/53/136; a safe bounded attempt is increasingly available after long rest, but no forced breakthrough.
+- Money first remains the immediate pressure. Greg has only 4c above his 10c floor, so Crown Vale (4c) and Larken Lake (5c) both require another earning decision if he intends to preserve lodging/emergency margin.
+- Do not repeat Bell Store or Moth House work. Mere Ridge should expose a distinctly rural/ridge function: wool, storm-bead handling, road-weather returns, old signal infrastructure, sheep movement, or another local need.
+- The 1-bit public Old Signal House viewing can provide interesting historical/technical texture, but should not consume the whole chapter.
+- Greg's external magic just advanced to 138 with one bounded positive. Do not immediately accelerate further; let it rest.
+- Trial limb should probably rest after 24-minute wear unless there is a compelling stable dry reason.
+- **Larken Lake** is the stronger macro-direction if Greg can earn enough because it breaks further from coast/quarry grammar into lake country. Crown Vale remains a credible alternative and should not be treated as fake option.
+- Let route choice depend on actual work/economy/weather/social pull rather than arbitrary novelty.
+- No artifact-shopping binge; 14c is too thin.
 
 Avoid:
-- instant lucrative quarry job;
-- another identical safety shutdown;
-- Greg repairing/overruling quarry systems;
-- spending below floor casually;
-- buying retired quarry artifact because it is shiny;
+- spending below the 10c floor casually;
+- another generic paper-copy chapter unless the job exposes new route/weather consequences;
+- immediate repeated magic testing;
 - permanent companion;
+- instant lucrative rural work;
 - generic monster attack.
 
-**MANDATORY TITLE CHECK CH454:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH455:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
