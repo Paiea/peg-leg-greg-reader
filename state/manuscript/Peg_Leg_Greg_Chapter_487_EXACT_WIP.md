@@ -2,105 +2,109 @@
 
 ## THE REPAYER
 
-Twenty-three copper used to be weather.
+I had been avoiding one number by looking at smaller numbers.
 
-Not literally.
+That was impressive because I liked numbers.
 
-That would have been easier.
+Money did that.
 
-Weather did not care what I had done before breakfast.
+South Road had paid better than the kind of work I had been taking before. Not rich. Not life changing. Enough silver that my purse had stopped sounding like a child's toy when I moved.
 
-Twenty-three copper sat in Antonius Vale's ledger because I had borrowed, advanced, gambled, spent, worked, credited, and generally behaved like Future Greg was a wealthy idiot I could bill forever.
+That should have felt good.
 
-He had not been.
+Instead it reminded me Antonius Vale owned a ledger with my name in it.
 
-Current Greg had thirty-two copper.
+Not owned me.
 
-That changed shape of problem.
+Important distinction.
 
-Not enough to erase it cleanly.
+Felt less important before breakfast.
 
-Enough to stop pretending it was mountains.
+Lyssa was working at table with dark blue fabric, scissors, thread, and the expression she used when cloth had personally disappointed her.
 
-I counted money once.
+I counted silver once.
 
-Thirty-two.
+Then again.
 
-Then again because arithmetic became more trustworthy when coins were physically annoying.
+Not because count changed.
 
-Still thirty-two.
+Because I was deciding how much I could remove without making myself stupid again.
 
-Lyssa was working at table.
+Old Greg had a recurring financial strategy.
 
-Dark blue fabric today.
+**Future Greg will solve it.**
 
-Long coat maybe.
+Future Greg had filed complaint.
 
-Or dress.
+"Money face," Lyssa said.
 
-I had learned not to guess garments while she held scissors.
+"You still maintain I have one."
 
-"You're doing money face," she said.
+"Several."
 
-"I have money face?"
+"How many?"
 
-"You have several."
+"This one is bad."
 
-"Yesterday you said two."
+Useful taxonomy.
 
-"I revised."
+I separated operating reserve first.
 
-Growth.
+Not tiny copper floor anymore.
 
-I separated ten copper.
+Enough silver for food, travel, records, broken crutch parts, opportunities, and one decision I had not predicted.
 
-Not hidden.
+Then I separated eighteen silver.
 
-Not sacred.
+Lyssa looked at stack.
 
-Floor.
-
-Then another ten.
-
-Working room.
-
-That left twelve.
-
-Lyssa looked over.
-
-"You're paying him twelve."
+"Vale."
 
 "Maybe."
 
 "Why maybe?"
 
-"Because first I verify."
+"Because I am done paying remembered numbers."
 
 She put scissors down.
 
-"That sounds responsible."
+"You verify."
 
-"Don't sound surprised."
+"Exactly."
 
-"I didn't."
+"Then pay?"
 
-She had.
+"If number is real."
 
-I ignored.
+She looked at eighteen silver.
 
-The twelve copper went into one pouch.
+"All?"
 
-The other twenty stayed home.
+"No."
 
-That mattered.
+That was the problem.
 
-Old Greg would have carried everything because carrying everything made options feel larger.
+I did not actually know.
 
-Current Greg had learned that sometimes largest option was not having all money available to spend.
+Antonius had told me balances before. I had worked. Paid. Borrowed. Added costs. Financed the Tere gauge. Let him cover things I could not cover. Agreed to terms while wearing confidence from a life where silver had felt like pocket money.
 
-I took two crutches.
+I knew the account was ugly.
 
-No liner needed.
+I had not made myself read the whole history in a while.
+
+That was probably information.
+
+I put eighteen silver in one pouch.
+
+The rest stayed home.
+
+Not because Antonius would rob me.
+
+Because I might rob me.
+
+Two crutches.
+
+No liner.
 
 No Hessa apparatus.
 
@@ -124,27 +128,17 @@ Commerce reproduced.
 
 "Yes."
 
-"Can I pay him while busy?"
+"Can I annoy him while busy?"
 
-The clerk looked at pouch.
+"You usually do."
 
-"That depends whether you need conversation."
-
-"Unfortunately."
-
-"Then wait."
-
-I waited.
-
-Again.
-
-This was becoming luxury habit.
+Progress.
 
 A quarter bell later Antonius waved me in.
 
 He looked at me.
 
-Then pouch.
+Then the pouch.
 
 Then me.
 
@@ -174,115 +168,313 @@ He stared.
 
 "Excellent."
 
-I put no money down yet.
+I put no money down.
 
 That got attention.
 
-"Current balance first."
+"Full account first."
 
 Antonius leaned back.
 
-"You know current balance."
+"You know you owe me."
 
-"Twenty-three copper."
+"I know. I want the actual reconciled ledger. Principal. Advances. Tere. Fees. Interest. Payments. Work credits. Everything you consider collectible."
 
-"Then why ask?"
+His expression changed.
 
-"Because last time I came here to talk about retired equipment you told me I owed twenty-three. I have since done work elsewhere. I have not made payment to you. I want ledger, not memory."
+Not surprise yet.
 
-His face changed slightly.
+Interest.
 
-Approval perhaps.
+"Why?"
 
-Or indigestion.
+"Because I have been treating the account like weather. I would like weather to have a number."
 
-He called clerk.
+He called the clerk.
 
-Actual account came.
+Not one ledger.
 
-One ledger this time.
+Three.
 
-"Only one?" I asked.
+That was bad.
 
-"You have become less inconvenient."
+The clerk put them down carefully.
 
-"Financial progress."
+I stared.
 
-"Do not get excited."
+"You said I had become less inconvenient."
 
-The clerk opened account.
+"You have," Antonius said.
 
-My name.
+"This looks historical."
 
-GREGORY.
+"It is."
 
-Still offensive.
+Good.
 
-Entries since old review.
+We started at beginning.
 
-Credits.
+Original advance.
+
+Interest.
+
+Second advance.
+
+Third.
 
 Payments.
 
-No mystery new fee.
+Another advance.
 
-No invisible interest line invented while I was traveling.
+Guild note.
 
-Twenty-three copper outstanding.
+Arlo materials.
 
-I traced latest line.
+Training cost Antonius had covered when I was convinced earning later was same as earning now.
 
-"Nothing changed."
+Gambling stake his man had covered.
 
-"You did not pay anything."
+Fees.
 
-"Sometimes institutions discover reasons."
+Credits.
 
-"We already had reasons."
+Work.
 
-Fair.
+Tere gauge.
 
-"What are current payment terms?"
+Five silver purchase principal.
 
-Antonius looked at me.
+Then the financing attached to it.
 
-I waited.
+By the time the gauge line had become ten silver I had apparently decided this was evidence that I should borrow more carefully.
 
-He said, "Same."
+I had not.
 
-"I want words."
+More entries.
 
-He sighed.
+More interest.
 
-"Cash accepted. Work credit when we agree work in advance. No fixed installment. No penalty for not paying on a schedule that does not exist. I would prefer payment when you have surplus rather than when paying me makes you unable to work."
+Some waived penalties I had forgotten he waived.
+
+Not interest.
+
+Penalties.
+
+Important difference.
+
+Labor credits entered as agreed amounts.
+
+Cash payments.
+
+Credits from work that had been explicitly debt labor.
+
+Separate paid work stayed separate.
+
+The gauntlet appraisal had not been stolen into the debt account.
+
+Good.
+
+I had wondered.
+
+The clerk turned final page.
+
+There it was.
+
+**ONE GOLD. SIX SILVER.**
+
+I stared.
+
+Then read it again.
+
+Still one gold and six silver.
+
+I looked at Antonius.
+
+"That is real?"
+
+"Yes."
+
+"Collectible?"
+
+"Yes."
+
+"Not theoretical face balance with half of it something you would never enforce?"
+
+"No."
+
+I sat back.
+
+Chair rocked.
+
+Perfect.
+
+"I'm dumb."
+
+Antonius said, "In this area, yes."
+
+"I knew thirty-five percent over eight days was bad."
+
+"You argued about it."
+
+"I knew repeated advances were worse."
+
+"You requested them."
+
+"I knew financing speculative equipment at short-term rates was stupid."
+
+"You told me the equipment might be worth forty gold."
+
+"That part might still be true."
+
+"Then perhaps only financing was stupid."
+
+"Thank you for precision."
+
+He folded hands.
+
+I looked down the ledger again.
+
+One gold, six silver.
+
+My old life had spent more than that without discussion.
+
+That was probably the problem.
+
+Silver had never felt emotionally large enough to me.
+
+Gold had been money.
+
+Platinum-tier resources had been real money.
+
+Young Greg had inherited all of those instincts and none of the income.
+
+"I thought I'd make more," I said.
+
+Antonius shrugged.
+
+"You eventually did."
+
+"Not inside eight days."
+
+"No."
+
+"Repeatedly."
+
+"Also no."
+
+Cruel.
+
+I tapped final balance.
+
+"Did you actually expect me to pay this?"
+
+He looked at me for longer than answer required.
+
+"Not all of it."
 
 There.
 
-Exact enough.
+I laughed.
 
-"Any minimum reserve you require me to keep?"
+"Excellent."
+
+"You asked."
+
+"Why write interest you do not expect to collect?"
+
+"I expect return."
+
+"Different word."
+
+"Intentionally."
+
+I waited.
+
+He continued.
+
+"People who can borrow cheaply do not come to me for loans like yours. I take risks other lenders will not. Sometimes borrower repays. Sometimes business fails. Sometimes I get labor. Information. Introductions. First look. Access. Useful people remain reachable because they still have an account."
+
+"A leash."
+
+"If you prefer."
+
+"You prefer leverage."
+
+"Yes."
+
+No apology.
+
+Good.
+
+At least honest.
+
+"So you expected me to work for you forever."
+
+"Forever is dramatic."
+
+"Years."
+
+"Possibly."
+
+"And interest keeps that relationship alive."
+
+"Often."
+
+I stared.
+
+"Predatory."
+
+"Yes."
+
+That stopped me more than defense would have.
+
+"You are supposed to argue."
+
+"Why?"
+
+"So I can feel morally superior."
+
+"You signed it."
+
+Damn.
+
+I looked at ledger.
+
+"Any amount here you are waiving if I pay now?"
 
 "No."
 
-"Any minimum payment?"
+"Any friendship discount?"
+
+"We are not friends."
+
+"Good."
+
+"Also no."
+
+"Better."
+
+That mattered.
+
+I did not want release.
+
+I wanted zero.
+
+Different.
+
+"Current payment terms?"
+
+Antonius said, "Cash accepted. Work credit only when agreed in advance. No fixed installment. No invented penalty for missing a schedule that does not exist. I prefer surplus payment over payment that makes you unable to remain operational."
+
+Same principle.
+
+Larger number.
+
+"Any minimum?"
 
 "No."
 
-"Any reason not to pay twelve today?"
-
-"Your reason."
-
-"Meaning?"
-
-"You decide whether twelve is surplus."
-
-I hated adult freedom.
-
-"Do you know how much cash I have?"
-
-"No."
-
-"Thirty-two."
+"Any reason not to pay eighteen silver today?"
 
 His eyebrows moved.
 
@@ -290,261 +482,147 @@ Tiny.
 
 Real.
 
-"Better."
+"How much do you have left if you do?"
 
-"That is all?"
+"Enough."
 
-"What do you want, applause?"
+"Number."
 
-"Confetti."
+"Operating reserve in silver at home. Food. Fare. Records. Ordinary copper and bits."
 
-"No."
+"Work limb?"
 
-I explained only necessary part.
-
-South Road organizer term.
-
-Fourteen total over four days.
-
-Accepted records.
-
-No future job guaranteed.
-
-He listened.
-
-"How much are you keeping?"
-
-"Twenty."
-
-"Why?"
-
-"Ten floor. Ten working room."
-
-"Working room for what?"
-
-"Fare. Food. records. Opportunity. Broken crutch tip. Something boring that costs more than expected."
+"Separate. Nothing due today unless Hark & Venn says otherwise."
 
 "Good."
 
-That annoyed me.
+"I hate when you say that."
 
-"I was hoping you'd argue."
-
-"Why?"
-
-"So I could defend intelligence."
-
-"Pay twelve."
+"Pay eighteen."
 
 Cruel.
 
 I opened pouch.
 
-Twelve copper.
+Eighteen silver.
 
-Not one.
+The first time I had paid Antonius, one copper had felt like proof debt could shrink.
 
-That felt strange.
+This was not proof.
 
-Not emotionally impossible.
+This was weight.
 
-Just heavier on table.
+Coins actually sounded different at this amount.
 
-Antonius counted.
+Clerk counted.
 
-Clerk counted again.
-
-Twelve.
+Antonius counted only enough to annoy me.
 
 Receipt written.
 
-Account updated.
+The account remained gold-denominated.
 
-Twenty-three became eleven.
-
-I stared at line.
-
-Eleven copper.
-
-Antonius watched me.
-
-"Do you understand subtraction?"
-
-"Recently."
-
-"Good."
-
-I held receipt.
-
-The first time I paid him one copper, the point had been proving debt was finite.
-
-Now twelve copper disappeared from purse without threatening food.
-
-That was different enough I did not need speech.
-
-So naturally I almost made one.
-
-Antonius interrupted.
-
-"Do not pay the other eleven today."
-
-"I don't have it in pouch."
-
-"You have twenty elsewhere."
-
-I looked at him.
-
-"How did you know?"
-
-"You said thirty-two."
-
-Right.
-
-"I could pay eleven and keep nine."
-
-"That would put you below whatever floor you just claimed mattered."
-
-"Ten."
-
-"Then no."
-
-"You are protecting ledger."
-
-"Correct."
-
-"If I die, debt gets worse?"
-
-"Collection gets annoying."
-
-"Beautiful relationship."
-
-He pushed updated account copy toward me.
-
-"Eleven. No fixed schedule. Same terms."
-
-I folded it.
-
-That was all.
-
-Almost.
-
-"Hark & Venn."
-
-Antonius looked at me.
-
-"What about them?"
-
-"Separate obligation. Work limb quote."
-
-"I am not their clerk."
-
-"Good answer."
-
-"What are you asking?"
-
-"Whether paying one real debt down changes anything with yours."
-
-"No."
-
-"Good."
-
-"Greg."
-
-"Yes."
-
-"Do not use my ledger as permission to invent theirs."
-
-There.
-
-Apparently everyone had developed the same irritating instinct.
-
-"That was already plan."
-
-"Then leave."
-
-I left.
-
-Eleven Vale.
-
-Twenty cash at home.
-
-Bits unspecified.
-
-Magic still fifty-nine, fifty-three, one-forty-seven.
-
-No wealth.
-
-Just less old drag.
-
-Outside, I bought nothing.
-
-This required restraint mostly because a baker cart smelled unfair.
-
-I had bits.
-
-Breakfast had happened.
-
-Still unfair.
-
-I went home first.
-
-Not Hark & Venn.
-
-That surprised me.
-
-Lyssa was gone.
-
-Work.
+The clerk entered the eighteen-silver credit without translating the entire remaining balance into a fake number for my convenience.
 
 Good.
 
-I put receipt beside old Vale strip.
+I did not need a universal currency lecture.
 
-One copper old payment.
+I needed evidence that line moved.
 
-Twelve copper new payment.
+It moved.
 
-The new strip looked almost identical.
+"Still ugly," I said.
 
-Amount was only different line.
+"Yes."
 
-No fanfare.
+"Good."
 
-I liked that.
+Antonius looked at me.
 
-Then I found Hark & Venn papers.
+"Why good?"
 
-Quote.
+"Because if I make this easy in my head, I will do it again."
 
-Old notes.
+"You will do something else stupid instead."
 
-Deposit receipt.
+"Likely."
 
-Twenty copper deposit paid.
+"Better."
 
-Total quote one silver and eighteen copper.
+I folded receipt.
 
-Current exact problem remained current exact problem.
+"I am paying all of it."
 
-Without conversion rate, I could not turn that into a clean copper balance in my head without inventing money rules.
+There.
 
-More importantly, I still did not have payment schedule.
+That got more reaction than eighteen silver.
 
-Or final completion notice.
+Not much.
 
-Or request.
+Antonius was Antonius.
 
-I could walk there and ask.
+But he stopped moving.
 
-That was legitimate.
+"Why?"
 
-So I did.
+"Because I owe it."
+
+"That is not usually enough reason to destroy useful liquidity."
+
+"I am not destroying liquidity."
+
+"Then when you have surplus."
+
+"Yes."
+
+"No deadline?"
+
+"No invented deadline."
+
+"Good."
+
+"Stop saying good."
+
+"No."
+
+I stood.
+
+Then stopped.
+
+"Hark & Venn."
+
+Antonius sighed.
+
+"I am not their clerk."
+
+"Correct. I am checking their clerk next."
+
+"Then why tell me?"
+
+"Conversation."
+
+"Leave."
+
+I left.
+
+Vale account still open.
+
+Eighteen silver credited.
+
+Operating reserve intact.
+
+No fake deadline.
+
+No forgiveness.
+
+No moral revelation.
+
+Just a larger problem finally shaped correctly.
 
 Hark & Venn shop smelled like wood dust, oil, leather, and enough metal filings to season soup.
 
 Bad soup.
-
-Mara was not front.
 
 Another shop worker looked up.
 
@@ -562,7 +640,7 @@ Known enough.
 
 Good.
 
-"I need account question."
+"Account question."
 
 "Fit?"
 
@@ -570,11 +648,7 @@ Good.
 
 Worse word.
 
-Worker called someone from back.
-
-Not Mara.
-
-Older bookkeeper maybe.
+Older bookkeeper came from back.
 
 No name needed.
 
@@ -600,11 +674,9 @@ Good.
 
 "Yes."
 
-"Applied to order?"
+"Applied?"
 
 "Yes."
-
-Important.
 
 "What is due today?"
 
@@ -612,23 +684,15 @@ Important.
 
 There.
 
-I did not improve sentence.
-
 "Final balance timing?"
 
 "On final acceptance unless shop and customer agree otherwise."
 
-New exact term.
+"Final acceptance means completed work presented, fit accepted for release, account settled or alternate payment agreement made?"
 
-Useful.
+"Yes."
 
-"Final acceptance means?"
-
-"Completed work presented, fit accepted for release, account settled or alternate payment agreement made."
-
-Good.
-
-"Is completed work presented?"
+"Completed work presented?"
 
 "No."
 
@@ -636,23 +700,21 @@ Good.
 
 "No."
 
-I could have kissed paperwork.
+Excellent.
 
-Did not.
-
-"Any storage fee?"
+"Storage fee?"
 
 "No."
 
-"Any new fitting fee from last review?"
+"New fitting fee?"
 
 "No. Existing order."
 
-"Any materials change affecting quote?"
+"Materials change affecting quote?"
 
 Bookkeeper checked.
 
-"No approved price change on account."
+"No approved price change."
 
 Good.
 
@@ -664,41 +726,11 @@ Current.
 
 "Yes."
 
-There.
-
-I stopped.
-
 Could.
 
 Different from should.
 
-I had twenty cash.
-
-Vale eleven.
-
-Ten floor.
-
-Ten working room.
-
-If I paid Hark & Venn now, I would reduce working room.
-
-Maybe rational if it prevented future bottleneck.
-
-But completed work not ready.
-
-No payment due.
-
-No discount established.
-
-No production acceleration established.
-
-No reason.
-
-So no.
-
 "What would early payment change?"
-
-Bookkeeper looked at me.
 
 "Account balance."
 
@@ -714,17 +746,11 @@ Bookkeeper looked at me.
 
 "No."
 
-There.
-
 Information.
-
-I smiled.
 
 "Then I am done."
 
-They seemed disappointed by efficiency.
-
-Mara came through back doorway anyway, carrying leather strap and pencil.
+Mara came through back doorway carrying leather strap and pencil.
 
 "You're here."
 
@@ -742,43 +768,55 @@ Mara looked at me.
 
 "Did you get rich?"
 
-"Thirty-two copper briefly."
-
-"Briefly?"
-
-"Paid Vale twelve."
-
-She nodded like that made sense.
-
-"I have twenty."
-
-"Good."
-
-"Your shop could have some."
-
 "No."
 
-I stared.
-
-She pointed pencil at me.
-
-"Not until it changes something."
-
-Everyone was conspiring.
-
-"Bookkeeper said same."
-
-"Then why are you asking me?"
-
-"To see if specialist contradicts ledger."
-
-"Specialist says stop trying to pre-pay a socket that isn't ready."
+"Then stop paying people early."
 
 "Hostile."
 
 "Accurate."
 
-She disappeared back.
+"I paid Vale eighteen silver."
+
+That got a pause.
+
+"Why?"
+
+"Because account is worse than I remembered."
+
+"How much?"
+
+"Enough."
+
+"Greg."
+
+"One gold six silver before today's credit."
+
+She stared.
+
+Then said, "You're stupid."
+
+"Already established."
+
+"Good."
+
+Everyone.
+
+"Your shop could have some money too."
+
+"No."
+
+"Bookkeeper says I can."
+
+"Can is not should."
+
+"Conspiracy."
+
+She pointed pencil at me.
+
+"Not until it changes something."
+
+Then disappeared back.
 
 That was Hark & Venn update.
 
@@ -786,7 +824,7 @@ No fitting.
 
 No secret completion.
 
-No dramatic reveal of work limb under cloth.
+No dramatic work limb under cloth.
 
 Just account.
 
@@ -794,13 +832,13 @@ Useful.
 
 Outside I wrote:
 
-**VALE: verified 23c. Paid 12c. Remaining 11c. Same flexible terms.**
+**VALE: full account verified. 1g6s before today's credit. Paid 18s. No waiver. No fixed schedule. Pay surplus, remain operational.**
 
 Then:
 
-**H&V: quote unchanged 1s18c. 20c deposit received/applied. Nothing scheduled due today. Final balance due on final acceptance unless alternate agreement. Early payment allowed but does not change production/material priority/fit schedule. No reason to pay early established.**
+**H&V: quote unchanged 1s18c. 20c deposit received/applied. Nothing scheduled due today. Final balance due on final acceptance unless alternate agreement. Early payment allowed but changes only account balance.**
 
-On way back from Hark & Venn, I stopped at public fountain because shoulder strap on pouch was annoying me.
+I stopped at public fountain because pouch strap was annoying me.
 
 Not painful.
 
@@ -808,31 +846,13 @@ Annoying.
 
 Important category.
 
-I set both crutches against stone, drank, then checked strap.
-
-One stitch had stretched.
-
-Not broken.
-
-Just stretched enough that coin weight pulled pouch lower than I liked.
-
-Twenty copper was heavier than seven.
-
-Obvious.
-
-Still new.
-
-I retied strap through second loop instead of pretending leather would improve from confidence.
-
 A boy beside fountain watched me.
 
 Maybe ten.
 
-He had wooden hoop.
+Wooden hoop.
 
 "Did you lose your leg in war?"
-
-There it was.
 
 "No."
 
@@ -856,13 +876,17 @@ He considered that.
 
 "It was at the time."
 
-His mother called him from across street.
+His mother called.
 
 He ran away dissatisfied.
 
 Good.
 
-I put pouch back on.
+I checked pouch strap.
+
+One stitch stretched.
+
+Retied through second loop.
 
 Money stayed where I wanted it.
 
@@ -870,11 +894,11 @@ Body stayed where I wanted it.
 
 Mostly.
 
-The route home passed Vale office again if I cut through west market.
+The route home could have passed Vale again.
 
-I did not.
+I did not take it.
 
-Not because temptation to pay eleven.
+Not because temptation to pay more.
 
 Because I had already made decision.
 
@@ -882,13 +906,9 @@ Repeating decision every street corner was not discipline.
 
 It was anxiety wearing spectacles.
 
-I took longer market route.
+I bought onions with bits.
 
-Bought two onions with bits.
-
-Not copper.
-
-A woman selling lamp wick tried to convince me her new batch burned twice as long.
+A woman selling lamp wick claimed new batch burned twice as long.
 
 "Compared to what?"
 
@@ -906,23 +926,17 @@ I bought onions and left wick.
 
 Apparently Hessa had colonized shopping too.
 
-At one crossing, a porter dropped a bundle of reed slats.
-
-Nothing magical.
+At one crossing a porter dropped a bundle of reed slats.
 
 People helped because slats blocked road.
 
 I could not help much without surrendering both hands and becoming furniture.
 
-So I moved aside, held one rolling slat in place with crutch tip, and let people with free hands do actual work.
+So I held one rolling slat with crutch tip and let people with free hands do actual work.
 
-A month ago that might have irritated me.
+Porter said thanks.
 
-Today it was just geometry.
-
-The porter said thanks.
-
-I said, "My contribution was preventing one stick."
+"My contribution was preventing one stick."
 
 "Important stick."
 
@@ -936,310 +950,84 @@ No job.
 
 No commission.
 
-It was a city afternoon.
+City afternoon.
 
-That mattered more than I wanted to admit.
+That mattered.
 
-Twelve copper had just left my life and the day had not narrowed around it.
+Eighteen silver had just left my life and the day had not narrowed around it.
 
 I still bought onions.
 
 Still took longer route.
 
-Still had room for ordinary mistakes.
+Still had enough reserve to make another decision tomorrow.
 
-That was probably what surplus actually meant.
+That was progression.
 
-Not money you did not care about.
+Not debt virtue.
 
-Money you could spend without making every next decision worse.
+Not austerity.
 
-That was enough debt audit for one day.
+Just capacity.
 
-Almost.
+At home Lyssa was back.
 
-I went through notebook for actual obligations.
+She looked at receipt.
 
-Not favors.
-
-Not meals.
-
-Not kindness.
-
-Actual.
-
-Vale.
-
-Work limb.
-
-Anything else?
-
-Gauge debt?
-
-I had memory of Antonius/Tere gauge lane.
-
-But memory was not authority.
-
-I did not pay ghosts.
-
-Borrowed money?
-
-Maybe old lines already rolled into Vale.
-
-Maybe not.
-
-Again.
-
-No ghosts.
-
-Unpaid equipment?
-
-Nothing current came to mind with exact number and counterparty.
-
-Advances?
-
-Need proof.
-
-Installments?
-
-Need proof.
-
-So I stopped.
-
-That was discipline too.
-
-At home, Lyssa returned with bread.
-
-Not gift debt.
-
-Bread.
-
-"How poor are you?"
-
-"Twenty copper."
-
-She set bread down.
-
-"That sounded almost proud."
-
-"I paid twelve."
-
-"Vale?"
-
-"Yes. Verified twenty-three first. Eleven left."
-
-She blinked.
-
-"That's it?"
-
-"That's what?"
-
-"You went from twenty-three to eleven?"
+"Big."
 
 "Yes."
 
-"Today?"
+"Still owe."
 
 "Yes."
 
-She looked toward table where old account papers sat.
+"You pay all?"
 
-"That used to be huge."
+"Eventually."
 
-There.
+"Why?"
 
-I sat.
+I thought about Antonius admitting he did not really expect perfect cash collection.
 
-Right leg tired.
+About leverage.
 
-Shoulders normal tired.
+About being useful enough that a creditor might prefer account to remain open.
 
-Hands slightly sore from crutches and papers and city.
+About how tempting that flexibility could become.
 
-No magic.
+"Because I want it finished," I said.
 
-No artifact.
+Lyssa nodded.
 
-No field crew.
+"Not today."
 
-Just errands.
+"No."
 
-"It still exists," I said.
+"Good."
 
-"Eleven."
+Everyone had joined conspiracy.
 
-"Yes."
+I put receipt with older Vale papers.
 
-"And you have twenty."
+Not trophy.
 
-"Also yes."
+Evidence.
 
-"Could pay it."
+Then I ate onions with dinner and discovered they were sharper than expected.
 
-"Would leave nine."
+Some risks remained impossible to price.
 
-She pointed bread at me.
+Before bed I wrote one last line.
 
-"So don't."
+**Do not pay debt by making yourself unable to earn. Also stop borrowing like old Greg has young Greg's income.**
 
-"Excellent financial counsel."
+That was enough.
 
-"I know."
+The account was large.
 
-I told her Hark & Venn terms.
+Finite.
 
-Nothing due today.
+Mine.
 
-Final balance on final acceptance unless alternate agreement.
-
-Early payment changes nothing but account.
-
-She nodded.
-
-"Then why pay early?"
-
-"Exactly."
-
-She tore bread.
-
-"Look at you."
-
-"Do not make this emotional."
-
-"You're the one with a debt notebook."
-
-"I have many notebooks."
-
-"That makes it worse."
-
-We ate.
-
-I expected to feel lighter.
-
-That phrase annoyed me because debt was not physical weight.
-
-Except sometimes it had been.
-
-Jobs chosen because I needed next copper.
-
-Travel delayed.
-
-Artifacts skipped.
-
-Risk avoided because there was no room.
-
-One account did not cause all of that.
-
-But it had been part.
-
-Now Vale was eleven.
-
-Eleven.
-
-I had spent more thought avoiding eleven copper losses than I had just spent paying twelve.
-
-Scale changed.
-
-Not solved.
-
-Changed.
-
-I checked cash once after dinner.
-
-Twenty.
-
-Ten floor.
-
-Ten room.
-
-Vale eleven.
-
-Hark & Venn no current due.
-
-I could chase another commission tomorrow.
-
-Or rest.
-
-Or theatre.
-
-Or answer Hessa if she sent word.
-
-Or buy fare if route mattered.
-
-Options remained.
-
-That was point of not emptying purse.
-
-Lyssa was repairing coat seam near lamp.
-
-I put updated Vale receipt with account papers.
-
-The old one-copper receipt sat beneath it.
-
-I almost threw old receipt away.
-
-Did not.
-
-Not because sentiment.
-
-Because comparison was useful.
-
-One copper had once been enough to make repayment feel real.
-
-Twelve copper now was enough to make old debt look small.
-
-Someday eleven might be line item.
-
-Maybe soon.
-
-Not today.
-
-I wrote final note:
-
-**DEBT CLOSURE IS NOT SAME AS CASH DEPLETION.**
-
-Then crossed out because it sounded like poster.
-
-Better:
-
-**Keep enough to move. Pay what is actually owed.**
-
-Still a little poster.
-
-Fine.
-
-Nobody was reading notebook except future me.
-
-Poor man.
-
-I closed it.
-
-Twenty cash.
-
-Eleven Vale.
-
-One silver eighteen work-limb quote, twenty-copper deposit already applied, nothing due until final acceptance unless terms change.
-
-No other debt verified.
-
-That last line mattered most.
-
-No other debt verified.
-
-Not no other debt existed.
-
-I simply did not know enough to pay it.
-
-For once, uncertainty did not need filling.
-
-It could stay blank until evidence arrived.
-
-I went to bed less indebted than I had woken.
-
-Not cleansed.
-
-Not transformed.
-
-Just twelve copper poorer and twelve copper less obligated.
-
-Good trade.
+And for the first time in a while, I actually intended to kill it.
