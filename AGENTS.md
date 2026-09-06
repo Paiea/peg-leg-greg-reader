@@ -75,6 +75,10 @@ Read current manuscript/state plus `state/STORY_NORTH_STAR.md`, `state/DEVELOPME
 ### Prose / editorial / 04
 Read actual prose plus `state/PROSE_PLAYBOOK.md` and `state/STORY_NORTH_STAR.md`. Consult `state/STORY_ANTI_PATTERNS.md` when an edit risks flattening voice, relationships, evidence discipline, or serial texture. Improve writing and longitudinal social texture without silently changing plot, canon, characterization, scene intent, or outcomes.
 
+Before starting a broad dialogue, attribution, compression, PERFORMANCE, or other specialist editorial pass, cheaply inspect current durable WIP for a narrower live owner: open PRs, named active branches, and explicit specialist trailheads. When task wording matches a live specialist pass, continue or review that owner instead of silently starting a duplicate generic-04 pass. If no narrower live owner exists, 04 remains the default editorial route.
+
+Active specialist WIP does **not** automatically become a permanent root lane or mandatory boot context. Discover it when the task enters its jurisdiction; keep unrelated specialist state cold.
+
 `state/GENERAL_EDITOR_STATE.md` is preserved on demand as **REFERENCE / CASE LAW** for the completed Chapters 1–5 moderate-polish batch, its Level 1–3 craft boundary, continuity repairs, and the Book 1 source-promotion path. It is not a separate active lane or sequential queue. Route current prose/editorial work through 04 unless another current specialist pass explicitly owns the task.
 
 For an explicitly authorized **structural compression pass**, current illustrations, illustration candidates, chapter numbers, and paragraph anchors are advisory production state only. Do not preserve weak/redundant prose, a redundant scene, or an old chapter boundary merely because art exists or is planned there. If a visually strong beat still earns its place, preserve the beat because the story needs it, not because the art system does. Visual candidates are reconciled after the manuscript edit.
