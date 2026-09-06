@@ -55,6 +55,19 @@ Reusable external research belongs in `state/RESEARCH_LEDGER.md`, with sources, 
 
 `state/STORY_ANTI_PATTERNS.md` is the compact negative-knowledge guardrail for recurring narrative/editorial failure modes. Consult it when relevant; it is not canon and is not mandatory every-chapter boot reading.
 
+## Shared dialogue ownership invariant
+
+For drafting, editorial, and publishing work, speaker ownership must remain effortless.
+
+- Never let another character's action function as false attribution for an untagged speaker.
+- When spoken ownership changes, give the new speaker a new dialogue paragraph.
+- Prefer simple `said` / `asked` over decorative gestures when a tag is what clarity needs.
+- Do not mechanically split every line into a tiny paragraph.
+- When adjacent action and dialogue clearly belong to the same character and form one continuous beat, they should normally share a paragraph unless a meaningful pause or attention shift earns separation.
+- Speaker clarity outranks same-owner consolidation. If ownership is uncertain, leave the beats separate and review them rather than guessing.
+
+For the active manuscript-wide repair and its exact patch workflow, read `state/editorial/DIALOGUE_OWNERSHIP_PASS.md`.
+
 ## Lanes
 
 ### Manuscript / 01
@@ -66,6 +79,8 @@ Read `state/MANUSCRIPT_ENGINE_PLAYBOOK.md`, `state/MANUSCRIPT_WORKFLOW.md`, `sta
 
 If chat history or a prompt claims a chapter exists but GitHub ends earlier, stop forward numbering and recover exact durable prose first if it exists. Never fabricate a missing chapter from summaries or chat residue.
 
+Before accepting new dialogue prose, apply the shared dialogue ownership invariant above. A chapter is not clean merely because a reader can eventually infer the speaker after backtracking.
+
 ### Writers' Room / 02
 Read current manuscript/state plus `state/STORY_NORTH_STAR.md`, `state/DEVELOPMENT_CYCLE.md`, `state/WRITERS_ROOM_STATE.md`, and relevant specialist brains. Consult `state/STORY_ANTI_PATTERNS.md` when an exploration risks a known recurring failure mode. Explore alternatives, research real practice when useful, translate research into behavior/social/work possibilities, update durable residue, and hand developed possibilities to 03. Do not canonize exploration.
 
@@ -74,6 +89,8 @@ Read current manuscript/state plus `state/STORY_NORTH_STAR.md`, `state/DEVELOPME
 
 ### Prose / editorial / 04
 Read actual prose plus `state/PROSE_PLAYBOOK.md` and `state/STORY_NORTH_STAR.md`. Consult `state/STORY_ANTI_PATTERNS.md` when an edit risks flattening voice, relationships, evidence discipline, or serial texture. Improve writing and longitudinal social texture without silently changing plot, canon, characterization, scene intent, or outcomes.
+
+For dialogue attribution or paragraph ownership work, also read `state/editorial/DIALOGUE_OWNERSHIP_PASS.md`. Wrong-owner action beats are readability defects, not optional style preferences. During the active pass, prioritize attribution correctness first and same-owner paragraph consolidation second.
 
 For an explicitly authorized **structural compression pass**, current illustrations, illustration candidates, chapter numbers, and paragraph anchors are advisory production state only. Do not preserve weak/redundant prose, a redundant scene, or an old chapter boundary merely because art exists or is planned there. If a visually strong beat still earns its place, preserve the beat because the story needs it, not because the art system does. Visual candidates are reconciled after the manuscript edit.
 
@@ -99,6 +116,8 @@ Read `state/READER_DESIGN_LAB.md`, visual guidance, current reader files, and cu
 
 ### Publishing / repository integration
 Prefer small legible commits. Reconcile in favor of newer authority. Never restore stale whole-file versions over newer work. Showcase curation changes public presentation only; never apply a showcase hide decision as a manuscript deletion.
+
+Publishing validation may detect dialogue ownership regressions, but must never silently rewrite them. Newly introduced high-confidence ownership defects should be repaired or explicitly reviewed before prose is accepted.
 
 ## GitHub workflow
 

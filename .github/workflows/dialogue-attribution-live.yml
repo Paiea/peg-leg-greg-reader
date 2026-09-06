@@ -7,7 +7,14 @@ on:
       - 'scripts/dialogue_live_entrypoint.py'
       - 'scripts/promote_recovered_dialogue.py'
       - 'scripts/generate_illustrated.py'
+      - 'scripts/dialogue_ownership.py'
+      - 'scripts/audit_dialogue_ownership.py'
+      - 'scripts/validate_dialogue_ownership.py'
+      - 'scripts/apply_dialogue_ownership_patches.py'
       - 'tests/test_dialogue_publish_boundary.py'
+      - 'tests/test_dialogue_ownership_audit.py'
+      - 'tests/test_dialogue_ownership_validation.py'
+      - 'tests/test_dialogue_ownership_patches.py'
       - '.github/workflows/dialogue-attribution-live.yml'
   push:
     branches: [main]
@@ -15,7 +22,14 @@ on:
       - 'scripts/dialogue_live_entrypoint.py'
       - 'scripts/promote_recovered_dialogue.py'
       - 'scripts/generate_illustrated.py'
+      - 'scripts/dialogue_ownership.py'
+      - 'scripts/audit_dialogue_ownership.py'
+      - 'scripts/validate_dialogue_ownership.py'
+      - 'scripts/apply_dialogue_ownership_patches.py'
       - 'tests/test_dialogue_publish_boundary.py'
+      - 'tests/test_dialogue_ownership_audit.py'
+      - 'tests/test_dialogue_ownership_validation.py'
+      - 'tests/test_dialogue_ownership_patches.py'
       - '.github/workflows/dialogue-attribution-live.yml'
   workflow_dispatch:
 

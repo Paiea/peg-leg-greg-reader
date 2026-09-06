@@ -1,0 +1,468 @@
+{
+  "version": 1,
+  "scope": "deep semantic dialogue ownership batch 1: Chapters 4, 7, and 9 after live hotfix",
+  "patches": [
+    {
+      "chapter": 4,
+      "label": "gambling taunt separated from opponent action",
+      "current": [
+        "\"Too boring.\" He stayed in the next hand three raises longer than he should have."
+      ],
+      "replacement": [
+        "\"Too boring.\"",
+        "He stayed in the next hand three raises longer than he should have."
+      ]
+    },
+    {
+      "chapter": 7,
+      "label": "cleaning denial separated from Antonius pause",
+      "current": [
+        "\"No.\" He paused."
+      ],
+      "replacement": [
+        "\"No.\"",
+        "He paused."
+      ]
+    },
+    {
+      "chapter": 7,
+      "label": "temporary labor reply separated from Antonius smile",
+      "current": [
+        "\"Temporarily.\" He smiled. I swept harder."
+      ],
+      "replacement": [
+        "\"Temporarily.\"",
+        "He smiled. I swept harder."
+      ]
+    },
+    {
+      "chapter": 7,
+      "label": "foundry question separated from Antonius gesture",
+      "current": [
+        "\"From where?\" Antonius pointed with his broom."
+      ],
+      "replacement": [
+        "\"From where?\"",
+        "Antonius pointed with his broom."
+      ]
+    },
+    {
+      "chapter": 7,
+      "label": "pricing rebuttal separated before Greg handles frame",
+      "current": [
+        "\"It wasn't.\" He came back and picked up the gray frame. I turned one of the stepped plates toward the light."
+      ],
+      "replacement": [
+        "\"It wasn't.\" He came back and picked up the gray frame.",
+        "I turned one of the stepped plates toward the light."
+      ]
+    },
+    {
+      "chapter": 7,
+      "label": "Greg agreement separated from Antonius counteroffer",
+      "current": [
+        "\"Also correct.\" He laughed once. \"I'll sell you the trash for three silver.\""
+      ],
+      "replacement": [
+        "\"Also correct.\"",
+        "He laughed once. \"I'll sell you the trash for three silver.\""
+      ]
+    },
+    {
+      "chapter": 7,
+      "label": "Greg ignorance reply separated from Antonius inspection",
+      "current": [
+        "\"I am suddenly much less ignorant.\" He turned the frame over. \"Three teeth. Means nothing to me.\""
+      ],
+      "replacement": [
+        "\"I am suddenly much less ignorant.\"",
+        "He turned the frame over. \"Three teeth. Means nothing to me.\""
+      ]
+    },
+    {
+      "chapter": 7,
+      "label": "Greg wait separated from Antonius sigh",
+      "current": [
+        "\"Wait.\" He sighed."
+      ],
+      "replacement": [
+        "\"Wait.\"",
+        "He sighed."
+      ]
+    },
+    {
+      "chapter": 7,
+      "label": "Greg concession separated from Antonius gesture",
+      "current": [
+        "\"Fine.\" He nodded toward the gray box."
+      ],
+      "replacement": [
+        "\"Fine.\"",
+        "He nodded toward the gray box."
+      ]
+    },
+    {
+      "chapter": 7,
+      "label": "Greg furniture reply separated from Antonius stop",
+      "current": [
+        "\"By you.\" He stopped."
+      ],
+      "replacement": [
+        "\"By you.\"",
+        "He stopped."
+      ]
+    },
+    {
+      "chapter": 7,
+      "label": "Greg work observation separated from Antonius reaction",
+      "current": [
+        "\"You actually work.\" He looked at his dusty hands."
+      ],
+      "replacement": [
+        "\"You actually work.\"",
+        "He looked at his dusty hands."
+      ]
+    },
+    {
+      "chapter": 7,
+      "label": "Greg why separated from Antonius frown",
+      "current": [
+        "\"Why?\" He frowned."
+      ],
+      "replacement": [
+        "\"Why?\"",
+        "He frowned."
+      ]
+    },
+    {
+      "chapter": 7,
+      "label": "Greg why separated from Antonius stool action",
+      "current": [
+        "\"Why?\" He picked up a broken stool."
+      ],
+      "replacement": [
+        "\"Why?\"",
+        "He picked up a broken stool."
+      ]
+    },
+    {
+      "chapter": 7,
+      "label": "Greg insult separated from Antonius laugh",
+      "current": [
+        "\"Fuck you.\" He laughed."
+      ],
+      "replacement": [
+        "\"Fuck you.\"",
+        "He laughed."
+      ]
+    },
+    {
+      "chapter": 7,
+      "label": "Greg age confirmation separated from Antonius stare",
+      "current": [
+        "\"Yes.\" He stared. I stared back."
+      ],
+      "replacement": [
+        "\"Yes.\"",
+        "He stared. I stared back."
+      ]
+    },
+    {
+      "chapter": 7,
+      "label": "Greg age answer separated from Antonius lean",
+      "current": [
+        "\"Nineteen.\" He leaned back."
+      ],
+      "replacement": [
+        "\"Nineteen.\"",
+        "He leaned back."
+      ]
+    },
+    {
+      "chapter": 7,
+      "label": "Greg childhood answer separated from Antonius watch",
+      "current": [
+        "\"I had to grow up early.\" Antonius watched me."
+      ],
+      "replacement": [
+        "\"I had to grow up early.\"",
+        "Antonius watched me."
+      ]
+    },
+    {
+      "chapter": 7,
+      "label": "Greg lender quip separated from Antonius smile",
+      "current": [
+        "\"From a lender?\" He smiled back."
+      ],
+      "replacement": [
+        "\"From a lender?\"",
+        "He smiled back."
+      ]
+    },
+    {
+      "chapter": 7,
+      "label": "Greg copper quip separated from Antonius laugh",
+      "current": [
+        "\"Copper is currently offensive.\" He laughed quietly."
+      ],
+      "replacement": [
+        "\"Copper is currently offensive.\"",
+        "He laughed quietly."
+      ]
+    },
+    {
+      "chapter": 7,
+      "label": "Greg merchant uncertainty separated from Antonius reaction",
+      "current": [
+        "\"Maybe.\" He shook his head."
+      ],
+      "replacement": [
+        "\"Maybe.\"",
+        "He shook his head."
+      ]
+    },
+    {
+      "chapter": 7,
+      "label": "Antonius keep decision separated from Greg blink",
+      "current": [
+        "\"Fine. Keep.\" He put it on the shelf. I blinked."
+      ],
+      "replacement": [
+        "\"Fine. Keep.\" He put it on the shelf.",
+        "I blinked."
+      ]
+    },
+    {
+      "chapter": 9,
+      "label": "Greg lending question separated from Antonius look",
+      "current": [
+        "\"Lending. Why?\" He looked at me as if I had changed languages."
+      ],
+      "replacement": [
+        "\"Lending. Why?\"",
+        "He looked at me as if I had changed languages."
+      ]
+    },
+    {
+      "chapter": 9,
+      "label": "Greg insult separated from Antonius smile and movement",
+      "current": [
+        "\"Fuck you.\" He smiled and kept walking. I followed."
+      ],
+      "replacement": [
+        "\"Fuck you.\"",
+        "He smiled and kept walking. I followed."
+      ]
+    },
+    {
+      "chapter": 9,
+      "label": "Greg breakage answer separated from Antonius shrug",
+      "current": [
+        "\"Whether it's broken.\" Antonius shrugged."
+      ],
+      "replacement": [
+        "\"Whether it's broken.\"",
+        "Antonius shrugged."
+      ]
+    },
+    {
+      "chapter": 9,
+      "label": "Greg tired-face answer separated from Antonius laugh",
+      "current": [
+        "\"Because you have a tired face.\" He laughed."
+      ],
+      "replacement": [
+        "\"Because you have a tired face.\"",
+        "He laughed."
+      ]
+    },
+    {
+      "chapter": 9,
+      "label": "Greg maybe separated from Antonius reaction",
+      "current": [
+        "\"Maybe.\" Antonius looked at me. I had used his word. He smiled."
+      ],
+      "replacement": [
+        "\"Maybe.\"",
+        "Antonius looked at me. I had used his word. He smiled."
+      ]
+    },
+    {
+      "chapter": 9,
+      "label": "Greg why-else question separated from Antonius movement",
+      "current": [
+        "\"Why else?\" Antonius kept walking. I followed."
+      ],
+      "replacement": [
+        "\"Why else?\"",
+        "Antonius kept walking. I followed."
+      ]
+    },
+    {
+      "chapter": 9,
+      "label": "Greg lending-size question separated from Antonius glance",
+      "current": [
+        "\"Why not lend more?\" Antonius glanced over."
+      ],
+      "replacement": [
+        "\"Why not lend more?\"",
+        "Antonius glanced over."
+      ]
+    },
+    {
+      "chapter": 9,
+      "label": "Greg ownership question separated from borrower stop",
+      "current": [
+        "\"What do you decide?\" He stopped."
+      ],
+      "replacement": [
+        "\"What do you decide?\"",
+        "He stopped."
+      ]
+    },
+    {
+      "chapter": 9,
+      "label": "Greg insult separated from Antonius smile",
+      "current": [
+        "\"Fuck you.\" He smiled."
+      ],
+      "replacement": [
+        "\"Fuck you.\"",
+        "He smiled."
+      ]
+    },
+    {
+      "chapter": 9,
+      "label": "Greg realization separated from Antonius look",
+      "current": [
+        "\"Oh.\" He looked at me."
+      ],
+      "replacement": [
+        "\"Oh.\"",
+        "He looked at me."
+      ]
+    },
+    {
+      "chapter": 9,
+      "label": "Greg power question separated from Antonius shrug",
+      "current": [
+        "\"Why?\" Antonius shrugged."
+      ],
+      "replacement": [
+        "\"Why?\"",
+        "Antonius shrugged."
+      ]
+    },
+    {
+      "chapter": 9,
+      "label": "Greg political-office question separated from Antonius disgust",
+      "current": [
+        "\"Political office?\" He looked genuinely disgusted."
+      ],
+      "replacement": [
+        "\"Political office?\"",
+        "He looked genuinely disgusted."
+      ]
+    },
+    {
+      "chapter": 9,
+      "label": "Greg still reply separated from Antonius watch",
+      "current": [
+        "\"Still.\" He watched me. I became harmless Greg."
+      ],
+      "replacement": [
+        "\"Still.\"",
+        "He watched me. I became harmless Greg."
+      ]
+    },
+    {
+      "chapter": 9,
+      "label": "Greg safety quip separated from Antonius ledger action",
+      "current": [
+        "\"Antonius is surprisingly safe.\" Antonius put the small ledger on his desk."
+      ],
+      "replacement": [
+        "\"Antonius is surprisingly safe.\"",
+        "Antonius put the small ledger on his desk."
+      ]
+    },
+    {
+      "chapter": 9,
+      "label": "Greg organization quip separated from Rusk and Antonius reactions",
+      "current": [
+        "\"That's poor organization.\" Rusk laughed. Antonius sat. I did not leave. He looked up."
+      ],
+      "replacement": [
+        "\"That's poor organization.\"",
+        "Rusk laughed. Antonius sat. I did not leave. He looked up."
+      ]
+    },
+    {
+      "chapter": 9,
+      "label": "Greg hindsight reply separated from Rusk and Antonius reactions",
+      "current": [
+        "\"I know that now.\" Rusk laughed again. Antonius ignored him."
+      ],
+      "replacement": [
+        "\"I know that now.\"",
+        "Rusk laughed again. Antonius ignored him."
+      ]
+    },
+    {
+      "chapter": 9,
+      "label": "Antonius criticism separated from Greg crossed arms",
+      "current": [
+        "\"You keep being wrong.\" I crossed my arms."
+      ],
+      "replacement": [
+        "\"You keep being wrong.\"",
+        "I crossed my arms."
+      ]
+    },
+    {
+      "chapter": 9,
+      "label": "Greg followup question separated from Antonius shrug",
+      "current": [
+        "\"What else?\" Antonius shrugged."
+      ],
+      "replacement": [
+        "\"What else?\"",
+        "Antonius shrugged."
+      ]
+    },
+    {
+      "chapter": 9,
+      "label": "Greg concession separated from Antonius ledger action",
+      "current": [
+        "\"Fair.\" He opened the ledger."
+      ],
+      "replacement": [
+        "\"Fair.\"",
+        "He opened the ledger."
+      ]
+    },
+    {
+      "chapter": 9,
+      "label": "Greg refusal-tracking advice separated from listeners",
+      "current": [
+        "\"Not just who defaults. Why you refused them. Then check later.\" Rusk looked interested. Antonius did not react. I continued."
+      ],
+      "replacement": [
+        "\"Not just who defaults. Why you refused them. Then check later.\"",
+        "Rusk looked interested. Antonius did not react. I continued."
+      ]
+    },
+    {
+      "chapter": 9,
+      "label": "Greg pattern advice separated from Antonius stare",
+      "current": [
+        "\"You already remember patterns. Son wants out. Hidden lender. Bad order. Temporary shortage. Structural problem. Write the reason when you refuse. Six months later, see whether you were right.\" Antonius stared. I felt the branches trying to come."
+      ],
+      "replacement": [
+        "\"You already remember patterns. Son wants out. Hidden lender. Bad order. Temporary shortage. Structural problem. Write the reason when you refuse. Six months later, see whether you were right.\"",
+        "Antonius stared. I felt the branches trying to come."
+      ]
+    }
+  ]
+}

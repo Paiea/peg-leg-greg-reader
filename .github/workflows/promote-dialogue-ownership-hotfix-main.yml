@@ -1,0 +1,78 @@
+name: Promote dialogue ownership hotfix to main
+
+on:
+  push:
+    branches:
+      - editor/dialogue-ownership-pass
+    paths:
+      - '.github/workflows/promote-dialogue-ownership-hotfix-main.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: promote-dialogue-ownership-hotfix-main
+  cancel-in-progress: false
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Fetch verified hotfix commit
+        run: git fetch origin 234c9c00a3a634d32061890d815b7bf7b93ded9f
+      - name: Guard against newer early-chapter edits
+        run: |
+          git diff --quiet 277c6010edd393ca3a9f7638d0c4fd674e422722 HEAD -- \
+            chapters/002.html chapters/003.html chapters/004.html chapters/005.html \
+            chapters/007.html chapters/009.html chapters/010.html chapters/011.html chapters/013.html || {
+              echo 'Main changed one of the hotfix chapters since the ownership branch fork. Refusing blind promotion.'
+              exit 1
+            }
+      - name: Promote only verified reader chapter files
+        run: |
+          git checkout 234c9c00a3a634d32061890d815b7bf7b93ded9f -- \
+            chapters/002.html chapters/003.html chapters/004.html chapters/005.html \
+            chapters/007.html chapters/009.html chapters/010.html chapters/011.html chapters/013.html
+      - name: Verify promoted reader files
+        run: |
+          git diff --cached --check
+          bad="$(git diff --cached --name-only | grep -Ev '^chapters/(002|003|004|005|007|009|010|011|013)\.html$' || true)"
+          if [ -n "$bad" ]; then
+            echo 'Unexpected changed files:'
+            echo "$bad"
+            exit 1
+          fi
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          for n in (2,3,4,5,7,9,10,11,13):
+              text = Path(f'chapters/{n:03d}.html').read_text(encoding='utf-8')
+              m = re.search(r'<article\s+class=["\'][^"\']*\bprose\b[^"\']*["\'][^>]*>(.*?)</article>', text, re.S | re.I)
+              if not m:
+                  raise SystemExit(f'missing prose article: {n}')
+              plain = re.sub(r'<[^>]+>', '', m.group(1))
+              if '—' in plain:
+                  raise SystemExit(f'em dash in prose: {n}')
+          ch3 = Path('chapters/003.html').read_text(encoding='utf-8')
+          if '<p>"What?" Antonius asked.</p><p>"Nothing," I said.</p><p>"You keep looking at me," Antonius said.</p>' in ch3:
+              raise SystemExit('stale Antonius workshop block survived')
+          if '<p>"What?" I asked.</p><p>"Nothing," Arlo said.</p>' not in ch3:
+              raise SystemExit('restored Arlo workshop exchange missing')
+          print('verified hotfix ready for main')
+          PY
+      - name: Commit and push live reader hotfix
+        run: |
+          if git diff --cached --quiet -- chapters; then
+            echo 'Main already contains the hotfix.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'reader: hotfix dialogue ownership through chapter 14'
+          git pull --rebase origin main
+          git push origin HEAD:main

@@ -1,0 +1,84 @@
+name: Build dialogue ownership audit
+
+# Manual refresh marker: regenerate derived review surfaces after the reviewed 001-014 hotfix.
+on:
+  push:
+    branches:
+      - editor/dialogue-ownership-pass
+    paths:
+      - '.github/workflows/dialogue-ownership-audit.yml'
+      - 'scripts/dialogue_ownership.py'
+      - 'scripts/audit_dialogue_ownership.py'
+      - 'scripts/showcase.py'
+      - 'publishing/showcase_chapters.json'
+      - 'chapters/**'
+      - 'tests/test_dialogue_publish_boundary.py'
+      - 'tests/test_dialogue_ownership_audit.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dialogue-ownership-audit-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: editor/dialogue-ownership-pass
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Run ownership and showcase tests
+        run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Build showcase-aware ownership report and full 001-020 review packet
+        run: |
+          python scripts/audit_dialogue_ownership.py \
+            --root . \
+            --json state/editorial/dialogue-ownership-pass/CANDIDATES.json \
+            --markdown state/editorial/dialogue-ownership-pass/CANDIDATES.md \
+            --review-start 1 \
+            --review-end 20 \
+            --review-markdown state/editorial/dialogue-ownership-pass/REVIEW_001_020.md
+      - name: Validate generated report
+        run: |
+          git diff --check
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path('state/editorial/dialogue-ownership-pass/CANDIDATES.json')
+          report = json.loads(path.read_text(encoding='utf-8'))
+          assert report['endpoint'] >= 491, report['endpoint']
+          assert report['visible_chapters'] + report['hidden_chapters'] == report['canonical_chapters']
+          assert report['candidate_count'] == len(report['candidates'])
+          review = Path('state/editorial/dialogue-ownership-pass/REVIEW_001_020.md').read_text(encoding='utf-8')
+          assert '## Canon Chapter 001' in review
+          assert '## Canon Chapter 020' in review
+          print(
+              'ownership report:',
+              report['candidate_count'], 'candidates,',
+              report['visible_chapters'], 'visible chapters,',
+              report['hidden_chapters'], 'hidden chapters skipped'
+          )
+          PY
+      - name: Commit refreshed candidate and review reports
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add \
+            state/editorial/dialogue-ownership-pass/CANDIDATES.json \
+            state/editorial/dialogue-ownership-pass/CANDIDATES.md \
+            state/editorial/dialogue-ownership-pass/REVIEW_001_020.md
+          if git diff --cached --quiet; then
+            echo 'Dialogue ownership reports already current.'
+            exit 0
+          fi
+          git commit -m 'editor: refresh dialogue ownership review surfaces'
+          git pull --rebase origin editor/dialogue-ownership-pass
+          git push origin HEAD:editor/dialogue-ownership-pass

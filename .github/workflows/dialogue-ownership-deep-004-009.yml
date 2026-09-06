@@ -1,0 +1,72 @@
+name: Apply deep dialogue ownership batch 004 007 009
+
+on:
+  push:
+    branches:
+      - editor/dialogue-ownership-pass
+    paths:
+      - '.github/workflows/dialogue-ownership-deep-004-009.yml'
+      - 'state/editorial/dialogue-ownership-pass/PATCHES_004_009_DEEP.json'
+      - 'scripts/apply_dialogue_ownership_patches.py'
+      - 'tests/test_apply_dialogue_ownership_patches.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dialogue-ownership-deep-004-009-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: editor/dialogue-ownership-pass
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify exact patch applicator
+        run: python -m unittest tests.test_apply_dialogue_ownership_patches -v
+      - name: Apply reviewed deep manifest
+        run: >-
+          python scripts/apply_dialogue_ownership_patches.py
+          --manifest state/editorial/dialogue-ownership-pass/PATCHES_004_009_DEEP.json
+          --chapters-dir chapters
+      - name: Verify patch boundary and prose hygiene
+        run: |
+          git diff --check
+          bad="$(git diff --name-only | grep -Ev '^chapters/(004|007|009)\.html$' || true)"
+          if [ -n "$bad" ]; then
+            echo 'Unexpected changed files:'
+            echo "$bad"
+            exit 1
+          fi
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          for n in (4, 7, 9):
+              text = Path(f'chapters/{n:03d}.html').read_text(encoding='utf-8')
+              m = re.search(r'<article\s+class=["\'][^"\']*\bprose\b[^"\']*["\'][^>]*>(.*?)</article>', text, re.S | re.I)
+              if not m:
+                  raise SystemExit(f'missing prose article: {n}')
+              plain = re.sub(r'<[^>]+>', '', m.group(1))
+              if '—' in plain:
+                  raise SystemExit(f'em dash introduced in prose: {n}')
+          print('deep 004/007/009 ownership verification passed')
+          PY
+      - name: Commit deep ownership repairs
+        run: |
+          if git diff --quiet -- chapters; then
+            echo 'Deep ownership batch already applied.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add chapters/004.html chapters/007.html chapters/009.html
+          git commit -m 'reader: deepen dialogue ownership in chapters 4 7 9'
+          git pull --rebase origin editor/dialogue-ownership-pass
+          git push origin HEAD:editor/dialogue-ownership-pass

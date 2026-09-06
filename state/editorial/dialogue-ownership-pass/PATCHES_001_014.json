@@ -1,0 +1,342 @@
+{
+  "version": 1,
+  "scope": "reader hotfix through Chapter 14; reviewed high-confidence ownership repairs only",
+  "patches": [
+    {
+      "chapter": 2,
+      "label": "loan age reply belongs to Greg",
+      "current": ["\"Your age.\" He smiled. \"How old did you expect me to be?\""],
+      "replacement": ["\"Your age,\" I said.", "Antonius smiled. \"How old did you expect me to be?\""]
+    },
+    {
+      "chapter": 2,
+      "label": "loan acceptance and silver counting have different owners",
+      "current": ["\"Fine.\" He counted silver onto the desk. I should have felt relief. Instead I felt acceleration. I knew that feeling. Hubris putting on its boots."],
+      "replacement": ["\"Fine,\" I said.", "Antonius counted silver onto the desk.", "I should have felt relief. Instead I felt acceleration. I knew that feeling. Hubris putting on its boots."]
+    },
+    {
+      "chapter": 3,
+      "label": "restore Arlo workshop ownership after stale Antonius patch",
+      "current": ["\"What?\" Antonius asked.", "\"Nothing,\" I said.", "\"You keep looking at me,\" Antonius said.", "\"I have a memorable-face problem,\" I said.", "\"Your face?\" Antonius asked.", "\"Other people's.\" Antonius held out his hand."],
+      "replacement": ["\"What?\" I asked.", "\"Nothing,\" Arlo said."]
+    },
+    {
+      "chapter": 4,
+      "label": "Senna reaction does not attribute Greg reply",
+      "current": ["\"For me? Apparently.\" She glanced at my stack."],
+      "replacement": ["\"For me? Apparently,\" I said.", "She glanced at my stack."]
+    },
+    {
+      "chapter": 5,
+      "label": "Antonius reaction does not attribute Greg income reply",
+      "current": ["\"Income.\" He looked up."],
+      "replacement": ["\"Income,\" I said.", "Antonius looked up."]
+    },
+    {
+      "chapter": 5,
+      "label": "ledger action does not attribute Greg gambling-loss reply",
+      "current": ["\"It was a gambling loss.\" He pushed the ledger toward me."],
+      "replacement": ["\"It was a gambling loss,\" I said.", "Antonius pushed the ledger toward me."]
+    },
+    {
+      "chapter": 7,
+      "label": "considered me reaction separated from Greg reply",
+      "current": ["\"That's not the same thing.\" Antonius considered me."],
+      "replacement": ["\"That's not the same thing,\" I said.", "Antonius considered me."]
+    },
+    {
+      "chapter": 7,
+      "label": "trade argument separated from Antonius smile",
+      "current": ["\"I want to pay three silver for something worth forty gold to somebody else. That's called trade. You should look into it.\" Antonius smiled. I should not have smiled back."],
+      "replacement": ["\"I want to pay three silver for something worth forty gold to somebody else. That's called trade. You should look into it,\" I said.", "Antonius smiled. I should not have smiled back."]
+    },
+    {
+      "chapter": 7,
+      "label": "five-silver acceptance separated from Antonius shelving action",
+      "current": ["\"Fine. Five.\" He put the box on the keep shelf and wrote my name on a scrap tucked beneath it. I pointed. \"That's mine.\""],
+      "replacement": ["\"Fine. Five,\" I said.", "Antonius put the box on the keep shelf and wrote my name on a scrap tucked beneath it.", "I pointed. \"That's mine.\""]
+    },
+    {
+      "chapter": 7,
+      "label": "not-enough-information reply separated from Antonius laugh",
+      "current": ["\"Not enough information yet.\" He laughed. I hated him."],
+      "replacement": ["\"Not enough information yet,\" I said.", "Antonius laughed. I hated him."]
+    },
+    {
+      "chapter": 7,
+      "label": "stop-saying-that reply separated from Antonius sweeping",
+      "current": ["\"Stop saying that.\" He went back to sweeping. I stared at the Tere gauge."],
+      "replacement": ["\"Stop saying that,\" I said.", "Antonius went back to sweeping. I stared at the Tere gauge."]
+    },
+    {
+      "chapter": 7,
+      "label": "test question separated from Antonius stop",
+      "current": ["\"Was that a test?\" He stopped."],
+      "replacement": ["\"Was that a test?\" I asked.", "Antonius stopped."]
+    },
+    {
+      "chapter": 7,
+      "label": "buyer question separated from Antonius smile",
+      "current": ["\"To whom?\" He smiled. I hated him."],
+      "replacement": ["\"To whom?\" I asked.", "Antonius smiled. I hated him."]
+    },
+    {
+      "chapter": 7,
+      "label": "Greg calls Antonius before Antonius moves",
+      "current": ["\"Antonius.\" He walked back into the room. I followed."],
+      "replacement": ["\"Antonius,\" I said.", "He walked back into the room. I followed."]
+    },
+    {
+      "chapter": 7,
+      "label": "scarf request separated from Antonius reaction",
+      "current": ["\"Can I have this?\" Antonius looked at the scarf."],
+      "replacement": ["\"Can I have this?\" I asked.", "Antonius looked at the scarf."]
+    },
+    {
+      "chapter": 7,
+      "label": "Greg uncertainty separated from Antonius wait",
+      "current": ["\"I don't know.\" He waited. I did not invent one."],
+      "replacement": ["\"I don't know,\" I said.", "Antonius waited. I did not invent one."]
+    },
+    {
+      "chapter": 7,
+      "label": "Greg passed reply explicitly owned",
+      "current": ["\"I passed.\" Antonius looked at me."],
+      "replacement": ["\"I passed,\" I said.", "Antonius looked at me."]
+    },
+    {
+      "chapter": 7,
+      "label": "where question separated from Antonius stop",
+      "current": ["\"Where?\" He stopped."],
+      "replacement": ["\"Where?\" I asked.", "Antonius stopped."]
+    },
+    {
+      "chapter": 7,
+      "label": "not-a-no reply separated from Antonius movement",
+      "current": ["\"That's not a no.\" He walked faster. I laughed."],
+      "replacement": ["\"That's not a no,\" I said.", "Antonius walked faster. I laughed."]
+    },
+    {
+      "chapter": 7,
+      "label": "sunrise question separated from Antonius gesture",
+      "current": ["\"Sunrise tomorrow?\" He raised one hand without turning."],
+      "replacement": ["\"Sunrise tomorrow?\" I asked.", "Antonius raised one hand without turning."]
+    },
+    {
+      "chapter": 9,
+      "label": "unknown borrower reply separated from Antonius look",
+      "current": ["\"I don't know.\" Antonius looked at Dena."],
+      "replacement": ["\"I don't know,\" I said.", "Antonius looked at Dena."]
+    },
+    {
+      "chapter": 9,
+      "label": "Greg assumption separated from Antonius nod",
+      "current": ["\"Assuming he's better.\" Antonius nodded."],
+      "replacement": ["\"Assuming he's better,\" I said.", "Antonius nodded."]
+    },
+    {
+      "chapter": 9,
+      "label": "loan split question explicitly Greg",
+      "current": ["\"Three from him. Five from you?\" Antonius smiled slightly."],
+      "replacement": ["\"Three from him. Five from you?\" I asked.", "Antonius smiled slightly."]
+    },
+    {
+      "chapter": 9,
+      "label": "purchase-price judgment explicitly Greg",
+      "current": ["\"Then I think the boy is probably worth lending to, but the purchase price may be the bad part of the deal.\" Antonius nodded."],
+      "replacement": ["\"Then I think the boy is probably worth lending to, but the purchase price may be the bad part of the deal,\" I said.", "Antonius nodded."]
+    },
+    {
+      "chapter": 9,
+      "label": "why-no question explicitly Greg",
+      "current": ["\"Why no?\" Antonius looked pleased."],
+      "replacement": ["\"Why no?\" I asked.", "Antonius looked pleased."]
+    },
+    {
+      "chapter": 9,
+      "label": "specific-judgment line separated from Antonius movement",
+      "current": ["\"Yours is specific.\" He kept walking. I followed."],
+      "replacement": ["\"Yours is specific,\" I said.", "Antonius kept walking. I followed."]
+    },
+    {
+      "chapter": 9,
+      "label": "future question separated from Antonius sigh",
+      "current": ["\"Then what?\" Antonius sighed."],
+      "replacement": ["\"Then what?\" I asked.", "Antonius sighed."]
+    },
+    {
+      "chapter": 9,
+      "label": "why-lend question explicitly Greg in three-person scene",
+      "current": ["\"Why did you lend to me?\" Rusk stopped laughing. Antonius leaned back."],
+      "replacement": ["\"Why did you lend to me?\" I asked.", "Rusk stopped laughing. Antonius leaned back."]
+    },
+    {
+      "chapter": 9,
+      "label": "Rusk insult explicitly Greg",
+      "current": ["\"Fuck you, Rusk.\" Antonius smiled."],
+      "replacement": ["\"Fuck you, Rusk,\" I said.", "Antonius smiled."]
+    },
+    {
+      "chapter": 9,
+      "label": "what-are-you-making question explicitly Greg",
+      "current": ["\"What are you trying to make?\" Antonius looked up again."],
+      "replacement": ["\"What are you trying to make?\" I asked.", "Antonius looked up again."]
+    },
+    {
+      "chapter": 9,
+      "label": "system-future question separated from Antonius frown",
+      "current": ["\"Loans. Storage. Merchants. Routes. People owing you. People you owe. What does it become?\" He frowned."],
+      "replacement": ["\"Loans. Storage. Merchants. Routes. People owing you. People you owe. What does it become?\" I asked.", "Antonius frowned."]
+    },
+    {
+      "chapter": 9,
+      "label": "Greg calls Antonius at the door",
+      "current": ["\"Antonius.\" He sighed."],
+      "replacement": ["\"Antonius,\" I said.", "He sighed."]
+    },
+    {
+      "chapter": 9,
+      "label": "refusal-tracking advice separated from Antonius reaction",
+      "current": ["\"You should keep track of why you say no.\" He frowned."],
+      "replacement": ["\"You should keep track of why you say no,\" I said.", "Antonius frowned."]
+    },
+    {
+      "chapter": 10,
+      "label": "Greg noon reply separated from Arlo action and warning",
+      "current": ["\"That's worse.\" Arlo touched one of the wrist stones with the end of a wooden pick. \"Don't.\""],
+      "replacement": ["\"That's worse,\" I said.", "Arlo touched one of the wrist stones with the end of a wooden pick. \"Don't.\""]
+    },
+    {
+      "chapter": 10,
+      "label": "question separated from Antonius answer",
+      "current": ["\"Useful. What kind?\" Antonius considered me. \"Salvager.\""],
+      "replacement": ["\"Useful. What kind?\" I asked.", "Antonius considered me. \"Salvager.\""]
+    },
+    {
+      "chapter": 10,
+      "label": "repeatedly reply separated from Arlo reaction",
+      "current": ["\"Repeatedly.\" Arlo frowned. I pointed at the gauntlet. \"Can we make it do something?\""],
+      "replacement": ["\"Repeatedly,\" I said.", "Arlo frowned.", "I pointed at the gauntlet. \"Can we make it do something?\""]
+    },
+    {
+      "chapter": 10,
+      "label": "not-enough-information three-person turn clarified",
+      "current": ["\"Not enough information yet.\" Antonius smiled. Arlo said, \"Good.\" I frowned. \"Why good?\""],
+      "replacement": ["\"Not enough information yet,\" I said.", "Antonius smiled.", "Arlo said, \"Good.\"", "I frowned. \"Why good?\""]
+    },
+    {
+      "chapter": 10,
+      "label": "five answer in three-person appraisal explicitly Greg",
+      "current": ["\"Five.\" Arlo raised an eyebrow. Antonius said, \"Why five?\""],
+      "replacement": ["\"Five,\" I said.", "Arlo raised an eyebrow.", "Antonius said, \"Why five?\""]
+    },
+    {
+      "chapter": 10,
+      "label": "Greg insult separated from Antonius and Arlo actions",
+      "current": ["\"Fuck you.\" Antonius stood and took the gauntlet. Arlo immediately said, \"Careful.\" Antonius froze."],
+      "replacement": ["\"Fuck you,\" I said.", "Antonius stood and took the gauntlet.", "Arlo immediately said, \"Careful.\" Antonius froze."]
+    },
+    {
+      "chapter": 10,
+      "label": "Arlo wrist-stone warning separated from Antonius reaction",
+      "current": ["\"Because I don't know what the wrist stones do.\" Antonius looked at the object in his hands. Then at Arlo. Then very carefully put it down. I laughed so hard I had to sit. Antonius waited. I tried to stop."],
+      "replacement": ["\"Because I don't know what the wrist stones do,\" Arlo said.", "Antonius looked at the object in his hands. Then at Arlo. Then very carefully put it down.", "I laughed so hard I had to sit. Antonius waited. I tried to stop."]
+    },
+    {
+      "chapter": 10,
+      "label": "Greg approval separated from Antonius point",
+      "current": ["\"Good.\" Antonius pointed at me."],
+      "replacement": ["\"Good,\" I said.", "Antonius pointed at me."]
+    },
+    {
+      "chapter": 11,
+      "label": "Greg answer separated from Hessa reaction",
+      "current": ["\"Usually me.\" Hessa stared. I wiped sweat from my forehead. \"How bad?\""],
+      "replacement": ["\"Usually me,\" I said.", "Hessa stared.", "I wiped sweat from my forehead. \"How bad?\""]
+    },
+    {
+      "chapter": 11,
+      "label": "momentum answer separated from Hessa laugh and question",
+      "current": ["\"Momentum.\" She laughed. I disliked how often people laughed when I used that word. Hessa sat opposite me. \"Tell me what you did.\""],
+      "replacement": ["\"Momentum,\" I said.", "Hessa laughed. I disliked how often people laughed when I used that word.", "She sat opposite me. \"Tell me what you did.\""]
+    },
+    {
+      "chapter": 11,
+      "label": "Greg purpose reply separated from Hessa decision",
+      "current": ["\"That's one purpose.\" Hessa stared at me for several seconds. Then she stood. \"Go home.\""],
+      "replacement": ["\"That's one purpose,\" I said.", "Hessa stared at me for several seconds. Then she stood. \"Go home.\""]
+    },
+    {
+      "chapter": 11,
+      "label": "oil answer explicitly Greg in three-person scene",
+      "current": ["\"Oil.\" Antonius looked at Rusk. Rusk said, \"Magic.\" Antonius looked back at me."],
+      "replacement": ["\"Oil,\" I said.", "Antonius looked at Rusk.", "Rusk said, \"Magic.\" Antonius looked back at me."]
+    },
+    {
+      "chapter": 11,
+      "label": "thank-you turn separated from Antonius and Rusk reactions",
+      "current": ["\"Thank you.\" Antonius blinked. Rusk looked over. I frowned. \"What?\""],
+      "replacement": ["\"Thank you,\" I said.", "Antonius blinked. Rusk looked over.", "I frowned. \"What?\""]
+    },
+    {
+      "chapter": 11,
+      "label": "Arlo payment acceptance separated from his coin action",
+      "current": ["\"Fine.\" He took three silver. Pushed three back. I looked at them."],
+      "replacement": ["\"Fine,\" I said.", "Arlo took three silver. Pushed three back. I looked at them."]
+    },
+    {
+      "chapter": 11,
+      "label": "Greg excellent reaction separated from Arlo question",
+      "current": ["\"Excellent.\" Arlo frowned. \"Why excellent?\""],
+      "replacement": ["\"Excellent,\" I said.", "Arlo frowned. \"Why excellent?\""]
+    },
+    {
+      "chapter": 11,
+      "label": "Barrier explanation separated from Antonius question",
+      "current": ["\"Direction. Contact. Timing. Maybe pressure later. If I make it small enough and place it correctly, I don't need enough mana to overpower the whole force.\" Antonius considered. Unlike Hessa, he did not care about magical orthodoxy. Unlike Arlo, he did not care how the mechanism worked. He asked, \"Useful?\""],
+      "replacement": ["\"Direction. Contact. Timing. Maybe pressure later. If I make it small enough and place it correctly, I don't need enough mana to overpower the whole force,\" I said.", "Antonius considered. Unlike Hessa, he did not care about magical orthodoxy. Unlike Arlo, he did not care how the mechanism worked. He asked, \"Useful?\""]
+    },
+    {
+      "chapter": 11,
+      "label": "Greg insult and follow-up separated from Antonius ledger actions",
+      "current": ["\"Fuck you.\" He opened his ledger. I should have left. Instead I said, \"Do you have anything magical that needs moving?\" His pen stopped. Slowly."],
+      "replacement": ["\"Fuck you,\" I said.", "Antonius opened his ledger. I should have left.", "Instead I said, \"Do you have anything magical that needs moving?\"", "His pen stopped. Slowly."]
+    },
+    {
+      "chapter": 11,
+      "label": "Greg concession separated from Antonius salvager update",
+      "current": ["\"Somewhat.\" Antonius returned to his ledger. Then said, \"The salvager came back.\" Everything in me changed. I hated that he noticed."],
+      "replacement": ["\"Somewhat,\" I said.", "Antonius returned to his ledger. Then said, \"The salvager came back.\"", "Everything in me changed. I hated that he noticed."]
+    },
+    {
+      "chapter": 13,
+      "label": "Greg approval separated from Arlo shelving action",
+      "current": ["\"Good.\" He set the frame on a shelf. I looked at the six regulators."],
+      "replacement": ["\"Good,\" I said.", "Arlo set the frame on a shelf. I looked at the six regulators."]
+    },
+    {
+      "chapter": 13,
+      "label": "Greg control question separated from Arlo demonstration",
+      "current": ["\"How did you control it?\" He pointed at another object. A stick. A spool. A hanging weight. I stared. Arlo became defensive."],
+      "replacement": ["\"How did you control it?\" I asked.", "Arlo pointed at another object. A stick. A spool. A hanging weight. I stared. He became defensive."]
+    },
+    {
+      "chapter": 13,
+      "label": "Greg next-variable question separated from Arlo reaction",
+      "current": ["\"Which variable next?\" Arlo smiled. Not because he needed my answer. Because he already had one."],
+      "replacement": ["\"Which variable next?\" I asked.", "Arlo smiled. Not because he needed my answer. Because he already had one."]
+    },
+    {
+      "chapter": 13,
+      "label": "Greg precision-equipment comment separated from Arlo stare",
+      "current": ["\"I should not put precision equipment loose beside coins.\" Arlo stared."],
+      "replacement": ["\"I should not put precision equipment loose beside coins,\" I said.", "Arlo stared."]
+    },
+    {
+      "chapter": 13,
+      "label": "Greg room-entry refusal separated from Hessa reaction",
+      "current": ["\"No.\" Hessa looked up."],
+      "replacement": ["\"No,\" I said.", "Hessa looked up."]
+    }
+  ]
+}
