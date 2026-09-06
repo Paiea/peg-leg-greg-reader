@@ -88,7 +88,23 @@ Use for:
 
 Greg can still be unable to afford a specific silver expense when his cash is tied up. The point is that the denomination itself is not psychologically alien.
 
-### E. Gold-value tier
+### E. Tens-of-silver leverage tier
+This tier becomes appropriate when Greg's contribution is scarce, commercially meaningful, urgent, risky, or difficult to replace.
+
+Use for:
+- serious coordination/management where delay or failure costs the client materially;
+- high-value brokerage/intermediation;
+- specialist appraisal or artifact/provenance judgment;
+- meaningful gray-market logistics;
+- criminal work with real arrest/seizure/retaliation exposure;
+- high-value freight or contraband where Greg's discretion/route/judgment matters;
+- commissions attached to much larger underlying value.
+
+**30s+ is a plausible band for serious high-exposure work, not a universal minimum.**
+
+This tier should increasingly become visible once Greg has demonstrated legal alternatives that make tiny-risk-premium criminal work irrational.
+
+### F. Gold-value / gold-compensation tier
 Gold-scale value should increasingly appear through:
 - rare artifacts;
 - businesses/assets;
@@ -96,18 +112,58 @@ Gold-scale value should increasingly appear through:
 - major inventory;
 - specialist systems;
 - land/property/ownership if later canon moves there;
-- cumulative capital positions.
+- cumulative capital positions;
+- major contraband or organized high-risk operations where Greg's own cut can plausibly reach gold.
 
 Gold-value does not imply gold liquidity.
 
 The Tere gauge is the canonical early example: potentially 40g+ to the right buyer while Greg's acquisition obligation is only 5s and his ability to realize that value is uncertain.
 
-### F. Mature capital tier
+### G. Mature capital tier
 Eventually Greg may again operate where gold and possibly platinum-tier wealth are ordinary enough to be strategic rather than astonishing.
 
 Do not rush this.
 
 But do not artificially cap the book below it either. Old Greg's remembered life establishes that very large economic scale belongs in the world.
+
+## Value-before-denomination rule
+
+Before choosing a payment number, ask what economic product Greg is selling.
+
+He may be selling:
+- body/time;
+- routine competence;
+- scarce judgment;
+- trusted access;
+- coordination;
+- management;
+- information asymmetry;
+- discretion;
+- capital;
+- legal/physical risk;
+- ownership.
+
+Do not price all of these like interchangeable labor.
+
+Canonical contrast:
+- moving flour can pay copper because the work is replaceable manual labor;
+- the gauntlet appraisal can pay 6s because Greg's judgment contributes to a valuable lending decision.
+
+Both can coexist in the same era without contradiction.
+
+## Crime / gray-work premium
+
+Use `PAY_VALUE_RISK_ENGINE.md` for full logic.
+
+Forward shorthand:
+- petty illegal work can still pay poorly;
+- real smuggling / deliberate rule evasion should usually beat ordinary safe labor when risk is meaningful;
+- serious illicit logistics / valuable contraband / institutional exposure can plausibly live in the **tens-of-silver** band;
+- 30s+ can be reasonable when Greg's role is scarce and downside is real;
+- major contraband, rare artifacts, dangerous routes, or organized operations may justify **gold-scale compensation**;
+- none of these are automatic wage floors.
+
+If Greg risks arrest for pay comparable to flour-moving, the manuscript must establish why he accepts the bad deal.
 
 ## Reaction progression
 
@@ -143,6 +199,7 @@ He should increasingly think:
 - "What is my downside?"
 - "How much capital does this trap?"
 - "Who else can do this cheaper/better?"
+- "Why am I taking this risk for that pay?"
 
 The question should move from **can I scrape together the coin?** toward **what is the best use of my capacity?**
 
@@ -155,6 +212,7 @@ Once his demonstrated earning capacity rises:
 - 3c may be a decent incidental gain, not a breakthrough;
 - a multi-copper contract may be respectable but judged by time/risk;
 - silver-scale fees/deals should become the meaningful near-term progression band;
+- tens-of-silver opportunities should become visible when his leverage/risk warrants them;
 - eventually even silver should become operating money rather than a climax.
 
 This does not mean Greg becomes ungrateful.
@@ -188,11 +246,15 @@ A later bad purchase should usually cost opportunity or annoy Greg, not automati
 Before writing a paid opportunity, ask:
 
 1. What tier is this opportunity?
-2. Has Greg already demonstrated access to a higher tier?
-3. If yes, why is he taking this lower-tier work?
-4. Is the pay itself important, or is another benefit the real reason?
-5. Does the amount reflect the value/risk/urgency of the work?
-6. Does Greg's reaction fit his current earning capacity?
-7. Does this chapter move the economic ladder, preserve it, or intentionally step down for a concrete reason?
+2. What is Greg actually being paid for?
+3. Has Greg already demonstrated access to a higher tier?
+4. If yes, why is he taking this lower-tier work?
+5. Is the pay itself important, or is another benefit the real reason?
+6. Does the amount reflect the value/risk/urgency/scarcity of the work?
+7. What does the client gain or avoid losing?
+8. How replaceable is Greg?
+9. Does Greg's reaction fit his current earning capacity?
+10. Does this chapter move the economic ladder, preserve it, or intentionally step down for a concrete reason?
+11. If illegal/gray: does the risk premium justify Greg choosing this over legal alternatives?
 
 If the only answer is "Greg needs money," the opportunity probably needs more thought.
