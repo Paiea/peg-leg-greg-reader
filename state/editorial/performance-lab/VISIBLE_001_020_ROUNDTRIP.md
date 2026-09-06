@@ -8,7 +8,9 @@ This pass uses the following one-way editorial pipeline:
 
 `current authoritative prose -> dramatic structure -> PERFORMANCE -> explicit script -> PLG prose -> attribution / continuity / Showcase seam validation`
 
-The intermediate dramatic, PERFORMANCE, and script representations are derived and disposable. They are not manuscript authority. Current chapter prose remains the only prose authority.
+The intermediate dramatic, PERFORMANCE, and script representations are derived editorial material. They are not manuscript authority. Current chapter prose remains the only prose authority.
+
+Persistence is selective. Temporary intermediates remain disposable for ordinary SOURCE WIN scenes. When a PERFORMANCE change survives translation, validation, and publication, its exact successful dramatic/PERFORMANCE/screenplay evidence is preserved under `state/editorial/performance-roundtrip/<canon-chapter>/` as a derived reference example. That archive demonstrates one successful performance under those scene conditions; it does not create permanent character state and never overrides current prose authority.
 
 Source authority for this pass: `35055180a116cf7a0dfd4a1fa94704c2c5b0bd40` on `main`.
 Experiment branch: `experiment/performance-novelization-live`.
