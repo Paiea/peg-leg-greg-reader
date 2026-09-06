@@ -29,6 +29,8 @@ on:
       - 'scripts/update_reader_navigation.py'
       - 'scripts/update_reader_presentation.py'
       - 'scripts/illustration_state.py'
+      - 'scripts/import_legacy_illustrations.py'
+      - 'scripts/promote_illustrations.py'
       - 'scripts/build_illustration_backlog.py'
       - 'scripts/build_prompt_packs.py'
       - 'scripts/report_illustration_coverage.py'
@@ -72,6 +74,10 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_*.py'
       - name: Apply completed dialogue variance
         run: python scripts/apply_dialogue_variance.py
+      - name: Bootstrap and promote illustration registry
+        run: |
+          python scripts/import_legacy_illustrations.py
+          python scripts/promote_illustrations.py
       - name: Generate recovered Light range
         run: python scripts/generate_light.py 156-219
       - name: Generate current Illustrated range
@@ -86,7 +92,7 @@ jobs:
         run: |
           python scripts/build_illustration_backlog.py
           python scripts/build_prompt_packs.py
-          python scripts/report_illustration_coverage.py
+          python scripts/report_illustration_coverage.py --strict
       - name: Verify Light publishing derivatives
         run: |
           python scripts/verify_light.py 156-219
@@ -168,13 +174,13 @@ jobs:
       - name: Commit generated reader presentation derivatives
         if: github.ref == 'refs/heads/main'
         run: |
-          if git diff --quiet -- chapters light light.html latest.html index.html assets/reader.css state/visual/ILLUSTRATION_BACKLOG.md state/visual/ILLUSTRATION_COVERAGE.md state/visual/prompt-packs; then
+          if git diff --quiet -- chapters light light.html latest.html index.html assets/reader.css state/visual/ILLUSTRATION_REGISTRY.json state/visual/ILLUSTRATION_BACKLOG.md state/visual/ILLUSTRATION_COVERAGE.md state/visual/prompt-packs; then
             echo 'Reader and illustration production derivatives already current.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add chapters light light.html latest.html index.html assets/reader.css state/visual/ILLUSTRATION_BACKLOG.md state/visual/ILLUSTRATION_COVERAGE.md state/visual/prompt-packs
+          git add chapters light light.html latest.html index.html assets/reader.css state/visual/ILLUSTRATION_REGISTRY.json state/visual/ILLUSTRATION_BACKLOG.md state/visual/ILLUSTRATION_COVERAGE.md state/visual/prompt-packs
           git commit -m 'Refresh reader presentation'
           for attempt in 1 2 3; do
             git fetch origin main
