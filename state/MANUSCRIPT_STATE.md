@@ -1,8 +1,8 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 471 - **THE STRATEGIST**.
-- Exact Chapters 249-471 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
+- Current exact story endpoint: Chapter 472 - **THE BROKER**.
+- Exact Chapters 249-472 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
 
 ## Active correction overlays
 - Ch432 forewoman: **Rika Dorn**, not Nessa Vale.
@@ -10,200 +10,185 @@
 - Ch460 editorial naming-cleanup meta passage remains omitted during integration.
 
 ## Naming guardrail
-Before any new named character: check `BOOK1_NAME_REGISTRY_CH82.md` and current state for exact/TTS/syllable/surname collision. Temporary people do not automatically need names. Do not narrate editorial naming cleanup inside Greg POV.
+Before any new named character: check `BOOK1_NAME_REGISTRY_CH82.md` and current state for exact/TTS/syllable/surname collision. Temporary people do not automatically need names.
 
 ## Durable progression / leverage mandate
-- `state/PROGRESSION_ENGINE.md` now includes a **highest-leverage focus** rule.
-- The six capacities are not equal simultaneous priorities. Greg should periodically choose the single current bottleneck whose improvement creates the most options across other lanes.
-- Current near-term leverage focus: **EARNING POWER / CAPITAL**.
-- This is not permanent money worship. Greg should reassess when another bottleneck becomes more multiplicative.
-- Reason at current edge: money/earning power unlocks the work limb, artifacts, travel, paid expertise, training time, better recovery conditions, emergency margin, and rare opportunity capture.
-- Greg explicitly considers people/old-life contacts as potentially even higher leverage, but rejects `hope someone convenient appears` as a controllable plan.
-- Near-term objective is not merely `earn 30c`; it is **convert real accomplishments into proof/references/reputation that raise the market price of Greg's work**.
+- `state/PROGRESSION_ENGINE.md` is mandatory.
+- Current leverage focus remains **EARNING POWER / CAPITAL**, but Ch472 corrects the method from wage progression toward **brokerage / arbitrage / coordination / eventual ownership**.
+- Greg explicitly recognizes that 5c, 7c, and 8c jobs are better wages but still mostly selling days.
+- New economic scale principle: **THINK IN SILVER.** This does not mean instant silver wealth or refusing copper. It means seek transactions/contracts/commissions where total value moved is silver-scale and Greg captures a justified piece.
+- Copper years remain valid and important; the error would be treating them as permanent ceiling.
+- Greg also recognizes he may be substantially better at managing capable people than he has credited, because old S-class support required coordination, timing, resource allocation, specialist management, and contingency.
 
-## Current arc
-- Greg remains in **Lakeward**.
-- Sunroad west access remains closed pending inspection.
-- Three Rays information thread can braid into later support/tool choices rather than consuming every chapter.
-- Greg has now moved from planning progression to **executing an earning-power ladder**.
-
-## Chapter 471 - THE STRATEGIST
+## Chapter 472 - THE BROKER
 
 ### Role / title
-- Greg is **THE STRATEGIST** because he chooses one leverage point rather than trying to optimize every progression lane at once.
-- Title search found no prior `THE STRATEGIST` collision before drafting.
+- Greg is **THE BROKER** because he stops treating higher hourly/day wages as the endpoint and begins looking for value in mismatches, introductions, sourcing, coordination, and market spreads.
+- Title search found no prior `THE BROKER` collision before drafting.
 
-## Highest-leverage decision
-Greg explicitly compares:
-- deliberate magic training;
-- artifacts;
-- finishing the work limb;
-- people/network;
-- possible old-life reunions;
-- money/earning power.
+## Wage-ladder correction
+- Greg wakes realizing even the approved 7c Bonded Lot Discrepancy Review is the wrong long-term scale.
+- He remembers that silver existed in his earlier life/economy as something he had handled, won, and wasted, and that he had once confidently described an object as worth 40 gold. Ch472 deliberately does **not** establish whether that old 40-gold valuation was correct; it establishes only that Greg once thought at much larger economic scales.
+- Greg does not invalidate recent responsible copper living. He recognizes it as healthy rebuilding that had become autopilot.
+- He **declines the approved 7c review** rather than climbing the wage ladder automatically.
+- Key realization: **STOP SELLING DAYS.**
 
-Conclusion:
-- old-life contacts or a rare person could theoretically dwarf other gains, but cannot be scheduled;
-- magic is waiting on Hessa's safe/evidence-grounded reply;
-- artifacts and the work limb both require capital;
-- therefore the strongest **controllable** current lever is **earning power / capital**.
-- Greg writes: **INCREASE EARNING CEILING.**
-- He also records: **Do not confuse highest leverage with only thing that matters.**
+## Economic leverage map
+A Lakeward contracting clerk explains broad higher-leverage categories:
+- trade requires capital;
+- ownership requires more capital;
+- appraisal requires training/registration/liability;
+- brokerage requires trust;
+- commission requires someone needing a problem solved;
+- management/organization creates value through coordination.
 
-## First field proof: Mirror Spring chain verification
-- Greg takes his Mirror Spring sample-transport receipt and contract records to Lakeward district offices.
-- He encounters the important distinction between:
-  - Morrow certifying private contract completion;
-  - Lakeward district certifying only what district directly knows.
-- District will **not** certify that Greg's route judgment was correct or that every contract term was satisfactorily completed.
-- It will certify:
-  - sealed Mirror Spring sample arrived with intact accepted chain;
-  - transport form was complete enough for acceptance;
-  - associated route/water notes entered the file.
-- Greg receives a stamped **SUPPLEMENTAL FIELD CHAIN RECEIPT** at no copper fee.
-- This becomes his first legitimate field-chain verification.
+Greg recognizes brokerage/arbitrage as structurally similar to support: identify mismatches and move resources/information/capability to where they matter.
 
-## Morrow / Bracken reference requests
-- Greg sends Morrow lower-channel cooperative a written request for direct confirmation that the Mirror Spring private field contract was completed and paid under agreed terms. Reply pending.
-- At Lakeward road desk, Bracken final hazard inspection remains pending, so road office cannot certify hazard accuracy yet.
-- It can certify Greg's report was received **before** the temporary Sunroad west-access closure.
-- Greg receives a notation: report preceded closure; final hazard finding pending.
-- This is useful but does **not** yet count as a completed road reference.
+## Private commission board / silver-scale exposure
+Greg inspects private notices and sees larger-value contexts, including:
+- buyer seeking bulk dry reed glass with **1 silver ceiling**, commission by agreement;
+- buyer seeking matched Harbor Tension tiles;
+- Cinder Cross Tool House seeking retired route hardware and explicitly refusing unsupported Sunroad provenance premiums;
+- private house seeking organizer for three seasonal field crews;
+- buyer seeking two verified quieteners for copper-line work.
 
-## Earning-tier gate clarified
-- Contracting board confirms the Mirror Spring district chain verification counts for listings accepting one district field reference.
-- Greg still does not qualify for:
-  - 7c field marker audit requiring route reference;
-  - 8c warehouse claim inventory requiring two references;
-  - upper-rate ferry loss witness requiring license/two refs.
-- A suitable one-reference listing appears:
-  - **TRANSFER SEAL WITNESS / EAST LANDING / 5C / HALF DAY / ONE DISTRICT FIELD REFERENCE / NO APPRAISAL AUTHORITY**.
-- Greg takes it because it both pays and can create a second verifiable field-work category.
+These notices do not guarantee Greg profit. They show a market tier above ordinary day labor.
 
-## Transfer seal witness job
-- Three inbound cargo crates have discrepancies between ferry manifest and receiving records.
-- Greg is second/outside witness alongside landing office.
-- Scope is bounded:
-  - verify manifest seal number;
-  - physical seal number;
-  - crate side mark;
-  - existing damage;
-  - handlers;
-  - bonded-storage destination;
-  - any break in direct sight.
-- No appraisal, opening, valuation, or claim decision.
+## Existing tools gain market context
+- Greg notices he owns one retired line quietener and one HT-LP-4 retired Harbor Tension last-peak tile.
+- He does **not** sell either Ch472.
+- He realizes he has rarely asked what his carried tools are worth in different markets or to different functional buyers.
+- This is a future appraisal/arbitrage question, not an instant windfall.
 
-### Crate 1
-- Manifest seal: **E-7714**.
-- Physical seal: **E-7174**.
-- Same digits, different order.
-- Merchant calls it obvious transcription; Greg records both rather than correcting away uncertainty.
+## Network / management realization
+Greg audits his accumulated specialist network as **knowledge of who knows what**, not favors owed:
+- Sori: commercial/artifact judgment;
+- Hark & Venn: limb/mechanical fitting;
+- Hessa: field behavior/magic;
+- Mara Fen: old signal infrastructure;
+- Mera Tonn: fine mechanical repair / Lot67 service;
+- Della Orr: resonance-moth handling;
+- Lakeward archive staff: Three Rays records;
+- Bracken ridge office: Sunroad;
+- Morrow growers: local water pressure/field reality;
+- theatre people: fabrication/labor/audience/convincing false surfaces.
 
-### Crate 2
-- Seal matches.
-- Lower corner crushed.
-- Merchant claims old damage; arrival slate omitted it but was written after unload.
-- Greg correctly records timing unknown rather than treating absence on post-unload slate as proof.
+Greg realizes old S-class support often meant coordinating specialists stronger than him in their own lanes. He should stop assuming he is only valuable for what his own hands can do.
 
-### Crate 3
-- Seal matches manifest.
-- Side mark differs: manifest lot ends **C2**, physical crate ends **G2**.
-- Transfer stops.
-- Dock chalk board also shows G2, creating uncertainty between ferry paperwork and landing-side record.
-- Supervisor authorizes separate **discrepancy hold** transfer rather than pretending the mark matches.
-- Greg records red tag number, handlers, cart, continuous sight, and bonded-bay placement.
+## First live arbitrage / brokerage lead
+Greg follows Lakeward private notice for **six matched dry reed-glass bundles**.
+- Buyer has a **1 silver purchase ceiling**.
+- Needed within 12 days.
+- Requirements include low warp, no salt bloom, matched bundles; later clarified for lamp-house shutters, needing frame flex without edge powdering, optical quality irrelevant, gauge tolerance specified.
+- North shore has stock but buyer faces queue/ferry-delay constraints.
+- Buyer will pay:
+  - 3c for a qualifying direct introduction that passes inspection;
+  - 5c if landed price beats current north-shore quote by at least 10%;
+  - potentially more only if Greg takes purchase/resale risk himself, which he does not yet do.
+- No exclusivity.
+- Greg pays **1 bit** for specification copy.
 
-## Support relevance
-- The job reinforces Greg's support identity through preserving future options rather than solving everything himself.
-- His role is to keep uncertainty visible during movement so better-informed later people can still determine what happened.
-- Greg notices this is support work in a noncombat form.
+## Source lead: Cinder Cross
+- Fog Bowl House confirms its wick glass is a different product, preventing a convenient false match.
+- A sorter suggests an old inland source: **East Fen Glassyard**, near/east of **Cinder Cross**, which historically made reed material for signal houses; current status/grade unknown.
+- Inland reed tends thicker, so buyer's functional/gauge constraints matter.
+- This gives Greg a real sourcing lead, not a solved deal.
 
-## Second field verification / pay
-- East Landing signs completion:
-  - transfer seal witness completed;
-  - record accepted;
-  - no seal break during transfer;
-  - one crate moved under discrepancy hold.
-- Pay **+5c**.
-- Cash **10c -> 15c**.
-- Vale remains **23c**.
-- Temporary 10c survival reserve remains active; 5c above floor.
+## Cinder Cross convergence
+Cinder Cross now has at least two potentially useful economic leads:
+1. investigate East Fen Glassyard for qualifying reed glass;
+2. Cinder Cross Tool House seeks retired route hardware without unsupported folklore premium.
 
-## Earning ceiling moves
-- With:
-  1. district field-chain verification;
-  2. East Landing transfer-witness verification;
-  Greg now qualifies to **apply** for some two-reference custody listings.
-- He does not automatically qualify for every 7-8c job.
-- A plausible next listing:
-  - **BONDED LOT DISCREPANCY REVIEW / 7C / ONE DAY / TWO FIELD REFERENCES / NO VALUATION**.
-- Scope would compare physical marks, seal history, transfer records, and lot sheets; no opening or claim ruling.
-- Greg submits an application for the next day.
-- Acceptance remains pending.
+Greg knows Lakeward market has an 18c orphan Three Rays disk he no longer wants personally. He does not assume Cinder Cross will want it or that a spread exists, but recognizes possible brokerage information.
 
-## Strategic lesson
-- Greg ends with the same 15c purse level he had before returning from Bracken, but recognizes this is not a reset:
-  - yesterday he could not credibly apply for the 7c review;
-  - now he can.
-- Progression is defined as **earning ceiling moving before wealth does**.
-- He intentionally passes museum/artifact browsing because it is no longer the highest-value use of the afternoon.
-- No post replies yet from Hessa, Hark & Venn, Sori, or home.
+## People-management lane
+- Greg notices private notice seeking organizer for three seasonal field crews.
+- He does not apply Ch472 because scope is unknown.
+- He stops dismissing the category as outside his competence.
+- Future management/coordination work is now a serious leverage route, but must respect consent, incentives, references, and actual scope.
+
+## Next economic tier
+Greg writes:
+- **EARN ON JUDGMENT, CONNECTION, SPREAD, OWNERSHIP.**
+- **NEXT ECONOMIC TIER: THINK IN SILVER.**
+- **FIRST ARBITRAGE TEST: CINDER CROSS.**
+
+Meaning:
+- not instant silver;
+- not refuse copper;
+- seek silver-scale total value and capture justified commissions/spreads;
+- learn the market above current wealth before taking large ownership risk.
+
+## Travel constraint / next move
+- Lakeward -> Cinder Cross normal fare: **5c**.
+- Greg has **15c cash / 23c Vale**, so paying full fare would hit the 10c survival floor exactly.
+- He decides this is too tight for a speculative sourcing trip unless the road also produces another value stream.
+- New tactical goal: **find a way east without paying full fare from capital**.
+- Possible mechanisms: work passage, cargo escort, shared cart, route task, commission-linked travel, or another legitimate multi-purpose move.
+- Highest leverage does not eliminate adventure. It makes the road do more than one job.
 
 ## Body / magic / tools
-- No trial-limb wear Ch471; body lane breathes after Ch470 session.
-- Shoulder remains improved but still not fully healed; work is non-lifting and crutch-compatible.
+- No trial-limb wear Ch472.
+- Shoulder continues recovery in background; no new injury.
 - Protocol remains **59 / 53 / 139**.
 - No magic tests.
-- No artifact purchase.
-- Lot 67 unused.
+- No artifact purchase or sale.
+- Lot67 unused.
 
 ## Economy
-- Starts **10c cash / 23c Vale / bits unspecified**.
-- Transfer seal witness +5c.
+- Starts **15c cash / 23c Vale / bits unspecified**.
+- No copper earned or spent.
+- 1 bit spent for reed-glass specification copy; food/ordinary bits remain unspecified.
 - Ends **15c cash / 23c Vale / bits unspecified**.
-- 30c liquid target remains active.
-- 20c work-limb deposit remains paid toward 1 silver + 18c quote.
+- 10c survival floor active.
+- 30c liquid milestone still useful but now subordinate to silver-scale leverage thinking.
+- 20c limb deposit remains paid toward 1 silver + 18c quote.
 
 ## Protected uncertainties
-- Greg ends Ch471 in **Lakeward**.
+- Greg ends Ch472 in **Lakeward**.
 - Cash **15c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 139**.
-- Shoulder improving but still not fully healed.
-- Morrow contract-completion confirmation pending.
-- Bracken final hazard inspection/reference pending.
-- Bonded Lot Discrepancy Review 7c application pending; not yet accepted.
-- Hessa/Hark & Venn/Sori/home replies pending.
+- Shoulder improving but not fully healed.
+- Bonded Lot Discrepancy Review was approved but Greg voluntarily declined it.
+- Reed-glass commission is only a lead; no source secured, no fee earned.
+- East Fen Glassyard current existence/output/quality unknown.
+- Cinder Cross route-hardware demand is only a posted buyer notice; no spread proven.
+- Seasonal crew organizer scope unknown.
+- Hessa/Hark & Venn/Sori/home replies remain pending unless later travel/post timing supports arrival.
+- Morrow direct completion and Bracken final hazard references remain pending.
 - Sunroad west access remains closed.
 - No permanent companion.
 
-## Chapter 472 trailhead
-Follow next actual claim from Ch471/current authority and `state/PROGRESSION_ENGINE.md`.
+## Chapter 473 trailhead
+Follow next actual claim from Ch472/current authority and `state/PROGRESSION_ENGINE.md`.
 
-Greg begins **15c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**, in Lakeward with **earning power/capital** as his chosen leverage focus.
+Greg begins **15c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**, in Lakeward with his first live arbitrage/sourcing hypothesis pointed toward **Cinder Cross**.
 
 Strong movement:
-- Do not immediately reassess all six lanes. The focus is chosen. Execute it.
-- Resolve whether Greg is accepted for the **7c Bonded Lot Discrepancy Review**. Acceptance should depend on the actual fit of his two verifications and may include questions/limits rather than automatic approval.
-- If accepted, the task should be meaningfully harder than Ch471 transfer witnessing: multiple records, conflicting histories, pressure from interested parties, or a choice about what can/cannot be concluded.
-- Successful completion should strengthen Greg's earning ceiling and could produce a more reusable custody/field reference.
-- Do not make every money chapter paperwork. Let actual people, stakes, objects, humor, and consequences remain present.
-- Morrow and Bracken reference replies can arrive later when travel/post timing supports it; either could broaden route/custody work further.
-- The 30c target remains a milestone, not a mandatory immediate endpoint.
-- If a genuinely higher-leverage opportunity appears, Greg may change focus, but it must actually dominate the current earning-power strategy rather than merely be shiny.
-- An old-life person can appear eventually, but do not manufacture one solely because Greg considered the possibility. If such a reunion happens, it should be earned by geography/social history and materially alter the leverage calculation.
-- Body/magic/artifact lanes continue in background but should not steal focus without reason.
-- After Greg establishes a stronger earning category, open the next adventure route through work or opportunity rather than having him camp indefinitely at Lakeward boards.
+- Execute, do not retreat into another planning chapter.
+- Greg should try to solve the 5c travel-cost problem in a way that itself demonstrates leverage: work passage, shared freight arrangement, route-related task, useful introduction, or other multi-purpose transport.
+- Do not give him free fare because protagonist.
+- If he reaches Cinder Cross, investigate **East Fen Glassyard** against the buyer's actual specification. The source can fail, partially fit, require negotiation, or reveal a different opportunity.
+- Cinder Cross Tool House can create a second market-comparison lane, but avoid magically making every object Greg knows profitable.
+- The first brokerage win should preferably be modest in Greg's cut but silver-scale in transaction value, proving the model without making him rich overnight.
+- Alternatively, a failure that teaches a high-value market lesson can work if it materially improves his next move.
+- Keep people-management lane alive. Greg may discover that coordinating transport, sellers, buyers, or workers is where his support skill creates more value than personal labor.
+- Copper work remains acceptable when it subsidizes/advances the leverage route rather than replacing it.
+- Consider letting one pending letter/reference mature if postal timing now supports it, especially if it changes leverage.
+- Keep magic/body in background unless story naturally invokes them.
+- Adventure remains welcome. Cinder Cross should be a place with its own systems/people/problem, not just a supplier lookup.
 
 Avoid:
-- instant 30c;
-- automatic acceptance of every higher-tier contract;
-- references certifying more than institutions actually know;
-- turning Greg into a legal/accounting prodigy outside his experience;
-- surprise old-life reunion as pure convenience;
-- joyless optimization prose;
-- immediate new combat unless story genuinely demands it.
+- instant silver profit;
+- a perfect source waiting for Greg;
+- free travel;
+- making Greg an omniscient trader;
+- retroactively asserting the 40-gold old valuation was definitely correct without exact authority;
+- making all his carried artifacts secretly valuable;
+- another full audit monologue;
+- treating people as resources or followers.
 
-**MANDATORY TITLE CHECK CH472:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
+**MANDATORY TITLE CHECK CH473:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
