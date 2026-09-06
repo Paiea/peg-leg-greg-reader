@@ -28,7 +28,6 @@ EXACT_REPLACEMENTS = {
         ('<p>"Where did you get this idea?" Arlo asked. I smiled. He did not.</p>', '<p>"Where did you get this idea?" Arlo asked.</p><p>I smiled.</p><p>He did not.</p>'),
         ('<p>"Greg," Arlo said. I leaned over the bench.</p>', '<p>"Greg," Arlo said.</p><p>I leaned over the bench.</p>'),
         ('<p>"Cost?" I asked. He named a number. I swore. Arlo smiled for the first time all afternoon.</p>', '<p>"Cost?" I asked.</p><p>He named a number.</p><p>I swore.</p><p>Arlo smiled for the first time all afternoon.</p>'),
-        # Stale attribution corruption in Arlo's workshop.
         ('<p>"What?" Antonius asked.</p><p>"Nothing," I said.</p><p>"You keep looking at me," Antonius said.</p><p>"I have a memorable-face problem," I said.</p><p>"Your face?" Antonius asked.</p><p>"Other people\'s." Antonius held out his hand.</p><p>"You\'ve been staring at my hands for five minutes," Arlo said.</p>', '<p>"What?" Arlo asked.</p><p>"Nothing," I said.</p><p>"You keep looking at me," Arlo said.</p><p>"I have a memorable-face problem," I said.</p><p>"Your face?" Arlo asked.</p><p>"Other people\'s."</p><p>Arlo held out his hand.</p><p>"You\'ve been staring at my hands for five minutes," Arlo said.</p>'),
     ],
     '004.html': [
@@ -69,10 +68,10 @@ def conservative_explicit_split(html: str) -> tuple[str, int]:
             continue
         new = inner
 
-        # Greg explicitly owns dialogue, then a third-person actor begins an independent beat.
+        # Greg explicitly owns dialogue, then He/She begins an independent beat.
         if FIRST_PERSON_TAG.search(inner):
             new = re.sub(
-                r'((?:I (?:said|asked|answered|replied|added|muttered)[^.?!]*[.?!]|"[^\"]+"[^.?!]*\bI (?:said|asked|answered|replied|added|muttered)[^.?!]*[.?!]))\s+(?=(?:He|She|[A-Z][a-z]+)\b)',
+                r'((?:I (?:said|asked|answered|replied|added|muttered)[^.?!]*[.?!]|"[^\"]+"[^.?!]*\bI (?:said|asked|answered|replied|added|muttered)[^.?!]*[.?!]))\s+(?=(?:He|She)\b)',
                 r'\1</p><p>',
                 new,
                 count=1,
