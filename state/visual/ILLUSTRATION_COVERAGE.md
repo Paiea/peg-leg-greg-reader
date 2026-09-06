@@ -1,12 +1,12 @@
 # PEG-LEG GREG — ILLUSTRATION COVERAGE
 
-**Frontier: Chapter 427**
+**Frontier: Chapter 428**
 
 ## Reader coverage
 
-- Total chapter pages: 427
+- Total chapter pages: 428
 - Illustrated chapters: 163
-- Zero art: 264
+- Zero art: 265
 - One art: 12
 - Two art: 114
 - Three+ art: 37
@@ -18,7 +18,7 @@
 - Generated, awaiting approval: 0
 - Approved but unpublished: 0
 - Rejected generation attempts: 0
-- Zero-art chapters with no active candidate: 259
+- Zero-art chapters with no active candidate: 260
 - Registry live records: 357
 
 ## Next actionable chapters
