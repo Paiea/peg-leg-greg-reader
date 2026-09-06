@@ -3,37 +3,17 @@
   "mode": "whole_chapter_only",
   "default": "visible",
   "chapters": {
-    "3": {
-      "showcase": false,
-      "reason": "bridge_not_needed"
-    },
-    "6": {
-      "showcase": false,
-      "reason": "redundant_progression"
-    },
-    "8": {
-      "showcase": false,
-      "reason": "superseded_by_stronger_chapter"
-    },
-    "12": {
-      "showcase": false,
-      "reason": "redundant_progression"
-    },
-    "20": {
-      "showcase": false,
-      "reason": "low_consequence_mundane"
-    },
-    "21": {
-      "showcase": false,
-      "reason": "redundant_progression"
-    },
-    "33": {
-      "showcase": false,
-      "reason": "redundant_progression"
-    },
-    "38": {
-      "showcase": false,
-      "reason": "redundant_progression"
-    }
+    "3": {"showcase": false, "reason": "bridge_not_needed"},
+    "6": {"showcase": false, "reason": "redundant_progression"},
+    "8": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
+    "12": {"showcase": false, "reason": "redundant_progression"},
+    "20": {"showcase": false, "reason": "low_consequence_mundane"},
+    "21": {"showcase": false, "reason": "redundant_progression"},
+    "33": {"showcase": false, "reason": "redundant_progression"},
+    "38": {"showcase": false, "reason": "redundant_progression"},
+    "43": {"showcase": false, "reason": "redundant_progression"},
+    "46": {"showcase": false, "reason": "low_consequence_mundane"},
+    "48": {"showcase": false, "reason": "low_consequence_mundane"},
+    "49": {"showcase": false, "reason": "superseded_by_stronger_chapter"}
   }
 }
