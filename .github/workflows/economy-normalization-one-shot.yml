@@ -118,6 +118,8 @@ jobs:
             exit 0
           fi
           git commit -m 'Normalize economic scale across reader chapters'
+          # The workflow edits only its working-copy helper script; do not let that block rebase/push.
+          git restore scripts/apply_economy_normalization_live.py
           for attempt in 1 2 3; do
             git fetch origin main
             if ! git rebase origin/main; then
