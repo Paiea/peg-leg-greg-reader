@@ -100,6 +100,66 @@ Future reader / state tooling should flag structural review rather than silently
 
 These are review triggers, not automatic cut rules. Never manufacture a boundary to satisfy a threshold.
 
+## Approved update 6 — do not force a Book V Act break at Chapter 461
+
+Chapter 461, **THE SURVIVOR**, is a meaningful escalation but not yet a governing-question change.
+
+The self-directed expedition, route failure, emergency magic use, and physical danger deepen the same Book V concern rather than replacing it. Greg is still testing what happens when accumulated competence and freedom of movement let him choose farther work and farther risk.
+
+Treat 461 as a review marker / internal inflection, not an Act boundary. Reconsider only if later chapters retrospectively reveal that the expedition or its consequences permanently change the Book's operating condition.
+
+## Approved update 7 — keep Book V Act I open through current authority
+
+Do **not** split **THE LONGER REACH** merely because Chapters 461–474 become more adventurous or more economic.
+
+The later run remains structurally coherent:
+- 461 proves self-directed travel now carries real physical consequence;
+- 467–468 make curiosity itself a legitimate reason to enter an unknown route;
+- 470 explicitly reframes progression around body, magic, money, tools, information, people, credential, reputation, and capital;
+- 474 turns that accumulation into silver-scale brokerage leverage without requiring silver-scale ownership.
+
+That is development inside one governing concern, not four separate Acts.
+
+## Approved update 8 — distinguish Book opening chapter from Book role-card chapter
+
+A Book boundary does not require its role-card art to come from the first chapter.
+
+For Book V:
+- narrative opening remains Chapter 441, **THE SAILOR**;
+- visual identity remains targeted at Chapter 446, **THE INVESTOR**.
+
+This should become a reusable reader rule. Choose Book art for representativeness, not boundary adjacency. Do not replace strong existing Book I–IV role cards merely because structure was repassed.
+
+Current preservation decision:
+- Book III keeps `book-iii-magistrate-231.webp` unless a later art-quality review independently finds a materially better card;
+- Book IV keeps `book-iv-surveyor-331.webp`; Chapter 331 remains an excellent visual statement of Book IV's portable field-work identity.
+
+## Approved update 9 — active Book / Act ranges must be live, not fake-closed
+
+State should express active structure as **441–current**, not guess a future ending.
+
+Reader generation may render the actual currently published numeric edge for navigation, but it must preserve active/open semantics in source metadata so a static generated range is not mistaken for a closed Book or Act.
+
+Do not hard-code a false structural endpoint merely because the reader currently has fewer chapter files than manuscript authority.
+
+## Approved update 10 — retire the hand-maintained chapter index as endpoint authority
+
+`state/MANUSCRIPT_CHAPTER_INDEX.md` is currently frozen at Chapter 248 while exact manuscript authority is far beyond it. It must not continue masquerading as a current endpoint/index authority.
+
+Integration should either:
+1. regenerate the chapter index deterministically from current authoritative chapter/checkpoint metadata, or
+2. explicitly mark the file as legacy / non-authoritative and replace its engine-routing role with a generated current index.
+
+Preferred direction: generated index. Chapter titles and structural groupings already exist in machine-readable / checkpoint sources; maintaining another manual 400+ line ledger invites silent drift.
+
+The generated index should validate:
+- contiguous chapter numbers;
+- title presence;
+- current exact endpoint agreement with `MANUSCRIPT_STATE.md`;
+- Book / Act membership from structural metadata;
+- no chapter assigned to two Books/Acts;
+- no closed Book/Act ending beyond existing exact prose.
+
 ## Current approved map
 
 - **BOOK I — 1–82**
@@ -119,8 +179,10 @@ These are review triggers, not automatic cut rules. Never manufacture a boundary
 
 1. Reconcile this map against any chapter merges / cuts / renumbering from the active compression pass.
 2. Update project structural state and reader Book/Act metadata from the reconciled map.
-3. Extend reader coverage from its current 467 edge through current manuscript authority.
-4. Run illustration reconciliation against changed Book/Act/chapter placement.
-5. Clear visual production hold only after anchors and reader structure are stable, then generate/review the Book V role card.
+3. Replace or regenerate stale chapter-index authority from the reconciled exact chapter set.
+4. Extend reader coverage from its current edge through current manuscript authority without inventing a closed Book V endpoint.
+5. Run illustration reconciliation against changed Book/Act/chapter placement.
+6. Preserve validated Book III / IV role cards; add Book V role-card packet only after structure stabilizes.
+7. Clear visual production hold only after anchors and reader structure are stable, then generate/review the Book V role card.
 
 Do not let existing role-card art force a story boundary. Preserve good art when the Book survives; remap or replace when the story structure changes.
