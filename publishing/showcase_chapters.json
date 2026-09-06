@@ -26,6 +26,14 @@
     "21": {
       "showcase": false,
       "reason": "redundant_progression"
+    },
+    "33": {
+      "showcase": false,
+      "reason": "redundant_progression"
+    },
+    "38": {
+      "showcase": false,
+      "reason": "redundant_progression"
     }
   }
 }
