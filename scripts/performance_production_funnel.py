@@ -18,10 +18,18 @@ MONEY_RE = re.compile(r"\b(?:\d+|one|two|three|four|five|six|seven|eight|nine|te
 CAPITALIZED_RE = re.compile(r"\b[A-Z][A-Za-z'’-]*\b")
 WORD_RE = re.compile(r"\b[A-Za-z][A-Za-z'’-]*\b")
 SENTENCE_RE = re.compile(r"[^.!?]+[.!?]+|[^.!?]+$")
+SCENE_ID_RE = re.compile(r"^(?P<chapter>\d{3})\.s(?P<number>\d{3,})$")
 ACTION_WORDS = {
     "lifted", "moved", "picked", "set", "turned", "walked", "reached", "tapped",
     "shook", "opened", "closed", "held", "placed", "wrote", "swept", "sweeping",
     "rotated", "pointed", "pushed", "pulled", "sat", "stood", "crossed", "carried",
+}
+COMPILER_VERSIONS = {
+    "mechanical": "mechanical/v1",
+    "semantic": "scene-semantic/v1",
+    "performance": "performance/v1",
+    "screenplay": "screenplay/v1",
+    "comparison": "comparison/v1",
 }
 
 
@@ -52,6 +60,11 @@ def extract_paragraphs(page: str) -> list[str]:
     if not article:
         return []
     return [_plain(match.group(0)) for match in P_RE.finditer(article.group(2)) if _plain(match.group(0))]
+
+
+def dependency_fingerprint(*parts: object) -> str:
+    payload = json.dumps(parts, sort_keys=True, ensure_ascii=False, separators=(",", ":"))
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
 
 
 def source_fingerprint(paragraphs: list[str]) -> str:
@@ -95,43 +108,220 @@ def build_mechanical_ir(scene: dict) -> dict:
     }
 
 
+def _scene_number(scene_id: str) -> int:
+    match = SCENE_ID_RE.match(scene_id)
+    if not match:
+        raise ValueError(f"invalid scene id: {scene_id}")
+    return int(match.group("number"))
+
+
+def _format_scene_id(chapter: int, number: int) -> str:
+    return f"{chapter:03d}.s{number:03d}"
+
+
+def _allocate_between(chapter: int, left: int | None, right: int | None, used: set[int]) -> str:
+    if left is None and right is None:
+        candidate = 10
+    elif left is None:
+        candidate = max(1, right // 2)
+    elif right is None:
+        candidate = left + 10
+    elif right - left > 1:
+        candidate = left + (right - left) // 2
+    else:
+        candidate = (max(used) if used else left) + 10
+    while candidate in used:
+        candidate += 1
+    used.add(candidate)
+    return _format_scene_id(chapter, candidate)
+
+
+def _previous_scene_entries(previous_manifest: dict | None) -> dict[str, dict]:
+    if not isinstance(previous_manifest, dict):
+        return {}
+    entries = previous_manifest.get("scenes")
+    return entries if isinstance(entries, dict) else {}
+
+
 def segment_chapter(page: str, chapter: int, previous_manifest: dict | None = None) -> list[dict]:
-    del previous_manifest  # Stable-ID reconciliation is added by the cache layer, not the first parser pass.
     if not isinstance(chapter, int) or chapter < 1:
         raise ValueError("chapter must be a positive integer")
     article = ARTICLE_RE.search(page)
     if not article:
         raise ValueError("missing article.prose")
 
-    body = article.group(2)
-    raw_segments = SCENE_BREAK_RE.split(body)
-    scenes: list[dict] = []
+    raw_segments = SCENE_BREAK_RE.split(article.group(2))
+    sources: list[dict] = []
     paragraph_cursor = 1
     for raw_segment in raw_segments:
         paragraphs = [_plain(match.group(0)) for match in P_RE.finditer(raw_segment)]
         paragraphs = [paragraph for paragraph in paragraphs if paragraph]
         if not paragraphs:
             continue
-        scene_number = (len(scenes) + 1) * 10
-        scene_id = f"{chapter:03d}.s{scene_number:03d}"
         start = paragraph_cursor
         end = paragraph_cursor + len(paragraphs) - 1
-        source = {
+        sources.append({
             "chapter": chapter,
             "paragraphs": paragraphs,
             "paragraph_span": [start, end],
             "start_anchor": paragraphs[0],
             "end_anchor": paragraphs[-1],
             "hash": source_fingerprint(paragraphs),
-        }
+        })
+        paragraph_cursor = end + 1
+    if not sources:
+        raise ValueError("article.prose contains no readable paragraphs")
+
+    previous_entries = _previous_scene_entries(previous_manifest)
+    previous_order = previous_manifest.get("scene_order", []) if isinstance(previous_manifest, dict) else []
+    if not isinstance(previous_order, list):
+        previous_order = []
+    previous_order = [scene_id for scene_id in previous_order if scene_id in previous_entries]
+    hash_to_ids: dict[str, list[str]] = {}
+    for scene_id in previous_order:
+        source_hash = previous_entries[scene_id].get("source_hash")
+        if isinstance(source_hash, str):
+            hash_to_ids.setdefault(source_hash, []).append(scene_id)
+
+    assigned: list[str | None] = [None] * len(sources)
+    used_ids: set[str] = set()
+    for index, source in enumerate(sources):
+        candidates = [scene_id for scene_id in hash_to_ids.get(source["hash"], []) if scene_id not in used_ids]
+        if len(candidates) == 1:
+            assigned[index] = candidates[0]
+            used_ids.add(candidates[0])
+
+    if not previous_entries:
+        assigned = [_format_scene_id(chapter, (index + 1) * 10) for index in range(len(sources))]
+    else:
+        used_numbers = {_scene_number(scene_id) for scene_id in previous_entries}
+        used_numbers.update(_scene_number(scene_id) for scene_id in used_ids)
+        for index, scene_id in enumerate(assigned):
+            if scene_id is not None:
+                continue
+            left_number = None
+            for left_index in range(index - 1, -1, -1):
+                if assigned[left_index] is not None:
+                    left_number = _scene_number(assigned[left_index])
+                    break
+            right_number = None
+            for right_index in range(index + 1, len(assigned)):
+                if assigned[right_index] is not None:
+                    right_number = _scene_number(assigned[right_index])
+                    break
+            assigned[index] = _allocate_between(chapter, left_number, right_number, used_numbers)
+
+    scenes: list[dict] = []
+    for scene_id, source in zip(assigned, sources):
+        assert scene_id is not None
         scene = {"scene_id": scene_id, "source": source}
         scene["mechanical"] = build_mechanical_ir(scene)
+        scene["dependencies"] = {
+            "mechanical": {
+                "source_hash": source["hash"],
+                "compiler": COMPILER_VERSIONS["mechanical"],
+            }
+        }
         scenes.append(scene)
-        paragraph_cursor = end + 1
-
-    if not scenes:
-        raise ValueError("article.prose contains no readable paragraphs")
     return scenes
+
+
+def build_chapter_manifest(
+    chapter: int,
+    source_path: str,
+    scenes: list[dict],
+    compiler_versions: dict,
+    previous_manifest: dict | None = None,
+) -> dict:
+    del previous_manifest
+    scene_entries: dict[str, dict] = {}
+    for scene in scenes:
+        source = scene["source"]
+        scene_entries[scene["scene_id"]] = {
+            "source_hash": source["hash"],
+            "start_anchor": source["start_anchor"],
+            "end_anchor": source["end_anchor"],
+            "paragraph_span": source["paragraph_span"],
+            "status": "current",
+        }
+    return {
+        "schema": "performance_chapter_manifest/v1",
+        "chapter": chapter,
+        "source_path": source_path,
+        "source_hash": dependency_fingerprint([scene["source"]["hash"] for scene in scenes]),
+        "compiler_versions": dict(compiler_versions),
+        "scene_order": [scene["scene_id"] for scene in scenes],
+        "scenes": scene_entries,
+    }
+
+
+def cache_status(
+    scene_record: dict,
+    *,
+    source_hash: str,
+    semantic_version: str,
+    performance_version: str,
+) -> dict:
+    record_source = scene_record.get("source", {})
+    dependencies = scene_record.get("dependencies", {})
+    semantic_dep = dependencies.get("semantic", {}) if isinstance(dependencies, dict) else {}
+    performance_dep = dependencies.get("performance", {}) if isinstance(dependencies, dict) else {}
+    mechanical_valid = isinstance(record_source, dict) and record_source.get("hash") == source_hash
+    semantic_valid = (
+        mechanical_valid
+        and isinstance(semantic_dep, dict)
+        and semantic_dep.get("source_hash") == source_hash
+        and semantic_dep.get("compiler") == semantic_version
+    )
+    performance_valid = (
+        semantic_valid
+        and isinstance(performance_dep, dict)
+        and performance_dep.get("source_hash") == source_hash
+        and performance_dep.get("compiler") == performance_version
+    )
+    return {
+        "mechanical_valid": mechanical_valid,
+        "semantic_valid": semantic_valid,
+        "performance_valid": performance_valid,
+    }
+
+
+def _write_json(path: Path, value: object) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(value, ensure_ascii=False, sort_keys=True, indent=2) + "\n", encoding="utf-8")
+
+
+def write_compiled_chapter(
+    chapter: int,
+    page: str,
+    output_root: Path,
+    previous_manifest: dict | None = None,
+) -> list[Path]:
+    chapter_root = output_root / f"{chapter:03d}"
+    manifest_path = chapter_root / "manifest.json"
+    if previous_manifest is None and manifest_path.exists():
+        try:
+            loaded = json.loads(manifest_path.read_text(encoding="utf-8"))
+            previous_manifest = loaded if isinstance(loaded, dict) else None
+        except (OSError, json.JSONDecodeError):
+            previous_manifest = None
+    scenes = segment_chapter(page, chapter, previous_manifest=previous_manifest)
+    manifest = build_chapter_manifest(
+        chapter,
+        f"chapters/{chapter:03d}.html",
+        scenes,
+        COMPILER_VERSIONS,
+        previous_manifest=previous_manifest,
+    )
+    written: list[Path] = []
+    _write_json(manifest_path, manifest)
+    written.append(manifest_path)
+    for scene in scenes:
+        suffix = scene["scene_id"].split(".", 1)[1]
+        scene_path = chapter_root / f"{suffix}.json"
+        _write_json(scene_path, scene)
+        written.append(scene_path)
+    return written
 
 
 def validate_record(record: dict) -> None:
