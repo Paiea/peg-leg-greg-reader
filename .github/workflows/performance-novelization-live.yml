@@ -1,0 +1,75 @@
+name: PERFORMANCE novelization live experiment
+
+on:
+  push:
+    branches:
+      - experiment/performance-novelization-live
+    paths:
+      - 'scripts/apply_performance_novelization_experiment.py'
+      - 'tests/test_performance_novelization_experiment.py'
+      - '.github/workflows/performance-novelization-live.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  novelize-validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Focused experiment tests
+        run: python -m unittest tests.test_performance_novelization_experiment -v
+      - name: Apply exact surviving novelization patches
+        run: python scripts/apply_performance_novelization_experiment.py --write
+      - name: Validate repository and reader
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py' -v
+          git diff --check
+          python scripts/verify_reader_frontier.py
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          for number in (7, 13, 18):
+              path = Path('chapters') / f'{number:03d}.html'
+              page = path.read_text(encoding='utf-8')
+              m = re.search(r'<article\s+class="prose"[^>]*>(.*?)</article>', page, re.S | re.I)
+              if not m:
+                  raise SystemExit(f'missing prose article: {path}')
+              if '—' in re.sub(r'<[^>]+>', '', m.group(1)):
+                  raise SystemExit(f'em dash in prose: {path}')
+          print('Target no-em-dash check passed.')
+          PY
+      - name: Verify bounded prose diff
+        run: |
+          python - <<'PY'
+          import subprocess
+          allowed = {
+              'chapters/007.html',
+              'chapters/013.html',
+              'chapters/018.html',
+              'state/editorial/performance-lab/NOVELIZATION_LIVE_REPORT.md',
+          }
+          changed = set(subprocess.check_output(['git', 'diff', '--name-only'], text=True).split())
+          extra = changed - allowed
+          if extra:
+              raise SystemExit('unexpected generated/modified files: ' + ', '.join(sorted(extra)))
+          missing = {'chapters/007.html', 'chapters/013.html', 'chapters/018.html'} - changed
+          if missing:
+              raise SystemExit('expected surviving scene edits missing: ' + ', '.join(sorted(missing)))
+          print('Bounded diff passed:', ', '.join(sorted(changed)))
+          PY
+      - name: Commit validated candidate prose
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add chapters/007.html chapters/013.html chapters/018.html state/editorial/performance-lab/NOVELIZATION_LIVE_REPORT.md
+          git commit -m "Novelize bounded PERFORMANCE experiment"
+          git push origin HEAD:experiment/performance-novelization-live
