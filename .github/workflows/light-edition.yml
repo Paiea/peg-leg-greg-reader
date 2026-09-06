@@ -37,6 +37,7 @@ on:
       - 'index.html'
       - 'scripts/showcase.py'
       - 'scripts/generate_light.py'
+      - 'scripts/dialogue_ownership_check.py'
       - 'scripts/generate_illustrated.py'
       - 'scripts/reader_sections.py'
       - 'scripts/update_home_contents.py'
