@@ -78,7 +78,12 @@ def build_generation_queue(
     }
     queue: list[dict] = []
     for candidate in candidates:
-        if candidate.get("status") != "prompt_ready" or candidate.get("candidate_id") in active or candidate.get("id") in active:
+        if (
+            candidate.get("status") != "prompt_ready"
+            or candidate.get("anchor_blocked")
+            or candidate.get("candidate_id") in active
+            or candidate.get("id") in active
+        ):
             continue
         candidate_id = candidate["id"]
         if candidate_id in active:
@@ -138,6 +143,7 @@ def build_generation_queue(
                 "continuity_notes": continuity_notes,
                 "prompt_pack": f"state/visual/prompt-packs/{candidate_id}.md",
                 "paragraph_anchor": candidate.get("paragraph_anchor", ""),
+                "anchor_status": candidate.get("anchor_status", ""),
                 "target_asset": target_asset,
                 "coverage_before": coverage_before,
                 "status": "generation_ready",
