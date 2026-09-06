@@ -71,25 +71,19 @@ But he also does take risks on people others will not fund, and many borrowers m
 
 ### Collection behavior
 
-Antonius's preferred outcome is not always maximum cash extraction.
+Antonius generally does **not expect** risky borrowers to repay every line of the accrued interest cleanly in cash.
 
-He generally wants:
-1. the borrower to remain operational;
-2. the borrower to become more useful/capable;
-3. the relationship to produce value;
-4. the account to preserve leverage until the relationship has matured or the borrower has become clearly independent.
+That expectation is part of the model. The ugly interest preserves leverage.
 
-Therefore Antonius may:
-- accept labor credits;
-- waive or ignore some soft charges;
-- refrain from forcing liquidation that would make the borrower less capable;
-- preserve principal/hard-cost accountability while treating portions of accrued interest as negotiable leverage;
-- refuse symbolic repayment that destroys working capital;
-- settle an old account for materially less than its raw face balance when the relationship has already produced substantial return.
+He may accept labor, information, access, introductions, and usefulness over time because those are economically valuable to him even if the face ledger remains ugly.
 
-This does not mean the debt was fake.
+However, for Greg specifically, Antonius does **not waive the final interest** once Greg decides to clear the account.
 
-Greg still loses money, time, labor, freedom, and optionality because he accepted bad terms.
+That is the stronger outcome.
+
+Antonius is willing to let the leash persist almost indefinitely because he does not expect full repayment. Greg surprises him by paying the whole face balance anyway.
+
+Greg therefore bears the full monetary consequence of the terrible terms he knowingly accepted.
 
 ## Vale ledger normalization model
 
@@ -123,37 +117,39 @@ Where Chapter 10 currently says Greg will own it once he produces **10s**, norma
 
 This turns an error into character-consistent financial damage.
 
-### Late verification / settlement
+### Late verification
 
-The late Vale verification should reveal two numbers or concepts:
+The late Vale verification should reveal **one collectible face balance**: the ugly nominal amount after principal, advances, fees, labor credits, payments, and accumulated interest are all reconciled.
 
-1. **Face ledger balance** — the ugly nominal amount if all accrued interest/fees are counted literally.
-2. **Settlement / collectible balance** — the amount Antonius actually expects Greg to clear after accounting for labor credits, already-realized relationship value, and waived/non-collected accrued interest.
+There is no friendship discount and no settlement waiver.
 
-The face balance should be large enough that Greg's reaction is essentially:
+The balance should be large enough that Greg's reaction is essentially:
 
-**I understood compound/short-term interest and still did this. I am dumb.**
+**I understood the terms. I kept borrowing anyway. I am dumb.**
 
 Antonius can agree without cruelty.
 
-Antonius should be more impressed than the recent 23c version allowed because Greg has actually reached the point where he can materially attack a silver-scale obligation through his own earning power.
+The exact normalized amount should be chosen only after the representative later earnings are normalized, so that Greg can plausibly repay it in full over the existing late sequence without an economic reset.
 
-### Why Antonius releases the leash
+Target shape: **high tens of silver**, not pocket copper and not a number so large that closure requires rewriting the plot.
 
-The account's final closure should matter because Antonius could plausibly keep extending the relationship through the ledger, not because the last few coins are emotionally sacred.
+### Why full repayment is interesting
 
-By closure:
-- Greg has become commercially useful;
-- Greg has repeatedly returned rather than disappeared;
-- Greg has produced value for Vale beyond scheduled interest;
-- Greg can earn real silver through independent work;
-- Greg is becoming capable of refusing low-value work and operating without Antonius's capital.
+Antonius does not expect Greg to pay all the interest.
 
-Antonius therefore allows a real settlement and releases the account.
+That is precisely why Greg doing so matters.
 
-This is both practical and mildly meaningful to him.
+The account was designed to become a long leash. Greg eventually becomes economically capable enough to cut the leash by honoring the exact terrible agreement in full.
 
-He does not need a sentimental confession scene.
+Antonius is more impressed because:
+- he expected usefulness, labor, information, and continued orbit more than perfect cash collection;
+- Greg had every incentive to keep living under the flexible account;
+- Greg instead becomes independently productive enough to eliminate the entire balance;
+- the wager produces more than Antonius expected.
+
+Antonius should not become sentimental or refuse payment.
+
+If Greg says he is paying the account, Antonius takes the money and closes it.
 
 ## Late relationship consequence
 
@@ -163,7 +159,7 @@ Before closure, jokes with Antonius always have an account underneath them.
 
 After closure, Greg can ask **"Drink?"** with no ledger reason.
 
-Antonius is allowed to be quietly impressed that his early bad bet / leverage position turned into a competent independent person.
+Antonius is allowed to be quietly impressed that the overconfident idiot who took absurd financing actually paid the entire compounded account.
 
 The relationship remains acquaintance / friend-adjacent, not suddenly intimate.
 
@@ -219,7 +215,7 @@ These are editorial targets, not universal wage rates.
 ### Raise
 - Ch471 independent transfer-seal witness: low silver, roughly **1s-3s**.
 - Ch475 urgent heavy-yard coordination: roughly **3s-6s**.
-- Ch490 urgent receiving-house coordination: roughly **5s-10s**, depending final surrounding calibration.
+- Ch490 urgent receiving-house coordination: meaningful silver, with the exact amount chosen to fit the full-repayment chain.
 
 ### Raise whole commercial transaction plus Greg's fee
 - Ch474 reed-glass sourcing sequence: underlying order several silver or more; Greg commission low silver, roughly **1s-3s**, possibly higher if he materially improves price/availability.
@@ -227,13 +223,13 @@ These are editorial targets, not universal wage rates.
 
 ### Gray freight
 - Ch473 current 1s-load / 5c-fee structure is economically incoherent with the explicit legal risk.
-- Preferred posture is still small-to-medium gray freight, not major organized contraband.
-- Normalize whole load into **tens of silver** and Greg's fee into **several to low-double-digit silver**, with a real several-silver driver premium.
-- A stronger 30s+ Greg fee requires correspondingly larger, more serious underlying cargo/risk.
-- Gold-scale Greg pay is reserved for later genuinely large illicit/artifact operations.
+- Preferred posture is still small-to-medium gray freight, not automatically major organized contraband.
+- Normalize whole load into at least **tens of silver** and Greg's fee into meaningful silver.
+- If the scene's explicit seizure/charge/reputation risk is preserved at the stronger end, **30s+ for Greg is plausible only when the underlying cargo also rises enough to support it**.
+- Gold-scale Greg pay is reserved for genuinely large illicit/artifact operations.
 
 ### South Road
-- Ch485-486 four-day multi-crew organizer term should cross clearly into **tens of silver**, roughly **12s-20s total**.
+- Ch485-486 four-day multi-crew organizer term should cross clearly into **tens of silver**.
 - Greg still does not own fieldcraft, hiring, safety, or specialist authority.
 
 ## Minimal prose-repair strategy
@@ -252,17 +248,18 @@ Preferred prose changes are concentrated at:
    - recalculate dependent purse figures;
    - adjust Greg's reaction only where the old copper-scale reaction becomes wrong.
 
-3. **Late Vale verification/settlement**
-   - reveal absurd face balance;
+3. **Late Vale verification / full repayment**
+   - reveal absurd but collectible face balance;
    - have Greg recognize his own stupidity/arrogance;
-   - distinguish face balance from Antonius's settlement amount;
-   - show Antonius waiving/non-collecting a large accrued-interest component because he has already realized relationship value;
-   - preserve Greg making a real substantial payment while protecting working capital;
-   - preserve later final closure becoming administratively simple after Greg's earning power rises.
+   - make clear Antonius did not really expect every interest line to be paid;
+   - have Greg insist on clearing the entire amount anyway;
+   - preserve Greg making a large first payment while protecting enough working capital to remain operational;
+   - preserve later final closure becoming administratively simple after Greg's earning power rises;
+   - Antonius takes the money rather than waiving it.
 
 4. **Chapter 491 relationship scene**
    - preserve structure;
-   - lightly strengthen Antonius's respect/impressed calibration if needed;
+   - strengthen Antonius's impressed calibration lightly;
    - preserve understated tone.
 
 ## Non-goals
@@ -271,6 +268,7 @@ Do not:
 - make Antonius secretly benevolent;
 - make all debt harmless;
 - erase Greg's actual cost for bad borrowing;
+- waive the final interest for Greg;
 - make Greg financially ignorant;
 - make every job silver/gold;
 - invent a denomination conversion;
@@ -287,8 +285,10 @@ The repaired manuscript should make all of these simultaneously believable:
 - Antonius's rates are genuinely brutal.
 - Antonius still plausibly helps people and invests in them.
 - Antonius benefits from keeping borrowers in orbit.
+- Antonius does not expect most risky borrowers to pay every accrued interest line in cash.
 - Greg's running Vale balance becomes large without requiring a new plot.
-- Greg eventually becomes capable enough that Antonius can settle/release the account.
+- Greg eventually pays the **full** reconciled face balance anyway.
+- Antonius is genuinely impressed because Greg does something the lending model was not designed to require.
 - the final closure means freedom from leverage, not triumph over pocket change.
 - later skilled/high-risk work visibly pays more than early manual labor.
 - silver becomes normal operating money, tens of silver become leverage/risk money, and gold remains a higher tier.
