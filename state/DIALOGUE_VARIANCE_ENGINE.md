@@ -311,6 +311,64 @@ If there is a plausible moment of hesitation, repair it with the least invasive 
 
 The target is **zero ownership backtracking at normal reading speed**.
 
+### Update 6: active-cast and re-entry anchoring
+
+Do not make the reader remember who is still participating in a crowded scene across long stretches of prose.
+
+For substantial dialogue with three or more active people:
+- establish the active local cast when the exchange begins if the immediately preceding prose does not already make it obvious;
+- when a new person joins, anchor that entry before or with their first spoken line;
+- when someone leaves, becomes occupied elsewhere, or stops participating for a meaningful stretch, make that change legible if later dialogue depends on it;
+- when a previously silent or off-focus character speaks again after several turns or paragraphs, reintroduce them with a name, tag, or simple physical orientation.
+
+Do not write roll calls. One plain line, tag, or observable beat is enough. The point is to prevent "ghost speakers" from reappearing after the reader has mentally dropped them from the scene.
+
+### Update 7: short-line attribution floor
+
+PLG uses many compressed lines such as `No`, `Yes`, `Good`, `Wait`, `Again`, `Fine`, `What?`, and other one-to-three-word replies. These lines carry too little voice information to do reliable ownership work by themselves.
+
+In three-or-more-speaker exchanges:
+- tag or name short replies by default unless the immediately preceding addressed line makes the speaker impossible to mistake;
+- do not allow chains of anonymous short replies to function as a speaker puzzle;
+- after Greg interiority, narration, or a speaker-set change, explicitly attribute the next short reply;
+- a joke being funnier without a tag does not outrank ownership clarity.
+
+Shortness is not a substitute for attribution.
+
+### Update 8: explicit addressee for shared-target speech
+
+A line can have a clear speaker and still be confusing if the reader does not know who is being addressed.
+
+When a question, command, correction, offer, warning, or invitation could plausibly target more than one person:
+- name the addressee in the line or nearby prose;
+- or use a plain observable orientation such as turning, looking, handing over the object, pointing to the work, or stepping toward the intended person;
+- if someone other than the intended addressee answers, anchor that interruption explicitly.
+
+Do not invent theatrical gestures merely to show targeting. The smallest real orientation is enough.
+
+### Update 9: pronoun-collision rule
+
+Pronoun elegance is not worth referent ambiguity.
+
+When two or more locally active characters could plausibly match `he`, `she`, `they`, `him`, `her`, or `them`:
+- repeat the proper name, role, or unambiguous noun at the ownership point;
+- especially do this for action beats immediately before or after dialogue;
+- resume pronouns only after the local referent is secure again.
+
+Avoid sentences whose reader-facing logic is effectively `he looked at him` or `she answered her` when multiple candidates are present. Repeated names are acceptable scaffolding.
+
+### Update 10: object/task handoff continuity
+
+Crowded PLG scenes often organize around work, props, tools, papers, artifacts, money, food, or equipment. Dialogue ownership becomes easier when the reader also knows who currently owns the task or object.
+
+When a relevant object or task changes hands:
+- state the transfer plainly if later speech depends on who has it;
+- re-anchor the current holder/operator before a new technical exchange if the scene has become visually muddy;
+- when a specialist responds to a specific object, procedure, or work state, keep that object/task locally visible rather than relying on a stale paragraph several turns back;
+- after meaningful movement, repositioning, or workspace change, add a small spatial reset if ownership would otherwise blur.
+
+This is not inventory narration. Only track objects, positions, and tasks that are carrying dialogue logic.
+
 ## Voice-page maintenance
 
 When a recurring character has enough manuscript evidence, their voice page may record:
