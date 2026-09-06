@@ -1,5 +1,5 @@
 {
-  "latest": 386,
+  "latest": 387,
   "chapters": [
     {
       "number": 100,
@@ -1722,6 +1722,12 @@
       "title": "THE RUNNER",
       "source": "checkpoint",
       "path": "386.html"
+    },
+    {
+      "number": 387,
+      "title": "THE CREWMATE",
+      "source": "checkpoint",
+      "path": "387.html"
     }
   ]
 }
