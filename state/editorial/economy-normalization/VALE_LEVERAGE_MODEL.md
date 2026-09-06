@@ -36,19 +36,7 @@ A borrower may instead produce return through:
 
 Do not convert those relationship returns into invented exact coin credits unless exact prose establishes one.
 
-## Face balance versus settlement balance
-
-Vale accounts may contain two materially different economic concepts.
-
-### Face ledger balance
-The raw paper balance if principal, advances, financed purchases, agreed fees, and brutal accrued interest are allowed to accumulate.
-
-### Settlement / collectible balance
-What Antonius actually expects the borrower to clear after he decides how much accrued interest/soft charge he intends to enforce and after considering value already received through labor and relationship.
-
-This is not charity.
-
-Antonius can rationally decide that a nominal interest line has already done its job by keeping a useful borrower attached to him.
+The ugly interest is partly a leverage mechanism. Antonius expects many accounts to remain alive for a long time rather than close through perfect cash repayment.
 
 ## Greg-specific interpretation
 
@@ -68,37 +56,64 @@ Chapter 10's later **10s** statement should be repaired as the current amount at
 
 Do not change Chapter 7 to 10s merely to remove the contradiction.
 
-## Late Vale settlement target
+The Tere gauge remains a major economic anchor because Greg identified a plausible **40g+ right-buyer value** very early. That value is not immediate liquidity, but it proves that a later Vale debt around one or two gold can be substantial to Greg while still being small relative to the upside of a correctly monetized artifact position.
 
-Current approved normalization target for the late verification sequence:
+## Late Vale verification
 
-- **Face ledger balance:** approximately **96 silver**.
-- **Antonius non-collects / waives:** approximately **72 silver** of accrued interest and soft charges.
-- **Settlement balance Greg must actually clear:** **24 silver**.
+The normalized late verification should reveal **one reconciled collectible face balance** after actual payments and established labor credits are accounted for.
 
-These are normalization targets for the late prose patch, not a universal interest formula.
+There is no friendship discount.
 
-The face balance should make Greg recognize that he knowingly accepted insane financing and kept adding to it.
+There is no settlement waiver.
 
-The settlement should still be expensive enough that the debt was real.
+There is no secret charitable reduction for Greg.
 
-Antonius's decision to strip out the large accrued-interest component should be framed as a business judgment:
-- Greg already produced labor and useful relationship value;
-- Antonius did not need to financially cripple him to extract another nominal interest line;
-- Greg has finally become independently productive enough that keeping the leash has diminishing value;
-- the account has accomplished what Antonius wanted it to accomplish.
+Antonius generally did not expect Greg to pay every accrued interest line in cash. That is exactly why Greg doing so matters.
 
-## Approved late payment shape
+### Approved target scale
 
-Preferred normalized late sequence:
+Target the late Vale face balance at roughly **1g to 2g**, with the exact figure chosen during the recent-chain arithmetic patch.
 
-- Ch487 settlement balance verified at **24s** after the face-balance adjustment.
-- Greg pays **12s** while preserving meaningful working capital.
-- Settlement balance becomes **12s**.
-- Ch490 higher-value independent work pays enough that the remaining **12s** can be cleared without returning Greg to survival poverty.
-- Final receipt remains **PAID / BALANCE ZERO**.
+Do not convert that target into silver using an invented rate.
 
-Do not resurrect Vale debt afterward.
+This balance should feel:
+- large enough that Greg immediately recognizes how badly his early financing compounded;
+- small enough that later Greg can actually clear it after the manuscript's earning scale is normalized upward;
+- tiny relative to the possible **40g+** Tere right-buyer value, reinforcing that Greg's real long-run problem was capital discipline and monetization rather than lack of access to valuable things.
+
+Greg's reaction should land around:
+
+**I understood the terms. I kept borrowing anyway. I am dumb.**
+
+Antonius can agree without cruelty.
+
+## Full repayment rule
+
+Greg pays the **entire reconciled face balance**, including the interest Antonius never really expected to collect.
+
+That is the point.
+
+The account was designed to become a durable leash. Greg eventually becomes economically capable enough to cut the leash by honoring the exact terrible agreement in full.
+
+Antonius does not refuse the money.
+
+He does not waive the interest at the end.
+
+He takes it, closes the ledger, and is more impressed than he would have been by a negotiated settlement because Greg has done something the lending model was not really built to require.
+
+## Payment shape
+
+Preserve the existing late story shape rather than inventing a new debt arc:
+
+1. Greg verifies the ugly full balance.
+2. He realizes his early financing choices were absurd.
+3. He makes a large first payment while preserving enough working capital to stay operational.
+4. His newly normalized silver/tens-of-silver earning power makes the remaining balance shrink quickly relative to his economic life.
+5. He clears the rest in a later ordinary office stop.
+6. Final receipt remains **PAID / BALANCE ZERO**.
+7. Vale debt never returns.
+
+The exact denomination split between first and final payment must be chosen only after the Ch471-490 income normalization chain is reconciled.
 
 ## Antonius emotional calibration
 
@@ -112,11 +127,13 @@ He backed an undercapitalized, overconfident young man who:
 - repeatedly assumed future income would save him;
 - nevertheless kept returning, working, learning, and becoming useful.
 
-By the late closure, Greg is independently earning real silver through judgment, coordination, brokerage, and contracting.
+By the late closure, Greg is independently earning real silver and tens-of-silver through judgment, coordination, brokerage, contracting, and risk-bearing work.
 
-Antonius can recognize that the wager worked.
+The unusual part is not that Greg eventually has money.
 
-Keep the reaction understated.
+It is that Greg voluntarily uses that money to pay **all** of an ugly interest-heavy account Antonius assumed would function mostly as long-term leverage.
+
+Keep Antonius's reaction understated but genuine.
 
 No speech about believing in Greg all along is required.
 
