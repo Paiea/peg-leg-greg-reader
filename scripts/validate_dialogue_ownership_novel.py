@@ -12,7 +12,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from scripts.apply_dialogue_ownership_novel import active_source_map
-from scripts.dialogue_ownership_engine import mixed_owner_candidate, split_paragraph
+from scripts.dialogue_ownership_engine import has_dialogue, mixed_owner_candidate, split_paragraph
 from scripts.generate_light import load_all_sources
 
 REPORT = ROOT / "state" / "editorial" / "dialogue-ownership-pass" / "WHOLE_NOVEL_REPORT.md"
@@ -47,7 +47,7 @@ def main() -> int:
     for number in range(1, frontier + 1):
         chapter = chapters[number]
         for paragraph in paragraph_texts(chapter.prose_html):
-            if '"' not in paragraph:
+            if not has_dialogue(paragraph):
                 continue
             dialogue_paragraphs += 1
             if len(split_paragraph(paragraph)) > 1:
@@ -92,7 +92,7 @@ def main() -> int:
         "",
         "## Interpretation",
         "",
-        "A zero residual count means the deterministic engine has converged on the patterns it knows how to classify. It does not prove every semantic attribution in the novel is perfect. Ambiguous pronouns, unusual action verbs, and context-dependent speaker changes can still require human reading. The governing rule remains `state/editorial/DIALOGUE_OWNERSHIP_ENGINE.md`.",
+        "A zero residual count means the deterministic engine has converged on the patterns it knows how to classify. It does not prove every semantic attribution in the novel is perfect. Ambiguous pronouns, unusual action verbs, context-dependent speaker changes, and protected formatted Markdown can still require human reading. The governing rule remains `state/editorial/DIALOGUE_OWNERSHIP_ENGINE.md`.",
         "",
     ])
     REPORT.write_text("\n".join(lines), encoding="utf-8")
