@@ -4,6 +4,7 @@ import tempfile
 from pathlib import Path
 import unittest
 
+from scripts.generate_illustrated import prose_with_art
 from scripts.import_legacy_illustrations import bootstrap_legacy_registry
 from scripts.promote_illustrations import promote_html
 from scripts.report_illustration_coverage import assert_no_unmanaged_live_art
@@ -85,6 +86,20 @@ class IllustrationPromotionTests(unittest.TestCase):
         record["status"] = "generated"
         with self.assertRaisesRegex(ValueError, "approved"):
             promote_html('<article class="prose"><p>Glass mice.</p></article>', record)
+
+    def test_generator_keeps_registered_art_at_declared_anchor_with_registry_alt_text(self):
+        record = self.approved_record()
+        record["status"] = "live"
+        prose = '<p>Before.</p>\n<p>Glass mice.</p>\n<p>After.</p>'
+        art = [Path("visual/chapter_art/392/Ch392_glass_mice.webp")]
+        rendered = prose_with_art(prose, art, 392, {record["live_asset"]: record})
+        anchor = '<p>Glass mice.</p>'
+        figure = '<figure class="chapter-art scene-illustration">'
+        self.assertEqual(rendered.count(figure), 1)
+        self.assertLess(rendered.index(anchor), rendered.index(figure))
+        self.assertLess(rendered.index(figure), rendered.index('<p>After.</p>'))
+        self.assertIn(record["alt_text"], rendered)
+        self.assertIn(record["caption"], rendered)
 
 
 class RegistryFirstEnforcementTests(unittest.TestCase):
