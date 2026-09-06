@@ -30,14 +30,14 @@ Greg remains the gravitational center of short dry compressed comic reduction. O
 
 ## Sequential coverage ledger
 
-- Chapters **1-185: VARIANCE REVIEWED**
-- Chapters **186-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-195: VARIANCE REVIEWED**
+- Chapters **196-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 186**
+Current sequential variance edge: **Chapter 196**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_176_185.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_186_195.md`
 
 ## Sequential batch authority
 
@@ -75,6 +75,7 @@ Exact chapter-level findings and replacement prose are preserved in:
 - `BATCH_156_165.md`
 - `BATCH_166_175.md`
 - `BATCH_176_185.md`
+- `BATCH_186_195.md`
 
 All paths above are under `state/editorial/dialogue-variance-pass/`.
 
@@ -82,27 +83,28 @@ Existing out-of-sequence pilot evidence remains:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches do not bridge the unreviewed 186-320 gap.
+Those later batches do not bridge the unreviewed 196-320 gap.
 
-## Chapters 176-185 result
+## Chapters 186-195 result
 
-- Chapter 176 `THE QUESTIONER`: **light variance patch required**. Replace one Hessa gaze-to-prediction beat around the suspended-thread apparatus with direct procedural object language: `Not the threads.` Hessa owns the apparatus decision without needing to infer an unsaid request.
-- Chapter 177 `THE STAGEHAND`: **no variance change required**. Nessa/Pell/Veya/Rinna/Teren/Davin remain differentiated through tube route, performance timing, money, bill assignment, and hardware consequence. Temporary rehearsal convergence is earned.
-- Chapter 178 `THE ENSEMBLE PLAYER`: **no variance change required**. Lyssa keeps independent work/domestic rhythm; Nessa's crate/door corrections stay house-facing and object-specific; Third Man cue ownership keeps ensemble dialogue functionally distinct.
-- Chapter 179 `THE TESTER`: **light variance patch required**. Let Hessa's `Do not touch those` handling rule stand without proving Greg was looking with intent. Rule and apparatus are stronger than personality commentary.
-- Chapter 180 `THE THIRD MAN`: **no variance change required**. Pell's social overcompression of the magic result is deliberate story behavior, while Greg/Hessa resist it. Rinna/Teren/Sellen each ask a different practical question of the same event.
-- Chapter 181 `THE CALLER`: **no variance change required**. Calling work routes information through pointing, curtain, page, lamp, door, and bodies. Nessa's `You fit differently` remains concrete route judgment under current backstage constraints.
-- Chapter 182 `THE SUBJECT`: **no variance change required**. Hessa's compact procedure is earned by apparatus and evidence; the bounded `Yes` follows multiple trials rather than replacing them. Preserve the repeatable-external-response ceiling from prior authority.
-- Chapter 183 `THE WORKER`: **light variance patch required**. Remove Nessa's `you were about to` win at the cracked red-door foot; keep the material instruction: `Don't lift it` / `I was going to look` / `Then look lower.`
-- Chapter 184 `THE RUNNER`: **no variance change required**. Lyssa's `I know you` is earned relationship shorthand attached to an explicit parcel rule, while Marra/Jessa/Nessa/Rinna/Teren/lamp-seller information needs remain distinct and productively incomplete.
-- Chapter 185 `THE REGULAR`: **no variance change required**. Current function keeps mundane work fresh: oil tins, nail storage, fake loaf location, curtain work, prop routing, and today's bill all change the correct answer.
+- Chapter 186 `THE TESTER`: **light variance patch required**. Replace one Guild front-clerk `Wait / I didn't ask / You were going to` ladder with queue-specific language: `Wait` / `For Hessa?` / `Yes. Sit.` Keep Lyssa's wrong ankle prediction because it demonstrates earned familiarity plus fallibility.
+- Chapter 187 `THE SUBSTITUTE`: **no variance change required**. Greg owns a wrong prediction about Lyssa's parcel question, while Veya's `You moved / You leaned` is literal rehearsal evidence tied to the second-knock entrance.
+- Chapter 188 `THE HOUSEMAN`: **no variance change required**. Rear/house dialogue remains differentiated through cue geometry, hidden-crowd sound, lamp maintenance, object placement, and current assignment.
+- Chapter 189 `THE SHADOW`: **no variance change required**. Lyssa's ankle shorthand is grounded in an ongoing visible condition; Nessa/Pell/Veya remain distinct through shadow geometry, house sightline, actor timing, and imperfect explanation.
+- Chapter 190 `THE MEASURE`: **no variance change required**. Hessa's procedure remains apparatus-specific and the front clerk's `Wait` is queue control rather than prediction. The magic result advances only to supported directional preference in the current setup.
+- Chapter 191 `THE WITNESS`: **no variance change required**. Face/attention reading is the actual acting problem because Greg's knowledge of the purse leaks through gaze. Preserve established `EvIn` -> `Evin` casing repairs.
+- Chapter 192 `THE SELLER`: **no variance change required**. Thin-house audience pressure creates distinct performance behavior; Pell's shoe inference is fallible and unconfirmed rather than omniscient. Preserve established `EvIn` -> `Evin` casing repairs.
+- Chapter 193 `THE DINER`: **moderate variance patch required**. Let Greg verbalize the impulse to check the hall before Lyssa challenges his schedule; replace Sellen's food `you looked` beat with possessive misunderstanding (`Mine` / `Still mine`). Normalize reviewed `EvIn` occurrences to established `Evin`.
+- Chapter 194 `THE HAND`: **no variance change required**. Schedule chaos, tool work, casting changes, and Marek's unexpectedly complete family answer create productive variance. Normalize reviewed `EvIn` occurrences to established `Evin`.
+- Chapter 195 `THE CARRIER`: **moderate variance patch required**. Replace Jessa's `Don't / I didn't say / you were going to` warm-brown ladder with cloth-specific judgment (`Not this one` / `It answers the cloth`); retire the city-wide `That wasn't praise` catchphrase and let Greg own the final reduction. Normalize reviewed `EvIn` occurrences to established `Evin`.
 
 Batch totals:
 
-- Variance patches: **3** across Chapters **176, 179, 183**.
-- No-variance-change chapters: **177, 178, 180, 181, 182, 184, 185**.
-- Prior attribution/referent repair passages preserved: **0 required inside this range**.
-- New attribution repairs surfaced: **0**.
+- Variance patches: **5** across Chapters **186, 193, 195**.
+- No-variance-change chapters: **187, 188, 189, 190, 191, 192, 194**.
+- Prior accepted name-casing repairs preserved: **Evin**, including Chapters 191-192.
+- New reviewed-range name-casing continuation: **normalize `EvIn` to `Evin` in Chapters 193-195**.
+- New dialogue-attribution speaker-clarity repairs surfaced: **0**.
 - Structural changes: **0**.
 - Canon outcome changes: **0**.
 - Em dashes introduced in proposed replacement prose: **0**.
@@ -114,17 +116,20 @@ Batch totals:
 - Recurring-character dryness is allowed; review machinery and density, not mere terseness.
 - Distinguish safety `No`, job `No`, and comedy `No`.
 - Repeated prediction is especially dangerous when stacked among several familiar characters.
-- A repeated phrase can become evidence of its own overdistribution; narration such as `Everyone said that now`, `leaning had become legally binding`, or equivalent self-commentary is a warning to inspect the mechanism.
+- A repeated phrase can become evidence of its own overdistribution; narration such as `Everyone said that now`, `leaning had become legally binding`, `Everyone keeps accusing me of looking`, `the entire city had agreed on one sentence`, or equivalent self-commentary is a warning to inspect the mechanism.
 - A wrong prediction can be healthy if the speaker has a plausible basis and the miss demonstrates fallibility.
 - Relationship familiarity should change workflow and sharpen questions, not grant transcript access to Greg's unsaid sentence.
 - Relationship shorthand is healthiest when it opens a question instead of replacing the other person's report.
+- The protagonist can verbalize the impulse that a close relationship then challenges. This preserves intimacy without requiring the partner to narrate an exact unsaid plan.
 - Earned familiarity can compress directly to the current object. `Lamp? / Yes. / Get it.` is healthier shorthand than proving knowledge of an unsaid question when shared work history already identifies the subject.
 - Visible affect is cheaper than hidden reasoning. Seeing excitement, strain, disappointment, pleasure, or silence is not the same as knowing the exact inference behind it.
 - Prefer current evidence: object placement, stopped movement, spoken argument, gaze target, route choice, body position, damaged equipment, schedule pressure, or work history.
-- Current object or jurisdiction often beats generic perception: coat, debt history, wheel, route, apparatus, lamp, schedule, seal, food, or current task can carry the exchange.
+- Current object or jurisdiction often beats generic perception: coat, debt history, wheel, route, apparatus, lamp, schedule, seal, food, cloth, or current task can carry the exchange.
 - A direct handling rule is often stronger than a personality read. `Do not touch those` can be complete without proving Greg intended to touch them.
 - Naming the retired or protected object can replace predictive `No`. `Not the threads` is more Hessa-specific than rejecting an unsaid request.
 - Material authority should prefer the damaged object over the imagined action. `Then look lower` keeps Nessa centered on the cracked foot instead of Greg's hypothetical next move.
+- Craft authority can answer the object instead of the abstract question. `Not this one` / `It answers the cloth` can be stronger than either a lecture or a prediction ladder.
+- Possessive misunderstanding can carry social comedy without `you looked`. `Mine` / `Still mine` is enough when the joke is about ownership rather than perception.
 - Spoken reasoning should outrank face-reading when both are available.
 - Face-reading can be legitimate when observation is the scene mechanic, such as cards, acting, pain, visible physical strain, or obvious relational affect.
 - Deliberately unsettling perception still needs provenance. Drell's unusual observation is safer because the text makes his viewing and secondhand information path part of the scene.
@@ -132,7 +137,7 @@ Batch totals:
 - Expertise can demand the usable question. Hessa-style procedure is stronger when it asks Greg to state the specific testable question instead of rejecting a sentence he has not yet spoken.
 - Let experts be wrong about Greg sometimes.
 - Specialists should prefer current professional consequence over generic protagonist commentary.
-- First-contact professional scope is stronger than instant Greg calibration. A courier, seller, or worker can state what they use, protect, know, or do not know without joining Greg's prediction game.
+- First-contact professional scope is stronger than instant Greg calibration. A courier, seller, worker, or front clerk can state what they use, protect, know, queue, or do not know without joining Greg's prediction game.
 - Professional scope can be a stronger fingerprint than diction.
 - Shared technical shortness is safe when responsibility remains visible.
 - Shared workplace vocabulary such as `Again`, `No`, `Good`, and `Hold` is safe when authority remains local.
@@ -148,6 +153,7 @@ Batch totals:
 - Professional self-limitation is voice.
 - Not knowing can be professional competence when the missing information lies outside the character's responsibility.
 - Attribution density and voice variance are separate problems.
+- Name casing is continuity, not variance. Once `Evin` is source-settled, later reviewed `EvIn` drift should normalize separately rather than being treated as a voice edit.
 - Stress should degrade optimization before it erases character.
 - Practical care often sounds like logistics.
 - Let the world continue without interpreting the protagonist.
@@ -174,7 +180,7 @@ Batch totals:
 - Bad metaphors can be useful when they belong to the speaker. Partial, weird images may differentiate a character better than precise analysis.
 - Naming can reduce attribution load without increasing exposition.
 - Relationship inference is strongest when the evidence can be listed.
-- Work can interrupt explanation. A knot, needle, wagon, costume, horse, wet stage, supper service, or customer line may end a conversation before anyone reaches a polished conclusion.
+- Work can interrupt explanation. A knot, needle, wagon, costume, horse, wet stage, supper service, customer line, or cloth table may end a conversation before anyone reaches a polished conclusion.
 - Temporary comic convergence can be legitimate when shared improvisation is the current work. In an active comic performance, inspect whether voices re-separate offstage before patching the ensemble merely for sharing faster setup/payoff rhythm.
 - A resource owner can often act instead of predicting. Covering a pot, protecting a count, moving an object, closing access, or enforcing a schedule can express authority more specifically than another anticipatory `No`.
 - Different audiences should continue receiving different versions of the same event. Pell, Rinna, Teren, Lyssa, Nessa, and Hessa do not need one shared definition of Greg's paper result because they are asking different questions of it.
@@ -182,7 +188,7 @@ Batch totals:
 - Short expert answers are safest when the apparatus or work has already earned them.
 - Regular competence is current-state competence. Today's bill, route, storage, object use, or customer need can make yesterday's correct answer wrong.
 - Role contamination is not automatically baseline voice convergence when the manuscript marks the wrong-role language as contamination and surrounding characters react to it as such.
-- Messy systems are voice protection. Fair schedules, route queues, dinner service, contradictory workers, incomplete local directions, cue networks, and changing backstage state force people to speak from actual pressure instead of character-brand polish.
+- Messy systems are voice protection. Fair schedules, route queues, dinner service, contradictory workers, incomplete local directions, cue networks, changing backstage state, and workroom object ambiguity force people to speak from actual pressure instead of character-brand polish.
 - No-change chapters are positive evidence. Do not patch to meet quota.
 
 ## Guardrails
@@ -215,11 +221,11 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 186**.
+Resume sequentially at **Chapter 196**.
 
 Preferred bounded queue: **10 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 186-195**.
+Next intended batch: **Chapters 196-205**.
 
 ## Restart prompt
 
