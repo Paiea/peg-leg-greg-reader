@@ -11,6 +11,18 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 TEXT_SUFFIXES = {".html", ".md", ".json", ".py", ".txt", ".yaml", ".yml", ".js", ".css", ".sh"}
+SCAN_ROOTS = (
+    "chapters",
+    "light",
+    "visual",
+    "state",
+    "prompts",
+    "scripts",
+    "tests",
+    ".github",
+    "publishing",
+    "docs",
+)
 PATTERNS = (
     ("reader_slug", re.compile(r"(?:chapters|light)/(\d{1,4})\.html", re.I), "hard"),
     ("reader_query", re.compile(r"light\.html\?chapter=(\d{1,4})", re.I), "hard"),
@@ -27,7 +39,6 @@ PATTERNS = (
     ("chapter_text", re.compile(r"\bChapter\s+(\d{1,4})\b", re.I), "soft"),
     ("asset_name", re.compile(r"\bCh(\d{3,4})(?!\d)", re.I), "soft"),
 )
-SKIP_PREFIXES = (".git/", ".worktrees/")
 GENERATED_OUTPUTS = {
     "publishing/chapter_dependency_report.json",
     "publishing/chapter_number_dependencies.json",
@@ -49,6 +60,8 @@ def file_category(relative: str, suffix: str) -> str:
         return "reader"
     if relative.startswith("publishing/") or suffix in {".json", ".yaml", ".yml"}:
         return "metadata"
+    if relative.startswith("docs/"):
+        return "docs"
     return "other"
 
 
@@ -61,19 +74,38 @@ def line_number(offsets: list[int], character_offset: int) -> int:
     return bisect.bisect_left(offsets, character_offset) + 1
 
 
+def iter_scan_paths(root: Path):
+    """Yield migration-relevant text files without traversing generated export trees."""
+    seen: set[Path] = set()
+
+    for path in sorted(root.iterdir()):
+        if path.is_file() and path.suffix.lower() in TEXT_SUFFIXES:
+            seen.add(path)
+            yield path
+
+    for directory_name in SCAN_ROOTS:
+        directory = root / directory_name
+        if not directory.exists():
+            continue
+        for path in sorted(directory.rglob("*")):
+            if path in seen or not path.is_file() or path.suffix.lower() not in TEXT_SUFFIXES:
+                continue
+            seen.add(path)
+            yield path
+
+
 def scan_dependencies(root: Path) -> dict:
     root = root.resolve()
     by_chapter: dict[str, list[dict]] = defaultdict(list)
+    seen_items: set[tuple[str, str, int, str, str]] = set()
     scanned = 0
     counts_by_kind: Counter[str] = Counter()
     counts_by_file_category: Counter[str] = Counter()
     counts_by_risk: Counter[str] = Counter()
 
-    for path in sorted(root.rglob("*")):
-        if not path.is_file() or path.suffix.lower() not in TEXT_SUFFIXES:
-            continue
+    for path in iter_scan_paths(root):
         relative = path.relative_to(root).as_posix()
-        if relative.startswith(SKIP_PREFIXES) or "__pycache__" in path.parts or relative in GENERATED_OUTPUTS:
+        if "__pycache__" in path.parts or relative in GENERATED_OUTPUTS:
             continue
         try:
             text = path.read_text(encoding="utf-8")
@@ -86,6 +118,10 @@ def scan_dependencies(root: Path) -> dict:
             for match in pattern.finditer(text):
                 number = str(int(match.group(1)))
                 line = line_number(offsets, match.start())
+                key = (number, relative, line, kind, match.group(0))
+                if key in seen_items:
+                    continue
+                seen_items.add(key)
                 item = {
                     "kind": kind,
                     "risk": risk,
@@ -94,8 +130,6 @@ def scan_dependencies(root: Path) -> dict:
                     "line": line,
                     "match": match.group(0),
                 }
-                if item in by_chapter[number]:
-                    continue
                 by_chapter[number].append(item)
                 counts_by_kind[kind] += 1
                 counts_by_file_category[category] += 1
@@ -106,6 +140,7 @@ def scan_dependencies(root: Path) -> dict:
 
     return {
         "schema_version": 2,
+        "scan_roots": list(SCAN_ROOTS),
         "scanned_files": scanned,
         "chapters_with_dependencies": len(by_chapter),
         "reference_count": sum(len(rows) for rows in by_chapter.values()),
