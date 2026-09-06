@@ -1,0 +1,34 @@
+name: Verify dialogue generation contract
+
+on:
+  push:
+    branches:
+      - integration/dialogue-ownership-generation-contract
+    paths:
+      - '.github/workflows/tmp-verify-dialogue-generation-contract.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: integration/dialogue-ownership-generation-contract
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Full repository unit suite
+        run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Strict latest dialogue ownership
+        run: python scripts/dialogue_ownership_check.py --latest --strict
+      - name: Manuscript project check
+        run: python scripts/project_check.py manuscript
+      - name: Showcase project check
+        run: python scripts/project_check.py showcase
+      - name: Diff hygiene
+        run: git diff --check
