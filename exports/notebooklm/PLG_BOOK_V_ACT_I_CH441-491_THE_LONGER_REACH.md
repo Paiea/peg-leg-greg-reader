@@ -53319,9 +53319,19 @@ Closing a debt changed the shape of a doorway.
 
 Not physically.
 
-Vale's office still had the same narrow front step, the same scratched counter, the same chair Antonius insisted was level despite evidence.
+Vale's office still had the same narrow front step, the same scratched counter, the same chair Antonius insisted was level despite all available evidence.
 
-But I had walked out yesterday with a stamped zero.
+But I had walked out yesterday with a stamped zero after paying the entire ugly account.
+
+One gold and six silver at final reconciliation.
+
+Not all at once.
+
+Thank every god with basic arithmetic.
+
+Still.
+
+Zero.
 
 That meant today I could come back and be irritating for free.
 
@@ -53359,7 +53369,7 @@ Silence.
 
 That was new.
 
-Antonius looked up from desk.
+Antonius looked up from his desk.
 
 Not suspicious exactly.
 
@@ -53369,19 +53379,31 @@ Accounting suspicious.
 
 "Drink."
 
-"You have money now and immediately developed vice."
+"You eliminate one bad habit and immediately acquire another."
 
 "I had vice before money. I just couldn't afford seating."
 
-Front clerk made noise that might have been laugh.
+Front clerk made a noise that might have been a laugh.
 
 Antonius looked at clock.
 
-Then at papers.
+Then papers.
 
-Then at me.
+Then me.
 
-"One."
+Longer than necessary.
+
+Something in his face had changed since yesterday.
+
+Not warmth.
+
+That would have been alarming.
+
+Assessment.
+
+Like I had become a slightly different category of object overnight.
+
+"One," he said.
 
 "One drink?"
 
@@ -53433,7 +53455,7 @@ Antonius sighed.
 
 Good.
 
-North Cut was three streets from Vale, down one narrow lane I had walked past many times without noticing door because door looked like storage.
+North Cut was three streets from Vale, down one narrow lane I had walked past many times without noticing the door because the door looked like storage.
 
 Inside was warm.
 
@@ -53447,9 +53469,9 @@ Thank gods.
 
 Conversation enough.
 
-A long bar on one wall, six small tables, two booths, one stove with pot that smelled like onions and meat.
+A long bar on one wall, six small tables, two booths, one stove with a pot that smelled like onions and meat.
 
-Antonius chose back table.
+Antonius chose the back table.
 
 Of course.
 
@@ -53465,13 +53487,13 @@ I noticed.
 
 "Same word with better tailoring."
 
-He ignored.
+He ignored me.
 
 Server came.
 
 Antonius ordered dark beer.
 
-I ordered same because pretending expertise would be embarrassing.
+I ordered the same because pretending expertise would be embarrassing.
 
 Server looked at me.
 
@@ -53549,41 +53571,215 @@ No scene needing next line.
 
 Just room.
 
-Someone at bar complained about axle taxes.
+Someone at the bar complained about axle taxes.
 
-Someone else said there were no axle taxes, only gate fees, which began argument immediately.
+Someone else said there were no axle taxes, only gate fees, which began an argument immediately.
 
 Good city.
 
-I took second drink.
+I took a second drink.
 
 Better.
 
 Maybe mouth surrendered.
 
-Antonius said, "You wanted something."
+Antonius said, "I did not expect you to pay it."
+
+There.
+
+No warmup.
+
+No mercy.
+
+I looked at him.
+
+"The drink?"
+
+"The account."
+
+"You took the money."
+
+"Of course."
+
+"Good. I was worried we were about to become sentimental."
+
+"No."
+
+Relief.
+
+He turned the cup once between his fingers.
+
+"I expected payments. Work. Useful information. Introductions. Eventually enough value that the account remained worthwhile."
+
+"But not zero."
+
+"Not every interest line."
+
+I laughed.
+
+One sharp noise.
+
+"That is terrible."
+
+"You signed it."
+
+"I know."
+
+"Repeatedly."
+
+"I know."
+
+"You added advances."
+
+"I know."
+
+"You financed the Tere gauge."
+
+"Please stop helping."
+
+"You asked me to drink."
+
+"I did not ask for prosecution."
+
+He almost smiled.
+
+I took another drink.
+
+"The worst part is I understood it."
+
+"Yes."
+
+"Thirty-five percent over eight days was not hidden."
+
+"No."
+
+"I read it."
+
+"You argued about wording."
+
+"That sounds like me."
+
+"Then you borrowed anyway."
+
+I stared into the beer.
+
+"I'm dumb."
+
+"In that specific way, yes."
+
+"I thought I'd just make more money."
+
+"You eventually did."
+
+"That is not helping."
+
+"It took longer than eight days."
+
+Cruel.
+
+Accurate.
+
+"My old life ruined my sense of scale," I said.
+
+Antonius waited.
+
+"Silver felt small. Gold was money. Bigger things were expensive. If I needed more, I usually made more. Or somebody paid for the mission. Or the guild did. Or I sold something ridiculous."
+
+"And here?"
+
+"I was nineteen with three copper and confidence from a man who had resources I did not possess anymore."
+
+"Yes."
+
+"You could have stopped me."
+
+"I am a lender."
+
+"Weak defense."
+
+"Accurate defense."
+
+I looked at him.
+
+"You really keep rates like that because you want leverage."
+
+"Among other things."
+
+"People who cannot pay stay useful."
+
+"People who conventional lenders refuse sometimes become useful."
+
+"That is a very elegant way to say yes."
+
+"Thank you."
+
+Not ashamed.
+
+Good.
+
+That would have been worse somehow.
+
+"So I was supposed to owe you forever."
+
+"Supposed is too strong."
+
+"Expected."
+
+"Possible."
+
+"Antonius."
+
+"I did not expect you to pay every last line."
+
+There.
+
+I nodded.
+
+That was enough.
+
+Not forgiveness.
+
+Not generosity.
+
+Just business model.
+
+An ugly one that sometimes helped people and always helped Antonius.
+
+"Still glad I paid it," I said.
+
+"I noticed."
+
+"You seemed surprised."
+
+"I was."
+
+That landed harder than praise would have.
+
+Second round arrived because Antonius had signaled server while I was staring at my poor financial judgment.
+
+Dangerous man.
+
+Server added a small bowl of roasted chickpeas without request.
+
+Antonius pushed bowl center.
+
+We both ate.
+
+Then he said, "You wanted something else."
 
 "Drink."
-
-"You wanted something else."
 
 "Conversation."
 
 "That is worse."
 
-"Probably."
+"Usually."
 
-He waited.
-
-I had intended shoot shit.
+I had intended to shoot shit.
 
 Apparently shooting required target.
 
 I looked at beer.
-
-"So."
-
-"So."
 
 "I've had strange few months."
 
@@ -53607,9 +53803,13 @@ I turned cup.
 
 "How much do you actually know?"
 
-"Enough to know you disappeared, returned with more paperwork, became more annoying, paid twelve copper, then eleven, and somehow now other people send you work."
+"Enough to know you disappeared, returned with more paperwork, paid eighteen silver against a balance I expected to outlive several chairs, then came back with enough converted coin to kill the rest."
 
-"Compressed."
+"The chair will outlive us both."
+
+"Correct."
+
+"Also compressed."
 
 "Efficient."
 
@@ -53629,21 +53829,11 @@ Antonius looked at his beer.
 
 "That is not answer."
 
-"One drink."
+"Two drinks."
 
-"You already violated that."
+"You already violated one."
 
-I looked.
-
-My cup half gone.
-
-His maybe third.
-
-"Fine. Two."
-
-He signaled server without looking.
-
-Dangerous man.
+Fair.
 
 I started badly.
 
@@ -53661,7 +53851,7 @@ I told him road first.
 
 Not every mile.
 
-That would kill both.
+That would kill both of us.
 
 I told him about traveling east, freight, bad rooms, good rooms, road offices, work that looked legal until it wasn't, work that looked illegal and was mostly paperwork, Lakeward, Morrow, Merehook, Sori staying behind to fight archives.
 
@@ -53679,7 +53869,7 @@ Antonius interrupted at Sori.
 
 "That was my conclusion."
 
-I told him about glass deal.
+I told him about the glass deal.
 
 Not heroic version.
 
@@ -53709,8 +53899,6 @@ Cruel.
 
 I told him about Stillhook.
 
-Eleven copper.
-
 Elian.
 
 Working plates.
@@ -53719,7 +53907,7 @@ Ceramic gamble.
 
 Auction.
 
-Eight deployable.
+Not enough deployable money.
 
 Lost it.
 
@@ -53755,16 +53943,6 @@ Beer improved enough that I considered this.
 
 "Unlikely."
 
-Second round arrived.
-
-Server added small bowl of roasted chickpeas without request.
-
-Antonius pushed bowl center.
-
-We both ate.
-
-Good.
-
 I told him about return to Carrow.
 
 Lyssa.
@@ -53773,7 +53951,7 @@ Not relationship biography.
 
 He knew she existed.
 
-I said, "Coming home was stranger than leaving."
+"Coming home was stranger than leaving."
 
 "Why?"
 
@@ -53785,11 +53963,7 @@ I said, "Coming home was stranger than leaving."
 
 "I know."
 
-I looked at him.
-
-He did.
-
-That was annoying.
+Annoying.
 
 "She had work. Theatre existed. Hessa still had notebook standards. You still had debt."
 
@@ -53859,21 +54033,7 @@ Antonius listened without pretending expertise.
 
 Good.
 
-"How much remains?"
-
-"Nothing due today."
-
-"I know."
-
-"Of course you do."
-
-"You told me."
-
-"Right."
-
-Beer.
-
-I told him about Hessa's moving shuttle.
+Then Hessa's moving shuttle.
 
 Not all attempt numbers.
 
@@ -53893,7 +54053,7 @@ Antonius blinked.
 
 "Fine."
 
-I explained two clean here, two unclear there, late maybe worse, maybe not, response timing contaminated by me being person.
+I explained two clean here, two unclear there, late maybe worse, maybe not, response timing contaminated by me being a person.
 
 Antonius stared.
 
@@ -53923,41 +54083,13 @@ No sense that every joke had an account attached.
 
 I had not realized how much that mattered until absence.
 
-I ate chickpeas.
+Then theatre.
 
-"Then theatre."
+Prompt substitute.
 
-"You work there again."
+Acting badly.
 
-"Sometimes."
-
-"Doing what?"
-
-"Everything badly."
-
-"Specific."
-
-"Prompt substitute. Acting once."
-
-"You act?"
-
-"Less badly now."
-
-Antonius laughed.
-
-Small.
-
-But real.
-
-"That I would pay to see."
-
-"You literally can."
-
-"No."
-
-"Correct."
-
-I told him Nella said her pause belonged to her.
+Nella saying her pause belonged to her.
 
 Antonius nodded immediately.
 
@@ -53989,13 +54121,15 @@ He drank.
 
 Then South Road.
 
-I told him the organizer term in less flattering shape than reference.
+This part got more attention.
 
 Three crews.
 
 Two carts.
 
 One contracted wagon.
+
+Around twenty people depending day.
 
 Field steward.
 
@@ -54029,15 +54163,51 @@ Antonius stopped chewing.
 
 "Completion fee survived."
 
+"How much?"
+
+"Eighteen silver for the term. Six start. Twelve completion."
+
+His eyebrows moved.
+
+Tiny.
+
+Real.
+
+"Better."
+
+"That is all?"
+
+"Do you want confetti again?"
+
+"Consistent refusal."
+
+"More important question."
+
+I waited.
+
+"Would they pay you that again?"
+
+There.
+
+Not how much.
+
+Repeatability.
+
+"Maybe. Not automatically."
+
+"Good."
+
+"They have no obligation."
+
 "Also good."
 
-"Then West Market today."
+Then West Market.
 
-He knew amount because I had mentioned earning fourteen while closing balance.
+Three wagons.
 
-But not work.
+Two crews.
 
-I told him three wagons, two crews, one scale.
+One scale.
 
 Cloth early.
 
@@ -54053,15 +54223,47 @@ Keeping disputed barrel off scale so rest could move.
 
 Receiving master correcting my language from incorrect to pending review.
 
-Antonius smiled again.
+"Nine silver," I said.
 
-"She is right."
+Antonius did not look impressed by the number.
 
-"I know."
+He looked interested in the structure.
 
-"You sound tired of correct women."
+"One day?"
 
-"There are too many."
+"Yes."
+
+"Urgent replacement?"
+
+"Yes."
+
+"Would they pay nine on an ordinary day?"
+
+"Probably not."
+
+"Good."
+
+"You really hate letting me enjoy things."
+
+"Enjoy money. Do not confuse one price with market."
+
+Fair.
+
+He asked what the cargo was worth.
+
+"More than nine silver."
+
+"That is not answer."
+
+"Receiving master refused to make it my problem."
+
+"Good receiving master."
+
+"Too many correct women."
+
+"You sound tired."
+
+"There are a lot."
 
 "Lyssa?"
 
@@ -54083,145 +54285,217 @@ Antonius smiled again.
 
 "Terrible survival instinct."
 
-He sat back.
+Antonius sat back.
 
 Second beer nearly done.
 
-"That is quite a few months."
-
-Antonius rolled empty cup between both hands.
-
-"What did you miss?"
-
-"While gone?"
+"You are being paid better."
 
 "Yes."
 
-That question was worse.
+"Still underpaid in places."
 
-"Hot bread."
+I frowned.
 
-He waited.
+"Which?"
 
-"Lyssa."
+"You tell me."
 
-He kept waiting.
+Annoying.
 
-"Theatre smell."
+I thought about gray freight.
 
-"Specific."
+Did not say gray freight.
 
-"Bad mildew."
+Thought about five-copper and six-copper nonsense that had seemed like money because my purse was tiny.
 
-"Of course."
+Thought about the driver accepting risk for almost nothing.
 
-"Hessa being rude in person instead of theoretically."
+Thought about brokerage fees that barely exceeded lunch.
 
-"You missed that?"
+"Probably," I said.
 
-"No. But returning to it was reassuring."
+"Bad word."
 
-He nodded.
+"Some early work I took because it got me somewhere else. References. Travel. Information."
 
-"Anything you did not miss?"
+"That can be rational."
 
-"Being broke enough that one copper required policy meeting."
+"Some was just cheap."
 
-"Reasonable."
+"Also possible."
 
-"Also sleeping where somebody else decided what counted as a pillow."
+"I was pricing myself by how broke I was."
 
-"Road lodging."
-
-"Crime."
-
-He almost smiled.
-
-I said, "I missed knowing where things were."
-
-"Objects?"
-
-"People too."
-
-That came out quieter.
-
-Antonius did not improve it.
-
-Good.
-
-I drank water.
-
-"Travel made everyone continue without me."
-
-"Yes."
-
-"Rude."
-
-"Also healthy."
-
-"Probably."
-
-"Did you expect them not to?"
-
-"No."
-
-A lie.
-
-Not complete.
-
-I had expected home to hold shape for me somehow.
-
-Instead Lyssa had work. Theatre had changed scenes. Hessa had rules. Vale had ledgers. Sori had chosen archives. Everyone had kept having lives.
-
-That had hurt slightly.
-
-Also made coming back better.
-
-I said only, "I think I expected less motion."
-
-Antonius understood enough not to ask more.
-
-"What do you think happened?"
+Antonius nodded once.
 
 There.
 
-Dangerous question.
+"That is expensive."
 
-Not therapist voice.
+"Yes."
 
-Businessman voice.
+He ate another chickpea.
 
-Still dangerous.
+"What do you own?"
 
-I shrugged.
+"Things."
 
-"Got busier."
+"Productive things."
+
+I thought.
+
+Tools.
+
+Artifacts.
+
+Some useful junk.
+
+Tere gauge.
+
+The gauge.
+
+Antonius saw something in my face.
+
+"There it is."
+
+"Do not."
+
+"Five silver."
+
+"At purchase."
+
+"Then ten attached to it because you financed it badly."
+
+"I remember."
+
+"You told me forty gold."
+
+"To the right buyer."
+
+"Do you still believe that?"
+
+That stopped me.
+
+Not because answer changed.
+
+Because I had not asked recently.
+
+"Maybe."
+
+"Bad word."
+
+"I still think it is valuable. Forty was old-life pattern recognition plus arrogance. I would want current appraisal and buyer."
+
+"Good."
+
+"You are disappointed I didn't say forty."
 
 "No."
 
-"Earn more."
+"Liar."
 
-"Yes, but no."
+He ignored.
 
-"Lost leg?"
+I looked at beer.
 
-"Before these months."
+"If it actually sells anywhere near that, my entire Vale balance was stupidly small compared to the thing that helped create it."
 
-"True."
+"Yes."
 
-I looked around.
+"That is offensive."
 
-Bar argument had shifted from axle taxes to whether owner was lying about beer barrel size.
+"Also funny."
 
-Progress.
+"You sold it to me."
 
-"I stopped waiting to become old me again."
+"You demanded it."
+
+"You financed it."
+
+"At excellent terms."
+
+I stared.
+
+He held face for maybe three seconds.
+
+Then smiled.
+
+Bastard.
+
+That was the whole early problem in miniature.
+
+I might have been right about the asset.
+
+I had been catastrophically early about my ability to carry the financing.
+
+"I thought I'd make more money," I said.
+
+"You did."
+
+"Months later."
+
+"Yes."
+
+"After losing leg."
+
+"Yes."
+
+"Travel."
+
+"Yes."
+
+"Work."
+
+"Generally how income functions."
+
+"I hate you."
+
+"No balance. You may leave."
+
+That was new too.
+
+We stayed.
+
+Antonius asked what I missed while traveling.
+
+Hot bread.
+
+Lyssa.
+
+Theatre mildew.
+
+Knowing where objects were.
+
+Knowing where people were.
+
+Hessa being rude in person instead of theoretically.
+
+I admitted returning home had been strange because everyone had continued without me.
+
+Lyssa had work.
+
+Theatre changed scenes.
+
+Hessa had rules.
+
+Sori chose archives.
+
+Vale had ledgers.
+
+Everyone kept having lives.
+
+That hurt slightly.
+
+Also made coming back better.
+
+"I stopped waiting to become old me again," I said.
 
 Antonius said nothing.
 
 Good.
 
-I continued because apparently beer had damaged judgment.
+I continued because beer had damaged judgment.
 
 "Not completely. I still do it. But less."
 
@@ -54243,143 +54517,79 @@ Antonius drank remaining beer.
 
 "Yes."
 
-I looked at empty cup.
+We sat with that.
 
-"Also I made fourteen copper today."
+Then I said, "Paying Vale was still satisfying."
 
-"Back to numbers."
+"Of course."
 
-"Numbers are safer."
-
-"Yes."
-
-"Vale zero."
-
-"Yes."
-
-"Twenty-four cash."
-
-"Yes."
-
-"Do you know my money better than me?"
-
-"No. You repeat it constantly."
-
-Fair.
-
-I smiled.
-
-"That debt took too long."
-
-Antonius considered.
-
-"From your perspective?"
-
-"Twenty-three copper."
-
-"At beginning, twenty-three was large."
-
-"Yes."
-
-"At end, eleven was not."
-
-"Exactly."
-
-"So problem was not debt."
-
-"No."
-
-"Earning power."
-
-"Yes."
-
-"There."
-
-He pointed at me with one chickpea.
-
-"Do not become moral about paying debt. Become better at producing surplus."
-
-I stared.
-
-"That sounds like something you'd embroider."
-
-"I would never embroider."
-
-"Lyssa could."
-
-"Do not involve me."
-
-Too late mentally.
-
-I asked, "Did you think I'd pay?"
-
-"Eventually."
-
-"Really?"
-
-"Yes."
-
-"Why?"
-
-"You hated owing me."
-
-"That could make me avoid you forever."
-
-"You also kept returning."
-
-There.
-
-"Why did you lend it?"
-
-He frowned.
-
-"Which part?"
-
-"Original. Why."
-
-"Because terms made sense."
-
-"That's boring."
+"Not moral."
 
 "Good."
 
-"Nothing else?"
+"Expensive."
 
-He looked at me.
+"Very."
 
-"Greg."
+"Stupid."
 
-"What?"
+"Historically."
 
-"You were trying to stay operational."
+"I paid all of it."
+
+"I noticed."
+
+"You really thought I'd leave interest sitting forever."
+
+"I thought you would keep producing value while complaining about it."
+
+"That is insulting."
+
+"Was I wrong?"
+
+No.
+
+Damn.
+
+"What changed?" he asked.
+
+"Earning power."
+
+"Partly."
 
 I waited.
 
-"That mattered."
+"You also stopped treating every coin you earned as already spent by Future Greg."
 
-Simple.
+"Mostly."
 
-No speech.
+"Bad word."
 
-No generosity confession.
+"I still buy stupid things."
 
-Just mattered.
+"Good."
 
-I looked at cup.
+I blinked.
 
-"Thank you."
+"Good?"
 
-"Paid."
+"A person who never takes risk after one bad account learned wrong lesson."
 
-"Still."
+There.
 
-He nodded.
+That was more Antonius than morality ever would have been.
 
-Accepted.
+"So what lesson?"
 
-Good.
+"Do not finance speculative confidence at eight-day rates when you have no durable income."
 
-We sat.
+I stared.
+
+"Specific."
+
+"You needed specific."
+
+Fair.
 
 Server asked third.
 
@@ -54409,7 +54619,7 @@ Water instead.
 
 Humiliating.
 
-Antonius had one.
+Antonius had one too.
 
 We stayed anyway.
 
@@ -54429,11 +54639,11 @@ He said my standards had become intolerable.
 
 He complained one clerk used different ink color for corrections and made ledger look diseased.
 
-I said that's because he hates joy.
+I said that was because he hated joy.
 
-He told me market rumor that one spice merchant had named warehouse cat "Tariff" because it sat on every shipment.
+He told me market rumor that one spice merchant had named warehouse cat Tariff because it sat on every shipment.
 
-I wanted cat immediately.
+I wanted the cat immediately.
 
 He refused to tell me warehouse.
 
@@ -54445,7 +54655,7 @@ He said she was correct.
 
 Of course.
 
-I told him theatre actor believed weather was emotionally interesting.
+I told him one theatre actor believed weather was emotionally interesting.
 
 Antonius said weather was financially interesting.
 
@@ -54507,7 +54717,7 @@ No debt created.
 
 Important.
 
-Outside air colder.
+Outside air was colder.
 
 I planted crutches carefully.
 
@@ -54519,29 +54729,27 @@ Noticeable.
 
 We walked same direction for one block.
 
-Antonius said, "You should not make fourteen today normal."
+Antonius said, "Do not make nine silver normal."
 
 I looked at him.
 
-"Meaning?"
+"You already said that."
+
+"You looked unconvinced."
 
 "One urgent contract is not baseline."
 
-Good correction.
+"Correct."
 
-"I know."
+"But one-copper work is not baseline either."
 
-"Do you?"
+He looked at me.
 
-"Mostly."
+"Better."
 
-"Bad word."
+There.
 
-"You've been around Hessa spiritually."
-
-"No."
-
-"Everyone denies."
+That one I kept.
 
 He stopped at corner.
 
@@ -54553,7 +54761,7 @@ Mine straight.
 
 I shrugged.
 
-"More money. Limb eventually. Magic maybe becomes less embarrassing. Theatre. Lyssa. Probably one illegal thing I regret."
+"More money. Limb eventually. Magic maybe becomes less embarrassing. Theatre. Lyssa. Maybe figure out whether I own anything useful or just carry it around. Probably one illegal thing I regret."
 
 I stopped.
 
@@ -54598,6 +54806,28 @@ No reminder.
 No "you owe me."
 
 That absence had weight.
+
+More now.
+
+Antonius had not released me from anything.
+
+He had not forgiven the interest.
+
+He had not decided I had learned enough and cut the chain out of kindness.
+
+I had paid it.
+
+All of it.
+
+Stupidly.
+
+Proudly.
+
+Probably both.
+
+And he had taken it because that was the contract.
+
+Now there was nothing under the joke.
 
 I went home slower than usual and completely unbothered by it.
 
@@ -54649,9 +54879,35 @@ Took crutches down.
 
 "Of course."
 
-"Then everything else."
+"He did not expect me to pay all the interest."
 
-"What everything else?"
+Lyssa looked at me.
+
+"But you did."
+
+"Yes."
+
+"Why?"
+
+I thought about it.
+
+"Because I owed it."
+
+She waited.
+
+I hated that this answer felt incomplete.
+
+"And because I wanted the door to change shape."
+
+That was closer.
+
+She nodded.
+
+No praise.
+
+Good.
+
+"Then everything else?" she asked.
 
 "Last few months."
 
@@ -54671,11 +54927,9 @@ She laughed.
 
 I leaned back.
 
-Twenty-four copper.
+About twelve silver in real reserve now, plus ordinary copper and bits that did not need ceremonial counting.
 
 Zero Vale.
-
-Bits unspecified.
 
 Magic fifty-nine, fifty-three, one-fifty-nine.
 
@@ -54683,17 +54937,17 @@ Work limb not ready.
 
 No new contract.
 
-No artifact.
+No artifact sold.
 
 No revelation requiring notebook.
 
 Just beer with a man I used to owe money.
 
+A man who had expected my debt to become useful before it became zero.
+
+A man who seemed more interested in me now that I had made him wrong.
+
 That was different enough.
-
-I had spent months turning old constraints into smaller numbers.
-
-Maybe some relationships could change shape too without becoming anything grand.
 
 Antonius was not creditor now.
 
