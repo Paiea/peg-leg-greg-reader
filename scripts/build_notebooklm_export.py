@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """Build manuscript-only Peg-Leg Greg sources for NotebookLM.
 
-The export follows repository authority rather than the public reader crawl:
-Book I: authoritative Ch1-82 DOCX
-Book II: authoritative Ch83-137 DOCX + exact Ch138-155 MD + recovered exact Ch156-180
-Book III: recovered exact Ch181-219 + running Ch220-248 + exact checkpoint Ch249+
+The export follows repository manuscript authority for prose and the reader
+Book/Act map for structural boundaries.
 
-No state, planning, summaries, or authorial-direction files are included in the exported books.
+Books I and II remain single files. Book III onward exports one file per Act
+so large later Books stay comfortably uploadable to NotebookLM.
+
+No state, planning, summaries, or authorial-direction files are included in
+the manuscript sources. A small optional structure map is emitted separately.
 """
 
 from __future__ import annotations
@@ -16,6 +18,8 @@ import sys
 import zipfile
 from pathlib import Path
 from xml.etree import ElementTree as ET
+
+from reader_sections import BOOKS
 
 ROOT = Path(__file__).resolve().parents[1]
 M = ROOT / "state" / "manuscript"
@@ -80,9 +84,46 @@ def checkpoints_from(first: int) -> tuple[str, list[int]]:
     return "\n\n".join(read(path).strip() for _, path in found) + "\n", nums
 
 
-def write_book(filename: str, title: str, chapters: str, text: str) -> None:
+def roman_token(label: str) -> str:
+    return label.split()[-1]
+
+
+def title_token(title: str) -> str:
+    return re.sub(r"[^A-Z0-9]+", "_", title.upper()).strip("_")
+
+
+def write_source(filename: str, title: str, chapters: str, text: str) -> None:
     header = f"# PEG-LEG GREG — {title}\n\n**Manuscript-only NotebookLM source. Chapters {chapters}.**\n\n---\n\n"
     (OUT / filename).write_text(header + text.strip() + "\n", encoding="utf-8")
+
+
+def clean_generated_sources() -> None:
+    for path in OUT.glob("PLG_*.md"):
+        path.unlink()
+
+
+def write_structure_map(latest: int) -> None:
+    lines = [
+        "# Peg-Leg Greg — Current Structure Map",
+        "",
+        f"Current exported endpoint: **Chapter {latest}**.",
+        "",
+        "This file is optional orientation for NotebookLM. The manuscript files remain prose-only.",
+        "",
+    ]
+    for book in BOOKS:
+        if book.start > latest:
+            continue
+        book_end = book.effective_end(latest)
+        lines.append(f"## {book.numeral} — Chapters {book.start}–{book_end}")
+        lines.append("")
+        for act in book.acts:
+            if act.start > latest:
+                continue
+            act_end = act.effective_end(latest)
+            lines.append(f"- {act.numeral}: Chapters {act.start}–{act_end}, **{act.title}**")
+        lines.append("")
+    (OUT / "PLG_STRUCTURE_MAP.md").write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
 
 
 def main() -> int:
@@ -95,23 +136,62 @@ def main() -> int:
     recovered = read(CH156_219)
     running = read(CH220_248)
     checkpoints, nums = checkpoints_from(249)
+    latest = max(nums)
 
     book1 = docx_to_text(BOOK1_DOCX)
-    book2 = "\n\n".join([docx_to_text(BOOK2_DOCX).strip(), read(CH138_155).strip(), slice_chapters(recovered, 156, 181).strip()]) + "\n"
-    book3 = "\n\n".join([slice_chapters(recovered, 181).strip(), slice_chapters(running, 220).strip(), checkpoints.strip()]) + "\n"
+    book2 = "\n\n".join([
+        docx_to_text(BOOK2_DOCX).strip(),
+        read(CH138_155).strip(),
+        slice_chapters(recovered, 156, 181).strip(),
+    ]) + "\n"
+    late_manuscript = "\n\n".join([
+        slice_chapters(recovered, 181).strip(),
+        slice_chapters(running, 220).strip(),
+        checkpoints.strip(),
+    ]) + "\n"
 
     OUT.mkdir(parents=True, exist_ok=True)
-    write_book("PLG_BOOK_I_CH001-082.md", "BOOK I", "1–82", book1)
-    write_book("PLG_BOOK_II_CH083-180.md", "BOOK II", "83–180", book2)
-    write_book(f"PLG_BOOK_III_CH181-{max(nums):03d}.md", "BOOK III — CURRENT", f"181–{max(nums)}", book3)
+    clean_generated_sources()
 
+    write_source("PLG_BOOK_I_CH001-082.md", "BOOK I", "1–82", book1)
+    write_source("PLG_BOOK_II_CH083-180.md", "BOOK II", "83–180", book2)
+
+    for book in BOOKS[2:]:
+        if book.start > latest:
+            continue
+        for act in book.acts:
+            if act.start > latest:
+                continue
+            end = act.effective_end(latest)
+            after_last = end + 1 if end < latest else None
+            act_text = slice_chapters(late_manuscript, act.start, after_last)
+            filename = (
+                f"PLG_BOOK_{roman_token(book.numeral)}_ACT_{roman_token(act.numeral)}_"
+                f"CH{act.start:03d}-{end:03d}_{title_token(act.title)}.md"
+            )
+            write_source(
+                filename,
+                f"{book.numeral} — {act.numeral}: {act.title}",
+                f"{act.start}–{end}",
+                act_text,
+            )
+
+    write_structure_map(latest)
+
+    source_files = sorted(OUT.glob("PLG_BOOK_*.md"))
     (OUT / "README.md").write_text(f"""# Peg-Leg Greg — NotebookLM Sources
 
-Upload the three `PLG_BOOK_*.md` files in this folder to one NotebookLM notebook.
+Upload the `PLG_BOOK_*.md` files in this folder to one NotebookLM notebook.
+
+Books I and II are whole-Book sources. Book III onward is split by the current Act structure so individual uploads stay manageable as the manuscript grows.
+
+`PLG_STRUCTURE_MAP.md` is optional. Add it when you want NotebookLM to know the intended Book/Act boundaries explicitly. Leave it out for a completely blind structural read.
 
 These are deliberately **manuscript-only** sources. Do not add `MANUSCRIPT_STATE`, `STORY_NORTH_STAR`, plot notes, or other project-brain files for the first cold-read experiment.
 
-Current exported endpoint: **Chapter {max(nums)}**.
+Current exported endpoint: **Chapter {latest}**.
+
+Current manuscript source files: **{len(source_files)}**.
 
 Suggested first chat prompt:
 
@@ -126,9 +206,10 @@ Suggested first chat prompt:
 > I told you I dabbled in writing and then showed you Peg-Leg Greg. You've now read the actual thing. **What do you think I made?**
 """, encoding="utf-8")
 
-    print(f"Built NotebookLM manuscript export through Chapter {max(nums)}")
-    for path in sorted(OUT.glob("PLG_BOOK_*.md")):
+    print(f"Built NotebookLM manuscript export through Chapter {latest}")
+    for path in source_files:
         print(f"{path.relative_to(ROOT)}: {path.stat().st_size:,} bytes")
+    print((OUT / "PLG_STRUCTURE_MAP.md").relative_to(ROOT))
     return 0
 
 
