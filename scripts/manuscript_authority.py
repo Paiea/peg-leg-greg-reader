@@ -156,40 +156,72 @@ def source_kind(path: Path, root: Path) -> tuple[str, int] | None:
     return None
 
 
+def _parse_source(path: Path) -> list[tuple[int, str | None]]:
+    if path.suffix.lower() == ".docx":
+        return parse_docx_chapters(path)
+    if path.suffix.lower() == ".md":
+        return parse_markdown_chapters(path)
+    one = parse_reader_page(path)
+    return [one] if one else []
+
+
 def candidate_rows(root: Path) -> list[dict]:
-    candidates: list[dict] = []
+    """Collect authority candidates without letting generated reader pages extend canon.
+
+    Reader pages are fallback evidence only. They may fill a missing chapter inside the
+    endpoint already established by manuscript-native sources, but a stray published page
+    beyond that endpoint must remain a reader mismatch rather than becoming manuscript canon.
+    """
+    native_candidates: list[dict] = []
+    reader_candidates: list[dict] = []
     manuscript_root = root / "state/manuscript"
-    source_paths: list[Path] = []
+
+    native_paths: list[Path] = []
     if manuscript_root.exists():
-        source_paths.extend(
+        native_paths.extend(
             path for path in manuscript_root.iterdir()
             if path.is_file() and path.suffix.lower() in {".md", ".docx"}
         )
-    for reader_dir in (root / "light", root / "chapters"):
-        if reader_dir.exists():
-            source_paths.extend(reader_dir.glob("[0-9][0-9][0-9].html"))
-
-    for path in sorted(set(source_paths)):
+    for path in sorted(native_paths):
         classification = source_kind(path, root)
         if classification is None:
             continue
         kind, priority = classification
-        if path.suffix.lower() == ".docx":
-            parsed = parse_docx_chapters(path)
-        elif path.suffix.lower() == ".md":
-            parsed = parse_markdown_chapters(path)
-        else:
-            one = parse_reader_page(path)
-            parsed = [one] if one else []
-        for number, title in parsed:
-            candidates.append({
+        for number, title in _parse_source(path):
+            native_candidates.append({
                 "chapter_number": number,
                 "title": title,
                 "path": path.relative_to(root).as_posix(),
                 "source_kind": kind,
                 "source_priority": priority,
             })
-    return candidates
+
+    native_endpoint = max((row["chapter_number"] for row in native_candidates), default=0)
+    for reader_dir in (root / "light", root / "chapters"):
+        if not reader_dir.exists():
+            continue
+        for path in sorted(reader_dir.glob("[0-9][0-9][0-9].html")):
+            classification = source_kind(path, root)
+            if classification is None:
+                continue
+            parsed = _parse_source(path)
+            if not parsed:
+                continue
+            number, title = parsed[0]
+            if native_endpoint and number > native_endpoint:
+                continue
+            kind, priority = classification
+            reader_candidates.append({
+                "chapter_number": number,
+                "title": title,
+                "path": path.relative_to(root).as_posix(),
+                "source_kind": kind,
+                "source_priority": priority,
+            })
+
+    # A reader-only legacy repository can still be inventoried if no manuscript-native
+    # source exists at all. Once native authority exists, it alone defines the endpoint.
+    return native_candidates + reader_candidates if native_candidates else reader_candidates
 
 
 def parse_chapter_index(root: Path) -> tuple[int | None, dict[int, str]]:
