@@ -85,6 +85,9 @@
     "294": {"showcase": false, "reason": "redundant_progression"},
     "295": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
     "297": {"showcase": false, "reason": "low_consequence_mundane"},
-    "299": {"showcase": false, "reason": "redundant_progression"}
+    "299": {"showcase": false, "reason": "redundant_progression"},
+    "302": {"showcase": false, "reason": "low_consequence_mundane"},
+    "307": {"showcase": false, "reason": "low_consequence_mundane"},
+    "309": {"showcase": false, "reason": "redundant_progression"}
   }
 }
