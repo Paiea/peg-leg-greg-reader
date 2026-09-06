@@ -3,7 +3,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from performance_lab_check import check_lab
+from scripts.performance_lab_check import check_lab
 
 SCENES = [
     'ch002-antonius-loan',
