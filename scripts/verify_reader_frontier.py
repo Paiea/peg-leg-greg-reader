@@ -120,9 +120,9 @@ def verify_reader_frontier(
         text_previous_text = text_previous_page.read_text(encoding='utf-8')
         expected_next = f'rel="next" href="{latest:03d}.html"'
         if expected_next not in illustrated_previous_text:
-            raise AssertionError('Illustrated previous Showcase next link is stale')
+            raise AssertionError('Illustrated penultimate next link is stale')
         if expected_next not in text_previous_text:
-            raise AssertionError('Text previous Showcase next link is stale')
+            raise AssertionError('Text penultimate next link is stale')
     elif 'rel="prev"' in illustrated_text or 'rel="prev"' in light_text:
         raise AssertionError('latest Showcase page has unexpected previous link')
 
@@ -197,7 +197,7 @@ def verify_reader_frontier(
         if manifest_numbers[0] <= number <= latest
     ]
     if manifest_numbers != expected_manifest_numbers:
-        raise AssertionError('Text manifest chapter range does not match Showcase visibility')
+        raise AssertionError('Text manifest chapter range is not contiguous with Showcase visibility')
 
     frontier_entries = [
         entry for entry in entries
