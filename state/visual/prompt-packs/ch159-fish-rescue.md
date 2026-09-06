@@ -1,30 +1,30 @@
-# Illustration Prompt Pack — ch394-mast-creep
+# Illustration Prompt Pack — ch159-fish-rescue
 
-**Chapter:** 394 — THE PRACTITIONER
+**Chapter:** 159 — THE PRIVATE PLAYER
 **Kind:** `chapter_illustration`
 **Fit target:** `exact`
 **Spoiler level:** `low`
-**Paragraph anchor:** Arm itself crept west.
+**Paragraph anchor:** Pell was under the stage.
 
 ## Scene brief
 
-At the north station mast, a white thread tied to arm two blows with the south wind while the heavy black arm itself slowly creeps west in the wrong direction as Dask measures and Maro checks with his brass disk.
+While the company packs to leave town, Greg finds Pell under the stage searching for the spring-loaded wooden fish, which has been wedged behind a support and must apparently be rescued because it belongs to the company.
 
 ## Visual hook
 
-Three-armed black signal mast on a stone plinth, one white thread streaming with the wind while its arm creeps against it, Dask measuring and Maro holding a brass disk below.
+A cramped low backstage view through stage supports: Pell reaching for the ridiculous wooden fish while Greg leans into the space, departure clutter and prop chaos around them.
 
 ## Prompt construction
 
 ### GENERATION METADATA
 - Framing: `above_waist`
-- View angle: `choose_non_repetitive_scene_angle`
-- Pose family: `physical_scene_action`
-- Scene tags: derive only from manuscript-supported scene context
+- View angle: `through_foreground_supports`
+- Pose family: `reaching_retrieval`
+- Scene tags: backstage, departure, prop, comedy, work
 - Preserve these metadata values into the generation queue and registry when the generated asset is intaked. They are continuity/diversity guidance, not permission to contradict the manuscript.
 
 ### SUBJECT + ACTION
-Characters: Greg, Dask, Maro, Vessa, Rett. Show them doing the physical action implied by the scene rather than posing for a portrait.
+Characters: Greg, Pell. Show them doing the physical action implied by the scene rather than posing for a portrait.
 
 ### CAMERA
 Choose a composition that avoids default centered eye-level two-person staging. Rotate wide/medium/close and camera height to suit the scene while honoring the declared framing/view-angle guidance above.
@@ -33,13 +33,13 @@ Choose a composition that avoids default centered eye-level two-person staging. 
 Use a meaningful prop, doorway, furniture edge, fabric, stage object, cart, hand, crutch, or other manuscript-supported foreground shape when useful.
 
 ### ENVIRONMENTAL MOVEMENT
-Location: North station mast yard. Mood: observational, uncanny, wind-swept. Use posture, clothing, traffic, weather, smoke, fabric, doors, sightlines, or work activity to create directional energy.
+Location: under the theatre stage during pack-out. Mood: comic, cramped, affectionate chaos. Use posture, clothing, traffic, weather, smoke, fabric, doors, sightlines, or work activity to create directional energy.
 
 ### EYE PATH
 Design where the eye enters, how motion carries it, and where it lands. Quiet scenes should still have directional flow unless deliberate stillness is the point.
 
 ### MANUSCRIPT DETAILS
-Stay inside this scene summary and hook. Do not invent plot facts beyond the candidate. Visual hook: Three-armed black signal mast on a stone plinth, one white thread streaming with the wind while its arm creeps against it, Dask measuring and Maro holding a brass disk below.
+Stay inside this scene summary and hook. Do not invent plot facts beyond the candidate. Visual hook: A cramped low backstage view through stage supports: Pell reaching for the ridiculous wooden fish while Greg leans into the space, departure clutter and prop chaos around them.
 
 ### CONTINUITY
 - Preserve manuscript-established age, body, clothing, props, and setting details.
@@ -51,6 +51,6 @@ Stay inside this scene summary and hook. Do not invent plot facts beyond the can
 
 ## Output target
 
-- Prompt pack: `state/visual/prompt-packs/ch394-mast-creep.md`
-- Suggested asset id: `ch394-mast-creep-v1`
-- Suggested live chapter folder: `visual/chapter_art/394/`
+- Prompt pack: `state/visual/prompt-packs/ch159-fish-rescue.md`
+- Suggested asset id: `ch159-fish-rescue-v1`
+- Suggested live chapter folder: `visual/chapter_art/159/`

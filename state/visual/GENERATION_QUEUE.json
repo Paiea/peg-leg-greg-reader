@@ -1,5 +1,766 @@
 [
   {
+    "candidate_id": "ch156-order-coat",
+    "chapter": 156,
+    "chapter_title": "THE ADVOCATE",
+    "kind": "chapter_illustration",
+    "priority": "high",
+    "fit_target": "exact",
+    "spoiler_level": "low",
+    "scene_summary": "Greg cannot carry the forged order while using both crutches, so Nessa solves the staging problem by taking the document and shoving it inside the front of his Advocate coat while Iven watches.",
+    "visual_hook": "A practical backstage fix centered on hands, paper, coat, and crutches: Nessa briskly tucking the forged order into Greg's coat while Greg reacts and Iven stands nearby.",
+    "characters": [
+      "Greg",
+      "Nessa",
+      "Iven"
+    ],
+    "location": "theatre stage/backstage during rehearsal",
+    "mood": "practical, dryly comic, busy",
+    "scene_tags": [
+      "backstage",
+      "theatre",
+      "work",
+      "prop"
+    ],
+    "style_family": "sketch-ink-paint",
+    "framing_preference": "above_waist",
+    "camera_angle": "",
+    "pose_family": "working_handoff",
+    "character_reference_assets": [
+      "assets/book-role-cards/book-ii-stagehand-177.webp",
+      "assets/book-role-cards/book-i-warrior-005.webp",
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png"
+    ],
+    "selected_character_references": [
+      {
+        "character": "Greg",
+        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
+        "status": "manual",
+        "source": "manual",
+        "framing": "above_waist",
+        "view_angle": "three_quarter",
+        "pose_family": "working",
+        "scene_tags": [
+          "backstage",
+          "theatre",
+          "work"
+        ],
+        "tags": [
+          "curated",
+          "above_waist",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 123,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor",
+          "above-waist Greg continuity",
+          "scene context match"
+        ],
+        "penalties": [],
+        "scene_matches": [
+          "backstage",
+          "theatre",
+          "work"
+        ],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 123
+      },
+      {
+        "character": "Greg",
+        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
+        "status": "manual",
+        "source": "manual",
+        "pose_family": "role_card",
+        "scene_tags": [
+          "role_card",
+          "warrior",
+          "character_anchor"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
+        ],
+        "penalties": [],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 83
+      },
+      {
+        "character": "Greg",
+        "asset": "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
+        "status": "manual",
+        "source": "manual",
+        "pose_family": "portrait_anchor",
+        "scene_tags": [
+          "frontispiece",
+          "portrait"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
+        ],
+        "penalties": [],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 83
+      }
+    ],
+    "character_reference_scores": {
+      "assets/book-role-cards/book-ii-stagehand-177.webp": 123,
+      "assets/book-role-cards/book-i-warrior-005.webp": 83,
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83
+    },
+    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 123, selected 123; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity, scene context match) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor)",
+    "character_appearance_notes": {
+      "Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."
+    },
+    "continuity_notes": "Keep style consistent with accepted PLG artwork. Prefer above-waist Greg framing and avoid unnecessary lower-body visibility unless the manuscript moment materially requires it. Match recurring characters to supplied reference assets and appearance notes.",
+    "prompt_pack": "state/visual/prompt-packs/ch156-order-coat.md",
+    "paragraph_anchor": "She came over, took the order, and shoved it inside the front of my Advocate coat.",
+    "target_asset": "visual/chapter_art/156/ch156-order-coat-v1.webp",
+    "coverage_before": 0,
+    "status": "generation_ready"
+  },
+  {
+    "candidate_id": "ch157-two-swords",
+    "chapter": 157,
+    "chapter_title": "THE TABLE",
+    "kind": "chapter_illustration",
+    "priority": "high",
+    "fit_target": "exact",
+    "spoiler_level": "low",
+    "scene_summary": "During the Sword scene, Marek accidentally enters carrying the actual prop sword while Greg is already mounted as the talking Sword, leaving Serra to face two swords in the same scene for one horrible comic beat.",
+    "visual_hook": "Serra between Greg-as-Sword and Marek holding a second prop sword, with the audience-facing stage geometry making the accidental duplication instantly readable.",
+    "characters": [
+      "Greg",
+      "Serra",
+      "Marek"
+    ],
+    "location": "small theatre stage",
+    "mood": "comic, improvised, precarious",
+    "scene_tags": [
+      "stage",
+      "theatre",
+      "comedy",
+      "prop"
+    ],
+    "style_family": "sketch-ink-paint",
+    "framing_preference": "above_waist",
+    "camera_angle": "",
+    "pose_family": "performance_prop",
+    "character_reference_assets": [
+      "assets/book-role-cards/book-ii-stagehand-177.webp",
+      "assets/book-role-cards/book-i-warrior-005.webp",
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png"
+    ],
+    "selected_character_references": [
+      {
+        "character": "Greg",
+        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
+        "status": "manual",
+        "source": "manual",
+        "framing": "above_waist",
+        "view_angle": "three_quarter",
+        "pose_family": "working",
+        "scene_tags": [
+          "backstage",
+          "theatre",
+          "work"
+        ],
+        "tags": [
+          "curated",
+          "above_waist",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 113,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor",
+          "above-waist Greg continuity",
+          "scene context match"
+        ],
+        "penalties": [],
+        "scene_matches": [
+          "theatre"
+        ],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 113
+      },
+      {
+        "character": "Greg",
+        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
+        "status": "manual",
+        "source": "manual",
+        "pose_family": "role_card",
+        "scene_tags": [
+          "role_card",
+          "warrior",
+          "character_anchor"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
+        ],
+        "penalties": [],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 83
+      },
+      {
+        "character": "Greg",
+        "asset": "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
+        "status": "manual",
+        "source": "manual",
+        "pose_family": "portrait_anchor",
+        "scene_tags": [
+          "frontispiece",
+          "portrait"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
+        ],
+        "penalties": [],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 83
+      }
+    ],
+    "character_reference_scores": {
+      "assets/book-role-cards/book-ii-stagehand-177.webp": 113,
+      "assets/book-role-cards/book-i-warrior-005.webp": 83,
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83
+    },
+    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 113, selected 113; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity, scene context match) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor)",
+    "character_appearance_notes": {
+      "Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."
+    },
+    "continuity_notes": "Keep style consistent with accepted PLG artwork. Prefer above-waist Greg framing and avoid unnecessary lower-body visibility unless the manuscript moment materially requires it. Match recurring characters to supplied reference assets and appearance notes.",
+    "prompt_pack": "state/visual/prompt-packs/ch157-two-swords.md",
+    "paragraph_anchor": "For one horrifying instant there were two swords in the scene, one of them me and one of them sharp-looking wood.",
+    "target_asset": "visual/chapter_art/157/ch157-two-swords-v1.webp",
+    "coverage_before": 0,
+    "status": "generation_ready"
+  },
+  {
+    "candidate_id": "ch158-letter-lyssa",
+    "chapter": 158,
+    "chapter_title": "THE RETURNER",
+    "kind": "chapter_illustration",
+    "priority": "high",
+    "fit_target": "exact",
+    "spoiler_level": "low",
+    "scene_summary": "With several free hours in town, Greg sits at a market writing table and writes a letter to Lyssa, surrounded by paper, stalls, wet streets, buttons, and the ordinary bustle of the square.",
+    "visual_hook": "An intimate over-shoulder market-writing scene: Greg at a small public writing table with folded paper, ink, wet-town market life behind him, and the quiet weight of the letter to Lyssa.",
+    "characters": [
+      "Greg"
+    ],
+    "location": "narrow market square after rain",
+    "mood": "quiet, affectionate, ordinary-life warmth",
+    "scene_tags": [
+      "market",
+      "letter",
+      "daylight",
+      "quiet",
+      "ordinary_life"
+    ],
+    "style_family": "sketch-ink-paint",
+    "framing_preference": "above_waist",
+    "camera_angle": "",
+    "pose_family": "writing_seated",
+    "character_reference_assets": [
+      "assets/book-role-cards/book-ii-stagehand-177.webp",
+      "assets/book-role-cards/book-i-warrior-005.webp",
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png"
+    ],
+    "selected_character_references": [
+      {
+        "character": "Greg",
+        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
+        "status": "manual",
+        "source": "manual",
+        "framing": "above_waist",
+        "view_angle": "three_quarter",
+        "pose_family": "working",
+        "scene_tags": [
+          "backstage",
+          "theatre",
+          "work"
+        ],
+        "tags": [
+          "curated",
+          "above_waist",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 103,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor",
+          "above-waist Greg continuity"
+        ],
+        "penalties": [],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 103
+      },
+      {
+        "character": "Greg",
+        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
+        "status": "manual",
+        "source": "manual",
+        "pose_family": "role_card",
+        "scene_tags": [
+          "role_card",
+          "warrior",
+          "character_anchor"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
+        ],
+        "penalties": [],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 83
+      },
+      {
+        "character": "Greg",
+        "asset": "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
+        "status": "manual",
+        "source": "manual",
+        "pose_family": "portrait_anchor",
+        "scene_tags": [
+          "frontispiece",
+          "portrait"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
+        ],
+        "penalties": [],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 83
+      }
+    ],
+    "character_reference_scores": {
+      "assets/book-role-cards/book-ii-stagehand-177.webp": 103,
+      "assets/book-role-cards/book-i-warrior-005.webp": 83,
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83
+    },
+    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 103, selected 103; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor)",
+    "character_appearance_notes": {
+      "Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."
+    },
+    "continuity_notes": "Keep style consistent with accepted PLG artwork. Prefer above-waist Greg framing and avoid unnecessary lower-body visibility unless the manuscript moment materially requires it. Match recurring characters to supplied reference assets and appearance notes.",
+    "prompt_pack": "state/visual/prompt-packs/ch158-letter-lyssa.md",
+    "paragraph_anchor": "I bought paper.",
+    "target_asset": "visual/chapter_art/158/ch158-letter-lyssa-v1.webp",
+    "coverage_before": 0,
+    "status": "generation_ready"
+  },
+  {
+    "candidate_id": "ch159-fish-rescue",
+    "chapter": 159,
+    "chapter_title": "THE PRIVATE PLAYER",
+    "kind": "chapter_illustration",
+    "priority": "high",
+    "fit_target": "exact",
+    "spoiler_level": "low",
+    "scene_summary": "While the company packs to leave town, Greg finds Pell under the stage searching for the spring-loaded wooden fish, which has been wedged behind a support and must apparently be rescued because it belongs to the company.",
+    "visual_hook": "A cramped low backstage view through stage supports: Pell reaching for the ridiculous wooden fish while Greg leans into the space, departure clutter and prop chaos around them.",
+    "characters": [
+      "Greg",
+      "Pell"
+    ],
+    "location": "under the theatre stage during pack-out",
+    "mood": "comic, cramped, affectionate chaos",
+    "scene_tags": [
+      "backstage",
+      "departure",
+      "prop",
+      "comedy",
+      "work"
+    ],
+    "style_family": "sketch-ink-paint",
+    "framing_preference": "above_waist",
+    "camera_angle": "",
+    "pose_family": "reaching_retrieval",
+    "character_reference_assets": [
+      "assets/book-role-cards/book-ii-stagehand-177.webp",
+      "assets/book-role-cards/book-i-warrior-005.webp",
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png"
+    ],
+    "selected_character_references": [
+      {
+        "character": "Greg",
+        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
+        "status": "manual",
+        "source": "manual",
+        "framing": "above_waist",
+        "view_angle": "three_quarter",
+        "pose_family": "working",
+        "scene_tags": [
+          "backstage",
+          "theatre",
+          "work"
+        ],
+        "tags": [
+          "curated",
+          "above_waist",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 123,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor",
+          "above-waist Greg continuity",
+          "scene context match"
+        ],
+        "penalties": [],
+        "scene_matches": [
+          "backstage",
+          "theatre",
+          "work"
+        ],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 123
+      },
+      {
+        "character": "Greg",
+        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
+        "status": "manual",
+        "source": "manual",
+        "pose_family": "role_card",
+        "scene_tags": [
+          "role_card",
+          "warrior",
+          "character_anchor"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
+        ],
+        "penalties": [],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 83
+      },
+      {
+        "character": "Greg",
+        "asset": "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
+        "status": "manual",
+        "source": "manual",
+        "pose_family": "portrait_anchor",
+        "scene_tags": [
+          "frontispiece",
+          "portrait"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
+        ],
+        "penalties": [],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 83
+      }
+    ],
+    "character_reference_scores": {
+      "assets/book-role-cards/book-ii-stagehand-177.webp": 123,
+      "assets/book-role-cards/book-i-warrior-005.webp": 83,
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83
+    },
+    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 123, selected 123; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity, scene context match) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor)",
+    "character_appearance_notes": {
+      "Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."
+    },
+    "continuity_notes": "Keep style consistent with accepted PLG artwork. Prefer above-waist Greg framing and avoid unnecessary lower-body visibility unless the manuscript moment materially requires it. Match recurring characters to supplied reference assets and appearance notes.",
+    "prompt_pack": "state/visual/prompt-packs/ch159-fish-rescue.md",
+    "paragraph_anchor": "Pell was under the stage.",
+    "target_asset": "visual/chapter_art/159/ch159-fish-rescue-v1.webp",
+    "coverage_before": 0,
+    "status": "generation_ready"
+  },
+  {
+    "candidate_id": "ch160-fish-twitch",
+    "chapter": 160,
+    "chapter_title": "THE SWORD",
+    "kind": "chapter_illustration",
+    "priority": "high",
+    "fit_target": "exact",
+    "spoiler_level": "low",
+    "scene_summary": "During the improvised private performance, Marek holds the wooden fish toward Greg-as-Sword and asks him to cut it; Greg says it is already dead, then the spring-loaded fish twitches at exactly the right moment and breaks the room.",
+    "visual_hook": "Marek holding the painted wooden fish toward Greg as it unexpectedly twitches, Serra and the private audience reacting around them, all in the close polished salon performance space.",
+    "characters": [
+      "Greg",
+      "Marek",
+      "Serra"
+    ],
+    "location": "Lady Merra's private salon performance",
+    "mood": "comic, intimate, improvisational",
+    "scene_tags": [
+      "private_performance",
+      "salon",
+      "comedy",
+      "prop",
+      "theatre"
+    ],
+    "style_family": "sketch-ink-paint",
+    "framing_preference": "above_waist",
+    "camera_angle": "",
+    "pose_family": "performance_reaction",
+    "character_reference_assets": [
+      "assets/book-role-cards/book-ii-stagehand-177.webp",
+      "assets/book-role-cards/book-i-warrior-005.webp",
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png"
+    ],
+    "selected_character_references": [
+      {
+        "character": "Greg",
+        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
+        "status": "manual",
+        "source": "manual",
+        "framing": "above_waist",
+        "view_angle": "three_quarter",
+        "pose_family": "working",
+        "scene_tags": [
+          "backstage",
+          "theatre",
+          "work"
+        ],
+        "tags": [
+          "curated",
+          "above_waist",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 113,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor",
+          "above-waist Greg continuity",
+          "scene context match"
+        ],
+        "penalties": [],
+        "scene_matches": [
+          "theatre"
+        ],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 113
+      },
+      {
+        "character": "Greg",
+        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
+        "status": "manual",
+        "source": "manual",
+        "pose_family": "role_card",
+        "scene_tags": [
+          "role_card",
+          "warrior",
+          "character_anchor"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
+        ],
+        "penalties": [],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 83
+      },
+      {
+        "character": "Greg",
+        "asset": "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
+        "status": "manual",
+        "source": "manual",
+        "pose_family": "portrait_anchor",
+        "scene_tags": [
+          "frontispiece",
+          "portrait"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
+        "reasons": [
+          "hand-curated",
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
+        ],
+        "penalties": [],
+        "scene_matches": [],
+        "diversity_adjustment": 0,
+        "diversity_notes": [],
+        "selection_score": 83
+      }
+    ],
+    "character_reference_scores": {
+      "assets/book-role-cards/book-ii-stagehand-177.webp": 113,
+      "assets/book-role-cards/book-i-warrior-005.webp": 83,
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83
+    },
+    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 113, selected 113; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity, scene context match) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor)",
+    "character_appearance_notes": {
+      "Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."
+    },
+    "continuity_notes": "Keep style consistent with accepted PLG artwork. Prefer above-waist Greg framing and avoid unnecessary lower-body visibility unless the manuscript moment materially requires it. Match recurring characters to supplied reference assets and appearance notes.",
+    "prompt_pack": "state/visual/prompt-packs/ch160-fish-twitch.md",
+    "paragraph_anchor": "The fish twitched.",
+    "target_asset": "visual/chapter_art/160/ch160-fish-twitch-v1.webp",
+    "coverage_before": 0,
+    "status": "generation_ready"
+  },
+  {
     "candidate_id": "ch390-root-drag",
     "chapter": 390,
     "chapter_title": "THE PASSENGER",
@@ -25,75 +786,117 @@
     "camera_angle": "",
     "pose_family": "",
     "character_reference_assets": [
-      "assets/book-role-cards/book-i-warrior-005.webp",
       "assets/book-role-cards/book-ii-stagehand-177.webp",
+      "assets/book-role-cards/book-i-warrior-005.webp",
       "visual/homepage/peg-leg-greg-homepage-frontispiece.png"
     ],
     "selected_character_references": [
       {
         "character": "Greg",
-        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
+        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "framing": "above_waist",
+        "view_angle": "three_quarter",
+        "pose_family": "working",
+        "scene_tags": [
+          "backstage",
+          "theatre",
+          "work"
+        ],
+        "tags": [
+          "curated",
+          "above_waist",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 103,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor",
+          "above-waist Greg continuity"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 103
       },
       {
         "character": "Greg",
-        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
+        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "pose_family": "role_card",
+        "scene_tags": [
+          "role_card",
+          "warrior",
+          "character_anchor"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 83
       },
       {
         "character": "Greg",
         "asset": "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "pose_family": "portrait_anchor",
+        "scene_tags": [
+          "frontispiece",
+          "portrait"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 83
       }
     ],
     "character_reference_scores": {
-      "assets/book-role-cards/book-i-warrior-005.webp": 50,
-      "assets/book-role-cards/book-ii-stagehand-177.webp": 50,
-      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 50
+      "assets/book-role-cards/book-ii-stagehand-177.webp": 103,
+      "assets/book-role-cards/book-i-warrior-005.webp": 83,
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83
     },
-    "reference_selection_notes": "Greg: assets/book-role-cards/book-i-warrior-005.webp (base 50, selected 50; hand-curated, hand-curated anchor) | Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 50, selected 50; hand-curated, hand-curated anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 50, selected 50; hand-curated, hand-curated anchor)",
+    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 103, selected 103; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor)",
     "character_appearance_notes": {
       "Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."
     },
@@ -126,75 +929,117 @@
     "camera_angle": "",
     "pose_family": "",
     "character_reference_assets": [
-      "assets/book-role-cards/book-i-warrior-005.webp",
       "assets/book-role-cards/book-ii-stagehand-177.webp",
+      "assets/book-role-cards/book-i-warrior-005.webp",
       "visual/homepage/peg-leg-greg-homepage-frontispiece.png"
     ],
     "selected_character_references": [
       {
         "character": "Greg",
-        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
+        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "framing": "above_waist",
+        "view_angle": "three_quarter",
+        "pose_family": "working",
+        "scene_tags": [
+          "backstage",
+          "theatre",
+          "work"
+        ],
+        "tags": [
+          "curated",
+          "above_waist",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 103,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor",
+          "above-waist Greg continuity"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 103
       },
       {
         "character": "Greg",
-        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
+        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "pose_family": "role_card",
+        "scene_tags": [
+          "role_card",
+          "warrior",
+          "character_anchor"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 83
       },
       {
         "character": "Greg",
         "asset": "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "pose_family": "portrait_anchor",
+        "scene_tags": [
+          "frontispiece",
+          "portrait"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 83
       }
     ],
     "character_reference_scores": {
-      "assets/book-role-cards/book-i-warrior-005.webp": 50,
-      "assets/book-role-cards/book-ii-stagehand-177.webp": 50,
-      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 50
+      "assets/book-role-cards/book-ii-stagehand-177.webp": 103,
+      "assets/book-role-cards/book-i-warrior-005.webp": 83,
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83
     },
-    "reference_selection_notes": "Greg: assets/book-role-cards/book-i-warrior-005.webp (base 50, selected 50; hand-curated, hand-curated anchor) | Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 50, selected 50; hand-curated, hand-curated anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 50, selected 50; hand-curated, hand-curated anchor)",
+    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 103, selected 103; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor)",
     "character_appearance_notes": {
       "Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."
     },
@@ -229,75 +1074,117 @@
     "camera_angle": "",
     "pose_family": "",
     "character_reference_assets": [
-      "assets/book-role-cards/book-i-warrior-005.webp",
       "assets/book-role-cards/book-ii-stagehand-177.webp",
+      "assets/book-role-cards/book-i-warrior-005.webp",
       "visual/homepage/peg-leg-greg-homepage-frontispiece.png"
     ],
     "selected_character_references": [
       {
         "character": "Greg",
-        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
+        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "framing": "above_waist",
+        "view_angle": "three_quarter",
+        "pose_family": "working",
+        "scene_tags": [
+          "backstage",
+          "theatre",
+          "work"
+        ],
+        "tags": [
+          "curated",
+          "above_waist",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 103,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor",
+          "above-waist Greg continuity"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 103
       },
       {
         "character": "Greg",
-        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
+        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "pose_family": "role_card",
+        "scene_tags": [
+          "role_card",
+          "warrior",
+          "character_anchor"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 83
       },
       {
         "character": "Greg",
         "asset": "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "pose_family": "portrait_anchor",
+        "scene_tags": [
+          "frontispiece",
+          "portrait"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 83
       }
     ],
     "character_reference_scores": {
-      "assets/book-role-cards/book-i-warrior-005.webp": 50,
-      "assets/book-role-cards/book-ii-stagehand-177.webp": 50,
-      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 50
+      "assets/book-role-cards/book-ii-stagehand-177.webp": 103,
+      "assets/book-role-cards/book-i-warrior-005.webp": 83,
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83
     },
-    "reference_selection_notes": "Greg: assets/book-role-cards/book-i-warrior-005.webp (base 50, selected 50; hand-curated, hand-curated anchor) | Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 50, selected 50; hand-curated, hand-curated anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 50, selected 50; hand-curated, hand-curated anchor)",
+    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 103, selected 103; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor)",
     "character_appearance_notes": {
       "Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."
     },
@@ -329,75 +1216,117 @@
     "camera_angle": "",
     "pose_family": "",
     "character_reference_assets": [
-      "assets/book-role-cards/book-i-warrior-005.webp",
       "assets/book-role-cards/book-ii-stagehand-177.webp",
+      "assets/book-role-cards/book-i-warrior-005.webp",
       "visual/homepage/peg-leg-greg-homepage-frontispiece.png"
     ],
     "selected_character_references": [
       {
         "character": "Greg",
-        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
+        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "framing": "above_waist",
+        "view_angle": "three_quarter",
+        "pose_family": "working",
+        "scene_tags": [
+          "backstage",
+          "theatre",
+          "work"
+        ],
+        "tags": [
+          "curated",
+          "above_waist",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 103,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor",
+          "above-waist Greg continuity"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 103
       },
       {
         "character": "Greg",
-        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
+        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "pose_family": "role_card",
+        "scene_tags": [
+          "role_card",
+          "warrior",
+          "character_anchor"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 83
       },
       {
         "character": "Greg",
         "asset": "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "pose_family": "portrait_anchor",
+        "scene_tags": [
+          "frontispiece",
+          "portrait"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 83
       }
     ],
     "character_reference_scores": {
-      "assets/book-role-cards/book-i-warrior-005.webp": 50,
-      "assets/book-role-cards/book-ii-stagehand-177.webp": 50,
-      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 50
+      "assets/book-role-cards/book-ii-stagehand-177.webp": 103,
+      "assets/book-role-cards/book-i-warrior-005.webp": 83,
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83
     },
-    "reference_selection_notes": "Greg: assets/book-role-cards/book-i-warrior-005.webp (base 50, selected 50; hand-curated, hand-curated anchor) | Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 50, selected 50; hand-curated, hand-curated anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 50, selected 50; hand-curated, hand-curated anchor)",
+    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 103, selected 103; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor)",
     "character_appearance_notes": {
       "Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."
     },
@@ -430,75 +1359,117 @@
     "camera_angle": "",
     "pose_family": "",
     "character_reference_assets": [
-      "assets/book-role-cards/book-i-warrior-005.webp",
       "assets/book-role-cards/book-ii-stagehand-177.webp",
+      "assets/book-role-cards/book-i-warrior-005.webp",
       "visual/homepage/peg-leg-greg-homepage-frontispiece.png"
     ],
     "selected_character_references": [
       {
         "character": "Greg",
-        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
+        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "framing": "above_waist",
+        "view_angle": "three_quarter",
+        "pose_family": "working",
+        "scene_tags": [
+          "backstage",
+          "theatre",
+          "work"
+        ],
+        "tags": [
+          "curated",
+          "above_waist",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 103,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor",
+          "above-waist Greg continuity"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 103
       },
       {
         "character": "Greg",
-        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
+        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "pose_family": "role_card",
+        "scene_tags": [
+          "role_card",
+          "warrior",
+          "character_anchor"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 83
       },
       {
         "character": "Greg",
         "asset": "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "pose_family": "portrait_anchor",
+        "scene_tags": [
+          "frontispiece",
+          "portrait"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 83
       }
     ],
     "character_reference_scores": {
-      "assets/book-role-cards/book-i-warrior-005.webp": 50,
-      "assets/book-role-cards/book-ii-stagehand-177.webp": 50,
-      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 50
+      "assets/book-role-cards/book-ii-stagehand-177.webp": 103,
+      "assets/book-role-cards/book-i-warrior-005.webp": 83,
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83
     },
-    "reference_selection_notes": "Greg: assets/book-role-cards/book-i-warrior-005.webp (base 50, selected 50; hand-curated, hand-curated anchor) | Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 50, selected 50; hand-curated, hand-curated anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 50, selected 50; hand-curated, hand-curated anchor)",
+    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 103, selected 103; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor)",
     "character_appearance_notes": {
       "Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."
     },
@@ -532,75 +1503,117 @@
     "camera_angle": "",
     "pose_family": "",
     "character_reference_assets": [
-      "assets/book-role-cards/book-i-warrior-005.webp",
       "assets/book-role-cards/book-ii-stagehand-177.webp",
+      "assets/book-role-cards/book-i-warrior-005.webp",
       "visual/homepage/peg-leg-greg-homepage-frontispiece.png"
     ],
     "selected_character_references": [
       {
         "character": "Greg",
-        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
+        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "framing": "above_waist",
+        "view_angle": "three_quarter",
+        "pose_family": "working",
+        "scene_tags": [
+          "backstage",
+          "theatre",
+          "work"
+        ],
+        "tags": [
+          "curated",
+          "above_waist",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 103,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor",
+          "above-waist Greg continuity"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 103
       },
       {
         "character": "Greg",
-        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
+        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "pose_family": "role_card",
+        "scene_tags": [
+          "role_card",
+          "warrior",
+          "character_anchor"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 83
       },
       {
         "character": "Greg",
         "asset": "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "pose_family": "portrait_anchor",
+        "scene_tags": [
+          "frontispiece",
+          "portrait"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 83
       }
     ],
     "character_reference_scores": {
-      "assets/book-role-cards/book-i-warrior-005.webp": 50,
-      "assets/book-role-cards/book-ii-stagehand-177.webp": 50,
-      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 50
+      "assets/book-role-cards/book-ii-stagehand-177.webp": 103,
+      "assets/book-role-cards/book-i-warrior-005.webp": 83,
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83
     },
-    "reference_selection_notes": "Greg: assets/book-role-cards/book-i-warrior-005.webp (base 50, selected 50; hand-curated, hand-curated anchor) | Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 50, selected 50; hand-curated, hand-curated anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 50, selected 50; hand-curated, hand-curated anchor)",
+    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 103, selected 103; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor)",
     "character_appearance_notes": {
       "Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."
     },
@@ -635,75 +1648,117 @@
     "camera_angle": "",
     "pose_family": "",
     "character_reference_assets": [
-      "assets/book-role-cards/book-i-warrior-005.webp",
       "assets/book-role-cards/book-ii-stagehand-177.webp",
+      "assets/book-role-cards/book-i-warrior-005.webp",
       "visual/homepage/peg-leg-greg-homepage-frontispiece.png"
     ],
     "selected_character_references": [
       {
         "character": "Greg",
-        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
+        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "framing": "above_waist",
+        "view_angle": "three_quarter",
+        "pose_family": "working",
+        "scene_tags": [
+          "backstage",
+          "theatre",
+          "work"
+        ],
+        "tags": [
+          "curated",
+          "above_waist",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 103,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor",
+          "above-waist Greg continuity"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 103
       },
       {
         "character": "Greg",
-        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
+        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "pose_family": "role_card",
+        "scene_tags": [
+          "role_card",
+          "warrior",
+          "character_anchor"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 83
       },
       {
         "character": "Greg",
         "asset": "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "pose_family": "portrait_anchor",
+        "scene_tags": [
+          "frontispiece",
+          "portrait"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 83
       }
     ],
     "character_reference_scores": {
-      "assets/book-role-cards/book-i-warrior-005.webp": 50,
-      "assets/book-role-cards/book-ii-stagehand-177.webp": 50,
-      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 50
+      "assets/book-role-cards/book-ii-stagehand-177.webp": 103,
+      "assets/book-role-cards/book-i-warrior-005.webp": 83,
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83
     },
-    "reference_selection_notes": "Greg: assets/book-role-cards/book-i-warrior-005.webp (base 50, selected 50; hand-curated, hand-curated anchor) | Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 50, selected 50; hand-curated, hand-curated anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 50, selected 50; hand-curated, hand-curated anchor)",
+    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 103, selected 103; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor)",
     "character_appearance_notes": {
       "Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."
     },
@@ -740,75 +1795,117 @@
     "camera_angle": "",
     "pose_family": "",
     "character_reference_assets": [
-      "assets/book-role-cards/book-i-warrior-005.webp",
       "assets/book-role-cards/book-ii-stagehand-177.webp",
+      "assets/book-role-cards/book-i-warrior-005.webp",
       "visual/homepage/peg-leg-greg-homepage-frontispiece.png"
     ],
     "selected_character_references": [
       {
         "character": "Greg",
-        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
+        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "framing": "above_waist",
+        "view_angle": "three_quarter",
+        "pose_family": "working",
+        "scene_tags": [
+          "backstage",
+          "theatre",
+          "work"
+        ],
+        "tags": [
+          "curated",
+          "above_waist",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 103,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor",
+          "above-waist Greg continuity"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 103
       },
       {
         "character": "Greg",
-        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
+        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "pose_family": "role_card",
+        "scene_tags": [
+          "role_card",
+          "warrior",
+          "character_anchor"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 83
       },
       {
         "character": "Greg",
         "asset": "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "pose_family": "portrait_anchor",
+        "scene_tags": [
+          "frontispiece",
+          "portrait"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 83
       }
     ],
     "character_reference_scores": {
-      "assets/book-role-cards/book-i-warrior-005.webp": 50,
-      "assets/book-role-cards/book-ii-stagehand-177.webp": 50,
-      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 50
+      "assets/book-role-cards/book-ii-stagehand-177.webp": 103,
+      "assets/book-role-cards/book-i-warrior-005.webp": 83,
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83
     },
-    "reference_selection_notes": "Greg: assets/book-role-cards/book-i-warrior-005.webp (base 50, selected 50; hand-curated, hand-curated anchor) | Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 50, selected 50; hand-curated, hand-curated anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 50, selected 50; hand-curated, hand-curated anchor)",
+    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 103, selected 103; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor)",
     "character_appearance_notes": {
       "Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."
     },
@@ -845,75 +1942,117 @@
     "camera_angle": "",
     "pose_family": "",
     "character_reference_assets": [
-      "assets/book-role-cards/book-i-warrior-005.webp",
       "assets/book-role-cards/book-ii-stagehand-177.webp",
+      "assets/book-role-cards/book-i-warrior-005.webp",
       "visual/homepage/peg-leg-greg-homepage-frontispiece.png"
     ],
     "selected_character_references": [
       {
         "character": "Greg",
-        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
+        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "framing": "above_waist",
+        "view_angle": "three_quarter",
+        "pose_family": "working",
+        "scene_tags": [
+          "backstage",
+          "theatre",
+          "work"
+        ],
+        "tags": [
+          "curated",
+          "above_waist",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 103,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor",
+          "above-waist Greg continuity"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 103
       },
       {
         "character": "Greg",
-        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
+        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "pose_family": "role_card",
+        "scene_tags": [
+          "role_card",
+          "warrior",
+          "character_anchor"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 83
       },
       {
         "character": "Greg",
         "asset": "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "pose_family": "portrait_anchor",
+        "scene_tags": [
+          "frontispiece",
+          "portrait"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 83
       }
     ],
     "character_reference_scores": {
-      "assets/book-role-cards/book-i-warrior-005.webp": 50,
-      "assets/book-role-cards/book-ii-stagehand-177.webp": 50,
-      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 50
+      "assets/book-role-cards/book-ii-stagehand-177.webp": 103,
+      "assets/book-role-cards/book-i-warrior-005.webp": 83,
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83
     },
-    "reference_selection_notes": "Greg: assets/book-role-cards/book-i-warrior-005.webp (base 50, selected 50; hand-curated, hand-curated anchor) | Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 50, selected 50; hand-curated, hand-curated anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 50, selected 50; hand-curated, hand-curated anchor)",
+    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 103, selected 103; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor)",
     "character_appearance_notes": {
       "Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."
     },
@@ -949,75 +2088,117 @@
     "camera_angle": "",
     "pose_family": "",
     "character_reference_assets": [
-      "assets/book-role-cards/book-i-warrior-005.webp",
       "assets/book-role-cards/book-ii-stagehand-177.webp",
+      "assets/book-role-cards/book-i-warrior-005.webp",
       "visual/homepage/peg-leg-greg-homepage-frontispiece.png"
     ],
     "selected_character_references": [
       {
         "character": "Greg",
-        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
+        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "framing": "above_waist",
+        "view_angle": "three_quarter",
+        "pose_family": "working",
+        "scene_tags": [
+          "backstage",
+          "theatre",
+          "work"
+        ],
+        "tags": [
+          "curated",
+          "above_waist",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 103,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor",
+          "above-waist Greg continuity"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 103
       },
       {
         "character": "Greg",
-        "asset": "assets/book-role-cards/book-ii-stagehand-177.webp",
+        "asset": "assets/book-role-cards/book-i-warrior-005.webp",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "pose_family": "role_card",
+        "scene_tags": [
+          "role_card",
+          "warrior",
+          "character_anchor"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 83
       },
       {
         "character": "Greg",
         "asset": "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
         "status": "manual",
-        "tags": [
-          "curated"
-        ],
         "source": "manual",
-        "score": 50,
+        "pose_family": "portrait_anchor",
+        "scene_tags": [
+          "frontispiece",
+          "portrait"
+        ],
+        "tags": [
+          "curated",
+          "strong_face",
+          "style_anchor"
+        ],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill",
+        "score": 83,
         "reasons": [
           "hand-curated",
-          "hand-curated anchor"
+          "PLG style",
+          "hand-curated anchor",
+          "strong face anchor",
+          "style anchor"
         ],
         "penalties": [],
         "scene_matches": [],
         "diversity_adjustment": 0,
         "diversity_notes": [],
-        "selection_score": 50
+        "selection_score": 83
       }
     ],
     "character_reference_scores": {
-      "assets/book-role-cards/book-i-warrior-005.webp": 50,
-      "assets/book-role-cards/book-ii-stagehand-177.webp": 50,
-      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 50
+      "assets/book-role-cards/book-ii-stagehand-177.webp": 103,
+      "assets/book-role-cards/book-i-warrior-005.webp": 83,
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": 83
     },
-    "reference_selection_notes": "Greg: assets/book-role-cards/book-i-warrior-005.webp (base 50, selected 50; hand-curated, hand-curated anchor) | Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 50, selected 50; hand-curated, hand-curated anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 50, selected 50; hand-curated, hand-curated anchor)",
+    "reference_selection_notes": "Greg: assets/book-role-cards/book-ii-stagehand-177.webp (base 103, selected 103; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor, above-waist Greg continuity) | Greg: assets/book-role-cards/book-i-warrior-005.webp (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor) | Greg: visual/homepage/peg-leg-greg-homepage-frontispiece.png (base 83, selected 83; hand-curated, PLG style, hand-curated anchor, strong face anchor, style anchor)",
     "character_appearance_notes": {
       "Greg": "Young man. Preserve recognizable face/build and current-period grooming from accepted Greg art. Default chapter-illustration framing should be above waist unless the manuscript moment materially requires lower-body visibility."
     },

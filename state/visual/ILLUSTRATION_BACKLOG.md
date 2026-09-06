@@ -2,6 +2,56 @@
 
 Generated from manuscript-informed scene candidates plus current Illustrated Reader coverage.
 
+## Chapter 156 — THE ADVOCATE
+
+- **Candidate:** `ch156-order-coat`
+- **Kind:** `chapter_illustration`
+- **Priority:** `high`
+- **Current coverage:** 0 images
+- **Fit target:** `exact`
+- **Visual hook:** A practical backstage fix centered on hands, paper, coat, and crutches: Nessa briskly tucking the forged order into Greg's coat while Greg reacts and Iven stands nearby.
+- **Scene:** Greg cannot carry the forged order while using both crutches, so Nessa solves the staging problem by taking the document and shoving it inside the front of his Advocate coat while Iven watches.
+
+## Chapter 157 — THE TABLE
+
+- **Candidate:** `ch157-two-swords`
+- **Kind:** `chapter_illustration`
+- **Priority:** `high`
+- **Current coverage:** 0 images
+- **Fit target:** `exact`
+- **Visual hook:** Serra between Greg-as-Sword and Marek holding a second prop sword, with the audience-facing stage geometry making the accidental duplication instantly readable.
+- **Scene:** During the Sword scene, Marek accidentally enters carrying the actual prop sword while Greg is already mounted as the talking Sword, leaving Serra to face two swords in the same scene for one horrible comic beat.
+
+## Chapter 158 — THE RETURNER
+
+- **Candidate:** `ch158-letter-lyssa`
+- **Kind:** `chapter_illustration`
+- **Priority:** `high`
+- **Current coverage:** 0 images
+- **Fit target:** `exact`
+- **Visual hook:** An intimate over-shoulder market-writing scene: Greg at a small public writing table with folded paper, ink, wet-town market life behind him, and the quiet weight of the letter to Lyssa.
+- **Scene:** With several free hours in town, Greg sits at a market writing table and writes a letter to Lyssa, surrounded by paper, stalls, wet streets, buttons, and the ordinary bustle of the square.
+
+## Chapter 159 — THE PRIVATE PLAYER
+
+- **Candidate:** `ch159-fish-rescue`
+- **Kind:** `chapter_illustration`
+- **Priority:** `high`
+- **Current coverage:** 0 images
+- **Fit target:** `exact`
+- **Visual hook:** A cramped low backstage view through stage supports: Pell reaching for the ridiculous wooden fish while Greg leans into the space, departure clutter and prop chaos around them.
+- **Scene:** While the company packs to leave town, Greg finds Pell under the stage searching for the spring-loaded wooden fish, which has been wedged behind a support and must apparently be rescued because it belongs to the company.
+
+## Chapter 160 — THE SWORD
+
+- **Candidate:** `ch160-fish-twitch`
+- **Kind:** `chapter_illustration`
+- **Priority:** `high`
+- **Current coverage:** 0 images
+- **Fit target:** `exact`
+- **Visual hook:** Marek holding the painted wooden fish toward Greg as it unexpectedly twitches, Serra and the private audience reacting around them, all in the close polished salon performance space.
+- **Scene:** During the improvised private performance, Marek holds the wooden fish toward Greg-as-Sword and asks him to cut it; Greg says it is already dead, then the spring-loaded fish twitches at exactly the right moment and breaks the room.
+
 ## Chapter 390 — THE PASSENGER
 
 - **Candidate:** `ch390-root-drag`
