@@ -52,8 +52,8 @@ class Beat:
 
 
 def has_dialogue(text: str) -> bool:
-    """Return True for straight or paired smart double-quoted dialogue."""
-    return '"' in text or ('“' in text and '”' in text)
+    """Return True only when a complete straight or smart quote span exists."""
+    return bool(quoted_spans(text))
 
 
 def quoted_spans(text: str) -> list[str]:
@@ -197,10 +197,6 @@ def _subject_owner(text: str) -> str | None:
     if not outside:
         return None
 
-    # First-person interior/action beats belong to Greg even when the verb is
-    # not in the finite action vocabulary. This catches reactions such as
-    # `I knew`, `I named`, and `My heart kicked` without guessing about other
-    # characters.
     if re.match(r"^(?:I|My)\b", outside):
         return "GREG"
 
@@ -242,10 +238,7 @@ def _compatible(current: str | None, incoming: str | None, *, incoming_explicit:
 
 
 def split_paragraph(text: str) -> list[str]:
-    """Return one-owner paragraph beats for a paragraph containing dialogue.
-
-    Ordinary narration without dialogue is deliberately untouched.
-    """
+    """Return one-owner paragraph beats for a paragraph containing dialogue."""
     original = text.strip()
     if not original or not has_dialogue(original):
         return [original] if original else []
