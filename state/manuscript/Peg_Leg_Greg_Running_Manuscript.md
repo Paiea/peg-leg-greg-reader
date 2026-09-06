@@ -1498,7 +1498,9 @@ Then the target fin turned.
 
 Not much.
 
-A small rotation, the leading edge shifting away from me while the rear edge followed less cleanly. It was not the straight little displacement I wanted. It was not dramatic. I almost doubted it had happened until Hessa said, "Return."
+A small rotation, the leading edge shifting away from me while the rear edge followed less cleanly. It was not the straight little displacement I wanted. It was not dramatic.
+
+I almost doubted it had happened until Hessa said, "Return."
 
 I returned immediately.
 
@@ -3451,7 +3453,11 @@ Tonight Jori stacked two pieces just inside the rear door instead.
 
 Nobody argued.
 
-Rinna waited until the front doors were shut before bringing the cash box out. Davin counted with her. When Pell asked whether the cart needed loading, she said, "No. Tomorrow."
+Rinna waited until the front doors were shut before bringing the cash box out.
+
+Davin counted with her.
+
+When Pell asked whether the cart needed loading, she said, "No. Tomorrow."
 
 That was all.
 
