@@ -47,6 +47,7 @@
     "193": {"showcase": false, "reason": "redundant_progression"},
     "195": {"showcase": false, "reason": "redundant_progression"},
     "197": {"showcase": false, "reason": "redundant_progression"},
-    "199": {"showcase": false, "reason": "superseded_by_stronger_chapter"}
+    "199": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
+    "205": {"showcase": false, "reason": "redundant_progression"}
   }
 }
