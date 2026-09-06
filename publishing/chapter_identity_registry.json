@@ -988,7 +988,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000001",
       "current_display_number": 1,
-      "current_title": "The Boy",
+      "current_title": "THE BOY",
       "illustration_refs": [
         "visual/chapter_art/001/v28_c01_s01_the-mirror.png",
         "visual/chapter_art/001/v28_c01_s02_bronze-younger-carrow.png",
@@ -997,9 +997,9 @@
       "legacy_slugs": [
         "chapters/001.html"
       ],
-      "manuscript_path": "chapters/001.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 1,
@@ -1010,7 +1010,7 @@
       "source_chapter_ids": [
         "plg-ch-000001"
       ],
-      "source_path": "chapters/001.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -1018,7 +1018,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000002",
       "current_display_number": 2,
-      "current_title": "The Borrower",
+      "current_title": "THE BORROWER",
       "illustration_refs": [
         "visual/chapter_art/002/v28_c02_s01_carrow-street-memory.png",
         "visual/chapter_art/002/v28_c02_s02_pell-takes-interest.png",
@@ -1028,9 +1028,9 @@
       "legacy_slugs": [
         "chapters/002.html"
       ],
-      "manuscript_path": "chapters/002.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 2,
@@ -1041,7 +1041,7 @@
       "source_chapter_ids": [
         "plg-ch-000002"
       ],
-      "source_path": "chapters/002.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -1049,7 +1049,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000003",
       "current_display_number": 3,
-      "current_title": "The Investor",
+      "current_title": "THE INVESTOR",
       "illustration_refs": [
         "visual/chapter_art/003/v28_c03_s01_cart-too-much-shale.png",
         "visual/chapter_art/003/v28_c03_s02_sixth-disk.png",
@@ -1058,9 +1058,9 @@
       "legacy_slugs": [
         "chapters/003.html"
       ],
-      "manuscript_path": "chapters/003.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 3,
@@ -1071,7 +1071,7 @@
       "source_chapter_ids": [
         "plg-ch-000003"
       ],
-      "source_path": "chapters/003.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -1079,7 +1079,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000004",
       "current_display_number": 4,
-      "current_title": "The Expert",
+      "current_title": "THE EXPERT",
       "illustration_refs": [
         "visual/chapter_art/004/v28_c04_s01_too-many-categories.png",
         "visual/chapter_art/004/v28_c04_s02_reading-the-table.png",
@@ -1088,9 +1088,9 @@
       "legacy_slugs": [
         "chapters/004.html"
       ],
-      "manuscript_path": "chapters/004.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 4,
@@ -1101,7 +1101,7 @@
       "source_chapter_ids": [
         "plg-ch-000004"
       ],
-      "source_path": "chapters/004.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -1109,7 +1109,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000005",
       "current_display_number": 5,
-      "current_title": "The Warrior",
+      "current_title": "THE WARRIOR",
       "illustration_refs": [
         "visual/chapter_art/005/v28_c05_s01_back-in-the-yard.png",
         "visual/chapter_art/005/v28_c05_s02_jorren-makes-the-point.png",
@@ -1118,9 +1118,9 @@
       "legacy_slugs": [
         "chapters/005.html"
       ],
-      "manuscript_path": "chapters/005.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 5,
@@ -1131,7 +1131,7 @@
       "source_chapter_ids": [
         "plg-ch-000005"
       ],
-      "source_path": "chapters/005.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -1139,7 +1139,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000006",
       "current_display_number": 6,
-      "current_title": "The Laborer",
+      "current_title": "THE LABORER",
       "illustration_refs": [
         "visual/chapter_art/006/v28_c06_s01_empire-of-flour.png",
         "visual/chapter_art/006/v28_c06_s02_twelfth-sack.png",
@@ -1148,9 +1148,9 @@
       "legacy_slugs": [
         "chapters/006.html"
       ],
-      "manuscript_path": "chapters/006.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 6,
@@ -1161,7 +1161,7 @@
       "source_chapter_ids": [
         "plg-ch-000006"
       ],
-      "source_path": "chapters/006.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -1169,7 +1169,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000007",
       "current_display_number": 7,
-      "current_title": "The Owner",
+      "current_title": "THE OWNER",
       "illustration_refs": [
         "visual/chapter_art/007/Ch007_Fast-Coverage-003-C01.jpg",
         "visual/chapter_art/007/Ch007_Storeroom-Crates.jpg"
@@ -1177,9 +1177,9 @@
       "legacy_slugs": [
         "chapters/007.html"
       ],
-      "manuscript_path": "chapters/007.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 7,
@@ -1190,7 +1190,7 @@
       "source_chapter_ids": [
         "plg-ch-000007"
       ],
-      "source_path": "chapters/007.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -1198,7 +1198,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000008",
       "current_display_number": 8,
-      "current_title": "The Collector",
+      "current_title": "THE COLLECTOR",
       "illustration_refs": [
         "visual/chapter_art/008/v28_c08_s01_the-face.png",
         "visual/chapter_art/008/v28_c08_s02_here.png",
@@ -1207,9 +1207,9 @@
       "legacy_slugs": [
         "chapters/008.html"
       ],
-      "manuscript_path": "chapters/008.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 8,
@@ -1220,7 +1220,7 @@
       "source_chapter_ids": [
         "plg-ch-000008"
       ],
-      "source_path": "chapters/008.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -1228,7 +1228,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000009",
       "current_display_number": 9,
-      "current_title": "The Lender",
+      "current_title": "THE LENDER",
       "illustration_refs": [
         "visual/chapter_art/009/v28_c09_s01_debtors-coat.png",
         "visual/chapter_art/009/v28_c09_s02_walking-the-borrowers.png",
@@ -1237,9 +1237,9 @@
       "legacy_slugs": [
         "chapters/009.html"
       ],
-      "manuscript_path": "chapters/009.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 9,
@@ -1250,7 +1250,7 @@
       "source_chapter_ids": [
         "plg-ch-000009"
       ],
-      "source_path": "chapters/009.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -1258,7 +1258,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000010",
       "current_display_number": 10,
-      "current_title": "The Appraiser",
+      "current_title": "THE APPRAISER",
       "illustration_refs": [
         "visual/chapter_art/010/v28_c10_feature_dead-mans-hand.png",
         "visual/chapter_art/010/v28_c10_s01_dead-mans-hand.png",
@@ -1268,9 +1268,9 @@
       "legacy_slugs": [
         "chapters/010.html"
       ],
-      "manuscript_path": "chapters/010.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 10,
@@ -1281,7 +1281,7 @@
       "source_chapter_ids": [
         "plg-ch-000010"
       ],
-      "source_path": "chapters/010.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -1289,7 +1289,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000011",
       "current_display_number": 11,
-      "current_title": "The Mage",
+      "current_title": "THE MAGE",
       "illustration_refs": [
         "visual/chapter_art/011/v28_c11_s01_dinner-plate-barrier.png",
         "visual/chapter_art/011/v28_c11_s02_again-no.png",
@@ -1298,9 +1298,9 @@
       "legacy_slugs": [
         "chapters/011.html"
       ],
-      "manuscript_path": "chapters/011.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 11,
@@ -1311,7 +1311,7 @@
       "source_chapter_ids": [
         "plg-ch-000011"
       ],
-      "source_path": "chapters/011.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -2516,7 +2516,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000053",
       "current_display_number": 53,
-      "current_title": "The Guest",
+      "current_title": "THE GUEST",
       "illustration_refs": [
         "visual/chapter_art/053/Ch053_Fast-Coverage-003-B14.jpg",
         "visual/chapter_art/053/svgPLG_Ch53_The-Bath.png"
@@ -2524,9 +2524,9 @@
       "legacy_slugs": [
         "chapters/053.html"
       ],
-      "manuscript_path": "chapters/053.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 53,
@@ -2537,7 +2537,7 @@
       "source_chapter_ids": [
         "plg-ch-000053"
       ],
-      "source_path": "chapters/053.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -2545,7 +2545,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000054",
       "current_display_number": 54,
-      "current_title": "The Interpreter",
+      "current_title": "THE INTERPRETER",
       "illustration_refs": [
         "visual/chapter_art/054/Ch054_Fast-Coverage-003-B15.jpg",
         "visual/chapter_art/054/svgPLG_Ch54_Horse-Watches-Back.png"
@@ -2553,9 +2553,9 @@
       "legacy_slugs": [
         "chapters/054.html"
       ],
-      "manuscript_path": "chapters/054.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 54,
@@ -2566,7 +2566,7 @@
       "source_chapter_ids": [
         "plg-ch-000054"
       ],
-      "source_path": "chapters/054.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -2574,7 +2574,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000055",
       "current_display_number": 55,
-      "current_title": "The Extra Hand",
+      "current_title": "THE EXTRA HAND",
       "illustration_refs": [
         "visual/chapter_art/055/Ch055_Fast-Coverage-003-C05.jpg",
         "visual/chapter_art/055/Ch055_Padded-Sparring-Fall.jpg"
@@ -2582,9 +2582,9 @@
       "legacy_slugs": [
         "chapters/055.html"
       ],
-      "manuscript_path": "chapters/055.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 55,
@@ -2595,7 +2595,7 @@
       "source_chapter_ids": [
         "plg-ch-000055"
       ],
-      "source_path": "chapters/055.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -2603,7 +2603,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000056",
       "current_display_number": 56,
-      "current_title": "The Spotter",
+      "current_title": "THE SPOTTER",
       "illustration_refs": [
         "visual/chapter_art/056/Ch056_Fast-Coverage-003-B16.jpg",
         "visual/chapter_art/056/svgPLG_Ch56_East-Lamp-Works.png"
@@ -2611,9 +2611,9 @@
       "legacy_slugs": [
         "chapters/056.html"
       ],
-      "manuscript_path": "chapters/056.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 56,
@@ -2624,7 +2624,7 @@
       "source_chapter_ids": [
         "plg-ch-000056"
       ],
-      "source_path": "chapters/056.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -2632,7 +2632,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000057",
       "current_display_number": 57,
-      "current_title": "The Watcher",
+      "current_title": "THE WATCHER",
       "illustration_refs": [
         "visual/chapter_art/057/Ch057_Fast-Coverage-003-B17.jpg",
         "visual/chapter_art/057/svgPLG_Ch57_North-Freight-Arch.png"
@@ -2640,9 +2640,9 @@
       "legacy_slugs": [
         "chapters/057.html"
       ],
-      "manuscript_path": "chapters/057.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 57,
@@ -2653,7 +2653,7 @@
       "source_chapter_ids": [
         "plg-ch-000057"
       ],
-      "source_path": "chapters/057.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -2661,7 +2661,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000058",
       "current_display_number": 58,
-      "current_title": "The Regular",
+      "current_title": "THE REGULAR",
       "illustration_refs": [
         "visual/chapter_art/058/Ch058_Fast-Coverage-003-C06.jpg",
         "visual/chapter_art/058/Ch058_Walking-Barrier.jpg"
@@ -2669,9 +2669,9 @@
       "legacy_slugs": [
         "chapters/058.html"
       ],
-      "manuscript_path": "chapters/058.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 58,
@@ -2682,7 +2682,7 @@
       "source_chapter_ids": [
         "plg-ch-000058"
       ],
-      "source_path": "chapters/058.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -2690,7 +2690,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000059",
       "current_display_number": 59,
-      "current_title": "The Tenant",
+      "current_title": "THE TENANT",
       "illustration_refs": [
         "visual/chapter_art/059/Ch059_Fast-Coverage-003-B18.jpg",
         "visual/chapter_art/059/svgPLG_Ch59_Another-Week.png"
@@ -2698,9 +2698,9 @@
       "legacy_slugs": [
         "chapters/059.html"
       ],
-      "manuscript_path": "chapters/059.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 59,
@@ -2711,7 +2711,7 @@
       "source_chapter_ids": [
         "plg-ch-000059"
       ],
-      "source_path": "chapters/059.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -2719,7 +2719,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000060",
       "current_display_number": 60,
-      "current_title": "The Surveyor",
+      "current_title": "THE SURVEYOR",
       "illustration_refs": [
         "visual/chapter_art/060/Ch060_Fast-Coverage-003-C07.jpg",
         "visual/chapter_art/060/Ch060_Rain-Cut-Culvert.jpg"
@@ -2727,9 +2727,9 @@
       "legacy_slugs": [
         "chapters/060.html"
       ],
-      "manuscript_path": "chapters/060.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 60,
@@ -2740,7 +2740,7 @@
       "source_chapter_ids": [
         "plg-ch-000060"
       ],
-      "source_path": "chapters/060.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -2748,7 +2748,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000061",
       "current_display_number": 61,
-      "current_title": "The Inspector",
+      "current_title": "THE INSPECTOR",
       "illustration_refs": [
         "visual/chapter_art/061/Ch061_Farm-Cart-Inspection.jpg",
         "visual/chapter_art/061/Ch061_Fast-Coverage-003-C08.jpg"
@@ -2756,9 +2756,9 @@
       "legacy_slugs": [
         "chapters/061.html"
       ],
-      "manuscript_path": "chapters/061.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 61,
@@ -2769,7 +2769,7 @@
       "source_chapter_ids": [
         "plg-ch-000061"
       ],
-      "source_path": "chapters/061.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -2777,7 +2777,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000062",
       "current_display_number": 62,
-      "current_title": "The Backstop",
+      "current_title": "THE BACKSTOP",
       "illustration_refs": [
         "visual/chapter_art/062/Ch062_Fast-Coverage-003-C09.jpg",
         "visual/chapter_art/062/Ch062_River-Yard-Dry-Run.jpg"
@@ -2785,9 +2785,9 @@
       "legacy_slugs": [
         "chapters/062.html"
       ],
-      "manuscript_path": "chapters/062.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 62,
@@ -2798,7 +2798,7 @@
       "source_chapter_ids": [
         "plg-ch-000062"
       ],
-      "source_path": "chapters/062.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -2806,7 +2806,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000063",
       "current_display_number": 63,
-      "current_title": "The Backstop",
+      "current_title": "THE BACKSTOP",
       "illustration_refs": [
         "visual/chapter_art/063/Ch063_Fast-Coverage-003-A01.jpg",
         "visual/chapter_art/063/Ch063_Fast-Coverage-006-01.jpg"
@@ -2814,9 +2814,9 @@
       "legacy_slugs": [
         "chapters/063.html"
       ],
-      "manuscript_path": "chapters/063.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 63,
@@ -2827,7 +2827,7 @@
       "source_chapter_ids": [
         "plg-ch-000063"
       ],
-      "source_path": "chapters/063.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -2835,7 +2835,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000064",
       "current_display_number": 64,
-      "current_title": "The Patient",
+      "current_title": "THE PATIENT",
       "illustration_refs": [
         "visual/chapter_art/064/Ch064_Fast-Coverage-003-A02.jpg",
         "visual/chapter_art/064/Ch064_Fast-Coverage-006-01.jpg"
@@ -2843,9 +2843,9 @@
       "legacy_slugs": [
         "chapters/064.html"
       ],
-      "manuscript_path": "chapters/064.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 64,
@@ -2856,7 +2856,7 @@
       "source_chapter_ids": [
         "plg-ch-000064"
       ],
-      "source_path": "chapters/064.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -2864,7 +2864,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000065",
       "current_display_number": 65,
-      "current_title": "The Ward",
+      "current_title": "THE WARD",
       "illustration_refs": [
         "visual/chapter_art/065/Ch065_Fast-Coverage-003-B19.jpg",
         "visual/chapter_art/065/svgPLG_Ch65_Ward-Morning.png"
@@ -2872,9 +2872,9 @@
       "legacy_slugs": [
         "chapters/065.html"
       ],
-      "manuscript_path": "chapters/065.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 65,
@@ -2885,7 +2885,7 @@
       "source_chapter_ids": [
         "plg-ch-000065"
       ],
-      "source_path": "chapters/065.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -2893,7 +2893,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000066",
       "current_display_number": 66,
-      "current_title": "The Absent",
+      "current_title": "THE ABSENT",
       "illustration_refs": [
         "visual/chapter_art/066/Ch066_Fast-Coverage-003-A03.jpg",
         "visual/chapter_art/066/Ch066_Fast-Coverage-006-01.jpg"
@@ -2901,9 +2901,9 @@
       "legacy_slugs": [
         "chapters/066.html"
       ],
-      "manuscript_path": "chapters/066.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 66,
@@ -2914,7 +2914,7 @@
       "source_chapter_ids": [
         "plg-ch-000066"
       ],
-      "source_path": "chapters/066.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -2922,7 +2922,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000067",
       "current_display_number": 67,
-      "current_title": "The Claimant",
+      "current_title": "THE CLAIMANT",
       "illustration_refs": [
         "visual/chapter_art/067/Ch067_Fast-Coverage-003-A04.jpg",
         "visual/chapter_art/067/Ch067_Fast-Coverage-006-01.jpg"
@@ -2930,9 +2930,9 @@
       "legacy_slugs": [
         "chapters/067.html"
       ],
-      "manuscript_path": "chapters/067.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 67,
@@ -2943,7 +2943,7 @@
       "source_chapter_ids": [
         "plg-ch-000067"
       ],
-      "source_path": "chapters/067.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -2951,7 +2951,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000068",
       "current_display_number": 68,
-      "current_title": "The Novice",
+      "current_title": "THE NOVICE",
       "illustration_refs": [
         "visual/chapter_art/068/Ch068_Fast-Coverage-003-B20.jpg",
         "visual/chapter_art/068/svgPLG_Ch68_First-Crutch-Work.png"
@@ -2959,9 +2959,9 @@
       "legacy_slugs": [
         "chapters/068.html"
       ],
-      "manuscript_path": "chapters/068.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 68,
@@ -2972,7 +2972,7 @@
       "source_chapter_ids": [
         "plg-ch-000068"
       ],
-      "source_path": "chapters/068.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -2980,7 +2980,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000069",
       "current_display_number": 69,
-      "current_title": "The Lodger",
+      "current_title": "THE LODGER",
       "illustration_refs": [
         "visual/chapter_art/069/Ch069_Fast-Coverage-003-A05.jpg",
         "visual/chapter_art/069/Ch069_Fast-Coverage-006-01.jpg"
@@ -2988,9 +2988,9 @@
       "legacy_slugs": [
         "chapters/069.html"
       ],
-      "manuscript_path": "chapters/069.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 69,
@@ -3001,7 +3001,7 @@
       "source_chapter_ids": [
         "plg-ch-000069"
       ],
-      "source_path": "chapters/069.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -3009,7 +3009,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000070",
       "current_display_number": 70,
-      "current_title": "The Applicant",
+      "current_title": "THE APPLICANT",
       "illustration_refs": [
         "visual/chapter_art/070/Ch070_Fast-Coverage-003-A06.jpg",
         "visual/chapter_art/070/Ch070_Fast-Coverage-006-01.jpg"
@@ -3017,9 +3017,9 @@
       "legacy_slugs": [
         "chapters/070.html"
       ],
-      "manuscript_path": "chapters/070.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 70,
@@ -3030,7 +3030,7 @@
       "source_chapter_ids": [
         "plg-ch-000070"
       ],
-      "source_path": "chapters/070.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -3038,7 +3038,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000071",
       "current_display_number": 71,
-      "current_title": "The Counter",
+      "current_title": "THE COUNTER",
       "illustration_refs": [
         "visual/chapter_art/071/Ch071_Fast-Coverage-003-A07.jpg",
         "visual/chapter_art/071/Ch071_Fast-Coverage-006-01.jpg"
@@ -3046,9 +3046,9 @@
       "legacy_slugs": [
         "chapters/071.html"
       ],
-      "manuscript_path": "chapters/071.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 71,
@@ -3059,7 +3059,7 @@
       "source_chapter_ids": [
         "plg-ch-000071"
       ],
-      "source_path": "chapters/071.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -3067,7 +3067,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000072",
       "current_display_number": 72,
-      "current_title": "The Friend",
+      "current_title": "THE FRIEND",
       "illustration_refs": [
         "visual/chapter_art/072/Ch072_Fast-Coverage-003-A08.jpg",
         "visual/chapter_art/072/Ch072_Fast-Coverage-006-01.jpg"
@@ -3075,9 +3075,9 @@
       "legacy_slugs": [
         "chapters/072.html"
       ],
-      "manuscript_path": "chapters/072.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 72,
@@ -3088,7 +3088,7 @@
       "source_chapter_ids": [
         "plg-ch-000072"
       ],
-      "source_path": "chapters/072.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -3096,7 +3096,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000073",
       "current_display_number": 73,
-      "current_title": "The Tenant",
+      "current_title": "THE TENANT",
       "illustration_refs": [
         "visual/chapter_art/073/Ch073_Fast-Coverage-003-A09.jpg",
         "visual/chapter_art/073/Ch073_Fast-Coverage-006-01.jpg"
@@ -3104,9 +3104,9 @@
       "legacy_slugs": [
         "chapters/073.html"
       ],
-      "manuscript_path": "chapters/073.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 73,
@@ -3117,7 +3117,7 @@
       "source_chapter_ids": [
         "plg-ch-000073"
       ],
-      "source_path": "chapters/073.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -3125,7 +3125,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000074",
       "current_display_number": 74,
-      "current_title": "The Consultant",
+      "current_title": "THE CONSULTANT",
       "illustration_refs": [
         "visual/chapter_art/074/Ch074_Fast-Coverage-003-A10.jpg",
         "visual/chapter_art/074/Ch074_Fast-Coverage-006-01.jpg"
@@ -3133,9 +3133,9 @@
       "legacy_slugs": [
         "chapters/074.html"
       ],
-      "manuscript_path": "chapters/074.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 74,
@@ -3146,7 +3146,7 @@
       "source_chapter_ids": [
         "plg-ch-000074"
       ],
-      "source_path": "chapters/074.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -3154,7 +3154,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000075",
       "current_display_number": 75,
-      "current_title": "The Returner",
+      "current_title": "THE RETURNER",
       "illustration_refs": [
         "visual/chapter_art/075/Ch075_Fast-Coverage-003-B21.jpg",
         "visual/chapter_art/075/svgPLG_Ch75_First-Fourteen-Steps.png"
@@ -3162,9 +3162,9 @@
       "legacy_slugs": [
         "chapters/075.html"
       ],
-      "manuscript_path": "chapters/075.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 75,
@@ -3175,7 +3175,7 @@
       "source_chapter_ids": [
         "plg-ch-000075"
       ],
-      "source_path": "chapters/075.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -3183,7 +3183,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000076",
       "current_display_number": 76,
-      "current_title": "The Descender",
+      "current_title": "THE DESCENDER",
       "illustration_refs": [
         "visual/chapter_art/076/Ch076_Fast-Coverage-003-A11.jpg",
         "visual/chapter_art/076/Ch076_Fast-Coverage-006-01.jpg"
@@ -3191,9 +3191,9 @@
       "legacy_slugs": [
         "chapters/076.html"
       ],
-      "manuscript_path": "chapters/076.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 76,
@@ -3204,7 +3204,7 @@
       "source_chapter_ids": [
         "plg-ch-000076"
       ],
-      "source_path": "chapters/076.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -3212,7 +3212,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000077",
       "current_display_number": 77,
-      "current_title": "The Sorter",
+      "current_title": "THE SORTER",
       "illustration_refs": [
         "visual/chapter_art/077/Ch077_Fast-Coverage-003-B22.jpg",
         "visual/chapter_art/077/svgPLG_Ch77_Holls-Sorting-Test.png"
@@ -3220,9 +3220,9 @@
       "legacy_slugs": [
         "chapters/077.html"
       ],
-      "manuscript_path": "chapters/077.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 77,
@@ -3233,7 +3233,7 @@
       "source_chapter_ids": [
         "plg-ch-000077"
       ],
-      "source_path": "chapters/077.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -3241,7 +3241,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000078",
       "current_display_number": 78,
-      "current_title": "The Archivist",
+      "current_title": "THE ARCHIVIST",
       "illustration_refs": [
         "visual/chapter_art/078/Ch078_Fast-Coverage-003-A12.jpg",
         "visual/chapter_art/078/Ch078_Fast-Coverage-006-01.jpg"
@@ -3249,9 +3249,9 @@
       "legacy_slugs": [
         "chapters/078.html"
       ],
-      "manuscript_path": "chapters/078.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 78,
@@ -3262,7 +3262,7 @@
       "source_chapter_ids": [
         "plg-ch-000078"
       ],
-      "source_path": "chapters/078.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -3270,7 +3270,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000079",
       "current_display_number": 79,
-      "current_title": "The Spectator",
+      "current_title": "THE SPECTATOR",
       "illustration_refs": [
         "visual/chapter_art/079/Ch079_Fast-Coverage-003-B23.jpg",
         "visual/chapter_art/079/svgPLG_Ch79_Watching-the-Yard.png"
@@ -3278,9 +3278,9 @@
       "legacy_slugs": [
         "chapters/079.html"
       ],
-      "manuscript_path": "chapters/079.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 79,
@@ -3291,7 +3291,7 @@
       "source_chapter_ids": [
         "plg-ch-000079"
       ],
-      "source_path": "chapters/079.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -3299,7 +3299,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000080",
       "current_display_number": 80,
-      "current_title": "The Customer",
+      "current_title": "THE CUSTOMER",
       "illustration_refs": [
         "visual/chapter_art/080/Ch080_Fast-Coverage-003-B24.jpg",
         "visual/chapter_art/080/svgPLG_Ch80_Green-Door-Laughter.png"
@@ -3307,9 +3307,9 @@
       "legacy_slugs": [
         "chapters/080.html"
       ],
-      "manuscript_path": "chapters/080.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 80,
@@ -3320,7 +3320,7 @@
       "source_chapter_ids": [
         "plg-ch-000080"
       ],
-      "source_path": "chapters/080.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -3328,7 +3328,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000081",
       "current_display_number": 81,
-      "current_title": "The Debtor",
+      "current_title": "THE DEBTOR",
       "illustration_refs": [
         "visual/chapter_art/081/Ch081_Fast-Coverage-003-A13.jpg",
         "visual/chapter_art/081/Ch081_Fast-Coverage-006-01.jpg"
@@ -3336,9 +3336,9 @@
       "legacy_slugs": [
         "chapters/081.html"
       ],
-      "manuscript_path": "chapters/081.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 81,
@@ -3349,7 +3349,7 @@
       "source_chapter_ids": [
         "plg-ch-000081"
       ],
-      "source_path": "chapters/081.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -3357,7 +3357,7 @@
       "book": "book-i",
       "chapter_id": "plg-ch-000082",
       "current_display_number": 82,
-      "current_title": "The Reconciler",
+      "current_title": "THE RECONCILER",
       "illustration_refs": [
         "visual/chapter_art/082/Ch082_Fast-Coverage-003-B25.jpg",
         "visual/chapter_art/082/svgPLG_Ch82_Bounded-Invoice-Work.png"
@@ -3365,9 +3365,9 @@
       "legacy_slugs": [
         "chapters/082.html"
       ],
-      "manuscript_path": "chapters/082.html",
-      "manuscript_source_kind": "illustrated_reader_fallback",
-      "manuscript_source_priority": 350000,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800000,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 82,
@@ -3378,7 +3378,7 @@
       "source_chapter_ids": [
         "plg-ch-000082"
       ],
-      "source_path": "chapters/082.html",
+      "source_path": "state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx",
       "status": "active"
     },
     {
@@ -3396,9 +3396,9 @@
       "legacy_slugs": [
         "chapters/083.html"
       ],
-      "manuscript_path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
-      "manuscript_source_kind": "book_manuscript_snapshot",
-      "manuscript_source_priority": 750137,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800113,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 83,
@@ -3409,7 +3409,7 @@
       "source_chapter_ids": [
         "plg-ch-000083"
       ],
-      "source_path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+      "source_path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
       "status": "active"
     },
     {
@@ -3426,9 +3426,9 @@
       "legacy_slugs": [
         "chapters/084.html"
       ],
-      "manuscript_path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
-      "manuscript_source_kind": "book_manuscript_snapshot",
-      "manuscript_source_priority": 750137,
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
+      "manuscript_source_kind": "authoritative_docx",
+      "manuscript_source_priority": 800113,
       "merged_into": null,
       "notes": "",
       "origin_chapter_number": 84,
@@ -3439,7 +3439,7 @@
       "source_chapter_ids": [
         "plg-ch-000084"
       ],
-      "source_path": "state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx",
+      "source_path": "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
       "status": "active"
     },
     {
