@@ -31,8 +31,18 @@ jobs:
         run: |
           # The Text Reader intentionally starts later than Chapter 10.
           sed -i 's/for path in \["chapters\/010.html", "light\/010.html"\]:/for path in ["chapters\/010.html"]:/' scripts/apply_economy_normalization_live.py
-          # Align the queued Ch474 replacement with the exact checkpoint wording.
+          # Align queued exact replacements with current checkpoint wording.
           sed -i 's/one Lakeward specification folded inside notebook/one Lakeward specification/' scripts/apply_economy_normalization_live.py
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('scripts/apply_economy_normalization_live.py')
+          text = path.read_text(encoding='utf-8')
+          bad = '''replace_exact(p, '\"I said, \\\"My fee only if fourth completes and total reaches one silver two.\\\"\"', '\"I said, \\\"My fee only if fourth completes and total reaches eight silver.\\\"\"')'''
+          good = '''replace_exact(p, 'I said, "My fee only if fourth completes and total reaches one silver two."', 'I said, "My fee only if fourth completes and total reaches eight silver."')'''
+          if bad not in text:
+              raise SystemExit('DRIFT: one-shot script no longer contains expected Ch484 assertion')
+          path.write_text(text.replace(bad, good), encoding='utf-8')
+          PY
           python scripts/apply_economy_normalization_live.py
       - name: Run reader tooling tests
         run: python -m unittest discover -s tests -p 'test_*.py'
