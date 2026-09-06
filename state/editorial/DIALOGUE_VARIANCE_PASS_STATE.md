@@ -30,14 +30,14 @@ Greg remains the gravitational center of short dry compressed comic reduction. O
 
 ## Sequential coverage ledger
 
-- Chapters **1-155: VARIANCE REVIEWED**
-- Chapters **156-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-165: VARIANCE REVIEWED**
+- Chapters **166-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 156**
+Current sequential variance edge: **Chapter 166**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_146_155.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_156_165.md`
 
 ## Sequential batch authority
 
@@ -72,6 +72,7 @@ Exact chapter-level findings and replacement prose are preserved in:
 - `BATCH_131_135.md`
 - `BATCH_136_145.md`
 - `BATCH_146_155.md`
+- `BATCH_156_165.md`
 
 All paths above are under `state/editorial/dialogue-variance-pass/`.
 
@@ -79,20 +80,30 @@ Existing out-of-sequence pilot evidence remains:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches do not bridge the unreviewed 156-320 gap.
+Those later batches do not bridge the unreviewed 166-320 gap.
 
-## Chapters 146-155 result
+## Chapters 156-165 result
 
-- Chapter 146 `THE HAND`: **no variance change required**. Crowded hall setup stays distributed across work and social jurisdiction; partial old-company knowledge remains partial instead of becoming convenient exposition.
-- Chapter 147 `THE REHEARSAL`: **no variance change required**. Iven, Teren, Serra, Marek, costume workers, Edda, and Greg retain distinct ways of handling rehearsal failure, privacy, and current work.
-- Chapter 148 `THE ROOF`: **no variance change required**. Incidental town speakers remain low-ambition and scope-limited; local expertise and uncertainty coexist without turning into polished exposition. Preserve the municipal-Mara same-name caution from attribution authority.
-- Chapter 149 `THE AUDIENCE`: **no variance change required**. Open rehearsal supports audience pressure while still allowing stops, resets, object moves, and reruns; successful lines remain possibilities rather than frozen recipes.
-- Chapter 150 `THE WORK`: **no variance change required**. Offstage fatigue, food, cards, costumes, money, and touring history broaden rhythm naturally; Marek and Iven can explain practical work without becoming theorists.
-- Chapter 151 `THE SHOW`: **light variance patch required**. Replace one Iven `I didn't say anything / your face` coat beat with scene-object language: `Coat is not the problem.`
-- Chapter 152 `THE SECOND SHOW`: **no variance change required**. Current audience and partner behavior outrank yesterday's successful bits; tiny partner corrections remain enough.
-- Chapter 153 `THE MONEY`: **light variance patch required**. Replace one Marek `your face` ladder after an old local debt encounter with his own social-history refusal: `Local history.`
-- Chapter 154 `THE VISITOR`: **light variance patch required**. Keep Drell's deliberately unsettling perception because provenance is explicit; replace Davin's generic `your face` wheel beat with `Leave the wheels.`
-- Chapter 155 `THE LEAK`: **no variance change required**. Wet-hall operations keep shared short words tied to distinct objects and authorities; route, storage, roof, costume, and show decisions remain locally owned.
+- Chapter 156 `THE ADVOCATE`: **no variance change required**. Emergency substitution compression remains task-driven. Keyword prompts, cuts, and `Learn less` belong to live role triage. Preserve prior attribution patch 156-A naming Lorn on `To arrest the Chancellor.`
+- Chapter 157 `THE TABLE`: **light variance patch required**. Replace one Iven missing-coat prediction ladder with visible-object language so the absent coat carries the exchange instead of Iven proving knowledge of Greg's unsaid question.
+- Chapter 158 `THE RETURNER`: **light variance patch required**. Replace one Rinna/Marek `I wasn't / You were` money beat with counting-specific language: Rinna protects the coin count and explains that interruption does not require touching the money.
+- Chapter 159 `THE PRIVATE PLAYER`: **light variance patch required**. Replace one Teren `No / I didn't say anything / you leaned` wall beat with company-movement authority: `We're not stopping for the wall.` / `I was looking.` / `Look fast.`
+- Chapter 160 `THE SWORD`: **no variance change required**. Temporary faster comic convergence is earned because multiple actors are actively improvising the same patron-responsive comic performance; offstage/work jurisdiction remains distinct.
+- Chapter 161 `THE PLAYER`: **light variance patch required**. Replace Nessa's generic `No` after a thank-you with `It was bothering me.` so the loose thread, not refusal-as-comedy, owns the beat. Preserve prior 161-A first-person referent repair.
+- Chapter 162 `THE STREET PLAYER`: **no variance change required**. Dema, Teren, Rinna, vendors, and performers stay differentiated by market/business jurisdiction and imperfect local conditions. Preserve prior 162-A first-person referent repair.
+- Chapter 163 `THE MILL PLAYER`: **no variance change required**. Vessa, Davin, Rinna, Teren, workers, and performers remain separated by current work ownership. Preserve prior 163-A and 163-B first-person referent repairs.
+- Chapter 164 `THE PROSPECTOR`: **no variance change required**. Business uncertainty remains genuinely incomplete rather than polished; local speakers stay low-ambition and transactional. Preserve prior 164-A first-person referent repair.
+- Chapter 165 `THE DRAW`: **light variance patch required**. Remove the repeated `No / I haven't asked / You leaned` breakfast mechanism and the `leaning had become legally binding` metajoke; let Rinna physically cover the pot and close the company-resource question. Preserve prior 165-A through 165-D first-person referent repairs.
+
+Batch totals:
+
+- Variance patches: **5** across Chapters **157, 158, 159, 161, 165**.
+- No-variance-change chapters: **156, 160, 162, 163, 164**.
+- Prior attribution/referent repair passages preserved: **10**.
+- New attribution repairs surfaced: **0**.
+- Structural changes: **0**.
+- Canon outcome changes: **0**.
+- Em dashes introduced in proposed replacement prose: **0**.
 
 ## High-value watch targets
 
@@ -154,6 +165,9 @@ Those later batches do not bridge the unreviewed 156-320 gap.
 - Naming can reduce attribution load without increasing exposition.
 - Relationship inference is strongest when the evidence can be listed.
 - Work can interrupt explanation. A knot, needle, wagon, costume, horse, or wet stage may end a conversation before anyone reaches a polished conclusion.
+- Temporary comic convergence can be legitimate when shared improvisation is the current work. In an active comic performance, inspect whether voices re-separate offstage before patching the ensemble merely for sharing faster setup/payoff rhythm.
+- A resource owner can often act instead of predicting. Covering a pot, protecting a count, moving an object, or closing access can express authority more specifically than another anticipatory `No`.
+- Role contamination is not automatically baseline voice convergence when the manuscript marks the wrong-role language as contamination and surrounding characters react to it as such.
 - No-change chapters are positive evidence. Do not patch to meet quota.
 
 ## Guardrails
@@ -186,11 +200,11 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 156**.
+Resume sequentially at **Chapter 166**.
 
 Preferred bounded queue: **10 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 156-165**.
+Next intended batch: **Chapters 166-175**.
 
 ## Restart prompt
 
