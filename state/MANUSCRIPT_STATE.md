@@ -1,8 +1,8 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 485 - **THE ORGANIZER**.
-- Exact Chapters 249-485 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
+- Current exact story endpoint: Chapter 486 - **THE COORDINATOR**.
+- Exact Chapters 249-486 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
 - Permanent running-manuscript consolidation still has known integration debt; do not reconstruct missing exact text from summaries.
 
 ## Active correction overlays
@@ -11,186 +11,164 @@
 - Ch460 editorial naming-cleanup meta passage remains omitted during integration.
 
 ## Current progression direction
-- `state/PROGRESSION_ENGINE.md` remains authoritative for the earning-power/capital route.
-- Current method is increasingly **brokerage / arbitrage / coordination / management / eventual ownership**, not endless small-job accumulation.
-- Ch474 proves Greg can move silver-scale value without owning inventory.
-- Ch475 proves Greg can coordinate specialists without stealing their expertise.
-- Ch476 proves artifact markets can outrun Greg's safe deployable capital.
-- Ch477 proves ordinary travel can rationally be purchased.
-- Ch483 adds title-release/provenance/trust as a separate market-information layer.
-- Ch484 completes a **1 silver + 2c** transaction while Greg owns none of the goods; Greg earns 3c for connection, scope, verification routing, conflict disclosure, and commercial restructuring.
-- Ch485 moves the leverage engine from transactions into **people / operational coordination**. Greg accepts a bounded four-day organizer term covering three already-contracted South Road field crews. He does not hire, fire, set wages, supervise fieldcraft, inspect tools, or own safety decisions.
-- Debt closure remains premature at current liquidity. If the current organizer term later completes and materially lifts liquidity, verify actual outstanding obligations before paying anything.
+- `state/PROGRESSION_ENGINE.md` remains authoritative for earning power / capital progression.
+- Current method increasingly favors **brokerage / arbitrage / coordination / management / eventual ownership**, not endless small-job accumulation.
+- Ch484 proves Greg can move a **1 silver + 2c** transaction without owning inventory.
+- Ch485 proves he can accept bounded organizer responsibility across multiple competent crews while preserving specialist authority.
+- Ch486 completes that four-day organizer term, pays the contracted completion fee, and pushes Greg over the old 30c liquid-reserve milestone.
+- Greg's management strength is not command. It is maintaining shared current state, communicating changes to affected people, preserving scope, and routing decisions back to the people who actually own them.
+- Debt closure can now become an active progression question because liquidity has materially improved, but only after verifying exact obligations and preserving reserve/working capital.
 
 ## Current financial / body / magic state
-- Greg ends Ch485 **home in Carrow** after the first South Road organizer day.
-- Cash **22c** after receiving the contract's **4c accepted-start-plan payment**.
-- Vale **23c** remains unresolved.
+- Greg ends Ch486 **home in Carrow**.
+- Cash **32c** after receiving the organizer term's exact **10c completion fee**.
+- Vale **23c** remains an explicit unresolved obligation until exact authority confirms current balance/terms at the moment of payment.
 - Bits unspecified.
-- 10c survival floor active; **12c currently above floor**.
-- A further **10c organizer completion fee is NOT earned yet**. It is contingent on completing the remaining three days and having the required daily organizer records accepted.
+- 10c survival floor remains active.
+- Greg now has **22c above the survival floor** before considering other verified obligations.
 - Reed-glass introduction fee remains paid/closed.
 - Work-limb deposit remains **20c paid toward the established 1 silver + 18c quote**.
-- Existing Hark & Venn quote remains unchanged. No new due date, installment amount, pickup-payment term, or completion date is established.
+- Existing Hark & Venn quote remains unchanged. No new due date, installment amount, pickup-payment term, remaining-balance timing, or completion date is established in Ch486.
 - Protocol remains **59 / 53 / 147**.
 - Greg remains on two crutches outside supervised fitting use.
-- Hark & Venn still holds the trial socket / temporary ash shaft / medium test foot for final-prep comparison; Greg has the liner at home.
-- Shoulder/right leg/hands end Ch485 with ordinary workday fatigue only; no new injury or skin break.
-- No magic attempts occur in Ch485.
+- Hark & Venn still holds the trial socket / temporary ash shaft / medium test foot; Greg has the liner at home.
+- Shoulder/right leg/hands finish the organizer term with ordinary workday fatigue only. No new injury or skin break.
+- No magic attempts occur in Ch486.
 
 ## Recent live lanes
 
-### Work limb
-- Ch480 established that current residual-limb shape/volume changed enough that the older front correction should not simply be copied into final work.
-- Hark & Venn reviewed the current trial fit under the existing work order with no added payment for that review.
-- Work priority remains usable hands as well as mobility.
-- Shop keeps trial hardware while final-socket prep proceeds offscreen; Greg waits for real word or another fit request.
-
-### Theatre
-- Ch481 resolved the old theatre visitor narrowly as a prompt-side substitute request because Renn was sick.
-- Greg handled cue/state/entrance/light-support work without taking heavy, fly, trap, stair-running, or solo scene-shift authority.
-- Rinna is now a narrow employment reference for Greg: she confirms bounded theatre support, current instructions, unclear-authority questions, cues/entrances/prop-state handoffs/light work, and explicitly does NOT certify fieldcraft, hiring, safety inspection, or outside crew supervision.
-- Renn may or may not be back; repeat theatre work is not guaranteed.
+### Theatre / references
+- Renn status remains unverified.
+- Rinna remains a narrow employment reference for Greg's bounded support behavior under changing instructions, not for fieldcraft/hiring/safety.
 
 ### Hessa / magic
-- Ch482 advanced external attempts from **139 to 147** through eight supervised moving-shuttle trials.
-- Net controlled result remains **2 clean visible moving-target deviations / 8 attempts**, **1 unclear faster trial**, **2 rest trials with no visible response**, remaining moving trials no clean response.
-- Motion remains only a candidate variable. No practical interruption/deflection capability is established.
-- Hessa has a candidate future protocol: **moving target / fixed track / known baseline**, with timing/reference comparisons later.
-- No independent magic testing is authorized. Emergency use remains Greg's own judgment/risk, not Hessa clearance.
+- Protocol remains **59 minimal / 53 shaping / 147 external**.
+- Ch482's moving-target sensitivity remains only a candidate condition.
+- No practical interruption/deflection capability is established.
+- No independent magic testing is authorized.
 
-### Provenance / release / Road Response Kit
-- Ch483 separates what an object is, what it does, title/release status, story/provenance, and market price.
-- Greg's existing Road Response Kit is confirmed **OPEN DISPOSAL**, privately transferable, sold as-is, with old official survey calibration marks voided. Those old marks do not certify current accuracy.
-- Sori's Merehook archive packet remains useful information but Sori is not an artifact specialist, lawyer, customs official, appraiser, or Greg's research assistant by default.
-- Antonius established that verification creates value only when a real buyer and seller are blocked by uncertainty Greg can reduce. Trust/recognized authority remains a bottleneck.
+### Provenance / market
+- Greg's Road Response Kit remains legally **OPEN DISPOSAL**; old survey calibration marks are voided and do not certify current accuracy.
+- Ch483/484 provenance knowledge remains useful only where title/release uncertainty blocks a real transaction.
+- North Freight has no standing obligation to send Greg more work.
+- Cross Street seller's fifth weak/unclear-chain sway shoe remains outside Greg's scope.
 
-### North Freight transaction / Ch484
-- Cross Street Surplus seller's four receipt-matched sway shoes were confirmed **OPEN DISPOSAL / LOT 31**, with service authority voided by three-punch lower-seal strike; sold as-is; no current load certification; private transfer permitted.
-- Buyer mechanic owned bench-function judgment.
-- The fourth unit initially failed because of a bent latch. Greg restructured the deal into three accepted units now plus a fourth conditional on repair/pass before deadline.
-- Fourth later passed twice. Completed transaction value **1 silver + 2c**. Greg received **3c seller-paid commission**.
-- Greg owns none of the sway shoes.
-- Seller's fifth weak/unclear-chain shoe remains unsold and outside Greg's scope.
-- North Freight has no standing obligation to hire Greg or send more deals.
+### South Road organizer term
+- Four-day term is complete.
+- Contract was **4c on accepted start plan + 10c on completion with accepted daily records**.
+- Greg received the 4c start-plan payment in Ch485 and the exact 10c completion fee in Ch486.
+- Total organizer compensation across the term is therefore **14c**.
+- The field office gives Greg an accepted-term copy that can support a future reference limited to: **four-day organizer term completed with accepted records**.
+- No permanent job, guaranteed repeat work, crew ownership, hiring authority, or future organizer pipeline is established.
 
-## Chapter 485 - THE ORGANIZER
+## Chapter 486 - THE COORDINATOR
 
 ### Role / title
-- Greg is **THE ORGANIZER** because he accepts responsibility for shared operational state across three existing crews without pretending to own their labor or specialist authority.
-- Repository search found no current `THE ORGANIZER` collision before drafting.
+- Greg is **THE COORDINATOR** because the chapter shifts from having a correct schedule to ensuring the people whose choices depend on a change actually receive and acknowledge that change.
+- Repository title search found no current `THE COORDINATOR` collision before drafting.
 
-### South Road organizer notice reactivated
-- The old Ch472 notice remains the source: **PRIVATE HOUSE REQUIRES THREE SEASONAL FIELD CREWS / SOUTH ROAD / ORGANIZER FEE AVAILABLE / REFERENCES REQUIRED**.
-- Ch485 establishes the current inquiry point as **South Road Field Office / Lower Gate / third bell to fifth**.
-- The field office already has three seasonal crews contracted. Greg does NOT recruit them.
-- Approximate combined workforce is around twenty depending on day; exact worker count varies.
-- Work is seasonal drainage / late-cut cleanup before the wet turn: ditch clearing, cut brush, old-stake pull, access-path reset, bundling. Organizer owns no crop judgment.
+### Day-two compression / small correction
+- Day two is intentionally mostly routine and compressed.
+- North, Middle, and Lower work without a major incident.
+- Greg corrects North spoil-basket state from twelve to nine after North lead tells him the actual count.
+- Lower crew headcount rises from six to eight as previously possible.
+- Greg updates the roster but initially fails to update the provisioning count, causing a two-meal shortfall.
+- Field office sends two additional meal portions on an authorized house cart.
+- Greg records the actual mistake: the same fact existed in two places and he changed only one.
+- Day-two organizer record is accepted.
 
-### Authority boundaries
-- Crew leads own their crews and ordinary work method.
-- House field steward owns field readiness, weather/section holds, and can stop any section.
-- House tool keeper owns tool issue/condition decisions.
-- Field office owns pay disputes and contract administration.
-- House carts / contracted wagon own transport execution; organizer tracks and routes them but is not automatically a driver.
-- Greg owns shared schedule, arrival/contact state, section assignment routing, relevant delay records, communication, and handoff alignment.
-- He does not hire, fire, set wages, inspect tools, certify field safety, or override crew-lead fieldcraft.
+### Day-three management mistake
+- Day three begins with North 10 / Middle 7 / Lower 8, around 25 workers total.
+- A valid stamped field-office priority change moves the contract wagon to **North turnout first after third bell**, with Lower afterward only if time.
+- The priority change itself is legitimate because North brush must be cleared before an evening house cart passage.
+- Greg updates the wagon route, North crew, and office copy but fails to notify Lower crew promptly.
+- Lower continues its previously valid brush-cut/bundle plan for roughly half a bell because its lead has not received the new information.
+- This creates excess brush at Lower turnout and reduces available turning space, though no injury or worker idle period is established.
+- Lower lead correctly identifies Greg's failure: he changed the shared resource but did not notify the crew whose work plan depended on that resource.
+- Lower lead also points out that Middle uses the same lower-turnout path later, expanding the affected-party set.
+- Greg routes field-method decisions back to the field steward and crew leads rather than fixing the error by seizing authority.
+- Field steward opens old-stake pull as an alternate allowable section; Lower lead chooses the actual work split.
+- Middle lead personally confirms that the current bundle position still allows its basket-return route.
+- Greg records the delay as organizer-caused rather than hiding it behind vague language.
+- Field office edits the entry into a more useful factual record and tells Greg to add an **affected-party acknowledgment** field for priority changes.
+- Day-three record is accepted. Completion fee is still not earned at that point.
 
-### References
-- Greg deliberately gets narrow references rather than asking friends to call him generally competent.
-- **Rinna** confirms bounded theatre support under changing rehearsal conditions, current-instruction tracking, unclear-authority questions, cues/entrances/prop-state handoffs/light work; she explicitly excludes fieldcraft/hiring/safety/outside crew supervision.
-- **Antonius Vale** confirms Greg's detailed records, improved term-reading, distinction between observation and preferred explanation when forced, and that he has honored agreed reporting/credit terms to date; he explicitly does not certify field competence, hiring judgment, solvency, or future performance.
-- The field office independently verifies both references before issuing the working packet.
+### Day-four correction / completion
+- Light rain changes route conditions but field steward keeps all three main sections open with shorter checks on Lower drainage.
+- North arrives 9 / Middle 7 / Lower 8, and Greg correctly updates both roster and meal count to **24**.
+- Cart A carries the correct 24 meal portions.
+- Greg uses affected-party acknowledgment for route/priority changes.
+- North lead reasonably refuses pointless signature bureaucracy; Greg records her verbal acknowledgment instead, and field office later accepts that method.
+- By afternoon:
+  - North completes its contracted ditch segment to the marked post.
+  - Middle completes the agreed south access edge while leaving a root crown outside its contracted line for later house removal.
+  - Lower completes the currently open drainage section; the remaining wet edge stays excluded under field-steward hold.
+- Crew leads report completion in their own terms. Greg does not translate fieldcraft into his own authority.
+- Field steward signs readiness/handoff. Tool keeper closes tool issue. Two long ditch hooks return. North basket count remains nine.
+- Field office reviews all four days, including Greg's day-three notification mistake, and accepts the completed handoff.
+- Exact **10c completion fee** is paid.
+- Cash moves **22c -> 32c**.
 
-### Organizer contract
-- Four-day term.
-- **4c** payable on accepted start plan plus confirmed crew/transport contacts.
-- **10c** payable only on completion of the four-day handoff if required daily organizer records are accepted.
-- No completion fee if Greg abandons term after start without house release.
-- House covers authorized message / record / local-cart costs.
-- No hidden worker-wage liability or attendance guarantee is established.
-- House may release Greg for material organizer failure; if released after accepted start plan, current prose establishes only that he keeps the accepted-plan payment, not any completion fee.
-- Total possible fee is 14c, but only 4c is earned through Ch485.
+### Durable management lesson
+- Greg learns that a shared plan is not actually shared merely because the organizer has written the newest version.
+- A change becomes operationally shared only when the people whose choices depend on it actually receive the updated information.
+- This is a management lesson earned by a bounded real mistake, not a manifesto or sudden genius upgrade.
+- Greg remains a coordinator, not a field expert, foreman, safety authority, or owner of the crews.
 
-### Interview / limitations
-- Greg is explicitly **not the first-choice organizer**. The spring-turn organizer is north with family; another applicant wants hiring authority the house refuses to give.
-- Greg makes mistakes in scenario testing:
-  - initially assumes he can reassign tools; corrected because tool keeper owns issue;
-  - initially moves a crew away from a closed section without checking alternate readiness; corrected.
-- Useful answers include starting independent work when one crew is late, routing safety/no-water decisions to field steward, and checking the written wagon route/contract rather than arguing from memory.
-- His useful short pitch is: **I think I can keep three competent crews from waiting on the same cart.**
-
-### Crew texture
-- North crew lead is terse/practical and mainly wants early warning when carts fail rather than impossible promises that carts will never fail.
-- Middle crew lead speaks in long, overexplained runs and has strong memory of prior bad logistics, including refusal to let euphemistic language turn wet-spoil uphill hauling into something lighter than it is.
-- Lower crew lead speaks more formally, states first-day six / possible second-day eight, requires two listed long-handled ditch hooks for lower-drainage work, and prefers reassignment before unsafe/improper substitution.
-- These speech patterns are current one-chapter texture, not rigid permanent gimmicks unless later prose reinforces them.
-
-### Day-one plan / reality change
-- Dusk before start: North ditch READY; Middle access line READY; Lower drainage cut HOLD due high water, recheck first light.
-- Greg writes a branched plan rather than pretending all three sections will start as originally assumed.
-- If lower cut remains closed, field steward may put Lower crew on North spoil bundling or Middle south-edge old-stake pull depending actual readiness; Lower lead retains work-method authority.
-- Cart A carries water/meal. Cart B carries tools/spoil baskets. Contract wagon is afternoon lower-turnout brush haul only if lower work actually starts.
-- First light keeps Lower drainage on HOLD.
-- Cart B is delayed by an axle-pin break. North and Middle can start with personal/available hand tools; Lower crew can start authorized Middle south-edge stake pull with its own pry bars.
-- Cart A arrives with yesterday's route sheet showing Lower first, conflicting with Greg's accepted plan. Greg routes the discrepancy back to field office, which issues an amended route. He does not treat the driver as wrong for following the older valid sheet.
-- Cart B later arrives after repair; tool keeper checks/releases it.
-- Lower drainage does not open until fifth bell, too late for productive same-day reassignment there.
-- Crew leads and field steward remain the people deciding actual field method/readiness.
-
-### Payment / end state
-- Field office accepts Greg's start plan and pays the contractual **4c**.
-- Cash moves **18c -> 22c**.
-- Office catches two record-quality misses: Greg omitted the Cart A route-correction time and omitted who approved Lower crew's alternate assignment. He fixes both.
-- Completion fee remains unearned.
-- Greg writes a day-one actual-state record rather than a victory summary.
-- Durable management insight is narrow: **plan is shared current version until reality changes; keep authority attached to the person who can actually decide.**
-- Greg does not count the future 10c as current cash.
+### Home / liquidity turn
+- Lyssa is home when Greg returns with the completion money.
+- Greg tells her he now has **32c cash**.
+- Lyssa immediately challenges the obvious bad move: giving Antonius all of it and returning home proud and broke.
+- Greg explicitly does **not** pay Vale or any other obligation in Ch486.
+- He decides the next step is to verify which old obligations are actually real and current before paying anything.
+- He also distinguishes contractual debts from favors, meals, gifts, kindness, household support, or friendship.
+- The book crosses the old 30c liquid-reserve marker without treating 32c as wealth.
+- Greg recognizes that the 23c Vale number no longer feels larger than his entire financial life, but he still preserves the 10c survival floor and future optionality.
 
 ## Protected uncertainties / live residue
-- Greg ends Ch485 **home in Carrow at 22c cash / 23c Vale / bits unspecified**.
-- 10c survival floor leaves **12c currently deployable** without crossing floor.
-- The organizer term has **three days remaining** and a possible but unearned **10c completion fee**.
-- Completion would put Greg above the old 30c liquid reserve milestone if no intervening copper spending occurs, but do not count that money before it is paid and do not assume completion.
-- Debt closure is still inactive in Ch485. If liquidity later rises materially, verify each real liability against exact authority before paying anything.
+- Greg ends Ch486 **home in Carrow at 32c cash / 23c Vale / bits unspecified**.
 - Protocol **59 / 53 / 147**.
-- Moving-target sensitivity remains only a candidate magic condition; no independent testing.
-- Work-limb final socket is not finished; Hark & Venn has trial hardware and Greg has the liner. Existing quote/payment timing remains unchanged/uninvented.
+- The South Road organizer term is complete and fully paid. No future South Road organizer work is guaranteed.
+- Debt closure is now an active possible progression lane, but **nothing has been paid yet**.
+- Before any debt payment, verify exact current authority for each obligation. Do not invent or resurrect debts.
+- Vale 23c is the clearest explicit current candidate but should still be verified against exact prose/current account terms before payment.
+- Work-limb quote/deposit is real, but remaining balance/payment timing must be verified before any payment or pickup claim.
+- Do not convert Lyssa's support, meals, household care, gifts, friendship, rides, favors, or emotional support into debt.
+- Greg should preserve reserve/working capital rather than empty himself for symbolic debt freedom.
+- Moving-target magic remains only a candidate condition; no independent testing.
+- Work-limb final socket is not finished; Hark & Venn has trial hardware and Greg has liner.
 - Renn status remains unverified.
 - Stillhook remains Elian's; no instant replacement.
 - Ch473 marked Three Rays freight lot remains with freight owner unless newer exact prose changes it later. No enforcement consequence has occurred. Greg still has not disclosed the Ch473 illegal freight to Lyssa.
 - Morrow and other pending lanes remain unresolved unless later authority naturally moves them.
 - No permanent companion.
 
-## Chapter 486 trailhead
-Follow the active South Road organizer term from current exact authority unless a genuinely stronger intervening claim arrives.
-
-Greg begins **22c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 147**, with **three organizer days remaining** and a contingent **10c completion fee** not yet earned.
+## Chapter 487 trailhead
+Greg begins **32c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 147**, home in Carrow, with the South Road organizer term completed and paid.
 
 Strong movement:
-- Ch486 should not replay the application/interview/reference setup. Greg already has the job.
-- Compress routine organizer repetitions. Use one materially different coordination problem that tests whether Greg can manage changing state across capable people without becoming their boss or stealing field expertise.
-- A useful pressure could come from attendance variance, transport conflict, section readiness, provisioning, contradictory instructions, a crew lead protecting workers from bad scope, or house priorities changing mid-term. Choose what the actual prose supports rather than stacking all of them.
-- Greg can make a real management mistake. Let another competent person correct him if appropriate.
-- Keep labor consent/incentives/scope visible. People are not units.
-- Do not automatically finish all three remaining days in exhaustive procedural detail. Compression is welcome if nothing earns scene space.
-- If the four-day term completes, pay only the exact contracted 10c after accepted records. Then reassess liquidity/debt closure from actual cash state, preserving reserve.
-- Hark & Venn remains offscreen until real word.
-- Hessa should not intrude merely because magic is available.
-- Theatre can remain background social continuity but should not steal the active contract unless real causality demands it.
-- Ch473 can remain unresolved; no automatic punishment.
+- This is the first point where a **bounded debt/liability audit** can naturally become active because liquidity has materially changed.
+- Do not write a checklist chapter. Let the audit emerge through actual errands, account review, Hark & Venn contact, or another lived scene.
+- Verify every candidate obligation against exact manuscript authority before paying it.
+- The clearest likely candidate is **Vale 23c**, but confirm whether that is still the exact outstanding balance and whether any timing/terms matter.
+- The work-limb line also matters, but verify the exact remaining amount/payment structure from older authority before advancing money, pickup, or final-completion claims.
+- Preserve at least the 10c survival floor and sensible working capital. Greg should not empty himself just to become debt-free.
+- If a once-huge debt can now disappear as a relatively ordinary line item without consuming the whole chapter, that contrast is desirable.
+- Ordinary/home/body texture should remain present. The 32c milestone should feel materially different without becoming a wealth speech.
+- Other lanes can stay quiet while one or two real obligations move.
 
 Avoid:
-- repeating another full paperwork/broker chapter;
-- Greg becoming a field expert;
-- Greg issuing tools or safety judgments outside authority;
-- effortless perfect management;
-- counting the 10c before completion;
-- immediate debt-payoff checklist;
-- resolving organizer + limb + Hessa + Vale + Ch473 at once;
-- another strategic manifesto.
+- inventing debts;
+- paying favors or gifts;
+- immediately spending all 32c;
+- assuming work-limb balance/payment timing;
+- turning debt freedom into a morality lesson;
+- another management chapter immediately;
+- resolving Vale + limb + Hessa + theatre + Ch473 all at once;
+- treating 32c as wealth;
+- strategic manifesto repetition.
 
-**MANDATORY TITLE CHECK CH486:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
+**MANDATORY TITLE CHECK CH487:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
