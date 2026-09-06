@@ -404,7 +404,9 @@ Cooper looked at him.
 
 He shut up.
 
-"Four copper," she continued. "Then one morning he paid five and said interest was for making him feel guilty every time he walked past. My father said guilt was free. Pell said not if done professionally."
+"Four copper," she continued.
+
+"Then one morning he paid five and said interest was for making him feel guilty every time he walked past. My father said guilt was free. Pell said not if done professionally."
 
 Fishmonger snorted.
 
