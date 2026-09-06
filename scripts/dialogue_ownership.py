@@ -16,8 +16,10 @@ import re
 
 QUOTE_RE = re.compile(r'["“](.*?)["”]')
 ACTION_SUBJECT_RE = re.compile(
-    r"^\s*(?P<subject>He|She|They|[A-Z][A-Za-z'’\-]+)\s+"
-    r"(?P<verb>[a-z][A-Za-z'’\-]*)\b"
+    r"^\s*(?P<subject>"
+    r"(?:The|the|A|a|An|an)\s+[a-z][A-Za-z'’\-]*(?:\s+[a-z][A-Za-z'’\-]*)?"
+    r"|He|She|They|[A-Z][A-Za-z'’\-]+"
+    r")\s+(?P<verb>[a-z][A-Za-z'’\-]*)\b"
 )
 SPEECH_VERBS = {
     "said",
@@ -33,7 +35,83 @@ SPEECH_VERBS = {
     "told",
     "remarked",
     "offered",
+}
+ACTION_VERBS = {
+    "looked",
+    "smiled",
+    "laughed",
+    "nodded",
+    "frowned",
+    "shrugged",
+    "leaned",
+    "stood",
+    "sat",
+    "turned",
+    "stared",
+    "watched",
+    "pointed",
+    "held",
+    "took",
+    "picked",
+    "pushed",
+    "pulled",
+    "crossed",
+    "sighed",
+    "blinked",
+    "froze",
+    "stopped",
+    "waited",
+    "moved",
+    "walked",
+    "stepped",
+    "glanced",
+    "tapped",
+    "reached",
+    "opened",
+    "closed",
+    "followed",
+    "started",
+    "stayed",
+    "kept",
+    "put",
+    "set",
+    "folded",
+    "unfolded",
+    "lifted",
+    "lowered",
+    "handed",
+    "touched",
+    "checked",
+    "counted",
+    "tilted",
+    "shook",
+    "raised",
+    "dropped",
+    "waved",
+    "grinned",
+    "winced",
+    "flinched",
+    "paused",
+    "breathed",
+    "exhaled",
+    "inhaled",
+    "rubbed",
+    "scratched",
+    "shifted",
+    "backed",
+    "came",
+    "went",
+    "left",
     "returned",
+    "approached",
+    "grabbed",
+    "caught",
+    "released",
+    "gestured",
+    "did",
+    "named",
+    "swore",
+    "considered",
 }
 
 
@@ -57,7 +135,8 @@ def _third_person_action(text: str) -> re.Match[str] | None:
     match = ACTION_SUBJECT_RE.match(text)
     if not match:
         return None
-    if match.group("verb").lower() in SPEECH_VERBS:
+    verb = match.group("verb").lower()
+    if verb in SPEECH_VERBS or verb not in ACTION_VERBS:
         return None
     return match
 
