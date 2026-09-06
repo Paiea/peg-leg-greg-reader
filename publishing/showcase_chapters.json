@@ -29,6 +29,10 @@
     "113": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
     "119": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
     "127": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
-    "130": {"showcase": false, "reason": "redundant_progression"}
+    "130": {"showcase": false, "reason": "redundant_progression"},
+    "131": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
+    "132": {"showcase": false, "reason": "redundant_progression"},
+    "134": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
+    "137": {"showcase": false, "reason": "superseded_by_stronger_chapter"}
   }
 }
