@@ -1,5 +1,5 @@
 {
-  "latest": 487,
+  "latest": 488,
   "chapters": [
     {
       "number": 100,
@@ -2328,6 +2328,12 @@
       "title": "THE REPAYER",
       "source": "checkpoint",
       "path": "487.html"
+    },
+    {
+      "number": 488,
+      "title": "THE ACTOR",
+      "source": "checkpoint",
+      "path": "488.html"
     }
   ]
 }
