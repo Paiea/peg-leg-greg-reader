@@ -20,6 +20,8 @@
     "73": {"showcase": false, "reason": "bridge_not_needed"},
     "85": {"showcase": false, "reason": "redundant_progression"},
     "87": {"showcase": false, "reason": "redundant_progression"},
-    "89": {"showcase": false, "reason": "redundant_progression"}
+    "89": {"showcase": false, "reason": "redundant_progression"},
+    "95": {"showcase": false, "reason": "low_consequence_mundane"},
+    "97": {"showcase": false, "reason": "redundant_progression"}
   }
 }
