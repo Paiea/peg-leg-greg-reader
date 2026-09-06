@@ -124,7 +124,17 @@ def _transform_markdown_body(body: str) -> tuple[str, int]:
         stripped = block.strip()
         if not stripped or '"' not in stripped:
             continue
-        if stripped.startswith("#") or "\n" in stripped or "<" in stripped:
+        # Formatted Markdown needs a markup-aware transformer. Leave it intact
+        # and surface it through audit rather than moving emphasis/link/code
+        # delimiters across newly inserted paragraph boundaries.
+        has_markdown_markup = (
+            "**" in stripped
+            or "__" in stripped
+            or "`" in stripped
+            or "](“ in stripped
+            or "](" in stripped
+        )
+        if stripped.startswith("#") or "\n" in stripped or "<" in stripped or has_markdown_markup:
             continue
         ownership = split_paragraph(stripped)
         if len(ownership) <= 1:
