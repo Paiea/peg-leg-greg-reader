@@ -79,7 +79,7 @@ class ApprovalPacketTests(unittest.TestCase):
 
 
 class CandidateStatusSyncTests(unittest.TestCase):
-    def test_candidate_status_tracks_furthest_registry_progress(self):
+    def test_candidate_status_tracks_progress_but_rejected_attempt_stays_retryable(self):
         candidates = [
             {"id": "a", "status": "prompt_ready"},
             {"id": "b", "status": "prompt_ready"},
@@ -92,7 +92,8 @@ class CandidateStatusSyncTests(unittest.TestCase):
         synced, changed = sync_candidate_statuses(candidates, registry)
         self.assertEqual(changed, 2)
         self.assertEqual(synced[0]["status"], "approved")
-        self.assertEqual(synced[1]["status"], "rejected")
+        self.assertEqual(synced[1]["status"], "prompt_ready")
+        self.assertEqual(synced[1]["latest_generation_status"], "rejected")
 
 
 class CoverageActionPreviewTests(unittest.TestCase):
