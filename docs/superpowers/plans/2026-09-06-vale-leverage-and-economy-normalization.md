@@ -4,7 +4,7 @@
 
 **Goal:** Normalize Vale continuity and Greg's earning scale with minimal story changes by making Antonius's high-interest ledger explicitly leverage-oriented and by moving later high-value/high-risk work into silver/tens-of-silver bands.
 
-**Architecture:** Preserve existing story beats and patch economic authority first. Then patch a small set of economic anchor chapters in dependency order, recalculating only purse/debt arithmetic and reaction language that directly depends on changed numbers. The Vale closure remains structurally intact but changes from a tiny-copper payoff into Greg fully repaying a large high-interest gold-scale face balance that Antonius never seriously expected to collect in full.
+**Architecture:** Preserve existing story beats and patch economic authority first. Then patch a small set of economic anchor chapters in dependency order, recalculating only purse/debt arithmetic and reaction language that directly depends on changed numbers. The Vale closure remains structurally intact but changes from a tiny-copper payoff into Greg fully repaying a large high-interest gold-scale face balance that Antonius never seriously expected to collect in full. Chapter 491 keeps its tavern/debrief structure but receives a real flavor rewrite because full repayment changes Antonius's respect, curiosity, and interpretation of Greg's last few months.
 
 **Tech Stack:** Markdown manuscript/state authority + HTML early reader chapters + GitHub history.
 
@@ -96,7 +96,7 @@
 - [ ] Keep Greg operational after each payment rather than returning him to early-book scarcity.
 - [ ] Make Antonius's surprise/impressed reaction come from Greg actually paying what Antonius did not expect to collect.
 - [ ] Preserve the economic contrast that a 1g-2g debt remains small relative to a 40g+ successful Tere sale.
-- [ ] Ensure Ch491 drinking scene can remain mostly unchanged.
+- [ ] Flag every Ch491 line whose meaning changes because the old account was no longer a trivial copper obligation.
 - [ ] Verify all arithmetic within denomination; do not fabricate cross-denomination math.
 
 ### Task 5: Patch the Smallest Story Surface
@@ -110,11 +110,11 @@
   - `state/manuscript/Peg_Leg_Greg_Chapter_486_EXACT_WIP.md`
   - `state/manuscript/Peg_Leg_Greg_Chapter_487_EXACT_WIP.md`
   - `state/manuscript/Peg_Leg_Greg_Chapter_490_EXACT_WIP.md`
-  - `state/manuscript/Peg_Leg_Greg_Chapter_491_EXACT_WIP.md` only if respect/full-repayment references require it
+  - `state/manuscript/Peg_Leg_Greg_Chapter_491_EXACT_WIP.md`
 - Modify early reader chapters only where exact Tere/Vale contradiction requires narrow prose repair.
 - Modify `state/MANUSCRIPT_STATE.md` and relevant economic authority.
 
-**Produces:** normalized manuscript economics with unchanged core plot.
+**Produces:** normalized manuscript economics with unchanged core plot and a recalibrated Antonius/Greg relationship scene after full repayment.
 
 - [ ] Patch transaction/pay numbers first.
 - [ ] Patch dependent arithmetic second.
@@ -124,7 +124,12 @@
 - [ ] Have Greg repay it anyway.
 - [ ] Preserve a real large first payment and working-capital discipline.
 - [ ] Preserve final balance-zero closure.
-- [ ] Preserve Ch491's social drinking structure and understated relationship.
+- [ ] Rewrite Ch491's economic flavor while preserving its tavern setup, broad debrief subjects, ordinary bullshit tail, and acquaintance/friend-adjacent landing.
+- [ ] In Ch491, make Antonius more curious and genuinely impressed without becoming sentimental.
+- [ ] In Ch491, let Greg acknowledge that he understood the financing and was still an idiot.
+- [ ] In Ch491, shift Antonius's economic questions toward transaction scale, repeatability, underpricing, and earning capacity rather than tiny-copper milestones.
+- [ ] Preserve the line of thought that one strong contract is not automatically a permanent baseline.
+- [ ] Optionally allow a brief Tere-gauge callback if it improves the financial joke, but do not force sale or exposition.
 - [ ] Run zero-em-dash checks on all modified manuscript prose.
 - [ ] Re-fetch modified files and current `main` before claiming completion.
 
@@ -139,6 +144,7 @@
 - [ ] Greg's early financial arrogance is recorded.
 - [ ] Tere 5s/10s contradiction has an explicit repair path.
 - [ ] Representative later earnings target silver/tens-of-silver where justified.
+- [ ] Ch491's revised authority reflects Antonius's changed respect and Greg's full-repayment significance.
 - [ ] No fixed denomination conversion is introduced.
 - [ ] No Vale debt resurrection after closure.
 - [ ] No modified manuscript prose contains em dash characters.
