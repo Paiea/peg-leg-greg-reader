@@ -8,6 +8,8 @@ from pathlib import Path
 PARA_RE = re.compile(r'<p>(.*?)</p>', re.S)
 SPEECH = r'(?:said|asked|answered|replied|added|muttered|continued|told|called|shouted|whispered|yelled|said again|asked again)'
 ACTION = r'(?:looked|smiled|laughed|nodded|frowned|shrugged|leaned|stood|sat|turned|stared|watched|pointed|held|took|picked|pushed|pulled|crossed|sighed|blinked|froze|stopped|waited|moved|walked|stepped|glanced|tapped|reached|opened|closed|followed|started|stayed|kept|put|set|folded|unfolded|lifted|lowered|handed|offered|touched|checked|counted|tilted|shook|raised|dropped|waved|grinned|winced|flinched|paused|breathed|exhaled|inhaled|rubbed|scratched|shifted|backed|came|went|left|returned|approached|grabbed|caught|released|gestured|did|named|swore|considered)'
+DIALOGUE_QUOTES = ('"', '“', '”')
+OPENING_DIALOGUE_QUOTES = ('"', '“')
 
 STALE_ARLO_BLOCK_OLD = '<p>"What?" Antonius asked.</p><p>"Nothing," I said.</p><p>"You keep looking at me," Antonius said.</p><p>"I have a memorable-face problem," I said.</p><p>"Your face?" Antonius asked.</p><p>"Other people\'s." Antonius held out his hand.</p><p>"You\'ve been staring at my hands for five minutes," Arlo said.</p>'
 STALE_ARLO_BLOCK_NEW = '<p>"What?" Arlo asked.</p><p>"Nothing," I said.</p><p>"You keep looking at me," Arlo said.</p><p>"I have a memorable-face problem," I said.</p><p>"Your face?" Arlo asked.</p><p>"Other people\'s."</p><p>Arlo held out his hand.</p><p>"You\'ve been staring at my hands for five minutes," Arlo said.</p>'
@@ -24,35 +26,52 @@ FINAL_EXACT = {
 }
 
 
+def has_dialogue(p: str) -> bool:
+    return any(q in p for q in DIALOGUE_QUOTES)
+
+
+def first_dialogue_quote(p: str) -> int:
+    positions = [p.find(q) for q in DIALOGUE_QUOTES]
+    positions = [pos for pos in positions if pos >= 0]
+    return min(positions) if positions else -1
+
+
+def owner_for_subject(subject: str) -> str:
+    """Keep explicit proper names distinct; collapse unresolved pronouns/descriptions."""
+    if subject == 'I':
+        return 'GREG'
+    if subject.lower() in {'he', 'she', 'they'}:
+        return 'OTHER'
+    if re.fullmatch(r'[A-Z][a-z]+', subject):
+        return subject
+    return 'OTHER'
+
+
 def explicit_speaker(p: str) -> tuple[str | None, int | None]:
-    m = re.search(rf'\bI\s+{SPEECH}\b', p, re.I)
+    m = re.search(rf'\b(I)\s+{SPEECH}\b', p, re.I)
     if m:
         return 'GREG', m.start()
-    m = re.search(rf'\b(?:he|she|they|[A-Z][a-z]+)\s+{SPEECH}\b', p)
+    m = re.search(rf'\b(he|she|they|[A-Z][a-z]+)\s+{SPEECH}\b', p)
     if m:
-        return 'OTHER', m.start()
+        return owner_for_subject(m.group(1)), m.start()
     return None, None
 
 
 def begins_dialogue(p: str) -> bool:
-    return p.lstrip().startswith('"')
+    return p.lstrip().startswith(OPENING_DIALOGUE_QUOTES)
 
 
 def last_narrative_action_owner(p: str) -> str | None:
     starts = [0]
     starts.extend(m.end() for m in re.finditer(r'[.!?]\s+', p))
     events: list[tuple[int, str]] = []
-    greg_re = re.compile(rf'I\s+({ACTION})\b')
-    other_re = re.compile(rf'(?:He|She|They|[A-Z][a-z]+|The\s+[a-z]+(?:\s+[a-z]+)?)\s+({ACTION})\b')
+    subj_re = re.compile(rf'(I|He|She|They|[A-Z][a-z]+|The\s+[a-z]+(?:\s+[a-z]+)?)\s+({ACTION})\b')
     for pos in starts:
         while pos < len(p) and p[pos].isspace():
             pos += 1
-        gm = greg_re.match(p, pos)
-        om = other_re.match(p, pos)
-        if gm:
-            events.append((gm.start(), 'GREG'))
-        elif om:
-            events.append((om.start(), 'OTHER'))
+        m = subj_re.match(p, pos)
+        if m:
+            events.append((m.start(), owner_for_subject(m.group(1))))
     if not events:
         return None
     return events[-1][1]
@@ -64,20 +83,20 @@ def infer_speakers(paras: list[str]) -> list[tuple[str | None, int | None]]:
     last_dialogue = False
     previous_para = ''
     for p in paras:
-        has_dialogue = '"' in p
-        sp, anchor = explicit_speaker(p) if has_dialogue else (None, None)
-        if has_dialogue and sp is None and begins_dialogue(p):
+        dialogue = has_dialogue(p)
+        sp, anchor = explicit_speaker(p) if dialogue else (None, None)
+        if dialogue and sp is None and begins_dialogue(p):
             if last_dialogue and last_sp:
                 sp = 'OTHER' if last_sp == 'GREG' else 'GREG'
             else:
                 sp = last_narrative_action_owner(previous_para) or 'GREG'
-            anchor = p.find('"')
-        elif has_dialogue and sp is not None:
-            first_q = p.find('"')
+            anchor = first_dialogue_quote(p)
+        elif dialogue and sp is not None:
+            first_q = first_dialogue_quote(p)
             if first_q >= 0 and (anchor is None or first_q < anchor):
                 anchor = first_q
         result.append((sp, anchor))
-        if has_dialogue:
+        if dialogue:
             if sp:
                 last_sp = sp
             last_dialogue = True
@@ -88,6 +107,7 @@ def infer_speakers(paras: list[str]) -> list[tuple[str | None, int | None]]:
 
 
 def quote_map(p: str) -> tuple[list[bool], list[int]]:
+    """Map characters outside dialogue for straight and typographic quote styles."""
     outside = [True] * len(p)
     closing_starts: list[int] = []
     inside = False
@@ -96,6 +116,14 @@ def quote_map(p: str) -> tuple[list[bool], list[int]]:
             if inside:
                 closing_starts.append(i + 1)
             inside = not inside
+            outside[i] = True
+        elif ch == '“':
+            inside = True
+            outside[i] = True
+        elif ch == '”':
+            if inside:
+                closing_starts.append(i + 1)
+            inside = False
             outside[i] = True
         else:
             outside[i] = not inside
@@ -126,13 +154,12 @@ def action_events(p: str) -> list[tuple[int, str]]:
             continue
         if not all(outside[j] for j in range(m.start(), min(m.end(), len(outside)))):
             continue
-        owner = 'GREG' if m.group(1) == 'I' else 'OTHER'
-        events.append((m.start(), owner))
+        events.append((m.start(), owner_for_subject(m.group(1))))
     return events
 
 
 def transform_paragraph(p: str, speaker: str | None, anchor: int | None) -> tuple[str, int]:
-    if not speaker or '"' not in p or '<' in p or '&' in p:
+    if not speaker or not has_dialogue(p) or '<' in p or '&' in p:
         return p, 0
     events = action_events(p)
     if anchor is not None:
@@ -143,13 +170,19 @@ def transform_paragraph(p: str, speaker: str | None, anchor: int | None) -> tupl
     breaks = []
     current_owner = None
     for pos, owner in events:
+        resolved_owner = owner
+        if owner == 'OTHER' and current_owner not in {None, 'GREG', 'OTHER'}:
+            # A pronoun/action immediately following an explicitly named speaker is
+            # most conservatively treated as that same named speaker. Explicitly
+            # different names still trigger a boundary.
+            resolved_owner = current_owner
         if current_owner is None:
-            current_owner = owner
+            current_owner = resolved_owner
             continue
-        if owner != current_owner:
+        if resolved_owner != current_owner:
             if 0 < pos < len(p):
                 breaks.append(pos)
-            current_owner = owner
+            current_owner = resolved_owner
     if not breaks:
         return p, 0
     new = p
@@ -178,6 +211,7 @@ def self_test() -> None:
         ('"Too boring." He stayed in the next hand.', 'GREG', 0, '"Too boring." </p><p>He stayed in the next hand.'),
         ('"Excellent," I said. He looked concerned.', 'GREG', 0, '"Excellent," I said. </p><p>He looked concerned.'),
         ('Jorren said, "Old man." I stared at him. He laughed.', 'OTHER', 0, 'Jorren said, "Old man." </p><p>I stared at him. </p><p>He laughed.'),
+        ('“Fine.” He counted silver.', 'GREG', 0, '“Fine.” </p><p>He counted silver.'),
     ]
     for raw, sp, anchor, expected in cases:
         got, _ = transform_paragraph(raw, sp, anchor)
@@ -185,12 +219,15 @@ def self_test() -> None:
     paras = ['The smith looked at me.', '"You buying it?"', '"Yes."']
     inferred = infer_speakers(paras)
     assert inferred[1][0] == 'OTHER' and inferred[2][0] == 'GREG', inferred
+    paras = ['The smith looked at me.', '“You buying it?”', '“Yes.”']
+    inferred = infer_speakers(paras)
+    assert inferred[1][0] == 'OTHER' and inferred[2][0] == 'GREG', inferred
     paras = ['I looked at the sack.', '"What is this?"', '"Flour."', '"Doing what?" Rusk pointed at the sack.']
     inferred = infer_speakers(paras)
     assert [x[0] for x in inferred[1:]] == ['GREG', 'OTHER', 'GREG'], inferred
     paras = ['I stood. Senna looked up.', '"Running?"', '"Stopping."', '"Different?"', '"For me? Apparently." She glanced at my stack.']
     inferred = infer_speakers(paras)
-    assert [x[0] for x in inferred[1:]] == ['OTHER', 'GREG', 'OTHER', 'GREG'], inferred
+    assert [x[0] for x in inferred[1:]] == ['Senna', 'GREG', 'OTHER', 'GREG'], inferred
     raw = 'Antonius looked at me long enough that I said, "What?"'
     anchor = raw.index('I said')
     got, _ = transform_paragraph(raw, 'GREG', anchor)
