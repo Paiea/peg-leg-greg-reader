@@ -5,10 +5,12 @@
       "visual/homepage/peg-leg-greg-homepage-frontispiece.png",
       "assets/book-role-cards/book-i-warrior-005.webp",
       "assets/book-role-cards/book-ii-stagehand-177.webp"
-    ]
+    ],
+    "references": []
   },
   "Lyssa": {
     "appearance_notes": "Black woman; tall relative to Greg; thin/lithe build; natural Afro-textured hair. Do not invent unsupported precise facial features as fixed canon. Preserve recognizable continuity with accepted live art when a stronger reference asset is promoted.",
-    "reference_assets": []
+    "reference_assets": [],
+    "references": []
   }
 }

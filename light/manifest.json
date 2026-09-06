@@ -1,5 +1,5 @@
 {
-  "latest": 413,
+  "latest": 426,
   "chapters": [
     {
       "number": 100,
@@ -1884,6 +1884,84 @@
       "title": "THE DRINKER",
       "source": "checkpoint",
       "path": "413.html"
+    },
+    {
+      "number": 414,
+      "title": "THE RETAINER",
+      "source": "checkpoint",
+      "path": "414.html"
+    },
+    {
+      "number": 415,
+      "title": "THE FITTING",
+      "source": "checkpoint",
+      "path": "415.html"
+    },
+    {
+      "number": 416,
+      "title": "THE BREAKER",
+      "source": "checkpoint",
+      "path": "416.html"
+    },
+    {
+      "number": 417,
+      "title": "THE EARNER",
+      "source": "checkpoint",
+      "path": "417.html"
+    },
+    {
+      "number": 418,
+      "title": "THE CLIENT",
+      "source": "checkpoint",
+      "path": "418.html"
+    },
+    {
+      "number": 419,
+      "title": "THE TOURIST",
+      "source": "checkpoint",
+      "path": "419.html"
+    },
+    {
+      "number": 420,
+      "title": "THE BIDDER",
+      "source": "checkpoint",
+      "path": "420.html"
+    },
+    {
+      "number": 421,
+      "title": "THE STUDENT",
+      "source": "checkpoint",
+      "path": "421.html"
+    },
+    {
+      "number": 422,
+      "title": "THE TEMP",
+      "source": "checkpoint",
+      "path": "422.html"
+    },
+    {
+      "number": 423,
+      "title": "THE PATIENT",
+      "source": "checkpoint",
+      "path": "423.html"
+    },
+    {
+      "number": 424,
+      "title": "THE WALKER",
+      "source": "checkpoint",
+      "path": "424.html"
+    },
+    {
+      "number": 425,
+      "title": "THE PEDESTRIAN",
+      "source": "checkpoint",
+      "path": "425.html"
+    },
+    {
+      "number": 426,
+      "title": "THE SCOUT",
+      "source": "checkpoint",
+      "path": "426.html"
     }
   ]
 }
