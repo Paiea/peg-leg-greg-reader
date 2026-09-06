@@ -41,7 +41,7 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           import re
-          for number in (7, 13, 18):
+          for number in (4, 7, 13, 18):
               path = Path('chapters') / f'{number:03d}.html'
               page = path.read_text(encoding='utf-8')
               m = re.search(r'<article\s+class="prose"[^>]*>(.*?)</article>', page, re.S | re.I)
@@ -50,6 +50,10 @@ jobs:
               if '—' in re.sub(r'<[^>]+>', '', m.group(1)):
                   raise SystemExit(f'em dash in prose: {path}')
           required = {
+              4: (
+                  "The sixth disk had barely beaten the control; by the end of the night, Arlo's best result was closer to twenty percent.",
+                  "If that result had collapsed on replication, the project could die with dignity.",
+              ),
               7: (
                   '"Trash," Antonius said.',
                   '"How valuable?" Antonius asked.',
@@ -88,6 +92,7 @@ jobs:
           python - <<'PY'
           import subprocess
           allowed = {
+              'chapters/004.html',
               'chapters/007.html',
               'chapters/013.html',
               'chapters/018.html',
@@ -97,9 +102,8 @@ jobs:
           extra = changed - allowed
           if extra:
               raise SystemExit('unexpected generated/modified files: ' + ', '.join(sorted(extra)))
-          missing = {'chapters/007.html', 'chapters/013.html', 'chapters/018.html'} - changed
-          if missing:
-              raise SystemExit('expected surviving scene edits missing: ' + ', '.join(sorted(missing)))
+          if 'chapters/004.html' not in changed:
+              raise SystemExit('expected Showcase seam repair missing: chapters/004.html')
           print('Bounded diff passed:', ', '.join(sorted(changed)))
           PY
       - name: Commit validated candidate prose
@@ -107,6 +111,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "418982+github-actions[bot]@users.noreply.github.com"
-          git add chapters/007.html chapters/013.html chapters/018.html state/editorial/performance-lab/NOVELIZATION_LIVE_REPORT.md
-          git commit -m "Clean bounded PERFORMANCE novelization seams"
+          git add chapters/004.html chapters/007.html chapters/013.html chapters/018.html state/editorial/performance-lab/NOVELIZATION_LIVE_REPORT.md
+          git commit -m "Repair Showcase shale seam"
           git push origin HEAD:experiment/performance-novelization-live
