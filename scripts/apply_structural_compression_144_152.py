@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Apply the approved first structural-compression wave for PLG Chapters 149-152.
 
-This intentionally works on stable story identities before display-number migration.
+The edit operates on stable story identities before display-number migration.
 Chapter 150 becomes an inactive legacy alias; its surviving story beats are folded
 into Chapters 149 and 151. Illustration markup is advisory and may disappear when
 its surrounding redundant prose is removed.
@@ -23,38 +23,22 @@ INTRO_MARKER = "<!-- STRUCTURAL-COMPRESSION-144-152:151-INTRO -->"
 RESET_MARKER = "<!-- STRUCTURAL-COMPRESSION-144-152:152-RESET -->"
 MERGED_ATTR = 'data-structural-status="merged"'
 
+AUDIENCE_SETUP_START = "We went opposite directions. That felt appropriate."
+AUDIENCE_SETUP_END = '"Start with the road scene."'
+SHOW_MONTAGE_START = "The rest of the show happened around me. Not to me. That was different."
+SHOW_MONTAGE_END = "No one mentioned it again."
+SECOND_SHOW_RESET_START = "Pell was under a table. I found his boots first."
+SECOND_SHOW_RESET_END = "Then Teren called him and he got up. I stayed."
 
-AUDIENCE_SETUP_START = "<p>We went opposite directions. That felt appropriate."
-AUDIENCE_SETUP_END = (
-    "<p>I went to the wing. The house had grown. Maybe forty now. People entered without ceremony. "
-    "Some paid something at the front. Some apparently did not. A woman came in, saw someone she knew, "
-    "crossed two rows to sit beside her, and immediately began talking. This was not an audience. "
-    "It was a town temporarily facing the same direction. Teren stood in the center aisle.</p>"
-)
-
-SHOW_MONTAGE_START = "<p>The rest of the show happened around me. Not to me. That was different."
-SHOW_MONTAGE_END = (
-    "<p>A local worker dragged the broken pieces off during the next entrance. No one mentioned it again.</p>"
-)
-
-SECOND_SHOW_RESET_START = "<p>Pell was under a table. I found his boots first.</p>"
-SECOND_SHOW_RESET_END = "<p>Then Teren called him and he got up. I stayed.</p>"
-
-
-AUDIENCE_SETUP_REPLACEMENT = """<p>We went opposite directions. Backstage had become narrower since I left it: more people, more cloth, more things moving through spaces that had not been designed for them. Someone made me move for scenery. Pell was looking for something Marek had apparently been wearing. Teren found me before I could become useful.</p><p>\"Greg. Sword first.\"</p><p>\"What about Shopkeeper?\"</p><p>\"Later.\"</p><p>He was gone. Fine. I went to the wing. The house had grown to perhaps forty people, arriving without ceremony, talking to neighbors, leaving and returning. This was not an audience so much as a town temporarily facing the same direction.</p>"""
-
+AUDIENCE_SETUP_REPLACEMENT = """<p>We went opposite directions. Backstage had become narrower since I left it: more people, more cloth, more things moving through spaces that had not been designed for them. Someone made me move for scenery. Pell was looking for something Marek had apparently been wearing. Teren found me before I could become useful.</p><p>\"Greg. Sword first.\"</p><p>\"What about Shopkeeper?\"</p><p>\"Later.\"</p><p>He was gone. Fine. I went to the wing. The house had grown to perhaps forty people, arriving without ceremony, talking to neighbors, leaving and returning. This was not an audience so much as a town temporarily facing the same direction.</p><p>Teren stood in the center aisle.</p><p>\"Start with the road scene.\"</p>"""
 
 WORK_BRIDGE = f"""{BRIDGE_MARKER}<p>By the time Teren finally let the open rehearsal stop, I understood two things. The audience could change a scene, and chasing the version that had worked yesterday was another way of not listening to the one happening now.</p><p>River House had six rooms, one bathtub, three matching chairs, and a woman at the front desk who had already decided she hated actors.</p><p>\"We are not actors,\" Marek told her.</p><p>\"What are you?\"</p><p>\"Traveling cultural labor.\"</p><p>Serra said, \"He's an actor,\" took her key, and disappeared again. I did not ask where. Progress.</p><p>I got a room with Pell. Before dinner I checked the wrapping on my residual limb. Warm, irritated from the day, not damaged. I cleaned it, redid it once, then made myself leave the second attempt alone when it was secure. Tired judgment was still judgment.</p><p>Downstairs, the company had colonized half the common room with food, cards, thread, and unfinished clothing. I ate stew with Marek and Iven.</p><p>\"How much do we actually do this?\" I asked.</p><p>\"Eat?\" Marek said.</p><p>\"Shows.\"</p><p>They answered with theatre arithmetic. Sometimes one show in a town. Sometimes two a day. Sometimes a week to rehearse. Sometimes three days. Sometimes Teren apparently said, \"You're the priest now,\" and that was the rehearsal.</p><p>Iven said he had once learned a duke during intermission.</p><p>\"During the show?\"</p><p>\"Yes.\"</p><p>\"How many lines?\"</p><p>\"Thirty-something.\"</p><p>\"That is not possible.\"</p><p>\"I was bad.\"</p><p>Marek leaned forward. \"That's the work.\"</p><p>Iven tore bread. \"If you know the shape, you can fill.\"</p><p>Who wanted what. Who entered. Who left. Which line somebody actually needed. Suddenly Shopkeeper made more sense. Nobody had discovered I was secretly an actor. They had needed a Shopkeeper. I had been nearby. Less flattering. Better.</p><p>\"Do you get paid every show?\"</p><p>\"Yes,\" Iven said.</p><p>Marek lifted his beer. \"Money.\"</p><p>I lifted water. \"Money.\"</p><p>Teren arrived late enough to look personally offended by the day.</p><p>\"Two shows tomorrow,\" he said. \"Afternoon and night. Gate terms are done.\"</p><p>\"Good terms?\" Orin asked.</p><p>\"Done.\"</p><p>No Meren. I had Shopkeeper and Sword in both.</p><p>\"That is four roles.\"</p><p>Teren looked at me. \"Two roles twice.\"</p><p>Right. Work, not revelation. Tomorrow we did the show, got paid, ate something, repaired whatever broke, and did it again.</p>"""
 
-
 SHOW_INTRO = f"""{INTRO_MARKER}<p>By afternoon, the hall had stopped feeling like rehearsal space. People had paid to be there. Teren said places. I went to the wall opening, set my crutches where I could reach them, and did the one useful thing I had learned yesterday.</p><p>I listened.</p>"""
 
-
-SHOW_MONTAGE_REPLACEMENT = """<p>The rest of the show happened around me more than to me. That was different. Backstage, repairs happened without becoming emergencies. Nessa fixed Serra while Serra was still wearing the dress. Pell changed a hem on an actress standing on a box. Davin vanished beneath the stage with a hammer and the loose board stopped making noise. The replacement for the broken blue poison jar was brown. The audience accepted that brown was poison.</p><p>Orin came offstage furious because people had laughed at his death. Marek forgot a name and called the man \"my loyal friend\" until the correct name returned. None of it stopped the play. Nobody congratulated the recovery because the recovery was the job.</p><p>By the final act, everyone was tired enough to stop giving slow scenes room to remain slow. Then Marek sat on a chair and the chair folded under him. The audience screamed, then laughed.</p><p>\"I have been betrayed,\" Marek said from the floor.</p><p>Serra looked down at him. \"By furniture.\"</p><p>He stood. The scene continued. The broken chair disappeared before anyone had time to turn it into a crisis.</p>"""
-
+SHOW_MONTAGE_REPLACEMENT = """<p>The rest of the show happened around me more than to me. Backstage, repairs happened without becoming emergencies. Nessa fixed Serra while Serra was still wearing the dress. Pell changed a hem on an actress standing on a box. Davin vanished beneath the stage with a hammer and the loose board stopped making noise. The replacement for the broken blue poison jar was brown. The audience accepted that brown was poison.</p><p>Orin came offstage furious because people had laughed at his death. Marek forgot a name and called the man \"my loyal friend\" until the correct name returned. None of it stopped the play. Nobody congratulated the recovery because the recovery was the job.</p><p>By the final act, everyone was tired enough to stop giving slow scenes room to remain slow. Then Marek sat on a chair and the chair folded under him. The audience screamed, then laughed.</p><p>\"I have been betrayed,\" Marek said from the floor.</p><p>Serra looked down at him. \"By furniture.\"</p><p>He stood. The scene continued. The broken chair disappeared before anyone had time to turn it into a crisis.</p>"""
 
 SECOND_SHOW_RESET_REPLACEMENT = f"""{RESET_MARKER}<p>Three hours sounded like time until I watched theatre people use it. The broken chair disappeared. Costumes were repaired. People ate wherever there was space, slept wherever there was less noise, argued over objects, and kept moving.</p><p>My first show money was still in my pocket. I checked once. Then, annoyingly, once more.</p><p>Marek found me eating beans with pork and stole a piece.</p><p>\"Rich man.\"</p><p>\"No.\"</p><p>\"Paid actor.\"</p><p>\"Technically.\"</p><p>\"After tonight, we go out.\"</p><p>\"I am tired.\"</p><p>\"So is everyone.\"</p><p>He looked tired too. The cut on his jaw had opened slightly. When I pointed it out, he touched it as though he had forgotten it existed. Then he fell asleep against the wall in less than a minute.</p><p>Serra returned later with fried food, gave pieces to Nessa and Rinna, kept one, and walked past me. I did not ask where she had been. Progress.</p><p>I found a quiet corner and sat. Iven joined me without speaking.</p><p>After a while he said, \"Don't do the dead uncle.\"</p><p>\"Why?\"</p><p>\"Because you want to.\"</p><p>\"It worked.\"</p><p>\"Exactly.\"</p><p>I disliked him.</p><p>\"What are you going to say?\"</p><p>\"No idea.\"</p><p>\"That is irresponsible.\"</p><p>He smiled without opening his eyes. \"Paid actor.\"</p><p>Then Teren called him and the room started becoming a theatre again.</p>"""
-
 
 LEGACY_150_BODY = (
     '<article class="prose" data-structural-status="merged">'
@@ -76,6 +60,22 @@ def replace_between(text: str, start: str, end: str, replacement: str) -> str:
     return text[:i] + replacement + text[j:]
 
 
+def replace_paragraph_range(text: str, start_cue: str, end_cue: str, replacement: str) -> str:
+    paragraphs = list(re.finditer(r"<p(?:\s[^>]*)?>.*?</p>", text, flags=re.S))
+    starts = [m for m in paragraphs if start_cue in m.group(0)]
+    ends = [m for m in paragraphs if end_cue in m.group(0)]
+    if len(starts) != 1 or len(ends) != 1:
+        raise ValueError(
+            f"expected unique paragraph cues, got start={len(starts)} end={len(ends)}: "
+            f"{start_cue!r} / {end_cue!r}"
+        )
+    start = starts[0]
+    end = ends[0]
+    if end.start() < start.start():
+        raise ValueError("paragraph end cue precedes start cue")
+    return text[: start.start()] + replacement + text[end.end() :]
+
+
 def replace_article(text: str, replacement: str) -> str:
     match = re.search(r'<article class="prose(?: light-prose)?"[^>]*>.*?</article>', text, flags=re.S)
     if not match:
@@ -94,7 +94,9 @@ def insert_before_article_end(text: str, insertion: str) -> str:
 
 def _transform_149(text: str) -> str:
     if BRIDGE_MARKER not in text:
-        text = replace_between(text, AUDIENCE_SETUP_START, AUDIENCE_SETUP_END, AUDIENCE_SETUP_REPLACEMENT)
+        text = replace_paragraph_range(
+            text, AUDIENCE_SETUP_START, AUDIENCE_SETUP_END, AUDIENCE_SETUP_REPLACEMENT
+        )
         text = insert_before_article_end(text, WORK_BRIDGE)
     text = text.replace('rel="next" href="150.html"', 'rel="next" href="151.html"')
     return text
@@ -113,14 +115,16 @@ def _transform_151(text: str) -> str:
         if text.count(old_first) != 1:
             raise ValueError("Chapter 151 opening marker not found exactly once")
         text = text.replace(old_first, new_first, 1)
-        text = replace_between(text, SHOW_MONTAGE_START, SHOW_MONTAGE_END, SHOW_MONTAGE_REPLACEMENT)
+        text = replace_paragraph_range(
+            text, SHOW_MONTAGE_START, SHOW_MONTAGE_END, SHOW_MONTAGE_REPLACEMENT
+        )
     text = text.replace('rel="prev" href="150.html"', 'rel="prev" href="149.html"')
     return text
 
 
 def _transform_152(text: str) -> str:
     if RESET_MARKER not in text:
-        text = replace_between(
+        text = replace_paragraph_range(
             text,
             SECOND_SHOW_RESET_START,
             SECOND_SHOW_RESET_END,
@@ -182,10 +186,11 @@ def apply_root(root: Path, check: bool = False) -> int:
         return 0
 
     manifest = {
-        "schema_version": 1,
+        "schema_version": 2,
         "batch": "144-152-wave1",
         "status": "applied",
         "strength": "moderate/aggressive-on-repetition",
+        "selector": "unique-paragraph-cues",
         "stable_id_actions": {
             "plg-ch-000149": {"status": "active", "action": "tightened_and_absorbed_work_bridge"},
             "plg-ch-000150": {
