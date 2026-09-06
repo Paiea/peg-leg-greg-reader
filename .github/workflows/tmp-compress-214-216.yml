@@ -1,0 +1,155 @@
+name: Temporary compression 214-216
+on:
+  push:
+    branches: [editor/structural-compression-214-216]
+    paths: ['.github/workflows/tmp-compress-214-216.yml']
+permissions:
+  contents: write
+jobs:
+  compress:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: editor/structural-compression-214-216
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Compress and verify
+        run: |
+          cat > /tmp/compress.py <<'PY'
+          from pathlib import Path
+          import json, re
+
+          ROOT = Path('.')
+          SURFACES = [Path('chapters'), Path('light')]
+
+          def prose(html):
+              m = re.search(r'<article class="prose"[^>]*>(.*?)</article>', html, re.S)
+              if not m: raise AssertionError('missing prose article')
+              return re.sub(r'<br>\s*', ' ', m.group(1))
+
+          def words(s):
+              return len(re.findall(r"\b[\w’'-]+\b", re.sub(r'<[^>]+>', ' ', s)))
+
+          def replace_between(text, start, end, replacement, keep_end=False):
+              a = text.find(start)
+              b = text.find(end, a + len(start))
+              if a < 0 or b < 0:
+                  raise AssertionError(f'missing compression cue: {start[:50]} / {end[:50]}')
+              tail = b if keep_end else b + len(end)
+              return text[:a] + replacement + text[tail:]
+
+          stats = {}
+          for surface in SURFACES:
+              # Chapter 214: keep the actual Bren escalation, cut repeated setup and procedural theatre work.
+              p = surface / '214.html'
+              old = p.read_text(encoding='utf-8')
+              new = replace_between(
+                  old,
+                  '<p>My forearm had become boring again.</p>',
+                  '<p>The knock came while I was moving the Empty Table table.</p>',
+                  '''<p>My forearm had become boring again, which was exactly what Hessa had wanted after one piece of paper moved at the far mark. Nothing waited under the cup. Lyssa split the last heel of bread with me, confirmed I still had third bell, and asked about Bren.</p>\n<p>"Not scheduled."</p>\n<p>"Good."</p>\n<p>At the theatre, Jori's chalk line across the replacement cart pin was still straight. Pell had already checked the other wheel. Rinna put me down as the Brother in <em>The Empty Table</em>: six lines, the correct entrance, and a blue scarf I was supposed to leave with because the character thought it belonged to him. Teren corrected my door side once. Nessa handed me the coat. The hall went back to being a hall.</p>\n''',
+                  keep_end=True,
+              )
+              new = replace_between(
+                  new,
+                  '<p>That changed the shape of things.</p>',
+                  '<p>I did not say all of that.</p>',
+                  '''<p>That changed the shape of things without making it larger than it was. A boy had carried a message in Bren's name, and whoever sent him had possessed our missing pin. It still was not a surname, an organization, or proof Bren had pulled it himself.</p>\n<p>The returned iron was cheap. The proof that someone had touched the cart was not.</p>''',
+              )
+              new = replace_between(
+                  new,
+                  '<p>The Empty Table began.</p>',
+                  '<p>At home, Lyssa was later than me.</p>',
+                  '''<p><em>The Empty Table</em> began. I used the correct entrance and reached the part I already knew until I looked toward Veya's chair. The blue scarf had folded into almost the same shape as the cloth around the returned pin.</p>\n<p>My line disappeared.</p>\n<p>Veya covered the pause before the audience could own it. The next line came back. Near the end I remembered the scarf, claimed it was mine, and Veya answered, "Because you've stolen it before." The audience laughed. Backstage, Nessa took the scarf from me.</p>\n<p>"You missed."</p>\n<p>"One line."</p>\n<p>"I know."</p>\n<p>The threat had managed to enter the play without ever entering the building again. After the show we scattered by ordinary routes. I went west with Sellen until his turn and stopped checking every corner. That was how you supplied your own extra men.</p>\n''',
+                  keep_end=True,
+              )
+              p.write_text(new, encoding='utf-8')
+              stats[str(p)] = {'before': words(prose(old)), 'after': words(prose(new))}
+
+              # Chapter 215: its useful state moves into 216; the chapter boundary no longer earns itself.
+              p = surface / '215.html'
+              old = p.read_text(encoding='utf-8')
+              merged = re.sub(
+                  r'<article class="prose">.*?</article>',
+                  '<article class="prose" data-structural-status="merged"><p>This legacy chapter address is retained during structural editing. Its surviving story material has been merged into Chapter 216 under stable manuscript identity.</p></article>',
+                  old,
+                  count=1,
+                  flags=re.S,
+              )
+              if merged == old: raise AssertionError('215 merge did not apply')
+              p.write_text(merged, encoding='utf-8')
+              stats[str(p)] = {'before': words(prose(old)), 'after': words(prose(merged))}
+
+              # Chapter 216: absorb the only useful 215 state and get to the distinctive wedding quickly.
+              p = surface / '216.html'
+              old = p.read_text(encoding='utf-8')
+              new = replace_between(
+                  old,
+                  '<p>I counted my money before breakfast.</p>',
+                  '<p>The Copper Kettle had copper-colored paint on its hanging sign and no',
+                  '''<p>Yesterday had produced no new Bren message, which was useful enough to feel suspicious. It had also produced five lines of me carrying a fake debt notice as a Bailiff while Rinna accepted a better-paying problem: a wedding at the Copper Kettle.</p>\n<p>The job mattered more than the Bailiff. After the returned pin, Rinna quietly changed how the company traveled. Minimum gear. No cart. Payment stayed between her and the client. We would arrive together and leave together. Nobody said Bren because nobody needed to.</p>\n<p>By breakfast I was already trying to divide money I had not earned yet into food, house, keep, and debt. Lyssa called it my money face and left me to argue with arithmetic.</p>\n<p>At the theatre, Nessa reduced an entire production to one costume box with the expression of a woman choosing which children survived winter. Pell carried the prop basket until he needed both hands to discuss food. Jori checked the cart once; the chalk line was straight. Then we left it behind.</p>\n<p>We walked north as a theatre company carrying too much cloth, not as a defensive column. A Vale cart crossed ahead of us. Pell asked whether wedding food was better than funeral food. I said yes because happier people served larger portions. He accepted this as scholarship.</p>\n''',
+                  keep_end=True,
+              )
+              new = replace_between(
+                  new,
+                  '<p>Teren walked the space.</p>',
+                  '<p>This was high praise.</p>',
+                  '''<p>Teren walked the covered yard once and reduced it to the facts that mattered: the support post would not move, Grandmother's table would not move until after bread, the kitchen passage belonged to servers, and the open lane would have to serve as an entrance. Nessa inspected the back room and called it fine.</p>\n<p>This was high praise.</p>''',
+              )
+              new = replace_between(
+                  new,
+                  '<p>King went first.</p>',
+                  '<p>Then we started.</p>',
+                  '''<p>King went first. I had a six-line Relative role on Hara's side of the court. Teren gave me the lane entrance and one useful instruction: get two steps past the support post before speaking. The King chair became a tavern chair with cloth over the back. Grandmother remained where she was. The stage became whatever floor the guests agreed not to eat on.</p>\n<p>Then we started.</p>''',
+              )
+              p.write_text(new, encoding='utf-8')
+              stats[str(p)] = {'before': words(prose(old)), 'after': words(prose(new))}
+
+          # Cross-surface and protected-beat verification.
+          for n in (214, 215, 216):
+              a = prose((ROOT/'chapters'/f'{n}.html').read_text(encoding='utf-8'))
+              b = prose((ROOT/'light'/f'{n}.html').read_text(encoding='utf-8'))
+              if a != b: raise AssertionError(f'{n} illustrated/text prose diverged')
+          c214 = prose((ROOT/'chapters/214.html').read_text(encoding='utf-8'))
+          for cue in ('Bren says the share is still small', 'PIN RETURNED.', 'My line disappeared', "Because you've stolen it before"):
+              if cue not in c214: raise AssertionError(f'214 lost protected cue: {cue}')
+          c215 = (ROOT/'chapters/215.html').read_text(encoding='utf-8')
+          if 'data-structural-status="merged"' not in c215: raise AssertionError('215 not marked merged')
+          c216 = prose((ROOT/'chapters/216.html').read_text(encoding='utf-8'))
+          for cue in ('Minimum gear. No cart.', 'Beer first.', 'I already did.', 'Family first.'):
+              if cue not in c216: raise AssertionError(f'216 lost protected cue: {cue}')
+
+          manifest = {
+              'schema_version': 1,
+              'batch': '214-216',
+              'status': 'applied',
+              'strength': 'aggressive-on-repeated-function-and-fragmentation',
+              'stable_id_actions': {
+                  'plg-ch-000214': {'status': 'active', 'action': 'tightened_pin_return_escalation_and_threat_intrusion_into_performance'},
+                  'plg-ch-000215': {'status': 'merged', 'surviving_beats': ['plg-ch-000216'], 'legacy_path': '215.html', 'display_renumbering': 'deferred'},
+                  'plg-ch-000216': {'status': 'active', 'action': 'absorbed_wedding_job_setup_and_tightened_money_travel_staging_procedure'},
+              },
+              'illustration_policy': 'advisory hold; no prose or boundary protected by art state',
+              'protected': {
+                  '214': ['returned original cart pin', 'bounded evidence language', 'Rinna sends no reply', 'Greg realizes bluff changed his role', 'pin memory disrupts Brother performance', 'Lyssa relationship debrief'],
+                  '215_to_216': ['Copper Kettle wedding job', 'minimum gear', 'cart stays home', 'payment privacy', 'company moves together'],
+                  '216': ['wedding audience texture', 'support-post adaptation', 'server collision and Beer first', 'Hara/Marek live interruption recovery', 'Greg learns moving audience geometry'],
+              },
+              'stats': {k: {**v, 'delta': v['after'] - v['before']} for k,v in stats.items()},
+          }
+          out = ROOT/'state/compression-batches/214-216.json'
+          out.parent.mkdir(parents=True, exist_ok=True)
+          out.write_text(json.dumps(manifest, indent=2)+'\n', encoding='utf-8')
+          print(json.dumps(manifest, indent=2))
+          PY
+          python /tmp/compress.py
+      - name: Commit structural edit and remove temporary workflow
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git rm .github/workflows/tmp-compress-214-216.yml
+          git add chapters/214.html chapters/215.html chapters/216.html light/214.html light/215.html light/216.html state/compression-batches/214-216.json
+          git commit -m 'Compress Bren bridge and merge Chapter 215 into 216'
+          git push origin HEAD:editor/structural-compression-214-216
