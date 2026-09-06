@@ -14424,6 +14424,22 @@
         "match": "Chapter 120",
         "path": "state/voices/HESSA.md",
         "risk": "soft"
+      },
+      {
+        "file_category": "script",
+        "kind": "chapter_text",
+        "line": 60,
+        "match": "CHAPTER 120",
+        "path": "tests/test_manuscript_authority_ranking.py",
+        "risk": "soft"
+      },
+      {
+        "file_category": "script",
+        "kind": "chapter_text",
+        "line": 64,
+        "match": "CHAPTER 120",
+        "path": "tests/test_manuscript_authority_ranking.py",
+        "risk": "soft"
       }
     ],
     "121": [
@@ -127642,6 +127658,30 @@
         "match": "visual/chapter_art/083/",
         "path": "state/visual/ILLUSTRATION_REGISTRY.json",
         "risk": "hard"
+      },
+      {
+        "file_category": "script",
+        "kind": "chapter_text",
+        "line": 35,
+        "match": "CHAPTER 83",
+        "path": "tests/test_manuscript_authority_ranking.py",
+        "risk": "soft"
+      },
+      {
+        "file_category": "script",
+        "kind": "chapter_text",
+        "line": 39,
+        "match": "CHAPTER 83",
+        "path": "tests/test_manuscript_authority_ranking.py",
+        "risk": "soft"
+      },
+      {
+        "file_category": "script",
+        "kind": "chapter_text",
+        "line": 43,
+        "match": "CHAPTER 83",
+        "path": "tests/test_manuscript_authority_ranking.py",
+        "risk": "soft"
       }
     ],
     "84": [
@@ -134536,23 +134576,23 @@
     "metadata": 4948,
     "other": 52,
     "reader": 5930,
-    "script": 351,
+    "script": 356,
     "state": 5337
   },
   "counts_by_kind": {
     "asset_name": 2873,
     "chapter_art_path": 2290,
     "chapter_field": 1528,
-    "chapter_text": 6863,
+    "chapter_text": 6868,
     "checkpoint_name": 4,
     "reader_query": 101,
     "reader_slug": 3048
   },
   "counts_by_risk": {
     "hard": 6971,
-    "soft": 9736
+    "soft": 9741
   },
-  "reference_count": 16707,
+  "reference_count": 16712,
   "scan_roots": [
     "chapters",
     "light",
@@ -134565,6 +134605,6 @@
     "publishing",
     "docs"
   ],
-  "scanned_files": 1457,
+  "scanned_files": 1458,
   "schema_version": 2
 }
