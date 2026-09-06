@@ -1,6 +1,6 @@
 # Universal PERFORMANCE Compiler Design
 
-**Status:** APPROVED DESIGN DRAFT — architecture only; no implementation authorized by this document alone
+**Status:** DESIGN DRAFT — user-approved architecture; awaiting written-spec review before implementation planning
 
 **Owner:** existing `editor/performance-production-funnel` branch / PR #143
 
@@ -193,21 +193,22 @@ A scene ID should not be silently reused when the underlying dramatic unit is re
 
 When a scene fundamentally splits or merges, preserve lineage explicitly.
 
-Example:
-
-```json
-{
-  "scene_id": "214.s025",
-  "supersedes": ["214.s020"]
-}
-```
-
-or:
+For a split, retire the old current ID and point to the successor scenes:
 
 ```json
 {
   "scene_id": "214.s020",
-  "split_into": ["214.s020", "214.s025"]
+  "status": "superseded",
+  "split_into": ["214.s021", "214.s022"]
+}
+```
+
+For a merge, the new current scene points back to all parents:
+
+```json
+{
+  "scene_id": "214.s025",
+  "supersedes": ["214.s020", "214.s030"]
 }
 ```
 
@@ -313,6 +314,24 @@ A scene record is the AI-facing persistent cache for one semantic scene.
 Git already stores each committed file as content-addressed blob data. The architecture should use normal Git files and blob SHAs rather than inventing a separate blob service.
 
 Blob identity is useful for exact content identity and caching, but does not itself reduce model cost. The cost win comes from small addressable records, narrow retrieval, stable dependencies, and reuse of unchanged derived cognition.
+
+### 8.3 AI-native representation rules
+
+The structured record is not a human report encoded as JSON.
+
+Optimize it for machine retrieval and model reasoning:
+
+- stable field names and schema versions;
+- atomic claims rather than paragraphs of explanatory prose;
+- arrays/objects for independent facts that downstream workers may project separately;
+- explicit `unknown`, `not_applicable`, or omitted-field semantics rather than filling gaps with guesses;
+- source anchors/pointers instead of copying large source passages into every derived record;
+- no duplicate field merely because it makes a human document read more smoothly;
+- bounded free-text fields where semantic nuance is necessary;
+- preserve distinctions such as observed/inferred/locked rather than flattening them into polished prose;
+- allow task views to serialize into compact JSON or dense model-facing text without requiring Markdown headings.
+
+Human-readable `dramatic.md`, `performance.md`, screenplay, or comparison documents are optional renders from stronger structured state when a human actually benefits from them.
 
 ---
 
