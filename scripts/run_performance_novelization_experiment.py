@@ -28,6 +28,41 @@ for patch in exp.PATCHES:
     if patch.patch_id == "013-process-ownership":
         fixed.append(replace(patch, end=ARLO_END, replacement=patch.replacement + (ARLO_TEXTURE,)))
         continue
+    if patch.patch_id == "018-bean-instruction":
+        fixed.append(replace(patch, start="She took one bean and placed it on the table between us."))
+        continue
+    if patch.patch_id == "018-anchor-wait":
+        fixed.append(
+            replace(
+                patch,
+                start="Hessa stopped reaching for beans.",
+                replacement=(
+                    "Hessa stopped reaching for beans.",
+                    '"The anchor," I said.',
+                    "Hessa waited.",
+                ),
+            )
+        )
+        continue
+    if patch.patch_id == "018-one-finger":
+        fixed.append(
+            replace(
+                patch,
+                end="That was unfair.",
+                replacement=(
+                    '"It needs the bean to move."',
+                    'I looked at Hessa. "How far?"',
+                    '"One finger."',
+                    "I stared at her.",
+                    '"That\'s all?"',
+                    '"One finger."',
+                    '"You have been letting me throw them across the table."',
+                    '"I have been watching you decide what the problem was."',
+                    "That was unfair.",
+                ),
+            )
+        )
+        continue
     fixed.append(patch)
 
 exp.PATCHES = tuple(fixed)
