@@ -1,238 +1,269 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 400 - **THE SOJOURNER**.
+- Current exact story endpoint: Chapter 401 - **THE WITNESS**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript physically materialized through Chapter 248.
-- Exact Chapters 249-400 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
+- Exact Chapters 249-401 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
 - Titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
-- Ch400 answer: Greg is being **a sojourner**. He rests briefly in one place, pays for ordinary comfort, keeps moving north, and experiences temporary residence on the road without treating any stop as replacement for home.
-- Therefore title **THE SOJOURNER**.
-- Recent: 396 THE PATIENT; 397 THE CUSTOMER; 398 THE REPAIRMAN; 399 THE CROSSER; 400 THE SOJOURNER.
+- Ch401 answer: Greg is being **a witness**. He reaches White Span before sunrise, observes the Lume River wrong-direction reflection directly, records only what can be supported, and ends in Westbank understanding that witnessing can be harder than heroics because it requires resisting premature meaning.
+- Therefore title **THE WITNESS**.
+- Recent: 397 THE CUSTOMER; 398 THE REPAIRMAN; 399 THE CROSSER; 400 THE SOJOURNER; 401 THE WITNESS.
 
 ## Major arc direction - away from Carrow
 - Long away-from-Carrow adventure arc remains active and desired, potentially act/near-book length.
-- Crew leaves **North Reach Station** after extension authorization and reaches **Kettle Vale** by late afternoon.
+- Crew leaves **Kettle Vale** pre-dawn, reaches **White Span / Lume River** before sunrise, completes first outside-witness dawn observation, then relocates ~0.5 mile upstream to **Westbank** village.
 - Traveling core intact: **Vessa Harn, Maro Pell, Sori Vale, Dask Renn, Kel Toren, Greg**.
-- Forward route now: **Kettle Vale -> White Span / Lume River (~6 miles)** before sunrise next morning.
-- White Span local crews/ferrymaster want outside witnesses positioned before sunrise if wrong-direction reflection repeats.
-- Crew intends first-bell / pre-dawn departure.
+- White Span local request now asks for **two outside-witness mornings if recurrence continues**, unless redirected.
+- Crew ends Ch401 lodged at Westbank inn **The Two Suns**, planning another pre-dawn White Span observation next morning.
 - Keep geographic expansion active. Do not route back toward Carrow.
 
 ## Durable Greg character rule - reserve / normal mode / locked-in mode
 - Greg likes being viewed as competent but normally does not operate at maximum output because he usually does not need to.
 - First-life S-class history remains psychological reserve / retirement fund, not literal stored power.
 - Ch395 remains last serious lock-in.
-- Ch400 is ordinary-life/travel competence:
-  - Greg buys hot bath for recovery;
-  - checks shoulder honestly;
-  - takes rests before collapse;
-  - lets Kel carry bag temporarily;
-  - accepts current body's limits without identity damage.
-- Current-life competence remains distinct from first-life inheritance.
-- Greg's emotional map continues expanding: home pulls south, curiosity pulls north, and neither direction feels like mistake.
+- Ch401 is recorder/witness discipline, not power:
+  - Greg sees an objectively strange phenomenon and resists turning it into explanation;
+  - he records surface behavior, timing, bridge-shadow behavior, bucket test, fish observations, and wind correlation separately;
+  - he explicitly keeps anomaly lanes separate.
+- Current body continues recovering; Greg takes short rests without drama.
 - `Enough` remains durable.
 
-## Chapter 400 - THE SOJOURNER
+## Chapter 401 - THE WITNESS
 
-### Hot bath / economy
-- Greg pays **1c** for a half-bell hot basin at North Reach Station bathhouse.
-- Cash changes **15c -> 14c**.
-- Vale remains **23c principal-equivalent**.
-- Bath helps stiffness/pain feel less severe but does **not heal** shoulder/hand instantly.
-- Greg declines buying a second half-bell because first half does the job.
-- Shoulder remains sore; palm/forearm remain tender but improved subjectively.
-- Ordinary-life pleasure is treated as worth paying for, not poverty crisis.
+### Pre-dawn Kettle Vale departure
+- Crew leaves Kettle Vale in cold darkness before first bell.
+- Orren Pike gives formal route guidance:
+  - six miles;
+  - west-bank rise;
+  - avoid lower ford road because it floods badly.
+- Kettle Vale steam/malt/smoke smell fades quickly into high-basin night.
+- Greg shoulder/right hand remain improved but still recovering; he carries witness board + own bag, quietener packed.
+- Crew now treats ordinary route furniture as ordinary; Dask eventually breaks silence by noting milestone rotation, prompting Sori tease.
 
-### Home / travel emotional movement
-- In bath Greg thinks about Cala/Tavi/Lyssa/theatre/Vale and feels real home pull.
-- He also thinks about Kettle Vale/White Span/Lume and feels pull north.
-- Internal formulation: home can be weight/pull without becoming rope that prevents movement.
-- Greg recognizes distance is personal in second life because people now wait behind it.
+### Lume approach / White Span reveal
+- Lume River sound arrives before river sight: broad low moving weight rather than rushing water.
+- White Span revealed as long pale stone bridge with **seven arches**, low parapets, raised center signal hut, two ferry docks.
+- West-bank observation rise sits ~100 yards upstream with fixed posts, weather shelter, bench, instrument table, brass sight frame.
+- Greg takes six breaths at top due shoulder use; nobody treats it as notable.
 
-### Extension paperwork
-- Ira Fen prepares/stamps regional extension:
-  - **OBSERVATIONAL CONTINUITY AUTHORIZED THROUGH WHITE SPAN / LUME RIVER**.
-- Sori checks custody paperwork.
-- Assignment coverage:
-  - food through Kettle Vale covered;
-  - public lodging covered if station bunks unavailable;
-  - White Span local boats not automatically covered unless survey use authorized there;
-  - personal purchases remain personal.
-- Ira says Kettle Vale reachable that day if crew leaves within half bell.
-- White Span crews want observers before sunrise if phenomenon repeats.
+### Fenner Vale / local White Span crew
+- White Span local lead **Fenner Vale** introduced:
+  - ~35;
+  - badly tied hair;
+  - beard untied;
+  - coat misbuttoned;
+  - sleep-deprived after five mornings of anomaly watch;
+  - practical, dry local speech.
+- Fenner recognizes Greg from road gossip as `dog man`; exaggerated kill count corrected to zero.
+- Bridge assistant **Lessa Quill** introduced:
+  - young woman;
+  - freckles;
+  - cap/hair badly arranged;
+  - messy practical humor;
+  - brings Fenner coffee because he forgets it.
+- Lessa line: `Thank every saint and every accountant`, because saints do not sign overtime.
 
-### High-basin travel grammar
-- Crew leaves North Reach Station before second bell.
-- Landscape:
-  - dark grass in huge wind sheets;
-  - white stone ribs;
-  - pale hardpack road;
-  - black drainage cuts;
-  - very long sightlines;
-  - distant Lume River increasingly visible.
-- Greg initially likes open visibility, then discovers long sightlines make distance psychologically rude.
-- First long grade is steady rather than steep.
-- Greg takes extra breaths at crest; Dask does not verbalize count, small social growth.
-- Lume River seen clearly as broad silver line in distance.
-- Greg reflects that first-life kingdom-scale travel should make this ordinary, but second-life distance matters more because he has people to return to.
+### Observation assignments
+- Greg: left witness post / clean witness log.
+- Dask: sight frame + timing slate.
+- Maro: water behavior + bank/weather.
+- Sori: master record/custody.
+- Kel: bridge/ferry movement + practical traffic effect.
+- Vessa: oversight/local coordination.
+- Fenner: local sequence.
 
-### Floodplain causeway / mud sailer
-- Road crosses white-stone causeway over lower grass floodplain.
-- Floodplain is seasonal sheet water hidden beneath dark grass roots, distinct from marsh.
-- Safety system:
-  - white marks safe;
-  - blue marks under review;
-  - keep center.
-- A large pale creature surfaces beside causeway:
-  - long body;
-  - flat pale head;
-  - two dark side fins visible;
-  - wet coughing breath;
-  - likely **mud sailer** per Dask/Maro, but not proven same animal seen earlier.
-- Crew does not stop/pursue. No combat.
+### Pre-observation facts
+- Fenner says recurrence requires sufficiently calm water to hold sky clean.
+- Prior local pattern:
+  - first visible downstream of arch 4;
+  - spreads westward;
+  - appears as if sun were over west hills;
+  - bridge shadow does not extinguish it fully.
+- Pole into water looks ordinary.
+- Bucketed water carried away looks ordinary.
+- No measured abnormal temperature, burns, frost, smell, or sound.
+- Ferries are held administratively because first-morning ferryman got distracted staring and drifted under bridge, not because boats physically malfunctioned.
+- Bridge remains one lane open unless visibility changes.
 
-### Physical recovery / accepting load help
-- Second grade is shorter/steeper and aggravates Greg shoulder.
-- Greg stops for ten breaths **before** being forced to.
-- At crest, Kel offers to carry Greg's bag; Greg accepts for ~20 minutes rather than pride-refusing.
-- Greg still corrects strap position because injured does not mean disengaged.
-- Shoulder remains recovering, not healed.
+### Fifth-morning direct recurrence
+- Physical sun rises east normally.
+- Shortly after first real sunlight reaches bridge, a **wrong-direction pale-gold reflection** appears on west-facing water downstream of arch 4.
+- Real sun remains visibly east simultaneously.
+- Phenomenon looks like an ordinary sunrise reflection placed in impossible geometry.
+- False band:
+  - expands to roughly ~40-yard band at widest;
+  - follows ordinary surface ripples once present;
+  - edges soft;
+  - behaves like reflection under wake/ripple;
+  - persists visibly within bridge-cast surface shadow, only somewhat reduced rather than extinguished.
+- Greg's record remains descriptive, not poetic/theoretical.
 
-### Wind wells
-- Crew passes field of waist-high white stone pillars with shallow bowls.
-- Maro identifies as old **wind wells**, collecting overnight condensation for travelers historically.
-- Not considered safe now because birds contaminate them.
-- One bowl has faint silver shimmer; Greg notices and keeps walking.
-- This reinforces restraint: not every magical-looking thing requires investigation.
+### Fish observation / anecdote bounded
+- One fish surfaces inside false band.
+- Another later surfaces outside band.
+- Greg explicitly does **not** record fish-seeking-false-light theory.
+- Fish behavior remains unresolved/anecdotal.
 
-### Kettle Vale arrival
-- Kettle Vale appears late afternoon in bowl between white ridges:
-  - ~40 buildings;
-  - dark slate roofs;
-  - steam vents;
-  - one tall black chimney;
-  - terraced fields;
-  - roads converging east/north;
-  - huge iron kettles outside buildings.
-- Entry sign:
-  - **KETTLE VALE / HOT SPRINGS, BREWERS, ROAD REST**.
-- Local identity = hot springs + brewing + road-rest culture.
-- Smells of mineral water, malt, smoke, bread.
+### Bucket test
+- Lessa performs local repeat bucket test:
+  - lowers white enamel bucket into false band;
+  - fills it;
+  - hauled water inside bucket looks ordinary;
+  - no west-facing false reflection retained;
+  - real east sky can reflect weakly depending angle.
+- Supports current bounded statement: phenomenon depends on river surface/context in simple bucket test; not simply portable in collected water.
+- Does not establish mechanism.
 
-### Orren Pike / lodging / White Span briefing
-- Station desk is inside inn **The Copper Kettle**.
-- Clerk **Orren Pike**:
-  - broad man;
-  - beard braided in two short ropes;
-  - unusually formal speech for setting.
-- Six rear-annex bunks available without negotiation.
-- Evening meal covered under assignment.
-- Communal spring bathing not assignment-covered; Greg does not buy another bath in Ch400.
-- White Span briefing:
-  - departure recommended before first bell;
-  - reach before sunrise;
-  - west-bank rise offers observation position;
-  - road distance ~6 miles.
-- Prior wrong-reflection durations from Orren's note:
-  - morning 1 ~6 min;
-  - morning 2 ~8-9 min;
-  - morning 3 ~7 min;
-  - morning 4 **5 min + 20 breaths**, timed by bridge assistant.
-- No reported effects on people or boats.
-- Fish claim remains anecdotal/conflicted:
-  - one ferryman says fish rise toward false light;
-  - another says first ferryman lies when sober.
-- Keep this unconfirmed.
+### Bridge traffic observation
+- Kel crosses bridge lane west->east->west while phenomenon active under local procedure.
+- Reports:
+  - no footing change;
+  - no visibility loss from deck;
+  - looking down is distracting.
+- Lessa translates this as `stupid pretty`.
 
-### Market timing
-- Kettle Vale market is **tomorrow afternoon**, not current evening.
-- Greg is disappointed but does not detour/stall because White Span observation requires dawn travel.
-- No purchase in Kettle Vale during Ch400.
+### Timing / contraction
+- Dask times via board, not unsupported human estimate.
+- Reflection persists about **6 minutes 12 seconds equivalent by local board marks**.
+- Around minute ~4, wind begins increasing on east side and false band starts narrowing.
+- Edge contraction appears stronger where ripples increase; possible calm-water relation, not yet causal claim.
+- Phenomenon contracts toward arch-4/downstream center and vanishes gradually, not flash.
+- Crew watches extra full minute after disappearance before ending observation.
 
-### Crew routine / quietener boundary
-- Evening meal: barley stew, dark bread, pickled onions.
-- Dask eats onions individually because he simply likes them separately, a deliberately nontechnical human quirk.
-- Dawn assignments:
-  - Maro river/terrain;
-  - Dask instruments;
-  - Sori records/custody;
-  - Kel transport/logistics;
-  - Greg witness log under Ira framing.
-- Greg asks for west-bank observation position rather than bridge itself.
-- Dask asks if line quietener could matter to Lume phenomenon.
-- Greg correctly says **no evidence / different system / leave packed** unless local owner separately requests it.
-- Vessa accepts.
-- Quietener remains unused on live system.
+### First-pass observation ledger
+- Fifth morning recurrence.
+- False west-facing sunrise reflection despite real sun east.
+- First visible downstream arch 4.
+- Spreads within calm band.
+- Behaves like normal reflection under ripples/wake once present.
+- Persists somewhat under bridge-cast shadow.
+- Bucketed water does not retain wrong reflection.
+- No observed heat/smell/sound change.
+- Bridge footing/visibility unchanged.
+- Ferries held administratively, not physically.
+- Fish surfaced both inside/outside band.
+- Duration ~6m12 by board timing.
+- Wind increase correlates with contraction only as possible relation.
+- Explicitly **no connection claimed** to:
+  - West Locks false tones;
+  - arm drift;
+  - Greyhook dead pockets;
+  - Greg's line quietener.
 
-### Kettle Vale ordinary life / Greg identity
-- At night, Kettle Vale steams from warm drainage channels.
-- Brewers roll barrels; people sit with cups; children run between kettles; bad singer nearby.
-- Greg reflects that adventure is not constant danger:
-  - breakfast somewhere unknown yesterday;
-  - paying for bath because shoulder hurts;
-  - strange grass road;
-  - town smelling like malt;
-  - wrong-sun river tomorrow;
-  - home continuing without him.
-- He wants home not frozen and himself not frozen either.
-- Maro joins with free station tea; short conversation confirms Greg is happier on trip.
-- Closing identity: **temporary resident of everywhere between**.
+### Quietener boundary reinforced
+- Fenner has heard road gossip that Greg bought a retired line quietener at Lark Spur.
+- Fenner independently says keep it packed because river has no copper line.
+- Greg agrees.
+- Dask suggests analogous filtering behavior; Fenner dismisses unsupported analogy with `There could be a goose inside moon.`
+- Quietener remains unused.
+
+### Ferrymen / local belief ecology
+- Ferryman **Berrit Cole** introduced:
+  - insists fish rise west / turn heads toward false light;
+  - claims 40 years fishing authority;
+  - prone to dramatic certainty.
+- Bridge assistant Lessa corrects his stated age/experience (`Thirty-two!`), producing messy local banter.
+- Second ferryman **Toma Grell** introduced:
+  - older woman;
+  - says fish rise because dawn bugs rise;
+  - calls Berrit religious about carp.
+- Their argument is socially rich but scientifically useless; Sori records **no fish conclusion**.
+
+### White Span continuation request
+- Inside bridge signal hut, Fenner/Lessa explain regional request asks for **two outside-witness mornings if recurrence continues**, unless crew/resources redirected.
+- Vessa checks lodging.
+- Bridge quarters: 4 bunks + floor space.
+- Upstream village **Westbank** ~0.5 mile offers beds/food/walls.
+- Crew chooses Westbank, not bridge floor.
+- Greg condition:
+  - shoulder better while moving but still sore;
+  - hand usable;
+  - no new injury.
+
+### Westbank
+- Small upstream village ~20 buildings:
+  - boat repair sheds;
+  - smokehouses;
+  - long blue-roof inn;
+  - children skipping stones;
+  - dog sleeping under fish rack.
+- Greg and sleeping dog reach peaceful nonaggression.
+- Inn called **The Two Suns**, freshly renamed from **The Blue Heron** three days earlier to exploit anomaly tourism.
+- Innkeeper **Mella Torr**:
+  - pragmatic/opportunistic;
+  - says people ask for `wrong-sun rooms` and pay for breakfast.
+- Survey rate covers six beds across two rooms.
+- Lunch: smoked river fish, potatoes, sour greens.
+- Dask tries to spread notes over lunch; Vessa makes him eat first.
+
+### Closing identity / emotional movement
+- Greg sits by river-facing window with shoulder aching low but manageable.
+- He reflects on how work became route, route became places, and places are becoming names he may miss later.
+- Carrow measures farther emotionally because home measures differently.
+- Tomorrow he will witness impossible sunrise again and try not to make it mean more than it does.
+- Closing formulation: **Witness can be harder than hero. Hero gets to decide what things mean; witness has to keep looking after wanting the answer.**
 
 ## Economy
-- Greg begins **15c private cash**.
-- Pays **1c hot basin** at North Reach Station.
+- Greg begins **14c private cash**.
+- No personal spend/income in Ch401.
 - Ends **14c private cash**.
 - Vale remains **23c principal-equivalent**.
 - Bits unspecified.
-- No other spend/income.
-- Assignment covers food/lodging through Kettle Vale.
+- Survey/local coverage handles lodging/meal at Westbank under assignment extension.
 
 ## Magic / artifacts
 - Protocol ledger remains **59 minimal / 53 shaping / 135 external attempts**.
-- Greg performs **no deliberate magic** in Ch400.
-- Line quietener remains wrapped/personal/bench-tested only; no live use.
-- Greg explicitly refuses speculative connection between quietener and Lume reflection.
+- Greg performs **no deliberate magic** in Ch401.
+- Line quietener remains wrapped/personal/unused on live systems.
+- Lume reflection remains unexplained and not tied to quietener.
 - Repaired right crutch remains sound.
 - Tavi rock remains with Greg.
 - Oval remains sealed Merecross Survey custody.
 - Holdfast/K-14-6/Three Reeds/Step Keeper remain locked Carrow.
 
 ## Greg social/internal movement
-- Greg is comfortable spending modest money on quality-of-life recovery.
-- He increasingly accepts practical help and rest before failure rather than after.
-- Home and travel are no longer framed as mutually exclusive identities.
-- Crew now functions as route crew with habitual role allocation and fewer explanatory speeches.
-- Greg's curiosity remains active but better disciplined; he leaves wind-well shimmer and mud sailer alone.
+- Greg's value is witness discipline under genuinely strange conditions.
+- Crew now operates with practiced roles and less explanatory friction.
+- Greg accepts body limits without drawing attention.
+- Regional gossip continues to exaggerate Three Posts fight, but Greg corrects rather than enjoys fame.
+- He increasingly experiences away places as future-memory material, not disposable scenery.
 
 ## Dialogue variance
-- Ira Fen: concise, pre-edited operational precision.
-- Orren Pike: formal, administrative speech oddly elevated for roadside inn/station.
-- Dask: technical discipline plus small human quirk of eating onions separately because he likes them that way.
-- Sori/Kel: familiar teasing, less polished/synchronized than earlier dry-comeback problem.
-- Maro: sparse companionship, no forced philosophical monologue.
-- Vessa: practical boundaries and assignments.
+- Fenner Vale: sleep-deprived practical local lead, dry humor, bounded facts.
+- Lessa Quill: messy practical banter, overtime/accountant humor, physically demonstrative, throws towel at Dask.
+- Berrit Cole: overconfident fisherman lore, argumentative, inflated authority.
+- Toma Grell: older blunt countervoice, undercuts Berrit with lived local skepticism.
+- Mella Torr: commercially opportunistic, straightforward.
+- Dask: technical compulsion moderated by better evidence language.
+- Sori: master-record discipline, refuses fish conclusion.
+- Vessa: coordinates, protects meal/rest, chooses Westbank lodging.
 
 ## Recent role ledger
-- 396 THE PATIENT
 - 397 THE CUSTOMER
 - 398 THE REPAIRMAN
 - 399 THE CROSSER
 - 400 THE SOJOURNER
+- 401 THE WITNESS
 
 ## Protected uncertainties
-- Crew ends Ch400 at **Kettle Vale**, planning pre-dawn departure for **White Span**.
-- Greg cash exact **14c**; Vale **23c**.
-- Shoulder/right palm/forearm improving but not healed.
-- Repaired right crutch remains sound.
-- Lume wrong-direction sunrise reflection remains unexplained.
-- Prior durations as above; fish behavior anecdote unconfirmed.
-- Mud sailer species likely but not definitively identified; not same animal proven.
-- Wind-well silver shimmer unexplained and not pursued.
-- Kettle Vale market occurs tomorrow afternoon; crew likely leaves before it due dawn observation.
-- Line quietener remains packed/unrelated absent evidence.
+- Crew ends Ch401 at **Westbank**, ~0.5 mile upstream of White Span.
+- Plans second outside-witness morning at White Span before sunrise if recurrence continues.
+- Lume phenomenon repeated for **fifth morning**.
+- Ch401 observed duration ~**6m12** by local board timing.
+- False reflection appears west-facing while real sun east remains visible.
+- First visible downstream arch 4; calm-water context appears important but not proven mechanism.
+- False band behaves like ordinary reflection under ripples/wake once present.
+- Bridge shadow does not fully extinguish it.
+- Bucketed water does not retain it in simple test.
+- No heat/smell/sound/footing/visibility effect observed.
+- Fish-seeking-false-light claim remains unconfirmed and disputed.
+- Wind increase near contraction may correlate but is not established cause.
+- No connection claimed to false tones, arm drift, dead pockets, or quietener.
+- Greg shoulder/right hand improving but not healed; repaired crutch sound.
+- Quietener remains packed/unused.
 - Full current-life high-end magical/combat ceiling remains unrevealed.
 - Harrow Fen remains future possible market/relay stop.
 - Oval remains sealed Merecross; cold-response meaning unresolved.
@@ -242,37 +273,36 @@
 ## Continuity issue
 - Ch360 1-bit lunch source remains unresolved. Do not invent. Copper exact **14c**.
 
-## Chapter 401 trailhead
-Follow next actual claim from Ch400/current authority.
+## Chapter 402 trailhead
+Follow next actual claim from Ch401/current authority.
 
 Greg begins **14c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**.
 
 Physical/timeline:
-- night / pre-dawn at **Kettle Vale**;
-- crew must leave before first bell to reach **White Span** before sunrise;
-- Greg shoulder/right hand improved by bath/rest but still recovering;
+- daytime/evening at **Westbank** after first outside-witness White Span observation;
+- next requested observation is pre-dawn next morning;
+- Greg shoulder/right hand still mildly sore but improving;
 - repaired crutch sound;
-- quietener wrapped/unused.
+- quietener packed.
 
 Strong movement:
-- Leave Kettle Vale early. Reach White Span in time for dawn observation.
-- Make pre-dawn basin travel different from prior routes: cold grass, steam channels fading, white stone under moon/dawn, Lume sound arriving before sight.
-- Wrong-direction sunrise reflection should be shown directly and carefully bounded.
-- Use multiple observers/instruments without turning scene into sterile lab report.
-- Let local ferrymen/bridge workers have their own messy beliefs and habits.
+- Do not simply repeat Ch401 beat-for-beat. Second dawn must add a **new observation, changed condition, or practical consequence**, otherwise compress it.
+- Westbank can provide lived-in local river culture, boat repair, fish trade, small market, gossip, or artifact/specialist pressure during the day.
+- If staying overnight, use daytime for a new function rather than waiting.
+- The second dawn can test one or two bounded variables from Ch401: surface chop, observer position, bridge shadow, bank orientation, portable-water result, timing against wind, etc.
+- A materially new outcome is welcome, but no instant anomaly solution.
+- Greg normal mode remains default.
 - No need for another fight.
-- If phenomenon produces a new practical consequence, make it materially specific and observable.
-- Greg normal mode remains default. No forced locked-in scene.
-- Do not connect Lume reflection to false tones/dead pockets without evidence.
+- Keep world widening after second observation if operational route opens farther along Lume.
 
 Avoid:
-- instant anomaly solution;
-- chosen-one reaction to Greg;
-- quietener magically becoming relevant without mechanism;
-- immediate Carrow return;
-- market detour that causes crew to miss dawn observation.
+- repeating identical 6-minute observation scene;
+- premature anomaly unification;
+- chosen-one framing;
+- quietener becoming relevant without mechanism;
+- immediate Carrow return.
 
-**MANDATORY TITLE CHECK CH401:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH402:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
