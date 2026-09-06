@@ -1,109 +1,112 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 441 - **THE SAILOR**.
-- Exact Chapters 249-441 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays.
+- Current exact story endpoint: Chapter 442 - **THE STRANGER**.
+- Exact Chapters 249-442 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays.
 - Chapter 432 naming correction remains active: north-slope road forewoman is **Rika Dorn**, not Nessa Vale.
 
 ## Current location / arc
-- Greg has split from Dask and traveled by packet from **Lerrin toward Old Merrow**.
-- Dask independently took the **Bellweather** coach.
-- Greg is currently aboard packet **Narrow Gull**, anchored in Old Merrow's outer lee because harbor chain gate failed to lower and rain arrived.
-- He is physically at Old Merrow but has **not docked/entered town yet**.
-- No return ticket, employer, quest, or prophecy forces route.
+- Greg is now physically ashore in **Old Merrow** after Narrow Gull passengers were tendered over the harbor chain obstruction.
+- Dask remains independently on the Bellweather route; Maro east; Sori previously in Merehook/archive lane.
+- Greg is fully solo in day-to-day travel for the first time in this away arc.
+- No return ticket, employer, quest, or prophecy forces direction.
 
-## Chapter 441 - THE SAILOR
+## Chapter 442 - THE STRANGER
 
 ### Title / role
-- Greg is **THE SAILOR** in the bounded sense of choosing water travel and adapting to packet life as a passenger, not claiming maritime expertise.
-- He deliberately chooses Old Merrow packet because he wants the sea, despite higher fare and Dask choosing another route.
+- Greg is **THE STRANGER**.
+- The chapter centers on entering a place where nobody automatically knows his role, companions are absent, and he has to learn systems without built-in translators.
+- Core closing frame: `Stranger meant nobody knew what I was useful for. That was freeing. Also inconvenient. Good.`
 
-## Departure choices
-- Harrow Cape route is closed at dawn due north swell; recheck tomorrow.
-- Bellweather coach remains **2c** second bell.
-- Old Merrow packet remains **4c** third bell.
-- Dask chooses Bellweather and departs independently.
-- Greg chooses Old Merrow packet and pays **4c: 39c -> 35c**.
-- No social injury from split.
+## Harbor chain resolution / local ownership
+- Harbor chain gate remains raised through hard rain because **west clutch shear pin failed**.
+- Narrow Gull does not force passage and captain does not attempt unsafe crossing.
+- Harbor activates **passenger tender** workaround while cargo remains aboard.
+- Greg and Vessa are placed in first tender because of mobility/breathing concerns, not protagonist status.
+- Transfer uses lower lee side; Greg chooses seated transfer between vessels, keeps crutches, accepts one shoulder steadying only after consent.
+- Greg does **not** fix chain or diagnose mechanism from packet.
 
-## Dask split
-- Dask leaves with his own pack/tourist tide index/questions.
-- Greg jokes about broken beacon purchase.
-- Dask continues defending Lot 67 terminology (`uncharacterized artifact` / `retired comparative demonstrator`) against Greg's `five-copper liar` label.
-- Their companionship is allowed to end/change naturally rather than being preserved by title inertia.
+## Vessa Orm
+- Vessa's breathing continues to improve after her own regular medicine; deckhand checks her twice.
+- She remains irritable and functional, not melodramatically ill.
+- She asks Greg for limited help only when hill + goat basket make it practical.
+- Greg points to paid harbor porter cart rather than carrying her goat basket badly himself.
+- Vessa pays her own **1c porter fare**.
+- They separate after third terrace; no instant replacement-party bond.
+- Vessa thanks Greg for administering her drops; nickname callback remains narrow/social.
 
-## Packet / accessibility
-- Packet: **Narrow Gull**, two masts, low black cargo-capable hull, aft passenger deck.
-- Ticket clerk directs Greg to lower boarding gate because cargo ramp is less steep than upper gangplank.
-- Greg explicitly keeps trial limb wrapped because it is shop property/not for wet deck.
-- Deckhand allows Greg to board slowly under own power; does not grab him.
-- Crutches remain primary and are poor tools on moving deck, so Greg stays seated appropriately.
+## Old Merrow infrastructure / identity
+- Old Merrow is organized around **rain capture and cistern management**:
+  - roofs feed gutters;
+  - gutters feed stone channels;
+  - channels cross lanes under grates into wall cisterns;
+  - road/step geometry directs runoff;
+  - ceramic cistern markers encode access/status.
+- Rain tongue gives ridge wet-wind warning that triggers cistern/spillway crew behavior.
+- Blue marker = public draw; white private; yellow restricted during low reserve; red-mark spouts are wash water.
+- Greg initially misreads `third ring` on a sign as terrace rather than bell ring, reinforcing stranger status.
 
-## Sea travel identity / ecology
-- Sea motion is materially different from coach travel: roll/yaw/up-down and constant corrections.
-- Route passes basalt **South Tooth** and uses lee route due north swell.
-- Greg sees **glassbacks**: long translucent-backed marine creatures that follow charge lines and can be problematic for nets; packet noise keeps them less relevant.
-- Magical ecology is observed without taxonomy certainty.
+## Chain failure specifics / human maintenance problem
+- Harbor board posts exact failure:
+  - **CHAIN HOUSE WEST CLUTCH / SHEAR PIN FAILED**;
+  - replacement pin requested from upper mill;
+  - passenger tender active;
+  - cargo held until mechanical clearance.
+- Failure is maintenance/economic rather than mystery/corruption.
+- Last spare shear pin was consumed in spring storm.
+- Replacement procurement was delayed by small-batch forge surcharge and budget/purchase constraints.
+- Chain committee fisherman and mechanic disagree over who should have ensured spare stock, with both having bounded reasons.
+- Replacement arrives and chain drops by evening.
+- Narrow Gull enters and cargo unloading resumes.
 
-## Ship operations / restraint
-- Captain safety rule: stay out of red working lane, obey sit/move orders, use leeward rail if sick.
-- Lamp-glass crate shifts during swell; crew handles it.
-- Greg notices lashing/pressure change but does not deploy HT-LP-4 or intervene because nobody asks and crew owns problem.
-- Reinforces competence as restraint around owned tools.
-- Packet has mounted **wake shear plate**, a bronze three-groove/bead instrument indicating cross-current disagreement under hull.
-- Crew description: tells captain how `rude` water is being; accurate enough to know when to stop being clever.
-- Captain takes a half-bell detour when shear reading disagrees with apparent calm, despite trader complaint.
+## Designed shear / evidence ring
+- Broken shear pin is a designed sacrificial weak point.
+- Pin includes **dark ceramic shear-witness ring**.
+- Harbor mechanic explains ring can distinguish rated-shear failure from premature crack/misalignment after drying; wet state darkens everything so conclusion waits until next day.
+- If pin failed at rated shear, routine replacement may be enough; early crack would require alignment inspection.
+- Greg observes but does not turn into mechanic/report writer.
 
-## Old Merrow first image
-- Old Merrow is a green-black island with pale stone harbor and terraces climbing hill.
-- Ridge holds a giant fork-like membrane instrument called a **rain tongue**.
-- Rain tongue does **not call rain**; it sounds a low chest-felt note when wet wind crosses east ridge to summon cistern crews.
-- This gives Old Merrow distinct water-management/weather infrastructure.
+## Old Merrow market / artifact restraint
+- Greg sees local **leak singer**:
+  - small clay disk with blue center;
+  - porous salt clay + charged reed bead;
+  - whistles on clean-wall seep behind cistern wall;
+  - can be refreshed by freshwater soak when salt clogs;
+  - costs **3c**.
+- It superficially fits environmental-warning problem category, but local cistern worker **Rell Aster** warns it performs poorly as generic travel detector because wet noisy environments create misleading behavior.
+- Seller openly admits he was thinking sale, not ship use.
+- Greg **does not buy**.
+- This reinforces problem-first procurement discipline after auction win.
 
-## Harbor chain failure / immediate pressure
-- Narrow Gull reaches harbor but cannot dock because underwater harbor chain gate remains raised.
-- Dock shows black signal, then alternating white/black indicating manual-release jam / uncertainty about west clutch.
-- Harbor workers are visibly working capstan mechanism and sending runner inland.
-- Captain refuses to risk hull crossing raised chain.
-- Returning to Lerrin is unattractive due swell; rain approaches.
-- Captain chooses **outer lee anchorage** to wait for chain/weather rather than force docking.
-- Rain arrives hard; island becomes obscured.
-- Greg remains passenger and does not attempt to solve harbor machinery from boat.
+## Rell Aster
+- Upper cistern worker, wet from rain work, blunt/messy practical speech.
+- Complains about West catch mud/grate maintenance and says tools cannot fix people who refuse maintenance.
+- Gives Greg marker-color information and bakery-loft warning.
+- No quest or standing relationship established.
 
-## Vessa Orm / human cost
-- Older passenger with covered goat basket is **Vessa Orm**.
-- During dock delay she develops familiar breathing trouble and asks Greg for her own regular medicine.
-- She explicitly instructs **three drops under tongue**, says she has taken it for 12 years.
-- Greg administers exactly her stated dose because her hands shake, then immediately informs deckhand.
-- No diagnosis/doctor role.
-- Breathing eases somewhat over several minutes; not declared cured.
-- Deckhand remains aware.
-- Delay therefore has concrete human cost without turning into catastrophe.
-
-## Nickname spread
-- Vessa recognizes Greg as **Peg-Leg Greg** because Merehook bread seller is her niece.
-- This provides a plausible narrow social-network path for nickname spread across towns/boat routes.
-- Greg still protests he does not have peg; `future-proof` callback.
-- Keep nickname organic, not fame.
-
-## Economy
-- Greg begins **39c cash / 23c Vale / bits unspecified**.
-- Old Merrow packet **-4c -> 35c**.
-- No other copper spending recorded Ch441.
-- Ends **35c cash / 23c Vale / bits unspecified**.
+## Lodging / economy
+- Greg chooses bakery loft for **1c**.
+- Cash **35c -> 34c**.
+- Food uses bits only.
+- Ends **34c cash / 23c Vale / bits unspecified**.
 - 20c limb deposit remains paid toward 1 silver + 18c travel-work limb quote.
 
 ## Trial limb / body
-- Trial build remains wrapped/shop property/unfinished/medium foot.
-- No wear on wet/moving packet deck.
-- Crutches primary; no injury.
-- Sea motion makes mobility limits materially relevant without spectacle.
+- Trial build remains dry/wrapped during wet harbor/terrace day.
+- Greg considers indoor wear at night but declines because packet transfer + hill travel already taxed body.
+- Rest is treated as valid progression choice.
+- Crutches remain primary; no injury.
+
+## Lot 67 / artifact handling
+- Greg only checks Road Response Kit for moisture; it remains dry.
+- No new timing experiments.
+- Sticky fourth-mark false-long failure remains unresolved.
+- Tool stays out of harbor-chain decision.
 
 ## Magic
 - Protocol remains **59 minimal / 53 shaping / 135 external attempts**.
-- No deliberate magic Ch441.
+- No deliberate magic Ch442.
 - No S-class/locked-mode activation.
-- Lot 67 remains packed/unfixed.
 
 ## Current inventory
 Greg carries:
@@ -119,42 +122,45 @@ Greg carries:
 10. current Merehook coastal-measure circular from Sori.
 
 ## Protected uncertainties
-- Greg ends Ch441 aboard Narrow Gull at outer lee anchorage outside Old Merrow harbor in hard rain.
-- Harbor chain gate remains raised/jammed; west clutch status uncertain.
-- Greg has not entered Old Merrow yet.
-- Vessa's breathing has eased somewhat after her own medicine; deckhand aware; no diagnosis.
-- Cash **35c**, Vale **23c**, bits unspecified.
+- Greg ends Ch442 at bakery loft in Old Merrow.
+- Cash **34c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 135**.
-- Dask is en route/at Bellweather depending timing; no message yet.
-- Maro/Sori status unchanged/unknown.
+- Harbor chain is operational again after replacement shear pin, but witness-ring evaluation waits until dry next day.
+- Greg has no companion currently with him.
+- Vessa is homeward/with daughter route; no ongoing obligation.
+- Rell Aster is local cistern worker, not quest giver.
 - Trial limb unfinished/shop property.
 - Lot 67 remains unreliable near fourth mark.
+- Greg has not chosen next Old Merrow route.
 
-## Chapter 442 trailhead
-Follow next actual claim from Ch441/current authority.
+## Chapter 443 trailhead
+Follow next actual claim from Ch442/current authority.
 
-Greg begins **35c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**, aboard Narrow Gull anchored outside Old Merrow in rain.
+Greg begins **34c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**, in Old Merrow morning after rain/chain repair.
 
 Strong movement:
-- Resolve enough of harbor-chain situation to move story, but do not make Greg the instant mechanic.
-- Vessa's breathing can create urgency if delay continues, but avoid melodramatic medical crisis. Crew/captain/local harbor authority should own transport/safety decisions.
-- Old Merrow should become a real place once Greg lands: terraces, cistern/water systems, rain tongues, island economy, packet dependence.
-- A human problem can emerge from why chain failed, who bears delay cost, or another local pressure, but avoid repeating exact Lerrin `procedure vs departure` structure.
-- Greg has now separated from all three original companions. Let solo travel alter social texture: strangers can matter more, and nobody automatically translates local systems for him.
-- Greg may form temporary connection with Vessa or another passenger, but avoid instant party replacement.
-- Deliberate magic remains available if an organic low-stakes opportunity appears after landing; no need to force.
-- Trial limb should stay off wet/unstable surfaces; stable indoor/island terrace use later is possible.
-- Keep geographic expansion moving. Old Merrow should offer a route/problem/opportunity that Greg could not have encountered in Carrow/Duskport/Merehook/Lerrin.
+- Old Merrow now needs a **distinct next-route pull**, not another day of wandering market/cistern exposition.
+- Candidate directions already visible:
+  - upper ridge farms;
+  - west rain-catch system;
+  - inland quarry road;
+  - future packet routes after harbor normalizes.
+- The dry shear-witness result can provide a brief consequence update, but do not let chain become whole new engineering arc.
+- Solo travel should continue changing Greg's social experience: he may choose to join a public cart, work crew, guided route, or just travel among strangers, but no automatic party replacement.
+- Greg has been magic-quiet for many chapters. A **bounded low-stakes deliberate attempt** is now available if scene naturally supports one, especially independent of faulty Lot 67 timing conclusions.
+- Trial limb has rested; stable dry terrace/indoor/ridge task can support another use if ordinary function warrants it.
+- Artifact engine should stay present through use/maintenance/problem-solving rather than another purchase spree.
+- Keep away arc widening geographically and socially.
 
 Avoid:
-- Greg fixing chain from packet;
-- severe medical melodrama;
-- immediate reunion with Dask/Sori/Maro;
-- another signal-system chapter identical to Lerrin;
-- free money/artifact;
-- forgetting Greg paid 4c and now has 35c.
+- another full chain-maintenance chapter;
+- immediate convenient high-paying job;
+- new permanent companion;
+- free local artifact;
+- magic breakthrough tied to faulty timing tool;
+- returning toward Carrow/Duskport by default.
 
-**MANDATORY TITLE CHECK CH442:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH443:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
