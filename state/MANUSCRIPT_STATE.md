@@ -1,214 +1,307 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 385 - **THE CANDIDATE**.
+- Current exact story endpoint: Chapter 386 - **THE RUNNER**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript physically materialized through Chapter 248.
-- Exact Chapters 249-385 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
+- Exact Chapters 249-386 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
 - Titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
-- Ch385 answer: Greg is being **a candidate**. He undergoes real River Survey job-fit assessment against another viable applicant and earns temporary Glasswake crew work, but the traveling field slot remains undecided.
-- Therefore title **THE CANDIDATE**.
-- Recent: 381 THE VISITOR; 382 THE OUTSIDER; 383 THE APPLICANT; 384 THE VOLUNTEER; 385 THE CANDIDATE.
+- Ch386 answer: Greg is being **a runner**. He spends first Glasswake prep day carrying observations, permits, route copies, bells, and records between specialists who need them, functioning as temporary crew labor rather than candidate in a test room.
+- Therefore title **THE RUNNER**.
+- Recent: 382 THE OUTSIDER; 383 THE APPLICANT; 384 THE VOLUNTEER; 385 THE CANDIDATE; 386 THE RUNNER.
 
 ## Major arc direction - away from Carrow
-- Long away-from-Carrow adventure arc remains authorized and desired, potentially act/near-book length.
-- Ch385 moves toward it credibly: Greg passes minimum trial requirements and gets three days of paid Glasswake prep alongside rival candidate Orin Pell. Vessa will choose one route record hand after first Glasswake night.
+- Long away-from-Carrow adventure arc remains active and desired.
+- Ch386 shifts from testing into actual crew work and starts making River Survey feel like a traveling ensemble.
+- Field slot remains one and undecided. Do not hand it to Greg yet.
 - Do NOT resolve bridge/send Greg home.
 
-## Chapter 385 - THE CANDIDATE
+## Chapter 386 - THE RUNNER
 
-### Trial baseline
-- Greg obeys Vessa: eats breakfast, drinks water, brings normal personal travel load.
-- Repaired porter harness right side; shoulder bag reduced enough not to interfere with left crutch rhythm.
-- Oval wrapped; letters separate; Tavi rock carried; no spoon.
-- Body report: normal hands, right side mildly aware of prior cart brace but not painful, no leg issue.
-- Greg reports Baret repair accurately: new buckle/sister strap, 2c, walked 6/8lb, carry only, not rescue/climbing/anchor/dynamic load.
+### Prep-day assignment
+- Glasswake prep day 1 begins second bell as promised.
+- Vessa assigns:
+  - Orin -> Sori;
+  - Greg -> Dask.
+- Vessa restates temporary terms/rules:
+  - three prep days through first Glasswake night;
+  - 1c each completed day + meal;
+  - report changes;
+  - do not touch active things unless assigned;
+  - do not improve labels;
+  - do not make route decisions because bored;
+  - if separated by closure cordon, report nearest marked crew station rather than shortcut.
+- Orin initially omits nearest marked crew station in repeat-back, catches/corrects himself. Competition remains real but not antagonistic.
 
-### Dask Renn
-- Properly introduced:
-  - thin, long neck;
-  - copper spectacles, one lens slightly darker;
-  - badly tied hair escaping;
-  - excessive pencils, including one often in teeth;
-  - gauges specialist;
-  - dislikes approximation and handwriting ambiguity.
-- Speech is eccentric/technical rather than Greg-dry clone.
-- Sori and Dask have established bickering history around abbreviations/records.
+### North Channel gauge route
+- Dask takes Greg on North Channel temporary gauge route through Merecross freight district.
+- Route equipment:
+  - 12 numbered marker housings;
+  - 3 portable sight boards;
+  - black case glass-safe chalk;
+  - 2 waterline slates;
+  - 4 cloth covers;
+  - small brass bell, operational not decorative.
+- Dask's record rule:
+  - station number;
+  - time;
+  - waterline mark;
+  - light direction if visible;
+  - no cause/prediction language;
+  - write `none observed`, not `no light`, if Greg personally does not observe return.
+- Bell protocol as Dask explains:
+  - 1 = observation acknowledged;
+  - 2 = local hold;
+  - 3 = clear immediate edge/find supervisor;
+  - 4 not used because people forget under stress. Dask jokes system was once 5.
+- This is local crew practice, not universal law.
 
-### Oval decision
-- Vessa and Maro review Greg's partial notes without unwrapping/activating oval.
-- Maro recommends **leave it in Merecross if hired** because North Glass Cut/West Locks contain controlled thresholds, flow gates, return markers, and old reflective infrastructure; uncertain threshold object adds unknown interaction for little established benefit.
-- Vessa adopts recommendation.
-- Oval is stored in clerk lockbox during trial with receipt, then returned to Greg afterward.
-- If Greg gets field slot, oval must be sealed/stored in Merecross, not taken on route.
-- No activation/test.
+### Freight-district world texture
+- Merecross freight district: stone warehouses, chain lifts, fish-scale gutters, wooden loading chutes, practical traffic.
+- Glasswake pre-pull light strengthens:
+  - silver under wagon undersides;
+  - blue-white puddle seams;
+  - shadows with bright edges at certain angles.
+- Workers largely continue jobs; city adapts rather than treats magic as spectacle.
 
-### Two candidates
-- Second scheduled candidate exists: **Orin Pell**, young man ~20, broad shoulders, two boots, viable rather than straw rival.
-- He arrives 43 minutes late after route problems but explicitly owns that he should have left earlier.
-- Vessa treats lateness as information, not instant theatrical disqualification.
-- Orin is allowed trial after eating because he skipped breakfast.
-- Orin:
-  - physically faster than Greg;
-  - beautiful/readable handwriting;
-  - good with numbers;
-  - weaker instruction retention because he talks while receiving directions;
-  - corrects when caught;
-  - socially apologetic/messy, not antagonist.
-- No relation to Maro Pell or Pell Arven established. Merecross can have common surnames.
+### Stations 1-4
+- Station 1 housing contains mundane brass scale + smoky-glass inset.
+- Dask describes inset as **reactive register**, not generator/predictor; reads local return against fixed housing reference.
+- Station 1: waterline one thumb below red notch; north-east low return.
+- Station 2: Greg initially sees no line, Dask sees one after shading; Greg records dictated result rather than pretending own observation.
+- Station 3 housing screw sticks; Greg simply holds cover while Dask fixes. No unnecessary improvisation.
+- At station 4 Greg and Dask cross Orin/Sori; Orin is already learning multiple departments use `clear` differently. Rivalry remains friendly/real.
 
-### Read/copy/instruction trial
-- Dask gives weathered tags. Greg copies only established text, marks uncertainty rather than improving source.
-- One uncertain RETURN digit could be 1/7; Greg records uncertainty and reason.
-- Unknown abbreviation is copied rather than expanded.
-- Sori read-back test intentionally changes `gauge` to `gate`; Greg corrects her to original.
-- Vessa gives seven-step instruction once. Greg misses `beside peg, not on chalk` detail on first repeat. Vessa repeats full instruction; Greg repeats correctly second time.
-- This is not perfect performance.
+### Station 5 variable return
+- Station 5 smoky inset shows primary steady line + second faint moving line.
+- Dask freezes work, tells Greg not write until observation bounded.
+- Greg rings bell twice; nearby workers step back from painted river edge and cover reflective cargo.
+- Record:
+  - station 5;
+  - second bell +32;
+  - primary north-east low;
+  - secondary variable west-to-east, intermittent;
+  - observed after housing opened.
+- Secondary line later appears faintly through closed slit too.
+- Upstream crew acknowledges with one bell.
+- Greg correctly does not copy Dask's private symbol without instruction; Dask says `Good.`
 
-### Eight-pound case / route
-- Eight-pound blue record case cannot simply be hand-carried because Greg needs both crutches.
-- Greg refuses unsafe one-crutch gravel carry.
-- He asks to temporarily move personal harness load to cart and use crew-issued rated case strap on right harness.
-- First attachment swings too much; Greg stops after three test steps.
-- Kel adds lower keeper strap; second configuration acceptable.
-- First route: packed dirt/boards/gravel; Greg stops/reset when right crutch tip shifts ~1 inch on loose patch; completes instructions/read-back.
-- Second route: timber step, packed slope, narrow crate turn, rough cobble. Greg is slower and asks for rest, initially says 10 breaths then realizes he needs 8; Vessa makes him state actual need rather than ritual number.
-- Later longer pace route: Greg asks for 6 breaths at incline, finishes; pace slower than Orin but within Vessa's yard minimum.
-- Greg says five minutes recovery before another similar-quality circuit.
+### Station 6-9 / runner function
+- Station 6 requires nine stone steps; Greg takes them slowly with right rail. Dask waits without making issue.
+- Station 7 missing cover strap, maintenance need recorded only after Dask instructs.
+- Station 8 waterline up half finger from morning reference slate.
+- Station 9 blocked by freight cart.
+- Dask refuses simply moving cart; finds driver.
+- Driver demands permit proof; Dask sends Greg to nearest marked blue crew station rather than farther office.
+- Greg fast-crutch travels through freight crowd with repaired harness holding normally.
+- At blue station, Kel + Orin present. Orin locates stamped duplicate North Channel gauge-route permit in his tube after catching initial wrong sheet.
+- Greg returns; driver moves cart; housing undamaged.
+- This is first strong embodiment of title: Greg physically routes needed paperwork between crew/work site.
 
-### Cart/skiff transfer
-- Kel supervises.
-- Survey cart higher/narrower than passenger coach. First transfer works but ugly using rail; Kel then teaches fixed boarding strap because rail may be wet.
-- Crutches can go in crew socket; loaded cart may require another crew member to place/retrieve. Greg accepts asking rather than independence performance.
-- Dockside skiff transfer only, no boat ride.
-- Greg hands crutches to Sori, uses dock post + Kel forearm, right foot to skiff floor while Kel controls hull.
-- When skiff shifts ~3 inches, Greg freezes rather than chasing unstable boat.
-- Reverse transfer requires Kel hold hull until right foot loaded.
-- Vessa records crew assistance required and **acceptable**.
+### Orin joins temporarily / Dask explanation
+- At station 10 Orin joins Greg/Dask temporarily while Sori is away.
+- Orin asks what smoky glass actually measures.
+- Dask explanation:
+  - local reflective-return bias under current illumination/river response;
+  - not light quantity;
+  - relation between fixed reference and directional return;
+  - comparison metaphor to compass that cares where reflection behaves rather than north;
+  - rejects Orin phrase `Glasswake pushing` because it invents mechanism.
+- Dask jokes people with larger maps get paid more to be wrong with broader models.
+- Crew banter begins to feel lived rather than interview/test.
 
-## Small power/competence boost - user-directed scaling
-- User explicitly requested a small Greg scaling boost, even if slightly out of place, but made coherent with existing training.
-- During trial break, Dask leaves a small brass gauge marker on slightly unlevel crate. It begins rolling toward edge.
-- Greg, seated and too far to reach, instinctively uses a tiny **external** effect.
-- Context is materially harder/more real than prior controlled Hessa work:
-  - no deliberate setup;
-  - seated/torso twisted;
-  - moving target;
-  - roughly **1.5 paces**;
-  - ordinary practical consequence rather than practice bead.
-- Effect cleanly changes disk direction enough to keep it on crate.
-- This is established as Greg's **first clean practical external effect outside deliberate training in his current body** that he can remember.
-- This is a real small scaling/transfer milestone, NOT rank-up, stat jump, universal reliability, or new spell.
-- Greg refuses Dask's immediate `do it again` request because chasing one clean result would muddy evidence. This is learned Hessa discipline.
-- Maro asks prior context; Greg accurately reports Ch370 evidence: moving caster on practiced loop, stationary bead, farther distance, 2 clean-enough/10 counted farther attempts; totals are ATTEMPTS, not successes.
-- Vessa explicitly says magic does **not** affect hiring trial because not listed requirement. Unauthorized magic on field equipment could become a negative.
-- Greg and Dask tentatively agree to a controlled **four-attempt** comparison after future work if conditions allow, one target, not during job. Do not guarantee result.
-- Greg does NOT add practical event to Hessa protocol attempt total.
-- Durable magic ledger remains **59 minimal / 53 shaping / 129 external attempts**, plus separate practical-transfer milestone.
-- This is intended to nudge Greg upward without breaking slow-burn Bronze progression: the boost is **transfer into spontaneous use**, not raw power inflation.
+### Station 11 tactile observation
+- Greg feels repeating vibration through crutch tip on stone seam: **3 pulses, pause, 2**.
+- Reproduces with other crutch tip on same seam.
+- Dask cannot feel via boot/fingertips; Orin cannot feel by palm.
+- Observation recorded separately from gauge sheet:
+  - adjacent stone seam;
+  - repeating tactile 3-2 pattern;
+  - through Greg crutch tips only;
+  - not independently felt by boot/hand.
+- Dask later obtains drain cross-check at chapter end:
+  - old return conduit lies under seam;
+  - current north-sluice timing relay pattern is 3-2 because one gate offline;
+  - likely mechanical/conduit vibration rather than new Greg magic sensitivity.
+- However crutch tips are shown useful as contact probes. This is competence/tool-use, NOT magical scaling proof.
 
-### Trial outcome / temporary crew
-- Vessa evaluates both:
-  - both meet minimum read/write;
-  - both can carry case through yard geometry;
-  - both can transfer cart/skiff with available crew procedure.
-- Orin: faster, weaker instruction retention, talks during directions.
-- Greg: slower but within minimum; asks before improvising; mobility margin cannot be fully tested in yard; North Glass Cut will require conservative first call; no proving himself by forcing terrain.
-- Greg skiff assist acceptable; case strap config acceptable; harness limitations retained; oval stays Merecross.
-- Vessa has ONE posted field record-hand slot.
-- New/credible staffing need: Glasswake prep requires **two temporary record runners for three days before departure**.
-- Vessa hires both Greg and Orin for prep:
-  - tomorrow through first Glasswake night;
-  - **1c per completed prep day + meal**;
-  - separate assignments possible;
-  - no promise of field assignment;
-  - can terminate for safety/instruction failure;
-  - no exclusivity outside assigned hours.
-- Vessa will use actual Glasswake work pressure to choose field record hand after first night.
-- Both accept.
-- Greg reports **second bell tomorrow** for prep.
+### Station 12 / floodgate convergence
+- Station 12 at old north floodgate; Maro, Sori, Vessa, later Kel converge. Temporary crew begins feeling crew-shaped.
+- Dask reports station 5 variable return, station 11 tactile observation pending cross-check, strengthening primary line stations 10-12.
+- Vessa asks whether records clean.
+- Dask initially complains Greg wrote `NE low`; Sori catches header legend explicitly authorizes abbreviation. Dask concedes `Accepted abbreviation`; Vessa gets simple answer: records clean.
+- Greg earns small records competence win without making Dask incompetent.
+- Orin's sheets: beautiful handwriting, but Sori finds one missing permit-source line. Orin says he knew it; Sori reminds knowing != recording. He corrects with timestamp/late-entry mark rather than backfilling as original.
+
+### Floodgate light event
+- Old stone arch gives deep underwater/cable-like tone, then higher tone.
+- River under gate flashes broad white from below, briefly revealing old repair lines on underside arch.
+- Everyone local immediately steps back from rail.
+- Orin almost leaves clipboard sliding on vibrating rail.
+- Greg chooses **mundane first** and hooks clipboard inward with crutch cuff instead of using magic.
+- Vessa orders everyone behind painted blue safety line.
+- Light fan stretches downstream, then narrows.
+- Maro calls it **gate sheet response**, larger than prior day, explicitly not full wake.
+- No catastrophe.
+
+### Real crew work during gate response
+- Vessa assigns:
+  - Sori time/witnesses;
+  - Orin crowd side, repeat temporary hold/no cause statement/stay behind blue;
+  - Greg with Dask when Maro clears;
+  - Kel keeps cart.
+- Orin performs well: does not invent explanations, repeats bounded hold language.
+- After Maro clears, Dask opens station 12 housing.
+- Smoky inset shows **three lines** temporarily:
+  - primary steady north-east;
+  - secondary west-east;
+  - third nearly vertical/intermittent.
+- Greg writes exact dictation.
+- Third line disappears.
+- Greg had proactively started observer breath count when housing opened due prior pattern awareness.
+- Reports **~41 breaths**, explicitly approximate/observer count, not instrument time.
+- Dask accepts as `approximate forty-one breaths observer-count`.
+- Vessa later asks for Greg's copy herself. This is one of Greg's strongest Ch386 competence wins: old-life field pattern recognition + current disciplined records work, not magic power.
+
+### Meal / first-life disclosure
+- Crew eats together behind floodgate office: Vessa, Maro, Sori, Kel, Dask, Orin, Greg.
+- Banter:
+  - Dask complains bowl rim changes spoon angle;
+  - Sori says sentence unnecessary;
+  - Kel says Dask has said worse;
+  - Sori tells Vessa sitting is allowed by law.
+- Orin asks if Greg fought monsters due Greg's reaction to route warnings.
+- Greg states first-life context:
+  - eventually **S-class**;
+  - reached it later in life;
+  - lived to about **59**.
+- Orin reacts skeptically (`Bullshit`), which Greg considers fair.
+- Vessa immediately grounds hiring relevance: current body Bronze; current route trial based current body; old rank = context, not credential.
+- Greg agrees.
+- This is a subtle user-requested scaling/context reinforcement without altering current rank.
+- Dask links old experience to Greg refusing to chase external result. Greg credits teacher Hessa.
+- Orin says he would have repeated it; Greg points out Orin talks during instructions. Orin throws bread crust, misses; Dask critiques trajectory. Crew laughs.
+- Social belonging begins naturally.
+
+### Afternoon permit work with Sori
+- Greg rotates to Sori for permit reconciliation, varying work grammar.
+- Glasswake closure changes must stay aligned across market routes/freight windows/river-light boundaries.
+- At one office clerk gives verbal update without stamp.
+- Greg almost accepts, catches issue, asks for stamped change or records verbal pending confirmation with clerk name/time and no operational authority.
+- Later stamped copy supersedes it.
+- Shows improving routing/record judgment under real work pressure.
+
+### Day completion / pay
+- Vessa does **not** rank candidates after day 1.
+- Prep day 2 starts **first bell tomorrow** because Glass response is accelerating.
+- Both candidates remain in running.
+- Sori pays Greg **1c** for completed prep day + meal already provided.
+- Greg **14c -> 15c**.
+- Orin also earns his day pay.
+- No field decision.
 
 ## Economy
-- Greg begins and ends **14c private cash**.
-- No trial pay.
+- Greg begins **14c**.
+- Completes Glasswake prep day 1, earns **1c + meal**.
+- Ends **15c private cash**.
 - Vale remains **23c principal-equivalent**.
 - Bits unspecified.
-- New temporary income potential: up to 3c across three completed Glasswake prep days, plus meals.
-- Field route pay remains 6c start +2c/completed field day starting day4 if selected.
+- Potential remaining prep income: up to 2c more if next two days completed.
+- Field route pay unchanged if selected: 6c start +2c/completed field day from day4.
 
 ## Magic / artifacts
-- Protocol attempt ledger remains **59 / 53 / 129**.
-- New separate milestone: one spontaneous clean practical external effect on moving brass disk at ~1.5 paces, seated/no setup.
-- Do not treat as proven repeatability.
-- Oval returned after trial but prohibited from field route if hired.
+- Protocol attempt ledger remains **59 minimal / 53 shaping / 129 external attempts**.
+- Separate practical external-transfer milestone from Ch385 remains one result only.
+- Greg uses **no magic** in Ch386 despite opportunity with sliding clipboard; chooses crutch cuff/mundane method.
+- No new power-up.
+- Oval remains with Greg in Merecross, unactivated; field prohibition stands if hired.
 - Other artifacts remain Carrow.
 
-## Greg internal movement
-- He is no longer merely waiting to see whether adventure chooses him.
-- He competes for a real slot without turning Orin into enemy.
-- He experiences a genuine magical competence win and, importantly, does not immediately chase it.
-- Notebook records `FIELD SLOT: NOT DECIDED` and separate external practical milestone.
-- Closing: `Candidate. / For the road, maybe. / For something else too. / Small results fit through doors. / This one had.`
+## Greg competence/social movement
+- Greg is useful through routing, accurate observation, bounded uncertainty, pattern recognition, physical adaptation, and not overreaching.
+- Orin also has real strengths and performs well under public hold, preserving viable competition.
+- Greg's crutches become useful tools/contact probes in a mundane/mechanical way without implying magical sense upgrade.
+- First-life S-class disclosure gives crew context for Greg's old judgment while current Bronze limitations remain explicit.
+- Notebook ends with crew list:
+  - Vessa
+  - Maro
+  - Sori
+  - Kel
+  - Dask
+  - Orin
+  - `ME, TEMPORARILY`
+- Closing: `Runner. / Not glamorous. / Useful. / That was becoming dangerous word.`
 
 ## Dialogue variance
-- Dask: eccentric technical, argumentative about precision, pencils, longer odd statements.
-- Sori: records/legal precision, bickers with Dask.
-- Kel: terse practical transport expertise.
-- Orin: nervous/fast/overexplaining, apologetic, talks through instructions.
-- Vessa: blunt field-lead evaluation.
-- Maro: epistemically cautious.
+- Dask: eccentric technical precision, gets excited by measurement, complaints about spoon angles.
+- Sori: legal/records precision, sharp at late-entry/source problems.
+- Orin: fast/social/apologetic, asks questions, still talks during directions but performs well in crowd hold.
+- Kel: practical/terse.
+- Vessa: blunt operational lead.
+- Maro: cautious about naming mechanism/events.
 
 ## Recent role ledger
-- 381 THE VISITOR
 - 382 THE OUTSIDER
 - 383 THE APPLICANT
 - 384 THE VOLUNTEER
 - 385 THE CANDIDATE
+- 386 THE RUNNER
 
 ## Protected uncertainties
-- Greg does NOT yet have field route slot.
-- Orin is viable competition, not destined loser.
-- Glasswake prep performance will inform Vessa's choice after first night.
-- Greg's spontaneous external effect is one result only, not repeatable mastery.
-- Dask comparison may happen later but not guaranteed.
-- Oval field-route prohibition stands if Greg hired unless new evidence/authority materially changes decision; do not casually reverse.
-- North Glass Cut real terrain remains untested by Greg.
-- Glasswake exact onset/strength unresolved.
-- Transit/bridge status unchanged from prior authority.
-- Night Rest status/availability unchanged from last observed scene and must not be assumed.
-- All older protected threads remain unresolved unless exact authority says otherwise.
+- Field route slot remains undecided between Greg/Orin.
+- Prep day 2 begins first bell tomorrow.
+- Glasswake first night still ahead; exact onset/strength unresolved.
+- Station 5 secondary return meaning unresolved.
+- Station 12 temporary third return meaning unresolved.
+- Floodgate gate-sheet response cause/significance unresolved.
+- Station 11 3-2 vibration now explained as old return conduit/timing relay with one gate offline; do NOT recycle as magic mystery.
+- Greg's practical external effect remains single-result milestone only.
+- Dask controlled four-attempt comparison still not performed.
+- Oval field prohibition stands if Greg hired.
+- Transit/bridge status unchanged in Ch386; do not assume resolution.
+- Night Rest availability/price not updated in Ch386.
+- Carrow next communication unresolved.
+- All older protected threads remain unresolved unless exact authority changes them.
 
 ## Continuity issue
-- Ch360 1-bit lunch source remains unresolved. Do not invent. Copper exact **14c**.
+- Ch360 1-bit lunch source remains unresolved. Do not invent. Copper exact **15c**.
 
-## Chapter 386 trailhead
-Follow next actual claim from Ch385/current authority.
+## Chapter 387 trailhead
+Follow next actual claim from Ch386/current authority.
 
-Greg begins **14c / Vale 23c / bits unspecified**, protocol attempts **59 / 53 / 129**, plus one separate practical external-transfer milestone.
+Greg begins **15c / Vale 23c / bits unspecified**, protocol attempts **59 / 53 / 129**, plus one separate practical external-transfer milestone.
 
 Timeline:
-- tomorrow second bell: Glasswake prep day 1 for Greg + Orin, paid 1c each if completed + meal;
-- prep runs up to three days through first Glasswake night;
-- Vessa chooses one field record hand after first night;
+- tomorrow **first bell**: Glasswake prep day 2 for Greg + Orin;
+- one more prep day after that through first Glasswake night;
+- Vessa chooses field record hand after first night;
 - planned field departure morning after first night if route priority unchanged.
 
-Strong next movement: **actual crew work under strengthening Glasswake**, not another test. Give Greg and Orin different tasks that reveal job fit naturally. Let them cooperate some rather than pure rivalry. Build Vessa/Maro/Sori/Kel/Dask as traveling ensemble.
+Strong next movement:
+- Actual work again, but change function/rhythm from Ch386's record-route day.
+- Glasswake should materially intensify and become more visually/physically distinctive.
+- Greg and Orin can be assigned together for part of day so rivalry becomes working relationship under pressure.
+- Give Greg another satisfying competence win if earned, but avoid another major magic breakthrough immediately.
+- A controlled four-attempt Dask comparison could happen later, but do not force it just because promised.
+- Let crew frictions/habits deepen. One person can dislike something about Greg or prefer Orin.
 
-The user's requested scaling nudge has begun. Continue allowing Greg occasional satisfying competence/power wins, but do not immediately jump rank or make every chapter a magic breakthrough. The new external transfer can recur later under controlled or practical conditions and gradually become reliable.
-
-Potentially the strengthening Glasswake can create unusual field conditions where Greg's old-life judgment + current small magic both matter, but locals remain competent and he is not sole savior.
+Potential story turns:
+- a moving river-light or lock-prep job with real logistics;
+- crowd/freight problem caused by Glasswake conditions;
+- preparation task that exposes which candidate handles incomplete information/physical strain/team communication better;
+- possibly first meaningful disagreement between Greg and a crew member rather than everyone warming to him.
 
 Avoid:
-- instant second major power-up;
-- making Orin incompetent to hand Greg job;
-- Night Rest purchase unless market/story earns it;
 - bridge resolution;
 - returning Carrow;
-- another institutional trial chapter.
+- instant Night Rest purchase;
+- making Orin fail obviously;
+- another stationary record-route chapter;
+- another major power-up.
 
-**MANDATORY TITLE CHECK CH386:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH387:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
