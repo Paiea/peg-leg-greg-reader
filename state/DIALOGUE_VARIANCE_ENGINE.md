@@ -240,6 +240,77 @@ If not, over-attribute.
 
 This clarity bias is separate from voice variance. A scene may have excellent voice differentiation and still need explicit tags. Conversely, explicit tags do not excuse flattened character voice.
 
+## Aggressive ownership mode
+
+This is the default ownership mode for PLG dialogue review. It intentionally accepts a small amount of extra prose, repeated names, repeated `said`/`asked`, and additional paragraphing in exchange for zero-backtrack reading.
+
+### Update 1: forced re-anchor cadence
+
+Do not make the reader preserve a speaker map through interruptions.
+
+Re-anchor with an explicit name or plain attribution:
+- when a speaker enters a dialogue block for the first time;
+- when a prior speaker returns after another character has spoken and physical/narrative material intervened;
+- after a paragraph of Greg interiority or more than one sentence of non-dialogue narration interrupts the exchange;
+- after a subject shift that makes the previous turn pattern less obvious;
+- whenever a three-or-more-speaker scene has gone two consecutive spoken turns without a fresh explicit anchor and the next turn is not effortless.
+
+Two-person dialogue may still breathe without tags when the exchange is genuinely unmistakable. Three-or-more-speaker dialogue should not depend on the reader counting turns.
+
+### Update 2: one dramatic owner per paragraph
+
+Treat mixed ownership as a defect even when grammar technically permits it.
+
+A dialogue paragraph should normally belong to the person who speaks in it. Do not attach another character's reaction, look, movement, gesture, or physical business to that speaker's paragraph merely to save space.
+
+If speaker A talks and speaker B reacts, give B a separate paragraph unless there is an unusually strong reason not to. If the paragraph later returns to A, split it rather than asking the reader to reassign ownership twice inside one block.
+
+Repeated names and pronouns are cheaper than ambiguous ownership.
+
+### Update 3: orientation scaffolding may expand
+
+Local dialogue repair is allowed to add plain orienting prose around good spoken lines.
+
+When attribution alone would still leave the scene visually muddy, add the smallest useful amount of scaffolding, usually one to three short sentences or beats, to establish things such as:
+- who turned toward whom;
+- who is holding or working on the relevant object;
+- where a speaker is positioned relative to Greg or the group;
+- who a question is directed at;
+- who physically reacts before the next line;
+- which task or object a specialist is responding to.
+
+Prefer observable facts over invented emotion or hidden intent. Do not manufacture canon, mood, gestures, or characterization merely to fill space.
+
+This local expansion is not considered bloat when it removes reader bookkeeping. The old instinct to add a little writing around a crowded exchange is explicitly valid.
+
+### Update 4: decompress packed dialogue before rewriting it
+
+Dense dialogue packing is not a virtue when it hides ownership.
+
+When several speakers, actions, and Greg interior beats are compressed into one paragraph or a rapid anonymous ladder:
+1. preserve the spoken lines that already work;
+2. split the block into readable ownership units;
+3. restore plain tags;
+4. add orientation scaffolding only where needed;
+5. rewrite dialogue wording only if the rebuilt block is still confusing or out of voice.
+
+Do not compress a dialogue block during an attribution/variance repair. Do not merge clean paragraphs, strip tags, or remove orientation merely to recover the words added by a clarity fix. Clarity prose has its own budget.
+
+### Update 5: cold-read ownership gate
+
+A chapter does not pass dialogue review merely because an editor can reconstruct the exchange after close reading.
+
+Before a chapter is considered dialogue/variance reviewed, perform a cold ownership sweep on every substantial multi-turn exchange:
+- every quoted line must have an effortless speaker from local context;
+- every attached action/reaction must have an effortless owner;
+- a Greg interior interruption must not force the reader to remember an old speaker across a visual gap;
+- three-or-more-speaker scenes must survive without turn-counting;
+- no paragraph should require a reader to backtrack to discover who moved, looked, laughed, answered, or spoke.
+
+If there is a plausible moment of hesitation, repair it with the least invasive combination of tag, name, paragraph split, or orientation beat.
+
+The target is **zero ownership backtracking at normal reading speed**.
+
 ## Voice-page maintenance
 
 When a recurring character has enough manuscript evidence, their voice page may record:
