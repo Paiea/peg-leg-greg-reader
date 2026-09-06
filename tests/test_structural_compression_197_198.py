@@ -48,6 +48,26 @@ class TheatreRegularityCompressionTest(unittest.TestCase):
         self.assertIn("Good. Guard.", out198)
         self.assertIn("The guard worked.", out198)
 
+    def test_removes_generated_duplicate_hall_boundary(self):
+        hall = "At the hall, Rinna was standing just inside the front doors with a small slate in one hand and a piece of chalk in the other."
+        already_compressed = [
+            "Lyssa was gone before I woke, but she had left me the larger piece of bread. I treated this as suspicious generosity, checked my wrist once, and discovered that once was enough. The wrist and shoulder were nearly boring again.",
+            "Nothing new waited under the cup. I left it alone, ate the oversized bread, and went to work. On the way, three people were helping a cart out of a hole while four more explained why they were doing it wrong. Carrow remained fully staffed.",
+            hall,
+            hall,
+            "Until the Guild sends for you, third bell.",
+            "I had been scheduled.",
+            "Inside, Pell and Davin were fixing a wobbling bench. Pell found the missing square nut under it; Davin put it back where it belonged. The repair required less philosophy than my inspection of it.",
+            "The board initially gave me SET. Rinna pointed out that I was early only because I had arrived at my old time, which was exactly why she had made third bell official. The new schedule had survived several minutes before theatre began negotiating with it.",
+            "Teren came through carrying pages, asked where everyone was, and found me before Rinna could finish proving the system worked.",
+            "Teren looked directly at me.",
+            "Good. Guard.",
+            "The Guard had six lines until I found one about a chicken that no longer existed in the local version. Teren crossed it out. Five.",
+            "Rehearsal took eleven minutes.",
+        ]
+        out = transform_paragraphs(198, already_compressed)
+        self.assertEqual(out.count(hall), 1)
+
 
 if __name__ == "__main__":
     unittest.main()
