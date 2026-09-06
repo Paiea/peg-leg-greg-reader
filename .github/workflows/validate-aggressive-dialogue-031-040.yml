@@ -1,0 +1,113 @@
+name: Validate aggressive dialogue 031-040
+
+on:
+  push:
+    branches:
+      - integration/aggressive-dialogue-031-040-final
+    paths:
+      - '.github/workflows/validate-aggressive-dialogue-031-040.yml'
+      - 'chapters/03*.html'
+      - 'chapters/040.html'
+      - 'state/editorial/global-reports/DIALOGUE_VARIANCE_INTEGRATION_REPORT.md'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch current main
+        run: git fetch origin main:refs/remotes/origin/main
+      - name: Enforce bounded publication scope
+        run: |
+          python - <<'PY'
+          import subprocess
+          allowed = {f'chapters/{n:03d}.html' for n in range(31, 41)} | {
+              'state/editorial/global-reports/DIALOGUE_VARIANCE_INTEGRATION_REPORT.md',
+              '.github/workflows/validate-aggressive-dialogue-031-040.yml',
+          }
+          changed = set(subprocess.check_output(
+              ['git', 'diff', '--name-only', 'origin/main...HEAD'], text=True
+          ).splitlines())
+          extra = changed - allowed
+          missing = {f'chapters/{n:03d}.html' for n in range(31, 41)} - changed
+          if extra:
+              raise SystemExit('unexpected publication files: ' + ', '.join(sorted(extra)))
+          if missing:
+              raise SystemExit('missing chapter files: ' + ', '.join(sorted(missing)))
+          print('bounded publication scope passed:', len(changed), 'files')
+          PY
+      - name: Run focused dialogue ownership regressions
+        run: |
+          python scripts/apply_dialogue_ownership_semantic.py --self-test
+          python scripts/test_dialogue_ownership_rewrite.py
+          python -m unittest tests.test_dialogue_variance_integration -v
+      - name: Run strict ownership checker
+        run: python scripts/dialogue_ownership_check.py --start 31 --end 40 --strict
+      - name: Verify Chapter 31 semantic ownership repair
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          text = Path('chapters/031.html').read_text(encoding='utf-8')
+          marker = '“What’s your name?”'
+          if marker not in text:
+              raise SystemExit('Chapter 31 name-reveal marker missing')
+          before, after = text.split(marker, 1)
+          if 'Rinna said' in before:
+              raise SystemExit('Rinna attribution leaks name before Greg learns it')
+          if '<p>The woman said, </p>' in text or '<p>The woman said,</p>' in text:
+              raise SystemExit('dangling woman attribution remains')
+          if 'stone block Ressa had used' in text:
+              raise SystemExit('stale Ressa ownership reference remains')
+          if 'stone block Rinna had used' not in after:
+              raise SystemExit('correct post-reveal Rinna reference missing')
+          print('Chapter 31 semantic ownership repair passed')
+          PY
+      - name: Verify ownership rewrite is idempotent
+        run: |
+          cp chapters/{031..040}.html /tmp/
+          for pass in 1 2 3 4; do
+            python scripts/apply_dialogue_ownership_rewrite.py --start 31 --end 40
+          done
+          python - <<'PY'
+          from pathlib import Path
+          for n in range(31, 41):
+              name = f'{n:03d}.html'
+              before = Path('/tmp', name).read_text(encoding='utf-8')
+              after = Path('chapters', name).read_text(encoding='utf-8')
+              if before != after:
+                  raise SystemExit(f'ownership rewrite is not idempotent: {name}')
+          print('ownership rewrite idempotence passed for 031-040')
+          PY
+      - name: Run full repository validation
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py' -v
+          git diff --check
+          python scripts/verify_reader_frontier.py
+      - name: Validate changed prose surfaces
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          for n in range(31, 41):
+              p = Path('chapters') / f'{n:03d}.html'
+              text = p.read_text(encoding='utf-8')
+              m = re.search(r'<article\s+class="prose"[^>]*>(.*?)</article>', text, re.S | re.I)
+              if not m:
+                  raise SystemExit(f'missing prose article: {p}')
+              if '<p></p>' in m.group(1):
+                  raise SystemExit(f'empty prose paragraph: {p}')
+              prose = re.sub(r'<[^>]+>', '', m.group(1))
+              if '—' in prose:
+                  raise SystemExit(f'em dash in manuscript prose: {p}')
+          print('changed prose validation passed for 031-040')
+          PY
