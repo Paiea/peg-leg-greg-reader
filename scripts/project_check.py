@@ -6,7 +6,6 @@ from __future__ import annotations
 import argparse
 import json
 import re
-import sys
 from collections import Counter
 from pathlib import Path
 
@@ -14,8 +13,8 @@ from project_audit import (
     CHAPTER_HEADING,
     chapter_art_coverage,
     inventory_images,
-    normalize_reference,
 )
+from showcase import build_showcase_map, load_showcase_manifest
 
 
 ACTIVE_MARKDOWN_MANUSCRIPTS = {
@@ -112,10 +111,73 @@ def assets_check(root: Path) -> tuple[dict, bool]:
     return payload, not any(errors.values())
 
 
+def _canonical_chapter_numbers(root: Path) -> list[int]:
+    numbers: set[int] = set()
+
+    chapters_dir = root / "chapters"
+    if chapters_dir.exists():
+        for path in chapters_dir.glob("[0-9][0-9][0-9].html"):
+            if path.stem.isdigit():
+                numbers.add(int(path.stem))
+
+    manuscript_root = root / "state/manuscript"
+    if manuscript_root.exists():
+        for path in manuscript_root.glob("*.md"):
+            text = path.read_text(encoding="utf-8")
+            numbers.update(int(value) for value in CHAPTER_HEADING.findall(text))
+            numbers.update(
+                int(match.group(1))
+                for match in re.finditer(r"^## Chapter (\d+)\s*[—–-]", text, re.MULTILINE)
+            )
+
+    chapter_index = root / "state/MANUSCRIPT_CHAPTER_INDEX.md"
+    if chapter_index.exists():
+        text = chapter_index.read_text(encoding="utf-8")
+        numbers.update(
+            int(match.group(1))
+            for match in re.finditer(r"^(\d+)\.\s+\*\*", text, re.MULTILINE)
+        )
+
+    return sorted(numbers)
+
+
+def showcase_check(root: Path) -> tuple[dict, bool]:
+    manifest_path = root / "publishing/showcase_chapters.json"
+    canonical = _canonical_chapter_numbers(root)
+    try:
+        if not canonical:
+            raise ValueError("no canonical chapters found")
+        manifest = load_showcase_manifest(manifest_path)
+        mapping = build_showcase_map(canonical, manifest)
+    except (OSError, json.JSONDecodeError, ValueError) as exc:
+        return {
+            "check": "showcase",
+            "error": str(exc),
+        }, False
+
+    visible = len(mapping.visible_canon)
+    hidden = len(canonical) - visible
+    payload = {
+        "check": "showcase",
+        "canonical_chapters": len(canonical),
+        "visible_chapters": visible,
+        "hidden_chapters": hidden,
+        "hidden_ratio": round(hidden / len(canonical), 4),
+        "latest_canonical": canonical[-1],
+        "latest_showcase": visible,
+        "errors": {},
+    }
+    contiguous = [mapping.showcase_number(n) for n in mapping.visible_canon] == list(range(1, visible + 1))
+    if not contiguous:
+        payload["errors"]["non_contiguous_numbering"] = True
+    return payload, not payload["errors"]
+
+
 CHECKS = {
     "manuscript": manuscript_check,
     "reader": reader_check,
     "assets": assets_check,
+    "showcase": showcase_check,
 }
 
 
