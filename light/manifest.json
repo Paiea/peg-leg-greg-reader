@@ -1,5 +1,5 @@
 {
-  "latest": 448,
+  "latest": 449,
   "chapters": [
     {
       "number": 100,
@@ -2094,6 +2094,12 @@
       "title": "THE OUTRIDER",
       "source": "checkpoint",
       "path": "448.html"
+    },
+    {
+      "number": 449,
+      "title": "THE DECKHAND",
+      "source": "checkpoint",
+      "path": "449.html"
     }
   ]
 }
