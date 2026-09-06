@@ -66,6 +66,20 @@ class DialogueOwnershipNovelTests(unittest.TestCase):
         after = quoted_spans(' '.join(split_paragraph(text)))
         self.assertEqual(after, before)
 
+    def test_smart_quotes_are_recognized_as_dialogue(self):
+        text = 'Alden eventually said, “You really were bad.” I looked at him.'
+        self.assertEqual(
+            split_paragraph(text),
+            ['Alden eventually said, “You really were bad.”', 'I looked at him.'],
+        )
+
+    def test_smart_quote_dialogue_is_preserved_exactly(self):
+        text = 'Sava said, “No.” Everyone looked at her. Sava pointed at Osric.'
+        before = quoted_spans(text)
+        after_parts = split_paragraph(text)
+        self.assertEqual(after_parts, ['Sava said, “No.”', 'Everyone looked at her.', 'Sava pointed at Osric.'])
+        self.assertEqual(quoted_spans(' '.join(after_parts)), before)
+
     def test_markdown_emphasis_block_is_not_rewritten(self):
         text = '**The theatre sent somebody by for you once. He said, "Again?" like this was my fault. I told him no. He left.**'
         transformed, splits = _transform_markdown_body(text)
