@@ -37,11 +37,21 @@ jobs:
           from pathlib import Path
           path = Path('scripts/apply_economy_normalization_live.py')
           text = path.read_text(encoding='utf-8')
-          bad = '''replace_exact(p, '\"I said, \\\"My fee only if fourth completes and total reaches one silver two.\\\"\"', '\"I said, \\\"My fee only if fourth completes and total reaches eight silver.\\\"\"')'''
-          good = '''replace_exact(p, 'I said, "My fee only if fourth completes and total reaches one silver two."', 'I said, "My fee only if fourth completes and total reaches eight silver."')'''
-          if bad not in text:
-              raise SystemExit('DRIFT: one-shot script no longer contains expected Ch484 assertion')
-          path.write_text(text.replace(bad, good), encoding='utf-8')
+          patches = [
+              (
+                  '''replace_exact(p, '\"I said, \\\"My fee only if fourth completes and total reaches one silver two.\\\"\"', '\"I said, \\\"My fee only if fourth completes and total reaches eight silver.\\\"\"')''',
+                  '''replace_exact(p, 'I said, "My fee only if fourth completes and total reaches one silver two."', 'I said, "My fee only if fourth completes and total reaches eight silver."')'''
+              ),
+              (
+                  '''replace_exact(p, '\"Completion fee?\"\\n\\n\"Still ten copper.\"', '\"Completion fee?\"\\n\\n\"Still twelve silver.\"')''',
+                  '''replace_exact(p, '“Completion fee?”\\n\\n“Still ten copper.”', '“Completion fee?”\\n\\n“Still twelve silver.”')'''
+              ),
+          ]
+          for old, new in patches:
+              if old not in text:
+                  raise SystemExit(f'DRIFT: one-shot script no longer contains expected assertion: {old[:80]}')
+              text = text.replace(old, new)
+          path.write_text(text, encoding='utf-8')
           PY
           python scripts/apply_economy_normalization_live.py
       - name: Run reader tooling tests
