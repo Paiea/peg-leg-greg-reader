@@ -1,0 +1,107 @@
+name: Publish aggressive dialogue ownership 031-040
+
+on:
+  push:
+    branches:
+      - integration/aggressive-dialogue-031-040-live
+    paths:
+      - '.github/workflows/dialogue-aggressive-031-040-live.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  replay-and-validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch approved dialogue authority
+        run: git fetch origin editor/voice-compression-pass:refs/remotes/origin/editor/voice-compression-pass
+      - name: Run focused ownership and integration tests
+        run: |
+          python scripts/apply_dialogue_ownership_semantic.py --self-test
+          python scripts/test_dialogue_ownership_rewrite.py
+          python -m unittest tests.test_dialogue_variance_integration -v
+      - name: Replay exact approved patches through Chapter 40 only
+        run: python scripts/dialogue_variance_integration.py --patch-ref origin/editor/voice-compression-pass --min-chapter 31 --max-chapter 40 --write
+      - name: Snapshot prose after approved replay
+        run: |
+          mkdir -p /tmp/dialogue-before
+          cp chapters/{031..040}.html /tmp/dialogue-before/
+      - name: Apply ownership rewrite boundaries to convergence
+        run: |
+          for pass in 1 2 3 4; do
+            python scripts/apply_dialogue_ownership_rewrite.py --start 31 --end 40
+          done
+      - name: Verify rewrite preserved exact prose text
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          def article(text):
+              return text.split('<article class="prose">', 1)[1].split('</article>', 1)[0]
+          def flat_prose(text):
+              prose = article(text).replace('</p><p>', ' ').replace('<p>', '').replace('</p>', '')
+              return re.sub(r'\s+', ' ', prose).strip()
+          for n in range(31, 41):
+              name = f'{n:03d}.html'
+              before = Path('/tmp/dialogue-before', name).read_text(encoding='utf-8')
+              after = Path('chapters', name).read_text(encoding='utf-8')
+              assert '<p></p>' not in after, f'empty paragraph: {name}'
+              assert flat_prose(after) == flat_prose(before), f'ownership rewrite changed prose text: {name}'
+          print('verified exact prose preservation for 031-040')
+          PY
+      - name: Enforce bounded file scope
+        run: |
+          python - <<'PY'
+          import subprocess
+          allowed = {f'chapters/{n:03d}.html' for n in range(31,41)} | {
+              'state/editorial/global-reports/DIALOGUE_VARIANCE_INTEGRATION_REPORT.md',
+              '.github/workflows/dialogue-aggressive-031-040-live.yml',
+          }
+          changed = set(subprocess.check_output(['git','diff','--name-only','HEAD'], text=True).splitlines())
+          extra = changed - allowed
+          if extra:
+              raise SystemExit('unexpected rollout files: ' + ', '.join(sorted(extra)))
+          print('bounded scope passed:', len(changed), 'working-tree files')
+          PY
+      - name: Full repository validation
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py' -v
+          git diff --check
+          python scripts/verify_reader_frontier.py
+      - name: Validate changed prose
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          for n in range(31,41):
+              p = Path('chapters') / f'{n:03d}.html'
+              text = p.read_text(encoding='utf-8')
+              m = re.search(r'<article\s+class="prose"[^>]*>(.*?)</article>', text, re.S|re.I)
+              if not m:
+                  raise SystemExit(f'missing prose article: {p}')
+              prose = re.sub(r'<[^>]+>', '', m.group(1))
+              if '—' in prose:
+                  raise SystemExit(f'em dash in manuscript prose: {p}')
+          print('changed prose validation passed')
+          PY
+      - name: Commit validated Chapter 31-40 result
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add chapters/031.html chapters/032.html chapters/033.html chapters/034.html chapters/035.html chapters/036.html chapters/037.html chapters/038.html chapters/039.html chapters/040.html state/editorial/global-reports/DIALOGUE_VARIANCE_INTEGRATION_REPORT.md
+          if git diff --cached --quiet; then
+            echo "No Chapter 31-40 dialogue changes to commit."
+            exit 0
+          fi
+          git commit -m "Apply dialogue ownership through chapter 40"
+          git push origin HEAD:integration/aggressive-dialogue-031-040-live
