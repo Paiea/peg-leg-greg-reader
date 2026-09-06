@@ -3,8 +3,8 @@
 Generated review surface only. This file does not authorize automatic manuscript mutation.
 A candidate means dialogue and another character-shaped beat coexist in one paragraph. Human semantic review decides whether ownership actually changes.
 
-Total focused candidates: 285
-Counts: 001=11, 002=1, 003=21, 004=0, 005=10, 006=20, 007=22, 008=24, 009=30, 010=42, 011=26, 012=29, 013=41, 014=6, 015=2, 016=0, 017=0, 018=0, 019=0, 020=0
+Total focused candidates: 284
+Counts: 001=11, 002=1, 003=21, 004=0, 005=10, 006=20, 007=22, 008=24, 009=30, 010=42, 011=25, 012=29, 013=41, 014=6, 015=2, 016=0, 017=0, 018=0, 019=0, 020=0
 
 ## Chapter 001 (11 candidates)
 
@@ -931,7 +931,7 @@ Counts: 001=11, 002=1, 003=21, 004=0, 005=10, 006=20, 007=22, 008=24, 009=30, 01
 - CURR: "Excellent. Somewhere between." He found paper. I smiled.
 - NEXT: There it was again. A problem with edges. Two days of Arlo's time. Six silver, perhaps. A gauge. A workshop. No question about what Greg should become. No new career. No build. Just:
 
-## Chapter 011 (26 candidates)
+## Chapter 011 (25 candidates)
 
 ### P54
 - PREV: "Against what?"
@@ -953,112 +953,107 @@ Counts: 001=11, 002=1, 003=21, 004=0, 005=10, 006=20, 007=22, 008=24, 009=30, 01
 - CURR: "Work." I took it. The paper contained an address and two words.
 - NEXT: PICK UP.
 
-### P125
-- PREV: "Antonius is busy."
-- CURR: "Difference?" Rusk turned toward the stairs.
-- NEXT: "Wait."
-
-### P140
+### P141
 - PREV: He left. The address belonged to a glass merchant named Vennel, who had apparently defaulted on a short-term note and agreed to surrender three crates of imported alchemical glass as partial payment. This sounded interesting. It was not. The crates were heavy. That was the entire problem Antonius had assigned me. A cart waited outside. Vennel's assistant pointed toward the back.
 - CURR: "Those." I inspected them.
 - NEXT: "Any reactive residue?"
 
-### P149
+### P150
 - PREV: "No."
 - CURR: "Fragile?" He stared at me.
 - NEXT: "Glass."
 
-### P156
+### P157
 - PREV: Hessa had said tomorrow maybe. Today was tomorrow. Technically. I put the crate down. The assistant said, "Problem?"
 - CURR: "No." I looked at the cart. Barrier. Small. Momentary. Could brace the lower edge while I changed grip. Useful? Barely. Necessary?
 - NEXT: No.
 
-### P194
+### P195
 - PREV: "How much?"
 - CURR: "Oil." Antonius looked at Rusk. Rusk said, "Magic." Antonius looked back at me.
 - NEXT: "You did magic?"
 
-### P207
+### P208
 - PREV: Antonius handed me another paper.
 - CURR: "Good." He handed me another paper.
 - NEXT: I looked at it.
 
-### P239
+### P240
 - PREV: "That's exactly what you'd say."
 - CURR: "I'm paying you for work I asked you to do outside the labor attached to your debt." I considered. Simple. Suspiciously simple.
 - NEXT: "You want me to give it to Arlo."
 
-### P262
+### P263
 - PREV: "No."
 - CURR: "Then how much?" Arlo glared.
 - NEXT: I smiled. He had walked into that.
 
-### P282
+### P283
 - PREV: I sat on the edge of his worktable. Arlo immediately shoved me off.
 - CURR: "Chair." I took the chair.
 - NEXT: "The gauge has value in your hands," I said. "Not mine. If you can learn from it, we both learn whether the thing I bought is actually worth anything. You lose two days. I cover two days."
 
-### P345
+### P346
 - PREV: Her eyes dropped to my right hand. There was no mark. Still she knew.
 - CURR: "Show me." I held it out. She pressed the wrist. Waited. Her mouth tightened.
 - NEXT: "Idiot."
 
-### P356
+### P357
 - PREV: I had reduced the Barrier size but given it a job. Different load. I knew that. Old Greg knew that. Present Greg had apparently decided smaller meant cheaper in all dimensions. It did not.
 - CURR: "Interesting," I said. Hessa slapped my hand.
 - NEXT: "Ow."
 
-### P361
+### P362
 - PREV: "Leave."
 - CURR: "No." She stared.
 - NEXT: I sat on the mat.
 
-### P402
+### P403
 - PREV: "Fine."
 - CURR: I gathered mana. Slower today. Strain. Not damage. Important. Thread. Palm. This time I did not imagine a shield. That word was part of the problem. Shield implied purpose before shape. I imagined a boundary. A circle no wider than a copper coin. Plane. Thin. Do not compress more than necessary. Hessa said, "Slow." I slowed. The mana wanted to spread. Habit from training.
 - NEXT: I kept it small. Release. A tiny distortion appeared above my palm. It was almost invisible. I grinned.
 
-### P424
+### P425
 - PREV: "Very specific."
 - CURR: "No sword with Barrier." I had not thought of that yet. Now I had. She saw it happen.
 - NEXT: "Fuck."
 
-### P537
+### P538
 - PREV: "Lesson is over."
 - CURR: "Yes." I stood. Then noticed the cup on her shelf. Small clay cup. I smiled.
 - NEXT: Hessa followed my eyes.
 
-### P551
+### P552
 - PREV: "No."
 - CURR: "Then?" She flicked it. The coin spun through the air.
 - NEXT: "Put the Barrier where it will pass."
 
-### P579
+### P580
 - PREV: The possibilities arrived all at once. Too many. Beautiful. Dangerous. Hessa saw my face.
 - CURR: "Greg." I looked at her.
 - NEXT: "One thing," she said.
 
-### P602
+### P603
 - PREV: "You have more."
 - CURR: "Because I don't use it as magical targets." I followed him toward the desk.
 - NEXT: "I can redirect a coin."
 
-### P608
+### P609
 - PREV: "Do you understand what that means?"
 - CURR: "That you can protect yourself from very poor assassins." I stopped.
 - NEXT: He kept walking.
 
-### P622
+### P623
 - PREV: "Change what?"
 - CURR: "Direction. Contact. Timing. Maybe pressure later. If I make it small enough and place it correctly, I don't need enough mana to overpower the whole force." Antonius considered. Unlike Hessa, he did not care about magical orthodoxy. Unlike Arlo, he did not care how the mechanism worked. He asked, "Useful?"
 - NEXT: "Eventually."
 
-### P631
+### P632
 - PREV: He opened his ledger. I should have left. Instead
 - CURR: I said, "Do you have anything magical that needs moving?" His pen stopped. Slowly.
 - NEXT: "No."
 
-### P646
+### P647
 - PREV: I considered the glass crate.
 - CURR: "Somewhat." Antonius returned to his ledger. Then said, "The salvager came back." Everything in me changed. I hated that he noticed.
 - NEXT: "The gauntlet?"
