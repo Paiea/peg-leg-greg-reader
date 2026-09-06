@@ -1,5 +1,6 @@
 name: Build dialogue ownership audit
 
+# Manual refresh marker: regenerate derived review surfaces after the reviewed 001-014 hotfix.
 on:
   push:
     branches:
