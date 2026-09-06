@@ -33,6 +33,16 @@ class ShowcaseTests(unittest.TestCase):
         self.assertEqual(mapping.next_visible(2), 4)
         self.assertEqual(mapping.previous_visible(4), 2)
 
+    def test_missing_canonical_chapter_is_navigation_break_not_a_showcase_skip(self):
+        mapping = build_showcase_map([1, 2, 4], {
+            'version': 1,
+            'mode': 'whole_chapter_only',
+            'default': 'visible',
+            'chapters': {},
+        })
+        self.assertIsNone(mapping.next_visible(2))
+        self.assertIsNone(mapping.previous_visible(4))
+
     def test_invalid_reason_is_rejected(self):
         with self.assertRaisesRegex(ValueError, 'unsupported reason'):
             build_showcase_map([1], {
@@ -59,6 +69,13 @@ class ShowcaseTests(unittest.TestCase):
                 'default': 'visible',
                 'chapters': {'9': {'showcase': False, 'reason': 'pacing'}},
             })
+
+    def test_missing_manifest_defaults_to_visible_for_backward_compatible_builds(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / 'showcase.json'
+            manifest = load_showcase_manifest(path)
+            self.assertEqual(manifest['default'], 'visible')
+            self.assertEqual(manifest['chapters'], {})
 
     def test_loader_rejects_bad_mode(self):
         with tempfile.TemporaryDirectory() as tmp:
