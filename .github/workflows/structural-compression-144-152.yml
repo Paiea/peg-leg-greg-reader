@@ -46,7 +46,7 @@ jobs:
               assert 'STRUCTURAL-COMPRESSION-144-152:146-TIGHTEN' in pages[146]
               assert 'STRUCTURAL-COMPRESSION-144-152:147-TIGHTEN' in pages[147]
               assert 'LIAR' in pages[146] and 'WHICH ONE?' in pages[146]
-              assert 'waiting for ghosts' in pages[147]
+              assert 'Waiting for ghosts' in pages[147]
               assert 'STRUCTURAL-COMPRESSION-144-152:149-BRIDGE' in pages[149]
               assert 'data-structural-status="merged"' in pages[150]
               assert 'STRUCTURAL-COMPRESSION-144-152:151-INTRO' in pages[151]
