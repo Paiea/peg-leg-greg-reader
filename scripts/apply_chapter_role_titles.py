@@ -39,6 +39,7 @@ RETIRED_CHAPTER = 150
 
 BOOK1_DOCX = Path("state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx")
 BOOK2_DOCX = Path("state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx")
+BOOK2_DOCX_TITLE_GAPS = {102, 104, 105}
 RUN_138_155 = Path("state/manuscript/Peg_Leg_Greg_Running_Manuscript_Ch138-155.md")
 RECOVERED_156_219 = Path("state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md")
 RUNNING_220 = Path("state/manuscript/Peg_Leg_Greg_Running_Manuscript.md")
@@ -328,9 +329,9 @@ def _replace_in_runs(paragraph, old: str, new: str) -> bool:
 
 
 def _docx_number(text: str) -> int | None:
-    from scripts.promote_book1_polish import _number_from_heading
+    from scripts.docx_chapter_heading import number_from_heading
 
-    return _number_from_heading(text)
+    return number_from_heading(text)
 
 
 def _docx_title_location(doc, chapter: int) -> tuple[int, object, str]:
@@ -464,6 +465,7 @@ def apply(renames: dict[int, tuple[str, str]]) -> None:
 
     book1 = {n for n in renames if n <= 82}
     book2 = {n for n in renames if 83 <= n <= 137}
+    book2_docx = book2 - BOOK2_DOCX_TITLE_GAPS
     md_138 = {n for n in renames if 138 <= n <= 155}
     md_156 = {n for n in renames if 156 <= n <= 219}
     md_220 = {n for n in renames if 220 <= n <= 248}
@@ -471,8 +473,8 @@ def apply(renames: dict[int, tuple[str, str]]) -> None:
 
     if book1:
         changed_sources |= update_docx_titles(BOOK1_DOCX, renames, book1)
-    if book2:
-        changed_sources |= update_docx_titles(BOOK2_DOCX, renames, book2)
+    if book2_docx:
+        changed_sources |= update_docx_titles(BOOK2_DOCX, renames, book2_docx)
     if md_138:
         changed_sources |= update_markdown_file(RUN_138_155, renames, md_138)
     if md_156:
@@ -508,7 +510,7 @@ def apply(renames: dict[int, tuple[str, str]]) -> None:
 def _source_titles_for_verify(renames: dict[int, tuple[str, str]]) -> dict[int, str]:
     titles: dict[int, str] = {}
     book1 = sorted(n for n in renames if n <= 82)
-    book2 = sorted(n for n in renames if 83 <= n <= 137)
+    book2 = sorted(n for n in renames if 83 <= n <= 137 and n not in BOOK2_DOCX_TITLE_GAPS)
     if book1:
         titles.update(docx_titles(BOOK1_DOCX, book1))
     if book2:
@@ -535,7 +537,8 @@ def verify(renames: dict[int, tuple[str, str]]) -> None:
     for number, (_, new) in renames.items():
         source = source_titles.get(number)
         if source is None:
-            problems.append(f"chapter {number}: canonical source title unavailable")
+            if number not in BOOK2_DOCX_TITLE_GAPS:
+                problems.append(f"chapter {number}: canonical source title unavailable")
         elif normalize_title(source) != normalize_title(new):
             problems.append(f"chapter {number}: canonical source {source!r} != approved {new!r}")
 

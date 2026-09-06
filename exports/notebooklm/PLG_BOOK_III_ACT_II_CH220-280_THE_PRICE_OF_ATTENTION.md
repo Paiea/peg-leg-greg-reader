@@ -5397,7 +5397,7 @@ Some problems deserved preparation.
 
 # CHAPTER 226
 
-## THE REFERENCE
+## THE SUBJECT
 
 The note was not under the cup.
 
@@ -10001,7 +10001,7 @@ For once, that was its only job.
 
 # CHAPTER 230
 
-## THE REPLICATE
+## THE REPEATER
 
 The note was under the door.
 
@@ -12513,7 +12513,7 @@ I took the other piece.
 
 It had more of the sharp spread on it anyway.
 
-## Chapter 232 — THE COUNTERSIGN
+## Chapter 232 — THE CHECKER
 
 The black coat was still on the chair when I woke.
 
@@ -13611,7 +13611,7 @@ So did I.
 
 # CHAPTER 233
 
-## THE SEAT
+## THE STAGEHAND
 
 The dark sleeve was gone in the morning.
 
@@ -14567,7 +14567,7 @@ It remained a poor reward for good behavior.
 
 # CHAPTER 234
 
-## THE CONDITION
+## THE SUBJECT
 
 Rinna had said no.
 
@@ -21161,7 +21161,7 @@ It was almost enough to make waiting feel like a job.
 
 # CHAPTER 240
 
-## THE SAMPLE
+## THE SUBJECT
 
 Hessa's note was under the door.
 
@@ -45625,7 +45625,7 @@ Good.
 
 # CHAPTER 262
 
-## THE MEASURE
+## THE CONSULTANT
 
 Mara's brother arrived before I had finished breakfast.
 
@@ -48982,7 +48982,7 @@ I liked the difference.
 
 # CHAPTER 265
 
-## THE CONTROL
+## THE SUBJECT
 
 Hessa's note arrived while I was eating yesterday's bakery bread.
 
@@ -51048,7 +51048,7 @@ The world was getting stranger without becoming less ordinary.
 
 # CHAPTER 267
 
-## THE ERRAND
+## THE COURIER
 
 Bread became my problem before breakfast.
 
@@ -55258,7 +55258,7 @@ I slept early anyway.
 
 # CHAPTER 271
 
-## THE DISTANCE
+## THE SUBJECT
 
 I woke rested enough to qualify.
 
@@ -56574,7 +56574,7 @@ For once, I knew the difference before Hessa had to tell me.
 
 # CHAPTER 272
 
-## THE QUEUE
+## THE WATER BEARER
 
 The next morning, the water stopped.
 
@@ -60876,7 +60876,7 @@ Mella already knew the rest.
 
 # CHAPTER 276
 
-## THE MASK
+## THE MASKED GUEST
 
 The theatre sent Lenn before breakfast was finished.
 
@@ -66068,7 +66068,7 @@ But it was the first time the question had paid me back.
 
 # CHAPTER 280
 
-## THE REPEAT
+## THE REPEATER
 
 Hessa's note arrived inside a cabbage leaf.
 

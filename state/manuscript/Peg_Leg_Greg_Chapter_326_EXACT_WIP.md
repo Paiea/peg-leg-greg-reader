@@ -1,6 +1,6 @@
 # CHAPTER 326
 
-## THE LOT
+## THE BUYER
 
 Three copper bought me the right to make a bad decision with confidence.
 

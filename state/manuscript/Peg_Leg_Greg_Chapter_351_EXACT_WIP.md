@@ -1,6 +1,6 @@
 # CHAPTER 351
 
-## THE DARK LINE
+## THE HELPER
 
 The flat line died halfway through a sleeve.
 

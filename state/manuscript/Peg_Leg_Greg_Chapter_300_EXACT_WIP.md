@@ -1,6 +1,6 @@
 # CHAPTER 300
 
-## THE BLUE HORSE
+## THE MINDER
 
 After Mera left with Lyssa's cloth, Tavi discovered that the room was too small for his ambitions.
 

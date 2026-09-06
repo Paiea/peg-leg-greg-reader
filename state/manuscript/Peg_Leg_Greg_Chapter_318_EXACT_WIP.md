@@ -1,6 +1,6 @@
 # CHAPTER 318
 
-## THE EMPTY PEG
+## THE PASSENGER
 
 The problem with the return trip was that somebody else had not returned.
 

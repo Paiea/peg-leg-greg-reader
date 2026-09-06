@@ -1,6 +1,6 @@
 # CHAPTER 314
 
-## THE DRY HOUR
+## THE WATER BEARER
 
 The water stopped while I was washing one spoon.
 

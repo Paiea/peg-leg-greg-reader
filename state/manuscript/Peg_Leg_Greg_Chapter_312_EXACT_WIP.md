@@ -1,6 +1,6 @@
 # CHAPTER 312
 
-## THE MARKED THIRD
+## THE SUBJECT
 
 Hessa's note arrived before breakfast.
 

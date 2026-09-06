@@ -5403,7 +5403,7 @@ Some problems deserved preparation.
 
 # CHAPTER 226
 
-## THE REFERENCE
+## THE SUBJECT
 
 The note was not under the cup.
 
@@ -10007,7 +10007,7 @@ For once, that was its only job.
 
 # CHAPTER 230
 
-## THE REPLICATE
+## THE REPEATER
 
 The note was under the door.
 
@@ -12519,7 +12519,7 @@ I took the other piece.
 
 It had more of the sharp spread on it anyway.
 
-## Chapter 232 — THE COUNTERSIGN
+## Chapter 232 — THE CHECKER
 
 The black coat was still on the chair when I woke.
 
@@ -13617,7 +13617,7 @@ So did I.
 
 # CHAPTER 233
 
-## THE SEAT
+## THE STAGEHAND
 
 The dark sleeve was gone in the morning.
 
@@ -14573,7 +14573,7 @@ It remained a poor reward for good behavior.
 
 # CHAPTER 234
 
-## THE CONDITION
+## THE SUBJECT
 
 Rinna had said no.
 
@@ -21167,7 +21167,7 @@ It was almost enough to make waiting feel like a job.
 
 # CHAPTER 240
 
-## THE SAMPLE
+## THE SUBJECT
 
 Hessa's note was under the door.
 

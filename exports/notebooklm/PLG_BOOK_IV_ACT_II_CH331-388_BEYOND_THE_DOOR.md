@@ -6,7 +6,7 @@
 
 # CHAPTER 331
 
-## THE MARKER FIELD
+## THE SURVEYOR
 
 Antonius paid three copper to spend half a day arguing with posts.
 
@@ -1120,7 +1120,7 @@ Tomorrow's problem could wait until tomorrow.
 
 # CHAPTER 332
 
-## THE HOUSING
+## THE CLIENT
 
 Five copper was enough money to become irresponsible in more interesting ways.
 
@@ -2314,7 +2314,7 @@ I suspected this hobby was going to be terrible for my finances.
 
 # CHAPTER 333
 
-## THE FAR POINT
+## THE SUBJECT
 
 Hessa sent for me three days after Mara told me not to open the holdfast.
 
@@ -3298,7 +3298,7 @@ I liked that better.
 
 # CHAPTER 334
 
-## HOUSE LEFT
+## THE SPECTATOR
 
 Theatre looked different when nobody wanted me to move anything.
 
@@ -4404,7 +4404,7 @@ That might have been the strangest part.
 
 # CHAPTER 335
 
-## THE BLUE HARNESS
+## THE ASPIRANT
 
 The first thing I wanted badly enough to become ambitious about cost twenty-six copper.
 
@@ -5544,7 +5544,7 @@ Now I had something to aim above.
 
 # CHAPTER 336
 
-## THE BID LINE
+## THE SPECTATOR
 
 I arrived at Warehouse Twelve with two copper and the emotional confidence of a man attending an auction he could not influence.
 
@@ -6432,7 +6432,7 @@ Not too much.
 
 # CHAPTER 337
 
-## THE RED PATH
+## THE SHOPPER
 
 The next morning, Cala sent me to buy onions.
 
@@ -7284,7 +7284,7 @@ That felt more like a life than a plan.
 
 # CHAPTER 338
 
-## THE PUBLIC COUNTER
+## THE BROWSER
 
 I arrived after first bell with the black chit in my bag and no idea what it was for.
 
@@ -8632,7 +8632,7 @@ Which was, for the moment, the smartest thing I knew how to do with it.
 
 # CHAPTER 339
 
-## THE SECOND VOICE
+## THE TESTER
 
 The next thing I bought was nothing.
 
@@ -9542,7 +9542,7 @@ I went downstairs before I wrote it down.
 
 # CHAPTER 340
 
-## THE MOVING LINE
+## THE SUBJECT
 
 Hessa's note arrived folded around a piece of string.
 
@@ -10682,7 +10682,7 @@ I disliked that thought less than expected.
 
 # CHAPTER 341
 
-## THE LONG MILE
+## THE INVESTIGATOR
 
 Cala's cousin arrived with a cart, a cracked wheel rim, and a problem that lived eight miles outside Carrow.
 
@@ -11998,7 +11998,7 @@ I was still capable of not teaching children accidental philosophy.
 
 # CHAPTER 342
 
-## THE HOUSE LINE
+## THE PLAYER
 
 The theatre finally offered me money.
 
@@ -13066,7 +13066,7 @@ Also I was tired.
 
 # CHAPTER 343
 
-## THE DUE DATE
+## THE DEBTOR
 
 Vale sent me a bill the morning after I earned money.
 
@@ -15022,7 +15022,7 @@ For one night, money was the most active artifact I owned.
 
 # CHAPTER 345
 
-## THE BENCH
+## THE CLIENT
 
 I paid Mara two copper because I had finally reached the dangerous financial condition known as having enough money to ask a question properly.
 
@@ -16026,7 +16026,7 @@ That was what information was supposed to do before it became knowledge.
 
 # CHAPTER 346
 
-## THE PASSING POINT
+## THE SUBJECT
 
 Hessa sent no note.
 
@@ -21833,7 +21833,7 @@ That was different from wanting to be lucky.
 
 # CHAPTER 351
 
-## THE DARK LINE
+## THE HELPER
 
 The flat line died halfway through a sleeve.
 
@@ -22759,7 +22759,7 @@ Apparently that was allowed.
 
 # CHAPTER 352
 
-## THE COUNT
+## THE COUNTER
 
 Money came the next morning.
 
@@ -23988,7 +23988,7 @@ Today had paid.
 
 # CHAPTER 353
 
-## THE BAD LANTERN
+## THE BUYER
 
 Eight copper was enough money to become annoying.
 
@@ -24894,7 +24894,7 @@ It was the right kind of darkness.
 
 # CHAPTER 354
 
-## THE HIGH SHELF
+## THE CUSTODIAN
 
 The problem with putting dangerous things out of a child's reach was that children considered reach a temporary condition.
 
@@ -25952,7 +25952,7 @@ Not everything in the house belonged to my system.
 
 # CHAPTER 355
 
-## THE BORROWED LAMP
+## THE TESTER
 
 The lamp found me before I found the lamp.
 
@@ -26900,7 +26900,7 @@ I left it.
 
 # CHAPTER 356
 
-## THE BLUE HOUR
+## THE COMPANION
 
 The fog came in speaking with other people's voices.
 
@@ -27858,7 +27858,7 @@ I liked that better.
 
 # CHAPTER 357
 
-## THE GOOD COAT
+## THE ADVISER
 
 Lyssa wanted a coat.
 
@@ -28728,7 +28728,7 @@ Just room for one.
 
 # CHAPTER 358
 
-## THE HANGING ROAD
+## THE CROSSER
 
 The bridge lifted while I was on it.
 
@@ -29784,7 +29784,7 @@ And somehow that still counted as a full day.
 
 # CHAPTER 359
 
-## THE REFUSAL
+## THE FREE AGENT
 
 The first real offer I got from South Quay was worse than no offer.
 
@@ -30870,7 +30870,7 @@ Not every good offer had to become my life just because it was good.
 
 # CHAPTER 360
 
-## THE WRONG TAG
+## THE VERIFIER
 
 North Secondary looked healthier from a distance.
 

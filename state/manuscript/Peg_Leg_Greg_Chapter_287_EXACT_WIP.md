@@ -1,6 +1,6 @@
 # CHAPTER 287
 
-## THE CARRYING LIGHT
+## THE OBSERVER
 
 The next morning I needed a new piece of paper.
 

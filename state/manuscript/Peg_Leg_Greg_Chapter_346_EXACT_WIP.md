@@ -1,6 +1,6 @@
 # CHAPTER 346
 
-## THE PASSING POINT
+## THE SUBJECT
 
 Hessa sent no note.
 

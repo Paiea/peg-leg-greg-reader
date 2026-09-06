@@ -1,6 +1,6 @@
 # CHAPTER 305
 
-## THE CLEAR LANE
+## THE GUIDE
 
 The first mirrorhorn I ever saw nearly got me killed because I drew a sword.
 

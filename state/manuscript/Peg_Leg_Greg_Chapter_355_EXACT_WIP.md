@@ -1,6 +1,6 @@
 # CHAPTER 355
 
-## THE BORROWED LAMP
+## THE TESTER
 
 The lamp found me before I found the lamp.
 
