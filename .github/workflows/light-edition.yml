@@ -13,6 +13,7 @@ on:
       - 'state/LIGHT_EDITION_STATE.md'
       - 'state/PROJECT_STATE.md'
       - 'state/READER_DESIGN_LAB.md'
+      - 'state/IMAGE_PRODUCTION.md'
       - 'state/editorial/DIALOGUE_VARIANCE_PASS_STATE.md'
       - 'state/editorial/dialogue-variance-pass/**'
       - 'state/visual/SCENE_CANDIDATES.json'
