@@ -12,7 +12,7 @@ This is the second-pass dialogue sweep governed by `state/DIALOGUE_VARIANCE_ENGI
 
 It is intentionally separate from the older dialogue/attribution pass.
 
-The older pass answers speaker clarity, attribution, referent continuity, and baseline voice questions. This pass asks whether Greg's compressed dry comic register has leaked into the cast, whether relationship/state/scene pressure changes speech naturally, whether strangers are too optimized, whether specialists speak from their own responsibilities, and whether productive imperfection survives editing.
+The older pass answers speaker clarity, attribution, referent continuity, and baseline voice questions. This pass asks whether Greg's compressed dry comic register has leaked into the cast, whether relationship/state/scene pressure changes speech naturally, whether strangers are too optimized, whether specialists speak from their own responsibilities, whether productive imperfection survives editing, and whether spoken exchanges remain physically and visually clear on the page.
 
 ## Authority layering
 
@@ -29,6 +29,67 @@ A prior dialogue-pass `REVIEWED` marker does **not** count as variance coverage.
 **SPOKEN MOMENT = BASE VOICE + RELATIONSHIP + CURRENT STATE + SCENE PRESSURE + SMALL HUMAN VARIANCE**
 
 Greg remains the gravitational center of short dry compressed comic reduction. Other characters may be funny, dry, clever, sarcastic, or terse. The goal is asymmetry, not dullness.
+
+## Dialogue ownership and local rewrite rule
+
+Dialogue clarity is judged by the finished reading experience, not by preservation of an inherited paragraph shape.
+
+Treat the **current spoken dialogue as the default anchor**. Preserve what the characters are actually saying unless the line itself is confusing, out of voice, redundant, or otherwise requires repair. The surrounding scaffolding is more disposable.
+
+For each spoken exchange:
+
+1. Identify the speaker of every quoted line.
+2. Identify the owner of every attached action, reaction, look, gesture, movement, and interior beat.
+3. Prefer **one clear dramatic owner per dialogue paragraph**.
+4. An action or reaction belonging to another character should normally receive its own paragraph rather than riding inside the current speaker's paragraph.
+5. Same-speaker tags and actions may remain attached when they read naturally.
+6. Greg's first-person narration or interior reaction should not be allowed to make another character's dialogue paragraph visually ambiguous.
+
+Do **not** preserve a muddled paragraph merely because its individual sentences are technically grammatical.
+
+### Repair order
+
+Use the least invasive repair that produces effortless ownership clarity:
+
+**A. Obvious ownership:** split paragraphs, restore or clarify a tag, move an action beat, or reattach the beat to its actual owner.
+
+**B. Tangled but dialogue is good:** keep the existing spoken lines as the base and **rewrite the local prose around them**. Rebuild tags, actions, reactions, transitions, and paragraph breaks as needed so the exchange reads naturally and every beat has an obvious owner.
+
+**C. Still ambiguous after rebuilding the scaffolding:** rewrite the **smallest necessary portion of dialogue** as well. Preserve scene intent, information, joke, relationship state, outcome, and character voice. Do not protect exact wording at the expense of readability.
+
+This is a local dialogue-block rewrite permission, not permission for unrelated scene rewriting.
+
+### What this rule is meant to prevent
+
+Avoid constructions where one paragraph visually belongs to a speaker but silently accumulates other characters' actions before returning to that speaker, for example the structural shape:
+
+`"Question?" Antonius asked. I answered internally or acted. Jorren laughed. Antonius moved. "Next question?"`
+
+Even when a reader can eventually infer every referent, that paragraph asks them to keep reassigning ownership while reading. Split or rebuild it.
+
+Likewise, avoid shapes such as:
+
+`"You," I said. She stared. I smiled.`
+
+when the reaction belongs to a different character. The dialogue can remain unchanged while the action beats are given clear paragraph ownership.
+
+### Preservation hierarchy
+
+When repairing dialogue ownership, preserve in this order:
+
+1. canon and scene outcome;
+2. character intent and relationship state;
+3. information conveyed;
+4. character voice and joke/comic function;
+5. spoken dialogue wording when it still works;
+6. surrounding tags/actions/prose wording;
+7. inherited paragraph boundaries.
+
+Paragraph boundaries have no authority of their own.
+
+### Scope guardrail
+
+Do not use an ownership repair as an excuse to compress the chapter, restructure the scene, add new canon, manufacture characterization, or polish unrelated prose. If the spoken exchange works, build around it rather than redesigning it.
 
 ## Sequential coverage ledger
 
@@ -122,6 +183,8 @@ Durable chapter-level findings and exact replacement prose remain preserved in t
 - A specialist's funniest line often comes from jurisdiction: shop floor, chair joints, route, bay board, wound restriction, or other owned responsibility.
 - `You looked` is healthy when the object/action is explicit; the weak form is an unspecified face standing in for an exact hidden sentence.
 - Crowded service scenes naturally resist compression because incomplete problems, competing incentives, and local ignorance create useful social friction.
+- Dialogue ownership is a reading-clarity problem, not merely an attribution-tag problem.
+- Preserve good spoken lines and rebuild the prose around them before rewriting the lines themselves.
 
 ## Guardrails
 
@@ -145,11 +208,12 @@ Hard manuscript prose rule: **NO EM DASHES.**
 A chapter counts as variance-reviewed only after:
 1. exact prose is read;
 2. prior attribution repairs relevant to the scene are respected;
-3. recurring voice authority is consulted when materially useful;
-4. Greg/Hessa contamination and comic-register convergence are explicitly tested;
-5. relationship/state/scene-pressure modulation is considered;
-6. either a deliberate no-change verdict or exact replacement patch is durably saved under `dialogue-variance-pass/`;
-7. the durable artifact is fetched back from GitHub.
+3. every dialogue block is checked for clear speaker/action/reaction ownership under the local rewrite rule above;
+4. recurring voice authority is consulted when materially useful;
+5. Greg/Hessa contamination and comic-register convergence are explicitly tested;
+6. relationship/state/scene-pressure modulation is considered;
+7. either a deliberate no-change verdict or exact replacement patch is durably saved under `dialogue-variance-pass/`;
+8. the durable artifact is fetched back from GitHub.
 
 ## Current trailhead
 
@@ -161,4 +225,4 @@ Next intended batch: **Chapters 91-95**.
 
 ## Restart prompt
 
-`Continue PLG whole-manuscript dialogue + attribution pass from current GitHub authority on editor/voice-compression-pass, using the dialogue variance engine. Treat state/editorial/DIALOGUE_VARIANCE_PASS_STATE.md as the sequential authority and continue from its current edge in bounded 5-chapter batches.`
+`Continue PLG whole-manuscript dialogue + attribution pass from current GitHub authority on editor/voice-compression-pass, using the dialogue variance engine. Treat current spoken dialogue as the default anchor, rebuild tags/actions/reactions/paragraphs around it for clear dramatic ownership, and rewrite the smallest necessary dialogue only when scaffolding repair is not enough. Treat state/editorial/DIALOGUE_VARIANCE_PASS_STATE.md as the sequential authority and continue from its current edge in bounded 5-chapter batches.`
