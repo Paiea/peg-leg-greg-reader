@@ -26,6 +26,8 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
+      - name: Run focused PERFORMANCE compiler tests
+        run: python -m unittest tests.test_performance_production_funnel -v
       - name: Validate production batch
         run: python scripts/performance_production_funnel.py --batch state/editorial/performance-production/batch-027-075.json
       - name: Apply earned PERFORMANCE survivors
