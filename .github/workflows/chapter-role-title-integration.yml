@@ -75,27 +75,34 @@ jobs:
           else:
               raise SystemExit('Could not locate _docx_number implementation to patch safely')
           PY
-      - name: Inspect Book II Chapter 102 layout
+      - name: Inspect Book II chapter boundary coverage
         run: |
-          python - <<'PY'
+          PYTHONPATH=. python - <<'PY'
           from docx import Document
+          from scripts.docx_chapter_heading import number_from_heading
           path = 'state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx'
           doc = Document(path)
-          hits = []
+          parsed = []
+          raw = []
           for i, p in enumerate(doc.paragraphs):
-              upper = p.text.upper()
-              if 'PIVOT' in upper or '102' in upper or 'HUNDRED TWO' in upper or 'HUNDRED AND TWO' in upper:
-                  hits.append(i)
-          print('Book II candidate paragraph hits:', hits)
-          for i in sorted({j for hit in hits for j in range(max(0, hit-4), min(len(doc.paragraphs), hit+5))}):
-              p = doc.paragraphs[i]
-              print(i, repr(p.style.name), repr(p.text))
-          if not hits:
-              print('No obvious Chapter 102/Pivot paragraph found; showing chapter-like paragraphs around the 95-110 region by sequence.')
-              chapterish = [(i, p.text) for i, p in enumerate(doc.paragraphs) if p.text.strip().upper().startswith('CHAPTER')]
-              for ordinal, (i, text) in enumerate(chapterish):
-                  if 15 <= ordinal <= 32:
-                      print('CHAPTERISH', ordinal, i, repr(text))
+              if p.text.strip().upper().startswith('CHAPTER'):
+                  raw.append((i, p.text))
+                  n = number_from_heading(p.text)
+                  if n is not None:
+                      parsed.append((n, i, p.text))
+          print('Book II raw CHAPTER paragraphs:', len(raw))
+          print('Book II parsed boundaries:', len(parsed))
+          print('Parsed chapter numbers:', [n for n, _, _ in parsed])
+          print('Raw chapter-like paragraphs 95 onward by position:')
+          for i, text in raw:
+              if i >= (parsed[0][1] if parsed else 0):
+                  n = number_from_heading(text)
+                  if n is None or n >= 95:
+                      print(i, 'PARSED', n, repr(text))
+          print('Exact title-like PIVOT hits:')
+          for i, p in enumerate(doc.paragraphs):
+              if 'THE PIVOT' in p.text.upper():
+                  print(i, repr(p.style.name), repr(p.text))
           PY
       - name: Apply approved role titles
         run: PYTHONPATH=. python scripts/apply_chapter_role_titles.py --apply
