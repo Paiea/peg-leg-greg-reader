@@ -19,6 +19,8 @@ on:
       - 'state/visual/SCENE_CANDIDATES.json'
       - 'state/visual/ILLUSTRATION_REGISTRY.json'
       - 'state/visual/ILLUSTRATION_APPROVALS.json'
+      - 'state/visual/PRODUCTION_HOLD.json'
+      - 'state/visual/ILLUSTRATION_RECONCILIATION_REPORT.md'
       - 'state/visual/GENERATION_QUEUE.json'
       - 'state/visual/CHARACTER_VISUAL_REFERENCES.json'
       - 'state/visual/CHARACTER_REFERENCE_AUDIT.md'
@@ -41,6 +43,7 @@ on:
       - 'scripts/update_reader_navigation.py'
       - 'scripts/update_reader_presentation.py'
       - 'scripts/illustration_state.py'
+      - 'scripts/illustration_edit_hold.py'
       - 'scripts/import_legacy_illustrations.py'
       - 'scripts/seed_older_coverage_wave.py'
       - 'scripts/validate_paragraph_anchors.py'
@@ -111,10 +114,15 @@ jobs:
           python scripts/backfill_tagged_registry_metadata.py
           python scripts/backfill_character_reference_metadata.py
           python scripts/validate_paragraph_anchors.py
+          python scripts/illustration_edit_hold.py
           python scripts/build_generation_queue.py
           python scripts/intake_generated_illustrations.py
           python scripts/apply_illustration_approvals.py
-          python scripts/promote_illustrations.py
+          if python scripts/illustration_edit_hold.py --production-allowed; then
+            python scripts/promote_illustrations.py
+          else
+            echo 'Structural-edit hold active; skipping automatic illustration promotion.'
+          fi
           python scripts/sync_scene_candidate_status.py
           python scripts/promote_character_references.py
       - name: Generate recovered Light range
@@ -131,6 +139,7 @@ jobs:
         run: |
           python scripts/seed_older_coverage_wave.py
           python scripts/validate_paragraph_anchors.py
+          python scripts/illustration_edit_hold.py
           python scripts/build_illustration_backlog.py
           python scripts/build_prompt_packs.py
           python scripts/tag_registry_characters.py
@@ -162,6 +171,8 @@ jobs:
           test -f state/visual/SCENE_CANDIDATES.json
           test -f state/visual/ILLUSTRATION_REGISTRY.json
           test -f state/visual/ILLUSTRATION_APPROVALS.json
+          test -f state/visual/PRODUCTION_HOLD.json
+          test -f state/visual/ILLUSTRATION_RECONCILIATION_REPORT.md
           test -f state/visual/GENERATION_QUEUE.json
           test -f state/visual/CHARACTER_VISUAL_REFERENCES.json
           test -f state/visual/CHARACTER_REFERENCE_AUDIT.md
@@ -238,13 +249,13 @@ jobs:
       - name: Commit generated reader presentation derivatives
         if: github.ref == 'refs/heads/main'
         run: |
-          if git diff --quiet -- chapters light light.html latest.html index.html assets/reader.css state/visual/SCENE_CANDIDATES.json state/visual/ILLUSTRATION_REGISTRY.json state/visual/GENERATION_QUEUE.json state/visual/GENERATION_PACKET.md state/visual/GENERATION_PACKET_156_160.md state/visual/GENERATION_PACKET_161_165.md state/visual/BOUNDED_PRODUCTION_REVIEW_156_160.md state/visual/ILLUSTRATION_APPROVAL_PACKET.md state/visual/CHARACTER_VISUAL_REFERENCES.json state/visual/CHARACTER_REFERENCE_AUDIT.md state/visual/CHARACTER_CONTINUITY_REPORT.md state/visual/PARAGRAPH_ANCHOR_REPORT.md state/visual/ILLUSTRATION_BACKLOG.md state/visual/ILLUSTRATION_COVERAGE.md state/visual/prompt-packs; then
+          if git diff --quiet -- chapters light light.html latest.html index.html assets/reader.css state/visual/SCENE_CANDIDATES.json state/visual/ILLUSTRATION_REGISTRY.json state/visual/ILLUSTRATION_RECONCILIATION_REPORT.md state/visual/GENERATION_QUEUE.json state/visual/GENERATION_PACKET.md state/visual/GENERATION_PACKET_156_160.md state/visual/GENERATION_PACKET_161_165.md state/visual/BOUNDED_PRODUCTION_REVIEW_156_160.md state/visual/ILLUSTRATION_APPROVAL_PACKET.md state/visual/CHARACTER_VISUAL_REFERENCES.json state/visual/CHARACTER_REFERENCE_AUDIT.md state/visual/CHARACTER_CONTINUITY_REPORT.md state/visual/PARAGRAPH_ANCHOR_REPORT.md state/visual/ILLUSTRATION_BACKLOG.md state/visual/ILLUSTRATION_COVERAGE.md state/visual/prompt-packs; then
             echo 'Reader and illustration production derivatives already current.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add chapters light light.html latest.html index.html assets/reader.css state/visual/SCENE_CANDIDATES.json state/visual/ILLUSTRATION_REGISTRY.json state/visual/GENERATION_QUEUE.json state/visual/GENERATION_PACKET.md state/visual/GENERATION_PACKET_156_160.md state/visual/GENERATION_PACKET_161_165.md state/visual/BOUNDED_PRODUCTION_REVIEW_156_160.md state/visual/ILLUSTRATION_APPROVAL_PACKET.md state/visual/CHARACTER_VISUAL_REFERENCES.json state/visual/CHARACTER_REFERENCE_AUDIT.md state/visual/CHARACTER_CONTINUITY_REPORT.md state/visual/PARAGRAPH_ANCHOR_REPORT.md state/visual/ILLUSTRATION_BACKLOG.md state/visual/ILLUSTRATION_COVERAGE.md state/visual/prompt-packs
+          git add chapters light light.html latest.html index.html assets/reader.css state/visual/SCENE_CANDIDATES.json state/visual/ILLUSTRATION_REGISTRY.json state/visual/ILLUSTRATION_RECONCILIATION_REPORT.md state/visual/GENERATION_QUEUE.json state/visual/GENERATION_PACKET.md state/visual/GENERATION_PACKET_156_160.md state/visual/GENERATION_PACKET_161_165.md state/visual/BOUNDED_PRODUCTION_REVIEW_156_160.md state/visual/ILLUSTRATION_APPROVAL_PACKET.md state/visual/CHARACTER_VISUAL_REFERENCES.json state/visual/CHARACTER_REFERENCE_AUDIT.md state/visual/CHARACTER_CONTINUITY_REPORT.md state/visual/PARAGRAPH_ANCHOR_REPORT.md state/visual/ILLUSTRATION_BACKLOG.md state/visual/ILLUSTRATION_COVERAGE.md state/visual/prompt-packs
           git commit -m 'Refresh reader presentation'
           for attempt in 1 2 3; do
             git fetch origin main
