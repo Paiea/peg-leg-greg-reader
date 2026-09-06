@@ -7,6 +7,7 @@ import unittest
 
 from scripts.build_generation_queue import build_generation_queue
 from scripts.performance_roundtrip_references import (
+    check_all,
     load_reference,
     load_visual_reference,
     validate_reference,
@@ -124,6 +125,24 @@ class PerformanceRoundtripReferenceTests(unittest.TestCase):
                 validate_reference(7, archive_root=archive_root, chapter_root=chapter_root)["status"],
                 "fresh",
             )
+
+    def test_malformed_reference_is_reported_and_never_exposed_to_visual_consumers(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            archive_root, chapter_root = self._write_fixture(Path(tmp))
+            lock_path = archive_root / "007" / "source.lock.json"
+            lock_path.write_text("{not-json}\n", encoding="utf-8")
+            result = validate_reference(7, archive_root=archive_root, chapter_root=chapter_root)
+            self.assertEqual(result["status"], "malformed")
+            self.assertTrue(any("invalid source.lock.json" in reason for reason in result["reasons"]))
+            self.assertIsNone(load_reference(7, archive_root=archive_root, chapter_root=chapter_root))
+            self.assertIsNone(load_visual_reference(7, archive_root=archive_root, chapter_root=chapter_root))
+
+    def test_check_all_discovers_archives_by_canon_chapter(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            archive_root, chapter_root = self._write_fixture(Path(tmp))
+            results = check_all(archive_root=archive_root, chapter_root=chapter_root)
+            self.assertEqual([result["chapter"] for result in results], [7])
+            self.assertEqual(results[0]["status"], "fresh")
 
     def test_committed_successful_backfills_are_complete_fresh_and_noncanonical(self) -> None:
         expected = {
