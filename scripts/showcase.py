@@ -14,6 +14,7 @@ SUPPORTED_REASONS = {
     'other',
 }
 ALLOWED_ENTRY_FIELDS = {'showcase', 'reason'}
+LEGACY_IDENTITY_KEY = '_legacy_identity'
 DEFAULT_MANIFEST = {
     'version': 1,
     'mode': 'whole_chapter_only',
@@ -69,6 +70,7 @@ def load_showcase_manifest(path: Path) -> dict:
             'mode': DEFAULT_MANIFEST['mode'],
             'default': DEFAULT_MANIFEST['default'],
             'chapters': {},
+            LEGACY_IDENTITY_KEY: True,
         }
     data = json.loads(path.read_text(encoding='utf-8'))
     if not isinstance(data, dict):
@@ -77,11 +79,27 @@ def load_showcase_manifest(path: Path) -> dict:
     return data
 
 
+def build_identity_showcase_map(canonical_numbers: list[int]) -> ShowcaseMap:
+    canonical = tuple(sorted(set(canonical_numbers)))
+    if any(number <= 0 for number in canonical):
+        raise ValueError('canonical chapter numbers must be positive integers')
+    index_by_canon = {canon: idx for idx, canon in enumerate(canonical)}
+    return ShowcaseMap(
+        canonical,
+        {canon: canon for canon in canonical},
+        index_by_canon,
+        frozenset(canonical),
+    )
+
+
 def build_showcase_map(canonical_numbers: list[int], manifest: dict) -> ShowcaseMap:
     _validate_manifest_shape(manifest)
     canonical = tuple(sorted(set(canonical_numbers)))
     if any(number <= 0 for number in canonical):
         raise ValueError('canonical chapter numbers must be positive integers')
+    if manifest.get(LEGACY_IDENTITY_KEY):
+        return build_identity_showcase_map(list(canonical))
+
     canonical_set = set(canonical)
     overrides: dict[int, bool] = {}
     for raw_number, entry in manifest['chapters'].items():
