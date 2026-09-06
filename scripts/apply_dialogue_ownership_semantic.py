@@ -36,13 +36,24 @@ def first_dialogue_quote(p: str) -> int:
     return min(positions) if positions else -1
 
 
+def owner_for_subject(subject: str) -> str:
+    """Keep explicit proper names distinct; collapse unresolved pronouns/descriptions."""
+    if subject == 'I':
+        return 'GREG'
+    if subject.lower() in {'he', 'she', 'they'}:
+        return 'OTHER'
+    if re.fullmatch(r'[A-Z][a-z]+', subject):
+        return subject
+    return 'OTHER'
+
+
 def explicit_speaker(p: str) -> tuple[str | None, int | None]:
-    m = re.search(rf'\bI\s+{SPEECH}\b', p, re.I)
+    m = re.search(rf'\b(I)\s+{SPEECH}\b', p, re.I)
     if m:
         return 'GREG', m.start()
-    m = re.search(rf'\b(?:he|she|they|[A-Z][a-z]+)\s+{SPEECH}\b', p)
+    m = re.search(rf'\b(he|she|they|[A-Z][a-z]+)\s+{SPEECH}\b', p)
     if m:
-        return 'OTHER', m.start()
+        return owner_for_subject(m.group(1)), m.start()
     return None, None
 
 
@@ -54,17 +65,13 @@ def last_narrative_action_owner(p: str) -> str | None:
     starts = [0]
     starts.extend(m.end() for m in re.finditer(r'[.!?]\s+', p))
     events: list[tuple[int, str]] = []
-    greg_re = re.compile(rf'I\s+({ACTION})\b')
-    other_re = re.compile(rf'(?:He|She|They|[A-Z][a-z]+|The\s+[a-z]+(?:\s+[a-z]+)?)\s+({ACTION})\b')
+    subj_re = re.compile(rf'(I|He|She|They|[A-Z][a-z]+|The\s+[a-z]+(?:\s+[a-z]+)?)\s+({ACTION})\b')
     for pos in starts:
         while pos < len(p) and p[pos].isspace():
             pos += 1
-        gm = greg_re.match(p, pos)
-        om = other_re.match(p, pos)
-        if gm:
-            events.append((gm.start(), 'GREG'))
-        elif om:
-            events.append((om.start(), 'OTHER'))
+        m = subj_re.match(p, pos)
+        if m:
+            events.append((m.start(), owner_for_subject(m.group(1))))
     if not events:
         return None
     return events[-1][1]
@@ -147,8 +154,7 @@ def action_events(p: str) -> list[tuple[int, str]]:
             continue
         if not all(outside[j] for j in range(m.start(), min(m.end(), len(outside)))):
             continue
-        owner = 'GREG' if m.group(1) == 'I' else 'OTHER'
-        events.append((m.start(), owner))
+        events.append((m.start(), owner_for_subject(m.group(1))))
     return events
 
 
@@ -164,13 +170,19 @@ def transform_paragraph(p: str, speaker: str | None, anchor: int | None) -> tupl
     breaks = []
     current_owner = None
     for pos, owner in events:
+        resolved_owner = owner
+        if owner == 'OTHER' and current_owner not in {None, 'GREG', 'OTHER'}:
+            # A pronoun/action immediately following an explicitly named speaker is
+            # most conservatively treated as that same named speaker. Explicitly
+            # different names still trigger a boundary.
+            resolved_owner = current_owner
         if current_owner is None:
-            current_owner = owner
+            current_owner = resolved_owner
             continue
-        if owner != current_owner:
+        if resolved_owner != current_owner:
             if 0 < pos < len(p):
                 breaks.append(pos)
-            current_owner = owner
+            current_owner = resolved_owner
     if not breaks:
         return p, 0
     new = p
@@ -215,7 +227,7 @@ def self_test() -> None:
     assert [x[0] for x in inferred[1:]] == ['GREG', 'OTHER', 'GREG'], inferred
     paras = ['I stood. Senna looked up.', '"Running?"', '"Stopping."', '"Different?"', '"For me? Apparently." She glanced at my stack.']
     inferred = infer_speakers(paras)
-    assert [x[0] for x in inferred[1:]] == ['OTHER', 'GREG', 'OTHER', 'GREG'], inferred
+    assert [x[0] for x in inferred[1:]] == ['Senna', 'GREG', 'OTHER', 'GREG'], inferred
     raw = 'Antonius looked at me long enough that I said, "What?"'
     anchor = raw.index('I said')
     got, _ = transform_paragraph(raw, 'GREG', anchor)
