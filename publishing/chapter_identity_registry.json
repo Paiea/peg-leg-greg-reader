@@ -439,6 +439,9 @@
     "chapters/437.html",
     "chapters/438.html",
     "chapters/439.html",
+    "chapters/440.html",
+    "chapters/441.html",
+    "chapters/442.html",
     "light/100.html",
     "light/101.html",
     "light/102.html",
@@ -779,6 +782,9 @@
     "light/437.html",
     "light/438.html",
     "light/439.html",
+    "light/440.html",
+    "light/441.html",
+    "light/442.html",
     "state/manuscript/Peg_Leg_Greg_Book2_Ch83-105_light_ship_edited.docx",
     "state/manuscript/Peg_Leg_Greg_Book2_Ch83-113_authoritative.docx",
     "state/manuscript/Peg_Leg_Greg_Book2_Ch83-92_light_ship_edited.docx",
@@ -976,6 +982,9 @@
     "state/manuscript/Peg_Leg_Greg_Chapter_437_EXACT_WIP.md",
     "state/manuscript/Peg_Leg_Greg_Chapter_438_EXACT_WIP.md",
     "state/manuscript/Peg_Leg_Greg_Chapter_439_EXACT_WIP.md",
+    "state/manuscript/Peg_Leg_Greg_Chapter_440_EXACT_WIP.md",
+    "state/manuscript/Peg_Leg_Greg_Chapter_441_EXACT_WIP.md",
+    "state/manuscript/Peg_Leg_Greg_Chapter_442_EXACT_WIP.md",
     "state/manuscript/Peg_Leg_Greg_Recovered_Ch156-219_EXACT.md",
     "state/manuscript/Peg_Leg_Greg_Running_Manuscript.md",
     "state/manuscript/Peg_Leg_Greg_Running_Manuscript_Ch138-152.md",
@@ -13598,18 +13607,102 @@
       ],
       "source_path": "state/manuscript/Peg_Leg_Greg_Chapter_439_EXACT_WIP.md",
       "status": "active"
+    },
+    {
+      "act": "act-ii",
+      "book": "book-iii",
+      "chapter_id": "plg-ch-000440",
+      "current_display_number": 440,
+      "current_title": "THE LOOKOUT",
+      "illustration_refs": [],
+      "legacy_slugs": [
+        "chapters/440.html",
+        "light/440.html"
+      ],
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_Chapter_440_EXACT_WIP.md",
+      "manuscript_source_kind": "exact_checkpoint",
+      "manuscript_source_priority": 1000000,
+      "merged_into": null,
+      "notes": "",
+      "origin_chapter_number": 440,
+      "public_slug": "chapters/440.html",
+      "reader_pages": [
+        "chapters/440.html",
+        "light/440.html"
+      ],
+      "source_chapter_ids": [
+        "plg-ch-000440"
+      ],
+      "source_path": "state/manuscript/Peg_Leg_Greg_Chapter_440_EXACT_WIP.md",
+      "status": "active"
+    },
+    {
+      "act": "act-ii",
+      "book": "book-iii",
+      "chapter_id": "plg-ch-000441",
+      "current_display_number": 441,
+      "current_title": "THE SAILOR",
+      "illustration_refs": [],
+      "legacy_slugs": [
+        "chapters/441.html",
+        "light/441.html"
+      ],
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_Chapter_441_EXACT_WIP.md",
+      "manuscript_source_kind": "exact_checkpoint",
+      "manuscript_source_priority": 1000000,
+      "merged_into": null,
+      "notes": "",
+      "origin_chapter_number": 441,
+      "public_slug": "chapters/441.html",
+      "reader_pages": [
+        "chapters/441.html",
+        "light/441.html"
+      ],
+      "source_chapter_ids": [
+        "plg-ch-000441"
+      ],
+      "source_path": "state/manuscript/Peg_Leg_Greg_Chapter_441_EXACT_WIP.md",
+      "status": "active"
+    },
+    {
+      "act": "act-ii",
+      "book": "book-iii",
+      "chapter_id": "plg-ch-000442",
+      "current_display_number": 442,
+      "current_title": "THE STRANGER",
+      "illustration_refs": [],
+      "legacy_slugs": [
+        "chapters/442.html",
+        "light/442.html"
+      ],
+      "manuscript_path": "state/manuscript/Peg_Leg_Greg_Chapter_442_EXACT_WIP.md",
+      "manuscript_source_kind": "exact_checkpoint",
+      "manuscript_source_priority": 1000000,
+      "merged_into": null,
+      "notes": "",
+      "origin_chapter_number": 442,
+      "public_slug": "chapters/442.html",
+      "reader_pages": [
+        "chapters/442.html",
+        "light/442.html"
+      ],
+      "source_chapter_ids": [
+        "plg-ch-000442"
+      ],
+      "source_path": "state/manuscript/Peg_Leg_Greg_Chapter_442_EXACT_WIP.md",
+      "status": "active"
     }
   ],
   "diagnostics": {
     "authority_conflicts": [],
     "chapter_index_endpoint": 248,
-    "chapter_index_stale_by": 191,
+    "chapter_index_stale_by": 194,
     "chapter_index_title_mismatches": [],
-    "manuscript_chapter_count": 439,
-    "manuscript_endpoint": 439,
+    "manuscript_chapter_count": 442,
+    "manuscript_endpoint": 442,
     "manuscript_gaps": [],
     "manuscript_only_chapters": [],
-    "reader_chapter_count": 439,
+    "reader_chapter_count": 442,
     "reader_only_chapters": []
   },
   "schema_version": 2,

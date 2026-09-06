@@ -109989,26 +109989,26 @@
       },
       {
         "file_category": "reader",
-        "kind": "reader_slug",
-        "line": 36,
-        "match": "chapters/439.html",
-        "path": "index.html",
-        "risk": "hard"
+        "kind": "chapter_text",
+        "line": 4,
+        "match": "Chapter 439",
+        "path": "chapters/440.html",
+        "risk": "soft"
       },
       {
         "file_category": "reader",
         "kind": "chapter_text",
-        "line": 1,
+        "line": 488,
         "match": "Chapter 439",
-        "path": "latest.html",
+        "path": "chapters/440.html",
         "risk": "soft"
       },
       {
         "file_category": "reader",
         "kind": "reader_slug",
-        "line": 1,
-        "match": "light/439.html",
-        "path": "latest.html",
+        "line": 36,
+        "match": "chapters/439.html",
+        "path": "index.html",
         "risk": "hard"
       },
       {
@@ -110061,66 +110061,18 @@
       },
       {
         "file_category": "reader",
-        "kind": "chapter_field",
-        "line": 6,
-        "match": "chapter=\"439",
-        "path": "light/index.html",
-        "risk": "hard"
+        "kind": "chapter_text",
+        "line": 14,
+        "match": "Chapter 439",
+        "path": "light/440.html",
+        "risk": "soft"
       },
       {
         "file_category": "reader",
         "kind": "chapter_text",
-        "line": 6,
+        "line": 502,
         "match": "Chapter 439",
-        "path": "light/index.html",
-        "risk": "soft"
-      },
-      {
-        "file_category": "state",
-        "kind": "chapter_text",
-        "line": 4,
-        "match": "Chapter 439",
-        "path": "state/MANUSCRIPT_STATE.md",
-        "risk": "soft"
-      },
-      {
-        "file_category": "state",
-        "kind": "chapter_text",
-        "line": 15,
-        "match": "Chapter 439",
-        "path": "state/MANUSCRIPT_STATE.md",
-        "risk": "soft"
-      },
-      {
-        "file_category": "state",
-        "kind": "asset_name",
-        "line": 118,
-        "match": "Ch439",
-        "path": "state/MANUSCRIPT_STATE.md",
-        "risk": "soft"
-      },
-      {
-        "file_category": "state",
-        "kind": "asset_name",
-        "line": 125,
-        "match": "Ch439",
-        "path": "state/MANUSCRIPT_STATE.md",
-        "risk": "soft"
-      },
-      {
-        "file_category": "state",
-        "kind": "asset_name",
-        "line": 148,
-        "match": "Ch439",
-        "path": "state/MANUSCRIPT_STATE.md",
-        "risk": "soft"
-      },
-      {
-        "file_category": "state",
-        "kind": "asset_name",
-        "line": 160,
-        "match": "Ch439",
-        "path": "state/MANUSCRIPT_STATE.md",
+        "path": "light/440.html",
         "risk": "soft"
       },
       {
@@ -110129,14 +110081,6 @@
         "line": 1,
         "match": "CHAPTER 439",
         "path": "state/manuscript/Peg_Leg_Greg_Chapter_439_EXACT_WIP.md",
-        "risk": "soft"
-      },
-      {
-        "file_category": "state",
-        "kind": "chapter_text",
-        "line": 3,
-        "match": "Chapter 439",
-        "path": "state/visual/ILLUSTRATION_COVERAGE.md",
         "risk": "soft"
       }
     ],
@@ -110600,26 +110544,480 @@
     ],
     "440": [
       {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 4,
+        "match": "Chapter 440",
+        "path": "chapters/439.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 497,
+        "match": "Chapter 440",
+        "path": "chapters/439.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 2,
+        "match": "Chapter 440",
+        "path": "chapters/440.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "reader_slug",
+        "line": 3,
+        "match": "light/440.html",
+        "path": "chapters/440.html",
+        "risk": "hard"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 4,
+        "match": "CHAPTER 440",
+        "path": "chapters/440.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 4,
+        "match": "Chapter 440",
+        "path": "chapters/441.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 475,
+        "match": "Chapter 440",
+        "path": "chapters/441.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "reader_slug",
+        "line": 36,
+        "match": "chapters/440.html",
+        "path": "index.html",
+        "risk": "hard"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 14,
+        "match": "Chapter 440",
+        "path": "light/439.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 511,
+        "match": "Chapter 440",
+        "path": "light/439.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 6,
+        "match": "Chapter 440",
+        "path": "light/440.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 7,
+        "match": "Chapter 440",
+        "path": "light/440.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 15,
+        "match": "CHAPTER 440",
+        "path": "light/440.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "reader_slug",
+        "line": 501,
+        "match": "chapters/440.html",
+        "path": "light/440.html",
+        "risk": "hard"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 14,
+        "match": "Chapter 440",
+        "path": "light/441.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 489,
+        "match": "Chapter 440",
+        "path": "light/441.html",
+        "risk": "soft"
+      },
+      {
         "file_category": "state",
         "kind": "chapter_text",
-        "line": 159,
-        "match": "Chapter 440",
+        "line": 1,
+        "match": "CHAPTER 440",
+        "path": "state/manuscript/Peg_Leg_Greg_Chapter_440_EXACT_WIP.md",
+        "risk": "soft"
+      }
+    ],
+    "441": [
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 4,
+        "match": "Chapter 441",
+        "path": "chapters/440.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 488,
+        "match": "Chapter 441",
+        "path": "chapters/440.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 2,
+        "match": "Chapter 441",
+        "path": "chapters/441.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "reader_slug",
+        "line": 3,
+        "match": "light/441.html",
+        "path": "chapters/441.html",
+        "risk": "hard"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 4,
+        "match": "CHAPTER 441",
+        "path": "chapters/441.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 4,
+        "match": "Chapter 441",
+        "path": "chapters/442.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 445,
+        "match": "Chapter 441",
+        "path": "chapters/442.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "reader_slug",
+        "line": 36,
+        "match": "chapters/441.html",
+        "path": "index.html",
+        "risk": "hard"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 14,
+        "match": "Chapter 441",
+        "path": "light/440.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 502,
+        "match": "Chapter 441",
+        "path": "light/440.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 6,
+        "match": "Chapter 441",
+        "path": "light/441.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 7,
+        "match": "Chapter 441",
+        "path": "light/441.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 15,
+        "match": "CHAPTER 441",
+        "path": "light/441.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "reader_slug",
+        "line": 488,
+        "match": "chapters/441.html",
+        "path": "light/441.html",
+        "risk": "hard"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 14,
+        "match": "Chapter 441",
+        "path": "light/442.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 459,
+        "match": "Chapter 441",
+        "path": "light/442.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "state",
+        "kind": "chapter_text",
+        "line": 1,
+        "match": "CHAPTER 441",
+        "path": "state/manuscript/Peg_Leg_Greg_Chapter_441_EXACT_WIP.md",
+        "risk": "soft"
+      }
+    ],
+    "442": [
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 4,
+        "match": "Chapter 442",
+        "path": "chapters/441.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 475,
+        "match": "Chapter 442",
+        "path": "chapters/441.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 2,
+        "match": "Chapter 442",
+        "path": "chapters/442.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "reader_slug",
+        "line": 3,
+        "match": "light/442.html",
+        "path": "chapters/442.html",
+        "risk": "hard"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 4,
+        "match": "CHAPTER 442",
+        "path": "chapters/442.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "reader_slug",
+        "line": 36,
+        "match": "chapters/442.html",
+        "path": "index.html",
+        "risk": "hard"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 1,
+        "match": "Chapter 442",
+        "path": "latest.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "reader_slug",
+        "line": 1,
+        "match": "light/442.html",
+        "path": "latest.html",
+        "risk": "hard"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 14,
+        "match": "Chapter 442",
+        "path": "light/441.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 489,
+        "match": "Chapter 442",
+        "path": "light/441.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 6,
+        "match": "Chapter 442",
+        "path": "light/442.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 7,
+        "match": "Chapter 442",
+        "path": "light/442.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 15,
+        "match": "CHAPTER 442",
+        "path": "light/442.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "reader",
+        "kind": "reader_slug",
+        "line": 458,
+        "match": "chapters/442.html",
+        "path": "light/442.html",
+        "risk": "hard"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_field",
+        "line": 6,
+        "match": "chapter=\"442",
+        "path": "light/index.html",
+        "risk": "hard"
+      },
+      {
+        "file_category": "reader",
+        "kind": "chapter_text",
+        "line": 6,
+        "match": "Chapter 442",
+        "path": "light/index.html",
+        "risk": "soft"
+      },
+      {
+        "file_category": "state",
+        "kind": "chapter_text",
+        "line": 4,
+        "match": "Chapter 442",
+        "path": "state/MANUSCRIPT_STATE.md",
+        "risk": "soft"
+      },
+      {
+        "file_category": "state",
+        "kind": "chapter_text",
+        "line": 14,
+        "match": "Chapter 442",
         "path": "state/MANUSCRIPT_STATE.md",
         "risk": "soft"
       },
       {
         "file_category": "state",
         "kind": "asset_name",
-        "line": 169,
-        "match": "Ch440",
+        "line": 108,
+        "match": "Ch442",
         "path": "state/MANUSCRIPT_STATE.md",
         "risk": "soft"
       },
       {
         "file_category": "state",
         "kind": "asset_name",
-        "line": 182,
-        "match": "CH440",
+        "line": 125,
+        "match": "Ch442",
+        "path": "state/MANUSCRIPT_STATE.md",
+        "risk": "soft"
+      },
+      {
+        "file_category": "state",
+        "kind": "asset_name",
+        "line": 137,
+        "match": "Ch442",
+        "path": "state/MANUSCRIPT_STATE.md",
+        "risk": "soft"
+      },
+      {
+        "file_category": "state",
+        "kind": "chapter_text",
+        "line": 1,
+        "match": "CHAPTER 442",
+        "path": "state/manuscript/Peg_Leg_Greg_Chapter_442_EXACT_WIP.md",
+        "risk": "soft"
+      },
+      {
+        "file_category": "state",
+        "kind": "chapter_text",
+        "line": 3,
+        "match": "Chapter 442",
+        "path": "state/visual/ILLUSTRATION_COVERAGE.md",
+        "risk": "soft"
+      }
+    ],
+    "443": [
+      {
+        "file_category": "state",
+        "kind": "chapter_text",
+        "line": 136,
+        "match": "Chapter 443",
+        "path": "state/MANUSCRIPT_STATE.md",
+        "risk": "soft"
+      },
+      {
+        "file_category": "state",
+        "kind": "asset_name",
+        "line": 163,
+        "match": "CH443",
         "path": "state/MANUSCRIPT_STATE.md",
         "risk": "soft"
       }
@@ -137987,30 +138385,30 @@
       }
     ]
   },
-  "chapters_with_dependencies": 441,
+  "chapters_with_dependencies": 444,
   "counts_by_file_category": {
     "art": 78,
     "docs": 11,
     "metadata": 4948,
     "other": 52,
-    "reader": 6010,
+    "reader": 6058,
     "script": 390,
-    "state": 5649
+    "state": 5650
   },
   "counts_by_kind": {
-    "asset_name": 3018,
+    "asset_name": 3016,
     "chapter_art_path": 2434,
     "chapter_field": 1555,
-    "chapter_text": 6963,
+    "chapter_text": 7005,
     "checkpoint_name": 4,
     "reader_query": 101,
-    "reader_slug": 3063
+    "reader_slug": 3072
   },
   "counts_by_risk": {
-    "hard": 7157,
-    "soft": 9981
+    "hard": 7166,
+    "soft": 10021
   },
-  "reference_count": 17138,
+  "reference_count": 17187,
   "scan_roots": [
     "chapters",
     "light",
@@ -138023,6 +138421,6 @@
     "publishing",
     "docs"
   ],
-  "scanned_files": 1484,
+  "scanned_files": 1493,
   "schema_version": 2
 }

@@ -5,9 +5,9 @@
     {
       "code": "stale_chapter_index",
       "index_endpoint": 248,
-      "manuscript_endpoint": 439,
+      "manuscript_endpoint": 442,
       "message": "The legacy chapter index trails current manuscript authority and must not drive compression or publication rebuilds.",
-      "stale_by": 191
+      "stale_by": 194
     },
     {
       "code": "numeric_dependencies",
@@ -16,25 +16,25 @@
         "docs": 11,
         "metadata": 4948,
         "other": 52,
-        "reader": 6010,
+        "reader": 6058,
         "script": 390,
-        "state": 5649
+        "state": 5650
       },
       "counts_by_kind": {
-        "asset_name": 3018,
+        "asset_name": 3016,
         "chapter_art_path": 2434,
         "chapter_field": 1555,
-        "chapter_text": 6963,
+        "chapter_text": 7005,
         "checkpoint_name": 4,
         "reader_query": 101,
-        "reader_slug": 3063
+        "reader_slug": 3072
       },
       "counts_by_risk": {
-        "hard": 7157,
-        "soft": 9981
+        "hard": 7166,
+        "soft": 10021
       },
       "message": "Chapter numbers remain embedded across repository surfaces and require resolver or migration handling before renumbering.",
-      "reference_count": 17138
+      "reference_count": 17187
     }
   ],
   "overall_status": "NEEDS_MIGRATION",
@@ -44,7 +44,7 @@
       "message": "Whole-book structural mapping and hotspot audit are safe because they do not mutate prose, numbering, URLs, or art."
     },
     {
-      "chapter_count": 439,
+      "chapter_count": 442,
       "code": "stable_identity_inventory",
       "message": "Stable IDs can be generated for current discovered chapter authority without renumbering the book."
     }
@@ -52,11 +52,11 @@
   "schema_version": 1,
   "summary": {
     "blocker_count": 0,
-    "dependency_references": 17138,
-    "manuscript_endpoint": 439,
+    "dependency_references": 17187,
+    "manuscript_endpoint": 442,
     "migration_item_count": 2,
-    "reader_chapter_count": 439,
-    "registry_chapters": 439,
+    "reader_chapter_count": 442,
+    "registry_chapters": 442,
     "safe_item_count": 2
   }
 }
