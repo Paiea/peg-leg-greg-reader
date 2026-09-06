@@ -35,6 +35,8 @@ COMPILER_VERSIONS = {
 CLAIM_KINDS = {"observed", "inferred", "locked_derived"}
 CLAIM_RANK = {"inferred": 1, "locked_derived": 2, "observed": 3}
 VIEW_NAMES = {"performance", "dialogue", "continuity", "illustration", "comparison"}
+COMPARISON_VERDICTS = {"source_win", "performance_candidate", "ambiguous"}
+DERIVED_KEYS = ("semantic", "performance", "screenplay", "comparison", "semantic_conflicts")
 
 
 def next_visible_chapters(manifest: dict, *, after_chapter: int, count: int, max_chapter: int) -> list[int]:
@@ -88,16 +90,11 @@ def build_mechanical_ir(scene: dict) -> dict:
     paragraphs = source.get("paragraphs") if isinstance(source, dict) else None
     if not isinstance(paragraphs, list) or not all(isinstance(value, str) for value in paragraphs):
         raise ValueError("scene source paragraphs must be a list of strings")
-
     text = "\n".join(paragraphs)
     words = WORD_RE.findall(text)
     dialogue = _dialogue_spans(text)
     dialogue_words = sum(len(WORD_RE.findall(span)) for span in dialogue)
     sentence_count = sum(len(SENTENCE_RE.findall(paragraph)) for paragraph in paragraphs)
-    action_word_hits = sum(1 for word in words if word.lower() in ACTION_WORDS)
-    capitalized = sorted(set(CAPITALIZED_RE.findall(text)))
-    money_mentions = [re.sub(r"\s+", " ", match.group(0)).lower() for match in MONEY_RE.finditer(text)]
-
     return {
         "paragraph_count": len(paragraphs),
         "sentence_count": sentence_count,
@@ -106,9 +103,9 @@ def build_mechanical_ir(scene: dict) -> dict:
         "dialogue_word_count": dialogue_words,
         "dialogue_ratio": round(dialogue_words / len(words), 4) if words else 0.0,
         "question_count": text.count("?"),
-        "money_mentions": money_mentions,
-        "capitalized_tokens": capitalized,
-        "action_word_hits": action_word_hits,
+        "money_mentions": [re.sub(r"\s+", " ", m.group(0)).lower() for m in MONEY_RE.finditer(text)],
+        "capitalized_tokens": sorted(set(CAPITALIZED_RE.findall(text))),
+        "action_word_hits": sum(1 for word in words if word.lower() in ACTION_WORDS),
     }
 
 
@@ -154,10 +151,9 @@ def segment_chapter(page: str, chapter: int, previous_manifest: dict | None = No
     if not article:
         raise ValueError("missing article.prose")
 
-    raw_segments = SCENE_BREAK_RE.split(article.group(2))
     sources: list[dict] = []
     paragraph_cursor = 1
-    for raw_segment in raw_segments:
+    for raw_segment in SCENE_BREAK_RE.split(article.group(2)):
         paragraphs = [_plain(match.group(0)) for match in P_RE.finditer(raw_segment)]
         paragraphs = [paragraph for paragraph in paragraphs if paragraph]
         if not paragraphs:
@@ -195,6 +191,16 @@ def segment_chapter(page: str, chapter: int, previous_manifest: dict | None = No
             assigned[index] = candidates[0]
             used_ids.add(candidates[0])
 
+    # If scene count and order are unchanged, preserve lineage IDs through prose edits.
+    # Derived cognition is invalidated separately by source hash, so identity reuse does not
+    # authorize stale semantics.
+    if previous_order and len(previous_order) == len(sources):
+        for index, scene_id in enumerate(assigned):
+            old_id = previous_order[index]
+            if scene_id is None and old_id not in used_ids:
+                assigned[index] = old_id
+                used_ids.add(old_id)
+
     if not previous_entries:
         assigned = [_format_scene_id(chapter, (index + 1) * 10) for index in range(len(sources))]
     else:
@@ -203,17 +209,9 @@ def segment_chapter(page: str, chapter: int, previous_manifest: dict | None = No
         for index, scene_id in enumerate(assigned):
             if scene_id is not None:
                 continue
-            left_number = None
-            for left_index in range(index - 1, -1, -1):
-                if assigned[left_index] is not None:
-                    left_number = _scene_number(assigned[left_index])
-                    break
-            right_number = None
-            for right_index in range(index + 1, len(assigned)):
-                if assigned[right_index] is not None:
-                    right_number = _scene_number(assigned[right_index])
-                    break
-            assigned[index] = _allocate_between(chapter, left_number, right_number, used_numbers)
+            left = next((_scene_number(assigned[i]) for i in range(index - 1, -1, -1) if assigned[i]), None)
+            right = next((_scene_number(assigned[i]) for i in range(index + 1, len(assigned)) if assigned[i]), None)
+            assigned[index] = _allocate_between(chapter, left, right, used_numbers)
 
     scenes: list[dict] = []
     for scene_id, source in zip(assigned, sources):
@@ -221,10 +219,7 @@ def segment_chapter(page: str, chapter: int, previous_manifest: dict | None = No
         scene = {"scene_id": scene_id, "source": source}
         scene["mechanical"] = build_mechanical_ir(scene)
         scene["dependencies"] = {
-            "mechanical": {
-                "source_hash": source["hash"],
-                "compiler": COMPILER_VERSIONS["mechanical"],
-            }
+            "mechanical": {"source_hash": source["hash"], "compiler": COMPILER_VERSIONS["mechanical"]}
         }
         scenes.append(scene)
     return scenes
@@ -238,16 +233,16 @@ def build_chapter_manifest(
     previous_manifest: dict | None = None,
 ) -> dict:
     del previous_manifest
-    scene_entries: dict[str, dict] = {}
-    for scene in scenes:
-        source = scene["source"]
-        scene_entries[scene["scene_id"]] = {
-            "source_hash": source["hash"],
-            "start_anchor": source["start_anchor"],
-            "end_anchor": source["end_anchor"],
-            "paragraph_span": source["paragraph_span"],
+    scene_entries = {
+        scene["scene_id"]: {
+            "source_hash": scene["source"]["hash"],
+            "start_anchor": scene["source"]["start_anchor"],
+            "end_anchor": scene["source"]["end_anchor"],
+            "paragraph_span": scene["source"]["paragraph_span"],
             "status": "current",
         }
+        for scene in scenes
+    }
     return {
         "schema": "performance_chapter_manifest/v1",
         "chapter": chapter,
@@ -272,22 +267,16 @@ def cache_status(
     performance_dep = dependencies.get("performance", {}) if isinstance(dependencies, dict) else {}
     mechanical_valid = isinstance(record_source, dict) and record_source.get("hash") == source_hash
     semantic_valid = (
-        mechanical_valid
-        and isinstance(semantic_dep, dict)
+        mechanical_valid and isinstance(semantic_dep, dict)
         and semantic_dep.get("source_hash") == source_hash
         and semantic_dep.get("compiler") == semantic_version
     )
     performance_valid = (
-        semantic_valid
-        and isinstance(performance_dep, dict)
+        semantic_valid and isinstance(performance_dep, dict)
         and performance_dep.get("source_hash") == source_hash
         and performance_dep.get("compiler") == performance_version
     )
-    return {
-        "mechanical_valid": mechanical_valid,
-        "semantic_valid": semantic_valid,
-        "performance_valid": performance_valid,
-    }
+    return {"mechanical_valid": mechanical_valid, "semantic_valid": semantic_valid, "performance_valid": performance_valid}
 
 
 def validate_claim(claim: dict) -> None:
@@ -325,14 +314,12 @@ def merge_derived_layer(
     if not _nonempty_text(compiler) or not _nonempty_text(dependency_hash):
         raise ValueError("compiler and dependency_hash are required")
     updated = copy.deepcopy(scene_record)
-    current = updated.get(layer)
+    current = updated.setdefault(layer, {})
     if not isinstance(current, dict):
-        current = {}
-        updated[layer] = current
-    conflicts = updated.get("semantic_conflicts")
+        raise ValueError(f"existing {layer} layer must be an object")
+    conflicts = updated.setdefault("semantic_conflicts", [])
     if not isinstance(conflicts, list):
-        conflicts = []
-        updated["semantic_conflicts"] = conflicts
+        raise ValueError("semantic_conflicts must be a list")
 
     for field, candidate in payload.items():
         validate_claim(candidate)
@@ -349,16 +336,11 @@ def merge_derived_layer(
             current[field] = copy.deepcopy(candidate)
             continue
         conflicts.append({
-            "field": f"{layer}.{field}",
-            "previous": copy.deepcopy(existing),
-            "candidate": copy.deepcopy(candidate),
-            "status": "semantic_conflict",
+            "field": f"{layer}.{field}", "previous": copy.deepcopy(existing),
+            "candidate": copy.deepcopy(candidate), "status": "semantic_conflict",
         })
 
-    dependencies = updated.get("dependencies")
-    if not isinstance(dependencies, dict):
-        dependencies = {}
-        updated["dependencies"] = dependencies
+    dependencies = updated.setdefault("dependencies", {})
     dependencies[layer] = {"dependency_hash": dependency_hash, "compiler": compiler}
     return updated
 
@@ -367,11 +349,7 @@ def _source_pointer(scene_record: dict) -> dict:
     source = scene_record.get("source")
     if not isinstance(source, dict):
         return {}
-    return {
-        key: copy.deepcopy(source[key])
-        for key in ("hash", "chapter", "paragraph_span", "start_anchor", "end_anchor")
-        if key in source
-    }
+    return {key: copy.deepcopy(source[key]) for key in ("hash", "chapter", "paragraph_span", "start_anchor", "end_anchor") if key in source}
 
 
 def _pick(mapping: object, fields: tuple[str, ...]) -> dict:
@@ -387,7 +365,6 @@ def render_scene_view(scene_record: dict, view: str) -> dict:
     mechanical = scene_record.get("mechanical", {})
     semantic = scene_record.get("semantic", {})
     result: dict = {"scene_id": scene_record.get("scene_id"), "source": source}
-
     if view == "performance":
         result["mechanical"] = _pick(mechanical, ("dialogue_turns", "dialogue_ratio", "question_count", "action_word_hits", "capitalized_tokens"))
         result["semantic"] = _pick(semantic, ("active_task", "characters", "state_in", "state_out", "relationship_pressure", "required_outcome", "must_not_drift", "location", "physical_state"))
@@ -406,21 +383,133 @@ def render_scene_view(scene_record: dict, view: str) -> dict:
         result["semantic"] = _pick(semantic, ("characters", "location", "objects", "active_task", "physical_state", "scene_turn", "required_outcome"))
         if isinstance(scene_record.get("performance"), dict):
             result["performance"] = copy.deepcopy(scene_record["performance"])
-    else:  # comparison
+    else:
         result["mechanical"] = _pick(mechanical, ("dialogue_turns", "dialogue_ratio", "question_count", "action_word_hits"))
         result["semantic"] = _pick(semantic, ("source_strengths", "compression_pressure", "performance_opportunity", "relationship_pressure", "required_outcome", "must_not_drift"))
-        if isinstance(scene_record.get("performance"), dict):
-            result["performance"] = copy.deepcopy(scene_record["performance"])
-        if "screenplay" in scene_record:
-            result["screenplay"] = copy.deepcopy(scene_record["screenplay"])
-        if "comparison" in scene_record:
-            result["comparison"] = copy.deepcopy(scene_record["comparison"])
+        for key in ("performance", "screenplay", "comparison"):
+            if key in scene_record:
+                result[key] = copy.deepcopy(scene_record[key])
     return result
+
+
+def set_screenplay_result(scene_record: dict, screenplay: str, *, compiler: str, dependency_hash: str) -> dict:
+    if not _nonempty_text(screenplay):
+        raise ValueError("screenplay content is required")
+    if not _nonempty_text(compiler) or not _nonempty_text(dependency_hash):
+        raise ValueError("screenplay compiler and dependency_hash are required")
+    updated = copy.deepcopy(scene_record)
+    updated["screenplay"] = {
+        "kind": "generated_output",
+        "content": screenplay.strip(),
+        "compiler": compiler,
+        "dependency_hash": dependency_hash,
+    }
+    updated.setdefault("dependencies", {})["screenplay"] = {"dependency_hash": dependency_hash, "compiler": compiler}
+    return updated
+
+
+def _validate_possible_win(win: dict, index: int) -> None:
+    if not isinstance(win, dict):
+        raise ValueError(f"possible_wins[{index}] must be an object")
+    for field in ("surface", "problem", "performed_advantage"):
+        if not _nonempty_text(win.get(field)):
+            raise ValueError(f"possible_wins[{index}].{field} is required")
+    span = win.get("source_span")
+    if not isinstance(span, list) or len(span) != 2 or not all(_nonempty_text(value) for value in span):
+        raise ValueError(f"possible_wins[{index}].source_span must contain two source anchors")
+
+
+def validate_comparison(comparison: dict) -> None:
+    if not isinstance(comparison, dict):
+        raise ValueError("comparison must be an object")
+    verdict = comparison.get("verdict")
+    if verdict not in COMPARISON_VERDICTS:
+        raise ValueError(f"comparison verdict must be one of {sorted(COMPARISON_VERDICTS)}")
+    if verdict == "performance_candidate":
+        wins = comparison.get("possible_wins")
+        if not isinstance(wins, list) or not wins:
+            raise ValueError("performance_candidate possible_wins are required")
+        for index, win in enumerate(wins):
+            _validate_possible_win(win, index)
+    elif not _nonempty_text(comparison.get("reason")):
+        raise ValueError(f"{verdict} comparison reason is required")
+
+
+def set_comparison_result(scene_record: dict, comparison: dict, *, compiler: str, dependency_hash: str) -> dict:
+    validate_comparison(comparison)
+    if not _nonempty_text(compiler) or not _nonempty_text(dependency_hash):
+        raise ValueError("comparison compiler and dependency_hash are required")
+    updated = copy.deepcopy(scene_record)
+    payload = copy.deepcopy(comparison)
+    payload["compiler"] = compiler
+    payload["dependency_hash"] = dependency_hash
+    updated["comparison"] = payload
+    updated.setdefault("dependencies", {})["comparison"] = {"dependency_hash": dependency_hash, "compiler": compiler}
+    return updated
+
+
+def validate_scene_record(record: dict) -> None:
+    if not isinstance(record, dict):
+        raise ValueError("scene record must be an object")
+    scene_id = record.get("scene_id")
+    if not isinstance(scene_id, str) or not SCENE_ID_RE.match(scene_id):
+        raise ValueError("scene_id is invalid")
+    source = record.get("source")
+    if not isinstance(source, dict) or not _nonempty_text(source.get("hash")):
+        raise ValueError("scene source hash is required")
+    if not isinstance(record.get("mechanical"), dict):
+        raise ValueError("mechanical IR is required")
+    if not isinstance(record.get("dependencies"), dict):
+        raise ValueError("dependencies are required")
+    for layer in ("semantic", "performance"):
+        payload = record.get(layer)
+        if payload is None:
+            continue
+        if not isinstance(payload, dict):
+            raise ValueError(f"{layer} must be an object")
+        for claim in payload.values():
+            validate_claim(claim)
+    screenplay = record.get("screenplay")
+    if screenplay is not None:
+        if not isinstance(screenplay, dict) or screenplay.get("kind") != "generated_output":
+            raise ValueError("screenplay kind must be generated_output")
+        if not _nonempty_text(screenplay.get("content")) or not _nonempty_text(screenplay.get("compiler")):
+            raise ValueError("screenplay content and compiler are required")
+    comparison = record.get("comparison")
+    if comparison is not None:
+        validate_comparison(comparison)
 
 
 def _write_json(path: Path, value: object) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(value, ensure_ascii=False, sort_keys=True, indent=2) + "\n", encoding="utf-8")
+
+
+def _read_json(path: Path) -> dict | None:
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+    return value if isinstance(value, dict) else None
+
+
+def _preserve_valid_derived(new_scene: dict, previous_scene: dict | None) -> dict:
+    if not isinstance(previous_scene, dict):
+        return new_scene
+    old_source = previous_scene.get("source")
+    if not isinstance(old_source, dict) or old_source.get("hash") != new_scene["source"]["hash"]:
+        return new_scene
+    merged = copy.deepcopy(new_scene)
+    for key in DERIVED_KEYS:
+        if key in previous_scene:
+            merged[key] = copy.deepcopy(previous_scene[key])
+    old_dependencies = previous_scene.get("dependencies")
+    if isinstance(old_dependencies, dict):
+        deps = merged.setdefault("dependencies", {})
+        for key, value in old_dependencies.items():
+            if key != "mechanical":
+                deps[key] = copy.deepcopy(value)
+    return merged
 
 
 def write_compiled_chapter(
@@ -431,29 +520,48 @@ def write_compiled_chapter(
 ) -> list[Path]:
     chapter_root = output_root / f"{chapter:03d}"
     manifest_path = chapter_root / "manifest.json"
-    if previous_manifest is None and manifest_path.exists():
-        try:
-            loaded = json.loads(manifest_path.read_text(encoding="utf-8"))
-            previous_manifest = loaded if isinstance(loaded, dict) else None
-        except (OSError, json.JSONDecodeError):
-            previous_manifest = None
+    if previous_manifest is None:
+        previous_manifest = _read_json(manifest_path)
+    previous_scene_records: dict[str, dict] = {}
+    if isinstance(previous_manifest, dict):
+        for scene_id in previous_manifest.get("scene_order", []):
+            if not isinstance(scene_id, str):
+                continue
+            scene_path = chapter_root / f"{scene_id.split('.', 1)[1]}.json"
+            loaded = _read_json(scene_path)
+            if loaded is not None:
+                previous_scene_records[scene_id] = loaded
+
     scenes = segment_chapter(page, chapter, previous_manifest=previous_manifest)
-    manifest = build_chapter_manifest(
-        chapter,
-        f"chapters/{chapter:03d}.html",
-        scenes,
-        COMPILER_VERSIONS,
-        previous_manifest=previous_manifest,
-    )
+    scenes = [_preserve_valid_derived(scene, previous_scene_records.get(scene["scene_id"])) for scene in scenes]
+    manifest = build_chapter_manifest(chapter, f"chapters/{chapter:03d}.html", scenes, COMPILER_VERSIONS, previous_manifest=previous_manifest)
     written: list[Path] = []
     _write_json(manifest_path, manifest)
     written.append(manifest_path)
+    current_paths: set[Path] = set()
     for scene in scenes:
         suffix = scene["scene_id"].split(".", 1)[1]
         scene_path = chapter_root / f"{suffix}.json"
         _write_json(scene_path, scene)
         written.append(scene_path)
+        current_paths.add(scene_path)
+    if chapter_root.exists():
+        for old_path in chapter_root.glob("s*.json"):
+            if old_path not in current_paths:
+                old_path.unlink()
     return written
+
+
+def load_scene_record(output_root: Path, scene_id: str) -> dict:
+    match = SCENE_ID_RE.match(scene_id)
+    if not match:
+        raise ValueError(f"invalid scene id: {scene_id}")
+    path = output_root / match.group("chapter") / f"s{int(match.group('number')):03d}.json"
+    value = _read_json(path)
+    if value is None:
+        raise ValueError(f"compiled scene not found: {scene_id}")
+    validate_scene_record(value)
+    return value
 
 
 def validate_record(record: dict) -> None:
@@ -572,19 +680,45 @@ def apply_batch_to_root(batch: dict, chapter_root: Path) -> list[Path]:
     return changed
 
 
-def main() -> int:
-    parser = argparse.ArgumentParser(description="Validate or apply a PERFORMANCE production batch.")
-    parser.add_argument("--batch", type=Path, required=True)
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description="Compile, inspect, validate, or apply PERFORMANCE production state.")
+    mode = parser.add_mutually_exclusive_group(required=True)
+    mode.add_argument("--batch", type=Path)
+    mode.add_argument("--compile-chapter", type=int)
+    mode.add_argument("--view", choices=sorted(VIEW_NAMES))
+    parser.add_argument("--scene")
     parser.add_argument("--apply", action="store_true")
     parser.add_argument("--chapter-root", type=Path, default=ROOT / "chapters")
-    args = parser.parse_args()
-    batch = json.loads(args.batch.read_text(encoding="utf-8"))
-    validate_batch(batch)
+    parser.add_argument("--output-root", type=Path, default=ROOT / "state" / "editorial" / "performance-production")
+    args = parser.parse_args(argv)
+
+    if args.batch is not None:
+        batch = json.loads(args.batch.read_text(encoding="utf-8"))
+        validate_batch(batch)
+        if args.apply:
+            changed = apply_batch_to_root(batch, args.chapter_root)
+            print(json.dumps({"changed": [path.as_posix() for path in changed]}, indent=2))
+        else:
+            print(json.dumps({"scope_count": len(batch["scope"]), "survivors": [r["chapter"] for r in batch["records"] if r["verdict"] == "change_survives"]}, indent=2))
+        return 0
+
     if args.apply:
-        changed = apply_batch_to_root(batch, args.chapter_root)
-        print(json.dumps({"changed": [path.as_posix() for path in changed]}, indent=2))
-    else:
-        print(json.dumps({"scope_count": len(batch["scope"]), "survivors": [r["chapter"] for r in batch["records"] if r["verdict"] == "change_survives"]}, indent=2))
+        parser.error("--apply requires --batch")
+
+    if args.compile_chapter is not None:
+        chapter = args.compile_chapter
+        path = args.chapter_root / f"{chapter:03d}.html"
+        if not path.exists():
+            raise ValueError(f"canonical chapter missing: {path.name}")
+        written = write_compiled_chapter(chapter, path.read_text(encoding="utf-8"), args.output_root)
+        manifest = _read_json(args.output_root / f"{chapter:03d}" / "manifest.json") or {}
+        print(json.dumps({"chapter": chapter, "scene_count": len(manifest.get("scene_order", [])), "written": [p.as_posix() for p in written]}, indent=2))
+        return 0
+
+    if not _nonempty_text(args.scene):
+        parser.error("--view requires --scene")
+    record = load_scene_record(args.output_root, args.scene)
+    print(json.dumps(render_scene_view(record, args.view), ensure_ascii=False, indent=2))
     return 0
 
 
