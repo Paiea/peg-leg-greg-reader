@@ -103,6 +103,8 @@
     "358": {"showcase": false, "reason": "bridge_not_needed"},
     "368": {"showcase": false, "reason": "redundant_progression"},
     "372": {"showcase": false, "reason": "redundant_progression"},
-    "377": {"showcase": false, "reason": "bridge_not_needed"}
+    "377": {"showcase": false, "reason": "bridge_not_needed"},
+    "382": {"showcase": false, "reason": "bridge_not_needed"},
+    "384": {"showcase": false, "reason": "superseded_by_stronger_chapter"}
   }
 }
