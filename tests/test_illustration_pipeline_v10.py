@@ -70,17 +70,30 @@ class CharacterTagUnionTests(unittest.TestCase):
 
 
 class AnchorQualityTests(unittest.TestCase):
-    def test_short_pronoun_anchor_is_quality_blocked_even_when_unique(self):
-        candidates = [{"id": "weak", "chapter": 159, "paragraph_anchor": "He was under the stage.", "status": "prompt_ready"}]
+    def test_short_pronoun_anchor_is_quality_blocked_when_backfill_quality_is_enforced(self):
+        candidates = [{
+            "id": "weak",
+            "chapter": 159,
+            "paragraph_anchor": "He was under the stage.",
+            "status": "prompt_ready",
+            "anchor_quality_enforced": True,
+        }]
         report = validate_candidate_anchors(candidates, {159: "Before. He was under the stage. After."})
         self.assertEqual(report[0]["anchor_status"], "valid")
         self.assertEqual(report[0]["anchor_quality_status"], "weak")
+        self.assertTrue(report[0]["anchor_quality_enforced"])
         self.assertTrue(report[0]["should_block"])
 
-    def test_distinctive_anchor_passes_quality_gate(self):
+    def test_distinctive_anchor_passes_enforced_quality_gate(self):
         anchor = "We found the fish wedged behind a support where someone had pushed it with a boot."
         report = validate_candidate_anchors(
-            [{"id": "strong", "chapter": 159, "paragraph_anchor": anchor, "status": "prompt_ready"}],
+            [{
+                "id": "strong",
+                "chapter": 159,
+                "paragraph_anchor": anchor,
+                "status": "prompt_ready",
+                "anchor_quality_enforced": True,
+            }],
             {159: f"Before. {anchor} After."},
         )
         self.assertEqual(report[0]["anchor_quality_status"], "strong")
@@ -98,11 +111,15 @@ class OlderCoverageSeedTests(unittest.TestCase):
         self.assertGreater(changed, 0)
         self.assertNotEqual(by_id["ch158-letter-lyssa"]["paragraph_anchor"], "I bought paper.")
         self.assertNotEqual(by_id["ch159-fish-rescue"]["paragraph_anchor"], "He was under the stage.")
+        self.assertTrue(by_id["ch158-letter-lyssa"]["anchor_quality_enforced"])
+        self.assertTrue(by_id["ch159-fish-rescue"]["anchor_quality_enforced"])
         self.assertEqual(
             sorted(row["chapter"] for row in updated if 166 <= row.get("chapter", 0) <= 170),
             [166, 167, 168, 169, 170],
         )
         for row in updated:
+            if 166 <= row.get("chapter", 0) <= 170:
+                self.assertTrue(row.get("anchor_quality_enforced"))
             if 166 <= row.get("chapter", 0) <= 170 and "Greg" in row.get("characters", []):
                 self.assertEqual(row.get("framing_preference"), "above_waist")
 
