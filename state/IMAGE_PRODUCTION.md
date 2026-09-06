@@ -54,7 +54,7 @@ Once legacy live art has been imported, CI may tighten from migration reporting 
 
 `state/visual/GENERATION_QUEUE.json` is the machine-ready handoff for actual image generation.
 
-Each queue record should be self-sufficient enough that a visual worker does not need to reopen the candidate ledger merely to understand the shot. Carry forward the scene summary, visual hook, required characters, location, mood, spoiler level, fit target, paragraph anchor, prompt-pack path, deterministic target asset, current illustration coverage count, style family, framing preference, character reference assets, character appearance notes, and continuity notes.
+Each queue record should be self-sufficient enough that a visual worker does not need to reopen the candidate ledger merely to understand the shot. Carry forward the scene summary, visual hook, required characters, location, mood, spoiler level, fit target, paragraph anchor, prompt-pack path, deterministic target asset, current illustration coverage count, style family, framing preference, selected character reference assets, scored reference records, reference-selection rationale, character appearance notes, and continuity notes.
 
 The queue remains a derivative. Candidate and manuscript authority still outrank it.
 
@@ -74,9 +74,33 @@ Do not solve lower-body continuity by inventing a peg leg, prosthetic, crutch st
 
 Shared default style remains **SKETCH + INK + PAINT**. Character reference assets should improve continuity without flattening camera, gesture, lighting, expression, or composition variety.
 
+## Character-reference promotion and quality
+
+Accepted art can become future continuity guidance, but the catalog must stay selective.
+
+`promote_character_references.py` may nominate `approved` or `live` registry art into the structured reference pool when the asset clearly names/supports a cataloged character and clears the quality threshold. Promotion is additive production metadata; it never changes manuscript canon or approval status.
+
+Reference quality is scored mechanically. Current signals include:
+- live art outranks merely approved art
+- exact fit outranks close-enough fit
+- shared `sketch-ink-paint` style receives a bonus
+- hand-curated anchors remain strong baseline references
+- strong face/style anchors may receive explicit bonuses
+- normal Greg generation rewards `above_waist` references
+- full-body/lower-body Greg references are penalized when the requested framing is above waist
+- non-production statuses are heavily penalized
+
+Automated promotion uses a minimum quality threshold and keeps only a compact top set per character. **Do not automatically accumulate every accepted panel featuring Greg.** A flooded reference pool is worse than a small trustworthy one.
+
+`audit_character_references.py` reports stale/bad continuity metadata, including missing assets, duplicate assets, structured references pointing at missing or non-approved/non-live registry records, missing appearance notes, and Greg references explicitly tagged as lower-body-heavy without an above-waist anchor.
+
+The generation queue selects the strongest current references per character rather than copying the whole catalog. It stores the selected scored records plus a plain-language rationale. Generation packets expose that rationale so a human can see why the continuity anchors won before spending a generation cycle.
+
+Hand-curated references are allowed to remain stronger than mediocre legacy imports. A genuinely better accepted image should be able to outrank them through status, fit, style, and continuity quality.
+
 ## Generation and approval packets
 
-`state/visual/GENERATION_PACKET.md` is the disposable human-facing view of the next production batch. It is generated from the already coverage-prioritized queue and should normally show the next 25 ready shots with continuity context and deterministic output paths.
+`state/visual/GENERATION_PACKET.md` is the disposable human-facing view of the next production batch. It is generated from the already coverage-prioritized queue and should normally show the next 25 ready shots with continuity context, selected-reference scores/rationale, and deterministic output paths.
 
 `state/visual/ILLUSTRATION_APPROVAL_PACKET.md` is the human-facing review surface for assets currently in `generated` status. It provides explicit approve/reject templates without changing approval authority.
 
@@ -94,7 +118,7 @@ Production can run in waves of 3–5 sheets. A longer ambition of roughly 20 she
 2. identify next 25 highest-value coverage slots from the generated backlog
 3. read authoritative manuscript scenes and candidate briefs
 4. select distinct visual moments
-5. construct panel prompts using `VISUAL_BIBLE.md`, character visual references, and generated prompt packs
+5. construct panel prompts using `VISUAL_BIBLE.md`, scored character visual references, and generated prompt packs
 6. generate 5x5 sheet
 7. review cells with loose KEEP/RETRY standard
 8. crop KEEP panels deterministically
@@ -102,7 +126,7 @@ Production can run in waves of 3–5 sheets. A longer ambition of roughly 20 she
 10. integration skips RETRY
 11. place KEEP art at a natural paragraph break
 12. verify chapter path, image path, aspect ratio, continuity, alt text, and mobile presentation
-13. update coverage state
+13. update coverage and character-reference state
 14. repeat
 
 ## Panel selection
@@ -169,6 +193,6 @@ That last view converts the report from a scoreboard into a routing surface: the
 
 ## After each wave
 
-Report panels generated, KEEP/RETRY, chapters improved, zero/one/two/three+ image counts when available, approved-but-unpublished count, unmanaged legacy migration debt, major continuity problems, and next 25 slots.
+Report panels generated, KEEP/RETRY, chapters improved, zero/one/two/three+ image counts when available, approved-but-unpublished count, unmanaged legacy migration debt, character-reference audit issues, major continuity problems, and next 25 slots.
 
 Leave a fresh-worker handshake that points back to GitHub state rather than embedding batch history.
