@@ -1,8 +1,8 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 479 - **THE HOMECOMER**.
-- Exact Chapters 249-479 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
+- Current exact story endpoint: Chapter 480 - **THE WEARER**.
+- Exact Chapters 249-480 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
 - Permanent running-manuscript consolidation still has known integration debt; do not reconstruct missing exact text from summaries.
 
 ## Active correction overlays
@@ -21,108 +21,124 @@ Before any new named character: check `BOOK1_NAME_REGISTRY_CH82.md` and current 
 - Ch476 proves artifact markets can outrun Greg's safe deployable capital and that losing a good object can be correct.
 - Ch477 proves Greg can pay normal travel cost when time/body/location value justify it and closes the first East Fen/Lakeward brokerage fee.
 - Ch478 restores relationship/home pressure through Lyssa's independent letter and physically routes Greg home.
-- Ch479 completes the return and reinforces that belonging now consists of accumulated routines, work, objects, social expectation, and intimacy rather than a declared theme.
+- Ch479 completes the return and reinforces belonging through accumulated household/work/social residue.
+- Ch480 materially advances the work-limb/body lane without inventing a new payment schedule: current fit data supersedes the older front correction for final-socket prep, while the existing quoted work order remains unchanged.
 - When liquidity genuinely scales, verify actual obligations before clearing them. Preserve reserve/working capital, distinguish debt from gifts/favors/support, and treat the work limb as evolving infrastructure.
 
 ## Current financial / body / magic state
-- Greg ends Ch479 **home in Carrow**.
-- Cash **12c** after paying a newly established **6c Lakeward -> Carrow fare**.
+- Greg ends Ch480 **home in Carrow**.
+- Cash **12c**.
 - Vale **23c**.
-- Bits remain unspecified after ordinary food/lodging and the prior one-bit seat hold.
-- 10c survival floor remains active; Greg has **2c above floor**.
-- Reed-glass introduction fee is paid/closed.
-- 20c work-limb deposit remains paid toward the **1 silver + 18c quote**. Remaining schedule/terms are still unverified and must not be invented.
+- Bits unspecified after ordinary food and local small purchases.
+- 10c survival floor active; **2c above floor**.
+- Reed-glass introduction fee remains paid/closed.
+- Work-limb deposit remains **20c paid toward the established 1 silver + 18c quote**.
+- Ch480 Hark & Venn review explicitly says **existing quote unchanged** and **no additional payment requested for this review**.
+- No new due date, installment amount, final balance schedule, or pickup-payment term is established.
 - Protocol remains **59 / 53 / 139**.
-- Greg remains on two crutches; no trial-limb wear in Ch479.
+- Greg remains on two crutches outside supervised fitting use.
 - Shoulder continues improving; no new injury or skin break.
-- No magic tests in Ch479.
+- No magic tests in Ch480.
 
-## Chapter 479 - THE HOMECOMER
+## Chapter 480 - THE WEARER
 
 ### Role / title
-- Greg is **THE HOMECOMER** because the chapter is about returning to a place and relationship that continued without him, not about travel optimization, market leverage, artifact acquisition, or solving a new problem.
-- Repository title search found no current `THE HOMECOMER` collision before drafting.
-
-### Lakeward -> Carrow return
-- Greg boards the held first-bell Carrow route from Lakeward.
-- The posted/charged fare is established in exact prose as **6c**.
-- Cash **18c -> 12c**.
-- Greg accepts the cost without penny panic because going home is worth the time/body/location value.
-- Travel lasts one full road day and part of the next, consistent with Ch478 timing.
-- No magical-road emergency, commercial job, artifact encounter, or gray-market consequence occurs during the trip.
-- Road texture remains ordinary: passengers, road-house stop, minor delay, familiar place names returning as Greg approaches Carrow.
-
-### Return to Carrow
-- Greg recognizes Carrow through accumulated practical familiarity rather than dramatic revelation: routes, paving, district names, old annoyances, known shortcuts, and body-memory.
-- Senna's old paved triangle remains part of the city, but Senna is absent and another person occupies the bench. No forced callback occurs.
-- Greg reaches home around midday.
-
-### Lyssa / homecoming
-- Lyssa is actively working when Greg arrives, fitting an unnamed customer in a brown overskirt.
-- Greg's return enters Lyssa's ongoing day rather than freezing her work around him.
-- Lyssa first tells Greg not to hug her because she has pins/needle in hand, then hugs him carefully anyway.
-- Their reunion stays intimate but ordinary: teasing, kissing, physical relief, food, household irritation, and work continuing.
-- Lyssa's customer knows Greg only through Lyssa's complaining/talking and remains unnamed; no new relationship is established.
-- Greg and Lyssa explicitly say they missed each other without turning the scene into a sentimental monologue.
-
-### Household residue
-- Cala's small uneven chair is back in the room, still with one shorter leg.
-- Greg's cracked bad cup remains on the high shelf; Lyssa calls it `trash with tenure` and still does not want him drinking from it.
-- Greg's shirt with missing button remains on the pillow with the button set aside.
-- Lyssa has changed the work room while Greg was away: a narrow thread hook rail, shifted table position, and a second lamp near the fitting area.
-- These are ordinary signs that Lyssa's work and the household continued without Greg.
-- Greg's bag/crutches return to familiar places without discussion, reinforcing accumulated home routine.
+- Greg is **THE WEARER** because the chapter centers on using the trial work limb as equipment under specialist supervision, learning what his current body actually does with it, and allowing the shop to revise the fit before final work.
+- Repository search found no current `THE WEARER` collision before drafting.
 
 ### Hark & Venn note
-- The sealed Hark & Venn note is physically visible among Greg's papers once he is home.
-- Greg deliberately does **not** open it in Ch479 because the homecoming gets room to breathe.
-- Exact contents, fitting status, due terms, payment schedule, pickup timing, and remaining work-limb obligations remain **unverified**.
-- Greg only moves the note once to keep a water cup away from it.
+Greg opens the sealed note at home. Exact new note content establishes:
+- return for fit review before final socket work;
+- bring current trial components, liner, and wear notes;
+- existing quote unchanged;
+- no additional payment requested for this review;
+- do not increase unsupervised wear merely because travel sessions were tolerated.
 
-### Relationship / conversation residue
-- Greg tells Lyssa about East Fen/reed-glass acceptance, the lost stillhook auction, and the High Cinder road-ground incident in compressed personal conversation rather than as a ledger.
-- Lyssa approves that Greg did not spend 11c on the stillhook because he could not safely afford it, while refusing to turn the artifact loss into tragedy.
-- Greg does **not** disclose the Ch473 illegal freight during this first meal home. This is a timing choice, not a permanent lie or established concealment arc.
-- Lyssa distinguishes her material/work perspective from Greg's abstraction, including dismissing his Lakeward-bought repair thread as ordinary bad thread and telling him to fix his own seam.
+This resolves the sealed-note uncertainty without inventing prior financial terms.
+
+### Fit review
+- Greg brings the current trial socket, liner, temporary ash shaft, medium test foot, and wear notebook to Hark & Venn.
+- An unnamed female fitter conducts the review; no new staff name/title/ownership hierarchy is established.
+- She reads the relevant wear log rather than Greg narrating a generalized success story.
+- Current residual-limb volume/shape differs enough from the older fit that the previous front correction should not be copied unchanged into final work.
+- The fitter removes/replaces temporary padding and adjusts upper-inside contact for the supervised trial.
+- No catastrophic fit problem is found.
+- Greg shows no sharp pressure, no heat, no skin opening, and only mild pink contact that fades after removal.
+
+### Load pattern / hands priority
+- During rail walking, Greg shortens the right side despite no established length mismatch.
+- Fitter interprets this narrowly as a learned protective load pattern, not proof of an equipment-length error.
+- Greg practices controlled weight transfer and short stepping rather than trying to think his way through it.
+- Work-order priority remains **usable hands**, not distance alone.
+- Greg performs a very small two-hand tray task only within rail reach and under fitter control.
+- This reinforces the strategic value of a finished limb for standing tasks, carrying, doors, ledgers, lamps, and one-hand artifacts without granting unsupported capability.
+- Greg privately remembers the lost stillhook's one-hand activation constraint but does not claim this limb is ready for such use.
+
+### Current supervised wear result
+- Total supervised trial wear in Ch480: approximately **15 minutes**.
+- Temporary adjustments improve fit enough for bounded standing/short movement.
+- Upper-inside pink contact fades after removal; no heat or pain established.
+- No final clearance is granted.
+- No independent increased wear is authorized.
+
+### Final-socket progression
+- Hark & Venn keeps the **trial socket / temporary shaft / test foot** because current measurements should inform final-socket preparation and the shop wants the trial hardware available for comparison.
+- Greg takes the liner home and must keep it clean for the next visit.
+- Fitter describes the next stage as **prep**, not a finished limb.
+- No pickup date is established.
+- No guaranteed completion date is established.
+- No new payment is due in Ch480.
+- Greg waits for the shop to send word or request another temporary fit.
+- This is real progress even though the trial equipment is temporarily less available to Greg at home.
+
+### Lyssa / ordinary residue
+- Lyssa remains in her own work/material register and does not become Greg's medical analyst.
+- She notices that Greg moves differently when tired but explicitly does not turn that into a report or diagnosis.
+- She asks whether the fit hurts; Greg says no; she leaves it there.
+- Household/work continuity continues, including Lyssa's ongoing clothing work and the previously established cracked cup / loose clothing residue.
 
 ## Protected uncertainties / live residue
-- Greg ends Ch479 **home in Carrow**.
+- Greg ends Ch480 **home in Carrow**.
 - Cash **12c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 139**.
-- Hark & Venn note remains sealed and exact contents remain unknown.
+- Work-limb final socket is **not finished**.
+- Hark & Venn keeps trial socket/temporary shaft/test foot for final-prep comparison; Greg has liner at home.
+- Existing quote is unchanged; no new payment schedule, due date, pickup date, or balance timing is established.
 - Theatre visitor purpose from Lyssa's earlier letter remains unknown.
 - Hessa, Sori, Morrow, South Road organizer lead, and other pending lanes remain unresolved unless later authority moves them.
 - Stillhook remains Elian's; magical-displacement behavior, maker/generation, repairability, and Elian's profession/use remain unverified.
 - East Fen Fenwright lower-draft problem remains unresolved and nonessential to the completed glass deal.
 - Ch473 marked Three Rays freight lot remains with freight owner unless newer exact prose changes that later.
 - No enforcement consequence from Ch473 has occurred.
+- Greg has not yet disclosed the Ch473 illegal freight to Lyssa; no permanent concealment arc is established.
 - Debt-closure progression remains inactive at current liquidity.
 - No permanent companion.
 
-## Chapter 480 trailhead
-Follow the next actual claim from Ch479/current authority and `state/PROGRESSION_ENGINE.md`.
+## Chapter 481 trailhead
+Follow the next actual claim from Ch480/current authority and `state/PROGRESSION_ENGINE.md`.
 
-Greg begins **12c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**, **home in Carrow**. He has just returned to Lyssa after the Cinder/Lakeward run. The Hark & Venn note is physically present and still sealed.
+Greg begins **12c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**, **home in Carrow**. Hark & Venn now has the trial socket/shaft/test foot for final-prep comparison; Greg has the liner. The shop will send word or request another temporary fit. No new payment is due or scheduled.
 
 Strong movement:
-- The work-limb lane is now naturally available because Greg is physically home with the sealed Hark & Venn note, but **open/read exact note wording before making any payment, pickup, adjustment, or due-date claim**.
-- If the note creates a fitting/inspection/collection step, verify it against prior exact limb authority before acting. Do not infer remaining terms from the 1 silver + 18c quote alone.
-- Let one or two home/Carrow lanes resume naturally rather than detonating every pending thread. Theatre visitor, Hessa, Sori, Vale, and Morrow can wait unless one has a physically plausible immediate claim.
-- Greg's current 12c cash is close to the 10c floor but should not emotionally reset him to early-book poverty; he has better earning capacity, references, routes, and leverage than before.
-- A quiet material/body/work chapter is viable after Ch477 environmental pressure and Ch479 homecoming intimacy, especially if it advances the limb or another concrete old constraint.
-- Keep artifact pressure alive long-range, but do not compensate for the lost stillhook with an easy replacement.
-- Debt closure still waits for genuinely stronger liquidity/capacity. Verify real obligations before any payoff.
+- Do not repeat another fitting chapter immediately. Let Hark & Venn work offscreen until a real shop note arrives.
+- One older Carrow lane can now re-enter naturally: theatre visitor, Hessa, Sori, Vale, Morrow, ordinary household/work, or a new earning-capital move that grows from existing access.
+- Greg is at **12c**, only 2c above the survival floor, but this is not an early-book poverty reset. His earning capacity, references, market knowledge, and leverage remain materially better than before.
+- A concrete paid opportunity can matter now, especially if it uses accumulated references/coordination rather than restarting 1c survival work as the main engine.
+- Artifact pressure remains active long-range. Do not compensate for the lost stillhook with an easy replacement.
+- Hessa/magic is available if timing supports it, but preserve protocol/evidence discipline and do not make the new limb progress magically unlock magic utility.
+- If the Ch473 illegal freight becomes relevant socially or legally, let it arise through natural records/witnesses/conversation rather than author punishment.
+- Debt closure still waits for genuinely stronger liquidity/capacity.
 
 Avoid:
-- paying Hark & Venn without exact terms;
-- turning the Hark & Venn note into a surprise giant bill or free gift without authority;
-- immediately resolving theatre + Hessa + Vale + Sori + Morrow in one chapter;
+- another limb fitting immediately;
+- inventing a Hark & Venn completion date or payment schedule;
 - treating 12c as economic reset;
-- a second homecoming/relationship chapter that simply repeats Ch479;
+- resolving theatre + Hessa + Vale + Sori + Morrow together;
+- instant replacement artifact;
 - debt-payoff checklist behavior;
 - another strategic manifesto.
 
-**MANDATORY TITLE CHECK CH480:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
+**MANDATORY TITLE CHECK CH481:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
