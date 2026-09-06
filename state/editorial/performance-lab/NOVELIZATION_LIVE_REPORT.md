@@ -45,3 +45,7 @@
 ## Publish boundary
 
 This report authorizes only these validated candidate changes. It does not authorize a Chapters 1-20 pass, manuscript-wide PERFORMANCE, or further novelization rollout.
+
+## Conservative attribution hardening
+
+PASS. Novel prose was re-anchored for instantaneous first-read speaker recognition. Ordinary `said` / `asked` tags are intentionally repeated after narration, action beats, and speaker changes. An action beat is allowed to carry attribution only when the acting character is unquestionably the speaker in that same paragraph. The changed spans do not rely on another character's separate action to imply who spoke.
