@@ -47,7 +47,7 @@ def patch_illustrated_html(text: str, canon: int, showcase: ShowcaseMap) -> str:
         flags=re.I,
     )
     updated = re.sub(
-        r'(<div\b[^>]*class=["\'][^"\']*\bnumber\b[^"\']*["\'][^>]*>\s*CHAPTER\s+)\d+(\s*</div>)',
+        r'(<div[^>]*class=["\'][^"\']*number[^"\']*["\'][^>]*>\s*CHAPTER\s+)\d+(\s*</div>)',
         rf'\g<1>{display}\g<2>',
         updated,
         count=1,
@@ -61,7 +61,10 @@ def patch_illustrated_html(text: str, canon: int, showcase: ShowcaseMap) -> str:
         flags=re.I,
     )
 
-    nav_re = re.compile(r'<nav\b[^>]*class=["\'][^"\']*\bchapter-nav\b[^"\']*["\'][^>]*>.*?</nav>', re.I | re.S)
+    nav_re = re.compile(
+        r'<nav[^>]*class=["\'][^"\']*chapter-nav[^"\']*["\'][^>]*>.*?</nav>',
+        re.I | re.S,
+    )
     matches = list(nav_re.finditer(updated))
     if matches:
         pieces: list[str] = []
@@ -73,7 +76,11 @@ def patch_illustrated_html(text: str, canon: int, showcase: ShowcaseMap) -> str:
         pieces.append(updated[cursor:])
         updated = ''.join(pieces)
     else:
-        main_match = re.search(r'<main\b[^>]*class=["\'][^"\']*\bchapter-shell\b[^"\']*["\'][^>]*>', updated, re.I)
+        main_match = re.search(
+            r'<main[^>]*class=["\'][^"\']*chapter-shell[^"\']*["\'][^>]*>',
+            updated,
+            re.I,
+        )
         if not main_match:
             raise ValueError(f'Chapter {canon}: chapter-shell main not found')
         top_nav = _nav_html(canon, showcase, top=True)
