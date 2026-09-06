@@ -5,6 +5,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parents[1] / 'scripts'))
 
 from generate_light import Chapter, render_chapter, render_index, render_latest
+from showcase import build_identity_showcase_map
 
 
 class ReaderLabelTests(unittest.TestCase):
@@ -34,10 +35,11 @@ class ReaderLabelTests(unittest.TestCase):
     def test_generated_reader_surfaces_keep_the_same_vocabulary(self):
         chapter = Chapter(220, 'THE TEST', '<p>Body</p>', 'test')
         chapters = {220: chapter}
+        showcase = build_identity_showcase_map([220])
 
-        rendered_index = render_index(chapters, {220})
-        rendered_chapter = render_chapter(chapter, [220], {220})
-        rendered_latest = render_latest(chapter, {220})
+        rendered_index = render_index(chapters, {220}, showcase)
+        rendered_chapter = render_chapter(chapter, {220}, showcase)
+        rendered_latest = render_latest(chapter, {220}, showcase)
 
         for rendered in (rendered_index, rendered_chapter, rendered_latest):
             self.assertIn('TEXT READER', rendered.upper())

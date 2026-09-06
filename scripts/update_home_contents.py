@@ -6,11 +6,14 @@ import json
 import re
 from pathlib import Path
 
+from showcase import ShowcaseMap, build_showcase_map, load_showcase_manifest
+
 START = '<!-- READER BOOK CONTENTS START -->'
 END = '<!-- READER BOOK CONTENTS END -->'
 BOOKS_TOC_OPEN = '<section aria-labelledby="books-heading" class="toc toc-acts" id="books">'
 LEGACY_TOC_OPEN = '<section aria-labelledby="chapters-heading" class="toc toc-acts" id="chapters">'
 BOOK_CSS = '<link href="assets/book-contents.css" rel="stylesheet"/>'
+SHOWCASE_MANIFEST = Path('publishing/showcase_chapters.json')
 
 
 def parse_chapter_index(text: str) -> dict[int, str]:
@@ -36,8 +39,6 @@ def load_manifest_chapters(path: Path) -> dict[int, str]:
 
 
 def chapter_href(number: int) -> str:
-    # This is the Illustrated Reader contents page. Its chapter grid must stay
-    # in illustrated mode instead of silently routing later chapters to Light.
     return f'chapters/{number:03d}.html'
 
 
@@ -90,38 +91,55 @@ def render_home_contents(
     chapters: dict[int, str],
     *,
     illustrated: bool = True,
+    showcase: ShowcaseMap | None = None,
 ) -> str:
     from reader_sections import render_book_sections
 
+    visible_numbers = [
+        number for number in sorted(chapters)
+        if showcase is None or showcase.showcase_number(number) is not None
+    ]
+    display_numbers = (
+        {number: showcase.showcase_number(number) for number in visible_numbers}
+        if showcase is not None else None
+    )
     links = {
         number: (
             f'<a href="{chapter_href(number)}">'
-            f'<span class="num">{number:02d}</span>'
-            f'<span class="title">{html.escape(title.title())}</span>'
+            f'<span class="num">{(display_numbers[number] if display_numbers else number):02d}</span>'
+            f'<span class="title">{html.escape(chapters[number].title())}</span>'
             f'</a>'
         )
-        for number, title in sorted(chapters.items())
+        for number in visible_numbers
     }
-    return render_book_sections(links, illustrated=illustrated, open_first_act=True)
+    return render_book_sections(
+        links,
+        illustrated=illustrated,
+        open_first_act=True,
+        display_numbers=display_numbers,
+    )
 
 
 def main() -> int:
+    from generate_light import load_all_sources
+
     chapter_index = Path('state/MANUSCRIPT_CHAPTER_INDEX.md')
     light_manifest = Path('light/manifest.json')
     index_path = Path('index.html')
 
-    # Preserve the durable early chapter index, then let the generated manifest
-    # extend and refresh it. The handwritten index has historically lagged the
-    # manuscript endpoint, while the manifest is generated from exact authority.
     chapters = parse_chapter_index(chapter_index.read_text(encoding='utf-8'))
     chapters.update(load_manifest_chapters(light_manifest))
+    exact_sources = load_all_sources()
+    chapters.update({number: chapter.title for number, chapter in exact_sources.items()})
+    showcase = build_showcase_map(sorted(exact_sources), load_showcase_manifest(SHOWCASE_MANIFEST))
 
     original = index_path.read_text(encoding='utf-8')
-    rendered = render_home_contents(chapters, illustrated=True)
+    rendered = render_home_contents(chapters, illustrated=True, showcase=showcase)
     updated = ensure_stylesheet(patch_home_contents(original, rendered))
     if updated != original:
         index_path.write_text(updated, encoding='utf-8')
-        print(f'updated illustrated Book/Act contents through Chapter {max(chapters)}')
+        visible_count = len([n for n in showcase.visible_canon if n in chapters])
+        print(f'updated illustrated Book/Act contents with {visible_count} showcase chapters')
     else:
         print('illustrated Book/Act contents already current')
     return 0
