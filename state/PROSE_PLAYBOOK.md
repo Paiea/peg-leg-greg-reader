@@ -281,6 +281,13 @@ When two neighboring chapters perform materially the same movement with differen
 
 Authorized structural passes may merge/delete/renumber chapters only under the dedicated structural map and renumber-safety process. Do not casually renumber during ordinary 01/04 work.
 
+For broad merge/cut/renumber work, use the dedicated subsystem rather than improvising from this prose guide:
+- `state/COMPRESSION_ENGINE.md`
+- `state/STRUCTURAL_COMPRESSION_WORKFLOW.md`
+- `prompts/MANUSCRIPT_COMPRESSION_PASS.md`
+
+The dedicated workflow is map-first and requires author approval before structural execution. Ordinary prose editing may identify a candidate, but it must not silently perform a structural cut.
+
 ## Editing strength
 
 A light pass may tighten sentences, paragraphing, tags, transitions, and redundancy.
