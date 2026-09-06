@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "batch": "183-184",
+  "status": "applied",
+  "strength": "aggressive-on-repeated-magic-theatre-and-errand-procedure",
+  "source_authority": "current editor branch reader prose with synchronized text-reader projection",
+  "stable_id_actions": {
+    "plg-ch-000183": {
+      "status": "active",
+      "action": "tightened_worker_magic-normalization_and_set-procedure"
+    },
+    "plg-ch-000184": {
+      "status": "active",
+      "action": "tightened_runner_errand-relay_and_familiar-performance"
+    }
+  },
+  "illustration_policy": "advisory_hold; story structure outranks art anchors",
+  "stats": {
+    "chapters/183.html": {
+      "before_words": 2862,
+      "after_words": 2305,
+      "delta_words": -557
+    },
+    "light/183.html": {
+      "before_words": 2862,
+      "after_words": 2305,
+      "delta_words": -557
+    },
+    "chapters/184.html": {
+      "before_words": 2564,
+      "after_words": 1858,
+      "delta_words": -706
+    },
+    "light/184.html": {
+      "before_words": 2564,
+      "after_words": 1858,
+      "delta_words": -706
+    }
+  },
+  "protected": {
+    "183": [
+      "Lyssa boundary and blue-thread domestic texture",
+      "theatre learns the bounded truth of Greg magic",
+      "first external magic is normalized rather than converted into spectacle",
+      "plain-lamp failure still proves performance can sell wonder",
+      "new Miller clerk role remains outside compressed setup"
+    ],
+    "184": [
+      "Lyssa entrusts Greg with an outside errand",
+      "Marra and Jessa routing comedy survives in compressed form",
+      "theatre independently uses Greg as a runner",
+      "wrong-hook mistake and practical recovery survive",
+      "familiar Third Man performance compresses to normalization rather than another transcript",
+      "south-market lamp-oil errand remains intact as next outward work beat"
+    ]
+  }
+}
