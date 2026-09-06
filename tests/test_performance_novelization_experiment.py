@@ -1,6 +1,7 @@
 import unittest
 
 from scripts import apply_performance_novelization_experiment as exp
+from scripts import clean_performance_novelization_seams as seams
 
 
 class PerformanceNovelizationExperimentTests(unittest.TestCase):
@@ -29,6 +30,25 @@ class PerformanceNovelizationExperimentTests(unittest.TestCase):
         page = '<article class="prose"><p>start</p><p>end</p><p>start</p><p>end</p></article>'
         with self.assertRaisesRegex(AssertionError, "start boundary"):
             exp.replace_paragraph_span(page, "start", "end", ("new",))
+
+    def test_showcase_borrower_to_expert_seam_reestablishes_hidden_shale_result(self):
+        cleaner = getattr(seams, "clean_004", None)
+        self.assertIsNotNone(cleaner, "clean_004 must repair the displayed 2 -> 3 seam")
+        if cleaner is None:
+            return
+        source = (
+            '<article class="prose"><p>before</p>'
+            '<p>The room did not object. The shale project had become the most dangerous kind of thing: promising. Failure would have been cleaner. If Arlo had looked at the sixth disk and said no, useless, wrong, then the project could die with dignity. Instead we had a twenty-percent improvement, a path toward better tests, and no idea whether the final product would take two weeks or two years.</p>'
+            '<p>after</p></article>'
+        )
+        updated = cleaner(source)
+        self.assertIn(
+            "The sixth disk had barely beaten the control; by the end of the night, Arlo's best result was closer to twenty percent.",
+            updated,
+        )
+        self.assertIn("<p>before</p>", updated)
+        self.assertIn("<p>after</p>", updated)
+        self.assertNotIn("Instead we had a twenty-percent improvement", updated)
 
 
 if __name__ == "__main__":
