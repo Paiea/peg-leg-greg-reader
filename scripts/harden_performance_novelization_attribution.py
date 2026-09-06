@@ -13,8 +13,10 @@ def _bounded(text: str, start: str, end: str) -> tuple[str, str, str]:
         raise AssertionError(f"expected one start boundary, found {text.count(start)}: {start}")
     start_at = text.index(start)
     tail = text[start_at:]
-    if tail.count(end) != 1:
-        raise AssertionError(f"expected one end boundary after start, found {tail.count(end)}: {end}")
+    if end not in tail:
+        raise AssertionError(f"missing end boundary after start: {end}")
+    # The same prose sentence can recur later in a chapter. The bounded scene ends
+    # at the first exact closing marker after its unique start, not at a later reuse.
     end_at = start_at + tail.index(end) + len(end)
     return text[:start_at], text[start_at:end_at], text[end_at:]
 
