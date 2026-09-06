@@ -70,9 +70,15 @@ def score_reference(
     if "style_anchor" in tags:
         score += 8
         reasons.append("style anchor")
+    if "identity_explicit" in tags:
+        score += 12
+        reasons.append("character named in accepted-art metadata")
+    if "single_character_anchor" in tags:
+        score += 8
+        reasons.append("single-character identity anchor")
 
     if character == "Greg" and framing_preference == "above_waist":
-        framing = reference.get("framing")
+        framing = reference.get("framing") or reference.get("framing_preference")
         if "above_waist" in tags or framing == "above_waist":
             score += 20
             reasons.append("above-waist Greg continuity")
