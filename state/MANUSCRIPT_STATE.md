@@ -1,278 +1,241 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 411 - **THE HAND**.
+- Current exact story endpoint: Chapter 412 - **THE TALLYMAN**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript physically materialized through Chapter 248.
-- Exact Chapters 249-411 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
+- Exact Chapters 249-412 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
 - Titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
-- Ch411 answer: Greg is being **a hand**. He arrives at Venn Marine Recovery not as client or tourist but as a temporary yard hand, proves useful through bounded condition-record work, and signs a three-day trial while beginning to earn seriously toward a work/travel leg.
-- Therefore title **THE HAND**.
-- Recent: 407 THE BIDDER; 408 THE MEDIATOR; 409 THE COMPANION; 410 THE PROSPECT; 411 THE HAND.
+- Ch412 answer: Greg is being **a tallyman**. He performs his first full Merry Wake recovery day, holding together weight, condition, custody, and handoff records while specialists do their own jobs. His value is not solving the wreck but keeping the systems from lying to one another.
+- Therefore title **THE TALLYMAN**.
+- Recent: 408 THE MEDIATOR; 409 THE COMPANION; 410 THE PROSPECT; 411 THE HAND; 412 THE TALLYMAN.
 
-## Major arc direction - Duskport / chosen work
-- Greg is now in **Duskport**, self-directed and not on mandatory Survey assignment.
-- He has chosen to pursue work at **Venn Marine Recovery** specifically because a fitted work/travel limb is a meaningful mobility target he cannot currently afford.
-- Duskport harbor economy is now explicitly large/specialized enough to sustain multiple limbwrights, brace makers, injury funds, adapted workers, and marine-specific prosthetic craft.
-- This should remain lived-in background infrastructure, not a one-time exposition fact.
-- Marine recovery opens multi-chapter route involving wrecks, salvage custody, worker danger, ownership disputes, coastal magical hardware, and real paid value.
+## Major arc direction - Duskport / work toward limb
+- Greg remains in **Duskport**, self-directed, working a three-day temporary trial at **Venn Marine Recovery**.
+- He is actively earning toward a fitted work/travel limb while learning the real harbor recovery economy.
+- Limb target remains motivational background, not sole plot.
+- Human-conflict pressure remains active through custody/ownership/workplace consequence rather than abstract moral discussion.
+- Marine recovery continues to produce distinct coastal scene grammar: wreck lifts, divers, crane scales, custody lanes, temple restrictions, family claims, weather, injury, salt-damaged hardware.
 
-## Chapter 411 - THE HAND
+## Chapter 412 - THE TALLYMAN
 
-### East Hook / harbor injury ecology
-- Greg/Sori/Maro reach **East Hook** and Venn Marine Recovery.
-- Yard environment:
-  - recovery barges;
-  - diving tender;
-  - cranes;
-  - winches;
-  - chain;
-  - quarantine/isolation pen;
-  - wet industrial harbor conditions.
-- Greg notices enough workers with amputations/braces/hooks that missing limbs stop reading as singular exception:
-  - worker with right work hook;
-  - woman on short rigid peg;
-  - older diver with full-leg brace;
-  - worker missing fingers;
-  - condition lead on articulated marine below-knee limb.
-- Core worldbuilding conclusion: specialty limb shops exist here because **harbor work recurrently injures people and Duskport is large enough to support specialized repair/adaptation industries**.
+### First full Merry Wake recovery day
+- Greg reports East Hook before first bell.
+- Tavren assigns Greg both:
+  - shore-side load tally;
+  - condition intake under Nali.
+- Tavren repeats boundaries:
+  - Nali owns condition calls;
+  - Jerr owns rigging;
+  - Greg does not direct divers/crane;
+  - disagreements stop handoff before marked lane clears;
+  - temple-mark cargo stays submerged until observer present;
+  - personal effects separate.
+- This makes Greg eligible for 4c if both record/load work remain useful.
 
-## Durable Duskport limbcraft / harbor-specialty logic
-- User explicitly requested explanation for why a specialty shop makes sense by harbor.
-- Duskport now has a coherent local ecosystem:
-  - shipyard/harbor injuries from rope crush, capstans, cranes, cargo, wrecks, propellers, dock crush, storm damage, cold-route frostbite, infection after cuts;
-  - improved clinics reduce some amputations compared with earlier periods, but enough still occur to sustain specialization;
-  - sailors/dockers/salvagers also **come to Duskport after injuries elsewhere** because the city has specialists and employers accustomed to adapted workers;
-  - marine work limbs require wet grip, drainage, salt-resistant fittings, durable sockets, deck-angle stability, ladder/rope-work considerations;
-  - harbor guilds / injury pools / mutual funds may partially support fittings depending circumstances.
-- Nali says Duskport has:
-  - **3 limbwright shops she trusts**;
-  - 2 she would not trust;
-  - 1 brace guild;
-  - shipyard clinic;
-  - sailors' mutual fund;
-  - dockers' injury pool;
-  - divers' burial fund;
-  - charity focused mainly on children's braces.
-- Specialization by shop:
-  - **Hark & Venn**: working limbs, sailors/dockers/salvagers/mill hands, wet-work practical fittings;
-  - **South Arch**: higher-end articulated city legs / noble children;
-  - **Brine Street**: cheap pegs and quick repairs.
-- Key Nali framing: **`Losing limb? Still bad day. Getting fitted? Tuesday.`**
-- This normalizes adaptation without trivializing injury.
-- Harbor system can be both grim and humane: it creates injuries, but also supports adapted work, specialized craft, modified jobs, and funding structures.
+### Merry Wake wreck grammar
+- Wreck remains outside east breakwater, mostly unseen below gray water.
+- Merry Wake was coastal courier sunk ~8 years ago in winter storm.
+- Salvage rights were delayed by long insurance dispute.
+- Current contract covers specified hardware and safes.
+- Family claim windows remain for identified personal effects.
+- Temple cargo excluded pending observer.
 
-## Venn Marine Recovery / Tavren Venn
-- Masta's brother is now canonically named **Tavren Venn**.
-- He runs **Venn Marine Recovery**.
-- Mid-50s, broad chest, gray tied hair, missing top third right ear, terse/practical.
-- He asks Greg what Masta promised; Greg truthfully says nothing.
-- Greg presents actual limits:
-  - records/field condition;
-  - some load/mechanical experience;
-  - temporary Survey experience;
-  - Bronze magic but not expert;
-  - can swim but not current setup in working water;
-  - not harbor-qualified rigging;
-  - can record ownership marks but does not know local codes;
-  - no universal appraisal claims.
-- Tavren values these bounded answers.
+### Initial lifts
+- Steering quadrant segment MW-SH-1:
+  - 86 wet on crane scale;
+  - courier-company mark;
+  - condition class 3;
+  - mechanical salvage / rack B.
+- Loose fittings basket.
+- First safe emerges snagged with separate wrapped canvas bundle.
+- Greg correctly records one crane lift but two intake objects.
 
-## Nali / marine limb embodiment
-- Condition lead **Nali** introduced:
-  - ~40;
-  - short black curls;
-  - left BKA;
-  - articulated marine work limb with broad split foot, salt-dark fittings, waxed-canvas socket, side stay;
-  - carries clipboard + pry bar because both hands free.
-- Her working limb makes Greg's target concrete in real harbor use.
-- Nali says her limb cost more than Masta's quoted travel limb; employer paid part after her wreck.
-- Harbor guild/injury support may contribute depending how/where injury occurred and documentation.
+## Human conflict - Toren Vale / Eren Vale bundle
+- New claimant **Toren Vale**, ~40, weathered, says canvas bundle belonged to dead brother **Eren Vale**.
+- Toren recognizes blue cross-stitch corners made by their mother.
+- Filed family claim ~6 years ago but does not carry paperwork.
+- Custody lead **Hessa Brin** wears blue family-claim cord; no relation to older Hessa established.
+- Toren urgently wants brother's bag returned intact after waiting 8 years.
+- Yard/custody requires identity before release.
+- Greg refuses Toren request to simply write `it's his` because unsupported.
+- Exterior-only examination permitted with witnesses; no opening/cutting/content exposure.
+- Visible strap stamp reads partial **E. VA...**.
+- Greg asks whether claim file contains identifying exterior details.
+- Runner retrieves file.
+- Claim file matches:
+  - blue cross-stitch corners, four;
+  - brass buckle stamped E. VALE;
+  - narrow leather chart wrap;
+  - mother Sela Vale.
+- Hessa accepts exterior match as sufficient for **provisional family identity**.
+- Toren can receive sealed bundle after signature/release witness without opening contents.
+- This is a partial procedural success that preserves dignity but does not erase 8-year wait or Toren's anger.
+- Toren does not owe gratitude.
 
-## Greg's paid half-day trial
-- Tavren offers **half-day paid trial**:
-  - 2c if records clean/useful enough not to redo;
-  - 1c if partially useful but mostly needs rebuild;
-  - 0 if Greg lies, touches quarantined hardware, or substitutes cleverness for asking.
-- Greg accepts.
-- Works under Nali.
-- Four recovered objects in yellow-rope pen:
-  - A iron cargo latch assembly;
-  - B brass/wood signal housing with cracked faceplate;
-  - C black ceramic cylinder in copper cage;
-  - D articulated chain with 3 pale glass inserts.
-- Condition forms include:
-  - recovery location/depth;
-  - diver clearance;
-  - biological clearance;
-  - ownership marks;
-  - material;
-  - deformation/corrosion;
-  - charge-screen result;
-  - leak/heat/motion;
-  - handling class/disposition.
+## Diver incident - Pella Ro
+- Diver alarm three fast.
+- Diver **Pella Ro** surfaces after torn hull edge cuts calf through suit.
+- Emergency response handled by qualified tender/clinic crew, not Greg.
+- Tavren orders clinic immediately.
+- Injury appears deep but tendon likely spared; no amputation established.
+- Recovery pauses until line is inspected.
+- Greg notices crane/live-line status could become ambiguous during emergency and tags tally **HOLD - DIVER INCIDENT / LINE STATUS UNKNOWN**.
+- Jerr later approves this as useful.
+- Harbor injury institutions remain naturally visible: Pella will lose work time; injury pool/clinic logic matters.
+- Nali's own limb/body knowledge appears without sentimentality.
 
-### Trial findings / competence
-- A:
-  - ownership stamp partly obscured;
-  - Greg records only visible characters, brackets uncertainty, does not infer full code.
-- B:
-  - faceplate shifts due rack vibration;
-  - Greg stops before interior becomes accidentally exposed;
-  - portable charge screen green front/left, faint amber right;
-  - Nali repeats and confirms localized residual response;
-  - no opening, specialist later.
-- C:
-  - portable screen position three gives **mechanical hum without lamp response**;
-  - Greg backs off and does not claim source;
-  - specialist **Torrin Glass** checks;
-  - likely resonance between cage and screening-fork frequency, not established stored charge;
-  - still isolated until dry because stored charge below threshold not excluded.
-- D:
-  - two different ownership stamps appear;
-  - Greg does not assume repair/reused chain/mixed assembly without join inspection authority;
-  - records both stamps and positions, no ownership conclusion.
-- Greg's strength remains disciplined condition recording and calling specialists, not universal artifact insight.
+## Temple-cargo dispute / Sel Marr
+- Diver slate identifies underwater cargo with **TEMPLE SUN-THREE** mark.
+- Tavren immediately cancels lift pending temple observer, per contract exclusion.
+- Salvage-rights broker **Sel Marr** objects because delay costs diver time/money.
+- Sel argues sealed cargo could be lifted now and left closed.
+- Tavren/Nali refuse.
+- Sel tries Greg as new face and asks whether surface lift changes custody.
+- Greg answers literal contract: yes, `stays underwater until observer`; he does not know why rule exists.
+- Sel tries to turn uncertainty into permission; Greg counters that unknown reason may be exactly why rule matters.
+- Temple observer **Iri San** arrives ~11 minutes later.
+- Reason for underwater rule is practical/evidentiary:
+  - some old temple shipping seals use water-pressure fracture paint;
+  - if damaged cargo dries before observer sees wet pattern, evidence can disappear.
+- Iri verifies mark underwater then authorizes lift to blue-rope lane.
+- Recovered object: ceramic chest with sun-three seal, cracked corner, fracture paint feathering around crack.
+- Correct procedure here really does protect evidence, while still costing salvage client time/money.
 
-## Pay / three-day trial route
-- Tavren reviews Greg's forms and tests his reasoning on A/B/D.
-- Nali independently agrees with Greg's bounded handling.
-- Tavren pays full **2c trial pay**.
-- Greg cash **21c -> 23c**.
-- Tavren offers **three-day temporary yard-hand trial** beginning next morning.
-- No guaranteed hours beyond posted recovery.
-- Pay structure:
-  - **3c** full useful records day;
-  - **4c** if also assigned shore-side load tally and does not slow riggers;
-  - **5c** if Nali signs both plus evening custody inventory.
-- Add-ons are assigned/signed, not automatic.
-- Yard covers assigned protective gear.
-- Restrictions:
-  - no diving;
-  - no live-load riding;
-  - no unsupervised charge handling;
-  - no salvage claim merely because Greg notices value.
-- Tavren warns Greg not to lie from desperation and not to work hungry to save faster.
+## Greg competence / mistakes
+- Greg's value is cross-system record integrity:
+  - weight;
+  - condition;
+  - ownership;
+  - hazard/custody.
+- He does NOT solve diving, crane, temple, or specialist craft.
+- He makes one real error late day:
+  - records 42 in wrong weight column from later drained rack weight;
+  - crane sheet initial wet weight is 47;
+  - traces source, admits error, strikes through, initials, notes correction.
+- Tavren does not shame him; expects correction.
+- This preserves hypercompetence without perfection.
 
-## Next recovery job - Merry Wake
-- Next morning before first bell: wreck lift outside breakwater.
-- Wreck: old coastal courier **Merry Wake**, sank ~8 years ago.
-- Owner finally sold salvage rights after insurance dispute.
-- Planned recovery:
-  - 2 cargo-room safes;
-  - steering hardware;
-  - loose fittings as available.
-- Contract exclusions:
-  - personal effects go separate custody;
-  - **temple cargo stays underwater until temple observer arrives**;
-  - ownership/custody marks matter.
-- This is strong route for future human conflict: salvager rights vs owners/families/temple/custody/value can disagree even when procedure clear.
-- Merry Wake work may last ~3 days if weather holds, followed by East Hook quay-collapse work and future harbor recoveries.
+## Nali / work-limb realism
+- Nali uses marine limb throughout wet yard work, with clipboard + pry bar because both hands free.
+- Her limb is not effortless:
+  - retightens socket strap twice;
+  - sits/rubs stump through canvas after long shift;
+  - still gains major practical benefit of both hands.
+- Greg's desire strengthens after seeing both utility and cost.
+- Nali line after asking if he still wants one: Greg says **`More.`** She says good because he has now seen bad parts too.
+- Durable rule: fitting later must preserve maintenance, skin tolerance, fatigue, terrain limits, crutches as continuing tool.
 
-## Durable peg-leg progression
-- Greg still strongly wants fitted travel work limb at **1 silver + 18c**.
-- Basic dock peg 84c; marine version starts 1 silver + 36c.
-- No universal silver/copper conversion.
-- No deposit paid.
-- Greg is now actively earning toward target via multi-day work.
-- Do not accelerate to purchase immediately.
-- Living costs and Vale obligation remain real.
-- Work leg should eventually expand scene grammar by returning hands/standing/carrying options without erasing crutches or BKA.
-- Nali demonstrates practical future state rather than fantasy cure.
+## Pay / economy
+- Tavren reviews tally/condition work and red hold tag.
+- Nali signs useful records.
+- Greg qualifies for **4c** because assigned both load tally + useful condition intake.
+- No evening custody inventory, so not 5c.
+- Cash changes **23c -> 27c**.
+- Vale remains **23c principal-equivalent**.
+- No limb deposit yet.
+- Target travel work limb remains **1 silver + 18c**; no universal conversion established.
+- Greg is meaningfully accumulating but still far from target.
 
-## Economy
-- Greg begins **21c cash / 23c Vale / bits unspecified**.
-- Trial pays **+2c**.
-- Food during waiting paid in bits only.
-- Ends **23c cash / 23c Vale / bits unspecified**.
-- No limb deposit.
-- No artifact purchase.
+## Next work
+- Tomorrow same Merry Wake wreck if weather holds.
+- Pella is out after injury; crew short.
+- Greg expected same tally/condition role unless Nali changes.
+- Third day may move to quay-collapse work if divers finish.
+- Greg still on three-day temporary trial, not permanent hire.
 
 ## Magic / artifacts
 - Protocol remains **59 minimal / 53 shaping / 135 external attempts**.
-- No deliberate Greg magic.
-- Quietener / WS-F/9 packed, unused.
-- No recovered yard object becomes Greg property.
-- C resonance does not establish magical function/value.
+- No deliberate Greg magic in Ch412.
+- Quietener / WS-F/9 remain packed/unused.
+- No recovered object becomes Greg property.
+- Temple chest stays under temple custody lane after authorized lift.
 - Tavi rock remains with Greg.
-- Repaired right crutch remains sound.
+- Repaired crutch remains sound.
+
+## Greg physical state
+- Shoulder/right hand near-normal but right hand cramps from prolonged writing by late day.
+- Left BKA stable.
+- Crutches increasingly annoying in wet-yard tally work because they occupy hands, reinforcing work-limb target.
+- No new injury.
 
 ## Greg social/internal movement
-- Greg's serious-money target changes behavior: he chooses work immediately and accepts being evaluated.
-- He likes recovery condition work because it fits his brain without requiring him to pretend expertise.
-- Harbor specialization reframes his missing leg socially: not unique, not trivial, simply one kind of body the port already knows how to work around.
-- Greg sees that repeated injury has produced specialization, mutual support, adapted employment, and craft competence.
-- Closing movement: peg remains impossible today but **less impossible than yesterday**.
+- Greg experiences a full day where being useful means preventing systems from contradicting each other rather than being smartest person in yard.
+- He continues learning that objects can be simultaneously weight, property, evidence, memory, hazard.
+- Toren's claim shows procedure can preserve dignity when questions are framed well, but does not erase emotional injury.
+- Pella's injury grounds harbor limb ecosystem in ongoing risk without melodrama.
+- Greg ends satisfied by **useful day**, not `good day`.
+- Work-limb target feels more concrete because he now understands both benefits and costs.
 
 ## Dialogue variance
-- Tavren Venn: terse employer logic, distrusts desperation/overclaiming, values bounded answers.
-- Nali: practical expert worker, dry, confident, normalized amputee/marine-work perspective.
-- Torrin Glass: annoyed specialist, quick technical separation of resonance vs stored charge.
-- Sori: legal/contract eyes, quieter around injury infrastructure, still tracks money.
-- Maro: understated observer, lets work carry scene.
+- Tavren: terse employer boundaries and review.
+- Nali: practical condition authority, dry, normalized limb maintenance.
+- Hessa Brin: custody precision, family-claim process, no sentimental shortcuts.
+- Toren Vale: grief-driven certainty/anger; wants brother's bag intact, not explanation.
+- Sel Marr: cost-focused salvage-rights broker, pushes procedure when it burns money.
+- Iri San: temple evidence specialist, concise.
+- Jerr: rigging/crane authority, minimal speech.
 
 ## Recent role ledger
-- 407 THE BIDDER
 - 408 THE MEDIATOR
 - 409 THE COMPANION
 - 410 THE PROSPECT
 - 411 THE HAND
+- 412 THE TALLYMAN
 
 ## Protected uncertainties
-- Greg ends Ch411 in Duskport with **three-day Venn Marine Recovery trial signed**.
-- First full day starts before first bell at Merry Wake wreck recovery.
-- Greg cash **23c**, Vale **23c**, bits unspecified.
+- Greg ends Ch412 in Duskport at Anchor's End after first full Merry Wake work day.
+- Greg cash exact **27c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 135**.
-- No limb purchased/deposit paid.
-- Tavren Venn now canonically established as Masta's brother and recovery-yard owner.
-- Dask remains separate at mirror guild during much of Ch411, expected Anchor's End reunion later.
+- No limb deposit/purchase.
+- Pella Ro stable enough for clinic transport; exact recovery unknown.
+- Toren/Eren bundle provisionally identified and moved to family rack for sealed release process; final handoff not shown.
+- Merry Wake recovery continues tomorrow if weather holds.
+- Tavren trial still temporary.
 - Harven hearing outcome unknown.
 - Mira quarantine outcome unknown.
 - Tessa/Oren outcome unknown.
 - No home reply yet.
-- No mandatory Survey assignment.
 
-## Chapter 412 trailhead
-Follow next actual claim from Ch411/current authority.
+## Chapter 413 trailhead
+Follow next actual claim from Ch412/current authority.
 
-Greg begins **23c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**.
+Greg begins **27c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**.
 
 Physical/timeline:
-- evening/night Duskport after paid half-day trial;
-- Anchor's End lodging already paid for current night;
-- next morning before first bell report East Hook for **Merry Wake** recovery;
-- three-day temporary yard-hand trial active;
-- shoulder/right hand near-normal; repaired crutch sound;
-- left BKA stable.
+- night at Anchor's End after full recovery day;
+- report East Hook before first bell again;
+- Pella out, recovery crew short;
+- Merry Wake wreck recovery expected to continue;
+- Greg likely repeats tally/condition role unless reassigned;
+- left BKA stable; hands sore from writing; repaired crutch sound.
 
 Strong movement:
-- Start Merry Wake work promptly next chapter. Do not spend another full chapter on job setup.
-- Marine recovery should feel physically/socially different from Survey:
-  - breakwater/sea motion;
-  - divers/riggers;
-  - wet salvage;
-  - custody boundaries;
-  - ownership marks;
-  - uncertain damaged hardware;
-  - shore-side load/tally work.
-- Let Greg earn add-on pay only if he genuinely performs extra assigned value.
-- Temple-cargo exclusion / personal-effects custody can create human disagreement where correct procedure does not satisfy everyone.
-- Preserve specialist competence. Greg should not outshine divers/riggers at their own craft.
-- Harbor limb ecosystem should remain visible naturally through workers, adaptations, funding, fittings, not repeated lectures.
-- The peg-leg target should stay motivational background while actual work remains interesting on its own.
-- Action/danger can emerge organically from recovery work if earned.
+- Do not repeat Ch412 beat-for-beat. Second Merry Wake day needs a new function/pressure.
+- Strong options:
+  - short crew forces different shore-side role;
+  - a recovered object presents real ownership/value conflict;
+  - weather/current complicates lift;
+  - a salvage-rights dispute becomes personal;
+  - Greg gets assigned evening custody inventory and must earn 5c through more responsibility;
+  - external physical pressure/action arises from recovery operation.
+- Continue serious multi-chapter earning toward limb, but do not reduce chapter to arithmetic.
+- Keep harbor limb culture ambient through workers, clinics, modified jobs, maintenance, funding.
+- Human conflict should sometimes require actual choice rather than clever file lookup.
+- Preserve specialists. Greg should not become diver/rigging expert overnight.
+- A meaningful artifact/strange recovery can enter if rationally priced/handled and not automatically Greg's.
 
 Avoid:
-- immediate peg deposit/purchase;
+- immediate peg deposit;
 - giant payday;
+- another family-bag problem with same solution;
+- instant Pella full recovery;
 - universal appraisal;
-- instant treasure haul;
-- treating Nali's limb as perfect/no-cost mobility;
-- making harbor disability culture sentimental or inspirational-porn-like.
+- protagonist ownership of salvage merely because he spots value.
 
-**MANDATORY TITLE CHECK CH412:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH413:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
