@@ -1,5 +1,5 @@
 {
-  "latest": 387,
+  "latest": 388,
   "chapters": [
     {
       "number": 100,
@@ -1728,6 +1728,12 @@
       "title": "THE CREWMATE",
       "source": "checkpoint",
       "path": "387.html"
+    },
+    {
+      "number": 388,
+      "title": "THE WATCHMAN",
+      "source": "checkpoint",
+      "path": "388.html"
     }
   ]
 }
