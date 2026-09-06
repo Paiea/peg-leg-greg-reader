@@ -5,9 +5,9 @@ Status: **APPROVED / ACTIVE**
 Governing authority: `state/DIALOGUE_VARIANCE_ENGINE.md`
 Project-wide prose mirror: `state/PROSE_PLAYBOOK.md`
 
-Purpose: eliminate reader backtracking caused by ambiguous speaker, action, reaction, or paragraph ownership. PLG intentionally prefers slight over-attribution and modest local scaffolding expansion over elegant ambiguity.
+Purpose: eliminate reader backtracking caused by ambiguous speaker, addressee, action, reaction, pronoun, object/task, or paragraph ownership. PLG intentionally prefers slight over-attribution and modest local scaffolding expansion over elegant ambiguity.
 
-These five updates are active for all future dialogue/variance review and any later reader-facing dialogue polish.
+These ten updates are active for all future dialogue/variance review and any later reader-facing dialogue polish.
 
 ## 1. Forced re-anchor cadence
 
@@ -35,25 +35,63 @@ A reviewed chapter should support zero ownership backtracking at normal reading 
 
 If there is plausible hesitation, prefer an explicit tag, repeated name, paragraph split, or plain orientation beat.
 
+## 6. Active-cast and re-entry anchoring
+
+In substantial group dialogue, keep the active local cast legible. Anchor new entrants, meaningful exits, and previously silent/off-focus people when they re-enter the exchange after the reader could reasonably have dropped them from the scene.
+
+Do not write roll calls. One plain tag or observable beat is enough.
+
+## 7. Short-line attribution floor
+
+Treat one-to-three-word replies such as `No`, `Yes`, `Good`, `Wait`, `Again`, `Fine`, and `What?` as high-risk ownership lines in three-or-more-speaker scenes.
+
+Tag/name them by default unless the immediately preceding addressed line makes the speaker impossible to mistake. Do not permit anonymous short-line ladders to become a speaker puzzle.
+
+## 8. Explicit addressee for shared-target speech
+
+A clear speaker is not enough when a question, command, warning, correction, offer, or invitation could target several people.
+
+Name or visibly orient toward the addressee. If someone else answers or interrupts, anchor that person explicitly.
+
+## 9. Pronoun-collision rule
+
+When two or more active characters could plausibly match the same pronoun, repeat the proper name, role, or unambiguous noun at the ownership point.
+
+Repeated names are acceptable scaffolding. Resume pronouns only after the referent is secure again.
+
+## 10. Object/task handoff continuity
+
+When dialogue logic depends on who currently has a prop, tool, paper, artifact, money, food, equipment, or work task, keep that ownership locally visible.
+
+State important transfers, re-anchor the current holder/operator when needed, and add a small spatial reset after meaningful movement if the technical exchange would otherwise become muddy.
+
+Do not inventory the whole scene. Track only objects, positions, and tasks that are carrying dialogue logic.
+
 ## Repair priority
 
 1. Preserve canon and scene outcome.
 2. Preserve good spoken dialogue.
 3. Split paragraph ownership.
 4. Add plain `said` / `asked` attribution.
-5. Add observable orientation scaffolding.
-6. Rewrite the smallest necessary spoken wording only if the rebuilt block still fails.
+5. Clarify the addressee when necessary.
+6. Repeat a name/role instead of relying on a colliding pronoun.
+7. Add observable orientation scaffolding.
+8. Restore cast/object/task continuity where it carries the exchange.
+9. Rewrite the smallest necessary spoken wording only if the rebuilt block still fails.
 
 ## Anti-regression rules
 
 - Repeated `said` / `asked` is acceptable.
+- Repeated names are acceptable.
 - Do not vary tags for decoration.
 - Distinct voice is not a substitute for attribution.
+- Short dry lines do not get special permission to remain anonymous.
 - Do not use invented gestures solely to avoid a tag.
 - Do not compress a repaired dialogue block during the same clarity pass.
-- Do not classify added ownership scaffolding as redundant prose solely because it repeats a name or spatial fact.
-- The reader should never have to reread a line to discover who owned it.
+- Do not classify added ownership scaffolding as redundant prose solely because it repeats a name, addressee, object, or spatial fact.
+- A silent or off-focus character should not reappear as a ghost speaker.
+- The reader should never have to reread a line to discover who spoke, who was addressed, who moved, who reacted, or who currently owns the object/task driving the exchange.
 
 ## Future-pass instruction
 
-When continuing the whole-manuscript dialogue/variance pass, apply this mode automatically. A chapter may receive a deliberate no-change verdict only after the cold-read ownership gate passes.
+When continuing the whole-manuscript dialogue/variance pass, apply all ten rules automatically. A chapter may receive a deliberate no-change verdict only after the cold-read ownership gate passes under this full aggressive mode.
