@@ -1,0 +1,122 @@
+[
+  {
+    "candidate_id": "ch390-root-drag",
+    "chapter": 390,
+    "chapter_title": "THE PASSENGER",
+    "kind": "chapter_illustration",
+    "priority": "high",
+    "fit_target": "exact",
+    "prompt_pack": "state/visual/prompt-packs/ch390-root-drag.md",
+    "paragraph_anchor": "Maro took narrow brass disk from black case.",
+    "target_asset": "visual/chapter_art/390/ch390-root-drag-v1.webp",
+    "status": "generation_ready"
+  },
+  {
+    "candidate_id": "ch391-nessa-arrival",
+    "chapter": 391,
+    "chapter_title": "THE FOLLOWER",
+    "kind": "chapter_illustration",
+    "priority": "high",
+    "fit_target": "exact",
+    "prompt_pack": "state/visual/prompt-packs/ch391-nessa-arrival.md",
+    "paragraph_anchor": "She carried a three-pronged brass fork almost as long as my forearm and looked furious at architecture.",
+    "target_asset": "visual/chapter_art/391/ch391-nessa-arrival-v1.webp",
+    "status": "generation_ready"
+  },
+  {
+    "candidate_id": "ch391-ropewalk",
+    "chapter": 391,
+    "chapter_title": "THE FOLLOWER",
+    "kind": "chapter_illustration",
+    "priority": "high",
+    "fit_target": "exact",
+    "prompt_pack": "state/visual/prompt-packs/ch391-ropewalk.md",
+    "paragraph_anchor": "Second turned to open iron grate.",
+    "target_asset": "visual/chapter_art/391/ch391-ropewalk-v1.webp",
+    "status": "generation_ready"
+  },
+  {
+    "candidate_id": "ch392-glass-mice",
+    "chapter": 392,
+    "chapter_title": "THE CAMPER",
+    "kind": "chapter_illustration",
+    "priority": "high",
+    "fit_target": "exact",
+    "prompt_pack": "state/visual/prompt-packs/ch392-glass-mice.md",
+    "paragraph_anchor": "Glass mice.",
+    "target_asset": "visual/chapter_art/392/ch392-glass-mice-v1.webp",
+    "status": "generation_ready"
+  },
+  {
+    "candidate_id": "ch392-reed-hounds",
+    "chapter": 392,
+    "chapter_title": "THE CAMPER",
+    "kind": "chapter_illustration",
+    "priority": "high",
+    "fit_target": "exact",
+    "prompt_pack": "state/visual/prompt-packs/ch392-reed-hounds.md",
+    "paragraph_anchor": "Reed hound.",
+    "target_asset": "visual/chapter_art/392/ch392-reed-hounds-v1.webp",
+    "status": "generation_ready"
+  },
+  {
+    "candidate_id": "ch393-custody-tag",
+    "chapter": 393,
+    "chapter_title": "THE RECORDER",
+    "kind": "chapter_illustration",
+    "priority": "high",
+    "fit_target": "exact",
+    "prompt_pack": "state/visual/prompt-packs/ch393-custody-tag.md",
+    "paragraph_anchor": "The brass tag changed angle.",
+    "target_asset": "visual/chapter_art/393/ch393-custody-tag-v1.webp",
+    "status": "generation_ready"
+  },
+  {
+    "candidate_id": "ch393-floor-shine",
+    "chapter": 393,
+    "chapter_title": "THE RECORDER",
+    "kind": "chapter_illustration",
+    "priority": "high",
+    "fit_target": "exact",
+    "prompt_pack": "state/visual/prompt-packs/ch393-floor-shine.md",
+    "paragraph_anchor": "Under cloth, pale light moved faintly.",
+    "target_asset": "visual/chapter_art/393/ch393-floor-shine-v1.webp",
+    "status": "generation_ready"
+  },
+  {
+    "candidate_id": "ch393-west-locks",
+    "chapter": 393,
+    "chapter_title": "THE RECORDER",
+    "kind": "chapter_illustration",
+    "priority": "high",
+    "fit_target": "exact",
+    "prompt_pack": "state/visual/prompt-packs/ch393-west-locks.md",
+    "paragraph_anchor": "West Locks appeared properly ten minutes later.",
+    "target_asset": "visual/chapter_art/393/ch393-west-locks-v1.webp",
+    "status": "generation_ready"
+  },
+  {
+    "candidate_id": "ch394-brass-washer",
+    "chapter": 394,
+    "chapter_title": "THE PRACTITIONER",
+    "kind": "chapter_illustration",
+    "priority": "high",
+    "fit_target": "exact",
+    "prompt_pack": "state/visual/prompt-packs/ch394-brass-washer.md",
+    "paragraph_anchor": "Washer moved.",
+    "target_asset": "visual/chapter_art/394/ch394-brass-washer-v1.webp",
+    "status": "generation_ready"
+  },
+  {
+    "candidate_id": "ch394-mast-creep",
+    "chapter": 394,
+    "chapter_title": "THE PRACTITIONER",
+    "kind": "chapter_illustration",
+    "priority": "high",
+    "fit_target": "exact",
+    "prompt_pack": "state/visual/prompt-packs/ch394-mast-creep.md",
+    "paragraph_anchor": "Arm itself crept west.",
+    "target_asset": "visual/chapter_art/394/ch394-mast-creep-v1.webp",
+    "status": "generation_ready"
+  }
+]
