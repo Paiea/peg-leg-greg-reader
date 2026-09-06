@@ -8,11 +8,11 @@ class UnderstudyCompressionTest(unittest.TestCase):
         ch250 = [
             "The needle case did not become more important overnight.",
             "Lyssa was already dressed.",
-            "OLD HOUSEHOLD INVENTORY LOOP",
+            "OLD_HOUSEHOLD_INVENTORY_LOOP",
             "Instead someone knocked.",
             "Pell's sick.",
             "The theatre side door was already open.",
-            "OLD WALK_TO_THEATRE_LOOP",
+            "OLD_WALK_TO_THEATRE_LOOP",
             "Teren held out pages.",
             "Knowing a man's cup was not the same as knowing his lines.",
             "Jori came from the wing, looked once, and moved a narrow side stool",
