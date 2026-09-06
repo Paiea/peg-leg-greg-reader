@@ -17,6 +17,8 @@ Priority order:
 
 Generation queues should preserve this coverage order mechanically. When prompt-ready candidates compete, lower current chapter image count outranks candidate priority; candidate priority then breaks ties. This keeps a dramatic newer chapter from repeatedly jumping ahead of an older chapter that still has no art at all.
 
+When the zero-art list is large, backfill it in bounded older-first waves. A useful default is **five older zero-art chapters per iteration**: read the exact chapter prose, nominate one genuinely visual prompt-ready scene per chapter, then let normal queue sorting move those older chapters ahead of newer zero-art work. Do not auto-invent scene briefs from titles alone.
+
 ## Manuscript scene-candidate handoff
 
 After a chapter is durably accepted, the Manuscript Engine **may nominate 0–2 genuinely visual moments** for later illustration. This is optional and nonblocking. Do not slow chapter throughput merely to invent an art target.
@@ -31,6 +33,7 @@ A useful candidate records:
 - location and mood
 - optional scene tags such as `workshop`, `backstage`, `street`, or `table_work` when they are genuinely useful for reference selection
 - optional camera-angle / pose-family intent when the shot specifically calls for it
+- optional framing preference; normal Greg scenes default to `above_waist`
 - priority: `high`, `medium`, or `low`
 - kind, normally `chapter_illustration`
 - fit target: `exact` for iconic/continuity-sensitive scenes or `close_enough` for normal coverage
@@ -80,6 +83,19 @@ Do not solve lower-body continuity by inventing a peg leg, prosthetic, crutch st
 
 Shared default style remains **SKETCH + INK + PAINT**. Character reference assets should improve continuity without flattening camera, gesture, lighting, expression, or composition variety.
 
+## Reference metadata backfill
+
+Older hand-curated character anchors often predate structured framing/angle/pose/scene metadata. `backfill_character_reference_metadata.py` may attach **conservative, asset-specific metadata** to those known anchors through `reference_metadata` without converting them into fake auto-promoted registry records.
+
+Backfill rules:
+- only attach details that are already known from the accepted asset's role/use or a deliberate curated review
+- do not infer unsupported facial canon or precise body details
+- coarse labels such as `role_card`, `portrait_anchor`, `working`, `backstage`, or `above_waist` are preferred over speculative precision
+- manual reference metadata should participate in the same scene-aware/diversity-aware scoring as promoted references
+- rerunning the backfill must be idempotent and preserve manually corrected metadata
+
+The current Greg Stagehand anchor is an especially useful normal-generation reference because it is deliberately **above waist** and supports backstage/work scenes without forcing lower-body state into the shot.
+
 ## Character-reference promotion and quality
 
 Accepted art can become future continuity guidance, but the catalog must stay selective.
@@ -111,7 +127,21 @@ Hand-curated references are allowed to remain stronger than mediocre legacy impo
 
 `state/visual/CHARACTER_CONTINUITY_REPORT.md` is the compact dashboard for the current character-reference system. It should show each cataloged character's manual/promoted reference counts, tagged camera-angle and pose-family diversity, scene tags, above-waist anchor count, appearance-note coverage, and reference-audit issue count.
 
+The report should also **route metadata repair**, not merely describe it. Count how often characters appear in current scene candidates and registry metadata, identify missing view-angle/pose-family/scene-tag fields, rank the highest-value catalog repair targets, and surface recurring characters that appear in production state but are not cataloged yet.
+
 This report is diagnostic, not canon. A thin reference pool is a prompt to improve future accepted art metadata, not a reason to manufacture fake character details.
+
+## Prompt-pack metadata contract
+
+Prompt packs should declare useful generation metadata before the prose prompt:
+- framing preference
+- intended view angle or an explicit non-repetitive-angle instruction
+- pose family or physical-action family
+- scene tags
+
+These values should flow candidate → prompt pack → generation queue → registry → accepted reference metadata. They exist to improve continuity and composition diversity, not to override the manuscript.
+
+For Greg, prompt packs repeat the above-waist default unless the specific candidate intentionally requires lower-body visibility.
 
 ## Generation and approval packets
 
