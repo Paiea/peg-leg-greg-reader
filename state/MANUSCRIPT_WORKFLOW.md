@@ -42,8 +42,8 @@ A normal chapter transaction looks like:
 3. Inspect the last 3–6 chapters for repeated function / emotional amplitude / Greg-role / uncertainty type. If repetition risk is medium or high, the proposed chapter must change meaningful story grammar rather than only nouns.
 4. If the chapter contains a meaningful artifact exposure, appraisal, negotiation, bid, purchase, seller interaction, provenance judgment, or information-sensitive valuation, read `ARTIFACT_MARKET_INTELLIGENCE.md` and `ARTIFACT_PRICING_LOGIC.md`. Price the object from what the current market can actually observe and credibly know, not from omniscient true value. Obvious demonstrable power should normally already cost real money.
 5. If the chapter contains a meaningful wage, price, purchase, debt movement, bid, fee, saving goal, acquisition, or money-driven decision, read `ECONOMY_CONTINUITY.md` and calibrate the amount and Greg's reaction against prior anchors and his current economic stage.
-6. Privately identify the light chapter contract, including rhythm intervention, fantasy density, artifact pressure, information gap, market-visible value, and economic pull when relevant, then write ONE complete chapter.
-7. Give it a LIGHT drafting pass: clarity, repetition, attribution, paragraph rhythm, continuity, obvious weak prose, rhythm repetition, fantasy density, artifact-market logic, and economic logic when applicable.
+6. Privately identify the light chapter contract, including rhythm intervention, fantasy density, artifact pressure, information gap, market-visible value, economic pull, and **action pressure** when relevant, then write ONE complete chapter.
+7. Give it a LIGHT drafting pass: clarity, repetition, attribution, paragraph rhythm, continuity, obvious weak prose, rhythm repetition, fantasy density, artifact-market logic, economic logic, and action rhythm when applicable.
 8. Validate chapter length, title, no-em-dash rule, numerical continuity, protected uncertainty, economic continuity when relevant, and any chapter-specific constraints.
 9. Append the exact accepted prose to the SAME permanent running manuscript.
 10. Update only the living state/index/open-thread files whose answers materially changed.
@@ -52,6 +52,42 @@ A normal chapter transaction looks like:
 13. Re-read current `main` and verify the endpoint before reporting success or drafting the next chapter.
 
 This creates a hard durability boundary between chapters. A chat may continue immediately into Chapter N+1 after Chapter N is verified, but it does so from the new GitHub authority rather than relying on its own memory.
+
+### Periodic action pressure
+
+PLG is not an action-every-chapter story, but forward production must not let long runs of work, travel, observation, conversation, and procedural problem-solving flatten the physical rhythm.
+
+During the 3–6 chapter rhythm inspection, explicitly ask:
+
+- When was the last scene with genuine physical urgency?
+- When was the last time Greg had to act under time pressure rather than merely reason correctly?
+- When was the last time his old S-class combat/danger experience materially affected an outcome?
+- Has the recent run become physically safe enough that the next viable claim should carry more action pressure?
+
+If several chapters have passed without meaningful physical urgency, **actively favor a canon-consistent route that can produce an action scene**, provided it grows from the story rather than arriving as random spectacle.
+
+Good action sources include:
+
+- terrain failure, weather, fire, flood, collapsing structures, unstable cargo, dangerous machinery, boats, roads, heights, crossings, or environmental magic;
+- magical ecology or creatures whose behavior belongs to the place;
+- human conflict that becomes physically urgent;
+- protecting another person, escaping, rescue, pursuit, interruption, accident response, or a work problem suddenly becoming dangerous;
+- an earned fight when characters and stakes genuinely support one.
+
+Action scenes should vary. Do not repeatedly solve the rhythm problem with the same falling-rock, loose-animal, or workplace-accident grammar.
+
+Action is not synonymous with combat. However, **actual fighting is allowed and should recur occasionally when earned**. Greg has a first-life S-class history. In genuine danger, his recognition, positioning, timing, tactical judgment, and willingness to commit can become dramatically sharper than his casual everyday mode, even while his current Bronze-level output, missing lower leg, conditioning, pain, equipment, and environment remain hard constraints.
+
+Do not make every action scene a magic showcase. Greg may solve danger through positioning, retreat, directing others, physical technique, tools, artifacts, magic, or some combination. Conversely, do not artificially forbid magic or fighting when the situation genuinely calls for them.
+
+The purpose is rhythmic and narrative consequence, not an action quota. Never insert a random monster solely because several quiet chapters passed. Prefer action that:
+
+1. emerges from an already-present place, job, relationship, route, magical system, or conflict;
+2. changes information, injury state, route, resources, relationships, confidence, obligations, or future choices;
+3. reveals character under pressure;
+4. leaves residue after the immediate danger ends.
+
+After a substantial action scene, allow quieter recovery, consequence, social processing, or discovery. Do not chain emergencies mechanically just to keep voltage high.
 
 ### Current forward-route requirement
 
@@ -120,6 +156,7 @@ During forward drafting:
 - repair obvious weak lines when noticed;
 - reject `technically new but functionally the same` chapters when the recent rhythm is already saturated;
 - preserve ordinary life, but do not let `mundane` become a shield for repeated low-voltage chapter grammar;
+- when recent chapters have become physically safe, consider whether an organic action-pressure beat is now the stronger route;
 - when an artifact appears, require it to change decisions, constraints, economics, or operating rules rather than merely adding power;
 - when an artifact is priced, require the price to reflect visible current-world value while preserving only justified information asymmetry;
 - then KEEP MOVING.
@@ -161,6 +198,7 @@ At minimum verify:
 - if a meaningful artifact transaction occurs, the price is rational under the current market's visible/credible knowledge and any bargain has a concrete information-gap explanation;
 - if a major artifact appears, its upside/downside changes behavior or future play rather than functioning as a simple stat upgrade;
 - the chapter does not merely repeat recent story grammar under new nouns when the current rhythm calls for a break;
+- the chapter's action level fits recent rhythm: no forced quota, but no prolonged physically safe drift when an organic pressure beat is available;
 - state/index/open-thread changes do not contradict the prose;
 - the next executable trailhead is durable in `MANUSCRIPT_STATE.md`;
 - no stale source overwrote newer GitHub authority.
