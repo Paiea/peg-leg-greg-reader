@@ -34,7 +34,7 @@ jobs:
           python /tmp/plg-compression/apply_144_152.py --root .
           python /tmp/plg-compression/apply_183_184.py --root . --write --manifest state/compression-batches/183-184.json
           python /tmp/plg-compression/apply_197_198.py --root . --write --manifest state/compression-batches/197-198.json
-          python /tmp/plg-compression/apply_208_213.py --root . --write --manifest state/compression-batches/208-213.json
+          python /tmp/plg-compression/apply_208_213.py
           python /tmp/plg-compression/apply_250_251.py --root . --write --manifest state/compression-batches/250-251.json
       - name: Verify every replayed batch
         run: |
@@ -43,7 +43,7 @@ jobs:
           python /tmp/plg-compression/apply_144_152.py --root . --check
           python /tmp/plg-compression/apply_183_184.py --root . --verify
           python /tmp/plg-compression/apply_197_198.py --root . --verify
-          python /tmp/plg-compression/apply_208_213.py --root . --verify
+          python /tmp/plg-compression/apply_208_213.py --check
           python /tmp/plg-compression/apply_250_251.py --root . --verify
       - name: Ensure current-main frontier remains present
         run: |
