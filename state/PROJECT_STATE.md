@@ -34,6 +34,8 @@ Normal pattern:
 - 04 / Editor: `EDITOR_STATE.md`
 - Codex/repository integration: synchronize, validate, preserve supplied engine state; do not invent canon or rewrite engine decisions.
 
+Numbered engines are stable front-door ownership, not an exhaustive list of every live specialist pass. A task-specific branch/state may temporarily own a narrower execution surface without becoming a new engine. When a request names or strongly implies a specialty, inspect current PRs, active branches, and specialist trailheads for a live owner before starting generic work under the broader engine. Keep unrelated specialist state cold.
+
 `MANUSCRIPT_ENGINE_PLAYBOOK.md` preserves HOW 01 should think/work. It is durable method, not a canon summary. Current facts belong in manuscript state/open threads and exact prose belongs in the manuscript.
 
 01 / Manuscript Engine is intentionally reconstructible from GitHub. Previous chat history is optional context, not operating authority. `MANUSCRIPT_STATE.md` is the normal durable bookmark and next-chapter trailhead.
