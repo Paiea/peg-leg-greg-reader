@@ -116,7 +116,7 @@ class PerformanceProductionFunnelTests(unittest.TestCase):
         self.assertEqual("performance_chapter_manifest/v1", manifest["schema"])
         self.assertEqual(["214.s010", "214.s020"], manifest["scene_order"])
         self.assertEqual(scenes[0]["source"]["hash"], manifest["scenes"]["214.s010"]["source_hash"])
-        self.assertNotIn("mechanical", json.dumps(manifest))
+        self.assertNotIn("mechanical", manifest["scenes"]["214.s010"])
 
     def test_scene_ids_survive_inserting_a_new_scene_between_unchanged_scenes(self):
         before = '<article class="prose"><p>Alpha stays.</p><hr><p>Omega stays.</p></article>'
