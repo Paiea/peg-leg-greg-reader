@@ -31,9 +31,10 @@ jobs:
         run: python scripts/apply_structural_compression_060_061.py --root . --write --manifest state/compression-batches/060-061.json
       - name: Verify transform is idempotent
         run: |
-          git diff --exit-code -- chapters/060.html chapters/061.html state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx || true
+          sha256sum chapters/060.html chapters/061.html state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx > /tmp/first.sha256
           python scripts/apply_structural_compression_060_061.py --root . --write --manifest /tmp/060-061-second.json
-          git diff --exit-code -- chapters/060.html chapters/061.html state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx
+          sha256sum chapters/060.html chapters/061.html state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx > /tmp/second.sha256
+          diff -u /tmp/first.sha256 /tmp/second.sha256
       - name: Verify DOCX and reader projection agree
         run: python scripts/apply_structural_compression_060_061.py --root . --verify
       - name: Commit edited range
