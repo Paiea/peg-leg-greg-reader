@@ -2,11 +2,13 @@
 
 Status: **AUTHOR APPROVED**
 
-This queue records the five approved economic-calibration updates requested after the Chapter 491 continuity check.
+This queue records the approved economic-calibration updates requested after the Chapter 491 continuity check and the later value/pay correction.
 
 Do not treat this as permission for indiscriminate prose rewriting. The governing rule remains: **numbers first, arithmetic second, reaction language only when needed, story structure last.**
 
-## UPDATE 1 — OLD-LIFE WEALTH CALIBRATION
+## PACKAGE A — MONEY SCALE / VALE CONTINUITY
+
+### UPDATE A1 — OLD-LIFE WEALTH CALIBRATION
 
 **APPROVED**
 
@@ -18,106 +20,162 @@ Durable direction:
 - authorial intuition may treat a platinum coin as roughly a very large gold bundle, potentially around 100g, but no exact conversion becomes canon unless prose establishes it;
 - old Greg's wastefulness in the second life partly comes from remembering the utility of money incorrectly relative to his current purse.
 
-Editorial implication:
-- preserve jokes/mistakes where he spends several silver because old Greg's brain thinks the purchase is small;
-- do not retroactively make him prudently terrified of silver.
-
-## UPDATE 2 — EARLY GREG IS SILVER-ACTIVE, NOT COPPER-SCALE
+### UPDATE A2 — EARLY GREG IS SILVER-ACTIVE, NOT COPPER-SCALE
 
 **APPROVED**
 
-Early exact authority already establishes:
-- multi-silver Antonius borrowing;
-- a 6s Arwick test;
-- repeated advances and gambling stakes;
-- silver-scale gambling wins/losses;
-- 5s seller financing for the Tere gauge;
-- a claimed 40g+ right-buyer value for that gauge;
-- silver-scale debts collected through Vale operations.
+Early exact authority already establishes multi-silver borrowing, 6s specialist testing, silver-scale gambling, multiple advances, 5s seller financing for the Tere gauge, and 40g+ theoretical right-buyer artifact value.
 
 Durable direction:
 
 **Early Greg is cash-poor because he burns/ties up capital, not because he lives exclusively in copper.**
 
-He should be allowed to:
-- earn silver;
-- lose silver;
-- borrow silver;
-- spend silver too casually;
-- own valuable but illiquid things;
-- still struggle to produce cash at the exact moment a bill comes due.
+He may earn, lose, borrow, spend, and waste silver while still having bad liquidity.
 
-## UPDATE 3 — VISIBLE EARNING-PROGRESSION LADDER
+### UPDATE A3 — VISIBLE EARNING-PROGRESSION LADDER
 
 **APPROVED**
 
 Earnings must progress with Greg.
 
-The manuscript should show a broad stair-step:
+The manuscript should move broadly from scraps/manual labor and volatile early silver toward skilled earnings, commissions, contracts, coordination, management, capital deployment, ownership, and eventually larger gold-scale participation when earned.
 
-1. scraps / tiny jobs while rebuilding access;
-2. volatile early silver through gambling/speculation/borrowing;
-3. recurring competent work where small copper becomes ordinary;
-4. multi-copper and silver-scale skilled earnings;
-5. commissions/contracts where Greg moves much larger underlying value;
-6. capital deployment / resale / ownership;
-7. later gold-scale and larger economic participation when earned.
+Emotional reaction must ratchet too. Once a small amount is ordinary, it can remain pleasant without remaining a financial milestone.
 
-This is not a wage table.
-
-The emotional reaction must ratchet too:
-- once 1c is ordinary, it is not a milestone;
-- once 10c-ish work is repeatable, a 1c job may still be socially useful but should not impress Greg financially;
-- once silver-scale earnings are credible, copper should increasingly become operating money;
-- later Greg should compare offers against time, risk, capital lockup, opportunity cost, enjoyment, relationship value, and strategic access.
-
-## UPDATE 4 — VALE LEDGER NORMALIZATION WITHOUT STORY REWRITE
+### UPDATE A4 — VALE LEDGER NORMALIZATION WITHOUT STORY REWRITE
 
 **APPROVED**
 
-The recent Vale closure arc is structurally good but its nominal amounts are provisional until reconciled with early exact authority.
+The recent Vale closure arc is structurally good but its nominal amounts remain provisional until reconciled with early exact authority.
 
-Preserve these beats:
-- Greg genuinely owes Antonius money;
-- the obligation matters because Greg repeatedly spends/invests ahead of cash;
-- Greg performs creditor labor and makes repayments;
-- over time the debt shrinks relative to his earning power;
-- later Greg verifies the remaining balance;
-- he preserves working capital rather than emptying himself symbolically;
-- improved earnings eventually make the final balance almost boring to clear;
-- once cleared, Greg and Antonius can interact socially without a ledger underneath the relationship.
+Preserve:
+- real Vale obligation;
+- repeated early borrowing/spending;
+- creditor labor and repayments;
+- improved earning power shrinking debt pressure;
+- working-capital preservation;
+- final closure becoming almost boring;
+- social relationship with Antonius changing after closure.
 
-Audit requirement:
-- trace Chapters 2 onward until the early silver-scale ledger is either closed, rolled, or clearly transformed;
-- determine whether the later 23c account is separate or drifted;
-- normalize numbers consistently;
-- preserve Ch487/490/491 story shape unless arithmetic proves impossible.
+`EARLY_VALE_LEDGER.md` now confirms the Chapters 1-20 account becomes a composite running silver ledger and does not cleanly close in that range.
 
-Do not resurrect Vale debt after the normalized closure.
-
-## UPDATE 5 — FUTURE MONEY GUARDRAIL
+### UPDATE A5 — FUTURE MONEY GUARDRAIL
 
 **APPROVED**
 
-From the current manuscript edge forward:
-- do not treat Greg as a copper-scale economic actor by default;
-- do not use a low purse snapshot as automatic poverty reset;
-- do not let tiny earnings repeatedly serve as progression beats;
-- do allow small jobs/payments for friendship, theatre, access, curiosity, convenience, obligation, or texture;
-- increasingly expose higher-value layers: contracts, specialist work, artifacts, resale, commissions, ownership, transport, capital pools, and eventually gold-scale opportunities;
-- distinguish liquid cash from asset value, receivables, inventory, deposits, credit, and theoretical/right-buyer artifact value;
-- keep Greg capable of wasting money even as his earning power improves.
+Do not treat Greg as a copper-scale actor by default. Do not use a low purse snapshot as an automatic poverty reset. Small jobs can remain for texture, friendship, theatre, access, curiosity, obligation, or fun, but increasingly expose larger-value opportunities.
 
-## Execution order
+---
 
-1. Audit Chapters 1-20 for Vale/silver anchors.
-2. Continue Vale ledger until the original obligation resolves or transforms.
-3. Build representative earning/spending anchors across manuscript eras.
-4. Patch money-driving scenes in bounded batches.
-5. Reconcile Ch487/490/491 nominal amounts and then lift the current-state provisional-money warning.
+# PACKAGE B — VALUE / RISK / PAY CALIBRATION
+
+Status: **AUTHOR APPROVED AND SHIPPED TO ENGINE AUTHORITY**
+
+This five-update package answers the broader continuity problem exposed by the early ledger: Greg sometimes performs later work whose value/risk is much greater than the compensation assigned to it.
+
+## UPDATE B1 — PAY FOLLOWS VALUE, NOT GREG'S PURSE
+
+**APPROVED**
+
+Compensation must be calibrated to:
+- replaceability;
+- underlying value moved/protected/unlocked;
+- failure cost;
+- urgency;
+- scarce trust/responsibility;
+- capital at risk;
+- physical/legal/reputational risk.
+
+Cheap work may remain cheap when the work itself is cheap.
+
+Canonical contrast:
+- flour-moving / ordinary Bronze labor can pay copper;
+- Antonius's early gauntlet appraisal can pay **6s** because Greg's judgment materially affects a valuable lending decision.
+
+Do not price specialist judgment like generic labor.
+
+## UPDATE B2 — EARNING ACCESS MUST SCALE UPWARD
+
+**APPROVED**
+
+Greg's progression should increasingly expose:
+- silver-operating work;
+- tens-of-silver specialist/management/commission opportunities;
+- larger capital positions;
+- gold-scale value and, where justified, gold-scale compensation.
+
+The point is not universal inflation. Ordinary cheap work remains ordinary. Greg becomes less dependent on it.
+
+Use `FORWARD_EARNING_LADDER.md` as the forward authority.
+
+## UPDATE B3 — CRIME / GRAY WORK REQUIRES A REAL RISK PREMIUM
+
+**APPROVED**
+
+Crime does not automatically pay well.
+
+Petty illegal work may still pay poorly.
+
+But meaningful smuggling, illicit freight, valuable contraband, institutional exposure, criminal counterparties, or dangerous gray logistics must be tested against the legal/physical/reputational downside.
+
+Durable calibration:
+- real gray/illegal work should usually outperform routine safe labor when risk is meaningful;
+- serious illicit logistics can plausibly operate in the **tens-of-silver** band;
+- **30s+ is a plausible band for serious high-exposure work, not a universal minimum**;
+- major contraband, rare artifacts, dangerous routes, or organized operations may justify **gold-scale compensation** when underlying value/risk supports it.
+
+If Greg risks arrest for routine-labor money, establish coercion, desperation, access, information, relationship value, or another concrete reason.
+
+Use `PAY_VALUE_RISK_ENGINE.md` as the governing specialist authority.
+
+## UPDATE B4 — GREG'S REACTION TO PAY MUST PROGRESS
+
+**APPROVED**
+
+A payment can be socially meaningful without being financially impressive.
+
+Examples:
+- 1c theatre pay can matter because the theatre recognized his labor;
+- a few copper can be pleasant incidental money;
+- once silver-scale work is credible, tiny copper should not repeatedly feel like economic breakthrough;
+- once tens-of-silver opportunities become available, Greg should increasingly ask whether a smaller job is worth his day, risk, or opportunity cost.
+
+Do not confuse gratitude with economic calibration.
+
+## UPDATE B5 — TARGETED EARNINGS NORMALIZATION AUDIT
+
+**APPROVED**
+
+Audit later paid work using:
+
+**KEEP / RAISE / LOWER / REFRAME / NEEDS CONTEXT**
+
+Priority lanes:
+1. crime / gray freight / contraband;
+2. appraisal / artifact / provenance / specialist knowledge;
+3. brokerage / intermediation / commissions;
+4. coordination / management / urgent commercial contracts;
+5. ordinary legal/social/theatre work for reaction calibration.
+
+Use `EARNINGS_NORMALIZATION_AUDIT.md` for the execution queue.
+
+Do not mass-edit on category alone. Read exact prose and neighboring economic anchors before changing a number.
+
+---
+
+## Current execution order
+
+1. Continue the early Vale ledger beyond Chapter 20 until the account closes, rolls, or transforms.
+2. In parallel, audit representative earning eras rather than reading all 490 chapters linearly first.
+3. Prioritize later gray/criminal work and sophisticated underpaid work.
+4. Patch numbers in bounded batches.
+5. Recalculate dependent purse/debt arithmetic.
+6. Reframe reaction language only where required.
+7. Reconcile Ch487/490/491 after the Vale ledger is understood.
+8. Lift the provisional numeric overlay only after current economics are normalized.
 
 ## Approval note
 
-All five updates above are approved as editorial/economic direction.
+All updates in Package A and Package B are author approved.
 
-No additional user approval is required for bounded audit/normalization batches that obey this authority and preserve story shape.
+No additional user approval is required for bounded audit/normalization batches that obey these files, preserve story shape, avoid invented conversion rates, and verify exact manuscript authority before changing numbers.
