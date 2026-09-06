@@ -1,8 +1,8 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 470 - **THE CALIBRATOR**.
-- Exact Chapters 249-470 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
+- Current exact story endpoint: Chapter 471 - **THE STRATEGIST**.
+- Exact Chapters 249-471 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
 
 ## Active correction overlays
 - Ch432 forewoman: **Rika Dorn**, not Nessa Vale.
@@ -12,212 +12,198 @@
 ## Naming guardrail
 Before any new named character: check `BOOK1_NAME_REGISTRY_CH82.md` and current state for exact/TTS/syllable/surname collision. Temporary people do not automatically need names. Do not narrate editorial naming cleanup inside Greg POV.
 
-## Durable progression mandate
-- `state/PROGRESSION_ENGINE.md` remains mandatory directional context.
-- Greg is intentionally rebuilding six capacities: body, magic, money, tools/artifacts, information, people/support network.
-- Support remains broad and should increasingly become visible through choices and compounding capability rather than repeated planning monologues.
-- Ch470 adds a useful sub-principle: **build the stack, but do not turn life into a checklist**.
+## Durable progression / leverage mandate
+- `state/PROGRESSION_ENGINE.md` now includes a **highest-leverage focus** rule.
+- The six capacities are not equal simultaneous priorities. Greg should periodically choose the single current bottleneck whose improvement creates the most options across other lanes.
+- Current near-term leverage focus: **EARNING POWER / CAPITAL**.
+- This is not permanent money worship. Greg should reassess when another bottleneck becomes more multiplicative.
+- Reason at current edge: money/earning power unlocks the work limb, artifacts, travel, paid expertise, training time, better recovery conditions, emergency margin, and rare opportunity capture.
+- Greg explicitly considers people/old-life contacts as potentially even higher leverage, but rejects `hope someone convenient appears` as a controllable plan.
+- Near-term objective is not merely `earn 30c`; it is **convert real accomplishments into proof/references/reputation that raise the market price of Greg's work**.
 
 ## Current arc
-- Sunroad west access remains closed pending inspection after Ch468.
-- Greg is in Lakeward finishing the Three Rays information thread while beginning deliberate progression work.
-- Three Rays has shifted from tempting collectible hardware toward a model of distributed support infrastructure and externalized route confirmation.
-- Greg's next economic progression lane is building a **field file / references** that can unlock higher-paying contract categories.
+- Greg remains in **Lakeward**.
+- Sunroad west access remains closed pending inspection.
+- Three Rays information thread can braid into later support/tool choices rather than consuming every chapter.
+- Greg has now moved from planning progression to **executing an earning-power ladder**.
 
-## Chapter 470 - THE CALIBRATOR
+## Chapter 471 - THE STRATEGIST
 
 ### Role / title
-- Greg is **THE CALIBRATOR** because he calibrates his new progression plan against real body data, real earning gates, and a reconstructed support system rather than merely making ambitions.
-- Title search found no prior `THE CALIBRATOR` collision before drafting.
+- Greg is **THE STRATEGIST** because he chooses one leverage point rather than trying to optimize every progression lane at once.
+- Title search found no prior `THE STRATEGIST` collision before drafting.
 
-## Body progression
-- Greg reassesses shoulder/knee in Lakeward morning.
-- Right shoulder continues slow improvement but remains sore and poor overhead; no reset/healing shortcut.
-- Right knee scrape is dry/stable without swelling.
-- Greg resumes a **short controlled road-test limb session** on dry flat bunkhouse courtyard stone.
-- Session: **12 minutes total**.
-- Both-crutch walking stable.
-- Brief one-crutch standing with left hand free.
-- Two-hand empty wash-basin carries: **3 steps + 5 steps**.
-- Immediate skin: mild upper pink, no point heat/pain.
-- 20-minute check: mostly clear.
-- 30-minute check: clear.
-- Shoulder tolerates session.
-- Greg stops early intentionally rather than chasing duration.
-- Key body target becomes **usable hands**, not impressive wear-time numbers.
-- Trial limb remains shop property, unfinished, not owned.
+## Highest-leverage decision
+Greg explicitly compares:
+- deliberate magic training;
+- artifacts;
+- finishing the work limb;
+- people/network;
+- possible old-life reunions;
+- money/earning power.
 
-## Money progression / contracting board
-- Greg begins **10c cash / 23c Vale / bits unspecified** and spends no copper Ch470.
-- He visits Lakeward **district contracting board**, distinct from general day-labor board.
-- Higher-paying categories observed include examples such as:
-  - route condition copy: 6c / two days / own travel;
-  - ferry loss witness: variable / licensed or district reference;
-  - warehouse claim inventory: 8c / two references;
-  - field marker audit: 7c / route experience / map copy;
-  - private salvage catalog: rate by lot / prior appraisal reference.
-- These are examples of a higher earning tier, not guaranteed jobs for Greg.
-- Key structural finding: better-paid work often has **credential/reference/proof gates** because mistakes cost clients more.
-- A completed district supplemental sample can support a field reference if hiring office signs completion.
-- A useful road hazard report can support a reference if ridge office confirms usefulness and identity, especially when closure/repair action followed.
-- Artifact/appraisal work needs an appropriate registered appraisal/commercial reference; Greg does not assume Sori will provide one.
-- Greg reframes money progression as **credential + reputation + capital**, not only more hours.
+Conclusion:
+- old-life contacts or a rare person could theoretically dwarf other gains, but cannot be scheduled;
+- magic is waiting on Hessa's safe/evidence-grounded reply;
+- artifacts and the work limb both require capital;
+- therefore the strongest **controllable** current lever is **earning power / capital**.
+- Greg writes: **INCREASE EARNING CEILING.**
+- He also records: **Do not confuse highest leverage with only thing that matters.**
 
-## Reference-capacity audit
-Greg distinguishes relationships from specific references people/institutions may choose to provide.
-Potential reference paths:
-- Morrow/district field completion for Mirror Spring work;
-- Bracken ridge office confirmation for useful Sunroad hazard report;
-- Sori commercial/artifact judgment only if earned/agreed;
-- Hark & Venn may support limb/travel reliability but are not automatically field-work references;
-- theatre reliability may matter locally in Carrow;
-- Hessa's magic relationship is not to be casually converted into employment paperwork.
+## First field proof: Mirror Spring chain verification
+- Greg takes his Mirror Spring sample-transport receipt and contract records to Lakeward district offices.
+- He encounters the important distinction between:
+  - Morrow certifying private contract completion;
+  - Lakeward district certifying only what district directly knows.
+- District will **not** certify that Greg's route judgment was correct or that every contract term was satisfactorily completed.
+- It will certify:
+  - sealed Mirror Spring sample arrived with intact accepted chain;
+  - transport form was complete enough for acceptance;
+  - associated route/water notes entered the file.
+- Greg receives a stamped **SUPPLEMENTAL FIELD CHAIN RECEIPT** at no copper fee.
+- This becomes his first legitimate field-chain verification.
 
-Durable social principle:
-- people are not resources;
-- references are specific reciprocal/verifiable claims people may choose to make.
+## Morrow / Bracken reference requests
+- Greg sends Morrow lower-channel cooperative a written request for direct confirmation that the Mirror Spring private field contract was completed and paid under agreed terms. Reply pending.
+- At Lakeward road desk, Bracken final hazard inspection remains pending, so road office cannot certify hazard accuracy yet.
+- It can certify Greg's report was received **before** the temporary Sunroad west-access closure.
+- Greg receives a notation: report preceded closure; final hazard finding pending.
+- This is useful but does **not** yet count as a completed road reference.
 
-## Three Rays reconstructed demonstration
-- Greg pays **3 bits** public floor fee; no copper spent.
-- Lakeward east museum storehouse reconstruction includes:
-  - three waist-high iron frames on a demonstration track;
-  - cloudy/shade glass strips;
-  - black disks behind glass;
-  - brass toothed arcs for limited rotational positions.
-- Museum disclosure explicitly states:
-  - reconstruction is based on Sunroad recovery records;
-  - frames are replacement;
-  - glass is replacement in two stations;
-  - one original disk pair is used;
-  - behavior is illustrative, not certified historic field performance.
+## Earning-tier gate clarified
+- Contracting board confirms the Mirror Spring district chain verification counts for listings accepting one district field reference.
+- Greg still does not qualify for:
+  - 7c field marker audit requiring route reference;
+  - 8c warehouse claim inventory requiring two references;
+  - upper-rate ferry loss witness requiring license/two refs.
+- A suitable one-reference listing appears:
+  - **TRANSFER SEAL WITNESS / EAST LANDING / 5C / HALF DAY / ONE DISTRICT FIELD REFERENCE / NO APPRAISAL AUTHORITY**.
+- Greg takes it because it both pays and can create a second verifiable field-work category.
 
-### Demonstrated plausible principle
-- Afternoon light passes through shade glass.
-- Frame/tooth position and disk create a visible pale crescent pattern.
-- At paired stations, observed light shape can be compared against expected paired shape.
-- Swapping in a wrong-number disk produces a mismatch.
-- Slight frame misorientation also shifts the pattern.
-- Partial shade weakens signal and makes interpretation harder.
-- No charged material has been identified in standard recovered components.
-- Plausible simplified function: **route/timing/orientation confirmation**, especially helping detect when expected conditions do not match.
-- Heavy fog would reduce useful light; broken fog/shade may still have been relevant, but thresholds are unknown.
-- Historic controls against deliberately rotating a frame to fake a match are unresolved; installed anchor points and wear suggest limited set positions may have mattered.
+## Transfer seal witness job
+- Three inbound cargo crates have discrepancies between ferry manifest and receiving records.
+- Greg is second/outside witness alongside landing office.
+- Scope is bounded:
+  - verify manifest seal number;
+  - physical seal number;
+  - crate side mark;
+  - existing damage;
+  - handlers;
+  - bonded-storage destination;
+  - any break in direct sight.
+- No appraisal, opening, valuation, or claim decision.
 
-## Support interpretation
-- Greg recognizes Three Rays as a form of **externalized confirmation**: infrastructure that can make ordinary travelers less confidently wrong without requiring an elite navigator on every cart.
-- This resonates strongly with his old support identity because it improves other people's capability through preparation, shared standards, and reduced failure modes.
-- Greg does **not** conclude he needs to own historical Three Rays hardware.
-- The 18c orphan disk becomes less attractive because surviving instruction and demonstration both show that single disks lack enough context.
-- Greg crosses orphan Three Rays component off current acquisition list.
-- New tool-gap phrasing:
-  - **independent position / condition confirmation that works without a full station network**.
-- Durable acquisition principle reinforced: **do not buy history when you need capability**.
+### Crate 1
+- Manifest seal: **E-7714**.
+- Physical seal: **E-7174**.
+- Same digits, different order.
+- Merchant calls it obvious transcription; Greg records both rather than correcting away uncertainty.
 
-## Three Rays public summary
-- Greg pays **2 bits** for reconstruction summary.
-- Summary reinforces:
-  - paired-number families;
-  - three density bands;
-  - west-facing orientation at some documented stations;
-  - return/home marks in damaged text;
-  - installed tooth wear suggesting repeated limited positions;
-  - no charged material in standard recovered parts;
-  - plausible optical route/timing confirmation;
-  - unresolved regional variation.
-- Full original function remains unresolved.
+### Crate 2
+- Seal matches.
+- Lower corner crushed.
+- Merchant claims old damage; arrival slate omitted it but was written after unload.
+- Greg correctly records timing unknown rather than treating absence on post-unload slate as proof.
 
-## Progression ledger at chapter end
-Greg reviews:
+### Crate 3
+- Seal matches manifest.
+- Side mark differs: manifest lot ends **C2**, physical crate ends **G2**.
+- Transfer stops.
+- Dock chalk board also shows G2, creating uncertainty between ferry paperwork and landing-side record.
+- Supervisor authorizes separate **discrepancy hold** transfer rather than pretending the mark matches.
+- Greg records red tag number, handlers, cart, continuous sight, and bonded-bay placement.
 
-### BODY
-- 12-minute stable trial-limb session.
-- Hands/free-hand utility clarified as primary target.
+## Support relevance
+- The job reinforces Greg's support identity through preserving future options rather than solving everything himself.
+- His role is to keep uncertainty visible during movement so better-informed later people can still determine what happened.
+- Greg notices this is support work in a noncombat form.
 
-### MAGIC
-- Waiting on Hessa reply.
-- No deliberate test Ch470.
+## Second field verification / pay
+- East Landing signs completion:
+  - transfer seal witness completed;
+  - record accepted;
+  - no seal break during transfer;
+  - one crate moved under discrepancy hold.
+- Pay **+5c**.
+- Cash **10c -> 15c**.
+- Vale remains **23c**.
+- Temporary 10c survival reserve remains active; 5c above floor.
+
+## Earning ceiling moves
+- With:
+  1. district field-chain verification;
+  2. East Landing transfer-witness verification;
+  Greg now qualifies to **apply** for some two-reference custody listings.
+- He does not automatically qualify for every 7-8c job.
+- A plausible next listing:
+  - **BONDED LOT DISCREPANCY REVIEW / 7C / ONE DAY / TWO FIELD REFERENCES / NO VALUATION**.
+- Scope would compare physical marks, seal history, transfer records, and lot sheets; no opening or claim ruling.
+- Greg submits an application for the next day.
+- Acceptance remains pending.
+
+## Strategic lesson
+- Greg ends with the same 15c purse level he had before returning from Bracken, but recognizes this is not a reset:
+  - yesterday he could not credibly apply for the 7c review;
+  - now he can.
+- Progression is defined as **earning ceiling moving before wealth does**.
+- He intentionally passes museum/artifact browsing because it is no longer the highest-value use of the afternoon.
+- No post replies yet from Hessa, Hark & Venn, Sori, or home.
+
+## Body / magic / tools
+- No trial-limb wear Ch471; body lane breathes after Ch470 session.
+- Shoulder remains improved but still not fully healed; work is non-lifting and crutch-compatible.
 - Protocol remains **59 / 53 / 139**.
+- No magic tests.
+- No artifact purchase.
+- Lot 67 unused.
 
-### MONEY
-- **10c cash**, 30c liquid target remains.
-- Higher-pay work categories identified.
-- Immediate bottleneck is references/field file rather than merely finding more hours.
-
-### TOOLS
-- Three Rays useful as support concept.
-- Orphan component poor acquisition.
-- Capability gap reframed.
-
-### INFORMATION
-- Reconstructed demonstration supports a plausible paired optical route-check principle only; not certified original behavior.
-
-### PEOPLE
-- Relationship and reference are distinct.
-- Ask specifically; do not assume.
-
-## New explicit principle
-Greg writes:
-- **BUILD THE STACK.**
-- **DO NOT TURN LIFE INTO A CHECKLIST.**
-
-This should protect the progression engine from making every future chapter optimization/accounting prose.
-
-## Economy / body / magic / tools
-- Ends **10c cash / 23c Vale / bits unspecified**.
-- Copper unchanged Ch470; bits spent on museum access/copy/food.
-- Temporary 10c survival reserve remains intact.
+## Economy
+- Starts **10c cash / 23c Vale / bits unspecified**.
+- Transfer seal witness +5c.
+- Ends **15c cash / 23c Vale / bits unspecified**.
 - 30c liquid target remains active.
 - 20c work-limb deposit remains paid toward 1 silver + 18c quote.
-- Right shoulder improving but still sore/poor overhead.
-- Right knee scrape stable.
-- Trial limb healthy after 12-minute controlled session.
-- Protocol **59 / 53 / 139**.
-- Lot 67 unused.
-- No artifact purchase.
 
 ## Protected uncertainties
-- Greg ends Ch470 in **Lakeward**.
-- Cash **10c**, Vale **23c**, bits unspecified.
+- Greg ends Ch471 in **Lakeward**.
+- Cash **15c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 139**.
-- Shoulder still sore; knee scrape stable.
+- Shoulder improving but still not fully healed.
+- Morrow contract-completion confirmation pending.
+- Bracken final hazard inspection/reference pending.
+- Bonded Lot Discrepancy Review 7c application pending; not yet accepted.
+- Hessa/Hark & Venn/Sori/home replies pending.
 - Sunroad west access remains closed.
-- Possible black disk finder report remains pending.
-- 9c half-wheel is sold.
-- 18c orphan disk status remains unverified, but Greg no longer wants it as current acquisition target.
-- Replies from Hessa, Hark & Venn, Sori, and home remain pending.
-- Three Rays historic full function remains unresolved.
 - No permanent companion.
 
-## Chapter 471 trailhead
-Follow next actual claim from Ch470/current authority and `state/PROGRESSION_ENGINE.md`.
+## Chapter 472 trailhead
+Follow next actual claim from Ch471/current authority and `state/PROGRESSION_ENGINE.md`.
 
-Greg begins **10c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**, in Lakeward with his first progression bottleneck clearly identified: **proof/references that unlock higher-value work**.
+Greg begins **15c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**, in Lakeward with **earning power/capital** as his chosen leverage focus.
 
 Strong movement:
-- Move from planning into execution. Greg should try to secure or initiate at least one legitimate field-work reference rather than writing another audit chapter.
-- Morrow Mirror Spring completion is the cleanest already-earned reference. He can contact district/Morrow through Lakeward channels without necessarily traveling all the way back immediately.
-- Bracken ridge hazard confirmation is another plausible reference because Greg's report caused a real access closure, but inspection is still pending and should not be instantly finalized without timing.
-- A first higher-value job may become reachable with one reference, but do not hand him the best 7-8c listing instantly if it requires two references.
-- A strategically chosen smaller/medium task can be good progression if it creates the **second proof** needed for better work. This is different from returning to random 1-2c treadmill.
-- Let Lakeward institutions/people push back if Greg's claimed experience is too broad. He should have to describe what he actually did.
-- Money target remains 30c, but progress can first appear as earning-ceiling increase rather than purse increase.
-- Body progression should breathe after Ch470 session. Do not chase wear duration next chapter.
-- Magic should remain waiting unless a plausible reply arrives with correct travel time. No scheduled test.
-- Three Rays can now recede slightly. The thread is not solved, but enough has been learned to let it braid with future artifact/support choices instead of consuming every chapter.
-- Consider opening a new adventure route only after Greg makes at least one concrete progression move. The next road should ideally improve more than novelty: money, reference, network, information, or support capability.
-- Preserve ordinary social texture and humor. Do not make Ch471 a bureaucratic spreadsheet chapter.
+- Do not immediately reassess all six lanes. The focus is chosen. Execute it.
+- Resolve whether Greg is accepted for the **7c Bonded Lot Discrepancy Review**. Acceptance should depend on the actual fit of his two verifications and may include questions/limits rather than automatic approval.
+- If accepted, the task should be meaningfully harder than Ch471 transfer witnessing: multiple records, conflicting histories, pressure from interested parties, or a choice about what can/cannot be concluded.
+- Successful completion should strengthen Greg's earning ceiling and could produce a more reusable custody/field reference.
+- Do not make every money chapter paperwork. Let actual people, stakes, objects, humor, and consequences remain present.
+- Morrow and Bracken reference replies can arrive later when travel/post timing supports it; either could broaden route/custody work further.
+- The 30c target remains a milestone, not a mandatory immediate endpoint.
+- If a genuinely higher-leverage opportunity appears, Greg may change focus, but it must actually dominate the current earning-power strategy rather than merely be shiny.
+- An old-life person can appear eventually, but do not manufacture one solely because Greg considered the possibility. If such a reunion happens, it should be earned by geography/social history and materially alter the leverage calculation.
+- Body/magic/artifact lanes continue in background but should not steal focus without reason.
+- After Greg establishes a stronger earning category, open the next adventure route through work or opportunity rather than having him camp indefinitely at Lakeward boards.
 
 Avoid:
-- another full six-heading audit;
 - instant 30c;
-- forged/easy references;
-- Sori/Hessa replies arriving implausibly fast;
-- claiming museum reconstruction proves original Three Rays operation;
-- buying unnecessary artifacts;
-- random combat immediately after Ch468 action unless story forces it;
-- making Greg's ambition joyless.
+- automatic acceptance of every higher-tier contract;
+- references certifying more than institutions actually know;
+- turning Greg into a legal/accounting prodigy outside his experience;
+- surprise old-life reunion as pure convenience;
+- joyless optimization prose;
+- immediate new combat unless story genuinely demands it.
 
-**MANDATORY TITLE CHECK CH471:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
+**MANDATORY TITLE CHECK CH472:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
