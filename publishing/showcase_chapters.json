@@ -14,6 +14,7 @@
     "43": {"showcase": false, "reason": "redundant_progression"},
     "46": {"showcase": false, "reason": "low_consequence_mundane"},
     "48": {"showcase": false, "reason": "low_consequence_mundane"},
-    "49": {"showcase": false, "reason": "superseded_by_stronger_chapter"}
+    "49": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
+    "57": {"showcase": false, "reason": "redundant_progression"}
   }
 }
