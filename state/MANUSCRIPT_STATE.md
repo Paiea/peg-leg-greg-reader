@@ -1,252 +1,230 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 415 - **THE FITTING**.
+- Current exact story endpoint: Chapter 416 - **THE BREAKER**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript physically materialized through Chapter 248.
-- Exact Chapters 249-415 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
+- Exact Chapters 249-416 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
 - Titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
-- Ch415 answer: Greg is being **a fitting** prospect in both craft and social sense. Masta takes real baseline measurements and confirms he is a viable travel-work limb candidate, while Greg continues fitting himself into Duskport recovery work without giving up freedom or overcommitting financially.
-- Therefore title **THE FITTING**.
-- Recent: 411 THE HAND; 412 THE TALLYMAN; 413 THE DRINKER; 414 THE RETAINER; 415 THE FITTING.
+- Ch416 answer: Greg is being **a breaker** in the sense of a breakwater hand and a person who helps break a dangerous failure chain. He works South Chain at Duskport breakwater, helps interrupt a jammed shore-line hazard, and proves useful inside specialists' authority rather than becoming the specialist himself.
+- Therefore title **THE BREAKER**.
+- Recent: 412 THE TALLYMAN; 413 THE DRINKER; 414 THE RETAINER; 415 THE FITTING; 416 THE BREAKER.
 
 ## Major arc direction - Duskport / work toward limb
 - Greg remains in **Duskport**, self-directed.
 - He is retained on a five-day open temporary Venn Marine Recovery block, condition/tally class.
-- Four days remain in current open block after Ch415's assigned day.
+- Three days remain in current open block after Ch416's assigned day.
 - He is actively earning toward a fitted travel-work limb but has **not paid deposit**.
-- Duskport remains a lived-in port with work, limbcraft, beer, salvage, human conflict, ship/warehouse infrastructure, and coastal social life.
-- Human-conflict pressure remains durable: people can all be reasonable and still lose something.
+- Duskport remains lived-in port with work, limbcraft, beer, salvage, sea defenses, harbor ecology, ships, and human conflict.
+- Human-conflict pressure remains durable, but Ch416 correctly shifts rhythm toward more kinetic operational danger.
 
-## Chapter 415 - THE FITTING
+## Chapter 416 - THE BREAKER
 
-### Masta baseline measurement session
-- Before first bell Greg returns to **Hark & Venn** for proper baseline measurements.
-- Masta Venn measures:
-  - stump circumference at multiple heights;
-  - residual-limb length;
-  - knee flexion/extension;
-  - hip/pelvis line;
-  - right-leg length;
-  - crutch height;
-  - shoe sole thickness;
-  - pressure/sensitivity zones.
-- Greg has no skin breakdown, low scar sensitivity, and generally good knee/hip control.
-- Mild lateral upper-edge pressure can appear after long crutch days.
-- Masta establishes an important current-body gait fact:
-  - Greg habitually **unloads the left side before danger exists**;
-  - pelvis sits slightly low left when tired;
-  - right side overworks;
-  - crutch competence has made this functional, but a fitted limb will require a different movement map rather than simply adding support.
-- When asked to identify a level pelvis by feel, Greg initially reads slightly low-left as normal. Masta corrects him.
+### South Chain / breakwater assignment
+- Venn yard board begins with Merry Wake / North Pier / South Chain.
+- Weather makes first two poor options; Tavren redirects crew to **South Chain** breakwater inspection/recovery.
+- Duskport south breakwater infrastructure:
+  - black stone arm;
+  - iron fixtures;
+  - signal towers;
+  - floating chain buoys marking deep-draft lane exclusion;
+  - outer harbor ships waiting offshore.
+- Loose float **SC-4 SOUTH FLOAT** rolls wrong and indicates bridle/chain problem.
+- Greg assigned tally, shore-line condition, equipment records.
+- Tavren explicitly forbids heroics.
+- Specialist authority preserved:
+  - Jerr owns skiff/rigging work;
+  - Perr Vale handles harbor signals/winch;
+  - Nali monitors condition/load behavior;
+  - Tavren owns recovery decisions.
 
-### Temporary support / fit logic
-- Masta uses a temporary leather/canvas test socket cup and fixed support post.
-- No finished foot or true fitting occurs.
-- Greg tolerates light partial loading without pain/numbness/burning.
-- Pressure zones are marked and adjusted.
-- Key physical realization: with a supported left side, Greg can momentarily have **both hands mostly free**, making the value of the future work limb concrete again.
-- Masta stops him from performing/overreaching during test.
-- She concludes he is a good **travel-work candidate**, not merely a flat-yard rigid-peg candidate.
+### Initial failure sequence
+- First skiff inspection finds:
+  - top bridle leg intact;
+  - east leg intact;
+  - west leg missing or below water.
+- Second inspection determines west lower eye tore away from float plate, ripping surrounding metal.
+- Original tow by same plate becomes unsafe.
+- Options considered:
+  - tow on remaining two legs, high risk of second plate failure;
+  - belly sling, requires close handling in swell;
+  - abandon/close lane until calmer window.
+- Port master wants lane by fourth bell, but Tavren refuses unsafe estimate pressure.
 
-### Masta's updated fit judgment
-- Basic dock peg remains usable but is wrong tool for Greg's intended roads/wet yards/ships/stairs/carrying/fighting mix.
-- Travel-work build remains recommended.
-- Main challenge is habit/training, not stump length/knee condition.
-- Limb will not automatically fix gait. Bad use can reinforce worse pattern faster.
-- Socket volume expected to change during day with:
-  - yard swelling;
-  - heat;
-  - salt;
-  - prolonged standing.
-- First month may require multiple adjustments, perhaps ~3 to 9 depending body response.
-- Crutches remain part of long-term mobility system.
+### Skiff-line danger / Greg's first intervention
+- Float rolls farther and chain tension shifts.
+- Inspection line falls across skiff bow during retreat.
+- If line tightens, bow could be pulled under.
+- Tavren orders cut; rigger has difficulty in swell.
+- Greg recognizes shore inspection reel can dump slack and calls to **Perr** to free inner slack.
+- Perr releases shore reel, line softens, rigger cuts it, skiff clears.
+- Greg does not use magic because distance/wet moving rope/uncertain control would be poor evidence and bad risk.
+- This is practical systems competence, not physical overpowering.
 
-### Price / deposit remains unchanged
-- Travel-work limb quote remains **1 silver + 18c** as described.
-- Possible small material difference later if reinforced side stay proves necessary after trial shell.
-- Deposit remains **20c**.
-- Greg begins session with **36c**.
-- He deliberately does **not** pay deposit because:
-  - lodging/food/return route still matter;
-  - Vale obligation remains 23c principal-equivalent;
-  - work is open temporary/weather dependent;
-  - silver-denomination balance remains beyond his current certainty.
-- Masta agrees last visit's 1c-after-deposit case was obviously stupid; at 36c choice is less obvious but still Greg's financial responsibility.
-- Measurements remain useful for ~6 weeks before full remeasure unless body/injury/skin changes significantly.
-- Greg receives card: **GREG / LEFT BKA / TRAVEL-WORK CANDIDATE / BASELINE TAKEN**.
-- Assessment folds into eventual purchase; one bit only if he wastes Masta's morning and disappears forever.
+## Chain ray / magical ecology
+- During belly-sling attempt, a large **chain ray** surfaces:
+  - ~6 feet;
+  - broad black wings/flat body;
+  - pale underside;
+  - long tail;
+  - harbor species.
+- Animal is caught/entangled around broken bridle/iron loop, likely contributing to some float movement but not necessarily sole cause.
+- Perr identifies chain ray as protected harbor species; killing is not allowed absent immediate human danger.
+- Ecology response estimated ~20 minutes.
+- Tavren/Jerr choose to wait initially rather than attack/free animal unsafely.
+- This expands Duskport magical/coastal ecology beyond infrastructure observation.
 
-## Venn Marine Recovery - North Pier warehouse strike
-- Greg reports Venn Marine Recovery at second bell.
-- Offshore Merry Wake heavy work is still delayed by wind.
-- New job: **North Pier warehouse crane strike**.
-- A crane boom hit upper loading gallery during gust; secondary collapse followed warning bell; no injuries.
-- Warehouse has trapped:
-  - sacks/crates;
-  - two copper-bound ice cabinets;
-  - one long white case.
-- Harbor inspector **Meren Cole** owns structural safety corridor.
-- **Jase Kerrin**, provisioning owner, wants perishables recovered before spoilage.
-- Insurance assessor wants damage documentation.
-- Dock master wants quay lane reopened before evening tide.
-- Greg assigned board/tally; Nali condition; **Sesh Om** rigging.
-- Greg does not own structural/rigging authority.
+### Escalation / jammed brake
+- Ray panic/rolling tears remaining bridle plate.
+- Float fully separates from original bridle.
+- Broken iron ring remains caught near ray tail base.
+- Weighted shore line remains attached to free float.
+- Perr starts taking in automatically; Nali orders release as float swings toward wall/ray.
+- Winch brake jams halfway.
+- Tavren orders **free drum**.
+- Greg sharply enters high-focus/near-locked decision mode, but not full magical/combat lock-in.
+- Greg identifies alternate manual pin release on opposite side of drum from prior observation.
+- He moves quickly on wet stone using crutches, frees one hand then both by bracing crutches against rail/brace, twists and pulls jammed release pin.
+- Drum spins free, line dumps slack, float stops pulling toward wall, ray clears potential crush path.
+- No human injury.
+- Greg obeys Tavren's `Down` immediately after, paralleling but not duplicating Vessa's earlier lock-in management.
+- Greg checks hands/shoulder/stump honestly; no injury.
 
-### Leased preservation rod
-- One long white case within cleared corridor:
-  - 3 blue dots;
-  - brass end caps;
-  - slightly cold;
-  - green screen with amber center response.
-- Manifest identifies it as **LEASED PRESERVATION ROD / NORTH COAST COLDWORKS / RETURN DUE 17TH**.
-- It is not Kerrin property despite being in his provisioning inventory.
-- Greg/Nali route it to leased-equipment custody/notice rather than assuming ownership.
-- Jase's frustration echoes Tessa's earlier `maybe` problem. Greg does not become defensive; he says he does not know whether it works.
+### Ecology resolution / float recovery
+- Ecology team arrives early (~12 min).
+- They locate ray in calmer pocket and use appropriate hooked equipment to remove broken bridle ring without killing animal.
+- Ray leaves under own power.
+- Venn crew later belly-slings free float safely after animal/chain hazard separated.
+- Recovered float:
+  - scratched;
+  - plate torn;
+  - shell dented;
+  - possibly repairable.
+- Underwater chain section remains for later dive.
+- South lane reopens partially around fifth bell with temporary exclusion shifted north, not full original capacity.
+- Port-master pressure resolves through partial reopening rather than magic instant fix.
 
-### Structural retreat / real loss
-- Second ice cabinet worth perhaps ~30c by evening remains outside cleared corridor.
-- Gallery gives additional creak/crack.
-- Meren/Sesh order evacuation.
-- Greg clears safely on crutches; Nali moves faster with both hands occupied using marine limb.
-- Gallery corner drops another foot after crew clears; no injury.
-- Meren closes corridor entirely.
-- Jase may lose contents of second ice cabinet; nobody pretends safety procedure is good news.
-- Quay-side recovery might become possible later after brace crew, but not now.
+## Greg authority / Tavren review
+- Tavren directly reviews why Greg touched manual release despite no rigging authority.
+- Greg's bounded rationale:
+  - Perr off handle;
+  - brake jammed;
+  - Tavren had ordered free drum;
+  - alternate release function visibly established from prior operation;
+  - float line created immediate crush/whip risk;
+  - he would not have acted if unfamiliar/uncertain or if release could load primary chain.
+- Tavren accepts this reasoning.
+- Key durable distinction: Greg may execute an already-stated safety command on a mechanism he has just observed when immediate hazard blocks the designated operator, but this does **not** grant general rigging authority.
 
-## Pay / work status
-- Structural closure ends assigned work early.
-- Tavren still pays Greg full **3c base useful-records day** because Greg was assigned full day and harbor closure was not his fault.
-- Cash **36c -> 39c**.
-- Vale remains **23c**.
-- No load-tally add-on beyond base classification is paid in Ch415.
-- No evening custody inventory.
-- Greg remains on five-day open temporary recovery block with 4 days left.
-
-## Passenger-story partial outcomes
-- At Anchor's End Sori receives runner information:
-  - **Harven Coil made his daughter's hearing**.
-  - Appeal partially granted: labor levy reduced **6 months -> 2 months**.
-  - Work ban remains, review in 90 days.
-  - Harven did see daughter.
-- **Mira Sol** reached quarantine before third bell; birds held overnight observation; contract not automatically void.
-- **Tessa/Oren outcome remains unknown**.
-- These are partial consequences, not clean resolutions.
-
-## Peg-leg progression - durable
-- Greg now has documented baseline and Masta-confirmed travel-work candidacy.
-- He still strongly wants limb because it would free hands and change carrying/standing/work/travel/fight grammar.
-- Do not give it immediately.
-- No free/discount/gift solution.
-- Keep economics real.
-- Fitting/training later should include:
-  - socket adjustment;
-  - skin tolerance;
-  - daily swelling changes;
-  - gait retraining;
-  - periods where Greg is worse before better;
-  - continued crutch use;
-  - terrain-specific limitations;
-  - modular foot/stay choices if earned.
-- Masta remains craft authority; Nali remains experienced-user example, not prosthetics instructor.
+## Peg-leg progression - background through action
+- Greg does not visit Masta after work and does not pay deposit.
+- Breakwater work repeatedly demonstrates why crutches cost hands:
+  - wet stone micro-adjustments;
+  - rapid movement;
+  - reaching manual release;
+  - needing to brace/hook crutches to free both hands.
+- Greg correctly recognizes a new limb could make some such work easier, but could also create new risk if trusted before gait training.
+- Masta principle remains internalized: **tool, not miracle**.
+- Travel-work limb target remains **1 silver + 18c**; deposit 20c.
 
 ## Economy
-- Greg begins **36c cash / 23c Vale / bits unspecified**.
-- Earns **3c** North Pier assigned day.
-- Ends **39c cash / 23c Vale / bits unspecified**.
+- Greg begins **39c cash / 23c Vale / bits unspecified**.
+- South Chain day includes assigned load/tally work and useful condition records.
+- No evening custody inventory.
+- Tavren/Nali approve **4c** day.
+- Ends **43c cash / 23c Vale / bits unspecified**.
 - No limb deposit.
-- Target travel-work limb **1 silver + 18c**.
-- Basic dock peg 84c.
-- Marine version starts 1 silver + 36c.
-- No universal copper/silver conversion established.
+- No artifact purchase.
 
 ## Magic / artifacts
 - Protocol remains **59 minimal / 53 shaping / 135 external attempts**.
-- No deliberate Greg magic.
+- No deliberate Greg magic in Ch416.
 - Quietener / WS-F/9 packed/unused.
-- No recovered/warehouse object becomes Greg property.
-- Preservation rod remains leased Coldworks equipment.
+- No harbor hardware becomes Greg property.
+- Chain ray is wildlife, not artifact/loot.
 
 ## Greg physical state
-- Left BKA stable and suitable for continued measurement/future fitting work.
-- Right hand mildly sore from recent writing but functional.
+- Left BKA stable.
+- No new injury.
 - Repaired crutch sound.
-- New important body fact: habitual left unloading/pelvic asymmetry under fatigue.
-- No injury in warehouse retreat.
+- Wet-stone rapid movement taxes shoulders/right foot/right leg, but no damage.
+- Greg continues habitual asymmetry from Ch415 baseline; no sudden gait fix.
 
 ## Greg social/internal movement
-- Greg's desire is now `real enough to measure, not real enough to own`.
-- He increasingly accepts that a new leg would require retraining his whole-body map, not merely strapping on equipment.
-- He chooses not to overextend financially despite wanting it badly.
-- Current plan remains earn / save / listen / avoid stupid injury.
-- He remains free to leave Duskport; temporary work is chosen, not captivity.
+- Greg demonstrates rare higher-output decision quality in immediate operational danger without full S-class power reveal.
+- He stays inside evidence/authority boundaries before and after the moment.
+- He remains motivated by peg target but does not let target trigger premature deposit.
+- At Anchor's End Sori confirms he is at **43c** and notices he still will not place 20c deposit.
+- Greg remains comfortable with `not today`.
+- Dask knows chain-ray ecology and becomes excited by encounter; Maro asks whether `ray` means animal or light, preserving voice differentiation.
+- Greg refuses more Duskport beer after work.
 
 ## Dialogue variance
-- Masta: craft-authority bluntness, precise body logic, no sales pressure.
-- Tavren: fair employer handling closure pay without sentimentality.
-- Nali: operational/user perspective, not inspirational framing.
-- Sesh Om: extremely concise rigging judgments.
-- Meren Cole: structural safety authority.
-- Jase Kerrin: commercially urgent, frustrated by safety/custody limits without being villain.
-- Sori: money/reality check, supportive without pushing deposit.
+- Tavren: terse safety/decision authority; accepts good bounded explanation after action.
+- Nali: fast operational calls, body check afterward, no sentimental praise.
+- Jerr: blunt rigging refusal when conditions unsafe.
+- Perr Vale: signal/winch authority; dry accuracy; follows Greg's emergency call then later participates in review.
+- Port-master runner: schedule pressure until visible hazard makes complaint obviously weaker.
+- Sori: money/safety check at night.
+- Dask: technical/ecological curiosity, not dry comeback clone.
 
 ## Recent role ledger
-- 411 THE HAND
 - 412 THE TALLYMAN
 - 413 THE DRINKER
 - 414 THE RETAINER
 - 415 THE FITTING
+- 416 THE BREAKER
 
 ## Protected uncertainties
-- Greg ends Ch415 at Anchor's End in Duskport.
-- Greg cash exact **39c**, Vale **23c**, bits unspecified.
+- Greg ends Ch416 at Anchor's End in Duskport.
+- Greg cash exact **43c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 135**.
 - No limb deposit/purchase.
-- Travel-work baseline measurements valid ~6 weeks absent major change.
-- Four days remain in current five-day open temporary Venn block.
-- Merry Wake heavy recovery still weather-delayed.
-- Jase Kerrin's second ice cabinet remains trapped; contents outcome unknown.
+- Three days remain in current five-day open Venn temporary block.
+- South Chain float recovered; underwater chain section still needs later dive/repair.
+- Merry Wake heavy recovery status still weather dependent.
+- Jase Kerrin's second ice cabinet outcome unknown.
 - Serr courier chest remains missing.
 - Pella Ro still out; exact recovery unknown.
 - Sel Marr descendant petition unresolved.
 - Toren/Eren bundle final release not shown.
-- Harven hearing partly resolved as above.
-- Mira quarantine partly resolved as above.
+- Harven hearing partly resolved: levy 2 months, work ban remains.
+- Mira quarantine partly resolved: birds held overnight, contract not automatically void.
 - Tessa/Oren still unresolved.
 - No home reply yet.
 
-## Chapter 416 trailhead
-Follow next actual claim from Ch415/current authority.
+## Chapter 417 trailhead
+Follow next actual claim from Ch416/current authority.
 
-Greg begins **39c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**.
+Greg begins **43c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**.
 
 Physical/timeline:
 - next Duskport day;
-- four days remain in open temporary Venn block;
+- three days remain in open temporary Venn block;
 - work assignment unknown until yard board;
-- Merry Wake heavy recovery may reopen if weather turns;
-- Masta baseline complete, no deposit;
+- Masta baseline valid ~6 weeks, no deposit;
 - left BKA stable; repaired crutch sound.
 
 Strong movement:
-- Do not spend another chapter mostly on prosthetics discussion. Peg target should now sit in background while work/world moves.
-- Strong next move: more kinetic recovery/action, new coastal job, or Merry Wake phase with genuine physical pressure.
+- Do not immediately repeat another equipment-jam rescue.
+- Recent rhythm now has fitting/work danger/action; next chapter can widen Duskport socially/geographically, introduce a new paid coastal problem, or let Greg face a choice between work, fitting money, and another meaningful opportunity.
 - Greg should continue earning only through real assigned value.
-- Human conflict remains important, but avoid repeating another property/custody paperwork problem in same shape.
-- Let Duskport widen beyond East Hook when possible: ships, coastal neighborhoods, market, sea defenses, guilds, workers, public events.
-- Consider action/fighting or dangerous magical ecology soon if organic; recent chapters have been human/work heavy.
-- Full Greg locked-in combat/magic payoff still remains unrevealed.
+- Consider a stranger/other-person conflict that is not another custody-form dispute.
+- Artifact/acquisition pressure can return soon, especially with Duskport's larger market ceiling, but avoid giving Greg salvage as protagonist loot.
+- A future full Greg locked-in combat/magic payoff remains open; Ch416 is operational high-focus, not the full reveal.
+- Let old passenger/home threads move only if organic.
 
 Avoid:
-- immediate deposit solely because cash is 39c;
+- immediate deposit solely because cash is 43c;
 - free/discount limb;
+- another identical breakwater emergency;
 - instant permanent employment;
-- another archive/observation chapter;
+- universal appraisal;
 - resolving all old human threads at once.
 
-**MANDATORY TITLE CHECK CH416:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH417:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
