@@ -34,6 +34,26 @@ jobs:
         run: python -m unittest tests.test_chapter_role_title_integration -v
       - name: Fetch approved audit authority
         run: git fetch origin editor/chapter-title-role-audit-batch-001:refs/remotes/origin/editor/chapter-title-role-audit-batch-001
+      - name: Inspect canonical DOCX title layout
+        run: |
+          python - <<'PY'
+          from docx import Document
+          for path, needles in [
+              ('state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx', ['CHAPTER FIFTY-ONE', 'THE SIGNAL', 'CHAPTER SIXTY-SIX', 'THE ABSENT']),
+              ('state/manuscript/Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx', ['CHAPTER ONE HUNDRED TWO', 'THE PIVOT', 'CHAPTER ONE HUNDRED TWENTY-SIX', 'THE OLD ROAD']),
+          ]:
+              print('DOCX', path)
+              doc = Document(path)
+              hits = set()
+              for i, p in enumerate(doc.paragraphs):
+                  upper = p.text.upper()
+                  if any(n in upper for n in needles):
+                      for j in range(max(0, i-2), min(len(doc.paragraphs), i+4)):
+                          hits.add(j)
+              for j in sorted(hits):
+                  p = doc.paragraphs[j]
+                  print(j, repr(p.style.name), repr(p.text))
+          PY
       - name: Apply approved role titles
         run: PYTHONPATH=. python scripts/apply_chapter_role_titles.py --apply
       - name: Bring approved audit ledger into integration branch
