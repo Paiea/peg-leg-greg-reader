@@ -92,7 +92,7 @@ jobs:
         run: |
           python scripts/build_illustration_backlog.py
           python scripts/build_prompt_packs.py
-          python scripts/report_illustration_coverage.py
+          python scripts/report_illustration_coverage.py --strict
       - name: Verify Light publishing derivatives
         run: |
           python scripts/verify_light.py 156-219
