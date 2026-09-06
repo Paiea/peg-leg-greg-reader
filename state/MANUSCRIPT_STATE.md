@@ -1,8 +1,8 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 468 - **THE EXPLORER**.
-- Exact Chapters 249-468 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
+- Current exact story endpoint: Chapter 469 - **THE ARCHITECT**.
+- Exact Chapters 249-469 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
 
 ## Active correction overlays
 - Ch432 forewoman: **Rika Dorn**, not Nessa Vale.
@@ -12,153 +12,269 @@
 ## Naming guardrail
 Before any new named character: check `BOOK1_NAME_REGISTRY_CH82.md` and current state for exact/TTS/syllable/surname collision. Temporary people do not automatically need names. Do not narrate editorial naming cleanup inside Greg POV.
 
+## Durable progression mandate
+- New living file: `state/PROGRESSION_ENGINE.md`.
+- This is now mandatory directional context for forward production.
+- Greg has shifted from primarily reactive accumulation to **intentional rebuilding**.
+- He still follows interesting opportunities and finishes live threads, but future choices should increasingly be filtered through six capacities:
+  1. body;
+  2. magic;
+  3. money;
+  4. tools/artifacts;
+  5. information;
+  6. people/support network.
+- Greg explicitly does not want to remain weak, broke, under-equipped, and dependent on whatever opportunity happens to be nearby.
+- His prior identity as an S-class / god-tier support specialist is now active forward pressure again.
+- Support is broad: information, positioning, interruption, timing, protection, logistics, resource allocation, preparation, tools, coordination, exits, and making stronger specialists more effective.
+- This is not an instant power-up. It is a long-term compounding rebuild shaped by this body, this life, these tools, and current relationships.
+
 ## Durable workflow: periodic action pressure
 - `MANUSCRIPT_WORKFLOW.md` contains the current 3–6 chapter action-rhythm check.
 - Do not quota-fire action. Favor organic physical urgency after long safe stretches.
-- Action can come from terrain, weather, infrastructure, magical ecology, human conflict, rescue, pursuit, accident, or earned combat.
-- Vary action grammar and preserve residue.
+- Ch468 just supplied substantial infrastructure-failure action, so immediate next chapters may emphasize recovery/planning/investigation.
 
 ## Current arc
-- Greg is voluntarily pursuing the **Sunroad / Three Rays** thread.
-- Ch468 materially deepens the adventure beyond Marker Seven and adds an organic action scene tied to infrastructure failure rather than random combat.
-- Sunroad west access is now **closed pending edge inspection** because Greg witnessed and reported a fresh road-edge slump.
-- Deeper Sunroad investigation should pause until inspection/reopening or a different access route emerges.
-- Lakeward archive transcript has become the strongest next information move.
+- Sunroad west access remains closed pending inspection after Ch468 edge failure.
+- Greg returns **Bracken Vale -> Lakeward** in Ch469 to finish the current Three Rays information thread through archive evidence rather than ignoring the closure.
+- Three Rays remains active but is now nested inside the larger intentional-progression plan.
 
-## Chapter 468 - THE EXPLORER
+## Chapter 469 - THE ARCHITECT
 
 ### Role / title
-- Greg is **THE EXPLORER** because he voluntarily pushes beyond the maintained road limit, tests an unknown route under explicit safety rules, and learns when exploration must yield to retreat and reporting.
-- Title search found no prior `THE EXPLORER` collision before drafting.
+- Greg is **THE ARCHITECT** because he stops asking only what happens next and begins designing what he is rebuilding toward.
+- Title search found no prior `THE ARCHITECT` collision before drafting.
 
-## Departure / load
-- Greg begins **15c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**.
-- Shoulder continues improving but remains bruised; right crutch load stable, overhead motion still poor.
-- He packs light for a day push beyond Marker Seven: water, food + one emergency meal, notebook, repair wrap, line quietener, current reader, HT-LP-4 tile, essentials.
-- Lot 67 and trial limb remain locked at Bracken Vale bunkhouse.
-- Explicit turnaround rules include: return before late fog if route becomes uncertain; no active washout crossings; no structural climbing; no salvage removal; retreat if shoulder/footing deteriorate; stop/wait if fog erases return line.
+## Physical audit
+- Greg wakes at Bracken Vale after Ch468 road failure.
+- Right shoulder is somewhat improved from previous night but remains sore and poor overhead.
+- Right knee scrape looks darker/bruised but flexion remains fine.
+- Crutch load is stable; no new major injury.
+- Trial limb remains dry/healthy.
+- Greg recognizes that travel-induced conditioning is not the same as intentional training.
+- Body priority recorded:
+  - recover shoulder;
+  - resume trial-limb wear when stable;
+  - finish work-limb funding;
+  - deliberately track/build carry, standing, climbing, endurance, and recovery rather than discovering every limit accidentally.
 
-## Beyond Marker Seven
-- Greg passes maintained route quickly using known landmarks.
-- Three Rays pad remains intact; possible half black disk remains under fern and is not touched.
-- Upper unmaintained road shows neglect rather than immediate wilderness: grass-grown paving, clogged drainage, leaning iron posts, root-lifted stones, intermittent foot/goat traffic.
-- An old adjustable iron frame with Three Rays stamp appears soon beyond the station pad; nothing remains mounted inside.
+## Journey audit
+- Greg explicitly reconstructs the breadth of his away arc from notes and place sequence rather than treating travel as something simply happening around him.
+- He has stopped keeping a clean day count and recognizes that as part of the problem; notebook/receipts/home letters contain enough evidence to reconstruct later.
+- He identifies the trip as lasting **weeks**, with substantial accumulated travel, work, danger, relationships, and regional knowledge.
+- Key emotional correction: home remains real, but distance has become chosen rather than merely endured.
 
-## Route ambiguity
-- Greg finds a smaller polished standing slab facing west, similar but not identical to the three pre-Marker-5 slabs.
-- It flashes under current light from certain positions and may be a return/home marker, but function remains unproven.
-- Road later splits around a rock spine:
-  - upper branch has iron-post remnants and initially looks more like main road;
-  - lower branch follows an old drainage/service line.
-- Greg first chooses upper, then turns back when the outer retaining wall shows dangerous bulging/tilted paving.
-- This is a successful evidence-driven correction, not failure.
+## Support identity reactivated
+- Greg explicitly remembers that his old S-class strength was **support**, not generic raw power.
+- His internal definition:
+  - make strong people harder to kill;
+  - improve information/timing/positioning;
+  - protect exits;
+  - interrupt bad timing;
+  - move information before panic outruns it;
+  - make specialists better because he is present;
+  - at high level, change what everyone else can safely accomplish.
+- He misses that capability more than the rank letter itself.
+- Current weakness is acknowledged without self-pity and reclassified as baseline, not verdict.
 
-## Lower service branch / mounted shade glass
-- Lower branch passes through an old stone arch/service structure.
-- A narrow **cloudy glass strip** remains mounted in a rusted Three Rays bracket.
-- The glass contains three darker internal bands; under changing sunlight, different bands brighten and at one position all three glow faintly.
-- Floor grooves align with bracket, suggesting a fixed viewing/vehicle position or station geometry, but exact function is unknown.
-- Ridge clerk later remembers an old note calling such an item a **`shade glass`**; no technical definition is yet available.
-- This materially strengthens the idea that Three Rays hardware was distributed road infrastructure rather than isolated collectible objects.
+## Six-capacity audit
+Greg writes six headings:
+- BODY
+- MAGIC
+- MONEY
+- TOOLS
+- INFORMATION
+- PEOPLE
 
-## Fog / route return
-- Valley fog rises quickly and materially reduces visibility.
-- Greg follows his prior safety rule: no speeding, maintain contact with known channel/road features, use his own fresh crutch/foot impressions at the branch junction instead of inventing artifact magic.
-- He safely regains the known west-facing polished slab.
+This becomes the in-story manifestation of `PROGRESSION_ENGINE.md`.
 
-## Action scene: Sunroad edge failure
-- Near the known return line west of the slab and east of Marker Seven, a paving stone shifts under Greg's right crutch.
-- A roughly 6-7 pace section of road-edge slumps downslope; outer two-thirds disappear into fog.
-- Greg is one pace behind the main failure line.
-- Left crutch slips on loosened gravel and his body rotates downhill.
-- Old S-class danger experience surfaces as immediate body mechanics rather than power:
-  - pivot/load through right foot;
-  - throw left crutch uphill;
-  - get chest toward inner slope;
-  - accept low fall instead of fighting upright balance.
-- Greg drops onto right knee/left hand and hard-loads right crutch/shoulder, stopping before the edge.
-- No magic is used. Protocol stays **59 / 53 / 139**.
-- Consequences:
-  - right shoulder pain increases but remains functional; no pop/deformity/weakness;
-  - right knee gets a shallow scrape, no major bleeding;
-  - crutches/gear remain intact.
+## Magic plan
+- Protocol remains **59 minimal / 53 shaping / 139 external**.
+- Greg refuses vague `get stronger` ambition.
+- Near-term support-magic objective:
+  - ask Hessa how to build **reliable small interruption / deflection / stabilization** from current evidence;
+  - prioritize repeatability and support usefulness before larger range/force;
+  - do not generalize emergency external #139.
+- Potential future support-use examples are treated as targets, not claims.
 
-## Maintenance bypass / in-situ hardware
-- Fresh slump leaves only an unsafe narrow inner strip.
-- Greg waits for visibility, rejects crossing the fresh failure, and finds old stone maintenance steps climbing the inner slope.
-- He uses a slow uphill bypass with sitting, moving pack separately, roots, and one-at-a-time crutch handling.
-- On upper maintenance bench he finds a second old Three Rays frame with a **brass toothed arc still bolted in place**.
-- Greg does not touch/remove it.
-- The bypass descends back to Sunroad west of the slump and returns him to Marker Seven safely.
+## Money audit / new target
+- Starts Ch469 **15c cash / 23c Vale / bits unspecified**.
+- Greg recognizes the 10c floor is useful as survival reserve but is **not success**.
+- He explicitly rejects endless 1-3c jobs as sufficient progression except when they solve immediate liquidity.
+- Mirror Spring's 12c contract is treated as evidence that route risk, field reliability, evidence handling, and bounded judgment can command materially better pay.
+- Greg sets first explicit liquid-capital target:
+  - **30c cash**, not counting Vale, limb deposit, or owned gear;
+  - purpose is opportunity money / optionality, not vanity wealth.
+- He wants higher-value work categories rather than permanent day-labor treadmill.
 
-## Report / access closure
-- Greg reports the fresh slump to Bracken Vale ridge office with location, approximate extent, injury status, and bypass information.
-- He also reports:
-  - mounted cloudy Three Rays glass strip on lower service branch;
-  - upper maintenance frame with bolted brass toothed arc.
-- Ridge clerk prioritizes road safety over artifact excitement and immediately changes public notice to:
-  - **OLD SUNROAD WEST WALK ACCESS CLOSED PENDING EDGE INSPECTION.**
-- Potential one-copper hazard-note stipend may exist if inspector confirms, but Greg has not been paid and does not rely on it.
-- This is a real public consequence of the action scene.
+## Tool / artifact audit
+Greg reviews current kit:
+- retired line quietener;
+- WS-F/9 current reader;
+- HT-LP-4 load tile;
+- Lot 67 comparative timing kit;
+- road-test limb;
+- notebook;
+- Tavi's striped rock remains personal rather than tool.
 
-## Three Rays interpretation moved forward, not solved
-Current stronger evidence:
-- Three Rays hardware appears distributed through road infrastructure: adjustable iron frames, polished marker stones, mounted cloudy/shade glass, bolted toothed brass arc, paired black disks in historical inventory.
-- This looks increasingly like a layered route-confirmation/navigation system rather than a single artifact, but exact architecture remains unknown.
-- Greg explicitly rejects overclaiming and decides the Lakeward archive transcript now matters more than another immediate deeper walk.
+Identified support gaps include:
+- communication/signaling;
+- position confirmation;
+- mobility/hands;
+- tools that directly improve other people's performance or reduce failure.
 
-## Economy / body / tools
-- Cash remains **15c / 23c Vale / bits unspecified**.
-- Temporary 10c floor remains active, 5c above floor.
-- No finder/hazard reward paid Ch468.
-- No artifact purchase.
-- Shoulder is worse than at start of day but still functional; knee shallowly scraped.
-- Trial limb remains healthy/locked/unused.
-- Lot 67 remains locked/unused.
-- Protocol remains **59 / 53 / 139**.
+Three Rays now matters specifically as possible **support infrastructure**, not merely collectible treasure.
+- Core question becomes: what problem did distributed frames/disks/shade glass solve for ordinary travelers?
+
+## Information / people audit
+- Greg recognizes that having notes is not the same as having an information network.
+- He explicitly distinguishes personal home, trusted expertise, work, commercial contacts, regional contacts, institutions, and weak/maybe relationships.
+- People/institutions explicitly considered include:
+  - Hessa: magic evidence/safety;
+  - Sori Vale: commercial judgment / money / custody-style thinking;
+  - Hark & Venn: limb expertise;
+  - Mabel Crowe: White Reed / route-water memory;
+  - Helena Sol: Morrow practical records;
+  - Jonah Sol: family/route link and honest challenge;
+  - Bracken ridge office: accessible institution, not yet deep relationship;
+  - Lakeward district archive: accessible institution;
+  - theatre / Cala / Tavi / Lyssa as home/social network.
+- Greg's durable social principle:
+  - **build constellation, not entourage**;
+  - no generic party requirement;
+  - relationships should be reciprocal and distinct;
+  - maintain people while away through useful letters, questions, favors, and reasons to answer.
+- Important vulnerability recognized: far from home, nobody nearby would notice quickly if Greg vanished.
+
+## Bracken -> Lakeward economics
+- Sunroad remains closed; Greg does not violate closure.
+- He pays **4c** return cart to Lakeward: **15c -> 11c**.
+- This is framed as deliberate information investment, not random travel.
+- At Lakeward district archive, he pays **1c** for Sunroad repair packet reading/copies: **11c -> 10c**.
+- Greg ends at exactly the 10c survival reserve.
+- This sharpens his dissatisfaction with low liquidity and validates the new capital target.
+
+## Three Rays archive evidence
+Partial copper instruction transcript adds:
+- `... THIRD RETURN ...`
+- `... FRAME FACE WEST ...`
+- `... PASS LIGHT THROUGH SHADE ...`
+- `... HOME MARK ...`
+- `... MATCH PAIR BEFORE ...`
+- `... DO NOT READ SINGLE DISC ...`
+
+Additional catalog notes:
+- three recovered brass frames were similar but not identical;
+- six black route disks carried paired stamped numbers;
+- cloudy glass strips had three density bands;
+- one frame had wear concentrated over only part of internal tooth arc;
+- one archivist hypothesized sun-position comparison against installed road markers;
+- another later hypothesis suggested fog-route confirmation using paired station settings;
+- neither is established.
+
+Implications:
+- single orphan disk is less attractive as a standalone purchase;
+- Three Rays increasingly looks like a distributed/paired route-confirmation system;
+- exact function remains unresolved.
+
+## Reconstructed demonstration lead
+- Lakeward east museum storehouse reportedly has one **reconstructed** Three Rays set.
+- It is demonstration-working, not certified original behavior, and includes replacement parts.
+- Next public afternoon is tomorrow.
+- General floor fee is **3 bits**; demonstration depends on staff.
+- This is the strongest next Three Rays information move.
+
+## Lost half-wheel opportunity
+- Greg checks the Lakeward stall after archive research.
+- The 9c brass half-wheel **sold that morning** for 8c + 6 bits as part of a broader brass purchase.
+- It is not protected/reserved for Greg.
+- Greg recognizes his earlier refusal to buy was still correct under then-current evidence/liquidity, but the lost opportunity makes the cost of being cash-thin tangible.
+- Durable realization: **money is support because money creates options at the moment information becomes actionable.**
+
+## Strategic correspondence
+Greg sends targeted letters rather than status-only updates:
+
+### Hessa
+- reports external #138 controlled small shift and #139 emergency stone deflection without generalizing;
+- asks what evidence/training sequence would justify repeatable support-use interruption/deflection/stabilization.
+
+### Hark & Venn
+- reports road-test limb healthy/rested, no new skin issue, last stable wear 25 min at Mere Ridge;
+- asks remaining fitting requirements, checkpoints, material lead time, and whether travel changes wear-log needs;
+- explicitly says work-limb funding is now a priority.
+
+### Sori
+- asks what higher-value work Greg can credibly sell based on field notes, artifact screening, route assessment, and commercial judgment;
+- asks what proof/reputation would make buyers pay materially more than day labor.
+
+### Home / Cala-Tavi-Lyssa-theatre route
+- reports Morrow quest and Sunroad collapse in bounded terms;
+- says he is intentionally changing priorities: finish work leg, rebuild magic, stop being this broke, and rebuild support competence;
+- key line: home is now part of the plan rather than merely the place he eventually wanders back to.
+
+Postage uses bits only.
+
+## Explicit next-actions page
+Greg writes:
+- **Body:** shoulder recovery, then trial wear.
+- **Magic:** Hessa reply / repeatability plan.
+- **Money:** 30c liquid target, seek higher-value work.
+- **Tools:** Three Rays demonstration tomorrow, no orphan purchases.
+- **Information:** archive + route contacts, organize correspondence.
+- **People:** maintain constellation, ask instead of only report.
+
+## Economy / body / magic / tools
+- Ends **10c cash / 23c Vale / bits unspecified**.
+- 10c is explicitly now survival reserve, not success target.
+- 20c work-limb deposit remains paid toward 1 silver + 18c quote.
+- Right shoulder still sore but improving; right knee scrape stable.
+- Trial limb remains healthy/rested, no wear Ch469.
+- Protocol stays **59 / 53 / 139**.
+- Lot 67 remains unused.
+- No artifact purchased.
 
 ## Protected uncertainties
-- Greg ends Ch468 at **Bracken Vale bunkhouse**.
-- Cash **15c**, Vale **23c**, bits unspecified.
+- Greg ends Ch469 in **Lakeward**, after archive work and market check.
+- Cash **10c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 139**.
-- Shoulder pain increased from action scene but no major injury identified; morning condition unknown.
-- Right knee has shallow scrape.
-- Sunroad west walk access is closed pending inspection.
-- Possible half black disk remains pending ridge recovery/verification.
-- Mounted `shade glass` and bolted toothed arc remain in situ and unverified beyond Greg's observation.
-- Three Rays full system function remains unresolved.
-- Lower bridge remains closed.
+- Shoulder sore/improving; knee scrape stable.
+- 9c half-wheel is sold and no longer available.
+- 18c orphan Echo Step disk status not rechecked Ch469; do not assume still available.
+- Sunroad west access remains closed.
+- Possible black disk finder report remains pending.
+- Three Rays reconstructed demonstration is scheduled tomorrow if public access/staff proceed as posted.
+- Replies from Hessa, Hark & Venn, Sori, and home are pending with travel/post delay.
 - No permanent companion.
 
-## Chapter 469 trailhead
-Follow next actual claim from Ch468/current authority.
+## Chapter 470 trailhead
+Follow next actual claim from Ch469/current authority and `state/PROGRESSION_ENGINE.md`.
 
-Greg begins **15c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**, at Bracken Vale the morning after the Sunroad edge failure.
+Greg begins **10c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**, in Lakeward with intentional progression now active.
 
 Strong movement:
-- First reassess shoulder/knee. The action scene should leave residue; do not reset him overnight.
-- Sunroad west access is closed. Do not have Greg ignore the closure or sneak back in.
-- The strongest next move is likely **Lakeward archive** because Ch467-468 created a real information gap around the corroded instruction plate, shade glass, frames, paired disks, and `third return / face west / light / home mark` fragment.
-- Bracken ridge office may have a public note on `shade glass` available before departure; if used, keep it partial rather than full technical solution.
-- The possible black disk finder report may still be pending. Do not force instant recovery/payment.
-- Greg now has 15c, only 5c above floor. Returning Lakeward costs money and may postpone buying the 9c half-wheel further unless he earns or revises the floor for a strong reason.
-- Consider a modest paid ride/work exchange or another economically coherent way to get Lakeward without resetting to job-ticket treadmill. The quest should stay curiosity-led.
-- The 9c half-wheel may be sold by the time Greg returns. Do not protect it by destiny.
-- If it remains, stronger archive evidence may finally justify either buying it, consciously walking away again, or seeking a higher-paying move first.
-- Preserve action rhythm: Ch468 just supplied substantial physical urgency, so Ch469 can be quieter, investigative, recovery-oriented, or socially interesting.
-- Trial limb should rest while shoulder recovers unless a later stable dry context makes wear sensible.
-- Magic remains 139; no scheduled test.
+- Do not immediately undo the audit by letting random opportunity completely take over.
+- Tomorrow's reconstructed Three Rays demonstration is a deliberate information investment and should likely be the next live move if available.
+- Use the demonstration to clarify one or two practical support functions, not reveal the whole system.
+- Because the set is reconstructed/replacement-part, distinguish demonstrated behavior from certified original behavior.
+- Greg should evaluate Three Rays in support terms: what capability could it add, who benefits, what constraints/paired infrastructure it needs, and whether an isolated component is worth owning.
+- Money is now a deliberate progression lane. Greg has only the 10c survival reserve and should not casually spend copper on a weak purchase.
+- He should begin looking for **higher-value earning paths** rather than immediately taking another 1-2c bench job. This can arise through Lakeward archive/roadwork/artifact field credibility, referrals, or another contract with real value.
+- Do not instantly hand him a lucrative job merely because he wants one. He may need reputation/proof/referral first.
+- Replies from Hessa/Hark & Venn/Sori/home should respect travel time and need not arrive immediately.
+- Shoulder recovery still matters. A stable dry trial-limb wear session can return soon, but not if shoulder load makes it poor data/safety.
+- Support rebuild should become visible through choices, not repeated planning monologues every chapter.
+- Future advancement should braid intentional goals with ordinary adventure, relationships, humor, work, artifacts, and action.
 
 Avoid:
-- reopening Sunroad immediately;
-- instant finder reward and artifact verification;
-- complete technical manual magically available in one archive page;
-- healing shoulder overnight;
-- turning every artifact clue into proof of one theory;
-- unnecessary named NPCs;
-- another major action scene immediately unless unavoidable.
+- instant S-class jump;
+- treating `support` as only healing/buffs;
+- giving Greg a party because he audited people;
+- instantly reaching 30c;
+- random perfect high-paying job with no credibility path;
+- buying orphan hardware from survival reserve;
+- reducing every future choice to a spreadsheet optimization scene;
+- forgetting the current Three Rays thread.
 
-**MANDATORY TITLE CHECK CH469:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
+**MANDATORY TITLE CHECK CH470:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
