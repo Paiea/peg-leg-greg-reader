@@ -54,7 +54,11 @@ def number_words(number: int) -> str:
 
 
 NUMBER_WORD_PREFIXES = sorted(
-    ((number_words(number), number) for number in range(1, 1000)),
+    {
+        (variant, number)
+        for number in range(1, 1000)
+        for variant in {number_words(number), number_words(number).replace("-", " ")}
+    },
     key=lambda item: len(item[0]),
     reverse=True,
 )
