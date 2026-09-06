@@ -6,6 +6,7 @@ on:
       - experiment/performance-novelization-live
     paths:
       - 'scripts/apply_performance_novelization_experiment.py'
+      - 'scripts/run_performance_novelization_experiment.py'
       - 'tests/test_performance_novelization_experiment.py'
       - '.github/workflows/performance-novelization-live.yml'
   workflow_dispatch:
@@ -27,7 +28,7 @@ jobs:
       - name: Focused experiment tests
         run: python -m unittest tests.test_performance_novelization_experiment -v
       - name: Apply exact surviving novelization patches
-        run: python scripts/apply_performance_novelization_experiment.py --write
+        run: python scripts/run_performance_novelization_experiment.py --write
       - name: Validate repository and reader
         run: |
           python -m unittest discover -s tests -p 'test_*.py' -v
@@ -69,7 +70,7 @@ jobs:
         if: success()
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "418982+github-actions[bot]@users.noreply.github.com"
           git add chapters/007.html chapters/013.html chapters/018.html state/editorial/performance-lab/NOVELIZATION_LIVE_REPORT.md
           git commit -m "Novelize bounded PERFORMANCE experiment"
           git push origin HEAD:experiment/performance-novelization-live
