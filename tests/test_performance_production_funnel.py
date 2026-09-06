@@ -1,3 +1,4 @@
+import json
 import tempfile
 import unittest
 from pathlib import Path
@@ -101,6 +102,55 @@ class PerformanceProductionFunnelTests(unittest.TestCase):
         self.assertIn("Greg", mechanical["capitalized_tokens"])
         self.assertGreaterEqual(mechanical["action_word_hits"], 3)
         self.assertNotIn("goal", mechanical)
+
+    def test_dependency_fingerprint_is_canonical_and_sensitive(self):
+        left = funnel.dependency_fingerprint({"b": 2, "a": 1}, ["x"])
+        right = funnel.dependency_fingerprint({"a": 1, "b": 2}, ["x"])
+        self.assertEqual(left, right)
+        self.assertNotEqual(left, funnel.dependency_fingerprint({"a": 1, "b": 3}, ["x"]))
+
+    def test_chapter_manifest_stays_small_and_routes_to_scene_records(self):
+        page = '<article class="prose"><p>A.</p><hr><p>B.</p></article>'
+        scenes = funnel.segment_chapter(page, 214)
+        manifest = funnel.build_chapter_manifest(214, "chapters/214.html", scenes, funnel.COMPILER_VERSIONS)
+        self.assertEqual("performance_chapter_manifest/v1", manifest["schema"])
+        self.assertEqual(["214.s010", "214.s020"], manifest["scene_order"])
+        self.assertEqual(scenes[0]["source"]["hash"], manifest["scenes"]["214.s010"]["source_hash"])
+        self.assertNotIn("mechanical", json.dumps(manifest))
+
+    def test_scene_ids_survive_inserting_a_new_scene_between_unchanged_scenes(self):
+        before = '<article class="prose"><p>Alpha stays.</p><hr><p>Omega stays.</p></article>'
+        old_scenes = funnel.segment_chapter(before, 214)
+        previous = funnel.build_chapter_manifest(214, "chapters/214.html", old_scenes, funnel.COMPILER_VERSIONS)
+        after = '<article class="prose"><p>Alpha stays.</p><hr><p>Inserted middle.</p><hr><p>Omega stays.</p></article>'
+        new_scenes = funnel.segment_chapter(after, 214, previous_manifest=previous)
+        self.assertEqual(["214.s010", "214.s015", "214.s020"], [scene["scene_id"] for scene in new_scenes])
+
+    def test_cache_status_invalidates_only_layers_whose_dependencies_changed(self):
+        record = {
+            "source": {"hash": "source-a"},
+            "dependencies": {
+                "semantic": {"source_hash": "source-a", "compiler": "scene-semantic/v1"},
+                "performance": {"source_hash": "source-a", "compiler": "performance/v1"},
+            },
+        }
+        fresh = funnel.cache_status(record, source_hash="source-a", semantic_version="scene-semantic/v1", performance_version="performance/v1")
+        self.assertEqual({"mechanical_valid": True, "semantic_valid": True, "performance_valid": True}, fresh)
+        stale = funnel.cache_status(record, source_hash="source-b", semantic_version="scene-semantic/v1", performance_version="performance/v1")
+        self.assertEqual({"mechanical_valid": False, "semantic_valid": False, "performance_valid": False}, stale)
+
+    def test_write_compiled_chapter_writes_manifest_and_small_scene_files(self):
+        page = '<article class="prose"><p>Alpha.</p><hr><p>Beta.</p></article>'
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            written = funnel.write_compiled_chapter(7, page, root)
+            chapter_root = root / "007"
+            self.assertEqual({chapter_root / "manifest.json", chapter_root / "s010.json", chapter_root / "s020.json"}, set(written))
+            manifest = json.loads((chapter_root / "manifest.json").read_text(encoding="utf-8"))
+            scene = json.loads((chapter_root / "s010.json").read_text(encoding="utf-8"))
+            self.assertEqual(["007.s010", "007.s020"], manifest["scene_order"])
+            self.assertIn("mechanical", scene)
+            self.assertNotIn("paragraphs", manifest["scenes"]["007.s010"])
 
 
 if __name__ == "__main__": unittest.main()
