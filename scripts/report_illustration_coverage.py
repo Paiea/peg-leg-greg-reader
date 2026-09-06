@@ -41,6 +41,14 @@ def find_unmanaged_live_art(chapter_dir: Path, registry: list[dict]) -> list[str
     return sorted(found)
 
 
+def assert_no_unmanaged_live_art(unmanaged: list[str]) -> None:
+    if not unmanaged:
+        return
+    preview = ", ".join(unmanaged[:5])
+    suffix = "" if len(unmanaged) <= 5 else f" (+{len(unmanaged) - 5} more)"
+    raise ValueError(f"unmanaged live art: {preview}{suffix}")
+
+
 def summarize_coverage(
     chapter_image_counts: dict[int, int],
     candidates: list[dict],
