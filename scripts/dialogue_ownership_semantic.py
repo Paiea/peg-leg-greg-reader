@@ -18,7 +18,6 @@ def clean(s: str) -> str:
 def explicit_speaker(p: str) -> str | None:
     if re.search(rf'\bI\s+{SPEECH}\b', p, re.I) or re.search(rf'\bI\s+said\s*,\s*"', p, re.I):
         return 'GREG'
-    # Named/pronoun tags. Avoid matching the I-tag already handled.
     if re.search(rf'\b(?:he|she|they|[A-Z][a-z]+)\s+{SPEECH}\b', p):
         return 'OTHER'
     return None
@@ -28,23 +27,34 @@ def begins_dialogue(p: str) -> bool:
     return p.lstrip().startswith('"')
 
 
-def action_subjects(p: str) -> list[tuple[int, str, str]]:
-    """Return (offset, owner, sentence-ish fragment) for independent action beats outside quotes."""
-    spans = []
-    in_quote = False
-    qmask = []
-    for ch in p:
-        if ch == '"':
-            in_quote = not in_quote
-            qmask.append(' ')
+def quote_marked(p: str) -> str:
+    parts = p.split('"')
+    if len(parts) < 3:
+        return p
+    out = []
+    for i, part in enumerate(parts):
+        if i % 2 == 0:
+            out.append(part)
+        elif i < len(parts) - 1:
+            out.append(' <Q> ')
         else:
-            qmask.append(' ' if in_quote else ch)
-    outside = ''.join(qmask)
-    pattern = re.compile(rf'(?:(?<=^)|(?<=[.!?])\s+)(I|He|She|They|[A-Z][a-z]+)\s+({ACTION})\b', re.M)
-    for m in pattern.finditer(outside):
+            out.append(part)
+    return ''.join(out)
+
+
+def action_subjects(p: str) -> list[tuple[int, str, str]]:
+    """Return owner-changing physical/reaction beats outside quoted dialogue."""
+    marked = quote_marked(p)
+    spans = []
+    # Sentence start, paragraph start, or immediately after a quoted line.
+    pattern = re.compile(
+        rf'(?:(?<=^)|(?<=[.!?])\s+|(?<=<Q>)\s+)(I|He|She|They|[A-Z][a-z]+)\s+({ACTION})\b',
+        re.M,
+    )
+    for m in pattern.finditer(marked):
         subj = m.group(1)
         owner = 'GREG' if subj == 'I' else 'OTHER'
-        frag = clean(p[m.start():m.start()+120])
+        frag = clean(marked[m.start():m.start()+140].replace('<Q>', '"…"'))
         spans.append((m.start(), owner, frag))
     return spans
 
