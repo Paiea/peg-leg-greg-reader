@@ -46,6 +46,10 @@ def _reference_from_registry(record: dict) -> dict | None:
         "status": record.get("status", ""),
         "approved_fit": record.get("approved_fit", ""),
         "style_family": record.get("style_family", ""),
+        "framing_preference": framing or "",
+        "view_angle": record.get("camera_angle", ""),
+        "pose_family": record.get("pose_family", ""),
+        "scene_tags": list(record.get("scene_tags", [])),
         "tags": tags,
         "source": "auto-promoted",
     }
