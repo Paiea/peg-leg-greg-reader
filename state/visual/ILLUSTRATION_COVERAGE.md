@@ -13,11 +13,11 @@
 
 ## Production queue
 
-- Queued scene candidates: 0
+- Queued scene candidates: 5
 - Approved but unpublished: 0
-- Registry live records: 0
+- Registry live records: 357
 
 ## Migration status
 
-- Unmanaged legacy live art: 357
+- Unmanaged legacy live art: 0
 - Existing unmanaged images are migration debt, not a CI failure. New illustration work should enter through the registry-first pipeline.
