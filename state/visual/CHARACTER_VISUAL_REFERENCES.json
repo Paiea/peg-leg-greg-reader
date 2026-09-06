@@ -6,6 +6,31 @@
       "assets/book-role-cards/book-i-warrior-005.webp",
       "assets/book-role-cards/book-ii-stagehand-177.webp"
     ],
+    "reference_metadata": {
+      "visual/homepage/peg-leg-greg-homepage-frontispiece.png": {
+        "pose_family": "portrait_anchor",
+        "scene_tags": ["frontispiece", "portrait"],
+        "tags": ["curated", "strong_face", "style_anchor"],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill"
+      },
+      "assets/book-role-cards/book-i-warrior-005.webp": {
+        "pose_family": "role_card",
+        "scene_tags": ["role_card", "warrior", "character_anchor"],
+        "tags": ["curated", "strong_face", "style_anchor"],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill"
+      },
+      "assets/book-role-cards/book-ii-stagehand-177.webp": {
+        "framing": "above_waist",
+        "view_angle": "three_quarter",
+        "pose_family": "working",
+        "scene_tags": ["backstage", "theatre", "work"],
+        "tags": ["curated", "above_waist", "strong_face", "style_anchor"],
+        "style_family": "sketch-ink-paint",
+        "metadata_source": "curated_backfill"
+      }
+    },
     "references": []
   },
   "Lyssa": {
