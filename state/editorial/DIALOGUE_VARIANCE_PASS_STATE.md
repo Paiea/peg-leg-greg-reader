@@ -10,7 +10,7 @@ Current manuscript scope: **Chapters 1-352**
 
 Second-pass dialogue sweep governed by `state/DIALOGUE_VARIANCE_ENGINE.md`.
 
-Exact manuscript prose outranks every summary or voice note. `state/editorial/dialogue-pass/` remains durable authority for speaker clarity, attribution, referent continuity, POV, name/pronoun, and related baseline repairs. `state/editorial/dialogue-variance-pass/` owns this second-pass variance review. A prior dialogue-pass `REVIEWED` marker does **not** count as variance coverage.
+Exact manuscript prose outranks every summary or voice note. `state/editorial/dialogue-pass/` remains durable authority for speaker clarity, attribution, referent continuity, POV, name/pronoun, and related baseline repairs. `state/editorial/dialogue-variance-pass/` owns this second-pass variance review. A prior dialogue-pass `REVIEWED` marker does **not** count as variance coverage unless the same material was explicitly reviewed under the dialogue variance engine as pilot/continuation work.
 
 ## Core runtime
 
@@ -20,14 +20,12 @@ Greg remains the gravitational center of short dry compressed comic reduction. O
 
 ## Sequential coverage ledger
 
-- Chapters **1-315: VARIANCE REVIEWED**
-- Chapters **316-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
-- Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
+- Chapters **1-330: VARIANCE REVIEWED**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 316**
+Current sequential variance edge: **Chapter 331**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_306_315.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_316_320.md`
 
 ## Sequential batch authority
 
@@ -80,31 +78,27 @@ Sequential artifacts now run through:
 - `BATCH_286_295.md`
 - `BATCH_296_305.md`
 - `BATCH_306_315.md`
+- `BATCH_316_320.md`
 
-Existing out-of-sequence pilot evidence remains:
+Previously out-of-sequence pilot/continuation evidence:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches do not bridge the unreviewed 316-320 gap.
+Those 321-330 chapters were already explicitly variance-reviewed under the new engine. With 316-320 now durably reviewed, the coverage is contiguous through Chapter 330 and the pilot block is promoted into the continuous reviewed span without re-reviewing unchanged chapters.
 
-## Chapters 306-315 result
+## Chapters 316-320 result
 
-- Chapter 306 `THE BAD TOOL`: **no variance change required**. Salvage seller authority remains exact-object, test-practice, and risk-ceiling grounded; Greg's future-use knowledge does not erase current-unit uncertainty.
-- Chapter 307 `THE RED POT`: **no variance change required**. Cala/Lyssa household familiarity and Tavi repetition stay distinct from Greg's broader category knowledge.
-- Chapter 308 `THE DEBT HOUR`: **light variance patch required**. Replace Antonius's `I wasn't going to ask / You were thinking about asking` ladder with `Separate lanes / Yes`, keeping the contract boundary in Antonius's actual operation-first authority.
-- Chapter 309 `THE LAST CHIME`: **no variance change required**. Charge-rain shelter dialogue remains object/procedure owned; immediate safety commands are grounded in visible action.
-- Chapter 310 `THE UNCUT LINE`: **no variance change required**. Lyssa's customer boundary and refusal to sell blue-line work remain a positive identity choice rather than lack of competence.
-- Chapter 311 `THE RETURN CART`: **no variance change required**. Sevren's road-shaped friendship teasing and Ressa's cart procedure remain distinct; specific relationship face-reading is earned.
-- Chapter 312 `THE MARKED THIRD`: **no variance change required**. Hessa's noun discipline and protocol keep sub-object targeting claims narrow; the right-third rotation remains observation, not established control.
-- Chapter 313 `THE LANDING`: **no variance change required**. Crowded furniture dialogue stays differentiated by physical position and responsibility; `Stop / I am stopped` spreads through active work and later imitation rather than generic voice convergence.
-- Chapter 314 `THE DRY HOUR`: **light variance patch required**. Remove an incidental parent's `I wasn't / You were thinking` ladder after a dropped cup; the physical boundary and parent action already carry the beat.
-- Chapter 315 `THE TRUE STORY`: **no variance change required**. Tea-stall lie-game cadence is legitimate shared-game compression; participants retain distinct lie styles and game behavior.
+- Chapter 316 `THE EAST SEAT`: **no variance change required**. Sevren remains road-shaped through seats, Bell Ford, freight, route timing, meals, floor/bunk uncertainty, and driver trust; Cala and Lyssa keep household/person-level authority distinct.
+- Chapter 317 `THE SINGING BRIDGE`: **light variance patch required**. Replace Sevren's generic `your face is asking questions` beat with the already-established local boundary `No bridge office / Keep it that way`.
+- Chapter 318 `THE EMPTY PEG`: **light variance patch required**. Replace the clicking-basket `I said nothing / Your face` ladder with object-specific `Not your basket / I was looking / Look quietly`.
+- Chapter 319 `THE MISSED COIN`: **no variance change required**. Cala reports the missed offer as fact; Lyssa asks whether Greg wishes he had stayed; Antonius later confirms future cash terms without consolation or moral accounting.
+- Chapter 320 `THE PORTRAIT`: **no variance change required**. Senna's face/body observation is craft-specific and evidence-based; countable visible behavior supports her portrait inference without generic mind-reading.
 
 Batch totals:
 
-- Variance patches: **2**, in Chapters **308** and **314**.
-- Light chapters: **308, 314**.
-- No-variance-change chapters: **306, 307, 309, 310, 311, 312, 313, 315**.
+- Variance patches: **2**, in Chapters **317** and **318**.
+- Light chapters: **317, 318**.
+- No-variance-change chapters: **316, 319, 320**.
 - Prior attribution/name/referent authority preserved.
 - New dialogue-attribution speaker-clarity repairs surfaced: **0**.
 - New name/referent repairs surfaced: **0**.
@@ -123,7 +117,9 @@ Batch totals:
 - Visible sustained attention, stopping, reaching, leaning, handling, or affect can replace generic `your face` shorthand when that physical fact is what another person actually observes.
 - Stable cognition with changed wording is positive variance evidence. Lyssa may recognize the same Greg behavior repeatedly without using one branded phrase every time.
 - Relationship familiarity should alter workflow and sharpen questions, not grant transcript access. Specific coworker/family/friend predictions can remain when provenance and current physical context make the inference ordinary.
+- Relationship familiarity should name the local boundary when possible. Sevren can know Greg will investigate, but `No bridge office` is stronger than generic face-reading because it preserves both history and place.
 - Specific friendship face-reading can remain when it names a durable relationship pattern rather than generic hidden thought. Sevren's `bad mattress into a lesson` read is the model.
+- Visible object ownership can replace prediction machinery. `Not your basket` is stronger than generic access to Greg's unsaid question when the object itself is already the issue.
 - Object-specific preemption can be ordinary care or custody rather than mind-reading. A fragile pot, rain-thread groove, damaged tool, broken basket, or protected prop can justify a direct warning.
 - A visible object can itself be the question when role history makes the interaction obvious.
 - Let Greg actually say the systems or scheduling question when another character's authority is strongest in the answer.
@@ -143,15 +139,18 @@ Batch totals:
 - Shared caution is not automatically Hessa voice.
 - First-contact professional scope is stronger than instant Greg calibration.
 - Craft anticipation remains legitimate when character knowledge, gaze, cue timing, scene continuity, or rehearsal state is the actual variable.
+- Craft-specific face observation is legitimate when the craft actually requires looking at expression, pose, shoulder angle, weight, movement, or unconscious facial control.
+- Countable visible behavior can support social inference. Senna can infer portrait interest after Greg repeatedly looks at the page because she states the observable evidence.
 - Shared game, performance, song-improvisation, and lie-game pressure can legitimately compress speech. Check whether rule ownership, strategy, temperament, and off-task identities remain distinct.
 - Specific technical face-reading can remain when the exact inference is narrow, immediately evidenced, and domain-bound.
 - Work-family phrases can spread through direct imitation without becoming generic voice if the manuscript shows where the phrase came from.
+- Road friendship can stay dry without becoming Greg-shaped when its nouns remain road nouns: seats, cutoffs, pegs, tokens, wheels, freight, beds, and route obligations.
 - Operational compression remains healthy when the stopping point is owned.
 - Work continuing can replace curiosity policing. Other people's jobs may simply continue without explaining themselves to Greg.
 - Messy systems protect voice. Exceptions may arrive only when encountered; real work need not front-load every rule.
 - Repeated work words such as `Wait`, `Good`, `No`, `Again`, and `Less` remain healthy when current object and jurisdiction keep changing what they mean.
 - Do not optimize away bad metaphors, incomplete explanations, wrong guesses, local disagreement, silence, awkwardness, underperformance, or practical underexplanation when they belong to the speaker.
-- Threat, civic, commercial, domestic, magical, animal, or infrastructure pressure does not justify universal mind-reading.
+- Threat, civic, commercial, domestic, magical, animal, infrastructure, or travel pressure does not justify universal mind-reading.
 - Hessa asks before explaining, narrows nouns, records before interpreting, and stops when the current question is answered or apparatus/body no longer justifies more attempts.
 - Rejecting a spoken speculative claim is not predictive dialogue.
 - Do not upgrade a response into reliability, range, generalized object moving, casting, control, or Barrier clearance without exact evidence.
@@ -170,15 +169,15 @@ Hard manuscript prose rule: **NO EM DASHES.**
 
 ## Completion definition
 
-A chapter counts as variance-reviewed only after exact prose is read, prior attribution authority is respected, relevant voice authority is consulted when useful, convergence is explicitly tested, relationship/state/pressure modulation is considered, a deliberate no-change verdict or exact replacement patch is durably saved, and the durable artifact is fetched back from GitHub.
+A chapter counts as variance-reviewed only after exact prose is read, prior attribution authority is respected, relevant voice authority is consulted when useful, convergence is explicitly tested, relationship/state/pressure modulation is considered, a deliberate no-change verdict or exact replacement patch is durably saved, and the durable artifact is fetched back from GitHub. Previously reviewed pilot chapters become part of contiguous coverage once every earlier sequential gap is durably closed.
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 316**.
+Resume sequentially at **Chapter 331**.
 
 Preferred bounded queue: **10 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 316-320** to close the remaining sequential gap before the existing 321-330 pilot block.
+Next intended batch: **Chapters 331-340**.
 
 ## Restart prompt
 
