@@ -18,6 +18,7 @@ from __future__ import annotations
 import re
 import sys
 import zipfile
+from html.parser import HTMLParser
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
@@ -27,7 +28,9 @@ ROOT = Path(__file__).resolve().parents[1]
 M = ROOT / "state" / "manuscript"
 OUT = ROOT / "exports" / "notebooklm"
 READABLE_OUT = ROOT / "state" / "manuscript-readable"
+CHAPTERS = ROOT / "chapters"
 READABLE_CHUNK_SIZE = 10
+STATIC_EXACT_LAST = 155
 
 BOOK1_DOCX = M / "Peg_Leg_Greg_authoritative_ch82_final_name_map.docx"
 BOOK2_DOCX = M / "Peg_Leg_Greg_Book2_Manuscript_Ch83-137.docx"
@@ -40,6 +43,93 @@ READABLE_HEADER = (
     "# DERIVED EDITORIAL READ SURFACE\n\n"
     "**NON-AUTHORITATIVE. GENERATED FROM CURRENT MANUSCRIPT AUTHORITY. DO NOT EDIT.**\n\n"
 )
+
+
+class _CanonicalChapterHTMLParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.in_h1 = False
+        self.in_prose = False
+        self.figure_depth = 0
+        self.in_paragraph = False
+        self.title_parts: list[str] = []
+        self.paragraph_parts: list[str] = []
+        self.paragraphs: list[str] = []
+
+    @staticmethod
+    def _classes(attrs: list[tuple[str, str | None]]) -> set[str]:
+        for name, value in attrs:
+            if name == "class" and value:
+                return set(value.split())
+        return set()
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag == "h1":
+            self.in_h1 = True
+        if tag == "article" and "prose" in self._classes(attrs):
+            self.in_prose = True
+            return
+        if not self.in_prose:
+            return
+        if tag == "figure":
+            self.figure_depth += 1
+            return
+        if self.figure_depth:
+            return
+        if tag == "p":
+            self.in_paragraph = True
+            self.paragraph_parts = []
+        elif tag == "br" and self.in_paragraph:
+            self.paragraph_parts.append("\n")
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "h1":
+            self.in_h1 = False
+        if not self.in_prose:
+            return
+        if tag == "figure" and self.figure_depth:
+            self.figure_depth -= 1
+            return
+        if self.figure_depth:
+            return
+        if tag == "p" and self.in_paragraph:
+            self.paragraphs.append("".join(self.paragraph_parts))
+            self.paragraph_parts = []
+            self.in_paragraph = False
+        elif tag == "article":
+            self.in_prose = False
+
+    def handle_data(self, data: str) -> None:
+        if self.in_h1:
+            self.title_parts.append(data)
+        if self.in_prose and not self.figure_depth and self.in_paragraph:
+            self.paragraph_parts.append(data)
+
+
+def html_chapter_to_readable(html: str, canonical_number: int) -> str:
+    parser = _CanonicalChapterHTMLParser()
+    parser.feed(html)
+    parser.close()
+    title = "".join(parser.title_parts).strip()
+    if not title:
+        raise ValueError(f"Canonical Chapter {canonical_number} has no title")
+    if not parser.paragraphs:
+        raise ValueError(f"Canonical Chapter {canonical_number} has no prose paragraphs")
+    body = "\n\n".join(parser.paragraphs)
+    return f"CHAPTER {canonical_number}\n{title}\n\n{body}\n"
+
+
+def static_exact_chapters(first: int = 1, last: int = STATIC_EXACT_LAST) -> dict[int, str]:
+    chapters: dict[int, str] = {}
+    for number in range(first, last + 1):
+        path = CHAPTERS / f"{number:03d}.html"
+        if not path.exists():
+            raise ValueError(f"Missing canonical static Chapter {number}: {path.relative_to(ROOT)}")
+        chapters[number] = html_chapter_to_readable(
+            path.read_text(encoding="utf-8"),
+            canonical_number=number,
+        )
+    return chapters
 
 
 def docx_to_text(path: Path) -> str:
@@ -218,12 +308,15 @@ def main() -> int:
         slice_chapters(running, 220).strip(),
         checkpoints.strip(),
     ]) + "\n"
-    complete_manuscript = "\n\n".join([
-        book1.strip(),
-        book2.strip(),
-        late_manuscript.strip(),
+
+    readable_chapters = static_exact_chapters()
+    readable_late_text = "\n\n".join([
+        slice_chapters(recovered, 156, 220).strip(),
+        slice_chapters(running, 220).strip(),
+        checkpoints.strip(),
     ]) + "\n"
-    readable_chapters = split_chapters_exact(complete_manuscript)
+    late_readable = split_chapters_exact(readable_late_text)
+    readable_chapters.update(late_readable)
     expected_numbers = list(range(1, latest + 1))
     if list(readable_chapters) != expected_numbers:
         raise ValueError(
