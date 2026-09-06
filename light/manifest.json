@@ -1,6 +1,6 @@
 {
   "latest": 491,
-  "latest_showcase": 421,
+  "latest_showcase": 414,
   "chapters": [
     {
       "number": 100,
@@ -927,1471 +927,1422 @@
       "path": "281.html"
     },
     {
-      "number": 282,
-      "showcase_number": 212,
-      "title": "THE SCENE PARTNER",
-      "source": "checkpoint",
-      "path": "282.html"
-    },
-    {
-      "number": 283,
-      "showcase_number": 213,
-      "title": "THE BUYER",
-      "source": "checkpoint",
-      "path": "283.html"
-    },
-    {
-      "number": 284,
-      "showcase_number": 214,
-      "title": "THE OBSERVER",
-      "source": "checkpoint",
-      "path": "284.html"
-    },
-    {
-      "number": 285,
-      "showcase_number": 215,
-      "title": "THE MEASURER",
-      "source": "checkpoint",
-      "path": "285.html"
-    },
-    {
-      "number": 286,
-      "showcase_number": 216,
-      "title": "THE INSPECTOR",
-      "source": "checkpoint",
-      "path": "286.html"
-    },
-    {
-      "number": 287,
-      "showcase_number": 217,
-      "title": "THE OBSERVER",
-      "source": "checkpoint",
-      "path": "287.html"
-    },
-    {
       "number": 288,
-      "showcase_number": 218,
+      "showcase_number": 212,
       "title": "THE TESTER",
       "source": "checkpoint",
       "path": "288.html"
     },
     {
       "number": 289,
-      "showcase_number": 219,
+      "showcase_number": 213,
       "title": "THE OBSERVER",
       "source": "checkpoint",
       "path": "289.html"
     },
     {
-      "number": 290,
-      "showcase_number": 220,
-      "title": "THE COMPANION",
-      "source": "checkpoint",
-      "path": "290.html"
-    },
-    {
       "number": 291,
-      "showcase_number": 221,
+      "showcase_number": 214,
       "title": "THE TROUBLESHOOTER",
       "source": "checkpoint",
       "path": "291.html"
     },
     {
       "number": 292,
-      "showcase_number": 222,
+      "showcase_number": 215,
       "title": "THE OBSERVER",
       "source": "checkpoint",
       "path": "292.html"
     },
     {
       "number": 293,
-      "showcase_number": 223,
+      "showcase_number": 216,
       "title": "THE THIRD HAND",
       "source": "checkpoint",
       "path": "293.html"
     },
     {
       "number": 294,
-      "showcase_number": 224,
+      "showcase_number": 217,
       "title": "THE SHOPPER",
       "source": "checkpoint",
       "path": "294.html"
     },
     {
       "number": 295,
-      "showcase_number": 225,
+      "showcase_number": 218,
       "title": "THE PLAYER",
       "source": "checkpoint",
       "path": "295.html"
     },
     {
       "number": 296,
-      "showcase_number": 226,
+      "showcase_number": 219,
       "title": "THE SINGER",
       "source": "checkpoint",
       "path": "296.html"
     },
     {
       "number": 297,
-      "showcase_number": 227,
+      "showcase_number": 220,
       "title": "THE OBSERVER",
       "source": "checkpoint",
       "path": "297.html"
     },
     {
       "number": 298,
-      "showcase_number": 228,
+      "showcase_number": 221,
       "title": "THE SUBJECT",
       "source": "checkpoint",
       "path": "298.html"
     },
     {
       "number": 299,
-      "showcase_number": 229,
+      "showcase_number": 222,
       "title": "THE COURIER",
       "source": "checkpoint",
       "path": "299.html"
     },
     {
       "number": 300,
-      "showcase_number": 230,
+      "showcase_number": 223,
       "title": "THE MINDER",
       "source": "checkpoint",
       "path": "300.html"
     },
     {
       "number": 301,
-      "showcase_number": 231,
+      "showcase_number": 224,
       "title": "THE TESTER",
       "source": "checkpoint",
       "path": "301.html"
     },
     {
       "number": 302,
-      "showcase_number": 232,
+      "showcase_number": 225,
       "title": "THE COMPANION",
       "source": "checkpoint",
       "path": "302.html"
     },
     {
       "number": 303,
-      "showcase_number": 233,
+      "showcase_number": 226,
       "title": "THE BATHER",
       "source": "checkpoint",
       "path": "303.html"
     },
     {
       "number": 304,
-      "showcase_number": 234,
+      "showcase_number": 227,
       "title": "THE SUBJECT",
       "source": "checkpoint",
       "path": "304.html"
     },
     {
       "number": 305,
-      "showcase_number": 235,
+      "showcase_number": 228,
       "title": "THE GUIDE",
       "source": "checkpoint",
       "path": "305.html"
     },
     {
       "number": 306,
-      "showcase_number": 236,
+      "showcase_number": 229,
       "title": "THE BUYER",
       "source": "checkpoint",
       "path": "306.html"
     },
     {
       "number": 307,
-      "showcase_number": 237,
+      "showcase_number": 230,
       "title": "THE COOK",
       "source": "checkpoint",
       "path": "307.html"
     },
     {
       "number": 308,
-      "showcase_number": 238,
+      "showcase_number": 231,
       "title": "THE DEBTOR",
       "source": "checkpoint",
       "path": "308.html"
     },
     {
       "number": 309,
-      "showcase_number": 239,
+      "showcase_number": 232,
       "title": "THE BYSTANDER",
       "source": "checkpoint",
       "path": "309.html"
     },
     {
       "number": 310,
-      "showcase_number": 240,
+      "showcase_number": 233,
       "title": "THE INTERLOPER",
       "source": "checkpoint",
       "path": "310.html"
     },
     {
       "number": 311,
-      "showcase_number": 241,
+      "showcase_number": 234,
       "title": "THE PASSENGER",
       "source": "checkpoint",
       "path": "311.html"
     },
     {
       "number": 312,
-      "showcase_number": 242,
+      "showcase_number": 235,
       "title": "THE SUBJECT",
       "source": "checkpoint",
       "path": "312.html"
     },
     {
       "number": 313,
-      "showcase_number": 243,
+      "showcase_number": 236,
       "title": "THE LOOKOUT",
       "source": "checkpoint",
       "path": "313.html"
     },
     {
       "number": 314,
-      "showcase_number": 244,
+      "showcase_number": 237,
       "title": "THE WATER BEARER",
       "source": "checkpoint",
       "path": "314.html"
     },
     {
       "number": 315,
-      "showcase_number": 245,
+      "showcase_number": 238,
       "title": "THE STORYTELLER",
       "source": "checkpoint",
       "path": "315.html"
     },
     {
       "number": 316,
-      "showcase_number": 246,
+      "showcase_number": 239,
       "title": "THE PASSENGER",
       "source": "checkpoint",
       "path": "316.html"
     },
     {
       "number": 317,
-      "showcase_number": 247,
+      "showcase_number": 240,
       "title": "THE PASSENGER",
       "source": "checkpoint",
       "path": "317.html"
     },
     {
       "number": 318,
-      "showcase_number": 248,
+      "showcase_number": 241,
       "title": "THE PASSENGER",
       "source": "checkpoint",
       "path": "318.html"
     },
     {
       "number": 319,
-      "showcase_number": 249,
+      "showcase_number": 242,
       "title": "THE RETURNER",
       "source": "checkpoint",
       "path": "319.html"
     },
     {
       "number": 320,
-      "showcase_number": 250,
+      "showcase_number": 243,
       "title": "THE MODEL",
       "source": "checkpoint",
       "path": "320.html"
     },
     {
       "number": 321,
-      "showcase_number": 251,
+      "showcase_number": 244,
       "title": "THE REFEREE",
       "source": "checkpoint",
       "path": "321.html"
     },
     {
       "number": 322,
-      "showcase_number": 252,
+      "showcase_number": 245,
       "title": "THE BIDDER",
       "source": "checkpoint",
       "path": "322.html"
     },
     {
       "number": 323,
-      "showcase_number": 253,
+      "showcase_number": 246,
       "title": "THE MESSENGER",
       "source": "checkpoint",
       "path": "323.html"
     },
     {
       "number": 324,
-      "showcase_number": 254,
+      "showcase_number": 247,
       "title": "THE INQUIRER",
       "source": "checkpoint",
       "path": "324.html"
     },
     {
       "number": 325,
-      "showcase_number": 255,
+      "showcase_number": 248,
       "title": "THE LINE HAND",
       "source": "checkpoint",
       "path": "325.html"
     },
     {
       "number": 326,
-      "showcase_number": 256,
+      "showcase_number": 249,
       "title": "THE BUYER",
       "source": "checkpoint",
       "path": "326.html"
     },
     {
       "number": 327,
-      "showcase_number": 257,
+      "showcase_number": 250,
       "title": "THE TESTER",
       "source": "checkpoint",
       "path": "327.html"
     },
     {
       "number": 328,
-      "showcase_number": 258,
+      "showcase_number": 251,
       "title": "THE ROUTE TESTER",
       "source": "checkpoint",
       "path": "328.html"
     },
     {
       "number": 329,
-      "showcase_number": 259,
+      "showcase_number": 252,
       "title": "THE EVACUEE",
       "source": "checkpoint",
       "path": "329.html"
     },
     {
       "number": 330,
-      "showcase_number": 260,
+      "showcase_number": 253,
       "title": "THE RESIDENT",
       "source": "checkpoint",
       "path": "330.html"
     },
     {
       "number": 331,
-      "showcase_number": 261,
+      "showcase_number": 254,
       "title": "THE SURVEYOR",
       "source": "checkpoint",
       "path": "331.html"
     },
     {
       "number": 332,
-      "showcase_number": 262,
+      "showcase_number": 255,
       "title": "THE CLIENT",
       "source": "checkpoint",
       "path": "332.html"
     },
     {
       "number": 333,
-      "showcase_number": 263,
+      "showcase_number": 256,
       "title": "THE SUBJECT",
       "source": "checkpoint",
       "path": "333.html"
     },
     {
       "number": 334,
-      "showcase_number": 264,
+      "showcase_number": 257,
       "title": "THE SPECTATOR",
       "source": "checkpoint",
       "path": "334.html"
     },
     {
       "number": 335,
-      "showcase_number": 265,
+      "showcase_number": 258,
       "title": "THE ASPIRANT",
       "source": "checkpoint",
       "path": "335.html"
     },
     {
       "number": 336,
-      "showcase_number": 266,
+      "showcase_number": 259,
       "title": "THE SPECTATOR",
       "source": "checkpoint",
       "path": "336.html"
     },
     {
       "number": 337,
-      "showcase_number": 267,
+      "showcase_number": 260,
       "title": "THE SHOPPER",
       "source": "checkpoint",
       "path": "337.html"
     },
     {
       "number": 338,
-      "showcase_number": 268,
+      "showcase_number": 261,
       "title": "THE BROWSER",
       "source": "checkpoint",
       "path": "338.html"
     },
     {
       "number": 339,
-      "showcase_number": 269,
+      "showcase_number": 262,
       "title": "THE TESTER",
       "source": "checkpoint",
       "path": "339.html"
     },
     {
       "number": 340,
-      "showcase_number": 270,
+      "showcase_number": 263,
       "title": "THE SUBJECT",
       "source": "checkpoint",
       "path": "340.html"
     },
     {
       "number": 341,
-      "showcase_number": 271,
+      "showcase_number": 264,
       "title": "THE INVESTIGATOR",
       "source": "checkpoint",
       "path": "341.html"
     },
     {
       "number": 342,
-      "showcase_number": 272,
+      "showcase_number": 265,
       "title": "THE PLAYER",
       "source": "checkpoint",
       "path": "342.html"
     },
     {
       "number": 343,
-      "showcase_number": 273,
+      "showcase_number": 266,
       "title": "THE DEBTOR",
       "source": "checkpoint",
       "path": "343.html"
     },
     {
       "number": 344,
-      "showcase_number": 274,
+      "showcase_number": 267,
       "title": "THE QUIET GUEST",
       "source": "checkpoint",
       "path": "344.html"
     },
     {
       "number": 345,
-      "showcase_number": 275,
+      "showcase_number": 268,
       "title": "THE CLIENT",
       "source": "checkpoint",
       "path": "345.html"
     },
     {
       "number": 346,
-      "showcase_number": 276,
+      "showcase_number": 269,
       "title": "THE SUBJECT",
       "source": "checkpoint",
       "path": "346.html"
     },
     {
       "number": 347,
-      "showcase_number": 277,
+      "showcase_number": 270,
       "title": "THE GATE HAND",
       "source": "checkpoint",
       "path": "347.html"
     },
     {
       "number": 348,
-      "showcase_number": 278,
+      "showcase_number": 271,
       "title": "THE CLEARER",
       "source": "checkpoint",
       "path": "348.html"
     },
     {
       "number": 349,
-      "showcase_number": 279,
+      "showcase_number": 272,
       "title": "THE WALKAWAY",
       "source": "checkpoint",
       "path": "349.html"
     },
     {
       "number": 350,
-      "showcase_number": 280,
+      "showcase_number": 273,
       "title": "THE BUYER",
       "source": "checkpoint",
       "path": "350.html"
     },
     {
       "number": 351,
-      "showcase_number": 281,
+      "showcase_number": 274,
       "title": "THE HELPER",
       "source": "checkpoint",
       "path": "351.html"
     },
     {
       "number": 352,
-      "showcase_number": 282,
+      "showcase_number": 275,
       "title": "THE COUNTER",
       "source": "checkpoint",
       "path": "352.html"
     },
     {
       "number": 353,
-      "showcase_number": 283,
+      "showcase_number": 276,
       "title": "THE BUYER",
       "source": "checkpoint",
       "path": "353.html"
     },
     {
       "number": 354,
-      "showcase_number": 284,
+      "showcase_number": 277,
       "title": "THE CUSTODIAN",
       "source": "checkpoint",
       "path": "354.html"
     },
     {
       "number": 355,
-      "showcase_number": 285,
+      "showcase_number": 278,
       "title": "THE TESTER",
       "source": "checkpoint",
       "path": "355.html"
     },
     {
       "number": 356,
-      "showcase_number": 286,
+      "showcase_number": 279,
       "title": "THE COMPANION",
       "source": "checkpoint",
       "path": "356.html"
     },
     {
       "number": 357,
-      "showcase_number": 287,
+      "showcase_number": 280,
       "title": "THE ADVISER",
       "source": "checkpoint",
       "path": "357.html"
     },
     {
       "number": 358,
-      "showcase_number": 288,
+      "showcase_number": 281,
       "title": "THE CROSSER",
       "source": "checkpoint",
       "path": "358.html"
     },
     {
       "number": 359,
-      "showcase_number": 289,
+      "showcase_number": 282,
       "title": "THE FREE AGENT",
       "source": "checkpoint",
       "path": "359.html"
     },
     {
       "number": 360,
-      "showcase_number": 290,
+      "showcase_number": 283,
       "title": "THE VERIFIER",
       "source": "checkpoint",
       "path": "360.html"
     },
     {
       "number": 361,
-      "showcase_number": 291,
+      "showcase_number": 284,
       "title": "THE MODEL",
       "source": "checkpoint",
       "path": "361.html"
     },
     {
       "number": 362,
-      "showcase_number": 292,
+      "showcase_number": 285,
       "title": "THE LOOKOUT",
       "source": "checkpoint",
       "path": "362.html"
     },
     {
       "number": 363,
-      "showcase_number": 293,
+      "showcase_number": 286,
       "title": "THE NEIGHBOR",
       "source": "checkpoint",
       "path": "363.html"
     },
     {
       "number": 364,
-      "showcase_number": 294,
+      "showcase_number": 287,
       "title": "THE DEBTOR",
       "source": "checkpoint",
       "path": "364.html"
     },
     {
       "number": 365,
-      "showcase_number": 295,
+      "showcase_number": 288,
       "title": "THE PARTNER",
       "source": "checkpoint",
       "path": "365.html"
     },
     {
       "number": 366,
-      "showcase_number": 296,
+      "showcase_number": 289,
       "title": "THE DANCER",
       "source": "checkpoint",
       "path": "366.html"
     },
     {
       "number": 367,
-      "showcase_number": 297,
+      "showcase_number": 290,
       "title": "THE INSTRUCTOR",
       "source": "checkpoint",
       "path": "367.html"
     },
     {
       "number": 368,
-      "showcase_number": 298,
+      "showcase_number": 291,
       "title": "THE BIDDER",
       "source": "checkpoint",
       "path": "368.html"
     },
     {
       "number": 369,
-      "showcase_number": 299,
+      "showcase_number": 292,
       "title": "THE CARRIER",
       "source": "checkpoint",
       "path": "369.html"
     },
     {
       "number": 370,
-      "showcase_number": 300,
+      "showcase_number": 293,
       "title": "THE STUDENT",
       "source": "checkpoint",
       "path": "370.html"
     },
     {
       "number": 371,
-      "showcase_number": 301,
+      "showcase_number": 294,
       "title": "THE WITNESS",
       "source": "checkpoint",
       "path": "371.html"
     },
     {
       "number": 372,
-      "showcase_number": 302,
+      "showcase_number": 295,
       "title": "THE GUIDE",
       "source": "checkpoint",
       "path": "372.html"
     },
     {
       "number": 373,
-      "showcase_number": 303,
+      "showcase_number": 296,
       "title": "THE RIGGER",
       "source": "checkpoint",
       "path": "373.html"
     },
     {
       "number": 374,
-      "showcase_number": 304,
+      "showcase_number": 297,
       "title": "THE HOST",
       "source": "checkpoint",
       "path": "374.html"
     },
     {
       "number": 375,
-      "showcase_number": 305,
+      "showcase_number": 298,
       "title": "THE LAMPLIGHTER",
       "source": "checkpoint",
       "path": "375.html"
     },
     {
       "number": 376,
-      "showcase_number": 306,
+      "showcase_number": 299,
       "title": "THE PASSENGER",
       "source": "checkpoint",
       "path": "376.html"
     },
     {
       "number": 377,
-      "showcase_number": 307,
+      "showcase_number": 300,
       "title": "THE NEIGHBOR",
       "source": "checkpoint",
       "path": "377.html"
     },
     {
       "number": 378,
-      "showcase_number": 308,
+      "showcase_number": 301,
       "title": "THE USHER",
       "source": "checkpoint",
       "path": "378.html"
     },
     {
       "number": 379,
-      "showcase_number": 309,
+      "showcase_number": 302,
       "title": "THE BROKER",
       "source": "checkpoint",
       "path": "379.html"
     },
     {
       "number": 380,
-      "showcase_number": 310,
+      "showcase_number": 303,
       "title": "THE DELEGATE",
       "source": "checkpoint",
       "path": "380.html"
     },
     {
       "number": 381,
-      "showcase_number": 311,
+      "showcase_number": 304,
       "title": "THE VISITOR",
       "source": "checkpoint",
       "path": "381.html"
     },
     {
       "number": 382,
-      "showcase_number": 312,
+      "showcase_number": 305,
       "title": "THE OUTSIDER",
       "source": "checkpoint",
       "path": "382.html"
     },
     {
       "number": 383,
-      "showcase_number": 313,
+      "showcase_number": 306,
       "title": "THE APPLICANT",
       "source": "checkpoint",
       "path": "383.html"
     },
     {
       "number": 384,
-      "showcase_number": 314,
+      "showcase_number": 307,
       "title": "THE VOLUNTEER",
       "source": "checkpoint",
       "path": "384.html"
     },
     {
       "number": 385,
-      "showcase_number": 315,
+      "showcase_number": 308,
       "title": "THE CANDIDATE",
       "source": "checkpoint",
       "path": "385.html"
     },
     {
       "number": 386,
-      "showcase_number": 316,
+      "showcase_number": 309,
       "title": "THE RUNNER",
       "source": "checkpoint",
       "path": "386.html"
     },
     {
       "number": 387,
-      "showcase_number": 317,
+      "showcase_number": 310,
       "title": "THE CREWMATE",
       "source": "checkpoint",
       "path": "387.html"
     },
     {
       "number": 388,
-      "showcase_number": 318,
+      "showcase_number": 311,
       "title": "THE WATCHMAN",
       "source": "checkpoint",
       "path": "388.html"
     },
     {
       "number": 389,
-      "showcase_number": 319,
+      "showcase_number": 312,
       "title": "THE TRAVELER",
       "source": "checkpoint",
       "path": "389.html"
     },
     {
       "number": 390,
-      "showcase_number": 320,
+      "showcase_number": 313,
       "title": "THE PASSENGER",
       "source": "checkpoint",
       "path": "390.html"
     },
     {
       "number": 391,
-      "showcase_number": 321,
+      "showcase_number": 314,
       "title": "THE FOLLOWER",
       "source": "checkpoint",
       "path": "391.html"
     },
     {
       "number": 392,
-      "showcase_number": 322,
+      "showcase_number": 315,
       "title": "THE CAMPER",
       "source": "checkpoint",
       "path": "392.html"
     },
     {
       "number": 393,
-      "showcase_number": 323,
+      "showcase_number": 316,
       "title": "THE RECORDER",
       "source": "checkpoint",
       "path": "393.html"
     },
     {
       "number": 394,
-      "showcase_number": 324,
+      "showcase_number": 317,
       "title": "THE PRACTITIONER",
       "source": "checkpoint",
       "path": "394.html"
     },
     {
       "number": 395,
-      "showcase_number": 325,
+      "showcase_number": 318,
       "title": "THE FIGHTER",
       "source": "checkpoint",
       "path": "395.html"
     },
     {
       "number": 396,
-      "showcase_number": 326,
+      "showcase_number": 319,
       "title": "THE PATIENT",
       "source": "checkpoint",
       "path": "396.html"
     },
     {
       "number": 397,
-      "showcase_number": 327,
+      "showcase_number": 320,
       "title": "THE CUSTOMER",
       "source": "checkpoint",
       "path": "397.html"
     },
     {
       "number": 398,
-      "showcase_number": 328,
+      "showcase_number": 321,
       "title": "THE REPAIRMAN",
       "source": "checkpoint",
       "path": "398.html"
     },
     {
       "number": 399,
-      "showcase_number": 329,
+      "showcase_number": 322,
       "title": "THE CROSSER",
       "source": "checkpoint",
       "path": "399.html"
     },
     {
       "number": 400,
-      "showcase_number": 330,
+      "showcase_number": 323,
       "title": "THE SOJOURNER",
       "source": "checkpoint",
       "path": "400.html"
     },
     {
       "number": 401,
-      "showcase_number": 331,
+      "showcase_number": 324,
       "title": "THE WITNESS",
       "source": "checkpoint",
       "path": "401.html"
     },
     {
       "number": 402,
-      "showcase_number": 332,
+      "showcase_number": 325,
       "title": "THE SHOPPER",
       "source": "checkpoint",
       "path": "402.html"
     },
     {
       "number": 403,
-      "showcase_number": 333,
+      "showcase_number": 326,
       "title": "THE OBSERVER",
       "source": "checkpoint",
       "path": "403.html"
     },
     {
       "number": 404,
-      "showcase_number": 334,
+      "showcase_number": 327,
       "title": "THE COMPARER",
       "source": "checkpoint",
       "path": "404.html"
     },
     {
       "number": 405,
-      "showcase_number": 335,
+      "showcase_number": 328,
       "title": "THE EARNER",
       "source": "checkpoint",
       "path": "405.html"
     },
     {
       "number": 406,
-      "showcase_number": 336,
+      "showcase_number": 329,
       "title": "THE CONTRACTOR",
       "source": "checkpoint",
       "path": "406.html"
     },
     {
       "number": 407,
-      "showcase_number": 337,
+      "showcase_number": 330,
       "title": "THE BIDDER",
       "source": "checkpoint",
       "path": "407.html"
     },
     {
       "number": 408,
-      "showcase_number": 338,
+      "showcase_number": 331,
       "title": "THE MEDIATOR",
       "source": "checkpoint",
       "path": "408.html"
     },
     {
       "number": 409,
-      "showcase_number": 339,
+      "showcase_number": 332,
       "title": "THE COMPANION",
       "source": "checkpoint",
       "path": "409.html"
     },
     {
       "number": 410,
-      "showcase_number": 340,
+      "showcase_number": 333,
       "title": "THE PROSPECT",
       "source": "checkpoint",
       "path": "410.html"
     },
     {
       "number": 411,
-      "showcase_number": 341,
+      "showcase_number": 334,
       "title": "THE HAND",
       "source": "checkpoint",
       "path": "411.html"
     },
     {
       "number": 412,
-      "showcase_number": 342,
+      "showcase_number": 335,
       "title": "THE TALLYMAN",
       "source": "checkpoint",
       "path": "412.html"
     },
     {
       "number": 413,
-      "showcase_number": 343,
+      "showcase_number": 336,
       "title": "THE DRINKER",
       "source": "checkpoint",
       "path": "413.html"
     },
     {
       "number": 414,
-      "showcase_number": 344,
+      "showcase_number": 337,
       "title": "THE RETAINER",
       "source": "checkpoint",
       "path": "414.html"
     },
     {
       "number": 415,
-      "showcase_number": 345,
+      "showcase_number": 338,
       "title": "THE CANDIDATE",
       "source": "checkpoint",
       "path": "415.html"
     },
     {
       "number": 416,
-      "showcase_number": 346,
+      "showcase_number": 339,
       "title": "THE BREAKER",
       "source": "checkpoint",
       "path": "416.html"
     },
     {
       "number": 417,
-      "showcase_number": 347,
+      "showcase_number": 340,
       "title": "THE EARNER",
       "source": "checkpoint",
       "path": "417.html"
     },
     {
       "number": 418,
-      "showcase_number": 348,
+      "showcase_number": 341,
       "title": "THE CLIENT",
       "source": "checkpoint",
       "path": "418.html"
     },
     {
       "number": 419,
-      "showcase_number": 349,
+      "showcase_number": 342,
       "title": "THE TOURIST",
       "source": "checkpoint",
       "path": "419.html"
     },
     {
       "number": 420,
-      "showcase_number": 350,
+      "showcase_number": 343,
       "title": "THE BIDDER",
       "source": "checkpoint",
       "path": "420.html"
     },
     {
       "number": 421,
-      "showcase_number": 351,
+      "showcase_number": 344,
       "title": "THE STUDENT",
       "source": "checkpoint",
       "path": "421.html"
     },
     {
       "number": 422,
-      "showcase_number": 352,
+      "showcase_number": 345,
       "title": "THE TEMP",
       "source": "checkpoint",
       "path": "422.html"
     },
     {
       "number": 423,
-      "showcase_number": 353,
+      "showcase_number": 346,
       "title": "THE PATIENT",
       "source": "checkpoint",
       "path": "423.html"
     },
     {
       "number": 424,
-      "showcase_number": 354,
+      "showcase_number": 347,
       "title": "THE WALKER",
       "source": "checkpoint",
       "path": "424.html"
     },
     {
       "number": 425,
-      "showcase_number": 355,
+      "showcase_number": 348,
       "title": "THE PEDESTRIAN",
       "source": "checkpoint",
       "path": "425.html"
     },
     {
       "number": 426,
-      "showcase_number": 356,
+      "showcase_number": 349,
       "title": "THE SCOUT",
       "source": "checkpoint",
       "path": "426.html"
     },
     {
       "number": 427,
-      "showcase_number": 357,
+      "showcase_number": 350,
       "title": "THE TRAVELER",
       "source": "checkpoint",
       "path": "427.html"
     },
     {
       "number": 428,
-      "showcase_number": 358,
+      "showcase_number": 351,
       "title": "THE WITNESS",
       "source": "checkpoint",
       "path": "428.html"
     },
     {
       "number": 429,
-      "showcase_number": 359,
+      "showcase_number": 352,
       "title": "THE SCRIBE",
       "source": "checkpoint",
       "path": "429.html"
     },
     {
       "number": 430,
-      "showcase_number": 360,
+      "showcase_number": 353,
       "title": "THE RECORDER",
       "source": "checkpoint",
       "path": "430.html"
     },
     {
       "number": 431,
-      "showcase_number": 361,
+      "showcase_number": 354,
       "title": "THE INSPECTOR",
       "source": "checkpoint",
       "path": "431.html"
     },
     {
       "number": 432,
-      "showcase_number": 362,
+      "showcase_number": 355,
       "title": "THE PASSENGER",
       "source": "checkpoint",
       "path": "432.html"
     },
     {
       "number": 433,
-      "showcase_number": 363,
+      "showcase_number": 356,
       "title": "THE VISITOR",
       "source": "checkpoint",
       "path": "433.html"
     },
     {
       "number": 434,
-      "showcase_number": 364,
+      "showcase_number": 357,
       "title": "THE GO-BETWEEN",
       "source": "checkpoint",
       "path": "434.html"
     },
     {
       "number": 435,
-      "showcase_number": 365,
+      "showcase_number": 358,
       "title": "THE ONLOOKER",
       "source": "checkpoint",
       "path": "435.html"
     },
     {
       "number": 436,
-      "showcase_number": 366,
+      "showcase_number": 359,
       "title": "THE PROSPECTOR",
       "source": "checkpoint",
       "path": "436.html"
     },
     {
       "number": 437,
-      "showcase_number": 367,
+      "showcase_number": 360,
       "title": "THE DECIDER",
       "source": "checkpoint",
       "path": "437.html"
     },
     {
       "number": 438,
-      "showcase_number": 368,
+      "showcase_number": 361,
       "title": "THE BIDDER",
       "source": "checkpoint",
       "path": "438.html"
     },
     {
       "number": 439,
-      "showcase_number": 369,
+      "showcase_number": 362,
       "title": "THE COMPANION",
       "source": "checkpoint",
       "path": "439.html"
     },
     {
       "number": 440,
-      "showcase_number": 370,
+      "showcase_number": 363,
       "title": "THE LOOKOUT",
       "source": "checkpoint",
       "path": "440.html"
     },
     {
       "number": 441,
-      "showcase_number": 371,
+      "showcase_number": 364,
       "title": "THE SAILOR",
       "source": "checkpoint",
       "path": "441.html"
     },
     {
       "number": 442,
-      "showcase_number": 372,
+      "showcase_number": 365,
       "title": "THE STRANGER",
       "source": "checkpoint",
       "path": "442.html"
     },
     {
       "number": 443,
-      "showcase_number": 373,
+      "showcase_number": 366,
       "title": "THE WAYFARER",
       "source": "checkpoint",
       "path": "443.html"
     },
     {
       "number": 444,
-      "showcase_number": 374,
+      "showcase_number": 367,
       "title": "THE CASTAWAY",
       "source": "checkpoint",
       "path": "444.html"
     },
     {
       "number": 445,
-      "showcase_number": 375,
+      "showcase_number": 368,
       "title": "THE DRIFTER",
       "source": "checkpoint",
       "path": "445.html"
     },
     {
       "number": 446,
-      "showcase_number": 376,
+      "showcase_number": 369,
       "title": "THE INVESTOR",
       "source": "checkpoint",
       "path": "446.html"
     },
     {
       "number": 447,
-      "showcase_number": 377,
+      "showcase_number": 370,
       "title": "THE ARBITER",
       "source": "checkpoint",
       "path": "447.html"
     },
     {
       "number": 448,
-      "showcase_number": 378,
+      "showcase_number": 371,
       "title": "THE OUTRIDER",
       "source": "checkpoint",
       "path": "448.html"
     },
     {
       "number": 449,
-      "showcase_number": 379,
+      "showcase_number": 372,
       "title": "THE DECKHAND",
       "source": "checkpoint",
       "path": "449.html"
     },
     {
       "number": 450,
-      "showcase_number": 380,
+      "showcase_number": 373,
       "title": "THE PASSENGER",
       "source": "checkpoint",
       "path": "450.html"
     },
     {
       "number": 451,
-      "showcase_number": 381,
+      "showcase_number": 374,
       "title": "THE COURIER",
       "source": "checkpoint",
       "path": "451.html"
     },
     {
       "number": 452,
-      "showcase_number": 382,
+      "showcase_number": 375,
       "title": "THE MEASURER",
       "source": "checkpoint",
       "path": "452.html"
     },
     {
       "number": 453,
-      "showcase_number": 383,
+      "showcase_number": 376,
       "title": "THE CLIMBER",
       "source": "checkpoint",
       "path": "453.html"
     },
     {
       "number": 454,
-      "showcase_number": 384,
+      "showcase_number": 377,
       "title": "THE EARNER",
       "source": "checkpoint",
       "path": "454.html"
     },
     {
       "number": 455,
-      "showcase_number": 385,
+      "showcase_number": 378,
       "title": "THE SHEPHERD",
       "source": "checkpoint",
       "path": "455.html"
     },
     {
       "number": 456,
-      "showcase_number": 386,
+      "showcase_number": 379,
       "title": "THE HOLDER",
       "source": "checkpoint",
       "path": "456.html"
     },
     {
       "number": 457,
-      "showcase_number": 387,
+      "showcase_number": 380,
       "title": "THE LAMPLIGHTER",
       "source": "checkpoint",
       "path": "457.html"
     },
     {
       "number": 458,
-      "showcase_number": 388,
+      "showcase_number": 381,
       "title": "THE WAYFINDER",
       "source": "checkpoint",
       "path": "458.html"
     },
     {
       "number": 459,
-      "showcase_number": 389,
+      "showcase_number": 382,
       "title": "THE CONTRACTOR",
       "source": "checkpoint",
       "path": "459.html"
     },
     {
       "number": 460,
-      "showcase_number": 390,
+      "showcase_number": 383,
       "title": "THE TRAILBLAZER",
       "source": "checkpoint",
       "path": "460.html"
     },
     {
       "number": 461,
-      "showcase_number": 391,
+      "showcase_number": 384,
       "title": "THE SURVIVOR",
       "source": "checkpoint",
       "path": "461.html"
     },
     {
       "number": 462,
-      "showcase_number": 392,
+      "showcase_number": 385,
       "title": "THE PATHFINDER",
       "source": "checkpoint",
       "path": "462.html"
     },
     {
       "number": 463,
-      "showcase_number": 393,
+      "showcase_number": 386,
       "title": "THE CROSSER",
       "source": "checkpoint",
       "path": "463.html"
     },
     {
       "number": 464,
-      "showcase_number": 394,
+      "showcase_number": 387,
       "title": "THE COURIER",
       "source": "checkpoint",
       "path": "464.html"
     },
     {
       "number": 465,
-      "showcase_number": 395,
+      "showcase_number": 388,
       "title": "THE WITNESS",
       "source": "checkpoint",
       "path": "465.html"
     },
     {
       "number": 466,
-      "showcase_number": 396,
+      "showcase_number": 389,
       "title": "THE SEEKER",
       "source": "checkpoint",
       "path": "466.html"
     },
     {
       "number": 467,
-      "showcase_number": 397,
+      "showcase_number": 390,
       "title": "THE PROSPECTOR",
       "source": "checkpoint",
       "path": "467.html"
     },
     {
       "number": 468,
-      "showcase_number": 398,
+      "showcase_number": 391,
       "title": "THE EXPLORER",
       "source": "checkpoint",
       "path": "468.html"
     },
     {
       "number": 469,
-      "showcase_number": 399,
+      "showcase_number": 392,
       "title": "THE ARCHITECT",
       "source": "checkpoint",
       "path": "469.html"
     },
     {
       "number": 470,
-      "showcase_number": 400,
+      "showcase_number": 393,
       "title": "THE CALIBRATOR",
       "source": "checkpoint",
       "path": "470.html"
     },
     {
       "number": 471,
-      "showcase_number": 401,
+      "showcase_number": 394,
       "title": "THE STRATEGIST",
       "source": "checkpoint",
       "path": "471.html"
     },
     {
       "number": 472,
-      "showcase_number": 402,
+      "showcase_number": 395,
       "title": "THE BROKER",
       "source": "checkpoint",
       "path": "472.html"
     },
     {
       "number": 473,
-      "showcase_number": 403,
+      "showcase_number": 396,
       "title": "THE FIXER",
       "source": "checkpoint",
       "path": "473.html"
     },
     {
       "number": 474,
-      "showcase_number": 404,
+      "showcase_number": 397,
       "title": "THE SOURCER",
       "source": "checkpoint",
       "path": "474.html"
     },
     {
       "number": 475,
-      "showcase_number": 405,
+      "showcase_number": 398,
       "title": "THE COORDINATOR",
       "source": "checkpoint",
       "path": "475.html"
     },
     {
       "number": 476,
-      "showcase_number": 406,
+      "showcase_number": 399,
       "title": "THE BIDDER",
       "source": "checkpoint",
       "path": "476.html"
     },
     {
       "number": 477,
-      "showcase_number": 407,
+      "showcase_number": 400,
       "title": "THE WAYFARER",
       "source": "checkpoint",
       "path": "477.html"
     },
     {
       "number": 478,
-      "showcase_number": 408,
+      "showcase_number": 401,
       "title": "THE CORRESPONDENT",
       "source": "checkpoint",
       "path": "478.html"
     },
     {
       "number": 479,
-      "showcase_number": 409,
+      "showcase_number": 402,
       "title": "THE HOMECOMER",
       "source": "checkpoint",
       "path": "479.html"
     },
     {
       "number": 480,
-      "showcase_number": 410,
+      "showcase_number": 403,
       "title": "THE WEARER",
       "source": "checkpoint",
       "path": "480.html"
     },
     {
       "number": 481,
-      "showcase_number": 411,
+      "showcase_number": 404,
       "title": "THE SUBSTITUTE",
       "source": "checkpoint",
       "path": "481.html"
     },
     {
       "number": 482,
-      "showcase_number": 412,
+      "showcase_number": 405,
       "title": "THE INTERRUPTER",
       "source": "checkpoint",
       "path": "482.html"
     },
     {
       "number": 483,
-      "showcase_number": 413,
+      "showcase_number": 406,
       "title": "THE VERIFIER",
       "source": "checkpoint",
       "path": "483.html"
     },
     {
       "number": 484,
-      "showcase_number": 414,
+      "showcase_number": 407,
       "title": "THE INTERMEDIARY",
       "source": "checkpoint",
       "path": "484.html"
     },
     {
       "number": 485,
-      "showcase_number": 415,
+      "showcase_number": 408,
       "title": "THE ORGANIZER",
       "source": "checkpoint",
       "path": "485.html"
     },
     {
       "number": 486,
-      "showcase_number": 416,
+      "showcase_number": 409,
       "title": "THE COORDINATOR",
       "source": "checkpoint",
       "path": "486.html"
     },
     {
       "number": 487,
-      "showcase_number": 417,
+      "showcase_number": 410,
       "title": "THE REPAYER",
       "source": "checkpoint",
       "path": "487.html"
     },
     {
       "number": 488,
-      "showcase_number": 418,
+      "showcase_number": 411,
       "title": "THE ACTOR",
       "source": "checkpoint",
       "path": "488.html"
     },
     {
       "number": 489,
-      "showcase_number": 419,
+      "showcase_number": 412,
       "title": "THE TIMER",
       "source": "checkpoint",
       "path": "489.html"
     },
     {
       "number": 490,
-      "showcase_number": 420,
+      "showcase_number": 413,
       "title": "THE CONTRACTOR",
       "source": "checkpoint",
       "path": "490.html"
     },
     {
       "number": 491,
-      "showcase_number": 421,
+      "showcase_number": 414,
       "title": "THE ACQUAINTANCE",
       "source": "checkpoint",
       "path": "491.html"
