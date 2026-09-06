@@ -35,12 +35,15 @@ jobs:
           python-version: '3.12'
       - name: Run ownership and showcase tests
         run: python -m unittest discover -s tests -p 'test_*.py'
-      - name: Build showcase-aware ownership report
+      - name: Build showcase-aware ownership report and full 001-020 review packet
         run: |
           python scripts/audit_dialogue_ownership.py \
             --root . \
             --json state/editorial/dialogue-ownership-pass/CANDIDATES.json \
-            --markdown state/editorial/dialogue-ownership-pass/CANDIDATES.md
+            --markdown state/editorial/dialogue-ownership-pass/CANDIDATES.md \
+            --review-start 1 \
+            --review-end 20 \
+            --review-markdown state/editorial/dialogue-ownership-pass/REVIEW_001_020.md
       - name: Validate generated report
         run: |
           git diff --check
@@ -53,6 +56,9 @@ jobs:
           assert report['endpoint'] >= 491, report['endpoint']
           assert report['visible_chapters'] + report['hidden_chapters'] == report['canonical_chapters']
           assert report['candidate_count'] == len(report['candidates'])
+          review = Path('state/editorial/dialogue-ownership-pass/REVIEW_001_020.md').read_text(encoding='utf-8')
+          assert '## Canon Chapter 001' in review
+          assert '## Canon Chapter 020' in review
           print(
               'ownership report:',
               report['candidate_count'], 'candidates,',
@@ -60,15 +66,18 @@ jobs:
               report['hidden_chapters'], 'hidden chapters skipped'
           )
           PY
-      - name: Commit refreshed candidate report
+      - name: Commit refreshed candidate and review reports
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add state/editorial/dialogue-ownership-pass/CANDIDATES.json state/editorial/dialogue-ownership-pass/CANDIDATES.md
+          git add \
+            state/editorial/dialogue-ownership-pass/CANDIDATES.json \
+            state/editorial/dialogue-ownership-pass/CANDIDATES.md \
+            state/editorial/dialogue-ownership-pass/REVIEW_001_020.md
           if git diff --cached --quiet; then
-            echo 'Dialogue ownership report already current.'
+            echo 'Dialogue ownership reports already current.'
             exit 0
           fi
-          git commit -m 'editor: refresh dialogue ownership candidates'
+          git commit -m 'editor: refresh dialogue ownership review surfaces'
           git pull --rebase origin editor/dialogue-ownership-pass
           git push origin HEAD:editor/dialogue-ownership-pass
