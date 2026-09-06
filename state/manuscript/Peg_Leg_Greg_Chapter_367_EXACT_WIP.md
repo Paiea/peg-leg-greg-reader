@@ -10,11 +10,9 @@ This was flattering until I met stagehands.
 
 We stood inside theatre side door while rain tapped roof hard enough to make conversation private.
 
-"You said that before I said anything."
+"That is a worrying opening."
 
-"Your face did."
-
-Apparently face remained traitor across districts.
+"We had two near collisions last week."
 
 "What am I teaching?"
 

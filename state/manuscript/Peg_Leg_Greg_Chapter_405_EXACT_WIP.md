@@ -46,13 +46,13 @@ Close enough to annoy me.
 
 Not close enough to matter.
 
-Sori watched my face.
+Sori watched me put the pouch away.
 
 "Don't."
 
 "Again, haven't said anything."
 
-"Trade basin. Twenty-one copper. Your face is planning crimes."
+"Trade basin. Twenty-one copper. Finish the road first."
 
 "Purchases."
 
@@ -234,13 +234,11 @@ One maybe rail or freight-only.
 
 Dask stopped walking.
 
-Sori said, "Don't."
+Sori said, "Walk."
 
-"I haven't."
+"I am."
 
-"Your face."
-
-Apparently contagion.
+"Not currently."
 
 Maro shaded eyes.
 

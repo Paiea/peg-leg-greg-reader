@@ -52,13 +52,11 @@ I stopped.
 
 The cabbage woman saw me stop.
 
-"Don't."
+"Buy your cabbage before you adopt his problem."
 
-"I haven't done anything."
+"I already paid."
 
-"You have a face."
-
-Apparently Lyssa had trained the whole city.
+"Then leave with it."
 
 The cord seller crushed the insect under the heel of a wooden block.
 

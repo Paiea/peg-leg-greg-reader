@@ -48,21 +48,13 @@ Thin pale seams moved under brown-green water, usually near shade.
 
 Every so often one climbed reed stalk for few inches and vanished.
 
-Maro noticed me noticing.
+Maro noticed me watching.
 
 "Residue."
 
 "I wasn't asking."
 
-"You were making asking face."
-
-"I have face for that?"
-
-Sori without looking up said, "Yes."
-
-Dask said, "Very pronounced."
-
-Traitors.
+"Didn't say you were."
 
 Maro pointed toward next bend.
 

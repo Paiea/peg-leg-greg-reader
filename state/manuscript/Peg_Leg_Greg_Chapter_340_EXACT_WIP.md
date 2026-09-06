@@ -814,15 +814,9 @@ Could I move while affecting a stationary target?
 
 Everything in me wanted the answer immediately.
 
-Hessa watched me want it.
+I looked at Hessa.
 
-"No," she said.
-
-"I didn't ask."
-
-"You were about to."
-
-"Maybe."
+"One attempt?"
 
 "No."
 

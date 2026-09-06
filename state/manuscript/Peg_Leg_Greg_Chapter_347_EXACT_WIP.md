@@ -885,21 +885,13 @@ This analogy was disgusting.
 
 I kept it.
 
-Saret saw me looking toward road.
+Saret saw me looking toward the road.
 
-"Don't."
-
-"I am eating."
-
-"You're thinking."
-
-"Hostile workplace."
-
-"Whatever happened with one twenty-six is not yours."
+"One twenty-six belongs to road office now."
 
 "I know."
 
-"Good."
+"Then eat."
 
 I bit bread.
 

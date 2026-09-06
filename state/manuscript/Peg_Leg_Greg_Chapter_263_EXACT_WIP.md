@@ -64,13 +64,9 @@ Lyssa closed the door.
 
 I looked at her.
 
-She looked at me.
+"Your legal practice is getting efficient," I said.
 
-"Do not."
-
-"I was going to compliment your legal practice."
-
-"Don't."
+"It's a coat."
 
 "Fine."
 

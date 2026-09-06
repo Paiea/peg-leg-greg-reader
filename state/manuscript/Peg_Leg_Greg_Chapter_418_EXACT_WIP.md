@@ -86,17 +86,15 @@ She saw me.
 
 Then purse.
 
-Then face.
-
 "No."
 
 "I didn't say anything."
 
-"You came before work with money face."
+"You came before work carrying your purse."
 
-"Apparently everyone reads face now."
+"That proves nothing."
 
-"Harbor literacy."
+"Before first bell?"
 
 I put twenty copper on bench.
 
@@ -180,9 +178,9 @@ Maybe.
 
 "One time."
 
-"You have face."
+"You still have bite marks on the crutch."
 
-Fuck face.
+Fair.
 
 She pushed receipt to me.
 

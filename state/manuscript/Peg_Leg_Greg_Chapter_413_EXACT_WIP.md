@@ -824,7 +824,7 @@ Sori pointed at him.
 
 "I didn't say I was."
 
-"Your face did."
+"You just proposed inland comparison."
 
 I laughed.
 

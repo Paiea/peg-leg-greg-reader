@@ -284,11 +284,7 @@ Then she stopped at the door.
 
 "I was going to say that."
 
-"No, you were not."
-
-"I was going to think it."
-
-"Find somewhere safe before dinner."
+"Too late. Find somewhere safe before dinner."
 
 She left.
 

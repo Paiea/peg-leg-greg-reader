@@ -438,11 +438,7 @@ I knew that much immediately.
 
 Teren saw me look.
 
-"Don't solve props."
-
-"I wasn't."
-
-"You were."
+"Uncle."
 
 "I was appreciating continuity."
 

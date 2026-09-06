@@ -26,15 +26,13 @@ Then the bundles.
 
 Then me again.
 
-"No."
+"One."
 
-"I haven't said anything."
+"Harness has two side loops."
 
-"Your face has."
+"One bundle."
 
-"My face is innocent."
-
-"Your face bought an old harness yesterday and has been waiting for excuse."
+"Hostile to equipment ambition."
 
 That was unfair.
 

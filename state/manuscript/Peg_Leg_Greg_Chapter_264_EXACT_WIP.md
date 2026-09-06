@@ -236,9 +236,9 @@ Lyssa glanced at the two dark work pieces folded near her bag.
 
 "Good."
 
-Mara looked at me before I could react.
+Mara looked at me.
 
-"Don't."
+"There. She said it again."
 
 I pointed at her.
 
