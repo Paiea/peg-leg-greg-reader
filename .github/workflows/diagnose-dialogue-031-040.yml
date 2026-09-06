@@ -1,0 +1,45 @@
+name: Diagnose dialogue ownership 031-040
+
+on:
+  push:
+    branches:
+      - integration/aggressive-dialogue-031-040-final
+    paths:
+      - '.github/workflows/diagnose-dialogue-031-040.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Print full strict-checker paragraphs
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from scripts import dialogue_ownership_check as d
+
+          targets = {
+              31: [63, 157, 188, 317],
+              32: [135, 143, 177, 286],
+              34: [111],
+              35: [27, 173, 243, 329],
+              36: [99, 522],
+              37: [29, 50],
+              38: [23, 153],
+              39: [28, 103],
+          }
+          chapters = d.load_chapters(Path('.').resolve())
+          for chapter_no, indices in targets.items():
+              paragraphs = d.chapter_paragraphs(chapters[chapter_no])
+              for index in indices:
+                  print(f'=== CHAPTER {chapter_no} PARAGRAPH {index} ===')
+                  print(paragraphs[index - 1])
+                  print('=== END ===')
+          PY
