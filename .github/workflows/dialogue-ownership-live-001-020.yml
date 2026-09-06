@@ -8,6 +8,7 @@ on:
     paths:
       - .github/workflows/dialogue-ownership-live-001-020.yml
       - scripts/apply_dialogue_ownership_semantic.py
+      - scripts/apply_dialogue_ownership_rewrite.py
       - scripts/test_dialogue_ownership_rewrite.py
   workflow_dispatch:
 
@@ -33,10 +34,10 @@ jobs:
         run: |
           mkdir -p /tmp/dialogue-before
           cp chapters/{001..020}.html /tmp/dialogue-before/
-      - name: Apply semantic ownership boundaries to convergence
+      - name: Apply ownership rewrite boundaries to convergence
         run: |
           for pass in 1 2 3 4; do
-            python scripts/apply_dialogue_ownership_semantic.py --start 1 --end 20
+            python scripts/apply_dialogue_ownership_rewrite.py --start 1 --end 20
           done
       - name: Verify prose preservation and HTML structure
         run: |
@@ -77,7 +78,7 @@ jobs:
             echo 'No changes to commit.'
             exit 0
           fi
-          git commit -m 'Publish semantic dialogue ownership cleanup through chapter 20'
+          git commit -m 'Publish dialogue ownership rewrite cleanup through chapter 20'
           git push
 
-# trigger current-main dialogue rewrite test
+# current-main dialogue rewrite test
