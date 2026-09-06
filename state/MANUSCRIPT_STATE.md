@@ -1,296 +1,240 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 389 - **THE TRAVELER**.
+- Current exact story endpoint: Chapter 390 - **THE PASSENGER**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript physically materialized through Chapter 248.
-- Exact Chapters 249-389 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
+- Exact Chapters 249-390 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
 - Titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
-- Ch389 answer: Greg is being **a traveler**. He resolves remaining Merecross obligations, signs crew roll, physically exits Merecross, adapts to road/skiff travel, and enters the first genuinely open-ended journey of this life.
-- Therefore title **THE TRAVELER**.
-- Recent: 385 THE CANDIDATE; 386 THE RUNNER; 387 THE CREWMATE; 388 THE WATCHMAN; 389 THE TRAVELER.
+- Ch390 answer: Greg is being **a passenger**. After showing his higher-output mode in Ch389, he deliberately lets competent specialists carry the work, watches new country, waits through uncertainty, and experiences travel without turning every minute into optimization.
+- Therefore title **THE PASSENGER**.
+- Recent: 386 THE RUNNER; 387 THE CREWMATE; 388 THE WATCHMAN; 389 THE TRAVELER; 390 THE PASSENGER.
 
 ## Major arc direction - away from Carrow
 - Long away-from-Carrow adventure arc remains active and desired, potentially act/near-book length.
-- Greg has now **physically left Merecross** with the River Survey field crew.
-- Traveling core: **Vessa Harn, Maro Pell, Sori Vale, Dask Renn, Kel Toren, Greg**.
-- Current route remains toward **Alder Basin -> North Glass Cut -> West Locks -> Merecross**, but field conditions can alter exact route/timing.
-- This is not setup for immediate Carrow return. Let road/river travel, regional systems, artifacts, ecology, strangers, danger, work, and crew relationships widen the book.
+- Greg and River Survey crew have reached **Alder Basin**.
+- Traveling core remains Vessa Harn, Maro Pell, Sori Vale, Dask Renn, Kel Toren, Greg.
+- Planned next major route remains North Glass Cut then West Locks, but a fresh Alder Basin industrial spill may alter timing/access.
+- Do not route Greg back toward Carrow. Geographic/world expansion is now active.
 
-## Durable Greg character rule - normal mode vs locked-in mode
-- User-authorized durable character rule: Greg likes being viewed as competent, but **does not normally operate at maximum output anymore** because he knows he usually does not need to.
-- Baseline Greg is comfortable, capable, observant, adaptive, sometimes lazy about squeezing every last percent from himself, and willing to iterate/make mistakes.
-- There is a rarer **locked-in / dialed-in mode** rooted in first-life S-class habits.
-- When needed, Greg can sharply narrow attention, prioritize variables, sequence people/resources, learn/iterate fast, and push toward much higher output than his normal presentation suggests.
-- This should sometimes create an `oh` reaction from other characters/readers.
-- The switch is **not** supernatural omniscience and does not erase current Bronze rank, one-leg body, fatigue, mana limits, missing tools, or incomplete local knowledge.
-- Current body limits raw output; first-life method/decision quality remains.
-- Greg can usually choose this mode, though sometimes pressure triggers it first.
-- It is mentally/socially expensive: narrower patience, less room for people/ambiguity, greater intensity. Good for output, bad as a permanent way to live.
-- Greg does **not** need to be locked in for ordinary problems. Contrast is the point.
-- Vessa now knows this mode exists and has explicit permission to ask Greg to `lock in` if field conditions genuinely need it.
-- Power analogue: there is a related but distinct magical/combat switch. Greg was S-class in first life. Current Bronze output is limited, but he plausibly retains unusually strong method, learning speed, tactical judgment, training discipline, and capacity to climb fast if he deliberately grinds. Show this occasionally, not constantly.
-- Existing Ch385 practical external-transfer milestone is an early sign of this larger truth, not full proof.
+## Durable Greg character rule - reserve / normal mode / locked-in mode
+- User-authorized durable character rule: Greg likes being viewed as competent, but does not normally operate at maximum output because he knows he usually does not need to.
+- Baseline Greg is comfortable, capable, observant, adaptive, sometimes willing to be lazy about squeezing every last percent, and willing to iterate/make mistakes.
+- Greg carries a deep internal **reserve of confidence** from having already become S-class once. He knows he is smart, was extremely strong, understands how growth feels from inside, and can build toward at least some new version of that capability if forced or motivated.
+- Internal analogy established Ch390: a **fat bank account / retirement fund he does not normally touch**. It is not current spendable power. It is proof that more exists and that he knows routes toward it.
+- This reserve gives Greg psychological safety. He does not need to grind every ordinary day, optimize every task, or prove maximum competence constantly because part of him believes: if life becomes expensive enough, he can start withdrawing.
+- `Withdrawing` can mean training harder, narrowing study, increasing repetitions, turning effects reliable, combining skills, fixing/workarounding body limitations, and climbing aggressively.
+- He may never become exactly the same man/body/build as first life, and should not assume he will. But he believes he can become **enough of a version of him** to meet serious need.
+- Rarer **locked-in / dialed-in mode** remains distinct from the reserve itself. It is immediate high-output cognition/operation rooted in S-class habits.
+- Locked-in mode can create an `oh` reaction: narrowed attention, fast prioritization, sequencing, rapid iteration, tactical judgment, high learning/output.
+- It is not omniscience and does not erase Bronze rank, one-leg body, fatigue, mana limits, missing tools, incomplete local knowledge, or specialist authority.
+- Current body limits raw output. First-life method, decision quality, learning base, and psychological certainty remain.
+- It is mentally/socially expensive: narrower patience, less room for people/ambiguity. Good when needed, bad as permanent lifestyle.
+- Greg can usually choose it; sometimes pressure triggers it first. Vessa knows it exists and can ask him to `lock in` when field conditions genuinely require it.
+- Power/combat analogue is related but distinct. Full current-life expression has NOT yet been shown. Greg plausibly can climb unusually fast if he deliberately grinds because he already knows how to learn/train/fight at elite levels, but resources/body/current magic reliability still matter.
+- Contrast is essential: normal comfortable Greg should dominate page time so the switch remains impressive.
 
-## Chapter 389 - THE TRAVELER
+## Chapter 390 - THE PASSENGER
 
-### Merecross departure obligations
-- Greg leaves without buying the North Channel Night Rest. Last known ask remains **28c**, but availability after departure is unknown.
-- Oval:
-  - remains wrapped;
-  - no new cold response morning after Glasswake;
-  - stored in River Survey square lockbox under stamped wax seal;
-  - one receipt Survey Office, one Greg;
-  - held until Greg returns or written transfer authorized;
-  - no storage fee while assigned field crew.
-- Greg does not unwrap/test/activate oval.
-- Transit:
-  - Pavin closes Greg's transit lodging/status as **CLOSED BY VOLUNTARY ASSIGNMENT**;
-  - covered lodging ends when Survey crew roll begins because Greg is no longer waiting for contracted transit return;
-  - Greg checks out morning, owes nothing;
-  - South span remains closed;
-  - north-ford/return issues are not magically solved.
-- Greg dispatches previously written home letter east through Bell Ford routing, with Survey Office as temporary hold point for replies after departure.
-- Communication remains delayed/non-instant.
+### River travel / normal Greg returns
+- Greg settles into skiff travel toward Alder Basin.
+- Crew roles: Kel stern/control, Vessa forward/lead, Maro river-light, Dask gauges, Sori custody, Greg record case/passenger until needed.
+- Greg enjoys being unnecessary for stretches and watches reed-bank country.
+- Riverside houses appear/disappear behind reeds; docks/cages/traps and rural river life widen world beyond Merecross.
+- Post-Glasswake residue appears as pale seams under water and occasional light climbing reed stalks.
+- Maro explains some local `channel glass` as reflective mineral lenses in clay/old flood deposits, with natural vs older-work origins varying. Dask objects to broad term.
 
-### Load / crew preparation
-- Greg's personal field load is intentionally lean:
-  - one spare shirt;
-  - one spare sock;
-  - soap;
-  - notebook/pencils;
-  - repair wrap;
-  - Tavi's Bell Ford rock;
-  - papers;
-  - money;
-  - repaired porter harness;
-  - no oval;
-  - no Night Rest;
-  - no spoon.
-- Sori verifies oval receipt, transit closeout, field application, emergency contacts, and Greg's understanding of pay/return terms.
-- Orin appears for his new local work and gives Greg a joking list of Alder Basin places not to eat.
-- Orin tells Greg to come back. Greg intends to.
+### S-class reserve / retirement-fund internal model
+- During idle travel Greg reflects that first-life travel eventually became constant optimization: mana training, route review, equipment, efficient sleep/eating because there was always another fight/rank/contract.
+- In second life, he experiences his old S-class history as an invisible reserve:
+  - not current power;
+  - **proof** he was once very good/strong;
+  - proof that entire categories of fear need not be permanent;
+  - memory of what improvement feels like internally.
+- Current limits explicitly remain: Bronze, left BKA/one leg, unreliable external effects, shoulder/hand fatigue, finite mana.
+- But Greg believes if badly cornered he can deliberately:
+  - train harder;
+  - study narrower;
+  - turn days into repetitions;
+  - repetitions into reliable effects;
+  - reliable effects into combinations;
+  - fix body problems where possible;
+  - work around permanent ones;
+  - climb.
+- He does not assume exact restoration of first-life self. He believes he can become **some version of him, enough**.
+- This reserve makes ordinary non-optimization feel safe: `I did not need to squeeze every day until it screamed.`
+- Internal metaphor: `Retirement fund. / Do not touch unless world becomes expensive.`
+- This is psychological safety, not hidden literal mana/stat bank.
 
-### Post-Glasswake route read
-- Maro returns with daylight North Glass Cut read:
-  - maintained primary path **usable/open**;
-  - reflective edge displacement elevated on east-facing stone between markers 9-14;
-  - two old waste shelves still throwing afterimage under oblique sun;
-  - **no black pockets observed** in Cut channel during that read, not proof none exist;
-  - river skiff window toward Alder Basin favorable until late afternoon;
-  - west-bank mud below warning mark.
-- Route modification:
-  - skip east shelf shortcut;
-  - maintained path only;
-  - estimated ~half-bell slower.
-- Sori confirms West Locks accepts current survey priority; no closed-chamber entry; North Glass Cut access window stamped through next day second bell.
-- Vessa sets crew roll/departure for **second bell**.
+### Root-drag river hold
+- River narrows; two skiffs wait west bank, including one with angry goat.
+- Reeds lie bent upstream across water despite insufficient visible current.
+- Locals call condition `root drag`; exact cause not established.
+- Older local boatwoman reports it began after first bell, opened twice, closed again when grain boat tried middle; no bottom snag found by pole.
+- Kel holds rather than improvising.
+- Maro uses a brass-disk field tool over water; readings vary by position/time.
+- Greg internally generates possible old-life explanations but rejects all as unearned and stays quiet.
+- After ~8 minutes reeds relax west-to-center; Maro's disk stops backward response.
+- Local boats cross first; Survey follows.
+- Mid-channel Greg notices **brief left crutch-shaft vibration**, under one breath, crutch not touching water. Reports bounded observation. Maro says do not reproduce. No cause claim.
+- No Greg solution/power display. Local systems and specialists carry event.
 
-### First visible locked-in Greg moment
-- Camp case 2 comes in **23 lb over rear cart allowance** after extra travel-delay meals are added.
-- Crew starts discussing possibilities: front margin, passenger bench floor, food split, gauge restrictions, repair-case integrity, black-case shade, aisle clearance.
-- Greg deliberately shifts from normal comfortable participation into older **locked-in** mode.
-- He rapidly gathers only decision-relevant constraints:
-  - Kel: 14 lb safe front margin;
-  - passenger bench floor ~8-10 lb if low/aisle clear;
-  - Sori: food can split/reseal before crew roll; gauges cannot; repair can but Vessa dislikes it;
-  - Vessa: red repair case should remain intact;
-  - Maro: black case requires protection from direct sun, moderate ambient okay;
-  - Kel: one black case can sit passenger floor without blocking Greg transfer.
-- Greg proposes:
-  - move one black river-light case to passenger floor under cloth cover;
-  - split 9 lb food into front sealed subcrate and amend manifest;
-  - leave gauges, repair case, water, aisle untouched.
-- Total 23 lb rear excess resolved cleanly.
-- Sori says paperwork takes ~3 minutes; Kel says weight works; Maro accepts shade condition; Vessa says `Do it.`
-- Orin asks if Greg could have done that during trial. Greg: **`Probably.`** Orin: why didn't he? Greg: **`Didn't need to.`**
-- Vessa calls the mode useful and warns not to save it for entertainment.
-- Greg explains: `Most problems don't need everything I have.`
-- At road rest later, Vessa asks directly why he does not work like that all the time.
-- Greg answer:
-  - it is expensive in attention/patience/temper, not mana;
-  - he gets narrower/faster and stops giving things/people room they usually deserve;
-  - good when situation needs output, bad way to live;
-  - can usually choose it; sometimes it chooses him first.
-- Vessa asks whether power has a related switch. Greg: **different switch, related**; current body limits output but does not erase method.
-- Vessa says she does not need S-class, but may need Greg locked in. Greg tells her to say so.
-- This is a **seed and durable mode declaration**, not a maximal combat/magic showcase yet.
+### Alder Basin arrival / regional identity
+- Alder Basin is distinct from Merecross:
+  - broad shallow river fan split around stone islands;
+  - many narrow channels;
+  - timber trestle walkways;
+  - buildings on stone feet/wood piles;
+  - working ropes everywhere between docks/roofs/cranes/drying frames;
+  - flat cargo punts, reed skiffs, fixed-rope ferries;
+  - smells of mud, smoke, boiled grain, fish oil, sharp-sweet unknown scent.
+- Maro identifies area as home/near-home: from west shelf roughly six miles west.
+- Sori warns Maro gives directions by what used to stand places twenty years ago.
+- Greg's first impression: Carrow had theatre, Merecross paperwork, Alder Basin has ropes.
+- Skiff transfer off is awkward due low sideways-moving floating plank; Greg freezes per procedure, uses Kel forearm, shoulder bag catches post, but lands safely.
 
-### Crew roll / economy
-- Crew roll signed under yard awning:
-  - Vessa Harn;
-  - Maro Pell;
-  - Sori Vale;
-  - Dask Renn;
-  - Kel Toren;
-  - Greg.
-- Greg receives field start **6c** at actual crew roll.
-- Greg **17c -> 23c private cash**.
-- Vale remains **23c principal-equivalent**.
-- Bits unspecified.
-- Future field pay remains +2c per completed field day starting day 4, per prior terms.
+### Road cart / Survey House
+- Contracted road cart is delayed at Reed Three for axle inspection, arrives later intact; one wheel collar heated more than Kel liked, he greases/resets it.
+- Essential cases arrive by skiff; bulk camp/food by cart.
+- Survey House reached via rope ferries/raised plank lanes.
+- Greg handles moving-platform geometry without heroics; Vessa does not hover.
+- Market is distributed along raised walkways with goods hung from rails, glowing pale insect cages, tools, wax-sealed jars, etc.
 
-### Leaving Merecross
-- Survey cart exits Merecross North Gate under priority papers.
-- Greg looks back once; Merecross is not home but already has accumulated people: Dema, Orin, Tessa, Pavin.
-- No melodramatic farewell.
-- Road north:
-  - broad hard-packed road;
-  - drainage stones roughly every 20 paces;
-  - roadside posts with dark-green ribbons + ceramic caps.
-- Maro says caps hold bitter resin when warm and ribbons show still-air swarm conditions for **flood gnats**; exact biology deferred. Dask says not technically gnats; Sori shuts him down.
-- Fields/low stone walls/wet grain terraces/fruit trees replace warehouses.
-- Greg intentionally does not ask about every local detail.
-- River carries post-Glasswake afterlight; one vertical pale line rises ~15 feet above water at a bend before fading. Greg is allowed to simply look because they are traveling.
+### Fresh industrial spill / route pressure
+- At Alder Basin Survey House, clerk reports fresh notice newer than Maro's morning read:
+  - **WEST SHELF SETTLING POOL 4**;
+  - return-lime slurry release;
+  - secondary channel closed below green posts;
+  - cause: valve seat failure under review;
+  - no drinking draw/wading/netting.
+- Initial reported volume ~6 holding-drum equivalents, maybe 8.
+- Affected secondary feeds toward north access side, not directly North Glass Cut but close enough to matter.
+- No Cut closure yet; field reader sent.
+- Vessa explicitly says crew is not solving spill, only determining whether route remains valid.
+- Clerk says old settling line has three return gates; two ordinary, third **retired glass-lock Four-C**.
+- If slurry reached Four-C, north channel may be held until they know whether lock `took charge`.
+- Four-C is retired/decommissioned-but-not-removed old industrial magical device/artifact category; exact function/state unresolved.
+- Maro is strongly interested because charge/discharge timing could affect Cut access.
+- Vessa orders wait for field reader; nobody approaches closed channel.
+- Greg notebook includes `DO NOT VOLUNTEER FOR INDUSTRIAL ACCIDENT.`
 
-### Causeway delay
-- Around third mile, three freight wagons stop at narrow stone causeway.
-- Edge marker throws double visual line after Glasswake; drivers wait for Road reader.
-- Alternate west farm track would add ~one bell + mud; crew waits because reader expected within half bell.
-- Horse sidesteps when visual line shifts; no accident.
-- Vessa asks whether Greg's West Stairs contact-first technique can help.
-- Greg bounds answer: could identify physical edge at a point, **not certify load surface**.
-- Road worker says they use sounding rods when reader arrives.
-- Greg says wait for reader.
-- Reader arrives with sounding rod, confirms visual displacement rather than physical edge movement, escorts wagons one at a time.
-- Crew loses under half bell.
-- This preserves competent local systems and avoids protagonist solving everything.
+### Lodging / route delay
+- Survey House bunk annex provides two rooms under route-delay coverage after cart arrives.
+- Field reader has not returned by evening.
+- North Glass Cut route decision moves to **dawn**.
+- Crew gets ~2 hours off after meal with rules: do not cross green-post closures, do not get drunk enough to miss dawn, ask before buying anything needing crew transport.
 
-### Road-rest conversation / S-class latent capacity
-- Posted local road distances at shelter:
-  - MERECROSS 4;
-  - ALDER BASIN 11;
-  - NORTH GLASS CUT TURN 7;
-  - units/local convention not universalized.
-- Vessa asks if locked-in mode is first-life habit. Greg confirms.
-- Greg internal frame:
-  - first-life S-class was not one spell;
-  - it was thousands of fast, correct-enough decisions plus mana/body/experience;
-  - when aligned, he was `very difficult to stop`;
-  - current body remains one-leg/Bronze/unreliable external effects/fatigued, but still him.
-- Durable implication: if Greg chooses to seriously grind current progression, readers should believe he could climb unusually fast because method/learning/tactical base massively exceed normal Bronze baseline, even though resources/body/local system still matter.
-
-### Skiff transition / actual journey underway
-- Afternoon junction reaches Alder skiff landing.
-- Cart and some loads continue by road under Survey contract; core crew + required cases transfer to river skiff for shortcut toward Alder Basin.
-- Greg uses learned transfer routine:
-  - crutches to socket;
-  - dock post;
-  - Kel forearm;
-  - right foot;
-  - freeze if hull moves;
-  - settle.
-- Routine is competent but not graceful.
-- Dask nearly forgets black notebook; Sori catches him.
-- Core responsibilities aboard:
-  - Vessa bow/lead;
-  - Kel stern/control;
-  - Sori custody;
-  - Dask gauges;
-  - Maro river;
-  - Greg records.
-- Merecross is no longer visible at chapter end.
-- Crew is moving through reed banks toward Alder Basin.
-- This is the first open-ended chosen journey of Greg's second life: not lost, exiled, or forced by disaster. He is **going**.
+### Alder Basin artifact-market seed
+- Greg explores raised market alone.
+- Sees local systems: glowing insect cages, waterproof paper, water-driven sharpening wheel, food stalls.
+- Stops at seller **Hara Venn**, ~50, one clouded white eye, dry seller speech.
+- Three small objects under glass:
+  1. bent-nail-like tool: hums near active return-lime; **2c**; documented Basin Works surplus mark; retired because sensitivity inconsistent beyond ~10 paces.
+  2. flat brass tongue: warms near open pressure seam; **3c**; workshop claim only.
+  3. small doorless iron cage: catches one kind of marsh light ~1 minute if cooperative; **7c**; undocumented; tourist appeal supports price.
+- Hara's pricing is rational. On Greg saying 2c high for inconsistent detector: `Then don't buy.` On saying could be useful tomorrow: `Then two seems low.`
+- Greg **does not buy anything**.
+- Reasoning: Survey likely has better instruments; 23c cash/23c Vale; current spill timing could make him overvalue retired detector; does not turn coincidence into destiny.
+- Hara somehow guesses theatre from Greg's manner: he `stands like performer when pretending not interested.`
+- Preserve Hara as possible recurring Basin market contact if useful.
 
 ## Economy
-- Greg begins **17c**.
-- Receives **6c field start** at crew roll.
+- Greg begins **23c private cash**.
+- No copper spend/income in Ch390.
 - Ends **23c private cash**.
 - Vale remains **23c principal-equivalent**.
 - Bits unspecified.
-- No other spend.
-- No Night Rest purchase.
+- Survey meals/lodging covered under assignment/route delay as established.
+- No artifact purchase.
 
 ## Magic / artifacts
-- Protocol ledger remains **59 minimal / 53 shaping / 129 external attempts** plus separate one-result practical-transfer milestone from Ch385.
-- Greg performs no deliberate magic in Ch389.
-- Locked-in logistics mode is cognitive/operational, not magical effect.
-- Oval stored sealed in Merecross Survey custody; cannot travel.
-- Holdfast/K-14-6/Three Reeds/Step Keeper remain locked in Carrow.
-- Tavi rock travels with Greg.
+- Protocol ledger remains **59 minimal / 53 shaping / 129 external attempts** plus one separate practical external-transfer milestone from Ch385.
+- Greg performs no deliberate magic in Ch390.
+- Brief left-crutch shaft vibration at root-drag crossing is observed/reported, cause unresolved.
+- Oval remains sealed in Merecross Survey custody.
+- Holdfast/K-14-6/Three Reeds/Step Keeper remain locked Carrow.
+- Tavi rock remains with Greg.
+- Four-C retired glass-lock is local industrial magical infrastructure, ownership/function/current charge unresolved.
+- Hara objects not Greg's.
 
 ## Greg social/internal movement
-- Greg's hidden performance ceiling is now explicit in-world without becoming his constant personality.
-- Orin gets first `oh, you could have done that already?` reaction.
-- Vessa recognizes and names practical utility of Greg's higher-output mode.
-- Greg enjoys leaving and new geography without needing every beat to be homesick.
-- Merecross accumulation remains emotionally real even after departure.
-- Closing movement: `Traveler.` / chosen movement north by skiff.
+- Ch390 intentionally returns to comfortable Greg after Ch389 locked-in reveal.
+- He demonstrates competence by allowing other competent people to do their jobs and by withholding unsupported explanations.
+- His S-class past now functions psychologically as safety/reserve, explaining why he can tolerate ordinary life and imperfect output without feeling he must constantly prove ceiling.
+- Greg enjoys being passenger and seeing new world.
+- He resists both unnecessary intervention and impulse artifact purchase.
 
 ## Dialogue variance
-- Vessa: concise command and probing questions about Greg's higher-output mode.
-- Orin: teasing, candid, slightly irritated by Greg's hidden ceiling.
-- Sori: procedural/document precision.
-- Dask: technical interruption/terminology compulsion.
-- Maro: bounded ecology/route read.
-- Kel: terse weight/transport competence.
+- Vessa: direct operational scope/boundaries.
+- Maro: local/field cautious language, slightly more personal in home region.
+- Dask: classification/measurement corrections.
+- Sori: dry procedural policing and teasing.
+- Kel: terse transport competence, goat humor.
+- Alder clerk: local industrial practicality.
+- Hara Venn: dry seller logic, anti-sales salesmanship.
 
 ## Recent role ledger
-- 385 THE CANDIDATE
 - 386 THE RUNNER
 - 387 THE CREWMATE
 - 388 THE WATCHMAN
 - 389 THE TRAVELER
+- 390 THE PASSENGER
 
 ## Protected uncertainties
-- Crew has departed Merecross and is en route toward Alder Basin by skiff.
-- Exact arrival time at Alder Basin unresolved.
-- North Glass Cut maintained path usable at morning read but current conditions can change.
-- East-shelf shortcut skipped.
-- Post-Glasswake visual displacement remains route hazard.
+- North Glass Cut route decision delayed to dawn pending field reader after return-lime spill.
+- Exact spill impact on North Glass Cut unresolved.
+- Four-C glass-lock may or may not have `taken charge`; function/current state unresolved.
+- Root-drag exact mechanism unresolved.
+- Greg left-crutch vibration at root-drag crossing unresolved.
+- Hara Venn inventory remains hers; Greg bought nothing.
+- Road cart arrived intact; wheel collar issue handled by Kel, no ongoing failure established.
 - Oval remains sealed Merecross; cold-response meaning unresolved.
-- Doorway-shaped Glasswake interruption meaning unresolved.
-- Night Rest availability/current price unresolved after Greg departure.
-- Orin remains Merecross for 3 guaranteed local work days; possible Sori runner job funding unresolved.
-- Home letter dispatched but arrival/reply unresolved.
-- South span remains closed; bridge cause unresolved.
-- Greg locked-in mode exists, but **full power/combat/magic expression has not yet been shown in current life**. Preserve this for rarer high-payoff moments.
-- Greg's practical external magic remains one-result milestone only; do not suddenly universalize reliability.
-- All older protected artifact/Carrow threads remain unresolved unless exact authority changes them.
+- Home communication remains delayed.
+- Full current-life locked-in combat/magic expression still not shown. Preserve for rarer payoff.
+- Greg's S-class reserve metaphor is psychological/skill-path confidence, NOT literal stored power or guaranteed return to S-class.
+- All older protected threads remain unresolved unless exact authority changes them.
 
 ## Continuity issue
 - Ch360 1-bit lunch source remains unresolved. Do not invent. Copper exact **23c**.
 
-## Chapter 390 trailhead
-Follow next actual claim from Ch389/current authority.
+## Chapter 391 trailhead
+Follow next actual claim from Ch390/current authority.
 
-Greg begins **23c cash / 23c Vale / bits unspecified**, protocol attempts **59 / 53 / 129**, plus one separate practical external-transfer milestone.
+Greg begins **23c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 129** plus one practical-transfer milestone.
 
 Physical location:
-- aboard River Survey skiff with Vessa/Maro/Sori/Dask/Kel;
-- moving through reed-bank river shortcut toward **Alder Basin**;
-- Merecross no longer visible;
-- cart/some gear continues separately by contracted road route.
+- Alder Basin Survey House bunk annex;
+- traveling crew together;
+- field reader expected regarding return-lime spill / Four-C / North Glass Cut access;
+- route decision at dawn.
 
 Strong movement:
-- Let travel become genuinely new rather than simply another work route.
-- Alder Basin should feel like a different regional place, not Merecross-lite.
-- Introduce route ecology, settlements, river traffic, unusual work systems, people, artifact pressure, or danger organically.
-- Crew social habits can deepen under travel boredom/meals/boat rhythm.
-- Greg has just shown a small locked-in logistics glimpse. Do **not** immediately repeat the full switch next chapter. Let normal Greg return so contrast survives.
-- However, seed circumstances where a future serious lock-in/power moment could matter.
-- Current body limitations remain real.
-- User explicitly wants occasional moments where readers/characters go `oh` and remember he was S-class. Build toward them rather than making them constant.
+- Do not stall adventure indefinitely. Resolve route information early enough to create next movement.
+- Spill/Four-C can alter route, timing, or create bounded field task, but Greg/crew should not become industrial cleanup superheroes.
+- North Glass Cut remains next major geographic target unless evidence forces credible alternate.
+- Alder Basin can supply local specialist, route guide, market intelligence, or artifact pressure.
+- Greg normal mode should remain default. No immediate second locked-in showcase just because concept is now durable.
+- Future serious pressure can eventually trigger the more startling S-class mode, including magical/combat method, but earn it.
+- Artifact acquisition is welcome when rational and consequential. Hara's 2c return-lime nail is plausible but should not be bought merely because plot mentioned spill; Survey tools/local information may make it unnecessary.
+- Keep crew specialists competent.
 
-Potential next beats:
-- first river hazard that locals understand better than Greg;
-- regional traveler/boat traffic interaction;
-- Alder Basin arrival with different norms/prices/market/artifact ecosystem;
-- overnight/meal crew texture;
-- old-life field familiarity surfacing invisibly without dominance.
+Potential:
+- field reader returns with Four-C condition and route implications;
+- route opens with modified timing, forcing early departure;
+- route partially closes, requiring alternate access through unfamiliar Basin infrastructure;
+- a specialist recognizes Greg's unusual observational discipline or old-life technique without making him famous;
+- travel through North Glass Cut should introduce sharper magical ecology/material culture and new scene grammar.
 
 Avoid:
-- immediate second locked-in showcase;
-- giant combat/power-up immediately after logistics reveal;
-- returning toward Carrow;
-- turning Greg into omniscient expedition leader over Vessa/Maro/Kel specialties;
-- buying convenient artifact instantly;
-- chosen-one framing.
+- immediate Carrow return;
+- making spill secretly about Greg/oval;
+- universal artifact scanner logic;
+- Greg solving Four-C from one glance;
+- another full chapter of waiting.
 
-**MANDATORY TITLE CHECK CH390:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH391:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
