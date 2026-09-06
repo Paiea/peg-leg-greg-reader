@@ -6,6 +6,9 @@ on:
       - integration/aggressive-dialogue-021-030-live
     paths:
       - '.github/workflows/dialogue-aggressive-021-030-live.yml'
+      - 'scripts/apply_dialogue_ownership_semantic.py'
+      - 'scripts/apply_dialogue_ownership_rewrite.py'
+      - 'scripts/test_dialogue_ownership_rewrite.py'
   workflow_dispatch:
 
 permissions:
@@ -66,6 +69,9 @@ jobs:
           allowed = {f'chapters/{n:03d}.html' for n in range(21, 31)} | {
               'state/editorial/global-reports/DIALOGUE_VARIANCE_INTEGRATION_REPORT.md',
               '.github/workflows/dialogue-aggressive-021-030-live.yml',
+              'scripts/apply_dialogue_ownership_semantic.py',
+              'scripts/apply_dialogue_ownership_rewrite.py',
+              'scripts/test_dialogue_ownership_rewrite.py',
           }
           changed = set(subprocess.check_output(['git','diff','--name-only','HEAD'], text=True).splitlines())
           extra = changed - allowed
