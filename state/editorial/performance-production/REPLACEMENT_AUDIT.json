@@ -1,0 +1,38 @@
+{
+  "schema": "performance_replacement_audit/v1",
+  "authority": "derived_editorial_audit",
+  "canon_authority": false,
+  "rule": "Prove replacement, reroute consumers, preserve unique residue, then retire weaker machinery. This file does not authorize deletion by itself.",
+  "candidates": [
+    {
+      "surface": "performance-lab",
+      "status": "keep_case_law",
+      "replacement_proven": false,
+      "next_evidence": "Show that structured scene and PERFORMANCE records preserve the distinct successful experiment evidence before considering route retirement."
+    },
+    {
+      "surface": "performance-roundtrip-five-file-archive",
+      "status": "keep_until_structured_equivalence",
+      "replacement_proven": false,
+      "next_evidence": "Prove structured successful-roundtrip records preserve source provenance, dramatic constraints, performance frames, screenplay evidence, comparison rationale, freshness anchors, and visual reference value."
+    },
+    {
+      "surface": "dialogue duplicate extraction",
+      "status": "audit_consumer_overlap",
+      "replacement_proven": false,
+      "next_evidence": "Trace dialogue and attribution consumers and compare their required speaker, turn, action-owner, and relationship inputs against compiler views before rerouting anything."
+    },
+    {
+      "surface": "illustration cast/prop extraction",
+      "status": "audit_consumer_overlap",
+      "replacement_proven": false,
+      "next_evidence": "Compare illustration generation inputs against the compiler illustration view and prove current visual continuity protections remain available."
+    },
+    {
+      "surface": "large editorial continuation state",
+      "status": "audit_reconstructible_mechanical_residue",
+      "replacement_proven": false,
+      "next_evidence": "Separate expensive editorial judgment from mechanically reconstructible progress, counts, anchors, and scene facts before shrinking or retiring any state file."
+    }
+  ]
+}
