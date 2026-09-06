@@ -9,13 +9,20 @@ on:
       - 'scripts/build_notebooklm_export.py'
       - 'scripts/reader_sections.py'
       - '.github/workflows/notebooklm-export.yml'
+  pull_request:
+    paths:
+      - 'state/manuscript/**'
+      - 'scripts/build_notebooklm_export.py'
+      - 'scripts/reader_sections.py'
+      - 'tests/test_manuscript_readable.py'
+      - '.github/workflows/notebooklm-export.yml'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: notebooklm-export-main
+  group: notebooklm-export-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -24,7 +31,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
           fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
@@ -52,6 +58,7 @@ jobs:
           grep -q 'CHAPTER 91' state/manuscript-readable/091-100.md
           grep -q 'CHAPTER 100' state/manuscript-readable/091-100.md
       - name: Commit refreshed generated manuscript surfaces
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
           if git diff --quiet -- exports/notebooklm state/manuscript-readable && [ -z "$(git ls-files --others --exclude-standard exports/notebooklm state/manuscript-readable)" ]; then
             echo 'Generated manuscript surfaces already current.'
