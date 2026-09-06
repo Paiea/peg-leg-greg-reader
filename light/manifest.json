@@ -1,5 +1,5 @@
 {
-  "latest": 403,
+  "latest": 404,
   "chapters": [
     {
       "number": 100,
@@ -1824,6 +1824,12 @@
       "title": "THE OBSERVER",
       "source": "checkpoint",
       "path": "403.html"
+    },
+    {
+      "number": 404,
+      "title": "THE COMPARER",
+      "source": "checkpoint",
+      "path": "404.html"
     }
   ]
 }
