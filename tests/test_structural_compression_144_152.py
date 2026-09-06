@@ -5,6 +5,8 @@ from scripts.apply_structural_compression_144_152 import (
     replace_between,
 )
 
+# This focused suite is also the execution trigger for the first compression wave.
+
 
 class StructuralCompressionHelpersTest(unittest.TestCase):
     def test_replace_between_replaces_inclusive_markers(self):
