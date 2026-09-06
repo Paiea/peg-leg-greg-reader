@@ -37,8 +37,7 @@ def action_events(p: str) -> list[tuple[int, str]]:
             continue
         if not all(outside[j] for j in range(m.start(), min(m.end(), len(outside)))):
             continue
-        owner = 'GREG' if m.group(1) == 'I' else 'OTHER'
-        events.append((m.start(), owner))
+        events.append((m.start(), base.owner_for_subject(m.group(1))))
     return events
 
 
