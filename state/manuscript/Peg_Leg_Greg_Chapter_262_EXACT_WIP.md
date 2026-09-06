@@ -1,6 +1,6 @@
 # CHAPTER 262
 
-## THE MEASURE
+## THE CONSULTANT
 
 Mara's brother arrived before I had finished breakfast.
 

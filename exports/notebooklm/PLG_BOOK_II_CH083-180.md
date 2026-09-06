@@ -32650,7 +32650,7 @@ That seemed safer.
 
 CHAPTER 117
 
-THE REPEAT
+THE REPEATER
 
 Hessa asked about my fingers before she asked about anything else.
 
@@ -35030,7 +35030,7 @@ Also good.
 
 CHAPTER 119
 
-THE SECOND ROUTE
+THE NAVIGATOR
 
 My hands were fine in the morning.
 
@@ -40232,7 +40232,7 @@ Probably.
 
 CHAPTER 123
 
-THE ERRAND
+THE COMPANION
 
 Lyssa found me buying pears.
 
@@ -41598,7 +41598,7 @@ Different problem.
 
 CHAPTER 124
 
-THE HORSE
+THE REPAIRMAN
 
 The yellow bird was still on the table in the morning. This seemed correct. I left it there. My hands were normal. Right calf normal. Residual limb quiet. Phantom foot present in the ordinary useless way, heel resting on a floor that did not exist.
 
@@ -43324,7 +43324,7 @@ I moved it six inches. Better. Current state. Continue.
 
 CHAPTER 126
 
-THE OLD ROAD
+THE OLD HAND
 
 No magic. Again. This was becoming a profession. I woke with both hands normal. Right calf normal. Residual limb quiet. Phantom foot present. No thumb. No fingers. No Hessa until tomorrow. Fine. The yellow bird was still on the table.
 
@@ -44262,7 +44262,7 @@ The bridge was gone anyway.
 
 CHAPTER 127
 
-THE REPEAT
+THE REPEATER
 
 Hessa had the same two threads. I checked. Same frame. Same glazed tile. Same copper. Same dark thread. Same spacing. Probably. I looked closer.
 
@@ -45978,7 +45978,7 @@ I laughed all the way to the street. No magic. Tomorrow Hessa. But not yet. For 
 
 CHAPTER 129
 
-THE LIMIT
+THE STUDENT
 
 The threads were gone. I noticed before I sat down. The frame was gone too. No tile. No copper beside it. No white sleeve. No gray sleeve. Hessa had a cup of tea. This was worse.
 
@@ -47652,7 +47652,7 @@ None of them mattered. I wanted to go back.
 
 CHAPTER 131
 
-THE DIRECTION
+THE SHAPER
 
 Hessa had removed the charcoal. Not from my arm. From the table. There was no charcoal stick beside the copper. No little marks waiting to become important. I noticed this before I sat down.
 
@@ -48588,7 +48588,7 @@ It was a sharper edge on the side I had been told to choose, observed by exactly
 
 CHAPTER 132
 
-THE HOUR
+THE SUITOR
 
 I wanted to see Lyssa. Again. This was less annoying than the first time. Not unannoying. Less. No magic today. Hessa had been explicit. No draw. No shaping. No direction. No sitting at a table pretending I was not practicing.
 
@@ -49638,7 +49638,7 @@ He shrugged. No offense. Good. I kept walking. The thread did not enter my head.
 
 CHAPTER 133
 
-THE OTHER WAY
+THE SHAPER
 
 Hessa had removed the charcoal. Again. I liked that. Which probably meant I had developed opinions about blank forearms. Not ideal.
 
@@ -51272,7 +51272,7 @@ Probably more. Excellent. I turned the page. How do I make this better? That was
 
 CHAPTER 135
 
-THE REPEAT
+THE REPEATER
 
 My throat was normal. Hessa checked anyway. Not because of the sword. Because Hessa checked everything.
 
@@ -52168,7 +52168,7 @@ Fine. Again.
 
 CHAPTER 136
 
-THE OLD VOICE
+THE VOICE ACTOR
 
 I had made a mistake. Not with magic. Different category. The sword. Specifically, the voice. I had thought the useful thing yesterday had happened when I stopped performing. That was wrong. Or incomplete. The useful thing had happened when I stopped performing the wrong thing.
 
@@ -52766,7 +52766,7 @@ And even if I built all of that correctly, the actor could change one beat and m
 
 CHAPTER 137
 
-THE SHAPE
+THE SHAPER
 
 Hessa had paper. Too much paper. Not notes. Separate sheets. Blank. I stopped in the doorway.
 
@@ -54316,7 +54316,7 @@ He walked away. I looked at the packet. Then at the wagon. Then east. Five days.
 
 # CHAPTER 139
 
-## THE BASELINE
+## THE SUBJECT
 
 Hessa had moved the towel. I noticed before I sat down. Not far. Perhaps two fingers toward the end of the table. I put both crutches against the wall and looked at it. Hessa was grinding something in a small stone bowl. The room smelled bitter and green, with something sharper underneath that caught in the back of my nose. Morning light came through the narrow window beside her shelves and made every suspended bit of herb dust unnecessarily visible.
 
@@ -57298,7 +57298,7 @@ I drank. Tea. Cold. Terrible. I drank again. The first wagon horse sneezed. Some
 
 # CHAPTER 143
 
-## THE STOP
+## THE PLAYER
 
 The road was awful. I was glad I had come. Both facts remained true while I stood beside the wagon drinking cold tea and waiting for my back to remember that it had not, in fact, been constructed out of curtain weights.
 
@@ -58454,7 +58454,7 @@ I laughed hard enough that my shoulders hurt. The road had been awful. The inn w
 
 # CHAPTER 144
 
-## THE STABLE
+## THE LODGER
 
 The stable was better than the inn. This was not praise. It was larger. The roof did not leak in any place I could immediately identify. The floor was packed earth with straw over it, and the horses occupied stalls along one wall behind wooden partitions polished by years of rubbing shoulders and teeth against them. It smelled exactly like a stable. Strongly. Marek stood in the middle aisle with his hands on his hips.
 
@@ -59548,7 +59548,7 @@ Pell swore. He got up. Neither Teren nor Marek looked at me. Good. They went out
 
 # CHAPTER 145
 
-## THE ARRIVAL
+## THE PASSENGER
 
 I woke to someone saying, "No." Not loudly. Firmly. The kind of no that had already been said several times. I opened my eyes. Gray morning light came through the stable door. My shoulder hurt because folded clothing was not a pillow no matter how carefully I arranged it. Straw had found its way inside my shirt. One horse was chewing. The voice came from outside.
 
@@ -61130,7 +61130,7 @@ Three seconds. Enough. I went to work.
 
 # CHAPTER 147
 
-## THE REHEARSAL
+## THE PLAYER
 
 I went to work. Then I missed my entrance. Not by much. Enough. Iven was onstage being poor at paying debts when my cue came through the opening in the wall. Clear. Perfectly clear. I heard it. I knew it. I waited because in Carrow there had been another line before mine. There was not another line here. Teren had cut it ten minutes earlier while I was eating bread. Iven waited. The hall waited. I realized. I moved. Too fast. My right crutch hit the edge of the wing.
 
@@ -61852,7 +61852,7 @@ I took the bread she offered. Then I went outside. For the first time since arri
 
 # CHAPTER 148
 
-## THE ROOF
+## THE SIGHTSEER
 
 I turned left. This immediately became difficult because left contained a cart. The cart contained cabbages. A man was unloading them directly into a shop while another man stood in the street objecting to the location of the horse.
 
@@ -64062,7 +64062,7 @@ I smiled. Then listened.
 
 # CHAPTER 151
 
-## THE SHOW
+## THE PLAYER
 
 Then listened. Serra's line came. Not the line I expected. Close enough that I knew where we were. Different enough that I nearly answered the old one. I waited. One beat. Not for laughter. For her. She said, "And if I decide you're more trouble than you're worth?" My cue.
 
@@ -64520,7 +64520,7 @@ She pointed. I took it. Apparently celebration was later. I went to find Pell.
 
 # CHAPTER 152
 
-## THE SECOND SHOW
+## THE PLAYER
 
 Pell was under a table. I found his boots first.
 
@@ -64988,7 +64988,7 @@ I laughed. Then followed him. Celebration, apparently, had arrived.
 
 # CHAPTER 153
 
-## THE MONEY
+## THE EARNER
 
 The first tavern was full. Marek opened the door, looked inside, and said, "No."
 
@@ -66500,7 +66500,7 @@ He slept. I laughed. Then looked north. Another town. Maybe another show. Maybe 
 
 # CHAPTER 155
 
-## THE LEAK
+## THE TROUBLESHOOTER
 
 The rain improved. By improved, I mean it stopped hitting me in the face. It continued hitting everything else. We came over the ridge near evening with the wagon wheels cutting dark lines through the road and water running in the ditches on both sides. The northern country opened below us in wet fields, low walls, and trees bent by wind. Somewhere beyond them sat the town. Marek woke. He looked at the sky.
 
@@ -69022,7 +69022,7 @@ Apparently the Advocate was only one of my problems.
 
 # CHAPTER 157
 
-## THE TABLE
+## THE PLAYER
 
 There were three tables.
 
@@ -80292,7 +80292,7 @@ That was probably how it happened.
 
 # CHAPTER 165
 
-## THE DRAW
+## THE PLAYER
 
 A cow woke me by objecting to commerce.
 

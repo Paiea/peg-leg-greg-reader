@@ -1632,7 +1632,7 @@ Apparently the Advocate was only one of my problems.
 
 # CHAPTER 157
 
-## THE TABLE
+## THE PLAYER
 
 There were three tables.
 
@@ -12902,7 +12902,7 @@ That was probably how it happened.
 
 # CHAPTER 165
 
-## THE DRAW
+## THE PLAYER
 
 A cow woke me by objecting to commerce.
 
@@ -43112,7 +43112,7 @@ That was enough work for one day.
 
 # CHAPTER 190
 
-## THE MEASURE
+## THE SUBJECT
 
 Lyssa was gone before I finished changing Hessa's note.
 

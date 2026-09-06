@@ -1,6 +1,6 @@
 # CHAPTER 280
 
-## THE REPEAT
+## THE REPEATER
 
 Hessa's note arrived inside a cabbage leaf.
 

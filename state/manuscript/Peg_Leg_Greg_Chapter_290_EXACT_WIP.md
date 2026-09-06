@@ -1,6 +1,6 @@
 # CHAPTER 290
 
-## THE RAIN SHELF
+## THE COMPANION
 
 It rained before breakfast.
 

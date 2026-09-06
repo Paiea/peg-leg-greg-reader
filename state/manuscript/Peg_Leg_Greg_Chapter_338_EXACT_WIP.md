@@ -1,6 +1,6 @@
 # CHAPTER 338
 
-## THE PUBLIC COUNTER
+## THE BROWSER
 
 I arrived after first bell with the black chit in my bag and no idea what it was for.
 

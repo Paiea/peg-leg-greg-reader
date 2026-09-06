@@ -1,6 +1,6 @@
 # CHAPTER 342
 
-## THE HOUSE LINE
+## THE PLAYER
 
 The theatre finally offered me money.
 

@@ -1,6 +1,6 @@
 # CHAPTER 336
 
-## THE BID LINE
+## THE SPECTATOR
 
 I arrived at Warehouse Twelve with two copper and the emotional confidence of a man attending an auction he could not influence.
 

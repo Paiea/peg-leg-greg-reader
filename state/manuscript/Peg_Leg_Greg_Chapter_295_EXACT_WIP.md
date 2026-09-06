@@ -1,6 +1,6 @@
 # CHAPTER 295
 
-## THE OPEN SEAT
+## THE PLAYER
 
 The first person to offer me a chair in Carrow did it because somebody else had abandoned it.
 

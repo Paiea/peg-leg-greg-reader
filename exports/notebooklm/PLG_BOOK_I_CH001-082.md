@@ -2680,7 +2680,7 @@ I had never known this version. And I had remembered his name anyway. Through fo
 
 Arlo. Antonius. Maybe half the world. I knew what some of them became. Tomorrow Antonius was giving me a storeroom. One room. One shitty job. I felt my mind settle around it already. I hated that. Then I started wondering what was in the storeroom. Worse.
 
-CHAPTER SEVENTHE OWNER
+CHAPTER SEVENTHE BUYER
 
 Antonius was already cleaning when I arrived. This was sufficiently wrong that I stopped in the doorway. He had his sleeves rolled to the elbows, a rag over one shoulder, and a wooden crate in his hands. Dust covered one side of his trousers. There was a streak of something black across his wrist. He looked at me.
 
@@ -4752,7 +4752,7 @@ I stared.
 
 Crossed out the extra R again. Then went to bed.
 
-CHAPTER NINETHE LENDER
+CHAPTER NINETHE UNDERWRITER
 
 Antonius did not explain what we were doing. I asked before breakfast.
 
@@ -42418,6 +42418,8 @@ He left toward the yard. I went home. The regulator stayed at Arlo's. The sinkst
 
 CHAPTER FIFTY-ONE
 
+THE SIGNALMAN
+
 The blister was worse in the morning. Not dramatically. It had simply become more interested in existing. I found it while buttoning my shirt. A tender spot at the base of my thumb, skin lifted and pale at the edge. I pressed it once. Bad decision. I stopped pressing it.
 
 The rest of me was better. Ribs quiet. Legs good. Channels quiet. No headache. No strange pressure behind the eyes. That was enough to make me suspicious of the day. I ate bread, cheese, and an apple that had been cut yesterday and had therefore lost most of its enthusiasm. Then I looked at the regulator sitting on my table. I had not brought it home.
@@ -54025,7 +54027,7 @@ Fuck Hessa. I slept. Woke. Slept. Woke. At some point the room was black except 
 
 Real. Mine. I did not calculate what came next. I did not design anything. I did not decide who I would become. I was tired. My leg hurt. My foot hurt. I needed to piss again. That was enough future for one night.
 
-CHAPTER SIXTY-SIXTHE ABSENT
+CHAPTER SIXTY-SIXTHE CONVALESCENT
 
 The first thing I did wrong was stand up. Not fully. Sera would later insist this distinction mattered. I disagreed. Nerin put the chair beside the bed after breakfast. I moved to the edge. Right foot on floor. Hands on mattress. Left foot also on floor. Except no. My body sent the instruction. My left hip shifted. My knee moved.
 

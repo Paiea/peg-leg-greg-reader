@@ -1,6 +1,6 @@
 # CHAPTER 265
 
-## THE CONTROL
+## THE SUBJECT
 
 Hessa's note arrived while I was eating yesterday's bakery bread.
 

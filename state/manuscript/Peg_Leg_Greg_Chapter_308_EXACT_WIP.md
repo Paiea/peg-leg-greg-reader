@@ -1,6 +1,6 @@
 # CHAPTER 308
 
-## THE DEBT HOUR
+## THE DEBTOR
 
 The note arrived while I was eating the last of yesterday's bread.
 

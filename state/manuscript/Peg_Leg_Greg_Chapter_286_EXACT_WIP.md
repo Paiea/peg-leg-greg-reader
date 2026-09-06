@@ -1,6 +1,6 @@
 # CHAPTER 286
 
-## THE WARM WALL
+## THE INSPECTOR
 
 Cala's help turned out to be moving a shelf.
 

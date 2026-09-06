@@ -1,6 +1,6 @@
 # CHAPTER 302
 
-## THE LOW LAMPS
+## THE COMPANION
 
 Lyssa asked me to go for a walk after I had already decided not to.
 

@@ -1,6 +1,6 @@
 # CHAPTER 316
 
-## THE EAST SEAT
+## THE PASSENGER
 
 Sevren arrived with a seat and terrible timing.
 

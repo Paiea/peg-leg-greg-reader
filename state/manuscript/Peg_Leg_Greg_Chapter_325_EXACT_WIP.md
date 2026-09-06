@@ -1,6 +1,6 @@
 # CHAPTER 325
 
-## THE NIGHT LINE
+## THE LINE HAND
 
 The job paid two copper because nobody wanted to stand in the square after dark and tell strangers where not to stand.
 

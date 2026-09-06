@@ -1,6 +1,6 @@
 # CHAPTER 345
 
-## THE BENCH
+## THE CLIENT
 
 I paid Mara two copper because I had finally reached the dangerous financial condition known as having enough money to ask a question properly.
 

@@ -1,6 +1,6 @@
 # CHAPTER 296
 
-## THE HELD NOTE
+## THE SINGER
 
 The song reached me before the people did.
 

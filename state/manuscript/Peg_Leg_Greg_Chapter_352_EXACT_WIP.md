@@ -1,6 +1,6 @@
 # CHAPTER 352
 
-## THE COUNT
+## THE COUNTER
 
 Money came the next morning.
 

@@ -1,6 +1,6 @@
 # CHAPTER 283
 
-## THE WHOLESALE DOOR
+## THE BUYER
 
 The next morning I went looking for paper and accidentally found economics.
 

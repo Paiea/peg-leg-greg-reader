@@ -1,6 +1,6 @@
 # CHAPTER 335
 
-## THE BLUE HARNESS
+## THE ASPIRANT
 
 The first thing I wanted badly enough to become ambitious about cost twenty-six copper.
 
