@@ -1,0 +1,78 @@
+name: Apply dialogue ownership hotfix through Chapter 14
+
+on:
+  push:
+    branches:
+      - editor/dialogue-ownership-pass
+    paths:
+      - '.github/workflows/dialogue-ownership-hotfix.yml'
+      - 'scripts/apply_dialogue_ownership_patches.py'
+      - 'tests/test_apply_dialogue_ownership_patches.py'
+      - 'state/editorial/dialogue-ownership-pass/PATCHES_001_014.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dialogue-ownership-hotfix-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: editor/dialogue-ownership-pass
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify exact patch applicator
+        run: python -m unittest tests.test_apply_dialogue_ownership_patches -v
+      - name: Apply reviewed hotfix manifest
+        run: >-
+          python scripts/apply_dialogue_ownership_patches.py
+          --manifest state/editorial/dialogue-ownership-pass/PATCHES_001_014.json
+          --chapters-dir chapters
+      - name: Verify patch boundary
+        run: |
+          git diff --check
+          bad="$(git diff --name-only | grep -Ev '^chapters/(002|003|004|005|007|009|010|011|013)\.html$' || true)"
+          if [ -n "$bad" ]; then
+            echo 'Unexpected changed files:'
+            echo "$bad"
+            exit 1
+          fi
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          for n in (2,3,4,5,7,9,10,11,13):
+              text = Path(f'chapters/{n:03d}.html').read_text(encoding='utf-8')
+              m = re.search(r'<article\s+class=["\'][^"\']*\bprose\b[^"\']*["\'][^>]*>(.*?)</article>', text, re.S | re.I)
+              if not m:
+                  raise SystemExit(f'missing prose article: {n}')
+              plain = re.sub(r'<[^>]+>', '', m.group(1))
+              if '—' in plain:
+                  raise SystemExit(f'em dash introduced in prose: {n}')
+          ch3 = Path('chapters/003.html').read_text(encoding='utf-8')
+          bad_block = '<p>"What?" Antonius asked.</p><p>"Nothing," I said.</p><p>"You keep looking at me," Antonius said.</p>'
+          if bad_block in ch3:
+              raise SystemExit('stale Antonius workshop block survived Chapter 3 repair')
+          if '<p>"What?" I asked.</p><p>"Nothing," Arlo said.</p>' not in ch3:
+              raise SystemExit('restored Arlo workshop exchange missing')
+          print('dialogue ownership hotfix verification passed')
+          PY
+      - name: Commit reader hotfix
+        run: |
+          if git diff --quiet -- chapters; then
+            echo 'Hotfix already applied.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add chapters/002.html chapters/003.html chapters/004.html chapters/005.html chapters/007.html chapters/009.html chapters/010.html chapters/011.html chapters/013.html
+          git commit -m 'reader: clarify dialogue ownership through chapter 14'
+          git pull --rebase origin editor/dialogue-ownership-pass
+          git push origin HEAD:editor/dialogue-ownership-pass
