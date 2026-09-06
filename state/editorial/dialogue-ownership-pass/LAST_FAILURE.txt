@@ -1,15 +1,18 @@
 Canon frontier: 491
 === DIALOGUE OWNERSHIP BATCH 1-25 ===
 Traceback (most recent call last):
-  File "/home/runner/work/peg-leg-greg-reader/peg-leg-greg-reader/scripts/apply_dialogue_ownership_novel.py", line 240, in <module>
+  File "/home/runner/work/peg-leg-greg-reader/peg-leg-greg-reader/scripts/apply_dialogue_ownership_novel.py", line 253, in <module>
     raise SystemExit(main())
                      ^^^^^^
-  File "/home/runner/work/peg-leg-greg-reader/peg-leg-greg-reader/scripts/apply_dialogue_ownership_novel.py", line 226, in main
+  File "/home/runner/work/peg-leg-greg-reader/peg-leg-greg-reader/scripts/apply_dialogue_ownership_novel.py", line 239, in main
     changed, splits, frontier = apply_range(args.start, end)
                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/peg-leg-greg-reader/peg-leg-greg-reader/scripts/apply_dialogue_ownership_novel.py", line 203, in apply_range
+  File "/home/runner/work/peg-leg-greg-reader/peg-leg-greg-reader/scripts/apply_dialogue_ownership_novel.py", line 216, in apply_range
     did_change, splits = transform_html(path)
                          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/peg-leg-greg-reader/peg-leg-greg-reader/scripts/apply_dialogue_ownership_novel.py", line 109, in transform_html
-    raise ValueError(f"prose text changed while splitting {path}")
-ValueError: prose text changed while splitting /home/runner/work/peg-leg-greg-reader/peg-leg-greg-reader/chapters/023.html
+  File "/home/runner/work/peg-leg-greg-reader/peg-leg-greg-reader/scripts/apply_dialogue_ownership_novel.py", line 118, in transform_html
+    body_after = P_RE.sub(replace_paragraph, body_before)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/peg-leg-greg-reader/peg-leg-greg-reader/scripts/apply_dialogue_ownership_novel.py", line 105, in replace_paragraph
+    raise ValueError(
+ValueError: paragraph text changed while splitting /home/runner/work/peg-leg-greg-reader/peg-leg-greg-reader/chapters/023.html: before='ring the bell and bar the hall...” Different words. Same four notes. I listened. Nothing came back. No future memory. No revelation. Just a new song being born badly. Alden said, “Tomorrow?” He did not mean training. I looked at the blank line.' after_parts=['ring the bell and bar the hall. . . ” Different words. Same four notes.', 'I listened. Nothing came back. No future memory. No revelation. Just a new song being born badly.', 'Alden said, “Tomorrow?” He did not mean training.', 'I looked at the blank line.']
