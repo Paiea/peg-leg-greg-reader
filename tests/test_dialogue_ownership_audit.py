@@ -7,7 +7,11 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from audit_dialogue_ownership import audit_chapters, extract_prose_paragraphs
+from audit_dialogue_ownership import (
+    audit_chapters,
+    build_full_review_markdown,
+    extract_prose_paragraphs,
+)
 
 
 class DialogueOwnershipAuditTests(unittest.TestCase):
@@ -101,6 +105,36 @@ class DialogueOwnershipAuditTests(unittest.TestCase):
             self.assertEqual(item["current"], '"Doing what?" Rusk pointed at the sack.')
             self.assertEqual(item["following"], "Following context.")
             self.assertTrue(item["fingerprint"])
+
+    def test_full_review_packet_includes_every_paragraph_not_only_candidates(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            chapters = root / "chapters"
+            chapters.mkdir()
+            (chapters / "001.html").write_text(
+                '<article class="prose">'
+                '<p>Quiet narration.</p>'
+                '<p>"Hello."</p>'
+                '<p>He looked at me.</p>'
+                '</article>',
+                encoding="utf-8",
+            )
+            (chapters / "002.html").write_text(
+                '<article class="prose">'
+                '<p>Second chapter.</p>'
+                '</article>',
+                encoding="utf-8",
+            )
+
+            packet = build_full_review_markdown(root, start=1, end=2)
+
+            self.assertIn("## Canon Chapter 001", packet)
+            self.assertIn("P0001 | Quiet narration.", packet)
+            self.assertIn('P0002 | "Hello."', packet)
+            self.assertIn("P0003 | He looked at me.", packet)
+            self.assertIn("## Canon Chapter 002", packet)
+            self.assertIn("P0001 | Second chapter.", packet)
+            self.assertLess(packet.index("Quiet narration."), packet.index("Second chapter."))
 
 
 if __name__ == "__main__":
