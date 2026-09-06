@@ -2,7 +2,7 @@
   "schema_version": 1,
   "audit_version": 1,
   "chapter_count": 445,
-  "median_word_count": 2735,
+  "median_word_count": 2707,
   "chapter_metrics": [
     {
       "chapter": 1,
@@ -362,13 +362,13 @@
       "chapter": 60,
       "chapter_id": "plg-ch-000060",
       "title": "Chapter 60",
-      "word_count": 2496
+      "word_count": 2207
     },
     {
       "chapter": 61,
       "chapter_id": "plg-ch-000061",
       "title": "Chapter 61",
-      "word_count": 3016
+      "word_count": 2762
     },
     {
       "chapter": 62,
@@ -452,13 +452,13 @@
       "chapter": 75,
       "chapter_id": "plg-ch-000075",
       "title": "Chapter 75",
-      "word_count": 3647
+      "word_count": 3313
     },
     {
       "chapter": 76,
       "chapter_id": "plg-ch-000076",
       "title": "Chapter 76",
-      "word_count": 3463
+      "word_count": 3348
     },
     {
       "chapter": 77,
@@ -866,25 +866,25 @@
       "chapter": 144,
       "chapter_id": "plg-ch-000144",
       "title": "Chapter 144",
-      "word_count": 4039
+      "word_count": 3893
     },
     {
       "chapter": 145,
       "chapter_id": "plg-ch-000145",
       "title": "Chapter 145",
-      "word_count": 3112
+      "word_count": 3021
     },
     {
       "chapter": 146,
       "chapter_id": "plg-ch-000146",
       "title": "Chapter 146",
-      "word_count": 2833
+      "word_count": 2408
     },
     {
       "chapter": 147,
       "chapter_id": "plg-ch-000147",
       "title": "Chapter 147",
-      "word_count": 2781
+      "word_count": 2457
     },
     {
       "chapter": 148,
@@ -896,25 +896,25 @@
       "chapter": 149,
       "chapter_id": "plg-ch-000149",
       "title": "Chapter 149",
-      "word_count": 3434
+      "word_count": 3570
     },
     {
       "chapter": 150,
       "chapter_id": "plg-ch-000150",
       "title": "Chapter 150",
-      "word_count": 2410
+      "word_count": 47
     },
     {
       "chapter": 151,
       "chapter_id": "plg-ch-000151",
       "title": "Chapter 151",
-      "word_count": 2126
+      "word_count": 2043
     },
     {
       "chapter": 152,
       "chapter_id": "plg-ch-000152",
       "title": "Chapter 152",
-      "word_count": 2368
+      "word_count": 1665
     },
     {
       "chapter": 153,
@@ -1100,13 +1100,13 @@
       "chapter": 183,
       "chapter_id": "plg-ch-000183",
       "title": "Chapter 183",
-      "word_count": 2892
+      "word_count": 2335
     },
     {
       "chapter": 184,
       "chapter_id": "plg-ch-000184",
       "title": "Chapter 184",
-      "word_count": 2594
+      "word_count": 1888
     },
     {
       "chapter": 185,
@@ -1184,13 +1184,13 @@
       "chapter": 197,
       "chapter_id": "plg-ch-000197",
       "title": "Chapter 197",
-      "word_count": 2733
+      "word_count": 1891
     },
     {
       "chapter": 198,
       "chapter_id": "plg-ch-000198",
       "title": "Chapter 198",
-      "word_count": 3470
+      "word_count": 2835
     },
     {
       "chapter": 199,
@@ -1250,37 +1250,37 @@
       "chapter": 208,
       "chapter_id": "plg-ch-000208",
       "title": "Chapter 208",
-      "word_count": 2843
+      "word_count": 2388
     },
     {
       "chapter": 209,
       "chapter_id": "plg-ch-000209",
       "title": "Chapter 209",
-      "word_count": 2702
+      "word_count": 2484
     },
     {
       "chapter": 210,
       "chapter_id": "plg-ch-000210",
       "title": "Chapter 210",
-      "word_count": 2636
+      "word_count": 2299
     },
     {
       "chapter": 211,
       "chapter_id": "plg-ch-000211",
       "title": "Chapter 211",
-      "word_count": 2540
+      "word_count": 2495
     },
     {
       "chapter": 212,
       "chapter_id": "plg-ch-000212",
       "title": "Chapter 212",
-      "word_count": 2550
+      "word_count": 19
     },
     {
       "chapter": 213,
       "chapter_id": "plg-ch-000213",
       "title": "Chapter 213",
-      "word_count": 2939
+      "word_count": 2436
     },
     {
       "chapter": 214,
@@ -1502,13 +1502,13 @@
       "chapter": 250,
       "chapter_id": "plg-ch-000250",
       "title": "Chapter 250",
-      "word_count": 3489
+      "word_count": 3406
     },
     {
       "chapter": 251,
       "chapter_id": "plg-ch-000251",
       "title": "Chapter 251",
-      "word_count": 2912
+      "word_count": 2545
     },
     {
       "chapter": 252,
@@ -2687,27 +2687,27 @@
         "Chapter 75",
         "Chapter 76"
       ],
-      "score": 0.6596,
-      "mean_length_vs_median": 1.3,
+      "score": 0.6269,
+      "mean_length_vs_median": 1.23,
       "suggested_action": "TIGHTEN_REVIEW",
       "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
       "rank": 1,
       "confidence": "LOW"
     },
     {
-      "start_chapter": 60,
-      "end_chapter": 61,
+      "start_chapter": 159,
+      "end_chapter": 160,
       "chapter_ids": [
-        "plg-ch-000060",
-        "plg-ch-000061"
+        "plg-ch-000159",
+        "plg-ch-000160"
       ],
       "titles": [
-        "Chapter 60",
-        "Chapter 61"
+        "Chapter 159",
+        "Chapter 160"
       ],
-      "score": 0.6143,
-      "mean_length_vs_median": 1.008,
-      "suggested_action": "REVIEW",
+      "score": 0.6044,
+      "mean_length_vs_median": 1.185,
+      "suggested_action": "TIGHTEN_REVIEW",
       "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
       "rank": 2,
       "confidence": "LOW"
@@ -2723,29 +2723,11 @@
         "Chapter 250",
         "Chapter 251"
       ],
-      "score": 0.6055,
-      "mean_length_vs_median": 1.17,
-      "suggested_action": "TIGHTEN_REVIEW",
+      "score": 0.6007,
+      "mean_length_vs_median": 1.099,
+      "suggested_action": "REVIEW",
       "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
       "rank": 3,
-      "confidence": "LOW"
-    },
-    {
-      "start_chapter": 159,
-      "end_chapter": 160,
-      "chapter_ids": [
-        "plg-ch-000159",
-        "plg-ch-000160"
-      ],
-      "titles": [
-        "Chapter 159",
-        "Chapter 160"
-      ],
-      "score": 0.6044,
-      "mean_length_vs_median": 1.173,
-      "suggested_action": "TIGHTEN_REVIEW",
-      "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
-      "rank": 4,
       "confidence": "LOW"
     },
     {
@@ -2760,7 +2742,25 @@
         "Chapter 328"
       ],
       "score": 0.5986,
-      "mean_length_vs_median": 0.933,
+      "mean_length_vs_median": 0.942,
+      "suggested_action": "REVIEW",
+      "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
+      "rank": 4,
+      "confidence": "LOW"
+    },
+    {
+      "start_chapter": 60,
+      "end_chapter": 61,
+      "chapter_ids": [
+        "plg-ch-000060",
+        "plg-ch-000061"
+      ],
+      "titles": [
+        "Chapter 60",
+        "Chapter 61"
+      ],
+      "score": 0.5977,
+      "mean_length_vs_median": 0.918,
       "suggested_action": "REVIEW",
       "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
       "rank": 5,
@@ -2777,29 +2777,11 @@
         "Chapter 151",
         "Chapter 152"
       ],
-      "score": 0.5881,
-      "mean_length_vs_median": 0.822,
+      "score": 0.5822,
+      "mean_length_vs_median": 0.685,
       "suggested_action": "REVIEW",
       "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
       "rank": 6,
-      "confidence": "LOW"
-    },
-    {
-      "start_chapter": 207,
-      "end_chapter": 208,
-      "chapter_ids": [
-        "plg-ch-000207",
-        "plg-ch-000208"
-      ],
-      "titles": [
-        "Chapter 207",
-        "Chapter 208"
-      ],
-      "score": 0.586,
-      "mean_length_vs_median": 1.121,
-      "suggested_action": "REVIEW",
-      "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
-      "rank": 7,
       "confidence": "LOW"
     },
     {
@@ -2814,28 +2796,10 @@
         "Chapter 162"
       ],
       "score": 0.5799,
-      "mean_length_vs_median": 1.234,
+      "mean_length_vs_median": 1.247,
       "suggested_action": "REVIEW",
       "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
-      "rank": 8,
-      "confidence": "LOW"
-    },
-    {
-      "start_chapter": 197,
-      "end_chapter": 198,
-      "chapter_ids": [
-        "plg-ch-000197",
-        "plg-ch-000198"
-      ],
-      "titles": [
-        "Chapter 197",
-        "Chapter 198"
-      ],
-      "score": 0.5795,
-      "mean_length_vs_median": 1.134,
-      "suggested_action": "REVIEW",
-      "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
-      "rank": 9,
+      "rank": 7,
       "confidence": "LOW"
     },
     {
@@ -2849,29 +2813,29 @@
         "Chapter 144",
         "Chapter 145"
       ],
-      "score": 0.572,
-      "mean_length_vs_median": 1.307,
+      "score": 0.5665,
+      "mean_length_vs_median": 1.277,
       "suggested_action": "REVIEW",
       "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
-      "rank": 10,
+      "rank": 8,
       "confidence": "LOW"
     },
     {
-      "start_chapter": 149,
-      "end_chapter": 150,
+      "start_chapter": 207,
+      "end_chapter": 208,
       "chapter_ids": [
-        "plg-ch-000149",
-        "plg-ch-000150"
+        "plg-ch-000207",
+        "plg-ch-000208"
       ],
       "titles": [
-        "Chapter 149",
-        "Chapter 150"
+        "Chapter 207",
+        "Chapter 208"
       ],
-      "score": 0.5688,
-      "mean_length_vs_median": 1.068,
+      "score": 0.5611,
+      "mean_length_vs_median": 1.049,
       "suggested_action": "REVIEW",
       "reason": "Adjacent chapters share unusually similar vocabulary/scene-language. Human review must determine whether they repeat dramatic function or merely share setting/arc texture.",
-      "rank": 11,
+      "rank": 9,
       "confidence": "LOW"
     }
   ],
