@@ -108,6 +108,9 @@ Do not force chapters or conversations into clean morals, symmetrical conclusion
 ### Mechanical AI cadence
 Resist repeated fragment stacks, perfect rhetorical reversals, suspiciously balanced dialogue, everyone being equally witty, and identical chapter architecture. Use intentional variation rather than texture-by-formula.
 
+### Mixed-owner dialogue paragraphs
+Do not let one speaker's paragraph silently accumulate another character's action, reaction, interior beat, or intervention before returning to the original speaker. Build dialogue-bearing scenes from character-owned beats and normally split when dramatic ownership changes. Same-owner speech and action may stay together. The target is clear ownership, not one-sentence-paragraph formatting.
+
 ### Research dump / procedure fetish
 Research should change behavior, mistakes, objects, timing, hierarchy, shorthand, or consequences. Do not paste interesting procedure into prose after the story-relevant effect is already clear.
 
