@@ -17,6 +17,7 @@ WORKFLOW = ROOT / ".github/workflows/dialogue-attribution-live.yml"
 
 class DialoguePublishBoundaryTests(unittest.TestCase):
     # Dialogue ownership regression tests intentionally live in this workflow-covered module.
+    # The workflow runs unittest discovery, so the dedicated ownership audit tests run too.
     def test_live_workflow_keeps_recovered_promotion_at_201_and_illustrated_at_320(self):
         text = WORKFLOW.read_text(encoding="utf-8")
         self.assertIn("promote_recovered_dialogue.py 164-167", text)
