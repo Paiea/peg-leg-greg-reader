@@ -51,36 +51,52 @@ def infer_speakers(paras: list[str]) -> list[tuple[str | None, int | None]]:
     return result
 
 
-def outside_quote_mask(p: str) -> tuple[str, list[int]]:
-    chars = list(p)
-    quote_ends = []
+def quote_map(p: str) -> tuple[list[bool], list[int]]:
+    """Return outside-quote flags and positions immediately after closing quotes."""
+    outside = [True] * len(p)
+    closing_starts: list[int] = []
     inside = False
-    for i, ch in enumerate(chars):
+    for i, ch in enumerate(p):
         if ch == '"':
             if inside:
-                quote_ends.append(i + 1)
+                closing_starts.append(i + 1)
             inside = not inside
-            continue
-        if inside:
-            chars[i] = ' '
-    return ''.join(chars), quote_ends
+            outside[i] = True
+        else:
+            outside[i] = not inside
+    return outside, closing_starts
+
+
+def next_nonspace(p: str, pos: int) -> int:
+    while pos < len(p) and p[pos].isspace():
+        pos += 1
+    return pos
 
 
 def action_events(p: str) -> list[tuple[int, str]]:
-    masked, quote_ends = outside_quote_mask(p)
+    outside, closing_starts = quote_map(p)
     starts = {0}
-    for m in re.finditer(r'[.!?]\s+', masked):
-        starts.add(m.end())
-    for qend in quote_ends:
-        j = qend
-        while j < len(masked) and masked[j].isspace():
-            j += 1
-        starts.add(j)
-    events = []
+
+    # A new narrative sentence outside dialogue can begin a new owner beat.
+    for i, ch in enumerate(p):
+        if ch in '.!?' and outside[i]:
+            starts.add(next_nonspace(p, i + 1))
+
+    # A beat immediately after a closing quote must also be considered even
+    # when the punctuation that ended the spoken sentence was inside the quote.
+    for pos in closing_starts:
+        starts.add(next_nonspace(p, pos))
+
     subj_re = re.compile(rf'(I|He|She|They|[A-Z][a-z]+)\s+({ACTION})\b')
+    events: list[tuple[int, str]] = []
     for pos in sorted(starts):
-        m = subj_re.match(masked, pos)
+        if pos >= len(p) or not outside[pos]:
+            continue
+        m = subj_re.match(p, pos)
         if not m:
+            continue
+        # The whole matched action starter must be outside dialogue.
+        if not all(outside[j] for j in range(m.start(), min(m.end(), len(outside)))):
             continue
         owner = 'GREG' if m.group(1) == 'I' else 'OTHER'
         events.append((m.start(), owner))
@@ -117,11 +133,11 @@ def transform_paragraph(p: str, speaker: str | None, anchor: int | None) -> tupl
 
 
 def transform_html(text: str) -> tuple[str, int]:
-    paras = PARA_RE.findall(text.split('<article class="prose">', 1)[1].split('</article>', 1)[0])
+    article = text.split('<article class="prose">', 1)[1].split('</article>', 1)[0]
+    paras = PARA_RE.findall(article)
     inferred = infer_speakers(paras)
     transformed = text
     total = 0
-    # Exact paragraph strings are unique enough in these files; replace in source order once.
     for p, (sp, anchor) in zip(paras, inferred):
         new, count = transform_paragraph(p, sp, anchor)
         if count:
@@ -157,7 +173,8 @@ def main() -> int:
     touched = []
     for n in range(args.start, args.end + 1):
         path = Path('chapters') / f'{n:03d}.html'
-        text = path.read_text(encoding='utf-8')
+        original = path.read_text(encoding='utf-8')
+        text = original
         if n == 3 and STALE_ARLO_BLOCK_OLD in text:
             text = text.replace(STALE_ARLO_BLOCK_OLD, STALE_ARLO_BLOCK_NEW, 1)
         if n == 1:
@@ -166,7 +183,7 @@ def main() -> int:
             if old in text:
                 text = text.replace(old, new, 1)
         new_text, count = transform_html(text)
-        if new_text != path.read_text(encoding='utf-8'):
+        if new_text != original:
             path.write_text(new_text, encoding='utf-8')
             touched.append((n, count))
             total += count
