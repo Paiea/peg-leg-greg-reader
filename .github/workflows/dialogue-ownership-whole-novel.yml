@@ -38,24 +38,41 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
       - name: Apply canon in 25-chapter batches
         run: |
-          frontier="$(python - <<'PY'
+          set +e
+          (
+            set -e
+            frontier="$(python - <<'PY'
           from scripts.apply_dialogue_ownership_novel import active_source_map
           print(max(active_source_map()))
           PY
-          )"
-          echo "Canon frontier: ${frontier}"
-          start=1
-          while [ "$start" -le "$frontier" ]; do
-            end=$((start + 24))
-            if [ "$end" -gt "$frontier" ]; then end="$frontier"; fi
-            python scripts/apply_dialogue_ownership_novel.py --start "$start" --end "$end"
-            git diff --check
-            git add chapters state/manuscript
-            if ! git diff --cached --quiet; then
-              git commit -m "Dialogue ownership chapters ${start}-${end}"
-            fi
-            start=$((end + 1))
-          done
+            )"
+            echo "Canon frontier: ${frontier}"
+            start=1
+            while [ "$start" -le "$frontier" ]; do
+              end=$((start + 24))
+              if [ "$end" -gt "$frontier" ]; then end="$frontier"; fi
+              echo "=== DIALOGUE OWNERSHIP BATCH ${start}-${end} ==="
+              python scripts/apply_dialogue_ownership_novel.py --start "$start" --end "$end"
+              git diff --check
+              git add chapters state/manuscript
+              if ! git diff --cached --quiet; then
+                git commit -m "Dialogue ownership chapters ${start}-${end}"
+              fi
+              start=$((end + 1))
+            done
+          ) 2>&1 | tee /tmp/dialogue-ownership-batch.log
+          status=${PIPESTATUS[0]}
+          set -e
+          if [ "$status" -ne 0 ]; then
+            cp /tmp/dialogue-ownership-batch.log /tmp/dialogue-ownership-failure.log
+            git reset --hard "$GITHUB_SHA"
+            mkdir -p state/editorial/dialogue-ownership-pass
+            cp /tmp/dialogue-ownership-failure.log state/editorial/dialogue-ownership-pass/LAST_FAILURE.txt
+            git add state/editorial/dialogue-ownership-pass/LAST_FAILURE.txt
+            git commit -m 'Record dialogue ownership batch failure'
+            git push origin HEAD:${{ github.ref_name }}
+            exit "$status"
+          fi
       - name: Promote Book 1 reader polish to canonical DOCX
         run: |
           python scripts/promote_book1_polish.py 1-82
