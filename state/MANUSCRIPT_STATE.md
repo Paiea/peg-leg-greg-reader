@@ -1,8 +1,8 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 478 - **THE CORRESPONDENT**.
-- Exact Chapters 249-478 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
+- Current exact story endpoint: Chapter 479 - **THE HOMECOMER**.
+- Exact Chapters 249-479 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
 - Permanent running-manuscript consolidation still has known integration debt; do not reconstruct missing exact text from summaries.
 
 ## Active correction overlays
@@ -20,104 +20,109 @@ Before any new named character: check `BOOK1_NAME_REGISTRY_CH82.md` and current 
 - Ch475 proves Greg can create value by coordinating specialists without stealing their expertise.
 - Ch476 proves artifact markets can outrun Greg's safe deployable capital and that losing a good object can be correct.
 - Ch477 proves Greg can pay normal travel cost when time/body/location value justify it and closes the first East Fen/Lakeward brokerage fee.
-- Ch478 shifts toward belonging/relationship residue: Lyssa's independent life continues while Greg is away, and home now pulls him back without requiring a crisis or quest ending.
+- Ch478 restores relationship/home pressure through Lyssa's independent letter and physically routes Greg home.
+- Ch479 completes the return and reinforces that belonging now consists of accumulated routines, work, objects, social expectation, and intimacy rather than a declared theme.
 - When liquidity genuinely scales, verify actual obligations before clearing them. Preserve reserve/working capital, distinguish debt from gifts/favors/support, and treat the work limb as evolving infrastructure.
 
 ## Current financial / body / magic state
-- Greg ends Ch478 in **Lakeward**.
-- Cash **18c**.
+- Greg ends Ch479 **home in Carrow**.
+- Cash **12c** after paying a newly established **6c Lakeward -> Carrow fare**.
 - Vale **23c**.
-- Bits remain unspecified after ordinary breakfast, washhouse, thread, food, postage, and a one-bit seat hold.
-- 10c survival floor remains active.
-- Reed-glass introduction fee is **paid/closed**.
+- Bits remain unspecified after ordinary food/lodging and the prior one-bit seat hold.
+- 10c survival floor remains active; Greg has **2c above floor**.
+- Reed-glass introduction fee is paid/closed.
 - 20c work-limb deposit remains paid toward the **1 silver + 18c quote**. Remaining schedule/terms are still unverified and must not be invented.
 - Protocol remains **59 / 53 / 139**.
-- Greg remains on two crutches; no trial-limb wear in Ch478.
-- Shoulder continues improving; no new injury.
-- No magic tests in Ch478.
+- Greg remains on two crutches; no trial-limb wear in Ch479.
+- Shoulder continues improving; no new injury or skin break.
+- No magic tests in Ch479.
 
-## Chapter 478 - THE CORRESPONDENT
+## Chapter 479 - THE HOMECOMER
 
 ### Role / title
-- Greg is **THE CORRESPONDENT** because the chapter is driven by receiving and answering Lyssa's letter, not by a job, market solve, artifact bid, or road emergency.
-- Repository title search found no current collision before drafting.
+- Greg is **THE HOMECOMER** because the chapter is about returning to a place and relationship that continued without him, not about travel optimization, market leverage, artifact acquisition, or solving a new problem.
+- Repository title search found no current `THE HOMECOMER` collision before drafting.
 
-### Lyssa letter / home residue
-- A physically plausible Lyssa letter reaches Greg at the Lakeward post after his earlier poor routing note.
-- Lyssa's voice remains independent, materially grounded, and not Greg-like. Her letter focuses on work, thread/customer nonsense, household objects, people continuing around her, and the practical problem of Greg giving useless travel locations.
-- Lyssa explicitly says she is fine in a bounded way: busy, sleeping enough, ate yesterday, and nobody has threatened her. Greg does not turn this into diagnosis.
-- Lyssa reports her work continuing with **Jessa** and **Marra** present in their own social/work lane. Jessa suggests charging people for changing their minds; Marra jokes that Lyssa would become rich and unbearable; Lyssa redirects the unbearable joke to Greg.
-- Greg's cracked bad cup remains on the high shelf because Lyssa chose not to throw it away. This is ordinary household residue, not a magical object or formal symbol.
-- **Cala** borrowed and returned the small uneven chair without Lyssa having to ask this time. No new obligation or subplot follows.
-- Someone from the theatre came by once looking for Greg; Lyssa only told him Greg was east. Exact purpose remains unknown. No urgent theatre summons is established.
-- One sealed **Hark & Venn** note addressed to Greg is physically at home with his papers. Lyssa did not open it and Greg does not ask her to transcribe it. Exact contents remain unknown.
-- Lyssa asks for a useful location rather than an itinerary and writes: **I miss you. This is not permission to become dramatic.**
-- Greg recognizes that home has accumulated several meanings at once: his things, Lyssa, work that can find him, and people who notice when he leaves badly routed information.
+### Lakeward -> Carrow return
+- Greg boards the held first-bell Carrow route from Lakeward.
+- The posted/charged fare is established in exact prose as **6c**.
+- Cash **18c -> 12c**.
+- Greg accepts the cost without penny panic because going home is worth the time/body/location value.
+- Travel lasts one full road day and part of the next, consistent with Ch478 timing.
+- No magical-road emergency, commercial job, artifact encounter, or gray-market consequence occurs during the trip.
+- Road texture remains ordinary: passengers, road-house stop, minor delay, familiar place names returning as Greg approaches Carrow.
 
-### Greg's reply
-- Greg writes Lyssa from Lakeward and says he is going home the next morning.
-- He tells her the six reed-glass bundles passed and he got paid.
-- He tells her he lost an auction for a broken artifact because another bidder could safely spend more, and that this was correct even though he hated it.
-- He tells her about the High Cinder charge-ground failure only at the level that wardens fixed it while passengers waited and nobody died.
-- He says **I miss you too**, then mirrors her tone with **Do not become dramatic about this.**
-- He explicitly tells her to leave the Hark & Venn note sealed until he gets home.
-- His reply gives a concrete location/route: Lakeward now, first-bell Carrow route tomorrow.
-- Greg knowingly sends the letter even though he may reach home before it. The point is that Lyssa asked for a useful note, not that postal timing maximizes efficiency.
+### Return to Carrow
+- Greg recognizes Carrow through accumulated practical familiarity rather than dramatic revelation: routes, paving, district names, old annoyances, known shortcuts, and body-memory.
+- Senna's old paved triangle remains part of the city, but Senna is absent and another person occupies the bench. No forced callback occurs.
+- Greg reaches home around midday.
 
-### Westbound return setup
-- Lakeward board lists a Carrow-bound route leaving at first bell the next morning.
-- Two seats remain when Greg asks.
-- Greg pays **one bit** to hold a seat until dusk.
-- No copper fare is paid yet; fare is due on boarding and exact fare is not established in Ch478.
-- Expected travel time is long enough that, if normal, Greg should reach home after one full road day and part of another. No teleport-like return.
-- Ch478 ends before departure. Greg remains in Lakeward overnight.
+### Lyssa / homecoming
+- Lyssa is actively working when Greg arrives, fitting an unnamed customer in a brown overskirt.
+- Greg's return enters Lyssa's ongoing day rather than freezing her work around him.
+- Lyssa first tells Greg not to hug her because she has pins/needle in hand, then hugs him carefully anyway.
+- Their reunion stays intimate but ordinary: teasing, kissing, physical relief, food, household irritation, and work continuing.
+- Lyssa's customer knows Greg only through Lyssa's complaining/talking and remains unnamed; no new relationship is established.
+- Greg and Lyssa explicitly say they missed each other without turning the scene into a sentimental monologue.
 
-### Ordinary Lakeward day
-- Greg deliberately does not convert the free day into a deal, source hunt, or artifact chase.
-- He uses the public washhouse, cleans clothes/body, notices a loose shirt seam, buys ordinary repair thread in bits, and chooses not to badly repair it before seeing Lyssa.
-- He watches ordinary dock magic: a blue-glass brake bead on a pulley frame darkens when a load swings too quickly. Workers adjust without incident; Greg does not investigate or claim expertise.
-- No new artifact opportunity or commercial lead is created.
+### Household residue
+- Cala's small uneven chair is back in the room, still with one shorter leg.
+- Greg's cracked bad cup remains on the high shelf; Lyssa calls it `trash with tenure` and still does not want him drinking from it.
+- Greg's shirt with missing button remains on the pillow with the button set aside.
+- Lyssa has changed the work room while Greg was away: a narrow thread hook rail, shifted table position, and a second lamp near the fitting area.
+- These are ordinary signs that Lyssa's work and the household continued without Greg.
+- Greg's bag/crutches return to familiar places without discussion, reinforcing accumulated home routine.
+
+### Hark & Venn note
+- The sealed Hark & Venn note is physically visible among Greg's papers once he is home.
+- Greg deliberately does **not** open it in Ch479 because the homecoming gets room to breathe.
+- Exact contents, fitting status, due terms, payment schedule, pickup timing, and remaining work-limb obligations remain **unverified**.
+- Greg only moves the note once to keep a water cup away from it.
+
+### Relationship / conversation residue
+- Greg tells Lyssa about East Fen/reed-glass acceptance, the lost stillhook auction, and the High Cinder road-ground incident in compressed personal conversation rather than as a ledger.
+- Lyssa approves that Greg did not spend 11c on the stillhook because he could not safely afford it, while refusing to turn the artifact loss into tragedy.
+- Greg does **not** disclose the Ch473 illegal freight during this first meal home. This is a timing choice, not a permanent lie or established concealment arc.
+- Lyssa distinguishes her material/work perspective from Greg's abstraction, including dismissing his Lakeward-bought repair thread as ordinary bad thread and telling him to fix his own seam.
 
 ## Protected uncertainties / live residue
-- Greg ends Ch478 in **Lakeward**, with a first-bell Carrow seat held for the next morning.
-- Cash **18c**, Vale **23c**, bits unspecified.
+- Greg ends Ch479 **home in Carrow**.
+- Cash **12c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 139**.
-- Hark & Venn note exists at home but exact contents, due terms, fitting status, payment schedule, pickup timing, and remaining work-limb obligations remain **unverified**.
-- Theatre visitor purpose remains unknown.
+- Hark & Venn note remains sealed and exact contents remain unknown.
+- Theatre visitor purpose from Lyssa's earlier letter remains unknown.
 - Hessa, Sori, Morrow, South Road organizer lead, and other pending lanes remain unresolved unless later authority moves them.
 - Stillhook remains Elian's; magical-displacement behavior, maker/generation, repairability, and Elian's profession/use remain unverified.
-- High Cinder charge-weather mechanism remains narrow observation only.
 - East Fen Fenwright lower-draft problem remains unresolved and nonessential to the completed glass deal.
 - Ch473 marked Three Rays freight lot remains with freight owner unless newer exact prose changes that later.
 - No enforcement consequence from Ch473 has occurred.
 - Debt-closure progression remains inactive at current liquidity.
 - No permanent companion.
 
-## Chapter 479 trailhead
-Follow the next actual claim from Ch478/current authority and `state/PROGRESSION_ENGINE.md`.
+## Chapter 480 trailhead
+Follow the next actual claim from Ch479/current authority and `state/PROGRESSION_ENGINE.md`.
 
-Greg begins **18c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**, in **Lakeward**, with a held first-bell Carrow seat. Lyssa's letter has made the return home emotionally concrete, and a sealed Hark & Venn note is waiting among Greg's papers at home.
+Greg begins **12c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**, **home in Carrow**. He has just returned to Lyssa after the Cinder/Lakeward run. The Hark & Venn note is physically present and still sealed.
 
 Strong movement:
-- The natural next move is the actual return west/home, but do not make it another Ch477-style magical road-interruption chapter unless a genuinely different route consequence earns it.
-- Travel may compress if nothing important happens. The emotional/material payoff is arrival, accumulated contrast, and the fact that home continued without Greg.
-- On arrival, **do not immediately open every pending lane at once**. Lyssa/home should get room to breathe before Hessa, theatre, Vale, Sori, Morrow, South Road, or artifact business crowd the chapter.
-- The Hark & Venn note may be opened once Greg is physically home. Before any limb payment/pickup/adjustment, verify the exact note wording and prior limb authority. Do not infer due dates or balances from the quote alone.
-- Preserve Lyssa as independent: she has work, customers, Jessa/Marra, household irritation, and her own day. Greg's return should enter her life rather than freeze it.
-- Economic progression remains intact. Greg can pay normal travel/lodging/food costs when useful without penny panic, but 18c still does not justify debt-clearing behavior.
-- Keep the artifact route alive without forcing immediate replacement for the lost stillhook.
+- The work-limb lane is now naturally available because Greg is physically home with the sealed Hark & Venn note, but **open/read exact note wording before making any payment, pickup, adjustment, or due-date claim**.
+- If the note creates a fitting/inspection/collection step, verify it against prior exact limb authority before acting. Do not infer remaining terms from the 1 silver + 18c quote alone.
+- Let one or two home/Carrow lanes resume naturally rather than detonating every pending thread. Theatre visitor, Hessa, Sori, Vale, and Morrow can wait unless one has a physically plausible immediate claim.
+- Greg's current 12c cash is close to the 10c floor but should not emotionally reset him to early-book poverty; he has better earning capacity, references, routes, and leverage than before.
+- A quiet material/body/work chapter is viable after Ch477 environmental pressure and Ch479 homecoming intimacy, especially if it advances the limb or another concrete old constraint.
+- Keep artifact pressure alive long-range, but do not compensate for the lost stillhook with an easy replacement.
+- Debt closure still waits for genuinely stronger liquidity/capacity. Verify real obligations before any payoff.
 
 Avoid:
-- another long travel-infrastructure emergency immediately;
-- turning the homecoming into a victory speech or financial audit;
-- Lyssa becoming Greg's secretary/analyst;
-- opening Hark & Venn, theatre, Hessa, Vale, Sori, and Morrow all in one chapter;
-- work-limb payment/pickup without exact verified terms;
-- treating 18c as poverty or wealth;
+- paying Hark & Venn without exact terms;
+- turning the Hark & Venn note into a surprise giant bill or free gift without authority;
+- immediately resolving theatre + Hessa + Vale + Sori + Morrow in one chapter;
+- treating 12c as economic reset;
+- a second homecoming/relationship chapter that simply repeats Ch479;
 - debt-payoff checklist behavior;
 - another strategic manifesto.
 
-**MANDATORY TITLE CHECK CH479:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
+**MANDATORY TITLE CHECK CH480:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
