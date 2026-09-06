@@ -30,14 +30,14 @@ Greg remains the gravitational center of short dry compressed comic reduction. O
 
 ## Sequential coverage ledger
 
-- Chapters **1-225: VARIANCE REVIEWED**
-- Chapters **226-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-235: VARIANCE REVIEWED**
+- Chapters **236-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 226**
+Current sequential variance edge: **Chapter 236**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_216_225.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_226_235.md`
 
 ## Sequential batch authority
 
@@ -79,30 +79,31 @@ Exact chapter-level findings and proposed replacement prose are preserved under 
 - `BATCH_196_205.md`
 - `BATCH_206_215.md`
 - `BATCH_216_225.md`
+- `BATCH_226_235.md`
 
 Existing out-of-sequence pilot evidence remains:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches do not bridge the unreviewed 226-320 gap.
+Those later batches do not bridge the unreviewed 236-320 gap.
 
-## Chapters 216-225 result
+## Chapters 226-235 result
 
-- Chapter 216 `THE RELATIVE`: **no variance change required**. Keep Lyssa's relationship-specific first `money face` coinage and Rinna's later visible-affect `You're making a face / Go home`; the wedding ecology remains strongly job- and pressure-differentiated.
-- Chapter 217 `THE DEBTOR`: **light variance patch required**. Replace the self-aware `predictive management` ladder around Pell's unfinished question with a direct `Money?` reaction while preserving Greg's overclaim and Rinna's evidence correction.
-- Chapter 218 `THE PAYER`: **light variance patch required**. Remove Rinna borrowing Lyssa's `money face` label; Rinna can ask the actual known money question directly. Keep Lyssa's own later callback.
-- Chapter 219 `THE PURCHASER`: **light variance patch required**. Vary Lyssa's repeated money shorthand to `You're doing the numbers again` so stable relationship knowledge does not become a permanent branded button.
-- Chapter 220 `THE LANDLORD`: **no variance change required**. Olin's boy remains productively messy and corrects his own report. Greg's voluntary `I'm not following him` is protagonist inference, not Rinna asserting his unsaid plan.
-- Chapter 221 `THE PARTICIPANT`: **no variance change required**. Hessa's body/face attention remains causal apparatus work; far response is observed again without establishing far reliability, range, or generalization.
-- Chapter 222 `THE PROPERTY MAN`: **light variance patch required**. Replace the opening cash-box `No / I didn't ask / you were about to` ladder with direct observation and confirmation: `Cash box moved.` / `Yes.` Keep Teren's receipt anticipation correction because character knowledge is the acting variable.
-- Chapter 223 `THE MAINTENANCE MAN`: **no variance change required**. Crutch repair, cart-repair evidence, and Teren's route correction remain bounded by physical/professional jurisdiction.
-- Chapter 224 `THE CHECKER`: **no variance change required**. Lyssa's Vale inference is explicitly grounded in prior shared history; Vale-office speech stays procedure-owned and Antonius stays consequence-owned.
-- Chapter 225 `THE STEWARD`: **no variance change required**. Nessa owns property continuity, Teren owns playable choice, and Hara owns the character decision. `Carry choices. Do not make them.` is precise craft instruction.
+- Chapter 226 `THE REFERENCE`: **no variance change required**. Hessa's predeclared comparison order remains procedural; Rinna's head shake answers an established threat-status question cued by Greg's raised eyebrows rather than a new hidden argument.
+- Chapter 227 `THE BUNDLER`: **no variance change required**. Vale route and account systems stay historically messy and clerk-owned; `He saw my face / Now you do` answers visible frustration after an omitted route mark, not hidden reasoning.
+- Chapter 228 `THE FLOWER BEARER`: **no variance change required**. The onion seller's `You were afraid` is social overstatement that Greg immediately contests; theatre geometry, the flower-door failure, and the wrong-name-board repair remain strongly work-specific.
+- Chapter 229 `THE ROAD ONE`: **light variance patch required**. Keep Nessa's wrong `No role` prediction because Greg actually meant to ask about flowers. Remove the later Marra `Do not ask / I wasn't` beat so the tailoring room can simply continue without interpreting Greg's curiosity.
+- Chapter 230 `THE REPLICATE`: **light variance patch required**. Keep Hessa's direct `Do not improve it` methodological boundary, but remove `I wasn't / You were about to`; the predeclared order and attempt rules already establish control.
+- Chapter 231 `THE MAGISTRATE`: **no variance change required**. Teren owns playable focus, Nessa owns seal/coat custody, Jori owns rail geometry, and the best comedy often comes from underreaction rather than another topper.
+- Chapter 232 `THE COUNTERSIGN`: **no variance change required**. Vale matching rules distinguish known, mismatch, and uncertainty without requiring mind-reading; older-account mark drift preserves productive system mess.
+- Chapter 233 `THE SEAT`: **no variance change required**. Keep Hara's preemptive `No` to Marek because it is a character-specific wrong prediction, followed by Marek stealing Pell's bread thirty seconds later. Nessa's `Not that one` is object custody around the low table Marek already hit twice.
+- Chapter 234 `THE CONDITION`: **no variance change required**. Four repeated intermediate attempts change interpretation across attempts rather than restating the same conclusion; Hessa's boundary remains apparatus-specific.
+- Chapter 235 `THE TAGALONG`: **no variance change required**. Lyssa's market life stays independent and relationship-specific. Greg's self-correction after borrowing `strong standard` is positive catchphrase self-policing; the later face joke reverses the old mechanism because Greg asks Lyssa to verbalize her own visible reaction.
 
 Batch totals:
 
-- Variance patches: **4** across Chapters **217, 218, 219, 222**.
-- No-variance-change chapters: **216, 220, 221, 223, 224, 225**.
+- Variance patches: **2** across Chapters **229, 230**.
+- No-variance-change chapters: **226, 227, 228, 231, 232, 233, 234, 235**.
 - Prior attribution/name/referent authority preserved.
 - New dialogue-attribution speaker-clarity repairs surfaced: **0**.
 - New name/referent repairs surfaced: **0**.
@@ -126,7 +127,7 @@ The exact batch files above remain the durable detail layer. This state keeps th
 
 - Repeated `No / I didn't say / you were about to`, `you were thinking`, generic `you looked`, and generic `your face` ladders have a high burden after their manuscript-wide overdistribution has been identified.
 - Self-aware narration such as `predictive management`, `everyone says that now`, or equivalent commentary is a convergence alarm, not automatic permission to keep the mechanism.
-- A wrong prediction can be healthy because it demonstrates fallibility.
+- A wrong prediction can be healthy when the text visibly lets it miss. The miss must matter enough to demonstrate fallibility rather than merely delay the same perfect read.
 - Visible affect is cheaper than hidden reasoning. Seeing strain, excitement, disappointment, leaning, hypervigilance, or stopped movement is not knowing the exact private argument.
 - Face/body observation is especially legitimate when the body is part of the apparatus or attention itself is the craft variable.
 - Let Greg voice the escalation. If he wants an address, search, connection, or bigger claim, he can say it and let the other person answer the stated idea.
@@ -138,6 +139,7 @@ The exact batch files above remain the durable detail layer. This state keeps th
 - Relationship shorthand is healthiest when it opens a question or names a visible recurring behavior.
 - Catchphrase ownership matters. A phrase can belong beautifully to one relationship and become leakage if unrelated characters inherit it.
 - Stable cognition should still vary in surface performance. A partner can recognize the same habit without repeating one branded phrase every time.
+- Catchphrase self-policing can be positive evidence when the prose notices a borrowed phrase and lets it die instead of silently spreading through the cast.
 - Relationship inference is strongest when the evidence could actually be listed.
 
 ### Professional jurisdiction
@@ -145,8 +147,9 @@ The exact batch files above remain the durable detail layer. This state keeps th
 - Prefer current evidence: object placement, stopped movement, spoken argument, route choice, body position, damaged equipment, schedule pressure, records, or shared work history.
 - Current object or jurisdiction often beats generic perception.
 - Direct handling rules are often stronger than personality reads.
-- Object custody is especially useful under stress: brace, knife, hat, cart pin, repaired hardware, cash box, prop, or protected resource can carry the boundary.
+- Object custody is especially useful under stress: brace, knife, hat, cart pin, repaired hardware, cash box, prop, table, costume, or protected resource can carry the boundary.
 - Information-discipline voices should defend thresholds, not private thoughts: Antonius the ledger threshold, Rinna the known/unknown threshold, Hessa the apparatus/evidence threshold.
+- Predeclared procedure is stronger than predicted intention. If the written order, schedule, apparatus, or rule already constrains the scene, the expert usually does not need to prove knowledge of Greg's next thought.
 - First-contact professional scope is stronger than instant Greg calibration.
 - Professional self-limitation is voice. `I don't know` can be competent when the missing information lies outside the speaker's responsibility.
 - Craft anticipation remains legitimate when character knowledge or scene timing is the variable.
@@ -156,7 +159,8 @@ The exact batch files above remain the durable detail layer. This state keeps th
 
 - Do not optimize away bad metaphors, incomplete explanations, changed notes, wrong guesses, local disagreement, nervous fillers, ordinary silence, or underperformance when they belong to the speaker.
 - Work can interrupt explanation. People may stop talking because there is a knot, needle, cart, costume, customer, meal, repair, route, or current task to handle.
-- Messy systems protect voice: route queues, theatre cues, private-job constraints, supplier friction, threat precautions, changing bills, and workroom ambiguity force actual situational speech.
+- Work continuing can replace curiosity policing. In a room Greg does not understand, the strongest independence signal may be that everyone keeps working without explaining or announcing that they know what he wants to ask.
+- Messy systems protect voice: route queues, theatre cues, private-job constraints, supplier friction, threat precautions, changing bills, historical account marks, and workroom ambiguity force actual situational speech.
 - Ordinary workers should retain low narrative ambition even during danger.
 - Let the world continue without interpreting Greg.
 - No-change chapters are positive evidence. Do not patch to meet quota.
@@ -216,11 +220,11 @@ A chapter counts as variance-reviewed only after:
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 226**.
+Resume sequentially at **Chapter 236**.
 
 Preferred bounded queue: **10 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 226-235**.
+Next intended batch: **Chapters 236-245**.
 
 ## Restart prompt
 
