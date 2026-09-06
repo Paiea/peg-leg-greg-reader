@@ -39,6 +39,21 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Inspect Book I chapter heading representation
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import sys
+          sys.path.insert(0, 'scripts')
+          from manuscript_authority import docx_paragraphs
+          path = Path('state/manuscript/Peg_Leg_Greg_authoritative_ch82_final_name_map.docx')
+          paragraphs = docx_paragraphs(path)
+          hits = [(i, p) for i, p in enumerate(paragraphs) if 'CHAPTER' in p.upper()]
+          print('BOOK1_CHAPTER_HEADING_HITS', len(hits))
+          for index, text in hits[-35:]:
+              print(index, repr(text))
+          PY
+
       - name: Run compression tooling tests
         run: python -m unittest tests.test_compression_tooling tests.test_dependency_scan_scope tests.test_manuscript_authority_ranking tests.test_book1_authority_coverage
 
