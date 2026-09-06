@@ -1,5 +1,5 @@
 {
-  "latest": 394,
+  "latest": 395,
   "chapters": [
     {
       "number": 100,
@@ -1770,6 +1770,12 @@
       "title": "THE PRACTITIONER",
       "source": "checkpoint",
       "path": "394.html"
+    },
+    {
+      "number": 395,
+      "title": "THE FIGHTER",
+      "source": "checkpoint",
+      "path": "395.html"
     }
   ]
 }
