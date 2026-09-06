@@ -1,229 +1,251 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 407 - **THE BIDDER**.
+- Current exact story endpoint: Chapter 408 - **THE MEDIATOR**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript physically materialized through Chapter 248.
-- Exact Chapters 249-407 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
+- Exact Chapters 249-408 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
 - Titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
-- Ch407 answer: Greg is being **a bidder**. He attends Dock Eight salvage auction with genuine informational advantage, sets a rational ceiling before bidding, loses the mixed-hardware lot deliberately rather than letting auction psychology override judgment, then makes a much larger bid on his own future by buying passage to Duskport simply because he wants to go.
-- Therefore title **THE BIDDER**.
-- Recent: 403 THE OBSERVER; 404 THE COMPARER; 405 THE EARNER; 406 THE CONTRACTOR; 407 THE BIDDER.
+- Ch408 answer: Greg is being **a mediator**. On the Duskport packet, a mother's urgent need for an unscheduled Reedbank stop collides with the captain's responsibility to every other passenger. Greg cannot solve it by merely bounding claims; he helps find better information and a partial route without pretending the moral conflict disappeared.
+- Therefore title **THE MEDIATOR**.
+- Recent: 404 THE COMPARER; 405 THE EARNER; 406 THE CONTRACTOR; 407 THE BIDDER; 408 THE MEDIATOR.
 
 ## Major arc direction - away from Carrow
-- Long away-from-Carrow adventure arc remains active and has crossed a major agency threshold.
-- Regional Survey obligation is paused/complete for now at Sable Quay. No mandatory assignment pushes Greg farther.
-- Greg **chooses independently to continue downriver to Duskport**.
-- Duskport packet facts now established:
-  - departs Sable Quay daily at **4th bell**;
-  - passenger deck **3c**;
-  - bunk allotment **5c** if space;
-  - meals separate;
-  - personal bag included;
-  - large freight weighed separately;
-  - about **30 river miles**;
-  - roughly **one day and one night** if river behaves;
-  - arrival next morning or midday.
-- Greg, **Maro Pell, Sori Vale, and Dask Renn** buy deck tickets for tomorrow's packet.
-- **Vessa Harn and Kel Toren remain in Sable Quay** by their own choices. Traveling group therefore changes organically rather than staying frozen.
-- Greg explicitly tells home that work ended at Sable Quay and continuing to Duskport is his choice.
-- Do not immediately invent a mandatory quest at Duskport. Let chosen travel, packet life, new geography, markets, strangers, and organic pressure generate story.
+- Greg's chosen downriver travel is now physically underway aboard packet **Bright Gull** from Sable Quay to Duskport.
+- Current traveling group: **Greg, Maro Pell, Sori Vale, Dask Renn**.
+- **Vessa Harn and Kel Toren remain in Sable Quay**.
+- Packet route remains approximately 30 river miles / one day + one night if river behaves.
+- Chapter 408 deliberately introduces the next major adventure layer: **human wants in conflict**. Correct procedure can be necessary and still hurt somebody.
+- This should become a durable forward pressure, not a one-off lesson. Future "somebody else's story" material should include people who want incompatible things badly enough that evidence/procedure cannot decide for them.
+- Greg's strength at observing/bounding claims becomes harder when factual uncertainty narrows but does not remove painful choices.
+- Continue toward Duskport. Do not immediately reset to pure sightseeing or another technical puzzle.
 
-## Chapter 407 - THE BIDDER
+## Chapter 408 - THE MEDIATOR
 
-### Auction psychology / Greg's ceiling
-- Greg recognizes auctions create false feeling that not buying = losing.
-- Dock Eight auction lists Frames A/B/C and component lots.
-- Greg attends with Sori/Kel; Vessa/Maro/Dask present around morning decisions but not all need same auction focus.
-- Bran Tey privately tells Greg `Don't buy B.`
-- Public buyers include repair shops, freight firms, dealers, etc.; other people rationally understand hardware, preventing Greg-only appraisal fantasy.
+### Bright Gull / packet travel grammar
+- Dask nearly misses departure after mirror-guild errand but boards before 4th bell; he **does not buy PF-3**.
+- Packet **Bright Gull**:
+  - long low two-deck river packet;
+  - cargo forward/middle;
+  - covered passenger deck center/aft;
+  - benches along rails;
+  - small galley;
+  - narrow lower washroom access;
+  - Greg manages crutches by turning sideways.
+- Captain **Iven Sarr**:
+  - ~45;
+  - dark jaw-length hair;
+  - scar under lower lip;
+  - strong practical command voice.
+- Mate **Rell Koss**:
+  - thin;
+  - enormous mustache;
+  - dry/no-nonsense.
+- Packet has ~30 mixed passengers with their own reasons for reaching Duskport.
 
-### Auction prices / rational market
-- Frame A (BK-12, complete restricted operational): sells **32c**.
-- Frame B (BK-17 failed, repair/parts): sells **5c** to parts dealer.
-- Frame C (BK-17, serviceable unloaded, loaded recertification required): sells **21c**.
-- Greg notes he technically could have bought C with his 25c but would then own a large industrial frame he cannot sensibly use/store and have little liquidity. Affordability != sense.
-- Component lots sell mostly to shops at plausible lower prices.
+### Human conflict - Tessa Morn / Oren
+- Passenger **Tessa Morn** introduced:
+  - late 30s;
+  - brown coat;
+  - tight braid;
+  - carries small leather medicine case.
+- Her 14-year-old son **Oren** is at **Reedbank**, a private landing ~0.5 mile beyond scheduled **Mile House Landing** on north bank.
+- Oren cut leg in mill-blade accident 5 days earlier; Reedbank healer wrote that fever has started.
+- Tessa carries feverglass + redroot tincture from Sable Quay.
+- If she stays aboard to Duskport and returns later, delay could be ~2 days or more.
+- Overland from Mile House:
+  - washed road;
+  - ~3-mile reed-flat foot path;
+  - no guaranteed cart;
+  - likely difficult in dark.
 
-### Lot 12 / load-memory tongue
-- Mixed BK hardware lot contains:
-  - worn guide shims;
-  - spring seats;
-  - brass center-index plate;
-  - 2 small counterweight pucks;
-  - intact hand-sized **BK-9 load-memory tongue**.
-- Load-memory tongue is an old industrial diagnostic aid:
-  - not literal memory;
-  - holds/displays last neutral bias long enough to see whether frame returns to same resting center after unload;
-  - not active control/power source;
-  - modern frames integrate index into collar housing.
-- Tag: `BK-9 INDEX TONGUE / RETIRED / RESPONSE UNKNOWN / NO MATCHING FRAME IN LOT`.
-- Greg can imagine possible bench adaptation as repeatable displacement indicator but has no immediate use or matching frame.
-- Lot opens 1c.
-- Greg sets **4c ceiling before bidding**.
-- Bids 2c, then 4c against parts dealer.
-- Dealer bids 5c.
-- Greg **stops** and loses lot at 5c.
-- This is a meaningful competence/economic win: he resists auction-loss psychology and respects pre-set ceiling.
-- Greg spends **0c at auction**.
-- Bran later says `Good ceiling` and notes parts dealer can likely make money on B/mixed hardware while Greg likely would not.
+### Captain's refusal is rational, not villainy
+- Tessa asks Bright Gull to stop at Reedbank or launch packet emergency skiff.
+- Captain Iven initially refuses.
+- Reasons:
+  - Reedbank side cut is shallow for packet draft;
+  - entering may require backing out or shallow loop;
+  - emergency skiff needs 2 trained crew;
+  - packet would need to anchor/drift while they are gone;
+  - likely delay threatens **Gate Nine traffic slot**;
+  - after dark Gate Nine can hold packet until morning depending freight priority.
+- Delay can hurt other passengers materially.
+- Iven's key procedural position: private emergencies cannot automatically become packet emergencies without consequence to everyone aboard.
+- This is presented as necessary system logic, not callousness.
 
-### Duskport choice / crew split
-- Maro independently checks packet route details and considers Duskport because he has never traveled lower than Quay.
-- Vessa stays Sable Quay one more night to review route form; personal choice.
-- Kel stays Sable Quay, likely more dock work.
-- Dask wants to fit mirror guild visit before packet departure and buys ticket.
-- Sori initially frames her records duty as ended but ultimately buys ticket while insulting everyone.
-- Greg's reason for Duskport is deliberately simple: **`Because I want to see it.`**
-- No assignment, anomaly, emergency, or money requirement drives decision.
+### Other passengers also want things badly
+- Bird trader needs Duskport quarantine before morning inspection or risks losing contract/another day.
+- Merchant has auction papers closing next day second bell.
+- Gray-coated father reveals his daughter has an **appeal/sentencing hearing** tomorrow; he wants to be there as family witness.
+- These competing needs make Tessa's request morally hard rather than obviously correct.
+- No one becomes villain merely for wanting their own urgent outcome.
 
-### Duskport ticket purchase
-- Packet office confirms accessibility/basic logistics:
-  - covered middle deck section;
-  - benches;
-  - two stairs to lower washroom;
-  - crutches count as personal gear;
-  - Greg declines bunk upgrade/storage.
-- Greg buys **3c passenger-deck ticket** for next day's 4th-bell Sable Quay -> Duskport packet.
-- Cash changes **25c -> 22c**.
-- Maro, Dask, Sori each independently buy their own deck tickets; balances not tracked.
-- Ticket is small blue stamped object: `SABLE QUAY -> DUSKPORT`.
+### Greg's procedural honesty hurts
+- Tessa identifies Greg as former Survey/route/risk hand and asks him to tell captain Reedbank detour is safe.
+- Greg refuses to make unsupported claim because he lacks:
+  - Reedbank cut knowledge;
+  - packet draft/current/wind specifics;
+  - skiff timing;
+  - Oren fever severity;
+  - Mile House onward transport status;
+  - other-passenger delay consequences.
+- Greg says **`I don't know enough to tell her that.`**
+- Tessa experiences this as another competent person explaining why he cannot help.
+- Her line: **`Everybody on this boat knows how to explain why they can't help.`**
+- This is a deliberate challenge to Greg's usual epistemic virtue: honesty remains right but is emotionally insufficient.
 
-### Vessa/Kel separation
-- Vessa tells Greg: **`You're not my crew tomorrow.`**
-- She reminds him if something goes wrong he makes his own call and specifically says **do not lock in because he thinks that is what she would ask**.
-- Greg acknowledges.
-- Vessa offers hand and says `You were useful.` This is sincere high praise in her register.
-- Kel jokes about charging repair labor if Greg returns missing other leg.
-- Separation is ordinary, not dramatic breakup. Crew relationships persist without everyone traveling forever.
+### Greg asks better questions instead of inventing authority
+- Greg privately asks Iven for actual Reedbank risk.
+- Learns:
+  - packet could perhaps enter cut, but turning/exit uncertain;
+  - skiff can make trip but costs 2 crew + major delay;
+  - Gate Nine slot could be missed by 1-3 bells;
+  - there may be local fishers from Mile House to Reedbank.
+- Greg asks whether Mile House signal tower can check local transport **before arrival**.
+- Iven realizes it can be queried via relay at Marker 72.
+- This is not a magic procedure fix. It only creates a chance.
 
-### Home communication
-- Greg writes short westbound home note after buying ticket.
-- Core content:
-  - still safe;
-  - work ended at Sable Quay;
-  - chose to continue downriver tomorrow with Maro/Sori/Dask;
-  - Duskport, one day + one night by packet;
-  - **`This part is my choice.`**
-  - shoulder almost normal;
-  - crutch repaired;
-  - has money;
-  - misses them;
-  - tells Tavi his striped rock is now farther from home than Tavi;
-  - tells Lyssa he is informing her because he **chose something**, honoring her earlier distinction between something changing and choosing something.
-- Greg pays postage in bits; no copper conversion invented.
-- Communication remains delayed, not instant.
+### Mile House signal result / imperfect workaround
+- Marker 72 relay asks Mile House.
+- Response:
+  - cart unavailable, axle broken;
+  - one Reedbank fisher currently at Mile House;
+  - fisher can take 2 passengers + light bag north before dusk;
+  - fisher refuses north cut after sunset due missing channel stake near **Willow Tooth**.
+- Bright Gull therefore has a tight timing window. Any meaningful packet delay could make Tessa miss the fisher.
+- Freight queue costs ~12-14 minutes, raising tension.
+- Iven/Rell use every legal opening and tighten deck operations without announcing heroics.
+- Packet reaches Mile House with enough light/window left.
 
-### Sable Quay downtime
-- Greg spends afternoon without strategic work:
-  - walks Quay;
-  - eats fried dough in bits;
-  - watches crane crew;
-  - buys paper/charcoal in bits;
-  - sits by river with Tavi rock and Duskport ticket.
-- This reinforces ordinary life/choice rather than every chapter needing task crisis.
+### Tessa leaves at Mile House
+- Reedbank fisher **Noll Renn** introduced; no relation to Dask established, preempts surname question with `No.`
+- Tessa disembarks with medicine case and takes Noll's skiff toward Reedbank.
+- No confirmation yet that she reaches Oren or that treatment succeeds.
+- Captain warns:
+  - leaving ends Bright Gull's onward obligation to her;
+  - north cut after dark remains unsafe;
+  - she may not order fisher into unsafe channel.
+- Tessa remains angry as well as relieved.
+- She tells Greg: **`You could've helped sooner.`**
+- Greg does not defend himself with procedure; answers **`Maybe.`**
+- Her response: **`You people love maybe.`**
+- This preserves emotional sting and lack of clean closure.
+
+### Greg/Sori closing conversation
+- At night, Sori asks whether Greg would have broken route if no fisher existed.
+- Greg genuinely answers **`I don't know.`**
+- Sori's key distinction:
+  - Greg usually knows what **not to claim**;
+  - this is a different problem;
+  - eventually someone must **choose anyway**.
+- Greg recognizes facts can narrow choices until all remaining options are cruel in different directions.
+- Procedure can distribute responsibility and prevent chaos but cannot remove moral cost.
+- No Vessa/captain/protocol will exist for every future decision.
+
+## Durable new craft/arc rule - human conflict pressure
+- User explicitly requested more **"somebody to want something badly"** and **human problems where correct procedure does not produce a clean answer**.
+- This is now durable forward guidance.
+- Upcoming major-adventure material should increasingly include:
+  - people with incompatible urgent wants;
+  - choices where every available option harms somebody;
+  - Greg's evidence discipline being necessary but insufficient;
+  - social disagreement over what *should* happen, not only what *is* happening;
+  - "somebody else's story" entering Greg's route and refusing to reduce to a task ticket;
+  - real emotional residue even when logistics/procedure are handled competently.
+- Avoid making every such conflict solvable by one clever informational query. Ch408 finds a partial workaround, but Tessa's anger and Oren's outcome remain unresolved.
+- Future conflicts should sometimes require an actual costly choice with no satisfying compromise.
 
 ## Economy
-- Greg begins **25c cash / 23c Vale / bits unspecified**.
-- Auction spend **0c**.
-- Buys Duskport deck ticket **3c**.
+- Greg begins **22c cash / 23c Vale / bits unspecified**.
+- No copper spend in Ch408; ticket was paid prior chapter.
+- Food not explicitly purchased by Greg in exact prose.
 - Ends **22c cash / 23c Vale / bits unspecified**.
-- Fried dough, paper/charcoal, postage paid in bits; no conversion invented.
-- PF-3 parallax finder remains unpurchased at 10c unless future authority changes it.
-- Greg's liquidity remains strong relative to earlier arc despite dropping below Vale by 1c again.
 
 ## Magic / artifacts
 - Protocol remains **59 minimal / 53 shaping / 135 external attempts**.
-- Greg performs **no deliberate magic** in Ch407.
+- Greg performs **no deliberate magic** in Ch408.
 - Quietener remains packed/unused.
-- WS-F/9 current reader remains with Greg.
-- BK-9 load-memory tongue is **not acquired**; sold as part of mixed lot to parts dealer at 5c.
+- WS-F/9 current reader remains packed/unused.
 - PF-3 remains unpurchased.
-- Tavi striped rock remains with Greg and appears in home-note scene.
+- Tavi rock remains with Greg.
 - Repaired right crutch remains sound.
 - Oval remains sealed Merecross Survey custody.
 - Holdfast/K-14-6/Three Reeds/Step Keeper remain locked Carrow.
 
 ## Greg physical state
-- Shoulder/right hand effectively near-normal but still preserve history if hard use occurs.
+- Shoulder/right hand effectively near-normal for ordinary packet travel.
 - No new injury.
 - Crutch repair stable.
 
 ## Greg social/internal movement
-- Major transition: Greg is no longer merely allowing work to extend his trip. He deliberately buys passage farther away because he wants to see somewhere new.
-- Home becomes a **compass point**, not a cage or erased anchor.
-- Greg explicitly knows he can return; route/money exist. That safety makes chosen distance possible.
-- He demonstrates auction discipline by accepting a deliberate loss at his ceiling.
-- He recognizes wanting something does not create obligation; neither bidding, money, nor road forces action.
+- Greg experiences absence of Vessa's authority as meaningful space.
+- He does not try to impersonate Vessa or seize captain authority.
+- He helps by asking better questions, but cannot escape the fact that choosing remains moral work after facts improve.
+- First strong away-arc human conflict teaches him that being procedurally honest can still feel like failure to the person who needs action.
+- Greg's next growth lane is not abandoning evidence discipline. It is learning what to do when evidence cannot decide values for him.
 
 ## Dialogue variance
-- Sori: sharp purse/face-reading register, but genuinely impressed Greg pre-set auction ceiling; voluntarily follows while complaining.
-- Kel: practical auction interest, jokes that he would have overbid for counterweight pucks, stays Quay for dock opportunities.
-- Vessa: off-assignment version of herself; still direct, but explicitly releases command relationship and warns Greg not to simulate her orders after separation.
-- Maro: quietly gathers Duskport route facts, chooses travel from curiosity.
-- Dask: mirror-guild obsession, but coordinates timing and independently chooses ticket.
-- Bran Tey: terse approval/advice, `Don't buy B`, `Good ceiling`.
-- Ressa Vale: loud auctioneer, no relation to Sori established; immediately preempts surname question.
-- Packet clerk: dry practical accessibility answers.
+- Tessa Morn: emotionally compressed until urgency breaks through; accusatory because she wants action, not analysis.
+- Iven Sarr: command voice, procedural responsibility, visibly affected by human cost without becoming sentimental.
+- Rell Koss: route/process dry pragmatism.
+- Sori: recognizes competing truths and pushes Greg beyond epistemic comfort.
+- Maro: sparse acknowledgment that contradictory fairness can coexist.
+- Dask: unusually quiet/miserable because technical language offers little leverage.
+- Gray-coat father: minimal speech, high stakes; daughter's hearing introduces competing urgency without melodrama.
 
 ## Recent role ledger
-- 403 THE OBSERVER
 - 404 THE COMPARER
 - 405 THE EARNER
 - 406 THE CONTRACTOR
 - 407 THE BIDDER
+- 408 THE MEDIATOR
 
 ## Protected uncertainties
-- Greg ends Ch407 at **Sable Quay**, with ticket for next day's 4th-bell packet to Duskport.
-- Greg cash exact **22c**, Vale **23c**, bits unspecified.
+- Bright Gull is **underway toward Duskport** after Mile House stop, continuing overnight.
+- Tessa Morn leaves Bright Gull at Mile House with fisher Noll Renn toward Reedbank; **Oren's condition/outcome unknown**.
+- Gray-coat father's daughter hearing remains upcoming; outcome unknown.
+- Bird trader's quarantine timing remains unresolved but packet still has chance.
+- Greg cash **22c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 135**.
-- Traveling next leg: **Greg, Maro, Sori, Dask**.
-- Staying Sable Quay: **Vessa, Kel**.
-- Duskport details beyond packet logistics are not yet established.
-- No mandatory Survey assignment currently active.
-- White Span phenomenon remains unresolved but is not driving Duskport travel.
-- Glassmouth closed local ordinary.
-- PF-3 remains unpurchased.
-- Quietener + WS-F/9 remain bounded tools.
+- Traveling group remains Greg/Maro/Sori/Dask aboard Bright Gull.
+- Vessa/Kel remain Sable Quay.
+- No mandatory Survey assignment.
+- Duskport details beyond packet route still largely unestablished.
+- Home note response not yet available.
 - Full current-life high-end magical/combat ceiling remains unrevealed.
-- Home note sent west, response not yet available.
-- All older protected artifact/Carrow threads remain unresolved unless exact authority changes them.
 
-## Chapter 408 trailhead
-Follow next actual claim from Ch407/current authority.
+## Chapter 409 trailhead
+Follow next actual claim from Ch408/current authority.
 
 Greg begins **22c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**.
 
 Physical/timeline:
-- morning at **Sable Quay**;
-- Duskport packet departs **4th bell**;
-- Greg/Maro/Sori/Dask hold 3c deck tickets;
-- Vessa/Kel remain Quay;
-- Dask may visit mirror guild before departure;
-- Greg has no assignment and no obligation to fill morning with work;
+- evening/night aboard **Bright Gull**, downstream of Mile House;
+- Duskport expected next morning or midday if river/traffic cooperate;
+- Tessa/Oren outcome unknown behind them;
+- packet still carries passengers with time-sensitive needs;
+- Greg/Maro/Sori/Dask are traveling without Vessa/Kel;
 - shoulder/right hand near-normal; repaired crutch sound.
 
 Strong movement:
-- Board packet and actually leave Sable Quay. Do not spend whole chapter delaying departure.
-- Packet travel should create new scene grammar: river deck, passengers, freight, locks/traffic, sleeping aboard, current/body logistics, strangers, food, changing geography.
-- Establish Duskport through approach rather than exposition dump.
-- This leg is chosen travel. Preserve that psychological difference.
-- Crew is now smaller/different. Let Greg operate without Vessa/Kel's stabilizing roles and notice organically.
-- Dask can finish one Quay errand before departure if concise, but avoid PF-3 impulse purchase unless new evidence changes value proposition.
-- A packet complication, passenger collision, river hazard, theft attempt, cargo problem, or other external pressure could vary rhythm if organic. It need not be combat, but travel should not be pure sightseeing for multiple chapters.
-- Greg can make decisions now without asking Vessa. That is useful character pressure.
-- Duskport should feel like another meaningful expansion, not just Sable Quay renamed.
+- Preserve human-conflict residue. Do not make Tessa/Oren immediately resolve by convenient message.
+- Packet night should have distinct life: sleeping deck, food, lights, locks/gates, conversations, strangers, fatigue, perhaps a second smaller human collision or consequence from Mile House delay.
+- Duskport approach can begin next chapter, but avoid making arrival an exposition dump.
+- The new durable arc pressure is **people disagreeing over what should happen**. Seed future "somebody else's story" with wants that cannot all be satisfied.
+- Greg may reflect less abstractly and instead get pulled into another concrete person's priorities.
+- Not every chapter needs moral dilemma, but do not retreat into several chapters of only systems/markets/anomaly observation.
+- Action/fighting remains available later when organic; human stakes now need equal weight.
 
 Avoid:
-- inventing instant home reply;
-- mandatory new Survey quest before departure;
-- buying PF-3 just because leaving town;
-- turning Duskport into chosen-one destination;
+- instant confirmation Oren is fine;
+- pretending Ch408 was a clean win;
+- making captain obviously right or Tessa obviously unreasonable;
+- another purely technical puzzle chapter;
 - immediate return west.
 
-**MANDATORY TITLE CHECK CH408:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH409:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
