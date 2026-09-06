@@ -8,113 +8,138 @@ Status: audit only. No manuscript title changes are applied by this file.
 
 Every chapter title should answer the question: **Who is Greg in this chapter?**
 
-A valid title may name an occupation, social position, temporary function, relational role, situational identity, or a clean metaphorical role that Greg actually inhabits. Avoid titles that merely name an object, event, abstraction, chapter topic, or another character's role.
+A valid title may name an occupation, social position, temporary function, relational role, situational identity, or a clean metaphorical role that Greg actually inhabits.
+
+This pass is deliberately narrow. It does **not** rename a title merely because it is broad, repeated, less elegant than a later use, or could be sharpened. Duplicate roles are allowed. The only failures are titles that:
+
+- do not name a person-role or embodied identity at all,
+- mainly name an object, event, abstraction, place, problem, or chapter topic,
+- or name a role that materially belongs to somebody other than Greg.
 
 Human-facing title style should use standard title case, such as `The Boy`, `The Surveyor`, and `The Investor`.
-
-Duplicate titles are not automatically wrong. Repetition should be preserved only when the recurrence creates useful progression or deliberate echo rather than naming fatigue.
 
 ## Batch 001 - Chapters 1-40
 
 | Ch | Current title | Decision | Proposed title | Confidence | Audit note |
 | ---: | --- | --- | --- | --- | --- |
-| 1 | The Boy | KEEP |  | high | Greg's reset identity is the governing role: young body, displaced life, no established place yet. |
-| 2 | The Patient | KEEP |  | high | Greg is found, treated, and materially dependent on another person's care. |
-| 3 | The Investor | RENAME | The Speculator | medium-high | The role is valid locally, but this is tiny-capital opportunistic risk-taking, while Ch446 later earns the mature Investor identity through deliberate capital deployment and mobility. |
-| 4 | The Expert | KEEP |  | medium | Greg audits what expertise survived and attempts to monetize people-reading. Role fits, though `Expert` is broad and should remain on the generic-role watchlist. |
-| 5 | The Warrior | KEEP |  | high | Explicitly tests whether the warrior still exists in the nineteen-year-old body. Strong role-card anchor. |
-| 6 | The Laborer | KEEP |  | high | Greg performs literal warehouse labor under Antonius and debt pressure. |
-| 7 | The Owner | RENAME | The Claimant | medium | Much of the chapter's ownership posture belongs to Antonius. Greg's active position is closer to identifying value and trying to establish a claim to something he can use or keep. Recheck exact wording before application. |
-| 8 | The Collector | KEEP |  | high | Greg actively participates in collection work and restructures how a difficult account can be handled. |
-| 9 | The Lender | RENAME | The Underwriter | high | Antonius is the actual lender. Greg's embodied function is evaluating borrowers, purpose, risk, and whether the loan structure makes sense. |
-| 10 | The Appraiser | KEEP |  | high | Greg is explicitly asked to assess collateral value, use, and risk. |
-| 11 | The Mage | KEEP |  | high | The second-life magical identity becomes materially real through Barrier casting. |
-| 12 | The Researcher | KEEP |  | high | Greg systematically investigates an unknown material and separates what he knows, thinks, and can verify. |
-| 13 | The Student | KEEP |  | high | Greg occupies a learning posture with Arlo and Hessa and accepts current-method correction over remembered expertise. |
-| 14 | The Escort | KEEP |  | high | Literal Bronze escort work. Exact duplicate with Ch30 must be reviewed as progression versus fatigue. |
-| 15 | The Observer | KEEP |  | high | Observation is both his assigned function and the chapter's active discipline. |
-| 16 | The Teacher | KEEP |  | high | Greg diagnoses Alden's combat problem, gives a bounded correction, and watches it transfer. |
-| 17 | The Investigator | KEEP |  | high | Greg accepts and performs a theft investigation rather than merely encountering a mystery. |
-| 18 | The Experimenter | KEEP |  | high | Greg performs controlled Barrier trials and learns to narrow the question instead of solving the whole spell. |
-| 19 | The Bystander | KEEP |  | medium-high | Greg is explicitly adjacent to a problem no longer assigned to him and repeatedly has to respect that boundary, even while being drawn into limited observation. |
-| 20 | The Volunteer | KEEP |  | high | Greg turns a question into an actual volunteer reassignment and does emergency storehouse work. |
-| 21 | The Tenant | KEEP |  | medium | Greg obtains temporary use of someone else's covered space and learns to define the actual space he needs. Slightly metaphorical, but still his situational role. |
-| 22 | The Trainee | KEEP |  | high | Greg attends formal Bronze continuing-practice training and is deliberately put back into trainee status. |
-| 23 | The Aide | KEEP |  | high | Greg serves intake overflow and helps move displaced people through an existing emergency system. |
-| 24 | The Passenger | KEEP |  | high | Greg's literal role is passenger on the absurd boat-on-wagon relief movement east. |
-| 25 | The Defender | KEEP |  | high | Greg protects people, horses, and the wagon through support positioning during creature attacks. |
-| 26 | The Patient | KEEP |  | high | Acute post-fight treatment makes the role exact. Duplicate with Ch2 and later Ch38 is flagged below. |
-| 27 | The Rescuer | KEEP |  | high | Greg joins a bounded rescue effort for Mira and Eda under watch direction. |
-| 28 | The Guest | KEEP |  | high | Greg becomes a temporary Darrowmere guest through work-for-lodging and occupies that local household/work position. |
-| 29 | The Witness | KEEP |  | medium-high | Greg is a firsthand witness to the creatures and becomes useful because he can report and inspect what he actually saw without inventing certainty. |
-| 30 | The Escort | KEEP |  | high | Greg literally escorts civilians west and manages the practical/social work of getting the group home. Duplicate with Ch14 is flagged rather than automatically renamed. |
-| 31 | The Reporter | KEEP |  | medium | Greg returns with firsthand information and reports into multiple existing systems. The role fits, but it is broad enough to remain on the weak/generic watchlist. |
-| 32 | The Consultant | KEEP |  | high | Edrin summons Greg specifically for relevant interpretation and comparison while retaining authority over the investigation. |
-| 33 | The Assessor | KEEP |  | high | Greg is explicitly assigned loss assessment and makes bounded condition/value calls after the storehouse damage. |
-| 34 | The Helper | KEEP |  | medium | Greg's role is intentionally small: hold the plate, provide measurements, return his regulator, contribute without making himself central. Generic wording, but thematically accurate. |
-| 35 | The Friend | KEEP |  | high | Greg participates in ordinary social life without turning the evening into work, investigation, or optimization. Relational role is the point. |
-| 36 | The Coach | KEEP |  | medium-high | Greg shifts toward bounded guidance around Alden/Berren rather than owning their choices or work. Retain, but check against later coaching titles for repetition. |
-| 37 | The Laborer | KEEP |  | high | Literal millrace labor. Exact recurrence with Ch6 may be a useful progression echo: early labor under debt versus later chosen ordinary work. |
-| 38 | The Patient | RENAME | The Convalescent | high | This is the third `The Patient` by Ch38. The chapter is specifically about recovery, restrictions, symptom monitoring, and returning capacity rather than acute treatment. `The Convalescent` preserves the role while making progression visible. |
-| 39 | The Partner | KEEP |  | high | Greg participates in reciprocal sparring and shared work where Alden and Berren have agency independent of him. |
-| 40 | The Tester | KEEP |  | high | Greg brings measurements, tests regulator behavior, and helps distinguish fixture/test conditions from actual device behavior. |
+| 1 | The Boy | KEEP |  | high | Identity/role. |
+| 2 | The Patient | KEEP |  | high | Literal patient role. |
+| 3 | The Investor | KEEP |  | high | Greg is actually investing/speculating with his own limited capital. Later reuse does not invalidate it. |
+| 4 | The Expert | KEEP |  | high | Embodied expertise role. |
+| 5 | The Warrior | KEEP |  | high | Explicit warrior identity. Strong role-card anchor. |
+| 6 | The Laborer | KEEP |  | high | Literal labor role. |
+| 7 | The Owner | RENAME | The Claimant | medium | `Owner` is mainly Antonius's role in the chapter. Greg is closer to asserting/establishing a claim to something of value. Recheck before application. |
+| 8 | The Collector | KEEP |  | high | Literal collection role. |
+| 9 | The Lender | RENAME | The Underwriter | high | Antonius lends the money. Greg evaluates borrower purpose, risk, structure, and viability. |
+| 10 | The Appraiser | KEEP |  | high | Literal appraisal role. |
+| 11 | The Mage | KEEP |  | high | Embodied magical identity. |
+| 12 | The Researcher | KEEP |  | high | Literal research role. |
+| 13 | The Student | KEEP |  | high | Literal learning role. |
+| 14 | The Escort | KEEP |  | high | Literal escort role. |
+| 15 | The Observer | KEEP |  | high | Observation is his assigned function. |
+| 16 | The Teacher | KEEP |  | high | Greg teaches/corrects Alden. |
+| 17 | The Investigator | KEEP |  | high | Literal investigative role. |
+| 18 | The Experimenter | KEEP |  | high | Literal experimental role. |
+| 19 | The Bystander | KEEP |  | high | Situational role. |
+| 20 | The Volunteer | KEEP |  | high | Literal volunteer role. |
+| 21 | The Tenant | KEEP |  | high | Social/property role. |
+| 22 | The Trainee | KEEP |  | high | Literal training role. |
+| 23 | The Aide | KEEP |  | high | Literal support role. |
+| 24 | The Passenger | KEEP |  | high | Literal passenger role. |
+| 25 | The Defender | KEEP |  | high | Literal defensive function. |
+| 26 | The Patient | KEEP |  | high | Literal patient role. Duplication is allowed. |
+| 27 | The Rescuer | KEEP |  | high | Literal rescue role. |
+| 28 | The Guest | KEEP |  | high | Social/household role. |
+| 29 | The Witness | KEEP |  | high | Literal witness role. |
+| 30 | The Escort | KEEP |  | high | Literal escort role. Duplication is allowed. |
+| 31 | The Reporter | KEEP |  | high | Literal reporting role. |
+| 32 | The Consultant | KEEP |  | high | Literal consultation role. |
+| 33 | The Assessor | KEEP |  | high | Literal assessment role. |
+| 34 | The Helper | KEEP |  | high | Generic, but still clearly a Greg-role. |
+| 35 | The Friend | KEEP |  | high | Relational role. |
+| 36 | The Coach | KEEP |  | high | Coaching role. |
+| 37 | The Laborer | KEEP |  | high | Literal labor role. Duplication is allowed. |
+| 38 | The Patient | KEEP |  | high | Still a real patient role. Duplication alone is not grounds for rename. |
+| 39 | The Partner | KEEP |  | high | Relational/work role. |
+| 40 | The Tester | KEEP |  | high | Literal testing role. |
 
-## Proposed rename rationale
+## Batch 002 - Chapters 41-80
 
-### Chapter 3 - The Investor -> The Speculator
+| Ch | Current title | Decision | Proposed title | Confidence | Audit note |
+| ---: | --- | --- | --- | --- | --- |
+| 41 | The Buyer | KEEP |  | high | Greg is literally buying material. |
+| 42 | The Troubleshooter | KEEP |  | high | He is brought in to identify the freight problem that matters first. |
+| 43 | The Porter | KEEP |  | high | Literal carrying/loading role. |
+| 44 | The Patient | KEEP |  | high | Literal patient role during Hessa's check. |
+| 45 | The Escort | KEEP |  | high | Literal escort assignment. |
+| 46 | The Friend | KEEP |  | high | Relational role. |
+| 47 | The Second | KEEP |  | medium-high | He is the paired second person on the route-marker job. Still a person-role. |
+| 48 | The Companion | KEEP |  | high | Relational/temporary companion role. |
+| 49 | The Tester | KEEP |  | high | Literal test role at Arlo's workshop. |
+| 50 | The Recorder | KEEP |  | high | Arlo explicitly assigns Greg to record the hot-line test. |
+| 51 | The Signal | RENAME | The Signalman | high | `Signal` names the mechanism/message, not Greg. Greg's actual role is the person holding and communicating stop/clear lane signals between roadwright and traffic. |
+| 52 | The Signatory | KEEP |  | high | Greg explicitly signs onto the Guild availability role. |
+| 53 | The Guest | KEEP |  | medium-high | Social/situational identity. Still a person-role. |
+| 54 | The Interpreter | KEEP |  | high | Greg interprets evidence and response profiles with Edrin. |
+| 55 | The Extra Hand | KEEP |  | high | Clear temporary work/support role. |
+| 56 | The Spotter | KEEP |  | high | Greg is brought to identify/hear the regulator behavior in use. |
+| 57 | The Watcher | KEEP |  | high | Greg owns freight-arch clearance watching. |
+| 58 | The Regular | KEEP |  | high | Social identity as someone becoming a recurring known presence in these places/routines. |
+| 59 | The Tenant | KEEP |  | high | Literal lodging/property role. |
+| 60 | The Surveyor | KEEP |  | high | Literal road-survey assignment. Duplication with Ch331 is allowed. |
+| 61 | The Inspector | KEEP |  | high | Literal road-inspection role. |
+| 62 | The Backstop | KEEP |  | high | Clean metaphorical job-role: Greg is the stop/clearance backstop between moving systems. |
+| 63 | The Backstop | KEEP |  | high | Same real job-role during the mill-frame transfer. Duplication is allowed. |
+| 64 | The Patient | KEEP |  | high | Literal trauma patient role. |
+| 65 | The Ward | KEEP |  | high | Greg is literally a ward/patient under institutional care and dependent on the infirmary. |
+| 66 | The Absent | RENAME | The Convalescent | medium-high | `Absent` names a condition relative to the work/city, not a person-role. Greg is actively convalescing and relearning standing while normal work continues without him. |
+| 67 | The Claimant | KEEP |  | high | Greg is materially asserting what he can return to, where he can live, and what responsibility belongs to him after the accident. |
+| 68 | The Novice | KEEP |  | high | He is explicitly a beginner again with crutches and one-legged mobility. |
+| 69 | The Lodger | KEEP |  | high | Literal temporary lodging role in the downstairs room. |
+| 70 | The Applicant | KEEP |  | high | Person-role by construction; no title-form failure. |
+| 71 | The Counter | KEEP |  | high | `Counter` is a person who counts; role-form passes. |
+| 72 | The Friend | KEEP |  | high | Relational role. |
+| 73 | The Tenant | KEEP |  | high | Social/property role. |
+| 74 | The Consultant | KEEP |  | high | Professional role. |
+| 75 | The Returner | KEEP |  | high | Situational identity: Greg is actively returning. |
+| 76 | The Descender | KEEP |  | high | Person-role/identity centered on relearning descent. |
+| 77 | The Sorter | KEEP |  | high | Work/function role. |
+| 78 | The Archivist | KEEP |  | high | Professional/function role. |
+| 79 | The Spectator | KEEP |  | high | Social/situational role. |
+| 80 | The Customer | KEEP |  | high | Literal customer role. |
 
-**Why the current title fails at book scale:** `The Investor` is locally defensible, but it spends a major progression identity almost immediately. Chapter 446 later embodies investment at a materially different scale: Greg has cash reserves, a limb deposit, travel options, explicit opportunity cost, and can use money to create distance and future capability. That later chapter earns the structural role-card identity.
-
-**Why `The Speculator` fits:** early Greg is making small, opportunistic bets with thin capital and limited information. The role remains financial without falsely equating the early experiment with later deliberate capital deployment.
-
-**Confidence:** medium-high. Recheck for any existing `The Speculator` elsewhere before application.
+## Confirmed rename candidates through Chapter 80
 
 ### Chapter 7 - The Owner -> The Claimant
 
-**Why the current title fails:** the strongest literal owner in the chapter is Antonius. Greg is learning from Antonius's relationship to property, collateral, trash, and recoverable value rather than actually occupying Antonius's ownership role.
-
-**Why `The Claimant` may fit better:** Greg's active move is to identify something with value and establish that he can take, keep, or use it. It names Greg's posture rather than Antonius's.
-
-**Confidence:** medium. This is a provisional rename and should be checked against the exact chapter ending and global title inventory before application.
+The title names a real role, but that role is primarily Antonius's in the chapter. Greg's active posture is closer to establishing a claim to usable/recoverable value. This remains provisional because Chapter 67 already uses `The Claimant`, but duplication itself is not disqualifying.
 
 ### Chapter 9 - The Lender -> The Underwriter
 
-**Why the current title fails:** Antonius lends the money. Greg does not.
+Antonius is the lender. Greg's actual role is evaluating borrower purpose, risk, and whether the loan structure makes sense.
 
-**Why `The Underwriter` fits:** Greg's useful function is borrower assessment: what the money is for, whether the borrower can make use of it, what the risks are, and whether the structure deserves support. This is much closer to what Greg actually embodies.
+### Chapter 51 - The Signal -> The Signalman
 
-**Confidence:** high. Check later manuscript for title collision before application.
+`The Signal` is not a person-role. Greg's actual job is to serve as the human signal interface between the repair crew and traffic, holding stop/clear markers and translating changing road conditions into movement control.
 
-### Chapter 38 - The Patient -> The Convalescent
+### Chapter 66 - The Absent -> The Convalescent
 
-**Why the current title fails at sequence level:** it is the third exact `The Patient` title by Chapter 38. The chapter's identity is no longer simply receiving acute care. Greg is monitoring healing, testing return thresholds, accepting restrictions, and discovering what his recovering body can safely do.
-
-**Why `The Convalescent` fits:** it names someone actively in recovery and distinguishes this stage from Chapter 2's dependency and Chapter 26's immediate post-fight treatment.
-
-**Confidence:** high.
-
-## Duplicate and pattern flags in Chapters 1-40
-
-- **The Patient:** Chapters 2, 26, 38. Ch2 and Ch26 are both strongly literal. Ch38 is the clearest rename because the third recurrence obscures progression and its actual posture is convalescence.
-- **The Escort:** Chapters 14 and 30. Both are literal and strong. Do not force a rename solely for uniqueness. Revisit after the whole-manuscript duplicate inventory shows whether `Escort` becomes a chronic fallback.
-- **The Laborer:** Chapters 6 and 37. Both are literal. This recurrence may be worth preserving because the context changes from constrained debt labor to chosen ordinary paid work, creating a useful progression echo.
-- **Generic-role watchlist:** The Expert, The Tenant, The Reporter, The Helper, The Coach. These currently pass the role test, but the whole-book audit should check whether later, sharper roles make any of them feel generic or interchangeable.
+`The Absent` names Greg's absence from work and ordinary city participation rather than a role he inhabits. The chapter itself is active recovery: standing practice, absence from jobs, reading the accident report, and learning what his body can do now. `The Convalescent` is a clean embodied identity.
 
 ## Priority role-card anchor checks
 
-These are spot checks outside Batch 001 and are not a substitute for their later full-range audit.
+- **Ch5 - The Warrior:** KEEP, high.
+- **Ch177 - The Stagehand:** KEEP, high.
+- **Ch231 - The Magistrate:** KEEP, high.
+- **Ch331 - The Marker Field:** RENAME -> **The Surveyor**, high. The current title names the field/problem. Exact prose has Greg doing literal boundary-survey work, and the established role-card art already depicts this identity.
+- **Ch446 - The Investor:** KEEP, high.
 
-- **Ch5 - The Warrior:** KEEP, high. Exact prose explicitly tests and names Greg's warrior identity.
-- **Ch177 - The Stagehand:** KEEP, high. Opening authority places Greg inside active stage/backstage technical work, including handling the theatre's `ghost` apparatus. The role is materially embodied rather than decorative.
-- **Ch231 - The Magistrate:** KEEP, high. Greg arrives for the theatre's magistrate part and is explicitly called for `Magistrate`; this is an embodied performance role.
-- **Ch331 - The Marker Field:** RENAME -> **The Surveyor**, high. Exact prose has Greg on paid field survey work comparing physical boundary markers to filed lines, noting disagreement, reading old survey marks, and preserving physical evidence before ownership disputes harden into fact. `The Marker Field` names the setting/problem; `The Surveyor` names Greg's role and aligns with the established role-card art.
-- **Ch446 - The Investor:** KEEP, high. Exact prose centers deliberate allocation of scarce cash across travel, limb investment, reserves, opportunity cost, work, and future reach. This is the mature Investor identity and should remain the canonical role-card anchor.
+## Application constraints for later
 
-## Global application constraints for later
-
-1. Do not apply any rename from this ledger until the whole-manuscript audit has checked for collisions and stronger later uses.
-2. Preserve meaningful recurrence when the repeated role creates visible progression.
-3. Rename role-shaped titles when the role actually belongs to another character.
-4. Do not invent fake occupational nouns merely to satisfy the pattern.
-5. When renames are eventually approved, update manuscript authority first, then regenerate reader, manifests, NotebookLM exports, metadata, and role-card labels from authority.
-6. Chapter 331 should become `The Surveyor` when the rename phase is approved.
+1. Do not change manuscript titles during this audit phase.
+2. Duplicate titles are allowed and are not a rename trigger by themselves.
+3. Keep broad or generic titles if they still clearly name a Greg-role.
+4. Rename only non-role titles or titles whose role materially belongs to someone else.
+5. Do not invent fake occupational nouns merely to satisfy the pattern.
+6. When renames are approved, update manuscript authority first, then regenerate reader, manifests, NotebookLM exports, metadata, and role-card labels from authority.
+7. Chapter 331 should become `The Surveyor` when the rename phase is approved.
