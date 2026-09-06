@@ -20,6 +20,14 @@ def _latest_registry_by_candidate(registry: list[dict]) -> dict[str, dict]:
     return latest
 
 
+def _display(value: object) -> str:
+    if isinstance(value, str) and value.strip():
+        return value.strip()
+    if value not in {None, ""}:
+        return str(value)
+    return "(none)"
+
+
 def review_bounded_batch(
     queue: list[dict],
     registry: list[dict],
@@ -98,11 +106,11 @@ def render_review(rows: list[dict], start_chapter: int, end_chapter: int) -> str
             f"## Chapter {row['chapter']:03d} — {row.get('chapter_title', '')}",
             f"- Candidate: {row['candidate_id']}",
             f"- Production state: **{row['production_state']}**",
-            f"- Target/current asset: {row.get('target_asset', '')}",
-            f"- Prompt pack: {row.get('prompt_pack', '')}",
-            f"- Paragraph anchor: {row.get('paragraph_anchor', '')}",
-            f"- Anchor quality: {row.get('anchor_quality_status', '')}",
-            f"- Reference rationale: {row.get('reference_selection_notes', '')}",
+            f"- Target/current asset: {_display(row.get('target_asset'))}",
+            f"- Prompt pack: {_display(row.get('prompt_pack'))}",
+            f"- Paragraph anchor: {_display(row.get('paragraph_anchor'))}",
+            f"- Anchor quality: {_display(row.get('anchor_quality_status'))}",
+            f"- Reference rationale: {_display(row.get('reference_selection_notes'))}",
             "- Readiness checks:",
         ])
         for key, value in row["readiness"].items():
@@ -117,6 +125,8 @@ def render_review(rows: list[dict], start_chapter: int, end_chapter: int) -> str
             lines.append("- Review outcome: promote/integrate approved asset")
         elif row["production_state"] == "live":
             lines.append("- Review outcome: complete/live")
+        elif row["production_state"] == "not_ready":
+            lines.append("- Review outcome: production paused or candidate not currently queued; preserve candidate intent and re-evaluate after current manuscript authority stabilizes")
         lines.append("")
     return "\n".join(lines) + "\n"
 
