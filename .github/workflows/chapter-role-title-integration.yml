@@ -35,7 +35,7 @@ jobs:
       - name: Fetch approved audit authority
         run: git fetch origin editor/chapter-title-role-audit-batch-001:refs/remotes/origin/editor/chapter-title-role-audit-batch-001
       - name: Apply approved role titles
-        run: python scripts/apply_chapter_role_titles.py --apply
+        run: PYTHONPATH=. python scripts/apply_chapter_role_titles.py --apply
       - name: Bring approved audit ledger into integration branch
         run: git checkout origin/editor/chapter-title-role-audit-batch-001 -- state/CHAPTER_TITLE_ROLE_AUDIT.md state/chapter-title-role-audit
       - name: Regenerate reader derivatives
@@ -49,7 +49,7 @@ jobs:
         run: python scripts/build_notebooklm_export.py
       - name: Verify approved role titles
         run: |
-          python scripts/apply_chapter_role_titles.py --verify
+          PYTHONPATH=. python scripts/apply_chapter_role_titles.py --verify
           grep -qi '<h1>THE WARRIOR</h1>' chapters/005.html
           grep -qi '<h1>THE STAGEHAND</h1>' chapters/177.html
           grep -qi '<h1>THE MAGISTRATE</h1>' chapters/231.html
