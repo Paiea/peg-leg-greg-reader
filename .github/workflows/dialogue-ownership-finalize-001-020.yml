@@ -1,0 +1,62 @@
+name: Finalize dialogue ownership 001-020
+
+on:
+  push:
+    branches:
+      - editor/voice-compression-pass
+    paths:
+      - .github/workflows/dialogue-ownership-finalize-001-020.yml
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: editor/voice-compression-pass
+      - name: Apply final semantic ownership splits
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          fixes = {
+              'chapters/011.html': (
+                  '<p>"Difference?" Rusk turned toward the stairs.</p>',
+                  '<p>"Difference?"</p><p>Rusk turned toward the stairs.</p>',
+              ),
+              'chapters/013.html': (
+                  '<p>"Of course." I laughed.</p>',
+                  '<p>"Of course."</p><p>I laughed.</p>',
+              ),
+          }
+          for name, (old, new) in fixes.items():
+              p = Path(name)
+              text = p.read_text(encoding='utf-8')
+              assert old in text, f'expected final ownership candidate missing: {name}'
+              p.write_text(text.replace(old, new, 1), encoding='utf-8')
+          print('applied 2 final semantic ownership splits')
+          PY
+      - name: Verify exact wording preservation
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          assert '<p>"Difference?"</p><p>Rusk turned toward the stairs.</p>' in Path('chapters/011.html').read_text(encoding='utf-8')
+          assert '<p>"Of course."</p><p>I laughed.</p>' in Path('chapters/013.html').read_text(encoding='utf-8')
+          print('verified final ownership splits')
+          PY
+      - name: Refresh semantic reports
+        run: |
+          python scripts/dialogue_ownership_candidates.py
+          python scripts/dialogue_ownership_semantic.py
+      - name: Require zero high-confidence survivors
+        run: grep -q 'Total high-confidence paragraphs: 0' state/editorial/dialogue-ownership/HIGH_CONFIDENCE_001_020.md
+      - name: Commit final reader-visible cleanup
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add chapters/011.html chapters/013.html state/editorial/dialogue-ownership/CANDIDATES_001_020.md state/editorial/dialogue-ownership/HIGH_CONFIDENCE_001_020.md
+          git commit -m 'Finalize dialogue ownership cleanup through chapter 20'
+          git push
