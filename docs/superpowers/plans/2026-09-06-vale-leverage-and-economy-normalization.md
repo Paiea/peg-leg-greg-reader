@@ -4,7 +4,7 @@
 
 **Goal:** Normalize Vale continuity and Greg's earning scale with minimal story changes by making Antonius's high-interest ledger explicitly leverage-oriented and by moving later high-value/high-risk work into silver/tens-of-silver bands.
 
-**Architecture:** Preserve existing story beats and patch economic authority first. Then patch a small set of economic anchor chapters in dependency order, recalculating only purse/debt arithmetic and reaction language that directly depends on changed numbers. The Vale closure remains structurally intact but changes from a tiny-copper payoff into Greg fully repaying a large high-interest silver-scale face balance that Antonius never seriously expected to collect in full.
+**Architecture:** Preserve existing story beats and patch economic authority first. Then patch a small set of economic anchor chapters in dependency order, recalculating only purse/debt arithmetic and reaction language that directly depends on changed numbers. The Vale closure remains structurally intact but changes from a tiny-copper payoff into Greg fully repaying a large high-interest gold-scale face balance that Antonius never seriously expected to collect in full.
 
 **Tech Stack:** Markdown manuscript/state authority + HTML early reader chapters + GitHub history.
 
@@ -19,6 +19,8 @@
 - Antonius's rates are genuinely predatory; do not sanitize him.
 - Antonius values leverage/optionality and generally does not expect every accrued interest line to be repaid cleanly in cash.
 - Greg nevertheless repays his **full reconciled face balance**. No friendship discount, waiver, or settlement reduction for Greg.
+- Late Vale target scale is roughly **1g to 2g**, exact figure chosen only after downstream earning arithmetic is reconciled.
+- The Tere gauge's **40g+ right-buyer value** is a deliberate anchor: Vale can be painful while still tiny relative to a correctly monetized rare artifact.
 - Do not resurrect Vale debt after normalized closure.
 - Cheap manual/social/token work can remain copper.
 - Silver/tens-of-silver progression must appear where value/risk/scarcity justify it.
@@ -55,6 +57,7 @@
 - [ ] Classify Chapter 10's 10s as current financed/account amount after brutal charges, not a new purchase price.
 - [ ] Queue narrow early prose changes rather than broad rewrite.
 - [ ] Mark exact labor-credit coin values as unknown.
+- [ ] Preserve Tere's 40g+ right-buyer value as an economic ceiling anchor.
 - [ ] Re-fetch and verify no invented conversion or guessed original principal.
 
 ### Task 3: Normalize Representative Later Earnings Authority
@@ -86,13 +89,15 @@
 
 - [ ] Record every changed income event from Ch471 onward.
 - [ ] Record every dependent purse snapshot.
-- [ ] Choose one reconciled Vale face balance in the **high tens of silver** after normalized income is known.
+- [ ] Choose one reconciled Vale face balance in the **1g-2g range** after normalized income is known.
+- [ ] Do not translate that gold balance into a silver number unless exact manuscript authority establishes the conversion.
 - [ ] Record first Vale payment, remaining balance, final payment, and post-closure purse.
 - [ ] Ensure Greg pays the full face balance with no waiver.
 - [ ] Keep Greg operational after each payment rather than returning him to early-book scarcity.
 - [ ] Make Antonius's surprise/impressed reaction come from Greg actually paying what Antonius did not expect to collect.
+- [ ] Preserve the economic contrast that a 1g-2g debt remains small relative to a 40g+ successful Tere sale.
 - [ ] Ensure Ch491 drinking scene can remain mostly unchanged.
-- [ ] Verify all arithmetic by denomination without inventing conversions.
+- [ ] Verify all arithmetic within denomination; do not fabricate cross-denomination math.
 
 ### Task 5: Patch the Smallest Story Surface
 
@@ -129,6 +134,8 @@
 - [ ] Vale authority explicitly says rates are predatory and leverage-oriented.
 - [ ] Vale authority explicitly says Antonius does not generally expect full interest collection.
 - [ ] Vale authority explicitly says Greg pays the full reconciled face balance anyway.
+- [ ] Vale target is gold-scale, roughly 1g-2g, not tiny copper or merely high tens of silver.
+- [ ] Tere 40g+ right-buyer value remains an active anchor.
 - [ ] Greg's early financial arrogance is recorded.
 - [ ] Tere 5s/10s contradiction has an explicit repair path.
 - [ ] Representative later earnings target silver/tens-of-silver where justified.
