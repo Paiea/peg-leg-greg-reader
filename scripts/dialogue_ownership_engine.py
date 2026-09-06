@@ -51,25 +51,46 @@ class Beat:
     explicit: bool
 
 
+def has_dialogue(text: str) -> bool:
+    """Return True for straight or paired smart double-quoted dialogue."""
+    return '"' in text or ('“' in text and '”' in text)
+
+
 def quoted_spans(text: str) -> list[str]:
-    """Return double-quoted spans in order, including quote marks."""
+    """Return straight- or smart-double-quoted spans exactly as written."""
     spans: list[str] = []
     start: int | None = None
+    mode: str | None = None
     escaped = False
+
     for index, char in enumerate(text):
-        if escaped:
-            escaped = False
+        if mode == "straight":
+            if escaped:
+                escaped = False
+                continue
+            if char == "\\":
+                escaped = True
+                continue
+            if char == '"':
+                spans.append(text[start:index + 1])
+                start = None
+                mode = None
             continue
-        if char == "\\":
-            escaped = True
+
+        if mode == "smart":
+            if char == '”':
+                spans.append(text[start:index + 1])
+                start = None
+                mode = None
             continue
-        if char != '"':
-            continue
-        if start is None:
+
+        if char == '"':
             start = index
-        else:
-            spans.append(text[start:index + 1])
-            start = None
+            mode = "straight"
+        elif char == '“':
+            start = index
+            mode = "smart"
+
     return spans
 
 
@@ -79,31 +100,49 @@ def _is_attribution_tail(text: str) -> bool:
         return False
     actor = rf"(?:{ACTOR_PATTERN})"
     verbs = "|".join(sorted(SPEECH_VERBS, key=len, reverse=True))
-    return re.match(rf"^{actor}\s+(?:{verbs})\b", tail) is not None
+    adverbs = r"(?:[a-z]+ly\s+){0,2}"
+    return re.match(rf"^{actor}\s+{adverbs}(?:{verbs})\b", tail) is not None
 
 
 def _beat_ranges(text: str) -> list[tuple[int, int]]:
     """Split prose into sentence-like beats while keeping dialogue tags intact."""
     if not text.strip():
         return []
+
     boundaries: list[int] = []
-    in_quote = False
+    quote_mode: str | None = None
     escaped = False
+
     for index, char in enumerate(text):
-        if escaped:
-            escaped = False
+        if quote_mode == "straight":
+            if escaped:
+                escaped = False
+                continue
+            if char == "\\":
+                escaped = True
+                continue
+            if char == '"':
+                quote_mode = None
+                if index > 0 and text[index - 1] in ".!?":
+                    if not _is_attribution_tail(text[index + 1:]):
+                        boundaries.append(index + 1)
             continue
-        if char == "\\":
-            escaped = True
+
+        if quote_mode == "smart":
+            if char == '”':
+                quote_mode = None
+                if index > 0 and text[index - 1] in ".!?":
+                    if not _is_attribution_tail(text[index + 1:]):
+                        boundaries.append(index + 1)
             continue
+
         if char == '"':
-            was_in_quote = in_quote
-            in_quote = not in_quote
-            if was_in_quote and index > 0 and text[index - 1] in ".!?":
-                if not _is_attribution_tail(text[index + 1:]):
-                    boundaries.append(index + 1)
+            quote_mode = "straight"
             continue
-        if not in_quote and char in ".!?":
+        if char == '“':
+            quote_mode = "smart"
+            continue
+        if char in ".!?":
             boundaries.append(index + 1)
 
     ranges: list[tuple[int, int]] = []
@@ -135,23 +174,26 @@ def _normalize_actor(actor: str) -> str:
 
 
 def _speech_owner(text: str) -> str | None:
-    if '"' not in text:
+    if not has_dialogue(text):
         return None
     verbs = "|".join(sorted(SPEECH_VERBS, key=len, reverse=True))
     actor = rf"(?P<actor>{ACTOR_PATTERN})"
+    adverbs = r"(?:[a-z]+ly\s+){0,2}"
 
-    after = re.search(rf'"\s*{actor}\s+(?:{verbs})\b', text)
+    # Dialogue followed by attribution: “No,” Sella said.
+    after = re.search(rf'["”]\s*{actor}\s+{adverbs}(?:{verbs})\b', text)
     if after:
         return _normalize_actor(after.group("actor"))
 
-    before = re.search(rf'\b{actor}\s+(?:{verbs})\b[^"\n]*"', text)
+    # Attribution followed by dialogue: Sella eventually said, “No.”
+    before = re.search(rf'\b{actor}\s+{adverbs}(?:{verbs})\b[^"“\n]*["“]', text)
     if before:
         return _normalize_actor(before.group("actor"))
     return None
 
 
 def _subject_owner(text: str) -> str | None:
-    outside = re.sub(r'"(?:[^"\\]|\\.)*"', '', text).strip()
+    outside = re.sub(r'(?:(?:"(?:[^"\\]|\\.)*")|(?:“[^”]*”))', '', text).strip()
     if not outside:
         return None
 
@@ -205,7 +247,7 @@ def split_paragraph(text: str) -> list[str]:
     Ordinary narration without dialogue is deliberately untouched.
     """
     original = text.strip()
-    if not original or '"' not in original:
+    if not original or not has_dialogue(original):
         return [original] if original else []
 
     raw_beats = [original[start:end].strip() for start, end in _beat_ranges(original)]
@@ -224,7 +266,7 @@ def split_paragraph(text: str) -> list[str]:
     for beat in beats:
         owner = beat.owner
 
-        if owner is None and beat.text.startswith('"') and current_owner is not None:
+        if owner is None and beat.text.startswith(('"', '“')) and current_owner is not None:
             owner = current_owner
 
         if not current_parts:
@@ -270,6 +312,6 @@ def explicit_owners(text: str) -> list[str]:
 
 def mixed_owner_candidate(text: str) -> bool:
     """Flag obvious residual multi-owner dialogue paragraphs for audit."""
-    if '"' not in text:
+    if not has_dialogue(text):
         return False
     return len(explicit_owners(text)) > 1
