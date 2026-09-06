@@ -57,8 +57,8 @@ def validate_record(record: dict) -> None:
         raise ValueError("screen reason is required")
 
     if verdict == "source_win":
-        if screen.get("decision") != "source_win":
-            raise ValueError("source_win verdict requires source_win screen decision")
+        if screen.get("decision") == "deep_review" and not _nonempty_text(record.get("comparison")):
+            raise ValueError("comparison is required for a deep-review source win")
         return
 
     if screen.get("decision") != "deep_review":
@@ -85,6 +85,32 @@ def validate_record(record: dict) -> None:
             raise ValueError(f"patch {index} replacement must contain prose paragraphs")
         if any("—" in line for line in replacement):
             raise ValueError(f"patch {index} replacement contains an em dash")
+
+
+def validate_batch(batch: dict) -> None:
+    if batch.get("schema") != "performance_production_batch/v1":
+        raise ValueError("schema must be performance_production_batch/v1")
+    if not _nonempty_text(batch.get("source_authority")):
+        raise ValueError("source_authority is required")
+
+    scope = batch.get("scope")
+    if not isinstance(scope, list) or not scope or not all(
+        isinstance(chapter, int) and chapter > 0 for chapter in scope
+    ):
+        raise ValueError("scope must contain positive chapter integers")
+    if len(scope) != len(set(scope)):
+        raise ValueError("scope must not contain duplicate chapters")
+
+    records = batch.get("records")
+    if not isinstance(records, list):
+        raise ValueError("records must be a list")
+
+    record_chapters = [record.get("chapter") for record in records if isinstance(record, dict)]
+    if len(records) != len(scope) or sorted(record_chapters) != sorted(scope):
+        raise ValueError("batch coverage must include every scope chapter exactly once")
+
+    for record in records:
+        validate_record(record)
 
 
 def _plain(paragraph_html: str) -> str:
