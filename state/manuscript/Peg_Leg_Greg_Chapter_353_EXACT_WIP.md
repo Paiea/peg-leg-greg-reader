@@ -1,6 +1,6 @@
 # CHAPTER 353
 
-## THE BAD LANTERN
+## THE BUYER
 
 Eight copper was enough money to become annoying.
 

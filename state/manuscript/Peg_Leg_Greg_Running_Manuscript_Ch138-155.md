@@ -812,7 +812,7 @@ He walked away. I looked at the packet. Then at the wagon. Then east. Five days.
 
 # CHAPTER 139
 
-## THE BASELINE
+## THE SUBJECT
 
 Hessa had moved the towel. I noticed before I sat down. Not far. Perhaps two fingers toward the end of the table. I put both crutches against the wall and looked at it. Hessa was grinding something in a small stone bowl. The room smelled bitter and green, with something sharper underneath that caught in the back of my nose. Morning light came through the narrow window beside her shelves and made every suspended bit of herb dust unnecessarily visible.
 
@@ -3794,7 +3794,7 @@ I drank. Tea. Cold. Terrible. I drank again. The first wagon horse sneezed. Some
 
 # CHAPTER 143
 
-## THE STOP
+## THE PLAYER
 
 The road was awful. I was glad I had come. Both facts remained true while I stood beside the wagon drinking cold tea and waiting for my back to remember that it had not, in fact, been constructed out of curtain weights.
 
@@ -4950,7 +4950,7 @@ I laughed hard enough that my shoulders hurt. The road had been awful. The inn w
 
 # CHAPTER 144
 
-## THE STABLE
+## THE LODGER
 
 The stable was better than the inn. This was not praise. It was larger. The roof did not leak in any place I could immediately identify. The floor was packed earth with straw over it, and the horses occupied stalls along one wall behind wooden partitions polished by years of rubbing shoulders and teeth against them. It smelled exactly like a stable. Strongly. Marek stood in the middle aisle with his hands on his hips.
 
@@ -6044,7 +6044,7 @@ Pell swore. He got up. Neither Teren nor Marek looked at me. Good. They went out
 
 # CHAPTER 145
 
-## THE ARRIVAL
+## THE PASSENGER
 
 I woke to someone saying, "No." Not loudly. Firmly. The kind of no that had already been said several times. I opened my eyes. Gray morning light came through the stable door. My shoulder hurt because folded clothing was not a pillow no matter how carefully I arranged it. Straw had found its way inside my shirt. One horse was chewing. The voice came from outside.
 
@@ -7626,7 +7626,7 @@ Three seconds. Enough. I went to work.
 
 # CHAPTER 147
 
-## THE REHEARSAL
+## THE PLAYER
 
 I went to work. Then I missed my entrance. Not by much. Enough. Iven was onstage being poor at paying debts when my cue came through the opening in the wall. Clear. Perfectly clear. I heard it. I knew it. I waited because in Carrow there had been another line before mine. There was not another line here. Teren had cut it ten minutes earlier while I was eating bread. Iven waited. The hall waited. I realized. I moved. Too fast. My right crutch hit the edge of the wing.
 
@@ -8348,7 +8348,7 @@ I took the bread she offered. Then I went outside. For the first time since arri
 
 # CHAPTER 148
 
-## THE ROOF
+## THE SIGHTSEER
 
 I turned left. This immediately became difficult because left contained a cart. The cart contained cabbages. A man was unloading them directly into a shop while another man stood in the street objecting to the location of the horse.
 
@@ -10558,7 +10558,7 @@ I smiled. Then listened.
 
 # CHAPTER 151
 
-## THE SHOW
+## THE PLAYER
 
 Then listened. Serra's line came. Not the line I expected. Close enough that I knew where we were. Different enough that I nearly answered the old one. I waited. One beat. Not for laughter. For her. She said, "And if I decide you're more trouble than you're worth?" My cue.
 
@@ -11016,7 +11016,7 @@ She pointed. I took it. Apparently celebration was later. I went to find Pell.
 
 # CHAPTER 152
 
-## THE SECOND SHOW
+## THE PLAYER
 
 Pell was under a table. I found his boots first.
 
@@ -11484,7 +11484,7 @@ I laughed. Then followed him. Celebration, apparently, had arrived.
 
 # CHAPTER 153
 
-## THE MONEY
+## THE EARNER
 
 The first tavern was full. Marek opened the door, looked inside, and said, "No."
 
@@ -12996,7 +12996,7 @@ He slept. I laughed. Then looked north. Another town. Maybe another show. Maybe 
 
 # CHAPTER 155
 
-## THE LEAK
+## THE TROUBLESHOOTER
 
 The rain improved. By improved, I mean it stopped hitting me in the face. It continued hitting everything else. We came over the ridge near evening with the wagon wheels cutting dark lines through the road and water running in the ditches on both sides. The northern country opened below us in wet fields, low walls, and trees bent by wind. Somewhere beyond them sat the town. Marek woke. He looked at the sky.
 

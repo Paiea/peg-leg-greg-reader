@@ -1,6 +1,6 @@
 # CHAPTER 315
 
-## THE TRUE STORY
+## THE STORYTELLER
 
 The first lie was about a chicken.
 

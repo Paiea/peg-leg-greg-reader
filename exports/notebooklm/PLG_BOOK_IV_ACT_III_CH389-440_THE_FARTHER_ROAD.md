@@ -29175,7 +29175,7 @@ Naturally, that made me suspicious.
 
 # CHAPTER 415
 
-## THE FITTING
+## THE CANDIDATE
 
 Masta Venn measured everything.
 

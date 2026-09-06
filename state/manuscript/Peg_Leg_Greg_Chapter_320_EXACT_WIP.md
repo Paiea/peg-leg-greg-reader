@@ -1,6 +1,6 @@
 # CHAPTER 320
 
-## THE PORTRAIT
+## THE MODEL
 
 The woman drawing me had forgotten my left foot.
 

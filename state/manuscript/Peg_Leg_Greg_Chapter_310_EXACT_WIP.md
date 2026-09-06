@@ -1,6 +1,6 @@
 # CHAPTER 310
 
-## THE UNCUT LINE
+## THE INTERLOPER
 
 Two mornings after the charge rain, Lyssa told me to move.
 

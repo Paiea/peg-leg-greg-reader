@@ -1,6 +1,6 @@
 # CHAPTER 281
 
-## THE SHARE
+## THE CONSULTANT
 
 The next person who offered me money wanted me to refuse it.
 

@@ -1,6 +1,6 @@
 # CHAPTER 343
 
-## THE DUE DATE
+## THE DEBTOR
 
 Vale sent me a bill the morning after I earned money.
 

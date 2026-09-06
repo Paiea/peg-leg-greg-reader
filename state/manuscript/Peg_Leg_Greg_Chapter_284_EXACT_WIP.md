@@ -1,6 +1,6 @@
 # CHAPTER 284
 
-## THE WRONG CORNER
+## THE OBSERVER
 
 The seven-legged horse stayed on the table for two days because I could not decide whether throwing it away would count as discouraging innovation.
 

@@ -1,6 +1,6 @@
 # CHAPTER 339
 
-## THE SECOND VOICE
+## THE TESTER
 
 The next thing I bought was nothing.
 

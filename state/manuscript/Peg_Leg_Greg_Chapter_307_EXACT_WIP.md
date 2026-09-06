@@ -1,6 +1,6 @@
 # CHAPTER 307
 
-## THE RED POT
+## THE COOK
 
 The holdfast remained on the high shelf all morning. For two copper, it was excellent at not helping.
 
