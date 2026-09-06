@@ -68,6 +68,9 @@
     "247": {"showcase": false, "reason": "low_consequence_mundane"},
     "253": {"showcase": false, "reason": "superseded_by_stronger_chapter"},
     "257": {"showcase": false, "reason": "redundant_progression"},
-    "258": {"showcase": false, "reason": "redundant_progression"}
+    "258": {"showcase": false, "reason": "redundant_progression"},
+    "263": {"showcase": false, "reason": "redundant_progression"},
+    "267": {"showcase": false, "reason": "redundant_progression"},
+    "270": {"showcase": false, "reason": "bridge_not_needed"}
   }
 }
