@@ -22,9 +22,24 @@ def _continuity_lines(candidate: dict) -> list[str]:
     lines = ["- Preserve manuscript-established age, body, clothing, props, and setting details."]
     if "greg" in names:
         lines.append("- Greg is nineteen, with a permanent LEFT BKA, knee preserved, right leg intact, and two crutches.")
+        lines.append("- Default to above-waist / chest-up / medium framing unless this exact scene materially requires lower-body visibility.")
     if "lyssa" in names:
         lines.append("- Lyssa is a Black woman, tall relative to Greg, thin/lithe, with natural Afro-textured hair.")
     return lines
+
+
+def _generation_metadata(candidate: dict) -> dict:
+    names = {name.strip().lower() for name in candidate.get("characters", [])}
+    framing = candidate.get("framing_preference") or ("above_waist" if "greg" in names else "scene_appropriate")
+    view_angle = candidate.get("view_angle") or "choose_non_repetitive_scene_angle"
+    pose_family = candidate.get("pose_family") or "physical_scene_action"
+    scene_tags = [str(tag).strip() for tag in candidate.get("scene_tags", []) if str(tag).strip()]
+    return {
+        "framing": framing,
+        "view_angle": view_angle,
+        "pose_family": pose_family,
+        "scene_tags": scene_tags,
+    }
 
 
 def render_prompt_pack(candidate: dict) -> str:
@@ -32,6 +47,8 @@ def render_prompt_pack(candidate: dict) -> str:
     characters = ", ".join(candidate.get("characters", [])) or "No required named character"
     location = candidate.get("location") or "Use manuscript-supported environment only"
     mood = candidate.get("mood") or "Match manuscript scene tone"
+    metadata = _generation_metadata(candidate)
+    tags = ", ".join(metadata["scene_tags"]) if metadata["scene_tags"] else "derive only from manuscript-supported scene context"
     lines = [
         f"# Illustration Prompt Pack — {candidate['id']}",
         "",
@@ -51,11 +68,18 @@ def render_prompt_pack(candidate: dict) -> str:
         "",
         "## Prompt construction",
         "",
+        "### GENERATION METADATA",
+        f"- Framing: `{metadata['framing']}`",
+        f"- View angle: `{metadata['view_angle']}`",
+        f"- Pose family: `{metadata['pose_family']}`",
+        f"- Scene tags: {tags}",
+        "- Preserve these metadata values into the generation queue and registry when the generated asset is intaked. They are continuity/diversity guidance, not permission to contradict the manuscript.",
+        "",
         "### SUBJECT + ACTION",
         f"Characters: {characters}. Show them doing the physical action implied by the scene rather than posing for a portrait.",
         "",
         "### CAMERA",
-        "Choose a composition that avoids default centered eye-level two-person staging. Rotate wide/medium/close and camera height to suit the scene.",
+        "Choose a composition that avoids default centered eye-level two-person staging. Rotate wide/medium/close and camera height to suit the scene while honoring the declared framing/view-angle guidance above.",
         "",
         "### FOREGROUND",
         "Use a meaningful prop, doorway, furniture edge, fabric, stage object, cart, hand, crutch, or other manuscript-supported foreground shape when useful.",
