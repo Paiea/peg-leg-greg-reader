@@ -20,18 +20,20 @@ Greg remains the gravitational center of short dry compressed comic reduction. O
 
 ## Sequential coverage ledger
 
-- Chapters **1-255: VARIANCE REVIEWED**
-- Chapters **256-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
+- Chapters **1-265: VARIANCE REVIEWED**
+- Chapters **266-320: NOT YET SEQUENTIALLY REVIEWED UNDER THE NEW VARIANCE ENGINE**
 - Chapters **321-330: VARIANCE-REVIEWED OUT OF SEQUENCE AS PILOT/CONTINUATION WORK**
 - Chapters **331-352: NOT YET VARIANCE REVIEWED**
 
-Current sequential variance edge: **Chapter 256**
+Current sequential variance edge: **Chapter 266**
 
-Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_246_255.md`
+Latest sequential variance batch: `state/editorial/dialogue-variance-pass/BATCH_256_265.md`
 
 ## Sequential batch authority
 
-Exact chapter-level findings and proposed replacement prose are preserved under `state/editorial/dialogue-variance-pass/`:
+Exact chapter-level findings and proposed replacement prose are preserved under `state/editorial/dialogue-variance-pass/`.
+
+Sequential artifacts now run through:
 
 - `BATCH_001_005.md`
 - `BATCH_006_010.md`
@@ -72,30 +74,31 @@ Exact chapter-level findings and proposed replacement prose are preserved under 
 - `BATCH_226_235.md`
 - `BATCH_236_245.md`
 - `BATCH_246_255.md`
+- `BATCH_256_265.md`
 
 Existing out-of-sequence pilot evidence remains:
 - `state/editorial/dialogue-pass/BATCH_321_325.md`
 - `state/editorial/dialogue-pass/BATCH_326_330.md`
 
-Those later batches do not bridge the unreviewed 256-320 gap.
+Those later batches do not bridge the unreviewed 266-320 gap.
 
-## Chapters 246-255 result
+## Chapters 256-265 result
 
-- Chapter 246 `THE MATCHER`: **no variance change required**. Maren's thread shop remains professionally opaque, fallible, and object-specific.
-- Chapter 247 `THE PATRON`: **light variance patch required**. Remove the unrelated barber/father `I wasn't / you looked` fencing while keeping the father's refusal to advise.
-- Chapter 248 `THE CONSTANT`: **no variance change required**. Hessa's fin swap remains apparatus/evidence driven; visible excitement opens Greg's own report rather than supplying it.
-- Chapter 249 `THE SHOPPER`: **no variance change required**. Market vendors stay locally differentiated and the needle-case recognition remains weak rather than portentous.
-- Chapter 250 `THE SUBSTITUTE`: **light variance patch required**. Replace Teren's `Don't solve props / I wasn't / you were` ladder with the role-specific redirect `Uncle.`
-- Chapter 251 `THE UNDERSTUDY`: **no variance change required**. Lyssa helps lines without becoming an acting specialist; Greg's emergency role does not become Pell's voice.
-- Chapter 252 `THE WASHER`: **light variance patch required**. Let Lyssa tease Greg's delay in reaching `smaller` without claiming authority over whether he truly was about to say it.
-- Chapter 253 `THE STEWARD`: **no variance change required**. Pell's return and backstage property work remain underperformed, practical, and role-specific.
-- Chapter 254 `THE USHER`: **no variance change required**. Rinna's seating rules stay operational; audience needs and omitted rules emerge through actual house work.
-- Chapter 255 `THE NEIGHBOR`: **no variance change required**. Greg's wrong bucket prediction stays because Orren explicitly corrects him and owns an independent thought.
+- Chapter 256 `THE STRANDED`: **no variance change required**. Rain-shelter and shop dialogue stay temporary, transactional, and route/object grounded.
+- Chapter 257 `THE PLAYER`: **no variance change required**. Theatre re-entry keeps Marek rumor, Venn provenance, Nessa costume, Teren cue, and Hara spacing authority distinct.
+- Chapter 258 `THE PORTER`: **no variance change required**. Crate handling distributes practical knowledge across Greg, Lyssa, Orren, Sera, and the delivery man without forcing a single expert voice.
+- Chapter 259 `THE SHEPHERD`: **no variance change required**. Greg's slateback expertise is independently corroborated and then handed off to local jurisdiction rather than monopolized.
+- Chapter 260 `THE SORTER`: **no variance change required**. Hollen and Pem remain category/material specific; Greg owns the overinterpretive joke when he misreads Pem watching him stand.
+- Chapter 261 `THE CUSTOMER`: **no variance change required**. Lyssa refuses to alter Daro's coat without the relevant clothes and keeps her customer network independent of Greg.
+- Chapter 262 `THE MEASURE`: **light variance patch required**. Let Greg state the complete-wardrobe joke before Lyssa answers; remove `Don't / I haven't said anything / You're going to` prediction fencing.
+- Chapter 263 `THE SHOPHAND`: **light variance patch required**. Let Greg voice the legal-practice joke and Lyssa return it to the concrete coat rather than preempting the unsaid line.
+- Chapter 264 `THE HOST`: **light variance patch required**. Let Mara notice the running `Good` joke explicitly rather than inheriting another preemptive `Don't` read.
+- Chapter 265 `THE CONTROL`: **no variance change required**. Hessa rejects spoken speculative claims and keeps new-fin interpretation apparatus-specific.
 
 Batch totals:
 
-- Variance patches: **3**, across Chapters **247, 250, 252**.
-- No-variance-change chapters: **246, 248, 249, 251, 253, 254, 255**.
+- Variance patches: **3**, across Chapters **262, 263, 264**.
+- No-variance-change chapters: **256, 257, 258, 259, 260, 261, 265**.
 - Prior attribution/name/referent authority preserved.
 - New dialogue-attribution speaker-clarity repairs surfaced: **0**.
 - New name/referent repairs surfaced: **0**.
@@ -106,28 +109,29 @@ Batch totals:
 ## High-value watch targets
 
 - Greg owns the highest density of compressed dry counterpunches. Supporting characters may be funny, dry, clever, or terse without inheriting his reduction architecture.
-- Repeated `No / I didn't say / you were about to`, `you were thinking`, generic `you looked`, and generic `your face` ladders have a high burden after their manuscript-wide overdistribution has been identified.
-- Background and first-contact characters should not inherit the manuscript's branded prediction/argument architecture merely because the exchange is funny.
-- Self-aware narration such as `predictive management`, `everyone says that now`, `everyone in Carrow had learned this technique`, or equivalent commentary is a convergence alarm, not automatic permission.
+- Repeated `No / I didn't say / you were about to`, `you were thinking`, generic `you looked`, and generic `your face` ladders have a high burden after manuscript-wide overdistribution.
+- Consecutive prediction beats deserve a higher burden. Even individually tolerable preemptive `Don't` jokes become convergence when clustered across adjacent scenes and relationships.
+- Background and first-contact characters should not inherit branded prediction/argument architecture merely because the exchange is funny.
 - Wrong predictions can be healthy when the miss is visible and demonstrates fallibility. Greg's own overprediction is especially useful when another person explicitly corrects him.
 - Visible affect is cheaper than hidden reasoning. Body/face observation is especially legitimate when the body is part of an apparatus or attention itself is the craft variable.
 - Relationship familiarity should alter workflow and sharpen questions, not grant transcript access. Stable cognition should vary in surface performance.
-- Relationship teasing can target delay, habit, or visible process without deciding the private truth of what Greg was about to say.
-- Catchphrase ownership matters. Catchphrase self-policing can be positive evidence when the prose notices phrase migration and lets it die.
+- Let Greg actually say the systems joke. Lyssa is often strongest when her answer returns to the concrete work rather than proving she knew the joke already.
+- A visitor may enter a running joke through explicit household history without inheriting mind-reading. Phrase ownership still matters.
 - Prefer current evidence, object, role, rule, schedule, contract, damaged equipment, route, body position, records, or work history over generic personality commentary.
-- Role labels can be strong redirects in theatre. `Uncle`, `Messenger`, `Steward`, or another current role may be more Teren-specific than explaining Greg's psychology.
 - Direct handling rules and object custody are often stronger than personality reads.
 - Predeclared procedure is stronger than predicted intention. Written order, schedule, apparatus, and test rules can constrain Greg without mind-reading.
 - Information-discipline voices defend thresholds: Antonius the ledger, Rinna known/unknown, Hessa apparatus/evidence.
+- Distributed expertise protects Greg's competence. Independent corroboration and local jurisdiction make his knowledge feel more credible, not less.
+- Greg may possess old-life expertise while current-city routing, law, custody, or procedure belongs to local people.
 - First-contact professional scope is stronger than instant Greg calibration.
 - Craft anticipation remains legitimate when character knowledge, gaze, cue timing, or scene continuity is the actual variable.
-- Actor foreknowledge is a legitimate face/attention problem. Teren may correct where Greg looks when the actor knows what the character does not.
 - Work continuing can replace curiosity policing. Other people's jobs may simply continue without explaining themselves to Greg.
 - Messy systems protect voice. Exceptions may arrive only when encountered; real work need not front-load every rule.
-- Repeated work words such as `Wait`, `Good`, `No`, and `Less` remain healthy when the current object and jurisdiction keep changing what they mean.
+- Repeated work words such as `Wait`, `Good`, `No`, and `Less` remain healthy when current object and jurisdiction keep changing what they mean.
 - Do not optimize away bad metaphors, incomplete explanations, wrong guesses, local disagreement, silence, awkwardness, or underperformance when they belong to the speaker.
-- Threat pressure does not justify universal mind-reading. Keep rumor, witness report, object proof, description match, and motive claims at separate evidence levels.
-- Hessa asks before explaining, narrows nouns, records before interpreting, and stops when the current question is answered or the apparatus/body no longer justifies more attempts.
+- Threat or magical pressure does not justify universal mind-reading.
+- Hessa asks before explaining, narrows nouns, records before interpreting, and stops when the current question is answered or apparatus/body no longer justifies more attempts.
+- Rejecting a spoken speculative claim is not predictive dialogue. Hessa may say `Do not` after Greg has actually voiced the bad inference.
 - Do not upgrade a response into reliability, range, generalized object moving, casting, or Barrier clearance without exact evidence.
 - Attribution density and voice variance are separate problems. Prior accepted name/pronoun/referent repairs remain owned by `state/editorial/dialogue-pass/`.
 - `Evin` remains source-settled where prior batches corrected `EvIn` drift.
@@ -138,37 +142,21 @@ Batch totals:
 
 This is not a structural compression pass.
 
-Do not:
-- merge chapters;
-- delete scenes merely for pace;
-- renumber;
-- alter canon outcomes;
-- change money/magic/body continuity;
-- invent accents or caricature speech;
-- give every character a permanent speech gimmick;
-- make dialogue longer globally;
-- purge all dry humor from supporting characters.
+Do not merge chapters, delete scenes merely for pace, renumber, alter canon outcomes, change money/magic/body continuity, invent accents or caricature speech, give every character a permanent gimmick, make dialogue longer globally, or purge all dry humor from supporting characters.
 
 Hard manuscript prose rule: **NO EM DASHES.**
 
 ## Completion definition
 
-A chapter counts as variance-reviewed only after:
-1. exact prose is read;
-2. prior attribution repairs relevant to the scene are respected;
-3. recurring voice authority is consulted when materially useful;
-4. Greg/Hessa contamination and comic-register convergence are explicitly tested;
-5. relationship/state/scene-pressure modulation is considered;
-6. either a deliberate no-change verdict or exact replacement patch is durably saved under `dialogue-variance-pass/`;
-7. the durable artifact is fetched back from GitHub.
+A chapter counts as variance-reviewed only after exact prose is read, prior attribution authority is respected, relevant voice authority is consulted when useful, convergence is explicitly tested, relationship/state/pressure modulation is considered, a deliberate no-change verdict or exact replacement patch is durably saved, and the durable artifact is fetched back from GitHub.
 
 ## Current trailhead
 
-Resume sequentially at **Chapter 256**.
+Resume sequentially at **Chapter 266**.
 
 Preferred bounded queue: **10 chapters per batch** unless exact complexity justifies a smaller batch.
 
-Next intended batch: **Chapters 256-265**.
+Next intended batch: **Chapters 266-275**.
 
 ## Restart prompt
 
