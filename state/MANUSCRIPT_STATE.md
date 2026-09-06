@@ -1,8 +1,8 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 475 - **THE COORDINATOR**.
-- Exact Chapters 249-475 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
+- Current exact story endpoint: Chapter 476 - **THE BIDDER**.
+- Exact Chapters 249-476 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
 
 ## Active correction overlays
 - Ch432 forewoman: **Rika Dorn**, not Nessa Vale.
@@ -13,167 +13,143 @@
 Before any new named character: check `BOOK1_NAME_REGISTRY_CH82.md` and current state for exact/TTS/syllable/surname collision. Temporary people do not automatically need names.
 
 ## Durable progression / leverage mandate
-- `state/PROGRESSION_ENGINE.md` includes explicit legal/gray-market arbitrage guidance and the author-approved **debt-closure progression rule**.
-- Greg may knowingly break laws when he judges the underlying act morally acceptable enough and reward/risk worthwhile.
-- Legality is institutional-risk evidence, not a substitute for Greg's ethics.
-- Current leverage focus remains **earning power / capital**, with method emphasizing brokerage, arbitrage, coordination, management, and eventual ownership at silver-scale transaction value.
-- Ch474 proves Greg can create silver-scale movement without owning silver-scale inventory.
-- Ch475 proves a second leverage form: Greg can create value by sequencing several competent people and authorities without pretending to possess their specialist expertise.
-- When liquidity genuinely scales, verify current exact canon before clearing obligations. Preserve meaningful reserve/working capital, distinguish real debt/contracts from gifts/favors/support, evolve the work limb as infrastructure, and let old constraints sometimes disappear casually as scale changes.
+- `state/PROGRESSION_ENGINE.md` includes legal/gray-market arbitrage guidance and the author-approved debt-closure progression rule.
+- Current leverage focus remains **earning power / capital**, with brokerage, arbitrage, coordination, management, and eventual ownership all available.
+- Ch474 proves Greg can move silver-scale value without owning inventory.
+- Ch475 proves Greg can create value by coordinating specialists without stealing their expertise.
+- Ch476 adds artifact-capital pressure: Greg now experiences a meaningful artifact market where useful damaged equipment is rationally priced, competing buyers exist, and safe deployable capital can be smaller than total purse.
+- When liquidity genuinely scales, verify actual obligations before clearing them. Preserve reserve/working capital, distinguish debt from gifts/favors/support, and treat the work limb as evolving infrastructure.
 
-## Chapter 475 - THE COORDINATOR
+## Chapter 476 - THE BIDDER
 
 ### Role / title
-- Greg is **THE COORDINATOR** because he sequences three inbound freight groups at Cinder Cross Tool House, clarifies authority boundaries, keeps specialist decisions with specialists, and helps the yard close receiving before a time-cost threshold.
-- Repository title search found no prior `THE COORDINATOR` collision before drafting.
+- Greg is **THE BIDDER** because he attends a real Cinder artifact sale, evaluates a damaged survey stillhook under bounded evidence, sets a reserve-aware ceiling, bids, and then correctly loses rather than violating his capital floor.
+- Repository title search found no prior `THE BIDDER` collision before drafting.
 
 ## Starting state
-- Greg begins in **Cinder Cross** at **14c cash / 23c Vale / bits unspecified**.
+- Greg begins in **Cinder Cross** at **18c cash / 23c Vale / bits unspecified**.
 - Protocol **59 / 53 / 139**.
 - 10c survival floor active.
-- Six East Fen reed-glass bundles are already in transit west to Lakeward.
-- **5c reed-glass introduction commission remains pending successful Lakeward inspection** and is not counted as cash.
+- Reed-glass introduction commission **5c remains pending** and is not counted as cash.
+- Tool House coordination reference remains narrow and valid.
+- Bracken final-hazard reference request remains in transit.
 
-## Tool House freight morning
-- Greg arrives at Cinder Cross Tool House while three inbound deliveries arrive earlier than the yard expected.
-- Tool House yard lead is absent sick; buyer still owns yard authority.
-- Deliveries include:
-  - a long heavy cast frame for west-bay inspection;
-  - two iron drums for north awning;
-  - sealed crates for receiving after seal count;
-  - South Chain crew with rollers/chain needed for the heavy move.
-- Buyer asks Greg to organize the unload rather than perform lifting.
-- Greg negotiates **4c if the frame/receiving close before second bell, 2c if clean but later**.
-- Road levy creates a genuine time cost for at least one carrier after second bell, so the higher fee reflects urgency rather than arbitrary wage inflation.
+## Cinder artifact sale
+- Cinder holds a mixed road/survey/workshop artifact sale in a cooper's hall because the normal auction house roof is leaking.
+- Viewing costs one bit.
+- Sale contains ordinary enchanted tools plus several more meaningful artifacts; this is not a legendary-item bazaar.
+- A compact road barrier plate visibly stops a wooden test bolt and opens at **one silver**, establishing that obvious strong utility is already priced heavily.
+- Greg does not treat expensive obvious magic as a market mistake.
 
-## Authority / management boundaries
-Greg explicitly separates roles rather than acting like universal foreman:
-- buyer owns yard authority/final placement;
-- drivers own wagon/team movement;
-- South Chain lead owns chain/lift movement;
-- Tool House clerk owns receiving record;
-- anybody may call stop for danger;
-- only chain lead resumes/moves a load once under chain.
+## Surveyor stillhook
+Observed sale tag / evidence:
+- **survey stillhook** from road-office retirement;
+- black iron half-ring, leather hand strap, short chain, flat hook, brass thumb stud;
+- three pale ceramic plates, with one cracked/dead and two responsive;
+- anchor-dependent lateral hold;
+- no current body-rated certificate;
+- strongest hold within roughly thirty degrees either side of working plate axis, falling quickly outside it;
+- activation requires holding the thumb stud;
+- release under tension produces rebound;
+- third plate failure recorded three years ago;
+- no current repair quote and local shops have refused replacement without original pattern gauge;
+- no documented catastrophic failure in the retirement papers, but no proof current working plates still meet old load rating.
 
-This is the core management lesson: coordination does not transfer specialist authority to Greg.
+## Greg's recognition ceiling
+- Greg recognizes the **stillhook class** from later first-life support/field use but does **not** know this exact unit.
+- He has only partial/pattern recognition of a mark that may be Third-Line Survey Works or an earlier related generation.
+- He remembers later stillhooks being used for unstable platforms, rescue/breach work, and at least one story involving resistance to something beyond ordinary wind/platform sway.
+- This does **not** establish that the Ch476 stillhook resists magical displacement.
+- Sale papers certify only physical use cases such as platform sway, wind rig, cart-bed vibration, and manual pull.
+- Greg explicitly records the possible nonphysical-displacement use as **unverified**.
 
-## New Cinder workers
-- **Joren**: blue-cap driver of the long-frame wagon; competent wagon handler; provides a spare roller and wheel chocks during the move.
-- **Mave**: broad South Chain lead; owns chain/lift calls, catches pinch hazards, evaluates rigging geometry, and directs the actual load recovery when the frame shifts.
-- Neither is subordinated into Greg's entourage. Their expertise remains theirs.
-- A complaining unnamed Tool House worker is competent enough to work but narrates effort continuously; dialogue texture deliberately differs from Greg's short dry register.
+## Body / operating-rule interaction
+- The stillhook's one-hand activation is immediately relevant to Greg's disability/equipment state.
+- With two crutches, standing use would require giving up one crutch or otherwise solving hand support.
+- A finished work limb could make one-hand artifact use much more practical.
+- This strengthens the existing canon idea that the work limb is not merely walking equipment; it can free hands and multiply support/tool options.
+- No new limb wear or test occurs in Ch476.
 
-## Physical urgency / frame shift
-- West-bay turn is constrained by yard geometry, north awning, wagon angle, slope, and an axle stand.
-- During roller transfer the rear roller walks downhill several fingers and the heavy frame follows slightly.
-- **Mave calls STOP first**; one worker takes an extra pull because his back is turned, after which Mave reinforces stop authority.
-- Greg orders one worker away from a trapped guide bar/crush area, but he does not personally manipulate the load.
-- Mave identifies that the load needs controlled right/back movement and rejects unsafe redirect ideas.
-- Greg identifies that the north wall anchor is inaccessible only because the drum wagon is staged there; moving that wagon exposes the needed anchor.
-- Mave then owns the rerig/reset. Joren supplies chocks. Tool House supplies tools/yard knowledge.
-- Frame is recovered without injury and moved into west bay before second bell.
+## Auction / rational market
+- Stillhook opens at **4c** because it is damaged, uncertified, narrow-angle, and repair-uncertain, not because sellers fail to see its visible utility.
+- Multiple bidders compete.
+- Greg sets a maximum safe deployable ceiling of **8c** because spending more would cross his 10c survival floor.
+- He bids **7c**.
+- Other bidders continue through 8c, 9c, 10c, and **11c**.
+- Greg stops rather than violate reserve.
+- The stillhook sells for **11c** to another competent buyer.
+- Greg therefore spends **no copper** on the artifact and does not acquire it.
 
-## Receiving completion
-- Drums move under north awning without incident.
-- Sealed crates are checked rather than treated as mystery bait.
-- One wax seal is chipped but carrier record already notes the damage from departure; cord remains intact.
-- Receiving slate closes at second bell.
-- Joren's wagon leaves before road-levy delay.
+## Elian
+- **Elian** buys the stillhook for 11c.
+- Name search found no current repository collision before durable state update.
+- Observed only: older than Greg, brown coat, short hair, pale pressure scars around thumb/index finger, handles the artifact like someone with relevant practical experience.
+- Exact profession, residence, affiliations, history, and intended use remain unestablished.
+- Elian says the two functioning plates are worth about 8c to her, the hook assembly about 2c, and she is willing to gamble 1c on ceramic repair. This makes her bid rational from her own use case.
+- Greg reveals only that he remembers an old/later story of a stillhook holding against something other than ordinary wind/platform sway, while clearly stating he does not know this unit does so.
+- Elian says any strange test information will cost Greg if she later chooses to share it.
+- This establishes a possible information relationship, not friendship, partnership, or promised follow-up.
 
-## Pay / management reference
-- Greg earns the full **+4c coordination fee**.
-- Cash **14c -> 18c**.
-- Tool House provides a narrow written reference:
-  - Greg coordinated three inbound freight teams for west/north receiving;
-  - **no lift authority**;
-  - **no appraisal authority**;
-  - receiving closed before second bell.
-- This reference proves coordination only; it does not establish rigging, wagon, engineering, or appraisal expertise.
+## Economic / artifact lesson
+- Greg ends Ch476 still at **18c cash / 23c Vale / bits unspecified**; only bit-level viewing/tea/living costs occur.
+- 10c floor remains active.
+- 5c reed-glass commission remains pending.
+- He distinguishes total purse from **deployable capital above reserve**: at 18c with a 10c floor, only 8c is currently flexible for speculative acquisition.
+- He correctly records that losing the stillhook was the right result because reserve mattered more than an uncertain theory.
+- Artifact opportunities now create a concrete reason to build capital **before** rare opportunities appear.
 
-## Bracken reference movement
-- Cinder post receives Lakeward district routing notice that ridge inspection has been received and west-access closure remains pending repair.
-- Greg's prior report timestamp is confirmed.
-- A final hazard reference is now **available on request**.
-- Greg sends the request using bit-level postage; no copper spent.
-- Exact final reference wording has not yet arrived.
-
-## South-road organizer lead
-- A Cinder private freight notice appears:
-  - **SOUTH ROAD SEASONAL CREWS / INTAKE + ROUTE STAGING / ORGANIZER NEEDED / THREE CREWS / REFERENCES / FEE BY SCOPE**.
-- Greg copies the contact but does **not** apply automatically.
-- He recognizes the shape as plausible management work while remaining appropriately uncertain about scope.
-- Before committing he wants to know hiring authority, wage handling, safety authority, provisions, firing authority, delay ownership, crew count, and exact responsibilities.
-- This preserves management as a live leverage lane without declaring Greg a field boss after one morning.
-
-## Body / magic / tools
-- Greg uses normal crutches throughout the freight yard because trial-limb balance testing would be stupid around heavy moving loads.
-- Shoulder becomes tired but not injured.
-- Crutch palms/right leg take ordinary standing-and-movement load.
+## Tools / magic / body
+- No artifact acquired or sold by Greg.
+- No magic tests; protocol remains **59 / 53 / 139**.
 - No trial-limb wear.
-- Protocol remains **59 / 53 / 139**.
-- No magic tests.
-- No artifact purchase/sale.
-- Similar black vane bracket from Ch474 remains information only; Greg deliberately does not turn it into a purchase/quest.
+- Shoulder is improving; no new injury.
+- Tool House vane-bracket resemblance remains information only.
 - Lot67 unused.
 
-## Economy
-- Starts **14c cash / 23c Vale / bits unspecified**.
-- Coordination fee +4c -> **18c cash**.
-- Bit-level postage/lunch occur; bit balance remains unspecified.
-- Ends **18c cash / 23c Vale / bits unspecified**.
-- 10c survival floor remains active; 8c above floor.
-- **5c reed-glass introduction commission still pending**, not counted as cash.
-- 30c milestone remains secondary to silver-scale leverage.
-- 20c work-limb deposit remains paid toward 1 silver + 18c quote.
-- Current liquidity is still not high enough to justify clearing major obligations at the expense of reserve.
-
 ## Protected uncertainties
-- Greg ends Ch475 in **Cinder Cross**.
+- Greg ends Ch476 in **Cinder Cross**.
 - Cash **18c**, Vale **23c**, bits unspecified.
-- Protocol **59 / 53 / 139**.
-- Shoulder improving but not fully healed.
-- Reed-glass shipment has not yet been confirmed accepted by Lakeward buyer.
-- 5c commission remains pending.
-- Tool House coordination reference is narrow; no lift/appraisal authority.
-- Joren/Mave relationships are fresh professional contact only.
-- South-road organizer work remains notice/contact only; no scope, employer, fee, crew composition, or acceptance established.
-- Bracken final hazard reference is requested but exact returned wording is not yet known.
-- East Fen Fenwright lower-draft problem remains unresolved and is not currently necessary to the glass deal.
-- Similar vane bracket at Tool House remains unidentified/unvalued.
-- Ch473 marked Three Rays freight lot remains with freight owner, still lacking export release unless newer exact prose changes that later.
-- No enforcement action has occurred yet from Ch473 illegal movement.
+- Reed-glass shipment acceptance remains unconfirmed; 5c commission remains pending.
+- Stillhook belongs to Elian, not Greg.
+- Stillhook magical-displacement behavior is unverified.
+- Exact stillhook maker/generation/repairability remains unverified.
+- Elian's profession/use/relationship to Greg remains unestablished.
+- South-road organizer lead remains available but unapplied.
+- Bracken final-hazard reference exact wording remains pending.
+- East Fen Fenwright lower-draft problem remains unresolved and nonessential to the glass deal.
+- Ch473 marked Three Rays freight lot remains with freight owner unless newer exact prose changes that later.
+- No enforcement consequence has yet occurred from Ch473 gray freight.
 - Hessa/Hark & Venn/Sori/home replies remain pending unless later timing supports arrival.
 - Morrow direct completion remains pending.
 - Sunroad west access remains closed pending repair.
 - No permanent companion.
 
-## Chapter 476 trailhead
-Follow the next actual claim from Ch475/current authority and `state/PROGRESSION_ENGINE.md`.
+## Chapter 477 trailhead
+Follow the next actual claim from Ch476/current authority and `state/PROGRESSION_ENGINE.md`.
 
-Greg begins **18c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**, in Cinder Cross. Reed-glass commission **5c remains pending**. He now has a narrow Tool House coordination reference and a Bracken final-hazard reference request in transit.
+Greg begins **18c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 139**, in Cinder Cross. His **5c reed-glass commission remains pending**. He has just lost the damaged stillhook at 11c because his safe deployable capital ceiling was 8c.
 
 Strong movement:
-- Change grammar again. Ch473 moved gray freight, Ch474 sourced a transaction, Ch475 coordinated people. Do not immediately run another sourcing/management job just because both lanes work.
-- Strong next axes include fantasy/artifact exposure with real operating-rule stakes, physical/adventure pressure growing from Cinder/east-road systems, a return/travel consequence, or a socially different beat that reconnects an older relationship/obligation without becoming callback accounting.
-- Lakeward glass confirmation may arrive only when timing is physically plausible. If it clears, add the 5c then; do not count it early.
-- Even if the 5c clears, **23c total cash would still not justify emptying reserve to erase the 23c Vale obligation**. Debt-closure progression waits for genuinely stronger liquidity/capacity, unless another canon-supported term changes the calculation.
-- South-road organizer lead remains available, but do not immediately promote Greg into a three-crew boss. Scope inquiry may occur later when rhythm supports it.
-- Tool House vane-bracket resemblance remains information only.
-- Preserve Mave/Joren as competent people with their own work, not automatic recurring companions.
-- Let Greg's support identity grow through consequences and system effects rather than repeated internal manifestos.
-- Keep fantasy density alive. The last several chapters have leaned commercial/logistical; a magical/artifact/environmental axis is now attractive if canon can support it.
+- Change grammar again. Ch473 gray freight, Ch474 sourcing, Ch475 coordination, Ch476 artifact auction. Do not immediately run another auction or another paid coordination job.
+- A return/travel move is now attractive. Cinder has yielded real value, while Lakeward/home/work-limb/letters and the pending glass transaction create legitimate westward pull.
+- Greg can now **pay an ordinary travel cost when time/opportunity makes that the better choice** instead of forcing every trip to become a clever optimization. Preserve the 10c floor and current economic stage.
+- If the Lakeward glass confirmation becomes physically plausible after elapsed travel/message time, it may clear in Ch477 or later. Add the 5c only on actual confirmation.
+- Keep fantasy density alive through road systems, magical ecology, unusual infrastructure, or another consequence that changes travel grammar; avoid another mostly indoor commercial chapter if a stronger route exists.
+- The stillhook loss should motivate capital and body/tool thinking without making Greg chase Elian immediately.
+- Work-limb relevance is newly sharpened by hand economy, but do not invent payment schedule/remaining terms. Exact current limb obligations must be verified before payment or pickup.
+- Debt-closure progression remains inactive at current liquidity. Even 23c cash after a possible commission would not justify wiping out reserve to clear the 23c Vale obligation.
 
 Avoid:
-- another `Greg asks the right business questions and gets paid` chapter immediately;
-- instant field-manager promotion;
-- treating 18c as poverty or wealth;
-- debt payoff before reserve/capacity genuinely support it;
-- making Mave/Joren into Greg's crew by convenience;
-- buying the vane bracket solely because it looks familiar;
-- using Bracken closure/reference as proof Greg diagnosed the hazard correctly beyond exact official wording;
-- forced punishment for Ch473 gray freight.
+- immediate second artifact auction;
+- Elian conveniently returning with complete test results next chapter;
+- buying a cheaper substitute just to compensate Greg for losing;
+- counting pending commission early;
+- turning 18c into poverty or wealth;
+- paying obligations before liquidity genuinely scales;
+- another strategic manifesto;
+- forcing punishment for Ch473 gray freight.
 
-**MANDATORY TITLE CHECK CH476:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
+**MANDATORY TITLE CHECK CH477:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
