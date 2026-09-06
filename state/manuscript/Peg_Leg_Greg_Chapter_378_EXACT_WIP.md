@@ -697,7 +697,9 @@ No flame damage.
 
 He tagged fixture out of service.
 
-"Same feed branch as Ch351 outage?" I almost asked.
+"Same feed branch as Ch351 outage?"
+
+I almost asked.
 
 No.
 
