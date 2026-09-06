@@ -1,248 +1,213 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 420 - **THE BIDDER**.
+- Current exact story endpoint: Chapter 421 - **THE STUDENT**.
 - Book 1 Chapters 1-82 closed. Book 2 closed at Chapter 180. Book 3 active from Chapter 181.
 - Permanent running manuscript physically materialized through Chapter 248.
-- Exact Chapters 249-420 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
+- Exact Chapters 249-421 are durable checkpoint files under `state/manuscript/`; exact prose outranks summaries. Older synchronization debt remains.
 
 ## Chapter-title authority
 - Titles are identity cards: **THE + ROLE / IDENTITY / SOCIAL FUNCTION GREG EMBODIES**.
-- Ch420 answer: Greg is being **a bidder**. He enters a real Duskport surplus auction, wants useful equipment badly, sets ceilings before emotion can move them, bids selectively, walks away from the object he wants most when market price outruns his finances, and acquires one modest diagnostic tool at a fair price.
-- Therefore title **THE BIDDER**.
-- Recent: 416 THE BREAKER; 417 THE EARNER; 418 THE CLIENT; 419 THE TOURIST; 420 THE BIDDER.
+- Ch421 answer: Greg is being **a student**. He works a normal Merry Wake shift, then enters Masta's first real trial-shell session and is forced to stop performing competence, expose bad gait information honestly, and relearn how to stand and step in a new body arrangement.
+- Therefore title **THE STUDENT**.
+- Recent: 417 THE EARNER; 418 THE CLIENT; 419 THE TOURIST; 420 THE BIDDER; 421 THE STUDENT.
 
 ## Major arc direction - Duskport / work toward limb
 - Greg remains in **Duskport**, self-directed.
-- Venn Marine Recovery open temporary block still has **2 nominal full days remaining** after Ch420, because auction day itself was not a full Venn block day.
+- Venn Marine Recovery open temporary block has **1 nominal full day remaining** after Ch421.
 - Greg has paid **20c deposit** for Masta Venn travel-work limb.
-- Greg still **does not have peg/work limb yet**.
-- **First trial shell is ready tomorrow after work if swelling/skin condition are acceptable.** This is not finished leg.
-- User-directed future mindset unlock remains protected for sustained successful use, not shell fitting.
+- First **trial shell fitting has now happened**.
+- Greg still does **not** possess a finished peg/work limb and does not take trial shell home.
+- User-directed future mindset unlock remains protected for sustained successful use, not first shell session.
+- The fitting arc is now active and concrete: work normally, skin check, Masta adjusts, return for second supervised session if stump remains healthy.
 
-## Chapter 420 - THE BIDDER
+## Chapter 421 - THE STUDENT
 
-### Auction setup
-- Greg/Sori/Maro/Dask attend old customs-hall auction promised in Ch419.
-- Auction specializes in retired harbor optics, survey instruments, load markers, signal plates, inspection frames, and municipal surplus.
-- Sori writes `LEG BEFORE JUNK` on Greg's lot sheet.
-- Greg insists these are tools, not junk.
-- Actual buyers include surveyors, dock foremen, ship personnel, collectors, and optics specialists, preventing bargain-bin protagonist market logic.
+### Merry Wake workday before fitting
+- Greg begins **31c cash / 23c Vale / bits unspecified**.
+- Full Merry Wake assignment after Tideglass clears lower-cabin corridor, with exclusion around former storm-heart mount.
+- Greg assigned tally/condition, no evening custody, expected **4c** if clean.
+- Tavren explicitly releases Greg after fifth bell for Masta fitting.
+- Recovery includes:
+  - brass bunk frames / locker door;
+  - kitchen hardware basket;
+  - corroded mattress/bed-frame scrap;
+  - narrow cedar wall cabinet stamped **M. VALE / 3C**.
+- Manifest has passenger **Mera Vale**, seamstress, berth 3C; no relation to Sori established.
+- Greg correctly records name match without inventing family connection.
+- A warped ventilation-trunk lift is deferred after repeated sling adjustments worsen torn seam; Tavren chooses to return with spreader frame rather than force technically possible recovery.
+- Greg earns **4c**: cash **31c -> 35c**.
 
-## Important auction lots
-### Lot 19 - six retired harbor load witnesses
-- Six glass-strip load witnesses in case:
-  - 4 verified responsive;
-  - 1 intermittent;
-  - 1 untested due hairline backing chip.
-- Used to preserve visible strain direction briefly after load releases.
-- One green-thread/brass-center unit shows slightly different two-color/off-axis behavior during demonstration.
-- Dask only recognizes possible Tideglass-adjacent construction family, not exact function.
-- Market notices visible difference too.
-- Estimate **4c-8c**.
-- Greg decides a **9c ceiling**, bids 9c, then stops immediately at 10c.
-- Lot sells **12c** to another buyer.
-- Greg gets no secret bargain and accepts market-visible utility is correctly priced.
+## First trial shell - physical canon
+- At Hark & Venn after work, Masta checks residual limb first:
+  - skin intact;
+  - no open abrasion;
+  - mild expected post-yard swelling;
+  - baseline circumference slightly increased but acceptable for useful fit test.
+- Trial shell components:
+  - pale layered leather/stiff inner shell;
+  - adjustable straps;
+  - temporary straight support post;
+  - plain flat test foot;
+  - soft cloth/thin padded leather liner.
+- It is explicitly **not finished leg**.
+- Greg does not take it home.
 
-### Lot 27 - old harbor parallax comparator
-- Black brass frame with:
-  - 2 narrow viewing windows;
-  - sliding center vane;
-  - aged gray membranes;
-  - polished leather grip.
-- Listing: functional movement response verified, range/calibration unknown, maker unknown, retired private estate.
-- Estimate **12c-20c**.
-- Dask recognizes design family as pre-standard dual-line comparator using membrane differential, not exact maker/model.
-- Practical function:
-  - compares apparent shift between two sight lines;
-  - common shift yields little response;
-  - relative shift creates membrane differential.
-- Greg immediately sees broad uses in fieldwork, structures, combat observation, artifact testing, and fixed-vs-moving reference problems.
-- This is the object Greg **wants badly**.
-- Because he has only 33c, limb balance remains huge, Vale exists, and fitting expenses/food/lodging/return matter, he precommits **8c ceiling** before auction.
-- Auction opens above Greg ceiling; multiple rational buyers bid.
-- Lot sells **21c** to woman with multiple brass lenses.
-- Greg does not chase.
-- Important competence beat: **wanting does not become buying**.
-- Greg is angry that his ceiling was correct, not regretful that market cheated him.
+### First standing / gait findings
+- Greg automatically reaches for crutches; Masta requires rail use for assessment.
+- Habitual body-map issue from Ch415 remains strong:
+  - right leg keeps too much weight;
+  - shoulders compensate;
+  - pelvis feels `level` to Greg when actually still low-left.
+- Masta manually cues correct pelvis position; correct feels crooked to Greg.
+- Initial walking is much worse than crutches:
+  - left post advances too far;
+  - test foot slaps;
+  - right knee locks;
+  - rail grip excessive;
+  - toe-catch compensation develops;
+  - right step shortens preemptively;
+  - shoulders try to hide mistakes.
+- Masta identifies Greg's dangerous competence habit: he starts correcting before she can observe error, which hides fitting information.
+- Key instruction: **`Walk honestly.`**
+- This is durable training logic. Greg must allow bad data to be visible during fittings rather than instantly adapting around hardware problems.
 
-### Lot 31 - pocket tide prism
-- Current-direction indicator, low sensitivity, expired calibration, cracked case, basic response verified.
-- Estimate **2c-4c**.
-- Greg declines because WS-F/9 already overlaps enough that purchase would be redundant rather than collection depth.
-- Sells **3c**.
+### Pressure / adjustment findings
+- First shell round shows:
+  - excessive upper-lateral pressure under fatigue;
+  - narrow posterior/knee-edge pressure line during hip extension;
+  - test foot externally rotates slightly because Greg turns body toward familiar safe alignment.
+- No blister/open skin/numbness/burning.
+- Masta:
+  - reshapes heated leather edge;
+  - pads opposite pressure line rather than directly over it;
+  - rotates support post ~2 degrees inward.
+- Second round is **better, not good**.
 
-### Lot 36 - HT-LP-4 last-peak load tile
-- Broad ceramic tile with bronze back.
-- Stamped **HT-LP-4**.
-- Retired Harbor Tension last-peak series 4.
-- Function:
-  - records strongest sustained load since reset;
-  - displays dark crescent toward peak pressure edge;
-  - slow reset ~15 minutes;
-  - one peak only, no event history;
-  - no mount;
-  - not certified precision.
-- Estimate **1c-3c**.
-- Greg sets **2c ceiling** and wins at **2c**.
-- This is a real acquisition but not hidden miracle or bargain.
-- Tavren later confirms **2c is fair market** and explains it is useful for rough diagnosis, hates sharp impact, slow reset, not certified work.
-- Greg sees possible uses for:
-  - rough brace/load diagnostics;
-  - crutch repair testing;
-  - pack frames;
-  - artifact test frames;
-  - specialists-approved temporary observation.
-- Acquisition deepens tool collection without loot treadmill.
+## First both-hands-free standing moment
+- During second round, Greg reaches a brief supported standing point with weight split across both sides.
+- He lifts one hand, then both hands from rails for roughly **one second** before drifting right and catching rail.
+- No fall.
+- No miracle.
+- This is emotionally meaningful because for one second both hands belong to Greg while standing rather than serving crutches.
+- Masta allows exactly one second of sentiment, then returns to work.
+- **This is NOT yet the full `equation changed` mindset unlock.** It is first credible evidence.
 
-### Lot 42 - unknown three-foot black oval
-- Black oval with 3 brass feet.
-- Response to low charge verified; purpose unconfirmed; estate lot; estimate **6c-12c**.
-- Under charge one foot rotates slightly toward north side of bench.
-- Greg has only **pattern familiarity**, vaguely connecting shape to old field-leveling/reference families from first life.
-- Dask does not know it.
-- Greg recognizes this could hide real information gap, but evidence is too weak to justify spending.
-- Collector buys at **5c** after lowered opening.
-- Greg does **not bid**.
-- Important artifact-market rule: information gaps create possibility, not automatic protagonist bargains.
+## Fit process / next steps
+- Masta ends session before Greg wants because skin has supplied enough information.
+- After repeated passes, upper-edge redness is stronger but still safe/intact.
+- Greg is told:
+  - **no shell tomorrow**;
+  - work normally on crutches;
+  - inspect skin;
+  - Masta adjusts shell overnight;
+  - return next evening if skin remains clean.
+- Finished-limb timing remains intentionally unresolved.
+- Masta says finished leg comes when **`this stops lying`**, tapping shell and Greg's hip/body map.
+- Hardware direction discussed but not finalized:
+  - broader travel foot than test block;
+  - wet-grip option less aggressive than Nali's current wet-deck foot;
+  - possible reinforced side stay if lateral load persists;
+  - no articulated ankle for first build because cost/need do not justify it yet.
+- Basic travel foot first, then later modular options if use/money justify.
 
 ## Economy
-- Greg begins **33c cash / 23c Vale / bits unspecified**.
-- Buys HT-LP-4 load tile for **2c**.
-- Ends **31c cash / 23c Vale / bits unspecified**.
-- Limb deposit remains already paid.
-- No Venn pay in Ch420.
-- Maro buys 3 brass specimen clips for 1 bit from post-auction table; Dask/Sori buy nothing tracked in copper.
+- Greg begins **31c cash / 23c Vale / bits unspecified**.
+- Earns **4c** Merry Wake workday.
+- Ends **35c cash / 23c Vale / bits unspecified**.
+- 20c deposit remains paid toward total **1 silver + 18c** travel-work limb quote.
+- No new purchase in Ch421.
 
-## Artifact inventory - new
-Greg now carries:
+## Artifact inventory
+Greg currently carries:
 1. retired line quietener, bought Ch397 8c;
 2. WS-F/9 retired slate current reader, bought Ch402 1c incl two-renewal paste;
-3. **HT-LP-4 retired Harbor Tension last-peak load tile, bought Ch420 2c**.
-- HT-LP-4 limitations: one strongest sustained load since reset, slow ~15m reset, no mount, not certified precision, dislikes sharp impact.
-- No hidden additional function/provenance established.
-
-## Auction / money psychology
-- Greg explicitly distinguishes:
-  - market-visible value;
-  - what he personally wants;
-  - what he can responsibly pay now.
-- He sets ceilings before bidding and honors them.
-- He walks away from load witnesses at 10c after max 9c.
-- He does not enter parallax comparator bidding because opening already exceeds max 8c.
-- The comparator selling at 21c reinforces Greg's desire for higher earning ceiling and capital accumulation.
-- Greg briefly dislikes wealthy buyer but recognizes money is capability, not morality.
-- This supports artifact engine without making Greg either miserly or financially stupid.
-
-## Masta / trial-shell progression
-- After auction Greg stops at East Hook.
-- Tavren confirms HT-LP-4 identity/basic use and fair price.
-- Tavren says next day likely full Merry Wake work if Tideglass clears lower-cabin corridor; otherwise quay intake.
-- Nali relays Masta's runner message:
-  - **trial shell ready tomorrow after work if swelling normal**;
-  - Greg should arrive washed and not bleeding.
-- Trial shell remains:
-  - not finished leg;
-  - likely first awkward rail steps;
-  - pressure-zone feedback/adjustment;
-  - body/gait retraining beginning.
-- User-directed mental `equation changed` moment remains **future**, after sustained successful use rather than merely seeing/strapping first shell.
-
-## Peg-Leg Greg nickname
-- Pell lightly asks whether auction bundle means Greg bought leg.
-- Greg answers `Tile.`
-- Pell jokes this is worse.
-- Nickname does not dominate chapter.
+3. HT-LP-4 retired Harbor Tension last-peak load tile, bought Ch420 2c.
+- HT-LP-4 unused in Ch421.
 
 ## Magic
 - Protocol remains **59 minimal / 53 shaping / 135 external attempts**.
-- No deliberate Greg magic in Ch420.
-- Quietener/WS-F/9 unused.
-- No magical progression from auction.
+- No deliberate Greg magic in Ch421.
+- No S-class/locked-mode activation.
+- Future body-confidence/mobility unlock remains nonmagical in origin even if it later affects willingness to train/use magic.
 
 ## Greg physical state
 - Left BKA stable.
-- Crutches sound.
-- No peg yet.
-- No new injury.
-- Carrying HT-LP-4 immediately creates small carrying awkwardness and reinforces why freeing hands matters.
+- Post-fitting skin intact with temporary upper-lateral redness and narrow posterior pressure line, no injury.
+- New fatigue in left hip/lower back from unfamiliar loading.
+- Right calf complains differently because old overwork pattern is being interrupted.
+- Crutches remain faster, easier, and familiar immediately after fitting.
+- Trial shell currently remains at Hark & Venn for adjustment.
+
+## Peg-Leg Greg nickname
+- Pell asks `Big day, Peg-Leg?` in morning and later jokes nickname now has a character arc after Greg reports being worse than crutches.
+- Nickname remains affectionate/local and lightly recurring.
 
 ## Greg social/internal movement
-- Greg experiences genuine frustration/desire rather than detached market analysis.
-- Sori does not congratulate restraint theatrically; she notes Greg looks angry and lets that be true.
-- Dask successfully refrains from buying optics and offers technical context without universal expertise.
-- Maro remains quieter and buys specimen clips relevant to his own interest.
-- Greg realizes tomorrow now has different emotional shape because first custom shell physically exists somewhere in Masta's shop.
-- Closing concept: **tomorrow the equation gets its first new variable**.
+- Greg is excited enough to wake early but tries to hide it.
+- Work chapter foregrounds discipline: Nali catches his attention drifting toward future fitting and tells him `Don't be sorry. Be here.`
+- At fitting, Greg experiences humiliation/frustration at being worse than crutches despite enormous first-life competence.
+- He accepts that being a beginner again is useful.
+- The one-second both-hands-free moment matters deeply but does not produce instant transformation.
+- Closing understanding:
+  - equation has **not** changed yet;
+  - new variable is now present;
+  - transformation will come through repeated supervised bad steps, adjustment, skin tolerance, and retraining.
 
 ## Dialogue variance
-- Sori: financial guardrail without parenting Greg; sharp auction banter.
-- Dask: design-family recognition, technical temptation, but capable restraint.
-- Maro: low-key observer, specimen-interest lane.
-- Tavren: practical confirmation of load-tile use/value.
-- Nali: blunt relay of fitting appointment, no sentimentality.
+- Masta: craft-teacher bluntness, actively blocks performance/compensation and demands honest bad data.
+- Tavren: pragmatic employer who protects fitting appointment without sentiment.
+- Nali: operational focus, catches Greg mentally drifting.
+- Sori: restrained support, waits before teasing when she realizes one-second hands-free mattered.
+- Dask: literal process curiosity, disappointed trial shell does not come home.
+- Pell: nickname carrier and joke about character arc.
 
 ## Recent role ledger
-- 416 THE BREAKER
 - 417 THE EARNER
 - 418 THE CLIENT
 - 419 THE TOURIST
 - 420 THE BIDDER
+- 421 THE STUDENT
 
 ## Protected uncertainties
-- Greg ends Ch420 at Anchor's End in Duskport.
-- Greg cash exact **31c**, Vale **23c**, bits unspecified.
+- Greg ends Ch421 at Anchor's End in Duskport.
+- Greg cash exact **35c**, Vale **23c**, bits unspecified.
 - Protocol **59 / 53 / 135**.
-- Greg still **does not have peg/work limb**.
-- 20c deposit paid.
-- **Trial shell ready tomorrow after work if swelling/skin normal.**
-- Two nominal full Venn block days remain.
-- Next Venn day likely Merry Wake if Tideglass clearance holds, otherwise quay intake.
-- HT-LP-4 is now Greg property.
-- Parallax comparator was not acquired; sold 21c.
-- Load-witness case not acquired; sold 12c.
-- Unknown three-foot oval not acquired; sold 5c.
-- Storm-heart locker remains Tideglass custody.
+- Greg still **does not own/wear a finished peg/work limb**.
+- First trial-shell session complete; shell remains at Hark & Venn overnight for adjustment.
+- Next day Greg should use crutches normally and monitor skin.
+- If skin remains clean, second shell session is expected following evening.
+- 1 nominal full Venn block day remains.
+- Mera Vale relation to Sori unknown.
+- HT-LP-4 remains Greg property and unused.
 - No home reply yet.
+- Storm-heart locker remains Tideglass custody.
+- Merry Wake remains active.
 - Nickname remains lightly local.
 
-## Chapter 421 trailhead
-Follow next actual claim from Ch420/current authority.
+## Chapter 422 trailhead
+Follow next actual claim from Ch421/current authority.
 
-Greg begins **31c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**.
-
-Physical/timeline:
-- next Duskport day;
-- likely full Venn assignment;
-- **after work, Masta trial-shell appointment if Greg's residual limb remains healthy**;
-- no peg/work limb yet at chapter start;
-- left BKA stable; crutches sound;
-- HT-LP-4 newly carried.
+Greg begins **35c cash / 23c Vale / bits unspecified**, protocol **59 / 53 / 135**.
 
 Strong movement:
-- Fulfill trial-shell promise in Ch421 unless real story movement gives credible delay. Do not stall artificially.
-- Chapter can begin with work, but do not spend so much time at Venn that fitting becomes tag scene.
-- First trial shell should be awkward and physically revealing:
-  - pressure distribution;
-  - wrong habitual pelvic read;
-  - right-side overwork;
-  - rail dependence;
-  - initial gait may be worse than crutches;
-  - skin checks and adjustment matter.
-- Let Greg get at least one emotionally meaningful moment of having both hands available while standing, but **do not trigger full user-directed mindset unlock yet** unless sustained movement evidence genuinely earns it.
-- First shell may establish what final hardware/foot/stay choices need to change.
-- Actual finished work limb can arrive after further adjustment/payment/material stages, not instantly.
-- HT-LP-4 can be tested later; do not force it into fitting unless Masta independently finds it useful.
-- Keep money/balance unresolved. Greg still owes large remaining limb balance.
+- Do **not** immediately strap shell on again in morning. Honor Masta's no-shell day and let Greg work/live on crutches while body recovers.
+- One nominal Venn block day remains. This can become meaningful employment-choice point: Tavren may offer another bounded block, Greg may decline/accept partially, or another Duskport opportunity may compete.
+- Mera Vale / Sori surname coincidence can be explored socially if organic, but do not force family relation.
+- Second shell session next evening can happen if skin remains healthy, but chapter need not become another full fitting chapter if stronger work/social movement comes first.
+- If second session occurs, evidence can improve modestly: fewer rail corrections, better pelvis awareness, slightly longer unsupported stand, still awkward walking.
+- Full user-directed `equation changed` mindset shift should wait until Greg can sustain actual practical movement, likely after more sessions and near/final hardware.
+- Keep money/remaining balance pressure alive without poverty panic.
+- Consider whether Tavren extends work or Greg begins choosing among Venn, labor exchange, fitting schedule, auction/tool curiosity, and eventual road continuation.
 
 Avoid:
-- instant graceful walking;
-- final peg completed in one fitting;
+- finished limb next morning;
+- instant graceful gait;
 - S-class switch;
-- magical leg behavior;
-- injury melodrama purely to delay fitting.
+- magical prosthetic behavior;
+- retconning first shell as success beyond what happened.
 
-**MANDATORY TITLE CHECK CH421:** answer `Who is Greg being?` before title. Use THE [ROLE].
+**MANDATORY TITLE CHECK CH422:** answer `Who is Greg being?` before title. Use THE [ROLE].
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
