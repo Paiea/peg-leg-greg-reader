@@ -71,6 +71,7 @@
     "258": {"showcase": false, "reason": "redundant_progression"},
     "263": {"showcase": false, "reason": "redundant_progression"},
     "267": {"showcase": false, "reason": "redundant_progression"},
-    "270": {"showcase": false, "reason": "bridge_not_needed"}
+    "270": {"showcase": false, "reason": "bridge_not_needed"},
+    "274": {"showcase": false, "reason": "redundant_progression"}
   }
 }
