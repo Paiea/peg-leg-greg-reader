@@ -282,11 +282,11 @@ License or two references.
 
 One card:
 
-**TRANSFER SEAL WITNESS / EAST LANDING / 5C / HALF DAY / ONE DISTRICT FIELD REFERENCE / NO APPRAISAL AUTHORITY**
+**TRANSFER SEAL WITNESS / EAST LANDING / 2S / HALF DAY / ONE DISTRICT FIELD REFERENCE / NO APPRAISAL AUTHORITY**
 
 There.
 
-Five copper.
+Two silver.
 
 Half day.
 
@@ -600,11 +600,11 @@ The landing officer signed my completion slip.
 
 **TRANSFER SEAL WITNESS COMPLETED. RECORD ACCEPTED. NO SEAL BREAK DURING TRANSFER. ONE CRATE MOVED UNDER DISCREPANCY HOLD.**
 
-Five copper.
+Two silver.
 
-Ten to fifteen.
+My copper purse stayed ten.
 
-Still below thirty.
+The silver sat beside it as working capital.
 
 But purse was not the important part.
 
@@ -682,11 +682,11 @@ I did not write that down.
 
 Some jokes deserved mercy.
 
-Late afternoon, I had fifteen copper again.
+Late afternoon, I had ten copper and two silver.
 
-Five above floor.
+The old copper floor still existed.
 
-Same place I'd been before returning Lakeward archive.
+The new money sat above it in a different tier.
 
 If I judged only purse, today looked like repair work on my own bad financial decisions.
 
@@ -790,15 +790,15 @@ Morrow completion request sent.
 
 Bracken hazard timing notation secured, final pending.
 
-Transfer seal witness completed, +5c.
+Transfer seal witness completed, +2s.
 
 Second field verification secured.
 
 7c bonded discrepancy review application submitted.
 
-Cash 15c.
+Cash 10c + 2s.
 
-Thirty target unchanged.
+Reserve target now needs silver-scale recalibration.
 
 Then one last line.
 

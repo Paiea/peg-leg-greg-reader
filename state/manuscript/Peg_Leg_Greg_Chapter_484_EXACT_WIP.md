@@ -22,7 +22,7 @@ Most ordinary.
 
 Then:
 
-**NORTH FREIGHT YARD SEEKS 4 YARD SWAY SHOES / OLD DISTRICT PATTERN ACCEPTABLE / OPEN DISPOSAL OR CLEAN PRIVATE CHAIN REQUIRED / CURRENT LOAD RATING NOT REQUIRED / BENCH FUNCTION MUST PASS / OFFER TO 1S 2C FOR FOUR**
+**NORTH FREIGHT YARD SEEKS 4 YARD SWAY SHOES / OLD DISTRICT PATTERN ACCEPTABLE / OPEN DISPOSAL OR CLEAN PRIVATE CHAIN REQUIRED / CURRENT LOAD RATING NOT REQUIRED / BENCH FUNCTION MUST PASS / OFFER TO 8S FOR FOUR**
 
 I stopped.
 
@@ -46,7 +46,7 @@ I copied notice.
 
 Then saw another one three rows lower.
 
-**CROSS STREET SURPLUS / 5 OLD YARD SHOES / DISTRICT MARKS / SELL LOT / 1S 6C / NO SPLIT**
+**CROSS STREET SURPLUS / 5 OLD YARD SHOES / DISTRICT MARKS / SELL LOT / 10S / NO SPLIT**
 
 I stared.
 
@@ -72,9 +72,9 @@ Paper gap likely existed.
 
 Function gap existed.
 
-And I had fifteen copper.
+And I had enough silver to buy the seller lot if I wanted to be stupid.
 
-Which was not enough to buy seller lot without violating every intelligent thought I had possessed this month.
+That was no longer the same thing as having a reason to own it.
 
 Good.
 
@@ -270,11 +270,11 @@ Good.
 
 Real transaction.
 
-"Four copper if I bring a buyer who completes at at least one silver two copper for the four receipt-matched shoes."
+"Two silver if I bring a buyer who completes at eight silver or more for the four receipt-matched shoes."
 
 Her eyes narrowed.
 
-"Four copper?"
+"Two silver?"
 
 "Only if sale completes."
 
@@ -292,13 +292,13 @@ I liked that.
 
 She looked at my copied buyer notice.
 
-"Three."
+"One."
 
-"Four."
+"Two."
 
-"Three and one bit for copying."
+"One silver and one bit for copying."
 
-"Four. You keep fifth."
+"Two silver. You keep fifth."
 
 "Why would I keep worst one?"
 
@@ -324,11 +324,11 @@ She stared long enough that I wondered whether I had become annoying professiona
 
 Probably.
 
-"Four if they pay one silver three," she said.
+"Two if they pay nine silver," she said.
 
-"Four if they pay one silver two or more."
+"Two if they pay eight silver or more."
 
-"Three if one-two. Four if one-three."
+"One if eight. Two if nine."
 
 I thought.
 
@@ -344,7 +344,7 @@ But buyer should know I am paid by seller.
 
 Important.
 
-"Fine. Three if completed at one silver two. Four if one silver three or more. You pay records bits if we need them."
+"Fine. Two silver if completed at eight silver or more. You pay records bits if we need them."
 
 She nodded.
 
@@ -356,7 +356,7 @@ Good seller.
 
 We wrote:
 
-**Greg introduction / transaction assist. Seller pays 3c if four receipt-matched sway shoes sell for at least 1s2c. Seller pays 4c if completed price at least 1s3c. Seller covers agreed public-record copy/inspection bits. No fee if no completed sale. Fifth shoe excluded unless separately agreed.**
+**Greg introduction / transaction assist. Seller pays 2s if four receipt-matched sway shoes sell for at least 8s. Seller covers agreed public-record copy/inspection bits. No fee if no completed sale. Fifth shoe excluded unless separately agreed.**
 
 She signed.
 
@@ -484,7 +484,7 @@ Fine.
 
 "Paid by who?"
 
-"Seller. Three copper if sale completes at one silver two. Four if one silver three or more."
+"Seller. Two silver if sale completes at eight silver or more."
 
 His face changed.
 
@@ -504,9 +504,9 @@ Not warm.
 
 But fair.
 
-"Good. Then I want one silver one."
+"Good. Then I want seven silver."
 
-"Your posted offer says to one silver two."
+"Your posted offer says to eight silver."
 
 "To."
 
@@ -772,15 +772,15 @@ This was where intermediary could become liar.
 
 I did not.
 
-Quartermaster said, "Three at nine copper."
+Quartermaster said, "Three at five silver."
 
 Seller said, "No."
 
 I stayed quiet.
 
-"Nine each?" she asked.
+"Five each?" she asked.
 
-"Nine total."
+"Five total."
 
 "Get bent."
 
@@ -790,7 +790,7 @@ He pointed at failed fourth.
 
 "I'm buying three useful shoes and one future repair if I take four."
 
-"You're not taking four at nine."
+"You're not taking four at five silver."
 
 "Then no deal."
 
@@ -858,17 +858,17 @@ Buyer impatient.
 
 Good.
 
-She said, "One silver four for all four, fourth delivered functioning before sixth day."
+She said, "Nine silver for all four, fourth delivered functioning before sixth day."
 
 Quartermaster laughed.
 
 "No."
 
-"Your notice says to one-two."
+"Your notice says to eight."
 
 "For four passing now."
 
-"Then one-two with fourth later."
+"Then eight with fourth later."
 
 He considered.
 
@@ -880,7 +880,7 @@ Mechanic said, "Latch is probably simple."
 
 Quartermaster looked at seller.
 
-"One silver one. Three now. Fourth after pass. No fourth by sixth day, three copper withheld."
+"Seven silver. Three now. Fourth after pass. One silver held until the fourth passes."
 
 Seller snapped, "Withheld from what? You already cut price."
 
@@ -914,29 +914,29 @@ Seller frowned.
 
 "Your decision."
 
-Quartermaster said, "One silver for three. Two copper for fourth after pass."
+Quartermaster said, "Six silver for three. Two silver for fourth after pass."
 
 Seller looked.
 
-"One silver one for three. One copper fourth."
+"Seven for three. One for fourth."
 
 "No."
 
-"One silver for three. Two for fourth. You collect fourth only when it passes here."
+"Six for three. Two for fourth. You collect the fourth only when it passes here."
 
 Seller thought.
 
-That recreated buyer's posted one silver two total.
+That recreated buyer's posted eight-silver total.
 
 But delayed fourth risk on seller.
 
-My commission agreement: completed sale reaches one silver two or more.
+My commission agreement: completed sale reaches eight silver or more.
 
 Partial three sale did not complete my condition.
 
 Good.
 
-I said, "My fee only if fourth completes and total reaches one silver two."
+I said, "My fee only if fourth completes and total reaches eight silver."
 
 Seller glared.
 
@@ -948,11 +948,11 @@ She accepted.
 
 Written.
 
-North Freight Yard bought three now for one silver.
+North Freight Yard bought three now for six silver.
 
 Fourth remained seller's.
 
-Conditional: buyer would buy fourth for two copper if it passed same bench before sixth-day frame deadline.
+Conditional: buyer would buy fourth for two silver if it passed same bench before sixth-day frame deadline.
 
 No obligation to buy failed fourth.
 
@@ -1000,37 +1000,35 @@ Damped.
 
 He marked **PASS / CURRENT BENCH ONLY / NO LOAD CERT**.
 
-Quartermaster paid two copper.
+Quartermaster paid two silver.
 
-Total deal: one silver + two copper.
+Total deal: eight silver.
 
-Seller paid me three copper under agreement.
-
-Fifteen to eighteen.
+Seller paid me two silver under agreement.
 
 There.
 
-Three copper.
+Two silver.
 
-Again.
+Not a day-labor fee.
 
-But not a three-copper day job.
+A commission.
 
 I had not sold day.
 
 I had connected existing demand and supply, narrowed title uncertainty, protected buyer's test authority, helped restructure a failed four-unit sale into staged transaction, and waited to get paid until actual friction cleared.
 
-Still three copper.
+Still bounded.
 
 Different engine.
 
 Seller counted my coins.
 
-"Three."
+"Two silver."
 
 "Yes."
 
-"You should have taken two."
+"You should have taken one."
 
 "No."
 
@@ -1109,9 +1107,9 @@ I wrote notebook:
 **Resolved: open-disposal docket + three-punch void strike**
 **Friction 2: 1 of 4 failed bench due latch**
 **Resolved commercially, not technically: 3 sold now, 4th conditional after repair/pass**
-**Final completed price: 1s2c**
-**My fee: 3c**
-**Cash 15 -> 18**
+**Final completed price: 8s**
+**My fee: 2s**
+**Silver +2s; ordinary copper unchanged**
 **I owned none of it.**
 
 Then:

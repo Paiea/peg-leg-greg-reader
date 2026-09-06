@@ -8,7 +8,7 @@ That was the thought I woke up with.
 
 Not because seven copper was bad money.
 
-Yesterday five copper for half a day had felt like proof that I could climb out of the one-copper, two-copper sludge I'd been treating as normal.
+Yesterday two silver for half a day had felt like proof that trusted work could finally move above the one-copper, two-copper sludge I'd been treating as normal.
 
 Seven was better.
 
