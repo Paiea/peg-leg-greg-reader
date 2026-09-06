@@ -296,6 +296,22 @@ Before drafting, identify privately a **light chapter contract**:
 
 The contract is a steering interface, not canon, not a scene-by-scene outline, and not a checklist the prose must mechanically satisfy. Do not create a separate durable chapter-contract file unless a specific workflow genuinely needs one.
 
+### Scene beat ownership
+
+Before drafting a dialogue-bearing scene, privately identify the dramatic owner sequence wherever ownership changes materially. This can be as light as `Antonius -> Greg -> Jorren -> Antonius`. It is disposable steering, not a screenplay, not manuscript markup, and not a new durable scene-outline system.
+
+**One clear dramatic owner per dialogue paragraph is the default.**
+
+- same-owner dialogue, tags, action, and reaction may stay together when natural;
+- another character's action, reaction, or spoken turn normally starts a new paragraph;
+- Greg's first-person interior response after another character speaks normally starts a Greg-owned paragraph;
+- when a paragraph leaves one owner, visits another, and returns to the first, split the owner sequence;
+- distinguish actual characters rather than treating ownership as Greg versus everyone else;
+- do not add dialogue tags merely to satisfy a detector;
+- do not turn ownership clarity into uniform one-sentence-paragraph spam.
+
+Apply the existing dialogue-variance model at the owned-beat level: base voice + relationship + current state + scene pressure + small human variance. Build the exchange from character-owned beats, then render natural prose.
+
 Then write the chapter rather than continuing to plan it.
 
 Do not mechanically satisfy every optional beat from a prompt. The prompt is steering, not a checklist. If the prose produces a better canon-consistent path, follow it and update state from what actually happened.
@@ -315,6 +331,16 @@ After drafting:
 - do not polish away Greg's voice;
 - do not change story outcomes during a light pass.
 
+For every dialogue-bearing paragraph, run an ownership sweep before calling the light pass complete:
+
+1. Who owns the quoted speech?
+2. Who owns each action or reaction?
+3. Who owns any first-person interior response?
+4. Does the paragraph leave one owner, visit another, and return?
+5. Would a reader have to mentally reassign the paragraph while reading it?
+
+Repair the smallest useful layer first: paragraph boundary, then surrounding action/reaction scaffolding, then minimal attribution. Preserve working spoken dialogue as the anchor. Rewrite the smallest necessary dialogue fragment only when the line itself remains ambiguous. This is local clarity work, not permission for chapter compression or unrelated polishing.
+
 For a requested heavy prose pass, sentence and paragraph restructuring may be much stronger, but canon, characterization, scene intent, and outcomes remain protected unless repairing an obvious contradiction.
 
 ## 16. Verification before shipping
@@ -326,6 +352,7 @@ At minimum verify:
 - chapter exists in the intended permanent manuscript path;
 - word count meets the requested target;
 - manuscript chapter contains zero em dash characters;
+- after the chapter is present in its intended permanent source path, `python scripts/dialogue_ownership_check.py --latest --strict` passes with no unresolved ownership errors or review findings;
 - title/index endpoint agree;
 - manuscript state endpoint agrees;
 - magic counts and other numerical continuity agree with what actually happened;

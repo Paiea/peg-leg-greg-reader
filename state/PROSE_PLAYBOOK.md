@@ -59,6 +59,18 @@ Prefer specific immediate thought over generalized explanation. Do not repeatedl
 
 Let other people make the best joke, solve the practical problem, know context Greg missed, or continue talking after his contribution is finished. The world should not behave as though it knows Greg is the protagonist.
 
+### Dialogue paragraph ownership
+
+Treat **one clear dramatic owner per dialogue paragraph** as the default scene grammar. The rule is ownership, not sentence count. A character may speak for several sentences, move, hesitate, handle an object, and continue in one paragraph when all of those beats belong to that character.
+
+When another character acts, reacts, speaks, or becomes the clear interior owner, normally start a new paragraph. Greg's first-person thought after someone else's line is Greg's beat. If a paragraph begins with Antonius, moves through Greg or Jorren, then returns to Antonius, render those changes as separate owned beats instead of asking the reader to reassign the paragraph midstream.
+
+Current spoken dialogue is the default anchor. If an exchange is muddy, first split paragraph boundaries or rebuild nearby tags, actions, reactions, and transitions. Add a minimal attribution only when clarity still needs it. Rewrite the smallest necessary spoken fragment only when the dialogue itself remains the problem.
+
+Do not use this rule to manufacture fragment spam. Neutral environmental description and collective crowd motion may remain where rhythm supports them when they do not steal ownership from a dialogue paragraph. In crowded scenes, preserve mess and overlap while keeping specific character interventions legible.
+
+Apply recurring-character voice, relationship, mood, and scene pressure inside each owned beat. Ownership gives different voices clean containers; it does not replace the dialogue-variance system.
+
 ### Recurring-character voice separation
 
 Greg's voice is a strength. Do **not** weaken, neutralize, or genericize Greg in order to make the cast sound different. Move major recurring speakers away from Greg instead.

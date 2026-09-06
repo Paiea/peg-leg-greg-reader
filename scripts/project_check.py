@@ -15,6 +15,7 @@ from project_audit import (
     inventory_images,
 )
 from showcase import build_showcase_map, load_showcase_manifest
+from dialogue_ownership_check import check_chapters, load_chapters
 
 
 ACTIVE_MARKDOWN_MANUSCRIPTS = {
@@ -54,13 +55,56 @@ def manuscript_check(root: Path) -> tuple[dict, bool]:
         "em_dash_count": em_dash_count,
         "stale_lysa_files": stale_lysa,
     }
+
+    latest_canonical: int | None = None
+    ownership = {
+        "errors": 0,
+        "reviews": 0,
+        "findings": [],
+    }
+    try:
+        canonical = load_chapters(root)
+        if canonical:
+            latest_canonical = max(canonical)
+            result = check_chapters(canonical, [latest_canonical])
+            ownership = {
+                "errors": result["error_count"],
+                "reviews": result["review_count"],
+                "findings": result["findings"],
+            }
+    except (OSError, ValueError, SystemExit) as exc:
+        ownership = {
+            "errors": 0,
+            "reviews": 1,
+            "findings": [
+                {
+                    "severity": "review",
+                    "code": "ownership_check_unavailable",
+                    "chapter": latest_canonical or 0,
+                    "paragraph": 0,
+                    "excerpt": str(exc),
+                }
+            ],
+        }
+
     payload = {
         "check": "manuscript",
         "checked_files": checked,
         "chapter_count": len(chapter_counts),
+        "latest_canonical_chapter": latest_canonical,
+        "dialogue_ownership": ownership,
         "errors": errors,
     }
-    return payload, not any([duplicates, em_dash_count, stale_lysa])
+    passed = not any(
+        [
+            duplicates,
+            em_dash_count,
+            stale_lysa,
+            ownership["errors"],
+            ownership["reviews"],
+        ]
+    )
+    return payload, passed
 
 
 def reader_check(root: Path) -> tuple[dict, bool]:

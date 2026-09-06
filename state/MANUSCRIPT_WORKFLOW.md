@@ -42,14 +42,15 @@ A normal chapter transaction looks like:
 3. Inspect the last 3–6 chapters for repeated function / emotional amplitude / Greg-role / uncertainty type. If repetition risk is medium or high, the proposed chapter must change meaningful story grammar rather than only nouns.
 4. If the chapter contains a meaningful artifact exposure, appraisal, negotiation, bid, purchase, seller interaction, provenance judgment, or information-sensitive valuation, read `ARTIFACT_MARKET_INTELLIGENCE.md` and `ARTIFACT_PRICING_LOGIC.md`. Price the object from what the current market can actually observe and credibly know, not from omniscient true value. Obvious demonstrable power should normally already cost real money.
 5. If the chapter contains a meaningful wage, price, purchase, debt movement, bid, fee, saving goal, acquisition, or money-driven decision, read `ECONOMY_CONTINUITY.md` and calibrate the amount and Greg's reaction against prior anchors and his current economic stage.
-6. Privately identify the light chapter contract, including rhythm intervention, fantasy density, artifact pressure, information gap, market-visible value, economic pull, and **action pressure** when relevant, then write ONE complete chapter.
-7. Give it a LIGHT drafting pass: clarity, repetition, attribution, paragraph rhythm, continuity, obvious weak prose, rhythm repetition, fantasy density, artifact-market logic, economic logic, and action rhythm when applicable.
+6. Privately identify the light chapter contract, including rhythm intervention, fantasy density, artifact pressure, information gap, market-visible value, economic pull, **action pressure** when relevant, and the dramatic owner sequence for dialogue-bearing scenes where ownership changes. Keep the owner sequence disposable and lightweight, then write ONE complete chapter.
+7. Give it a LIGHT drafting pass: clarity, repetition, attribution, **dialogue paragraph ownership**, paragraph rhythm, continuity, obvious weak prose, rhythm repetition, fantasy density, artifact-market logic, economic logic, and action rhythm when applicable.
 8. Validate chapter length, title, no-em-dash rule, numerical continuity, protected uncertainty, economic continuity when relevant, and any chapter-specific constraints.
 9. Append the exact accepted prose to the SAME permanent running manuscript.
-10. Update only the living state/index/open-thread files whose answers materially changed.
-11. Put the next executable chapter trailhead in `MANUSCRIPT_STATE.md`.
-12. Commit the complete chapter transaction to `main` when the author has authorized normal forward shipping.
-13. Re-read current `main` and verify the endpoint before reporting success or drafting the next chapter.
+10. Run `python scripts/dialogue_ownership_check.py --latest --strict`. Inspect and repair every ownership error or review finding before commit. Do not guess ambiguous speaker identity merely to make the checker green.
+11. Update only the living state/index/open-thread files whose answers materially changed.
+12. Put the next executable chapter trailhead in `MANUSCRIPT_STATE.md`.
+13. Commit the complete chapter transaction to `main` when the author has authorized normal forward shipping.
+14. Re-read current `main` and verify the endpoint before reporting success or drafting the next chapter.
 
 This creates a hard durability boundary between chapters. A chat may continue immediately into Chapter N+1 after Chapter N is verified, but it does so from the new GitHub authority rather than relying on its own memory.
 

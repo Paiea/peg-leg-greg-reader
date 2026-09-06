@@ -37,6 +37,7 @@ on:
       - 'index.html'
       - 'scripts/showcase.py'
       - 'scripts/generate_light.py'
+      - 'scripts/dialogue_ownership_check.py'
       - 'scripts/generate_illustrated.py'
       - 'scripts/reader_sections.py'
       - 'scripts/update_home_contents.py'
@@ -108,6 +109,8 @@ jobs:
         run: python scripts/update_home_contents.py
       - name: Test reader tooling
         run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Validate latest dialogue ownership
+        run: python scripts/dialogue_ownership_check.py --latest --strict
       - name: Process illustration production state
         run: |
           python scripts/import_legacy_illustrations.py
