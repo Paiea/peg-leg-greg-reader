@@ -1,5 +1,6 @@
 name: Validate dialogue variance integration
 
+# Fresh integration branch replays approved prose against current main authority.
 on:
   push:
     branches:
