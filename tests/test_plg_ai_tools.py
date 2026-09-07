@@ -20,6 +20,7 @@ EXPECTED = {
     "apply_survivors",
     "sync_story",
     "run_story_rehearsal_cycle",
+    "run_story_rendering_cycle",
 }
 
 
@@ -71,6 +72,13 @@ class PLGAIToolTests(unittest.TestCase):
             self.assertEqual("explore", result["phase"])
             self.assertEqual(result, json.loads(output.read_text(encoding="utf-8")))
 
+    def test_rendering_cycle_is_derived_only_and_delegates(self):
+        self.assertFalse(plg_ai_tools.TOOL_SPECS["run_story_rendering_cycle"]["write"])
+        with mock.patch.object(plg_ai_tools.long_form_rendering_loop, "start_rendering_run", return_value={"status": "rendering"}) as start:
+            result = plg_ai_tools.run_story_rendering_cycle({"intervals": [{"id": "i1"}], "attempt_budget_default": 2})
+        self.assertEqual("rendering", result["status"])
+        start.assert_called_once_with([{"id": "i1"}], attempt_budget_default=2, rendering_memory=[])
+
     def test_apply_survivors_is_the_only_canon_write_adapter_and_delegates(self):
         canon_write_tools = {name for name, spec in plg_ai_tools.TOOL_SPECS.items() if spec["write"]}
         self.assertEqual({"apply_survivors"}, canon_write_tools)
@@ -81,7 +89,7 @@ class PLGAIToolTests(unittest.TestCase):
     def test_tool_metadata_distinguishes_read_only_from_disposable_cache_writes(self):
         for name in ("brain_for","brain_doctor","get_scene_view","query_scenes","get_campaign_result"):
             self.assertTrue(plg_ai_tools.TOOL_SPECS[name]["read_only"], name)
-        for name in ("compile_range", "plan_campaign", "run_campaign", "reduce_campaign", "sync_story", "run_story_rehearsal_cycle", "apply_survivors"):
+        for name in ("compile_range", "plan_campaign", "run_campaign", "reduce_campaign", "sync_story", "run_story_rehearsal_cycle", "run_story_rendering_cycle", "apply_survivors"):
             self.assertFalse(plg_ai_tools.TOOL_SPECS[name]["read_only"], name)
 
     def test_call_dispatches_structured_payload(self):
