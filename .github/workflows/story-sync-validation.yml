@@ -6,6 +6,7 @@ on:
       - 'scripts/story_sync_engine.py'
       - 'scripts/plg_ai_tools.py'
       - 'tests/test_story_sync_*.py'
+      - 'tests/test_creator_taste_prior.py'
       - 'tests/test_plg_ai_tools.py'
       - 'state/experiments/dragon-spotter/story-sync/**'
       - '.github/workflows/story-sync-validation.yml'
@@ -25,6 +26,7 @@ jobs:
             tests.test_story_sync_engine \
             tests.test_story_sync_rehearsal_bridge \
             tests.test_story_sync_report_evidence \
+            tests.test_creator_taste_prior \
             tests.test_plg_ai_tools
       - name: Full repository unit suite
         run: python -m unittest discover -s tests -p 'test_*.py'
