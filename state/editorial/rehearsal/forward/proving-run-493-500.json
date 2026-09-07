@@ -5,30 +5,41 @@
   "workflow": "state/editorial/rehearsal/FORWARD_WORKFLOW.md",
   "chapters": [
     {
-      "chapter": 493,
-      "status": "rehearsed",
-      "source_authority": "8906e2d3103c1ae13c369be7a008ac34c3fade50",
-      "pressure": "Break the recent contract/debrief/paperwork rhythm without prematurely resolving Lakeward. A real Hark & Venn fit request can make Greg's body, equipment, and honest reporting the chapter's active problem while preserving the economic ratchet.",
-      "possibilities": [
-        {"id":"493-a","shape":"Hark & Venn sends a real fitting note. The shop changes one material/fit variable and needs Greg to stop compensating around errors. Embodied uncertainty is the scene.","result":"preferred","reason":"Changes chapter grammar, advances a live body obligation through legitimate shop word, and creates a concrete use for PERFORMANCE."},
-        {"id":"493-b","shape":"A market or dealer presents a distinctive artifact opportunity now that Greg has deployable silver.","result":"rejected","reason":"Strong future route but would feel conveniently timed immediately after Vale closure and Lakeward paperwork without an independent market trigger already on page."},
-        {"id":"493-c","shape":"Quiet Carrow/Lyssa/theatre reset while Lakeward travels.","result":"rejected","reason":"Valid but recent chapters are already socially conversational and low in physical pressure. It would not test the new forward workflow as hard."}
+      "chapter":493,"status":"shipped","source_authority":"8906e2d3103c1ae13c369be7a008ac34c3fade50",
+      "pressure":"Break the recent contract/debrief/paperwork rhythm without prematurely resolving Lakeward while legitimately reactivating the work-limb lane.",
+      "possibilities":[
+        {"id":"493-a","shape":"Immediate Hark & Venn fitting","result":"rejected_after_rehearsal","reason":"Hard geography: Greg begins in Carrow while Hark & Venn is in Duskport."},
+        {"id":"493-b","shape":"Real Hark & Venn fit notice creates a travel/capital/client chapter","result":"selected","reason":"Preserves geography and shop authority while changing chapter grammar."},
+        {"id":"493-c","shape":"Immediate artifact-market opening","result":"deferred","reason":"Useful forward route but too conveniently timed before an independent public trigger."}
       ],
-      "selected_discoveries": [
-        "Hark & Venn owns fitting decisions; Greg owns honest body report and task goals.",
-        "Greg's adaptation skill can hide bad fit by compensating, so success may require him to walk worse on purpose.",
-        "The emotional payoff should be practical hands-free usefulness, not visual normalization or a triumphant walking milestone.",
-        "Money is available but no new payment is due merely because the fitting advances.",
-        "Lyssa does not need to attend or supervise the fitting."
-      ],
-      "performance": {"used": true, "reason": "The main uncertainty is embodied: gait, crutch release, hand use, balance, socket feedback, and how Masta/Venn respond to compensation patterns."},
-      "prose_result": null,
-      "character_surprise": null,
-      "protagonist_gravity": null,
-      "memory_helped": null,
-      "next_trailhead": null
+      "selected_discoveries":["Paying passenger fare can be competent protection of fitting data.","Greg should not pre-buy a return schedule before Masta determines current state.","The useful two-hand goal is an ordinary loaded-tray task, not standing as spectacle.","Masta's schedule remains hers."],
+      "performance":{"used":false,"reason":"REHEARSAL changed the selected scene from fitting to travel, so embodied uncertainty was no longer present."},
+      "prose_result":"Chapter 493 THE CLIENT shipped. Greg travels Carrow to Duskport as a paying client and arrives three days before the fitting without bending Masta's schedule.",
+      "character_surprise":"Tavi independently proposes carrying soup, which becomes the practical loaded-tray test after Lyssa narrows it.",
+      "protagonist_gravity":"Reduced: Lyssa, Tavi, coach systems, and Masta's schedule constrain Greg rather than orbiting him.",
+      "memory_helped":"Yes. Restraint, authority boundaries, body-state honesty, and money-as-optionality all changed scene choices.",
+      "next_trailhead":"Use the three real Duskport days before fitting. Favor a public artifact/provenance opportunity that exists independently of Greg."
     },
-    {"chapter":494,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null},
+    {
+      "chapter":494,"status":"rehearsed","source_authority":"493-canon",
+      "pressure":"Use Duskport's independent salvage/instrument economy to create genuine acquisition pressure before the fitting without turning Greg into a worker or making a seller stupid.",
+      "possibilities":[
+        {"id":"494-a","shape":"Greg wanders a salvage market and finds a cheap obvious miracle artifact","result":"rejected","reason":"Would violate seller intelligence and make the artifact engine feel like loot generation."},
+        {"id":"494-b","shape":"A public estate/survey surplus viewing includes a visibly limited but historically interesting navigation artifact. Greg recognizes a later maker or failure mode, while the market prices the currently visible function rationally.","result":"selected","reason":"Independent public opportunity, credible value asymmetry, concrete capital pressure, and new scene grammar."},
+        {"id":"494-c","shape":"Greg takes a short Duskport job while waiting","result":"rejected","reason":"Repeats work-as-presence justification immediately after Chapter 493 deliberately established him as a client."},
+        {"id":"494-d","shape":"Quiet social day at Anchor's End","result":"rejected","reason":"Valid but wastes the artifact/provenance pressure already supported by Duskport and current rhythm needs."}
+      ],
+      "selected_discoveries":[
+        "The opportunity must be public and would occur if Greg never arrived.",
+        "Seller/appraiser knows the object's visible present function and prices it accordingly.",
+        "Greg's advantage may be remembering a maker's later importance or valuing a defect/failure mode differently, not secretly knowing an obvious miracle nobody else notices.",
+        "A strong outcome is acquisition pressure or a deposit/decision, not necessarily immediate ownership.",
+        "Other buyers should have their own reasons and can beat Greg if he hesitates."
+      ],
+      "performance":{"used":false,"reason":"The uncertainty is market/provenance/decision pressure rather than embodied interpersonal behavior."},
+      "prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,
+      "next_trailhead":null
+    },
     {"chapter":495,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null},
     {"chapter":496,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null},
     {"chapter":497,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null},
@@ -36,15 +47,5 @@
     {"chapter":499,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null},
     {"chapter":500,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null}
   ],
-  "evaluation": {
-    "scene_choice_quality": null,
-    "character_surprise": null,
-    "protagonist_gravity": null,
-    "performance_value": null,
-    "memory_value": null,
-    "throughput": null,
-    "rejected_option_value": null,
-    "state_cleanliness": null,
-    "recommendation": null
-  }
+  "evaluation":{"scene_choice_quality":null,"character_surprise":null,"protagonist_gravity":null,"performance_value":null,"memory_value":null,"throughput":null,"rejected_option_value":null,"state_cleanliness":null,"recommendation":null}
 }
