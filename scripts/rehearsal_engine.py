@@ -22,10 +22,88 @@ DISCOVERY_KINDS = {
 }
 PROVENANCE_CLASSES = {"observed", "inferred", "rehearsal_hypothesis", "promoted_tendency"}
 LOCK_STATUSES = {"preserved", "quarantined", "violated"}
+SOFT_CANON_WRITE_SURFACES = {
+    "dialogue",
+    "dialogue_wording",
+    "dialogue_amount",
+    "tags",
+    "paragraph_breaks",
+    "paragraphing",
+    "movement",
+    "blocking",
+    "pauses",
+    "silence",
+    "interruptions",
+    "object_handling",
+    "reaction_placement",
+    "interaction_timing",
+    "local_exchange_shape",
+    "tone",
+}
+HARD_CANON_SURFACES = {
+    "plot",
+    "facts",
+    "knowledge",
+    "causality",
+    "major_relationship_state",
+    "physical_state",
+    "chronology",
+    "economics",
+    "earned_competence",
+    "injury_state",
+}
 
 
 def _nonempty(value: object) -> bool:
     return isinstance(value, str) and bool(value.strip())
+
+
+def editorial_return_policy(mode: str = "standard") -> dict:
+    if mode == "standard":
+        return {
+            "mode": mode,
+            "actor_preference_can_trigger_write": False,
+            "branch_canon_write_authorized": False,
+            "max_local_scope": "local_patch",
+            "production_safe": True,
+            "soft_surfaces": sorted(SOFT_CANON_WRITE_SURFACES),
+            "hard_surfaces": sorted(HARD_CANON_SURFACES),
+        }
+    if mode == "overtuned_calibration":
+        return {
+            "mode": mode,
+            "actor_preference_can_trigger_write": True,
+            "branch_canon_write_authorized": True,
+            "max_local_scope": "scene_rebuild",
+            "production_safe": False,
+            "soft_surfaces": sorted(SOFT_CANON_WRITE_SURFACES),
+            "hard_surfaces": sorted(HARD_CANON_SURFACES),
+        }
+    raise ValueError(f"unknown editorial return mode: {mode}")
+
+
+def can_auto_apply_rehearsal_candidate(candidate: dict, policy: dict) -> bool:
+    if not isinstance(candidate, dict) or not isinstance(policy, dict):
+        return False
+    if not policy.get("branch_canon_write_authorized"):
+        return False
+    if not policy.get("actor_preference_can_trigger_write"):
+        return False
+    if candidate.get("actor_prefers") is not True:
+        return False
+    if candidate.get("dramatic_lock_status") != "preserved":
+        return False
+    if candidate.get("reader_check") != "pass":
+        return False
+    if candidate.get("source_match") is not True:
+        return False
+    target_branch = candidate.get("target_branch")
+    if not _nonempty(target_branch) or target_branch == "main":
+        return False
+    changed_surfaces = candidate.get("changed_surfaces")
+    if not isinstance(changed_surfaces, list) or not changed_surfaces:
+        return False
+    return set(changed_surfaces).issubset(SOFT_CANON_WRITE_SURFACES)
 
 
 def load_actor_registry(path: str | Path) -> dict:
