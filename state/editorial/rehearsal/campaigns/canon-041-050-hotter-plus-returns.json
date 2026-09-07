@@ -49,8 +49,8 @@
       "dramatic_lock_status": "preserved",
       "reader_check": "pass",
       "changed_surfaces": ["movement", "reaction_placement", "interaction_timing"],
-      "before": "<p>Arlo was at the ceramic bench. He looked up. Looked at the sack. Then at me.</p>",
-      "after": "<p>Arlo was at the ceramic bench. He looked up at the sack, then at me.</p>",
+      "before": "<p>She held the door. I went inside. Arlo was at the ceramic bench. He looked up. Looked at the sack. Then at me.</p>",
+      "after": "<p>She held the door. I went inside. Arlo was at the ceramic bench. He looked up at the sack, then at me.</p>",
       "reason": "Arlo's attention is on the material first. The movement should read as one object-first beat rather than three generic look sentences."
     },
     {
