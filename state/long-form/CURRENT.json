@@ -1,0 +1,108 @@
+{
+  "schema": "long_form_runtime_current/v1",
+  "architecture_version": "persistent-four-act-rehearsal-led/v1",
+  "authority": {
+    "repository": "Paiea/peg-leg-greg-reader",
+    "branch": "architecture/long-form-story-compiler",
+    "pr": 161,
+    "code_head_before_continuation_snapshot": "cc80278a3706cfa3974d556b9f316205cb8cdc51",
+    "upstream_rehearsal_branch": "editor/rehearsal-simulation-engine",
+    "final_story_authority": "accepted canon prose",
+    "runtime_authority_effect": "derived_only_no_canon_mutation"
+  },
+  "core_model": "One finite story trajectory is explored through four persistent temporal slabs. Each slab maintains permissive local beliefs and boundary hypotheses, identifies high-value story questions, and sends them to REHEARSAL. REHEARSAL is the primary semantic execution environment for discovering believable behavior, consequences, relationship movement, implied history, and implied future. STORY SYNC learns conservatively from repeated evidence and updates shared cross-act belief state. Prose is downstream rendering, not the primary coordination format.",
+  "persistent_topology": {
+    "acts": ["act-i", "act-ii", "act-iii", "act-iv"],
+    "invariant": "all four remain persistent and receive a nonzero baseline search heartbeat",
+    "local_state": ["state_in", "local speculative possibilities", "local rehearsal discoveries", "unresolved questions", "constraint responses", "state_out"],
+    "core_rule": "invent freely inside an act; promote conservatively across acts"
+  },
+  "shared_story_ir": {
+    "policy": "conservative cross-act derived memory",
+    "contains": ["promoted discoveries", "repeated signals", "strong threads", "story truths", "forward consequences", "backward requirements", "boundary contradictions", "major relationship and character state", "hidden-canon and reader-state implications", "provenance"]
+  },
+  "forward_compiler_rule": "Given lived behavior and current local reality, extract candidate consequences/opportunities that later temporal slabs should test. Forward consequences are messages, not automatic truth.",
+  "backward_compiler_rule": "Given a promising later performed state/payoff, extract candidate earlier prerequisites implied by the behavior. Earlier slabs test whether those conditions arise naturally; they do not obey them automatically.",
+  "temporal_boundaries": {
+    "shape": "STATE IN -> LOCAL LIVED TRAJECTORY -> STATE OUT",
+    "policy": "adjacent state-out/state-in disagreements are explicit boundary contradictions; REHEARSAL tests behavioral bridges rather than abstract interpolation"
+  },
+  "rehearsal_led_execution": {
+    "role": "primary semantic computation / simulation",
+    "input_bias": ["state in", "active pressure", "relevant character truth", "environment/task when useful", "ownership boundaries", "forward/backward constraints", "uncertainty being tested"],
+    "anti_rule": "do not prescribe emotional or behavioral outcomes unless genuinely locked",
+    "heat_levels": {
+      "probe": "cheap plausibility/direction tests and weak-branch rejection",
+      "development": "compare divergent behavior, discover consequences, connect temporal states",
+      "high_heat": "major encounters, romance transitions, negotiations, reversals, climaxes, endings, severe cross-act collisions"
+    },
+    "temporal_rehearsal": "may rehearse early/middle/late coordinates of one trajectory before intervening prose exists",
+    "backward_rehearsal": "late performance may imply candidate earlier history; emit backward requirements for testing",
+    "forward_rehearsal": "early performance may imply later consequences; emit forward consequences for testing",
+    "output_policy": "reduce routine rehearsal to compact derived evidence; preserve full evidence only when materially useful as case law/provenance"
+  },
+  "story_sync": {
+    "role": "learning and convergence authority for derived story beliefs",
+    "confidence_progression": ["speculation", "repeated_signal", "strong_thread", "story_truth"],
+    "promotion_signals": ["independent recurrence", "dramatic usefulness", "cross-act compatibility", "forward/backward agreement", "survived challenge", "contradiction", "causal reach", "reader/audience promise", "character truth"],
+    "merge_policy": "preserve viable divergence; sync does not mean merge"
+  },
+  "creator_taste": {
+    "role": "heuristic for what plausible branches deserve more search/rehearsal; never story authority",
+    "state": "storage/rebuild layer implemented; search-priority Task 2 contracts exist but current PR full suite is red because runtime integration is not yet complete",
+    "counterpressure": "creator-surprise keeps at least one plausible non-obvious lane alive during exploration/compare"
+  },
+  "memory_policy": {
+    "cold": "GitHub durable specs, canon, provenance, important rehearsal case law",
+    "warm": "shared Story IR / promoted state / compact active act state",
+    "hot": "task-specific act packet plus current rehearsal pressure and only relevant exact evidence",
+    "rule": "do not keep every rehearsal transcript or whole repository in hot model context"
+  },
+  "implemented": [
+    "generalized STORY SYNC discovery confidence and evidence provenance",
+    "divergence-preserving branch handling and convergence phases",
+    "forward/backward propagation plans and event-driven sync",
+    "hidden canon versus reader-state dependency checks",
+    "REHEARSAL feedback targets for contradictions/strong threads/questions",
+    "creator taste evidence storage/rebuild and compact context",
+    "persistent_act_runtime.py with four temporal slabs, boundary contradictions, long-range messages, non-starving scheduling, temporal-consistency report, and STORY SYNC delegation",
+    "bounded Dragon Spotter first-bargain high-heat rehearsal evidence"
+  ],
+  "hypotheses_not_yet_proven": [
+    "four persistent temporal slabs outperform disposable/dynamic frontier scheduling",
+    "baseline heartbeat on all four acts remains useful late in convergence",
+    "temporal consistency is a useful operational convergence signal",
+    "REHEARSAL-led act questioning discovers stronger long-form structure than structural overgeneration",
+    "temporal / 4D rehearsal can reliably expose missing intermediate transformations",
+    "backward history implied by late performance can be extracted and validated without retrofit sludge",
+    "creator-taste search bias improves exploration quality without homogenizing story"
+  ],
+  "unresolved_architecture_questions": [
+    "minimal schema for act-generated rehearsal questions and compact rehearsal evidence",
+    "how to map rehearsal-derived forward/backward implications into persistent runtime messages without accidental promotion",
+    "when full rehearsal evidence stays durable case law versus cooling to compact evidence",
+    "how much baseline heartbeat each act needs as convergence rises",
+    "how creator-taste search priority should combine with persistent-act scheduling after Task 2 is green",
+    "when a mature lived trajectory is stable enough to trigger prose rendering"
+  ],
+  "active_experiments": [
+    {
+      "project": "Dragon Spotter",
+      "state": "bounded pre-canon experiment",
+      "current_rehearsal": "state/experiments/dragon-spotter/story-sync/first-bargain-rehearsal.json",
+      "strong_current_hypotheses": [
+        "dragon reciprocity/obligation is stronger than random treasure",
+        "Spotter competence emerges from observation-driven improvisation constrained by Scholar knowledge",
+        "the dragon may need voluntary recognition because force can seize property but cannot create agreement"
+      ],
+      "preserved_divergence": ["land restoration versus relic restitution", "coin/medallion versus scale-token treasure form", "late professional identity"]
+    }
+  ],
+  "exact_next_executable_step": "Add a minimal REHEARSAL-led question/evidence seam to persistent_act_runtime: compile one or more rehearsal questions from each act's unresolved transformation/boundary/message pressure; classify heat as probe/development/high; reduce rehearsal results into compact evidence plus candidate forward consequences/backward requirements; feed only earned evidence/messages into existing STORY SYNC. Then wire one derived-only plg_ai_tools runtime-cycle entry point and run it against the existing Dragon Spotter first-bargain evidence without restarting story state.",
+  "historical_specs": [
+    "docs/superpowers/specs/2026-09-07-ai-native-long-form-story-compiler-design.md",
+    "docs/superpowers/specs/2026-09-07-persistent-act-channel-runtime.md",
+    "docs/superpowers/specs/2026-09-07-persistent-four-act-convergence-design.md",
+    "docs/superpowers/specs/2026-09-07-creator-taste-prior-design.md"
+  ]
+}
