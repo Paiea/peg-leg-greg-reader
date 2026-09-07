@@ -18,9 +18,6 @@ on:
       - '.github/workflows/story-sync-validation.yml'
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
   story-sync:
     runs-on: ubuntu-latest
@@ -29,52 +26,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Apply bounded constraint-response seam
-        if: github.event_name == 'pull_request'
-        env:
-          GH_TOKEN: ${{ github.token }}
-          HEAD_REF: ${{ github.head_ref }}
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-
-          path = Path("scripts/persistent_act_runtime.py")
-          source = path.read_text(encoding="utf-8")
-          marker = 'constraint response evidence requires message_id'
-          if marker in source:
-              Path("/tmp/runtime-already-patched").write_text("1", encoding="utf-8")
-              raise SystemExit(0)
-
-          validation_old = '''        "story_sync_discoveries",\n        "story_sync_evidence_updates",\n    ):'''
-          validation_new = '''        "story_sync_discoveries",\n        "story_sync_evidence_updates",\n        "constraint_responses",\n    ):'''
-          reducer_old = '''    for index, item in enumerate(evidence.get("story_sync_discoveries", [])):\n        deltas.append({"schema": DELTA_SCHEMA, "id": f"{evidence_id}:sync:{index}", "type": "shared_discovery", "source_act": source_act, "provenance": provenance, "payload": copy.deepcopy(item)})\n    for index, item in enumerate(evidence.get("story_sync_evidence_updates", [])):\n'''
-          reducer_new = '''    for index, item in enumerate(evidence.get("constraint_responses", [])):\n        if not isinstance(item, dict) or not _nonempty(item.get("message_id")):\n            raise ValueError("constraint response evidence requires message_id")\n        if item.get("response") not in CONSTRAINT_RESPONSES:\n            raise ValueError("constraint response evidence requires valid response")\n        if not _nonempty(item.get("reason")):\n            raise ValueError("constraint response evidence requires reason")\n        deltas.append({"schema": DELTA_SCHEMA, "id": f"{evidence_id}:constraint:{index}", "type": "constraint_response", "source_act": source_act, "provenance": provenance, "payload": copy.deepcopy(item)})\n    for index, item in enumerate(evidence.get("story_sync_discoveries", [])):\n        deltas.append({"schema": DELTA_SCHEMA, "id": f"{evidence_id}:sync:{index}", "type": "shared_discovery", "source_act": source_act, "provenance": provenance, "payload": copy.deepcopy(item)})\n    for index, item in enumerate(evidence.get("story_sync_evidence_updates", [])):\n'''
-          if validation_old not in source or reducer_old not in source:
-              raise SystemExit("runtime seam anchors did not match current authority")
-          source = source.replace(validation_old, validation_new, 1).replace(reducer_old, reducer_new, 1)
-          path.write_text(source, encoding="utf-8")
-          PY
-          if [ -f /tmp/runtime-already-patched ]; then
-            exit 0
-          fi
-          CURRENT_SHA=$(gh api "repos/${GITHUB_REPOSITORY}/contents/scripts/persistent_act_runtime.py?ref=${HEAD_REF}" --jq .sha)
-          export CURRENT_SHA
-          python - <<'PY' > /tmp/runtime-update.json
-          import base64
-          import json
-          import os
-          from pathlib import Path
-
-          content = base64.b64encode(Path("scripts/persistent_act_runtime.py").read_bytes()).decode("ascii")
-          print(json.dumps({
-              "message": "Let rehearsal close directional constraints",
-              "content": content,
-              "sha": os.environ["CURRENT_SHA"],
-              "branch": os.environ["HEAD_REF"],
-          }))
-          PY
-          gh api --method PUT "repos/${GITHUB_REPOSITORY}/contents/scripts/persistent_act_runtime.py" --input /tmp/runtime-update.json >/tmp/runtime-update-response.json
-          cat /tmp/runtime-update-response.json | jq -r '.commit.sha'
       - name: Focused STORY SYNC tests
         run: |
           python -m unittest \
