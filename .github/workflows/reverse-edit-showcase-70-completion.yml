@@ -59,6 +59,6 @@ jobs:
       - name: Full repository tests
         run: python -m unittest discover -s tests
       - name: Validate PERFORMANCE archives
-        run: python scripts/validate_performance_roundtrip_archives.py
+        run: python scripts/performance_roundtrip_references.py --check
       - name: Validate Showcase
-        run: python scripts/validate_showcase.py
+        run: python scripts/project_check.py showcase
