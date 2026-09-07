@@ -70,5 +70,28 @@
     ],
     "likely_residue": "A few Anchor's End regulars become people Greg can recognize and be recognized by; temporary residence gains social texture."
   },
-  "outward_4d_note": "No Outward 4D hypothesis is used as a scene premise. Any temporally relevant evidence must be recorded only after canon exists."
+  "prose_result": "THE PLAYER shipped on the production branch. Greg joins an existing no-stakes Anchor's End card game, learns the locally messy Harbor rules badly, wins one hand, loses several, and learns the names and ordinary independent circumstances of Orsa, Tem, Nemi, and Holl. He does not turn the people into contacts, work, or a new system.",
+  "character_surprise": "Greg opens his notebook afterward, realizes a contacts list for four people he merely met would be absurd, and puts the pen down. Their names are allowed to remain social memory rather than extracted utility.",
+  "protagonist_gravity": "Reduced. The card game predates Greg, its rules are socially owned and inconsistent, Pell refuses authority outside his inn role, the other guests have unrelated work/family reasons for being in Duskport, and Greg is initially just a mediocre fourth player.",
+  "story_sync": {
+    "survived": [
+      "ordinary peer participation rather than utility",
+      "Pell remains proprietor, not Greg's manager or game referee",
+      "social specificity without a new obligation",
+      "no open-thread payoff",
+      "no monetization or optimization lesson"
+    ],
+    "changed_in_prose": [
+      "The table did not merely recognize Greg; he learned four names and small independent facts, then refused to formalize them into a contacts list."
+    ],
+    "died": [
+      "No need to make the newer guest ask Greg for directions even as a secondary beat; the previous ferry-office guest remains only background residue."
+    ]
+  },
+  "outward_4d_evidence": {
+    "status": "canon-derived evidence, not production premise",
+    "evidence": "Chapter 501 shows Greg using paid access to Anchor's End as a place of ordinary participation while taking no ownership or maintenance role in the inn, card game, or other guests' lives. He explicitly declines to convert new social knowledge into a managed contacts list.",
+    "direction": "Potentially discriminating against any over-strong claim that current Greg automatically converts access into ownership/stewardship. He can also accept temporary, reciprocal social participation without claiming durable responsibility.",
+    "limits": "One quiet social evening does not establish a life-wide pattern and says nothing by itself about Old Greg. Preserve as evidence only."
+  }
 }
