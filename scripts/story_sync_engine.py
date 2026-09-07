@@ -13,6 +13,7 @@ VISIBILITY_STATES = {"show", "hide", "merge", "compress"}
 BRANCH_VIABILITY = {"viable", "weak", "redundant", "invalidated"}
 PROPAGATION_DIRECTIONS = {"backward", "forward"}
 EVIDENCE_KINDS = {"support", "challenge_survived", "contradiction"}
+REHEARSAL_LOCK_STATUSES = {"preserved", "quarantined", "violated"}
 
 
 def _nonempty(value: object) -> bool:
@@ -91,6 +92,48 @@ def validate_discovery(discovery: dict[str, Any]) -> None:
             raise ValueError("propagation direction must be backward or forward")
         if not _nonempty(item.get("target")) or not _nonempty(item.get("reason")):
             raise ValueError("propagation requires target and reason")
+
+
+def rehearsal_evidence(
+    rehearsal_discovery: dict[str, Any],
+    *,
+    independent_group: str,
+    dramatic_uses: list[str],
+    regions: list[str],
+) -> dict[str, Any]:
+    """Convert one REHEARSAL finding into one bounded STORY SYNC evidence item.
+
+    Multiple takes inside the same caller-supplied independent group remain one support
+    source. This prevents synthetic rehearsal volume from self-promoting a discovery.
+    """
+    if not isinstance(rehearsal_discovery, dict):
+        raise ValueError("rehearsal discovery must be an object")
+    scene_id = rehearsal_discovery.get("scene_id")
+    finding = rehearsal_discovery.get("finding")
+    lock_status = rehearsal_discovery.get("dramatic_lock_status")
+    if not _nonempty(scene_id) or not _nonempty(finding):
+        raise ValueError("rehearsal discovery requires scene_id and finding")
+    if lock_status not in REHEARSAL_LOCK_STATUSES:
+        raise ValueError("invalid rehearsal dramatic_lock_status")
+    if not _nonempty(independent_group):
+        raise ValueError("independent_group is required")
+    uses = _string_list(dramatic_uses, field="dramatic_uses", allow_empty=False)
+    region_values = _string_list(regions, field="regions", allow_empty=False)
+    kind = "support" if lock_status == "preserved" else "contradiction"
+    return {
+        "source_id": f"rehearsal:{scene_id}:{rehearsal_discovery.get('kind', 'discovery')}",
+        "independent_group": independent_group,
+        "kind": kind,
+        "dramatic_uses": uses,
+        "regions": region_values,
+        "provenance": {
+            "source": "REHEARSAL",
+            "provenance_class": rehearsal_discovery.get("provenance_class"),
+            "support": copy.deepcopy(rehearsal_discovery.get("support", [])),
+            "finding": finding,
+            "dramatic_lock_status": lock_status,
+        },
+    }
 
 
 def classify_discovery(discovery: dict[str, Any]) -> str:
