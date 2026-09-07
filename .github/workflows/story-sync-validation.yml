@@ -1,0 +1,30 @@
+name: Validate STORY SYNC
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/story_sync_engine.py'
+      - 'scripts/plg_ai_tools.py'
+      - 'tests/test_story_sync_*.py'
+      - 'tests/test_plg_ai_tools.py'
+      - 'state/experiments/dragon-spotter/story-sync/**'
+      - '.github/workflows/story-sync-validation.yml'
+  workflow_dispatch:
+
+jobs:
+  story-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Focused STORY SYNC tests
+        run: |
+          python -m unittest \
+            tests.test_story_sync_engine \
+            tests.test_story_sync_rehearsal_bridge \
+            tests.test_story_sync_report_evidence \
+            tests.test_plg_ai_tools
+      - name: Full repository unit suite
+        run: python -m unittest discover -s tests -p 'test_*.py'
