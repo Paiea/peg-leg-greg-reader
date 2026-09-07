@@ -32,29 +32,6 @@ jobs:
         run: |
           python -m unittest tests.test_rehearsal_engine tests.test_rehearsal_scene_pressure tests.test_apply_rehearsal_returns -v
 
-      - name: Diagnose chapter 43 exact source bytes
-        run: |
-          python - <<'PY'
-          import json
-          from pathlib import Path
-
-          page = Path('chapters/043.html').read_text(encoding='utf-8')
-          manifest = json.loads(Path('state/editorial/rehearsal/campaigns/canon-041-050-hotter-plus-returns.json').read_text(encoding='utf-8'))
-          patch = next(p for p in manifest['patches'] if p['id'] == 'c043-arlo-entry-movement-hotter-plus-01a')
-          needle = patch['before']
-          phrase = 'Arlo was at the ceramic bench'
-          idx = page.find(phrase)
-          print('page phrase index:', idx)
-          print('manifest before repr:', repr(needle))
-          print('manifest before codepoints:', [ord(ch) for ch in needle])
-          if idx >= 0:
-              start = max(0, idx - 3)
-              actual = page[start:start + len(needle) + 12]
-              print('page fragment repr:', repr(actual))
-              print('page fragment codepoints:', [ord(ch) for ch in actual[:len(needle)]])
-          print('exact count:', page.count(needle))
-          PY
-
       - name: Dry-run all exact FREE returns
         run: |
           python scripts/apply_rehearsal_returns.py \
