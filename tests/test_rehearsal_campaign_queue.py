@@ -1,4 +1,3 @@
-import json
 import tempfile
 import unittest
 from pathlib import Path
@@ -17,7 +16,8 @@ class RehearsalCampaignQueueTests(unittest.TestCase):
     def test_next_batch_returns_first_pending_only(self):
         state = queue.new_state("editor/rehearsal-simulation-engine", 61, 491, 10)
         self.assertEqual((61, 70), (queue.next_batch(state)["start"], queue.next_batch(state)["end"]))
-        state["batches"][0]["status"] = "source_win"
+        queue.claim_next(state, "abc123")
+        queue.settle_current(state, "abc123", "def456", "source_win")
         self.assertEqual((71, 80), (queue.next_batch(state)["start"], queue.next_batch(state)["end"]))
 
     def test_blocked_batch_prevents_later_claim(self):
