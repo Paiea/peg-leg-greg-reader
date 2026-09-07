@@ -1,0 +1,27 @@
+{
+  "schema": "forward_rehearsal_proving_run/v1",
+  "range": {"start": 493, "end": 500},
+  "status": "pending",
+  "workflow": "state/editorial/rehearsal/FORWARD_WORKFLOW.md",
+  "chapters": [
+    {"chapter":493,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null},
+    {"chapter":494,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null},
+    {"chapter":495,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null},
+    {"chapter":496,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null},
+    {"chapter":497,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null},
+    {"chapter":498,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null},
+    {"chapter":499,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null},
+    {"chapter":500,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null}
+  ],
+  "evaluation": {
+    "scene_choice_quality": null,
+    "character_surprise": null,
+    "protagonist_gravity": null,
+    "performance_value": null,
+    "memory_value": null,
+    "throughput": null,
+    "rejected_option_value": null,
+    "state_cleanliness": null,
+    "recommendation": null
+  }
+}
