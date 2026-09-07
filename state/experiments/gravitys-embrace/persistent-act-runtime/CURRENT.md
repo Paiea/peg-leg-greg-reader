@@ -5,89 +5,77 @@ Authority: **derived experimental state, not story canon**.
 Active branch: `architecture/long-form-story-compiler`  
 Draft PR: **#161**
 
-## Cycle 7: the protagonist earns a specialty
+## Cycle 8: specialist competence acquires an outward footprint
 
 Target:
 
-`target:boundary:act-ii:act-iii:build_identity:ge-a2-out-build:ge-a3-in-build`
+`target:message:ge-forward-specialist-method-can-create-public-pressure`
 
-Mode: `state_transition_test`  
-Fidelity: **development**  
+Mode: `forward_consequence_test`  
+Fidelity: **probe**  
 PERFORMANCE: **not required**
 
-Source state:
+### Result
 
-`hp-heavy-experimenter`
+The Cycle 7 consequence is **supported narrowly**.
 
-Original Act III hypothesis:
+Becoming an `underleveled-method-specialist` does not automatically make the protagonist famous, recruited, institutionalized, or even broadly known. A completely private specialist can remain ignored.
 
-`underleveled-specialist`
+The causal consequence begins when the method produces **externalized evidence**.
 
-Learned Act III hypothesis:
+The smallest credible outward footprint is a repeated discrepancy between what the protagonist appears capable of and what his method actually lets him do. Examples the probe found structurally plausible include:
 
-`underleveled-method-specialist`
+- surviving or solving a narrow problem an underleveled build should not conventionally handle;
+- disciplined go/no-go decisions that repeatedly avoid bad outcomes;
+- a narrow useful result reproduced often enough that luck becomes a weaker explanation;
+- useful observations, records, artifacts, or outcomes that can exist outside his private experimentation;
+- another person benefiting from the result without that person's identity being selected.
 
-### What now makes him a specialist?
+No one carrier is required. The story does not need a magical leaderboard, public spectacle, recruiter, guild, friend, rival, romance, or institution merely to make the capability legible.
 
-Not HP by itself. Not experimentation by itself. Not one successful gravity attack. Not another character noticing him. Not the runtime calling him one.
+Once expectation-breaking evidence leaves the purely private loop, some **status pressure** becomes causally credible: expectation, scrutiny, disbelief, requests to repeat the result, opportunity, suspicion, exploitation, or attempts to use the capability. Cycle 8 does not decide which pressure dominates or who applies it.
 
-The transition became credible when the experiments produced a **repeatable decision method**.
+The learned causal chain is therefore:
 
-By the Act III boundary he can:
+`method specialization → externalized expectation-breaking evidence → visibility/status pressure → WHO responds?`
 
-1. separate survivable tests from reckless ones;
-2. vary uncertainty deliberately rather than throwing himself at the same problem;
-3. preserve failed attempts as usable information;
-4. reproduce a narrow class of useful outcomes without pretending he has the general gravity recipe;
-5. identify which observations should change his next decision;
-6. recognize conditions where he should **not** attempt the technique;
-7. make tactical choices from known limits while still underleveled.
+Cycle 8 stops before the final arrow.
 
-That is the distinction. The weird build gave him access to an unusual search space. Repeated experimentation gave him behavior. **A coherent operating method gives him expertise.**
+### Did the runtime establish causality or assume competence creates attention?
 
-He does not need to think of himself as a specialist yet, and nobody else needs to have named the specialty. The capability exists before social recognition.
+It established a narrower causal condition.
 
-### Did the runtime discover this, or relabel him?
+The first attempt at the Cycle 8 evidence was correctly rejected by the runtime because the response was attached to Act III, while a forward consequence must be answered by its receiving temporal perspective. The corrected evidence routes the response through **Act IV**. After that correction the directional constraint closes.
 
-**It discovered a narrower distinction from evidence.**
-
-The original `underleveled-specialist` label was too broad. Cycle 7 revised it to `underleveled-method-specialist` and attached the boundary transition to concrete evidence: risk triage, controlled comparison, useful failure, narrow reproduction, abstention rules, bounded prediction, and tactical use of known limits.
-
-The original Act III boundary hypothesis remains in boundary history with its provenance. The learned hypothesis does not make the Act II and Act III endpoints identical. Act II remains an experimenter. Act III begins when those experiments have stabilized into a method.
-
-The build-identity contradiction therefore retired.
+That matters conceptually too. Act III does not get to declare that its competence will matter later. Act IV has to accept that the outward evidence is sufficient to create later pressure.
 
 ## Observed movement
 
-Fresh STORY SYNC validation on Cycle 7 commit `1b81ee7ee9f4ff2709c203f4ea083a49833a1762`, workflow run `34139939158`:
+Cycle 8 observation from STORY SYNC validation on commit `ccda43e15dea5f327ed3ac2ef4706222c864dbe5`, workflow run `34142254445`:
 
-- focused suite: **72 tests, green**
-- full repository suite: **530 tests, green, 6 skipped**
-- boundary contradictions: **6 → 5**
-- open temporal pressure: **6 → 6**
+- focused STORY SYNC suite: **72 tests, green**
+- unresolved directional messages: **1 → 0**
+- temporal pressure: **6 → 5**
+- boundary contradictions: **5 → 5**
 - open branches: **21 → 21**
-- target count: **24 → 24**
-- branch changes: **0**
-- new forward consequences: **1**
+- target count: **24 → 23**
+- supported directional constraints: **9 → 10**
+- new forward consequences: **0**
 - new backward requirements: **0**
+- branch changes: **0**
 - new third paths: **0**
-- unresolved directional messages: **0 → 1**
-- supported directional constraints: **9**
-- untested directional constraints: **1**
 
-Temporal pressure stayed flat because the successful bridge generated one legitimate downstream question rather than pretending the consequence was already solved.
+The full repository suite was also executed. It reached **532 tests with 6 skipped** but had one failure in the concurrently advancing Dragon Cycle 6 test (`first-dragon-wants-voluntary-repair` expected `repeated_signal`, observed `speculation`). Gravity's focused suite and Cycle 8 fixture were green. No Gravity or generic fix was made for that Dragon-local failure.
 
-## Downstream consequence discovered
+## Direct answer
 
-Cycle 7 emitted:
+**Does becoming an underleveled method specialist naturally make him harder for the world to ignore?**
 
-`ge-forward-specialist-method-can-create-public-pressure`
+Yes, but only after the competence leaves a legible trace.
 
-Act III → Act IV.
+What becomes observable is not "he is secretly a genius" and not necessarily spectacular gravity damage. It is the **repeatable mismatch between apparent level/build expectations and bounded useful results**, plus the method-shaped decisions that keep producing that mismatch.
 
-Hypothesis: a coherent specialist method may become legible enough to create later attention, recruitment, competition, trust, status pressure, or institutional interest.
-
-This does **not** decide who notices him, how they notice, whether the attention is welcome, which social-entry branch wins, or whether an institution gets him. It is one forward consequence that now needs a cheap probe.
+That can justify later attention without deciding who pays attention.
 
 ## STORY SYNC maturity
 
@@ -95,52 +83,60 @@ This does **not** decide who notices him, how they notice, whether the attention
 
 Maximum HP remains defensive. Survivability permits a class of otherwise-suicidal ordinary gravity/collision experiments and can expose an offensive option intentionally usable under some conditions.
 
-Cycle 7 did not turn that into a dominant gravity build.
-
 `mechanics-can-carry-trust`: **STRONG THREAD**, evidence count **3**, unchanged.
 
-Cycle 7 manufactured no relationship evidence.
+Cycle 8 manufactured no relationship evidence.
 
-## Gravity remains unresolved
+## Preserved uncertainty
 
-Still not established:
+Still open:
 
-- exact gravity recipe
-- exact controlling variables
+- exact gravity recipe and controlling variables
 - full progression curve
-- general-purpose reliable collision offense
-- mastery speed
-- repeatability limits
+- reliable general-purpose collision offense
+- mastery speed and repeatability limits
 - recovery/equipment/resource costs
 - death stakes
 - geography
-- who recognizes him first
+- who notices or responds first
 - old friend vs stranger/recruiter vs institutional social entry
 - romance architecture
 - institutional affiliation
 - ending branch
 
-All protected social and ending branches remain live.
+All protected social, geography, stakes, romance, and ending branches remain live.
+
+## Remaining real boundary contradictions
+
+Five adjacent contradictions remain. The important candidates are now:
+
+- Act II → III `social_visibility`: `small-circle-noticed` → `noticed-by-higher-level-people`
+- Act II → III `combat_trust`: `solo-experimenter` → `needs-another-person-for-safe-setup`
+- Act III → IV `social_visibility`: `contested-or-recruited` → `publicly-consequential`
+- Act III → IV `combat_trust`: `earned-operational-trust` → `emotionally-consequential-trust`
+- Act III → IV `romantic_trust`: `undecided-but-charged` → `unresolved-relationship-choice`
+
+The already-compatible Act II → III `gravity_model` boundary remains rejected as manufactured work.
 
 ## Exact next executable edge
 
-Before selecting another boundary contradiction, test the new cheap directional pressure created by Cycle 7:
+Highest-information cheap next boundary:
 
-`target:ge-forward-specialist-method-can-create-public-pressure`
+`target:boundary:act-ii:act-iii:social_visibility:ge-a2-out-visibility:ge-a3-in-visibility`
 
-Mode: `forward_consequence_test`  
-Fidelity: **probe**
+Mode: `state_transition_test`  
+Fidelity: **development**
 
-Question:
+Current transition:
 
-**Does methodological specialization actually create a later visibility/status consequence independent of who notices, or did Cycle 7 overstate downstream social legibility?**
+`small-circle-noticed → noticed-by-higher-level-people`
 
-This is higher information value than immediately attacking another boundary because it can validate or reject the only new temporal pressure Cycle 7 created. Keep the probe role-agnostic. Do not select a recruiter, friend, rival, romance, guild, or institution merely to prove visibility.
+Cycle 8 makes the original Act III wording suspiciously specific. The next test should ask whether externalized specialist evidence actually earns a broader visibility state **without selecting the identity or class of observer**. A legitimate result may revise `noticed-by-higher-level-people` to a role-agnostic state such as externally legible status mismatch, preserve the original hypothesis in history, and retire the contradiction only if the lived transition is supported.
 
-After that closure, inspect the five remaining real boundary contradictions again. Reject identical/compatible endpoints and choose by downstream reach. Do not batch them simply to reduce the count.
+Do not smuggle recruiter, friend, rival, romance, guild, institution, geography, or public spectacle into that bridge. Prefer structural evidence before PERFORMANCE.
 
 ## Rendering gate
 
 **Sustained canon prose remains not ready.**
 
-The protagonist now has an evidence-backed specialist identity, but five adjacent boundary contradictions and one newly emitted directional consequence remain open.
+Cycle 8 closed the only open long-range directional message. Five adjacent boundary contradictions remain, and the next one now directly tests how private competence becomes socially legible without choosing who responds.
