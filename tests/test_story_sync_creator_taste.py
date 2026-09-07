@@ -165,7 +165,7 @@ class CreatorTastePriorTests(unittest.TestCase):
 
     def test_creator_likely_branch_gets_search_priority_but_cannot_rescue_invalid_branch(self):
         context = taste.compile_taste_context(self._prior(), self._overlay())
-        report = sync.sync_story(self._sync_state(), creator_taste=context)
+        report = sync.sync_story(self._sync_state(confidence=0.55), creator_taste=context)
         decisions = {item["id"]: item for item in report["branch_decisions"]}
         self.assertEqual("high", decisions["creator-likely"]["search_priority"])
         self.assertEqual("none", decisions["favored-but-invalid"]["search_priority"])
