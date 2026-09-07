@@ -18,6 +18,7 @@ from scripts.score_character_references import select_character_references
 CANDIDATES_PATH = ROOT / "state" / "visual" / "SCENE_CANDIDATES.json"
 REGISTRY_PATH = ROOT / "state" / "visual" / "ILLUSTRATION_REGISTRY.json"
 CHARACTER_REFERENCES_PATH = ROOT / "state" / "visual" / "CHARACTER_VISUAL_REFERENCES.json"
+BOUNDED_APPROVALS_PATH = ROOT / "state" / "visual" / "BOUNDED_GENERATION_APPROVALS.json"
 OUTPUT_PATH = ROOT / "state" / "visual" / "GENERATION_QUEUE.json"
 CHAPTER_DIR = ROOT / "chapters"
 ACTIVE_STATUSES = {"generated", "approved", "live"}
@@ -28,6 +29,35 @@ DEFAULT_GREG_CONTINUITY = (
     "Keep style consistent with accepted PLG artwork. Prefer above-waist Greg framing and avoid unnecessary lower-body visibility "
     "unless the manuscript moment materially requires it. Match recurring characters to supplied reference assets and appearance notes."
 )
+
+
+def load_bounded_generation_approvals(path: Path = BOUNDED_APPROVALS_PATH) -> tuple[str, list[dict]]:
+    if not path.exists():
+        return "", []
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, dict):
+        raise ValueError("bounded generation approvals must be a JSON object")
+    if data.get("generation_approved") is not True:
+        return "", []
+    batch_id = data.get("batch_id")
+    if not isinstance(batch_id, str) or not batch_id.strip():
+        raise ValueError("bounded generation approvals require batch_id")
+    items = data.get("items")
+    if not isinstance(items, list):
+        raise ValueError("bounded generation approvals require an items list")
+    approved: list[dict] = []
+    seen: set[str] = set()
+    for item in items:
+        if not isinstance(item, dict):
+            raise ValueError("bounded generation approval items must be JSON objects")
+        candidate_id = item.get("id")
+        if not isinstance(candidate_id, str) or not candidate_id.strip():
+            raise ValueError("bounded generation approval item requires id")
+        if candidate_id in seen:
+            raise ValueError(f"duplicate bounded generation approval: {candidate_id}")
+        seen.add(candidate_id)
+        approved.append(dict(item))
+    return batch_id.strip(), approved
 
 
 def _next_version(candidate_id: str, registry: list[dict]) -> int:
@@ -94,9 +124,18 @@ def build_generation_queue(
     character_references: dict[str, dict] | None = None,
     production_hold: dict | None = None,
     performance_references: dict[int, dict] | None = None,
+    bounded_candidates: list[dict] | None = None,
+    generation_batch_id: str = "",
 ) -> list[dict]:
-    if edit_hold_active(production_hold):
-        return []
+    hold_active = edit_hold_active(production_hold)
+    if hold_active:
+        source_candidates = list(bounded_candidates or [])
+        if not source_candidates:
+            return []
+        if not isinstance(generation_batch_id, str) or not generation_batch_id.strip():
+            raise ValueError("bounded generation under structural hold requires generation_batch_id")
+    else:
+        source_candidates = list(candidates)
 
     character_references = character_references or {}
     performance_references = performance_references or {}
@@ -106,7 +145,7 @@ def build_generation_queue(
         if record.get("status") in ACTIVE_STATUSES
     }
     queue: list[dict] = []
-    for candidate in candidates:
+    for candidate in source_candidates:
         if (
             candidate.get("status") != "prompt_ready"
             or candidate.get("anchor_blocked")
@@ -159,7 +198,7 @@ def build_generation_queue(
             "scene_tags": scene_tags,
             "style_family": candidate.get("style_family", DEFAULT_STYLE_FAMILY),
             "framing_preference": framing_preference,
-            "camera_angle": candidate.get("camera_angle", ""),
+            "camera_angle": candidate.get("camera_angle") or candidate.get("view_angle", ""),
             "pose_family": candidate.get("pose_family", ""),
             "character_reference_assets": character_assets,
             "selected_character_references": selected_references,
@@ -176,6 +215,9 @@ def build_generation_queue(
             "coverage_before": coverage_before,
             "status": "generation_ready",
         }
+        if hold_active:
+            record["generation_approval"] = "explicit_bounded"
+            record["generation_batch_id"] = generation_batch_id.strip()
         performance_reference = _performance_reference_for_candidate(candidate, performance_references)
         if performance_reference:
             record["performance_reference"] = performance_reference
@@ -197,12 +239,14 @@ def main() -> None:
     character_references = json.loads(CHARACTER_REFERENCES_PATH.read_text(encoding="utf-8")) if CHARACTER_REFERENCES_PATH.exists() else {}
     if not isinstance(character_references, dict):
         raise ValueError("character visual references must be a JSON object")
+    production_hold = load_hold()
+    batch_id, bounded_candidates = load_bounded_generation_approvals()
+    reference_candidates = bounded_candidates if edit_hold_active(production_hold) else candidates
     performance_references = load_visual_references(
         int(candidate["chapter"])
-        for candidate in candidates
+        for candidate in reference_candidates
         if isinstance(candidate.get("chapter"), int)
     )
-    production_hold = load_hold()
     queue = build_generation_queue(
         candidates,
         registry,
@@ -210,18 +254,20 @@ def main() -> None:
         character_references=character_references,
         production_hold=production_hold,
         performance_references=performance_references,
+        bounded_candidates=bounded_candidates,
+        generation_batch_id=batch_id,
     )
     text = json.dumps(queue, indent=2, ensure_ascii=False) + "\n"
     previous = OUTPUT_PATH.read_text(encoding="utf-8") if OUTPUT_PATH.exists() else None
     if previous == text:
         if edit_hold_active(production_hold):
-            print("generation queue already current: structural-edit hold active; 0 ready")
+            print(f"generation queue already current: structural-edit hold active; {len(queue)} explicitly approved ready")
         else:
             print(f"generation queue already current: {len(queue)} ready")
         return
     OUTPUT_PATH.write_text(text, encoding="utf-8")
     if edit_hold_active(production_hold):
-        print("wrote generation queue: structural-edit hold active; 0 ready")
+        print(f"wrote generation queue: structural-edit hold active; {len(queue)} explicitly approved ready")
     else:
         print(f"wrote generation queue: {len(queue)} ready")
 
