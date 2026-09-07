@@ -1,0 +1,167 @@
+{
+  "schema": "dragon_spotter_cycle_6_adversarial_convergence/v1",
+  "authority": "derived_experimental_not_story_canon",
+  "objective": "Attempt to falsify the two Cycle 5 motivational compressions using the strongest counterexamples available from existing Dragon state, without broad discovery or new foundational worldbuilding.",
+  "fidelity": {
+    "experiment_mode": "trajectory_worldline_test",
+    "level": "development",
+    "performance_required": false,
+    "reason": "The uncertainty is causal and motivational. Existing high-heat first-bargain and relationship evidence already supplies embodied behavior; another scene would add fidelity without attacking the hypotheses more directly."
+  },
+  "relationship_guardrail": "Do not reopen mutual-indispensability or operational-reliance-before-personal-trust unless a hostile motivational counterexample creates a genuine contradiction. Attraction remains distinct from trust.",
+  "challenge_a_first_dragon": {
+    "hypothesis_under_attack": "voluntary-repair-of-reciprocal-standing",
+    "hostile_tests": [
+      {
+        "id": "dragon-counterexample.enforcement-precedent",
+        "alternative": "The dragon does not value repair; it bargains only to establish a precedent that makes future human compliance cheaper.",
+        "strength": "plausible_but_narrower",
+        "comparison": [
+          "Precedent can explain why the dragon wants humans to act rather than merely suffer force.",
+          "It explains the demanded human action less completely than reciprocal standing because it makes the dragon's own voluntary reciprocal gift strategically awkward: giving value back is unnecessary if deterrence/compliance is the whole objective.",
+          "Existing gift-reciprocity evidence repeatedly treats the dragon's return act as meaningful obligation rather than intimidation theater."
+        ],
+        "verdict": "does_not_falsify",
+        "effect": "narrows the Cycle 5 wording away from human-style moral closure: repair matters as restoration of a workable reciprocal order, which can include precedent and future enforceability."
+      },
+      {
+        "id": "dragon-counterexample.instrumental-recognition",
+        "alternative": "Voluntary acknowledgment is purely instrumental. The dragon values predictable future behavior, not acknowledgment itself.",
+        "strength": "strongest_counterexample",
+        "comparison": [
+          "This correctly warns against anthropomorphizing the dragon as seeking apology, absolution, emotional validation, or human moral closure.",
+          "But predictable future behavior still requires a mutually legible obligation structure in the existing bargain evidence. A coerced surrender gives compliance now without demonstrating that humans recognize the rule that should govern the next exchange.",
+          "The dragon's reciprocal act remains better explained if it is participating in the same obligation structure rather than merely purchasing obedience."
+        ],
+        "verdict": "survives_with_narrowing",
+        "effect": "Interpret reciprocal standing operationally and politically, not sentimentally. The dragon values a restored reciprocal order humans can be expected to honor."
+      },
+      {
+        "id": "dragon-counterexample.possession-primary",
+        "alternative": "Land or relic possession is actually primary; bargaining is merely a lower-cost acquisition tactic.",
+        "strength": "weak_against_existing_evidence",
+        "comparison": [
+          "If acquisition cost were the main variable, the strongest current evidence would favor whichever route transfers possession fastest and safest.",
+          "Instead both viable manifestations become more meaningful specifically where force can obtain the physical thing but cannot create the human act.",
+          "The dead-protocol challenge also failed when humans treated the encounter as a price/ceremony problem rather than identifying the obligation."
+        ],
+        "verdict": "does_not_falsify",
+        "effect": "Land/relic remain materially important grievances, but possession alone remains a worse explanation of the observed choice to negotiate."
+      },
+      {
+        "id": "dragon-counterexample.greg-personally-special",
+        "alternative": "The dragon's real objective is finding a particular human interlocutor, and the grievance is a test for Greg.",
+        "strength": "poor_fit_and_retrofit_heavy",
+        "comparison": [
+          "Existing evidence makes Greg valuable because he responds to the dragon's independent problem; it does not show the dragon arriving for Greg.",
+          "Making the grievance a Greg-selection mechanism would require new prior knowledge or mythology and would invert earned recognition into predestination."
+        ],
+        "verdict": "rejected",
+        "effect": "Greg remains a contingent useful mechanism, not the cause of the dragon's original want."
+      },
+      {
+        "id": "dragon-counterexample.equivalent-costly-form",
+        "alternative": "Replace land/relic with another costly voluntary human act that credibly restores the same obligation structure.",
+        "strength": "supports_compression",
+        "comparison": [
+          "The causal hypothesis predicts that an equivalent act can work if it is costly, voluntary, legible to both sides, and repairs the actual obligation rather than substituting unrelated ceremony.",
+          "That prediction explains why land and relic can differ physically while performing the same deeper story function."
+        ],
+        "verdict": "compression_survives",
+        "effect": "Land-restoration and relic-restitution remain genuinely distinct manifestations, but current evidence does not require distinct underlying motives."
+      }
+    ],
+    "result": {
+      "status": "survives_narrowed",
+      "narrowed_hypothesis": "restoration-of-workable-reciprocal-order-through-voluntary-costly-human-compliance",
+      "important_correction": "Do not encode the dragon as wanting apology, emotional recognition, forgiveness, or moral closure. The valued property is a reciprocal order that humans voluntarily make legible and costly enough to be credible.",
+      "compression_status": "preserved",
+      "land_relic_status": "distinct concrete grievances sharing one currently better-supported causal motive",
+      "foundational_new_structure_required": false
+    }
+  },
+  "challenge_b_greg_legitimacy": {
+    "hypothesis_under_attack": "usable-legitimacy-not-certification-as-identity",
+    "derived_possibility_under_attack": "recognized-cross-polity-mandate",
+    "hostile_tests": [
+      {
+        "id": "greg-counterexample.public-fraud-status",
+        "alternative": "Give Greg legal authority to mediate while the public still regards him as a fraud. Would usefulness alone satisfy the trajectory?",
+        "strength": "meaningful_narrowing",
+        "comparison": [
+          "Pure legal permission is not enough if nobody treats his negotiated commitments as credible; usable legitimacy includes practical recognition by the actors who must honor them.",
+          "This does not require admiration, vindication, belonging, or universal belief that Greg was secretly qualified all along.",
+          "The story can preserve reputational friction while still granting enough public/institutional legibility for his work to function."
+        ],
+        "verdict": "survives_with_narrowing",
+        "effect": "Usable legitimacy means effective recognized standing, not paperwork alone."
+      },
+      {
+        "id": "greg-counterexample.crown-status-with-constraint",
+        "alternative": "The Crown offers Greg status, security, public vindication, and a prestigious Spotter title, but requires dragon negotiations to serve Crown priorities and limits his ability to carry reciprocal obligations across the boundary.",
+        "strength": "strongest_counterexample",
+        "comparison": [
+          "If certification or status were Greg's primary transformed need, this offer should dominate.",
+          "The existing trajectory predicts the opposite: accepting authority that prevents him from doing the work he became good at would turn legitimacy into a constraint on competence.",
+          "He may value security or vindication, but those benefits do not explain the trajectory as well as authority that preserves the ability to mediate and make reciprocal commitments stick."
+        ],
+        "verdict": "does_not_falsify",
+        "effect": "The usable-authority hypothesis survives a deliberately attractive certification offer. Independence is instrumental rather than ideological: Greg needs enough discretion to perform the cross-polity function."
+      },
+      {
+        "id": "greg-counterexample.no-institutional-standing",
+        "alternative": "Greg operates entirely outside human institutions, relying only on dragon recognition and personal usefulness.",
+        "strength": "poor_fit_with_existing_political_consequences",
+        "comparison": [
+          "This preserves independence but fails where human institutions control property, enforcement, recognition of agreements, and consequences of dragon gifts.",
+          "It would make repeated institutional pressure largely disposable instead of transformed."
+        ],
+        "verdict": "rejected",
+        "effect": "Some human-side standing remains causally necessary."
+      },
+      {
+        "id": "greg-counterexample.hybrid-mandate-too-convenient",
+        "alternative": "The recognized cross-polity mandate simply combines the benefits of Crown Spotter and dragon envoy and therefore evades the real ending tension.",
+        "strength": "valid_challenge",
+        "comparison": [
+          "As a bespoke new office with perfect autonomy, status, protection, and bilateral authority, the mandate would indeed be suspiciously convenient and would require unsupported institutional invention.",
+          "The causal finding does not require such an office. It only requires that Greg's final operating condition include enough human standing for commitments to work while dragon recognition remains independently earned.",
+          "Those properties can be rendered through Crown Spotter, dragon envoy, an awkward dual recognition, or another existing political arrangement without canonizing a new institution."
+        ],
+        "verdict": "derived_possibility_narrowed_not_required",
+        "effect": "recognized-cross-polity-mandate should be treated as a trajectory constraint / state description, not a mandatory named office or foundational institution."
+      },
+      {
+        "id": "greg-counterexample.transformation-versus-reward",
+        "alternative": "The ending should demonstrate transformation even if Greg receives neither prestigious title nor clean vindication.",
+        "strength": "supports_compression",
+        "comparison": [
+          "The strongest transformation evidence is that Greg can now do the work honestly and effectively that he once pretended to understand.",
+          "An ending role is causally appropriate only insofar as it lets that transformed capability operate under real political constraints.",
+          "This makes title/status a consequence or wrapper, not the proof of transformation."
+        ],
+        "verdict": "compression_survives",
+        "effect": "Crown Spotter and dragon envoy are genuinely different relationships to legitimacy, but both are manifestations of the deeper problem of what authority can recognize without owning Greg's earned competence."
+      }
+    ],
+    "result": {
+      "status": "survives_narrowed",
+      "narrowed_hypothesis": "effective-recognized-standing-for-cross-polity-work-not-certification-as-source-of-identity",
+      "recognized_cross_polity_mandate_status": "survives_as_state_constraint_not_required_named_office",
+      "compression_status": "preserved",
+      "crown_spotter_dragon_envoy_status": "genuinely distinct political manifestations of one deeper legitimacy problem",
+      "foundational_new_structure_required": false
+    }
+  },
+  "final_assessment": {
+    "did_architecture_materially_change": false,
+    "did_cycle_5_explanation_fail": false,
+    "did_hypotheses_narrow": true,
+    "new_foundational_discoveries": [],
+    "new_foundational_structure_required": false,
+    "relationship_reopened": false,
+    "broad_discovery_information_gain": "below_cost",
+    "broad_discovery_complete_if_runtime_remains_stable": true,
+    "next_if_verified": "bounded_prose_rendering_experiment"
+  }
+}
