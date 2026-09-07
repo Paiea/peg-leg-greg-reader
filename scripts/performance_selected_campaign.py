@@ -15,6 +15,7 @@ from scripts import performance_production_funnel as funnel
 SPEAKER_OWNERSHIP_POLICY = {
     "authority": "screenplay_ground_truth",
     "instruction": "Run a speaker ownership audit when translating PERFORMANCE back into prose. The screenplay's explicit speaker labels are ground truth for who owns each spoken line.",
+    "screenplay_requirement": "The performed script must use explicit speaker labels for every spoken exchange. Do not collapse dialogue into action-only beat summaries; preserve the spoken exchange and its owner so the return-to-prose pass has a reliable speaker map.",
     "rules": [
         "Preserve clean two-person alternation when speaker ownership remains immediately legible.",
         "Be bullish on light attribution when three or more speakers are active, after narration or action interrupts an exchange, after a speaker re-enters from silence, during interruptions, or when alternation breaks.",
