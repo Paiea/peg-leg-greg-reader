@@ -87,8 +87,15 @@
     {
       "start": 121,
       "end": 130,
-      "status": "pending",
-      "retry_count": 0
+      "status": "source_win",
+      "retry_count": 0,
+      "source_authority": "980f2d459b02343cb33c93768dc89b05c5c7fe3f",
+      "settled_authority": "980f2d459b02343cb33c93768dc89b05c5c7fe3f",
+      "retryable": false,
+      "blocking_reason": null,
+      "manifest_path": null,
+      "report_path": "state/editorial/rehearsal/queue/current-compile-summary.json",
+      "validation": "green"
     },
     {
       "start": 131,
