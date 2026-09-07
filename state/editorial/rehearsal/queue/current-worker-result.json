@@ -1,0 +1,181 @@
+{
+  "schema": "rehearsal_campaign_worker_result/v1",
+  "batch": {
+    "start": 61,
+    "end": 70,
+    "source_authority": "9dc74bcb95668e6ab011b3adf25c0dc9957e781c"
+  },
+  "chapters": [
+    {
+      "chapter": 61,
+      "disposition": "source_win",
+      "discoveries": [
+        "Pessa and Dorn already control the road scene through task order, evidence, and selective intervention rather than explanatory performance.",
+        "Greg's incorrect culvert inference earns its correction because the physical investigation is allowed to stay messy."
+      ],
+      "rejected_hot": [
+        {
+          "label": "useful_repetition_destroyed",
+          "finding": "Compressing the repeated maybe/evidence checks would weaken the chapter's central lesson that similar-looking road conditions require fresh local assessment."
+        }
+      ]
+    },
+    {
+      "chapter": 62,
+      "disposition": "returns",
+      "discoveries": [
+        "Hessa's procedural authority and Dorn's interface briefing already perform cleanly at high rehearsal heat.",
+        "The Arlo workshop transition contains a literal duplicated narration paragraph that reads as storage recursion rather than character rhythm."
+      ],
+      "rejected_hot": [
+        {
+          "label": "overcompression",
+          "finding": "Further compressing Dorn's mill-frame role briefing would remove the ownership boundaries that make the later accident causally legible."
+        }
+      ]
+    },
+    {
+      "chapter": 63,
+      "disposition": "source_win",
+      "discoveries": [
+        "The load-test failure is already actor-driven through competent stop calls, reassignment of sightlines, and physical causality.",
+        "The accident gains force because nobody performs for the reader while the machinery is unstable."
+      ],
+      "rejected_hot": [
+        {
+          "label": "overacted_theatre",
+          "finding": "Adding sharper interpersonal beats during the plate failure would make the scene feel staged and reduce the procedural credibility that creates its tension."
+        },
+        {
+          "label": "movement_saturation",
+          "finding": "The scene already carries dense necessary movement; additional actor business would compete with safety-critical blocking."
+        }
+      ]
+    },
+    {
+      "chapter": 64,
+      "disposition": "source_win",
+      "discoveries": [
+        "Sera owns the trauma scene through medical decisions while Hessa stays inside her narrower magical-support authority.",
+        "Greg's attempts to turn uncertainty into units are useful first-person coping rather than dialogue redundancy."
+      ],
+      "rejected_hot": [
+        {
+          "label": "pov_crowding",
+          "finding": "Giving Sera or Hessa more performed subtext would crowd the chapter's strongest material: Greg inventorying the limb and negotiating consent from inside shock."
+        }
+      ]
+    },
+    {
+      "chapter": 65,
+      "disposition": "source_win",
+      "discoveries": [
+        "Hessa accepting Greg's demand that she leave instead of arguing is already a high-authority actor choice.",
+        "Alden's visit becomes legible through his refusal to reassure Greg falsely."
+      ],
+      "rejected_hot": [
+        {
+          "label": "quip_inflation",
+          "finding": "The ward already has enough defensive humor; increasing line cleverness would blunt the phantom-limb and dependency material."
+        }
+      ]
+    },
+    {
+      "chapter": 66,
+      "disposition": "source_win",
+      "discoveries": [
+        "Jorren's orange visit, Arlo's regulator notes, and Hessa's report boundary differentiate three relationships without needing stronger tags or motifs.",
+        "Arlo's easy admission that he did not need Greg is stronger because the scene does not rush to reassure him."
+      ],
+      "rejected_hot": [
+        {
+          "label": "useful_repetition_destroyed",
+          "finding": "The recurring questions about work and who needed Greg are the pressure pattern of the chapter, not dead conversational looping."
+        }
+      ]
+    },
+    {
+      "chapter": 67,
+      "disposition": "source_win",
+      "discoveries": [
+        "Jorren's refusal to become Greg's information clerk and Ressa's direct ownership of the yard outcome already solve scenes through character-specific authority.",
+        "Ressa saying both yes and no to whether she failed preserves the chapter's refusal of clean blame."
+      ],
+      "rejected_hot": [
+        {
+          "label": "overcompression",
+          "finding": "Collapsing the staircase questions or Ressa's accident analysis would remove the accumulation through which Greg learns that accessibility and responsibility are conditional rather than binary."
+        }
+      ]
+    },
+    {
+      "chapter": 68,
+      "disposition": "source_win",
+      "discoveries": [
+        "The crutch lesson already uses body failure to interrupt Greg before clinicians explain, which is the desired rehearsal behavior.",
+        "Repeated instructions such as later, again, and stop gain force because Greg repeatedly tests the same boundary in a changed body."
+      ],
+      "rejected_hot": [
+        {
+          "label": "useful_repetition_destroyed",
+          "finding": "Streamlining the repeated mobility instructions would erase embodied learning and make recovery feel implausibly efficient."
+        }
+      ]
+    },
+    {
+      "chapter": 69,
+      "disposition": "source_win",
+      "discoveries": [
+        "Jorren's best performance is restraint: he stops when Greg stops, looks away before the chair request, and leaves bad engineering choices for Greg to experience.",
+        "The trip home earns its length because ordinary thresholds, traffic, dirt, and the privy become the actual action scene."
+      ],
+      "rejected_hot": [
+        {
+          "label": "gratuitous_interruption",
+          "finding": "More Jorren corrections would turn him into a constant rehabilitation coach and steal the physical discoveries Greg needs to make himself."
+        },
+        {
+          "label": "pov_crowding",
+          "finding": "Additional supporting-actor business would weaken the first-person recalibration of the city at crutch height."
+        }
+      ]
+    },
+    {
+      "chapter": 70,
+      "disposition": "source_win",
+      "discoveries": [
+        "The contract board works because it does not wait for Greg; another Copper taking the inventory job externalizes his new uncertainty without explanation.",
+        "Pessa and Hessa both resist becoming permission-givers, leaving Greg to confront his own decision not to take work."
+      ],
+      "rejected_hot": [
+        {
+          "label": "character_caricature",
+          "finding": "Making Hessa more aggressively controlling here would contradict the useful turn where she explicitly did not forbid Greg from taking the inventory job."
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "c062-nico-duplicate-step-inside-01",
+      "chapter": 62,
+      "actor": "Nico",
+      "role": "Greg",
+      "supporting_actors": [
+        "Rowan as Arlo"
+      ],
+      "take_id": "062-free-boundary-a",
+      "variance_group_id": null,
+      "actor_prefers": true,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "changed_surfaces": [
+        "paragraphing",
+        "narration_rhythm"
+      ],
+      "before": "<p>I stepped inside.</p><p>I stepped inside.</p>",
+      "after": "<p>I stepped inside.</p>",
+      "reason": "The repeated sentence is a literal adjacent duplicate at the Arlo workshop transition. Nico's performance does not gain pressure, fixation, timing, or character meaning from saying the same movement twice, so this is model/storage recursion rather than useful repetition."
+    }
+  ]
+}
