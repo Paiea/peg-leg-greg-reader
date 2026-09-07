@@ -1,0 +1,90 @@
+name: REHEARSAL FREE returns 051-060
+
+on:
+  push:
+    branches:
+      - editor/rehearsal-simulation-engine
+    paths:
+      - '.github/workflows/rehearsal-free-returns-051-060.yml'
+      - 'scripts/apply_rehearsal_returns.py'
+      - 'tests/test_apply_rehearsal_returns.py'
+      - 'state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-returns.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Focused FREE return tests
+        run: python -m unittest tests.test_rehearsal_engine tests.test_rehearsal_scene_pressure tests.test_apply_rehearsal_returns -v
+      - name: Dry-run all exact FREE returns
+        run: python scripts/apply_rehearsal_returns.py --manifest state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-returns.json --report state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-report.json
+      - name: Apply validated FREE returns
+        run: python scripts/apply_rehearsal_returns.py --manifest state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-returns.json --report state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-report.json --write
+      - name: Verify return diff boundaries
+        run: |
+          python - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+          manifest = json.loads(Path('state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-returns.json').read_text())
+          report_path = Path('state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-report.json')
+          report = json.loads(report_path.read_text())
+          expected = sorted({p['chapter'] for p in manifest['patches']})
+          if report['patches_applied'] != len(manifest['patches']): raise SystemExit('patch count mismatch')
+          if report['changed_chapters'] != expected: raise SystemExit('chapter boundary mismatch')
+          allowed = {f'chapters/{c:03d}.html' for c in expected} | {str(report_path)}
+          changed = set(subprocess.check_output(['git','diff','--name-only'], text=True).split())
+          if changed - allowed: raise SystemExit('unexpected generated files: ' + ', '.join(sorted(changed-allowed)))
+          if {f'chapters/{c:03d}.html' for c in expected} - changed: raise SystemExit('expected chapter rewrite missing')
+          print('FREE return diff boundary verified')
+          PY
+      - name: Reject hard-surface leakage and em dashes
+        run: |
+          python - <<'PY'
+          import json, re
+          from pathlib import Path
+          manifest=json.loads(Path('state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-returns.json').read_text())
+          hard={'plot','facts','knowledge','causality','major_relationship_state','physical_state','chronology','economics','earned_competence','injury_state'}
+          for p in manifest['patches']:
+            overlap=hard.intersection(p['changed_surfaces'])
+            if overlap: raise SystemExit(f"hard surface leaked into {p['id']}: {sorted(overlap)}")
+          for c in sorted({p['chapter'] for p in manifest['patches']}):
+            text=Path(f'chapters/{c:03d}.html').read_text()
+            article=text.split('<article class="prose">',1)[1].split('</article>',1)[0]
+            if '—' in re.sub(r'<[^>]+>','',article): raise SystemExit(f'em dash in prose: {c}')
+          print('Hard-surface and no-em-dash checks passed.')
+          PY
+      - name: Full repository validation
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py'
+          python scripts/performance_roundtrip_references.py --check
+          python scripts/project_check.py showcase
+          git diff --check
+      - name: Commit validated FREE prose returns
+        if: success()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          python - <<'PY' > /tmp/rehearsal-return-files.txt
+          import json
+          from pathlib import Path
+          m=json.loads(Path('state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-returns.json').read_text())
+          for c in sorted({p['chapter'] for p in m['patches']}): print(f'chapters/{c:03d}.html')
+          print('state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-report.json')
+          PY
+          mapfile -t files < /tmp/rehearsal-return-files.txt
+          git add -- "${files[@]}"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Apply over-hot FREE REHEARSAL returns through canon 60'
+          git push origin HEAD:editor/rehearsal-simulation-engine
