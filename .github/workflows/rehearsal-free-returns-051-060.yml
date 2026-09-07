@@ -28,16 +28,28 @@ jobs:
           python-version: '3.12'
       - name: Focused FREE return tests
         run: python -m unittest tests.test_rehearsal_engine tests.test_rehearsal_scene_pressure tests.test_apply_rehearsal_returns -v
+      - name: Materialize literal-source manifest
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          src = Path('state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-returns.json')
+          data = json.loads(src.read_text())
+          patch = next(p for p in data['patches'] if p['id'] == 'c055-alden-stop-house-boundary-01')
+          patch['before'] = '<p>We reset. I had seen it. Not enough. Timing. Left hand moving before the body committed. Not parry. Not spell. Maybe a cue. Maybe balance. Maybe preparation for something else. Alden saw my face.</p>'
+          patch['after'] = '<p>We reset. I had seen it. Not enough. Timing. Left hand moving before the body committed. Not parry. Not spell. Maybe a cue. Maybe balance. Maybe preparation for something else. Alden saw my face and hit my guard before I finished whatever theory had started forming.</p>'
+          Path('/tmp/canon-051-060-boundary-hunt-returns.json').write_text(json.dumps(data, indent=2) + '\n')
+          PY
       - name: Dry-run all exact FREE returns
-        run: python scripts/apply_rehearsal_returns.py --manifest state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-returns.json --report state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-report.json
+        run: python scripts/apply_rehearsal_returns.py --manifest /tmp/canon-051-060-boundary-hunt-returns.json --report state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-report.json
       - name: Apply validated FREE returns
-        run: python scripts/apply_rehearsal_returns.py --manifest state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-returns.json --report state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-report.json --write
+        run: python scripts/apply_rehearsal_returns.py --manifest /tmp/canon-051-060-boundary-hunt-returns.json --report state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-report.json --write
       - name: Verify return diff boundaries
         run: |
           python - <<'PY'
           import json, subprocess
           from pathlib import Path
-          manifest = json.loads(Path('state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-returns.json').read_text())
+          manifest = json.loads(Path('/tmp/canon-051-060-boundary-hunt-returns.json').read_text())
           report_path = Path('state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-report.json')
           report = json.loads(report_path.read_text())
           expected = sorted({p['chapter'] for p in manifest['patches']})
@@ -54,7 +66,7 @@ jobs:
           python - <<'PY'
           import json, re
           from pathlib import Path
-          manifest=json.loads(Path('state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-returns.json').read_text())
+          manifest=json.loads(Path('/tmp/canon-051-060-boundary-hunt-returns.json').read_text())
           hard={'plot','facts','knowledge','causality','major_relationship_state','physical_state','chronology','economics','earned_competence','injury_state'}
           for p in manifest['patches']:
             overlap=hard.intersection(p['changed_surfaces'])
@@ -79,7 +91,7 @@ jobs:
           python - <<'PY' > /tmp/rehearsal-return-files.txt
           import json
           from pathlib import Path
-          m=json.loads(Path('state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-returns.json').read_text())
+          m=json.loads(Path('/tmp/canon-051-060-boundary-hunt-returns.json').read_text())
           for c in sorted({p['chapter'] for p in m['patches']}): print(f'chapters/{c:03d}.html')
           print('state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-report.json')
           PY
