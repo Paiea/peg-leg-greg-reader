@@ -6,128 +6,198 @@ Active branch: `architecture/long-form-story-compiler`
 Draft PR: **#161**  
 Runtime model: STORY STATE = memory; ACT I–IV = persistent temporal perspectives; REHEARSAL = experiment selection/orchestration; PERFORMANCE = high-fidelity embodied-behavior experiment; STORY SYNC = learning/convergence; PROSE = rendering.
 
-This is the compact Gravity continuation trailhead through **Cycle 3**. Keep Gravity-specific material here. Do not convert these findings into generic compiler assumptions and do not write sustained canon prose from this state yet.
+This is the compact Gravity continuation trailhead through **Cycle 5**. Keep Gravity-specific material project-local. Do not convert these findings into generic story assumptions and do not write sustained canon prose from this state yet.
 
 ## Verification authority
 
-Cycle 3 was observed through the ordered project fixture at branch commit `45167fbb1dda0c024f859f13df5e859ed8ed92b4`, GitHub Actions STORY SYNC run `34135732065`:
+The ordered Gravity fixture through Cycles 1–5 is green on runtime head `bfa5e11d58831aca94b419a4bb19dcf73f0c23aa`, GitHub Actions STORY SYNC run `34137789593`:
 
-- focused STORY SYNC/runtime suite: **71 tests, green**
-- full repository suite: **527 tests, 6 skipped, green**
+- focused STORY SYNC/runtime suite: **72 tests, green**
+- full repository suite: **529 tests, 6 skipped, green**
 - CI remained read-only validation
 
-The branch subsequently advanced only through project-local Dragon Spotter state before this Gravity continuation capture. The Cycle 3 manifest and generic expectation-contract changes remain ancestors of current authority.
+That head also includes the generic evidence-backed temporal-boundary integration needed for the next Gravity experiment. Final exact-head validation must still run after this continuation-state commit.
 
-## Cycle 0 → 3 convergence
+## Cycle 0 → 5 convergence
 
-The useful convergence signal is temporal constraint closure, not simple branch-count collapse.
+The important convergence signal is constraint and temporal-pressure closure, not forced branch-count collapse.
 
-| Metric | Cycle 0 | Cycle 1 | Cycle 2 | Cycle 3 |
-| --- | ---: | ---: | ---: | ---: |
-| Open branch count | 23 | 21 | 21 | 21 |
-| Branch-pressure proxy | 29 | 30 | 30 | 30 |
-| Boundary contradictions | 7 | 7 | 7 | 7 |
-| Unresolved directional messages | 6 | 9 | 4 | 1 |
-| Open temporal pressure | 13 | 16 | 12 | 9 |
-| Supported constraints | 0 | 0 | 5 | 8 |
-| Third paths | 0 | 0 | 1 | 1 |
-| `survival-enables-offense` evidence | 1 | 3 | 3 | 4 |
-| `mechanics-can-carry-trust` evidence | 0 | 1 | 2 | 3 |
+| Metric | C0 | C1 | C2 | C3 | C4 | C5 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Open branches | 23 | 21 | 21 | 21 | 21 | 21 |
+| Branch-pressure proxy | 29 | 30 | 30 | 30 | 30 | 30 |
+| Boundary contradictions | 7 | 7 | 7 | 7 | 7 | 7 |
+| Unresolved directional messages | 6 | 9 | 4 | 1 | 0 | 0 |
+| Open temporal pressure | 13 | 16 | 12 | 9 | 7 | 7 |
+| Supported directional constraints | 0 | 0 | 5 | 8 | 9 | 9 |
+| `survival-enables-offense` evidence | 1 | 3 | 3 | 4 | 4 | 5 |
+| `mechanics-can-carry-trust` evidence | 0 | 1 | 2 | 3 | 3 | 3 |
 
-Cycle 1 increased directional pressure while pruning two weak branches. Cycles 2 and 3 then closed constraints without forcing additional branch collapse. That is the important result: retrofit pressure is falling even while major alternatives remain alive.
+Only Cycle 1 pruned local search branches: `damage-height-only` and `quick-mastery` became superseded/redundant. Since then, open branch count has stayed **21** while retrofit pressure has fallen. That is healthy convergence: the runtime is learning without killing alternatives merely to make the numbers prettier.
 
-## Branch movement
+All nine long-range directional constraints are now supported. The remaining temporal pressure is entirely the **seven adjacent boundary contradictions**.
 
-Only two local branches have been invalidated/weakened so far:
+## Cycle 4: geography third-path closure
 
-- `act-ii:damage-height-only` → superseded / redundant
-- `act-ii:quick-mastery` → superseded / redundant
-
-The following remain deliberately live:
-
-- death stakes: real death vs severe loss
-- first-fall geography: geographic gate vs local-only
-- social entry: old friend vs stranger/recruiter vs institutional route
-- romance architecture: pre-existing connection vs relationship grown through experimentation
-- ending: public breakthrough vs contained secret
-- exact gravity exploit recipe and mastery progression
-
-No Cycle 3 evidence killed a shared branch.
-
-## STORY SYNC after Cycle 3
-
-### STORY TRUTH: `survival-enables-offense`
-
-Cycle 3 legitimately promoted this discovery after **4 independent evidence items**, including an Act IV worldline challenge.
-
-The truth is narrow:
-
-**Maximum HP remains defensive. Survivability creates enough room to discover and intentionally use offensive possibilities from ordinary gravity/collision that would otherwise be suicidal to experiment with.**
-
-This does **not** settle the exact exploit recipe, exact costs, repeatability, or mastery progression. It is derived STORY SYNC truth, not canon prose.
-
-### STRONG THREAD: `mechanics-can-carry-trust`
-
-This remains a **strong thread**, not story truth, after **3 independent evidence items** and a high-heat Act IV challenge.
-
-The thread survived because another person's timing, spotting, rescue, recovery, or public handling can become mechanically consequential. Cycle 3 sharpened the downside: the same dependence that creates trust also creates leverage over safety, secrecy, reputation, or outcome.
-
-The runtime still did **not** choose romance. Friendship, romance, rivalry, institutional dependence, or overlap remain possible. Old connection versus new connection and pre-existing romance versus romance grown through experimentation also remain open.
-
-## What Cycle 3 actually changed
-
-Cycle 3 supplied three bounded experiments:
-
-1. **Act IV high-heat PERFORMANCE** tested mechanics/trust under real downstream leverage. It supported the two remaining trust-related forward consequences.
-2. **Act IV development worldline** challenged the mechanics thread late in the book. It found that mastery can remain control of ordinary dangerous conditions rather than immunity or a new gravity power.
-3. **Act III forward probe** supported a social-access route through witnessed technique usefulness rather than requiring early geographic relocation.
-
-After those tests:
-
-- supported constraints: **5 → 8**
-- unresolved directional messages: **4 → 1**
-- open temporal pressure: **12 → 9**
-- one `third_path` remains
-- major shared novelty slowed while existing mechanics threads deepened
-- seven adjacent boundary contradictions remain untouched
-
-This is positive convergence, but the full trajectory is still **open**.
-
-## Remaining third path
-
-`ge-backward-social-access-earns-gate` remains `third_path`.
-
-Act III originally implied that later access to higher-level people might require an early geographic gate. Act I rejected that necessity. Cycles 2 and 3 established a plausible alternative: the player can remain geographically local while witnessed technique usefulness later creates recruitment, curiosity, competition, sponsorship, obligation, or institutional attention.
-
-That third solution does not yet prove the geographic-gate branch is bad. It only proves later social access cannot be used as a shortcut argument for early relocation.
-
-## Exact next executable edge
-
-Run one bounded **Act I ↔ Act III counterfactual branch comparison**:
+Cycle 4 ran the requested structural comparison:
 
 `target:ge-geography-third-path-closure`
 
 Mode: `counterfactual_branch_comparison`  
 Fidelity: **development**  
-Do **not** escalate to PERFORMANCE unless the comparison reveals an embodied-behavior uncertainty.
+PERFORMANCE escalation: **not required**
 
-Hold constant the now-supported later consequence:
+Held constant:
 
-> witnessed gravity-technique usefulness can create higher-level attention.
+**Witnessed gravity-technique usefulness can attract higher-level attention.**
 
-Then compare:
+That removes the false requirement that early relocation must unlock later social access.
 
-- first fall creates a geographic gate
-- first fall remains local-only
+### Result: both geography branches remain meaningfully distinct
 
-Ask what materially differs in lived costs, promises, status pressure, access, pacing, and retrofit burden once social access no longer depends on relocation.
+`first-fall-local-only` remains viable because it creates:
 
-Weakening one branch is allowed only if it becomes functionally redundant. Preserve both if they generate genuinely different viable trajectories.
+- a slower private mechanics-first runway
+- familiar but limited resources and terrain
+- more early isolation
+- later technique-driven status pressure
+- more gradual world exposure
+- a stronger obscurity-to-public-consequence contrast if the trajectory eventually goes public
 
-Do not settle death stakes, romance architecture, ending, social-entry identity, or exact gravity progression as collateral damage.
+`first-fall-geographic-gate` remains viable because it can create:
+
+- displacement and recovery vulnerability
+- unfamiliar resources or terrain
+- earlier dependence on unfamiliar people or systems
+- earlier environmental/status pressure
+- faster world exposure
+- different Act II experimental conditions
+
+But the geographic gate now has a higher burden of proof: it must cash out those lived differences. It cannot justify itself merely by putting the player near stronger people sooner.
+
+No branch was pruned. No new third path was created. Romance, death stakes, social-entry identity, ending, and exact gravity progression remained untouched.
+
+The prior `ge-backward-social-access-earns-gate` third path became **supported without selecting geography**.
+
+Cycle 4 therefore produced:
+
+- branches: **21 → 21**
+- unresolved directional messages: **1 → 0**
+- supported directional constraints: **8 → 9**
+- constraint collisions: **1 → 0**
+- open temporal pressure: **9 → 7**
+- boundary contradictions: **7 → 7**
+- STORY SYNC maturity: unchanged
+
+## Cycle 5: hostile STORY TRUTH challenge
+
+Cycle 5 separately attacked:
+
+`survival-enables-offense`
+
+This was not another supportive example. The hostile worldline asked whether Maximum HP could continue enabling survival while deliberate gravity/collision offense remained too situational or costly to matter as a general combat solution.
+
+A plausible hostile worldline **does** exist:
+
+- terrain has to cooperate
+- moving targets can break setup
+- positioning can telegraph intent
+- failed contact can waste position or equipment
+- recovery can consume the advantage
+- self-impact can remain strategically expensive even when survivable
+- useful contact conditions may occur too rarely for routine combat
+
+That exposes an overbroad version of the truth.
+
+### STORY TRUTH survives, but the gloss narrows
+
+Rejected overbroad formulation:
+
+**Survivability guarantees that gravity experimentation eventually becomes broadly useful offense.**
+
+Current supported STORY TRUTH:
+
+**Maximum HP remains defensive. Survivability makes a class of otherwise-suicidal ordinary gravity/collision experiments possible and can expose an offensive option that becomes intentionally usable under some conditions.**
+
+It does **not** guarantee that the offensive option is:
+
+- reliable
+- efficient
+- broadly applicable
+- the default combat answer
+- structurally central to the entire book
+
+The underlying discovery therefore remains STORY TRUTH after **5 evidence items**, including the hostile challenge. What changed was the continuation gloss, not the evidence class.
+
+Still unresolved: exact exploit recipe, mastery progression, repeatability, costs, and mastery speed.
+
+## STRONG THREAD: `mechanics-can-carry-trust`
+
+This remains a **STRONG THREAD**, not STORY TRUTH, at **3 evidence items**.
+
+Gravity experimentation can make another person's judgment, timing, rescue, recovery, secrecy, or intervention mechanically consequential. That supports embodied trust and leverage.
+
+It still does **not** select:
+
+- friendship versus romance versus rivalry versus institutional dependence or overlap
+- old connection versus new connection
+- pre-existing romance versus romance grown through experimentation
+
+Do not promote those choices through implication.
+
+## Preserved high-level uncertainty
+
+Still live:
+
+- death stakes: real death vs severe loss
+- geography: geographic gate vs local-only
+- social entry: old friend vs stranger/recruiter vs institutional route
+- romance architecture: pre-existing connection vs relationship grown through experimentation
+- ending: public breakthrough vs contained secret
+- exact gravity exploit progression, reliability, centrality, and costs
+
+No Cycle 4 or Cycle 5 evidence killed a shared branch.
+
+## Generic runtime change now available
+
+Commit `bfa5e11d58831aca94b419a4bb19dcf73f0c23aa` added generic evidence-backed temporal-boundary learning.
+
+REHEARSAL evidence can now:
+
+- revise a **derived boundary hypothesis** while preserving its prior value in history
+- mark a specific adjacent transition **supported** when lived evidence demonstrates the bridge
+- retire that interpolation gap without pretending adjacent temporal values must become textually identical
+
+This is generic compiler/runtime behavior. No Gravity-specific strings or assumptions were added to the runtime.
+
+That matters because Gravity's remaining pressure is now entirely adjacent-boundary pressure.
+
+## Exact next executable edge
+
+Run the earliest remaining structural boundary:
+
+`target:boundary:act-i:act-ii:gravity_model:ge-a1-out-gravity:ge-a2-in-gravity`
+
+Act I STATE OUT:
+
+`anomaly-observed-not-explained`
+
+Act II STATE IN:
+
+`uncertain-reproduction`
+
+Mode: `state_transition_test`  
+Fidelity: **development**  
+PERFORMANCE: **not required unless the actual experiment exposes an embodied uncertainty**
+
+Test the lived transition from surviving an unexplained gravity anomaly to deliberately attempting uncertain reproduction.
+
+The experiment should answer whether concrete attempts naturally connect those temporal beliefs. If evidence supports the bridge, use the new generic boundary-response seam. Revise the Act II state-in hypothesis only if observed behavior actually warrants a narrower value.
+
+Do **not** solve the exact gravity recipe as part of this bridge. Also do not settle mastery speed, death stakes, geography, social-entry identity, romance architecture, or ending as collateral damage.
 
 ## Rendering gate
 
 **Sustained canon prose: not ready.**
 
-One foundational mechanics truth has converged, but seven adjacent boundary contradictions and the protected high-level branches above remain open. Continue bounded REHEARSAL and let STORY SYNC earn further closure.
+Gravity now has one mechanics STORY TRUTH that survived hostile challenge and all nine long-range directional constraints are supported. But **seven adjacent temporal boundary contradictions remain**. Continue bounded REHEARSAL and let those lived transitions converge before prose rendering gains authority.
