@@ -77,6 +77,20 @@ jobs:
               raise SystemExit('worker result source authority missing')
           subprocess.run(['git', 'cat-file', '-e', f'{source}^{{commit}}'], check=True)
           chapter_paths = [f'chapters/{n:03d}.html' for n in range(current['start'], current['end'] + 1)]
+
+          # The worker may legitimately read from a later metadata-only descendant of
+          # the last prose settlement commit. Prove ancestry and byte-equivalence for
+          # the claimed chapter range before moving the queue tip to that source.
+          settled = state.get('settled_authority')
+          if current['status'] == 'pending' and settled and source != settled:
+              ancestor = subprocess.run(['git', 'merge-base', '--is-ancestor', settled, source])
+              if ancestor.returncode != 0:
+                  raise SystemExit('worker source is not a descendant of queue settled authority')
+              changed_from_settled = subprocess.run(['git', 'diff', '--quiet', settled, source, '--', *chapter_paths])
+              if changed_from_settled.returncode != 0:
+                  raise SystemExit('claimed batch prose changed between queue settlement and worker source')
+              queue.adopt_equivalent_authority(state, settled, source)
+
           changed = subprocess.run(['git', 'diff', '--quiet', source, 'HEAD', '--', *chapter_paths])
           if changed.returncode != 0:
               raise SystemExit('claimed batch prose changed after worker source authority')
