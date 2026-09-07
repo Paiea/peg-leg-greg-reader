@@ -1,0 +1,180 @@
+name: PERFORMANCE Speaker Ownership Showcase 70 Ship
+
+on:
+  push:
+    branches:
+      - editor/performance-speaker-showcase-70
+    paths:
+      - '.github/workflows/performance-speaker-showcase-70-ship.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  ship:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: editor/performance-speaker-showcase-70
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Lock accepted source authority
+        run: |
+          git fetch origin main editor/performance-speaker-showcase-70-final
+          MAIN_SHA=$(git rev-parse origin/main)
+          test "$MAIN_SHA" = "da4d5333603c7367bd85b547df7a4ee4f8c7b232"
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path('state/editorial/performance-production/trials/showcase-70-speaker-safe-proposals.json').read_text(encoding='utf-8'))
+          assert data['source_authority'] == 'da4d5333603c7367bd85b547df7a4ee4f8c7b232'
+          assert data['chapters_considered'] == 70
+          assert data['proposal_count'] == 121
+          assert len(data['proposals']) == 121
+          PY
+          cp state/editorial/performance-production/trials/showcase-70-speaker-safe-proposals.json /tmp/speaker-proposals.json
+      - name: Reset shipping branch to accepted main
+        run: |
+          git checkout -B editor/performance-speaker-showcase-70-final origin/main
+      - name: Apply 121 safe periodic speaker anchors
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+
+          data = json.loads(Path('/tmp/speaker-proposals.json').read_text(encoding='utf-8'))
+          by_chapter = {}
+          for p in data['proposals']:
+              by_chapter.setdefault(int(p['chapter']), []).append(p)
+          applied = 0
+          changed = []
+          for chapter, proposals in sorted(by_chapter.items()):
+              path = Path('chapters') / f'{chapter:03d}.html'
+              text = path.read_text(encoding='utf-8')
+              before = text
+              for p in proposals:
+                  old = p['old_html']
+                  new = p['new_html']
+                  if text.count(old) != 1:
+                      raise SystemExit(f"periodic anchor drift in {chapter:03d}: {old[:100]!r}, count={text.count(old)}")
+                  text = text.replace(old, new, 1)
+                  applied += 1
+              if text != before:
+                  path.write_text(text, encoding='utf-8')
+                  changed.append(chapter)
+          assert applied == 121, applied
+          assert len(changed) == 44, len(changed)
+          print('periodic anchors applied', applied)
+          print('periodic chapters changed', len(changed), changed)
+          PY
+      - name: Apply 12 human-confirmed ownership repairs
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          patches = {
+              7: [
+                  ('<p>"That\'s why I have money." I looked around the cheap office.</p>',
+                   '<p>"That\'s why I have money," Antonius said.</p><p>I looked around the cheap office.</p>'),
+              ],
+              9: [
+                  ('<p>"I know that now." Rusk laughed again. Antonius ignored him.</p>',
+                   '<p>"I know that now," Antonius said.</p><p>Rusk laughed again. Antonius ignored him.</p>'),
+                  ('<p>"You already remember patterns. Son wants out. Hidden lender. Bad order. Temporary shortage. Structural problem. Write the reason when you refuse. Six months later, see whether you were right." Antonius stared. I felt the branches trying to come.</p>',
+                   '<p>"You already remember patterns. Son wants out. Hidden lender. Bad order. Temporary shortage. Structural problem. Write the reason when you refuse. Six months later, see whether you were right," I said.</p><p>Antonius stared. I felt the branches trying to come.</p>'),
+              ],
+              10: [
+                  ('<p>"Yours sounds expensive." Antonius sat again.</p>',
+                   '<p>"Yours sounds expensive," Arlo said.</p><p>Antonius sat again.</p>'),
+                  ('<p>"Yes." Arlo looked at me.</p>',
+                   '<p>"Yes," I said.</p><p>Arlo looked at me.</p>'),
+                  ('<p>"Maybe." Arlo looked between us. "You\'re becoming unbearable in the same direction."</p>',
+                   '<p>"Maybe," I said.</p><p>Arlo looked between us. "You\'re becoming unbearable in the same direction."</p>'),
+              ],
+              11: [
+                  ('<p>"How could you possibly know that?" Rusk smiled.</p>',
+                   '<p>"How could you possibly know that?" I asked.</p><p>Rusk smiled.</p>'),
+                  ('<p>"Then learn that while making one." Arlo stared at me. I enjoyed this far too much.</p>',
+                   '<p>"Then learn that while making one," I said.</p><p>Arlo stared at me. I enjoyed this far too much.</p>'),
+                  ('<p>"That you can protect yourself from very poor assassins." I stopped. </p>',
+                   '<p>"That you can protect yourself from very poor assassins," Antonius said.</p><p>I stopped.</p>'),
+              ],
+              13: [
+                  ('<p>"Nearly sixty." Hessa stared at me. Then laughed. One short sound. Not amused.</p>',
+                   '<p>"Nearly sixty," I said.</p><p>Hessa stared at me. Then laughed. One short sound. Not amused.</p>'),
+                  ('<p>"I touched something." Hessa stared.</p>',
+                   '<p>"I touched something," I said.</p><p>Hessa stared.</p>'),
+              ],
+              42: [
+                  ('<p>“You came here first.” I walked another six minutes. The freight yard occupied a broad packed-earth square inside the west wall where carts could be weighed, split, reloaded, inspected, delayed, taxed, cursed, and occasionally repaired.</p>',
+                   '<p>“You came here first,” Jalen said.</p><p>I walked another six minutes. The freight yard occupied a broad packed-earth square inside the west wall where carts could be weighed, split, reloaded, inspected, delayed, taxed, cursed, and occasionally repaired.</p>'),
+              ],
+          }
+          total = 0
+          for chapter, chapter_patches in patches.items():
+              path = Path('chapters') / f'{chapter:03d}.html'
+              text = path.read_text(encoding='utf-8')
+              for old, new in chapter_patches:
+                  count = text.count(old)
+                  if count != 1:
+                      raise SystemExit(f"objective patch drift in {chapter:03d}: count={count}, old={old[:100]!r}")
+                  text = text.replace(old, new, 1)
+                  total += 1
+              path.write_text(text, encoding='utf-8')
+          assert total == 12
+          print('objective ownership repairs applied', total)
+          PY
+      - name: Verify bounded prose diff and attribution syntax
+        run: |
+          python - <<'PY'
+          import json, re, subprocess
+          from pathlib import Path
+
+          data = json.loads(Path('/tmp/speaker-proposals.json').read_text(encoding='utf-8'))
+          periodic = {int(p['chapter']) for p in data['proposals']}
+          expected = periodic | {7,9,10,11,13,42}
+          changed = subprocess.check_output(['git','diff','--name-only','origin/main...HEAD'], text=True).splitlines()
+          # Working tree changes are not in HEAD yet, so include them separately.
+          changed = subprocess.check_output(['git','diff','--name-only'], text=True).splitlines()
+          actual_chapters = {int(Path(p).stem) for p in changed if p.startswith('chapters/') and p.endswith('.html')}
+          other = [p for p in changed if not (p.startswith('chapters/') and p.endswith('.html'))]
+          assert not other, other
+          assert actual_chapters == expected, (sorted(actual_chapters), sorted(expected))
+          bad = re.compile(r'[\.][”\"]\s+(?:I|[A-Z][A-Za-z\'’\-]+)\s+(?:said|asked)\.')
+          for chapter in sorted(actual_chapters):
+              text = (Path('chapters') / f'{chapter:03d}.html').read_text(encoding='utf-8')
+              if bad.search(text):
+                  raise SystemExit(f'bad dialogue tag punctuation remains in {chapter:03d}')
+          print('changed chapters', len(actual_chapters), sorted(actual_chapters))
+          PY
+          git diff --check
+          if git diff --unified=0 | grep '^+' | grep -F '—'; then
+            echo 'New em dash introduced in prose diff.'
+            exit 1
+          fi
+      - name: Verify targeted speaker ownership contract
+        run: |
+          python -m unittest tests.test_performance_speaker_ownership tests.test_performance_campaign_selection
+      - name: Run full repository unit tests
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py'
+      - name: Validate Showcase
+        run: |
+          python scripts/project_check.py showcase
+      - name: Commit prose-only rerun
+        run: |
+          git config user.name 'PLG PERFORMANCE Funnel'
+          git config user.email 'actions@users.noreply.github.com'
+          git add chapters/*.html
+          test -n "$(git diff --cached --name-only)"
+          if git diff --cached --name-only | grep -v '^chapters/[0-9][0-9][0-9]\.html$'; then
+            echo 'Unexpected non-chapter file staged.'
+            exit 1
+          fi
+          git commit -m 'Clarify speaker ownership across first 70 Showcase chapters'
+          git push --force-with-lease origin HEAD:editor/performance-speaker-showcase-70-final
