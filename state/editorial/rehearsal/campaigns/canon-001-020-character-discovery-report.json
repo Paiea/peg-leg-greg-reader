@@ -1,0 +1,35 @@
+{
+  "schema": "rehearsal_free_returns_report/v1",
+  "mode": "free_production",
+  "target_branch": "editor/rehearsal-simulation-engine",
+  "patches_ready": 1,
+  "patches_applied": 1,
+  "changed_chapters": [
+    10
+  ],
+  "records": [
+    {
+      "patch_id": "c010-speaker-boundary-character-discovery-01",
+      "chapter": 10,
+      "actor": "Nico",
+      "role": "Greg",
+      "take_id": "010-free-ownership-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Desmond as Antonius"
+      ],
+      "changed_surfaces": [
+        "dialogue",
+        "paragraphing",
+        "interaction_timing"
+      ],
+      "reason": "Actor-observable replay separates the information request from the refusal. Greg owns the question; Antonius owns the boundary. The old paragraph attaches both voices to Antonius and makes him appear to ask himself the question he is refusing to answer.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    }
+  ]
+}
