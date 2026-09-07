@@ -1,0 +1,61 @@
+{
+  "schema": "plg_brain_routing/v1",
+  "project": {
+    "authority": "main",
+    "canon": "manuscript prose",
+    "root_router": "AGENTS.md",
+    "project_state": "state/PROJECT_STATE.md",
+    "manuscript_owner": "state/MANUSCRIPT_STATE.md",
+    "engines": ["01", "02", "03", "04"]
+  },
+  "tag_aliases": {
+    "continue manuscript": ["manuscript"],
+    "writers room": ["development"],
+    "story control": ["story_control", "plot"],
+    "whole manuscript dialogue": ["dialogue", "editorial"],
+    "dialogue pass": ["dialogue", "editorial"],
+    "structural compression": ["compression", "editorial"],
+    "reverse edit": ["performance", "editorial", "campaign"],
+    "performance": ["performance", "editorial"],
+    "money": ["economy", "continuity"],
+    "illustration": ["illustration"],
+    "images": ["illustration"],
+    "reader": ["reader"],
+    "publishing": ["publishing"],
+    "campaign": ["campaign"],
+    "codex": ["campaign"]
+  },
+  "exclusive_task_tags": ["manuscript-owner", "dialogue-owner", "performance-owner"],
+  "discovery": {
+    "include_globs": ["state/*.md", "state/editorial/*.md"],
+    "ignore_globs": ["state/manuscript/**", "state/editorial/performance-roundtrip/**", "state/editorial/performance-production/**"]
+  },
+  "documents": [
+    {"path":"AGENTS.md","owner":"project","authority_class":"router","default_temperature":"hot","task_tags":[],"reason":"Universal worker router and authority entry point.","universal":true},
+    {"path":"state/PROJECT_STATE.md","owner":"project","authority_class":"project_state","default_temperature":"hot","task_tags":[],"reason":"Project authority, engine ownership, and synchronization rules.","universal":true},
+    {"path":"state/HANDSHAKE_PROTOCOL.md","owner":"project","authority_class":"workflow","default_temperature":"conditional","task_tags":["publishing","campaign"],"reason":"Cross-worker continuation and durable handoff rules."},
+    {"path":"state/MANUSCRIPT_ENGINE_PLAYBOOK.md","owner":"01","authority_class":"playbook","default_temperature":"conditional","task_tags":["manuscript"],"reason":"How the Manuscript Engine should work."},
+    {"path":"state/MANUSCRIPT_WORKFLOW.md","owner":"01","authority_class":"workflow","default_temperature":"conditional","task_tags":["manuscript"],"reason":"Forward manuscript transaction workflow."},
+    {"path":"state/MANUSCRIPT_STATE.md","owner":"01","authority_class":"state","default_temperature":"conditional","task_tags":["manuscript","illustration","continuity","reader"],"reason":"Current manuscript endpoint and next executable trailhead."},
+    {"path":"state/OPEN_THREADS.md","owner":"01","authority_class":"state","default_temperature":"conditional","task_tags":["manuscript","story_control","plot","continuity"],"reason":"Current unresolved story threads and obligations."},
+    {"path":"state/STORY_NORTH_STAR.md","owner":"project","authority_class":"direction","default_temperature":"conditional","task_tags":["manuscript","development","story_control","plot","editorial","dialogue","compression","performance"],"reason":"Durable artistic direction that constrains valid choices."},
+    {"path":"state/DEVELOPMENT_CYCLE.md","owner":"02/03","authority_class":"workflow","default_temperature":"conditional","task_tags":["development","story_control","plot"],"reason":"Writers Room and Story Control development loop."},
+    {"path":"state/WRITERS_ROOM_STATE.md","owner":"02","authority_class":"state","default_temperature":"conditional","task_tags":["development"],"reason":"Current Writers Room exploration state."},
+    {"path":"state/STORY_CONTROL_STATE.md","owner":"03","authority_class":"state","default_temperature":"conditional","task_tags":["story_control","plot"],"reason":"Current Story Control integration state."},
+    {"path":"state/PLOT_CONTROL.md","owner":"03","authority_class":"plot_state","default_temperature":"conditional","task_tags":["story_control","plot","continuity"],"reason":"Established plot pressures, possibilities, and avoidances."},
+    {"path":"state/PROSE_PLAYBOOK.md","owner":"04","authority_class":"playbook","default_temperature":"conditional","task_tags":["editorial","dialogue","compression","performance"],"reason":"Current prose craft authority for editorial work."},
+    {"path":"state/EDITOR_STATE.md","owner":"04","authority_class":"editorial_state","default_temperature":"conditional","task_tags":["editorial","dialogue","compression","performance"],"reason":"Current durable editor state and editorial routing."},
+    {"path":"state/GENERAL_EDITOR_STATE.md","owner":"04","authority_class":"case_law","default_temperature":"cold","task_tags":["editorial"],"reason":"Completed early-editor case law, preserved on demand.","case_law":true},
+    {"path":"state/CHARACTER_BIBLE.md","owner":"character","authority_class":"bible","default_temperature":"conditional","task_tags":["continuity","dialogue","performance","manuscript","story_control"],"reason":"Durable character and relationship knowledge."},
+    {"path":"state/SETTING_BIBLE.md","owner":"setting","authority_class":"bible","default_temperature":"conditional","task_tags":["continuity","manuscript","story_control","illustration"],"reason":"Durable lived setting and world continuity."},
+    {"path":"state/ECONOMY_CONTINUITY.md","owner":"economy","authority_class":"continuity","default_temperature":"conditional","task_tags":["economy","continuity"],"reason":"Money, debt, price, and material progression continuity."},
+    {"path":"state/RESEARCH_LEDGER.md","owner":"research","authority_class":"research","default_temperature":"conditional","task_tags":["development","story_control"],"reason":"Sourced external knowledge with confidence and canon separation."},
+    {"path":"state/VISUAL_BIBLE.md","owner":"visual","authority_class":"bible","default_temperature":"conditional","task_tags":["illustration"],"reason":"Visual language and character/environment continuity."},
+    {"path":"state/IMAGE_PRODUCTION.md","owner":"visual","authority_class":"workflow","default_temperature":"conditional","task_tags":["illustration"],"reason":"Current illustration production workflow and coverage state."},
+    {"path":"state/READER_DESIGN_LAB.md","owner":"reader","authority_class":"design_state","default_temperature":"conditional","task_tags":["reader"],"reason":"Reader/UI development guidance and experiments."},
+    {"path":"state/editorial/CODEX_EXECUTION_POLICY.md","owner":"campaign","authority_class":"execution_policy","default_temperature":"conditional","task_tags":["campaign","performance","dialogue","compression"],"reason":"Bounded Codex execution policy for campaign work."}
+  ],
+  "workstreams": [
+    {"id":"performance-campaign-stack","status":"VERIFIED","task_tags":["performance","campaign","editorial"],"owner_tags":["performance-owner"],"owner_path":"docs/superpowers/specs/2026-09-06-performance-campaign-codex-executor-design.md","branch":"architecture/performance-campaign-codex-mode","accepted_commit":"0dee2032e8112f206a4dbef1eee2dfa24108119e","reason":"Campaign runner, reducer, project index, telemetry, Codex routing, and AI/MCP tool surface accepted on main."}
+  ]
+}

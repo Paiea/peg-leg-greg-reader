@@ -14,6 +14,8 @@ Before substantial work:
 
 Do not rely on a stale chat prompt for current story position.
 
+For substantial work, prefer the PLG Brain Compiler task packet when available. Use `brain_for` from `scripts/plg_ai_tools.py` to select relevant brain pointers, then read the exact referenced authority. Compiled brain output is disposable routing and never outranks repository source files. If routing confidence is low or the task is unknown, fall back to `state/PROJECT_STATE.md` and normal router discovery rather than inventing a specialty.
+
 ## Authority
 
 - manuscript prose outranks summaries
@@ -134,7 +136,7 @@ Normal handoff:
 
 **READ CURRENT GITHUB → WORK → VALIDATE → UPDATE DURABLE STATE → COMMIT / MERGE → VERIFY → LEAVE COMPACT TRAILHEAD**
 
-Use a small targeted attachment only when required work is intentionally absent from GitHub, such as the living heavy-edit manuscript, a genuinely unique source asset, an exact recovery block, or a user-requested offline archive. Full-project ZIPs are exceptional recovery artifacts, not routine checkpoints.
+Use a small targeted attachment only when required work is intentionally absent from GitHub, such as the living heavy-edit manuscript, a genuinely unique source asset, an exact missing recovery block, or a user-requested offline archive. Full-project ZIPs are exceptional recovery artifacts, not routine checkpoints.
 
 ## Handoff
 

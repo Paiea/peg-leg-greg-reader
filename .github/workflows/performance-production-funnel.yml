@@ -6,11 +6,15 @@ on:
       - main
       - editor/performance-production-funnel
       - architecture/performance-campaign-codex-mode
+      - architecture/plg-brain-compiler
     paths:
       - 'AGENTS.md'
+      - 'state/brain/**'
       - 'state/editorial/performance-production/**'
       - 'state/editorial/performance-roundtrip/**'
       - 'state/editorial/CODEX_EXECUTION_POLICY.md'
+      - 'scripts/brain_compiler.py'
+      - 'scripts/brain_doctor.py'
       - 'scripts/performance_production_funnel.py'
       - 'scripts/performance_roundtrip_references.py'
       - 'scripts/performance_index.py'
@@ -18,6 +22,8 @@ on:
       - 'scripts/plg_ai_tools.py'
       - 'scripts/plg_mcp_server.py'
       - 'requirements-mcp.txt'
+      - 'tests/test_brain_compiler.py'
+      - 'tests/test_brain_doctor.py'
       - 'tests/test_performance_production_funnel.py'
       - 'tests/test_performance_production_ir.py'
       - 'tests/test_performance_production_workflow.py'
@@ -49,8 +55,11 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Run focused PERFORMANCE compiler and campaign tests
-        run: python -m unittest tests.test_performance_production_funnel tests.test_performance_production_ir tests.test_performance_production_workflow tests.test_performance_index tests.test_performance_campaign tests.test_performance_campaign_execution tests.test_plg_ai_tools tests.test_plg_mcp_server -v
+      - name: Run focused PERFORMANCE compiler, campaign, and brain tests
+        run: python -m unittest tests.test_brain_compiler tests.test_brain_doctor tests.test_performance_production_funnel tests.test_performance_production_ir tests.test_performance_production_workflow tests.test_performance_index tests.test_performance_campaign tests.test_performance_campaign_execution tests.test_plg_ai_tools tests.test_plg_mcp_server -v
+
+      - name: Validate PLG Brain routing
+        run: python scripts/brain_doctor.py check
 
       - name: Smoke compile one canon chapter to disposable state
         run: python scripts/performance_production_funnel.py --compile-chapter 7 --output-root /tmp/performance-compiler-smoke
@@ -100,7 +109,6 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           from scripts.performance_production_funnel import extract_paragraphs
-
           for chapter in (40, 54, 74):
               page = Path(f'chapters/{chapter:03d}.html').read_text(encoding='utf-8')
               prose = '\n'.join(extract_paragraphs(page))
