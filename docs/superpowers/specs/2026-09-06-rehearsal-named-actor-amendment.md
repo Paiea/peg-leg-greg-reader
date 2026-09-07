@@ -115,15 +115,16 @@ Use named persistent actors primarily for recurring or structurally important ch
 
 ## Pilot
 
-The first pilot should cast a small core ensemble before full rehearsal:
+The first pilot casts the bounded core ensemble as:
 
-- Greg
-- Antonius
-- Hessa
-- Lyssa
-- Alden
-- Arlo
-- at least three theatre recurring characters for an ensemble collision test
+- Nico playing Greg
+- Imani playing Lyssa
+- Desmond playing Antonius
+- Mara playing Hessa
+- Noa playing Alden
+- Rowan playing Arlo
+
+The next ensemble expansion should add at least three recurring theatre characters for a collision test.
 
 For each selected actor, persist:
 
