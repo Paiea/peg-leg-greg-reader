@@ -141,6 +141,19 @@
         {"value": "engagement with stage objects may create trouble or useful information; do not flatten him into an idiot or permanent liability", "provenance": "character_bible"}
       ],
       "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
+    },
+    {
+      "actor_id": "actor.kellan.v1",
+      "actor_name": "Kellan",
+      "role": "Jorren",
+      "status": "selected",
+      "casting_authority": "Mana",
+      "user_anchors": [],
+      "derived_interpretation": [
+        {"value": "physical teacher and practical adventurer; lets timing, contact, fatigue, and repeated exchanges answer questions that Greg wants to theorize", "provenance": "current_canon_014_016"},
+        {"value": "notices Greg's over-reading and repeated threat scanning without turning into a philosophical mentor", "provenance": "current_canon_014_016"}
+      ],
+      "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
     }
   ]
 }
