@@ -44,7 +44,7 @@ jobs:
           para_re = re.compile(r'<p>(.*?)</p>', re.S)
           tag_re = re.compile(r'<[^>]+>')
           quote_re = re.compile(r'^[“\"](.+)[”\"]$', re.S)
-          speech_re = re.compile(r'\b(I|he|she|they|[A-Z][A-Za-z\'’\-]+)\s+(said|asked|answered|replied|added|muttered|continued|told|called|shouted|whispered|yelled|remarked|offered)\b', re.I)
+          speech_re = re.compile(r'\b(I|[A-Z][A-Za-z\'’\-]+)\s+(?i:said|asked|answered|replied|added|muttered|continued|told|called|shouted|whispered|yelled|remarked|offered)\b')
 
           def clean(raw: str) -> str:
               return html_lib.unescape(tag_re.sub('', raw)).strip()
@@ -54,9 +54,7 @@ jobs:
               if not m:
                   return None
               subject = m.group(1)
-              if subject.lower() == 'i': return 'GREG'
-              if subject.lower() in {'he','she','they'}: return None
-              return subject
+              return 'GREG' if subject == 'I' else subject
 
           def pure_dialogue(raw: str) -> bool:
               text = clean(raw)
@@ -187,5 +185,5 @@ jobs:
             echo 'No proposal changes.'
             exit 0
           fi
-          git commit -m 'trial: propose safe speaker anchors for Showcase 1-70'
+          git commit -m 'trial: regenerate safe speaker anchors with named anchors only'
           git push origin HEAD:editor/performance-speaker-showcase-70
