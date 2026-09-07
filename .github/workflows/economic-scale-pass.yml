@@ -1,0 +1,58 @@
+name: Bounded economic scale repair
+
+on:
+  push:
+    branches:
+      - editor/economic-scale-pass
+    paths:
+      - 'scripts/apply_economic_scale_pass.py'
+      - '.github/workflows/economic-scale-pass.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  repair-and-validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply assertion-heavy continuity repair
+        run: python scripts/apply_economic_scale_pass.py
+      - name: Validate manuscript export can regenerate
+        run: |
+          python scripts/build_notebooklm_export.py
+          git restore -- exports/notebooklm state/manuscript-readable
+      - name: Repository validation
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py' -v
+          python scripts/verify_reader_frontier.py
+          git diff --check
+      - name: Verify bounded diff
+        run: |
+          python - <<'PY'
+          import subprocess
+          allowed = {
+              *(f'state/manuscript/Peg_Leg_Greg_Chapter_{n}_EXACT_WIP.md' for n in (471,473,474,475,476,477,478,479,480,481,482,483,484,486,488,489)),
+              *(f'chapters/{n:03d}.html' for n in (471,473,474,475,476,477,478,479,480,481,482,483,484,486,488,489)),
+          }
+          changed = set(subprocess.check_output(['git', 'diff', '--name-only'], text=True).split())
+          if changed != allowed:
+              missing = allowed - changed
+              extra = changed - allowed
+              raise SystemExit(f'bounded diff mismatch; missing={sorted(missing)} extra={sorted(extra)}')
+          print(f'Bounded diff passed: {len(changed)} files')
+          PY
+      - name: Commit validated continuity repair
+        if: success()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add state/manuscript/Peg_Leg_Greg_Chapter_*_EXACT_WIP.md chapters/*.html
+          git commit -m 'Repair late-book economic continuity'
+          git push origin HEAD:editor/economic-scale-pass
