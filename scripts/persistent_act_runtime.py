@@ -640,6 +640,7 @@ def validate_rehearsal_evidence(evidence: dict[str, Any]) -> None:
         "branch_updates",
         "story_sync_discoveries",
         "story_sync_evidence_updates",
+        "constraint_responses",
     ):
         if not isinstance(evidence.get(field, []), list):
             raise ValueError(f"rehearsal evidence {field} must be a list")
@@ -665,6 +666,15 @@ def reduce_rehearsal_evidence(evidence: dict[str, Any]) -> list[dict[str, Any]]:
         if not isinstance(item, dict) or not _nonempty(item.get("possibility_id")):
             raise ValueError("branch update requires possibility_id")
         deltas.append({"schema": DELTA_SCHEMA, "id": f"{evidence_id}:branch:{index}", "type": "local_possibility_update", "source_act": source_act, "provenance": provenance, "payload": copy.deepcopy(item)})
+    for index, item in enumerate(evidence.get("constraint_responses", [])):
+        if (
+            not isinstance(item, dict)
+            or not _nonempty(item.get("message_id"))
+            or item.get("response") not in CONSTRAINT_RESPONSES
+            or not _nonempty(item.get("reason"))
+        ):
+            raise ValueError("constraint response evidence requires message_id, response, and reason")
+        deltas.append({"schema": DELTA_SCHEMA, "id": f"{evidence_id}:constraint-response:{index}", "type": "constraint_response", "source_act": source_act, "provenance": provenance, "payload": copy.deepcopy(item)})
     for index, item in enumerate(evidence.get("story_sync_discoveries", [])):
         deltas.append({"schema": DELTA_SCHEMA, "id": f"{evidence_id}:sync:{index}", "type": "shared_discovery", "source_act": source_act, "provenance": provenance, "payload": copy.deepcopy(item)})
     for index, item in enumerate(evidence.get("story_sync_evidence_updates", [])):
