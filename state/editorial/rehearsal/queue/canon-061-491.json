@@ -4,7 +4,7 @@
   "start": 61,
   "end": 491,
   "batch_size": 10,
-  "settled_authority": "6c34f357e1190ae848ead1f08813efdbfe37e085",
+  "settled_authority": "70fbbdbcf1c032fa9af66f223c981b8d9a518734",
   "batches": [
     {
       "start": 61,
@@ -12,7 +12,7 @@
       "status": "applied",
       "retry_count": 0,
       "source_authority": "9dc74bcb95668e6ab011b3adf25c0dc9957e781c",
-      "settled_authority": "6c34f357e1190ae848ead1f08813efdbfe37e085",
+      "settled_authority": "1f669dd5207e04d461a0ed5e2e5bdaad98cbbced",
       "retryable": false,
       "blocking_reason": null,
       "manifest_path": "state/editorial/rehearsal/queue/current-returns.json",
@@ -22,8 +22,15 @@
     {
       "start": 71,
       "end": 80,
-      "status": "pending",
-      "retry_count": 0
+      "status": "applied",
+      "retry_count": 0,
+      "source_authority": "1f669dd5207e04d461a0ed5e2e5bdaad98cbbced",
+      "settled_authority": "70fbbdbcf1c032fa9af66f223c981b8d9a518734",
+      "retryable": false,
+      "blocking_reason": null,
+      "manifest_path": "state/editorial/rehearsal/queue/current-returns.json",
+      "report_path": "state/editorial/rehearsal/queue/current-apply-report.json",
+      "validation": "green"
     },
     {
       "start": 81,
