@@ -4,85 +4,107 @@
   "authority": "derived_experimental_not_story_canon",
   "architecture_branch": "architecture/long-form-story-compiler",
   "pull_request": 161,
-  "cycle": 2,
-  "cycle_status": "green_observed_trajectory_open",
+  "cycle": 3,
+  "cycle_status": "green_observed_temporal_trajectory_candidate_passable_story_convergence_open",
   "public_entry_point": "plg_ai_tools.run_story_rehearsal_cycle",
   "source_inputs": {
     "runtime": "state/experiments/dragon-spotter/persistent-act-runtime/runtime-input.json",
     "cycle_1_rehearsal_evidence": "state/experiments/dragon-spotter/persistent-act-runtime/first-bargain-evidence.json",
-    "cycle_2_rehearsal_evidence": "state/experiments/dragon-spotter/persistent-act-runtime/rehearsal-evidence-cycle-002.json",
+    "cycle_2_rehearsal_evidence": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-2-directional-evidence.json",
+    "cycle_3_rehearsal_evidence": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-3-boundary-evidence.json",
     "creator_taste": "state/experiments/dragon-spotter/persistent-act-runtime/creator-taste-context.json",
-    "performance_source": "state/experiments/dragon-spotter/story-sync/first-bargain-rehearsal.json"
+    "first_bargain_performance": "state/experiments/dragon-spotter/story-sync/first-bargain-rehearsal.json",
+    "cycle_3_romantic_trust_performance": "state/experiments/dragon-spotter/story-sync/cycle-3-romantic-trust-performance.json",
+    "cycle_3_structural_rehearsals": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-3-structural-boundary-rehearsals.json"
   },
   "verification": {
-    "runtime_fix_commit": "3b2820112e6a02ec7c20616f059db1471cceb753",
-    "verified_branch_commit": "c568e1be16b8d45c240ade57448dedf1b9614d1d",
-    "workflow_run": 34135646199,
+    "generic_boundary_learning_commit": "bfa5e11d58831aca94b419a4bb19dcf73f0c23aa",
+    "workflow_run": 34137789593,
     "focused_suite": {
-      "tests": 71,
+      "tests": 72,
       "result": "green"
     },
     "full_repository_suite": {
-      "tests": 527,
+      "tests": 529,
       "skipped": 6,
       "result": "green"
     },
     "ci_authority": "read_only_validation",
-    "note": "Earlier handoff counts of 68 focused and 523 full were superseded by concurrent generic fixture-contract additions before final verification."
+    "note": "Two later concurrent commits before this checkpoint changed only Gravity's Embrace project-local CURRENT files and did not alter Dragon or generic runtime behavior."
   },
-  "cycle_1_baseline": {
-    "target_count": 22,
-    "open_branch_count_before": 13,
-    "open_branch_count_after": 11,
-    "open_branch_delta": -2,
-    "branch_pressure_before": 19,
-    "branch_pressure_after": 18,
-    "branch_pressure_delta": -1,
-    "unresolved_message_count": 5,
-    "constraint_collision_count": 1,
-    "open_temporal_pressure": 9,
-    "mutual_indispensability": {
-      "maturity_before": "repeated_signal",
-      "maturity_after": "strong_thread",
-      "evidence_count_before": 2,
-      "evidence_count_after": 3
-    }
+  "cycle_2_baseline": {
+    "target_count": 17,
+    "open_branch_count": 11,
+    "boundary_contradiction_count": 3,
+    "unresolved_message_count": 1,
+    "constraint_collision_count": 0,
+    "open_temporal_pressure": 4,
+    "trajectory_status": "open",
+    "repeated_signals": [
+      "heat-through-competence"
+    ],
+    "strong_threads": [
+      "gift-reciprocity",
+      "improvisation-is-competence-path",
+      "mutual-indispensability"
+    ],
+    "story_truths": []
   },
   "observed": {
-    "target_count": 17,
-    "experiment_mode_counts": {
-      "backward_prerequisite_test": 0,
+    "target_count_before": 17,
+    "target_count_after": 12,
+    "experiment_mode_counts_after": {
       "counterfactual_branch_comparison": 2,
-      "forward_consequence_test": 1,
-      "performance": 1,
       "plausibility_probe": 6,
-      "state_transition_test": 2,
       "temporal_distance_rehearsal": 1,
-      "trajectory_worldline_test": 4
+      "trajectory_worldline_test": 3
     },
-    "applied_delta_type_counts": {
-      "constraint_response": 4
+    "romantic_trust_performance": {
+      "source_value": "guarded-respect",
+      "original_target_value": "mutual-reliance",
+      "observed_result": "third_path_operational_reliance_with_guarded_personal_trust",
+      "revised_act_iii_state_in": "mutual-operational-reliance-with-guarded-personal-trust",
+      "original_target_preserved_in_history": true,
+      "broad_immediate_personal_or_romantic_trust_supported": false,
+      "performance_fidelity": "high_heat",
+      "authority_effect": "derived_only_no_canon_mutation"
     },
-    "directional_messages_supported": [
-      "a1-to-a3-reciprocity-politics",
-      "a4-to-a1-earned-recognition",
-      "a4-to-a2-public-risk",
-      "first-bargain-reciprocity-forward"
-    ],
-    "supported_directional_targets_still_scheduled": [],
+    "structural_boundaries": {
+      "professional_role": {
+        "source_value": "political-liability",
+        "target_value": "needed-envoy",
+        "result": "supported_transition",
+        "bridge": "reluctant_deployment_without_required_institutional_rehabilitation",
+        "experiment_mode": "state_transition_test",
+        "fidelity": "development"
+      },
+      "public_identity": {
+        "source_value": "contested-human-interlocutor",
+        "target_value": "dragon-recognized-interlocutor",
+        "result": "supported_transition",
+        "bridge": "dragon_recognition_through_repeated_behavior_based_routing_before_human_title_settles",
+        "experiment_mode": "state_transition_test",
+        "fidelity": "development"
+      }
+    },
+    "boundary_contradiction_count_before": 3,
+    "boundary_contradiction_count_after": 0,
+    "unresolved_message_count_before": 1,
+    "unresolved_message_count_after": 0,
+    "constraint_collision_count_before": 0,
+    "constraint_collision_count_after": 0,
+    "open_temporal_pressure_before": 4,
+    "open_temporal_pressure_after": 0,
+    "trajectory_status": "candidate_passable",
     "open_branch_count_before": 11,
     "open_branch_count_after": 11,
     "open_branch_delta": 0,
-    "branch_pressure_before": 18,
-    "branch_pressure_after": 18,
-    "branch_pressure_delta": 0,
-    "constraint_collision_count_before": 1,
-    "constraint_collision_count_after": 0,
-    "unresolved_message_count_before": 5,
-    "unresolved_message_count_after": 1,
-    "open_temporal_pressure_before": 9,
-    "open_temporal_pressure_after": 4,
-    "boundary_contradiction_count": 3,
+    "forward_consequence_count_before": 3,
+    "forward_consequence_count_after": 3,
+    "backward_requirement_count_before": 2,
+    "backward_requirement_count_after": 2,
+    "new_forward_consequences": 0,
+    "new_backward_requirements": 0,
     "act_i_branch_state": {
       "first-bargain.land-restoration": {
         "status": "active",
@@ -101,103 +123,71 @@
         "viability": "redundant"
       }
     },
-    "repeated_signals": [
-      "heat-through-competence"
-    ],
+    "discovery_levels": {
+      "mutual-indispensability": "story_truth",
+      "heat-through-competence": "strong_thread",
+      "operational-reliance-before-personal-trust": "speculation"
+    },
+    "repeated_signals": [],
     "strong_threads": [
       "gift-reciprocity",
-      "improvisation-is-competence-path",
+      "heat-through-competence",
+      "improvisation-is-competence-path"
+    ],
+    "story_truths": [
       "mutual-indispensability"
     ],
-    "story_truths": [],
     "unresolved_contradictions": [
       "ending-office-role",
       "first-gift-form"
     ],
-    "shared_unresolved_question_count": 2,
-    "local_unresolved_questions_by_act": {
-      "act-i": 1,
-      "act-ii": 1,
-      "act-iii": 1,
-      "act-iv": 1
-    },
-    "remaining_boundary_contradictions": [
-      {
-        "source_act": "act-ii",
-        "target_act": "act-iii",
-        "dimension": "professional_role",
-        "source_value": "political-liability",
-        "target_value": "needed-envoy",
-        "experiment_mode": "state_transition_test",
-        "fidelity": "development"
-      },
-      {
-        "source_act": "act-ii",
-        "target_act": "act-iii",
-        "dimension": "romantic_trust",
-        "source_value": "guarded-respect",
-        "target_value": "mutual-reliance",
-        "experiment_mode": "performance",
-        "fidelity": "high_heat"
-      },
-      {
-        "source_act": "act-iii",
-        "target_act": "act-iv",
-        "dimension": "public_identity",
-        "source_value": "contested-human-interlocutor",
-        "target_value": "dragon-recognized-interlocutor",
-        "experiment_mode": "state_transition_test",
-        "fidelity": "development"
-      }
-    ],
-    "temporal_consistency": {
-      "adjacent_boundary_pairs": 3,
-      "boundary_contradiction_count": 3,
-      "constraint_collision_count": 0,
-      "unresolved_message_count": 1,
-      "open_pressure_count": 4,
-      "trajectory_status": "open"
-    }
+    "boundary_resolutions": [
+      "act-ii_to_act-iii_professional_role",
+      "act-ii_to_act-iii_romantic_trust_revised_third_path",
+      "act-iii_to_act-iv_public_identity"
+    ]
   },
   "interpretation": {
-    "convergence_signal": "positive_directional_closure_without_branch_pruning",
-    "cycle_2_branch_entropy_behavior": "unchanged",
-    "cycle_2_constraint_behavior": "four_supported_messages_retired_from_identical_probe_selection",
-    "major_novelty": "no_new_shared_discoveries_or_story_truths_in_cycle_2",
-    "thread_behavior": "existing_threads_deepened_by_constraint_closure_without_maturity_change",
-    "land_restoration_and_relic_restitution": "both_legitimately_live",
-    "protocol_only_and_reckless_improvisation": "remain_superseded_by_cycle_1_high_heat_challenge_evidence",
-    "story_truth_policy": "no_story_truth_promoted"
+    "convergence_signal": "temporal_constraints_closed_without_branch_pruning",
+    "temporal_trajectory": "candidate_passable_not_fully_story_converged",
+    "romantic_trust_result": "preferred_broad_mutual_reliance_hypothesis_was_narrowed_by_performance",
+    "relationship_third_path": "reciprocal_operational_reliance_can_precede_broad_personal_trust",
+    "branch_entropy_behavior": "unchanged_in_cycle_3",
+    "major_novelty": "one_new_relationship_discovery_remains_speculation",
+    "mature_thread_behavior": "mutual_indispensability_survived_independent_high_heat_challenge_and_story_sync_promoted_it",
+    "gift_branches": "land_restoration_and_relic_restitution_remain_legitimately_live",
+    "ending_office_branch": "still_unresolved",
+    "story_truth_policy": "promotion_only_from_story_sync_after_independent_evidence"
   },
-  "generic_runtime_change_after_cycle_2": {
-    "defect": "supported_directional_messages_remained_open_and_were_rescheduled for_identical_forward_or_backward_probes",
-    "fix": "compile_rehearsal_targets retires the identical directional probe when the target act latest constraint response is supported while leaving story-state message status untouched",
+  "generic_runtime_change_after_cycle_3": {
+    "defect": "boundary_rehearsal_evidence_could_not_revise_existing_derived_temporal_hypotheses_or_retire_an_evidence_backed_nonidentical_boundary_bridge",
+    "fix": [
+      "add generic state_boundary_update deltas with prior-value history and provenance",
+      "add generic boundary_response deltas stored in target-act local state",
+      "retire a mismatched boundary from contradiction and target selection only when its latest boundary response is supported",
+      "preserve distinct endpoint values rather than forcing equality"
+    ],
     "dragon_specific_logic_added": false,
-    "focused_contract": "tests.test_story_sync_constraint_response_evidence",
-    "fake_message_closure_used": false
+    "canon_authority_added": false,
+    "focused_contract": "tests.test_story_sync_constraint_response_evidence"
   },
   "next_edge": {
-    "objective": "resolve_or_refine_the_three_remaining_boundary_contradictions_before_any_sustained_prose",
-    "priority_boundary": {
-      "source_act": "act-ii",
-      "target_act": "act-iii",
-      "dimension": "romantic_trust",
-      "source_value": "guarded-respect",
-      "target_value": "mutual-reliance",
-      "required_mode": "performance",
-      "required_fidelity": "high_heat",
-      "rule": "do_not_close_from_summary_evidence_or_abstract_interpolation"
-    },
-    "other_boundaries": [
-      "act-ii_to_act-iii_professional_role",
-      "act-iii_to_act-iv_public_identity"
+    "objective": "continue_story_sync_convergence_on_the_candidate_passable_trajectory_before_sustained_prose",
+    "priorities": [
+      "pressure-test operational-reliance-before-personal-trust across later Act III and Act IV without assuming it becomes romance or broad trust",
+      "resolve or sharpen first-gift-form through bounded comparison while preserving land-restoration and relic-restitution until discriminating evidence exists",
+      "resolve or sharpen ending-office-role while preserving Crown Spotter versus dragon envoy until consequences distinguish them",
+      "challenge mutual-indispensability now that STORY SYNC classifies it as story truth and verify it does not secretly depend on one gift or office branch",
+      "prefer deepening and falsifying mature threads over manufacturing new branches unless a genuine third path appears"
     ],
     "preserve_live_uncertainty": [
       "first-bargain.land-restoration",
       "first-bargain.relic-restitution",
       "first-gift-form",
-      "ending-office-role"
-    ]
+      "ending-office-role",
+      "whether operational reliance ever becomes broad personal or romantic trust"
+    ],
+    "sustained_prose_authorized": false
   },
   "authority_effect": "derived_only_no_canon_mutation"
 }
