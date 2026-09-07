@@ -84,6 +84,14 @@ class OvertunedCalibrationTests(unittest.TestCase):
             self.assertEqual(1, report["patches_applied"])
             self.assertIn('<p>New.</p>', chapter.read_text(encoding="utf-8"))
 
+    def test_anchor_overrides_replace_only_exact_patch_fields(self):
+        manifest = {"patches": [{"id": "a", "before": "wide", "after": "wide-new"}, {"id": "b", "before": "keep", "after": "keep-new"}]}
+        overridden = calibration.apply_anchor_overrides(manifest, {"a": {"before": "narrow", "after": "narrow-new"}})
+        self.assertEqual("narrow", overridden["patches"][0]["before"])
+        self.assertEqual("narrow-new", overridden["patches"][0]["after"])
+        self.assertEqual("keep", overridden["patches"][1]["before"])
+        self.assertEqual("wide", manifest["patches"][0]["before"])
+
 
 if __name__ == "__main__":
     unittest.main()
