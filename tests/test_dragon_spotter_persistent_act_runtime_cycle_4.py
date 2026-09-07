@@ -41,8 +41,17 @@ class DragonSpotterPersistentActRuntimeCycle4Tests(unittest.TestCase):
         self.assertEqual("candidate_passable", cycle_4["temporal_consistency"]["trajectory_status"])
 
         levels = cycle_4["shared_story_sync"]["discovery_levels"]
-        self.assertEqual("repeated_signal", levels["operational-reliance-before-personal-trust"])
+        # One support group plus one survived challenge is still one independent support group.
+        # Preserve the speculation until another independent positive recurrence exists.
+        self.assertEqual("speculation", levels["operational-reliance-before-personal-trust"])
         self.assertEqual("story_truth", levels["mutual-indispensability"])
+
+        relationship_record = next(
+            item for item in cycle_4["evolved_runtime"]["shared_story_state"]["sync_state"]["discoveries"]
+            if item["id"] == "operational-reliance-before-personal-trust"
+        )
+        relationship_groups = {item["independent_group"] for item in relationship_record["evidence"]}
+        self.assertEqual(2, len(relationship_groups))
 
         # Cycle 4 is adversarial convergence, not forced branch collapse.
         self.assertEqual(0, cycle_4["branch_entropy"]["open_branch_delta"])
@@ -62,6 +71,7 @@ class DragonSpotterPersistentActRuntimeCycle4Tests(unittest.TestCase):
             "story_truths": sorted(cycle_4["shared_story_sync"]["story_truths"]),
             "strong_threads": sorted(cycle_4["shared_story_sync"]["strong_threads"]),
             "repeated_signals": sorted(cycle_4["shared_story_sync"]["repeated_signals"]),
+            "relationship_third_path_evidence_groups": len(relationship_groups),
             "relationship_third_path_maturity": levels["operational-reliance-before-personal-trust"],
             "unresolved_contradictions": sorted(cycle_4["shared_story_sync"]["contradictions_alive"]),
             "new_forward_consequences": len(cycle_4["evolved_runtime"]["shared_story_state"].get("forward_consequences", [])) - len(cycle_3["evolved_runtime"]["shared_story_state"].get("forward_consequences", [])),
