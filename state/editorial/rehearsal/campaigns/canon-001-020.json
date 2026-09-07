@@ -1,0 +1,120 @@
+{
+  "schema": "rehearsal_campaign/v1",
+  "campaign": "canon-001-020",
+  "authority": "derived_editorial_only",
+  "source_authority": "666cc4c554c02d9a29fd0d3f4d91369622dc738a",
+  "canon_write_authorized": false,
+  "method": {
+    "baseline": "reuse compact PERFORMANCE scene maps for all 20 canon chapters, including hidden-canon evidence from PR 159 where needed",
+    "rehearsal": "named actor behavior-first read; source wording is evidence, not choreography",
+    "exact_prose_reads": "opened current canon where rehearsal produced a plausible ownership, voice, or movement challenge",
+    "second_take_policy": "only for a concrete weakness",
+    "canon_edits": "none"
+  },
+  "cast_added": [
+    {
+      "actor": "Kellan",
+      "role": "Jorren",
+      "visual_status": "candidate"
+    }
+  ],
+  "readings": [
+    {"chapter":1,"source_path":"chapters/001.html","focus":["Nico","Greg"],"verdict":"source_win","rehearsal_note":"Opening is already embodied: Greg inventories body, room, money, danger, and immediate limits before ambition expands.","discoveries":["embodied_inventory","bounded_action"],"prose_candidate":false,"lock_violations":0},
+    {"chapter":2,"source_path":"chapters/002.html","focus":["Nico","Greg"],"verdict":"source_win","rehearsal_note":"Street-level pricing, walking, asking, and committing resources already convert exposition into material decisions.","discoveries":["material_decision","systems_curiosity"],"prose_candidate":false,"lock_violations":0},
+    {"chapter":3,"source_path":"chapters/003.html","focus":["Nico","Greg"],"verdict":"source_win_light","rehearsal_note":"Hidden canon beat preserves a bounded early economic/work state transition. No recurring-actor collision signal justified an expensive second take.","discoveries":["continuity_state"],"prose_candidate":false,"lock_violations":0},
+    {"chapter":4,"source_path":"chapters/004.html","focus":["Nico","Greg"],"verdict":"source_win","rehearsal_note":"Counting, buying, selling, and recounting are the performance. Repetition shows livelihood becoming repeatable without solving scarcity.","discoveries":["economic_behavior","productive_repetition"],"prose_candidate":false,"lock_violations":0},
+    {"chapter":5,"source_path":"chapters/005.html","focus":["Nico","Greg","Desmond","Antonius","Mara","Hessa","Kellan","Jorren"],"verdict":"repair_candidate","rehearsal_note":"The escalation itself works, but one dialogue attribution contradicts the exchange logic and assigns Greg's defense to Antonius.","discoveries":["speaker_ownership","voice","behavioral_escalation"],"prose_candidate":true,"candidate_ids":["c005-speaker-ownership-01"],"lock_violations":0},
+    {"chapter":6,"source_path":"chapters/006.html","focus":["Nico","Greg"],"verdict":"source_win_light","rehearsal_note":"Hidden canon beat remains useful continuity/economic progression. No named-actor distinction issue survived the light take.","discoveries":["continuity_state"],"prose_candidate":false,"lock_violations":0},
+    {"chapter":7,"source_path":"chapters/007.html","focus":["Nico","Greg","Desmond","Antonius"],"verdict":"repair_candidate","second_take":true,"second_take_mode":"physical","rehearsal_note":"Antonius is strongest when he keeps cleaning and lets task behavior own the exchange. Generic cognition wording weakens that performance.","discoveries":["movement","speaker_legibility","character_behavior","generic_cognition_tag"],"prose_candidate":true,"candidate_ids":["c007-antonius-action-01"],"lock_violations":0},
+    {"chapter":8,"source_path":"chapters/008.html","focus":["Nico","Greg"],"verdict":"source_win_light","rehearsal_note":"Hidden canon beat preserves a bounded work/material transition; no expensive ensemble rehearsal was warranted.","discoveries":["continuity_state"],"prose_candidate":false,"lock_violations":0},
+    {"chapter":9,"source_path":"chapters/009.html","focus":["Nico","Greg","Desmond","Antonius"],"verdict":"source_win_watch","rehearsal_note":"Desmond's Antonius is distinct through walking borrowers, ledger boundaries, waiting, and asking what keeps a business alive. Watch repeated generic noticing beats, but no exact replacement clearly beats source in this pass.","discoveries":["transaction_behavior","ledger_boundary","voice_watch"],"prose_candidate":false,"lock_violations":0},
+    {"chapter":10,"source_path":"chapters/010.html","focus":["Nico","Greg","Desmond","Antonius","Rowan","Arlo"],"verdict":"repair_candidate","second_take":true,"second_take_mode":"physical","rehearsal_note":"Appraisal authority is already distributed well between Antonius and Arlo. A second generic Antonius 'considered me' beat can instead express information ownership through the closed ledger.","discoveries":["object_behavior","information_boundary","generic_cognition_tag"],"prose_candidate":true,"candidate_ids":["c010-antonius-ledger-01"],"lock_violations":0},
+    {"chapter":11,"source_path":"chapters/011.html","focus":["Nico","Greg","Mara","Hessa"],"verdict":"source_win","rehearsal_note":"Mara/Hessa already controls the scene physically: she blocks access to the room, keeps Greg seated, checks his wrist, and refuses the next cast. Dialogue does not need artificial distinctness added.","discoveries":["procedure_ownership","physical_boundary","voice"],"prose_candidate":false,"lock_violations":0},
+    {"chapter":12,"source_path":"chapters/012.html","focus":["Nico","Greg"],"verdict":"source_win_light","rehearsal_note":"Hidden canon transition remains useful and no named recurring actor collision justified deeper rehearsal.","discoveries":["continuity_state"],"prose_candidate":false,"lock_violations":0},
+    {"chapter":13,"source_path":"chapters/013.html","focus":["Nico","Greg","Rowan","Arlo"],"verdict":"source_win_watch","rehearsal_note":"Rowan/Arlo is highly distinct when the fixture, notebook, cracked regulator, readings, and hanging weight do the talking. Watch later short I-know/I-know volleys, but the process-owned scene currently wins.","discoveries":["process_ownership","object_behavior","voice_watch"],"prose_candidate":false,"lock_violations":0},
+    {"chapter":14,"source_path":"chapters/014.html","focus":["Nico","Greg","Kellan","Jorren"],"verdict":"source_win","rehearsal_note":"Kellan/Jorren answers Greg through footwork, rib shots, contract constraints, road observation, and practical correction. He is already behaviorally distinct from Greg.","discoveries":["physical_teaching","threat_attention","work_behavior"],"prose_candidate":false,"lock_violations":0},
+    {"chapter":15,"source_path":"chapters/015.html","focus":["Nico","Greg"],"verdict":"source_win","rehearsal_note":"The investigation correctly lets evidence kill the more satisfying suspect theory. Greg's pattern hunger is checked by the world rather than another character's perfect rebuttal.","discoveries":["evidence_discipline","failed_theory"],"prose_candidate":false,"lock_violations":0},
+    {"chapter":16,"source_path":"chapters/016.html","focus":["Nico","Greg","Kellan","Jorren","Noa","Alden"],"verdict":"source_win_watch","rehearsal_note":"Kellan/Jorren and Noa/Alden separate cleanly through sparring behavior: Jorren makes the body prove the lesson; Alden is interested in correction and gets more dangerous when he stops spending an advantage twice. Watch generic 'considered me' phrasing, but no exact replacement is yet necessary.","discoveries":["physical_teaching","alden_pressure_behavior","voice_watch","generic_cognition_tag"],"prose_candidate":false,"lock_violations":0},
+    {"chapter":17,"source_path":"chapters/017.html","focus":["Nico","Greg","Noa","Alden"],"verdict":"source_win_watch","rehearsal_note":"Noa/Alden earns distinction through immediate operational observations in the grain-store investigation. Watch places where his dry cadence mirrors Greg too closely, but the physical job keeps ownership readable.","discoveries":["operational_noticing","relationship_shorthand","voice_collision_watch"],"prose_candidate":false,"lock_violations":0},
+    {"chapter":18,"source_path":"chapters/018.html","focus":["Nico","Greg","Mara","Hessa"],"verdict":"source_win","rehearsal_note":"The bean exercise is already near-ideal rehearsal prose: Hessa places, replaces, waits, counts, covers the bowl, and stops the session while Greg supplies the runaway interpretation.","discoveries":["procedure_ownership","object_behavior","boundary"],"prose_candidate":false,"lock_violations":0},
+    {"chapter":19,"source_path":"chapters/019.html","focus":["Nico","Greg"],"verdict":"source_win","rehearsal_note":"Recognition arrives materially through protected sacks and Guild handling before Greg interprets it. No actor rewrite improves that ordering.","discoveries":["material_recognition","earned_progression"],"prose_candidate":false,"lock_violations":0},
+    {"chapter":20,"source_path":"chapters/020.html","focus":["Nico","Greg"],"verdict":"source_win_light","rehearsal_note":"Hidden canon chapter remains a bounded early economic/work/material transition. No recurring-actor conflict or ownership issue survived the light take.","discoveries":["continuity_state"],"prose_candidate":false,"lock_violations":0}
+  ],
+  "candidates": [
+    {
+      "candidate_id": "c005-speaker-ownership-01",
+      "chapter": 5,
+      "kind": "speaker_ownership",
+      "confidence": "high",
+      "before": "\"Same thing,\" Antonius said.",
+      "after": "\"Same thing,\" I said.",
+      "reason": "Antonius has just distinguished today's debt from the broader debt. 'Same thing' is Greg's defensive reply; attributing it to Antonius contradicts the exchange logic.",
+      "apply_status": "not_applied"
+    },
+    {
+      "candidate_id": "c007-antonius-action-01",
+      "chapter": 7,
+      "kind": "movement_and_character_ownership",
+      "confidence": "high",
+      "before": "Antonius considered me.",
+      "after": "Antonius stopped sweeping and looked at me.",
+      "reason": "The physical beat preserves Antonius's active task and makes his reaction visible instead of narrating generic cognition.",
+      "apply_status": "not_applied"
+    },
+    {
+      "candidate_id": "c010-antonius-ledger-01",
+      "chapter": 10,
+      "kind": "movement_and_information_boundary",
+      "confidence": "medium_high",
+      "before": "Antonius considered me. \"Salvager.\"",
+      "after": "Antonius rested a hand on the closed ledger. \"Salvager.\"",
+      "reason": "The ledger is already established beside him and is the physical boundary around borrower information. Using it makes the withholding behavior character-specific rather than abstract.",
+      "apply_status": "not_applied"
+    }
+  ],
+  "campaign_discoveries": [
+    {
+      "kind": "editorial_pattern",
+      "name": "generic_cognition_tag_family",
+      "status": "supported",
+      "finding": "Early prose repeatedly uses 'considered me' or similar abstract cognition where an owned physical task or information boundary can carry the beat more vividly.",
+      "promotion": "editorial_guidance_only"
+    },
+    {
+      "kind": "character_hypothesis",
+      "role": "Antonius",
+      "actor": "Desmond",
+      "status": "hypothesis",
+      "finding": "Antonius is most distinct when he continues, pauses, or redirects practical work to express judgment rather than receiving generic reaction narration.",
+      "synthetic_self_support_counts": false
+    },
+    {
+      "kind": "character_hypothesis",
+      "role": "Jorren",
+      "actor": "Kellan",
+      "status": "hypothesis",
+      "finding": "Jorren's teaching authority is physical and local: contact, timing, fatigue, road attention, and repeated attempts beat abstract speeches.",
+      "synthetic_self_support_counts": false
+    },
+    {
+      "kind": "character_hypothesis",
+      "role": "Alden",
+      "actor": "Noa",
+      "status": "hypothesis",
+      "finding": "Alden is distinct from Greg when he commits to the immediate physical/operational problem, absorbs correction without needing deference, and acts before building a large systems explanation.",
+      "synthetic_self_support_counts": false
+    }
+  ],
+  "totals": {
+    "canon_chapters_read": 20,
+    "source_wins_including_watch_and_light": 17,
+    "repair_candidate_chapters": 3,
+    "exact_prose_candidates": 3,
+    "speaker_ownership_candidates": 1,
+    "movement_information_candidates": 2,
+    "targeted_second_takes": 2,
+    "new_named_actors": 1,
+    "lock_violations": 0,
+    "canon_changes": 0
+  }
+}
