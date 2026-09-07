@@ -3,7 +3,7 @@
   "campaign": "canon-001-020-rehearsal-ii",
   "mode": "free_production",
   "target_branch": "editor/rehearsal-simulation-engine",
-  "source_authority": "6c19bf9f36a3986a47076a94e622779578d69dfa",
+  "source_authority": "21f2d40d182d80b844377d9eddee257d72d4b533",
   "patches": [
     {
       "id": "c003-arlo-cast-scope-rehearsal-ii-01",
@@ -128,7 +128,7 @@
       "actor_prefers": true,
       "dramatic_lock_status": "preserved",
       "reader_check": "pass",
-      "changed_surfaces": ["dialogue", "speaker_legibility", "interaction_timing"],
+      "changed_surfaces": ["dialogue", "interaction_timing"],
       "before": "<p>\"How?\" I thought.</p><p>\"I felt confident.\" </p>",
       "after": "<p>\"How?\" Arlo asked.</p><p>\"I felt confident.\" </p>",
       "reason": "Greg claims he knew the Tere gauge would not hurt him; Arlo is the actor challenging that certainty. Treating 'How?' as Greg's INNER VOICE creates a malformed private-to-spoken exchange. Rowan/Arlo owns the observable question."
