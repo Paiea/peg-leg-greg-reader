@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "batch_id": "definitive-pilot-001",
+  "authority": "creator_generation_approval",
+  "generation_approved": true,
+  "scope": "bounded_structural_hold_exception",
+  "source_main_sha": "292fe976b8444d9e024305e3523c2886c89ed966",
+  "approved_on": "2026-09-07",
+  "notes": "Exactly five Definitive Edition pilot targets are approved for the next image-generation batch. The global structural production hold remains active for every other candidate. Concrete generated assets still require normal post-generation approval before promotion.",
+  "items": [
+    {
+      "id": "de-ch005-player-reads-greg",
+      "chapter": 5,
+      "chapter_title": "THE WARRIOR",
+      "scene_summary": "At a higher-stakes gambling table, Greg believes he is close to decoding the unnamed player across from him by a twitch near the man's mouth. The player has already recognized Greg's scrutiny and is studying Greg back, turning Greg's observational confidence into the blind spot that costs him.",
+      "visual_hook": "A tight, reciprocal card-table composition: Greg watches the unnamed player's mouth and face for a tell while the other player quietly watches Greg in return. Cards and money establish the table, but the image's real subject is two-way observation and Greg failing to notice that he has become readable.",
+      "characters": [
+        "Greg"
+      ],
+      "location": "higher-stakes private gambling table in Carrow",
+      "mood": "tense, self-deceiving, quietly predatory",
+      "priority": "high",
+      "kind": "chapter_illustration",
+      "fit_target": "exact",
+      "spoiler_level": "low",
+      "status": "prompt_ready",
+      "paragraph_anchor": "He knew I was studying him. I did not realize he was studying me.",
+      "framing_preference": "above_waist",
+      "view_angle": "over_shoulder",
+      "camera_angle": "over_shoulder",
+      "pose_family": "mutual_observation",
+      "scene_tags": [
+        "gambling",
+        "cards",
+        "money",
+        "observation",
+        "loss"
+      ],
+      "continuity_notes": "Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Use the accepted Greg identity reference for face and overall character continuity. Keep the frame above waist because lower-body state is not the point. The opposing player is unnamed in canon, so do not assign him a canonical identity or distinctive lore not supported by the scene.",
+      "notes": "Prose-only A/B control. The image must not read as Greg looking cool while winning; reciprocal scrutiny and his blind spot are the scene identity.",
+      "anchor_status": "valid"
+    },
+    {
+      "id": "de-ch005-jorren-offers-hand",
+      "chapter": 5,
+      "chapter_title": "THE WARRIOR",
+      "scene_summary": "Greg sees the correct response but his Bronze-conditioned nineteen-year-old body cannot execute at the speed his old knowledge expects. His foot drags half a beat behind the decision, Jorren drops him into the warm practice-yard sand, and Jorren offers a hand while Greg processes the gap between knowledge and body.",
+      "visual_hook": "A low or three-quarter practice-yard frame with Greg down in the sand, winded rather than defeated, and Jorren standing over him with one hand offered and a blunted practice sword controlled in the other. The visual story is the intact young body failing to keep up with old expertise, not a heroic win pose.",
+      "characters": [
+        "Greg",
+        "Jorren"
+      ],
+      "location": "guild practice yard with sand training lanes",
+      "mood": "winded, humbling, physically alive",
+      "priority": "high",
+      "kind": "chapter_illustration",
+      "fit_target": "exact",
+      "spoiler_level": "low",
+      "status": "prompt_ready",
+      "paragraph_anchor": "Jorren offered a hand.",
+      "framing_preference": "full_body_scene_required",
+      "view_angle": "low_three_quarter",
+      "camera_angle": "low_three_quarter",
+      "pose_family": "offered_hand_after_fall",
+      "scene_tags": [
+        "training",
+        "sparring",
+        "body_limit",
+        "sand",
+        "mentor_peer"
+      ],
+      "continuity_notes": "Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Lower-body visibility is materially required in this scene because his intact but underconditioned legs, fatigue, and fall are story information. Greg is nineteen and Bronze-conditioned here; show exertion and lag, not later disability state.",
+      "notes": "Prose-only A/B control and candidate replacement test against the current Jorren scene art. Do not remove current art until the new asset is reviewed.",
+      "anchor_status": "valid"
+    },
+    {
+      "id": "de-ch007-antonius-reverses-frame",
+      "chapter": 7,
+      "chapter_title": "THE BUYER",
+      "scene_summary": "Antonius is physically cleaning and sorting his storeroom when Greg blurts that the gray Tere reference set may be extremely valuable. Antonius has been carrying the object toward discard. Greg's claim makes him stop, come back, and pick up the gray frame himself, changing the object's category through action before the negotiation continues.",
+      "visual_hook": "Catch the reversal in motion: Antonius in rolled sleeves and dirty work clothes has turned back from the discard direction and is taking or lifting the small gray Tere frame himself while Greg watches beside the open wooden box. Keep a broom, cluttered shelves, and visible keep/discard work in the composition so the object's sudden reclassification reads physically.",
+      "characters": [
+        "Greg",
+        "Antonius"
+      ],
+      "location": "Antonius storeroom",
+      "mood": "working, alert, dryly transactional",
+      "priority": "high",
+      "kind": "chapter_illustration",
+      "fit_target": "exact",
+      "spoiler_level": "low",
+      "status": "prompt_ready",
+      "paragraph_anchor": "Antonius stopped. Fuck. He came back and picked up the gray frame himself.",
+      "framing_preference": "above_waist",
+      "view_angle": "three_quarter_action",
+      "camera_angle": "three_quarter_action",
+      "pose_family": "reverse_reach_object_reclassification",
+      "scene_tags": [
+        "storeroom",
+        "work",
+        "negotiation",
+        "artifact",
+        "blocking"
+      ],
+      "continuity_notes": "Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Keep Greg above waist because lower-body state is not needed. Antonius is actively doing dirty storeroom labor with sleeves rolled and a broom in the working environment; do not turn the scene into a static merchant portrait.",
+      "notes": "PERFORMANCE-backed A/B target. Current Ch007 art establishes the storeroom; this candidate tests whether blocking evidence yields a more scene-identifying image. Do not remove current art before review.",
+      "anchor_status": "valid"
+    },
+    {
+      "id": "de-ch013-arlo-one-page",
+      "chapter": 13,
+      "chapter_title": "THE STUDENT",
+      "scene_summary": "Arlo has spent two days isolating measurement and process variables in the regulator work. He protects ownership of his process by pulling the notebook toward himself, places a ruined regulator between them as evidence of failed iteration, then turns only the relevant page of readings toward Greg without surrendering the rest of the notebook.",
+      "visual_hook": "A workbench composition built around controlled access: Arlo keeps most of the notebook under his hand or close to his body while rotating one page toward Greg. A cracked failed regulator sits between them, with the ugly testing fixture visible on the shelf behind. The gesture must read as sharing evidence without giving away ownership.",
+      "characters": [
+        "Greg",
+        "Arlo"
+      ],
+      "location": "Arlo workshop",
+      "mood": "technical, guarded, collaborative",
+      "priority": "high",
+      "kind": "chapter_illustration",
+      "fit_target": "exact",
+      "spoiler_level": "low",
+      "status": "prompt_ready",
+      "paragraph_anchor": "He opened the notebook to a page of readings and turned that page toward me without surrendering the rest of the notes.",
+      "framing_preference": "above_waist",
+      "view_angle": "workbench_over_shoulder",
+      "camera_angle": "workbench_over_shoulder",
+      "pose_family": "controlled_document_share",
+      "scene_tags": [
+        "workshop",
+        "technical_work",
+        "notebook",
+        "failed_prototype",
+        "relationship_boundary"
+      ],
+      "continuity_notes": "Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Keep the composition above waist and hand-focused. Preserve Arlo as the owner of the notebook and process; Greg is receiving a bounded view, not directing Arlo's hands or taking the notebook.",
+      "notes": "PERFORMANCE-backed A/B target. Tests supporting-character autonomy and process ownership against the current fixture-oriented art. Do not remove current art before review.",
+      "anchor_status": "valid"
+    },
+    {
+      "id": "de-ch018-hessa-covers-bowl",
+      "chapter": 18,
+      "chapter_title": "THE EXPERIMENTER",
+      "scene_summary": "Greg becomes absorbed in the Barrier bean exercise and wants another attempt. Hessa has been counting the casts and owns the exercise boundary. At nineteen casts she reaches across the table and covers the bowl with the cloth, physically ending Greg's access even though his interest is accelerating.",
+      "visual_hook": "A close table-level action frame as Hessa reaches across and pulls or settles the cloth over the bowl of white beans. Greg is leaning toward the work, ready to continue, while Hessa's simple hand movement ends the experiment. Scattered or transferred beans and the second bowl can make the nineteen-cast process feel lived rather than symbolic.",
+      "characters": [
+        "Greg",
+        "Hessa"
+      ],
+      "location": "Hessa's rooms at the teaching table",
+      "mood": "focused, controlled, quietly comic",
+      "priority": "high",
+      "kind": "chapter_illustration",
+      "fit_target": "exact",
+      "spoiler_level": "low",
+      "status": "prompt_ready",
+      "paragraph_anchor": "Hessa reached across the table and covered the bowl with the cloth.",
+      "framing_preference": "above_waist",
+      "view_angle": "table_level_three_quarter",
+      "camera_angle": "table_level_three_quarter",
+      "pose_family": "boundary_closing_reach",
+      "scene_tags": [
+        "teaching",
+        "magic_training",
+        "beans",
+        "procedural_control",
+        "boundary"
+      ],
+      "continuity_notes": "Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Keep the image centered on Hessa's active hand, the cloth, bowl, and Greg's forward interest. Hessa controls the exercise and ends access; do not make Greg the physical driver of the frame.",
+      "notes": "PERFORMANCE-backed A/B target. Tests whether procedural authority and supporting-character initiative produce a stronger image than the current setup images. Do not remove current art before review.",
+      "anchor_status": "valid"
+    }
+  ]
+}
