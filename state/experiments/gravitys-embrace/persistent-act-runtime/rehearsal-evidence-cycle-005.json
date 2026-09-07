@@ -1,0 +1,51 @@
+[
+  {
+    "schema": "persistent_rehearsal_evidence/v1",
+    "id": "ge-evidence-survival-offense-hostile-challenge",
+    "target_id": "target:sync:survival-enables-offense:hostile-story-truth-challenge",
+    "source_act": "act-iv",
+    "experiment_mode": "trajectory_worldline_test",
+    "fidelity": "development",
+    "finding": "A hostile later worldline can preserve Maximum HP's survival benefit while making deliberate collision offense too situational to become a general combat solution. Terrain may need to cooperate, targets may move out of the line, setup can telegraph intent, failed contact can waste position or equipment, recovery can consume the advantage, and self-impact cost can remain strategically ugly even when survivable. That worldline disproves any guarantee that survivability must eventually produce broadly useful offense. It does not contradict the underlying STORY SYNC finding that surviving ordinary impact may open an offensive option: survivability creates a viable experimental search space and can yield deliberate offensive use under some conditions, but does not guarantee reliability, efficiency, broad applicability, or structural centrality.",
+    "confidence": 0.86,
+    "provenance": "gravitys-embrace:rehearsal:cycle-005:survival-offense-hostile-challenge",
+    "hostile_worldline": {
+      "maximum_hp_remains_defensive": true,
+      "survival_continues_to_enable_experimentation": true,
+      "general_offensive_reliability": false,
+      "failure_modes": [
+        "terrain dependence",
+        "moving targets break setup",
+        "telegraphed positioning",
+        "recovery cost consumes advantage",
+        "equipment or positional loss",
+        "self-impact remains strategically expensive",
+        "useful contact conditions occur too rarely for routine combat"
+      ],
+      "result": "truth_survives_only_under_non_guarantee_reading"
+    },
+    "local_discoveries": [
+      {
+        "id": "ge-a4-offense-option-is-not-offense-guarantee",
+        "finding": "Survivability can make gravity offense discoverable without making that offense reliable, cheap, broadly applicable, or the player's default combat answer."
+      }
+    ],
+    "forward_consequences": [],
+    "backward_requirements": [],
+    "branch_updates": [],
+    "story_sync_discoveries": [],
+    "story_sync_evidence_updates": [
+      {
+        "discovery_id": "survival-enables-offense",
+        "evidence": {
+          "source_id": "rehearsal:ge-evidence-survival-offense-hostile-challenge:situational-offense",
+          "independent_group": "ge-survival-offense-hostile-challenge",
+          "kind": "challenge_survived",
+          "dramatic_uses": ["mechanics", "plot", "progression", "tension"],
+          "regions": ["act-ii", "act-iii", "act-iv"]
+        }
+      }
+    ],
+    "constraint_responses": []
+  }
+]
