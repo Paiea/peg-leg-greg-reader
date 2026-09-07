@@ -1,10 +1,33 @@
 {
   "schema": "forward_rehearsal_proving_run/v1",
   "range": {"start": 493, "end": 500},
-  "status": "pending",
+  "status": "in_progress",
   "workflow": "state/editorial/rehearsal/FORWARD_WORKFLOW.md",
   "chapters": [
-    {"chapter":493,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null},
+    {
+      "chapter": 493,
+      "status": "rehearsed",
+      "source_authority": "8906e2d3103c1ae13c369be7a008ac34c3fade50",
+      "pressure": "Break the recent contract/debrief/paperwork rhythm without prematurely resolving Lakeward. A real Hark & Venn fit request can make Greg's body, equipment, and honest reporting the chapter's active problem while preserving the economic ratchet.",
+      "possibilities": [
+        {"id":"493-a","shape":"Hark & Venn sends a real fitting note. The shop changes one material/fit variable and needs Greg to stop compensating around errors. Embodied uncertainty is the scene.","result":"preferred","reason":"Changes chapter grammar, advances a live body obligation through legitimate shop word, and creates a concrete use for PERFORMANCE."},
+        {"id":"493-b","shape":"A market or dealer presents a distinctive artifact opportunity now that Greg has deployable silver.","result":"rejected","reason":"Strong future route but would feel conveniently timed immediately after Vale closure and Lakeward paperwork without an independent market trigger already on page."},
+        {"id":"493-c","shape":"Quiet Carrow/Lyssa/theatre reset while Lakeward travels.","result":"rejected","reason":"Valid but recent chapters are already socially conversational and low in physical pressure. It would not test the new forward workflow as hard."}
+      ],
+      "selected_discoveries": [
+        "Hark & Venn owns fitting decisions; Greg owns honest body report and task goals.",
+        "Greg's adaptation skill can hide bad fit by compensating, so success may require him to walk worse on purpose.",
+        "The emotional payoff should be practical hands-free usefulness, not visual normalization or a triumphant walking milestone.",
+        "Money is available but no new payment is due merely because the fitting advances.",
+        "Lyssa does not need to attend or supervise the fitting."
+      ],
+      "performance": {"used": true, "reason": "The main uncertainty is embodied: gait, crutch release, hand use, balance, socket feedback, and how Masta/Venn respond to compensation patterns."},
+      "prose_result": null,
+      "character_surprise": null,
+      "protagonist_gravity": null,
+      "memory_helped": null,
+      "next_trailhead": null
+    },
     {"chapter":494,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null},
     {"chapter":495,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null},
     {"chapter":496,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null},
