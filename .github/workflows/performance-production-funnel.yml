@@ -20,6 +20,7 @@ on:
       - 'scripts/performance_roundtrip_references.py'
       - 'scripts/performance_index.py'
       - 'scripts/performance_campaign.py'
+      - 'scripts/performance_selected_campaign.py'
       - 'scripts/plg_ai_tools.py'
       - 'scripts/plg_mcp_server.py'
       - 'requirements-mcp.txt'
