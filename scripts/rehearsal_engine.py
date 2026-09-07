@@ -13,6 +13,18 @@ GREG_PERFORMANCE_CHANNELS = ("body", "voice", "inner_voice")
 NON_GREG_PERFORMANCE_CHANNELS = ("body", "voice", "private_inner_voice")
 PRIVATE_PERFORMANCE_CHANNELS = {"inner_voice", "private_inner_voice"}
 PERFORMED_INTERPRETATION_AUTHORITY = "performed_interpretation"
+PRESSURE_CONTEXT_FIELDS = {"goal", "concealment", "belief", "pressure", "resources", "observable_access"}
+OUTCOME_REASONS = {
+    "behavioral_specificity",
+    "dialogue_voice",
+    "subtext",
+    "physical_ownership",
+    "inner_voice",
+    "timing",
+    "no_change",
+    "rejected_overperformance",
+}
+OUTCOME_RESULTS = {"accepted", "rejected", "no_change"}
 INNER_VOICE_FORMS = {
     "sentence",
     "fragment",
@@ -46,6 +58,7 @@ DISCOVERY_KINDS = {
     "relationship_behavior",
     "character_hypothesis",
     "private_interpretation",
+    "behavioral_discovery",
     "visual_beat",
     "source_win",
 }
@@ -92,6 +105,16 @@ def _nonempty(value: object) -> bool:
     return isinstance(value, str) and bool(value.strip())
 
 
+def _validate_string_list(value: object, *, field: str, allow_empty: bool = True) -> list[str]:
+    if not isinstance(value, list):
+        raise ValueError(f"{field} must be a list")
+    if not allow_empty and not value:
+        raise ValueError(f"{field} requires at least one value")
+    if any(not _nonempty(item) for item in value):
+        raise ValueError(f"{field} values must be nonempty strings")
+    return list(value)
+
+
 def _validate_rehearsal_mode(mode: str, direction: str | None) -> None:
     if mode not in REHEARSAL_MODES:
         raise ValueError(f"invalid rehearsal mode: {mode}")
@@ -99,6 +122,30 @@ def _validate_rehearsal_mode(mode: str, direction: str | None) -> None:
         raise ValueError("directed rehearsal requires direction")
     if mode != "directed" and direction is not None:
         raise ValueError("direction is only valid for directed rehearsal")
+
+
+def _validate_pressure_context(value: object) -> dict:
+    if not isinstance(value, dict):
+        raise ValueError("pressure_context must be an object")
+    unknown = set(value) - PRESSURE_CONTEXT_FIELDS
+    if unknown:
+        raise ValueError(f"unknown pressure_context field: {sorted(unknown)[0]}")
+    populated = [key for key, item in value.items() if item not in (None, "", [])]
+    if len(populated) > 6:
+        raise ValueError("pressure_context must remain compact")
+
+    normalized = copy.deepcopy(value)
+    for field in ("goal", "concealment", "belief"):
+        if field in normalized and normalized[field] not in (None, "") and not _nonempty(normalized[field]):
+            raise ValueError(f"pressure_context {field} must be a nonempty string")
+    for field in ("pressure", "resources", "observable_access"):
+        if field in normalized:
+            _validate_string_list(normalized[field], field=f"pressure_context {field}")
+    for observed in normalized.get("observable_access", []):
+        lowered = observed.lower()
+        if "inner_voice" in lowered or "private_inner_voice" in lowered:
+            raise ValueError("observable access cannot include a private channel")
+    return normalized
 
 
 def editorial_return_policy(mode: str = "standard") -> dict:
@@ -304,6 +351,23 @@ def compile_actor_packet(
     actor_name = actor["actor_name"]
     channels = GREG_PERFORMANCE_CHANNELS if role == "Greg" and actor_name == "Nico" else NON_GREG_PERFORMANCE_CHANNELS
 
+    scene_payload = {
+        key: copy.deepcopy(role_context[key])
+        for key in (
+            "current_body_state",
+            "relationship_context",
+            "objective",
+            "pressure",
+            "domain_responsibility",
+            "knowledge",
+            "ignorance",
+            "active_task",
+        )
+        if key in role_context
+    }
+    if "pressure_context" in role_context:
+        scene_payload["pressure_context"] = _validate_pressure_context(role_context["pressure_context"])
+
     packet = {
         "schema": "rehearsal_actor_packet/v1",
         "scene_id": scene_id,
@@ -316,20 +380,7 @@ def compile_actor_packet(
         "user_anchors": copy.deepcopy(actor.get("user_anchors", [])),
         "derived_interpretation": copy.deepcopy(actor.get("derived_interpretation", [])),
         "promoted_tendencies": tendencies,
-        "scene": {
-            key: copy.deepcopy(role_context[key])
-            for key in (
-                "current_body_state",
-                "relationship_context",
-                "objective",
-                "pressure",
-                "domain_responsibility",
-                "knowledge",
-                "ignorance",
-                "active_task",
-            )
-            if key in role_context
-        },
+        "scene": scene_payload,
         "visual_state": visual,
     }
     if relationship_memory:
@@ -534,6 +585,97 @@ def stable_variance_findings(takes: list[dict]) -> list[dict]:
         for finding, count in sorted(counts.items())
         if count >= 2
     ]
+
+
+def build_behavioral_discovery(
+    *,
+    source: str,
+    actor_name: str,
+    role: str,
+    relationship: str,
+    pressure_tags: list[str],
+    observed_behavior: str,
+    take_id: str,
+    support_count: int,
+    status: str = "hypothesis",
+) -> dict:
+    if not all(_nonempty(value) for value in (source, actor_name, role, relationship, observed_behavior, take_id)):
+        raise ValueError("behavioral discovery requires source, actor, role, relationship, behavior, and take")
+    tags = _validate_string_list(pressure_tags, field="pressure tags", allow_empty=False)
+    if not isinstance(support_count, int) or support_count < 1:
+        raise ValueError("behavioral discovery support_count must be positive")
+    if status not in {"hypothesis", "supported"}:
+        raise ValueError("behavioral discovery status must be hypothesis or supported")
+    return {
+        "schema": "rehearsal_behavioral_discovery/v1",
+        "kind": "behavioral_discovery",
+        "source": source,
+        "actor_name": actor_name,
+        "role": role,
+        "relationship": relationship,
+        "pressure_tags": tags,
+        "observed_behavior": observed_behavior,
+        "take_id": take_id,
+        "support_count": support_count,
+        "status": status,
+    }
+
+
+def build_character_probe(
+    *,
+    probe_id: str,
+    premise: str,
+    actor_packets: list[dict],
+    memory_snapshot_id: str,
+    mode: str = "free",
+) -> dict:
+    if not _nonempty(probe_id) or not _nonempty(premise) or not _nonempty(memory_snapshot_id):
+        raise ValueError("character probe requires id, premise, and memory_snapshot_id")
+    if not isinstance(actor_packets, list) or not actor_packets:
+        raise ValueError("character probe requires actor packets")
+    if mode not in {"faithful", "free"}:
+        raise ValueError("character probes currently support faithful or free modes")
+    roles = [packet.get("role") for packet in actor_packets]
+    if any(not _nonempty(role) for role in roles) or len(set(roles)) != len(roles):
+        raise ValueError("character probe requires unique actor role ownership")
+    return {
+        "schema": "rehearsal_character_probe/v1",
+        "kind": "character_probe",
+        "probe_id": probe_id,
+        "scene_id": f"probe.{probe_id}",
+        "premise": premise,
+        "authoritative": False,
+        "mode": mode,
+        "memory_snapshot_id": memory_snapshot_id,
+        "actors": copy.deepcopy(actor_packets),
+        "canon_effects": "none",
+    }
+
+
+def build_rehearsal_outcome(
+    *,
+    source_id: str,
+    chapter: int,
+    role: str,
+    result: str,
+    reasons: list[str],
+) -> dict:
+    if not _nonempty(source_id) or not isinstance(chapter, int) or chapter < 1 or not _nonempty(role):
+        raise ValueError("rehearsal outcome requires source_id, positive chapter, and role")
+    if result not in OUTCOME_RESULTS:
+        raise ValueError("invalid rehearsal outcome result")
+    reason_values = _validate_string_list(reasons, field="outcome reasons", allow_empty=False)
+    unknown = set(reason_values) - OUTCOME_REASONS
+    if unknown:
+        raise ValueError(f"invalid outcome reason: {sorted(unknown)[0]}")
+    return {
+        "schema": "rehearsal_outcome/v1",
+        "source_id": source_id,
+        "chapter": chapter,
+        "role": role,
+        "result": result,
+        "reasons": reason_values,
+    }
 
 
 def validate_discovery(discovery: dict) -> None:
