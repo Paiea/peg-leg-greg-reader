@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import sys
 from pathlib import Path
 
@@ -10,6 +11,7 @@ if str(ROOT) not in sys.path:
 from scripts.illustration_state import load_scene_candidates
 
 CANDIDATES_PATH = ROOT / "state" / "visual" / "SCENE_CANDIDATES.json"
+BOUNDED_APPROVALS_PATH = ROOT / "state" / "visual" / "BOUNDED_GENERATION_APPROVALS.json"
 OUTPUT_DIR = ROOT / "state" / "visual" / "prompt-packs"
 
 
@@ -17,9 +19,39 @@ def prompt_pack_filename(candidate: dict) -> str:
     return f"{candidate['id']}.md"
 
 
+def _bounded_candidates(path: Path = BOUNDED_APPROVALS_PATH) -> list[dict]:
+    if not path.exists():
+        return []
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, dict):
+        raise ValueError("bounded generation approvals must be a JSON object")
+    if data.get("generation_approved") is not True:
+        return []
+    items = data.get("items")
+    if not isinstance(items, list):
+        raise ValueError("bounded generation approvals require an items list")
+    result: list[dict] = []
+    seen: set[str] = set()
+    for item in items:
+        if not isinstance(item, dict):
+            raise ValueError("bounded generation approval items must be JSON objects")
+        candidate_id = item.get("id")
+        if not isinstance(candidate_id, str) or not candidate_id.strip():
+            raise ValueError("bounded generation approval item requires id")
+        if candidate_id in seen:
+            raise ValueError(f"duplicate bounded generation approval: {candidate_id}")
+        seen.add(candidate_id)
+        result.append(dict(item))
+    return result
+
+
 def _continuity_lines(candidate: dict) -> list[str]:
     names = {name.strip().lower() for name in candidate.get("characters", [])}
     lines = ["- Preserve manuscript-established age, body, clothing, props, and setting details."]
+    explicit = candidate.get("continuity_notes")
+    if isinstance(explicit, str) and explicit.strip():
+        lines.append(f"- {explicit.strip()}")
+        return lines
     if "greg" in names:
         lines.append("- Greg is nineteen, with a permanent LEFT BKA, knee preserved, right leg intact, and two crutches.")
         lines.append("- Default to above-waist / chest-up / medium framing unless this exact scene materially requires lower-body visibility.")
@@ -31,7 +63,7 @@ def _continuity_lines(candidate: dict) -> list[str]:
 def _generation_metadata(candidate: dict) -> dict:
     names = {name.strip().lower() for name in candidate.get("characters", [])}
     framing = candidate.get("framing_preference") or ("above_waist" if "greg" in names else "scene_appropriate")
-    view_angle = candidate.get("view_angle") or "choose_non_repetitive_scene_angle"
+    view_angle = candidate.get("view_angle") or candidate.get("camera_angle") or "choose_non_repetitive_scene_angle"
     pose_family = candidate.get("pose_family") or "physical_scene_action"
     scene_tags = [str(tag).strip() for tag in candidate.get("scene_tags", []) if str(tag).strip()]
     return {
@@ -115,10 +147,17 @@ def render_prompt_pack(candidate: dict) -> str:
 
 def main() -> None:
     candidates = load_scene_candidates(CANDIDATES_PATH)
+    merged = {
+        candidate["id"]: dict(candidate)
+        for candidate in candidates
+        if isinstance(candidate, dict) and isinstance(candidate.get("id"), str)
+    }
+    for candidate in _bounded_candidates():
+        merged[candidate["id"]] = candidate
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     wanted = {
         prompt_pack_filename(candidate): render_prompt_pack(candidate)
-        for candidate in candidates
+        for candidate in merged.values()
         if candidate.get("status") in {"candidate", "prompt_ready"}
     }
 
