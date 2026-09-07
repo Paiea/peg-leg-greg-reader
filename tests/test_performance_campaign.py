@@ -2,6 +2,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 from scripts import performance_campaign
 from scripts import performance_production_funnel as funnel
@@ -33,16 +34,7 @@ class PerformanceCampaignTests(unittest.TestCase):
             root = Path(tmp)
             chapters = self._chapters(root)
             before = {p.name: p.read_text(encoding="utf-8") for p in chapters.glob("*.html")}
-            result = performance_campaign.plan_campaign(
-                task="reverse_edit",
-                chapter_start=1,
-                chapter_end=2,
-                source_authority="abc12345",
-                chapter_root=chapters,
-                cache_root=root / ".cache" / "plg",
-                profile="eco",
-                executor="manual",
-            )
+            result = performance_campaign.plan_campaign(task="reverse_edit", chapter_start=1, chapter_end=2, source_authority="abc12345", chapter_root=chapters, cache_root=root / ".cache" / "plg", profile="eco", executor="manual")
             self.assertEqual(2, result["scenes_considered"])
             self.assertEqual(2, result["packets_planned"])
             self.assertEqual(0, result["cache_hits"])
@@ -63,16 +55,7 @@ class PerformanceCampaignTests(unittest.TestCase):
             scene["comparison"] = {"verdict": "source_win", "reason": "Already stronger.", "compiler": "comparison/v1", "dependency_hash": "dep"}
             scene["dependencies"]["comparison"] = {"compiler": "comparison/v1", "dependency_hash": "dep"}
             scene_path.write_text(json.dumps(scene), encoding="utf-8")
-            result = performance_campaign.plan_campaign(
-                task="reverse_edit",
-                chapter_start=1,
-                chapter_end=2,
-                source_authority="abc12345",
-                chapter_root=chapters,
-                cache_root=cache_root,
-                profile="eco",
-                executor="manual",
-            )
+            result = performance_campaign.plan_campaign(task="reverse_edit", chapter_start=1, chapter_end=2, source_authority="abc12345", chapter_root=chapters, cache_root=cache_root, profile="eco", executor="manual")
             self.assertEqual(1, result["cache_hits"])
             self.assertEqual(1, result["packets_planned"])
 
@@ -99,14 +82,7 @@ class PerformanceCampaignTests(unittest.TestCase):
             chapters = self._chapters(root)
             campaign_root = root / "campaign"
             campaign_root.mkdir()
-            (campaign_root / "campaign.json").write_text(json.dumps({
-                "schema": "performance_campaign/v1",
-                "campaign_id": "x",
-                "task": "reverse_edit",
-                "source_authority": "oldsha",
-                "scope": {"chapters": {"start": 1, "end": 1}},
-                "execution": {"profile": "eco", "executor": "manual"},
-            }), encoding="utf-8")
+            (campaign_root / "campaign.json").write_text(json.dumps({"schema": "performance_campaign/v1", "campaign_id": "x", "task": "reverse_edit", "source_authority": "oldsha", "scope": {"chapters": {"start": 1, "end": 1}}, "execution": {"profile": "eco", "executor": "manual"}}), encoding="utf-8")
             (campaign_root / "results.jsonl").write_text("", encoding="utf-8")
             with self.assertRaisesRegex(ValueError, "authority drift"):
                 performance_campaign.integrate_campaign(campaign_root, chapters, current_authority="newsha")
@@ -121,14 +97,7 @@ class PerformanceCampaignTests(unittest.TestCase):
             before = chapter.read_bytes()
             campaign_root = root / "campaign"
             campaign_root.mkdir()
-            (campaign_root / "campaign.json").write_text(json.dumps({
-                "schema": "performance_campaign/v1",
-                "campaign_id": "overlap",
-                "task": "reverse_edit",
-                "source_authority": "same-sha",
-                "scope": {"chapters": {"start": 1, "end": 1}},
-                "execution": {"profile": "eco", "executor": "manual"},
-            }), encoding="utf-8")
+            (campaign_root / "campaign.json").write_text(json.dumps({"schema": "performance_campaign/v1", "campaign_id": "overlap", "task": "reverse_edit", "source_authority": "same-sha", "scope": {"chapters": {"start": 1, "end": 1}}, "execution": {"profile": "eco", "executor": "manual"}}), encoding="utf-8")
             rows = [
                 {"packet_id": "001.s010:x", "scene_id": "001.s010", "status": "completed", "record": self._survivor(1, "A.", "B.", ["AB."])},
                 {"packet_id": "001.s020:x", "scene_id": "001.s020", "status": "completed", "record": self._survivor(1, "B.", "C.", ["BC."])},
@@ -137,6 +106,13 @@ class PerformanceCampaignTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "overlapping"):
                 performance_campaign.integrate_campaign(campaign_root, chapters, current_authority="same-sha")
             self.assertEqual(before, chapter.read_bytes())
+
+    def test_run_cli_can_plan_and_execute_in_one_command(self):
+        with mock.patch.object(performance_campaign, "plan_campaign", return_value={"campaign_id": "all", "campaign_root": "/tmp/all", "packets_planned": 300}) as plan, mock.patch.object(performance_campaign, "run_campaign", return_value={"completed": 300, "failures": 0}) as run:
+            exit_code = performance_campaign.main(["run", "--task", "reverse-edit", "--chapters", "1:491", "--source-authority", "sha", "--profile", "eco"])
+        self.assertEqual(0, exit_code)
+        plan.assert_called_once()
+        run.assert_called_once_with(Path("/tmp/all"))
 
 
 if __name__ == "__main__":
