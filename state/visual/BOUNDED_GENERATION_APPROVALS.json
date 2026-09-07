@@ -36,7 +36,10 @@
         "observation",
         "loss"
       ],
-      "continuity_notes": "Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Use the accepted Greg identity reference for face and overall character continuity. Keep the frame above waist because lower-body state is not the point. The opposing player is unnamed in canon, so do not assign him a canonical identity or distinctive lore not supported by the scene.",
+      "character_reference_assets": [
+        "assets/book-role-cards/book-i-warrior-005.webp"
+      ],
+      "continuity_notes": "Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Use the Book I Warrior reference for Greg's early-story identity and not as permission to copy its pose or clothing blindly. Keep the frame above waist because lower-body state is not the point. The opposing player is unnamed in canon, so do not assign him a canonical identity or distinctive lore not supported by the scene.",
       "notes": "Prose-only A/B control. The image must not read as Greg looking cool while winning; reciprocal scrutiny and his blind spot are the scene identity.",
       "anchor_status": "valid"
     },
@@ -69,7 +72,11 @@
         "sand",
         "mentor_peer"
       ],
-      "continuity_notes": "Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Lower-body visibility is materially required in this scene because his intact but underconditioned legs, fatigue, and fall are story information. Greg is nineteen and Bronze-conditioned here; show exertion and lag, not later disability state.",
+      "character_reference_assets": [
+        "assets/book-role-cards/book-i-warrior-005.webp",
+        "visual/chapter_art/005/v28_c05_s02_jorren-makes-the-point.png"
+      ],
+      "continuity_notes": "Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Lower-body visibility is materially required in this scene because his intact but underconditioned legs, fatigue, and fall are story information. Use the current Jorren image as identity continuity only, not as a composition template. Greg is nineteen and Bronze-conditioned here; show exertion and lag, not later disability state.",
       "notes": "Prose-only A/B control and candidate replacement test against the current Jorren scene art. Do not remove current art until the new asset is reviewed.",
       "anchor_status": "valid"
     },
@@ -102,7 +109,11 @@
         "artifact",
         "blocking"
       ],
-      "continuity_notes": "Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Keep Greg above waist because lower-body state is not needed. Antonius is actively doing dirty storeroom labor with sleeves rolled and a broom in the working environment; do not turn the scene into a static merchant portrait.",
+      "character_reference_assets": [
+        "assets/book-role-cards/book-i-warrior-005.webp",
+        "visual/chapter_art/007/Ch007_Storeroom-Crates.jpg"
+      ],
+      "continuity_notes": "Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Use the existing Ch007 storeroom art for Antonius and environment continuity only, not as a composition template. Keep Greg above waist because lower-body state is not needed. Antonius is actively doing dirty storeroom labor with sleeves rolled and a broom in the working environment; do not turn the scene into a static merchant portrait.",
       "notes": "PERFORMANCE-backed A/B target. Current Ch007 art establishes the storeroom; this candidate tests whether blocking evidence yields a more scene-identifying image. Do not remove current art before review.",
       "anchor_status": "valid"
     },
@@ -135,7 +146,12 @@
         "failed_prototype",
         "relationship_boundary"
       ],
-      "continuity_notes": "Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Keep the composition above waist and hand-focused. Preserve Arlo as the owner of the notebook and process; Greg is receiving a bounded view, not directing Arlo's hands or taking the notebook.",
+      "character_reference_assets": [
+        "assets/book-role-cards/book-i-warrior-005.webp",
+        "visual/chapter_art/013/v28_c13_s01_dont-touch-them.png",
+        "visual/chapter_art/013/v28_c13_s02_the-ugly-fixture.png"
+      ],
+      "continuity_notes": "Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Use the current Ch013 images for Arlo, workshop, and object continuity only, not as composition templates. Keep the composition above waist and hand-focused. Preserve Arlo as the owner of the notebook and process; Greg is receiving a bounded view, not directing Arlo's hands or taking the notebook.",
       "notes": "PERFORMANCE-backed A/B target. Tests supporting-character autonomy and process ownership against the current fixture-oriented art. Do not remove current art before review.",
       "anchor_status": "valid"
     },
@@ -168,7 +184,12 @@
         "procedural_control",
         "boundary"
       ],
-      "continuity_notes": "Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Keep the image centered on Hessa's active hand, the cloth, bowl, and Greg's forward interest. Hessa controls the exercise and ends access; do not make Greg the physical driver of the frame.",
+      "character_reference_assets": [
+        "assets/book-role-cards/book-i-warrior-005.webp",
+        "visual/chapter_art/018/v28_c18_s14_hessa-has-beans.png",
+        "visual/chapter_art/018/v28_c18_s15_the-cup.png"
+      ],
+      "continuity_notes": "Early-story pre-amputation Greg: both legs intact, no crutches, no prosthesis, and no later mobility equipment. Use the current Ch018 images for Hessa, room, and prop continuity only, not as composition templates. Keep the image centered on Hessa's active hand, the cloth, bowl, and Greg's forward interest. Hessa controls the exercise and ends access; do not make Greg the physical driver of the frame.",
       "notes": "PERFORMANCE-backed A/B target. Tests whether procedural authority and supporting-character initiative produce a stronger image than the current setup images. Do not remove current art before review.",
       "anchor_status": "valid"
     }
