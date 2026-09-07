@@ -1,0 +1,25 @@
+{
+  "schema": "rehearsal_free_returns/v1",
+  "campaign": "canon-001-020-character-discovery",
+  "mode": "free_production",
+  "target_branch": "editor/rehearsal-simulation-engine",
+  "source_authority": "03e7fc136f1f1a636913b75a44396683b5b03841",
+  "patches": [
+    {
+      "id": "c010-speaker-boundary-character-discovery-01",
+      "chapter": 10,
+      "actor": "Nico",
+      "role": "Greg",
+      "supporting_actors": ["Desmond as Antonius"],
+      "take_id": "010-free-ownership-a",
+      "variance_group_id": null,
+      "actor_prefers": true,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "changed_surfaces": ["dialogue", "paragraphing", "interaction_timing"],
+      "before": "<p>\"What does the borrower need six gold for?\" Antonius said, \"No.\"</p>",
+      "after": "<p>\"What does the borrower need six gold for?\" I asked.</p><p>\"No,\" Antonius said.</p>",
+      "reason": "Actor-observable replay separates the information request from the refusal. Greg owns the question; Antonius owns the boundary. The old paragraph attaches both voices to Antonius and makes him appear to ask himself the question he is refusing to answer."
+    }
+  ]
+}
