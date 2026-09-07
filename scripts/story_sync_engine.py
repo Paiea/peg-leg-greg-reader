@@ -14,6 +14,7 @@ BRANCH_VIABILITY = {"viable", "weak", "redundant", "invalidated"}
 PROPAGATION_DIRECTIONS = {"backward", "forward"}
 EVIDENCE_KINDS = {"support", "challenge_survived", "contradiction"}
 REHEARSAL_LOCK_STATUSES = {"preserved", "quarantined", "violated"}
+QUESTION_IMPORTANCE = {"low", "medium", "high"}
 
 
 def _nonempty(value: object) -> bool:
@@ -54,13 +55,15 @@ def _evidence_summary(discovery: dict[str, Any]) -> dict[str, Any]:
 
         uses = _string_list(item.get("dramatic_uses", []), field="dramatic_uses")
         item_regions = _string_list(item.get("regions", []), field="regions")
-        dramatic_uses.update(uses)
-        regions.update(item_regions)
 
         if kind == "support":
             support_groups.add(independent_group)
+            dramatic_uses.update(uses)
+            regions.update(item_regions)
         elif kind == "challenge_survived":
             challenge_groups.add(independent_group)
+            dramatic_uses.update(uses)
+            regions.update(item_regions)
         else:
             contradiction_groups.add(independent_group)
 
@@ -243,12 +246,28 @@ def _validate_reader_requirement(requirement: dict[str, Any]) -> None:
     _string_list(requirement.get("required_setup_any", []), field="required_setup_any", allow_empty=False)
 
 
+def _validate_unresolved_question(question: dict[str, Any]) -> None:
+    if not isinstance(question, dict) or not _nonempty(question.get("id")) or not _nonempty(question.get("question")):
+        raise ValueError("unresolved question requires id and question")
+    _string_list(question.get("regions", []), field="unresolved question regions")
+    if question.get("importance", "medium") not in QUESTION_IMPORTANCE:
+        raise ValueError("invalid unresolved question importance")
+
+
 def validate_sync_state(state: dict[str, Any]) -> None:
     if not isinstance(state, dict) or state.get("schema") != SYNC_STATE_SCHEMA:
         raise ValueError(f"sync state schema must be {SYNC_STATE_SCHEMA}")
     convergence_phase(state.get("story_confidence", 0.0))
 
-    for field in ("possibilities", "discoveries", "contradictions", "canon_events", "reader_requirements", "assumptions"):
+    for field in (
+        "possibilities",
+        "discoveries",
+        "contradictions",
+        "canon_events",
+        "reader_requirements",
+        "assumptions",
+        "unresolved_questions",
+    ):
         if not isinstance(state.get(field, []), list):
             raise ValueError(f"{field} must be a list")
 
@@ -284,6 +303,8 @@ def validate_sync_state(state: dict[str, Any]) -> None:
         _validate_reader_requirement(requirement)
     for assumption in state.get("assumptions", []):
         validate_assumption(assumption)
+    for question in state.get("unresolved_questions", []):
+        _validate_unresolved_question(question)
 
 
 def _reader_gaps(state: dict[str, Any]) -> list[dict[str, Any]]:
@@ -347,6 +368,80 @@ def _default_branch_reason(possibility: dict[str, Any], action: str) -> str:
     if viability == "invalidated":
         return "branch conflicts with stronger current story evidence"
     return "branch is too weak to justify continued search at the current convergence phase"
+
+
+def _rehearsal_targets(
+    state: dict[str, Any],
+    discovery_levels: dict[str, str],
+    discovery_records: dict[str, dict[str, Any]],
+) -> list[dict[str, Any]]:
+    targets: list[dict[str, Any]] = []
+
+    for contradiction in state.get("contradictions", []):
+        if contradiction.get("status", "unresolved") != "unresolved":
+            continue
+        severity = contradiction.get("severity", "medium")
+        heat = "high" if severity in {"high", "critical"} else "medium"
+        targets.append({
+            "source_type": "contradiction",
+            "source_id": contradiction["id"],
+            "purpose": "compare_live_contradiction",
+            "heat": heat,
+            "members": copy.deepcopy(contradiction.get("members", [])),
+            "reason": "preserve divergent versions and pressure-test which behavior/causal path earns survival",
+        })
+
+    discoveries_by_id = {item["id"]: item for item in state.get("discoveries", [])}
+    for discovery_id, level in discovery_levels.items():
+        record = discovery_records[discovery_id]
+        discovery = discoveries_by_id[discovery_id]
+        evidence_summary = record["evidence_summary"]
+        if level == "strong_thread" and evidence_summary["survived_challenge_count"] == 0:
+            targets.append({
+                "source_type": "discovery",
+                "source_id": discovery_id,
+                "purpose": "challenge_strong_thread",
+                "heat": "high" if discovery.get("book_shaping") is True else "medium",
+                "reason": "strong cross-book support exists, but the thread has not yet survived an adversarial rehearsal",
+                "regions": copy.deepcopy(evidence_summary["regions"]),
+            })
+        elif level == "repeated_signal":
+            targets.append({
+                "source_type": "discovery",
+                "source_id": discovery_id,
+                "purpose": "test_repeated_signal",
+                "heat": "medium",
+                "reason": "independent recurrence exists, but dramatic usefulness is not broad enough for strong-thread promotion",
+                "regions": copy.deepcopy(evidence_summary["regions"]),
+            })
+
+    for question in state.get("unresolved_questions", []):
+        if question.get("importance", "medium") not in {"medium", "high"}:
+            continue
+        targets.append({
+            "source_type": "question",
+            "source_id": question["id"],
+            "purpose": "resolve_unresolved_question",
+            "heat": "high" if question.get("importance") == "high" else "medium",
+            "reason": question["question"],
+            "regions": copy.deepcopy(question.get("regions", [])),
+        })
+
+    heat_rank = {"high": 0, "medium": 1, "low": 2}
+    purpose_rank = {
+        "compare_live_contradiction": 0,
+        "challenge_strong_thread": 1,
+        "resolve_unresolved_question": 2,
+        "test_repeated_signal": 3,
+    }
+    return sorted(
+        targets,
+        key=lambda item: (
+            heat_rank.get(item["heat"], 9),
+            purpose_rank.get(item["purpose"], 9),
+            item["source_id"],
+        ),
+    )
 
 
 def sync_story(state: dict[str, Any]) -> dict[str, Any]:
@@ -421,6 +516,8 @@ def sync_story(state: dict[str, Any]) -> dict[str, Any]:
     contradictions_alive, immediate_contradictions = _sync_contradictions(state)
     hidden_canon = [event["id"] for event in state.get("canon_events", []) if event["visibility"] == "hide"]
     superseded_assumptions = [copy.deepcopy(item) for item in state.get("assumptions", []) if item.get("status") == "superseded"]
+    unresolved_questions = copy.deepcopy(state.get("unresolved_questions", []))
+    rehearsal_targets = _rehearsal_targets(state, discovery_levels, discovery_records)
 
     return {
         "schema": SYNC_REPORT_SCHEMA,
@@ -440,6 +537,8 @@ def sync_story(state: dict[str, Any]) -> dict[str, Any]:
         "hidden_canon": hidden_canon,
         "reader_gaps": _reader_gaps(state),
         "superseded_assumptions": superseded_assumptions,
+        "unresolved_questions": unresolved_questions,
+        "rehearsal_targets": rehearsal_targets,
         "immediate_sync_discoveries": immediate_discoveries,
         "immediate_sync_contradictions": immediate_contradictions,
         "sync_required": bool(immediate_discoveries or immediate_contradictions),
