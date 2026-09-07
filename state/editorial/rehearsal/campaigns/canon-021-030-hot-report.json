@@ -1,0 +1,179 @@
+{
+  "schema": "rehearsal_free_returns_report/v1",
+  "mode": "free_production",
+  "target_branch": "editor/rehearsal-simulation-engine",
+  "patches_ready": 7,
+  "patches_applied": 7,
+  "changed_chapters": [
+    21,
+    23,
+    29,
+    30
+  ],
+  "records": [
+    {
+      "patch_id": "c021-octavia-task-ownership-hot-01",
+      "chapter": 21,
+      "actor": "Octavia",
+      "role": "Octavia",
+      "take_id": "021-free-hot-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "reaction_placement",
+        "tone"
+      ],
+      "reason": "FREE rehearsal keeps Octavia's pressure inside the work. She does not need a generic stare when returning to the ledger makes the social boundary and task ownership visible at once.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c021-octavia-work-rhythm-hot-02",
+      "chapter": 21,
+      "actor": "Octavia",
+      "role": "Octavia",
+      "take_id": "021-free-hot-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "interaction_timing",
+        "reaction_placement"
+      ],
+      "reason": "Her curiosity lands harder when it visibly interrupts work rather than appearing as generic facial description.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c023-ressa-operational-voice-hot-01",
+      "chapter": 23,
+      "actor": "Ressa",
+      "role": "Ressa",
+      "take_id": "023-free-hot-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg",
+        "Noa as Alden"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "dialogue",
+        "interaction_timing"
+      ],
+      "reason": "Ressa's dialogue becomes more procedural and her movement keeps her authority attached to the intake work rather than a generic look.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c023-ressa-intake-rhythm-hot-02",
+      "chapter": 23,
+      "actor": "Ressa",
+      "role": "Ressa",
+      "take_id": "023-free-hot-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "reaction_placement",
+        "tone"
+      ],
+      "reason": "The same line reads more specifically as Ressa when her skepticism stays embedded in the intake process.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c029-kellan-access-boundary-hot-01",
+      "chapter": 29,
+      "actor": "canon Kellan",
+      "role": "Kellan",
+      "take_id": "029-free-hot-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg",
+        "Noa as Alden"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "blocking",
+        "reaction_placement"
+      ],
+      "reason": "Kellan's first boundary is access to evidence. Blocking Greg from the body is more character- and pressure-specific than a generic crossed-arms beat.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c029-kellan-interest-turn-hot-02",
+      "chapter": 29,
+      "actor": "canon Kellan",
+      "role": "Kellan",
+      "take_id": "029-free-hot-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "interaction_timing",
+        "reaction_placement"
+      ],
+      "reason": "The turn is not generic surprise; Greg's casting restriction is the concrete detail that makes Kellan reconsider access.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    },
+    {
+      "patch_id": "c030-alden-relationship-body-hot-01",
+      "chapter": 30,
+      "actor": "Noa",
+      "role": "Alden",
+      "take_id": "030-free-hot-a",
+      "variance_group_id": null,
+      "supporting_actors": [
+        "Nico as Greg"
+      ],
+      "changed_surfaces": [
+        "movement",
+        "interaction_timing",
+        "reaction_placement",
+        "paragraphing"
+      ],
+      "reason": "The relationship beat benefits from embodied silence: Alden gets a moment to absorb ownership of his own competence, then the scarf physically routes him back into their familiar argument.",
+      "performed_interpretation": null,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "source_match": true,
+      "policy_mode": "production",
+      "policy_scope": "scene_rebuild"
+    }
+  ]
+}
