@@ -1,51 +1,13 @@
 {
-  "schema": "forward_rehearsal_proving_run/v1",
-  "range": {"start": 493, "end": 500},
-  "status": "in_progress",
-  "workflow": "state/editorial/rehearsal/FORWARD_WORKFLOW.md",
-  "chapters": [
-    {
-      "chapter":493,"status":"shipped","source_authority":"8906e2d3103c1ae13c369be7a008ac34c3fade50",
-      "pressure":"Break the recent contract/debrief/paperwork rhythm without prematurely resolving Lakeward while legitimately reactivating the work-limb lane.",
-      "possibilities":[
-        {"id":"493-a","shape":"Immediate Hark & Venn fitting","result":"rejected_after_rehearsal","reason":"Hard geography: Greg begins in Carrow while Hark & Venn is in Duskport."},
-        {"id":"493-b","shape":"Real Hark & Venn fit notice creates a travel/capital/client chapter","result":"selected","reason":"Preserves geography and shop authority while changing chapter grammar."},
-        {"id":"493-c","shape":"Immediate artifact-market opening","result":"deferred","reason":"Useful forward route but too conveniently timed before an independent public trigger."}
-      ],
-      "selected_discoveries":["Paying passenger fare can be competent protection of fitting data.","Greg should not pre-buy a return schedule before Masta determines current state.","The useful two-hand goal is an ordinary loaded-tray task, not standing as spectacle.","Masta's schedule remains hers."],
-      "performance":{"used":false,"reason":"REHEARSAL changed the selected scene from fitting to travel, so embodied uncertainty was no longer present."},
-      "prose_result":"Chapter 493 THE CLIENT shipped. Greg travels Carrow to Duskport as a paying client and arrives three days before the fitting without bending Masta's schedule.",
-      "character_surprise":"Tavi independently proposes carrying soup, which becomes the practical loaded-tray test after Lyssa narrows it.",
-      "protagonist_gravity":"Reduced: Lyssa, Tavi, coach systems, and Masta's schedule constrain Greg rather than orbiting him.",
-      "memory_helped":"Yes. Restraint, authority boundaries, body-state honesty, and money-as-optionality all changed scene choices.",
-      "next_trailhead":"Use the three real Duskport days before fitting. Favor a public artifact/provenance opportunity that exists independently of Greg."
-    },
-    {
-      "chapter":494,"status":"rehearsed","source_authority":"493-canon",
-      "pressure":"Use Duskport's independent salvage/instrument economy to create genuine acquisition pressure before the fitting without turning Greg into a worker or making a seller stupid.",
-      "possibilities":[
-        {"id":"494-a","shape":"Greg wanders a salvage market and finds a cheap obvious miracle artifact","result":"rejected","reason":"Would violate seller intelligence and make the artifact engine feel like loot generation."},
-        {"id":"494-b","shape":"A public estate/survey surplus viewing includes a visibly limited but historically interesting navigation artifact. Greg recognizes a later maker or failure mode, while the market prices the currently visible function rationally.","result":"selected","reason":"Independent public opportunity, credible value asymmetry, concrete capital pressure, and new scene grammar."},
-        {"id":"494-c","shape":"Greg takes a short Duskport job while waiting","result":"rejected","reason":"Repeats work-as-presence justification immediately after Chapter 493 deliberately established him as a client."},
-        {"id":"494-d","shape":"Quiet social day at Anchor's End","result":"rejected","reason":"Valid but wastes the artifact/provenance pressure already supported by Duskport and current rhythm needs."}
-      ],
-      "selected_discoveries":[
-        "The opportunity must be public and would occur if Greg never arrived.",
-        "Seller/appraiser knows the object's visible present function and prices it accordingly.",
-        "Greg's advantage may be remembering a maker's later importance or valuing a defect/failure mode differently, not secretly knowing an obvious miracle nobody else notices.",
-        "A strong outcome is acquisition pressure or a deposit/decision, not necessarily immediate ownership.",
-        "Other buyers should have their own reasons and can beat Greg if he hesitates."
-      ],
-      "performance":{"used":false,"reason":"The uncertainty is market/provenance/decision pressure rather than embodied interpersonal behavior."},
-      "prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,
-      "next_trailhead":null
-    },
-    {"chapter":495,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null},
+  "schema":"forward_rehearsal_proving_run/v1","range":{"start":493,"end":500},"status":"in_progress","workflow":"state/editorial/rehearsal/FORWARD_WORKFLOW.md",
+  "chapters":[
+    {"chapter":493,"status":"shipped","source_authority":"8906e2d3103c1ae13c369be7a008ac34c3fade50","pressure":"Legitimate limb reactivation without geography cheat or premature Lakeward resolution.","possibilities":[{"id":"493-a","shape":"Immediate fitting","result":"rejected_after_rehearsal","reason":"Greg was in Carrow and Hark & Venn in Duskport."},{"id":"493-b","shape":"Fit notice creates travel/client chapter","result":"selected","reason":"Preserves geography and authority."}],"selected_discoveries":["Pay passenger fare to protect body-state evidence.","Do not bend Masta's schedule.","Use loaded tray as practical two-hand goal."],"performance":{"used":false,"reason":"Selected scene became travel, not fitting."},"prose_result":"THE CLIENT shipped; Greg reaches Duskport three days early as a paying client.","character_surprise":"Tavi's soup idea becomes loaded-tray task.","protagonist_gravity":"Reduced.","memory_helped":"Yes.","next_trailhead":"Use real Duskport days before fitting."},
+    {"chapter":494,"status":"shipped","source_authority":"493-canon","pressure":"Create independent artifact acquisition pressure with rational market pricing.","possibilities":[{"id":"494-a","shape":"Cheap obvious miracle","result":"rejected","reason":"Loot logic and idiot seller."},{"id":"494-b","shape":"Public survey retirement sale with limited early Veyr compass","result":"selected","reason":"Independent opportunity, rational visible value, partial future-memory asymmetry."},{"id":"494-c","shape":"Short Duskport job","result":"rejected","reason":"Would undo client-role shift."}],"selected_discoveries":["Seller/appraiser knows visible value.","Other buyers have independent reasons.","Observation of ring flare must stay separate from historical/use attribution.","Acquisition pressure can end in loss."],"performance":{"used":false,"reason":"Market/provenance decision did not require embodied simulation."},"prose_result":"THE BIDDER shipped. Greg bids on early Veyr response compass to 5s5c, loses at 5s7c, gets deposit back, and records public evidence without chasing buyer.","character_surprise":"The story lets the independent instrument buyer win rather than rewarding Greg's protagonist status.","protagonist_gravity":"Strongly reduced: auction, appraiser, and competing buyer remain independent systems.","memory_helped":"Yes. Observation/attribution discipline prevented uncertain Veyr memory from becoming canon fact.","next_trailhead":"One pre-fitting day remains. Let loss sharpen acquisition strategy without consolation loot or another auction."},
+    {"chapter":495,"status":"rehearsed","source_authority":"494-canon","pressure":"Turn the lost Veyr lot into practical acquisition-system learning without stalking the winner, repeating an auction, or writing a strategy manifesto.","possibilities":[{"id":"495-a","shape":"Greg tracks the winning buyer and asks what he knew","result":"rejected","reason":"Would annex another buyer's independent action into Greg's arc and make the loss feel fake."},{"id":"495-b","shape":"Greg visits a public instrument broker/shop to learn how retirement notices, deposits, inventory capital, commissions, and wanted-item alerts work, then pays a small legitimate fee to establish one narrow acquisition channel","result":"selected","reason":"Converts loss into durable option without replacing the artifact or making Greg expert."},{"id":"495-c","shape":"Another artifact appears immediately","result":"rejected","reason":"Consolation loot would cheapen 494."},{"id":"495-d","shape":"Do nothing until fitting","result":"rejected","reason":"Possible, but the Veyr loss created a real new economic question that can move forward in a different chapter grammar."}],"selected_discoveries":["Greg wants earlier information and optionality more than he wants to win every bid.","A broker/shop owns market knowledge; Greg can buy access without becoming the specialist.","The useful durable result is a narrow wanted-item notice or buyer relationship with bounded fee/terms.","Do not prove the Veyr hypothesis or recover that exact compass."],"performance":{"used":false,"reason":"The scene's uncertainty is commercial boundary-setting and information access; ordinary dialogue/transaction is sufficient."},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null},
     {"chapter":496,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null},
     {"chapter":497,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null},
     {"chapter":498,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null},
     {"chapter":499,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null},
     {"chapter":500,"status":"pending","source_authority":null,"pressure":null,"possibilities":[],"selected_discoveries":[],"performance":{"used":false,"reason":null},"prose_result":null,"character_surprise":null,"protagonist_gravity":null,"memory_helped":null,"next_trailhead":null}
-  ],
-  "evaluation":{"scene_choice_quality":null,"character_surprise":null,"protagonist_gravity":null,"performance_value":null,"memory_value":null,"throughput":null,"rejected_option_value":null,"state_cleanliness":null,"recommendation":null}
+  ],"evaluation":{"scene_choice_quality":null,"character_surprise":null,"protagonist_gravity":null,"performance_value":null,"memory_value":null,"throughput":null,"rejected_option_value":null,"state_cleanliness":null,"recommendation":null}
 }
