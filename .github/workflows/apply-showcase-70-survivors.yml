@@ -1,0 +1,95 @@
+name: Apply Showcase 70 Survivors
+
+on:
+  push:
+    branches:
+      - editor/reverse-edit-showcase-next-50
+    paths:
+      - '.github/workflows/apply-showcase-70-survivors.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Apply the single verified survivor
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from scripts.performance_production_funnel import apply_record
+
+          rows = [json.loads(x) for x in Path('state/editorial/performance-production/showcase-next-50-results.jsonl').read_text(encoding='utf-8').splitlines() if x.strip()]
+          survivors = [r['record'] for r in rows if r['record']['verdict'] == 'change_survives']
+          if [r['chapter'] for r in survivors] != [72]:
+              raise SystemExit(f'expected only chapter 72 survivor, got {[r["chapter"] for r in survivors]}')
+          path = Path('chapters/072.html')
+          original = path.read_text(encoding='utf-8')
+          updated = apply_record(original, survivors[0])
+          if updated == original:
+              raise SystemExit('chapter 72 survivor produced no change')
+          path.write_text(updated, encoding='utf-8')
+          PY
+          changed="$(git diff --name-only)"
+          test "$changed" = "chapters/072.html"
+          git diff --check
+      - name: Commit prose survivor locally
+        run: |
+          git config user.name 'PLG PERFORMANCE Funnel'
+          git config user.email 'actions@users.noreply.github.com'
+          git add chapters/072.html
+          git commit -m 'Apply PERFORMANCE survivor to chapter 72'
+          echo "RESULTING_CANON_COMMIT=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+      - name: Archive successful round trip
+        run: |
+          python - <<'PY'
+          import json, os, subprocess
+          from pathlib import Path
+
+          rows = [json.loads(x) for x in Path('state/editorial/performance-production/showcase-next-50-results.jsonl').read_text(encoding='utf-8').splitlines() if x.strip()]
+          row = next(r for r in rows if r['record']['chapter'] == 72)
+          record = row['record']
+          root = Path('state/editorial/performance-roundtrip/072')
+          root.mkdir(parents=True, exist_ok=True)
+          source_authority = subprocess.check_output(['git','rev-parse','origin/main'], text=True).strip()
+          source_blob = subprocess.check_output(['git','rev-parse','origin/main:chapters/072.html'], text=True).strip()
+          lock = {
+              'schema_version': 1,
+              'authority': 'derived_editorial_reference',
+              'canon_authority': False,
+              'canon_chapter': 72,
+              'source_path': 'chapters/072.html',
+              'source_chapter_blob': source_blob,
+              'source_authority_commit': source_authority,
+              'displayed_showcase_chapter': 58,
+              'resulting_canon_commit': os.environ['RESULTING_CANON_COMMIT'],
+              'result_scene_anchors': [
+                  'At Guild, Sera checked the wound. Still improving. No increased drainage after yesterday\'s work. No fever. Swelling a little worse by evening yesterday, reduced after rest. Expected.',
+                  'The Guild did not have four. But Sera took me to a side entrance with five shallow steps and a proper rail. New environment. Good.'
+              ],
+          }
+          (root/'source.lock.json').write_text(json.dumps(lock, indent=2) + '\n', encoding='utf-8')
+          (root/'dramatic.md').write_text('# Canon 072 Dramatic Lock\n\n' + record['dramatic'] + '\n', encoding='utf-8')
+          (root/'performance.md').write_text('# Canon 072 PERFORMANCE\n\n' + record['performance'] + '\n', encoding='utf-8')
+          (root/'screenplay.md').write_text('# Canon 072 Performed Script\n\n' + record['screenplay'] + '\n', encoding='utf-8')
+          (root/'comparison.md').write_text('# Canon 072 Comparison\n\n## Verdict\n\n**CHANGE SURVIVES**\n\n' + record['comparison'] + '\n\n## Final prose result\n\nThe duplicated Sera medical-check sequence was removed. One complete check remains, followed directly by the five-step stair practice.\n', encoding='utf-8')
+          PY
+      - name: Verify finished tree
+        run: |
+          python -m unittest discover -s tests
+          python scripts/performance_roundtrip_references.py --check
+          python scripts/project_check.py showcase
+          git diff --check
+      - name: Commit archive and push verified result
+        run: |
+          git add state/editorial/performance-roundtrip/072
+          git commit -m 'Archive chapter 72 PERFORMANCE round trip'
+          git push origin HEAD:${GITHUB_REF_NAME}
