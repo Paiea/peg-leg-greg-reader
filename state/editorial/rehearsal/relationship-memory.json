@@ -1,4 +1,138 @@
 {
   "schema": "rehearsal_relationship_memory/v1",
-  "relationships": {}
+  "relationships": {
+    "Antonius::Greg": {
+      "supported": [
+        {
+          "value": "Under financial-overextension pressure, Antonius lets Greg exhaust clever framing and then reduces the argument to exact obligations or transaction boundaries.",
+          "source_type": "accepted_prose",
+          "source": "chapters/005.html",
+          "kind": "behavior_under_conditions",
+          "pressure_tags": ["financial_overextension", "conceptual_deflection"]
+        },
+        {
+          "value": "Under appraisal and information-asymmetry pressure, Antonius withholds borrower details until they become decision-relevant and keeps returning the room to the lending decision.",
+          "source_type": "accepted_prose",
+          "source": "chapters/010.html",
+          "kind": "behavior_under_conditions",
+          "pressure_tags": ["appraisal_pressure", "information_asymmetry"]
+        }
+      ],
+      "hypothesis": [
+        {
+          "value": "Antonius may be privately amused by Greg's verbal reframing while testing whether the cleverness survives numbers and consequences.",
+          "source_type": "rehearsal",
+          "source": "canon-001-020-character-discovery:antonius-free-a",
+          "kind": "private_interpretation",
+          "pressure_tags": ["financial_overextension", "status_negotiation"]
+        }
+      ]
+    },
+    "Hessa::Greg": {
+      "supported": [
+        {
+          "value": "Under physical-safety pressure, especially when Greg is excited, Hessa reduces ambiguity by taking direct control of the task or body before explaining herself.",
+          "source_type": "accepted_prose",
+          "source": "chapters/011.html;chapters/018.html",
+          "kind": "behavior_under_conditions",
+          "pressure_tags": ["physical_safety", "greg_momentum", "teaching_boundary"]
+        },
+        {
+          "value": "Under epistemic pressure, Hessa repeatedly narrows Greg from broad explanation to the immediate observation, count, or stop condition.",
+          "source_type": "accepted_prose",
+          "source": "chapters/018.html",
+          "kind": "behavior_under_conditions",
+          "pressure_tags": ["epistemic_uncertainty", "overgeneralization"]
+        }
+      ],
+      "hypothesis": [
+        {
+          "value": "One plausible Hessa interpretation is responsibility for Greg's safety: do not reward momentum merely because the result is interesting.",
+          "source_type": "rehearsal",
+          "source": "canon-001-020-character-discovery:hessa-free-a",
+          "kind": "private_interpretation",
+          "pressure_tags": ["physical_safety"]
+        },
+        {
+          "value": "A separate plausible Hessa interpretation is suspicion that Greg knows more than he can reliably explain, increasing her insistence on evidence and repetition.",
+          "source_type": "rehearsal",
+          "source": "canon-001-020-character-discovery:hessa-free-b",
+          "kind": "private_interpretation",
+          "pressure_tags": ["epistemic_uncertainty", "concealed_history"]
+        }
+      ]
+    },
+    "Arlo::Greg": {
+      "supported": [
+        {
+          "value": "When Greg's excitement threatens to expand a result into many projects or annex process ownership, Arlo protects the process, exposes evidence selectively, and redirects attention to the next concrete test.",
+          "source_type": "accepted_prose",
+          "source": "chapters/013.html",
+          "kind": "behavior_under_conditions",
+          "pressure_tags": ["idea_proliferation", "work_ownership", "competence_pressure"]
+        }
+      ],
+      "hypothesis": [
+        {
+          "value": "Arlo may privately resist being turned into a supporting piece of Greg's larger future-shaped story, even when he values Greg's insight.",
+          "source_type": "rehearsal",
+          "source": "canon-001-020-character-discovery:arlo-free-a",
+          "kind": "private_interpretation",
+          "pressure_tags": ["work_ownership", "relationship_asymmetry"]
+        }
+      ]
+    },
+    "Jorren::Greg": {
+      "supported": [
+        {
+          "value": "When Greg over-reads combat or threat, Jorren redirects him toward present body, terrain, timing, fatigue, and the next executable action rather than debating the theory.",
+          "source_type": "accepted_prose",
+          "source": "chapters/014.html",
+          "kind": "behavior_under_conditions",
+          "pressure_tags": ["physical_training", "hypervigilance", "execution_gap"]
+        }
+      ],
+      "hypothesis": [
+        {
+          "value": "Jorren may privately read Greg's exhaustive attention as both unusually useful and self-defeating, which is why he keeps narrowing the lesson to what the body can prove now.",
+          "source_type": "rehearsal",
+          "source": "canon-001-020-character-discovery:jorren-free-a",
+          "kind": "private_interpretation",
+          "pressure_tags": ["hypervigilance", "teaching_pressure"]
+        }
+      ]
+    },
+    "Alden::Greg": {
+      "supported": [
+        {
+          "value": "Under operational uncertainty, Alden stays with immediate physical evidence, notices practical inconsistencies, and can leave Greg's thinking space unfilled instead of competing with a larger theory.",
+          "source_type": "accepted_prose",
+          "source": "chapters/017.html",
+          "kind": "behavior_under_conditions",
+          "pressure_tags": ["operational_uncertainty", "investigation", "greg_overplanning"]
+        }
+      ],
+      "hypothesis": [
+        {
+          "value": "Alden may privately want Greg's correction without wanting to perform deference, making concrete observations a safer way to engage than asking for approval.",
+          "source_type": "rehearsal",
+          "source": "canon-001-020-character-discovery:alden-free-a",
+          "kind": "private_interpretation",
+          "pressure_tags": ["competence_pressure", "relationship_shorthand"]
+        }
+      ]
+    },
+    "Greg::Hessa": {
+      "supported": [
+        {
+          "value": "Under Hessa's safety and teaching boundaries, Greg often jokes or reframes internally before deciding whether to argue aloud, and the strongest moments occur when he lets the immediate test replace the larger theory.",
+          "source_type": "accepted_prose",
+          "source": "chapters/011.html;chapters/018.html",
+          "kind": "behavior_under_conditions",
+          "pressure_tags": ["teaching_boundary", "curiosity", "physical_safety"]
+        }
+      ],
+      "hypothesis": []
+    }
+  }
 }
