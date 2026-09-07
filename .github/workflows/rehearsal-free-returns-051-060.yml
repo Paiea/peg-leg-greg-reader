@@ -8,6 +8,7 @@ on:
       - '.github/workflows/rehearsal-free-returns-051-060.yml'
       - 'scripts/apply_rehearsal_returns.py'
       - 'tests/test_apply_rehearsal_returns.py'
+      - 'tests/test_rehearsal_campaign_workflow_contract.py'
       - 'state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-returns.json'
   workflow_dispatch:
 
@@ -41,8 +42,6 @@ jobs:
           patch['before'] = '<p>We reset. I had seen it. Not enough. Timing. Left hand moving before the body committed. Not parry. Not spell. Maybe a cue. Maybe balance. Maybe preparation for something else. Alden saw my face.</p>'
           patch['after'] = '<p>We reset. I had seen it. Not enough. Timing. Left hand moving before the body committed. Not parry. Not spell. Maybe a cue. Maybe balance. Maybe preparation for something else. Alden saw my face and hit my guard before I finished whatever theory had started forming.</p>'
 
-          # Chapter 56: preserve the narration lead-in around an action that lives at
-          # the end of its stored paragraph, then replace the full literal exchange.
           patch = next(p for p in data['patches'] if p['id'] == 'c056-arlo-busy-exchange-boundary-01')
           chapter = Path('chapters/056.html').read_text()
           action_text = 'Arlo shifted the bundle under his arm.'
@@ -79,9 +78,6 @@ jobs:
           if chapter.count(patch['before']) != 1:
               raise SystemExit(f'chapter 56 materialized span count={chapter.count(patch["before"])}')
 
-          # Chapter 60: both semantic endpoints live inside larger stored paragraphs.
-          # Capture exact bytes from the opening paragraph through Pessa taking the board,
-          # preserving the opening lead-in and the trailing "First site." fact.
           patch = next(p for p in data['patches'] if p['id'] == 'c060-pessa-write-less-boundary-01')
           chapter = Path('chapters/060.html').read_text()
           start_text = 'Pessa looked at my board.'
