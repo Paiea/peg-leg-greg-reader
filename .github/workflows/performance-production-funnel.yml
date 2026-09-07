@@ -7,6 +7,7 @@ on:
       - editor/performance-production-funnel
       - architecture/performance-campaign-codex-mode
     paths:
+      - 'AGENTS.md'
       - 'state/editorial/performance-production/**'
       - 'state/editorial/performance-roundtrip/**'
       - 'state/editorial/CODEX_EXECUTION_POLICY.md'
