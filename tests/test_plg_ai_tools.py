@@ -19,6 +19,7 @@ EXPECTED = {
     "reduce_campaign",
     "apply_survivors",
     "sync_story",
+    "run_story_rehearsal_cycle",
 }
 
 
@@ -80,7 +81,7 @@ class PLGAIToolTests(unittest.TestCase):
     def test_tool_metadata_distinguishes_read_only_from_disposable_cache_writes(self):
         for name in ("brain_for","brain_doctor","get_scene_view","query_scenes","get_campaign_result"):
             self.assertTrue(plg_ai_tools.TOOL_SPECS[name]["read_only"], name)
-        for name in ("compile_range", "plan_campaign", "run_campaign", "reduce_campaign", "sync_story", "apply_survivors"):
+        for name in ("compile_range", "plan_campaign", "run_campaign", "reduce_campaign", "sync_story", "run_story_rehearsal_cycle", "apply_survivors"):
             self.assertFalse(plg_ai_tools.TOOL_SPECS[name]["read_only"], name)
 
     def test_call_dispatches_structured_payload(self):
