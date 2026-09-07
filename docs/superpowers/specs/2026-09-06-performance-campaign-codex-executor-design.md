@@ -28,8 +28,9 @@ The goal is not to pretend 491 chapters contain one chapter's worth of informati
 4. Existing successful PERFORMANCE archives remain historical/golden evidence until a later replacement audit proves a stronger representation can supersede them.
 5. Codex execution mode is an execution policy, not a new lane.
 6. Chat remains the preferred creative/design surface. Codex campaign workers are execution-biased by default.
-7. Parallel workers may generate derived analysis and candidate outputs, but they do not concurrently mutate canon.
-8. No mechanism may bypass subscription, authentication, quota, credit, sandbox, or permission boundaries. The runner uses only execution capacity legitimately available to the configured Codex/API environment.
+7. Parallel workers may generate derived analysis and candidate outputs, but they never concurrently mutate canon.
+8. Canon integration has exactly one writer and happens only after reduction and fresh authority validation.
+9. No mechanism may bypass subscription, authentication, quota, credit, sandbox, or permission boundaries. The runner uses only execution capacity legitimately available to the configured Codex/API environment.
 
 ## Approaches considered
 
@@ -65,7 +66,7 @@ Recommended.
 ### C. API Batch-first orchestration
 
 Advantages:
-- excellent economics for very large asynchronous inference campaigns
+- strong economics for very large asynchronous inference campaigns
 - high request volume and simple JSONL fan-out
 
 Problems:
@@ -95,7 +96,7 @@ CAMPAIGN RUNNER
 RUNNER-OWNED EXECUTOR
   |
   +--> deterministic-only jobs: local Python
-  +--> model jobs: bounded `codex exec` workers
+  +--> model jobs: bounded codex exec workers
   +--> future optional executor: API Batch
   |
   v
@@ -145,9 +146,10 @@ Conceptual schema:
     "profile": "eco",
     "executor": "codex",
     "creative_authority": false,
-    "canon_write_parallelism": 0,
+    "parallel_canon_writers": 0,
+    "integration_workers": 1,
     "max_worker_retries": 1,
-    "stop_on_authority_drift": true
+    "integration_requires_fresh_authority": true
   },
   "stages": [
     "compile",
@@ -195,7 +197,8 @@ Key rules:
 - Model workers operate on independent source-addressed scene packets.
 - Model map workers are read-only with respect to canon.
 - Worker outputs are written only to campaign-local derived storage.
-- Canon mutation concurrency is always zero. Surviving patches are applied sequentially after reduction.
+- Parallel canon writers are always zero.
+- One sequential integration worker may apply surviving patches only after reduction and fresh authority validation.
 - A packet is not scheduled when its required derived layer is cache-valid.
 - Failed packets do not cause the entire campaign to restart.
 - No unbounded retry loops.
@@ -204,9 +207,9 @@ Key rules:
 Recommended initial profiles:
 
 ```text
-eco      model_workers=2   retries=1   no duplicate attempts
-standard model_workers=4   retries=1   no duplicate attempts
-burst    explicit-only; higher concurrency for speed, not lower usage
+eco       model_workers=2   retries=1   no duplicate attempts
+standard  model_workers=4   retries=1   no duplicate attempts
+burst     explicit-only; higher concurrency for speed, not lower usage
 ```
 
 The exact worker count is configuration, not story authority. `eco` is the default.
@@ -347,7 +350,7 @@ The reducer may cluster repeated issues by deterministic keys or cheap classific
 
 A worker should escalate instead of improvising when:
 
-- current authority no longer matches campaign source SHA
+- the source scene no longer matches its packet hash
 - exact scene/source anchors are stale
 - semantic provenance conflicts materially affect the task
 - a requested change would alter plot/canon/character intent outside approved editorial authority
@@ -359,14 +362,16 @@ Escalated items are grouped for one stronger review pass rather than starting in
 
 ## Authority drift and resumability
 
-The campaign locks the source authority SHA at planning time.
+The campaign locks a source authority SHA at planning time.
 
-If `main` moves during read-only map work, existing packet results remain historical derived results keyed to their source hashes. Before integration, the runner recompiles/revalidates affected scenes against current authority.
+Read-only map work is source-addressed. If `main` moves while workers are running, already-planned workers may finish against their locked source hashes. Their results remain historical derived results, not current authority.
 
-If a scene hash is unchanged, the result may still be reusable.
-If a scene hash changed, stale derived results are not applied.
+Before any canon integration, the runner must compare current authority with the campaign source state and recompile/revalidate affected scenes.
 
-The entire campaign must not be thrown away merely because unrelated `main` files changed.
+- If a scene hash is unchanged, its derived result may remain reusable.
+- If a scene hash changed, stale derived results must not be applied.
+- Unrelated `main` changes do not force the entire read-only campaign to be discarded.
+- Authority drift always blocks direct integration until this revalidation completes.
 
 ## One-command UX
 
@@ -410,7 +415,7 @@ The runner should make waste structurally difficult:
 10. reducer before strong-model review
 11. halt at verified campaign boundary
 
-The first implementation does not need to know the user's live Codex subscription quota. It controls *work count and duplication*, which are repo-level facts. If a future supported usage API exists, it can become an optional budget signal; do not scrape or bypass account limits.
+The first implementation does not need to know the user's live Codex subscription quota. It controls work count and duplication, which are repo-level facts. If a future supported usage API exists, it can become an optional budget signal; do not scrape or bypass account limits.
 
 ## Relationship to Chat
 
