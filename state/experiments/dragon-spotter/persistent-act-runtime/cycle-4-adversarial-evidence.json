@@ -23,6 +23,16 @@
       {
         "discovery_id": "operational-reliance-before-personal-trust",
         "evidence": {
+          "source_id": "performance:ds.act-iii-to-iv.relationship-third-path:bounded-domain-support",
+          "independent_group": "relationship-third-path-downstream-support",
+          "kind": "support",
+          "dramatic_uses": ["relationship", "character", "plot", "tension"],
+          "regions": ["act-iv"]
+        }
+      },
+      {
+        "discovery_id": "operational-reliance-before-personal-trust",
+        "evidence": {
           "source_id": "performance:ds.act-iii-to-iv.relationship-third-path:adversarial-survival",
           "independent_group": "relationship-third-path-downstream-adversarial",
           "kind": "challenge_survived",
