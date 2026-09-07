@@ -1,0 +1,153 @@
+name: Reverse Edit Showcase Next 50 Trial
+
+on:
+  push:
+    branches:
+      - editor/reverse-edit-showcase-next-50
+    paths:
+      - 'scripts/performance_selected_campaign.py'
+      - 'tests/test_performance_campaign_selection.py'
+      - 'state/editorial/performance-production/showcase-next-50-results.jsonl'
+      - '.github/workflows/reverse-edit-showcase-next-50-trial.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  compile:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Resolve accepted main authority
+        run: echo "SOURCE_AUTHORITY=$(git rev-parse origin/main)" >> "$GITHUB_ENV"
+
+      - name: Verify explicit-selection adapter
+        run: python -m unittest tests.test_performance_campaign_selection
+
+      - name: Compile Brain packet for trial
+        run: |
+          mkdir -p .cache/plg/trial
+          python scripts/brain_compiler.py compile \
+            --task "reverse edit performance next 50 showcase chapters" \
+            --authority-branch main \
+            --authority-sha "$SOURCE_AUTHORITY" \
+            --format json > .cache/plg/trial/brain-packet.json
+
+      - name: Plan selected reverse-edit campaign
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          from scripts.performance_selected_campaign import plan_selected_campaign
+
+          ids = [27,28,29,30,31,32,34,35,36,37,39,40,41,42,44,45,47,50,51,52,53,54,55,56,58,59,60,61,62,63,64,65,67,68,69,70,71,72,74,75,76,77,78,79,80,81,82,83,84,86]
+          result = plan_selected_campaign(
+              task="reverse_edit",
+              chapter_ids=ids,
+              source_authority=os.environ["SOURCE_AUTHORITY"],
+              chapter_root=Path("chapters"),
+              cache_root=Path(".cache/plg"),
+              profile="eco",
+              executor="manual",
+          )
+          Path(".cache/plg/trial/plan-result.json").write_text(
+              json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8"
+          )
+          print(json.dumps(result, indent=2))
+          PY
+
+      - name: Verify selected scope
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          plans = list(Path('.cache/plg/campaigns').glob('*/campaign.json'))
+          if len(plans) != 1:
+              raise SystemExit(f'expected one campaign, found {len(plans)}')
+          campaign = json.loads(plans[0].read_text(encoding='utf-8'))
+          expected = [27,28,29,30,31,32,34,35,36,37,39,40,41,42,44,45,47,50,51,52,53,54,55,56,58,59,60,61,62,63,64,65,67,68,69,70,71,72,74,75,76,77,78,79,80,81,82,83,84,86]
+          if campaign['scope']['chapter_ids'] != expected:
+              raise SystemExit('selected scope mismatch')
+          if campaign['plan']['chapters_considered'] != 50:
+              raise SystemExit('expected exactly 50 selected chapters')
+          print(f"Selected {len(expected)} Showcase-visible chapters; {campaign['plan']['scenes_considered']} scenes; {campaign['plan']['packets_planned']} packets; {campaign['plan']['cache_hits']} cache hits")
+          PY
+
+      - name: Validate performed results and run reducer
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from scripts import performance_campaign as campaign
+          from scripts import performance_production_funnel as funnel
+
+          source = Path('state/editorial/performance-production/showcase-next-50-results.jsonl')
+          rows = [json.loads(line) for line in source.read_text(encoding='utf-8').splitlines() if line.strip()]
+          if len(rows) != 50:
+              raise SystemExit(f'expected 50 performed results, found {len(rows)}')
+          for row in rows:
+              funnel.validate_comparison(row['comparison'])
+              funnel.validate_record(row['record'])
+          roots = list(Path('.cache/plg/campaigns').glob('*'))
+          if len(roots) != 1:
+              raise SystemExit(f'expected one campaign root, found {len(roots)}')
+          root = roots[0]
+          campaign._write_jsonl(root / 'results.jsonl', rows)
+          summary = campaign.reduce_campaign(root)
+          expected = {
+              'results': 50,
+              'source_wins': 48,
+              'performance_candidates': 2,
+              'ambiguous': 0,
+              'surviving_patches': 1,
+              'failures': 0,
+          }
+          for key, value in expected.items():
+              if summary.get(key) != value:
+                  raise SystemExit(f'{key}: expected {value}, got {summary.get(key)}')
+          Path('.cache/plg/trial/reducer-summary.json').write_text(
+              json.dumps(summary, ensure_ascii=False, indent=2), encoding='utf-8'
+          )
+          print(json.dumps(summary, indent=2))
+          PY
+
+      - name: Dry-run serialized canon integration
+        run: |
+          rm -rf .cache/plg/integration-chapters
+          cp -R chapters .cache/plg/integration-chapters
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          from scripts import performance_campaign as campaign
+
+          roots = list(Path('.cache/plg/campaigns').glob('*'))
+          result = campaign.integrate_campaign(
+              roots[0],
+              Path('.cache/plg/integration-chapters'),
+              current_authority=os.environ['SOURCE_AUTHORITY'],
+          )
+          changed = [Path(value).name for value in result['changed']]
+          if changed != ['072.html']:
+              raise SystemExit(f'expected only 072.html to change, got {changed}')
+          if result['survivors'] != 1:
+              raise SystemExit(f"expected one survivor, got {result['survivors']}")
+          Path('.cache/plg/trial/integration-result.json').write_text(
+              json.dumps(result, ensure_ascii=False, indent=2), encoding='utf-8'
+          )
+          print(json.dumps(result, indent=2))
+          PY
+
+      - name: Upload disposable campaign packets and results
+        uses: actions/upload-artifact@v4
+        with:
+          name: reverse-edit-showcase-next-50-packets
+          path: .cache/plg
+          if-no-files-found: error
+          retention-days: 7

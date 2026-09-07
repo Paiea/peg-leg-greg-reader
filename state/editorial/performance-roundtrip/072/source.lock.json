@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "authority": "derived_editorial_reference",
+  "canon_authority": false,
+  "canon_chapter": 72,
+  "source_path": "chapters/072.html",
+  "source_chapter_blob": "b144df1dfed2500ebbc8d9da4274142e762b1912",
+  "source_authority_commit": "8882d672bbc4c7fbdfcfd2f6dfd5ea9a09646420",
+  "displayed_showcase_chapter": 58,
+  "resulting_canon_commit": "6c8d77ddc0c034ee5492876967a88ed1b26efa05",
+  "result_scene_anchors": [
+    "At Guild, Sera checked the wound. Still improving. No increased drainage after yesterday's work. No fever. Swelling a little worse by evening yesterday, reduced after rest. Expected.",
+    "The Guild did not have four. But Sera took me to a side entrance with five shallow steps and a proper rail. New environment. Good."
+  ]
+}
