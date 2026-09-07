@@ -15,6 +15,19 @@ class PerformanceCampaignTests(unittest.TestCase):
         (chapters / "002.html").write_text('<article class="prose"><p>Antonius closed the door.</p></article>', encoding="utf-8")
         return chapters
 
+    @staticmethod
+    def _survivor(chapter: int, start: str, end: str, replacement: list[str]) -> dict:
+        return {
+            "chapter": chapter,
+            "verdict": "change_survives",
+            "screen": {"decision": "deep_review", "signals": ["test"], "reason": "Test survivor."},
+            "dramatic": "Locked dramatic truth.",
+            "performance": "Performed result.",
+            "screenplay": "Performed script.",
+            "comparison": "Performance earns this bounded change.",
+            "patches": [{"start": start, "end": end, "replacement": replacement, "rationale": "Test patch."}],
+        }
+
     def test_plan_compiles_range_without_mutating_canon_and_creates_scene_packets(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
@@ -97,6 +110,33 @@ class PerformanceCampaignTests(unittest.TestCase):
             (campaign_root / "results.jsonl").write_text("", encoding="utf-8")
             with self.assertRaisesRegex(ValueError, "authority drift"):
                 performance_campaign.integrate_campaign(campaign_root, chapters, current_authority="newsha")
+
+    def test_overlapping_survivors_fail_before_canon_mutation(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            chapters = root / "chapters"
+            chapters.mkdir()
+            chapter = chapters / "001.html"
+            chapter.write_text('<article class="prose"><p>A.</p><p>B.</p><p>C.</p></article>', encoding="utf-8")
+            before = chapter.read_bytes()
+            campaign_root = root / "campaign"
+            campaign_root.mkdir()
+            (campaign_root / "campaign.json").write_text(json.dumps({
+                "schema": "performance_campaign/v1",
+                "campaign_id": "overlap",
+                "task": "reverse_edit",
+                "source_authority": "same-sha",
+                "scope": {"chapters": {"start": 1, "end": 1}},
+                "execution": {"profile": "eco", "executor": "manual"},
+            }), encoding="utf-8")
+            rows = [
+                {"packet_id": "001.s010:x", "scene_id": "001.s010", "status": "completed", "record": self._survivor(1, "A.", "B.", ["AB."])},
+                {"packet_id": "001.s020:x", "scene_id": "001.s020", "status": "completed", "record": self._survivor(1, "B.", "C.", ["BC."])},
+            ]
+            (campaign_root / "results.jsonl").write_text("".join(json.dumps(row) + "\n" for row in rows), encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "overlapping"):
+                performance_campaign.integrate_campaign(campaign_root, chapters, current_authority="same-sha")
+            self.assertEqual(before, chapter.read_bytes())
 
 
 if __name__ == "__main__":
