@@ -128,7 +128,7 @@ class StoryRehearsalOrchestratorTests(unittest.TestCase):
         result = {
             "schema": rehearsal.REHEARSAL_RESULT_SCHEMA,
             "target_id": "first-bargain-probe",
-            "source_act": "act-i",
+            "source_act": "act-ii",
             "experiment_mode": "development_rehearsal",
             "heat": "development",
             "outcome": "support",
@@ -136,7 +136,7 @@ class StoryRehearsalOrchestratorTests(unittest.TestCase):
             "confidence": 0.68,
             "independent_group": "first-bargain-variance-1",
             "dramatic_uses": ["plot", "world", "relationship"],
-            "regions": ["act-i", "act-iii"],
+            "regions": ["act-i", "act-ii", "act-iii"],
             "provenance": "rehearsal:first-bargain:development-1",
             "transcript": "This should not remain in compact hot evidence.",
             "behavior_discovered": ["He asks what accepting the gift commits him to."],
