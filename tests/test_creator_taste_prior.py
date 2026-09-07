@@ -1,13 +1,15 @@
 import copy
 import unittest
 
+from scripts import creator_taste_prior as taste
+from scripts import plg_ai_tools
 from scripts import story_sync_engine as sync
 
 
 class CreatorTastePriorTests(unittest.TestCase):
     def _prior(self):
         return {
-            "schema": sync.CREATOR_TASTE_SCHEMA,
+            "schema": taste.CREATOR_TASTE_SCHEMA,
             "preferences": [
                 {
                     "id": "project.consequence-dense",
@@ -74,34 +76,30 @@ class CreatorTastePriorTests(unittest.TestCase):
 
     def test_taste_prior_cannot_change_discovery_authority_or_branch_action(self):
         state = self._state()
-        without = copy.deepcopy(state)
-        without.pop("creator_taste_prior")
+        core_state = copy.deepcopy(state)
+        core_state.pop("creator_taste_prior")
+        core_report = sync.sync_story(core_state)
+        wrapped = plg_ai_tools.sync_story({"state": state})
 
-        report_with = sync.sync_story(state)
-        report_without = sync.sync_story(without)
-
-        self.assertEqual(report_without["discovery_levels"], report_with["discovery_levels"])
-        self.assertEqual(report_without["branches_killed"], report_with["branches_killed"])
-        self.assertEqual(report_without["branches_preserved"], report_with["branches_preserved"])
-        self.assertEqual("heuristic_only_no_story_authority", report_with["creator_taste"]["authority_effect"])
+        self.assertEqual(core_report["discovery_levels"], wrapped["discovery_levels"])
+        self.assertEqual(core_report["branches_killed"], wrapped["branches_killed"])
+        self.assertEqual(core_report["branches_preserved"], wrapped["branches_preserved"])
+        self.assertEqual("heuristic_only_no_story_authority", wrapped["creator_taste"]["authority_effect"])
 
     def test_project_specific_alignment_has_more_search_weight_than_cross_project(self):
         prior = self._prior()
         project = {"taste_alignment": ["project.consequence-dense"]}
         cross = {"taste_alignment": ["cross.hidden-life"]}
-        self.assertGreater(
-            sync.creator_taste_affinity(project, prior),
-            sync.creator_taste_affinity(cross, prior),
-        )
+        self.assertGreater(taste.creator_taste_affinity(project, prior), taste.creator_taste_affinity(cross, prior))
 
     def test_compare_phase_preserves_one_creator_surprise_rehearsal_target(self):
-        report = sync.sync_story(self._state())
+        report = plg_ai_tools.sync_story({"state": self._state()})
         targets = [item for item in report["rehearsal_targets"] if item.get("purpose") == "creator_surprise_probe"]
         self.assertEqual(1, len(targets))
         self.assertEqual("surprise", targets[0]["source_id"])
 
     def test_creator_likely_branch_is_a_rehearsal_hint_not_a_winner(self):
-        report = sync.sync_story(self._state())
+        report = plg_ai_tools.sync_story({"state": self._state()})
         likely = [item for item in report["rehearsal_targets"] if item.get("purpose") == "creator_likely_probe"]
         self.assertEqual(["likely"], [item["source_id"] for item in likely])
         self.assertNotIn("selected_branch", report)
@@ -109,18 +107,18 @@ class CreatorTastePriorTests(unittest.TestCase):
 
     def test_taste_pressure_does_not_increase_during_convergence(self):
         state = self._state()
-        compare_report = sync.sync_story(state)
+        compare_report = plg_ai_tools.sync_story({"state": state})
         state["story_confidence"] = 0.9
-        converge_report = sync.sync_story(state)
+        converge_report = plg_ai_tools.sync_story({"state": state})
 
         compare_hints = [item for item in compare_report["rehearsal_targets"] if item.get("source_type") == "creator_taste"]
         converge_hints = [item for item in converge_report["rehearsal_targets"] if item.get("source_type") == "creator_taste"]
-        self.assertGreaterEqual(len(compare_hints), len(converge_hints))
+        self.assertGreater(len(compare_hints), 0)
         self.assertEqual([], converge_hints)
 
     def test_record_surprise_win_preserves_context_instead_of_flipping_absolute_preference(self):
         prior = self._prior()
-        updated = sync.record_creator_surprise_win(
+        updated = taste.record_creator_surprise_win(
             prior,
             decision_id="creator.choice.27",
             chosen_branch="delayed-disclosure",
@@ -137,7 +135,7 @@ class CreatorTastePriorTests(unittest.TestCase):
 
     def test_single_supporting_decision_cannot_create_high_confidence_preference(self):
         prior = {
-            "schema": sync.CREATOR_TASTE_SCHEMA,
+            "schema": taste.CREATOR_TASTE_SCHEMA,
             "preferences": [
                 {
                     "id": "too-certain",
@@ -152,7 +150,7 @@ class CreatorTastePriorTests(unittest.TestCase):
             "surprise_wins": [],
         }
         with self.assertRaisesRegex(ValueError, "multiple supporting decisions"):
-            sync.validate_creator_taste_prior(prior)
+            taste.validate_creator_taste_prior(prior)
 
 
 if __name__ == "__main__":
