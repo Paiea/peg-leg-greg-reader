@@ -12,8 +12,8 @@ on:
       - 'tests/test_creator_taste_prior.py'
       - 'tests/test_persistent_act_runtime.py'
       - 'tests/test_plg_ai_tools.py'
-      - 'state/experiments/dragon-spotter/story-sync/**'
-      - 'state/experiments/dragon-spotter/persistent-act-runtime/**'
+      - 'state/experiments/**/story-sync/**'
+      - 'state/experiments/**/persistent-act-runtime/**'
       - 'state/story-compiler/**'
       - '.github/workflows/story-sync-validation.yml'
   workflow_dispatch:
@@ -32,6 +32,10 @@ jobs:
             tests.test_story_sync_engine \
             tests.test_story_sync_rehearsal_bridge \
             tests.test_story_sync_report_evidence \
+            tests.test_story_sync_persistent_rehearsal_cycle \
+            tests.test_story_sync_persistent_evidence_update \
+            tests.test_story_sync_project_runtime_fixtures \
+            tests.test_story_sync_plg_runtime_cycle \
             tests.test_creator_taste_prior \
             tests.test_persistent_act_runtime \
             tests.test_story_rehearsal_orchestrator \
