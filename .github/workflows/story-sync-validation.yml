@@ -4,11 +4,14 @@ on:
   pull_request:
     paths:
       - 'scripts/story_sync_engine.py'
+      - 'scripts/persistent_act_runtime.py'
       - 'scripts/plg_ai_tools.py'
       - 'tests/test_story_sync_*.py'
       - 'tests/test_creator_taste_prior.py'
+      - 'tests/test_persistent_act_runtime.py'
       - 'tests/test_plg_ai_tools.py'
       - 'state/experiments/dragon-spotter/story-sync/**'
+      - 'state/experiments/dragon-spotter/persistent-act-runtime/**'
       - '.github/workflows/story-sync-validation.yml'
   workflow_dispatch:
 
@@ -27,6 +30,7 @@ jobs:
             tests.test_story_sync_rehearsal_bridge \
             tests.test_story_sync_report_evidence \
             tests.test_creator_taste_prior \
+            tests.test_persistent_act_runtime \
             tests.test_plg_ai_tools
       - name: Full repository unit suite
         run: python -m unittest discover -s tests -p 'test_*.py'
