@@ -30,6 +30,8 @@ Do not overcorrect by making Greg constantly announce that he already knows thin
 
 Practical noticing. Systems-minded curiosity. Dry or situational humor without every line becoming a bit. Willingness to think through a problem, but evidence can outrun or correct his first theory.
 
+Sentence length is not a fixed Greg fingerprint. When he follows one continuous system, causal chain, physical process, or practical observation, let the thought take a shaped sentence if that reads more naturally. Fragmentation should increase because pressure, impact, comedy, realization, uncertainty, deliberate withholding, or another real behavioral reason earns the stop, not because `short = Greg`.
+
 ### Current development
 
 Increasingly embedded in theatre as a worker and performer. Acting corrections should continue to feel earned and specific rather than like a sudden skill unlock.
@@ -176,3 +178,7 @@ Research-supported possibilities such as earned shorthand, distinct note-recepti
 ## Maintenance
 
 When a relationship or character changes durably, record the new state compactly. Useful fields: role; voice/behavioral texture; wants/pressures; competencies/limitations; relationship to Greg; recent development; unresolved tension; visual continuity; do-not-flatten warning.
+
+Treat verbal space as dynamic rather than a permanent diction setting. Record how relationship, current state, scene pressure, and domain ownership change how much language a character naturally uses; avoid durable rules such as `always terse` or `always verbose` unless canon truly establishes them.
+
+Successful PERFORMANCE round trips may suggest durable behavioral patterns, but promote a pattern into this file only when repeated current canon evidence supports it. A single successful scene remains episodic evidence, not a new character rule.
