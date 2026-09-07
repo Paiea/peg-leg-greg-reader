@@ -1,0 +1,261 @@
+name: REHEARSAL campaign queue
+
+on:
+  push:
+    branches:
+      - editor/rehearsal-simulation-engine
+    paths:
+      - 'state/editorial/rehearsal/queue/current-worker-result.json'
+  workflow_dispatch:
+    inputs:
+      worker_result_path:
+        description: 'Schema-bound worker result path'
+        required: false
+        default: 'state/editorial/rehearsal/queue/current-worker-result.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rehearsal-campaign-queue-editor-rehearsal-simulation-engine
+  cancel-in-progress: false
+
+env:
+  QUEUE_STATE: state/editorial/rehearsal/queue/canon-061-491.json
+  DEFAULT_WORKER_RESULT: state/editorial/rehearsal/queue/current-worker-result.json
+  COMPILED_MANIFEST: state/editorial/rehearsal/queue/current-returns.json
+  COMPILE_SUMMARY: state/editorial/rehearsal/queue/current-compile-summary.json
+  APPLY_REPORT: state/editorial/rehearsal/queue/current-apply-report.json
+
+jobs:
+  integrate-one-batch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: editor/rehearsal-simulation-engine
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Resolve worker result
+        id: worker
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            path='${{ inputs.worker_result_path }}'
+          else
+            path="$DEFAULT_WORKER_RESULT"
+          fi
+          test -f "$path"
+          echo "path=$path" >> "$GITHUB_OUTPUT"
+
+      - name: Validate queue claim and source authority
+        id: claim
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+          from scripts import rehearsal_campaign_queue as queue
+
+          queue_path = Path('state/editorial/rehearsal/queue/canon-061-491.json')
+          worker_path = Path('${{ steps.worker.outputs.path }}')
+          state = queue.load_state(queue_path)
+          result = json.loads(worker_path.read_text(encoding='utf-8'))
+          batch = result['batch']
+          current = queue.current_unsettled(state)
+          if current is None:
+              raise SystemExit('queue already complete')
+          if (batch.get('start'), batch.get('end')) != (current['start'], current['end']):
+              raise SystemExit(f"worker batch does not match queue edge: worker={batch.get('start')}-{batch.get('end')} queue={current['start']}-{current['end']}")
+          source = batch.get('source_authority')
+          if not source:
+              raise SystemExit('worker result source authority missing')
+          subprocess.run(['git', 'cat-file', '-e', f'{source}^{{commit}}'], check=True)
+          chapter_paths = [f'chapters/{n:03d}.html' for n in range(current['start'], current['end'] + 1)]
+          changed = subprocess.run(['git', 'diff', '--quiet', source, 'HEAD', '--', *chapter_paths])
+          if changed.returncode != 0:
+              raise SystemExit('claimed batch prose changed after worker source authority')
+          if current['status'] == 'pending':
+              queue.claim_next(state, source)
+              queue.save_state(queue_path, state)
+          elif current['status'] == 'running':
+              if current.get('source_authority') != source:
+                  raise SystemExit('running queue claim has different source authority')
+          else:
+              raise SystemExit(f"queue edge is not runnable: {current['status']}")
+          print(f"claimed {current['start']:03d}-{current['end']:03d} at {source}")
+          PY
+
+      - name: Compile literal exact-source returns
+        run: |
+          python scripts/compile_rehearsal_campaign_returns.py \
+            --worker-result '${{ steps.worker.outputs.path }}' \
+            --manifest "$COMPILED_MANIFEST" \
+            --summary "$COMPILE_SUMMARY"
+
+      - name: Read compile result
+        id: compiled
+        shell: bash
+        run: |
+          result=$(python -c "import json; print(json.load(open('$COMPILE_SUMMARY'))['result'])")
+          echo "result=$result" >> "$GITHUB_OUTPUT"
+
+      - name: Dry-run all exact FREE returns
+        if: steps.compiled.outputs.result == 'returns'
+        run: |
+          python scripts/apply_rehearsal_returns.py \
+            --manifest "$COMPILED_MANIFEST" \
+            --report "$APPLY_REPORT"
+
+      - name: Apply validated FREE returns
+        if: steps.compiled.outputs.result == 'returns'
+        run: |
+          python scripts/apply_rehearsal_returns.py \
+            --manifest "$COMPILED_MANIFEST" \
+            --report "$APPLY_REPORT" \
+            --write
+
+      - name: Verify return diff boundaries
+        if: steps.compiled.outputs.result == 'returns'
+        run: |
+          python - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+          manifest = json.loads(Path('state/editorial/rehearsal/queue/current-returns.json').read_text())
+          report = json.loads(Path('state/editorial/rehearsal/queue/current-apply-report.json').read_text())
+          expected = sorted({p['chapter'] for p in manifest['patches']})
+          if report['patches_applied'] != len(manifest['patches']):
+              raise SystemExit('patch count mismatch')
+          if report['changed_chapters'] != expected:
+              raise SystemExit('chapter boundary mismatch')
+          allowed = {f'chapters/{c:03d}.html' for c in expected}
+          allowed |= {
+              'state/editorial/rehearsal/queue/canon-061-491.json',
+              'state/editorial/rehearsal/queue/current-returns.json',
+              'state/editorial/rehearsal/queue/current-compile-summary.json',
+              'state/editorial/rehearsal/queue/current-apply-report.json',
+          }
+          changed = set(subprocess.check_output(['git', 'diff', '--name-only'], text=True).split())
+          unexpected = changed - allowed
+          if unexpected:
+              raise SystemExit('unexpected generated files: ' + ', '.join(sorted(unexpected)))
+          missing = {f'chapters/{c:03d}.html' for c in expected} - changed
+          if missing:
+              raise SystemExit('expected chapter rewrite missing: ' + ', '.join(sorted(missing)))
+          print('FREE return diff boundary verified')
+          PY
+
+      - name: Reject hard-surface leakage and em dashes
+        if: steps.compiled.outputs.result == 'returns'
+        run: |
+          python - <<'PY'
+          import json, re
+          from pathlib import Path
+          manifest = json.loads(Path('state/editorial/rehearsal/queue/current-returns.json').read_text())
+          hard = {'plot','facts','knowledge','causality','major_relationship_state','physical_state','chronology','economics','earned_competence','injury_state','mystery_state'}
+          for patch in manifest['patches']:
+              overlap = hard.intersection(patch['changed_surfaces'])
+              if overlap:
+                  raise SystemExit(f"hard surface leaked into {patch['id']}: {sorted(overlap)}")
+          for chapter in sorted({p['chapter'] for p in manifest['patches']}):
+              text = Path(f'chapters/{chapter:03d}.html').read_text(encoding='utf-8')
+              article = text.split('<article class="prose">', 1)[1].split('</article>', 1)[0]
+              if '—' in re.sub(r'<[^>]+>', '', article):
+                  raise SystemExit(f'em dash in prose: {chapter}')
+          print('Hard-surface and no-em-dash checks passed.')
+          PY
+
+      - name: Full repository validation
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py'
+          python scripts/performance_roundtrip_references.py --check
+          python scripts/project_check.py showcase
+          git diff --check
+
+      - name: Commit validated batch artifacts and prose
+        id: prose_commit
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if [ '${{ steps.compiled.outputs.result }}' = 'returns' ]; then
+            python - <<'PY' > /tmp/rehearsal-batch-files.txt
+          import json
+          from pathlib import Path
+          manifest = json.loads(Path('state/editorial/rehearsal/queue/current-returns.json').read_text())
+          for chapter in sorted({p['chapter'] for p in manifest['patches']}):
+              print(f'chapters/{chapter:03d}.html')
+          print('state/editorial/rehearsal/queue/current-returns.json')
+          print('state/editorial/rehearsal/queue/current-compile-summary.json')
+          print('state/editorial/rehearsal/queue/current-apply-report.json')
+          PY
+            mapfile -t files < /tmp/rehearsal-batch-files.txt
+            git add -- "${files[@]}"
+            if ! git diff --cached --quiet; then
+              git commit -m 'Apply autonomous FREE REHEARSAL batch'
+              git push origin HEAD:editor/rehearsal-simulation-engine
+            fi
+            settled=$(git rev-parse HEAD)
+          else
+            settled=$(python -c "import json; print(json.load(open('${{ steps.worker.outputs.path }}'))['batch']['source_authority'])")
+            git add "$COMPILE_SUMMARY"
+            if ! git diff --cached --quiet; then
+              git commit -m 'Record autonomous REHEARSAL source win'
+              git push origin HEAD:editor/rehearsal-simulation-engine
+            fi
+          fi
+          echo "settled_authority=$settled" >> "$GITHUB_OUTPUT"
+
+      - name: Settle queue only after validation
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from scripts import rehearsal_campaign_queue as queue
+          state_path = Path('state/editorial/rehearsal/queue/canon-061-491.json')
+          state = queue.load_state(state_path)
+          worker = json.loads(Path('${{ steps.worker.outputs.path }}').read_text(encoding='utf-8'))
+          source = worker['batch']['source_authority']
+          result = '${{ steps.compiled.outputs.result }}'
+          queue.settle_current(
+              state,
+              source,
+              '${{ steps.prose_commit.outputs.settled_authority }}',
+              'applied' if result == 'returns' else 'source_win',
+              manifest_path='state/editorial/rehearsal/queue/current-returns.json' if result == 'returns' else None,
+              report_path='state/editorial/rehearsal/queue/current-apply-report.json' if result == 'returns' else 'state/editorial/rehearsal/queue/current-compile-summary.json',
+              validation='green',
+          )
+          queue.save_state(state_path, state)
+          PY
+          git add "$QUEUE_STATE"
+          git commit -m 'Advance autonomous REHEARSAL queue'
+          git push origin HEAD:editor/rehearsal-simulation-engine
+
+      - name: Block queue on failure
+        if: failure()
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          python - <<'PY'
+          from pathlib import Path
+          from scripts import rehearsal_campaign_queue as queue
+          path = Path('state/editorial/rehearsal/queue/canon-061-491.json')
+          state = queue.load_state(path)
+          current = queue.current_unsettled(state)
+          if current is not None and current['status'] == 'running':
+              queue.block_current(state, 'integration workflow failure', retryable=False)
+              queue.save_state(path, state)
+          PY
+          git add "$QUEUE_STATE"
+          if ! git diff --cached --quiet; then
+            git commit -m 'Block autonomous REHEARSAL queue after failure'
+            git push origin HEAD:editor/rehearsal-simulation-engine
+          fi
