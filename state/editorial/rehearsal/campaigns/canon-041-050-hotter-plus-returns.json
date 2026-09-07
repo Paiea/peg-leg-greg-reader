@@ -38,7 +38,7 @@
       "reason": "Lessa's relief should return her to the yard record she owns. The task continuation carries the emotional change more specifically than a narrated facial state."
     },
     {
-      "id": "c043-arlo-duplicate-exchange-hotter-plus-01",
+      "id": "c043-arlo-entry-movement-hotter-plus-01a",
       "chapter": 43,
       "actor": "Rowan",
       "role": "Arlo",
@@ -48,10 +48,26 @@
       "actor_prefers": true,
       "dramatic_lock_status": "preserved",
       "reader_check": "pass",
-      "changed_surfaces": ["dialogue", "movement", "interaction_timing", "paragraphing", "local_exchange_shape"],
-      "before": "<p>Arlo was at the ceramic bench. He looked up. Looked at the sack. Then at me.</p><p>“What grade?” Arlo asked.</p><p>“Dorrin sorted visible quality. Not reaction sorted.”</p><p>He looked at the sack again.</p><p>“Why did you buy twenty pounds?”</p><p>“I have material.”</p><p>“Free material.”</p><p>Arlo paused. Better.</p>",
+      "changed_surfaces": ["movement", "reaction_placement", "interaction_timing"],
+      "before": "<p>Arlo was at the ceramic bench. He looked up. Looked at the sack. Then at me.</p>",
       "after": "<p>Arlo was at the ceramic bench. He looked up at the sack, then at me.</p>",
-      "reason": "The source accidentally begins Arlo's grade-and-purpose interrogation twice. Hotter rehearsal removes the redundant first pass and leaves the second clipped exchange as the scene's performed version."
+      "reason": "Arlo's attention is on the material first. The movement should read as one object-first beat rather than three generic look sentences."
+    },
+    {
+      "id": "c043-arlo-duplicate-exchange-hotter-plus-01b",
+      "chapter": 43,
+      "actor": "Rowan",
+      "role": "Arlo",
+      "supporting_actors": ["Nico as Greg", "Vessa"],
+      "take_id": "043-free-hotter-plus-a",
+      "variance_group_id": null,
+      "actor_prefers": true,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "changed_surfaces": ["dialogue", "interaction_timing", "paragraphing", "local_exchange_shape"],
+      "before": "<p>“What grade?” Arlo asked.</p><p>“Dorrin sorted visible quality. Not reaction sorted.”</p><p>He looked at the sack again.</p><p>“Why did you buy twenty pounds?”</p><p>“I have material.”</p><p>“Free material.”</p><p>Arlo paused. Better.</p>",
+      "after": "<p>Arlo waited.</p>",
+      "reason": "The source begins the grade-and-purpose interrogation twice. Remove the redundant first pass and let the second clipped exchange carry Arlo's performed rhythm."
     },
     {
       "id": "c044-hessa-next-question-hotter-plus-01",
