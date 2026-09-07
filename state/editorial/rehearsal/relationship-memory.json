@@ -133,6 +133,42 @@
         }
       ],
       "hypothesis": []
+    },
+    "Greg::Antonius": {
+      "supported": [
+        {
+          "value": "When Antonius catches Greg exposing knowledge or confidence he cannot safely explain, Greg may deliberately alter his outward social performance while privately tracking the information risk and the transaction.",
+          "source_type": "accepted_prose",
+          "source": "chapters/002.html",
+          "kind": "behavior_under_conditions",
+          "pressure_tags": ["knowledge_leak", "status_negotiation", "self_concealment"]
+        }
+      ],
+      "hypothesis": []
+    },
+    "Greg::Arlo": {
+      "supported": [
+        {
+          "value": "When future knowledge tempts Greg to turn Arlo into a role, asset, or historical outcome, Greg can notice the abstraction in real time and return attention to Arlo's present work, ownership, and personhood.",
+          "source_type": "accepted_prose",
+          "source": "chapters/003.html;chapters/013.html",
+          "kind": "behavior_under_conditions",
+          "pressure_tags": ["future_projection", "work_ownership", "relationship_asymmetry"]
+        }
+      ],
+      "hypothesis": []
+    },
+    "Greg::Alden": {
+      "supported": [
+        {
+          "value": "When future-memory recognition around Alden is incomplete, Greg's cognition arrives as song rhythm, images, missing words, wrong associations, and hypotheses, while he repeatedly returns to the young man and observable behavior actually present.",
+          "source_type": "accepted_prose",
+          "source": "chapters/015.html;chapters/016.html;chapters/017.html",
+          "kind": "behavior_under_conditions",
+          "pressure_tags": ["future_memory_ambiguity", "new_relationship", "epistemic_uncertainty"]
+        }
+      ],
+      "hypothesis": []
     }
   }
 }
