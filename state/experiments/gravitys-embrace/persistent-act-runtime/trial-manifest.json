@@ -1,0 +1,36 @@
+{
+  "schema": "persistent_story_trial_manifest/v1",
+  "project": "gravitys-embrace",
+  "runtime": "runtime-initial.json",
+  "creator_taste": "CREATOR_AUDIENCE_CONTEXT.json",
+  "evidence": "rehearsal-evidence-cycle-001.json",
+  "expected": {
+    "act_count": 4,
+    "authority_effect": "derived_only_no_canon_mutation",
+    "initial": {
+      "required_experiment_modes": [
+        "plausibility_probe",
+        "state_transition_test",
+        "forward_consequence_test",
+        "backward_prerequisite_test",
+        "temporal_distance_rehearsal",
+        "performance"
+      ],
+      "required_fidelities": [
+        "probe",
+        "development",
+        "high_heat"
+      ],
+      "max_story_truths": 0
+    },
+    "after_evidence": {
+      "max_story_truths": 0,
+      "max_open_branch_delta": -1,
+      "discovery_levels": {
+        "survival-enables-offense": "strong_thread",
+        "mechanics-can-carry-trust": "speculation"
+      }
+    }
+  },
+  "authority_effect": "project_local_fixture_expectations_no_story_authority"
+}
