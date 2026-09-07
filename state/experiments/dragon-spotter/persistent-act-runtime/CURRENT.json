@@ -4,8 +4,8 @@
   "authority": "derived_experimental_not_story_canon",
   "architecture_branch": "architecture/long-form-story-compiler",
   "pull_request": 161,
-  "cycle": 4,
-  "cycle_status": "green_observed_candidate_passable_low_novelty_branch_discrimination_open",
+  "cycle": 5,
+  "cycle_status": "green_observed_candidate_passable_motivations_discriminated_final_adversarial_next",
   "public_entry_point": "plg_ai_tools.run_story_rehearsal_cycle",
   "source_inputs": {
     "runtime": "state/experiments/dragon-spotter/persistent-act-runtime/runtime-input.json",
@@ -13,18 +13,19 @@
     "cycle_2_rehearsal_evidence": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-2-directional-evidence.json",
     "cycle_3_rehearsal_evidence": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-3-boundary-evidence.json",
     "cycle_4_rehearsal_evidence": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-4-adversarial-evidence.json",
-    "cycle_4_branch_comparisons": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-4-branch-comparisons.json",
-    "cycle_4_relationship_performance": "state/experiments/dragon-spotter/story-sync/cycle-4-relationship-adversarial-performance.json",
+    "cycle_5_motivational_experiments": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-5-motivational-experiments.json",
+    "cycle_5_rehearsal_evidence": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-5-motivational-evidence.json",
     "creator_taste": "state/experiments/dragon-spotter/persistent-act-runtime/creator-taste-context.json"
   },
   "verification": {
-    "checkpoint_commit": "1b72bec1fc27593bcc7f4eeb1700f336aa4c49b4",
-    "workflow_run": 34139393898,
+    "checkpoint_commit": "a737b86f9edc774225087bce888bd601e9293ede",
+    "workflow_run": 34140034340,
     "focused_suite": {"tests": 72, "result": "green"},
-    "full_repository_suite": {"tests": 530, "skipped": 6, "result": "green"},
-    "ci_authority": "read_only_validation"
+    "full_repository_suite": {"tests": 531, "skipped": 6, "result": "green"},
+    "ci_authority": "read_only_validation",
+    "concurrent_gravity_work_preserved": true
   },
-  "cycle_3_baseline": {
+  "cycle_4_baseline": {
     "target_count": 12,
     "boundary_contradiction_count": 0,
     "unresolved_message_count": 0,
@@ -32,13 +33,12 @@
     "trajectory_status": "candidate_passable",
     "open_branch_count": 11,
     "story_truths": ["mutual-indispensability"],
-    "strong_threads": ["gift-reciprocity", "heat-through-competence", "improvisation-is-competence-path"],
-    "repeated_signals": [],
-    "relationship_third_path_maturity": "speculation"
+    "strong_threads": ["gift-reciprocity", "heat-through-competence", "improvisation-is-competence-path", "operational-reliance-before-personal-trust"],
+    "unresolved_contradictions": ["ending-office-role", "first-gift-form"]
   },
   "observed": {
     "target_count_before": 12,
-    "target_count_after": 12,
+    "target_count_after": 11,
     "boundary_contradiction_count": 0,
     "unresolved_message_count": 0,
     "open_temporal_pressure": 0,
@@ -47,7 +47,7 @@
     "open_branch_count_after": 11,
     "open_branch_delta": 0,
     "branches_weakened_or_superseded": [],
-    "branches_preserved": [
+    "branches_preserved_in_runtime_authority": [
       "first-bargain.land-restoration",
       "first-bargain.relic-restitution",
       "gift.coin",
@@ -55,77 +55,83 @@
       "ending.crown-spotter",
       "ending.dragon-envoy"
     ],
+    "new_third_paths": ["recognized-cross-polity-mandate"],
     "story_truths": ["mutual-indispensability"],
-    "strong_threads": ["gift-reciprocity", "heat-through-competence", "improvisation-is-competence-path"],
+    "strong_threads": ["gift-reciprocity", "heat-through-competence", "improvisation-is-competence-path", "operational-reliance-before-personal-trust"],
     "repeated_signals": [],
-    "speculations_of_current_interest": ["operational-reliance-before-personal-trust"],
-    "relationship_third_path": {
-      "maturity": "speculation",
-      "independent_evidence_groups": 2,
-      "support_groups": 1,
-      "challenge_survived_groups": 1,
-      "cycle_4_result": "survived_downstream_adversarial_pressure_without_broad_personal_trust",
-      "strongest_take": "bounded-trust-under-withheld-motive",
-      "failure_take_preserved": true,
-      "asymmetric_take_preserved": true,
-      "broad_personal_or_romantic_trust_required": false
+    "motivational_discoveries": {
+      "first-dragon-wants-voluntary-repair": {
+        "maturity": "speculation",
+        "finding": "The first dragon appears to want restoration of reciprocal standing through a costly voluntary human act. Land or relic gives the repair something concrete to cost; possession alone does not explain negotiation."
+      },
+      "legitimacy-as-usable-authority": {
+        "maturity": "speculation",
+        "finding": "Greg appears to want legitimacy instrumentally: enough authority, access, and protection to mediate between humans and dragons and make negotiated commitments stick, without pretending institutional approval created his competence."
+      }
     },
     "first_gift_form": {
-      "status": "unresolved_sharpened",
-      "material_coin_path": "stronger_material_ownership_and_mercenary_consequences",
-      "scale_token_path": "stronger_ambiguous_recognition_and_diplomatic_interpretation",
-      "discriminating_evidence_needed": "resolve_first_dragon_concrete_want_and_test_which_gift_naturally_follows_without_duplicate_story_work",
-      "branch_authority_change": false
+      "story_sync_status": "unresolved_but_materially_discriminated",
+      "gift_coin": "favored_by_cycle_5_causal_evidence",
+      "gift_scale_token": "weakened_by_cycle_5_reasoning_but_not_mutated_in_shared_branch_authority",
+      "reason": "Once the dragon's underlying want is voluntary repair of reciprocal standing, the reciprocal gift need not mirror land or relic. Material treasure preserves the value-versus-obligation misread and mercenary/political consequences; a recognition-coded scale token risks duplicating later behavior-earned dragon recognition and credentialing Greg too early.",
+      "land_restoration": "preserved",
+      "relic_restitution": "preserved",
+      "remaining_issue": "land versus relic is now a concrete grievance choice rather than the causal discriminator for gift form"
     },
     "ending_office_role": {
-      "status": "unresolved_sharpened",
-      "crown_spotter_path": "institutional_incorporation_of_office_remade_by_lived_competence",
-      "dragon_envoy_path": "cross_polity_legitimacy_not_fully_owned_by_crown",
-      "discriminating_evidence_needed": "final_political_bargain_and_greg_relationship_to_incorporation",
-      "branches_are_merely_labels": false,
-      "branch_authority_change": false
+      "story_sync_status": "unresolved_but_materially_discriminated",
+      "crown_spotter": "weakened_as_sole_final_identity_but_not_mutated_in_shared_branch_authority",
+      "dragon_envoy": "favored_as_trajectory_without_title_lock",
+      "third_path": "recognized-cross-polity-mandate",
+      "reason": "Greg's observed need is usable cross-polity authority, not certification as identity. A human legal office may remain useful, but dragon-side legitimacy is behavior-earned and should not be owned by Crown naming.",
+      "remaining_issue": "whether Crown Spotter survives as a human-side legal wrapper can remain open unless a final adversarial political bargain shows it changes Greg's independence or obligations"
+    },
+    "relationship": {
+      "mutual_indispensability": "story_truth_unchanged",
+      "operational_reliance_before_personal_trust": "strong_thread_unchanged",
+      "attraction_is_trust": false,
+      "reopened_in_cycle_5": false
     },
     "new_forward_consequences": 0,
     "new_backward_requirements": 0,
-    "new_third_paths": 0,
     "unresolved_contradictions": ["ending-office-role", "first-gift-form"]
   },
   "interpretation": {
-    "cycle_4_structure_result": "mostly_confirmed_and_refined_existing_structure",
-    "major_new_structure_discovered": false,
-    "convergence_signal": "low_novelty_adversarial_survival_with_zero_temporal_pressure_and_no_branch_forcing",
-    "relationship_result": "operational_reliance_with_guarded_personal_trust_survived_but_did_not_gain_a_second_positive_support_group",
-    "gift_result": "alternatives_remain_meaningfully_distinct_and_need_concrete_dragon_want_to_discriminate",
-    "office_result": "alternatives_remain_meaningfully_distinct_and_need_final_political_bargain_to_discriminate",
-    "story_truth_policy": "unchanged_conservative_promotion",
-    "generic_runtime_defect_exposed": false
+    "first_dragon_want": "costly_voluntary_repair_of_reciprocal_standing",
+    "greg_legitimacy_want": "usable_cross_polity_authority_access_and_protection_not_certification_as_identity",
+    "gift_discrimination": "yes_materially_coin_favored_scale_token_weakened_land_and_relic_still_viable",
+    "ending_discrimination": "yes_materially_dragon_envoy_trajectory_favored_crown_spotter_weakened_as_sole_identity_hybrid_mandate_emerged",
+    "cycle_5_structure_result": "mostly_explained_why_existing_story_survives_with_two_meaningful_branch_discriminations_and_one_narrow_institutional_third_path",
+    "major_new_foundational_structure_discovered": false,
+    "generic_runtime_defect_exposed": false,
+    "branch_authority_policy": "do_not_fake_shared_branch_mutation_or_contradiction_resolution_when_existing_runtime_evidence_schema_does_not_express_it"
   },
   "rendering_gate": {
-    "status": "approaching_not_open",
+    "status": "one_final_adversarial_challenge_before_bounded_rendering",
     "positive_evidence": [
-      "temporal pressure remained zero under another adversarial cycle",
-      "repaired boundaries stayed repaired",
-      "relationship trajectory survived downstream high-heat challenge",
-      "no foundational new third path appeared",
+      "temporal pressure remained zero",
+      "boundary contradictions remained zero",
+      "unresolved long-range messages remained zero",
       "no new forward or backward obligations appeared",
-      "major novelty is slowing"
+      "relationship trajectory remained stable",
+      "motivational experiments materially discriminated the two remaining alternatives",
+      "major novelty remains low",
+      "trajectory remains candidate_passable"
     ],
-    "blockers": [
-      "first-gift-form still lacks concrete branch-discriminating dragon-want evidence",
-      "ending-office-role still lacks final-political-bargain discrimination"
-    ],
-    "next_best_action": "B_focused_branch_discrimination_cycle",
+    "remaining_risk": "Cycle 5 discriminators are new single-cycle motivational evidence and should survive one hostile cross-act challenge before prose rendering",
+    "next_best_action": "A_one_final_adversarial_convergence_challenge",
     "sustained_prose_authorized": false
   },
   "next_edge": {
-    "objective": "run_one_focused_branch_discrimination_cycle_before_final_adversarial_convergence_challenge",
+    "objective": "run_one_final_adversarial_convergence_challenge_against_cycle_5_motivational_discriminators_without_broad_search",
     "priorities": [
-      "test land-restoration versus relic-restitution by giving the first dragon concrete wants and tracing which gift/obligation consequences follow",
-      "test Crown Spotter versus dragon envoy through concrete final political bargains and Greg's willingness or refusal to be incorporated",
-      "do not rerun relationship PERFORMANCE unless branch discrimination creates a new relationship consequence",
-      "preserve both alternatives when evidence remains genuinely non-discriminating"
+      "challenge whether voluntary reciprocal repair still explains the first dragon when land and relic manifestations are swapped or stripped of gift aesthetics",
+      "challenge whether Greg's usable-authority motive survives a Crown offer that gives status and security but constrains cross-polity independence",
+      "test whether the recognized-cross-polity-mandate third path is actually necessary or merely a label that can remain renderer-local",
+      "do not reopen the relationship trajectory unless these challenges create a genuine relationship contradiction",
+      "if the motivational discriminators survive without new temporal obligations, open a bounded prose-rendering experiment rather than another discovery cycle"
     ],
-    "after_if_stable": "C_final_adversarial_convergence_challenge",
+    "after_if_stable": "C_bounded_prose_rendering_experiment",
     "sustained_prose_authorized": false
   },
   "authority_effect": "derived_only_no_canon_mutation"
