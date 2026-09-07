@@ -6,7 +6,8 @@
   "evidence_sequence": [
     "rehearsal-evidence-cycle-001.json",
     "rehearsal-evidence-cycle-002.json",
-    "rehearsal-evidence-cycle-003.json"
+    "rehearsal-evidence-cycle-003.json",
+    "rehearsal-evidence-cycle-004.json"
   ],
   "expected": {
     "act_count": 4,
@@ -66,6 +67,30 @@
           "ending-public-breakthrough",
           "ending-contained-secret"
         ],
+        "min_discovery_evidence_counts": {
+          "survival-enables-offense": 4,
+          "mechanics-can-carry-trust": 3
+        }
+      },
+      "cycle-004": {
+        "max_open_branch_delta": 0,
+        "max_unresolved_messages": 0,
+        "max_open_pressure": 7,
+        "min_supported_constraints": 9,
+        "required_active_local_branches": [
+          "act-i:first-fall-geographic-gate",
+          "act-i:first-fall-local-only",
+          "act-iii:romance-preexisting-connection",
+          "act-iii:romance-grown-through-experimentation"
+        ],
+        "required_shared_branches_preserved": [
+          "ending-public-breakthrough",
+          "ending-contained-secret"
+        ],
+        "discovery_levels": {
+          "survival-enables-offense": "story_truth",
+          "mechanics-can-carry-trust": "strong_thread"
+        },
         "min_discovery_evidence_counts": {
           "survival-enables-offense": 4,
           "mechanics-can-carry-trust": 3
