@@ -1,30 +1,75 @@
 {
   "schema": "rehearsal_free_returns/v1",
-  "campaign": "canon-061-070-autonomous-boundary-hunt",
+  "campaign": "canon-071-080-autonomous-boundary-hunt",
   "mode": "free_production",
   "target_branch": "editor/rehearsal-simulation-engine",
-  "source_authority": "9dc74bcb95668e6ab011b3adf25c0dc9957e781c",
+  "source_authority": "1f669dd5207e04d461a0ed5e2e5bdaad98cbbced",
   "patches": [
     {
-      "id": "c062-nico-duplicate-step-inside-01",
-      "chapter": 62,
-      "actor": "Nico",
-      "role": "Greg",
+      "id": "c075-jorren-sword-quote-repair-01",
+      "chapter": 75,
+      "actor": "Jorren actor",
+      "role": "Jorren",
       "supporting_actors": [
-        "Rowan as Arlo"
+        "Nico as Greg"
       ],
-      "take_id": "062-free-boundary-a",
+      "take_id": "075-free-boundary-a",
       "variance_group_id": null,
       "actor_prefers": true,
       "dramatic_lock_status": "preserved",
       "reader_check": "pass",
       "changed_surfaces": [
-        "paragraphing",
-        "narration_rhythm"
+        "dialogue",
+        "paragraphing"
       ],
-      "before": "<p>I stepped inside.</p><p>I stepped inside.</p>",
-      "after": "<p>I stepped inside.</p>",
-      "reason": "The repeated sentence is a literal adjacent duplicate at the Arlo workshop transition. Nico's performance does not gain pressure, fixation, timing, or character meaning from saying the same movement twice, so this is model/storage recursion rather than useful repetition."
+      "before": "<p>Sword?</p><p>“Yes.</p>",
+      "after": "<p>“Sword?”</p><p>“Yes.”</p>",
+      "reason": "The packing exchange is clearly Jorren asking about the sword and Greg answering. The current HTML drops the opening quote on Jorren's line and the closing quote on Greg's response, breaking voice ownership rather than creating intentional roughness."
+    },
+    {
+      "id": "c077-nico-holl-logistics-recap-01",
+      "chapter": 77,
+      "actor": "Nico",
+      "role": "Greg",
+      "supporting_actors": [
+        "Holl"
+      ],
+      "take_id": "077-free-boundary-a",
+      "variance_group_id": null,
+      "actor_prefers": true,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "changed_surfaces": [
+        "narration_rhythm",
+        "attention_order",
+        "local_exchange_shape"
+      ],
+      "before": "<p>A little clamp. Nothing dramatic. Commercial. Good. I had hired the cart. Obviously. Morning wound check had been clean enough that Sera allowed normal ground-floor activity and one controlled ascent later if swelling remained modest. No stair practice. No unnecessary walking. Holl was ground floor. I had asked. Chair available. I had asked. Privy behind yard, one shallow threshold. I had asked.</p><p>Duration unknown. I had not asked because this was not a job. Progress.</p>",
+      "after": "<p>A little clamp. Nothing dramatic. Commercial. Good.</p><p>Duration unknown. I had not asked because this was not a job. Progress.</p>",
+      "reason": "The transport, wound clearance, Holl's chair, and ground-floor logistics have just been established before Greg enters the shop. Replaying them here reads as recap and delays Holl becoming the scene's active problem. Nico prefers the attention to move directly from the commercial fixture to the one thing Greg deliberately did not measure: duration."
+    },
+    {
+      "id": "c079-nico-morning-state-recompose-01",
+      "chapter": 79,
+      "actor": "Nico",
+      "role": "Greg",
+      "supporting_actors": [
+        "Noa as Alden",
+        "Pessa"
+      ],
+      "take_id": "079-free-boundary-a",
+      "variance_group_id": null,
+      "actor_prefers": true,
+      "dramatic_lock_status": "preserved",
+      "reader_check": "pass",
+      "changed_surfaces": [
+        "internal_dialogue",
+        "narration_rhythm",
+        "attention_order"
+      ],
+      "before": "<p>Swelling low enough after yesterday's archive work and controlled stairs that Nerin had no objection to ground-floor activity. Second, stairs. I was already downstairs because I had slept downstairs after the archive day? No. I had slept upstairs, then descended that morning for wound check. Right. One controlled descent. Keeper spotting. Sit once. Still. Third, south training yard. Packed dirt. Chair brought.</p>",
+      "after": "<p>Swelling low enough after yesterday's archive work and controlled stairs that Nerin had no objection to ground-floor activity. Second, stairs. I had slept upstairs, then descended that morning for the wound check. One controlled descent. Keeper spotting. Sit once. Still. Third, south training yard. Packed dirt. Chair brought.</p>",
+      "reason": "Greg can think associatively without sounding as though he is reconstructing the previous chapter for himself. Removing the false start about where he slept preserves every physical constraint while keeping Nico inside the immediate morning rather than editorial scratchpad mode."
     }
   ]
 }
