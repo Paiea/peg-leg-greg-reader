@@ -19,9 +19,9 @@ class PLGMCPServerTests(unittest.TestCase):
         tools = asyncio.run(server.list_tools())
         self.assertEqual(set(plg_ai_tools.TOOLS), {tool.name for tool in tools})
         by_name = {tool.name: tool for tool in tools}
-        self.assertFalse(by_name["apply_survivors"].annotations.readOnlyHint)
-        self.assertTrue(by_name["apply_survivors"].annotations.destructiveHint)
-        self.assertTrue(by_name["get_scene_view"].annotations.readOnlyHint)
+        self.assertFalse(by_name["apply_survivors"].annotations.read_only_hint)
+        self.assertTrue(by_name["apply_survivors"].annotations.destructive_hint)
+        self.assertTrue(by_name["get_scene_view"].annotations.read_only_hint)
 
 
 if __name__ == "__main__":
