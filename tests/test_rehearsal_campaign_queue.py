@@ -20,6 +20,25 @@ class RehearsalCampaignQueueTests(unittest.TestCase):
         queue.settle_current(state, "abc123", "def456", "source_win")
         self.assertEqual((71, 80), (queue.next_batch(state)["start"], queue.next_batch(state)["end"]))
 
+    def test_adopt_equivalent_authority_moves_queue_tip_without_changing_result(self):
+        state = queue.new_state("editor/rehearsal-simulation-engine", 61, 491, 10)
+        queue.claim_next(state, "abc123")
+        queue.settle_current(state, "abc123", "def456", "applied")
+        adopted = queue.adopt_equivalent_authority(state, "def456", "meta789")
+        self.assertEqual("meta789", adopted)
+        self.assertEqual("meta789", state["settled_authority"])
+        self.assertEqual("meta789", state["batches"][0]["settled_authority"])
+        self.assertEqual("applied", state["batches"][0]["status"])
+        queue.claim_next(state, "meta789")
+        self.assertEqual("meta789", state["batches"][1]["source_authority"])
+
+    def test_adopt_equivalent_authority_requires_current_settled_tip(self):
+        state = queue.new_state("editor/rehearsal-simulation-engine", 61, 491, 10)
+        queue.claim_next(state, "abc123")
+        queue.settle_current(state, "abc123", "def456", "source_win")
+        with self.assertRaisesRegex(ValueError, "settled authority"):
+            queue.adopt_equivalent_authority(state, "wrong", "meta789")
+
     def test_blocked_batch_prevents_later_claim(self):
         state = queue.new_state("editor/rehearsal-simulation-engine", 61, 491, 10)
         state["batches"][0]["status"] = "blocked"
