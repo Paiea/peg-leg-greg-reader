@@ -2,32 +2,20 @@
   {
     "schema": "persistent_rehearsal_evidence/v1",
     "id": "ge-evidence-specialist-visibility-pressure-probe",
-    "target_id": "target:ge-forward-specialist-method-can-create-public-pressure",
-    "source_act": "act-iii",
+    "target_id": "target:message:ge-forward-specialist-method-can-create-public-pressure",
+    "source_act": "act-iv",
     "experiment_mode": "forward_consequence_test",
     "fidelity": "probe",
     "finding": "Method specialization does not automatically create fame or broad public attention, but it does create a smallest credible outward footprint when the method is used in consequential situations. The observable fact is a repeated mismatch between apparent level/build expectations and bounded useful results: the protagonist survives or solves narrow problems he should not be able to handle conventionally, makes unusually disciplined go/no-go decisions, and can reproduce enough of the result that isolated success becomes harder to dismiss as luck. The footprint may be witnessed directly, recorded by ordinary system/log mechanisms, embodied in useful results or artifacts, or benefit someone else; no single carrier is required. Once such evidence escapes purely private experimentation, status pressure follows in a narrow sense because the mismatch invites expectation, scrutiny, disbelief, requests for repetition, opportunity, suspicion, or attempts to use the capability. This does not establish fame, recruitment, institutional affiliation, or the identity of any observer. A fully private worldline remains possible until the method produces an outward-facing result, so visibility depends on externalized evidence rather than specialist identity alone.",
     "confidence": 0.81,
     "provenance": "gravitys-embrace:rehearsal:cycle-008:specialist-visibility-pressure-probe",
-    "local_discoveries": [
-      {
-        "id": "ge-specialist-visibility-needs-externalized-evidence",
-        "finding": "Competence produces later visibility pressure only when some result of the specialist method becomes externally legible. The causal bridge is method specialization to repeatable expectation-breaking evidence to social/status pressure, not competence directly to attention."
-      }
-    ],
+    "local_discoveries": [{"id": "ge-specialist-visibility-needs-externalized-evidence", "finding": "Competence produces later visibility pressure only when some result of the specialist method becomes externally legible. The causal bridge is method specialization to repeatable expectation-breaking evidence to social/status pressure, not competence directly to attention."}],
     "forward_consequences": [],
     "backward_requirements": [],
     "branch_updates": [],
     "story_sync_discoveries": [],
     "story_sync_evidence_updates": [],
-    "constraint_responses": [
-      {
-        "message_id": "ge-forward-specialist-method-can-create-public-pressure",
-        "target_act": "act-iv",
-        "response": "supported",
-        "reason": "Supported narrowly. Method specialization can create later visibility/status pressure when repeated expectation-breaking evidence becomes externally legible. The probe does not require or select who notices, geography, institution, relationship, or a solved gravity recipe. Purely private specialization remains possible until an outward-facing result exists."
-      }
-    ],
+    "constraint_responses": [{"message_id": "ge-forward-specialist-method-can-create-public-pressure", "response": "supported", "reason": "Supported narrowly. Method specialization can create later visibility/status pressure when repeated expectation-breaking evidence becomes externally legible. The probe does not require or select who notices, geography, institution, relationship, or a solved gravity recipe. Purely private specialization remains possible until an outward-facing result exists."}],
     "boundary_updates": [],
     "boundary_responses": []
   }
