@@ -4,189 +4,128 @@
   "authority": "derived_experimental_not_story_canon",
   "architecture_branch": "architecture/long-form-story-compiler",
   "pull_request": 161,
-  "cycle": 3,
-  "cycle_status": "green_observed_temporal_trajectory_candidate_passable_story_convergence_open",
+  "cycle": 4,
+  "cycle_status": "green_observed_candidate_passable_low_novelty_branch_discrimination_open",
   "public_entry_point": "plg_ai_tools.run_story_rehearsal_cycle",
   "source_inputs": {
     "runtime": "state/experiments/dragon-spotter/persistent-act-runtime/runtime-input.json",
     "cycle_1_rehearsal_evidence": "state/experiments/dragon-spotter/persistent-act-runtime/first-bargain-evidence.json",
     "cycle_2_rehearsal_evidence": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-2-directional-evidence.json",
     "cycle_3_rehearsal_evidence": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-3-boundary-evidence.json",
-    "creator_taste": "state/experiments/dragon-spotter/persistent-act-runtime/creator-taste-context.json",
-    "first_bargain_performance": "state/experiments/dragon-spotter/story-sync/first-bargain-rehearsal.json",
-    "cycle_3_romantic_trust_performance": "state/experiments/dragon-spotter/story-sync/cycle-3-romantic-trust-performance.json",
-    "cycle_3_structural_rehearsals": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-3-structural-boundary-rehearsals.json"
+    "cycle_4_rehearsal_evidence": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-4-adversarial-evidence.json",
+    "cycle_4_branch_comparisons": "state/experiments/dragon-spotter/persistent-act-runtime/cycle-4-branch-comparisons.json",
+    "cycle_4_relationship_performance": "state/experiments/dragon-spotter/story-sync/cycle-4-relationship-adversarial-performance.json",
+    "creator_taste": "state/experiments/dragon-spotter/persistent-act-runtime/creator-taste-context.json"
   },
   "verification": {
-    "generic_boundary_learning_commit": "bfa5e11d58831aca94b419a4bb19dcf73f0c23aa",
-    "workflow_run": 34137789593,
-    "focused_suite": {
-      "tests": 72,
-      "result": "green"
-    },
-    "full_repository_suite": {
-      "tests": 529,
-      "skipped": 6,
-      "result": "green"
-    },
-    "ci_authority": "read_only_validation",
-    "note": "Two later concurrent commits before this checkpoint changed only Gravity's Embrace project-local CURRENT files and did not alter Dragon or generic runtime behavior."
+    "checkpoint_commit": "1b72bec1fc27593bcc7f4eeb1700f336aa4c49b4",
+    "workflow_run": 34139393898,
+    "focused_suite": {"tests": 72, "result": "green"},
+    "full_repository_suite": {"tests": 530, "skipped": 6, "result": "green"},
+    "ci_authority": "read_only_validation"
   },
-  "cycle_2_baseline": {
-    "target_count": 17,
+  "cycle_3_baseline": {
+    "target_count": 12,
+    "boundary_contradiction_count": 0,
+    "unresolved_message_count": 0,
+    "open_temporal_pressure": 0,
+    "trajectory_status": "candidate_passable",
     "open_branch_count": 11,
-    "boundary_contradiction_count": 3,
-    "unresolved_message_count": 1,
-    "constraint_collision_count": 0,
-    "open_temporal_pressure": 4,
-    "trajectory_status": "open",
-    "repeated_signals": [
-      "heat-through-competence"
-    ],
-    "strong_threads": [
-      "gift-reciprocity",
-      "improvisation-is-competence-path",
-      "mutual-indispensability"
-    ],
-    "story_truths": []
+    "story_truths": ["mutual-indispensability"],
+    "strong_threads": ["gift-reciprocity", "heat-through-competence", "improvisation-is-competence-path"],
+    "repeated_signals": [],
+    "relationship_third_path_maturity": "speculation"
   },
   "observed": {
-    "target_count_before": 17,
+    "target_count_before": 12,
     "target_count_after": 12,
-    "experiment_mode_counts_after": {
-      "counterfactual_branch_comparison": 2,
-      "plausibility_probe": 6,
-      "temporal_distance_rehearsal": 1,
-      "trajectory_worldline_test": 3
-    },
-    "romantic_trust_performance": {
-      "source_value": "guarded-respect",
-      "original_target_value": "mutual-reliance",
-      "observed_result": "third_path_operational_reliance_with_guarded_personal_trust",
-      "revised_act_iii_state_in": "mutual-operational-reliance-with-guarded-personal-trust",
-      "original_target_preserved_in_history": true,
-      "broad_immediate_personal_or_romantic_trust_supported": false,
-      "performance_fidelity": "high_heat",
-      "authority_effect": "derived_only_no_canon_mutation"
-    },
-    "structural_boundaries": {
-      "professional_role": {
-        "source_value": "political-liability",
-        "target_value": "needed-envoy",
-        "result": "supported_transition",
-        "bridge": "reluctant_deployment_without_required_institutional_rehabilitation",
-        "experiment_mode": "state_transition_test",
-        "fidelity": "development"
-      },
-      "public_identity": {
-        "source_value": "contested-human-interlocutor",
-        "target_value": "dragon-recognized-interlocutor",
-        "result": "supported_transition",
-        "bridge": "dragon_recognition_through_repeated_behavior_based_routing_before_human_title_settles",
-        "experiment_mode": "state_transition_test",
-        "fidelity": "development"
-      }
-    },
-    "boundary_contradiction_count_before": 3,
-    "boundary_contradiction_count_after": 0,
-    "unresolved_message_count_before": 1,
-    "unresolved_message_count_after": 0,
-    "constraint_collision_count_before": 0,
-    "constraint_collision_count_after": 0,
-    "open_temporal_pressure_before": 4,
-    "open_temporal_pressure_after": 0,
+    "boundary_contradiction_count": 0,
+    "unresolved_message_count": 0,
+    "open_temporal_pressure": 0,
     "trajectory_status": "candidate_passable",
     "open_branch_count_before": 11,
     "open_branch_count_after": 11,
     "open_branch_delta": 0,
-    "forward_consequence_count_before": 3,
-    "forward_consequence_count_after": 3,
-    "backward_requirement_count_before": 2,
-    "backward_requirement_count_after": 2,
-    "new_forward_consequences": 0,
-    "new_backward_requirements": 0,
-    "act_i_branch_state": {
-      "first-bargain.land-restoration": {
-        "status": "active",
-        "viability": "viable"
-      },
-      "first-bargain.relic-restitution": {
-        "status": "active",
-        "viability": "viable"
-      },
-      "first-bargain.protocol-only": {
-        "status": "superseded",
-        "viability": "redundant"
-      },
-      "first-bargain.reckless-improvisation": {
-        "status": "superseded",
-        "viability": "redundant"
-      }
-    },
-    "discovery_levels": {
-      "mutual-indispensability": "story_truth",
-      "heat-through-competence": "strong_thread",
-      "operational-reliance-before-personal-trust": "speculation"
-    },
-    "repeated_signals": [],
-    "strong_threads": [
-      "gift-reciprocity",
-      "heat-through-competence",
-      "improvisation-is-competence-path"
-    ],
-    "story_truths": [
-      "mutual-indispensability"
-    ],
-    "unresolved_contradictions": [
-      "ending-office-role",
-      "first-gift-form"
-    ],
-    "boundary_resolutions": [
-      "act-ii_to_act-iii_professional_role",
-      "act-ii_to_act-iii_romantic_trust_revised_third_path",
-      "act-iii_to_act-iv_public_identity"
-    ]
-  },
-  "interpretation": {
-    "convergence_signal": "temporal_constraints_closed_without_branch_pruning",
-    "temporal_trajectory": "candidate_passable_not_fully_story_converged",
-    "romantic_trust_result": "preferred_broad_mutual_reliance_hypothesis_was_narrowed_by_performance",
-    "relationship_third_path": "reciprocal_operational_reliance_can_precede_broad_personal_trust",
-    "branch_entropy_behavior": "unchanged_in_cycle_3",
-    "major_novelty": "one_new_relationship_discovery_remains_speculation",
-    "mature_thread_behavior": "mutual_indispensability_survived_independent_high_heat_challenge_and_story_sync_promoted_it",
-    "gift_branches": "land_restoration_and_relic_restitution_remain_legitimately_live",
-    "ending_office_branch": "still_unresolved",
-    "story_truth_policy": "promotion_only_from_story_sync_after_independent_evidence"
-  },
-  "generic_runtime_change_after_cycle_3": {
-    "defect": "boundary_rehearsal_evidence_could_not_revise_existing_derived_temporal_hypotheses_or_retire_an_evidence_backed_nonidentical_boundary_bridge",
-    "fix": [
-      "add generic state_boundary_update deltas with prior-value history and provenance",
-      "add generic boundary_response deltas stored in target-act local state",
-      "retire a mismatched boundary from contradiction and target selection only when its latest boundary response is supported",
-      "preserve distinct endpoint values rather than forcing equality"
-    ],
-    "dragon_specific_logic_added": false,
-    "canon_authority_added": false,
-    "focused_contract": "tests.test_story_sync_constraint_response_evidence"
-  },
-  "next_edge": {
-    "objective": "continue_story_sync_convergence_on_the_candidate_passable_trajectory_before_sustained_prose",
-    "priorities": [
-      "pressure-test operational-reliance-before-personal-trust across later Act III and Act IV without assuming it becomes romance or broad trust",
-      "resolve or sharpen first-gift-form through bounded comparison while preserving land-restoration and relic-restitution until discriminating evidence exists",
-      "resolve or sharpen ending-office-role while preserving Crown Spotter versus dragon envoy until consequences distinguish them",
-      "challenge mutual-indispensability now that STORY SYNC classifies it as story truth and verify it does not secretly depend on one gift or office branch",
-      "prefer deepening and falsifying mature threads over manufacturing new branches unless a genuine third path appears"
-    ],
-    "preserve_live_uncertainty": [
+    "branches_weakened_or_superseded": [],
+    "branches_preserved": [
       "first-bargain.land-restoration",
       "first-bargain.relic-restitution",
-      "first-gift-form",
-      "ending-office-role",
-      "whether operational reliance ever becomes broad personal or romantic trust"
+      "gift.coin",
+      "gift.scale-token",
+      "ending.crown-spotter",
+      "ending.dragon-envoy"
     ],
+    "story_truths": ["mutual-indispensability"],
+    "strong_threads": ["gift-reciprocity", "heat-through-competence", "improvisation-is-competence-path"],
+    "repeated_signals": [],
+    "speculations_of_current_interest": ["operational-reliance-before-personal-trust"],
+    "relationship_third_path": {
+      "maturity": "speculation",
+      "independent_evidence_groups": 2,
+      "support_groups": 1,
+      "challenge_survived_groups": 1,
+      "cycle_4_result": "survived_downstream_adversarial_pressure_without_broad_personal_trust",
+      "strongest_take": "bounded-trust-under-withheld-motive",
+      "failure_take_preserved": true,
+      "asymmetric_take_preserved": true,
+      "broad_personal_or_romantic_trust_required": false
+    },
+    "first_gift_form": {
+      "status": "unresolved_sharpened",
+      "material_coin_path": "stronger_material_ownership_and_mercenary_consequences",
+      "scale_token_path": "stronger_ambiguous_recognition_and_diplomatic_interpretation",
+      "discriminating_evidence_needed": "resolve_first_dragon_concrete_want_and_test_which_gift_naturally_follows_without_duplicate_story_work",
+      "branch_authority_change": false
+    },
+    "ending_office_role": {
+      "status": "unresolved_sharpened",
+      "crown_spotter_path": "institutional_incorporation_of_office_remade_by_lived_competence",
+      "dragon_envoy_path": "cross_polity_legitimacy_not_fully_owned_by_crown",
+      "discriminating_evidence_needed": "final_political_bargain_and_greg_relationship_to_incorporation",
+      "branches_are_merely_labels": false,
+      "branch_authority_change": false
+    },
+    "new_forward_consequences": 0,
+    "new_backward_requirements": 0,
+    "new_third_paths": 0,
+    "unresolved_contradictions": ["ending-office-role", "first-gift-form"]
+  },
+  "interpretation": {
+    "cycle_4_structure_result": "mostly_confirmed_and_refined_existing_structure",
+    "major_new_structure_discovered": false,
+    "convergence_signal": "low_novelty_adversarial_survival_with_zero_temporal_pressure_and_no_branch_forcing",
+    "relationship_result": "operational_reliance_with_guarded_personal_trust_survived_but_did_not_gain_a_second_positive_support_group",
+    "gift_result": "alternatives_remain_meaningfully_distinct_and_need_concrete_dragon_want_to_discriminate",
+    "office_result": "alternatives_remain_meaningfully_distinct_and_need_final_political_bargain_to_discriminate",
+    "story_truth_policy": "unchanged_conservative_promotion",
+    "generic_runtime_defect_exposed": false
+  },
+  "rendering_gate": {
+    "status": "approaching_not_open",
+    "positive_evidence": [
+      "temporal pressure remained zero under another adversarial cycle",
+      "repaired boundaries stayed repaired",
+      "relationship trajectory survived downstream high-heat challenge",
+      "no foundational new third path appeared",
+      "no new forward or backward obligations appeared",
+      "major novelty is slowing"
+    ],
+    "blockers": [
+      "first-gift-form still lacks concrete branch-discriminating dragon-want evidence",
+      "ending-office-role still lacks final-political-bargain discrimination"
+    ],
+    "next_best_action": "B_focused_branch_discrimination_cycle",
+    "sustained_prose_authorized": false
+  },
+  "next_edge": {
+    "objective": "run_one_focused_branch_discrimination_cycle_before_final_adversarial_convergence_challenge",
+    "priorities": [
+      "test land-restoration versus relic-restitution by giving the first dragon concrete wants and tracing which gift/obligation consequences follow",
+      "test Crown Spotter versus dragon envoy through concrete final political bargains and Greg's willingness or refusal to be incorporated",
+      "do not rerun relationship PERFORMANCE unless branch discrimination creates a new relationship consequence",
+      "preserve both alternatives when evidence remains genuinely non-discriminating"
+    ],
+    "after_if_stable": "C_final_adversarial_convergence_challenge",
     "sustained_prose_authorized": false
   },
   "authority_effect": "derived_only_no_canon_mutation"
