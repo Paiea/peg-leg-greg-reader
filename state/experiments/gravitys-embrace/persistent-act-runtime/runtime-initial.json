@@ -1,0 +1,603 @@
+{
+  "schema": "persistent_act_runtime/v1",
+  "story_id": "gravitys-embrace",
+  "acts": {
+    "act-i": {
+      "state_in": [
+        {
+          "id": "ge-a1-in-gravity",
+          "dimension": "gravity_model",
+          "value": "ordinary-dangerous-unexploited",
+          "confidence": 0.95,
+          "provenance": ["gravitys-embrace:accepted-seed"]
+        },
+        {
+          "id": "ge-a1-in-build",
+          "dimension": "build_identity",
+          "value": "hp-heavy-defensive",
+          "confidence": 0.85,
+          "provenance": ["gravitys-embrace:accepted-seed"]
+        },
+        {
+          "id": "ge-a1-in-visibility",
+          "dimension": "social_visibility",
+          "value": "low-visibility",
+          "confidence": 0.35,
+          "provenance": ["gravitys-embrace:recovered-hypothesis"]
+        }
+      ],
+      "local_state": {
+        "possibilities": [
+          {
+            "id": "death-stakes-real",
+            "status": "active",
+            "viability": "viable",
+            "branch_group": "world-stakes"
+          },
+          {
+            "id": "death-stakes-severe-loss",
+            "status": "active",
+            "viability": "viable",
+            "branch_group": "world-stakes"
+          },
+          {
+            "id": "first-fall-geographic-gate",
+            "status": "active",
+            "viability": "viable",
+            "branch_group": "first-fall-consequence"
+          },
+          {
+            "id": "first-fall-local-only",
+            "status": "active",
+            "viability": "viable",
+            "branch_group": "first-fall-consequence"
+          }
+        ],
+        "discoveries": [],
+        "unresolved_questions": [
+          "Why did the player commit heavily to Maximum HP before knowing gravity could become offensive leverage?",
+          "What exactly does the first serious fall cost physically, materially, and socially?",
+          "Does the first fall change geographic access, or only reveal a local combat possibility?"
+        ],
+        "constraint_responses": []
+      },
+      "state_out": [
+        {
+          "id": "ge-a1-out-gravity",
+          "dimension": "gravity_model",
+          "value": "anomaly-observed-not-explained",
+          "confidence": 0.6,
+          "provenance": ["gravitys-embrace:first-fall-hypothesis"]
+        },
+        {
+          "id": "ge-a1-out-build",
+          "dimension": "build_identity",
+          "value": "hp-heavy-survival-proved",
+          "confidence": 0.6,
+          "provenance": ["gravitys-embrace:first-fall-hypothesis"]
+        },
+        {
+          "id": "ge-a1-out-visibility",
+          "dimension": "social_visibility",
+          "value": "private-anomaly",
+          "confidence": 0.45,
+          "provenance": ["gravitys-embrace:first-fall-hypothesis"]
+        }
+      ]
+    },
+    "act-ii": {
+      "state_in": [
+        {
+          "id": "ge-a2-in-gravity",
+          "dimension": "gravity_model",
+          "value": "uncertain-reproduction",
+          "confidence": 0.55,
+          "provenance": ["gravitys-embrace:development-hypothesis"]
+        },
+        {
+          "id": "ge-a2-in-build",
+          "dimension": "build_identity",
+          "value": "hp-heavy-survival-proved",
+          "confidence": 0.55,
+          "provenance": ["gravitys-embrace:development-hypothesis"]
+        },
+        {
+          "id": "ge-a2-in-visibility",
+          "dimension": "social_visibility",
+          "value": "private-anomaly",
+          "confidence": 0.4,
+          "provenance": ["gravitys-embrace:development-hypothesis"]
+        }
+      ],
+      "local_state": {
+        "possibilities": [
+          {
+            "id": "damage-height-only",
+            "status": "active",
+            "viability": "weak",
+            "branch_group": "gravity-recipe"
+          },
+          {
+            "id": "damage-multivariable",
+            "status": "active",
+            "viability": "viable",
+            "branch_group": "gravity-recipe"
+          },
+          {
+            "id": "quick-mastery",
+            "status": "active",
+            "viability": "weak",
+            "branch_group": "learning-curve"
+          },
+          {
+            "id": "costly-reproduction",
+            "status": "active",
+            "viability": "viable",
+            "branch_group": "learning-curve"
+          }
+        ],
+        "discoveries": [],
+        "unresolved_questions": [
+          "Which ordinary variables actually control impact damage and survival: height, velocity, mass, angle, target motion, terrain, or some combination?",
+          "What failed reproductions keep gravity dangerous instead of turning the discovery into a clean exploit?",
+          "What recovery, equipment, resource, or injury costs prevent endless free experimentation?"
+        ],
+        "constraint_responses": []
+      },
+      "state_out": [
+        {
+          "id": "ge-a2-out-gravity",
+          "dimension": "gravity_model",
+          "value": "conditionally-reproducible",
+          "confidence": 0.45,
+          "provenance": ["gravitys-embrace:act-ii-hypothesis"]
+        },
+        {
+          "id": "ge-a2-out-build",
+          "dimension": "build_identity",
+          "value": "hp-heavy-experimenter",
+          "confidence": 0.4,
+          "provenance": ["gravitys-embrace:act-ii-hypothesis"]
+        },
+        {
+          "id": "ge-a2-out-visibility",
+          "dimension": "social_visibility",
+          "value": "small-circle-noticed",
+          "confidence": 0.4,
+          "provenance": ["gravitys-embrace:act-ii-hypothesis"]
+        },
+        {
+          "id": "ge-a2-out-combat-trust",
+          "dimension": "combat_trust",
+          "value": "solo-experimenter",
+          "confidence": 0.45,
+          "provenance": ["gravitys-embrace:act-ii-hypothesis"]
+        }
+      ]
+    },
+    "act-iii": {
+      "state_in": [
+        {
+          "id": "ge-a3-in-gravity",
+          "dimension": "gravity_model",
+          "value": "conditionally-reproducible",
+          "confidence": 0.4,
+          "provenance": ["gravitys-embrace:act-iii-hypothesis"]
+        },
+        {
+          "id": "ge-a3-in-build",
+          "dimension": "build_identity",
+          "value": "underleveled-specialist",
+          "confidence": 0.35,
+          "provenance": ["gravitys-embrace:act-iii-hypothesis"]
+        },
+        {
+          "id": "ge-a3-in-visibility",
+          "dimension": "social_visibility",
+          "value": "noticed-by-higher-level-people",
+          "confidence": 0.4,
+          "provenance": ["gravitys-embrace:social-hypothesis"]
+        },
+        {
+          "id": "ge-a3-in-combat-trust",
+          "dimension": "combat_trust",
+          "value": "needs-another-person-for-safe-setup",
+          "confidence": 0.4,
+          "provenance": ["gravitys-embrace:relationship-hypothesis"]
+        }
+      ],
+      "local_state": {
+        "possibilities": [
+          {
+            "id": "social-old-friend",
+            "status": "active",
+            "viability": "viable",
+            "branch_group": "social-entry"
+          },
+          {
+            "id": "social-stranger-recruiter",
+            "status": "active",
+            "viability": "viable",
+            "branch_group": "social-entry"
+          },
+          {
+            "id": "romance-preexisting-connection",
+            "status": "active",
+            "viability": "viable",
+            "branch_group": "romance-architecture"
+          },
+          {
+            "id": "romance-grown-through-experimentation",
+            "status": "active",
+            "viability": "viable",
+            "branch_group": "romance-architecture"
+          },
+          {
+            "id": "institution-guild-competition",
+            "status": "active",
+            "viability": "viable",
+            "branch_group": "institutional-pressure"
+          }
+        ],
+        "discoveries": [],
+        "unresolved_questions": [
+          "Who notices the gravity technique first, and what do they want from the player?",
+          "Does a pre-existing relationship make the status gap more dramatically useful than a new connection would?",
+          "What does trusting another person with a dangerous gravity setup reveal that ordinary conversation cannot?"
+        ],
+        "constraint_responses": []
+      },
+      "state_out": [
+        {
+          "id": "ge-a3-out-gravity",
+          "dimension": "gravity_model",
+          "value": "operational-but-risky",
+          "confidence": 0.4,
+          "provenance": ["gravitys-embrace:act-iii-hypothesis"]
+        },
+        {
+          "id": "ge-a3-out-visibility",
+          "dimension": "social_visibility",
+          "value": "contested-or-recruited",
+          "confidence": 0.35,
+          "provenance": ["gravitys-embrace:act-iii-hypothesis"]
+        },
+        {
+          "id": "ge-a3-out-combat-trust",
+          "dimension": "combat_trust",
+          "value": "earned-operational-trust",
+          "confidence": 0.4,
+          "provenance": ["gravitys-embrace:relationship-hypothesis"]
+        },
+        {
+          "id": "ge-a3-out-romantic-trust",
+          "dimension": "romantic_trust",
+          "value": "undecided-but-charged",
+          "confidence": 0.3,
+          "provenance": ["gravitys-embrace:romance-hypothesis"]
+        }
+      ]
+    },
+    "act-iv": {
+      "state_in": [
+        {
+          "id": "ge-a4-in-gravity",
+          "dimension": "gravity_model",
+          "value": "operational-but-risky",
+          "confidence": 0.35,
+          "provenance": ["gravitys-embrace:act-iv-hypothesis"]
+        },
+        {
+          "id": "ge-a4-in-visibility",
+          "dimension": "social_visibility",
+          "value": "publicly-consequential",
+          "confidence": 0.3,
+          "provenance": ["gravitys-embrace:public-consequence-hypothesis"]
+        },
+        {
+          "id": "ge-a4-in-combat-trust",
+          "dimension": "combat_trust",
+          "value": "emotionally-consequential-trust",
+          "confidence": 0.3,
+          "provenance": ["gravitys-embrace:relationship-hypothesis"]
+        },
+        {
+          "id": "ge-a4-in-romantic-trust",
+          "dimension": "romantic_trust",
+          "value": "unresolved-relationship-choice",
+          "confidence": 0.25,
+          "provenance": ["gravitys-embrace:romance-hypothesis"]
+        }
+      ],
+      "local_state": {
+        "possibilities": [
+          {
+            "id": "public-spectacle",
+            "status": "active",
+            "viability": "viable",
+            "branch_group": "public-consequence"
+          },
+          {
+            "id": "institutional-control",
+            "status": "active",
+            "viability": "viable",
+            "branch_group": "public-consequence"
+          },
+          {
+            "id": "copycat-cost",
+            "status": "active",
+            "viability": "viable",
+            "branch_group": "public-consequence"
+          },
+          {
+            "id": "deliberate-gravity-kill-with-partner",
+            "status": "active",
+            "viability": "viable",
+            "branch_group": "climax-test"
+          }
+        ],
+        "discoveries": [],
+        "unresolved_questions": [
+          "What public consequence makes mastery matter beyond larger damage numbers?",
+          "What price must remain attached to gravity even after the player understands it?",
+          "Which relationship outcome is earned by performed behavior rather than selected in advance?"
+        ],
+        "constraint_responses": []
+      },
+      "state_out": [
+        {
+          "id": "ge-a4-out-gravity",
+          "dimension": "gravity_model",
+          "value": "deliberate-mastery-with-real-cost",
+          "confidence": 0.35,
+          "provenance": ["gravitys-embrace:ending-hypothesis"]
+        },
+        {
+          "id": "ge-a4-out-visibility",
+          "dimension": "social_visibility",
+          "value": "consequence-visible",
+          "confidence": 0.3,
+          "provenance": ["gravitys-embrace:ending-hypothesis"]
+        },
+        {
+          "id": "ge-a4-out-combat-trust",
+          "dimension": "combat_trust",
+          "value": "earned-or-broken",
+          "confidence": 0.25,
+          "provenance": ["gravitys-embrace:ending-hypothesis"]
+        },
+        {
+          "id": "ge-a4-out-romantic-trust",
+          "dimension": "romantic_trust",
+          "value": "unresolved-ending-branch",
+          "confidence": 0.2,
+          "provenance": ["gravitys-embrace:ending-hypothesis"]
+        },
+        {
+          "id": "ge-a4-out-public-consequence",
+          "dimension": "public_consequence",
+          "value": "open-not-locked",
+          "confidence": 0.2,
+          "provenance": ["gravitys-embrace:ending-hypothesis"]
+        }
+      ]
+    }
+  },
+  "shared_story_state": {
+    "sync_state": {
+      "schema": "story_sync_state/v1",
+      "story_confidence": 0.22,
+      "possibilities": [
+        {
+          "id": "stakes-real-death",
+          "status": "active",
+          "viability": "viable",
+          "branch_group": "world-stakes",
+          "region": "act-i",
+          "evidence": []
+        },
+        {
+          "id": "stakes-severe-loss",
+          "status": "active",
+          "viability": "viable",
+          "branch_group": "world-stakes",
+          "region": "act-i",
+          "evidence": []
+        },
+        {
+          "id": "social-old-connection",
+          "status": "active",
+          "viability": "viable",
+          "branch_group": "relationship-entry",
+          "region": "act-iii",
+          "taste_alignment": ["romance-architecture-open"],
+          "evidence": []
+        },
+        {
+          "id": "social-new-connection",
+          "status": "active",
+          "viability": "viable",
+          "branch_group": "relationship-entry",
+          "region": "act-iii",
+          "taste_alignment": ["romance-architecture-open"],
+          "evidence": []
+        },
+        {
+          "id": "ending-public-breakthrough",
+          "status": "active",
+          "viability": "viable",
+          "branch_group": "ending-consequence",
+          "region": "act-iv",
+          "evidence": []
+        },
+        {
+          "id": "ending-contained-secret",
+          "status": "active",
+          "viability": "viable",
+          "branch_group": "ending-consequence",
+          "region": "act-iv",
+          "evidence": []
+        }
+      ],
+      "discoveries": [
+        {
+          "id": "survival-enables-offense",
+          "finding": "Surviving ordinary impact may convert gravity from pure hazard into an offensive option without changing Maximum HP into a different power.",
+          "confidence": "speculation",
+          "book_shaping": true,
+          "evidence": [
+            {
+              "source_id": "accepted-seed:ordinary-hp-gravity",
+              "independent_group": "accepted-seed-mechanics",
+              "kind": "support",
+              "dramatic_uses": ["mechanics", "plot"],
+              "regions": ["act-i"]
+            }
+          ],
+          "propagation": [
+            {
+              "direction": "forward",
+              "target": "act-ii",
+              "reason": "If the premise survives rehearsal, Act II must discover the ordinary conditions under which impact becomes useful rather than treating the first accident as solved mastery."
+            },
+            {
+              "direction": "forward",
+              "target": "act-iv",
+              "reason": "Any late mastery should still preserve ordinary gravity danger and HP's defensive identity."
+            }
+          ]
+        }
+      ],
+      "contradictions": [],
+      "canon_events": [],
+      "reader_requirements": [],
+      "assumptions": [
+        {
+          "id": "recovered-player-identity",
+          "status": "active",
+          "statement": "Recovered recollection suggests a female player, but accepted project authority does not yet lock exact identity.",
+          "authority": "recovered-hypothesis"
+        },
+        {
+          "id": "recovered-trapped-vr-stakes",
+          "status": "active",
+          "statement": "Recovered recollection suggests trapped/death-stakes VRMMO pressure, but PROJECT_STATE explicitly keeps death stakes unsettled.",
+          "authority": "recovered-hypothesis"
+        }
+      ],
+      "unresolved_questions": [
+        {
+          "id": "q-world-stakes",
+          "question": "What consequence of death or failure makes Maximum HP a rational pre-discovery commitment?",
+          "regions": ["act-i", "act-ii"],
+          "importance": "high"
+        },
+        {
+          "id": "q-gravity-recipe",
+          "question": "Which ordinary variables make gravity damage reproducible without making it safe or trivial?",
+          "regions": ["act-i", "act-ii", "act-iv"],
+          "importance": "high"
+        },
+        {
+          "id": "q-romance-architecture",
+          "question": "Which relationship architecture becomes more alive under actual gravity experimentation and status pressure?",
+          "regions": ["act-iii", "act-iv"],
+          "importance": "high"
+        },
+        {
+          "id": "q-public-consequence",
+          "question": "What social or institutional consequence makes the technique matter beyond combat efficiency?",
+          "regions": ["act-iii", "act-iv"],
+          "importance": "medium"
+        }
+      ]
+    },
+    "forward_consequences": [
+      {
+        "id": "ge-forward-first-survival-not-mastery",
+        "kind": "forward_consequence",
+        "source_act": "act-i",
+        "target_act": "act-ii",
+        "statement": "The first gravity success should leave enough uncertainty and cost that Act II must experiment rather than instantly optimize a solved exploit.",
+        "confidence": 0.7,
+        "provenance": ["gravitys-embrace:accepted-seed", "gravitys-embrace:development-constraint"],
+        "status": "open",
+        "thread_key": "costly-gravity-learning"
+      },
+      {
+        "id": "ge-forward-technique-attracts-attention",
+        "kind": "forward_consequence",
+        "source_act": "act-ii",
+        "target_act": "act-iii",
+        "statement": "A repeatable underleveled gravity technique should create social, economic, or institutional attention if other people can witness or benefit from it.",
+        "confidence": 0.55,
+        "provenance": ["gravitys-embrace:social-pressure-hypothesis"],
+        "status": "open",
+        "thread_key": "technique-social-pressure"
+      },
+      {
+        "id": "ge-forward-power-increases-relational-vulnerability",
+        "kind": "forward_consequence",
+        "source_act": "act-ii",
+        "target_act": "act-iv",
+        "statement": "If advanced gravity experiments require setup, positioning, rescue, or recovery from another person, greater power should increase relational vulnerability rather than eliminate it.",
+        "confidence": 0.5,
+        "provenance": ["gravitys-embrace:relationship-pressure-hypothesis"],
+        "status": "open",
+        "thread_key": "mechanics-trust-entanglement"
+      }
+    ],
+    "backward_requirements": [
+      {
+        "id": "ge-backward-mastery-stays-ordinary",
+        "kind": "backward_requirement",
+        "source_act": "act-iv",
+        "target_act": "act-i",
+        "statement": "Any late-book mastery must remain traceable to ordinary Maximum HP plus ordinary gravity mechanics rather than retroactively requiring a hidden replacement class.",
+        "confidence": 0.95,
+        "provenance": ["gravitys-embrace:accepted-seed"],
+        "status": "open",
+        "thread_key": "ordinary-mechanics-leverage"
+      },
+      {
+        "id": "ge-backward-social-access-earns-gate",
+        "kind": "backward_requirement",
+        "source_act": "act-iii",
+        "target_act": "act-i",
+        "statement": "If Act III places the player among substantially higher-level people, Act I must provide a plausible access path without pretending access equals competence.",
+        "confidence": 0.55,
+        "provenance": ["gravitys-embrace:geographic-gate-hypothesis"],
+        "status": "open",
+        "thread_key": "earned-social-access"
+      },
+      {
+        "id": "ge-backward-public-cost-needs-failures",
+        "kind": "backward_requirement",
+        "source_act": "act-iv",
+        "target_act": "act-ii",
+        "statement": "If gravity mastery becomes publicly consequential, Act II needs visible failed tests, injury, resource cost, or other evidence showing why copying the technique is dangerous.",
+        "confidence": 0.65,
+        "provenance": ["gravitys-embrace:public-consequence-hypothesis"],
+        "status": "open",
+        "thread_key": "costly-gravity-learning"
+      }
+    ],
+    "cross_direction_agreements": [
+      {
+        "id": "ge-agreement-costly-mastery",
+        "acts": ["act-i", "act-iv"],
+        "statement": "The premise is strongest if gravity begins dangerous and remains dangerous even when its use becomes deliberate.",
+        "confidence": 0.7,
+        "provenance": ["gravitys-embrace:accepted-seed", "gravitys-embrace:ending-constraint"]
+      },
+      {
+        "id": "ge-agreement-mechanics-trust",
+        "acts": ["act-ii", "act-iv"],
+        "statement": "A relationship thread may become structurally useful if better gravity execution requires another person's judgment, timing, rescue, or willingness to share risk.",
+        "confidence": 0.5,
+        "provenance": ["gravitys-embrace:relationship-pressure-hypothesis"]
+      }
+    ],
+    "contradictions": []
+  }
+}
