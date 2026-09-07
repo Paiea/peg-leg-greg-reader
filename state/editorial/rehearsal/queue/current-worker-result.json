@@ -6,115 +6,20 @@
     "source_authority": "1f669dd5207e04d461a0ed5e2e5bdaad98cbbced"
   },
   "chapters": [
-    {
-      "chapter": 71,
-      "disposition": "source_win",
-      "discoveries": ["Mara Fen turns accessibility questions into ordinary work constraints instead of reassurance, and Greg saying he cannot lift lands cleanly because nobody dramatizes it.", "The inventory problem stays readable because physical logistics and accounting inference alternate rather than collapsing into one clever solution scene."],
-      "rejected_hot": [{"label":"overcompression","finding":"Compressing the access checklist would erase the new competence Greg is building around asking what a job physically requires before accepting it."}]
-    },
-    {
-      "chapter": 72,
-      "disposition": "source_win",
-      "discoveries": ["Sevren and Alden both let Greg make decisions without converting friendship into rehabilitation management.", "The strongest actor behavior is restraint: Sevren offers transport once, Alden lets a refused performance stay refused, and both keep ordinary social life moving."],
-      "rejected_hot": [{"label":"quip_inflation","finding":"The friend scene already has enough joking to feel alive; hotter banter would make the injury disappear behind everyone being funny."}]
-    },
-    {
-      "chapter": 73,
-      "disposition": "source_win",
-      "discoveries": ["Lerris earns authority by refusing to attach rails to 'probably,' while the keeper and Sera keep routing Greg back to the person who owns each decision.", "Free time and cards with Sevren are valuable precisely because nothing is optimized or converted into recovery progress."],
-      "rejected_hot": [{"label":"gratuitous_interruption","finding":"Adding more people correcting Greg around the rail would turn a useful distributed-support network into a chorus of handlers."}]
-    },
-    {
-      "chapter": 74,
-      "disposition": "source_win",
-      "discoveries": ["Edrin's best performance is disciplined disclosure: she answers the question she can answer, withholds records Greg does not need, and refuses his urge to turn possibilities into conclusions.", "The long sequence of yes/no/maybe responses is investigative narrowing, not empty repetition."],
-      "rejected_hot": [{"label":"useful_repetition_destroyed","finding":"Recomposing Edrin's repeated bounded answers into a sharper exchange would make uncertainty feel solved when the scene's point is that several mechanisms remain live."}]
-    },
-    {
-      "chapter": 75,
-      "disposition": "returns",
-      "discoveries": ["The first fourteen-step ascent works because Jorren spots physically without narrating courage and Hessa keeps the attempt bounded.", "A late packing exchange contains malformed quotation ownership around Jorren asking about the sword."],
-      "rejected_hot": [{"label":"overacted_theatre","finding":"Adding emotional dialogue at the top of the stairs would weaken the deliberately ordinary payoff: Greg reaches his room exhausted and still needs the chamber pot."}]
-    },
-    {
-      "chapter": 76,
-      "disposition": "source_win",
-      "discoveries": ["The keeper's descent spotting is character-specific because she treats Greg like a difficult household problem rather than a patient.", "The pear expedition and inability to carry ordinary objects give mobility consequences more life than another explicit recovery conversation would."],
-      "rejected_hot": [{"label":"pov_crowding","finding":"More keeper or Sevren intervention would steal the chapter from Greg discovering that mobility is asymmetric and that spontaneity now has logistical cost."}]
-    },
-    {
-      "chapter": 77,
-      "disposition": "returns",
-      "discoveries": ["Holl's scene gets its energy from discovering the actual commercial decision unit: which pile, not exact magical measurement.", "The shop opening repeats the just-established transport, medical clearance, chair, and privy logistics almost immediately, creating recap rather than pressure."],
-      "rejected_hot": [{"label":"overcompression","finding":"The actual Holl testing dialogue should remain expansive because the repeated questions progressively reveal economics, operator error, threshold design, and the difference between raw acceptance and final sorting."}]
-    },
-    {
-      "chapter": 78,
-      "disposition": "source_win",
-      "discoveries": ["Merra's archive authority is excellent because she repeatedly distinguishes what records support from what Greg wants to infer.", "The archive's tempting irrelevant names work as a test of Greg's pattern hunger and should remain messy rather than become a mystery-delivery device."],
-      "rejected_hot": [{"label":"character_caricature","finding":"Making Merra even drier or more quotable would turn a strong records professional into a one-note archivist archetype."}]
-    },
-    {
-      "chapter": 79,
-      "disposition": "returns",
-      "discoveries": ["Pessa corrects Greg's near-right interpretation of Alden without humiliating him, preserving the distinction between seeing a symptom and owning the body-level cause.", "One setup paragraph briefly reads like authorial scratchpad reconstruction as Greg corrects where he slept instead of simply remembering the morning."],
-      "rejected_hot": [{"label":"pov_crowding","finding":"Giving Pessa more direct coaching of Greg would turn his spectator role into covert rehabilitation and undercut the chapter's value as wanting, watching, play, and imperfect analysis."}]
-    },
-    {
-      "chapter": 80,
-      "disposition": "source_win",
-      "discoveries": ["The clothes purchase lets Greg spend money for pleasure rather than utility and lets attraction with Lyssa emerge through looks and logistics instead of a declared relationship beat.", "Declining the one-copper receipt job lands because no one argues with him or rewards the choice."],
-      "rejected_hot": [{"label":"quip_inflation","finding":"Tam, Rima, Lyssa, the keeper, and Nerin already generate a high joke density; making exchanges hotter would push the chapter toward sitcom rhythm."}]
-    }
+    {"chapter":71,"disposition":"source_win","discoveries":["Mara Fen turns accessibility questions into ordinary work constraints instead of reassurance, and Greg saying he cannot lift lands cleanly because nobody dramatizes it.","The inventory problem stays readable because physical logistics and accounting inference alternate rather than collapsing into one clever solution scene."],"rejected_hot":[{"label":"overcompression","finding":"Compressing the access checklist would erase the new competence Greg is building around asking what a job physically requires before accepting it."}]},
+    {"chapter":72,"disposition":"source_win","discoveries":["Sevren and Alden both let Greg make decisions without converting friendship into rehabilitation management.","Their strongest actor behavior is restraint: Sevren offers transport once, Alden lets a refused performance stay refused, and both keep ordinary social life moving."],"rejected_hot":[{"label":"quip_inflation","finding":"The friend scene already has enough joking to feel alive; hotter banter would make the injury disappear behind everyone being funny."}]},
+    {"chapter":73,"disposition":"source_win","discoveries":["Lerris earns authority by refusing to attach rails to 'probably,' while the keeper and Sera keep routing Greg back to the person who owns each decision.","Free time and cards with Sevren are valuable precisely because nothing is optimized or converted into recovery progress."],"rejected_hot":[{"label":"gratuitous_interruption","finding":"Adding more people correcting Greg around the rail would turn a useful distributed-support network into a chorus of handlers."}]},
+    {"chapter":74,"disposition":"source_win","discoveries":["Edrin's best performance is disciplined disclosure: she answers the question she can answer, withholds records Greg does not need, and refuses his urge to turn possibilities into conclusions.","The long sequence of yes/no/maybe responses is investigative narrowing, not empty repetition."],"rejected_hot":[{"label":"useful_repetition_destroyed","finding":"Recomposing Edrin's repeated bounded answers into a sharper exchange would make uncertainty feel solved when the scene's point is that several mechanisms remain live."}]},
+    {"chapter":75,"disposition":"returns","discoveries":["The first fourteen-step ascent works because Jorren spots physically without narrating courage and Hessa keeps the attempt bounded.","A late packing exchange contains malformed quotation ownership around Jorren asking about the sword."],"rejected_hot":[{"label":"overacted_theatre","finding":"Adding emotional dialogue at the top of the stairs would weaken the deliberately ordinary payoff: Greg reaches his room exhausted and still needs the chamber pot."}]},
+    {"chapter":76,"disposition":"source_win","discoveries":["The keeper's descent spotting is character-specific because she treats Greg like a difficult household problem rather than a patient.","The pear expedition and inability to carry ordinary objects give mobility consequences more life than another explicit recovery conversation would."],"rejected_hot":[{"label":"pov_crowding","finding":"More keeper or Sevren intervention would steal the chapter from Greg discovering that mobility is asymmetric and that spontaneity now has logistical cost."}]},
+    {"chapter":77,"disposition":"returns","discoveries":["Holl's scene gets its energy from discovering the actual commercial decision unit: which pile, not exact magical measurement.","The shop opening repeats the just-established transport, medical clearance, chair, and privy logistics almost immediately, creating recap rather than pressure."],"rejected_hot":[{"label":"overcompression","finding":"The actual Holl testing dialogue should remain expansive because the repeated questions progressively reveal economics, operator error, threshold design, and the difference between raw acceptance and final sorting."}]},
+    {"chapter":78,"disposition":"source_win","discoveries":["Merra's archive authority is excellent because she repeatedly distinguishes what records support from what Greg wants to infer.","The archive's tempting irrelevant names work as a test of Greg's pattern hunger and should remain messy rather than become a mystery-delivery device."],"rejected_hot":[{"label":"character_caricature","finding":"Making Merra even drier or more quotable would turn a strong records professional into a one-note archivist archetype."}]},
+    {"chapter":79,"disposition":"returns","discoveries":["Pessa corrects Greg's near-right interpretation of Alden without humiliating him, preserving the distinction between seeing a symptom and owning the body-level cause.","One setup paragraph briefly reads like authorial scratchpad reconstruction as Greg corrects where he slept instead of simply remembering the morning."],"rejected_hot":[{"label":"pov_crowding","finding":"Giving Pessa more direct coaching of Greg would turn his spectator role into covert rehabilitation and undercut the chapter's value as wanting, watching, play, and imperfect analysis."}]},
+    {"chapter":80,"disposition":"source_win","discoveries":["The clothes purchase lets Greg spend money for pleasure rather than utility and lets attraction with Lyssa emerge through looks and logistics instead of a declared relationship beat.","Declining the one-copper receipt job lands because no one argues with him or rewards the choice."],"rejected_hot":[{"label":"quip_inflation","finding":"Tam, Rima, Lyssa, the keeper, and Nerin already generate a high joke density; making exchanges hotter would push the chapter toward sitcom rhythm."}]}
   ],
   "candidates": [
-    {
-      "id": "c075-jorren-sword-quote-repair-01",
-      "chapter": 75,
-      "actor": "Jorren actor",
-      "role": "Jorren",
-      "supporting_actors": ["Nico as Greg"],
-      "take_id": "075-free-boundary-a",
-      "variance_group_id": null,
-      "actor_prefers": true,
-      "dramatic_lock_status": "preserved",
-      "reader_check": "pass",
-      "changed_surfaces": ["dialogue", "paragraphing"],
-      "before": "<p>Sword?</p><p>“Yes.</p>",
-      "after": "<p>“Sword?”</p><p>“Yes.”</p>",
-      "reason": "The packing exchange is clearly Jorren asking about the sword and Greg answering. The current HTML drops the opening quote on Jorren's line and the closing quote on Greg's response, breaking voice ownership rather than creating intentional roughness."
-    },
-    {
-      "id": "c077-nico-holl-logistics-recap-01",
-      "chapter": 77,
-      "actor": "Nico",
-      "role": "Greg",
-      "supporting_actors": ["Holl"],
-      "take_id": "077-free-boundary-a",
-      "variance_group_id": null,
-      "actor_prefers": true,
-      "dramatic_lock_status": "preserved",
-      "reader_check": "pass",
-      "changed_surfaces": ["narration_rhythm", "attention_order", "local_exchange_shape"],
-      "before": "<p>A little clamp. Nothing dramatic. Commercial. Good. I had hired the cart. Obviously. Morning wound check had been clean enough that Sera allowed normal ground-floor activity and one controlled ascent later if swelling remained modest. No stair practice. No unnecessary walking. Holl was ground floor. I had asked. Chair available. I had asked. Privy behind yard, one shallow threshold. I had asked.</p><p>Duration unknown. I had not asked because this was not a job. Progress.</p>",
-      "after": "<p>A little clamp. Nothing dramatic. Commercial. Good.</p><p>Duration unknown. I had not asked because this was not a job. Progress.</p>",
-      "reason": "The transport, wound clearance, Holl's chair, and ground-floor logistics have just been established before Greg enters the shop. Replaying them here reads as recap and delays Holl becoming the scene's active problem. Nico prefers the attention to move directly from the commercial fixture to the one thing Greg deliberately did not measure: duration."
-    },
-    {
-      "id": "c079-nico-morning-state-recompose-01",
-      "chapter": 79,
-      "actor": "Nico",
-      "role": "Greg",
-      "supporting_actors": ["Noa as Alden", "Pessa"],
-      "take_id": "079-free-boundary-a",
-      "variance_group_id": null,
-      "actor_prefers": true,
-      "dramatic_lock_status": "preserved",
-      "reader_check": "pass",
-      "changed_surfaces": ["internal_dialogue", "narration_rhythm", "attention_order"],
-      "before": "<p>Swelling low enough after yesterday's archive work and controlled stairs that Nerin had no objection to ground-floor activity. Second, stairs. I was already downstairs because I had slept downstairs after the archive day? No. I had slept upstairs, then descended that morning for wound check. Right. One controlled descent. Keeper spotting. Sit once. Still. Third, south training yard. Packed dirt. Chair brought.</p>",
-      "after": "<p>Swelling low enough after yesterday's archive work and controlled stairs that Nerin had no objection to ground-floor activity. Second, stairs. I had slept upstairs, then descended that morning for the wound check. One controlled descent. Keeper spotting. Sit once. Still. Third, south training yard. Packed dirt. Chair brought.</p>",
-      "reason": "Greg can think associatively without sounding as though he is reconstructing the previous chapter for himself. Removing the false start about where he slept preserves every physical constraint while keeping Nico inside the immediate morning rather than editorial scratchpad mode."
-    }
+    {"id":"c075-jorren-sword-quote-repair-01","chapter":75,"actor":"Jorren actor","role":"Jorren","supporting_actors":["Nico as Greg"],"take_id":"075-free-boundary-a","variance_group_id":null,"actor_prefers":true,"dramatic_lock_status":"preserved","reader_check":"pass","changed_surfaces":["dialogue","paragraphing"],"before":"<p>Sword?</p><p>“Yes.</p>","after":"<p>“Sword?”</p><p>“Yes.”</p>","reason":"The packing exchange is clearly Jorren asking about the sword and Greg answering. The current HTML drops the opening quote on Jorren's line and the closing quote on Greg's response, breaking voice ownership rather than creating intentional roughness."},
+    {"id":"c077-nico-holl-logistics-recap-01","chapter":77,"actor":"Nico","role":"Greg","supporting_actors":["Holl"],"take_id":"077-free-boundary-a","variance_group_id":null,"actor_prefers":true,"dramatic_lock_status":"preserved","reader_check":"pass","changed_surfaces":["narration_rhythm","attention_order","local_exchange_shape"],"before":"<p>A little clamp. Nothing dramatic. Commercial. Good. I had hired the cart. Obviously. Morning wound check had been clean enough that Sera allowed normal ground-floor activity and one controlled ascent later if swelling remained modest. No stair practice. No unnecessary walking. Holl was ground floor. I had asked. Chair available. I had asked. Privy behind yard, one shallow threshold. I had asked.</p><p>Duration unknown. I had not asked because this was not a job. Progress.</p>","after":"<p>A little clamp. Nothing dramatic. Commercial. Good.</p><p>Duration unknown. I had not asked because this was not a job. Progress.</p>","reason":"The transport, wound clearance, Holl's chair, and ground-floor logistics have just been established before Greg enters the shop. Replaying them here reads as recap and delays Holl becoming the scene's active problem. Nico prefers the attention to move directly from the commercial fixture to the one thing Greg deliberately did not measure: duration."},
+    {"id":"c079-nico-morning-state-recompose-01","chapter":79,"actor":"Nico","role":"Greg","supporting_actors":["Noa as Alden","Pessa"],"take_id":"079-free-boundary-a","variance_group_id":null,"actor_prefers":true,"dramatic_lock_status":"preserved","reader_check":"pass","changed_surfaces":["internal_dialogue","narration_rhythm","attention_order"],"before":"<p>Swelling low enough after yesterday's archive work and controlled stairs that Nerin had no objection to ground-floor activity. Second, stairs. I was already downstairs because I had slept downstairs after the archive day? No. I had slept upstairs, then descended that morning for wound check. Right. One controlled descent. Keeper spotting. Sit once. Still. Third, south training yard. Packed dirt. Chair brought.</p>","after":"<p>Swelling low enough after yesterday's archive work and controlled stairs that Nerin had no objection to ground-floor activity. Second, stairs. I had slept upstairs, then descended that morning for the wound check. One controlled descent. Keeper spotting. Sit once. Still. Third, south training yard. Packed dirt. Chair brought.</p>","reason":"Greg can think associatively without sounding as though he is reconstructing the previous chapter for himself. Removing the false start about where he slept preserves every physical constraint while keeping Nico inside the immediate morning rather than editorial scratchpad mode."}
   ]
 }
