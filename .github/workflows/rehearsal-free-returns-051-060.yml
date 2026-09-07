@@ -42,19 +42,25 @@ jobs:
           patch['before'] = '<p>We reset. I had seen it. Not enough. Timing. Left hand moving before the body committed. Not parry. Not spell. Maybe a cue. Maybe balance. Maybe preparation for something else. Alden saw my face.</p>'
           patch['after'] = '<p>We reset. I had seen it. Not enough. Timing. Left hand moving before the body committed. Not parry. Not spell. Maybe a cue. Maybe balance. Maybe preparation for something else. Alden saw my face and hit my guard before I finished whatever theory had started forming.</p>'
 
-          # Chapter 56: materialize the exact literal HTML span rather than trusting a
-          # rendered/retrieved reconstruction of the paragraph sequence.
+          # Chapter 56: materialize the exact literal HTML span from the unique exchange
+          # start through the first matching final-line paragraph after it.
           patch = next(p for p in data['patches'] if p['id'] == 'c056-arlo-busy-exchange-boundary-01')
           chapter = Path('chapters/056.html').read_text()
           start = '<p>Arlo shifted the bundle under his arm.</p>'
-          end = '<p>“Because you said you\'re busy.”</p>'
-          if chapter.count(start) != 1 or chapter.count(end) != 1:
-              raise SystemExit('chapter 56 literal boundary markers are not unique')
+          final_text = 'Because you said you\'re busy.'
+          if chapter.count(start) != 1:
+              raise SystemExit(f'chapter 56 start marker count={chapter.count(start)}')
           a = chapter.index(start)
-          b = chapter.index(end, a) + len(end)
+          final_pos = chapter.find(final_text, a)
+          if final_pos < 0:
+              raise SystemExit('chapter 56 final line not found after start marker')
+          b = chapter.find('</p>', final_pos)
+          if b < 0:
+              raise SystemExit('chapter 56 final paragraph close not found')
+          b += len('</p>')
           patch['before'] = chapter[a:b]
-          if patch['before'].count(start) != 1 or not patch['before'].endswith(end):
-              raise SystemExit('chapter 56 literal span materialization failed')
+          if chapter.count(patch['before']) != 1:
+              raise SystemExit(f'chapter 56 materialized span count={chapter.count(patch["before"])}')
 
           Path('/tmp/canon-051-060-boundary-hunt-returns.json').write_text(json.dumps(data, indent=2) + '\n')
           PY
