@@ -63,11 +63,22 @@ def plan_campaign(payload: dict[str, Any]) -> dict[str, Any]:
         cache_root=_path(payload, "cache_root", ".cache/plg"),
         profile=str(payload.get("profile", "eco")),
         executor=str(payload.get("executor", "codex")),
+        model=payload.get("model"),
+        reasoning_tier=payload.get("reasoning_tier"),
     )
 
 
 def run_campaign(payload: dict[str, Any]) -> dict[str, Any]:
-    return performance_campaign.run_campaign(_path(payload, "campaign_root", ".cache/plg/campaigns"))
+    if "campaign_root" in payload:
+        return performance_campaign.run_campaign(_path(payload, "campaign_root", ".cache/plg/campaigns"))
+    plan = plan_campaign(payload)
+    run = performance_campaign.run_campaign(Path(plan["campaign_root"]))
+    return {
+        "campaign_id": plan["campaign_id"],
+        "campaign_root": plan["campaign_root"],
+        "plan": plan,
+        "run": run,
+    }
 
 
 def get_campaign_result(payload: dict[str, Any]) -> dict[str, Any]:
@@ -98,14 +109,14 @@ TOOLS: dict[str, Callable[[dict[str, Any]], Any]] = {
 }
 
 TOOL_SPECS = {
-    "compile_range": {"write": False, "description": "Compile a canonical chapter range into disposable scene state and rebuild the project index."},
-    "get_scene_view": {"write": False, "description": "Return one narrow compiler view for an exact stable scene ID."},
-    "query_scenes": {"write": False, "description": "Resolve compact scene pointers through the rebuildable SQLite/FTS index."},
-    "plan_campaign": {"write": False, "description": "Plan a bounded campaign, compile scope, and suppress cache-valid work."},
-    "run_campaign": {"write": False, "description": "Execute planned derived-only campaign packets with bounded concurrency."},
-    "get_campaign_result": {"write": False, "description": "Return the compact reduced result for a campaign."},
-    "reduce_campaign": {"write": False, "description": "Recompute deterministic campaign reduction without model work."},
-    "apply_survivors": {"write": True, "description": "Sequentially validate and apply authorized surviving canon patches."},
+    "compile_range": {"write": False, "read_only": False, "description": "Compile a canonical chapter range into disposable scene state and rebuild the project index."},
+    "get_scene_view": {"write": False, "read_only": True, "description": "Return one narrow compiler view for an exact stable scene ID."},
+    "query_scenes": {"write": False, "read_only": True, "description": "Resolve compact scene pointers through the rebuildable SQLite/FTS index."},
+    "plan_campaign": {"write": False, "read_only": False, "description": "Plan a bounded campaign, compile scope, and suppress cache-valid work."},
+    "run_campaign": {"write": False, "read_only": False, "description": "Plan if needed, then execute derived-only campaign packets with bounded concurrency."},
+    "get_campaign_result": {"write": False, "read_only": True, "description": "Return the compact reduced result for a campaign."},
+    "reduce_campaign": {"write": False, "read_only": False, "description": "Recompute deterministic campaign reduction without model work."},
+    "apply_survivors": {"write": True, "read_only": False, "description": "Sequentially validate and apply authorized surviving canon patches."},
 }
 
 
