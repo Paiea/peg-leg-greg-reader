@@ -11,6 +11,7 @@ on:
       - 'tests/test_rehearsal_engine.py'
       - 'tests/test_rehearsal_overtuned_calibration.py'
       - 'state/editorial/rehearsal/campaigns/canon-001-020-overtuned-manifest.json'
+      - 'state/editorial/rehearsal/campaigns/canon-001-020-overtuned-anchor-overrides.json'
   workflow_dispatch:
 
 permissions:
