@@ -7,245 +7,246 @@ Draft PR: **#161**
 
 Settled runtime model: STORY STATE = memory; ACT I–IV = persistent temporal perspectives; REHEARSAL = experiment selection/orchestration; PERFORMANCE = high-fidelity embodied-behavior experiment; STORY SYNC = learning/convergence; PROSE = rendering.
 
-Use Dragon Spotter only for this continuation surface. Keep Dragon-specific evidence project-local. Preserve concurrent Gravity work. Do not generate sustained prose from this trailhead. PR #161 remains draft and unmerged.
+Use Dragon Spotter only for this continuation surface. Keep Dragon-specific evidence project-local. Preserve concurrent Gravity work. PR #161 remains draft and unmerged.
 
-## Current authority: Cycle 5
+# Current authority: Cycle 6 final adversarial convergence
 
-Cycle 5 ran sequentially from the evolved Cycle 4 state through the public derived-only seam:
+Cycle 6 attempted to **falsify**, not decorate, the two Cycle 5 motivational explanations.
+
+Project-local artifacts:
+
+- `cycle-6-adversarial-convergence.json`
+- `cycle-6-adversarial-evidence.json`
+
+The evidence ran sequentially after Cycles 1–5 through the real derived-only public seam:
 
 `plg_ai_tools.run_story_rehearsal_cycle`
 
-Project-local Cycle 5 evidence:
+No generic runtime change was required. DEVELOPMENT trajectory/worldline tests were sufficient. No new PERFORMANCE was needed because the uncertainties were causal/motivational and existing high-heat artifacts already supply the relevant embodied behavior.
 
-- `cycle-5-motivational-experiments.json`
-- `cycle-5-motivational-evidence.json`
+## Challenge A: try to break the first dragon
 
-No generic runtime modification was needed. No sustained prose or canon write occurred.
+Hypothesis under attack:
 
-## What Cycle 5 asked
+`voluntary-repair-of-reciprocal-standing`
 
-Broad story search stopped. The cycle asked the two causal questions left underneath the major open choices:
+The strongest existing-state counterexamples were tested.
 
-1. **What does the first dragon actually want badly enough to negotiate instead of simply taking what it can take?**
-2. **What does Greg actually want institutional legitimacy to let him do by the end?**
+### Possession is actually primary
 
-The experiment did not begin from land versus relic or Crown Spotter versus dragon envoy. Those were treated as downstream manifestations.
+This remains a worse explanation. If the dragon mainly wants possession, bargaining is an unnecessarily indirect acquisition strategy in both land and relic variants. Existing evidence becomes specifically stronger where force can obtain the physical thing but cannot create the human act.
 
-## A. First dragon motivation
+Land and relic remain materially real grievances. Possession alone still does not explain why this dragon chooses negotiation.
 
-The cheapest useful representation was a DEVELOPMENT trajectory/worldline test. Another PERFORMANCE was not necessary because the existing first-bargain high-heat artifact already contains embodied behavior for both viable bargain manifestations.
+### The dragon only wants enforcement precedent
 
-Three motive hypotheses were challenged.
+This is plausible but incomplete. Precedent explains why human action may be preferable to immediate force, but it explains the dragon's own reciprocal giving less well. If compliance/deterrence is the whole point, voluntarily returning value is strategically awkward.
 
-### Material possession as the primary end
+The challenge **did narrow the hypothesis**. Do not anthropomorphize the dragon into wanting apology, absolution, forgiveness, emotional recognition, or human moral closure.
 
-**Weak.**
+### Voluntary acknowledgment is purely instrumental
 
-Both surviving bargain variants already contain the same causal problem for a possession-only motive: the dragon can physically seize or occupy the thing. If possession were the whole objective, the negotiation loses its reason to exist.
+This was the strongest hostile alternative and produced the useful correction.
 
-Land and relic can still be the concrete grievance. They just do not explain the dragon's choice to bargain.
+The dragon can value predictability, enforceability, and future compliance rather than human-style moral recognition. But the current bargain still works best when humans voluntarily make the obligation legible and costly enough to be credible, and the dragon participates in the same reciprocal order by giving something back.
 
-### Voluntary acknowledgment of reciprocal obligation
+So the surviving narrower hypothesis is:
 
-**Strongest current explanation.**
+**restoration of a workable reciprocal order through costly voluntary human compliance**
 
-This survives both existing manifestations:
+That is political/operational reciprocity, not sentimentality.
 
-- with land restoration, humans must voluntarily stop violating and repair a treaty boundary the dragon could enforce by force,
-- with relic restitution, humans must voluntarily return something whose seizure would recover property without repairing acknowledgment of debt.
+### Greg is secretly the objective
 
-The stable causal want therefore appears to be **restoration of reciprocal standing through a costly voluntary human act**. The physical land or relic gives that act something real to cost.
+Rejected. Existing evidence makes Greg useful because he recognizes an independent dragon problem. Making the grievance a test designed for Greg requires unsupported prior targeting/mythology and turns behavior-earned recognition into predestination.
 
-This preserves the dragon as an intelligent actor with an incentive that exists before Greg arrives.
+### Compression check: land versus relic
 
-### Personal recognition from Greg as the primary end
+The compression survives.
 
-**Unsupported as the original motive.**
+An equivalent costly voluntary act can substitute for land/relic **only if** it actually repairs the relevant obligation and is voluntary, costly, and legible to both sides. That prediction explains why land restoration and relic restitution can be genuinely different concrete grievances while sharing one currently better-supported causal motive.
 
-Greg matters because he notices what the dragon is actually asking humans to do and responds usefully. Existing dragon recognition follows his behavior. It should not be retrofitted into the dragon's reason for coming.
+The two manifestations remain live. They do not currently require two different dragon motivations.
 
-### New motivational discovery
+## Challenge B: try to break Greg
 
-`first-dragon-wants-voluntary-repair` = **SPECULATION**
+Hypothesis under attack:
 
-Finding: the first dragon appears to want voluntary human repair of reciprocal standing, something force cannot create.
+`usable-legitimacy-not-certification-as-identity`
 
-This is deliberately only SPECULATION because Cycle 5 contributes one new compact motivational evidence group. It is a useful explanation, not newly manufactured story truth.
+Derived possibility under attack:
 
-## Gift discrimination
+`recognized-cross-polity-mandate`
 
-The motivational experiment **did materially discriminate `first-gift-form`**, but the current generic runtime does not have a project-neutral shared-possibility mutation contract that would let this one project-local experiment silently rewrite shared branch authority. The contradiction therefore remains formally alive in STORY SYNC rather than being fake-resolved.
+### Legal authority while everyone still treats Greg as a fraud
 
-Current causal read:
+This narrows the hypothesis. Paper permission by itself is not enough if nobody treats his negotiated commitments as credible.
 
-- **land restoration:** preserved as a viable concrete grievance,
-- **relic restitution:** preserved as a viable concrete grievance,
-- **material/coin-like first treasure:** favored,
-- **scale-token first treasure:** weakened by the Cycle 5 reasoning, but not mutated in shared branch authority.
+Greg needs **effective recognized standing** among the actors who must honor agreements. That does not require admiration, belonging, clean vindication, or universal belief that he was secretly qualified all along. Reputational friction can survive.
 
-Why coin/material treasure now fits better: once the dragon's actual want is voluntary repair of reciprocal standing, the reciprocal treasure does **not** need to mirror the demanded land or relic. Material treasure preserves the useful human error of reading value before obligation, pays Greg's mercenary motive, and drives later ownership/seizure/taxation politics.
+### The strongest Crown offer
 
-A recognition-coded scale token now carries a clearer duplication risk. It can credential Greg too early and perform story work that later behavior-earned dragon recognition already performs more powerfully.
+The hostile offer gave Greg status, security, public vindication, prestige, and legal authority, but required dragon negotiations to serve Crown priorities and constrained his ability to carry reciprocal obligations across the boundary.
 
-So `first-gift-form` is now **unresolved but materially discriminated**, not an even binary.
+If certification/status were the transformed need, this offer should win.
 
-## B. Greg and institutional legitimacy
+It does not explain the existing trajectory as well as usable authority. The offer would make institutional legitimacy a constraint on the competence Greg has actually earned. Greg may value the security and vindication, but they remain secondary to being able to do the cross-polity work effectively.
 
-This also used a DEVELOPMENT trajectory/worldline test rather than a character-bio exercise.
+His independence is therefore **instrumental, not ideological**. He needs enough discretion to perform the function, not freedom for its own sake.
 
-### Certification / public vindication as the primary end
+### No institutional standing at all
 
-**Weak as the transformed want.**
+Rejected. Dragon recognition alone cannot make human property rules, enforcement, gift politics, or institutional commitments disappear. Total independence throws away rather than transforms existing human political pressure.
 
-Greg's competence repeatedly grows when he stops imitating institutional knowledge he does not have and combines live observation with real constraints. Dragon recognition is already behavior-earned before the final human title is settled.
+### Attack the cross-polity mandate itself
 
-Having the Crown certify him can matter. Making certification itself the point risks reducing the transformation to a neat symmetry trick: fraud becomes officially certified expert.
+This challenge landed.
 
-The current evidence does not earn that as the primary end.
+If `recognized-cross-polity-mandate` means a bespoke new office granting Greg perfect autonomy, status, security, protection, and bilateral authority, it is suspiciously convenient and unsupported.
 
-### Usable authority
+The story does **not** need that institution.
 
-**Strongest current fit.**
+The useful part survives only as a **state constraint**:
 
-Greg appears to want legitimacy instrumentally: enough recognized standing, access, authority, and protection to mediate between humans and dragons and make negotiated commitments survive institutional contact.
+> Greg ends with enough effective human standing for negotiated commitments to function while dragon-side recognition remains independently behavior-earned.
 
-That fits what he has actually learned to do. He is becoming useful at the boundary between systems, not becoming a conventional scholar or bureaucratic expert.
+That condition can be rendered through Crown Spotter, dragon envoy, awkward dual recognition, or another already-supported political arrangement. Do not invent a new institution merely because the shorthand sounds tidy.
 
-### Total freedom from institutional judgment
+### Compression check: Crown Spotter versus dragon envoy
 
-**Too absolute.**
+The compression survives, but the branches remain genuinely different political manifestations.
 
-Human institutions still matter because they control whether human commitments are honored. Complete detachment would throw away rather than transform that pressure.
+Both ask the deeper question: **what authority can recognize Greg's earned competence without becoming the source or owner of it?**
 
-Greg does not need approval to create his competence, but he does need enough institutional legibility for the work to function.
+Crown Spotter leans toward incorporation/certification. Dragon envoy leans toward cross-polity independence. They remain useful alternatives for rendering that deeper legitimacy problem.
 
-### New motivational discovery
+## STORY SYNC result
 
-`legitimacy-as-usable-authority` = **SPECULATION**
+Cycle 6 deliberately did **not** promote the two motivational explanations merely because they survived one hostile follow-up.
 
-Finding: Greg's transformed relationship to legitimacy is instrumental. Authority, access, and protection for effective mediation matter more than certification as identity.
+They remain:
 
-Again, this remains SPECULATION because the evidence is new and bounded.
+- `first-dragon-wants-voluntary-repair` = **SPECULATION**
+- `legitimacy-as-usable-authority` = **SPECULATION**
 
-## Ending discrimination
+That is the correct conservative result. Cycle 5 plus Cycle 6 are two tightly related project-local evidence groups, not enough independent recurrence across the book to mechanically promote maturity.
 
-Cycle 5 **did materially discriminate the ending trajectories** without honestly locking a final title.
-
-- **Crown Spotter as the sole final identity:** weakened. Full incorporation makes Crown certification more causally central than Greg's observed want supports.
-- **dragon envoy trajectory:** favored. Cross-polity authority follows the work he has learned to do, and dragon-side recognition already exists independently of Crown naming.
-- **third path:** `recognized-cross-polity-mandate`.
-
-The third path is narrow rather than a new institution dump: human authorities can give Greg enough legal standing/protection to make agreements work while dragons recognize him independently. The old Spotter office could still survive as the human-side legal wrapper if that is useful. The exact label need not carry the story's causal weight.
-
-`ending-office-role` therefore remains formally unresolved in STORY SYNC, but it is no longer an even choice. The dragon-envoy/cross-polity trajectory currently has the stronger causal fit.
-
-## Relationship state
-
-Cycle 5 did not gratuitously reopen the relationship.
-
-Current authority remains:
+Existing mature discoveries remain unchanged:
 
 - `mutual-indispensability` = **STORY TRUTH**
+- `gift-reciprocity` = **STRONG THREAD**
+- `heat-through-competence` = **STRONG THREAD**
+- `improvisation-is-competence-path` = **STRONG THREAD**
 - `operational-reliance-before-personal-trust` = **STRONG THREAD**
 
-Attraction is still not trust. Operational dependence is still not personal surrender.
+The relationship was not reopened. Attraction remains distinct from trust. Operational reliance remains distinct from personal surrender.
 
-## Observed Cycle 5 convergence
+## Observed Cycle 6 convergence
 
-Cycle 4 → Cycle 5:
+Fresh public-seam observation:
 
-- REHEARSAL targets: **12 → 11**
-- boundary contradictions: **0 → 0**
-- unresolved long-range messages: **0 → 0**
-- temporal pressure: **0 → 0**
-- trajectory status: **candidate_passable → candidate_passable**
-- open branches: **11 → 11**
+- REHEARSAL targets: **11 → 11**
+- temporal pressure: **0**
+- boundary contradictions: **0**
+- unresolved long-range messages: **0**
+- trajectory: **candidate_passable**
+- open branches: **11**
 - open branch delta: **0**
-- new forward consequences: **0**
-- new backward requirements: **0**
+- new forward obligations: **0**
+- new backward obligations: **0**
+- new foundational discoveries: **0**
+- new foundational structure required: **no**
+- formal unresolved contradictions: `first-gift-form`, `ending-office-role`
 
-Current STORY SYNC:
+No branch was mechanically superseded in shared runtime authority.
 
-- STORY TRUTHS: `mutual-indispensability`
-- STRONG THREADS: `gift-reciprocity`, `heat-through-competence`, `improvisation-is-competence-path`, `operational-reliance-before-personal-trust`
-- REPEATED SIGNALS: none
-- new motivational SPECULATIONS: `first-dragon-wants-voluntary-repair`, `legitimacy-as-usable-authority`
-- formally unresolved contradictions: `first-gift-form`, `ending-office-role`
+### `first-gift-form`
 
-No generic runtime defect was exposed.
+Still formally unresolved, but the causal discrimination survived hostility.
 
-No shared branch was mechanically superseded. That restraint is intentional. The motivational experiments created meaningful **project-local discrimination**, but the current evidence contract does not justify inventing a generic branch-mutation feature just to make the contradiction counter fall.
+- material/coin-like treasure remains favored as the first reciprocal treasure,
+- scale-token remains weaker because it risks doing later behavior-earned dragon-recognition work too early,
+- land restoration and relic restitution remain viable concrete grievances,
+- neither gift branch is canonized or mechanically killed.
 
-## Did Cycle 5 materially change the story?
+### `ending-office-role`
 
-**A little, but mostly it explained why the existing story keeps surviving.**
+Still formally unresolved, but the causal discrimination survived hostility.
 
-It did not invent a new plot machine, faction, villain, mythology layer, power, secret, prophecy, or relationship complication.
+- dragon-envoy/cross-polity trajectory remains favored,
+- Crown Spotter remains viable as a human legal wrapper or more incorporated alternative,
+- `recognized-cross-polity-mandate` is **not** a required named office; preserve only the final-state constraint it was trying to describe.
 
-The important movement was causal:
+## Did Cycle 6 materially change Dragon Spotter?
 
-- the first dragon's land/relic binary collapsed upward into a more stable motive: voluntary repair of reciprocal standing,
-- that motive made material reciprocal treasure cleaner than a recognition-coded token without forcing land versus relic,
-- Greg's title binary collapsed upward into a more stable need: usable cross-polity authority,
-- that need favors the dragon-envoy trajectory while allowing a narrow human legal wrapper instead of requiring total institutional rejection.
+**No major causal or emotional architecture changed.**
 
-So Cycle 5 did not discover a different book. It made two existing choices substantially less arbitrary.
+The hostile cycle made two useful narrowings:
+
+1. the dragon's reciprocity is operational/political rather than sentimental moral closure,
+2. Greg's usable legitimacy requires effective recognition, not paperwork alone, and the cross-polity mandate must not become a convenient invented super-office.
+
+Neither Cycle 5 motivational explanation failed.
+
+No genuinely necessary foundational mythology, faction, villain, power, institution, prophecy, lore system, or relationship complication appeared.
+
+Broad discovery is now returning clarification rather than foundational information.
+
+# BROAD DISCOVERY COMPLETE
+
+Dragon's convergence gate is satisfied:
+
+- temporal pressure remains zero,
+- all adjacent boundaries remain compatible,
+- no unresolved long-range message remains,
+- no new temporal obligation emerged,
+- relationship trajectory remains stable after repeated adversarial PERFORMANCE,
+- both motivational explanations survived direct falsification with only narrowing,
+- land/relic and Crown/envoy are now understood as meaningful manifestations of deeper causal problems,
+- another broad cycle would have lower expected information value than rendering.
+
+## Exact next executable edge
+
+**BOUNDED PROSE RENDERING EXPERIMENT**
+
+Do not jump directly to sustained canon prose.
+
+Use a small rendering slice as a test of whether the converged lived story can produce good prose without the renderer reopening solved architecture.
+
+Recommended first bounded slice:
+
+**the first-dragon bargain sequence already carrying the strongest accumulated PERFORMANCE and motivational evidence.**
+
+Rendering constraints:
+
+1. render from current derived story state and high-value PERFORMANCE case law rather than inventing a fresh outline,
+2. keep land restoration and relic restitution as an explicit renderer choice/test unless one is selected by the bounded rendering experiment itself,
+3. default the reciprocal treasure test toward material/coin-like value but preserve the scale-token alternative as non-canon comparison if useful,
+4. preserve Greg's observation + Scholar-constraint competence path,
+5. preserve the dragon as an independent actor seeking workable reciprocal order, not Greg validation,
+6. preserve relationship authority exactly; do not accelerate trust/romance while rendering,
+7. produce candidate prose only, with no automatic canon write,
+8. evaluate prose for causal fidelity, character behavior, voice, readability, and whether rendering exposes a real missing story variable,
+9. if prose fails because of a genuine causal gap, return that exact gap to REHEARSAL; do not restart broad discovery by default.
+
+No sustained prose was written in Cycle 6.
 
 ## Verification authority
 
-Cycle 5 executable checkpoint:
+Cycle 6 executable checkpoint before CURRENT update:
 
-`a737b86f9edc774225087bce888bd601e9293ede`
+`534b8367dc18eed7494c5a09d4d97270f5dcba84`
 
-GitHub Actions STORY SYNC run:
+STORY SYNC workflow:
 
-`34140034340`
+`34142323005`
 
-Observed validation:
+Fresh verification:
 
 - focused STORY SYNC/runtime suite: **72 tests, green**
-- full repository suite: **531 tests, 6 skipped, green**
-- `DRAGON_SPOTTER_RUNTIME_CYCLE_5_OBSERVATION` emitted from the public runtime seam
+- full repository suite: **532 tests, green, 6 skipped**
+- `DRAGON_SPOTTER_RUNTIME_CYCLE_6_OBSERVATION` emitted through the real public runtime seam
+- concurrent Gravity Cycle 8 evidence was preserved and passed its fixture expectations
 - CI remained read-only validation
-- concurrent Gravity work executed in the same full suite and was preserved
 
-Cycle 5 observation from the public seam:
-
-- targets **12 → 11**
-- temporal pressure **0**
-- boundary contradictions **0**
-- unresolved long-range messages **0**
-- trajectory **candidate_passable**
-- open branches **11**, delta **0**
-- new forward consequences **0**
-- new backward requirements **0**
-
-## Rendering gate assessment
-
-Broad discovery should now stop.
-
-Cycle 5 satisfies the important gate signals:
-
-- temporal pressure remains zero,
-- boundaries remain compatible,
-- no major new obligations emerged,
-- the relationship trajectory remained stable,
-- the two motivational experiments materially explain/discriminate the final major alternatives,
-- repeated cycles are mostly reinforcing existing causal structure rather than creating foundational novelty.
-
-### Recommendation: **A. one final adversarial convergence challenge**
-
-Do **not** run another broad discovery cycle and do not automatically render prose yet.
-
-The reason for one last challenge is narrow: both motivational discriminators are new Cycle 5 evidence and remain SPECULATION. Before rendering, attack the causal claims rather than asking for more possibilities.
-
-Final adversarial edge:
-
-1. strip or swap the land/relic manifestation and see whether voluntary reciprocal repair still explains why the first dragon negotiates,
-2. offer Greg Crown status/security that would constrain cross-polity independence and see whether usable authority still predicts his choice better than vindication,
-3. challenge whether `recognized-cross-polity-mandate` is actually necessary structure or merely a renderer-level label,
-4. do not reopen the relationship unless those tests create a real contradiction.
-
-If those discriminators survive without new temporal obligations or foundational structure, the next action should be **C. a bounded prose-rendering experiment**, not another discovery cycle.
-
-Sustained prose remains unauthorized at this checkpoint.
+The full-suite count increased from 531 to 532 because Cycle 6 added one Dragon regression test.
