@@ -4,6 +4,7 @@ import unittest
 from pathlib import Path
 
 from scripts import creator_taste_prior as taste
+from scripts import story_sync_engine as sync
 
 
 class CreatorTastePriorTests(unittest.TestCase):
@@ -57,6 +58,47 @@ class CreatorTastePriorTests(unittest.TestCase):
                     "effect": effect,
                 }
             ],
+        }
+
+    def _sync_state(self, *, confidence=0.3):
+        return {
+            "schema": sync.SYNC_STATE_SCHEMA,
+            "story_confidence": confidence,
+            "possibilities": [
+                {
+                    "id": "creator-likely",
+                    "branch_group": "fork-a",
+                    "region": "act-ii",
+                    "status": "active",
+                    "viability": "viable",
+                    "creator_prior_match": "high",
+                    "creator_surprise": "low",
+                },
+                {
+                    "id": "creator-surprise",
+                    "branch_group": "fork-a",
+                    "region": "act-ii",
+                    "status": "active",
+                    "viability": "viable",
+                    "creator_prior_match": "low",
+                    "creator_surprise": "high",
+                },
+                {
+                    "id": "favored-but-invalid",
+                    "branch_group": "fork-b",
+                    "region": "act-iii",
+                    "status": "active",
+                    "viability": "invalidated",
+                    "creator_prior_match": "high",
+                    "creator_surprise": "low",
+                },
+            ],
+            "discoveries": [],
+            "contradictions": [],
+            "canon_events": [],
+            "reader_requirements": [],
+            "assumptions": [],
+            "unresolved_questions": [],
         }
 
     def test_compact_runtime_context_keeps_cross_project_and_project_signals_separate(self):
@@ -120,6 +162,30 @@ class CreatorTastePriorTests(unittest.TestCase):
         self.assertEqual(2, len(prior["signals"]))
         with self.assertRaisesRegex(ValueError, "max_signals"):
             taste.rebuild_prior(records, max_signals=26)
+
+    def test_creator_likely_branch_gets_search_priority_but_cannot_rescue_invalid_branch(self):
+        context = taste.compile_taste_context(self._prior(), self._overlay())
+        report = sync.sync_story(self._sync_state(), creator_taste=context)
+        decisions = {item["id"]: item for item in report["branch_decisions"]}
+        self.assertEqual("high", decisions["creator-likely"]["search_priority"])
+        self.assertEqual("none", decisions["favored-but-invalid"]["search_priority"])
+        self.assertEqual("kill", decisions["favored-but-invalid"]["action"])
+        self.assertIn("favored-but-invalid", report["branches_killed"])
+
+    def test_creator_surprise_preserves_one_non_obvious_rehearsal_lane(self):
+        context = taste.compile_taste_context(self._prior(), self._overlay())
+        report = sync.sync_story(self._sync_state(), creator_taste=context)
+        surprise_targets = [item for item in report["rehearsal_targets"] if item.get("purpose") == "creator_surprise_probe"]
+        self.assertEqual(["creator-surprise"], [item["source_id"] for item in surprise_targets])
+        self.assertIn("creator-surprise", report["branches_preserved"])
+
+    def test_late_convergence_does_not_increase_creator_taste_authority(self):
+        context = taste.compile_taste_context(self._prior(), self._overlay())
+        report = sync.sync_story(self._sync_state(confidence=0.9), creator_taste=context)
+        decisions = {item["id"]: item for item in report["branch_decisions"]}
+        self.assertEqual("low", decisions["creator-likely"]["search_priority"])
+        self.assertEqual([], [item for item in report["rehearsal_targets"] if item.get("source_type") == "creator_taste"])
+        self.assertEqual("heuristic_only_no_story_authority", report["creator_taste"]["authority_effect"])
 
 
 if __name__ == "__main__":
