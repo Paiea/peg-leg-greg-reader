@@ -33,11 +33,29 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
+
           src = Path('state/editorial/rehearsal/campaigns/canon-051-060-boundary-hunt-returns.json')
           data = json.loads(src.read_text())
+
+          # Chapter 55: the semantic beat sits at the end of a larger stored paragraph.
           patch = next(p for p in data['patches'] if p['id'] == 'c055-alden-stop-house-boundary-01')
           patch['before'] = '<p>We reset. I had seen it. Not enough. Timing. Left hand moving before the body committed. Not parry. Not spell. Maybe a cue. Maybe balance. Maybe preparation for something else. Alden saw my face.</p>'
           patch['after'] = '<p>We reset. I had seen it. Not enough. Timing. Left hand moving before the body committed. Not parry. Not spell. Maybe a cue. Maybe balance. Maybe preparation for something else. Alden saw my face and hit my guard before I finished whatever theory had started forming.</p>'
+
+          # Chapter 56: materialize the exact literal HTML span rather than trusting a
+          # rendered/retrieved reconstruction of the paragraph sequence.
+          patch = next(p for p in data['patches'] if p['id'] == 'c056-arlo-busy-exchange-boundary-01')
+          chapter = Path('chapters/056.html').read_text()
+          start = '<p>Arlo shifted the bundle under his arm.</p>'
+          end = '<p>“Because you said you\'re busy.”</p>'
+          if chapter.count(start) != 1 or chapter.count(end) != 1:
+              raise SystemExit('chapter 56 literal boundary markers are not unique')
+          a = chapter.index(start)
+          b = chapter.index(end, a) + len(end)
+          patch['before'] = chapter[a:b]
+          if patch['before'].count(start) != 1 or not patch['before'].endswith(end):
+              raise SystemExit('chapter 56 literal span materialization failed')
+
           Path('/tmp/canon-051-060-boundary-hunt-returns.json').write_text(json.dumps(data, indent=2) + '\n')
           PY
       - name: Dry-run all exact FREE returns
