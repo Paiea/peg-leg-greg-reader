@@ -75,6 +75,8 @@ jobs:
               return 'asked' if text.endswith(('?”','?"')) else 'said'
 
           def tagged(raw: str, who: str, verb: str) -> str:
+              # Normalize legacy trailing spaces before turning the utterance into a tagged sentence.
+              raw = raw.rstrip()
               # Dialogue tags are part of the same sentence. Statements take a comma
               # inside the closing quote; questions/exclamations keep their punctuation.
               if raw.endswith('."'):
