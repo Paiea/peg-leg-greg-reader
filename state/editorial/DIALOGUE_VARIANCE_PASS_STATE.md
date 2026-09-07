@@ -8,11 +8,11 @@ Current manuscript scope: **Chapters 1-361**
 
 ## Purpose
 
-This is the second-pass dialogue sweep governed by `state/DIALOGUE_VARIANCE_ENGINE.md`.
+This is the durable runtime and sequential state for the second-pass dialogue sweep.
 
 It is intentionally separate from the older dialogue/attribution pass.
 
-The older pass answers speaker clarity, attribution, referent continuity, and baseline voice questions. This pass asks whether Greg's compressed dry comic register has leaked into the cast, whether relationship/state/scene pressure changes speech naturally, whether strangers are too optimized, whether specialists speak from their own responsibilities, whether productive imperfection survives editing, and whether spoken exchanges remain physically and visually clear on the page.
+The older pass answers speaker clarity, attribution, referent continuity, and baseline voice questions. This pass asks whether Greg's compressed dry comic register has leaked into the cast, whether relationship/state/scene pressure changes speech naturally, whether strangers are too optimized, whether specialists speak from their own responsibilities, whether productive imperfection survives editing, whether spoken exchanges remain physically and visually clear on the page, and whether sentence boundaries are helping or merely fragmenting one continuous thought.
 
 ## Authority layering
 
@@ -22,13 +22,48 @@ Exact manuscript prose outranks everything.
 
 `state/editorial/dialogue-variance-pass/` owns this new second-pass variance review.
 
+`state/CHARACTER_BIBLE.md` is compact behavioral and continuity guidance. It does not override manuscript evidence.
+
+Fresh successful examples under `state/editorial/performance-roundtrip/` may be consulted as scene-specific evidence. They are derived reference material, not character law or story authority.
+
 A prior dialogue-pass `REVIEWED` marker does **not** count as variance coverage.
 
 ## Core runtime
 
 **SPOKEN MOMENT = BASE VOICE + RELATIONSHIP + CURRENT STATE + SCENE PRESSURE + SMALL HUMAN VARIANCE**
 
+**PROSE RHYTHM = SEMANTIC UNIT + CHARACTER BEHAVIOR + CURRENT STATE + SCENE PRESSURE + CONTRAST**
+
 Greg remains the gravitational center of short dry compressed comic reduction. Other characters may be funny, dry, clever, sarcastic, or terse. The goal is asymmetry, not dullness.
+
+Sentence length is not a fixed character fingerprint. Sentence and paragraph boundaries are presentation choices, not authority. A short unit should stay short because the stop itself earns something, not because clipped prose is assumed to be tighter or more in voice.
+
+## Prose rhythm and semantic recomposition lever
+
+Use this lever when adjacent short narration, interiority, action, or dialogue scaffolding feels over-fragmented.
+
+Preserve canon, scene outcome, information, concrete detail, character intent, and useful mundane texture first.
+
+Then apply this order:
+
+1. **Reduce semantic repetition and unnecessary sentence boundaries before reducing meaningful detail.**
+2. **Prefer one shaped sentence over several clipped sentences when they express one continuous observation, causal chain, physical process, or thought.**
+3. **Preserve short sentences where contrast, comedy, urgency, realization, physical impact, deliberate withholding, uncertainty, or character behavior earns the stop.**
+4. **After recomposition, remove only meaning that is genuinely repeated or no longer earns space.**
+5. **Do not lengthen prose globally.** A no-change verdict is valid when the existing rhythm already works.
+
+### Rhythm routing ladder
+
+Route each candidate locally instead of applying a global style preference:
+
+- **KEEP SHORT:** each boundary creates a distinct dramatic, cognitive, comic, or physical beat.
+- **RECOMPOSE:** two or more adjacent units form one semantic movement and the existing boundaries add no useful beat.
+- **COMPRESS:** after recomposition, repeated meaning still remains and can be removed without losing information, texture, voice, or causality.
+- **NO CHANGE:** preservation beats optimization when the benefit is uncertain.
+
+Prefer semantic compression over raw word-count compression. One longer shaped sentence may read faster than several short sentences if it asks the reader to process only one continuous thought.
+
+This lever applies to local prose rhythm only. It does not authorize chapter restructuring, scene deletion, new canon, or generic beautification.
 
 ## Dialogue ownership and local rewrite rule
 
@@ -89,7 +124,7 @@ Paragraph boundaries have no authority of their own.
 
 ### Scope guardrail
 
-Do not use an ownership repair as an excuse to compress the chapter, restructure the scene, add new canon, manufacture characterization, or polish unrelated prose. If the spoken exchange works, build around it rather than redesigning it.
+Do not use an ownership or rhythm repair as an excuse to compress the chapter, restructure the scene, add new canon, manufacture characterization, or polish unrelated prose. If the spoken exchange works, build around it rather than redesigning it.
 
 ## Sequential coverage ledger
 
@@ -151,6 +186,9 @@ Durable chapter-level findings and exact replacement prose remain preserved in t
 - Repeated face-reading remains a manuscript-level shortcut; prefer specific evidence.
 - Relationship familiarity should change workflow and make evidence more specific, not grant sentence prediction.
 - Voice fingerprints are tendencies, not buttons.
+- Sentence length is not a character fingerprint; let relationship, state, domain ownership, and scene pressure determine verbal space.
+- Short sentences regain force when they contrast with shaped sentences instead of becoming the default texture.
+- Procedural or systems reasoning may read faster when one causal chain is integrated into one shaped sentence.
 - First-contact perceptiveness should be expensive.
 - Professional scope can be a stronger fingerprint than diction.
 - No-change chapters are positive evidence; do not patch to meet quota.
@@ -198,7 +236,9 @@ Do not:
 - change money/magic/body continuity;
 - invent accents or caricature speech;
 - give every character a permanent speech gimmick;
-- make dialogue longer globally;
+- make dialogue or prose longer globally;
+- combine short sentences merely to meet a rhythm target;
+- use recomposition to erase useful concrete detail or mundane texture;
 - purge all dry humor from supporting characters.
 
 Hard manuscript prose rule: **NO EM DASHES.**
@@ -212,8 +252,10 @@ A chapter counts as variance-reviewed only after:
 4. recurring voice authority is consulted when materially useful;
 5. Greg/Hessa contamination and comic-register convergence are explicitly tested;
 6. relationship/state/scene-pressure modulation is considered;
-7. either a deliberate no-change verdict or exact replacement patch is durably saved under `dialogue-variance-pass/`;
-8. the durable artifact is fetched back from GitHub.
+7. local over-fragmentation is checked under the rhythm routing ladder without forcing changes;
+8. any recomposition preserves information, concrete detail, causality, and earned impact boundaries;
+9. either a deliberate no-change verdict or exact replacement patch is durably saved under `dialogue-variance-pass/`;
+10. the durable artifact is fetched back from GitHub.
 
 ## Current trailhead
 
@@ -225,4 +267,4 @@ Next intended batch: **Chapters 91-95**.
 
 ## Restart prompt
 
-`Continue PLG whole-manuscript dialogue + attribution pass from current GitHub authority on editor/voice-compression-pass, using the dialogue variance engine. Treat current spoken dialogue as the default anchor, rebuild tags/actions/reactions/paragraphs around it for clear dramatic ownership, and rewrite the smallest necessary dialogue only when scaffolding repair is not enough. Treat state/editorial/DIALOGUE_VARIANCE_PASS_STATE.md as the sequential authority and continue from its current edge in bounded 5-chapter batches.`
+`Continue PLG whole-manuscript dialogue + attribution pass from current GitHub authority, using state/editorial/DIALOGUE_VARIANCE_PASS_STATE.md as the runtime and sequential authority. Treat current spoken dialogue as the default anchor, rebuild tags/actions/reactions/paragraphs around it for clear dramatic ownership, and rewrite the smallest necessary dialogue only when scaffolding repair is not enough. Apply the prose-rhythm lever locally: reduce semantic repetition and unnecessary sentence boundaries before meaningful detail, prefer shaped sentences for continuous thoughts, and preserve short units when the stop earns contrast, comedy, urgency, realization, physical impact, uncertainty, or character behavior. Continue from the current edge in bounded 5-chapter batches.`

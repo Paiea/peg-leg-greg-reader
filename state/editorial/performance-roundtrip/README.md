@@ -42,6 +42,28 @@ Freshness is scene-local. Every `result_scene_anchor` must still appear exactly 
 
 Stale references remain historical evidence for humans. Automated consumers must ignore their visual/performance guidance.
 
+## Novelization boundary
+
+PERFORMANCE owns dramatic behavior and exchange structure. It does **not** own final prose punctuation, sentence count, or paragraph count.
+
+A performed beat boundary is not automatically a prose sentence boundary. When adjacent beats form one continuous observation, causal chain, physical process, or thought, the prose renderer may integrate them into one shaped sentence or paragraph. Preserve separation when the stop itself carries contrast, comedy, urgency, realization, physical impact, uncertainty, deliberate withholding, speaker ownership, or another clear dramatic function.
+
+When translating PERFORMANCE back into prose:
+
+1. preserve dramatic truth, behavior, action ownership, speaker ownership, information, and useful concrete detail;
+2. reduce semantic repetition and unnecessary sentence boundaries before reducing meaningful detail;
+3. prefer one shaped sentence over several clipped sentences when they express one continuous semantic movement;
+4. preserve short units when their boundary is doing real dramatic or character work;
+5. never make prose longer or smoother merely to demonstrate the rule.
+
+The source-wins rule still applies. If recomposition does not clearly improve the reading experience, retain the source rhythm.
+
+## Durable character learning
+
+Successful PERFORMANCE archives are episodic evidence, not automatic additions to character memory.
+
+A future worker may promote a behavioral or relational tendency into `state/CHARACTER_BIBLE.md` only when repeated current canon evidence supports it. Do not promote one successful exchange into an `always` rule, fixed cadence, catchphrase, or permanent personality setting.
+
 ## Illustration use
 
 A fresh archive may expose a compact `visual_reference` derived from the successful screenplay. It may help with scene selection, blocking, props, action ownership, silent reactions, and character-specific physical behavior.
