@@ -1,0 +1,94 @@
+{
+  "schema": "rehearsal_actor_registry/v1",
+  "director": "Mana",
+  "authority": "derived_editorial_only",
+  "actors": [
+    {
+      "actor_id": "actor.nico.v1",
+      "actor_name": "Nico",
+      "role": "Greg",
+      "status": "selected",
+      "casting_authority": "Mana",
+      "user_anchors": [
+        {"value": "scruff or beardish grooming", "provenance": "user_casting_anchor"},
+        {"value": "not pretty-boy polished", "provenance": "user_casting_anchor"},
+        {"value": "disheveled intensity", "provenance": "user_casting_anchor"},
+        {"value": "slightly feral or theatrical presence with something a little crazy behind the eyes, without prose constantly announcing it", "provenance": "user_casting_anchor"},
+        {"value": "early Greg has a left BKA and uses two crutches; no peg until later canon establishes it", "provenance": "user_casting_anchor"}
+      ],
+      "derived_interpretation": [
+        {"value": "practical systems curiosity rather than generic mastermind polish", "provenance": "character_bible"},
+        {"value": "dry comic compression remains Greg's gravitational center but not every response is a joke", "provenance": "character_bible"}
+      ],
+      "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
+    },
+    {
+      "actor_id": "actor.imani.v1",
+      "actor_name": "Imani",
+      "role": "Lyssa",
+      "status": "selected",
+      "casting_authority": "Mana",
+      "user_anchors": [
+        {"value": "Black", "provenance": "user_casting_anchor"},
+        {"value": "tall and thin or lithe", "provenance": "user_casting_anchor"},
+        {"value": "Afro-textured or afro-ish hair", "provenance": "user_casting_anchor"}
+      ],
+      "derived_interpretation": [
+        {"value": "independent work and life; do not flatten into Greg's sounding board or caretaker", "provenance": "character_bible"}
+      ],
+      "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
+    },
+    {
+      "actor_id": "actor.desmond.v1",
+      "actor_name": "Desmond",
+      "role": "Antonius",
+      "status": "selected",
+      "casting_authority": "Mana",
+      "user_anchors": [
+        {"value": "Black", "provenance": "user_casting_anchor"}
+      ],
+      "derived_interpretation": [
+        {"value": "practical patience; can keep working while Greg talks until information changes the decision", "provenance": "performance_roundtrip_evidence"}
+      ],
+      "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
+    },
+    {
+      "actor_id": "actor.mara.v1",
+      "actor_name": "Mara",
+      "role": "Hessa",
+      "status": "selected",
+      "casting_authority": "Mana",
+      "user_anchors": [],
+      "derived_interpretation": [
+        {"value": "evidence, safety, and procedure are behavioral ownership rather than generic mentor wisdom", "provenance": "character_bible"},
+        {"value": "may answer through repeated testing, resetting objects, counting attempts, or ending an experiment rather than always supplying the best verbal rebuttal", "provenance": "performance_roundtrip_evidence"}
+      ],
+      "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
+    },
+    {
+      "actor_id": "actor.noa.v1",
+      "actor_name": "Noa",
+      "role": "Alden",
+      "status": "selected",
+      "casting_authority": "Mana",
+      "user_anchors": [
+        {"value": "islander boy", "provenance": "user_casting_anchor"},
+        {"value": "must remain visually unmistakable from Greg at thumbnail scale", "provenance": "user_casting_anchor"}
+      ],
+      "derived_interpretation": [],
+      "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
+    },
+    {
+      "actor_id": "actor.rowan.v1",
+      "actor_name": "Rowan",
+      "role": "Arlo",
+      "status": "selected",
+      "casting_authority": "Mana",
+      "user_anchors": [],
+      "derived_interpretation": [
+        {"value": "mechanical thought should often emerge through fixtures, notebooks, failed parts, readings, and active task behavior rather than clipped refusal chains", "provenance": "performance_roundtrip_evidence"}
+      ],
+      "visual": {"status": "candidate", "era_sensitive": true, "thumbnail_distinctness_required": true}
+    }
+  ]
+}
