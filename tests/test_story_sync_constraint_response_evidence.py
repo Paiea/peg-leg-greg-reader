@@ -86,6 +86,44 @@ class RehearsalConstraintResponseEvidenceTests(unittest.TestCase):
             ],
         }
 
+    def _boundary_evidence(self, boundary_id):
+        return {
+            "schema": runtime.REHEARSAL_EVIDENCE_SCHEMA,
+            "id": "evidence:boundary-test",
+            "target_id": f"target:{boundary_id}",
+            "source_act": "act-ii",
+            "experiment_mode": "performance",
+            "fidelity": "high_heat",
+            "finding": "The performed bridge reaches a narrower downstream state than the original hypothesis.",
+            "confidence": 0.84,
+            "provenance": "rehearsal:boundary-test",
+            "local_discoveries": [],
+            "forward_consequences": [],
+            "backward_requirements": [],
+            "branch_updates": [],
+            "story_sync_discoveries": [],
+            "story_sync_evidence_updates": [],
+            "constraint_responses": [],
+            "boundary_updates": [
+                {
+                    "act_id": "act-ii",
+                    "boundary_side": "state_in",
+                    "boundary_id": "act-ii-in",
+                    "value": "earned-but-guarded",
+                    "confidence": 0.72,
+                    "reason": "Observed behavior narrows the downstream hypothesis without turning it into canon."
+                }
+            ],
+            "boundary_responses": [
+                {
+                    "boundary_id": boundary_id,
+                    "target_act": "act-ii",
+                    "response": "supported",
+                    "reason": "The mismatch is an evidence-backed transition rather than an unresolved interpolation gap."
+                }
+            ],
+        }
+
     def test_compact_rehearsal_evidence_can_close_directional_constraint(self):
         state = self._runtime()
         before = runtime.constraint_closure(state)
@@ -109,6 +147,26 @@ class RehearsalConstraintResponseEvidenceTests(unittest.TestCase):
         updated = runtime.integrate_deltas(state, runtime.reduce_rehearsal_evidence(self._support_evidence()))
         after = runtime.compile_rehearsal_targets(updated)
         self.assertFalse(any(item["source_id"] == "forward-test" and item["experiment_mode"] == "forward_consequence_test" for item in after))
+
+    def test_boundary_evidence_can_revise_derived_hypothesis_and_retire_supported_bridge(self):
+        state = self._runtime()
+        state["acts"]["act-i"]["state_out"][0]["value"] = "guarded-respect"
+        state["acts"]["act-ii"]["state_in"][0]["value"] = "mutual-reliance"
+        boundary_id = "boundary:act-i:act-ii:phase:act-i-out:act-ii-in"
+
+        before = runtime.boundary_contradictions(state)
+        self.assertEqual([boundary_id], [item["id"] for item in before])
+
+        deltas = runtime.reduce_rehearsal_evidence(self._boundary_evidence(boundary_id))
+        self.assertIn("state_boundary_update", {item["type"] for item in deltas})
+        self.assertIn("boundary_response", {item["type"] for item in deltas})
+        updated = runtime.integrate_deltas(state, deltas)
+
+        target = updated["acts"]["act-ii"]["state_in"][0]
+        self.assertEqual("earned-but-guarded", target["value"])
+        self.assertEqual("mutual-reliance", target["history"][-1]["value"])
+        self.assertEqual([], runtime.boundary_contradictions(updated))
+        self.assertFalse(any(item["source_id"] == boundary_id for item in runtime.compile_rehearsal_targets(updated)))
 
 
 if __name__ == "__main__":
