@@ -1,100 +1,95 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 494 - **THE BIDDER**.
-- Exact Chapters 249-494 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
-- Permanent running-manuscript consolidation still has known integration debt. Do not reconstruct missing exact text from summaries.
-- Full retrospective REHEARSAL 001-491 is closed and converged. Forward production uses `state/editorial/rehearsal/FORWARD_WORKFLOW.md` plus `state/editorial/rehearsal/forward/proving-run-493-500.json` during the proving run.
-- Derived REHEARSAL memory never outranks canon prose.
+- Current exact story endpoint: Chapter 496 - **THE FITTER**.
+- Exact Chapters 249-496 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries.
+- Forward production is in the 493-500 pre-prose REHEARSAL proving run. Derived memory/evidence never outranks canon prose.
 
-## Current state
-- Greg is in **Duskport at Anchor's End**, on two crutches, with his liner.
-- Hark & Venn second fitting remains **two days away** at the end of Ch494. Masta's schedule has not bent.
-- Quote remains **1s18c**, established **20c deposit** applied, and Masta has said **DO NOT PAY ANYTHING YET / QUOTE UNCHANGED**.
-- Greg remains silver-scale liquid after the Ch493 travel spend. Do not poverty-reset him.
-- Ch494 ties up a **1s refundable auction deposit** temporarily, then returns it when Greg loses. No artifact is acquired and no new debt exists.
-- Vale remains **0 / CLOSED**.
-- Protocol remains **59 minimal / 53 shaping / 159 external**. No magic attempt occurs in Ch494.
-- Lakeward has no new response or outcome in Ch494.
+## Current location / money / body / magic
+- Greg remains **in Duskport at Anchor's End** after Ch496.
+- Vale is permanently **0 / CLOSED**.
+- Greg remains silver-scale liquid. Ch495 spends **2c** on acquisition-information services plus future postage as incurred. Do not poverty-reset him.
+- No Veyr compass was acquired. Ch494 auction deposit was returned.
+- Greg remains on **two crutches outside supervised fitting use**.
+- Protocol remains **59 minimal / 53 shaping / 159 external**. No independent magic testing occurs.
+- Lakeward still has no new response/outcome through Ch496.
 
 ## Chapter 493 - THE CLIENT
-- A real Hark & Venn note says the next socket shell is ready for second fit and gives Greg a fitting window six days from receipt.
-- Greg pays **1s3c passenger fare** from Carrow to Duskport rather than earning passage through loading/stacking labor that would contaminate fitting body-state evidence.
-- He does not pre-buy a return schedule before Masta determines current state.
-- Lyssa remains in Carrow and does not supervise the trip.
-- Tavi independently proposes **carry soup** as a real two-hand task; Greg and Lyssa reduce this to a **loaded tray across a room**, only if Masta says safe.
-- Greg arrives three days early and does not ask Masta to rearrange her schedule.
-- Forward REHEARSAL caught the Carrow/Duskport geography problem before prose and correctly deferred PERFORMANCE once the selected chapter became travel rather than fitting.
+- Hark & Venn legitimately reactivates the limb lane with a second-fit notice.
+- Greg pays 1s3c passenger fare Carrow to Duskport to protect fitting body-state evidence and does not bend Masta's schedule.
+- Real two-hand target becomes a loaded tray, only if Masta says safe.
 
 ## Chapter 494 - THE BIDDER
-- A public **Duskport Harbor Survey Retirement Sale** occurs independently of Greg. Viewing is at North Instrument Hall; bids close the next day.
-- Lot 31 is an early-pattern **Veyr coastal response compass**, retired for intermittent north hold/crosswind error. Housing is sound, glass chipped, case present, response ring visually intact. Reserve is **4s**.
-- The survey appraiser is competent and prices current visible value rationally: Veyr housing, early response ring, case, and parts value. He does not know a cheap repair and does not sell an obvious miracle cheaply.
-- Posted test establishes: indoors the compass holds north; under fan crosswind the indicated heading drifts roughly 8-14 degrees and may recover late.
-- Greg observes the gray-green response ring flare on the windward side **before** needle drift. Public retirement notes say ring flare precedes indicated drift by roughly **one to three breaths under strong lateral gust**, considered a nuisance artifact and not actionable for heading correction.
-- Greg suspects the failed compass may have value as a portable wind-change indicator and has uncertain first-life memory that early Veyr response rings later mattered. This is **not established canon truth**. He explicitly rejects current wording from masquerading as memory.
-- Appraiser estimates parts value around **2-3s** to an instrument shop, potentially more for exact early-ring dimensions.
-- Other buyers independently value the lot. Greg sets a private maximum of **5s6c** before the final contest and bids to **5s5c**.
-- Another buyer, a blue-coated instrument-shop buyer, bids **5s7c**. Minimum increment makes Greg's next legal bid exceed his precommitted maximum. Greg stops.
-- Lot 31 sells to the other buyer for **5s7c**. Greg's deposit is returned. He does not chase the buyer, manufacture a networking event, or turn the loss into protagonist entitlement.
-- Greg records the public lot number, sale price, observed flare behavior, and permitted retirement-note facts. He now knows the public retirement-market route exists, but owns no Veyr artifact.
+- Public Harbor Survey retirement sale offers early Veyr coastal response compass, reserve 4s.
+- Competent appraiser knows current visible value. Ring flare is publicly observed to precede crosswind heading drift by roughly one to three breaths under strong lateral gust, but portable-warning use and historical significance remain hypotheses.
+- Greg precommits maximum 5s6c, bids 5s5c, and loses to independent instrument buyer at 5s7c. Deposit returned. He does not chase buyer.
 
-## Active progression direction
-- `state/PROGRESSION_ENGINE.md`, `state/RHYTHM_ARTIFACT_ENGINE.md`, and current economy authority remain active.
-- Primary economic progression increasingly favors brokerage / arbitrage / coordination / management / contracting / capital deployment / eventual ownership.
-- Artifact pressure should recur often enough to matter, but acquisition is not guaranteed. Ch494 deliberately proves that **wanting and correctly valuing an artifact can still end in losing it**.
-- Sellers, appraisers, specialists, and competing buyers remain economically intelligent. Greg's future knowledge is partial and fallible.
+## Chapter 495 - THE SUBSCRIBER
+- Greg does not stalk the Veyr buyer or seek consolation loot.
+- On Survey Row he finds broker **Merrin Valett**, whose business pre-exists him: instrument lots, estate goods, survey retirements, wanted notices, commission buying.
+- Terms established:
+  - wanted-item registration: **1c for three months, up to three categories**;
+  - weekly digest: **1c per month**;
+  - local matched runner notices: one bit each;
+  - outside-Duskport forwarding: postage plus one-bit handling per packet;
+  - commission buying requires a pre-authorized ceiling and adequate held/guaranteed deposit; commission varies by work/value/risk;
+  - Merrin is a broker, not an appraiser/authenticator.
+- Greg buys three-month wanted registration with only two active categories: **early Veyr response instruments** and **retired survey/route-response instruments with intact magical components but failed certification, excluding fire/heat-damage lots**. He deliberately leaves the paid third category blank.
+- Greg buys one month weekly digest to Carrow. Matched wanted notices closing within four days of Merrin's receipt should forward immediately at Greg's postage + handling, with no guarantee of arrival before close.
+- Merrin's key market correction: winning is easy if you bid too much; another common mistake is buying things you cannot store, test, repair, move, or resell.
+- Greg passes Hark & Venn before his appointment and does not enter early.
 
-## Hark & Venn / body
-- Greg remains on two crutches outside supervised fitting use.
-- Current skin/body state remains clean enough for planned fitting; no Ch494 injury is introduced.
-- Hark & Venn holds socket shell / temporary ash shaft / medium test foot. Greg has liner.
-- Real-task target remains loaded tray if Masta approves.
-- Durable priority: **usable hands / useful work**, not visual normalization or triumphant walking.
-- Greg's compensation skill can hide bad fit. Honest bad movement and honest body report remain important fitting evidence.
+## Chapter 496 - THE FITTER
+- This is the first proving-run chapter where PERFORMANCE is actually used before prose because embodied behavior determines outcome. Derived evidence is at `state/editorial/rehearsal/forward/ch496-performance.md`.
+- Second socket shell is materially improved but not final. Initial report: upper-lateral pressure reduced, posterior edge better, no sharp/burning/numb sensation.
+- Rail walking exposes a persistent compensation: Greg shortens the right step under left load and turns pelvis slightly; posterior pressure increases with hip extension.
+- Masta owns fit/safety and deliberately lets Greg move long enough to expose compensation rather than coaching every step away.
+- Hands-free standing and a few unsupported steps are possible, but are not treated as milestone or proof of readiness.
+- Masta graduates the practical task from empty board to one empty cup, two empty cups, then small amounts of water.
+- Hands-occupied turning exposes the real problem. Greg's hand instinctively reaches toward absent support, body twists, posterior socket pressure sharpens, and he **sets the tray down on the wrong table rather than saving the attempt**. Masta treats the safe abort as correct behavior.
+- Masta opens posterior relief and Venn adjusts temporary foot alignment inward slightly.
+- After adjustment Greg completes a later two-water-cup pass to the intended table without spill, though right-step shortening persists.
+- Skin after session: pink pressure areas but **no blister / no broken skin**; posterior line lighter after adjustment.
+- No final acceptance. Greg does **not** take limb home. Masta plans another session **two days later at fourth bell**, then longer supervised wear and potentially controlled outside use if evidence supports it.
+- Quote/payment remains unchanged; Masta still says no payment yet.
+- Greg chooses to stay in Duskport for the two-day interval rather than force an unnecessary round trip.
+- Durable goal sharpens to practical two-hand carrying, jokingly still framed as **carry the damn soup**.
 
-## Lakeward / relationships / other lanes
-- Lakeward's post-statement outcome remains unresolved. Do not force it because Greg is waiting in Duskport.
-- Lyssa remains in Carrow and knows Ch473. Antonius remains acquaintance/friend-adjacent and does not automatically know Ch473.
-- Hessa's no-independent-testing restriction remains active.
-- Theatre remains independently alive and unscheduled.
-- Tere gauge remains unsold. Stillhook remains Elian's.
+## Active progression / authority
+- Economic direction remains brokerage, contracting, capital deployment, eventual ownership, with artifact acquisition as a strong but non-guaranteed route.
+- Merrin owns acquisition-network expertise. Greg has bought bounded access, not absorbed her profession.
+- Hark & Venn owns prosthetic design, fit interpretation, safety, and progression. Greg owns sensation report, task goals, and whether he follows safe instructions.
+- Lyssa remains in Carrow. Antonius remains acquaintance/friend-adjacent. Hessa's no-independent-testing restriction remains active. Theatre remains independently alive.
 
 ## Forward REHEARSAL proving evidence
-### 493
-- REHEARSAL prevented a geography cheat and changed the scene before prose.
-- PERFORMANCE was correctly deferred after scene selection changed.
-- Story memory materially affected travel, money, authority, and body-state choices.
+- **493:** caught hard geography before prose; PERFORMANCE correctly deferred.
+- **494:** prevented idiot-seller/cheap-miracle artifact logic; independent buyer beat Greg.
+- **495:** converted artifact loss into acquisition infrastructure rather than consolation loot; no PERFORMANCE needed.
+- **496:** PERFORMANCE earned its cost. Two embodied takes converged on hands-occupied movement exposing compensation and on a safe voluntary set-down as competence. Those discoveries materially shaped canon prose.
+- Across 493-496, protagonist gravity is lower: Masta's schedule, auction competitors, Merrin's network, and shop safety rules remain independent systems that Greg must enter rather than command.
 
-### 494
-- REHEARSAL rejected the cheap-obvious-miracle version and required a public opportunity with competent market pricing and independent competing buyers.
-- PERFORMANCE was not invoked because uncertainty was economic/provenance/decision-based, not embodied.
-- The strongest surprise was **Greg loses the artifact**. The other buyer's independent valuation beats his precommitted ceiling, reducing protagonist gravity while still advancing artifact memory and market knowledge.
-- Story memory helped keep observation separate from attribution: ring flare is observed; portable-warning use and Veyr historical significance remain hypotheses.
-
-## Chapter 495 trailhead
-Greg begins in **Duskport with two days before the Hark & Venn fitting**, no new artifact, no Lakeward answer, and his auction deposit returned.
+## Chapter 497 trailhead
+Greg begins **in Duskport with two days before the next supervised Hark & Venn session**. He has no take-home limb yet, no Veyr compass, a new bounded Merrin acquisition channel, and no Lakeward answer.
 
 Strong movement:
-- Do not immediately replace the lost Veyr compass with a consolation artifact.
-- Let losing it change Greg's economic thinking. He now has a concrete example of why deployable capital and fast access matter.
-- One more pre-fitting day can be used, but do not fill time with generic wandering or another same-shape auction.
-- A useful route is to let Greg investigate the **market/system around acquisition** rather than the lost buyer personally: how retirement lots are announced, deposits work, specialist buyers finance inventory, or how instrument shops evaluate failed artifacts. This can sharpen his future acquisition strategy without making him universal expert.
-- Another viable route is a genuinely different social/physical Duskport event if it arises independently.
-- Preserve the fitting date. PERFORMANCE should be reserved for the actual embodied fitting unless 495 develops a concrete behavioral uncertainty worth its cost.
-- Lakeward may continue to travel silently.
+- Do not repeat fitting immediately. Two days exist because Masta needs adjustment time and other clients exist.
+- Do not consolation-buy an artifact or immediately receive a perfect Merrin match. The subscription should have latency.
+- The 496 embodied lesson may change how Greg handles ordinary Duskport movement or carrying, but do not turn it into a disability sermon.
+- Consider a genuinely different social/environmental pressure or a quiet chapter with a new function. Duskport people and systems should continue independently.
+- Greg can communicate with Carrow/Lyssa if naturally useful, but do not make her his remote analyst.
+- Lakeward may still remain silent.
+- PERFORMANCE should turn off again unless a new scene genuinely needs embodied simulation.
 
 Avoid:
-- consolation loot;
-- stalking the winning buyer;
-- instant proof Greg was secretly right;
-- another auction chapter;
-- work-for-travel justification;
-- early fitting;
-- magic testing with the Veyr observation;
+- another fitting chapter immediately;
+- instant final leg;
+- instant Merrin jackpot;
+- Veyr buyer returning to validate Greg;
+- magic test derived from compass observation;
+- generic wandering with no residue;
 - strategic manifesto repetition.
 
-**MANDATORY TITLE CHECK CH495:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
+**MANDATORY TITLE CHECK CH497:** answer `Who is Greg being?` before title and search title history.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
