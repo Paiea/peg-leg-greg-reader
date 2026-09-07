@@ -109,6 +109,51 @@ def _assert_cycle_expectations(testcase, result, expected):
         testcase.assertGreaterEqual(len(discoveries[discovery_id].get("evidence", [])), int(minimum))
 
 
+def _minimal_result(*, story_truths=None, branches_preserved=None, local_possibilities=None):
+    return {
+        "authority_effect": "derived_only_no_canon_mutation",
+        "shared_story_sync": {
+            "story_truths": list(story_truths or []),
+            "discovery_levels": {},
+            "branches_preserved": list(branches_preserved or []),
+        },
+        "branch_entropy": {"open_branch_delta": 0},
+        "temporal_consistency": {"unresolved_message_count": 0, "open_pressure_count": 0},
+        "constraint_closure": {"messages": []},
+        "evolved_runtime": {
+            "acts": {
+                act_id: {"local_state": {"possibilities": list((local_possibilities or {}).get(act_id, []))}}
+                for act_id in runtime.ACT_IDS
+            },
+            "shared_story_state": {"sync_state": {"discoveries": []}},
+        },
+    }
+
+
+class CycleExpectationContractTests(unittest.TestCase):
+    def test_missing_story_truth_expectation_does_not_assume_zero(self):
+        result = _minimal_result(story_truths=["earned-thread"])
+        _assert_cycle_expectations(self, result, {})
+
+    def test_required_active_local_branches_are_enforced(self):
+        result = _minimal_result()
+        with self.assertRaises(AssertionError):
+            _assert_cycle_expectations(
+                self,
+                result,
+                {"required_active_local_branches": ["act-i:keep-me-open"]},
+            )
+
+    def test_required_shared_branches_are_enforced(self):
+        result = _minimal_result()
+        with self.assertRaises(AssertionError):
+            _assert_cycle_expectations(
+                self,
+                result,
+                {"required_shared_branches_preserved": ["keep-ending-open"]},
+            )
+
+
 class PersistentStoryProjectFixtureTests(unittest.TestCase):
     def test_declared_project_trials_run_through_generic_runtime(self):
         manifests = sorted(FIXTURE_ROOT.glob("*/persistent-act-runtime/trial-manifest.json"))
