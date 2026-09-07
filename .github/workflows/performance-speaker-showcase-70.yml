@@ -163,7 +163,6 @@ jobs:
               report['metrics']['dialogue_paragraphs'] += len(dialogue_idxs)
               report['metrics']['explicit_dialogue_paragraphs'] += sum(1 for i in dialogue_idxs if explicits[i])
 
-              # Rule 1: a spoken line visually owns a trailing action by a different actor.
               for i in dialogue_idxs:
                   current = strip_tags(paras[i])
                   if not opening_quote(current):
@@ -173,7 +172,6 @@ jobs:
                   if action_owner and speaker and action_owner != 'OTHER' and action_owner != speaker:
                       chapter_candidates.append((i, 'foreign_action_attachment', 'high'))
 
-              # Rule 2: multiple quoted turns bridged inside one paragraph deserve speaker review.
               for i in dialogue_idxs:
                   current = strip_tags(paras[i])
                   quotes = list(quote_re.finditer(current))
@@ -182,12 +180,10 @@ jobs:
                       if proper_action_re.search(between.strip(' ,.;:!?')):
                           chapter_candidates.append((i, 'multi_speaker_paragraph', 'high'))
 
-              # Rule 3: long runs of untagged dialogue should receive periodic ownership anchors.
               run = []
               def flush_run(run):
                   if len(run) < 4:
                       return
-                  # anchor every fourth turn, plus any low-confidence re-entry.
                   for offset, idx in enumerate(run):
                       if offset in {3,7,11,15,19} or confidences[idx] in {'default-low','alternation-low'}:
                           chapter_candidates.append((idx, 'long_untagged_run', 'review'))
@@ -200,7 +196,6 @@ jobs:
                       run = []
               flush_run(run)
 
-              # Rule 4: untagged dialogue re-enters after narrative action in scenes with multiple known speakers.
               for i in dialogue_idxs:
                   if explicits[i] or i == 0 or not opening_quote(strip_tags(paras[i])):
                       continue
@@ -240,10 +235,69 @@ jobs:
           print('group A candidates', sum(c['candidates'] for c in report['chapters'][:35]))
           print('group B candidates', sum(c['candidates'] for c in report['chapters'][35:]))
           PY
-      - name: Commit disposable candidate report
+      - name: Reduce to decision-ready speaker shortlist
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter, defaultdict
+          from pathlib import Path
+
+          src = Path('state/editorial/performance-production/trials/showcase-70-speaker-rerun-candidates.json')
+          data = json.loads(src.read_text(encoding='utf-8'))
+          rank = {'foreign_action_attachment': 0, 'multi_speaker_paragraph': 1, 'multi_party_reentry': 2, 'long_untagged_run': 3}
+          by_para = {}
+          for row in data['candidates']:
+              keep = False
+              if row['priority'] == 'high':
+                  keep = True
+              elif row['rule'] == 'multi_party_reentry':
+                  keep = True
+              elif row['rule'] == 'long_untagged_run' and row['speaker_confidence'] in {'default-low','alternation-low'}:
+                  keep = True
+              if not keep:
+                  continue
+              key = (row['chapter'], row['paragraph_index'])
+              prior = by_para.get(key)
+              if prior is None or rank[row['rule']] < rank[prior['rule']]:
+                  by_para[key] = row
+          rows = sorted(by_para.values(), key=lambda r: (r['chapter'], r['paragraph_index']))
+          counts = Counter(r['rule'] for r in rows)
+          chapter_counts = Counter(r['chapter'] for r in rows)
+          summary = {
+              'schema': 'performance_speaker_showcase70_shortlist/v1',
+              'source_authority': data['source_authority'],
+              'candidate_count': len(rows),
+              'rule_counts': dict(counts),
+              'chapter_counts': {str(k): v for k,v in sorted(chapter_counts.items())},
+              'rows': rows,
+          }
+          out = Path('state/editorial/performance-production/trials/showcase-70-speaker-shortlist.json')
+          out.write_text(json.dumps(summary, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          md = [
+              '# Showcase 1-70 speaker ownership shortlist', '',
+              f"Source authority: `{data['source_authority']}`", '',
+              f"Decision-ready candidates: **{len(rows)}**", '',
+              'Rule counts: ' + ', '.join(f'{k}={v}' for k,v in sorted(counts.items())), '',
+          ]
+          for r in rows:
+              md += [
+                  f"## Canon {r['chapter']:03d} ¶{r['paragraph_index']} | {r['rule']} | {r['speaker']} ({r['speaker_confidence']})",
+                  '',
+                  f"PREV: {r['previous']}", '',
+                  f"CURR: {r['current']}", '',
+                  f"NEXT: {r['following']}", '',
+              ]
+          Path('state/editorial/performance-production/trials/showcase-70-speaker-shortlist.md').write_text('\n'.join(md) + '\n', encoding='utf-8')
+          print(json.dumps({'candidate_count': len(rows), 'rule_counts': dict(counts), 'chapters_touched': len(chapter_counts)}, indent=2))
+          PY
+      - name: Commit disposable candidate reports
         run: |
           git config user.name 'PLG PERFORMANCE Funnel'
           git config user.email 'actions@users.noreply.github.com'
-          git add state/editorial/performance-production/trials/showcase-70-speaker-rerun-candidates.json
-          git commit -m 'trial: map speaker ownership across first 70 Showcase chapters'
+          git add state/editorial/performance-production/trials/showcase-70-speaker-rerun-candidates.json state/editorial/performance-production/trials/showcase-70-speaker-shortlist.json state/editorial/performance-production/trials/showcase-70-speaker-shortlist.md
+          if git diff --cached --quiet; then
+            echo 'No report changes.'
+            exit 0
+          fi
+          git commit -m 'trial: reduce first 70 speaker ownership candidates'
           git push origin HEAD:editor/performance-speaker-showcase-70
