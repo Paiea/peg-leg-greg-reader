@@ -144,7 +144,7 @@ def build_reprompt_packet(interval: dict[str, Any], prior_candidate: str, diagno
         "targeted_feedback": list(diagnosis.get("feedback", [])),
         "uncertain": deepcopy(diagnosis.get("uncertain", [])),
         "future_repair_obligations": list(diagnosis.get("future_repair_obligations", [])),
-        "instructions": "Fix only the diagnosed prose weakness. Do not alter surviving elements or solve this by changing story facts, causal structure, character truth, reader knowledge, dependencies, or required state transition.",
+        "instructions": "Fix only the diagnosed prose weakness. Do not alter surviving elements. Do not solve this by changing story facts, causal structure, character truth, reader knowledge, dependencies, or required state transition.",
     }
 
 
