@@ -1,217 +1,151 @@
 # MANUSCRIPT STATE
 
 ## Endpoint
-- Current exact story endpoint: Chapter 492 - **THE RESPONDENT**.
-- Exact Chapters 249-492 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
-- Permanent running-manuscript consolidation still has known integration debt; do not reconstruct missing exact text from summaries.
-- Full retrospective REHEARSAL 001-491 is closed and converged. Forward production may consult `state/editorial/rehearsal/CONVERGENCE_001_491.md` and `state/editorial/rehearsal/converged-memory.json` as derived behavioral memory. They do not outrank canon prose.
+- Current exact story endpoint: Chapter 493 - **THE CLIENT**.
+- Exact Chapters 249-493 are durable checkpoints under `state/manuscript/`; exact prose outranks summaries except explicit correction overlays below.
+- Permanent running-manuscript consolidation still has known integration debt. Do not reconstruct missing exact text from summaries.
+- Full retrospective REHEARSAL 001-491 is closed and converged. Forward production uses `state/editorial/rehearsal/FORWARD_WORKFLOW.md` plus `state/editorial/rehearsal/forward/proving-run-493-500.json` during the 493-500 proving run.
+- Derived REHEARSAL memory never outranks canon prose.
 
 ## Active correction overlays
 - Ch432 forewoman: **Rika Dorn**, not Nessa Vale.
 - Lakeward/Morrow cleanup remains active: **Jonah Sol, Garrick Sol, Helena Sol, Ada, June, Celia Brohm, Elias Mercer, Sabine Orlow, Danton Pike, Judith Fen, Walter Ardin, Owen Senn** replace drifted/reused names recorded in prior checkpoints.
 - Ch460 editorial naming-cleanup meta passage remains omitted during integration.
-- Economy normalization authority is active under `state/editorial/economy-normalization/`.
-- `RECENT_CHAIN_PATCH_MAP.md` governs late numeric normalization where older exact checkpoints still contain compressed copper figures.
-- Vale's normalized final reconciled face balance is **1 gold, 6 silver**, paid in full with no waiver.
-- Current forward purse after Ch492 remains approximately **12 silver plus ordinary copper/bits**, reduced only by ordinary small spending including a three-copper advocate consultation and copy/relay bits.
+- Economy normalization authority remains active under `state/editorial/economy-normalization/`; `RECENT_CHAIN_PATCH_MAP.md` governs late numeric normalization where older exact checkpoints still contain compressed figures.
+- Vale's normalized final reconciled face balance was **1 gold, 6 silver**, paid in full with no waiver. Vale is permanently closed.
+
+## Current location / body / money / magic
+- Greg ends Ch493 **in Duskport at Anchor's End**.
+- He traveled from Carrow by paid passenger coach specifically to arrive at Hark & Venn in a useful body state rather than earning passage through loading/stacking labor.
+- Outbound passenger fare is established at **1 silver, 3 copper**, plus ordinary travel food, one overnight bed, and a one-bit note delivery. Do not invent a denomination conversion or exact post-trip purse total.
+- Greg remains comfortably **silver-scale liquid** after this travel. Do not poverty-reset him.
+- Vale balance **0 / CLOSED**.
+- Permanent LEFT BKA with knee preserved; right leg intact.
+- Greg remains on two crutches outside supervised fitting use.
+- Shoulders, right leg, residual limb, and skin arrive in Duskport without new injury. He deliberately declined small loading work and paid for a bed to avoid contaminating fitting data with avoidable travel fatigue.
+- Protocol remains **59 minimal / 53 shaping / 159 external**. No magic attempt occurs in Ch493.
 
 ## Current progression direction
-- `state/PROGRESSION_ENGINE.md` remains authoritative for earning power / capital progression.
-- Current economic method increasingly favors **brokerage / arbitrage / coordination / management / contracting / eventual ownership**, not endless small-job accumulation.
-- Cheap manual, social, theatre, and clerical work may still pay copper.
-- Skilled/commercial work should increasingly pay silver.
-- Multi-party leverage, serious risk, management, and meaningful gray work should increasingly reach tens of silver.
-- Gold-scale value or compensation should remain occasional and tied to genuinely large underlying value.
-- Do not invent a fixed copper/silver/gold conversion.
+- `state/PROGRESSION_ENGINE.md`, `state/RHYTHM_ARTIFACT_ENGINE.md`, and current economy authority remain active.
+- Primary economic progression increasingly favors **brokerage / arbitrage / coordination / management / contracting / capital deployment / eventual ownership**, not endless tiny-job accumulation.
+- Cheap social/theatre/clerical work can still pay copper without resetting Greg's earning ceiling.
+- Skilled/commercial work should increasingly pay silver; serious multi-party leverage/risk/management can reach tens of silver; gold-scale value remains occasional and tied to genuinely large underlying value.
+- Artifacts / unique objects / provenance / acquisition pressure are a **strong forward route** when a real opportunity appears. Prices must remain rational under current market-visible information.
 
-### Active normalized late earning targets
+### Active normalized late earning anchors
 - Ch471 transfer-seal witness: **2s**.
-- Ch473 gray controlled-export freight: underlying deal normalized into **tens of silver**; Greg full-load target **12s + ride**, partial-result payment **8s + ride**, driver risk premium **4s**.
-- Ch474 completed reed-glass sourcing/introduction fee target: **2s**.
+- Ch473 gray controlled-export freight: full-load target **12s + ride**; actual partial-result payment **8s + ride**; driver risk premium **4s**.
+- Ch474 reed-glass sourcing/introduction fee: **2s**.
 - Ch475 urgent heavy-yard coordination: **5s**.
 - Ch484 sway-shoe brokerage: underlying transaction **8s-scale**; Greg fee **2s**.
 - Ch485-486 South Road organizer term: **18s total**, split **6s start + 12s completion**.
-- Ch488 theatre rehearsal remains **1c** token/social pay.
+- Ch488 theatre rehearsal: **1c** token/social craft pay.
 - Ch490 West Market one-day urgent receiving contract: **9s**.
 
-These are normalization targets/overlays until every dependent exact checkpoint is patched. They outrank older copper-heavy state summaries.
-
-## Current financial / body / magic state
-- Greg ends Ch492 **home in Carrow**.
-- Vale balance **0 / CLOSED** after full repayment of normalized **1g6s** reconciled face balance.
-- Current liquid reserve remains approximately **12s plus ordinary copper/bits** after ordinary spending. Do not treat this as exact universal-denomination arithmetic.
-- Greg no longer uses the old **10c survival floor** as his primary economic boundary. Preserve meaningful operating reserve at silver scale rather than tiny-copper panic.
-- Reed-glass introduction fee remains paid/closed.
-- Work-limb quote remains **1s18c** with existing **20c deposit received/applied** until stronger shop authority changes it.
-- Nothing is currently scheduled due to Hark & Venn before final acceptance unless terms later change.
-- Hark & Venn still holds trial socket / temporary ash shaft / medium test foot; Greg has liner at home.
-- Protocol remains **59 minimal / 53 shaping / 159 external**.
-- Greg remains on two crutches outside supervised fitting use.
-- Ch492 morning after two small beers produces only dry mouth/slower first thought; body, shoulder, residual limb, and mobility are ordinary. No injury or skin break.
-- No magic attempts occur in Ch492.
-
-## Vale / Antonius
-- Vale debt is **CLOSED** as of Ch490. Do not resurrect it.
-- Antonius's lending model is genuinely predatory on paper and deliberately leverage-oriented.
-- Early 35% over eight days remains a canonical signal of how brutal the financing was.
-- Greg is financially arrogant, not financially ignorant. He understood the terms and repeatedly assumed future earning power would rescue him.
-- Antonius generally did not expect every risky borrower to repay every accrued interest line cleanly in cash; the ugly balance could preserve labor/information/access leverage.
-- Greg is the exception: he repaid the entire reconciled **1g6s** face balance anyway. No discount, waiver, or settlement reduction occurred.
-- This materially changes Antonius's respect calibration. Chapter 491 establishes voluntary social contact outside the account.
-- Current relationship remains **acquaintance / friend-adjacent / commercially credible to each other**, not best friends, father-son, therapist-client, partner, or standing drinking routine.
-- Antonius remains dry, economical, practical, ethically gray, and selectively amused.
-- Ch492 does **not** disclose Ch473 gray freight to Antonius. Greg explicitly decides one drink does not create an automatic confession channel.
-
-### Tere gauge
-- Chapter 7 negotiated Tere principal remains **5s**.
-- Chapter 10 later **10s** line should be read/patched as financed amount already climbing under Vale's brutal terms, not changed sticker price.
-- Greg's old **40g+ right-buyer estimate** remains a live value anchor, not guaranteed sale value.
-- Asset value and liquidity remain separate. Do not sell the gauge merely because Vale is closed or because the old estimate was recalled in Ch491.
-
 ## Hark & Venn / work limb
-- Existing quote remains **1s18c**; 20c deposit is applied.
-- No current storage fee, new fitting fee, approved price change, or payment due is established.
-- Final balance is due on final acceptance unless another agreement is made.
-- Work limb is not finished or presented for final acceptance.
-- Do not prepay merely because Vale is gone.
-- Hark & Venn should re-enter only through real shop word, fit request, completion/presentation, or another material change.
-- Durable behavioral priority from fitting remains **usable hands / useful work**, not visual normalization or a triumphant walking milestone.
+- A real Hark & Venn shop note arrives in Ch493. This legitimately reactivates the limb lane.
+- Masta says the **next socket shell is ready for second fit**.
+- Hark & Venn still holds the socket shell / temporary ash shaft / medium test foot. Greg has brought his liner to Duskport.
+- Existing quote remains **1s18c** with the established **20c deposit** applied.
+- Masta explicitly says **DO NOT PAY ANYTHING YET / QUOTE UNCHANGED**.
+- Greg's fitting slot is now **three days after the end of Ch493**, during Masta's stated third-to-fifth-bell window.
+- Greg arrived early but deliberately does not try to bend Masta's schedule or force a cancellation slot.
+- Masta requires one real two-hand task rather than standing for its own sake. Greg proposes **carrying a loaded tray across a room**, only if Masta says it is safe.
+- Durable mobility priority remains **usable hands / useful work**, not visual normalization or a triumphant walking milestone.
+- Greg's adaptation skill can hide fitting errors by compensating. Honest body report and honest bad movement remain important fitting evidence.
+
+## Lakeward / Ch473 gray freight
+- Lakeward Heritage Release has Greg's voluntary factual response from Ch492.
+- Greg truthfully admitted knowing the pre-merger route lots lacked export release before transport.
+- Municipal sale records he personally checked matched the transported lots, but he did not claim the district's pre-sale chain was lawful.
+- Greg did not alter, forge, remove, conceal, or destroy marks, seals, records, inventory entries, or inspection records, and did not instruct another person to do so.
+- At Cinder Cross Greg identified one toothed arc as Three Rays marked and kept other compatibility claims narrow.
+- His last personally observed custody state was the marked lot remaining with the seller after the buyer refused current purchase without release or deeper discount.
+- Ch492 establishes only that a marked lot has later returned to Lakeward jurisdiction for release review. Who returned it, current owner, precise location, and final release status remain unknown.
+- Greg disclosed his **8s + ride** compensation and the driver's separately negotiated **4s** risk premium.
+- Lyssa now knows Ch473. Antonius still does not automatically know.
+- Irena Voss was a one-time transport/licensing advocate consultation. No standing counsel relationship exists.
+- No fine, charge, summons, compulsory appearance, confiscation outcome, release decision, or liability determination exists yet.
+- Ch493 deliberately lets this response travel without forcing an outcome.
+
+## Vale / Antonius / Tere gauge
+- Vale debt is permanently **CLOSED** as of Ch490. Do not resurrect it or invent replacement debt merely to recreate old pressure.
+- Antonius remains **acquaintance / friend-adjacent / commercially credible**, dry and ethically gray. No standing drinking routine, partnership, employment relationship, confession channel, father-son frame, or therapist role.
+- Tere principal originally negotiated at **5s**; later **10s** line reflects financed balance climbing under Vale terms, not changed sticker price.
+- Greg's old **40g+ right-buyer estimate** remains a value anchor, not guaranteed current sale value. Asset value and liquidity remain distinct. Do not force a sale.
 
 ## Hessa / magic
 - Protocol remains **59 / 53 / 159**.
-- Ch482 established only candidate moving-target sensitivity.
-- Ch489 net: **2 clean / 2 unclear / 8 no-clean** across twelve supervised moving-shuttle attempts.
-- Early: 1 clean / 1 unclear / 2 no-clean across four attempts.
-- Middle: 1 clean / 1 unclear / 3 no-clean across five attempts.
-- Late: 0 clean / 0 unclear / 3 no-clean across three attempts.
-- No optimal timing window is established.
-- Travel-relative framing remains plausible but unproven.
-- Motion remains only a candidate condition.
-- Greg's own response latency is an identified confound.
-- No practical interruption/deflection capability, sub-object control, useful force, people-targeting, or independent testing is established.
+- Ch489 moving-shuttle net remains **2 clean / 2 unclear / 8 no-clean** across twelve supervised attempts.
+- Motion/timing sensitivity and travel-relative framing remain candidate only. Greg's response latency is a confound.
+- No practical interruption/deflection capability, sub-object control, useful force, people-targeting, generalized range, or independent testing is established.
 - Hessa's **NO INDEPENDENT TESTING** restriction remains active.
+- Do not schedule another Hessa scene merely because the lane is available.
 
-## Theatre
-- Renn is back and recovered enough for prompt-side work.
-- Pell remains Harrow unless later exact prose changes that.
-- Nella remains a stronger actor than Greg.
+## Theatre / relationships
+- Renn is back and recovered enough for prompt-side work. Pell remains Harrow unless stronger prose changes it. Nella remains a stronger actor than Greg.
 - Ch488 correction remains active: another person's timing/pause is not Greg's to optimize for them.
-- Ch488 theatre pay remains **1c** and should read as token/social craft pay, not Greg's financial ceiling.
-- Theatre remains independently alive; do not reactivate it by checklist merely because Ch492 used another engine.
+- Lyssa remains home in Carrow with independent garment work. She did not accompany Greg to Duskport or assign him errands there.
+- Ch493 practical intimacy: Lyssa accepts Greg paying passenger fare to protect fitting data and helps identify a real two-hand task, but she does not supervise the trip or fitting.
+- Tavi independently suggests **carry soup** as the real-task test; Greg/Lyssa reduce this to a loaded tray. Do not turn Tavi into a prosthetic-design helper.
 
-## South Road / contracting reputation
-- Four-day South Road organizer term is complete and normalized to **18s total**: **6s accepted start plan + 12s accepted completion**.
-- Field office narrow accepted reference remains: **Completed organizer term with accepted daily records.**
-- Greg does not gain fieldcraft, hiring, safety, or crew-ownership authority from this.
-- Ch490 uses the reference once as bridge to West Market receiving-house work.
-- West Market normalized pay is **9s** on accepted close record.
-- Greg's authority remained coordination only; receiving master, scale clerk, cooper lead, warehouse lead, and crew leads retained specialist authority.
-- West Market and South Road have no standing obligation to hire Greg again.
-
-## Provenance / market / gray work
-- Ch473 gray freight is no longer private residue only. It naturally resurfaces in Ch492 through **Lakeward Heritage Release / Record Reconciliation** records and Cinder Cross buyer notation.
-- Ch473 underlying transaction remains tens-of-silver scale; Greg was paid **8s + ride** after partial acceptance; driver separately negotiated **4s** risk premium.
-- Municipal sale receipts had matched the transported lots as Greg observed. Greg did not independently verify the district's pre-sale chain.
-- Greg knowingly knew pre-merger route hardware lacked required export release before transport.
-- At Cinder Cross Greg identified one toothed arc as Three Rays marked; other compatibility claims remained narrow.
-- Cinder buyer rejected the marked lot without release or deeper discount. At Greg's last personal observation, the marked lot remained with the seller.
-- Ch492 letter states one marked lot has been **returned to Lakeward jurisdiction for release review**, but the letter does not establish who returned it, who currently owns it, or its precise present location.
-- Ch492 requests Greg's factual statement about observed custody, markings, disclosed knowledge, condition, and compensation. It is voluntary at this stage, not a summons or compulsory appearance.
-- Greg obtains a three-copper transport/licensing advocate consultation from **Irena Voss** in Carrow. She explains process/risk but does not draft his statement.
-- Greg submits a narrow truthful statement through Carrow district relay. He admits knowing release was absent, denies altering/forging/concealing records or marks, records the Three Rays mark, last observed seller custody, lack of original-removal knowledge, his **8s + ride** compensation, and the driver's separately negotiated **4s** risk premium.
-- Carrow district clerk witnesses identity/signature only, not content or truth.
-- No fine, charge, compulsory appearance, confiscation outcome, or Lakeward liability determination exists yet.
-- Greg discloses the Ch473 gray freight to **Lyssa** in Ch492. Lyssa does not absolve or prosecute him; she distinguishes legitimate-looking ownership, informed driver risk, and Greg's knowingly gray transport participation as separate facts.
-- Antonius remains undisclosed unless later story pressure makes disclosure materially useful.
+## Live artifact / provenance residue
+- Stillhook remains Elian's; deeper provenance, repairability, maker/generation, profession/use, and displacement behavior remain unresolved.
 - Greg's Road Response Kit remains legally **OPEN DISPOSAL**; old survey calibration marks are voided and do not certify current accuracy.
-- North Freight has no standing obligation to send Greg more work.
 - Cross Street seller's fifth weak/unclear-chain sway shoe remains outside Greg's scope.
-- Stillhook remains Elian's; magical-displacement behavior, deeper provenance, repairability, maker/generation, and Elian's profession/use remain unresolved.
-
-## Chapter 490 normalized carryover
-- West Market one-day coordination contract is normalized to **9s**.
-- Greg coordinates three ordinary-commercial loads: kiln pigment, cloth rolls, and lamp oil.
-- One replacement-hoop oil cask has a manifest weight mismatch.
-- Cooper lead owns containment/safety, scale clerk owns certified weight, receiving master owns acceptance, and Greg keeps disputed cask from blocking scale while corrected paperwork is obtained.
-- Receiving master corrects Greg's wording from **incorrect manifest** to **held pending discrepancy review** because the error was not yet established at hold time.
-- After accepted close, Greg uses accumulated silver plus new 9s payment and a licensed moneychanger / merchant bank to prepare exact mixed coin needed to close Vale.
-- Greg pays entire remaining normalized Vale balance and receives **PAID / BALANCE ZERO**.
-
-## Chapter 491 - THE ACQUAINTANCE
-- Greg returns to Vale with no payment/account purpose and asks Antonius simply: **"Drink?"**
-- Antonius accepts and takes him to North Cut.
-- Antonius reveals he did not expect every last interest line to be paid; he expected continued leverage/value/orbit.
-- Greg makes clear he understood original financing and still took it because old-life confidence said he could always earn more later.
-- Antonius is more impressed because Greg closes the entire **1g6s** reconciled account anyway.
-- They debrief road, work, limb, Hessa, theatre, South Road, West Market, and Tere value, then continue talking after conversation stops being strategically useful.
-- Relationship lands at acquaintance / friend-adjacent.
-- Greg loosely references probably doing one illegal thing; Antonius notices but does not interrogate. Ch473 remains undisclosed to him.
-- Home close with Lyssa preserves approximately **12s + ordinary copper/bits / Vale 0 / 59-53-159 / work limb not ready**.
-
-## Chapter 492 - THE RESPONDENT
-- Morning after Ch491, a district runner delivers a Lakeward **REQUEST FOR FACTUAL STATEMENT** concerning post-sale release reconciliation for pre-merger route hardware.
-- Cinder Cross intake/buyer records identify Greg as external screener present when the marked lot was examined.
-- The request asks factual custody/marking/knowledge questions and explicitly says not to provide legal conclusions unless qualified.
-- Greg tells Lyssa the Ch473 gray-freight story for the first time. He does not minimize that he knowingly let incomplete export paperwork carry the load.
-- Lyssa asks practical questions: whether property appeared stolen, whether driver knew, whether Greg knew, and what he was paid. Her strongest correction is linguistic: do not turn omission into a lawyer-shaped defense.
-- Greg consults Carrow district records staff about procedure, then transport/licensing advocate **Irena Voss** for a three-copper document/risk review.
-- Irena keeps authority narrow: she explains that supporting municipal ownership and exposing Greg's knowing transport participation can both be true; she advises a narrow truthful factual response without legal/motive essays.
-- Greg writes and submits his own statement through Carrow district relay. No lawyer drafts it for him.
-- Greg keeps an exact copy with household records rather than hiding or displaying it.
-- Lyssa reads the submitted copy. Ch473 is now shared relationship knowledge between Greg and Lyssa.
-- No Lakeward outcome occurs in Ch492. Greg ends by refusing to invent one: the next legal/administrative consequence remains genuinely unknown.
+- Tere gauge remains unsold.
+- In Ch493 Greg passes a retired signal clamp and a broken tide lens in Duskport without investigating or asking price. These are texture, not automatically scheduled artifacts.
 
 ## Forward REHEARSAL carryover
-Use the converged 001-491 memory behaviorally, not as a checklist:
+Use behaviorally, not as a checklist:
 - **Observation can be real while attribution remains unsettled.**
 - Greg is most trustworthy when he knows the edge of his authority.
 - Restraint can be competent action.
 - Greg's long-range professional shape is support at increasing scale, not universal expertise.
-- Other people's work, obligations, and futures remain theirs.
+- Other people's work, obligations, schedules, and futures remain theirs.
 - New places/systems should broaden the world before they broaden Greg's importance.
-- SOURCE WIN remains a valid forward REHEARSAL result. Do not force synthetic cleverness into prose.
+- SOURCE WIN remains valid. Do not force synthetic cleverness into prose.
+
+### Proving-run evidence from Chapter 493
+- Pre-prose REHEARSAL initially preferred an immediate Hark & Venn fitting, then caught the hard geography fact that Hark & Venn is in Duskport while Greg was home in Carrow.
+- The selected scene changed before prose into a **travel/capital/client** chapter.
+- PERFORMANCE was therefore **deferred**, correctly, because the embodied fitting had not happened yet.
+- Memory materially helped: Greg protects body-state evidence, pays to remove travel friction, refuses small loading work, does not pre-buy a return schedule, and does not bend Masta's appointment around his excitement.
 
 ## Protected uncertainties / live residue
-- Vale debt is closed permanently.
-- Antonius is socially available, but no permanent drinking routine, close friendship, partnership, or employment relationship is established.
-- Work-limb final socket is not finished; Hark & Venn has trial hardware and Greg has liner. No current Hark & Venn payment due.
-- Protocol **59 / 53 / 159**; moving-target/timing/travel-relative claims remain candidate only; no independent testing.
-- Renn is back at theatre; Pell remains Harrow unless stronger prose changes that.
-- Stillhook remains Elian's; no instant replacement.
-- Morrow and other pending lanes remain unresolved unless later authority naturally moves them.
-- West Market has no standing obligation to hire Greg again.
+- Lakeward's post-statement outcome.
+- Current owner / precise custody / release status of the marked Three Rays lot.
+- Hark & Venn second-fit result, later completion timing, final acceptance, and final balance timing.
+- Magic motion/timing/travel-relative interpretation.
+- Stillhook deeper truth.
+- Current artifact market value/provenance/hidden capability unless exact prose establishes it.
+- West Market and South Road have no standing obligation to hire Greg again.
 - No permanent companion.
-- Lakeward has Greg's voluntary factual response. No current fine, charge, order, compulsory appearance, release decision, or enforcement outcome is established.
-- Current owner / exact present custody of the marked Three Rays lot remains unestablished. Ch492 establishes only that a marked lot has returned to Lakeward jurisdiction for review.
-- Lyssa knows Ch473. Antonius still does not.
 
-## Chapter 493 trailhead
-Greg begins **home in Carrow with approximately 12s plus ordinary copper/bits, Vale 0 / CLOSED, protocol 59 / 53 / 159**, and a copy of his Lakeward statement in household records.
+## Chapter 494 trailhead
+Greg begins **in Duskport at Anchor's End**, on two crutches, with his liner and a confirmed Hark & Venn fitting **three days away**. Lakeward has no new outcome.
 
 Strong movement:
-- Let the Lakeward response travel. Do **not** immediately answer Ch492 with a fine, summons, absolution, chase, or return trip unless a genuinely new authority arrives.
-- Do not turn one advocate consultation into a legal-career or recurring-lawyer lane. Irena Voss exists because Greg needed transport/licensing advice; no standing relationship is established.
-- Ch473 is now disclosed to Lyssa. Let that relationship knowledge become ordinary residue rather than forcing an argument sequel.
-- Antonius still does not need an automatic confession scene.
-- Preserve the economic ratchet. Greg can take small work socially, but primary progression increasingly supports larger contracts, brokerage, capital deployment, distinctive artifacts/opportunities, and eventual ownership.
-- Hark & Venn can re-enter only through real shop word/material change.
-- Tere gauge or artifact pressure can re-enter through a real buyer/appraisal/acquisition opportunity, not because the trailhead needs a shiny object.
-- Hessa should wait for a genuinely designed next session.
-- Theatre, Lyssa, Sori, Antonius, and other people continue independently.
-- Follow the next actual claim rather than rotating engines by checklist.
+- Do **not** skip directly to the fitting or make Masta's schedule bend. Three days exist and should feel real.
+- Duskport is a legitimate high-density place for public salvage, old instruments, workshops, markets, docks, estate/surplus goods, and artifact/provenance pressure. `RHYTHM_ARTIFACT_ENGINE.md` strongly favors this route when a real opportunity appears.
+- Prefer a public opportunity not tailored to Greg. Seller/market knowledge must be credible. Visible useful magic should already cost real money.
+- Greg has silver-scale capacity, but the 1s3c fare and travel spending matter. Do not poverty-reset him and do not make every purchase easy.
+- A genuine acquisition or concrete acquisition target is welcome if the value asymmetry is justified. Do not require purchase merely to satisfy an artifact quota.
+- Let Lakeward travel. Do not invent an immediate response in Duskport.
+- Lyssa remains in Carrow. Do not import her for convenience.
+- Avoid another same-shape coordination contract while Greg is explicitly traveling as a client.
+- PERFORMANCE is unnecessary unless the chosen 494 pressure becomes materially embodied.
 
 Avoid:
-- immediate Lakeward resolution;
-- legal thriller escalation from one factual request;
-- making Greg a lawyer because he learned to answer narrowly;
-- another same-shape coordination contract immediately;
-- poverty reset around ~12s;
-- resurrecting Vale debt;
-- paying Hark & Venn early with no benefit;
-- practical magic upgrade without evidence;
+- early fitting;
+- another legal/paperwork chapter;
+- idiot artifact seller;
+- obvious miracle sold cheaply;
+- Greg instantly knowing every artifact;
+- another work-ride/job used to justify his presence;
 - strategic manifesto repetition.
 
-**MANDATORY TITLE CHECK CH493:** answer `Who is Greg being?` before title. Use THE [ROLE] and search title history.
+**MANDATORY TITLE CHECK CH494:** answer `Who is Greg being?` before title. Use THE [ROLE] and search repository title history.
 
 ## Restart prompt
 `Continue Peg-Leg Greg Manuscript Engine from current GitHub authority.`
