@@ -7,6 +7,7 @@ on:
     paths:
       - 'scripts/performance_selected_campaign.py'
       - 'tests/test_performance_campaign_selection.py'
+      - 'state/editorial/performance-production/showcase-next-50-results.jsonl'
       - '.github/workflows/reverse-edit-showcase-next-50-trial.yml'
   workflow_dispatch:
 
@@ -79,7 +80,71 @@ jobs:
           print(f"Selected {len(expected)} Showcase-visible chapters; {campaign['plan']['scenes_considered']} scenes; {campaign['plan']['packets_planned']} packets; {campaign['plan']['cache_hits']} cache hits")
           PY
 
-      - name: Upload disposable campaign packets
+      - name: Validate performed results and run reducer
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from scripts import performance_campaign as campaign
+          from scripts import performance_production_funnel as funnel
+
+          source = Path('state/editorial/performance-production/showcase-next-50-results.jsonl')
+          rows = [json.loads(line) for line in source.read_text(encoding='utf-8').splitlines() if line.strip()]
+          if len(rows) != 50:
+              raise SystemExit(f'expected 50 performed results, found {len(rows)}')
+          for row in rows:
+              funnel.validate_comparison(row['comparison'])
+              funnel.validate_record(row['record'])
+          roots = list(Path('.cache/plg/campaigns').glob('*'))
+          if len(roots) != 1:
+              raise SystemExit(f'expected one campaign root, found {len(roots)}')
+          root = roots[0]
+          campaign._write_jsonl(root / 'results.jsonl', rows)
+          summary = campaign.reduce_campaign(root)
+          expected = {
+              'results': 50,
+              'source_wins': 48,
+              'performance_candidates': 2,
+              'ambiguous': 0,
+              'surviving_patches': 1,
+              'failures': 0,
+          }
+          for key, value in expected.items():
+              if summary.get(key) != value:
+                  raise SystemExit(f'{key}: expected {value}, got {summary.get(key)}')
+          Path('.cache/plg/trial/reducer-summary.json').write_text(
+              json.dumps(summary, ensure_ascii=False, indent=2), encoding='utf-8'
+          )
+          print(json.dumps(summary, indent=2))
+          PY
+
+      - name: Dry-run serialized canon integration
+        run: |
+          rm -rf .cache/plg/integration-chapters
+          cp -R chapters .cache/plg/integration-chapters
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          from scripts import performance_campaign as campaign
+
+          roots = list(Path('.cache/plg/campaigns').glob('*'))
+          result = campaign.integrate_campaign(
+              roots[0],
+              Path('.cache/plg/integration-chapters'),
+              current_authority=os.environ['SOURCE_AUTHORITY'],
+          )
+          changed = [Path(value).name for value in result['changed']]
+          if changed != ['072.html']:
+              raise SystemExit(f'expected only 072.html to change, got {changed}')
+          if result['survivors'] != 1:
+              raise SystemExit(f"expected one survivor, got {result['survivors']}")
+          Path('.cache/plg/trial/integration-result.json').write_text(
+              json.dumps(result, ensure_ascii=False, indent=2), encoding='utf-8'
+          )
+          print(json.dumps(result, indent=2))
+          PY
+
+      - name: Upload disposable campaign packets and results
         uses: actions/upload-artifact@v4
         with:
           name: reverse-edit-showcase-next-50-packets
